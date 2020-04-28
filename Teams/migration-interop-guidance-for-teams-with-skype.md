@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 비즈니스용 Skype에서 팀으로 전환 관리에 대 한 지침
+description: 비즈니스용 Skype에서 팀으로 조직의 전환을 관리 하기 위한 기본 개념을 이해 하세요.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bf12dc366de030329b306fdd2f68291b5ff532d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fd4c733aece4bc75c0bce16c77aebae4806fecd7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140277"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904393"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침
 
@@ -112,7 +112,7 @@ TeamsUpgradePolicy는 Mode 및 NotifySfbUsers 라는 두 가지 키 속성을 �
 </br>
 </br>
 
-|매개 변수|유형|허용 되는 값</br>(기울임꼴의 기본값)|Description|
+|매개 변수|유형|허용 되는 값</br>(기울임꼴의 기본값)|설명|
 |---|---|---|---|
 |모드|열거할|*아일랜드*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings|클라이언트가 실행 되어야 하는 모드를 나타냅니다.|
 |NotifySfbUsers|부울|*False* 또는 true|Skype for Business 클라이언트에 팀이 곧 비즈니스용 Skype를 교체할 수 있음을 알리는 배너를 표시할지 여부를 나타냅니다. Mode = TeamsOnly에만 해당 하는 경우에는 true를 사용할 수 없습니다.|

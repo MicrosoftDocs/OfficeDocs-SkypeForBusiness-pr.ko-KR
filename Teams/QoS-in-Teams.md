@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Microsoft 팀에서 QoS (서비스 품질)를 위해 조직의 네트워크를 준비 하는 방법을 알아봅니다.
+description: Microsoft 팀의 QoS (서비스 품질)에 대 한 조직의 네트워크를 준비 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,17 +16,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bbb66b99a061648c4c12b7611fc7054a4044c6f
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: d0fb9a90a3528ed8d2d7f4d2f00843a9215e92a2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237891"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902423"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft 팀에서 QoS (서비스 품질) 구현
 

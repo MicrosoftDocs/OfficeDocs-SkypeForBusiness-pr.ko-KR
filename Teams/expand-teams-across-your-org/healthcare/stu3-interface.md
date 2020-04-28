@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft 팀 환자 앱을 사용 하도록 FTO r 서버를 설정 하거나 다시 구성 하는 등 팀의 STU3 인터페이스 사양에 대해 알아봅니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 35d887575ffb894b7a47e50511e6bd6c3a9a75d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Microsoft 팀 환자 앱 및 STU3 인터페이스 사양에 전자 상태 레코드를 통합 하는 방법에 대해 자세히 알아보세요.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2e101f6ca50a76b4b8bb9d3dd33d35fd7706a81f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141201"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905750"
 ---
 # <a name="stu3-interface-specification"></a>STU3 인터페이스 사양
 

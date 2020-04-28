@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Microsoft 팀 대화방 관리 개요.
-ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Microsoft 팀 대화방 시스템을 사용자가 사용할 수 있도록 하기 위해 지속적인 유지 관리 및 작업을 개발 하 고 실행 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825886"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905370"
 ---
 # <a name="management-overview"></a>관리 개요
 
@@ -75,7 +76,7 @@ Microsoft Operations Manager Suite를 사용 하 여 Microsoft 팀 회의실 시
 Microsoft 팀 대화방은 Windows 10 Enterprise IoT 또는 Windows 10 Enterprise (VL)에서 실행 되며 표준 데스크톱으로 동일한 Windows 업데이트 및 OS 빌드를 받습니다. 자세한 내용은 [Windows 업데이트 관리](updates.md) 를 참조 하세요.
 
 
-## <a name="troubleshooting"></a>해결사
+## <a name="troubleshooting"></a>문제 해결
 
 운영 팀과 헬프 데스크에 Microsoft 팀 대화방 문제에 대 한 알림이 표시 되도록 위의 섹션에서 설명한 대로 Operations Management Suite 경고를 설정 하는 것이 좋습니다. PowerShell 원격 관리에 사용할 수 있는 옵션은 PowerShell을 [사용 하 여 원격 관리](rooms-operations.md#remote-management-using-powershell)에 설명 되어 있습니다. 주변 장치에 대 한 연결이 끊어지면 로컬 "smart 핸 즈"를 사용 하거나 장치를 다시 연결 하는 기능을 지원 해야 할 수 있습니다. 
 
@@ -86,10 +87,10 @@ Microsoft 팀 대화방은 Windows 10 Enterprise IoT 또는 Windows 10 Enterpris
 
 [Microsoft 팀 대화방 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Microsoft 팀 회의실 계획](rooms-plan.md)
+[Microsoft Teams 룸 계획](rooms-plan.md)
 
-[Microsoft 팀 대화방 배포](rooms-deploy.md)
+[Microsoft Teams 룸 배포](rooms-deploy.md)
 
-[Microsoft 팀 대화방 콘솔 구성](console.md)
+[Microsoft Teams 룸 콘솔 구성](console.md)
 
 [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리](xml-config-file.md)

@@ -13,15 +13,16 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: 통화 계획 랜딩 페이지
+description: 팀에서 클라우드 음성으로 조직에 가장 적합 한 Microsoft Phone 시스템 호출 계획을 결정 합니다.
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c62ce8a891244920257623aea9a62859161a129f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825196"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905030"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>사용자에게 적합한 통화 플랜은 무엇인가요? 
 

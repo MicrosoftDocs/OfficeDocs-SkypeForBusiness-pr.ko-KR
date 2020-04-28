@@ -8,25 +8,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 비즈니스용 Skype 서버 또는 Microsoft Lync 온-프레미스 배포에서 팀으로 업그레이드를 배포 하 고 구현 합니다.
+description: 비즈니스용 Skype 온-프레미스 배포에서 조직을 Microsoft 팀으로 업그레이드 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac5045df6462be28d7f13e093695376ea612e6cd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 491f4132d5f5c4c4e5d8215d0d48277a864cf064
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780157"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905220"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>비즈니스용 Skype 온-프레미스에서 팀으로 업그레이드
 

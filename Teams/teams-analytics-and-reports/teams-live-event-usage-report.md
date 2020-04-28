@@ -16,18 +16,19 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 팀 실시간 이벤트 사용 보고서를 사용 하 여 조직의 팀 live 이벤트 활동에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827246"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904293"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 팀 실시간 이벤트 사용 보고서
 
 Microsoft 팀 관리 센터의 팀 실시간 이벤트 사용 보고서에는 조직에 보관 된 라이브 이벤트에 대 한 활동 개요가 표시 됩니다. 이벤트 상태, 시작 시간, 보기, 각 이벤트에 대 한 프로덕션 유형 등의 사용 정보를 볼 수 있습니다. 사용 추세에 대 한 통찰력을 얻고 조직의 누가 일정을 예약 하 고, 표시 하 고, 라이브 이벤트를 생성 하는지 확인할 수 있습니다.
 
-## <a name="view-the-report"></a>보고서 보기
+## <a name="view-the-live-event-usage-report"></a>라이브 이벤트 사용 보고서 보기
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서** > **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **팀 실시간 이벤트 사용**을 선택 합니다.
 2. **날짜 범위**아래에서 미리 정의 된 범위를 선택 하거나 사용자 지정 범위를 설정 합니다. 범위를 설정 하 여 현재 날짜의 6 개월 전부터 1 년 까지의 데이터를 표시할 수 있습니다.

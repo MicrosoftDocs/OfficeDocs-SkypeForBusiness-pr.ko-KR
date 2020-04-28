@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 무료 가상 사용자 라이선스에 대해 알아보세요.
-ms.openlocfilehash: f2ecaddc6fd1dcc4bbb179fde3f495a0eea29353
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+- seo-marvel-apr2020
+description: 조직의 리소스 계정에 무료 전화 시스템-가상 사용자 라이선스 또는 유료 전화 시스템 사용자 라이선스를 할당 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 5a60e757f4ed9dbca67219217257894a8f95a295
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190821"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904790"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템-가상 사용자 라이선스 
 

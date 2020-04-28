@@ -12,11 +12,11 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: 대규모 배포에서 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
+description: Microsoft 끝점 구성 관리자를 사용 하 여 대규모 배포에서 Microsoft 팀 회의실을 배포 하는 방법에 대해 알아봅니다.
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f96b970165996cc27308ce616fb4875d741f8869
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141021"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905320"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -728,7 +728,7 @@ Microsoft 끝점 구성 관리자 작업 시퀀스를 완료 한 후에는 작�
 
     5.  **부팅 구성을**선택 합니다.
 
-    6.  다음 중 하나를 수행 합니다.
+    6.  다음 중 하나를 수행합니다.
 
         -   **PXE 부팅**을 선택 하 고 목록 맨 위로 끕니다. 또는 네트워크 어댑터에서 왼쪽으로 살짝 밀어 장치에 바로 부팅할 수 있습니다. 이는 부팅 순서에 영향을 주지 않습니다.
         -   부팅 미디어를 보유 하는 USB 플래시 드라이브를 선택 합니다.

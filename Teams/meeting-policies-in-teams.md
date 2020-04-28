@@ -21,13 +21,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
-description: 팀에서 모임 정책 설정을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: b87453fb24173ba648511f49efc82becb2616d70
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+- seo-marvel-apr2020
+description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
+ms.openlocfilehash: d06dbe4d2a6e7750abba5352becc15be1daf8ce6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505635"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904433"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -77,7 +78,7 @@ ms.locfileid: "43505635"
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **모임** > **모임 정책**으로 이동 합니다.
 2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
 3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 선택 합니다.
 
 > [!NOTE]

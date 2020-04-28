@@ -7,25 +7,25 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 비전과 목표를 구체화 하 여 업그레이드 프로젝트의 범위를 조정 합니다.
+description: 모든 프로젝트 관련자를 정렬 하 고 동일한 최종 결과를 유지 하도록 비전과 목표를 구체화 하 여 업그레이드 프로젝트의 범위를 조정 합니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f9592d20f95b32bab45f2f1d5cf3aa0431a838b9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780607"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904483"
 ---
 # <a name="define-your-project-scope"></a>프로젝트 범위 정의
 
@@ -107,7 +107,7 @@ ms.locfileid: "43780607"
 
 | 따르는 | 발생할 | 끼칠 | 총 | 완화 계획 |
 |---|---|---|---|-------|
-| **네트워크 품질** | 높음이나 | Hd | Hd | 네트워크 계획 연습을 실행 합니다. |
+| **네트워크 품질** | 중형 | Hd | Hd | 네트워크 계획 연습을 실행 합니다. |
 | **사용자 채택을 낮게** | Hd | Hd | Hd | 파일럿 및 배포 단계 중 사용자와 사전에 작업 합니다. 원하는 대상을 만들려는 대상 인식 및 교육 캠페인을 구현 합니다. |
 | | | | | |
 

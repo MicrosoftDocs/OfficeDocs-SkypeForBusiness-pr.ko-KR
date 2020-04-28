@@ -10,19 +10,21 @@ search.appverid: MET150
 ms.reviewer: srividhc
 f1.keywords:
 - NOCSH
-description: 클라우드 비디오 Interop는 타사 회의실 장치를 사용 하 여 Microsoft 팀 모임에 참가 합니다.
+description: 클라우드 비디오 Interop를 중간 솔루션으로 사용 하 여 타사 회의실 장치가 Microsoft 팀 모임에 참가할 수 있도록 합니다.
 localization_priority: Normal
+ms.custom:
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5c7cb1888856ff8dba910e4f4735516876a8ade2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779644"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905880"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 팀을 위한 클라우드 비디오 Interop
 
@@ -89,7 +91,7 @@ CVI 배포에 대해 선택한 파트너는 조직 내에서 성공적으로 배
 
 ### <a name="provision"></a>공급  
 
-구축 단계에서 파트너 구성 가이드에 따라 라이선스를 적절 한 사용자에 게 할당 합니다. 또한 협력 업체에 게 팀 환경에 대 한 액세스를 제공 하기 위해 Azure 승인 프로세스를 거쳐야 할 것입니다. Azure 승인 프로세스에 대 한 자세한 내용은 다음을 참조 하세요.https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
+구축 단계에서 파트너 구성 가이드에 따라 라이선스를 적절 한 사용자에 게 할당 합니다. 또한 협력 업체에 게 팀 환경에 대 한 액세스를 제공 하기 위해 Azure 승인 프로세스를 거쳐야 할 것입니다. Azure 승인 프로세스에 대 한 자세한 내용은 [Microsoft id 플랫폼 끝점의 사용 권한 및 동의](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) 를 참조 하세요.
 
 ### <a name="schedule"></a>따라
 

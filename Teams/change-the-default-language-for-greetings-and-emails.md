@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 비즈니스용 Skype를 설정 하 여 조직의 기본 음성 메일 인사말에 다른 언어를 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780367"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904333"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>인사말 및 전자 메일의 기본 언어 변경
 
@@ -38,14 +38,14 @@ ms.locfileid: "43780367"
   
 - **사용할 수 있는 언어는 조직의 위치에 따라 결정 됩니다**. 예를 들어 미국에 거주 하는 조직의 경우 기본 언어를 영어 또는 스페인어로 설정할 수 있습니다. 조직이 캐나다에 거주 하는 경우에는 영어와 프랑스어 중에서 선택할 수 있습니다. 지원 되는 언어 목록은 [비즈니스용 Skype에서 음성 메일 인사말 및 메시지에 대 한 언어](languages-for-voicemail-greetings-and-messages.md)를 참조 하세요.
     
-- **조직의 한 사용자만 시스템 언어를 변경할 수 있는 방법은 없습니다.** 조직의 모든 사용자에 대 한 인사말만 변경할 수 있습니다.
+- **개별 사용자의 음성 메일 인사말 및 보이스 메일 메시지에 대 한 언어 변경** 사용자의 기본 설정 lanaguage를 변경 하 여 해당 Outlook 사서함으로 전송 되는 음성 메일 인사말 및 보이스 메일 메시지의 언어를 변경할 수 있습니다. 지침은 [Office 365의 언어 및 지역 설정을 설정 하는 방법] ()https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region)을 참조 하세요. 
     
     > [!NOTE]
-    > 사용자는 로그인 한 후 설정을 통해 자신의 인사말 언어를 변경할 수 있습니다. 
+    > [비즈니스에 대 한 Microsoft 365에서 표시 언어 및 표준 시간대 변경](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US) 에 나와 있는 지침에 따라 로그인 한 후 해당 설정을 통해 사용자의 인사말을 변경할 수 있습니다.
   
 - **보내는 보이스 메일 메시지를 녹음 하 고 싶으신가요?** [비즈니스용 Skype 음성 메일 및 옵션 확인](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)을 참조 하세요. Microsoft 팀의 경우-사용자가 [팀 데스크톱 클라이언트 설정](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) 에서 보이스 메일 설정을 변경할 수 있습니다.
 
-- **보이스 메일 메시지의 언어를 변경 하 시겠습니까?** 비즈니스용 Skype [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) For **Prompt 언어**아래에서 새 언어를 선택 합니다. Microsoft 팀의 경우-사용자가 [팀 데스크톱 클라이언트 설정](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) 에서 보이스 메일 설정을 변경할 수 있습니다.
+- **보이스 메일 메시지의 언어를 변경 하 시겠습니까?** 비즈니스용 Skype [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) For **Prompt 언어**아래에서 새 언어를 선택 합니다. Microsoft 팀의 경우-사용자가 [팀 데스크톱 클라이언트 설정](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) 에서 보이스 메일 인사말을 변경할 수 있습니다.
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대 한 시스템 언어 변경
 

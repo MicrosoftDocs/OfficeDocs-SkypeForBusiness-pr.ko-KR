@@ -7,12 +7,13 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 비즈니스용 Skype에서 팀으로 업그레이드 하기 위한 10 단계 가속화 작업 계획
+description: 이 가속화 된 10 단계 작업 계획을 따라 Microsoft 팀 설정의 기본 비즈니스용 Skype 설정으로 전환 합니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
+- seo-marvel-apr2020
 - Teams-upgrade-guidance
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-in
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-out
@@ -22,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3d65b6af52764a28548cb9ddf190959f89e8f97
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f6489362a37be76c44f2b0dbf58e094c58c85d21
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778334"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904473"
 ---
 # <a name="upgrade-basic"></a>업그레이드 기본
 

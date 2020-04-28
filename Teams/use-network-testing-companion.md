@@ -11,20 +11,21 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
-description: 네트워크 테스트 도우미 도구를 다운로드 하 고 사용 하는 방법에 대해 알아봅니다.
+description: 네트워크 테스트 도우미 도구를 다운로드 하 고 사용 하 여 네트워크 품질과 연결을 테스트 하는 방법에 대해 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f70e3db61db45897dbb9877bb67b7471ff26d060
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780027"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905160"
 ---
 <a name="use-the-network-testing-companion"></a>네트워크 테스트 비교 사용
 =================================

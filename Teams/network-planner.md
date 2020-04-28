@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: 네트워크 Planner를 사용 하 여 Microsoft 팀의 네트워크 요구 사항을 결정 하는 방법을 알아봅니다.
+description: 관리자는 네트워크 Planner를 사용 하 여 Microsoft 팀에 대 한 네트워크 요구 사항을 결정 하는 방법을 배울 수 있습니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,14 +18,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e27979bc4f440fee58f97ffb647cdd5465fb326
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4a4676349dab9c7b587e63dcc9a538c9f0b43a80
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832708"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904800"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft 팀을 위한 네트워크 Planner 사용
 
@@ -56,7 +57,7 @@ ms.locfileid: "41832708"
 
 4. 이 가상 사용자가 조직 내에서 사용할 사용 권한을 선택 합니다.
 
-5. **저장**을 클릭 합니다.
+5. **저장**을 클릭합니다.
 
 ## <a name="build-your-plan"></a>계획 수립
 
@@ -85,7 +86,7 @@ ms.locfileid: "41832708"
       > [!NOTE]
       > 보고서를 생성할 때 특정 대역폭 권장 사항을 보려면 WAN 및 인터넷 용량 번호를 추가 해야 합니다.
 
-    4. **저장**을 클릭 합니다.
+    4. **저장**을 클릭합니다.
 
 ## <a name="create-a-report"></a>보고서 만들기
 
@@ -101,7 +102,7 @@ ms.locfileid: "41832708"
     - 개별 계산이 있는 테이블에는 허용 된 각 활동에 대 한 대역폭 요구 사항이 표시 됩니다.
     - 추가 보기에는 권장 사항이 포함 된 전반적인 대역폭 요구 사항이 표시 됩니다.
 
-4. **저장**을 클릭 합니다. 나중에 보기 위해 보고서를 보고서 목록에서 사용할 수 있습니다.
+4. **저장**을 클릭합니다. 나중에 보기 위해 보고서를 보고서 목록에서 사용할 수 있습니다.
 
 ## <a name="example-scenario"></a>예제 시나리오
 

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Microsoft 팀을 배포 하 고 지원 하기 위해 조직의 IT 직원을 준비 합니다.
+description: 조직에서 Microsoft 팀을 배포 하 고 지원 하기 위해 IT 직원을 준비 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,14 +16,15 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47aef5ceee6daee63683655f167016e4d7ae1cf2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de62e9e8c55af81b68188d3f5b8ad63975bb9058
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776738"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905260"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Microsoft 팀을 위한 IT 직원 준비
 
@@ -41,7 +42,7 @@ Office 365 조직 관리자, 기술 팀장 및 지원 센터는 고품질 사용
 IT 담당자와 다음 리소스를 공유 하 고 팀으로 업그레이드 하기 전에 사용자 지원 준비가 되었는지 확인 합니다.
 
 - [Microsoft 팀의 관리 교육](itadmin-readiness.md)
-- [비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Microsoft Teams 클라이언트의 연결 문제 해결](connectivity-issues.md)
 - [Microsoft 팀 문제 해결에서 로그 파일 사용](log-files.md)
 

@@ -7,25 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: 관리자 센터가 테 넌 트에서 켜져 있지 않은 경우 팀으로 업그레이드 하기 Stopgap.
+description: 관리자 센터가 테 넌 트에서 켜져 있지 않은 경우 Microsoft 팀으로 업그레이드 하기 위한 stopgap에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84ecfb8b9286b749e5b1bf6d34cdf0c8c8fd4113
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 320f2c9dfa59d64d8a05feb24f61e9d28bd223d1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139677"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904493"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>비즈니스용 Skype Online에서 Microsoft 팀으로 사용자 업그레이드
 

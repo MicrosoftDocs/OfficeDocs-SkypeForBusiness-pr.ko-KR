@@ -12,15 +12,16 @@ ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 팀 데스크톱 클라이언트가 업데이트 되는 방법에 대해 알아보세요.
+description: 이 문서에서는 Microsoft 팀 데스크톱 클라이언트를 업데이트 하는 프로세스에 대해 설명 합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a76fe4e0cfb896d1bd89a02acebc1c00dff8767
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 107ef412c7c4faa3e4e0ae3ad9a8539c3bf70dec
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776833"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903153"
 ---
 # <a name="teams-update-process"></a>팀 업데이트 프로세스
 

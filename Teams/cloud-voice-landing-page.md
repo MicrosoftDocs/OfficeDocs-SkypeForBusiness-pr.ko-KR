@@ -15,16 +15,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
+- seo-marvel-apr2020
 search.appverid: MET150
-description: 팀에서 클라우드 음성을 배포 하기 위한 랜딩 페이지
+description: 클라우드 음성 기능에 대해 자세히 알아보고 필요한 배포 결정을 이해 하세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8498d8d4f6336bf54f6ae7f9c96540783b54dd1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825056"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905910"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성
 
@@ -84,7 +85,7 @@ ms.locfileid: "41825056"
 - 통화 id
 - Microsoft의 전화 번호
 - 다이얼 플랜
-- 통화 대기열
+- 통화 큐
 - 자동 전화 교환
 
 ### <a name="voicemail"></a>음성 메일
@@ -129,9 +130,9 @@ Office 365의 전화 시스템 기능에 있는 다이얼 플랜은 전화 번�
 사용자 지정 다이얼 플랜을 필요로 하는 사용자는 누구이고 각 사용자에게 할당해야 하는 테넌트 다이얼 플랜은 무엇인가요? | PowerShell의 사용자 지정 다이얼 플랜에 사용자를 추가 하려면 [다이얼 플랜 만들기 및 관리](create-and-manage-dial-plans.md)를 참조 하세요. |
 |||
 
-### <a name="call-queues"></a>통화 대기열
+### <a name="call-queues"></a>통화 큐
 
-클라우드 통화 큐에는 사용자가 조직의 전화 번호를 호출할 때 사용 되는 인사말, 통화 대기를 자동으로 전환 하는 기능, 전화를 거는 사용자가 통화를 처리 하기 위해 사용할 수 있는 다음 통화 에이전트 검색 기능 등이 포함 됩니다. 대기 중인 음악 듣기. 조직에 대 한 단일 또는 복수 통화 대기열을 만들 수 있습니다. 
+클라우드 통화 큐에는 사용자가 조직의 전화 번호를 호출할 때 사용 되는 인사말, 통화를 자동으로 대기 하는 기능, 전화를 걸고 있는 사용자가 대기 중인 음악을 수신 대기 하는 동안 사용 가능한 다음 통화 에이전트를 검색 하 여 통화를 처리 하는 기능이 포함 됩니다. 조직에 대 한 단일 또는 복수 통화 대기열을 만들 수 있습니다. 
 
 
 |본인에게 질의하기|작업 |

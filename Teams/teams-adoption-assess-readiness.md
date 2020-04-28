@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 조직이 팀으로 전환할 준비가 되었는지 확인 합니다.
+description: 관련자를 평가 하 고, 조기 고 지 사항을 확인 하 고, 조직이 팀으로 전환할 준비가 되었는지 평가 합니다.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e7f1261857905cea3c849654fdbcf926c36026d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 3c34494c08b6c81671c7f36e1ca76593e8d204be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837878"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904770"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>조직에서 Microsoft 팀을 준비 하는 방법은 무엇 인가요?
 

@@ -20,13 +20,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
+- seo-marvel-apr2020
 description: 이 표를 사용 하 여 미국 (푸에르토리코 포함)에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: af8d93eabd8c4b033918ab7bce7e4c1fc9ab6d3d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 665d17ac8df753c3c11e149518b8a2eb686bc91e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778394"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904383"
 ---
 # <a name="phone-number-management-for-the-us"></a>미국의 전화 번호 관리
 

@@ -16,18 +16,19 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 팀 사용 보고서를 사용 하 여 조직의 팀 활동에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0252478a1ca41962ecdc424f97c85025b6b7dda9
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8cc25c5f63bd8645e5bfc540438a77f37abaa164
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528423"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904273"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft 팀 사용 보고서
 
 Microsoft 팀 관리 센터의 팀 사용 보고서에서는 활성 사용자 및 채널 수를 비롯 한 팀의 사용 현황 작업에 대 한 개요를 제공 하므로 조직에서 팀을 사용 하 여 통신 하 고 공동 작업 하는 사용자 수를 빠르게 확인할 수 있습니다. 각 팀의 활성 사용자 및 채널, 게스트 및 메시지 수를 비롯 한 팀의 사용 정보를 볼 수 있습니다.
 
-## <a name="view-the-report"></a>보고서 보기
+## <a name="view-the-usage-report"></a>사용 현황 보고서 보기
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서** > **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **팀 사용량**을 선택 합니다.
 2. **날짜 범위**아래에서 범위를 선택 하 고 **보고서 실행**을 클릭 합니다.

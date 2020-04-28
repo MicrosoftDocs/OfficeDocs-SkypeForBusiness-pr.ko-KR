@@ -1,5 +1,5 @@
 ---
-title: 클라우드 자동 전화 교환 이란?
+title: 클라우드 자동 전화 교환이란?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,15 +22,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
-description: 클라우드 자동 전화 교환 방법과 사용 방법에 대해 알아봅니다.
-ms.openlocfilehash: d9f108acd4c1ebe3c275d79555145c6c92a78737
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 클라우드 자동 전화 교환 및이를 사용 하 여 호출자가 사용자 또는 부서에 전화를 걸고 배치 하거나 전송 하기 위해 메뉴 시스템에서 이동할 수 있도록 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836668"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905140"
 ---
-# <a name="what-are-cloud-auto-attendants"></a>클라우드 자동 전화 교환 이란?
+# <a name="what-are-cloud-auto-attendants"></a>클라우드 자동 전화 교환이란?
 
 Office 365의 전화 시스템은 외부 및 내부 발신자가 메뉴 시스템에서 이동 하 여 조직의 사용자 또는 부서에 게 전화를 걸고 배치 하거나 이전 하는 데 사용할 수 있는 자동 전화 교환을 제공 합니다.
   
@@ -91,7 +92,7 @@ Office 365에서 전화 시스템용 자동 전화 교환을 설정 하려면 [�
 |음성 (음성 입력) |FirstName  <br/> 이름  <br/> FirstName + LastName  <br/> LastName + FirstName  | 8만 사용자 |
 
 > [!NOTE]
-> 음성 인식을 사용 하 여 이름으로 전화 걸기를 사용 하지만 조직의 Active Directory가 8만 사용자 보다 크므로 전화 접속 범위 기능을 사용 하 여 이름으로 전화 걸기 범위를 제한 하지 않은 경우에는 이름으로 전화 걸기는 전화 키패드를 사용 하 여 사용자의 호출자에 대해 계속 작동 합니다. , 음성 입력은 다른 모든 시나리오에서 사용할 수 있습니다. 전화 걸기 범위 기능을 사용 하 여 특정 자동 전화 교환의 이름으로 전화 걸기 범위를 변경 하 여 연결 가능한 이름을 좁힐 수 있습니다.
+> 음성 인식을 사용 하 여 이름으로 전화 걸기를 사용 하지만 조직의 Active Directory가 8만 사용자 보다 크므로 전화 접속 범위 기능을 사용 하 여 이름으로 전화 걸기 범위를 제한 하지 않은 경우에는 전화로 전화를 사용 하 여 해당 사용자가 전화를 걸고 다른 모든 시나리오에서 음성 입력을 사용할 수 있습니다. 전화 걸기 범위 기능을 사용 하 여 특정 자동 전화 교환의 이름으로 전화 걸기 범위를 변경 하 여 연결 가능한 이름을 좁힐 수 있습니다.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>이름-키패드 (DTMF) 항목으로 전화 걸기
 전화를 거는 사람들은 상대방의 전체 이름 또는 일부 이름을 지정 하 여 사용자에 게 연락할 수 있습니다. 이름을 입력할 때 사용할 수 있는 다양 한 형식이 있습니다.
@@ -242,8 +243,8 @@ Office 365에서 전화 시스템용 자동 전화 교환을 설정 하려면 [�
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)
 
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [소규모 기업 예제 - 자동 전화 교환 설정](/microsoftteams/tutorial-org-aa)

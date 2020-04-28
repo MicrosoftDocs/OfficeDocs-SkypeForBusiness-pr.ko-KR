@@ -12,15 +12,16 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-description: PowerShell 컨트롤을 사용 하 여 Microsoft 팀을 관리 하는 방법을 알아봅니다.
+description: PowerShell cmdlet을 구성 하는 방법을 포함 하 여 Microsoft 팀을 관리 하기 위해 PowerShell 컨트롤을 사용 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e95b3ab5bdb2b13dbd4c37eca413c865f54fde94
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052525"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903043"
 ---
 # <a name="teams-powershell-overview"></a>팀 PowerShell 개요
 
@@ -124,7 +125,7 @@ PowerShell 컨트롤에 대 한 참조 설명서에서는 조사 하는 cmdlet�
 
 Microsoft [팀 cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps) 및 [비즈니스용 skype cmdlet 참조](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)에서 각 정책의 설정에 대 한 자세한 설명을 포함 하 여 Microsoft 팀과 비즈니스용 skype를 관리 하는 데 모든 PowerShell 컨트롤을 사용 하는 방법에 대 한 자세한 지침을 확인할 수 있습니다.
 
-## <a name="learn-more"></a>더 알아보세요
+## <a name="learn-more"></a>자세히 알아보기
 
 - [Microsoft 팀 cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 - [비즈니스용 Skype cmdlet 참조](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)

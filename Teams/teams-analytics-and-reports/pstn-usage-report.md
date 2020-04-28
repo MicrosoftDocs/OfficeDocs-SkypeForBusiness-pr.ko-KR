@@ -16,12 +16,13 @@ MS.collection:
 description: Microsoft 팀 관리 센터에서 팀 PSTN 사용 보고서를 사용 하 여 조직의 통화 및 오디오 회의 사용에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778254"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904303"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 팀 PSTN 사용 보고서
 
@@ -29,7 +30,7 @@ Microsoft 팀 관리 센터의 팀 PSTN 사용 보고서에서 조직의 통화 
 
 **통화 계획** 탭에는 사용자가 인바운드 및 아웃 바운드 PSTN 통화와 이러한 통화 비용을 사용한 시간 (분)을 비롯 하 여 정보가 표시 됩니다. **직접 라우팅** 탭에는 SIP 주소 및 통화 시작 및 종료 시간을 포함 한 정보가 표시 됩니다. 이 보고서의 정보를 사용 하 여 조직의 PSTN 사용에 대 한 통찰력을 얻고 비즈니스 의사 결정을 조사, 계획 및 수립 하는 데 도움을 줍니다.
 
-## <a name="view-the-report"></a>보고서 보기
+## <a name="view-the-pstn-usage-report"></a>PSTN 사용 보고서 보기
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서** > **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **PSTN 사용 보고서**를 선택 합니다.
 2. **날짜 범위**에서 미리 정의 된 범위의 7 개 또는 28 일을 선택 하거나 사용자 지정 범위를 설정한 다음 **보고서 실행**을 선택 합니다.
@@ -79,10 +80,10 @@ Microsoft 팀 관리 센터의 팀 PSTN 사용 보고서에서 조직의 통화 
 
 공유 상관 관계 ID는 다운로드 한 내보낸 Excel 파일에만 존재 하며 둘 이상의 통화가 관련 되어 있음을 나타냅니다. 다음은 다양 한 시나리오와 공유 상관 관계 ID가 있는 경우에 대해 설명 합니다.
 
-1.  팀 클라이언트에서 팀 사용자 1 이라는 PSTN 끝점의 PSTN 사용자 1, 통화 종류 Dr_In, 상관 관계 ID 57f28917-42k5-4c0c-9433-79734873f2ac, 공유 상관 관계 ID 없음.
-2.  PSTN 끝점에서 팀 사용자 1이 PSTN 사용자 1을 호출 함, 호출 유형 Dr_Out 2c12b8ca-2eb-4c48-b68d-e451f518ff4, 공유 상관 관계 ID 없음.
-3.  팀 클라이언트에서 팀 사용자 2로 불리는 pstn 끝점의 PSTN 사용자 1, 통화 종류 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, 공유 상관 관계 ID f45e9a25-9f94-46e7-a457-84f5940efde9.
-4.  상관 관계 ID가 "f45e9a25-9f94-46e7-a457-84f5940efde9" 인 기존 통화 3. 팀 사용자 2와의 통화에서 PSTN 사용자 1 팀 사용자 2 (블라인드 또는 consultative) 팀 또는 PSTN 사용자에 게 전화 걸기, 통화 유형 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, 공유 상관 관계 ID f45e9a25-9f94-46e7-a457-84f5940efde9.
+1.    팀 클라이언트에서 팀 사용자 1 이라는 PSTN 끝점의 PSTN 사용자 1, 통화 종류 Dr_In, 상관 관계 ID 57f28917-42k5-4c0c-9433-79734873f2ac, 공유 상관 관계 ID 없음.
+2.    PSTN 끝점에서 팀 사용자 1이 PSTN 사용자 1을 호출 함, 호출 유형 Dr_Out 2c12b8ca-2eb-4c48-b68d-e451f518ff4, 공유 상관 관계 ID 없음.
+3.    팀 클라이언트에서 팀 사용자 2로 불리는 pstn 끝점의 PSTN 사용자 1, 통화 종류 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, 공유 상관 관계 ID f45e9a25-9f94-46e7-a457-84f5940efde9.
+4.    상관 관계 ID가 "f45e9a25-9f94-46e7-a457-84f5940efde9" 인 기존 통화 3. 팀 사용자 2와의 통화에서 PSTN 사용자 1 팀 사용자 2 (블라인드 또는 consultative) 팀 또는 PSTN 사용자에 게 전화 걸기, 통화 유형 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, 공유 상관 관계 ID f45e9a25-9f94-46e7-a457-84f5940efde9.
 
 ## <a name="exporting-the-reports"></a>보고서 내보내기
 **Excel로 내보내기를**클릭 한 다음 **다운로드** 탭에서 **다운로드** 를 클릭 하 여 준비 된 보고서를 다운로드 합니다. 내보내기 프로세스는 완료 하는 데 몇 초에서 몇 분 정도 소요 될 수 있습니다 (데이터 수량에 따라 다름).

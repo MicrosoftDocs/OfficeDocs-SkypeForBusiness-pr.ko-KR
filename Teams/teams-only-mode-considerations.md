@@ -8,7 +8,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Microsoft 팀 전용 모드로 업그레이드 준비
+description: 관리자는 Microsoft 팀 관리 센터에서 Microsoft 팀 전용 모드로 업그레이드를 준비 하는 방법에 대해 알아볼 수 있습니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,17 +16,18 @@ f1.keywords:
 ms.custom:
 - Teams-upgrade-guidance
 - ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c45a21a1aae9facd10dafe675d10955b3fa90c62
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776823"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903063"
 ---
 # <a name="teams-only-mode-considerations"></a>팀 전용 모드 고려 사항
 
@@ -37,7 +38,7 @@ Office 365 조직의 관리자는 Microsoft 팀 관리 센터에서 팀 전용 �
 수천 명의 고객이 Microsoft 팀으로 업그레이드 한 후 조직의 업그레이드 시간 표시 막대와 사용자 환경에 영향을 미칠 수 있는 고려 사항이 있습니다. 특히, 업그레이드 옵션이 반드시 조직이이 변경에 대 한 것을 의미 하는 것은 아닙니다. 최상의 사용자 환경을 위해서는 Teams가 공동 작업 및 커뮤니케이션 요구 사항을 충족하는지와 네트워크가 Teams를 지원할 준비가 되었는지를 확인하고 사용자를 Teams에 업그레이드하기 전에 사용자 준비를 위한 계획을 구현해야 합니다. 
 
 > [!IMPORTANT]
-> 업그레이드 계획을 시작 하는 경우에는 전체 업그레이드 지침 및 계획 리소스를 검토 해야 합니다. [여기서 시작](upgrade-start-here.md)하세요. 
+> 업그레이드 계획을 시작 하는 경우 [Microsoft 팀 업그레이드 가이드 시작](upgrade-start-here.md) 을 검토 하세요. 
 
 **공존 고려 사항**: 이미 비즈니스용 skype Online 및/또는 비즈니스용 skype 서버를 사용 하는 조직은 사용자의 요구에 맞는 속도로 팀을 환경에 도입할 수 있습니다. 조직에서는 필요에 따라 팀을 원하는 사용자 집합에 점진적으로 롤아웃할 수 있으며, 팀을 사용 하는 사용자는 비즈니스용 Skype를 사용 하는 사용자와 통신할 수 있으며 그 반대의 경우도 마찬가지입니다. 이러한 경험을 관리 하기 위해 관리자는 최종 사용자 클라이언트 경험, 들어오는 채팅 및 통화의 라우팅 동작, 팀에서 새 모임을 예약 했는지 여부, 그리고 비즈니스용 Skype를 사용 하는 등을 정의 하는 공존 모드를 사용할 수 있습니다. 사용자가 **팀**으로 업그레이드 한 경우 다른 조직의 사용자와 페더레이션 할 수 있습니다. 그러나 두 사용자가 모두 팀을 사용 하는 경우 최상의 환경이 제공 됩니다. 팀으로 업그레이드 한 사용자는 비즈니스용 Skype 모임에 계속 참가할 수 있습니다. 
 

@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 제품을 사용 하 여 팀 채택을 구동 하는 방법에 대해 알아보세요.
+description: 키 리소스를 적절 한 채널의 탭으로 고정 하는 방법을 포함 하 여 팀과 함께 Office 365 배포를 관리 하 여 팀 채택을 구동 하는 방법에 대해 알아봅니다.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69cfb557f04644c1bb54d78ae24a8110d42ee8a0
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 0b1a22c76cd2a9ef9ca5d4be667cbfebe8a19b62
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551035"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904930"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft 팀에서 첫 번째 팀 만들기
 

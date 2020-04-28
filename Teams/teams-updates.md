@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: 업데이트 된 팀 문서 목록을 봅니다.
+description: 이 항목은 업데이트 된 주제에 대 한 링크를 포함 하 여 최근에 업데이트 된 Microsoft 팀 도움말 항목의 목록입니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,12 +17,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13c4923143bf835da930a0193618db9c600c45d4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d8c037be9b1aa55d97e39fc5821d6a4ad87ffaf
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836928"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905635"
 ---
 # <a name="microsoft-teams-content-updates"></a>Microsoft 팀 콘텐츠 업데이트
 

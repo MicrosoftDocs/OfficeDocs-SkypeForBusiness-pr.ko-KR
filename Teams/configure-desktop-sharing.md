@@ -11,17 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 사용자가 Teams 채팅 또는 모임에서 데스크톱을 공유할 수 있도록 모임 정책을 구성합니다.
+description: 사용자가 팀 대화방 또는 모임에서 데스크톱을 공유할 수 있도록 모임 정책을 구성 하는 방법에 대해 알아봅니다.
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 366aaeb4f48670ae04d4b53d21196ef2d9e81fb4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825546"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905900"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams에서 데스크톱 공유 구성하기
 ============================================
@@ -52,8 +53,8 @@ ms.locfileid: "41825546"
 
 5. 다음 설정을 켜거나 끕니다.
 
-    - **참석자가 제어권을 주거나 요청하도록 허용** – 팀 구성원이 발표자의 데스크톱이나 응용 프로그램에 대한 제어권을 주거나 요청할 수 있습니다.
-    - **외부 참석자가 제어권을 주거나 요청하도록 허용** – 게스트와 외부(페더레이션) 사용자가 발표자의 데스크톱이나 응용 프로그램에 대한 제어권을 주거나 요청할 수 있습니다.
+    - **참가자가 제어권을 부여 하거나 요청할 수 있도록 허용** -팀 멤버가 발표자의 데스크톱 또는 응용 프로그램에 대 한 제어권을 부여 하거나 요청할 수 있습니다.
+    - **외부 참가자가 제어권을 부여 하거나 요청 하도록 허용** – 게스트 및 외부 (페더레이션된) 사용자가 발표자의 데스크톱 또는 응용 프로그램에 대 한 제어권을 부여 하거나 요청할 수 있습니다.
     - **PowerPoint 공유 허용** – 사용자가 PowerPoint 프레젠테이션을 업로드하고 공유하도록 허용하는 모임을 만들 수 있습니다.
     - **화이트보드 허용** – 사용자가 화이트보드를 공유할 수 있습니다.
     - **공유 노트 허용** – 사용자가 공유 노트를 작성할 수 있습니다.

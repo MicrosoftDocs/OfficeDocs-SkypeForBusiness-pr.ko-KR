@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 02eb5869d7464a4daeece177c4d1b5a5ef440fa0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요. 팀 또는 비즈니스용 Skype와 Exchange가 모두 온라인 상태입니다.
+ms.openlocfilehash: 2b7574b54782140e3f082c8c3859c9caee7712eb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780547"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905280"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -257,12 +257,12 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [Microsoft 팀 대화방 계정 구성](rooms-configure-accounts.md)
 
-[Microsoft 팀 회의실 계획](rooms-plan.md)
+[Microsoft Teams 룸 계획](rooms-plan.md)
 
-[Microsoft 팀 대화방 배포](rooms-deploy.md)
+[Microsoft Teams 룸 배포](rooms-deploy.md)
 
-[Microsoft 팀 대화방 콘솔 구성](console.md)
+[Microsoft Teams 룸 콘솔 구성](console.md)
 
-[Microsoft 팀 대화방 관리](rooms-manage.md)
+[Microsoft Teams 룸 관리](rooms-manage.md)
 
 [Microsoft 팀 대화방 라이선스](rooms-licensing.md)

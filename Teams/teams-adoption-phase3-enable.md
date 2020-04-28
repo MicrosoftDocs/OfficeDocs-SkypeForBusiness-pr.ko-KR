@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 조직의 팀을 광범위 하 게 사용할 수 있도록 지 원하는 방법에 대해 알아봅니다.
+description: 조직의 팀에 대 한 폭넓은 규모의 활용을 지원 하기 위해 배워야 할 단계에 대 한 개요를 읽으십시오.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85cb53ed6099dcbb5c2fdf0b9b45816048f3b77c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: bfccc3338589c6a90025024b373c917de58ebeee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837758"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904603"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft 팀 도입 단계 3-규모
 

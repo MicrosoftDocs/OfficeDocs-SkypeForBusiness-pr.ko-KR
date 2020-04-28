@@ -10,19 +10,20 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
-description: 이 문서는 공존 모드를 선택 하 고 다른 공존 설정을 설정 하는 데 도움이 될 것입니다.
+description: 조직의 모든 사용자에 대 한 공존 및 업그레이드 설정을 한 번에 설정 하는 방법과 조직의 단일 또는 사용자 집합에 대해 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8cf8b0400ae924924d73394be0ca4deabcdeb9e
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 245e22c9a5deb518617ff547c4cc2f590d9ea1e6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579614"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905560"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 설정
 

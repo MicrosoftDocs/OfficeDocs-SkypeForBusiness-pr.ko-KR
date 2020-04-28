@@ -8,22 +8,23 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: 팀을 보관하거나 영구적으로 삭제하는 방법을 알아봅니다.
+description: 이 문서에서는 Microsoft 팀에서 팀을 보관 하거나 영구적으로 삭제 하는 방법에 대해 설명 합니다.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e065ddccd9781143b9c3522aa795f85ef0e118bb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3e07d851d853ee3fb57454177bed48590cdb55f3
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780717"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904970"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 ===========================================

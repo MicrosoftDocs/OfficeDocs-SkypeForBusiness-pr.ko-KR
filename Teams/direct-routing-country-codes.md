@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 이 문서를 참조 하 여 직접 라우팅에 대 한 미디어 경로 국가 코드를 찾습니다.
-ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: 이 문서를 읽고 최적의 미디어 경로를 선택할 수 있도록 직접 라우팅하기 위한 미디어 경로 국가 코드를 찾습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836098"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904810"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>직접 라우팅 미디어 경로 국가 코드
 
@@ -46,11 +47,11 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 알바니아         | AL.EXE |
 | 알제리         | DZ |
 | 미국령 사모아  | 문자열로 |
-| (모든)         | 임시로 |
+| 안도라         | 임시로 |
 | 앙골라          | AO |
-| Anguilla        | AI |
+| 앵귈라        | AI |
 | 대륙      | AQ | 
-| 앤티쿠아바부다 | AG |
+| 앤티가 바부다 | AG |
 | 아르헨티나       | AR |
 | 아르메니아         | 중인 |
 | 아루바           | AW |
@@ -77,7 +78,7 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 영국령 버진 아일랜드 | VG |
 | 브루나이          | BN-BD&PLATFORM |
 | 불가리아        | BG-BG&PLATFORM |
-| 부르키나파소 부르키나파소    | BF |
+| 부르키나파소    | BF |
 | 부룬디         | 접 |
 | 카보베르데      | 비용 |
 | 캄보디아        | KH |
@@ -91,13 +92,13 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 크리스마스 섬 | CX |
 | 코코스 군도 | [ |
 | 콜롬비아        | 보조 |
-| 르         | KM |
+| 코모로         | KM |
 | 공화국           | CG |
 | 콩고 민주 공화국     | \ |
 | 쿡 제도    | 머리 |
 | 코스타리카      | 전송 |
 | 코트디부아르   | CI |
-| 크로아티아         | 못하여 |
+| 크로아티아         | HR |
 | 쿠바            | CU ( |
 | Curacao         | 회사 |
 | 키프로스          | CY-GB&PLATFORM |
@@ -116,7 +117,7 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 에티오피아        | ET |
 | 포클랜드 제도 | 외래 |
 | 페로 제도   | 라이브러리의 |
-| 표준시            | FJ |
+| 피지            | FJ |
 | 핀란드         | WI-FI |
 | 프랑스          | US |
 | 프랑스령 기아나   | GF |
@@ -124,12 +125,12 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 프랑스 남쪽 지역 | HELP |
 | Gabon           | GA |
 | 감비아          | GM |
-| 조지아         | GE |
+| 그루지야         | GE |
 | 독일         | 로케이터 |
 | 가나           | GH |
 | 지       | GI |
 | 그리스          | GR |
-| 표준시       | GL |
+| 그린란드       | GL |
 | 그레나다         | GD-GB&PLATFORM |
 | 과들루프      | P |
 | 괌            | GU-IN&PLATFORM |
@@ -175,45 +176,45 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 룩셈부르크      | 째 |
 | 마카오 특별 행정구       | MO |
 | 마다가스카르      | MG |
-| Malawi          | ~ |
+| 말라위          | ~ |
 | 말레이시아        | 내 |
 | 몰디브        | MV |
 | 말리            | ML |
 | 몰타           | T |
-| 마샬 군도 | MH |
+| 마셜 제도 | MH |
 | 마르티니크      | MQ |
 | 모리타니      | MR-IN&PLATFORM |
 | 모리셔스       | MU |
-| .         | YT |
+| 마요트         | YT |
 | 멕시코          | 멕시코 |
-| Micronesia      | FM |
+| 미크로네시아      | FM |
 | 몰도바         | IL |
 | 모나코          | MC |
 | 몽골        | MN |
 | 몬테네그로      | 알리지 |
-| Montserrat      | LPM |
+| 몬트세라트      | LPM |
 | 모로코         | M |
-| Mozambique      | MZ |
+| 모잠비크      | MZ |
 | 미얀마         | 200 |
 | 나미비아         | NA |
 | Nauru           | 번호 |
-| 네팔어           | NP-IN |
+| 네팔           | NP-IN |
 | 네덜란드     | NL |
 | 뉴칼레도니아   | 도메인이 |
 | 뉴질랜드     | NZ |
 | 니카라과       | 니 |
-| (또는)           | NE |
+| 니제르           | NE |
 | 나이지리아         | 못하게 |
 | Niue            | 누 |
 | 노퍽 섬  | NF |
 | 북한     | KP |
 | 북쪽 마케도니아 | MK |
-| 북마리아나 군도 | NP-IN |
+| 북마리아나 제도 | NP-IN |
 | 노르웨이          | 아니요 |
 | 오만            | OM |
 | 파키스탄        | PK |
-| Palau           | PW |
-| 팔레스타인 자치 기관 | ICP |
+| 팔라우           | PW |
+| 팔레스타인 자치 정부 | ICP |
 | 파나마          | PA |
 | 파푸아 New 기니 | PG |
 | 파라과이        | PY |
@@ -230,11 +231,11 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 르완다          | RW |
 | 사바            | XS |
 | 세인트 Barthelemy | BL |
-| 세인트키츠 네비스 | KN |
-| 세인트루시아     | LC |
+| 세인트 크리스토퍼 네비스 | KN |
+| 세인트 루시아     | LC |
 | 세인트 Martin    | MF |
 | 생피에르앤드미클롱 | 시간은 |
-| 세인트 빈센트 그레나딘 | VC |
+| 세인트빈센트그레나딘 | VC |
 | 사모아           | WS |
 | 산마리노      | 김 |
 | 상투메 상투메 및 프린시페 | ST |
@@ -252,7 +253,7 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 소말리아         | 그렇다면 |
 | 남아프리카 공화국    | 목차 |
 | 사우스 조지아 및 사우스 샌드위치 군도 | EPG |
-| 남 수단     | SS |
+| 남수단     | SS |
 | 스페인           | 디자인이 |
 | 스리랑카       | LK |
 | 세인트 헬레나, 어센션, 트리스탄 다 쿠나 | SH |
@@ -263,11 +264,11 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 스위스     | CH |
 | 시리아           | SY |
 | 대만          | 얕은 |
-| 키스탄      | TJ |
+| 타지키스탄      | TJ |
 | 탄자니아        | TZ |
 | 태국        | 제곱 |
 | 동티모르-동티모르     | TL |
-| Togo            | TG |
+| 토고            | TG |
 | Tokelau         | TK-TM&PLATFORM |
 | 표준시           | 받는 사람 |
 | 트리니다드 토바고 | TT-RU&PLATFORM |
@@ -280,7 +281,7 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 미국령 버진 아일랜드 | VI |
 | 우간다          | UG-CN&PLATFORM |
 | 우크라이나         | UA |
-| 아랍 에미리트 연합국 | AE |
+| 아랍에미리트 | AE |
 | 영국  | 26 |
 | 미국   | 보세요 |
 | 우루과이         | UY |

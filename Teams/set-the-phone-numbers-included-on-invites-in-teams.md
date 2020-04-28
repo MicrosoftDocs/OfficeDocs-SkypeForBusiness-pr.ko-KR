@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '호출자가 Microsoft 팀 모임에 참가 하는 데 사용할 기본 전화 번호를 만드는 단계를 가져옵니다. '
-ms.openlocfilehash: 6c45a28ab48add26eef8929e37e5cf60113185ea
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 다음 단계에 따라 호출자가 Microsoft 팀 모임에 참가 하는 데 사용할 기본 전화 번호를 만듭니다.
+ms.openlocfilehash: 22950bed0b09caf96e9fc26060f466eb6c00ff30
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140901"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905600"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsoft 팀의 초대에 포함 된 전화 번호 설정
 

@@ -16,14 +16,14 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 조직의 사용자에 대 한 긴급 위치를 할당 하거나 변경 하는 방법에 대해 알아봅니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2652cbd2f01af4436de737bae54656e96488ab27
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 이 문서에서는 조직의 사용자에 대 한 긴급 위치를 할당 하거나 변경 하는 방법에 대해 설명 합니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: cd0fa9ed5fca430b5c49934adb66f3c61deb4bbd
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137108"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904860"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 

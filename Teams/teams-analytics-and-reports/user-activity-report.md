@@ -16,18 +16,19 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 팀 사용자 활동 보고서를 사용 하 여 조직의 사용자가 팀을 사용 하는 방법을 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e6d747afdf5dc5d381c11c83521e8a56ee38fe
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528433"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903873"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft 팀 사용자 활동 보고서
 
 팀 사용자 활동 보고서는 조직의 사용자가 팀에서 수행 하는 활동 유형에 대 한 통찰력을 제공 합니다. 예를 들어 1:1 통화를 통해 통신 하는 사용자의 수, 채널 메시지를 통해 통신 하는 사용자 수, 개인 채팅 메시지에 참가 하는 사용자의 수를 확인할 수 있습니다.
 
-## <a name="view-the-report"></a>보고서 보기
+## <a name="view-the-user-activity-report"></a>사용자 활동 보고서 보기
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서** > **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **팀 사용자 활동**을 선택 합니다.
 2. **날짜 범위**아래에서 범위를 선택 하 고 **보고서 실행**을 클릭 합니다.

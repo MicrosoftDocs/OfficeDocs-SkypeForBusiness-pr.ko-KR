@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '조직의 전화 시스템 (클라우드 PBX)을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+- seo-marvel-apr2020
+description: Office 365에서 조직의 전화 시스템 (클라우드 PBX)을 설정 하는 방법을 설명 하는 단계별 가이드입니다.
+ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888727"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905570"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
@@ -33,9 +34,9 @@ ms.locfileid: "41888727"
 
 ## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>1 단계: 전화 시스템을 해당 국가 또는 지역에서 사용할 수 있는지 확인
 
-1.  먼저 [오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)으로 이동 하 고 페이지 위쪽에 있는 목록에서 국가 또는 지역을 선택 합니다. 
-2.  **전화 시스템**에서 기능 목록과 세부 정보를 검토 합니다. 
-3.  전화 시스템을 사용할 수 있는 경우 2 단계로 이동 합니다. 
+1.    먼저 [오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)으로 이동 하 고 페이지 위쪽에 있는 목록에서 국가 또는 지역을 선택 합니다. 
+2.    **전화 시스템**에서 기능 목록과 세부 정보를 검토 합니다. 
+3.    전화 시스템을 사용할 수 있는 경우 2 단계로 이동 합니다. 
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>2 단계: 전화 시스템 및 통화 계획 라이선스 구입 및 할당
 
@@ -81,7 +82,7 @@ Office 365에서 사용자의 전화 번호를 가져올 수 있을 뿐만 아�
 ### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>팀 관리 센터를 사용 하 여 새 서비스 번호 받기
 
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **팀 관리 센터로**이동 합니다.
 
@@ -105,12 +106,12 @@ Office 365에서 사용자의 전화 번호를 가져올 수 있을 뿐만 아�
 
 ## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>6 단계: 오디오 회의를 설정 하려는 경우
 
-조직의 사용자가 모임에 전화를 걸 때 휴대폰을 사용 해야 하는 경우가 있습니다. Microsoft 팀에는 이러한 상황에 대 한 오디오 회의 기능도 포함 되어 있습니다. 사용자는 모바일 장치 또는 PC에서 팀 앱을 사용 하는 대신 휴대폰을 사용 하 여 팀 회의에 통화할 수 있습니다.
+경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. Microsoft 팀에는 이러한 상황에 대 한 오디오 회의 기능도 포함 되어 있습니다. 사용자는 모바일 장치 또는 PC에서 팀 앱을 사용 하는 대신 휴대폰을 사용 하 여 팀 회의에 통화할 수 있습니다.
 오디오 회의를 설정 하는 방법에 대 한 자세한 내용은 [팀에 대 한 오디오 회의 설정을](set-up-audio-conferencing-in-teams.md)참조 하세요.
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>7 단계: 클라우드 통화 큐를 설정 하려면
 
-클라우드 통화 큐에는 사용자가 조직의 전화 번호를 호출할 때 사용 되는 인사말, 통화 대기를 자동으로 전환 하는 기능, 전화를 거는 사용자가 통화를 처리 하기 위해 사용할 수 있는 다음 통화 에이전트 검색 기능 등이 포함 됩니다. 대기 중인 음악 듣기. 조직에 대 한 단일 또는 복수 통화 대기열을 만들 수 있습니다.
+클라우드 통화 큐에는 사용자가 조직의 전화 번호를 호출할 때 사용 되는 인사말, 통화를 자동으로 대기 하는 기능, 전화를 걸고 있는 사용자가 대기 중인 음악을 수신 대기 하는 동안 사용 가능한 다음 통화 에이전트를 검색 하 여 통화를 처리 하는 기능이 포함 됩니다. 조직에 대 한 단일 또는 복수 통화 대기열을 만들 수 있습니다.
 
 통화 대기열에 대 한 자세한 내용은 [클라우드 통화 대기열 만들기](create-a-phone-system-call-queue.md)를 참조 하세요.
 
@@ -145,9 +146,9 @@ Microsoft 팀에 무료 전화 번호를 사용 하려면 통신 크레딧을 �
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](getting-service-phone-numbers.md)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](getting-service-phone-numbers.md)
 
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
   
  

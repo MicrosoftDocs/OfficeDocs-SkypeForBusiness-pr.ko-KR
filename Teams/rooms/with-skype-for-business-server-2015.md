@@ -14,13 +14,13 @@ ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 비즈니스용 Skype 서버를 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f1f0788e9c2342f2bac8484ceb1cc83bf30fd8d3
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9e827f4d1fc020160b59f26dffde960394c3a69e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141001"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905270"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>비즈니스용 Skype 서버를 사용 하 여 Microsoft 팀 회의실 배포
   
@@ -117,14 +117,14 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 팀 대화방 계정 구성](rooms-configure-accounts.md)
 
-[Microsoft 팀 회의실 계획](rooms-plan.md)
+[Microsoft Teams 룸 계획](rooms-plan.md)
   
-[Microsoft 팀 대화방 배포](rooms-deploy.md)
+[Microsoft Teams 룸 배포](rooms-deploy.md)
   
-[Microsoft 팀 대화방 콘솔 구성](console.md)
+[Microsoft Teams 룸 콘솔 구성](console.md)
   
-[Microsoft 팀 대화방 관리](rooms-manage.md)
+[Microsoft Teams 룸 관리](rooms-manage.md)

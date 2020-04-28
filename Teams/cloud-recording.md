@@ -12,15 +12,16 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft 팀에서 모임 녹음/녹화를 설정 하 고 관리 하는 방법
+description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, 비디오, 화면 공유 활동을 캡처하는 팀 모임 및 그룹 통화를 기록 하는 실용적인 지침입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780337"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905500"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -30,7 +31,7 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화 필수 구성 요소
 
-Teams 사용자 모임을 녹음/녹화하려면 Microsoft Stream이 테넌트에 대해 활성화되어 있어야 합니다. 또한 다음과 같이 모임 이끌이 및 녹음/녹화를 시작하는 사용자 모두에게 필요한 필수 구성 요소가 있습니다.
+팀 사용자의 모임이 기록 되도록 하려면 테 넌 트에 대해 Microsoft Stream을 사용 하도록 설정 해야 합니다. 또한 다음과 같이 모임 이끌이 및 녹음/녹화를 시작하는 사용자 모두에게 필요한 필수 구성 요소가 있습니다.
 
 - 사용자는 Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium 또는 Business Essentials을 사용할 수 있습니다.
 - 사용자에게 Microsoft Stream<sup>1</sup>에 대한 라이선스가 필요합니다. 

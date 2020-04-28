@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43adfb71c287677a6390d371a05bd1aea35ceda3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779987"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903123"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -90,8 +90,8 @@ VDI 환경에서 팀의 AV 최적화가 올바르게 작동 하려면 씬 클라
 |매개 변수  |Workstation 운영 체제  |서버 운영 체제  |
 |---------|---------|---------|
 |vCPU   |    2 코어     |  4, 6 또는 8<br>기본 비 유니폼 메모리 액세스 (NUMA) 구성을 이해 하 고 그에 따라 Vm을 구성 하는 것이 중요 합니다.     |
-|할당할     |   4GB      | 사용자 당 512 ~ 1024 MB        |
-|저장소    | 8gb        | 40 ~ 60 GB        |
+|RAM     |   4GB      | 사용자 당 512 ~ 1024 MB        |
+|저장소    | 8GB        | 40 ~ 60 GB        |
 
 #### <a name="non-persistent-setup"></a>비 영구적인 설정
 
@@ -161,12 +161,6 @@ Enterprise 용 microsoft 365 앱에 대 한 자세한 내용은 [엔터프라이
     > 이 예제에서는 또한 **ALLUSERS = 1** 매개 변수를 사용 합니다. 이 매개 변수를 설정 하면 제어판의 프로그램 및 기능 및 컴퓨터의 모든 사용자에 대 한 Windows 설정의 앱 & 기능에 팀 컴퓨터 전체의 설치 관리자가 표시 됩니다. 모든 사용자가 관리자 자격 증명을 사용 하는 경우 팀을 제거할 수 있습니다. **ALLUSERS = 1** 과 **alluser = 1**간의 차이를 이해 하는 것이 중요 합니다. 비 VDI 및 VDI 환경에는 **ALLUSERS = 1** 매개 변수를 사용할 수 있으며 **alluser = 1** 매개 변수는 vdi 환경 에서만 사용 하 여 컴퓨터별 설치를 지정 합니다.
 
 3. VDI VM에서 MSI를 제거 합니다.
-
-    팀을 제거 하는 방법에는 두 가지가 있습니다.  
-  
-    - PowerShell 스크립트 (권장)
-
-    - 명령줄:
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>

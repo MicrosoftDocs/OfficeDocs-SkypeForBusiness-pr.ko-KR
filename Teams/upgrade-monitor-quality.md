@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Microsoft 팀의 품질 및 사용 현황을 모니터링 하는 데 필요한 작업 및 활동
+description: 관리자는 Microsoft 팀의 품질과 사용을 모니터링 하는 데 필요한 작업 및 활동에 대해 알아볼 수 있습니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e870c6e6561bac991e7b9498ef76162ec1fa2eb9
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 9737834e38d87fbc5f925a5667d57ccd0a0aa626
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706978"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904343"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 

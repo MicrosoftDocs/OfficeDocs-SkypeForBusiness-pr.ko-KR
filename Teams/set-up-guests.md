@@ -11,25 +11,25 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: Microsoft Teams에서 게스트 액세스 기능을 켜거나 끕니다.
+description: Office 365 관리자로 Microsoft 팀에서 게스트 액세스 기능을 설정 하거나 해제 하는 방법에 대해 알아봅니다.
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bcdbc3251820bdcee860323ad993efc8d6673c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: e634c58d34787a76477591ab4262c703e5773cbe
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835648"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903793"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
 ===================================================
 
 기본적으로 게스트 액세스 기능은 꺼져있습니다. Office 365 관리자는 Teams에 대한 게스트 액세스를 켜야만 관리자 또는 팀 소유자가 게스트를 추가할 수 있습니다. 게스트 액세스를 켜기 위해서는 [게스트 액세스 검사 목록](guest-access-checklist.md)을 사용하세요. 
 
-게스트 액세스를 켠 후에는 변경 내용이 적용되는 데 2~24시간이 걸립니다. 사용자가 팀에 게스트를 추가하려고 할 때 "관리자에게 문의하세요."라는 메시지가 표시되면 게스트 액세스가 켜지지 않았거나 설정이 아직 적용되지 않았을 가능성이 큽니다.
+게스트 액세스를 설정한 후 변경 내용이 적용 되려면 몇 시간이 걸릴 수 있습니다. 사용자가 팀에 게스트를 추가하려고 할 때 "관리자에게 문의하세요."라는 메시지가 표시되면 게스트 액세스가 켜지지 않았거나 설정이 아직 적용되지 않았을 가능성이 큽니다.
 
 > [!IMPORTANT]
 > 게스트 액세스를 설정하는 것은 Azure Active Directory, Office 365, SharePoint Online 및 Teams의 설정에 따라 달라집니다. 자세한 내용은 [Team에서 게스트 액세스 권한 부여하기](Teams-dependencies.md)를 참조하세요.
@@ -38,15 +38,15 @@ ms.locfileid: "41835648"
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 관리 센터에서 게스트 액세스 구성하기
 
-1.  Microsoft Teams 관리 센터에 로그인합니다.
+1.    Microsoft Teams 관리 센터에 로그인합니다.
 
-2.  **조직 전체 설정** > **게스트 액세스**를 선택합니다.
+2.    **조직 전체 설정** > **게스트 액세스**를 선택합니다.
 
 3. **Microsoft Teams에서 게스트 액세스 허용**을 **켬**으로 설정합니다.
 
     ![게스트 액세스 허용 스위치를 켜기로 설정하기 ](media/set-up-guests-image1.png)
 
-4.  **통화**, **모임**, **메시징**에서 게스트 사용자에게 허용할 항목에 따라 각 기능에 대한 **켬** 또는 **끔**를 선택합니다.
+4.    **통화**, **모임**, **메시징**에서 게스트 사용자에게 허용할 항목에 따라 각 기능에 대한 **켬** 또는 **끔**를 선택합니다.
 
     - **개인 전화 걸기** – 게스트가 피어 투 피어 전화를 걸 수 있도록 허용하려면 이를 **켬**으로 설정합니다.
     - **IP 비디오 허용** - 게스트가 통화 및 모임에서 비디오를 사용하도록 허용하려면 이를 **켬**으로 설정합니다.
@@ -67,7 +67,7 @@ ms.locfileid: "41835648"
     - **대화에서 스티커 사용** – 게스트가 대화에서 스티커를 사용할 수 있도록 허용하려면 이를 **켬**으로 설정합니다. 
 
 
-5.  **저장**을 클릭합니다.
+5.    **저장**을 클릭합니다.
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell을 사용하여 게스트 액세스 켜기 또는 끄기
 [PowerShell을 사용하여 게스트 액세스 켜기 또는 끄기](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off) 참조하기

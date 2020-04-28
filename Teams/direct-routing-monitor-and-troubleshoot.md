@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 이 문서에서는 직접 라우팅 구성을 모니터링 하 고 문제를 해결 하는 방법을 설명 합니다.
-ms.openlocfilehash: 5dcae4d734c146c92c0cda4ac988d6010f90cc6f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: 세션 경계 컨트롤러, 다이렉트 라우팅 구성 요소 및 통신 trunks를 포함 하 여 직접 라우팅 구성을 모니터링 하 고 문제를 해결 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 52ab594b901606ccf7c3b43fc8484d989c248fcd
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836048"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901913"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>직접 라우팅 모니터링 및 문제 해결
 

@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: 이 문서에서는 Microsoft 팀 대화방을 배포 하기 위한 인프라 준비에 대해 설명 합니다.
-ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 모든 기능을 활용할 수 있도록 Microsoft 팀 대화방을 배포 하는 인프라를 준비 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779775"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905350"
 ---
 # <a name="prepare-your-environment"></a>작업 환경 준비
 
@@ -115,9 +116,9 @@ Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록
 |PSOM (영구 공유 개체 모델) 연결 웹 회의  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |HTTPS 다운로드  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |오디오  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50000-50019  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
-|비디오  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50020-50039  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
-|데스크톱 공유  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50040-50059  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50000-59999  <br/> |
-|IOS 장치에서 Lync Mobile 2010에 대 한 lync Mobile 푸시 알림 Android, Nokia Symbian 또는 Windows Phone 모바일 장치에는 필요 하지 않습니다.  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|비디오  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50020-50039  <br/> |\*contoso.com  <br/> |아니오  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
+|데스크톱 공유  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50040-50059  <br/> |\*contoso.com  <br/> |아니오  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50000-59999  <br/> |
+|IOS 장치에서 Lync Mobile 2010에 대 한 lync Mobile 푸시 알림 Android, Nokia Symbian 또는 Windows Phone 모바일 장치에는 필요 하지 않습니다.  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니오  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype 원격 분석  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |아니요  <br/> |아니요  <br/> |해당 없음  <br/> |TCP 443  <br/> |
 |Skype 클라이언트 퀵 팁  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |quicktips.skypeforbusiness.com  <br/> |아니요  <br/> |아니요  <br/> |해당 없음  <br/> |TCP 443  <br/> |
 
@@ -158,16 +159,16 @@ Microsoft 팀 대화방 기본 암호는 "sfb"로 설정 됩니다. Windows 설�
   
  도메인에 가입한 후 컴퓨터 이름을 바꾸려면 컴퓨터 이름 바꾸기 명령 다음에 컴퓨터의 새 이름을 사용 합니다.
   
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 팀 회의실 계획](rooms-plan.md)
 
-[Microsoft 팀 방에 대 한 요구 사항](requirements.md)
+[Microsoft Teams 룸 요구사항](requirements.md)
   
-[Microsoft 팀 대화방 배포](rooms-deploy.md)
+[Microsoft Teams 룸 배포](rooms-deploy.md)
   
-[Microsoft 팀 대화방 콘솔 구성](console.md)
+[Microsoft Teams 룸 콘솔 구성](console.md)
   
-[Microsoft 팀 대화방 관리](rooms-manage.md)
+[Microsoft Teams 룸 관리](rooms-manage.md)
 
 [Microsoft Store 비즈니스 에디션 및 교육을 위한 필수 구성 요소](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 

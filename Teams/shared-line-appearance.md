@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
-description: 사용자가 자신을 대신 하 여 통화에 응답 하거나 처리할 대리인을 선택할 수 있는 공유 선 모양
-ms.openlocfilehash: bb6728de67d1bf29a5e00ed9b62d8957391dd8ba
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Microsoft 팀의 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일을 보내는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837968"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905550"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 팀의 공유 선 모양
 
@@ -56,7 +57,7 @@ ms.locfileid: "41837968"
 
 현재 공유 선 모양은 다음 앱 및 장치에서 지원 됩니다.
 
-| 성능 | 팀 데스크톱 | 팀 Mac 앱 | 팀 웹 앱 (Edge) |팀 모바일 iOS/Android 앱 | 팀 IP 전화 |
+| 기능 | 팀 데스크톱 | 팀 Mac 앱 | 팀 웹 앱 (Edge) |팀 모바일 iOS/Android 앱 | 팀 IP 전화 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | 대리인 설정 | 예 | 예 | 예 | 아니요 | 아니요 |
 | 다른 사람을 대신 하 여 전화 받기 | 예 | 예 | 예 | 예 | 예 |

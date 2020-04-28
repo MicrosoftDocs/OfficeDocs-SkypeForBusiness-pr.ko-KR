@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 전화 시스템에서 수행할 수 있는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 398b1e159a54da21ca83ced5014f54d758420c2d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 이 문서에서는 Microsoft Office 365의 전화 시스템 기술에 대해 설명 합니다.
+ms.openlocfilehash: d64c8c0998b37446051b067af629f49eb2b4bd28
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836658"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905130"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365의 전화 시스템 이란?
 
@@ -75,5 +76,5 @@ ms.locfileid: "41836658"
 - [전화 시스템 설정](setting-up-your-phone-system.md)
 - [사용자에게 적합한 통화 플랜은 무엇인가요?](calling-plan-landing-page.md)
 - [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
-- [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 

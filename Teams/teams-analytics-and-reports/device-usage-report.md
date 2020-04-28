@@ -16,18 +16,19 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 팀 디바이스 사용 보고서를 사용 하 여 조직의 사용자가 팀에 연결 되는 방식을 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16abf763579a542583f3aafa30252c1423759641
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 128a9e816249dd918a5bf5fb380fde78d3ed9ce2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827356"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904920"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft 팀 장치 사용 보고서
 
 Microsoft 팀 관리 센터의 팀 장치 사용 보고서에서 사용자가 팀에 연결 하는 방법에 대 한 정보를 제공 합니다. 이 보고서를 사용 하 여 이동 중에 모바일 장치에서 사용 하는 팀의 수를 포함 하 여 조직에서 사용 하는 장치를 확인할 수 있습니다.  
 
-## <a name="view-the-report"></a>보고서 보기
+## <a name="view-the-device-usage-report"></a>장치 사용 현황 보고서 보기
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서** > **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **팀 디바이스 사용**을 선택 합니다.
 2. **날짜 범위**아래에서 범위를 선택 하 고 **보고서 실행**을 클릭 합니다.

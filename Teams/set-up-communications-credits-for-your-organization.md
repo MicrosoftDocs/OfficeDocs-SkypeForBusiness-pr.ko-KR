@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
+- seo-marvel-apr2020
 description: '사용자 및 조직에 대해 통신 크레딧 (PSTN 소비) 청구 라이선스를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779745"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905590"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -37,7 +38,7 @@ ms.locfileid: "43779745"
   
 ## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>1 단계: 오디오 회의 또는 통화 계획 라이선스를 사용자에 게 할당
 
-등록할 때 국가/지역에 따라 특정 수의 분이 표시 됩니다. [여기](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)에서 국가 또는 지역을 검색 하는 시간을 분 단위로 볼 수 있습니다. 해당 분을 사용한 후에는 통화가 끊깁니다. 이러한 상황이 발생 하지 않도록 하려면 통신 크레딧을 설정 해야 합니다.
+등록할 때 국가/지역에 따라 특정 수의 분이 표시 됩니다. [오디오 회의 및 통화 요금제](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization) 에서 국가 또는 지역을 검색 하 여 받을 수 있는 시간 (분)을 확인할 수 있습니다. 해당 분을 사용한 후에는 통화가 끊깁니다. 이러한 상황이 발생 하지 않도록 하려면 통신 크레딧을 설정 해야 합니다.
   
 이렇게 하려면 **오디오 회의 또는 전화 시스템 라이선스** 를 사용자에 게 할당 해야 합니다.
   

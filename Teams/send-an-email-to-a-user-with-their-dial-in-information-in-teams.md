@@ -20,14 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
-description: Microsoft 팀의 오디오 회의 정보로 사용자에 게 전자 메일을 보냅니다.
-ms.openlocfilehash: 2a045eaf3a2a79b893ff0d13e25d9b34224fd355
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: Microsoft 팀의 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일을 보내는 방법에 대해 알아봅니다.
+ms.openlocfilehash: d1cab63d9e89bb62254a838de708c022ef0b0993
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140931"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905610"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft 팀의 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기
 
@@ -47,7 +47,7 @@ ms.locfileid: "43140931"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft 팀 로고를 표시 하는 아이콘](media/teams-logo-30x30.png) Microsoft 팀 관리 센터 사용
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams 로고를 보여주는 아이콘](media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 

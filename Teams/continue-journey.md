@@ -8,9 +8,11 @@ ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
-description: 비즈니스용 Skype에서 Microsoft 팀으로 여행을 계속 하기 위한 지침
+description: 팀을 사용 하 여 네트워크 상태를 모니터링 하 고, 사용자의 참여를 유지 하 고, 새 기능을 준비 하는 방법을 알아봅니다.
 localization_priority: Normal
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b414cd4a6e312270520560edd3ed4d14c874bacb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706448"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904093"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft 팀을 효과적으로 사용 하는 방법
 

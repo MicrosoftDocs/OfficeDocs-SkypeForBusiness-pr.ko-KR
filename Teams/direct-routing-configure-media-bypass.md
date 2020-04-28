@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 이 항목에서는 전화 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8d6891d8ecabace3b093e2dc788edee6e9cc5bd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: 모든 사용자를 한 번에 전환 하거나 단계별 접근 (권장)을 구현 하 여 전화 시스템에서 미디어 우회를 구성 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837608"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904840"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 구성
 
@@ -29,11 +30,11 @@ ms.locfileid: "41837608"
 
 미디어 바이패스를 설정 하려면 다음 조건을 충족 해야 합니다.
 
-1.  선택 사항에 대 한 SBC (세션 경계 컨트롤러) 공급 업체가 미디어 바이패스를 지원 하는지 확인 하 고 SBC에서 bypass를 구성 하는 방법에 대 한 지침을 제공 합니다. 사용 중인 SBCs에 대 한 자세한 내용은 인증 페이지를 참조 하 고 미디어 바이패스에 대 한 지침을 제공 하세요.
+1.    선택 사항에 대 한 SBC (세션 경계 컨트롤러) 공급 업체가 미디어 바이패스를 지원 하는지 확인 하 고 SBC에서 bypass를 구성 하는 방법에 대 한 지침을 제공 합니다. 사용 중인 SBCs에 대 한 자세한 내용은 인증 페이지를 참조 하 고 미디어 바이패스에 대 한 지침을 제공 하세요.
 
-2.  **CSOnlinePSTNGateway-id <sbc_FQDN>-MediaBypass $true**를 사용 하 여 트렁크에서 미디어 바이패스를 설정 해야 합니다.
+2.    **CSOnlinePSTNGateway-id <sbc_FQDN>-MediaBypass $true**를 사용 하 여 트렁크에서 미디어 바이패스를 설정 해야 합니다.
 
-3.  필요한 포트가 열려 있는지 확인 합니다. 
+3.    필요한 포트가 열려 있는지 확인 합니다. 
 
 
 ## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>우회 되지 않은 trunks에서 우회 가능 trunks 마이그레이션
@@ -59,7 +60,7 @@ Trunks를 구성 하 고 마이그레이션을 수행 하는 방법에 대 한 �
 
 
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [직접 라우팅으로 미디어 바이패스 계획](direct-routing-plan-media-bypass.md)
 

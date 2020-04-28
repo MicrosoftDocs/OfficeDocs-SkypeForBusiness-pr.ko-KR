@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft 팀에 연결 하기 위해 의료 정보 시스템의 맨 위에서 FA r Api를 사용 하 여 Microsoft 팀에 전자 건강 기록을 통합 하는 방법에 대해 알아보세요.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbd239c34c6fd4cd5838b2ba57c7160448f38497
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Microsoft 팀 환자 앱에 전자 의료 기록 통합에 대 한 자세한 내용을 보려면 Api를 사용 하세요.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141211"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905520"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Microsoft Teams에 전자 의료 레코드 통합
 

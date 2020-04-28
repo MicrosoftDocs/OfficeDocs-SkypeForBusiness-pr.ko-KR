@@ -13,19 +13,20 @@ ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 직접 라우팅에 대 한 랜딩 페이지
+description: 직접 라우팅에 대해 자세히 알아보고 필요한 배포 의사 결정을 이해 하세요.
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: ba1732864a765af5bb5a0dfc5504f1d37b5460b5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157906"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904583"
 ---
 # <a name="phone-system-direct-routing"></a>전화 시스템 직접 라우팅
 
-[시작](get-started-with-teams-quick-start.md)을 완료했습니다. 조직 전체에서 [채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md)이 포함된 Teams를 배포했습니다. [모임 & 회의](deploy-meetings-microsoft-teams-landing-page.md)를 배포 했을 수도 있습니다. 이제 클라우드 음성 작업 부하를 추가할 준비가 되었으며, 전화 시스템 직접 라우팅을 사용 하 여 PSTN (공개 교환 통신망) 연결에 고유한 전화 통신 회사를 사용 하기로 결정 했습니다. 직접 라우팅으로 전화 시스템을 거의 모든 통신 사업자와 함께 사용할 수 있습니다.
+[시작](get-started-with-teams-quick-start.md)을 완료했습니다. 조직 전체에서 [채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md)이 포함된 Teams를 배포했습니다. [모임 & 회의](deploy-meetings-microsoft-teams-landing-page.md)를 배포 했을 수도 있습니다. 이제 클라우드 음성 작업 부하를 추가할 준비가 되었으며, 전화 시스템 직접 라우팅을 사용 하 여 PSTN (공개 교환 통신망) 연결에 고유한 전화 통신 회사를 사용 하기로 결정 했습니다. 직접 라우팅을 사용하면 거의 모든 전화 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다.
 
 이 문서에서는 조직의 요구 사항에 따라 직접 라우팅에 대 한 핵심 배포 결정 및 고려해 볼 수 있는 추가 고려 사항을 설명 합니다. Microsoft의 클라우드 음성 제공에 대 한 자세한 내용은 [Microsoft 팀에서 클라우드 음성을](cloud-voice-landing-page.md) 참조 하세요.
 

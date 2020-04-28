@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 팀 채택을 실험 하는 방법에 대해 알아보세요.
+description: 이 문서에서는 Microsoft 팀의 채택을 위한 실험 단계를 수행 하는 방법에 대해 설명 합니다.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26b012fceb1fa888389417b85cb4a08ed3f16a3a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 818189b1ed676c8936ac602022376863e0f13a03
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837768"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905660"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft 팀 채택 2 단계-실험
 

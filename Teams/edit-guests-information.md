@@ -13,15 +13,17 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 관리자가 Azure Active Directory 포털에서 게스트 사용자에 대 한 정보를 편집 하는 방법에 대해 알아봅니다.
+description: 이 문서에서는 관리자가 Azure Active Directory 포털에서 게스트 사용자에 대 한 정보를 편집 하는 방법에 대해 설명 합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d59e991212391ea9cdac194ef3687da9095f0679
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom:
+- seo-marvel-apr2020
+ms.openlocfilehash: 038312f2dc63778111bd58ae93bfc5afab56750c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833778"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904053"
 ---
 <a name="edit-guest-user-information"></a>게스트 사용자 정보 편집
 ===========================

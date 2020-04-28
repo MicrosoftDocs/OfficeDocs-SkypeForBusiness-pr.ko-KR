@@ -12,13 +12,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 이 문서에서는 Microsoft 팀 대화방에 대 한 수명 지원에 대해 설명 합니다.
-ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+description: 동적 지원 구조 및 해당 단계를 포함 하 여 Microsoft 팀 대화방에 대 한 수명 주기 지원에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6a6a3000b97de9756c78ed09c5f4d56a237fda0d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190827"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905380"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 팀 대화방 앱 버전 지원
  
@@ -63,10 +64,10 @@ Windows 10 버전 1809 &#x2780; Microsoft 팀 회의실 응용 프로그램에 �
 
 지원 되는 버전의 Windows 10을 사용 하는 경우 항상 Microsoft 팀 대화방 앱에 대 한 최신 응용 프로그램 업데이트를 받게 됩니다.  
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 팀 대화방 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft 팀 대화방 릴리스 정보](rooms-release-note.md)
 
-[Microsoft 팀 회의실 계획](rooms-plan.md)
+[Microsoft Teams 룸 계획](rooms-plan.md)

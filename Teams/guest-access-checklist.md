@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
-description: 이 검사 목록을 사용하여 Microsoft Teams에서 게스트 액세스를 설정할 수 있습니다.
+description: Microsoft 팀에서 전역 또는 팀 관리자로 게스트 액세스를 설정 하 고 구성 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776953"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902583"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 게스트 액세스 검사 목록
 =========================================
@@ -30,7 +31,7 @@ ms.locfileid: "43776953"
 이 검사 목록을 사용하여 Microsoft Teams에서 게스트 액세스를 설정하고 구성할 수 있습니다. 이렇게 변경하려면 사용자가 전역 관리자 또는 Teams 관리자여야 합니다.
 
 > [!IMPORTANT]
-> 변경 내용이 적용되는 데 최대 24시간이 걸릴 수 있습니다. 
+> 변경 내용이 적용 되려면 몇 시간 정도 기다려야 할 수 있습니다. 
 
 이 짧은 비디오(5분 31초)를 시청하여 Teams와 같은 Microsoft 365를 통해 게스트 액세스를 설정하는 방법에 대해 알아보세요.
 

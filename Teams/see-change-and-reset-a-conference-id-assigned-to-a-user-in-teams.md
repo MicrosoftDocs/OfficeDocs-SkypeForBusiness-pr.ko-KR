@@ -19,14 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 description: Microsoft 팀에서 사용자에 게 전화 회의 ID를 할당 하는 방법 및 회의 id 매개 변수를 지정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7c4b9614843f353438630892574c25576913d24b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 66d67693970f03326ae2acb58ba40310f567a370
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140941"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905620"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 게 할당 된 회의 ID 보기 및 다시 설정
 
@@ -34,7 +34,7 @@ ms.locfileid: "43140941"
   
 전화 회의 ID는 사용자에 게 자동으로 만들어지고 할당 되지만, 사용자가이를 사용 하지 않고 특정 번호로 설정 하려는 경우 또는 사용자가 자신의 전화 회의 ID를 분실 하거나 손실 하지 않았을 때가 있을 수 있습니다. Microsoft 팀 관리 센터 또는 Windows PowerShell을 사용 하 여 전화 회의 ID를 보고 변경 하 고 다시 설정할 수 있습니다.
   
-전화 회의 ID와 기본 오디오 회의 전화 번호로 사용자에 게 전자 메일이 전송 되거나, 전화 회의 id를 다시 설정 하는 경우에는 전화 회의 ID만 포함 하 고 PIN이 아닌 다른 전자 메일을 보낼 수 있습니다. 회의 이끌이의 PIN을 다시 설정 하는 방법에 대 한 자세한 내용은 [여기](reset-a-conference-id-for-a-user-in-teams.md)를 참조 하세요. 
+전화 회의 ID와 기본 오디오 회의 전화 번호로 사용자에 게 전자 메일이 전송 되거나, 전화 회의 id를 다시 설정 하는 경우에는 전화 회의 ID만 포함 하 고 PIN이 아닌 다른 전자 메일을 보낼 수 있습니다. 회의 이끌이의 PIN을 다시 설정 하는 방법에 대 한 자세한 내용은 [Microsoft 팀에서 사용자의 전화 회의 ID 다시 설정을](reset-a-conference-id-for-a-user-in-teams.md) 참조 하세요. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -100,4 +100,3 @@ Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참�
 ## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
-

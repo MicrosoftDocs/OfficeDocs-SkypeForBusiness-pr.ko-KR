@@ -12,15 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Microsoft 팀 관리 센터에서 사용할 수 있는 팀 보고서에 대해 알아봅니다.
+description: 이 문서에서는 Microsoft 팀 관리 센터에서 사용할 수 있는 팀 보고서에 대해 설명 합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86003876bbbf4927886a8b260fad48f451a2d325
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 24d8a9658c4f7c0d9b0c12472491065106a7533c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778243"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904283"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 팀 분석 및 보고
 

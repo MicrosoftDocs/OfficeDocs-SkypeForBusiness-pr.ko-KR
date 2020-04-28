@@ -22,14 +22,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-- seo-marvel-mar2020
-description: 비용, 가용성, 전담 전화 번호를 포함 하 여 Office 365의 오디오 회의에 대해 알아봅니다.
-ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Office 365의 오디오 회의를 통해 사용자가 휴대폰에서 모임에 전화를 걸 수 있는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 9ceb233ccca58abe89c13fb3c9f9cf08580f389c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780417"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905060"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365의 오디오 회의
 Office 365의 오디오 회의를 통해 사용자는 전화기에서 모임에 전화를 걸 수 있습니다. 오디오 회의를 통해 최대 250명의 전화 참석자가 참여할 수 있습니다.

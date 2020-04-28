@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft 팀에서 긴급 통화 라우팅 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Microsoft 팀에서 긴급 전화 번호를 설정 하 고 긴급 전화의 라우팅 방법을 지정 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 310f2d3177f7a601013859d06a90f6d1ba44c656
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141121"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905120"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 라우팅 정책 관리
 
@@ -36,11 +36,11 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 
 ## <a name="create-a-custom-emergency-call-routing-policy"></a>사용자 지정 긴급 통화 라우팅 정책 만들기
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **응급 정책**으로 이동한 다음 **전화 라우팅 정책** 탭을 클릭 합니다.
 2. **추가**를 클릭 합니다.
-3. 정책의 이름 및 설명을 입력 합니다.
+3. 정책의 이름과 설명을 입력합니다.
 4. 향상 된 응급 서비스를 사용 하도록 설정 하려면 **향상 된 응급 서비스**를 설정 합니다. 향상 된 응급 서비스를 사용 하도록 설정 하면 팀에서 서비스의 정책 및 위치 정보를 검색 하 고 긴급 통화의 일부로 해당 정보를 포함 합니다.
 5. 긴급 번호 중 하나를 정의 합니다. 이렇게 하려면 **비상 번호**에서 다음을 수행 합니다.
     1. **비상 다이얼 문자열**: 비상 다이얼 문자열을 입력 합니다. 이 다이얼 문자열은 통화가 비상 통화로 표시 됨을 나타냅니다.
@@ -60,7 +60,7 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 
 ## <a name="edit-an-emergency-call-routing-policy"></a>긴급 통화 라우팅 정책 편집
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 만든 전역 정책 또는 사용자 지정 정책을 편집할 수 있습니다.
 
@@ -74,7 +74,7 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>사용자에 게 사용자 지정 긴급 전화 라우팅 정책 할당
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
 2. **정책을**클릭 한 다음 **할당 된 정책**옆에 있는 **편집**을 클릭 합니다.
@@ -87,7 +87,7 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **응급 정책**으로 이동한 다음 **전화 라우팅 정책** 탭을 클릭 합니다.
 2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
 3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용

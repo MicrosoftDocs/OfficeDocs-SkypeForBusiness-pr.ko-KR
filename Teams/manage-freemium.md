@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
-description: 무료 팀의 관리 기능에 대해 알아보세요.
+description: 팀에서 무료로 사용자를 관리 하 고 다양 한 팀 계획 간의 차이점에 대해 알아보세요.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb766eb7f1e5e8ef98afc540bdbb5264877b8142
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 0d8d7edb5710883c7725a0784819d3a35c1c2f2f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780037"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905100"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>무료 버전의 Microsoft 팀 관리
 ==========================================

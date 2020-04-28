@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft 팀에서 긴급 통화 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 90f278487b1b8d2e0e0b9b165e7d15023d6c0aaa
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Microsoft 팀에서 긴급 전화 정책을 사용 하 고 관리 하 여 조직의 팀 사용자가 긴급 통화를 할 때 수행할 작업을 정의 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888697"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905110"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 정책 관리
 
@@ -35,17 +36,17 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 
 ## <a name="create-a-custom-emergency-calling-policy"></a>사용자 지정 비상 통화 정책 만들기
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **응급 정책**으로 이동한 다음, **통화 정책** 탭을 클릭 합니다.
 2. **추가**를 클릭 합니다.
-3. 정책의 이름 및 설명을 입력 합니다.
+3. 정책의 이름과 설명을 입력합니다.
 4. 긴급 통화가 이루어질 때 조직의 사용자에 게 일반적으로 보안 데스크에 알리는 방법을 설정 합니다. 이렇게 하려면 **알림 모드**에서 다음 중 하나를 선택 합니다.
     - **알림만**: 지정 된 사용자 및 그룹에 게 팀 채팅 메시지가 전송 됩니다.
     - **Conferenced에는 있지만 음소거 되어**있습니다. 지정 하는 사용자 및 그룹에 팀 채팅 메시지가 전송 되며, 호출자와 psap 연산자 간에 대화에 참여 하지 않고이를 수신할 수 있습니다.
 5.  **Conferenced in (음소거 됨** 알림 모드)을 선택한 경우에는 **알림 전화 접속 번호** 상자에서 사용자 또는 그룹의 PSTN 전화 번호를 입력 하 여 비상 전화를 걸거나 받을 수 있습니다. 예를 들어 조직의 보안 데스크 번호를 입력 하 고, 긴급 통화를 할 때 전화를 받을 수 있으며, 전화를 걸거나이에 참가할 수 있습니다.
 6. 조직의 보안 데스크와 같은 하나 이상의 사용자 또는 그룹을 검색 하 고 선택 하 여 긴급 통화가 발생 한 경우 알립니다.  알림은 사용자, 메일 그룹, 보안 그룹의 전자 메일 주소로 보낼 수 있습니다. 최대 50 명의 사용자에 게 알림을 보낼 수 있습니다.
-7. **저장**을 클릭 합니다.
+7. **저장**을 클릭합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
@@ -53,7 +54,7 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 
 ## <a name="edit-an-emergency-calling-policy"></a>긴급 통화 정책 편집
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 만든 전역 정책 또는 사용자 지정 정책을 편집할 수 있습니다.
 
@@ -67,9 +68,9 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>사용자에 게 사용자 지정 긴급 통화 정책 할당
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 다음 사용자를 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
 2. **정책을**클릭 한 다음 **할당 된 정책**옆에 있는 **편집**을 클릭 합니다.
 3. **비상 전화 정책**에서 할당 하려는 정책을 선택한 다음 **저장**을 클릭 합니다.
 
@@ -78,9 +79,9 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 또는 다음을 수행할 수도 있습니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **응급 정책**으로 이동한 다음, **통화 정책** 탭을 클릭 합니다.
-2. 정책 이름 왼쪽에 있는을 클릭 하 여 정책을 선택 합니다.
-3. **사용자 관리**를 선택 합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가 하려는 각 사용자에 대해이 단계를 반복 합니다.
+2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
+3. **사용자 관리**를 선택합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
@@ -125,4 +126,4 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
 ## <a name="related-topics"></a>관련 항목
 
 - [팀에서 긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)
-- [팀 PowerShell 개요](teams-powershell-overview.md)
+- [Teams PowerShell 개요](teams-powershell-overview.md)

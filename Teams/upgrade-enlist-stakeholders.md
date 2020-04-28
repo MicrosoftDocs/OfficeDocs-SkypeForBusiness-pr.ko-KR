@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: 프로젝트 팀이 업그레이드를 위해 관계자에 게 제공할 수 있도록 참여 합니다.
+description: 조직의 관련자를 구조화 하 여 Microsoft 팀 업그레이드가 성공적으로 수행 되도록 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7e8effb58130a177e193db006ec6e0279f27309
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4aecbbe19e004191f6605af0a0552a0b7a87e998
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780597"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904463"
 ---
 # <a name="enlist-your-project-stakeholders"></a>프로젝트 관련자 참여
 

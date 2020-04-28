@@ -12,18 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: 조직에서 요청 하는 데이터 및 사용 권한 앱에 대해 알아봅니다.
+description: 관리자는 Microsoft 팀 앱에서 조직에 게 요청 하는 데이터 및 사용 권한을 확인할 수 있습니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845229"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904593"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 팀 앱 사용 권한 및 고려 사항
 
@@ -41,7 +42,7 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 
 |    |     |
 |-----------|------------|
-| ![결정 지점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>아래 표를 참조 하 여 조사 중인 앱에서 요청 하는 사용 권한을 파악 합니다.</li></ul> |
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>아래 표를 참조 하 여 조사 중인 앱에서 요청 하는 사용 권한을 파악 합니다.</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>앱 또는 서비스 자체를 조사 하 여 조직 내에서 해당 사용자에 게 액세스를 허용 하려는 지 여부를 결정 합니다. 예를 들어, 봇은 사용자 로부터 메시지를 보내고 받으며 enterprise lob (기간 업무) 인공 지능을 제외 하 고는 규정 준수 경계 외부에 위치 합니다. 따라서 봇이 포함 된 앱에는 해당 권한이 필요 하며 최소한 위험 프로필을 보유 하 고 있는 것입니다. </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>전역 앱 사용 권한 및 고려 사항
@@ -135,7 +136,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 - 탭에 대 한 위험 프로필은 브라우저 탭에서 실행 되는 동일한 웹 사이트와 거의 동일 합니다. 
 
-- 또한 탭은 현재 사용자의 로그인 이름 및 UPN, 현재 사용자의 Azure AD 개체 ID,이 계정이 있는 Office 365 그룹의 ID (팀 인 경우), 테 넌 트 ID를 포함 하 여 실행 중인 컨텍스트를 가져옵니다. 사용자의 현재 로캘입니다. 그러나 이러한 Id를 사용자 정보에 매핑하려면 탭에서 사용자가 Azure AD에 로그인 하도록 설정 해야 합니다.
+- 또한 탭은 현재 사용자의 로그인 이름 및 UPN, 현재 사용자의 Azure AD 개체 ID,이 계정이 상주 하는 Office 365 그룹의 ID (팀 인 경우), 테 넌 트 ID 및 사용자의 현재 로케일을 비롯 하 여 실행 중인 컨텍스트를 가져옵니다. 그러나 이러한 Id를 사용자 정보에 매핑하려면 탭에서 사용자가 Azure AD에 로그인 하도록 설정 해야 합니다.
 
 ## <a name="connectors"></a>기가
 

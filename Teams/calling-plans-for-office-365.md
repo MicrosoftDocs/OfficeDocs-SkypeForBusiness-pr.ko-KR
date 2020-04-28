@@ -24,13 +24,14 @@ ms.custom:
 - O365P_E5Voiceplandetails
 - Licensing
 - LIL_Placement
+- seo-marvel-apr2020
 description: 'Skype for business 옵션에 대 한 통화 요금제 (PSTN 통화 요금제)와 조직의 라이선스를 얻는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779947"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905020"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365에 대 한 통화 요금제
 
@@ -42,7 +43,7 @@ ms.locfileid: "43779947"
     
 - **국내 및 국제 통화 요금제**: 라이선스 사용자는 사용자의 위치 및 [196 국가/지역의](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)국제 전화 번호에 따라 사용자에 게 Office 365 라이선스가 할당 되는 국가/지역에 있는 번호로 통화할 수 있습니다.
     
-각 조직과 각 국가/지역에 대해 월간 통화 가능 시간은 [여기](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)에 있습니다.
+[국가 및 지역 사용 가능성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 을 방문 하 여 각 국가/지역의 각 조직에 대해 월간 통화 가능 시간을 확인 하세요.
   
 > [!IMPORTANT]
 > 국가/지역은 microsoft **365 관리 센터** > **활성 사용자** 의 사용자 라이선스 위치를 기반으로 하며 **microsoft 365 관리 센터**의 **조직 프로필** 아래에 나열 된 청구 주소는 **아닙니다** .   

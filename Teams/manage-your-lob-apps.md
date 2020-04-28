@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 개발에서 배포에 이르기까지 사용자 지정 팀 앱을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: dd34b96a40affc2ffd7e5ddeb6a118a122831296
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229938"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904950"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Microsoft 팀에서 lob (기간 업무) 앱 관리
 
@@ -126,6 +126,20 @@ Microsoft는 <a href="https://docs.microsoft.com/microsoftteams/platform/publish
 앱을 업데이트 하려면 개발자가 [1 단계](#step-1-develop-and-test) 와 [2 단계](#step-2-validate-in-production)를 계속 수행 해야 합니다.
 
 테 넌 트 앱 카탈로그를 통해 앱을 업데이트할 수 있습니다. 이렇게 하려면 Microsoft 팀 관리 센터에서 **팀 앱** > 앱**관리**로 이동 합니다. 앱 목록에서 앱 이름을 클릭 한 다음 **업데이트**를 클릭 합니다. 이렇게 하면 테 넌 트 앱 카탈로그의 기존 앱이 바뀌고, 모든 앱 권한 정책 및 앱 설정 정책은 업데이트 된 앱에 적용 됩니다.
+
+### <a name="end-user-update-experience"></a>최종 사용자 업데이트 환경
+
+대부분의 경우 앱 업데이트를 완료 하면 최종 사용자에 게 새 버전이 자동으로 표시 됩니다. 그러나 사용자에 게 완료 해야 하는 <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft 팀 매니페스트에</a> 대 한 몇 가지 업데이트가 있습니다.
+
+* 봇이 추가 되거나 제거 되었습니다.
+* 기존 봇의 "botId" 속성이 변경 됨
+* 기존 봇의 "isNotificationOnly" 속성이 변경 됨
+* bot "supportsFiles" 속성이 변경 되었습니다.
+* 메시징 확장이 추가 또는 제거 됨
+* 새 커넥터가 추가 되었습니다.
+* 새 정적 탭이 추가 되었습니다.
+* 구성 가능한 새 탭이 추가 되었습니다.
+* "webApplicationInfo" 내의 속성 변경 됨
 
 ## <a name="related-apps"></a>관련 앱
 

@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-description: Microsoft 팀 관리 센터에서 팀을 보거나 업데이트 하는 방법에 대해 알아봅니다.
+description: 조직에서 Microsoft 팀 관리 센터의 공동 작업에 대해 설정한 팀을 확인 하거나 업데이트 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d07c9c1f19b86b3b95a597a52290acb2fdaa80cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8c83d985a277c8341565e44878ba03385e23a358
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836270"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905000"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft 팀원 관리 센터에서 팀 관리
 ==========================================
@@ -108,7 +109,7 @@ ms.locfileid: "41836270"
 
 팀에 대해 변경한 내용이 기록 됩니다. 그룹 설정을 수정 하는 경우 (이름, 설명, 사진, 개인 정보, 분류 또는 팀 구성원을 변경 하는 경우), 감사 파이프라인을 통해 변경 내용이 사용자에 게 특성화 됩니다. 팀 특정 설정에 대해 작업을 수행 하는 경우 팀의 일반 채널에서 변경 내용이 추적 되 고 특성이 지정 됩니다.
 
-## <a name="troubleshooting"></a>해결사
+## <a name="troubleshooting"></a>문제 해결
 
 **문제: 팀 개요 표에서 누락 된 팀**
 
@@ -132,7 +133,7 @@ ms.locfileid: "41836270"
 
 6. 팀이 Microsoft 팀 관리 센터-팀 개요에 올바르게 표시 되는지 확인 합니다.
 
-## <a name="learn-more"></a>더 알아보세요
+## <a name="learn-more"></a>자세히 알아보기
 
 - [팀 cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 - [팀 관리자 역할을 사용 하 여 팀 관리](using-admin-roles.md)

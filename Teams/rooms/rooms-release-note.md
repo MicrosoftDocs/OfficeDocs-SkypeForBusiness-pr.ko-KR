@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+description: 관리자는 microsoft 팀 대화방에 대 한 릴리스 정보를 읽을 수 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227522"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905340"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -70,7 +71,6 @@ ms.locfileid: "43227522"
 - 2에 대해 모임에서 중복 콘텐츠를 사용 하지 않도록 설정 하는 기능 XML을 사용 하 여 채팅방 표시
 - 응용 프로그램 시작 화면
 - 장치 설정의 OSS (오픈 원본 소프트웨어) 알림
-- 비즈니스용 Skype Server 2015/2019에서 TLS 1.0 및 TLS 1.1을 사용 하지 않도록 설정한 경우 PSOM 연결을 수정 합니다.
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
@@ -348,6 +348,6 @@ Introduced in this update:
 
 [Microsoft 팀 대화방의 알려진 문제점](known-issues.md)
 
-[Microsoft 팀 회의실 계획](rooms-plan.md)
+[Microsoft Teams 룸 계획](rooms-plan.md)
 
-[Microsoft 팀 대화방 관리](rooms-manage.md)
+[Microsoft Teams 룸 관리](rooms-manage.md)

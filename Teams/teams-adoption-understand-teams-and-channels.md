@@ -10,27 +10,29 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft 팀에서 팀과 채널을 구조화 하는 방법에 대해 자세히 알아보세요.
+description: Microsoft 팀에서 팀과 채널을 구성 하는 방법과 팀을 사용 하 여 조직 간 공동 작업을 구동 하는 방법에 대해 자세히 알아보세요.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779594"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904940"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 이해
 
 팀과 채널의 개념은 Microsoft 팀의 정상적인 생산성을 구현 하는 데 기본적으로 적합 합니다. 
 
-- 팀은 회사에 대 한 비즈니스 결과물을 생성 하기 위해 함께 작동 하는 사람, 콘텐츠, 도구 모음입니다. 팀은 Microsoft 365 그룹을 기반으로 하며 팀에 대 한 Office 365 그룹 구성원 동기화가 변경 됩니다. 
+- 팀은 회사에 대 한 비즈니스 결과물을 생성 하기 위해 함께 작동 하는 사람, 콘텐츠, 도구 모음입니다. Teams는 Microsoft 365 그룹에 기반하며 Office 365 그룹 멤버 변경 사항이 Teams에 동기화됩니다. 
 
 - 채널은 실제 작업 시간이 완료 된 팀 내의 공동 작업 공간입니다. 
 

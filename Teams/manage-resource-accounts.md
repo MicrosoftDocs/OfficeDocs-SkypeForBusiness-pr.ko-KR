@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: Microsoft 팀에서 자원 계정 관리에 대 한 자세한 정보
-ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+- seo-marvel-apr2020
+description: 이 문서에서는 Microsoft 팀에서 자원 계정을 만들고, 편집 하 고, 관리 하는 방법에 대해 설명 합니다.
+ms.openlocfilehash: 07f6f15f3ed3fc1e115ae672ef1eac89b5eab12f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43750005"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905010"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -37,7 +38,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 > [!NOTE]
 > 이 문서는 Microsoft 팀과 비즈니스용 Skype Online에 모두 적용 됩니다. 비즈니스용 Skype 서버 2019에 홈으로 표시 되는 리소스 계정의 경우 [리소스 계정 구성을](/SkypeForBusiness/hybrid/configure-onprem-ra)참조 하세요.
 
-## <a name="overview"></a>개요
+## <a name="assign-a-phone-number-to-a-phone-system-call-queue"></a>전화 시스템 통화 대기열에 전화 번호 지정
 
 조직에서 이미 하나 이상의 전화 시스템 라이선스를 사용 하 고 있는 경우 전화 시스템 통화 대기열에 전화 번호를 지정 하는 절차는 다음과 같습니다.
 

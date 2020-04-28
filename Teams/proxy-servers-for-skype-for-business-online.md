@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 이 문서에서는 팀 또는 비즈니스용 Skype에 프록시 서버를 사용 하는 방법에 대 한 정보를 제공 합니다.
-ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+- seo-marvel-apr2020
+description: 이 문서에서는 Microsoft 팀 또는 비즈니스용 Skype에서 프록시 서버를 사용 하는 방법에 대 한 정보를 제공 합니다.
+ms.openlocfilehash: 5a0d35ee2b8c95c4dea30886497e184f57077264
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863189"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905680"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 또는 비즈니스용 Skype Online 용 프록시 서버
 

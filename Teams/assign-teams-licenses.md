@@ -17,12 +17,13 @@ ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 할당 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 55d85aae6540c6b5888be848ad08d686bd0da2b1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858561"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905070"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft 팀 라이선스 할당
 
@@ -191,4 +192,4 @@ foreach ($user in $users)
 
 [통화 플랜 설정](set-up-calling-plans.md)
 </br>
-[자금 추가 및 통신 크레딧 관리](add-funds-and-manage-communications-credits.md)
+[자금 추가 및 커뮤니케이션 크레딧 관리](add-funds-and-manage-communications-credits.md)

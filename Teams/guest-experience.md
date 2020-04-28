@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: 게스트 사용자가 사용할 수 있는 Microsoft 팀 기능에 대해 알아봅니다.
+description: 이 문서에서는 게스트 사용자가 사용할 수 있는 Microsoft 팀 기능에 대해 설명 하 고 있으며, 관련 된 가장 일반적인 Faq 중 일부에 대 한 답변을 제공 합니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785871"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902603"
 ---
 <a name="what-the-guest-experience-is-like"></a>게스트 환경의 모양
 =================================
@@ -76,11 +77,11 @@ ms.locfileid: "43785871"
 | Consultative 전송 가능 | 예 | 예 | 예 |
 | VOIP를 통해 통화에 다른 사용자를 추가할 수 있습니다. | 예 | 예 | 예 |
 | 전화 번호를 통해 통화에 사용자를 추가할 수 있습니다. | 아니요 | 아니요 | 예 |
-| 대상 전달 | 아니요 | 예 | 예 |
-| 통화 그룹 대상 | 아니요 | 예 | 예 |
-| 응답 하지 않은 대상 | 아니요 | 예 | 예 |
-| 페더레이션된 통화 대상일 수 있습니다. | 아니요 | 예 | 예 |
-| 페더레이션된 통화를 할 수 있습니다. | 아니요 | 예 | 예 |
+| 대상 전달 | 아니오 | 예 | 예 |
+| 통화 그룹 대상 | 아니오 | 예 | 예 |
+| 응답 하지 않은 대상 | 아니오 | 예 | 예 |
+| 페더레이션된 통화 대상일 수 있습니다. | 아니오 | 예 | 예 |
+| 페더레이션된 통화를 할 수 있습니다. | 아니오 | 예 | 예 |
 | 통화를 즉시 착신 전환할 수 있습니다. | 아니요 | 아니요 | 예 |
 | 동시에 통화를 들을 수 있습니다. | 아니요 | 아니요 | 예 |
 | 응답 하지 않은 통화를 라우팅할 수 있습니다. | 아니요 | 아니요 | 예 |

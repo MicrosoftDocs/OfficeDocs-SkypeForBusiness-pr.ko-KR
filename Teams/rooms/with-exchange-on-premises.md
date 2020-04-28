@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Exchange 온-프레미스를 사용 하는 하이브리드 환경에서 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 0efed0a07024f0f1fcfeea7168c4f78c66fecd64
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141011"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905300"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)
 
@@ -175,14 +175,14 @@ Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 �
 
 유효성 검사를 위해 모든 클라이언트를 사용 하 여이 계정에 로그인 할 수 있습니다.
   
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 팀 대화방 계정 구성](rooms-configure-accounts.md)
 
-[Microsoft 팀 회의실 계획](rooms-plan.md)
+[Microsoft Teams 룸 계획](rooms-plan.md)
   
-[Microsoft 팀 대화방 배포](rooms-deploy.md)
+[Microsoft Teams 룸 배포](rooms-deploy.md)
   
-[Microsoft 팀 대화방 콘솔 구성](console.md)
+[Microsoft Teams 룸 콘솔 구성](console.md)
   
-[Microsoft 팀 대화방 관리](rooms-manage.md)
+[Microsoft Teams 룸 관리](rooms-manage.md)

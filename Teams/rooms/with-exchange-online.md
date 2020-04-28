@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: Exchange Online을 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Exchange Online과 비즈니스용 Skype Server 온-프레미스를 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
+ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780557"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905290"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online을 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -155,14 +155,14 @@ AD FS (Active Directory Federation Services)를 배포한 경우 다음 단계�
 > [!IMPORTANT]
 > 비즈니스용 Skype 계획 2를 사용 하는 경우 비즈니스용 skype 전용 모드에서 Microsoft 팀 대화방만 사용할 수 있으며, 모든 모임이 비즈니스용 Skype 모임 임을 의미 합니다. Microsoft 팀 모임에서 회의실을 사용 하도록 설정 하려면 회의실 라이선스를 구입 하는 것이 좋습니다.
   
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 팀 대화방 계정 구성](rooms-configure-accounts.md)
 
-[Microsoft 팀 회의실 계획](rooms-plan.md)
+[Microsoft Teams 룸 계획](rooms-plan.md)
   
-[Microsoft 팀 대화방 배포](rooms-deploy.md)
+[Microsoft Teams 룸 배포](rooms-deploy.md)
   
-[Microsoft 팀 대화방 콘솔 구성](console.md)
+[Microsoft Teams 룸 콘솔 구성](console.md)
   
-[Microsoft 팀 대화방 관리](rooms-manage.md)
+[Microsoft Teams 룸 관리](rooms-manage.md)

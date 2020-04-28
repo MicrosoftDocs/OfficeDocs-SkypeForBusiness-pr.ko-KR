@@ -8,7 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft 팀에서 StaffHub 팀을 이동 하도록 계획 하는 방법에 대 한 지침을 확인 하세요.
+description: 이 시간 표시 막대를 사용 하 여 StaffHub 팀에서 Microsoft 팀의 변화에 이르기까지 조직의 전환을 지원할 수 있습니다.
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,13 +18,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 67c7a34a1051f68183429d9850561748d34568ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780617"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905720"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 StaffHub 팀을 교대으로 이동 하는 계획
 

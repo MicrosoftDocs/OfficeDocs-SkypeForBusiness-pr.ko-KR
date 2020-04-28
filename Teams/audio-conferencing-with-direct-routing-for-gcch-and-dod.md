@@ -18,14 +18,14 @@ appliesto:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: GCCH 및 DoD 환경에서 직접 라우팅이 있는 오디오 회의를 사용 하는 방법에 대해 알아봅니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6b8077e2bf376976c9906a8703ebd59a1d1cc23f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 관리자는 GCCH 및 DoD 환경에서 직접 라우팅이 있는 오디오 회의를 사용 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7ded1e0aba5191449d568109b8f30762fbd5d917
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141171"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905050"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
 

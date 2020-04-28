@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀 채택
 ms.reviewer: karuanag
-description: 이러한 채택 리소스를 사용 하 여 조직에서 Microsoft 팀을 계획 하 고 배포 하는 데 도움을 받으세요.
+description: 조직에서 Microsoft 팀을 계획 하 고 배포 하는 데 사용할 수 있는 채택 리소스에 대해 알아봅니다.
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -12,6 +12,7 @@ audience: admin
 ms.service: msteams
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.adoption
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -20,12 +21,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ac8e69afaab1d9055bb2513704ec50cc8790592
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 5224fabff542051438bc523388b96ecf93f7af9a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506839"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905920"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft 팀 채택
 

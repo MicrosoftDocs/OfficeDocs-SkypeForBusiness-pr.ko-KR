@@ -12,17 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 활동 보고서를 사용 하 여 조직의 사용자가 Microsoft 팀을 사용 하는 방법을 확인 하는 방법을 알아봅니다.
+description: 활동 보고서를 사용 하 여 조직의 사용자가 Microsoft 팀을 사용 하는 방법을 확인 하는 방법에 대해 알아봅니다.
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f3f35318c2ccfdf791becba0ae67208484c883c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779054"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902353"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft 팀을 위한 활동 보고서 사용 
 ========================================

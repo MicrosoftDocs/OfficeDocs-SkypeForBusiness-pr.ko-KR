@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 동적인 긴급 전화 구성
+description: Microsoft 통화 계획 및 전화 시스템을 구성 하는 방법에 대 한 자세한 내용은 동적 긴급 통화 호출 기능을 라우팅 하세요.
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417593"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905890"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -96,7 +97,7 @@ Azure 맵은 위치 기반 서비스에 사용 됩니다.  Microsoft 팀 관리 
 
 네트워크 설정은 팀 클라이언트의 위치를 결정 하는 데 사용 되며, 긴급 통화 정책 및 긴급 한 위치를 동적으로 얻을 수 있습니다. 조직에서 응급 통화 기능을 원하는 방식에 따라 네트워크 설정을 구성할 수 있습니다.
 
-네트워크 설정에는 서브넷 컬렉션을 포함 하는 사이트가 포함 되며,이는 사용자에 대 한 동적 정책 할당에 독점적으로 사용 됩니다.  예를 들어 TeamsEmergencyCalling 정책 및 TeamsEmergencyCallRouting 정책은 "Redmond 사이트"에 할당 되어 집 또는 다른 Microsoft 위치에서 로밍 하는 모든 사용자가 긴급 전화 번호, 라우팅 및 보안 데스크를 사용 하 여 구성 될 수 있습니다. Redmond에만 해당 합니다.  
+네트워크 설정에는 서브넷 컬렉션을 포함 하는 사이트가 포함 되며,이는 사용자에 대 한 동적 정책 할당에 독점적으로 사용 됩니다.  예를 들어 TeamsEmergencyCalling 정책 및 TeamsEmergencyCallRouting 정책은 "Redmond 사이트"에 할당 되어 집 또는 다른 Microsoft 위치에서 로밍 하는 모든 사용자가 레드먼드에 대 한 긴급 전화 번호, 라우팅 및 보안 데스크를 사용 하 여 구성 됩니다.  
 
 >[!Note]
 >서브넷은 LIS에도 정의할 수 있으며 비상 위치에 연결 될 수 있습니다.  

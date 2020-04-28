@@ -19,14 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: Office 365에서 통화 요금제를 사용 하는 경우 응급 통화를 위해 이러한 레이블을 다운로드할 수 있습니다.
-ms.openlocfilehash: 4ce43ce30535f1210643c33d087671afc3413ee2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: Office 365에서 통화 요금제를 사용 하는 경우 응급 통화를 위해 이러한 레이블을 다운로드 하 여 인쇄할 수 있습니다.
+ms.openlocfilehash: d092d94ac6ca2288a2cb6a5a0dac6a8b49fb0967
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141251"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904313"
 ---
 # <a name="emergency-calling-labels"></a>비상 전화 레이블
 

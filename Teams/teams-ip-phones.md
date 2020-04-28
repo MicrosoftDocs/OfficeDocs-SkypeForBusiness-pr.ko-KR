@@ -18,13 +18,14 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947482
-description: Microsoft 팀에 대해 인증 된 IP 데스크 및 전화 회의 전화
-ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
+ms.openlocfilehash: 655de2414203525d305c0097ba9301e2ef513f87
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779977"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903113"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 

@@ -2,7 +2,8 @@
 title: Microsoft 팀의 모임
 metadata:
   title: Microsoft 팀의 모임
-  description: 대화형 자습서를 통해 Microsoft 팀의 모임을 안내해 드립니다.
+  description: 이 대화형 자습서를 사용 하 여 Microsoft 팀의 형식, 계획 단계, 모임 보고 등을 알아보세요.
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -19,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: cbf9b344b9bded2ca98741a743b84a6b7481f95d
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 57fcdcb5fa4fc20f50e1c25e9797128dbcd7fdb6
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43778504"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43902383"
 items:
 - durationInMinutes: 1
   content: >

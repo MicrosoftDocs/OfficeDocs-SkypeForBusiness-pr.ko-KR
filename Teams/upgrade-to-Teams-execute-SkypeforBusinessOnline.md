@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: 비즈니스용 Skype Online에서 팀으로 업그레이드 하기 위한 고려 사항
+description: 비즈니스용 Skype Online deployement 통해 조직을 Microsoft 팀으로 업그레이드 하는 방법을 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03eda4a90cc90eed38e6a1f6bb6ff6751291ffc1
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 37deecdbff083718dcb5b8a16e77ac8da4b998ff
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706628"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905360"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>비즈니스용 Skype Online에서 팀으로 업그레이드
 
@@ -42,7 +44,7 @@ ms.locfileid: "42706628"
 Skype for business Online을 완전히 구축한 경우 비즈니스용 Skype에서 팀으로 사용자를 업그레이드 하려면이 문서의 지침을 따르세요. 사용자에 게 적절 한 공존 및 업그레이드 모드를 지정 하 여 조직에서 선택한 업그레이드 여행에 따라 사용자를 선택적으로 또는 모두 in으로 업그레이드할 수 있습니다.
 
 > [!IMPORTANT]
-> 비즈니스용 Skype Online은 2021 년 7 월 31 일에 만료 되며, 그 이후에는 더 이상 접근성 또는 지원 되지 않습니다. 조직의 혜택 실현을 최대화 하 고 업그레이드를 구현 하는 데 적절 한 시간을 확보 하려면 지금 Microsoft 팀으로 여행을 시작 하는 것이 좋습니다. 성공적으로 업그레이드 하면 기술 및 사용자의 준비가 정렬 되므로 Microsoft 팀으로 여행을 이동할 때이 가이드의 지침을 활용 해야 합니다.
+> 비즈니스용 Skype Online은 2021년 7월 31일에 서비스가 종료되며 이후에는 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 조직의 혜택 실현을 최대화 하 고 업그레이드를 구현 하는 데 적절 한 시간을 확보 하려면 지금 Microsoft 팀으로 여행을 시작 하는 것이 좋습니다. 성공적으로 업그레이드 하면 기술 및 사용자의 준비가 정렬 되므로 Microsoft 팀으로 여행을 이동할 때이 가이드의 지침을 활용 해야 합니다.
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>공존 및 업그레이드 모드 지정
 

@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: 조직 및 사용자가 Microsoft 팀을 위한 준비가 되었는지 확인
+description: 조직의 준비 상태를 Microsoft 팀 환경으로 성공적으로 전환 하는 것을 평가 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: a9cfb5c1982d6cfa031db447ed07543edf3a2a3e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706938"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904443"
 ---
 # <a name="assess-organizational-change-readiness"></a>조직 변경 준비 사항 평가
 
@@ -53,7 +55,7 @@ ms.locfileid: "42706938"
 
 조직의 준비 상태를 평가 하 여 사용자가 receptive 하는 방식을 변경 하 고 새 기술을 채택 하는 방법을 결정할 수 있습니다. 사용자가 변경 하는 데 반응 하는 의미를 이해 하 여 조직에서 문제를 사전에 해결 하 고, 출시 계획을 조정 하 여 최적의 구매를 얻고, 피어와 변경 내용을 쉽게 활용할 수 있는 사용자를 식별 합니다.
 
-### <a name="activity"></a>작동이
+### <a name="activity"></a>활동
 
 다음 대화를 사용 하 여 조직에 대 한 준비 평가를 수행 하 고 조직의 문화를 변경 해야 하는 경우이를 문서화 하세요. 이 정보는 프로젝트에 대해 구현 해야 할 수 있는 인식과 교육의 양을 알리는 데 도움이 될 수 있습니다. 정확한 수치에 대해 걱정할 필요는 없습니다. 이 연습은 조직의 문화에 대 한 일반적인 이해를 나타냅니다. 시작 하는 데 도움이 필요한 경우에는 단순히 지난 출시를 평가해 보세요. 이를 통해 사용자가 변경 하는 데 반응 하는 방법을 예상 하 고 예상 되는 반응과을 사전에 해결할 수 있습니다.
 

@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.callparkpolicies.overview
-description: 통화 대기를 사용 하 고 클라우드의 팀 서비스에서 통화를 보류 하는 것을 검색 합니다.
-ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-apr2020
+description: 통화 공원을 사용 하 고 클라우드의 팀 서비스에서 통화를 보류 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824596"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905040"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원 및 Microsoft 팀에서 검색
 
@@ -49,7 +50,7 @@ ms.locfileid: "41824596"
 
 통화 공원 및 검색은 현재 다음 클라이언트 및 장치에서 지원 됩니다. (팀 전용 모드에서는 PSTN 연결 여부에 관계 없이 지원 됩니다.)
 
-| 성능 | 팀 데스크톱 | 팀 Mac 앱 | 팀 웹 앱 (Edge) |팀 모바일 iOS/Android 앱 | 팀 IP 전화 | 비즈니스용 Skype IP 전화 |
+| 기능 | 팀 데스크톱 | 팀 Mac 앱 | 팀 웹 앱 (Edge) |팀 모바일 iOS/Android 앱 | 팀 IP 전화 | 비즈니스용 Skype IP 전화 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | 통화 파킹 | 예 | 예 | 예 | 예 | 개봉박두| 아니요 |
 | 파킹 된 통화 검색 | 예 | 예 | 예 | 예 | 개봉박두| 아니요 |
@@ -75,10 +76,10 @@ ms.locfileid: "41824596"
 한 명 이상의 사용자에 게 통화 공원 정책을 할당 하려면 다음 단계를 따르세요.
 
 1. **Microsoft 팀 관리 센터** > **음성** > **통화 공원 정책**으로 이동 합니다.
-2. 정책 이름 왼쪽에 있는을 클릭 하 여 정책을 선택 합니다.
-3. **사용자 관리**를 선택 합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가 하려는 각 사용자에 대해이 단계를 반복 합니다.
-5. 사용자 추가를 마쳤으면 **저장**을 선택 합니다.
+2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
+3. **사용자 관리**를 선택합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
+5. 사용자 추가를 마쳤으면 **저장**을 선택합니다.
  
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>호출 공원 구성 및 PowerShell을 사용 하 여 검색
 
@@ -91,7 +92,7 @@ ms.locfileid: "41824596"
 `Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
 
 
-## <a name="troubleshooting"></a>해결사
+## <a name="troubleshooting"></a>문제 해결
 
 사용자가 공원 또는 검색 단추를 볼 수 없는 경우: 
 

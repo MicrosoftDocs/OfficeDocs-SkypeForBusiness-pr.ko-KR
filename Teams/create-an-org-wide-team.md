@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Teams에서 조직 전체 팀을 만들고 관리하는 방법을 알아봅니다.
+description: 팀에서 조직 전체 팀을 만들고 관리 하 여 중소 규모 조직의 모든 사용자에 게 자동으로 공동 작업할 수 있는 방법을 제공 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90051eb5ee4faf981ec54efa8049909dde4311d3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 41d7241cc0ffddf1042a3fe46f75def76c1ccf04
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778454"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903033"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams에서 조직 전체 팀 만들기
 
@@ -71,13 +72,13 @@ ms.locfileid: "43778454"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>소속되지 않은 계정 삭제
 
-구성원이 조직 전체 팀을 떠날 수는 없지만 팀 소유자는 소속되지 않은 계정을 제거하여 팀 명단을 관리할 수 있습니다. **Teams를 사용하여 조직 전체 팀에서 사용자를 제거하도록 합니다**. Microsoft 365 관리 센터 또는 Outlook의 그룹과 같은 다른 방법을 사용하여 사용자를 제거하는 경우 조직 전체 팀에 사용자가 다시 추가될 수 있습니다.
+구성원이 조직 차원의 팀을 팀 소유자로 남겨둘 수는 없지만 자신이 속해 있지 않은 계정을 제거 하 여 팀 명단을 관리할 수 있습니다. **Teams를 사용하여 조직 전체 팀에서 사용자를 제거하도록 합니다**. Microsoft 365 관리 센터 또는 Outlook의 그룹과 같은 다른 방법을 사용하여 사용자를 제거하는 경우 조직 전체 팀에 사용자가 다시 추가될 수 있습니다.
 
 ## <a name="faq"></a>FAQ
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>Teams 클라이언트를 사용하지 않고 조직 전체 팀을 만들 수 있는 방법이 있나요?
 
-전역 관리자는 Teams 클라이언트를 사용해서만 조직 전체 팀을 만들 수 있습니다. 조직에서 팀 만들기를 PowerShell 사용으로 제한하는 경우 권장되는 해결 방법은 전역 관리자를 팀을 만들 수있는 보안 사용자 그룹에 추가하는 것입니다. 자세한 내용은 [Microsoft 365 그룹을 만들 수 있는 사용자 관리](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)를 참조 하세요.
+전역 관리자는 Teams 클라이언트를 사용해서만 조직 전체 팀을 만들 수 있습니다. 조직에서 팀 만들기를 PowerShell 사용으로 제한하는 경우 권장되는 해결 방법은 전역 관리자를 팀을 만들 수있는 보안 사용자 그룹에 추가하는 것입니다. 자세한 내용은 [Microsoft 365 그룹 생성 가능 사용자 관리](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)를 참조하세요.
 
 이 방식을 사용할 수 없는 경우 PowerShell을 사용하여 공개 팀을 만들고 전역 관리자를 팀 소유자로 추가할 수 있습니다. 그런 다음 전역 관리자가 팀 이름 옆에 있는 **기타 옵션**을 클릭하고 **팀 편집**을 클릭한 다음 개인 정보 보호를 **조직 전체로 변경하면 조직의 모든 사용자가 자동으로 추가됩니다**. 팀 소유자만 팀 편집 옵션에 액세스할 수 있으며 전역 관리자만 **조직 전체** 옵션을 볼 수 있습니다.
 

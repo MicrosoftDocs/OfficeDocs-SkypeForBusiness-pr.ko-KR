@@ -11,19 +11,20 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 팀 서식 파일을 사용 하 여 미리 정의 된 채널을 사용 하 여 팀을 만드는 방법을 알아봅니다.
+description: 팀 서식 파일을 사용 하 여 여러 주제에 대 한 채널과 공동 작업 공간을 만드는 방법과 콘텐츠 및 서비스를 제공 하는 앱을 사전 설치 하는 방법을 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: e4cdf8d489025110b47a98402a344e025b256012
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796031"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904623"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams 서식 파일 시작
 
@@ -49,7 +50,7 @@ ms.locfileid: "42796031"
 | 팀 이름 | 팀 사진 |
 | 팀 설명 | 채널 설정 |
 | 팀 표시 유형 (공개 또는 비공개) | 기가 |
-| 팀 설정 (예: 회원, 게스트, @ 멘 션) | 파일 및 콘텐츠 |
+| 팀 설정 (예: 회원, 게스트, @ 멘 션) | 파일 및 내용 |
 | 자동 즐겨찾기 채널 | |
 | 설치 된 앱 | |
 | 고정 된 탭 | |

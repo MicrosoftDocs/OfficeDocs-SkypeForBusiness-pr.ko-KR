@@ -16,20 +16,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 의료 조직을 위한 보안 메시징 시작
+description: 읽음 확인 및 우선 순위 알림을 포함할 수 있는 보안 메시징 정책을 사용자 지정 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136988"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905530"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>의료 조직을 위한 보안 메시징 시작
 
 메시징 정책은 Microsoft 팀에서 사용자에 게 제공 되는 채팅 및 채널 메시징 기능을 제어 하는 데 사용 되며, 병원, clinics 또는 의사와 같은 의료 조직에 대 한 보안 메시징의 전체 배포의 일부로 서, 메시지를 선택 하 여 적절 한 시간 내에 처리 하는 것은 중요 한 메시지를 읽을 때 알아야 합니다.
 
-전역 (조직 차원의 기본) 정책을 사용 하거나 조직의 사용자를 위해 하나 이상의 사용자 지정 메시징 정책을 만들 수 있습니다. 사용자 지정 정책을 만들고 할당 하지 않으면 조직의 사용자가 자동으로 전역 정책을 받습니다. 사용자 지정 정책을 만든 후 조직의 사용자 또는 사용자 그룹을 할당 합니다. 예를 들어 특정 작업 역할 (doctors, nurses에만 해당) 및 기타 작업자 (janitorial 또는 주방 지팡이)만 사용 하 여 제한 된 기능 집합을 얻을 수 있도록 하는 것이 선택 되어 있습니다. 자신을 결정 합니다. 조직의 요구 사항에 대 한 설명은 대부분 추천 사항입니다.
+전역 (조직 차원의 기본) 정책을 사용 하거나 조직의 사용자를 위해 하나 이상의 사용자 지정 메시징 정책을 만들 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다. 사용자 지정 정책을 만든 후 조직의 사용자 또는 사용자 그룹을 할당 합니다. 예를 들어 특정 작업 역할 (doctors, nurses에만 해당) 및 기타 작업자 (janitorial 또는 주방 지팡이)만 사용 하 여 제한 된 기능 집합을 얻을 수 있도록 하는 것이 선택 되어 있습니다. 자신을 결정 합니다. 조직의 요구 사항에 대 한 설명은 대부분 추천 사항입니다.
 
 관리자 자격 증명을 사용 하 여 로그인 하 고 왼쪽 탐색 창에서 **메시징 정책을** 선택 하 여 [Microsoft 팀 관리 센터](https://admin.teams.microsoft.com) 에서 정책을 쉽게 관리할 수 있습니다.
 

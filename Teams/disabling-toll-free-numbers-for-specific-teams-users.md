@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 관리자는 이끌이가 무료 전화 번호를 모임에 사용 하는 방법을 제어할 수 있습니다.
-ms.openlocfilehash: 7bc830529fc24a61be914998e923ad2d5288b7c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 이끌이가 사용자의 오디오 회의 브리지 모임에 대해 무료 번호를 사용 하는 방법을 제어 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 517ffea6a15cd625320f33e3eb4911f4a250d51d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837268"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904573"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>특정 팀 사용자를 위해 무료 번호를 사용 하지 않도록 설정
 

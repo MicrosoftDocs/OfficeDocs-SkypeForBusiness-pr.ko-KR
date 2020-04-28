@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 의료 조직을 위한 Teams 시작
-ms.openlocfilehash: 15e10a69174787d104a990f8b71a6e8ef4f8be04
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 주의 조정, 보안 메시징, telehealth, EHR 통합,에서 일선 worker 시스템 통합을 포함 하는 상태 관리 기능에 대해 알아보세요.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147691"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905740"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 

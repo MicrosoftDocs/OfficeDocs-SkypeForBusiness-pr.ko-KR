@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 비즈니스용 Skype Online 만료에 대해 알아보세요.
+description: 비즈니스용 Skype Online의 퇴직 계획에 대해 알아보고 고객 들이 팀으로 마이그레이션하는 데 도움이 되는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,12 +17,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faaed56f9b150104fba93683b37b7551b828ce80
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029399"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905540"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 

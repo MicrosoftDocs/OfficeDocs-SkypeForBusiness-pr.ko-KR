@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 비즈니스 표준 '
+title: 'Microsoft 365 Business Standard '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Microsoft 365 비즈니스 표준 요금제를 구입 하는 방법에 대 한 추가 기능 라이선스, 기능 및 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 추가 기능 라이선스, 해당 기능, Microsoft 365 비즈니스 표준 계획에 대해 이러한 라이선스를 구입 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 136dbf60f728d4c4455c466dd8a8a02376e20f1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780507"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904613"
 ---
-# <a name="microsoft-365-business-standard"></a>Microsoft 365 비즈니스 표준
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
 [Microsoft 365 비즈니스 표준이](https://products.office.com/en/business/office-365-business-premium)있는 경우 microsoft 팀을 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 전화를 걸 수 있습니다. 예를 들어 비즈니스에 10 명의 사용자가 있는 경우 팀을 사용 하 여 서로 통화 하 고 인스턴트 메시지를 들을 수 있습니다.
 
