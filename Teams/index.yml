@@ -4,7 +4,7 @@ summary: 팀을 배포 하 고 관리 하는 방법과 팀을 위해 사용자�
 brand: teams
 metadata:
   title: Microsoft 팀 관리자 설명서
-  description: 팀을 배포 하 고 관리 하는 방법과 팀을 위해 사용자를 준비 하는 방법을 알아봅니다.
+  description: 팀을 배포 하 고 관리 하는 방법과 팀을 위해 사용자를 준비 하는 방법을 비롯 한 Microsoft 팀 관리자 설명서에 대해 알아보세요.
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -12,12 +12,13 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
-  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/02/2020
-  ms.locfileid: "43117536"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43905480"
 highlightedContent:
   items:
   - title: COVID-19 응답-팀을 사용 하 여 원격 작업자 지원
