@@ -12,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c6f0c08d03cd746f5929f6a7f1d82373a527a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 598f1cb760a6b4ca969c1e8df25f9735fd0df7c1
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180295"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +89,7 @@ _**마지막으로 수정 된 항목:** 2015-03-09_
 
 여기에서 볼 수 있듯이 Ken Myer는 공용 IM 공급자와 통신 하도록 허용 됩니다. 이는 사용자에 게 할당 된 사용자별 정책 설정이 전역 정책의 설정을 재정의 하기 때문입니다. Pilar Ackerman은 공용 IM 공급자와 통신할 수 없습니다. 이것은 그녀는 글로벌 정책에 의해 관리 되 고 글로벌 정책은 이러한 통신을 금지 하기 때문입니다.
 
-사용자별 정책은 Office 365 지원에서 만들어야 합니다. 정책이 만들어진 후에는 해당 하는 **Cs** cmdlet (예: [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy))을 사용 하 여 해당 정책을 사용자에 게 할당할 수 있습니다. 정책 Id는 항상 태그 **접두사로**시작 되므로 사용자 단위 정책은 식별 하기 쉽습니다. 예:
+Microsoft 지원 서비스에 따라 사용자별 정책을 만들어야 합니다. 정책이 만들어진 후에는 해당 하는 **Cs** cmdlet (예: [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy))을 사용 하 여 해당 정책을 사용자에 게 할당할 수 있습니다. 정책 Id는 항상 태그 **접두사로**시작 되므로 사용자 단위 정책은 식별 하기 쉽습니다. 예시:
 
     Identity : tag:AllowPublicIMCommunication
 
