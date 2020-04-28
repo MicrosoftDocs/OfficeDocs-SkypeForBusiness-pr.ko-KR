@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '비즈니스용 Skype에서 기본 시스템 메시지에 대해 설정할 수 있는 언어에 대해 알아봅니다. '
-ms.openlocfilehash: 78d3c53782e83ae191983bd8d7af2f1f5072f1df
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 비즈니스용 Skype에서 기본 시스템 메시지와 보이스 메일 인사말에 설정할 수 있는 언어에 대해 알아봅니다.
+ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836588"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904523"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>음성 메일 인사말 및 메시지 언어
 
@@ -43,7 +44,7 @@ ms.locfileid: "41836588"
 |중국어 (홍콩 특별 행정구)  <br/> |중국  <br/> |zh-cn-hk  <br/> |예, 하지만 중국어 (번체) (zh-cn-zh-hant)가 사용 됩니다.  <br/> | 예 <br/> |예, 하지만 중국어 (번체) (zh-cn-zh-hant)가 사용 됩니다.  <br/> |
 |중국어 (번체)  <br/> |대만  <br/> |zh-cn-zh-hant  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
 |크로아티아어<br/> |크로아티아  <br/> |hr-HR  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
-|체코어 <br/> |체코  <br/> |cs-CZ  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|체코어 <br/> |체코 공화국  <br/> |cs-CZ  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
 |덴마크어  <br/> |덴마크  <br/> |da-진한  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
 |네덜란드어  <br/> |네덜란드  <br/> |nl-NL  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
 |영어  <br/> |오스트레일리아  <br/> |en-AU  <br/> |예, 하지만 미국 영어 (en-us)를 사용 합니다.  <br/> |예  <br/> |예, 하지만 미국 영어 (en-us)를 사용 합니다.  <br/> |
@@ -77,7 +78,7 @@ ms.locfileid: "41836588"
 |베트남어 <br/> |베트남  <br/> |vi-VN  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
    
 ## <a name="related-topics"></a>관련 항목
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
   

@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 팀 메시지의 우선 순위 알림에 대해 알아봅니다.
-ms.openlocfilehash: c6bd6c1381eee82878ce59cc2133ec72b9b9e21c
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+- seo-marvel-apr2020
+description: 이 문서에서는 Microsoft 팀 메시지의 우선 순위 알림에 대해 알아봅니다.
+ms.openlocfilehash: c2c84019635ce2c46b6aad38363c7f8aabada83b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079410"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904690"
 ---
 # <a name="messaging-policies-licensing"></a>메시징 정책 라이선스
 

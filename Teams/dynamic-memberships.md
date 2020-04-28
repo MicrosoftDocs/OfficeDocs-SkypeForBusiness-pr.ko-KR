@@ -8,20 +8,21 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: AAD를 기반으로 하는 동적 팀 구성원 자격에 대해 알아보세요.
+description: Microsoft 팀이 동적 구성원을 사용 하 여 Office 365 그룹과 연결 된 팀을 지 원하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.custom: seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780187"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905800"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>팀의 동적 구성원 개요
 
@@ -40,7 +41,7 @@ Microsoft 팀은 팀의 Office 365 그룹에 영향을 미치는 경우 동적 �
 > - 규칙은 팀 구성원 인 사용자가 아닌 팀 소유자를 정의할 수 있습니다.
 > - 팀 및 채널 크기에 대 한 현재 제한에 대 한 [Microsoft 팀의 제한 및 사양을](limits-specifications-teams.md) 참조 하세요.
 > - 멤버가 동적 그룹 규칙으로 정의 되므로 소유자는 팀 구성원으로 사용자를 추가 하거나 제거할 수 없습니다.
-> - 구성원은 동적 그룹으로 지원 되는 팀에서 나갈 수 없습니다.
+> -    구성원은 동적 그룹으로 지원 되는 팀에서 나갈 수 없습니다.
 
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>동적 구성원 자격을 사용 하 여 Office 365 그룹 만들기 및 관리

@@ -11,20 +11,20 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft 팀에서 통화 계획을 구성 하기 위한 빠른 시작 가이드입니다.
+description: Microsoft 팀에서 전화 플랜을 구성 하기 위한 빠른 시작 가이드를 통해 사용자 집합을 다운로드 하 고 실행할 수 있습니다.
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137778"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902883"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft 팀에서 통화 계획 구성
 ==============================================================

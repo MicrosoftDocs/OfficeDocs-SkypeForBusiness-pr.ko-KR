@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Microsoft 팀 공간을 배포 하기 위한 적절 한 계획 고려 사항과 시스템을 배포 하 고 관리 하는 방법을 설명 합니다.
-ms.openlocfilehash: 4d92a5fc347ac7a8a53c35a93445ca923665f84c
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0a418f6fcca9a122a7e3e6aaca123562f2b6fc56
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826076"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905430"
 ---
-<h2>Microsoft Teams 룸</h2>
+<h1>Microsoft Teams Rooms</h1>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">

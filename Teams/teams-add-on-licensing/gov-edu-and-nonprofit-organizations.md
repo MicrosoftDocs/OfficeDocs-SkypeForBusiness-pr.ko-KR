@@ -18,17 +18,18 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '.GOV, .EDU 및 비영리 조직 계획에 대 한 추가 기능 라이선스 및 기능에 대해 알아보세요. '
-ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+- seo-marvel-apr2020
+description: 정부, 교육 및 비영리 조직 계획에 대 한 추가 기능 라이선스 및 기능에 대해 알아보세요.
+ms.openlocfilehash: d16a6f0170acb90a54e24cbf7b24f2480fd4b51a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795971"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904543"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU 및 비영리 조직
 
-대부분의 팀 기능은 미국 정부, 교육 및 비영리 조직이 사용할 수 있습니다. 자세한 내용은 다음 표를 참조 하세요.
+대부분의 팀 기능은 미국 정부, 교육 및 비영리 조직이 사용할 수 있습니다. 자세한 내용은 다음 표를 참조하십시오.
 
 |**팀 기능**|**.GOV (GCC)에서 사용 가능**|**.GOV에서 사용 가능 (GCC 비)**|**.EDU에서 사용 가능**|**비영리 조직에서 사용 가능**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -51,4 +52,4 @@ Microsoft는 사용자가 원격으로 작업 하거나 집에서 작업 하도�
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 비영리](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)

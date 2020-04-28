@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 이 항목에서는 전화 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 계획 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+description: 미디어 트래픽 경로를 줄이고 성능을 향상 시킬 수 있는 휴대폰 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 계획 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265643"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901843"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -78,7 +79,7 @@ ms.locfileid: "42265643"
 
 다음은 사용자에 게 SBC의 공용 IP 주소에 대 한 액세스 권한이 없는 경우의 호출 흐름에 대 한 설명입니다. 
 
-예를 들어 사용자가 외부에 있고 테 넌 트 관리자가 인터넷의 모든 사용자에 게 SBC의 공용 IP 주소를 열지 않기로 결정 한 경우에만 Microsoft Cloud로 간주 됩니다. 트래픽 내부 구성 요소는 팀 전송 릴레이를 통해 흐를 수 있습니다. 회사 네트워크 외부의 사용자에 게 권장 되는 구성입니다. 다음을 고려 하세요.
+예를 들어 사용자가 외부에 있고 테 넌 트 관리자가 인터넷의 모든 사용자에 게 SBC의 공용 IP 주소를 열지 않기로 결정 한 경우에만 Microsoft Cloud로 간주 됩니다. 트래픽 내부 구성 요소는 팀 전송 릴레이를 통해 흐를 수 있습니다. 회사 네트워크 외부의 사용자에 게 권장 되는 구성입니다. 다음과 같은 사항을 고려해야 합니다.
 
 - 팀 전송 릴레이를 사용 합니다.
 
@@ -319,7 +320,7 @@ UDP/SRTP | 미디어 프로세서 | 하더라도 | 49 152 – 53 247    | SBC에
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>미디어 우회 및 비 미디어 바이패스에 대해 별도의 trunks 구성  
 
-미디어 바이패스에서 미디어 바이패스로 마이그레이션하고 기능을 확인 하기 위해 미디어 바이패스로 모든 사용을 마이그레이션하기 전에, 별도의 트렁크와 별도의 온라인 음성 라우팅 정책을 만들어 미디어로 경로를 우회 하 고 특정 사용자에 게 할당할 수 있습니다. 사용자. 
+미디어를 우회 하 여 미디어 바이패스로 마이그레이션하고 기능을 확인 하기 위해 미디어 바이패스로 모든 사용량을 마이그레이션하기 전에 별도의 트렁크와 별도의 온라인 음성 라우팅 정책을 만들어 미디어를 우회 하 고 특정 사용자에 게 할당할 수 있습니다. 
 
 상위 수준 구성 단계:
 

@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Microsoft 365 for enterprise 앱에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다.
-ms.openlocfilehash: e80ccd6a32b9eec9a0ba8973d11acaea7abc3ffc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 추가 기능 라이선스, 특정 기능, Microsoft 365 for enterprise 앱에 대해 이러한 라이선스를 구입 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: b8183276354c41a9f75336b0e4a4e371cc8e55df
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779937"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904700"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>엔터프라이즈 용 Microsoft 365 앱
 

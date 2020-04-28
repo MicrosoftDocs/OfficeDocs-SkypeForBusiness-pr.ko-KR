@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀 대화방 콘솔 구성
+title: Microsoft Teams 룸 콘솔 구성
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Travis-Snoozy
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: 이 문서에서는 Microsoft 팀 회의실 콘솔과 주변 장치를 설정 하는 방법을 설명 합니다.
-ms.openlocfilehash: c91c570cd83cc07f1f15823623f2b02a2ebcddf4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 이 문서에서는 Microsoft 팀 회의실 콘솔과 주변 장치를 설정 하 고 구성 하는 방법에 대해 설명 합니다.
+ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826096"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905450"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft 팀 대화방 콘솔 구성
+# <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams 룸 콘솔 구성
 
 이 문서에서는 Microsoft 팀 회의실 콘솔과 주변 장치를 설정 하는 방법을 설명 합니다.
   
@@ -86,7 +86,7 @@ CreateSrsMedia 스크립트는 다음 작업을 자동화 합니다.
 
 5. USB 설치 디스크로 부팅 합니다. 제조업체 지침을 참조 하세요. 대상 장치가 Surface Pro 인 경우 다음 단계를 사용 하 여 USB 설정 디스크로 부팅 합니다.
 
-    에서. 볼륨 작게 (-) 단추를 길게 눌러 계속 합니다.
+    a. 볼륨 작게 (-) 단추를 길게 눌러 계속 합니다.
 
     b. 전원 단추를 눌렀다가 놓습니다.
 
@@ -101,7 +101,7 @@ CreateSrsMedia 스크립트는 다음 작업을 자동화 합니다.
 
 ### <a name="selecting-a-language"></a>언어 선택 
 
-만든이의 업데이트에서 암시적 언어 선택이 사용자에 게 원하는 실제 응용 프로그램 언어를 제공 하지 않는 시나리오의 ps1 스크립트 (예: 콘솔 앱을 프랑스어로 표시 하려는 경우)를 사용 해야 합니다. 영어를 사용할 수 있습니다.
+만든이의 업데이트에서 암시적 언어 선택이 사용자에 게 원하는 실제 응용 프로그램 언어를 제공 하지 않는 시나리오의 ps1 스크립트 (예: 콘솔 앱이 프랑스어로 표시 되는 경우에는 영어로 표시 됨)를 사용 해야 합니다.
   
 > [!NOTE]
 > 다음 지침은 Windows Creator의 업데이트를 사용 하 여 만든 콘솔에만 적용 됩니다. 미디어를 새 프로비저닝 시스템으로 설정 하지 않은 레거시/시장 시스템에서는 이러한 지침을 사용할 수 없지만,이 수동 작업을 수행 해야 하는 초기 문제 (예를 들어, 설치의 일부로 앱 언어를 명시적으로 선택할 수 있습니다.)
@@ -128,7 +128,7 @@ CreateSrsMedia 스크립트는 다음 작업을 자동화 합니다.
     
 10. 제거할 언어에 대해 다음을 수행 합니다.
     
-    에서. 제거 하고자 하는 언어를 선택 합니다.
+    a. 제거 하고자 하는 언어를 선택 합니다.
     
     b. **제거**를 선택 합니다.
     
@@ -260,10 +260,10 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 ## <a name="see-also"></a>참고 항목
 <a name="Checklist"> </a>
 
-[Microsoft 팀 회의실 계획](rooms-plan.md)
+[Microsoft Teams 룸 계획](rooms-plan.md)
   
-[Microsoft 팀 대화방 배포](rooms-deploy.md)
+[Microsoft Teams 룸 배포](rooms-deploy.md)
   
-[Microsoft 팀 대화방 콘솔 구성](console.md)
+[Microsoft Teams 룸 콘솔 구성](console.md)
   
-[Microsoft 팀 대화방 관리](rooms-manage.md)
+[Microsoft Teams 룸 관리](rooms-manage.md)

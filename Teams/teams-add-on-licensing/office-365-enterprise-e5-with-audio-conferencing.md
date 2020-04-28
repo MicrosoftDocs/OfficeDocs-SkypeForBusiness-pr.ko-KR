@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Office 365 Enterprise E5 계획에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c5c205a6084b017a1085bf49a10df04e139bfc56
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-apr2020
+description: 추가 기능 라이선스, 해당 기능, Office 365 Enterprise E5 계획에 대해 이러한 라이선스를 구입 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 06559857143f04714acd0a39064fc4a9c12c04ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826536"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904710"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

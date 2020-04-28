@@ -12,20 +12,20 @@ ms.collection:
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft 팀에서 인라인 번역을 사용 하는 방법에 대해 알아봅니다.
+description: Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 Microsoft 팀에서 인라인 번역을 설정 하는 방법에 대해 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4de799959e5e387ad768c3f82e379e464f42191c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0fabdbde6f8307694457d4861d67c6ed2eb22ac1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141101"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905810"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Microsoft 팀에서 인라인 메시지 번역 켜기 
 =================================================

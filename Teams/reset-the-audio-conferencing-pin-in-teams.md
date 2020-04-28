@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Pin에 대해 알아야 할 내용과 Microsoft 팀에서 다시 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 92f0fcf0b5a5e8afe0615b54b08f0fa407c4a969
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Microsoft 팀에서 사용자의 오디오 회의 PIN을 재설정 하는 방법과 Pin에 대 한 중요 한 정보를 확인 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 451031698294fc49acee4a51efa0203cd3eb898d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838228"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905490"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의 PIN 다시 설정
 
@@ -36,7 +37,7 @@ PIN은 오디오 회의를 사용 하도록 설정 된 각 Microsoft 팀 사용�
 
 ## <a name="reset-a-users-pin"></a>사용자의 PIN 다시 설정
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 
@@ -61,7 +62,7 @@ PIN은 오디오 회의를 사용 하도록 설정 된 각 Microsoft 팀 사용�
     
 - 사용자에 게 전자 메일을 자동으로 보내는 기능은 기본적으로 사용 되며, 사용자는 오디오 회의를 사용 하도록 설정 하거나 PIN을 다시 설정한 경우 PIN이 포함 된 전자 메일을 받게 됩니다. 그러나 자동으로 전자 메일 보내기를 사용 하지 않도록 설정한 경우 PIN 다시 설정 이메일이 사용자에 게 전송 되지 않으므로 PIN 정보를 사용자에 게 수동으로 보내야 합니다.
     
-- 모임이 시작 되 면 대기실에 있는 모든 사용자가 자동으로 참가 합니다. 예를 들어 두 명의 참가자가 모임에 참가 하 려 할 때 해당 사용자는 대기실에 저장 되 고 보류 중인 음악을 수신 대기 하 고 모임 이끌이가 휴대폰을 통해 해당 PIN을 사용 하 여 참가할 때 모임이 시작 되 고 로비의 참가자가 참가 하 게 됩니다.  모임.
+- 모임이 시작 되 면 대기실에 있는 모든 사용자가 자동으로 참가 합니다. 예를 들어 두 명의 참가자가 모임에 참가 하 려 할 때 모임이 시작 되기 전에 해당 사용자가 보류 중인 음악을 청취 하 고 모임 이끌이가 휴대폰을 통해 PIN을 사용 하 여 참가할 때 모임이 시작 되 고 대기실의 참가자가 모임에 참가 합니다.
     
 - 기본 설정은 익명 호출자가 모임을 시작 하도록 허용 하지 않는 것입니다.
     

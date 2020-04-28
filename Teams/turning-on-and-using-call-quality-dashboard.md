@@ -22,13 +22,14 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: '통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 참조 하세요. '
-ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 받는 방법을 알아봅니다.
+ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788993"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914035"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -409,11 +410,11 @@ EndpointName, EndpointMake, Endpointmake, Endpointmake, EndpointLabel1, Endpoint
 
 비즈니스용 Skypehttps://cqd.lync.com) 용 cqd에 보고서 또는 업로드 된 테 넌 트 데이터 (매핑) 파일을 만들어 팀https://cqd.teams.microsoft.com)을 위해 cqd로 마이그레이션하려면 다음과 같이 합니다.
 
-1.  [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) 내보내려는 보고서 집합으로 이동 하 여 찾습니다. 
-2.  보고서 위에 마우스를 놓고 "..." 메뉴에서 **보고서 트리 내보내기를**선택 합니다. 내보내기 파일을 저장 합니다.
-3.  [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) 보고서를 가져올 위치로 이동 하 여 찾습니다.
-4.  왼쪽의 링크에서 **가져오기를** 클릭 하 고 내보낸 파일을 선택 합니다. 
-5.  보고서를 가져오면 "보고서 가져오기가 성공 했습니다." 라는 메시지가 표시 됩니다. 보고서 집합 끝에 새 보고서가 추가 되었습니다. " 
+1.    [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) 내보내려는 보고서 집합으로 이동 하 여 찾습니다. 
+2.    보고서 위에 마우스를 놓고 "..." 메뉴에서 **보고서 트리 내보내기를**선택 합니다. 내보내기 파일을 저장 합니다.
+3.    [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) 보고서를 가져올 위치로 이동 하 여 찾습니다.
+4.    왼쪽의 링크에서 **가져오기를** 클릭 하 고 내보낸 파일을 선택 합니다. 
+5.    보고서를 가져오면 "보고서 가져오기가 성공 했습니다." 라는 메시지가 표시 됩니다. 보고서 집합 끝에 새 보고서가 추가 되었습니다. " 
 
 
 ## <a name="create-custom-detailed-reports"></a>사용자 지정 상세 보고서 만들기

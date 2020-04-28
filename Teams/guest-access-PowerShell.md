@@ -13,15 +13,16 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: PowerShell을 사용 하 여 Microsoft 팀의 팀에 대 한 게스트 액세스를 허용 하거나 차단 합니다.
+description: PowerShell을 사용 하 여 Microsoft 팀의 모든 팀 또는 특정 팀에 대 한 게스트 액세스를 허용 하거나 차단 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e15e2e70559f75cff6be97f2996dc45666f963b8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 28d8109f772a448d61e189a6b0a8aa1c45feb5af
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776963"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902593"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell을 사용하여 팀에 대한 액세스 권한 제어
 ================================================
@@ -43,9 +44,9 @@ PowerShell을 사용 하 여 해당 도메인에 따라 게스트 사용자를 �
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell을 사용하여 게스트 액세스 켜기 또는 끄기
 
-1.  에서 비즈니스용 Skype Online PowerShell 모듈 다운로드https://www.microsoft.com/download/details.aspx?id=39366
+1.    에서 비즈니스용 Skype Online PowerShell 모듈 다운로드https://www.microsoft.com/download/details.aspx?id=39366
  
-2.  비즈니스용 Skype Online 끝점에 PowerShell 세션을 연결 합니다.
+2.    비즈니스용 Skype Online 끝점에 PowerShell 세션을 연결 합니다.
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -53,7 +54,7 @@ PowerShell을 사용 하 여 해당 도메인에 따라 게스트 사용자를 �
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.  구성을 확인 하 고, `AllowGuestUser` 설정 `$False`된 경우 [CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet을 사용 하 여 설정 `$True`합니다.
+3.    구성을 확인 하 고, `AllowGuestUser` 설정 `$False`된 경우 [CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet을 사용 하 여 설정 `$True`합니다.
 
     ```PowerShell
     Get-CsTeamsClientConfiguration

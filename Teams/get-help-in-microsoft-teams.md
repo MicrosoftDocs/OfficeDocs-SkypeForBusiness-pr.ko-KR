@@ -14,15 +14,16 @@ ms.reviewer: karuanag
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft 팀에서 도움말을 얻을 수 있는 모든 방법에 대해 알아봅니다.
+description: Microsoft 팀에서 도움말을 보려면 도움말 항목, 비디오, 릴리스 노트 및 피드백 포럼에 대해 알아보세요.
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37203cb0dc875f7fdbefe62752bff006edf7fb31
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6de91776e6ca187df92deef412057eb92410a145
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836828"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904680"
 ---
 <a name="get-help-in-microsoft-teams"></a>Microsoft 팀에서 도움말 보기
 ============================================

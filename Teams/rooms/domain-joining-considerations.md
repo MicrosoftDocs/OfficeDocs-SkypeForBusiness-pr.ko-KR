@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
-description: 이 항목에서는 Skype 채팅방 시스템 기기 PC를 도메인에 참가 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: f2cad169b812d3da3a964c96adabc498df1009b8
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 관리자는 Skype 채팅방 시스템 기기 PC를 Active Directory 도메인에 가입 하는 방법과 관련 하 여 고려해 야 할 사항에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dfcee1421c25903a5ec8deb2f66871ed1d57ef1c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826086"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905440"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -60,7 +61,7 @@ Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomS
   
 이러한 문제를 해결 하는 방법에는 여러 가지가 있을 수 있습니다. Active Directory 전문가와 상의 하 여 적절 한 GPO 설정이 나 적어도 이전에 설명한 정책이 존재 하지 않는 OU를 사용 하는 ou를 제공 하도록 안내 합니다. Skype 채팅방 시스템 장치에 QoS (서비스 품질)를 사용 하도록 설정 하는 것이 좋습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
   
 [장치 구성: 새로 만들기 또는 기존 항목 편집](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

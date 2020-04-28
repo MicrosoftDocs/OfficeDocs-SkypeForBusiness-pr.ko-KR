@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 회의 브리지에 새 서비스 전화 번호를 할당 하 여 사용자의 검사 범위를 확장 하는 데 필요한 단계에 대해 알아보세요.
-ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780357"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898153"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
@@ -67,7 +67,7 @@ ms.locfileid: "43780357"
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>3 단계-사용자의 모임 초대에 포함 된 기본 전화 번호 변경 (선택 사항)
 
-사용자의 기본 전화 번호는 모임 일정을 정할 때 모임 초대에 포함 됩니다. Defaul 전화 번호가 새 사용자에 게 할당 되는 방식을 비롯 한 자세한 내용은 [Microsoft 팀의 초대에 포함 된 전화 번호 설정](set-the-phone-numbers-included-on-invites-in-teams.md) 또는 비즈니스용 [Skype Online의 초대에 포함 된 전화 번호](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)설정을 참조 하세요.
+사용자의 기본 전화 번호는 모임 일정을 정할 때 모임 초대에 포함 됩니다. 새 사용자에 대 한 기본 전화 번호를 지정 하는 방법을 비롯 한 자세한 내용은 [Microsoft 팀의 초대에 포함 된 전화 번호 설정](set-the-phone-numbers-included-on-invites-in-teams.md) 또는 비즈니스용 [Skype Online의 초대에 포함 된 전화 번호](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)설정을 참조 하세요.
   
 1. 회사 또는 학교 계정으로 로그인 합니다.
 
@@ -83,7 +83,7 @@ ms.locfileid: "43780357"
 
 다음 두 단계는 Windows PowerShell을 시작 해야 하는 경우입니다.
   
-일부 또는 모든 사용자에 대 한 모임 초대에 속하는 기본 전화 번호를 업데이트 한 경우 모임 마이그레이션 서비스를 사용 하 여 기본 전화 번호를 변경 하기 전에 조직의 사용자에 게 이미 보낸 모임 초대를 선택적으로 업데이트할 수 있습니다. 자세한 내용은 [MMS (모임 마이그레이션 서비스) 설정을](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)참조 하세요.
+일부 또는 모든 사용자에 대 한 모임 초대에 포함 된 기본 전화 번호를 업데이트 한 경우 모임 마이그레이션 서비스를 사용 하 여 기본 전화 번호를 변경 하기 전에 조직의 사용자에 게 이미 보낸 모임 초대를 선택적으로 업데이트할 수 있습니다. 자세한 내용은 [MMS (모임 마이그레이션 서비스) 설정을](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)참조 하세요.
   
 - 2 단계에서 기본 전화 번호를 변경한 사용자를 위해 MMS (모임 마이그레이션 서비스)를 실행 합니다. 이렇게 하려면 다음 명령을 실행 합니다.
 
@@ -139,7 +139,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 3. 전화 번호가 무료 번호 이면 목록에서 전화 번호를 선택 하 고 작업 창에서 **할당**취소를 클릭 합니다. 전화 번호가 유료 이면 [Microsoft 지원](https://go.microsoft.com/fwlink/?linkid=2091806) 에 문의 하 여 전화 번호를 지정 하지 않은 것으로 확인 하세요.
 
-4. 전화 번호가 유료-fre 번호 이면 확인 창에서 **예** 를 클릭 합니다.
+4. 전화 번호가 무료 번호 이면 확인 창에서 **예** 를 클릭 합니다.
 
    > [!IMPORTANT]
    > 오디오 회의 브리지에서 전화 번호를 할당 하지 않은 후에는 더 이상 사용자가 전화 번호를 사용 하 여 새 모임이 나 기존 모임에 참가할 수 없습니다.
@@ -223,9 +223,9 @@ Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단�
 
 ## <a name="troubleshooting"></a>문제 해결
 
-**할당 취소 단추가 회색으로 표시 됨**
+**할당 취소 단추를 사용할 수 없음**
 
-숫자의 할당을 취소 했지만 단추가 회색으로 표시 되는 동안에는 다음 메시지가 표시 되 면 _"기본 또는 공유 번호를 브리지에서 할당 해제할 수 없었습니다" 라는 메시지와 함께 연락처에 대 한 지원이 리디렉션됩니다. 전용 유료 전화 번호를 할당 취소 하려면 고객 지원에 문의 하세요._"
+숫자를 할당 취소 했지만 단추를 사용할 수 없는 경우에는 _"기본 또는 공유 번호를 브리지에서 할당 해제할 수 없었습니다" 라는 메시지가 표시 되어 다음 메시지에 대 한 고객 지원 담당자에 게 리디렉션됩니다. 전용 유료 전화 번호를 할당 취소 하려면 고객 지원에 문의 하세요._"
 
 브리지에 대 한 자세한 정보를 얻으려면 다음 Powershell을 실행 합니다.
 ```PowerShell

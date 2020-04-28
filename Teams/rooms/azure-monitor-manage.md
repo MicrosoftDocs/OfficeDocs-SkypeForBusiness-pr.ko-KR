@@ -14,13 +14,13 @@ ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Azure Monitor를 사용 하 여 통합 된 방식으로 Microsoft 팀 회의실 장치를 관리 하는 방법을 설명 합니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8ddc76c43bf3aff42312f18ed35fc7aec9691edb
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 74c4ba537adeeeffbc7f3f3ca1cfba7481dff6fb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137596"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905460"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Azure Monitor를 사용 하 여 Microsoft 팀 회의실 장치 관리
 
@@ -44,7 +44,7 @@ Skype 회의실 장치를 관리 하는 데 도움이 되는 기본 원격 분�
 | 3001  <br> 오류 이벤트  | 하드웨어 오류 이벤트입니다. Microsoft 팀 대화방 앱에는 5 분 마다 연결 된 하드웨어 구성 요소의 상태를 확인 하는 프로세스 (회의실, 마이크, 스피커, 카메라 앞)가 있습니다. 하나 이상의 구성 요소가 비정상 이면 이벤트 로그에 EventID 3001을 기록 합니다. 이 이벤트는 디바이스의 문제가 해결 될 때까지 5 분 마다 기록 됩니다.   | {"설명": " **방 표시 상태:"가 비정상입니다.** 구성 된 표시 횟수는 2입니다. 실제 표시 개수는 0입니다. **회의 마이크 상태: 비정상.** 컨퍼런스 스피커 상태: 정상. 기본 스피커 상태: 정상. 카메라 상태: 정상. "," ResourceState ":" 비정상 "," OperationName ":" HardwareCheckEngine "," OperationResult ":" Fail "," OS ":" Windows 10 "," OSVersion ":" 10.0.14393.1198 "," Alias "" "별칭<span></span>@contoso .com", "DisplayName": "Yosemite 회의실", "appversion": "2.0.58.0", "10.10.10.10": "IPv6Address", "IPv4Address", "IPv6Address", "IPv4Address2": "10.10.10.10"} <br><br>  하드웨어 주변 기기는 정상 또는 비정상으로 표시 됩니다. <br> 이 예제에는 두 개의 채팅방 디스플레이가 구성 되어 있으며 현재는 둘 다 사용할 수 없습니다. 회의 마이크 상태가 비정상으로 되어 다양 한 원인이 발생할 수 있습니다. 적어도 하나 이상의 리소스가 검사를 통과 하지 못했으므로, ResourceState가 비정상으로 나열 됩니다. 추가 조사를 위해 기술자를 보냅니다. |
 | 4000  <br> 방법  <br> | 앱 다시 시작 이벤트입니다. 앱이 다시 시작 될 때마다이 이벤트가 Windows 이벤트 로그에 기록 됩니다.  <br> | {"설명": "앱 다시 시작", "ResourceState": "정상", "OperationName": "" OperationResult "," Pass "," OS ":" Windows 10 "," OSVersion ":" 10.0.14393.693 "," Alias ":" Alias<span></span>@domain. "," DisplayName ":" 표시 이름 "," appversion ":" 1.0.38.0 "," IPv4Address ":" 10.10.10.10 "," IPv6Address ":" ip v6 주소 "} <br><br> 다양 한 이유로 앱이 다시 시작 될 수 있습니다. 동일한 건물과 다른 건물에 있는 장치의 다시 시작 빈도를 비교 합니다. 이는 인프라 문제에 대 한 단서를 제공할 수 있으므로 파워 변동 및 오류와 같은 알려진 문제를 염두에 두어야 합니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
  
 
 [Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 계획](azure-monitor-plan.md)

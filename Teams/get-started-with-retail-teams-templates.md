@@ -11,19 +11,20 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 팀 서식 파일을 사용 하 여 소매업 자의 요구 사항에 맞게 디자인 된 팀 구조를 만드는 방법을 알아봅니다.
+description: 팀 서식 파일을 사용 하 여 미리 정의 된 설정, 채널 및 사전 설치 앱을 제공 하 여 소매업 자의 요구 사항에 맞게 설계한 팀 구조를 만드는 방법을 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4477d42cf7036ac93d79684407ee97b7b9e9b900
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892368"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904663"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>정품에서 팀 서식 파일 시작 
 
@@ -58,12 +59,12 @@ ms.locfileid: "42892368"
 
 | 기본 서식 파일 형식 | baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Retail <br>스토어 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 채널 <ul><li>작업\*</li><li>배웁니다\*</li></ul>\*자동 즐겨찾기에 채널<br><br>팀 속성 <ul><li>팀 표시 유형을 비공개로 설정</li></ul> <br>회원 사용 권한 <ul><li>채널을 만들거나 업데이트 하거나 삭제할 수 있습니다. </li><li>앱을 추가/제거할 수 있습니다. </li><li>탭을 만들거나 업데이트/제거할 수 있습니다.</li><li>커넥터를 만들거나 업데이트 하거나 제거할 수 있습니다.</li><ul>|
+| Retail <br>스토어 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 채널 <ul><li>운영\*</li><li>배웁니다\*</li></ul>\*자동 즐겨찾기에 채널<br><br>팀 속성 <ul><li>팀 표시 유형을 비공개로 설정</li></ul> <br>회원 사용 권한 <ul><li>채널을 만들거나 업데이트 하거나 삭제할 수 있습니다. </li><li>앱을 추가/제거할 수 있습니다. </li><li>탭을 만들거나 업데이트/제거할 수 있습니다.</li><li>커넥터를 만들거나 업데이트 하거나 제거할 수 있습니다.</li><ul>|
 ||||
 
 조직의 관리자 공동 작업 서식 파일을 사용자 지정 하는 권장 방법:
 
-- 조직에 관리자와 관련 된 내부 웹 사이트 (예: SharePoint 사이트)가 있는 경우 관련 팀 채널에서 탭으로 고정 하는 것이 좋습니다 (지침 [에 대 한](get-started-with-teams-templates.md) 설명서 참조).
+- 조직에 관리자와 관련 된 내부 웹 사이트 (예: SharePoint 사이트)가 있는 경우 관련 팀 채널에서 탭으로 고정 하는 것이 좋습니다. 자세한 내용은 [Microsoft 팀 서식 파일 설명서](get-started-with-teams-templates.md) 를 참조 하세요.
 
 ## <a name="how-to-use-first-party-templates"></a>자사 서식 파일을 사용 하는 방법
 

@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 의료 조직을 위한 Teams 서식 파일 시작
+description: Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 설정 서식 파일, 채널 및 앱을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7973b051684ba2d6d3f4024244ac4930cfd2de6f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: db6475c3d7c4be6242c1befb988b240b9efcab42
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136947"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904730"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직을 위한 Teams 서식 파일 시작
 

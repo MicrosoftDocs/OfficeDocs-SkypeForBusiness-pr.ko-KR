@@ -19,13 +19,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
+- seo-marvel-apr2020
 description: 이 표를 사용 하 여 캐나다에서 Microsoft 팀 용 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: 9b24413ae7e1534e1a39cc76cc943341221e82cc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1ebeb077f17c47ed91509538ab5a66d1a2c19620
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779825"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905840"
 ---
 # <a name="phone-number-management-for-canada"></a>캐나다의 전화 번호 관리
 
@@ -51,6 +52,5 @@ ms.locfileid: "43779825"
 [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 
 [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
 
 

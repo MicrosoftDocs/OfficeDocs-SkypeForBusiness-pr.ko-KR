@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 이 문서에서는 Microsoft 팀 대화방에 대 한 알려진 문제점을 기능별로 설명 합니다.
-ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+description: 관리자는 업데이트, 사용자 인터페이스, 하드웨어, 제한 사항, 예상 동작 등 Microsoft 팀 대화방의 알려진 문제 목록에 대해 알아볼 수 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d8f7dcd6453458885a35bdcf7b39e729cc776f5a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102379"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905420"
 ---
 # <a name="known-issues"></a>알려진 문제 
  
@@ -75,4 +76,4 @@ Microsoft 팀 대화방은 다중 창 응용 프로그램 이므로 장치의 HD
 
 [Microsoft 팀 대화방 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Microsoft 팀 대화방 관리](rooms-manage.md)
+[Microsoft Teams 룸 관리](rooms-manage.md)

@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 여러 테 넌 트를 처리 하도록 한 SBC (세션 경계 컨트롤러)를 구성 하는 방법을 알아봅니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Microsoft 파트너 및/또는 PSTN 통신 회사에 여러 테 넌 트를 제공 하도록 SBC (세션 경계 컨트롤러)를 구성 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 061d0afec96e6c76e49f6471ea8ed2f673e33eba
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779574"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901853"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 

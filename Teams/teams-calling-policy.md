@@ -9,22 +9,23 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Microsoft 팀의 정책 설정 호출에 대해 자세히 알아보세요.
+description: Microsoft 팀의 사용자 지정 통화 정책에 대 한 사용자를 만들고, 수정 하 고, 추가 하는 방법을 알아보고, 다양 한 통화 정책 설정을 확인 합니다.
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.callingpolicies.overview
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
-f1keywords:
-- ms.teamsadmincenter.callingpolicies.overview
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a94bf072aa4db0ba0b3f65fb5340c22ab09581e4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972449"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914028"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft 팀의 정책 호출
 ===================================
@@ -105,6 +106,10 @@ Microsoft 팀에서 호출 정책은 사용자가 사용할 수 있는 통화 �
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>통화 중에도 다른 용무 중 통화를 이용할 수 있습니다.
 
 다른 용무 중 (다른 용무 중 옵션))은 사용자가 이미 통화 중이거나 회의에 있거나 통화 대기 상태에 있을 때 수신 통화가 처리 되는 방식을 구성할 수 있는 팀 정책에 대 한 새로운 설정입니다. 통화 중 신호를 사용 하 여 신규 또는 수신 전화를 거부할 수 있습니다. 테 넌 트 수준 또는 사용자 수준에서 약속 있음/없음 옵션을 사용 하도록 설정할 수 있습니다. 약속 있음/없음 옵션이 구성 되는 방법에 관계 없이 통화 또는 컨퍼런스 사용자 또는 통화 중 전화를 사용 하는 경우에는 새 통화 또는 회의를 시작 하는 것을 막을 수 없습니다. 이 설정은 기본적으로 사용 되지 않습니다.
+
+### <a name="allow-music-on-hold"></a>보류 중인 음악 허용
+
+이 설정을 사용 하면 PSTN 호출자가 보류 상태일 때 보류 중인 음악을 켜거나 끌 수 있습니다. 이 기능은 기본적으로 설정 되어 있습니다. 이 설정은 통화 공원 및 상사 대리인 기능에는 적용 되지 않으며, 현재 powershell을 통해서만 사용할 수 있습니다. 
 
 ## <a name="see-also"></a>참고 항목
 

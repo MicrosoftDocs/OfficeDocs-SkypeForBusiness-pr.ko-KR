@@ -19,13 +19,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Office 365 Enterprise E1 및 E3 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 0cc29a9cc353f9d0068aeb65b10179f4adfdc804
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Office 365 Enterprise E1 및 E3 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다.
+ms.openlocfilehash: 7038342d704dc6af92dbdc9eaff0c7a6211926e1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780497"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904720"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 and E3
 
