@@ -1,6 +1,6 @@
 ---
 title: 교육용 Teams
-description: 교육 팀을 사용 하 여 공동 작업 강의실을 만들고, 전문 학습 커뮤니티에서 연결 하 고, 학생 및 교사와 통신 하세요.
+description: 학교 또는 기관에서 팀을 성공적으로 배포, 채택 및 관리 하는 데 도움이 되는 관리자 리소스에 대해 알아봅니다.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1a5948a8702a9759a7ed523b035856f4cacd45b4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d2ca8d15e25636da12bc48e14bd46dfae68ba1f6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136858"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905710"
 ---
 # <a name="teams-for-education"></a>교육용 Teams
 

@@ -2,7 +2,8 @@
 title: Microsoft 팀의 통화 이해
 metadata:
   title: Microsoft 팀의 통화 이해
-  description: 대화형 자습서는 Microsoft 팀에서 통화를 이해 하 고 설정 하는 과정을 안내 합니다.
+  description: 이 대화형 자습서를 사용 하 여 Microsoft 팀의 통화와 통화 기능을 활성화 하는 방법을 이해 하세요.
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -16,12 +17,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3f5e7c29ee676fa0b9defa907524c60b45a34fe9
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 3df03c8d388cc03f60c2fc6d50847e6330d30bb6
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43778514"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43902393"
 items:
 - durationInMinutes: 1
   content: >

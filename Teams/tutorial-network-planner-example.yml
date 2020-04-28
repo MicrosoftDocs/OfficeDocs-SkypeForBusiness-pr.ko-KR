@@ -2,7 +2,7 @@
 title: 네트워크 Planner 사용-예제 시나리오
 metadata:
   title: 네트워크 Planner 사용-예제 시나리오
-  description: 네트워크 Planner를 사용 하 여 네트워크 계획을 설정 하 고 보고서를 생성 하는 방법을 안내 합니다.
+  description: 이 예제 시나리오에서는 네트워크 Planner 도구를 사용 하 여 사이트 및 가상 사용자를 만들고 보고서를 실행 하는 방법을 보여 줍니다.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -15,12 +15,13 @@ metadata:
   localization_priority: Normal
   ms.collection:
   - M365-collaboration
-  ms.openlocfilehash: 7a743bea1524084298abb590c653d994aacb0bc4
-  ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 5148415363ac62c68140982d03235b8bfa8835ac
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/08/2020
-  ms.locfileid: "41863539"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904513"
 items:
 - durationInMinutes: 2
   content: "\n네트워크 Planner 도구는 팀 관리 센터에서 사용할 수 있습니다. 조직의 네트워크 요구 사항을 결정 하는 데 도움이 됩니다. 이 예제 시나리오에서는 도구를 사용 하 여 Contoso 라는 회사에 대 한 사이트, 가상 사용자, 실행 보고서를 만드는 방법을 보여 줍니다. \n\n## <a name=\"before-you-begin\"></a>시작 하기 전에\n\n팀 관리 센터를 사용 하는 방법을 이미 알고 있는 것으로 가정 하 고, 팀을 위해 네트워크를 준비 하기 위해 수행 해야 하는 작업에 익숙합니다. 네트워크 Planner에서 본 문서 중 첫 번째 문서인 경우 먼저 다음 문서를 진행 하는 것이 좋습니다.\n\n- [Teams에 대한 조직의 네트워크 준비](prepare-network.md)\n- [Microsoft 팀을 위한 네트워크 Planner 사용](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso 네트워크 개요\n\nContoso에는 다음 세 가지 위치가 있습니다.\n\n- **시애틀 본부:** 이는 Contoso의 주요 위치입니다. 1000 직원이 있으며 25 개는 통화 전용입니다. 사이트가 인터넷에 연결 되어 있으며 PSTN (local 전화망 connection)이 있습니다. Contoso는 팀과 지역 전화 연결을 사용할 수 있도록 다이렉트 라우팅이 설정 되어 있습니다. \n- **Kirkland Office:** 이 지사는 400 직원을 보유 하 고 있으며 10 개 통화만 가능 합니다. 사이트는 인터넷 및 휴대폰 (PSTN) 트래픽 모두에 대해 본사에 대 한 연결을 사용 합니다. 이 office는 WAN 연결을 사용 하 여 시애틀 본부에 연결 되어 있습니다.\n- **Denver Office:** 이 office에는 250 직원이 있지만 50는 통화 전용입니다. 사이트에는 고유한 로컬 인터넷 연결이 있지만 PSTN (다이렉트 전화 연결)이 없습니다.\n\n시작 해 보세요!\n"

@@ -7,35 +7,37 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 관련자를 먼저 참여 한 다음 프로젝트의 범위를 지정 하 여 업그레이드를 계획 합니다.
+description: 관련자를 먼저 참여 한 다음 프로젝트의 범위를 지정 하 여 업그레이드를 계획 하는 방법을 알아보세요.
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cd3a6b420ab33cfc6f18b839d544572cfc9753
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: c6a5ec2857baf0c602a060397ad853a1339916a3
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706918"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904403"
 ---
-# <a name="plan-for-your-upgrade"></a><span data-ttu-id="75d54-103">업그레이드 계획</span><span class="sxs-lookup"><span data-stu-id="75d54-103">Plan for your upgrade</span></span>
+# <a name="plan-for-your-upgrade"></a><span data-ttu-id="a84fa-103">업그레이드 계획</span><span class="sxs-lookup"><span data-stu-id="a84fa-103">Plan for your upgrade</span></span>
 
-<span data-ttu-id="75d54-104">![팀 업그레이드 여행 다이어그램](media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀의 성공을 위해 설정 되어 있는지 확인 합니다. 프로젝트 범위, 목표 및 시간 표시 막대를 정의 합니다. 기술 및 사용자 준비 모두를 확인 합니다. 롤아웃 계획을 실행 합니다. 통해 계속 앞서 유지 하 여 결과를 최대화 합니다.")</span><span class="sxs-lookup"><span data-stu-id="75d54-104">![Diagram of the Teams upgrade journey](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")</span></span>
+<span data-ttu-id="a84fa-104">![팀 업그레이드 여행 다이어그램](media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀의 성공을 위해 설정 되어 있는지 확인 합니다. 프로젝트 범위, 목표 및 시간 표시 막대를 정의 합니다. 기술 및 사용자 준비 모두를 확인 합니다. 롤아웃 계획을 실행 합니다. 통해 계속 앞서 유지 하 여 결과를 최대화 합니다.")</span><span class="sxs-lookup"><span data-stu-id="a84fa-104">![Diagram of the Teams upgrade journey](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")</span></span>
 
-<span data-ttu-id="75d54-105">정상 기술 환경, 지속적인 사용자 채택, 비즈니스 목표의 실현은 모두 적절 한 계획으로 시작 됩니다.</span><span class="sxs-lookup"><span data-stu-id="75d54-105">A healthy technical environment, sustained user adoption, and the realization of your business goals all begin with proper planning.</span></span> <span data-ttu-id="75d54-106">견고한 계획은 업그레이드 프로젝트에 대 한 프레임 워크를 제공 하 고 모든 관계자가 동일한 목표로 작업 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="75d54-106">A solid plan gives you a framework for your upgrade project and ensures that all stakeholders are working toward the same goals.</span></span> <span data-ttu-id="75d54-107">성공 여부를 올바르게 정의 하는 데 시간을 두어 배포 진행 과정에 따라 결과를 측정 하 고 원하는 결과를 얻을 수 있는지 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="75d54-107">By taking time to properly define success, you can measure results as you progress through your deployment and verify that you're achieving the outcomes you wanted.</span></span> <span data-ttu-id="75d54-108">여행 계획에는 다음이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="75d54-108">Planning your journey includes:</span></span>
+<span data-ttu-id="a84fa-105">정상 기술 환경, 지속적인 사용자 채택, 비즈니스 목표의 실현은 모두 적절 한 계획으로 시작 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a84fa-105">A healthy technical environment, sustained user adoption, and the realization of your business goals all begin with proper planning.</span></span> <span data-ttu-id="a84fa-106">견고한 계획은 업그레이드 프로젝트에 대 한 프레임 워크를 제공 하 고 모든 관계자가 동일한 목표로 작업 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="a84fa-106">A solid plan gives you a framework for your upgrade project and ensures that all stakeholders are working toward the same goals.</span></span> <span data-ttu-id="a84fa-107">성공 여부를 올바르게 정의 하는 데 시간을 두어 배포 진행 과정에 따라 결과를 측정 하 고 원하는 결과를 얻을 수 있는지 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="a84fa-107">By taking time to properly define success, you can measure results as you progress through your deployment and verify that you're achieving the outcomes you wanted.</span></span> <span data-ttu-id="a84fa-108">여행 계획에는 다음이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a84fa-108">Planning your journey includes:</span></span>
 
-- <span data-ttu-id="75d54-109">[프로젝트 관련자 참여](upgrade-enlist-stakeholders.md).</span><span class="sxs-lookup"><span data-stu-id="75d54-109">[Enlisting your project stakeholders](upgrade-enlist-stakeholders.md).</span></span>
-- <span data-ttu-id="75d54-110">[프로젝트의 범위를 정의](https://aka.ms/SkypetoTeams-Scope)합니다.</span><span class="sxs-lookup"><span data-stu-id="75d54-110">[Defining the scope of your project](https://aka.ms/SkypetoTeams-Scope).</span></span>
-- <span data-ttu-id="75d54-111">[비즈니스용 Skype 및 팀의 공존 성과 상호 운용성](https://aka.ms/SkypeToTeams-Coexist)에 대해 이해 합니다.</span><span class="sxs-lookup"><span data-stu-id="75d54-111">[Understanding coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist).</span></span>
+- <span data-ttu-id="a84fa-109">[프로젝트 관련자 참여](upgrade-enlist-stakeholders.md).</span><span class="sxs-lookup"><span data-stu-id="a84fa-109">[Enlisting your project stakeholders](upgrade-enlist-stakeholders.md).</span></span>
+- <span data-ttu-id="a84fa-110">[프로젝트의 범위를 정의](https://aka.ms/SkypetoTeams-Scope)합니다.</span><span class="sxs-lookup"><span data-stu-id="a84fa-110">[Defining the scope of your project](https://aka.ms/SkypetoTeams-Scope).</span></span>
+- <span data-ttu-id="a84fa-111">[비즈니스용 Skype 및 팀의 공존 성과 상호 운용성](https://aka.ms/SkypeToTeams-Coexist)에 대해 이해 합니다.</span><span class="sxs-lookup"><span data-stu-id="a84fa-111">[Understanding coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist).</span></span>
 
 > [!TIP]
-> <span data-ttu-id="75d54-112">업그레이드 계획 및 구현을 시작 하기 위해 디자인 된 지침, 모범 사례 및 리소스를 공유 하는 실시간 대화형 워크샵에 참여해 주시기 바랍니다.</span><span class="sxs-lookup"><span data-stu-id="75d54-112">Join us for live, interactive workshops in which we'll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.</span></span>
+> <span data-ttu-id="a84fa-112">업그레이드 계획 및 구현을 시작 하기 위해 디자인 된 지침, 모범 사례 및 리소스를 공유 하는 실시간 대화형 워크샵에 참여해 주시기 바랍니다.</span><span class="sxs-lookup"><span data-stu-id="a84fa-112">Join us for live, interactive workshops in which we'll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.</span></span>
 >
-> <span data-ttu-id="75d54-113">먼저 [업그레이드 세션 계획](https://aka.ms/SkypeToTeamsPlanning) 에 참가 하 여 시작 하세요.</span><span class="sxs-lookup"><span data-stu-id="75d54-113">Join the [Plan your upgrade](https://aka.ms/SkypeToTeamsPlanning) session first to get started.</span></span>
+> <span data-ttu-id="a84fa-113">먼저 [업그레이드 세션 계획](https://aka.ms/SkypeToTeamsPlanning) 에 참가 하 여 시작 하세요.</span><span class="sxs-lookup"><span data-stu-id="a84fa-113">Join the [Plan your upgrade](https://aka.ms/SkypeToTeamsPlanning) session first to get started.</span></span>

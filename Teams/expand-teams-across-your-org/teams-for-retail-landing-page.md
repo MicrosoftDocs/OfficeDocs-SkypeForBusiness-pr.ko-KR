@@ -1,6 +1,6 @@
 ---
 title: 소매용 Teams
-description: 본 리소스를 사용 하 여 소매 조직의 팀을 관리할 수 있습니다.
+description: 소매 판매점 및 인력의 팀을 최대한 활용 하 고 관리 하는 데 사용할 수 있는 관리자 리소스에 대해 알아봅니다.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -16,12 +16,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d350812598737215521db8e675fb884336c7ee37
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d1db862ce796ab64b96df0c36de6931cc6fe0a5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008110"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905690"
 ---
 # <a name="teams-for-retail"></a>소매용 Teams
 
