@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 미디어 트래픽 경로를 줄이고 성능을 향상 시킬 수 있는 휴대폰 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 계획 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f5e053149670804e585d0cd61522f67a922b2b47
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901843"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918697"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -254,7 +254,8 @@ UDP/SRTP | 클라이언트 | 하더라도 | 50 000 – 50 019  | SBC에 정의 �
 | UDP/SRTP | 하더라도 | 클라이언트 | SBC에 정의 됨 | 50 000 – 50 019  |
 
 
-참고: 클라이언트의 원본 포트를 변환 하는 네트워크 장치가 있는 경우 네트워크 장비와 SBC 사이에 변환 된 포트가 열려 있는지 확인 하세요. 
+> [!NOTE]
+> 클라이언트의 원본 포트를 변환 하는 네트워크 장치가 있는 경우 네트워크 장비와 SBC 사이에 변환 된 포트가 열려 있는지 확인 하세요. 
 
 ### <a name="requirements-for-using-transport-relays"></a>전송 릴레이를 사용 하기 위한 요구 사항
 
@@ -262,7 +263,7 @@ UDP/SRTP | 클라이언트 | 하더라도 | 50 000 – 50 019  | SBC에 정의 �
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
 
--52.112.0.0/14 (52.112.0.1에서 52.115.255.254 까지의 IP 주소)
+- 52.112.0.0/14 (IP 주소 52.112.0.1-52.115.255.254)
 
 ## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
 
@@ -282,11 +283,12 @@ UDP/SRTP | 전송 릴레이 | 하더라도 | 50 000-59 999    | SBC에 정의 �
 | UDP/SRTP | 하더라도 | 전송 릴레이 | SBC에 정의 됨 | 50 000-59 999, 3478, 3479     |
 
 
-참고: Microsoft에서는 SBC에 대 한 동시 호출 당 포트를 두 개 이상 권장 합니다. Microsoft에는 두 가지 버전의 전송 중계이 있기 때문에 다음이 필요 합니다.
-
-- v4-포트 범위 50 000 ~ 59 999에만 작동할 수 있습니다.
-
-- 포트 3478, 3479에서 작동 하는 v6
+> [!NOTE]
+> Microsoft는 SBC에서 동시에 포트를 두 개 이상 사용할 것을 권장 합니다. Microsoft에는 두 가지 버전의 전송 중계이 있기 때문에 다음이 필요 합니다.
+> 
+> - v4-포트 범위 50 000 ~ 59 999에만 작동할 수 있습니다.
+> 
+> - 포트 3478, 3479에서 작동 하는 v6
 
 현재 미디어 바이패스는 v4 버전의 전송 릴레이만 지원 합니다. 앞으로 v6에 대 한 지원을 제공 합니다. 
 
@@ -301,7 +303,7 @@ UDP/SRTP | 전송 릴레이 | 하더라도 | 50 000-59 999    | SBC에 정의 �
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
 
--52.112.0.0/14 (52.112.0.1에서 52.115.255.254 까지의 IP 주소)
+- 52.112.0.0/14 (IP 주소 52.112.0.1-52.115.255.254)
 
 ## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
 
@@ -315,8 +317,8 @@ UDP/SRTP | 전송 릴레이 | 하더라도 | 50 000-59 999    | SBC에 정의 �
 
 | 통신량 | 보낸 사람 | 받는 사람 | 원본 포트 | 대상 포트|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | 미디어 프로세서 | 하더라도 | 49 152 – 53 247    | SBC에 정의 됨 |
-| UDP/SRTP | 하더라도 | 미디어 프로세서 | SBC에 정의 됨 | 49 152 – 53 247     |
+UDP/SRTP | 미디어 프로세서 | 하더라도 | 3478, 3479, 49 152-53 247    | SBC에 정의 됨 |
+| UDP/SRTP | 하더라도 | 미디어 프로세서 | SBC에 정의 됨 | 3478, 3479, 49 152-53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>미디어 우회 및 비 미디어 바이패스에 대해 별도의 trunks 구성  
 

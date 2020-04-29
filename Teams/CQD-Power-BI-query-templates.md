@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터를 분석 하세요.
-ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170506"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918677"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터 분석
 
@@ -29,7 +29,7 @@ T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운�
 
 팀의 CQD 보고서의 경우 Power BI를 사용 하 여 데이터를 쿼리하고 보고 하려면 CQD Power BI 서식 파일을 다운로드 합니다. Power BI에서 서식 파일을 열면 CQD 관리자 자격 증명을 사용 하 여 로그인 하 라는 메시지가 표시 됩니다. 이러한 쿼리 서식 파일을 사용자 지정 하 고 Power BI 라이선스 및 CQD 관리자 권한이 있는 조직의 모든 사용자에 게 배포할 수 있습니다.
 
-이러한 .PBIX 파일을 사용 하려면 [다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)에 포함 된 *MicrosoftCallQuality* 파일을 사용 하 여 [Microsoft CQD 용 Power BI 커넥터를 설치](CQD-Power-BI-connector.md) 해야 합니다. 
+이러한 PBIT 파일을 사용 하려면 [다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)에 포함 된 *MicrosoftCallQuality* 파일을 사용 하 여 [Microsoft CQD 용 Power BI Connector를 설치](CQD-Power-BI-connector.md) 해야 합니다. 
 
 
 |  |  |
@@ -43,7 +43,7 @@ T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운�
 |CQD 사용자 피드백 (내 통화 요금) 보고서. pbit     | 조직에 대 한 통화 지원에 쉽게 사용할 수 있는 방식으로 내 통화 데이터의 요금을 표시 합니다. Verbatims와 상호 참조를 사용 하 여 최종 사용자 교육 기회를 식별 합니다.        |
 
 > [!TIP]
-> CQD 데이터에 대 한 Power BI 보고서를 설정 했으면 채널에 탭으로 추가 합니다. 채널에서을 **+** 선택한 후 **Power BI** 를 선택한 다음 보고서를 찾습니다. Power BI 라이선스가 있는 사용자와 CQD 관리자 자격 증명은 이러한 보고서에 액세스할 수 있다는 점에 유의 하세요.
+> CQD 데이터에 대 한 Power BI 보고서를 설정 했으면 채널에 탭으로 추가 합니다. 채널에서을 **+** 선택한 후 **Power BI** 를 선택한 다음 보고서를 찾습니다. 자세한 내용은 [팀 용 POWER BI 탭을 사용 하 여 Embed 보고서](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams)를 참조 하세요. Power BI 라이선스가 있는 사용자와 CQD 관리자 자격 증명은 이러한 보고서에 액세스할 수 있다는 점에 유의 하세요.
 
 
 ## <a name="related-topics"></a>관련 항목

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b85df2a7a5cf341c61d86baef89b0df8a3c4f439
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4eb43e79a7ad45596876a3fc932ad405271b0dda
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902533"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918506"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -72,7 +72,7 @@ ms.locfileid: "43902533"
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    | 
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>화상 통화 및 온라인 모임에서 더 나은 환경을 위해서는 2.0GHz 프로세서 및 4.0GB RAM 이상의 컴퓨터를 사용하는 것이 좋습니다. </li><li>배경 흐림 비디오 효과 옵션을 사용하려면 AVX2(고급 벡터 확장 2)를 지원하는 프로세서가 필요하며, 2013 Late 이후 대부분의 Mac 장치에서 지원됩니다. 지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
+|화상 통화 및 모임 | <ul><li>화상 통화 및 온라인 모임에서 더 나은 환경을 위해서는 2.0GHz 프로세서 및 4.0GB RAM 이상의 컴퓨터를 사용하는 것이 좋습니다. </li><li>배경 영상 효과에는 최대 2013 Mac 장치 이상에서 지원 되는 고급 벡터 확장 2 (AVX2) 지원이 있는 프로세서가 필요 합니다. 지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
 |지원되는 Linux 배포판 | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>모바일 장치용 Teams의 하드웨어 요구 사항

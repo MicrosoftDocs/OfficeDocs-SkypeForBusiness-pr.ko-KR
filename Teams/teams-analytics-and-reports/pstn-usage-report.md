@@ -17,12 +17,12 @@ description: Microsoft 팀 관리 센터에서 팀 PSTN 사용 보고서를 사�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904303"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918576"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 팀 PSTN 사용 보고서
 
@@ -104,56 +104,58 @@ CSV의 첫 번째 행에 열 이름이 포함 됩니다. 모든 날짜는 UTC와
 
  국가 관련 규정이 12 개월 동안 데이터의 보존을 금지 하지 않는 한, 현재 날짜부터 1 년 까지의 데이터를 내보낼 수 있습니다.
 
-| # | 이름 | [데이터 형식 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
-| :-: | :-: | :-: |:------------------- |
-| 0 | UsageId | `uniqueidentifier` | 고유한 통화 식별자 |
-| 1 | 통화 ID | `nvarchar(64)` | 통화 식별자입니다. 고유 하지 않을 수 있습니다. |
-| 2 | 전화 회의 ID | `nvarchar(64)` | 오디오 회의의 ID입니다. |
-| 3 | 사용자 위치 | `nvarchar(2)` | 사용자의 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4(tcp/ipv4) | AAD ObjectId | `uniqueidentifier` | Azure Active Directory에서 사용자의 ID를 호출 하는 중입니다.<br/> 이 및 기타 사용자 정보는 봇 통화 형식 (ucap_in, ucap_out)에 대해 null/비어 있습니다. |
-| 5mb | UPN | `nvarchar(128)` | Azure Active Directory에서 UserPrincipalName (로그인 이름).<br/>이것은 일반적으로 사용자의 SIP 주소와 같으며 사용자의 전자 메일 주소와 같을 수 있습니다. |
-| 26 | 사용자 표시 이름 | `nvarchar(128)` | 사용자의 표시 이름 |
-| 7 | 발신자 ID | `nvarchar(128)` | 인바운드 통화에 대 한 통화 또는 발신 전화를 거는 번호를 수신 하는 번호입니다. [E 164](https://en.wikipedia.org/wiki/E.164) 형식 |
-| 20cm(8 | 통화 종류 | `nvarchar(32)` | 통화가 PSTN 아웃 바운드 통화 인지, 통화 유형 (예: 사용자 또는 음성 컨퍼런스)과 같은 통화 유형에 관계 됨 |
-| 되었는지 | 숫자 형식 | `nvarchar(16)` | 무료 번호 서비스와 같은 사용자의 전화 번호 유형 |
-| 1천만 | 국내/국제 | `nvarchar(16)` | 사용자의 위치에 따라 국가 또는 지역에 거주 하는 국가 또는 지역 외부 통화 인지 여부 |
-| mb | 대상 전화 | `nvarchar(64)` | 국가 또는 지역 전화 걸기 |
-| 까지 | 대상 번호 | `nvarchar(32)` | [E. \ 164](https://en.wikipedia.org/wiki/E.164) 형식으로 거는 번호 |
-| 일자 | 시작 시간 | `datetimeoffset` | 통화 시작 시간 |
-| 13 | 종료 시간 | `datetimeoffset` | 통화 종료 시간 |
-| ~ | 기간 (초) | `int` | 통화가 연결 된 기간 |
-| 16 | 연결 수수료 | `numeric(16, 2)` | 연결 수수료 금액 |
-| 17@@ | 부과 | `numeric(16, 2)` | 계좌에 부과 되는 통화 또는 비용의 금액입니다. |
-| awg | 통화 | `nvarchar(3)` | 통화 비용을 계산 하는 데 사용 되는 통화 유형입니다 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)). |
-| 인치 | 기능 | `nvarchar(32)` | 통화에 사용 된 라이선스 |
+> [!div class="has-no-wrap"]  
+> | # | 이름 | [데이터 형식 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | UsageId | `uniqueidentifier` | 고유한 통화 식별자 |
+> | 1 | 통화 ID | `nvarchar(64)` | 통화 식별자입니다. 고유 하지 않을 수 있습니다. |
+> | 2 | 전화 회의 ID | `nvarchar(64)` | 오디오 회의의 ID입니다. |
+> | 3 | 사용자 위치 | `nvarchar(2)` | 사용자의 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4(tcp/ipv4) | AAD ObjectId | `uniqueidentifier` | Azure Active Directory에서 사용자의 ID를 호출 하는 중입니다.<br/> 이 및 기타 사용자 정보는 봇 통화 형식 (ucap_in, ucap_out)에 대해 null/비어 있습니다. |
+> | 5mb | UPN | `nvarchar(128)` | Azure Active Directory에서 UserPrincipalName (로그인 이름).<br/>이것은 일반적으로 사용자의 SIP 주소와 같으며 사용자의 전자 메일 주소와 같을 수 있습니다. |
+> | 26 | 사용자 표시 이름 | `nvarchar(128)` | 사용자의 표시 이름 |
+> | 7 | 발신자 ID | `nvarchar(128)` | 인바운드 통화에 대 한 통화 또는 발신 전화를 거는 번호를 수신 하는 번호입니다. [E 164](https://en.wikipedia.org/wiki/E.164) 형식 |
+> | 20cm(8 | 통화 종류 | `nvarchar(32)` | 통화가 PSTN 아웃 바운드 통화 인지, 통화 유형 (예: 사용자 또는 음성 컨퍼런스)과 같은 통화 유형에 관계 됨 |
+> | 되었는지 | 숫자 형식 | `nvarchar(16)` | 무료 번호 서비스와 같은 사용자의 전화 번호 유형 |
+> | 1천만 | 국내/국제 | `nvarchar(16)` | 사용자의 위치에 따라 국가 또는 지역에 거주 하는 국가 또는 지역 외부 통화 인지 여부 |
+> | mb | 대상 전화 | `nvarchar(64)` | 국가 또는 지역 전화 걸기 |
+> | 까지 | 대상 번호 | `nvarchar(32)` | [E. \ 164](https://en.wikipedia.org/wiki/E.164) 형식으로 거는 번호 |
+> | 일자 | 시작 시간 | `datetimeoffset` | 통화 시작 시간 |
+> | 13 | 종료 시간 | `datetimeoffset` | 통화 종료 시간 |
+> | ~ | 기간 (초) | `int` | 통화가 연결 된 기간 |
+> | 16 | 연결 수수료 | `numeric(16, 2)` | 연결 수수료 금액 |
+> | 17@@ | 부과 | `numeric(16, 2)` | 계좌에 부과 되는 통화 또는 비용의 금액입니다. |
+> | awg | 통화 | `nvarchar(3)` | 통화 비용을 계산 하는 데 사용 되는 통화 유형입니다 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)). |
+> | 인치 | 기능 | `nvarchar(32)` | 통화에 사용 된 라이선스 |
 
 ### <a name="exported-direct-routing-usage-report"></a>내보낸 직접 라우팅 사용 보고서
 
 국가 관련 규정으로 해당 기간에 대 한 데이터의 보존을 금지 하지 않는 한 최대 5 개월 (150 일) 까지의 데이터를 현재 날짜에서 내보낼 수 있습니다.
 
-| # | 이름 | [데이터 형식 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
-| :-: | :-: | :-: |:------------------- |
-| 0 | Legredir | `uniqueidentifier` | 고유한 통화 식별자 |
-| 1 | SIP 주소 | `nvarchar(128)` | 전화를 걸거나 받은 사용자 또는 봇의 주소입니다.<br/>이것은 실제로 SIP 주소와 같은 Azure Active Directory의 UserPrincipalName (UPN, 로그인 이름)입니다. |
-| 2 | 표시 이름 | `nvarchar(128)` | Microsoft 365 관리 센터에 설정 된 사용자 또는 통화 봇의 이름 (예: 전화 큐 또는 자동 전화 교환) |
-| 3 | 사용자 국가 | `nvarchar(2)` | 사용자의 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4(tcp/ipv4) | 초대 시간 | `datetimeoffset` | 초기 초대를 팀에서 발신으로 보내거나, sbc에 대 한 사용자 또는 인공 지능 통화를 호출 하거나, SBC에서 직접 라우팅의 SIP 프록시 구성 요소를 통해 수신 되는 인바운드 팀 또는 인공 전화 |
-| 5mb | 시작 시간 | `datetimeoffset` | 아웃 바운드 (팀/봇-PSTN 사용자에 대 한)의 SBC에서 최종 응답 (SIP 메시지 "200 OK")을 받은 경우 또는 SIP 프록시에서 인바운드 호출 (PSTN 사용자를 팀/Bot로 팀 백 엔드 내의 다음 홉으로 초대를 보내는 시간)<br/>실패 및 응답 하지 않은 통화의 경우이는 초대 또는 실패 시간과 같을 수 있습니다. |
-| 26 | 실패 시간 | `datetimeoffset` | 실패 (완전히 설정 되지 않은) 통화에만 존재 |
-| 7 | 종료 시간 | `datetimeoffset` | 성공한 (완전히 설정 된) 통화에만 존재 합니다. 통화가 종료 되는 시간 |
-| 20cm(8 | 기간 (초) | `int` | 통화 시간 |
-| 되었는지 | 시간당 | `nvarchar(3)` | Yes/No. 성공 또는 시도 |
-| 1천만 | 발신자 번호 | `nvarchar(32)` | 통화를 수행한 사용자 또는 봇의 번호입니다. 팀의 사용자 통화에 대 한 인바운드에 따라 PSTN 사용자가 되며 팀에서 아웃 바운드 사용자 통화는 팀 사용자 번호입니다. |
-| 까지 | 호출 수신자 번호 | `nvarchar(32)` | 통화를 받은 사용자 또는 인공 지능 번호입니다. 팀의 사용자 통화에 대 한 인바운드에서 팀 사용자로 전화 아웃 되는 경우 팀에서의 아웃 바운드 사용자 통화는 PSTN 사용자가 됩니다. |
-| 일자 | 통화 종류 | `nvarchar(32)` | 통화 종류 및 방향 |
-| 13 | 미디어 용 Azure 지역 | `nvarchar(8)` | 비 바이패스 통화에서 미디어 경로에 사용 되는 데이터 센터 |
-| ~ | Azure for 신호 | `nvarchar(8)` | 우회 및 비 우회 통화에 대해 신호를 보내는 데 사용 된 데이터 센터 |
-| 16 | 최종 SIP 코드 | `int` | 통화가 종료 된 코드, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
-| 17@@ | 최종 Microsoft 하위 코드가 | `int` | Microsoft는 SIP 코드 외에도 특정 문제를 나타내는 하위 코드를 소유 하 고 있습니다. |
-| awg | 최종 SIP 구 | `nvarchar(256)` | SIP 코드 및 Microsoft 하위 코드에 대 한 설명 |
-| 인치 | SBC FQDN | `nvarchar(64)` | 세션 경계 컨트롤러의 정규화 된 도메인 이름 |
-| 명 | 미디어 바이패스 | `nvarchar(3)` | Yes/No. 트렁크가 미디어 바이패스를 사용 하도록 설정 되었는지 여부를 나타냅니다. |
-| mb | 공유 상관 관계 ID | `uniqueidentifier` | 두 개 이상의 통화가 관련 됨을 나타냅니다. |
+> [!div class="has-no-wrap"]  
+> | # | 이름 | [데이터 형식 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | Legredir | `uniqueidentifier` | 고유한 통화 식별자 |
+> | 1 | SIP 주소 | `nvarchar(128)` | 전화를 걸거나 받은 사용자 또는 봇의 주소입니다.<br/>이것은 실제로 SIP 주소와 같은 Azure Active Directory의 UserPrincipalName (UPN, 로그인 이름)입니다. |
+> | 2 | 표시 이름 | `nvarchar(128)` | Microsoft 365 관리 센터에 설정 된 사용자 또는 통화 봇의 이름 (예: 전화 큐 또는 자동 전화 교환) |
+> | 3 | 사용자 국가 | `nvarchar(2)` | 사용자의 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4(tcp/ipv4) | 초대 시간 | `datetimeoffset` | 초기 초대를 팀에서 발신으로 보내거나, sbc에 대 한 사용자 또는 인공 지능 통화를 호출 하거나, SBC에서 직접 라우팅의 SIP 프록시 구성 요소를 통해 수신 되는 인바운드 팀 또는 인공 전화 |
+> | 5mb | 시작 시간 | `datetimeoffset` | 아웃 바운드 (팀/봇-PSTN 사용자에 대 한)의 SBC에서 최종 응답 (SIP 메시지 "200 OK")을 받은 경우 또는 SIP 프록시에서 인바운드 호출 (PSTN 사용자를 팀/Bot로 팀 백 엔드 내의 다음 홉으로 초대를 보내는 시간)<br/>실패 및 응답 하지 않은 통화의 경우이는 초대 또는 실패 시간과 같을 수 있습니다. |
+> | 26 | 실패 시간 | `datetimeoffset` | 실패 (완전히 설정 되지 않은) 통화에만 존재 |
+> | 7 | 종료 시간 | `datetimeoffset` | 성공한 (완전히 설정 된) 통화에만 존재 합니다. 통화가 종료 되는 시간 |
+> | 20cm(8 | 기간 (초) | `int` | 통화 시간 |
+> | 되었는지 | 시간당 | `nvarchar(3)` | Yes/No. 성공 또는 시도 |
+> | 1천만 | 발신자 번호 | `nvarchar(32)` | 통화를 수행한 사용자 또는 봇의 번호입니다. 팀의 사용자 통화에 대 한 인바운드에 따라 PSTN 사용자가 되며 팀에서 아웃 바운드 사용자 통화는 팀 사용자 번호입니다. |
+> | 까지 | 호출 수신자 번호 | `nvarchar(32)` | 통화를 받은 사용자 또는 인공 지능 번호입니다. 팀의 사용자 통화에 대 한 인바운드에서 팀 사용자로 전화 아웃 되는 경우 팀에서의 아웃 바운드 사용자 통화는 PSTN 사용자가 됩니다. |
+> | 일자 | 통화 종류 | `nvarchar(32)` | 통화 종류 및 방향 |
+> | 13 | 미디어 용 Azure 지역 | `nvarchar(8)` | 비 바이패스 통화에서 미디어 경로에 사용 되는 데이터 센터 |
+> | ~ | Azure for 신호 | `nvarchar(8)` | 우회 및 비 우회 통화에 대해 신호를 보내는 데 사용 된 데이터 센터 |
+> | 16 | 최종 SIP 코드 | `int` | 통화가 종료 된 코드, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
+> | 17@@ | 최종 Microsoft 하위 코드가 | `int` | Microsoft는 SIP 코드 외에도 특정 문제를 나타내는 하위 코드를 소유 하 고 있습니다. |
+> | awg | 최종 SIP 구 | `nvarchar(256)` | SIP 코드 및 Microsoft 하위 코드에 대 한 설명 |
+> | 인치 | SBC FQDN | `nvarchar(64)` | 세션 경계 컨트롤러의 정규화 된 도메인 이름 |
+> | 명 | 미디어 바이패스 | `nvarchar(3)` | Yes/No. 트렁크가 미디어 바이패스를 사용 하도록 설정 되었는지 여부를 나타냅니다. |
+> | mb | 공유 상관 관계 ID | `uniqueidentifier` | 두 개 이상의 통화가 관련 됨을 나타냅니다. |
 
 
 ## <a name="related-topics"></a>관련 항목

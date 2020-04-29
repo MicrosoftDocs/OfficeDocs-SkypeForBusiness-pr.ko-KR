@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: bb0b28805f06109109a1d7ba47b08f57112c9ee4
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780587"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918727"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드 
 
@@ -61,28 +61,6 @@ _그림 1-이 가이드 전체에서 다룬 주요 작업 영역_
 
 이 가이드는 지정 된 품질 챔피언에도 사용 됩니다. 자세한 내용은 [품질 챔피언 역할](4-envision-plan-my-service-management.md#the-quality-champion-role)을 참조 하세요.
 
-## <a name="assign-roles-for-accessing-cqd"></a>CQD에 액세스 하기 위한 역할 할당
-
-이 가이드를 사용 하기 전에 CQD에 액세스할 수 있도록 적절 한 테 넌 트 [역할이](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 할당 되어 있는지 확인 합니다.
-
-다음 표에서는 각 역할이 CQD에서 수행할 수 있는 작업을 보여 줍니다.
-
-
-|  |보고서 보기  |EUII 필드 보기  |보고서 만들기  |빌드 데이터 업로드  |
-|---------|:-------:|:-------:|:-------:|:-------:|
-|전역 관리자     |예         |예         |예         |예         |
-|Teams 서비스 관리자     |예         |예         |예         |예         |
-|Teams 커뮤니케이션 관리자     |예         |예         |예         |예         |
-|Teams 커뮤니케이션 지원 엔지니어     |예         |예         |예         |아니요         |
-|팀 의사 소통 지원 전문가     |예         |아니요         |예         |아니요         |
-|비즈니스용 Skype 관리자     |예         |예         |예         |예         |
-|Azure AD 전역 읽기 프로그램 |예         |예         |예         |아니요         |
-|Microsoft 365 보고서 리더기<sup>1</sup>     |예         |아니요         |예         |아니요         |
-
-<sup>1</sup> Microsoft 365 보고서 구독자는 CQD 보고서를 읽는 것 외에도 관리 센터의 모든 [활동 보고서](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) 와 [Microsoft 365 채택 콘텐츠 팩](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)의 모든 보고서를 볼 수 있습니다.
-
-> [!NOTE]
-> EUII (최종 사용자 식별 가능 정보)가 표시 되지 않고 이러한 정보를 볼 수 있는 역할 중 하나가 있는 경우 CQD는 30 일간 EUII을 유지 한다는 점에 유의 하세요. 30 일이 지난 모든 항목이 삭제 됩니다.
 
 ## <a name="what-is-quality"></a>품질 이란?
 

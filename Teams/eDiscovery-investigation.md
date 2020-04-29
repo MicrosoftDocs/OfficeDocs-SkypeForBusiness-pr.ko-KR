@@ -1,7 +1,7 @@
 ---
 title: 콘텐츠의 eDiscovery 조사 수행
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: hakank
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 법률 소송 절차에 대해 전자적으로 저장 된 모든 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521544"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918586"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft 팀의 콘텐츠 eDiscovery 조사 수행
 
@@ -40,17 +40,15 @@ ms.locfileid: "43521544"
 |:--- | --- |:--- |
 | 팀 채팅 메시지 | 예 | 게스트 사용자가 1:1 또는 1의 유일한 참가자 인 채팅의 채팅 메시지: N 채팅은 eDiscoverable 수 없습니다. |
 | 오디오 녹음 | 아니요 | |
-| 각 사용자가 메시지를 읽었을 때 표시 하는 타임 스탬프 | 아니요 | |
-| 오디오 녹음 | 아니요 | |
 | 개인 채널 메시지 | 아니요 | |
 | Emojis, Gif, 스티커 | 예 | |
 | 코드 조각 | 아니요 | |
-| 채팅 링크 | 아니요 | |
+| 채팅 링크 | 예 | |
 | 반응과 (좋아요, 하트 등) | 아니요 | |
 | 편집 된 메시지 | 예 | 사용자가 보류 중인 경우에는 이전 버전의 편집 된 메시지가 보존 됩니다. |
 | 인라인 이미지 | 예 | |
-| 목차 | 아니요 | |
-| 제목 | 아니요 | |
+| 목차 | 예 | |
+| 제목 | 예 | |
 | 부호가 | 예 | 인용 부호로 묶은 콘텐츠를 검색할 수 있습니다. 그러나 검색 결과에는 콘텐츠가 인용 부호로 표시 되지 않습니다. |
 | 채널 이름 | 아니요 | |
 
@@ -162,7 +160,7 @@ Custodian로 지정할 특정 사용자가 없는 경우 전체 데이터 원본
 
 교정 등의 기능을 두 가지 유형의 검토 집합에서 사용할 수 있습니다.
 
-검토 집합에 대 한 자세한 내용은 [고급 eDiscovery에서 대화 검토](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets) 를 참조 하세요.
+검토 집합에 대 한 자세한 내용은 [고급 eDiscovery에서 대화 검토](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)를 참조 하세요.
 
 #### <a name="collection-options"></a>모음 옵션
 

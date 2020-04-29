@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 받는 방법을 알아봅니다.
-ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914035"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918838"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -38,6 +38,30 @@ ms.locfileid: "43914035"
 CQD (통화 품질 대시보드)는 Microsoft 팀과 비즈니스용 Skype Online 서비스를 사용 하 여 발생 하는 통화의 품질에 대 한 통찰력을 제공 합니다. 이 항목에서는 통화 품질 문제를 해결 하는 데 사용할 수 있는 데이터 수집을 시작 하는 단계에 대해 설명 합니다.
 
 현재 고급 CQD 및 CQD를 모두 사용할 수 있습니다. 고급 CQD는에서 <span>https://cqd.teams.microsoft.com</span>사용할 수 있습니다. 새 URL 이지만 관리자 자격 증명을 사용 하 여 로그인 합니다.
+
+## <a name="assign-roles-for-accessing-cqd"></a>CQD에 액세스 하기 위한 역할 할당
+
+사용 해야 하는 사용자에 게 CQD에 액세스 하기 위한 [역할](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 을 할당 합니다. 
+
+다음 표에서는 각 역할이 CQD에서 수행할 수 있는 작업을 보여 줍니다.
+
+
+|  |보고서 보기  |EUII 필드 보기  |보고서 만들기  |빌드 데이터 업로드  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|전역 관리자     |예         |예         |예         |예         |
+|Teams 서비스 관리자     |예         |예         |예         |예         |
+|Teams 커뮤니케이션 관리자     |예         |예         |예         |예         |
+|Teams 커뮤니케이션 지원 엔지니어     |예         |예         |예         |아니요         |
+|팀 의사 소통 지원 전문가     |예         |아니요         |예         |아니요         |
+|비즈니스용 Skype 관리자     |예         |예         |예         |예         |
+|Azure AD 전역 읽기 프로그램 |예         |예         |예         |아니요         |
+|Microsoft 365 보고서 리더기<sup>1</sup>     |예         |아니요         |예         |아니요         |
+
+<sup>1</sup> Microsoft 365 보고서 구독자는 CQD 보고서를 읽는 것 외에도 관리 센터의 모든 [활동 보고서](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) 와 [Microsoft 365 채택 콘텐츠 팩](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)의 모든 보고서를 볼 수 있습니다.
+
+> [!NOTE]
+> EUII (최종 사용자 식별 가능 정보)가 표시 되지 않고 이러한 정보를 볼 수 있는 역할 중 하나가 있는 경우 CQD는 30 일간 EUII을 유지 한다는 점에 유의 하세요. 30 일이 지난 모든 항목이 삭제 됩니다.
+
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Power BI를 사용 하 여 CQD 데이터 분석
 
@@ -500,7 +524,7 @@ Cqd v2와 CQD v3에는 cqd v2에는 새로운 시나리오가 없기 때문에 C
 - Microsoft 365 보고서 읽기 프로그램
 - 팀 의사 소통 지원 전문가
 
-EUII를 포함 하 여 CQD에 액세스할 수 있는 역할에 대 한 자세한 내용은 [CQD에 액세스 하기 위한 역할 할당](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd)을 참조 하세요.
+EUII를 포함 하 여 CQD에 액세스할 수 있는 역할에 대 한 자세한 내용은 [CQD에 액세스 하기 위한 역할 할당](#assign-roles-for-accessing-cqd)을 참조 하세요.
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>팀만 필터링 했을 때 CQD에 비즈니스용 Skype 정보가 표시 되는 이유는 무엇 인가요?
 
