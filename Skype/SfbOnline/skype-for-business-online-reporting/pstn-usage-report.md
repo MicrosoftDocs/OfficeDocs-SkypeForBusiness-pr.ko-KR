@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 새로운 비즈니스용 Skype 관리 센터 보고서 영역에 조직의 통화 및 오디오 회의 활동이 표시 됩니다. 이 기능을 사용 하면 보고서를 자세히 분석 하 여 각 사용자의 활동에 대 한 세부적인 통찰력을 제공할 수 있습니다. 예를 들어 비즈니스용 Skype PSTN 사용 정보 보고서를 사용 하 여 인바운드/아웃 바운드 통화와 이러한 통화 비용에 소요 된 시간을 확인할 수 있습니다. 통화 비용을 포함 하 여 오디오 회의 PSTN 사용 정보를 보고, 사용 현황 및 통화 대금 청구 세부 정보를 파악 하 여 조직 내 사용량을 확인할 수 있습니다.
-ms.openlocfilehash: 4161f0f9f0b6e011b67f94afc14b5ac793fc1009
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776273"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918516"
 ---
 # <a name="pstn-usage-report"></a>PSTN 사용 현황 보고서
 
@@ -32,7 +32,7 @@ ms.locfileid: "43776273"
   
 사용할 수 있는 보고서에 대 한 자세한 내용은 [보고서 개요](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 를 확인 하세요.
   
-이 보고서는 다른 비즈니스용 Skype 보고서와 함께 조직 전체의 통화 사용을 포함 하는 활동에 대 한 세부 정보를 제공 합니다. 이러한 세부 정보는 조직에 대 한 기타 비즈니스 의사 결정과 [통신 크레딧을](/microsoftteams/what-are-communications-credits) 설정 하는 데 매우 유용 합니다.
+이 보고서는 다른 비즈니스용 Skype 보고서와 함께 조직 전체의 통화 사용을 포함 하는 활동에 대 한 세부 정보를 제공 합니다. 이러한 세부 정보는 조직에 대 한 기타 비즈니스 의사 결정과 [통신 크레딧을](/microsoftteams/what-are-communications-credits)설정 하는 데 매우 유용 합니다.
   
 > [!NOTE]
 > Microsoft 365 관리 센터에 관리자로 로그온 하면 모든 비즈니스용 Skype 보고서를 볼 수 있습니다. 
@@ -77,8 +77,9 @@ ms.locfileid: "43776273"
      **통합 커뮤니케이션 애플리케이션 (c-AP)** 
      *    **ucap_in** (자동 전화 교환 또는 통화 대기열 등의 UC 응용 프로그램에 대 한 인바운드 PSTN 통화) 
      *    **ucap_out** (자동 전화 교환 또는 통화 대기열 등의 UC 응용 프로그램에서 보낸 아웃 바운드 PSTN 통화)
-     *    **참고:** 자동 전화 교환 또는 통화 대기열 등의 사용자에 게 전송 된 통화는이 호출 다리는 P2P (피어 투 피어) 음성 통화를 통해 PSTN 사용 보고서에 표시 되지 않습니다. 비즈니스용 Skype 관리 센터에서 "비즈니스용 skype 통화 분석" > 도구 아래에 있는 P2P 호출에 액세스할 수 있으며, 사용자 이름 또는 SIP 주소로 검색 하 여 날짜/시간 및/또는 원래 CLID (통화 라인 ID)를 기준으로 통화를 연관 시킬 수도 있습니다. 
-*     
+         > [!NOTE]
+         > 자동 전화 교환 또는 통화 대기열 등의 사용자에 게 전송 된 통화는이 호출 다리는 P2P (피어 투 피어) 음성 통화를 통해 PSTN 사용 보고서에 표시 되지 않습니다. 비즈니스용 Skype 관리 센터에서 "비즈니스용 skype 통화 분석" > 도구 아래에 있는 P2P 호출에 액세스할 수 있으며, 사용자 이름 또는 SIP 주소로 검색 하 여 날짜/시간 및/또는 원래 CLID (통화 라인 ID)를 기준으로 통화를 연관 시킬 수도 있습니다. 
+
      **국내/국제** 전화는 사용자 위치에 따라 거주 하는 통화가 국내 (국가/지역 내) 또는 국제 (국가/지역 외부)로 간주 되었는지 알려줍니다. 
 *    **대상 전화 거** 는 국가/지역에서 프랑스, 독일 또는 미국 (미국) 등으로 거는 대상의 이름입니다. 
 *    **Number type** 은 사용자의 전화 번호, 서비스 또는 무료 번호에서 가져온 전화 번호 유형입니다.  
@@ -125,28 +126,29 @@ CSV의 첫 번째 행에 열 이름이 포함 됩니다.
 
 내보낸 파일에는 온라인 보고서에서 사용할 수 없는 추가 필드가 포함 되어 있습니다. 문제 해결 및 자동화 워크플로를 위해 사용 될 수 있습니다.
 
-| #  | 이름 | [데이터 형식 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
-| :-: | :-: | :-: |:------------------- |
-| 0 | UsageId | `uniqueidentifier` | 고유한 통화 식별자 |
-| 1 | 통화 ID | `nvarchar(64)` | 통화 식별자입니다. 고유 하지 않을 수 있습니다. |
-| 2 | 전화 회의 ID | `nvarchar(64)` | 오디오 회의의 ID입니다. |
-| 3 | 사용자 위치 | `nvarchar(2)` | 사용자의 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4(tcp/ipv4) | AAD ObjectId | `uniqueidentifier` | Azure Active Directory에서 사용자의 ID를 호출 하는 중입니다.<br/> 이 및 기타 사용자 정보는 봇 통화 형식 (ucap_in, ucap_out)에 대해 null/비어 있습니다. |
-| 5mb | UPN | `nvarchar(128)` | Azure Active Directory에서 UserPrincipalName (로그인 이름).<br/>이것은 일반적으로 사용자의 SIP 주소와 같으며 사용자의 전자 메일 주소와 같을 수 있습니다. |
-| 26 | 사용자 표시 이름 | `nvarchar(128)` | 사용자의 표시 이름 |
-| 7 | 발신자 ID | `nvarchar(128)` | 인바운드 통화에 대 한 통화 또는 발신 전화를 거는 번호를 수신 하는 번호입니다. [E 164](https://en.wikipedia.org/wiki/E.164) 형식 |
-| 20cm(8 | 통화 종류 | `nvarchar(32)` | 통화가 PSTN 아웃 바운드 통화 인지, 통화 유형 (예: 사용자 또는 음성 컨퍼런스)과 같은 통화 유형에 관계 됨 |
-| 되었는지 | 숫자 형식 | `nvarchar(16)` | 무료 번호 서비스와 같은 사용자의 전화 번호 유형 |
-| 1천만 | 국내/국제 | `nvarchar(16)` | 사용자의 위치에 따라 국가 또는 지역에 거주 하는 국가 또는 지역 외부 통화 인지 여부 |
-| mb | 대상 전화 | `nvarchar(64)` | 국가 또는 지역 전화 걸기 |
-| 까지 | 대상 번호 | `nvarchar(32)` | [E. \ 164](https://en.wikipedia.org/wiki/E.164) 형식으로 거는 번호 |
-| 일자 | 시작 시간 | `datetimeoffset` | 통화 시작 시간 (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-| 13 | 종료 시간 | `datetimeoffset` | 통화 종료 시간 (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-| ~ | 기간 (초) | `int` | 통화가 연결 된 기간 |
-| 16 | 연결 수수료 | `numeric(16, 2)` | 연결 수수료 금액 |
-| 17@@ | 부과 | `numeric(16, 2)` | 계좌에 부과 되는 통화 또는 비용의 금액입니다. |
-| awg | 통화 | `nvarchar(3)` | 통화 비용을 계산 하는 데 사용 되는 통화 유형입니다 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)). |
-| 인치 | 기능 | `nvarchar(32)` | 통화에 사용 된 라이선스 |
+> [!div class="has-no-wrap"]  
+> | #  | 이름 | [데이터 형식 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | UsageId | `uniqueidentifier` | 고유한 통화 식별자 |
+> | 1 | 통화 ID | `nvarchar(64)` | 통화 식별자입니다. 고유 하지 않을 수 있습니다. |
+> | 2 | 전화 회의 ID | `nvarchar(64)` | 오디오 회의의 ID입니다. |
+> | 3 | 사용자 위치 | `nvarchar(2)` | 사용자의 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4(tcp/ipv4) | AAD ObjectId | `uniqueidentifier` | Azure Active Directory에서 사용자의 ID를 호출 하는 중입니다.<br/> 이 및 기타 사용자 정보는 봇 통화 형식 (ucap_in, ucap_out)에 대해 null/비어 있습니다. |
+> | 5mb | UPN | `nvarchar(128)` | Azure Active Directory에서 UserPrincipalName (로그인 이름).<br/>이것은 일반적으로 사용자의 SIP 주소와 같으며 사용자의 전자 메일 주소와 같을 수 있습니다. |
+> | 26 | 사용자 표시 이름 | `nvarchar(128)` | 사용자의 표시 이름 |
+> | 7 | 발신자 ID | `nvarchar(128)` | 인바운드 통화에 대 한 통화 또는 발신 전화를 거는 번호를 수신 하는 번호입니다. [E 164](https://en.wikipedia.org/wiki/E.164) 형식 |
+> | 20cm(8 | 통화 종류 | `nvarchar(32)` | 통화가 PSTN 아웃 바운드 통화 인지, 통화 유형 (예: 사용자 또는 음성 컨퍼런스)과 같은 통화 유형에 관계 됨 |
+> | 되었는지 | 숫자 형식 | `nvarchar(16)` | 무료 번호 서비스와 같은 사용자의 전화 번호 유형 |
+> | 1천만 | 국내/국제 | `nvarchar(16)` | 사용자의 위치에 따라 국가 또는 지역에 거주 하는 국가 또는 지역 외부 통화 인지 여부 |
+> | mb | 대상 전화 | `nvarchar(64)` | 국가 또는 지역 전화 걸기 |
+> | 까지 | 대상 번호 | `nvarchar(32)` | [E. \ 164](https://en.wikipedia.org/wiki/E.164) 형식으로 거는 번호 |
+> | 일자 | 시작 시간 | `datetimeoffset` | 통화 시작 시간 (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+> | 13 | 종료 시간 | `datetimeoffset` | 통화 종료 시간 (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+> | ~ | 기간 (초) | `int` | 통화가 연결 된 기간 |
+> | 16 | 연결 수수료 | `numeric(16, 2)` | 연결 수수료 금액 |
+> | 17@@ | 부과 | `numeric(16, 2)` | 계좌에 부과 되는 통화 또는 비용의 금액입니다. |
+> | awg | 통화 | `nvarchar(3)` | 통화 비용을 계산 하는 데 사용 되는 통화 유형입니다 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)). |
+> | 인치 | 기능 | `nvarchar(32)` | 통화에 사용 된 라이선스 |
 
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>다른 비즈니스용 Skype 보고서를 보 시겠습니까?

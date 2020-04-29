@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 다음 섹션에서는 하이브리드 시나리오에서 비즈니스용 Skype 기능을 제공 하기 위해 리소스/사용자 포리스트 모델에 여러 포리스트가 포함 된 환경을 구성 하는 방법에 대 한 지침을 제공 합니다.
-ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780127"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918687"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>리소스 포리스트 토폴로지 배포
  
@@ -65,7 +65,7 @@ ms.locfileid: "43780127"
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |Msrtcsip-gateways-OriginatorSID  <br/> |
    
-[선택한 계정 링크 특성이](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) 원본 앵커로 사용 됩니다. 변경할 수 없는 다른 특성을 사용 하려는 경우에는이 작업을 수행 하면 됩니다. AD FS 클레임 규칙을 편집 하 고 AAD 연결 구성 중에 특성을 선택 해야 합니다.
+[선택한 계정 링크 특성이](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts) 원본 앵커로 사용 됩니다. 변경할 수 없는 다른 특성을 사용 하려는 경우에는이 작업을 수행 하면 됩니다. AD FS 클레임 규칙을 편집 하 고 AAD 연결 구성 중에 특성을 선택 해야 합니다.
   
 포리스트 간에 Upn을 동기화 하지 않습니다. 여러 포리스트에서 동일한 UPN을 사용할 수 없으므로 각 사용자 포리스트에 대해 고유한 UPN을 사용 해야 하는 테스트 중에 발견 되었습니다. 따라서 UPN을 동기화 하거나 동기화 하지 않는 두 가지 가능성이 있습니다. 
   
@@ -121,14 +121,16 @@ AAD 연결은 계정 및 리소스 포리스트 간에 온-프레미스 동기�
     
 3. 온-프레미스 디렉터리에서 사용자 식별: **여러 디렉터리에 있는 사용자 id**를 선택 하 고 **ObjectSID** 및 **msExchangeMasterAccountSID** 특성을 선택 합니다.
     
-4. Azure AD에서 사용자 식별: 원본 앵커: 선택한 특성을 선택한 후에 [적절 한 원본 anchor 특성](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), 사용자 계정 이름- **userPrincipalName**을 선택 합니다.
+4. Azure AD에서 사용자 식별: 원본 앵커: 선택한 특성을 선택한 후에 [적절 한 원본 anchor 특성](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), 사용자 계정 이름- **userPrincipalName**을 선택 합니다.
     
 5.  선택적 기능: Exchange 하이브리드 배포 여부를 선택 합니다.
     
     > [!NOTE]
     >  Exchange Online만 있는 경우 CNAME 리디렉션 때문에 자동 검색 중에 OAuth 오류에 문제가 있을 수 있습니다. 이를 해결 하려면 비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행 하 여 Exchange 자동 검색 URL을 설정 해야 합니다.
-  
-    Set-CsOAuthConfiguration-ExchangeAutoDiscoverURL https://<span>autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    >
+    > ```powershell
+    > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    > ```
     
 6.  AD FS 팜: **기존 Windows Server 2012 R2 AD fs 팜 사용** 을 선택 하 고 ad fs 서버 이름을 입력 합니다.
     
@@ -142,4 +144,3 @@ AAD 연결은 계정 및 리소스 포리스트 간에 온-프레미스 동기�
 
 필요한 경우 Exchange 하이브리드 구성에 대 한 모범 사례를 따릅니다. 자세한 내용은 [Exchange Server 하이브리드 배포](https://docs.microsoft.com/exchange/exchange-hybrid)를 참조 하세요. 
   
-

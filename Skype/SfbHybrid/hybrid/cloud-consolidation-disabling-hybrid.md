@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 부록에는 팀 및 비즈니스용 Skype에 대 한 클라우드 통합의 일부로 서 하이브리드를 사용 하지 않도록 설정 하는 자세한 단계가 포함 되어 있습니다.
-ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 039e8a30495567fe818fe4d60b863f37cf94e049
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780147"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918737"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
 
@@ -42,7 +42,7 @@ ms.locfileid: "43780147"
 
 > [!Note] 
 > 드문 경우에는 조직에 대해 온-프레미스에서 Office 365로 DNS를 변경 하면 다른 조직이 페더레이션 구성을 업데이트할 때까지 다른 조직과의 페더레이션이 작동 하지 않을 수 있습니다.<ul><li>
-이전 직접 페더레이션 모델 (허용 된 파트너 서버 라고도 함)을 사용 하는 모든 페더레이션 조직에서는 프록시 FQDN을 제거 하기 위해 조직에 대해 허용 되는 도메인 항목을 업데이트 해야 합니다. 이 레거시 페더레이션 모델은 DNS SRV 레코드를 기반으로 하지 않으므로 이러한 구성은 조직이 클라우드로 이동한 후에 최신 상태가 되지 않게 됩니다. </li><li>Sipfed.online.lync.com>에 대해 호스팅 공급자가 사용 하도록 설정 되지 않은 페더레이션 조직입니다. <span>com은 해당 구성을 사용 하도록 구성 해야 합니다. 이 상황은 페더레이션 조직이 전적으로 온 적이 있고 하이브리드 또는 온라인 테 넌 트와도 페더레이션 되지 않은 경우에만 가능 합니다. 이러한 경우 이러한 조직과의 페더레이션은 호스팅 공급자를 사용 하도록 설정할 때까지 작동 하지 않습니다.</li></ul>페더레이션 파트너가 직접 페더레이션을 사용 하거나 온라인 또는 하이브리드 조직과 페더레이션 되어 있다고 생각 되는 경우 클라우드로의 마이그레이션을 완료 하기 위해 준비할 때 이러한 정보를이에 대 한 통신으로 보내는 것이 좋습니다.
+이전 직접 페더레이션 모델 (허용 된 파트너 서버 라고도 함)을 사용 하는 모든 페더레이션 조직에서는 프록시 FQDN을 제거 하기 위해 조직에 대해 허용 되는 도메인 항목을 업데이트 해야 합니다. 이 레거시 페더레이션 모델은 DNS SRV 레코드를 기반으로 하지 않으므로 이러한 구성은 조직이 클라우드로 이동한 후에 최신 상태가 되지 않게 됩니다. </li><li>Sipfed.online.lync.com>에 대해 호스팅 공급자가 사용 하도록 설정 되지 않은 페더레이션 조직입니다. <span>com은 해당 구성을 사용 하도록 구성 해야 합니다. 이 상황은 페더레이션 조직이 전적으로 온-프레미스이 고 하이브리드 또는 온라인 테 넌 트와도 페더레이션 되지 않은 경우에만 가능 합니다. 이러한 경우 이러한 조직과의 페더레이션은 호스팅 공급자를 사용 하도록 설정할 때까지 작동 하지 않습니다.</li></ul>페더레이션 파트너가 직접 페더레이션을 사용 하 고 있거나 온라인 또는 하이브리드 조직과 페더레이션 되지 않은 것으로 의심 되는 경우 클라우드로의 마이그레이션을 완료 하기 위해 준비 하는 것과 관련 하 여이에 대 한 정보를 보내 드릴 것을 권장 합니다.
 
 1.  *Office 365를 가리키도록 DNS를 업데이트 합니다.*
 비즈니스용 Skype 레코드가 온-프레미스 배포 대신 Office 365를 가리키도록 온-프레미스 조직에 대 한 조직의 외부 DNS를 업데이트 해야 합니다. 특히 다음 사항에 유의합니다.
@@ -65,9 +65,10 @@ ms.locfileid: "43780147"
  
 3.  *온-프레미스에서 Office 365와 통신 하는 기능을 사용 하지 않도록 설정 합니다.*  
 아래 명령은 온-프레미스 PowerShell 창에서 수행 해야 합니다.
-```PowerShell
+
+    ```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
-```
+    ```
 
 ### <a name="manage-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>온-프레미스에서 마이그레이션된 사용자에 대 한 전화 번호 관리
 
