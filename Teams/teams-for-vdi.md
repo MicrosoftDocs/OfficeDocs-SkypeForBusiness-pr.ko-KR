@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903123"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940675"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -345,6 +345,7 @@ PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자
 - 수신 및 발신 비디오 스트림 해상도는 720p 해상도로 제한 됩니다. 이것은 WebRTC 제한 사항입니다.
 - 들어오는 카메라 또는 화면 공유 스트림의 비디오 스트림은 하나만 지원 됩니다. 들어오는 화면 공유가 있는 경우 해당 화면 공유는 주요 스피커의 비디오 대신 표시 됩니다.
 - 보내는 화면 공유:
+    - 채팅에서 화면 공유는 지원 되지 않습니다.
     - 응용 프로그램 공유가 지원 되지 않습니다.
 - 제어권을 부여 하 고 컨트롤을 사용 합니다.  
     - 화면 공유 또는 응용 프로그램 공유 세션 중에 지원 되지 않습니다.

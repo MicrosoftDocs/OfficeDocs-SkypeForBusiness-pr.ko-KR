@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: b870a15f885922563d8440d571dc5a6eb7ac7540
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170488"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940785"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트
 
@@ -59,7 +59,7 @@ Microsoft 365 또는 Office 365를 배포할 때 네트워크가 이미 준비�
 
 - Teams 모임을 처음 사용하는 사용자인 경우 [모임 관리](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) 교육을 사용자와 공유하세요. 강사 주도의 온라인 수업인 [Teams를 사용하여 효과적인 모임 실행](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings)을 확인하세요.
 
-- 모임 옵션 관리에 대한 자세한 내용은 [Teams 모임에 대한 참가자 설정 변경](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)을 참조하세요.
+- 모임 옵션 관리에 대한 자세한 내용은 [Teams 모임에 대한 참가자 설정 변경](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)을 참조하세요.
 
 - 휴대폰, 헤드셋, 카메라 등 [사용자 장치 관리](device-management.md)에 대해 잊지마세요. Teams 인증 장치에 대한 최신 정보를 얻으려면 [Teams 장치](https://office.com/teamsdevices)로 이동합니다.
 

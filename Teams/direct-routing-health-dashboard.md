@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 상태 대시보드를 사용 하 여 세션 경계 컨트롤러와 직접 라우팅 간의 연결을 모니터링 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051804"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940745"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>직접 라우팅에 대 한 상태 대시보드
 
@@ -55,7 +55,7 @@ Microsoft 팀 및 비즈니스용 Skype 관리 센터에서 상태 대시보드�
 
    NER 계산에 사용 되는 수식은 다음과 같습니다.
 
-   NER = 응답 하는 통화 + 사용자 사용 중 + 링 응답 없음 + 터미널 거부 발작 x 100
+   NER = 100 x (응답 통화 + 사용자 사용 중 + 반지 응답 없음 + 터미널 거부 발작)/총 통화
 
  
 - **평균 통화 기간** -평균 통화 시간에 대 한 정보는 통화 품질을 모니터링 하는 데 도움이 됩니다. 1:1 PSTN 통화의 평균 기간은 4 ~ 5 분입니다.  그러나 각 회사에 대해이 평균이 다를 수 있습니다.  Microsoft는 회사의 평균 통화 기간에 대 한 초기 계획을 설정 하는 것이 좋습니다. 이 매개 변수가 기준선 보다 크게 떨어지면 사용자에 게 통화 품질 또는 안정성 문제가 발생 하 여 평소 보다 이전 버전에 있는 것으로 표시 될 수 있습니다. 15 초와 같이 매우 낮은 평균 통화 시간을 표시 하기 시작 하면 서비스가 안정적으로 수행 되지 않으므로 호출자가 전화를 받을 수 있습니다. 

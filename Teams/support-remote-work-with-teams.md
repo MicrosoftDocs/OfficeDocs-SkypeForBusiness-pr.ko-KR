@@ -17,12 +17,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 98570e5ee634781467c373bebf1ec1fa4dc97e6d
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506849"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940715"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -78,7 +78,7 @@ ms.locfileid: "43506849"
    - [Microsoft IT가 직원들의 원격 작업을 가능하게하는 9가지 방법](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
-1. 교육용 Teams
+1. 교육용 Teams 
    - 교육 기관에서 일하고 Teams에 교사, 학생 및 관리자를 설정하려면 Office 365 A1을 사용하세요. 이 무료 버전의 Office 365는 모든 교육 기관에서 사용할 수 있습니다. [전체 학교에서 무료로 Office 365 사용](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)에서 가입하세요.
 
    - [Teams에서 원격 학습 시작하기](remote-learning-edu.md)를 놓치지 마세요.

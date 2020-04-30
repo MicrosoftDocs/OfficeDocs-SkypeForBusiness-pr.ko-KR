@@ -20,12 +20,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
-ms.openlocfilehash: 655de2414203525d305c0097ba9301e2ef513f87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 389262df9117e07eefa1c78d6fd255bfc437fdad
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903113"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940655"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -49,10 +49,11 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 |오디오 코드 C448HD (CAP 모드에만 해당) | C450HD_TEAMS_0.225 | 2019 년 3 월|
 |M100에서 crestron|2.3875.00068|2018 년 12 월|
 |Flex UC에서 crestron P100-T & UC-P110-T  | 58.15.91.6 |2019 년 1 월|
-|Poly Trio 8500/8800 (공유 모드에만 해당)| 5.9.0.10869|2019 년 6 월|
+|Lenovo ThinkSmart View|CD-18781Y 200410.067|2020 년 4 월|
 |Poly CCX400 | 1.0.0.0200 | 2020 년 1 월|
 |Poly CCX600 | 5.9.12.1111| 2020 년 1 월|
 |Poly CCX500 | 5.9.12.1111| 2019 년 12 월|
+|Poly Trio 8500/8800 (공유 모드에만 해당)| 5.9.0.10869|2019 년 6 월|
 |옛 alink MP56| 122.15.0.6| 2020 년 3 월|
 |옛 alink VP59 | 91.15.0.16 |2019 년 6 월|
 |옛 alink T55 | 58.15.0.36 |2019 년 5 월|

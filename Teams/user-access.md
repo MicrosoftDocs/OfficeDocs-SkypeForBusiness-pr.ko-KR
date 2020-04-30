@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10485fd7f04cfae675ea38967389851d4d72be90
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 823038671ac03669808e8a3dec5d065a60682b19
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903353"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940615"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft 팀에 대 한 사용자 액세스 관리
 =====================================
@@ -53,7 +53,7 @@ E3 또는 E5와 같은 라이선스 SKU가 사용자에 게 할당 되 면 Micro
 ## <a name="manage-via-powershell"></a>PowerShell을 통해 관리
 
 > [!IMPORTANT]
-> MsolLicenseOptions는 사용자 지정 된 스크립트에서 명시적으로 식별 하지 않는 한 이전에 비활성화 한 모든 서비스를 사용 하도록 설정 합니다. 예를 들어, 더 이상 팀을 사용 하지 않도록 설정 하는 동안 Exchange & Sway를 모두 사용 하지 않도록 설정 하려면 스크립트에이를 포함 하거나 Exchange & 모두 사용자가 확인 하 여 Sway를 사용할 수 있도록 설정 해야 합니다. GUI를 사용 하 여이 기능을 관리 하려면 [Office 365 라이선스 보고 및 관리 도구-자세한 내용은 라이선스 제거를 대량으로 할당](https://gallery.technet.microsoft.com/Office365-License-cfd9489c) 을 참조 하세요.
+> MsolLicenseOptions는 사용자 지정 된 스크립트에서 명시적으로 식별 하지 않는 한 이전에 비활성화 한 모든 서비스를 사용 하도록 설정 합니다. 예를 들어, 더 이상 팀을 사용 하지 않도록 설정 하는 동안 Exchange & Sway를 모두 사용 하지 않도록 설정 하려면 스크립트에이를 포함 하거나 Exchange & 모두 사용자가 확인 하 여 Sway를 사용할 수 있도록 설정 해야 합니다.
 
 다른 작업을 수행 하는 것 처럼 PowerShell을 통해 팀을 작업 부하 라이선스로 사용 하지 않도록 설정할 수 있습니다. Microsoft 팀에 대 한 서비스 계획 이름은 TEAMS1입니다. GCC의 경우 서비스 계획 이름은 TEAMS_GOV입니다. GCC High의 경우 서비스 계획 이름은 TEAMS_GCCHIGH입니다. DoD의 경우 서비스 계획 이름이 TEAMS_DOD 합니다 (자세한 내용은 [Office 365 PowerShell을 사용 하 여 서비스에 대 한 액세스 비활성화](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) 를 참조 하세요.)
 

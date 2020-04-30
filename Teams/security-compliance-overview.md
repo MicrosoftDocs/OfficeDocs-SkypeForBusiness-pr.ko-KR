@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3f26f286fa3f8418df93d6498b8c754c857785
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 77f8172e19ff4ca9e2057da50dee9f42ef443ae2
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901723"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940645"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -191,9 +191,9 @@ Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니
 
 ## <a name="compliance-standards"></a>준수 표준
 
-팀은 계층 D 규격입니다. 여기에는 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 soc 1, Soc 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)및 [EU 모델 절 (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)이 포함 됩니다. Microsoft 규정 준수 프레임 워크 내에서 Microsoft는 Office 365 응용 프로그램 및 서비스를 네 가지 범주로 분류 합니다. 각 범주는 해당 범주에 나열 되는 Office 365 서비스 또는 관련 Microsoft 서비스에 대해 충족 해야 하는 특정 준수 약정에 의해 정의 됩니다.
+팀은 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 soc 1 및 Soc 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)및 [EU 모델 절 (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)표준을 사용 합니다. Microsoft 규정 준수 프레임 워크 내에서 Microsoft는 Office 365 응용 프로그램 및 서비스를 네 가지 범주로 분류 합니다. 각 범주는 해당 범주에 나열 되는 Office 365 서비스 또는 관련 Microsoft 서비스에 대해 충족 해야 하는 특정 준수 약정에 의해 정의 됩니다.
 
-규정 준수 범주에서 업계 선두적인 규정 준수 약정을 갖는 서비스는 기본적으로 사용 하도록 설정 되어 있습니다. 범주 A 및 B의 서비스는 전체 조직에 대해 이러한 서비스를 설정 하거나 해제 하는 컨트롤과 함께 사용 됩니다. 세부 정보는 [준수 표준](security-compliance-overview.md#compliance-standards)에서 찾을 수 있습니다. 또한 팀은 클라우드 보안 동맹 준수를 지원 합니다.
+세부 정보는 [데이터 보호 리소스](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)에서 찾을 수 있습니다. 또한 팀은 클라우드 보안 동맹 준수를 지원 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

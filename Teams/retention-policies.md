@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams의 보존 정책
 author: LanaChin
-ms.author: v-lanac
-manager: serdars
+ms.author: anwara
+manager: prvijay
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -17,18 +17,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dde12e5197031cd768cecf539ae2213f2a5b4d92
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905470"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940775"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
 보존 정책은 조직에서 정보를 더 효과적으로 관리하는 데 도움이 됩니다. 보존 정책을 사용하여 조직의 내부 정책, 업계 규제 또는 법적 요구 사항을 준수하는 데 필요한 데이터를 유지하고, 책임으로 간주되거나, 더 이상 유지할 필요가 없거나 또는 법적 혹은 비즈니스적 가치가 없는 데이터를 삭제합니다.
 
-기본적으로 Teams 채팅, 채널 및 파일 데이터는 영구적으로 유지됩니다. 관리자는 채팅 및 채널 메시지에 대한 Teams 보존 정책을 설정하고 데이터의 보존, 삭제 또는 일정 기간동안 보존 후 삭제 여부를 사전에 결정할 수 있습니다.
+보존 정책, 사용자 삭제, 관리자 삭제 등을 통해 콘텐츠를 삭제 하려고 하지 않는 한 기본적으로 팀 채팅, 채널 및 파일 데이터는 영구적으로 유지 됩니다. 관리자는 채팅 및 채널 메시지에 대 한 팀 보존 정책을 설정 하 고 데이터 유지, 삭제 또는 특정 기간 동안 보존 하도록 사전에 결정 하 고 삭제할 수 있습니다.
 
 [Microsoft 365 준수 센터](https://protection.office.com/) 에서 팀과 기타 작업 부하에 대 한 보존 정책을 만들고 관리 하거나 보안 & 준수 센터 PowerShell cmdlet을 사용 합니다. Teams 보존 정책을 전체 조직 또는 특정 사용자 및 팀에 적용할 수 있습니다.
 
