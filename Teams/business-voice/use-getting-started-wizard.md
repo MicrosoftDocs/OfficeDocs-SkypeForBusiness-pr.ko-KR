@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95ad893b3070a560edfa0e4afe46ab10df2960ad
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096883"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898133"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>시작 마법사를 사용하여 Business Voice 설정하기
 
@@ -49,7 +49,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
 
 <table>
     <tr>
-        <td>긴급 주소를 변경하려면 <b>편집</b>을 클릭하고 새 주소를 입력합니다. 입력하는 주소는 긴급 대응 서비스에 적절하며 형식이 올바른지 확인을 거칩니다. 그런 다음 이 주소는 다음 단계에서 번호를 할당한 모든 사용자에게 할당됩니다. 둘 이상의 위치에 직원이 있는 경우 시작 마법사를 준비한 후 더 많은 긴급 주소를 추가하고 할당하려면 <a href="./customize-business-voice.md">Business Voice 디자인 사용자 지정</a>을 참조하세요.</td> 
+        <td>긴급 주소를 변경하려면 <b>편집</b>을 클릭하고 새 주소를 입력합니다. 입력하는 주소는 긴급 대응 서비스에 적절하며 형식이 올바른지 확인을 거칩니다. 그런 다음 이 주소는 다음 단계에서 번호를 할당한 모든 사용자에게 할당됩니다. 둘 이상의 위치에 직원이 있는 경우 시작 마법사를 준비한 후 더 많은 긴급 주소를 추가하고 할당하려면 <a href="./customize-business-voice.md">Business Voice 디자인 사용자 지정</a>을 참조하세요.</td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
 </table>
 
@@ -59,7 +59,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
 
 <table>
     <tr>
-        <td>새 현지 전화번호 외에도 무료 전화 번호를 구입하거나 기존 번호를 Microsoft 365로 이식할 수 있습니다. 무료 전화 번호를 설정하려면 통화 플랜을 구입해야 합니다. 하나 이상의 번호를 Microsoft 365로 이식하려면 마법사가 완료된 후 <a href="https://admin.teams.microsoft.com">팀 관리 센터</a>로 이동합니다.
+        <td>새 현지 전화번호 외에도 무료 전화 번호를 구입하거나 기존 번호를 Microsoft 365로 이식할 수 있습니다. 무료 전화 번호를 설정하려면 커뮤니케이션 크레딧을 구입해야 합니다. 하나 이상의 번호를 Microsoft 365로 이식하려면 마법사가 완료된 후 <a href="https://admin.teams.microsoft.com">팀 관리 센터</a>로 이동합니다.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>

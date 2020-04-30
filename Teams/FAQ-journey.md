@@ -14,18 +14,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44544e440d9f6cdfff08ae66ed7f425abf69fb4d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 595d8104e465217533a8e751eae69156cb548921
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136538"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902953"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 
@@ -164,7 +164,7 @@ Teams는 모든 Office 365의 교육 제품군 라이센싱에 사용 가능합�
 
 ### <a name="is-teams-available-in-the-government-community-cloud-gcc"></a>정부 커뮤니티 클라우드에서도(GCC) Teams를 사용할 수 있나요?
 
-예. Teams는 미국 정부 클라우드 커뮤니티(GCC)에서도 사용 가능합니다. [자세한 정보](plan-for-government-gcc.md).
+예. Teams는 미국 정부 클라우드 커뮤니티(GCC)에서도 사용 가능합니다. 자세한 내용은 [Microsoft 365 GCC 배포 계획](plan-for-government-gcc.md)을 참조하세요.
 
 ## <a name="calling-capabilities"></a>통화 기능
 
@@ -204,7 +204,7 @@ Teams에서 제3자 오디오 회의 공급자(ACP)를 지원할 계획은 없�
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>Teams 모임을 지원하기 위해 Skype 룸 시스템 v1이 업데이트되나요?
 
-Skype 룸 시스템 버전 1(SRS v1) 소프트웨어를 갖춘 Lync 룸 시스템(LRS) 장치의 지원은 2018년 10월 9일에 종료되었습니다. 즉, Skype 룸 시스템 v1 소프트웨어는 더 이상 제품 업데이트나 수정을 지원받지 않습니다. Skype 룸 시스템 v1 소프트웨어를 갖춘 Lync 룸 시스템 장치를 사용하는 고객은 해당 장치를 Microsoft Teams 룸으로 업그레이드할 것을 권장합니다. [자세히 알아보기](rooms/lrs-migration.md).
+Skype 룸 시스템 버전 1(SRS v1) 소프트웨어를 갖춘 Lync 룸 시스템(LRS) 장치의 지원은 2018년 10월 9일에 종료되었습니다. 즉, Skype 룸 시스템 v1 소프트웨어는 더 이상 제품 업데이트나 수정을 지원받지 않습니다. Skype 룸 시스템 v1 소프트웨어를 갖춘 Lync 룸 시스템 장치를 사용하는 고객은 해당 장치를 Microsoft Teams 룸으로 업그레이드할 것을 권장합니다. 자세한 내용은 [Lync 회의실 시스템(LRS) 장치를 Microsoft Teams 회의실로 마이그레이션](rooms/lrs-migration.md)을 참조하세요.
 
 ## <a name="management-capabilities"></a>관리 기능
 

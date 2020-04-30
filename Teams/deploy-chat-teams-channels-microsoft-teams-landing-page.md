@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Microsoft Teams에서의 채팅, 팀, 채널 및 앱을 배포하기 위한 단계별 지침
+description: 조직의 프로필 및 비즈니스 요구 사항에 따라 Microsoft Teams에서 채팅, 팀, 채널 및 앱을 롤아웃하기 위한 단계별 지침.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,13 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082cde04ad29ba0d1af68bb02f851d87197d7407
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+ms.openlocfilehash: 1f503bbfbc582fc3713a9f40e435382772e7ab63
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776573"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901943"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 

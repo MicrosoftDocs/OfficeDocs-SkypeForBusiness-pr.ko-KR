@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서의 모임 및 회의
 ms.reviewer: ''
-description: 다음 배포 리소스를 사용하여 Microsoft Temas에서 모임을 배포하는 데 도움을 줄 수 있습니다.
+description: 다음 배포 리소스를 사용하여 Microsoft Temas에서 모임과 오디오 회의을 배포하는 데 도움을 줄 수 있습니다.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,12 +18,13 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aee2a4a8e17480be9eb99b4504ef6967e6b2bb3
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: a9cd648d3daf9651c2fc3ff4cec70525c9af24df
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190860"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901903"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 모임 및 회의
 

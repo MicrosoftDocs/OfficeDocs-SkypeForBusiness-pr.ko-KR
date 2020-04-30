@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 최신 인증을 사용하여 Microsoft Teams에 로그인하는 방법 사용자가 Windows에 UPN을 무시하도록 지시하는 설정을 사용하여 로그인할 때 UPN 사용자 이름 추가를 자동으로 건너뛰는 방법이 포함되어 있습니다.
+description: 최신 인증의 작동 원리, 계정을 전환하는 방법, 최신 인증 문제를 해결하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,13 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e61b1cb79b7c4e2989d823af2c6617337291cf6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 43bbb3018b1c0cbe9f225a8a78acd4007b9232c2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138897"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903733"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용하여 Microsoft Teams에 로그인
 ==========================

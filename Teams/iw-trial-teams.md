@@ -9,20 +9,20 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Microsoft Teams 라이선스가 없는 Microsoft 365 또는 Office 365 사용자는 Teams 1년 평가판을 시작할 수 있습니다.
+description: Microsoft Teams 라이선스가 없는 Microsoft 365 또는 Office 365 사용자는 Teams 1년 평가판을 시작하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6a0ad5cf058b8dcc5567cfc706ed3edb2cc09adf
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5f8735cc328f06fd612fb86e292bc4291b99e21f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778354"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904533"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams 상용 클라우드 평가판 관리
 =======================================================

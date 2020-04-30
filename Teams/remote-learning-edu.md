@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756059aaf7a707a824c75bd0306df04a70b66829
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d380300aa27d07ecfecdbe805be9042c88779285
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780567"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898163"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -76,6 +76,9 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 팀을 만드는 방법은 [Microsoft Teams에서 수업 만들기를](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) 참조 하세요.
 
 ### <a name="2-configure-user-experiences-using-policies"></a>2. 정책을 사용하여 사용자 환경 구성
+
+> [!IMPORTANT]
+> 모임 중 학생들을 보호하는 방법에 대해 더 알아야 한다면 [원격 수업용 Teams에서 모임을 통해 학생 안전하게 지키기를](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) 확인하세요.
 
 [Teams 정책](teams-policies.md)에서는 특정 사용자 또는 사용자 그룹에 대해 제공되는 옵션을 제어할 수 있습니다. 비공개 채팅, 비공개 통화, 모임 예약, 공유할 수 있는 콘텐츠 형식 등을 사용할 수 있는 사용자를 정의하는 정책을 적용할 수 있습니다.
 
@@ -156,8 +159,6 @@ Teams에서 모임 조직자는 모든 참여자에 대한 모임을 종료할 �
 
 > [!NOTE]
 > 몇 가지 핵심 Teams 기능은 교육에 국한되지 않습니다. 핵심 Teams 기능에 대한 팁과 트릭은 [Teams 도움말 및 학습](https://support.office.com/teams)에서 찾을 수 있습니다.
-
-모임 중 학생들을 보호하는 방법에 대해 더 알아 보려면 [원격 수업용 Teams에서 모임을 통해 학생 안전하게 지키기를](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) 확인하세요.
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>사용자가 자신의 프로필 사진을 변경하지 못하게 하려면 다음을 수행합니다.
 

@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: lolaj
-description: Microsoft Teams에서 첫 번째 팀과 채널 집합을 만드는 방법을 알아봅니다.
+description: Microsoft Teams 클라이언트 또는 Microsoft Teams 관리 센터에서 첫 번째 팀과 채널 세트를 작성하는 방법에 대해 알아봅니다.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -16,13 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 79fc1bc2a415ae59cd581f7fdde11be8972311a2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 1387d81c8ed54868f83f2439ec8f4db91505b3be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136798"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904653"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams에서 첫 번째 팀과 채널 만들기
 

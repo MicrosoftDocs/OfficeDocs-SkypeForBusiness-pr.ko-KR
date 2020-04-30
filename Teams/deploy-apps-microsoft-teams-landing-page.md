@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams의 앱, 봇 및 커넥터
 ms.reviewer: ''
-description: 다음 배포 리소스를 사용하여 Microsoft에서 앱을 배포하는 데 도움을 주세요.
+description: 앱, 인공 지능 및 커넥터에 대해 알아보고 조직의 프로필 및 비즈니스 요구 사항에 따라 Microsoft Teams에서 배포할 대상을 결정하는 방법에 대해 알아봅니다.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 83e5c452cd2e9056818059c5f0b1ddcdeca2c235
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776623"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901953"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams의 앱, 봇 및 커넥터
 
