@@ -4,7 +4,7 @@ ms.topic: hub-page
 title: 사용자를 위한 강사 진행 교육 및 비디오
 ms.reviewer: dearbeen
 manager: serdars
-description: 강사 진행 수업에 등록하여 Microsoft Teams에 관한 모든 것을 알아보세요.
+description: 무료로 진행되는 강사 주도형 교육 과정에 등록하여 Microsoft Teams에 대한 모든 정보를 얻을 수 있는 방법에 대해 알아보세요.
 localization_priority: Priority
 author: lolajacobsen
 audience: admin
@@ -14,17 +14,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: 43d7c47379c6645ca25da4974e0b08f0e4444faa
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4808fecfa53a4d1e825d2b2f04d7d6b7b53d3866
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137128"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905790"
 ---
 <div id="main" class="v2">
     <div class="container">
