@@ -9,18 +9,19 @@ ms.service: msteams
 audience: admin
 description: 이 PowerShell 스크립트 샘플을 사용 하 여 Microsoft 팀의 직접 라우팅 세션 경계 컨트롤러 연결을 테스트 합니다.
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-voice
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 344bf59d401e43c40c6f643b334c2f34311d6cbe
-ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
+ms.openlocfilehash: 43d1514eff811461ac8b6ad73f7c2a215205f4e3
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43116694"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951263"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>직접 라우팅 세션 경계 컨트롤러 연결을 테스트 하기 위한 PowerShell 스크립트
 

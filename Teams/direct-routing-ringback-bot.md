@@ -11,16 +11,17 @@ f1.keywords:
 - NOCSH
 description: Ringback 봇을 사용 하 여 통화를 설정할 때 발생할 수 있는 예기치 않은 silences 방지 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9ee3f227faa736d7fdda3ebedc755c8ac5049d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1db113a610c153f821a0d92187744e6ca34e3ce3
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834998"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951193"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>직접 라우팅에 대 한 Ringback 봇 설정
 
@@ -43,4 +44,4 @@ Ringback bot를 끄려면 **GenerateRingingWhileLocatingUser** 매개 변수를 
 
 ## <a name="related-topics"></a>관련 항목
 
-- [팀 PowerShell 개요](teams-powershell-overview.md)
+- [Teams PowerShell 개요](teams-powershell-overview.md)

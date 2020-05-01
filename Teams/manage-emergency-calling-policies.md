@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 긴급 전화 정책을 사용 하 고 관리 하 여 조직의 팀 사용자가 긴급 통화를 할 때 수행할 작업을 정의 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 62a6314435aa3af44d0c44ab6a6790212c62d8de
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905110"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952437"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 정책 관리
 
@@ -42,9 +42,10 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 2. **추가**를 클릭 합니다.
 3. 정책의 이름과 설명을 입력합니다.
 4. 긴급 통화가 이루어질 때 조직의 사용자에 게 일반적으로 보안 데스크에 알리는 방법을 설정 합니다. 이렇게 하려면 **알림 모드**에서 다음 중 하나를 선택 합니다.
-    - **알림만**: 지정 된 사용자 및 그룹에 게 팀 채팅 메시지가 전송 됩니다.
+    - **알림만 보내기**: 팀 채팅 메시지가 지정 된 사용자 및 그룹에 게 전송 됩니다.
     - **Conferenced에는 있지만 음소거 되어**있습니다. 지정 하는 사용자 및 그룹에 팀 채팅 메시지가 전송 되며, 호출자와 psap 연산자 간에 대화에 참여 하지 않고이를 수신할 수 있습니다.
-5.  **Conferenced in (음소거 됨** 알림 모드)을 선택한 경우에는 **알림 전화 접속 번호** 상자에서 사용자 또는 그룹의 PSTN 전화 번호를 입력 하 여 비상 전화를 걸거나 받을 수 있습니다. 예를 들어 조직의 보안 데스크 번호를 입력 하 고, 긴급 통화를 할 때 전화를 받을 수 있으며, 전화를 걸거나이에 참가할 수 있습니다.
+    - **Conferenced는 음소거 됨** **(곧 출시 예정)**: 지정 된 사용자 및 그룹에 게 팀 채팅 메시지를 보내고,이를 수신 대기 하도록 음소거 해제 하 고 호출자와 psap 연산자 간에 대화에 참여할 수 있습니다.
+5.  **Conferenced in (음소거 됨** 알림 모드)을 선택한 경우에는 **알림 전화 접속 번호** 상자에서 사용자 또는 그룹의 PSTN 전화 번호를 입력 하 여 비상 전화를 걸거나 받을 수 있습니다. 예를 들어, 긴급 통화를 할 때 전화를 받을 수 있는 조직의 보안 데스크 번호를 입력 하 고 통화를 수신 대기 하 게 됩니다.
 6. 조직의 보안 데스크와 같은 하나 이상의 사용자 또는 그룹을 검색 하 고 선택 하 여 긴급 통화가 발생 한 경우 알립니다.  알림은 사용자, 메일 그룹, 보안 그룹의 전자 메일 주소로 보낼 수 있습니다. 최대 50 명의 사용자에 게 알림을 보낼 수 있습니다.
 7. **저장**을 클릭합니다.
 
@@ -100,15 +101,15 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 > 먼저 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)의 단계를 따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
 
 특정 그룹의 GroupObjectId를 가져옵니다.
-```
+```powershell
 $group = Get-AzureADGroup -SearchString "Contoso Operations"
 ```
 지정 된 그룹의 구성원을 가져옵니다.
-```
+```powershell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 특정 팀 정책에 그룹의 모든 사용자를 할당 합니다. 이 예제에서는 운영 긴급 통화 라우팅 정책입니다.
-```
+```powershell
 $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
@@ -119,11 +120,11 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
 
 다음 예제에서는 Site1 사이트에 Contoso 비상 통화 정책 1 이라는 정책을 할당 하는 방법을 보여 줍니다.
 
-    ```
-    Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
-    ```
+```powershell
+Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
+```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [팀에서 긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

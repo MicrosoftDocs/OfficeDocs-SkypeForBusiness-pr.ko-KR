@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227552"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952447"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 
@@ -153,8 +153,12 @@ CQD Power BI 커넥터는 생성할 수 있는 쿼리 종류의 측면에서 브
 
 **<sup>2</sup>** CQD에 사용 하는 로그인 자격 증명은 Power BI Desktop app 자체에 로그인 하는 데 사용 하는 자격 증명과 같을 필요는 *없습니다* .
 
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
+### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Power BI 커넥터를 "베타" 상태에서 업데이트 해야 하는 경우
 
-## <a name="related-topics"></a>관련 항목
+Beta 태그에는 불구 하 고 Power BI 용 통화 음질 커넥터는 해당 커넥터의 릴리스 버전이 며, Power BI 팀이이를 반영 하도록 서명 된 공식적 보안입니다. 해당 베타 태그를 제거 하는 인증 프로세스는 광범위 한 기능 이므로 Power BI 팀에서 커넥터에 대 한 직접 지원을 제공 해야 합니다. 시간 제약으로 인해 현재 Power BI 팀은 지원 및 광범위 한 인증을 제공할 수는 없지만 Microsoft 통화 품질 커넥터의 보안, 인증, 일반 기능을 증명할 준비가 되어 있습니다.
+
+## <a name="related-topics"></a>관련 주제
 
 [Power BI를 사용 하 여 팀에 대 한 CQD 데이터 분석](CQD-Power-BI-query-templates.md)

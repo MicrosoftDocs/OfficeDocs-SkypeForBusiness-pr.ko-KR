@@ -17,12 +17,12 @@ description: 법률 소송 절차에 대해 전자적으로 저장 된 모든 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918586"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950893"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft 팀의 콘텐츠 eDiscovery 조사 수행
 
@@ -38,9 +38,9 @@ ms.locfileid: "43918586"
 
 | 콘텐츠 형식 | eDiscoverable 가능 | 상속자 |
 |:--- | --- |:--- |
-| 팀 채팅 메시지 | 예 | 게스트 사용자가 1:1 또는 1의 유일한 참가자 인 채팅의 채팅 메시지: N 채팅은 eDiscoverable 수 없습니다. |
+| 팀 채팅 메시지 | 예 |  |
 | 오디오 녹음 | 아니요 | |
-| 개인 채널 메시지 | 아니요 | |
+| 개인 채널 메시지 | 예 | |
 | Emojis, Gif, 스티커 | 예 | |
 | 코드 조각 | 아니요 | |
 | 채팅 링크 | 예 | |
@@ -213,7 +213,7 @@ Microsoft에서 제공 하는 Azure blob 저장소 컨테이너로 내보내기�
 > [!NOTE]
 > 내보내기에 오랜 시간이 걸릴 수 있습니다. 내보내기 프로세스의 상태를 추적 하려면 **검토 집합** 탭을 종료 하 고 **내보내기** 탭을 클릭 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Microsoft 365의 eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
 - [팀 PowerShell 개요](teams-powershell-overview.md)

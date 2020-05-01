@@ -11,16 +11,17 @@ description: 이 PowerShell 스크립트를 사용 하 여 팀 구성원으로 �
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e878ad25b2f0fa469633f11c0a003e245094934
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: cd7f638d8023595de3f3526376e3ce46c37dcff2
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796214"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951033"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell 스크립트 샘플-새 피플 manager 팀 만들기
 

@@ -10,18 +10,19 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: PowerShell cmdlet을 구성 하는 방법을 포함 하 여 Microsoft 팀을 관리 하기 위해 PowerShell 컨트롤을 사용 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e95b3ab5bdb2b13dbd4c37eca413c865f54fde94
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 32370c234e46b860ab026efd6b284d3db3a1458e
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903043"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951253"
 ---
 # <a name="teams-powershell-overview"></a>팀 PowerShell 개요
 

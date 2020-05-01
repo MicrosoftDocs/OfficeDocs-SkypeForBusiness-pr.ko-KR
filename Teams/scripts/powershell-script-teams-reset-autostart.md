@@ -11,16 +11,17 @@ description: 이 PowerShell 스크립트를 사용 하 여 사용자 기준으�
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16d0c9270cfa387c10d1c3e4b05ac5bb1d5f3f0a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: be1073d628f137b4c2063849bcdab413ce0d2b87
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780537"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951043"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 스크립트 샘플-팀에서 자동 시작 설정을 다시 설정 합니다.
 
@@ -146,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [MSI를 사용하여 Teams 설치](../msi-deployment.md)
 - [엔터프라이즈 용 Microsoft 365 앱을 사용 하 여 팀 배포](https://docs.microsoft.com/deployoffice/teams-install)

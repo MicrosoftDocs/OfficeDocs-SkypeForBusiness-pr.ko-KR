@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +22,12 @@ ms.reviewer: islubin
 description: 관리 역할을 사용 하 여 팀을 관리 하는 데 다른 수준의 액세스가 필요한 관리자를 지정 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77ba123afadb3c5b5070d9c6a074d855ee8eab3e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 3917e64f7c50ad51d2b9f9fca48bedf0f4a96c66
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905150"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951073"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft 팀 관리자 역할을 사용 하 여 팀 관리
 
@@ -74,7 +75,7 @@ Azure AD에서 이러한 역할에 사용자를 할당할 수 있습니다. Azur
    c. **Get 모듈** 을 사용 하 여 가져온 세션의 이름 (임의로 생성 되는 이름)을 식별 합니다.<br>
 3. > 위의 **Get-Command-Module** <*name* 을 사용 하 여 사용 가능한 모든 cmdlet을 식별 합니다.
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 
 - [Microsoft 팀 PowerShell 개요](teams-powershell-overview.md)
 - [Microsoft 팀 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
