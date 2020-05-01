@@ -11,27 +11,28 @@ description: 이 PowerShell 스크립트를 사용 하 여 팀 구성원으로 �
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e878ad25b2f0fa469633f11c0a003e245094934
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: cd7f638d8023595de3f3526376e3ce46c37dcff2
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796214"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951033"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="bfbd2-103">PowerShell 스크립트 샘플-새 피플 manager 팀 만들기</span><span class="sxs-lookup"><span data-stu-id="bfbd2-103">PowerShell script sample - Create new people manager teams</span></span>
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="12c3e-103">PowerShell 스크립트 샘플-새 피플 manager 팀 만들기</span><span class="sxs-lookup"><span data-stu-id="12c3e-103">PowerShell script sample - Create new people manager teams</span></span>
 
-<span data-ttu-id="bfbd2-104">이 PowerShell 스크립트를 사용 하 여 팀 구성원으로 해당 하는 각 관리자의 팀을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="bfbd2-105">이 스크립트를 실행 하기 전에 [관리자](powershell-script-create-teams-from-managers-export-managers.md) 스크립트를 실행 하 여 Active Directory에서 관리자 목록과 조직에 대 한 해당 사용자의 상태를 내보냅니다.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
+<span data-ttu-id="12c3e-104">이 PowerShell 스크립트를 사용 하 여 팀 구성원으로 해당 하는 각 관리자의 팀을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="12c3e-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="12c3e-105">이 스크립트를 실행 하기 전에 [관리자](powershell-script-create-teams-from-managers-export-managers.md) 스크립트를 실행 하 여 Active Directory에서 관리자 목록과 조직에 대 한 해당 사용자의 상태를 내보냅니다.</span><span class="sxs-lookup"><span data-stu-id="12c3e-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
 
-<span data-ttu-id="bfbd2-106">이 PowerShell 스크립트에 대 한 자세한 내용은 [사용자 관리 팀 만들기](../create-manager-directs-teams.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="12c3e-106">이 PowerShell 스크립트에 대 한 자세한 내용은 [사용자 관리 팀 만들기](../create-manager-directs-teams.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="12c3e-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="bfbd2-107">PowerShell을 처음 사용 하는 경우 시작 하는 데 도움이 필요한 경우 [Azure PowerShell 개요](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="12c3e-107">PowerShell을 처음 사용 하는 경우 시작 하는 데 도움이 필요한 경우 [Azure PowerShell 개요](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="12c3e-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="create-new-people-manager-teams"></a><span data-ttu-id="bfbd2-108">새 피플 manager 팀 만들기</span><span class="sxs-lookup"><span data-stu-id="bfbd2-108">Create new people manager teams</span></span> 
+## <a name="create-new-people-manager-teams"></a><span data-ttu-id="12c3e-108">새 피플 manager 팀 만들기</span><span class="sxs-lookup"><span data-stu-id="12c3e-108">Create new people manager teams</span></span> 
 
 ```powershell
 <# 
