@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 10746605895732af19a43ffb85df06a81ae34316
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240638"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997249"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
 
@@ -51,7 +51,7 @@ PATCH /teams/<team_id>
 
 관리자는 Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 조직에서 개인 채널을 만들 수 있는 사용자를 제어 하는 정책을 설정할 수 있습니다.
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 팀 정책을 사용 하 여 조직에서 개인 채널을 만들 수 있는 사용자를 설정 합니다. 자세히 알아보려면 [팀에서 팀 정책 관리](teams-policies.md)를 참조 하세요.
 
@@ -68,7 +68,7 @@ PATCH /teams/<team_id>
 ### <a name="using-powershell"></a>PowerShell 사용
 
 ```PowerShell
-New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
+New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
 ```
 
 ### <a name="using-graph-api"></a>그래프 API 사용
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>팀의 모든 개인 채널에 대 한 SharePoint Url 찾기
 
-개인 채널의 파일에 대해 eDiscovery 또는 보관을 수행 하려는 경우 또는 특정 개인 채널에 파일을 배치 하는 lob (기간 업무) 앱을 빌드 하려는 경우 각 개인 채널에 대해 생성 되는 고유한 SharePoint 사이트 모음을 쿼리 하는 방법이 필요 합니다.
+개인 채널의 파일에 대해 eDiscovery 또는 보관을 수행 하려는 경우 또는 특정 개인 채널에 파일을 배치 하는 사용자 지정 앱을 빌드 하려는 경우 각 개인 채널에 대해 생성 되는 고유한 SharePoint 사이트 모음을 쿼리 하는 방법을 원하는 경우를 원할 것입니다.
 
 관리자는 PowerShell 또는 Graph Api 명령을 사용 하 여 이러한 Url을 쿼리할 수 있습니다.
 
@@ -106,7 +106,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “<group_id>"
+    $groupID = "<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
     $site.url -Detail; if ($x.RelatedGroupId -eq $groupID)
     {$x.RelatedGroupId;$x.url}}
@@ -236,7 +236,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
           ]
     }
     ```    
-2.  다음을 사용 하 여 구성원을 소유자로 승격 &lt;합니다 (group_id&gt;, &lt;channel_id&gt;, &lt;id&gt; 는 이전 호출에서 반환 됩니다. 이전 호출 &lt;에서&gt; 반환 &lt;된&gt; id와 userId는 같지 않으며 호환 되지 않습니다. Id &lt;&gt;를 사용 하 고 있는지 확인 합니다.
+2.     다음을 사용 하 여 구성원을 소유자로 승격 &lt;합니다 (group_id&gt;, &lt;channel_id&gt;, &lt;id&gt; 는 이전 호출에서 반환 됩니다. 이전 호출 &lt;에서&gt; 반환 &lt;된&gt; id와 userId는 같지 않으며 호환 되지 않습니다. Id &lt;&gt;를 사용 하 고 있는지 확인 합니다.
 
     **요청당**
 

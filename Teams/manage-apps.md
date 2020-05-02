@@ -17,12 +17,12 @@ description: Microsoft 팀 관리 센터의 앱 관리 페이지에서 팀 앱�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5e261dfd6f23ec298e354a7732a9a1afa9d6b22e
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ea73b460fee758a45f19d6acbd5ff8172e2b8304
+ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170556"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "44006044"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 앱 관리
 ======================================================
@@ -53,13 +53,13 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱** > 으로**앱
 
 ## <a name="upload-a-new-app"></a>새 앱 업로드
 
-앱 카탈로그를 사용 하 여 조직에 맞게 특별히 작성 된 lob (기간 업무) 응용 프로그램을 테스트 하 고 배포할 수 있습니다. 팀 앱 패키지는 [팀 앱 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)를 사용 하 여 만듭니다. 앱 패키지를 사용 하는 경우 앱 카탈로그에 추가할 수 있습니다. 조직의 모든 사용자가 앱 카탈로그를 볼 수 있지만, 전역 관리자 및 팀 서비스 관리자만이를 게시 하 고 관리할 수 있습니다.
+앱 카탈로그를 사용 하 여 조직에 맞게 특별히 작성 된 사용자 지정 응용 프로그램을 테스트 하 고 배포할 수 있습니다. 팀 앱 패키지는 [팀 앱 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)를 사용 하 여 만듭니다. 앱 패키지를 사용 하는 경우 앱 카탈로그에 추가할 수 있습니다. 조직의 모든 사용자가 앱 카탈로그를 볼 수 있지만, 전역 관리자 및 팀 서비스 관리자만이를 게시 하 고 관리할 수 있습니다.
 
 테 넌 트 앱 카탈로그에 새 사용자 지정 앱을 업로드 하려면 **새 앱 업로드** 를 클릭 하 여 앱 패키지를 .zip 형식으로 업로드 합니다. 앱이 업로드 된 후 강조 표시 되지 않으므로 앱 카탈로그를 검색 하 여 찾을 필요가 있습니다.
 
 앱을 업로드 한 후 업데이트 하려면 **앱 관리** 페이지의 앱 목록에서 앱 이름을 클릭 한 다음 **업데이트**를 클릭 합니다. 이렇게 하면 앱 카탈로그의 기존 앱이 바뀌고, 모든 앱 사용 권한 정책 및 앱 설정 정책은 업데이트 된 앱에 적용 됩니다.
 
-자세한 내용은 [팀에서 lob (기간 업무) 앱 관리](manage-your-lob-apps.md)를 참조 하세요.
+자세히 알아보려면 [팀에서 사용자 지정 앱 관리](manage-your-custom-apps.md)를 참조 하세요.
 
 ## <a name="allow-and-block-apps"></a>앱 허용 및 차단
 
@@ -93,6 +93,6 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱** > 으로**앱
 3. **사용자 지정 앱**에서 **사용자 지정 앱과의 상호 작용 허용**을 설정 하거나 해제 합니다. 이 설정은 사용자가 사용자 지정 앱을 조작할 수 있는지 여부를 제어 합니다. 자세히 알아보려면 [팀에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조 하세요.
 4. **저장** 을 클릭 하 여 조직 전체 앱 설정을 적용 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Team에서 앱의 관리 설정](admin-settings.md)

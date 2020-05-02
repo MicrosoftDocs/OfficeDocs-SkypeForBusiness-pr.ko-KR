@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 microsoft 팀 대화방에 대 한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ffc6b052fca002493b31a2f7c55f43cf9ce8804a
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905340"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997219"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -346,7 +346,7 @@ Introduced in this update:
 
 [Microsoft 팀 대화방 지원 현재 분기 버전](rooms-lifecycle-support.md)
 
-[Microsoft 팀 대화방의 알려진 문제점](known-issues.md)
+[조직의 지원 팀](known-issues.md)
 
 [Microsoft Teams 룸 계획](rooms-plan.md)
 

@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 52d3922bc68e942ad1cd58e40861fa8820ee6614
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 72c6db7bdc6ff8b765afdf38bfe910552b45cbf2
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778404"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997259"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스에 대한 문제 해결
 ======================================================
@@ -31,15 +31,15 @@ ms.locfileid: "43778404"
 > 변경 내용이 적용되는 데 최대 24시간이 걸릴 수 있습니다. 
 
 
+- 문제에 대해 알고 있는지 확인 하려면 [조직의 지원 팀](Known-issues.md)을 확인 하세요.
 - Teams에서 게스트 액세스에 대한 현재 지원 문제를 확인하려면 [ 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)로 이동합니다.
-- 문제를 알고 있는지 확인하려면 [Microsoft Teams](Known-issues.md)의 알려진 문제를 확인합니다.
 - 게스트는 조직 외부의 사용자입니다. 사용자가 조직 내부에 속해 있는 경우(직원, 출장 하청 업체 또는 출장 담당자를 포함하여) 해당 사용자를 게스트로 추가할 수 없습니다. 이는 계열사에도 적용됩니다.
 - [ 로드맵](https://aka.ms/teamsroadmap)에서 예정된 새 게스트 액세스 기능에 대해 알아보세요.
 - [ UserVoice](https://aka.ms/TeamsUserVoice)에서 원하는 내용을 알려주세요.
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>게스트에 라이선스 오류가 표시되는 경우
 
-팀의 게스트 액세스 권한은 Azure AD(Azure Active Directory) B2B 및 해당 라이센싱 모델을 사용합니다. 게스트 액세스는 모든 Microsoft 365 Business Standard, Office 365 Enterprise 및 Office 365 교육 구독과 함께 제공 됩니다. 추가 Office 365 라이선스가 필요하지 않습니다.
+팀의 게스트 액세스 권한은 Azure AD(Azure Active Directory) B2B 및 해당 라이센싱 모델을 사용합니다. 게스트 액세스는 모든 Microsoft 365 Business Standard, Office 365 Enterprise 및 Office 365 Education 구독에 포함되어 있습니다. 추가 Office 365 라이선스가 필요하지 않습니다.
 
 > [!NOTE]
 > 게스트가 다른 (리소스) 테 넌 트에 로그인 하 여 팀을 게스트로 사용할 수 있도록 하려면 게스트의 홈 테 넌 트에서 팀을 활성화 해야 합니다.

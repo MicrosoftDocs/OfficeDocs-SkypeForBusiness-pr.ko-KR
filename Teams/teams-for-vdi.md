@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940675"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997169"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -353,7 +353,7 @@ PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자
 - 다중 모니터 설정에서 화면 공유 시 메인 모니터만 공유 됩니다.
 - CWA에서 높은 DPI 조정이 지원 되지 않습니다.
 
-VDI와 관련 되지 않은 팀의 알려진 문제점은 [팀에 대해 알려진 문제점](Known-issues.md)을 참조 하세요.
+VDI와 관련 되지 않은 팀의 알려진 문제점은 [조직의 지원 팀](Known-issues.md)을 참조 하세요.
 
 ## <a name="troubleshooting"></a>문제 해결
 
@@ -361,7 +361,7 @@ VDI와 관련 되지 않은 팀의 알려진 문제점은 [팀에 대해 알려�
 
 VDA 및 CWA 문제를 해결 하는 방법에 대 한 자세한 내용은 [이 Citrix 웹 사이트](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)를 참조 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [MSI를 사용 하 여 Microsoft 팀 설치](msi-deployment.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

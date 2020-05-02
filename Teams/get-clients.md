@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d75a76ca7a98191f90005ebe6c1edf915fde4571
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d7411ab9862dc07b7c3bb5f8f4bed6f1cca62b47
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778304"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997019"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드 
 
@@ -115,7 +115,7 @@ DEB 또는 RPM 패키지를 설치 하면 패키지 리포지토리가 자동으
 시스템 패키지 관리자를 사용하여 자동 업데이트를 가능하게 하는 서명 키가 자동으로 설치됩니다. 그러나 (https://packages.microsoft.com/keys/microsoft.asc)에서도 찾을 수 있습니다. Microsoft Teams는 매달 출하되며 리포지토리가 제대로 설치되면 시스템 패키지 관리자는 시스템의 다른 패키지와 같은 방식으로 자동 업데이트를 처리해야 합니다.
 
 > [!NOTE] 
-> 버그를 찾았으면 클라이언트에서 `Report a Problem`를 사용하여 제출합니다. 알려진 문제는 [알려진 문제](Known-issues.md)를 참조하세요.
+> 버그를 찾았으면 클라이언트에서 `Report a Problem`를 사용하여 제출합니다. 알려진 문제점은 [조직의 지원 팀](Known-issues.md)을 참조 하세요.
 > Linux용 Teams 지원의 경우 [Microsoft Q&A의 Linux 포럼 지원 채널](https://docs.microsoft.com/answers/topics/teams.html)을 사용할 수 있습니다. 질문을 게시하려면 `teams-linux` 태그를 사용하세요. 
 
 #### <a name="install-teams-using-deb-package"></a>DEB 패키지를 사용하여 Teams 설치

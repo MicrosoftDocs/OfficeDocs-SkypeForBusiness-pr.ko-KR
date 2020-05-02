@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b92307510b93e03157fd3c337d5d1928d4afa7d6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 786f9269d4cb473b61d60adaf48bed4e4e8a9c03
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905870"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997269"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Microsoft 팀에 대 한 사용 시나리오 정의
 
@@ -70,6 +70,6 @@ ms.locfileid: "43905870"
 ![시나리오 영향 및 난이도를 보여 주는 그림](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 저희는 고객이 새로운 혁신적인 방법으로 팀을 사용 하는 방법에 대해 항상 배우 세요. [운전 도입 토론 포럼]에서 저희와 #TeamsStories를 공유 하세요. 게시물에 해시 태그 **#TeamsStories** 포함 합니다. 조직에서 팀을 사용 하는 방법에는 항상 관심이 있습니다.
+> 저희는 고객이 새로운 혁신적인 방법으로 팀을 사용 하는 방법에 대해 항상 배우 세요. 저희 [채택을 위한 토론 포럼](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)에서 #TeamsStories를 공유 하세요. 게시물에 해시 태그 **#TeamsStories** 포함 합니다. 조직에서 팀을 사용 하는 방법에는 항상 관심이 있습니다.
 
 ![초기에 다음 단계](media/teams-adoption-next-icon.png) 를 나타내는 아이콘: [조기 등록 및 의견 수집을](teams-adoption-onboard-early-adopters.md)제공 합니다.

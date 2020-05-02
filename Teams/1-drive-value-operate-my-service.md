@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d5c5f919e03cd1e2935e4027e38b33a23a9540b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: fb06a50d8a61d78abd84d8bf4f54295ece6d68ab
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779224"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997129"
 ---
 # <a name="operate-my-service"></a>내 서비스 운영
 
@@ -435,7 +435,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 2.  **클라이언트 연결의 유효성을 검사 합니다.** 연결 문제로 인해 팀에서 기능 또는 로그인 문제가 발생 합니다. 서비스에 대 한 연결을 확인 하는 것이 좋습니다 (특히 새 사이트 또는 위치에 적용). 각 사이트에 대해 다음 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips) 지침이 제공 되는지 확인 합니다. [Microsoft 네트워크 평가 도구](https://www.microsoft.com/download/details.aspx?id=53885) 를 활용 하 여 연결 테스트를 수행 하 여 미디어 포트가 클라우드 음성 기능에 맞게 올바르게 열려 있는지 확인할 수 있습니다. 연결 테스트를 실행 하는 방법에 대 한 자세한 단계는 [네트워크 준비](3-envision-evaluate-my-environment.md#network-readiness) 지침에 나와 있습니다.
 
-3.  **알려진 문제점 목록 확인:** 이러한 문제 중 하나가 사용자에 게 부정적인 영향을 미치는지 여부를 확인 하려면 [팀의 알려진 문제점 목록을](known-issues.md) 참조 하세요. 이 문제를 해결 하려면 제공 된 해결 방법 (있는 경우)을 따릅니다.
+3.  **알려진 문제점 목록 확인:** [조직의 지원 팀](known-issues.md) 에 문의 하 여 사용자가 이러한 문제 중 하나에 부정적인 영향을 미치는지 확인 합니다. 이 문제를 해결 하려면 제공 된 해결 방법 (있는 경우)을 따릅니다.
 
 4.  **Microsoft 팀 커뮤니티를 방문 하세요.** [Microsoft 팀 커뮤니티](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) 는 팀을 위한 전용 공간을 제공 합니다. 팀 커뮤니티는 토론 목록, 블로그 게시물, 팀 중심의 공지 사항을 제공 합니다. 질문을 게시 하거나 문제에 대 한 이전 토론을 검색할 수 있습니다.
 
@@ -464,7 +464,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 [Microsoft 팀의 서비스 상태 확인](service-health.md)
 
-[비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [프리미어 지원에 문의](https://support.microsoft.com/premier/contacts)
 

@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904593"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997189"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 팀 앱 사용 권한 및 고려 사항
 
@@ -43,7 +43,7 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 |    |     |
 |-----------|------------|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>아래 표를 참조 하 여 조사 중인 앱에서 요청 하는 사용 권한을 파악 합니다.</li></ul> |
-| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>앱 또는 서비스 자체를 조사 하 여 조직 내에서 해당 사용자에 게 액세스를 허용 하려는 지 여부를 결정 합니다. 예를 들어, 봇은 사용자 로부터 메시지를 보내고 받으며 enterprise lob (기간 업무) 인공 지능을 제외 하 고는 규정 준수 경계 외부에 위치 합니다. 따라서 봇이 포함 된 앱에는 해당 권한이 필요 하며 최소한 위험 프로필을 보유 하 고 있는 것입니다. </li></ul>|
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>앱 또는 서비스 자체를 조사 하 여 조직 내에서 해당 사용자에 게 액세스를 허용 하려는 지 여부를 결정 합니다. 예를 들어, 인공 지능은 사용자 로부터 메시지를 보내고 받으며 엔터프라이즈 사용자 지정 인공 지능을 제외 하 고 규정 준수 경계 외부에 위치 합니다. 따라서 봇이 포함 된 앱에는 해당 권한이 필요 하며 최소한 위험 프로필을 보유 하 고 있는 것입니다. </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>전역 앱 사용 권한 및 고려 사항
 

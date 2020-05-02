@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 외부 기업과 클라이언트가 통화할 수 있도록 팀 사용자의 회사 전화 번호를 할당, 변경 또는 제거 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 0be2d66d1a073a031b8112cf4aa8438cfc68b150
+ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982111"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "44006034"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 할당, 변경 또는 제거
 
@@ -42,19 +42,20 @@ ms.locfileid: "42982111"
   
 ## <a name="assign-a-phone-number-to-a-user"></a>사용자에 게 전화 번호 할당
  
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
     
 1. 왼쪽 탐색 창에서 **음성** > **전화 번호**를 클릭 합니다.
 2. **전화 번호** 페이지의 목록에서 지정 하지 않은 번호를 선택 하 고 **편집**을 클릭 합니다.  
 3. **편집** 창의 **담당자**에서 표시 이름 또는 사용자 이름을 기준으로 사용자를 검색 한 다음 **할당**을 클릭 합니다.
 4. 관련 긴급 위치를 지정 하거나 변경 하려면 **응급 위치**에서 검색을 클릭 한 다음 위치를 선택 합니다.
+5. 전화 번호 정보를 사용 하 여 사용자에 게 전자 메일을 보낼지 여부에 따라 **전화 번호 정보로 전자 메일 사용자**를 끄거나 설정 합니다. 기본적으로이 기능은 켜져 있습니다. 
 6. **저장**을 클릭합니다.
     > [!NOTE]
     > Office 365와 팀 간의 지연 때문에 사용자를 설정 하는 데 최대 24 시간이 걸릴 수 있습니다. 24 시간 후에 전화 번호가 올바르게 지정 되지 않은 경우 [비즈니스 제품에 대 한 고객 지원-관리자 도움말을 참조 하세요](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). 저희에 게 도움을 주세요!
   
 ## <a name="change-a-phone-number-for-a-user"></a>사용자의 전화 번호 변경
  
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
     
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 하 고 원하는 사용자를 찾아 두 번 클릭 한 다음 **계정을**클릭 하 고 **일반 정보**에서 사용자에 게 할당 된 전화 번호를 기록해 둡니다.
 2. 왼쪽 탐색 창에서 **음성** > **전화 번호**를 클릭 합니다.
@@ -68,7 +69,7 @@ ms.locfileid: "42982111"
 
 ## <a name="remove-a-phone-number-from-a-user"></a>사용자의 전화 번호 제거
  
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 하 고 원하는 사용자를 찾아 두 번 클릭 한 다음 **계정을**클릭 하 고 **일반 정보**에서 사용자에 게 할당 된 전화 번호를 기록해 둡니다.
 2. 왼쪽 탐색 창에서 **음성** > **전화 번호**를 클릭 합니다.
@@ -76,7 +77,7 @@ ms.locfileid: "42982111"
 4. **편집** 창의 **담당자**에서 사용자를 제거 하려면 **X** 를 클릭 합니다.
 5. **저장**을 클릭합니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [주소 유효성 검사 란?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
