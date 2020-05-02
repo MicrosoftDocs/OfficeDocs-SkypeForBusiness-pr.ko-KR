@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams의 알려진 문제
+title: 조직에서 Microsoft Teams 지원
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,25 +9,33 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
-ms.reviewer: marcl
+ms.reviewer: marcl, billkau
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Teams 클라이언트 앱 및 관리자 경험에 대해 이 알려진 문제 목록을 사용하여 조직 내 문제를 해결하세요.
+description: Teams 관리자이건 헬프디스크 지원 엔지니어이건 이 리소스로 조직에서 Microsoft Teams를 지원하세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1343317d29f196caf151ead5a6429fb3edf19d87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 362958a7307a71b68a2582bffca2e323966b1977
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902303"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997009"
 ---
-# <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams의 알려진 문제
+# <a name="support-microsoft-teams-in-your-organization"></a>조직에서 Microsoft Teams 지원
 
-이 문서에는 Microsoft Teams의 알려진 문제점이 기능 영역별로 나열되어 있습니다.
+Teams의 알려진 문제점을 찾고 있다면 잘 찾아오셨습니다. 이 문서의 리소스로 조직에서 Teams를 지원할 수 있습니다. 
+
+이 문서의 아래에 있는 가장 [일반적인 문제 및 해결 방법](#common-issues-and-resolutions) 목록을 검토하는 것부터 시작합니다.
+
+그런 다음 필요한 항목을 찾을 수 없는 경우 [Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)로 이동하여 목차 또는 **제목으로 필터링** 상자에서 문제를 검색합니다. 
+:::image type="content" source="media/known-issues1.png" alt-text="Teams 문제 해결 페이지의 목차 및 필터 상자 스크린샷":::
+
+문제가 해결되지 않은 경우 [Microsoft 지원 서비스](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)에 문의합니다.
+
 
 ## <a name="common-issues-and-resolutions"></a>공통적인 문제 및 해결 방법
 
@@ -55,4 +63,9 @@ ms.locfileid: "43902303"
 |---------|---------|
 |사용자에게 "기회를 놓치고 있습니다" 메시지가 표시됩니다.   |[학교에서 Microsoft Teams를 사용하도록 설정](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)해야 합니다. EDU 테넌트에서 Microsoft Teams는 기본적으로 사용하도록 설정되어 있지 않습니다. 먼저 이 기능을 사용하도록 설정해야 합니다. <br><br>다음으로, [Microsoft Office 365 교육 에디션에서 원격 교육 및 학습](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)을 참조하여 학교 설정, 수업 계획, 가상 모임 및 학생들과 콘텐츠 공유에 대한 최신 지침을 알아보세요.<br><br>마지막으로 [Teams 관리자 교육](itadmin-readiness.md)에서 Microsoft Teams IT 관리자 교육 비디오, 데크, 그리고 그 밖의 다양한 콘텐츠를 확인하세요.        |
 
-Microsoft Teams로 문제를 해결하는 방법에 대 한 자세한 내용은 [Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)을 참조하세요.
+
+## <a name="related-topics"></a>관련 항목
+
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+[Teams의 지원 리소스](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
