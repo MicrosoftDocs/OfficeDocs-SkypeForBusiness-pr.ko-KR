@@ -7,6 +7,7 @@
 ### [요구 사항](requirements.md)
 ### [온라인 라이선싱](rooms-licensing.md)
 ### [Azure 모니터를 이용한 계획 관리](azure-monitor-plan.md)
+### [관리형 회의실을 통한 계획 관리](managed-meeting-rooms.md)
 
 ## 배포
 ### [배포 개요](rooms-deploy.md)
