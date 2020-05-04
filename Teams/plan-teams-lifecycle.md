@@ -10,6 +10,7 @@ ms.reviewer: rowille
 audience: admin
 description: 이 문서에서는 Teams에서 수명 주기 관리 기능을 구현하는 방법에 대해 알아봅니다.
 localization_priority: Priority
+search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4080c16d78ca50037b9ae3e2579284466acbe37c
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 2ad4592799efef11b7d09d564af5217dd9cdd550
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905820"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951273"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams에서 수명 주기 관리 계획
 
