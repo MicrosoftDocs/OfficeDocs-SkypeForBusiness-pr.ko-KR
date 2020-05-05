@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 오디오 회의, 자동 전화 교환, 팀에 대 한 전화 대기열 (서비스 번호)에 대 한 새로운 전화 번호 및 포트를 확인 하거나 기존 번호를 전송 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136718"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021990"
 ---
 # <a name="getting-service-phone-numbers"></a>서비스 전화 번호 가져오기
 
@@ -51,7 +51,7 @@ ms.locfileid: "43136718"
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **음성** > **전화 번호로**이동한 다음 **추가**를 클릭 합니다.
-2. 주문 이름을 입력 하 고 원하는 경우 설명을 추가 합니다.
+2. 주문의 이름을 입력 하 고 설명을 추가 합니다.
 3. 위치 및 수량 페이지에서 다음을 수행 합니다.
     1. **국가 또는 지역**에서 국가 또는 지역을 선택 합니다.
     1. **숫자 형식**에서 원하는 서비스 번호 유형을 선택 합니다.
@@ -80,7 +80,7 @@ ms.locfileid: "43136718"
 
 서비스 번호를 받은 후 각 번호를 오디오 회의 브리지에 할당 합니다. [오디오 회의 브리지에서 유료 또는 무료 전화 번호 변경을](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)참조 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [다음은 전화 시스템 기능입니다.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

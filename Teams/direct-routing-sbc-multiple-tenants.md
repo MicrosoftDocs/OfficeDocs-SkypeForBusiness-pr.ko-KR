@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 회사에 여러 테 넌 트를 제공 하도록 SBC (세션 경계 컨트롤러)를 구성 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 13d2dceb8cedc6e48d420619476cbf73c675785a
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918717"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022000"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -253,7 +253,7 @@ Microsoft는 직접적인 라우팅의 초기 릴리스에서 새 CSOnlinePSTNGa
 - 각 테 넌 트에 대해 두 개의 다른 SBCs에 대 한 Fqdn을 추가 합니다.  예를 들면 다음과 같습니다.
 
    customer1.sbc1.contoso.com <br>
-   customer2.sbc2.contoso.com <br>
+   customer1.sbc2.contoso.com <br>
 
 - 사용자의 온라인 음성 라우팅 정책에서 SBCs를 모두 지정 합니다.  한 SBC에 오류가 발생 하는 경우 라우팅 정책은 호출을 두 번째 SBC으로 라우팅합니다.
 
