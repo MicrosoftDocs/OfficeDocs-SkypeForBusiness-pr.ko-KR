@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 및 사용할 수 있도록 클라우드 커넥터 어플라이언스를 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6dbbc7eb1639859f889d6674e9f000507912d35a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983843"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779244"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>클라우드 커넥터 기기 준비
 
@@ -171,7 +171,7 @@ Export-CcConfigurationSampleFile
 
 - **SiteName:** 기본값은 **Site1**입니다. **등록-CcAppliance** 를 실행 하 여 기존 사이트나 새 사이트에 기기를 등록할 때 Cmdlet이 **SiteName** 을 사용 하 여 등록할 사이트를 결정 하므로 클라우드 커넥터를 배포 하기 전에이를 업데이트 해야 합니다.
 
-     새 사이트에 기기를 등록 하려는 경우 **SiteName** 의 값은 고유 하 고 기존 사이트와 달라 야 합니다. 기존 사이트에 기기를 등록 하려는 경우 .ini 파일의 **SiteName** 에 대 한 값이 Office 365 테 넌 트 구성에 정의 된 이름과 일치 해야 합니다. 한 사이트에서 다른 사이트로 구성 파일을 복사 하는 경우에는 각 사이트의 **SiteName** 에 해당 하는 값을 적절 하 게 업데이트 해야 합니다.
+     새 사이트에 기기를 등록 하려는 경우 **SiteName** 의 값은 고유 하 고 기존 사이트와 달라 야 합니다. 기존 사이트에 기기를 등록 하려는 경우 .ini 파일의 **SiteName** 에 대 한 값이 Office 365 조직 구성에 정의 된 이름과 일치 해야 합니다. 한 사이트에서 다른 사이트로 구성 파일을 복사 하는 경우에는 각 사이트의 **SiteName** 에 해당 하는 값을 적절 하 게 업데이트 해야 합니다.
 
 - **ServerName:** 서버 이름에는 도메인 이름을 포함할 수 없으며 15 자로 제한 해야 합니다.
 
@@ -305,11 +305,11 @@ CceService 계정은 비즈니스용 Skype 클라우드 커넥터 에디션 배�
 
 3. 해당 값을 **Enabled**로 설정 합니다.
 
-## <a name="set-up-your-office-365-tenant"></a>Office 365 테넌트 설정
+## <a name="set-up-your-office-365-organization"></a>Office 365 조직 설정
 
-Office 365에서 비즈니스용 Skype Online 및 전화 시스템이 있는 Office 365 테 넌 트가 필요 합니다. 클라우드 커넥터 사용을 시도 하기 전에 테 넌 트가 설정 및 구성 되었는지 확인 합니다.
+Office 365에서 비즈니스용 Skype 온라인 및 전화 시스템을 사용 하는 Office 365 조직은 필수입니다. 클라우드 커넥터 사용을 시도 하기 전에 테 넌 트가 설정 및 구성 되었는지 확인 합니다.
 
-일부 Office 365 설정 단계에서는 TRPS (테 넌 트 원격 PowerShell)를 사용 하 여 Office 365 테 넌 트를 구성 해야 합니다. **이를 호스트 서버에 설치 해야 합니다.** 비즈니스용 skype Online 모듈을 다운로드 하는 데에는 Skype for [Business online, Windows PowerShell 모듈](https://www.microsoft.com/download/details.aspx?id=39366)을 들 수 있습니다.
+일부 Office 365 설정 단계에서는 TRPS (테 넌 트 원격 PowerShell)를 사용 하 여 Office 365 조직을 구성 해야 합니다. **이를 호스트 서버에 설치 해야 합니다.** 비즈니스용 skype Online 모듈을 다운로드 하는 데에는 Skype for [Business online, Windows PowerShell 모듈](https://www.microsoft.com/download/details.aspx?id=39366)을 들 수 있습니다.
 
 클라우드 커넥터 온라인 관리를 위한 전용 비즈니스용 Skype 관리자 계정을 만듭니다 (예: CceOnlineManagmentAdministrator). 이 계정은 기기에서 기기를 추가 또는 제거 하거나, 자동 OS 업데이트를 사용 하거나 사용 하지 않도록 설정 하거나, 자동 이진 업데이트를 사용 하거나 사용 하지 않도록 설정 하는 데 사용 됩니다. 이 계정의 암호가 만료 되지 않도록 설정 하 여 만료 될 때마다 서비스에 대해 변경할 필요가 없도록 합니다.
 
