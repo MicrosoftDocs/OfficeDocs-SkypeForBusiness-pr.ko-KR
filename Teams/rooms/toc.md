@@ -26,7 +26,7 @@
 ## 관리
 ### [관리 개요](rooms-manage.md)
 ### [유지 관리 및 운영](rooms-operations.md)
-### [알려진 문제](known-issues.md)
+### [조직에서 Teams 지원](known-issues.md)
 ### [Azure 모니터를 이용하는 장치](azure-monitor-manage.md)
 ### [XML파일을 사용하여 설정](xml-config-file.md)
 ### [복구 도구 사용](recovery-tool.md)

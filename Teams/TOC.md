@@ -43,7 +43,7 @@
 ## [메시징 정책 관리](messaging-policies-in-teams.md)
 ## [Teams에서 사용자 현재 상태 확인](presence-admins.md)
 ## [Teams에서 태그 관리](manage-tags.md)
-## [Teams의 교차 팀 및 팀 단위 분석 보기](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [Teams에서 분석 보기](teams-analytics-and-reports/view-analytics.md)
 ## [팀 만료 및 갱신](team-expiration-renewal.md)
 ## [팀 보관 또는 삭제](archive-or-delete-a-team.md)
 ## [Slack에서 Teams로 마이그레이션](migrate-slack-to-teams.md)
@@ -59,9 +59,11 @@
 ### [Team에서 앱의 관리 설정](admin-settings.md)
 ### [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
 ### [Microsoft 365 또는 Office 365, 그리고 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
-### [사용자의 LOB(기간 업무) 앱 관리](manage-your-lob-apps.md)
+### [사용자 지정 앱 관리](manage-your-custom-apps.md)
 ### [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [조직에 대한 작업 앱 관리](manage-tasks-app.md)
+### [팀 대상 계층 구조 설정](set-up-your-team-hierarchy.md)
 ### [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 외부 사용자와 의사 소통
@@ -274,14 +276,6 @@
 #### [직접 라우팅이 있는 아날로그 장치를 사용 하는 방법](direct-routing-analog-devices.md)
 
 
-### [직접 라우팅으로 마이그레이션](direct-routing-migrating.md)
-
-### 직접 라우팅 모니터링 및 문제 해결
-#### [개요](direct-routing-monitor-and-troubleshoot.md)
-#### [상태 대시보드](direct-routing-health-dashboard.md)
-### [PSTN 연결이 포함된 하이브리드 환경의 사용자 계정](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### 위치 기반 라우팅
 #### [직접 라우팅으로 전달되는 위치 기반 라우팅 계획](location-based-routing-plan.md)
 #### [위치 기반 라우팅의 네트워크 설정 구성](location-based-routing-configure-network-settings.md)
@@ -295,12 +289,14 @@
 #### [로컬 미디어 최적화 계획](direct-routing-media-optimization.md)
 #### [로컬 미디어 최적화 구성](direct-routing-media-optimization-configure.md)
 
-### 직접 라우팅 모니터링 및 문제 해결
-#### [개요](direct-routing-monitor-and-troubleshoot.md)
-#### [상태 대시보드](direct-routing-health-dashboard.md)
 ### [PSTN 연결이 포함된 하이브리드 환경의 사용자 계정](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [직접 라우팅으로 마이그레이션](direct-routing-migrating.md)
+
+### 직접 라우팅 모니터링 및 문제 해결
+#### [개요](direct-routing-monitor-and-troubleshoot.md)
+#### [상태 대시보드](direct-routing-health-dashboard.md)
+
 
 ### 직접 라우팅의 기술 참조
 #### [발신 전화에 대한 트렁크 장애 조치](direct-routing-trunk-failover-on-outbound-call.md)
@@ -680,6 +676,7 @@
 
 <!-- ============================================================ -->
 # 모니터링, 유지 관리 및 문제 해결
+## [조직에서 Teams 지원](Known-issues.md)
 ## [통화 품질 모니터링 및 관리](monitor-call-quality-qos.md)
 ### [QoE(체감 품질) 검토 가이드](quality-of-experience-review-guide.md)
 ### [Teams에 QoS 설정](QoS-in-Teams.md)
@@ -700,7 +697,6 @@
 ## [Teams 문제 해결에 로그 파일 사용](log-files.md)
 ## [자주 묻는 질문(FAQ) - 원격 작업자 지원](FAQ-support-remote-workforce.md)
 ## [Teams의 서비스 상태 확인](service-health.md)
-## [Teams의 알려진 문제](Known-issues.md)
 ## [Teams의 지원 리소스](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
