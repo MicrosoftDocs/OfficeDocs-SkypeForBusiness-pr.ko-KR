@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft는 2020 년 2 월 28 일부 터 ExchUMO (Exchange 통합 메시징 온라인) 서비스를 더 이상 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 비즈니스 연속성을 계획 하 고 수행 해야 하는 작업을 요약 하 여 설명 합니다.
-ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780777"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042835"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -127,7 +127,7 @@ Office 365 조직 관리자는 Microsoft 클라우드 자동 전화 교환 서�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 및 Azure 클라우드 기반 서비스 기능 매트릭스
 
-| 서비스 | 기능 수준 | 기능 | Notes  | 클라우드 VM/AA  | ExUMO |
+| 서비스 | 기능 수준 | 기능 | 참고  | 클라우드 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | V  | 서비스 기능| 타사 PBX 지원    | Exchange UM Online에서 SIP notify 메시지를 사용 하 여 MWI (메시지 대기 표시기)와 같은 타사 PBX에 제공 되는 모든 기능 포함 | Kn   | 피지    |
 | V | 서비스 기능  | 비즈니스용 Skype 서버 지원   |  | 피지 | 피지    |
@@ -135,6 +135,7 @@ Office 365 조직 관리자는 Microsoft 클라우드 자동 전화 교환 서�
 | V | 서비스 기능 | eDiscovery 및 보류  | 보안 및 규정 준수  | 피지 | 피지    |
 | V | 서비스 기능 | Exchange 규칙 지원 | 보안 및 규정 준수  | 피지 | 피지    |
 | V | 사용자 기능 | PSTN 전화 접속 액세스  | 구독자 액세스  | Kn | 피지    |
+| V | 사용자 기능 | 대리인  | 부재 중 전화 전자 메일  | Kn | 피지    |
 | V | 사용자 기능 | PSTN Outlook Voice Access   | 구독자 액세스  | Kn | 피지    |
 | V | 사용자 기능 | 인증 된 끝점을 사용 하 여 전화 접속 | 음성 메시지를 듣고 음성을 음성으로 설정 하기 위해 음성 메일 서비스 호출| 피지 | 피지    |
 | V | 사용자 기능 | 음성 메일을 사용 하지 않도록 설정할 사용자 설정   |  | 피지 | 피지    |

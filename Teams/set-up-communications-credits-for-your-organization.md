@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '사용자 및 조직에 대해 통신 크레딧 (PSTN 소비) 청구 라이선스를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905590"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042945"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -42,11 +42,11 @@ ms.locfileid: "43905590"
   
 이렇게 하려면 **오디오 회의 또는 전화 시스템 라이선스** 를 사용자에 게 할당 해야 합니다.
   
-- 사용자에 게 **오디오 회의** 라이선스를 할당 합니다. [Microsoft 팀 라이선스 할당](assign-teams-licenses.md)을 참조 하세요.
+- 사용자에 게 **오디오 회의** 라이선스를 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
     
     이 라이선스를 할당 한 후에는 오디오 회의를 설정 해야 합니다. 단계별 지침은 [Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)을 참조 하세요.
     
-- **전화 시스템** 및 **국내 또는 국내 및 국제** 통화 요금제 라이선스를 사용자에 게 할당 합니다. [Microsoft 팀 라이선스 할당](assign-teams-licenses.md)을 참조 하세요.
+- **전화 시스템** 및 **국내 또는 국내 및 국제** 통화 요금제 라이선스를 사용자에 게 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
     
     > [!NOTE]
     > 통신 크레딧에는 필요 하지 않지만 **국내 통화 요금제** 또는 **국내 및 국제 통화 요금제** 라이선스도 할당 해야 합니다.
@@ -115,7 +115,7 @@ ms.locfileid: "43905590"
   
 각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

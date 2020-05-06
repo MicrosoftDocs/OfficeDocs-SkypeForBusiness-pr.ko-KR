@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 사우디아라비아에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: 36d59a1c77824f86d4eca6d94450c71c4cd87cb6
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: ba64a0e3cb0e9bfd6da12cfaf70516cf3c508955
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958463"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047837"
 ---
 # <a name="availability-in-saudi-arabia"></a>사우디아라비아의 가용성
 
@@ -71,7 +71,7 @@ ms.locfileid: "43958463"
 |:-----|:-----|
 |유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | 해당 사항 없음  <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
  오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.
   

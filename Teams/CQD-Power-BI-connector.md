@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
-ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
+ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952447"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042595"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 
@@ -158,6 +158,16 @@ CQD Power BI 커넥터는 생성할 수 있는 쿼리 종류의 측면에서 브
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Power BI 커넥터를 "베타" 상태에서 업데이트 해야 하는 경우
 
 Beta 태그에는 불구 하 고 Power BI 용 통화 음질 커넥터는 해당 커넥터의 릴리스 버전이 며, Power BI 팀이이를 반영 하도록 서명 된 공식적 보안입니다. 해당 베타 태그를 제거 하는 인증 프로세스는 광범위 한 기능 이므로 Power BI 팀에서 커넥터에 대 한 직접 지원을 제공 해야 합니다. 시간 제약으로 인해 현재 Power BI 팀은 지원 및 광범위 한 인증을 제공할 수는 없지만 Microsoft 통화 품질 커넥터의 보안, 인증, 일반 기능을 증명할 준비가 되어 있습니다.
+
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>브라우저의 고급 CQD 보다 커넥터가 느리게 보이는 이유는 무엇 인가요? 성능을 향상 시키기 위해 수행할 수 있는 작업
+
+다양 한 서식 파일에 대 한 쿼리 성능은 브라우저와 커넥터에서 실제로 동일 합니다. 차이점은 실행 되는 동시 쿼리 수에 있습니다. CQD의 브라우저 내장 버전에는 잘 개발 되 고 정보 집적형 시각화 옵션이 있으므로, 대부분의 보고서는 한 번에 2-3 쿼리를 로드 하는 것으로 제한 되었습니다. 반면 커넥터 템플릿은 종종 20 + 동시 쿼리를 표시 합니다. 이전에 사용한 것 처럼 반응 하는 보고서를 작성 하려면 탭 당 2-3 개 이하의 쿼리를 사용 하 여 보고서를 만들어 보세요.
+
+### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>쿼리를 실행할 때 1만 행의 한도를 정기적으로 실행 한다는 것을 발견 했습니다. 연결선을 1만 개 이상의 행으로 반환 하려면 어떻게 하나요?
+
+1만 행 제한은 실제로 API end에 지정 되며, 성능을 크게 개선 하 고 메모리 부족 상태로 인해 쿼리 실행 오류의 위험을 줄일 수 있도록 설계 되었습니다.
+
+결과 행 개수를 늘리는 대신 커넥터 모범 사례에 따라 보고서를 재구성 하는 것이 좋습니다. 여기에 포함 된 서식 파일은 이러한 모범 사례를 보여 주기 위해 디자인 되었습니다. 가능 하면 먼저 보다 폭넓은 하위 카디널리티 차원 (예: 월, 연도, 날짜, 지역, 국가 등)을 사용 하 여 Kpi를 살펴봅니다. 여기서 더 높은 카디널리티 치수로 드릴 다운할 수 있습니다. 헬프데스크 및 위치 향상 보고서는 모두이 드릴 다운 워크플로의 좋은 예를 제공 합니다.
 
 ## <a name="related-topics"></a>관련 주제
 

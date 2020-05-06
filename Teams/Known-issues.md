@@ -18,12 +18,12 @@ f1.keywords:
 description: Teams 관리자이건 헬프디스크 지원 엔지니어이건 이 리소스로 조직에서 Microsoft Teams를 지원하세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 362958a7307a71b68a2582bffca2e323966b1977
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 2af4f29ade3e360f4802077d503fd5ad66b081c9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997009"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041945"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>조직에서 Microsoft Teams 지원
 
@@ -54,7 +54,7 @@ Teams의 알려진 문제점을 찾고 있다면 잘 찾아오셨습니다. 이 
 |**모임 정책**|[모임 정책](meeting-policies-in-teams.md)은 조직에서 사용자가 예약한 모임 참가자가 사용할 수 있는 기능을 제어하는 데 사용됩니다. 정책을 만들고 변경한 후에 사용자를 정책에 할당할 수 있습니다.         |
 ||**모임 정책 변경 또는 만들기**<br><br>모임 정책을 변경하거나 만들려면 Microsoft Teams 관리 센터 > **모임** > **모임 정책**으로 이동합니다. 목록에서 정책을 선택하거나 **추가**를 선택합니다. 새 정책을 만들려면 이름과 설명을 추가합니다. 이름은 특수 문자가 포함될 수 없으며 64자를 초과할 수 없습니다. 설정을 선택한 다음 **저장**을 클릭합니다. 예를 들어, 사용자 수가 많은데 모임에 필요한 대역폭의 양을 제한하려고 한다고 가정해 보겠습니다. "제한된 대역폭"이라는 새 사용자 지정 정책을 만들고 다음 설정을 사용하지 않도록 설정합니다.<br><br>**오디오 및 비디오**에서:<ul><li>클라우드 녹음/녹화 허용을 끕니다.</li><li>IP 비디오 허용을 끕니다.</li></ul>**콘텐츠 공유**에서:<ul><li>화면 공유 모드를 사용하지 않도록 설정합니다.</li><li>화이트보드 허용을 끕니다.</li><li>공유 노트 허용을 끕니다.</li></ul>그 다음 사용자에게 정책을 할당합니다.         |
 | |**사용자에게 모임 정책 할당**<br><br><ol><li>Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.</li><li>사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.</li><li>**모임 정책**에서 할당하려는 정책을 선택한 후 **적용**을 클릭합니다.</li></ol>한 번에 여러 사용자에게 정책을 할당하려면 [Teams 사용자 설정을 일괄 편집](edit-user-settings-in-bulk.md)을 참조하세요. 또는 다음 작업을 수행할 수 있습니다.<ol><li>Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **모임 > 모임 정책**으로 이동합니다.</li><li>정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.</li><li>**사용자 관리**를 선택합니다.</li><li>**사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가**를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.</li><li>사용자 추가를 마쳤으면 **저장**을 클릭합니다.</li>         |
-|**다이얼 패드 누락 문제 해결**     |다음을 수행합니다. <ul><li>사용자에게 [Teams 라이선스](assign-teams-licenses.md)가 할당되어 있는지 확인합니다.</li><li>사용자에게 [통화 요금제](calling-plan-landing-page.md)가 할당되었는지 확인합니다.</li><li>사용자가 [Enterprise Voice](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail)를 사용할 수 있도록 설정합니다.</li></ul>      |
+|**다이얼 패드 누락 문제 해결**     |다음을 수행합니다. <ul><li>사용자에게 [Teams 라이선스](teams-add-on-licensing/assign-teams-add-on-licenses.md)가 할당되어 있는지 확인합니다.</li><li>사용자에게 [통화 요금제](calling-plan-landing-page.md)가 할당되었는지 확인합니다.</li><li>사용자가 [Enterprise Voice](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail)를 사용할 수 있도록 설정합니다.</li></ul>      |
 |**Teams 로그인 문제 해결**   |먼저 [Microsoft Teams 서비스가 정상인지](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth) 확인합니다. 그런 다음, 자주 발생하는 오류 코드를 확인하고 [Microsoft Teams에 로그인하는 데 문제가 있는 이유](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)를 검토하세요.  [Microsoft Teams의 ID 모델 및 인증](identify-models-authentication.md)을 검토해야 할 수도 있습니다.         |
 
 ### <a name="for-education-customers"></a>교육용 고객의 경우

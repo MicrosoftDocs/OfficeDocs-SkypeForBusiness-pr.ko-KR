@@ -15,12 +15,12 @@ description: 이 지침을 사용 하 여 Microsoft 팀을 첫 번째 Office 365
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79607004c8f750ceed0325733c8c52a4873e9cdc
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982162"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041715"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft 팀 먼저 롤아웃
 
@@ -37,13 +37,13 @@ Microsoft 팀은 직원 들이 전세계에 있는 직원의 실제 근무 시�
 
 먼저 팀을 배포 하려면 최소한 몇 가지 사전 요구 사항이 충족 되어야 합니다. 다음 목록에는 팀을 사용 하도록 설정 하기 전에 조직에 대해 필요한 항목이 표시 됩니다.
 
-1.  도메인 이름으로 구성 된 Office 365 테 넌 트
+1.  도메인 이름으로 구성 된 Office 365 조직
 
 2.  필수 특성이 모두 테 넌 트에서 동기화 되는 Azure Active Directory 연결 (AAD connect) 또는 유사한 클라우드 id 동기화 솔루션  
     AAD 동기화와 동기화 된 특성을 이해 하려면 [AZURE AD Connect 동기화 읽기: 특성을 Azure Active Directory와 동기화](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized) 됨
 
 3.  팀에 할당 된 적절 한 사용자 라이선스  
-    팀 라이선스를 이해 하려면 [Microsoft 팀에 대 한 Office 365 라이선스](office-365-licensing.md) 읽기
+    팀 라이선스를 이해 하려면 [Microsoft 팀 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)참조 하세요.
 
 4.  조직에서 팀에 대해 준비한 네트워크  
     네트워크 준비를 이해 하려면 [팀에 대 한 조직의 네트워크 준비](prepare-network.md)를 읽어 보세요.
@@ -54,7 +54,7 @@ Microsoft 팀은 직원 들이 전세계에 있는 직원의 실제 근무 시�
 > 2019 년 9 월 1 일 이후에 만든 테 넌 트를 팀 전용 모드로 프로 비전 합니다.
 > 
 > [!IMPORTANT]
-> 비즈니스용 Skype 서버를 배포 하 고 테 넌 트가 2019 년 9 월 1 일 이후에 프로 비전 된 경우 프리미어 지원에 문의 하 여 팀에 공존 기능을 사용 하도록 설정 하세요. 사용자에 게 팀 라이선스를 할당 <span class="underline">하기 전에</span> ' 조직 전체 업그레이드 정책 '이 ' 섬 모드 '로 설정 되어 있는지 확인 합니다.
+> 비즈니스용 Skype 서버를 배포 하 고 테 넌 트가 2019 년 9 월 1 일 이후에 프로 비전 된 경우 고객 지원에 문의 하 여 팀에 공존 기능을 사용 하도록 설정 하세요. 사용자에 게 팀 라이선스를 할당 <span class="underline">하기 전에</span> ' 조직 전체 업그레이드 정책 '이 ' 섬 모드 '로 설정 되어 있는지 확인 합니다.
 
 ## <a name="migration-starting-points"></a>마이그레이션 시작 지점
 
@@ -104,7 +104,7 @@ Microsoft 팀은 직원 들이 전세계에 있는 직원의 실제 근무 시�
 </tr>
 <tr class="even">
 <td>팀에서 채팅/외부 통신</td>
-<td><p>내부 (사무실 내 365 테 넌 트) 및 팀에서 수행할 수 있는 외부 채팅 통신</p>
+<td><p>내부 (Office에서 365 조직 내) 및 팀에서 수행할 수 있는 외부 채팅 통신</p>
 <p><em>참고: DNS 항목은 외부 액세스용으로 구성 해야 합니다. 비즈니스용 skype for 온-프레미스 또는 Office 365에서 Lync 및 비즈니스용 Skype 환경과 페더레이션이 허용 되지 않는 경우에도 비즈니스용 skype DNS 레코드가 필요 합니다.<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Office 365의 외부 도메인 이름 시스템 레코드</a></em></p></td>
 </tr>
@@ -233,7 +233,7 @@ Exchange 하이브리드 구성 외에 Exchange OAuth 인증 설정: <a href="ht
 
 1.  위의 시작 위치 섹션에 설명 된 필수 조건을 충족 하세요.
 
-2.  테 넌 트를 아일랜드 모드로 전환 (9/1/2019 후에 테 넌 트를 프로 비전 할 경우 프리미어 지원에 문의 하 여 변경 내용을 확인 하세요.)  
+2.  테 넌 트를 아일랜드 모드로 전환 (9/1/2019 후에 테 넌 트를 프로비저닝된 경우 지원 팀에 문의 하 여이 변경 사항 수행)  
     [공존 및 업그레이드 설정 설정](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  회사의 비즈니스/회사 정책에 따라 테 넌 트 구성  
@@ -264,11 +264,11 @@ Microsoft 팀은 조직의 모든 직원, 정보 근로자 및 Firstline worker�
 
   - [온라인 모임 및 이벤트 제공](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/delivering-online-meetings-events/)
 
-  - [중소 규모의 기업이 팀과 원격으로 작동 하도록 지원](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+  - [중소 기업이 Teams와 원격으로 작업할 수 있도록 지원](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
   - [라이브 이벤트의 디지털 변환: 일선에서 Bob의 1 월 관측값](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/13/digital-transformation-live-events-bob-bejans-observations-frontline/)
 
-  - [Microsoft IT에서 해당 직원에 대해 원격 작업을 사용 하도록 설정 하는 데 사용할 수 있는 10 가지 방법](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+  - [Microsoft IT가 직원들의 원격 작업을 가능하게하는 9가지 방법](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
   - [원격 작업, 보안 유지 — CISOs에 대 한 팁](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/work-remotely-stay-secure-ciso-tips/)
 
@@ -278,7 +278,7 @@ Microsoft 팀은 조직의 모든 직원, 정보 근로자 및 Firstline worker�
 
 ## <a name="support-services-reference"></a>지원 서비스 참조
 
-팀은 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Office 365 그룹에 의존 하 여 사용자에 게 완전 통합 Office 365 환경을 제공 합니다. 위에서 언급 한 것 처럼 팀은 제한 된 기능으로 이러한 서비스를 완전 하 게 배포 하지 않고 작동 합니다. 팀에 대 한 자세한 내용과 해당 필수 구성 요소를 읽어 보세요. [팀에 오신 것을 환영](teams-overview.md)합니다.
+팀은 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 365 그룹에 의존 하 여 사용자에 게 완전 통합 Office 365 환경을 제공 합니다. 위에서 언급 한 것 처럼 팀은 제한 된 기능으로 이러한 서비스를 완전 하 게 배포 하지 않고 작동 합니다. 팀에 대 한 자세한 내용과 해당 필수 구성 요소를 읽어 보세요. [팀에 오신 것을 환영](teams-overview.md)합니다.
 
 위에 나열 된 각 서비스에 대 한 자세한 내용은 아래 링크를 참조 하세요.
 
@@ -289,10 +289,10 @@ Microsoft 팀은 조직의 모든 직원, 정보 근로자 및 Firstline worker�
 
   - SharePoint는 채널에서 파일을 공유 하는 데 사용 되는 반면, OneDrive for Business는 1:1 또는 그룹 채팅에서 파일을 공유 하는 데 사용 됩니다. 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive에서 Microsoft 팀과 상호 작용 하는 방법을](sharepoint-onedrive-interact.md)읽어 보세요.
 
-  - [Office 365 그룹](office-365-groups.md) 은 팀 및 채널 생성/관리에 사용 됩니다.
+  - [Microsoft 365 그룹](office-365-groups.md) 은 팀 및 채널 생성/관리에 사용 됩니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams IT 아키텍처 및 전화 통신 솔루션 포스터](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

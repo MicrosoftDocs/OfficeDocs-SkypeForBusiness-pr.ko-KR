@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b7c7910c7c876c01d3192e16f49498e508fcd2c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: cd9ee15a1fad0e8fcb228b449bf4cea41da0eeb1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776743"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041745"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>팀으로 업그레이드 하기 전에 환경 평가
 
@@ -59,7 +59,7 @@ ms.locfileid: "43776743"
 
 다음 표를 사용 하 여 Office 365 조직에 대 한 정보를 수집 합니다.
 
-> | 리콜 | 질문 | 메모 |
+> | 리콜 | 질문 | 설명 |
 > |---|---|---|
 > | 프로덕션 Office 365 조직에 유의 하십시오. <br>응답 열의 이름 및 ID <br/>테 넌 트가 두 개 이상 있는 경우 <br>조직과 연결 된 경우 <br>모든 Id를 기록해 둡니다. | 테 넌 트 이름: <br/>테 넌 트 ID:| |
 > | 테 넌 트는 어떤 영역을 배포 하나요?| | |
@@ -77,7 +77,7 @@ ms.locfileid: "43776743"
 
 다음 표를 사용 하 여 기존 공동 작업 플랫폼 배포에 대 한 정보를 수집 합니다.
 
-> | 리콜 | 질문 | 메모 |
+> | 리콜 | 질문 | 설명 |
 > |---|---|---|
 > | Microsoft 팀이 배포 되나요? | <input type="checkbox">' <br/> <input type="checkbox">아니요 | |
 > | 비즈니스용 Skype를 배포 하 고 계십니까? <br/>온-프레미스 및 하이브리드 배포의 경우 다음을 수행 해야 합니다. <br>버전 및 누적 업데이트 (CU ()를 기록해 둡니다. <br>메모 열에 자세히 설명 되어 있습니다. | <input type="checkbox">예, Office 365 <br/> <input type="checkbox">예, 혼성 (Office 365 사용) <br/> <input type="checkbox">예, 온-프레미스 <br/> <input type="checkbox">예, 온라인, 전용 <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">예, 호스팅 가능, 전용 <br>&nbsp;&nbsp; &nbsp;자) <br/> <input type="checkbox">예, 호스팅, 공유 (제 3 자) <br/> <input type="checkbox">아니요, 기타 | |
@@ -95,10 +95,10 @@ ms.locfileid: "43776743"
 
 해당 하는 경우 아래 예제 표를 사용 하 여 팀 배포의 세부 정보를 수집 합니다. 팀을 배포 하지 않은 경우이 섹션을 건너뛰십시오.
 
-> | 리콜 | 질문 | 메모 |
+> | 리콜 | 질문 | 설명 |
 > |---|---|---|
 > | 팀에 대해 어떤 사용자 유형을 사용할 수 있나요? | <input type="checkbox">조직의 모든 사용자 <br/> <input type="checkbox">특정 사용자/사용자 그룹 <br>&nbsp;&nbsp; (메모 열에서 &nbsp;지정) ||
-> | 사용 중인 팀 기능 및 형식을 | <input type="checkbox">채널 기반 대화 <br/> <input type="checkbox">개인 채팅 <br/> <input type="checkbox">게스트 액세스 <br/> <input type="checkbox">채널 모임 <br/> <input type="checkbox">비공개 모임 <br/> <input type="checkbox">비공개 통화 <br/> <input type="checkbox">Ad-hoc 채널 잔 <br/> <input type="checkbox">모임의 비디오 <br/> <input type="checkbox">모임에서 화면 공유 <br/> <input type="checkbox">오디오 회의 <br/><input type="checkbox">응용 프로그램 (앱)<br> &nbsp;&nbsp; 탭 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 봇 &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; 연결선 &nbsp; <input type="checkbox"><br><input type="checkbox">사용자 지정 클라우드 저장소 통합 <br>&nbsp;&nbsp; (Dropbox, Box, sharefile, Google Drive, &nbsp; Egnyte) <br/> <input type="checkbox">채널 전자 메일 통합 <br/> <input type="checkbox">기타 (메모 열에서 지정) | |
+> | 사용 중인 팀 기능 및 형식을 | <input type="checkbox">채널 기반 대화 <br/> <input type="checkbox">개인 채팅 <br/> <input type="checkbox">게스트 액세스 <br/> <input type="checkbox">채널 모임 <br/> <input type="checkbox">비공개 모임 <br/> <input type="checkbox">비공개 통화 <br/> <input type="checkbox">Ad-hoc 채널 잔 <br/> <input type="checkbox">모임의 비디오 <br/> <input type="checkbox">모임에서 화면 공유 <br/> <input type="checkbox">오디오 회의 <br/><input type="checkbox">응용 프로그램 (앱)<br> &nbsp;&nbsp; 탭 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 봇 &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; 연결선 &nbsp; <input type="checkbox"><br><input type="checkbox">사용자 지정 클라우드 저장소 통합 <br>&nbsp;&nbsp; Dropbox, Box, sharefile, Google Drive, Egnyte (곧 출시 &nbsp; 예정) <br/> <input type="checkbox">채널 전자 메일 통합 <br/> <input type="checkbox">기타 (메모 열에서 지정) | |
 > | 팀에 배포 하는 응용 프로그램은 무엇 인가요? | | |
 > | 팀의 접근 권한 값을 구체적으로 차단 했습니까? <br/>예를 들어 메모 열의 세부 정보를 기록해 둡니다. | <input type="checkbox">' <br/> <input type="checkbox">아니요 ||
 > | 사용 중인 팀 클라이언트 | <input type="checkbox">웹 <br/> <input type="checkbox">창을 <br/> <input type="checkbox">Ac <br/> <input type="checkbox">Io <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |
@@ -109,7 +109,7 @@ ms.locfileid: "43776743"
 
 해당 하는 경우 아래 예제 표를 사용 하 여 비즈니스용 Skype Online 배포에 대 한 세부 정보를 수집 합니다. 비즈니스용 Skype Online 배포를 배포 하지 않은 경우이 섹션을 건너뛰십시오.
 
-> | 리콜 | 질문 | 메모 |
+> | 리콜 | 질문 | 설명 |
 > |---|---|---|
 > | Skype에 대해 어떤 유형의 사용자를 사용할 수 있는지 <br>비즈니스용 온라인 | <input type="checkbox">조직의 모든 사용자 <br/> <input type="checkbox">특정 사용자/사용자 그룹 <br>&nbsp;&nbsp; (메모 열에서 &nbsp;지정) | |
 > | 현재 형식을 및 기능 <br>지금 사용 하 고 계십니까? | <input type="checkbox">인스턴트 메시지 및 현재 상태 (IM/P)<br/> <input type="checkbox">Meeting <br/> <input type="checkbox">Federation <br/> <input type="checkbox">모임 녹음/녹화 <br/> <input type="checkbox">Microsoft 오디오 회의 <br/> <input type="checkbox">타사 오디오 회의 <br>&nbsp;&nbsp; (메모 열의 세부 정보를 기록해 둡니다 &nbsp;.) <br/> <input type="checkbox">통화 요금제 (이전의 PSTN 통화) <br/> <input type="checkbox">조직 자동 전화 교환 <br/> <input type="checkbox">통화 대기열 | |
@@ -121,7 +121,7 @@ ms.locfileid: "43776743"
 
 해당 하는 경우 아래 예제 표를 사용 하 여 비즈니스용 Skype 배포에 대 한 세부 정보를 수집 합니다. 비즈니스용 Skype 온-프레미스를 배포 하지 않은 경우이 섹션을 건너뛰십시오.
 
-> | 리콜 | 질문 | 메모 |
+> | 리콜 | 질문 | 설명 |
 > |---|---|---|
 > | 현재 Lync 또는 비즈니스용 Skype 버전 <br>온-프레미스에 배포 됨 | <input type="checkbox">Office Communications Server 2007 "R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">비즈니스용 Skype 서버 2015 <br/> <input type="checkbox">비즈니스용 Skype 서버 2019 <br/> <input type="checkbox">비즈니스용 Skype 클라우드 커넥터 에디션 | |
 > | 비즈니스용 Skype Online이 구성 된 하이브리드이 있나요? | <input type="checkbox">' <br/> <input type="checkbox">아니요 | |
@@ -136,7 +136,7 @@ ms.locfileid: "43776743"
 
 다음 표를 사용 하 여 조직의 네트워킹 세부 정보 및 사용자가 Office 365 서비스에 연결 되는 방법 (또는)을 캡처할 수 있습니다.
 
-> | 리콜 | 질문 | 메모 |
+> | 리콜 | 질문 | 설명 |
 > |---|---|---|
 > | 사용자의 마이그레이션 범위 (또는 방법) <br>팀이 사무실에 있는 동안 액세스 하 고 계십니까? <br/>적용 되는 모든 것을 선택 합니다. | <input type="checkbox">라우팅된 NAT 연결 <br/> <input type="checkbox">프록시 서버 <br/> <input type="checkbox">공개 Wi-fi <br/> <input type="checkbox">관리 (공개 아님) Wi-fi <br/> <input type="checkbox">Express 경로 (Microsoft 피어 링) ||
 > | 프록시 서버를 통해 Office 365에 액세스할 수 있는 경우 <br>프록시를 우회 하는 방법 | <input type="checkbox">' <br/> <input type="checkbox">아니요 | |
@@ -152,7 +152,7 @@ ms.locfileid: "43776743"
 
 사용 중인 클라이언트 및 끝점에 대 한 세부 정보를 캡처하려면 다음 표를 사용 합니다.
 
-> | 리콜 | 질문 | 메모 |
+> | 리콜 | 질문 | 설명 |
 > |---|---|---|
 > | 사용자가 사용 중인 데스크톱 OS는 무엇 인가요? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (메모 열에서 버전을 지정 합니다.) <br/> <input type="checkbox">Linux (메모 열에 분포 지정) <br/> <input type="checkbox">기타 (메모 열의 세부 정보를 참고 하세요.) | |
 > | 배포 되는 Microsoft Office 버전 <br>이 장치에 대 한 자세한 내용을 확인 하세요. | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Mac 용 Office 2011 <br/> <input type="checkbox">Mac 용 Office 2016 <br/> <input type="checkbox">기타 (메모 열의 세부 정보를 참고 하세요.) | |
@@ -165,7 +165,7 @@ ms.locfileid: "43776743"
 
 다음 표를 사용 하 여 환경의 작업 측면에 대 한 세부 정보를 수집 합니다.
 
-> | 리콜 | 질문 | 메모 |
+> | 리콜 | 질문 | 설명 |
 > |---|---|---|
 > | Lync 서버용 운영 모델은 무엇 인가요? <br>비즈니스용 Skype Server 또는 Office 365 배포 <br>오늘로? | | |
 > | 현재 지원 배열에 대 한 개요를 만들 수 있습니다. <br>Lync Server, 비즈니스용 Skype Server 또는 Office 365? | | |
@@ -181,7 +181,7 @@ ms.locfileid: "43776743"
 다음 표를 사용 하 여 조직의 현재 채택 및 준비 상태를 수집 합니다.
 
 >
-> | 리콜 | 질문 | 메모 |
+> | 리콜 | 질문 | 설명 |
 > |---|---|---|
 > | 의 현재 활성 사용량은 무엇 인가요? <br>비즈니스용 Skype | **__** % 총 활성 사용자와 사용 가능한 사용자 비교 | |
 > | 조직에서 사용 하는 방법 <br>비즈니스용 Skype | 1:1 대화 <br>&nbsp;&nbsp; &nbsp; 메신저 <input type="checkbox"> 대화 <br>&nbsp;&nbsp; &nbsp; 전화 <input type="checkbox"> 걸기 <br>&nbsp;&nbsp; 공유 &nbsp; <input type="checkbox"><br> 모임 <br>&nbsp;&nbsp; 회의 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 공유 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; &nbsp; 전화 <input type="checkbox"> 걸기 | |

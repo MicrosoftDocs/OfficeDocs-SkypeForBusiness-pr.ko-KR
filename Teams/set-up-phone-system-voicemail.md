@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '사용자를 위해 클라우드 보이스 메일을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 4f85e8db6f50becb4ae2406e84621c08507e9737
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779734"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042935"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 메일 설정
 
@@ -41,7 +41,7 @@ ms.locfileid: "43779734"
   
 1. 전화 시스템 기능이 요금제에 포함 되어 있지 않은 경우에는 **전화 시스템** 추가 기능 라이선스를 구입 해야 할 수 있습니다. Exchange Online 라이선스를 구입 해야 할 수도 있습니다. [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
     
-2. 비즈니스용 [Office 365에 대 한 라이선스를 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)하 고, [Microsoft 팀 라이선스 할당](assign-teams-licenses.md)및 Exchange Online 라이선스를 비즈니스 사용자에 게 부여 합니다. 이렇게 하면 해당 사용자가 보이스 메일 메시지를 받을 수 있습니다.
+2. 비즈니스용 [Office 365에 대 한 라이선스를 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)하 고, [Microsoft 팀 추가 기능 라이선스를 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)하 고, 비즈니스 사용자에 게 Exchange Online 라이선스를 부여 합니다. 이렇게 하면 해당 사용자가 보이스 메일 메시지를 받을 수 있습니다.
     
 3. 보이스 메일에 대 한 지원은 3 월 2017 (으)로 추가 되었으며 모든 조직 및 사용자에 대해 기본적으로 사용 하도록 설정 되어 있습니다. Windows PowerShell을 사용 하 고 아래 단계를 수행 하 여 조직의 기록을 사용 하지 않도록 설정할 수 있습니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "43779734"
   
 1. 전화 시스템 기능이 요금제에 포함 되어 있지 않은 경우에는 **전화 시스템** 추가 기능 라이선스를 구입 해야 할 수 있습니다. 또한 Exchange Online 라이선스를 구입 해야 합니다. [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
     
-2. 비즈니스용 [Office 365에 대 한 라이선스를 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)하 고, [Microsoft 팀 라이선스 할당](assign-teams-licenses.md)및 Exchange Online 라이선스를 비즈니스 사용자에 게 부여 합니다.
+2. 비즈니스용 [Office 365에 대 한 라이선스를 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)하 고, [Microsoft 팀 추가 기능 라이선스를 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)하 고, 비즈니스 사용자에 게 Exchange Online 라이선스를 부여 합니다.
     
 3. 사용자를 위해 배포 된 온-프레미스 PSTN 호출 솔루션에 맞는 지침을 따르세요. Cloud Connector Edition의 경우 [비즈니스용 Skype 클라우드 커넥터 구성 가이드](https://technet.microsoft.com/library/mt605228.aspx)의 **전화 시스템 음성 및 보이스 메일 서비스 사용** 섹션의 지침을 따릅니다. 비즈니스용 Skype 서버와 PSTN 통화를 하려면, [온-프레미스 엔터프라이즈 음성을 사용할 수 있도록 설정](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)합니다. 직접 라우팅에 대 한 자세한 내용은 전화 번호 구성 및 [다이렉트 라우팅 구성](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)의 **enterprise voice and 보이스 메일 사용** 섹션을 참조 하세요.
 
@@ -135,7 +135,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 - [비즈니스용 Skype 2016 교육](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)

@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 받는 방법을 알아봅니다.
-ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918838"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047386"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -482,6 +482,8 @@ CQD에서 자세한 보고서를 만들고 모임 ID를 필터링 하 여 모임
  
 원격 분석은 반드시 문제를 해결 하는 것은 아니지만, 의사 결정을 확인 하 고 알리는 위치를 보다 잘 파악 하는 데 도움이 될 수 있습니다. 네트워크, 장치, 드라이버 또는 펌웨어 업데이트, 사용 또는 사용자 인가요?
 
+### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>측정에 대 한 통화 및 사용자 개수 값의 0.2% 차이가 표시 되는 이유는 무엇 이며, 가장 정확한 볼륨을 얻는 방법은 무엇 인가요? 
+통화 수 및 사용자 수 측정값을 계산 하려면 데이터 집합의 호출 또는 사용자 식별자에 대해 distinct countif 연산을 수행 합니다. 대규모 데이터 집합에는 distinct countif opinherient에서 0.2% 오류가 발생 합니다. 가장 정확한 볼륨에서는 이러한 distinct countif 연산에 의존 하지 않으므로 스트림 개수 측정값을 사용 해야 합니다. 데이터 볼륨을 줄이기 위해 필터링 하면 오류를 줄일 수 있지만, 개별 통화와 사용자 수에서이 오류 원인을 elimnate 수 없습니다. 영향을 받는 측정값에 대 한 [통화 품질 대시보드에서 사용할 수 있는 차원과 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md) 을 참조 하세요.
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>CQD v2 보고서 데이터가 CQD v3 보고서 데이터와 다르게 보이는 이유는 무엇 인가요? 
 
@@ -530,7 +532,7 @@ EUII를 포함 하 여 CQD에 액세스할 수 있는 역할에 대 한 자세�
 
 CQD 보고서 (isTeams = 1) 에서만 팀을 필터링 하는 경우 *첫 번째 끝점이* 팀 인 모든 통화에 대해 필터링 하 고 있는 것입니다. *두 번째 종점이* 비즈니스용 Skype 인 경우 해당 정보는 CQD 보고서에 표시 됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

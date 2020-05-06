@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft 볼륨 라이선스를 사용 하는 조직의 오디오 회의 기능을 사용 하도록 설정 하는 분당 요금 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139167"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041725"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>오디오 회의 분당 요금
 
@@ -74,7 +74,7 @@ ms.locfileid: "43139167"
   
 ## <a name="want-to-find-out-more-about-pricing"></a>가격에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 
- **가격을 찾으십니까?** [가격을 확인 하 고 추가 기능 라이선스를 구입 하는 방법](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) 또는 다음 중 하나를 참조 하세요.
+ **가격을 찾으십니까?** 다음을 참조 하세요.
   
 - [오디오 회의 가격](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
@@ -82,7 +82,7 @@ ms.locfileid: "43139167"
     
 - [통화 요금제 가격](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
   
 [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

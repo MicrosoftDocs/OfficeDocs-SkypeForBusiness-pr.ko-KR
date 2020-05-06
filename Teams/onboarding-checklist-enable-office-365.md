@@ -16,19 +16,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e40902fdb01ba6c639e37395d9e63c1776c1e83
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 96d5021b9760d8db875ddeb979cf147086eb755e
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777265"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042085"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365 사용
  
 | 아니요 | 활동 또는 작업| 설명| 완료? | 추가 정보|
 |----|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | Microsoft 365 또는 Office 365 조 직 만들기| 조직에서 팀의 혜택을 누릴 수 있으려면 먼저 Microsoft 365 또는 Office 365 조직을 설정 해야 합니다. Microsoft 365 또는 Office 365 조직이 없는 경우 **추가 정보** 열의 지침을 참조 하세요. | | [비즈니스용 Office 365 설정](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) <br/><br/>[추가 지원이 필요한 경우 Office 365 team에 대 한 Microsoft FastTrack을 통해 도움을 받을 수 있습니다.](https://fasttrack.microsoft.com/office) |
-| 2  | Office 365 라이선스 구입 | 팀 구상 단계에서 수행한 작업의 결과에 따라 조달 그룹과 협력 하 여 조직에서 필요한 라이선스 Sku 또는 추가 기능 서비스를 구입 했으며 테 넌 트에 할당할 준비가 되었는지 확인 합니다. | | [Microsoft 팀 용 Office 365 라이선스](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing) <br/><br/>[비즈니스용 Office 365 구독에 대 한 라이선스 구입](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1) |
+| 2  | Office 365 라이선스 구입 | 팀 구상 단계에서 수행한 작업의 결과에 따라 조달 그룹과 협력 하 여 조직에서 필요한 라이선스 Sku 또는 추가 기능 서비스를 구입 했으며 테 넌 트에 할당할 준비가 되었는지 확인 합니다. | | [Microsoft 팀 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) <br/><br/>[비즈니스용 Office 365 구독에 대 한 라이선스 구입](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1) |
 | 3  | 테 넌 트에 Office 365 라이선스 할당 | 일반적으로 사용자 또는 라이선스 관리자는 Microsoft 라이선스의 링크를 수신 하 여 Office 365 조직에 라이선스를 추가 합니다. <br/><br/>라이선스를 구입 하는 데 사용한 채널에 따라 **추가 정보** 열에 나열 된 가이드 중 하나를 방문 해야 할 수 있습니다. | | [제품 키를 사용 하 여 지불한 구독에 라이선스 추가](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53) <br/><br/>[볼륨 라이선스 서비스 센터를 통해 구입한 구독에 라이선스 추가](https://support.office.com/article/Add-licenses-to-a-subscription-purchased-through-the-Volume-Licensing-Service-Center-82ba88fa-ebdf-4d44-a7b3-cea82b25d71a) |
 | 4(tcp/ipv4)  | 선택 사항: 통신 크레딧을 사용 하도록 설정 | 통신 크레딧은 조직의 회의 브리지 전화 번호에 대 한 무료 액세스를 제공 하거나, 회의 이끌이에 게 국제 모임 참가자에 게 전화를 걸 수 있는 기능을 제공 하는 데 사용 하는 선택적 기능입니다. <br/><br/>볼륨 및 라이선스 조직은 표준 오디오 회의 사용자별 라이선스 외에도 분당 유료 서비스를 선택 하 여 오디오 회의 기능을 사용할 수 있습니다. <br/><br/>조직의 통신 크레딧이 필요한 지 여부를 결정 하 고 (해당 하는 경우) 통신 크레딧 추가 기능 라이선스를 테 넌 트에 추가 하 여 사용 하도록 설정 합니다. | | [통신 크레딧이란?](what-are-communications-credits.md) <br/><br/>[조직에 사용할 통신 크레딧 설정](set-up-communications-credits-for-your-organization.md) <br/><br/>[오디오 회의 분당 요금](audio-conferencing-pay-per-minute.md) |
 | 5mb  | Office 365 조직에서 라이선스를 사용할 수 있는지 확인 | Microsoft 365 관리 센터로 이동 하 여 Office 365 조직에서 원하는 라이선스 Sku 및 수량이 표시 되는지 확인 합니다. <br/><br/>이 프로세스를 통해 **추가 정보** 에 대 한 참조를 사용 합니다. | | [비즈니스용 Office 365 구독에는 무엇이 있나요?](https://support.office.com/article/What-Office-365-for-business-subscription-do-I-have-092252f8-08df-4cdb-a8d2-b8653caa29a1) |

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 통화 공원을 사용 하 고 클라우드의 팀 서비스에서 통화를 보류 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905040"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042965"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원 및 Microsoft 팀에서 검색
 
@@ -44,7 +44,7 @@ ms.locfileid: "43905040"
 
 ## <a name="license-required"></a>라이선스 필요
 
-통화를 대기 하 고 검색 하려면 사용자가 엔터프라이즈 음성 사용자 여야 하 고 관리자가 사용자에 게 통화 공원 정책을 부여 해야 합니다. 라이선스 모델에 대 한 자세한 내용은 [Microsoft 팀 용 Office 365 라이선스](office-365-licensing.md)를 참조 하세요.
+통화를 대기 하 고 검색 하려면 사용자가 엔터프라이즈 음성 사용자 여야 하 고 관리자가 사용자에 게 통화 공원 정책을 부여 해야 합니다. 라이선스 모델에 대 한 자세한 내용은 [Microsoft 팀 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)참조 하세요.
 
 ## <a name="call-park-and-retrieve-feature-availability"></a>통화 대기 및 기능 가용성 검색
 

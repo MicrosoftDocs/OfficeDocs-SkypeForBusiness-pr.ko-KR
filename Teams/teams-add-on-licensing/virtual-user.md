@@ -20,14 +20,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 조직의 리소스 계정에 무료 전화 시스템-가상 사용자 라이선스 또는 유료 전화 시스템 사용자 라이선스를 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5a60e757f4ed9dbca67219217257894a8f95a295
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904790"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042415"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템-가상 사용자 라이선스 
+# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템-가상 사용자 라이선스
 
 전화 시스템 라이선스가 있는 사용자는 무료 Microsoft 365 전화 시스템-가상 사용자 라이선스 또는 유료 전화 시스템 사용자 라이선스를 리소스 계정에 할당할 수 있습니다. 통화 요금제는 필요 하지 않습니다. 모든 자동 전화 교환 또는 통화 대기열에는 연결 된 리소스 계정이 필요 합니다. 전화 번호를 필요로 하는 리소스 계정은 무료 Microsoft 365 전화 시스템 (가상 사용자 라이선스) 또는 유료 전화 시스템 사용자 라이선스가 필요 하며, 그 전에 전화번호를 리소스 계정에 적용할 수 있습니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "43904790"
 조직에는 전체 크기에 따라 Microsoft 365 전화 시스템-가상 사용자 라이선스가 할당 됩니다. 전화 시스템을 포함 하 여 최소 하나의 라이선스 또는 전화 시스템을 추가한 조직의 경우 비용 없이 25 개의 가상 사용자 라이선스를 사용할 수 있습니다. 조직에 10 개의 전화 시스템 사용자 라이선스를 추가 하면 Microsoft 365 전화 시스템 (가상 사용자 라이선스)이 한 개 더 제공 됩니다.
 
 > [!NOTE]
-> 전화 시스템은 Office 365 E1 및 E3에서 사용할 수 있는 추가 기능 라이선스입니다. 전화 시스템은 Office 365 E5와 Microsoft 365 Business Voice 라이선스의 일부로도 포함 되어 있습니다.
+> 전화 시스템은 Microsoft 365 및 Office 365 E1 및 E3에서 사용할 수 있는 추가 기능 라이선스입니다. 전화 시스템은 Microsoft 365 E5, Office 365 E5, Microsoft 365 비즈니스 음성 라이선스의 일부로도 포함 됩니다.
 
 조직에서 사용 가능한 Microsoft 365 전화 시스템을 사용 하는 경우 자동 전화 교환 또는 통화 대기열 노드를 만드는 데 가상 사용자 라이선스가 남아 있는 경우에도 리소스 계정으로 유료 전화 시스템 라이선스를 사용할 수 있습니다. 대부분의 조직에는 배율 계획을 기반으로 하는 가상 사용자 라이선스가 충분 합니다. 
 

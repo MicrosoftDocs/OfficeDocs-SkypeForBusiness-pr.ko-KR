@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅에 대 한 로컬 미디어 최적화 구성
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a69a46d7620628c7afffb706354c0f6e7868f3d
-ms.sourcegitcommit: 3dd6499416e9fbdcb48187c6322bd607290502ce
+ms.openlocfilehash: 518445e10b757adc9a21c426fb885bb04b7a878b
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43541595"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047857"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>직접 라우팅에 대 한 로컬 미디어 최적화 구성
 
@@ -71,9 +71,6 @@ ms.locfileid: "43541595"
 |            |  SBC 5400         | 8.2  |
 |            |  SBC 7000         | 8.2  |
 |            |  SBC SWe          | 8.2  |
-| [리본 SBC 가장자리](https://support.sonus.net/display/UXDOC81/Microsoft+Teams+Direct+Routing+-+On+Premises+Deployment)  |  SBC 1000         | 8.1.1, 빌드 527 |
-|            |  SBC 2000         | 8.1.1, 빌드 527 |
-|            |  SBC SWe Lite     | 8.1.0, 빌드 222 |
 | [TE-시스템](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1 + |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
 |        | AP 3900 | 8.4.0.0.0 |
@@ -186,7 +183,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 BypassMode가 정의 된 경우 초대 및 재 초대에 대 한 직접 라우팅에 소개 되는 X MS 헤더:
 
-| 헤더 이름 | 최대값 | 메모 | 
+| 헤더 이름 | 최대값 | 설명 | 
 |:------------|:-------|:-------|
 | X-s i m 사용자 위치 | 내부/외부 | 사용자가 내부 인지 외부 인지 여부를 나타냅니다. |
 | 요청-URI 초대 sip: + 84439263000@VNsbc.contoso.com SIP/2.0 | SBC FQDN | SBC가 직접 라우팅에 직접 연결 되지 않은 경우에도 통화를 대상으로 하는 FQDN입니다. |

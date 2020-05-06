@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '요약: 비즈니스용 Skype 서버 2015 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용 하 여 어떤 클라이언트에서 지원 되는 기능을 파악할 수 있습니다.'
-ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777803"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041955"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 대 한 데스크톱 클라이언트 기능 비교
 
@@ -188,7 +188,7 @@ Skype 간 세션에서 비즈니스용 skype Online 계획 1 사용자는 기능
 |그룹 통화 받기  |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
 |위치 기반 라우팅  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |응답 그룹/팀 호출 그룹 관리 |&#x2714;||&#x2714;|||||||
-
+|자동 전화 교환 통화에 응답 |&#x2714;||&#x2714;|||||||
  &#x2776;이 기능은 비즈니스용 Skype Online에서는 사용할 수 없습니다.
   
 ## <a name="external-users-support"></a>외부 사용자 지원

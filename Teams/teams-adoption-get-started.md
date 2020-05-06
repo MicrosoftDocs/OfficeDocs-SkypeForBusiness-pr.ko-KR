@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 853e897a31b229962acec8f85d8a0a3e966c507b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905860"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041875"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Microsoft 팀의 채택을 시작 하세요.
 
@@ -36,7 +36,7 @@ Microsoft 팀의 채택을 제공 하 여 회사 내에서 뛰어난 사용자 �
 
 시작 하기 전에 다음을 확인 하세요.
 
-- [팀이 설치 되](get-clients.md) 고 환경에 [라이선스가 할당 됩니다](office-365-licensing.md) . 최소 라이선스는 주요 팀과이 초기 프로젝트 단계에 참여 하는 초기 담당자에 게 배정 되어야 합니다.
+- [팀이 설치 되](get-clients.md) 고 환경에 [라이선스가 할당 됩니다](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) . 최소 라이선스는 주요 팀과이 초기 프로젝트 단계에 참여 하는 초기 담당자에 게 배정 되어야 합니다.
 
 - 데스크톱 및 모바일 응용 프로그램을 다운로드 했습니다. 
 

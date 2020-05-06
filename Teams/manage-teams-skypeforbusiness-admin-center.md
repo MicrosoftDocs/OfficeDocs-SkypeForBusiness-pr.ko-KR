@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 43ecac8faedf5f98ce2634db85321eb363c19f20
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: a847d27a53ab406b248f011dd12742b23b69e999
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579071"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041965"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 ======================================================
@@ -52,7 +52,7 @@ ms.locfileid: "43579071"
 |전자 메일 통합     |보낸 사람 목록 허용         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |테 넌 트         |
 |사용자 지정 클라우드 저장소     |확인란이         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자 지정 클라우드 저장소     |상자        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
-|사용자 지정 클라우드 저장소     |Egnyte         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
+|사용자 지정 클라우드 저장소     |Egnyte (출시 예정)        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자 지정 클라우드 저장소     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자 지정 클라우드 저장소     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자/라이선스 유형별 설정     |모든 사용자에 대해 Microsoft 팀 설정 또는 해제          |사용 되지 않음<sup>1</sup>        |         |

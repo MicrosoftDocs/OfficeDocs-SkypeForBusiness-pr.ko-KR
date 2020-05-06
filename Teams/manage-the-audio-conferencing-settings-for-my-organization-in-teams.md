@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '사용자와 다른 여러 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 전화 회의 ID를 할당 하려면 Microsoft 팀의 단계를 참조 하세요. '
-ms.openlocfilehash: 513695cf905c7cb21f332f6b025318253b03334d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b353f119d3f666f0a694ab325273e2b5f568da04
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141161"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042485"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 오디오 회의 설정 관리
 
@@ -39,7 +39,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 ## <a name="assign-an-audio-conferencing-license"></a>오디오 회의 라이선스 할당
 
 > [!NOTE]
-> 팀을 사용 하 여 라이선스를 할당할 수 없습니다. Microsoft 365 관리 센터를 사용 해야 합니다. [비즈니스용 Skype 및 Microsoft 팀 라이선스 할당](assign-teams-licenses.md)을 참조 하세요. 
+> 팀을 사용 하 여 라이선스를 할당할 수 없습니다. Microsoft 365 관리 센터를 사용 해야 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 
   
  **사용자에 게 라이선스를 할당 하려면**
   
@@ -222,7 +222,7 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
   
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [사용자의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 

@@ -16,12 +16,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69874e9d75cea1377b0aae110b5e1b3ce681d84f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e7d167b8e1e868f550067b08f2f7dbfb22cb0a41
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903903"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042105"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Microsoft 팀 핵심 기능 구성
 
@@ -35,5 +35,5 @@ ms.locfileid: "43903903"
 | 26  | 선택 사항: 팀 명명 정책 구성 | 사용자가 팀 이름을 만들거나 편집할 때 Microsoft 365 그룹에 대 한 이름 지정 정책을 활용 하는 팀 <br/><br/>기본적으로 사용자가 팀을 만들 때 명명 제한이 적용 되지 않습니다. <br/><br/>팀 이름에 대 한 규칙을 적용 해야 하는 경우 조직에 적용 되는 Microsoft 365 그룹 명명 정책을 구성 합니다. 필수 접두사와 접미사를 설정 하 고 차단 된 단어를 지정할 수 있습니다. | | [Microsoft 팀에서 팀을 만들 때 Microsoft 365 그룹에 대 한 계획](plan-office-365-groups.md) <br/><br/>[Microsoft 365 그룹 이름 지정 정책](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
 | 7  | 팀 SMTP 도메인에 대 한 Exchange 구성 | 팀은 Exchange Online을 사용 하 여 SMTP 도메인 (email.teams.microsoft.com)이 추가 또는 제거 된 경우이를 사용 하 여 팀 구성원에 게 알림을 보냅니다. <br/><br/>이 SMTP 도메인을 Exchange 인프라의 허용 도메인 목록에 추가 해야 합니다. | | [Exchange Online에서 Microsoft 팀 SMTP 도메인을 허용 도메인으로 추가](smtp-accepted-domain.md) |
 | 20cm(8  | 팀에 대 한 사용자 액세스 구성 및 관리 | 팀의 모든 사용자를 사용 하도록 설정 하는 것이 좋지만 팀 제품 라이선스를 할당 하거나 제거 하 여 사용자 별로 팀에 대 한 액세스를 허용 하거나 허용 하지 않을 수 있습니다. | | [Microsoft 팀에 대 한 사용자 액세스 관리](user-access.md) |
-| 되었는지  | 사용자에 게 라이선스 할당 | 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 사용자에 게 할당 | | [비즈니스용 Skype 및 Microsoft 팀 라이선스 할당](assign-teams-licenses.md)|
+| 되었는지  | 사용자에 게 라이선스 할당 | 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 사용자에 게 할당 | | [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)|
 | 1천만 | 선택 사항: PowerShell을 사용 하 여 팀 관리 | Microsoft 365 관리 센터 대신 PowerShell cmdlet을 사용 하 여 팀 설정을 관리 하 고 관리할 수 있습니다. | | [Microsoft 팀 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |

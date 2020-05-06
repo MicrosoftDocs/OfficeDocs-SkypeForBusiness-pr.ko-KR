@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749575"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042215"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -124,12 +124,12 @@ Teams 모임 추가 기능은 아직 기능적으로 빌드하는 중이므로 �
 
 Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문제 해결 단계를 시도해보세요.
 
+- Windows 7 사용자는 팀 모임 추가 기능을 사용 하기 위해 [windows에서 유니버설 C 런타임에 대 한 업데이트](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) 를 설치 해야 합니다.
 - 팀에서 모임을 예약할 수 있도록 사용자에 게 팀 업그레이드 정책이 있는지 확인 합니다. 자세한 내용은 비즈니스용 [Skype에서 팀으로 업그레이드를](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) 참조 하세요.
 - 사용자에 게 Outlook 추가 기능을 허용 하는 팀 모임 정책이 있는지 확인 합니다. 자세한 내용은 [팀에서 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) 를 참조 하세요.
 - 사용자에 게 팀 데스크톱 클라이언트가 설치 되어 있는지 확인 합니다. 모임 추가 기능은 팀 웹 클라이언트만을 사용 하는 경우에는 설치 되지 않습니다.
-- 사용자에 게 regsvr32를 실행할 수 있는 권한이 있는지 확인 합니다.
+- 사용자에 게 regsvr32를 실행할 수 있는 권한이 있는지 확인 합니다.  자세한 내용 검토https://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
 - Outlook 데스크톱 클라이언트에 대해 사용 가능한 모든 업데이트가 적용 되었는지 확인 합니다.
-- 로그인한 사용자 계정 이름에 공백이 포함되어 있지 않은지 확인합니다. (알려진 문제이며 이후 업데이트에서 수정됩니다.)
 - 다음 단계를 따릅니다:
   - Teams 데스크톱 클라이언트를 다시 시작합니다.
   - 로그아웃한 후 Teams 데스크톱 클라이언트에 다시 로그인합니다.

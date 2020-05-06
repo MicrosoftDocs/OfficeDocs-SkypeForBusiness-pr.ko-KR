@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: b83113df089d22aeab705f0eb4ebc1d808b25c28
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940695"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041935"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 그룹 및 Microsoft 팀
 =====================================
@@ -56,3 +56,11 @@ Office 365 관리자는 Exchange 공유 사서함, SharePoint 문서 라이브�
 그룹 구성원을 드라이브에 저장 하는 위치에 따라 사용자의 그룹 기능 및 기능이 달라 집니다. 예를 들어 팀 구성원을 제거 하면 Office 365 그룹 에서도 제거 됩니다. 그룹에서 제거 하면 팀 클라이언트에서 팀과 채널이 즉시 제거 됩니다. Microsoft 365 관리 센터를 사용 하 여 그룹에서 사용자를 제거 하는 경우에는 더 이상 SharePoint Online 문서 라이브러리, Yammer 그룹 또는 공유 OneNote와 같은 다른 공동 작업에 액세스할 수 없습니다. 그러나 약 2 시간 동안 팀의 채팅 기능에 계속 액세스할 수 있습니다.
 
 팀 구성원을 관리 하는 가장 좋은 방법은 팀 클라이언트에서 구성원을 추가 및 제거 하 여 다른 종속 클라우드 응용 프로그램에 대 한 올바른 연속 된 액세스 제어가 적용 되도록 하는 것입니다. 또한 사용자가 사용 하는 리소스에 대 한 액세스 권한을 갖고 있는 (다음 동기화 주기에서 서비스의 특정 구성 요소에 대 한 액세스를 추가 하거나 해지할 때까지) 연결 되지 않은 환경이 유지 됩니다. 팀 클라이언트 (예를 들어 Microsoft 365 관리 센터, Azure AD 또는 Exchange Online PowerShell을 사용 하 여)를 추가 하거나 제거 하는 경우 팀에 변경 내용이 반영 되도록 최대 24 시간 (경우에 따라)까지 걸릴 수 있습니다.
+
+<a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>모임을 예약 하는 동안 참석자에 게 그룹을 추가할 수 있는 기능
+----------------------------------------------------------
+
+2020 년 5 월부터 시작 하 여 예정 된 모임에 그룹을 초대 하면 다음과 같은 주의 사항이 있습니다.
+1. 기존 Microsoft 365 그룹에서 만든 기존의 모든 Microsoft 365 그룹 및 팀은 검색 가능 하며 모임에 추가 될 수 있습니다. 그러나 구성원은 그룹에 대 한 구독을 기준으로 모임 초대를 받습니다.
+2. 5 월 2018까지 처음부터 만든 팀은 검색 가능 하지만, 구성원은 자신의 기본 그룹 구독에 대 한 "회신만"을 선택 하 여 모임 초대를 받지 않습니다. 이는 Outlook에서 그룹 설정을 수정 하 여 변경할 수 있습니다.
+3. 2018 년 5 월에 처음부터 만든 팀은 검색 가능 하지 않으며 속성 "HiddenFromAddressListsEnabled"을 사용 하 여 숨겨집니다. 관리자가 수정할 수 있는 관리자 제어 설정입니다.

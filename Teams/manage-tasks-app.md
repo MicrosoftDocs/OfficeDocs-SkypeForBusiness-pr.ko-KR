@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ae16216c5975407b3ec1c60a67231edd2ee8f1
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940972"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042495"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 작업 앱 관리
 
@@ -28,7 +28,7 @@ ms.locfileid: "43940972"
 
 ## <a name="overview-of-tasks"></a>작업 개요
 
-Tasks 앱은 Microsoft 팀에 게 긴밀 한 작업 관리 경험을 제공 하 여,이에 대 한 개인 작업을 수행 하 고 팀 작업을 한 곳에 제공 하는 계획을 제공 합니다. 사용자는 팀의 왼쪽에 있는 앱으로 작업에 액세스 하 고 개별 팀 내에서 채널의 탭으로 액세스할 수 있습니다. 사용자는 작업의 **개인 목록과** **팀 목록을** 통해 모든 개인 및 팀 작업을 보고 관리 하 고 작업의 우선 순위를 정할 수 있습니다. 작업은 팀 데스크톱, 웹, 모바일 클라이언트에서 사용할 수 있습니다. 
+Tasks 앱은 microsoft 팀에 게 긴밀 한 작업 관리 환경을 제공 하 여 Microsoft가 제공 [하](https://todo.microsoft.com/tasks/) 는 개인 작업과 Planner에서 제공 하는 팀 작업을 한 곳에 통합 합니다. 사용자는 팀의 왼쪽에 있는 앱으로 작업에 액세스 하 고 개별 팀 내에서 채널의 탭으로 액세스할 수 있습니다. 사용자는 작업의 **개인 목록과** **팀 목록을** 통해 모든 개인 및 팀 작업을 보고 관리 하 고 작업의 우선 순위를 정할 수 있습니다. 작업은 팀 데스크톱, 웹, 모바일 클라이언트에서 사용할 수 있습니다. 
 
 > [!NOTE]
 > 팀 데스크톱 클라이언트에 작업 환경을 배포 하면 앱 이름이 처음에는 사용자에 게 **Planner** 로 표시 됩니다. 그러면 이름이 **Planner에 의해 작업**으로 일시적으로 변경 되 고, 나중에 **는 작업으로 이름이 바뀝니다.** 팀 모바일 클라이언트에서는 사용자가 항상 앱 이름을 **작업**으로 보게 됩니다. 데스크톱 경험을 사용할 수 있게 되 면 모바일 환경의 가용성에 약간의 시간이 걸릴 수 있습니다.

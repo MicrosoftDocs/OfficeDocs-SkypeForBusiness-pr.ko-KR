@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: '& 지역에서 사용할 수 있는 보기 계획을 비롯 하 여 전화 플랜을 설정 하 고, 라이선스를 할당 하 고, 전화 번호를 얻고, 긴급 주소 & 위치를 추가 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140881"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042405"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 
@@ -45,7 +45,7 @@ ms.locfileid: "43140881"
     > [!TIP]
     > Office 365의 **전화 시스템** 라이선스 및 통화 요금제가 함께 이동 하 여 통화 요금제를 구매 하는 옵션을 보려면 먼저 **전화 시스템** 라이선스를 보유 해야 합니다.
   
-2. 먼저 라이선스를 할당 한 다음 조직의 사용자에 게 통화 계획을 할당 합니다. [Microsoft 팀 라이선스 할당](assign-teams-licenses.md)을 참조 하세요.
+2. 먼저 라이선스를 할당 한 다음 조직의 사용자에 게 통화 계획을 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
     
 ## <a name="step-3-get-phone-numbers"></a>3 단계: 전화 번호 가져오기
 다음과 같은 세 가지 방법으로 새 사용자 번호를 얻을 수 있습니다.
@@ -91,7 +91,7 @@ Windows PowerShell을 알고 있는 경우 다음 cmdlet을 사용 하 여 사�
 자세히 알아보려면 [팀 PowerShell 개요](teams-powershell-overview.md)를 참조 하세요.
   
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [전화 번호 전송 자주 묻는 질문](transferring-phone-numbers-common-questions.md)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Microsoft 팀의 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905550"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042585"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 팀의 공유 선 모양
 
@@ -40,7 +40,7 @@ ms.locfileid: "43905550"
 
 사용자에 게는 휴대폰 시스템 (통화 계획 라이선스 또는 다이렉트 라우팅 OnlineVoiceRoutingPolicy)이 대리인 이거나 위임을 설정 하 고 다른 사용자가 자신을 대신 하 여 전화를 걸거나 받을 수 있도록 해야 합니다.
 
-관리자와 대리인 모두 PSTN 연결 (통화 계획 라이선스 또는 다이렉트 라우팅 OnlineVoiceRoutingPolicy)의 전화 시스템을 사용 해야 합니다. 공유 회선 환경은 위임의 일부 이며 전화 시스템에 포함 되어 있습니다. 라이선스 모델에 대 한 자세한 내용은 [Microsoft 팀 용 Office 365 라이선스](office-365-licensing.md)를 참조 하세요.
+관리자와 대리인 모두 PSTN 연결 (통화 계획 라이선스 또는 다이렉트 라우팅 OnlineVoiceRoutingPolicy)의 전화 시스템을 사용 해야 합니다. 공유 회선 환경은 위임의 일부 이며 전화 시스템에 포함 되어 있습니다. 라이선스 모델에 대 한 자세한 내용은 [Microsoft 팀 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)참조 하세요.
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>위임 및 공유 선 모양 구성
 

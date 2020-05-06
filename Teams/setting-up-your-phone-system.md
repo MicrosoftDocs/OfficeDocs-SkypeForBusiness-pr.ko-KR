@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Office 365에서 조직의 전화 시스템 (클라우드 PBX)을 설정 하는 방법을 설명 하는 단계별 가이드입니다.
-ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 01e5016761481a49af5a2946dd151acb7c3930ea
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905570"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042435"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
@@ -40,7 +40,7 @@ ms.locfileid: "43905570"
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>2 단계: 전화 시스템 및 통화 계획 라이선스 구입 및 할당
 
-전화 시스템 및 통화 계획 라이선스를 단일 사용자에 게 할당 하려면 Office 365 라이선스를 할당 하는 것과 같은 단계를 수행 합니다.  라이선스를 여러 사용자에 게 대량으로 배정할 수도 있습니다. 자세한 내용은 [Microsoft 팀 라이선스 할당](assign-teams-licenses.md)을 참조 하세요.
+전화 시스템 및 통화 계획 라이선스를 단일 사용자에 게 할당 하려면 Office 365 라이선스를 할당 하는 것과 같은 단계를 수행 합니다.  라이선스를 여러 사용자에 게 대량으로 배정할 수도 있습니다. 자세한 내용은 [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
 
 해당 국가나 지역에 대 한 통화 요금제를 사용할 수 없는 경우 직접 라우팅 기능을 사용 하 여 온-프레미스 전화 통신 인프라를 전화 시스템에 연결 하는 것이 좋습니다.  자세한 내용은 [전화 시스템 직접 라우팅을](direct-routing-landing-page.md)참조 하세요.
 
@@ -141,7 +141,7 @@ Microsoft 팀에 무료 전화 번호를 사용 하려면 통신 크레딧을 �
 통신 크레딧 청구를 설정 하지 않고 사용자에 게 **통신 크레딧** 라이선스를 할당 하지 않으면 해당 국가/지역의 통화 요금제 또는 오디오 회의 요금제에 따라 해당 사용자가 오디오 회의 모임에서 통화 하거나 전화를 걸 수 없습니다. 권장 자금 액수를 포함 하 여 자세한 내용은 [통신 크레딧을 소개](what-are-communications-credits.md) 하 고 [조직의 통신 크레딧을 설정](set-up-communications-credits-for-your-organization.md)하세요.
   
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
