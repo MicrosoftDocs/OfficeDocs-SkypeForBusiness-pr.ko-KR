@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8db4565b4a9b1fd5e984640b20d3eaacbed24a37
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978490"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042395"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 평가판 관리
 ==============================
@@ -59,7 +59,7 @@ E1 평가판 프로모션 코드를 사용한 후에는 이 코드를 다시 사
 
 ## <a name="manage-the-e1-trial"></a>E1 평가판 관리
 
-Office 365 E1 평가판을 활성화한 후에는 라이선스가 필요한 모든 용도에 대해 라이선스를 켭니다. 자세한 방법은 [Teams에 대한 사용자 액세스 관리](user-access.md#manage-teams-through-the-microsoft-365-admin-center)를 참조하세요.
+Office 365 E1 평가판을 활성화한 후에는 라이선스가 필요한 모든 용도에 대해 라이선스를 켭니다. 자세한 방법은 [Teams에 대한 사용자 액세스 관리](user-access.md)를 참조하세요.
 
 
 E1 평가판이 필요한 사용자에 대해 E1 평가판을 켜면 유료 라이선스를 보유한 사용자를 관리하는 것처럼 이러한 사용자를 관리하게 됩니다. 자세한 내용은 [조직에서 Teams 설정 관리](enable-features-office-365.md)를 참조하세요.
@@ -76,7 +76,7 @@ E1 평가판 사용자를 유료 구독으로 업그레이드하려면 다음을
 
 3. 새로 구매한 라이선스를 할당합니다.
 
-자세한 내용은 [Microsoft Teams 사용을 위한 Office 365 라이선싱](Office-365-licensing.md)을 참조하세요.
+자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요.
 
 > [!NOTE]
 > E1 평가판 라이선스가 종료되고 사용자가 Teams을 포함하는 구독으로 즉시 업그레이드 되지 않는 경우 사용자의 데이터는 제거되지 않습니다. 사용자는 여전히 Azure Active Directory에 존재하고 Teams 내의 모든 데이터는 계속 유지됩니다. Teams의 기능을 다시 사용할 수 있도록 사용자에게 새 라이선스가 할당되면 모든 콘텐츠가 계속 존재하게 됩니다. 
@@ -90,7 +90,7 @@ E1 평가판 사용자를 유료 구독으로 업그레이드하려면 다음을
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams에 대한 사용자 액세스 관리](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Teams에 대한 사용자 액세스 관리](user-access.md)
 
 [조직의 Teams 설정 관리](enable-features-office-365.md)
 
