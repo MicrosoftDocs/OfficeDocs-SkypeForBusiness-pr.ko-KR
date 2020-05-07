@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcda9b15a3bfe5204bc410728449672707e614fd
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+ms.openlocfilehash: 73193c1979e2db3632f84e762b9c716ab46a7e56
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047767"
+ms.locfileid: "44064423"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -131,7 +131,9 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |------------|---------------|
 |대상 그룹 크기 | 10,000 참석자 |
 |이벤트 기간 | 4시간 |
-|Office 365 조직의 동시 라이브 이벤트 | 15 |
+|Office 365 조직에서 실행되는 동시 라이브 이벤트 <sup>1</sup> | 15 |
+
+<sup>1</sup> 여러 라이브 이벤트를 원하는 대로 예약할 수 있지만, 한 번에 15개만 실행할 수 있습니다. 프로듀서가 라이브 이벤트에 참가하는 즉시 실행 중인 것으로 간주합니다. 16번째 라이브 이벤트에 참가하려고 시도하는 프로듀서는 오류 메시지를 받습니다.
 
 라이브 이벤트와 Teams 라이브 이벤트와 Skype 모임 브로드캐스트 비교에 대한 자세한 내용은 [Teams 라이브 이벤트 및 Skype 모임 브로드캐스트](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)를 참조하세요.
 

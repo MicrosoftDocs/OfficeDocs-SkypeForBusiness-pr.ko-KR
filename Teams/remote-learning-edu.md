@@ -18,19 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7fcdb92005b5094a4e54ecf95d30b227fee1ae8
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: c9a87acce75568716eb4c4cf2dac4ecb6c03959d
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042465"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139241"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
 > [!NOTE]
-> 이 문서는 학교에 원격 학습을 설정하는 데 유용한 리소스입니다. 교육자, 학교 리더 혹은 IT 전문가라면 이 리소스가 도움이 될 수 있습니다. 
+> 이 문서는 교육 기관에 원격 학습을 설정하는 데 유용한 리소스입니다. 교육자, 교육 리더 혹은 IT 전문가의 경우 이 리소스가 도움이 될 수 있습니다. 
 >
-> - [**One-Pager 시작하기**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)를 통해 학교 혹은 대학 전체에서 Teams를 사용하세요. 
+> - [**One-Pager 시작하기**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)를 통해 교육 기관 전체에서 Teams를 사용하세요.
 > - [**Teams 시작하는 방법**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) 다운로드: 보안 및 변경 관리에 도움이 되는 IT 전문가용 가이드입니다.
 > - [**Teams에서 교육하는 데 가장 중요한 첫 단계**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)에 대한 방법 지침을 포함하는 교육자용으로 작성된 문서 모음입니다.
 > - Microsoft 교육자 센터의 1시간 온라인 과정에서는 교육자들이 전문 라이브에서 Teams를 사용하는 방법을 보여줍니다. [**Microsoft Teams를 사용하여 학습하도록 변환**](https://education.microsoft.com/course/9c9f5c11/overview).
@@ -44,7 +44,7 @@ ms.locfileid: "44042465"
 
 Microsoft Teams는 대화, 콘텐츠, 과제, 앱을 한 곳으로 가져오는 디지털 허브로, 교육자에게 생생한 학습 환경을 만들어 줍니다. 단일 환경에서 공동 작업 교실을 만들고, 전문 학습 커뮤니티에 연결하고, 동료와 연결할 수 있습니다.
 
-Teams 내에서 교육자는 신속하게 학생들과 함께 대화하고 파일 및 웹 사이트를 공유하고 OneNote 수업용 전자 필기장을 만들고 과제를 배포하고 등급을 지정할 수 있습니다. 기본으로 제공되는 OneNote 수업용 전자 필기장 및 엔드투엔드 과제 관리를 통해 교육자는 대화형 수업을 구성하고 효과적이고 적시에 피드백을 제공할 수 있습니다. 학교 관리자와 직원은 발표 및 주제별 대화에 직원 Teams를 사용하여 최신 정보를 얻고 공동으로 작업할 수 있습니다. 교육자는 전문 학습 커뮤니티를 사용하여 교육용 자료를 공유할 수 있습니다.
+Teams 내에서 교육자는 신속하게 학생들과 함께 대화하고 파일 및 웹 사이트를 공유하고 OneNote 수업용 전자 필기장을 만들고 과제를 배포하고 등급을 지정할 수 있습니다. 기본으로 제공되는 OneNote 수업용 전자 필기장 및 엔드투엔드 과제 관리를 통해 교육자는 대화형 수업을 구성하고 효과적이고 적시에 피드백을 제공할 수 있습니다. 교육 기관 관리자와 직원은 발표 및 주제별 대화를 진행할 때 직원 Teams를 사용하여 최신 정보를 유지하고 공동으로 작업할 수 있습니다. 교육자는 전문 학습 커뮤니티를 사용하여 교육용 자료를 공유할 수 있습니다.
 
 이 문서에 제공되는 모범 사례를 사용하여 교육용 Teams를 시작하여 원격 학습 기능을 사용하도록 설정합니다. 수업 팀을 사용하여 공동 작업 수업 공간을 만들고, 가상 모임 플랫폼을 제공하고, 과제와 피드백을 통해 학습을 촉진하고 학생들과의 라이브 전화를 주도합니다.
 
@@ -58,7 +58,7 @@ Teams는 Microsoft 365 기능을 활용하여 사용자를 인증하고 서비�
 
 Teams 기능을 사용하려면 [사용자에 대해 Teams 라이선스를 사용할 수 있도록 설정](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)하고 [l라이선스를 사용자에게 할당해야 합니다](teams-edu-licensing.md). Teams는 [Microsoft 365 그룹](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint 및 OneDrive](SharePoint-OneDrive-interact.md)와 같은 추가 Microsoft 365 기능을 사용하여 공동 작업 시나리오를 지원합니다. 이러한 모든 서비스도 사용하도록 설정하면 사용자에게는 최상의 Teams 환경이 제공됩니다. [Teams는 Google에서 전자 메일이 호스트되는 사용자에 대해 지원됩니다.](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)
 
-Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 A1에 포함되어 있습니다. Office 365를 배포하고 전체 학교가 Teams를 시작하도록 하는 방법에 대한 IT 지침은 [이 페이지](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)에서 확인하세요. 지원이 필요한 경우 [여기](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)에서 티켓을 제출할 수 있으며 Teams의 교육은 해당 Microsoft 스토어를 방문하여 전문가와 대화할 수 있습니다.
+Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 A1에 포함되어 있습니다. Office 365를 배포하고 전체 교육 기관이 Teams를 시작하도록 하는 방법에 대한 IT 지침은, [이 페이지](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)에서 확인하세요. 지원이 필요한 경우 [여기](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)에서 티켓을 제출할 수 있으며 Teams의 교육은 해당 Microsoft 스토어를 방문하여 전문가와 대화할 수 있습니다.
 
 > [!NOTE]
 > EDU 배포에 대한 최신 정보는 [COVID-19 동안의 M365 EDU 배포에 대한 업데이트된 지침](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)을 검토하세요.
@@ -71,7 +71,7 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 학생과 교사는 문제를 최소화하면서 Teams를 사용하고, 필요에 맞게 유연하게 조정할 수 있습니다. Teams 환경을 조정하는 한 가지 방법은 본인의 요구에 맞는 팀을 만들 수 있도록 지원하는 것입니다. **기본적으로 모든 사용자는 Microsoft 365 그룹 및 Teams를 만들 수 있습니다.** 경우에 따라 이 기능이 적절하지 않을 수도 있습니다. 예를 들어, 일부 고객은 초등 및 중학교 학생이 팀을 만들지 못하도록 제한하려고 할 수 있습니다. 필요한 경우 Office 365 그룹 및 팀 만들기는 해당 환경의 [특정 보안 그룹으로 제한](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)될 수 있습니다.
 
-고등 교육 고객은 학생을 포함하는 모든 관계자가 수업, 연구, 그룹 프로젝트 및 연구 그룹을 위한 팀을 만들도록 하여 유용하게 작업할 수 있습니다. 초등 및 중학교는 학생들이 팀을 만들지 못하도록 제한하여 모든 학생 간 커뮤니케이션이 성인을 포함하는 포럼 내에서 진행되도록 할 수 있습니다. 이 경우 Office 365 그룹 및 팀 만들기는 모든 교사와 직원으로 제한될 수 있습니다.
+고등 교육 기관은 학생을 포함하는 모든 관계자들이 수업, 연구, 그룹 프로젝트 및 연구 그룹을 위한 팀을 만들도록 하여 유용하게 작업할 수 있습니다. 초등 및 중학교는 학생들이 팀을 만들지 못하도록 제한하여 모든 학생 간 커뮤니케이션이 성인을 포함하는 포럼 내에서 진행되도록 할 수 있습니다. 이 경우 Office 365 그룹 및 팀 만들기는 모든 교사와 직원으로 제한될 수 있습니다.
 
 팀을 만드는 방법은 [Microsoft Teams에서 수업 만들기를](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) 참조 하세요.
 
@@ -82,47 +82,15 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 [Teams 정책](teams-policies.md)에서는 특정 사용자 또는 사용자 그룹에 대해 제공되는 옵션을 제어할 수 있습니다. 비공개 채팅, 비공개 통화, 모임 예약, 공유할 수 있는 콘텐츠 형식 등을 사용할 수 있는 사용자를 정의하는 정책을 적용할 수 있습니다.
 
+> [!IMPORTANT]
+> 당사의 학생과 교사를 위한 최신 정책 지침은[교육용 Teams 정책 및 정책 패키지](policy-packages-edu.md)에서 확인할 수 있습니다.
+
 **고등 교육 담당자, 교육자 및 학생**은 기본(전역) 정책에 포함된 기능을 활용할 수 있습니다. 몇 가지 추가 정책 설정을 사용하여 Teams에 더 많은 기능을 추가할 수 있습니다. [메시징 정책에서 번역 기능을 사용하도록 설정하고](messaging-policies-in-teams.md#messaging-policy-settings)고 [자동 모임 전사를 허용하여 필사를 허용하여 ](meeting-policies-in-teams.md#allow-transcription)에서 자동 모임 전사를 추가할 수 있습니다.
 
 **초등 및 중학교 학생**은 학생에게 제공된 제한된 기능이 필요할 수 있습니다. 정책은 학생이 할 수 있는 작업에 대한 경계를 설정합니다. 학생 인구는 일반적으로 종종 가장 큰 사용자 집합으로, 가장 제한적인 설정이 적용되므로, ‘전역(조직 전체 기본값)’ 정책에서 학생 정책을 변경하는 것이 좋습니다.
 
 > [!IMPORTANT]
 > 모든 사용자에게 할당된 모임 정책의 경우 "자동으로 사용자 관리" 설정을 "조직의 모든 사람"으로 설정하는 것이 좋습니다. 이 설정은 인증되지 않은 사용자가 Teams 회의에 참여하기 전에 로비에서 입장을 허가 받도록 합니다. 자세한 내용은 [Teams에서 회의 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)를 참조하세요.
-
-다음은 학생 간에 적절하지 않은 커뮤니케이션을 제한하기 위해 초등 및 중학생에게 할당된 일반적인 비기본 정책 구성 집합입니다.
-
-#### <a name="messaging-policy"></a>메시징 정책
-
-- 보낸 메시지 삭제를 ‘해제’로 설정
-- 보낸 메시지 편집을 ‘해제’로 설정
-- Giphy 콘텐츠 등급을 'strict'로 설정
-- 메시지 번역을 'on'으로 설정
-- 우선 순위 알림을 사용하여 긴급 메시지 보내기를 'off'로 설정
-- 그룹 채팅에서 학생 제거를 'off'로 설정
-
-#### <a name="meeting-policy"></a>모임 정책
-
-- 이제 채널에서 모임 허용을 ‘off’로 설정
-- Outlook 추가 기능 허용을 ‘off’로 설정
-- 채널 모임 예약을 ‘off’로 설정
-- 'off'로 설정된 비공개 모임 예약 허용
-- 'off'로 설정된 비공개 모음에서 모임 시작 허용
-- 옵션: IP 비디오 ‘사용’ 설정을 허용
-
-> [!NOTE]
-> 교육자들이 실시간으로 학생들의 비디오를 볼 수 있습니다.
-
-#### <a name="live-events-policy"></a>라이브 이벤트 정책
-
-- 'off'로 설정된 일정 예약 허용
-
-#### <a name="calling-policy"></a>통화 정책
-
-- 'off'로 설정된 개인 전화 걸기
-
-#### <a name="teams-policy"></a>Teams 정책
-
-- 'off'로 설정된 개인 채널 만들기
 
 **초등학교 교직원 및 교사**는 학생에게 제한될 수 있는 핵심 기능을 허용하는 정책이 할당되어야 합니다. 비공개 채팅 및 모임 예약(새 정책의 기본 설정)을 허용하는 새 정책을 만듭니다. [일괄 정책 할당을 통해 직원과 교육자에게 이 정책을 대량으로 할당합니다](batch-policy-assignment-edu.md).
 
@@ -132,14 +100,14 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 교육용 Microsoft Teams는 교육용 [특별 팀 유형](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)을 제공합니다. [수업 팀 유형](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)은 학생을 위한 읽기 전용 콘텐츠를 보호하기 위한 특정 기능(예: 과제, OneNote 교실 전자 필기장, [수업 자료 폴더](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988))과 수업을 방해하는 학생을 음소거하는 기능이 있는 교실을 위해 디자인되었습니다. 수업 팀을 배포할 수 있는 몇 가지 방법은 다음과 같습니다.
 
-1. SDS([School Data Sync](https://sds.microsoft.com/))는 **IT 부서**에서 설정할 수 있으며, 학교 정보 시스템의 정보를 기준으로 모든 수업에 대한 수업 팀을 만들 수 있도록 합니다. 이 프로세스를 통해 섹션별 그룹을 프로비저닝하고, 등록 변경에 따른 강사와 학생 명단의 동기화를 유지합니다. 교사는 [이 프로세스를 사용하여](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) 이러한 그룹을 수업 팀으로 변환할 수 있습니다. 수업 팀이 만들어지면 [교사에게 팀을 준비할 수 있는 기능](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) 이 먼저 주어진 다음에 학생을 입학시킵니다. SDS는 데이터 가져오기를 위한 80종 이상의 다양한 SIS(School Information Systems)를 지원하고  [SDS 지원 팀](https://aka.ms/SDSSupport) 은 계획 및 구성을 지원할 준비를 갖추고 있습니다. [원격 교육을 위한 빠른 배포 가이드](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)를 참조하여 빠르게 시작할 수 있습니다.
+1. SDS([학교 데이터 동기화](https://sds.microsoft.com/))는 **IT 부서**에서 설정할 수 있으며, 교육 기관 정보 시스템의 정보를 기반으로 모든 수업에 대한 수업 팀을 만들 수 있도록 해줍니다. 이 프로세스를 통해 섹션별 그룹을 프로비저닝하고, 등록 변경에 따른 강사와 학생 명단의 동기화를 유지합니다. 교사는 [이 프로세스를 사용하여](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) 이러한 그룹을 수업 팀으로 변환할 수 있습니다. 수업 팀이 만들어지면 [교사에게 팀을 준비할 수 있는 기능](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) 이 먼저 주어진 다음에 학생을 입학시킵니다. SDS는 데이터 가져오기를 위한 80종 이상의 다양한 SIS(School Information Systems)를 지원하고  [SDS 지원 팀](https://aka.ms/SDSSupport) 은 계획 및 구성을 지원할 준비를 갖추고 있습니다. [원격 교육을 위한 빠른 배포 가이드](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)를 참조하여 빠르게 시작할 수 있습니다.
 1. **교육자는 자신의 고유한 수업 유형 팀을 설정**하고 학생을 초대합니다. 교사는 [팀에 학생을 추가하거나](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [참가 코드를 공유하거나](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f), [팀에 대한 링크를 공유하여](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) 이 작업을 수행할 수 있습니다. 가능한 경우, 교육자들이 팀에 학생을 추가하여 학생들에게 액세스 권한을 부여하고, 팀에 추가되었음을 알리는 것이 좋습니다.
 
 팀 설정 후 팀 소유자는 [팀 사진](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0)을 추가하는 것을 비롯하여, [팀의 설정을 사용자 지정하고](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158), 수업 과목 또는 그룹 공동 작업 영역을 위한 [채널을 만들고](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45), Quizlet/Flipgrid/Kahoot와 같은 [앱을 추가](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)하여 기존 교육용 콘텐츠를 표시하고, [첫 번째 게시물을 팀에게 언급하여](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2) 모든 사람에게 알리고 대화를 시작할 수 있습니다.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>직원 커뮤니케이션 및 공동 작업을 위한 직원 팀 만들기
 
-[교직원 유형 팀](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf)은 학교 관리자와 직원이 정보를 쉽게 공유하고, 학교 차원 이니셔티브에 따라 공지 발표, 모임 설정, 콘텐츠 공유, [작업 추적용 플래너](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2)와 같은 외부 앱 도입을 비롯한 작업을 수행하도록 디자인되었습니다. 학교 관리자는 팀 만들기 마법사를 통해 팀에 학교 교직원 구성원을 추가하고, [팀이 생성된 후에 구성원을 추가하거나](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9), [참가 코드 또는 링크를 팀과 공유](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)할 수 있습니다. [채널 만들기](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525)는 작업 흐름 또는 주제별로 대화 및 파일을 구성하기에 좋은 방법입니다. [팀 소유자를 위한 가이드로 이동](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4)은 팀 소유자 업무 및 기능을 파악하는 데 유용한 위치이다.
+[교직원 유형 팀](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf)은 교육 기관 관리자와 직원이 정보를 쉽게 공유하고 공지 발표, 모임 설정, 콘텐츠 공유, [작업 추적용 플래너 ](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2)와 같은 외부 앱 도입 등을 포함하여 교육 기관 차원의 이니셔티브를 함께 작업하도록 설계되었습니다. 교육 기관 관리자는 팀 만들기 마법사를 통해[팀이 생성된 후에 구성원을 추가](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9)하거나 혹은 [참가 코드 또는 팀으로의 링크를 공유](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)하여 팀에 교직원 구성원을 추가할 수 있습니다. [채널 만들기](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525)는 작업 흐름 또는 주제별로 대화 및 파일을 구성하기에 좋은 방법입니다. [팀 소유자를 위한 가이드로 이동](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4)은 팀 소유자 업무 및 기능을 파악하는 데 유용한 위치이다.
 
 ## <a name="teams-meeting-scenarios"></a>Teams 모임 시나리오
 
@@ -164,7 +132,7 @@ Teams에서 모임 조직자는 모든 참여자에 대한 모임을 종료할 �
 
 Teams는 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹 사서함의 Outlook 정책](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. **-SetPhotoEnabled** 설정이 해제되어 있으면 사용자는 자신의 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 학생이나 교직원이 자신의 프로필 사진을 변경하거나 제거하지 못하게 하려면 자신에게 할당된 웹 사서함 정책의 Outlook에서 이 설정을 해제하세요.
 
-예를 들어, 학생이 학교의 IT 또는 HR 부서에서 승인한 프로필 사진을 업로드할 경우, 별도의 조치가 필요하지 않습니다. 그러나 학생이 부적절한 사진을 업로드한다면 학교 내부 정책에 따라 사진을 변경하세요.  
+예를 들어, 학생이 교육 기관의 IT 또는 HR 부서에서 승인한 프로필 사진을 업로드할 경우, 별도의 조치가 필요하지 않습니다. 그러나 학생이 부적절한 사진을 업로드한다면 교육 기관 내부 정책에 따라 사진을 변경하세요.
 
 ## <a name="adoption-content"></a>채택 콘텐츠
 
