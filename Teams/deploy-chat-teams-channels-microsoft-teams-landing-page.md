@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 1f503bbfbc582fc3713a9f40e435382772e7ab63
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901943"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041845"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -151,11 +151,11 @@ Teams에서의 앱의 배포 및 관리에 대한 자세한 내용은 당사의 
 
 ### <a name="teams-licensing"></a>Teams 라이선싱
 
-Teams는 많은 Office 365 라이선스의 일부로 제공됩니다. Teams 라이선싱에 대한 자세한 내용은 [Teams용 Office 365 라이선싱](office-365-licensing.md)을 참조하세요.
+Teams는 많은 Office 365 라이선스의 일부로 제공됩니다. Teams 라이선싱에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-|사용자는 배포하려는 모든 Teams의 기능을 사용하기 위해 필요한 라이선스가 있나요? | 라이선스 요구 사항에 대한 내용은 [Teams용 Office 365 라이선싱](office-365-licensing.md)을 참조하세요.|
+|사용자는 배포하려는 모든 Teams의 기능을 사용하기 위해 필요한 라이선스가 있나요? | 라이선싱 요구 사항에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 읽어 보세요.|
 |||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 및 SharePoint 상호 운용성 

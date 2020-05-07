@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ae8079ba3ccd498936c5d17740ea2e5bafb514
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858723"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042815"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Office 365 G1 평가판 관리 미국 정부 기관용 
 ==============================
@@ -55,7 +55,7 @@ G1 평가판 프로모션 코드를 사용한 후에는 이 코드를 다시 사
 
 ## <a name="manage-the-g1-trial"></a>G1 평가판 관리
 
-Office 365 G1 평가판을 활성화한 후에는 라이선스가 필요한 모든 용도에 대해 라이선스를 켭니다. 자세한 방법은  [Teams에 대한 사용자 액세스 관리](user-access.md#manage-teams-through-the-microsoft-365-admin-center)를 참조하세요.
+Office 365 G1 평가판을 활성화한 후에는 라이선스가 필요한 모든 용도에 대해 라이선스를 켭니다. 자세한 방법은  [Teams에 대한 사용자 액세스 관리](user-access.md)를 참조하세요.
 
 G1 평가판이 필요한 사용자에 대해 G1 평가판을 켜면 유료 라이선스를 보유한 사용자를 관리하는 것처럼 이러한 사용자를 관리하게 됩니다. 자세한 내용은  [조직에서 Teams 설정 관리](enable-features-office-365.md)를 참조하세요.
 
@@ -82,7 +82,6 @@ G1 평가판 사용자를 유료 구독으로 업그레이드하려면 다음을
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams에 대한 사용자 액세스 관리](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Teams에 대한 사용자 액세스 관리](user-access.md)
 
 [조직의 Teams 설정 관리](enable-features-office-365.md)
-

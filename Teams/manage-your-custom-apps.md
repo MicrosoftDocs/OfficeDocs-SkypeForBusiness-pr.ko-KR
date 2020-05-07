@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 개발에서 배포에 이르기까지 사용자 지정 팀 앱을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8166ba6b46853510a9f4e966ddca4e5b8686b551
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006061"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064533"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Microsoft 팀에서 사용자 지정 앱 관리
 
@@ -134,12 +134,16 @@ Microsoft는 <a href="https://docs.microsoft.com/microsoftteams/platform/publish
 * 봇이 추가 되거나 제거 되었습니다.
 * 기존 봇의 "botId" 속성이 변경 됨
 * 기존 봇의 "isNotificationOnly" 속성이 변경 됨
-* bot "supportsFiles" 속성이 변경 되었습니다.
+* Bot "supportsFiles" 속성이 변경 되었습니다.
 * 메시징 확장이 추가 또는 제거 됨
 * 새 커넥터가 추가 되었습니다.
 * 새 정적 탭이 추가 되었습니다.
 * 구성 가능한 새 탭이 추가 되었습니다.
-* "webApplicationInfo" 내의 속성 변경 됨
+* "WebApplicationInfo" 내의 속성 변경 됨
+
+![새 버전을 사용할 수 있는 앱을 표시 하는 앱 목록 스크린샷](media/manage-your-custom-apps-update1.png)
+
+![앱의 업그레이드 옵션 스크린샷](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-apps"></a>관련 앱
 

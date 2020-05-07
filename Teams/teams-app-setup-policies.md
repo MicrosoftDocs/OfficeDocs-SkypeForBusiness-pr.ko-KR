@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 55b43e9fe156a2b3707cb5e99c57239345bf031e
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749825"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064483"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
@@ -183,6 +183,10 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>사용자가 정책을 통해 고정 된 앱의 순서를 변경할 수 있나요?
 
 **사용자 고정 허용** 옵션이 설정 되어 있는 경우 사용자는 팀 데스크톱 및 모바일 클라이언트에서 고정 된 앱의 순서를 변경할 수 있습니다. 사용자는 팀 웹 클라이언트에서 고정 된 앱의 순서를 변경할 수 없습니다.
+
+#### <a name="does-user-pinning-take-precedence"></a>사용자 고정이 우선적으로 적용 되나요?
+
+사용자에 게 할당 된 앱 설정 정책이 사용자 앱 고정을 차단 하도록 변경 되는 경우 팀은 앱 표시줄에 고정 된 앱을 제거 합니다. 그런 다음 사용자 앱 고정을 허용 하도록 정책이 변경 되는 경우 사용자는 이전에 고정 된 앱을 다시 고정 해야 합니다.
 
 ### <a name="custom-teams-apps"></a>사용자 지정 팀 앱
 

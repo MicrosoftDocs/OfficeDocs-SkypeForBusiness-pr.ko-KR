@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: dcda9b15a3bfe5204bc410728449672707e614fd
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950973"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047767"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -110,7 +110,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 |기능     | 최대 한도 |
 |------------|---------------|
-|모임에 참가 중인 사용자 수  | 250    |
+|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 250    |
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않은 [모임 녹화](cloud-recording.md)를 보관하며 로컬로 다운로드할 수 있습니다. | 20일 |
@@ -139,7 +139,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 > **Microsoft 365 라이브 이벤트 한도가 늘어납니다**
 > 
 > 고객들이 급변하는 통신 요구 사항을 충족시키는 데 도움을 주기 위해 Microsoft 365 라이브 이벤트는 Teams에서 호스트하는 라이브 이벤트에 대한 기본 한도를 2020년 7월 1일까지 일시적으로 늘릴 것입니다. 다음의 한도 확장은 2020년 4월말에 반영되고 있습니다.
-> - 참석자 제한: 이벤트는 최대 20,000명의 참석자 지원이 가능 
+> - 참석자 제한: 이벤트는 최대 20,000명의 참석자를 지원할 수 있습니다.
 > - 동시 이벤트: 한 테넌트에 걸쳐 동시에 50개의 이벤트 호스트가 가능
 > - 이벤트 기간: 이벤트 시간이 브로드캐스트 당 16시간으로 늘어났습니다.
 

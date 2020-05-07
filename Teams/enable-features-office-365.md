@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2ec2956b3fc448f4408cefd7e7bf323898cc7d2
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: d39ec3f7bb6a5454c25acf859e335993ed275a71
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898103"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042505"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 
@@ -75,7 +75,7 @@ Teams의 사용자 활동 피드에 제안된 피드를 표시할지 여부를 �
 
 여기서 파일 공유 및 클라우드 파일 저장소 옵션을 켜거나 끌 수 있습니다.
 
-사용자는 Teams 채널과 채팅의 클라우드 저장소 서비스에서 파일을 업로드하고 공유할 수 있습니다. Teams의 클라우드 저장소 옵션에는 현재 Dropbox, Box, ShareFile, Google Drive및 [Egnyte](https://www.egnyte.com)가 포함됩니다. 조직에서 사용하려는 클라우드 저장소 공급자에 대한 스위치를 켭니다.
+사용자는 Teams 채널과 채팅의 클라우드 저장소 서비스에서 파일을 업로드하고 공유할 수 있습니다. Teams의 클라우드 저장소 옵션에는 현재 Dropbox, Box, ShareFile, Google Drive및 Egnyte(곧 지원됨)가 포함됩니다. 조직에서 사용하려는 클라우드 저장소 공급자에 대한 스위치를 켭니다.
 
 #### <a name="organization"></a>조직
 

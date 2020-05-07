@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Advisor for Teams(공개 미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
-ms.openlocfilehash: 006ecf1563da153660902ac4c580253e50632867
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1357829330f4d2ef7ad95e0eda1cebcbe8492756
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780807"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042915"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -84,7 +84,7 @@ Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같�
 |평가 테스트  |알리는 내용  |
 |---------|---------|
 |베니티 도메인이 구성됨     |테넌트에 대해 non-@onmicrosoft.com이 도메인이 구성되어 있는 경우(예: @contoso.onmicrosoft.com). 예를 들어 @onmicrosoft .com 도메인을 사용하거나 베니티 도메인을 구성할 수 있습니다. 자세한 내용은 [Office 365에 도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain)를 참조하세요. |
-|Teams 라이선스     |이는 필수 구성 요소입니다. Teams를 배포하려면 Teams 라이선스가 **있어야 합니다**. Microsoft Graph를 쿼리하여 Teams 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [Teams의 사용을 위한 Office 365 라이선싱](https://docs.microsoft.com/microsoftteams/office-365-licensing)을 참조하세요.    |
+|Teams 라이선스     |이는 필수 구성 요소입니다. Teams를 배포하려면 Teams 라이선스가 **있어야 합니다**. Microsoft Graph를 쿼리하여 Teams 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 읽어 보세요.    |
 |EXCHANGE ONLINE 라이선스     |사용 가능한 Exchange Online 라이선스가 포함된 활성 구독이 있는지 여부 기본 Teams 기능을 사용하는 데는 Exchange가 필요하지 않지만 Exchange와 통합하면 최상의 Teams 환경이 제공됩니다. Microsoft Graph를 쿼리하여 테넌트와 연결된 구독을 분석하고 적격의 Exchange Online 라이선스 구독을 보유하고 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [Exchange 및 Teams가 상호 작용하는 방법](exchange-teams-interact.md)을 참조하세요.    |
 |SharePoint Online 라이선스     |사용 가능한 SharePoint Online 라이선스가 포함된 활성 구독이 있는지 여부 채팅에서 파일 저장소에 비즈니스용 OneDrive를 제공하도록 사용자 1인당 SharePoint Online 라이선스를 보유할 것을 권장합니다. Microsoft Graph를 쿼리하여 SharePoint Online 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)을 참조하세요.    |
 |게스트 액세스 사용     |[게스트 액세스](guest-access.md)가 Teams에서 설정되어 있는 여부 게스트 액세스를 사용하여 Teams에 참가하도록 외부 사용자를 초대할 수 있습니다. [Teams 게스트 액세스 검사 목록](guest-access-checklist.md)을 사용하여 Teams에서 게스트 액세스 설정 과정을 단계별로 확인합니다. 검사 목록은 필수 Azure AD 구성을 포함합니다. |

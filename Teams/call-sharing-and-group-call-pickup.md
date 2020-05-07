@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 통화 공유 및 그룹 통화 픽업 사용자는 사용자를 사용할 수 없는 경우 전화를 통해 들어오는 전화를 동료와 공유할 수 있습니다.
-ms.openlocfilehash: 727e3a4c3627e38722182bc1d6ad1f4e435d95a4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780787"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042955"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft 팀에서 공유 및 그룹 통화 걸기
 
@@ -43,7 +43,7 @@ Microsoft 팀의 통화 공유 및 그룹 통화 픽업 기능을 통해 사용�
 
 ## <a name="license-required"></a>라이선스 필요
 
-통화 공유 및 그룹 통화 픽업 설정 및 사용을 위해서는 사용자가 엔터프라이즈 음성 기능을 사용 하도록 설정 되어 있어야 합니다. 라이선스 모델에 대 한 자세한 내용은 [Microsoft 팀 용 Office 365 라이선스](office-365-licensing.md)를 참조 하세요.
+통화 공유 및 그룹 통화 픽업 설정 및 사용을 위해서는 사용자가 엔터프라이즈 음성 기능을 사용 하도록 설정 되어 있어야 합니다. 라이선스 모델에 대 한 자세한 내용은 [Microsoft 팀 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)참조 하세요.
 
 ## <a name="configure-group-call-pickup"></a>그룹 통화 픽업 구성
 

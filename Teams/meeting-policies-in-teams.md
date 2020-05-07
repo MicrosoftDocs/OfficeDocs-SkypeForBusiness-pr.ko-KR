@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3a482ce562c0d0281c1bc289dfc953f416a8f133
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940705"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139212"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -106,10 +106,11 @@ ms.locfileid: "43940705"
 - [Outlook 추가 기능 허용](#allow-the-outlook-add-in)
 - [채널 모임 예약 허용](#allow-channel-meeting-scheduling)
 - [개인 모임 예약 허용](#allow-scheduling-private-meetings)
+- [비공개 모임에서 모임 시작 허용](#allow-meet-now-in-private-meetings)
 
 ### <a name="allow-meet-now-in-channels"></a>채널에서 모임 시작 허용
 
-이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 임시 모임을 시작할 수 있는지 여부를 제어 합니다. 이 기능을 설정 하면 사용자가 팀 채널에서 메시지를 게시할 때 작성 **상자 아래에 있는 모임 시작** 을 클릭 하 여 채널에서 특별 모임을 시작할 수 있습니다.
+이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 임시 모임을 시작할 수 있는지 여부를 제어 합니다. 이 기능을 설정 하면 사용자가 팀 채널에서 메시지를 게시할 때 작성 **상자 아래에 있는 모임 시작** 을 클릭 하 여 채널에서 특별 모임을 시작할 수 있습니다. 기본값은 True입니다.
 
 ![메시지 아래에 모임 시작 아이콘을 표시 하는 스크린샷](media/meeting-policies-meet-now.png)
 
@@ -123,7 +124,7 @@ ms.locfileid: "43940705"
 
 ### <a name="allow-channel-meeting-scheduling"></a>채널 모임 예약 허용
 
-이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 모임을 예약할 수 있는지 여부를 제어 합니다.  이 기능을 해제 하면 사용자가 팀 채널에서 모임을 시작할 때 **모임 예약** 옵션을 사용할 수 없으며, 팀의 사용자에 대해 **채널 추가** 옵션이 비활성화 됩니다.
+이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 모임을 예약할 수 있는지 여부를 제어 합니다.  이 기능을 해제 하면 사용자가 팀 채널에서 모임을 시작할 때 **모임 예약** 옵션을 사용할 수 없으며, 팀의 사용자에 대해 **채널 추가** 옵션이 비활성화 됩니다. 기본값은 True입니다.
 
 ![팀의 모임 예약 옵션을 보여 주는 스크린샷](media/meeting-policies-schedule-a-meeting.png)
 
@@ -133,7 +134,11 @@ ms.locfileid: "43940705"
 
 이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀에서 비공개 모임을 예약할 수 있는지 여부를 제어 합니다. 모임이 팀의 채널에 게시 되지 않은 경우 비공개 모임입니다.
 
-**개인 모임 예약 허용** 을 해제 하 고 **채널 모임 예약을 허용**하는 경우 팀의 사용자는 **필수 참석자 추가** 및 **채널 추가** 옵션을 사용할 수 없습니다.
+**개인 모임 예약 허용** 을 해제 하 고 **채널 모임 예약을 허용**하는 경우 팀의 사용자는 **필수 참석자 추가** 및 **채널 추가** 옵션을 사용할 수 없습니다. 기본값은 True입니다.
+
+### <a name="allow-meet-now-in-private-meetings"></a>비공개 모임에서 모임 시작 허용
+
+이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 임시 비공개 모임을 시작할 수 있는지 여부를 제어 합니다.  기본값은 True입니다.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -314,7 +319,6 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 - [익명 사용자가 모임을 시작 하도록 허용](#let-anonymous-people-start-a-meeting)
 - [자동으로 사람들의 입장](#automatically-admit-people)
 - [전화 접속 사용자가 대기실를 우회할 수 있도록 허용](#allow-dial-in-users-to-bypass-the-lobby)
-- [비공개 모임에서 모임 시작 허용](#allow-meet-now-in-private-meetings)
 - [라이브 캡션 사용](#enable-live-captions)
 - [모임에서 채팅 허용](#allow-chat-in-meetings)
 
@@ -378,9 +382,6 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 |   | 조직의 모든 사용자     |대기실에서 대기         |
 |   | 조직 및 페더레이션된 조직의 모든 사용자      | 대기실에서 대기         |
 
-### <a name="allow-meet-now-in-private-meetings"></a>비공개 모임에서 모임 시작 허용
-
-이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 임시 비공개 모임을 시작할 수 있는지 여부를 제어 합니다. 
 
 ### <a name="enable-live-captions"></a>라이브 캡션 사용
 

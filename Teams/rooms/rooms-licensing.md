@@ -22,18 +22,18 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft 팀 대화방의 다양 한 통화 및 모임 기능에 대 한 사용 가능한 라이선스에 대해 알아봅니다.
-ms.openlocfilehash: cc736fad2e7050f4989250917d8fc0d1a7c22fae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905390"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064493"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>팀 회의실 라이선스 업데이트
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>공유 통신 디바이스에 대 한 라이선스 솔루션
 
-Microsoft는 회의실 장치에 대 한 라이선스 모임 및 전화 통화를 위한 전용 SKU (microsoft 팀 회의실, Microsoft Surface Hub, Microsoft 팀을 위한 collaboartion 막대 등)를 보유 하 고 있습니다.
+Microsoft는 회의실 장치 (microsoft 팀 회의실, Microsoft Surface Hub, Microsoft 팀의 공동 작업 바)에 대 한 디바이스 기준으로 라이선스 모임 및 통화를 위한 전용 SKU를 보유 하 고 있습니다.
 
 ||회의실 SKU |  
 |:--- |:---: |

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72c6c4c959350c8320c908b4e9f4a9c649eb8d7b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136778"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042805"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams 시작하기
 
@@ -55,7 +55,7 @@ Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Office 365 배포한 �
 - [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
     - 여기에는 Office 365 도메인, SharePoint Online, Exchange Online, 비즈니스용 OneDrive를 구성 작업이 포함됩니다.
 
-- 모든 사용자를 위한 Teams 라이선스를 확보합니다. [Teams 플랜](https://products.office.com/microsoft-teams/free) 및 [Teams용 Office 365 라이선싱](office-365-licensing.md)을 확인하세요. 
+- 모든 사용자를 위한 Teams 라이선스를 확보합니다. [Teams 플랜](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)과 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 확인하세요.
 
 - [데스크톱, 웹 및 모바일 클라이언트를 설치하는 이점에 대한 자세한 정보](get-clients.md)
 
@@ -65,7 +65,7 @@ Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Office 365 배포한 �
    - [비즈니스용 Skype 서버와 Office 365 간의 하이브리드 연결 플랜](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-> 조직에서 온-프레미스 비즈니스용 Skype 서버(또는 Lync Server)를 실행하는 경우 [Azure Active Directory Connect를 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)하여 온-프레미스 디렉터리를 Office 365와 동기화해야 합니다. 
+   > 조직에서 온-프레미스 비즈니스용 Skype 서버(또는 Lync Server)를 실행하는 경우 [Azure Active Directory Connect를 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)하여 온-프레미스 디렉터리를 Office 365와 동기화해야 합니다. 
 
 
 ## <a name="next-steps"></a>다음 단계

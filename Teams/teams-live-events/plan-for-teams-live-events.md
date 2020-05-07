@@ -14,15 +14,16 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 알아봅니다.
+description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 설명합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4a7f60a199a342d69311467bffbc4607854a719
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752365"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903083"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -86,7 +87,7 @@ ms.locfileid: "43752365"
 |대상 그룹 최대 크기 |10,000명의 참석자 |10,000명의 참석자<sup>1</sup> |10,000명의 참석자<sup>1</sup> |
 |라이브 이벤트 최대 시간 |4시간 |4시간 |4시간 |
 |라이브 이벤트에서 발표자 및 프로듀서의 최대 수 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Office 365 테넌트당 최대 동시 라이브 이벤트 수 |15  | 15  | 15  |
+|Office 365 조직당 최대 동시 라이브 이벤트 수 |15  | 15  | 15  |
 |라이브 이벤트 만들기 |   Skype 모임 브로드캐스트 포털 |Teams, Teams를 통한 Yammer | Teams, Teams를 통한 Yammer, Stream |
 |대상 그룹 참여 – Yammer |&#x2714; |&#x2714; (통합 환경) |&#x2714; (통합 환경) |
 |대상 그룹 참여 – 중재된 Q&A |&#x2714;  |&#x2714; |&#x2714; |
@@ -99,6 +100,7 @@ ms.locfileid: "43752365"
 |외부 액세스(페더레이션) 및 게스트 발표자/참석자 |&#x2714;(비즈니스용 Skype)  |  &#x2714;(Teams) |해당 없음 |
 |발표자 – PSTN 액세스 |&#x274C; |&#x2714;(Teams) |해당 없음 |
 |화면 발표 |&#x274C; |&#x2714;(Teams) |해당 없음 |
+|Windows에서 시스템 오디오 공유(화면 공유 시에만 사용 가능)|&#x274C; |&#x2714;(Teams) |&#x2714; |
 |PowerPoint 발표(PPT 공유) |&#x2714; |&#x274C; (화면 공유를 통해 완화됨) |해당 없음 |
 |클라우드 기반 모임 녹음/녹화 |&#x2714; |&#x2714; |&#x2714; |
 |자동으로 Stream에 녹음/녹화 게시 |&#x274C; |&#x274C; |&#x2714; |
@@ -117,7 +119,7 @@ ms.locfileid: "43752365"
 전 세계 여러 지역에서 Teams 라이브 이벤트를 사용할 수 있습니다. 다음 정보는 이벤트 팀 구성원과 참석자의 가용성을 보여 줍니다.
 
 > [!IMPORTANT]
-> 이벤트 지역은 이끌이와 Office 365 조직에 따라 자동으로 선택됩니다.
+> 이벤트 지역은 이끌이와 Microsoft 365 또는 Office 365에 따라 자동으로 선택됩니다.
 
 **다음 지역에서 사용 가능**
 

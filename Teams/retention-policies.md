@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940775"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042445"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
@@ -55,7 +55,7 @@ Teams 보존 정책을 통해 다음을 수행할 수 있습니다.
 
 데이터에 보존 정책이 적용되는 경우 데이터가 원래 위치에 그대로 유지되므로 사용자는 계속해서 작업할 수 있습니다. 사용자가 정책의 대상이 되는 데이터를 편집하거나 삭제하는 경우 정책이 적용되는 동안 보존되는 안전한 위치에 사본이 저장됩니다.
 
-보존 정책에 대한 최소 라이선스 요구 사항은 Office 365 E3입니다. 라이선스에 대한 자세한 내용은 [Teams용 Office 365 라이선스](Office-365-licensing.md)를 참조하세요.
+보존 정책에 대한 최소 라이선스 요구 사항은 Office 365 E3입니다. 라이선스에 대해 자세히 알아보려면 [Microsoft 팀 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)참조 하세요.
 
 ## <a name="how-teams-retention-policies-work"></a>Teams 보존 정책 작동 방식
 

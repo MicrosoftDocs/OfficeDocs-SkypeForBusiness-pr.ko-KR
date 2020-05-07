@@ -624,14 +624,14 @@
 ## [교육용 Teams](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [빠른 시작 - 교육용 Teams 관리](teams-quick-start-edu.yml)
 ### [원격 학습 시작](remote-learning-edu.md)
-### [다수의 사용자에 정책 할당](batch-policy-assignment-edu.md)
-### [교육용 Teams 라이선싱](teams-edu-licensing.md)
+### [EDU 관리자용 Microsoft Teams 정책 패키지](policy-packages-edu.md)
+### [다수의 사용자에 정책 할당하기](batch-policy-assignment-edu.md)
 ### [교육 관리자용 낮은 대역폭 지침](edu-remote-low-bandwidth.md)
 ### [교육용 Teams의 과제](expand-teams-across-your-org/assignments-in-teams.md)
 ### [교육용 Teams 리소스 관리](resources-teams-edu.md)
-### [EDU 관리자용 Microsoft Teams 정책 패키지](policy-packages-edu.md)
 ### [관리자용 Microsoft 교육 거버넌스 FAQ](plan-teams-governance-edu.md)
 ### [Moodle 통합 설치](install-moodle-integration.md)
+### [교육용 Teams 라이선싱](teams-edu-licensing.md)
 ### [교육 SKU 참조](sku-reference-edu.md)
 
 ## 일선 직원용 Teams
@@ -734,16 +734,8 @@
 
 ## 라이선싱
 ### [Teams에 대한 사용자 액세스 관리](user-access.md)
-### [Teams용 Microsoft 365 및 Office 365 라이선싱](office-365-licensing.md)
-### [Teams 라이선스 할당](assign-teams-licenses.md)
-### [Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-#### 플랜에 따른 라이선스 옵션
-##### [Microsoft 365 Business Standard](teams-add-on-licensing/office-365-business-premium.md)
-##### [Microsoft Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
-##### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-##### [Office 365 Enterprise E5(오디오 회의 제외)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-##### [GOV, .EDU 및 비영리 조직](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Teams 추가 기능 라이선스 옵션](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+### [Teams 추가 기능 라이선스 할당하기](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [Office 365 E1 평가판 서비스 관리](e1-trial-license.md)
 ### [Office 365 G1 평가판 서비스 관리](g1-trial-license.md)
 ### [Teams 상업적 평가판 관리](iw-trial-teams.md)
@@ -751,7 +743,7 @@
 ### [무료 버전의 팀 관리](manage-freemium.md)
 ### [Teams를 구독 버전으로 무료 업그레이드](upgrade-freemium.md)
 ### [메시징 정책 라이선스](teams-add-on-licensing/pri-message.md)
-### [가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md)
+### [Microsoft 365 전화 시스템 - 가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md)
 
 
 ## Microsoft 365 및 Office 365와의 상호 운용성
