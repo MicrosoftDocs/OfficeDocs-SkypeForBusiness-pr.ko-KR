@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Advisor for Teams(공개 미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
-ms.openlocfilehash: 1357829330f4d2ef7ad95e0eda1cebcbe8492756
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042915"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139201"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -65,6 +65,12 @@ Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같�
     - 채택 작업을 포함한 Planner 플랜
     - Forms 사용자 설문 조사
     - Teams용 어드바이저 봇
+1. 비즈니스용 Skype 업그레이드
+    - 테넌트 평가
+    - 채택 작업을 포함한 Planner 플랜
+    - Forms 사용자 설문 조사
+    - Teams용 어드바이저 봇
+    - 현재 비즈니스용 Skype Online 또는 비즈니스용 Skype 온-프레미스 환경을 사용하고 있는 고객을 위해 설계된 비즈니스용 Skype 업그레이드 플랜을 사용하면 더 이상 업그레이드를 진행하는 동안 어림짐작으로 수행을 하지 않아도 될 수 있게 도움을 받을 수 있습니다. 변화를 구현하는 데 입증된 성공 프레임워크를 활용하여 이 플랜은 사용자가 Teams를 이제 시작하고 있거나, 이미 비즈니스용 Skype와 함께 사용하고 있거나 혹은 업그레이드할 준비가 되었는지에 상관없이 단계별 프로세스를 안내합니다. 이 플랜은 또한 사용자를 [온라인 지침과 모범 사례](https://aka.ms/SkypeToTeams), [다운로드 가능한 자산](https://aka.ms/UpgradeSuccessKit), [라이브 1: 많은 계획 워크숍](https://aka.ms/UpgradeWorkshops) 그리고 성공을 지원하기 위한 추가 리소스로 연결시켜줄 것입니다.
 
 채팅, 팀, 채널 및 앱 플랜부터 시작하는 것이 좋습니다. 해당 워크로드 배포가 완료되면 Teams용 어드바이저로 돌아가 **채널 추가**를 클릭하여 다음 작업을 시작합니다.
 
@@ -108,6 +114,9 @@ Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같�
 |오디오 회의 라이선스    |오디오 회의 라이선스가 포함된 활성 구독이 있는지 여부 오디오 회의 브리지를 배포하는 경우 이는 필수 구성 요소입니다. Microsoft Graph를 쿼리하여 오디오 회의 라이선스가 있는지(적어도 할당할 하나의 라이선스가 있음) 확인합니다. 자세한 내용은 [Teams 추가 기능](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 참조하세요.    |
 |Stream 라이선스     |Microsoft Stream 라이선스가 포함된 활성 구독이 있는지 여부 이는 모임 녹화를 설정하려면 필수 구성 요소입니다. Microsoft Graph를 쿼리하여 Microsoft Stream 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). Stream에 대한 자세한 내용과 설정 방법은 [Teams 클라우드 모임 녹화](cloud-recording.md)를 참조하세요.
 
+### <a name="assessments-for-skype-for-business-upgrade"></a>비즈니스용 Skype 업그레이드 평가
+[모든 작업에 대한 평가 테스트](#assessment-tests-for-all-workloads) 외에 비즈니스용 Skype 업그레이드는 모임 및 회의 계획에 사용되는 평가도 포함합니다.
+
 ### <a name="advisor-for-teams-bot"></a>Teams용 어드바이저 봇
 
 Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 다음의 메시지를 일반 채널에서 제공합니다.
@@ -148,6 +157,9 @@ Advisor for Teams에서 배포 팀을 만든 이후 삭제 기능을 포함해 �
 ### <a name="can-i-modify-the-forms-survey"></a>Forms 설문 조사를 수정할 수 있나요?
 예, Advisor for Teams에서 배포 팀을 만든 후에는 필요에 따라 Forms 설문 조사를 수정할 수 있습니다.
 
+### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>GCC에서 Teams의 관리자들 사이에 차이가 있나요?
+예. 현재 GCC에서는 Teams Forms 앱을 사용할 수 없으므로 사용자 설문 조사 양식이 생성은 되지만 계획 채널에 고정되어 있지 않습니다.
+
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>내 조직에 대해 Advisor for Teams에서 어떤 정보를 수집하나요?
 Advisor for Teams에서는 EUII(최종 사용자 식별 정보) 이외의 정보를 수집하는 데 사용자의 동의를 요청합니다. 수집된 정보는 Advisor for Teams에서 어떻게 효과적으로 성공적인 결과를 유도하고 있는지, 그리고 향상해야 할 부분은 무엇인지에 대해 Microsoft에 피드백을 제공하는 원격 분석 양식에 있습니다. 이와 같은 데이터는 Microsoft가 배포를 지원하기 위한 노력의 일환으로 사용자의 조직에 적극적으로 관여할 기회를 식별하는 데 사용됩니다.
 
@@ -170,4 +182,4 @@ Advisor for Teams에서는 EUII(최종 사용자 식별 정보) 이외의 정보
 [Teams에서 팀을 구성하는 방법에 대한 모범 사례](best-practices-organizing.md)
 
 [라이선싱에 대한 제품 이름 및 서비스 계획 식별자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-) 
+)
