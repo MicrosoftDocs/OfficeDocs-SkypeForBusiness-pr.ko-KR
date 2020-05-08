@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype Online에서 전화 접속 회의 설정이 변경 되는 경우 전자 메일을 통해 사용자에 게 자동으로 전송 되는 정보에 대해 알아봅니다. '
-ms.openlocfilehash: 12904c6485a422c7df314767b58ac485c38816ea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f58bfe582b7adc6672c06bec0e90571ff9a96a
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986553"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164277"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 설정이 변경 될 때 사용자에 게 전송 되는 전자 메일
 
@@ -35,11 +35,11 @@ ms.locfileid: "41986553"
 
 전자 메일은 오디오 회의 공급자로 Microsoft를 사용 하 여 [오디오 회의를 사용 하도록 설정](set-up-audio-conferencing.md) 된 사용자에 게 자동으로 전송 됩니다.
   
-기본적으로 오디오 회의를 사용 하도록 설정 된 사용자에 게 전송 되는 전자 메일에는 네 가지 유형이 있습니다. 그러나 사용자에 게 전송 되는 전자 메일의 수를 제한 하려는 경우이 기능을 해제할 수 있습니다. Office 365의 오디오 회의는 다음과 같은 경우 사용자의 전자 메일에 전자 메일을 보냅니다.
+기본적으로 오디오 회의를 사용 하도록 설정 된 사용자에 게 전송 되는 전자 메일에는 네 가지 유형이 있습니다. 그러나 사용자에 게 전송 되는 전자 메일의 수를 제한 하려는 경우이 기능을 해제할 수 있습니다. Microsoft 365 또는 Office 365의 오디오 회의는 다음과 같은 경우 사용자의 전자 메일에 전자 메일을 보냅니다.
   
 - **오디오 회의 라이선스가 자신에 게 할당 되거나 오디오 회의 공급자를 Microsoft로 변경 하는 경우**
     
-     이 전자 메일에는 전화 회의 ID, 모임에 대 한 기본 컨퍼런스 전화 번호, 사용자 용 오디오 회의 PIN, 지침 및 링크를 통해 비즈니스용 Skype Online 모임 업데이트 도구를 사용 하는 방법 및이에 대 한 기존 모임을 업데이트 하는 데 사용 되는 링크가 포함 되어 있습니다. 클릭할. [비즈니스용 Skype 라이선스 할당](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) 또는 [Microsoft를 오디오 회의 공급자로 지정을](assign-microsoft-as-the-audio-conferencing-provider.md)참조 하세요.
+     이 전자 메일에는 전화 회의 ID, 모임에 대 한 기본 컨퍼런스 전화 번호, 사용자 용 오디오 회의 PIN, 지침 및 링크를 사용 하 여 사용자의 기존 모임을 업데이트 하는 데 사용 되는 비즈니스용 Skype Online 모임 업데이트 도구를 사용할 수 있습니다. [비즈니스용 Skype 라이선스 할당](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) 또는 [Microsoft를 오디오 회의 공급자로 지정을](assign-microsoft-as-the-audio-conferencing-provider.md)참조 하세요.
     
     > [!NOTE]
     > 조직에서 동적 전화 회의 Id를 사용할 수 있는 경우, 자신이 예약한 모든 사용자의 모임에 고유한 전화 회의 Id가 포함 됩니다. [조직에서 오디오 회의 동적 id](using-audio-conferencing-dynamic-ids-in-your-organization.md)를 설정할 수 있습니다. 
@@ -76,7 +76,7 @@ ms.locfileid: "41986553"
     
     이는 사용자가 **오디오 회의** 라이선스를 제거 하거나 사용자의 오디오 회의 공급자를 Microsoft에서 타사 오디오 회의 공급자로 변경 하거나 공급자를 **없음**으로 설정할 때 발생 합니다. 이 전자 메일에는 사용자가 비즈니스용 Skype Online 모임 업데이트 도구를 사용 하 여 기본 컨퍼런스 전화 번호 또는 전화 회의 ID와 같은 오디오 회의 관련 정보를 제거할 수 있는 지침 및 정보가 포함 되어 있습니다.
     
-    [비즈니스용 Office 365에 대 한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)참조 하세요.
+    [비즈니스용 Microsoft 365 앱에 대 한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)참조 하세요.
     
     다음은이 전자 메일의 예입니다.
     
@@ -87,7 +87,7 @@ ms.locfileid: "41986553"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>자신에 게 전송 되는 전자 메일 메시지 변경 하기
 
-*보낸* 사람 연락처 정보에 포함 된 전자 메일 주소와 표시 이름을 포함 하 여 사용자에 게 자동으로 전송 되는 전자 메일을 변경할 수 있습니다. 기본적으로 전자 메일을 보낸 사람은 Office 365에 있지만, Windows PowerShell 및 [사용](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet을 사용 하 여 전자 메일 주소와 표시 이름을 변경할 수 있습니다. 사용자에 게 전자 메일을 보내는 전자 메일 주소를 변경 하려면 다음을 수행 해야 합니다.
+*보낸* 사람 연락처 정보에 포함 된 전자 메일 주소와 표시 이름을 포함 하 여 사용자에 게 자동으로 전송 되는 전자 메일을 변경할 수 있습니다. 기본적으로 전자 메일을 보낸 사람은 Microsoft 365 또는 Office 365 이지만, Windows PowerShell 및 [사용](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet을 사용 하 여 전자 메일 주소와 표시 이름을 변경할 수 있습니다. 사용자에 게 전자 메일을 보내는 전자 메일 주소를 변경 하려면 다음을 수행 해야 합니다.
   
 - _SendEmailFromAddress_ 매개 변수에 전자 메일 주소를 입력 합니다.
     
@@ -118,7 +118,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
 2. **Microsoft 브리지 설정** 페이지에서 **오디오 회의 설정이 변경 된 경우 자동으로 전자 메일을 사용자에 게 보내기를**선택 하거나 선택을 취소 합니다. 
     
-3. **저장**을 클릭 합니다. 
+3. **저장**을 클릭합니다. 
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -145,13 +145,13 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell을 사용 하 여 관리 하는 방법을 알고 싶으세요?
 
-- 기본적으로 전자 메일을 보낸 사람은 Office 365에 있지만, Windows PowerShell 및 [사용](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet을 사용 하 여 전자 메일 주소와 표시 이름을 변경할 수 있습니다.
+- 기본적으로 전자 메일을 보낸 사람은 Microsoft 365 또는 Office 365 이지만, Windows PowerShell 및 [사용](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet을 사용 하 여 전자 메일 주소와 표시 이름을 변경할 수 있습니다.
     
-- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
     
-  - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 또는 Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요. 
     

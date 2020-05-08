@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft를 전화 접속 회의 공급자, 상태 및 일부 해결 방법으로 사용할 때 발생 하는 알려진 문제점 목록을 확인 하세요. '
-ms.openlocfilehash: 6c462fea8a6ff1ebdae25a09ef8471d82559f3eb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fba5bfff687121c7b1b64c0e51233ccb576497e2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695773"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164526"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>오디오 회의 문제 해결 및 알려진 문제
 
@@ -34,7 +34,7 @@ ms.locfileid: "41695773"
   
 ## <a name="troubleshooting-and-known-issues"></a>문제 해결 및 알려진 문제
 
-Microsoft를 오디오 회의 공급자로 사용 하는 오디오 회의는 추적 되 고 활발 하 게 조사 되는 최신 문제를가지고 있으며 이후 버전의 Office 365에서 기능이 업데이트 될 때 문제가 발생할 수 있습니다.
+Microsoft를 오디오 회의 공급자로 사용 하는 오디오 회의에는 추적 되 고 활발 하 게 조사 되 고 있으며 Microsoft 365의 이후 릴리스에서 기능이 업데이트 될 때 해결 될 수 있는 최신 문제가 있습니다.
   
 여기서는 사용자가 조직에서 비즈니스용 Skype를 사용 하 여 오디오 회의를 설정 하 고 작업할 때 발생할 수 있는 문제를 해결할 때이를 참조로 사용 합니다.
 
@@ -46,6 +46,6 @@ Microsoft를 오디오 회의 공급자로 사용 하는 오디오 회의는 추
 |Skype for Business 사용자가 모임을 잠근 후 발신자가 회의 브리지에 전화를 거는 경우 비즈니스용 Skype 앱에 사용자가 대기실에서 대기 중 이라는 알림이 없습니다.  <br/> |이는 현재 디자인에 따라 진행 되 고 있으며 향후 서비스 업데이트에서이 기능을 지 원하는 데 관련 하 여 피드백을 가져왔습니다.  <br/> |해결 방법이 없습니다.  <br/> |8/30/2017  <br/> |
 |2019 년 3 월 1 일 이전에 오디오 회의 라이선스를 할당 받은 비즈니스용 Skype 서버 (프레미스) 사용자가 모임 초대에 전화 접속 좌표를 표시 하지 않을 수 있습니다.  <br/> |비즈니스용 Skype Server 사용자 프로 비전 오디오 회의는 해당 날짜까지 지원 되지 않습니다. 이제이 기능은 지원 되며 모임 구성 요소 이므로 [먼저](https://docs.microsoft.com/microsoftteams/meetings-first)사용할 수 있습니다. 사용자에 게 팀 라이선스가 있어야 합니다.  <br/> |프로 비전 파이프라인을 재 활성화 해야 합니다. 사용자의 오디오 회의 라이선스를 제거 하 고 몇 시간이 지난 후 라이선스를 다시 할당 합니다.  <br/> |3/1/2019  <br/> |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

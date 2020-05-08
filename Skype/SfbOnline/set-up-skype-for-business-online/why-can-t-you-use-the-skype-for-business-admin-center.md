@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: '비즈니스용 Skype 관리 센터 및 다른 Microsoft 데이터 센터로 서비스를 마이그레이션할 때 사용할 수 없는 기능에 대해 알아봅니다. '
-ms.openlocfilehash: f43f1cce6921d3e3cb6e40ad58898ece04d800df
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7258467929663c42bfb6088202511a04613db383
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777623"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164497"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>지금 비즈니스용 Skype Online 관리 센터를 사용할 수 없는 이유는 무엇 인가요?
 
@@ -42,7 +42,7 @@ ms.locfileid: "43777623"
 
 먼저 몇 가지 조건을 분석 하겠습니다.
   
-- **데이터 센터** 이는 파일 및 전자 메일 메시지와 같이 Microsoft 365 또는 Office 365의 정보가 저장 되는 실제 위치입니다. Office 365 데이터 센터에 대 한 자세한 내용을 확인 하려면[이 문서를 참조](https://www.microsoft.com/online/legal/v2/?docid=25)하세요.
+- **데이터 센터** 이는 파일 및 전자 메일 메시지와 같이 Microsoft 365 또는 Office 365의 정보가 저장 되는 실제 위치입니다. Microsoft 365 및 Office 365 데이터 센터에 대 한 자세한 내용을 확인 하려면[이 문서를 참조](https://www.microsoft.com/online/legal/v2/?docid=25)하세요.
     
 - **마이그레이션** 이는 "이동"과 거의 동일 합니다. 이 경우에는 한 데이터 센터의 비즈니스용 Skype Online 사용자 및 설정을 사용자에 게 더 가까이 배치 하 여 서비스를 개선 하는 것입니다.
     
@@ -52,7 +52,7 @@ ms.locfileid: "43777623"
     
 즉, 모든 비즈니스용 Skype Online 사용자와 서비스 설정을 더 가까운 다른 위치로 이동 하는 과정을 진행 하 고 있는 것입니다. 더 좋습니다. 좋은 소식은이 짧은 시간이 지난 후 비즈니스용 Skype Online 서비스가 개선 된다는 점입니다.
   
-![Office 365의 서비스 마이그레이션](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![Microsoft 365 또는 Office 365의 서비스 마이그레이션](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
 ## <a name="what-skype-for-business-online-features-will-still-work"></a>비즈니스용 Skype Online 기능은 어떤 기능을 사용할 수 있나요?
 
@@ -64,7 +64,7 @@ ms.locfileid: "43777623"
     
 ## <a name="can-i-get-other-work-done"></a>다른 작업을 수행할 수 있나요?
 
-해야. 비즈니스용 Skype Online 서비스를 마이그레이션하는 동안에도 Office 365 (예: Office 365 및 Exchange 관리 센터)의 다른 관리 센터를 사용할 수 있습니다. 그러나 비즈니스용 Skype Online 관리 센터와 함께 마이그레이션 중에 비즈니스용 Skype Online 원격 PowerShell cmdlet을 사용할 수 없게 됩니다. 
+해야. 비즈니스용 Skype Online 서비스를 마이그레이션하는 동안에도 Microsoft 365 (예: Microsoft 365 및 Exchange 관리 센터)에서 다른 관리 센터를 사용할 수 있습니다. 그러나 비즈니스용 Skype Online 관리 센터와 함께 마이그레이션 중에 비즈니스용 Skype Online 원격 PowerShell cmdlet을 사용할 수 없게 됩니다. 
   
 ## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)

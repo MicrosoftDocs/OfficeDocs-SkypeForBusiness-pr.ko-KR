@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '요약: 비즈니스용 Skype 서버 2015 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용 하 여 어떤 클라이언트에서 지원 되는 기능을 파악할 수 있습니다.'
-ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4d23a23b133366401d784d4e403b283af1967162
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041955"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158925"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 대 한 데스크톱 클라이언트 기능 비교
 
@@ -165,7 +165,7 @@ Skype 간 세션에서 비즈니스용 skype Online 계획 1 사용자는 기능
 이 표에서는 음성 서비스 지원과 관련 된 기능을 설명 합니다.
   
 > [!NOTE]
-> 비즈니스용 skype 음성 (전화 통신) 기능은 특정 비즈니스용 Skype 온라인 구독 계획으로 제한 됩니다. >에 대 한 자세한 내용은 [비즈니스용 Skype Online 서비스 설명을](https://technet.microsoft.com/library/jj822172.aspx)참조 하세요.
+> 비즈니스용 skype 음성 (전화 통신) 기능은 특정 비즈니스용 Skype 온라인 구독 계획으로 제한 됩니다. 자세한 내용은 [비즈니스용 Skype Online 서비스 설명을](https://technet.microsoft.com/library/jj822172.aspx)참조 하세요.
   
 | 기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -189,7 +189,8 @@ Skype 간 세션에서 비즈니스용 skype Online 계획 1 사용자는 기능
 |위치 기반 라우팅  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |응답 그룹/팀 호출 그룹 관리 |&#x2714;||&#x2714;|||||||
 |자동 전화 교환 통화에 응답 |&#x2714;||&#x2714;|||||||
- &#x2776;이 기능은 비즈니스용 Skype Online에서는 사용할 수 없습니다.
+
+&#x2776;이 기능은 비즈니스용 Skype Online에서는 사용할 수 없습니다.
   
 ## <a name="external-users-support"></a>외부 사용자 지원
 

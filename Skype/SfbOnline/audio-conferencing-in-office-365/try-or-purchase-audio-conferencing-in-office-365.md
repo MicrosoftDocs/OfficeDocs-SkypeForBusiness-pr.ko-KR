@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: d5afdc88b4d3c891b66ef3d4fce3860a648db488
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 149f72bbd5924c17ba8566875be5a54009cfb1d1
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776773"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163887"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>비즈니스용 Skype Online의 경우 Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매
 
 > [!Note]
-> Microsoft 팀의 오디오 회의에 대 한 자세한 내용은 [Microsoft 비즈니스용 Skype에 대 한 Office 365에서 오디오 회의 체험 또는 구입](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)을 참조 하세요.
+> Microsoft 팀의 오디오 회의에 대 한 자세한 내용은 microsoft [365 Office for Microsoft 팀의 비즈니스용 Skype 365에서 오디오 회의 체험 또는 구입](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)을 참조 하세요.
 
 
 경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. 비즈니스용 Skype에는 이러한 상황에 대 한 오디오 회의 기능이 포함 되어 있습니다. 모바일 장치 또는 PC에서 비즈니스용 Skype 앱을 사용 하는 대신 휴대폰을 사용 하 여 비즈니스용 Skype 모임에 전화를 걸 수 있습니다.
@@ -42,7 +42,7 @@ ms.locfileid: "43776773"
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>1 단계: 오디오 회의 라이선스 구입 및 할당
 
-이러한 단계를 수행 하려면 [Office 365 관리자 역할에 대 한 정보](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 를 알고 있어야 합니다.
+관리자만이 단계를 수행할 수 있습니다. 자세한 내용은 [관리자 역할 정보](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 를 참조 하세요.
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>사용자 오디오 회의 라이선스를 구입 하 여 할당 하려면 다음을 수행 합니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "43776773"
 
    - [비즈니스용 Skype 및 Microsoft 팀 추가 기능 라이선스](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)를 참조 **하세요**.
 
-3. 조직에서 일정을 예약 또는 진행 하는 사용자에 게 구입한 [비즈니스용 Office 365에 대 한 라이선스를 할당 하거나 제거](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) 합니다.
+3. 조직의 [Microsoft 365 앱에 대 한 라이선스 할당 또는 제거](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) 조직에서 모임을 예약 하거나 잠재 고객으로 구입한 사용자에 게 구입 합니다.
 
 4. 오디오 회의 추가 기능 라이선스 및 통신 크레딧 라이선스를 구입한 경우에는 할당 합니다. 지침은 [비즈니스용 Skype 및 Microsoft 팀 라이선스 할당](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)을 참조 하세요.
 
@@ -71,7 +71,7 @@ ms.locfileid: "43776773"
     > [!IMPORTANT]
     > 통신 크레딧이 설정 되어 있지 않은 경우에는 분당 유료 라이선스가 있는 모든 사용자가 오디오 회의를 사용할 수 없습니다. 또한 오디오 회의 분당 요금 라이선스가 있는 경우, 오디오 회의 사용을 위해 특별히 각 사용자에 게 통신 크레딧 라이선스를 별도로 할당할 필요는 없지만 다른 서비스에 대 한 할당을 계속 해야 할 수 있습니다.
 
-4. 조직에서 일정을 예약 또는 진행 하는 사용자에 게 구입한 [비즈니스용 Office 365에 대 한 라이선스를 할당 하거나 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 합니다.
+4. 조직의 [Microsoft 365 앱에 대 한 라이선스 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 조직에서 모임을 예약 하거나 잠재 고객으로 구입한 사용자에 게 구입 합니다.
 
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>2 단계: 모임을 진행 하거나 예약 하는 사람을 위해 오디오 회의 공급자 설정
@@ -92,7 +92,7 @@ ms.locfileid: "43776773"
 
 
 > [!NOTE]
-> 중국에서 21Vianet이 운영 하는 Office 365를 사용 하는 고객은이 기능을 아직 사용할 수 없습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에 대 한](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)자세한 내용을 알아보세요.
+> 이 기능은 중국의 21Vianet에서 운영 하는 Microsoft 365 또는 Office 365을 사용 하는 고객은 아직 사용할 수 없습니다. 자세한 내용은 [21vianet에서 운영 하는 Microsoft 365 또는 Office 365에 대해 알아보세요](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## <a name="related-topics"></a>관련 항목
 

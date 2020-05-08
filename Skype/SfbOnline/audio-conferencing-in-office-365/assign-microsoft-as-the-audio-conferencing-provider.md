@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 비즈니스용 Skype에 대 한 전화 접속 회의 공급자를 Microsoft에 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f0c3d1d667847e080b47f31bb1032ff4b8ac980d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8ce128c2fa19668ed93c6ad387feecbee2e00a8d
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695763"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164523"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
-Office 365에서 비즈니스용 Skype 및 Microsoft 팀과 오디오 회의를 사용 하려면 조직의 사용자가 오디오 회의 라이선스를 할당 해야 합니다. 라이선스에 대 한 자세한 내용과 비용을 얻으려면 [Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365.md) 을 참조 하세요.
+비즈니스용 Skype 및 Microsoft 팀에서 Microsoft 365 또는 Office 365의 오디오 회의를 사용 하려면 조직의 사용자가 오디오 회의 라이선스를 할당 해야 합니다. 라이선스에 대 한 자세한 정보와 비용을 얻으려면 [Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365.md) 을 참조 하세요.
 
 Microsoft 오디오 회의는 모임 참가자가 조직의 모임에 참가할 때 사용할 수 있는 전화 접속 전화 번호, Pin 및 전화 회의 Id를 제공 합니다. 비즈니스용 Skype 또는 Microsoft 팀 모임을 예약 하거나 리드 하는 사용자에 게 Microsoft를 오디오 회의 공급자로 지정 하기만 하면 됩니다.
 
@@ -40,7 +40,7 @@ Microsoft 오디오 회의는 모임 참가자가 조직의 모임에 참가할 
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
-### <a name="an-icon-showing-the-skype-for-business-logoimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![비즈니스용 Skype 로고를 표시 하는 아이콘](../images/sfb-logo-30x30.png) 비즈니스용 Skype 관리 센터 사용
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![비즈니스용 Skype 로고를 표시 하는 아이콘](../images/sfb-logo-30x30.png) 비즈니스용 Skype 관리 센터 사용
 
 1. **Microsoft 팀 관리 센터** > **레거시 포털로**이동 합니다.
     
@@ -53,7 +53,7 @@ Microsoft 오디오 회의는 모임 참가자가 조직의 모임에 참가할 
     > [!NOTE]
     > 오디오 회의 공급자로 Microsoft를 사용 하 고 있으며 여러 개의 전화 번호가 있으므로 **기본 유료 번호** 드롭다운 목록을 사용 하 여 사용자의 기본 오디오 번호를 선택할 수 있습니다.
   
-5. **저장**을 클릭 합니다.
+5. **저장**을 클릭합니다.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -195,7 +195,7 @@ Script.ps1 -CsvFile <Path of the csv file>
   ```
 Windows PowerShell을 사용 하는 방법에 대 한 자세한 내용은 [Windows powershell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업](https://go.microsoft.com/fwlink/?LinkId=525038)을 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
-[](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-[비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md) 또는 Office 365에서 오디오 회의 체험 또는 구매
+## <a name="related-topics"></a>관련 항목
+[Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md) 또는 Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매
 

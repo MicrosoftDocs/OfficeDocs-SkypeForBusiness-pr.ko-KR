@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype Online에서 사용자의 모임 전화 회의 ID를 다시 설정 하는 단계를 알아보고 모임 업데이트 및 마이그레이션 도구에 대 한 링크를 확인 하세요. '
-ms.openlocfilehash: 9a1c2766da021d30feb14954d6e69b6978b64bc9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f0bf8a991cfa7c597bb7a0424709e81851291307
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986493"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164707"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 사용자의 전화 회의 ID 다시 설정
 
@@ -45,7 +45,7 @@ ms.locfileid: "41986493"
 2. **전화 회의 ID 다시 설정** 창에서 **예**를 클릭 합니다. 전화 회의 ID가 자동으로 만들어지고 새 전화 회의 ID를 사용 하 여 사용자에 게 전자 메일이 전송 됩니다. 기본적으로 전자 메일은 사용자에 게 전송 되지만,이 기능은 해제할 수 있습니다.
     
 > [!NOTE]
-> 전화 회의 ID를 다시 설정 하면 새 전화 회의 ID가 포함 된 전자 메일이 사용자에 게 전송 됩니다. 이 전자 메일은 대부분의 경우 Office 365 사서함 인 기본 전자 메일 주소로 전송 됩니다. 전자 메일에는 새로운 회의 ID 인 기본 전화 접속 전화 번호와 비즈니스용 Skype 모임 업데이트 도구를 사용 하 여 기존 모임을 업데이트 하는 지침이 포함 되어 있습니다. 
+> 전화 회의 ID를 다시 설정 하면 새 전화 회의 ID가 포함 된 전자 메일이 사용자에 게 전송 됩니다. 이 전자 메일은 대부분의 경우 Microsoft 365 또는 Office 365 사서함에 기본 전자 메일 주소로 전송 됩니다. 전자 메일에는 새로운 회의 ID 인 기본 전화 접속 전화 번호와 비즈니스용 Skype 모임 업데이트 도구를 사용 하 여 기존 모임을 업데이트 하는 지침이 포함 되어 있습니다. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -70,15 +70,15 @@ ms.locfileid: "41986493"
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell을 사용 하 여 관리 하는 방법을 알고 싶으세요?
 
-- Windows PowerShell이 제공 되는 경우 사용자 및 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell이 제공 되는 경우 사용자 및 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
     
   - [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
+  - [Microsoft 365 또는 Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+ 
 - Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
     
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
     

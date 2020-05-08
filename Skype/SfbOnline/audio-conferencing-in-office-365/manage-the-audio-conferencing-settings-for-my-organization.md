@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '전화 접속 회의 라이선스 및 전화 회의 ID를 사용자와 여러 다른 전화 접속 회의 설정에 할당 하려면 비즈니스용 Skype Online 단계를 참조 하세요. '
-ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa8e9cbaf063ebf1780e3f8ce45b7bd54ced474f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777983"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164147"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 조직의 오디오 회의 설정 관리
 
@@ -88,7 +88,7 @@ ms.locfileid: "43777983"
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>사용자에 게 전송 되는 전자 메일 메시지의 보낸 사람 연락처 정보 변경
 
-실제 전자 메일 주소와 보낸 사람 연락처 정보의 표시 이름을 포함 하 여 사용자에 게 자동으로 전송 되는 전자 메일을 변경할 수 있습니다. 기본적으로 전자 메일을 보낸 사람은 Office 365 이지만, Windows PowerShell 및 [사용](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet을 사용 하 여 전자 메일 주소와 표시 이름을 변경할 수 있습니다. 사용자에 게 전자 메일을 보내는 전자 메일 주소를 변경 하려면 다음을 수행 해야 합니다.
+실제 전자 메일 주소와 보낸 사람 연락처 정보의 표시 이름을 포함 하 여 사용자에 게 자동으로 전송 되는 전자 메일을 변경할 수 있습니다. 기본적으로 전자 메일을 보낸 사람은 Microsoft 365 또는 Office 365 이지만, Windows PowerShell 및 [사용](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet을 사용 하 여 전자 메일 주소와 표시 이름을 변경할 수 있습니다. 사용자에 게 전자 메일을 보내는 전자 메일 주소를 변경 하려면 다음을 수행 해야 합니다.
 
 - _SendEmailFromAddress_ 매개 변수에 전자 메일 주소를 입력 합니다.
 
@@ -243,10 +243,10 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
-
+ 
 3. **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의** > **Microsoft bridge**로 이동 합니다. 다음과 같은 작업을 수행할 수 있습니다.
 
-   - 오디오 회의에 사용 하도록 Office 365에서 설정한 전화 번호를 확인 합니다.
+   - 오디오 회의에 사용 하도록 Microsoft 365 또는 Office 365에서 설정한 전화 번호를 확인 합니다.
 
    - 오디오 회의 자동 전화 교환에 사용 되는 위치와 기본 및 보조 언어를 확인 합니다.
 
@@ -315,11 +315,11 @@ Windows PowerShell을 사용 하 여 조직 수준에서 관리할 수 있는 �
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대해 자세히 알고 싶은 경우
-- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
 
-  - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 또는 Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
 
 - Windows PowerShell에는 한 번에 여러 사용자에 게 설정을 변경 하는 경우와 같이 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등의 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
 

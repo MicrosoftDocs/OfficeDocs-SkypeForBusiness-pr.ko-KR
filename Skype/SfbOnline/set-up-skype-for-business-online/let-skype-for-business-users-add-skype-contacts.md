@@ -20,28 +20,28 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '비즈니스용 Skype를 사용 하는 사용자에 게 조직 외부의 비즈니스용 Skype 사용자에 게 연락 하 여 연락처 목록에 추가 하는 방법을 알아봅니다. '
-ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71282fe105c85cadca9aab341fc1b5e6ffbe47d2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010811"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164477"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용
 
 비즈니스용 Skype를 사용 하는 경우 사용자는 Skype를 사용 하는 모든 사용자와 무료 앱을 검색 하 고 메신저 대화를 할 수 있습니다. 이 문서에서는 Skype 연락처를 추가할 수 있도록 하기 위해 수행 해야 할 작업에 대해 설명 합니다. 
   
-이 작업을 수행 하려면 Office 365에서 [관리자 권한이](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) 있어야 합니다.
+이 작업을 수행 하려면 Microsoft 365 또는 Office 365에 [관리자 권한이](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) 있어야 합니다.
 
-![비즈니스용 skype](../images/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘
+![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
   
-1. 에서 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)Office 365 관리자 계정으로 로그인 합니다.
+1. Microsoft 365 또는 Office 365 관리자 계정으로 로그인 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)합니다.
     
 2. 관리 센터에서 **관리 센터** > **비즈니스용 Skype**로 이동 합니다. 
     
     ![비즈니스용 Skype 관리 센터를 선택 합니다.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
-3. **비즈니스용 Skype 관리 센터**에서 **조직** > **외부 통신**을 선택 합니다. 
+3. **비즈니스용 Skype 관리 센터**에서 **조직** > **외부 통신**을 선택합니다. 
     
 4. 기본적으로 사용자는 비즈니스용 Skype를 사용 하는 전세계의 모든 사용자와 통신할 수 있습니다 (방화벽이이를 허용 하도록 구성 된 경우). 
     

@@ -19,18 +19,18 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '비즈니스용 Skype Online을 설정 하는 방법에 대 한 자세한 정보 사용자를 위한 외부 통신은 외부 Skype 연락처와 통신할 수 있습니다. '
-ms.openlocfilehash: ec10b29c87d4dcab00bb2e680c0ed594aa9de2d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 52b43ea21f9f0aa56b923355cfc936f334f1607f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010741"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164487"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>비디오: 비즈니스용 Skype Online 외부 통신
 
 비즈니스용 Skype Online 외부 통신을 설정 하 여 사용자가 외부 비즈니스용 Skype, Lync, Skype 연락처와 통신할 수 있도록 합니다.
 
- **대상:** Office 365 관리자
+ **대상:** Microsoft 365 및 Office 365 관리자
 
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]

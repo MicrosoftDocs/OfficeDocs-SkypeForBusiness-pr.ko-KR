@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype 관리 센터에서 전화 접속 회의를 사용 하도록 설정 된 조직의 사용자 목록을 보는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: ffc5649a4dc37428fb64915ce6a8b38d0869f388
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 206bd52d1b2e0cfc1a72bb557c5d5dc4c0162534
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680425"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163927"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의를 사용 하도록 설정 된 사용자 목록 보기
 
 > [!NOTE]
 > Microsoft 팀에서 사용 하도록 설정 된 사용자에 대 한 자세한 내용은 [Microsoft 팀에서 오디오 회의를 사용할 수 있는 사용자 목록 보기](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)를 참고 하세요.
 
-조직에서 오디오 회의에 비즈니스용 Skype 사용자를 설정한 후에는 사용 하도록 설정 된 사용자 목록을 볼 수 있습니다. 목록을 볼 때 목록에서 사용자가 사용 하는 오디오 회의 공급자 유형, 사용자의 기본 전화 접속 전화 번호, 조직에서 동적 전화 회의 Id에 대해 사용 하도록 설정 하지 않은 경우 정적 회의 Id에 대 한 정보도 표시 됩니다. 자신이 구성 하는 오디오 회의 모임
+조직에서 오디오 회의에 비즈니스용 Skype 사용자를 설정한 후에는 사용 하도록 설정 된 사용자 목록을 볼 수 있습니다. 목록을 볼 때 목록에서 사용자가 사용 하는 오디오 회의 공급자 유형, 사용자의 기본 전화 접속 전화 번호, 조직에서 구성 하는 오디오 회의 모임에 대 한 정적 전화 회의 Id를 사용 하도록 설정 되어 있지 않은 경우 목록에도 표시 됩니다.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "41680425"
 
 - 사용 하도록 설정 된 사용자 목록을 볼 때 목록에서 사용자를 선택 하 고 작업 창을 사용 하 여 해당 사용자의 오디오 회의 설정을 편집할 수 있습니다.
     
-- Microsoft를 오디오 회의 공급자로 사용 하도록 구성 된 단일 사용자를 선택 하면 기본 전화 번호와 조직에서 동적 전화 회의 Id를 사용할 수 있는지 여부를 확인 하 고, 모임에 대 한 전화 회의 ID를 다시 설정할 수 있습니다. 사용자가 구성 합니다.
+- Microsoft를 오디오 회의 공급자로 사용 하도록 구성 된 단일 사용자를 선택 하면 기본 전화 번호와 조직에서 동적 전화 회의 Id를 사용할 수 있는지 여부를 확인 하 고 사용자가 구성한 모임에 대 한 전화 회의 ID를 다시 설정할 수 있습니다.
     
 - 타사 오디오 회의 공급자를 사용 하도록 구성 된 단일 사용자를 선택 하면 오디오 회의 공급자의 이름, 유료 전화 번호 및 무료 전화 번호 (설정 된 경우)를 볼 수 있습니다.
     
@@ -75,20 +75,20 @@ ms.locfileid: "41680425"
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell을 사용 하 여 관리 하는 방법을 알고 싶으세요?
 
-- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
     
   - [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 또는 Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
     
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

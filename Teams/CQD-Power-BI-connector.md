@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042595"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158985"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 
@@ -28,6 +28,7 @@ CQD (.PBIX 파일) 용 Power BI 쿼리 템플릿을 사용 하려면 먼저 [다
 
 [POWER BI를 사용 하 여 팀에 대 한 CQD 데이터를 분석](CQD-Power-BI-query-templates.md) 하 여 이러한 템플릿에 대해 알아보세요.
 
+Power BI 보고서에 액세스 하는 데 올바른 [Cqd 액세스 역할이](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) 있는지 확인 합니다. 
 
 ## <a name="installation"></a>설치용
 
@@ -169,6 +170,6 @@ Beta 태그에는 불구 하 고 Power BI 용 통화 음질 커넥터는 해당 
 
 결과 행 개수를 늘리는 대신 커넥터 모범 사례에 따라 보고서를 재구성 하는 것이 좋습니다. 여기에 포함 된 서식 파일은 이러한 모범 사례를 보여 주기 위해 디자인 되었습니다. 가능 하면 먼저 보다 폭넓은 하위 카디널리티 차원 (예: 월, 연도, 날짜, 지역, 국가 등)을 사용 하 여 Kpi를 살펴봅니다. 여기서 더 높은 카디널리티 치수로 드릴 다운할 수 있습니다. 헬프데스크 및 위치 향상 보고서는 모두이 드릴 다운 워크플로의 좋은 예를 제공 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Power BI를 사용 하 여 팀에 대 한 CQD 데이터 분석](CQD-Power-BI-query-templates.md)

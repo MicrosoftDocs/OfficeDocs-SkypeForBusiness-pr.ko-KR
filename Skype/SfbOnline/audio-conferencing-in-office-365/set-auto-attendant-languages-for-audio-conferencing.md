@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 비즈니스용 Skype Online에서 오디오 회의 번호에 대 한 오디오 회의 자동 전화 교환 언어를 선택 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 93b6ea917c7f79747273366893efc47a22b89bb2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776803"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163909"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의를 위한 자동 전화 교환 언어 설정
 
@@ -64,7 +64,7 @@ ms.locfileid: "43776803"
     
 - 공유 전화 번호에 대해서만 언어를 설정할 수 있습니다.
     
-- Microsoft를 공급자로 사용 하는 Office 365의 오디오 회의를 사용할 수 있는 국가/지역 목록을 보려면 [오디오 회의의 전화 번호](phone-numbers-for-audio-conferencing.md)를 참조 하세요.
+- Microsoft에서 제공 하는 공급자를 사용 하는 Office 365 365의 오디오 회의를 사용할 수 있는 국가/지역 목록을 보려면 [오디오 회의의 전화 번호](phone-numbers-for-audio-conferencing.md)를 참조 하세요.
     
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell을 사용 하 고 싶으신가요?
 
@@ -74,4 +74,4 @@ ms.locfileid: "43776803"
   
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

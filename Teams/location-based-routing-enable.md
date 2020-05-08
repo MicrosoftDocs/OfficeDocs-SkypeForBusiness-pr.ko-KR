@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56ea3f8b27a582a9cea282244a03be692d0781be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905780"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158995"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>직접 라우팅에 위치 기반 라우팅 사용
 
@@ -38,7 +38,45 @@ ms.locfileid: "43905780"
 - 게이트웨이 구성
 - 통화 정책
 
-## <a name="enable-location-based-routing-for-users"></a>사용자의 위치 기반 라우팅 사용
+[Microsoft 팀 관리 센터](#using-the-microsoft-teams-admin-center) 또는 [powershel](#using-powershell)l을 사용 하 여 위치 기반 회람을 사용 하도록 설정할 수 있습니다.
+
+## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
+
+### <a name="enable-location-based-routing-for-users"></a>사용자의 위치 기반 라우팅 사용
+
+1. 음성 라우팅 정책을 만들고 PSTN 용도를 정책에 할당 합니다. PSTN 용도를 정책에 할당 하는 경우 다음 중 하나를 수행 해야 합니다.
+
+    - 사이트에 로컬 PSTN 게이트웨이를 사용 하는 음성 경로에 연결 된 PSTN 용도를 사용 합니다.
+    - 위치 기반 라우팅 제한이 필요 하지 않은 지역에 있는 PSTN 게이트웨이를 사용 하는 음성 경로에 연결 된 PSTN 사용량을 사용 합니다.
+2. 라우팅 제한을 적용 해야 하는 사용자에 게 음성 라우팅 정책을 할당 합니다.
+
+음성 라우팅 정책을 만들고 사용자에 게 할당 하는 방법에 대해 자세히 알아보려면 [Microsoft 팀에서 음성 라우팅 정책 관리](manage-voice-routing-policies.md)를 참조 하세요.
+
+### <a name="enable-location-based-routing-for-network-sites"></a>네트워크 사이트용 위치 기반 라우팅 사용
+
+라우팅 제한을 적용 해야 하는 사이트에 대해 위치 기반 라우팅을 사용 하도록 설정 합니다. 이렇게 하려면 Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치** > **네트워크 토폴로지로**이동 하 여 네트워크 사이트를 선택 하 고 **편집**을 클릭 한 다음 **위치 기반 라우팅**설정을 켭니다.  
+
+자세히 알아보려면 [네트워크 토폴로지 관리](manage-your-network-topology.md)를 참조 하세요.
+
+### <a name="enable-location-based-routing-for-gateways"></a>게이트웨이에 대 한 위치 기반 라우팅 사용
+
+PSTN으로 호출을 라우팅하는 PSTN 게이트웨이로 통화를 라우팅하고 게이트웨이가 있는 네트워크 사이트를 연결 하는 게이트웨이에 대 한 위치 기반 라우팅을 사용 하도록 설정 합니다. 
+
+1. 왼쪽 탐색 창에서 **음성** > **다이렉트 라우팅으로**이동한 다음 **SBCs** 탭을 클릭 합니다.
+2. SBC를 선택 하 고 **편집**을 클릭 합니다. 
+3. **위치 기반 라우팅 및 미디어 최적화**에서 **위치 기반 라우팅 사용**을 설정 합니다.
+4. 게이트웨이 사이트 ID를 지정한 다음 우회 모드를 설정 합니다.
+5. **저장**을 클릭합니다.
+
+### <a name="enable-location-based-routing-for-calling-policies"></a>호출 정책에 대해 위치 기반 라우팅 사용
+
+특정 사용자에 대해 위치 기반 라우팅을 적용 하려면 PSTN 유료 바이패스를 방지 하는 사용자의 호출 정책을 설정 합니다. 이렇게 하려면 통화 정책에서 **무료 바이패스 방지** 설정을 사용 하도록 설정 합니다.
+
+자세히 알아보려면 [팀에서 정책 호출](teams-calling-policy.md)을 참조 하세요.
+
+## <a name="using-powershell"></a>PowerShell 사용
+
+### <a name="enable-location-based-routing-for-users"></a>사용자의 위치 기반 라우팅 사용
 
 1. [CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) cmdlet을 사용 하 여 PSTN 사용량을 설정 합니다. 여러 용도를 위해 각 용도를 쉼표로 구분 합니다.
 
@@ -76,7 +114,8 @@ ms.locfileid: "43905780"
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-## <a name="enable-location-based-routing-for-network-sites"></a>네트워크 사이트용 위치 기반 라우팅 사용
+### <a name="enable-location-based-routing-for-network-sites"></a>네트워크 사이트용 위치 기반 라우팅 사용
+
 1.  [Set-Csten앤틸리스 site](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) cmdlet을 사용 하 여 위치 기반 라우팅을 사용 하도록 설정 하 고 라우팅 제한을 적용 해야 하는 네트워크 사이트에 음성 라우팅 정책을 연결 합니다.
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
@@ -96,7 +135,8 @@ ms.locfileid: "43905780"
     |EnableLocationBasedRouting    |False    |False    |
     |네트     |서브넷 1 (뉴델리)     |서브넷 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-gateways"></a>게이트웨이에 대 한 위치 기반 라우팅 사용
+### <a name="enable-location-based-routing-for-gateways"></a>게이트웨이에 대 한 위치 기반 라우팅 사용
+
 1. [새 CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) cmdlet을 사용 하 여 각 게이트웨이 또는 네트워크 사이트에 대 한 게이트웨이 구성을 만듭니다. 
 
     ```PowerShell
@@ -148,7 +188,7 @@ ms.locfileid: "43905780"
     |PstnGateway: 게이트웨이 3 DEL-PBX    |    해제     |     사이트 1(뉴델리)    |
     |PstnGateway: Gateway 4 HYD-PBX    |    해제     |    Site 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-calling-policies"></a>호출 정책에 대해 위치 기반 라우팅 사용
+### <a name="enable-location-based-routing-for-calling-policies"></a>호출 정책에 대해 위치 기반 라우팅 사용
 
 특정 사용자에 대해 위치 기반 라우팅을 적용 하려면, 사용자의 음성 정책을 설정 하 여 PTSN을 무시할 수 있습니다. 
 

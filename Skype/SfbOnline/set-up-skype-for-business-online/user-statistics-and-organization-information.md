@@ -21,13 +21,13 @@ ms.custom:
 - Setup
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
-description: '사용할 수 있는 비즈니스용 Skype 사용자 통계 (예: Office 365에 대해 사용 하도록 설정 된 사용자 수, 컨퍼런스 사용 가능 사용자 또는 사용자)에 대해 알아봅니다.'
-ms.openlocfilehash: fd1998795fe87fda0d49fe42cc1c8101c51f3b9c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: '사용할 수 있는 비즈니스용 Skype 사용자 통계 (예: Microsoft 365 또는 Office 365에 대해 사용 하도록 설정 된 사용자 수, 컨퍼런스 지원 사용자 또는 사용자)에 대해 알아봅니다.'
+ms.openlocfilehash: f4a8857b767162634866a3d953d113e97876c008
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777033"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164507"
 ---
 # <a name="user-statistics-and-organization-information"></a>사용자 통계 및 조직 정보
 
@@ -38,10 +38,10 @@ ms.locfileid: "43777033"
 |||
 |:-----|:-----|
 |**속성** <br/> |**변경 방법** <br/> |
-|비즈니스용 Skype Online 사용자  <br/> |비즈니스용 Skype 앱을 사용 하지 못하도록 사용자를 추가 하거나 차단 하려면 비즈니스용 [office 365에 대 한 라이선스 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 또는 [비즈니스용 office 365에서 사용자의 라이선스 제거](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1)를 참조 하세요.  <br/> 사용자가 회사를 떠날 때 수행할 수 있는 작업에 대 한 전체 목록은 [Office 365에서 이전 직원 제거](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1)를 참조 하세요.  <br/> |
-|오디오 회의를 사용 하도록 설정 된 사용자  <br/> |오디오 회의에 사용자를 설정 하려면 [Office 365에서 오디오 회의 체험 또는 구입](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)을 참조 하세요.  <br/> |
-|클라우드의 사용자  <br/> |Office 365 계정이 있는 비즈니스용 Skype Online 사용자의 수입니다.  <br/> Microsoft 365 또는 Office 365 구독에 사용자를 추가 하려면 (즉, 해당 항목에 대 한 Office 365 계정을 만드는 경우) [office 365-관리자 도움말에서 사용자 추가 또는 대량 사용](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec)을 참조 하세요.  <br/> |
-|사용자가 동기화 되 고 온라인으로 홈  <br/> |비즈니스용 Skype Server 온-프레미스 배포에서 만들어졌으며 Office 365와 동기화 된 하이브리드 사용자의 수입니다.  <br/> 비즈니스용 Skype 하이브리드 연결을 설정 하려면 비즈니스용 [Skype 서버와 비즈니스용 Skype Online 간 하이브리드 연결 배포](https://technet.microsoft.com/library/jj204669.aspx)를 참조 하세요.  <br/> |
+|비즈니스용 Skype Online 사용자  <br/> |비즈니스용 Skype 앱을 사용 하지 못하도록 사용자를 추가 하거나 차단 하려면 비즈니스용 [microsoft 365에 대 한 라이선스 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 또는 [비즈니스용 microsoft 365에서 라이선스 제거](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1)를 참조 하세요.  <br/> 사용자가 회사를 떠날 때 수행할 수 있는 작업에 대 한 전체 목록은 [Microsoft 365에서 이전 직원 제거](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1)를 참조 하세요.  <br/> |
+|오디오 회의를 사용 하도록 설정 된 사용자  <br/> |오디오 회의에 사용자를 설정 하려면 [Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구입](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)을 참조 하세요.  <br/> |
+|클라우드의 사용자  <br/> |Microsoft 365 또는 Office 365 계정이 있는 비즈니스용 Skype Online 사용자의 수입니다.  <br/> Microsoft 365 또는 Office 365 구독에 사용자를 추가 하려면 (즉, 해당 항목에 대 한 Microsoft 365 또는 Office 365 계정 만들기) [365 office * 관리자 도움말에 개별적으로 또는 대량으로 사용자 추가](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec)를 참조 하세요.  <br/> |
+|사용자가 동기화 되 고 온라인으로 홈  <br/> |이는 비즈니스용 Skype Server 온-프레미스 배포에서 만들어졌으며 Microsoft 365 또는 Office 365와 동기화 된 하이브리드 사용자의 수입니다.  <br/> 비즈니스용 Skype 하이브리드 연결을 설정 하려면 비즈니스용 [Skype 서버와 비즈니스용 Skype Online 간 하이브리드 연결 배포](https://technet.microsoft.com/library/jj204669.aspx)를 참조 하세요.  <br/> |
    
 > [!NOTE]
 > 목록에 없음이 표시 되는 경우에는 정보가 없거나 오류가 발생 했음을 의미 합니다. 
@@ -51,11 +51,11 @@ ms.locfileid: "43777033"
 |||
 |:-----|:-----|
 |**속성** <br/> |**변경 방법** <br/> |
-|조직 이름  <br/> |Office 365에 등록할 때 입력 하는 이름입니다. 변경 하려면 [조직의 주소, 기술 담당자 등 변경을](https://support.office.com/article/a36e5a52-4df2-479e-bb97-9e67b8483e10)참조 하세요.  <br/> |
+|조직 이름  <br/> |Microsoft 365 또는 Office 365에 등록할 때 입력 하는 이름입니다. 변경 하려면 [조직의 주소, 기술 담당자 등 변경을](https://support.office.com/article/a36e5a52-4df2-479e-bb97-9e67b8483e10)참조 하세요.  <br/> |
 |조직 ID  <br/> |조직 ID를 변경할 수 없습니다.  <br/> |
 |조직 만들기  <br/> |이 값을 변경할 수 없습니다.  <br/> |
-|Active Directory 동기화  <br/> |이는 조직이 온-프레미스 비즈니스용 Skype Online 조 직과 동기화 되 고 있는지 여부입니다.  <br/> 온-프레미스 Active Directory를 설정 하려면 [Office 365에 대 한 디렉터리 동기화 설정을](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846)참조 하세요.  <br/> |
-|조직 도메인  <br/> |처음에 Office 365를 설정할 때 다음은 등록 된 도메인입니다.  <br/> 도메인을 추가 하려면 [Office 365에 여러 도메인 추가](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207)를 참조 하세요.  <br/> 도메인을 제거 하려면 [Office 365에서 도메인 제거](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c)를 참조 하세요.  <br/> |
+|Active Directory 동기화  <br/> |이는 조직이 온-프레미스 비즈니스용 Skype Online 조 직과 동기화 되 고 있는지 여부입니다.  <br/> 온-프레미스 Active Directory를 설정 하려면 [Microsoft 365 또는 Office 365에 대 한 디렉터리 동기화 설정을](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846)참조 하세요.  <br/> |
+|조직 도메인  <br/> |Microsoft 365 또는 Office 365을 처음 설정 하는 경우에는 등록 된 도메인입니다.  <br/> 도메인을 추가 하려면 [Microsoft 365 또는 Office 365에 여러 도메인 추가](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207)를 참조 하세요.  <br/> 도메인을 제거 하려면 [Microsoft 365 또는 Office 365에서 도메인 제거](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c)를 참조 하세요.  <br/> |
    
 ## <a name="related-topics"></a>관련 항목
 [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)

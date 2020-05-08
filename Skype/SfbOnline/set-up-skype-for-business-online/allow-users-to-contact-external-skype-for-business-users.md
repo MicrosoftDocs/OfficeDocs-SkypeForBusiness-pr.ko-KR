@@ -28,17 +28,17 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: '사용자가 다른 조직의 사용자에 게 대화를 보내거나 외부 연락처를 사용할 수 있도록 비즈니스용 Skype를 구성 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1f399f7b127596aaf28c7e22b2c65525c72a8e4
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010941"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164827"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용
 
 > [!NOTE]
-> 비즈니스용 Skype 페더레이션은 21Vianet 및 Office 365 독일 조직이 운영 하는 Office 365에서 사용할 수 없습니다. 
+> Skype for Business 페더레이션은 Microsoft 365 또는 21Vianet 및 Microsoft 365 또는 Office 365 독일 조 직에서 운영 하는 Office 365에서 사용할 수 없습니다. 
   
 다음과 같은 경우이 문서에 나와 있는 단계를 사용 합니다.
   
@@ -51,11 +51,11 @@ ms.locfileid: "42010941"
 ## <a name="enable-business-to-business-communications-for-your-users"></a>사용자에 대해 b2b 통신 사용
 <a name="bk_preview"> </a>
 
-이 작업을 수행 하려면 두 조직의 Office 365에 [대 한 관리자 권한이](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 있어야 합니다.
+이 작업을 수행 하려면 두 조직에서 Microsoft 365 또는 Office 365에 [대 한 관리자 권한이](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 있어야 합니다.
 
 ![](../images/teams-logo-30x30.png) **팀 관리 센터를 사용 하 여** Microsoft 팀 로고를 표시 하는 아이콘
   
-1. Office 365 관리자 계정으로 로그인 합니다. 
+1. Microsoft 365 또는 Office 365 관리자 계정으로 로그인 합니다. 
     
 2. 관리 센터에서 **관리 센터** > **팀**으로 이동 합니다.
     
@@ -65,9 +65,9 @@ ms.locfileid: "42010941"
  ![을 선택 하세요 SfB 레거시 포탈을 선택 합니다.](../images/SFBlegacy-size65.png)
  
 4. **비즈니스용 Skype 관리 센터** 에서 **조직** > **외부 통신**을 선택 합니다.
-5. 특정 비즈니스 또는 다른 도메인에 있는 사용자와의 통신을 설정 하려면 드롭다운 상자에서 **허용 된 도메인에만**설정을 선택 합니다.
+5. 드롭다운 상자에서 특정 비즈니스 또는 다른 도메인의 사용자와의 통신을 설정하려면 **허용된 도메인에 대해서만**을 선택합니다.
     
-    또는 비즈니스용 Skype 정책을 연 전세계의 모든 사용자와 통신을 사용 하도록 설정 하려면 **차단 된 도메인을 제외한**를 선택 합니다. 이는 기본 설정입니다.
+    또는 비즈니스용 Skype 정책을 연 전세계의 모든 사용자와 통신을 사용 하도록 설정 하려면 **차단 된 도메인을 제외한**를 선택 합니다. 기본 설정입니다.
     
 6. **차단 되거나 허용 된 도메인**에서 허용 **+** 하려는 도메인의 이름을 선택 하 여 추가 합니다.
     
@@ -98,7 +98,7 @@ ms.locfileid: "42010941"
     
     회사 정책 때문에 보낼 수 없다는 메시지가 표시 되는 경우 [Office 365 url 및 IP 주소 범위를 다시](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)확인 해야 합니다.
     
-3. Skype for Business 연락처에 게 채팅 요청을 보내십시오. 요청을 받지 못한 경우 해당 방화벽 설정이 올바른 것으로 확인 되었다고 가정 하 여 문제가 방화벽 설정입니다.
+3. Skype for Business 연락처에 게 채팅 요청을 보내십시오. 요청을 받지 못한 경우 (방화벽 설정이 올바른지 이미 확인했다고 가정한다면) 방화벽 설정에 문제가 있는 것입니다.
     
 4. 문제가 방화벽에 해당 하는지 여부를 테스트 하는 또 다른 방법은 커피숍과 같이 방화벽 뒤에 있지 않은 wifi 위치로 이동 하 여 비즈니스용 Skype를 사용 하 여 대화 상대에 게 채팅 요청을 보내는 것입니다. 메시지가 표시 되지만 작업 중에는 그렇지 않은 경우에는 방화벽이 문제가 되는 것을 알 수 있습니다.
     
@@ -116,7 +116,7 @@ ms.locfileid: "42010941"
     
 - Lync와 비즈니스용 Skype Online 간의 페더레이션을 구성 하려면이 문서에서는 [Lync Online 고객에 대 한 페더레이션 지원 구성을](https://technet.microsoft.com/library/hh202193.aspx)참조 하세요.
     
-- Office 365에 있는 두 개의 비즈니스용 Skype 사용자 들이 별도의 도메인에 서로 통신 하는 경우, 두 조직 모두에서 사용 하도록 설정 된 비즈니스용 Skype 기능 (예: 비디오 대화 또는 데스크톱 공유)만 사용할 수 있습니다.
+- Microsoft 365 또는 Office 365에 있는 두 개의 비즈니스용 Skype 사용자 들이 별도의 도메인에서 서로 통신 하는 경우, 두 조직 모두에 설정 된 비즈니스용 Skype 기능 (예: 비디오 대화 또는 데스크톱 공유)만 사용할 수 있습니다.
     
 - 조직의 비즈니스용 Skype 사용자가 현재 위치 또는 소송 유지에 포함 되는 경우 해당 사용자와 다른 비즈니스용 Skype 또는 Skype 사용자 간 메신저 대화는 사서함에 **복구 가능한 항목** 으로 저장 됩니다. 이러한 대화는 사서함의 **대화 내용** 폴더에 저장 되지 않습니다.
     
@@ -125,7 +125,7 @@ ms.locfileid: "42010941"
 
 전체 비즈니스에 대해 외부 통신을 사용 하도록 설정한 후에는 특정 개인에 대해서만 해제할 수 있습니다.
   
-1. Office 365 관리자 계정으로 로그인 합니다.
+1. Microsoft 365 또는 Office 365 관리자 계정으로 로그인 합니다.
     
 2. 관리 센터에서 **사용자** > **활성 사용자**로 이동 합니다.
     

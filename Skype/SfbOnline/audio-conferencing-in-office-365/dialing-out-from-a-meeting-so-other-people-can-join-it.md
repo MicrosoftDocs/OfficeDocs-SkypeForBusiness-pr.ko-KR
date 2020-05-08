@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 필요한 내용과 모임 이끌이가 비즈니스용 Skype를 사용 하 여 다른 사용자에 게 전화를 걸 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: e69fa266b9e10091f0936baee45c140ba198661f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41982823"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164287"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>비즈니스용 Skype 모임에서 전화를 걸어 다른 사람이 참가할 수 있습니다.
 
@@ -39,7 +39,7 @@ ms.locfileid: "41982823"
     
 - 모임 이끌이가 오디오 회의를 사용 하도록 설정 되었습니다.
 
-다른 참가자 추가를 허용 하기 위해 조직의 모임에 전화 접속을 통해 다른 참가자를 추가 하기 위해 모임에 이끌이 (조직)와 동일한 조직의 인증 된 사용자가 하나 이상 있어야 합니다. 전화 걸기를 통해 
+전화를 사용 하 여 조직의 모임에 다른 참가자를 추가 하려면 전화를 통해 다른 참가자를 추가 하는 것을 허용 하기 위해 이끌이 (조직)와 동일한 조직에서 인증 된 사용자가 한 명 이상 모임에 있어야 합니다. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "41982823"
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>오디오 회의에 대 한 자세한 내용을 확인 하 고 싶으신가요?
 
-[Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [비즈니스용 Skype 추가 기능 라이선스](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

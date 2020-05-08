@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 다음 요구 사항은 조직에 대해 설정 하는 모든 비즈니스용 Skype Online 기능에 대 한 장기간의 상태와 성공 여부를 확인 하는 데 매우 중요 합니다. 이 문서는 매우 유용한 기술 이지만 몇 가지 기능을 제공 하지는 않습니다. 비즈니스용 Skype Online 설정에 대 한 도움이 필요한 경우이 문서를 읽고 고려해 야 할 사항을 숙지 하세요. 또한 microsoft FastTrack 센터, Microsoft 서비스 및 계정 팀을 사용 하는 경우, microsoft 파트너와 함께 이러한 요구 사항을 충족 하는 방법을 파악 하는 데 도움이 되는 내용을 제공 합니다.
-ms.openlocfilehash: 5101b59c4e911f6fbad36ff2c601428a8fa25177
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: eb8cf69ee7e8ea82d71ea088f5866b03e048a0ac
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010951"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164757"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>비즈니스용 Skype Online에 맞게 네트워크 최적화
 
@@ -52,7 +52,7 @@ ms.locfileid: "42010951"
 
 IP를 통한 실시간 미디어 (오디오, 비디오 및 응용 프로그램 공유)의 품질은 종단간 네트워크 연결의 품질에 따라 크게 영향을 받습니다. 비즈니스용 Skype Online media의 품질을 최적화 하려면 회사 네트워크와 비즈니스용 Skype Online 간에 고품질의 연결을 설정 하는 것이 중요 합니다. 이 작업을 수행 하는 가장 좋은 방법은 모든 연결에 걸친 비즈니스용 Skype Online의 최고 트래픽 볼륨에 맞게 네트워크 용량을 기준으로 내부 네트워크 및 클라우드 연결을 설정 하는 것입니다.
 
-[Microsoft 파트너](https://partnercenter.microsoft.com/pcv/search)와 협력 하 여 회사의 비즈니스용 skype Online을 비롯 한 다양 한 Office 365 응용 프로그램을 네트워크에 연결 하 고 비즈니스용 skype에 대 한 실시간 음성 및 영상 통신 기능을 365 지원 하기 위해 네트워크 서비스를 명시적으로 구성 해야 합니다. 여기에는 필요한 트래픽 볼륨을 운반 하기에 충분 한 대역폭을 보유 하 고 있으며 QoS (서비스 품질)를 지원 하 여 사용자에 게 비즈니스 수업 경험을 제공할 수 있는 네트워크가 포함 됩니다.
+[Microsoft 파트너](https://partnercenter.microsoft.com/pcv/search)와 협력 하 여 Skype For business Online을 비롯 한 다양 한 Microsoft 365 또는 office 365 응용 프로그램을 네트워크에 연결 하 고 비즈니스용 skype에 대 한 실시간 음성 및 영상 통신 기능을 365 365 지원 하도록 네트워크 서비스를 명시적으로 구성 해야 합니다. 여기에는 필요한 트래픽 볼륨을 운반 하기에 충분 한 대역폭을 보유 하 고 있으며 QoS (서비스 품질)를 지원 하 여 사용자에 게 비즈니스 수업 경험을 제공할 수 있는 네트워크가 포함 됩니다.
 
 여기에는 비즈니스용 Skype Online 서비스 및 기능을 성공적으로 계획 하 고 배포 하는 데 도움이 될 수 있는 다른 리소스가 있으며, 네트워크 서비스가 이러한 요구 사항을 충족 하는지 확인 합니다.
 
@@ -64,11 +64,11 @@ IP를 통한 실시간 미디어 (오디오, 비디오 및 응용 프로그램 �
 
 ## <a name="implement-quality-of-service-qos-for-skype-for-business"></a>비즈니스용 Skype에 대 한 서비스 품질 (QoS) 구현
 
-비즈니스용 Skype Online으로 전환 하기 전에 네트워크 용량을 살펴보고 오디오, 비디오 및 공유 세션 트래픽을 처리 해야 합니다. 다른 Office 365 서비스와 마찬가지로 Microsoft는 각 회사 사이트에 필요한 네트워크 트래픽을 결정 하는 데 사용 되는 비즈니스용 [Skype 대역폭 계산기](https://www.microsoft.com/download/details.aspx?id=19011) 를 다운로드할 수 있습니다. 실시간 통신 트래픽 미디어 흐름과 회사 위치 당 비즈니스용 Skype 트래픽 양, 트래픽 볼륨 계산, 트래픽이 전체 네트워크에 영향을 주는 방식을 분석 하는 등의 사용 현황 모델링을 수행 해야 합니다. 이 작업을 완료 한 후에는이 데이터를 분석 하 여 네트워크를 개선 해야 하는 위치에 대 한 권장 사항을 제공 하 고 최상의 최종 사용자 환경을 제공 하기 위해 대기열 크기를 권장 해야 합니다.
+비즈니스용 Skype Online으로 전환 하기 전에 네트워크 용량을 살펴보고 오디오, 비디오 및 공유 세션 트래픽을 처리 해야 합니다. 다른 Microsoft 365 및 Office 365 서비스와 마찬가지로 Microsoft는 각 회사 사이트에 필요한 네트워크 트래픽을 결정 하는 데 사용 되는 비즈니스용 [Skype 대역폭 계산기](https://www.microsoft.com/download/details.aspx?id=19011) 를 다운로드할 수 있습니다. 실시간 통신 트래픽 미디어 흐름과 회사 위치 당 비즈니스용 Skype 트래픽 양, 트래픽 볼륨 계산, 트래픽이 전체 네트워크에 영향을 주는 방식을 분석 하는 등의 사용 현황 모델링을 수행 해야 합니다. 이 작업을 완료 한 후에는이 데이터를 분석 하 여 네트워크를 개선 해야 하는 위치에 대 한 권장 사항을 제공 하 고 최상의 최종 사용자 환경을 제공 하기 위해 대기열 크기를 권장 해야 합니다.
 
 비즈니스용 Skype 실시간 트래픽은 패킷 손실, 지연 및 지터에 대 한 중요 한 것으로, 혼잡 네트워크에서 자주 발생 합니다. QoS (서비스 품질) 라고도 함-서비스 종류는 관리 되는 외부 Wan, 관리 내부 Lan 및 엔터프라이즈 기반 WiFi 네트워크에도 배포 되어야 합니다. 이렇게 하면 로컬 네트워크 및 WAN을 통한 다른 비 실제 시간 트래픽을 통해 오디오 및 비디오와 같은 비즈니스용 Skype 실시간 트래픽을 적절 하 게 우선 순위를 지정 하 여 최종 사용자에 게 더 나은 환경을 만들 수 있습니다.
 
-비즈니스용 skype 오디오는 EF (긴급 전달-DSCP 46) 큐에 배포 해야 하며 비즈니스용 Skype 비디오는 AF41 (보장 된 착신 전환-DSCP 34) 큐에 배포 해야 합니다. 이는 Office 365 또는 다른 전화 통신 기능의 전화 시스템의 배포 여부에 관계 없이 피어 투 피어 및 회의 트래픽에도 해당 됩니다.
+비즈니스용 skype 오디오는 EF (긴급 전달-DSCP 46) 큐에 배포 해야 하며 비즈니스용 Skype 비디오는 AF41 (보장 된 착신 전환-DSCP 34) 큐에 배포 해야 합니다. Microsoft 365 또는 Office 365 또는 기타 전화 통신 기능의 전화 시스템을 배포 하 고 있는지 여부에 관계 없이 피어 투 피어 및 회의 트래픽에도 마찬가지입니다.
 
 기존 QoS 정책은 이미 LAN 및 다른 IP 전화 통신 제품에 대 한 WAN에 위치 해 있을 수 있지만, 비즈니스용 Skype를 통해 사용자는 모바일이 될 수 있으며 서비스를 사용 하는 동안 위치에서 위치로 이동할 수 있습니다. 이 때문에 모든 비즈니스용 Skype 트래픽을 관리 되는 네트워크에서 우선 순위를 유지 하려면 LAN, WAN 및 무선 네트워크에 QoS 정책이 표시 되어야 합니다.
 
@@ -80,30 +80,30 @@ QoS 설정 및 관리에 대 한 자세한 내용은 [서비스 품질 관리](h
 
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>프록시 및 WAN 최적화 장치 사용 안 함
 
-비즈니스용 Skype Online을 포함 한 모든 Office 365는 암호화 되어 있으며 일반적으로 프록시 장치에서 검사할 수 없습니다. 이러한 이유로 사용자가 [office 365 url 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)에 대 한 연결로 정의 된 모든 Office 365 네트워크 트래픽에 대해 프록시 장치를 우회 하는 것이 좋습니다. 프록시 장치는 실시간 비즈니스용 Skype Online 미디어 스트림을 지연 시킬 수 있으므로 최소한 해당 트래픽에만 프록시 장치를 우회 하는 것이 좋습니다.
+비즈니스용 Skype Online을 포함 한 모든 Microsoft 365 또는 Office 365가 암호화 되어 일반적으로 프록시 장치에서 검사할 수 없습니다. 이러한 이유로 사용자가 [office 365 url 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)에 대 한 연결로 정의 된 모든 Microsoft 365 및 Office 365 네트워크 트래픽에 대해 프록시 장치를 우회 하는 것이 좋습니다. 프록시 장치는 실시간 비즈니스용 Skype Online 미디어 스트림을 지연 시킬 수 있으므로 최소한 해당 트래픽에만 프록시 장치를 우회 하는 것이 좋습니다.
 
-Microsoft는 PAC 파일을 사용 하 여 office 365 Url을 제외 하 고 방화벽에 Office 365 트래픽을 보내는 것이 좋습니다.
+Microsoft는 PAC 파일을 사용 하 여 microsoft 365 및 Office 365 Url을 제외 하 고 Microsoft 365 및 Office 365 트래픽을 방화벽으로 보내는 것이 좋습니다.
 
 다음은 사용할 수 있는 몇 가지 리소스입니다.
 
-- [Office 365 초기 계획 및 성능 기록을 사용 하 여 성능 조정](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
+- [초기 계획 및 성능 기록을 사용 하 여 Microsoft 365 또는 Office 365 성능 조정](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
 
-- [Office 365에 대 한 네트워크 및 마이그레이션 계획](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
+- [Microsoft 365 또는 Office 365에 대 한 네트워크 및 마이그레이션 계획](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
 
 - [Office 365 프록시 Pac 생성기](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
 
-- [WAN 최적화 컨트롤러 또는 Office 365에서 트래픽/검사 장치 사용](https://aka.ms/kb2690045)
+- [Microsoft 365 또는 Office 365을 사용 하 여 WAN 최적화 컨트롤러 또는 트래픽/검사 장치 사용](https://aka.ms/kb2690045)
 
-- [Office 365 용 Express를 사용 하는 라우팅](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
+- [Microsoft 365 또는 Office 365 용 Express 경로를 사용 하는 라우팅](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
 
 ## <a name="bypass-double-encryption"></a>이중 암호화 무시
 
-사용자에 게 최상의 오디오 및 비디오 환경을 제공 하려면 비즈니스용 Skype 미디어 (오디오 및 비디오)가 VPN (가상 사설망) 터널을 통과 하는 것을 막는 솔루션을 구현 해야 합니다. 모든 비즈니스용 Skype 트래픽은 TLS (전송 계층 보안)를 사용 하 여 암호화 되 고, 미디어 워크 로드는 보안 실시간 프로토콜 (SRTP)으로 암호화 됩니다. 신호는 TLS로 암호화 되 고 미디어 작업은 SRTP으로 암호화 됩니다. VPN 터널을 통해이 트래픽을 전송 하면 추가 암호화 계층과 클라이언트와 Office 365 사이에 추가 네트워크 홉이 추가 되므로이 두 가지는 모두 지터와 패킷 손실 및 대기 시간을 증가 시 면 성능이 저하 될 수 있습니다.
+사용자에 게 최상의 오디오 및 비디오 환경을 제공 하려면 비즈니스용 Skype 미디어 (오디오 및 비디오)가 VPN (가상 사설망) 터널을 통과 하는 것을 막는 솔루션을 구현 해야 합니다. 모든 비즈니스용 Skype 트래픽은 TLS (전송 계층 보안)를 사용 하 여 암호화 되 고, 미디어 워크 로드는 보안 실시간 프로토콜 (SRTP)으로 암호화 됩니다. 신호는 TLS로 암호화 되 고 미디어 작업은 SRTP으로 암호화 됩니다. VPN 터널을 통해이 트래픽을 전송 하면 클라이언트와 Microsoft 365 또는 Office 365 사이에 추가 네트워크 홉이 추가 되 고, 두 경우 모두 지터, 패킷 손실 및 대기 시간이 증가할수록 성능이 저하 될 수 있습니다.
 
 비즈니스용 Skype 트래픽이 VPN 터널을 트래버스 하는 것을 방지 하는 한 가지 옵션은 분할 터널링입니다. 분할 터널링을 구현 하기 위해 고객은 해당 소프트웨어에서이 작업을 수행 하는 방법에 대 한 세부 사항을 VPN 공급 업체에 문의 해야 합니다.
 
 > [!NOTE]
-> 이는 비즈니스용 Skype 미디어 작업에만 필요 하며 다른 Office 365 서비스에는 적용 되지 않습니다.
+> 이는 비즈니스용 Skype 미디어 작업에만 필요 하며 다른 Microsoft 365 또는 Office 365 서비스에는 적용 되지 않습니다.
 
 추가 리소스:
 
@@ -115,7 +115,7 @@ Microsoft는 PAC 파일을 사용 하 여 office 365 Url을 제외 하 고 방�
 
 ## <a name="ensure-the-right-ports-and-protocols-are-open"></a>적절 한 포트와 프로토콜이 열려 있는지 확인
 
-고객은 O365 서비스에 필요한 Url 및 IP 주소의 연결 가능성을 보장 해야 합니다. 비즈니스용 Skype Online에 대 한 모든 IP 주소 및 Url의 전체 목록은 [Office 365 url 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)를 참조 하세요.
+고객은 Microsoft 365 또는 Office 365 서비스에 필요한 Url 및 IP 주소에 대 한 연결 가능성을 확인 해야 합니다. 비즈니스용 Skype Online에 대 한 모든 IP 주소 및 Url의 전체 목록은 [Office 365 url 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)를 참조 하세요.
 
 비즈니스용 Skype 클라이언트는 다양 한 포트와 프로토콜을 사용 합니다. 비즈니스용 Skype 세션에 대 한 네트워크 트래픽 방향과 흐름은 조작 유형 (피어 투 피어 vs 단체) 및 콘텐츠 공유 및 음성/비디오 사용에 따라 달라 집니다. 원본 및 대상 포트에 특별 한 주의를 기울이고 포트 및 프로토콜 목록을 검토 하 고 열어야 합니다. 예를 들어 오디오 트래픽은 클라이언트 쪽에서 20 개 포트 (50000-50019 TCP/UDP)만 사용 하지만, 대상 포트는 서비스 측의 10K 포트 범위 (50000-59999 TCP/UDP)에서 어디에 있을 수 있습니다. 여기에는 방화벽에서 TCP 443 및 UDP 3478을 여는 것도 포함 됩니다.
 

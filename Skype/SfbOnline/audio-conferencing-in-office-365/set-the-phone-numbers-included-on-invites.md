@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '발신자가 비즈니스용 Skype Online 모임에 참가 하는 데 사용할 기본 전화 번호를 만드는 단계를 확인 하세요. '
-ms.openlocfilehash: a570c457c51ce87655c1cb13e1eb61951b968400
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b7a4ee991ff8a8e41401b3b2d2dc20aa20708b88
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776783"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163937"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>비즈니스용 Skype Online의 초대에 포함 된 전화 번호 설정
 
 > [!Note]
 > Microsoft 팀의 모임 초대 전화 번호에 대 한 자세한 내용은 [Microsoft 팀의 초대에 포함 된 전화 번호 설정을](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)참고 하세요.
 
-Office 365의 오디오 회의를 통해 조직의 사용자가 비즈니스용 Skype 모임을 만든 다음 사용자가 휴대폰을 사용 하 여 해당 모임에 전화를 걸 수 있습니다. Office 365에서 Microsoft 오디오 회의 브리지 또는 ACP (승인 된 오디오 회의 공급자)에 의해 호스팅되는 타사 오디오 회의 브리지를 사용 하는 옵션이 있습니다.
+Microsoft 365 또는 Office 365의 오디오 회의를 통해 조직의 사용자가 비즈니스용 Skype 모임을 만든 다음 사용자가 휴대폰을 사용 하 여 해당 모임에 전화를 걸 수 있습니다. Microsoft 365 및 Office 365에서는 Microsoft 오디오 회의 브리지 또는 ACP (승인 된 오디오 회의 공급자)에 의해 호스팅되는 타사 오디오 회의 브리지를 사용 하는 옵션이 제공 됩니다.
   
 > [!NOTE]
 > 오디오 회의에 대한 모든 전화 접속 번호 목록을 포함하는 리소스는 없습니다. 해당 지역 또는 국가/지역에서 전화 접속 전화 번호를 사용할 수 있는지 확인 하려는 경우 **비즈니스용 Skype 관리 센터** > **음성** > **전화 번호**를 사용 하 여 **추가** , **새 서비스 번호**를 차례로 클릭 합니다. **국가/지역**, **시/지역** , 구/군/ **시** 목록을 사용 하 여 검색을 필터링 합니다. 또한, > 무료 서비스 번호를 찾고 있는 경우에는 **상태/지역** 목록에서 무료 **통화** 를 선택 합니다.
@@ -136,11 +136,11 @@ Office 365의 오디오 회의를 통해 조직의 사용자가 비즈니스용 
     
   - [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 또는 Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
     
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -148,4 +148,4 @@ Office 365의 오디오 회의를 통해 조직의 사용자가 비즈니스용 
     
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 2021 년 7 월 31 일에 최신 프로그램 종료는 타사 오디오 회의 공급자 (타사 ACP)와 함께 비즈니스용 Skype 통합에 대해 마무리 됩니다.
-ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5b49bf573ad79cbdacbc538a0ef67faf1b2b634e
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41985033"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164457"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>타사 오디오 회의 공급자와 비즈니스용 Skype 통합을 위한 수명 프로그램 종료 
 
@@ -59,7 +59,7 @@ Microsoft는 타사의 ACPs (오디오 회의 공급자)를 사용 하 여 비�
 
 Microsoft 오디오 회의로 마이그레이션하고 2021 년 7 월 31 일 이전에 마이그레이션을 완료 하기로 결정 한 조직은 해당 날짜 동안 또는 그 이후에는 서비스 영향을 주지 않습니다. Microsoft 오디오 회의로 마이그레이션하면 조직에 다음과 같은 변경 사항이 적용 됩니다. 
 
-- 다른 모든 Office 365 서비스와 함께 서비스가 청구 됩니다. 
+- 다른 모든 Microsoft 365 또는 Office 365 서비스와 함께 서비스 대금이 청구 됩니다. 
 
 - 표준 구독을 구매한 경우 유료 전화 접속 비용은 사용자 단위 월별 구독 비용에 포함 됩니다. 
 
@@ -73,13 +73,13 @@ Microsoft 오디오 회의로 마이그레이션하고 2021 년 7 월 31 일 이
 
 Microsoft 오디오 회의로 마이그레이션하는 작업은 간단 하며, 서비스의 라이선스를 얻은 후 몇 가지 단계를 수행 하면 됩니다. Microsoft 오디오 회의로 마이그레이션하는 방법에 대 한 자세한 내용은 다음을 참조 하세요.
 
-- [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **요약은**
 
 - 2021 년 7 월 31 일 이전에 Microsoft 오디오 회의로 마이그레이션하고 마이그레이션을 완료 하는 조직에서는 해당 날짜 중 또는 그 이후에 서비스에 대 한 영향이 없습니다.
 
-- Microsoft 오디오 회의로 마이그레이션하는 방법에 대해 자세히 알아보려면 [Office 365에서 오디오 회의 체험 또는 구입](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)을 참조 하세요. 
+- Microsoft 오디오 회의로 마이그레이션하는 방법에 대해 자세히 알아보려면 [microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구입](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)을 참조 하세요. 
 
 ### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>경로 #2: 계속 해 서 타사 오디오 회의 공급자를 사용 합니다.
 
@@ -91,7 +91,7 @@ Microsoft 오디오 회의로 마이그레이션하는 작업은 간단 하며, 
  
 2021 년 7 월 31 일 까지의 일정 측면에서 타사 ACP의 전화 접속 정보는 비즈니스용 Skype 모임 초대에 더 이상 자동으로 포함 되지 않습니다. 사용자는이 정보를 모임의 일부로 포함 하 여 계속 하려는 경우 비즈니스용 Skype 모임 초대에 전화 접속 정보를 수동으로 추가 해야 합니다. 
 
-2021 년 7 월 31 일에는 사용자의 기존 모임이 타사 ACP 전화 접속 정보를 제거 하도록 자동으로 일정이 조정 되지 않는 것을 참고 하세요. 사용자의 모임에 대해 VoIP를 사용 하도록 설정 하는 조직은 사용자에 게 타사 ACP를 통합 하지 않도록 설정 하 고 모임 마이그레이션 서비스를 사용 하 여 모임의 일정을 재조정 하 여 타사 오디오를 제거 하는 것이 좋습니다. 기존 모임의 회의 전화 접속 정보를 보고 이미 예약 된 모임의 오디오 조각화를 방지 합니다. 
+2021 년 7 월 31 일에는 사용자의 기존 모임이 타사 ACP 전화 접속 정보를 제거 하도록 자동으로 일정이 조정 되지 않는 것을 참고 하세요. VoIP를 사용 하도록 설정 된 조직은 사용자를 위해 타사 ACP의 통합을 비활성화 하 고 모임 마이그레이션 서비스를 사용 하 여 모임을 다시 예약 하 여 기존 모임에서 타사 오디오 회의 전화 접속 정보를 제거 하 고 이미 예약 된 모임의 오디오 조각화를 방지할 수 있습니다. 
 
 - 지정 된 조직자에 대해 타사 오디오 회의의 통합을 사용 하지 않도록 설정 하려면 제거-CsUserAcp cmdlet을 사용 합니다. 자세한 내용은 [-CsUserAcp 제거](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)를 참조 하세요. 
 
@@ -105,7 +105,7 @@ Microsoft 오디오 회의로 마이그레이션하는 작업은 간단 하며, 
 
     - 특정 이끌이의 모든 모임에서 VoIP를 사용 하지 않도록 설정 하려면 CsConferencingPolicy cmdlet을 통해 사용자의 회의 정책에 대 한 AllowIPAudio 매개 변수를 false로 설정 합니다. 자세한 내용은 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)를 참조 하세요.
  
-- 조직에서 모든 모임에 대해 VoIP를 사용 하지 않도록 설정 하지 않는 경우 사용자가 타사 ACP와 함께 비즈니스용 Skype Online 통합을 사용 하지 않도록 설정 하 고 모임 일정을 재조정 하 여 타사 ACP 전화 접속 정보를 제거 하는 것이 좋습니다. 오디오 조각화를 방지 합니다.
+- 조직에서 모든 모임에 대해 VoIP를 사용 하지 않도록 설정 하지 않는 경우 사용자가 타사 ACP와 함께 비즈니스용 Skype Online 통합을 사용 하지 않도록 설정 하 고 모임 일정을 재조정 하 여 오디오 조각화를 방지 하기 위해 타사 ACP 전화 접속 정보를 제거 하는 것이 좋습니다.
 
     - 지정 된 조직자에 대해 타사 오디오 회의의 통합을 사용 하지 않도록 설정 하려면 [제거-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) cmdlet을 사용 합니다. 
 

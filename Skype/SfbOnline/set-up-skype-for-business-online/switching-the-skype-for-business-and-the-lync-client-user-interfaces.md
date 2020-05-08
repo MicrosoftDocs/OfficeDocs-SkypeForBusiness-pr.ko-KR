@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Office 365에서 PowerShell을 사용 하 여 비즈니스용 Skype와 Lync 클라이언트 사용자 인터페이스 간 전환 하는 방법 알아보기 '
-ms.openlocfilehash: 02221d0edde6a37ec16a4820792d1d18756d4bb7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Microsoft 365 또는 Office 365에서 PowerShell을 사용 하 여 비즈니스용 Skype와 Lync 클라이언트 사용자 인터페이스 간 전환 하는 방법 알아보기 '
+ms.openlocfilehash: 02542d11c7315c8f7e183fb78eebf210ead2df94
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706453"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164307"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>비즈니스용 Skype와 Lync 클라이언트 사용자 인터페이스 간 전환
 
-비즈니스용 Skype Online 조 직의 경우 Office 365의 원격 PowerShell을 사용 하 여 비즈니스용 Skype 사용자가 비즈니스용 skype 클라이언트 또는 비즈니스용 Skype (Lync) 클라이언트 사용자 인터페이스를 사용할 수 있도록 설정 하면 됩니다. 기본 설정은 사용자가 비즈니스용 Skype 클라이언트 사용자 인터페이스를 사용 하는 것입니다. Lync 클라이언트 환경을 사용 하려는 경우이 항목의 뒷부분에 나오는 단계에 따라 첫 번째 시작 클라이언트 동작을 관리 하 여 Lync 사용자 인터페이스를 표시할 수 있습니다.
+비즈니스용 Skype Online 조직의 경우 Microsoft 365 또는 Office 365의 원격 PowerShell을 사용 하 여 비즈니스용 Skype 사용자가 비즈니스용 skype 클라이언트 또는 비즈니스용 Skype (Lync) 클라이언트 사용자 인터페이스를 사용 하도록 설정할 수 있습니다. 기본 설정은 사용자가 비즈니스용 Skype 클라이언트 사용자 인터페이스를 사용 하는 것입니다. Lync 클라이언트 환경을 사용 하려는 경우이 항목의 뒷부분에 나오는 단계에 따라 첫 번째 시작 클라이언트 동작을 관리 하 여 Lync 사용자 인터페이스를 표시할 수 있습니다.
   
 > [!NOTE]
 > Lync 2013 클라이언트 환경은 비즈니스용 Skype 2016 클라이언트 버전에 대 한 옵션이 아닙니다. Lync 2013 클라이언트를 사용 하도록 클라이언트 환경을 구성 하기 전에 클라이언트 버전을 확인 하 여 숫자 16으로 시작 되지 않는지 확인 하세요. 예: x.x.x. 
@@ -167,9 +167,9 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
    
 Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
   
-- [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Microsoft 365 또는 Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## <a name="first-launch-client-behaviors"></a>첫 번째 클라이언트 동작 시작
 
@@ -278,7 +278,7 @@ Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
     
 또한, 레지스트리를 검사 하 여 GPO가 사용자 컴퓨터의 레지스트리를 성공적으로 업데이트 했는지 확인할 수 있습니다. 레지스트리 편집기를 열고 **[HKEY_CURRENT_USER\\소프트웨어\\Microsoft\\Office\\Lync]** 키로 이동 합니다. GPO가 성공적으로 레지스트리를 업데이트 하면 값이 0 인 EnableSkypeUI 이라는 값이 표시 됩니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

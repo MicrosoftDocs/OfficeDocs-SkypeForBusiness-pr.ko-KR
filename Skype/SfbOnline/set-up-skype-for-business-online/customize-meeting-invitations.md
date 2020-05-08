@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '그래픽 로고, 도움말 및 법률 Url, 바닥글 텍스트를 사용 하 여 Skype 모임 초대를 사용자 지정 합니다. '
-ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f4622a964037feab0c06e731606aded7a9fb758
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776233"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164337"
 ---
 # <a name="customize-meeting-invitations"></a>모임 초대장의 사용자 지정
 
@@ -69,14 +69,14 @@ ms.locfileid: "43776233"
    
 5. **저장**을 선택 합니다.
     
-6. 변경 내용이 모든 Office 365 서비스에 채워질 때까지 1 시간 동안 기다립니다. 그런 다음 Outlook으로 이동 하 여 변경 내용을 확인 하기 위해 Skype 모임 일정을 선택 합니다. 
+6. 모든 Microsoft 365 또는 Office 365 서비스에 변경 내용이 채워질 때까지 1 시간 동안 기다립니다. 그런 다음 Outlook으로 이동 하 여 변경 내용을 확인 하기 위해 Skype 모임 일정을 선택 합니다. 
     
     ![그래픽 없이 사용자 지정 초대장이 표시 되는 모양](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>관련 항목
 <a name="__top"> </a>
 
-[Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

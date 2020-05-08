@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 국가 및 지역에 전화 접속 회의 번호와 자동으로 할당 되는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3abae815eca6dad17fe51efaf7ec715421650ff
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777443"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164717"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의를 위한 전화 번호
 
@@ -55,7 +55,7 @@ ms.locfileid: "43777443"
   
  **전용 전화 번호**는 조직 내 사용자만 사용할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 있습니다.
   
- **공유 전화 번호** 는 다른 Microsoft 365 또는 Office 365s와 공유할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
+ **공유 전화 번호** 는 다른 Microsoft 365 또는 Office 365 계정과 공유할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
   
 이끌이에게 할당된 기본 오디오 회의 번호는 모임 초대에만 포함되어 있지만 발신자는 회의 브리지에 할당된 모든 전화 번호를 사용하여 모임에 참가할 수 있습니다. 모임에 참여하는 데 사용할 수 있는 전화 번호 목록은 모든 모임 초대에 포함되는 **현지 번호 찾기** 링크에서 사용할 수 있습니다.
   
@@ -89,4 +89,4 @@ ms.locfileid: "43777443"
    
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

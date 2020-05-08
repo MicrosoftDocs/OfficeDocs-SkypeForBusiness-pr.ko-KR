@@ -17,12 +17,12 @@ description: Microsoft 통화 계획 및 전화 시스템을 구성 하는 방�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b76f8605aa1151911c26e0724db161b3a497fcf6
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905890"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164557"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -135,7 +135,7 @@ Azure 맵은 위치 기반 서비스에 사용 됩니다.  Microsoft 팀 관리 
 
 ## <a name="configure-location-information-service"></a>위치 정보 서비스 구성
 
-팀 클라이언트는 여러 네트워크 식별자와 연결 된 위치에서 긴급 주소를 가져옵니다. 서브넷과 WAPs (무선 액세스 지점)가 모두 지원 됩니다. (이더넷 스위치/포트에 대 한 지원이 보류 중입니다.)
+팀 클라이언트는 여러 네트워크 식별자와 연결 된 위치에서 긴급 주소를 가져옵니다. 서브넷과 WAPs (무선 액세스 지점)가 모두 지원 됩니다. 여러 위치가 발견 되는 경우 WAP이 서브넷 보다 우선적으로 적용 됩니다. (이더넷 스위치/포트에 대 한 지원이 보류 중입니다.)
 
 클라이언트가 위치를 가져오려면 다음 cmdlet을 사용 하 여 네트워크 식별자 및 응급 위치로 LIS (위치 정보 서비스)를 채워야 합니다.  
 
