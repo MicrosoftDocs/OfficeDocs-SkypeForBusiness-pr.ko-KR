@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 581d67f0083ea8b0e91615a96685f10f4cd64785
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 2bb8133733f7230715753ecea0118fc635af446b
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940950"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159005"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 지정 계층 구조 설정
 
@@ -118,7 +118,7 @@ CSV 파일에는 다음 순서 대로 첫 번째 열부터 다음 세 개의 열
 > [!IMPORTANT]
 > 이 단계를 수행 하려면 PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈을 설치 하 고 사용 해야 합니다. 이 작업을 수행 하는 방법에 대 한 단계는 [Powershell 테스트 갤러리에서 최신 팀 PowerShell 모듈 설치](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)를 참조 하세요.
 
-스키마 CSV 파일에서 계층 구조를 정의 하 고 나면 팀에 업로드할 수 있습니다. 이렇게 하려면 다음 명령을 실행 합니다. 이 단계를 수행 하려면 관리자 여야 합니다. 
+스키마 CSV 파일에서 계층 구조를 정의 하 고 나면 팀에 업로드할 수 있습니다. 이렇게 하려면 다음 명령을 실행 합니다. 이 단계를 수행 하려면 전역 관리자 또는 팀 서비스 관리자 여야 합니다.
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"

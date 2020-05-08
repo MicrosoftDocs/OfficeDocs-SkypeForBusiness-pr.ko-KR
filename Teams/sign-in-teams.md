@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43bbb3018b1c0cbe9f225a8a78acd4007b9232c2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 344cf0d38926af200f4d92b664761d2c8868df57
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903733"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139141"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용하여 Microsoft Teams에 로그인
 ==========================
@@ -46,6 +46,8 @@ Microsoft Teams는 최신 인증을 사용하여 로그인 환경을 간편하�
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
+
+  Outlook 2013 또는 2016을 실행하는 경우 [Outlook 2016 및 2013에서 UPN(사용자 계정 이름) 조회를 건너뛰도록 업데이트](https://support.microsoft.com/help/4022165/update-to-skip-user-principal-name-upn-lookup-in-outlook-2016-and-2013)를 읽어보세요.
 
     > [!NOTE]
     > ".local" 또는 ".corp"로 끝나는 사용자 이름에 대한 사용자 이름 미리 채우기를 건너뛰거나 무시하는 것이 기본적으로 설정되어 있으므로 이를 끄려고 레지스트리 키를 설정하지 않아도 됩니다. 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '테스트 계정 및 컴퓨터를 설정 하 고 전화 접속 회의, 회의, 로그인 및 로그 아웃 등의 온라인 기능을 테스트 하 여 시간을 절약 하 고, 통화를 지원 하 고, 만족도를 향상 시키는 방법을 알아봅니다. '
-ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692823"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164297"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>비즈니스용 Skype Online 설치 테스트
 
@@ -32,7 +32,7 @@ ms.locfileid: "41692823"
 
 필요한 항목은 다음과 같습니다.
 
-- 세 개 이상의 Office 365 계정 (사용자와 최소한 두 명 이상)
+- 세 개 이상의 Microsoft 365 또는 Office 365 계정 (사용자와 최소한 두 명 이상)
 
 - 각 테스트 계정에 대 한 컴퓨터입니다. 이를 일반 컴퓨터와 같이 조직에 설치 합니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "41692823"
 ## <a name="set-up-test-accounts"></a>테스트 계정 설정
 <a name="__toc328126910"> </a>
 
-1. **관리** > **Office 365** > **사용자 및 그룹**으로 이동한 다음 추가![](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 추가를 선택 하 고 필요한 정보를 입력 합니다.
+1. **관리** > **Microsoft 365** 또는 **Office 365** > **사용자 및 그룹**으로 이동한 다음 추가![](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 추가를 선택 하 고 필요한 정보를 입력 합니다.
 
 2. 4 단계 (전자 메일)에 도달 하는 경우 전자 메일 주소를 입력 합니다. 그러면 새 사용자의 이름과 암호를 기록 하 게 됩니다.
 
@@ -62,9 +62,9 @@ ms.locfileid: "41692823"
 
 각 테스트 컴퓨터에서 다음을 수행 합니다.
 
-1. Office 365 홈 페이지로 이동 하 여 테스트 계정 중 하나의 자격 증명으로 로그인 합니다.
+1. Microsoft 365 또는 Office 365 홈 페이지로 이동 하 여 테스트 계정 중 하나의 자격 증명으로 로그인 합니다.
 
-2. 프로필 업데이트 ****![, 소프트웨어 설치 및 클라우드에](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png)연결을 선택한 다음 소프트웨어 설치를 클릭 하 고 **클라우드에 연결 하는**설정 설정으로 이동 합니다.
+2. 프로필 업데이트 **Settings**![, 소프트웨어 설치 및 클라우드에](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png)연결을 선택한 다음 소프트웨어 설치를 클릭 하 고 **클라우드에 연결 하는**설정 설정으로 이동 합니다.
 
 ## <a name="set-up-audio-conferencing"></a>오디오 회의 설정
 <a name="__toc328126912"> </a>
@@ -114,7 +114,7 @@ ms.locfileid: "41692823"
 |[비즈니스용 Skype에서 메신저 대화 보내기](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |비즈니스용 Skype 대화 창이 나타나고, 무언가를 입력 하면 연락한 상대방 으로부터 응답을 받을 수 있습니다.  <br/> |
 |[비즈니스용 Skype에서 메신저 대화 보내기](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |비즈니스용 Skype 대화 창이 나타나고 내용을 입력 하 고 대화의 모든 사용자가 응답할 수 있습니다.  <br/> |
 |[이름 또는 성을 사용 하 여 대화 상대 검색](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |입력을 시작 하자마자 검색 결과가 표시 되기 시작 합니다.  <br/> |
-|[Office 용 Lync에 대 한 질문과 대답 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |추가한 연락처가 선택한 대화 상대 그룹에 나타납니다.  <br/> |
+|[Microsoft 365 용 Lync에 대 한 질문과 대답](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |추가한 연락처가 선택한 대화 상대 그룹에 나타납니다.  <br/> |
 |[Lync에서 현재 상태 변경](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |새 현재 상태는 다른 사용자의 대화 상대 목록에 반영 됩니다.  <br/> |
 |[대화 상대 카드 사용](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |사용자의 대화 상대 카드는 이름 근처에 표시 됩니다.  <br/> |
 
@@ -137,7 +137,7 @@ ms.locfileid: "41692823"
 |[Lync 모임에서 PowerPoint 슬라이드 프레젠테이션](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |비즈니스용 Skype 모임 스테이지 창에서 모든 사용자의 컴퓨터에 PowerPoint 프레젠테이션이 표시 됩니다.  <br/> |
 |[Lync 모임에서 파일 전송](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |업로드 후에는 모임에 참가 중인 모든 사용자가 첨부 파일을 보고 다운로드할 수 있습니다.  <br/> |
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

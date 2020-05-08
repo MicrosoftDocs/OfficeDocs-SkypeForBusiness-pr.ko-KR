@@ -20,20 +20,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Office 365 관리자는 조직의 개별 사용자에 대 한 비즈니스용 Skype Online 오디오 회의 설정 (예: 공급자, 기본 유료 또는 수신자 부담 번호, 전화 회의 ID 또는 PIN)을 편집할 수 있습니다. '
-ms.openlocfilehash: fe6814bee547e80d6bcb6fc367d055dce13d513d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 'Microsoft 365 또는 Office 365 관리자는 조직의 개별 사용자에 대 한 비즈니스용 Skype Online 오디오 회의 설정 (예: 공급자, 기본 유료 또는 수신자 부담 전화 번호, 전화 회의 ID 또는 PIN)을 편집할 수 있습니다. '
+ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777993"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164137"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 사용자에 대 한 오디오 회의 설정 관리
 
 > [!Note]
 > Microsoft 팀에서 사용자 설정을 관리 하려면 [Microsoft 팀에서 사용자에 대 한 오디오 회의 설정 관리](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)를 참조 하세요.
 
-Office 365 관리자는 조직의 개별 사용자에 대 한 오디오 회의 설정 (예: 공급자, 기본 유료 또는 수신자 부담 전화 번호, 전화 회의 ID 또는 PIN)을 편집할 수 있습니다. 조직의 설정을 편집 하려면 [내 조직의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-my-organization.md)를 참조 하세요.
+Microsoft 365 또는 Office 365 관리자는 조직의 개별 사용자에 대해 공급자, 기본 유료 또는 수신자 부담 번호, 전화 회의 ID 또는 PIN 등의 오디오 회의 설정을 편집할 수 있습니다. 조직의 설정을 편집 하려면 [내 조직의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-my-organization.md)를 참조 하세요.
 
  
 1. 회사 또는 학교 계정으로 로그인 합니다.
