@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: '요약: Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 논리적 아키텍처에 대해 알아봅니다. Teams의 전화 통신 솔루션에 대해서도 알아봅니다. '
-ms.openlocfilehash: cba2d4fd524db9db4fe6d6d0ad6bb227a00fbd82
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 6518762250e2cd6fadc2bc2b6eb284a4af31edc4
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341755"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064503"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT 아키텍처 및 전화 통신 솔루션 포스터
 
@@ -52,3 +52,5 @@ Microsoft는 Microsoft 클라우드에서 Teams를 처음 경험할 때 몇 가�
 ## <a name="see-also"></a>참고 항목
 
 [Microsoft 클라우드 IT 아키텍처 리소스](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources)
+
+[Microsoft Teams 다운로드하기](https://www.microsoft.com/microsoft-365/microsoft-teams/download-app#desktopAppDownloadregion)
