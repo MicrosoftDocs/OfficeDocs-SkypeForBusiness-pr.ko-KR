@@ -433,6 +433,7 @@
 #### [자금 추가 및 통신 크레딧 관리](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams 통화 흐름](microsoft-teams-online-call-flows.md)
+### [음성 라우팅 정책 관리](manage-voice-routing-policies.md)
 
 ## 대규모 조직을 위한 실용적인 지침
 ### [자습서: Teams의 통화](Tutorial-calling-in-teams.yml)
