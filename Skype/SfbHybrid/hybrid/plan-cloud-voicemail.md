@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 이 문서에서는 Microsoft Cloud 음성 메일 서비스를 구현 하기 위한 혜택, 계획 고려 사항 및 요구 사항에 대해 설명 합니다. 클라우드 음성 메일을 구성 하는 방법에 대 한 자세한 내용은 클라우드 음성 메일 구성을 참조 하세요.
-ms.openlocfilehash: 07448ab8232115e19c01261dc487c04b5a2dd4f9
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341761"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210634"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 계획
 
@@ -79,7 +79,7 @@ ms.locfileid: "42341761"
 
 - 외부 EWS (Exchange 웹 서비스) URL 및 자동 검색을 설정 해야 하거나 일부 클라우드 음성 메일 기능이 제한 됩니다.
 
-- 온-프레미스 전용 배포&#x2014;, 즉 Exchange 및 비즈니스용 Skype 온-프레미스 서버를&#x2014;하지만 클라우드 음성 메일을 활용 하려는 경우에는 추가 라이선스가 필요 하지 않습니다.
+- 온-프레미스 전용 배포&#x2014;, 즉 Exchange 및 비즈니스용 Skype 온-프레미스 서버를&#x2014;하지만 클라우드 음성 메일을 활용 하려는 경우에는 전화 시스템 라이선스가 필요 합니다.
 
 ## <a name="migration-and-interoperability"></a>마이그레이션 및 상호 운용성
 
@@ -100,6 +100,6 @@ Microsoft는 다음과 같은 마이그레이션 경로를 권장 합니다.
 
 - 비즈니스용 Skype 서버 2019로 업그레이드 하는 경우 exchange Server 2013 또는 2016에서 Exchange UM을 사용할 수 있지만 Exchange Server 2019을 사용 하는 경우 클라우드 음성 메일로 업그레이드 해야 합니다.
 - Exchange Server 2019로 업그레이드 하는 경우 비즈니스용 Skype 서버 음성 메시징의 이전 버전의 Exchange Server UM을 사용 하는 경우에는 사서함 업그레이드 전에 비즈니스용 Skype 서버 2019로 업그레이드 하는 것이 좋습니다.  그렇지 않으면 음성 메시징 기능을 잃게 됩니다.
-- 비즈니스용 Skype 서버 2019로 업그레이드 하 고 Exchange Online UM과의 음성 메일에 비즈니스용 Skype 서버 2015을 구성 하는 경우 사용자의 음성 메일은 계정을 이동할 때 Exchange Online UM에서 클라우드 음성 메일로 자동으로 마이그레이션됩니다. 비즈니스용 Skype 서버 2019 
+- 비즈니스용 skype 서버 2019로 업그레이드 하 고 Exchange Online UM과의 음성 메일에 비즈니스용 Skype 서버 2015을 구성 하는 경우 사용자의 음성 메일이 Exchange Online UM에서 클라우드 음성 2019 메일로 자동으로 마이그레이션됩니다. 
 
 마이그레이션 계획에 대 한 자세한 내용은 [비즈니스용 Skype 서버 및 Exchange server 마이그레이션을 계획](plan-um-migration.md)합니다 .를 참조 하세요.
