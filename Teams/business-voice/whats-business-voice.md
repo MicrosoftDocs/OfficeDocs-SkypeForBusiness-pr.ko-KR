@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice의 개요 및 중소기업이 보다 효과적으로 통신을 하는 데 도움을 주는 방법.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 828d05e68e84145868f4e58156fbe86ec8f14912
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780797"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170679"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice란 무엇인가요?
 
@@ -32,15 +32,19 @@ Business Voice는 Microsoft 365 전화 시스템 기능을 간단하고 관리�
 
 사용자의 조직에 직원이 300명 이하이고 다음의 Microsoft 365 구독 중 하나를 사용하고 있는 경우에는 Business Voice가 사용자에게 적합합니다.
 
-* Microsoft 365 Business Basic
-* Microsoft 365 Business Standard
-* Office 365 E1
-* Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
-* Microsoft 365 A3
-* Microsoft 365 E3
-* Microsoft 365 Business
+- Microsoft 365 Business Basic
+- Microsoft 365 Business Standard
+- Microsoft 365 Business Premium
+- 비즈니스용 Microsoft Apps 
+- 엔터프라이즈용 Microsoft Apps
+- Microsoft 365 F1
+- Office 365 F1
+- Microsoft 및 Office 365 Enterprise E1, E3 또는 E5
+- Microsoft 365 및 Office 365 Education A1, A3 또는 A5
+- Microsoft 365 및 Office 365 Government G1, G3 또는 G5(GCC만 해당)
+- Microsoft 365 Nonprofit Business Basic
+- Microsoft 365 Nonprofit Business Standard
+- Microsoft 365 및 Office 365 Nonprofit E1, E3 또는 E5
 
 Business Voice는 70개 이상의 국가 및 지역에서 사용할 수 있습니다. Business Voice를 직접 설정하고, Microsoft 365로 전화 번호를 전송하여, Microsoft 365에서 전화 번호를 관리할 수 있는 가능성은 Microsoft 365 테넌트가 위치하고 있는 국가나 지역에 따라 결정됩니다. 자세한 내용은 [Business Voice의 국가 및 지역 가용성](country-region-availability.md)을 확인해 보세요.
 

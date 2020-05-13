@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '비즈니스용 Skype Online 로그인 오류의 일반적인 원인을 알아보고 이들을 해결하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: 881bb6e41b4b22fe71caeb701ac10d1696147d4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777153"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164327"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>관리자를 위한 비즈니스용 Skype Online 로그인 오류 문제 해결
 
@@ -128,7 +128,7 @@ Forefront TMG 2010에서 Msoidsvc.exe의 프로그램 항목을 만들려면 다
 
   - **값/대상**: sipdir.online.lync.com
 
-자세한 내용은 Microsoft Knowledge Base 문서 2566790, [Office 365에서 비즈니스용 Skype Online DNS 구성 문제 해결](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790)을 참조하세요.
+자세한 내용은 Microsoft Knowledge Base 문서 2566790, [Microsoft 365 또는 Office 365에서 비즈니스용 Skype Online DNS 구성 문제 해결](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790)을 참조하세요.
 
 ### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>ADFS 서버에 타사의 SSL 인증서 설치
 <a name="verify-upn-and"> </a>
