@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing the Centralized Logging Service configuration settings
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721938(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721938(v=OCS.15)
 ms:contentKeyID: 49733875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7811c8c55a7c759076382ecf102868cc6c7abf09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6c6e156fbae7147b650c7360394cbd0d277b937b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185421"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221602"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42185421"
 
 _**마지막으로 수정 된 항목:** 2012-11-01_
 
-중앙 로깅 서비스는 CLSController (중앙화 된 로깅 서비스 컨트롤러)에서 만들고 사용 하 여 개별 컴퓨터의 중앙 로깅 서비스 에이전트에 명령을 전송 하는 설정 및 매개 변수를 통해 제어 및 구성 됩니다 ( CLSAgent). 에이전트는 여기에 전송 되는 명령, 즉 시작 명령의 경우에는 제공 된 구성 정보에 따라 추적 로그 수집을 시작 하기 위한 시나리오, 공급자, 로그 크기, 추적 기간 및 플래그 구성을 사용 합니다.
+중앙 로깅 서비스는 CLSController (중앙화 된 로깅 서비스 컨트롤러)에서 만들고 사용 하 여 개별 컴퓨터의 중앙 로깅 서비스 에이전트 (Clscontroller)에 명령을 전송 하는 설정 및 매개 변수를 통해 제어 및 구성 됩니다. 에이전트는 여기에 전송 되는 명령, 즉 시작 명령의 경우에는 제공 된 구성 정보에 따라 추적 로그 수집을 시작 하기 위한 시나리오, 공급자, 로그 크기, 추적 기간 및 플래그 구성을 사용 합니다.
 
 <div>
 
@@ -50,8 +50,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
 > <LI>
 > <P><STRONG>CsClsSearchTerm cmdlet:</STRONG> <A href="https://technet.microsoft.com/library/JJ205061(v=OCS.15)">Get-CsClsSearchTerm</A> 및 <A href="https://technet.microsoft.com/library/JJ204911(v=OCS.15)">Set-CsClsSearchTerm</A>.</P>
 > <LI>
-> <P><STRONG>CsClsSecurityGroup cmdlet:</STRONG> <A href="https://technet.microsoft.com/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ204700(v=OCS.15)">Set-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A> 및 <A href="https://technet.microsoft.com/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>.</P></LI></UL>이러한 cmdlet에 정의 된 설정은 방해 하거나 부정적인 동작이 발생 하지 않지만, 이러한 기능은 Microsoft Office 365에서 사용 하도록 디자인 되었으며, 온-프레미스 배포에서 예상 결과를 얻지 못합니다. 이 말이 온-프레미스 배포에서 이러한 cmdlet을 사용할 수 없음을 의미하는 것은 아니지만 이 설명서에서는 이러한 cmdlet의 용도에 대해 설명하지 않겠습니다.
-
+> <P><STRONG>CsClsSecurityGroup cmdlet:</STRONG> <A href="https://technet.microsoft.com/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ204700(v=OCS.15)">Set-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A> 및 <A href="https://technet.microsoft.com/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>.</P></LI></UL>이러한 cmdlet에 정의 된 설정은 방해 하거나 부정적인 동작이 발생 하지 않지만, 이러한 기능은 Microsoft 365에서 사용 하도록 디자인 되었으며, 온-프레미스 배포에서 예상 결과를 얻지 못합니다. 이 말이 온-프레미스 배포에서 이러한 cmdlet을 사용할 수 없음을 의미하는 것은 아니지만 이 설명서에서는 이러한 cmdlet의 용도에 대해 설명하지 않겠습니다.
 
 
 </div>

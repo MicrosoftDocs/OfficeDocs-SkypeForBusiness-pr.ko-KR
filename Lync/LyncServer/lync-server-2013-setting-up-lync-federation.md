@@ -12,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cea596f571064a3b72ecbb3b0c2b56c2179aa315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27b955def7b7648f274125353673d6973afb59b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182048"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +78,7 @@ _**마지막으로 수정 된 항목:** 2014-03-27_
 
 ## <a name="configuring-federation-with-partners"></a>파트너와의 페더레이션 구성
 
-1.  다른 Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 또는 Office Communicator 2007와 함께 성공적인 페더레이션을 설정 하려면 다음 표에서 페더레이션 유형을 선택 하 고 DNS SRV 레코드, DNS 호스트 (A 또는 AAAA)를 정의 합니다. IPv6) 및 페더레이션 유형에 적용할 수 있는 정책을 구성 합니다.
+1.  다른 Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 또는 Office Communicator 2007와 함께 성공적인 페더레이션을 설정 하려면 다음 표에서 페더레이션 유형을 선택 하 고 DNS SRV 레코드, DNS 호스트 (A 또는 AAAA)를 정의 하 고 페더레이션 유형에 적용할 수 있는 정책을 구성 합니다.
     
     
     <table>
@@ -99,7 +99,7 @@ _**마지막으로 수정 된 항목:** 2014-03-27_
     <tbody>
     <tr class="odd">
     <td><p>검색된 파트너 도메인</p></td>
-    <td><p>_Tcp _sipfederationtls 형식의 SRV 레코드를 구성 합니다. &lt;SRV 레코드의&gt;포트 값이 TCP 5061 <strong>이 고이 서비스를 제공</strong> 하는 호스트가 sip로 정의 된 외부 도메인 이름입니다. &lt;외부 도메인 이름&gt; -액세스에 지 서비스의 FQDN입니다. SRV 레코드 만들기에 대 한 자세한 내용은 <a href="lync-server-2013-configure-dns-for-edge-support.md">Lync Server 2013의 edge 지원에 대 한 DNS를 구성</a> 합니다 .를 참조 하세요.</p></td>
+    <td><p>_Tcp &lt; _sipfederationtls 형식의 SRV 레코드를 구성 합니다. &gt;SRV 레코드의 포트 값이 TCP 5061 <strong>이 고이 서비스를 제공</strong> 하는 호스트가 sip로 정의 된 외부 도메인 이름입니다. &lt;외부 도메인 이름 &gt; -액세스에 지 서비스의 FQDN입니다. SRV 레코드 만들기에 대 한 자세한 내용은 <a href="lync-server-2013-configure-dns-for-edge-support.md">Lync Server 2013의 edge 지원에 대 한 DNS를 구성</a> 합니다 .를 참조 하세요.</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Lync Server 2013에서 페더레이션 및 공용 IM 연결 사용 또는 사용 안 함</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Lync Server 2013에서 페더레이션 파트너 검색을 사용 하거나 사용 하지 않도록 설정</a></p></li>
@@ -108,7 +108,7 @@ _**마지막으로 수정 된 항목:** 2014-03-27_
     </tr>
     <tr class="even">
     <td><p>허용 파트너 도메인</p></td>
-    <td><p>_Tcp _sipfederationtls 형식의 SRV 레코드를 구성 합니다. &lt;SRV 레코드의&gt;포트 값이 TCP 5061 <strong>이 고이 서비스를 제공</strong> 하는 호스트가 sip로 정의 된 외부 도메인 이름입니다. &lt;외부 도메인 이름&gt; -액세스에 지 서비스의 FQDN입니다. SRV 레코드 만들기에 대 한 자세한 내용은 <a href="lync-server-2013-configure-dns-for-edge-support.md">Lync Server 2013의 edge 지원에 대 한 DNS를 구성</a> 합니다 .를 참조 하세요.</p></td>
+    <td><p>_Tcp &lt; _sipfederationtls 형식의 SRV 레코드를 구성 합니다. &gt;SRV 레코드의 포트 값이 TCP 5061 <strong>이 고이 서비스를 제공</strong> 하는 호스트가 sip로 정의 된 외부 도메인 이름입니다. &lt;외부 도메인 이름 &gt; -액세스에 지 서비스의 FQDN입니다. SRV 레코드 만들기에 대 한 자세한 내용은 <a href="lync-server-2013-configure-dns-for-edge-support.md">Lync Server 2013의 edge 지원에 대 한 DNS를 구성</a> 합니다 .를 참조 하세요.</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Lync Server 2013에서 페더레이션 및 공용 IM 연결 사용 또는 사용 안 함</a></p></li>
     </ul></td>
@@ -132,7 +132,7 @@ _**마지막으로 수정 된 항목:** 2014-03-27_
     <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Lync Server 2013에서 공용 SIP 페더레이션 공급자 만들기 또는 편집</a></p></li>
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">호스팅된 SIP 페더레이션 공급자 만들기 또는 편집 Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>이 페더레이션 유형은 사용자에 대해 구성 하려는 서비스 및 호스팅 공급자를 정의 합니다. 일반적인 예로는 Windows Live Messenger, Yahoo! 등의 공용 IM 공급자에 대 한 구성을 들을 있습니다. Lync Online 및 Office 365 같은 호스팅 공급자와 AOL을 비롯 한</p>
+    <td><p>이 페더레이션 유형은 사용자에 대해 구성 하려는 서비스 및 호스팅 공급자를 정의 합니다. 일반적인 예로는 Windows Live Messenger, Yahoo! 등의 공용 IM 공급자에 대 한 구성을 들을 있습니다. Lync Online 및 Microsoft 365 같은 호스팅 공급자와 AOL을 비롯 한</p>
     <div>
 
     > [!IMPORTANT]  

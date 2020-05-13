@@ -12,12 +12,12 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 45fb31e6f9319f0a1a7a7eadca8f11c1c3ad1a03
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214674"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221782"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,9 +73,9 @@ _**마지막으로 수정 된 항목:** 2019-03-22_
 
 **Q: Windows Live와의 페더레이션을 계속 사용할 수 있나요?**
 
-**A:** 2012 년 10 월에 시작 하 여 Microsoft가 WLM (Windows Live Messenger) 사용자에 게 도움을 시작 했습니다.Lync는 WLM이 시장에 있는 동안에도 WLM과의 페더레이션을 계속 지원 하지만 추가 Windows Live 도메인 정품 인증은 허용 되지 않습니다.WLM 사용자의 이동은 Mac 용 Skype 6.0 및 Windows에서 사용 하도록 설정 됩니다 (예: Microsoft 계정으로 로그인 할 수 있음) 2012 (w LM과 동일한 자격 증명). Skype에 로그인 하기만 하면 WLM 버디 목록이 자동으로 Skype에 입력 되며, 사용자는 landlines 및 mobiles 통화, 화면 공유, 그룹 비디오 통화, 다양 한 지원 등의 Skype 확장 통신 기능을 활용할 수 있습니다. 다양 한 장치또한 WLM 사용자의 페더레이션 Lync 연락처는 나머지 대화 상대 목록과 함께 Skype로의 전환을 따르고 이러한 연락처에 대해 Skype 및 Lync 간의 IM을 즉시 사용할 수 있습니다. Lync 고객은이 서비스의 연속성을 사용 하기 위해 어떠한 작업도 수행 하지 않아도 됩니다.
+**A:** 2012 년 10 월에 시작 하 여 Microsoft가 WLM (Windows Live Messenger) 사용자에 게 도움을 시작 했습니다.Lync는 WLM이 시장에 있는 동안에도 WLM과의 페더레이션을 계속 지원 하지만 추가 Windows Live 도메인 정품 인증은 허용 되지 않습니다.WLM 사용자의 이동은 Mac 용 Skype 6.0 및 Windows에서 사용 하도록 설정 됩니다 (예: Microsoft 계정으로 로그인 할 수 있음) 2012 (w LM과 동일한 자격 증명). Skype에 로그인 하기만 하면 WLM 버디 목록이 자동으로 Skype에 채워지며, 사용자는 landlines 및 mobiles, 화면 공유, 그룹 비디오 통화, 다양 한 장치에 대 한 지원 등을 통해 Skype의 확장 된 통신 기능을 활용할 수 있습니다.또한 WLM 사용자의 페더레이션 Lync 연락처는 나머지 대화 상대 목록과 함께 Skype로의 전환을 따르고 이러한 연락처에 대해 Skype 및 Lync 간의 IM을 즉시 사용할 수 있습니다. Lync 고객은이 서비스의 연속성을 사용 하기 위해 어떠한 작업도 수행 하지 않아도 됩니다.
 
-**Q: Yahoo\! 또는 AOL을 사용 하는 페더레이션이 여전히 제공 됩니까?**
+**Q: Yahoo 또는 AOL을 사용 하는 페더레이션이 \! 여전히 제공 됩니까?**
 
 **A:** 아니요. Yahoo와의 페더레이션\! 및 AOL은 Yahoo를 지원 합니다.\! 및 AOL두 Yahoo에 대해\! 또한 서비스는 2014 년 6 월 30 일에 종료 되었습니다. 
 
@@ -126,7 +126,7 @@ _**마지막으로 수정 된 항목:** 2019-03-22_
 
 3.  확인이 나타나면 Lync 관리 센터를 사용 하 여 "외부 통신"을 설정 합니다. 자세한 내용은[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
-이 순서는 중요 합니다.Lync Online에서 통신을 사용 하도록 설정 하기 전에 온-프레미스 연결을 설정 해야 합니다. 순서가 거꾸로 된 경우 온-프레미스 <https://pic.lync.com> 에 입력 한 정보는 이동 하지 않습니다. 이 도메인과의 외부 통신에 대해 Lync Online을 이미 설정한 경우에는이 기능을 해제 하 고 24 시간 동안 기다린 후에 온-프레미스 정보 <https://pic.lync.com> 를 입력 한 다음 Lync Online에 대 한 외부 통신을 설정 하 여 다시 시작 해야 합니다.
+이 순서는 중요 합니다.Lync Online에서 통신을 사용 하도록 설정 하기 전에 온-프레미스 연결을 설정 해야 합니다. 순서가 거꾸로 된 경우 온-프레미스에 입력 한 정보는 <https://pic.lync.com> 이동 하지 않습니다. 이 도메인과의 외부 통신에 대해 Lync Online을 이미 설정한 경우에는이 기능을 해제 하 고 24 시간 동안 기다린 후에 온-프레미스 정보를 입력 한 <https://pic.lync.com> 다음 Lync Online에 대 한 외부 통신을 설정 하 여 다시 시작 해야 합니다.
 
 **Q: Skype 연결용으로 여러 액세스에 지 서비스 Fqdn을 프로 비전 할 수 있나요?**
 
@@ -138,7 +138,7 @@ _**마지막으로 수정 된 항목:** 2019-03-22_
 
 **Q: Windows Live에서 지원 하지 않는 도메인을 포함 하는 ID가 있는 Windows Live Messenger 연락처를 추가 하는 방법은 무엇 인가요?**
 
-**A:** 계정이 나 ID가 windows live가 아닌 다른 도메인을 사용 하 여 windows live Messenger 사용자를 추가 하 \<는 경우 주소를 사용자 이름\>(도메인 이름\<\>) @msn .com으로 입력 합니다 ( \<도메인 이름은\> 사용자의 전자 메일 주소에 있는 도메인 이름). 예를 들어 ted@contoso.com를 추가 하려면 ted (contoso) @msn .com을 사용 합니다. Windows Live를 통해 관리 되는 도메인 목록은 "Live Communications Server 서비스 팩 1을 설치한 후 공용 인스턴트 메시징에서 발생 하는 알려진 문제"의 지원 되는 도메인 섹션을 참조 https://support.microsoft.com/?kbid=897567하세요.
+**A:** 계정이 나 ID가 Windows Live가 아닌 다른 도메인을 사용 하 여 Windows Live Messenger 사용자를 추가 하는 경우 주소를 \< 사용자 이름 \> ( \< 도메인 이름 \> ) @msn .com으로 입력 합니다 ( \< 도메인 이름은 \> 사용자의 전자 메일 주소에 있는 도메인 이름). 예를 들어 ted@contoso.com를 추가 하려면 ted (contoso) @msn .com을 사용 합니다. Windows Live를 통해 관리 되는 도메인 목록은 "Live Communications Server 서비스 팩 1을 설치한 후 공용 인스턴트 메시징에서 발생 하는 알려진 문제"의 지원 되는 도메인 섹션을 참조 https://support.microsoft.com/?kbid=897567 하세요.
 
 **Q: 프로 비전 프로세스는 얼마 동안 소요 됩니까?**
 
@@ -161,4 +161,3 @@ _**마지막으로 수정 된 항목:** 2019-03-22_
 </div>
 
 </div>
-

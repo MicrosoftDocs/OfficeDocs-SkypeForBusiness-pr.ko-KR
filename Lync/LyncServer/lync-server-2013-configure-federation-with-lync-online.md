@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779564"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221158"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**마지막으로 수정 된 항목:** 2016-08-15_
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>공유 SIP 주소 공간에 대 한 비즈니스용 Skype Online 테 넌 트 구성
 
-SIP (Session 착수 프로토콜) 주소는 전화 번호나 전자 메일 주소와 마찬가지로 네트워크의 각 사용자에 대 한 고유 식별자입니다. Lync 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동 하기 전에 Office 365 조직에서 온-프레미스 배포를 사용 하 여 SIP (공유 세션 시작 프로토콜) 주소 공간을 공유 하도록 구성 해야 합니다. 이 구성을 구성 하지 않으면 다음과 같은 오류 메시지가 표시 될 수 있습니다.
+SIP (Session 착수 프로토콜) 주소는 전화 번호나 전자 메일 주소와 마찬가지로 네트워크의 각 사용자에 대 한 고유 식별자입니다. Lync 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동 하기 전에 공유 세션 시작 프로토콜 (SIP) 주소 공간을 온-프레미스 배포와 공유 하도록 Microsoft 365 또는 Office 365 조직을 구성 해야 합니다. 이 구성을 구성 하지 않으면 다음과 같은 오류 메시지가 표시 될 수 있습니다.
 
 Move-CsUser: HostedMigration fault: Error = (510), Description = (이 사용자의 테 넌 트는 공유 sip 주소 공간에 대해 사용 하도록 설정 되지 않았습니다.)
 
@@ -71,7 +71,7 @@ Move-CsUser: HostedMigration fault: Error = (510), Description = (이 사용자�
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
-비즈니스용 Skype Online을 사용 하 여 원격 PowerShell 세션을 설정 하려면 먼저 비즈니스용 Skype 온라인 모듈 for Windows PowerShell을 설치 해야 [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911)합니다.
+비즈니스용 Skype Online을 사용 하 여 원격 PowerShell 세션을 설정 하려면 먼저 비즈니스용 Skype 온라인 모듈 for Windows PowerShell을 설치 해야 [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) 합니다.
 
 모듈을 설치한 후에는 다음 cmdlet을 사용 하 여 원격 세션을 설정할 수 있습니다.
 
@@ -116,4 +116,3 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 </div>
 
 </div>
-

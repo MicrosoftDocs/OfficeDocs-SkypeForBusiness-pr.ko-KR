@@ -12,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18c9174075ee009b7f67ee8d2757b4af9dd07818
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780007"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219718"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,9 +73,9 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>비즈니스용 Skype 온라인 구독 계획에 대 한 자세한 내용은에서 <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>비즈니스용 Skype Online 서비스 설명을 참조 하세요.</P>
+> <P>비즈니스용 Skype 온라인 구독 계획에 대 한 자세한 내용은에서 비즈니스용 Skype Online 서비스 설명을 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A> .</P>
 > <LI>
-> <P>Lync Server 2013에서는 이전에 출시 된 클라이언트 (Lync 2010, Lync 2010 Mobile, Lync Phone Edition 및 Lync 2010 Attendant)를 지원 합니다. 이러한 클라이언트에 대 한 자세한 내용은에서 <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>Lync 2010 버전의 클라이언트 비교 표를 참조 하세요.</P>
+> <P>Lync Server 2013에서는 이전에 출시 된 클라이언트 (Lync 2010, Lync 2010 Mobile, Lync Phone Edition 및 Lync 2010 Attendant)를 지원 합니다. 이러한 클라이언트에 대 한 자세한 내용은에서 Lync 2010 버전의 클라이언트 비교 표를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A> .</P>
 > <LI>
 > <P>Lync 2013 클라이언트는 VDI (가상 데스크톱 인프라) 환경에서 오디오 및 비디오를 지원 합니다. VDI 환경의 Lync 2013 기능에 대 한 자세한 내용은 <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Lync Server 2013의 지원 되는 가상화 기술 및 알려진 제한 사항을</A>참조 하세요.</P></LI></UL>
 
@@ -451,10 +451,9 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 </table>
 
 
-1 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
+1 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
 
-2 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우에는이 기능을 사용할 수 없습니다.
-
+2 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자의 경우에는이 기능을 사용할 수 없습니다.
 </div>
 
 <span id="IMSupport"></span>
@@ -668,11 +667,11 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 </table>
 
 
-1 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
+1 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
 
 기술 검색에는 2 온-프레미스 Lync Server 2013 및 온-프레미스 SharePoint 2013이 필요 합니다.
 
-3 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우 영구 채팅을 사용할 수 없습니다.
+3 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자의 경우 영구 채팅을 사용할 수 없습니다.
 
 </div>
 
@@ -692,7 +691,7 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 > <LI>
 > <P>Lync to Lync 세션에서 비즈니스용 Skype Online 계획 1 사용자는 공유 기능에 대 한 액세스 권한이 있는 사용자가 초대 하는 경우 데스크톱 공유 및 응용 프로그램 공유에 참가할 수 있습니다.</P>
 > <LI>
-> <P>자세한 내용은에서 <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>비즈니스용 Skype Online 서비스 설명을 참조 하세요.</P></LI></UL>
+> <P>자세한 내용은에서 비즈니스용 Skype Online 서비스 설명을 참조 하세요 <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A> .</P></LI></UL>
 
 
 
@@ -988,7 +987,7 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 <td><p>Outlook</p></td>
 </tr>
 <tr class="odd">
-<td><p>Q&amp;A 관리자</p></td>
+<td><p>Q &amp; A 관리자</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
@@ -1117,11 +1116,11 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 </table>
 
 
-1 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
+1 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
 
 2 참가자는 Mac에서 비즈니스용 Skype, Mac 용 Lync 2011 또는 Mac 용 Communicator 2011 사용자에 게 공유 되는 데스크톱을 제어할 수 없습니다. Mac 사용자는 Windows 사용자가 공유 하는 데스크톱을 제어할 수 있습니다.
 
-3 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우이 기능을 사용 하려면 오디오 회의 공급자가 필요 합니다.
+3 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자의 경우이 기능을 사용 하려면 오디오 회의 공급자가 필요 합니다.
 
 4 lync Web App 2013 클라이언트에서 전화 회의에서 공유한 경우 Mac 용 Lync 2011 클라이언트에서 Microsoft Office 2013 PowerPoint 프레젠테이션을 볼 수 없습니다.
 
@@ -1137,7 +1136,7 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 
 
 > [!NOTE]  
-> Lync Voice 기능은 특정 비즈니스용 Skype 온라인 구독 계획으로 제한 됩니다. 자세한 내용은 비즈니스용 Skype Online 서비스 설명의 "Lync Voice Features" 항목을 참조 <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>하세요.
+> Lync Voice 기능은 특정 비즈니스용 Skype 온라인 구독 계획으로 제한 됩니다. 자세한 내용은 비즈니스용 Skype Online 서비스 설명의 "Lync Voice Features" 항목을 참조 <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A> 하세요.
 
 
 
@@ -1419,11 +1418,11 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 </table>
 
 
-1 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
+1 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
 
-2 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우 PC 통화 전용으로이 기능을 사용할 수 있습니다.
+2 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자의 경우에는이 기능을 PC 통화 전용으로 사용할 수 있습니다.
 
-3 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우에는이 기능을 사용할 수 없습니다.
+3 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자의 경우에는이 기능을 사용할 수 없습니다.
 
 </div>
 
@@ -1507,9 +1506,9 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 </table>
 
 
-1 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
+1 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
 
-2 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우에는이 기능을 사용할 수 없습니다.
+2 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자의 경우에는이 기능을 사용할 수 없습니다.
 
 </div>
 
@@ -1596,9 +1595,9 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 </table>
 
 
-1 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우 특정 비즈니스용 Skype 온라인 독립 실행형 계획에서 녹음을 사용할 수 없습니다. 녹음에는 전체 Lync 2013 클라이언트 권한이 필요 합니다. 자세한 내용은에서 [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)비즈니스용 Skype Online 서비스 설명을 참조 하세요.
+1 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자는 특정 비즈니스용 Skype 온라인 독립 실행형 계획에서 녹음을 사용할 수 없습니다. 녹음에는 전체 Lync 2013 클라이언트 권한이 필요 합니다. 자세한 내용은에서 비즈니스용 Skype Online 서비스 설명을 참조 하세요 [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430) .
 
-2 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우 파일 전송 기록, OneNote 페이지 공유 및 PowerPoint 주석을 사용할 수 없습니다.
+2 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자, 파일 전송 기록, OneNote 페이지 공유 및 PowerPoint 주석을 사용할 수 없습니다.
 
 </div>
 
@@ -1701,11 +1700,11 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 </table>
 
 
-1 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
+1 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
 
-2 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우이 기능을 사용 하려면 Exchange Online이 필요 하며 사용자의 Exchange 사서함 원본 위치 유지 특성에 의해 제어 됩니다.
+2 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자의 경우이 기능은 Exchange Online을 필요로 하며 사용자의 Exchange 사서함 원본 위치 유지 특성에 의해 제어 됩니다.
 
-3 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우 파일 전송 보관, OneNote 페이지 공유 및 PowerPoint 주석을 사용할 수 없습니다.
+3 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자, 파일 전송 보관, OneNote 페이지 및 PowerPoint 주석을 사용할 수 없습니다.
 
 </div>
 
@@ -1772,4 +1771,3 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 </div>
 
 </div>
-

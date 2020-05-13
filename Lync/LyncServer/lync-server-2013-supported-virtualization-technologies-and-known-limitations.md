@@ -12,12 +12,12 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c81b56fd8d0922b011840aa2b3133ce05d32ad13
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0968f79b8c9aedc3dc2d2318a2e8abf5c51531d7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218284"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,9 +45,9 @@ Lync VDI 플러그 인을 사용 하면 지원 되는 가상화 기술에 대 �
 
 Lync VDI 플러그 인은 개인 가상 데스크톱 시나리오에서는 전체 데스크톱 원격을 지원 하지만 원격 데스크톱 세션 시나리오에는 해당 되지 않습니다. 이러한 시나리오는 다음과 같이 설명할 수 있습니다.
 
-  - **지원: 개인 설정 된 가상 데스크톱 또는 VDI (가상 데스크톱 인프라)**    이 시나리오에서는 각 사용자가 맞춤형 가상 데스크톱에 로그온 하 고 세션 간에 지속 되는 파일을 데스크톱에 저장할 수 있습니다. Microsoft 원격 데스크톱 서비스, VMware 수평 보기 및 Citrix XenDesktop은 Lync에서 사용 하도록 테스트 된 구현입니다. Microsoft에서 테스트 한 공급 업체별 VDI 환경 및 클라이언트 하드웨어에 대 한 자세한 내용은 [Microsoft Lync의 인프라 자격](https://go.microsoft.com/fwlink/?linkid=313435)을 참조 하십시오.
+  - **지원: 개인 설정 된 가상 데스크톱 또는 VDI (가상 데스크톱 인프라)**     이 시나리오에서는 각 사용자가 맞춤형 가상 데스크톱에 로그온 하 고 세션 간에 지속 되는 파일을 데스크톱에 저장할 수 있습니다. Microsoft 원격 데스크톱 서비스, VMware 수평 보기 및 Citrix XenDesktop은 Lync에서 사용 하도록 테스트 된 구현입니다. Microsoft에서 테스트 한 공급 업체별 VDI 환경 및 클라이언트 하드웨어에 대 한 자세한 내용은 [Microsoft Lync의 인프라 자격](https://go.microsoft.com/fwlink/?linkid=313435)을 참조 하십시오.
 
-  - **지원 되지 않음: 원격 데스크톱 세션**    이 시나리오에서 각 사용자는 사용자 지정할 수 없는 일반 가상 데스크톱 세션에 로그온 합니다. 예제 구현에는 Microsoft RDSH (원격 데스크톱 세션) 및 citrix 수신기와 함께 사용 되는 Citrix XenApp 포함 됩니다.
+  - **지원 되지 않음: 원격 데스크톱 세션**     이 시나리오에서 각 사용자는 사용자 지정할 수 없는 일반 가상 데스크톱 세션에 로그온 합니다. 예제 구현에는 Microsoft RDSH (원격 데스크톱 세션) 및 citrix 수신기와 함께 사용 되는 Citrix XenApp 포함 됩니다.
 
 Lync VDI 플러그 인은 전체 응용 프로그램을 로컬로 설치 하지 않고도 응용 프로그램을 사용할 수 있도록 하는 응용 프로그램 가상화와 같은 다른 가상화 기술을 지원 하지 않습니다. 예제 구현에는 Citrix XenApp 및 Microsoft Application Virtualization (App-v)이 포함 됩니다. 응용 프로그램 스트리밍, 응용 프로그램 원격 및 혼합 가상화 모드 (예: 전체 데스크톱 원격에서의 응용 프로그램 원격)는 지원 되지 않습니다.
 
@@ -81,7 +81,7 @@ VDI 환경에서 Lync 2013을 사용 하는 경우의 알려진 제한은 다음
     
       - 사용자 지정 된 벨 소리 및 보류 된 음악 기능
 
-  - Lync VDI 플러그 인은 Office 365 환경에서 지원 되지 않습니다.
+  - Lync VDI 플러그 인은 Microsoft 365 또는 Office 365 환경에서 지원 되지 않습니다.
 
 </div>
 

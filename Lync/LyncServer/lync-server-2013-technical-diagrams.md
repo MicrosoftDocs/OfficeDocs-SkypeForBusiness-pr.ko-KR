@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn594589(v=OCS.15)
 ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a76769398b93e422a3d9cad2f8f84ad1c6f8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37a6ec347e6a6907ebd0736556ea02053ab05202
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194981"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42194981"
 
 _**마지막으로 수정 된 항목:** 2014-03-14_
 
-**요약:** 이러한 다이어그램에서는 Lync 2013에 대 한 권장 솔루션을 시각적으로 보여 줍니다.
+**요약:**   이러한 다이어그램은 Lync 2013에 대 한 권장 솔루션을 시각적으로 보여 줍니다.
 
 이러한 리소스는 Visio (.vsd) 형식 (Visio 2010 또는 Visio 2013) 및 PDF 형식으로 사용할 수 있습니다. 문서를 인쇄 하는 방법에 대 한 자세한 내용은 포스터 인쇄용 팁을 참조 하십시오.
 
@@ -136,7 +136,7 @@ _**마지막으로 수정 된 항목:** 2014-03-14_
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">Microsoft에서 Zoom.it로 전체 세부 정보로 포스터 확대</a></p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">PDF 버전</a> (모바일 장치 또는 태블릿 컴퓨터에서 가장 적합)</p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Visio 버전</a> (visio 사용자에 게 가장 적합)</p></td>
-<td><p>이 포스터에서는 Lync 2013에 대 한 사용 가능한 플랫폼 옵션에 대해 설명 하 고, BDMs 설계자는 Office 365, Hybrid Lync, Lync Server 온-프레미스 및 호스팅된 Lync를 사용 하 여 Lync Online에서 선택할 수 있습니다. 이 포스터에는 각 라이선스 요구 사항 및 IT 전문가 업무에 가장 적합한 시나리오를 포함하여 각 아키텍처 옵션에 대한 세부 정보를 포함합니다.</p>
+<td><p>이 포스터에서는 Lync 2013에 대 한 사용 가능한 플랫폼 옵션에 대해 설명 하 고, BDMs 설계자는 Microsoft 365, Hybrid Lync, Lync Server 온-프레미스 및 호스팅된 Lync를 사용 하 여 Lync Online에서 선택할 수 있습니다. 이 포스터에는 각 라이선스 요구 사항 및 IT 전문가 업무에 가장 적합한 시나리오를 포함하여 각 아키텍처 옵션에 대한 세부 정보를 포함합니다.</p>
 <p>크기: 34-44 인치</p>
 <p>이 포스터는 Visio 2013를 사용 하 여 만들었습니다. 특정 환경에 대 한 수정이 필요 하지 않아야 합니다.</p></td>
 </tr>

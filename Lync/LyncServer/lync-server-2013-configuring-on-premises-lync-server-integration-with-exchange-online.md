@@ -12,12 +12,12 @@ ms:contentKeyID: 48184900
 ms.date: 03/30/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c4900beab738f9aa792919cceec015bb0c3ad0f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60cfa8caa0aa2cb7dac704123f2a099bd305aed5
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199701"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -139,4 +139,3 @@ Lync Server 배포의 내부 서버에서 복제 업데이트를 확인 하려�
 </div>
 
 </div>
-

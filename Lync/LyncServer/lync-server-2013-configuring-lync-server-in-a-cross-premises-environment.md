@@ -12,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44d1f06fcbdbbba7400bf45857dad9ed57971363
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7dcbdb7ac12dcb8fc768a1f9e537622d01191b8f
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779724"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221732"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "43779724"
 
 _**마지막으로 수정 된 항목:** 2017-02-21_
 
-크로스-프레미스 구성에서는 일부 사용자가 Microsoft Lync Server 2013의 온-프레미스 설치에 있고 다른 사용자는 Office 365 버전의 Lync Server에 속해 있습니다. 크로스-프레미스 환경에서 서버 간 인증을 구성 하려면 먼저 Office 365 인증 서버를 신뢰 하도록 Lync Server 2013의 온-프레미스 설치를 구성 해야 합니다. 이 프로세스의 초기 단계는 다음 Lync Server 관리 셸 스크립트를 실행 하 여 수행할 수 있습니다.
+크로스-프레미스 구성에서는 일부 사용자가 microsoft Lync Server 2013의 온-프레미스 설치를 진행 하는 동안 다른 사용자는 Office 365의 Lync Server 버전 365에 속해 있습니다. 크로스-프레미스 환경에서 서버 간 인증을 구성 하려면 먼저 Microsoft 365 인증 서버를 신뢰 하도록 Lync Server 2013의 온-프레미스 설치를 구성 해야 합니다. 이 프로세스의 초기 단계는 다음 Lync Server 관리 셸 스크립트를 실행 하 여 수행할 수 있습니다.
 
     $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
     
@@ -87,25 +87,25 @@ _**마지막으로 수정 된 항목:** 2017-02-21_
 
 
 > [!NOTE]  
-> Microsoft Online Services cmdlet을 설치하지 않은 경우 계속하기 전에 두 가지 작업을 수행해야 합니다. 우선 Microsoft Online Services 로그인 도우미의 64비트 버전을 다운로드하고 설치해야 합니다. 설치가 완료 되 면 64 비트 버전의 Windows PowerShell 용 Microsoft Online Services 모듈을 다운로드 하 여 설치 합니다. Microsoft Online Services 모듈 설치 및 사용에 대한 자세한 정보는 Office 365 웹 사이트에서 찾을 수 있습니다. 이러한 지침에서는 Office 365 및 Active Directory 간의 단일 로그인 구성, 페더레이션 및 동기화 방법을 설명합니다.<BR>이러한 cmdlet을 설치 하지 않은 경우 CsTenant cmdlet을 사용할 수 없으므로 스크립트에 오류가 발생 합니다.
+> Microsoft Online Services cmdlet을 설치하지 않은 경우 계속하기 전에 두 가지 작업을 수행해야 합니다. 우선 Microsoft Online Services 로그인 도우미의 64비트 버전을 다운로드하고 설치해야 합니다. 설치가 완료 되 면 64 비트 버전의 Windows PowerShell 용 Microsoft Online Services 모듈을 다운로드 하 여 설치 합니다. Microsoft Online Services 모듈을 설치 하 고 사용 하는 방법에 대 한 자세한 내용은 Microsoft 365 또는 Office 365 웹 사이트에서 찾을 수 있습니다. 이러한 지침에서는 Microsoft 365 또는 Office 36과 Active Directory 간의 single sign-on, 페더레이션 및 동기화를 구성 하는 방법에 대해서도 설명 합니다.<BR>이러한 cmdlet을 설치 하지 않은 경우 CsTenant cmdlet을 사용할 수 없으므로 스크립트에 오류가 발생 합니다.
 
 
 
 </div>
 
-Office 365를 구성 하 고 Lync Server 2013 및 Exchange 2013에 대 한 Office 365 서비스 사용자를 만든 후에는 이러한 서비스 주체에 자격 증명을 등록 해야 합니다. 이렇게 하려면 먼저 .CER 파일로 저장된 X.509 Base64를 구해야 합니다. 이 인증서는 Office 365 서비스 계정에 적용됩니다.
+Microsoft 365를 구성 하 고 Lync Server 2013 및 Exchange 2013 용 Microsoft 365 또는 Office 365 서비스 사용자를 만든 후에는 이러한 서비스 주체에 자격 증명을 등록 해야 합니다. 이렇게 하려면 먼저 .CER 파일로 저장된 X.509 Base64를 구해야 합니다. 이 인증서는 Microsoft 365 또는 Office 365 서비스 사용자에 게 적용 됩니다.
 
 X.509 인증서를 가져온 후에는 Microsoft Online Services 모듈 ( **시작**, **모든 프로그램**, **microsoft online services**를 차례로 클릭 하 고 **Windows PowerShell 용 Microsoft Online services 모듈**을 클릭 합니다.)을 시작 합니다. 서비스 모듈이 열리면 다음을 입력 하 여 서비스 사용자를 관리 하는 데 사용할 수 있는 cmdlet이 포함 된 Microsoft Online Windows PowerShell 모듈을 가져옵니다.
 
     Import-Module MSOnlineExtended
 
-모듈을 가져왔으면 Office 365에 연결하기 위해 다음 명령을 입력하고 Enter 키를 누릅니다.
+모듈을 가져왔으면 다음 명령을 입력 하 고 enter 키를 눌러 Microsoft 365에 연결 합니다.
 
     Connect-MsolService
 
 Enter를 누르면 자격 증명 대화 상자가 표시됩니다. 대화 상자에 Microsoft 365 또는 Office 365 사용자 이름과 암호를 입력 한 다음 확인을 클릭 합니다.
 
-Office 365에 연결되는 즉시 서비스 계정에 대한 정보를 반환하기 위해 다음 명령을 실행할 수 있습니다.
+Microsoft 365에 연결 되는 즉시 서비스 계정에 대 한 정보를 반환 하기 위해 다음 명령을 실행할 수 있습니다.
 
     Get-MsolServicePrincipal
 
@@ -127,7 +127,7 @@ Office 365에 연결되는 즉시 서비스 계정에 대한 정보를 반환하
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-인증서를 가져오고 인코딩한 후에는 인증서를 Office 365 서비스 사용자에 게 할당할 수 있습니다. 이 작업을 수행 하려면 먼저 (New-msolserviceprincipal를 사용 하 여 Lync Server 및 Microsoft Exchange 서비스 사용자 둘 다에 대 한 AppPrincipalId 속성 값을 검색 합니다. AppPrincipalId 속성 값은 인증서가 할당 되는 서비스 사용자를 식별 하는 데 사용 됩니다. Lync Server 2013에 대 한 AppPrincipalId 속성 값을 사용 하는 경우 다음 명령으로 Office 365 버전의 Lync Server에 인증서를 할당 합니다 (시작 날짜 및 EndDate 속성은 인증서의 유효 기간에 해당 해야 함).
+인증서를 가져오고 인코딩한 후에는 인증서를 Microsoft 365 서비스 사용자에 게 할당할 수 있습니다. 이 작업을 수행 하려면 먼저 (New-msolserviceprincipal를 사용 하 여 Lync Server 및 Microsoft Exchange 서비스 사용자 둘 다에 대 한 AppPrincipalId 속성 값을 검색 합니다. AppPrincipalId 속성 값은 인증서가 할당 되는 서비스 사용자를 식별 하는 데 사용 됩니다. Lync Server 2013의 AppPrincipalId 속성 값을 사용 하 여 Microsoft 365 버전의 Lync Server (시작 날짜 및 EndDate 속성은 인증서의 유효 기간에 해당)에 인증서를 할당 합니다.
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 
@@ -150,7 +150,7 @@ Office 365에 연결되는 즉시 서비스 계정에 대한 정보를 반환하
 
     Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 
-온-프레미스 버전의 Lync Server 2013에 대 한 서버 사용자 이름을 추가 하 여 인증서를 할당 하는 것 외에도 Exchange Online에 대 한 Office 365 서비스 사용자를 구성 해야 합니다. 이 작업은 Microsoft Online Services PowerShell 세션에서 다음의 네 가지 선을 실행 하 여 수행할 수 있습니다.
+인증서를 할당 하는 것 외에도 온-프레미스 버전의 Lync Server 2013에 대 한 서버 사용자 이름을 추가 하 여 Exchange Online에 대 한 Microsoft 365 서비스 사용자를 구성 해야 합니다. 이 작업은 Microsoft Online Services PowerShell 세션에서 다음의 네 가지 선을 실행 하 여 수행할 수 있습니다.
 
     Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
     

@@ -12,12 +12,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e87b977dd70227d134e5feae8df2ea089e216df3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5efc642ea326765df138f19fde4e691aa94d6b3b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780747"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2015-11-13_
     
       - Azure Active Directory 동기화 도구를 설치 합니다. 자세한 내용은 <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>을 참조하세요.
     
-      - 사용자가 Lync Online에 single sign-on을 사용 하도록 설정 하려면 Active Directory Federation Services <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>를 설치 합니다.
+      - 사용자가 Lync Online에 single sign-on을 사용 하도록 설정 하려면 Active Directory Federation Services를 설치 <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx> 합니다.
     
       - 온-프레미스 배포의 Lync Server 관리 셸에서 다음 cmdlet을 입력 하 여 Lync Online에 대 한 호스팅 공급자를 만듭니다.
         
@@ -117,13 +117,13 @@ _**마지막으로 수정 된 항목:** 2015-11-13_
     
       - 온-프레미스 역방향 프록시 서버의 FQDN을 가리키도록 **Lyncdiscover.contoso.com** A 레코드를 업데이트 합니다.
     
-      - * Sip *를 업데이트 합니다**\_.\_ tls.contoso.com** SRV 레코드를 사용 하 여 Lync 온-프레미스의 액세스에 지 서비스에 대 한 공용 IP 또는 VIP 주소를 확인할 수 있습니다.
+      - * Sip *를 업데이트 합니다** \_ . \_ tls.contoso.com** SRV 레코드를 사용 하 여 Lync 온-프레미스의 액세스에 지 서비스에 대 한 공용 IP 또는 VIP 주소를 확인할 수 있습니다.
     
-      - * Sipfederationtls *를 업데이트 합니다**\_.\_ tcp.contoso.com** SRV 레코드를 사용 하 여 Lync 온-프레미스의 액세스에 지 서비스에 대 한 공용 IP 또는 VIP 주소를 확인할 수 있습니다.
+      - * Sipfederationtls *를 업데이트 합니다** \_ . \_ tcp.contoso.com** SRV 레코드를 사용 하 여 Lync 온-프레미스의 액세스에 지 서비스에 대 한 공용 IP 또는 VIP 주소를 확인할 수 있습니다.
     
       - 조직에서 분할 DNS를 사용 하는 경우 (예를 들어, "분할 하는 DNS" 라고도 함) 내부 DNS 영역을 통해 이름을 확인 하는 사용자가 프런트 엔드 풀로 이동 했는지 확인 합니다.
 
-6.  `Get-CsUser` Cmdlet을 입력 하 여 이동할 사용자에 대 한 일부 속성을 확인 합니다. HostingProviderProxyFQDN가로 `"sipfed.online.lync.com"` 설정 되어 있고 SIP 주소가 올바르게 설정 되어 있는지 확인 하려는 경우
+6.  Cmdlet을 입력 `Get-CsUser` 하 여 이동할 사용자에 대 한 일부 속성을 확인 합니다. HostingProviderProxyFQDN가로 설정 되어 `"sipfed.online.lync.com"` 있고 SIP 주소가 올바르게 설정 되어 있는지 확인 하려는 경우
 
 7.  Lync Online 사용자를 Lync 온-프레미스로 이동 합니다.
     
@@ -141,15 +141,15 @@ _**마지막으로 수정 된 항목:** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    **HostedMigrationOverrideUrl** 매개 변수에 대해 지정 된 Url 형식은 호스트 되는 마이그레이션 서비스가 실행 되는 풀의 url 이어야 하며, *Https://\<pool FQDN\>/HostedMigration/hostedmigrationService.svc*형식으로 되어 있어야 합니다.
+    **HostedMigrationOverrideUrl** 매개 변수에 대해 지정 된 Url 형식은 호스트 되는 마이그레이션 서비스가 실행 되는 풀의 url 이어야 하며, *Https:// \< pool FQDN \> /HostedMigration/hostedmigrationService.svc*형식으로 되어 있어야 합니다.
     
-    Office 365 조직 계정에 대 한 Lync Online 제어판의 URL을 확인 하 여 호스팅된 마이그레이션 서비스에 대 한 URL을 확인할 수 있습니다.
+    Microsoft 365 또는 Office 365 조직 계정에 대 한 Lync Online 제어판의 URL을 확인 하 여 호스팅된 마이그레이션 서비스에 대 한 URL을 확인할 수 있습니다.
     
     <div>
     
-    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-organization"></a>Office 365 조 직에 대 한 호스팅된 마이그레이션 서비스 URL을 확인 하려면
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-organizaton"></a>Organizaton의 호스팅된 마이그레이션 서비스 URL을 확인 하려면
     
-    1.  관리자로 Office 365 조직에 로그인 합니다.
+    1.  Microsoft 365 또는 Office 365 조직에 관리자로 로그인 합니다.
     
     2.  **Lync 관리 센터**를 엽니다.
     
@@ -173,7 +173,7 @@ _**마지막으로 수정 된 항목:** 2015-11-13_
     
 
     > [!NOTE]  
-    > Rtcxds 데이터베이스에 대 한 트랜잭션 로그 파일의 기본 최대 크기는 16gb입니다. 많은 수의 사용자를 한 번에 이동 하는 경우, 특히 미러링을 사용 하도록 설정한 경우에는이 값이 충분히 크지 않을 수 있습니다. 이 문제를 해결 하려면 파일 크기를 늘리거나 로그 파일을 정기적으로 백업 하면 됩니다. 자세한 내용은를 참조 <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>하세요.
+    > Rtcxds 데이터베이스에 대 한 트랜잭션 로그 파일의 기본 최대 크기는 16gb입니다. 많은 수의 사용자를 한 번에 이동 하는 경우, 특히 미러링을 사용 하도록 설정한 경우에는이 값이 충분히 크지 않을 수 있습니다. 이 문제를 해결 하려면 파일 크기를 늘리거나 로그 파일을 정기적으로 백업 하면 됩니다. 자세한 내용은를 참조 <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A> 하세요.
 
     
     </div>

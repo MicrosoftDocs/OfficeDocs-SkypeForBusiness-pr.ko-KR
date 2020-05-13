@@ -12,12 +12,12 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1e31e9fd0de6135dd1fd3f552d0d692f1bf7543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4148cd97ec118a223e7e8b1b1e8c3825f51dbad6
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184011"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2013-10-28_
 
   - 오디오 회의나 비디오 회의 중 하나 또는 둘 다
 
-경우에 따라 Microsoft Lync Server 2013와 확장 가능한 메시징 및 현재 상태 프로토콜 (XMPP) 대화 상대와의 IM (인스턴트 메시징) 및 현재 상태 사이의 통신은 피어 투 피어 전용 이며 페더레이션에서 사용자와의 대화 상대를 지원 합니다. 파트너. Lync server와 같은 lync server 2010 lync server 2013 페더레이션에 연결 하는 다른 경우에는 여러 참가자가 대화에 참가 하도록 초대를 받을 수 있습니다.
+경우에 따라 Microsoft Lync Server 2013와 확장 가능한 메시징 및 현재 상태 프로토콜 (XMPP) 연락처 사이의 IM (인스턴트 메시징) 및 현재 상태 간 통신은 피어 투 피어 전용 이며 페더레이션 파트너의 대화 상대와만 지원 됩니다. Lync server와 같은 lync server 2010 lync server 2013 페더레이션에 연결 하는 다른 경우에는 여러 참가자가 대화에 참가 하도록 초대를 받을 수 있습니다.
 
 <div>
 
@@ -97,19 +97,19 @@ Microsoft Lync Server 2013, Lync Server 2010 및 Office Communications Server �
         
 
         > [!NOTE]
-        > <STRONG>새 SIP 페더레이션 도메인</STRONG>의 경우 microsoft Office 365에 대 한 사용자의 <STRONG>도메인 이름 (또는 FQDN)</STRONG> 을 제공 해야 합니다. Microsoft Lync Server 2013, Lync Server 2010 및 Office Communications Server의 경우에는 <STRONG>FQDN (액세스에 지 서비스)</STRONG> 도 제공 해야 합니다.
+        > <STRONG>새 SIP 페더레이션 도메인</STRONG>의 경우 Microsoft Lync Online 및 microsoft 365 또는 Office 365의 <STRONG>도메인 이름 (또는 FQDN)</STRONG> 을 제공 해야 합니다. Microsoft Lync Server 2013, Lync Server 2010 및 Office Communications Server의 경우에는 <STRONG>FQDN (액세스에 지 서비스)</STRONG> 도 제공 해야 합니다.
 
         
         </div>
     
       - <span></span>  
-        파트너가에 지 서버를 검색할 수 있는 검색 된 파트너 페더레이션에 대해 외부 DNS- \_SIPFEDERATIONTLS에 SRV 레코드를 만듭니다. \_tcp.contoso.com –에 지 서버에 대 한 포트 5061 및 호스트 (A) 레코드를 가리킵니다.
+        파트너가에 지 서버를 검색할 수 있는 검색 된 파트너 페더레이션에 대해 외부 DNS-sipfederationtls에 SRV 레코드를 만듭니다 \_ . \_ tcp.contoso.com –에 지 서버에 대 한 포트 5061 및 호스트 (A) 레코드를 가리킵니다.
         
         <div>
         
 
         > [!IMPORTANT]
-        > Windows Phone 또는 Apple iPhone, iPad 또는 기타 Apple 장치에서 Microsoft Lync 모바일 클라이언트를 지원 하 고 푸시 알림 서비스 또는 푸시 알림 서비스를 사용 하는 경우에는 _sipfederationtls에 대 한 계획을 세워야 합니다 _tcp. &lt;Lync Mobile&gt; 클라이언트를 가진 각 sip 도메인에 대 한 SIP 도메인 SRV 레코드 Android 및 Nokia Symbian Lync Mobile에서는 푸시 알림을 사용 하지 않으며,이 요구 사항이 적용 되지 않습니다.
+        > Windows Phone 또는 Apple iPhone, iPad 또는 기타 Apple 장치에서 Microsoft Lync 모바일 클라이언트를 지원 하 고 푸시 알림 서비스 또는 푸시 알림 서비스를 사용 하는 경우에는 _sipfederationtls에 대 한 계획을 세워야 합니다 _tcp. &lt;&gt;Lync Mobile 클라이언트를 가진 각 sip 도메인에 대 한 SIP 도메인 SRV 레코드 Android 및 Nokia Symbian Lync Mobile에서는 푸시 알림을 사용 하지 않으며,이 요구 사항이 적용 되지 않습니다.
 
         
         </div>

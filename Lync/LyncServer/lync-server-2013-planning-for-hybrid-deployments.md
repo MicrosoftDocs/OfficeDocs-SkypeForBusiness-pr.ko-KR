@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 47e8bc57edbf3b6414820aba1613be8b44fc670e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780327"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2016-05-25_
 
 하이브리드 배포를 구현 및 배포 하려면 환경에서 다음을 구성 해야 합니다.
 
-  - 비즈니스용 Skype Online을 사용 하는 Microsoft Office 365 조 직 온-프레미스 배포를 사용 하는 경우 단일 테 넌 트만 하이브리드 구성에 사용할 수 있습니다.
+  - 비즈니스용 Skype Online을 사용 하는 Microsoft 365 또는 Office 365 조직 온-프레미스 배포를 사용 하는 경우 단일 테 넌 트만 하이브리드 구성에 사용할 수 있습니다.
 
   - 지원 되는 토폴로지로 배포 되는 비즈니스용 Skype 서버 또는 Lync Server의 단일 온-프레미스 배포 (인프라)입니다. 토폴로지 요구 사항을 참조 하세요.
     
@@ -53,7 +53,7 @@ _**마지막으로 수정 된 항목:** 2016-05-25_
 
   - 비즈니스용 Skype 서버 2015 관리 도구입니다. Lync Server 2013 또는 Lync Server 2010을 사용 하는 경우 Lync Server 2013 관리 도구를 사용할 수 있습니다.
 
-  - 사용자가 온-프레미스에서 Office에 로그인 할 때 동일한 로그인 자격 증명을 사용할 수 있도록 Office 365와 함께 Single Sign-on을 지원 하기 위해 Azure Active Directory (AAD) 연결의 암호 동기화 기능을 사용할 수 있습니다. Office 365에서 single sign-on을 위해 AD FS (Active Directory Federation Services)를 사용할 수도 있습니다.
+  - 사용자가 온-프레미스에서 Office에 로그인 하는 데 동일한 로그인 자격 증명을 사용할 수 있도록 Microsoft 365 또는 Office 365와 함께 Single Sign-on을 지원 하기 위해 Azure Active Directory (AAD) 연결의 암호 동기화 기능을 사용할 수 있습니다. 또한 Microsoft 365 또는 Office 365에서 single sign-on을 위해 AD FS (Active Directory Federation Services)를 사용할 수 있습니다.
     
     자세한 내용은 [Azure Active Directory에 온-프레미스 ID 통합](https://go.microsoft.com/fwlink/p/?linkid=619754).
 
@@ -159,7 +159,7 @@ Lync 클라이언트에서 지 원하는 기능 및 온-프레미스 및 온라�
 
 하이브리드 배포를 성공적으로 구성 하려면 다음 요구 사항을 충족 해야 합니다.
 
-  - 도메인 일치는 온-프레미스 배포 및 Office 365 조 직에 대해 동일 하 게 구성 해야 합니다. 온-프레미스 배포에서 파트너 검색이 사용 되도록 설정 된 경우 온라인 테 넌 트에 대해 open 페더레이션이 구성 되어 있어야 합니다. 파트너 검색을 사용 하도록 설정 하지 않은 경우에는 온라인 테 넌 트에 대해 닫힌 페더레이션을 구성 해야 합니다.
+  - 도메인 일치는 온-프레미스 배포와 Microsoft 365 또는 Office 365 조 직에 대해 동일 하 게 구성 해야 합니다. 온-프레미스 배포에서 파트너 검색이 사용 되도록 설정 된 경우 온라인 테 넌 트에 대해 open 페더레이션이 구성 되어 있어야 합니다. 파트너 검색을 사용 하도록 설정 하지 않은 경우에는 온라인 테 넌 트에 대해 닫힌 페더레이션을 구성 해야 합니다.
 
   - 온-프레미스 배포의 차단 된 도메인 목록은 온라인 테 넌 트에 대 한 차단 된 도메인 목록과 정확히 일치 해야 합니다.
 
@@ -191,7 +191,7 @@ Lync 클라이언트에서 지 원하는 기능 및 온-프레미스 및 온라�
 <td><p>DNS 요구 사항</p></td>
 </tr>
 <tr class="even">
-<td><p>_Sipfederationtls에 대 한 DNS SRV 레코드 _tcp. &lt;에&gt; 지 외부 IP에 액세스 하기 위해 지원 되는 모든 SIP 도메인에 대 한 sipdomain.com</p></td>
+<td><p>_Sipfederationtls에 대 한 DNS SRV 레코드 _tcp. &lt; 에 지 &gt; 외부 IP에 액세스 하기 위해 지원 되는 모든 SIP 도메인에 대 한 sipdomain.com</p></td>
 <td><p>에 지 서버</p></td>
 <td><p>하이브리드 구성에서 페더레이션 통신을 사용 하도록 설정 합니다. 에 지 서버는 온-프레미스와 온라인 간에 분할 된 SIP 도메인에 대 한 페더레이션 트래픽을 라우팅할 위치를 알아야 합니다.</p></td>
 </tr>
@@ -214,7 +214,7 @@ Lync 클라이언트에서 지 원하는 기능 및 온-프레미스 및 온라�
 
 네트워크의 컴퓨터는 표준 인터넷 DNS 조회를 수행할 수 있어야 합니다. 이러한 컴퓨터에서 표준 인터넷 사이트에 연결할 수 있으면 네트워크가 이 요구 사항을 충족하는 것입니다.
 
-Microsoft Online Services 데이터 센터의 위치에 따라 와일드 카드 도메인 이름 (예: outlook.com의 \*모든 트래픽)을 기반으로 연결을 허용 하도록 네트워크 방화벽 장치를 구성 해야 합니다. 조직의 방화벽이 와일드 카드 이름 구성을 지원 하지 않는 경우 허용할 IP 주소 범위 및 지정 된 포트를 수동으로 결정 해야 합니다.
+Microsoft Online Services 데이터 센터의 위치에 따라 와일드 카드 도메인 이름 (예: outlook.com의 모든 트래픽)을 기반으로 연결을 허용 하도록 네트워크 방화벽 장치를 구성 해야 합니다. \* 조직의 방화벽이 와일드 카드 이름 구성을 지원 하지 않는 경우 허용할 IP 주소 범위 및 지정 된 포트를 수동으로 결정 해야 합니다.
 
 [Office 365 url 및 IP 주소 범위](https://go.microsoft.com/fwlink/p/?linkid=252942)도움말 항목을 참조 하세요.
 
@@ -299,7 +299,7 @@ AD FS 및 Dirsync를 사용 하 여 Lync 온-프레미스 및 Lync Online 배포
 
 
 > [!IMPORTANT]  
-> 사용자가 Office 365 용 온라인 포털을 사용 하 여 만든 경우 사용자 계정이 온-프레미스 Active Directory와 동기화 되지 않으며 사용자가 온-프레미스 Active Directory에 존재 하지 않습니다. Lync Online에서 이미 사용자를 만들고 온-프레미스 Lync Server를 사용 하 여 하이브리드를 구성 하려면 lync <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">server 2013에서 Lync online에서 lync 온-프레미스로 사용자 이동</A>을 참조 하십시오.
+> Microsoft 365 관리 센터의 온라인 포털을 사용 하 여 만든 사용자의 경우 사용자 계정이 온-프레미스 Active Directory와 동기화 되지 않으며 사용자가 온-프레미스 Active Directory에 존재 하지 않습니다. Lync Online에서 이미 사용자를 만들고 온-프레미스 Lync Server를 사용 하 여 하이브리드를 구성 하려면 lync <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">server 2013에서 Lync online에서 lync 온-프레미스로 사용자 이동</A>을 참조 하십시오.
 
 
 
@@ -307,11 +307,11 @@ AD FS 및 Dirsync를 사용 하 여 Lync 온-프레미스 및 Lync Online 배포
 
 또한 하이브리드 배포를 계획할 때 다음과 같은 사용자 관련 문제를 고려해 야 합니다.
 
-  - **사용자 연락처**   Lync Online 사용자에 대 한 대화 상대 제한은 250입니다. 계정을 Lync Online으로 이동 하면 해당 번호를 초과 하는 모든 연락처가 사용자의 대화 상대 목록에서 제거 됩니다.
+  - **사용자 연락처**     Lync Online 사용자에 대 한 연락처 제한은 250입니다. 계정을 Lync Online으로 이동 하면 해당 번호를 초과 하는 모든 연락처가 사용자의 대화 상대 목록에서 제거 됩니다.
 
-  - **인스턴트 메시징 및 현재 상태**   사용자 대화 상대 목록, 그룹 및 acl (액세스 제어 목록)은 사용자 계정을 사용 하 여 마이그레이션됩니다.
+  - **인스턴트 메시징 및 현재 상태**     사용자 대화 상대 목록, 그룹 및 Acl (액세스 제어 목록)은 사용자 계정을 사용 하 여 마이그레이션됩니다.
 
-  - **회의 데이터, 모임 콘텐츠 및 예약 된 모임**   이 콘텐츠는 사용자 계정으로 마이그레이션되지 않습니다. 사용자는 계정을 Lync Online으로 마이그레이션한 후에 모임 일정을 다시 조정 해야 합니다.
+  - **회의 데이터, 모임 콘텐츠 및 예약 된 모임**     이 콘텐츠는 사용자 계정으로 마이그레이션되지 않습니다. 사용자는 계정을 Lync Online으로 마이그레이션한 후에 모임 일정을 다시 조정 해야 합니다.
 
 </div>
 
@@ -321,11 +321,11 @@ AD FS 및 Dirsync를 사용 하 여 Lync 온-프레미스 및 Lync Online 배포
 
   - Lync Server 2013 하이브리드 환경에서는 온-프레미스 또는 온라인 중 하나에서 인스턴트 메시징, 음성 및 모임에 대 한 사용자를 사용 하도록 설정할 수 있지만 동시에 둘 모두를 사용할 수도 없습니다.
 
-  - **Lync 클라이언트**     일부 사용자는 lync Online으로 이동할 때 새 클라이언트 버전이 필요할 수도 있습니다. Office Communications Server 2007 R2의 경우 Lync Online으로 마이그레이션하기 전에 사용자를 Lync Server 2013 풀로 이동 해야 합니다.
+  - **Lync 클라이언트**     일부 사용자는 Lync Online으로 이동할 때 새 클라이언트 버전이 필요할 수도 있습니다. Office Communications Server 2007 R2의 경우 Lync Online으로 마이그레이션하기 전에 사용자를 Lync Server 2013 풀로 이동 해야 합니다.
     
     클라이언트 지원에 대 한 자세한 내용은 [Clients For Lync Online](https://go.microsoft.com/fwlink/p/?linkid=281902) 및 [지원 되는 lync 클라이언트 및 네트워크 포트 구성을](https://go.microsoft.com/fwlink/p/?linkid=281901)참조 하십시오.
 
-  - **비-온-프레미스 정책 및 구성 (사용자가 아닌)**   온라인 및 온-프레미스 정책에는 별도의 구성이 필요 합니다. 둘 다에 적용 되는 글로벌 정책을 설정할 수는 없습니다.
+  - 온 **-프레미스 정책 및 구성 (사용자가 아닌 경우)**     온라인 및 온-프레미스 정책에는 별도의 구성이 필요 합니다. 둘 다에 적용 되는 글로벌 정책을 설정할 수는 없습니다.
 
 </div>
 
@@ -338,4 +338,3 @@ AD FS 및 Dirsync를 사용 하 여 Lync 온-프레미스 및 Lync Online 배포
 </div>
 
 </div>
-

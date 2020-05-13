@@ -12,12 +12,12 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b8718d5f3dda34b97b4c3e96c2fe9531d6658b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6203e6a7ee99f4b080fa93976a2a937e62fe9d3c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216784"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221562"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,9 +51,9 @@ Lync Server 2013, 영구 채팅 서버를 사용 하면 시간이 지남에 따�
 
   - 중요한 지식과 정보의 배포를 향상시킵니다.
 
-Lync Server 2013, 영구 채팅 서버는 Microsoft Office 365에서 사용할 수 없습니다. 현재 온-프레미스 Lync 2013 고객 에게만 제공 됩니다.
+Lync Server 2013, 영구 채팅 서버는 Microsoft 365 또는 Office 365에서 사용할 수 없습니다. 현재 온-프레미스 Lync 2013 고객 에게만 제공 됩니다.
 
-Lync 2013에서는 영구 채팅 기능이 Lync 2013 클라이언트에 통합 되어 있습니다. 따라서 사용자는 Lync 2013 클라이언트에서 인스턴트 메시징/현재 상태, 오디오/비디오, 회의 및 영구 채팅에 액세스할 수 있습니다. Lync 2013 클라이언트에 대 한 자세한 내용은를 참조 <https://go.microsoft.com/fwlink/p/?linkid=270877>하세요.
+Lync 2013에서는 영구 채팅 기능이 Lync 2013 클라이언트에 통합 되어 있습니다. 따라서 사용자는 Lync 2013 클라이언트에서 인스턴트 메시징/현재 상태, 오디오/비디오, 회의 및 영구 채팅에 액세스할 수 있습니다. Lync 2013 클라이언트에 대 한 자세한 내용은를 참조 하세요 <https://go.microsoft.com/fwlink/p/?linkid=270877> .
 
 이 항목에서는 새 버전의 Lync Server 2013, 영구 채팅 서버와 이전 버전 (Microsoft Lync Server 2010, 그룹 채팅) 간의 기능 변경 사항에 대해 설명 합니다.
 
@@ -67,9 +67,9 @@ Lync 2013에서는 영구 채팅 기능이 Lync 2013 클라이언트에 통합 �
 
 최신 버전의 영구 채팅 서버에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
-  - 영구 채팅 기능의 자세한 목록과 <https://go.microsoft.com/fwlink/p/?linkid=270945> 작동 방식, 그리고 영구 채팅 서버를 실행 하는 동안 사용 하는 방법에 대 한 자세한 정보를 제공 하는 영구적 채팅 도움말입니다.
+  - 영구 채팅 <https://go.microsoft.com/fwlink/p/?linkid=270945> 기능의 자세한 목록과 작동 방식, 그리고 영구 채팅 서버를 실행 하는 동안 사용 하는 방법에 대 한 자세한 정보를 제공 하는 영구적 채팅 도움말입니다.
 
-  - 계획 설명서에서 [Lync Server 2013의 영구 채팅 서버 계획](lync-server-2013-planning-for-persistent-chat-server.md) lync server 2008에서 [영구 채팅 서버 배포 배포](lync-server-2013-deploying-persistent-chat-server.md) 설명서, 2013 [Lync server 2010, 그룹 채팅 또는 Office Communications server 2007 R2 그룹 채팅에서 Lync Server 2013, 영구 채팅 서버](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) (마이그레이션 설명서) 및 작업 설명서에서 [Lync server 2013, 영구 채팅 서버 관리](managing-lync-server-2013-persistent-chat-server.md) , 모든 설정에 대 한 지침을 제공 합니다. 영구 채팅 서버
+  - 계획 설명서에서 [Lync Server 2013의 영구 채팅 서버 계획](lync-server-2013-planning-for-persistent-chat-server.md) lync server 2008의 온-The 영구 [채팅 서버 배포](lync-server-2013-deploying-persistent-chat-server.md) 2013 설명서에서 Lync Server [2010, 그룹 채팅 또는 Office Communications server 2007 R2 그룹 채팅에서 lync Server 2013](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) , 영구 채팅 서버, 작업 설명서의 "lync server [2013, 영구](managing-lync-server-2013-persistent-chat-server.md) 채팅 서버, 그리고 모든 영구 채팅 서버 설정에 대 한 지침을 제공 합니다.
 
   - 영구 채팅 서버 설명서 .msi 파일 (Windows Installer 파일)을 사용 하면 영구 채팅 서버에 대 한 포괄적인 오프 라인 설명서에 액세스할 수 있습니다.
 
@@ -103,13 +103,13 @@ Lync 2013에서는 영구 채팅 기능이 Lync 2013 클라이언트에 통합 �
 
 
 > [!IMPORTANT]  
-> <STRONG>PersistentChatService</STRONG> 역할은 해당 프런트 엔드 서버가 Standard Edition&nbsp;&nbsp;프런트 엔드 서버인 경우에만 Lync server 2013 프런트 엔드 서버와 동일한 서버에서 실행 될 수 있습니다. <STRONG>PersistentChatService</STRONG> 역할은 Lync server 2013&nbsp;프런트 엔드 서버와 독립적으로 실행할 수 없습니다. Lync Server 2013 배포의 컨텍스트에서만 설치할 수 있습니다.
+> <STRONG>PersistentChatService</STRONG> 역할은 &nbsp; 해당 프런트 엔드 서버가 Standard Edition 프런트 엔드 서버인 경우에만 Lync Server 2013 프런트 엔드 서버와 동일한 서버에서 실행 될 수 있습니다 &nbsp; . <STRONG>PersistentChatService</STRONG> 역할은 Lync server 2013 프런트 엔드 서버와 독립적으로 실행할 수 없습니다 &nbsp; . Lync Server 2013 배포의 컨텍스트에서만 설치할 수 있습니다.
 
 
 
 </div>
 
-영구 채팅 서버에서는 조회 서비스가 제거 되었습니다. Lync Server 2010, 그룹 채팅에서 조회 서비스는 모든 그룹 채팅 서버 프런트 엔드 서버에서 실행 되 고 채널 서버 중 하나로 라우팅을 수행 했습니다. Lync Server 2013에서는 각 영구 채팅 서버 풀을 적절 한 영구 채팅 서버 풀로 식별 하 고 라우트 하기 위해 Lync Server 프런트 엔드 서버에서 사용 하는 연락처 개체로 표시 되는 연락처 개체를 사용 하 여 라우팅에 의존 합니다. 풀에서 영구 채팅 서버를 실행 하는 컴퓨터 중 하나입니다.
+영구 채팅 서버에서는 조회 서비스가 제거 되었습니다. Lync Server 2010, 그룹 채팅에서 조회 서비스는 모든 그룹 채팅 서버 프런트 엔드 서버에서 실행 되 고 채널 서버 중 하나로 라우팅을 수행 했습니다. Lync Server 2013에서는 각 영구 채팅 서버 풀이 해당 연락처 개체를 사용 하 여 라우팅에 의존 하며,이 개체는 요청을 식별 하 고 적절 한 영구 채팅 서버 풀로 경로를 지정 하기 위해 풀에서 영구 채팅 서버를 실행 하는 컴퓨터 중 하나에 연결 합니다.
 
 Lync Server 2013에는 준수 서비스 수정 사항이 있습니다.
 
@@ -139,7 +139,7 @@ Lync Server 2013에서는 고가용성 및 재해 복구를 모두 개선할 수
 
   - 고가용성 향상: SQL Server 미러링은 데이터 센터 (현장)에서 영구 채팅 서버 콘텐츠 데이터베이스 및 영구 채팅 준수 데이터베이스에 대 한 고가용성을 제공 하는 데 사용 됩니다.
 
-  - 향상 된 재해 복구 기능: 영구 채팅 서버는 단일 영구 채팅 서버 풀을 두 사이트, 즉 토폴로지의 단일 논리 풀에서 실제로 풀의 서버와 물리적으로 늘릴 수 있도록 하는 스트레치 된 풀 아키텍처를 지원 합니다. 두 사이트에 위치) 사이트 간 재해 복구를 위해 SQL Server 로그 전달이 사용 됩니다.
+  - 향상 된 재해 복구 기능: 영구 채팅 서버는 단일 영구 채팅 서버 풀을 두 사이트 (토폴로지의 단일 논리 풀)에서 동시에 두 사이트에 걸쳐 있는 풀의 서버로 확장 하는 데 사용할 수 있는 스트레치 된 풀 아키텍처를 지원 합니다. 사이트 간 재해 복구를 위해 SQL Server 로그 전달이 사용 됩니다.
 
 고가용성 및 재해 복구에 대 한 자세한 내용은 배포 설명서의 " [Lync server 2013에서 고가용성 및 재해 복구를 위한 영구 채팅 서버 구성](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) "을 참조 하십시오.
 
@@ -165,7 +165,7 @@ Lync Server 2013에서는 다음을 제공 하 여 영구 채팅 서버를 보�
 
 ## <a name="whats-different-about-user-roles-from-previous-group-chat-server-versions"></a>이전 그룹 채팅 서버 버전의 사용자 역할에 대 한 달라진 점은 무엇 인가요?
 
-Lync Server 2010, 그룹 채팅에는 사용자 관리자 역할, 대화방 관리자 역할 및 추가 기능을 관리할 수 있는 Lync Server 관리자 역할이 있었습니다. 영구 채팅 서버는 단순히 영구 채팅 관리자 역할 (다른 Lync와 비슷함)을 제공 합니다. 서버 RBAC (역할 기반 액세스 제어) 역할) 이 RBAC 역할의 구성원 인 사람은 대화방, 추가 기능 및 범주를 관리 하 고 (따라서 이러한 범주에 대 한 사용자 액세스 권한 획득) 영구 채팅 서버 풀을 구성할 수 있습니다.
+Lync Server 2010, 그룹 채팅은 사용자 관리자 역할, 대화방 관리자 역할 및 추가 기능을 관리할 수 있는 Lync Server 관리자 역할을 했습니다. 영구 채팅 서버는 영구 채팅 관리자 역할 (다른 Lync Server의 RBAC (역할 기반 액세스 제어) 역할과 유사)을 제공 합니다. 이 RBAC 역할의 구성원 인 사람은 대화방, 추가 기능 및 범주를 관리 하 고 (따라서 이러한 범주에 대 한 사용자 액세스 권한 획득) 영구 채팅 서버 풀을 구성할 수 있습니다.
 
 </div>
 
@@ -234,4 +234,3 @@ Lync Server 2013, 영구 채팅 서버에는 열려 있는 대화방의 새로�
 </div>
 
 </div>
-

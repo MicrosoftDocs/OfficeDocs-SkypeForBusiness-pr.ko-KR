@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780757"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Lync Server 2013 hybrid environment는 일부 사용자가 온-프레미스 Lync
 
   - [AD FS를 사용 하 여 single sign-on 용 Windows PowerShell 설치](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Microsoft Online Services 로그인 도우미 (msoidcli-)는 Microsoft 365 관리 센터에서 연결 된 다운로드 페이지에서 구할 수 있는 Office 365 데스크톱 설치 프로그램에 포함 되어 있습니다.
+  - Microsoft Online Services 로그인 도우미 (msoidcli-)는 microsoft 365 관리 센터에서 연결 된 다운로드 페이지에서 구할 수 있는 Microsoft 365 데스크톱 설치에 포함 되어 있습니다.
 
 </div>
 
@@ -67,7 +67,7 @@ Lync Server 2013 hybrid environment는 일부 사용자가 온-프레미스 Lync
 
 ## <a name="administrator-credentials"></a>관리자 자격 증명
 
-관리자 자격 증명을 입력 하 라는 메시지가 표시 되 면 Office 365 조직의 관리자 계정에 대 한 사용자 이름 및 암호를 사용 합니다. AD FS (Active Directory Federation Services) 2.0, 디렉터리 동기화, Single sign-on, 페더레이션 및 이동 사용자를 Lync Online으로 구성 하는 경우에도 이러한 자격 증명을 사용 합니다.
+관리자 자격 증명을 입력 하 라는 메시지가 표시 되 면 Microsoft 365 또는 Office 365 조직의 관리자 계정에 대 한 사용자 이름 및 암호를 사용 합니다. AD FS (Active Directory Federation Services) 2.0, 디렉터리 동기화, Single sign-on, 페더레이션 및 이동 사용자를 Lync Online으로 구성 하는 경우에도 이러한 자격 증명을 사용 합니다.
 
 </div>
 
@@ -75,7 +75,7 @@ Lync Server 2013 hybrid environment는 일부 사용자가 온-프레미스 Lync
 
 ## <a name="connecting-to-lync-online-powershell"></a>Lync Online PowerShell에 연결
 
-이제 관리자는 Windows PowerShell을 사용 하 여 Lync Online 및 해당 Lync Online 사용자 계정을 관리할 수 있습니다. 이 작업을 수행 하려면 먼저 Microsoft 다운로드 센터 (https://go.microsoft.com/fwlink/?LinkId=294688)를 통해 Lync Online Connector 모듈을 다운로드 하 여 설치 해야 합니다. Lync online 커넥터 모듈을 다운로드, 설치 및 사용 하는 방법 및 Windows PowerShell을 사용 하 여 Lync Online을 관리 하는 방법에 대 한 자세한 내용은 [Windows powershell을 사용 하 여 Lync online 관리](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)를 참조 하세요.
+이제 관리자는 Windows PowerShell을 사용 하 여 Lync Online 및 해당 Lync Online 사용자 계정을 관리할 수 있습니다. 이 작업을 수행 하려면 먼저 Microsoft 다운로드 센터 (를 통해 Lync Online Connector 모듈을 다운로드 하 여 설치 해야 합니다 https://go.microsoft.com/fwlink/?LinkId=294688) . Lync online 커넥터 모듈을 다운로드, 설치 및 사용 하는 방법 및 Windows PowerShell을 사용 하 여 Lync Online을 관리 하는 방법에 대 한 자세한 내용은 [Windows powershell을 사용 하 여 Lync online 관리](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)를 참조 하세요.
 
 </div>
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06d32aa0cf2248c80b8f98d80e8c796818b89a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5e85bf0d6e4281094be562bd94c8e5b76e02453
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186021"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Lync Server의 온-프레미스 배포를 사용 하는 조직은 Lync Windows �
 
 
 > [!NOTE]  
-> Lync server 2010의 경우 lync server 2010에 대 한 누적 업데이트: 2 월 2012 (사용 가능한 경우 <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp; kbid = 2670352</A>) 이상에서 모든 서버에 대해 실행 합니다. 사용자가 모임에 참가할 수 있도록 설정 하려면 서버에서 Lync Server 2010 10 월 2012 (사용 가능한 경우 <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp, 2737915</A>)에 대 한 누적 업데이트를 실행 합니다.
+> Lync Server 2010의 경우 Lync Server 2010에 대 한 누적 업데이트: 2 월 2012 (사용 가능한 경우 <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; kbid = 2670352</A>) 이상에서 모든 서버에 대해 실행 합니다. 사용자가 모임에 참가할 수 있도록 설정 하려면 서버에서 Lync Server 2010 10 월 2012 (사용 가능한 경우 <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp , 2737915</A>)에 대 한 누적 업데이트를 실행 합니다.
 
 
 
@@ -61,7 +61,7 @@ Lync Server의 온-프레미스 배포를 사용 하는 조직은 Lync Windows �
 
   - 클라이언트에서 Windows 8.1 및 최신 버전의 Lync Windows 스토어 앱을 설치 하 여 여러 도메인을 사용 하는 경우 일반적으로 발생 하는 로그인 문제 (예: SIP URI가 **userA@domainZ.com** 되지만에 지 서버는 **sip.domainX.com**)를 수정 합니다.
 
-조직에서 Lync Online 또는 Office 365을 구독 하 고 사용자의 도메인 이름을 사용 하는 경우 Lync 서버의 자동 검색을 위해 네트워크를 설정 하기 위한 몇 가지 추가 단계를 수행 해야 합니다. 네트워크 구성 요구 사항은 Lync Windows 스토어 앱 및 Lync for 모바일 장치에서 동일 합니다. Office 365 wiki 문서 "Lync 모바일 장치 설정"의 "네트워크 설정"에 제공 되는 지침을 따릅니다 [https://go.microsoft.com/fwlink/?LinkId=271822](https://go.microsoft.com/fwlink/?linkid=271822).
+조직에서 Lync Online 또는 Microsoft 365을 구독 하 고 사용자의 도메인 이름을 사용 하는 경우 Lync 서버의 자동 검색을 위해 네트워크를 설정 하기 위한 몇 가지 추가 단계를 수행 해야 합니다. 네트워크 구성 요구 사항은 Lync Windows 스토어 앱 및 Lync for 모바일 장치에서 동일 합니다.
 
 <div>
 
@@ -82,4 +82,3 @@ Lync Server의 온-프레미스 배포를 사용 하는 조직은 Lync Windows �
 </div>
 
 </div>
-

@@ -12,12 +12,12 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb9719b4a894ebd0f6cfb0e457eb557062861352
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fa4e4250288a31cab708d7c3eb11087b00c5d6a9
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206374"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221238"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2016-05-26_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - 온-프레미스 Lync 배포가 있고 일부 사용자를 클라우드로 이동 하 여 Office 365에서 Lync Online을 사용 하려는 경우 [Lync online을 사용 하 여 하이브리드에 대 한 온-프레미스 배포 구성을](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md)참조 하세요.
+  - 온-프레미스 Lync 배포가 있고 일부 사용자를 클라우드로 이동 하 여 Microsoft 365 또는 Office 365에서 Lync Online을 사용 하려는 경우 [Lync online을 사용 하 여 하이브리드에 대 한 온-프레미스 배포 구성을](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md)참조 하세요.
 
   - Lync Online에서 Lync를 사용 하도록 설정한 사용자가 온-프레미스 배포에서 사용 하도록 설정 되어 있지 않은 경우 lync [Server 2013에서 Lync online에서 lync 온-프레미스로 사용자 이동](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md)을 참조 하십시오.
 

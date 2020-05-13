@@ -12,12 +12,12 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1626b01f1cf008285e7d7fd12c6987c8da9f9ba4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 538f2163fe983e8ab886964e379b0c54c9de6dd8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186181"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42186181"
 
 _**마지막으로 수정 된 항목:** 2016-05-25_
 
-Lync 하이브리드 배포를 사용 하는 경우 lync 사용자 중 일부를 온-프레미스와 Lync Online에서 같은 도메인을 공유 하는 다른 사용자를 사용할 수 있습니다. 이렇게 하면 다른 지리적 위치 또는 원격으로 연결 되는 사용자에 게 Lync services를 보다 쉽게 제공 하 여 조직의 사용자에 게 제공할 수 있습니다. Lync 하이브리드 구성을 Office 365의 마이그레이션 경로로 활용할 수도 있습니다.
+Lync 하이브리드 배포를 사용 하는 경우 lync 사용자 중 일부를 온-프레미스와 Lync Online에서 같은 도메인을 공유 하는 다른 사용자를 사용할 수 있습니다. 이렇게 하면 다른 지리적 위치 또는 원격으로 연결 되는 사용자에 게 Lync services를 보다 쉽게 제공 하 여 조직의 사용자에 게 제공할 수 있습니다. Lync 하이브리드 구성을 Microsoft 365의 마이그레이션 경로로 활용할 수도 있습니다.
 
 이 섹션에서는 Lync Server 2013의 하이브리드 구성에 대해 설명 합니다.
 
