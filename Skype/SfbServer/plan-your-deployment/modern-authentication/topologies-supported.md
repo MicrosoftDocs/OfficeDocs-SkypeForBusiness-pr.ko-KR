@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 이 문서에서는 비즈니스용 Skype의 최신 인증과 함께 지원 되는 온라인 및 온-프레미스 토폴로지와 각 토폴로지에 적용 되는 보안 기능에 대해 설명 합니다.
-ms.openlocfilehash: 8c580b5ddbc38073960885375b74c73222ee272d
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443980f6ecf2bdf170974bf0fdc0dd64f3657e67
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898113"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219698"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>최신 인증과 함께 지원 되는 비즈니스용 Skype 토폴로지
 
@@ -35,7 +35,7 @@ ms.locfileid: "43898113"
 
 ### <a name="supported-ma-topologies-in-skype-for-business"></a>비즈니스용 Skype에서 지원 되는 MA 토폴로지
 
-두 대의 서버 응용 프로그램 및 두 개의 Office 365 작업을 수행 하는 경우 MA에서 사용 하는 비즈니스용 Skype 토폴로지와 관련이 있습니다.
+MA가 사용 하는 비즈니스용 Skype 토폴로지와 관련 된 두 대의 서버 응용 프로그램 및 Microsoft 365 또는 Office 365 작업에는 두 가지가 있습니다.
 
 - 온-프레미스 비즈니스용 Skype 서버 (CU 5)
 
@@ -93,7 +93,7 @@ MA의 또 다른 중요 한 부분은 사용자의 인증 (인증) 및 인증 (�
 |혼합 3  <br/> |![지원 되는 MA, SFB, EXO with MA 및 EXO 및 SFB on 온-프레미스](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> 사용자 홈/사서함 위치: EXO + SFB 또는 EXO + SFB  <br/> |이 토폴로지에서 SFB MA 기능을 사용할 수 없음  <br/> |SFB에 대 한 MA 기능이 없습니다.  <br/> |
 |혼합 4  <br/> |![지원 되는 MA, SFB, SFBO 및 EXCH 및 SFB](../../media/8971bfaf-961f-476c-b16e-5418d1fa0a6d.PNG)           <br/> 사용자 홈/사서함 위치: EXCH + SFBO 또는 EXCH + SFB  <br/> |SFBO에 대해 MA가 설정 되어 있으므로 인증 서버는 SFBO에 속한 사용자의 Azure AD입니다. SFB의 프레미스 사용자 및 EXO AD 사용  <br/> |온라인 사용자만 Intune을 사용 하는 MFA, CBA, CA/MAM\*  <br/> |
 |혼합 5  <br/> |![지원 되는 MA의 SFB, EXO with MA 및 SFBO with MA 및 SFB 온-프레미스입니다.](../../media/ecc366cf-1a7b-4ad1-bf8e-57111b8ad94f.PNG)           <br/> 사용자 홈/사서함 위치: EXO + SFBO, EXO + SFB, EXO + SFBO 또는 EXO + SFB  <br/> |MA가 EXO 및 SFBO 둘 다에 설정 되어 있으므로 인증 서버는 SFBO에 있는 사용자의 Azure AD입니다. EXCH 및 SFB에서 AD를 사용 하는 프레미스 사용자  <br/> |온라인 사용자만 Intune을 사용 하는 MFA, CBA, CA/MAM\*  <br/> |
-|혼합 6  <br/> |![혼합 6 토폴로지에서는 최신 인증이 최신 인증과 함께 제공 되는 경우 이상적인 situtation 인 네 가지 possibile 위치 모두에 있습니다.](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> 사용자 홈/사서함 위치: EXO + SFBO, EXO + SFB, EXO + SFBO 또는 EXO + SFB  <br/> |MA는 모든 위치에서 설정 되므로 인증 서버는 모든 사용자에 대해 Azure AD입니다. (온라인 및 온-프레미스)  <br/>  배포 단계 [https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview) 는를 참조 하세요. <br/> |모든 사용자에 대 한 MFA, CBA 및 CA/MAM (Intune을 통해)  <br/> |
+|혼합 6  <br/> |![혼합 6 토폴로지에서는 최신 인증이 최신 인증과 함께 제공 되는 경우 이상적인 situtation 인 네 가지 possibile 위치 모두에 있습니다.](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> 사용자 홈/사서함 위치: EXO + SFBO, EXO + SFB, EXO + SFBO 또는 EXO + SFB  <br/> |MA는 모든 위치에서 설정 되므로 인증 서버는 모든 사용자에 대해 Azure AD입니다. (온라인 및 온-프레미스)  <br/>  [https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview)배포 단계는를 참조 하세요. <br/> |모든 사용자에 대 한 MFA, CBA 및 CA/MAM (Intune을 통해)  <br/> |
 
 \*-MFA에는 Windows 데스크톱, MAC, iOS, Android 장치 및 Windows phone이 포함 되어 있습니다. CBA에는 Windows 데스크톱, iOS 및 Android 장치가 포함 되어 있습니다. Intune을 사용 하는 CA/MAM에는 Android 및 iOS 장치가 포함 됩니다.
 

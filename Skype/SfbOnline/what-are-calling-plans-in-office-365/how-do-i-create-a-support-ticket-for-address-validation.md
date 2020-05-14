@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
-description: 주소 유효성 검사는 Office 365에서 통화 계획을 설정 하는 데 중요 한 역할을 합니다. 응급 응답 서비스에서 사용할 수 있는 긴급 전화 주소를 조직의 사용자에 게 제공 합니다.
-ms.openlocfilehash: dd748a532957790d977b10fc0ec94f7f8af7b910
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 주소 유효성 검사는 통화 계획을 설정 하는 데 중요 한 역할을 합니다. 응급 응답 서비스에서 사용할 수 있는 긴급 전화 주소를 조직의 사용자에 게 제공 합니다.
+ms.openlocfilehash: 86b1658624c9514bc030048b04dd9bd93c4a3306
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769321"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220728"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>주소 유효성 검사에 대 한 지원 티켓을 만들려면 어떻게 하나요?
 
-주소 유효성 검사는 Office 365에서 통화 계획을 설정 하는 데 중요 한 역할을 합니다. 응급 응답 서비스에서 사용할 수 있는 긴급 전화 주소를 조직의 사용자에 게 제공 합니다. 이 작업을 수행 하는 방법은 조직의 규모에 따라 달라 집니다.
+주소 유효성 검사는 통화 계획을 설정 하는 데 중요 한 역할을 합니다. 응급 응답 서비스에서 사용할 수 있는 긴급 전화 주소를 조직의 사용자에 게 제공 합니다. 이 작업을 수행 하는 방법은 조직의 규모에 따라 달라 집니다.
 
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
@@ -46,9 +46,9 @@ ms.locfileid: "41769321"
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>150 사용자가 넘는 조직의 경우 긴급 주소의 유효성을 검사 하는 서비스 요청 만들기
 
-1. 회사 또는 학교 계정으로 Office 365에 관리자로 로그인 합니다.
+1. 회사 또는 학교 계정으로 Microsoft 365 또는 Office 365에 관리자로 로그인 합니다.
     
-2. 관리 센터의 왼쪽 탐색 창에서**새 서비스 요청** **지원을** > 클릭 합니다.
+2. 관리 센터의 왼쪽 탐색 창에서 **Support**  >  **새 서비스 요청**지원을 클릭 합니다.
     
 3. **서비스 요청**에서 **추가**를 클릭 합니다.
     
@@ -73,7 +73,7 @@ ms.locfileid: "41769321"
       - 국가 또는 지역
     
      > [!IMPORTANT]
-     > **전화 번호를 할당할 때 긴급 주소의 유효성을 검사 하려고 하는 Office 365에서 전화 요금제를 제공 하는 국가/지역을 저장 합니다.**
+     > **전화 번호를 할당할 때 긴급 주소를 확인 하려는 전화 요금제를 제공 하는 국가/지역을 저장 합니다.**
   
       - 우편 번호 또는 우편 번호
     

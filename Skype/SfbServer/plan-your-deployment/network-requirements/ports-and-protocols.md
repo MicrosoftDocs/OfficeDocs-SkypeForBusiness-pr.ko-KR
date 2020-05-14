@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '요약: 비즈니스용 Skype 서버를 구현 하기 전에 포트 사용 고려 사항을 검토 합니다.'
-ms.openlocfilehash: 33199855d020af08e306022be47a0a9757125adb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 09b0d187195faa0aa4b5278456991d9223427f9d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42025789"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220388"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>서버에 대 한 포트 및 프로토콜 요구 사항
  
@@ -34,7 +34,7 @@ ms.locfileid: "42025789"
   
 [비즈니스용 Skype 서버 2015 문서에서 기술 다이어그램](../../technical-diagrams.md) 으로부터 연결 된 프로토콜 워크 로드 포스터를 검토 하 여 다이어그램 양식에서이 테이블의 정보를 찾을 수도 있습니다.
 > [!NOTE]
-> - O365 (비즈니스용 Skype Online)을 구현 하는 경우 [Office 365 url 및 IP 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)를 참조 하세요. 하이브리드 환경에서는이 항목을 참조 하 고 [하이브리드 연결도 계획](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)해야 합니다.
+> - 비즈니스용 Skype Online을 구현 하는 경우 (Microsoft 365 또는 Office 365) [microsoft 365 및 office 365 url 및 IP 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)를 참조 하세요. 하이브리드 환경에서는이 항목을 참조 하 고 [하이브리드 연결도 계획](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)해야 합니다.
 > - 하드웨어 또는 소프트웨어 방화벽을 사용할 수 있으며, 특정 모델이 나 버전이 필요 하지는 않습니다. 방화벽에서 비즈니스용 Skype 서버의 기능을 손상 시 키 지 않도록 어떤 포트를 프록시의 허용 목록 하는 것이 중요 합니다.
   
 ## <a name="port-and-protocol-details"></a>포트 및 프로토콜 세부 정보
@@ -50,7 +50,7 @@ ms.locfileid: "42025789"
   
 **필요한 서버 포트(서버 역할별)**
 
-|서버 역할|서비스 이름|포트|프로토콜로|Notes|
+|서버 역할|서비스 이름|포트|Protocol(프로토콜)|Notes|
 |:-----|:-----|:-----|:-----|:-----|
 |모든 서버  |SQL Browser  |1434  |P  |중앙 관리 저장소 데이터베이스의 복제 된 로컬 복사본에 대 한 SQL 브라우저입니다.  |
 |프런트 엔드 서버  |비즈니스용 Skype 서버 프런트 엔드 서비스  |5060  |TCP  |필요에 따라 Standard Edition Server 및 프런트 엔드 서버에서 원격 호출 제어 서버와 같은 트러스트된 서비스에 대한 고정 경로에 사용합니다.  |
@@ -107,13 +107,13 @@ ms.locfileid: "42025789"
 |영구 채팅 프런트 엔드 서버  |영구 채팅 파일 전송 서비스  |443  |TCP(TLS)  ||
    
 > [!NOTE]
-> 일부 원격 통화 제어 시나리오의 경우 프런트 엔드 서버 또는 디렉터 및 PBX 간 TCP 연결이 필요합니다. 비즈니스용 Skype 서버에서 더 이상 TCP 포트 5060을 사용 하지 않지만 원격 통화 제어 배포 중에는 RCC Line Server FQDN을 프런트 엔드 서버 또는 디렉터에 연결 하는 데 사용할 TCP 포트에 연결 하는 신뢰할 수 있는 서버 구성을 만듭니다. PBX 시스템 자세한 내용은 비즈니스용 Skype 서버 관리 셸 설명서에서 **CsTrustedApplicationComputer** cmdlet을 참조 하십시오.
+> 일부 원격 통화 제어 시나리오의 경우 프런트 엔드 서버 또는 디렉터 및 PBX 간 TCP 연결이 필요합니다. 비즈니스용 Skype 서버에서 더 이상 TCP 포트 5060을 사용 하지 않지만 원격 통화 제어 배포 중에는 RCC Line Server FQDN을 프런트 엔드 서버 또는 디렉터가 PBX 시스템에 연결 하는 데 사용할 TCP 포트와 연결 하는 신뢰할 수 있는 서버 구성을 만듭니다. 자세한 내용은 비즈니스용 Skype 서버 관리 셸 설명서에서 **CsTrustedApplicationComputer** cmdlet을 참조 하십시오.
   
 다음 표에서는 하드웨어 부하 분산만 사용하는 풀(DNS 부하 분산 사용 안 함)의 경우 하드웨어 부하 분산 장치를 열어야 하는 포트를 보여 줍니다.
   
 **하드웨어 부하 분산만 사용하는 경우 하드웨어 부하 분산 장치 포트**
 
-|부하 분산 장치|포트|프로토콜로|
+|부하 분산 장치|포트|Protocol(프로토콜)|
 |:-----|:-----|:-----|
 |프런트 엔드 서버 부하 분산 장치  |5061  |TCP(TLS)  |
 |프런트 엔드 서버 부하 분산 장치  |444  |H  |
@@ -140,7 +140,7 @@ DNS 부하 분산을 사용하는 프런트 엔드 풀 및 디렉터 풀에는 �
   
 **DNS 부하 분산을 사용하는 경우 하드웨어 부하 분산 장치 포트**
 
-|부하 분산 장치|포트|프로토콜로|
+|부하 분산 장치|포트|Protocol(프로토콜)|
 |:-----|:-----|:-----|
 |프런트 엔드 서버 부하 분산 장치  |80  |HTTP  |
 |프런트 엔드 서버 부하 분산 장치  |443  |H  |
@@ -151,7 +151,7 @@ DNS 부하 분산을 사용하는 프런트 엔드 풀 및 디렉터 풀에는 �
 
 **필요한 클라이언트 포트**
 
-|구성 요소|포트|프로토콜로|Notes|
+|구성 요소|포트|Protocol(프로토콜)|Notes|
 |:-----|:-----|:-----|:-----|
 |클라이언트  |67/68  |서버의  |비즈니스용 Skype 서버에서 등록자 FQDN을 찾는 데 사용 됩니다 (즉, DNS SRV에 오류가 발생 하 여 수동 설정이 구성 되지 않은 경우).  |
 |클라이언트  |443  |TCP(TLS)  |외부 사용자 액세스의 클라이언트-서버 SIP 트래픽에 사용됩니다.  |
@@ -182,7 +182,7 @@ IPsec (인터넷 프로토콜 보안) (IETF RFC 4301-4309 참조)이 배포 된 
   
 **권장 IPsec 예외**
 
-|규칙 이름|원본 IP|대상 IP|프로토콜로|원본 포트|대상 포트|인증 요구 사항|
+|규칙 이름|원본 IP|대상 IP|Protocol(프로토콜)|원본 포트|대상 포트|인증 요구 사항|
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |A/V에 지 서버 내부 인바운드  |모두  |A/V에 지 서버 내부  |UDP 및 TCP  |모두  |모두  |인증 안 함  |
 |A/V에 지 서버 외부 인바운드  |모두  |A/V에 지 서버 외부  |UDP 및 TCP  |모두  |모두  |인증 안 함  |

@@ -1,5 +1,5 @@
 ---
-title: 클라우드 커넥터 에디션에 미디어 바이패스 계획
+title: 클라우드 커넥터 버전에서 미디어 바이패스 계획
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Cloud Connector Edition 버전 2.0 이상에서 미디어 바이패스를 구현 하기 위한 계획 고려 사항을 검토 하려면이 항목을 읽어 보십시오. 미디어 바이패스를 배포 하는 방법에 대 한 자세한 내용은 Cloud Connector Edition에서 미디어 바이패스 배포를 참조 하세요.
-ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 568fa13584a44540d8351ea2eb32475c1d276ff7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778784"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220258"
 ---
-# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>클라우드 커넥터 에디션에 미디어 바이패스 계획
+# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>클라우드 커넥터 버전에서 미디어 바이패스 계획
  
 Cloud Connector Edition 버전 2.0 이상에서 미디어 바이패스를 구현 하기 위한 계획 고려 사항을 검토 하려면이 항목을 읽어 보십시오. 미디어 바이패스를 배포 하는 방법에 대 한 자세한 내용은 [Cloud Connector Edition에서 미디어 바이패스 배포](deploy-media-bypass-in-cloud-connector.md)를 참조 하세요.
   
@@ -37,7 +37,7 @@ Cloud Connector Edition 버전 2.0 이상에서 미디어 바이패스를 구현
 
 신호 신호가 미디어 바이패스를 포함 하거나 사용 하지 않고 같은 경로를 사용 하는 경우 미디어 흐름은 서로 다릅니다. 다음 다이어그램에서는 미디어 바이패스를 포함 하는 토폴로지와 없는 토폴로지의 미디어 및 신호 경로를 보여 줍니다. 
   
-예를 들어 미디어 바이패스를 사용 하지 않는 다음 토폴로지에서 (비즈니스용 Skype 클라이언트)는 외부 번호로 PSTN 전화를 걸어 SIP 신호가 Office 365로 이동 하 고, Office 365가 최종 사용자 음성 정책에 따라 신호 트래픽을 전달 합니다. 클라우드 커넥터 사용자는 음성 정책이 클라우드 커넥터에 지 서버에 신호 트래픽을 전달 하 고, 그러면 클라우드 커넥터 중재 서버를 통해 신호 트래픽을 SBC (PSTN 세션 경계 컨트롤러) 또는 게이트웨이로 라우팅합니다. 다음 다이어그램에 나와 있는 것 처럼 비즈니스용 Skype 클라이언트에서 클라우드 커넥터 중재 서버로 이동 하 고 SBC 또는 게이트웨이로 흐릅니다.
+예를 들어 미디어 바이패스를 사용 하지 않는 다음 토폴로지에서 (비즈니스용 Skype 클라이언트)는 외부 번호로 PSTN 전화를 걸어 SIP 신호가 Microsoft 365 또는 Office 365로 이동 하 여 최종 사용자 음성 정책에 따라 신호 트래픽을 지시 합니다. 클라우드 커넥터 사용자는 음성 정책이 클라우드 커넥터에 지 서버에 신호 트래픽을 전달 하 고, 그러면 클라우드 커넥터 중재 서버를 통해 신호 트래픽을 SBC (PSTN 세션 경계 컨트롤러) 또는 게이트웨이로 라우팅합니다. 다음 다이어그램에 나와 있는 것 처럼 비즈니스용 Skype 클라이언트에서 클라우드 커넥터 중재 서버로 이동 하 고 SBC 또는 게이트웨이로 흐릅니다.
   
 **미디어 바이패스 없이 미디어 및 신호 경로**
 
@@ -59,7 +59,7 @@ PSTN 으로부터의 인바운드 통화는 역방향 방향으로 동일한 신
 
 ![클라우드 커넥터 멀티 사이트 예제](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. SIP 트래픽이 취리히 정규의 사용자에서 Office 365로 흐릅니다.
+1. SIP 트래픽은 취리히 정규의 사용자에서 Microsoft 365 또는 Office 365로 흐릅니다.
     
 2. 그런 다음이 트래픽은 사용자 음성 라우팅 정책에 지정 된 암스테르담의 클라우드 커넥터 기기로 라우팅합니다.
     

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 온라인 원격 분석 도구를 사용 하 여 하이브리드 시나리오에서 온-프레미스 구현을 모니터링 하는 방법에 대해 간략하게 설명 합니다.
-ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779664"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221318"
 ---
 # <a name="plan-call-data-connector"></a>통화 데이터 커넥터 계획
 
@@ -60,12 +60,12 @@ Call Data Connector를 사용 하는 경우 비즈니스용 Skype 서버는 다�
 
 - 하이브리드 연결을 사용 합니다. 비즈니스용 Skype 서버가 이미 배포 되어 있고 통화 데이터 커넥터를 사용 하도록 설정 하려는 경우 온-프레미스 및 온라인 환경 간에 하이브리드 연결이 설정 되어 있는지 확인 해야 합니다. 이를 분할 도메인 구성 이라고 합니다.
 
-   자세한 내용은 비즈니스용 [Skype 서버 및 office 365의 하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [비즈니스용 Skype 서버 및 office 365 간의 하이브리드 연결 구성을](configure-hybrid-connectivity.md)참조 하세요.
+   자세한 내용은 비즈니스용 [Skype 서버 및 microsoft 365 또는 office 365 간의 하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [비즈니스용 Skype 서버와 Microsoft 365 또는 office 365 간의 하이브리드 연결 구성](configure-hybrid-connectivity.md)를 참조 하세요.
 
-- Office 365 조직에 인증 하 고 다음 역할을 사용 하도록 설정 했는지 확인 합니다.
+- Microsoft 365 또는 Office 365 조 직에 인증 하 고 다음 역할을 사용 하도록 설정 했는지 확인 합니다.
 
   - 비즈니스용 Skype 서버 관리자
-  - 전역 관리자
+  - Microsoft 365 또는 Office 365 전역 관리자
 
 - 아직 수행 하지 않은 경우 [Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용](/microsoftteams/turning-on-and-using-call-quality-dashboard)에 설명 된 대로 통화 품질 대시보드를 켜십시오.
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '요약: IT 전문가는 비즈니스용 Skype 서버에 대 한 계획을 진행 하는 동안 비즈니스용 Skype 웹 앱 및 Skype 모임 앱에 대 한 지원 요구 사항을 검토 해야 합니다. 이 문서는 이러한 앱의 사용자를 위한 것이 아닙니다.'
-ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30397c922dbc5bb8578714d70712f90d7e14ca4c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777793"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221048"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>모임 클라이언트 계획 (웹 앱 및 모임 앱)
  
@@ -33,14 +33,14 @@ ms.locfileid: "43777793"
 나중에 해당 사용자는 모임을 만들고 조직 외부에서 사용자를 초대할 수 있으며, 이러한 모임 초대 대 상자에는 비즈니스용 Skype 클라이언트 버전이 없을 수도 있습니다. 사용자가 모임 초대에 대 한 URL을 클릭 하는 경우에는 클라이언트 부재를 감지 하 고 비즈니스용 Skype 클라이언트가 없는 초대 대 상자에서 모임에 참가할 수 있도록 경량 모임 전용 클라이언트를 다운로드 하 여 설치 하 라는 메시지가 표시 됩니다.
   
 > [!NOTE]
-> 비즈니스용 skype 웹 앱 및 Skype 모임 앱은 비즈니스용 Skype 없이 모임에 로그인 하려고 할 때만 사용할 수 있습니다. 이러한 앱에 대 한 사용자 도움말 [https://aka.ms/smahelp](https://aka.ms/smahelp)은에 있습니다. 
+> 비즈니스용 skype 웹 앱 및 Skype 모임 앱은 비즈니스용 Skype 없이 모임에 로그인 하려고 할 때만 사용할 수 있습니다. 이러한 앱에 대 한 사용자 도움말은에 [https://aka.ms/smahelp](https://aka.ms/smahelp) 있습니다. 
   
 > [!NOTE]
 > 비즈니스용 Skype 웹 앱 이나 Skype 모임 앱을 미리 설치할 수는 없지만 [스마트 전화](https://products.office.com/skype-for-business/download-app?tab=tabs-1) 및 [태블릿](https://products.office.com/skype-for-business/download-app?tab=tabs-2) 사용자가 회의에 참석할 때 사용할 수 있는 저렴 한 모바일 클라이언트를 설치할 수도 있습니다.
   
 기본적으로 모임을 호스트 하는 서버는 회의에 참가 하기 위해 비즈니스용 Skype Web App을 다운로드 하 고 설치 하도록 사용자에 게 지시 합니다. 비즈니스용 Skype 웹 앱이 프런트 엔드 서버에 저장 되 고 모임 참석자에 게 전송 됩니다. 
   
-비즈니스용 Skype 서버에서 비즈니스용 skype 모임 앱 (Windows) 및 비즈니스용 Skype (Mac)는 CU5로 시작 하는 비즈니스용 Skype 웹 앱에 대 한 교체로 사용할 수 있지만 교체 앱을 제공 [하려면 Skype 모임 앱에서 비즈니스용 Skype 웹 앱 교체](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)에 설명 된 추가 구성이 필요 합니다 (선택 사항).  비즈니스용 skype 모임 앱 및 Mac 용 비즈니스용 Skype를 사용 하는 경우 사용자는 비즈니스용 Skype 서버가 아닌 Office 365 CDN (콘텐츠 배달 네트워크)에서 최신 버전의 앱을 다운로드 합니다. 비즈니스용 Skype 서버 2019의 경우 Skype 모임 앱과 Mac 용 비즈니스용 Skype를 사용 하는 것이 유일한 옵션입니다.
+비즈니스용 Skype 서버에서 비즈니스용 skype 모임 앱 (Windows) 및 비즈니스용 Skype (Mac)는 CU5로 시작 하는 비즈니스용 Skype 웹 앱에 대 한 교체로 사용할 수 있지만 교체 앱을 제공 [하려면 Skype 모임 앱에서 비즈니스용 Skype 웹 앱 교체](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)에 설명 된 추가 구성이 필요 합니다 (선택 사항). 비즈니스용 skype 모임 앱 및 Mac 용 비즈니스용 Skype를 사용 하는 경우 사용자는 비즈니스용 Skype 서버가 아니라 Microsoft 365 또는 Office 365 CDN (콘텐츠 배달 네트워크)에서 최신 버전의 앱을 다운로드 합니다. 비즈니스용 Skype 서버 2019의 경우 Skype 모임 앱과 Mac 용 비즈니스용 Skype를 사용 하는 것이 유일한 옵션입니다.
   
 Skype 모임 앱은 앱을 다운로드 및 설치 하 고 모임에 참가할 수 있는 간소화 된 브라우저 환경을 제공 하며, Internet Explorer 사용자를 위해 한 번 클릭 참가 등을 포함 합니다. 또한 안정성과 모임 환경을 위해 비즈니스용 Skype Web App에 비해 많은 향상 된 skype 모임 앱이 제공 됩니다. 
   
@@ -56,7 +56,7 @@ Skype 모임 앱은 앱을 다운로드 및 설치 하 고 모임에 참가할 �
 
 | 운영 체제 | 면 | 32-및 64 비트 Internet Explorer 11 이상 | 32-및 64 비트 Internet Explorer 10 이상 | 32-및 64 비트 Internet Explorer 9 이상 | 32 및 64 비트 버전의 Safari 6.2.8-11. X | 32 및 64 비트 버전의 Chrome 18.x 이상 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
+|Windows 10  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |해당 없음  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음 <br/> |예 &#x2778; <br/> |
 |Windows 8 (Intel 기반) &#x2776; <br/> |해당 없음  <br/> |해당 없음  <br/> |예  <br/> |해당 없음 <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
 |Windows 7-SP1 &#x2777; <br/> |해당 없음  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |해당 없음 <br/>|예 &#x2778; <br/> |
@@ -130,7 +130,7 @@ Mac 용 비즈니스용 Skype는 macOS 버전 10.8 이상을 사용 하는 컴�
 |설문 진행  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |다른 사용자와 공유할 파일 업로드  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |모임 또는 회의 예약  <br/> |Outlook 또는 비즈니스용 Skype 웹 스케줄러  <br/> |Outlook 또는 비즈니스용 Skype 웹 스케줄러  <br/> |비즈니스용 Skype 웹 스케줄러  <br/> |비즈니스용 Skype 웹 스케줄러  <br/> |비즈니스용 Skype 웹 스케줄러  <br/> |
-|Q&amp;A 관리자  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Q &amp; A 관리자  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |참석자 비디오 사용 안 함  <br/> |&#x2714;|||||
 |모임 메신저 사용 안 함  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |대상 그룹 음소거  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|

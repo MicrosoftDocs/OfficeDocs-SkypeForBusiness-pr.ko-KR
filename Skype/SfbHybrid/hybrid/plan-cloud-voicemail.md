@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 이 문서에서는 Microsoft Cloud 음성 메일 서비스를 구현 하기 위한 혜택, 계획 고려 사항 및 요구 사항에 대해 설명 합니다. 클라우드 음성 메일을 구성 하는 방법에 대 한 자세한 내용은 클라우드 음성 메일 구성을 참조 하세요.
-ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
-ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
+ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210634"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221288"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 계획
 
@@ -31,7 +31,7 @@ ms.locfileid: "44210634"
 
 - 비즈니스용 Skype 온라인 또는 Outlook 클라이언트를 사용 하 여 사용자의 Exchange 사서함에 있는 음성 메일에 액세스
 
-- Office 365 웹 기반 포털을 사용 하 여 음성 메일 옵션을 관리 하는 기능
+- Microsoft 365 관리 센터를 사용 하 여 음성 메일 옵션을 관리 하는 기능
 
 - 온-프레미스 또는 클라우드에서 Exchange 사서함 지원
 
@@ -46,7 +46,7 @@ ms.locfileid: "44210634"
 - Exchange UM 역할을 구성할 필요가 없습니다.
 - 클라우드 음성 메일의 설치 작업은 더 간단 합니다.
 - 음성 메일 기능에 대 한 업데이트는 클라우드에서 직접 배달 되므로 사용자는 CUs (누적 업데이트)에 대 한 종속성이 낮아 최신 기능 및 업데이트에 항상 액세스할 수 있습니다.
-- 온-프레미스 및 온라인 Exchange 사서함 둘 다에 대해 동일한 컨트롤 집합을 사용 합니다. 이러한 컨트롤에 대 한 자세한 내용은 [전화 시스템 음성 메일 설정을](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US)참조 하십시오.
+- 온-프레미스 및 온라인 Exchange 사서함 둘 다에 대해 동일한 컨트롤 집합을 사용 합니다. 이러한 컨트롤에 대 한 자세한 내용은 [전화 시스템 음성 메일 설정을](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d)참조 하십시오.
 
 다음 다이어그램에서는 하이브리드 배포의 클라우드 음성 메일을 보여 줍니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "44210634"
 
 - 하이브리드 연결 비즈니스용 Skype 서버가 이미 배포 되어 있고 온-프레미스 사용자가 클라우드 음성 메일을 사용 하도록 설정 하려는 경우 온-프레미스 및 온라인 환경 간에 하이브리드 연결이 설정 되어 있는지 확인 해야 합니다. 이를 분할 도메인 구성 이라고 합니다.
 
-   자세한 내용은 비즈니스용 [Skype 서버 및 office 365의 하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [비즈니스용 Skype 서버 및 office 365 간의 하이브리드 연결 구성을](configure-hybrid-connectivity.md)참조 하세요.
+   자세한 내용은 비즈니스용 [Skype 서버 및 Microsoft 365 또는 office 365 간의 하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [비즈니스용 Skype 서버 및 office 365 하이브리드 연결 구성](configure-hybrid-connectivity.md)를 참조 하세요.
 
 - 비즈니스용 Skype 서버에서 Enterprise Voice 및 호스팅된 음성 메일을 사용 하도록 설정 해야 합니다.
 

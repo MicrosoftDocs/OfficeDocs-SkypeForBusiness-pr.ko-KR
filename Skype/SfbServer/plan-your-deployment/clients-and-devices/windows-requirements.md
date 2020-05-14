@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: '요약: 비즈니스용 Skype 서버를 계획 하는 동안 Windows 클라이언트 지원 요구 사항을 검토 합니다.'
-ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 67208fc25344ff417094419f22068822e03b13db
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928241"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219828"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 클라이언트 요구 사항 및 소프트웨어 지원
  
 **요약:** 비즈니스용 Skype 서버를 계획 하는 동안 Windows 클라이언트 지원 요구 사항을 검토 합니다.
   
-이 섹션에서는 비즈니스용 Skype Windows 클라이언트를 지 원하는 데 필요한 소프트웨어를 요약 하 여 설명 합니다.  이러한 클라이언트는 Office 365을 설치할 때 설치 되며 [모든 장치에서 비즈니스용 Skype 다운로드](https://products.office.com/skype-for-business/download-app?tab=tabs-3)에서도 사용할 수 있습니다.
+이 섹션에서는 비즈니스용 Skype Windows 클라이언트를 지 원하는 데 필요한 소프트웨어를 요약 하 여 설명 합니다. 이러한 클라이언트는 Microsoft 365 또는 Office 365가 설치 될 때 설치 되며 [모든 장치에서 비즈니스용 Skype 다운로드](https://products.office.com/skype-for-business/download-app?tab=tabs-3)에서도 사용할 수 있습니다.
   
 > [!NOTE]
 > Outlook 메시징 및 공동 작업 클라이언트 내에서 모임 관리를 지 원하는 비즈니스용 Skype에 대 한 온라인 모임 추가 기능이 비즈니스용 Skype를 통해 자동으로 설치 됩니다. 
@@ -45,7 +45,7 @@ ms.locfileid: "42928241"
    
 ## <a name="hardware"></a>하드웨어
 
-비즈니스용 Skype 클라이언트를 실행 하는 데 필요한 하드웨어에 대 한 Office 365 [시스템 요구 사항을](https://products.office.com/office-system-requirements) 참조 하세요.
+비즈니스용 Skype 클라이언트를 실행 하는 데 필요한 하드웨어에 대 한 Microsoft 365 및 Office [시스템 요구 사항을](https://products.office.com/office-system-requirements) 참조 하세요.
   
 ## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype 모임 앱 및 비즈니스용 Skype Web App 
 
@@ -81,4 +81,4 @@ Windows Phone 용 비즈니스용 Skype는 smartphone 또는 Windows Professiona
 
 [모든 장치에서 비즈니스용 Skype 다운로드](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Office 365 시스템 요구 사항](https://products.office.com/office-system-requirements)
+[Microsoft 365 및 Office 시스템 요구 사항](https://products.office.com/office-system-requirements)

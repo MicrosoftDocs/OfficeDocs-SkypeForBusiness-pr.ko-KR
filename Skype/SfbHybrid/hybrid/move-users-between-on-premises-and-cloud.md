@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 하이브리드를 사용할 수 있는 비즈니스용 Skype 서버의 온-프레미스 배포에서 온-프레미스 환경과 클라우드 간에 사용자를 이동할 수 있습니다 (Microsoft 팀 또는 비즈니스용 Skype Online)...'
-ms.openlocfilehash: aea3bed7db6c7821d957aa0e6d56cbafd548edb7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: eede6062bd9d03a2d9d6062a6dacb861ce37e14c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780087"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221128"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>온-프레미스와 클라우드 간에 사용자 이동
 
@@ -41,8 +41,8 @@ ms.locfileid: "43780087"
 - 조직에서 azure ad connect를 올바르게 구성 했으며 [AZURE Ad Connect 구성](configure-azure-ad-connect.md)에 설명 된 대로 사용자에 대 한 모든 관련 특성을 동기화 해야 합니다.
 - 비즈니스용 [skype 하이브리드 구성](configure-federation-with-skype-for-business-online.md)에 설명 된 대로 비즈니스용 skype 하이브리드를 구성 해야 합니다.
 - 사용자에게 비즈니스용 Skype Online(플랜 2)에 대한 라이선스를 할당해야 하며, Teams를 사용 하는 경우에는 Teams 라이선스도 있어야 합니다.  또한 다음을 수행합니다.
-    - 사용자가 온-프레미스에서 전화 접속 회의를 사용 하도록 설정 된 경우에는 기본적으로 사용자가 온라인으로 이동을 실행 하기 전에 Office 365에서 음성 회의 라이선스를 할당 받아야 합니다. 클라우드로 마이그레이션된 후 사용자는 클라우드에서의 오디오 회의를 위한 준비를 하게 됩니다. 일부 이유로 사용자를 클라우드로 이동 하 되 오디오 회의 기능을 사용 하지 않으려는 경우에는 `BypassAudioConferencingCheck` 에서 `Move-CsUser`매개 변수를 지정 하 여이 검사를 다시 정의할 수 있습니다.
-    - 온-프레미스에서 Enterprise Voice를 사용 하도록 설정 된 경우 사용자를 온라인으로 이동 하기 전에 기본적으로 사용자에 게 Office 365에서 전화 시스템 라이선스가 할당 되어 있어야 합니다. 클라우드로 마이그레이션된 후 사용자는 클라우드에서의 전화 시스템을 위한 준비를 하게 됩니다. 일부 이유로 사용자를 클라우드로 이동 해야 하지만 전화 시스템 기능을 사용 하지 않으려는 경우에는 `BypassEnterpriseVoiceCheck`에서 `Move-CsUser`매개 변수를 지정 하 여이 검사를 다시 정의할 수 있습니다.
+    - 사용자가 온-프레미스에서 전화 접속 회의를 사용 하도록 설정 된 경우에는 기본적으로 사용자가 온라인으로 이동을 실행 하기 전에 Microsoft 365 또는 Office 365에 할당 된 음성 회의 라이선스도 있어야 합니다. 클라우드로 마이그레이션된 후 사용자는 클라우드에서의 오디오 회의를 위한 준비를 하게 됩니다. 일부 이유로 사용자를 클라우드로 이동 하 되 오디오 회의 기능을 사용 하지 않으려는 경우 `BypassAudioConferencingCheck` 에는에서 매개 변수를 지정 하 여이 검사를 다시 정의할 수 있습니다 `Move-CsUser` .
+    - 온-프레미스에서 Enterprise Voice를 사용 하도록 설정 된 경우 사용자를 온라인으로 이동 하기 전에 기본적으로 사용자는 Microsoft 365 또는 Office 365에서 전화 시스템 라이선스를 할당 받아야 합니다. 클라우드로 마이그레이션된 후 사용자는 클라우드에서의 전화 시스템을 위한 준비를 하게 됩니다. 일부 이유로 사용자를 클라우드로 이동 해야 하지만 전화 시스템 기능을 사용 하지 않으려는 경우 `BypassEnterpriseVoiceCheck` 에는에서 매개 변수를 지정 하 여이 검사를 다시 정의할 수 있습니다 `Move-CsUser` .
 
 
 ## <a name="moving-users"></a>사용자 이동
@@ -62,13 +62,13 @@ ms.locfileid: "43780087"
 
 ## <a name="required-administrative-credentials"></a>필수 관리 자격 증명
 
-온-프레미스와 클라우드 간에 사용자를 이동 하려면 Office 365 조직 뿐만 아니라 온-프레미스 비즈니스용 Skype 서버 환경 둘 다에서 충분 한 권한이 있는 계정을 사용 해야 합니다. 모든 필수 권한이 있는 하나의 계정을 사용하거나 두 개의 계정을 사용할 수 있으며 이러한 경우 온-프레미스 도구에 온-프레미스 자격 증명을 사용하여 액세스한 후 이들 도구에서 Office 365 관리 계정에 대한 추가 자격 증명을 제공합니다.  
+온-프레미스와 클라우드 간에 사용자를 이동 하려면 Microsoft 365 또는 Office 365 조 직과 함께 온-프레미스 비즈니스용 Skype 서버 환경 둘 다에서 충분 한 권한이 있는 계정을 사용 해야 합니다. 필요한 권한을 모두 포함 하는 하나의 계정을 사용 하거나, 두 계정을 사용 하 여 온-프레미스 자격 증명을 사용 하는 온-프레미스 도구에 액세스 한 다음 해당 도구에서 Microsoft 365 또는 Office 365 관리 계정에 대 한 추가 자격 증명을 제공할 수 있습니다.  
 
 - 온-프레미스 환경에서 이동을 수행하는 사용자는 비즈니스용 Skype 서버에서 CSServerAdminstrator 역할이 있어야 합니다.
-- Office 365에서 이동을 수행하는 사용자는 전역 관리자이거나 비즈니스용 Skype 관리자와 사용자 관리자 역할이 모두 있어야 합니다.  
+- Microsoft 365 및 Office 365에서는 이동 작업을 수행 하는 사용자가 전역 관리자 이거나 비즈니스용 Skype 관리자 및 사용자 관리자 역할을 모두가지고 있어야 합니다.  
 
     > [!Important]
-    > - 비즈니스용 Skype 관리 제어판을 사용 하는 경우에는 위에서 설명한 대로 적절 한 역할을 가진 Office 365 계정에 대 한 자격 증명을 제공 하 라는 메시지가 표시 됩니다. Onmicrosoft.com로 끝나는 계정을 제공 해야 합니다. 이것이 가능 하지 않으면 CsUser cmdlet을 사용 합니다.
+    > - 비즈니스용 Skype 관리 제어판을 사용 하는 경우에는 위에서 설명한 대로 적절 한 역할을 갖는 Microsoft 365 또는 Office 365 계정에 대 한 자격 증명을 제공 하 라는 메시지가 표시 됩니다. Onmicrosoft.com로 끝나는 계정을 제공 해야 합니다. 이것이 가능 하지 않으면 CsUser cmdlet을 사용 합니다.
     >- PowerShell에서 CsUser User를 사용 하는 경우 cmdlet에 HostedMigrationOverrideUrl 매개 변수도 함께 지정 하는 경우에는 Azure AD로 동기화 되는 모든 온-프레미스 계정을 사용할 수 있습니다. 호스팅된 마이그레이션 재정의 URL의 값은 다음 URL의 변형입니다.https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>위의 URL에서 XX를 다음의 두 문자로 바꾸거나 다음과 같이 결정 합니다.
     >   - 비즈니스용 Skype 온라인 PowerShell 세션에서 다음 cmdlet을 실행 합니다.<br>`Get-CsTenant|ft identity`
     >    - 결과 값의 형식은 다음과 같습니다.<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`

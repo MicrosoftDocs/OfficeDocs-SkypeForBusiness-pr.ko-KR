@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 항목에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157763"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "43580706"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 팀 회의실 유지 관리 및 운영 
  
@@ -31,10 +31,10 @@ Microsoft 팀 대화방은 회의실을 다양 한 공동 작업 환경으로 �
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft 팀 방에 대 한 로그 수집
 <a name="Logs"> </a>
 
-로그를 수집 하려면 Microsoft 팀 대화방 앱과 함께 제공 되는 로그 수집 스크립트를 호출 해야 합니다. 관리 모드에서 관리자 권한 PowerShell 프롬프트를 시작 하 고 다음 명령을 실행 합니다.
+로그를 수집 하려면 Microsoft 팀 대화방 앱과 함께 제공 되는 로그 수집 스크립트를 호출 해야 합니다. 관리 모드에서 관리자 권한 명령 프롬프트를 시작 하 고 다음 명령을 실행 합니다.
   
 ```PowerShell
-c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
+powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
 로그는 c:\rigel.에서 ZIP 파일로 출력 됩니다.
@@ -78,7 +78,7 @@ Microsoft 팀 채팅방이 제대로 실행 되 고 있지 않은 경우 공장 
 |설정|가능|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Microsoft 팀 회의실을 부팅할 수 있도록 설정  <br/> |
-|전원 관리-\> AC, 10 분 후 화면 끄기  <br/> 전원 관리-\> AC, 시스템을 절전 모드로 전환 안 함  <br/> |Microsoft 팀 대화방에서 연결 된 디스플레이를 끄고 자동으로 절전 모드 해제 하도록 설정  <br/> |
+|전원 관리- \> AC, 10 분 후 화면 끄기  <br/> 전원 관리- \> AC, 시스템을 절전 모드로 전환 안 함  <br/> |Microsoft 팀 대화방에서 연결 된 디스플레이를 끄고 자동으로 절전 모드 해제 하도록 설정  <br/> |
 |네트 계정/maxpwage: 무제한  <br/> 또는 동등한 방법으로 로컬 계정에서 암호 만료를 비활성화 합니다. 이 작업을 수행 하지 않으면 결국 Skype 계정에 만료 된 비밀 번호에 대 한 로그온 complaining 실패 하 게 됩니다. 이로 인해 컴퓨터의 모든 로컬 계정에 영향을 줄 수 있으므로이를 설정 하지 않으면 상자의 관리 계정도 결국 만료 됩니다.  <br/> |Skype 계정이 항상 로그인 할 수 있도록 합니다.  <br/> |
    
 그룹 정책을 사용 하 여 파일을 전송 하는 방법에 대해서는 [파일 항목 구성을](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)설명 합니다.
@@ -112,8 +112,8 @@ PowerShell을 사용 하 여 원격으로 다음 관리 작업을 수행할 수 
 1. Microsoft 팀 회의실 장치에서 PowerShell 명령을 실행할 권한이 있는 계정 자격 증명으로 PC에 로그인 합니다.
 2. PC에서 일반 PowerShell 명령 프롬프트를 엽니다.
 3. 아래 표의 명령 텍스트를 복사 하 고 프롬프트에 붙여 넣습니다.
-4. 필드 `<Device fqdn>` 를 사용자 환경에 적합 한 FQDN 값으로 바꿉니다.
-5. * \<경로\> * 를 마스터 SkypeSettings 구성 파일 (또는 테마 이미지)의 파일 이름 및 로컬 경로로 바꿉니다.
+4. `<Device fqdn>`필드를 사용자 환경에 적합 한 FQDN 값으로 바꿉니다.
+5. * \< 경로 \> * 를 마스터 SkypeSettings 구성 파일 (또는 테마 이미지)의 파일 이름 및 로컬 경로로 바꿉니다.
     
 연결 된 장치를 얻으려면
   
@@ -173,11 +173,11 @@ Copy-Item $movefile $targetDevice
 ### <a name="to-update-using-powershell"></a>Powershell을 사용 하 여 업데이트 하려면
 
 1. 설치 [MSI](https://go.microsoft.com/fwlink/?linkid=851168) 에서 장치에 액세스할 수 있는 공유로 패키지를 추출 합니다.
-2. Microsoft 팀 회의실 장치를 대상으로 하는 다음 스크립트를 \<실행\> 하 고 장치 공유에 대 한 공유를 적절 하 게 변경 합니다.
+2. Microsoft 팀 회의실 장치를 대상으로 하는 다음 스크립트를 실행 하 고 \< \> 장치 공유에 대 한 공유를 적절 하 게 변경 합니다.
     
-```PowerShell
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+    ```PowerShell
+    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+    ```
 
 ## <a name="admin-mode-and-device-management"></a>관리 모드 및 장치 관리
 <a name="AdminMode"> </a>

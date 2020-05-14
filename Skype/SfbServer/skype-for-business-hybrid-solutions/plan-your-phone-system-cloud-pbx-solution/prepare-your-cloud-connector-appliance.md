@@ -1,5 +1,5 @@
 ---
-title: 클라우드 커넥터 기기 준비
+title: 클라우드 커넥터 어플라이언스 준비
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 및 사용할 수 있도록 클라우드 커넥터 어플라이언스를 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 클라우드 커넥터 기기를 배포 하 고 전화 시스템 (Cloud PBX)과 함께 사용 하도록 준비 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: d00002719ed8aaac7d0f0fb0e5ceb5722acc289c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779244"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220068"
 ---
-# <a name="prepare-your-cloud-connector-appliance"></a>클라우드 커넥터 기기 준비
+# <a name="prepare-your-cloud-connector-appliance"></a>클라우드 커넥터 어플라이언스 준비
 
-Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 및 사용할 수 있도록 클라우드 커넥터 어플라이언스를 준비 하는 방법을 알아봅니다.
+클라우드 커넥터 기기를 배포 하 고 전화 시스템 (Cloud PBX)과 함께 사용 하도록 준비 하는 방법에 대해 알아봅니다.
 
 이 섹션에서는 비즈니스용 Skype 클라우드 커넥터 버전 설치 파일을 가져오고, 클라우드 커넥터 소프트웨어를 설치 하 고, 클라우드 커넥터 기기를 배포 하기 위해 준비 하는 방법에 대해 설명 합니다. 이 섹션의 모든 단계를 완료 한 후에는 단일 사이트 또는 여러 사이트에 대해 클라우드 커넥터를 배포할 준비가 된 것입니다. 기존 클라우드 커넥터 배포가 있고 아직 클라우드 커넥터 버전 2.1으로 업그레이드 하지 않은 경우 [새 버전의 클라우드 커넥터로 업그레이드를](upgrade-to-a-new-version-of-cloud-connector.md)참조 하세요.
 
@@ -43,7 +43,7 @@ Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 �
 
 ## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>비즈니스용 Skype 클라우드 Connector Edition 설치 관리자 다운로드
 
-1. 클라우드 커넥터 Vm이 실행 될 호스트 서버에서 설치 파일을 다운로드 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)합니다. 
+1. 클라우드 커넥터 Vm이 실행 될 호스트 서버에서 설치 파일을 다운로드 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 합니다. 
 
     > [!IMPORTANT]
     > 설치 하는 동안 추가 파일을 다운로드 하기 때문에 클라우드 커넥터 설치 중에 호스트 서버에서 인터넷에 액세스할 수 있어야 합니다. 
@@ -136,7 +136,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="create-virtual-switches-in-hyper-v-manager"></a>Hyper-v 관리자에서 가상 스위치 만들기
 
-1. **Hyper-v 관리자** > **가상 스위치 관리자**를 열고 **새 가상 스위치 관리자**를 선택 합니다.
+1. **Hyper-v 관리자**  >  **가상 스위치 관리자**를 열고 **새 가상 스위치 관리자**를 선택 합니다.
 
 2. 외부 가상 스위치를 만들고 내부 네트워크 도메인에 연결 된 실제 네트워크 어댑터에 바인딩합니다.
 
@@ -171,7 +171,7 @@ Export-CcConfigurationSampleFile
 
 - **SiteName:** 기본값은 **Site1**입니다. **등록-CcAppliance** 를 실행 하 여 기존 사이트나 새 사이트에 기기를 등록할 때 Cmdlet이 **SiteName** 을 사용 하 여 등록할 사이트를 결정 하므로 클라우드 커넥터를 배포 하기 전에이를 업데이트 해야 합니다.
 
-     새 사이트에 기기를 등록 하려는 경우 **SiteName** 의 값은 고유 하 고 기존 사이트와 달라 야 합니다. 기존 사이트에 기기를 등록 하려는 경우 .ini 파일의 **SiteName** 에 대 한 값이 Office 365 조직 구성에 정의 된 이름과 일치 해야 합니다. 한 사이트에서 다른 사이트로 구성 파일을 복사 하는 경우에는 각 사이트의 **SiteName** 에 해당 하는 값을 적절 하 게 업데이트 해야 합니다.
+     새 사이트에 기기를 등록 하려는 경우 **SiteName** 의 값은 고유 하 고 기존 사이트와 달라 야 합니다. 기존 사이트에 기기를 등록 하려는 경우 .ini 파일의 **SiteName** 에 대 한 값이 Microsoft 365 또는 Office 365 조직 구성에 정의 된 이름과 일치 해야 합니다. 한 사이트에서 다른 사이트로 구성 파일을 복사 하는 경우에는 각 사이트의 **SiteName** 에 해당 하는 값을 적절 하 게 업데이트 해야 합니다.
 
 - **ServerName:** 서버 이름에는 도메인 이름을 포함할 수 없으며 15 자로 제한 해야 합니다.
 
@@ -305,11 +305,11 @@ CceService 계정은 비즈니스용 Skype 클라우드 커넥터 에디션 배�
 
 3. 해당 값을 **Enabled**로 설정 합니다.
 
-## <a name="set-up-your-office-365-organization"></a>Office 365 조직 설정
+## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>Microsoft 365 또는 Office 365 조직 설정
 
-Office 365에서 비즈니스용 Skype 온라인 및 전화 시스템을 사용 하는 Office 365 조직은 필수입니다. 클라우드 커넥터 사용을 시도 하기 전에 테 넌 트가 설정 및 구성 되었는지 확인 합니다.
+비즈니스용 Skype Online 및 전화 시스템을 사용 하는 Microsoft 365 또는 Office 365 조직이 필요 합니다. 클라우드 커넥터 사용을 시도 하기 전에 테 넌 트가 설정 및 구성 되었는지 확인 합니다.
 
-일부 Office 365 설정 단계에서는 TRPS (테 넌 트 원격 PowerShell)를 사용 하 여 Office 365 조직을 구성 해야 합니다. **이를 호스트 서버에 설치 해야 합니다.** 비즈니스용 skype Online 모듈을 다운로드 하는 데에는 Skype for [Business online, Windows PowerShell 모듈](https://www.microsoft.com/download/details.aspx?id=39366)을 들 수 있습니다.
+일부 Microsoft 365 및 Office 365 설치 단계를 수행 하려면 TRPS (테 넌 트 원격 PowerShell)를 사용 하 여 Microsoft 365 또는 Office 365 조 직을 구성 해야 합니다. **이를 호스트 서버에 설치 해야 합니다.** 비즈니스용 skype Online 모듈을 다운로드 하는 데에는 Skype for [Business online, Windows PowerShell 모듈](https://www.microsoft.com/download/details.aspx?id=39366)을 들 수 있습니다.
 
 클라우드 커넥터 온라인 관리를 위한 전용 비즈니스용 Skype 관리자 계정을 만듭니다 (예: CceOnlineManagmentAdministrator). 이 계정은 기기에서 기기를 추가 또는 제거 하거나, 자동 OS 업데이트를 사용 하거나 사용 하지 않도록 설정 하거나, 자동 이진 업데이트를 사용 하거나 사용 하지 않도록 설정 하는 데 사용 됩니다. 이 계정의 암호가 만료 되지 않도록 설정 하 여 만료 될 때마다 서비스에 대해 변경할 필요가 없도록 합니다.
 

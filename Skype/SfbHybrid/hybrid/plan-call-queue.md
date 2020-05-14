@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에서 클라우드 자동 전화 교환을 사용 하는 방법에 대해 간략하게 설명 합니다.
-ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 2186909b3ec905d6ec6d387bcea172d8fb80287c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510797"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221308"
 ---
 # <a name="plan-cloud-call-queues"></a>클라우드 통화 큐 계획
 
@@ -43,7 +43,7 @@ ms.locfileid: "43510797"
 
 - 하이브리드 연결 비즈니스용 Skype 서버가 이미 배포 되어 있고 온-프레미스 사용자에 대해 클라우드 통화 큐를 사용 하도록 설정 하려는 경우 온-프레미스 및 온라인 환경 간에 하이브리드 연결이 설정 되어 있는지 확인 해야 합니다. 이를 분할 도메인 구성 이라고 합니다.
 
-   자세한 내용은 비즈니스용 [Skype 서버 및 office 365의 하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [비즈니스용 Skype 서버 및 office 365 간의 하이브리드 연결 구성을](configure-hybrid-connectivity.md)참조 하세요.
+   자세한 내용은 비즈니스용 [Skype 서버 및 microsoft 365 또는 office 365 간의 하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [비즈니스용 Skype 서버와 Microsoft 365 또는 office 365 간의 하이브리드 연결 구성](configure-hybrid-connectivity.md)를 참조 하세요.
 
 - 리소스 계정에 전화 번호를 할당 하는 경우 이제 비용 무료 전화 시스템 가상 사용자 라이선스를 사용할 수 있습니다. 이렇게 하면 조직 수준의 전화 번호에 전화 시스템 기능이 제공 되며, 자동 전화 교환 및 전화 큐 기능을 만들 수 있습니다.
 
@@ -65,8 +65,8 @@ ms.locfileid: "43510797"
 
 [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[비즈니스용 Skype 서버와 Office 365 간의 하이브리드 연결 플랜](plan-hybrid-connectivity.md)
+[비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365의 하이브리드 연결 계획](plan-hybrid-connectivity.md)
 
-[비즈니스용 Skype 서버 및 Office 365 간 하이브리드 연결 구성](configure-hybrid-connectivity.md)
+[비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간의 하이브리드 연결 구성](configure-hybrid-connectivity.md)
 
 [Microsoft Teams에서 리소스 계정 관리](/MicrosoftTeams/manage-resource-accounts)

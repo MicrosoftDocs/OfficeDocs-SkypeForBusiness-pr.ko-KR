@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Polycom, HP, Mitel에서 비즈니스용 Skype로 작동 하는 휴대폰 및 필요한 라이선스에 대해 알아봅니다. '
-ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784765"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220438"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>비즈니스용 Skype Online 휴대폰 받기
 
 비즈니스용 skype Online은 비즈니스용 Skype 앱을 사용 하는 대신 기존 전화 환경을 보유 하려는 사용자를 위해 데스크톱 전화를 지원 합니다. 이 항목에서는 비즈니스용 Skype Online 및 조직에서 전화를 설정 하는 데 도움이 되는 기타 정보에 사용할 수 있는 전화 및 펌웨어 버전에 대해 설명 합니다.
 
 > [!NOTE]
-> 비즈니스용 Skype는 Microsoft 팀에서 Office 365의 기본 통신 방법으로 느리게 교체 됩니다.  자세한 내용은 [Office 365의 지능형 통신을 위한 새로운 비전을](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) 참조 하세요.
+> 비즈니스용 Skype는 microsoft 365 및 Office 365의 기본 통신 방법으로 Microsoft 팀에서 느리게 교체 됩니다.  자세한 내용은 [Office 365의 지능형 통신을 위한 새로운 비전을](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) 참조 하세요.
 >
 >지원 되는 장치에서 최신 업데이트와 최대한 최신 정보를 얻으려면 [지능형 통신을 위한 Microsoft 팀 장치](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)를 참조 하세요.
   
 ## <a name="supported-phones"></a>지원 되는 전화
   
-Microsoft는 Office 365 및 비즈니스용 Skype 서버의 전화 시스템에 대 한 PIP (파트너 IP 전화 프로그램)를 통해 다양 한 장치를 개발 하 고 인증 하는 Polycom, 옛 Alink 및 오디오 코드와 긴밀히 협력 하 고 있습니다.
+Microsoft는 전화 시스템에 대 한 PIP (파트너 IP 전화 프로그램)를 통해 다양 한 장치를 개발 하 고 인증 하기 위해 Polycom, 옛 Alink, 함께 작동 하는 사람들과 긴밀 하 게 협력 하 고 있습니다.
   
 비즈니스용 Skype에 대해 새 전화를 주문할 때 *올바른 제품 ID*를 사용 하 여 전화를 구입 하는 것이 중요 합니다. 이러한 제품 Id는 수신 하는 전화에 비즈니스용 Skype Online 정식 버전이 이미 설치 되어 있는지 확인 합니다.
   
@@ -64,7 +64,7 @@ Polycom 휴대폰에 대 한 자세한 내용은 [Poly 문서 라이브러리](h
   
 ## <a name="supported-firmware"></a>지원 되는 펌웨어
 
-Office 365에서 지원 되는 전화를 사용 하 여 휴대폰 시스템에서 작업할 때 필요한 최소 소프트웨어 릴리스는 다음과 같습니다.
+다음은 지원 되는 전화가 전화 시스템으로 작동 하는 데 필요한 최소 소프트웨어 릴리스입니다.
   
 ||||
 |:-----|:-----|:-----|
@@ -110,7 +110,7 @@ Office 365에서 지원 되는 전화를 사용 하 여 휴대폰 시스템에�
 |현재 상태 통합  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
 |회사 디렉터리  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
 |위임  <br/> |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
-|연락처 사진 통합  <br/> |아니요  <br/> |예  <br/> |아니요  <br/> |예  <br/> |
+|연락처 사진 통합  <br/> |아니오  <br/> |예  <br/> |아니오  <br/> |예  <br/> |
 ||||||
 
      
@@ -123,9 +123,9 @@ Office 365에서 지원 되는 전화를 사용 하 여 휴대폰 시스템에�
 ## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](../getting-service-phone-numbers.md)
 
-[Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[다음은 전화 시스템 기능입니다.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Microsoft 365 또는 Office 365에서 Skype 대화방 시스템 계정을 프로 비전 하는 방법에 대 한 자세한 내용을 보려면이 항목을 읽어 보십시오.
-ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779714"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221852"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Microsoft 365 및 Office 365에서 Skype 대화방 시스템 계정 프로 비전
  
-Office 365에서 Skype 대화방 시스템 계정을 프로 비전 하는 방법에 대 한 자세한 내용을 보려면이 항목을 읽어 보십시오.
+Microsoft 365 또는 Office 365에서 Skype 대화방 시스템 계정을 프로 비전 하는 방법에 대 한 자세한 내용을 보려면이 항목을 읽어 보십시오.
   
-다음 섹션에서는 Office 365 조 직에 대 한 Skype 대화방 시스템 계정 프로 비전에 대해 설명 합니다.
+다음 섹션에서는 Skype 대화방 시스템 계정 프로 비전에 대해 설명 합니다.
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Microsoft 365 및 Office 365 필수 구성 요소
 
@@ -41,7 +41,7 @@ Office 365에서 Skype 대화방 시스템 계정을 프로 비전 하는 방법
     
   - 비즈니스용 Skype Online 원격 PowerShell 액세스
     
-  - Office 365 디렉터리 액세스에 액세스 하기 위한 windows PowerShell 용 windows Azure Active Directory 모듈
+  - Microsoft 365 또는 Office 365 디렉터리 액세스에 액세스 하기 위한 windows PowerShell 용 windows Azure Active Directory 모듈
     
 Skype 대화방 계정의 경우 다음 라이선스가 필요 합니다.
   
@@ -55,9 +55,9 @@ Skype 대화방 계정의 경우 다음 라이선스가 필요 합니다.
     
 ## <a name="provisioning-overview"></a>프로 비전 개요
 
-다음 다이어그램은 Office 365에서 Skype 대화방 시스템 계정 프로 비전 흐름에 대 한 개요를 제공 합니다.
+다음 다이어그램은 Skype 대화방 시스템 계정 프로 비전 흐름에 대 한 개요를 제공 합니다.
   
-![O365에 대 한 Skype 대화방 시스템 프로 비전 단계](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype 대화방 시스템 프로 비전 단계](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>새 회의실 확인
 
@@ -93,7 +93,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>비즈니스용 Skype 온라인 라이선스 할당
 
-이제 비즈니스용 Skype Online (요금제 2) 또는 비즈니스용 skype Online (요금제 3)에 설명 된 대로 office 365 관리 포털을 사용 하 여 microsoft에 대 한 라이선스 [할당 또는 365 제거](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) (비즈니스용 skype [추가 기능 라이선스](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7))를 할당할 수 있습니다. 
+이제 비즈니스용 Skype Online (요금제 2) 또는 비즈니스용 skype Online (요금제 3)에 설명 된 대로 microsoft 365 관리 포털을 사용 하 여 비즈니스에 대 한 microsoft [365의 라이선스 할당 또는 제거 (for](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) 비즈니스용 [skype 추가 기능 라이선스](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7))를 할당할 수 있습니다. 
   
 비즈니스용 Skype Online에 대 한 라이선스를 할당 하면 로그인 하 여 비즈니스용 Skype 클라이언트를 사용 하 여 계정이 활성 상태 인지 확인할 수 있습니다.
   
@@ -126,7 +126,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="password-expiration"></a>암호 만료
 
-Office 365에서 다른 암호 만료 정책을 구성 하지 않으면 모든 사용자 계정에 대 한 기본 암호 만료 정책이 90 일입니다. Skype 대화방 시스템 계정에 대해 다음 단계를 수행 하 여 암호 사용 기간 제한 없음 설정을 선택할 수 있습니다.
+Microsoft 365 또는 Office 365에서는 다른 암호 만료 정책을 구성 하지 않는 한 모든 사용자 계정에 대 한 기본 암호 만료 정책이 90 일입니다. Skype 대화방 시스템 계정에 대해 다음 단계를 수행 하 여 암호 사용 기간 제한 없음 설정을 선택할 수 있습니다.
   
 1. 테 넌 트 전역 관리자 자격 증명을 사용 하 여 Windows Azure Active Directory 세션을 만듭니다.
     

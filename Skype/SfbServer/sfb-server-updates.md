@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 곳에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대 한 업데이트를 찾고 관리 합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
-ms.openlocfilehash: f1644a96542ae6b7a1ee5842d640b1581d660cae
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928251"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220548"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
 비즈니스용 [Skype 서버 2019](#skype-for-business-server-2019-update-history), [비즈니스용 skype 서버 2015](#skype-for-business-server-2015-update-history), [Lync server 2013](#lync-server-2013-update-history)및 [lync server 2010](#lync-server-2010-update-history) 에 대 한 업데이트를 찾아 관리 합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
 
-최신 비즈니스용 Skype 온라인 및 Office 365 업데이트에 대해서는 [Microsoft 365 로드맵을](https://go.microsoft.com/fwlink/p/?linkid=529454)참조 하세요.
+최신 비즈니스용 Skype 온라인 및 Microsoft 365 업데이트에 대해서는 [Microsoft 365 로드맵을](https://go.microsoft.com/fwlink/p/?linkid=529454)참조 하세요.
 
 ## <a name="skype-for-business-server-2019-update-history"></a>비즈니스용 Skype 서버 2019 업데이트 기록
 
@@ -131,7 +131,7 @@ ms.locfileid: "42928251"
 
 #### <a name="pre-configured-vhds"></a>미리 구성 된 Vhd
 
-전체 토폴로지는 microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013 및 UC 개발자 플랫폼 Api (Microsoft Lync 2013 SDK, Exchange 웹 서비스 관리 API 2.0 포함)를 완전히 평가할 수 있도록 하는 7 개의 가상 컴퓨터로 구성 됩니다. Microsoft Lync Server 2013 SDK 및 Microsoft 통합 커뮤니케이션 관리 API 4.0).
+전체 토폴로지는 Microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013 및 UC 개발자 플랫폼 Api (Microsoft Lync 2013 SDK, Exchange 웹 서비스 관리 되는 API 2.0, microsoft Lync Server 2013 SDK 및 Microsoft 통합 커뮤니케이션 관리 API 4.0)를 완전히 평가할 수 있도록 하는 7 개의 가상 컴퓨터로 구성 됩니다.
 
 패키지 이름/링크|릴리스 날짜|
 |:--- |:--- |

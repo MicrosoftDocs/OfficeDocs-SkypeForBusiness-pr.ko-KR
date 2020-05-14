@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158985"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219838"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 
@@ -34,11 +34,11 @@ Power BI 보고서에 액세스 하는 데 올바른 [Cqd 액세스 역할이](h
 
 사용자 지정 커넥터를 설치 하 고 커넥터 사용을 가능 하 게 하는 보안을 조정 하는 프로세스는 [POWER BI 설명서](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)에 자세히 설명 되어 있습니다. 편의상 다음의 간단한 설명을 참조 하세요.
 
-1.  컴퓨터에 * \[\\Power BI 데스크톱\\\]사용자 지정 커넥터* 폴더가 이미 있는지 확인 합니다. 그렇지 않은 경우이 폴더를 만듭니다. <sup>1</sup>
+1.  컴퓨터에 * \[ \] \\ Power BI 데스크톱 \\ 사용자 지정 커넥터*폴더가 이미 있는지 확인   합니다. 그렇지 않은 경우이 폴더를 만듭니다. <sup>1</sup>
 
-2.  커넥터 파일 ( * \*mez* 또는 * \*pqx* 파일)을 다운로드 하 여 *사용자 지정 커넥터* 디렉터리에 배치 합니다.
+2.  커넥터 파일 ( * \* mez* 또는 * \* pqx* 파일)을 다운로드 하 여 *사용자 지정 커넥터* 디렉터리에 배치 합니다.
 
-3.  **커넥터 파일이 * \*mez* 파일인 경우** 에는 [사용자 지정 커넥터 설정 문서](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)에 설명 된 대로 보안 설정을 조정 해야 합니다.
+3.  **커넥터 파일이 * \* mez* 파일인 경우** 에는 [사용자 지정 커넥터 설정 문서](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)에 설명 된 대로 보안 설정을 조정 해야 합니다.
 
 Microsoft 팀 용 Power BI 커넥터의 새 버전이 릴리스되면 *사용자 지정 커넥터* 디렉터리의 이전 커넥터 파일을 새 파일로 바꿉니다.
 
@@ -150,7 +150,7 @@ CQD Power BI 커넥터는 생성할 수 있는 쿼리 종류의 측면에서 브
 
 ## <a name="footnotes"></a>간
 
-**<sup>1</sup>** 특정 프로세스 및 앱 (예: OneDrive)으로 인해 문서 루트 폴더가 변경 될 수 있습니다. *POWER BI Desktop\\사용자 지정 커넥터* 디렉터리가 현재 루트 폴더 문서 폴더 내에 배치 되어 있는지 확인 합니다.
+**<sup>1</sup>** 특정 프로세스 및 앱 (예: OneDrive)으로 인해 문서 루트 폴더가 변경 될 수 있습니다. *POWER BI Desktop \\ 사용자 지정 커넥터* 디렉터리가 현재 루트 폴더 문서 폴더 내에 배치 되어 있는지 확인 합니다.
 
 **<sup>2</sup>** CQD에 사용 하는 로그인 자격 증명은 Power BI Desktop app 자체에 로그인 하는 데 사용 하는 자격 증명과 같을 필요는 *없습니다* .
 
@@ -160,7 +160,7 @@ CQD Power BI 커넥터는 생성할 수 있는 쿼리 종류의 측면에서 브
 
 Beta 태그에는 불구 하 고 Power BI 용 통화 음질 커넥터는 해당 커넥터의 릴리스 버전이 며, Power BI 팀이이를 반영 하도록 서명 된 공식적 보안입니다. 해당 베타 태그를 제거 하는 인증 프로세스는 광범위 한 기능 이므로 Power BI 팀에서 커넥터에 대 한 직접 지원을 제공 해야 합니다. 시간 제약으로 인해 현재 Power BI 팀은 지원 및 광범위 한 인증을 제공할 수는 없지만 Microsoft 통화 품질 커넥터의 보안, 인증, 일반 기능을 증명할 준비가 되어 있습니다.
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>브라우저의 고급 CQD 보다 커넥터가 느리게 보이는 이유는 무엇 인가요? 성능을 향상 시키기 위해 수행할 수 있는 작업
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>브라우저의 고급 CQD 보다 커넥터가 느리게 보이는 이유는 무엇 인가요? 성능을 향상 시키기 위해 수행할 수 있는 작업
 
 다양 한 서식 파일에 대 한 쿼리 성능은 브라우저와 커넥터에서 실제로 동일 합니다. 차이점은 실행 되는 동시 쿼리 수에 있습니다. CQD의 브라우저 내장 버전에는 잘 개발 되 고 정보 집적형 시각화 옵션이 있으므로, 대부분의 보고서는 한 번에 2-3 쿼리를 로드 하는 것으로 제한 되었습니다. 반면 커넥터 템플릿은 종종 20 + 동시 쿼리를 표시 합니다. 이전에 사용한 것 처럼 반응 하는 보고서를 작성 하려면 탭 당 2-3 개 이하의 쿼리를 사용 하 여 보고서를 만들어 보세요.
 
@@ -169,6 +169,8 @@ Beta 태그에는 불구 하 고 Power BI 용 통화 음질 커넥터는 해당 
 1만 행 제한은 실제로 API end에 지정 되며, 성능을 크게 개선 하 고 메모리 부족 상태로 인해 쿼리 실행 오류의 위험을 줄일 수 있도록 설계 되었습니다.
 
 결과 행 개수를 늘리는 대신 커넥터 모범 사례에 따라 보고서를 재구성 하는 것이 좋습니다. 여기에 포함 된 서식 파일은 이러한 모범 사례를 보여 주기 위해 디자인 되었습니다. 가능 하면 먼저 보다 폭넓은 하위 카디널리티 차원 (예: 월, 연도, 날짜, 지역, 국가 등)을 사용 하 여 Kpi를 살펴봅니다. 여기서 더 높은 카디널리티 치수로 드릴 다운할 수 있습니다. 헬프데스크 및 위치 향상 보고서는 모두이 드릴 다운 워크플로의 좋은 예를 제공 합니다.
+
+
 
 ## <a name="related-topics"></a>관련 항목
 

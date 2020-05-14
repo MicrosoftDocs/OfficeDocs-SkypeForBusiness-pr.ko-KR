@@ -19,46 +19,46 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
-description: 비즈니스용 Skype 클라우드 커넥터 Edition에서 Office 365 (클라우드 PBX)의 전화 시스템과 온-프레미스 PSTN 연결을 구현 하는 패키지 Vm (가상 컴퓨터) 집합에 대 한 정보를 확인 합니다.
-ms.openlocfilehash: 055149121b5abdb2fa92f72278f94b35f8556dff
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 비즈니스용 Skype 클라우드 커넥터 Edition에서 전화 시스템에 온-프레미스 PSTN 연결 (클라우드 PBX)을 구현 하는 패키지 된 Vm (가상 컴퓨터) 집합에 대 한 정보를 확인 합니다.
+ms.openlocfilehash: d2b7f4203da082112b846cc3f12f57dd7758fc82
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779264"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220088"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>비즈니스용 Skype 클라우드 커넥터 에디션 계획
 
-비즈니스용 Skype 클라우드 커넥터 Edition에서 Office 365 (클라우드 PBX)의 전화 시스템과 온-프레미스 PSTN 연결을 구현 하는 패키지 Vm (가상 컴퓨터) 집합에 대 한 정보를 확인 합니다.
+비즈니스용 Skype 클라우드 커넥터 Edition에서 전화 시스템에 온-프레미스 PSTN 연결 (클라우드 PBX)을 구현 하는 패키지 된 Vm (가상 컴퓨터) 집합에 대 한 정보를 확인 합니다.
 
-기존 Lync Server 또는 비즈니스용 Skype 서버 배포가 아직 없는 경우 클라우드 커넥터 Edition이 조직에 적합 한 해결책이 될 수 있습니다. 여전히 Office 365 솔루션의 어떤 전화 시스템이 비즈니스에 적합 한지 조사 중 이라면 [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)을 참조 하세요.
+기존 Lync Server 또는 비즈니스용 Skype 서버 배포가 아직 없는 경우 클라우드 커넥터 Edition이 조직에 적합 한 해결책이 될 수 있습니다. 비즈니스에 적합 한 전화 시스템 솔루션을 계속 조사 하 고 있는 경우 [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)을 참조 하세요.
 
 이 문서에서는 클라우드 커넥터 버전 요구 사항과 지원 되는 토폴로지에 대해 설명 하 고 클라우드 커넥터 버전 배포를 계획 하는 데 도움이 됩니다. 클라우드 커넥터 환경을 구성 하기 전에이 항목을 읽어 보십시오. 클라우드 Connector Edition을 배포 및 구성할 준비가 되 면 [configure and Manage 비즈니스용 Skype Cloud Connector edition](configure-skype-for-business-cloud-connector-edition.md)를 참조 하세요.
 
-이제 클라우드 커넥터 버전 2.1를 사용할 수 있습니다. 2.1로 아직 업그레이드 하지 않은 경우 [새 버전의 클라우드 커넥터로 업그레이드를](upgrade-to-a-new-version-of-cloud-connector.md)참조 하세요. 설치 파일은에서 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)찾을 수 있습니다.
+이제 클라우드 커넥터 버전 2.1를 사용할 수 있습니다. 2.1로 아직 업그레이드 하지 않은 경우 [새 버전의 클라우드 커넥터로 업그레이드를](upgrade-to-a-new-version-of-cloud-connector.md)참조 하세요. 설치 파일은에서 찾을 수 있습니다 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) .
 
 > [!NOTE]
 > Microsoft는 새 버전 출시 후 60 일 동안 이전 버전의 Cloud Connector Edition을 지원 합니다. Microsoft는 업그레이드 시간을 허용 하도록 2.1 릴리스 이후 60 일 동안 버전 2.0.1을 지원 합니다. 2.0.1 이전 버전은 더 이상 지원 되지 않습니다.
 
-클라우드 커넥터 에디션은 Office 365에서 전화 시스템과의 온-프레미스 PSTN 연결을 구현 하는 패키지 Vm (가상 컴퓨터) 집합으로 구성 되는 하이브리드 제공입니다. 가상화 된 환경에 최소한의 비즈니스용 Skype 서버 토폴로지를 배포 하면 클라우드에서 거주 하는 조직의 사용자가 Microsoft 클라우드에서 PBX 서비스를 받을 수 있지만 기존 온-프레미스 음성 인프라를 통해 PSTN 연결이 제공 됩니다.
+클라우드 커넥터 에디션은 전화 시스템과의 온-프레미스 PSTN 연결을 구현 하는 패키지 Vm (가상 컴퓨터) 집합으로 구성 되는 하이브리드 제공입니다. 가상화 된 환경에 최소한의 비즈니스용 Skype 서버 토폴로지를 배포 하면 클라우드에서 거주 하는 조직의 사용자가 Microsoft 클라우드에서 PBX 서비스를 받을 수 있지만 기존 온-프레미스 음성 인프라를 통해 PSTN 연결이 제공 됩니다.
 
 ![비즈니스용 Skype의 온-프레미스 배포에 클라우드 PBX를 연결 하는 클라우드 PBX 게이트웨이를 보여 주는 토폴로지 다이어그램입니다.](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
 
-클라우드 커넥터를 사용 하면 Office 365 서비스의 전화 시스템을 기존 전화 통신 환경 (예: PBX, 아날로그 장치 및 통화 센터)과 통합할 수 있으므로, Office 365에서 기존 전화 통신 솔루션에서 전화 시스템으로 단계적인 마이그레이션을 구현할 수도 있습니다.
+클라우드 커넥터를 사용 하면 기존 전화 통신 환경 (예: PBX, 아날로그 장치 및 통화 센터)에 전화 시스템 서비스를 통합할 수 있으므로 기존의 전화 통신 솔루션에서 전화 시스템으로 단계적 마이그레이션을 구현할 수도 있습니다.
 
-예를 들어 회사에 Office 365의 전화 시스템에서 제공 하지 않는 특정 기능을 포함 하는 복잡 한 통화 센터가 있다고 가정 합니다. 통화 센터 사용자는 기존 솔루션을 사용 하도록 설정할 수 있지만 다른 사용자를 Office 365에서 전화 시스템으로 이동 하는 것은 가능 합니다.
+예를 들어 회사에서 전화 시스템에서 제공 하지 않는 특정 기능을 가진 정교한 통화 센터를 가정 합니다. 통화 센터 사용자를 기존 솔루션으로 나가시겠습니까 하지만 다른 사용자를 전화 시스템으로 이동 하도록 선택할 수 있습니다.
 
-클라우드 커넥터는 온-프레미스와 온라인 상태인 사용자 간의 라우팅을 제공 하며, Office 365에서 전화 시스템에 자신만의 PSTN 공급자를 사용 하도록 선택할 수 있습니다.
+클라우드 커넥터는 온-프레미스와 온라인으로 연결 된 사용자 간의 라우팅을 제공 하며, 전화 시스템에서 자신만의 PSTN 공급자를 사용 하도록 선택할 수 있습니다.
 
 클라우드 커넥터 버전 배포를 계획할 때는 다음 사항을 고려 하세요.
 
-- 클라우드 커넥터를 사용 하 여 클라우드 음성 솔루션을 활용 하려면 Office 365에 전화 시스템이 포함 된 Office 365 조 직에 등록 해야 합니다. 아직 Office 365 조직이 없는 경우 [office 365 For Business에](https://products.office.com/business/office)등록 하는 방법을 확인할 수 있습니다. 비즈니스용 Skype Online이 포함 된 요금제에 등록 해야 합니다.
+- 클라우드 커넥터를 사용 하 여 클라우드 음성 솔루션을 활용 하려면 전화 시스템이 포함 된 Microsoft 365 또는 Office 365 조 직에 등록 해야 합니다. Microsoft 365 또는 Office 365 조직이 아직 없는 경우 [비즈니스용 microsoft 365에](https://products.office.com/business/office)등록 하는 방법을 알 수 있습니다. 비즈니스용 Skype Online이 포함 된 요금제에 등록 해야 합니다.
 
-- 비즈니스용 Skype Online 서비스에 클라우드 커넥터 기기를 등록 하 고 다양 한 cmdlet 2.0을 실행 하려면 비즈니스용 Skype 테 넌 트 관리자 권한을 가진 전용 Office 365 계정이 필요 합니다. 이전 클라우드 커넥터 버전 2.0를 사용 하려면 테 넌 트 전역 관리자 권한이 있는 전용 Office 365 계정이 필요 합니다.
+- 비즈니스용 Skype Online 서비스에 클라우드 커넥터 어플라이언스를 등록 하 고 다양 한 cmdlet 2.0을 실행 하려면 비즈니스용 Skype 테 넌 트 관리자 권한이 있는 전용 Microsoft 365 또는 Office 365 계정을 사용 해야 합니다. 이전 클라우드 커넥터 버전 2.0를 사용 하려면 테 넌 트 전역 관리자 권한이 있는 전용 Microsoft 365 또는 Office 365 계정이 필요 합니다.
 
 - 클라우드 커넥터에는 전체 온-프레미스 비즈니스용 Skype 서버 배포가 필요 하지 않습니다.
 
-    현재 클라우드 커넥터는 Lync 또는 비즈니스용 Skype 온-프레미스 서버와 함께 사용할 수 없습니다. 기존 Lync 또는 비즈니스용 Skype 사용자를 Office 365으로 이동 하 고 사용자에 게 온-프레미스 전화 통신을 계속 제공 하려면 기존 비즈니스용 Skype 서버 배포를 사용 하 여 온-프레미스 연결과 함께 Office 365의 전화 시스템을 고려해 야 합니다. 자세한 내용은 비즈니스용 Skype 서버의 [office 365 (클라우드 PBX) 솔루션](plan-your-phone-system-cloud-pbx-solution.md) 및 [온-프레미스 PSTN 연결을 사용 하 여 office 365에서](plan-phone-system-with-on-premises-pstn-connectivity.md)전화 시스템 계획을 참조 하세요.
+    현재 클라우드 커넥터는 Lync 또는 비즈니스용 Skype 온-프레미스 서버와 함께 사용할 수 없습니다. 기존 Lync 또는 비즈니스용 Skype 사용자를 Microsoft 365으로 이동 하 고 사용자에 게 온-프레미스 전화 통신을 계속 제공 하려면 기존 비즈니스용 Skype 서버 배포를 사용 하 여 온-프레미스 연결을 통해 전화 시스템을 사용해 보세요. 자세한 내용은 비즈니스용 Skype 서버에서 [전화 시스템 (클라우드 PBX) 솔루션을 계획](plan-your-phone-system-cloud-pbx-solution.md) 하 고 [온-프레미스 PSTN 연결을 사용 하 여 전화 시스템 계획](plan-phone-system-with-on-premises-pstn-connectivity.md)을 참조 하세요.
 
 - 이전에 비즈니스용 skype 또는 Lync Server 배포를 수행 하 고 스키마를 확장 한 경우에는 환경에서 모든 비즈니스용 Skype 또는 Lync Server 구성 요소를 제거한 경우 클라우드 커넥터 배포에 대 한 스키마를 정리할 필요가 없습니다.
 
@@ -101,7 +101,7 @@ ms.locfileid: "43779264"
 ## <a name="cloud-connector-edition-components"></a>클라우드 커넥터 에디션 구성 요소
 <a name="BKMK_Components"> </a>
 
-클라우드 커넥터 버전을 사용 하는 경우에는에 지 구성 요소, 중재 구성 요소 및 CMS (중앙 관리 저장소) 역할로 구성 된 최소 비즈니스용 Skype 서버 토폴로지를 포함 하는 패키지 Vm 집합을 배포 합니다. 또한 클라우드 커넥터의 내부 작동에 필요한 도메인 컨트롤러를 설치 합니다. 이러한 서비스는 비즈니스용 Skype Online 서비스를 포함 하는 Office 365 조직과 혼성으로 구성 됩니다.
+클라우드 커넥터 버전을 사용 하는 경우에는에 지 구성 요소, 중재 구성 요소 및 CMS (중앙 관리 저장소) 역할로 구성 된 최소 비즈니스용 Skype 서버 토폴로지를 포함 하는 패키지 Vm 집합을 배포 합니다. 또한 클라우드 커넥터의 내부 작동에 필요한 도메인 컨트롤러를 설치 합니다. 이러한 서비스는 비즈니스용 Skype Online 서비스를 포함 하는 Microsoft 365 또는 Office 365 조직과 혼성으로 구성 됩니다.
 
 ![클라우드 커넥터 에디션 구성 요소](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -189,13 +189,13 @@ ms.locfileid: "43779264"
 
 - 용량 계획을 위해 다음 계산에 따라 하나 이상의 클라우드 커넥터를 오프 라인으로 전환 하는 경우 부하를 처리할 수 있는 능력을 고려해 야 합니다.
 
-  - **N + 1 상자** 클라우드 커넥터의 규모가 더 큰 경우 N + 1 개는 99.8%\*의 가용성으로 500 n 개의 동시 통화를 지원 합니다.
+  - **N + 1 상자** 클라우드 커넥터의 규모가 더 큰 경우 N + 1 개는 \* 99.8%의 가용성으로 500 n 개의 동시 통화를 지원 합니다.
 
-    클라우드 커넥터의 규모가 더 작은 경우 N + 1 개는 99.8%\*의 가용성으로 50 n 개의 동시 통화를 지원 합니다.
+    클라우드 커넥터의 규모가 더 작은 경우 N + 1 개는 \* 99.8%의 가용성으로 50 n 개의 동시 통화를 지원 합니다.
 
-  - **N + 2 상자** 클라우드 커넥터의 규모가 더 큰 경우 N + 2 개는 99.9%\*의 가용성으로 500 n 개의 동시 통화를 지원 합니다.
+  - **N + 2 상자** 클라우드 커넥터의 규모가 더 큰 경우 N + 2 개는 \* 99.9%의 가용성으로 500 n 개의 동시 통화를 지원 합니다.
 
-    더 작은 버전의 클라우드 커넥터의 경우 N + 2 개는 50\*N 개의 동시 통화를 지원 합니다 (99.9% 가용성).
+    더 작은 버전의 클라우드 커넥터의 경우 N + 2 개는 50 \* N 개의 동시 통화를 지원 합니다 (99.9% 가용성).
 
 ![1 PSTN 사이트 내의 두 클라우드 커넥터](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
 
@@ -242,13 +242,13 @@ ms.locfileid: "43779264"
 
 - 호스트 컴퓨터에서 인터넷을 검색 하는 데 프록시 서버가 필요한 경우에는 다음과 같은 구성을 변경 해야 합니다.
 
-  - 프록시를 사용 하지 않으려면 프록시 서버와 함께 설정 된 WinHTTP 프록시 설정 및 "192.168.213을 포함 하는 바이패스 목록을 지정 합니다. \*"클라우드 커넥터 Managements Services 및 비즈니스용 Skype Corpnet subnet에서 사용 하는 네트워크를 cloudconnector .ini 파일에 정의 합니다. 그렇지 않으면 관리 연결이 실패 하 고 클라우드 커넥터의 배포 및 자동 복구가 방지 됩니다. 다음은 netsh winhttp set proxy "10.10.10.175:8080" 우회-list = "\*local; 1" 샘플 winhttp 구성 명령입니다. \*; 172.20. \*; 192.168.218. \*'\<로컬\>'입니다.
+  - 프록시를 사용 하지 않으려면 프록시 서버와 함께 설정 된 WinHTTP 프록시 설정 및 "192.168.213"를 포함 하는 바이패스 목록을 지정 합니다. \* 클라우드 커넥터 Managements 서비스 및 비즈니스용 Skype Corpnet 서브넷에서 사용 되는 네트워크를 CloudConnector .ini 파일에 정의 되어 있습니다. 그렇지 않으면 관리 연결이 실패 하 고 클라우드 커넥터의 배포 및 자동 복구가 방지 됩니다. 다음은 샘플 winhttp 구성 명령입니다. netsh winhttp set proxy "10.10.10.175:8080" 우회-list = " \* . local; 1. \* ; 172.20. \* ; 192.168.218. \* \< 로컬 \> "입니다.
 
   - 사용자 단위 보다는 컴퓨터 별로 프록시 설정을 지정 합니다. 그렇지 않으면 클라우드 커넥터 다운로드는 실패 합니다. 다음과 같이 레지스트리를 변경 하거나 그룹 정책 설정을 사용 하 여 컴퓨터 별로 프록시 설정을 지정할 수 있습니다.
 
   - **레지스트리:** HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser dword: 00000000
 
-  - **그룹 정책:** 컴퓨터\>관리 템플릿\>Windows 구성\> 요소 Internet Explorer: 사용자 단위 보다는 컴퓨터 별로 프록시 설정 만들기
+  - **그룹 정책:** 컴퓨터 \> 관리 템플릿 \> Windows 구성 요소 \> Internet Explorer: 사용자 단위 보다는 컴퓨터 별로 프록시 설정 만들기
 
 - 정규 PBX/트렁크 또는 정식 SBC/Gateway (두 개 이상의 게이트웨이가 권장 됨).
 
@@ -260,12 +260,12 @@ ms.locfileid: "43779264"
 
 - 설치 패키지에 포함 된 CloudConnector .ini 파일에 정의 된 외부 DNS 레코드:
 
-  - 에 지 구성 요소의 액세스에 지 서비스에 대 한 외부 DNS 레코드 예를 들면 ap.\<도메인 이름\>입니다. PSTN 사이트별 레코드가 하나 필요 합니다. 이 레코드는 해당 사이트에 대 한 모든 가장자리의 IP 주소를 포함 해야 합니다.
+  - 에 지 구성 요소의 액세스에 지 서비스에 대 한 외부 DNS 레코드 예를 들어 ap를 예로 들 있습니다. \< 도메인 이름 \> 입니다. PSTN 사이트별 레코드가 하나 필요 합니다. 이 레코드는 해당 사이트에 대 한 모든 가장자리의 IP 주소를 포함 해야 합니다.
 
-- 모든 필수 DNS 및 SRV 레코드가 만들어진 Office 365 조직
+- 모든 필수 DNS 및 SRV 레코드를 만든 Microsoft 365 또는 Office 365 조직
 
     > [!IMPORTANT]
-    > 테 넌 트를 클라우드 Connector Edition과 통합 하는 경우 조직의 SIP 도메인으로 기본 도메인 접미사 onmicrosoft.com을 사용할 수 없습니다. > sip를 사용할 수 없습니다. \<이 DNS\> 레코드는 Office 365에서 사용 되므로 도메인 이름과 클라우드 커넥터에 지 액세스 프록시 인터페이스의 이름입니다.
+    > 테 넌 트를 클라우드 Connector Edition과 통합 하는 경우 조직의 SIP 도메인으로 기본 도메인 접미사 onmicrosoft.com을 사용할 수 없습니다. > sip를 사용할 수 없습니다. \< \>이 DNS 레코드는 Microsoft 365 및 Office 365에서 사용 되므로 도메인 이름과 클라우드 커넥터에 지 액세스 프록시 인터페이스의 이름입니다.
 
 - 공용 CA (인증 기관)에서 가져온 외부에 지에 대 한 인증서입니다.
 
@@ -275,7 +275,7 @@ ms.locfileid: "43779264"
 
 - 호스트 컴퓨터에 설치 된 테 넌 트 원격 PowerShell 모듈입니다.
 
-- 원격 PowerShell을 실행 하기 위한 Office 365 비즈니스용 Skype 관리자 자격 증명입니다.
+- 원격 PowerShell을 실행 하기 위한 비즈니스용 Skype 관리자 자격 증명입니다.
 
     > [!IMPORTANT]
     > 관리자 계정에 다단계 인증을 사용 하도록 설정 해서는 안 됩니다.
@@ -374,7 +374,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 다음 표에서는 클라우드 커넥터에 지 구성 요소 간 통신을 외부 방화벽에 사용할 수 있도록 하는 포트 및 포트 범위를 보여 줍니다. 이 표에는 최소 권장 사항이 나와 있습니다.
 
-이 경우 인터넷에 대 한 모든 미디어 트래픽은 다음과 같이 온라인 가장자리를 통해 흐릅니다. 사용자 끝점--\>온라인에 지--\>클라우드 커넥터에 지:
+이 경우 인터넷에 대 한 모든 미디어 트래픽은 다음과 같이 온라인 가장자리를 통해 흐릅니다. 사용자 끝점-- \> 온라인에 지-- \> 클라우드 커넥터에 지:
 
 **외부 방화벽-최소 구성**
 
@@ -394,7 +394,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 다음 표에는 클라우드 커넥터에 지 구성 요소 간의 통신을 사용 하도록 설정 하기 위한 포트 및 포트 범위가 외부 방화벽과 함께 나와 있습니다. 이 표에 권장 되는 해결 방법이 나와 있습니다.
 
-이 경우 인터넷의 끝점에 대 한 모든 미디어 트래픽이 클라우드 커넥터에 지 구성 요소로 직접 흐를 수 있습니다. 미디어 경로는 사용자 끝점-\> 클라우드 커넥터에 지입니다.
+이 경우 인터넷의 끝점에 대 한 모든 미디어 트래픽이 클라우드 커넥터에 지 구성 요소로 직접 흐를 수 있습니다. 미디어 경로는 사용자 끝점- \> 클라우드 커넥터에 지입니다.
 
 > [!NOTE]
 > 사용자 끝점이 대칭 NAT 뒤에 있는 경우에는이 솔루션이 작동 하지 않습니다.
@@ -431,20 +431,20 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - Windows 업데이트: [소프트웨어 업데이트용 방화벽을 구성 하는 방법](https://technet.microsoft.com/library/bb693717.aspx)
 
-- 비즈니스용 Skype Online 관리 PowerShell: \*. online.lync.com
+- 비즈니스용 Skype Online 관리 PowerShell: \* . online.lync.com
 
     이 대상에 대 한 프록시 제외가 필요한 경우 WinHTTP 바이패스 목록에 추가 해야 합니다.
 
-- 클라우드 커넥터 업데이트: [다운로드 센터](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com)및[https://download.microsoft.com](https://download.microsoft.com)
+- 클라우드 커넥터 업데이트: [다운로드 센터](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com) 및[https://download.microsoft.com](https://download.microsoft.com)
 
 ### <a name="dns-name-resolution-for-the-edge-component"></a>에 지 구성 요소에 대 한 DNS 이름 확인
 <a name="BKMB_Ports"> </a>
 
-에 지 구성 요소는 Office 365 서비스의 외부 이름과 기타 클라우드 커넥터 구성 요소의 내부 이름을 확인 해야 합니다.
+에 지 구성 요소는 Microsoft 365 또는 Office 365 서비스의 외부 이름과 기타 클라우드 커넥터 구성 요소의 내부 이름을 확인 해야 합니다.
 
 각에 지 구성 요소는 외부 및 내부 연결 인터페이스가 있는 멀티홈 컴퓨터입니다. 클라우드 커넥터는 경계 네트워크 내의 도메인 컨트롤러 구성 요소에 DNS 서버를 배포 합니다. 모든 이름 확인을 위해 경계 내의 DNS 서버에 대 한에 지 서버를 가리킬 수 있지만, 다른 공용 DNS 서버에 대 한 이름 조회를 참조 하는 외부 쿼리에 대 한 하나 이상의 DNS A 레코드를 포함 하는 DNS 영역을 설정 하 여 클라우드 커넥터 DNS 서버를 사용 하도록 설정 해야 합니다.
 
-.Ini 파일에서 SIP 도메인과 같은 도메인 공간에서 게이트웨이의 FQDN 이름을 설정 하면이 SIP 도메인에 대 한 신뢰할 수 있는 영역이 경계 내의 DNS 서버에 생성 됩니다. 에 지 서버가이 DNS 서버를 가리키도록 하 여 이름을 확인 하면 Edge에서 _sipfederationtls를 확인 하지 않습니다. \<yourdomain\> DNS 레코드-통화 흐름에 필요 합니다. 이 경우에는에 지 외부 인터페이스에 DNS 서버를 제공 하 여 인터넷 이름 조회를 확인 하 고, 각에 지 구성 요소는 호스트 파일을 사용 하 여 다른 클라우드 커넥터 구성 요소 이름을 IP 주소로 확인 하는 것이 좋습니다.
+.Ini 파일에서 SIP 도메인과 같은 도메인 공간에서 게이트웨이의 FQDN 이름을 설정 하면이 SIP 도메인에 대 한 신뢰할 수 있는 영역이 경계 내의 DNS 서버에 생성 됩니다. 에 지 서버가이 DNS 서버를 가리키도록 하 여 이름을 확인 하면 Edge에서 _sipfederationtls를 확인 하지 않습니다. \< yourdomain \> DNS 레코드-통화 흐름에 필요 합니다. 이 경우에는에 지 외부 인터페이스에 DNS 서버를 제공 하 여 인터넷 이름 조회를 확인 하 고, 각에 지 구성 요소는 호스트 파일을 사용 하 여 다른 클라우드 커넥터 구성 요소 이름을 IP 주소로 확인 하는 것이 좋습니다.
 
 > [!NOTE]
 > 보안상의 이유로 클라우드 커넥터 DNS 서버가 프로덕션 도메인에서 이름 확인을 위해 내부 서버를 가리키지 않는 것이 좋습니다.
@@ -479,8 +479,8 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |가상 컴퓨터 도메인 이름  <br/> |클라우드 커넥터의 내부 구성 요소에 대 한 도메인 이름입니다. 이 도메인은 프로덕션 도메인과 달라 야 합니다. 이름은 모든 클라우드 커넥터 기기에서 동일 해야 합니다.  <br/> .Ini 파일의 이름: "VirtualMachineDomain"  <br/> |. 로컬 도메인이 권장 됩니다.  <br/> |
 |클라우드 커넥터 도메인 컨트롤러 이름  <br/> |도메인 컨트롤러의 이름입니다.  <br/> .Ini 파일의 이름: "ServerName"  <br/> |15 자이 하 여야 합니다. Netbios 이름만 입력 합니다.  <br/> |
 |클라우드 커넥터 도메인 컨트롤러 IP/서브넷 마스크  <br/> |도메인 컨트롤러의 IP 주소입니다.  <br/> .Ini 파일의 이름: "IP"  <br/> ||
-|O365 온라인 서비스 Fqdn  <br/> |세계 전체 O365 인스턴스에 대 한 기본값을 기본값으로 사용 해야 합니다.  <br/> .Ini 파일의 이름: "OnlineSipFederationFqdn"  <br/> ||
-|SiteName  <br/> |비즈니스용 Skype 사이트 이름입니다. 예를 들면 시애틀입니다.  <br/> .Ini 파일의 이름: "SiteName"  <br/> 릴리스 1.4.1 이상 버전의 경우 사이트 이름은 각 사이트에 대해 달라 야 하며, 이름은 PSTN 사이트 (있는 경우)와 일치 해야 하며, Office 365에 정의 되어 있습니다. 사이트의 첫 번째 기기를 등록할 때 PSTN 사이트가 자동으로 만들어집니다.  <br/> ||
+|Microsoft 365 또는 Office 365 온라인 서비스 Fqdn  <br/> |전 세계 전체 Microsoft 365 또는 Office 365 인스턴스에 대 한 기본값을 사용 해야 합니다.  <br/> .Ini 파일의 이름: "OnlineSipFederationFqdn"  <br/> ||
+|SiteName  <br/> |비즈니스용 Skype 사이트 이름입니다. 예를 들면 시애틀입니다.  <br/> .Ini 파일의 이름: "SiteName"  <br/> 릴리스 1.4.1 이상 버전의 경우 사이트 이름은 각 사이트에 대해 달라 야 하며, 이름이 존재 하는 경우 Microsoft 365 또는 Office 365에 정의 된 대로 PSTN 사이트와 일치 해야 합니다. 사이트의 첫 번째 기기를 등록할 때 PSTN 사이트가 자동으로 만들어집니다.  <br/> ||
 |하드 다시 입력  <br/> 릴리스 1.4.1 이상  <br/> |하드웨어의 유형입니다. 기본값은 Normal입니다. 최소로 설정할 수도 있습니다.  <br/> ||
 |국가 코드  <br/> |전화 걸기 국가 코드입니다.  <br/> .Ini 파일의 이름: "CountryCode"  <br/> ||
 |구/군/시  <br/> |구/군/시 (선택 사항)  <br/> .Ini 파일의 이름: "City"  <br/> ||
@@ -511,8 +511,8 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |미디어 릴레이 이름  <br/> |오디오 비디오 미디어 릴레이에 지의 이름입니다. 예를 들면 MR입니다. 풀의 모든에 지 구성 요소에 대해 하나의 외부 풀 이름이 사용 됩니다. PSTN 사이트 당 하나의에 지 미디어 릴레이 풀이 필요 합니다.  <br/> .Ini 파일의 이름: "ExternalMRFQDNPoolName"의 "에 지 서버 풀의 매개 변수"  <br/> |15 자이 하 여야 합니다. Netbios 이름만 입력 합니다.  <br/> |
 |미디어 릴레이에 지의 외부 IP  <br/> |현재 하나의 IP만 지원 되므로이 ip는 공용 또는 매핑된 IP에 대 한 액세스에 지와 동일 합니다 (매핑된 경우 두 주소를 모두 지정 해야 합니다.). 액세스에 지 구성 요소 외부 IP와 같은 주소를 사용할 수 있습니다. 참고 Edge가 NAT 뒤에 있는 경우에는 다음 매개 변수의 값도 지정 해야 합니다.  <br/> .Ini 파일의 이름: "ExternalMRIPs" 아래 "Edge 서버의 풀에 대 한 매개 변수"  <br/> ||
 |미디어 릴레이에 지의 외부 IP (Edge가 NAT 뒤에 있는 경우)  <br/> |Edge가 NAT 뒤에 있는 경우 NAT 장치의 공용 주소도 지정 해야 합니다.  <br/> .Ini 파일의 이름: "ExternalMRPublicIPs"의 "에 지 서버 풀의 매개 변수"  <br/> ||
-|음성 게이트웨이 1 만들기 및 모델  <br/> |SBC/Voice 게이트웨이의 만들기 및 모델을 지정 합니다. 테스트를 거친 장치 목록에서 장치 또는 SIP 트렁크를 연결할 수 있습니다 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP).  <br/> ||
-|음성 게이트웨이 2 만들기 및 모델 (게이트웨이가 2 개 이상 있는 경우이 행 복사)  <br/> |음성 게이트웨이의 만들기 및 모델을 지정 합니다. 테스트를 거친 장치 목록에서 장치를 연결할 수 있습니다 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP).  <br/> ||
+|음성 게이트웨이 1 만들기 및 모델  <br/> |SBC/Voice 게이트웨이의 만들기 및 모델을 지정 합니다. 테스트를 거친 장치 목록에서 장치 또는 SIP 트렁크를 연결할 수 있습니다 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) .  <br/> ||
+|음성 게이트웨이 2 만들기 및 모델 (게이트웨이가 2 개 이상 있는 경우이 행 복사)  <br/> |음성 게이트웨이의 만들기 및 모델을 지정 합니다. 테스트를 거친 장치 목록에서 장치를 연결할 수 있습니다 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) .  <br/> ||
 |음성 게이트웨이 1 이름  <br/> |AD 도메인에서 컴퓨터 FQDN을 생성 하는 데 사용 됩니다. 중재 구성 요소와 음성 게이트웨이 간에 TLS가 사용 되는 경우 필수입니다. FQDN을 사용 하지 않을 경우 (예: TLS가 필요 하지 않거나 음성 게이트웨이가 FQDN (IP만)을 사용 하 여 연결을 지원 하지 않는 경우)를 지정 하세요.  <br/> ||
 |음성 게이트웨이 2 이름 (게이트웨이가 2 개 이상 있는 경우이 행 복사)  <br/> |AD 도메인에서 컴퓨터 FQDN을 생성 하는 데 사용 됩니다. 중재 구성 요소와 음성 게이트웨이 사이에 TLS가 사용 되는 경우 필수적입니다. FQDN을 사용 하지 않을 경우 (예: TLS가 필요 하지 않거나 음성 게이트웨이가 FQDN (IP만)을 사용 하 여 연결을 지원 하지 않는 경우)를 지정 하세요.  <br/> ||
 |음성 게이트웨이 1 IP 주소  <br/> |음성 게이트웨이의 IP 주소입니다.  <br/> ||
@@ -530,11 +530,11 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |가상 컴퓨터 관리자 암호  <br/> 버전 1.4.2  <br/> |배포 중에 관리 네트워크를 구성 하는 데 사용 됩니다.  <br/> 사용자 이름은 관리자입니다. 사용자 이름은 변경할 수 없습니다.  <br/> ||
 |CABackupFile  <br/> 버전 2.0 이상  <br/> |클라우드 커넥터 사이트에 여러 기기를 배포할 때 Active Directory 서버의 인증 기관 서비스를 파일에 저장 하는 데 사용 됩니다. CA 백업 파일을 새로 추가 된 기기로 가져오기 위해서는 클라우드 커넥터 사이트 내의 모든 기기에 대해 동일한 암호를 사용 해야 합니다.  <br/> ||
 |CCEService  <br/> 버전 2.0 이상  <br/> |클라우드 커넥터 관리 서비스에 사용 됩니다. 클라우드 커넥터 사이트 디렉터리에 대 한 액세스 권한이 있어야 합니다. 한 클라우드 커넥터 사이트 내의 모든 기기에 대해 동일한 암호를 사용 해야 합니다.  <br/> ||
-|Office 365 테 넌 트 관리자  <br/> | 이 계정은 클라우드 커넥터에서 클라우드 커넥터에 대 한 테 넌 트 설정을 업데이트 하 고 관리 하는 데 사용 됩니다. <br/>  버전 2.0 이상: 비즈니스용 Skype 관리자 권한이 있는 전용 Office 365 계정에 대 한 자격 증명입니다. <br/>  이전 버전 2.0: 전역 테 넌 트 관리자 권한이 있는 전용 Office 365 계정의 자격 증명을 사용 합니다. <br/> ||
+|Microsoft 365 또는 Office 365 테 넌 트 관리자  <br/> | 이 계정은 클라우드 커넥터에서 클라우드 커넥터에 대 한 테 넌 트 설정을 업데이트 하 고 관리 하는 데 사용 됩니다. <br/>  버전 2.0 이상: 비즈니스용 Skype 관리자 권한이 있는 전용 Microsoft 365 또는 Office 365 계정의 자격 증명입니다. <br/>  이전 버전 2.0: 전역 테 넌 트 관리자 권한이 있는 전용 Microsoft 365 또는 Office 365 계정의 자격 증명입니다. <br/> ||
 |사용 지원 참조  <br/> |이렇게 하면 트렁크 구성에서 SIP 참조 지원 여부를 IP/PBX로 설정 하거나 사용 하지 않도록 설정할 수 있습니다. 기본값은 True입니다. IP/PBX 게이트웨이가 지원 참조를 지 원하는 경우에는 True로 남겨 두세요. 그렇지 않으면이 값을 False로 변경 해야 합니다. 게이트웨이가 참조를 지원 하는지 모르는 경우에는 [적격 IP-pbx 및 게이트웨이](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)를 참조 하세요.   <br/> ||
 |EnableFastFailoverTimer  <br/> 버전 2.0 이상  <br/> |기본 값 "True"를 사용 하는 경우 게이트웨이가 10 초 이내에 아웃 바운드 호출이 응답 하지 않으면 다음 사용 가능한 게이트웨이로 라우팅됩니다. 추가 트렁크 없으면 통화가 자동으로 삭제 됩니다.  <br/> 그러나 네트워크 및 게이트웨이 응답이 느린 조직에서 또는 통화를 설정 하는 프로세스가 10 초 이상 소요 되 면 호출이 불필요 하 게 손실 될 수 있습니다.  <br/> 예를 들어 아랍에미리트 또는 아프가니스탄와 같은 일부 국가에 대 한 통화를 하는 경우 통화 설정 프로세스는 10 초 이상 소요 될 수 있습니다. 비슷한 문제가 발생 하는 경우이 값을 False로 변경 해야 합니다. 연결 된 SBC 또는 게이트웨이에서 해당 설정을 변경 하는 것을 잊지 마십시오.  <br/> True 또는 False 값을 사용할 수 있습니다. 기본값은 True입니다.  <br/> ||
 |ForwardCallHistory  <br/> 버전 2.0 이상  <br/> | 이 매개 변수는 동시 신호 울림, 착신 전환 및 통화 전송 시나리오의 초기 발신자를 보고 하는 데 사용 되는 SIP 헤더를 설정 하는 데 사용 됩니다. 이 매개 변수를 True로 설정 하면 두 개의 SIP 헤더가 설정 됩니다. <br/>  기록-정보 <br/>  참조 한 사람 <br/>  기록 정보 헤더는 SIP 요청을 다시 지정 하는 데 사용 되며 "요청 기록 정보를 캡처 하기 위한 표준 메커니즘을 제공 하 여 네트워크 및 최종 사용자에 게 다양 한 서비스를 사용할 수 있습니다." ([RFC 4244-Section 1.1](http://www.ietf.org/rfc/rfc4244.txt)) 클라우드 커넥터 트렁크 인터페이스의 경우 Simulring 및 착신 전환 시나리오에서이 방법을 사용 합니다.  <br/>  True 또는 False 값을 사용할 수 있습니다. 기본값은 False입니다. <br/> ||
-|정방향 PAI  <br/> 버전 2.0 이상  <br/> |PAI는 sip에서 인증 된 사용자의 id를 어설션할 수 있도록 하는 전용 확장입니다. SIP 트렁크 공급자의 경우, 기록 정보 및 참조 별 헤더가 없는 경우에는 청구지 목적으로 PAI를 사용할 수 있습니다. No P-어설션된-구성에서 Identity가 사용 하도록 설정 된 경우 중재 서버는 클라우드 커넥터에서 sip 트렁크 URI &amp; 를 사용 하 여 pai 헤더를 받는 사람에 게 전달 합니다. 중재 서버는 SIP 트렁크에서 클라우드 커넥터로 수신 되는 tel &amp; URI의 E. 164 인 pai 헤더를 전달 합니다. 중재 서버는 어느 방향으로든 수신 되는 모든 개인 정보 헤더도 전달 합니다. 중재 서버에서 보낸 SIP 요청에 "개인 정보: id" 양식의 개인 정보 헤더가 포함 된 경우, 어설션된 id는 네트워크 트러스트 도메인 외부에서 비공개로 유지 해야 합니다.  <br/> True 또는 False 값을 사용할 수 있습니다. 기본값은 False입니다.  <br/> ||
+|정방향 PAI  <br/> 버전 2.0 이상  <br/> |PAI는 sip에서 인증 된 사용자의 id를 어설션할 수 있도록 하는 전용 확장입니다. SIP 트렁크 공급자의 경우, 기록 정보 및 참조 별 헤더가 없는 경우에는 청구지 목적으로 PAI를 사용할 수 있습니다. No P-어설션된-구성에서 Identity가 사용 하도록 설정 된 경우 중재 서버는 클라우드 커넥터에서 sip 트렁크 URI를 사용 하 여 PAI 헤더를 받는 사람에 게 전달 합니다 &amp; . 중재 서버는 &amp; SIP 트렁크에서 클라우드 커넥터로 수신 되는 TEL URI의 E. 164 인 PAI 헤더를 전달 합니다. 중재 서버는 어느 방향으로든 수신 되는 모든 개인 정보 헤더도 전달 합니다. 중재 서버에서 보낸 SIP 요청에 "개인 정보: id" 양식의 개인 정보 헤더가 포함 된 경우, 어설션된 id는 네트워크 트러스트 도메인 외부에서 비공개로 유지 해야 합니다.  <br/> True 또는 False 값을 사용할 수 있습니다. 기본값은 False입니다.  <br/> ||
 
 ### <a name="certificate-requirements"></a>인증서 요구 사항
 <a name="BKMK_Certs"> </a>
@@ -550,14 +550,14 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
-- **옵션 2** 배포 하는 모든에 지 풀 서버에서 단일 와일드 카드 인증서를 사용 하려는 경우에는 인증서에에 지 풀 이름 대신 와일드 \*카드 SAN 항목을 사용할 수 있습니다. 주체 이름은 배포 된 모든에 지 풀에 대 한 액세스에 지 풀 이름이 될 수 있습니다.
+- **옵션 2** 배포 하는 모든에 지 풀 서버에서 단일 와일드 카드 인증서를 사용 하려는 경우에는 \* 인증서에에 지 풀 이름 대신 와일드 카드 SAN 항목을 사용할 수 있습니다. 주체 이름은 배포 된 모든에 지 풀에 대 한 액세스에 지 풀 이름이 될 수 있습니다.
 
   ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
 > [!NOTE]
-> Sip에 대해 외부 DNS 항목을 만들지 않아야 합니다. \<microsoft.rtc.management.xds.sipdomain object\>이 이름은 Office 365 배포에 속합니다.
+> Sip에 대해 외부 DNS 항목을 만들지 않아야 합니다. \< \>이 이름은 Microsoft 365 또는 Office 365 배포에 속해 있기 때문에 microsoft.rtc.management.xds.sipdomain object입니다.
 
 > [!NOTE]
 > 조직에 배포 된 모든에 지 풀에 단일 인증서를 사용 하 고 옵션 2에 정의 된 대로 와일드 카드 인증서를 사용할 수 없는 경우에는 인증서의 SAN 이름에 배포 된 모든에 지 풀에 대해 FQDN을 포함 해야 합니다.
@@ -573,7 +573,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
-- <strong>옵션 2</strong> 배포 하는 모든에 지 풀 서버에서 단일 와일드 카드 인증서를 사용 하려는 경우에는 인증서에에 지 풀 이름 대신 와일드 \*카드 SAN 항목을 사용할 수 있습니다. 주체 이름은 배포 된 모든에 지 풀에 대 한 액세스에 지 풀 이름이 될 수 있습니다.
+- <strong>옵션 2</strong> 배포 하는 모든에 지 풀 서버에서 단일 와일드 카드 인증서를 사용 하려는 경우에는 \* 인증서에에 지 풀 이름 대신 와일드 카드 SAN 항목을 사용할 수 있습니다. 주체 이름은 배포 된 모든에 지 풀에 대 한 액세스에 지 풀 이름이 될 수 있습니다.
 
   ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
@@ -581,7 +581,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
   ```
 
 > [!NOTE]
-> Sip에 대해 외부 DNS 항목을 만들지 않아야 합니다. \<microsoft.rtc.management.xds.sipdomain object\>이 이름은 Office 365 배포에 속합니다.
+> Sip에 대해 외부 DNS 항목을 만들지 않아야 합니다. \< \>이 이름은 Microsoft 365 또는 Office 365 배포에 속해 있기 때문에 microsoft.rtc.management.xds.sipdomain object입니다.
 
 배포를 위해 다음 테이블을 사용할 수 있습니다.
 
@@ -712,7 +712,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - [비즈니스용 Skype 클라우드 커넥터 에디션 구성 및 관리](configure-skype-for-business-cloud-connector-edition.md)
 
-- [클라우드 커넥터 에디션에 미디어 바이패스 계획](plan-for-media-bypass-in-cloud-connector-edition.md)
+- [클라우드 커넥터 버전에서 미디어 바이패스 계획](plan-for-media-bypass-in-cloud-connector-edition.md)
 
 - [클라우드 커넥터 Edition에 미디어 바이패스 배포](deploy-media-bypass-in-cloud-connector.md)
 

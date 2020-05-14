@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 비즈니스용 Skype Online에서 온-프레미스로 사용자를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0add74a2480f4caed493e6e448427aa2462db714
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 64a5561fda35669be6ce7718c3ec037dcb8b9264
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779674"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221338"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>클라우드에서 사용자를 온-프레미스로 이동 
 
@@ -49,16 +49,16 @@ ms.locfileid: "43779674"
 
 ### <a name="move-users-with-move-csuser"></a>사용자를 이동 하는 사용자 이동
 
-이동-CsUser는 온-프레미스 비즈니스용 Skype 관리 셸 PowerShell 창에서 사용할 수 있습니다. [필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 Office 365 조직 뿐만 아니라 온-프레미스 환경 둘 다에도 충분 한 권한이 있어야 합니다. 두 환경 모두에서 권한이 있는 단일 계정을 사용 하거나 온-프레미스 자격 증명을 사용 하 여 온-프레미스 비즈니스용 Skype 서버 관리 셸 창을 시작 하 고 `-Credential` 매개 변수를 사용 하 여 필요한 office 365 관리 역할이 있는 office 365 계정에 대 한 자격 증명을 지정할 수 있습니다.
+이동-CsUser는 온-프레미스 비즈니스용 Skype 관리 셸 PowerShell 창에서 사용할 수 있습니다. [필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 클라우드 서비스 조직 (Microsoft 365 또는 Office 365) 뿐만 아니라 온-프레미스 환경 둘 다에도 충분 한 권한이 있어야 합니다. 두 환경 모두에서 권한이 있는 단일 계정을 사용 하거나 온-프레미스 자격 증명을 사용 하 여 온-프레미스 비즈니스용 Skype 서버 관리 셸 창을 시작 하 고 `-Credential` 매개 변수를 사용 하 여 필요한 관리 역할이 있는 Microsoft 365 또는 Office 365 계정에 대 한 자격 증명을 지정할 수 있습니다.
 
 CsUser를 사용 하 여 사용자를 온-프레미스로 이동 하려면 다음을 수행 합니다.
 
 - Identity 매개 변수를 사용 하 여 이동할 사용자를 지정 합니다.
 - 사용자를 호스팅할 원하는 온-프레미스 풀의 정규화 된 도메인 이름으로-Target 매개 변수를 지정 합니다.
-- 온-프레미스 및 Office 365 둘 다에서 충분 한 사용 권한이 있는 계정이 없는 경우-credential 매개 변수를 사용 하 여 Office 365에서 충분 한 사용 권한을 가진 계정을 제공 합니다.
-- Office 365에서 사용 권한이 있는 계정이 "on.microsoft.com"로 끝나지 않는 경우에는 [필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 올바른 값을 사용 하 여-HostedMigrationOverrideUrl 매개 변수를 지정 해야 합니다.
+- 온-프레미스와 클라우드 서비스 (Microsoft 365 또는 Office 365) 둘 다에서 충분 한 사용 권한이 있는 계정이 없는 경우에는-credential 매개 변수를 사용 하 여 Microsoft 365 또는 Office 365에 충분 한 사용 권한이 있는 계정을 제공 합니다.
+- Microsoft 365 또는 Office 365의 사용 권한이 있는 계정이 "on.microsoft.com"로 끝나지 않으면-HostedMigrationOverrideUrl 매개 변수를 지정 하 고 [필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 올바른 값을 사용 해야 합니다.
 
-다음 cmdlet 시퀀스를 사용 하 여 사용자를 비즈니스용 Skype 서버로 이동할 수 있으며, Office 365 자격 증명이 별도의 계정이 고 자격 증명 확인에 대 한 입력으로 제공 된다고 가정 합니다.
+다음 cmdlet 시퀀스를 사용 하 여 사용자를 비즈니스용 Skype 서버로 이동 하 고, Microsoft 365 또는 Office 365 자격 증명이 별도의 계정 이며 Get-Credential 프롬프트에 대 한 입력으로 제공 된다고 가정 합니다.
 
 ```PowerShell
 $cred=Get-Credential
@@ -73,13 +73,13 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 3. **찾기를** 사용 하 여 온-프레미스로 다시 이동할 사용자를 찾습니다.
 4. 사용자를 선택 하 고 목록 위의 **작업** 드롭다운에서 **선택한 사용자를 온-프레미스로 이동을**선택 합니다.
 5. 마법사에서 사용자를 호스팅할 사용자 풀을 선택 하 고 **다음**을 클릭 합니다.
-6. 메시지가 표시 되 면 onmicrosoft.com로 끝나고 충분 한 사용 권한이 있는 계정을 사용 하 여 Office 365에 로그인 합니다.
+6. 메시지가 표시 되 면 onmicrosoft.com로 끝나고 충분 한 사용 권한이 있는 계정을 사용 하 여 Microsoft 365 또는 Office 365에 로그인 합니다.
 7. **다음**을 클릭 하 고 **다음으로 한 번** 더 사용자를 이동 합니다.
 8. 성공 또는 실패와 관련 된 상태 메시지는 마법사가 아니라 주 제어판 앱의 위쪽에 제공 됩니다.
 
 ### <a name="removing-teamsonly-mode"></a>TeamsOnly 모드 제거
 
-않았습니다과 함께 비즈니스용 Skype 2015 이전 버전을 사용 하는 경우 사용자가 TeamsOnly 모드에서 온-프레미스로 다시 이동 하는 경우 사용자를 온-프레미스로 이동 하기 전에의 `TeamsUpgradePolicy` UpgradeToTeams 인스턴스를 제거 해야 합니다. 정책을 다른 모드로 명시적으로 부여 하거나, 해당 사용자에 대 한 기존 정책 할당을 제거 하 여 전역 정책을 사용 하도록 할 수 있습니다 (테 넌 트의 전역 정책이 업그레이드 되지 않는 경우).
+않았습니다과 함께 비즈니스용 Skype 2015 이전 버전을 사용 하는 경우 사용자가 TeamsOnly 모드에서 온-프레미스로 다시 이동 하는 경우 사용자를 온 `TeamsUpgradePolicy` -프레미스로 이동 하기 전에의 UpgradeToTeams 인스턴스를 제거 해야 합니다. 정책을 다른 모드로 명시적으로 부여 하거나, 해당 사용자에 대 한 기존 정책 할당을 제거 하 여 전역 정책을 사용 하도록 할 수 있습니다 (테 넌 트의 전역 정책이 업그레이드 되지 않는 경우).
 
 TeamsUpgradePolicy에 대 한 사용자의 할당을 제거 하려면 비즈니스용 Skype Online PowerShell 창에서 다음 cmdlet을 실행 합니다.
 

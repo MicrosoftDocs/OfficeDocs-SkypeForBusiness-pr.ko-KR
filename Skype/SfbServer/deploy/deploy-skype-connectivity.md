@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '요약: skype 소비자에 비즈니스용 Skype 서버를 연결 하는 방법을 알아봅니다. Skype 연결이 라고도 합니다.'
-ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b0cae57ac357b2b88d74b6326176c7cb7cdaf22e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780067"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219748"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에 Skype 연결 배포
 
@@ -73,11 +73,11 @@ Skype 디렉터리 검색 기능은 비즈니스용 Skype 사용자에 게 Skype
 > [!NOTE]
 > 큐에 대기 중인 요청이 너무 많은 경우 비즈니스용 Skype 서버에서 들어오는 요청을 제한 합니다. 
   
-## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Office 365에서 비즈니스용 Skype Online에 대 한 Skype 연결 배포
+## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>비즈니스용 Skype Online에 대 한 Skype 연결 배포
 
-Skype 연결은 Office 365의 일부인 비즈니스용 Skype Online의 기능 이기도 합니다. Microsoft 365 관리 센터 내의 비즈니스용 Skype 관리 센터에서 Skype 연결 기능을 사용 하도록 설정할 수 있습니다.
+또한 skype 연결은 비즈니스용 Skype Online의 기능으로, Microsoft 365 및 Office 365에 속합니다. Microsoft 365 관리 센터 내의 비즈니스용 Skype 관리 센터에서 Skype 연결 기능을 사용 하도록 설정할 수 있습니다.
   
-Office 365 중간 규모 비즈니스, Office 365 Enterprise, Office 365 교육 및 정부용 Office 365: Microsoft 365 관리 센터에 로그인 하 여 비즈니스용 Skype 관리 센터로 이동 합니다. 외부 통신으로 이동 합니다. 공용 IM 서비스 공급자 아래에서 사용을 클릭 합니다. Skype 연결에 대 한 개별 사용자 액세스를 제어 하려는 경우 개별 사용자의 외부 통신 설정을 편집 하 여 이러한 작업을 수행할 수 있습니다.
+Microsoft 365 중간 규모 비즈니스, Office 365 Enterprise, Microsoft 365 교육 및 정부용 Office 365: Microsoft 365 관리 센터에 로그인 하 여 비즈니스용 Skype 관리 센터로 이동 합니다. 외부 통신으로 이동 합니다. 공용 IM 서비스 공급자 아래에서 사용을 클릭 합니다. Skype 연결에 대 한 개별 사용자 액세스를 제어 하려는 경우 개별 사용자의 외부 통신 설정을 편집 하 여 이러한 작업을 수행할 수 있습니다.
   
 Office 365 Small Business Premium: Office 365에 로그인 하 고 관리 \> 서비스 설정 \> 인스턴트 메시징, 모임 및 회의로 이동 합니다. 외부 통신을 설정 합니다. 외부 통신 스위치는 비즈니스용 Skype를 사용 하는 다른 조직과의 통신 및 Skype 연결을 모두 설정 합니다.
   
@@ -204,7 +204,7 @@ Skype 연결 구성도 PowerShell을 사용 하 여 수행할 수 있습니다. 
     
    - ProxyFqdn: Skype 페더레이션에 지 (Microsoft에서 소유/유지 관리) 위치
     
-   - IconURL: Lync &amp; Skype for Business 클라이언트에서 Skype 연락처를 시각적으로 식별 하는 데 사용 하는 아이콘
+   - IconURL: Lync &amp; skype For Business 클라이언트에서 Skype 연락처를 시각적으로 식별 하는 데 사용 하는 아이콘
     
    - NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList: 이러한 설정을 사용 하면 사용자가 "msn.com"를 사용 하 여 Microsoft 도메인이 아닌 도메인을 "데코레이팅" 할 필요 없이 Skype 사용자의 MSAs 입력할 수 있습니다. 이렇게 하면 ExcludedDomainList에 없는 모든 도메인에 대해 "user (contoso) @msn .com"을 입력할 필요가 없습니다. 도메인이 제외 된 목록에 없는 경우 SfB 클라이언트는 자동으로 MSA의 형식을 지정 합니다. 가장 일반적인 Microsoft 계정 도메인을 제외 된 목록에 추가 했습니다.
     
@@ -212,7 +212,7 @@ Skype 연결 구성도 PowerShell을 사용 하 여 수행할 수 있습니다. 
      > 변경 된 경우 Public Provider를 제거 하 고 새로 추가 해야 합니다. 전체 변경 내용은 허용 되지 않습니다. 
   
      > [!NOTE]
-     > Lync Server 2013 CU5 &amp; lync desktop Client in Office 2013 s p 1에 추가 된 NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList는 타사 도메인을 식별 하 고이를 skype로 라우팅하기 위해 lync 사용자가 skype 대화 상대를 추가할 필요가 있는 상황을 개선 합니다 (예: 사용자 (contoso) @msn .com). 이러한 새 설정을 사용 하면 NameDecorationRoutingDomain (현재 msn.com, live.com, Hotmail.com, outlook.com)의 도메인을 포함 하 고 있지 않은 경우 msn.com로 설정 되는 "Skype 대화 상대 추가" 대화 상자에서 주소 사용자의 입력을 자동으로 포맷할 수 있습니다. 
+     > Lync Server 2013 CU5 lync desktop client in Office 2013 s p 1에 추가 &amp; 된 NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList는 타사 도메인을 식별 하 고이를 skype로 라우팅하기 위해 lync 사용자가 skype 대화 상대를 추가할 필요가 있는 상황을 개선 합니다 (예: 사용자 (contoso) @msn .com). 이러한 새 설정을 사용 하면 NameDecorationRoutingDomain (현재 msn.com, live.com, Hotmail.com, outlook.com)의 도메인을 포함 하 고 있지 않은 경우 msn.com로 설정 되는 "Skype 대화 상대 추가" 대화 상자에서 주소 사용자의 입력을 자동으로 포맷할 수 있습니다. 
   
 3. 비즈니스용 Skype 클라이언트 사용자는 이제 Skype 사용자를 검색 하 고 추가할 수 있습니다.
     
@@ -247,4 +247,3 @@ Skype 연결 구성도 PowerShell을 사용 하 여 수행할 수 있습니다. 
 |Lync Phone Edition  <br/> |해당 없음  <br/> |해당 없음  <br/> |
 |Lync 전화 교환  <br/> |해당 없음  <br/> |해당 없음  <br/> |
    
-

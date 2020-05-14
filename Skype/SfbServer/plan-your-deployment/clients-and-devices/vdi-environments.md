@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 이 항목에서는 원격 가상 데스크톱에 연결 하는 동안 비즈니스용 Skype를 사용할 때의 계획 고려 사항에 대해 설명 합니다.
-ms.openlocfilehash: c2972e2b453b6cf5592ddc8b3b48dfceee9a4e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6886eab8a13db852e0aa86b63d08aa33f82fdaed
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027999"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219528"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>VDI 환경에서 비즈니스용 Skype 계획
  
@@ -43,7 +43,7 @@ Microsoft, Citrix 또는 VMWare에서 제공 하는 VDI 플러그 인 구성 요
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX 실시간 최적화 팩
 <a name="Citrix_RT"> </a>
 
-Citrix의 VDI 환경 플러그 인 (XenApp 및 XenDesktop의 특징)은 Lync 2013 및 비즈니스용 Skype 2015 및 2016 (전체 클라이언트는 설치 관리자를 실행 하는 모든 권한 또는 사용이 가능한 MSI 설치 프로그램 또는 1 월 2017 PU) 클라이언트에 설치 되어 있는 경우에만 사용할 수 있습니다. 데스크톱. 이 작업은 Microsoft Lync VDI 플러그 인을 기반으로 하지만 Windows 10, Macintosh 및 Linux를 포함 하 여 광범위 한 클라이언트 운영 체제에서 작동 합니다.
+Citrix의 VDI 환경 플러그 인 (XenApp 및 XenDesktop의 특징)은 Lync 2013 및 비즈니스용 Skype 2015 및 2016 (전체 클라이언트는 설치 관리자를 실행 하는 모든 권한 또는 모든 클라이언트가 가상 데스크톱에 설치 된 경우에는 모든 경우에 사용 하는 클라이언트 또는 1 월 2017 일 이후에 릴리스된 MSI installer)와 호환 됩니다. 이 작업은 Microsoft Lync VDI 플러그 인을 기반으로 하지만 Windows 10, Macintosh 및 Linux를 포함 하 여 광범위 한 클라이언트 운영 체제에서 작동 합니다.
   
 [Microsoft 비즈니스용 Skype를 XenApp 및 XenDesktop 사용자에 게 제공 하](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)여 Citrix 웹 사이트에서 기능 및 지원 되는 기술의 전체 목록을 확인할 수 있습니다.
   
@@ -62,7 +62,7 @@ VMWare의 VDI 환경 솔루션은 가상 데스크톱에 설치 된 비즈니스
   
 기능 및 지원 되는 기술에 대 한 자세한 내용은 VMWare 웹 사이트에서 다음 링크를 참조 하십시오.
   
-- [VMware 수평 7.4 &amp; 수평 4.7의 새로운 기능](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
+- [VMware 수평 7.4 수평 4.7의 새로운 기능 &amp;](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
     
 - [비즈니스용 Skype에 대 한 수평 가상화 팩](https://www.vmware.com/products/horizon/skype-for-business.mdl)
     
@@ -161,10 +161,10 @@ VDI 환경에서 비즈니스용 Skype 2015 클라이언트를 사용할 때의 
     
 - 사용자 지정 된 벨 소리 및 보류 된 음악 기능
     
-Lync VDI 플러그 인은 Office 365 환경에서 지원 되지 않습니다.
+Lync VDI 플러그 인은 Microsoft 365 또는 Office 365 환경에서 지원 되지 않습니다.
   
 > [!NOTE]
-> Citrix 실시간 최적화 팩은 Office 365을 지원 합니다. Citrix 기반 가상 환경의 경우 지원 되는 기능 및 버전 목록에 대 한 Citrix [기술 개요](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) 설명서를 검토 하십시오.
+> Citrix 실시간 최적화 팩은 Microsoft 365 및 Office 365를 지원 합니다. Citrix 기반 가상 환경의 경우 지원 되는 기능 및 버전 목록에 대 한 Citrix [기술 개요](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) 설명서를 검토 하십시오.
   
 ## <a name="see-also"></a>참고 항목
 <a name="Citrix_RT"> </a>

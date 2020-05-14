@@ -3,7 +3,7 @@ title: CQD PSTN 다이렉트 라우팅 보고서 사용
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: siunies
+ms.reviewer: siunies, fan.fan
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,19 +15,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD PSTN 다이렉트 라우팅 보고서를 사용 하 여 Microsoft 팀에서 PSTN 통화를 모니터링 하 고 문제를 해결 하세요.
-ms.openlocfilehash: 32d91d56e51c5706c3e460029312f3b6bb6948c3
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559616"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221752"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN 다이렉트 라우팅 보고서 사용
 
 2 월 2020 새 [cqd에 대 한 다운로드 가능한 POWER BI 쿼리 서식 파일](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)에 CQD PSTN 다이렉트 라우팅 보고서가 추가 되었습니다. 
 
 
-CQD PSTN 다이렉트 라우팅 보고서는 사용자가 SBC, 전화 통신 서비스, 네트워크 매개 변수 및 네트워크 효율성 수준에 대 한 정보를 모니터 하는 데 도움이 되는 사용 패턴 및 품질에 대해 이해 하 고 있습니다. services. 이 정보는 통화 제거 사유를 포함 하 여 문제를 식별 하는 데 도움이 될 수 있습니다. 예를 들어 볼륨을 언제까지 언제 얼마나 표시 되는지 알 수 있으며, 그 이유 때문에 발생 하는 통화 수는 얼마 입니까?
+CQD PSTN 다이렉트 라우팅 보고서 (pbit d PSTN 다이렉트 라우팅 보고서)는 PSTN 서비스의 사용 패턴 및 품질을 이해 하는 데 도움이 됩니다. 이 보고서를 사용 하 여 서비스 사용 현황, SBC (세션 경계 컨트롤러)에 대 한 정보, 전화 통신 서비스, 네트워크 매개 변수, 네트워크 효율성 비율에 대 한 세부 정보를 모니터링할 수 있습니다. 이 정보는 통화 제거 사유를 포함 하 여 문제를 식별 하는 데 도움이 될 수 있습니다. 예를 들어 볼륨의 낙하 또는 영향을 받는 통화 수와 그 이유를 확인할 수 있습니다.
+
 
 CQD PSTN 다이렉트 라우팅 보고서에는 다음과 같은 네 가지 섹션이 있습니다.
 
@@ -38,6 +39,24 @@ CQD PSTN 다이렉트 라우팅 보고서에는 다음과 같은 네 가지 섹�
   - [네트워크 효율성 비율](#network-effectiveness-ratio)
 
   - [네트워크 매개 변수](#network-parameters)
+
+## <a name="highlights"></a>내용을
+
+1. 통화 유형, SBC, 발신자, 호출 수신자 국가로 분석
+
+   CQD PSTN 다이렉트 라우팅 보고서는 지난 7, 30 또는 180 일 (6 개월) 동안 테 넌 트의 모든 SBCs에 대 한 안정성 및 사용 메트릭을 집계 합니다. 호출 형식, SBC, 호출자 및 호출 수신자 국가를 기준으로 데이터를 분석할 수 있습니다. 특정 SBC 또는 국가에 관심이 있는 경우 선택한 시간 범위에 대 한 추세 변경 내용을 확인할 수 있습니다.
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="CQD PSTN 다이렉트 라우팅 보고서에서 사용할 수 있는 필터 스크린샷":::
+   
+2. 추세 추적
+
+    추세 분석은 서비스 사용 및 안정성을 이해 하는 데 반드시 필요 합니다. 시간별 추세는 실시간 사고를 식별 하는 데 도움이 되는 일일 성능에 대해 자세히 설명 합니다. 일일 추세를 통해 장기간 관점에서 서비스 상태를 확인할 수 있습니다. 적절 한 데이터 세분성을 사용 하 여 두 모드 사이를 전환 하는 것이 중요 합니다. CQD PSTN 다이렉트 라우팅 보고서는 6 개월 추세 개요, 7 년, 30 일 동안의 일일 추세, 각 수준에서 성능을 분석할 수 있도록 시간별 동향 등을 제공 합니다.
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="CQD PSTN 다이렉트 라우팅 보고서의 추세 그래프 스크린샷":::
+
+3. SBC 또는 사용자 수준으로 드릴 다운
+
+   SBC 또는 사용자 수준에서 사용 또는 안정성 분포를 빠르게 이해할 수 있는 CQD의 여러 데이터 범주에 대 한 드릴스루 기능을 작성 하 고 있습니다. 드릴스루를 사용 하 여 신속 하 게 문제를 poinpoint 하 고 실제 사용자에 게 미치는 영향을 파악할 수 있습니다. CQD PSTN 다이렉트 라우팅 보고서 기능은 서비스 세부 정보 및 네트워크 효율성 비율 메트릭에 따라 드릴 합니다. 관심 있는 데이터 요소를 클릭 하 여 SBC 또는 사용자 수준 정보로 드릴 다운 합니다.
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="데이터 요소의 드릴스루 기능을 보여 주는 스크린샷":::
+
 
 ## <a name="pstn-overview"></a>PSTN 개요
 

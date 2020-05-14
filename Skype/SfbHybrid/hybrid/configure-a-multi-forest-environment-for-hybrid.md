@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 다음 섹션에서는 하이브리드 시나리오에서 비즈니스용 Skype 기능을 제공 하기 위해 리소스/사용자 포리스트 모델에 여러 포리스트가 포함 된 환경을 구성 하는 방법에 대 한 지침을 제공 합니다.
-ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: cf3a162001756661afd0f204e9968713d9db0f5b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918687"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221482"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>리소스 포리스트 토폴로지 배포
  
@@ -35,7 +35,7 @@ ms.locfileid: "43918687"
 
 여러 사용자 포리스트를 지원 합니다. 다음 사항에 유의해야 합니다. 
     
-- 하이브리드 구성에서 지원 되는 Lync Server 및 비즈니스용 Skype [서버에 대](plan-hybrid-connectivity.md#server-version-requirements) 한 자세한 내용은 [Plan Hybrid Connectivity In 비즈니스용 Skype 서버 및 Office 365](plan-hybrid-connectivity.md)을 참조 하십시오.
+- 하이브리드 구성에서 지원 되는 Lync Server 및 비즈니스용 Skype [서버에 대](plan-hybrid-connectivity.md#server-version-requirements) 한 자세한 내용은 [Plan Hybrid Connectivity To 비즈니스용 Skype 서버 및 Microsoft 365 또는 Office 365](plan-hybrid-connectivity.md)을 참조 하십시오.
     
 - Exchange Server는 비즈니스용 Skype 서버가 포함 된 포리스트를 포함 하거나 포함할 수 없는 하나 이상의 포리스트에 배포 될 수 있습니다. 최신 누적 업데이트를 적용 했는지 확인 합니다.
     
@@ -73,9 +73,9 @@ ms.locfileid: "43918687"
     
 - 각 사용자 포리스트의 고유 UPN이 리소스 포리스트의 연결 된 비활성 개체와 동기화 된 경우 AD FS 인증이 실패 합니다. 일치 규칙은 리소스 포리스트에서 사용 하지 않도록 설정 되었으며 인증에 사용할 수 없는 개체에서 UPN을 찾습니다. 
     
-## <a name="create-an-office-365-organization"></a>Office 365 조 직 만들기
+## <a name="create-a-microsoft-365-or-office-365-organization"></a>Microsoft 365 또는 Office 365 조 직 만들기
 
-다음에는 배포에서 사용할 Office 365 조 직을 프로 비전 해야 합니다. 자세한 내용은 [구독, 라이선스, 계정 및 Microsoft 클라우드 서비스에 대 한 테 넌 트](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)를 참조 하세요. 
+다음에는 배포에 사용할 Microsoft 365 또는 Office 365 조 직을 프로 비전 해야 합니다. 자세한 내용은 [구독, 라이선스, 계정 및 Microsoft 클라우드 서비스에 대 한 테 넌 트](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)를 참조 하세요. 
   
 ## <a name="configure-active-directory-federation-services"></a>Active Directory Federation Services 구성
 
@@ -91,9 +91,9 @@ SIP/SMTP 및 Upn이 일치 하는 배포만 테스트 되었습니다. 일치 �
     
 각 사용자 포리스트에 AD FS 팜을 배치 하 고 각 포리스트에 고유한 SIP/SMTP/UPN을 사용 하 여 두 가지 문제를 해결 합니다. 해당 특정 사용자 포리스트의 계정만 인증 시도 중에 검색 되어 일치 합니다. 이렇게 하면 보다 원활한 인증 프로세스를 제공 하는 데 도움이 됩니다. 
   
-이 작업은 Windows Server 2012 R2 AD FS의 표준 배포가 며 계속 하기 전에 작동 해야 합니다. 자세한 내용은 [AD FS 2012 R2 For Office 365을 설치 하는 방법을](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)참조 하십시오. 
+이 작업은 Windows Server 2012 R2 AD FS의 표준 배포가 며 계속 하기 전에 작동 해야 합니다. 자세한 내용은 [AD FS 2012 R2 For Microsoft 365 또는 Office 365을 설치 하는 방법을](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)참조 하십시오. 
   
-배포한 후에는 이전에 선택한 원본 앵커와 일치 하도록 클레임 규칙을 편집 해야 합니다. AD FS MMC의 신뢰 당사자 트러스트에서 **Microsoft Office 365 Id 플랫폼**을 마우스 오른쪽 단추로 클릭 한 다음 **클레임 규칙 편집**을 클릭 합니다. 첫 번째 규칙을 편집 하 고 ObjectSID를 **employeeNumber**로 변경 합니다. 
+배포한 후에는 이전에 선택한 원본 앵커와 일치 하도록 클레임 규칙을 편집 해야 합니다. AD FS MMC의 신뢰 당사자 트러스트에서 **microsoft 365 Id 플랫폼** 또는 **Microsoft Office 365 id 플랫폼**을 마우스 오른쪽 단추로 클릭 한 다음 **클레임 규칙 편집**을 선택 합니다. 첫 번째 규칙을 편집 하 고 ObjectSID를 **employeeNumber**로 변경 합니다. 
   
 ![다중 포리스트 규칙 편집 화면](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
@@ -107,9 +107,9 @@ AAD 연결은 계정 및 리소스 포리스트 간에 온-프레미스 동기�
   
 ![다중 포리스트 메타 버스 개체 화면](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-녹색으로 강조 표시 된 특성은 Office 365에서 병합 되었으며, 노란색은 사용자 포리스트에서, 파란색은 리소스 포리스트의에 있습니다. 
+녹색으로 강조 표시 된 특성은 Microsoft 365 또는 Office 365에서 병합 되었으며, 노란색은 사용자 포리스트에서, 파란색은 리소스 포리스트를 사용 하는 것입니다. 
   
-이는 테스트 사용자이 고, 이전에 선택한 employeeNumber 인 1101 경우 AAD Connect가 사용자의 출처 앵커와 cloudSourceAnchor 및 Office 365의 리소스 포리스트 개체를 확인 했음을 확인할 수 있습니다. 그런 다음 위에 표시 된 것과이 개체를 병합할 수 있습니다. 
+이는 테스트 사용자이 고, 이전에 선택한 employeeNumber 인 1101 경우 AAD Connect가 사용자의 출처 앵커와 cloudSourceAnchor 및 Microsoft 365 또는 Office 365의 리소스 포리스트 개체를 확인 했음을 확인할 수 있습니다. 그런 다음 위에 표시 된 것과이 개체를 병합할 수 있습니다. 
   
 자세한 내용은 [Azure Active Directory를 사용 하 여 온-프레미스 디렉터리 통합](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)을 참조 하세요. 
   

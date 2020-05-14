@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버에 있는 사용자에 대해 클라우드 기반 음성 메일을 구현 하기 위한 지침입니다.
-ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288716"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221462"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 구성
 
@@ -84,7 +84,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - **조직** 은 테 넌 트에 할당 된 기본 도메인입니다. 테 넌 트 관리자 로그인을 통해 office.com에이 정보를 검색할 수 있으며, 관리 센터 앱을 클릭 하 고, 왼쪽의 **설정** 으로 이동한 후 **도메인**을 클릭 합니다. 예: mytenant.onmicrosoft.com.
 
-    조직 이름은 Office 365의 기본 도메인 이름 이기도 합니다.
+    조직 이름은 Microsoft 365 또는 Office 365의 기본 도메인 이름 이기도 합니다.
 
 호스팅된 음성 메일 정책이 제대로 만들어졌는지 확인 하려면 다음 명령을 실행 합니다.
 
@@ -100,7 +100,7 @@ Get-CsHostedVoicemailPolicy
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>사용자가 클라우드 음성 메일을 사용할 수 있도록 설정

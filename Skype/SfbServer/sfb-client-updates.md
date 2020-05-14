@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 비즈니스용 Skype 2016, 비즈니스용 Skype 2015 및 Lync 2013 클라이언트에 대 한 최신 업데이트 정보에 대 한 링크를 IT 전문가에 게 제공 합니다.
-ms.openlocfilehash: 8a6008845c4218c8682a22cbab110551999d19cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f8ee4756c38f6917a814db1672b29db3c7f6ca6c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779704"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221882"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows Installer (MSI)를 사용 하는 비즈니스용 Skype 버전에 대 한 최신 업데이트
 
@@ -25,14 +25,14 @@ ms.locfileid: "43779704"
 
 > [!NOTE]
 > - 이 문서의 정보는 Windows Installer (MSI) 설치 기술을 사용 하는 비즈니스용 Skype의 정품 버전에만 적용 됩니다. 예를 들어 Office Professional Plus 2016에 포함 된 비즈니스용 skype에 대 한 볼륨 라이선스 버전의 비즈니스용 skype를 설치한 경우
-> - 이 문서의 정보는 비즈니스용 skype의 Office 365 버전에는 적용 되지 않습니다 (Microsoft 365 앱 for Business에 포함).
+> - 이 문서의 정보는 microsoft 365 for enterprise 앱에 포함 된 비즈니스용 skype와 같은 Microsoft 365 또는 Office 365 버전의 비즈니스용 Skype에는 적용 되지 않습니다.
 > - 최신 모바일 클라이언트 업데이트의 경우 모바일 클라이언트용 앱 스토어 (iTunes, Google Play 또는 Microsoft Store)로 이동 하 여 세부 정보를 확인 하 고 업데이트를 설치 합니다.
 > - 사용 중인 비즈니스용 Skype 버전을 확인 하려면 [어떤 비즈니스용 skype가 있습니까?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016) 를 참조 하세요.
 > - Office 업데이트 설치에 대한 자세한 내용은 [Office 업데이트 설치](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)를 참조하세요.
 
-Office 365 및 온-프레미스 환경과의 비즈니스용 Skype 호환성은 배포에 대 한 시스템 요구 사항에 따라 달라 집니다.
+Microsoft 365 또는 Office 365 및 온-프레미스 환경과의 비즈니스용 Skype 호환성은 배포에 대 한 시스템 요구 사항에 따라 달라 집니다.
 
-- Office 365은 기본 지원 (비즈니스용 skype 2016의 최신 버전)이 포함 된 모든 비즈니스용 Skype 버전에서 작동 합니다. 이전 버전의 비즈니스용 Skype의 경우 기능이 제한 되지만 Office 365에서는 연장 지원이 가능한 프로그램만 계속 작동할 수 있습니다. 자세한 내용은 [Microsoft 수명 주기 정책을](https://support.microsoft.com/lifecycle)참조 하세요.
+- Microsoft 365 및 Office 365은 기본 지원 (비즈니스용 skype 2016의 최신 버전)이 포함 된 모든 비즈니스용 Skype 버전에서 작동 합니다. 이전 버전의 비즈니스용 Skype의 경우에는 기능이 제한 되지만 Microsoft 365 또는 Office 365에서는 연장 지원이 가능한 프로그램만 계속 작동할 수 있습니다. 자세한 내용은 [Microsoft 수명 주기 정책을](https://support.microsoft.com/lifecycle)참조 하세요.
 
 - 비즈니스용 skype 서버 온-프레미스 배포에 대 한 시스템 요구 사항에 따라 비즈니스용 사용자 버전을 확인 합니다.
 

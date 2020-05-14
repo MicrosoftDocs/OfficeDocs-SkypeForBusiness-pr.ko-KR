@@ -16,12 +16,12 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 58c264075608817ef805f7b6c58f8b39394fc369
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905500"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224231"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -40,11 +40,12 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 - 사용자는 Microsoft Stream의 저장 공간이 충분하여 녹음/녹화를 저장할 수 있습니다.
 - 사용자에게 TeamsMeetingPolicy-AllowCloudRecording 설정이 True로 설정되어 있습니다.
 - 사용자는 모임에서 익명, 게스트 또는 페더레이션 사용자가 아닙니다.
+- 사용자의 모임에 대 한 기록을 사용 하도록 설정 하려면, 자신에 게 할당 된 팀 모임 정책에 대해-AllowTranscription 설정을 true로 설정 해야 합니다.
 
-> [!NOTE]
-> 또한 녹음/녹화를 시작하는 사용자가 녹음/녹화의 자동 기록 여부를 선택할 수 있도록 허용하려면 사용자의 TeamsMeetingPolicy-AllowTranscription 설정을 True로 설정해야 합니다.
+<sup>1</sup> 사용자에 게 Microsoft Stream에 대 한 모임 업로드/다운로드를 위한 라이선스가 필요 하지는 않지만 모임을 녹음/녹화할 수 있는 라이선스는 없습니다. Microsoft Temas 모임을 녹음/녹화하는 것에서 사용자를 차단하려면 AllowCloudRecording이 False로 설정된 TeamsMeetingPolicy를 부여해야 합니다.
 
-<sup>1</sup>사용자는 Microsoft Stream으로/에서 모임을 업로드/다운로드하는 데 라이선스가 있어야 하지만 모임을 녹음/녹화할 라이선스는 필요하지 않습니다. Microsoft Temas 모임을 녹음/녹화하는 것에서 사용자를 차단하려면 AllowCloudRecording이 False로 설정된 TeamsMeetingPolicy를 부여해야 합니다.
+> [!IMPORTANT] 
+> 사용자가 녹음/녹화만 기록 하 고 다운로드 하도록 하려면 사용자에 게 Microsoft Stream 라이선스가 할당 되어 있지 않아도 됩니다. 이는 녹화가 Microsoft Stream에 저장 되지 않지만, 삭제 되기 30 일 제한을 초과 하 여 Azure Media Services (AMS)에 저장 되는 것을 의미 합니다. 이 시점에는 관리자가 제어 하거나 관리할 수 있는 것이 아니라,이를 삭제 하는 기능도 포함 되어 있지 않습니다.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>조직의 사용자를 위해 Teams 클라우드 모임 녹음/녹화 설정
 
@@ -54,7 +55,7 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 
 Microsoft Stream은 적격 Microsoft 365 및 Office 365 구독의 일부로 또는 독립 실행형 서비스로 사용할 수 있습니다.  자세한 내용은 [Stream 라이선싱 개요](https://docs.microsoft.com/stream/license-overview)를 참조하세요.  Microsoft Stream이 이제 Microsoft 365 비즈니스, Microsoft 365 Business Standard 및 Microsoft 365 Business Basic에 포함 되어 있습니다.
 
-사용자가 Microsoft Stream에 액세스할 수 있도록 [Office 365에서 사용자에게 라이선스를 할당](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)하는 방법에 대해 자세히 알아보세요. [해당 문서](https://docs.microsoft.com/stream/disable-user-organization)에 정의된 대로 Microsoft Stream이 사용자에게 차단되지 않았는지 확인합니다.
+사용자가 Microsoft Stream에 액세스할 수 있도록 [Office 365에서 사용자에게 라이선스를 할당](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)하는 방법에 대해 자세히 알아보세요. [Microsoft stream에 대 한 등록 차단](https://docs.microsoft.com/stream/disable-user-organization)에서 정의한 대로 microsoft stream이 사용자에 대해 차단 되지 않았는지 확인 합니다.
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>사용자가 Microsoft Stream에서 비디오 업로드 권한이 있는지 확인
 
@@ -132,7 +133,7 @@ PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowTranscription 설정을
 
 ### <a name="planning-for-storage"></a>저장소 계획
 
-1시간 녹음/녹화 크기는 400MB입니다. 녹음/녹화된 파일에 대한 필요한 용량을 알고 있어야 하며 Microsoft Stream에서 충분한 저장소를 사용할 수 있는지 확인합니다.  구독에 포함된 기본 저장소 및 추가 저장소를 구입하는 방법을 이해하려면 [이 문서](https://docs.microsoft.com/stream/license-overview)를 참조하세요.
+1시간 녹음/녹화 크기는 400MB입니다. 녹음/녹화된 파일에 대한 필요한 용량을 알고 있어야 하며 Microsoft Stream에서 충분한 저장소를 사용할 수 있는지 확인합니다.  [Microsoft Stream 라이선스 개요](https://docs.microsoft.com/stream/license-overview) 를 읽고 구독에 포함 된 기본 저장소와 추가 저장소를 구입 하는 방법에 대해 알아보세요.
 
 ## <a name="manage-meeting-recordings"></a>모임 녹음/녹화 관리
 
@@ -140,7 +141,6 @@ PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowTranscription 설정을
 
 > [!NOTE]
 > 녹음/녹화 및 사용자 액세스 관리에 대한 자세한 내용은 [Microsoft Stream에서 사용자 데이터 관리](https://docs.microsoft.com/stream/managing-user-data) 및 [Microsoft Stream에서 사용 권한 및 개인 정보 보호](https://docs.microsoft.com/stream/portal-permissions)를 참조하세요.
-
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>모임 녹음/녹화에 대한 규정 준수 및 eDiscovery
 

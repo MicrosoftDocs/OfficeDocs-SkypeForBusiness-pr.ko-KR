@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Edge 서버를 하나 이상 배포한 후에는 조직에 대해 지원할 유형의 외부 액세스를 사용하도록 설정해야 합니다.
-ms.openlocfilehash: e4405585da71dc48f5fa1790f83938a814270d84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
-ms.translationtype: HT
+ms.openlocfilehash: e3feecfffa591df5433ce45526ec236ca6ef8b42
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818279"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221662"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>조직에 대한 외부 액세스 정책 관리
 
@@ -41,7 +41,7 @@ Edge 서버를 하나 이상 배포한 후에는 조직에 대해 지원할 유�
 
 이러한 옵션에는 다음과 같은 유형의 외부 액세스가 포함됩니다.
 
-  - **페더레이션 사용자와의 통신 사용**   페더레이션 파트너 도메인에 대한 사용자 액세스를 지원하려면 이 옵션을 사용하세요. 이 설정을 사용하면 사용자가 다른 SIP 페더레이션 도메인 뿐 아니라 호스트 공급자(예: Microsoft Office 365)와도 통신할 수 있습니다. 
+  - **페더레이션 사용자와의 통신 사용**   페더레이션 파트너 도메인에 대한 사용자 액세스를 지원하려면 이 옵션을 사용하세요. 이 설정은 사용자가 다른 SIP 페더레이션 도메인과 통신 하는 기능과 Microsoft 365 또는 Office 365 같은 호스트 된 공급자를 구성 합니다. 
 
 
   - **원격 사용자와의 통신 사용**   방화벽 외부에 있는 조직 사용자(예: 재택 근무자, 출장 중인 사용자)가 인터넷을 통해 Skype for Business Server에 연결할 수 있도록 하려면 이 옵션을 사용하도록 설정합니다.

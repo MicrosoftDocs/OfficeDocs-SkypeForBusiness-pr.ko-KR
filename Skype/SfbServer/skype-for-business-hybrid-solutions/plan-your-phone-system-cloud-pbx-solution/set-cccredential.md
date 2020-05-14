@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: 설정-CcCredential cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 에디션 배포의 자격 증명을 설정 합니다.
-ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780677"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221572"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -30,7 +30,7 @@ ms.locfileid: "43780677"
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
@@ -44,7 +44,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-Set-CcCredential cmdlet은 테 넌 트 관리자의 계정 이름 및 암호를 설정 합니다. 2.0 이전 버전의 경우이 관리자는 전역 관리자 여야 합니다. 클라우드 커넥터는이 계정을 사용 하 여 구성 정보를 가져오고, 구성 매개 변수를 설정 하 고, Office 365 조직 구성으로 기기 상태를 업데이트 합니다. 릴리스 2.0 이상에서이 cmdlet을 사용 하 여 VmAdmin 및 DomainAdmin 계정의 암호를 업데이트할 수도 있습니다.
+Set-CcCredential cmdlet은 테 넌 트 관리자의 계정 이름 및 암호를 설정 합니다. 2.0 이전 버전의 경우이 관리자는 전역 관리자 여야 합니다. 클라우드 커넥터는이 계정을 사용 하 여 구성 정보를 가져오고, 구성 매개 변수를 설정 하 고, Microsoft 365 또는 Office 365 조직 구성으로 기기 상태를 업데이트 합니다. 릴리스 2.0 이상에서이 cmdlet을 사용 하 여 VmAdmin 및 DomainAdmin 계정의 암호를 업데이트할 수도 있습니다.
   
 ## <a name="parameters"></a>매개 변수 
 <a name="DetailedDescription"> </a>

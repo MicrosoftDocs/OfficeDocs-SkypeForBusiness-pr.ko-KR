@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에 대 한 리소스 계정을 설정 합니다.
-ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042845"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221138"
 ---
 # <a name="configure-resource-accounts"></a>리소스 계정 구성
 
-비즈니스용 Skype 서버 2019 하이브리드 구현에서는 통합 메시징을 위해 전화 시스템에서 제공 하는 클라우드 서비스만 사용 하 고 Exchange Online과 통합 하지 않습니다. 비즈니스용 Skype 서버 2019에서 이제 [Office 365의 전화 시스템](/MicrosoftTeams/here-s-what-you-get-with-phone-system)에서 제공 하는 것과 같이 클라우드 통화 큐와 자동 전화 교환을 사용할 수 있습니다.
+비즈니스용 Skype 서버 2019 하이브리드 구현에서는 통합 메시징을 위해 전화 시스템에서 제공 하는 클라우드 서비스만 사용 하 고 Exchange Online과 통합 하지 않습니다. 비즈니스용 Skype 서버 2019에서는 이제 [Microsoft 365 또는 Office 365에서 전화 시스템으로](/MicrosoftTeams/here-s-what-you-get-with-phone-system)제공 되는 기능에 설명 된 클라우드 통화 큐 및 자동 전화 교환을 사용할 수 있습니다.
 
 비즈니스용 Skype 서버 2019에서 전화 시스템 자동 전화 교환 또는 통화 큐를 사용 하려면 응용 프로그램 끝점 역할을 하 고 전화 번호를 할당할 수 있는 리소스 계정을 만든 다음 온라인 팀 관리 센터를 사용 하 여 통화 큐 또는 자동 전화 교환을 구성 해야 합니다. 이 리소스 계정은 온라인으로 사용할 수 있습니다 (이 문서에서 설명 하는 것 처럼, [Microsoft 팀의 리소스 계정 관리](/MicrosoftTeams/manage-resource-accounts) 를 참조 하세요.) 또는 온-프레미스입니다. 일반적으로 여러 전화 시스템 자동 전화 교환 또는 전화 큐 노드가 있으며, 각각은 온라인 또는 비즈니스용 Skype 서버 2019에 있는 리소스 계정에 매핑됩니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "44042845"
 
 자동 전화 교환 또는 통화 큐가 최상위 자동 전화 교환 아래에 중첩 되어 있는 경우 연결 된 리소스 계정은 자동 전화 교환 및 전화 큐의 구조로 여러 항목을 입력 하려는 경우에만 전화 번호를 필요로 합니다.
 
-온라인에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하며 Enterprise Voice를 사용 하도록 설정 되어 있거나 Office 365 통화 계획이 있어야 합니다. [Microsoft 팀 추가 기능 라이선스 할당](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)을 참조 하세요. Windows PowerShell을 사용 하 여 Enterprise Voice에서 사용 하도록 설정할 수 있습니다. 예를 들면 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+온라인에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있고 Enterprise Voice를 사용할 수 있도록 설정 되어 있거나 Microsoft 365 또는 Office 365 통화 계획이 있어야 합니다. [Microsoft 팀 라이선스 할당](/MicrosoftTeams/assign-teams-licenses)을 참조 하세요. Windows PowerShell을 사용 하 여 Enterprise Voice에서 사용 하도록 설정할 수 있습니다. 예를 들면 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 만들려는 전화 시스템 자동 전화 교환 또는 통화 큐가 중첩 되 고 전화 번호가 필요 하지 않은 경우 프로세스는 다음과 같습니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "44042845"
 
 1. 무료 또는 유료 서비스 번호를 가져옵니다. 다른 음성 서비스나 자원 계정에는 번호를 할당할 수 없습니다.
 
-   리소스 계정에 전화 번호를 할당 하기 전에 기존 유료 또는 무료 서비스 번호를 가져오거나 이식 해야 합니다. 무료 또는 무료 서비스 전화 번호를 가져온 후에는 **Microsoft 팀 관리 센터** > **의 음성** > **전화 번호**에 표시 되며 나열 된 **번호 유형이** **서비스 무료 사용 가능**으로 표시 됩니다. 서비스 번호를 가져오려면 [서비스 전화 번호 가져오기를](/MicrosoftTeams/getting-service-phone-numbers) 참조 하거나 기존 서비스 번호를 전송 하려는 경우 [전화 번호를 팀에](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)연결을 참조 하세요.
+   리소스 계정에 전화 번호를 할당 하기 전에 기존 유료 또는 무료 서비스 번호를 가져오거나 이식 해야 합니다. 무료 또는 무료 서비스 전화 번호를 가져온 후에는 **Microsoft 팀 관리 센터**의  >  **음성**  >  **전화 번호**에 표시 되며 나열 된 **번호 유형이** **서비스 무료 사용 가능**으로 표시 됩니다. 서비스 번호를 가져오려면 [서비스 전화 번호 가져오기를](/MicrosoftTeams/getting-service-phone-numbers) 참조 하거나 기존 서비스 번호를 전송 하려는 경우 [전화 번호를 팀에](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)연결을 참조 하세요.
 
    미국 이외의 사용자는 Microsoft 팀 관리 센터를 사용 하 여 서비스 번호를 가져올 수 없습니다. 미국 외부에서 작업을 수행 하는 방법을 확인 하기 위해 대신 [조직의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) 로 이동 합니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "44042845"
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 Enterprise E5 비즈니스 소프트웨어](https://products.office.com/business/office-365-enterprise-e5-business-software)
 
-3. 각 전화 시스템 자동 전화 교환 또는 통화 큐에 `New-CsHybridApplicationEndpoint` 대해 cmdlet을 실행 하 여 온-프레미스 리소스 계정을 만들고 각 계정에 이름, sip 주소 등을 지정 합니다.
+3. `New-CsHybridApplicationEndpoint`각 전화 시스템 자동 전화 교환 또는 통화 큐에 대해 cmdlet을 실행 하 여 온-프레미스 리소스 계정을 만들고 각 계정에 이름, sip 주소 등을 지정 합니다.
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -76,7 +76,7 @@ ms.locfileid: "44042845"
 
     이 명령에 대 한 자세한 내용은 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 를 참조 하십시오.
 
-4. 반드시 리소스 계정을 만든 후에는 AD가 온라인 및 온-프레미스 간에 동기화 될 때까지 기다리거나, 동기화를 강제 수행 하 고 전화 시스템 자동 전화 교환 또는 통화 큐의 온라인 구성을 계속 진행할 수 있습니다. 동기화를 강제 수행 하려면 AAD 연결을 실행 하는 컴퓨터에서 다음 명령을 실행 합니다 (이 명령을 실행 하기 위해 로드 `import-module adsync` 해야 할 필요가 없는 경우).
+4. 반드시 리소스 계정을 만든 후에는 AD가 온라인 및 온-프레미스 간에 동기화 될 때까지 기다리거나, 동기화를 강제 수행 하 고 전화 시스템 자동 전화 교환 또는 통화 큐의 온라인 구성을 계속 진행할 수 있습니다. 동기화를 강제 수행 하려면 AAD 연결을 실행 하는 컴퓨터에서 다음 명령을 실행 합니다 (이 명령을 실행 하기 위해 로드 해야 할 필요가 없는 경우 `import-module adsync` ).
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -89,7 +89,7 @@ ms.locfileid: "44042845"
    리소스 계정에 전화 번호를 할당 하는 경우 이제 비용 무료 전화 시스템 가상 사용자 라이선스를 사용할 수 있습니다. 이렇게 하면 조직 수준의 전화 번호에 전화 시스템 기능이 제공 되며, 자동 전화 교환 및 전화 큐 기능을 만들 수 있습니다.
 
 
-6. 서비스 번호를 리소스 계정에 할당 합니다. `Set-CsHybridApplicationEndpoint` 명령을 사용 하 여 리소스 계정에-lineuri 옵션을 사용 하 여 전화 번호를 지정 합니다.
+6. 서비스 번호를 리소스 계정에 할당 합니다. 명령을 사용 `Set-CsHybridApplicationEndpoint` 하 여 리소스 계정에-LineURI 옵션을 사용 하 여 전화 번호를 지정 합니다.
 
     ``` Powershell
     Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
@@ -127,7 +127,7 @@ ms.locfileid: "44042845"
 
 비즈니스용 Skype 프런트 엔드 서버에 로그인 하 고 다음 PowerShell cmdlet을 실행 합니다.
 
-1. 각 전화 시스템 자동 전화 교환 또는 통화 큐에 `New-CsHybridApplicationEndpoint` 대해 cmdlet을 실행 하 여 온-프레미스 리소스 계정을 만들고 각 계정에 이름, sip 주소 등을 지정 합니다.
+1. `New-CsHybridApplicationEndpoint`각 전화 시스템 자동 전화 교환 또는 통화 큐에 대해 cmdlet을 실행 하 여 온-프레미스 리소스 계정을 만들고 각 계정에 이름, sip 주소 등을 지정 합니다.
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -135,7 +135,7 @@ ms.locfileid: "44042845"
 
     이 명령에 대 한 자세한 내용은 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 를 참조 하십시오.
 
-2. 반드시 리소스 계정을 만든 후에는 AD가 온라인 및 온-프레미스 간에 동기화 될 때까지 기다리거나, 동기화를 강제 수행 하 고 전화 시스템 자동 전화 교환 또는 통화 큐의 온라인 구성을 계속 진행할 수 있습니다. 동기화를 강제 수행 하려면 AAD 연결을 실행 하는 컴퓨터에서 다음 명령을 실행 합니다 (이 명령을 실행 하기 위해 로드 `import-module adsync` 해야 할 필요가 없는 경우).
+2. 반드시 리소스 계정을 만든 후에는 AD가 온라인 및 온-프레미스 간에 동기화 될 때까지 기다리거나, 동기화를 강제 수행 하 고 전화 시스템 자동 전화 교환 또는 통화 큐의 온라인 구성을 계속 진행할 수 있습니다. 동기화를 강제 수행 하려면 AAD 연결을 실행 하는 컴퓨터에서 다음 명령을 실행 합니다 (이 명령을 실행 하기 위해 로드 해야 할 필요가 없는 경우 `import-module adsync` ).
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -209,4 +209,4 @@ Exchange UM에서 전화 시스템으로 마이그레이션하는 경우에는 �
 
 [CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
-[Microsoft 팀](/MicrosoftTeams/manage-resource-accounts) - \(의 자원 계정을 관리 하 여 온라인으로 리소스 계정 만들기 홈\)
+[Microsoft 팀](/MicrosoftTeams/manage-resource-accounts)  -  \( 의 자원 계정 관리 홈 온라인 리소스 계정을 만들려면\)

@@ -1,5 +1,5 @@
 ---
-title: Office 365 음성 사서함에서 사용자의 엔터프라이즈 음성 온라인 및 전화 시스템을 사용 하도록 설정
+title: 사용자가 Enterprise Voice online 및 전화 시스템 음성 메일을 사용할 수 있도록 설정
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,25 +18,25 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: 비즈니스용 Skype 사용자를 위해 Office 365 음성 서비스에서 전화 시스템을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 비즈니스용 Skype 사용자에 대해 전화 시스템 음성 서비스를 사용 하도록 설정 하는 방법을 알아봅니다.
+ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780727"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221108"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Office 365 음성 사서함에서 사용자의 엔터프라이즈 음성 온라인 및 전화 시스템을 사용 하도록 설정
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>사용자가 Enterprise Voice online 및 전화 시스템 음성 메일을 사용할 수 있도록 설정
  
-비즈니스용 Skype 사용자를 위해 Office 365 음성 서비스에서 전화 시스템을 사용 하도록 설정 하는 방법을 알아봅니다.
+비즈니스용 Skype 사용자에 대해 전화 시스템 음성 서비스를 사용 하도록 설정 하는 방법을 알아봅니다.
   
-온-프레미스 PSTN 연결을 사용 하는 Office 365에서 전화 시스템을 배포 하는 마지막 단계는 Office 365 및 음성 메일에서 전화 시스템용 사용자를 사용 하도록 설정 하는 것입니다. 이러한 기능을 사용 하도록 설정 하려면 전역 관리자 역할을 가진 사용자 여야 하며 원격 PowerShell을 실행할 수 있어야 합니다. 비즈니스용 Skype Online에 Enterprise Voice가 사용 하도록 설정 되어 있지 않은 모든 사용자 계정에 대해이 항목의 단계를 수행 해야 합니다.
+온-프레미스 PSTN 연결을 사용 하 여 전화 시스템을 배포 하는 마지막 단계는 사용자가 전화 시스템 및 음성 메일을 사용할 수 있도록 하는 것입니다. 이러한 기능을 사용 하도록 설정 하려면 전역 관리자 역할을 가진 사용자 여야 하며 원격 PowerShell을 실행할 수 있어야 합니다. 비즈니스용 Skype Online에 Enterprise Voice가 사용 하도록 설정 되어 있지 않은 모든 사용자 계정에 대해이 항목의 단계를 수행 해야 합니다.
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a>Office 365 음성 서비스에서 전화 시스템 사용
+## <a name="enable-phone-system-voice-services"></a>전화 시스템 음성 서비스 사용
 
-Office 365 음성 및 음성 메일에서 전화 시스템에 대해 사용자를 사용 하도록 설정 하려면 비즈니스용 Skype Online 커넥터가 서버에 배포 되어 있는지 확인 하 고 사용자가 호스팅된 음성 메일을 사용할 수 있도록 하는 등의 초기 단계를 수행 해야 합니다.
+사용자가 전화 시스템 음성 및 음성 메일을 사용할 수 있도록 설정 하려면 비즈니스용 Skype Online 커넥터가 서버에 배포 되어 있는지 확인 하 고 사용자가 호스팅된 음성 메일을 사용할 수 있도록 하는 등의 초기 단계를 수행 해야 합니다.
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Office 365 음성 및 음성 메일에서 전화 시스템용 사용자를 사용 하도록 설정 하려면
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>사용자가 전화 시스템 음성 및 음성 메일을 사용할 수 있도록 설정 하려면
 
 1. 시작 하기 전에 비즈니스용 Skype Online 커넥터 (Windows PowerShell 모듈)가 프런트 엔드 서버에 배포 되었는지 확인 합니다. 그렇지 않은 경우 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=39366)에서 다운로드할 수 있습니다. 이 모듈을 사용 하는 방법에 대 한 자세한 내용은 [비즈니스용 Skype Online 관리를 위한 컴퓨터 구성](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)에서 확인할 수 있습니다.
     
@@ -78,7 +78,7 @@ Office 365 음성 및 음성 메일에서 전화 시스템에 대해 사용자�
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    예시:
+    예시는 다음과 같습니다:
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -87,9 +87,9 @@ Office 365 음성 및 음성 메일에서 전화 시스템에 대해 사용자�
     > [!NOTE]
     > 또한 SIP 주소, UPN (사용자 계정 이름), 도메인 이름 및 사용자 이름 (domain\username) 및 Active Directory의 표시 이름 ("Bob 최소라")을 사용 하 여 사용자를 지정할 수 있습니다. 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Office 365에서 전화 시스템용으로 사용 하도록 설정 된 사용자에 대 한 줄 URI 및 다이얼 플랜 업데이트
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>전화 시스템을 사용할 수 있는 사용자에 대 한 줄 URI 및 다이얼 플랜 업데이트
 
-이 섹션에서는 Office 365에서 전화 시스템용으로 사용 하도록 설정 된 사용자에 대 한 줄 URI 및 다이얼 플랜을 업데이트 하는 방법을 설명 합니다. 
+이 섹션에서는 전화 시스템을 사용할 수 있는 사용자에 대 한 줄 URI 및 다이얼 플랜을 업데이트 하는 방법에 대해 설명 합니다. 
   
 ### <a name="to-update-the-line-uri"></a>줄 URI를 업데이트 하려면
 
@@ -141,12 +141,12 @@ Windows PowerShell 및 [부여-CsDialPlan 플랜](https://docs.microsoft.com/pow
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>온-프레미스 Windows PowerShell cmdlet을 사용 하 여 음성 라우팅 정책 업데이트
 
-이 섹션에서는 Office 365에서 전화 시스템용으로 사용 하도록 설정 된 사용자에 대 한 음성 라우팅 정책을 업데이트 하는 방법을 설명 합니다.
+이 섹션에서는 전화 시스템을 사용할 수 있는 사용자에 대 한 음성 라우팅 정책을 업데이트 하는 방법을 설명 합니다.
   
-Office 365의 전화 시스템 사용자에 게는 음성 라우팅 정책이 할당 되어 있어야 호출 경로가 정상적으로 수행 됩니다. 이는 온-프레미스 비즈니스 음성 사용자와 음성 정책을 할당 하 여 호출이 성공적으로 경로를 사용 하도록 하는 것과는 다릅니다. 음성 라우팅 정책에는 Office 365 사용자의 전화 시스템에 대 한 인증 된 통화 및 경로를 정의 하는 PSTN 용도가 포함 되어야 합니다. 이러한 PSTN 용도를 기존 음성 정책에서 새 음성 라우팅 정책으로 복사할 수 있습니다. 자세한 내용은 [get-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)를 참조 하십시오.
+통화 경로를 지정 하려면 전화 시스템 사용자에 게 음성 라우팅 정책이 할당 되어 있어야 합니다. 이는 온-프레미스 비즈니스 음성 사용자와 음성 정책을 할당 하 여 호출이 성공적으로 경로를 사용 하도록 하는 것과는 다릅니다. 음성 라우팅 정책에는 전화 시스템 사용자에 대 한 인증 된 통화 및 경로를 정의 하는 PSTN 용도가 포함 되어야 합니다. 이러한 PSTN 용도를 기존 음성 정책에서 새 음성 라우팅 정책으로 복사할 수 있습니다. 자세한 내용은 [get-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)를 참조 하십시오.
   
 > [!NOTE]
-> Office 365의 모든 전화 시스템에는 허용 되는 호출 기능을 정의 하는 BusinessVoice 라는 동일한 온라인 음성 정책이 할당 됩니다. 예를 들어 동시 벨 울림을 허용 합니다. 
+> 모든 전화 시스템 사용자에 게는 허용 되는 호출 기능을 정의 하는 BusinessVoice 라는 동일한 온라인 음성 정책이 할당 됩니다. 예를 들어 동시 벨 울림을 허용 합니다. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>단일 사용자에 게 사용자별 음성 라우팅 정책을 할당 하려면
 

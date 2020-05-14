@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 받는 방법을 알아봅니다.
-ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047386"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44226027"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -37,7 +37,7 @@ ms.locfileid: "44047386"
   
 CQD (통화 품질 대시보드)는 Microsoft 팀과 비즈니스용 Skype Online 서비스를 사용 하 여 발생 하는 통화의 품질에 대 한 통찰력을 제공 합니다. 이 항목에서는 통화 품질 문제를 해결 하는 데 사용할 수 있는 데이터 수집을 시작 하는 단계에 대해 설명 합니다.
 
-현재 고급 CQD 및 CQD를 모두 사용할 수 있습니다. 고급 CQD는에서 <span>https://cqd.teams.microsoft.com</span>사용할 수 있습니다. 새 URL 이지만 관리자 자격 증명을 사용 하 여 로그인 합니다.
+현재 고급 CQD 및 CQD를 모두 사용할 수 있습니다. 고급 CQD는에서 사용할 수 있습니다 <span>https://cqd.teams.microsoft.com</span> . 새 URL 이지만 관리자 자격 증명을 사용 하 여 로그인 합니다.
 
 ## <a name="assign-roles-for-accessing-cqd"></a>CQD에 액세스 하기 위한 역할 할당
 
@@ -148,9 +148,9 @@ CQD v3은 다음과 같은 새 롤링 추세 유형을 추가 합니다.
 
 |URL| 롤링 일 추세의 종료 날짜|
 |:---|:---|
-|<span>https://<cqdv3>/Spd/#/쇄선/<reportid>/2019-02/</span>   |현재 날짜 2 월 2019|
-|<span>https://<cqdv3>/Spd/#/쇄선/<reportid>/2019-02-15/</span>|2 월 15 일 2019|
-|<span>https://<cqdv3>/Spd/#/쇄선/<reportid>/00/</span>        |현재 일|
+|<span>https:// <cqdv3> /spd/#/쇄선/ <reportid> /2019-02/</span>   |현재 날짜 2 월 2019|
+|<span>https:// <cqdv3> /spd/#/쇄선/ <reportid> /2019-02-15/</span>|2 월 15 일 2019|
+|<span>https:// <cqdv3> /spd/#/쇄선/ <reportid> /00/</span>        |현재 일|
 |||
 
 기본적으로 현재 날짜는 이동 하는 일 추세의 마지막 날로 사용 됩니다.
@@ -181,7 +181,7 @@ CQD 사용을 시작 하기 전에 다음과 같이 Microsoft 365 또는 Office 
 1. Microsoft 팀 서비스 관리자 계정을 사용 하 여 Microsoft 365 또는 Office 365에 로그인 한 다음 **관리** 타일을 선택 하 여 관리 센터를 엽니다.
 2. 왼쪽 창의 **관리 센터**에서 **microsoft 팀을 선택 하** 여 microsoft 팀 관리 센터를 엽니다.
 3. Microsoft 팀 관리 센터의 왼쪽 창에서 **통화 품질 대시보드** 를 선택 합니다.
-4. Https:// \(<span><span/>cqd.teams.microsoft.com\)을 여는 페이지에서 **로그인** 을 클릭 하 고 전역 관리자 계정 또는 microsoft 팀 서비스 관리자 계정 정보를 입력 합니다.
+4. Https://cqd.teams.microsoft.com을 여는 페이지에서 \( <span> <span/> \) **로그인** 을 클릭 하 고 전역 관리자 계정 또는 microsoft 팀 서비스 관리자 계정 정보를 입력 합니다.
 
     ![스크린샷: 자격 증명 프롬프트를 표시 합니다.](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
@@ -189,7 +189,7 @@ CQD 사용을 시작 하기 전에 다음과 같이 Microsoft 365 또는 Office 
 > [!NOTE]
 > 보고서에 의미 있는 결과를 표시 하기에 충분 한 데이터를 처리 하는 데 시간이 한 시간 이상 걸릴 수 있습니다.
 
-![비즈니스용 skype](media/sfb-logo-30x30.png) **레거시 포털을 사용 하** 는 비즈니스용 skype 로고 아이콘
+![비즈니스용 skype ](media/sfb-logo-30x30.png) **레거시 포털을 사용 하** 는 비즈니스용 skype 로고 아이콘
 
 1. 관리자 계정을 사용 하 여 Microsoft 365 또는 Office 365에 로그인 한 다음 관리 타일을 선택 **하 여 관리** 센터를 엽니다.
 2. 왼쪽 창의 **관리 센터**에서 **microsoft 팀을 선택 하** 여 microsoft 팀 관리 센터를 엽니다.
@@ -212,7 +212,7 @@ CQD 요약 보고서는 자세한 보고서에 대해 계획 된 기능의 하�
 |:--- |:--- |:--- |
 |응용 프로그램 공유 메트릭 | 아니요 | 예 |
 |고객 건물 정보 지원 | 예 | 예 |
-|고객 끝점 정보 지원 | <span>Cqd.teams.microsoft.com 에서만<span/> | <span>Cqd.teams.microsoft.com 에서만<span/> |
+|고객 끝점 정보 지원 | Cqd.teams.microsoft.com 에서만 <span><span/> | Cqd.teams.microsoft.com 에서만 <span><span/> |
 |드릴 다운 분석 지원   | 아니요   | 예   |
 |미디어 안정성 메트릭   | 아니요   | 예   |
 |오래 된 보고서   | 예   | 예   |
@@ -359,7 +359,7 @@ CQD 요약 보고서 대시보드의 오른쪽 위 모서리에 있는 설정 �
 
    - 데이터 파일은 tsv (탭으로 구분 된 값) 파일 또는 .csv (쉼표 구분 값) 파일 이어야 합니다. .Csv 파일을 사용 하는 경우 쉼표를 포함 하는 필드는 따옴표로 묶여 있거나 쉼표를 제거 해야 합니다. 예를 들어 건물 이름이 "회사" 인 경우 .csv 파일에 "회사"를 입력 합니다.
    - 데이터 파일은 50 MB 보다 커야 합니다.
-   - Cqd.teams.microsoft.com에 업로드 된 파일의 행 한도가 100만으로 확장 되어 쿼리 성능이 빠르게 유지 됩니다. 이 제한은 CQD. o m a<span></span>c o d.<span></span>m 2에도 적용 됩니다.
+   - Cqd.teams.microsoft.com에 업로드 된 파일의 행 한도가 100만으로 확장 되어 쿼리 성능이 빠르게 유지 됩니다. 이 제한은 CQD. o m a c o d. m 2에도 적용 됩니다. <span></span> <span></span>
    - 각 데이터 파일의 경우 파일의 각 열이이 항목의 뒷부분에서 설명 하는 미리 정의 된 데이터 형식과 일치 해야 합니다.
 3. 다음으로, **시작 날짜** 를 지정 하 고 필요에 따라 **끝 날짜를 지정**합니다.
 4. 마지막으로 **업로드** 를 선택 하 여 파일을 CQD 서버에 업로드 합니다.
@@ -432,11 +432,11 @@ EndpointName, EndpointMake, Endpointmake, Endpointmake, EndpointLabel1, Endpoint
 
 ## <a name="migrate-reports-from-previous-version-of-cqd"></a>이전 버전의 CQD에서 보고서 마이그레이션
 
-비즈니스용 Skypehttps://cqd.lync.com) 용 cqd에 보고서 또는 업로드 된 테 넌 트 데이터 (매핑) 파일을 만들어 팀https://cqd.teams.microsoft.com)을 위해 cqd로 마이그레이션하려면 다음과 같이 합니다.
+비즈니스용 Skype 용 CQD에 보고서 또는 업로드 된 테 넌 트 데이터 (매핑) 파일을 만들어 https://cqd.lync.com) 팀을 위해 CQD로 마이그레이션하려면 다음과 같이 합니다 https://cqd.teams.microsoft.com) .
 
-1.    [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) 내보내려는 보고서 집합으로 이동 하 여 찾습니다. 
+1.    내보내려는 보고서 집합으로 이동 하 여 [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) 찾습니다. 
 2.    보고서 위에 마우스를 놓고 "..." 메뉴에서 **보고서 트리 내보내기를**선택 합니다. 내보내기 파일을 저장 합니다.
-3.    [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) 보고서를 가져올 위치로 이동 하 여 찾습니다.
+3.    보고서를 [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) 가져올 위치로 이동 하 여 찾습니다.
 4.    왼쪽의 링크에서 **가져오기를** 클릭 하 고 내보낸 파일을 선택 합니다. 
 5.    보고서를 가져오면 "보고서 가져오기가 성공 했습니다." 라는 메시지가 표시 됩니다. 보고서 집합 끝에 새 보고서가 추가 되었습니다. " 
 
@@ -445,7 +445,7 @@ EndpointName, EndpointMake, Endpointmake, Endpointmake, EndpointLabel1, Endpoint
 
 제공 된 상세 보고서에서 데이터 차원에 중점을 둔 특정 보고서를 만들려는 경우 사용자 지정 보고서를 만듭니다.
 
-\( **요약 보고서** 화면\) 에서 로그인 할 때 표시 되는 화면 위쪽에 있는 보고서의 풀 다운 목록에서 **자세한 보고서** 를 선택 하 고 **새** d 보고서의 동작 메뉴에서 "편집"을 클릭 하 여 쿼리 편집기를 표시 합니다. 각 보고서는 큐브로 쿼리를 통해 지원 됩니다. 보고서는 해당 쿼리에서 반환 된 데이터를 시각화 한 것입니다. 쿼리 편집기를 사용 하 여 이러한 쿼리 및 보고서의 표시 옵션을 편집할 수 있습니다. 새 보고서에 대해 쿼리 편집기를 열면 다음과 같은 화면이 표시 됩니다.
+요약 보고서 화면에서 로그인 할 때 표시 되는 화면 위쪽에 있는 보고서의 풀 다운 목록에서 \( **Summary Reports** \) **자세한 보고서** 를 선택 하 고 **새** d 보고서의 동작 메뉴에서 "편집"을 클릭 하 여 쿼리 편집기를 표시 합니다. 각 보고서는 큐브로 쿼리를 통해 지원 됩니다. 보고서는 해당 쿼리에서 반환 된 데이터를 시각화 한 것입니다. 쿼리 편집기를 사용 하 여 이러한 쿼리 및 보고서의 표시 옵션을 편집할 수 있습니다. 새 보고서에 대해 쿼리 편집기를 열면 다음과 같은 화면이 표시 됩니다.
 
 ![새 보고서 편집](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
@@ -489,9 +489,17 @@ CQD에서 자세한 보고서를 만들고 모임 ID를 필터링 하 여 모임
 
 CQD v2와 v3 간에 데이터 차이점이 표시 되는 경우, 집계 수준이 아닌 ' 사과 대 인 ' 및 좁은 수준에 대 한 데이터 비교가 나 유효성 검사가 수행 되도록 해야 합니다. 예를 들어, MSIT ' 건물 30 ' WiFi 팀 데스크톱 클라이언트 데이터에 대 한 보고서를 모두 필터링 하는 경우 낮은 품질의 백분율이 v2 및 v3에서 동일 해야 합니다.
 
-Cqd v2와 CQD v3에는 cqd v2에는 새로운 시나리오가 없기 때문에 CQD f 1 및 c a f 2의 총 개수가 다릅니다. 요약 합계 또는 필터 없이 집계 된 모든 숫자가 다른 것으로 예상 됩니다.  
+CQDv2 분류 설정 오류는 "오디오" 모달에만 사용할 수 있으며, CQDv3에서 이러한 분류는 모든 모달 (오디오, 비디오 및 Appsharing)에 대해 발생 하며 해당 하는 각 모달 스트림에 표시 됩니다. 
 
-사용 시나리오에 비즈니스용 Skype 서버 2019 통화가 포함 된 경우 CQD v3 데이터에는 Skype Bot 통화 (자동 전화 교환, CVI, 가상 데스크톱 인터페이스), 라이브 이벤트, PSTN 통화가 포함 됩니다. CQD v2는이 데이터를 사용 하지 않습니다. (CQD v3에는 클라우드 데이터 커넥터가 구성 된 비즈니스용 Skype Server 2019이 필요 합니다.)
+CQDv2 팀의 경우 모든 형식을 CQDv3에 동일한 사용자 의견을 적용 하 고 팀의 모달에 대 한 의견 기반을 적용 합니다.
+
+CQD V3 포함 
+1. 비즈니스용 Skype 서버 2019 통화 
+2. Skype 봇 통화: 자동 전화 교환, 통화 대기열, 회의 알림 서비스 
+3. 가상 데스크톱 인터페이스를
+4. 컨퍼런스 비디오 Interop
+3. 라이브 이벤트 게시자 및 발표자 통화 
+4. PSTN 통화. 
 
 예를 들어 CQD v2 요약 보고서에서 5000 오류가 있는 20만 오디오 스트림을 표시 하는 경우 5500 오류가 있는 30만 오디오 스트림을 표시 하는 것이 아니라 CQD v3 요약 보고서의 비즈니스용 Skype Server 2019 통화, CVI 통화, PSTN 통화 등으로 인해 발생 하는 문제가 발생할 수 있습니다.
 
@@ -500,6 +508,18 @@ Cqd v2와 CQD v3에는 cqd v2에는 새로운 시나리오가 없기 때문에 C
 - 사용자 에이전트 범주 쌍
 - 첫 번째 제품
 - 두 번째 제품
+
+다음은 CQD v2 및 CQD 데이터를 비교 하는 특정 필터를 적용 하는 예입니다.
+
+1. 체감 품질 Record 사용 가능 = True
+
+2. 다음 값을 사용 하 여 서버 쌍 필터 추가: 클라이언트: 클라이언트 및 클라이언트: 서버. 대부분의 테 넌 트는 서버 호출을 제외 하는 것을 선호 합니다.
+
+3. 사용자 에이전트 범주에 대 한 필터를 추가 하 고 자동 전화 교환, 통화 대기열, 봇, 방 시스템, MediationServer, 컨퍼런스 알림 서비스, VDI 등을 필터링 합니다.
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="CQD v3에서 특정 필터를 적용 하는 스크린샷":::
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="CQD v2에서 특정 필터를 적용 하는 스크린샷":::
 
 ### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>CQD v2와 CQD v3 간의 다른 예상 차이점
 
@@ -532,7 +552,7 @@ EUII를 포함 하 여 CQD에 액세스할 수 있는 역할에 대 한 자세�
 
 CQD 보고서 (isTeams = 1) 에서만 팀을 필터링 하는 경우 *첫 번째 끝점이* 팀 인 모든 통화에 대해 필터링 하 고 있는 것입니다. *두 번째 종점이* 비즈니스용 Skype 인 경우 해당 정보는 CQD 보고서에 표시 됩니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

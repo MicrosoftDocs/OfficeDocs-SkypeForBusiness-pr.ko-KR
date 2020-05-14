@@ -1,5 +1,5 @@
 ---
-title: 클라우드 커넥터에 단일 사이트 배포
+title: 클라우드 커넥터에서 단일 사이트 배포
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 클라우드 커넥터 Edition에 단일 PSTN 사이트를 배포 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cc508d21f9e39c215ce3c07403ab75e791e2414a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779354"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220538"
 ---
-# <a name="deploy-a-single-site-in-cloud-connector"></a>클라우드 커넥터에 단일 사이트 배포
+# <a name="deploy-a-single-site-in-cloud-connector"></a>클라우드 커넥터에서 단일 사이트 배포
  
 클라우드 커넥터 Edition에 단일 PSTN 사이트를 배포 하는 방법에 대해 알아봅니다.
   
@@ -55,7 +55,7 @@ Install-CcAppliance
   
 1. [클라우드 커넥터 기기 준비](prepare-your-cloud-connector-appliance.md)에 설명 된 대로 클라우드 커넥터 기기를 준비 하는 단계를 수행 합니다. 일부 단계는 배포의 첫 번째 기기에만 필요 합니다. 사이트 디렉터리가 있는지와 HA 지원에 맞게 올바르게 구성 되어 있는지 확인 합니다.
     
-2. 새로 추가한 호스트 서버 에서만 다음 cmdlet을 실행 하 여 Office 365 조직 구성에서 토폴로지 정보를 업데이트 합니다. 동시에 여러 기기를 추가 하려는 경우 새로 추가 된 각 호스트 서버에 대해 cmdlet을 하나씩 실행 합니다.
+2. 새로 추가한 호스트 서버 에서만 다음 cmdlet을 실행 하 여 Microsoft 365 또는 Office 365 조직 구성에서 토폴로지 정보를 업데이트 합니다. 동시에 여러 기기를 추가 하려는 경우 새로 추가 된 각 호스트 서버에 대해 cmdlet을 하나씩 실행 합니다.
     
    ```powershell
    Register-CcAppliance
@@ -80,7 +80,7 @@ Install-CcAppliance
 
 기존 사이트에서 기기를 제거 하려면 다음을 수행 합니다.
   
-1. 사이트에서 제거 하려는 호스트 서버 에서만 다음 cmdlet을 실행 하 여 Office 365 조직 구성에서 토폴로지 정보를 업데이트 합니다.
+1. 사이트에서 제거 하려는 호스트 서버 에서만 다음 cmdlet을 실행 하 여 Microsoft 365 또는 Office 365 조직 구성에서 토폴로지 정보를 업데이트 합니다.
     
    ```powershell
    Unregister-CcAppliance

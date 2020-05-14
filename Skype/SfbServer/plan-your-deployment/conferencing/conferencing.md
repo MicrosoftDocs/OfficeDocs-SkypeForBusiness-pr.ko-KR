@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: '요약: 비즈니스용 Skype 서버의 회의 기능 및 기능에 대해 자세히 알아보려면이 항목을 읽어 보십시오.'
-ms.openlocfilehash: feaa3dbbe3d05b09e3490ef160ceb21816ae7d5e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1c67eecda6c7691dfbb042f4743733b73864a426
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780427"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221168"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 계획
  
@@ -136,7 +136,7 @@ IM (인스턴트 메시징) 회의를 사용 하면 둘 이상의 파티가 단�
     
 대규모 모임을 관리 하는 방법에 대 한 자세한 내용은 [비즈니스용 Skype 서버의 대규모 모임 계획](large-meetings.md)을 참조 하십시오.
   
-조직에서 더 큰 모임 기능을 사용 해야 하는 경우에는 Office 365의 일부인 온라인 서비스인 Skype 모임 브로드캐스트를 활용 하는 하이브리드 환경을 구현 하는 것이 좋습니다. 사용자는 Skype 모임 브로드캐스트를 사용 하 여 최대 1만 명의 참가자로 모임을 호스트 하 고 브로드캐스트할 수 있습니다. Skype 모임 브로드캐스트를 사용 하려면 프로덕션 Office 365 조직을 사용 하 여 하이브리드 설치에서 비즈니스용 Skype 서버가 이미 구성 되어 있어야 합니다. 모든 사용자는 필수 구성 요소로 온라인 테 넌 트를 설정 해야 합니다. Skype 모임 브로드캐스트를 활용할 수 있는 하이브리드 솔루션을 배포 하려는 경우 [Skype 모임 브로드캐스트에 대 한 온-프레미스 배포 구성](../../deploy/configure-skype-meeting-broadcast.md)를 참조 하세요.
+조직에서 더 큰 모임 기능을 사용 해야 하는 경우에는 Microsoft 365 및 Office 365에 속하는 온라인 서비스인 Skype 모임 브로드캐스트를 활용 하는 하이브리드 환경을 구현 하는 것이 좋습니다. 사용자는 Skype 모임 브로드캐스트를 사용 하 여 최대 1만 명의 참가자로 모임을 호스트 하 고 브로드캐스트할 수 있습니다. Skype 모임 브로드캐스트를 사용 하려면 프로덕션 Microsoft 365 또는 Office 365 조 직을 사용 하 여 하이브리드 설치에서 비즈니스용 Skype 서버가 이미 구성 되어 있어야 합니다. 모든 사용자는 필수 구성 요소로 온라인 테 넌 트를 설정 해야 합니다. Skype 모임 브로드캐스트를 활용할 수 있는 하이브리드 솔루션을 배포 하려는 경우 [Skype 모임 브로드캐스트에 대 한 온-프레미스 배포 구성](../../deploy/configure-skype-meeting-broadcast.md)를 참조 하세요.
   
 ## <a name="determine-your-organizations-needs"></a>조직 요구 사항 확인
 

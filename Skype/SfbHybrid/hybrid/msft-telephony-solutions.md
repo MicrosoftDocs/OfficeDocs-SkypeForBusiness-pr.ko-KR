@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Microsoft 전화 통신 솔루션에 대해 설명 합니다.
-ms.openlocfilehash: 1ab2feb1a7cc650bc9dbb35d3205a6f9de2de7b7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048629"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221328"
 ---
 # <a name="microsoft-telephony-solutions"></a>Microsoft 전화 통신 솔루션
 
@@ -40,13 +40,13 @@ Microsoft는 Microsoft 클라우드에서 팀으로 여행을 시작할 때 여�
 
 ## <a name="private-branch-exchange-pbx-options"></a>PBX (Private Branch Exchange) 옵션
 
-### <a name="phone-system-office-365"></a>전화 시스템 (Office 365)
+### <a name="phone-system-microsoft-365-or-office-365"></a>전화 시스템 (Microsoft 365 또는 Office 365)
   
-전화 시스템은 Microsoft 팀 및/또는 비즈니스용 Skype 온라인을 사용 하는 Office 365 클라우드에서 통화 제어 및 PBX (Private Branch Exchange) 기능을 사용 하도록 설정 하기 위한 Microsoft의 기술입니다. 
+전화 시스템은 microsoft 팀 및/또는 비즈니스용 Skype Online을 사용 하 여 Microsoft 365 또는 Office 365 클라우드에서 통화 제어 및 PBX (Private Branch Exchange) 기능을 사용 하도록 설정 하기 위한 Microsoft의 기술입니다. 
 
-전화 시스템은 팀 이나 비즈니스용 Skype Online 클라이언트 및 인증 된 장치와 함께 작동 합니다. 전화 시스템을 사용 하면 기존 PBX 시스템을 Office 365에서 직접 배달 되는 기능 집합으로 대체 하 고 회사의 클라우드 생산성 환경에 긴밀 하 게 통합할 수 있습니다. 전화 시스템을 PSTN (공중 전화망)에 연결 하려면 Microsoft의 통화 요금제 또는 자체 전화 통신 회사를 선택 하면 됩니다.
+전화 시스템은 팀 이나 비즈니스용 Skype Online 클라이언트 및 인증 된 장치와 함께 작동 합니다. 전화 시스템을 사용 하면 기존 PBX 시스템을 Microsoft 365 또는 Office 365에서 직접 배달 된 기능 집합으로 대체 하 고 회사의 클라우드 생산성 환경에 긴밀 하 게 통합할 수 있습니다. 전화 시스템을 PSTN (공중 전화망)에 연결 하려면 Microsoft의 통화 요금제 또는 자체 전화 통신 회사를 선택 하면 됩니다.
 
-자세한 내용은 [What Is Phone System In Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)을 참조 하십시오.
+자세한 내용은 [Microsoft 365 또는 Office 365에서 전화 시스템](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)을 참조 하세요.
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Enterprise Voice (비즈니스용 Skype 서버)
 
@@ -58,18 +58,18 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 
 다음과 같은 방법으로 공중 전화망 (PSTN)에 연결 하도록 선택할 수 있습니다.
 
-- Office 365에서 Microsoft 통화 계획 사용 
+- Microsoft 365 또는 Office 365에서 Microsoft 통화 계획 사용 
 - 자체 전화 통신 회사 연결
 
-### <a name="calling-plan-office-365"></a>통화 계획 (Office 365)
+### <a name="calling-plan-microsoft-365-or-office-365"></a>통화 계획 (Microsoft 365 또는 Office 365)
 
-이 옵션은 Microsoft의 Office 365 전화 시스템을 PSTN (공중 전화망)에 연결 하 여 전 세계 landlines 휴대폰으로 전화를 걸 수 있도록 합니다. 통화 요금제를 사용 하는 경우 Microsoft는 PSTN 통신 회사입니다.
+이 옵션은 Microsoft 365 또는 Office 365 전화 시스템을 PSTN (공중 전화망)에 연결 하 여 전 세계 landlines 휴대폰으로 전화를 걸 수 있도록 합니다. 통화 요금제를 사용 하는 경우 Microsoft는 PSTN 통신 회사입니다.
 
-자세한 내용은 [Office 365에 대 한 통화 요금제](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)를 참조 하세요.
+자세한 내용은 [Microsoft 365 또는 Office 365에 대 한 통화 요금제](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)를 참조 하세요.
 
-### <a name="connect-your-own-telephony-carrier-office-365-and-skype-for-business-on-premises"></a>직접 전화 통신 회사 연결 (Office 365 및 비즈니스용 Skype 온-프레미스)
+### <a name="connect-your-own-telephony-carrier-microsoft-365-or-office-365-and-skype-for-business-on-premises"></a>자체 전화 통신 회사 연결 (Microsoft 365 또는 Office 365 및 비즈니스용 Skype 온-프레미스)
 
-이 옵션은 비즈니스용 Skype에서 온-프레미스의 Office 365 또는 Enterprise Voice System에 있는 전화 시스템을 전화 통신 네트워크에 연결 합니다. 이 옵션을 사용 하려면 지원 되는 SBC (세션 경계 컨트롤러)가 필요 합니다. 이 옵션을 사용 하는 경우에는 온-프레미스에 추가 Microsoft 소프트웨어를 배포 해야 할 수도 있습니다.
+이 옵션은 비즈니스용 Skype에서 온-프레미스의 Microsoft 365 또는 Office 365 또는 Enterprise Voice System의 전화 시스템을 전화 통신 네트워크에 연결 합니다. 이 옵션을 사용 하려면 지원 되는 SBC (세션 경계 컨트롤러)가 필요 합니다. 이 옵션을 사용 하는 경우에는 온-프레미스에 추가 Microsoft 소프트웨어를 배포 해야 할 수도 있습니다.
 
 ## <a name="which-solution-is-right-for-your-organization"></a>조직에 적합 한 솔루션은 무엇입니까?
 
@@ -101,7 +101,7 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 - 현재 레거시 PBX가 비즈니스에 중요 한 고유한 기능을 제공 합니까?
 - 일부 또는 모든 사용자에 게 전화 시스템에서 현재 제공 되지 않는 기능이 필요 합니까?
 
-다음 사항을 참고하십시오.
+다음에 유의하세요.
 
 - 복잡 한 환경에 대 한 솔루션을 디자인 하거나 다단계 마이그레이션을 관리 해야 하는 경우에 대비 하 여 네 가지 옵션이 모두 함께 존재할 수 있습니다.
 - 비즈니스용 skype 서버 또는 클라우드 커넥터 Edition을 통한 자체 전화 통신 시스템은 비즈니스용 Skype 서버 또는 클라우드 커넥터를 통해서만 배포할 수 있습니다. 단일 회사에서 비즈니스용 Skype 서버 및 클라우드 커넥터의 공존은 지원 되지 않습니다.
@@ -115,12 +115,12 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 
 
 - Microsoft 전화 시스템 사용 허가를 받은 서비스 수준에 따라 전 세계 전화로 전화를 걸 수 있도록 하는 국내 또는 국제 통화 요금제가 추가 되었습니다. 
-- PSTN 통화 계획은 Office 365에서 작동 하기 때문에이 옵션을 사용 하는 경우에는 온-프레미스 배포를 배포 하거나 유지 관리할 필요가 없습니다.
+- PSTN 통화 계획은 Microsoft 365 또는 Office 365에서 작동 하기 때문에이 옵션을 사용 하는 경우에는 온-프레미스 배포를 배포 하거나 유지 관리할 필요가 없습니다.
 - 고객은 SBC에서 지 원하는 타사 PBX, 아날로그 장치 및 기타 타사 전화 통신 장비와의 상호 운용성을 위해 직접 라우팅을 통해 지원 되는 SBC를 연결할 수 있습니다.
 
 | 인프라 요구 사항                   | 필수?|
 | :----------------------------------------------------| ---------:|
-| Office 365에 대 한 중단 없이 연결 필요 | 예 |
+| 중단 없이 Microsoft 365 또는 Office 365에 연결 필요 | 예 |
 | 사용 가능한 전 세계 *                            | 아니요  |
 | 지원 되는 세션 경계 컨트롤러 (SBC)를 배포 하 고 유지 관리 해야 합니다. | 아니요 |
 | 타사 통신 회사와의 계약 필요      | 아니요   |
@@ -137,7 +137,7 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 - 세션 경계 컨트롤러를 직접 관리 하지 않으려는 경우
 - 비즈니스 및/또는 비즈니스용 Skype Online에는 조직에서 요구 하는 모든 기능이 포함 되어 있습니다.
 
-자세한 내용은 [What Is Phone System In office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) 및 [통화 요금제 for office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)을 참조 하세요.
+자세한 내용은 [What Is Phone System In microsoft 365 및 office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) 및 [통화 요금제 for Microsoft 365 또는 Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)을 참조 하십시오.
 
 ## <a name="phone-system-with-own-carrier-via-direct-routing"></a>직접 라우팅을 통해 직접 통신 하는 전화 시스템
 
@@ -152,7 +152,7 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 
 | 인프라 요구 사항                   | 필수?|
 | :----------------------------------------------------| ---------:|
-| Office 365에 대 한 중단 없이 연결 필요 | 예 |
+| 중단 없이 Microsoft 365 또는 Office 365에 연결 필요 | 예 |
 | 전 세계에서 사용 가능                            | 예  |
 | 지원 되는 세션 경계 컨트롤러 (SBC)를 배포 하 고 유지 관리 해야 합니다. | 예 |
 | 타사 통신 회사와의 계약 필요 *      | 예   |
@@ -168,7 +168,7 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 - 타사 Pbx 및/또는 장비 (미국 오버 헤드 호출기, 아날로그 장치)와 상호 작용 해야 하는 경우
 - 팀에는 조직에 필요한 모든 기능이 포함 되어 있습니다.
 
-자세한 내용은 [What Is Phone System In Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) 및 [직접 라우팅 계획](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)을 참조 하십시오.
+자세한 내용은 [Microsoft 365 및 Office 365에서 전화 시스템 이란?](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) 및 [직접 라우팅 계획](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)을 참조 하십시오.
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>비즈니스용 Skype 서버 또는 클라우드 커넥터 Edition을 통한 자체 캐리어가 있는 전화 시스템
@@ -184,7 +184,7 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 
 | 인프라 요구 사항                   | 필수?|
 | :----------------------------------------------------| ---------:|
-| Office 365에 대 한 중단 없이 연결 필요 | 예 |
+| 중단 없이 Microsoft 365 또는 Office 365에 연결 필요 | 예 |
 | 전 세계에서 사용 가능                            | 예  |
 | 지원 되는 세션 경계 컨트롤러 (SBC)를 배포 하 고 유지 관리 해야 합니다. | 예 |
 | 타사 통신 회사와의 계약 필요      | 예   |
@@ -198,7 +198,7 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 - 지역에서는 PSTN 통화 요금제를 사용할 수 없습니다.
 - 현재 PSTN 통신 회사를 유지 해야 합니다.
 
-자세한 내용은 [What Is Phone System In Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [비즈니스용 skype 서버 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)및 [비즈니스용 skype 클라우드 Connector Edition 계획](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)을 참조 하십시오.
+자세한 내용은 [What Is Phone System In Microsoft 365 And Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [비즈니스용 skype 서버 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)및 [비즈니스용 skype 클라우드 Connector Edition 계획](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)을 참조 하십시오.
 
 권장 사항: 비즈니스 조건이 변경 되는 경우, 예를 들어 PSTN 캐리어를 더 이상 유지 하지 않아도 되는 경우에는 옵션 1 또는 2를 사용 하 여 Microsoft 팀으로 이동 하는 것이 좋습니다.
 - 유지 관리 비용 최소화
@@ -217,7 +217,7 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 
 | 인프라 요구 사항                   | 필수?|
 | :----------------------------------------------------| ---------:|
-| Office 365에 대 한 중단 없이 연결 필요 | 아니요 |
+| 중단 없이 Microsoft 365 또는 Office 365에 연결 필요 | 아니요 |
 | 전 세계에서 사용 가능                            | 예  |
 | 지원 되는 세션 경계 컨트롤러 (SBC)를 배포 하 고 유지 관리 해야 합니다. | 예 |
 | 타사 통신 회사와의 계약 필요      | 예   |
@@ -228,15 +228,3 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 권장 사항: 비즈니스 조건이 변경 되는 경우, 예를 들어 PSTN 캐리어를 더 이상 유지 하지 않아도 되는 경우에는 옵션 1 또는 2를 사용 하 여 Microsoft 팀으로 이동 하는 것이 좋습니다.
 - 유지 관리 비용 최소화
 - Microsoft에서 출시 된 최신 기능에 대 한 액세스 권한
-
-
-
-
-
-
-
-
-
-
-
-  

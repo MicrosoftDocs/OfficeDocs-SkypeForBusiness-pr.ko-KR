@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: 이 항목에서는 기존 비즈니스용 Skype 서버 또는 Exchange Server 배포를 최신 버전으로 마이그레이션하거나 비즈니스용 Skype Online 또는 Exchange Online으로 마이그레이션할지 결정할 때 고려해 야 할 사항에 대해 설명 합니다.
-ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265613"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221268"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>비즈니스용 Skype 서버 및 Exchange Server 마이그레이션 계획
 
@@ -33,7 +33,7 @@ Exchange 2019에서는 UM (통합 메시징)이 더 이상 사용 되지 않습�
 - 음성 메일
 - 자동 전화 교환
 
-Exchange 2016 2013에서 UM 역할을 배포 했 고 exchange 2019로 업그레이드 하려면 음성 메일을 Office 365의 Microsoft 클라우드 음성 메일 서비스로 마이그레이션해야 합니다. 음성 메일을 클라우드 음성 메일로 마이그레이션하려면 아래의 [exchange 2013/Exchange 2016 및 비즈니스용 skype 2015 To exchange 2019 및 비즈니스용 skype 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) 섹션을 확인 하세요.
+Exchange 2016 2013에서 UM 역할을 배포 했으며 exchange 2019로 업그레이드 하려는 경우 Microsoft 365 또는 Office 365에서 Microsoft 클라우드 음성 메일 서비스로 음성 메일을 마이그레이션해야 합니다. 음성 메일을 클라우드 음성 메일로 마이그레이션하려면 아래의 [exchange 2013/Exchange 2016 및 비즈니스용 skype 2015 To exchange 2019 및 비즈니스용 skype 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) 섹션을 확인 하세요.
 > [!IMPORTANT]
 > Exchange 2013 또는 Exchange 2016 서버의 사용자에 게 UM 사용 가능 사서함이 있는 경우 비즈니스용 Skype 서버를 비즈니스용 Skype 2019 서버로 업그레이드 하기 전에 Exchange 2019로 이동 하지 말고 음성 메시징 중단을 방지 하기 위해 사용자를 이동 해야 합니다.
 
@@ -55,13 +55,13 @@ Microsoft는 다음 시나리오를 지원 하기 때문에 사용자를 Exchang
 - Exchange 2013/Exchange 2016 및 비즈니스용 Skype 서버 2015-Exchange 2019 및 비즈니스용 Skype 서버 2019
 - Exchange 2013/Exchange 2016가 있는 비즈니스용 skype 서버 2019 (비즈니스용 skype) 2015
 
-다음 시나리오에서는 현재 배포의 일부로 PBX 또는 SBC 구성이 존재 하지 않으며, 온-프레미스 Exchange 서버에 UM이 구성 되어 있다고 가정 합니다. 이러한 각 솔루션은 또한 온-프레미스 비즈니스용 Skype 서버 및 Office 365 간에 하이브리드 배포를 구성 하기로 결정 했다고 가정 합니다. 비즈니스용 Skype 하이브리드 배포에 대 한 자세한 내용은 [하이브리드 연결 계획](plan-hybrid-connectivity.md)을 참조 하십시오.
+다음 시나리오에서는 현재 배포의 일부로 PBX 또는 SBC 구성이 존재 하지 않으며, 온-프레미스 Exchange 서버에 UM이 구성 되어 있다고 가정 합니다. 이러한 각 솔루션은 또한 온-프레미스 비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간에 하이브리드 배포를 구성 하기로 결정 했다고 가정 합니다. 비즈니스용 Skype 하이브리드 배포에 대 한 자세한 내용은 [하이브리드 연결 계획](plan-hybrid-connectivity.md)을 참조 하십시오.
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 및 비즈니스용 Skype 2015에서 Exchange 2019 및 비즈니스용 Skype 2019
 
 이 시나리오에서는 기존 Exchange 2013, Exchange 2016 및 비즈니스용 Skype 2015 서버를 Exchange 2019 및 비즈니스용 Skype 2019로 마이그레이션해야 합니다.
 
-이 항목의 앞부분에서 설명한 것 처럼 Exchange 2019에는 UM 서비스가 더 이상 포함 되어 있지 않습니다. 즉, Exchange 2019로 이동 하려는 모든 사서함에 대해 클라우드 음성 메일을 사용 하 여 UM 서비스에서 제공 하는 기능을 교체 해야 합니다. 비즈니스용 Skype 서버 2019 및 it와 Office 365 간의 하이브리드 배포를 설정 하면 클라우드 음성 메일이 이러한 Exchange UM 음성 메일 서비스를 대체 합니다.
+이 항목의 앞부분에서 설명한 것 처럼 Exchange 2019에는 UM 서비스가 더 이상 포함 되어 있지 않습니다. 즉, Exchange 2019로 이동 하려는 모든 사서함에 대해 클라우드 음성 메일을 사용 하 여 UM 서비스에서 제공 하는 기능을 교체 해야 합니다. 비즈니스용 Skype 서버 2019 및 it와 Microsoft 365 또는 Office 365 간의 하이브리드 배포를 설정 하면 클라우드 음성 메일이 이러한 Exchange UM 음성 메일 서비스를 대체 합니다.
 
 모든 사용자가 음성 메일 기능을 계속 사용할 수 있도록 하려면 사용자를 Exchange 2019 및 비즈니스용 Skype 서버 2019로 이동 하는 것이 중요 합니다. 또한 음성 메일이 처리 되는 위치는 Exchange 및 비즈니스용 Skype 사서함과 사용자가 있는 위치에 따라 결정 됩니다. 다음 표를 참조 하 여 지원 되는 Exchange 및 비즈니스용 Skype 서버의 조합과 음성 메일이 처리 되는 위치를 확인할 수 있습니다.
 

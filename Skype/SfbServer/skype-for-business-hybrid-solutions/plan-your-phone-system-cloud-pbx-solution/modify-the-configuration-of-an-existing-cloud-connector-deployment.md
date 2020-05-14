@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 기존 비즈니스용 Skype 클라우드 Connector Edition 1.4.1 이상 배포의 구성을 수정 하려면이 항목의 단계를 수행 합니다.
-ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779384"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220298"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>기존 클라우드 커넥터 배포의 구성 수정
  
@@ -109,7 +109,7 @@ ms.locfileid: "43779384"
 
 배포의 여러 사이트에 대 한 구성을 수정 하려면 단일 사이트에 대 한 단계를 수행 하 고 한 번에 한 사이트를 업데이트 합니다.
   
-## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>자동 업데이트를 사용 하도록 Office 365 조직의 구성 수정
+## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>자동 업데이트를 사용 하도록 Microsoft 365 또는 Office 365 조직의 구성 수정
 <a name="BKMK_MultipleSites"> </a>
 
 운영 체제 자동 업데이트 및 Bits 자동 업데이트를 사용 하도록 설정 하려면 온라인 관리에 비즈니스용 Skype 테 넌 트 관리자 계정을 사용 하 고 다음과 같이 테 넌 트 원격 PowerShell을 사용 해야 합니다.
@@ -161,9 +161,9 @@ ms.locfileid: "43779384"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>전용 테 넌 트 관리자 자격 증명 업데이트
 <a name="BKMK_MultipleSites"> </a>
 
-클라우드 커넥터에 대 한 Office 365 조 직의 관리 변경 사항은 필요한 사용 권한이 있는 계정에서 만든 것입니다. 2.0 이전 클라우드 커넥터 버전에서 해당 계정은 전용 전역 테 넌 트 관리자 계정입니다. 클라우드 커넥터 버전 2.0 이상에서는 해당 계정이 비즈니스용 Skype 관리자 권한을 가진 Office 365 계정일 수 있습니다.
+클라우드 커넥터에 대 한 Microsoft 365 또는 Office 365 조 직의 관리 변경 내용은 필요한 권한을 가진 계정에서 만든 것입니다. 2.0 이전 클라우드 커넥터 버전에서 해당 계정은 전용 전역 테 넌 트 관리자 계정입니다. 클라우드 커넥터 버전 2.0 이상에서는 해당 계정이 비즈니스용 Skype 관리자 권한을 가진 Microsoft 365 또는 Office 365 계정일 수 있습니다.
   
-Office 365에서 관리자 계정 자격 증명이 변경 되는 경우 배포 된 각 클라우드 커넥터 기기에서 다음 관리자 PowerShell 명령을 실행 하 여 클라우드 커넥터의 로컬로 캐시 된 자격 증명도 업데이트 해야 합니다.
+Microsoft 365 또는 Office 365에서 관리자 계정 자격 증명이 변경 되는 경우 배포 된 각 클라우드 커넥터 기기에 대해 다음 관리자 PowerShell 명령을 실행 하 여 클라우드 커넥터에서 로컬로 캐싱된 자격 증명도 업데이트 해야 합니다.
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
@@ -175,7 +175,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 이 섹션은 클라우드 커넥터 버전 2.0 이상에 적용할 수 있습니다. 
   
-모든 클라우드 커넥터 자격 증명은 "%SystemDrive%\Programdata\Cloudconnector\credentials." 파일에 저장 됩니다. \<CurrentUser\>"가 있습니다. 호스트 서버의 암호가 변경 되 면 로컬로 저장 된 자격 증명을 업데이트 해야 합니다.
+모든 클라우드 커넥터 자격 증명은 "%SystemDrive%\Programdata\Cloudconnector\credentials. \< " 파일에 저장 됩니다. CurrentUser \> "가 있습니다. 호스트 서버의 암호가 변경 되 면 로컬로 저장 된 자격 증명을 업데이트 해야 합니다.
   
 클라우드 커넥터 기기에서 로컬로 저장 된 자격 증명을 업데이트 하려면 [Get-cccredential](get-cccredential.md) 및 [-cccredential](set-cccredential.md) cmdlet을 사용 하 고 다음 단계를 수행 합니다.
   
@@ -191,7 +191,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. 호스트 서버를 다시 시작 합니다.
     
-4. 다음 파일을 삭제 합니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>"가 있습니다.
+4. 다음 파일을 삭제 합니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> "가 있습니다.
     
 5. PowerShell 콘솔을 관리자 권한으로 시작한 다음 "레지스터-CcAppliance-Local"을 실행 하 여 설명에 해당 하는 암호를 다시 입력 합니다. 클라우드 커넥터 배포 전에 입력 한 것과 동일한 암호를 입력 해야 합니다.
     
@@ -215,7 +215,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 이 섹션은 클라우드 커넥터 버전 2.0.1 이상에 적용할 수 있습니다. 
   
-클라우드 커넥터 서비스가 클라우드 커넥터 관리 서비스를 실행 합니다. CceService 계정은 클라우드 커넥터 에디션 배포 중에 만들어지고 다음 파일에 저장 됩니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>"및"%SystemDrive%\Programdata\Cloudconnector\credentials.. CceService ".
+클라우드 커넥터 서비스가 클라우드 커넥터 관리 서비스를 실행 합니다. CceService 계정은 클라우드 커넥터 에디션 배포 중에 만들어지고 다음 파일에 저장 됩니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> "및"%SystemDrive%\Programdata\Cloudconnector\credentials.. CceService ".
   
 모든 기기가 사이트 디렉터리 공유에 액세스할 수 있도록 하려면 CceService 계정의 암호가 사이트 내에 배포 된 모든 기기에서 동일 해야 합니다. 다음 사항에 유의해야 합니다.
   
@@ -271,18 +271,18 @@ Set-CcCredential -AccountType TenantAdmin
     
     - CcLockFile
     
-    - Site_\<에 지 외부 Sip 풀 fqdn\>
+    - Site_에 \< 지 외부 Sip 풀 fqdn\>
     
-    - Tenant_\<에 지 외부 Sip 풀 fqdn\>
+    - Tenant_에 \< 지 외부 Sip 풀 fqdn\>
     
-    - TenantConfigLock_\<에 지 외부 Sip 풀 fqdn\>
+    - TenantConfigLock_에 \< 지 외부 Sip 풀 fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>새 SIP 도메인 추가
 <a name="BKMK_UpdatePassword"> </a>
 
 새 SIP 도메인 (또는 여러 SIP 도메인)을 기존 클라우드 커넥터 배포에 추가 하려면 다음을 수행 합니다.
   
-1. Office 365에서 도메인을 업데이트 하는 단계를 완료 했으며 DNS 레코드를 추가할 수 있는지 확인 합니다. Office 365에서 도메인을 설정 하는 방법에 대 한 자세한 내용은 [Add a domain To office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)을 참조 하십시오.
+1. Microsoft 365 또는 Office 365에서 도메인을 업데이트 하는 단계를 완료 했으며 DNS 레코드를 추가할 수 있는지 확인 합니다. Microsoft 365 또는 Office 365에서 도메인을 설정 하는 방법에 대 한 자세한 내용은 [microsoft 365 또는 office 365에 도메인 추가](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)를 참조 하세요.
     
 2. 새 SIP 도메인 또는 도메인을 사용 하 여 클라우드 커넥터 구성 파일을 업데이트 합니다.
     
@@ -303,7 +303,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 클라우드 커넥터 배포에서 기본 SIP 도메인을 변경 해야 하는 경우 다음을 수행 합니다.
   
-1. Office 365에서 도메인을 업데이트 하는 단계를 완료 했으며 DNS 레코드를 추가할 수 있는지 확인 합니다. Office 365에서 도메인을 설정 하는 방법에 대 한 자세한 내용은 [Add a domain To office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)을 참조 하십시오.
+1. Microsoft 365 또는 Office 365에서 도메인을 업데이트 하는 단계를 완료 했으며 DNS 레코드를 추가할 수 있는지 확인 합니다. Microsoft 365 또는 Office 365에서 도메인을 설정 하는 방법에 대 한 자세한 내용은 [microsoft 365 또는 office 365에 도메인 추가](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)를 참조 하세요.
     
 2. 새 SIP 도메인을 사용 하 여 클라우드 커넥터 구성 파일을 업데이트 합니다.
     

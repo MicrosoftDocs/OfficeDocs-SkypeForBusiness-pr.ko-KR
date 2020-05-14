@@ -14,10 +14,10 @@ ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: 비즈니스용 Skype 서버 비즈니스용 skype 대화방 시스템 v1 (SRS v1, 이전의 Lync 대화방 시스템) 관리 웹 포털은 조직이 Skype 대화방 시스템 회의실을 유지 관리 하는 데 사용할 수 있는 웹 포털입니다. 관리자는 SRS v1 관리 웹 포털을 사용 하 여 오디오/비디오 장치 모니터링과 같은 장치 상태를 모니터링할 수 있습니다. 이 포털을 사용 하 여 관리자는 전화 회의 대화방 상태를 모니터링 하기 위한 진단 정보를 원격으로 수집할 수 있습니다.
 ms.openlocfilehash: d718adb60437fdd7e08724a5ba5fc48fa120425e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
+ms.lasthandoff: 05/13/2020
 ms.locfileid: "42045901"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 SRS v1 관리 웹 포털 배포
@@ -122,7 +122,7 @@ SRS v1 관리 웹 포털의 설치를 확인 하려면 다음을 수행 합니�
 
 1. 프런트 엔드 서버에서 다음 URL로 이동 합니다.
 
-    https://\<fe-server\>/lrs
+    https:// \< fe-server \> /lrs
 
     다음 이미지에 표시 된 대로 오류가 표시 되지 않아야 합니다.
 
@@ -130,7 +130,7 @@ SRS v1 관리 웹 포털의 설치를 확인 하려면 다음을 수행 합니�
 
 2. 오류가 표시 되지 않으면 토폴로지의 다른 컴퓨터에서 다음 URL에 액세스 해 봅니다.
 
-    https://\<fe-server\>/lrs
+    https:// \< fe-server \> /lrs
 
     페이지에 액세스 하려면 "[자동 클라이언트 로그인에 필요한 Dns 레코드](https://go.microsoft.com/fwlink/p/?LinkId=318056)"에 설명 된 대로 DNS 레코드를 추가 해야 합니다.
 
@@ -143,7 +143,7 @@ SRS v1 관리 웹 포털의 설치를 확인 하려면 다음을 수행 합니�
 
 1. 다음 URL로 이동 합니다.
 
-    https://\<fe-server\>/lrs
+    https:// \< fe-server \> /lrs
 
 2. LRSSupportAdminGroup 보안 그룹에 추가 된 LRSSupport 계정 또는 계정에 대 한 자격 증명을 입력 합니다.
 
@@ -213,7 +213,7 @@ SRS를 대량 관리 하는 기능은 고급 IT 관리자를 위해 설계 된 �
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>관리 웹 포털에 로그인 할 수 없는 이유는 무엇 인가요?
 
-을 (를 https://localhost/lrs) 열면 로그인 페이지를 볼 수 있지만 자격 증명에 입력 하는 경우 로그인 할 수 없습니다. 이 경우에는를 열고 https://FQDNofFEserver/SRS 관리 웹 포털에 로그인 합니다.
+https://localhost/lrs을 (를) 열면 로그인 페이지를 볼 수 있지만 자격 증명에 입력 하는 경우 로그인 할 수 없습니다. 이 경우에는를 열고 https://FQDNofFEserver/SRS 관리 웹 포털에 로그인 합니다.
 
 #### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>관리 웹 포털에 SRS v1이 표시 되지 않는 이유는 무엇 인가요?
 
@@ -240,7 +240,7 @@ SRS를 대량 관리 하는 기능은 고급 IT 관리자를 위해 설계 된 �
 
 - LRSApp 사용자 계정이 SIP를 사용할 수 있도록 설정 되어 있는지 확인 합니다.
 
-- 여전히 문제가 있는 경우 D:\Tracing\LRSAdminLogs\, 에서 srs 시스템의 **추적** 파일을 수집한 다음 srs 지원 담당자에 게 전송 합니다.
+- 여전히 문제가 있는 경우 D:\Tracing\LRSAdminLogs에서 SRS 시스템의 **추적** 파일을 수집한 \, 다음 srs 지원 담당자에 게 전송 합니다.
 
 #### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>관리 웹 포털에 SRS에 대 한 대량 관리 메뉴가 표시 되지 않는 이유는 무엇 인가요?
 

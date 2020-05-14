@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 사용자 설정을 마이그레이션하고 사용자를 팀으로 이동 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 07d0657017d24acbbd3961c3528056debb927a5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7b6925917cff3265280b88979660ad1289a63d12
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779684"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221378"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>사용자를 온-프레미스에서 Teams로 이동
 
@@ -61,17 +61,17 @@ ms.locfileid: "43779684"
 
 이동-CsUser는 온-프레미스 비즈니스용 Skype 관리 셸 PowerShell 창에서 사용할 수 있습니다. 아래 단계 및 필요한 사용 권한은 사용자를 비즈니스용 Skype Online으로 이동 하는 것과 동일 하지만, MoveToTeams 스위치를 지정 해야 하 고 사용자에 게 팀에 대 한 라이선스가 있는지도 확인 해야 합니다 (비즈니스용 Skype Online 포함).
 
-[필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 온-프레미스 환경과 Office 365 조직 모두에 충분 한 권한이 있어야 합니다. 두 환경 모두에서 권한이 있는 단일 계정을 사용 하거나 온-프레미스 자격 증명을 사용 하 여 온-프레미스 비즈니스용 Skype 서버 관리 셸 창을 시작 하 고 `-Credential` 매개 변수를 사용 하 여 필요한 office 365 관리 역할이 있는 office 365 계정에 대 한 자격 증명을 지정할 수 있습니다.
+[필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 온-프레미스 환경과 클라우드 서비스 (Microsoft 365 또는 Office 365) 둘 다에 충분 한 권한이 있어야 합니다. 두 환경 모두에서 권한이 있는 단일 계정을 사용 하거나 온-프레미스 자격 증명을 사용 하 여 온-프레미스 비즈니스용 Skype 서버 관리 셸 창을 시작 하 고 `-Credential` 매개 변수를 사용 하 여 필요한 관리 역할이 있는 Microsoft 365 또는 Office 365 계정에 대 한 자격 증명을 지정할 수 있습니다.
 
 이동-CsUser를 사용 하 여 사용자를 팀 전용 모드로 이동 하려면 다음을 수행 합니다.
 
-- 매개 변수를 `Identity` 사용 하 여 이동할 사용자를 지정 합니다.
-- -Target 매개 변수를 "sipfed.online.lync.com>" 값과 함께 지정 합니다. <span>com "입니다.
-- 스위치를 `MoveToTeams` 지정 합니다.
-- 온-프레미스 및 Office 365 모두에 충분 한 사용 권한이 있는 계정이 없는 경우에는 `-credential` 매개 변수를 사용 하 여 Office 365에서 충분 한 사용 권한을 가진 계정을 제공 합니다.
-- Office 365에서 사용 권한이 있는 계정이 "onmicrosoft"로 끝나지 않는 경우 <span>com "에서는 `-HostedMigrationOverrideUrl` [필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 올바른 값을 사용 하 여 매개 변수를 지정 해야 합니다.
+- 매개 변수를 사용 하 여 이동할 사용자를 지정 `Identity` 합니다.
+- -Target 매개 변수를 "sipfed.online.lync.com> <span> " 값과 함께 지정 합니다. com "입니다.
+- 스위치를 지정 `MoveToTeams` 합니다.
+- 온-프레미스와 클라우드 서비스 (Microsoft 365 또는 Office 365) 둘 다에서 충분 한 사용 권한이 있는 계정이 없는 경우에는 `-credential` 매개 변수를 사용 하 여 Office 365에서 충분 한 사용 권한을 가진 계정을 제공 합니다.
+- Microsoft 365 또는 Office 365에서 사용 권한이 있는 계정이 "onmicrosoft <span> "로 끝나지 않는 경우 com "에서는 `-HostedMigrationOverrideUrl` [필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 올바른 값을 사용 하 여 매개 변수를 지정 해야 합니다.
 
-다음 cmdlet 시퀀스를 사용 하 여 사용자를 TeamsOnly로 이동할 수 있으며, Office 365 자격 증명이 별도의 계정이 고 자격 증명 확인을 위한 입력으로 제공 된다고 가정 합니다.
+다음 cmdlet 시퀀스를 사용 하 여 사용자를 TeamsOnly로 이동할 수 있으며 Microsoft 365 또는 Office 365 자격 증명은 별도의 계정 이며 Get-Credential 프롬프트에 대 한 입력으로 제공 된다고 가정 합니다.
 
   ```powershell
   $cred=Get-Credential
@@ -86,13 +86,13 @@ ms.locfileid: "43779684"
 3. **찾기를** 사용 하 여 팀으로 이동할 사용자를 찾습니다.
 4. 사용자를 선택 하 고 목록 위의 **작업** 드롭다운에서 **선택한 사용자를 팀으로 이동을**선택 합니다.
 5. 마법사에서 **다음**을 클릭합니다.
-6. 메시지가 표시 되 면 onmicrosoft.com로 끝나고 충분 한 사용 권한이 있는 계정을 사용 하 여 Office 365에 로그인 합니다.
+6. 메시지가 표시 되 면 onmicrosoft.com로 끝나고 충분 한 사용 권한이 있는 계정을 사용 하 여 Microsoft 365 또는 Office 365에 로그인 합니다.
 7. **다음**을 클릭 하 고 **다음으로 한 번** 더 사용자를 이동 합니다.
 8. 성공 또는 실패와 관련 된 상태 메시지는 마법사가 아니라 주 제어판 앱의 위쪽에 제공 됩니다.
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>예정 된 팀 구성원에 대 한 비즈니스용 Skype 온-프레미스 사용자에 게 알림
 
-비즈니스용 skype 서버 2015의 온-프레미스 관리 도구와 않았습니다를 사용 하는 비즈니스용 skype 서버 2019에서는 온-프레미스 비즈니스용 Skype 사용자에 게 팀에 게 알릴 수 있습니다. 이러한 알림을 사용 하도록 설정 하면 사용자는 아래와 같이 비즈니스용 Skype 클라이언트 (Win32, Mac, 웹 및 모바일)에 알림을 표시 합니다. 사용자가 **Try it** 단추를 클릭 하면 팀 클라이언트가 설치 되어 있으면 시작 되 고, 그렇지 않으면 실행 됩니다. 그렇지 않으면 사용자가 브라우저에서 팀의 웹 버전으로 이동 됩니다. 기본적으로 알림을 사용 하도록 설정 하면 Win32 비즈니스용 Skype 클라이언트에서 팀 클라이언트를 자동으로 다운로드 하 여 사용자를 팀 전용 모드로 이동 하기 전에 리치 클라이언트를 사용할 수 있도록 합니다. 그러나이 동작을 사용 하지 않도록 설정할 수도 있습니다.  알림은 온-프레미스 버전 `TeamsUpgradePolicy`을 사용 하 여 구성 되 고 Win32 클라이언트에 대 한 자동 다운로드는 온-프레미스 `TeamsUpgradeConfiguration` cmdlet을 통해 제어 됩니다.
+비즈니스용 skype 서버 2015의 온-프레미스 관리 도구와 않았습니다를 사용 하는 비즈니스용 skype 서버 2019에서는 온-프레미스 비즈니스용 Skype 사용자에 게 팀에 게 알릴 수 있습니다. 이러한 알림을 사용 하도록 설정 하면 사용자는 아래와 같이 비즈니스용 Skype 클라이언트 (Win32, Mac, 웹 및 모바일)에 알림을 표시 합니다. 사용자가 **Try it** 단추를 클릭 하면 팀 클라이언트가 설치 되어 있으면 시작 되 고, 그렇지 않으면 실행 됩니다. 그렇지 않으면 사용자가 브라우저에서 팀의 웹 버전으로 이동 됩니다. 기본적으로 알림을 사용 하도록 설정 하면 Win32 비즈니스용 Skype 클라이언트에서 팀 클라이언트를 자동으로 다운로드 하 여 사용자를 팀 전용 모드로 이동 하기 전에 리치 클라이언트를 사용할 수 있도록 합니다. 그러나이 동작을 사용 하지 않도록 설정할 수도 있습니다.  알림은 온-프레미스 버전을 사용 하 여 구성 되 `TeamsUpgradePolicy` 고 Win32 클라이언트에 대 한 자동 다운로드는 온-프레미스 cmdlet을 통해 제어 됩니다 `TeamsUpgradeConfiguration` .
 
 > [!TIP]
 > 않았습니다을 사용 하 여 비즈니스용 Skype 2015에서이 작업을 수행 하려면 일부 서버를 다시 부팅 해야 할 수 있습니다.

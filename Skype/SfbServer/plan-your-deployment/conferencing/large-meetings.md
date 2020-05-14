@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '요약: 비즈니스용 Skype 서버에서 대규모 모임을 구현 및 관리 하기 위한 모범 사례에 대해 자세히 알아보려면이 항목을 읽어 보십시오.'
-ms.openlocfilehash: 18b0f036e49996564aa68735300f4e677ce5b1cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acb0dd1dbd0efe93b985ed2f9e143ef1538ecb86
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780237"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221258"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 대규모 모임 계획
  
@@ -26,10 +26,10 @@ ms.locfileid: "43780237"
 비즈니스용 Skype 서버가 지원할 수 있는 모임 크기는 공유 풀에 있는 250 명의 참가자에서 전용 풀의 참가자 1000까지 회의를 호스트 하는지 여부에 따라 달라 집니다. 
   
 > [!NOTE]
-> 이 항목에서는 비즈니스용 Skype 서버에서 지원 되는 대규모 모임에 대 한 최상의 방법을 중점적으로 설명 합니다. 조직에서 더 큰 모임 기능을 사용 해야 하는 경우 Office 365에 속하는 새로운 온라인 서비스인 Skype 모임 브로드캐스트를 활용 하는 하이브리드 환경을 구현 하는 것이 좋습니다. 
+> 이 항목에서는 비즈니스용 Skype 서버에서 지원 되는 대규모 모임에 대 한 최상의 방법을 중점적으로 설명 합니다. 조직에서 더 큰 모임 기능을 사용 해야 하는 경우에는 Microsoft 365 및 Office 365에 속하는 새로운 온라인 서비스인 Skype 모임 브로드캐스트를 활용 하는 하이브리드 환경을 구현 하는 것이 좋습니다. 
 
 > [!NOTE]
-> 사용자는 Skype 모임 브로드캐스트를 사용 하 여 최대 1만 명의 참가자로 모임을 호스트 하 고 브로드캐스트할 수 있습니다. Skype 모임 브로드캐스트를 사용 하려면 프로덕션 Office 365 조직을 사용 하 여 하이브리드 설치에서 비즈니스용 Skype 서버가 이미 구성 되어 있어야 합니다. 모든 사용자는 필수 구성 요소로 온라인 테 넌 트를 설정 해야 합니다. Skype 모임 브로드캐스트를 활용할 수 있는 하이브리드 솔루션을 배포 하려는 경우 skype 모임 [브로드캐스트 란?](https://go.microsoft.com/fwlink/?LinkId=617071) 를 참조 하 고 [skype 모임 브로드캐스트를 위한 온-프레미스 배포를 구성](../../deploy/configure-skype-meeting-broadcast.md)합니다. 
+> 사용자는 Skype 모임 브로드캐스트를 사용 하 여 최대 1만 명의 참가자로 모임을 호스트 하 고 브로드캐스트할 수 있습니다. Skype 모임 브로드캐스트를 사용 하려면 프로덕션 Microsoft 365 또는 Office 365 조 직을 사용 하 여 하이브리드 설치에서 비즈니스용 Skype 서버가 이미 구성 되어 있어야 합니다. 모든 사용자는 필수 구성 요소로 온라인 테 넌 트를 설정 해야 합니다. Skype 모임 브로드캐스트를 활용할 수 있는 하이브리드 솔루션을 배포 하려는 경우 skype 모임 [브로드캐스트 란?](https://go.microsoft.com/fwlink/?LinkId=617071) 를 참조 하 고 [skype 모임 브로드캐스트를 위한 온-프레미스 배포를 구성](../../deploy/configure-skype-meeting-broadcast.md)합니다. 
   
 일반적으로 큰 모임에는 다음과 같은 특징이 있습니다.
   
