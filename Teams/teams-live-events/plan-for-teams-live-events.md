@@ -18,12 +18,12 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042855"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224241"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -35,14 +35,16 @@ ms.locfileid: "44042855"
 
 사용자가 Teams 라이브 이벤트를 예약하려면 다음과 같은 필수 구성 요소가 있어야 합니다.
 
-다음과 같은 라이선스가 할당되어야 합니다.  
+Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하는 라이선스는 다음과 같습니다.  
 
-- Office 365 Enterprise E1, E3 또는 E5 라이선스 또는 Office 365 A3 또는 A5 라이선스
-- Microsoft Teams 라이선스
-- Microsoft Stream 라이선스
+- Microsoft 혹은 Office 365 Enterprise E1, E3 또는 E5 라이선스 또는 Office 365 Education A3 또는 A5 라이선스.
+- Microsoft Teams 라이선스 - 이는 위의 라이선스에 포함되어 있습니다. 
+- 콘텐츠를 외부 앱 또는 장치로 공유 하려는 경우, Microsoft Stream 라이선스가 필요합니다. [Microsoft Stream 라이선싱](https://docs.microsoft.com/stream/license-overview)을 참조하세요. 
 
-> [!IMPORTANT]
-> 라이브 이벤트를 만들고 예약하는 사용자에게는 Exchange Online 사서함이 있어야 합니다.
+  사용자가 녹음/녹화 및 녹음/녹화의 다운로드만 하도록 하려면 사용자에게 Microsoft Stream 라이선스를 할당할 필요가 없습니다. 이 경우 녹음/녹화는 Microsoft Stream에 저장되지는 않지만, 삭제되기까지 30일의 제한이 있는 AMS(Azure 미디어 서비스)에 저장됩니다. 이는 이 시점에 관리자가 삭제하는 기능을 포함하여 컨트롤하거나 관리할 수 있는 사항이 아닙니다.
+
+> [!NOTE]
+> 현재로서는 Teams 라이브 이벤트를 만들고 보유하는 데 사용할 수 있는 Microsoft 365 Small Business 요금제가 없습니다.
 
 인증된 사용자로서 라이브 이벤트에 참여하려면 Office 365 라이선스가 필요하다는 것을 알고 있어야 하지만 이 요구 사항은 사용되는 프로덕션 방법에 따라 다릅니다.
 
@@ -81,6 +83,14 @@ ms.locfileid: "44042855"
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 라이브 이벤트 및 Skype 모임 브로드캐스트
 
 다음 표에는 라이브 이벤트에서 제공하는 핵심 기능과 특성 및 Skype 모임 브로드캐스트와의 차이점을 중점적으로 설명합니다.
+
+> [!IMPORTANT]
+> **Microsoft 365 라이브 이벤트 한도가 늘어납니다**
+> 
+> 고객들이 급변하는 통신 요구 사항을 충족시키는 데 도움을 주기 위해 Microsoft 365 라이브 이벤트는 Teams에서 호스트하는 라이브 이벤트에 대한 기본 한도를 2020년 7월 1일까지 일시적으로 늘릴 것입니다. 다음의 한도 확장은 2020년 4월말에 반영되고 있습니다.
+> - 참석자 제한: 이벤트는 최대 20,000명의 참석자를 지원할 수 있습니다.
+> - 동시 이벤트: 한 테넌트에 걸쳐 동시에 50개의 이벤트 호스트가 가능
+> - 이벤트 기간: 이벤트 시간이 브로드캐스트 당 16시간으로 늘어났습니다.
 
 |**기능**   |**Skype 모임 브로드캐스트** |**Teams에서 생성된 이벤트** |**외부 앱 또는 장치에서 생성된 이벤트** |
 |---------|---------|---------|---------|
@@ -123,17 +133,29 @@ ms.locfileid: "44042855"
 
 **다음 지역에서 사용 가능합니다.**
 
-- 아메리카
+- 북미
+- 중미
+- 남미
 - 아시아 태평양
 - 유럽/아프리카
 
-**다음 국가 데이터 위치**
-
+**이들 국가/지역의 데이터 위치(지원)**
 - 오스트레일리아
 - 캐나다
 - 인도
 - 일본
 - 영국
+
+**이들 국가/지역 및 클라우드는 지원 되지 않습니다**
+- 독일
+- 프랑스
+- 노르웨이
+- 남아프리카 공화국
+- 대한민국
+- 스위스
+- UAE
+- 정부 커뮤니티 클라우드(GCC)-H
+- DOD
 
 **제외 사항 및 고려 사항**
 
