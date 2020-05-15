@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: ''
 description: 요약:이 항목을 사용 하 여 비즈니스용 Skype 서버 2019 서버 및 도메인 인프라를 준비 합니다. 하드웨어, OS, 데이터베이스, 소프트웨어, 인증서 DNS, 파일 공유 및 Active Directory 정보를 비롯 한 모든 시스템 요구 사항 및 권장 사항은 서버 팜을 성공적으로 설치 및 배포 하는 데 도움이 됩니다.
-ms.openlocfilehash: 7e0e8e3480c849fadd32921a5859766133ec1166
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 8bb12fa9f5d0cd0144604f21d311c50f7f63b0f4
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240538"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232379"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에 대 한 시스템 요구 사항
  
@@ -357,11 +357,11 @@ Exchange Server는 비즈니스용 Skype 서버 또는 다른 포리스트의 �
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>비즈니스용 Skype 온라인 및 Azure Active Directory Connect가 포함 된 리소스 포리스트 토폴로지의 다중 포리스트
 <a name="BKMK_multipleforestopology"> </a>
 
-![두 개의 AD 포리스트, 즉 하나의 사용자 포리스트와 하나의 리소스 포리스트를 표시 합니다. 두 포리스트에 트러스트 관계가 있습니다. Azure AD Connect를 사용 하 여 Office 365와 동기화 됩니다. 모든 사용자는 Office 365를 통해 비즈니스용 Skype를 사용할 수 있습니다.](../../SfbServer/media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![두 개의 AD 포리스트, 즉 하나의 사용자 포리스트와 하나의 리소스 포리스트를 표시 합니다. 두 포리스트에 트러스트 관계가 있습니다. Azure AD Connect를 사용 하 여 Microsoft 365와 동기화 됩니다. 모든 사용자는 Microsoft 365을 통해 비즈니스용 Skype를 사용할 수 있습니다.](../../SfbServer/media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-이 시나리오에서는 리소스 포리스트 토폴로지를 사용 하는 여러 포리스트가 온-프레미스에 있습니다. Active Directory 포리스트 간에는 전체 트러스트 관계가 있습니다. Azure Active Directory Connect 도구는 온-프레미스 사용자 포리스트와 Office 365 간에 계정을 동기화 하는 데 사용 됩니다.
+이 시나리오에서는 리소스 포리스트 토폴로지를 사용 하는 여러 포리스트가 온-프레미스에 있습니다. Active Directory 포리스트 간에는 전체 트러스트 관계가 있습니다. Azure Active Directory Connect 도구는 온-프레미스 사용자 포리스트와 Microsoft 365 또는 Office 365 간의 계정을 동기화 하는 데 사용 됩니다.
   
- 또한 조직에는 Office 365이 있고, [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) 를 사용 하 여 온-프레미스 계정을 office 365과 동기화 합니다. 비즈니스용 Skype를 사용할 수 있는 사용자는 Office 365과 비즈니스용 Skype Online을 통해 사용 하도록 설정 됩니다. 비즈니스용 Skype 서버는 온-프레미스에 배포 되지 않습니다.
+ 또한 조직에는 Microsoft 365 또는 Office 365이 있으며 [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) 를 사용 하 여 온-프레미스 계정을 microsoft 365 또는 office 365와 동기화 합니다. 비즈니스용 Skype를 사용할 수 있도록 설정 된 사용자는 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 통해 사용 하도록 설정 됩니다. 비즈니스용 Skype 서버는 온-프레미스에 배포 되지 않습니다.
   
 Single sign-on 인증은 사용자 포리스트에 있는 Active Directory Federation Services 팜에서 제공 됩니다.
   
@@ -464,24 +464,24 @@ Standard Edition 서버에 대 한 인증서:
 |**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |기본  <br/> |풀의 FQDN  <br/> |풀의 FQDN 및 서버의 FQDN  <br/> SIP 도메인이 여러 개 있고 자동 클라이언트 구성을 활성화한 경우 인증서 마법사는 지원되는 각 SIP 도메인 FQDN을 검색하고 추가합니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS(Domain Name System) 일치가 필요한 경우에는 각 SIP 도메인에 sip.sipdomain에 대한 항목도 필요합니다.  <br/> |SN = se01; SAN = se01  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |Standard Edition server에서는 서버 FQDN이 풀 FQDN과 동일 합니다.  <br/> 이 마법사는 설치 시 지정한 SIP 도메인을 검색한 다음 주체 대체 이름에 자동으로 추가합니다.  <br/> 서버 간 인증에도이 인증서를 사용할 수 있습니다.  <br/> |
-|웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN (서버의 FQDN과 같음)  <br/> 그리고  <br/> • 단순 Url 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = se01; SAN = se01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 .com; SAN = 관리자. contoso.  <br/> 와일드카드 인증서 사용:  <br/> SN = se01; SAN = se01; SAN =\*contoso.com  <br/> |토폴로지 작성기에서는 내부 웹 FQDN을 재정의할 수 없습니다.  <br/> 여러 개의 모임 단순 Url이 있는 경우 모든 작업을 San으로 포함 해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
-|웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • SIP 도메인당 단순 Url을 만족 합니다.  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = se01; SAN = webcon01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 contoso .com  <br/> 와일드카드 인증서 사용:  <br/> SN = se01; SAN = webcon01; SAN =\*contoso.com  <br/> |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
+|웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN (서버의 FQDN과 같음)  <br/> 그리고  <br/> • 단순 Url 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = se01; SAN = se01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 .com; SAN = 관리자. contoso.  <br/> 와일드카드 인증서 사용:  <br/> SN = se01; SAN = se01; SAN = \* contoso.com  <br/> |토폴로지 작성기에서는 내부 웹 FQDN을 재정의할 수 없습니다.  <br/> 여러 개의 모임 단순 Url이 있는 경우 모든 작업을 San으로 포함 해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
+|웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • SIP 도메인당 단순 Url을 만족 합니다.  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = se01; SAN = webcon01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 contoso .com  <br/> 와일드카드 인증서 사용:  <br/> SN = se01; SAN = webcon01; SAN = \* contoso.com  <br/> |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
    
 프런트 엔드 풀의 프런트 엔드 서버에 대 한 인증서:
   
 |**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |기본  <br/> |풀의 FQDN  <br/> |풀의 FQDN 및 서버의 FQDN  <br/> SIP 도메인이 여러 개 있고 자동 클라이언트 구성을 활성화한 경우 인증서 마법사는 지원되는 각 SIP 도메인 FQDN을 검색하고 추가합니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS(Domain Name System) 일치가 필요한 경우에는 각 SIP 도메인에 sip.sipdomain에 대한 항목도 필요합니다.  <br/> |SN = eepool .com; SAN = eepool .com; SAN = ee01  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |이 마법사는 설치 시 지정한 SIP 도메인을 검색한 다음 주체 대체 이름에 자동으로 추가합니다.  <br/> 서버 간 인증에도이 인증서를 사용할 수 있습니다.  <br/> |
-|웹 내부  <br/> |풀의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN (서버의 FQDN과 같지 않음)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 Url 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = ee01; SAN = ee01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 .com; SAN = 관리자. contoso.  <br/> 와일드카드 인증서 사용:  <br/> SN = ee01; SAN = ee01; SAN =\*contoso.com  <br/> |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
-|웹 외부  <br/> |풀의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = ee01; SAN = webcon01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 contoso .com  <br/> 와일드카드 인증서 사용:  <br/> SN = ee01; SAN = webcon01; SAN =\*contoso.com  <br/> |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
+|웹 내부  <br/> |풀의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN (서버의 FQDN과 같지 않음)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 Url 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = ee01; SAN = ee01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 .com; SAN = 관리자. contoso.  <br/> 와일드카드 인증서 사용:  <br/> SN = ee01; SAN = ee01; SAN = \* contoso.com  <br/> |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
+|웹 외부  <br/> |풀의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = ee01; SAN = webcon01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 contoso .com  <br/> 와일드카드 인증서 사용:  <br/> SN = ee01; SAN = webcon01; SAN = \* contoso.com  <br/> |모임 단순 URL이 여러 개인 경우 모두 주체 대체 이름으로 포함해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
    
 디렉터에 대 한 인증서:
   
 |**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|
 |:-----|:-----|:-----|:-----|
 |기본  <br/> |디렉터 풀  <br/> |디렉터 FQDN (디렉터 풀의 FQDN)입니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이 고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 microsoft.rtc.management.xds.sipdomain object (각 SIP 도메인에 대해)에 대 한 항목도 필요 합니다.  <br/> |pool.contoso.com; SAN = dir01  <br/> 이 디렉터 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |
-|웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN (서버의 FQDN과 같음)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 Url 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = dir01; SAN = dir01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 .com; SAN = 관리자. contoso.  <br/> 와일드카드 인증서 사용:  <br/> SN = dir01; SAN = dir01 SAN =\*contoso.com  <br/> |
-|웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • SIP 도메인당 단순 Url을 만족 합니다.  <br/> • 전화 접속 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |디렉터 외부 웹 FQDN은 프런트 엔드 풀 또는 프런트 엔드 서버와 달라 야 합니다.  <br/> SN = dir01; SAN = directorwebcon01 SAN = contoso .com; SAN = fabrikam에 해당 합니다. SAN = 전화 접속 contoso .com  <br/> 와일드카드 인증서 사용:  <br/> SN = dir01; SAN = directorwebcon01 SAN =\*contoso.com  <br/> |
+|웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN (서버의 FQDN과 같음)  <br/> • 서버 FQDN  <br/> • 비즈니스용 Skype 풀 FQDN  <br/> 그리고  <br/> • 단순 Url 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = dir01; SAN = dir01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 .com; SAN = 관리자. contoso.  <br/> 와일드카드 인증서 사용:  <br/> SN = dir01; SAN = dir01 SAN = \* contoso.com  <br/> |
+|웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • SIP 도메인당 단순 Url을 만족 합니다.  <br/> • 전화 접속 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |디렉터 외부 웹 FQDN은 프런트 엔드 풀 또는 프런트 엔드 서버와 달라 야 합니다.  <br/> SN = dir01; SAN = directorwebcon01 SAN = contoso .com; SAN = fabrikam에 해당 합니다. SAN = 전화 접속 contoso .com  <br/> 와일드카드 인증서 사용:  <br/> SN = dir01; SAN = directorwebcon01 SAN = \* contoso.com  <br/> |
    
 독립 실행형 중재 서버용 인증서:
   
@@ -493,7 +493,7 @@ Sba (survivable Branch 기기에 대 한 인증서 (특히, 비즈니스용 Skyp
   
 |**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|
 |:-----|:-----|:-----|:-----|
-|기본  <br/> |SBA의 FQDN  <br/> |호흡. \<MICROSOFT.RTC.MANAGEMENT.XDS.SIPDOMAIN OBJECT\> (SIP 도메인 당 항목이 하나만 필요 합니다.)  <br/> |SN = sba01; SAN = sip .com; SAN = sip. p m c  <br/> |
+|기본  <br/> |SBA의 FQDN  <br/> |SIP. \< microsoft.rtc.management.xds.sipdomain object \> (SIP 도메인 당 항목이 하나만 필요 합니다.)  <br/> |SN = sba01; SAN = sip .com; SAN = sip. p m c  <br/> |
    
 ### <a name="certificates-for-external-user-access-edge"></a>외부 사용자 액세스 (에 지)에 대 한 인증서
 
@@ -523,16 +523,16 @@ Sba (survivable Branch 기기에 대 한 인증서 (특히, 비즈니스용 Skyp
   
 |**설명**|**SAN 항목**|
 |:-----|:-----|
-|내부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscoverinternal. \<microsoft.rtc.management.xds.sipdomain object\>  <br/> |
-|외부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscover \<microsoft.rtc.management.xds.sipdomain object\>  <br/> |
+|내부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscoverinternal. \< microsoft.rtc.management.xds.sipdomain object\>  <br/> |
+|외부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscover \< microsoft.rtc.management.xds.sipdomain object\>  <br/> |
    
-또는 SAN =\*를 사용할 수 있습니다. \<microsoft.rtc.management.xds.sipdomain object\>
+또는 SAN =를 사용할 수 있습니다 \* . \< microsoft.rtc.management.xds.sipdomain object\>
   
 역방향 프록시 (공용 CA) 인증서 요구 사항:
   
 |**설명**|**SAN 항목**|
 |:-----|:-----|
-|외부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscover \<microsoft.rtc.management.xds.sipdomain object\>  <br/> |
+|외부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscover \< microsoft.rtc.management.xds.sipdomain object\>  <br/> |
    
 이 SAN은 역방향 프록시의 SSL 수신기에 할당 된 인증서에 할당 해야 합니다.
   
@@ -554,7 +554,6 @@ Sba (survivable Branch 기기에 대 한 인증서 (특히, 비즈니스용 Skyp
 > [!CAUTION]
 > 파일 공유에서 NAS (network attached storage)를 사용 하는 것은 지원 되지 않으므로 위에 나열 된 옵션 중 하나를 사용 하는 것이 좋습니다. 이 지원 제한은 장치 공유 파일 시스템에 액세스 하는 Windows Server 기반 컴퓨터에 파일 시스템 적응성을 제공 해야 하는 NAS 장치의 변수 디자인 때문에 발생 합니다.
   
-
 
 
 

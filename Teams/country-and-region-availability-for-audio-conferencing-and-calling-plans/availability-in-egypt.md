@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 이집트에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: d591e217320e7c83af7b196cf7a74126a027cbb8
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+description: 다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 이집트에서 사용할 수 있는 Microsoft 팀입니다.
+ms.openlocfilehash: 7a7ecae60201ac6081566d231ff47e2cf11f775a
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047830"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230256"
 ---
 # <a name="availability-in-egypt"></a>이집트의 사용 가능 여부
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 이집트에서 사용할 수 있는 Microsoft 팀입니다.
+다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 이집트에서 사용할 수 있는 Microsoft 팀입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
-ms.openlocfilehash: 9a533b882da3298cdfd497e4f87b88e64a2d5ef4
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 517cea81f2cbe47f43fe38b2761b774f49c425c4
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041836"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230656"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -48,8 +48,8 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 |:---|:---|:---|
 |오디오 코드 C450HD | C450HD_TEAMS_0.225 | 2019 년 3 월|
 |오디오 코드 C448HD (CAP 모드에만 해당) | C450HD_TEAMS_0.225 | 2019 년 3 월|
-|M100에서 crestron|2.3875.00068|2018 년 12 월|
-|Flex UC에서 crestron P100-T & UC-P110-T  | 58.15.91.6 |2019 년 1 월|
+|M100에서 crestron| 이 제품은 단종 되었습니다. 자세한 내용은 M100의 웹 사이트에서 [crestron](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 을 참조 하세요. | 단종 된 5/11/2020|
+|Flex UC에서 crestron P100-T & UC-P110-T  | 이 제품은 단종 되었습니다. 자세한 내용은 Crestron 웹 사이트에서 [UC 전화]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) 를 방문 하세요. |단종 된 5/11/2020|
 |Lenovo ThinkSmart View|CD-18781Y 200410.067|2020 년 4 월|
 |Poly CCX400 | 1.0.0.0200 | 2020 년 1 월|
 |Poly CCX600 | 5.9.12.1111| 2020 년 1 월|
@@ -86,3 +86,5 @@ Microsoft 팀 라이선스는 [microsoft 365 또는 Office 365 구독의](https:
 [비즈니스용 Skype 및 Microsoft 팀 인증 프로그램](https://docs.microsoft.com/SkypeForBusiness/certification/overview)에 대해 알아보세요.
 
 [Microsoft 팀 전화 및 인증 된 장치를 탐색 합니다.](https://products.office.com/microsoft-teams/across-devices/devices)
+
+[팀 및 Skype 상호 운용성](teams-skype-interop.md)

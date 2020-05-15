@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 사용자 지정 테마 적용 및 마스터 설정 파일 만들기를 포함 하 여 Microsoft 팀 대화방 장치에서 사용 하는 기본 설정의 원격 관리
-ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 8d723423cc8e93429d193f4340eceddcc55ca10d
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510767"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230506"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리
 
@@ -46,6 +46,7 @@ ms.locfileid: "43510767"
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
@@ -83,7 +84,7 @@ ms.locfileid: "43510767"
 |\<SkypeSettings\> |모든 요소에 대 한 컨테이너입니다. ||필수. |
 | \<AutoScreenShare\>  |부울 &#x2777;  |첫 번째 &#x2776;  | True 이면 자동 화면 공유를 사용 하도록 설정 합니다.  |
 |\<HideMeetingName\> |부울 &#x2777;  |첫 번째 &#x2776;  |True 이면 모임 이름이 숨겨져 있습니다. |
-|\<UserAccount\> |컨트롤러 |첫 번째 &#x2776;  |자격 증명 매개 변수의 컨테이너입니다. 로그인 주소, 교환 주소 또는 전자 메일 주소는 일반적으로 RanierConf<span></span>@contoso와 같이 동일 합니다. |
+|\<UserAccount\> |컨트롤러 |첫 번째 &#x2776;  |자격 증명 매개 변수의 컨테이너입니다. 로그인 주소, 교환 주소 또는 전자 메일 주소는 일반적으로 RanierConf @contoso와 같이 동일 합니다. <span></span> |
 |\<SkypeMeetingsEnabled\>  |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 하도록 설정 되어 있습니다. |
 |\<SkypeSignInAddress\> |문자열 &#x2778;  ||콘솔의 SfB 또는 팀 디바이스 계정에 대 한 로그인 이름입니다. |
 |\<ExchangeAddress\> |문자열 &#x2778;  ||콘솔의 Exchange 디바이스 계정에 대 한 로그인 이름입니다. ExchangeAddress를 생략 하면 SkypeSignInAddress는 자동으로 다시 사용 되지 않습니다. |
@@ -91,9 +92,10 @@ ms.locfileid: "43510767"
 |\<DomainUsername\> |문자열 &#x2778;  ||콘솔 장치의 도메인 및 사용자 이름 (예: Seattle\RanierConf.) |
 |\<입력\> |문자열 3  || Password 매개 변수는 비즈니스용 Skype 디바이스 계정 로그인에 사용 되는 암호와 동일 합니다.  |
 | \<ConfigureDomain\>  |문자열 &#x2778;  ||여러 도메인을 쉼표로 구분 하 여 나열할 수 있습니다. |
-|\<TeamsMeetingsEnabled\> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. <br/> <br/> SkypeMeetingsEnabled \<\> 및\<TeamsMeetingsEnabled\> 를 모두 사용할 수 없는 경우 XML 파일의 형식이 잘못 된 것으로 간주 되지만 두 설정을 동시에 사용 하는 것이 허용 됩니다. |
+|\<TeamsMeetingsEnabled\> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. <br/> <br/> SkypeMeetingsEnabled 및 TeamsMeetingsEnabled를 모두 사용할 수 없는 경우 XML 파일의 형식이 잘못 된 것으로 간주 \< \> \< \> 되지만 두 설정을 동시에 사용 하는 것이 허용 됩니다. |
 |\<IsTeamsDefaultClient> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. |
 |\<BluetoothAdvertisementEnabled> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 하도록 설정 되어 있습니다. |
+|\<AutoAcceptProximateMeetingInvitations> |부울 &#x2777;  |첫 번째 &#x2776;  |True 인 경우에는 근접 기반 모임이 자동으로 수락 됩니다. 기본적으로 사용 되지 않습니다. |
 |\<DualScreenMode\>  |부울 &#x2777;  |첫 번째 &#x2776;  |True 이면 이중 화면 모드를 사용 하도록 설정 합니다. 그렇지 않으면 장치가 단일 화면 모드를 사용 합니다. |
 | \<DuplicateIngestDefault\> |부울 &#x2777;  |첫 번째 &#x2776; |True 인 경우 모임이 종료 되 면 두 화면에 모두 듀얼 화면 모드로 내용이 표시 됩니다. | 
 |\<SendLogs\> |컨트롤러 |첫 번째 &#x2776;  |  |
@@ -109,7 +111,7 @@ ms.locfileid: "43510767"
 | \<테마 설정을\>  |컨트롤러 |첫 번째 &#x2776;  |XML 파일과 함께 적용할 수 있는 기능 중 하나는 조직의 사용자 지정 테마입니다. 테마 이름, 배경 이미지 및 색을 지정할 수 있습니다. |
 |\<ThemeName\> |문자열 &#x2778;  || 클라이언트에서 테마를 식별 하는 데 사용 됩니다. 테마 이름 옵션은 기본적으로 제공 되는 미리 설정 된 테마 중 하나 또는 사용자 지정입니다. <br/>  사용자 지정 테마 이름은 항상 이름 *사용자*이름을 사용 합니다. 콘솔에서 기본 또는 사전 설정 중 하나로 클라이언트 UI를 설정할 수 있지만, 사용자 지정 테마를 사용 하려면 관리자가 원격으로 설정 해야 합니다. <br/>  미리 설정 된 테마는 다음과 같습니다. <br/>  기본값 <br/>  파란색 물결선 <br/>  디지털 포리스트 <br/>  Dreamcatcher <br/>  Limeade <br/>  픽셀 완벽 <br/>  로드맵 <br/>  석 <br/>  현재 테마를 사용 하지 않도록 설정 하려면 ThemeName에 "테마 없음"을 사용 합니다.  |
 |\<CustomThemeImageUrl\> |문자열 &#x2778;  ||사용자 지정 테마에는 필수 사항이 고, 그렇지 않으면 선택 사항입니다. 파일 이름만 입력 합니다.   |사용자 지정 테마 이미지에 대 한 자세한 내용은 [사용자 지정 테마 이미지](xml-config-file.md#Themes) 섹션을 참조 하세요.
-|\<CustomThemeColor\> |컨트롤러 ||\<\>RedComponent \<,\>GreenComponent 및 \<BlueComponent\> 값에 대 한 컨테이너입니다. 이러한 값은 사용자 지정 테마에 필요 합니다. |
+|\<CustomThemeColor\> |컨트롤러 ||\<RedComponent \> , \< GreenComponent \> 및 \< BlueComponent 값에 대 한 컨테이너 \> 입니다. 이러한 값은 사용자 지정 테마에 필요 합니다. |
 |\<RedComponent\> |Byte (0-255) ||빨강 색 구성 요소를 나타냅니다. |
 |\<GreenComponent\> |Byte (0-255) ||녹색 색 구성 요소를 나타냅니다. |
 |\<BlueComponent\> |Byte (0-255) ||파란색 색 구성 요소를 나타냅니다. | 
@@ -123,7 +125,7 @@ ms.locfileid: "43510767"
   
 ## <a name="manage-console-settings-with-an-xml-configuration-file"></a>XML 구성 파일을 사용 하 여 콘솔 설정 관리
 
-시작 시 Microsoft 팀 대화방 콘솔이에 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`있는 SKYPESETTINGS 이라는 xml 파일을 찾으면 xml 파일에 지정 된 구성 설정을 적용 한 다음 xml 파일을 삭제 합니다.
+시작 시 Microsoft 팀 대화방 콘솔이에 있는 SkypeSettings 이라는 XML 파일 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 을 찾으면 xml 파일에 지정 된 구성 설정을 적용 한 다음 xml 파일을 삭제 합니다.
   
 엔터프라이즈의 Microsoft 팀 공간 장치 수와 관리를 구성 하기 위해 선택 하는 방법에 따라 XML 구성 파일을 배치할 수 있는 여러 가지 방법이 있습니다. 파일을 콘솔로 푸시한 후에는 다시 시작 하 여 구성 변경 내용을 처리 합니다. XML 구성 파일은 성공적으로 처리 된 후 삭제 됩니다. Microsoft 팀 회의실 장치에 추천 되는 관리 방법에 대해서는 다음에서 설명 합니다.
   
@@ -136,7 +138,7 @@ ms.locfileid: "43510767"
 
 <a name="Themes"> </a>
 
-사용자 지정 테마 이미지 파일은`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 폴더에 배치 해야 합니다. \<CustomThemeImageUrl\> 변수에 파일 이름과 확장명을 입력 합니다.
+사용자 지정 테마 이미지 파일은 폴더에 배치 해야 합니다 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` . CustomThemeImageUrl 변수에 파일 이름과 확장명을 입력 합니다 \< \> .
   
 이미지 파일은 정확히 3840X1080 픽셀 이어야 하 고 jpg, jpeg, png, bmp 파일 형식 중 하나 여야 합니다. 조직에서 사용자 지정 이미지를 원하는 경우 그래픽 디자이너는 [사용자 지정 테마 Photoshop 서식 파일](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)을 사용할 수 있습니다. 여기에는 다양 한 사용자 인터페이스 요소가 테마 이미지의 나머지 부분을 기준으로 하는 위치와 콘솔 및 표시에 표시 되는 영역에 대 한 자세한 내용이 포함 되어 있습니다.
   
@@ -148,16 +150,16 @@ ms.locfileid: "43510767"
 
 1. Microsoft 팀 대화방 콘솔에서 Windows 설정으로 이동 합니다.
 2. 관리자 암호를 입력 합니다.
-3. 명령 프롬프트에서 장치 관리자를 `devmgmt.msc` 엽니다 .를 입력 합니다.
+3. 명령 프롬프트에서 `devmgmt.msc` 장치 관리자를 엽니다 .를 입력 합니다.
 4. **장치 관리자**에서 **이미징 장치** 노드를 찾고 content 카메라를 찾습니다.
 5. 카메라를 마우스 오른쪽 단추로 클릭 하 고 **속성**을 엽니다.
 6. **세부 정보** 탭을 선택 하 고 드롭다운에서 **디바이스 인스턴스 경로** 속성을 찾습니다.
-7. 표시 되는 값은 XML 구성 파일에서 설정할 장치 인스턴스 경로입니다. XML에서 경로를 지정할 때 앰퍼샌드 (&)를으로 `&amp;`바꿉니다.
+7. 표시 되는 값은 XML 구성 파일에서 설정할 장치 인스턴스 경로입니다. XML에서 경로를 지정할 때 앰퍼샌드 (&)를으로 바꿉니다 `&amp;` .
 
 ## <a name="see-also"></a>참고 항목
 
 [콘텐츠 카메라](content-camera.md)
 
-[Microsoft 팀 대화방 관리](rooms-manage.md)
+[Microsoft Teams 룸 관리](rooms-manage.md)
 
 [파일 항목 구성](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

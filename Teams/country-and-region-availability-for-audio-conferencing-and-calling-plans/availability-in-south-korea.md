@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 대한민국에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams의 Office 365 서비스입니다.
-ms.openlocfilehash: 503810734c2134aa9f93596707af28f07dee76f2
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: 다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 대한민국에서 사용할 수 있는 Microsoft 팀입니다.
+ms.openlocfilehash: 95a15e828751d2ea1ff6865ff12d810f2cb00835
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852445"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230716"
 ---
 # <a name="availability-in-south-korea"></a>대한민국에서의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 대한민국에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams의 Office 365 서비스입니다.
+다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 대한민국에서 사용할 수 있는 Microsoft 팀입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 

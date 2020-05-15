@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절 한 장치, 마이크, 스피커, 카메라, 디스플레이를 비롯 하 여 Microsoft 팀 대화방을 지 원하는 데 필요한 요구 사항에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 098b5e9fd46c52957eecf288962b3f4e212c5b83
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: fcd7f0929c0c5beeccc1148aad7a54515836ee9f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905400"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230826"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -79,7 +79,7 @@ Microsoft Teams 룸은 다양한 인증 오디오 및 비디오 주변기기를 
   |Surface Pro </br>(5G) |Core i5 |8 GB 혹은 4 GB |128GB 이상 |
   |Surface Pro 4 |Core i5 |8 GB 혹은 4 GB |128GB 이상 |
 
-- 회의실 테이블에서 태블릿을 확보하려면 Surface Pro 장치에 다음 중 하나의 도킹 스테이션 옵션이 필요합니다.
+- Surface Pro 장치에는 다음 도킹 스테이션 옵션 중 하나가 필요 합니다.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -92,6 +92,8 @@ Microsoft Teams 룸은 다양한 인증 오디오 및 비디오 주변기기를 
 |Microsoft Teams 룸 주변기기|인증된 펌웨어 버전 | 카메라는 콘텐츠 카메라 사용을 지원 합니다.|
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
+|[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
+|[Jabra Panacast 카메라](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |

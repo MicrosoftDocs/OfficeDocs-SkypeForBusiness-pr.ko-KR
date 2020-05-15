@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 받는 방법을 알아봅니다.
-ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44226027"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44243580"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -483,13 +483,13 @@ CQD에서 자세한 보고서를 만들고 모임 ID를 필터링 하 여 모임
 원격 분석은 반드시 문제를 해결 하는 것은 아니지만, 의사 결정을 확인 하 고 알리는 위치를 보다 잘 파악 하는 데 도움이 될 수 있습니다. 네트워크, 장치, 드라이버 또는 펌웨어 업데이트, 사용 또는 사용자 인가요?
 
 ### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>측정에 대 한 통화 및 사용자 개수 값의 0.2% 차이가 표시 되는 이유는 무엇 이며, 가장 정확한 볼륨을 얻는 방법은 무엇 인가요? 
-통화 수 및 사용자 수 측정값을 계산 하려면 데이터 집합의 호출 또는 사용자 식별자에 대해 distinct countif 연산을 수행 합니다. 대규모 데이터 집합에는 distinct countif opinherient에서 0.2% 오류가 발생 합니다. 가장 정확한 볼륨에서는 이러한 distinct countif 연산에 의존 하지 않으므로 스트림 개수 측정값을 사용 해야 합니다. 데이터 볼륨을 줄이기 위해 필터링 하면 오류를 줄일 수 있지만, 개별 통화와 사용자 수에서이 오류 원인을 elimnate 수 없습니다. 영향을 받는 측정값에 대 한 [통화 품질 대시보드에서 사용할 수 있는 차원과 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md) 을 참조 하세요.
+통화 수 및 사용자 수 측정값을 계산 하려면 데이터 집합의 호출 또는 사용자 식별자에 대해 distinct countif 연산을 수행 합니다. 대규모 데이터 집합에는 distinct countif 연산에 기본적으로 0.2% 오류가 있습니다. 가장 정확한 볼륨에서는 이러한 distinct countif 연산에 의존 하지 않으므로 스트림 개수 측정값을 사용 해야 합니다. 데이터 볼륨을 줄이기 위해 필터링 하면 오류를 줄일 수 있지만, 별도의 통화 및 사용자 수에서이 오류 원인을 제거 하지 못할 수 있습니다. 영향을 받는 측정값에 대 한 [통화 품질 대시보드에서 사용할 수 있는 차원과 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md) 을 참조 하세요.
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>CQD v2 보고서 데이터가 CQD v3 보고서 데이터와 다르게 보이는 이유는 무엇 인가요? 
 
 CQD v2와 v3 간에 데이터 차이점이 표시 되는 경우, 집계 수준이 아닌 ' 사과 대 인 ' 및 좁은 수준에 대 한 데이터 비교가 나 유효성 검사가 수행 되도록 해야 합니다. 예를 들어, MSIT ' 건물 30 ' WiFi 팀 데스크톱 클라이언트 데이터에 대 한 보고서를 모두 필터링 하는 경우 낮은 품질의 백분율이 v2 및 v3에서 동일 해야 합니다.
 
-CQDv2 분류 설정 오류는 "오디오" 모달에만 사용할 수 있으며, CQDv3에서 이러한 분류는 모든 모달 (오디오, 비디오 및 Appsharing)에 대해 발생 하며 해당 하는 각 모달 스트림에 표시 됩니다. 
+CQDv2 분류는 "오디오" 모달 인 경우에만 가능 하며,이 분류는 모든 모달 (오디오, 비디오 및 Appsharing)에 대해 발생 하며 해당 하는 각 모달 스트림에 표시 됩니다. 
 
 CQDv2 팀의 경우 모든 형식을 CQDv3에 동일한 사용자 의견을 적용 하 고 팀의 모달에 대 한 의견 기반을 적용 합니다.
 

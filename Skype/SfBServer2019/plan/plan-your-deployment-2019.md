@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '요약: 이러한 링크를 통해 비즈니스용 Skype 서버 2019 기능, 서버 및 토폴로지를 구성 하기 위한 개념, 논리적, 실제 디자인을 개발 하는 방법을 확인할 수 있습니다.'
-ms.openlocfilehash: 2948010c99019cbb3329c6770d56ff93fb6b86d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4c7b969c41761441889c5d0963b1a3c6b6b644f7
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129471"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232369"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>비즈니스용 Skype 서버 2019 배포 계획
  
@@ -62,4 +62,4 @@ ms.locfileid: "42129471"
 |:--- |:--- |:--- |
 |![DMC 아이콘](../media/paragraph_writing.png)| [IT 전문가를 위한 비즈니스용 Skype 서버](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Docs.microsoft.com 및 리소스 센터를 방문 하 여 비디오, 커뮤니티 사이트, 설명서, 다운로드 등에 액세스할 수 있습니다.    |
 |![개발자 콘텐츠 아이콘](../media/developer.png)|[Skype 개발자 플랫폼](https://go.microsoft.com/fwlink/?LinkId=619775)   | 코드 예제, 교육 및 Sdk를 포함 하 여 비즈니스용 Skype 서버에 대 한 개발자 리소스를 찾아보세요.    |
-|![뉴스, 블로그 등의 아이콘](../media/blog_site.png) | <UL><LI>[변경 관리 및 채택](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office 블로그](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Office 365 기술 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 팀 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |비즈니스용 Skype 서버를 만들고 문서를 작성 하는 팀의 최신 소식을 확인 하세요.    |
+|![뉴스, 블로그 등의 아이콘](../media/blog_site.png) | <UL><LI>[변경 관리 및 채택](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office 블로그](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 기술 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 팀 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |비즈니스용 Skype 서버를 만들고 문서를 작성 하는 팀의 최신 소식을 확인 하세요.    |

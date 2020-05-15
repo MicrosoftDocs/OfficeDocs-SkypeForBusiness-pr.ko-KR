@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 긴급 주소, 긴급 통화 라우팅, 동적 비상 전화에 대 한 정보를 포함 하 여 비상 전화에 대해 알아봅니다.
-ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c2de31aa81ac36338560c9b75d5c7ef27e460f8
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141031"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232549"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -90,7 +90,7 @@ ms.locfileid: "43141031"
 
 Microsoft 호출 요금제에 대 한 동적 비상 통화는 팀 클라이언트의 현재 위치를 기반으로 비상 전화를 구성 하 고 라우팅할 수 있는 기능을 제공 합니다. 적절 한 공개 안전 응답 시점 (PSAP)으로 자동 라우팅 하거나 보안 데스크 직원에 게 알리는 기능은 팀 사용자의 사용 국가에 따라 달라 집니다.  
 
-이번에는 미국에서 전화 요금제 사용자만 동적 위치를 활용 하 여 다음과 같이 비상 전화를 라우팅할 수 있습니다.
+통화 요금제 사용자의 경우 긴급 전화 라우팅을 위한 동적 위치는 미국 에서만 지원 됩니다. (동적 비상 통화 및 직접 라우팅에 대 한 자세한 내용은 [직접 라우팅에 대 한 고려 사항을](#considerations-for-direct-routing)참조 하세요.
 
 - 미국 내에 있는 팀 클라이언트에서 미국 내의 긴급 주소를 동적으로 획득 하는 경우, 해당 주소는 등록 된 주소 대신 긴급 라우팅에 사용 되며, 주소가 처리 되는 영역에서 PSAP로 자동 라우팅됩니다.
 

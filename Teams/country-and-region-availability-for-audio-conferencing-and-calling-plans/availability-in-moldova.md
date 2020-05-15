@@ -25,19 +25,19 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: Office for Business 용 Skype 및 Microsoft 팀의 365 서비스에 대 한 정보는 몰도바에서 사용할 수 있습니다.
-ms.openlocfilehash: 04e387d28ba798010ca3049d35b6aeba281e3d76
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Office 용 비즈니스용 Skype 및 Microsoft 팀의 Microsoft 365 및 Office 365 서비스에 대 한 정보를 확인 하려면 몰도바를 사용 하세요.
+ms.openlocfilehash: f740c172649e043a5f269da93a514ea41d0ba58d
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141131"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230396"
 ---
 # <a name="availability-in-moldova"></a>몰도바에서의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 비즈니스용 Skype 및 Microsoft 팀이 몰도바으로 제공 되는 Office 365 서비스입니다.
+다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 몰도바에서 사용할 수 있는 Microsoft 팀입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 비즈니스용 Skype 및 독일에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
-ms.openlocfilehash: af11dafc34947f2ef162252029795d1465f6d43a
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+description: 다음은 비즈니스용 Skype 및 독일에서 사용할 수 있는 Microsoft 팀을 위한 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: 9a8c6675ec7116fb8e358c394fb54d169a56c432
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951203"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231167"
 ---
 # <a name="availability-in-germany"></a>독일의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 비즈니스용 Skype 및 독일에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
+다음은 비즈니스용 Skype 및 독일에서 사용할 수 있는 Microsoft 팀을 위한 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
