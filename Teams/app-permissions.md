@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997189"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256483"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 팀 앱 사용 권한 및 고려 사항
 
@@ -57,7 +57,11 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 
 ### <a name="considerations"></a>고려 사항
 
-앱은 사용 약관 및 개인 정보 취급 방침 링크에서 사용 하는 데이터와 데이터를 공개 해야 합니다.</td>
+- 앱은 사용 약관 및 개인 정보 취급 방침 링크에서 사용 하는 데이터와 데이터를 공개 해야 합니다.
+
+- [리소스 관련 동의](resource-specific-consent.md) 는 앱이 요청할 수 있는 권한 집합을 제공 하며 앱의 설치 화면에 표시 됩니다. 리소스 관련 승인 권한에 대 한 자세한 내용은 [그래프 사용 권한 참조](https://docs.microsoft.com/graph/permissions-reference)를 참고 하세요.
+
+- 앱에는 리소스 관련 승인 권한이 아닌 다른 권한도 필요할 수도 있습니다. 앱이 설치 되 면 승인 프롬프트를 통해 앱에서 그래프 권한을 요청할 수 있습니다. 자세한 내용은 [AZURE AD 응용 프로그램 승인 환경 이해](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)를 참조 하세요. Azure 포털에서 API 사용 권한과 승인을 구성할 수 있습니다. 자세한 정보는 [Azure Active Directory 동의 프레임 워크](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)를 참조 하세요.
 
 ## <a name="bots-and-messaging-extensions"></a>인공 지능 및 메시징 확장
 
@@ -95,13 +99,13 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 
 - 기본적으로 봇 메시지에 피싱 또는 맬웨어 사이트에 대 한 링크가 포함 될 수 있으 나 사용자, 테 넌 트 관리자 또는 Microsoft에서 전역으로 인공 지능을 차단할 수 있습니다.
 
-- 봇은 앱이 추가 된 팀 구성원 또는 개인 또는 그룹 채팅의 개별 사용자에 대 한 매우 기본적인 id 정보를 검색 하 고 저장할 수 있습니다. 이러한 사용자에 대 한 자세한 정보를 얻으려면 봇에서 Azure Active Directory (Azure AD)에 로그인 해야 합니다.
+- 봇은 앱이 추가 된 팀 구성원 또는 개인 또는 그룹 채팅의 개별 사용자에 대 한 매우 기본적인 id 정보를 검색 하 고 저장할 수 있습니다. 이러한 사용자에 대 한 자세한 정보를 얻으려면 봇에서 Azure AD (Active Directory)에 로그인 해야 합니다.
 
 - Bot은 팀에서 채널 목록을 검색 하 고 저장할 수 있습니다. 이 데이터는 회사 네트워크를 벗어납니다.
 
 - 파일을 bot에 보내면 파일이 회사 네트워크를 벗어납니다. 파일을 보내고 받으려면 각 파일에 대 한 사용자 승인이 필요 합니다. 
 
-- 기본적으로 인공 지능에서는 사용자를 대신 하 여 작업을 수행할 수 있지만 인공 지능 사용자에 게 로그인 하도록 요청할 수 있습니다. 사용자가 로그인 하자마자 추가 작업을 수행할 수 있는 액세스 토큰이 인공으로 포함 됩니다. 그 외에는 봇과 사용자 로그인 위치에 따라 달라질 수 있습니다. 봇은에 https://apps.dev.microsoft.com/ 등록 된 Azure AD 앱 이며 고유한 사용 권한 집합을 가질 수 있습니다.
+- 기본적으로 인공 지능에서는 사용자를 대신 하 여 작업을 수행할 수 있지만 인공 지능 사용자에 게 로그인 하도록 요청할 수 있습니다. 사용자가 로그인 하자마자 추가 작업을 수행할 수 있는 액세스 토큰이 인공으로 포함 됩니다. 그 외에는 봇과 사용자 로그인 위치에 따라 달라질 수 있습니다. 봇은에 등록 된 Azure AD 앱 이며 https://apps.dev.microsoft.com/ 고유한 사용 권한 집합을 가질 수 있습니다.
 
 - 봇에는 사용자가 팀에 추가 되거나 삭제 될 때마다 알림을 받을 수 있습니다.
 

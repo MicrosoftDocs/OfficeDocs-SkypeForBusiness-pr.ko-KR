@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902353"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256393"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft 팀을 위한 활동 보고서 사용 
 ========================================
@@ -32,7 +32,7 @@ Microsoft 365 관리 센터에서 활동 보고서를 사용 하 여 조직의 �
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>보고서 대시보드에서 팀 보고서를 보는 방법
 
-1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)에서 **보고서** > **사용 현황을**선택 합니다.
+1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)에서 **보고서**  >  **사용 현황을**선택 합니다.
  
 2. **배정 현황** 페이지에서 **보고서 선택을**선택 하 고 보고서 목록의 **Microsoft 팀** 에서 보려는 보고서를 선택 합니다.
 
@@ -101,7 +101,7 @@ Microsoft 365 관리 센터에서 활동 보고서를 사용 하 여 조직의 �
 
 ### <a name="reports-reader-role"></a>보고서 독자 역할
 
-*보고서 읽기 프로그램* 역할을 해당 보고서에 대 한 액세스 권한을 부여 하려는 비 IT 담당자에 게 할당할 수 있습니다. 교육 관리자나 비즈니스 관련자에 게이 역할을 할당 하 여 팀의 채택을 확인 하 고 추적 하는 데 도움이 되는 정보에 대 한 액세스 권한이 있는지 확인할 수 있습니다.
+*보고서 읽기 프로그램* 역할을 해당 보고서에 대 한 액세스 권한을 부여 하려는 비 IT 담당자에 게 할당할 수 있습니다. 교육 관리자나 비즈니스 관련자에 게이 역할을 할당 하 여 팀의 채택을 확인 하 고 추적 하는 데 도움이 되는 정보에 대 한 액세스 권한이 있는지 확인할 수 있습니다. 역할을 할당 하는 방법에 대 한 자세한 내용은 [Azure Active Directory를 사용 하 여 사용자에 게 관리자 및 관리자 역할 할당](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)을 참조 하세요.
 
 ## <a name="other-information-on-the-reports-dashboard"></a>보고서 대시보드의 기타 정보
 

@@ -21,12 +21,12 @@ description: 교육 팀의 Microsoft 팀 관리 센터에서 과제를 관리 �
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328000"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256453"
 ---
 # <a name="assignments-in-teams-for-education"></a>교육용 Teams의 과제
 
@@ -47,13 +47,15 @@ Microsoft 팀 관리 센터의 관리 설정에서 다음 기능을 설정 하�
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-MakeCode는 모든 학생에 게 컴퓨터 과학을 수명으로 제공 하는 블록 기반 코딩 플랫폼입니다. 
+Microsoft MakeCode는 모든 학생에 게 컴퓨터 과학을 수명으로 제공 하는 블록 기반 코딩 플랫폼입니다. 
 
-귀하의 약관 및 개인정보 보호 정책에 적용 되는 타사 제품이 나 서비스입니다. 귀하는 타사 제품 및 서비스를 사용 해야 합니다.
+MakeCode는 Microsoft [의 사용 약관](https://go.microsoft.com/fwlink/?LinkID=206977) 및 [개인정보 보호](https://go.microsoft.com/fwlink/?LinkId=521839) 정책에 적용 되는 microsoft 제품입니다.
 
-이 설정은 기본적으로 해제 되어 있습니다.
+이 설정은 기본적으로 해제 되어 있습니다. 팀에서 MakeCode 과제를 사용 하도록 설정 하려면 **팀 관리 센터**에서 **과제** 섹션으로 이동 하 고 MakeCode 토글 **옵션을 설정**으로 전환 합니다. **저장** 을 클릭 하 고 다음 설정을 적용 하려면 24 시간까지 허용 합니다.
 
-[MakeCode에 대 한 자세한 정보](https://www.microsoft.com/makecode)
+이 기능의 작동 방식에 대 한 자세한 내용은이 [비디오 데모](https://makecode.com/blog/teams/teams-assignments)를 참조 하세요.
+
+[MakeCode에 대 한 자세한 정보](https://aka.ms/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
@@ -75,7 +77,7 @@ TurnitinApiUrl는 관리 콘솔의 호스트 주소입니다.
 관리 콘솔에서 통합과 통합에 연결 된 API 키를 만들 수 있습니다.
 
 측면 **메뉴에서 통합** 을 선택한 다음 **통합 추가** 를 선택 하 고 통합에 이름을 지정 합니다.
-![새 통합 추가를 보여주는 스크린샷](./educationImages/Assignments_mopo_turnitin2.png)
+![새 통합 추가를 보여 주는 스크린샷](./educationImages/Assignments_mopo_turnitin2.png)
 
 메시지를 팔 로우 하는 경우 TurnitinApiKey이 사용자에 게 제공 됩니다. API 키를 복사 하 여 Microsoft 팀 관리 센터에 붙여넣습니다.  이 시점 에서만 키를 볼 수 있습니다.
 ![API 키 복사를 보여 주는 스크린샷](./educationImages/Assignments_mopo_turnitin3.png)

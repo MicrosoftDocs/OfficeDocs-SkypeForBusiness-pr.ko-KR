@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139212"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256503"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -78,7 +78,7 @@ ms.locfileid: "44139212"
 
 또는 다음을 수행할 수도 있습니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **모임** > **모임 정책**으로 이동 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **모임**  >  **모임 정책**으로 이동 합니다.
 2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
 3. **사용자 관리**를 선택합니다.
 4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
@@ -327,7 +327,7 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>익명 사용자가 모임을 시작 하도록 허용
 
-이는 이끌이 별 정책입니다. 이 설정은 B2B, 페더레이션 사용자 등의 익명 사용자가 조직에서 인증 된 사용자가 아닌 사용자의 모임에 참석할 수 있는지 여부를 제어 합니다. 
+이는 이끌이 별 정책입니다. 이 설정은 B2B, 페더레이션 사용자 등의 익명 사용자가 조직에서 인증 된 사용자가 아닌 사용자의 모임에 참석할 수 있는지 여부를 제어 합니다. 기본값은 False입니다.
 
 ![대기 중인 사용자에 게 메시지를 표시 하는 스크린샷](media/meeting-policies-anonymous-user-lobby.png)
 
@@ -365,11 +365,11 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 |---------|---------|
 |**모든 사용자**   |모든 모임 참가자는 대기실에서 대기 하지 않고 바로 모임에 참가 합니다. 여기에는 인증 된 사용자, 페더레이션 사용자, 게스트, 익명 사용자, 휴대폰으로 전화 접속 하는 사용자 등이 포함 됩니다.       |
 |**조직 및 페더레이션된 조직의 모든 사용자**     |게스트 사용자 및 페더레이션된 조직의 사용자를 포함 하 여 조직 내에서 인증 된 사용자가 대기실에서 대기 하지 않고 바로 모임에 참가 합니다.  익명 사용자 및 전화를 통해 전화를 거는 사용자는 대기실에서 대기 합니다.   |
-|**조직의 모든 사용자**    |게스트 사용자를 포함 하 여 조직 내에서 인증 된 사용자가 대기실에서 대기 하지 않고 바로 모임에 참가 합니다.  연결 된 사용자, 익명 사용자, 휴대폰으로 전화를 걸고 있는 사용자는 대기실에서 대기 합니다.           |
+|**조직의 모든 사용자**    |게스트 사용자를 포함 하 여 조직 내에서 인증 된 사용자가 대기실에서 대기 하지 않고 바로 모임에 참가 합니다.  연결 된 사용자, 익명 사용자, 휴대폰으로 전화를 걸고 있는 사용자는 대기실에서 대기 합니다. 기본 설정입니다.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>전화 접속 사용자가 대기실를 우회할 수 있도록 허용
 
-이는 이끌이 별 정책입니다. 이 설정은 전화를 통해 전화를 거는 사용자가 모임에 직접 참가 하거나 **자동으로** 허용 되는 사용자 설정에 관계 없이 대기실에서 대기할지 여부를 제어 합니다.
+이는 이끌이 별 정책입니다. 이 설정은 전화를 통해 전화를 거는 사용자가 모임에 직접 참가 하거나 **자동으로** 허용 되는 사용자 설정에 관계 없이 대기실에서 대기할지 여부를 제어 합니다. 기본값은 False입니다.
 
 휴대폰에서 전화를 거는 사용자의 참가 동작입니다.
 
@@ -402,6 +402,16 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="meeting-policy-settings---meeting-attendance-report"></a>모임 정책 설정-모임 참석 보고서
+
+이것은 사용자별 정책입니다. 이 설정은 모임 이끌이가 [모임 참석 보고서](teams-analytics-and-reports/meeting-attendance-report.md)를 다운로드할 수 있는지 여부를 제어 합니다.
+
+현재는 PowerShell을 사용 하 여이 정책 설정을 구성할 수만 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용 하 여 기존 팀 모임 정책을 편집할 수 있습니다. 또는 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용 하 여 새 팀 모임 정책을 만들고 사용자에 게 할당 합니다.
+
+모임 이끌이가 모임 참석 보고서를 다운로드 하도록 설정 하려면 **AllowEngagementReport** 매개 변수를 **Enabled**로 설정 합니다. 이 설정을 사용 하면 **참가자** 창에 보고서를 다운로드 하는 옵션이 표시 됩니다.
+
+모임 이끌이가 보고서를 다운로드 하지 못하도록 하려면 매개 변수를 **Disabled**로 설정 합니다. 기본적으로이 설정은 비활성화 되어 있으며 보고서를 다운로드 하는 옵션을 사용할 수 없습니다.
+
 ## <a name="related-topics"></a>관련 항목
 
-[팀의 메시징 정책](messaging-policies-in-teams.md)
+- [Teams PowerShell 개요](teams-powershell-overview.md)
