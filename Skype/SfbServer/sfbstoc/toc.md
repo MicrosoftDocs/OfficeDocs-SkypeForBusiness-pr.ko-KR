@@ -11,14 +11,14 @@
 
 ## [Microsoft 전화 통신 솔루션](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
-### [온-프레미스 PSTN 연결을 사용하여 전화 시스템 계획](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+### [비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하여 전화 시스템 계획](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 ### [사용자가 비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하는 전화 시스템을 사용하도록 설정](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
 
 #### [사용자가 온-프레미스에서 Enterprise Voice를 사용하도록 설정](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 #### [음성 라우팅 정책 할당](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
-#### [사용자가 Office 365 음성 사서함에서 전화 시스템과 Enterprise Voice 라인을 사용하도록 설정](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+#### [사용자가 전화 시스템 음성 사서함과 온라인으로 Enterprise Voice를 사용하도록 설정](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 
 
 ### [비즈니스용 Skype 클라우드 커넥터 버전 계획](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)

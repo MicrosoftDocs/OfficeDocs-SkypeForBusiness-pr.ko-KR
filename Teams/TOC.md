@@ -34,6 +34,7 @@
 ## [Teams에서 팀 소유자와 팀 구성원 할당](assign-roles-permissions.md)
 ## [팀의 동적 구성원 개요](dynamic-memberships.md)
 ## [Teams에서 팀을 구성하는 방법에 대한 모범 사례](best-practices-organizing.md)
+## [대규모 팀 관리](best-practices-large-groups.md)
 ## [Teams에서 조직 전체 팀 만들기](create-an-org-wide-team.md)
 ## [사용자 관리자 팀 만들기](create-manager-directs-teams.md)
 ## [팀 및 채널 정책 관리](teams-policies.md)
@@ -690,7 +691,7 @@
 #### [Power BI를 사용하여 CQD 데이터 분석](CQD-Power-BI-query-templates.md)
 #### [CQD 쿼리 서식 파일을 사용하기 위해 Power BI 커넥터 설치](CQD-Power-BI-connector.md)
 #### [Teams 사용률에 대한 CQD 데이터 가져오기](CQD-teams-utilization-report.md)
-#### [CQD PSTN 보고서 사용](CQD-PSTN-report.md)
+#### [CQD PSTN 직접 라우팅 보고서 사용](CQD-PSTN-report.md)
 ### [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [통화 품질 대시보드의 분류 간소화](stream-classification-in-call-quality-dashboard.md)
 ## [설치 및 업데이트 문제 해결](troubleshoot-installation.md)
@@ -775,6 +776,7 @@
 ## [Teams에서 도움말 보기](get-help-in-microsoft-teams.md)
 ## [Teams 콘텐츠 업데이트](teams-updates.md)
 
+## [지원 PIN을 찾는 방법](support-pin.md)
 
 ## 오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 ### [개요](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
