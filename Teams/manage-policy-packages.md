@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 정책 패키지를 사용 하 고 관리 하 여 사용자 그룹에 대 한 정책을 관리할 때 일관성을 간소화 하 고 간소화 하 고 해결 하는 방법을 알아봅니다.
-ms.openlocfilehash: b900e7ad8e41b8ebad0ff2af774e36478c956f59
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 742269fd85cb912e52d727a03a6123acd0b87a72
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44243567"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44281460"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft 팀에서 정책 패키지 관리
 
@@ -51,7 +51,7 @@ Microsoft 팀의 정책 패키지는 조직에서 유사한 역할을 갖는 사
 |교육 (원격 학습을 사용 하는 기본 학교 학생) (미리 보기)    |원격 학습을 사용 하는 경우 학생 안전 성과 공동 작업을 최대화 하기 위해 기본 학생에 게 적용 되는 정책 집합을 만듭니다.      |
 |의료 임상 근로자  |등록 된 nurses, 청구 nurses, 의사, 소셜 작업자에 게 채팅, 통화, 교대 관리, 모임에 대 한 전체 액세스 등의 임상 근로자를 제공 하는 정책 및 정책 설정 집합을 만듭니다. |
 |의료 정보 근로자  |IT 직원, informatics 스태프, 재무 담당자, 규정 준수 관리자, 채팅, 통화, 모임에 대 한 모든 액세스 권한을 제공 하는 정책 및 정책 설정 집합을 만듭니다.|
-|의료 환자 실 (미리 보기)  |건강 관리 조직의 환자 방에 해당 하는 정책 및 정책 설정 집합을 만듭니다.|
+|의료 환자 실  |건강 관리 조직의 환자 방에 해당 하는 정책 및 정책 설정 집합을 만듭니다.|
 |중소 기업 사용자 (비즈니스 음성) |비즈니스 음성 환경에 대 한 앱을 포함 하는 앱 설치 정책을 만듭니다.|
 |중소 규모 비즈니스 사용자 (비즈니스 보이스 필요 없음) |비즈니스 음성 기능을 사용 하지 않고 중소 규모의 비즈니스 사용자에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.|
 |공개 안전 책임자   |조직의 공개 보안 책임자에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.|

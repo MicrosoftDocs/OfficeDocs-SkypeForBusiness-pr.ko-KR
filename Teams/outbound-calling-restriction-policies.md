@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 관리자는 오디오 회의의 종류와 사용자가 설정할 수 있는 최종 사용자 PSTN 통화를 제어할 수 있습니다.
-ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 84acbed4017a709b63e657f12ef0bbe3c1eb620c
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137908"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278181"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
 
@@ -34,13 +34,15 @@ ms.locfileid: "43137908"
 
 아웃 바운드 통화 컨트롤은 사용자별로 적용할 수 있으며 다음 두 가지 컨트롤을 제공 하 여 각 유형의 아웃 바운드 호출을 독립적으로 제한할 수 있습니다. 기본적으로 두 컨트롤 모두 국제 및 국내 아웃 바운드 통화를 허용 하도록 설정 됩니다. 
 
-|Ctrl|Description|제어 옵션|
+|Ctrl|설명|제어 옵션|
 |:-----|:-----|:-----|
-|오디오 회의 PSTN 통화|아웃 바운드 유형을 제한 합니다. </br>내에서 허용 되는 통화 </br>사용자가 구성한 모임|국제 및 국내 (기본값)</br>국내</br>없음|
+|오디오 회의 PSTN 통화|아웃 바운드 유형을 제한 합니다. </br>내에서 허용 되는 통화 </br>사용자가 구성한 모임|모든 대상 (기본값)</br>Organizor와 동일한 국가 또는 지역에서 </br> </br>국가 또는 지역만 영역 </br>허용 안 함|
 |최종 사용자 PSTN 통화|통화 유형을 제한 합니다. </br>사용자가 설정할 수 있습니다.|국제 및 국내 (기본값)</br>국내</br>없음|
 
+영역 A로 간주 되는 국가/지역에 [대해 알아보려면 국가/지역 영역을](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365)참조 하세요.
+
    > [!NOTE]
-   > 전화를 거는 번호가 모임 이끌이 (오디오 회의의 경우) 또는 최종 사용자 (최종 사용자 PSTN 통화의 경우)에 설정 된 같은 365 국가에 있는 경우에는 통화가 국내으로 간주 됩니다. 
+   > 전화를 건 번호와 동일한 국가/365 지역 (오디오 회의의 경우) 또는 최종 사용자 (최종 사용자 PSTN 통화의 경우)가 있는 경우에는 통화가 국내으로 간주 됩니다. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -61,7 +63,7 @@ ms.locfileid: "43137908"
 
 ![비즈니스용 skype 로고를 나타내는 아이콘](media/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
 
-1.    **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의** > **사용자**로 이동한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
+1.    **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의**  >  **사용자**로 이동한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 
 2.    작업 창에서 **편집**을 클릭 합니다.
 
@@ -93,3 +95,6 @@ CSOnlineDialOutPolicy cmdlet을 사용 하 여 아웃 바운드 호출 정책을
 |    Id = ' tag: DialoutCPCDomesticPSTNDisabled '    |    회의 사용자는 국내 번호로만 전화를 걸 수 있으며,이 사용자는 비상 번호 이외의 PSTN 번호로의 아웃 바운드 통화를 할 수 없습니다.    |
 |    Id = ' tag: DialoutCPCDisabledPSTNDomestic '    |    회의 중인 사용자는 전화를 걸 수 없으며,이 사용자는 국내 PSTN 번호로만 아웃 바운드 통화를 할 수 있습니다.    |
 |    Id = ' tag: DialoutCPCandPSTNDisabled '    |    회의 중 사용자는 전화를 걸 수 없으며,이 사용자는 비상 번호 이외의 PSTN 번호로의 아웃 바운드 통화를 할 수 없습니다.    |
+|    Id = ' tag: DialoutCPCZoneAPSTNInternational '    |    전화 회의 사용자는 국가 및 지역 영역에만 전화를 걸 수 있으며,이 사용자는 국제 및 국내 번호로 아웃 바운드 통화를 할 수 있습니다.    |
+|    Id = ' tag: DialoutCPCZoneAPSTNDomestic '    |    전화 회의 사용자는 국가 및 지역 영역에만 전화를 걸 수 있으며,이 사용자는 국내 PSTN 번호로만 아웃 바운드 통화를 할 수 있습니다.    |
+|    Id = ' tag: DialoutCPCZoneAPSTNDisabled '    |    전화 회의 사용자는 국가 및 지역 영역에만 전화를 걸 수 있으며,이 사용자는 비상 번호 이외의 PSTN 번호로의 아웃 바운드 통화를 할 수 없습니다.    |

@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836548"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280277"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
@@ -133,7 +133,7 @@ PSTN 끝점이 관련 된 경우 위치 기반 라우팅은 위치 기반 라우
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>사용자가 위치 기반 라우팅에 대해 사용 하도록 설정 되지 않음
 
-위치 기반 회람을 사용 하도록 설정 하지 않은 사용자는 위치 기반 라우팅에 대해 설정 되지 않은 다른 사용자에 게 PSTN 통화를 전송 하거나 착신 전환할 수 있습니다. 사용자는 일반적으로 위치 기반 라우팅 사용 가능 사용자가 PSTN에 대 한 위치 기반 라우팅 사용 게이트웨이에서 공동으로 사용할 수 있으므로 위치 기반 라우팅에 대해 사용 하도록 설정 된 사용자에 게 PSTN 통화를 전송 하거나 전달할 수는 없습니다. 전화가. 이 예외는 위치 기반 라우팅이 사용 하도록 설정 된 사용자가 위치 기반 라우팅에 사용할 수 없는 사이트로 로밍 하는 경우입니다. 이 시나리오에서는 전송 된 통화가 허용 됩니다.  
+위치 기반 회람을 사용 하도록 설정 하지 않은 사용자는 위치 기반 라우팅에 대해 설정 되지 않은 다른 사용자에 게 PSTN 통화를 전송 하거나 착신 전환할 수 있습니다. 사용자는 일반적으로 위치 기반 라우팅 사용 가능 사용자가 PSTN 통화에 대 한 위치 기반 라우팅 사용 게이트웨이에서 공동 위치에 있을 수 있으므로 위치 기반 라우팅에 대해 사용 하도록 설정 된 사용자에 게 PSTN 통화를 전송 하거나 전달할 수는 없습니다. 이 예외는 위치 기반 라우팅이 사용 하도록 설정 된 사용자가 위치 기반 라우팅에 사용할 수 없는 사이트로 로밍 하는 경우입니다. 이 시나리오에서는 전송 된 통화가 허용 됩니다.  
 
 마찬가지로 위치 기반 라우팅이 설정 되지 않은 사용자는 위치 기반 라우팅을 사용 하도록 설정 하지 않은 다른 사용자의 전송 또는 전달 된 PSTN 통화만 받을 수 있습니다. 
 
@@ -249,6 +249,10 @@ IPv4 및 IPv6 서브넷이 지원 되지만, 일치 여부를 확인할 때 IPv6
 ### <a name="location-based-routing-for-conferencing"></a>회의를 위한 위치 기반 라우팅
 
 PSTN 통화에 대 한 위치 기반 라우팅 사용 사용자는 다른 사용자 또는 PSTN 번호로 회의를 시작할 수 없습니다. 자동 전화 교환 또는 통화 대기열에 연결 하는 것이 허용 됩니다. 사용자가 회의 라이선스를 보유 한 경우 사용자는 관련 사용자와의 전화 회의를 시작 하 고 회의 브리지를 통해 PSTN을 전화 하 여 전화 회의를 시작 해야 합니다.  
+
+### <a name="media-bypass-requirement-for-location-based-routing"></a>위치 기반 라우팅에 대 한 미디어 바이패스 요구 사항
+
+인도에서 위치 기반 라우팅을 배포 하는 경우 미디어 바이패스를 구성 하는 것도 요구 사항입니다. 자세한 내용은 [다이렉트 라우팅이 미디어 바이패스 계획](direct-routing-plan-media-bypass.md)을 참조 하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

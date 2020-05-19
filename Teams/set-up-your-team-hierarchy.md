@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bb8133733f7230715753ecea0118fc635af446b
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 26e4ee05b9f94fa0883aef5bbe98b691c9e0c46d
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159005"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278171"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 지정 계층 구조 설정
 
@@ -57,7 +57,7 @@ CSV 파일에는 다음 순서 대로 첫 번째 열부터 다음 세 개의 열
 ----------------|----------|---------------|
 | TargetName    | 예      | 노드의 이름입니다. 이름은 최대 100 자를 입력할 수 있으며 A-z, a-z 및 0-9 문자만 포함 합니다. 노드 이름은 고유 해야 합니다. |
 | ParentName    | 예       | 부모 노드의 이름입니다. 여기서 지정한 값은 부모 노드의 TargetName 필드 값과 정확히 일치 해야 합니다. 둘 이상의 상위 노드를 추가 하려는 경우 각 상위 노드 이름을 세미콜론 (;)로 구분 합니다. 상위 노드는 최대 25 개까지 추가할 수 있으며 각 부모 노드 이름은 최대 2500 자를 가질 수 있습니다. 부모 노드가 루트 노드인 경우에만 노드에 여러 부모 노드가 있을 수 있습니다.   <br><br>**중요** 계층 구조에서 상위 노드가 계층 구조의 하위 노드를 참조 하는 루프를 만들지 않도록 주의 합니다. 이는 지원 되지 않습니다. |
-| 팀 Id        | 예, 팀이 상위 노드에서 작업을 게시 하거나 작업을 수신 하는 경우       | 여기에는 노드를 연결할 팀의 ID가 포함 됩니다. 노드는 계층 맨 아래에 있고, 사용자가 해당 노드에서 게시할 수 있도록 하려는 경우 또는 사용자가 해당 노드 및 해당 노드의 하위 항목에 대 한 보고를 볼 수 있도록 하려면 팀에 연결 되어 있어야 합니다. 예를 들어, 서쪽 지역 사무소의 관리자가 해당 지역에 속하는 노드에 대 한 작업 완료 보고를 표시 하려고 합니다.<br><br>계층 구조에서 다른 노드를 그룹화 하는 목적 으로만 노드를 추가 하려는 경우 해당 노드를 팀에 연결 하 고이 필드를 비워 둘 수 있습니다. 각 노드를 한 팀에만 연결할 수 있습니다.<br>노드를 연결 하려는 팀의 ID를 가져오려면 다음 PowerShell 명령을 실행 `Get-Team | Export-Csv TeamList.csv`합니다. 조직의 팀이 나열 되 고 각 팀의 이름 및 ID가 포함 됩니다. 연결 하려는 팀의 이름을 찾은 다음이 필드에 해당 ID를 복사 합니다.|
+| 팀 Id        | 예, 팀이 상위 노드에서 작업을 게시 하거나 작업을 수신 하는 경우       | 여기에는 노드를 연결할 팀의 ID가 포함 됩니다. 노드는 계층 맨 아래에 있고, 사용자가 해당 노드에서 게시할 수 있도록 하려는 경우 또는 사용자가 해당 노드 및 해당 노드의 하위 항목에 대 한 보고를 볼 수 있도록 하려면 팀에 연결 되어 있어야 합니다. 예를 들어, 서쪽 지역 사무소의 관리자가 해당 지역에 속하는 노드에 대 한 작업 완료 보고를 표시 하려고 합니다.<br><br>계층 구조에서 다른 노드를 그룹화 하는 목적 으로만 노드를 추가 하려는 경우 해당 노드를 팀에 연결 하 고이 필드를 비워 둘 수 있습니다. 각 노드를 한 팀에만 연결할 수 있습니다.<br>노드를 연결 하려는 팀의 ID를 가져오려면 다음 PowerShell 명령을 실행 `Get-Team | Export-Csv TeamList.csv` 합니다. 조직의 팀이 나열 되 고 각 팀의 이름 및 ID가 포함 됩니다. 연결 하려는 팀의 이름을 찾은 다음이 필드에 해당 ID를 복사 합니다.|
 
 ### <a name="add-attribute-columns"></a>특성 열 추가
 
@@ -90,11 +90,11 @@ CSV 파일에는 다음 순서 대로 첫 번째 열부터 다음 세 개의 열
 
 다음은 위의 이미지에 표시 된 계층 구조를 지원 하기 위해 생성 되는 스키마 CSV 파일의 예입니다. 이 스키마에는 다음이 포함 됩니다.
 
-- 라는 `TargetName`세 개의 필수 열 `ParentName`, 및`TeamID`
-- 이라는 `Store layout` `Departments:Clothing`세 개의 특성 열과`Departments:Foods`
-- 세 개의 버킷 열 `Fresh Foods`, `Frozen Foods`및`Womenswear`
+- 라는 세 개의 필수 열 `TargetName` , `ParentName` 및`TeamId`
+- 이라는 세 개의 특성 `Store layout` 열 `Departments:Clothing` 과`Departments:Foods`
+- 세 개의 버킷 열 `Fresh Foods` , `Frozen Foods` 및`Womenswear`
 
-`Store layout` 특성에는, 및 `Large`를 `Compact`포함 `Standard`하는 값이 있습니다. 특성 `Departments` 열은 값 `0` (0) 또는 `1`으로 설정할 수 있습니다. `Store` 레이아웃 및 `Departments` 특성이 위의 이미지에 표시 되지 않습니다. 노드 항목에 특성을 추가 하는 방법을 보여 주기 위해 여기에 추가 됩니다. 이는 세 개의 버킷 열에도 적용 됩니다.
+특성에는, `Store layout` 및를 포함 하는 값이 있습니다 `Compact` `Standard` `Large` . `Departments`특성 열은 값 `0` (0) 또는으로 설정할 수 있습니다 `1` . `Store`레이아웃 및 `Departments` 특성이 위의 이미지에 표시 되지 않습니다. 노드 항목에 특성을 추가 하는 방법을 보여 주기 위해 여기에 추가 됩니다. 이는 세 개의 버킷 열에도 적용 됩니다.
 
 
 | TargetName             | ParentName                      | 팀 Id                       | 스토어 레이아웃|부서: 옷|부서: 음식의|#Fresh 음식의|#Frozen 음식의|#Womenswear|

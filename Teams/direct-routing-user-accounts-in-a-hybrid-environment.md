@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 사용자 만들기와 지원 또는 지원 되지 않는 조합에 대 한 다양 한 조합에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779997"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280257"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
 
@@ -65,7 +65,7 @@ PSTN 연결을 사용 하는 비즈니스용 Skype 하이브리드 환경에서�
 |**지원 되지 않는 조합**    | |         |         |      |
 |Azure AD| 온-프레미스/온라인 | 비즈니스용 Skype/Microsoft 팀|엔터프라이즈 음성/하이브리드 음성 연결/직접 라우팅  |아니요, 먼저 온-프레미스 광고에 사용자 개체를 만들어야 합니다. |
 |온-프레미스 광고  |온-프레미스| Microsoft Teams| 엔터프라이즈 음성/하이브리드 음성 연결/직접 라우팅   |아니요, Microsoft 팀 클라이언트는 온-프레미스 비즈니스용 Skype에서 지원 되지 않습니다. |     
-|온-프레미스 광고  |온라인 |비즈니스용 Skype  | 직접 라우팅  |아니요, 다이렉트 라우팅이 비즈니스용 skype 클라이언트에서 지원 되지 않으며, 비즈니스용 Skype에서 Enterprise Voice에 대 한 사용자를 먼저 사용 하도록 설정 해야 합니다.  |
+|온-프레미스 광고  |온라인 |비즈니스용 Skype  | 직접 라우팅  |아니요, 비즈니스용 Skype 클라이언트에서는 직접 라우팅이 지원 되지 않습니다.  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>PSTN이 있는 하이브리드 환경에 대 한 지원 가능성 문

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256503"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278201"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -401,6 +401,23 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 이는 이끌이 별 정책입니다. 이 설정은 사용자의 모임에서 모임 채팅을 허용할지 여부를 제어 합니다.
 
 <a name="bkparticipantsandguests"> </a>
+
+## <a name="meeting-policy-settings---designated-presenter-role-mode"></a>모임 정책 설정-지정 된 발표자 역할 모드
+
+이것은 사용자별 정책입니다. 이 설정을 사용 하면 팀 클라이언트의 **모임 옵션** 에서 설정할 **수 있는 사용자** 의 기본값을 변경할 수 있습니다. 이 정책 설정은 모임 시작 모임을 포함 하 여 모든 모임에 영향을 줍니다.
+
+**누가 발표할 수 있나요?** 모임 이끌이가 모임에 발표자가 될 수 있는 사용자를 선택 하면이 설정을 사용 합니다. 자세히 알아보려면 [팀 모임에서](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019) [팀 모임 및 역할에 대 한 참가자 설정 변경을](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) 참조 하세요.
+
+현재는 PowerShell을 사용 하 여이 정책 설정을 구성할 수만 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용 하 여 기존 팀 모임 정책을 편집할 수 있습니다. 또는 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용 하 여 새 팀 모임 정책을 만들고 사용자에 게 할당 합니다.
+
+**표시할 수 있는 사용자** 의 기본값을 지정 하려면 팀에서 **DesignatedPresenterRoleMode** 매개 변수를 다음 중 하나로 설정 합니다.
+
+- **EveryoneUserOverride**: 모든 모임 참가자는 발표자가 될 수 있습니다. 기본값입니다. 이 매개 변수는 팀의 **모든 사용자** 설정에 해당 합니다.
+- **EveryoneInCompanyUserOverride**: 게스트 사용자를 포함 하 여 조직에서 인증 된 사용자가 발표자가 될 수 있습니다. 이 매개 변수는 팀의 **조직 내 사용자** 설정에 해당 합니다.
+- **EveryoneInSameAndFederatedCompanyUserOverride**: 게스트 사용자 및 페더레이션된 조직의 사용자를 포함 하 여 조직에서 인증 된 사용자가 발표자가 될 수 있습니다. 이 매개 변수는 **조직의 사용자 및 팀의 신뢰할 수 있는 조직** 설정에 해당 합니다.
+- **OrganizerOnlyUserOverride**: 모임 이끌이만 발표자가 될 수 있으며 모든 모임 참가자가 참석자로 지정 됩니다. 이 매개 **변수는 팀의 자신만 설정** 에 해당 합니다.
+
+기본값을 설정한 후에도 모임 이끌이는 팀에서이 설정을 변경 하 고 자신이 예약한 모임에 발표할 수 있는 사람을 선택할 수 있다는 점에 유의 하세요.
 
 ## <a name="meeting-policy-settings---meeting-attendance-report"></a>모임 정책 설정-모임 참석 보고서
 
