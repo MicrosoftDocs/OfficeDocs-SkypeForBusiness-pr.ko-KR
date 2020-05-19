@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 교육 또는 EDU 설정의 정책과 Microsoft Teams에서 정책 패키지를 사용하고 관리하는 방법에 대해 자세히 알아봅니다.
-ms.openlocfilehash: 7aab40ce5cd3e82d884faffea29c0a1f47be6d26
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: c602327321319c9924501d7879abcadf2a2c019e
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139231"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278191"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>교육용 Teams 정책 및 정책 패키지
 
@@ -269,8 +269,14 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 - **익명 사용자의 모임 시작 허용**: **해제**
 - **자동으로 사용자 허용**: **조직의 모든 사용자**
 - **전화 접속 사용자의 로비 우회 허용**: **해제**
+- <sup>1</sup>**DesignatedPresenterRoleMode**: **OrganizerOnlyUserOverride**
 
-### <a name="message-policies"></a>메시지 정책
+<sup>1</sup> 이 설정은 Microsoft Teams 관리 센터에는 없습니다. 따라서 PowerShell을 사용하여 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용 하여 **DesignatedPresenterRoleMode** 매개 변수를 설정해야 합니다. 이 값은 Teams의 **모임 옵션**에서 **발표할 수 있는 사람** 의 기본값을 **본인만**으로 설정합니다. 이 설정을 사용하면 모임 이끌이만 발표자가 될 수 있으며 다른 모든 모임 참가자는 참석자로 지정됩니다. 자세한 내용은 [모임 정책 설정 - 지정된 발표자 역할 모드](meeting-policies-in-teams.md#meeting-policy-settings---designated-presenter-role-mode)를 참조하세요.
+
+> [!NOTE]
+> 교육자가 아닌 직원의 경우, 매개 변수를 **EveryoneUserOverride** (Teams의 **모든 사람** 설정에 해당) 또는 **EveryoneInCompanyUserOverride**(Teams에서 **조직 내 사용자**에 해당)로 설정하는 것이 좋습니다.
+
+### <a name="messaging-policies"></a>메시징 정책
 
 **소유자는 보낸 메시지 삭제 가능**을 **설정**으로 설정하면 교육 담당자는 채널 모임에서 채팅 세션을 모니터링하고 부적절한 메시지를 삭제할 수 있습니다.
 
