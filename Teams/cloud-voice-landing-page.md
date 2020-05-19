@@ -20,12 +20,12 @@ search.appverid: MET150
 description: 클라우드 음성 기능에 대해 자세히 알아보고 필요한 배포 결정을 이해 하세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905910"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281673"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성
 
@@ -151,7 +151,7 @@ Office 365의 전화 시스템 기능에 있는 다이얼 플랜은 전화 번�
 
 지원 되는 장치에 대 한 자세한 내용은 다음을 참고 하세요.
 
-- [Microsoft 팀에서 장치 관리](device-management.md)
+- [Microsoft 팀에서 장치 관리](devices/device-management.md)
 - [IP 전화](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [USB 오디오 및 비디오 디바이스](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [장치에 대 한 지능형 통신](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)

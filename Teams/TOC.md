@@ -60,6 +60,7 @@
 ### [Team에서 앱의 관리 설정](admin-settings.md)
 ### [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
 ### [Microsoft 365 또는 Office 365, 그리고 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
+### [리소스별 승인](resource-specific-consent.md)
 ### [사용자 지정 앱 관리](manage-your-custom-apps.md)
 ### [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -138,6 +139,7 @@
 ## [Teams 클라우드 모임 녹음/녹화](cloud-recording.md)
 ## [Outlook에서 Teams 모임 추가 기능 사용](teams-add-in-for-outlook.md)
 ## [사용자의 전화 받기 기능 설정](set-up-the-call-me-feature-for-your-users.md)
+## [모임 참석 보고서 받기](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [MMS(Meeting Migration Service) 설정](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Microsoft Teams 룸](rooms/index.md)
 ## [Teams에서 화이트보드 관리](manage-whiteboard.md)
@@ -244,7 +246,7 @@
 #### [클라우드 자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)
 #### [소규모 기업 예제 - 자동 전화 교환 설정](tutorial-org-aa.yml)
 #### [소규모 기업 예제 - 전화 큐 설정](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Microsoft Teams에서 리소스 계정 관리](manage-resource-accounts.md)
+#### [Teams 자원 계정 관리](manage-resource-accounts.md)
 #### [클라우드 통화 큐 만들기](create-a-phone-system-call-queue.md)
 #### [자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기](answer-auto-attendant-and-call-queue-calls.md)
 
@@ -751,6 +753,7 @@
 ## Microsoft 365 및 Office 365와의 상호 운용성
 
 ### [Microsoft 365 그룹 및 Microsoft Teams](office-365-groups.md)
+### [Microsoft 365 관리 센터를 사용하여 Microsoft 365 리소스 계정 만들기](devices/resource-account-ui.md)
 ### [Teams와 기존 Microsoft 365 그룹 향상](enhance-office-365-groups.md)
 ### [Exchange와 Teams의 상호 작용 방법](exchange-teams-interact.md)
 #### [Teams와 사용할 Exchange 하이브리드 조직 구성](exchange-hybrid-organization.md)
@@ -762,6 +765,7 @@
 ## 지원되는 장치
 ### [Teams에서 디바이스 관리](device-management.md)
 ### [Teams용 전화](phones-for-teams.md)
+### [Microsoft Teams를 위한 공동 작업 모음 배포](devices/collab-bar-deploy.md)
 ### [USB 오디오 및 비디오 디바이스](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [회의실 디바이스 및 솔루션](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Microsoft Teams에서 인증 받은 IP 휴대폰](teams-ip-phones.md)
