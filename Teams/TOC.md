@@ -64,8 +64,8 @@
 ### [사용자 지정 앱 관리](manage-your-custom-apps.md)
 ### [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [조직에 대한 작업 앱 관리](manage-tasks-app.md)
 ### [팀 대상 계층 구조 설정](set-up-your-team-hierarchy.md)
+### [조직에 대한 작업 앱 관리](manage-tasks-app.md)
 ### [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 외부 사용자와 의사 소통
@@ -604,6 +604,7 @@
 # 산업 및 정부 지침
 ## [개요](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Teams 서식 파일 시작](get-started-with-teams-templates.md)
+## [예약 앱 및 가상 방문](bookings-app-admin.md)
 ## [Teams의 교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 사용 중지 예정](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft StaffHub PowerShell 모듈 설치](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -628,7 +629,7 @@
 ## [교육용 Teams](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [빠른 시작 - 교육용 Teams 관리](teams-quick-start-edu.yml)
 ### [원격 학습 시작](remote-learning-edu.md)
-### [EDU 관리자용 Microsoft Teams 정책 패키지](policy-packages-edu.md)
+### [Teams EDU 정책 및 정책 패키지](policy-packages-edu.md)
 ### [다수의 사용자에 정책 할당하기](batch-policy-assignment-edu.md)
 ### [교육 관리자용 낮은 대역폭 지침](edu-remote-low-bandwidth.md)
 ### [교육용 Teams의 과제](expand-teams-across-your-org/assignments-in-teams.md)
@@ -763,12 +764,12 @@
 
 
 ## 지원되는 장치
-### [Teams에서 디바이스 관리](device-management.md)
-### [Teams용 전화](phones-for-teams.md)
-### [Microsoft Teams를 위한 공동 작업 모음 배포](devices/collab-bar-deploy.md)
-### [USB 오디오 및 비디오 디바이스](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Teams에서 디바이스 관리](devices/device-management.md)
+### [Teams용 전화](devices/phones-for-teams.md)
+### [USB 오디오 및 비디오 디바이스](devices/usb-devices.md)
+### [Microsoft Teams용 공동 작업 모음 배포](devices/collab-bar-deploy.md)
 ### [회의실 디바이스 및 솔루션](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Microsoft Teams에서 인증 받은 IP 휴대폰](teams-ip-phones.md)
+### [Microsoft Teams에서 인증 받은 IP 휴대폰](devices/teams-ip-phones.md)
 ### [비즈니스용 Skype Online용 휴대폰](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
