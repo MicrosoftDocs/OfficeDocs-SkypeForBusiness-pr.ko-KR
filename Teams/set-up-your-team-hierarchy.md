@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26e4ee05b9f94fa0883aef5bbe98b691c9e0c46d
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278171"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321747"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 지정 계층 구조 설정
 
@@ -116,7 +116,7 @@ CSV 파일에는 다음 순서 대로 첫 번째 열부터 다음 세 개의 열
 ## <a name="apply-your-hierarchy"></a>계층 구조 적용
 
 > [!IMPORTANT]
-> 이 단계를 수행 하려면 PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈을 설치 하 고 사용 해야 합니다. 이 작업을 수행 하는 방법에 대 한 단계는 [Powershell 테스트 갤러리에서 최신 팀 PowerShell 모듈 설치](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)를 참조 하세요.
+> 이 단계를 수행 하려면 [Powershell 테스트 갤러리](https://www.poshtestgallery.com/packages/MicrosoftTeams/)에서 최신 버전의 팀 PowerShell 모듈을 설치 하 고 사용 해야 합니다. 모듈을 설치 하는 방법에 대 한 단계는 [팀 PowerShell 모듈의 시험판 버전 설치](install-prerelease-teams-powershell-module.md)를 참조 하세요.
 
 스키마 CSV 파일에서 계층 구조를 정의 하 고 나면 팀에 업로드할 수 있습니다. 이렇게 하려면 다음 명령을 실행 합니다. 이 단계를 수행 하려면 전역 관리자 또는 팀 서비스 관리자 여야 합니다.
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>계층 구조 제거
 
 > [!IMPORTANT]
-> 이 단계를 수행 하려면 PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈을 설치 하 고 사용 해야 합니다. 이 작업을 수행 하는 방법에 대 한 단계는 [Powershell 테스트 갤러리에서 최신 팀 PowerShell 모듈 설치](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)를 참조 하세요.
+> 이 단계를 수행 하려면 [Powershell 테스트 갤러리](https://www.poshtestgallery.com/packages/MicrosoftTeams/)에서 최신 버전의 팀 PowerShell 모듈을 설치 하 고 사용 해야 합니다. 모듈을 설치 하는 방법에 대 한 단계는 [팀 PowerShell 모듈의 시험판 버전 설치](install-prerelease-teams-powershell-module.md)를 참조 하세요.
 
 조직의 모든 사용자에 대해 게시 된 **목록** 탭을 즉시 사용 하지 않도록 설정 하려는 경우 계층 구조를 제거할 수 있습니다. 사용자는 **게시 된 목록** 탭 또는 탭의 기능에 액세스할 수 없습니다.  여기에는 게시, 액세스 초안 목록, 게시, 게시 취소 및 중복 목록에 대 한 새 작업 목록을 만드는 기능과 보고서 보기가 포함 됩니다. 계층을 제거 해도 이전에 게시 한 작업은 게시 취소 되지 않습니다. 이러한 작업은 받는 사람 팀이 완료 될 때까지 계속 사용할 수 있습니다. 
 
@@ -136,60 +136,6 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ```powershell
 Remove-TeamTargetingHierarchy
 ```
-
-### <a name="teams-powershell-module"></a>팀 Powershell 모듈
-
-#### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell 테스트 갤러리에서 최신 팀 PowerShell 모듈 설치
-
-최근에 공개적으로 사용할 수 있는 팀 PowerShell 모듈 버전 (현재 [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5))은 팀 계층 관리를 지원 하지 않습니다. 이 단계를 사용 하 여 PowerShell 테스트 갤러리에서 팀 계층 구조 지원과 함께 팀 PowerShell 모듈의 최신 버전을 설치 합니다.
-
-> [!NOTE]
-> PowerShell 테스트 갤러리에서 팀 PowerShell 모듈을 공용 PowerShell 갤러리의 모듈 버전과 나란히 설치 하지 마세요. 이 단계에 따라 먼저 공용 PowerShell 갤러리에서 팀 PowerShell 모듈을 제거 하 고 PowerShell 테스트 갤러리에서 최신 버전의 모듈을 설치 합니다.
-
-1. 모든 기존 PowerShell 세션을 닫습니다.
-2. Windows PowerShell 모듈의 새 인스턴스를 시작 합니다.
-3. 공용 PowerShell 갤러리에서 팀 PowerShell 모듈을 제거 하려면 다음을 실행 합니다.
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. 모든 기존 PowerShell 세션을 닫습니다.
-5. Windows PowerShell 모듈을 다시 시작 하 고 다음을 실행 하 여 PowerShell 테스트 갤러리를 신뢰할 수 있는 원본으로 등록 합니다.
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. PowerShell 테스트 갤러리에서 최신 팀 PowerShell 모듈을 설치 하려면 다음을 실행 합니다.
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. 다음을 실행 하 여 PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈이 성공적으로 설치 되었는지 확인 합니다.
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈로 업데이트
-
-PowerShell 테스트 갤러리에서 팀 PowerShell 모듈을 이미 설치한 경우 다음 단계를 사용 하 여 최신 버전으로 업데이트 합니다.
-
-1. 모든 기존 PowerShell 세션을 닫습니다.
-2. Windows PowerShell 모듈의 새 인스턴스를 시작 합니다.
-3. 다음을 실행 하 여 PowerShell 테스트 갤러리에서 현재 설치 된 버전의 팀 PowerShell 모듈을 업데이트 합니다.
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. 다음을 실행 하 여 PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈이 성공적으로 설치 되었는지 확인 합니다.
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
 
 ## <a name="troubleshooting"></a>문제 해결
 
@@ -200,3 +146,4 @@ PowerShell 테스트 갤러리에서 팀 PowerShell 모듈을 이미 설치한 �
 ## <a name="related-topics"></a>관련 항목
 
 - [팀에서 조직의 작업 앱 관리](manage-tasks-app.md)
+- [Teams PowerShell 개요](teams-powershell-overview.md)

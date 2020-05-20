@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042215"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321617"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -32,7 +32,7 @@ Teams 모임 추가 기능을 사용하면 사용자가 Outlook에서 Teams 모�
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Windows용 Outlook의 Teams 모임 추가 기능
 
-Teams 모임 추가 기능은 Microsoft Teams를 사용하고 Windows PC에 Office 2010, Office 2013 또는 Office 2016 중 하나가 설치되어 있는 사용자에게 자동으로 설치됩니다. 사용자는 Outlook 일정 리본에서 Teams 모임 추가 기능을 볼 수 있습니다.
+팀 모임 추가 기능은 Windows PC에 Microsoft 팀과 Office 2013, Office 2016 또는 Office 2019이 설치 되어 있는 사용자를 위해 자동으로 설치 됩니다. 사용자는 Outlook 일정 리본에서 Teams 모임 추가 기능을 볼 수 있습니다.
 
 ![Outlook 리본의 Teams 모임 추가 기능에 대한 스크린샷](media/Teams-add-in-for-Outlook.png)
 
@@ -65,12 +65,12 @@ Teams 모임 단추가 최신 Outlook iOS 및 Android 앱 빌드에 표시됩니
 사용자가 **보내기**를 클릭한 후 모임 좌표(Teams 참가 링크 및 전화 접속 번호)가 모임 초대에 추가됩니다.  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Teams 모임 추가 기능 및 Outlook용 시간 찾기
-시간 찾기는 사용자가 여러 회사 간 모임 시간에 대해 합의하도록 돕는 Outlook용 추가 기능입니다. 회의 초대 대상자가 선호하는 시간을 제공하면 시간 찾기가 사용자 대신 모임 초대장을 전송합니다. 시간 찾기에서 **온라인 모임** 옵션을 선택한 경우 시간 찾기가 비즈니스용 Skype 또는 Microsoft Teams 모임을 예약합니다. (시간 찾기는 조직에서 기본 온라인 모임 채널로 설정한 값을 사용합니다.)
+FindTime은 사용자가 회사 간의 모임 시간에 합의에 도달할 수 있도록 돕는 Outlook 용 추가 기능입니다. 회의 초대 대상자가 선호하는 시간을 제공하면 시간 찾기가 사용자 대신 모임 초대장을 전송합니다. 시간 찾기에서 **온라인 모임** 옵션을 선택한 경우 시간 찾기가 비즈니스용 Skype 또는 Microsoft Teams 모임을 예약합니다. (시간 찾기는 조직에서 기본 온라인 모임 채널로 설정한 값을 사용합니다.)
 
 > [!NOTE]  
 > [시간 찾기 대시보드](https://findtime.microsoft.com/UserDashboard)에 비즈니스용 Skype 설정을 저장한 경우에는 시간 찾기에서 Microsoft Teams 대신 이 기능을 사용합니다. Microsoft Teams를 사용하려면 대시보드에서 비즈니스용 Skype 설정을 삭제합니다.
 
-자세한 내용은 [시간 찾기를 통해 모임 예약](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)을 참조하세요.
+자세한 내용은 [FindTime을 사용 하 여 모임 예약](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)을 참조 하세요.
 
 ## <a name="authentication-requirements"></a>인증 요구 사항
 
@@ -128,7 +128,8 @@ Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 - 팀에서 모임을 예약할 수 있도록 사용자에 게 팀 업그레이드 정책이 있는지 확인 합니다. 자세한 내용은 비즈니스용 [Skype에서 팀으로 업그레이드를](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) 참조 하세요.
 - 사용자에 게 Outlook 추가 기능을 허용 하는 팀 모임 정책이 있는지 확인 합니다. 자세한 내용은 [팀에서 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) 를 참조 하세요.
 - 사용자에 게 팀 데스크톱 클라이언트가 설치 되어 있는지 확인 합니다. 모임 추가 기능은 팀 웹 클라이언트만을 사용 하는 경우에는 설치 되지 않습니다.
-- 사용자에 게 regsvr32를 실행할 수 있는 권한이 있는지 확인 합니다.  자세한 내용 검토https://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
+- 사용자에 게 Outlook 2013 이상이 설치 되어 있는지 확인 합니다.
+- 사용자에 게 regsvr32를 실행할 수 있는 권한이 있는지 확인 합니다.
 - Outlook 데스크톱 클라이언트에 대해 사용 가능한 모든 업데이트가 적용 되었는지 확인 합니다.
 - 다음 단계를 따릅니다:
   - Teams 데스크톱 클라이언트를 다시 시작합니다.
