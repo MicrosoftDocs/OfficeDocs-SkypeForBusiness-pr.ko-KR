@@ -64,8 +64,8 @@
 ### [사용자 지정 앱 관리](manage-your-custom-apps.md)
 ### [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [팀 대상 계층 구조 설정](set-up-your-team-hierarchy.md)
 ### [조직에 대한 작업 앱 관리](manage-tasks-app.md)
+### [팀 대상 계층 구조 설정](set-up-your-team-hierarchy.md)
 ### [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 외부 사용자와 의사 소통
@@ -129,6 +129,7 @@
 ## [빠른 시작 - 모임 및 라이브 이벤트](quick-start-meetings-live-events.md)
 ## [배포 계획](deploy-meetings-microsoft-teams-landing-page.md)
 ## [자습서: Teams에서의 모임](Tutorial-Meetings-in-Teams.yml)
+## [Teams 모임의 발표자 및 참가자 기능](roles-in-meetings.md)
 ## [모임 정책 관리](meeting-policies-in-teams.md)
 ## [모임 설정 관리](meeting-settings-in-teams.md)
 ## [설정이 변경되면 사용자에게 전송되는 전자 메일](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -137,6 +138,7 @@
 ## [지원 되지 않는 브라우저에서 Teams 모임](unsupported-browsers.md)
 ## [Teams에서 데스크톱 공유 구성](configure-desktop-sharing.md)
 ## [Teams 클라우드 모임 녹음/녹화](cloud-recording.md)
+## [연락 센터 통합](teams-contact-center.md)
 ## [Outlook에서 Teams 모임 추가 기능 사용](teams-add-in-for-outlook.md)
 ## [사용자의 전화 받기 기능 설정](set-up-the-call-me-feature-for-your-users.md)
 ## [모임 참석 보고서 받기](teams-analytics-and-reports/meeting-attendance-report.md)
@@ -213,6 +215,7 @@
 ## 라이브 이벤트
 ### [Teams 라이브 이벤트란?](teams-live-events/what-are-teams-live-events.md)
 ### [Teams 라이브 이벤트 계획](teams-live-events/plan-for-teams-live-events.md)
+### [라이브 이벤트의 발표자 및 참가자 기능](roles-in-live-events.md)
 ### [Teams 라이브 이벤트 설정](teams-live-events/set-up-for-teams-live-events.md)
 ### [PowerShell을 사용하여 Teams 라이브 이벤트 정책 설정](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Teams 라이브 이벤트 설정 구성](teams-live-events/configure-teams-live-events.md)
@@ -670,6 +673,7 @@
 ## 규정 준수
 ### [정보 장벽](information-barriers-in-teams.md)
 ### [보존 정책](retention-policies.md)
+### [통화 및 모임에 대한 정책 기반 녹음](teams-recording-policy.md)
 ### [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
 #### [콘텐츠에 대한 eDiscovery 조사 수행](ediscovery-investigation.md)
@@ -776,6 +780,7 @@
 ## Teams PowerShell
 ### [개요](teams-powershell-overview.md)
 ### [Teams용 Cmdlet 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+### [Teams PowerShell 모듈의 시험판 버전 설치](install-prerelease-teams-powershell-module.md)
 
 ## [Teams용 개발자 문서](https://docs.microsoft.com/microsoftteams/platform)
 ## [Teams에서 도움말 보기](get-help-in-microsoft-teams.md)
