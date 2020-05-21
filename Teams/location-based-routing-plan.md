@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: 6f72360f4462a64e357d58489aa70203bf10c532
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280277"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326645"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
@@ -252,7 +252,7 @@ PSTN 통화에 대 한 위치 기반 라우팅 사용 사용자는 다른 사용
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>위치 기반 라우팅에 대 한 미디어 바이패스 요구 사항
 
-인도에서 위치 기반 라우팅을 배포 하는 경우 미디어 바이패스를 구성 하는 것도 요구 사항입니다. 자세한 내용은 [다이렉트 라우팅이 미디어 바이패스 계획](direct-routing-plan-media-bypass.md)을 참조 하세요.
+인도에서 위치 기반 라우팅을 배포 하는 경우 미디어 바이패스를 구성 하는 것도 요구 사항입니다. 자세한 내용은 직접 라우팅을 위한 다이렉트 라우팅 및 [로컬 미디어 최적화](direct-routing-media-optimization.md)를 [사용 하 여 미디어 바이패스에 대 한 계획](direct-routing-plan-media-bypass.md) 을 참조 하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

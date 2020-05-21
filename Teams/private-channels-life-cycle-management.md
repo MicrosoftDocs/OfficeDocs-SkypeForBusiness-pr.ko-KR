@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321705"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326695"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
 
@@ -180,7 +180,11 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 개인 채널의 특정 구성원을 소유자로 승격 해야 하는지 여부를 결정 하려면 개인 채널의 소유자와 구성원을 나열 하 고 싶을 수 있습니다. 이 문제는 조직을 남겨진 개인 채널의 소유자가 있고 개인 채널에서 채널의 소유권을 요구 하는 관리자 도움말이 필요한 경우에 발생할 수 있습니다.
 
-관리자는 PowerShell 또는 Graph Api 명령을 사용 하 여 이러한 Url을 쿼리할 수 있습니다.
+관리자는 Microsoft 팀 관리 센터, PowerShell 또는 그래프 API를 사용 하 여 이러한 작업을 수행할 수 있습니다.
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
+
+Microsoft 팀 관리 센터를 사용 하 여 팀 구성원을 관리 하는 방법을 알아보려면 [Microsoft 팀 관리 센터에서 팀 관리](manage-teams-in-modern-portal.md)를 참조 하세요.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 

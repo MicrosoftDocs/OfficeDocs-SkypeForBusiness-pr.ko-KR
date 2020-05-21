@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b06e675e93dd022847fc7af202045c3ecdebe63
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: e81e2fb588e718060ffbdf90a51c020ff2d6556c
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341775"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326595"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams 범위 디렉터리 검색 사용
 
@@ -51,7 +51,7 @@ Microsoft 팀은 조직에서 사용자에 게 디렉터리에 대 한 사용자
 
 1. 정보 장벽 정책을 사용 하 여 조직을 가상 하위 그룹으로 구성 합니다. 자세한 내용은 [정보 장벽 정책 정의](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)를 참조 하세요.
 
-2. Microsoft 팀 관리 센터에서 **조직 전체 설정** > **팀 설정을**선택 합니다.
+2. Microsoft 팀 관리 센터에서 **조직 전체 설정**  >  **팀 설정을**선택 합니다.
 
 3. **검색**에서 **Exchange 주소록 정책 (abp)을 사용 하는 팀의 범위 디렉터리 검색** **옆에 있는 토글을**켭니다.
 
@@ -59,4 +59,4 @@ Microsoft 팀은 조직에서 사용자에 게 디렉터리에 대 한 사용자
 
 
 > [!IMPORTANT]
-> 이 변경 사항을 복제 하는 데 최대 24 시간이 걸릴 수 있습니다.
+> 이 변경 사항을 복제 하는 데 몇 시간이 걸릴 수 있습니다.

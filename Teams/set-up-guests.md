@@ -17,19 +17,19 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e634c58d34787a76477591ab4262c703e5773cbe
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e434a85693226252ecef2a5b4c251024524e698f
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903793"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326565"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
 ===================================================
 
 기본적으로 게스트 액세스 기능은 꺼져있습니다. Office 365 관리자는 Teams에 대한 게스트 액세스를 켜야만 관리자 또는 팀 소유자가 게스트를 추가할 수 있습니다. 게스트 액세스를 켜기 위해서는 [게스트 액세스 검사 목록](guest-access-checklist.md)을 사용하세요. 
 
-게스트 액세스를 설정한 후 변경 내용이 적용 되려면 몇 시간이 걸릴 수 있습니다. 사용자가 팀에 게스트를 추가하려고 할 때 "관리자에게 문의하세요."라는 메시지가 표시되면 게스트 액세스가 켜지지 않았거나 설정이 아직 적용되지 않았을 가능성이 큽니다.
+게스트 액세스를 설정한 후 변경 내용이 적용 되는 데 몇 시간이 걸릴 수 있습니다. 사용자가 팀에 게스트를 추가하려고 할 때 "관리자에게 문의하세요."라는 메시지가 표시되면 게스트 액세스가 켜지지 않았거나 설정이 아직 적용되지 않았을 가능성이 큽니다.
 
 > [!IMPORTANT]
 > 게스트 액세스를 설정하는 것은 Azure Active Directory, Office 365, SharePoint Online 및 Teams의 설정에 따라 달라집니다. 자세한 내용은 [Team에서 게스트 액세스 권한 부여하기](Teams-dependencies.md)를 참조하세요.

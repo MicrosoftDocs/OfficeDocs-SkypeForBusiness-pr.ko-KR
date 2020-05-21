@@ -21,12 +21,12 @@ description: 교육 팀의 Microsoft 팀 관리 센터에서 과제를 관리 �
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 61caf4bc59387fd5c00cabf459976506b97ef9a0
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256453"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326765"
 ---
 # <a name="assignments-in-teams-for-education"></a>교육용 Teams의 과제
 
@@ -51,7 +51,7 @@ Microsoft MakeCode는 모든 학생에 게 컴퓨터 과학을 수명으로 제�
 
 MakeCode는 Microsoft [의 사용 약관](https://go.microsoft.com/fwlink/?LinkID=206977) 및 [개인정보 보호](https://go.microsoft.com/fwlink/?LinkId=521839) 정책에 적용 되는 microsoft 제품입니다.
 
-이 설정은 기본적으로 해제 되어 있습니다. 팀에서 MakeCode 과제를 사용 하도록 설정 하려면 **팀 관리 센터**에서 **과제** 섹션으로 이동 하 고 MakeCode 토글 **옵션을 설정**으로 전환 합니다. **저장** 을 클릭 하 고 다음 설정을 적용 하려면 24 시간까지 허용 합니다.
+이 설정은 기본적으로 해제 되어 있습니다. 팀에서 MakeCode 과제를 사용 하도록 설정 하려면 **팀 관리 센터**에서 **과제** 섹션으로 이동 하 고 MakeCode 토글 **옵션을 설정**으로 전환 합니다. **저장** 을 클릭 하 고 다음 설정을 적용 하려면 몇 시간 동안 기다립니다.
 
 이 기능의 작동 방식에 대 한 자세한 내용은이 [비디오 데모](https://makecode.com/blog/teams/teams-assignments)를 참조 하세요.
 
@@ -82,6 +82,6 @@ TurnitinApiUrl는 관리 콘솔의 호스트 주소입니다.
 메시지를 팔 로우 하는 경우 TurnitinApiKey이 사용자에 게 제공 됩니다. API 키를 복사 하 여 Microsoft 팀 관리 센터에 붙여넣습니다.  이 시점 에서만 키를 볼 수 있습니다.
 ![API 키 복사를 보여 주는 스크린샷](./educationImages/Assignments_mopo_turnitin3.png)
 
-이 설정에 대 한 관리 센터에서 **저장** 단추를 클릭 하면 이러한 설정을 적용 하는 데 최대 24 시간이 소요 될 수 있습니다.
+관리 센터에서이 설정에 대 한 **저장** 단추를 클릭 하면 이러한 설정을 적용 하는 데 몇 시간이 걸릴 수 있습니다.
 
 팀에서 Turnitin 통합 사용을 시작할 준비가 되셨습니까? [초기 access 프로그램](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)에 등록 합니다.

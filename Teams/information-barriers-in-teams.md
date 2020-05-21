@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀의 정보 장벽에 대해 설명
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2bbe2f38fe56e6952952730b7ba74dda1a98398f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904980"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326745"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
@@ -64,7 +64,7 @@ IB (정보 장벽)은 관리자가 개인 또는 그룹이 서로 통신 하는 
 정보 장벽 정책은 PowerShell cmdlet을 사용 하 여 SCC (Microsoft 365 준수 센터)에서 관리 합니다. 자세한 내용은 [정보 장벽에 대 한 정책 정의](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)를 참조 하세요.
 
 > [!IMPORTANT]
-> 정책을 설정 하거나 정의 하기 전에 **Microsoft 팀에서 범위 디렉터리 검색을 사용 하도록 설정 해야 합니다**. 범위 디렉터리 검색을 사용 하도록 설정한 후 24 시간 이상 기다려야 정보 장벽에 대 한 정책을 설정 하거나 정의 합니다. [정보 장벽에 대 한 필수 구성 요소에 대해 자세히 알아보세요](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
+> 정책을 설정 하거나 정의 하기 전에 **Microsoft 팀에서 범위 디렉터리 검색을 사용 하도록 설정 해야 합니다**. 범위 디렉터리 검색을 사용 하도록 설정한 후에는 정보 장벽에 대 한 정책을 설정 하거나 정의 하 고 나 서 몇 시간 정도 기다립니다. [정보 장벽에 대 한 필수 구성 요소에 대해 자세히 알아보세요](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>정보 장벽 관리자 역할
 

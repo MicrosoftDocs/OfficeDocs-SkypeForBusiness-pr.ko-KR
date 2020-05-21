@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9d91731792dd049f76d781c4a0be08e92d09e0bb
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902583"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326605"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 게스트 액세스 검사 목록
 =========================================
@@ -39,7 +39,7 @@ ms.locfileid: "43902583"
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>1단계: 조직 전체 수준에서 게스트 액세스 설정
 
-게스트 액세스를 설정하려면 **Microsoft Teams 관리 센터**로 이동합니다. 
+게스트 액세스를 설정 하려면 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 합니다. 
 
 1. Teams 관리 센터에서 **조직 전체 설정** > **게스트 액세스**를 선택합니다.
 2. **Microsoft Teams에서 게스트 액세스 허용** 스위치를 **켬**으로 설정합니다.
@@ -78,7 +78,7 @@ ms.locfileid: "43902583"
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>3 단계: Microsoft 365 그룹 구성
 
-1. Microsoft 365 관리 센터에서 **설정** > **설정**으로 이동 하 여 **서비스**를 클릭 한 다음 **Microsoft 365 그룹**을 선택 합니다.
+1. Microsoft 365 관리 센터에서 **설정**설정으로 이동 하 여  >  **Settings** **서비스**를 클릭 한 다음 **Microsoft 365 그룹**을 선택 합니다.
 
      ![스크린샷에는 Microsoft 365 Groups 설정이 나와 있습니다.](media/guest-access-checklist-services-settings.png)
 2. **조직 외부의 그룹 구성원이 그룹 콘텐츠에 액세스하도록 허용** 확인란을 선택했는지 확인합니다. 이 설정을 선택하지 않으면 게스트가 그룹 콘텐츠에 액세스할 수 없습니다.

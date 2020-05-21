@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780627"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326795"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기
 
@@ -91,7 +91,7 @@ StaffHub 팀을 팀으로 이동 하기 전에 다음을 확인 하세요.
 
 각 사용자는 [적격 요금제](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) 에서 활성 Microsoft 365 또는 Office 365 라이선스를 보유 하 고 있어야 하며 팀 라이선스를 할당 받아야 합니다. 사용자에 게 팀 라이선스를 할당 하면 팀에 액세스할 수 있습니다.
 
-Microsoft 365 관리 센터에서 팀 라이선스를 관리 합니다. 자세히 알아보려면 [팀에 대 한 사용자 액세스 관리](../../user-access.md)를 참조 하세요.
+Microsoft 365 관리 센터에서 팀 라이선스를 관리 합니다. 자세한 내용은 [Teams에 대한 사용자 액세스 관리하기](../../user-access.md)를 참조하세요.
 
 > [!NOTE]
 > 조직에서 비즈니스용 Skype를 사용 하는 경우 모든 사용자를 팀으로 이동할 준비가 되지 않은 경우, 팀을 비즈니스용 Skype와 함께 실행할 수 있는 Firstline Worker에 대 한 팀을 사용 하도록 설정할 수 있습니다. *아일랜드*라는이 공존 모드에서는 각 클라이언트 앱이 별도의 솔루션으로 작동 합니다. 자세한 내용은 [비즈니스용 Skype 공존 및 상호 운용성에 대해 팀 이해](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)를 참조 하세요.
@@ -156,7 +156,7 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 팀에는 조직의 Firstline 작업자에 게 가장 중요 한 앱을 강조 표시 하도록 팀을 사용자 지정 하는 데 사용할 수 있는 기본 제공 FirstlineWorker 앱 설정 정책이 포함 되어 있습니다. 이 정책을 사용자에 게 할당 하면, 정책의 앱이 팀의 앱 표시줄에 고정 되므로 빠르고 쉽게 액세스할 수 있습니다. 팀에 추가 된 다른 앱은 앱 표시줄에서 다음을 클릭 하 여 찾을 수 **있습니다. **팀 데스크톱 및 웹 클라이언트의 앱이 더 있고 팀 모바일 클라이언트에서 위로 살짝 밀어 보세요. 기본적으로 FirstlineWorker 앱 설정 정책에는 활동, 교대, 채팅 및 통화 앱이 포함 됩니다.
 
-FirstlineWorker 앱 설치 정책을 사용자에 게 할당 하는 방법에 대 한 단계는 [FirstlineWorker 앱 설정 정책을 사용 하 여 팀에 고정](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams)을 참조 하세요. 정책을 할당 하면 적용 되는 데 최대 24 시간이 걸릴 수 있습니다.
+FirstlineWorker 앱 설치 정책을 사용자에 게 할당 하는 방법에 대 한 단계는 [FirstlineWorker 앱 설정 정책을 사용 하 여 팀에 고정](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams)을 참조 하세요. 정책을 할당 한 후에는이를 적용 하는 데 몇 시간이 걸릴 수 있습니다.
 
 StaffHub 팀 이나 사용자를 팀으로 이동 하기 전에 적어도 일주일에이 단계를 완료 하는 것이 좋습니다. 팀에 속한 사용자는 교대 근무 앱을 보고 액세스할 수 있는지 확인 합니다.
 
@@ -300,7 +300,7 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f10
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-이전에 실행 한 `Get-StaffHubteamsForTenant` cmdlet에서 반환 된 결과에서 이동 하려는 팀 id를 선택한 다음 CSV (쉼표로 구분 된 값) 파일에 추가 합니다.
+이전에 실행 한 cmdlet에서 반환 된 결과에서 `Get-StaffHubteamsForTenant` 이동 하려는 팀 id를 선택한 다음 CSV (쉼표로 구분 된 값) 파일에 추가 합니다.
 
 다음은 CSV 파일의 서식을 지정 하는 방법의 예입니다.
 

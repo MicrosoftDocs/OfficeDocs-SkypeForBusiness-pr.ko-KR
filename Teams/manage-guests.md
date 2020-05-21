@@ -17,18 +17,18 @@ description: 첫 번째 팀과 채널을 만들고, 초기 사용자를 미리 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 83f4e4cdff4515f89a5b3fe68c91d848f9ae5dda
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777843"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326455"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리
 ======================================
 
 > [!IMPORTANT]
-> 변경 내용이 적용되는 데 최대 24시간이 걸릴 수 있습니다. 
+> 변경 내용이 적용 되려면 몇 시간 정도 기다려야 할 수 있습니다. 
 
 **게스트** 는 모든 Microsoft 365 비즈니스 표준, Office 365 Enterprise, Microsoft 365 비즈니스 기본 및 Office 365 교육 구독에 포함 된 microsoft 팀의 사용자 유형입니다. 추가 Office 365 라이선스가 필요하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
 
@@ -38,7 +38,7 @@ ms.locfileid: "43777843"
     
 IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트 사용자 활동에 대 한 보고서를 가져올 수 있습니다. 이러한 컨트롤은 팀 관리 센터에서 사용할 수 있습니다. 게스트 사용자 콘텐츠 및 활동은 Office 365의 나머지 부분과 동일한 준수 및 감사 보호에 속합니다.
 
-팀 소유자는 새 게스트를 초대 하 고 팀 관리 센터의 팀에 기존 디렉터리 게스트 사용자를 추가할 수 있습니다. **팀 팀** > **관리** 페이지에서 게스트 사용자를 식별 하 고 **조직 전체 설정** > **게스트 액세스** 페이지에서 게스트에 대 한 채널 관련 기능을 설정 합니다. 설정에는 다음 그림과 같이 게스트가 채널을 만들고 업데이트 하 고 삭제할 수 있도록 허용 하는 것이 포함 됩니다.
+팀 소유자는 새 게스트를 초대 하 고 팀 관리 센터의 팀에 기존 디렉터리 게스트 사용자를 추가할 수 있습니다. **팀 팀**관리 페이지에서 게스트 사용자를 식별  >  **Manage teams** 하 고 **조직 전체 설정**  >  **게스트 액세스** 페이지에서 게스트에 대 한 채널 관련 기능을 설정 합니다. 설정에는 다음 그림과 같이 게스트가 채널을 만들고 업데이트 하 고 삭제할 수 있도록 허용 하는 것이 포함 됩니다.
 
 ![팀의 게스트 사용 권한 설정](media/manage-guest-access-image1.png)
   
@@ -64,10 +64,10 @@ Microsoft Enterprise Mobility + Security, E5에 포함 되어 있는 Azure AD의
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>게스트 액세스 설정이 적용 되기까지 지연 되는 시간
 
-Azure Active Directory의 게스트 액세스 설정의 경우 변경 내용이 Microsoft 365 또는 Office 365에 적용 되려면 2-24 시간이 소요 됩니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되는 경우 게스트 기능이 설정 되지 않았거나 설정이 아직 유효 하지 않을 수 있습니다. 게스트 액세스 설정 문제에 대 한 도움말은 [팀의 게스트 액세스 문제 해결](troubleshoot-guest-access.md)을 참조 하세요.
+Azure Active Directory의 게스트 액세스 설정의 경우 변경 내용이 Microsoft 365 또는 Office 365에 적용 되기까지 몇 시간이 소요 됩니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되는 경우 게스트 기능이 설정 되지 않았거나 설정이 아직 유효 하지 않을 수 있습니다. 게스트 액세스 설정 문제에 대 한 도움말은 [팀의 게스트 액세스 문제 해결](troubleshoot-guest-access.md)을 참조 하세요.
 
   
-## <a name="external-access-federation-vs-guest-access"></a>외부 액세스(페더레이션) 대 게스트 액세스
+## <a name="external-access-federation-vs-guest-access"></a>외부 액세스 (페더레이션) 및 게스트 액세스
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
