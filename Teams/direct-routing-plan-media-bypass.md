@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 미디어 트래픽 경로를 줄이고 성능을 향상 시킬 수 있는 휴대폰 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 계획 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5e053149670804e585d0cd61522f67a922b2b47
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918697"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338248"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -140,7 +140,9 @@ ms.locfileid: "43918697"
 코드 변환 가능 (B2BUA)\* | 예 | 아니요, 끝점 간 오디오만 릴레이 합니다. | 
 전세계 인스턴스 수 및 위치 | 총 8: 미국 동부와 서쪽에 2 개 # 암스테르담 및 더블린의 경우 2 홍콩 및 싱가포르의 2 일본의 2  | 개인
 
-IP 범위는 52.112.0.0/14입니다 (IP 주소는 52.112.0.1에서 52.115.255.254)입니다. 
+IP 범위는 다음과 같습니다.
+- 52.112.0.0/14 (IP 주소 52.112.0.1-52.115.255.254)
+- 52.120.0.0/14 (IP 주소 52.120.0.1-52.123.255.254)
 
 \*코드 변환 설명: 
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 14b14302aa3f75a164e6e6dbbef5cc91fc2b47cf
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785941"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338238"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -73,7 +73,7 @@ Microsoft는 또한 통화 계획과 같은 모든 클라우드 음성 솔루션
 |SBC에 연결 된 전화 통신 trunks|SBC에 연결 된 하나 이상의 전화 접속 trunks. 한 쪽 끝에서 SBC는 직접 라우팅을 통해 Microsoft 전화 시스템에 연결 됩니다. 또한 SBC는 Pbx, 아날로그 전화 통신 어댑터 등과 같은 타사 전화 통신 엔티티와 연결 될 수 있습니다. SBC에 연결 된 모든 PSTN 연결 옵션은 작동 합니다. SBC에 대 한 PSTN trunks 구성의 경우 SBC 공급 업체 또는 트렁크 공급자에 게 문의 하세요.|
 |Office 365 조직|Microsoft 팀 사용자를 홈으로 설정 하 고 SBC에 대 한 구성 및 연결을 하는 데 사용 하는 Office 365 조직입니다.|
 |사용자 등록자|사용자는 Office 365에서 가져와야 합니다.<br/>회사에서 Office 365에 하이브리드 연결을 사용 하는 온-프레미스 비즈니스용 Skype 또는 Lync 환경을 보유 하 고 있는 경우 온-프레미스 사용자의 팀에서 음성을 사용할 수 없습니다.<br/><br/>사용자의 등록자를 확인 하려면 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 합니다.<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet의 출력은 다음과 같이 표시 되어야 합니다.<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|도메인용|하나 이상의 도메인이 Office 365 조직에 추가 되었습니다.<br/><br/>테 넌 트에 대해 자동으로 만들어지는 기본 \*도메인 onmicrosoft.com는 사용할 수 없습니다.<br/><br/>다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 하 여 도메인을 볼 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Office 365 조직에 대 한 자세한 내용은 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)를 참조 하세요.|
+|도메인용|하나 이상의 도메인이 Office 365 조직에 추가 되었습니다.<br/><br/>\*테 넌 트에 대해 자동으로 만들어지는 기본 도메인 onmicrosoft.com는 사용할 수 없습니다.<br/><br/>다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 하 여 도메인을 볼 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Office 365 조직에 대 한 자세한 내용은 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)를 참조 하세요.|
 |SBC의 공용 IP 주소|SBC에 연결 하는 데 사용할 수 있는 공용 IP 주소입니다. Sbc의 유형에 따라 SBC에서 NAT를 사용할 수 있습니다.|
 |SBC에 대 한 FQDN (정규화 된 도메인 이름)|SBC에 대 한 FQDN으로, 여기서 FQDN의 도메인 부분은 Office 365 조직의 등록 된 도메인 중 하나입니다. 자세한 내용은 [SBC 도메인 이름을](#sbc-domain-names)참조 하세요.|
 |SBC에 대 한 공용 DNS 항목 |공용 DNS 항목이 SBC FQDN을 공용 IP 주소에 매핑하는 것입니다. |
@@ -115,7 +115,7 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 
 또한 직접 라우팅은 Microsoft 통화 요금제에 대 한 라이선스를 가진 사용자를 지원 합니다. 통화 요금제가 포함 된 Microsoft 전화 시스템은 직접 라우팅 인터페이스를 사용 하 여 일부 통화를 라우팅할 수 있습니다. 그러나 사용자의 전화 번호는 온라인으로 구입 하거나 Microsoft로 이식할 수 있어야 합니다.  
 
-동일한 사용자에 대 한 통화 계획과 직접 라우팅 연결을 혼합 하는 기능은 선택 사항 이지만, 사용자에 게 Microsoft 호출 계획을 할당 했지만 SBC를 사용 하 여 일부 통화를 라우팅해야 하는 경우와 같이 유용할 수 있습니다. 가장 일반적인 시나리오 중 하나는 타사 Pbx에 대 한 통화입니다.  타사 Pbx를 사용 하는 경우 해당 Pbx에 연결 된 전화에 대 한 호출을 제외한 모든 통화는 Microsoft 통화 계획을 사용 하 여 라우팅되며, 타사 Pbx에 연결 된 전화기로의 통화는 SBC로 이동 하므로 PSTN이 아닌 엔터프라이즈 네트워크 내에서 유지 됩니다. 
+동일한 사용자에 대 한 통화 계획과 직접 라우팅 연결을 혼합 하는 기능은 선택 사항 이지만, 사용자에 게 Microsoft 호출 계획을 할당 했지만 SBC를 사용 하 여 일부 통화를 라우팅해야 하는 경우와 같이 유용할 수 있습니다. 가장 일반적인 시나리오 중 하나는 타사 Pbx를 호출 하는 것입니다.  타사 Pbx를 사용 하는 경우 해당 Pbx에 연결 된 전화에 대 한 호출을 제외한 모든 통화는 Microsoft 통화 계획을 사용 하 여 라우팅되며, 타사 Pbx에 연결 된 전화기로의 통화는 SBC로 이동 하므로 PSTN이 아닌 엔터프라이즈 네트워크 내에서 유지 됩니다. 
 
 전화 시스템 라이선스에 대 한 자세한 내용은 office 365 및 [office 365 계획 옵션](https://technet.microsoft.com/library/office-365-plan-options.aspx)을 [사용 하 여 Office에서 최대한 활용](https://products.office.com/compare-all-microsoft-office-products?tab=2) 을 참조 하세요. 
 
@@ -132,7 +132,7 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 
 ## <a name="sbc-domain-names"></a>SBC 도메인 이름
 
-SBC 도메인 이름은 테 넌 트의 도메인에 등록 된 이름 중 하나 여야 합니다. SBC의 FQDN 이름 \*에는 onmicrosoft.com 테 넌 트를 사용할 수 없습니다.
+SBC 도메인 이름은 테 넌 트의 도메인에 등록 된 이름 중 하나 여야 합니다. \*SBC의 FQDN 이름에는 onmicrosoft.com 테 넌 트를 사용할 수 없습니다.
 
 다음 표에서는 테 넌 트에 대해 등록 된 DNS 이름 (이름을 SBC의 FQDN으로 사용할 수 있는지 여부)과 올바른 FQDN 이름의 예를 보여 줍니다.
 
@@ -155,9 +155,9 @@ CSR (인증 서명 요청)을 생성 하 여 SBC에 대 한 인증서를 요청 
   > [!NOTE]
   > 대부분의 Ca (인증 기관)는 개인 키 크기가 최소 2048 이어야 합니다. CSR을 생성할 때이 점에 유의 하세요.
 
-인증서의 제목, 일반 이름 또는 주체 대체 이름 필드에 SBC FQDN이 있어야 합니다.
+인증서는 제목 필드에 SBC FQDN을 CN (일반 이름)으로 사용 해야 합니다.
 
-또는 직접 라우팅은 SAN에서 와일드 카드를 지원 하 고, 와일드 카드는 [TLS를 통해 표준 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)를 준수 해야 합니다. 예를 들어, contoso.com \*는 SBC FQDN sbc.contoso.com 일치 하지만 sbc.test.contoso.com와는 일치 하지 않는 SAN에서 사용 합니다.
+또는 직접 라우팅은 SAN에서 와일드 카드를 지원 하 고, 와일드 카드는 [TLS를 통해 표준 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)를 준수 해야 합니다. 예 \* 를 들어, contoso.com는 SBC FQDN sbc.contoso.com 일치 하지만 sbc.test.contoso.com와는 일치 하지 않는 SAN에서 사용 합니다.
 
 다음 루트 인증 기관 중 하나에서 인증서를 생성 해야 합니다.
 
@@ -200,7 +200,7 @@ GCC, GCC High, DoD 등의 [Office 365 및 US 정부 환경](https://docs.microso
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
 
-직접 라우팅에 대 한 연결 지점은 다음 세 가지 Fqdn입니다.
+직접 라우팅의 연결 지점은 다음 세 가지 Fqdn입니다.
 
 - **sip.pstnhub.microsoft.com** – 전역 FQDN – 먼저 시도해 야 합니다. SBC에서이 이름을 확인 하는 요청을 보낼 때 Microsoft Azure DNS 서버는 SBC에 할당 된 기본 Azure 데이터 센터를 가리키는 IP 주소를 반환 합니다. 과제는 데이터 센터의 성과 메트릭과 SBC에 대 한 지리적 근접성을 기준으로 합니다. 반환 되는 IP 주소는 기본 FQDN에 해당 합니다.
 - **sip2.pstnhub.microsoft.com** – 보조 FQDN – 지리적으로 두 번째 우선 순위 영역으로 매핑됩니다.
@@ -280,7 +280,7 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
 
 
 
-미디어 소통량이 Microsoft 클라우드의 별도 서비스에 전달 됩니다. 미디어 트래픽 IP 범위는 다음과 같습니다.
+미디어 소통량이 Microsoft 클라우드의 별도 서비스에 전달 됩니다. 미디어 트래픽에 대 한 IP 주소 범위는 다음과 같습니다.
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
 
