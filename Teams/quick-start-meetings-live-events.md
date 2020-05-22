@@ -17,20 +17,20 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5358e169c66764cc3343feeb78365fbe47cab452
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 3c02d93fb010b603e973077029b9b6710c5e0ba7
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042475"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210644"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트
 
 Microsoft Teams 모임의 두 가지 방법 - 모임 및 라이브 이벤트 해당 문서를 사용하여 조직의 모임 및 라이브 이벤트를 빠르게 배포하고 구성할 수 있습니다. 
 
- - Teams **모임**에는 최대 250명의 사용자를 위한 음성, 영상 및 화면 공유 기능이 포함됩니다. Teams에서 공동 작업하는 주요 방법 중 하나입니다. 조직의 구성원이나 심지어 Teams 계정이 없어도 Teams 모임에 참여할 수 있습니다. 참여에 대한 지침은 초대를 참조하세요. 
+ - Teams **모임**에는 최대 350명의 사용자를 위한 음성, 영상 및 화면 공유 기능이 포함됩니다. Teams에서 공동 작업하는 주요 방법 중 하나입니다. 조직의 구성원이나 심지어 Teams 계정이 없어도 Teams 모임에 참여할 수 있습니다. 참여에 대한 지침은 초대를 참조하세요. 
 
- - **라이브 이벤트**는 대규모 온라인 사용자(최대 10,000명)에게 스트리밍되는 이벤트를 예약하고 생성할 수 있게 해 주는 Teams 모임의 확장입니다. 250명 이상의 사용자를 위한 모임을 필요로 하는 경우에는 라이브 이벤트를 사용하세요.
+ - **라이브 이벤트**는 대규모 온라인 사용자(최대 10,000명)에게 스트리밍되는 이벤트를 예약하고 생성할 수 있게 해 주는 Teams 모임의 확장입니다. 350명 이상의 사용자를 위한 모임을 필요로 하는 경우에는 라이브 이벤트를 사용하세요.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>모임 및 라이브 이벤트에 대한 라이선스 받기
 
