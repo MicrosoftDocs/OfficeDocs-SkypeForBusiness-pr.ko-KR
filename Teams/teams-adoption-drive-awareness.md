@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904353"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350132"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft 팀의 드라이브 인식 및 교육 구현
 
-인식과 교육은 전체적인 채택 전략의 마케팅 및 통신 부문입니다. 이렇게 하면 직원 들이 Microsoft 팀의 새 기능 및 기본 Office 365 서비스 및 앱을 인식 하 게 됩니다.
+인식과 교육은 전체적인 채택 전략의 마케팅 및 통신 부문입니다. 이렇게 하면 직원 들이 Microsoft 팀의 새로운 기능과 기본 Microsoft 365 또는 Office 365 서비스 및 앱을 인식 하 게 됩니다.
    
 초기 시험 운용 및 최종적인 회사 전체 롤아웃 모두에 대 한 내부 의사 소통을 우선적으로 수행 해야 합니다. 다음이 포함 되어야 합니다.
 
@@ -49,13 +49,13 @@ ms.locfileid: "43904353"
 
 ## <a name="implement-end-user-training"></a>최종 사용자 교육 구현
 
-사용자가 Microsoft 팀 및 다른 Office 365 서비스를 사용 하기 시작할 때 리소스를 사용 하 여 최종 사용자 교육을 제공할 수 있습니다. 자세한 내용은 리소스 페이지를 참조 하세요.
+사용자가 Microsoft 팀 및 기타 Microsoft 365 또는 Office 365 서비스를 사용 하기 시작할 때 리소스를 사용 하 여 최종 사용자 교육을 제공할 수 있습니다. 자세한 내용은 리소스 페이지를 참조 하세요.
 
 - [팀에 대 한 강사 led 최종 사용자 교육](instructor-led-training-teams-landing-page.md)
 - [팀에 대 한 관리자 교육](itadmin-readiness.md)
 - [온라인 최종 사용자 영상 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [챔피언 & IT 전문가를 위한 클라우드 온라인 교육의 커피](https://aka.ms/CoffeeintheCloud) 
-- [Office 365 교육 치트 시트의 날짜](https://aka.ms/O365AdoptionTools)
+- [Microsoft 365 및 Office 365 교육 치트 시트의 날짜](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>측정값 및 공유 성공
 
@@ -71,4 +71,4 @@ ms.locfileid: "43904353"
 
 [Microsoft 365 관리 센터의 Microsoft 팀 사용 보고서에 대해 자세히 알아보세요.](teams-activity-reports.md)
 
-![다음 단계를 설명](media/teams-adoption-next-icon.png) 하는 아이콘: [서비스 상태 검토 예약](teams-adoption-schedule-service-health-reviews.md)
+![다음 단계를 설명 하는 아이콘 ](media/teams-adoption-next-icon.png) : [서비스 상태 검토 예약](teams-adoption-schedule-service-health-reviews.md)

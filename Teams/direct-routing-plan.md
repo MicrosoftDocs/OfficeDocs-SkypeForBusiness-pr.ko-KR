@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: 14b14302aa3f75a164e6e6dbbef5cc91fc2b47cf
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: e2bef46f65297cccc573f2e63dedda0e2aca61e7
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338238"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349602"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -285,6 +285,7 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
 
 - 52.112.0.0/14 (IP 주소는 52.112.0.1에서 52.115.255.254)입니다.
+- 52.120.0.0/14 (IP 주소는 52.120.0.1에서 52.123.255.254)입니다.
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
 

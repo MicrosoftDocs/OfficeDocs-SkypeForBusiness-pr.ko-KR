@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321617"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349612"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -44,7 +44,7 @@ Teams 모임 추가 기능을 사용하면 사용자가 Outlook에서 Teams 모�
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Mac용 Outlook의 Teams 모임 추가 기능
 
-Outlook이 프로덕션 빌드 16.24.414.0 이상을 실행하고 Office 365 클라이언트 구독을 사용하여 활성화된 경우 Mac용 Outlook의 Teams 모임 단추가 Mac용 Outlook 리본에 나타납니다.
+Outlook for mac의 팀 모임 단추는 16.24.414.0에서 프로덕션 빌드를 실행 중이 고 Microsoft 365 또는 Office 365 클라이언트 구독으로 활성화 되어 있는 경우 Mac 용 Outlook 리본에 표시 됩니다.
 
 사용자가 **보내기**를 클릭한 후 모임 좌표(Teams 참가 링크 및 전화 접속 번호)가 모임 초대에 추가됩니다.  
 

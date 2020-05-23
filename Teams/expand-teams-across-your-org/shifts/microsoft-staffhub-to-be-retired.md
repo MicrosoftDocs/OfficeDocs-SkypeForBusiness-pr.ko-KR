@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780637"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350162"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 사용 중지 예정
 
-2019 년 12 월 31 일에 효력을 StaffHub Microsoft는 곧 만료 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다.
+유효 2020 년 6 월 30 일에 Microsoft StaffHub 사용이 중지 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다.
 
 이러한 변경은 모든 직원에 게 Microsoft 365을 강화 하기 위한 지속적인 노력의 일부입니다. 팀의 Firstline Worker에 대 한 접근 권한 값을 통해 조직의 모든 직원이 팀을 사용 하 여 업무를 합리화 하 고, 동료와 공동 작업을 진행 하 고, 정보 및 전문성에 액세스 하 여 가장 좋은 업무를 도울 수 있습니다.
 
@@ -37,13 +37,13 @@ ms.locfileid: "43780637"
 
 #### <a name="when-will-staffhub-be-retired"></a>StaffHub는 언제 만료 되나요?
 
-2019 년 4 월 중간에 새 테 넌 트에 대해 더 이상 Microsoft StaffHub를 사용할 수 없으며 기존 테 넌 트의 Office 365 앱 시작 관리자에서 앱에 액세스할 수 없게 됩니다. 현재 사용자는 2019 년 12 월 31 일까 지 서비스를 계속 사용할 수 있지만 추가 기능은 제공 되지 않습니다.
+2019 년 4 월 중간에 새 테 넌 트에 대해 더 이상 Microsoft StaffHub를 사용할 수 없으며 기존 테 넌 트의 Microsoft 365 또는 Office 365 앱 시작 관리자에서 앱에 액세스할 수 없게 됩니다. 현재 사용자는 2019 년 12 월 31 일까 지 서비스를 계속 사용할 수 있지만 추가 기능은 제공 되지 않습니다.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>StaffHub가 만료 되 면 어떻게 되나요?
 
-Microsoft StaffHub는 모든 사용자가 2020 년 1 월 1 일에 작업을 중지 합니다. 앱을 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 사용자에 게 팀을 포함 하는 활성 라이선스가 있고 조직이 팀을 활성화 하는 적절 한 단계를 수행 하는 경우 팀을 전환할 때 StaffHub에서 해당 데이터 및 핵심 기능을 사용할 수 있습니다.
+2020 년 6 월 30 일에 Microsoft StaffHub에서 모든 사용자의 작동이 중지 됩니다. 앱을 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 사용자에 게 팀을 포함 하는 활성 라이선스가 있고 조직이 팀을 활성화 하는 적절 한 단계를 수행 하는 경우 팀을 전환할 때 StaffHub에서 해당 데이터 및 핵심 기능을 사용할 수 있습니다.
 
-StaffHub 사용자는 팀을 사용 하도록 권유 하 여 2019 년 4 월과 12 월 2019 사이에 앱에서 직접 알림을 받습니다.
+4 월 2019과 6 월 2020 사이에는 StaffHub 사용자가 팀을 사용 하도록 권유 하 여 앱에서 직접 알림을 받게 됩니다.
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>현재 StaffHub에서 제공 하는 모든 기능이 팀에서 제공 되나요?
 
@@ -103,7 +103,7 @@ StaffHub를 사용 하 여 만든 팀은 StaffHub 에서만 보고 관리할 수
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>교대 근무에 대 한 자세한 내용은 어디에서 확인할 수 있나요?
 
-제품 정보는로 [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software)이동 합니다.
+제품 정보는로 이동 [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software) 합니다.
 
 관리 지침은 [팀에서 조직의 교대 근무 앱 관리](manage-the-shifts-app-for-your-organization-in-teams.md) 를 참조 하세요.
 
@@ -127,9 +127,9 @@ StaffHub에서 팀으로 전환 하는 방법에 대 한 자세한 지침은 [�
 
 팀은 비즈니스용 Skype와 공존을 지원 합니다. 자세한 내용은 비즈니스용 [skype로 팀을 사용 하는 조직에 대 한](../../migration-interop-guidance-for-teams-with-skype.md) [비즈니스용, 비즈니스 공존 및 상호 운용성, 마이그레이션 및 상호 운용성에 대 한 팀과 skype 이해](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) 를 참조 하세요.
 
-#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>각 사용자가 Office 365 계정 또는 azure AD (Active Directory) 계정이 있어야 하나요?
+#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>각 사용자에 게 Microsoft 365 또는 Office 365 계정 또는 azure AD (Active Directory) 계정이 있어야 하나요?
 
-예, 팀을 사용 하는 각 관리자와 팀 구성원에 게 Office 365 계정 (Azure AD)이 있어야 하 고 유효한 라이선스를 할당 해야 합니다.
+예, 팀을 사용 하는 각 관리자와 팀 구성원에 게 Microsoft 365 또는 Office 365 account (Azure AD)가 있어야 하며 유효한 라이선스를 할당 해야 합니다.
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>StaffHub에서 StaffHub 팀이 만든 모든 Microsoft 365 그룹에 특별 한 접두사를 추가할 수 있습니다. 팀에서 동일 하 게 할 수 있나요?
 
@@ -137,7 +137,7 @@ StaffHub에서 팀으로 이동 하는 경우에는 같은 기능을 사용할 �
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>팀의 이름을 동일 하 게 설정할 수 있습니다.
 
-팀 이름은 서로 다를 수 있습니다. 팀원의 팀 이름은 Office 365 그룹 이름을 사용 합니다. StaffHub 팀 이름이 해당 Office 365 그룹의 이름과 다르면 팀으로 전환할 때 다른 이름이 표시 됩니다.
+팀 이름은 서로 다를 수 있습니다. 팀원의 팀 이름은 Microsoft 365 그룹 이름을 사용 합니다. StaffHub 팀 이름이 해당 Microsoft 365 그룹의 이름과 다르면 팀으로 전환할 때 다른 이름이 표시 됩니다.
 
 #### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>StaffHub 팀이 팀으로 이동할 때 팀 구성원은 어떻게 되나요?
 
@@ -147,7 +147,7 @@ StaffHub에서 기존 팀 rosters을 검토 하 고 해당 하는 경우 전화 
  
 #### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>프로 비전 되지 않았거나 상태가 비활성 상태인 팀 구성원이 StaffHub 어떻게 되나요?
 
-사용자의 일정이 교대으로 이동 하지만 사용자는 팀 또는 Office 365 그룹의 구성원이 되지 않습니다.
+사용자의 일정이 교대으로 이동 하지만 사용자는 팀 구성원이 되거나 Microsoft 365 그룹에 속해 있지 않습니다.
 
 Azure AD 사용자 계정에 연결 되지 않은 비활성 계정의 경우 관리자는 사용자가 조직의 올바른 Azure AD 계정에 연결 되도록 StaffHub 팀 구성원 페이지에 유효한 Microsoft 365 또는 Office 365 전자 메일 주소를 추가 하 여 사용자가 팀 구성원으로 추가 되도록 할 수 있습니다.
 
@@ -157,9 +157,9 @@ Azure AD 사용자 계정에 연결 되지 않은 비활성 계정의 경우 관
  
 #### <a name="what-happens-to-chats-in-staffhub"></a>StaffHub의 채팅은 어떻게 되나요?
 
-사용자를 전환 하는 데 도움이 되도록 StaffHub에서 팀으로 데이터 채팅 기록을 마이그레이션할 계획입니다. 팀에서 사용할 수 있는 채팅 기록 크기는 전환을 위해 조직을 구성 하는 순간에 따라 달라 집니다. 2019 년 12 월 31 2019 일까 지 90 일간 데이터를 전환 하는 데 충분 한 시간을 제공 하려면 6 월 30 일 이전에 작업을 수행 하는 것이 좋습니다.
+사용자를 전환 하는 데 도움이 되도록 StaffHub에서 팀으로 데이터 채팅 기록을 마이그레이션할 계획입니다. 팀에서 사용할 수 있는 채팅 기록 크기는 전환을 위해 조직을 구성 하는 순간에 따라 달라 집니다. 2019 년 6 월 2020 30 일을 기준으로 90 일간 데이터를 전환 하는 데 충분 한 시간을 제공 하려면 6 월 30 일 이전에 작업을 수행 하는 것이 좋습니다.
 
-StaffHub 채팅 데이터를 팀으로 이동 하는 것이 중요 하므로 전환이 시작 되기 전에 Microsoft 365 관리 센터에서 Office 365 그룹 만들기가 사용 하도록 설정 되어 있는지 확인 합니다. 2019 년 6 월 30 일에이 서비스를 설정 하지 않으면 이후 마이그레이션 날짜를 반환 하 고 복사 되는 채팅 데이터를 줄여 보세요.
+StaffHub 채팅 데이터를 팀으로 이동 하는 것이 중요 하므로 전환이 시작 되기 전에 microsoft 365 관리 센터에서 Microsoft 365 그룹 만들기가 사용 하도록 설정 되어 있는지 확인 합니다. 2019 년 6 월 30 일에이 서비스를 설정 하지 않으면 이후 마이그레이션 날짜를 반환 하 고 복사 되는 채팅 데이터를 줄여 보세요.
 
 #### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>StaffHub에 업로드 된 파일은 어떻게 되나요?
 
@@ -175,7 +175,7 @@ StaffHub 채팅 데이터를 팀으로 이동 하는 것이 중요 하므로 전
 
 #### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>팀의 파일 공유 기능에는 어떤 힘이 있나요? 파일은 어디에 저장 되나요?
 
-관리자가 팀 구성원에 게 파일을 배포 하는 기능을 제공 하는 파일 공유 기능은 SharePoint Online에 의해 백 엔드의 전원이 켜 집니다. 팀이 만들어지면 Office 365 그룹이 백그라운드에서 해당 팀에 대해 자동으로 프로 비전 됩니다.
+관리자가 팀 구성원에 게 파일을 배포 하는 기능을 제공 하는 파일 공유 기능은 SharePoint Online에 의해 백 엔드의 전원이 켜 집니다. 팀을 만들 때 Microsoft 365 그룹이 백그라운드에서 해당 팀에 대해 자동으로 프로 비전 됩니다.
 
 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 팀과 상호 작용 하는 방법](../../SharePoint-OneDrive-interact.md)에 대해 알아보세요.
  
@@ -209,4 +209,4 @@ StaffHub Api를 사용 하 여 통합을 구축한 경우 이러한 Api는 더 �
 
 #### <a name="where-can-i-provide-feedback"></a>피드백을 제공 하는 위치는 어디 인가요?
   
-모바일 앱에서 화면 왼쪽 위에 있는 **더 보기** 를 탭 하 고, **설정** > 으로**이동 하거나** **, 문제를 보고**합니다. 마찬가지로 데스크톱 및 웹 앱의 화면 왼쪽 아래에서**아이디어 공유** 또는 **문제 보고**를 **참조** > 하세요.
+모바일 앱에서 화면 왼쪽 위에 있는 **더 보기** 를 탭 하 고, 설정으로 이동 **Settings**  >  **Send feedback** 하거나 **, 문제를 보고**합니다. 마찬가지로 데스크톱 및 웹 앱의 화면 왼쪽 아래에서 **Help**  >  **아이디어 공유** 또는 **문제 보고**를 참조 하세요.

@@ -3,7 +3,7 @@ title: Microsoft Teams에서 사용자에게 정책 할당
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: tomkau, saragava, ritikag
+ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,13 +15,15 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 사용자에 게 정책을 할당 하는 다양 한 방법에 대해 알아봅니다.
-f1keywords: ''
-ms.openlocfilehash: 5c46b74519520950d31f01d4c86ae2a5002ae279
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+f1keywords:
+- ms.teamsadmincenter.bulkoperations.users.edit
+- ms.teamsadmincenter.bulkoperations.edit
+ms.openlocfilehash: aa63a0cc7ce24390228cc9d87adf054348c6522d
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521624"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350042"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
 
@@ -64,7 +66,7 @@ ms.locfileid: "43521624"
 |---------|---------|----|
 |[개인 사용자에 게 정책 할당](#assign-a-policy-to-individual-users)    | 팀을 처음 사용할 때 시작 하는 것이 든, 소수의 사용자에 게 하나 또는 두 가지 정책만 할당 하면 됩니다. |비즈니스용 Skype Online PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet
 | [정책 패키지 할당](#assign-a-policy-package)   | 조직에서 역할이 같거나 비슷한 특정 사용자 집합에 여러 정책을 할당 해야 합니다. 예를 들어 학교에서 교사에 게 교육 (교사) 정책 패키지를 할당 하 여 채팅, 통화, 모임, 교육 (보조 학생) 정책 패키지에 대 한 모든 액세스 권한을 보조 학생이 비공개 통화와 같은 특정 기능을 제한할 수 있습니다.  |팀 PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet|
-|[사용자 일괄 처리에 정책 할당](#assign-a-policy-to-a-batch-of-users)   | 대규모 사용자 집합에 정책을 할당 해야 합니다. 예를 들어 조직에서 한 번에 수백 명 또는 수천 명의 사용자에 게 정책을 할당 하려고 합니다.  |팀 PowerShell 모듈의 PowerShell cmdlet|
+|[사용자 일괄 처리에 정책 할당](#assign-a-policy-to-a-batch-of-users)   | 대규모 사용자 집합에 정책을 할당 해야 합니다. 예를 들어 조직에서 한 번에 수백 명 또는 수천 명의 사용자에 게 정책을 할당 하려고 합니다.  |팀 PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet|
 |[그룹에 정책 할당](#assign-a-policy-to-a-group) (미리 보기)   |사용자의 그룹 구성원 자격을 기준으로 정책을 할당 해야 합니다. 예를 들어 보안 그룹 또는 조직 구성 단위의 모든 사용자에 게 정책을 할당 하려고 합니다.| 팀 PowerShell 모듈의 PowerShell cmdlet|
 | [사용자 일괄 처리에 정책 패키지 할당](#assign-a-policy-package-to-a-batch-of-users)|조직이 동일 하거나 비슷한 역할을 하는 조직의 사용자 일괄 처리에 여러 정책을 할당 해야 합니다. 예를 들어, 교육 (교사) 정책 패키지를 일괄 처리를 사용 하 여 모든 교사에 게 배정 하 고, 채팅, 통화, 모임에 대 한 전체 액세스 권한을 부여 하 고, 교육 (보조 학생) 정책 패키지를 보조 학생의 일괄 처리에 할당 하 여 비공개 통화와 같은 특정 기능을 제한할 수 있습니다.|팀 PowerShell 모듈의 PowerShell cmdlet|
 | 그룹에 정책 패키지 할당 (예정 대로)   | ||
@@ -73,7 +75,7 @@ ms.locfileid: "43521624"
 
 개별 사용자 또는 한 번에 적은 수의 사용자에 게 정책을 할당 하려면 다음 단계를 따르세요.
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
 
@@ -81,19 +83,17 @@ ms.locfileid: "43521624"
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
 3. 할당 하려는 정책을 선택한 다음 **적용**을 클릭 합니다.
 
-한 번에 최대 20 명의 사용자에 게 정책을 할당 하려면 [팀 사용자 설정을 일괄적으로 편집](edit-user-settings-in-bulk.md)을 참조 하세요.
-
 또는 다음을 수행할 수도 있습니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 정책 페이지로 이동 합니다.
 2. 정책 이름 왼쪽을 클릭 하 여 할당 하려는 정책을 선택 합니다.
 3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 선택 합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-각 정책 형식에는 관리를 위한 고유한 cmdlet 집합이 있습니다. 지정 된 ```Grant-``` 정책 형식에 대 한 cmdlet을 사용 하 여 정책을 할당 합니다. 예를 들어 ```Grant-CsTeamsMeetingPolicy``` cmdlet을 사용 하 여 팀 모임 정책을 사용자에 게 할당 합니다. 이러한 cmdlet은 비즈니스용 Skype Online PowerShell 모듈에 포함 되어 있으며 [비즈니스용 skype cmdlet 참조](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)에 설명 되어 있습니다.
+각 정책 형식에는 관리를 위한 고유한 cmdlet 집합이 있습니다. 지정 된 ```Grant-``` 정책 형식에 대 한 cmdlet을 사용 하 여 정책을 할당 합니다. 예를 들어 cmdlet을 사용 ```Grant-CsTeamsMeetingPolicy``` 하 여 팀 모임 정책을 사용자에 게 할당 합니다. 이러한 cmdlet은 비즈니스용 Skype Online PowerShell 모듈에 포함 되어 있으며 [비즈니스용 skype cmdlet 참조](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)에 설명 되어 있습니다.
 
  [비즈니스용 Skype Online PowerShell 모듈](https://www.microsoft.com/en-us/download/details.aspx?id=39366) 을 다운로드 하 여 설치한 후 (아직 없는 경우) 다음을 실행 하 여 비즈니스용 skype online에 연결 하 고 세션을 시작 합니다.
 
@@ -121,8 +121,21 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 정책 패키지를 할당 하 고 관리 하는 방법에 대 한 단계별 지침은 [팀에서 정책 패키지 관리](manage-policy-packages.md)를 참조 하세요.
 
 ## <a name="assign-a-policy-to-a-batch-of-users"></a>사용자 일괄 처리에 정책 할당
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
+
+사용자에 게 정책을 대량으로 할당 하려면 다음을 수행 합니다.
+
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**를 선택 합니다.
+2. 정책을 할당 하려는 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
+3. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
+4. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.
+
+정책 할당의 상태를 확인 하려면 **적용** 을 클릭 하 여 정책 할당을 제출 하 고 **사용자** 페이지 위쪽에 표시 되는 배너에서 **활동 로그**를 클릭 합니다. 또는 Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **대시보드로**이동한 다음 **활동 로그**에서 **세부 정보 보기**를 클릭 합니다. 활동 로그에는 지난 30 일간 Microsoft 팀 관리 센터를 통해 20 명 이상의 사용자 일괄 처리에 대 한 정책 할당이 표시 됩니다. 자세한 내용은 [활동 로그에서 정책 할당 보기](activity-log.md)를 참조 하세요.
+
+### <a name="using-powershell"></a>PowerShell 사용
  
-일괄 처리 정책 할당을 사용 하면 대규모 사용자 집합에 스크립트를 사용할 필요 없이 한 번에 정책을 할당할 수 있습니다. ```New-CsBatchPolicyAssignmentOperationd``` Cmdlet을 사용 하 여 할당 하려는 사용자의 일괄 처리 및 정책을 제출할 수 있습니다. 할당이 백그라운드 작업으로 처리 되 고 각 일괄 처리에 대 한 작업 ID가 생성 됩니다. 그런 다음 ```Get-CsBatchPolicyAssignmentOperation``` cmdlet을 사용 하 여 일괄 처리에서 배정의 진행률과 상태를 추적할 수 있습니다.
+일괄 처리 정책 할당을 사용 하면 대규모 사용자 집합에 스크립트를 사용할 필요 없이 한 번에 정책을 할당할 수 있습니다. Cmdlet을 사용 하 여 ```New-CsBatchPolicyAssignmentOperationd``` 할당 하려는 사용자의 일괄 처리 및 정책을 제출할 수 있습니다. 할당이 백그라운드 작업으로 처리 되 고 각 일괄 처리에 대 한 작업 ID가 생성 됩니다. 그런 다음 cmdlet을 사용 ```Get-CsBatchPolicyAssignmentOperation``` 하 여 일괄 처리에서 배정의 진행률과 상태를 추적할 수 있습니다.
 
 일괄 처리에는 최대 2만 명의 사용자를 포함할 수 있습니다. 개체 Id, UPN (사용자 계정 이름), SIP (세션 초기화 프로토콜) 주소 또는 전자 메일 주소를 사용 하 여 사용자를 지정할 수 있습니다.
 
@@ -162,7 +175,7 @@ Connect-AzureAD
 
 ### <a name="assign-a-policy-to-a-batch-of-users"></a>사용자 일괄 처리에 정책 할당
 
-이 예제에서는 ```New-CsBatchPolicyAssignmentOperation``` cmdlet을 사용 하 여 HR 앱 설치 정책 이라는 앱 설정 정책을 Users_ids에 나열 된 사용자 일괄 처리에 할당 합니다.
+이 예제에서는 cmdlet을 사용 ```New-CsBatchPolicyAssignmentOperation``` 하 여 HR 앱 설치 정책 이라는 앱 설정 정책을 Users_ids에 나열 된 사용자 일괄 처리에 할당 합니다.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -181,13 +194,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyNam
 
 ### <a name="get-the-status-of-a-batch-assignment"></a>일괄 처리의 상태 가져오기
 
-일괄 처리 할당의 상태를 가져오려면 다음을 실행 합니다. 여기서 OperationId는 지정 된 일괄 처리에 대해 ```New-CsBatchPolicyAssignmentOperation``` cmdlet에서 반환 되는 작업 ID입니다.
+일괄 처리 할당의 상태를 가져오려면 다음을 실행 합니다. 여기서 OperationId는 ```New-CsBatchPolicyAssignmentOperation``` 지정 된 일괄 처리에 대해 cmdlet에서 반환 되는 작업 ID입니다.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-출력에 오류가 발생 했음을 표시 하는 경우 다음을 실행 하 여 ```UserState``` 속성에 있는 오류에 대 한 자세한 정보를 얻을 수 있습니다.
+출력에 오류가 발생 했음을 표시 하는 경우 다음을 실행 하 여 속성에 있는 오류에 대 한 자세한 정보를 얻을 수 ```UserState``` 있습니다.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
@@ -201,7 +214,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 그룹에 정책 할당을 통해 보안 그룹 또는 조직 구성 단위와 같은 사용자 그룹에 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에 게 전파 됩니다. 그룹에서 구성원이 추가 되거나 제거 되 면 그에 따라 상속 된 정책 할당이 업데이트 됩니다.
 
-```New-CsGroupPolicyAssignment``` Cmdlet을 사용 하 여 그룹에 정책을 할당 합니다. 개체 Id, SIP 주소 또는 전자 메일 주소를 사용 하 여 그룹을 지정할 수 있습니다.
+Cmdlet을 사용 하 여 ```New-CsGroupPolicyAssignment``` 그룹에 정책을 할당 합니다. 개체 Id, SIP 주소 또는 전자 메일 주소를 사용 하 여 그룹을 지정할 수 있습니다.
 
 정책을 할당 하면 그룹에 즉시 할당 됩니다. 그러나 그룹 구성원에 게 정책 할당의 전파는 백그라운드 작업으로 수행 되며 그룹 크기에 따라 시간이 걸릴 수 있습니다. 그룹에서 정책이 할당 되지 않거나 구성원이 그룹에서 추가 되거나 제거 되는 경우에도 마찬가지입니다.
 
@@ -270,7 +283,7 @@ Connect-MicrosoftTeams
 
 ### <a name="assign-a-policy-to-a-group"></a>그룹에 정책 할당
 
-이 예제에서는 ```New-CsGroupPolicyAssignment``` cmdlet을 사용 하 여 정품 관리자 모임 정책 이라는 팀 구성원 정책을 할당 순위가 1 인 그룹에 할당 합니다.
+이 예제에서는 cmdlet을 사용 ```New-CsGroupPolicyAssignment``` 하 여 정품 관리자 모임 정책 이라는 팀 구성원 정책을 할당 순위가 1 인 그룹에 할당 합니다.
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
@@ -280,7 +293,7 @@ New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -Polic
 
 ### <a name="get-policy-assignments-for-a-group"></a>그룹에 대 한 정책 할당 가져오기
 
-```Get-CsGroupPolicyAssignment``` Cmdlet을 사용 하 여 그룹에 할당 된 모든 정책을 가져옵니다. 그룹은 해당 SIP 주소 또는 전자 메일 주소가 정책을 할당 하는 데 사용 된 경우에도 그룹 Id에 의해 항상 나열 됨을 참고 하세요.
+Cmdlet을 사용 ```Get-CsGroupPolicyAssignment``` 하 여 그룹에 할당 된 모든 정책을 가져옵니다. 그룹은 해당 SIP 주소 또는 전자 메일 주소가 정책을 할당 하는 데 사용 된 경우에도 그룹 Id에 의해 항상 나열 됨을 참고 하세요.
 
 이 예제에서는 특정 그룹에 할당 된 모든 정책을 검색 합니다.
 
@@ -298,7 +311,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 ### <a name="remove-a-policy-from-a-group"></a>그룹에서 정책 제거
 
-```Remove-CsGroupPolicyAssignment``` Cmdlet을 사용 하 여 그룹에서 정책을 제거 합니다. 그룹에서 정책을 제거 하면 해당 그룹에 할당 된 같은 유형의 다른 정책에 대 한 우선 순위와 순위가 낮게 업데이트 됩니다. 예를 들어 순위가 2 인 정책을 제거 하는 경우 3 및 4 순위의 등급이 업데이트 되어 새 순위를 반영 합니다. 다음 두 테이블은이 예제를 보여 줍니다.
+Cmdlet을 사용 ```Remove-CsGroupPolicyAssignment``` 하 여 그룹에서 정책을 제거 합니다. 그룹에서 정책을 제거 하면 해당 그룹에 할당 된 같은 유형의 다른 정책에 대 한 우선 순위와 순위가 낮게 업데이트 됩니다. 예를 들어 순위가 2 인 정책을 제거 하는 경우 3 및 4 순위의 등급이 업데이트 되어 새 순위를 반영 합니다. 다음 두 테이블은이 예제를 보여 줍니다.
 
 팀 모임 정책에 대 한 정책 과제 및 우선 순위 목록은 다음과 같습니다.
 
@@ -327,7 +340,7 @@ Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-
 
 ### <a name="change-a-policy-assignment-for-a-group"></a>그룹에 대 한 정책 할당 변경
 
-그룹에 정책을 할당 한 후 ```Set-CsGroupPolicyAssignmentd``` cmdlet을 사용 하 여 다음과 같이 해당 그룹의 정책 할당을 변경할 수 있습니다.
+그룹에 정책을 할당 한 후 cmdlet을 사용 ```Set-CsGroupPolicyAssignmentd``` 하 여 다음과 같이 해당 그룹의 정책 할당을 변경할 수 있습니다.
 
 - 순위 변경
 - 지정 된 정책 유형의 정책 변경
@@ -345,7 +358,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 다음은 정책을 직접 할당 받은 사용자의 유효 정책을 변경 하는 방법의 예입니다.
 
-먼저, cmdlet을 ```Get-CsUserPolicyAssignment``` ```PolicySource``` 매개 변수와 함께 사용 하 여 사용자와 연결 된 팀 모임 브로드캐스트 정책의 세부 정보를 가져옵니다. 자세한 내용은 [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)을 참조 하세요.
+먼저, ```Get-CsUserPolicyAssignment``` cmdlet을 매개 변수와 함께 사용 하 여 ```PolicySource``` 사용자와 연결 된 팀 모임 브로드캐스트 정책의 세부 정보를 가져옵니다. 자세한 내용은 [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)을 참조 하세요.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -376,7 +389,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 
 ## <a name="assign-a-policy-package-to-a-batch-of-users"></a>사용자 일괄 처리에 정책 패키지 할당
 
-일괄 처리 정책 패키지를 사용 하는 경우 스크립트를 사용할 필요 없이 한 번에 대규모 사용자 집합에 정책 패키지를 할당할 수 있습니다. ```New-CsBatchPolicyPackageAssignmentOperation``` Cmdlet을 사용 하 여 할당 하려는 사용자 일괄 처리 및 정책 패키지를 제출 합니다. 할당이 백그라운드 작업으로 처리 되 고 각 일괄 처리에 대 한 작업 ID가 생성 됩니다. 그런 다음 ```Get-CsBatchPolicyAssignmentOperation``` cmdlet을 사용 하 여 일괄 처리에서 배정의 진행률과 상태를 추적할 수 있습니다.
+일괄 처리 정책 패키지를 사용 하는 경우 스크립트를 사용할 필요 없이 한 번에 대규모 사용자 집합에 정책 패키지를 할당할 수 있습니다. Cmdlet을 사용 하 여 ```New-CsBatchPolicyPackageAssignmentOperation``` 할당 하려는 사용자 일괄 처리 및 정책 패키지를 제출 합니다. 할당이 백그라운드 작업으로 처리 되 고 각 일괄 처리에 대 한 작업 ID가 생성 됩니다. 그런 다음 cmdlet을 사용 ```Get-CsBatchPolicyAssignmentOperation``` 하 여 일괄 처리에서 배정의 진행률과 상태를 추적할 수 있습니다.
 
 일괄 처리에는 최대 2만 명의 사용자를 포함할 수 있습니다. 개체 Id, UPN, SIP 주소 또는 전자 메일 주소로 사용자를 지정할 수 있습니다.
 
@@ -401,7 +414,7 @@ Connect-MicrosoftTeams
 
 ### <a name="assign-a-policy-package-to-a-batch-of-users"></a>사용자 일괄 처리에 정책 패키지 할당
 
-이 예제에서는 ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet을 사용 하 여 Education_PrimaryStudent 정책 패키지를 일괄 사용자에 게 할당 합니다.
+이 예제에서는 cmdlet을 사용 ```New-CsBatchPolicyPackageAssignmentOperation``` 하 여 Education_PrimaryStudent 정책 패키지를 일괄 사용자에 게 할당 합니다.
 
 ```powershell
 New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
@@ -411,13 +424,13 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 
 ### <a name="get-the-status-of-a-batch-assignment"></a>일괄 처리의 상태 가져오기
 
-일괄 처리 할당의 상태를 가져오려면 다음을 실행 합니다. 여기서 OperationId는 지정 된 일괄 처리에 대해 ```New-CsBatchPolicyAssignmentOperation``` cmdlet에서 반환 되는 작업 ID입니다.
+일괄 처리 할당의 상태를 가져오려면 다음을 실행 합니다. 여기서 OperationId는 ```New-CsBatchPolicyAssignmentOperation``` 지정 된 일괄 처리에 대해 cmdlet에서 반환 되는 작업 ID입니다.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-출력에 오류가 발생 했음을 표시 하는 경우 다음을 실행 하 여 ```UserState``` 속성에 있는 오류에 대 한 자세한 정보를 얻을 수 있습니다.
+출력에 오류가 발생 했음을 표시 하는 경우 다음을 실행 하 여 속성에 있는 오류에 대 한 자세한 정보를 얻을 수 ```UserState``` 있습니다.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState

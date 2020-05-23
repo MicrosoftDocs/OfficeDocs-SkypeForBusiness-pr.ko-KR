@@ -16,18 +16,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 음성 라우팅 정책을 만들고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7fa2530e170d398598e56d4b4f846cc316871b16
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160980"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350192"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 음성 라우팅 정책 관리
 
 조직에 [직접 전화 시스템 라우팅을](direct-routing-landing-page.md) 배포한 경우 비즈니스용 Skype Online 사용자가 온-프레미스 전화 통신 인프라를 사용 하 여 PSTN (공개 교환 전화 네트워크)에 전화를 걸거나 받을 수 있도록 음성 라우팅 정책을 사용 합니다.
 
-음성 라우팅 정책은 PSTN 사용 레코드에 대 한 컨테이너입니다. Microsoft 팀 관리 센터에서 **음성** > **음성 라우팅 정책** 으로 가거나 Windows PowerShell을 사용 하 여 음성 라우팅 정책을 만들고 관리 합니다.
+음성 라우팅 정책은 PSTN 사용 레코드에 대 한 컨테이너입니다. **Voice**  >  Microsoft 팀 관리 센터에서 음성**음성 라우팅 정책** 으로 가거나 Windows PowerShell을 사용 하 여 음성 라우팅 정책을 만들고 관리 합니다.
 
 전역 (조직 차원의 기본) 정책을 사용 하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자 지정 정책을 만들고 지정 하지 않으면 사용자가 자동으로 전역 정책을 가져옵니다. 전역 정책의 설정은 편집할 수 있지만 이름을 바꾸거나 삭제할 수 없다는 점에 유의 하세요.
 
@@ -37,7 +37,7 @@ ms.locfileid: "44160980"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **음성 라우팅 정책**으로 이동한 다음 **추가**를 클릭 합니다.<br>
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **음성 라우팅 정책**으로 이동한 다음 **추가**를 클릭 합니다.<br>
     ![Microsoft 팀 관리 센터의 음성 라우팅 정책 추가 페이지 스크린샷](media/manage-voice-routing-policies.png) 
 2. 정책의 이름과 설명을 입력합니다.
 3. **Pstn 사용 레코드**에서 **pstn 사용량 추가**를 클릭 한 다음 추가 하려는 레코드를 선택 합니다. 새 PSTN 사용 레코드를 만들어야 할 경우 **추가**를 클릭 합니다.
@@ -55,7 +55,7 @@ ms.locfileid: "44160980"
 
 만든 전역 정책 또는 사용자 지정 정책을 편집할 수 있습니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **음성 라우팅 정책**으로 이동 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **음성 라우팅 정책**으로 이동 합니다.
 2. 정책 이름 왼쪽을 클릭 하 여 정책을 선택한 다음 **편집**을 클릭 합니다.
 3. **PSTN 사용 레코드 추가/제거**를 클릭 하 고 원하는 대로 변경한 다음 **저장**을 클릭 합니다.
 
@@ -67,15 +67,21 @@ ms.locfileid: "44160980"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
+한 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
+
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
 2. **정책을**클릭 한 다음 **할당 된 정책**옆에 있는 **편집**을 클릭 합니다.
 3. **음성 라우팅 정책**에서 할당할 정책을 선택한 다음 **저장**을 클릭 합니다.
 
-사용자 지정 팀 정책을 한 번에 여러 사용자에 게 할당 하려면 [팀 사용자 설정을 일괄적으로 편집](edit-user-settings-in-bulk.md)을 참조 하세요.
+한 번에 여러 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
+
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**로 이동한 다음 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
+2. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
+3. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.  
 
 또는 다음을 수행할 수도 있습니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **음성 라우팅 정책**으로 이동 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **음성 라우팅 정책**으로 이동 합니다.
 2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
 3. **사용자 관리**를 선택합니다.
 4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
@@ -90,3 +96,4 @@ ms.locfileid: "44160980"
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [다이렉트 라우팅에 대 한 음성 라우팅 구성](direct-routing-voice-routing.md)
 - [직접 라우팅에 위치 기반 라우팅 사용](location-based-routing-enable.md)
+- [팀에서 사용자에 게 정책 할당](assign-policies.md)

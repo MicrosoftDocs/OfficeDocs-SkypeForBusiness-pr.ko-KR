@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c34494c08b6c81671c7f36e1ca76593e8d204be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: aeca6da477147c420c9dea053dbebc465fb491f6
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904770"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350272"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>조직에서 Microsoft 팀을 준비 하는 방법은 무엇 인가요?
 
@@ -64,7 +64,7 @@ ms.locfileid: "43904770"
 - 자신의 관찰 및 학습이를 그룹과 공유 하기
 - 위험 takers. 즉, 제대로 작동 하는지 확인 하는 것을 시도 하겠습니다.
 
-Office 365의 간단한 양식을 사용 하 여 이러한 개인이 팀의 초기 도입자 프로그램을 선택할 수 있도록 합니다. 조직의 규모 및 복잡도에 따라 실험 단계에서 이러한 개인 중 일부나 전부를 사용 하도록 선택할 수 있습니다. 이 프로그램에서는 실험 단계에 적극적으로 참여 하 고 프로젝트 팀에 게 정기적으로 피드백을 제공 하는 데 동의 하는 것입니다. 단순히 드라이브 신기술을 테스트 하고자 하는 사람을 피하는 것이 좋습니다. 이 활성 피드백을 제공 하 여 프로젝트의 결과를 작성 하는 데 도움이 되는 것을 알립니다. [2 단계 실험](teams-adoption-phase2-experiment.md)에서이 사람 목록을 사용 합니다.
+Microsoft 365 또는 Office 365에서 간단한 양식을 사용 하 여 이러한 개인이 팀의 초기 도입자 프로그램을 선택할 수 있도록 합니다. 조직의 규모 및 복잡도에 따라 실험 단계에서 이러한 개인 중 일부나 전부를 사용 하도록 선택할 수 있습니다. 이 프로그램에서는 실험 단계에 적극적으로 참여 하 고 프로젝트 팀에 게 정기적으로 피드백을 제공 하는 데 동의 하는 것입니다. 단순히 드라이브 신기술을 테스트 하고자 하는 사람을 피하는 것이 좋습니다. 이 활성 피드백을 제공 하 여 프로젝트의 결과를 작성 하는 데 도움이 되는 것을 알립니다. [2 단계 실험](teams-adoption-phase2-experiment.md)에서이 사람 목록을 사용 합니다.
 
 초기 도입자 프로그램 가이드는 해당 환경에서이 프로그램을 계획는 데 도움이 되는 유용한 리소스입니다.  
  
@@ -104,4 +104,4 @@ Office 365의 간단한 양식을 사용 하 여 이러한 개인이 팀의 초�
 
 내부 챔피언를 사용 하 여 다양 한 변경 형식이 있는 문제를 해결할 수 있습니다. 여기에서 피드백은 성공의 주요 사항입니다. 사용자가 챌린지와 요구 사항을 공유 하도록 장려 합니다. Disrupters를 도입 하 고 실험 하는 동안 해당 사용자 또는 그룹을 해당 테이블에 제공 하 여 입력 합니다. 이 모범 사례는 공동 작업 향상을 더욱 광범위 하 게 배포 하는 방법을 pave 것입니다.  
 
-![다음 단계](media/teams-adoption-next-icon.png) 를 나타내는 아이콘 다음: [Microsoft 팀 채택 2 단계: 실험](teams-adoption-phase2-experiment.md) 
+![다음 단계를 나타내는 아이콘 ](media/teams-adoption-next-icon.png) 다음: [Microsoft 팀 채택 2 단계: 실험](teams-adoption-phase2-experiment.md) 

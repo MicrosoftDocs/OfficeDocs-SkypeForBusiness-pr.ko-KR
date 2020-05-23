@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: f449d20f4364629185f719c3217023107f774dd9
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326795"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350312"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기
 
 > [!IMPORTANT]
-> 2019 년 12 월 31 일에 효력을 StaffHub Microsoft는 곧 만료 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다. StaffHub는 2019 년 12 월 31 일에 모든 사용자의 작동이 중지 됩니다. StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.
+> 유효 2020 년 6 월 30 일에 Microsoft StaffHub 사용이 중지 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다. StaffHub은 2020 년 6 월 30 일에 모든 사용자의 작업을 중지 합니다. StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.
 
 팀에서 교대 근무 앱은 일정을 관리 하는 간단한 방법과 매일 수행 되는 교대 전환 및 취소의 일정 한 흐름을 제공 합니다. 팀 구성원은 일정에 액세스 하 고, 앱 및 장치에서 직접 정보를 이동 하 여 기본 설정을 지정 하 고, 일정을 관리 하 고, 휴가를 요청할 수 있습니다.
 
@@ -50,13 +50,13 @@ ms.locfileid: "44326795"
 
 ### <a name="when-to-move-to-teams"></a>팀으로 이동 하는 경우
 
-2019 년 12 월 31 일에 효력을 StaffHub 됩니다. 지금 팀 사용을 시작 하 고 조직의 팀과 사용자를 StaffHub에서 전환 하기 시작 하는 것이 좋습니다. StaffHub에서 가장 일반적으로 사용 되는 기능으로 일정 관리를 사용 하는 경우 팀에서 이동 앱을 진행 하는 것이 좋습니다.
+유효 6 월 30 일, 2020, StaffHub가 만료 됩니다. 지금 팀 사용을 시작 하 고 조직의 팀과 사용자를 StaffHub에서 전환 하기 시작 하는 것이 좋습니다. StaffHub에서 가장 일반적으로 사용 되는 기능으로 일정 관리를 사용 하는 경우 팀에서 이동 앱을 진행 하는 것이 좋습니다.
 
 ### <a name="what-is-moved-to-teams"></a>팀으로 이동 하는 항목
 
 StaffHub 팀을 이동 하면 팀 구성원, 사용자 세부 정보, 팀 일정 및 채팅 데이터가 팀으로 이동 됩니다. StaffHub 팀을 이동할 때 파일이 이동 되지 않습니다. StaffHub 팀에 팀으로 이동 하려는 파일이 포함 되어 있는 경우 별도의 단계로 파일을 이동 합니다.
 
-모든 StaffHub 팀에는 해당 하는 Office 365 그룹이 필요 합니다. StaffHub 팀이 Office 365 그룹과 연결 된 경우 팀을 이동할 때 그룹의 개인 정보 설정이 유지 됩니다. StaffHub 팀에 Office 365 그룹이 연결 되어 있지 않은 경우 개인 정보 보호 설정이 있는 그룹이 전환을 지원할 수 있도록 자동으로 만들어집니다.  팀과 StaffHub 간의 팀 및 그룹 명명 차이로 인해 팀에 다른 팀 이름이 표시 될 수 있습니다. 
+모든 StaffHub 팀에는 해당 Microsoft 365 또는 Office 365 그룹이 필요 합니다. StaffHub 팀이 Microsoft 365 그룹과 연결 된 경우 팀을 이동할 때 그룹의 개인 정보 설정이 유지 됩니다. StaffHub 팀에 Microsoft 365 그룹이 연결 되어 있지 않은 경우 개인 정보 보호 설정이 있는 그룹이 전환을 지원할 수 있도록 자동으로 만들어집니다.  팀과 StaffHub 간의 팀 및 그룹 명명 차이로 인해 팀에 다른 팀 이름이 표시 될 수 있습니다. 
 
 StaffHub에서 팀으로 전환 하는 동안 사용자는 더 이상 StaffHub에서 해당 일정에 액세스할 수 없으며 팀에서 이동 하도록 리디렉션됩니다. 중단을 최소화 하 고 사용자가 팀을 채택 하 고 탐색 하도록 하는 것을 권장 하기 위해 조직에서이 변경 내용을 알릴 것을 권장 합니다. Azure AD Premium을 사용 하는 경우 [보고서를 실행](run-report-to-show-staffhub-usage.md) 하 여 조직의 StaffHub 사용자 중 해당 변경 사항에 대해 알고 있어야 하는 목록을 가져올 수 있습니다.  
 
@@ -364,7 +364,7 @@ StaffHub 팀과 연결 된 그룹에 팀 소유자가 없는 경우이 문제가
 
 **파일을 StaffHub에서 팀으로 이동 하려고 하면 "사용 권한 거부 됨" 오류 메시지가 표시 됩니다.**
 
-구성원이 아닌 개인 Office 365 그룹의 파일을 이동 하려는 경우이 문제가 발생할 수 있습니다. 이 경우 [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) cmdlet을 사용 하 여 자신을 StaffHub 팀에 추가한 다음 파일을 이동 합니다. 파일을 이동한 후 [StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) cmdlet을 사용 하 여 팀에서 자신을 제거 합니다. 
+구성원이 아닌 개인 Microsoft 365 그룹의 파일을 이동 하려는 경우이 문제가 발생할 수 있습니다. 이 경우 [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) cmdlet을 사용 하 여 자신을 StaffHub 팀에 추가한 다음 파일을 이동 합니다. 파일을 이동한 후 [StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) cmdlet을 사용 하 여 팀에서 자신을 제거 합니다. 
 
 **파일을 StaffHub에서 팀으로 이동 하려고 하면 일반 폴더가 없다는 오류 메시지가 나타납니다.**
 

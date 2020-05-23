@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 211bf51e0221ecaba29cee9e9a859c0a6acf9332
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256393"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349982"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft 팀을 위한 활동 보고서 사용 
 ========================================
@@ -107,7 +107,7 @@ Microsoft 365 관리 센터에서 활동 보고서를 사용 하 여 조직의 �
 
 ### <a name="at-a-glance-activity-widget"></a>한눈 활동 위젯
 
-Reports 대시보드에는 사용자가 Office 365의 다른 다양 한 서비스를 사용 하 여 통신 하 고 공동 작업 하는 방법에 대 한 교차 제품 보기가 제공 되는 간략 한 활동 위젯의 팀의 사용량 데이터가 포함 됩니다.
+보고서 대시보드에는 사용자가 Microsoft 365 또는 Office 365의 다른 다양 한 서비스를 사용 하 여 통신 하 고 공동 작업 하는 방법에 대 한 교차 제품 보기를 제공 하는 간략 한 활동 위젯의 팀의 사용 현황 데이터가 포함 되어 있습니다.
 
 ![팀의 간략 한 활동 widget 스크린샷](media/at-a-glance-activity-widget.png)
 

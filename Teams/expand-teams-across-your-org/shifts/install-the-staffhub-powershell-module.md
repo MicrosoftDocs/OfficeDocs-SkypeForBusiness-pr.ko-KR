@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 52b4e0c41520468bc1e05734644d1beb05fed5be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b81e28c198ca3ae26979bb61895acdb61842f354
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905730"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350172"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell 모듈 설치
 
 > [!IMPORTANT]
-> 2019 년 12 월 31 일에 효력을 StaffHub Microsoft는 곧 만료 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다. StaffHub는 2019 년 12 월 31 일에 모든 사용자의 작동이 중지 됩니다. StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.  
+> 유효 2020 년 6 월 30 일에 Microsoft StaffHub 사용이 중지 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다. StaffHub은 2020 년 6 월 30 일에 모든 사용자의 작업을 중지 합니다. StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.  
 
 이 문서의 단계를 사용 하 여 Microsoft StaffHub PowerShell 모듈을 설치 하 고 연결 합니다. [StaffHub 팀을 팀으로 이동](move-staffhub-teams-to-shifts-in-teams.md)하려면이이 필요 합니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "43905730"
     ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
-6. 다음을 실행 합니다. &lt;여기서&gt; path는 3 단계의 출력에서 경로입니다. 예를 들어 경로는 C:\Users\User1\Documents\WindowsPowerShell\Modules. 처럼 표시 될 것입니다.
+6. 다음을 실행 합니다 &lt; . 여기서 path &gt; 는 3 단계의 출력에서 경로입니다. 예를 들어 경로는 C:\Users\User1\Documents\WindowsPowerShell\Modules. 처럼 표시 될 것입니다.
 
     각 명령을 개별적으로 실행 해야 합니다.
 

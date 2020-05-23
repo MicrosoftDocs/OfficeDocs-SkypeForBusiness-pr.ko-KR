@@ -21,12 +21,12 @@ f1.keywords:
 description: 조직의 인식, 채택, 교육을 통해 팀의 채택을 챔피언 팀을 교육 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4be0002b65567bcd708e765242b744936c6ac12e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904760"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350262"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Microsoft 팀을 위한 챔피언 프로그램 만들기
 
@@ -45,7 +45,7 @@ ms.locfileid: "43904760"
 
 [챔피언 프로그램 가이드](https://go.microsoft.com/fwlink/?linkid=854665) 를 사용 하 여 조직에서이 프로그램을 작성 합니다. 이 커뮤니티에 대 한 모범 사례는 다음과 같습니다.
 
-- Office 365 챔피언 프로그램에 참가: 최소한 챔피언 프로그램 (및 모든 회사 챔피언)의 리더가 [Microsoft Office 365 챔피언 프로그램](https://aka.ms/O365Champions)의 구성원 이어야 합니다. 이 무료 월간 커뮤니티 통화는 자신의 프로그램을 실행 하 고 팀과 다른 Office 365 서비스를 최대한 활용 하는 데 유용한 정보를 제공 합니다. 프로그램 자료는 자신의 내부 프로그램에서 다시 사용할 수 있습니다.
+- Microsoft 365 또는 Microsoft Office 365 [챔피언 프로그램](https://aka.ms/O365Champions)에 참가 합니다. 최소한 챔피언 프로그램의 리더 (및 모든 회사 챔피언)가 프로그램의 구성원 인지 확인 합니다. 이 무료 월간 커뮤니티 통화는 자신의 프로그램을 실행 하 고 팀과 기타 Microsoft 365 또는 Office 365 서비스를 활용 하는 데 유용한 정보를 제공 합니다. 프로그램 자료는 자신의 내부 프로그램에서 다시 사용할 수 있습니다.
 
 - 팀워크 챔피언 팀: 챔피언는 모든 프로그램 통신, 피드백 및 리소스 검색을 위해 설정 된 팀을 사용 해야 합니다.  이렇게 하면 제품과 혜택에 점점 더 익숙해질 것입니다.
 
@@ -60,5 +60,5 @@ ms.locfileid: "43904760"
 
 - 초기에 자주 교육 챔피언, 프로그램 시작 및 월간 회의를 사용 하 여 챔피언 커뮤니티에서 기술을 건설할 수 있습니다. 이러한 기회를 보드에 가져오고, 초기 교육을 실시 하 고, 교육 과정에 참가 하도록 권유 하 고, 실험 단계에서 해당 직원 들을 지원할 준비가 되었는지 확인 합니다.  
 
-![다음 단계](media/teams-adoption-next-icon.png) 를 나타내는 아이콘: [관리 빠른 시작 완료](teams-adoption-governance-quick-start.md)
+![다음 단계를 나타내는 아이콘 ](media/teams-adoption-next-icon.png) : [관리 빠른 시작 완료](teams-adoption-governance-quick-start.md)
 

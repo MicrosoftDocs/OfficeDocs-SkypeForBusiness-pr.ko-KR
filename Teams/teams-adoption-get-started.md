@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 47b391fa734b06ba9ffbab9cea3d049322bfc034
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041875"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350122"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Microsoft 팀의 채택을 시작 하세요.
 
@@ -40,9 +40,9 @@ Microsoft 팀의 채택을 제공 하 여 회사 내에서 뛰어난 사용자 �
 
 - 데스크톱 및 모바일 응용 프로그램을 다운로드 했습니다. 
 
-## <a name="office-365-adoption-framework"></a>Office 365 채택을 프레임 워크
+## <a name="adoption-framework"></a>채택 프레임 워크
 
-Office 365에는 서비스의 주요 작업 부하에 적용 되는 채택을 프레임 워크가 있습니다. 이 프레임 워크는 모든 조직이 클라우드 서비스를 지원 하기 위해 수행 해야 하는 주요 단계를 해결 합니다. 전체 채택 프레임 워크에 대 한 자세한 내용은 [Microsoft 엔터프라이즈 설명서 및 리소스](https://aka.ms/O365AdoptionHub)를 참조 하세요. 
+Microsoft 365 및 Office 365에는 서비스의 주요 작업 부하에 적용 되는 채택을 프레임 워크가 있습니다. 이 프레임 워크는 모든 조직이 클라우드 서비스를 지원 하기 위해 수행 해야 하는 주요 단계를 해결 합니다. 전체 채택 프레임 워크에 대 한 자세한 내용은 [Microsoft 엔터프라이즈 설명서 및 리소스](https://aka.ms/O365AdoptionHub)를 참조 하세요. 
 
 이 팀 채택 계획에서는 [도입](#adoption-phases)단계에 명시 된 구체적인 팀 지침을 단계별로 구성 했습니다.
 
@@ -54,9 +54,9 @@ Office 365에는 서비스의 주요 작업 부하에 적용 되는 채택을 �
 
 - 이 단계에서는 제어 된 성장에 대 한이 단계의 내부 챔피언와 초기에 게 내장 되어 있는 것 **을 제공 합니다** . 팀에서 제공 하는 공동 작업 및 통신 기능을 통해 얻을 수 있는 시나리오를 식별 하기 위해 비즈니스 사용자와 이야기할 수 있습니다. 광범위 한 채택 단계에 대 한 의견을 수집 하 고 관리 및 수명 주기 관리에 대 한 서비스를 결정 하 여 배포를 성공적으로 수행 하도록 합니다.
 
-- **크기 조정** -모든 직원에 대해 팀의 기능을 설정할 수 있는 광범위 한 배포 단계입니다. 이 단계에서 조직의 크기에 따라이 프로젝트가 모든 직원의 팀을 동시에 켜거나 지역, 비즈니스 단위 또는 직원 인구를 세그먼트화 하는 기타 방법으로이를 사용 하 게 됩니다. 이 단계에서는 연속적인 전달 모델로 이동 합니다. 직원, 리더 및 비즈니스 단위는 팀의 사용을 확장할 것 이며, 팀과 Office 365의 다른 기능을 사용 하는 최선의 방법에 대 한 교육 및 계약이 필요 합니다.   
+- **크기 조정** -모든 직원에 대해 팀의 기능을 설정할 수 있는 광범위 한 배포 단계입니다. 이 단계에서 조직의 크기에 따라이 프로젝트가 모든 직원의 팀을 동시에 켜거나 지역, 비즈니스 단위 또는 직원 인구를 세그먼트화 하는 기타 방법으로이를 사용 하 게 됩니다. 이 단계에서는 연속적인 전달 모델로 이동 합니다. 직원, 리더 및 사업부는 팀의 사용을 확장 하 고 Microsoft 365 또는 Office 365의 팀과 기타 기능을 사용 하는 최선의 방법과 교육 및 계약을 필요로 합니다.
 
 이러한 각 채택 단계는 팀의 기술 및 환경 준비에 따라 달라 집니다. 시작 해 보세요!
 
 
-![다음 단계](media/teams-adoption-next-icon.png) 를 나타내는 아이콘 다음: [Microsoft 팀 채택 1 단계: 시작](teams-adoption-phase1.md)|
+![다음 단계를 나타내는 아이콘 ](media/teams-adoption-next-icon.png) 다음: [Microsoft 팀 채택 1 단계: 시작](teams-adoption-phase1.md)|

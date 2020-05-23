@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904940"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350302"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 이해
 
 팀과 채널의 개념은 Microsoft 팀의 정상적인 생산성을 구현 하는 데 기본적으로 적합 합니다. 
 
-- 팀은 회사에 대 한 비즈니스 결과물을 생성 하기 위해 함께 작동 하는 사람, 콘텐츠, 도구 모음입니다. Teams는 Microsoft 365 그룹에 기반하며 Office 365 그룹 멤버 변경 사항이 Teams에 동기화됩니다. 
+- 팀은 회사에 대 한 비즈니스 결과물을 생성 하기 위해 함께 작동 하는 사람, 콘텐츠, 도구 모음입니다. Teams는 Microsoft 365 그룹에 기반하며 Office 365 그룹 멤버 변경 사항이 Teams에 동기화됩니다.
 
 - 채널은 실제 작업 시간이 완료 된 팀 내의 공동 작업 공간입니다. 
 
@@ -61,4 +61,4 @@ ms.locfileid: "43904940"
   
 구현의 [2 단계](teams-adoption-phase2-experiment.md) 에서 팀 구조에 대해 더 많은 작업을 수행 합니다.
 
-![다음 단계를 안내](media/teams-adoption-next-icon.png) 하는 아이콘: [첫 번째 팀 만들기](teams-adoption-your-first-teams.md)
+![다음 단계를 안내 하는 아이콘 ](media/teams-adoption-next-icon.png) : [첫 번째 팀 만들기](teams-adoption-your-first-teams.md)

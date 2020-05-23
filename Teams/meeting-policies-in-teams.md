@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: 2f6a88276a2b5d3214b89555d0008e2b58cf1aa2
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278201"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349562"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -70,11 +70,17 @@ ms.locfileid: "44278201"
 
 ## <a name="assign-a-meeting-policy-to-users"></a>사용자에게 모임 정책 할당
 
+모임 정책을 한 명의 사용자에 게 할당 하려면 다음을 수행 합니다.
+
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
 3. **모임 정책**에서 할당하려는 정책을 선택한 후 **적용**을 클릭합니다.
 
-한 번에 여러 사용자에게 정책을 할당하려면 [Teams 사용자 설정을 일괄 편집](edit-user-settings-in-bulk.md)을 참조하세요.
+한 번에 여러 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
+
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**로 이동한 다음 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
+2. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
+3. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.  
 
 또는 다음을 수행할 수도 있습니다.
 
@@ -391,7 +397,7 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 
 |값 설정 |결과가  |
 |---------|---------|
-|**사용 하지 않도록 설정 되어 있으며 이끌이는 무시할 수 있습니다.**     | Live 캡션은 모임 중에 사용자에 대해 자동으로 설정 되지 않습니다. 사용자는 오버플로 (**...**) 메뉴에서 **라이브 캡션 켜기** 옵션을 표시 하 여 설정 합니다. 기본 설정입니다. |
+|**사용 하지 않도록 설정 되어 있지만 사용자가 무시할 수 있음**     | Live 캡션은 모임 중에 사용자에 대해 자동으로 설정 되지 않습니다. 사용자는 오버플로 (**...**) 메뉴에서 **라이브 캡션 켜기** 옵션을 표시 하 여 설정 합니다. 기본 설정입니다. |
 |**비활성화**     | 모임 중에는 사용자가 실시간 캡션을 사용할 수 없습니다. 사용자는이 옵션을 켤 수 없습니다.          |
 
 <a name="bkcontentsharing"> </a>
@@ -432,3 +438,4 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 ## <a name="related-topics"></a>관련 항목
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
+- [팀에서 사용자에 게 정책 할당](assign-policies.md)

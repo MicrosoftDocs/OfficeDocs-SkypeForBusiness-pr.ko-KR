@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a65a9c43ba6828781c53b14e739ba92593ca934c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904323"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350252"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft 팀을 위한 관리 빠른 시작
 
@@ -64,10 +64,10 @@ ms.locfileid: "43904323"
 
 ### <a name="decision-6--data-security"></a>의사 결정 6: 데이터 보안
 
-광범위 한 배포를 준비 하기 위해 보안 레이블을 사용 하 여 환경에서 팀 유형을 분류 하도록 선택할 수 있습니다. 이 실험의 목적을 위해 [팀에서 관리 계획](plan-teams-governance.md) 을 참조 하 고 Microsoft 365 또는 Office 365의 팀 데이터에 대 한 기본 보존 정책이 설정 되어 있는지 확인 하는 것이 좋습니다. 이 작업을 완료 하는 데 Office 365 관리자 권한이 필요 하기 때문에이 작업을 기술 팀과 조정 해야 할 수 있습니다.
+광범위 한 배포를 준비 하기 위해 보안 레이블을 사용 하 여 환경에서 팀 유형을 분류 하도록 선택할 수 있습니다. 이 실험의 목적을 위해 [팀에서 관리 계획](plan-teams-governance.md) 을 참조 하 고 Microsoft 365 또는 Office 365의 팀 데이터에 대 한 기본 보존 정책이 설정 되어 있는지 확인 하는 것이 좋습니다. 이 작업을 완료 하려면 Microsoft 365 또는 Office 365 관리자 권한이 필요 하기 때문에이 작업을 기술 팀과 조정 해야 할 수 있습니다.
 
 ### <a name="decision-7-length-of-your-experiment"></a>의사 결정 7: 실험의 길이
 
 성공적인 팀 구현은 적절 한 통해 계속 앞서, 초점 및 학습이을 보장 하기 위해 정상 속도로 진행 됩니다. 초기에 충분 한 비즈니스 주기가 완료 되도록 프로젝트의이 단계를 60 days로 설정 하는 것이 좋습니다. 시간이 너무 오래 걸리는 실험을 확장 하면 실패 한 변경 프로그램이 발생할 위험이 높아집니다. 그러나이 시간은 모든 조직에 따라 달라 집니다.  
 
-![다음 단계](media/teams-adoption-next-icon.png) 를 나타내는 아이콘 (다음: [사용 시나리오 정의](teams-adoption-define-usage-scenarios.md) )
+![다음 단계를 나타내는 아이콘 ](media/teams-adoption-next-icon.png) (다음: [사용 시나리오 정의](teams-adoption-define-usage-scenarios.md) )

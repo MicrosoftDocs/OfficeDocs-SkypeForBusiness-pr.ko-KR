@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3cbf3ec38876d57fe1c2b8ac61abf5b86d5c2106
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: b4c6fe9551374139e8220543cb83f262a2a5195a
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326775"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350062"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
@@ -93,15 +93,21 @@ Microsoft 팀 관리 센터를 사용 하 여 전역 (조직 전체 기본값) �
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>사용자에 게 사용자 지정 앱 설정 정책 할당
 
-Microsoft 팀 관리 센터를 사용 하 여 사용자 지정 정책을 개인 사용자 또는 비즈니스용 Skype PowerShell 모듈에 할당 하 여 보안 그룹 또는 메일 그룹과 같은 사용자 그룹에 사용자 지정 정책을 할당할 수 있습니다.
+Microsoft 팀 관리 센터를 사용 하 여 개인 사용자 또는 비즈니스용 Skype PowerShell 모듈에 사용자 지정 정책을 할당 하 여 그룹의 사용자에 게 보안 그룹 또는 메일 그룹과 같은 사용자 지정 정책을 할당할 수 있습니다.
 
 ### <a name="assign-a-custom-app-setup-policy-to-users"></a>사용자에 게 사용자 지정 앱 설정 정책 할당
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 다음 사용자를 클릭 합니다.
+한 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
+
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
 3. **앱 설정 정책**에서 할당 하려는 앱 설정 정책을 선택한 다음 **적용**을 클릭 합니다.
 
-한 번에 여러 사용자에게 정책을 할당하려면 [Teams 사용자 설정을 일괄 편집](edit-user-settings-in-bulk.md)을 참조하세요.
+한 번에 여러 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
+
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**로 이동한 다음 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
+2. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
+3. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.  
 
 또는 다음을 수행할 수도 있습니다.
 
@@ -197,3 +203,4 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
  ## <a name="related-topics"></a>관련 항목
 
 - [Team에서 앱의 관리 설정](admin-settings.md)
+- [팀에서 사용자에 게 정책 할당](assign-policies.md)

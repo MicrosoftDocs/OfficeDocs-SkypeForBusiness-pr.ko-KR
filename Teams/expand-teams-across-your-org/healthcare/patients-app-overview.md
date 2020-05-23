@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 팀 용 환자 앱 관리자
-ms.openlocfilehash: 405a87be4bd9504c0bdca98c17748f0864ba72ed
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8424defb7d9fa6359600a99c3c19fdf0b8c4dd28
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780197"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350152"
 ---
 # <a name="patients-app-overview"></a>환자 앱 개요
 
@@ -30,7 +30,7 @@ ms.locfileid: "43780197"
 
 앱에는 두 가지 모드가 있습니다.
 
-- Emr를 통해 FA r을 통해 연결 하는 EMR 연결 모드입니다. EMR 연결 모드 앱은 개인 미리 보기에서 유지 되며, 관심 있는 고객 또는 관리자가 Office 365 조직에 대 한 정보를 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 에 Microsoft 전자 메일을 끌어 앱에 대 한 액세스를 요청할 수 있습니다.
+- Emr를 통해 FA r을 통해 연결 하는 EMR 연결 모드입니다. EMR 연결 모드 앱은 비공개 미리 보기에서 유지 되며, 관련 고객 또는 관리자가 microsoft 365 조직에 대 한 정보로 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 에서 microsoft 전자 메일을 삭제 하 여 앱에 대 한 액세스를 요청할 수 있습니다.
 - 주의 팀이 환자 정보를 수동으로 추가/지참물 할 수 있도록 해 주는 수동 모드입니다. 이 응용 프로그램은 최종 사용자가 비공개 미리 보기에서 다운로드할 수 있는 팀 앱 스토어에서 제공 됩니다. 팀에서 [앱 설치 정책을](../../teams-app-setup-policies.md) 사용 하 여 특정 사용자 섹션으로 앱을 제한할 수 있습니다. 앱에 대 한 액세스 권한을 얻으려면 테 넌 트가 기술 채택 프로그램에 포함 되어 있어야 합니다 (탭). [Teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 에서 전자 메일을 삭제 하 여 액세스 요청 프로세스를 시작 하세요.
 
 ## <a name="usage-example"></a>사용 예제
@@ -41,7 +41,7 @@ ms.locfileid: "43780197"
 
 EMR 모드 환자 앱을 사용 하기 위해 환경을 준비 하는 방법에 대 한 자세한 내용은 [Microsoft 팀에 전자 의료 기록 통합](patients-app.md)을 참조 하세요. 또한 조직에 대해 환자 앱을 사용 하도록 설정 하려면 [Microsoft 팀에서 앱 설정 관리 정책도](../../teams-app-setup-policies.md) 참조 해야 합니다.
 
-최종 사용자가 자신이 소유 하거나 관리 하는 팀에 환자 앱에 액세스 하 여 설치 하는 방법에 대 한 자세한 내용은 [Microsoft 팀 시작](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393) 을 참조 하세요 환자 
+최종 사용자가 자신이 소유 하거나 관리 하는 팀에 환자 앱에 액세스 하 여 설치 하는 방법에 대 한 자세한 내용은 [Microsoft 팀 시작 환자](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)을 참조 하세요.
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
@@ -66,7 +66,7 @@ EMR 모드 환자 앱을 사용 하기 위해 환경을 준비 하는 방법에 
 
 **이 앱은 매우 유용 하 게 사용할 수 있으므로 승인 되지 않은 액세스 또는 규정 준수를 방지 하는 감사가 있나요?**
 
-예. 환자 앱의 Microsoft 팀 사용자가 수행한 모든 단일 UI 동작은 감사 되 고 보안 및 준수 센터에서 사용할 수 있습니다. 세부 정보는 [여기](patients-audit.md) 문서에 설명 되어 있습니다.
+예. 환자 앱의 Microsoft 팀 사용자가 수행한 모든 단일 UI 동작은 감사 되 고 보안 및 준수 센터에서 사용할 수 있습니다. 세부 정보는 [환자 앱에 대 한 감사 로그](patients-audit.md)에 설명 되어 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

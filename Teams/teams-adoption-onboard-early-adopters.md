@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7000c3555a660fc692b7b88b0d94fb3ea42742c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140745"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350242"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Microsoft 팀에 대 한 조기 등록 및 의견 수집
 
@@ -41,7 +41,7 @@ ms.locfileid: "43140745"
 
 ## <a name="gather-feedback"></a>피드백 수집
 
-Office 365의 구성 요소를 사용 하 여 프로젝트에 대 한 피드백을 수집 합니다.
+Microsoft 365 또는 Office 365의 구성 요소를 사용 하 여 프로젝트에 대 한 피드백을 수집 합니다.
   
 ![결정 지점을 나타내는 아이콘](media/teams-adoption-decision-icon.png) 의사 결정: 조직에 이미 Yammer 네트워크에 대 한 투자가 있는 경우 초기 도입자 프로그램에 대 한 피드백 포럼으로 사용할 수 있습니다. 그렇지 않고 초기 도입자 프로그램이 5000 명 미만인 경우 팀에서 팀을 만들어 피드백을 수집 하 고 교육을 제공할 수 있습니다.
   
@@ -49,4 +49,4 @@ Office 365의 구성 요소를 사용 하 여 프로젝트에 대 한 피드백�
 > 일부 조직에서는 초기 도입자의 피드백에 대 한 채널을 팀워크 챔피언 program 팀에 결합 합니다. 이는 앞으로 많은 조기 사용이 챔피언 될 수 있기 때문에 좋은 방법 이며, 더 강력한 커뮤니티를 구축 하 게 됩니다. 
 
 
-![](media/teams-adoption-next-icon.png) [온보드 지원](teams-adoption-onboard-support.md)다음 단계를 나타내는 아이콘입니다.
+![온보드 지원 다음 단계를 나타내는 아이콘 ](media/teams-adoption-next-icon.png) 입니다 [Onboard support](teams-adoption-onboard-support.md).

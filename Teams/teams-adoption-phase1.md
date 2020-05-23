@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00615f1bbd48654701ff64e547bffdbd8ee142f9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 620e6ebdcfe244dc937ab96bc4e14c67cda0b11c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905670"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349712"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft 팀 채택 단계 1-시작
 
@@ -67,10 +67,10 @@ ms.locfileid: "43905670"
 
 ## <a name="additional-resources"></a>추가 리소스
 
-[Microsoft 기술 커뮤니티](https://aka.ms/TechCommunity) 는 다양 한 Office 365 제품에 대 한 채택 및 기술적 문제에 대해 피어가 제공한 정보를 제공 합니다. 다음 커뮤니티에 참가 하는 것이 좋습니다.
+[Microsoft 기술 커뮤니티](https://aka.ms/TechCommunity) 는 다양 한 microsoft 365 및 Office 365 제품에 대 한 채택 및 기술적 문제에 대 한 정보를 피어에 제공 합니다. 다음 커뮤니티에 참가 하는 것이 좋습니다.
 
 - [Microsoft 팀 기술 커뮤니티](https://aka.ms/TeamsCommunity) – 제품 질문에 대 한 답변을 받고, 다른 팀의 고객 으로부터 배우고, 블로그를 팔 로우 하 여 팀에 대 한 새로운 기능과 사용 사례를 최신 상태로 유지 하세요. 
-- [Office 365 챔피언 프로그램](https://aka.ms/O365Champions) 및 구동 채택을 커뮤니티 – 팀, SharePoint, Yammer, 기타 제품 등의 office 365 작업 부하를 최상으로 채택 하는 방법에 대해 알아보세요. IT 전문가, 비즈니스 사용자, "우발적" 개발자, 그리고 클라우드 서비스 채택에 관심이 있는 모든 사람에 게 공개 됩니다.  
+- [챔피언 프로그램](https://aka.ms/O365Champions) 및 구동 채택을 커뮤니티-팀, SharePoint, Yammer, 기타 제품 등의 Microsoft 365 또는 Office 365 작업 부하의 가장 좋은 드라이브 도입 방법을 동료에 게 알아보세요. IT 전문가, 비즈니스 사용자, "우발적" 개발자, 그리고 클라우드 서비스 채택에 관심이 있는 모든 사람에 게 공개 됩니다.  
 
 
-![다음 단계](media/teams-adoption-next-icon.png) 를 나타내는 아이콘 (다음: [팀 및 채널 이해](teams-adoption-understand-teams-and-channels.md) )
+![다음 단계를 나타내는 아이콘 ](media/teams-adoption-next-icon.png) (다음: [팀 및 채널 이해](teams-adoption-understand-teams-and-channels.md) )

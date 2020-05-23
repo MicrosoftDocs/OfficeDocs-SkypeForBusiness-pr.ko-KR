@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fcaa545f2a704dfad856a4cebbcc9cb9f31d7481
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140699"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349772"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft 팀 채택을 위한 피드백 및 신고 최적화
 
-사용자 의견 및 서비스 상태 보고에 대 한 모범 사례에 따라 서비스 및 직원 으로부터 신호를 받을 수 있는지 확인 합니다.  일부 경우에는 특정 서비스 사용 현황 및 상태 보고서에 액세스 하는 데 Office 365 관리자 권한이 필요할 수 있습니다. 조직의 Office 365 관리자가 아닌 경우 해당 개인에 게 작업을 수행 하 여 Microsoft 365 관리 센터에서 보고서 구독자 역할을 부여 하 여이 데이터 중 일부에 액세스 합니다. 
+사용자 의견 및 서비스 상태 보고에 대 한 모범 사례에 따라 서비스 및 직원 으로부터 신호를 받을 수 있는지 확인 합니다.  경우에 따라 특정 서비스 사용 및 상태 보고서에 액세스 하는 데 관리자 권한이 필요할 수 있습니다. 조직의 Microsoft 365 또는 Office 365 관리자가 아닌 경우 해당 개인에 게 작업을 수행 하 여 Microsoft 365 관리 센터에서 보고서 구독자 역할을 부여 하 여이 데이터 중 일부에 액세스할 수 있습니다.
 
 ## <a name="incorporating-feedback"></a>피드백 통합 
 
@@ -56,8 +56,8 @@ Microsoft 팀의 사용 현황을 확대할 준비가 되 면 확장 하는 각 
 
 Microsoft 팀을 배포 하 고 채택할 때 검토 해야 하는 세 가지 보고 유형은 다음과 같습니다.
 
-- [서비스 상태](https://status.office365.com/) – Office 365와 내부 IT 지원 부서에서 모두 사용할 수 있습니다.
-- [서비스 활동](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) - [Microsoft 팀의](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)Office 365 보고서 보기를 참조 하세요. 조직 내 다른 시스템의 정보를 사용할 수도 있습니다.
+- Microsoft 365 또는 Office 365와 내부 IT 지원 부서의 [서비스 상태](https://status.office365.com/) .
+- Microsoft [팀에서](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide) [서비스 활동](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) -microsoft 365 또는 Office 365에서의 보고서를 보고 합니다. 조직 내 다른 시스템의 정보를 사용할 수도 있습니다.
 - 서비스 만족도 – 특정 환경에 대 한 내부 커뮤니티 포럼 및 설문 조사에서 수집
 
-![다음 단계](media/teams-adoption-next-icon.png) 를 나타내는 아이콘 (다음: [드라이브 인식 및 교육 구현](teams-adoption-drive-awareness.md) )
+![다음 단계를 나타내는 아이콘 ](media/teams-adoption-next-icon.png) (다음: [드라이브 인식 및 교육 구현](teams-adoption-drive-awareness.md) )

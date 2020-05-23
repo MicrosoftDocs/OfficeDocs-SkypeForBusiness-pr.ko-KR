@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 59c3d9d6ee6da2881aff52efa77c3d13678b560a
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997169"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350232"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -237,7 +237,7 @@ Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 정책을 설정
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터를 사용 하 여 정책 할당
 
-DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에 게 할당 하려면 다음 단계를 따릅니다.
+DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에 게 할당 하려면 다음을 수행 합니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동 합니다.
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
@@ -246,13 +246,17 @@ DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에 게 할�
     2.  **모임 정책**에서 **AllOff**를 클릭 합니다.
 4. **적용**을 클릭 합니다.
 
-한 번에 여러 사용자에게 정책을 할당하려면 [Teams 사용자 설정을 일괄 편집](edit-user-settings-in-bulk.md)을 참조하세요.
+한 번에 여러 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
+
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**로 이동한 다음 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
+2. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
+3. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.  
 
 또는 다음을 수행할 수도 있습니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 할당 하려는 정책으로 이동 합니다. 예를 들면 다음과 같습니다.
-    - **음성** > **통화 정책**으로 이동한 다음 **DisallowCalling**를 클릭 합니다.
-    - **모임** > **모임 정책**으로 이동한 다음 **AllOff**를 클릭 합니다.
+    - **음성**  >  **통화 정책**으로 이동한 다음 **DisallowCalling**를 클릭 합니다.
+    - **모임**  >  **모임 정책**으로 이동한 다음 **AllOff**를 클릭 합니다.
 3. **사용자 관리**를 선택합니다.
 4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가**를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
@@ -289,7 +293,7 @@ Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 통화 및 모�
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터를 사용 하 여 정책 할당
 
-AllowCalling 호출 정책 및 AllOn meeting policy를 사용자에 게 할당 하려면 다음 단계를 따릅니다.
+AllowCalling 호출 정책 및 AllOn meeting policy를 사용자에 게 할당 하려면 다음을 수행 합니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동 합니다.
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
@@ -298,13 +302,17 @@ AllowCalling 호출 정책 및 AllOn meeting policy를 사용자에 게 할당 �
     2.  **모임 정책**에서 **allon**을 클릭 합니다.
 4. **적용**을 클릭 합니다.
 
-한 번에 여러 사용자에게 정책을 할당하려면 [Teams 사용자 설정을 일괄 편집](edit-user-settings-in-bulk.md)을 참조하세요.
+한 번에 여러 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
+
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**로 이동한 다음 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
+2. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
+3. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.  
 
 또는 다음을 수행할 수도 있습니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 할당 하려는 정책으로 이동 합니다. 예를 들면 다음과 같습니다.
-    - **음성** > **통화 정책**으로 이동한 다음 **allowcalling**를 클릭 합니다.
-    - **모임** > **모임 정책**으로 이동한 다음, **allon**을 클릭 합니다.
+    - **음성**  >  **통화 정책**으로 이동한 다음 **allowcalling**를 클릭 합니다.
+    - **모임**  >  **모임 정책**으로 이동한 다음, **allon**을 클릭 합니다.
 3. **사용자 관리**를 선택합니다.
 4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가**를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
@@ -361,7 +369,7 @@ VDI와 관련 되지 않은 팀의 알려진 문제점은 [조직의 지원 팀]
 
 VDA 및 CWA 문제를 해결 하는 방법에 대 한 자세한 내용은 [이 Citrix 웹 사이트](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)를 참조 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [MSI를 사용 하 여 Microsoft 팀 설치](msi-deployment.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

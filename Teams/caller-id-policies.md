@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 발신자 ID 정책을 사용 하 고 관리 하 여 조직에서 팀 사용자의 발신자 ID를 변경 하거나 차단 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a4dbdbac0922bb475f47447a3cf8b2d0f001909c
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: dde534d0c74b11b3c3131a7d5c9eb8611135f70f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224261"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349782"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft 팀의 발신자 ID 정책 관리
 
@@ -67,17 +67,21 @@ ms.locfileid: "44224261"
 
 ## <a name="assign-a-custom-caller-id-policy-to-users"></a>사용자에 게 사용자 지정 발신자 ID 정책 할당
 
-Microsoft 팀 관리 센터를 사용 하 여 한 명 이상의 사용자 또는 비즈니스용 Skype PowerShell 모듈에 사용자 지정 정책을 할당 하 여 보안 그룹 또는 메일 그룹과 같은 사용자 그룹에 사용자 지정 정책을 할당할 수 있습니다.
+Microsoft 팀 관리 센터를 사용 하 여 한 명 이상의 사용자 또는 비즈니스용 Skype PowerShell 모듈에 사용자 지정 정책을 할당 하 여 그룹의 사용자에 게 보안 그룹 또는 메일 그룹과 같은 사용자 지정 정책을 할당할 수 있습니다.
 
-### <a name="assign-a-custom-caller-line-id-policy-to-a-user"></a>사용자에 게 사용자 지정 발신자 줄 ID 정책 할당
+### <a name="assign-a-custom-caller-line-id-policy-to-users"></a>사용자에 게 사용자 지정 발신자 줄 ID 정책 할당
+
+한 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
 2. **정책을**클릭 한 다음 **할당 된 정책**옆에 있는 **편집**을 클릭 합니다.
 3. **발신자 ID 정책**에서 할당할 정책을 선택한 다음 **저장**을 선택 합니다.
 
-### <a name="assign-a-custom-calling-line-id-policy-to-multiple-users-at-a-time"></a>사용자 지정 전화 회선 ID 정책을 한 번에 여러 사용자에 게 할당
+한 번에 여러 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
 
-사용자 지정 전화 회선 Id 정책을 한 번에 여러 사용자에 게 할당 하려면 [팀 사용자 설정을 일괄적으로 편집](edit-user-settings-in-bulk.md)을 참조 하세요.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**로 이동한 다음 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
+2. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
+3. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.  
 
 또는 다음을 수행할 수도 있습니다.
 
@@ -113,4 +117,4 @@ $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Cal
  ## <a name="related-topics"></a>관련 항목
 
 - [새로운 CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
-
+- [팀에서 사용자에 게 정책 할당](assign-policies.md)
