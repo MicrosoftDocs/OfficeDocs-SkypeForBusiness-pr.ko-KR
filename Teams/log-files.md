@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 생성 하는 디버그, 미디어, 데스크톱 로그, 찾을 수 있는 위치, 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c8da7e60e785d765e77e17935b60382e864a83b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833378"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374206"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft 팀 문제 해결에서 로그 파일 사용
 =================================================
@@ -41,9 +41,9 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 
 |클라이언트 |디버깅이|데스크톱이|미디어|
 |---------|---------|---------|---------|
-|웹    |축         |-         |-         |
-|창을     |축         |축         |축         |
-|Mac OSX     |축         |축         |축         |
+|웹    |X         |-         |-         |
+|Windows     |X         |X         |X         |
+|Mac OSX     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -74,7 +74,7 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 
 디버그 로그는 다음 폴더에 자동으로 다운로드 됩니다.
 
--   Windows:% userprofile%\\다운로드
+-   Windows:% userprofile% \\ 다운로드
 
 -   Mac OSX: 다운로드
 
@@ -88,9 +88,9 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 
 |클라이언트 |위치 |
 |---------|---------|
-|창을     |%appdata%\Microsoft\Teams\media-stack\\* 블로그         |
-|            |%appdata%\Microsoft\Teams\skylib\\* 블로그
-|            |%appdata%\Microsoft\Teams\media-stack\\* .etl         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack \\ * 블로그         |
+|            |%appdata%\Microsoft\Teams\skylib \\ * 블로그
+|            |%appdata%\Microsoft\Teams\media-stack \\ * .etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/팀/media-stack/* 블로그         |
 |            |~/Library/Application Support/Microsoft/팀/skylib/* 블로그         |
 
@@ -103,7 +103,7 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 
 창을
 
-1.  응용 프로그램 트레이에서 **Microsoft 팀 아이콘** 을 마우스 오른쪽 단추로 클릭 하 고 **로그 가져오기를** 선택 합니다.
+1.  시스템 트레이에서 **Microsoft 팀 아이콘** 을 마우스 오른쪽 단추로 클릭 하 고 **로그 가져오기를** 선택 합니다.
 
 Mac OsX:
 
@@ -111,5 +111,5 @@ Mac OsX:
 
 |클라이언트 |위치 |
 |---------|---------|
-|창을     |%appdata%\Microsoft\Teams\logs.txt         |
+|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application 지원/Microsoft/팀/로그. t e         |

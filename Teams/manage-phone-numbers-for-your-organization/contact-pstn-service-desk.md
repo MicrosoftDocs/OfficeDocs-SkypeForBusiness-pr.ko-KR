@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직에 대 한 전화 번호 또는 포팅 (전송) 번호를 받고 있는 경우 PSTN 서비스 데스크에서 도움말 및 지원을 받아야 할 수 있습니다.
-ms.openlocfilehash: f9dd45f70a0e233f22fbbe607731d65146c705f7
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006014"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374276"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN 서비스 데스크 연락처
 
@@ -38,6 +38,7 @@ PSTN 서비스 데스크 팀에는 다음 표에 나와 있는 지원에 대 한
 |:-----:|:------:|
 | [**미국 또는 캐나다 내**에 ptn@microsoft.com에서 전자 메일 보내기](mailto:ptn@microsoft.com)| [**벨기에, 프랑스, 독일, 위대한 영국, 아일랜드, 네덜란드, 스페인, 스웨덴, 스위스**, ptneu@microsoft.com에서 전자 메일 보내기](mailto:ptneu@microsoft.com)|
 |[**미국 또는 캐나다 외**에는 ptneu@microsoft.com에서 전자 메일을 보내 주십시오.](mailto:ptneu@microsoft.com)| [**전 세계의**gcstnmsd@microsoft.com를 전자 메일로 보내 주십시오.](mailto:gcstnmsd@microsoft.com)|
+|받는 요청의 크기가 큰 스파이크 때문에 **북미 포팅 팀** 은 백로그입니다. 이 백로그를 FIFO (선입 선출)에 따라 제거 하 고, 결과적으로 **새 요청에 대 한 응답이 지연 됩니다.**|
 
 **Microsoft 팀에 기존 전화 번호를 전송/포팅 하**는 데 도움이 필요한 경우 최대한 많은 세부 정보를 포함 하세요.
   - [조직 ID (테 넌 트 id) 또는 현재 활성 상태인 Microsoft 도메인](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
@@ -57,7 +58,7 @@ PSTN 서비스 데스크 팀에는 다음 표에 나와 있는 지원에 대 한
 - 올바른 형식의 전화 번호를 선택 하는 방법에 대 한 자세한 내용은 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)를 참조 하세요.
 - 조직의 전화 번호를 설정 하는 방법에 대 한 도움말을 얻으려면 읽기: [비즈니스 제품에 대 한 지원 연락처-관리 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)을 참조 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

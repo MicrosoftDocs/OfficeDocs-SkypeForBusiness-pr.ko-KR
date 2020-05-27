@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e34bc0b15186afdbbe33edb154f02b4decdc3b12
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140679"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374306"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성 이해
 
@@ -82,6 +82,8 @@ ms.locfileid: "43140679"
 **팀 전용** 사용자 ( *업그레이드* 된 사용자 라고도 함)는 팀의 모든 기능에 액세스할 수 있습니다. 업그레이드 되지 않은 사용자나 외부 사용자가 구성한 비즈니스용 Skype에서 비즈니스용 skype 클라이언트를 유지 하 여 모임에 참가할 수 있습니다. 업그레이드 된 사용자는 비즈니스용 skype (비즈니스용 skype 사용자가 **아일랜드** 모드에 있지 않은 경우)의 상호 운용성 기능을 사용 하 여 비즈니스를 계속 사용 중인 조직의 다른 사용자와 계속 통신할 수 있습니다. 그러나 업그레이드 된 사용자는 비즈니스용 Skype 채팅, 통화 또는 모임을 시작할 수 없습니다.
 
 조직에서 일부 또는 모든 사용자가 팀을 유일한 통신 및 공동 작업 도구로 사용할 준비가 되는 즉시 해당 사용자를 **팀 전용** 모드로 업그레이드할 수 있습니다. **아일랜드** 모드에서 업그레이드 하는 경우 업그레이드 프로세스를 시작 하기 전에 조직 전체에 팀을 처음부터 다시 채택 하는 것을 권장 합니다. 이렇게 하면 상호 운용성을 제공 하지 않는 **아일랜드** 모드 때문에 통신 시나리오가 중단 되지 않습니다.
+
+**팀 전용** 모드인 경우, 팀은 SIP/Tel 프로토콜에 대 한 기본 앱입니다. 이는 통화 또는 채팅을 위해 Outlook에서 사용자의 연락처 카드에 있는 링크를 팀에서 처리 한다는 의미입니다.
 
 **팀 전용** 모드로 전환 하는 방법에 대 한 추가 고려 사항은 [팀 전용 모드 고려 사항](teams-only-mode-considerations.md)을 참조 하세요.
 
@@ -204,7 +206,7 @@ Skype for Business의 interop 및 interop 에스컬레이션이 월 C2R의 2019 
  
 한편, 비즈니스용 Skype 사용자는 모임 링크가 포함 된 메신저 대화 메시지를 받고 참가 하도록 안내 합니다.
 
-이 팀 확대는 테 넌 트 interop와 테 넌 트 간 페더레이션 통화 및 채팅 모두에 대해 사용할 수 있습니다. 이 기능은 기본적으로 설정 되어 있으며 관리자가 프로 비전 하는 데는 아무런 영향을 미치지 않습니다. 그러나 관리자가을 ( ``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy`` 를 ``$false``) 설정한 경우에는 사용자에 대해이 옵션이 해제 됩니다.
+이 팀 확대는 테 넌 트 interop와 테 넌 트 간 페더레이션 통화 및 채팅 모두에 대해 사용할 수 있습니다. 이 기능은 기본적으로 설정 되어 있으며 관리자가 프로 비전 하는 데는 아무런 영향을 미치지 않습니다. 그러나 관리자가 ``-AllowPrivateMeetNow`` 을 (를) 설정한 경우에는 사용자에 대해이 옵션이 해제 됩니다 ``CsTeamsMeetingPolicy`` ``$false`` .
 
 이 문서를 검토 한 후에는 [업그레이드 여행](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [마이그레이션 및 상호 운용성 지침](https://aka.ms/SkypeToTeams-Interop), 비즈니스용 [Skype를 사용 하 여 공존](coexistence-chat-calls-presence.md), 구현 세부 정보에 대 한 [공존 및 업그레이드 설정의 설정을](https://aka.ms/SkypeToTeams-SetCoexistence) 참조 하세요.
 
