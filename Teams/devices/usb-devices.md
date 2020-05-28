@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Microsoft 팀에 대해 인증 된 헤드셋, 스피커폰, 웹캠, 모니터 등의 USB 주변 기기와 장치에 대해 알아봅니다.
-ms.openlocfilehash: 8ecb8fcd065cb43c37fa4c55cc5b7106218d6eca
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
+ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281789"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407410"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft 팀에 인증 된 USB 오디오 및 비디오 장치
 
@@ -74,10 +74,16 @@ ms.locfileid: "44281789"
 
 ## <a name="certified-devices"></a>인증 된 장치
 
-*2020 년 4 월 업데이트*
+*업데이트 된 테이블 5 월 2020*
 
 | 제조업체    | Model                   | 갖춘  | 인증 된 프로그램                                  |
 |:----------------|:------------------------|:-----------|:---------------------------------------------------|
+|Jabra             |Jabra 링크 370 USB 동글으로 말하기 750 스피커폰|5/21/2020 | Microsoft 팀 인증  | 
+|EPOS              | 660 헤드셋 Sennheiser |5/15/2020 |Microsoft 팀 인증  | 
+|EPOS              | 560 헤드셋 Sennheiser|5/15/2020 |Microsoft 팀 인증  | 
+|EPOS              | Sennheiser 460T 헤드셋에 적응 |5/15/2020 |Microsoft 팀 인증  | 
+|EPOS              | 360 헤드셋 Sennheiser| 5/15/2020 |Microsoft 팀 인증  | 
+|옛 alink           |UH36 헤드셋 | 5/13/2020 |Microsoft 팀 인증  | 
 | Poly            | Savi 8210 Office        | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
 | Poly            | Savi 8210 UC            | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
 | Poly            | Savi 8220 Office        | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |

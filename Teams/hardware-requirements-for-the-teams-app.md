@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams의 하드웨어 요구 사항
-ms.reviewer: ''
+ms.reviewer: microthk
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e6b61a610d01a50d09af77c626001ca2aff5918
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 9c37bc3aa89a92cf4fdd1e870f49653c8915355e
+ms.sourcegitcommit: d675569fe51c20d0ad1b9855191297530f922d75
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224121"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385989"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -86,6 +86,7 @@ ms.locfileid: "44224121"
 - iOS: iPhone, iPad 및 iPod touch와 호환됩니다.
 
   최근 두 개의 주 버전 iOS로 지원이 제한됩니다. 신규 주 버전의 iOS가 릴리스될 때 iOS 새 버전과 이전 버전이 공식적으로 지원 됩니다.
+  선택적 **흐림 효과 내 배경** 영상 통화에는 ios 12 이상 버전의 운영 체제가 필요 하며, iPhone 7 이상, iPad 2018 (6 세대) 이상, iPod touch 2019 (7 세대)와 호환 됩니다.
 
 Teams에서 최상의 환경을 활용하려면 최신 버전의 iOS 및 Android를 사용하세요.
 
