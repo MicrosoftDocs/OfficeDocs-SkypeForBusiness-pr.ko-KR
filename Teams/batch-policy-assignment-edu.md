@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 일괄 처리 정책 할당을 사용 하 여 원격 학교 (teleschool, tele) 용도의 교육 기관에 대규모 사용자 집합에 정책을 할당 하는 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 5772a260642b09232e4df5eec57751a39ec2a74a
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033362"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410443"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>학교에서 대규모 사용자 집합에 정책 할당
 
@@ -108,10 +108,8 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 ## <a name="assign-a-policy-in-bulk"></a>대량으로 정책 할당
 
-이제 사용자에 게 적절 한 정책을 대량으로 할당 합니다. 정책을 할당 하거나 업데이트 하는 데 사용할 수 있는 최대 사용자 수는 한 번에 2만입니다. 예를 들어 2만 개 이상의 직원과 교육자가 있는 경우 여러 일괄 처리를 제출 해야 합니다.
+이제 사용자에 게 적절 한 정책을 대량으로 할당 합니다. 정책을 할당 하거나 업데이트 하는 데 사용할 수 있는 최대 사용자 수는 한 번에 5000입니다. 예를 들어 5000 개 이상의 직원과 교육자가 있는 경우 여러 일괄 처리를 제출 해야 합니다.
 
-> [!IMPORTANT]
-> 현재는 5000 사용자를 한 번에 일괄적으로 할당 하는 것을 제안 하 고 있습니다. 이러한 시간을 연장 하는 동안에는 처리 시간이 지연 될 수 있습니다. 이 늘어난 처리 시간에 대 한 영향을 최소화 하기 위해 최대 5000 사용자에 대 한 작은 일괄 처리 크기를 제출 하 고 이전 작업을 완료 한 후에 각 일괄 처리를 제출 하는 것이 좋습니다. 업무 시간 외에 일괄 처리를 제출 하는 것도 도움이 될 수 있습니다.
 
 다음을 실행 하 여 EducatorMeetingPolicy 이라는 모임 정책을 교직원 및 교육자에 게 할당 합니다.
 
@@ -120,7 +118,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> TeamsMessagingPolicy와 같이 대량으로 다른 정책 유형을 할당 하려면 할당할 정책 및 ```PolicyType``` ```PolicyName``` 정책 이름으로 변경 해야 합니다.
+> TeamsMessagingPolicy와 같이 대량으로 다른 정책 유형을 할당 하려면 ```PolicyType``` 할당할 정책 및 ```PolicyName``` 정책 이름으로 변경 해야 합니다.
 
 ## <a name="get-the-status-of-a-bulk-assignment"></a>대량 배정 상태 가져오기
 
@@ -130,13 +128,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
 ```
 
-일괄 작업에서 각 사용자의 할당 상태를 보려면 다음을 실행 합니다. 각 사용자에 대 한 세부 정보 ```UserState``` 는 속성에 있습니다.
+일괄 작업에서 각 사용자의 할당 상태를 보려면 다음을 실행 합니다. 각 사용자에 대 한 세부 정보는 속성에 있습니다 ```UserState``` .
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
-## <a name="assign-a-policy-in-bulk-if-you-have-more-than-20000-users"></a>2만 명 이상의 사용자가 있는 경우 대량으로 정책 할당
+## <a name="assign-a-policy-in-bulk-if-you-have-more-than-5000-users"></a>5000 명 이상의 사용자가 있는 경우 대량으로 정책 할당
 
 먼저 다음을 실행 하 여 보유 하 고 있는 교직원 및 강사 수를 확인 합니다.
 
@@ -144,13 +142,13 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8
 $faculty.count
 ```
 
-사용자 Id의 전체 목록을 제공 하는 대신 다음을 실행 하 여 첫 번째 2만을 지정 하 고 다음 2만 등
+사용자 Id의 전체 목록을 제공 하는 대신 다음을 실행 하 여 첫 번째 5000을 지정 하 고 다음 5000 등
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-전체 사용자 목록에 도달할 때까지 사용자 Id의 범위를 변경할 수 있습니다. 예를 들어 첫 ```$faculty[0..19999``` 번째 일괄 처리를 입력 하 ```$faculty[20000..39999``` 고 두 번째 일괄 처리에 ```$faculty[40000..59999``` 대해, 세 번째 일괄 처리에 대해 enter 키를 사용 합니다.
+전체 사용자 목록에 도달할 때까지 사용자 Id의 범위를 변경할 수 있습니다. 예를 들어 첫 번째 일괄 처리를 입력 하 고 두 번째 일괄 처리에 대해 ```$faculty[0..4999``` ```$faculty[5000..9999``` , ```$faculty[10000..14999``` 세 번째 일괄 처리에 대해 enter 키를 사용 합니다.
 
 ## <a name="get-the-policies-assigned-to-a-user"></a>사용자에 게 할당 된 정책 가져오기
 

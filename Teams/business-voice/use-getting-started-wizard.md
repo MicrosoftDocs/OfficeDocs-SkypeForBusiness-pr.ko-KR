@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898133"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412625"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>시작 마법사를 사용하여 Business Voice 설정하기
 
@@ -37,6 +37,8 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
 
 > [!IMPORTANT]
 > Microsoft Teams와 Business Voice는 사용자의 사서함이 Microsoft 365에 있는 경우에만 사용할 수 있습니다.  온-프레미스 Exchange 서버의 사서함은 지원하지 않습니다.
+>
+> 시작 마법사에서는 비즈니스용 Skype 하이브리드 배포를 지원하지 않습니다. 비즈니스용 Skype 하이브리드 배포가 있고 비즈니스 음성을 설정하려는 경우 [조직에서 전화 시스템 설정](../setting-up-your-phone-system.md)을 확인하세요.
 
 <!-- After you've finished the wizard, you may want to check out the following articles:
 

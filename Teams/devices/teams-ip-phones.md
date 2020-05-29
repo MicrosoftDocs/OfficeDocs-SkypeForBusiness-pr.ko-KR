@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
-ms.openlocfilehash: ceb1a1a0a6668b09c51713bac539b0916aaab838
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 37fd96db69b456ac5659cc430da19d2aad6fa560
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281784"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412635"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -65,9 +65,9 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 
 다음 공동 작업 모음은 Microsoft 팀에 대해 인증 됩니다.
 
-|공동 작업 표시줄 모델|펌웨어 버전|릴리스 날짜 |
-|:---|:---|:---|
-|옛 alink VC210| 118.15.0.14|2020 년 2 월|
+|공동 작업 표시줄 모델|펌웨어 버전|릴리스 날짜 |방 크기 (최대)|
+|:---|:---|:---|:---|
+|옛 alink VC210| 118.15.0.14|2020 년 2 월|포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m)|
 
 이러한 장치에서 지원 되는 기능에 대 한 정보는 [Microsoft 팀 전화 기능 집합](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) 을 참조 하세요.
 

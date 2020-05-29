@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 팀 사용자와 Skype (소비자) 사용자 간의 상호 운용성 기능에 대해 알아봅니다.
 localization_priority: Normal
-ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749555"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410433"
 ---
 # <a name="teams-and-skype-interoperability"></a>팀 및 Skype 상호 운용성
 
@@ -68,17 +68,17 @@ Skype 사용자는 전자 메일 주소를 사용 하 여 팀 사용자와 채�
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>팀 사용자가 Skype 사용자와 통신할 수 있는지 여부 설정
 
-관리자는 Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 조직의 사용자가 Skype 사용자와 통신할 수 있는지 여부를 제어 하는 외부 액세스 설정을 설정 합니다. 기본적으로이 접근 권한 값은 새 테 넌 트에 대해 꺼집니다.
+관리자는 Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 조직의 사용자가 Skype 사용자와 통신할 수 있는지 여부를 제어 하는 외부 액세스 설정을 설정 합니다. 기본적으로이 접근 권한 값은 새 테 넌 트에 대해 설정 되어 있습니다.
 
 비즈니스용 Skype에서 팀으로 업그레이드 한 경우 비즈니스용 Skype 관리 센터에서 구성한 외부 통신 설정이 팀으로 마이그레이션됩니다.
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서
 
-Microsoft 팀 관리 센터에서 **조직 전체 설정** > **외부 액세스**로 이동한 다음 **사용자가 Skype 사용자와 통신할 수**있도록 설정 합니다. 이 및 다른 외부 액세스 설정을 구성 하는 방법에 대 한 단계별 지침은 [팀에서 외부 액세스 관리](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)를 참조 하세요.
+Microsoft 팀 관리 센터에서 **조직 전체 설정**  >  **외부 액세스**로 이동한 다음 **사용자가 Skype 사용자와 통신할 수**있도록 설정 합니다. 이 및 다른 외부 액세스 설정을 구성 하는 방법에 대 한 단계별 지침은 [팀에서 외부 액세스 관리](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)를 참조 하세요.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-[Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet을 ```EnablePublicCloudAccess``` 매개 변수와 함께 사용 하 여 팀 사용자가 Skype 사용자와 통신할 수 있는지 여부를 제어 합니다. 팀 사용자가 Skype ```true``` 사용자와 통신할 수 있도록 매개 변수를 설정 합니다. 이 ```EnablePublicCloudAudioVideoAccess``` 매개 변수를 사용 하 여 오디오/비디오 통화를 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet을 매개 변수와 함께 사용 ```EnablePublicCloudAccess``` 하 여 팀 사용자가 Skype 사용자와 통신할 수 있는지 여부를 제어 합니다. ```true```팀 사용자가 Skype 사용자와 통신할 수 있도록 매개 변수를 설정 합니다. 이 ```EnablePublicCloudAudioVideoAccess``` 매개 변수를 사용 하 여 오디오/비디오 통화를 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

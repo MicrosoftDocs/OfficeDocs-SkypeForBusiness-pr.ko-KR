@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219838"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410473"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 
@@ -160,9 +160,9 @@ CQD Power BI 커넥터는 생성할 수 있는 쿼리 종류의 측면에서 브
 
 Beta 태그에는 불구 하 고 Power BI 용 통화 음질 커넥터는 해당 커넥터의 릴리스 버전이 며, Power BI 팀이이를 반영 하도록 서명 된 공식적 보안입니다. 해당 베타 태그를 제거 하는 인증 프로세스는 광범위 한 기능 이므로 Power BI 팀에서 커넥터에 대 한 직접 지원을 제공 해야 합니다. 시간 제약으로 인해 현재 Power BI 팀은 지원 및 광범위 한 인증을 제공할 수는 없지만 Microsoft 통화 품질 커넥터의 보안, 인증, 일반 기능을 증명할 준비가 되어 있습니다.
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>브라우저의 고급 CQD 보다 커넥터가 느리게 보이는 이유는 무엇 인가요? 성능을 향상 시키기 위해 수행할 수 있는 작업
+### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>브라우저에서 커넥터가 고급 CQD 보다 더 느리게 보이는 이유는 무엇 인가요? 성능을 향상 시키기 위해 수행할 수 있는 작업
 
-다양 한 서식 파일에 대 한 쿼리 성능은 브라우저와 커넥터에서 실제로 동일 합니다. 차이점은 실행 되는 동시 쿼리 수에 있습니다. CQD의 브라우저 내장 버전에는 잘 개발 되 고 정보 집적형 시각화 옵션이 있으므로, 대부분의 보고서는 한 번에 2-3 쿼리를 로드 하는 것으로 제한 되었습니다. 반면 커넥터 템플릿은 종종 20 + 동시 쿼리를 표시 합니다. 이전에 사용한 것 처럼 반응 하는 보고서를 작성 하려면 탭 당 2-3 개 이하의 쿼리를 사용 하 여 보고서를 만들어 보세요.
+다양 한 서식 파일에 대 한 쿼리 성능은 브라우저와 커넥터에서 실제로 동일 합니다.  다른 독립 실행형 앱과 마찬가지로 Power BI는 자신의 인증 및 렌더링 시간을 성능에 추가 합니다. 또한 동시에 실행 되는 쿼리 수가 달라 집니다. CQD의 브라우저 내장 버전에는 잘 개발 되 고 정보 집적형 시각화 옵션이 있으므로, 대부분의 보고서는 한 번에 2-3 쿼리를 로드 하는 것으로 제한 되었습니다. 반면 커넥터 템플릿은 종종 20 + 동시 쿼리를 표시 합니다. 이전에 사용한 것 처럼 반응 하는 보고서를 작성 하려면 탭 당 2-3 개 이하의 쿼리를 사용 하 여 보고서를 만들어 보세요.
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>쿼리를 실행할 때 1만 행의 한도를 정기적으로 실행 한다는 것을 발견 했습니다. 연결선을 1만 개 이상의 행으로 반환 하려면 어떻게 하나요?
 

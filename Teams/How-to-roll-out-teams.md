@@ -21,17 +21,17 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cb1178771ad0616a28fcc9e8a22c08b2851c4cf
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 74764b2a785835b9dfb65bedf3eb67db0e1109af
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904880"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410423"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Microsoft Teams를 배포하는 방법
 
 ## <a name="start-here"></a>여기에서 시작
-중소기업이든 다국적 기업이든, [시작하기](get-started-with-teams-quick-start.md)에서 Teams 배포를 시작해 보세요. 중소기업이거나, **원격 작업자**를 지원하기 위한 첫 번째 Office 365 워크로드로서 Teams를 빠르게 배포하는 경우 등 중소 규모 Teams 배포 과정에서 사용자에게 필요한 모든 내용을 안내해 줄 수 있습니다. 대규모 조직인 경우 [시작하기](get-started-with-teams-quick-start.md)를 사용하여 초기 구성 그룹을 사용하여 Teams를 시범 운영하여 Teams에 대해 알아보고 조직 전체 배포 계획을 시작할 수 있습니다. 
+중소기업이든 다국적 기업이든, [시작하기](get-started-with-teams-quick-start.md)에서 Teams 배포를 시작해 보세요. 중소기업인 경우 또는 **원격 작업자**를 지원하기 위해 첫 번째 Office 365 워크로드로 Teams를 신속하게 배포하는 경우 사용자에게 필요할 수 있는 소규모 Teams 배포에 대해 안내합니다. 대규모 조직인 경우 [시작하기](get-started-with-teams-quick-start.md)를 사용하여 초기 구성 그룹을 사용하여 Teams를 시범 운영하여 Teams에 대해 알아보고 조직 전체 배포 계획을 시작할 수 있습니다. 
 
 ## <a name="recommended-path-to-teams"></a>Teams에 대한 권장 경로
 
