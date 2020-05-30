@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a6a1e54d677436b2441e9174cc265eb67b7664d2
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902273"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416748"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>비즈니스용 Skype에서 팀으로 업그레이드 여행 선택
 
@@ -104,7 +104,7 @@ TeamsOnly의 관점에서 새 대화를 사용 하는 경우, 채팅 또는 통�
 | 수신 되는 채팅 및 통화:|  비즈니스를 위한 팀 또는 비즈니스용 Skype | Teams |
 | 다음에 수신 된 PSTN 통화: | 비즈니스용 Skype <br>(팀에서 PSTN 기능 사용은 군도 모드에서 지원 되지 않습니다.)     | Teams |   
  |현재 상태    | 비즈니스용 Skype와 팀의 현재 상태는 독립적입니다. 사용자는 사용 하는 클라이언트에 따라 동일한 제도 사용자에 대해 다른 상태가 표시 될 수 있습니다. | 현재 상태는 팀의 사용자 활동만을 기반으로 합니다. 사용 하는 클라이언트에 관계 없이 다른 모든 사용자가 현재 상태를 볼 수 있습니다. | 
- | 모임 예약    | 사용자는 팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다. Outlook에서 두 추가 기능을 모두 볼 수 있습니다.    |     사용자는 팀 에서만 모임을 예약할 수 있습니다. Outlook에서는 팀 추가 기능만 사용할 수 있습니다. | 
+ | 모임 예약    | 사용자는 팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다. 기본적으로 Outlook에는 두 추가 기능이 모두 표시 됩니다. 사용자가 팀 모임 추가 기능을 사용할 수 있는지, 팀 모임이 나 비즈니스용 Skype 모임 추가 기능을 모두 사용 하도록 팀 모임 정책을 설정할 수 있습니다 (**곧 출시 예정**). 자세한 내용은 [아일랜드 모드에서 사용자에 대 한 모임 제공자 설정을](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)참조 하세요. |     사용자는 팀 에서만 모임을 예약할 수 있습니다. Outlook에서는 팀 추가 기능만 사용할 수 있습니다. | 
 
 다음 표에는 조직에서 팀으로 마이그레이션하는 데 겹치는 기능 방법을 사용할 때의 장단점을 요약 하 여 설명 합니다.
 

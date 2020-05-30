@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft 팀 대화방의 다양 한 통화 및 모임 기능에 대 한 사용 가능한 라이선스에 대해 알아봅니다.
-ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064493"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416848"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>팀 회의실 라이선스 업데이트
 
@@ -67,7 +67,7 @@ Microsoft는 회의실 장치 (microsoft 팀 회의실, Microsoft Surface Hub, M
 |예약 된 모임 참가  | 회의실 SKU  |비즈니스용 Skype 서버 표준 CAL  |
 |임시 모임 시작 | 회의실 SKU  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype Server Enterprise CAL|
 |모임에서 전화를 걸 때 임시 모임 시작 |  회의실 SKU |비즈니스용 Skype 표준 CAL  <br/> 비즈니스용 Skype Server Enterprise CAL|
-|채팅방에 전화 번호를 제공 하 고 채팅방에서 전화를 걸거나 받을 수 있습니다. 또는 전화번호를 사용 하 여 음성 회의에 참가할 수 있습니다.  | 회의실 SKU  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype 서버 및 CAL  |
+|채팅방에 전화 번호를 제공 하 고 채팅방에서 전화를 걸거나 받을 수 있습니다. 또는 전화번호를 사용 하 여 음성 회의에 참가할 수 있습니다.  | 직접 라우팅: 회의실 SKU<br/>직접 라우팅이 없는 경우: 국내 또는 국제 통화 요금제<br/>Microsoft 365 Business Voice  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype 서버 및 CAL  |
 |Microsoft Intune을 사용 하 여 채팅방 장치 관리 |회의실 SKU  |온 [-프레미스 MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) 이 있는 Microsoft Intune 구독 |
 | |||
 

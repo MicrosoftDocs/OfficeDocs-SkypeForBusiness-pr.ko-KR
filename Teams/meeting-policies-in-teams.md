@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374316"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416878"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -335,7 +335,7 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 
 회의 모임에서 leaderless 전화 걸기를 허용 하는 이끌이 별 정책입니다. 이 설정은 사용자가 전화 접속을 통해 조직에서 인증 된 사용자 없이 모임에 참가할 수 있는지 여부를 제어 합니다. 기본값은 False 이며, 사용자의 전화 접속은 조직의 인증 된 사용자가 모임에 참가할 때까지 대기실에서 대기 합니다. 
 
-**참고** False 인 경우 전화 접속 사용자가 모임에 먼저 참가 하 고 대기실에 배치 되 면 조직 사용자가 팀 클라이언트와 모임에 참가 하 여 사용자가 lobbby을 허용 해야 합니다. 사용자에 게 전화를 걸 수 있는 로비 컨트롤이 없습니다. 
+**참고** False 인 경우 전화 접속 사용자가 모임에 먼저 참가 하 고 대기실에 배치 된 경우 조직 사용자는 팀 클라이언트와 모임에 참가 하 여 사용자가 대기실에서 작업을 허용 해야 합니다. 사용자에 게 전화를 걸 수 있는 로비 컨트롤이 없습니다. 
 
 
 ### <a name="automatically-admit-people"></a>자동으로 사람들의 입장
@@ -346,7 +346,7 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 
  모임 이끌이는 모임 초대에서 **모임 옵션** 을 클릭 하 여 자신이 예약한 각 모임에 대해이 설정을 변경할 수 있습니다.
  
- **참고** 모임 옵션에서이 설정은 "대기실를 우회할 수 있는 사람" 레이블이 지정.
+ **참고** 모임 옵션에 "대기실를 무시할 수 있는 사람" 이라고 표시 된 설정
   
 |값 설정  |조인 동작 |
 |---------|---------|
@@ -406,6 +406,23 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 모임 이끌이가 모임 참석 보고서를 다운로드 하도록 설정 하려면 **AllowEngagementReport** 매개 변수를 **Enabled**로 설정 합니다. 이 설정을 사용 하면 **참가자** 창에 보고서를 다운로드 하는 옵션이 표시 됩니다.
 
 모임 이끌이가 보고서를 다운로드 하지 못하도록 하려면 매개 변수를 **Disabled**로 설정 합니다. 기본적으로이 설정은 비활성화 되어 있으며 보고서를 다운로드 하는 옵션을 사용할 수 없습니다.
+
+## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>모임 정책 설정-제도 모드의 모임 공급자
+
+**(곧 지원됨)**
+
+이것은 사용자별 정책입니다. 이 설정은 *아일랜드 모드에 있는 사용자*에 게 어떤 Outlook 모임 추가 기능을 사용 하는 지를 제어 합니다. 사용자가 팀 모임 추가 기능을 사용할 수 있는지, 팀 모임이 나 비즈니스용 Skype 모임 추가 기능을 모두 사용 하 여 Outlook에서 모임을 예약할 수도 있습니다.
+
+이 정책은 아일랜드 모드에 있는 사용자 에게만 적용할 수 있으며 팀 모임 정책에서 **AllowOutlookAddIn** 매개 변수를 **True** 로 설정 합니다.
+
+현재는 PowerShell을 사용 하 여이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용 하 여 기존 팀 모임 정책을 편집할 수 있습니다. 또는 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용 하 여 새 팀 모임 정책을 만들고 사용자에 게 할당 합니다.
+
+사용자에 게 제공 하려는 모임 추가 기능을 지정 하려면 다음과 같이 **PreferredMeetingProviderForIslandsMode** 매개 변수를 설정 합니다.
+
+- Outlook에서 팀 모임 추가 기능 및 비즈니스용 Skype 추가 기능을 모두 사용 하도록 매개 변수를 **TeamsAndSfB** 로 설정 합니다. 기본값입니다.
+- Outlook에서 팀 모임 추가 기능만 사용 하도록 매개 변수를 **Teamsonly** 설정 합니다. 이 정책 설정은 이후의 모든 모임에 팀 모임 참가 링크가 있는지 확인 합니다. 팀에 대 한 기존 비즈니스용 Skype 모임 참가 링크는 마이그레이션하지 않습니다. 이 정책 설정은 현재 상태, 채팅, PSTN 통화 또는 비즈니스용 Skype의 기타 기능에는 영향을 주지 않으며,이는 사용자가 이러한 기능을 위해 계속 해 서 비즈니스용 Skype를 사용 하는 것을 의미 합니다.
+
+  매개 변수를 **Teamsonly**으로 설정한 다음 **TeamsAndSfB**로 다시 전환 하면 두 모임 추가 기능이 모두 사용 됩니다. 그러나 기존 팀 모임 참가 링크는 비즈니스용 Skype로 마이그레이션되지 않습니다. 변경 후에 예약 된 비즈니스용 Skype 모임에는 비즈니스용 Skype 모임 참가 링크가 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

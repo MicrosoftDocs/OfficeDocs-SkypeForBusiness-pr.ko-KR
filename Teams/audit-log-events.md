@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88eda5d9acaeb876008b3eb35d38b348830cce48
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958413"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416738"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft 팀에서 이벤트 감사 로그 검색
 
@@ -34,7 +34,7 @@ ms.locfileid: "43958413"
 - 채널 추가 됨
 - 설정 변경 됨
 
-감사 되는 팀 활동의 전체 목록은 [팀 활동](#teams-activities)을 참조 하세요.
+감사 되는 팀 활동의 전체 목록은 팀 활동 및 [팀 활동 (미리 보기)](#shifts-in-teams-activities) [을 참조 하세요](#teams-activities) .
 
 > [!NOTE]
 > 개인 채널의 감사 이벤트도 팀 및 표준 채널의 경우에도 기록 됩니다.
@@ -59,7 +59,7 @@ ms.locfileid: "43958413"
 
 ## <a name="tips-for-searching-the-audit-log"></a>감사 로그를 검색 하기 위한 팁
 
-감사 로그에서 [팀 활동](#teams-activities) 을 검색 하는 방법에 대 한 팁은 다음과 같습니다.
+감사 로그에서 팀 활동을 검색 하는 방법에 대 한 팁은 다음과 같습니다.
 
 ![감사 로그 검색 페이지의 스크린샷](media/audit-log-search-page.png)
 
@@ -67,7 +67,7 @@ ms.locfileid: "43958413"
     ![감사 로그 검색 스크린샷](media/audit-log-search.png)
 - Cmdlet을 사용 하 여 실행 되는 활동에 대 한 이벤트를 표시 하려면 **활동** 목록의 **모든 활동에 대 한 결과 표시** 를 선택 합니다. 이러한 활동에 대 한 작업의 이름을 알고 있는 경우 모든 활동을 검색 한 다음 **활동** 열의 상자에 작업 이름을 입력 하 여 결과를 필터링 합니다. 자세히 알아보려면 [3 단계: 검색 결과 필터링](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)을 참조 하세요.
 - 현재 검색 조건을 지우려면 **지우기를**클릭 합니다. 날짜 범위는 최근 7 일의 기본값으로 반환 됩니다. 모두 지우기를 클릭 하 여 **모든 활동에 대 한 결과를 표시 하** 여 선택한 모든 활동을 취소할 수도 있습니다.
-- 5000 결과가 발견 되 면 검색 조건을 충족 하는 이벤트를 5000 개 이상 갖는 것으로 간주할 수 있습니다. 검색 조건을 구체화 하 고 검색을 다시 실행 하 여 더 적은 결과를 반환 하거나, 결과 **내보내기를** > **모든 결과 다운로드**를 선택 하 여 모든 검색 결과를 내보낼 수 있습니다.
+- 5000 결과가 발견 되 면 검색 조건을 충족 하는 이벤트를 5000 개 이상 갖는 것으로 간주할 수 있습니다. 검색 조건을 구체화 하 고 검색을 다시 실행 하 여 더 적은 결과를 반환 하거나, 결과 **내보내기를**  >  **모든 결과 다운로드**를 선택 하 여 모든 검색 결과를 내보낼 수 있습니다.
 
 오디오 로그 검색 사용에 대 한 [이 비디오](https://www.youtube.com/embed/UBxaRySAxyE) 를 확인 하세요. 팀에 대 한 감사 로그 검색을 수행 하는 방법을 보여 주는 방법으로, 팀원을 위한 프로그램 관리자 인 a Ansuman에 참가 합니다.
 
@@ -143,10 +143,45 @@ Microsoft 365 감사 로그에서 팀의 사용자 및 관리자 활동에 대�
 |업데이트 된 탭   |TabUpdated 됨         |사용자가 채널에서 탭을 수정 했습니다.         |
 |팀에 로그인 한 사용자     |TeamsSessionStarted 됨         |사용자가 Microsoft 팀 클라이언트에 로그인 합니다. 이 이벤트는 토큰 새로 고침 활동을 캡처하지 않습니다.         |
 
+## <a name="shifts-in-teams-activities"></a>팀 작업의 교대
+
+**(미리 보기)**
+
+조직에서 팀의 교대 근무 앱을 사용 하는 경우에는 교대 근무 앱과 관련 된 활동에 대 한 감사 로그를 검색할 수 있습니다. Microsoft 365 감사 로그에서 팀의 활동을 교대 하기 위해 기록 되는 모든 이벤트 목록은 다음과 같습니다.
+
+|친근 한 이름  |작업  |설명  |
+|---------|---------|---------|
+|예약 그룹 추가 됨      |SchedulingGroupAdded          |사용자가 일정에 새 일정 그룹을 성공적으로 추가 합니다.          |
+|일정 그룹 편집 됨     |SchedulingGroupEdited         |사용자가 일정 그룹을 편집 했습니다.          |
+|일정 그룹 삭제 됨         |SchedulingGroupDeleted              |사용자가 일정에서 일정 그룹을 성공적으로 삭제 했습니다.|
+|교대 근무 추가 됨      |ShiftAdded          |사용자가 shift를 성공적으로 추가 했습니다.           |
+|편집 된 교대 근무       |ShiftEdited       |사용자가 shift를 성공적으로 편집 했습니다.        |
+|교대 근무 삭제 됨          |ShiftDeleted          | 사용자가 shift를 성공적으로 삭제 했습니다.               |
+|휴가 추가      |TimeOffAdded 됨          |사용자가 일정에 시간을 추가 했습니다.          |
+|편집 시간 해제 됨         |TimeOffEdited 됨           |사용자가 휴가를 성공적으로 편집 했습니다.          |
+|삭제 된 시간 종료     |TimeOffDeleted              |사용자가 휴가를 성공적으로 삭제 했습니다.           |
+|열린 shift 추가     |OpenShiftAdded          |사용자가 일정 그룹에 열린 교대 근무를 성공적으로 추가 했습니다.          |
+|열린 shift 키를 편집 함    |OpenShiftEdited          |사용자가 일정 그룹에서 열려 있는 shift를 편집 했습니다.          |
+|열린 shift 키 삭제 됨      |OpenShiftDeleted          |사용자가 일정 그룹에서 열린 교대 근무를 삭제 했습니다.         |
+|공유 일정     |ScheduleShared                  |사용자가 날짜 범위에 대 한 팀 일정을 성공적으로 공유 했습니다.          |
+|시간 시계 사용 시 클럭         |ClockedIn          |사용자가 시간 시계를 사용 하는 시계가 성공적으로 표시 되었습니다.          |
+|시간 시계를 사용 하 여 클럭 끄기      |ClockedOut          |사용자가 시간 시계를 사용 하 여 시계를 표시 했습니다.          |
+|시간 시계를 사용 하 여 중단 시작      |간의 시작          |활성 시간 시계 세션 동안 사용자가 중단을 시작 했습니다.          |
+|시간 시계를 사용 하 여 중단 종료    |중단 종료          |활성 시간 시계 세션 동안 사용자가 중단을 종료 했습니다.          |
+|시간 시계 입력 추가 됨     |TimeClockEntryAdded          |사용자가 시간 시트에 새 수동 시간 시계 항목을 성공적으로 추가 합니다.          |
+|편집 된 시간 시계 항목     | TimeClockEntryEdited             |사용자가 시간 시트에서 시간 시계 항목을 편집 했습니다.          |
+|삭제 된 시간 시계 항목    |TimeClockEntryDeleted              |사용자가 시간 시트에서 시간 시계 항목을 성공적으로 삭제 했습니다.          |
+|교대 근무 요청 추가 됨         |RequestAdded 됨              |사용자가 shift 요청을 추가 했습니다.          |
+|교대 근무 요청에 응답 했습니다.     |RequestRespondedTo                  |사용자가 교대 요청에 응답 했습니다.          |
+|취소 된 교대 근무 요청         |RequestCanceled               |사용자가 교대 요청을 취소 했습니다.          |
+|일정 설정 변경      |ScheduleSettingChanged          |사용자가 이동 설정에서 설정을 변경 합니다.         |
+|추가 된 인적 자원 통합      |WorkforceIntegrationAdded                  | 교대 근무 앱이 타사 시스템과 통합 되어 있습니다.         |
+|교대 근무 메시지 수락 안 함         |OffShiftDialogAccepted          |교대 근무 시간 이후 팀에 액세스 하도록 사용자가 외부 shift 메시지를 승인 합니다.           |
+
 ## <a name="office-365-management-activity-api"></a>Office 365 관리 활동 API
 
 Office 365 관리 활동 API를 사용 하 여 팀 이벤트에 대 한 정보를 검색할 수 있습니다. 팀의 관리 활동 API 스키마에 대해 자세히 알아보려면 [팀 스키마](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api)를 참조 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Microsoft 365 준수 센터에서 감사 로그 검색](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)

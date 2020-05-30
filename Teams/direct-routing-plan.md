@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: e2bef46f65297cccc573f2e63dedda0e2aca61e7
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
+ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349602"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "44428955"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -234,7 +234,7 @@ FQDN sip.pstnhub.dod.teams.microsoft.us 다음 IP 주소 중 하나로 확인 �
 - 52.127.64.33
 - 52.127.68.34
 
-수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지 원하는 경우 FQDN sip.pstnhub.dod.teams.microsoft.us 이러한 모든 IP 주소를 확인 합니다. 
+수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.
 
 ### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High 환경
 
@@ -247,7 +247,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 다음 IP 주소 중 하나로 확인 �
 - 52.127.88.59
 - 52.127.92.64
 
-수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지 원하는 경우 FQDN sip.pstnhub.gov.teams.microsoft.us 이러한 모든 IP 주소를 확인 합니다. 
+수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.
 
 ## <a name="sip-signaling-ports"></a>SIP 신호: 포트
 

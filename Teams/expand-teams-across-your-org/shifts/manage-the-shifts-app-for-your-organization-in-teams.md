@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 745644c7a6cf2207412faacd78e7b5a26d7b754d
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349662"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416888"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 교대 근무 앱 관리
 
@@ -73,11 +73,27 @@ Firstlineworker 정책을 보려면 Microsoft 팀 관리 센터의 왼쪽 탐색
 
 ![FirstlineWorker 앱 설정 정책의 스크린샷](../../media/firstline-worker-app-setup-policy.png "Microsoft 팀 관리 센터의 FirstlineWorker 앱 설치 정책 스크린샷")
 
-#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>개별 사용자에 게 FirstlineWorker 정책 할당
+#### <a name="assign-the-firstlineworker-policy-to-users"></a>사용자에 게 FirstlineWorker 정책 할당
+
+한 명의 사용자에 게 FirstlineWorker 앱 설정 정책을 할당 하려면 다음을 수행 합니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
-2. **할당된 정책** 옆에서 **편집**을 선택합니다.
-3. **팀 앱 설정 정책**에서 **firstlineworker**를 선택 하 고 **저장**을 선택 합니다.
+2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
+3. **앱 설정 정책**에서 **firstlineworker**를 선택 하 고 **적용**을 클릭 합니다.
+
+한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
+
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자**로 이동한 다음, 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
+2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 표 맨 위에서 &#x2713;(확인 표시)를 클릭합니다.
+3. **설정 편집**을 클릭 하 **고 앱 설정 정책**에서 **Firstlineworker**를 선택한 다음 **적용**을 클릭 합니다.  
+
+또는 다음을 수행할 수도 있습니다.
+
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**  >  **설정 정책**으로 이동 합니다.
+2. 정책 이름 왼쪽을 클릭 하 여 FirstlineWorker 정책을 선택 합니다.
+3. **사용자 관리**를 선택합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
+5. 사용자 추가를 완료 한 후 **적용**을 선택 합니다.
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>그룹의 사용자 구성원에 FirstlineWorker 앱 설정 정책 할당
 
@@ -102,5 +118,15 @@ $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWor
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 
+## <a name="search-the-audit-log-for-shifts-events"></a>감사 로그에서 이동 이벤트 검색
+
+**(미리 보기)**
+
+감사 로그를 검색 하 여 조직의 교대 활동을 볼 수 있습니다.  감사 로그를 검색 하 고 감사 로그에 기록 되는 [교대 작업](../../audit-log-events.md#shifts-in-teams-activities) 의 목록을 확인 하는 방법에 대 한 자세한 내용은 [팀에서 이벤트에 대 한 감사 로그 검색](../../audit-log-events.md)을 참조 하세요.
+
+감사 로그를 검색 하려면 먼저 [보안 & 준수 센터](https://protection.office.com)에서 감사를 설정 해야 합니다. 자세히 알아보려면 [감사 로그 검색 설정 또는 해제](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)를 참조 하세요. 감사 데이터는 감사를 설정한 지점 에서만 사용할 수 있다는 점에 유의 하세요.
+
 ## <a name="related-topics"></a>관련 항목
+
 - [Firstline Worker에 대 한 도움말 이동](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [팀에서 사용자에 게 정책 할당](../../assign-policies.md)

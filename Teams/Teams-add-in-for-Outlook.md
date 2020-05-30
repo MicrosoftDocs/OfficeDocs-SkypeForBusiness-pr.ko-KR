@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349612"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416728"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -37,6 +37,7 @@ Teams 모임 추가 기능을 사용하면 사용자가 Outlook에서 Teams 모�
 ![Outlook 리본의 Teams 모임 추가 기능에 대한 스크린샷](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - 팀 추가 기능에 연결 되는 **직접적인 URL이 없습니다** .
 > - 조직에서 팀과 비즈니스용 Skype를 모두 실행 하는 경우에는 추가로 고려해 야 할 사항이 있습니다. 일부 경우에는 Outlook에서 팀 추가 기능을 사용할 수 없습니다. 자세한 내용은 비즈니스용 [Skype에서 팀으로 업그레이드를](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) 참조 하세요.
 > - 컴퓨터에 Teams 모임 추가 기능을 설치하려면 적어도 Regsvr32.exe 파일을 실행할 수 있는 사용자 권한이 필요합니다.
 > - 사용자가 Teams 모임 추가 기능을 볼 수 없는 경우 특정 순서에 따라 Outlook 및 Teams를 닫고 먼저 Teams 클라이언트를 다시 시작한 다음 Teams에 로그인하고 Outlook 클라이언트를 다시 시작하도록 안내를 받습니다.
@@ -65,6 +66,7 @@ Teams 모임 단추가 최신 Outlook iOS 및 Android 앱 빌드에 표시됩니
 사용자가 **보내기**를 클릭한 후 모임 좌표(Teams 참가 링크 및 전화 접속 번호)가 모임 초대에 추가됩니다.  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Teams 모임 추가 기능 및 Outlook용 시간 찾기
+
 FindTime은 사용자가 회사 간의 모임 시간에 합의에 도달할 수 있도록 돕는 Outlook 용 추가 기능입니다. 회의 초대 대상자가 선호하는 시간을 제공하면 시간 찾기가 사용자 대신 모임 초대장을 전송합니다. 시간 찾기에서 **온라인 모임** 옵션을 선택한 경우 시간 찾기가 비즈니스용 Skype 또는 Microsoft Teams 모임을 예약합니다. (시간 찾기는 조직에서 기본 온라인 모임 채널로 설정한 값을 사용합니다.)
 
 > [!NOTE]  
@@ -96,7 +98,9 @@ Teams 클라이언트는 사용자가 필요로 하는 버전이 32비트인지 
 
 고객은 [비즈니스용 Skype에서 Teams까지 업그레이드 여정을 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)할 수 있습니다. 테넌트 관리자는 Teams 동시 모드를 사용하여 사용자에게 이 여정을 정의할 수 있습니다. 테넌트 관리자에는 사용자가 비즈니스용 Skype와 함께 Teams를 사용하도록 허용하는 옵션이 있습니다(아일랜드 모드). 
 
-아일랜드 모드인 사용자가 Outlook에서 모임을 예약하면 사용자는 일반적으로 비즈니스용 Skype를 예약할지 Teams 모임을 예약할지 선택할 수 있을 것으로 예상합니다. 사용자가 아일랜드 모드이면 웹용 Outlook, Outlook Windows 및 Outlook Mac에서 비즈니스용 Skype와 Teams를 모두 볼 수 있습니다. 최초 릴리스의 일부 제한 사항으로 인해 Outlook 모바일은 비즈니스용 Skype **또는** Teams 모임 만들기만 지원할 수 있습니다. 자세한 내용은 다음 표를 참조하십시오.
+아일랜드 모드인 사용자가 Outlook에서 모임을 예약하면 사용자는 일반적으로 비즈니스용 Skype를 예약할지 Teams 모임을 예약할지 선택할 수 있을 것으로 예상합니다. 웹용 Outlook, Outlook Windows, Outlook Mac에서 사용자는 기본적으로 군도 모드에 있을 때 비즈니스용 Skype 및 팀 추가 기능을 모두 볼 수 있습니다. 팀 모임 정책 설정을 구성 하 여 아일랜드 모드의 사용자가 팀 회의 추가 기능을 사용할 수 있는지, 팀 회의 및 비즈니스용 Skype 모임 추가 기능을 둘 다 사용할지를 제어할 수 있습니다.
+
+최초 릴리스의 일부 제한 사항으로 인해 Outlook 모바일은 비즈니스용 Skype **또는** Teams 모임 만들기만 지원할 수 있습니다. 자세한 내용은 다음 표를 참조하십시오.
 
 | Teams 관리 센터의 동시 모드 | Outlook 모바일의 기본 모임 공급자 |
 | --------------------------------------|---------------------------------------------|
@@ -105,6 +109,14 @@ Teams 클라이언트는 사용자가 필요로 하는 버전이 32비트인지 
 | Teams 공동 작업이 포함된 비즈니스용 Skype | 비즈니스용 Skype |
 | Teams 공동 작업 및 모임이 포함된 비즈니스용 Skype | Teams |
 | Teams 전용 | Teams |
+
+### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>아일랜드 모드의 사용자가 팀 모임 추가 기능을 사용할 수 있는지 아니면 팀 모임 및 비즈니스용 Skype 모임 추가 기능을 둘 다 사용할지를 설정 합니다.
+
+**(곧 지원됨)**
+
+관리자는 팀 모임 정책 설정을 구성 하 여 사용자에 게 *아일랜드 모드의*Outlook 모임 추가 기능을 사용 하는 것을 제어할 수 있습니다. 사용자가 팀 모임 추가 기능을 사용할 수 있는지, 팀 모임이 나 비즈니스용 Skype 모임 추가 기능을 모두 사용 하 여 Outlook에서 모임을 예약할 수도 있습니다.
+
+이 정책은 아일랜드 모드에 있는 사용자 에게만 적용할 수 있으며 팀 모임 정책에서 **AllowOutlookAddIn** 매개 변수를 **True** 로 설정 합니다. 이 정책을 설정 하는 방법에 대 한 단계는 [아일랜드 모드에서 사용자에 대 한 모임 제공자 설정을](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)참조 하세요.
 
 ## <a name="other-considerations"></a>기타 고려 사항
 

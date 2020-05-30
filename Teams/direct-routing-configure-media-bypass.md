@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 모든 사용자를 한 번에 전환 하거나 단계별 접근 (권장)을 구현 하 여 전화 시스템에서 미디어 우회를 구성 하는 방법에 대해 알아봅니다.
+description: 모든 사용자를 한 번에 전환 하거나 단계별 접근 (권장)을 구현 하 여 Microsoft 팀의 전화 시스템 다이렉트 라우팅으로 미디어 바이패스를 구성 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904840"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416898"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 구성
 

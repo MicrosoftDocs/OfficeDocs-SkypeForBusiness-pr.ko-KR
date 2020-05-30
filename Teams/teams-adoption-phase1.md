@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 이 문서에서는 Microsoft 팀의 시작 단계에서 활동에 대해 알아봅니다.
+description: 이 문서에서는 Microsoft 팀의 시작 단계에서 활동에 대해 알아봅니다. Microsoft 팀 설정 및 팀 계획에 대 한 모범 사례를 이해 합니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 620e6ebdcfe244dc937ab96bc4e14c67cda0b11c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 2c9f8e7ca96ea239caa05452ce821e4c66319091
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349712"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416858"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft 팀 채택 단계 1-시작
 
