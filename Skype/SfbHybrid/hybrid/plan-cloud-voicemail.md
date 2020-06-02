@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 이 문서에서는 Microsoft Cloud 음성 메일 서비스를 구현 하기 위한 혜택, 계획 고려 사항 및 요구 사항에 대해 설명 합니다. 클라우드 음성 메일을 구성 하는 방법에 대 한 자세한 내용은 클라우드 음성 메일 구성을 참조 하세요.
-ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: b78608f3fd1e60421ad0edc4318b2b44217851c2
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221288"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472257"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 계획
 
@@ -79,7 +79,7 @@ ms.locfileid: "44221288"
 
 - 외부 EWS (Exchange 웹 서비스) URL 및 자동 검색을 설정 해야 하거나 일부 클라우드 음성 메일 기능이 제한 됩니다.
 
-- 온-프레미스 전용 배포&#x2014;, 즉 Exchange 및 비즈니스용 Skype 온-프레미스 서버를&#x2014;하지만 클라우드 음성 메일을 활용 하려는 경우에는 전화 시스템 라이선스가 필요 합니다.
+- 온-프레미스 Exchange server가 있는 경우 [Exchange Server 사서함 사용자에 대 한 클라우드 음성 메일 설정](https://docs.microsoft.com/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users)의 단계에 따라 클라우드 음성 메일을 설정 합니다.
 
 ## <a name="migration-and-interoperability"></a>마이그레이션 및 상호 운용성
 

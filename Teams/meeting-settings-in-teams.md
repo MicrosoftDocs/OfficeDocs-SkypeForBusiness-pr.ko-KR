@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898173"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489140"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -38,8 +38,11 @@ ms.locfileid: "43898173"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
-2. **참가자** 아래에서 **익명 사용자가 모임에 참가할 수 있습니다**를 설정합니다.
+1. 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> 합니다.
+
+2. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
+
+3. **참가자** 아래에서 **익명 사용자가 모임에 참가할 수 있습니다**를 설정합니다.
 
     ![관리 센터에서 모임에 대한 참가자 설정의 스크린샷](media/meeting-settings-participants.png "Microsoft Teams 관리 센터에서 Teams 모임에 대한 참가자 설정의 스크린샷")
 
@@ -62,8 +65,9 @@ ms.locfileid: "43898173"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
-2. **전자 메일 초대장**에서 다음을 수행합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터로</a>이동 합니다.
+2. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
+3. **전자 메일 초대장**에서 다음을 수행합니다.
 
     ![사용자 지정할 수 있는 모임 초대장 설정의 스크린샷](media/meeting-settings-invitation.png "Teams 모임에 대해 사용자 지정할 수 있는 모임 초대장 설정의 스크린샷")
 
@@ -71,9 +75,9 @@ ms.locfileid: "43898173"
     - **법률 정보 URL** 법률적인 우려에 대해 사용자의 방문을 원하는 법률 정보 웹사이트를 조직이 보유한 경우 여기에 URL을 입력합니다.
     - **도움말 URL** 사용자에게 문제가 발생했을 때 사용자의 방문을 원하는 지원 웹사이트를 조직이 보유한 경우 여기에 URL을 입력합니다.
     - **바닥글** 바닥글에 포함할 텍스트를 입력합니다.
-3. **초대장 미리보기**를 클릭하여 모임 초대장의 미리보기를 확인합니다.
-4. 모두 마쳤으면 **저장**을 클릭합니다.
-5. 변경 사항을 적용하려면 1시간 정도 기다립니다. 그런 다음 Teams 모임을 예약하여 모임 초대장 모양을 확인할 수 있습니다.  
+4. **초대장 미리보기**를 클릭하여 모임 초대장의 미리보기를 확인합니다.
+5. 모두 마쳤으면 **저장**을 클릭합니다.
+6. 변경 사항을 적용하려면 1시간 정도 기다립니다. 그런 다음 Teams 모임을 예약하여 모임 초대장 모양을 확인할 수 있습니다.  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Teams 모임에 대한 실시간 미디어 트래픽 처리 방법 설정
 
@@ -85,9 +89,9 @@ ms.locfileid: "43898173"
 > Microsoft Teams 서비스에 대해 Microsoft Teams 관리 센터에서 QoS를 활성화하거나 설정을 변경하는 경우, Teams에서 QoS에 대한 변경 사항을 완전히 구현하려면 모든 네트워크 장치 및 [모든 사용자 장치에 일치하는 설정을 적용](QoS-in-Teams-clients.md)해야 합니다.
 
  ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
-
-1. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
-2. **네트워크**에서 다음을 수행합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터로</a>이동 합니다.
+2. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
+3. **네트워크**에서 다음을 수행합니다.
 
     ![관리 센터에서 모임에 대한 네트워크 설정의 스크린샷](media/meeting-settings-network.png "Microsoft Teams 관리 센터에서 Teams 모임에 대한 네트워크 설정의 스크린샷")
 
@@ -108,7 +112,7 @@ ms.locfileid: "43898173"
 |:---             |:---                         |:---    |:---      |:---      |
 |오디오            | 50,000~50,019               |TCP/UDP |46        |Expedited Forwarding(EF)|
 |비디오            | 50,020~50,039               |TCP/UDP |34        |Assured Forwarding(AF41)|
-|응용 프로그램/화면 공유| 50,040~50,059      |TCP/UDP |18        |Assured Forwarding(AF21)|
+|응용 프로그램/화면 공유| 50,040~50,059      |TCP/UDP |awg        |Assured Forwarding(AF21)|
 | | | | |
 
 \* 할당하는 포트 범위는 겹칠 수 없으며 서로 근접해 있어야 합니다.

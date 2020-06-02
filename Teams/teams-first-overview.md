@@ -15,12 +15,12 @@ description: 이 지침을 사용 하 여 Microsoft 팀을 첫 번째 Office 365
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041715"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472349"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft 팀 먼저 롤아웃
 
@@ -142,9 +142,7 @@ Exchange 하이브리드 구성 외에 Exchange OAuth 인증 설정: <a href="ht
 <li><p>채널 메시지의 정책 준수에 대 한 eDiscovery 및 법률 보류가 지원 됩니다.</p></li>
 <li><p>데이터 손실 방지 정책 (DLP)을 사용할 수 있습니다.</p></li>
 </ul>
-<p>Exchange Online에서 사용할 수 있는 전체 기능 집합 Exchange 온-프레미스에서는 이러한 기능을 대부분 지원 합니다.</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Exchange와 Teams의 상호 작용 방법</a></p>
-<p>전체 목록</p></td>
+<p>Exchange Online과 함께 사용할 수 있는 모든 기능 집합 Exchange 온-프레미스에서는 이러한 기능 대부분을 지원 하며 Exchange와 팀이 전체 목록에 대해 <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">상호 작용 하는 방법</a> 에 대해 알아봅니다.</p></td>
 </tr>
 </tbody>
 </table>
@@ -243,8 +241,7 @@ Exchange 하이브리드 구성 외에 Exchange OAuth 인증 설정: <a href="ht
     [Teams용 클라이언트 가져오기](get-clients.md)
 
 5.   채택을 프로그램 구동  
-    [Microsoft 팀 채택](adopt-microsoft-teams-landing-page.md)
-    
+    [Microsoft 팀 채택](adopt-microsoft-teams-landing-page.md)<br/>
     [Microsoft 팀 채택 빠른 시작 검사 목록](teams-adoption-quick-start-checklist.md)
 
 6.  다른 작업을 Office 365으로 이동 하기 위해 계획 시작
@@ -292,7 +289,7 @@ Microsoft 팀은 조직의 모든 직원, 정보 근로자 및 Firstline worker�
   - [Microsoft 365 그룹](office-365-groups.md) 은 팀 및 채널 생성/관리에 사용 됩니다.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft Teams IT 아키텍처 및 전화 통신 솔루션 포스터](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

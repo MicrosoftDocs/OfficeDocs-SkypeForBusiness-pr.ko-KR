@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416878"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489150"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -423,6 +423,24 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 - Outlook에서 팀 모임 추가 기능만 사용 하도록 매개 변수를 **Teamsonly** 설정 합니다. 이 정책 설정은 이후의 모든 모임에 팀 모임 참가 링크가 있는지 확인 합니다. 팀에 대 한 기존 비즈니스용 Skype 모임 참가 링크는 마이그레이션하지 않습니다. 이 정책 설정은 현재 상태, 채팅, PSTN 통화 또는 비즈니스용 Skype의 기타 기능에는 영향을 주지 않으며,이는 사용자가 이러한 기능을 위해 계속 해 서 비즈니스용 Skype를 사용 하는 것을 의미 합니다.
 
   매개 변수를 **Teamsonly**으로 설정한 다음 **TeamsAndSfB**로 다시 전환 하면 두 모임 추가 기능이 모두 사용 됩니다. 그러나 기존 팀 모임 참가 링크는 비즈니스용 Skype로 마이그레이션되지 않습니다. 변경 후에 예약 된 비즈니스용 Skype 모임에는 비즈니스용 Skype 모임 참가 링크가 있습니다.
+
+## <a name="meeting-policy-settings---video-filters-mode"></a>모임 정책 설정-비디오 필터 모드
+
+이것은 사용자별 정책입니다. 이 설정은 사용자가 모임에서 비디오 배경을 사용자 지정할 수 있는지 여부를 제어 합니다.
+
+현재는 PowerShell을 사용 하 여이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용 하 여 기존 팀 모임 정책을 편집할 수 있습니다. 또는 [새 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용 하 여 새 팀 모임 정책을 만든 다음 사용자에 게 정책을 할당 합니다.
+
+사용자가 모임에서 비디오 배경을 사용자 지정할 수 있는지 여부를 지정 하려면 다음과 같이 **VideoFiltersMode** 매개 변수를 설정 합니다.
+
+|PowerShell에서 값 설정 |결과가  |
+|---------|---------|
+|**NoFilters**     |사용자가 비디오 배경을 사용자 지정할 수 없습니다.|
+|**BlurOnly**     |사용자가 비디오 배경을 흐리게 하는 옵션을 선택할 수 있습니다. |
+|**BlurandDefaultBackgrounds**     |사용자는 비디오 배경을 흐리게 하거나 배경으로 사용할 이미지 집합 중에서 선택할 수 있습니다. |
+|**AllFilters**     |사용에는 비디오 배경을 흐리게 하거나, 이미지 집합에서 선택 하거나, 배경으로 사용할 사용자 지정 이미지를 업로드 하는 옵션이 있습니다. |
+
+> [!NOTE]
+> 사용자가 업로드 한 이미지는 팀에 의해 차단 되지 않습니다. **Allfilters** 설정을 사용 하는 경우 사용자가 공격적인 또는 부적절 한 이미지를 업로드 하거나 조직에 팀 모임 배경에 사용할 권한이 없는 이미지를 보호 하기 위한 내부 조직 정책이 있어야 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 
