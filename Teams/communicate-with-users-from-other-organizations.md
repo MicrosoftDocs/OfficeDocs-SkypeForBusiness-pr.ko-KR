@@ -17,12 +17,12 @@ description: 외부 액세스 (페더레이션) 및 게스트 액세스를 사�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785931"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539445"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams에서 다른 조직의 사용자와 의사소통하기
 ======================================================
@@ -73,7 +73,7 @@ ms.locfileid: "43785931"
 | 개별 사용자를 차단할 수 있습니다. | 아니요 | 예 |
 | @멘션을 지원합니다. | 예<sup>4</sup> | 예 |
 | 개인 전화 걸기 | 예 | 예 |
-| 전화 접속 모임 참가자의 전화 번호 보기 | 아니오 | 예 |
+| 전화 접속 모임 참가자의 전화 번호 보기 | 아니요<sup>5</sup> | 예 |
 | IP 비디오 허용 | 예 | 예 |
 | 화면 공유 모드 | 예<sup>4</sup> | 예 |
 | 모임 시작 허용 | 아니요 | 예 |
@@ -88,6 +88,8 @@ ms.locfileid: "43785931"
 <sup>2</sup> 전자 메일 또는 SIP(Session Initiation Protocol) 주소만 해당.<br>
 <sup>3</sup> 외부 (페더레이션) 채팅은 1:1만 허용합니다.<br>
 <sup>4</sup> Teams의 1:1 채팅은 Teams에서만, 다른 두 조직의 사용자만 지원됩니다. 
+<sup>5</sup> 기본적으로 외부 참가자는 전화 접속 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호의 개인 정보 보안을 유지하려면 **입장/퇴장 알림 유형**은 **톤**을 선택합니다(이 경우 해당 숫자를 Teams에서 소리내어 읽지 못하도록 방지). 외부 사용자에게 외부 PSTN 전화 번호를 표시하고 싶지 않은 경우, **입장/퇴장 알림**을 켤 때, 알림 유형은 **톤**을 선택합니다. 자세한 내용은 [Microsoft Teams에서 모임에 대한 입장 및 퇴장 알림 켜기 혹은 끄기](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)를 읽어보세요.
+
 
 ## <a name="related-topics"></a>관련 항목
 
