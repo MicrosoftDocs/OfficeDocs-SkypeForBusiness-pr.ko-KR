@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 클라우드 음성 기능에 대 한 네트워크 설정을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888707"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539628"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성 기능에 대 한 네트워크 토폴로지 관리
 
@@ -39,12 +39,12 @@ Microsoft 팀 관리 센터의 **네트워크 토폴로지** 페이지에서 또
 
 #### <a name="add-and-configure-a-network-site"></a>네트워크 사이트 추가 및 구성
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치** > **네트워크 토폴로지로**이동한 다음 **네트워크 사이트** 탭을 클릭 합니다.
-2. **새로 만들기**를 클릭 한 다음 사이트의 이름과 설명을 입력 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로**이동한 다음 **네트워크 사이트** 탭을 클릭 합니다.
+2. **추가**를 클릭 한 다음 사이트의 이름과 설명을 입력 합니다.
 
     ![네트워크 사이트 추가 페이지의 스크린샷](media/manage-network-topology-add-site.png)
 
-3. 사이트를 네트워크 지역에 연결 하려면 **네트워크 지역 연결**을 클릭 하 고, 기존 지역을 선택 하거나, **추가** 를 클릭 하 여 지역을 추가 하 고 **링크**를 클릭 합니다.  
+3. 사이트를 네트워크 지역에 연결 하려면 **네트워크 지역 추가**를 클릭 하 고 기존 지역을 선택 하거나 **추가** 를 클릭 하 여 지역을 추가한 다음 **링크**를 클릭 합니다.  
 4. 사이트의 위치 기반 라우팅을 사용 하려면 **위치 기반 라우팅을**설정 합니다.
 5. 사이트에 응급 서비스 정책을 할당 하려면 다음 중 하나 또는 모두를 수행 합니다.
 
@@ -52,11 +52,11 @@ Microsoft 팀 관리 센터의 **네트워크 토폴로지** 페이지에서 또
     - 조직에서 전화 시스템 직접 라우팅을 배포한 경우 **비상 전화 라우팅 정책**에서 원하는 정책을 선택 합니다.
 
 6. 서브넷을 사이트에 연결 하려면 **서브넷**에서 **서브넷 추가**를 클릭 합니다. IP 버전, IP 주소, 네트워크 범위, 설명 추가를 지정 하 고 **적용**을 클릭 합니다. 각 서브넷은 특정 사이트와 연결 되어야 합니다.
-7. **저장**을 클릭 합니다.
+7. **저장**을 클릭합니다.
 
 #### <a name="modify-a-network-site"></a>네트워크 사이트 수정
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치** > **네트워크 토폴로지로**이동한 다음 **네트워크 사이트** 탭을 클릭 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로**이동한 다음 **네트워크 사이트** 탭을 클릭 합니다.
 2. 사이트 이름 왼쪽에 있는을 클릭 하 여 사이트를 선택 하 고 **편집**을 클릭 합니다.
 3. 원하는 변경 작업을 수행한 다음 저장을 클릭 **합니다.**
 
@@ -66,7 +66,7 @@ Microsoft 팀 관리 센터의 **네트워크 토폴로지** 페이지에서 **�
 
 #### <a name="add-a-trusted-ip-address"></a>신뢰할 수 있는 IP 주소 추가
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치** > **네트워크 토폴로지로**이동한 다음 **신뢰할 수 있는 ip** 탭을 클릭 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로**이동한 다음 **신뢰할 수 있는 ip** 탭을 클릭 합니다.
 2. **새로 만들기**를 클릭 합니다.
 3. **신뢰할 수 있는 ip 주소 추가** 창에서 ip 버전, ip 주소, 네트워크 범위, 설명 추가를 지정 하 고 **적용**을 클릭 합니다.
 
@@ -74,7 +74,7 @@ Microsoft 팀 관리 센터의 **네트워크 토폴로지** 페이지에서 **�
 
 #### <a name="edit-a-trusted-ip-address"></a>신뢰할 수 있는 IP 주소 편집
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치** > **네트워크 토폴로지로**이동한 다음 **신뢰할 수 있는 ip** 탭을 클릭 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로**이동한 다음 **신뢰할 수 있는 ip** 탭을 클릭 합니다.
 2. 왼쪽을 클릭 하 여 IP 주소를 선택 하 고 **편집**을 클릭 합니다.
 3. **신뢰할 수 있는 IP 주소 편집** 창에서 원하는 변경 작업을 수행 하 고 **적용**을 클릭 합니다.
 
@@ -84,7 +84,7 @@ Microsoft 팀 관리 센터의 **네트워크 토폴로지** 페이지에서 **�
 
 ### <a name="define-network-regions"></a>네트워크 지역 정의
 
- [새-Csten앤틸리스 지역](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) cmdlet을 사용 하 여 네트워크 지역을 정의 합니다. 영역 ID 매개 변수는 영역의 지리를 나타내는 논리 이름이 며, 종속성 또는 제한이 없으며 CentralSite &lt;site ID&gt; 매개 변수는 선택 사항입니다.
+ [새-Csten앤틸리스 지역](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) cmdlet을 사용 하 여 네트워크 지역을 정의 합니다. 영역 ID 매개 변수는 영역의 지리를 나타내는 논리 이름이 며, 종속성 또는 제한이 없으며 CentralSite &lt; SITE ID &gt; 매개 변수는 선택 사항입니다.
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  

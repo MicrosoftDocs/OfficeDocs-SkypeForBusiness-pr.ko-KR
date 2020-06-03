@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 팀 관리 센터에서 조직의 긴급 위치를 추가, 변경 또는 제거 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c3ff180848d12ad3fb00d048bbb1910bf13c00d6
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 5ba712602ef2a966343282d4e467365f3c1c3329
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232499"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539435"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>조직의 응급 위치에 대한 장소 추가, 변경 또는 제거
 
@@ -39,7 +39,7 @@ Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 조직의 
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색에서 **위치**  >  **긴급 주소**를 클릭 합니다.
 2. 목록에서 위치를 추가 하려는 위치의 이름을 클릭 합니다.
-3. **위치** 탭에서 **위치 추가**를 클릭 합니다.
+3. **위치** 탭에서 **추가**를 클릭 합니다.
 4. 위치 이름을 입력 한 다음 **적용**을 클릭 합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용

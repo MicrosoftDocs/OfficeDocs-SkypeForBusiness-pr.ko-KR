@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85879d55ad50a6c68bbe59d9c1fb51663988c661
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489060"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512825"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -64,7 +64,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 |기능  | 최대 한도  |
 |---------|---------|
-|비공개 채팅에 참가 중인 사용자 수<sup>1</sup>  | 100    |
+|비공개 채팅에 참가 중인 사용자 수<sup>1</sup>  | 250<br><br>**참고:** 정부용 Teams(GCC, GCC High, DoD)에 대한 제한은 여전히 100입니다. 정부 클라우드 제한이 100에서 250으로 늘어나면 이 문서를 업데이트 할 예정입니다.    |
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
 |첨부 파일 수<sup>2</sup>  |10     |
 |채팅 크기 | 게시물당 28 KB<sup>3</sup> |

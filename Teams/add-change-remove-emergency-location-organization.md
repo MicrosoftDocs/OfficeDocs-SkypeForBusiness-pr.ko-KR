@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Microsoft 팀 관리 센터에서 조직의 긴급 위치를 추가, 변경 또는 제거 하는 방법에 대해 알아봅니다. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72730a326c6239b195d77f8a7bdde1b376da646f
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232489"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539465"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>조직의 응급 위치 추가, 변경 또는 제거
 
@@ -40,13 +40,13 @@ Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 조직의 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색에서 **위치**  >  **긴급 주소**를 클릭 합니다.
-2. **위치 추가**를 클릭 합니다.
+2. **추가**를 클릭 합니다.
 3. 위치에 대 한 이름과 설명을 입력 합니다.
 4. 국가 또는 지역을 선택한 다음 주소를 입력 합니다.
 
    > [!NOTE]
    > 벨기에, 프랑스, 독일, 아일랜드, 네덜란드, 스페인에서는 Office 365에서 전화 번호를 성공적으로 활성화 하는 것을 이해 하는 것이 중요 합니다. 번호를 구하는 데 사용 되는 비상 위치에 설정 된 주소는 전화 번호의 지역 번호와 일치 해야 합니다.
-5. 주소를 찾을 수 없고 수동으로 주소를 편집 하려는 경우에는 주소 **양식을 수동으로 편집**하도록 설정 합니다.
+5. 주소를 찾을 수 없는 경우 수동으로 주소를 편집 하려면 **수동으로 주소 편집**을 설정 합니다.
 6. **저장**을 클릭합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용

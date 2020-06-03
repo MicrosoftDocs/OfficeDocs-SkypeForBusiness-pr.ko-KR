@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 조직의 사용자에 대 한 긴급 위치를 할당 하거나 변경 하는 방법을 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5b13cf5d4b4a0cf22077318e3c2c2196840f66e
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 35f7dfe6572b7ef3dc76b6c224d206e2ee4f23a2
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232469"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539515"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>사용자에 대 한 긴급 위치 지정 또는 변경
 
@@ -37,7 +37,7 @@ Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 사용자�
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **전화 번호**를 클릭 합니다.
 
-2. **전화 번호** 페이지의 목록에서 사용자 번호를 선택 하 고 **편집**을 클릭 합니다.
+2. **전화 번호** 페이지에서 **숫자** 탭을 클릭 하 고 목록에서 사용자 번호를 선택한 다음 **편집**을 클릭 합니다.
 
 3. **편집** 창의 **응급 위치**에서 다음 중 하나를 수행 합니다.
 
@@ -45,7 +45,9 @@ Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 사용자�
 
     - 사용자에 게 이미 할당 된 위치를 변경 하려면 **X** 를 클릭 하 여 기존 위치를 제거 하 고을 검색 한 후 할당할 위치를 선택 합니다.
 
-4. **저장**을 클릭합니다.
+4. 전화 번호 정보를 사용 하 여 사용자에 게 전자 메일을 보낼지 여부에 따라 **전화 번호 정보로 전자 메일 사용자**를 끄거나 설정 합니다. 기본적으로이 기능은 켜져 있습니다.
+
+5. **적용**을 클릭 합니다.
 
 ## <a name="using-powershell"></a>PowerShell 사용
 
