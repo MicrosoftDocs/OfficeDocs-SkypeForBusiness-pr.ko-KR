@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen, bjwhalen
+ms.reviewer: landerl, bjwhalen
 description: '비즈니스용 Skype 및 Microsoft 팀 공존 옵션 및 모드에 대해 자세히 설명 하 고 여행를 비즈니스용 Skype에서 팀으로 업그레이드 합니다 (예: 시나리오).'
 localization_priority: Normal
 search.appverid: MET150
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6a1e54d677436b2441e9174cc265eb67b7664d2
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 548b1f9adbd964737c664baab108201412b6e90f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416748"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522781"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>비즈니스용 Skype에서 팀으로 업그레이드 여행 선택
 

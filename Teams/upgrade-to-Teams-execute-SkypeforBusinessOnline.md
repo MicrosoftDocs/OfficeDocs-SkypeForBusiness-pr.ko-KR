@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 비즈니스용 Skype Online deployement 통해 조직을 Microsoft 팀으로 업그레이드 하는 방법을 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37deecdbff083718dcb5b8a16e77ac8da4b998ff
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905360"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523171"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>비즈니스용 Skype Online에서 팀으로 업그레이드
 
@@ -58,7 +58,7 @@ Microsoft 팀 관리 센터 또는 비즈니스용 Skype 원격 Windows Powershe
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>1 단계: 사용자에 게 변경 내용 알리기 (선택 사항)
 
-1. Microsoft 팀 관리 센터에서 **조직 전체 설정** > **팀 업그레이드**를 선택 합니다.
+1. Microsoft 팀 관리 센터에서 **조직 전체 설정**  >  **팀 업그레이드**를 선택 합니다.
 2. **공존 모드**에서 **비즈니스용 Skype 사용자에 게 업그레이드를 사용할 수 있는 사람에 게 알림** ( **On**으로 전환)을 변경 합니다.
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>2 단계: 조직에 대해서만 공존 모드를 TeamsOnly로 설정

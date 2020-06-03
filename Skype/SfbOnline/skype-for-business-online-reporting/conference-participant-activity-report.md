@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BPartActivity
 description: '비즈니스용 Skype 컨퍼런스 참가자 활동 보고서를 가져오는 방법과이를 해석 하 고 사용자 지정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 86bbc6532b556ee683184f5940117a71387d8c42
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 1fe925708356d31a50d6f5a6f2dcc5a3b89a6805
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769371"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205479"
 ---
 # <a name="conference-participant-activity-report"></a>회의 참가자 활동 보고서
 
-Office 365 관리자는 새 **보고서** 대시보드의 조직 내 Office 365 제품 사용에 대 한 데이터가 표시 됩니다. **비즈니스용 Skype 컨퍼런스 참가자 활동** 보고서를 사용 하 여 조직의 사용자가 참가 하 고 있는 메신저, 오디오/비디오, 응용 프로그램 공유, 웹 및 전화 접속 회의 수를 확인할 수 있습니다.
+**보고서** 대시보드에는 조직 내 Microsoft 365 또는 Office 365 제품의 사용 현황에 대 한 데이터가 표시 됩니다. **비즈니스용 Skype 컨퍼런스 참가자 활동** 보고서를 사용 하 여 조직의 사용자가 참가 하 고 있는 메신저, 오디오/비디오, 응용 프로그램 공유, 웹 및 전화 접속 회의 수를 확인할 수 있습니다.
 
 자세한 내용은 [보고서 개요](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 를 확인 하세요.
   
@@ -40,9 +40,9 @@ Office 365 관리자는 새 **보고서** 대시보드의 조직 내 Office 365 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>비즈니스용 Skype 컨퍼런스 참가자 보고서에 액세스 하는 방법
 
-1. 관리 센터로 이동 하 여 **보고서** > **사용**을 > 합니다.
+1. 관리 센터로 이동 하 여 **보고서**  >  **사용**을 > 합니다.
     
-2. **배정 현황** 페이지의 왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 **Skype** > **컨퍼런스 참가자 활동** 을 선택 합니다. 또는 **비즈니스용 skype 활동 위젯을 클릭** 한 다음 비즈니스용 **skype 활동** 목록에서 비즈니스용 **skype 회의 참가자 활동** 을 클릭 합니다.
+2. **배정 현황** 페이지의 **Skype for Business**  >  왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 Skype**컨퍼런스 참가자 활동** 을 선택 합니다. 또는 **비즈니스용 skype 활동 위젯을 클릭** 한 다음 비즈니스용 **skype 활동** 목록에서 비즈니스용 **skype 회의 참가자 활동** 을 클릭 합니다.
     
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>비즈니스용 Skype 컨퍼런스 참가자 활동 보고서 해석

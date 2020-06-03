@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825136"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512815"
 ---
 # <a name="document-my-success-plan"></a>내 성공 계획 문서화
 
@@ -108,11 +108,11 @@ ms.locfileid: "41825136"
 
 ## <a name="communications-and-governance-plan"></a>통신 및 관리 계획
 
-배포 진행 상황에 맞게 프로젝트 관계자를 최신 상태로 유지 하려면 프로젝트의 상태와 관련 된 중요 토론을 담당 하는 주요 프로젝트 팀 구성원 및 관련자와의 의사 소통을 수행 하는 방법에 대 한 계획을 수립 해야 합니다. 확립 된 KSIs, operational 메트릭 및 전략적 목표에 대 한 프로젝트의 중요 시점, 차단, 다양 한 검토.
+배포 진행 상황을 기준으로 프로젝트 관계자를 최신 상태로 유지 하려면 주요 프로젝트 팀 구성원과 의사 소통 자가 프로젝트의 상태, 주요 중요 시점, 차단, 프로젝트의 다양 한 리뷰와 관련 된 KSIs, operational 메트릭 및 전략적 목표에 대 한 중요 한 논의에 대 한 계획을 수립 해야 합니다.
 
 다음은 클라우드 음성 구현 프로젝트에서 활용할 수 있는 통신 및 관리 계획의 예입니다.
 
-| 유형                                        | 목표                                                                                                                                                      | 명의 | 일/시간                                     | 위치             | 모임 소유자 |
+| 유형                                        | 목표                                                                                                                                                      | 참가자 | 일/시간                                     | 위치             | 모임 소유자 |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
 | Project standup 통화                       | 프로젝트 상태 동기화, 주요 중요 시점 및 차단 추적                                                                                           | TBA          | 월요일, 화요일, 수요일, 목요일 5 PM PST | Virtual              | TBA           |
 | 주간 조종 위원회                   | 클라우드 음성 프로젝트의 상태 검토, 경영진에 게 보고, 경영진에 게 해결 해야 하는 문제를 발생 시킬 수 있습니다.                                        | TBA          | 매주 금요일 11 시 PST                        | Virtual              | TBA           |
@@ -173,7 +173,7 @@ ms.locfileid: "41825136"
 
 광고 전단, 환영 전자 메일, 교육 자료 등의 채택을 지원 하 고 조직의 요구 사항을 충족 하는 데 필요한 사용자 지정 작업을 지원할 수 있는 리소스를 식별 합니다.
 
-[Microsoft 팀 고객 성공 키트](https://www.microsoft.com/download/details.aspx?id=54244)의 채택 활동에 대 한 서식 파일을 다운로드 합니다.
+[Microsoft 팀 고객 성공 키트](https://aka.ms/TeamsCustomerSuccess)의 채택 활동에 대 한 서식 파일을 다운로드 합니다.
 
 ### <a name="operational-plan"></a>운영 계획
 

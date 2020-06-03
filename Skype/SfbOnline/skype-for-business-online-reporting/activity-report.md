@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: '비즈니스용 Skype 활동 보고서, 포함 내용, 데이터를 해석 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 577ed8ea84326510ad1c2943dcbf0b280a2bd9ae
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f50b8c03304a308594fd7bd920ee92e8d38a1f43
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769421"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205559"
 ---
 # <a name="activity-report"></a>활동 보고서
 
-Office 365 **보고서** 대시보드는 조직의 office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 **비즈니스용 Skype 활동** 보고서를 사용 하 여 사용자가 피어 투 피어 또는 구성 된 회의 세션을 사용 하 고 있거나 회의 세션에 참여 하 고 있는 정도를 확인할 수 있습니다. 
+**보고서** 대시보드에는 조직의 Microsoft 365 또는 Office 365 제품 전반에 대 한 활동 개요가 표시 됩니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 **비즈니스용 Skype 활동** 보고서를 사용 하 여 사용자가 피어 투 피어 또는 구성 된 회의 세션을 사용 하 고 있거나 회의 세션에 참여 하 고 있는 정도를 확인할 수 있습니다. 
 
 자세한 내용은 [보고서 개요](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 를 확인 하세요.
   
@@ -40,9 +40,9 @@ Office 365 **보고서** 대시보드는 조직의 office 365 제품 전반에 �
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>비즈니스용 Skype 활동 보고서에 액세스 하는 방법
 
-1. 관리 센터로 이동 하 여 **보고서** > **사용**을 > 합니다.
+1. 관리 센터로 이동 하 여 **보고서**  >  **사용**을 > 합니다.
     
-2. **배정 현황** 페이지의 왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 **skype** > **활동** 을 선택 하거나 비즈니스용 **skype 활동** 위젯을 클릭 합니다.
+2. **배정 현황** 페이지의 **Skype for Business**  >  왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 skype**활동** 을 선택 하거나 비즈니스용 **skype 활동** 위젯을 클릭 합니다.
 
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>비즈니스용 Skype 활동 보고서 해석
@@ -90,7 +90,7 @@ Office 365 **보고서** 대시보드는 조직의 office 365 제품 전반에 �
 * **피어 투 피어** 는 사용자가 사용한 총 피어 투 피어 회의 세션 수를 보여 줍니다.
 * **구성 된 회의** 는 해당 사용자가 구성한 총 회의 수를 보여 줍니다.
 * **참가 회의에** 는이 사용자가 참여 한 총 컨퍼런스 수가 표시 됩니다.
-* **할당 된 제품은** 이 사용자에 게 할당 된 Office 365 제품입니다.<br/>
+* **할당 된 제품은** 이 사용자에 게 할당 된 Microsoft 365 또는 Office 365 제품입니다.<br/>
 
 조직의 정책에 따라 사용자 정보가 식별 가능한 보고서를 보지 못하도록 하는 경우 이러한 모든 보고서에 대 한 개인 정보 설정을 변경할 수 있습니다. [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)에 있는 **보고서 섹션에서 사용자 세부 정보 숨기기** 를 확인 합니다.
 ***

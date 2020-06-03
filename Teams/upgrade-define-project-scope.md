@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 모든 프로젝트 관련자를 정렬 하 고 동일한 최종 결과를 유지 하도록 비전과 목표를 구체화 하 여 업그레이드 프로젝트의 범위를 조정 합니다.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9592d20f95b32bab45f2f1d5cf3aa0431a838b9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: da75154f78739ab1a1044b101235ccc678ca1eed
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904483"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522541"
 ---
 # <a name="define-your-project-scope"></a>프로젝트 범위 정의
 

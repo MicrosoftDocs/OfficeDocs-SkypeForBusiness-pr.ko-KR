@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 서비스 상태 모니터링, 네트워크 품질 및 사용량 평가 및 확인을 비롯 한 팀 서비스 관리에 필요한 작업 및 활동
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3183eac6851531bcaefbddd72cc445844755b307
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997289"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523321"
 ---
 # <a name="operate-your-service"></a>서비스 운영
 
@@ -166,7 +166,7 @@ Office 365 서비스 통신 API를 사용 하 여 프로그래밍 방식으로 O
 
 Microsoft 팀은 클라우드 기반 서비스입니다. 그러면 빠른 속도로 새로운 기능과 기능을 제공할 수 있습니다. 지속적인 혁신을 제공 하는 것은 조직에 게 명백한 혜택 이지만, 사용자의 저항력 또는 헬프데스크에 대 한 escalation을 방지 하기 위해 조직 내에서 해당 변경 내용을 적절 하 게 관리 해야 합니다.
 
-팀에 대 한 업데이트가 사용자에 게 자동으로 롤아웃 됩니다. 사용자는 항상 팀 서비스에서 사용할 수 있는 최신 클라이언트와 기능을 보유 하 고 있습니다. 사용자에 게 팀 업데이트 출시를 관리 하는 것은 불가능 하므로 효과적인 의사 소통, 교육 및 채택 프로그램을 통해 변경을 관리 하는 것이 매우 중요 합니다. 사용자가 변경 사항에 대 한 교육을 받은 경우, 혜택에 대해 알리고 새로운 기능&mdash;을 활용 하기 위해 역량을 제공 하는 것이 더 빠르게 변화 하 고 변화를 시작할 수 있습니다.
+팀에 대 한 업데이트가 사용자에 게 자동으로 롤아웃 됩니다. 사용자는 항상 팀 서비스에서 사용할 수 있는 최신 클라이언트와 기능을 보유 하 고 있습니다. 사용자에 게 팀 업데이트 출시를 관리 하는 것은 불가능 하므로 효과적인 의사 소통, 교육 및 채택 프로그램을 통해 변경을 관리 하는 것이 매우 중요 합니다. 사용자가 변경 사항에 대 한 교육을 받은 경우, 혜택에 대해 알리고 새로운 기능을 활용 하기 위해 역량을 제공 하는 것이 &mdash; 더 빠르게 변화 하 고 변화를 시작할 수 있습니다.
 
 ### <a name="monitoring-for-change"></a>변경 내용 모니터링
 

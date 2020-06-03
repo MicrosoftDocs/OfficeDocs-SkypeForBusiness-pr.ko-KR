@@ -19,17 +19,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: 새로운 Microsoft 365 보고서 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 비즈니스용 Skype 장치 사용 현황 보고서를 사용 하 여 비즈니스용 Skype 앱이 설치 되어 있고 메신저 대화 및 모임에 사용 되는 Windows 기반 운영 체제 및 모바일 장치를 비롯 한 장치를 볼 수 있습니다. 자세한 내용은 관리 센터에서 활동 보고서를 확인 하세요.
-ms.openlocfilehash: 9d12938fdbc495e1d95b8ed26500185f09f2b01b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 보고서 대시보드에는 조직의 Microsoft 365 또는 Office 365 제품 전반에 대 한 활동 개요가 표시 됩니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 비즈니스용 Skype 장치 사용 현황 보고서를 사용 하 여 비즈니스용 Skype 앱이 설치 되어 있고 메신저 대화 및 모임에 사용 되는 Windows 기반 운영 체제 및 모바일 장치를 비롯 한 장치를 볼 수 있습니다. 자세한 내용은 관리 센터에서 활동 보고서를 확인 하세요.
+ms.openlocfilehash: b9baff4a9ca363276590faa8e3aaafffb9e7ad4f
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776303"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205459"
 ---
 # <a name="device-usage-report"></a>디바이스 사용 현황 보고서
 
-새 Office 365 **보고서** 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 비즈니스용 **skype 장치 사용 현황** 보고서를 사용 하 여 비즈니스용 skype 앱이 설치 되어 있고 메신저 대화 및 모임에 사용 되는 Windows 기반 운영 체제 및 모바일 장치를 비롯 한 장치를 볼 수 있습니다. 
+**보고서** 대시보드에는 조직의 Microsoft 365 또는 Office 365 제품 전반에 대 한 활동 개요가 표시 됩니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 비즈니스용 **skype 장치 사용 현황** 보고서를 사용 하 여 비즈니스용 skype 앱이 설치 되어 있고 메신저 대화 및 모임에 사용 되는 Windows 기반 운영 체제 및 모바일 장치를 비롯 한 장치를 볼 수 있습니다. 
 
 자세한 내용은 [보고서 개요](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 를 확인 하세요.
   
@@ -40,7 +40,7 @@ ms.locfileid: "43776303"
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>비즈니스용 Skype 장치 사용 현황 보고서에 액세스 하는 방법
 
-1. 관리 센터로 이동 하 여 **보고서** > **사용**을 > 합니다.
+1. 관리 센터로 이동 하 여 **보고서**  >  **사용**을 > 합니다.
     
 2. **배정 현황** 페이지의 왼쪽에 있는 **보고서 선택 목록** 에서 **비즈니스용 Skype 장치 사용** 을 클릭 합니다. 또는 **비즈니스용 skype 활동 위젯을 클릭** 한 다음 비즈니스용 **skype 활동** 목록에서 비즈니스용 **skype 장치 사용** 을 클릭 합니다.
     

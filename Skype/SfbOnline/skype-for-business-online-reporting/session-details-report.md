@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 새로운 Microsoft 365 보고서 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다.
-ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 보고서 대시보드에는 조직의 Microsoft 365 또는 Office 365 제품 전반에 대 한 활동 개요가 표시 됩니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다.
+ms.openlocfilehash: 951f93aabe66bdb7e6b92f9b2c6cf1627e7e1a10
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776283"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205509"
 ---
 # <a name="session-details-report"></a>세션 세부 정보 보고서
 
-새 Office 365 **보고서** 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 **비즈니스용 Skype 세션 세부 정보** 보고서를 사용 하 여 개별 사용자의 통화 환경에 대 한 세부 정보를 확인할 수 있습니다.
+**보고서** 대시보드에는 조직의 Microsoft 365 또는 Office 365 제품 전반에 대 한 활동 개요가 표시 됩니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 **비즈니스용 Skype 세션 세부 정보** 보고서를 사용 하 여 개별 사용자의 통화 환경에 대 한 세부 정보를 확인할 수 있습니다.
   
 사용할 수 있는 보고서에 대 한 자세한 내용은 [보고서 개요](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 를 확인 하세요.
   
@@ -46,7 +46,7 @@ ms.locfileid: "43776283"
 3. **보고서 선택**아래의 목록에서 **비즈니스용 Skype 세션 정보**를 클릭 합니다.
     
     > [!TIP]
-    > 이 보고서가 나열 되지 않으면 **비즈니스용 Skype 관리 센터** > 에서**세션 세부 정보**를**보고** > 하세요. 
+    > 이 보고서가 나열 되지 않으면 **비즈니스용 Skype 관리 센터**에서  >  **Reports**  >  **세션 세부 정보**를 보고 하세요. 
   
     > [!IMPORTANT]
     > 사용 중인 Microsoft 365 또는 Office 365 구독에 따라 여기에 표시 된 모든 제품 및 보고서가 표시 되지 않을 수 있습니다. 

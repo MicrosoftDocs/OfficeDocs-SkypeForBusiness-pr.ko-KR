@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '전화 시스템, 오디오 회의, 통화 계획 및 통신 크레딧을 위해 비즈니스용 Skype 라이선스를 할당 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: f2b2e2ad4952b55fade7e0b8eddb1755ea3f2cea
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: e17050c133643d44cd4811ddc5d70852f1ad50d5
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887817"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44204849"
 ---
 # <a name="assign-skype-for-business-licenses"></a>비즈니스용 Skype 라이선스 할당
 
 이 문서에서는 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 사용자에 게 할당 하는 방법에 대 한 팁을 제공 합니다. 또한 라이선스를 대량으로 할당 하는 스크립트도 제공 합니다.
 
 > [!IMPORTANT]
-> [비즈니스용 Skype 추가 기능 라이선스](skype-for-business-and-microsoft-teams-add-on-licensing.md) 를 구입 하 **는** 데 필요한 라이선스 및 Office 365 요금제에 따라 사용자가 오디오 회의, 무료 전화 번호, 회사 외부의 전화 번호를 사용 하는 기능에 대 한 정보를 참조 하세요.
+> [비즈니스용 Skype 추가 기능 라이선스](skype-for-business-and-microsoft-teams-add-on-licensing.md) 를 구입 하 **는** 데 필요한 라이선스와 Microsoft 365 또는 Office 365 요금제에 따라 사용자가 오디오 회의, 무료 전화 번호, 회사 외부의 전화 번호를 받을 수 있는 기능에 대 한 정보를 확인 하세요.
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>전화 시스템 및 통화 계획: 라이선스 할당을 위한 팁 및 스크립트
@@ -42,7 +42,7 @@ ms.locfileid: "41887817"
 
 - **하이브리드 사용자에 온-프레미스 PSTN 연결을 사용 하 고 계십니까?** 그렇다면 **전화 시스템** 라이선스를 할당 하기만 하면 됩니다. 통화 요금제는 배정 **하지** 않아야 합니다.
 
-- **라이선스 할당 후 대기 시간**: Office 365 및 비즈니스용 Skype Online 간의 지연 때문에 라이선스를 할당 한 후 사용자에 게 통화 요금제를 할당 하는 데 최대 24 시간이 걸릴 수 있습니다. 24 시간이 지난 후에는 사용자에 게 통화 요금제가 배정 되지 않은 경우 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)을 참조 하세요.
+- **라이선스 할당 후 대기 시간**: Microsoft 365 또는 Office 365과 비즈니스용 Skype Online 간의 지연 때문에 라이선스를 할당 한 후 사용자에 게 통화 요금제를 할당 하는 데 최대 24 시간이 걸릴 수 있습니다. 24 시간이 지난 후에는 사용자에 게 통화 요금제가 배정 되지 않은 경우 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)을 참조 하세요.
 
 - **오류 메시지**: 올바른 라이선스 수를 구입 하지 않은 경우 오류 메시지가 표시 됩니다. 추가 통화 계획 라이선스를 구입 해야 하는 경우에는 **추가 구입**을 선택 합니다.
     
@@ -50,7 +50,7 @@ ms.locfileid: "41887817"
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>한 사용자에 게 전화 시스템 및 통화 계획 라이선스를 할당 하는 방법
 
-단계는 Office 365 라이선스를 할당 하는 것과 동일 합니다. [비즈니스용 Office 365에 대 한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)참조 하세요.
+이 단계는 Microsoft 365 또는 Office 365 라이선스를 할당 하는 것과 동일 합니다. [비즈니스용 Microsoft 365에 대 한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)참조 하세요.
 
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>전화 시스템 및 통화 계획 라이선스를 대량으로 할당 하는 방법
 
@@ -65,7 +65,7 @@ ms.locfileid: "41887817"
    스크립트의 라이선스 또는 제품 이름 이름이 기울임꼴로 표시 되어 있습니다 (예를 들어 스크립트 **에 사용 되는 전화 시스템 및 통화 계획 제품 이름 또는 sku**참조).
 
    ```powershell
-   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
 
    #Example of text file:
    #user1@domain.com
@@ -123,7 +123,7 @@ ms.locfileid: "41887817"
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>한 사용자에 게 오디오 회의 라이선스를 할당 하는 방법
 
-단계는 Office 365 라이선스를 할당 하는 것과 동일 합니다. [비즈니스용 Office 365에 대 한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)참조 하세요.
+이 단계는 Microsoft 365 또는 Office 365 라이선스를 할당 하는 것과 동일 합니다. [비즈니스용 Microsoft 365에 대 한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)참조 하세요.
 
 ### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>오디오 회의 라이선스를 대량으로 할당 하는 방법
 
@@ -138,7 +138,7 @@ ms.locfileid: "41887817"
     이 예제에서는 음성 회의 라이선스와 함께 Enterprise E3 라이선스를 할당 합니다.
 
     ```powershell
-    #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+    #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
     #Example of text file:
     #user1@domain.com
     #user2@domain.com
@@ -194,7 +194,7 @@ ms.locfileid: "41887817"
     
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>한 사용자에 게 통신 크레딧 라이선스를 할당 하는 방법
 
-단계는 Office 365 라이선스를 할당 하는 것과 동일 합니다. [비즈니스용 Office 365에 대 한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)참조 하세요.
+이 단계는 Microsoft 365 또는 Office 365 라이선스를 할당 하는 것과 동일 합니다. [비즈니스용 Microsoft 365에 대 한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)참조 하세요.
 
 ### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>통신 제작진 라이선스를 대량으로 할당 하는 방법
 
@@ -204,7 +204,7 @@ ms.locfileid: "41887817"
   
 [통화 플랜 설정](/microsoftteams/set-up-calling-plans)
   
-[자금 추가 및 통신 크레딧 관리](/microsoftteams/add-funds-and-manage-communications-credits)
+[자금 추가 및 커뮤니케이션 크레딧 관리](/microsoftteams/add-funds-and-manage-communications-credits)
   
   
  

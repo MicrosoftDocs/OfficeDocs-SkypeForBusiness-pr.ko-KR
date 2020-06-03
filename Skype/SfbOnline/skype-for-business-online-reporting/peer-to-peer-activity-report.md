@@ -22,16 +22,16 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: '비즈니스용 Skype 피어 투 피어 활동 보고서를 다운로드 하 여 필요에 맞게 해석 하 고 사용자 지정 하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: 53d36b29961991a6d87ccd8b3ccfb94335693ac8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3708bff31f0034347c23d67d58cf4be7cb3bc956
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769341"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205059"
 ---
 # <a name="peer-to-peer-activity-report"></a>피어-투-피어 활동 보고서
 
-새 Office 365 **보고서** 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 **비즈니스용 Skype 피어 투 피어 활동** 보고서를 사용 하 여 사용자 들이 메신저 대화, 오디오, 비디오, 응용 프로그램 공유, 파일 전송 중 어느 것을 사용 하 고 있는지 확인할 수 있습니다. 
+**보고서** 대시보드에는 조직의 Microsoft 365 또는 Office 365 제품 전반에 대 한 활동 개요가 표시 됩니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 **비즈니스용 Skype 피어 투 피어 활동** 보고서를 사용 하 여 사용자 들이 메신저 대화, 오디오, 비디오, 응용 프로그램 공유, 파일 전송 중 어느 것을 사용 하 고 있는지 확인할 수 있습니다. 
 
 [보고서 개요](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)를 확인 합니다.
   
@@ -42,9 +42,9 @@ ms.locfileid: "41769341"
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>비즈니스용 Skype 피어 투 피어 활동 보고서에 액세스 하는 방법
 
-1. 관리 센터로 이동 하 여 **보고서** > **사용**을 > 합니다.
+1. 관리 센터로 이동 하 여 **보고서**  >  **사용**을 > 합니다.
     
-2. **사용 현황** 페이지의 왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 **Skype** > **피어 투 피어 활동** 을 선택 합니다. 또는 **비즈니스용 skype 활동 위젯을 클릭** 한 다음 비즈니스용 **skype 활동** 목록에서 비즈니스용 **skype 피어 투 피어 활동** 을 클릭 합니다.
+2. **사용 현황** 페이지의 **Skype for Business**  >  왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 Skype**피어 투 피어 활동** 을 선택 합니다. 또는 **비즈니스용 skype 활동 위젯을 클릭** 한 다음 비즈니스용 **skype 활동** 목록에서 비즈니스용 **skype 피어 투 피어 활동** 을 클릭 합니다.
 
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>비즈니스용 Skype 피어 투 피어 활동 보고서 해석
 

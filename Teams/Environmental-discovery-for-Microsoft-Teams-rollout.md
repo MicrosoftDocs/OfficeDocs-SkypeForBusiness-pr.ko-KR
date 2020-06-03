@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 비즈니스용 Skype에서 Microsoft 팀으로의 여행에 대 한 계획을 수립할 때 자세한 환경 검색을 수행 하는 방법을 설명 합니다.
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a7758e6dcc376e42b787910770d731d08d8bcf99
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 6decfba208fd33bfd1326b4839ef77c9fc1f7558
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349672"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522681"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 팀 배포 환경 검색
 ===================================================

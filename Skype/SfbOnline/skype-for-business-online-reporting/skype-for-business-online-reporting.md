@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: '이 참조 가이드를 사용 하 여 비즈니스용 Skype Online 보고 및 사용할 수 있는 정보에 대해 알아보세요. '
-ms.openlocfilehash: 24574fdc572eeca323487b40ff9a1d5874f4f5ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 90326597b6df3a96e7624852d849a64e3eec348f
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705953"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205489"
 ---
 # <a name="skype-for-business-online-reporting"></a>비즈니스용 Skype Online 보고
 
@@ -33,22 +33,22 @@ ms.locfileid: "41705953"
 비즈니스용 Skype Online 보고서에 액세스 하려면 사용자 계정 및 암호를 사용 하 여 Microsoft 365 관리 센터에 로그온 합니다. 로그온 하는 데 사용 하는 계정에는 전역 관리자 역할을 할당 하거나 보고서를 보기 위해 비즈니스용 Skype 서비스 관리자 역할을 위임 받아야 합니다.
   
 > [!NOTE]
-> 권한을 확인 하려면 관리 센터에서 **사용자** > **활성 사용자**> 합니다. 사용자의 표시 이름을 클릭 한 다음 **편집** 을 클릭 하 고 계정 속성 페이지에서 **역할** 을 클릭 합니다.
+> 권한을 확인 하려면 관리 센터에서 **사용자**  >  **활성 사용자**> 합니다. 사용자의 표시 이름을 클릭 한 다음 **편집** 을 클릭 하 고 계정 속성 페이지에서 **역할** 을 클릭 합니다.
   
 ## <a name="skype-for-business-online-reporting-reference"></a>비즈니스용 Skype Online 보고 참고 자료
 
-Office 365 및 비즈니스용 Skype 관리 센터에서 비즈니스용 Skype Online을 포함 하 여 다양 한 유형의 보고서를 사용할 수 있습니다.
+관리 센터에서 비즈니스용 Skype Online을 포함 하 여 다양 한 유형의 보고서를 사용할 수 있습니다.
   
  **보고서를 보려면**
   
-1. 관리 센터 또는 **비즈니스용 Skype 관리 센터** > **보고서**로 이동 합니다.
+1. 관리 센터 또는 **비즈니스용 Skype 관리 센터**  >  **보고서**로 이동 합니다.
     
 2. 대시보드 창에서 보고서 위젯을 클릭 하거나 목록에서 원하는 보고서를 선택 합니다.
     
 |**보고서**|**측정 내용**|
 |:-----|:-----|
 |[비즈니스용 Skype 활동 보고서](activity-report.md) <br/> | 활성 사용자 <br/>  활성 메신저 사용자 <br/>  활성 오디오 사용자 <br/>  활성 영상 사용자 <br/>  활성 응용 프로그램 공유 사용자 <br/>  활성 파일 전송 사용자 <br/> |
-|[비즈니스용 Skype 피어 투 피어 활동 보고서](peer-to-peer-activity-report.md) <br/> | Total <br/>  메신저 <br/>  오디오 <br/>  비디오만 <br/>  응용 프로그램 공유 <br/>  파일 전송 <br/> |
+|[비즈니스용 Skype 피어 투 피어 활동 보고서](peer-to-peer-activity-report.md) <br/> | Total <br/>  메신저 <br/>  오디오 <br/>  비디오 <br/>  응용 프로그램 공유 <br/>  파일 전송 <br/> |
 |[비즈니스용 Skype 컨퍼런스 참가자 활동 보고서](conference-participant-activity-report.md) <br/> | Total <br/>  메신저 <br/>  오디오/비디오 <br/>  응용 프로그램 공유 <br/>  웹 <br/>  전화 접속 <br/> |
 |[비즈니스용 Skype 컨퍼런스 이끌이 활동 보고서](conference-organizer-activity-report.md) <br/> | 오디오 분 <br/>  비디오 시간 (분) <br/>  오디오/비디오 회의 시간 (분) <br/>  전화 접속 회의 시간 (분) <br/>  전화 걸기 회의 시간 (분) <br/> |
 |[비즈니스용 Skype 장치 사용 현황 보고서](device-usage-report.md) <br/> | Windows 사용자 <br/>  Windows Phone 사용자 <br/>  Android 사용자 <br/>  iPhone 사용자 <br/>  iPad 사용자 <br/> |
@@ -58,7 +58,7 @@ Office 365 및 비즈니스용 Skype 관리 센터에서 비즈니스용 Skype O
 |[비즈니스용 Skype PSTN 분 풀 보고서](pstn-minute-pools-report.md) <br/> | 접근 권한 값은 통화에 사용 되는 라이선스/서비스 계획입니다. <br/> 라이선스 유형 <br/> 기능 설명 <br/> 국가 분 풀  <br/> 사용 된 분 <br/> 총 분 <br/> 해당 월에 사용 된 분의 백분율 <br/> |
 |[비즈니스용 Skype 세션 정보 보고서](session-details-report.md) <br/> | 사용자 별칭 <br/> 대화 상자 ID  <br/> 미디어 유형  <br/> 시작 및 종료 시간 <br/> URI에서 (으)로 <br/> 컨퍼런스 URL <br/> 전화 번호 <br/> |
  
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

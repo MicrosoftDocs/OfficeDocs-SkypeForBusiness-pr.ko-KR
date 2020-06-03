@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 search.appverid: MET150
 description: 팀을 사용 하 여 네트워크 상태를 모니터링 하 고, 사용자의 참여를 유지 하 고, 새 기능을 준비 하는 방법을 알아봅니다.
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b414cd4a6e312270520560edd3ed4d14c874bacb
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904093"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522811"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft 팀을 효과적으로 사용 하는 방법
 

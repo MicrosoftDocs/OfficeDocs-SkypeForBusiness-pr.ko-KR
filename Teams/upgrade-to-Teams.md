@@ -5,7 +5,7 @@ ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 현재 비즈니스용 Skype 배포에 따라 Microsoft 팀에 대 한 최적의 업그레이드 경로를 결정 합니다.
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 030081b4fbf633e808e1c340f7b88b8224c13700
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 381a4475a4e6464586e25e5cc8b6c9b7902acc2f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905190"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523391"
 ---
 # <a name="overview"></a>개요
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 비즈니스용 Skype를 계속 사용 하면서 팀이 조직에 제공할 수 있는 모든 작업을 살펴보기 위해 Microsoft 팀 파일럿을 시작 하기 위한 지침
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706458"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522691"
 ---
 # <a name="conduct-a-user-pilot"></a>사용자 파일럿 수행
 
@@ -38,13 +38,13 @@ ms.locfileid: "42706458"
 - [환경 준비](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
 
-조직에서는 새 기술을 배포 하 여 비용 절감, 보안 준수, 직원 만족도, 운영 효율성 등의 비즈니스 가치를 실현할 수 있지만, 사용자의 생산성 및 조직 인프라에도 영향을 줄 수 있습니다 ( 네트워크). 조직에서 신기술을 사용 하도록 설정 하기 전에 공식적인 사용자 파일럿을 실시 하세요. 전체 회의실을 그리기 전에 벽에 색의 작은 패치를 사용 하는 것과 마찬가지로, 파일럿을 수행 하 여 기술 및 사용자의 교육을 확인 하 고, 문제를 식별 및 완화 하 고, 성공 하는 데 도움이 되는 광범위 한 롤아웃을 테스트 합니다. 조직 차원의 구현.
+조직에서는 새 기술을 배포 하 여 비용 절감, 보안 준수, 직원 만족도, 운영 효율성 등의 비즈니스 가치를 실현할 수 있지만 사용자의 생산성 및 조직 인프라 (네트워크)에도 영향을 줄 수 있습니다. 조직에서 신기술을 사용 하도록 설정 하기 전에 공식적인 사용자 파일럿을 실시 하세요. 전체 회의실을 그리기 전에 벽에 색의 작은 패치를 사용 하는 것과 마찬가지로, 파일럿을 수행 하 여 기술 및 사용자 준비를 확인 하 고, 문제를 식별 및 완화 하 고, 조직 전체를 구현 하는 데 도움이 되는 광범위 한 롤아웃을 테스트 합니다.
 
 가장 실제적인 결과를 얻으려면 파일럿에 실제 사용자를 포함 하 고, 통신 및 공동 작업을 모방 하 고, 기술 및 사용자 환경을 모두 확인 해야 합니다. 조직에서 비즈니스용 Skype 및 팀을 함께 진행 하거나, 나중에 팀으로 업그레이드 하거나, 통화 또는 회의와 같은 새로운 기능을 배포 하는 경우 파일럿을 통해 조직의 올바른 경로를 식별 하는 데 도움이 될 수 있습니다. 롤아웃 중 1 단계로 간주 되는 경우 이상적인 파일럿은 이미 시작 된 준비를 활용 하 고 대상 사용자 그룹에 대해 정의 된 계획을 구현 합니다.
 
 | | |
 |---|---|
-| ![결정 지점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>파일럿을 사용 하 여 프로젝트 방향을 알리려면 어떻게 하나요?</li></ul> |
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>파일럿을 사용 하 여 프로젝트 방향을 알리려면 어떻게 하나요?</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 지침을 사용 하 여 공식적인 파일럿을 디자인 하 고 실행 합니다.</li></ul>|
 
 > [!Tip]
@@ -78,14 +78,14 @@ ms.locfileid: "42706458"
 
 ## <a name="5-conduct-your-pilot"></a>5. 시험 운용 수행
 
-모든 물류를 준비 하 고 나면 이제 파일럿을 시작할 수 있습니다. 시험 운용에는 사용자와의 통신, 네트워크 성능 및 통화 품질이 양호한 상태를 유지 하 고, 참가자 로부터 피드백을 수집 하 고, 헬프 데스크 티켓을 검토 하 여 관련 질문에 대 한 질문이 포함 됩니다. 성과.
+모든 물류를 준비 하 고 나면 이제 파일럿을 시작할 수 있습니다. 시험 운용에는 사용자와의 통신, 네트워크 성능 및 통화 품질이 양호한 상태를 유지 하 고, 참가자 로부터 피드백을 수집 하 고, 팀과 관련 된 질문에 대 한 헬프 데스크 티켓을 검토 하는 것이 포함 됩니다.
 
 ### <a name="tips-for-pilot-success"></a>파일럿 성공에 대 한 팁
 
 다음 팁을 통해 파일럿의 성공 여부를 확인할 수 있습니다.
 
 - 파일럿을 시작 하기 전에 모든 파일럿 참가자가 적절 한 [공존 모드]에 대해 설정 되어 있는지 확인 합니다.
-- (https://aka.ms/SkypeToTeams-SetCoexistence) 유효성을 검사 하려는 경우)
+- ( https://aka.ms/SkypeToTeams-SetCoexistence) 유효성을 검사 하려는 경우)
 - 파일럿 전체에 걸쳐 사용자 의견, 사용 현황 데이터, 네트워크 데이터, 헬프데스크 티켓을 검토 하 여 파일럿이 원활 하 게 실행 되도록 하는 프로젝트 관련자와 회의를 합니다. 필요에 따라 조정을 수행 합니다.
 
 ### <a name="suggested-timeline"></a>제안 된 시간 표시 막대

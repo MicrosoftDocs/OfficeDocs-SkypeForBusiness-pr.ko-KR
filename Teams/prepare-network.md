@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43945588"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44523303"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams에 대한 조직의 네트워크 준비 
 
@@ -106,7 +106,10 @@ ms.locfileid: "43945588"
 <td>팀 클라이언트를 실행 하는 모든 컴퓨터에서 외부 DNS 쿼리를 확인 하 여 Office 365에서 제공 하는 서비스를 검색 하 고 방화벽이 액세스를 차단 하지 않는지 확인 합니다. 방화벽 포트를 구성 하는 방법에 대 한 자세한 내용은 <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 url 및 IP 범위로</a>이동 하세요.</td>
 </tr>
 <tr class="odd">
-<td>유효성 검사 (NAT) 풀 크기</td>
+<td>세션 유지 관리</td>
+<td>방화벽이 UDP에 대 한 매핑된 NAT (Network Address Translation) 주소 또는 포트를 변경 하지 않도록 합니다.</td>
+</tr><tr class="odd">
+<td>NAT 풀 크기 확인</td>
 <td>사용자 연결에 필요한 NAT (network address translation) 풀 크기의 유효성을 검사 합니다. 여러 사용자와 장치가 <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">NAT (Network Address translation) 또는 PAT (Port Address translation)</a>를 사용 하 여 Office 365에 액세스 하는 경우, 공개적으로 라우팅할 수 있는 각 IP 주소 뒤에 숨겨진 장치가 지원 되는 번호를 초과 하지 않는지 확인 해야 합니다. 포트 소모를 방지 하기 위해 적절 한 공용 IP 주소가 NAT 풀에 할당 되었는지 확인 합니다. 포트 소모는 내부 사용자와 장치가 Office 365 서비스에 연결할 수 없는 경우에 기여 합니다.</td>
 </tr>
 <tr class="even">

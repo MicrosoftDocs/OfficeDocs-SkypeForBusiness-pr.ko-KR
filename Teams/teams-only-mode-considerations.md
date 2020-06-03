@@ -7,7 +7,7 @@ ms.date: 01/09/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 관리자는 Microsoft 팀 관리 센터에서 Microsoft 팀 전용 모드로 업그레이드를 준비 하는 방법에 대해 알아볼 수 있습니다.
 localization_priority: Normal
 search.appverid: MET150
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c45a21a1aae9facd10dafe675d10955b3fa90c62
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 882bb40d1d7f300f51fded6321f29bafd7f8ba92
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903063"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522501"
 ---
 # <a name="teams-only-mode-considerations"></a>팀 전용 모드 고려 사항
 

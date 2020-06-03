@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '사용자를 위해 클라우드 보이스 메일을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5526bee2bd365a4047e3641ea223941227858d1a
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349722"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523121"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 메일 설정
 
@@ -35,7 +35,7 @@ ms.locfileid: "44349722"
 > [!NOTE]
 > 클라우드 보이스 메일은 Exchange 사서함 에서만 depositing 보이스 메일 메시지를 지원 하며 제 3 자 이메일 시스템을 지원 하지 않습니다. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>클라우드 전용 환경: 클라우드 Psystem 사용자를 위한 클라우드 보이스 메일 설정
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-phone-system-users"></a>클라우드 전용 환경: 전화 시스템 사용자를 위한 클라우드 보이스 메일 설정
 
 비즈니스용 Skype Online 및 통화 계획 사용자의 경우, **전화 시스템** 라이선스와 전화 번호를 할당 한 후 사용자에 대 한 클라우드 보이스 메일이 자동으로 설정 되 고 제공 됩니다.
   
@@ -74,6 +74,26 @@ ms.locfileid: "44349722"
 
 > [!NOTE]
 > 대리인이 대리인을 대신 하 여 전화를 받으면 클라우드 보이스 메일에서 알림을 사용할 수 없습니다. 사용자는 부재 중 통화에 대 한 알림을 받을 수 있습니다.
+
+## <a name="enabling-protected-voicemail-in-your-organization"></a>조직에서 보호 된 보이스 메일 사용
+
+다른 사용자가 조직의 사용자에 대 한 보이스 메일 메시지를 떠날 때, 보이스 메일은 사용자의 사서함에 이메일 메시지 첨부 파일로 전달 됩니다. 메일 흐름 규칙을 사용 하 여 메시지 암호화를 적용 하면 이러한 보이스 메일 메시지가 다른 사람에 게 전달 되지 않도록 할 수 있습니다. 보호 된 음성 메일을 사용 하는 경우 사용자는 음성 메일 사서함으로 전화 하거나 Outlook, 웹용 Outlook 또는 Android 또는 iOS 용 Outlook에서 메시지를 열어 보호 된 음성 메일 메시지를 수신할 수 있습니다. 비즈니스용 Skype에서 보호 된 보이스 메일 메시지를 열 수 없습니다.
+
+메시지 암호화에 대 한 자세한 내용은 [전자 메일 암호화](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)를 참조 하세요.
+
+보호 된 보이스 메일을 설정 하려면 다음을 수행 합니다.
+
+1. https://admin.microsoft.com전역 관리자 권한이 있는 계정을 사용 하 여 이동 하 고 로그인 합니다.
+2. **모두 표시** 를 선택 하 고 **관리 센터**  >  **Exchange**로 이동 합니다.
+3. Exchange 관리 센터에서 **메일 흐름**  >  **규칙**을 선택 합니다.
+4. **+** **추가**를 선택한 다음 **Office 365 메시지 암호화 및 권한 보호를 메시지에 적용을**선택 합니다.
+5. 새 메일 흐름 규칙의 이름을 입력 하 고 다음 **규칙 적용**에서 **메시지 속성**을 선택 합니다  >  **Include the message type**  >  .**음성 메일**메시지를 포함 합니다. **확인을**선택 합니다.
+6. **다음 작업 수행**에서 **메시지에 Office 365 메시지 암호화 및 권한 보호 적용** 을 선택한 다음, **하나 선택을**선택 합니다. **RMS 템플릿에서** **전달 안 함**을 선택 합니다. **확인** 을 선택한 다음 **저장**을 선택 합니다.
+    > [!NOTE]
+    > **RMS 서식 파일** 목록이 비어 있으면 Office 365 메시지 암호화를 설정 해야 합니다. Office 365 메시지 암호화를 설정 하는 방법에 대 한 자세한 내용은 다음 문서를 참조 하세요.
+    > - [새로운 Office 365 메시지 암호화 기능 설정](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [Azure Information Protection 서식 파일 구성 및 관리](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
+    > - [전자 메일에 대 한 전달 옵션 안 함](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>조직에서 음성 메일 정책 설정
 

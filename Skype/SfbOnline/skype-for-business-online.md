@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: a6a41915188b033a953373e44b9ac7993d3e9586
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 35f66c853eb26cdd946ab08ae8ea63bdce2ca63d
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010561"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205355"
 ---
 # <a name="skype-for-business-online-admin"></a>비즈니스용 Skype Online 관리자
 
@@ -193,7 +193,7 @@ ms.locfileid: "42010561"
                 <div class="card">
                     <div class="cardText">
                         <h3>오디오 회의</h3>
-                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Office 365의 오디오 회의</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">조직의 오디오 회의 설정 관리</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">오디오 회의 일반적인 질문</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">오디오 회의 공급자 비교</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">해당 국가/지역에서 음성 회의를 사용할 수 있는지 확인</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">오디오 회의</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">조직의 오디오 회의 설정 관리</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">오디오 회의 일반적인 질문</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">오디오 회의 공급자 비교</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">해당 국가/지역에서 음성 회의를 사용할 수 있는지 확인</a></p>
                     </div>
                 </div>
             </div>
@@ -229,7 +229,7 @@ ms.locfileid: "42010561"
                 <div class="card">
                     <div class="cardText">
                         <h3>통화 플랜</h3>
-                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Office 365의 통화 플랜은 무엇 인가요?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">통화 플랜 설정</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">해당 국가/지역에서 통화 요금제를 사용할 수 있는지 확인</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">통화 플랜은 무엇 인가요?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">통화 플랜 설정</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">해당 국가/지역에서 통화 요금제를 사용할 수 있는지 확인</a></p>
                     </div>
                 </div>
             </div>
@@ -241,7 +241,7 @@ ms.locfileid: "42010561"
                 <div class="card">
                     <div class="cardText">
                         <h3>전화 시스템</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365의 전화 시스템 이란?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">다음&#39;Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 내용</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">전화 시스템 이란?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">다음&#39;휴대폰 시스템에서 제공 하는 내용</a></p>
                </div>
                 </div>
             </div>

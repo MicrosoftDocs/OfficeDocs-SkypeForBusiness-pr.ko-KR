@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 이 문서는 비즈니스용 Skype에서 Microsoft 팀으로 업그레이드를 시작 하는 데 도움이 될 것입니다.
 localization_priority: Normal
@@ -28,12 +28,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 761ed35af35ab65082ded5defdf301b46ae85eea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f113f617ece465c3f18a0e9facacabc7bd776eb9
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905240"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523001"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft Teams 업그레이드 시작하기
 

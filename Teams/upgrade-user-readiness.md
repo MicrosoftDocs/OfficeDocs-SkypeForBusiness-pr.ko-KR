@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Microsoft 팀으로 실험, 등록, 업그레이드 하는 등의 사용자와 통신, 교육 및 지원 계획을 수립할 수 있습니다.
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b751ec6d14e5d137bb9dfdb3e4c6e9664137cda4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7e7ab120ac31a8624343551cf4a9aec10e08acf3
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905330"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523361"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>사용자 준비 계획 준비
 

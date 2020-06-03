@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 조직의 관련자를 구조화 하 여 Microsoft 팀 업그레이드가 성공적으로 수행 되도록 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4aecbbe19e004191f6605af0a0552a0b7a87e998
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 22fe71ec94ffec24f1a06846e51981db957c15f8
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904463"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522591"
 ---
 # <a name="enlist-your-project-stakeholders"></a>프로젝트 관련자 참여
 
