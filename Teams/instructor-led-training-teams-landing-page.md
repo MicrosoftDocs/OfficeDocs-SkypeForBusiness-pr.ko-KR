@@ -2,7 +2,7 @@
 layout: HubPage
 ms.topic: hub-page
 title: 사용자를 위한 강사 진행 교육 및 비디오
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 manager: serdars
 description: 무료로 진행되는 강사 주도형 교육 과정에 등록하여 Microsoft Teams에 대한 모든 정보를 얻을 수 있는 방법에 대해 알아보세요.
 localization_priority: Priority
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: f3c50309e97c38e21e06c1ec133a5261f09ea392
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 6765b67498cb3e3ade6104ff86fc49d9be3384f1
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951003"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523451"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -172,26 +172,6 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
                         <h3>교육용 Teams - 웨비나</h3>
                         <p>고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다.</p>
                         <p><i>대상 그룹: 교직원, 학생, 학자, 연구 교수, IT 전문가</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Teams로 실무 직원들의 역량을 강화하세요.</h3>
-                        <p>Teams가 어떻게 전 직원에게 무한한 잠재력을 제공하는 디지털 혁신을 가능하게 하는지 알아보세요.</p>
-                        <p><i>대상 그룹: 비즈니스 결정권자, IT 의사 결정권자</i></p>
                     </div>
                 </div>
             </div>
