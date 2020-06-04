@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 비즈니스용 Skype에서 Microsoft 팀으로 업그레이드 하는 방법에 대해 자주 묻는 질문입니다.
 localization_priority: Priority
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 595d8104e465217533a8e751eae69156cb548921
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902953"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522671"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 
@@ -118,7 +118,9 @@ Microsoft는 또한 업그레이드 계획 및 구현을 시작하기 위해 설
 
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>업그레이드 과정에 대한 질문이 있는 경우 누구에게 연락할 수 있나요?
 
-업그레이드와 관련된 질문이 있으면 현재 연락 담당자에게 연락할 수 있으며, 여기에는 할당된  Microsoft 계정 팀, 파트너 또는[FastTrack](https://www.microsoft.com/fasttrack)이 포함될 수 있습니다. 또는 [Microsoft Teams 관리 센터](https://admin.teams.microsoft.com/)에서 도움말 티켓을 열 수 있습니다.
+업그레이드와 관련된 질문이 있으면 현재 연락 담당자에게 연락할 수 있으며, 여기에는 할당된  Microsoft 계정 팀, 파트너 또는[FastTrack](https://www.microsoft.com/fasttrack)이 포함될 수 있습니다. 또는 [Microsoft Teams 관리 센터](https://admin.teams.microsoft.com/)에서 **도움이 필요** 단추를 클릭하여 도움말 티켓을 열 수 있습니다.
+
+![Teams 도움말 필요 단추의 스크린샷](media/helpDesk.png "Microsoft Teams 관리 센터의 Teams 도움말 필요 단추의 스크린샷")     
 
 ### <a name="do-i-upgrade-all-users-on-my-tenant-together-or-can-i-opt-to-upgrade-select-users-at-a-time"></a>테넌트의 모든 사용자를 한 번에 모두 업그레이드를 하나요 혹은 한 번에 사용자들을 선택하고 업그레이드하도록 선택할 수 있나요?
 
