@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 팀에서 자원 계정을 만들고, 편집 하 고, 관리 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512896"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565911"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -52,7 +52,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 <!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
 
-자동 전화 교환 또는 통화 대기열이 최상위 수준 자동 전화 교환 아래에 중첩 되는 경우 연결 된 리소스 계정은 자동 전화 교환 및 통화 대기열의 구조에 여러 항목을 입력 하려는 경우에만 전화 번호를 필요로 합니다.
+자동 전화 교환 또는 통화 대기열이 최상위 자동 전화 교환 아래에 중첩 되는 경우 연결 된 리소스 계정은 자동 전화 교환 및 통화 대기열의 구조에 여러 항목을 입력 하려는 경우에만 전화 번호를 필요로 합니다.
 
 온라인 상태인 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하며 Enterprise Voice를 사용 하도록 설정 되어 있거나 Office 365 통화 계획이 있어야 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
@@ -98,9 +98,11 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 중첩 된 자동 전화 교환 또는 통화 대기열에는 리소스 계정이 필요 하지만 대부분의 경우 해당 리소스 계정은 전화 번호와 전화 번호를 지 원하는 데 필요한 라이선스가 필요 하지 않습니다. 전화 번호가 필요 하지 않은 리소스 계정을 만들려면 다음 작업을 순서 대로 수행 해야 합니다.
 
 1. 새 자원 계정을 만듭니다. [Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-the-microsoft-teams-admin-center) 또는 [Powershell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell)를 참조 하세요.
+
 2. 다음 중 하나를 설정 합니다.
    - [클라우드 자동 전화 교환](create-a-phone-system-auto-attendant.md)
    - [클라우드 통화 대기열](create-a-phone-system-call-queue.md)
+   
 3. 통화 대기열 또는 자동 전화 교환에 리소스 계정을 할당 합니다. [전화 번호 및 서비스 할당/할당 취소를](#assignunassign-phone-numbers-and-services)참조 하세요.
 
 
@@ -115,16 +117,6 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 새 리소스 계정을 만들려면 **추가**를 클릭 합니다. **리소스 계정 추가** 창에서 **표시 이름**, **사용자 이름** (도메인 이름, 자동으로 채워야 함), 리소스 계정의 **리소스 계정 유형을** 입력 합니다. 리소스 계정 유형은 리소스 계정에 연결 하려는 앱에 따라 **자동 전화 교환** 또는 **통화 대기열**이 될 수 있습니다. 준비가 완료 되 면 **저장**을 클릭 합니다.
 
 ![새 자원 계정 옵션 스크린샷](media/res-acct.png)
-
-<a name="enablesignin"> </a>
-
-리소스 계정을 만들 때에는 계정에 대 한 로그인이 차단 됩니다. 창 맨 위에 리소스 계정을 로드할 수 없다는 내용의 배너가 표시 됩니다. 리소스 계정이 로그인 할 수 있도록 Microsoft 365 관리 센터에서 자원 계정에 대 한 로그인 차단을 해제 해야 합니다. 이렇게 하려면 Microsoft 365 관리 센터에서 **사용자**로 이동 하 여을 검색 한 다음 리소스 계정을 선택 합니다. 표시 이름 아래의 창 맨 위에서 **이 사용자의 차단 해제**를 클릭 하 고 **로그인에서이 사용자에 게 차단** 확인란의 선택을 취소 한 다음 **변경 내용 저장**을 클릭 합니다.
-
-![이 사용자의 차단 해제 옵션 스크린샷](media/res-acct-unblock.png)
-
-이렇게 하면 표시 이름 아래에 "로그인 허용"이 표시 됩니다. 
-
-![로그인 허용 메시지 스크린샷](media/res-acct-sign-in-allowed.png)
 
 다음으로 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)에 설명 된 대로 Microsoft 365 관리 센터의 자원 계정에 라이선스를 적용 합니다.
 
@@ -238,7 +230,9 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 ## <a name="troubleshooting"></a>문제 해결
 
-팀 관리 센터에서 자원 계정에 할당 된 전화 번호가 표시 되지 않고 해당 번호를 할당할 수 없는 경우 다음 사항을 확인 하세요.
+### <a name="you-dont-see-the-phone-number-assigned-to-the-resource-account-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 자원 계정에 할당 된 전화 번호가 표시 되지 않는 경우
+
+Microsoft 팀 관리 센터에서 자원 계정에 할당 된 전화 번호가 표시 되지 않고 해당 번호를 할당할 수 없는 경우 다음을 확인 합니다.
 
 ``` Powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
@@ -252,6 +246,25 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
 > [!NOTE]
 > Cmldet을 실행 한 후 팀 관리 센터 웹 페이지를 새로 고치면 번호를 올바르게 할당할 수 있습니다.
+
+### <a name="you-get-a-we-cant-use-this-resource-account-for-services-error-message"></a>"서비스에이 리소스 계정을 사용할 수 없습니다." 라는 메시지가 표시 됩니다. 오류 메시지
+
+<a name="blocksignin"> </a>
+
+리소스 계정을 사용 하려고 하면 다음과 같은 오류 메시지가 나타납니다.
+
+"서비스에 대해이 리소스 계정을 사용할 수 없습니다. 리소스 계정은 사용 하지 않도록 설정 하 고 로그인을 차단 해야 합니다. Microsoft 365 관리 센터의 사용자 페이지에서이 자원 계정에 대 한 로그인을 차단 해야 합니다. "
+
+기본적으로 리소스 계정을 만들면 사용할 수 없도록 설정 되 고 계정에 대 한 로그인이 차단 됩니다. 이러한 설정은 변경 하지 않아야 합니다. 이 오류 메시지를 해결 하려면 리소스 계정이 로그인 되지 않도록 차단 합니다. 실행할 작업:
+
+1. Microsoft 365 관리 센터에서 **사용자**로 이동 하 여을 검색 한 다음 리소스 계정을 선택 합니다.
+2. 창의 맨 위에서 표시 이름 아래에서 **이 사용자 차단을 클릭 하세요?** 에서 **이 사용자에 게 로그인을 차단** 확인란을 선택 하 고 **변경 내용 저장**을 선택 합니다.
+
+   ![이 사용자 차단 옵션 스크린샷](media/res-acct-block.png)
+
+    이렇게 하면 표시 이름 아래에 "로그인이 차단 됨"이 표시 됩니다.
+
+      ![로그인 차단 된 메시지 스크린샷](media/res-acct-sign-in-blocked.png)
 
 ## <a name="related-information"></a>관련 정보
 

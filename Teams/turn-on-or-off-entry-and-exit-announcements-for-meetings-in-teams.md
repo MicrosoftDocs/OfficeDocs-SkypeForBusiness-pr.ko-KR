@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 관리자는 Microsoft 팀 모임에서 입력 및 종료 알림을 설정 하거나 해제 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 5b3cdabac41c5c79827df714ccf3192f06b55440
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 4e263328e0f38e1c058fd9036e22eefbfa50f6fd
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539475"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562053"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Microsoft 팀에서 모임에 대 한 시작 및 종료 알림 설정 또는 해제
 
@@ -52,8 +52,9 @@ Office 365에서 오디오 회의를 설정 하는 경우 음성 회의 브리�
 4. **브리지 설정** 창에서 모임 항목을 사용 하거나 사용 하지 않도록 설정 **하 고 알림을 종료**합니다. 이 옵션이 기본적으로 선택 되어 있습니다. 이 확인란을 선택 취소 하면 모임에 참가 한 사용자에 게 다른 사용자가 모임에 입장 하거나 떠날 때 알림이 표시 되지 않습니다.
     
 5. **입력/종료 알림 유형에**서 **이름 또는 전화 번호** 또는 **톤**을 선택 합니다.
-  > [!NOTE]
-  > 기본적으로 외부 참가자는 전화를 건 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호에 대 한 개인 정보를 유지 관리 하려면 **입력/종료 알림 유형에** **색조** 를 선택 하세요 (이로 인해 팀에서 번호를 읽지 못하게 됩니다).
+
+   > [!NOTE]
+   > 기본적으로 외부 참가자는 전화를 건 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호에 대 한 개인 정보를 유지 관리 하려면 **입력/종료 알림 유형에** **색조** 를 선택 하세요 (이로 인해 팀에서 번호를 읽지 못하게 됩니다).
     
 6. **이름 또는 전화 번호**를 선택한 경우 **전화 건 사람이 모임에 참가 하기 전에 해당 이름을 기록해 달라고 요청**하거나 사용 하지 않도록 설정 합니다.
     

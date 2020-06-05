@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 우편물 종류 레이블을 정의 하 고 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779765"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562073"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 팀의 민감도 레이블
 
@@ -109,6 +109,10 @@ $setting["EnableMIPLabels"] = "False"
 **팀 그래프 Api, Powershell cmdlet 및 템플릿에 대 한 민감도 레이블 지원**
 
 현재 사용자는 Graph Api, Powershell cmdlet, 템플릿을 통해 직접 만든 팀에 민감도 레이블을 적용할 수 없습니다.
+
+**팀의 .EDU Sku에서 민감도 레이블 지원**
+
+민감도 레이블은 팀 교육 Sku를 사용 하는 고객에 게 현재 지원 되지 않습니다.
 
 **개인 채널의 SharePoint 사이트 모음에서 우편물 종류 레이블을 직접 편집**
 

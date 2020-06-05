@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '사용자와 다른 여러 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 전화 회의 ID를 할당 하려면 Microsoft 팀의 단계를 참조 하세요. '
-ms.openlocfilehash: f887e6567052f80d6353202906f77a51e6403372
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: eecf5e015c1be21870221ba3b41a43640a6c0869
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539455"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562063"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 오디오 회의 설정 관리
 
@@ -145,6 +145,8 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 4. **알림 유형 입력/종료**에서 **톤** 또는 **이름 또는 전화 번호**를 선택 합니다. 
 
     **이름 또는 전화 번호**를 선택 하 **는 경우 모임에 참가 하기 전에 해당 사용자의 이름을 기록 하도록 요청 발신자**를 선택 하거나 사용 하지 않도록 설정할 수도 있습니다. 
+    > [!NOTE]
+> 기본적으로 외부 참가자는 전화를 건 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호에 대 한 개인 정보를 유지 관리 하려면 **입력/종료 알림 유형에** **색조** 를 선택 하세요 (이로 인해 팀에서 번호를 읽지 못하게 됩니다).
 
     > [!NOTE]
     > 기본적으로 외부 참가자는 전화를 건 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호에 대 한 개인 정보를 유지 관리 하려면 **입력/종료 알림 유형에** **색조** 를 선택 하세요 (이로 인해 팀에서 번호를 읽지 못하게 됩니다).
