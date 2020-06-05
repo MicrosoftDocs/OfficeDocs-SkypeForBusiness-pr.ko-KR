@@ -215,7 +215,6 @@
 ## 라이브 이벤트
 ### [Teams 라이브 이벤트란?](teams-live-events/what-are-teams-live-events.md)
 ### [Teams 라이브 이벤트 계획](teams-live-events/plan-for-teams-live-events.md)
-### [라이브 이벤트의 발표자 및 참가자 기능](roles-in-live-events.md)
 ### [Teams 라이브 이벤트 설정](teams-live-events/set-up-for-teams-live-events.md)
 ### [PowerShell을 사용하여 Teams 라이브 이벤트 정책 설정](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Teams 라이브 이벤트 설정 구성](teams-live-events/configure-teams-live-events.md)
