@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 015a127b90aeb24dd9b2c2bcfca2389e95bf1496
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523151"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583501"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -411,8 +411,6 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 모임 이끌이가 보고서를 다운로드 하지 못하도록 하려면 매개 변수를 **Disabled**로 설정 합니다. 기본적으로이 설정은 비활성화 되어 있으며 보고서를 다운로드 하는 옵션을 사용할 수 없습니다.
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>모임 정책 설정-제도 모드의 모임 공급자
-
-**(곧 지원됨)**
 
 이것은 사용자별 정책입니다. 이 설정은 *아일랜드 모드에 있는 사용자*에 게 어떤 Outlook 모임 추가 기능을 사용 하는 지를 제어 합니다. 사용자가 팀 모임 추가 기능을 사용할 수 있는지, 팀 모임이 나 비즈니스용 Skype 모임 추가 기능을 모두 사용 하 여 Outlook에서 모임을 예약할 수도 있습니다.
 

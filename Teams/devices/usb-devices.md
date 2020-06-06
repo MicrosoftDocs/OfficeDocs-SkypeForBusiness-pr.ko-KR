@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Microsoft 팀에 대해 인증 된 헤드셋, 스피커폰, 웹캠, 모니터 등의 USB 주변 기기와 장치에 대해 알아봅니다.
-ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
-ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
+ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
+ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407410"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44591298"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft 팀에 인증 된 USB 오디오 및 비디오 장치
 
@@ -76,59 +76,62 @@ ms.locfileid: "44407410"
 
 *업데이트 된 테이블 5 월 2020*
 
-| 제조업체    | Model                   | 갖춘  | 인증 된 프로그램                                  |
-|:----------------|:------------------------|:-----------|:---------------------------------------------------|
-|Jabra             |Jabra 링크 370 USB 동글으로 말하기 750 스피커폰|5/21/2020 | Microsoft 팀 인증  | 
-|EPOS              | 660 헤드셋 Sennheiser |5/15/2020 |Microsoft 팀 인증  | 
-|EPOS              | 560 헤드셋 Sennheiser|5/15/2020 |Microsoft 팀 인증  | 
-|EPOS              | Sennheiser 460T 헤드셋에 적응 |5/15/2020 |Microsoft 팀 인증  | 
-|EPOS              | 360 헤드셋 Sennheiser| 5/15/2020 |Microsoft 팀 인증  | 
-|옛 alink           |UH36 헤드셋 | 5/13/2020 |Microsoft 팀 인증  | 
-| Poly            | Savi 8210 Office        | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | Savi 8210 UC            | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | Savi 8220 Office        | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | Savi 8220 UC            | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | Savi 8240 Office        | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | Savi 8240 UC            | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | 블랙 배선 5210 헤드셋  | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | 블랙 배선 5220 헤드셋  | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | 블랙 배선 7225 헤드셋  | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | 여행자 포커스 UC        | 4/20/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| 옛 alink         | CP700                   | 4/13/2020  | Microsoft 팀 인증                      |
-| Jabra           | Evolve2 65 헤드셋      | 4/13/2020  | Microsoft 팀 인증                      |
-| EPOS/Sennheiser | SC 30에 영향을 줍니다.            | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 45에 미치는 영향            | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 60에 미치는 영향            | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 75 MS에 영향을 줍니다.         | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 75 MS EUL에 미치는 영향     | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 230 USB MS II에 영향을 줍니다. | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 260 USB MS II에 영향을 줍니다. | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 630 USB MS에 미치는 영향    | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 635 USB에 영향을 줍니다.       | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 660 USB MS에 미치는 영향    | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 660 ANC USB에 미치는 영향   | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| EPOS/Sennheiser | SC 665 USB에 영향을 줍니다.       | 4/9/2020   | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Logitech        | 영역 무선           | 4/8/2020   | Microsoft 팀 인증                      |
-| Poly            | 여행자 8200 헤드셋    | 3/26/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Logitech        | 영역 유선              | 3/26/2020  | Microsoft 팀 인증                      |
-| Jabra           | Evolve2 40 헤드셋      | 3/26/2020  | Microsoft 팀 인증                      |
-| Poly            | 여행자 6200 헤드셋    | 3/23/2020  | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | 여행자 4245 Office     | 3/23/2020  | Microsoft 팀 인증                      |
-| Poly            | 블랙 배선 8225 헤드셋  | 3/23/2020  | Microsoft 팀 인증                      |
-| Poly            | Calisto 5300-M          | 03/05/2020 | Microsoft 팀 인증                      |
-| Poly            | 여행자 4210 Office     | 03/05/2020 | Microsoft 팀 인증                      |
-| Poly            | 여행자 4210 UC         | 03/05/2020 | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | 여행자 4220 Office     | 03/05/2020 | Microsoft 팀 인증                      |
-| Poly            | 여행자 4220 UC         | 03/05/2020 | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | 여행자 5200 Office     | 03/05/2020 | Microsoft 팀 인증                      |
-| Poly            | 여행자 5200 UC         | 03/05/2020 | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype |
-| Poly            | 블랙 전선 3310-M        | 03/05/2020 | Microsoft 팀 인증                      |
-| Poly            | 블랙 전선 3315-M        | 03/03/2020 | Microsoft 팀 인증                      |
-| Poly            | 블랙 전선 3320-M        | 03/05/2020 | Microsoft 팀 인증                      |
-| poly            | 블랙 전선 3325-M        | 03/05/2020 | Microsoft 팀 인증                      |
-| Poly            | Calisto 3200-M          | 01/27/2020 | Microsoft 팀 인증                      |
-| Crestron        | CCS-마이크             | 12/18/2019 | Microsoft 팀 인증                      |
-| Sennheiser      | SP 30T                  | 12/05/2019 | Microsoft 팀 인증                      |
-| Polycom         | Elara                   | 11/06/2019 | Microsoft 팀 인증                      |
-| Polycom         | Studio 사운드바         | 10/18/2019 | Microsoft 팀 인증                      |
-| 옛 alink         | UVC30                   | 10/18/2019 | Microsoft 팀 인증                      |
+| 제조업체        | Model                                                     | 갖춘      | 인증 된 프로그램                                      |
+|:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+| EPOS                | 660 헤드셋 Sennheiser                              | 5/15/2020      | Microsoft 팀 인증                          |
+| EPOS                | 560 헤드셋 Sennheiser                              | 5/15/2020      | Microsoft 팀 인증                          |
+| EPOS                | Sennheiser 460T 헤드셋에 적응                             | 5/15/2020      | Microsoft 팀 인증                          |
+| EPOS                | 360 헤드셋 Sennheiser                              | 5/15/2020      | Microsoft 팀 인증                          |
+| 옛 alink             | UH36 헤드셋                                              | 5/13/2020      | Microsoft 팀 인증                          |
+| Poly                | Savi 8210 Office                                          | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | Savi 8210 UC                                              | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | Savi 8220 Office                                          | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | Savi 8220 UC                                              | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | Savi 8240 Office                                          | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | Savi 8240 UC                                              | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | Savi 8245 Office                                          | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | Savi 8245 UC                                             | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | 블랙 배선 5210 헤드셋                                    | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | 블랙 배선 5220 헤드셋                                    | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | 블랙 배선 7225 헤드셋                                    | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | 여행자 포커스 UC                                          | 4/20/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| 옛 alink             | CP700                                                     | 4/13/2020      | Microsoft 팀 인증                          |
+| Jabra               | Evolve2 65 헤드셋                                        | 4/13/2020      | Microsoft 팀 인증                          |
+| EPOS/Sennheiser     | SC 30에 영향을 줍니다.                                              | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 45에 미치는 영향                                              | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 60에 미치는 영향                                              | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 75 MS에 영향을 줍니다.                                           | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 75 MS EUL에 미치는 영향                                       | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 230 USB MS II에 영향을 줍니다.                                   | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 260 USB MS II에 영향을 줍니다.                                   | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 630 USB MS에 미치는 영향                                      | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 635 USB에 영향을 줍니다.                                         | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 660 USB MS에 미치는 영향                                      | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 660 ANC USB에 미치는 영향                                     | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| EPOS/Sennheiser     | SC 665 USB에 영향을 줍니다.                                         | 4/9/2020       | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Logitech            | 영역 무선                                             | 4/8/2020       | Microsoft 팀 인증                          |
+| Poly                | 여행자 8200 헤드셋                                      | 3/26/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Logitech            | 영역 유선                                                | 3/26/2020      | Microsoft 팀 인증                          |
+| Jabra               | Evolve2 40 헤드셋                                        | 3/26/2020      | Microsoft 팀 인증                          |
+| Poly                | 여행자 6200 헤드셋                                      | 3/23/2020      | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | 여행자 4245 Office                                       | 3/23/2020      | Microsoft 팀 인증                          |
+| Poly                | 블랙 배선 8225 헤드셋                                    | 3/23/2020      | Microsoft 팀 인증                          |
+| Poly                | Calisto 5300-M                                            | 03/05/2020     | Microsoft 팀 인증                          |
+| Poly                | 여행자 4210 Office                                       | 03/05/2020     | Microsoft 팀 인증                          |
+| Poly                | 여행자 4210 UC                                           | 03/05/2020     | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | 여행자 4220 Office                                       | 03/05/2020     | Microsoft 팀 인증                          |
+| Poly                | 여행자 4220 UC                                           | 03/05/2020     | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | 여행자 5200 Office                                       | 03/05/2020     | Microsoft 팀 인증                          |
+| Poly                | 여행자 5200 UC                                           | 03/05/2020     | Microsoft 팀으로 업그레이드 한 비즈니스용 Skype     |
+| Poly                | 블랙 전선 3310-M                                          | 03/05/2020     | Microsoft 팀 인증                          |
+| Poly                | 블랙 전선 3315-M                                          | 03/03/2020     | Microsoft 팀 인증                          |
+| Poly                | 블랙 전선 3320-M                                          | 03/05/2020     | Microsoft 팀 인증                          |
+| poly                | 블랙 전선 3325-M                                          | 03/05/2020     | Microsoft 팀 인증                          |
+| Poly                | Calisto 3200-M                                            | 01/27/2020     | Microsoft 팀 인증                          |
+| Crestron            | CCS-마이크                                               | 12/18/2019     | Microsoft 팀 인증                          |
+| Sennheiser          | SP 30T                                                    | 12/05/2019     | Microsoft 팀 인증                          |
+| Polycom             | Elara                                                     | 11/06/2019     | Microsoft 팀 인증                          |
+| Polycom             | Studio 사운드바                                           | 10/18/2019     | Microsoft 팀 인증                          |
+| 옛 alink             | UVC30                                                     | 10/18/2019     | Microsoft 팀 인증                          |
+| Jabra               | 용 Acast                                                  | 08/14/2019     | Microsoft에 인증 됨                                |
+

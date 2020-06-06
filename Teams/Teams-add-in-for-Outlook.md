@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416728"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583441"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -111,8 +111,6 @@ Teams 클라이언트는 사용자가 필요로 하는 버전이 32비트인지 
 | Teams 전용 | Teams |
 
 ### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>아일랜드 모드의 사용자가 팀 모임 추가 기능을 사용할 수 있는지 아니면 팀 모임 및 비즈니스용 Skype 모임 추가 기능을 둘 다 사용할지를 설정 합니다.
-
-**(곧 지원됨)**
 
 관리자는 팀 모임 정책 설정을 구성 하 여 사용자에 게 *아일랜드 모드의*Outlook 모임 추가 기능을 사용 하는 것을 제어할 수 있습니다. 사용자가 팀 모임 추가 기능을 사용할 수 있는지, 팀 모임이 나 비즈니스용 Skype 모임 추가 기능을 모두 사용 하 여 Outlook에서 모임을 예약할 수도 있습니다.
 
