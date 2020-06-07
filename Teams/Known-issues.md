@@ -18,16 +18,19 @@ f1.keywords:
 description: Teams 관리자이건 헬프디스크 지원 엔지니어이건 이 리소스로 조직에서 Microsoft Teams를 지원하세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0d4daacda88078a731e1db2126c814e862aefa3
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 31951747565d7e226c89683b48fc1f09130af1bd
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349572"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44561983"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>조직에서 Microsoft Teams 지원
 
-Teams의 알려진 문제점을 찾고 있다면 잘 찾아오셨습니다. 이 문서의 리소스로 조직에서 Teams를 지원할 수 있습니다. 
+> [!NOTE]
+> 이 문서는 Teams의 알려진 문제 문서를 대체 합니다. 
+
+이 문서의 리소스로 조직에서 Teams를 지원할 수 있습니다. 
 
 이 문서의 아래에 있는 가장 [일반적인 문제 및 해결 방법](#common-issues-and-resolutions) 목록을 검토하는 것부터 시작합니다.
 
