@@ -1,7 +1,8 @@
 # [비즈니스용 Skype 서버 2019](../skype-for-business-server-2019.md)
 
 ## [새로운 기능](../whats-new.md)
-## [사용되지 않는 기능](../deprecated.md)
+## [더 이상 사용되지 않는 기능](../deprecated.md)
+## [가상화 지침](../virtualization-guidance.md)
 ## [Microsoft 전화 통신 솔루션](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [비즈니스용 Skype 다운로드 및 업데이트](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
