@@ -21,16 +21,16 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5224fabff542051438bc523388b96ecf93f7af9a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 76086d7e34d56a9bab59c7ca10ed40472aecd7a1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905920"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610247"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft 팀 채택
 
-소규모 기업 이거나 채팅, 팀 & 채널, 모임으로 시작 하는 팀을 롤아웃하기를 원할 경우, 빠르게 시작 하 고 실행할 수 있도록 설계 된 규범적 [이용 지침](get-started-with-teams-quick-start.md)을 사용 하세요. 하이브리드 또는 온-프레미스 비즈니스용 Skype 구성을 사용 하는 대규모 조직 이거나 음성 기능 (예: Office 365 통화 요금제 또는 전화 시스템)을 배포 하려는 경우 시작 지침으로 시작 하 고, **더 자세한 도입 지침**에서 아래 추가 지침을 확인 해야 할 수 있습니다.
+소규모 기업 이거나 채팅, 팀 & 채널, 모임으로 시작 하는 팀을 롤아웃하기를 원할 경우, 빠르게 시작 하 고 실행할 수 있도록 설계 된 규범적 [이용 지침](get-started-with-teams-quick-start.md)을 사용 하세요. 하이브리드 또는 온-프레미스 Skype 구성을 사용 하는 대규모 조직 이거나, 예를 들어 Microsoft 365 또는 Office 365 통화 요금제 또는 전화 시스템 등의 음성 기능을 배포 하려는 경우 시작 지침을 사용 하 여 시작할 수 있지만 **더 깊은 도입 지침**에서 아래 추가 지침이 필요 합니다.
 
 <ul class="panelContent cardsFTitle">
     <li>

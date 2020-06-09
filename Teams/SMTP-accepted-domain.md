@@ -16,17 +16,17 @@ f1.keywords:
 description: 팀 구성원에 게 알림을 보내기 위해 Exchange Online에서 허용 된 보낸 사람 도메인으로 Microsoft 팀 SMTP 도메인을 추가 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc35a4797cf5b5fde001090e386f9c172c5b9458
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b0efec3be7bbd9cf14ee7d0f1ca826ca76996795
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137268"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637747"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Exchange Online에서 Microsoft 팀 SMTP 도메인을 허용 된 보낸 사람 도메인으로 추가 
 =============================================================================
 
-관리 콘솔에서 또는 Outlook을 사용 하 여 Office 365 그룹을 만들지 여부에 관계 없이 Exchange Online은 그룹에 추가 되는 팀 구성원의 알림을 보내는 데 사용 됩니다. 이러한 메시지는 사용자의 기본 도메인 SMTP FQDN을 나타내므로 테 넌 트에서 생성 됩니다.
+관리 콘솔에서 Microsoft 365 그룹을 만들거나 Outlook을 사용 하는 경우 Exchange Online은 그룹에 추가 되는 팀 구성원의 알림을 보내는 데 사용 됩니다. 이러한 메시지는 사용자의 기본 도메인 SMTP FQDN을 나타내므로 테 넌 트에서 생성 됩니다.
 
 ![그룹에 추가 된 사용자를 보여 주는 메시지 머리글의 스크린샷](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 팀에서 자원 계정을 만들고, 편집 하 고, 관리 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: f454658cb051ed9e918ca8a1d90c716a35933f68
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565911"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637977"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -54,7 +54,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 자동 전화 교환 또는 통화 대기열이 최상위 자동 전화 교환 아래에 중첩 되는 경우 연결 된 리소스 계정은 자동 전화 교환 및 통화 대기열의 구조에 여러 항목을 입력 하려는 경우에만 전화 번호를 필요로 합니다.
 
-온라인 상태인 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하며 Enterprise Voice를 사용 하도록 설정 되어 있거나 Office 365 통화 계획이 있어야 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+온라인에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하 고 Enterprise Voice를 사용 하도록 설정 하거나 Microsoft 365 또는 Office 365 통화 계획을 받아야 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 > [!WARNING]
 > 자원 계정 관련 문제가 발생 하지 않도록 하려면 다음 단계를 순서 대로 수행 합니다.
@@ -118,7 +118,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 ![새 자원 계정 옵션 스크린샷](media/res-acct.png)
 
-다음으로 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)에 설명 된 대로 Microsoft 365 관리 센터의 자원 계정에 라이선스를 적용 합니다.
+다음으로 [사용자를 개별적으로 또는 대량으로 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)에 설명 된 바와 같이 Microsoft 365 관리 센터의 자원 계정에 라이선스를 적용 합니다.
 
 ### <a name="edit-resource-account"></a>자원 계정 편집 
 
@@ -182,7 +182,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. 라이선스를 적용 하기 전에는 리소스 계정을 사용할 수 없습니다. Microsoft 365 관리 센터의 계정에 라이선스를 적용 하는 방법에 대해 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 및 [비즈니스용 Skype 라이선스 할당](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)을 참조 하세요.
+2. 라이선스를 적용 하기 전에는 리소스 계정을 사용할 수 없습니다. Microsoft 365 관리 센터의 계정에 라이선스를 적용 하는 방법에 대 한 자세한 내용은 [비즈니스용 Skype 라이선스 할당](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)및 [대량으로 사용자 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 를 참조 하세요.
 
 3. ) 자원 계정에 올바른 라이선스를 적용 한 후에는 다음과 같이 리소스 계정에 전화 번호를 지정할 수 있습니다. 일부 자원 계정에는 전화 번호가 필요 하지 않습니다. 자원 계정에 라이선스를 적용 하지 않은 경우에는 전화 번호 할당이 실패 합니다.
 

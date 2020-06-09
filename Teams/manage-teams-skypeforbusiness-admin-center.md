@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a847d27a53ab406b248f011dd12742b23b69e999
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f30db1425c61e8cb5f916345c0b751bc81c90a0f
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041965"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637427"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 ======================================================
@@ -36,7 +36,7 @@ ms.locfileid: "44041965"
 
 ## <a name="what-is-the-new-microsoft-teams-admin-center"></a>새로운 Microsoft 팀 관리 센터는 무엇 인가요?  
 
-새로운 관리 센터 환경은 팀과 비즈니스용 Skype를 모두 관리할 수 있는 통일 된 환경을 제공 합니다. 추가 기능, 종단 간 insights, 사용자 수준에서 팀 설정을 관리 하는 기능을 제공 하는 것입니다.
+새로운 관리 센터 환경은 팀과 비즈니스용 Skype를 모두 관리할 수 있는 통일 된 환경을 제공 합니다. 추가 기능, 종단 간 insights, 사용자 수준에서 팀 설정을 관리 하는 기능을 제공 하는 것입니다. 의 관리 센터에 액세스할 수 있습니다 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 ![Microsoft 팀 관리 센터의 스크린샷.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -115,4 +115,4 @@ ms.locfileid: "44041965"
 
 ## <a name="manage-settings-after-the-migration"></a>마이그레이션 후 설정 관리
 
-이러한 설정에 대 한 마이그레이션이 완료 되 면 Office 365 관리 센터와 비즈니스용 Skype 관리 센터에서 사용 하지 않도록 설정 하 고 새 Microsoft 팀 관리 센터에서 관리할 수 있습니다.
+이러한 설정의 마이그레이션이 완료 되 면 Microsoft 365 관리 센터 및 비즈니스용 Skype 관리 센터에서이 설정을 사용 하지 않도록 설정 하 고 새 Microsoft 팀 관리 센터에서 관리할 수 있습니다.

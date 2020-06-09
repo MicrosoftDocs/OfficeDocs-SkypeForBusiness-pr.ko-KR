@@ -1,5 +1,5 @@
 ---
-title: 자금 추가 및 통신 크레딧 관리
+title: 자금 추가 및 커뮤니케이션 크레딧 관리
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -29,16 +29,16 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '비즈니스용 Skype 서비스용 통신 크레딧 (PSTN 소비)을 지불 하는 방법과 사용자에 게 지속적인 전화 시스템 액세스를 유지 하는 계획을 확인 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827216"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610285"
 ---
-# <a name="add-funds-and-manage-communications-credits"></a>자금 추가 및 통신 크레딧 관리
+# <a name="add-funds-and-manage-communications-credits"></a>자금 추가 및 커뮤니케이션 크레딧 관리
 
-통신 제작진은 Office 365에서 전화 시스템 및 통화 요금제에 대해 비용을 지불 하는 편리한 방법입니다. 의사 소통 크레딧을 사용 하면 사용자와 귀하는 다음을 수행할 수 없을 때까지 귀하의 의견을 받지 않게 됩니다.
+통신 제작진은 Microsoft 365 또는 Office 365에서 전화 시스템 및 통화 요금제에 대해 비용을 지불 하는 편리한 방법입니다. 의사 소통 크레딧을 사용 하면 사용자와 귀하는 다음을 수행할 수 없을 때까지 귀하의 의견을 받지 않게 됩니다.
   
 - 무료 전화 접속 전화 번호를 사용 하 여 오디오 회의 모임에 전화를 걸 수 있습니다.
     
@@ -76,17 +76,17 @@ ms.locfileid: "41827216"
     
 - [전화 시스템 요금제](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-[Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 여 정보를 볼 수 있으며, **결제** > **** > 플랜으로 진행 하 여**구독을 추가할**수도 있습니다.
+[Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 여 정보를 볼 수 있으며, **결제**플랜으로 진행 하 여  >  **Subscriptions**  >  **구독을 추가할**수도 있습니다.
   
 각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
 - [클라우드 음성 메일 설정 - 관리자 도움말](set-up-phone-system-voicemail.md)
     
-- [Office 365에 대 한](calling-plans-for-office-365.md) [통화 계획](set-up-calling-plans.md) 및 통화 계획 설정
+- [Microsoft 365 또는 Office 365에 대 한](calling-plans-for-office-365.md) [통화 계획](set-up-calling-plans.md) 및 통화 계획 설정
         
  
  

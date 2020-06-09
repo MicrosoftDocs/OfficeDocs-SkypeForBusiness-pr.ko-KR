@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e07d851d853ee3fb57454177bed48590cdb55f3
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904970"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611007"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 ===========================================
@@ -42,7 +42,7 @@ ms.locfileid: "43904970"
 
 팀을 보관하려면 다음 단계를 따르세요.
 
-1. Microsoft Teams 관리 센터에서 **Teams**를 선택합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> **팀**을 선택 합니다.
 2. 팀 이름을 클릭하여 팀을 선택합니다.
 3. **보관**을 선택합니다. 다음 메시지가 표시됩니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "43904970"
 
 보관된 팀을 다시 활성화하려면 다음 단계를 따르세요.
 
-1. Microsoft Teams 관리 센터에서 **Teams**를 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a>에서 **팀**을 선택 합니다.
 2. 팀 이름을 클릭하여 팀을 선택합니다.
 3. **보관 취소**를 선택합니다. 팀의 상태가 **활성**으로 변경됩니다.
 
@@ -63,16 +63,16 @@ ms.locfileid: "43904970"
 
 나중에 팀이 필요하지 않은 경우에는 팀을 보관하지 않고 삭제할 수 있습니다. 팀을 삭제하려면 다음 단계를 따르세요.
 
-1.  Microsoft Teams 관리 센터에서 **Teams**를 선택합니다.
+1.  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a>에서 **팀**을 선택 합니다.
 2.  팀 이름을 클릭하여 팀을 선택합니다.
 3.  **삭제**를 선택합니다. 확인 메시지가 표시됩니다.
 4.  팀을 영구적으로 삭제하려면 **삭제**를 선택합니다.
 
 ## <a name="restore-a-deleted-team"></a>삭제된 작업 복원하기
 
-다음 단계에 따라 팀과 연결된 Office 365 그룹을 복원하여 삭제된 팀을 복원하세요. 팀에 대한 Office 365 그룹을 복원하면 탭, 표준 채널, 개인 채널 및 연결된 사이트 모음을 포함한 팀 콘텐트가 복원됩니다.
+팀과 연결 된 Microsoft 365 그룹을 복원 하 여 삭제 된 팀을 복원 하려면 다음 단계를 따르세요. 팀에 대 한 Microsoft 365 그룹을 복원 하면 탭, 표준 채널, 개인 채널 및 연결 된 사이트 모음을 비롯 한 팀 콘텐츠가 복원 됩니다.
 
-기본적으로 삭제된 Office 365 그룹은 30일 동안 보존됩니다. 이 30일의 기간을 “일시 삭제”라고 하며 이 기간 동안 그룹을 복원할 수 있습니다. 자세한 내용은 [삭제된 Office 365 그룹 복원하기](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)를 참조하세요.
+기본적으로 삭제 된 Microsoft 365 그룹은 30 일 동안 보존 됩니다. 이 30일의 기간을 “일시 삭제”라고 하며 이 기간 동안 그룹을 복원할 수 있습니다. 자세히 알아보려면 [삭제 된 Microsoft 365 그룹 복원을](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)참조 하세요.
 
 ### <a name="install-the-azureadpreview-module"></a>AzureADPreview 모듈 설치하기
 
@@ -92,7 +92,7 @@ ms.locfileid: "43904970"
     Install-Module AzureADPreview
     ```    
 
-### <a name="restore-the-deleted-office-365-group"></a>삭제된 Office 365 그룹 복원하기
+### <a name="restore-the-deleted-microsoft-365-group"></a>삭제 된 Microsoft 365 그룹 복원
 
 1. 다음을 실행하여 Azure AD에 연결합니다.
     ```PowerShell

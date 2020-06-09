@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft 볼륨 라이선스를 사용 하는 조직의 오디오 회의 기능을 사용 하도록 설정 하는 분당 요금 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041725"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610513"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>오디오 회의 분당 요금
 
@@ -56,7 +56,7 @@ ms.locfileid: "44041725"
   
 분 단위 요금은 각 사용자에 게 할당 된 라이선스와 [통신 크레딧을](what-are-communications-credits.md) 사용 하 여 오디오 회의가 작동 하도록 요구 합니다. 자세한 내용은 조직 및/또는 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) [에 대 한 통신 크레딧 설정을](set-up-communications-credits-for-your-organization.md) 참조 하세요.
   
-조직의 사용자에 대 한 오디오 회의 분당 요금을 사용 하려면 [Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)을 참조 하세요.
+조직의 사용자에 대 한 오디오 회의 시간당 유료 통화를 사용 하려면 [Microsoft office 365 또는 Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)을 참조 하세요.
 
 ## <a name="why-is-it-best-for-you"></a>사용자에 게 가장 적합 한 이유
 
@@ -82,7 +82,7 @@ ms.locfileid: "44041725"
     
 - [통화 요금제 가격](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
   
 [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

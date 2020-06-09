@@ -18,12 +18,12 @@ description: 조직 외부의 사용자를 Microsoft 팀의 팀에 대 한 게�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a30aa56260da8c5e07c8c08c1a8c3745ffb6ee5
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902553"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637227"
 ---
 <a name="how-a-guest-joins-a-team"></a>게스트가 팀에 참여하는 방법
 ========================
@@ -35,11 +35,11 @@ Microsoft Teams의 팀 소유자는 웹 또는 데스크톱을 통해 팀에서 
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>게스트가 팀 구성원이 되는 방법
 
-1. 팀 소유자나 Office 365 관리자가 [팀에 게스트를 추가](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)합니다.
-1. Office 365 관리자 또는 팀 소유자는 필요에 따라 게스트의 기능을 관리합니다. 예를 들어, 게스트가 채널을 추가 또는 삭제하도록 허용하거나 게스트의 파일에 대한 액세스를 해제할 수 있습니다.
+1. 팀 소유자나 Microsoft 365 또는 Office 365 관리자가 [팀에 게스트를 추가](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)합니다.
+1. Microsoft 365 또는 Office 365 관리자 또는 팀 소유자는 필요한 경우 게스트의 기능을 관리 합니다 (예: 게스트가 채널을 추가 하거나 삭제 하 고 파일에 대 한 액세스를 해제 하도록 허용).
 1. 게스트는 팀에 대한 정보와 구성원이 되었으므로 기대할 수 있는 내용이 포함된 팀 소유자의 환영 전자 메일을 받게 됩니다.  
 1. 게스트가 초대를 수락합니다.
-  Azure Active Directory 또는 Office 365 회사 또는 학교 계정에 속한 전자 메일 주소가 있는 게스트 사용자는 초대를 직접 수락할 수 있습니다. 
+  Azure Active Directory, Microsoft 365 또는 Office 365 회사 또는 학교 계정에 속하는 전자 메일 주소를 가진 게스트 사용자는 초대를 직접 수락할 수 있습니다. 
   게스트에 전자 메일 주소와 연결 된 Microsoft 계정이 아직 없는 경우 무료로 만들 수 있도록 리디렉션됩니다. 
 1. 초대를 수락하면 게스트는 [팀과 채널에 참여](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), 채널 메시지 받기 및 응답, [채널에서 파일에 액세스](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), 채팅에 참여, 모임에 참여, 문서 공동 작업 등을 할 수 있습니다. 
 

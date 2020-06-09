@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 조직의 사용자에 대 한 긴급 위치를 할당 하거나 변경 하는 방법에 대해 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f11bfd9762667823b4ec6b2883c9661f9f5754d0
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 450fe848052af1e331964da3d7b695daf0f1567a
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539505"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610997"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
-통화 계획을 설정 하는 경우 각 전화 번호 또는 사용자에 게 긴급 위치를 할당 해야 합니다. 유럽 국가에서 비상 위치는 Office 365 또는 전화 번호를 Office 365로 전송할 때 전화 번호와 연결 됩니다. 미국에서 비상 위치는 사용자에 게 할당 될 때 전화 번호와 연결 됩니다. 사용자가 할당 한 새 위치로 이동 하는 경우 긴급 주소를 변경할 수 있습니다. 긴급 주소 및 위치에 대 한 자세한 내용은 [비상 전화 관리](what-are-emergency-locations-addresses-and-call-routing.md)를 참조 하세요.
+통화 계획을 설정 하는 경우 각 전화 번호 또는 사용자에 게 긴급 위치를 할당 해야 합니다. 유럽 국가에서 긴급 위치는 Microsoft 365 또는 Office 365에서 전화를 거는 경우 나 전화 번호를 Microsoft 365 또는 Office 365로 전송 하는 경우와 연결 됩니다. 미국에서 비상 위치는 사용자에 게 할당 될 때 전화 번호와 연결 됩니다. 사용자가 할당 한 새 위치로 이동 하는 경우 긴급 주소를 변경할 수 있습니다. 긴급 주소 및 위치에 대 한 자세한 내용은 [응급 위치, 장소 및 통화 라우팅 이란?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)을 참조 하세요.
   
 통화 요금제와 비용을 가져오는 방법을 알아보려면 [팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
-
+  
 Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 사용자에 대 한 긴급 위치를 할당 하거나 변경할 수 있습니다.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용

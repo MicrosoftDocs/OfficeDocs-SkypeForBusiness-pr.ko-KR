@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ecf199f5027774684f5a626c416f789293926d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2157ea9ec536e644440161fb321c7a60bb8d396e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140057"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638617"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Microsoft 팀에서 QoS를 구현 하 고 통화 품질을 모니터링
 
@@ -38,7 +38,7 @@ ms.locfileid: "43140057"
 
 [**통화 분석 및 통화 품질 대시보드**](difference-between-call-analytics-and-call-quality-dashboard.md) 는 진행 중인 작업 중 발생 하는 문제를 찾아서 해결 하는 데 사용 됩니다.  
 
-**통화 분석** 에서는 Microsoft 팀 또는 비즈니스용 Skype 계정의 각 사용자에 대 한 ***특정 통화 및 모임*** 과 관련 된 장치, 네트워크 및 연결에 대 한 자세한 정보를 보여 줍니다. Office 365 관리자는 통화 분석을 사용 하 여 특정 통화에서 발생 하는 통화 품질 및 연결 문제를 해결할 수 있습니다. 이는 문제를 식별 하 고 제거 하는 데 도움이 됩니다.
+**통화 분석** 에서는 Microsoft 팀 또는 비즈니스용 Skype 계정의 각 사용자에 대 한 ***특정 통화 및 모임*** 과 관련 된 장치, 네트워크 및 연결에 대 한 자세한 정보를 보여 줍니다. Microsoft 365 또는 Office 365 관리자 인 경우 통화 분석을 사용 하 여 특정 통화에서 발생 하는 통화 품질 및 연결 문제를 해결할 수 있습니다. 이는 문제를 식별 하 고 제거 하는 데 도움이 됩니다.
 
 **콜 품질 대시보드 (CQD)** 는 관리자와 네트워크 엔지니어가 ***네트워크***를 최적화 하 고 단일 통화를 분석 하 고 문제를 해결할 수 있도록 설계 되었습니다. CQD는 특정 사용자 로부터 포커스를 이동 하 여 전체 조직에 대 한 집계 된 정보를 확인 합니다. 또한 문제를 식별 하 고 제거 하는 데 도움이 될 수 있습니다.
 

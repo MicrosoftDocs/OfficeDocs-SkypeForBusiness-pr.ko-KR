@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 발신자 ID는 CallingLineIdentity 이라는 정책을 사용 하 여 전화 시스템 사용자에 대 한 인바운드와 아웃 바운드 호출 모두에 대해 제어할 수 있습니다.
-ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224211"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638898"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>조직에서 발신자 ID를 사용하는 방법
 
@@ -50,7 +50,7 @@ ms.locfileid: "44224211"
   
 - 사용자에 게 할당 된 전화 번호입니다 (기본값).
     
-- Office 365 전화 번호 인벤토리에 있는 통화 요금제 *service* 에서 서비스 *및 무료 번호로 분류* 된 전화 번호입니다. 일반적으로 조직 자동 전화 교환 또는 통화 대기열에 할당 됩니다.
+- 통화 요금제의 *전화 번호 인벤토리에* *서비스* 및 무료 번호로 분류 된 전화 번호입니다. 일반적으로 조직 자동 전화 교환 또는 통화 대기열에 할당 됩니다.
     
 - 익명으로 설정 합니다.
     

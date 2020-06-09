@@ -16,12 +16,12 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: 36c8caea7141e56e9f4494b8e8c2e1cbc7085272
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7ec22f179ce56c25955db824a0358a5550cdcfbb
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778464"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610957"
 ---
 # <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Microsoft 365 Business Voice를 구입 하는 데 필요한 관리자 권한
 
@@ -31,16 +31,16 @@ ms.locfileid: "43778464"
 
 ## <a name="how-can-i-buy-business-voice"></a>비즈니스 음성을 구입 하려면 어떻게 하나요?
 
-비즈니스 음성은 Microsoft 365 및 Office 365에 대 한 추가 기능입니다. 비즈니스 음성을 구입 하려면 먼저 Microsoft 365 또는 Office 365에 등록 해야 합니다. 등록 한 후 또는 microsoft 365 또는 Office 365 구독이 있는 경우 microsoft [365 관리 센터](https://admin.microsoft.com) > **청구** > **구입 서비스** > **추가** 기능 (페이지 아래쪽으로 스크롤)으로 이동 하 여 **microsoft 365 business voice**> 비즈니스 음성 추가 기능 라이선스를 구매할 수 있습니다.
+비즈니스 음성은 Microsoft 365 및 Office 365에 대 한 추가 기능입니다. 비즈니스 음성을 구입 하려면 먼저 Microsoft 365 또는 Office 365에 등록 해야 합니다. 등록 한 후 또는 microsoft 365 또는 Office 365 구독이 있는 경우 microsoft [365 관리 센터](https://admin.microsoft.com)  >  **청구**  >  **구입 서비스**  >  **추가** 기능 (페이지 아래쪽으로 스크롤)을 사용 하 여 **microsoft 365 business voice**> 비즈니스 음성 추가 기능 라이선스를 구매할 수 있습니다.
 
 ## <a name="why-dont-i-see-an-option-to-buy-business-voice"></a>비즈니스 음성을 구입 하는 옵션이 표시 되지 않는 이유는 무엇 인가요?
 
 Microsoft 365 관리 센터에 액세스할 수 없는 경우 비즈니스 음성을 구입 하는 옵션이 표시 되지 않거나 오류가 발생 하는 경우 다음 이유 중 하나일 수 있습니다.
 
-- **사용 권한 부족** -비즈니스 음성을 포함 한 라이선스를 Office 365 조직에 추가 하려면 계정이 전역 관리자 이거나 청구 관리자 역할에 할당 되어야 합니다. 적절 한 권한을 부여 하거나 비즈니스 음성 라이선스를 추가 하는 데 도움이 필요한 경우 Office 365 관리자에 게 문의 하세요.
-- **관리자가 아닌 계정에 로그인** 한 경우-Office 365 조직의 전역 관리자 또는 대금 청구 관리자 인 경우 관리자 계정과 별도의 "일반" 사용자 계정을 사용 하는 것이 좋습니다. 일반 사용자 계정에서 로그 아웃 하 고 관리자 계정에 로그인 합니다.
-- **로그인 하지 않음** -관리 하려는 테 넌 트에서 전역 관리자 또는 청구 관리자 Office 365 계정에 로그인 했는지 확인 합니다.
-- **잘못 된 테 넌 트에 로그인** 됨-두 개 이상의 Office 365 조직에 액세스할 수 있는 경우에는 올바른 로그인을 확인 하세요. 현재 Office 365 계정에서 로그 아웃 하 고 관리 하려는 테 넌 트의 계정에 로그인 해야 합니다.
+- **사용 권한 부족** -비즈니스 음성을 포함 한 라이선스를 Microsoft 365 또는 Office 365 조직에 추가 하려면 계정이 전역 관리자 이거나 청구 관리자 역할에 할당 되어야 합니다. Microsoft 365 또는 Office 365 관리자에 게 문의 하 여 적절 한 사용 권한을 받고 비즈니스 음성 라이선스를 추가 하는 데 도움을 받으세요.
+- **관리자가 아닌 계정에 로그인** 한 경우-Microsoft 365 또는 Office 365 조직의 전역 관리자 또는 청구 관리자 인 경우 관리자 계정과 별도의 "일반" 사용자 계정을 사용 하는 것이 좋습니다. 일반 사용자 계정에서 로그 아웃 하 고 관리자 계정에 로그인 합니다.
+- **로그인 하지 않음** -관리 하려는 Microsoft 365 또는 Office 365 조직에서 전역 관리자 또는 청구 관리자 계정에 로그인 했는지 확인 합니다.
+- **잘못 된 조직에 로그인** -두 개 이상의 Microsoft 365 또는 Office 365 조직에 대 한 액세스 권한이 있는 경우 올바른 로그인을 확인 하세요. 현재 Office 365 계정에서 로그 아웃 하 고 관리 하려는 조직의 계정에 로그인 해야 합니다.
 - **비즈니스 음성** 은 현재 제한 된 수의 국가와 지역에서 사용할 수 있습니다. 어디에서 [나 비즈니스 음성을](../whats-business-voice.md) 사용할 수 있는지 확인해 보세요.
 
 ## <a name="what-if-im-still-having-trouble"></a>여전히 문제가 있는 경우에는 어떻게 하나요?

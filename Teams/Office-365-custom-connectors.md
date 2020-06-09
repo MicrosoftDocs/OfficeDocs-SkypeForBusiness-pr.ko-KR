@@ -17,12 +17,12 @@ description: 커넥터는 자주 사용하는 서비스의 콘텐츠와 업데�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 33a407de891f0d988b1fb32988556059c6adc2e0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9ea72fbe054e3a6d0e89f87f1a8c23303ef55c5c
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778594"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637757"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft 365 및 사용자 지정 커넥터 사용
 =======================================================
@@ -31,7 +31,7 @@ ms.locfileid: "43778594"
 
 팀 구성원은 팀이 허용 하는 경우 커넥터를 사용 하 여 자주 사용 하는 클라우드 서비스에 팀을 연결 하 고 모든 팀 구성원이 해당 서비스의 활동에 대 한 알림을 받을 수 있습니다. 커넥터를 처음 설정 하는 구성원이 남아 있는 경우에도 커넥터는 계속 작동 합니다. Add\remove에 대 한 사용 권한이 있는 모든 팀 구성원은 다른 구성원이 커넥터 설정을 수정할 수 있습니다.
 
-Microsoft 365 커넥터는 Microsoft 팀과 Microsoft 365 그룹에 모두 사용할 수 있으며, 모든 구성원이 동기화 상태를 유지 하 고 관련 정보를 빠르게 수신 하는 것이 더욱 쉬워졌습니다. Microsoft 팀과 Exchange는 모두 동일한 커넥터 모델을 사용 하 여 두 플랫폼에서 동일한 커넥터를 사용할 수 있습니다. 그러나 팀이 의존 하는 Office 365 그룹에 대해 연결선을 사용 하지 않도록 설정 하면 해당 팀에 대 한 커넥터를 만드는 기능도 비활성화 된다는 것에 주목할 필요가 있습니다.
+Microsoft 365 커넥터는 Microsoft 팀과 Microsoft 365 그룹에 모두 사용할 수 있으며, 모든 구성원이 동기화 상태를 유지 하 고 관련 정보를 빠르게 수신 하는 것이 더욱 쉬워졌습니다. Microsoft 팀과 Exchange는 모두 동일한 커넥터 모델을 사용 하 여 두 플랫폼에서 동일한 커넥터를 사용할 수 있습니다. 그러나 팀이 의존 하는 Microsoft 365 그룹에 대해 연결선을 사용 하지 않도록 설정 하면 해당 팀에 대 한 커넥터를 만드는 기능도 비활성화 된다는 것에 주목할 필요가 있습니다.
 
 <a name="add-a-connector-to-a-channel"></a>채널에 연결선 추가
 ----------------------------

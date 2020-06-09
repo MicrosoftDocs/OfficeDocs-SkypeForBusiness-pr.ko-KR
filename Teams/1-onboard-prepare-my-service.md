@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 온 보 딩 검사 목록을 사용 하 여 팀을 위한 Office 365을 준비 하 고 팀 핵심 기능, 네트워킹, 클라우드 음성 작업을 구성 합니다.
+description: 온 보 딩 검사 목록을 사용 하 여 팀의 Microsoft 365 또는 Office 365을 준비 하 고 팀 핵심 기능, 네트워킹 및 클라우드 음성 작업을 구성 합니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3c805e8ff14ddb1c46f83db819c5dd8a2c305914
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137998"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610070"
 ---
 # <a name="prepare-my-service"></a>내 서비스 준비
 
@@ -34,7 +34,7 @@ ms.locfileid: "43137998"
 
 다음 검사 목록은 Microsoft 팀에서 오디오 회의, 통화 요금제 ("통화 요금제"), 전화 시스템 직접 라우팅 ("다이렉트 라우팅") 기능을 구현 하는 단계를 안내 합니다.
 
-*  [팀 용 Office 365 준비](onboarding-checklist-enable-office-365.md)
+*  [팀 용 Microsoft 365 또는 Office 365 준비](onboarding-checklist-enable-office-365.md)
 
 *  [팀 핵심 기능 구성](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

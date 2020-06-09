@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 비즈니스용 Skype에서 기본 시스템 메시지와 보이스 메일 인사말에 설정할 수 있는 언어에 대해 알아봅니다.
-ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904523"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638767"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>음성 메일 인사말 및 메시지 언어
 
@@ -80,7 +80,7 @@ ms.locfileid: "43904523"
 ## <a name="related-topics"></a>관련 항목
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
+[다음은 전화 시스템 기능입니다.](here-s-what-you-get-with-phone-system.md)
   
   
  

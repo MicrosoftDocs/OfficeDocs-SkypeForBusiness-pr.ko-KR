@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebe94c04fcc4d93f636544d54930cf83855deec2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 92516a73843b16212a13b4533da7db6fd1075532
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904820"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638757"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft 팀의 데이터 위치
 
-팀의 데이터는 Office 365 조직과 연결 된 지리적 영역에 위치 합니다. 현재, 팀은 오스트레일리아, 캐나다, 프랑스, 독일, 인도, 일본, 남아프리카, 대한민국, 스위스 (리히텐슈타인 포함), 미국, 호주, 영국, 미국, APAC, EMEA 지역 등을 지원 합니다. 
+팀의 데이터는 Microsoft 365 또는 Office 365 조직과 연결 된 지리적 영역에 위치 합니다. 현재, 팀은 오스트레일리아, 캐나다, 프랑스, 독일, 인도, 일본, 남아프리카, 대한민국, 스위스 (리히텐슈타인 포함), 미국, 호주, 영국, 미국, APAC, EMEA 지역 등을 지원 합니다. 
 
 > [!IMPORTANT]
 > 현재 팀은 오스트레일리아, 캐나다, 프랑스, 독일, 인도, 일본, 미국 아랍, 영국, 대한민국, 남아프리카, 스위스 (리히텐슈타인 포함) 새 테 넌 트에만 데이터 영주권을 제공 합니다.
@@ -34,7 +34,7 @@ ms.locfileid: "43904820"
 
 ## <a name="where-your-teams-data-is-stored"></a>팀 데이터가 저장 되는 위치
 
-테 넌 트에 대 한 데이터가 들어 있는 영역을 확인 하려면 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home) > **설정** > **조직 프로필로**이동 합니다. 아래로 스크롤하여 **데이터 위치로**이동 합니다.
+테 넌 트에 대 한 데이터가 들어 있는 영역을 확인 하려면 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)  >  **설정**  >  **조직 프로필로**이동 합니다. 아래로 스크롤하여 **데이터 위치로**이동 합니다.
 
 ![관리 센터의 팀을 비롯 한 데이터 위치 표 스크린샷](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
@@ -56,7 +56,7 @@ ms.locfileid: "43904820"
 
 #### <a name="chat-channel-messages-team-structure"></a>채팅, 채널 메시지, 팀 구조
 
-팀의 모든 팀은 Office 365 그룹과 해당 SharePoint 사이트 및 Exchange 사서함에서 지원 됩니다. 개인 채팅 (그룹 채팅 포함), 채널에서 대화의 일부로 전송 된 메시지, 팀 및 채널의 구조는 Azure에서 실행 되는 채팅 서비스에 저장 됩니다. 정보 보호 기능을 사용 하도록 설정 하기 위해 사용자 및 그룹 사서함의 숨겨진 폴더에도 데이터가 저장 됩니다.
+팀의 모든 팀은 Microsoft 365 그룹과 해당 SharePoint 사이트 및 Exchange 사서함에서 지원 됩니다. 개인 채팅 (그룹 채팅 포함), 채널에서 대화의 일부로 전송 된 메시지, 팀 및 채널의 구조는 Azure에서 실행 되는 채팅 서비스에 저장 됩니다. 정보 보호 기능을 사용 하도록 설정 하기 위해 사용자 및 그룹 사서함의 숨겨진 폴더에도 데이터가 저장 됩니다.
 
 #### <a name="voicemail-and-contacts"></a>보이스 메일 및 연락처
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45cfe8ed255e889093044672cb738152adaaf6ae
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778934"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610140"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft 팀에서 팀 소유자 및 구성원 지정
 =================================================
@@ -29,7 +29,7 @@ ms.locfileid: "43778934"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Microsoft 팀 내에는 **소유자** 와 **구성원**의 두 가지 사용자 역할이 있습니다. 기본적으로 새 팀을 만드는 사용자에 게는 소유자 상태가 부여 됩니다. 또한 소유자와 구성원은 채널에 대 한 중재자 기능을 가질 수 있습니다 (중재가 설정 된 경우). 기존 Office 365 그룹에서 팀을 만든 경우 사용 권한이 상속 됩니다.
+Microsoft 팀 내에는 **소유자** 와 **구성원**의 두 가지 사용자 역할이 있습니다. 기본적으로 새 팀을 만드는 사용자에 게는 소유자 상태가 부여 됩니다. 또한 소유자와 구성원은 채널에 대 한 중재자 기능을 가질 수 있습니다 (중재가 설정 된 경우). 기존 Microsoft 365 그룹에서 만든 팀 인 경우 사용 권한이 상속 됩니다.
 
 다음 표에서는 소유자와 구성원 간의 사용 권한 차이를 보여 줍니다.
 
@@ -71,7 +71,7 @@ Microsoft 팀 내에는 **소유자** 와 **구성원**의 두 가지 사용자 
 
 ## <a name="assign-a-user-role"></a>사용자 역할 할당
 
-사용자 역할을 할당 하려면 팀에서 팀 이름을 선택 하 고 **추가 옵션** > 을 클릭 하 여**팀 관리**하세요. **구성원** 탭에서 구성원을 추가 하 고 소유자 및 중재자를 선택할 수 있습니다 (충분 한 권한이 있는 경우). 자세한 내용은 [팀에서 팀 설정 변경을](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)참조 하세요.
+사용자 역할을 할당 하려면 팀에서 팀 이름을 선택 하 고 **추가 옵션**을 클릭 하 여  >  **팀 관리**하세요. **구성원** 탭에서 구성원을 추가 하 고 소유자 및 중재자를 선택할 수 있습니다 (충분 한 권한이 있는 경우). 자세한 내용은 [팀에서 팀 설정 변경을](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)참조 하세요.
 
 ## <a name="permissions-to-create-teams"></a>팀을 만들 수 있는 권한
 

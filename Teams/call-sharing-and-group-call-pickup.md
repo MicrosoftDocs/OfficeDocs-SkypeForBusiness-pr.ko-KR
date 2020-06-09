@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 통화 공유 및 그룹 통화 픽업 사용자는 사용자를 사용할 수 없는 경우 전화를 통해 들어오는 전화를 동료와 공유할 수 있습니다.
-ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 0e21f8ec8b9d913568b87a41b70261ac917260e2
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042955"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638857"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft 팀에서 공유 및 그룹 통화 걸기
 
@@ -47,7 +47,7 @@ Microsoft 팀의 통화 공유 및 그룹 통화 픽업 기능을 통해 사용�
 
 ## <a name="configure-group-call-pickup"></a>그룹 통화 픽업 구성
 
-그룹 통화 픽업을 설정 하려면 사용자가 먼저 통화 그룹 (보안 그룹 또는 Office 365 그룹과 동일 하지 않음)을 구성한 다음 통화를 공유할 사용자를 추가 합니다. 그런 다음 동시 링 또는 통화 전달 설정을 선택 합니다. 자세한 내용 및 단계별 절차는 [팀의 착신 전환 및 동시](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)연결을 참조 하세요.
+그룹 통화 픽업을 설정 하려면 사용자가 먼저 통화 그룹 (보안 그룹 또는 Microsoft 365 그룹과 동일 하지 않음)을 구성한 다음 통화를 공유 하려는 사용자를 추가 합니다. 그런 다음 동시 링 또는 통화 전달 설정을 선택 합니다. 자세한 내용 및 단계별 절차는 [팀의 착신 전환 및 동시](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)연결을 참조 하세요.
 
 통화 그룹 만들기 및 알림 기본 설정은 사용자 구동 기능입니다. 관리자는 사용자를 위해 이러한 기능을 구성할 필요가 없습니다. 보안 그룹 또는 Microsoft 365 그룹에서 통화 그룹을 만들 수 없습니다. 팀에서 만들어야 합니다.
 

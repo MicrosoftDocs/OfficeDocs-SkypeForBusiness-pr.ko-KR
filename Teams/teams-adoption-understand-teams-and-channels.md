@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 736ed72a4f4aacd41ed2db746976a9ff848aa74e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350302"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638547"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 이해
 
 팀과 채널의 개념은 Microsoft 팀의 정상적인 생산성을 구현 하는 데 기본적으로 적합 합니다. 
 
-- 팀은 회사에 대 한 비즈니스 결과물을 생성 하기 위해 함께 작동 하는 사람, 콘텐츠, 도구 모음입니다. Teams는 Microsoft 365 그룹에 기반하며 Office 365 그룹 멤버 변경 사항이 Teams에 동기화됩니다.
+- 팀은 회사에 대 한 비즈니스 결과물을 생성 하기 위해 함께 작동 하는 사람, 콘텐츠, 도구 모음입니다. 팀은 Microsoft 365 그룹에 빌드되고 팀에 대 한 Microsoft 365 그룹 구성원 동기화가 변경 되었습니다.
 
 - 채널은 실제 작업 시간이 완료 된 팀 내의 공동 작업 공간입니다. 
 

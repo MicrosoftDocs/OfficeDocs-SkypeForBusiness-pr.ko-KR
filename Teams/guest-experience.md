@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902603"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637277"
 ---
 <a name="what-the-guest-experience-is-like"></a>게스트 환경의 모양
 =================================
@@ -57,7 +57,7 @@ ms.locfileid: "43902603"
 |모임 또는 액세스 일정 만들기  <br/> |&#x2713;||
 |비즈니스용 OneDrive 저장소 액세스  <br/> |&#x2713;||
 |테 넌 트 전체 및 팀/채널 게스트 액세스 정책 만들기  <br/> |&#x2713;||
-|Office 365 조직의 도메인 외부에 사용자 초대 <br/>  *팀 소유자는이 설정을 제어 합니다.*  <br/> <br/> |&#x2713;||
+|Microsoft 365 또는 Office 365 조 직의 도메인 외부에 사용자 초대 <br/>  *팀 소유자는이 설정을 제어 합니다.*  <br/> <br/> |&#x2713;||
 |팀 만들기  <br/> |&#x2713;||
 |공개 팀 검색 및 참가  <br/> |&#x2713;||
 |조직도 보기  <br/> |&#x2713;||
@@ -99,7 +99,7 @@ ms.locfileid: "43902603"
 <sup>1</sup> 이 기능은 곧 제공 될 예정입니다.
 
 > [!NOTE]
-> Office 365 관리자는 게스트가 사용할 수 있는 기능을 제어 합니다. 
+> Microsoft 365 및 Office 365 관리자는 게스트가 사용할 수 있는 기능을 제어 합니다. 
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 

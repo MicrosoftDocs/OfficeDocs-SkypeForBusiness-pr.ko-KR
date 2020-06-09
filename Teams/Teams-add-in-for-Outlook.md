@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583441"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637717"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -65,7 +65,7 @@ Teams 모임 단추가 최신 Outlook iOS 및 Android 앱 빌드에 표시됩니
 
 사용자가 **보내기**를 클릭한 후 모임 좌표(Teams 참가 링크 및 전화 접속 번호)가 모임 초대에 추가됩니다.  
 
-## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Teams 모임 추가 기능 및 Outlook용 시간 찾기
+## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Outlook 용 팀 모임 추가 기능 및 찾기 시간
 
 FindTime은 사용자가 회사 간의 모임 시간에 합의에 도달할 수 있도록 돕는 Outlook 용 추가 기능입니다. 회의 초대 대상자가 선호하는 시간을 제공하면 시간 찾기가 사용자 대신 모임 초대장을 전송합니다. 시간 찾기에서 **온라인 모임** 옵션을 선택한 경우 시간 찾기가 비즈니스용 Skype 또는 Microsoft Teams 모임을 예약합니다. (시간 찾기는 조직에서 기본 온라인 모임 채널로 설정한 값을 사용합니다.)
 

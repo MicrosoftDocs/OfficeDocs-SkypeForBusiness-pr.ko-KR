@@ -18,16 +18,16 @@ f1.keywords:
 - NOCSH
 description: 'Microsoft 팀 관리 센터에서 조직의 긴급 위치를 추가, 변경 또는 제거 하는 방법에 대해 알아봅니다. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: ae3a224b38fba412b9c0dc4ec0bfde5028440a79
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539465"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610327"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>조직의 응급 위치 추가, 변경 또는 제거
 
-비상 위치는 전화 번호와 연결 되어야 하지만,이 문제가 발생 하는 경우 국가와 지역에 따라 다를 수 있습니다. 예를 들어 미국에서 사용자에 게 전화 번호를 할당할 때 비상 위치를 연결 해야 합니다. 영국에서는 Office 365에서 전화 번호를 받고 현재 서비스 공급자 로부터 전화 번호를 전송 하면 비상 위치를 전화 번호에 연결 해야 합니다.
+비상 위치는 전화 번호와 연결 되어야 하지만,이 문제가 발생 하는 경우 국가와 지역에 따라 다를 수 있습니다. 예를 들어 미국에서 사용자에 게 전화 번호를 할당할 때 비상 위치를 연결 해야 합니다. 영국에서는 Microsoft 365 또는 Office 365에서 전화 번호를 받을 때와 현재 서비스 공급자 로부터 전화 번호를 전송 하는 경우 긴급 위치를 전화 번호에 연결 해야 합니다.
 
 거주 국가 또는 지역에 관계 없이 긴급 위치에 위치 또는 위치를 추가 하 고 긴급 위치를 제거할 수 있습니다. 조직의 실제 위치 수에 따라 빌딩, 바닥, 사무실 등의 위치를 만들 수 있습니다. [비상 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)를 참조 하세요.
   
@@ -45,7 +45,7 @@ Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 조직의 
 4. 국가 또는 지역을 선택한 다음 주소를 입력 합니다.
 
    > [!NOTE]
-   > 벨기에, 프랑스, 독일, 아일랜드, 네덜란드, 스페인에서는 Office 365에서 전화 번호를 성공적으로 활성화 하는 것을 이해 하는 것이 중요 합니다. 번호를 구하는 데 사용 되는 비상 위치에 설정 된 주소는 전화 번호의 지역 번호와 일치 해야 합니다.
+   > 벨기에, 프랑스, 독일, 아일랜드, 네덜란드, 스페인에서는 Microsoft 365 또는 Office 365에서 전화 번호를 성공적으로 활성화 하는 것을 이해 하는 것이 중요 하며, 해당 번호를 구하는 데 사용 되는 비상 위치에 설정 된 주소는 전화 번호의 지역 번호와 일치 해야 합니다.
 5. 주소를 찾을 수 없는 경우 수동으로 주소를 편집 하려면 **수동으로 주소 편집**을 설정 합니다.
 6. **저장**을 클릭합니다.
 

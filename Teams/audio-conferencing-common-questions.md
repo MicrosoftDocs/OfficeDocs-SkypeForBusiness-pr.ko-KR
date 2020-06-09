@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 사용 하려는 고객에 게 제공 되는 몇 가지 주요 질문입니다.
-ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: c181c6cf2da1f1573b10f6e206bd1d658c6af00b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236848"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611037"
 ---
 # <a name="audio-conferencing-common-questions"></a>오디오 회의 일반적인 질문
 
@@ -35,19 +35,19 @@ ms.locfileid: "42236848"
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>오디오 회의의 혜택은 무엇 인가요?
 
-예를 들어 출장 중에는 모임에 전화를 거는 것이 매우 유용 하며, 사용자는 랩톱 또는 모바일 장치에서 비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하 여 모임에 참가할 수 없습니다. 그러나 휴대폰을 사용 하 여 비즈니스용 Skype 또는 Microsoft 팀 모임에 참석할 수 있는 다른 시나리오는 컴퓨터에서 앱을 사용 하는 것 보다 더 나은 선택입니다.
+예를 들어 출장 중에는 모임에 전화를 거는 것이 매우 유용 하며, 사용자는 랩톱 또는 모바일 장치에서 비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하 여 모임에 참가할 수 없습니다. 그러나 다음과 같은 시나리오에서는 전화기를 사용하여 비즈니스용 Skype 혹은 Microsoft 팀 모임에 참석하는 것이 컴퓨터에서 앱을 사용하는 것보다 더 나을 수 있습니다.
   
-- 인터넷 연결이 제한 되어 있습니다.
+- 인터넷 연결이 제한되는 경우
     
-- 모임은 오디오 전용입니다.
+- 모임이 오디오 전용인 경우
     
-- 상대방이 비즈니스용 Skype 모임에 참가 하려고 했지만 실패 했습니다.
+- 사용자가 비즈니스용 Skype 모임에 참가를 시도했지만 실패한 경우
     
 - 전화를 거는 경우 통화 품질이 더 좋습니다.
     
-- 다른 사용자가 Bluetooth 장치를 사용 하 여 모임에 참가할 수 있습니다.
+- 사용자는 블루투스 장치를 사용하여 “손을 사용하지 않고” 모임에 참석할 수 있습니다.
     
-- 사람들이 더 쉽고 편리 하 게 해당 상황을 확인할 수 있습니다.
+- 사용자는 특정 상황에서 이것이 더 쉽고 편리하다는 것을 알게 됩니다.
     
 ## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>오디오 회의 모임에 참가할 수 있는 사람은 누구 인가요? 누가 들을 들을 수 있나요?
 
@@ -65,7 +65,7 @@ ms.locfileid: "42236848"
   
 지역 전화 접속 번호와 조직이 위치한 국가의 국가별 전화 접속 번호가 모임 초대에 포함 될 수도 있습니다.. 모임 참석자가 초대에 포함 된 다른 번호를 사용 하는 경우 공유 전화 번호가 됩니다.
   
-## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Office 365에서 오디오 회의를 하는 국제 전화 접속 번호의 수는 몇 개입니까?
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>Microsoft 365 또는 Office 365 지원에서 국제 전화 접속 번호는 몇 개까지 오디오 회의를 하나요?
 
 현재 국가/지역 목록은 [비즈니스용 Skype Online에서 오디오 회의](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)를 위한 Microsoft 팀 또는 전화 번호 [에서 오디오 회의를 위한 전화 번호](phone-numbers-for-audio-conferencing-in-teams.md) 를 참조 하세요.
   
@@ -85,7 +85,7 @@ ms.locfileid: "42236848"
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>모임에서 총 전화 참가자 수는 몇 명 인가요?
 
-오디오 회의는 최대 250 전화 참석자를 허용 합니다.
+오디오 회의를 통해 최대 250명의 전화 참석자가 참여할 수 있습니다.
   
 모임 제한에 대해 알아보려면 [비즈니스용 Skype Online 제한을](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits)참조 하세요.
   
@@ -149,11 +149,11 @@ Skype 모임 브로드캐스트에 참가 하도록 오디오 회의를 사용 �
 
 - **옵션 #2**: "인증 되지 않은 발신자를 모임에서 첫 번째 사람으로 허용" 설정 (기본적으로 사용 하지 않도록 설정)이 지정 된 조직자에 대해 사용 하도록 설정 되어 있는 경우, 해당 사용자가 예약한 모든 모임은 자신의 오디오 회의 PIN을 입력 하지 않고 시작할 수 있습니다. 이 설정을 사용 하면 첫 번째 참가자가 전화 접속 전화 번호를 통해 모임에 참가 하는 즉시 모임이 시작 되 고 대기실에 입력 되지 않습니다. 자세한 내용은 [Microsoft 팀에서 사용자의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) 또는 비즈니스용 [Skype Online에서 사용자에 대 한 오디오 회의 설정](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)관리를 참조 하세요.
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
-[Microsoft 팀에서 오디오 회의를 위한 전화 번호](phone-numbers-for-audio-conferencing-in-teams.md) 
+[Microsoft Teams에서 오디오 회의를 위한 전화 번호](phone-numbers-for-audio-conferencing-in-teams.md) 
 
 [비즈니스용 Skype Online에서 오디오 회의를 위한 전화 번호](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   

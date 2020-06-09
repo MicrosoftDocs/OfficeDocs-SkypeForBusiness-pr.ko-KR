@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca63f95bb95a304fc410b402a68a52e5b1aeca9e
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5debf9eb72066c90ff0af002b4e5f3b3bafe8383
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349642"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637067"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -36,7 +36,7 @@ Exchange Online 또는 Exchange 전용 vNext에서 호스팅되는 사용자는 
 
 Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Microsoft 365 또는 Office 365의 Azure Active Directory와 동기화 되어야 합니다. 팀과 채널을 만들고 참가 하 고, 탭 및 인공 지능을 추가 및 구성 하 고, 채팅 및 통화 기능을 활용할 수 있습니다. 그러나 프로필 사진을 수정 하거나, 모임을 관리 하거나, outlook 연락처에 액세스 하거나, 연결선을 관리할 수는 없습니다.
 
-온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위의 시나리오에서 모든 기능을 활용할 수 있습니다. 또한 사용자 프로필 그림 (웹 사서함 정책의 Outlook에서 수행할 수 있는 경우)을 변경 하 고, exchange Server 2016 (누적 업데이트 3)을 제공 하 여 OAuth 구성 (특히 Exchange 하이브리드 구성 마법사를 통해 가능)으로 온-프레미스로 실행 되는 경우 [exchange 및 Exchange Online 조 직 간의 oauth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명 되어 있습니다. 이러한 사용자에 대해 일정 위임을 사용 하도록 설정 하려면 [통합 구성 및 비즈니스용 Skype Online 및 Exchange Server 간 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)에서 설명한 대로 2-3 단계를 완료 해야 합니다. 이 단계에서는 팀 예약 응용 프로그램에 대리인 권한을 확인 하는 데 필요한 권한을 제공 합니다.   
+온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위의 시나리오에서 모든 기능을 활용할 수 있습니다. 또한 사용자 프로필 그림 (웹 사서함 정책의 Outlook에서 수행할 수 있는 경우)을 변경 하 고, exchange Server 2016 (누적 업데이트 3)을 제공 하 여 OAuth 구성 (특히 Exchange 하이브리드 구성 마법사를 통해 가능)으로 온-프레미스로 실행 되는 경우 [exchange 및 Exchange Online 조 직 간의 oauth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명 되어 있습니다. 이러한 사용자에 대해 일정 위임을 사용 하도록 설정 하려면 [통합 구성 및 비즈니스용 Skype Online 및 Exchange Server 간 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)에서 설명한 대로 2-3 단계를 완료 해야 합니다. 이 단계에서는 팀 예약 응용 프로그램에 대리인 권한을 확인 하는 데 필요한 권한을 제공 합니다.
 
 다음 표에서는 Exchange 환경을 기반으로 하는 기능 가용성에 대 한 유용한 빠른 참조를 제공 합니다.
 
@@ -45,7 +45,7 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Microsoft 
 
 **지원 되는 작업:**
 
-| 사용자의 사서함이 호스트 되는 위치: | eDiscovery| 법률 &nbsp; 보류 | 보관| 팀 및 채널 관리 |팀에서 모임 만들기 및 보기| 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처에 액세스 | 음성 메일 |커넥터 추가 및 구성|탭 추가 및 구성|봇 추가 및 구성| 
+| 사용자의 사서함이 호스트 되는 위치: | eDiscovery| 법률 &nbsp; 보류 | 보관| 팀 및 채널 관리 |팀에서 모임 만들기 및 보기| 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처에 액세스 | 음성 메일 |커넥터 추가 및 구성|탭 추가 및 구성|봇 추가 및 구성|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예<sup>8</sup>|예|예|예 <sup>7</sup>|예|예|예|예|
 |**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예<sup>8</sup>|예|예|예 <sup>7</sup>|예|예|예|예|
@@ -78,7 +78,7 @@ Microsoft 팀은 다양 한 Microsoft 365 및 Office 365 서비스를 사용 하
 
 - Microsoft 팀에서 팀을 만들려면 Microsoft 365 그룹 만들기가 사용 하도록 설정 되어 있어야 합니다.
 
-- Microsoft 팀이 Exchange 온-프레미스에서 작업 하도록 하려면 exchange [및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명 된 대로 Exchange 하이브리드 마법사를 실행 하 여 새 exchange OAuth 인증 프로토콜을 구성 해야 합니다. Exchange 온-프레미스 사서함을 사용 하는 사용자가 다른 사용자를 대신 하 여 팀 모임을 예약할 수 있도록 하려면 [통합 구성 및 비즈니스용 Skype Online 및 Exchange Server 간 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)에서 설명 하는 2-3 단계도 완료 해야 합니다. 
+- Microsoft 팀이 Exchange 온-프레미스에서 작업 하도록 하려면 exchange [및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명 된 대로 Exchange 하이브리드 마법사를 실행 하 여 새 exchange OAuth 인증 프로토콜을 구성 해야 합니다. Exchange 온-프레미스 사서함을 사용 하는 사용자가 다른 사용자를 대신 하 여 팀 모임을 예약할 수 있도록 하려면 [통합 구성 및 비즈니스용 Skype Online 및 Exchange Server 간 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)에서 설명 하는 2-3 단계도 완료 해야 합니다.
 
 > [!NOTE]
 > Outlook 팀 추가 기능을 사용 하 여 Exchange 온-프레미스에서 호스팅되는 사서함에 대 한 팀 모임을 예약할 수 있습니다. 그러나 Exchange 온-프레미스를 사용 하 여 다른 사용자를 대신 하 여 팀 모임을 예약 하려면 Exchange 2013 CU9 이상 및 새 Exchange OAuth 인증 프로토콜이 필요 합니다. 대리인과 위임자 모두에 게 Exchange 온-프레미스에 사서함이 있어야 합니다.
@@ -103,3 +103,23 @@ Microsoft 팀은 다양 한 Microsoft 365 및 Office 365 서비스를 사용 하
 
 > [!TIP]
 > Azure AD Connect를 사용 하 여 Azure Active Directory와 동기화 하는 방법에 대 한 자세한 내용은 [온-프레미스 id를 Azure Active directory와 통합](https://go.microsoft.com/fwlink/?linkid=854600)을 참조 하세요.
+
+## <a name="requirements-for-on-premises-exchange-mailbox-user"></a>온-프레미스 Exchange 사서함 사용자에 대 한 요구 사항
+
+사용자가 Exchange를 사용 하 여 팀 모임 일정을 계획 하는 기능이 필요한 경우 다음을 확인 해야 합니다.
+
+- 대리인이 나 위임자 모두에 게는 Exchange Server의 사서함이 있어야 합니다.
+
+- 팀 서비스에서 사용자 사서함의 인증 되지 않은 검색을 수행 하도록 허용 하려면 자동 검색 (AutoD) V2가 필요 합니다. AutoD V2는 Exchange 2013 CU19 +에서 지원 됩니다.
+
+- EVOSTS에 대 한 인증 서버를 사용 하 여 Exchange 서버를 구성 해야 합니다. 이는 Exchange 용 하이브리드 마법사의 일부로 자동으로 구성 됩니다 (HWA).
+
+    HWA를 실행 하지 않으려는 경우 다음 지침에 따라 Exchange 서버에서 EVO STS에 대 한 인증 서버를 수동으로 만들어 [exchange 및 Exchange Online 조 직 간의 OAuth 인증을 구성할](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)수 있습니다. 그러나 HWA를 사용 하는 것이 좋습니다.
+
+- Exchange 서버에는 비즈니스용 Skype online의 응용 프로그램 ID ( **00000004-0000-0ff1-ce00-000000000000**)로 구성 된 파트너 응용 프로그램이 있어야 합니다. ID는 팀 예약 서비스 및 다음 속성을 포함 하는 연결 된 사용자 계정에 사용 됩니다.
+
+  - Exchange 주소록에서 숨겨집니다. 주소록에서 사용 하지 않도록 설정 된 사용자 계정 이므로이를 숨기는 것이 좋습니다.
+
+  - **Userapplication**의 Exchange 관리 역할 할당입니다.
+
+통합을 완료 하려면 1-3 단계에 따라 온 [-프레미스 exchange 및 Exchange Online 조직 간에 OAuth 인증을 구성 하는 방법을](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations) 알아보세요. 2 단계에는 위임에 필요 하지 않은 ArchiveApplication에 대 한 역할 할당이 포함 되어 있지만 Exchange 사서함에 대 한 아카이빙 SfB 온라인 채팅의 경우입니다.

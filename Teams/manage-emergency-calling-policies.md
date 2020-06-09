@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 긴급 전화 정책을 사용 하 고 관리 하 여 조직의 팀 사용자가 긴급 통화를 할 때 수행할 작업을 정의 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 98d6fb5eba98701cddccb808e5670fb34a00efbf
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 79332a8675273e86476a68f43489c202b03faea9
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539485"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638687"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 정책 관리
 
@@ -104,7 +104,7 @@ ms.locfileid: "44539485"
 이 예제에서는 운영 긴급 호출 정책 이라고 하는 정책을 Contoso Operations group의 모든 사용자에 게 할당 합니다.  
 
 > [!NOTE]
-> 먼저 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)의 단계를 따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
+> 먼저 [모든 Microsoft 365 또는 Office 365 서비스에 연결의 단계를 단일 Windows powershell 창에](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
 
 특정 그룹의 GroupObjectId를 가져옵니다.
 ```powershell

@@ -17,12 +17,12 @@ description: PowerShell을 사용 하 여 Microsoft 팀의 모든 팀 또는 특
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28d8109f772a448d61e189a6b0a8aa1c45feb5af
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d438b9d5cf3af8d200da07fcebe39f4222c2b25a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902593"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637307"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell을 사용하여 팀에 대한 액세스 권한 제어
 ================================================
@@ -33,7 +33,7 @@ Microsoft 365 관리 센터 및 azure AD (Active Directory) 포털을 사용 하
 
 - 모든 팀과 Microsoft 365 그룹에 게스트를 추가할 수 있도록 허용
 
-- 특정 팀 또는 Office 365 그룹의 게스트 사용자 허용 또는 차단
+- 특정 팀 또는 Microsoft 365 그룹의 게스트 사용자 허용 또는 차단
 
 자세한 내용은 [Microsoft 365 그룹의 게스트 액세스 관리](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access)에서 PowerShell을 사용 하 여 게스트 액세스 제어 "를 참조 하세요.
 
@@ -54,7 +54,7 @@ PowerShell을 사용 하 여 해당 도메인에 따라 게스트 사용자를 �
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.    구성을 확인 하 고, `AllowGuestUser` 설정 `$False`된 경우 [CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet을 사용 하 여 설정 `$True`합니다.
+3.    구성을 확인 하 고 `AllowGuestUser` `$False` , 설정 된 경우 [CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet을 사용 하 여 설정 `$True` 합니다.
 
     ```PowerShell
     Get-CsTeamsClientConfiguration

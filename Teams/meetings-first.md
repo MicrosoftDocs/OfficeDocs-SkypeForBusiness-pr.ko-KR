@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c88ba4ddb8b2e9af83e227388232e243dcabe1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140297"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637947"
 ---
 # <a name="meetings-first"></a>무엇보다도 모임을 우선으로
 
@@ -78,9 +78,9 @@ ms.locfileid: "43140297"
 
 모임 먼저는 비즈니스용 Skype 서버의 모든 버전에서 지원 되며 더 이상 지원 되지 않는 Lync Server에서 작업 하는 것으로 알려져 있습니다. 지원 되는 모든 비즈니스용 Skype 클라이언트에서 지원 되지만, 더 나은 기능을 위해서는 최신 클라이언트가 필요 합니다.
 
-이러한 요구 사항이 충족 되 고 이전이 아닌 경우에는 사용자에 게 [Office 365 및 팀에 대 한 라이선스가 부여](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)될 수 있습니다.
+이러한 요구 사항이 충족 되지 않고 (이전에는 그렇지 않은 경우) 사용자에 게 [Microsoft 365 또는 Office 365 및 팀에 대 한 라이선스가 부여](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)될 수 있습니다.
 
-최상의 모임 첫 경험을 위해서는 사용자가 [Exchange Online](exchange-teams-interact.md), [SharePoint Online, 비즈니스용 OneDrive](sharepoint-onedrive-interact.md), Office 365 그룹 만들기를 사용 해야 합니다. 사서함이 Exchange 온-프레미스에 있거나 SharePoint Online 또는 비즈니스용 OneDrive 또는 Office 365 그룹 만들기가 없는 사용자에 게는 먼저 모임이 지원 됩니다. 그러나, 그 환경은 그다지 완벽 하지 않을 것입니다. 특히 Exchange Server 온-프레미스를 사용 하는 조직의 경우 팀 클라이언트에서 모임을 만들고 볼 때 준수 기능과 관련 하 여 몇 가지 제한 사항이 있을 수 있습니다 (Exchange Server 버전에 따라 다름).
+최상의 모임 첫 경험을 위해서는 사용자가 [Exchange Online](exchange-teams-interact.md), [SharePoint Online, 비즈니스용 OneDrive](sharepoint-onedrive-interact.md), Microsoft 365 그룹 만들기를 사용 해야 합니다. 사서함이 Exchange 온-프레미스에 있거나 SharePoint Online 또는 비즈니스용 OneDrive를 사용 하지 않는 사용자 또는 Microsoft 365 그룹 만들기 인 경우에는 먼저 모임이 지원 됩니다. 그러나, 그 환경은 그다지 완벽 하지 않을 것입니다. 특히 Exchange Server 온-프레미스를 사용 하는 조직의 경우 팀 클라이언트에서 모임을 만들고 볼 때 준수 기능과 관련 하 여 몇 가지 제한 사항이 있을 수 있습니다 (Exchange Server 버전에 따라 다름).
 
 최소한 사용자는 [팀에 대 한 라이선스가](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)있어야 합니다. 또한 필요한 경우 [오디오 회의](set-up-audio-conferencing-in-teams.md)에 대 한 사용이 허가 될 수 있습니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862818"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610050"
 ---
 # <a name="deploy-my-service"></a>내 서비스 배포
 
@@ -33,7 +33,7 @@ ms.locfileid: "41862818"
 
 이 playbook를 사용 하 여 조직에서 사이트별로 Microsoft 팀 음성 기능 롤아웃을 성공적으로 계획 하 고 실행할 수 있습니다.
 
-이 playbook는 필요한 모든 활동, 권장 시간 표시 막대, 각 활동에 대 한 해당 지침에 대 한 링크를 포함 하 여 특정 사이트에 대 한 팀 음성 배포를 성공적으로 수행 하는 데 도움이 되는 중요 한 요소에 초점을 맞추어 종단간 지침을 다룹니다. 사용자에 게
+이 playbook는 필요한 모든 활동, 권장 시간 표시 막대, 각 활동에 대 한 해당 지침에 대 한 링크를 포함 하 여, 특정 사이트에 대 한 팀 음성 배포를 성공적으로 수행 하는 데 도움이 되는 사용자에 게 중요 한 요인에 초점을 둘 수 있도록 엔드 투 엔드 지침을 다룹니다.
 
 이 playbook의 활동을 완료 하 여 조직에서 다음을 수행할 수 있습니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "41862818"
 -   지원 요구를 줄이고 사용자 만족도를 높입니다.
 
 > [!NOTE]
-> 이 문서 및 관련 playbook는 서비스 사용 또는 특정 사이트에 발신음을 제공 하는 데 필요한 모든 기술 구성 단계를 설명 하는 것이 아닙니다. 대신 사용자가 쉽게 사용할 수 있도록 하는 작업 및 작업에 중점을 두 며, 지원 요구 사항을 최소화 하면서, 채택 률이 높은 빠른 전환 및 원활한 전환을 통해 팀 음성 작업량을 소모 하기 시작 합니다. 팀 음성에 가장 적합 한 환경을 구성 하는 방법에 대 한 기술 지침은 팀 [음성 작업을 구성](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)하기 위한 온 보 딩 검사 목록, 팀 [에서 직접 라우팅 구성](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), 팀 [핵심 기능](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), 팀 [네트워킹](prepare-network.md)및 [Office 365 사용](onboarding-checklist-enable-office-365.md)을 참조 하세요.
+> 이 문서 및 관련 playbook는 서비스 사용 또는 특정 사이트에 발신음을 제공 하는 데 필요한 모든 기술 구성 단계를 설명 하는 것이 아닙니다. 대신 사용자가 쉽게 사용할 수 있도록 하는 작업 및 작업에 중점을 두 며, 지원 요구 사항을 최소화 하면서, 채택 률이 높은 빠른 전환 및 원활한 전환을 통해 팀 음성 작업량을 소모 하기 시작 합니다. 팀 음성에 가장 적합 한 환경을 구성 하는 방법에 대 한 기술 지침은 팀 [음성 작업을 구성](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)하기 위한 온 보 딩 검사 목록, 팀 [에서 직접 라우팅 구성](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), 팀 [핵심 기능](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), 팀 [네트워킹](prepare-network.md), [Microsoft 365 또는 Office 365 사용](onboarding-checklist-enable-office-365.md)을 참조 하세요.
 
 <!--ENDOFSECTION-->
 
@@ -90,8 +90,8 @@ Playbook의 초점은 팀 음성 배포의 사용자의 인식에 영향을 주�
 
 5. 각 활동을 검토 하 고 필요한 작업을 수행 하 고 시간 표시 막대를 진행할 때 상태를 업데이트 합니다. 상태는 아래에 설명 된 대로 그래픽으로 표시 됩니다.
   
-   - ![녹색 확인 표시](media/deploy-my-service-image3.png) **예, 적용 되지 않음 (녹색):** 활동이 완료 되었거나이 사이트에 적용 되지 않으며 추가 작업이 필요 하지 않습니다.</li>
-   - ![노란색 느낌표](media/deploy-my-service-image4.png) 그림 <strong>활동은 아직 완료 되지 않음 (노란색):</strong> 작업이 아직 완료 되지 않았으므로 해당 일정의 예 또는 아니요로 업데이트 해야 합니다.</li>
+   - ![녹색 확인 표시 ](media/deploy-my-service-image3.png) **예, 적용 되지 않음 (녹색):** 활동이 완료 되었거나이 사이트에 적용 되지 않으며 추가 작업이 필요 하지 않습니다.</li>
+   - ![노란색 느낌표 그림 ](media/deploy-my-service-image4.png) <strong>활동은 아직 완료 되지 않음 (노란색):</strong> 작업이 아직 완료 되지 않았으므로 해당 일정의 예 또는 아니요로 업데이트 해야 합니다.</li>
    - ![](media/deploy-my-service-image5.png) <strong>아니요 (빨강)</strong> 를 표시 하는 빨간색 X 그림: 문제로 인해 작업을 완료할 수 없어 프로젝트 상태 모임에 전달 해야 합니다.</li></ul>
 
 6. 상태가 각 섹션 내에 겹쳐서 표시 되 고 섹션 제목에 다음 상태 표시기 중 하나로 서식이 지정 됩니다. **주간 상태** 도 자동으로 업데이트 됩니다.

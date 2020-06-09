@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 631d41d15eb727a9b9919e56720238189159f669
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780217"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638918"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>관리자용 Microsoft 교육 거버넌스 FAQ
 
@@ -35,7 +35,7 @@ ms.locfileid: "43780217"
 
 -   **접두사 접미사 이름 지정 정책** 접두 번호 또는 접미사를 사용 하 여 팀 (그룹)의 명명 규칙 (예: **GRP_US_My Group_Engineering**)을 정의할 수 있습니다. 접두 번호와 접미사는 팀을 만드는 사용자에 따라 이름에 추가 되는 고정 문자열 또는 사용자 특성 (예: **[부서]**) 일 수 있습니다.
 -   **사용자 지정 차단 된 단어** 특정 조직의 사용자가 자신이 만든 팀의 이름에서 사용을 차단 하는 단어 집합을 업로드할 수 있습니다. 예를 들어 팀 이름에 적용 되지 않는 그룹의 경우 **CEO**, **급여**, **HR** 의 사용 조건을 차단할 수 있습니다.
--   **분류** 조직의 사용자가 Office 365 그룹을 만들 때 설정할 수 있는 분류를 만들 수 있습니다. 
+-   **분류** 조직의 사용자가 Microsoft 365 그룹을 만들 때 설정할 수 있는 분류를 만들 수 있습니다. 
 
 > [!IMPORTANT]
 > Microsoft 365 그룹 명명 정책을 사용 하려면 하나 이상의 Microsoft 365 그룹의 구성원 인 고유 사용자 각각에 대해 Azure Active Directory Premium P1 라이선스 또는 Azure AD 기본 .EDU 라이선스가 필요 합니다.
@@ -66,14 +66,14 @@ ms.locfileid: "43780217"
 -   Microsoft Graph API (현재 베타 버전)를 사용 하 여 팀을 만들고, 구성 하 고, 복제 하 고, 보관할 수 있습니다. 자세한 내용은 [Microsoft GRAPH API를 사용 하 여 Microsoft 팀 작업을](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) 참조 하세요.
 
 > [!TIP]
-> School Data Sync에서는 각 수업에 대해 Office 365 그룹을 만들어 동기화 하 고 [숨겨진 그룹 구성원을 사용 하도록 설정](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) 하 여 수업 내에서 교사와 학생이 해당 클래스의 구성원을 볼 수 있도록 합니다. 다른 프로세스를 사용 하 여 클래스 그룹을 만드는 경우 새로운 UnifiedGroup cmdlet의 HiddenGroupMembershipEnabled 매개 변수를 사용 하 여 동일한 개인 정보 요구 사항을 충족 합니다.
+> School Data Sync에서는 각 클래스에 대해 Microsoft 365 그룹을 만들어 동기화 하 고 [숨겨진 그룹 구성원을 사용 하도록 설정](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) 하 여 수업 내에서 교사와 학생이 해당 클래스의 구성원을 볼 수 있도록 합니다. 다른 프로세스를 사용 하 여 클래스 그룹을 만드는 경우 새로운 UnifiedGroup cmdlet의 HiddenGroupMembershipEnabled 매개 변수를 사용 하 여 동일한 개인 정보 요구 사항을 충족 합니다.
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>반기 또는 분기가 종료 되는 경우 팀을 처리 하려면 어떻게 해야 하나요?
 
 이 과정을 완료 한 후에도 학교 반기 또는 분기가 종료 되 면 팀 데이터 처리 방법을 고려 하는 것이 좋습니다. 삭제 하거나 학생에 게 제공 된 상태를 유지 하세요. 설정한 정책이 공휴일과 충돌 하지 않도록 학교 일정을 염두에 두어야 합니다. 다음 도구를 사용 하 여 전략을 구현할 수 있습니다.
 
 -   **보존 정책:** 지정한 기간 보다 오래 된 모든 데이터를 삭제 하 여 이전 데이터가 채팅 (전체 또는 일부 사용자의 경우) 및 채널에서 제거 되었는지 확인 하는 데 사용 합니다. 콘텐츠를 삭제 하지 못하도록 보존 하도록 팀을 구성할 수도 있습니다. 자세한 내용은 [Microsoft 팀의 보존 정책을](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)참조 하세요.
--   **만료 정책:** 특정 일 수가 지난 후에 만료 되도록 팀을 구성 합니다. 만료 되기 30 일 전 팀의 모든 소유자에 게 팀을 갱신 해야 한다는 알림이 표시 되 고, 그렇지 않으면 관리자가 삭제 된 팀을 30 일간 복구할 수 있습니다. 이 설정은 사용 되지 않은 팀이 sunsetted 인지 확인 하는 데 매우 유용 합니다. 자세한 내용은 [Office 365 그룹 만료 정책](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)을 참고 하세요.
+-   **만료 정책:** 특정 일 수가 지난 후에 만료 되도록 팀을 구성 합니다. 만료 되기 30 일 전 팀의 모든 소유자에 게 팀을 갱신 해야 한다는 알림이 표시 되 고, 그렇지 않으면 관리자가 삭제 된 팀을 30 일간 복구할 수 있습니다. 이 설정은 사용 되지 않은 팀이 sunsetted 인지 확인 하는 데 매우 유용 합니다. [Microsoft 365 그룹 만료 정책](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)에서 자세히 알아보세요.
 
 -   **팀 보관:** 이 설정은 팀을 읽기 전용 모드로 전환 합니다. 계속 해 서 검색 하 고 검색할 수 있지만, 새 게시물을 추가할 수는 없습니다. 팀 소유자가 팀을 보관 하는 방법에 대해 설명 하는 [팀 보관 또는 복원](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 팀 소유자는 [그래프 API (베타)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) 를 사용 하 여 팀을 보관 하거나 복원할 수도 있습니다.
  

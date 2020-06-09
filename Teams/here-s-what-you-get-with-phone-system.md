@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능
+title: 다음은 전화 시스템 기능입니다.
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스에 대 한 Microsoft 전화 시스템을 계획 하 고 설정 하는 방법, 사용 가능성, 기능에 대해 알아보세요. '
-ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288706"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638347"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능
+# <a name="heres-what-you-get-with-phone-system"></a>다음은 전화 시스템 기능입니다.
 
-이 문서에서는 Office 365 기능에서 제공 하는 전화 시스템에 대해 설명 합니다. 휴대폰 시스템을 PBX (개인 브랜치 교환) 대체로 사용 하 고 PSTN (공개 통신 네트워크)에 연결 하는 옵션에 대 한 자세한 내용은 [Office 365의 전화 시스템](what-is-phone-system-in-office-365.md)을 참조 하세요.
+이 문서에서는 전화 시스템 기능에 대해 설명 합니다. 전화 시스템을 사용자의 PBX (개인 브랜치 교환) 대체로 사용 하는 방법과 PSTN (공개 통신 네트워크)에 연결 하는 옵션에 대 한 자세한 내용은 [전화 시스템을](what-is-phone-system-in-office-365.md)참조 하세요.
 
 PC, Mac, 모바일에서 클라이언트를 사용할 수 있으며, 태블릿 및 휴대 전화에서 Pc 및 데스크톱 IP 전화기로 장치에 대 한 기능을 제공 합니다. 자세한 내용은 [Microsoft 팀 용 클라이언트 가져오기를](get-clients.md)참조 하세요.
 
   
-## <a name="phone-system-in-office-365-features"></a>Office 365 기능에서 제공 하는 전화 시스템
+## <a name="phone-system-features"></a>전화 시스템 기능
 
 전화 시스템은 다음과 같은 기능을 제공 합니다. 다른 언급이 없는 한 기능은 비즈니스용 Skype Online과 팀 모두에서 사용할 수 있습니다.
   
 |||
 |:-----|:-----|
-|**Office 365 기능의 전화 시스템** <br/> |**설명** <br/> |
+|**전화 시스템 기능** <br/> |**설명** <br/> |
 |[클라우드 자동 전화 교환](what-are-phone-system-auto-attendants.md) <br/> |외부 및 내부 발신자가 조직의 회사 사용자 또는 부서에 게 전화를 걸고 배치 하거나 양도할 수 있는 메뉴 시스템을 만들 수 있습니다.  <br/> |
 |[클라우드 통화 대기열](create-a-phone-system-call-queue.md) <br/> |조직에서 통화 대기열을 관리 하는 방법을 구성할 수 있습니다. 예를 들어 보류 중인 인사말 및 음악을 설정 하 고 통화를 처리 하는 데 사용할 수 있는 다음 통화 에이전트를 검색 합니다.  <br/> |
 |대기 중인 음악 | PSTN (공개 통신 네트워크)에서 외부 통화가 대기 상태로 전환 될 때 서비스에서 정의 하는 기본 음악을 재생 합니다. 이 기능은 통화 대기열에 대 한 통화 외에 일대일 PSTN 간 통화에 적용 됩니다. 이 기능은 다른 플랫폼에 대 한 보류 알림 패리티를 제공 합니다. 이 기능은 관리자가 구성할 수 있으 나 [현재 PowerShell을 통해서만](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)가능 합니다. 또한 consultative는 PSTN 통화 전송에서 지원 되지 않습니다.|
@@ -80,16 +80,16 @@ GCC High 및 DoD 클라우드에서는 다음 기능을 아직 사용할 수 없
 - 대기 중인 음악
 - Azure AD 역방향 번호 조회
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-- [Office 365의 전화 시스템 소개](what-is-phone-system-in-office-365.md)
+- [전화 시스템이란?](what-is-phone-system-in-office-365.md)
 - [Microsoft 팀의 클라우드 음성](cloud-voice-landing-page.md)
 - [전화 시스템 설정](setting-up-your-phone-system.md)
 - [사용자에게 적합한 통화 플랜은 무엇인가요?](calling-plan-landing-page.md)
 - [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
 - [통화 품질 모니터링 및 관리](monitor-call-quality-qos.md)
-- [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [전화 시스템의 가격 책정](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [전화 시스템 가격](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Callings 모임이 있는 가상화 된 데스크톱 인프라 팀](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
   

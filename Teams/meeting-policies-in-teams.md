@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: 55f65bf14973b54b091e0a6c3ecdc3edf49e6ed3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583501"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637967"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -332,7 +332,7 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 - [모임에서 채팅 허용](#allow-chat-in-meetings)
 
 > [!NOTE]
->모임에 참가 하는 옵션은 각 팀 그룹의 설정 및 연결 방법에 따라 달라 집니다. 그룹에 오디오 회의가 있고이를 사용 하 여 연결 하는 경우 [Office 365의 오디오 회의](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)를 참조 하세요. 팀 그룹에 오디오 회의가 없는 경우 [팀에서 모임 참가](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)를 참조 하세요.
+>모임에 참가 하는 옵션은 각 팀 그룹의 설정 및 연결 방법에 따라 달라 집니다. 그룹에 오디오 회의가 있고이를 사용 하 여 연결 하는 경우 [오디오 회의](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)를 참조 하세요. 팀 그룹에 오디오 회의가 없는 경우 [팀에서 모임 참가](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)를 참조 하세요.
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>익명 사용자가 모임을 시작 하도록 허용
 

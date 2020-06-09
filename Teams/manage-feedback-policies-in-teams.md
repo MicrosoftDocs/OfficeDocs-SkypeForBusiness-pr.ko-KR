@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 팀 사용자가 Microsoft에 팀에 대 한 피드백을 제출할 수 있는지 여부를 제어 하는 데 피드백 정책을 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: b016a1d566f15cdabea55913b7fe107d86dee358
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326685"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637957"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft 팀에서 피드백 정책 관리
 
@@ -32,7 +32,7 @@ ms.locfileid: "44326685"
 
 **피드백 제공 기능**
 
-팀에 의견 **을**  >  **제공** 하기 위해 팀에 대 한 의견 및 제안을 사용자에 게 보낼 수 있습니다. **의견 제공** 을 통해 전송 되는 데이터는 "고객 데이터" 또는 "개인 데이터"로 간주 되는 정보를 포함 하 여 Office 365 계약에 "지원 데이터"로 간주 됩니다.
+팀에 의견 **을**  >  **제공** 하기 위해 팀에 대 한 의견 및 제안을 사용자에 게 보낼 수 있습니다. **의견 제공** 을 통해 전송 되는 데이터는 "고객 데이터" 또는 "개인 데이터"로 간주 되는 정보를 포함 하 여 Microsoft 365 또는 Office 365 규약에 "지원 데이터"로 간주 됩니다.
 
 ![팀의 피드백 제공 옵션 스크린샷](media/manage-feedback-policies-in-teams-give-feedback.png)
 

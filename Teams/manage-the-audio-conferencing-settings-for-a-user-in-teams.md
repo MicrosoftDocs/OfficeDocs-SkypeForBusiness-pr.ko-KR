@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Office 365 관리자는 공급자, 기본 유료 또는 수신자 부담 번호, 회의 ID 또는 사용자의 PIN을 비롯 한 팀 오디오 회의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: f635a3a9c471d2d089b8592c4dd36f55bf9095e2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Microsoft 365 또는 Office 365 관리자는 공급자, 기본 유료 또는 수신자 부담 번호, 회의 ID 또는 사용자의 PIN을 비롯 한 팀 오디오 회의 설정을 편집할 수 있습니다.
+ms.openlocfilehash: 33d241e9758bab2b52e342cab2ec157dafb73275
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137148"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638477"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 대 한 오디오 회의 설정 관리
 
-Office 365 관리자는 조직의 개별 사용자에 대 한 오디오 회의 설정 (예: 공급자, 기본 유료 또는 수신자 부담 전화 번호, 전화 회의 ID 또는 PIN)을 편집할 수 있습니다. 조직의 설정을 편집 하려는 경우 [조직의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)를 참조 하세요.
+Microsoft 365 또는 Office 365 관리자는 조직의 개별 사용자에 대해 공급자, 기본 유료 또는 수신자 부담 번호, 전화 회의 ID 또는 PIN 등의 오디오 회의 설정을 편집할 수 있습니다. 조직의 설정을 편집 하려는 경우 [조직의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)를 참조 하세요.
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft 팀 로고를 표시 하는 아이콘](media/teams-logo-30x30.png) Microsoft 팀 관리 센터 사용
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams 로고를 보여주는 아이콘](media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 

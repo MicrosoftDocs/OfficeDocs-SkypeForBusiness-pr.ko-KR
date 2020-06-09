@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 외부 기업과 클라이언트가 통화할 수 있도록 팀 사용자의 회사 전화 번호를 할당, 변경 또는 제거 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a8dea997df1511406a302922b291fa2248f29356
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326805"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609963"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 할당, 변경 또는 제거
 
@@ -51,7 +51,8 @@ ms.locfileid: "44326805"
 5. 전화 번호 정보를 사용 하 여 사용자에 게 전자 메일을 보낼지 여부에 따라 **전화 번호 정보로 전자 메일 사용자**를 끄거나 설정 합니다. 기본적으로이 기능은 켜져 있습니다. 
 6. **저장**을 클릭합니다.
     > [!NOTE]
-    > Office 365와 팀 간의 지연 때문에 사용자를 사용 하도록 설정 하는 데 몇 시간이 걸릴 수 있습니다. 전화 번호가 몇 시간 후에 정확 하 게 할당 되지 않은 경우 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말을 참조](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)하세요. 저희에 게 도움을 주세요!
+    > Microsoft 365 또는 Office 365와 팀 간의 지연 때문에 사용자를 설정 하는 데 최대 24 시간이 걸릴 수 있습니다. 24 시간 후에 전화 번호가 올바르게 지정 되지 않은 경우 [비즈니스 제품에 대 한 고객 지원-관리자 도움말을 참조](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)하세요. 저희에 게 도움을 주세요!
+
   
 ## <a name="change-a-phone-number-for-a-user"></a>사용자의 전화 번호 변경
  

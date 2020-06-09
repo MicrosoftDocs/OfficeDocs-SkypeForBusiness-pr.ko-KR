@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
-ms.translationtype: HT
+ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574025"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637507"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 
@@ -56,7 +56,7 @@ Microsoft Teams에서 개별 팀이 비즈니스 시나리오에 전반에 걸�
 
 전체 조직에 Microsoft Teams가 활성화된 경우 지정된 팀 소유자는 함께 일하는 모든 직원에게 팀 가입을 초대할 수 있습니다. 팀 소유자는 Microsoft Teams를 사용하여 간편하게 이름을 기반으로 조직에 사람들을 추가할 수 있습니다. 조직의 설정에 따라 조직 외부의 팀 구성원인 게스트도 팀에 추가할 수 있습니다. 자세한 내용은 [Microsoft Teams의 게스트 액세스](guest-access.md)를 참조하세요. 
 
-팀 소유자는 기존 Office 365 그룹을 기반으로 팀을 만들 수도 있습니다. 그룹에 대한 변경 내용은 자동으로 Microsoft Teams와 동기화됩니다. 기존 Office 365 그룹을 기반으로 팀을 만들면 구성원을 초대하고 관리하는 프로세스를 간소화할 뿐만 아니라 Microsoft Teams 내에서 그룹 파일을 동기화할 수도 있습니다.
+팀 소유자는 기존 Microsoft 365 그룹을 기반으로 팀을 만들 수도 있습니다. 그룹에 대한 변경 내용은 자동으로 Microsoft Teams와 동기화됩니다. 기존 Microsoft 365 그룹을 기반으로 팀을 만들면 구성원을 초대 하 고 관리 하는 프로세스를 단순화할 수 있을 뿐만 아니라 Microsoft 팀 내에서 그룹 파일도 동기화 합니다.
 
 **팀 역할**
 
@@ -77,7 +77,7 @@ Microsoft Teams에는 다음과 같은 두 가지 주요 역할이 있습니다.
 
 Office 365의 Microsoft Teams 관리자인 경우 Microsoft Teams 관리 센터에서 시스템 전체 설정에 액세스할 수 있습니다. 이러한 설정은 팀 소유자가 팀 설정 아래에서 볼 수 있는 옵션 및 기본값에 영향을 줄 수 있습니다. 예를 들어, 팀 전체에 표시되는 팀 전체 공지, 토론, 리소스에 대해 기본 채널 “일반”을 사용할 수 있습니다.
 
-기본적으로 모든 사용자에게 Microsoft Teams 내에서 팀을 만들 수 있는 권한이 있습니다. 이 권한을 수정하려면 [Teams의 역할 및 권한 할당](assign-roles-permissions.md)을 참조하세요. 기존 Office 365 그룹의 사용자도 Teams 기능을 사용해 권한을 높일 수 있습니다.
+기본적으로 모든 사용자에게 Microsoft Teams 내에서 팀을 만들 수 있는 권한이 있습니다. 이 권한을 수정하려면 [Teams의 역할 및 권한 할당](assign-roles-permissions.md)을 참조하세요. 기존 Microsoft 365 그룹의 사용자는 팀의 기능을 사용 하 여 사용 권한을 향상 시킬 수도 있습니다.
 
 사용자를 Microsoft Teams에 참여시키기 위한 초기 주요 계획 중 한 가지는 사용자가 일상생활에서 Teams가 공동 작업을 향상할 수 있는 방법을 생각하고 이해하도록 돕는 것입니다. 사용자와 대화하고 현재 조각화된 방식으로 공동 작업하는 비즈니스 시나리오를 선택하는 데 도움을 줍니다. 작업을 수행하는 데 도움이 되는 관련 탭이 있는 채널로 함께 모읍니다. Teams의 가장 강력한 사용 사례 중 하나는 조직 간 프로세스입니다. 
 

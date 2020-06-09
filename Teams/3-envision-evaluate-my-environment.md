@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137988"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610060"
 ---
 # <a name="evaluate-my-environment"></a>내 환경 평가
 
@@ -66,8 +66,8 @@ ms.locfileid: "43137988"
 조직의 준비를 평가 하 여 사용자 변경 관리를 처리 하는 경우 다음 고려 사항을 따르십시오.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>본 소프트웨어 또는 서비스의 사용자 채택을 이전에 성공적으로 완료 했습니까?</li><li>사용 현황을 추적할 수 있나요?</li><li>초기&mdash;및 진행 중인&mdash;채택 캠페인을 디자인 하 고 관리 하는 리소스를 보유 하 고 있는지 여부 (인식, 교육 및 지원)?</li><li>전용 사용자 채택/변경 관리 팀이 있거나 비즈니스 결과를 확인 하기 위해 해당 리소스에 투자할 수 있습니까?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>위의 모든 사용자 &quot;에&quot; 게 예를 답변 한 경우 적절 한 사용자 변경 관리 관계자를 식별 하 고 사용자 준비 계획을 시작 합니다.</li><li>위의 일부 또는 &quot;모두&quot; 에 게 답변 하지 않은 경우에는 조직에 대 한 변경 관리 및 채택 관련 활동을 제공 하기 위해 외부 리소스를 사용 하는 것이 좋습니다.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>본 소프트웨어 또는 서비스의 사용자 채택을 이전에 성공적으로 완료 했습니까?</li><li>사용 현황을 추적할 수 있나요?</li><li>초기 및 진행 중인 채택 캠페인을 디자인 하 고 관리 하는 리소스를 보유 하 고 &mdash; &mdash; 있는지 여부 (인식, 교육 및 지원)?</li><li>전용 사용자 채택/변경 관리 팀이 있거나 비즈니스 결과를 확인 하기 위해 해당 리소스에 투자할 수 있습니까?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>&quot; &quot; 위의 모든 사용자에 게 예를 답변 한 경우 적절 한 사용자 변경 관리 관계자를 식별 하 고 사용자 준비 계획을 시작 합니다.</li><li>&quot; &quot; 위의 일부 또는 모두에 게 답변 하지 않은 경우에는 조직에 대 한 변경 관리 및 채택 관련 활동을 제공 하기 위해 외부 리소스를 사용 하는 것이 좋습니다.</li></ol></td></tr>
 </table>
 
 
@@ -124,7 +124,7 @@ Microsoft 글로벌 네트워크에 대 한 네트워크 경로를 최적화 하
 Vpn은 여러 조직에 게 귀중 한 서비스를 제공 합니다. 불행 하 게도 일반적으로 실시간 미디어를 지원 하도록 디자인 되지 않았거나 구성 되어 있지 않습니다. 일부 Vpn에서는 UDP가 지원 되지 않을 수도 있습니다. Vpn은 이미 암호화 된 미디어 트래픽 위에 추가 암호화 계층을 도입 하기도 합니다. 또한 VPN 장치를 통해 헤어 고정 트래픽 때문에 팀 서비스에 대 한 연결이 효율적이 지 않을 수 있습니다.
 또한 팀이 필요로 하는 예상 부하를 수용할 수 있도록 용량 측면에서 디자인 되지 않았습니다.
 
-팀 트래픽용 VPN을 우회 하는 대체 경로를 제공 하는 것이 좋습니다. 이는 일반적으로 *분할 터널 VPN*이라고 합니다. 분할 터널링은 Office 365에 대 한 트래픽이 VPN을 통과 하지는 않지만 Office 365로 바로 이동 한다는 것을 의미 합니다. 이 변경은 품질에 긍정적인 영향을 주지만, VPN 장치 및 조직의 네트워크에서 로드를 줄이는 두 번째 이점을 제공 합니다.
+팀 트래픽용 VPN을 우회 하는 대체 경로를 제공 하는 것이 좋습니다. 이는 일반적으로 *분할 터널 VPN*이라고 합니다. 분할 터널링은 Microsoft 365 또는 Office 365에 대 한 트래픽이 VPN을 통과 하지는 않지만 Microsoft 365 또는 Office 365로 바로 이동 한다는 것을 의미 합니다. 이 변경은 품질에 긍정적인 영향을 주지만, VPN 장치 및 조직의 네트워크에서 로드를 줄이는 두 번째 이점을 제공 합니다.
 
 분할 터널을 구현 하려면 VPN 공급 업체에 구성 세부 정보를 문의 하세요.
 
@@ -153,10 +153,10 @@ Microsoft 팀은 Microsoft 온라인 서비스에 연결 되며 인터넷에 연
 
 이러한 포트를 여는 것은 안정적인 팀 배포에 필수적입니다. 이러한 포트 차단은 지원 되지 않으며 미디어 품질에 영향을 미칠 수 있습니다.
 
-조직에서 이러한 포트를 열어야 하는 정확한 IP 주소 범위 및 도메인을 지정 해야 하는 경우 이러한 포트에 대 한 대상 IP 범위 및 도메인을 제한할 수 있습니다. 정확한 포트, 프로토콜 및 IP 범위 목록은 [Office 365 url 및 ip 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)를 참조 하세요.
+조직에서 이러한 포트를 열어야 하는 정확한 IP 주소 범위 및 도메인을 지정 해야 하는 경우 이러한 포트에 대 한 대상 IP 범위 및 도메인을 제한할 수 있습니다. 정확한 포트, 프로토콜 및 IP 범위 목록은 [Microsoft 365 또는 Office 365 url 및 ip 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)를 참조 하세요.
 대상 IP 주소 범위와 도메인을 제한 하도록 선택 하는 경우 포트와 범위 목록을 변경 하는 데 문제가 있을 수 있으므로이를 반드시 유지 해야 합니다. 변경 내용이 있을 때 [이 RSS 피드](https://go.microsoft.com/fwlink/p/?linkid=236301) 를 업데이트 하도록 구독할 수 있습니다. 또한, 정기적으로 [비즈니스용 Skype 네트워크 평가 도구](https://www.microsoft.com/download/details.aspx?id=53885) 를 실행 하 여 모든 포트가 열려 있는지 테스트 하는 것이 좋습니다. 이 도구의 기능에 대 한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
 
-프록시 서버를 배포 하는 경우 모든 팀 서비스에 대 한 프록시 서버를 우회 하는 것이 좋습니다. 프록시를 사용 하는 것이 가능 하지만, UDP 대신 TCP를 사용 하도록 미디어를 강제 적용 하 여 품질이 낮아질 가능성이 높습니다. 프록시 서버 및 바이패스에 대 한 자세한 내용은 [Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)를 참조 하세요.
+프록시 서버를 배포 하는 경우 모든 팀 서비스에 대 한 프록시 서버를 우회 하는 것이 좋습니다. 프록시를 사용 하는 것이 가능 하지만, UDP 대신 TCP를 사용 하도록 미디어를 강제 적용 하 여 품질이 낮아질 가능성이 높습니다. 프록시 서버 및 바이패스에 대 한 자세한 내용은 [Microsoft 365 또는 Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)를 참조 하세요.
 
 <!--ENDOFSECTION-->
 
@@ -166,14 +166,14 @@ Microsoft 팀은 Microsoft 온라인 서비스에 연결 되며 인터넷에 연
 
 [비즈니스용 Skype 네트워크 평가 도구](https://www.microsoft.com/download/details.aspx?id=53885) 를 다운로드 하 여 네트워크가 팀을 위한 준비가 되었는지 테스트할 수 있습니다. 이 도구는 모든 올바른 포트가 열려 있는지 여부를 테스트 하 고 네트워크 장애를 테스트할 수 있는 듀얼 기능을 제공 합니다.
 
-도구를 다운로드 하 여 설치한 후에는 C:\\프로그램 파일\\Microsoft 비즈니스용 Skype 네트워크 평가 도구를 찾을 수 있습니다. 이 도구를 사용 하는 방법에 대 한 자세한 안내서는 해당 디렉토리에 포함 되어 있습니다.
+도구를 다운로드 하 여 설치한 후에는 C: \\ 프로그램 파일 \\ Microsoft 비즈니스용 Skype 네트워크 평가 도구를 찾을 수 있습니다. 이 도구를 사용 하는 방법에 대 한 자세한 안내서는 해당 디렉토리에 포함 되어 있습니다.
 
 ### <a name="test-for-opened-ports"></a>열린 포트 테스트
 
-명령 프롬프트 창을 열고 **Cd C:\\\\프로그램 파일**을 입력 하 여 네트워크 평가 도구 디렉터리로 이동 합니다. Microsoft 비즈니스용 Skype 네트워크 평가 도구. 명령 프롬프트에서 networkassessmenttool를 입력 하 여 열려 있는 포트 테스트를 시작 합니다 **/connectivitycheck**
+명령 프롬프트 창을 열고 cd C: 프로그램 파일을 입력 하 여 네트워크 평가 도구 디렉터리로 이동 합니다. ** \\ \\ Microsoft 비즈니스용 Skype 네트워크 평가 도구**. 명령 프롬프트에서 networkassessmenttool를 입력 하 여 열려 있는 포트 테스트를 시작 합니다 **/connectivitycheck**
 
 검사를 실행 한 후에는 도구가 "확인 완료 됨" 메시지를 표시 하거나 차단 된 포트에 대 한 보고를 받습니다.
-또한 도구의 출력을 포함\\하는 appdata\\Connectivity_results 라는 파일을 생성 하 고이 를% userprofile%, 비즈니스용 로컬\\microsoft 비즈니스용 skype 네트워크 평가 도구\\ 디렉터리에 저장 합니다.
+또한 도구의 출력을 포함 하는 appdata Connectivity_results 라는 파일을 생성 하 고이 를% userprofile%, \\ \\ \\ 비즈니스용 로컬 microsoft 비즈니스용 skype 네트워크 평가 도구 디렉터리에 저장 \\ 합니다.
 
 연결 검사를 정기적으로 실행 하 여 포트가 열려 있고 올바르게 작동 하는지 확인 하는 것이 좋습니다.
 
@@ -206,7 +206,7 @@ Microsoft 팀은 Microsoft 온라인 서비스에 연결 되며 인터넷에 연
 
 팀을 배포 하기 전에 대역폭 계획, 포트 테스트 또는 네트워크 요구 사항 테스트 결과에서 현재 네트워크를 수정 해야 하는 경우 다음과 같은 여러 가지 방법으로이 작업을 수행할 수 있습니다.
 
--   대역폭 부족으로 연결을 업그레이드 하 여 Office 365에 대 한 트래픽이 unhindered 흐를 수 있도록 합니다.
+-   대역폭 부족으로, Microsoft 365 또는 Office 365에 대 한 트래픽이 unhindered 수 있도록 연결을 업그레이드 합니다.
 
 -   차단 된 포트의 경우 방화벽 규칙을 변경 하 고 포트를 다시 테스트 합니다.
 

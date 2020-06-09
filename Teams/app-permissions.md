@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256483"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611017"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 팀 앱 사용 권한 및 고려 사항
 
@@ -140,7 +140,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 - 탭에 대 한 위험 프로필은 브라우저 탭에서 실행 되는 동일한 웹 사이트와 거의 동일 합니다. 
 
-- 또한 탭은 현재 사용자의 로그인 이름 및 UPN, 현재 사용자의 Azure AD 개체 ID,이 계정이 상주 하는 Office 365 그룹의 ID (팀 인 경우), 테 넌 트 ID 및 사용자의 현재 로케일을 비롯 하 여 실행 중인 컨텍스트를 가져옵니다. 그러나 이러한 Id를 사용자 정보에 매핑하려면 탭에서 사용자가 Azure AD에 로그인 하도록 설정 해야 합니다.
+- 또한 탭은 현재 사용자의 로그인 이름 및 UPN, 현재 사용자의 Azure AD 개체 ID,이 계정이 상주 하는 Microsoft 365 그룹의 ID (팀 인 경우), 테 넌 트 ID 및 사용자의 현재 로케일을 비롯 하 여 실행 중인 컨텍스트를 가져옵니다. 그러나 이러한 Id를 사용자 정보에 매핑하려면 탭에서 사용자가 Azure AD에 로그인 하도록 설정 해야 합니다.
 
 ## <a name="connectors"></a>기가
 

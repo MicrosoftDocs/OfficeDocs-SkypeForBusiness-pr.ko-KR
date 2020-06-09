@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 긴급 전화 번호를 설정 하 고 긴급 전화의 라우팅 방법을 지정 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b573543483d41219d2795043f47042789bc855ba
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b200f5a160e7b13a9412d588f3342eeb5a08ccd8
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539525"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638697"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 라우팅 정책 관리
 
@@ -109,7 +109,7 @@ ms.locfileid: "44539525"
 이 예제에서는 Contoso HR 그룹의 모든 사용자에 게 HR 비상 통화 라우팅 정책 이라는 정책을 할당 합니다.  
 
 > [!NOTE]
-> 먼저 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)의 단계를 따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
+> 먼저 [모든 Microsoft 365 또는 Office 365 서비스에 연결의 단계를 단일 Windows powershell 창에](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
 
 특정 그룹의 GroupObjectId를 가져옵니다.
 ```PowerShell

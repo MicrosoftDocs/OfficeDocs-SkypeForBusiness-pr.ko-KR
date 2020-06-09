@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 각 국가 또는 지역에 대 한 전화 접속 회의 언어와 지정 된 문화권 ID (en-us, da, de-de, de 등)를 찾습니다.
-ms.openlocfilehash: 061458585854cf9a80113dce9877779806c7c418
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2718db11c905678a49650ad41f851e8f6e4e393c
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826226"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610297"
 ---
 # <a name="audio-conferencing-supported-languages"></a>오디오 회의 지원되는 언어
 
-Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신자가 비즈니스용 Skype 또는 Microsoft 팀 모임에 전화 접속 하는 경우 사용 되는 기본 및 보조 (최대 4) 언어를 선택할 수 있습니다. 다음은 오디오 회의에 지원 되는 언어 목록입니다. 
+Microsoft 365 또는 Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신자가 비즈니스용 Skype 또는 Microsoft 팀 모임에 접속 하는 경우 사용 되는 기본 및 보조 (최대 4) 언어를 선택할 수 있습니다. 다음은 오디오 회의에 지원 되는 언어 목록입니다. 
   
 > [!IMPORTANT]
 > 기본 및 보조 언어는 전용 오디오 회의 전화 번호로만 변경할 수 있습니다. 
@@ -46,7 +46,7 @@ Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신�
 |중국어 (간체)  <br/> |중국  <br/> |zh-cn-CN  <br/> |
 |중국어 (번체)  <br/> |대만  <br/> |zh-cn-hy 얕은 샘물 a  <br/> |
 |크로아티아어  <br/> |크로아티아  <br/> |hr-HR  <br/> |
-|체코어  <br/> |체코  <br/> |cs-CZ  <br/> |
+|체코어  <br/> |체코 공화국  <br/> |cs-CZ  <br/> |
 |덴마크어  <br/> |덴마크  <br/> |da-진한  <br/> |
 |네덜란드어  <br/> |네덜란드  <br/> |nl-NL  <br/> |
 |영어  <br/> |오스트레일리아  <br/> |en-AU  <br/> |
@@ -58,7 +58,7 @@ Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신�
 |프랑스어  <br/> |캐나다  <br/> |fr-CA  <br/> |
 |프랑스어  <br/> |프랑스  <br/> |fr-fr  <br/> |
 |독일어  <br/> |독일  <br/> |de-DE  <br/> |
-|그루지야어  <br/> |조지아  <br/> |카-GE  <br/> |
+|그루지야어  <br/> |그루지야  <br/> |카-GE  <br/> |
 |그리스어  <br/> |그리스  <br/> |el-GR  <br/> |
 |히브리어  <br/> | 이스라엘 <br/> | he-IL <br/> |
 |힌디어  <br/> |인도  <br/> |' 높음 '  <br/> |
@@ -93,11 +93,11 @@ Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신�
 
 - 시간을 절약 하거나이를 자동화 하기 위해 [CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) 또는 [CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) cmdlet을 사용할 수 있습니다.
     
-- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
     
   - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요. 
     
@@ -112,6 +112,6 @@ Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신�
   
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

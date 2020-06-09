@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Microsoft 팀이 동적 구성원을 사용 하 여 Office 365 그룹과 연결 된 팀을 지 원하는 방법을 알아봅니다.
+description: Microsoft 팀이 동적 구성원을 사용 하 여 Microsoft 365 그룹과 연결 된 팀을 지 원하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905800"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638407"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>팀의 동적 구성원 개요
 
@@ -35,7 +35,7 @@ Microsoft 팀은 *동적 구성원*을 사용 하 여 microsoft 365 그룹과 �
 
 이 기능을 사용 하면 지정 된 팀의 구성원이 멤버 자격을 수동으로 관리 하는 대신 특정 조건 집합에 따라 자동으로 업데이트 됩니다. 이 작업을 수행 하려면 Azure AD Premium P1 라이선스와 팀 구성원 자격을 테 넌 트 관리자가 사용자의 모든 Azure AD 속성에 [할당할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) 수 있습니다.
 
-Microsoft 팀은 팀의 Office 365 그룹에 영향을 미치는 경우 동적 구성원 변경을 반영 하는 데 몇 분에서 최대 2 시간까지 걸릴 수 있습니다.
+Microsoft 팀은 팀의 Microsoft 365 그룹에 영향을 주는 경우 동적 구성원 변경을 반영 하는 데 몇 분에서 최대 2 시간까지 걸릴 수 있습니다.
 
 > [!NOTE]
 > - 규칙은 팀 구성원 인 사용자가 아닌 팀 소유자를 정의할 수 있습니다.
@@ -44,7 +44,7 @@ Microsoft 팀은 팀의 Office 365 그룹에 영향을 미치는 경우 동적 �
 > -    구성원은 동적 그룹으로 지원 되는 팀에서 나갈 수 없습니다.
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>동적 구성원 자격을 사용 하 여 Office 365 그룹 만들기 및 관리
+## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>동적 구성원 자격을 사용 하 여 Microsoft 365 그룹 만들기 및 관리
 테 넌 트 관리자로 로그인 한 [후 동적 그룹 만들기](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)의 지침에 따라 상태를 확인 합니다. 필요에 따라 [Azure Active Directory의 그룹에 대 한 동적 구성원 규칙](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)을 참조 하세요.
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>O365 그룹을 사용 하 여 새 팀 만들기

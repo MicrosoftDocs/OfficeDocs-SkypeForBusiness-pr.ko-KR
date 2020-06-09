@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '사용자와 다른 여러 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 전화 회의 ID를 할당 하려면 Microsoft 팀의 단계를 참조 하세요. '
-ms.openlocfilehash: eecf5e015c1be21870221ba3b41a43640a6c0869
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: 704bcd5777fd0327ed944cc903959ef019f794a5
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562063"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638467"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 오디오 회의 설정 관리
 
@@ -208,7 +208,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 
 2. 목록에서 전화 번호를 선택 하 고 **편집**을 클릭 합니다. 다음과 같은 작업을 수행할 수 있습니다.
     
-   - 오디오 회의에 사용 하도록 Office 365에서 설정한 전화 번호를 확인 합니다. 
+   - 오디오 회의에 사용 되는 전화 번호를 확인 합니다. 
     
    - 오디오 회의 자동 전화 교환에 사용 되는 위치와 기본 언어를 확인 합니다.
 
@@ -218,11 +218,11 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 
-Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
     
-  - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 또는 Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
   
