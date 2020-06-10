@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dfc985f213141e20e15eb29198004d10030280
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583451"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665420"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>비즈니스용 Skype에서 팀으로 업그레이드 여행 선택
 
@@ -83,7 +83,7 @@ ms.locfileid: "44583451"
 
 - *외부 조직의 사용자* 가 팀 클라이언트에서 시작한 통신은 항상 사용자 a의 비즈니스용 Skype 클라이언트에 연결 됩니다.
 
-사용자에 게 Office 365 라이선스를 할당 한 경우이는 조직의 기본 업그레이드 환경입니다. Office 365 라이선스를 할당 하면 팀과 비즈니스용 Skype Online 라이선스가 모두 기본적으로 할당 됩니다. <sup>2</sup>
+사용자에 게 Microsoft 365 또는 Office 365 라이선스를 할당 한 경우이는 조직의 기본 업그레이드 환경입니다. Microsoft 365 또는 Office 365 라이선스를 할당 하면 팀과 비즈니스용 Skype Online 라이선스가 모두 기본적으로 할당 됩니다. <sup>2</sup>
 
 이 방법이 효과적으로 작동 하려면 모든 사용자가 두 클라이언트를 동시에 실행 해야 합니다. 아일랜드 모드의 조직 내에서 사용자에 게 들어오는 채팅 및 통화는 비즈니스용 Skype 또는 팀 클라이언트에 있을 수 있으며,이는 받는 사람을 제어 하는 중이 아닙니다. 통신을 시작 하는 데 보낸 사람이 사용 하는 클라이언트에 따라 달라 집니다. 보낸 사람과 받는 사람이 서로 다른 조직에 있는 경우, 사용자에 대 한 수신 통화 및 채팅은 항상 비즈니스용 Skype 클라이언트에 있습니다.
 
@@ -178,7 +178,7 @@ TeamsOnly의 관점에서 새 대화를 사용 하는 경우, 채팅 또는 통�
 |두 사용자가 모두 군도 모드에 있는 동안 비즈니스용 Skype와 팀 간의 상호 운용성이 없습니다.      |Interop는 비즈니스용 Skype와 팀 사용자 간의 통신에 필요 합니다.         |
 
 > [!NOTE]
-> 비즈니스용 Skype Server 사용자를 팀으로 마이그레이션하기 위해 지원 되는 방법을 따를 수 없는 경우 비즈니스용 Skype 서버와 Active Directory의 모든 관련 사용자 특성을 제거 하 여 사용자를 팀으로 전환할 수 있습니다. 사용자의 Azure Active Directory 특성을 Office 365에 대 한 Skype for Business Server 특성이 지워진 후에는 office 365에서 사용자에 게 라이선스를 부여 하 고 팀으로 업그레이드할 수 있습니다. 
+> 비즈니스용 Skype Server 사용자를 팀으로 마이그레이션하기 위해 지원 되는 방법을 따를 수 없는 경우 비즈니스용 Skype 서버와 Active Directory의 모든 관련 사용자 특성을 제거 하 여 사용자를 팀으로 전환할 수 있습니다. 사용자의 Azure Active Directory 특성을 사용 하 여 비즈니스용 Skype 서버 특성을 지운 후 DNS 레코드를 Microsoft 365 또는 Office 365로 다시 가리킨 다음 Microsoft 365 또는 Office 365에서 사용자에 게 라이선스를 부여 하 고 팀으로 업그레이드할 수 있습니다. 
 
 > [!IMPORTANT]
 > 마이그레이션이 끝난 후에는 온-프레미스 환경에서 Microsoft 팀으로 연락처 데이터 및 모임 데이터가 마이그레이션되지 않습니다.

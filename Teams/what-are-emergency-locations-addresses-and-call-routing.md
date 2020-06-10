@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 긴급 주소, 긴급 통화 라우팅, 동적 비상 전화에 대 한 정보를 포함 하 여 비상 전화에 대해 알아봅니다.
-ms.openlocfilehash: 889446ca08289ccb15128bee8ca6b6170398c599
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539495"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665160"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -84,7 +84,7 @@ ms.locfileid: "44539495"
 
 - 예를 들어 미국 및 캐나다의 경우 사용자에 게 번호를 할당 하면 비상 위치가 필요 합니다.
 
-- &mdash;유럽, 중동, 아프리카 (EMEA) 등의 다른 국가에서는 &mdash; Office 365에서 전화 번호를 받을 때 또는 다른 서비스 공급자 또는 통신 업체에서 전송 되는 경우 긴급 위치가 필요 합니다.
+- 유럽, 중동, 아프리카 (EMEA) 등의 다른 국가의 경우에는 Microsoft 365 또는 Office 365에서 전화 번호를 받을 때 또는 다른 서비스 공급자나 통신 업체에서 전송 되는 경우 긴급 위치가 필요 합니다.
 
 ### <a name="dynamic-emergency-calling"></a>동적 비상 전화
 

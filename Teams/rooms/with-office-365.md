@@ -15,26 +15,26 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요. 팀 또는 비즈니스용 Skype와 Exchange가 모두 온라인 상태입니다.
-ms.openlocfilehash: 2b7574b54782140e3f082c8c3859c9caee7712eb
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9a4ee558cfa9901566afc7f30f1f64a8b745331b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905280"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666140"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방 배포
 
-Microsoft 팀 또는 비즈니스용 Skype와 Exchange가 모두 온라인 상태에 있는 Microsoft 팀 대화방을 Office 365와 함께 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
+Microsoft 팀 또는 비즈니스용 Skype와 Exchange를 모두 온라인으로 설정 하 여 microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
 
 사용자 계정을 설정 하는 가장 쉬운 방법은 원격 Windows PowerShell을 사용 하 여 구성 하는 것입니다. Microsoft는 새 사용자 계정을 만들거나, 호환 되는 Microsoft 팀 대화방 사용자 계정으로 전환 하는 데 도움을 주는 기존 리소스 계정이 있는지 확인 하는 데 도움이 되는 [SkypeRoomProvisioningScript. ps1을 제공 합니다.](https://go.microsoft.com/fwlink/?linkid=870105) 원하는 경우 아래 단계에 따라 Microsoft 팀 대화방 장치에서 사용할 계정을 구성할 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
-Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 충족 해야 합니다. 자세한 내용은 [Microsoft 팀 공간 요구 사항을](requirements.md)참조 하세요.
+Microsoft 365 또는 Office 365를 사용 하 여 Microsoft 팀 회의실을 배포 하기 전에 요구 사항을 충족 해야 합니다. 자세한 내용은 [Microsoft 팀 공간 요구 사항을](requirements.md)참조 하세요.
 
 비즈니스용 Skype를 사용 하도록 설정 하려면 다음이 필요 합니다.
 
-- Office 365 요금제의 비즈니스용 Skype Online (계획 2 또는 엔터프라이즈 기반 계획) 이상 요금제는 전화 접속 회의 기능을 허용 해야 합니다.
+- Microsoft 365 또는 Office 365 요금제의 비즈니스용 Skype Online (요금제 2 또는 엔터프라이즈 기반 요금제) 이상 요금제는 전화 접속 회의 기능을 허용 해야 합니다.
 
 - 모임에서 전화 접속 기능이 필요한 경우에는 오디오 회의 및 전화 시스템 라이선스가 필요 합니다.  모임에서 전화 접속 기능이 필요한 경우에는 오디오 회의 라이선스가 필요 합니다.
 
@@ -58,16 +58,16 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
 
      이 예제에서는 다음 설정을 사용 하 여 새 채팅방 사서함을 만듭니다.
 
-     - 이름: Project-Rigel-01
+     - 이름: Rigel-01
 
-     - 별칭: ProjectRigel01
+     - 별칭: Rigel1
 
-     - 계정: ProjectRigel01@contoso.onmicrosoft.com
+     - 계정: Rigel1@contoso.onmicrosoft.com
 
      - 계정 암호: P@ $ $W 0rd5959
 
      ``` PowerShell
-     New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     New-Mailbox -Name "Rigel-01" -Alias Rigel1 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
      ```
 
    - 기존 회의실 사서함을 수정 하려면 다음 구문을 사용 합니다.
@@ -76,10 +76,10 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     이 예제에서는 별칭 값 ProjectRigel02를 가진 기존 회의실 사서함에 대 한 계정을 사용 하도록 설정 하 고 암호를 9898P@ $ $W 0rd으로 설정 합니다. 기존 별칭 값 때문에 계정이 ProjectRigel02@contoso.onmicrosoft.com 것을 참고 하세요.
+     이 예제에서는 별칭 값 Rigel2를 가진 기존 회의실 사서함에 대 한 계정을 사용 하도록 설정 하 고 암호를 9898P@ $ $W 0rd으로 설정 합니다. 기존 별칭 값 때문에 계정이 Rigel2@contoso.onmicrosoft.com 것을 참고 하세요.
 
      ``` PowerShell
-     Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
    자세한 구문 및 매개 변수 정보는 [새 사서함](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) 및 [설정 사서함](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)을 참조 하세요.
@@ -101,15 +101,15 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
 
    - AdditionalResponse: "Skype 회의실입니다!" (모임 요청에 추가 하는 추가 텍스트입니다.)
 
-   이 예제에서는 Rigel-01 이라는 대화방 사서함에서 이러한 설정을 구성 합니다.
+   이 예제에서는 Rigel 이라는 공간 사서함에서 이러한 설정을 구성 합니다.
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
    자세한 구문 및 매개 변수 정보는 [설정-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)를 참조 하세요.
 
-4. `Connect-MsolService -Credential $cred` Powershell cmdlet을 실행 하 여 Active Directory 설정을 만들기 위해 MS Online PowerShell에 연결 합니다.   Active Directory에 대 한 자세한 내용은 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)을 참조 하세요. 
+4. Powershell cmdlet을 실행 하 여 Active Directory 설정을 만들기 위해 MS Online PowerShell에 연결 `Connect-MsolService -Credential $cred` 합니다.   Active Directory에 대 한 자세한 내용은 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)을 참조 하세요. 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 는 지원 되지 않습니다. 
@@ -124,14 +124,14 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   이 예제에서는 계정 ProjectRigel01@contoso.onmicrosoft.com의 암호가 만료 되지 않도록 설정 합니다.
+   이 예제에서는 계정 Rigel1@contoso.onmicrosoft.com의 암호가 만료 되지 않도록 설정 합니다.
 
   ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
   ```
 <!-- 
    ``` PowerShell
-   Set-AzureADUserPassword -UserPrincipalName ProjectRigel01@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
+   Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
    다음 명령을 실행 하 여 계정의 전화 번호를 설정할 수도 있습니다.
@@ -144,7 +144,7 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. 장치 계정에 유효한 Office 365 라이선스가 있어야 하며, Exchange 및 Microsoft 팀 또는 비즈니스용 Skype가 작동 하지 않습니다. 라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 하는 것입니다. 사용할 수 있는`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 다음과 같이 Office 365 조 직에 사용할 수 있는 Sku 목록을 검색 합니다.
+6. 장치 계정에 유효한 Microsoft 365 또는 Office 365 라이선스가 필요 하거나 Exchange 및 Microsoft 팀 또는 비즈니스용 Skype가 작동 하지 않습니다. 라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 하는 것입니다. 사용할 수 있는`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Microsoft 365 또는 Office 365 조 직에 사용할 수 있는 Sku 목록을 다음과 같이 검색 합니다.
 
   ``` Powershell
   Get-MsolAccountSku
@@ -195,11 +195,11 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
     > [!NOTE]
     > 새 사용자 계정이 테 넌 트에서 기존 사용자 계정과 동일한 등록자 풀에 만들어지지 않을 수 있습니다. 위의 명령은이 문제 때문에 계정 설정 오류를 방지 합니다.
 
-Microsoft 팀 또는 비즈니스용 Skype Online에서 Microsoft 팀 회의실 계정을 사용할 수 있도록 앞의 단계를 완료 한 후에 Microsoft 팀 대화방 장치에 라이선스를 할당 해야 합니다. Office 365 관리 포털을 사용 하 여 비즈니스용 Skype Online (계획 2) 또는 비즈니스용 Skype Online (계획 3) 라이선스를 장치에 할당 합니다.
+Microsoft 팀 또는 비즈니스용 Skype Online에서 Microsoft 팀 회의실 계정을 사용할 수 있도록 앞의 단계를 완료 한 후에 Microsoft 팀 대화방 장치에 라이선스를 할당 해야 합니다. Microsoft 365 관리 센터를 사용 하 여 비즈니스용 Skype Online (계획 2) 또는 비즈니스용 Skype Online (계획 3) 라이선스를 장치에 할당 합니다.
 
 ### <a name="assign-a-license-to-your-account"></a>계정에 라이선스 할당
 
-1. 테 넌 트 관리자로 로그인 하 고, Office 365 관리 포털을 열고, 관리 앱을 클릭 합니다.
+1. 테 넌 트 관리자로 로그인 하 고 Microsoft 365 관리 센터를 연 다음 관리 앱을 클릭 합니다.
 
 2. **사용자 및 그룹** 을 클릭 한 다음 **사용자 추가, 암호 다시 설정**등을 클릭 합니다.
 
@@ -216,27 +216,27 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서 Microsoft 팀 회의실 
 Exchange Online PowerShell 명령:
 
 ``` Powershell
-New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept-AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
+Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
 -AdditionalResponse "This is a Rigel room!"
 ```
 
 Azure Active Directory PowerShell 명령:
 
 ``` PowerShell
-Set-MsolUser -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```
 
 <!-- 
 ``` PowerShell
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```  -->
 
 비즈니스용 Skype PowerShell 명령:

@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Microsoft 팀 대화방에 대 한 최신 인증을 구성 하는 방법 알아보기
-ms.openlocfilehash: ee95de457d5af82fb68acb4fd79b6b5a5a3a7ed0
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505615"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666260"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft 팀 대화방의 인증
 
 Microsoft 팀 회의실 장치에 대 한 계정 관리는 응용 프로그램 수준에서 처리 됩니다. 이 응용 프로그램은 Microsoft 팀, 비즈니스용 Skype, Exchange에 연결 되어 회의실 계정에 대 한 리소스를 확보 하 여 통화 및 모임 경험을 가능 하 게 합니다. 장치는 관리 계정에 관계 없이 항상 사용할 수 있는 기능, 호출 시나리오 (호출 요금제로 구성 된 장치) 및 이러한 장치에서 구현 되는 사용자 지정 잠금 메커니즘을 허용 하도록 유지 됩니다. 즉, 이러한 장치에 대 한 인증은 최종 사용자 장치와는 다른 방식으로 이루어집니다.  
 
-최신 인증은 Office 365에서 Microsoft 팀 회의실 장치를 사용 하는 모든 고객에 게 권장 됩니다. 온-프레미스 배포 Exchange server 또는 비즈니스용 Skype 서버를 사용 하는 경우 최신 인증을 사용할 수 있도록 azure AD (Active Directory)를 사용 하 여 [하이브리드 최신 인증](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) 을 구성 합니다.
+Microsoft 365 또는 Office 365에서 Microsoft 팀 회의실 장치를 사용 하는 모든 고객에 게 최신 인증이 권장 됩니다. 온-프레미스 배포 Exchange server 또는 비즈니스용 Skype 서버를 사용 하는 경우 최신 인증을 사용할 수 있도록 azure AD (Active Directory)를 사용 하 여 [하이브리드 최신 인증](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) 을 구성 합니다.
 
 최신 인증은 Microsoft 팀 대화방 버전 4.4.25.0 이상에서 지원 됩니다.
 
@@ -61,9 +61,9 @@ SkypeSettings 파일에서 다음과 같이 최신 인증 XML 요소를 **True**
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>최신 인증을 위해 환경 준비
 
-시작 하기 전에 Office 365 및 Azure AD와 함께 사용할 id 모델을 이해 하 고 있는지 확인 합니다. [Office 365 id 모델 및 Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) 및 [하이브리드 id와 office 365의 디렉터리 동기화](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization)에서 자세한 정보를 확인할 수 있습니다.
+시작 하기 전에 Office 365 및 Azure AD와 함께 사용할 id 모델을 이해 하 고 있는지 확인 합니다. [Office 365 id 모델 및 Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) 와 [Microsoft 365 또는 Office 365 용 하이브리드 id 및 디렉터리 동기화](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization)에서 자세한 정보를 확인할 수 있습니다.
 
-### <a name="enable-modern-authentication-in-office-365"></a>Office 365에서 최신 인증 사용
+### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365에서 최신 인증 사용
 
 Exchange Online에 대 한 최신 인증을 설정 하려면 [Exchange online에서 최신 인증 사용](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)을 참조 하세요. 비즈니스용 Skype Online을 사용 하는 경우 비즈니스용 Skype Online에 대 한 최신 인증이 설정 되어 있는지도 확인 해야 합니다. 자세한 내용은 비즈니스용 [Skype Online: 최신 인증을 위해 테 넌 트를 사용 하도록 설정 해](https://aka.ms/SkypeModernAuth)보세요.
 

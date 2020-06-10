@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 이 항목에서는 Exchange 및 비즈니스용 Skype에서 Microsoft 팀 방에 대 한 계정을 구성 하는 방법에 대해 자세히 알아보세요.
-ms.openlocfilehash: 66eecbb0773f04599a0b5255cb5f83f158eb74f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 97367427aa2629fab3e40bae064c02f521ff710d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825946"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666250"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft 팀 대화방 계정 구성
  
@@ -28,11 +28,11 @@ ms.locfileid: "41825946"
   
 이 항목에서는 microsoft Exchange 및 비즈니스용 Skype에서 Microsoft 팀 대화방에 사용 되는 계정을 만드는 방법에 대해 설명 합니다. Microsoft 팀 회의실 장치에 대 한 배포 지침은 [Microsoft 팀 대화방 콘솔 구성](console.md)에서 다룹니다. 인프라는 다음 구성 중 하나에 해당할 수 있습니다.
   
-- 온라인 배포: 조직의 환경이 Office 365에 완전히 배포 됩니다. 자세한 내용은 [Office 365를 사용 하 여 Microsoft 팀 대화방 배포](with-office-365.md)를 참조 하세요.
+- 온라인 배포: 조직의 환경은 전적으로 Microsoft 365 또는 Office 365에 배포 됩니다. 자세한 내용은 [microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방 배포](with-office-365.md)를 참조 하세요.
     
 - 온-프레미스 배포: 조직에서 Active Directory, Exchange, 비즈니스용 Skype 서버가 호스팅되는 서버를 보유 하 고 있습니다. 자세한 내용은 [비즈니스용 Skype 서버에 Microsoft 팀 대화방 배포](with-skype-for-business-server-2015.md) 를 참조 하세요.
     
-- 하이브리드 배포: 조직에는 일부 서비스와 함께 온-프레미스 및 Office 365를 통해 온라인으로 호스팅되는 서비스가 혼합 되어 있습니다. Microsoft 팀 대화방에서는 다음과 같은 하이브리드 시나리오가 지원 됩니다. 
+- 하이브리드 배포: 조직에는 일부 서비스와 함께 온-프레미스 호스트와 Microsoft 365 또는 Office 365를 통해 온라인으로 호스팅되는 서비스가 혼합 되어 있습니다. Microsoft 팀 대화방에서는 다음과 같은 하이브리드 시나리오가 지원 됩니다.
     
   - 비즈니스용 Skype 서버 (온-프레미스)로 Exchange Online을 사용 합니다. 자세한 내용은 [Exchange Online (하이브리드)을 사용 하 여 Microsoft 팀 대화방 배포](with-exchange-online.md)를 참조 하세요.
     
@@ -52,7 +52,7 @@ Microsoft 팀 대화방에는 Active Directory, Exchange, 비즈니스용 Skype�
 - Microsoft 팀 대화방에서 디바이스 계정의 유효성을 검사 하 고 해당 Microsoft 서비스에 연결할 수 있도록 인프라를 구성 해야 합니다.
     
 > [!IMPORTANT]
-> 실제 하드웨어 설치 전에 계정 만들기를 잘 수행 하는 것이 좋습니다. 계정 준비는 설치 전에 2-3 주 동안 시작 하는 것이 좋습니다. 하이브리드 환경에서는 Microsoft 팀 대화방 인증에 Office 365 인증이 필요 하기 때문에 Microsoft 팀 대화방에 사용 되는 계정이 AAD 동기화에서 암호 동기화를 사용 하도록 설정 되어 있어야 합니다.
+> 실제 하드웨어 설치 전에 계정 만들기를 잘 수행 하는 것이 좋습니다. 계정 준비는 설치 전에 2-3 주 동안 시작 하는 것이 좋습니다. 하이브리드 환경에서 microsoft 팀 대화방 인증은 microsoft 365 또는 Office 365 인증이 필요 하므로 AAD 동기화에서 Microsoft 팀 대화방에 사용 되는 계정이 암호 동기화를 사용 하도록 설정 되어 있어야 합니다.
   
 장치 계정은 사용자가 회의실 또는 모임 공간의 계정으로 인식 하는 리소스 계정 이라고 생각할 수 있습니다. 해당 회의실을 사용 하 여 모임을 예약 하려면 계정을 해당 모임에 초대 합니다. Microsoft 팀 회의실을 가장 효율적으로 사용 하기 위해 각각에 게 할당 된 디바이스 계정에 대해 동일한 작업을 수행 합니다.
   
@@ -72,7 +72,7 @@ Microsoft 팀 대화방을 설치 하는 모임 공간에 대해 이미 리소�
    
 ## <a name="advanced-configuration"></a>고급 구성
 
-기본 구성의 속성은 장치 계정을 간단한 환경에서 설정할 수 있지만, 사용자 환경에는 Microsoft 팀 대화방에서 성공적으로 사용할 수 있도록 하기 위해 충족 해야 하는 디렉터리 계정에 대 한 다른 제한이 있을 수 있습니다. 장치 계정.
+기본 구성의 속성은 장치 계정을 간단한 환경에서 설정할 수 있지만, 사용자 환경에는 Microsoft 팀 대화방에서 디바이스 계정을 사용 하기 위해 충족 해야 하는 디렉터리 계정에 대 한 기타 제한이 있을 수 있습니다.
   
 |**속성**|**것**|
 |:-----|:-----|
@@ -80,13 +80,13 @@ Microsoft 팀 대화방을 설치 하는 모임 공간에 대해 이미 리소�
    
 디바이스 계정을 설정 하는 가장 쉬운 방법은 원격 Windows PowerShell을 사용 하 여 구성 하는 것입니다. Microsoft는 새 디바이스 계정을 만들거나, 호환 되는 Microsoft 팀 대화방 디바이스 계정으로 전환 하는 데 도움을 주는 기존 리소스 계정이 있는지 확인 하는 데 도움이 되는 [SkypeRoomProvisioningScript. ps1을 제공 합니다.](https://go.microsoft.com/fwlink/?linkid=870105)
   
-Windows PowerShell cmdlet을 통해 Office 365 UI를 사용 하려는 경우 몇 가지 단계를 수동으로 수행할 수 있습니다. [Office 365를 사용 하 여 디바이스 계정 만들기를](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)참조 하세요.
+Windows PowerShell cmdlet을 통해 Microsoft 365 또는 Office 365 UI를 사용 하려는 경우 몇 가지 단계를 수동으로 수행할 수 있습니다. [Microsoft 365 또는 Office 365를 사용 하 여 디바이스 계정 만들기를](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)참조 하세요.
   
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 팀 회의실 계획](rooms-plan.md)
+[Microsoft Teams 룸 계획](rooms-plan.md)
   
-[Microsoft 팀 대화방 콘솔 구성](console.md)
+[Microsoft Teams 룸 콘솔 구성](console.md)
   
-[Microsoft 팀 대화방 관리](rooms-manage.md)
+[Microsoft Teams 룸 관리](rooms-manage.md)
 

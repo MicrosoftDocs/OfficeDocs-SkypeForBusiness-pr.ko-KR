@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9a5cd56e367b9255bd4c41b556583dcc921416a
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523201"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666070"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>팀에 대 한 전제 조건 및 환경 종속성
 
@@ -36,15 +36,15 @@ ms.locfileid: "44523201"
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-팀은 여러 개의 Office 365 서비스를 결합 하므로 이러한 서비스의 올바른 구현과 작동에 따라 달라 집니다. 이러한 서비스에는 SharePoint Online, Exchange Online, 비즈니스용 OneDrive 등이 포함 됩니다.
+팀은 여러 Microsoft 365 및 Office 365 서비스를 결합 하므로 이러한 서비스의 올바른 구현과 작동에 따라 달라 집니다. 이러한 서비스에는 SharePoint Online, Exchange Online, 비즈니스용 OneDrive 등이 포함 됩니다.
 
 모든 서비스가 필요 하지는 않지만 모두 구현 하는 것이 좋습니다. 특정 서비스를 구현 하지 않도록 선택 하는 경우 팀이 조직을 제공할 수 있는 기능에 영향을 줍니다. 예를 들어 SharePoint Online을 구현할 필요가 없지만, 팀에서는 그룹 대화의 파일 공유 같은 특정 기능에 대해 SharePoint Online을 사용 하므로이 서비스를 구현 하지 않으면 클라이언트를 통해 제공 되는 기능을 줄일 수 있습니다.
 
 다음 문서를 참조 하 여 필수 구성 요소와 팀이 다른 기술과 상호 작용 하는 방식에 대해 알아보세요.
 
-- 조직에서 Office 365 작업을 배포 하지 않은 경우 [비즈니스용 office 365 시작](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)을 참조 하세요.
+- 조직에서 Microsoft 365 또는 Office 365 작업을 배포 하지 않은 경우 [시작](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)을 참조 하세요.
 
-- 조직이 Office 365에 대해 확인 된 도메인을 추가 하거나 구성 하지 않은 경우 [office 365 도메인 확인](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)을 참조 하세요.
+- 조직에서 Microsoft 365 또는 Office 365에 대해 확인 된 도메인을 추가 하거나 구성 하지 않은 경우에는 [도메인 FAQ](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)를 참조 하세요.
 
 - 조직이 Azure Active Directory에 대 한 id를 동기화 하지 않은 경우 [Microsoft 팀의 id 모델 및 인증](identify-models-authentication.md)을 참조 하세요.
 

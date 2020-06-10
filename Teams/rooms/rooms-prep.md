@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 모든 기능을 활용할 수 있도록 Microsoft 팀 대화방을 배포 하는 인프라를 준비 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905350"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666170"
 ---
 # <a name="prepare-your-environment"></a>작업 환경 준비
 
@@ -55,7 +55,7 @@ ms.locfileid: "43905350"
 - Active Directory 또는 Azure AD (Azure Active Directory) 인스턴스에 대 한 액세스 및 Microsoft Exchange 및 비즈니스용 Skype 서버에 대 한 액세스가 가능 합니다.
 - DHCP를 사용 하 여 IP 주소를 제공할 수 있는 서버에 액세스 합니다. Microsoft 팀 대화방은 고정 IP 주소로 구성할 수 없습니다.
 - HTTP 포트 80 및 443에 액세스 합니다.
-- 온-프레미스 비즈니스용 Skype Server 구현에 대 한 [서버의 포트 및 프로토콜 요구 사항](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) 에 설명 된 대로 구성 되는 TCP 및 UDP 포트와 Microsoft 팀 또는 비즈니스용 skype online 구현에 대 한 [Office 365 url 및 IP 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
+- 온-프레미스 비즈니스용 Skype Server 구현에 대 한 [서버의 포트 및 프로토콜 요구 사항](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) 에 설명 된 대로 구성 되는 TCP 및 UDP 포트와 microsoft 팀 또는 비즈니스용 skype online 구현에 대 한 [Microsoft 365 및 Office 365 url 및 IP 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
 > [!IMPORTANT]
 > 유선 1 Gbps 네트워크 연결을 사용 하 여 필요한 대역폭을 보유 하 고 있는지 확인 합니다.
@@ -110,7 +110,7 @@ Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록
 
 |것|원본 또는 자격 증명|원본 포트|위치로|CDN|Office 365 용 Express 경로|대상 IP|대상 포트|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|인증 및 id  <br/> |[Office 365 인증 및 id를](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) 참조 하세요. <br/> |||
+|인증 및 id  <br/> |[Microsoft 365 및 Office 365 인증 및 id를](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) 참조 하세요. <br/> |||
 |포털 및 공유  <br/> |[Microsoft 365 관리 센터 및 공유를](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) 참조 하세요. <br/> |||
 |SIP 신호  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |PSOM (영구 공유 개체 모델) 연결 웹 회의  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -123,11 +123,11 @@ Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록
 |Skype 클라이언트 퀵 팁  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |quicktips.skypeforbusiness.com  <br/> |아니요  <br/> |아니요  <br/> |해당 없음  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
-> Contoso.com 및 broadcast.skype.com의 와일드 카드는 Office 365에만 사용 되는 노드의 긴 목록을 나타냅니다. 
+> Contoso.com 및 broadcast.skype.com의 와일드 카드는 Microsoft 365 또는 Office 365에 독점적으로 사용 되는 노드의 긴 목록을 나타냅니다. 
   
 ### <a name="create-provisioning-packages"></a>프로비저닝 패키지 만들기
 
-배포 패키지를 사용 하 여 Exchange Server 또는 Office 365를 인증 합니다.
+배포 패키지를 사용 하 여 Exchange Server, Microsoft 365 또는 Office 365에 인증 합니다.
   
 ### <a name="admin-group-management"></a>관리 그룹 관리
 
@@ -144,7 +144,7 @@ Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록
   
 ### <a name="admin---local-administrator-account"></a>"관리자"-로컬 관리자 계정
 
-Microsoft 팀 대화방 기본 암호는 "sfb"로 설정 됩니다. Windows 설정 \> 으로 이동 하 여 암호를 로컬에서 변경할 수 있습니다 (Windows 또는 AutoUnattend 파일에서 Windows 시스템 이미지 관리자를 사용 하 여 xml 파일을 변경 합니다.).
+Microsoft 팀 대화방 기본 암호는 "sfb"로 설정 됩니다. Windows 설정으로 이동 하 여 암호를 로컬에서 변경할 수 있습니다 \> (windows 또는 AutoUnattend 파일에서 Windows 시스템 이미지 관리자를 사용 하 여 xml 파일을 변경 합니다.).
   
 > [!CAUTION]
 > Microsoft 팀 대화방 비밀 번호를 최대한 빨리 변경 하세요. 
@@ -155,7 +155,7 @@ Microsoft 팀 대화방 기본 암호는 "sfb"로 설정 됩니다. Windows 설�
   
 ### <a name="machine-account"></a>컴퓨터 계정
 
-모든 Windows 디바이스와 마찬가지로 컴퓨터 이름의 이름을 바꾸려면 PC 이름 바꾸기에 대 한 \> \> 설정을 마우스 오른쪽 단추로 클릭 하면 됩니다.
+모든 Windows 디바이스와 마찬가지로 컴퓨터 이름의 이름을 \> 바꾸려면 PC 이름 바꾸기에 대 한 설정을 마우스 오른쪽 단추로 클릭 하면 됩니다 \> .
   
  도메인에 가입한 후 컴퓨터 이름을 바꾸려면 컴퓨터 이름 바꾸기 명령 다음에 컴퓨터의 새 이름을 사용 합니다.
   

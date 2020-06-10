@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 55f65bf14973b54b091e0a6c3ecdc3edf49e6ed3
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 726e14aef92eed8fe681d183b8e1cfd404e659ca
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637967"
+ms.locfileid: "44665140"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -395,7 +395,6 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 
 - **EveryoneUserOverride**: 모든 모임 참가자는 발표자가 될 수 있습니다. 기본값입니다. 이 매개 변수는 팀의 **모든 사용자** 설정에 해당 합니다.
 - **EveryoneInCompanyUserOverride**: 게스트 사용자를 포함 하 여 조직에서 인증 된 사용자가 발표자가 될 수 있습니다. 이 매개 변수는 팀의 **조직 내 사용자** 설정에 해당 합니다.
-- **EveryoneInSameAndFederatedCompanyUserOverride**: 게스트 사용자 및 페더레이션된 조직의 사용자를 포함 하 여 조직에서 인증 된 사용자가 발표자가 될 수 있습니다. 이 매개 변수는 **조직의 사용자 및 팀의 신뢰할 수 있는 조직** 설정에 해당 합니다.
 - **OrganizerOnlyUserOverride**: 모임 이끌이만 발표자가 될 수 있으며 모든 모임 참가자가 참석자로 지정 됩니다. 이 매개 **변수는 팀의 자신만 설정** 에 해당 합니다.
 
 기본값을 설정한 후에도 모임 이끌이는 팀에서이 설정을 변경 하 고 자신이 예약한 모임에 발표할 수 있는 사람을 선택할 수 있다는 점에 유의 하세요.

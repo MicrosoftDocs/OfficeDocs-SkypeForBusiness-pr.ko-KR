@@ -18,20 +18,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44523303"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669414"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams에 대한 조직의 네트워크 준비 
 
 ## <a name="network-requirements"></a>네트워크 요구 사항
 
-[Office 365에 대 한 네트워크](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)를 이미 최적화 한 경우 Microsoft 팀에 대 한 준비가 되었을 수 있습니다. 어떤 경우 든 특히, **원격 작업자** 를 지원 하기 위해 첫 번째 Office 365 작업으로 신속 하 게 배포 하는 경우 팀 롤아웃을 시작 하기 전에 다음을 확인 하세요.
+[Microsoft 365 또는 Office 365 용 네트워크](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)를 이미 최적화 한 경우 microsoft 팀에 대 한 준비가 되었을 수 있습니다. 어떤 경우 든 특히, **원격 작업자** 를 지원 하기 위해 첫 번째 Microsoft 365 또는 Office 365 작업 부하로 팀을 신속 하 게 배포 하는 경우 팀 롤아웃을 시작 하기 전에 다음을 확인 하세요.
 
-1.  모든 위치에서 인터넷에 액세스할 수 있는지 확인 (Office 365에 연결 가능) 최소한 일반 웹 소통량 외에도 팀에서 미디어의 모든 위치에 대해 다음을 열었는지 확인 하세요.
+1.  모든 위치에서 인터넷에 액세스할 수 있도록 하 되, Microsoft 365 또는 Office 365에 연결 되도록 하 시겠습니까? 최소한 일반 웹 소통량 외에도 팀에서 미디어의 모든 위치에 대해 다음을 열었는지 확인 하세요.
 
     |  |  |
     |---------|---------|
@@ -49,10 +49,10 @@ ms.locfileid: "44523303"
 
 
     
-2.  Office 365에 대해 확인 된 도메인이 있습니까 (예: contoso.com)?
+2.  Microsoft 365 또는 Office 365에 대해 확인 된 도메인이 있습니까 (예: contoso.com)?
     
-      - 조직에서 Office 365를 배포 하지 않은 경우 [비즈니스용 office 365 시작](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)을 참조 하세요.
-      - 조직이 Office 365에 대해 확인 된 도메인을 추가 하거나 구성 하지 않은 경우 [office 365 도메인 확인](https://docs.microsoft.com/office365/admin/setup/domains-faq)을 참조 하세요.
+      - 조직에서 Microsoft 365 또는 Office 365을 롤백하지 않은 경우 [microsoft 365 또는 비즈니스용 office 365 시작](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)을 참조 하세요.
+      - 조직에서 Microsoft 365 또는 Office 365에 대해 확인 된 도메인을 추가 하거나 구성 하지 않은 경우 [microsoft 365 또는 office 365 도메인 확인](https://docs.microsoft.com/office365/admin/setup/domains-faq)을 참조 하세요.
 
 3.  조직에서 Exchange Online 및 SharePoint Online을 배포 했습니까?
     
@@ -64,7 +64,7 @@ ms.locfileid: "44523303"
 > [!IMPORTANT]
 > **교육 기관**: 조직이 교육 기관 이거나 SIS (학생 정보 시스템)를 사용 하는 경우 팀을 롤아웃하기 전에 [School Data Sync를 배포](https://docs.microsoft.com/schooldatasync/) 해야 합니다.
 >  
-> 온 **-프레미스 비즈니스용 Skype server**: 조직이 온-프레미스 비즈니스용 skype server (또는 Lync Server)를 실행 하는 경우 [Azure AD Connect를 구성](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) 하 여 온-프레미스 디렉터리를 Office 365와 동기화 해야 합니다.
+> 온 **-프레미스 비즈니스용 Skype server**: 조직이 온-프레미스 비즈니스용 skype server (또는 Lync Server)를 실행 하는 경우 [Azure AD Connect를 구성](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) 하 여 온-프레미스 디렉터리를 Microsoft 365 또는 Office 365와 동기화 해야 합니다.
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>모범 사례: CQD 및 call analytics을 사용 하 여 네트워크 모니터링 
 
@@ -74,7 +74,7 @@ ms.locfileid: "44523303"
 
 ## <a name="network-optimization"></a>네트워크 최적화
 
-다음 작업은 선택 사항이 며 팀 롤아웃에 필요 하지 않으며 특히, 소규모 기업과 이미 Office 365를 출시 한 경우 이 지침을 사용 하 여 네트워크 및 팀 성능을 최적화 하거나 네트워크 제한 사항이 있을 수 있습니다.
+다음 작업은 선택 사항이 며 팀 롤아웃에 필요 하지 않으며 특히, 소규모 기업과 이미 Microsoft 365 또는 Office 365을 출시 했습니다. 이 지침을 사용 하 여 네트워크 및 팀 성능을 최적화 하거나 네트워크 제한 사항이 있을 수 있습니다.
 
 다음과 같은 경우 추가 네트워크 최적화를 수행할 수 있습니다.
 
@@ -82,7 +82,7 @@ ms.locfileid: "44523303"
   - 통화 보관 (방화벽 또는 프록시 차단 때문일 수 있음)
   - 통화에는 정적, 오려내기 또는 로봇 등의 음성 사운드가 있습니다 (지터 또는 패킷 손실이 있을 수 있음).
 
-네트워크 장애를 식별 하 고 해결 하는 지침을 비롯 한 네트워크 최적화에 대 한 자세한 내용은 [Office 365 네트워크 연결 원칙](https://aka.ms/pnc)을 참조 하세요.
+네트워크 장애를 식별 하 고 해결 하는 지침을 비롯 한 네트워크 최적화에 대 한 자세한 내용은 [Microsoft 365 및 Office 365 네트워크 연결 원칙](https://aka.ms/pnc)을 참조 하세요.
 
 <table>
 <thead>
@@ -99,18 +99,18 @@ ms.locfileid: "44523303"
 </tr>
 <tr class="even">
 <td>팀 관리자</td>
-<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">팀</a> 관리자는 <a href="https://admin.teams.microsoft.com">팀 관리 센터</a>의 일부입니다. Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">팀</a> 관리자는 <a href="https://admin.teams.microsoft.com">팀 관리 센터</a>의 일부입니다. Microsoft 365 또는 Office 365 환경을 평가 하 고 팀을 성공적으로 롤아웃하기 위해 업데이트 하거나 수정 해야 할 수 있는 가장 일반적인 구성을 식별 합니다.</td>
 </tr>
 <tr class="odd">
 <td>외부 이름 확인</td>
-<td>팀 클라이언트를 실행 하는 모든 컴퓨터에서 외부 DNS 쿼리를 확인 하 여 Office 365에서 제공 하는 서비스를 검색 하 고 방화벽이 액세스를 차단 하지 않는지 확인 합니다. 방화벽 포트를 구성 하는 방법에 대 한 자세한 내용은 <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 url 및 IP 범위로</a>이동 하세요.</td>
+<td>팀 클라이언트를 실행 하는 모든 컴퓨터에서 Microsoft 365 또는 Office 365에서 제공 하는 서비스를 검색할 수 있도록 외부 DNS 쿼리를 확인 하 고 방화벽이 액세스를 차단 하지 않는지 확인 합니다. 방화벽 포트를 구성 하는 방법에 대 한 자세한 내용은 <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Microsoft 365 및 Office 365 url 및 IP 범위로</a>이동 하세요.</td>
 </tr>
 <tr class="odd">
 <td>세션 유지 관리</td>
 <td>방화벽이 UDP에 대 한 매핑된 NAT (Network Address Translation) 주소 또는 포트를 변경 하지 않도록 합니다.</td>
 </tr><tr class="odd">
 <td>NAT 풀 크기 확인</td>
-<td>사용자 연결에 필요한 NAT (network address translation) 풀 크기의 유효성을 검사 합니다. 여러 사용자와 장치가 <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">NAT (Network Address translation) 또는 PAT (Port Address translation)</a>를 사용 하 여 Office 365에 액세스 하는 경우, 공개적으로 라우팅할 수 있는 각 IP 주소 뒤에 숨겨진 장치가 지원 되는 번호를 초과 하지 않는지 확인 해야 합니다. 포트 소모를 방지 하기 위해 적절 한 공용 IP 주소가 NAT 풀에 할당 되었는지 확인 합니다. 포트 소모는 내부 사용자와 장치가 Office 365 서비스에 연결할 수 없는 경우에 기여 합니다.</td>
+<td>사용자 연결에 필요한 NAT (network address translation) 풀 크기의 유효성을 검사 합니다. 여러 사용자와 장치가 <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">NAT (Network Address translation) 또는 PAT (Port Address translation)</a>를 사용 하 여 Microsoft 365 또는 Office 365에 액세스 하는 경우, 각 공용 라우팅 가능 IP 주소 뒤에 숨겨진 장치가 지원 되는 번호를 초과 하지 않는지 확인 해야 합니다. 포트 소모를 방지 하기 위해 적절 한 공용 IP 주소가 NAT 풀에 할당 되었는지 확인 합니다. 포트 소모는 내부 사용자와 장치가 Microsoft 365 또는 Office 365 서비스에 연결할 수 없는 경우에 기여 합니다.</td>
 </tr>
 <tr class="even">
 <td>Microsoft 데이터 센터로 라우팅</td>
@@ -118,11 +118,11 @@ ms.locfileid: "44523303"
 </tr>
 <tr class="odd">
 <td>침입 감지 및 예방 지침</td>
-<td>아웃 바운드 연결에 대 한 추가 보안 계층에 대 한 <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">침입 감지</a> 또는 방지 시스템 (ID/i p)이 환경에 있는 경우 모든 Office 365 url을 허용 목록 해야 합니다.</td>
+<td>아웃 바운드 연결에 대 한 추가 보안 계층에 대 한 <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">침입 감지</a> 또는 방지 시스템 (ID/i p)이 환경에 있는 경우 모든 Microsoft 365 또는 Office 365 url을 허용 목록 해야 합니다.</td>
 </tr>
 <tr class="even">
 <td>분할 터널 VPN 구성</td>
-<td><p>일반적으로 [분할 터널 VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)이라고 하는 vpn (가상 사설망)을 우회 하는 팀 트래픽에 대 한 대체 경로를 제공 하는 것이 좋습니다. 분할 터널링은 Office 365에 대 한 트래픽이 VPN을 거치지 않고 대신 Office 365에 직접 전달 한다는 의미입니다. VPN을 건너뛰면 팀 품질에 긍정적인 영향을 미칠 수 있으며, VPN 장치 및 조직의 네트워크에서의 로드를 줄여줍니다. 분할 터널 VPN을 구현 하려면 VPN 공급 업체와 협력 하세요.</p>
+<td><p>일반적으로 [분할 터널 VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)이라고 하는 vpn (가상 사설망)을 우회 하는 팀 트래픽에 대 한 대체 경로를 제공 하는 것이 좋습니다. 분할 터널링은 Microsoft 365 또는 Office 365에 대 한 트래픽이 VPN을 거치지 않고 대신 Microsoft 365 또는 Office 365로 바로 이동 한다는 것을 의미 합니다. VPN을 건너뛰면 팀 품질에 긍정적인 영향을 미칠 수 있으며, VPN 장치 및 조직의 네트워크에서의 로드를 줄여줍니다. 분할 터널 VPN을 구현 하려면 VPN 공급 업체와 협력 하세요.</p>
 <p>VPN을 우회 하는 것이 권장 되는 다른 이유는 다음과 같습니다.
 <ul>
 <li><p>Vpn은 일반적으로 실시간 미디어를 지원 하도록 설계 또는 구성 되지 않았습니다.</p></li> 
@@ -159,7 +159,7 @@ ms.locfileid: "44523303"
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 네트워크 연결 원칙](https://aka.ms/pnc)
+[Microsoft 365 및 Office 365 네트워크 연결 원칙](https://aka.ms/pnc)
 
 [전세계 끝점: 비즈니스용 Skype Online 및 팀](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 

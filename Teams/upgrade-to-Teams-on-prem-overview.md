@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6a864828ce925ea289f27de1b3340a50770b4e88
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779805"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665270"
 ---
-# <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>비즈니스용 Skype에서 IT 관리자를 위한 &mdash; 팀으로 업그레이드
+# <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>비즈니스용 Skype에서 IT 관리자를 위한 팀으로 업그레이드 &mdash;
 
 ## <a name="overview"></a>개요
 
@@ -54,7 +54,7 @@ ms.locfileid: "43779805"
 - 다른 사용자의 팀 클라이언트에서 시작 된 통신은 사용자 A의 팀 클라이언트에 연결 되며,이 *조직에는 항상 같은 조직이*있습니다. 
 - 다른 사용자의 팀 클라이언트에서 시작 된 통신은 사용자 A의 비즈니스용 Skype 클라이언트에 항상 연결 되며,이는 *페더레이션 조직에 있을 경우*에만 해당 됩니다.
 
-아일랜드 모드는 아직 TeamsOnly 아닌 기존 조직의 기본 모드입니다. Office 365 라이선스를 할당 하면 팀과 비즈니스용 Skype Online 라이선스가 모두 기본적으로 할당 됩니다. (비즈니스용 Skype Server에서 사용자가 온-프레미스에 있는 경우에도 마찬가지입니다. 사용자가 온-프레미스 또는 온라인 상태 인지 여부에 상관 없이, 현재 전체 팀 기능에 필요 하므로 비즈니스용 Skype Online 라이선스를 사용 하도록 설정 합니다. 사실 기본 구성을 변경 하는 단계를 수행 하지 않은 경우에는 조직에서 팀을 이미 사용 하 고 있을 수 있습니다.  이것은 겹치는 접근 방식의 이점 중 하나입니다. 이를 통해 조직 내에서 신속 하 고도 사용자 중심을 채택할 수 있습니다.
+아일랜드 모드는 아직 TeamsOnly 아닌 기존 조직의 기본 모드입니다. Microsoft 365 또는 Office 365 라이선스를 할당 하면 팀과 비즈니스용 Skype Online 라이선스가 모두 기본적으로 할당 됩니다. (비즈니스용 Skype Server에서 사용자가 온-프레미스에 있는 경우에도 마찬가지입니다. 사용자가 온-프레미스 또는 온라인 상태 인지 여부에 상관 없이, 현재 전체 팀 기능에 필요 하므로 비즈니스용 Skype Online 라이선스를 사용 하도록 설정 합니다. 사실 기본 구성을 변경 하는 단계를 수행 하지 않은 경우에는 조직에서 팀을 이미 사용 하 고 있을 수 있습니다.  이것은 겹치는 접근 방식의 이점 중 하나입니다. 이를 통해 조직 내에서 신속 하 고도 사용자 중심을 채택할 수 있습니다.
 
 이 방법이 효과적으로 작동 하려면 모든 사용자가 두 클라이언트를 동시에 실행 해야 합니다. 아일랜드 모드의 조직 내에서 사용자에 게 들어오는 채팅 및 통화는 비즈니스용 Skype 또는 팀 클라이언트에 있을 수 있으며,이는 받는 사람을 제어 하는 중이 아닙니다. 통신을 시작 하는 데 보낸 사람이 사용 하는 클라이언트에 따라 달라 집니다. 보낸 사람과 받는 사람이 서로 다른 조직에 있는 경우, 사용자에 대 한 수신 통화 및 채팅은 항상 비즈니스용 Skype 클라이언트에 있습니다.  
 
@@ -148,7 +148,7 @@ Islands 방법과 달리, select capabilities 메서드의 비즈니스용 Skype
 
 -   2 단계: CsUser Move를 실행 한 후 TeamsUpgradePolicy를 사용 하 여 사용자에 게 TeamsOnly 모드를 부여 합니다.
 
-다른 정책과는 달리, Office 365에서 새 TeamsUpgradePolicy 인스턴스를 만들 수 없습니다. 모든 기존 인스턴스가 서비스에 빌드됩니다.  (Mode는 정책 인스턴스의 이름이 아니라 TeamsUpgradePolicy 내에 있는 속성입니다.) 일부 경우에는 그렇지 않고 정책 인스턴스의 이름은 mode와 동일 합니다. 특히, 팀 전용 모드를 사용자에 게 할당 하는 경우 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스가 해당 사용자에 게 부여 됩니다. 다음 명령을 실행 하 여 모든 인스턴스 목록을 볼 수 있습니다.
+다른 정책과는 달리 Microsoft 365 또는 Office 365에서 새 TeamsUpgradePolicy 인스턴스를 만들 수 없습니다. 모든 기존 인스턴스가 서비스에 빌드됩니다.  (Mode는 정책 인스턴스의 이름이 아니라 TeamsUpgradePolicy 내에 있는 속성입니다.) 일부 경우에는 그렇지 않고 정책 인스턴스의 이름은 mode와 동일 합니다. 특히, 팀 전용 모드를 사용자에 게 할당 하는 경우 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스가 해당 사용자에 게 부여 됩니다. 다음 명령을 실행 하 여 모든 인스턴스 목록을 볼 수 있습니다.
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -238,7 +238,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 - 전체 조직에 대해 빠른 업그레이드를 수행할 수 있는 경우이 옵션을 고려 하세요.  두 클라이언트를 실행 하는 데 혼란을 초래할 수 있으므로이 기간을 최소화 하는 것이 가장 좋습니다. 사용자가 두 클라이언트를 모두 실행 한다는 것을 확인 해야 합니다.
 
-- 이 옵션은 box 모델 이며, Office 365 라이선스를 할당 하는 경우를 제외 하 고 팀을 시작 하는 데 관리자 작업이 필요 하지 않습니다. 사용자가 이미 비즈니스용 Skype Online을 사용 하 고 있는 경우이 모델에 이미 있을 수 있습니다.
+- 이 옵션은 box 모델 이며 Microsoft 365 또는 Office 365 라이선스를 할당 하는 경우를 제외 하 고 팀을 시작 하는 데 관리자 작업이 필요 하지 않습니다. 사용자가 이미 비즈니스용 Skype Online을 사용 하 고 있는 경우이 모델에 이미 있을 수 있습니다.
 
 - 접근 권한 모드를 종료 하 고 팀 전용으로 이동 하는 것은 어려울 수 있습니다. 업그레이드 된 사용자는 팀을 통해서만 통신 하기 때문에 해당 사용자와 통신 하는 조직의 다른 사용자는 팀을 사용 해야 합니다.  팀 사용을 시작 하지 않은 사용자가 있는 경우에는 누락 된 메시지에 노출 됩니다. 또한 비즈니스용 Skype에서 온라인 으로만 팀에 있는 사용자만 볼 수 있습니다. 일부 조직에서는 모든 사용자를 업그레이드할 준비가 될 때까지 대기 해야 하는 테 넌 트 전역 정책을 사용 하 여 테 넌 트 전체 업그레이드를 선택 합니다.
 
@@ -343,7 +343,7 @@ PSTN 호출 기능이 관련 되어 있으면 팀 전용 모드로 이동할 때
 
 이는 음성 관련 가장 간단한 업그레이드 시나리오입니다. 
 
-1. 사용자에 게 팀 라이선스가 할당 되었는지 확인 합니다. 기본적으로 Office 365 라이선스를 할당 하면 팀을 사용할 수 있으므로 이전에 팀 라이선스를 사용 하지 않도록 설정한 경우가 아니면 작업을 수행 하지 않아도 됩니다.
+1. 사용자에 게 팀 라이선스가 할당 되었는지 확인 합니다. 기본적으로 Microsoft 365 또는 Office 365 라이선스를 할당 하는 경우 팀을 사용할 수 있으므로 이전에 팀 라이선스를 사용 하지 않도록 설정 하지 않은 경우에는 아무런 작업도 필요 하지 않습니다.
 
 2.  사용자가 이미 전화 번호를 사용 하는 Microsoft 호출 계획이 있는 경우, TeamsUpgradePolicy에 사용자 팀 전용 모드를 할당 하는 것 으로만 변경 해야 합니다.  팀 전용 모드를 할당 하기 전에 들어오는 PSTN 통화가 사용자의 비즈니스용 Skype 클라이언트에 배치 됩니다. 팀 전용 모드로 업그레이드 한 후에는 들어오는 PSTN 통화가 사용자의 팀 클라이언트에 배치 됩니다.  
 
@@ -365,7 +365,7 @@ PSTN 호출 기능이 관련 되어 있으면 팀 전용 모드로 이동할 때
 
 5. 사용자 업그레이드: 이러한 단계는 조정 해야 합니다. 
 
-   - Office 365에서 사용자를 TeamsOnly 모드 (CsTeamsUpgradePolicy)로 업그레이드 합니다.
+   - Microsoft 365 또는 Office 365에서 사용자를 TeamsOnly 모드 (CsTeamsUpgradePolicy)로 업그레이드 합니다.
    - SBC에서 온-프레미스 중재 서버 대신 다이렉트 라우팅에 대 한 통화를 보내 들어오는 전화를 사용할 수 있도록 음성 라우팅을 구성 합니다.
 
 
@@ -383,7 +383,7 @@ PSTN 호출 기능이 관련 되어 있으면 팀 전용 모드로 이동할 때
 
 4. 필요한 경우, 이러한 사용자에 대해 다양 한 팀 정책을 구성 합니다 (예: TeamsMessagingPolicy, TeamsMeetingPolicy 등). 언제 든 지이 작업을 수행할 수 있지만, 업그레이드 시 사용자가 올바른 구성을 보유 하 고 있는지 확인 하려면 사용자가 TeamsOnly으로 업그레이드 하기 전에이 작업을 수행 하는 것이 가장 좋습니다.
 
-5. 필요한 경우 Office 365 라이선스를 할당 합니다.  사용자는 휴대폰 시스템과 함께 팀과 비즈니스용 Skype Online 요금제 2를 보유 해야 합니다. 비즈니스용 Skype Online 요금제 2를 사용할 수 없는 경우 다시 사용 하도록 설정 합니다.  
+5. 필요한 경우 Microsoft 365 또는 Office 365 라이선스를 할당 합니다.  사용자는 휴대폰 시스템과 함께 팀과 비즈니스용 Skype Online 요금제 2를 보유 해야 합니다. 비즈니스용 Skype Online 요금제 2를 사용할 수 없는 경우 다시 사용 하도록 설정 합니다.  
 
 6. 사용자 업그레이드: 이러한 단계는 조정 해야 합니다. 
 
@@ -391,7 +391,7 @@ PSTN 호출 기능이 관련 되어 있으면 팀 전용 모드로 이동할 때
 
    - SBC에서 온-프레미스 중재 서버 대신 다이렉트 라우팅에 대 한 통화를 보내 들어오는 전화를 사용할 수 있도록 음성 라우팅을 구성 합니다. 
 
-   - Office 365: 발신 전화를 사용할 수 있도록 관련 OnlineVoiceRoutingPolicy를 할당 합니다. 
+   - Microsoft 365 또는 Office 365: 나가는 통화를 사용할 수 있도록 관련 OnlineVoiceRoutingPolicy를 할당 합니다. 
 
 
 ### <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>비즈니스용 Skype Server 온-프레미스에서 Enterprise Voice를 사용 하 여 Microsoft 통화 요금제로
@@ -406,7 +406,7 @@ PSTN 호출 기능이 관련 되어 있으면 팀 전용 모드로 이동할 때
 
 3. 필요한 경우 이러한 사용자에 대 한 다양 한 팀 정책을 구성 합니다 (예: TeamsMessagingPolicy, TeamsMeetingPolicy 등). 언제 든 지이 작업을 수행할 수 있지만, 업그레이드 시 사용자가 올바른 구성을 보유 하 고 있는지 확인 하려면 사용자가 TeamsOnly으로 업그레이드 하기 전에이 작업을 수행 하는 것이 가장 좋습니다. 
 
-4. 필요한 경우 Office 365 라이선스를 할당 합니다.사용자는 휴대폰 시스템과 함께 팀과 비즈니스용 Skype Online 요금제 2를 보유 해야 합니다. 비즈니스용 Skype Online 요금제 2를 사용할 수 없는 경우 다시 사용 하도록 설정 합니다.  
+4. 필요한 경우 Microsoft 365 또는 Office 365 라이선스를 할당 합니다.사용자는 휴대폰 시스템과 함께 팀과 비즈니스용 Skype Online 요금제 2를 보유 해야 합니다. 비즈니스용 Skype Online 요금제 2를 사용할 수 없는 경우 다시 사용 하도록 설정 합니다.  
 
 5. 사용자의 전화 번호를 가져옵니다. (자세한 내용은 [조직의 전화 번호 관리](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)를 참조 하세요.)
 
@@ -556,7 +556,7 @@ Interop 통신은 네이티브 팀 대화의 모든 기능을 지원 하지 않�
 
 [비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침](migration-interop-guidance-for-teams-with-skype.md) 
 
-[비즈니스용 Skype 서버와 Office 365 하이브리드 연결 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간 하이브리드 연결 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [온-프레미스와 클라우드 간에 사용자 이동](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 

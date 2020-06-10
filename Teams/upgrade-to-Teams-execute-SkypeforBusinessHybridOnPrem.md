@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 491f4132d5f5c4c4e5d8215d0d48277a864cf064
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4cd9b38f09d4936d2db895f3ae8861bcf65b8a4e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905220"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666030"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>비즈니스용 Skype 온-프레미스에서 팀으로 업그레이드
 
@@ -42,7 +42,7 @@ ms.locfileid: "43905220"
 -   [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [파일럿 수행](https://aka.ms/SkypeToTeams-Pilot)
 
-비즈니스용 Skype 서버 또는 Microsoft Lync 온-프레미스를 배포 하 고 조직에서 팀으로 업그레이드 하려는 경우이 문서의 지침을 따르세요. Office 365 조직과 하이브리드 연결을 설정 하 고 사용자를 단계별로 팀으로 이동 하는 경우 공존 요구 사항을 결정 해야 합니다. 
+비즈니스용 Skype 서버 또는 Microsoft Lync 온-프레미스를 배포 하 고 조직에서 팀으로 업그레이드 하려는 경우이 문서의 지침을 따르세요. Microsoft 365 또는 Office 365 조직과 하이브리드 연결을 설정 하 고 사용자를 단계별로 팀으로 이동 하는 경우 공존 요구 사항을 결정 해야 합니다. 
 
 > [!IMPORTANT]
 > 비즈니스용 Skype Online은 2021년 7월 31일에 서비스가 종료되며 이후에는 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 조직의 혜택 실현을 최대화 하 고 업그레이드를 구현 하는 데 적절 한 시간을 확보 하려면 지금 Microsoft 팀으로 여행을 시작 하는 것이 좋습니다. 성공적으로 업그레이드 하면 기술 및 사용자의 준비가 정렬 되므로 Microsoft 팀으로 여행을 이동할 때이 가이드의 지침을 활용 해야 합니다.

@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 정책 패키지를 사용 하 고 관리 하 여 사용자 그룹에 대 한 정책을 관리할 때 일관성을 간소화 하 고 간소화 하 고 해결 하는 방법을 알아봅니다.
-ms.openlocfilehash: 62151d9356e414f0f527e597492be685c0067fd0
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 0fc612f4f04e0a57176ac985b40de029d42c5e9e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44412534"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669399"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft 팀에서 정책 패키지 관리
 
@@ -35,7 +35,7 @@ Microsoft 팀의 정책 패키지는 조직에서 유사한 역할을 갖는 사
 
 정책 패키지는 GCC (미국 정부 클라우드 커뮤니티) 조 직에서 사용할 수 없습니다.
 
-## <a name="what-is-a-policy-package"></a>정책 패키지 란?
+## <a name="what-is-a-policy-package"></a>정책 패키지의 정의
 
 정책 패키지를 사용 하 여 조직 내 특정 사용자 집합에 허용 하거나 제한할 팀 기능을 제어할 수 있습니다. 팀의 각 정책 패키지는 사용자 역할을 중심으로 설계 되며, 해당 역할에 일반적으로 사용 되는 공동 작업 및 통신 작업을 지 원하는 미리 정의 된 정책 및 정책 설정이 포함 되어 있습니다.
 
@@ -53,10 +53,8 @@ Microsoft 팀의 정책 패키지는 조직에서 유사한 역할을 갖는 사
 |의료 정보 근로자  |IT 직원, informatics 스태프, 재무 담당자, 규정 준수 관리자, 채팅, 통화, 모임에 대 한 모든 액세스 권한을 제공 하는 정책 및 정책 설정 집합을 만듭니다.|
 |의료 환자 실  |건강 관리 조직의 환자 방에 해당 하는 정책 및 정책 설정 집합을 만듭니다.|
 |중소 기업 사용자 (비즈니스 음성) |비즈니스 음성 환경에 대 한 앱을 포함 하는 앱 설치 정책을 만듭니다.|
-|중소 규모 비즈니스 사용자 (비즈니스 보이스 필요 없음) |비즈니스 음성 기능을 사용 하지 않고 중소 규모의 비즈니스 사용자에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.|
+|중소 규모 비즈니스 사용자 (비즈니스 보이스 필요 없음) |중소 규모의 비즈니스 팀 사용자 (비 비즈니스 음성 환경)와 관련 된 앱 설치 정책을 만듭니다.
 |공개 안전 책임자   |조직의 공개 보안 책임자에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.|
-
-
 
 > [!NOTE]
 > 팀의 향후 릴리스에서 정책 패키지를 더 추가 하 게 되므로 최신 정보를 다시 확인 하세요.  

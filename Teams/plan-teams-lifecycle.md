@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad4592799efef11b7d09d564af5217dd9cdd550
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951273"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638847"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams에서 수명 주기 관리 계획
 
@@ -41,7 +41,7 @@ Teams에서는 조직의 공동 작업 수명 주기 관리 프로세스를 구�
 
 **Teams**
 
-_팀_은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉션입니다. 팀은 구성원을 정의하고 해당 구성원에게 적용되는 사용 권한 및 정책을 정의합니다. Teams는 Microsoft 365 그룹에 기반하며 Office 365 그룹 멤버 변경 사항이 Teams에 동기화됩니다. 다른 Microsoft 365 그룹과 마찬가지로 Teams는 Exchange 사서함, SharePoint 사이트, OneNote 노트북 및 Office 365 내의 다른 자산으로 자동 프로 비전을 제공합니다. [Microsoft 365 그룹에 대해 자세히 알아보기.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+_팀_은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉션입니다. 팀은 구성원을 정의하고 해당 구성원에게 적용되는 사용 권한 및 정책을 정의합니다. Teams는 Microsoft 365 그룹을 기반으로 하므로 Microsoft 365 그룹 구성원 변경 사항이 팀에 동기화됩니다. 다른 Microsoft 365 그룹과 마찬가지로 Teams는 Exchange 사서함, SharePoint 사이트, OneNote 노트북 및 Office 365 내의 다른 자산으로 자동 프로 비전을 제공합니다. [Microsoft 365 그룹에 대해 자세히 알아보기.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 **채널**
 
@@ -141,7 +141,7 @@ Teams는 다음과 같은 다양한 방법으로 시작할 수 있습니다.
 
 -   처음부터 팀 만들기 개별 전자 메일 별칭 또는 사용자 이름을 사용하여 구성원을 추가하거나 배포 목록을 확장합니다.
 -   기존 팀에서 팀을 만들고 해당 채널 구성과 앱 구성을 템플릿으로 사용합니다. 원하는 경우 해당 멤버 자격 목록을 사용할 수도 있습니다.
--   팀에 사서함과 SharePoint 사이트에 대한 액세스도 제공하는 기존 Office 365 그룹에 팀을 추가합니다.
+-   기존 Microsoft 365 그룹에 팀을 추가하면 팀이 그 사서함과 SharePoint 사이트에도 액세스할 수 있습니다.
 -   Microsoft Graph Teams API 또는 PowerShell Cmdlet을 사용하여 팀을 만듭니다. API는 전체 주소록 특성(예: 영역 또는 부서) 또는 비즈니스 프로세스(예: 클라이언트 계약 또는 교실 명단)에 기반하여 프로그래밍 방식으로 팀을 만들 수 있습니다.
 
 팀 구성에 대한 자세한 내용을 알아보려면 다음 링크를 사용하세요.

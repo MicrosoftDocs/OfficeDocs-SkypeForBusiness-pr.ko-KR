@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange Online과 비즈니스용 Skype Server 온-프레미스를 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 03999e5717f784166387c823c95af1e333d4f942
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905290"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666150"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online을 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -86,7 +86,7 @@ AD FS (Active Directory Federation Services)를 배포한 경우 다음 단계�
 4. **마침을** 클릭 하 여 계정을 만듭니다.
 5. 계정을 만든 후 디렉터리 동기화를 실행 합니다. PowerShell에서 [Set-MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) 를 사용 하 여이 작업을 수행할 수 있습니다. 이 작업이 완료 되 면 사용자 페이지로 이동 하 여 이전 단계에서 만든 두 계정이 병합 되었는지 확인 합니다.
 
-### <a name="assign-an-office-365-license"></a>Office 365 라이선스 할당
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Microsoft 365 또는 Office 365 라이선스 할당
 
 1. 먼저 Azure AD에 연결 하 여 일부 계정 설정을 적용 합니다. 이 cmdlet을 실행 하 여 연결할 수 있습니다. Active Directory에 대 한 자세한 내용은 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)을 참조 하세요.
 
@@ -100,8 +100,8 @@ AD FS (Active Directory Federation Services)를 배포한 경우 다음 단계�
      Connect-AzureAD -Credential $cred
      ``` -->
 
-2. 사용자 계정에는 비즈니스용 Exchange 및 비즈니스용 Skype 서버를 사용할 수 있도록 유효한 Office 365 라이선스가 있어야 합니다. 라이선스가 있는 경우 사용 위치를 사용자 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 합니다. 다음 단계에서 과제를 만듭니다.
-3. 다음으로 다음을 사용 합니다.`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 조직에서 사용할 수 있는 Sku 목록을 검색 합니다.
+2. 사용자 계정에는 비즈니스용 Exchange 및 비즈니스용 Skype 서버를 사용할 수 있도록 유효한 Microsoft 365 또는 Office 365 라이선스가 있어야 합니다. 라이선스가 있는 경우 사용 위치를 사용자 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 합니다. 다음 단계에서 과제를 만듭니다.
+3. 다음으로 다음을 사용 합니다.`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Microsoft 365 또는 Office 365 조 직에 사용할 수 있는 Sku 목록을 검색 합니다.
 4. Sku를 나열 하면 다음을 사용 하 여 라이선스를 추가할 수 있습니다.`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> 은. 이 경우 $strLicense는 사용자에 게 표시 되는 SKU 코드입니다 (예: contoso: STANDARDPACK). 
 
     ```PowerShell
@@ -140,7 +140,7 @@ AD FS (Active Directory Federation Services)를 배포한 경우 다음 단계�
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Microsoft 팀 대화방 계정에 비즈니스용 Skype 서버 라이선스 할당
 
-1. 테 넌 트 관리자로 로그인 하 고, Office 365 관리 포털을 열고, 관리 앱을 클릭 합니다.
+1. 테 넌 트 관리자로 로그인 하 고 Microsoft 365 관리 센터를 연 다음 관리 앱을 클릭 합니다.
 2. **사용자 및 그룹** 을 클릭 한 다음 **사용자 추가, 암호 다시 설정**등을 클릭 합니다.
 3. Microsoft 팀 대화방 계정을 클릭 한 다음 펜 아이콘을 클릭 하 여 계정 정보를 편집 합니다.
 4. **라이선스**를 클릭 합니다.
@@ -150,7 +150,7 @@ AD FS (Active Directory Federation Services)를 배포한 경우 다음 단계�
 유효성 검사를 위해 비즈니스용 Skype 클라이언트를 사용 하 여이 계정에 로그인 할 수 있습니다.
 
 > [!NOTE]
-> 현재 E1, E3, E4 또는 E5 Sku를 오디오 회의 또는 Office 365 전화 시스템 및 통화 요금제를 통해 비즈니스용 Skype 요금제를 사용 하 고 있는 경우에는 계속 작동 합니다. 그러나 [팀 모임 회의실 라이선스 업데이트](rooms-licensing.md)에 설명 된 대로 현재 라이선스가 만료 된 후 간단한 라이선스 모델로 이동 하는 것이 좋습니다.
+> 현재 E1, E3, E4 또는 E5 Sku를 오디오 회의 또는 전화 시스템 및 통화 요금제와 함께 사용 하는 경우에는이 작업이 계속 작동 합니다. 그러나 [팀 모임 회의실 라이선스 업데이트](rooms-licensing.md)에 설명 된 대로 현재 라이선스가 만료 된 후 간단한 라이선스 모델로 이동 하는 것이 좋습니다.
 
 > [!IMPORTANT]
 > 비즈니스용 Skype 계획 2를 사용 하는 경우 비즈니스용 skype 전용 모드에서 Microsoft 팀 대화방만 사용할 수 있으며, 모든 모임이 비즈니스용 Skype 모임 임을 의미 합니다. Microsoft 팀 모임에서 회의실을 사용 하도록 설정 하려면 회의실 라이선스를 구입 하는 것이 좋습니다.

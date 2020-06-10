@@ -18,12 +18,12 @@ description: 클라우드, 동기화 됨, 페더레이션 등의 Microsoft 팀�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ccddd3bacdd495fb6febb11871d6d501f0a666b
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 6c32783b96e5fdfe8c0f783a0fd27fd58a7f04c1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637207"
+ms.locfileid: "44665680"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 팀의 id 모델 및 인증
 ==========================================
@@ -51,6 +51,7 @@ Microsoft 팀은 Microsoft 365 및 Office 365에서 사용할 수 있는 모든 
 
 자세한 내용은 [로그인 모델 선택](https://go.microsoft.com/fwlink/?linkid=854626) 및 [Id 모델 및 Azure Active Directory 가이드 이해](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) 를 참조 하세요.
 
+
 <a name="multi-factor-authentication"></a>다단계 인증
 ----------------------------
 
@@ -63,5 +64,5 @@ Microsoft 팀이 포함 된 Microsoft 365 또는 Office 365 요금제에서는 �
 
 |테 넌 트 형식  |사용 가능한 MFA 두 번째 요소 옵션  |상속자  |
 |---------|---------|---------|
-|**클라우드만**     |Microsoft 365 및 Office 365 용 MFA <ul><li>전화 통화</li><li>문자 메시지</li><li>모바일 앱 알림</li><li>모바일 앱 확인 코드</li></ul>        |[Microsoft 365 배포에 대 한 다단계 인증 계획](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**하이브리드 설정 (동기화 또는 페더레이션 Id 모델)**     |<ul><li>Microsoft 365 및 Office 365 용 MFA</li><li>Azure MFA 모듈 (ADF 통합)</li><li>실제 또는 가상 스마트 카드 (ADF 통합)</li></ul>         |참고: [AZURE AD Id 공급자 호환성 문서](https://www.microsoft.com/download/details.aspx?id=56843) 에서는 추가 MFA 솔루션을 사용할 수 있습니다.         |
+|**클라우드만**     |Microsoft 365 또는 Office 365 용 MFA <ul><li>전화 통화</li><li>문자 메시지</li><li>모바일 앱 알림</li><li>모바일 앱 확인 코드</li></ul>        | |
+|**하이브리드 설정 (동기화 또는 페더레이션 Id 모델)**     |<ul><li>Microsoft 365 또는 Office 365 용 MFA</li><li>Azure MFA 모듈 (ADF 통합)</li><li>실제 또는 가상 스마트 카드 (ADF 통합)</li></ul>         |참고: [AZURE AD Id 공급자 호환성 문서](https://www.microsoft.com/download/details.aspx?id=56843) 에서는 추가 MFA 솔루션을 사용할 수 있습니다.         |

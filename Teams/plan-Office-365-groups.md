@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 3c428966f07fc82d37520025ea3526c067003373
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: be5b6244c11d3d65b83719ac4f55cf2e0fbef598
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637837"
+ms.locfileid: "44665120"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft 팀에서 팀을 만들 때 Microsoft 365 그룹에 대 한 계획
 ==========================================================
@@ -33,11 +33,9 @@ Microsoft 365 그룹의 사용을 고려 하거나 팀을 만들 때 팀의 용�
 
 Microsoft 365 그룹 계획 및 Microsoft 팀에의 한 영향 (or by)에 대해 설명 하는 두 가지 시나리오는 다음과 같습니다.
 
--   첫 번째, 고객은 그룹에 기존 투자를 받을 수 있기 때문에 현재 5000 회원의 공개 그룹과 비공개 그룹을 모두 지원 합니다. 앞에서 설명한 대로 Office 365 관리 웹 콘솔이 아닌 팀 클라이언트를 사용 하 여 사용자의 구성원을 팀으로 관리 하려고 합니다. 이 시나리오에서 사용자가 Microsoft 365 그룹에서 대화를 진행 하는 데 사용 되는 경우 그룹 대화는 본질적으로 팀 채널의 채팅 메시지와 동일 하지 않고 전자 메일로 인식 된다는 것에 유의 하세요. 이 차이에 대해 사용자를 교육 하 고 팀에서 더욱 유연한 채팅 메시지 형식을 도입 하 고 Outlook 또는 OWA를 사용 하 여 그룹에 전자 메일을 보내는 것이 좋습니다.
+-   첫 번째, 고객은 그룹에 기존 투자를 받을 수 있기 때문에 현재 5000 회원의 공개 그룹과 비공개 그룹을 모두 지원 합니다. 앞에서 설명한 대로 Microsoft 365 관리 센터 대신 팀 클라이언트를 사용 하 여 팀 구성원을 관리 하려고 합니다. 이 시나리오에서 사용자가 Microsoft 365 그룹에서 대화를 진행 하는 데 사용 되는 경우 그룹 대화는 본질적으로 팀 채널의 채팅 메시지와 동일 하지 않고 전자 메일로 인식 된다는 것에 유의 하세요. 이 차이에 대해 사용자를 교육 하 고 팀에서 더욱 유연한 채팅 메시지 형식을 도입 하 고 Outlook 또는 OWA를 사용 하 여 그룹에 전자 메일을 보내는 것이 좋습니다.
 
--   둘째로, Office 365에 정의 된 기존 그룹이 없는 고객의 경우 Microsoft 365 관리 센터, 팀 웹 또는 데스크톱 클라이언트를 사용 하 여 만들 수 있습니다. 앞에서 설명한 대로 팀 클라이언트를 사용 하 여 이후의 모든 구성원을 Microsoft 365 그룹에 대해 관리할 수 있습니다. 팀 멤버 자격은 Microsoft 365 그룹에 대 한 구성원 자격이 정의 되므로 이러한 변경을 위해 사용자를 준비 해야 합니다.
- 
-
+-   둘째, Microsoft 365에 정의 된 기존 그룹이 없는 고객의 경우 Microsoft 365 관리 센터, 팀 웹 또는 데스크톱 클라이언트를 사용 하 여 만들 수 있습니다. 앞에서 설명한 대로 팀 클라이언트를 사용 하 여 이후의 모든 구성원을 Microsoft 365 그룹에 대해 관리할 수 있습니다. 팀 멤버 자격은 Microsoft 365 그룹에 대 한 구성원 자격이 정의 되므로 이러한 변경을 위해 사용자를 준비 해야 합니다.
 
 ## <a name="teams-respects-microsoft-365-groups-naming-policy-in-private-preview"></a>팀이 Microsoft 365 Groups name policy (비공개 미리 보기)를 고려 합니다.
 
@@ -54,4 +52,4 @@ Microsoft 365 그룹 계획 및 Microsoft 팀에의 한 영향 (or by)에 대해
 
 -   [Microsoft 365 관리 센터를 사용 하 여 Microsoft 365 그룹에서 구성원 추가 또는 제거](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
--   [삭제 된 Microsoft 365 그룹 복원](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
+-   [삭제 된 그룹 복원](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)

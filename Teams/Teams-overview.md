@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8aad3af888bb071ad871d67d964b0ae388684a15
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 421a849c37d1500ef3542f8a5c203069177eb1df
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43996999"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637677"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되면 [Teams 배포 방법](How-to-roll-out-teams.md)과 함께 시작해보겠습니다.
@@ -43,7 +43,7 @@ Teams는 Microsoft 365 그룹, Microsoft Graph, 나머지 Office 365와 동일�
 Microsoft 365의 환경에서 Teams가 부합하는 위치를 확인하려면 이 아키텍처 포스터 [Microsoft 365의 일부로서의 Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)를 확인하세요.
 
 팀을 만들면 다음과 같은 항목이 생성됩니다.
-- 새 [Office 365 그룹](office-365-groups.md)
+- 새 [Microsoft 365 그룹](office-365-groups.md)
 - 팀 파일을 저장하는 [SharePoint Online](sharepoint-onedrive-interact.md) 사이트 및 문서 라이브러리
 - [Exchange Online](exchange-teams-interact.md) 공유 사서함 및 일정
 - OneNote 전자 필기장

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a196dfee988a41a5d8145d9b6256d1df6e714133
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905830"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665280"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams에서 거버넌스 계획
 
@@ -58,7 +58,7 @@ ms.locfileid: "43905830"
 > 미리 계획 하는 데 도움이 되도록 [이러한 정책 설정 및 필요한 라이선스에 대해 자세히 알아보세요](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> 그룹 및 팀 만들기를 제한 하면 많은 Office 365 서비스에서 서비스 기능을 위해 그룹을 만들어야 하기 때문에 사용자 생산성을 느리게 할 수 있습니다. 추가 정보를 보려면 [Microsoft 365 그룹을 만드는 사용자를 제어 하는 이유](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)를 찾아 확장 합니다.
+> 그룹 및 팀 만들기를 제한 하면 많은 Microsoft 365 및 Office 365 서비스에서 서비스 기능을 위해 그룹을 만들어야 하기 때문에 사용자 생산성을 높일 수 있습니다. 추가 정보를 보려면 [Microsoft 365 그룹을 만드는 사용자를 제어 하는 이유](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)를 찾아 확장 합니다.
 
 
 #### <a name="additional-information"></a>추가 정보
@@ -87,7 +87,7 @@ ms.locfileid: "43905830"
 |기능 |세부 정보 |Azure AD Premium 라이선스 필요 |덕분 |
 |---------|---------|---------|---------|
 |만료 정책 |만료 정책을 설정 하 여 Microsoft 365 그룹의 수명 주기를 관리 합니다. |P1 |TBD|
-|보존 정책 |보안 & 준수 센터에서 팀에 대 한 보존 정책을 설정 하 여 특정 기간에 대 한 데이터를 보존 하거나 삭제 합니다. **참고**:이 기능을 사용 하려면 Office 365 Enterprise E3 이상 라이선스가 필요 합니다. |아니요 |TBD |
+|보존 정책 |보안 & 준수 센터에서 팀에 대 한 보존 정책을 설정 하 여 특정 기간에 대 한 데이터를 보존 하거나 삭제 합니다. **참고**:이 기능을 사용 하려면 Microsoft 365 또는 Office 365 Enterprise e m m 이상에 대 한 라이선스가 필요 합니다. |아니요 |TBD |
 |보관 및 복원 |더 이상 활성 상태가 아닌 팀을 보관 하 되 참조를 위해 유지 하거나 나중에 다시 활성화 하려는 경우 |아니요 |TBD |
 
 > [!Note]
@@ -106,7 +106,7 @@ ms.locfileid: "43905830"
 
 ## <a name="teams-feature-management"></a>팀 기능 관리
 
-팀에 대 한 관리 및 수명 주기 관리의 또 다른 중요 한 측면은 사용자가 액세스할 수 있는 기능을 제어 하는 기능입니다. Office 365 조직 수준 또는 사용자 기준으로 메시징, 모임, 통화 기능을 관리할 수 있습니다. 
+팀에 대 한 관리 및 수명 주기 관리의 또 다른 중요 한 측면은 사용자가 액세스할 수 있는 기능을 제어 하는 기능입니다. Microsoft 365 또는 Office 365 조직 수준 또는 사용자 단위로 메시지, 모임, 통화 기능을 관리할 수 있습니다.
 
 
 |         |         |
@@ -129,7 +129,7 @@ ms.locfileid: "43905830"
 
 ## <a name="security-and-compliance"></a>보안 및 규정 준수
 
-팀은 Office 365의 고급 보안 및 규정 준수 기능에 기반을 둠으로써 감사 및 보고, 준수 콘텐츠 검색, e-검색, 법적 보류, 보존 정책을 지원 합니다. 
+팀은 Microsoft 365 및 Office 365의 고급 보안 및 규정 준수 기능을 기반으로 하며 감사 및 보고, 준수 콘텐츠 검색, e-검색, 법적 보류, 보존 정책을 지원 합니다.
 
 > [!Important]
 > 조직에 준수 및 보안 요구 사항이 있는 경우 [Microsoft 팀의 보안 및 준수에](security-compliance-overview.md)대 한 개요 문서에서 해당 항목에 대해 제공 되는 심층적인 콘텐츠를 검토 하세요.

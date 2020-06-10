@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: ''
 audience: admin
 search.appverid: MET150
-description: 사용자를 위해 Office 365 구독 계획을 구매 하 여 무료 버전의 Microsoft 팀에서 정식 버전으로 간편 하 게 업그레이드 하는 방법을 알아봅니다.
+description: Microsoft 365 또는 Office 365 구독 계획을 사용자에 게 제공 하 여 무료 버전의 Microsoft 팀에서 정식 버전으로 간편 하 게 업그레이드 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c760285655d9bb2557fbf981c333e1019cef379
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1b60ea0159207c88a9aab7030a1d058a44c649eb
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904453"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666010"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Microsoft 팀에서 무료 구독 버전으로 업그레이드
 ======================================================
 
-조직에서 무료 버전의 Microsoft 팀을 사용 하는 경우 사용자를 위해 Microsoft 365 또는 Office 365 구독 계획을 구매 하 여 정식 버전으로 쉽게 업그레이드할 수 있습니다. 정식 버전은 예약, 오디오 회의, 향상 된 관리, 보안 기능 등 무료 버전이 제공 하지 않는 추가 팀 기능을 제공 합니다. Office 365는 친숙 한 Microsoft Office 데스크톱 제품군과 Exchange Online, SharePoint Online, Office를 포함 하 여 클라우드 기반 Microsoft의 차세대 통신 및 공동 작업 서비스를 결합 하 여 사용자가 인터넷을 통해 사실상 생산성을 높일 수 있도록 지원 합니다. 팀을 업그레이드할 때 기존 팀 데이터가 손실 되지 않습니다. 모든 팀, 채널, 채팅, 파일, 사용 권한을 함께 얻을 수 있습니다. 
+조직에서 무료 버전의 Microsoft 팀을 사용 하는 경우 사용자를 위해 Microsoft 365 또는 Office 365 구독 계획을 구매 하 여 정식 버전으로 쉽게 업그레이드할 수 있습니다. 정식 버전은 예약, 오디오 회의, 향상 된 관리, 보안 기능 등 무료 버전이 제공 하지 않는 추가 팀 기능을 제공 합니다. Microsoft 365 및 Office 365는 친숙 한 microsoft Office 데스크톱 제품군을 Exchange Online, SharePoint Online, Office를 비롯 한 클라우드 기반 Microsoft 차세대 통신 및 공동 작업 서비스와 함께 사용 하 여 사용자가 인터넷을 통해 사실상 생산성을 높일 수 있도록 지원 합니다. 팀을 업그레이드할 때 기존 팀 데이터가 손실 되지 않습니다. 모든 팀, 채널, 채팅, 파일, 사용 권한을 함께 얻을 수 있습니다. 
 
 > [!NOTE]
 > Microsoft 365 또는 Office 365 구독이 이미 있는 경우 무료 버전이 아니라 팀의 평가판 버전 (회사 id)을 사용할 수 있습니다. 팀 평가판은 제한 된 시간 동안 팀의 전체 버전을 제공 합니다. 자세한 내용은 [Microsoft 팀 상업용 클라우드 평가판 제공 관리](iw-trial-teams.md)를 참조 하세요.
@@ -51,12 +51,12 @@ Microsoft 365 또는 Office 365 구독에 포함 된 팀의 전체 버전은 팀
 
 - 사용자 제한 없음 (엔터프라이즈 라이선스 사용)
 - Exchange 전자 메일 호스팅 및 사용자 지정 전자 메일 도메인
-- OneDrive, SharePoint, Planner, Yammer 등의 Office 365 서비스
+- OneDrive, SharePoint, Planner, Yammer 등의 Microsoft 365 및 Office 365 서비스
 - 사용자 당 1TB 저장소
 - 예약 된 모임
 - 오디오 회의
 - 다단계 인증, single sign-on, 고급 감사 및 보고를 비롯 한 향상 된 보안 및 준수 기능
-- 24 x 7 휴대폰 및 웹 지원, 사용자 및 앱 관리용 관리 도구, Office 365 서비스 사용 현황 보고, 서비스 수준 계약, 구성 가능한 사용자 설정 및 정책 등의 관리 제어 및 지원 기능
+- 24 x 7 휴대폰 및 웹 지원, 사용자 및 앱을 관리 하기 위한 관리 도구, Microsoft 365 또는 Office 365 서비스 사용 현황 보고, 서비스 수준 계약, 구성 가능한 사용자 설정 및 정책 등의 관리 제어 및 지원 기능
 
 팀의 무료 및 팀 기능에 대 한 자세한 비교는 [팀 계획 비교](https://products.office.com/microsoft-teams/free)를 참조 하세요.
 
@@ -65,10 +65,10 @@ Microsoft 365 또는 Office 365 구독에 포함 된 팀의 전체 버전은 팀
 다음 요구 사항을 충족 하는 경우 정식 버전의 팀으로 업그레이드할 수 있습니다.
 
 - 기존 팀 무료 구독에 등록 한 사람입니다.
-- 자신의 도메인을 가져오는 경우 Azure Active Directory와 연결 되어 있지 않습니다 (평가판 또는 구매한 O365 구독 사용).
+- 자신의 도메인을 가져오는 경우 Azure Active Directory와 연결 되어 있지 않습니다 (평가판을 통해 또는 Microsoft 365 또는 Office 365 구독 구입).
 
 > [!NOTE]
-> 데이터를 업그레이드 하 고 전송 하려면 팀 응용 프로그램의 업그레이드 프로세스를 통해 구독을 구입 해야 합니다. 업그레이드 프로세스를 거치지 않고 Office 365을 구입한 경우에는 별도의 테 넌 트가 이미 있으므로 데이터를 전송할 수 없습니다.
+> 데이터를 업그레이드 하 고 전송 하려면 팀 응용 프로그램의 업그레이드 프로세스를 통해 구독을 구입 해야 합니다. 업그레이드 프로세스를 거치지 않고 Microsoft 365 또는 Office 365을 팀과 함께 구매한 경우에는 별도의 테 넌 트가 이미 있으므로 데이터를 전송할 수 없습니다.
 
 ## <a name="limitations"></a>따릅니다
 
@@ -76,7 +76,7 @@ Microsoft 365 또는 Office 365 구독에 포함 된 팀의 전체 버전은 팀
 
 - 업그레이드 한 후에는 팀으로 다시 전환할 수 없습니다.
 - 여러 팀 무료 테 넌 트를 단일 유료 테 넌 트로 병합할 수 없습니다.
-- 모든 사용자가 같은 도메인에 있어야 합니다. (모든 사용자는 사용자 *이름*@*domain.com*형식으로 로그인을 받습니다.)
+- 모든 사용자가 같은 도메인에 있어야 합니다. (모든 사용자가 형식 *사용자 이름* @ 에 로그인을 받게 됩니다. *domain.com*.)
 - 모든 사용자를 업그레이드 해야 함: 같은 테 넌 트에서 팀의 무료 및 유료 구독 사용자가 혼합 되어 지원 되지 않습니다.
 
 ## <a name="how-do-i-upgrade-my-organization"></a>조직을 업그레이드 하려면 어떻게 하나요?

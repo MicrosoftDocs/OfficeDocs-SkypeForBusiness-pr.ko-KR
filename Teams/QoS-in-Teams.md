@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0fb9a90a3528ed8d2d7f4d2f00843a9215e92a2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a146b2971c32b88a8a8ef6925e38044b25b847e6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902423"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665710"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft 팀에서 QoS (서비스 품질) 구현
 
@@ -44,9 +44,9 @@ QoS는 중요 한 네트워크 트래픽 (예: 음성 또는 비디오 스트림
 
 Qos 우선 순위를 지원 하지 않는 경로의 일부는 통화, 비디오, 화면 공유의 품질을 저하 시킬 수 있기 때문에 QoS는 효율성을 위해 조직에서 end에 일관 된 QoS 설정을 적용 해야 합니다. 여기에는 모든 사용자 Pc 또는 장치, 네트워크 스위치, 인터넷 라우터에, 팀 온라인 서비스에 설정을 적용 하는 것이 포함 됩니다.
 
-_그림 1. 조직의 네트워크와 Office 365 서비스 간의 관계_
+_그림 1. 조직의 네트워크와 Microsoft 365 또는 Office 365 서비스 간의 관계_
 
-![네트워크와 서비스 간의 관계를 보여 주는 그림](media/Qos-in-Teams-Image1.png "조직의 네트워크와 Office 365 서비스 간의 관계: 온-프레미스 네트워크 및 장치는 interconnect 네트워크로 연결 되며,이는 Office 365 클라우드 음성 및 오디오 회의 서비스와 연결 됩니다.")
+![네트워크와 서비스 간의 관계를 보여 주는 그림](media/Qos-in-Teams-Image1.png "조직의 네트워크와 Microsoft 365 또는 Office 365 서비스 간의 관계: 온-프레미스 네트워크 및 장치는 interconnect 네트워크로 연결 되며,이는 다시 Microsoft 365 또는 Office 365 클라우드 음성 및 오디오 회의 서비스와 연결 됩니다.")
 
 대부분의 경우 엔터프라이즈를 클라우드에 연결 하는 네트워크는 관리 되지 않는 네트워크 이며, 이렇게 하면 안전 하 게 QoS 옵션을 설정할 수 없게 됩니다. 주소 종단 간 QoS에서 사용할 수 있는 한 가지 선택 사항은 [Azure express](https://azure.microsoft.com/documentation/articles/expressroute-introduction/)경로 이지만 인바운드 및 아웃 바운드 트래픽 모두에 대해 온-프레미스 네트워크에 QoS를 구현 하는 것이 좋습니다. 이렇게 하면 배포 전체에서 실시간 통신 작업의 품질을 높이고 chokepoints을 줄일 수 있습니다.
 
@@ -150,7 +150,7 @@ _권장 되는 초기 포트 범위_
 
 QoS를 구현할 준비가 되 면 다음 지침을 염두에 두어야 합니다.
 
-- 가장 짧은 Office 365 경로입니다.
+- Microsoft 365 또는 Office 365에 대 한 최단 경로는 가장 좋은 방법입니다.
 - 포트를 닫으면 품질이 저하 될 뿐입니다.
 - 프록시 등의 다른 장애가 있는 경우에는이 방법을 권장 하지 않습니다.
 - 홉 수 제한:
@@ -158,7 +158,7 @@ QoS를 구현할 준비가 되 면 다음 지침을 염두에 두어야 합니�
   - ISP-Microsoft 네트워크에 지-3 홉
   - Microsoft 네트워크 edge에서 최종 목적지까지-관련이 없음
 
-방화벽 포트를 구성 하는 방법에 대 한 자세한 내용은 [Office 365 url 및 IP 범위로](office-365-urls-ip-address-ranges.md)이동 하세요.
+방화벽 포트를 구성 하는 방법에 대 한 자세한 내용은 [Microsoft 365 및 Office 365 url 및 IP 범위로](office-365-urls-ip-address-ranges.md)이동 하세요.
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>팀 관리 센터의 원본 포트 관리
 

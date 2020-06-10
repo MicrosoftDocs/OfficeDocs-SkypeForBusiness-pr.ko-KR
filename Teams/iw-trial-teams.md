@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68d8ff88e34fac291560b414c18055a12d838a91
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042795"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638777"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams 상용 클라우드 평가판 관리
 =======================================================
@@ -55,7 +55,7 @@ Microsoft Teams 상용 클라우드 평가판은 Microsoft Teams 라이선스가
 
 (Microsoft 365 관리 센터에서) 사용자는 앱과 평가판을 사용할 수 있게 등록하도록 설정을 해야 합니다. 자세한 내용은 이 문서 뒷부분의 [평가판 관리](#manage-the-trial) 부분을 참조하십시오. 
 
-Teams를 포함하는 Office 365 라이선스가 없는 사용자는 Microsoft Teams 상용 클라우드 평가판을 시작할 수 있습니다. 예를 들어 사용자에게 비즈니스용 Microsoft 365 앱(Teams가 포함되지 않음)이 있는 경우 평가판을 사용할 수 있습니다.
+Teams를 포함하는 Microsoft 365 또는 Office 365 라이선스가 없는 사용자는 Microsoft Teams 상용 클라우드 평가판으로 시작할 수 있습니다. 예를 들어 사용자에게 비즈니스용 Microsoft 365 앱(Teams가 포함되지 않음)이 있는 경우 평가판을 사용할 수 있습니다.
 
 ## <a name="who-is-not-eligible"></a>사용할 수 없는 사용자
 
@@ -148,6 +148,6 @@ Teams로의 액세스를 해제하려면:
 
 2019년 4월 22일부로 사용자는 최신 Microsoft Teams 상용 클라우드 평가판 라이선스를 요청할 수 있습니다. 조직에서 사용자를 레거시 평가판 라이선스에서 최신 라이센스로 이동하려면 먼저 각 사용자의 레거시 Microsoft Teams 평가판 라이선스를 제거 해야 합니다. 레거시 라이선스가 제거되면 해당 사용자는 업데이트된 Microsoft Teams 상용 클라우드 평가판 라이선스를 요청할 수 있습니다.
 
-- PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
+- PowerShell을 통해 이 라이선스를 제거하려면 [Microsoft 365 또는 Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
 
-- 관리 포털을 통해 이 라이선스를 제거하려면 [비즈니스용 Office 365의 사용자 라이선스 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요. 
+- 관리 포털을 통해 이 라이선스를 제거하려면 [사용자 라이선스 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요.

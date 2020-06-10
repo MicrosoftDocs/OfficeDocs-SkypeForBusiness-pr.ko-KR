@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 3b1546c71cc2796ce599da449ab37bf275384efc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041845"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637897"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -160,7 +160,7 @@ Teams는 많은 Office 365 라이선스의 일부로 제공됩니다. Teams 라�
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 및 SharePoint 상호 운용성 
 
-전체 Teams 환경에서 모든 사용자에 대해 Exchange Online, SharePoint Online 및 Office 365 그룹 만들기가 가능하도록 설정해야 합니다. 다음의 문서는 다양한 환경에서 호스팅되는 Exchange 메일함과 관련된 정보, Exchange와 Teams가 상호 작용하는 방법 그리고 SharePoint 및 비즈니스용 OneDrive에 대한 이와 유사한 고려 사항에 관련된 정보를 간략하게 설명합니다. 
+완전한 Teams 환경이 되려면 모든 사용자가 Exchange Online, SharePoint Online 및 Microsoft 365 그룹 만들기가 가능하도록 설정해야 합니다. 다음의 문서는 다양한 환경에서 호스팅되는 Exchange 메일함과 관련된 정보, Exchange와 Teams가 상호 작용하는 방법 그리고 SharePoint 및 비즈니스용 OneDrive에 대한 이와 유사한 고려 사항에 관련된 정보를 간략하게 설명합니다. 
 
 |본인에게 질의하기|작업 |
 |------------|-------|

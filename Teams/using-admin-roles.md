@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: 관리 역할을 사용 하 여 팀을 관리 하는 데 다른 수준의 액세스가 필요한 관리자를 지정 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3917e64f7c50ad51d2b9f9fca48bedf0f4a96c66
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951073"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665210"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft 팀 관리자 역할을 사용 하 여 팀 관리
 
@@ -36,6 +36,8 @@ Azure AD (Active Directory)를 사용 하 여 Microsoft 팀을 관리 하기 위
 ## <a name="teams-roles-and-capabilities"></a>팀 역할 및 기능
 
 팀 서비스 관리자, 팀 통신 관리자, 팀 의사 소통 지원 전문가, 팀 의사 소통 지원 엔지니어가 4 명의 팀 관리자 역할을 사용할 수 있습니다. 다음 표를 검토 하 여 각 역할이 수행할 수 있는 작업과 Microsoft 팀 관리 센터 및 PowerShell에서 관리자가 사용할 수 있는 도구에 대해 알아봅니다.
+
+팔 로우 하려면의 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 합니다.
 
 
 
@@ -51,8 +53,8 @@ Azure AD (Active Directory)를 사용 하 여 Microsoft 팀을 관리 하기 위
 <sup>1</sup> [PowerShell-비즈니스용 Skype 모듈](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 PowerShell <sup>2 개</sup> [-Microsoft 팀 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
 <sup>3 개의</sup> [Microsoft 팀 관리 센터](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to O365 Group management>> 
-<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to O365 Group management>> 
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
+<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
 Microsoft 팀을 관리 하는 데 사용할 수 있는 관리 도구에 대 한 자세한 내용은 [Microsoft 팀 관리](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)를 참조 하세요.
 
@@ -73,9 +75,9 @@ Azure AD에서 이러한 역할에 사용자를 할당할 수 있습니다. Azur
    a. $session = new-csonlinesession<br>
    b. 가져오기-pssession $session<br>
    c. **Get 모듈** 을 사용 하 여 가져온 세션의 이름 (임의로 생성 되는 이름)을 식별 합니다.<br>
-3. > 위의 **Get-Command-Module** <*name* 을 사용 하 여 사용 가능한 모든 cmdlet을 식별 합니다.
+3. > 위의 **Get-Command-Module**  < *name* 을 사용 하 여 사용 가능한 모든 cmdlet을 식별 합니다.
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 
 - [Microsoft 팀 PowerShell 개요](teams-powershell-overview.md)
 - [Microsoft 팀 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

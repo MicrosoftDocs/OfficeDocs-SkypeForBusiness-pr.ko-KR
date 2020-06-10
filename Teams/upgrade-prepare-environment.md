@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa61c739910e00a277f6c3f201222ac5eb782da
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: ec46cfed6c39593dc32b155374f5cf9478d73ad0
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523021"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666050"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>팀으로 업그레이드 하기 위한 환경 준비
 
@@ -43,7 +43,7 @@ ms.locfileid: "44523021"
 사용자의 준비 준비를 통해 이러한 활동을 병렬로 완료 하세요.
 
 - 성공적인 업그레이드 여행에 필요한 사항을 확인 하는 데 도움이 되도록 [IT 직원을 준비](upgrade-prepare-IT-pros.md) 합니다.
-- 환경이 모든 [필수 구성 요소](upgrade-plan-journey-prerequisites.md)를 충족 하는지 확인 하 고 Office 365 서비스와 팀 간의 종속성을 이해 합니다.
+- 환경이 모든 [필수 구성 요소](upgrade-plan-journey-prerequisites.md)를 충족 하는지 확인 하 고 Microsoft 365 또는 Office 365 서비스와 팀 간의 종속성을 이해 합니다.
 - 팀으로 업그레이드를 성공적으로 진행 하기 위해 조직의 준비 상태를 확인 하는 예제 질문을 사용 하 여 [환경 평가](upgrade-plan-journey-evaluate-environment.md) 를 수행 합니다.
 - 팀 작업을 지원 하기 위해 네트워크에 대 한 계획, 준비, 필요한 수정 단계 수행을 통해 [네트워크를 준비](prepare-network.md) 합니다.
 - 온 보 딩 검사를 사용 하 여 사용자의 팀 구성이 비즈니스용 Skype에서 팀으로 마이그레이션을 지원할 준비가 되었는지 확인 하기 위해 출시를 위해 [서비스를 준비할](upgrade-prepare-environment-prepare-service.md) 수 있습니다.

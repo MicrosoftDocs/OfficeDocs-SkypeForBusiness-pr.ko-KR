@@ -23,16 +23,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 국가 및 지역에 전화 접속 회의 번호와 자동으로 할당 되는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9f130ec72d398e55ff3f4890ae89422915fc47a2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c353fa46e271b6bdec72944565e595592e3810d1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779614"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665890"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 위한 전화 번호
 
-Microsoft 팀에 대 한 **오디오 회의** 를 설정 하는 경우 전화 접속 전화 번호가 조직에 자동으로 할당 됩니다. 오디오 회의 브리지에 지정 된 전화 번호를 보려면 Microsoft 팀 관리 센터에서 **모임** > 시작 페이지로 이동**합니다.** 자세한 내용은 [오디오 회의 번호 목록 보기를 참조](see-a-list-of-audio-conferencing-numbers-in-teams.md)하세요.
+Microsoft 팀에 대 한 **오디오 회의** 를 설정 하는 경우 전화 접속 전화 번호가 조직에 자동으로 할당 됩니다. 오디오 회의 브리지에 지정 된 전화 번호를 보려면 Microsoft 팀 관리 센터에서 **모임**시작 페이지로 이동  >  **Conference bridges**합니다. 자세한 내용은 [오디오 회의 번호 목록 보기를 참조](see-a-list-of-audio-conferencing-numbers-in-teams.md)하세요.
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>오디오 회의 적용 범위 및 가격
@@ -50,7 +50,7 @@ Microsoft 팀 사용자가 Outlook 또는 Outlook Web App에서 모임을 예약
   
 - **전용 전화 번호**는 조직 내 사용자만 사용할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 있습니다.
   
-- **공유 전화 번호** 는 다른 Microsoft 365 또는 Office 365s와 공유할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
+- **공유 전화 번호** 는 다른 Microsoft 365 또는 Office 365와 공유할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
   
 이끌이에게 할당된 기본 오디오 회의 번호는 모임 초대에만 포함되어 있지만 발신자는 회의 브리지에 할당된 모든 전화 번호를 사용하여 모임에 참가할 수 있습니다. 모임에 참여하는 데 사용할 수 있는 전화 번호 목록은 모든 모임 초대에 포함되는 **현지 번호 찾기** 링크에서 사용할 수 있습니다.
   
@@ -78,4 +78,4 @@ Microsoft 팀 사용자가 Outlook 또는 Outlook Web App에서 모임을 예약
    
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 오디오 회의 체험 또는 구매](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

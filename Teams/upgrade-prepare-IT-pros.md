@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51d4170d949daa9c53cb8035ab0a3249e4127ca3
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523051"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666220"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Microsoft 팀을 위한 IT 직원 준비
 
@@ -37,7 +37,7 @@ ms.locfileid: "44523051"
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Office 365 조직 관리자, 기술 팀장 및 지원 센터는 고품질 사용자 환경을 추진 하는 데 책임이 있습니다. 여기에는 네트워크가 팀을 지원할 준비가 되어 있는지 확인 하 고, 사용자를 위해 팀을 구성 하 고, 발생할 수 있는 문제를 효과적으로 해결 하 고 해결할 수 있습니다.
+Microsoft 365 또는 Office 365 조직 관리자, 기술 책임자 및 지원 센터는 고품질 사용자 환경을 추진 하는 데 책임이 있습니다. 여기에는 네트워크가 팀을 지원할 준비가 되어 있는지 확인 하 고, 사용자를 위해 팀을 구성 하 고, 발생할 수 있는 문제를 효과적으로 해결 하 고 해결할 수 있습니다.
 
 IT 담당자와 다음 리소스를 공유 하 고 팀으로 업그레이드 하기 전에 사용자 지원 준비가 되었는지 확인 합니다.
 

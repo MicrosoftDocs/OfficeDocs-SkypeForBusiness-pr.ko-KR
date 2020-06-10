@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Slack에서 Microsoft Teams로 마이그레이션하기 위한 완전한 가이드
-ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: ca104baf5baebaa0e44c2202794c1b8ed6862633
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506879"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638647"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack에서 Microsoft Teams로 마이그레이션
 
@@ -79,12 +79,12 @@ Slack 내보내기 옵션에 대한 자세한 내용을 알아보려면 Slack �
 
 Slack 내 앱은 Teams의 앱과 유사합니다. 워크스페이스에 앱과 해당 구성 목록이 있는 경우, Teams 앱 스토에서 검색하여 Teams에서 사용할 수 있는지 확인할 수 있습니다*. 
 
-<your Slack workspace>.slack.com/apps/manage로 이동하여 앱 및 사용자 지정 통합 목록을 확인합니다. 이 페이지에서는 각 앱이 사용 중인 구성의 수도 보여줍니다. 사용자 지정 통합은 "마이그레이션 기능"에 따라 다릅니다. Web Hook인 경우 일반적으로 Office 365 커넥터로 보내 워크플로를 Teams로 전환할 수 있습니다. 사례별로 봇과 다른 앱을 평가하여 Teams로 옮길 방법을 계획합니다.
+<your Slack workspace>.slack.com/apps/manage로 이동하여 앱 및 사용자 지정 통합 목록을 확인합니다. 이 페이지에서는 각 앱이 사용 중인 구성의 수도 보여줍니다. 사용자 지정 통합은 "마이그레이션 기능"에 따라 다릅니다. Web Hook인 경우 일반적으로 Microsoft 365 또는 Office 365 커넥터로 보내 워크플로를 Teams로 전환할 수 있습니다. 사례별로 봇과 다른 앱을 평가하여 Teams로 옮길 방법을 계획합니다.
 
 \* 관리자가 앱 사용을 제한하는 경우 사용 가능한 앱의 전체 목록을 확인하지 못할 수 있습니다.
 
 ### <a name="users"></a>사용자
-Slack에서 사용한 ID 체계가 Office 365에 직접 매핑되지 않을 수 있습니다. 예를 들어, Slack 사용자의 전자 메일 주소는 Office 365 회사 또는 학교 계정으로 매핑되지 않을 수 있습니다. Teams 롤아웃 계획을 시작하기 전에 사용자 ID 맵을 만들어야 합니다.
+Slack에서 사용한 ID 체계가 Microsoft 365 또는 Office 365에 직접 매핑되지 않을 수 있습니다. 예를 들어, Slack 사용자의 전자 메일 주소는 Microsoft 365 또는 Office 365 회사 또는 학교 계정으로 매핑되지 않을 수 있습니다. Teams 롤아웃 계획을 시작하기 전에 사용자 ID 맵을 만들어야 합니다.
 
 유료 Slack 서비스 플랜을 사용하는 경우 *<your Slack workspace>.slack.com/admin/stats#members*로 이동하여 각 사용자의 전자 메일 주소와 계정 유형 같은 구성원 세부 정보를 확인할 수 있습니다. (예: 싱글 및 멀티 채널 게스트).
 
@@ -335,7 +335,7 @@ Teams에 추가할 앱을 파악하려면 앱을 사용하는 방법을 이해�
 
 대부분의 경우, 앱에서는 외부 서비스에서 주로 이벤트 기반 데이터(예: 모니터링 시스템)를 받고 메시지를 Slack으로 푸시합니다. 이벤트에 따라 Teams에 메시지를 푸시할 수 있는 Microsoft 365 커넥터를 사용하여 동일한 결과를 얻을 수 있습니다.
 
-다음은 통합을 위해 Teams에서 Office 365 커넥터를 사용하는 Slack 솔루션의 예입니다.
+다음은 통합을 위해 Teams에서 Microsoft 365 커넥터를 사용하는 Slack 솔루션의 예입니다.
 - Ansible
   - [Ansible webhook](https://docs.ansible.com/ansible-tower/latest/html/userguide/notifications.html#webhook)를 통해 Teams에 알림을 보낼 수 있습니다.
 - New Relic

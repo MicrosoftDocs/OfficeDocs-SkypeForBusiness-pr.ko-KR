@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 이 가속화 된 10 단계 작업 계획을 따라 Microsoft 팀 설정의 기본 비즈니스용 Skype 설정으로 전환 합니다.
 localization_priority: Normal
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6489362a37be76c44f2b0dbf58e094c58c85d21
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ef27d9faac30003edbb4c21ee7d9060d41ea454b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904473"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666230"
 ---
 # <a name="upgrade-basic"></a>업그레이드 기본
 
@@ -50,7 +50,7 @@ ms.locfileid: "43904473"
 
 업그레이드에 대 한 추가 질문이 필요한 경우 [FAQ](https://aka.ms/SkypeToTeams-FAQ) 를 참조 하세요.
 
-팀에 익숙하지 않습니까? Office 365에서 팀워크에 단일 허브를 제공 하 여 팀이 대화, 모임, 파일, Office 앱, 타사 통합 등을 공동으로 가져오는 [방법을](https://products.office.com/microsoft-teams/group-chat-software) 알아보세요.
+팀에 익숙하지 않습니까? Microsoft 365 및 Office 365에서 팀이 대화, 모임, 파일, Office 앱, 타사 통합 (팀워크 용 단일 허브 제공)을 함께 가져오는 [방법을](https://products.office.com/microsoft-teams/group-chat-software) 알아보세요.
 
 <!--ENDOFSECTION-->
 
@@ -100,7 +100,7 @@ ms.locfileid: "43904473"
 
 **리소스도**
 
-- [Office 365의 활동 보고서에서 사용 현황 데이터 보기](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [관리 센터의 Microsoft 365 보고서](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
 
 [맨 위로 이동](#about-upgrade-basic)
 
@@ -164,7 +164,7 @@ ms.locfileid: "43904473"
 
 *(업그레이드 일)*
 
-현재 조직에서 통신 및 공동 작업 솔루션으로 팀으로 공식적으로 업그레이드 하는 날짜입니다. Microsoft 팀 관리 센터에서 공존 모드를 **팀 으로만**설정 하 여 업그레이드 스위치를 활성화 합니다. (관리 센터에서 **조직 전체 설정** > **팀 업그레이드**로 이동 합니다.) 사용자가 비즈니스용 Skype 클라이언트에서 팀으로 업그레이드 한 알림을 받게 됩니다.
+현재 조직에서 통신 및 공동 작업 솔루션으로 팀으로 공식적으로 업그레이드 하는 날짜입니다. Microsoft 팀 관리 센터에서 공존 모드를 **팀 으로만**설정 하 여 업그레이드 스위치를 활성화 합니다. (관리 센터에서 **조직 전체 설정**  >  으로 이동 합니다. **팀 업그레이드**.) 사용자가 비즈니스용 Skype 클라이언트에서 팀으로 업그레이드 한 알림을 받게 됩니다.
 
 모든 사용자가 업그레이드 된 후 팀에 환영 전자 메일을 보낼 것을 권장 합니다.
 

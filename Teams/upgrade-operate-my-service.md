@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: c167903414aecabf7eecae01527a71ae61c27a4b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523321"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666090"
 ---
 # <a name="operate-your-service"></a>서비스 운영
 
@@ -37,11 +37,11 @@ ms.locfileid: "44523321"
 
 운영 가이드에서는 Microsoft 팀에 대 한 서비스 관리 기능의 일부로 필요한 모든 작업 및 활동에 대 한 개요를 제공 합니다.
 
-서비스 관리는 사용자에 게 배포 되 고 사용 하도록 설정 된 후 Microsoft 팀 서비스의 일상 작업을 다루는 광범위 한 항목입니다. 팀 서비스에는 Microsoft Office 365 및 온-프레미스에 배포 되는 인프라 구성 요소 (예: 네트워킹)가 포함 됩니다.
+서비스 관리는 사용자에 게 배포 되 고 사용 하도록 설정 된 후 Microsoft 팀 서비스의 일상 작업을 다루는 광범위 한 항목입니다. 팀 서비스에는 Microsoft 365 또는 Office 365와 온-프레미스에 배포 되는 인프라 구성 요소 (예: 네트워킹)가 포함 됩니다.
 
 대부분의 조직에 대 한 새로운 개념은 서비스 관리 라는 개념에 해당 하지 않을 수 있습니다. 기존 서비스와 연결 된 프로세스 및 작업을 이미 구현 했을 수 있습니다. 이는 향후에 팀을 지원 하기 위해 지금 서비스 관리 계획을 수립할 때 현재 프로세스를 확장할 수 있다는 사실입니다.
 
-서비스 관리에는 팀의 종단 간 관리에 관련 된 모든 활동과 프로세스가 포함 됩니다. 앞에서 언급 한 것 처럼 Office 365 서비스 자체에 속하는 인프라 인 서비스 관리의 일부 구성 요소는 Microsoft의 역할을 하는 반면, 고객은 사용자에 게 팀, 네트워크, 제공 하는 끝점의 다양 한 측면을 관리 하는 데 책임이 있습니다.
+서비스 관리에는 팀의 종단 간 관리에 관련 된 모든 활동과 프로세스가 포함 됩니다. 앞에서 설명한 바와 같이, 365 365 Microsoft의 서비스 관리의 일부 구성 요소 (예를 들어, microsoft에서 제공 하는 인프라)는 Microsoft의 역할을 하는 반면, 고객은 사용자에 게 팀의 다양 한 측면과 네트워크, 끝점을 관리 하는 데 책임이 있습니다.
 
 이 가이드의 작업 및 활동은 다음 다이어그램에 표시 된 대로 여덟 가지 범주로 그룹화 됩니다. 이러한 각 범주는 다음 섹션에 따라 확장 됩니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "44523321"
 
 ### <a name="teams-service-dependencies"></a>팀 서비스 종속성
 
-Microsoft 팀은 팀워크에 대 한 허브를 제공 하기 위해 Office 365에서 기술을 함께 가져옵니다. 예를 들면 다음과 같습니다.
+Microsoft 팀은 팀워크에 대 한 허브를 제공 하기 위해 Microsoft 365 및 Office 365에서 기술을 함께 가져옵니다. 예를 들면 다음과 같습니다.
 
 - Azure AD (azure Active Directory)는 팀에 대 한 인증 및 권한 부여 서비스를 제공 합니다.
 
@@ -106,7 +106,7 @@ Microsoft 팀은 팀워크에 대 한 허브를 제공 하기 위해 Office 365�
 
 ## <a name="monitor-service-health"></a>서비스 상태 모니터링
 
-서비스에 영향을 주는 모든 이벤트를 조직의 다른 사용자에 게 미리 알릴 수 있도록 Microsoft 팀 서비스의 전반적인 상태를 이해 하는 것이 중요 합니다. 앞에서 설명한 대로 팀은 Azure Active Directory, Exchange Online, SharePoint Online, 비즈니스용 OneDrive 등의 다른 Office 365 서비스에 의존 합니다. 이 때문에 종속 서비스의 상태를 모니터링 하는 것은 동일 합니다.
+서비스에 영향을 주는 모든 이벤트를 조직의 다른 사용자에 게 미리 알릴 수 있도록 Microsoft 팀 서비스의 전반적인 상태를 이해 하는 것이 중요 합니다. 앞에서 설명한 대로 팀은 Azure Active Directory, Exchange Online, SharePoint Online, 비즈니스용 OneDrive 등의 다른 Microsoft 365 및 Office 365 서비스에 의존 합니다. 이 때문에 종속 서비스의 상태를 모니터링 하는 것은 동일 합니다.
 
 이 활동을 사고 관리 프로세스에 통합 하 여 사용자, 헬프데스크 및 운영 팀에 게 사전 정보를 제공 하 여 사용자 에스컬레이션을 처리 하도록 준비 합니다.
 
@@ -115,9 +115,9 @@ Microsoft 팀은 팀워크에 대 한 허브를 제공 하기 위해 Office 365�
 | 모니터링 도구 | 혜택도 | 사용 하는 경우 |
 |---|---|---|
 | Microsoft 365 관리 센터 | 지원 되는 브라우저가 있는 모든 장치에서 사용할 수 있습니다. | 실시간 알림이 필요 하지 않은 경우 사용 합니다. |
-| Office 365 관리 앱 | 모바일 장치에 푸시 알림을 제공 합니다. | 이동 중에 서비스 사고에 대 한 알림을 받아야 하는 경우 사용 합니다. |
+| Microsoft 365 관리 앱 | 모바일 장치에 푸시 알림을 제공 합니다. | 이동 중에 서비스 사고에 대 한 알림을 받아야 하는 경우 사용 합니다. |
 | Microsoft System Center | Microsoft System Center와의 통합. | 고급 모니터링 기능 및 알림 지원이 필요한 경우 사용 합니다. |
-| Office 365 서비스 통신 API | Office 365 서비스 상태에 프로그래밍 방식으로 액세스할 수 있습니다. | 타사 모니터링 도구와 통합 해야 하거나 고유한 솔루션을 만들려는 경우 사용 합니다. |
+| Microsoft 365 서비스 통신 API | Microsoft 365 또는 Office 365 서비스 상태에 프로그래밍 방식으로 액세스할 수 있습니다. | 타사 모니터링 도구와 통합 해야 하거나 고유한 솔루션을 만들려는 경우 사용 합니다. |
 
 > [!NOTE]
 > **전역 관리자** 또는 **서비스 관리자** 역할이 할당 된 사용자만 서비스 상태를 볼 수 있습니다.
@@ -128,22 +128,22 @@ Microsoft 팀은 팀워크에 대 한 허브를 제공 하기 위해 Office 365�
 
 ### <a name="monitoring-with-the-mobile-app"></a>모바일 앱으로 모니터링
 
-Office 365 관리 앱은 Apple iOS, Android 및 Windows (PC 및 모바일)에서 사용할 수 있습니다. 앱은 서비스 상태와 향후 변경 사항에 대 한 서비스 관리자 정보를 제공 합니다. 앱은 권고가 게시 된 직후에 알림을 받을 수 있는 푸시 알림을 지원 합니다. 이렇게 하면 상태, 상태 및 향후 서비스 변경 사항에 대 한 최신 정보를 얻을 수 있습니다. 알림 지원은 관리자에 게 권장 되는 모니터링 도구입니다. 자세한 내용은 다음을 참조 하세요.
+Microsoft 365 관리 앱은 Apple iOS, Android 및 Windows (PC 및 모바일)에서 사용할 수 있습니다. 앱은 서비스 상태와 향후 변경 사항에 대 한 서비스 관리자 정보를 제공 합니다. 앱은 권고가 게시 된 직후에 알림을 받을 수 있는 푸시 알림을 지원 합니다. 이렇게 하면 상태, 상태 및 향후 서비스 변경 사항에 대 한 최신 정보를 얻을 수 있습니다. 알림 지원은 관리자에 게 권장 되는 모니터링 도구입니다. 자세한 내용은 다음을 참조 하세요.
 
-[Office 365 관리 모바일 앱](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Microsoft 365 관리 모바일 앱](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[Office 365 관리 모바일 앱 다운로드](https://products.office.com/business/manage-office-365-admin-app)
+[Microsoft 365 관리 모바일 앱 다운로드](https://products.office.com/business/manage-office-365-admin-app)
 
 ### <a name="monitoring-with-microsoft-system-center"></a>Microsoft System Center를 사용 하 여 모니터링
 
-Microsoft System Center는 데이터 센터, 클라이언트 장치 및 하이브리드 클라우드 IT 환경을 관리 하는 데 도움이 되는 통합 관리 플랫폼입니다. System Center를 사용 하는 office 365 관리자가 System Center의 Operations Manager 내에서 모든 서비스 통신을 볼 수 있도록 하는 Office 365 관리 팩을 가져오는 옵션이 있습니다. 이 도구를 사용 하면 구독 한 서비스의 상태, 활성 및 해결 된 서비스 인시던트, 메시지 센터 통신 (예정 된 변경 내용)에 액세스할 수 있습니다. 자세한 내용은 다음 [블로그 게시물](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)을 참조 하세요.
+Microsoft System Center는 데이터 센터, 클라이언트 장치 및 하이브리드 클라우드 IT 환경을 관리 하는 데 도움이 되는 통합 관리 플랫폼입니다. System Center를 사용 하는 Microsoft 365 또는 Office 365 관리자가 System Center의 Operations Manager 내에서 모든 서비스 통신을 볼 수 있는 관리 팩을 가져오는 옵션이 있습니다. 이 도구를 사용 하면 구독 한 서비스의 상태, 활성 및 해결 된 서비스 인시던트, 메시지 센터 통신 (예정 된 변경 내용)에 액세스할 수 있습니다. 자세한 내용은 다음 [블로그 게시물](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)을 참조 하세요.
 
 System Center를 사용 하 여 팀 서비스 상태 (및 종속 서비스)를 모니터링 하는 경우 관리 팩을 추가로 사용자 지정 하 여 사고에 반응 하도록 식별 된 특정 그룹 또는 개인을 알릴 수 있습니다.
 이러한 그룹에는 서비스 소유자, helpdesks, 두 번째 수준 및 세 번째 수준의 지원 그룹 및 조직의 인시던트 관리자가 포함 될 수 있습니다.
 
 ### <a name="monitoring-for-advanced-scenarios"></a>고급 시나리오 모니터링
 
-Office 365 서비스 통신 API를 사용 하 여 프로그래밍 방식으로 Office 365 서비스 상태 및 변경에 액세스 하 여 서비스 상태 및 예정 된 변경 내용을 모니터링할 수 있습니다. 이 API를 사용 하 여 고유한 모니터링 도구를 만들거나 기존 모니터링 도구를 Office 365 서비스 통신에 연결 하 여 환경을 모니터링 하는 방법을 단순화할 수 있습니다. 자세한 내용은 [엔터프라이즈 개발자를 위한 Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)을 참조 하세요.
+서비스 통신 API를 사용 하 여 프로그래밍 방식으로 서비스 상태 및 변경 내용에 액세스 하 여 서비스 상태 및 예정 된 변경 내용을 모니터링할 수 있습니다. 이 API를 사용 하 여 고유한 모니터링 도구를 만들거나 기존 모니터링 도구를 Microsoft 365 또는 Office 365 서비스 통신에 연결 하 여 환경을 모니터링 하는 방법을 단순화할 수 있습니다. 자세한 내용은 [엔터프라이즈 개발자 용 Microsoft 365 또는 Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)을 참조 하세요.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
@@ -154,7 +154,7 @@ Office 365 서비스 통신 API를 사용 하 여 프로그래밍 방식으로 O
 
 ### <a name="references"></a>References
 
-[Office 365 서비스 상태를 확인 하는 방법](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
+[Microsoft 365 또는 Office 365 서비스 상태를 확인 하는 방법](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
 [Microsoft 팀의 서비스 상태 확인](service-health.md)
 
@@ -231,7 +231,7 @@ Microsoft 팀은 클라우드 기반 서비스입니다. 그러면 빠른 속도
 
 ## <a name="assess-teams-usage"></a>팀 사용 평가
 
-초기 파일럿이 시작 되 면 실제 팀 사용량을 측정 하는 정규 흐름을 설정 하는 것이 중요 합니다. 이를 통해 조직에서 실제 사용량을 구상 단계 중 예측 한 사용에 맞게 정렬 하는 방법에 대 한 정보를 얻을 수 있습니다. 이 섹션에서는 팀 사용에 중점을 둘 수 있지만, 전체적으로 Office 365 사용량을 측정 하 고 평가 하는 광범위 한 노력의 일부로 이루어져야 합니다.
+초기 파일럿이 시작 되 면 실제 팀 사용량을 측정 하는 정규 흐름을 설정 하는 것이 중요 합니다. 이를 통해 조직에서 실제 사용량을 구상 단계 중 예측 한 사용에 맞게 정렬 하는 방법에 대 한 정보를 얻을 수 있습니다. 이 섹션에서는 팀 사용에 중점을 둘 수 있지만, Microsoft 365 또는 Office 365 사용량을 전체적으로 측정 하 고 평가 하기 위한 광범위 한 노력의 일환 이어야 합니다.
 
 배포 초기에 자주 사용 현황을 검토 하면 다음과 같은 기회가 제공 됩니다.
 
@@ -245,7 +245,7 @@ Microsoft 팀은 클라우드 기반 서비스입니다. 그러면 빠른 속도
 
 ### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용 하 여 사용 측정
 
-팀의 사용 현황 데이터는 보고 대시보드에서 사용할 수 있습니다. 팀 사용량 데이터는 세 가지 보고서에서 찾을 수 있습니다. 첫 번째 보고서는 사용자가 Office 365의 다양 한 서비스를 사용 하 여 통신 하 고 공동 작업 하는 방법에 대 한 교차 제품 보기를 제공 합니다. 이 보고서는 다음 위치에서 찾을 수 있습니다. [Office 365 활성 사용자 보고서](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
+팀의 사용 현황 데이터는 보고 대시보드에서 사용할 수 있습니다. 팀 사용량 데이터는 세 가지 보고서에서 찾을 수 있습니다. 첫 번째 보고서는 사용자가 Microsoft 365 또는 Office 365의 다양 한 서비스를 사용 하 여 통신 하 고 공동 작업 하는 방법에 대 한 교차 제품 보기를 제공 합니다. 이 보고서는 다음 위치에서 찾을 수 있습니다. [관리 센터의 Microsoft 365 보고서-활성 사용자](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
 다른 두 보고서는 팀에 따라 달라 지 며 사용자 및 디바이스 관점에서의 팀 사용에 대 한 자세한 정보를 제공 합니다. 두 보고서 모두 여기서 찾을 수 있습니다.
 
@@ -257,7 +257,7 @@ Microsoft 팀은 클라우드 기반 서비스입니다. 그러면 빠른 속도
 
 관리 센터의 사용 현황 보고서에는 **전역 관리자** 역할이 할당 된 사용자 또는 제품별 관리자 역할 (**Exchange 관리자**, 비즈니스용 **Skype 관리자**, **SharePoint 관리자**)이 액세스할 수 있습니다.
 
-또한 보고서에 대 한 액세스를 필요로 하는 사용자는 **보고서 읽기 프로그램** 역할을 사용할 수 있지만 관리자 수준 권한이 필요한 작업을 수행 하지는 않습니다. 이 역할을 할당 하 여 관련자를 대상으로 하는 모든 사용자에 게 사용 보고서를 제공 하 고, 채택을 모니터링 하 고, 구동 합니다. 사용할 수 있는 다양 한 역할에 대 한 자세한 내용은 [Office 365 관리자 역할 정보](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)를 참조 하세요.
+또한 보고서에 대 한 액세스를 필요로 하는 사용자는 **보고서 읽기 프로그램** 역할을 사용할 수 있지만 관리자 수준 권한이 필요한 작업을 수행 하지는 않습니다. 이 역할을 할당 하 여 관련자를 대상으로 하는 모든 사용자에 게 사용 보고서를 제공 하 고, 채택을 모니터링 하 고, 구동 합니다. 사용할 수 있는 다양 한 역할에 대 한 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)를 참조 하세요.
 
 ### <a name="assessing-usage"></a>사용 평가
 
@@ -355,8 +355,8 @@ NPS는 – 100에서 100 까지의 인덱스 이며, 고객의 willingness을 �
 
 | 활동 | 설명 | 주기 | 팀 배정 |
 |---|---|---|---|
-| Office 365 Ip 및 Url 모니터링 | 제공 된 [RSS 피드](https://go.microsoft.com/fwlink/p/?linkid=236301) 를 사용 하 여 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips) 에 대 한 변경 내용을 모니터링 하 고 해당 네트워킹 그룹에 대 한 변경 요청을 시작 합니다. | Daily | |
-| Office 365 Ip 및 Url에 대 한 변경 내용에 따라 네트워크 업데이트 | 해당 네트워크 구성 요소 (방화벽, 프록시 서버, Vpn, 클라이언트 쪽 방화벽 등)에 대 한 업데이트를 만들어 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips)에 대 한 변경 내용을 반영 합니다. | 필요에 따라 | |
+| Microsoft 365 또는 Office 365 Ip 및 Url 모니터링 | 제공 된 [RSS 피드](https://go.microsoft.com/fwlink/p/?linkid=236301) 를 사용 하 여 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips) 에 대 한 변경 내용을 모니터링 하 고 해당 네트워킹 그룹에 대 한 변경 요청을 시작 합니다. | Daily | |
+| Microsoft 365 또는 Office 365 Ip 및 Url에 대 한 변경 내용에 따라 네트워크 업데이트 | 해당 네트워크 구성 요소 (방화벽, 프록시 서버, Vpn, 클라이언트 쪽 방화벽 등)에 대 한 업데이트를 만들어 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips)에 대 한 변경 내용을 반영 합니다. | 필요에 따라 | |
 | 빌드 데이터 제공 | 업데이트 된 서브넷 정보를 품질 챔피언 (또는 관련 투자자)에 제공 하 여 [CQD의 건물 정의가](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) 최신 상태로 유지 되도록 합니다. | 필요에 따라 | |
 | 변경 구현 | 팀 비즈니스 및 기술 요구 사항 변화를 지원 하기 위해 네트워크에서 변경을 구현 합니다. 네트워크 요소에는 다음이 포함 될 수 있습니다.<ul><li>들</li><li>Vpn</li><li>유선 및 Wi-fi 네트워크</li><li>인터넷 연결 및 Express 경로</li><li>DNS</li></ul> | 필요에 따라 | |
 | 네트워크 모니터링 및 보고 | 네트워크 종단을 모니터링 하 여 네트워크 공급자가 제공 하는 기존 타사 네트워크 관리 도구 및 보고 기능을 사용 하 여 가용성, 사용률 및 용량 추세를 확인 합니다. 네트워크 용량 계획에 추세 데이터를 사용 합니다. | 매일, 매주, 매월 | |
@@ -429,7 +429,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 이전 지침을 팔 로우 한 적이 있는 경우에도 조직의 사용자는 계속 해 서 팀에 문제가 발생할 수 있습니다. 끝점 자체에 문제가 있는 것은 아니지만 문제의 현상은 일반적으로 클라이언트를 통해 사용자에 게 노출 됩니다. 다음 지침은 문제를 해결 하기 위해 수행할 수 있는 일반적인 단계를 제공 하기 위한 것입니다. 포괄적인 문제 해결 가이드는 아닙니다. 단계는 특정 순서 대로 제공 되지만, 문제의 성격에 따라 명시적으로 팔 로우 하는 것이 가능 하지 않을 수 있습니다.
 
-1. **서비스 상태 확인:** 사용자가 겪을 수 있는 문제는 팀 서비스 또는 itsdependent 서비스에 부정적인 영향을 주는 이벤트와 관련이 있을 수 있습니다. 첫 번째 단계에서는 활성 서비스 문제가 없음을 확인 하는 것이 좋습니다. [Office 365 서비스 상태를 확인 하는 방법을](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)참조 하세요. 종속 서비스의 상태 (예: Exchange, SharePoint, 비즈니스용 OneDrive)를 확인 해야 합니다. 서비스 상태에 대 한 모니터링은 이전 섹션에서 [서비스 상태 모니터링](#monitor-service-health)에 자세히 설명 되어 있습니다.
+1. **서비스 상태 확인:** 사용자가 겪을 수 있는 문제는 팀 서비스나 해당 종속 서비스에 부정적인 영향을 주는 이벤트와 관련이 있을 수 있습니다. 첫 번째 단계에서는 활성 서비스 문제가 없음을 확인 하는 것이 좋습니다. [Microsoft 365 서비스 상태를 확인 하는 방법을](https://docs.microsoft.com/office365/enterprise/view-service-health)참조 하세요. 종속 서비스의 상태 (예: Exchange, SharePoint, 비즈니스용 OneDrive)를 확인 해야 합니다. 서비스 상태에 대 한 모니터링은 이전 섹션에서 [서비스 상태 모니터링](#monitor-service-health)에 자세히 설명 되어 있습니다.
 
 2. **클라이언트 연결의 유효성을 검사 합니다.** 연결 문제로 인해 팀에서 기능 또는 로그인 문제가 발생 합니다. 서비스에 대 한 연결을 확인 하는 것이 좋습니다 (특히 새 사이트 또는 위치에 적용). 각 사이트에 대해 다음 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips) 지침이 제공 되는지 확인 합니다. [Microsoft 네트워크 평가 도구](https://www.microsoft.com/download/details.aspx?id=53885) 를 활용 하 여 연결 테스트를 수행 하 여 미디어 포트가 팀의 기능에 맞게 올바르게 열려 있는지 확인할 수 있습니다. 연결 테스트를 실행 하는 방법에 대 한 자세한 단계는 [네트워크 준비](prepare-network.md) 지침에 나와 있습니다.
 

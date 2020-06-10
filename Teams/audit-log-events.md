@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416738"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665640"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft 팀에서 이벤트 감사 로그 검색
 
@@ -93,7 +93,7 @@ ms.locfileid: "44416738"
 
 ### <a name="mass-delete-scenario"></a>대량 삭제 시나리오
 
-앞에서 설명한 대로 삭제 시나리오를 모니터링할 수 있습니다. 팀 사이트의 대량 삭제를 모니터링 하는 정책을 만들 수 있습니다. 이 예제에서 경고 기반 정책은 30 분 내에 팀의 대량 삭제를 검색 하도록 설정 됩니다. 
+앞에서 설명한 대로 삭제 시나리오를 모니터링할 수 있습니다. 팀 사이트의 대량 삭제를 모니터링 하는 정책을 만들 수 있습니다. 이 예제에서 경고 기반 정책은 30 분 내에 팀의 대량 삭제를 검색 하도록 설정 됩니다.
 
 ![대량 팀 삭제 검색에 대 한 정책의 설정을 보여 주는 정책 만들기 페이지 스크린샷](media/TeamsMassDeletePolicy.png)
 
@@ -115,7 +115,7 @@ ms.locfileid: "44416738"
 
 클라우드 앱 보안의 [변칙 검색 정책은](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) 클라우드 환경에서 고급 위협 감지를 즉시 실행할 수 있도록 최신 사용자 및 엔터티 동작 분석 (UEBA) 및 ML (시스템 학습)을 제공 합니다. 새로운 변칙 검색 정책은 사용자와 네트워크에 연결 된 컴퓨터 및 장치에 대 한 다양 한 동작을 대상으로 하 여 즉각적인 감지를 제공 함으로써 즉각적인 결과를 제공 합니다. 또한 새로운 정책은 클라우드 앱 보안 검색 엔진의 추가 데이터를 제공 하 여 조사 프로세스의 속도를 개선 하 고 진행 중인 위협을 포함할 수 있도록 지원 합니다.
 
-팀 이벤트를 변칙 검색 정책에 통합 하는 작업을 진행 하 고 있습니다. 지금은 다른 Office 제품에 대 한 변칙 검색 정책을 설정 하 고 해당 정책과 일치 하는 사용자에 게 작업 항목을 받을 수 있습니다. 
+팀 이벤트를 변칙 검색 정책에 통합 하는 작업을 진행 하 고 있습니다. 지금은 다른 Office 제품에 대 한 변칙 검색 정책을 설정 하 고 해당 정책과 일치 하는 사용자에 게 작업 항목을 받을 수 있습니다.
 
 ## <a name="teams-activities"></a>팀 활동
 
@@ -133,14 +133,21 @@ Microsoft 365 감사 로그에서 팀의 사용자 및 관리자 활동에 대�
 |팀 구성원의 역할 변경 됨    |MemberRoleChanged         |팀 소유자는 팀 구성원의 역할을 변경 합니다. 다음 값은 사용자에 게 할당 된 역할 유형을 나타냅니다. <br><br>**1** -소유자 역할을 나타냅니다.<br>**2** -구성원 역할을 나타냅니다.<br>**3** -게스트 역할을 나타냅니다.<br><br>구성원 속성에는 조직의 이름과 구성원의 전자 메일 주소도 포함 됩니다.        |
 |팀 설정 변경 됨    |TeamSettingChanged        |팀 소유자가 다음 작업을 수행 하는 경우 TeamSettingChanged 작업이 기록 됩니다. 이러한 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경 된 설정 (괄호 안에 표시)에 대 한 설명이 표시 됩니다.<ul><li>팀에 대 한 액세스 형식을 변경 합니다. 팀은 개인 또는 공용 (**팀 액세스 형식**)으로 설정할 수 있습니다. 팀이 비공개 경우 (기본 설정) 사용자는 초대를 통해서만 팀에 액세스할 수 있습니다. 공용 인 팀은 누구나 검색할 수 있습니다.</li><li>팀의 정보 분류를 변경 합니다 (**팀 분류**). 예를 들어 팀 데이터는 높은 비즈니스 영향, 중간 비즈니스 영향 또는 낮은 비즈니스 영향으로 분류할 수 있습니다.</li><li>팀 이름 (**팀 이름**)을 변경 합니다.</li><li>팀 설명 (**팀 설명**)을 변경 합니다.</li><li>팀 설정에 대 한 변경 내용 이러한 설정에 액세스 하려면 팀 소유자가 팀을 마우스 오른쪽 단추로 클릭 하 고 **팀 관리**를 선택한 다음 **설정** 탭을 클릭 하면 됩니다. 이러한 활동의 경우, 변경 된 설정의 이름은 감사 로그 검색 결과의 **항목** 열에 표시 됩니다.</li></ul>         |
 |팀 생성    |TeamCreated         |사용자가 팀을 만듭니다.         |
+|모든 조직 앱 삭제 됨|DeletedAllOrganizationApps           |카탈로그에서 모든 조직 앱을 삭제 했습니다.     |
+|앱 삭제 됨 |AppDeletedFromCatalog           |카탈로그에서 앱이 삭제 되었습니다.     |
 |채널 삭제 됨     |ChannelDeleted         |사용자가 팀에서 채널을 삭제 합니다.         |
 |삭제 된 팀  |팀 삭제            |팀 소유자가 팀을 삭제 합니다.      |
+|설치 된 앱 |AppInstalled 됨         |앱이 설치 되었습니다.   |
+|게시 된 앱 |AppPublishedToCatalog           |앱이 카탈로그에 추가 되었습니다.     |
 |팀에서 인공 지능 제거   |BotRemovedFromTeam         |사용자가 팀에서 인공 지능을 제거 합니다.       |
 |연결선 제거 됨     |제거 됨         |사용자가 채널에서 커넥터를 제거 합니다.         |
 |구성원 제거 됨    |MemberRemoved 됨        |팀 소유자는 팀, 채널 또는 그룹 채팅에서 구성원을 제거 합니다.         |
 |제거 됨 탭    |TabRemoved 됨         |사용자가 채널에서 탭을 제거 합니다.         |
+|제거 되는 앱 |AppUninstalled 됨           |앱이 제거 되었습니다.     |
+|업데이트 된 앱 |AppUpdatedInCatalog           |카탈로그에서 앱이 업데이트 되었습니다.     |
 |커넥터 업데이트 됨    |대의 업데이트         |사용자가 채널에서 커넥터를 수정 했습니다.         |
 |업데이트 된 탭   |TabUpdated 됨         |사용자가 채널에서 탭을 수정 했습니다.         |
+|업그레이드 된 앱 |AppUpgraded 됨           |카탈로그에서 앱이 최신 버전으로 업그레이드 되었습니다.     |
 |팀에 로그인 한 사용자     |TeamsSessionStarted 됨         |사용자가 Microsoft 팀 클라이언트에 로그인 합니다. 이 이벤트는 토큰 새로 고침 활동을 캡처하지 않습니다.         |
 
 ## <a name="shifts-in-teams-activities"></a>팀 작업의 교대
@@ -184,4 +191,4 @@ Office 365 관리 활동 API를 사용 하 여 팀 이벤트에 대 한 정보�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Microsoft 365 준수 센터에서 감사 로그 검색](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
+- [Microsoft 365 준수 센터에서 감사 로그 검색](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 

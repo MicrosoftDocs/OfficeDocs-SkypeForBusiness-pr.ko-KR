@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 장치, 네트워크 및 연결에 대 한 통화 분석 세부 정보를 사용 하 여 Microsoft 팀과 비즈니스용 Skype 통화 및 모임에서 발생 하는 사용자 문제를 해결할 수 있습니다.
-ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 71a1e1c339c502da5cbbf998c75e758f2bbe3be2
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749565"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665250"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용하여 통화 품질 저하 문제 해결
 
-통화 분석을 통해 Microsoft 팀과 비즈니스용 Skype의 통화 또는 연결 문제를 해결할 수 있습니다. 통화 분석에서는 Office 365 계정에서 각 사용자의 통화 및 모임에 대 한 장치, 네트워크 및 연결에 대 한 자세한 정보를 보여 줍니다. 빌드, 사이트 및 테 넌 트 정보가 통화 분석에 추가 된 경우 각 통화와 세션에 대해서도 표시 됩니다. 통화 분석을 통해 사용할 수 있는 정보는 사용자의 통화 또는 모임 환경이 좋지 않은 이유를 파악 하는 데 도움이 될 수 있습니다. 
+통화 분석을 통해 Microsoft 팀과 비즈니스용 Skype의 통화 또는 연결 문제를 해결할 수 있습니다. 통화 분석에서는 Microsoft 365 또는 Office 365 계정에 있는 각 사용자의 통화 및 모임에 대 한 장치, 네트워크 및 연결에 대 한 자세한 정보를 보여 줍니다. 빌드, 사이트 및 테 넌 트 정보가 통화 분석에 추가 된 경우 각 통화와 세션에 대해서도 표시 됩니다. 통화 분석을 통해 사용할 수 있는 정보는 사용자의 통화 또는 모임 환경이 좋지 않은 이유를 파악 하는 데 도움이 될 수 있습니다. 
   
 ## <a name="call-analytics-permissions"></a>통화 분석 사용 권한
 
@@ -60,7 +60,7 @@ ms.locfileid: "43749565"
 
 1. 팀 통신 지원 또는 팀 관리자 자격 증명을 사용 하 여 로그인 합니다.
 
-2. 웹 브라우저에서으로 이동 *https://admin.teams.microsoft.com*합니다.
+2. 웹 브라우저에서으로 이동 *https://admin.teams.microsoft.com* 합니다.
     
 3. **대시보드의** **사용자 검색**에서 문제를 해결할 사용자의 이름 또는 sip 주소를 입력 하거나 사용자 **보기** 를 선택 하 여 사용자 목록을 표시 합니다.
     

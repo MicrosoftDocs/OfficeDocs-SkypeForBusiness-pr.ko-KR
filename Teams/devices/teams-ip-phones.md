@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
-ms.openlocfilehash: 37fd96db69b456ac5659cc430da19d2aad6fa560
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: f25373f0d7b35163bd1fce2d5662e5eb96e5aeab
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412635"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666120"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -67,7 +67,10 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 
 |공동 작업 표시줄 모델|펌웨어 버전|릴리스 날짜 |방 크기 (최대)|
 |:---|:---|:---|:---|
+|Poly Studio X30 | 3.1.1.216109| 2020 년 6 월|포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m)|
+|Poly Studio X50 | 3.1.1.216109| 2020 년 6 월|포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m)|
 |옛 alink VC210| 118.15.0.14|2020 년 2 월|포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m)|
+
 
 이러한 장치에서 지원 되는 기능에 대 한 정보는 [Microsoft 팀 전화 기능 집합](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) 을 참조 하세요.
 

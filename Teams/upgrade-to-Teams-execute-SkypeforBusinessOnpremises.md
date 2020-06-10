@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bea614da76bd61cf7c29b0e8f150f1aac85223a7
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 34502fe9883c98179a6b2e23cd8360ae823c1853
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523161"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666020"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드
 
@@ -54,7 +54,7 @@ ms.locfileid: "44523161"
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>2 단계: 조직에 대해 선택한 업그레이드 여행 구현
 
-하이브리드 설정을 완료 한 후 사용자를 Office 365으로 이동 하도록 계획할 수 있습니다.
+하이브리드 설정을 완료 한 후 사용자를 Microsoft 365 또는 Office 365로 이동 하도록 계획할 수 있습니다.
 
 자세한 내용은 다음을 참조 하세요.
 
@@ -64,8 +64,8 @@ ms.locfileid: "44523161"
 
 ## <a name="phone-system-and-teams-upgrade"></a>전화 시스템 및 팀 업그레이드
 
-온-프레미스 전화 시스템에서 팀으로 전환 하면 전화 시스템 다이렉트 라우팅 ("직접 라우팅") 또는 Office 365에 대 한 Microsoft 제공 전화 요금제를 활용할 수 있습니다.
+온-프레미스 전화 시스템에서 팀으로 전환 하면 전화 시스템 다이렉트 라우팅 ("직접 라우팅") 또는 microsoft에서 제공 하는 microsoft 365 또는 Office 365의 전화 플랜을 활용할 수 있습니다.
 
-Office 365에서 통화 요금제를 사용 하 고 있지 않은 경우에는 팀으로 업그레이드 하는 과정의 일부로 서 엔터프라이즈 음성 배포를 전화 시스템 다이렉트 라우팅으로 전환 해야 합니다.
+통화 요금제를 사용 하 고 있지 않은 경우 팀으로 업그레이드 하는 과정의 일부로 엔터프라이즈 음성 배포를 전화 시스템 다이렉트 라우팅으로 전환 해야 합니다.
 
-자세한 내용은 [전화 시스템 다이렉트 라우팅에 대 한 추가 고려 사항을](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)참조 하세요. Office 365에서 통화 계획을 사용할 계획 이라면 [팀에 전화 번호를 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)하는 지침을 참조 하세요.
+자세한 내용은 [전화 시스템 다이렉트 라우팅에 대 한 추가 고려 사항을](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)참조 하세요. 통화 계획을 사용할 계획 이라면 [팀에 전화 번호를 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)하는 지침을 참조 하세요.

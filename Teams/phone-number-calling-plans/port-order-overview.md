@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 포트 주문에 대 한 개요와 서비스 공급자 로부터 팀으로 전화 번호를 전송 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: bc15d7be98f83b39a7dde006e3043b407b76a63e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227542"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665900"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 
@@ -65,7 +65,7 @@ ms.locfileid: "43227542"
 
 - Vonage 또는 RingCentral와 같은 휴대폰 공급자의 VoIP 전화 번호입니다.
 
-- 비즈니스용 Skype 하이브리드 전화 번호. 이러한 번호를 전송 하려면에 <ptn@microsoft.com>전자 메일을 보내 주십시오.
+- 비즈니스용 Skype 하이브리드 전화 번호. 이러한 번호를 전송 하려면에 전자 메일을 보내 주십시오 <ptn@microsoft.com> .
 
   **다음을 전송할 수 없습니다.**
   
@@ -112,7 +112,7 @@ ms.locfileid: "43227542"
 
 - 휴대폰 번호
 
-- Office 365에서 오디오 회의에 사용할 수 있는 서비스 번호입니다.
+- Microsoft 365 또는 Office 365에서 오디오 회의에 사용할 수 있는 서비스 번호입니다.
 
 각 숫자 형식에 대해 번호 포팅 요청을 제출 하는 방법에 대 한 자세한 내용은 다음을 참조 하세요.
   
@@ -131,7 +131,7 @@ ms.locfileid: "43227542"
 
 포트 주문 요청을 완료 한 후에는 7-14 일이 처리 되어야 합니다. 그러나 서비스 공급자에 따라 최대 30 일이 걸릴 수 있습니다. 전화 번호가 전달 된 후에는 전자 메일을 받게 되며,이를 통해 연락이 완료 됩니다.
   
-포트 순서의 상태를 확인 하려면 Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **전화 번호로**이동한 다음 **주문 기록을**클릭 합니다. 각 포트 주문 상태가 **상태** 열에 나열 됩니다.
+포트 순서의 상태를 확인 하려면 Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **전화 번호로**이동한 다음 **주문 기록을**클릭 합니다. 각 포트 주문 상태가 **상태** 열에 나열 됩니다.
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>사용자 (구독자) 전화 번호를 서비스 번호로 변환할 수 있나요?
 <a name="bkmk_type_1"> </a>

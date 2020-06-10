@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 관리자는 오디오 회의의 종류와 사용자가 설정할 수 있는 최종 사용자 PSTN 통화를 제어할 수 있습니다.
-ms.openlocfilehash: 84acbed4017a709b63e657f12ef0bbe3c1eb620c
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278181"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665910"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
 
@@ -42,7 +42,7 @@ ms.locfileid: "44278181"
 영역 A로 간주 되는 국가/지역에 [대해 알아보려면 국가/지역 영역을](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365)참조 하세요.
 
    > [!NOTE]
-   > 전화를 건 번호와 동일한 국가/365 지역 (오디오 회의의 경우) 또는 최종 사용자 (최종 사용자 PSTN 통화의 경우)가 있는 경우에는 통화가 국내으로 간주 됩니다. 
+   > 전화를 거는 번호가 모임 이끌이 (오디오 회의의 경우) 또는 최종 사용자 (최종 사용자 PSTN 통화의 경우)에 대해 설정 된 같은 국가에 365 365 거주 하는 경우에는 통화가 국내으로 간주 됩니다. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

@@ -16,12 +16,12 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 Business Voice
 description: Microsoft 365 Business Voice를 계획, 배포 및 사용하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: be2a6222a947f5fd064add7dadff0e438dfe626d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e99af9be9e07e686b25324cb49b38ca826eeef42
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824856"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610967"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -148,8 +148,8 @@ ms.locfileid: "41824856"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>도움이 필요하십니까?</h3>
-                                                    <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Office 365 지원 센터에 문의</a></p>
+                                                    <h3>도움이 필요하신가요?</h3>
+                                                    <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Microsoft 365 또는 Office 365 지원 센터에 문의</a></p>
                                                     <P><a href="https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB" target="_blank">중소 비즈니스 기술 커뮤니티</a></p>
                                                 </div>
                                             </div>
@@ -170,7 +170,7 @@ ms.locfileid: "41824856"
                                                      <P><a href="https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page" target="_blank">Microsoft Teams 관리 문서</a></p>
                                                      <p><a href="https://microsoftteams.uservoice.com/" target="_blank">Microsoft Teams UserVoice 피드백</a>
                                                      <p><a href="https://support.office.com/teams" target="_blank">Microsoft Teams 클라이언트 문서</a>
-                                                     <P><a href="https://docs.microsoft.com/office365/admin">Office 365 관리자 도움말</a></p>
+                                                     <P><a href="https://docs.microsoft.com/office365/admin">Microsoft 365 및 Office 365 관리 문서</a></p>
                                                 </div>
                                             </div>
                                         </div>

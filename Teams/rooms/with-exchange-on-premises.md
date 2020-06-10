@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Exchange 온-프레미스를 사용 하는 하이브리드 환경에서 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d017706a0e512a4945eaccd69c0e11a7962ca518
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905300"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666160"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)
 
@@ -36,17 +36,17 @@ Microsoft는 새 사용자 계정을 만들거나, 호환 되는 Microsoft 팀 �
 
 Exchange와 함께 Microsoft 팀 대화방을 구내에 배포 하기 전에 요구 사항을 충족 해야 합니다. 자세한 내용은 [Microsoft 팀 공간 요구 사항을](requirements.md)참조 하세요.
   
-Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 경우 Active Directory 관리 도구를 사용 하 여 온-프레미스 도메인 계정의 전자 메일 주소를 추가 합니다. 이 계정은 Office 365와 동기화 됩니다. 다음을 수행 해야 합니다.
+Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 경우 Active Directory 관리 도구를 사용 하 여 온-프레미스 도메인 계정의 전자 메일 주소를 추가 합니다. 이 계정은 Microsoft 365 또는 Office 365와 동기화 됩니다. 다음을 수행 해야 합니다.
   
 - 계정을 만들고 Active Directory와 계정을 동기화 합니다.
 
 - 원격 사서함을 사용 하도록 설정 하 고 속성을 설정 합니다.
 
-- Office 365 라이선스를 할당 합니다.
+- Microsoft 365 또는 Office 365 라이선스를 할당 합니다.
 
 - 비즈니스용 Skype 서버에서 디바이스 계정을 사용 하도록 설정 합니다. 디바이스 계정을 사용 하도록 설정 하려면 환경이 다음 선행 조건을 충족 해야 합니다.
 
-  - Office 365 요금제에는 비즈니스용 Skype Online (요금제 2) 이상이 필요 합니다. 요금제는 회의 기능을 지원 해야 합니다.
+  - Microsoft 365 또는 Office 365 요금제에 비즈니스용 Skype Online (요금제 2) 이상을 설치 해야 합니다. 요금제는 회의 기능을 지원 해야 합니다.
   
   - Microsoft 팀 대화방에 대 한 전화 통신 서비스 공급자를 사용 하 여 엔터프라이즈 음성 (PSTN 전화 통신)이 필요한 경우 비즈니스용 Skype Online이 필요 합니다 (계획 3).
   
@@ -105,14 +105,14 @@ Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 �
 
    자세한 구문 및 매개 변수 정보는 [설정-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)를 참조 하세요.
 
-### <a name="assign-an-office-365-license"></a>Office 365 라이선스 할당
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Microsoft 365 또는 Office 365 라이선스 할당
 
 1. Azure Active Directory에 연결 합니다. Active Directory에 대 한 자세한 내용은 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)을 참조 하세요. 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 는 지원 되지 않습니다. 
 
-2. 장치 계정에 유효한 Office 365 라이선스가 필요 하거나 Exchange 및 Microsoft 팀이 작동 하지 않습니다. 라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 하는 것입니다. 사용할 수 있는`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 사용 가능한 Sku 목록을 검색 합니다.
+2. 장치 계정에 유효한 Microsoft 365 또는 Office 365 라이선스가 필요 하거나 Exchange 및 Microsoft 팀이 작동 하지 않습니다. 라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 하는 것입니다. 사용할 수 있는`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 사용 가능한 Sku 목록을 검색 합니다.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -166,7 +166,7 @@ Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 �
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Microsoft 팀원에 게 라이선스 할당 공간 계정
 
-1. 테 넌 트 관리자로 로그인 하 고, Office 365 관리 포털을 열고, 관리 앱을 클릭 합니다.
+1. 테 넌 트 관리자로 로그인 하 고 Microsoft 365 관리 센터를 연 다음 관리 앱을 클릭 합니다.
 2. **사용자 및 그룹** 을 클릭 한 다음 **사용자 추가, 암호 다시 설정**등을 클릭 합니다.
 3. Microsoft 팀 대화방 계정을 클릭 한 다음 펜 아이콘을 클릭 하 여 계정 정보를 편집 합니다.
 4. **라이선스**를 클릭 합니다.

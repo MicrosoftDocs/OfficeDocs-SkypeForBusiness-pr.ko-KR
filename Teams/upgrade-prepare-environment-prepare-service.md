@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0a9f0e3d82dcfeb62a90d4601394bf39a03877
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523031"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666060"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>팀으로 업그레이드 하기 위해 서비스 준비
 
@@ -44,7 +44,7 @@ ms.locfileid: "44523031"
 
 다음 검사 목록은 조직에서 Microsoft 팀을 배포 하는 단계를 안내 합니다.
 
-- [팀 용 Office 365 준비](onboarding-checklist-enable-office-365.md)
+- [팀 용 Microsoft 365 또는 Office 365 준비](onboarding-checklist-enable-office-365.md)
 
 - [팀 핵심 기능 구성](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

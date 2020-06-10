@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a158f8b43b4cf58e2c5c6c4a4248488f41973d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 37bd749e44c2020d35a927491553662c74bff01f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780287"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610977"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Business Voice에 대한 인터넷 연결 확인
 
@@ -60,7 +60,7 @@ Business Voice는 Microsoft 365에서 클라우드에 있습니다. Microsoft Te
 
 다음 단계를 따릅니다:
 
-1. 브라우저에서 https://admin.teams.microsoft.com로 이동합니다. 전역 관리자 권한이 있는 계정을 사용하여 로그인합니다. Office 365에 등록하기 위해 사용한 계정에는 이러한 사용 권한이 있습니다.
+1. 브라우저에서 https://admin.teams.microsoft.com로 이동합니다. 전역 관리자 권한이 있는 계정을 사용하여 로그인합니다. Microsoft 365 또는 Office 365에 등록하기 위해 사용한 계정에는 이러한 사용 권한이 있습니다.
 2. **계획**을 열고 **네트워크 플래너**를 선택합니다.
 3. **네트워크 플랜**에서 **추가**를 선택합니다. 플랜에 이름을 입력하고 **적용**을 선택합니다. 네트워크 플랜은 다음과 같이 보여야 합니다.
 
@@ -77,13 +77,13 @@ Business Voice는 Microsoft 365에서 클라우드에 있습니다. Microsoft Te
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>최소 인터넷 연결 속도를 확인합니다
 
-**보고서 작성**을 선택 시 Office 365에서 다음과 같이 표시되는 보고서를 만듭니다.
+**보고서 작성**을 선택하면 Microsoft 365 또는 Office 365에서 다음과 같이 표시되는 보고서가 생성됩니다.
 
 ![네트워크 플래너 보고서의 세부 정보](../media/network-planner-report.png)
 
 강조 표시된 숫자는 Teams와 Business Voice가 사용할 인터넷 연결의 용량을 보여줍니다. 이 숫자가 총 인터넷 연결 속도의 30%를 넘지 않는 것이 좋습니다. 예를 들어 인터넷 연결 속도가 60Mbps인 경우 Teams 및 Business Voice는 18Mbps 이상을 사용하지 않아야 합니다.
 
-다음 수식을 사용하여 최소 인터넷 연결 속도를 확인합니다. *\<강조 표시된 숫자>/0.3*. 이전 이미지에서 강조 표시된 번호를 사용하면 계산은 *4.6875/0.3 = 15.6*이 됩니다. 이 경우 인터넷 연결 속도는 적어도 15.6Mbps이어야 합니다.
+다음 수식을 사용하여 최소 인터넷 연결 속도를 확인합니다. *\<highlighted number>/0.3*. 이전 이미지에서 강조 표시된 번호를 사용하면 계산은 *4.6875/0.3 = 15.6*이 됩니다. 이 경우 인터넷 연결 속도는 적어도 15.6Mbps이어야 합니다.
 
 Teams 및 Business Voice에서 전체 인터넷 연결 속도의 30% 이상을 사용하는 경우 강조 표시된 숫자가 빨간색으로 표시됩니다. 이 경우 인터넷 연결을 업그레이드해야 할 수 있습니다.
 

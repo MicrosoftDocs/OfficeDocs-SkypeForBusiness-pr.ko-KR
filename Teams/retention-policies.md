@@ -17,25 +17,25 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042445"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666180"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
 보존 정책은 조직에서 정보를 더 효과적으로 관리하는 데 도움이 됩니다. 보존 정책을 사용하여 조직의 내부 정책, 업계 규제 또는 법적 요구 사항을 준수하는 데 필요한 데이터를 유지하고, 책임으로 간주되거나, 더 이상 유지할 필요가 없거나 또는 법적 혹은 비즈니스적 가치가 없는 데이터를 삭제합니다.
 
-보존 정책, 사용자 삭제, 관리자 삭제 등을 통해 콘텐츠를 삭제 하려고 하지 않는 한 기본적으로 팀 채팅, 채널 및 파일 데이터는 영구적으로 유지 됩니다. 관리자는 채팅 및 채널 메시지에 대 한 팀 보존 정책을 설정 하 고 데이터 유지, 삭제 또는 특정 기간 동안 보존 하도록 사전에 결정 하 고 삭제할 수 있습니다.
+보존 정책, 사용자 삭제, 관리자 삭제 등을 통해 콘텐츠를 삭제 하려고 하지 않는 한 기본적으로 팀 채팅, 채널 및 파일 데이터는 무기한 유지 됩니다. 관리자는 채팅 및 채널 메시지에 대 한 팀 보존 정책을 설정 하 고 데이터 유지, 삭제 또는 특정 기간 동안 보존 하도록 사전에 결정 하 고 삭제할 수 있습니다.
 
 [Microsoft 365 준수 센터](https://protection.office.com/) 에서 팀과 기타 작업 부하에 대 한 보존 정책을 만들고 관리 하거나 보안 & 준수 센터 PowerShell cmdlet을 사용 합니다. Teams 보존 정책을 전체 조직 또는 특정 사용자 및 팀에 적용할 수 있습니다.
 
 > [!NOTE]
 > 아직 개인 채널 메시지 보존에 대 한 구성은 지원 하지 않습니다. 비공개 채널에서 공유된 파일의 보존이 지원됩니다.
 
-Office 365의 보존 정책에 대한 자세한 내용은 [보존 정책 개요](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)를 참조하세요.
+Microsoft 365 또는 Office 365의 보존 정책에 대해 자세히 알아보려면 [보존 정책 개요](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)를 참조 하세요.
 
 ## <a name="what-are-retention-policies-for-teams"></a>Teams에 대한 보존 정책은 무엇인가요?
 
@@ -148,7 +148,7 @@ Teams 보존 정책을 삭제하려면 다음을 수행합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-[Office 365 보안 & 준수 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)을 사용 하 여 팀 보존 정책을 만들고 관리 하려면 다음 cmdlet을 사용 합니다.
+[보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)을 사용 하 여 팀 보존 정책을 만들고 관리 하려면 다음 cmdlet을 사용 합니다.
 
 |정책|규칙|
 |---|---|

@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: '& 지역에서 사용할 수 있는 보기 계획을 비롯 하 여 전화 플랜을 설정 하 고, 라이선스를 할당 하 고, 전화 번호를 얻고, 긴급 주소 & 위치를 추가 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042405"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666240"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 
@@ -57,7 +57,7 @@ ms.locfileid: "44042405"
 - **새 전화 번호를 위한 요청 양식 사용하기** 때로는 (국가/지역에 따라) 팀 관리 센터를 사용 하 여 새 전화 번호를 가져올 수 없으며, 특정 전화 번호 또는 지역 코드도 필요 합니다. 그럴 경우 양식을 다운로드하여 다시 보내주세요. 자세한 내용은 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요. 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>4 단계: 조직의 긴급 주소 및 위치 추가
-<a name="bkmk_add_addresses"> </a> 비상 주소는 전화 번호와 연결 되어 있어야 합니다. 이 연결이 발생 하는 경우 국가와 지역에 따라 다를 수 있습니다. 예를 들어 미국에서 사용자에 게 전화 번호를 할당할 때 긴급 주소를 연결 해야 합니다. 영국에서는 Office 365에서 전화 번호를 받을 때와 현재 서비스 공급자 로부터 전화 번호를 전송 하는 경우 긴급 주소를 전화 번호에 연결 해야 합니다. 
+<a name="bkmk_add_addresses"> </a> 비상 주소는 전화 번호와 연결 되어 있어야 합니다. 이 연결이 발생 하는 경우 국가와 지역에 따라 다를 수 있습니다. 예를 들어 미국에서 사용자에 게 전화 번호를 할당할 때 긴급 주소를 연결 해야 합니다. 영국에서 Microsoft 365 또는 Office 365에서 전화 번호를 받을 때 또는 현재 서비스 공급자 로부터 전화 번호를 전송할 때 긴급 주소를 전화 번호에 연결 해야 합니다. 
 
 긴급 주소 통화와 관리에 대 한 자세한 내용은 [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md) 및 [조직의 긴급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)를 참조 하세요.
     
@@ -91,7 +91,7 @@ Windows PowerShell을 알고 있는 경우 다음 cmdlet을 사용 하 여 사�
 자세히 알아보려면 [팀 PowerShell 개요](teams-powershell-overview.md)를 참조 하세요.
   
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](transferring-phone-numbers-common-questions.md)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)

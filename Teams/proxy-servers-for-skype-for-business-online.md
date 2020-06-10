@@ -22,12 +22,12 @@ ms.custom:
 - Optimization
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 팀 또는 비즈니스용 Skype에서 프록시 서버를 사용 하는 방법에 대 한 정보를 제공 합니다.
-ms.openlocfilehash: 5a0d35ee2b8c95c4dea30886497e184f57077264
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 3d8e2e067cce4214f51ee54ec08bafa1f4100770
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905680"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665960"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 또는 비즈니스용 Skype Online 용 프록시 서버
 
@@ -58,6 +58,6 @@ Microsoft는 또한 다음을 적극 권장 합니다.
   
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 네트워크 연결 원칙](https://aka.ms/pnc)
+[Microsoft 365 및 Office 365 네트워크 연결 원칙](https://aka.ms/pnc)
 
 [Teams에 대한 조직의 네트워크 준비](prepare-network.md)

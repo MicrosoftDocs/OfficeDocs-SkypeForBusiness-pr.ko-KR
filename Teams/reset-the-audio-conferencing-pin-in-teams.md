@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft 팀에서 사용자의 오디오 회의 PIN을 재설정 하는 방법과 Pin에 대 한 중요 한 정보를 확인 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 451031698294fc49acee4a51efa0203cd3eb898d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 8926218c72c888edb00480ff8382672a3730cf15
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905490"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666190"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의 PIN 다시 설정
 
@@ -52,7 +52,7 @@ PIN은 오디오 회의를 사용 하도록 설정 된 각 Microsoft 팀 사용�
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>사용자가 자신의 PIN을 재설정 하도록 설정
 
-1. 사용자를 이동 [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)합니다.
+1. 사용자를 이동 [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) 합니다.
 2. **PIN 다시 설정을**클릭 합니다. 
 
 
@@ -66,21 +66,21 @@ PIN은 오디오 회의를 사용 하도록 설정 된 각 Microsoft 팀 사용�
     
 - 기본 설정은 익명 호출자가 모임을 시작 하도록 허용 하지 않는 것입니다.
     
-- 오디오 회의에 대 한 사용자를 활성화 하면 기본적으로 회의 정보와 PIN이 포함 된 전자 메일이 전송 됩니다. PIN을 다시 설정 하면 사용자에 게 설정 된 기본 SMTP 주소 (별칭)로 새 PIN이 사용자에 게 전송 되므로 사용자에 게 Office 365 사서함이 있어야 합니다.
+- 오디오 회의에 대 한 사용자를 활성화 하면 기본적으로 회의 정보와 PIN이 포함 된 전자 메일이 전송 됩니다. PIN이 다시 설정 되 면 사용자에 게 설정 된 기본 SMTP 주소 (별칭)에 대 한 새 PIN이 사용자에 게 전자 메일에 전송 되는 경우 Microsoft 365 또는 Office 365 사서함이 있어야 합니다.
     
 - 오디오 회의를 설정할 때 조직의 핀에 필요한 자릿수를 설정 합니다. Pin은 4 ~ 12 자리로 지정할 수 있으며 기본값은 5입니다. PIN 길이 설정을 변경 하면 새로 생성 된 핀에만 설정이 적용 되 고 오디오 회의에 사용 하도록 설정 된 기존 사용자의 PIN 설정에는 적용 되지 않습니다. [오디오 회의 모임에 대 한 PIN 길이 설정을](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)참조 하세요.
     
-- 기본적으로 전자 메일은 사용자의 Office 365 기본 SMTP 주소로 설정 됩니다. 전자 메일을 Hotmail 또는 MSN 전자 메일 주소와 같은 비 Office 365 주소로 보낼 수 있습니다. Windows PowerShell을 사용 하 여 기본 전자 메일 주소를 재정의할 수 있습니다. 이 기능은 사용자에 게 Office 365의 Exchange 사서함이 없는 경우에 유용 합니다.
+- 기본적으로 전자 메일은 사용자의 Microsoft 365 또는 Office 365 기본 SMTP 주소로 설정 됩니다. Microsoft 이외의 365 또는 Hotmail 또는 MSN 전자 메일 주소와 같은 비 Office 365 주소로 전자 메일을 보낼 수 있습니다. Windows PowerShell을 사용 하 여 기본 전자 메일 주소를 재정의할 수 있습니다. 이 기능은 사용자에 게 Microsoft 365 또는 Office 365의 Exchange 사서함이 없는 경우에 유용 합니다.
 
     
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 
-Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
     
   - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
   
