@@ -18,22 +18,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: bc5cc912a90320b7d7221fcd99df702020c69eaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042805"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638357"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams 시작하기
 
 > [!IMPORTANT]
-> **원격 작업**을 지원해야 하는 수요가 증가한 데 답하여 Microsoft Teams를 빠르게 배포할 경우 이 시작하기 지침을 사용하여 전체 조직에 Teams를 배포합니다. Teams가 Office 365 첫 번째 워크로드인 경우에도 마찬가지로 이 지침이 적용됩니다.
+> **원격 작업**을 지원해야 하는 수요가 증가한 데 답하여 Microsoft Teams를 빠르게 배포할 경우 이 시작하기 지침을 사용하여 전체 조직에 Teams를 배포합니다. Teams가 Microsoft 365 또는 Office 365 첫 번째 워크로드인 경우에도 마찬가지로 이 지침이 적용됩니다.
 
 Teams를 신속하게 시작하려면 얼리어답터의 선택 그룹에 대해 두세 개의 팀 및 채널을 만드는 것이 좋습니다. 먼저 소규모로 Teams를 배포함으로써 Teams를 사용하여 Teams를 배우고 조직 전체에 걸쳐 Teams를 배포하는 방법을 알리는 유용한 정보를 얻을 수 있습니다. 소규모 기업의 경우 조직 전체에 Teams를 배포하기 위한 모든 정보는 빠른 시작 가이드를 참조하세요.
 
 
-Teams를 사용하여 조직 내부 및 외부 사용자와 함께 팀을 빠르게 이끌어 신속하고 폭넓은 대화를 유도하여 문서를 안전하게 공유하고 공동 작성하며 프로젝트를 반복할 수 있습니다. 공유 노트, 웹 페이지 및 앱에 대해 핑거팁 액세스를 추가하여 Teams를 사용자 지정하세요. 모임 및 통화를 사용하여 어디서나 실시간으로 공동 작업할 수 있습니다. Teams는 Office 365 서비스 및 타사 앱에 대한 액세스를 간소화하여 공동 작업 및 통신 요구 사항에 대해 새로운 무게 중심이 될 것입니다. 최적의 환경과 가장 정확한 피드백을 위해 얼리어답터가 데스크톱 및 모바일 애플리케이션 모두에 설치할 수 있도록 하세요.
+Teams를 사용하여 조직 내부 및 외부 사용자와 함께 팀을 빠르게 이끌어 신속하고 폭넓은 대화를 유도하여 문서를 안전하게 공유하고 공동 작성하며 프로젝트를 반복할 수 있습니다. 공유 노트, 웹 페이지 및 앱에 대해 핑거팁 액세스를 추가하여 Teams를 사용자 지정하세요. 모임 및 통화를 사용하여 어디서나 실시간으로 공동 작업할 수 있습니다. Teams는 Microsoft 365 또는 Office 365 서비스 및 타사 앱에 대한 액세스를 간소화하여 공동 작업 및 통신 요구 사항에 대해 새로운 무게 중심이 될 것입니다. 최적의 환경과 가장 정확한 피드백을 위해 얼리어답터가 데스크톱 및 모바일 애플리케이션 모두에 설치할 수 있도록 하세요.
 
 ![데스크톱 및 모바일 클라이언트 사용자 인터페이스를 보여주는 스크린샷](media/get-started-microsoft-teams.png "Teams 데스크톱 클라이언트 및 모바일 클라이언트 사용자 인터페이스를 보여주는 스크린샷" ) 
 
@@ -50,10 +50,10 @@ Teams를 사용하여 조직 내부 및 외부 사용자와 함께 팀을 빠르
 
 ## <a name="before-you-get-started"></a>시작하기 전
 
-Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Office 365 배포한 다음에 Teams를 배포하든 Teams 배포를 준비하기 위해 해야 할 일이 나와 있습니다.
+Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Microsoft 365 또는 Office 365를 배포한 다음에 Teams를 배포하든 Teams 배포를 준비하기 위해 해야 할 일이 나와 있습니다.
 
 - [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
-    - 여기에는 Office 365 도메인, SharePoint Online, Exchange Online, 비즈니스용 OneDrive를 구성 작업이 포함됩니다.
+    - 여기에는 Microsoft 365 또는 Office 365 도메인, SharePoint Online, Exchange Online, 비즈니스용 OneDrive 구성 작업이 포함됩니다.
 
 - 모든 사용자를 위한 Teams 라이선스를 확보합니다. [Teams 플랜](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)과 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 확인하세요.
 
@@ -65,7 +65,7 @@ Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Office 365 배포한 �
    - [비즈니스용 Skype 서버와 Office 365 간의 하이브리드 연결 플랜](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-   > 조직에서 온-프레미스 비즈니스용 Skype 서버(또는 Lync Server)를 실행하는 경우 [Azure Active Directory Connect를 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)하여 온-프레미스 디렉터리를 Office 365와 동기화해야 합니다. 
+   > 조직에서 온-프레미스 비즈니스용 Skype 서버(또는 Lync Server)를 실행하는 경우 [Azure Active Directory Connect를 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)하여 온-프레미스 디렉터리를 Microsoft 365 또는 Office 365와 동기화해야 합니다. 
 
 
 ## <a name="next-steps"></a>다음 단계

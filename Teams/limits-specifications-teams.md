@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: e9b4b5e9d862596e91bcb6d30112e5f70a9c8263
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512825"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637647"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -40,7 +40,7 @@ ms.locfileid: "44512825"
 |테넌트에 허용되는 조직 전체 팀 수 | 5     |
 |[조직 전체 팀](create-an-org-wide-team.md)의 구성원 수 | 5,000       |
 |전역 관리자가 만들 수 있는 팀의 수        |  500,000   |
-|Office 365 조직이 보유할 수 있는 팀의 수    | 500,000&sup2;     |
+|Microsoft 365 또는 Office 365 조직이 보유할 수 있는 팀 개수    | 500,000&sup2;     |
 |팀당 채널 수    | 200(삭제된 채널 포함)&sup3;         |
 |팀당 비공개 채널 수    |30|
 |비공개 채널 회원수    |250|
@@ -93,7 +93,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 자세한 내용은 [Exchange Online 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)을 참조하세요.
 
 > [!NOTE]
-> 모든 Office 365 라이선스에서 메시지 크기, 첨부 파일 및 인라인 이미지 제한이 동일합니다.
+> 모든 Microsoft 365 및 Office 365 라이선스에서 메시지 크기, 첨부 파일 및 인라인 이미지 제한이 동일합니다.
 
 ## <a name="channel-names"></a>채널 이름
 
@@ -132,7 +132,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |------------|---------------|
 |대상 그룹 크기 | 10,000 참석자 |
 |이벤트 기간 | 4시간 |
-|Office 365 조직에서 실행되는 동시 라이브 이벤트 <sup>1</sup> | 15 |
+|Microsoft 365 또는 Office 365 조직에서 실행되는 동시 발생 라이브 이벤트 <sup>1</sup> | 15 |
 
 <sup>1</sup> 여러 라이브 이벤트를 원하는 대로 예약할 수 있지만, 한 번에 15개만 실행할 수 있습니다. 프로듀서가 라이브 이벤트에 참가하는 즉시 실행 중인 것으로 간주합니다. 16번째 라이브 이벤트에 참가하려고 시도하는 프로듀서는 오류 메시지를 받습니다.
 

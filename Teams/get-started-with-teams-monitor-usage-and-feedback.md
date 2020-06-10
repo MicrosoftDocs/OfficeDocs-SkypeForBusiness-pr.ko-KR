@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 928f761626f51c2c717e046ad2f3aac49161b4cd
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778444"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638377"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams에서 사용 현황 및 피드백 모니터링
 사용자가 Teams를 사용하는 방법과 Teams와 함께 어떤 환경이 진행되고 있는지 알아야 합니다. 사용 현황 보고서는 사용 현황 패턴을 보다 잘 이해할 수 있도록 도와주고 사용자 피드백을 반영하여 더 광범위한 배포와 교육 및 통신 노력을 어디에 우선시해야 하는지에 대한 정보를 제공합니다.
@@ -38,7 +38,7 @@ Teams 사용 현황을 검토하기 위해 보고서를 받는 방법은 다음�
 
 Microsoft Teams 관리 센터의 Teams 보고서는 조직에서 Teams를 사용하는 방법에 대한 정보를 제공합니다. 보고서를 사용하여 조직 전체에 대한 Teams 사용 현황, 사용자 활동 및 장치 사용 현황을 검토할 수 있습니다. 
 
-이러한 보고서를 검토하려면 Office 365, Teams 서비스 관리자 또는 비즈니스용 Skype 관리자의 전역 관리자여야 합니다. Microsoft Teams 관리 센터로 이동하여 왼쪽 탐색 창에서 **분석 및 보고서**을 선택한 다음 **보고서**에서 실행할 보고서를 선택합니다.
+이러한 보고서를 검토하려면 Microsoft 365 또는 Office 365의 전역 관리자, Teams 서비스 관리자 또는 비즈니스용 Skype 관리자라야 합니다. Microsoft Teams 관리 센터로 이동하여 왼쪽 탐색 창에서 **분석 및 보고서**를 선택한 다음 **보고서**에서 실행할 보고서를 선택합니다.
 
 - **Teams 사용 현황 보고서**: 이 보고서는 총 활성 사용자 및 채널 수 그리고 각 팀에서의 활성 사용자 및 채널, 게스트, 메시지 수를 포함하여 Teams의 사용 현황 활동에 대한 개요를 제공합니다. 
 
@@ -62,7 +62,7 @@ Microsoft 365 관리 센터에서 제공되는 보고서를 통해 Teams 활동�
 
 ### <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 
-Power BI에서 Microsoft 365 사용 현황 분석을 사용하여 Teams 및 기타 Office 365 제품과 서비스에 대한 사용 현황 데이터를 검토하고 분석할 수 있습니다. Microsoft 365 사용 현황 분석은 이미 작성된 대시보드와 여러 이미 작성된 보고서를 포함하는 콘텐츠 팩입니다. 각 보고서는 특정 사용 현황 데이터 및 정보를 제공합니다. 콘텐츠 팩에 연결하려면 Power BI가 필요하며 Office 365 또는 보고서 읽기 프로그램의 전역 관리자여야 합니다. Power BI가 아직 없는 경우 [Power BI 무료 서비스에 등록하세요](https://powerbi.microsoft.com). 
+Power BI에서 Microsoft 365 사용 현황 분석을 사용하여 Teams 및 기타 Microsoft 365 또는 Office 365 제품과 서비스에 대한 사용 현황 데이터를 검토하고 분석할 수 있습니다. Microsoft 365 사용 현황 분석은 이미 작성된 대시보드와 여러 이미 작성된 보고서를 포함하는 콘텐츠 팩입니다. 각 보고서는 특정 사용 현황 데이터 및 정보를 제공합니다. 콘텐츠 팩에 연결하려면 Power BI가 필요하며 Microsoft 365, Office 365 또는 보고서 읽기 프로그램의 전역 관리자여야 합니다. Power BI가 아직 없는 경우 [Power BI 무료 서비스에 등록하세요](https://powerbi.microsoft.com). 
 
 자세한 내용은 [Microsoft 365 사용 현황 분석](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)을 참조하세요. 
 

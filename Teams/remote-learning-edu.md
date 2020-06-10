@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a87acce75568716eb4c4cf2dac4ecb6c03959d
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139241"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638527"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -69,9 +69,9 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 사용자가 Teams를 만들 수 있도록 허용
 
-학생과 교사는 문제를 최소화하면서 Teams를 사용하고, 필요에 맞게 유연하게 조정할 수 있습니다. Teams 환경을 조정하는 한 가지 방법은 본인의 요구에 맞는 팀을 만들 수 있도록 지원하는 것입니다. **기본적으로 모든 사용자는 Microsoft 365 그룹 및 Teams를 만들 수 있습니다.** 경우에 따라 이 기능이 적절하지 않을 수도 있습니다. 예를 들어, 일부 고객은 초등 및 중학교 학생이 팀을 만들지 못하도록 제한하려고 할 수 있습니다. 필요한 경우 Office 365 그룹 및 팀 만들기는 해당 환경의 [특정 보안 그룹으로 제한](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)될 수 있습니다.
+학생과 교사는 문제를 최소화하면서 Teams를 사용하고, 필요에 맞게 유연하게 조정할 수 있습니다. Teams 환경을 조정하는 한 가지 방법은 본인의 요구에 맞는 팀을 만들 수 있도록 지원하는 것입니다. **기본적으로 모든 사용자는 Microsoft 365 그룹 및 Teams를 만들 수 있습니다.** 경우에 따라 이 기능이 적절하지 않을 수도 있습니다. 예를 들어, 일부 고객은 초등 및 중학교 학생이 팀을 만들지 못하도록 제한하려고 할 수 있습니다. 필요한 경우 Microsoft 365 그룹 및 팀 만들기 기능을 해당 환경의 [특정 보안 그룹으로 제한](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)할 수 있습니다.
 
-고등 교육 기관은 학생을 포함하는 모든 관계자들이 수업, 연구, 그룹 프로젝트 및 연구 그룹을 위한 팀을 만들도록 하여 유용하게 작업할 수 있습니다. 초등 및 중학교는 학생들이 팀을 만들지 못하도록 제한하여 모든 학생 간 커뮤니케이션이 성인을 포함하는 포럼 내에서 진행되도록 할 수 있습니다. 이 경우 Office 365 그룹 및 팀 만들기는 모든 교사와 직원으로 제한될 수 있습니다.
+고등 교육 기관은 학생을 포함하는 모든 관계자들이 수업, 연구, 그룹 프로젝트 및 연구 그룹을 위한 팀을 만들도록 하여 유용하게 작업할 수 있습니다. 초등 및 중학교는 학생들이 팀을 만들지 못하도록 제한하여 모든 학생 간 커뮤니케이션이 성인을 포함하는 포럼 내에서 진행되도록 할 수 있습니다. 이 경우 Microsoft 365 그룹 및 팀 만들기 기능이 모든 교사와 직원으로 제한될 수 있습니다.
 
 팀을 만드는 방법은 [Microsoft Teams에서 수업 만들기를](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) 참조 하세요.
 

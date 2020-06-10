@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: f61da62118229cfa16db7a476c96e9d0bdf4a65a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522671"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637047"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 
@@ -40,7 +40,7 @@ ms.locfileid: "44522671"
 
 ### <a name="why-is-microsoft-teams-replacing-skype-for-business-online"></a>Microsoft Teams가 비즈니스용 Skype Online을 대체하는 이유가 무엇인가요?
 
-Microsoft Teams는 조직에서 더 빠르게 이동하고 더욱 효율적으로 공동 작업을 할 수 있도록 지원하는 기능과 함께 통합된 앱에서 파일, 채팅 및 앱을 모아서 비즈니스용 Skype Online의 기능을 기반으로 확장합니다. Teams에서 제공하는 다양한 환경 세트를 활용하기 위해 Office 365의 주요 통신 클라이언트로서 비즈니스용 Skype를 대체합니다.
+Microsoft Teams는 조직에서 더 빠르게 이동하고 더욱 효율적으로 공동 작업을 할 수 있도록 지원하는 기능과 함께 통합된 앱에서 파일, 채팅 및 앱을 모아서 비즈니스용 Skype Online의 기능을 기반으로 확장합니다. Teams에서 제공하는 환경 세트가 더 풍부해졌으므로 Microsoft 365 및 Office 365의 주요 통신 클라이언트로서 비즈니스용 Skype를 대체합니다.
 
 ### <a name="when-is-the-retirement-of-skype-for-business-online"></a>비즈니스용 Skype Online은 언제 중단되나요?
 
@@ -66,7 +66,7 @@ Microsoft Teams는 조직에서 더 빠르게 이동하고 더욱 효율적으�
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deploying--or-planning-to-deploy--skype-for-business-in-office-365"></a>현재 Office 365에서 비즈니스용 Skype를 배포하고 있거나 배포하려 계획중인 고객에게는 어떤 것이 좋은가요?
 
-현재 비즈니스용 Skype Online을 배포하는 고객은 계속해서 사용해도 좋습니다. 모든 신규 Office 365 고객이 비즈니스용 Skype와 독립적으로 또는 병행하여 Teams를 사용하기 시작하고 비즈니스의 요구 사항을 충족하는 경로(공존 또는 팀 전용)와 시점을 확인할 것을 권장합니다. 비즈니스용 Skype Online의 서비스 만료 기간에 상관없이 고객은 비즈니스용 Skype Online 서비스가 만료되기 전에 Teams로 이동해야 합니다.
+현재 비즈니스용 Skype Online을 배포하는 고객은 계속해서 사용해도 좋습니다. 모든 신규 Microsoft 365 및 Office 365 고객이 비즈니스용 Skype와 별도로, 아니면 병행하여 Teams를 사용하기 시작하고 비즈니스의 요구 사항을 충족하는 경로(공존 또는 Teams 전용)와 시점을 확인하도록 권장합니다. 비즈니스용 Skype Online의 서비스 만료 기간에 상관없이 고객은 비즈니스용 Skype Online 서비스가 만료되기 전에 Teams로 이동해야 합니다.
 
 ### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Teams로 이동하려는 고객에게는 어떤 지원을 제공하나요(특히 비즈니스용 Skype Online에 상당한 투자를 한 사용자)? 
 
@@ -74,7 +74,7 @@ Microsoft Teams는 조직에서 더 빠르게 이동하고 더욱 효율적으�
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>이는 라이센싱의 관점에서 무엇을 의미하나요? 고객은 Teams에서 지능형 커뮤니케이션 서비스에 대해 요금을 어떻게 지불하나요?
 
-Teams는 Office 365 제품군에서 사용할 수 있습니다. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 고객의 만든 기존 라이센싱 투자는 팀으로 이월됩니다. 예를 들어 고객이 독립형으로 혹은 E5의 일부로서 비즈니스용 Skype와 Audio Conferencing 기능을 구입한 경우 Teams에서도 현재 사용할 수 있는 그대로 사용할 수 있습니다.
+Teams는 Microsoft 365 및 Office 365 제품군에서 사용할 수 있습니다. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 고객의 만든 기존 라이센싱 투자는 팀으로 이월됩니다. 예를 들어 고객이 독립형으로 혹은 E5의 일부로서 비즈니스용 Skype와 Audio Conferencing 기능을 구입한 경우 Teams에서도 현재 사용할 수 있는 그대로 사용할 수 있습니다.
 
 ### <a name="is-microsoft-planning-scheduled-upgrades"></a>Microsoft는 예정된 업그레이드를 계획하고 있나요?
 
@@ -172,7 +172,7 @@ Teams는 모든 Office 365의 교육 제품군 라이센싱에 사용 가능합�
 
 ### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Microsoft의 온라인 음성 기능에 대해서는 어떠한 플랜이 있나요?
 
-음성 솔루션의 핵심은 현재 사용할 수 있는 Phone System입니다. 고객은 Office 365에서 바로 번호를 획득 및 부여하는 기능을 포함하여 통화를 완벽하게 지원하는 Microsoft 통화 플랜을 추가할 수 있습니다. 텔레콤 전화 회선을 유지하려는 고객은 Phone System의 일부로서 포함된 다이렉트 Direct Routing을 사용할 수 있습니다. 조직의 요구 사항에 적합한 완벽한 음성 솔루션을 위해 두 가지 항목 모두를 함께 결합하여 사용하십시오. 
+음성 솔루션의 핵심은 현재 사용할 수 있는 Phone System입니다. 고객은 Microsoft 365 또는 Office 365에서 바로 번호를 획득 및 부여하는 기능을 포함하여 전화걸기를 완벽하게 지원하는 Microsoft 통화 플랜을 추가할 수 있습니다. 텔레콤 전화 회선을 유지하려는 고객은 Phone System의 일부로서 포함된 다이렉트 Direct Routing을 사용할 수 있습니다. 조직의 요구 사항에 적합한 완벽한 음성 솔루션을 위해 두 가지 항목 모두를 함께 결합하여 사용하십시오. 
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 이미 전화 시스템 (클라우드 PBX)을 배포한 고객을 위한 지침은 무엇인가요?
 
@@ -190,7 +190,7 @@ Teams에서의 Audio Conferencing의 사용 범위는 변경되지 않습니다.
 
 ### <a name="are-third-party-audio-conferencing-providers-acp-supported-in-teams"></a>Teams에서 제3자 오디오 회의 공급자(ACP)가 지원되나요?
 
-Teams에서 제3자 오디오 회의 공급자(ACP)를 지원할 계획은 없습니다. Teams와 비즈니스용 Skype를 사용하는 고객에 게 최고의 오디오 회의 환경은 Office 365에서 Audio Conferencing 서비스를 사용하는 것입니다. 비즈니스용 Skype 모임에서 ACP 지원을 활용해야 하는 고객은 계속 비즈니스용 Skype 클라이언트를 사용하여 비즈니스용 Skype 모임에 참가할 수 있습니다. Teams에서 예약된 모임은 Office 365의 Audio Conferencing 서비스를 활용해야 합니다.
+Teams에서 제3자 오디오 회의 공급자(ACP)를 지원할 계획은 없습니다. Teams와 비즈니스용 Skype를 사용하는 고객을 위한 최고의 오디오 회의 환경은 오디오 회의 서비스를 사용하는 것입니다. 비즈니스용 Skype 모임에서 ACP 지원을 활용해야 하는 고객은 계속 비즈니스용 Skype 클라이언트를 사용하여 비즈니스용 Skype 모임에 참가할 수 있습니다. Teams에서 예약된 모임은 Microsoft 365 또는 Office 365의 오디오 회의 서비스를 활용해야 합니다.
 
 비즈니스용 Skype Online으로의 제3자 오디오 회의 공급자(ACP)의 통합에 대한 지원은 남은 활성 테넌트에게 추가적 전환 시간을 허용하도록 제한된 지원으로 2021년 7월 31일까지로 연장되었습니다. 이 업데이트는 2018년 4 월에 발표된 ACP 시간 스케줄에 있습니다.
 

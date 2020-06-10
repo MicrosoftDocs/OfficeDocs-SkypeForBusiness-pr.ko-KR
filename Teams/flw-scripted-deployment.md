@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c747d68b53e428678fd07cd690fa7575262d4ae6
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227562"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638387"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>일선 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -316,7 +316,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>그룹 기반 라이선스를 사용하여 사용자에게 라이선스 할당
 
-Office 365, Enterprise Mobility + Security, Dynamics 365 및 기타 유사한 제품과 같은 Microsoft 유료 클라우드 서비스에는 라이선스가 필요합니다. 이러한 라이선스는 해당 서비스에 액세스해야 하는 각 사용자에게 할당됩니다. 라이선스를 관리하기 위해 관리자는 관리 포털(Office 또는 Azure) 및 PowerShell cmdlet 중 하나를 사용합니다. Azure AD(Azure Active Directory)는 모든 Microsoft 클라우드 서비스에 대한 ID 관리를 지원하는 기본 인프라입니다. Azure AD는 사용자의 라이선스 할당 상태에 대한 정보를 저장합니다.
+Microsoft 365, Office 365, Enterprise Mobility + Security, Dynamics 365 및 기타 유사한 제품과 같은 Microsoft 유료 클라우드 서비스에는 라이선스가 필요합니다. 이러한 라이선스는 해당 서비스에 액세스해야 하는 각 사용자에게 할당됩니다. 라이선스를 관리하기 위해 관리자는 관리 포털(Office 또는 Azure) 및 PowerShell cmdlet 중 하나를 사용합니다. Azure AD(Azure Active Directory)는 모든 Microsoft 클라우드 서비스에 대한 ID 관리를 지원하는 기본 인프라입니다. Azure AD는 사용자의 라이선스 할당 상태에 대한 정보를 저장합니다.
 
 대규모로 라이선스를 사용할 수 있도록 Azure AD에는 이제 그룹 기반 라이선스가 포함되어 있으며, 이러한 이유로 이 문서의 앞부분에서 보안 그룹을 만들었습니다. 하나 이상의 제품 라이선스를 그룹에 할당할 수 있습니다. Azure AD는 해당 그룹의 모든 구성원에게 라이선스가 할당되어 있는지 확인합니다. 그룹에 참가하는 모든 새 구성원에게 적절한 라이선스가 할당됩니다. 그룹에서 탈퇴한 회원의 라이선스는 제거됩니다. 이 라이선싱 관리를 사용하면 PowerShell을 통해 라이선스 관리를 자동화하여 사용자별로 조직 및 부서 구조의 변경 내용을 반영할 필요가 없습니다.
 

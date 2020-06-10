@@ -16,12 +16,12 @@ search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780317"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637907"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
@@ -34,7 +34,7 @@ ms.locfileid: "43780317"
 Microsoft는 COVID-19(코로나 바이러스) 발생에 관한 최근 발표를 통해 주요 지역의 용량을 대폭 확장했습니다. Microsoft는 고객이 서비스를 이용할 수 있도록 상황과 서비스를 상세히 모니터링하고 있습니다.클라우드 서비스의 이점 중 하나는 주요 공급망 활용, 서비스 간 리소스 재할당, 로드 재분배 등 동적 확장이 가능하다는 것입니다.Microsoft가 대응하고 지속적으로 면밀히 모니터링하고 있는 Microsoft Teams의 활용도가 증가했습니다. 또한 Microsoft는 통화 플랜 수요보다 앞서 나가기 위해 노력하고 있으며 필요한 만큼 전화번호를 충분히 확보하기 위해 최선을 다하고 있습니다.
 
 > [!NOTE]
-> M365로 이미 설정했고 Microsoft가 진행 중인 작업에 대해 자세히 알아보려면 메시지 센터로 이동하여 **MC205458** 메시지 센터 게시물을 참조하세요.
+> Microsoft 365 설정을 마치고 Microsoft가 진행 중인 작업에 대해 자세히 알아보려면 메시지 센터로 이동하여 **MC205458** 메시지 센터 게시물을 참조하세요.
 
 Microsoft 365의 부사장인 Jared Spataro의 2020년 3월 5일 블로그 게시물([COVID-19 기간 동안 고객에 대한 약속](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/))을 꼭 확인하세요.
 
@@ -102,21 +102,21 @@ Microsoft는 [Office 365용 FastTrack 센터 혜택](https://docs.microsoft.com/
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Teams를 사용하여 원격 작업자 또는 학생을 지원할 수 있도록 막 Microsoft 365를 시작했습니다. 서비스에 등록했지만 사용자가 Teams를 사용하려고 하면 다음 오류가 표시됩니다. "실패했습니다! 관리자에게 Microsoft Teams 사용을 설정해 달라고 요청하세요. " 무엇을 해야 하나요?
 
-무료 Teams 제공 중 하나를 활성화한 후에도 사용자를 위해 이를 사용하도록 설정해야 합니다. [Teams에 대한 사용자 액세스를 관리](user-access.md) 및 [Office 365에 사용자를 개별적으로 또는 일괄적으로 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)를 확인하세요.
+무료 Teams 제공 중 하나를 활성화한 후에도 사용자를 위해 이를 사용하도록 설정해야 합니다. [Teams에 대한 사용자 액세스 관리](user-access.md) 및 [개별적으로 또는 일괄적으로 사용자 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)를 확인하세요.
 
 처음으로 사용자에게 라이선스를 부여거나 사용자를 활성화했지만 Microsoft 365를 한동안 보유한 경우 조직에 대한 [Teams를 사용 설정](Office-365-set-up.md)해야 할 수 있습니다. 이 문서에서 [Microsoft 365가 이미 있지만 Teams를 사용하지 않습니다. 평가판 라이선스를 제공하나요?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)를 확인하세요.
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Microsoft에서 제공하는 Office 365 E1 평가판에서 통화 플랜을 사용할 수 있나요? 사용자에게 전화 번호를 할당할 수 있나요? 지불할 금액은 얼마인가요?
 
-사용자는 모든 버전의 Teams에서 앱 대 앱 음성 및 영상 통화가 가능합니다. 직원에게 번호를 할당하려면 [Office 365의 전화 시스템](what-is-phone-system-in-office-365.md)이 필요합니다. 이 시스템을 구해 배포하려면 Microsoft 파트너 또는 영업 담당자와 함께 작업할 것을 권장합니다. [Teams를 사용하여 음성 및 영상 통화](https://products.office.com/microsoft-teams/voice-calling)에서 자세한 내용을 확인하세요.
+사용자는 모든 버전의 Teams에서 앱 대 앱 음성 및 영상 통화가 가능합니다. 직원에게 번호를 할당하려면 [전화 시스템](what-is-phone-system-in-office-365.md)이 필요합니다. 이 시스템을 구해 배포하려면 Microsoft 파트너 또는 영업 담당자와 함께 작업할 것을 권장합니다. [Teams를 사용하여 음성 및 영상 통화](https://products.office.com/microsoft-teams/voice-calling)에서 자세한 내용을 확인하세요.
 
 ### <a name="can-i-set-up-an-auto-attendant-with-the-new-teams-e1-trial-so-i-can-have-an-emergency-line-internally-at-my-company-to-deal-with-covid-19-coronavirus"></a>COVID-19(코로나 바이러스)에 대응하기 위해 회사 내부에서 비상 회선을 확보할 수 있도록 새로운 Teams E1 평가판으로 자동 전화 교환을 설정할 수 있습니까?
 
-Teams에서 [클라우드 자동 전화 교환](what-are-phone-system-auto-attendants.md)를 설정 하려면 Teams 외에도 [Office 365에 전화 시스템](what-is-phone-system-in-office-365.md)이 있어야 합니다. 이 시스템을 구해 배포하려면 Microsoft 파트너 또는 영업 담당자와 함께 작업할 것을 권장합니다.
+Teams에서 [클라우드 자동 전화 교환](what-are-phone-system-auto-attendants.md)을 설정하려면 Teams 외에도 [전화 시스템](what-is-phone-system-in-office-365.md)이 있어야 합니다. 이 시스템을 구해 배포하려면 Microsoft 파트너 또는 영업 담당자와 함께 작업할 것을 권장합니다.
 
 ### <a name="where-can-i-find-more-information-to-help-remote-workers"></a>원격 작업자에게 도움이 되는 자세한 정보는 어디에서 찾을 수 있나요?
 
-최종 사용자: [Office 365로 공동 작업](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - 모든 Office 365 작업 부하에서 원활하게 공동 작업하는 방법
+최종 사용자: [Microsoft 365로 공동 작업](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - 모든 Microsoft 365 작업 부하에서 원활하게 공동 작업하는 방법
 
 IT 관리자/ITPro: [Teams를 사용하 여 원격 작업자 지원](support-remote-work-with-teams.md).
 

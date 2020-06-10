@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7151c7a84ec6273e14f41330eb4fd2afcd8d989
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: df6f40fb439d4bef106671a8a21e211fb52fa50f
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776943"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637287"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 ======================================
@@ -38,7 +38,7 @@ ms.locfileid: "43776943"
 
 게스트 액세스를 사용하면 조직의 팀에서 Teams의 기존 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다. 비즈니스 또는 소비자 전자 메일 계정(Outlook, Gmail 등)이 있는 사용자는 팀 채팅, 모임 및 파일에 대한 모든 액세스 권한을 부여받아 Teams에서 게스트로 참여할 수 있습니다. Teams 관리자는 Teams에서 게스트가 사용할 수 있거나 사용할 수 없는 기능을 제어할 수 있습니다. [게스트 액세스 관리](manage-guests.md)를 확인합니다.
 
-게스트 액세스는 Teams에서 기본적으로 비활성화된 조직 전체에 대한 설정입니다. 게스트 액세스에는 Azure AD 및 Office 365 서비스 제한 사항이 적용됩니다.
+게스트 액세스는 Teams에서 기본적으로 비활성화된 조직 전체에 대한 설정입니다. 게스트 액세스에는 Azure AD 및 Microsoft 365 또는 Office 365 서비스 제한이 적용됩니다.
 
 
 > [!IMPORTANT]
@@ -46,11 +46,11 @@ ms.locfileid: "43776943"
 
 ## <a name="licensing-for-guest-access"></a>게스트 액세스에 대한 라이선스
 
-게스트 액세스는 모든 Microsoft 365 Business Standard, Office 365 Enterprise 및 Office 365 Education 구독에 포함되어 있습니다. 추가 Office 365 라이선스가 필요하지 않습니다. Teams에서는 추가할 수 있는 게스트 수를 제한하지 않습니다. 그러나 테넌트에 추가할 수 있는 총 게스트 수는 Azure AD 라이선스가 허용하는 항목을 기반으로 합니다. 일반적으로 라이선스가 있는 사용자 당 게스트 수는 5 명입니다. 자세한 내용은 [Azure AD B2B 공동 작업 라이선스](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)를 참조하세요.
+게스트 액세스는 모든 Microsoft 365 Business Standard, Office 365 Enterprise 및 Office 365 Education 구독에 포함되어 있습니다. Microsoft 365 또는 Office 365 추가 라이선스가 필요하지 않습니다. Teams에서는 추가할 수 있는 게스트 수를 제한하지 않습니다. 그러나 테넌트에 추가할 수 있는 총 게스트 수는 Azure AD 라이선스가 허용하는 항목을 기반으로 합니다. 일반적으로 라이선스가 있는 사용자 당 게스트 수는 5 명입니다. 자세한 내용은 [Azure AD B2B 공동 작업 라이선스](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)를 참조하세요.
 
 
 > [!NOTE]
-> Exchange Online Plan 2와 같이 독립실행형 Office 365 구독 계획만 가진 조직의 사용자는 Teams에서 동일한 조직에 속한 것으로 간주하기 때문에 조직에 게스트로 초대될 수 없습니다. 사용자가 Teams를 사용하려면 Microsoft 365 Business Standard, Office 365 Enterprise 또는 Office 365 Education 구독에 할당되어야 합니다. 
+> Exchange Online Plan 2와 같이 독립실행형 Microsoft 365 또는 Office 365 구독 계획만 보유한 조직의 사용자는 Teams에서 동일한 조직에 속한 것으로 간주하기 때문에 조직에 게스트로 초대될 수 없습니다. 사용자가 Teams를 사용하려면 Microsoft 365 Business Standard, Office 365 Enterprise 또는 Office 365 Education 구독에 할당되어야 합니다. 
 
 ## <a name="who-is-a-guest"></a>누가 게스트인가요?
 
@@ -58,11 +58,11 @@ ms.locfileid: "43776943"
 
 게스트가 수행할 수 있는 작업에 대한 자세한 내용을 알아보려면 [Microsoft Teams의 게스트 액세스 권한](teams-dependencies.md)을 참조하세요. 또는 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요. 
 
-끝으로, Teams의 모든 게스트는 Office 365의 나머지 부분과 동일한 준수 및 감사 보호가 적용이 되며 Azure AD에서 안전하게 관리할 수 있습니다.
+끝으로, Teams의 모든 게스트는 Microsoft 365 및 Office 365의 나머지 부분과 동일한 준수 및 감사 보호가 적용이 되며 Azure AD에서 안전하게 관리할 수 있습니다.
 
 ## <a name="why-use-guest-access"></a>게스트 액세스를 사용하는 이유는 무엇인가요?
 
-게스트 액세스에서 Teams를 사용하는 조직은 회사 데이터를 완전하게 제어하면서 팀, 채널의 문서, 리소스, 채팅 및 응용 프로그램에 대한 액세스 권한을 파트너에게 부여할 수 있습니다. Teams의 모든 게스트는 Office 365의 나머지 부분과 동일한 준수 및 감사 보호가 적용이 되며 Azure AD에서 안전하게 관리할 수 있습니다.  
+게스트 액세스에서 Teams를 사용하는 조직은 회사 데이터를 완전하게 제어하면서 팀, 채널의 문서, 리소스, 채팅 및 응용 프로그램에 대한 액세스 권한을 파트너에게 부여할 수 있습니다. Teams의 모든 게스트는 Microsoft 365 및 Office 365의 나머지 부분과 동일한 준수 및 감사 보호가 적용이 되며 Azure AD에서 안전하게 게스트를 관리할 수 있습니다.  
 
 ## <a name="understand-the-limitations-for-guests"></a>게스트에 대한 제한 사항 이해
 
@@ -78,7 +78,7 @@ ms.locfileid: "43776943"
 - 개인 채팅에 파일 업로드
 - 현재 Teams는 [Azure B2B에서 정의한대로](https://docs.microsoft.com/azure/active-directory/b2b/user-properties) 상태 1 및 상태 2 유형의 게스트 사용자만 지원합니다.
 
-게스트가 Teams에서 수행할 수 있는 작업에 대한 전체 목록을 보려면 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요. Office 365 수준에서 게스트 액세스에 대한 자세한 내용은 [Microsoft 365 그룹에 게스트 추가](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)를 참조하세요.
+게스트가 Teams에서 수행할 수 있는 작업에 대한 전체 목록을 보려면 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요. Microsoft 365 및 Office 365 수준에서 게스트 액세스에 대한 자세한 내용은 [Microsoft 365 그룹에 게스트 추가](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)를 참조하세요.
 
 
 ## <a name="more-information"></a>추가 정보

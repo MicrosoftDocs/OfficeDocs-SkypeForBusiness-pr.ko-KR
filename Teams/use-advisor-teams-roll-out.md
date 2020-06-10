@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Advisor for Teams(공개 미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
-ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: bd893faa9a166b238a88f3865527bc38ef9bc6d3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139201"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637177"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -78,7 +78,7 @@ Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같�
 각 플랜에는 Teams를 배포하기 전에 개선이 필요할 수 있는 환경의 모든 측면을 신속히 확인하는 데 사용할 수 있는 테넌트 준비 상태 평가가 포함되어 있습니다. 평가는 필수 구성 요소와 모범 사례를 포함합니다. 각 평가 테스트에는 녹색 확인 표시 또는 주황색 경고 삼각형이 있습니다. 
 
 - <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>녹색 확인 표시는 테넌트가 특정 테스트를 통과 했다는 의미입니다. 
-- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>주황색 경고 삼각형은 조치가 필요한지의 여부를 판단하기 위해 후속 조치를 취할 것을 제안함을 의미합니다(예: Office 365 그룹 만료 정책을 권장하지만 필수는 아님).
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>주황색 경고 삼각형은 조치가 필요한지의 여부를 판단하기 위해 후속 조치를 취할 것을 제안한다는 의미입니다(예: Microsoft 365 그룹 만료 정책 사용을 권장하지만 필수는 아님).
 
 > [!IMPORTANT]
 > 관리자 역할이 있는 사용자가 Teams용 어드바이저를 시작하면 모든 평가가 백그라운드에서 실행됩니다. 항목을 업데이트하거나 재구성하는 경우 최대 24시간 동안 평가에 반영되지 않을 수 있습니다. 이는 일시적입니다. Advisor for Teams가 공개 미리 보기에서 나가는 즉시 정식 출시되어 평가가 거의 실시간으로 업데이트됩니다.
@@ -102,8 +102,8 @@ Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같�
 
 |평가 테스트  |알리는 내용  |
 |---------|---------|
-|Office 365 그룹 명명 정책이 구성됨     |Microsoft 365 그룹에 명명 표준이 구성되어 있는지 여부 Microsoft 365 그룹 명명 정책을 사용하면 조직이 일관된 명명 전략을 사용자가 만든 팀에 적용하고 또한 Outlook, SharePoint, Planner 및 Yammer를 포함한 다른 그룹 작업에도 적용할 수 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하여 Microsoft 365 그룹에 적용되는 명명 정책의 존재 여부를 확인합니다. 자세한 내용은 [Office 365 그룹 명명 정책](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)을 참조하세요.    |
-|Office 365 그룹 만료 정책이 구성됨     |Microsoft 365 그룹에 대한 그룹 만료 정책이 정의되어있는지 여부 이는 조직에서 자동으로 비활성 팀을 제거할 수 있도록 해줍니다. 이는 기본적으로 해제되어 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하고 기본값에서 값이 수정되었는지를 보고합니다. 자세한 내용은 [Office 365 그룹 만료 정책](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)을 참조하세요.    |
+|Microsoft 365 그룹 명명 정책이 구성됨     |Microsoft 365 그룹에 명명 표준이 구성되어 있는지 여부 Microsoft 365 그룹 명명 정책을 사용하면 조직이 일관된 명명 전략을 사용자가 만든 팀에 적용하고 또한 Outlook, SharePoint, Planner 및 Yammer를 포함한 다른 그룹 작업에도 적용할 수 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하여 Microsoft 365 그룹에 적용되는 명명 정책의 존재 여부를 확인합니다. 자세한 내용은 [Microsoft 365 그룹 명명 정책](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)을 참조하세요.    |
+|Microsoft 365 그룹 만료 정책이 구성됨     |Microsoft 365 그룹에 대한 그룹 만료 정책이 정의되어있는지 여부 이는 조직에서 자동으로 비활성 팀을 제거할 수 있도록 해줍니다. 이는 기본적으로 해제되어 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하고 기본값에서 값이 수정되었는지를 보고합니다. 자세한 내용은 [Microsoft 365 그룹 만료 정책](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)을 참조하세요.    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>모임 및 회의에 대한 평가
 

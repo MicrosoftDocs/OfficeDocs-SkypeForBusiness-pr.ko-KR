@@ -18,12 +18,12 @@ f1.keywords:
 description: Teams 관리자이건 헬프디스크 지원 엔지니어이건 이 리소스로 조직에서 Microsoft Teams를 지원하세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31951747565d7e226c89683b48fc1f09130af1bd
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: cde06d104f6f61efd981bb87b1503e8f097c5c26
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44561983"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637037"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>조직에서 Microsoft Teams 지원
 
@@ -51,7 +51,7 @@ ms.locfileid: "44561983"
 |---------|---------|
 |**Teams를 처음 사용하시나요?**    |[Microsoft Teams 시작](get-started-with-teams-quick-start.md)을 확인하세요.         |
 |**Teams 게스트 액세스 사용**     |[Teams 게스트 액세스 검사 목록](guest-access-checklist.md)을 검토하고 모든 단계를 완료합니다. 참조해야 하는 추가 리소스:<ul><li>[Microsoft Teams에서 게스트 액세스 이해](guest-access.md)</li>[게스트가 팀에 참여하는 방법](guest-joins.md) <li>[설정 – Microsoft Teams 게스트 액세스 검사 목록](guest-access-checklist.md)</li></ul>|
-|**Teams 모임 및 전화 접속**    |Microsoft Teams에서 오디오 회의를 켜거나 설정하는 데 도움이 필요한가요? 이 사용자가 최근에 생성되었나요? 이 경우 **설정이 적용되기까지** 2~24시간이 걸립니다.<br>사용자에게 오디오 회의를 사용할 수 있는 라이선스가 부여되었는지와 기본 유료 전화 번호가 있는지 확인하려면 다음을 수행합니다.<br><ol><li>Microsoft 365 관리 센터에서 **활성 사용자**로 이동한 다음 문제의 사용자를 선택합니다.</li><li> 관리 센터 버전에 따라, **라이선스 및 앱**을 선택하거나 **제품 라이선스**에서 **편집**을 클릭합니다.</li><li> 사용자에게 오디오 회의, Microsoft Teams 및 비즈니스용 Skype(플랜 2)를 사용할 수 있도록 선택된 라이선스가 있는지 확인합니다.</li><li>**관리 센터**에서 **모두 표시**와 **Teams**를 차례로 클릭합니다.</li><li>Microsoft Teams 관리 센터에서 **레거시 포털**을 클릭합니다.</li><li>비즈니스용 Skype 관리 센터에서 **오디오 회의**를 클릭한 다음, **사용자**를 클릭합니다.</li><li>해당 사용자를 선택하고 사용자에게 기본 유료 전화 번호가 있는지 확인합니다.</li> </ol> 자세한 내용은 [Office 365의 통화 요금제](calling-plans-for-office-365.md)를 참조하거나 라이선스 관련 질문에 대한 도움말을 보려면 Microsoft 상거래 청구 팀에 문의하세요. <br><br>추가 리소스:<ul><li>[Microsoft Teams에서의 모임 및 회의](deploy-meetings-microsoft-teams-landing-page.md)</li><li>[Microsoft Office 365의 오디오 회의](audio-conferencing-in-office-365.md)</li></ul>       |
+|**Teams 모임 및 전화 접속**    |Microsoft Teams에서 오디오 회의를 켜거나 설정하는 데 도움이 필요한가요? 이 사용자가 최근에 생성되었나요? 이 경우 **설정이 적용되기까지** 2~24시간이 걸립니다.<br>사용자에게 오디오 회의를 사용할 수 있는 라이선스가 부여되었는지와 기본 유료 전화 번호가 있는지 확인하려면 다음을 수행합니다.<br><ol><li>Microsoft 365 관리 센터에서 **활성 사용자**로 이동한 다음 문제의 사용자를 선택합니다.</li><li> 관리 센터 버전에 따라, **라이선스 및 앱**을 선택하거나 **제품 라이선스**에서 **편집**을 클릭합니다.</li><li> 사용자에게 오디오 회의, Microsoft Teams 및 비즈니스용 Skype(플랜 2)를 사용할 수 있도록 선택된 라이선스가 있는지 확인합니다.</li><li>**관리 센터**에서 **모두 표시**와 **Teams**를 차례로 클릭합니다.</li><li>Microsoft Teams 관리 센터에서 **레거시 포털**을 클릭합니다.</li><li>비즈니스용 Skype 관리 센터에서 **오디오 회의**를 클릭한 다음, **사용자**를 클릭합니다.</li><li>해당 사용자를 선택하고 사용자에게 기본 유료 전화 번호가 있는지 확인합니다.</li> </ol> 자세한 내용은 [통화 플랜](calling-plans-for-office-365.md)을 참조하거나 Microsoft 상거래 청구 팀에 문의하여 라이선스 관련 질문에 대한 도움을 받을 수 있습니다. <br><br>추가 리소스:<ul><li>[Microsoft Teams에서의 모임 및 회의](deploy-meetings-microsoft-teams-landing-page.md)</li><li>[오디오 회의](audio-conferencing-in-office-365.md)</li></ul>       |
 |**Teams 예비 라이선스**     |Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams 예비 환경으로 대체되었습니다. <br><br>추가 리소스:<ul><li>[Teams 예비 환경에 등록하는 방법](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[Teams 예비 환경 관리](teams-exploratory.md#manage-the-teams-exploratory-experience)</li></ul>|
 |**비공개 채널**    |Microsoft Teams의 비공개 채널은 팀 내 공동 작업을 위한 집중적인 공간을 만들어 줍니다. 비공개 채널의 소유자나 구성원인 팀 사용자만 채널에 액세스할 수 있습니다. 이미 팀 구성원인 경우 게스트를 포함한 모든 사용자가 비공개 채널의 구성원으로 추가될 수 있습니다.<br><br>관리할 추가 팀을 따로 만들 필요 없이 정보를 알아야 하는 사람에게만 공동 작업을 제한하려거나 특정 프로젝트에 할당된 그룹 간의 커뮤니케이션을 용이하게 하려는 경우 비공개 채널을 사용하는 것이 좋습니다.<br><br>추가 리소스:<ul><li>[Teams 예비 환경에 등록하는 방법](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[Teams 예비 환경 관리](teams-exploratory.md#manage-the-teams-exploratory-experience)</li><ul>        |
 |**모임 정책**|[모임 정책](meeting-policies-in-teams.md)은 조직에서 사용자가 예약한 모임 참가자가 사용할 수 있는 기능을 제어하는 데 사용됩니다. 정책을 만들고 변경한 후에 사용자를 정책에 할당할 수 있습니다.         |
@@ -62,7 +62,7 @@ ms.locfileid: "44561983"
 
 |||
 |---------|---------|
-|사용자에게 "기회를 놓치고 있습니다" 메시지가 표시됩니다.   |[학교에서 Microsoft Teams를 사용하도록 설정](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)해야 합니다. EDU 테넌트에서 Microsoft Teams는 기본적으로 사용하도록 설정되어 있지 않습니다. 먼저 이 기능을 사용하도록 설정해야 합니다. <br><br>다음으로, [Microsoft Office 365 교육 에디션에서 원격 교육 및 학습](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)을 참조하여 학교 설정, 수업 계획, 가상 모임 및 학생들과 콘텐츠 공유에 대한 최신 지침을 알아보세요.<br><br>마지막으로 [Teams 관리자 교육](itadmin-readiness.md)에서 Microsoft Teams IT 관리자 교육 비디오, 데크, 그리고 그 밖의 다양한 콘텐츠를 확인하세요.        |
+|사용자에게 "기회를 놓치고 있습니다" 메시지가 표시됩니다.   |[학교에서 Microsoft Teams를 사용하도록 설정](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)해야 합니다. EDU 테넌트에서 Microsoft Teams는 기본적으로 사용하도록 설정되어 있지 않습니다. 먼저 이 기능을 사용하도록 설정해야 합니다. <br><br>다음으로, [원격 교육 및 학습](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)을 참조하여 학교, 수업 계획, 가상 모임 및 학생들과 콘텐츠 공유를 설정하는 방법에 대한 최신 지침을 알아보세요.<br><br>마지막으로 [Teams 관리자 교육](itadmin-readiness.md)에서 Microsoft Teams IT 관리자 교육 비디오, 데크, 그리고 그 밖의 다양한 콘텐츠를 확인하세요.        |
 
 
 ## <a name="related-topics"></a>관련 항목
