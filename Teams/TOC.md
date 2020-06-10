@@ -41,6 +41,7 @@
 ## [Teams의 민감도 레이블](sensitivity-labels.md)
 ## [Teams에서 비공개 팀의 검색 관리](manage-discovery-of-private-teams.md)
 ## [Teams에서 채널 중재 설정](manage-channel-moderation-in-teams.md)
+## [Teams 및 Outlook 전자 메일 통합](teams-outlook-email-integration.md)
 ## [메시징 정책 관리](messaging-policies-in-teams.md)
 ## [Teams에서 사용자 현재 상태 확인](presence-admins.md)
 ## [Teams에서 태그 관리](manage-tags.md)
