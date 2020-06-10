@@ -12,12 +12,12 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bc901b9ef1b4b358771427f44d220631e4a40ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f982f6e484412234c75eadaea925b65ee11bcbb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199021"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,21 +53,27 @@ Lync Server 2013 위치 기반 라우팅 배포 및 구성에 대 한 자세한 
 
 위치 기반 라우팅 회의 응용 프로그램은 기본적으로 사용 하지 않도록 설정 됩니다. 이 응용 프로그램을 사용 하도록 설정 하기 전에 응용 프로그램에 할당할 올바른 우선 순위를 결정 해야 합니다. 이 우선 순위를 확인 하려면 Lync Server 관리 셸에서 다음 cmdlet을 실행 합니다.
 
-Get-CsServerApplication-Identity Service: 등록자:\<풀 FQDN\>
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
 
-이 cmdlet에서 \<풀 FQDN\> 은 위치 기반 라우팅 회의 응용 프로그램을 사용 하도록 설정 하는 풀입니다.
+이 cmdlet은 \<Pool FQDN\> 위치 기반 라우팅 회의 응용 프로그램을 사용 하도록 설정 하는 풀입니다.
 
 이 cmdlet은 Lync Server에서 호스트 되는 응용 프로그램의 목록과 각 작업에 대 한 우선 순위 값을 반환 합니다. 위치 기반 라우팅 회의 응용 프로그램에 "DefaultRouting", "ExumRouting" 및 "OutboundRouting" 응용 프로그램 보다 더 작은 우선 순위 값이 할당 되어야 합니다. 위치 기반 라우팅 회의 응용 프로그램에 "UdcAgent" 응용 프로그램의 우선 순위 값 보다 1 포인트가 더 높은 우선 순위 값을 할당 하는 것이 좋습니다.
 
-예를 들어 "UdcAgent" 응용 프로그램의 우선 순위 값이 "2" 인 경우 "DefaultRouting" 응용 프로그램의 우선 순위 값은 "9"이 고 "ExumRouting" 응용 프로그램의 우선 순위 값은 "10"이 고 "OutboundRouting" 응용 프로그램의 우선 순위 값은 "10" 이면 위치 기반 라우팅 회의 응용 프로그램에 우선 순위 값 "3"을 할당 해야 합니다. 이렇게 하면 응용 프로그램의 우선 순위가 다른 응용 프로그램 (우선 순위: 0 ~ 1), "UdcAgent" (Priority: 2), 위치 기반 라우팅 회의 응용 프로그램 (우선 순위: 3), 기타 응용 프로그램 (우선 순위: 4 ~ 8), " DefaultRouting "(Priority: 9)," ExumRouting "(Priority: 10) 및" OutboundRouting "(Priority: 11)
+예를 들어 "UdcAgent" 응용 프로그램의 우선 순위 값이 "2" 인 경우 "DefaultRouting" 응용 프로그램의 우선 순위 값은 "8"이 고 "ExumRouting" 응용 프로그램의 우선 순위 값은 "9"이 고 "OutboundRouting" 응용 프로그램의 우선 순위 값이 "10" 이면 위치 기반 라우팅 회의 응용 프로그램에 우선 순위 값 "3"을 할당 해야 합니다. 이렇게 하면 응용 프로그램의 우선 순위가 다음 순서 대로 적용 됩니다. 기타 응용 프로그램 (우선 순위: 0 ~ 1), "UdcAgent" (Priority: 2), 위치 기반 라우팅 회의 응용 프로그램 (우선 순위: 3), 다른 응용 프로그램과 (priority: 4-8), "DefaultRouting" (Priority: 9), "ExumRouting" (Priority: 10) 및 "OutboundRouting" (Priority: 11)
 
 위치 기반 라우팅 회의 응용 프로그램에 대 한 올바른 우선 순위 값을 찾은 후에 위치 기반 라우팅을 사용 하도록 설정 된 사용자를 가정 하는 각 프런트 엔드 풀 또는 Standard Edition 서버에 대해 다음 cmdlet을 입력 합니다.
 
-새-CsServerApplication-Identity Service: 등록자:\<Pool FQDN\>/LBRouting-Priority \<응용 프로그램\> 우선 순위-사용 $true-Critical $true-Urihttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
-예:
+예시:
 
-새-CsServerApplication-Identity Service:Registrar:Ls2013-2lbrpool. s t s/LBRouting-Priority 3-사용 $true-Critical $true-Urihttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 이 cmdlet을 사용한 후에는 풀의 모든 프런트 엔드 서버 또는 위치 기반 라우팅 회의 응용 프로그램을 사용할 수 있는 Standard Edition 서버를 다시 시작 합니다.
 
