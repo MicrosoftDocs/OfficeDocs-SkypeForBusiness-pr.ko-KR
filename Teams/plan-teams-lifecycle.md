@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0d142be3a8d5f245cda857601995653d6ca6d240
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638847"
+ms.locfileid: "44665290"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams에서 수명 주기 관리 계획
 
@@ -41,7 +41,7 @@ Teams에서는 조직의 공동 작업 수명 주기 관리 프로세스를 구�
 
 **Teams**
 
-_팀_은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉션입니다. 팀은 구성원을 정의하고 해당 구성원에게 적용되는 사용 권한 및 정책을 정의합니다. Teams는 Microsoft 365 그룹을 기반으로 하므로 Microsoft 365 그룹 구성원 변경 사항이 팀에 동기화됩니다. 다른 Microsoft 365 그룹과 마찬가지로 Teams는 Exchange 사서함, SharePoint 사이트, OneNote 노트북 및 Office 365 내의 다른 자산으로 자동 프로 비전을 제공합니다. [Microsoft 365 그룹에 대해 자세히 알아보기.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+_팀_은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉션입니다. 팀은 구성원을 정의하고 해당 구성원에게 적용되는 사용 권한 및 정책을 정의합니다. Teams는 Microsoft 365 그룹을 기반으로 하므로 Microsoft 365 그룹 구성원 변경 사항이 팀에 동기화됩니다. 다른 Microsoft 365 그룹과 마찬가지로 Teams는 Exchange 사서함, SharePoint 사이트, OneNote 노트북 및 Microsoft 365 혹은 Office 365 내의 다른 자산으로 자동 프로 비전을 제공합니다. [Microsoft 365 그룹에 대해 자세히 알아보기.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 **채널**
 

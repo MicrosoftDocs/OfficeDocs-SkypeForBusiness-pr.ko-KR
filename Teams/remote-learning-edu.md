@@ -18,17 +18,23 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638527"
+ms.locfileid: "44666280"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
+시작하는데 도움이 되는 원격 학습 및 리소스를 전환하는 방법에 대한 개요는 [원격 학습 홈페이지](https://www.microsoft.com/education/remote-learning)를 참조하세요.
+
+교사와 학생에게 도움을 주는 원격 학습 리소스를 [Office 365 Education 원격 교육 및 학습](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)에서 사용할 수 있습니다.
+
+이 문서에서는 원격 학습을 위한 교육 기관을 설정하는데 필요한 실제 단계를 다루고 있습니다.
+
 > [!NOTE]
-> 이 문서는 교육 기관에 원격 학습을 설정하는 데 유용한 리소스입니다. 교육자, 교육 리더 혹은 IT 전문가의 경우 이 리소스가 도움이 될 수 있습니다. 
+> 교육자, 교육 리더 혹은 IT 전문가의 경우 이 리소스가 도움이 될 수 있습니다. 
 >
 > - [**One-Pager 시작하기**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)를 통해 교육 기관 전체에서 Teams를 사용하세요.
 > - [**Teams 시작하는 방법**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) 다운로드: 보안 및 변경 관리에 도움이 되는 IT 전문가용 가이드입니다.

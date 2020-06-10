@@ -19,14 +19,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1ffc082e2990b97781100de2cbffd6d094cc5c9
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281683"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665940"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 모임 및 회의
+
+> [!NOTE]
+> - 시작하는데 도움이 되는 원격 학습 및 리소스를 전환하는 방법에 대한 개요는 [**원격 학습 홈페이지**](https://www.microsoft.com/education/remote-learning)를 참조하세요.
+> - 교사와 학생에게 도움을 주는 원격 학습 리소스를 [**Office 365 Education 원격 교육 및 학습**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)에서 사용할 수 있습니다.
+
 
 [시작](get-started-with-teams-quick-start.md)을 완료했습니다. 조직 전체에서 [채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md)이 포함된 Teams를 배포했습니다. 이제 [오디오 회의](deploy-audio-conferencing-teams-landing-page.md), 비디오 및 공유를 포함한 모임 작업을 추가할 준비가 되었습니다. 이 문서에서는 모임 및 오디오 회의의 배포를 안내합니다. 팀 모임, 회의 및 장치 비디오 (3:28 분)를 보고 시작해 보세요.
 

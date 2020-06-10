@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51ca2d8b6723be408adaaa53499efed2338a1f73
-ms.sourcegitcommit: 7455ae664d0e2d2915557764b26d8c8f1bf92a96
+ms.openlocfilehash: 02a17077864850ffe06bbb293848868e9147f9f8
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42945908"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611027"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Business Voice 사용자를 생성하고 라이선스를 부여하고 전화번호를 할당할 수 있습니다.
 
@@ -30,7 +30,7 @@ ms.locfileid: "42945908"
 
 ## <a name="create-and-license-users"></a>사용자 생성 및 라이선스 할당
 
-[개별적으로 또는 대량으로 사용자 추가:::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users)의 단계를 따릅니다.
+[개별적으로 또는 대량으로 사용자 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)의 단계를 따릅니다.
 
 > [!NOTE]
 > **제품 라이선스 할당** 창에서 **:::no-loc text="Microsoft 365 Business Voice":::** 를 선택합니다.
