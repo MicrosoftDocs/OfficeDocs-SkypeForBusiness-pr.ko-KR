@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 회의 브리지에 새 서비스 전화 번호를 할당 하 여 사용자의 검사 범위를 확장 하는 데 필요한 단계에 대해 알아보세요.
-ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: e0786ad2c35ebe7d9663a71b594f7f5facd73b08
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898153"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691384"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
@@ -37,15 +37,15 @@ ms.locfileid: "43898153"
 이미 회의 브리지에 지정 된 전화번호 외에도 다른 위치에서 [추가 서비스 번호](/microsoftteams/getting-service-phone-numbers) (오디오 회의에 사용 되는 유료 및 수신자 부담 번호)를 가져온 다음 사용자를 위한 적용 범위를 확장할 수 있도록이를 회의 브리지에 할당할 수 있습니다.
   
 > [!NOTE]
-> 회의 브리지의 전화 번호를 할당/할당 취소 하려면 전화 번호가 '*서비스*' 번호 여야 합니다. 이전 포털에서 **음성** > **전화 번호로** 이동 하 여 **번호 형식** 열을 보면 번호 형식을 볼 수 있습니다. 사용자가 유료 번호를 사용 하 여 bridge로 전화를 걸려면 먼저 Office 365 통신 크레딧을 설정 해야 합니다.
+> 회의 브리지의 전화 번호를 할당/할당 취소 하려면 전화 번호가 '*서비스*' 번호 여야 합니다. **Voice**  >  이전 포털에서 음성**전화 번호로** 이동 하 여 **번호 형식** 열을 보면 번호 형식을 볼 수 있습니다. 사용자가 유료 번호를 사용 하 여 bridge로 전화를 걸려면 먼저 Microsoft 365 또는 Office 365 통신 크레딧을 설정 해야 합니다.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>회의 브리지에 새 서비스 전화 번호를 할당 하는 단계
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>1 단계-오디오 회의 브리지에 새 전화 번호를 할당 합니다.
 
-1. 회사 계정으로 Office 365에 로그인 합니다.
+1. 회사 계정으로 Microsoft 365 또는 Office 365에 로그인 합니다.
 
-2. **Microsoft 365 관리 센터** > **관리자** > **팀** > 으로 이동 하 여 Skype**레거시 포털** > **음성** > **전화 번호**를 &.
+2. **Microsoft 365 관리 센터**관리자 팀으로 이동 하 여  >  **Admin centers**  >  **Skype**  >  **레거시 포털**  >  **음성**  >  **전화 번호**를 &.
 
 3. 목록에서 전화 번호를 선택 하 고 작업 창에서 **할당**을 클릭 합니다.
 
@@ -57,9 +57,9 @@ ms.locfileid: "43898153"
 
 회의 브리지의 기본 번호로 서비스 유료 번호를 설정할 수 있습니다. **서비스 무료 번호는 회의 브리지의 기본 번호로 설정할 수 없습니다**. 서비스 유료 전화 번호를 할당 하는 경우 오디오 회의 브리지에 대 한 새로운 기본 번호로 설정 하려면 다음 단계를 수행 하세요.
 
-1. 회사 계정으로 Office 365에 로그인 합니다.
+1. 회사 계정으로 Microsoft 365 또는 Office 365에 로그인 합니다.
 
-2. **Microsoft 365 관리 센터** > **Admin centers** > **팀** > 으로 이동 하 여 Skype**모임** > **회의 브리지**를 & 합니다.
+2. **Microsoft 365 관리 센터**팀으로 이동 하 여  >  **Admin centers**  >  **Skype**  >  **모임**  >  **회의 브리지**를 & 합니다.
 
 3. 기본값으로 구성 하려는 서비스 유료 전화 번호를 강조 표시 합니다.
 
@@ -71,7 +71,7 @@ ms.locfileid: "43898153"
   
 1. 회사 또는 학교 계정으로 로그인 합니다.
 
-2. **Microsoft 365 관리 센터** > **관리** > 센터**팀** > 으로 이동 하 여 Skype**레거시 포털** > **오디오 회의** > **사용자**를 & 하 고 목록에서 사용자를 선택 합니다.
+2. **Microsoft 365 관리 센터**관리 센터 팀으로 이동 하 여  >  **Admin centers**  >  **Skype**  >  **레거시 포털**  >  **오디오 회의**  >  **사용자**를 & 하 고 목록에서 사용자를 선택 합니다.
 
 3. 작업 창에서 **편집** 을 클릭 합니다.
 
@@ -135,7 +135,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. 회사 또는 학교 계정으로 로그인 합니다.
 
-2. **Microsoft 365 관리 센터** > **관리** > **팀**으로 이동 하 여 Skype > **레거시 포털** > **음성** > **전화 번호**를 &.
+2. **Microsoft 365 관리 센터**관리 센터 팀으로 이동 하 여  >  **Admin centers**  >  **Skype**  >  **레거시 포털**  >  **음성**  >  **전화 번호**를 &.
 
 3. 전화 번호가 무료 번호 이면 목록에서 전화 번호를 선택 하 고 작업 창에서 **할당**취소를 클릭 합니다. 전화 번호가 유료 이면 [Microsoft 지원](https://go.microsoft.com/fwlink/?linkid=2091806) 에 문의 하 여 전화 번호를 지정 하지 않은 것으로 확인 하세요.
 
@@ -151,7 +151,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
  이 단계에서는 Windows PowerShell 버전 3.0 이상을 실행 하 고 있는지 확인 합니다.
 
-1. **시작 메뉴** > **Windows PowerShell**을 입력 합니다.
+1. **시작 메뉴**  >  **Windows PowerShell**을 입력 합니다.
 
 2. **Windows PowerShell** 창에서 _Get-Host_ 를 입력 하 여 버전을 확인 합니다.
 
@@ -161,13 +161,13 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 4. 비즈니스용 Skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
 
-자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
+자세한 정보를 알고 싶은 경우에 [는 단일 Windows PowerShell 창에서 모든 Microsoft 365 또는 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
 
 ### <a name="to-start-windows-powershell"></a>Windows PowerShell을 시작 하려면
 
  **Windows PowerShell 세션 시작**
 
-1. **시작 메뉴** > 에서**Windows PowerShell**을 실행 합니다.
+1. **시작 메뉴**에서  >  **Windows PowerShell**을 실행 합니다.
 
 2. **Windows PowerShell** 창에서 다음을 실행 하 여 Microsoft 365 또는 Office 365에 연결 합니다.
 
@@ -181,7 +181,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 > [!NOTE]
 > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
-Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online에](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)연결을 참조 하세요.
+Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Microsoft 365 또는 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online에](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)연결을 참조 하세요.
 
 ### <a name="save-time-and-automate"></a>시간 절약 및 자동화
 
@@ -241,7 +241,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>Windows PowerShell 정보
 
-Windows PowerShell을 사용 하 여 사용자를 관리 하 고, 수행할 수 있는 작업을 관리할 수 있습니다. Windows PowerShell을 사용 하면 작업을 수행 하는 데 많은 작업을 수행할 수 있는 단일 관리 지점을 통해 Office 365 및 비즈니스용 Skype Online을 손쉽게 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+Windows PowerShell을 사용 하 여 사용자를 관리 하 고, 수행할 수 있는 작업을 관리할 수 있습니다. Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 관리 하는 데 도움이 될 수 있으며, 특히, 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점입니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
 
   - [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -249,7 +249,7 @@ Windows PowerShell을 사용 하 여 사용자를 관리 하 고, 수행할 수 
 
 Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
 
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
 

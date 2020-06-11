@@ -15,12 +15,12 @@ description: 주요 관련자, 비즈니스 결과, 성공 측정값 및 캠페�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 396649f40a3e3413de67aea61eca7f2feb7dac4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 93cc8c9b56381e656cbcfbe2c47aef0e10593e45
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778384"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690484"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft 팀에 대 한 변경 관리 전략 만들기
 =======================================================
@@ -61,8 +61,8 @@ ms.locfileid: "43778384"
 |  |  |
 |---------|---------|
 |![임원 스폰서 아이콘.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**임원진 스폰서** 는 조직 내의 주요 리더 이며 직원 도입을 추진 하는 데 필수적입니다. 회사 문화에 가장 큰 영향을 주고 새로운 기술 및 방법의 가치와 혜택을 적극적으로 통신할 수 있습니다.         |
-|![서비스 소유자 아이콘.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**서비스 소유자** 는 다른 사용자가 서비스를 사용 하 고 그에서 가치를 얻을 수 있는지 확인 해야 합니다. 조직 내에서 서비스 소유자를 설정 하는 것은 Office 365에 설정 된 비즈니스 목표가 실현 되도록 하는 것이 중요 합니다.         |
-|![챔피언 아이콘.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |조직 전체의 모든 사용자 로부터 구입을 하는 것은 쉽지 않은 일입니다. **챔피언** 를 사용 하면 이러한 문제를 완화 하 고 Office 365을 채택 하는 데 중요 한 역할을 할 수 있습니다. 귀하는 자신의 전문성을 furthering 하 고 피어 코칭 및 지원을 제공 하기 위해 노력 하 고 있습니다. Office 365를 부서나 팀의 현실으로 번역 하는 데 도움이 됩니다.         |
+|![서비스 소유자 아이콘.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**서비스 소유자** 는 다른 사용자가 서비스를 사용 하 고 그에서 가치를 얻을 수 있는지 확인 해야 합니다. 조직 내에서 서비스 소유자를 설정 하는 것이 Microsoft 365 또는 Office 365에 대해 설정 된 비즈니스 목표가 실현 되었는지 확인 하는 것이 중요 합니다.         |
+|![챔피언 아이콘.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |조직 전체의 모든 사용자 로부터 구입을 하는 것은 쉽지 않은 일입니다. **챔피언** 를 사용 하면 Microsoft 365 또는 Office 365을 채택 하는 데 있어이 문제를 완화 하 고 중요 한 역할을 즐길 수 있습니다. 귀하는 자신의 전문성을 furthering 하 고 피어 코칭 및 지원을 제공 하기 위해 노력 하 고 있습니다. Microsoft 365 또는 Office 365을 해당 부서나 팀의 현실으로 번역 하는 데 도움이 됩니다.         |
 
 이러한 관계자에 게 프로그램의 진행 상황을 최신 상태로 유지 하기 위해 정기적으로 모임을 하는 것이 좋습니다. 의견 및 토론을 허용 하는 "공동 작업 위원회"를 시작 하는 것은 회사 문화에 따라 유용한 도구가 될 수 있습니다.
 
@@ -145,7 +145,7 @@ ms.locfileid: "43778384"
 <a name="measure-and-share-success"></a>측정값 및 공유 성공
 -------------------------------------------------
 
-프로젝트 팀은 조직의 IT 관리자 여야 합니다. 이러한 사용자는 Microsoft 365 관리 센터 환경에서 기본으로 제공 되는 Office 365 Microsoft 팀 사용 보고서에 액세스할 수 있습니다. 이 정보는 회사에서 Microsoft 팀의 사용 현황을 표시할 수 있습니다. 또한 팀의 환경과 사용에 대 한 추가 아이디어에 대해 사용자가 직접 의견을 받는 것이 좋습니다. 자신의 회사 내에서 이러한 실제 예제를 공유 하는 것은 사용자 커뮤니티를 사용 하 여 시간이 지남에 따라 지속적으로 변화 하는 데 매우 유용 합니다.  
+프로젝트 팀은 조직의 IT 관리자 여야 합니다. 이러한 사용자는 Microsoft 365 관리 센터 환경에서 기본으로 제공 되는 365 365 Microsoft 팀 현황 보고서에 액세스할 수 있습니다. 이 정보는 회사에서 Microsoft 팀의 사용 현황을 표시할 수 있습니다. 또한 팀의 환경과 사용에 대 한 추가 아이디어에 대해 사용자가 직접 의견을 받는 것이 좋습니다. 자신의 회사 내에서 이러한 실제 예제를 공유 하는 것은 사용자 커뮤니티를 사용 하 여 시간이 지남에 따라 지속적으로 변화 하는 데 매우 유용 합니다.  
 
 Microsoft 365 [관리 센터의](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) microsoft 팀 사용 현황 보고서에 대 한 자세한 정보
 
@@ -154,8 +154,8 @@ Microsoft 365 [관리 센터의](https://support.office.com/article/Office-365-R
 
 ## <a name="ongoing-adoption"></a>진행 중인 채택을
 
-조직의 추진 변화는 이벤트가 아니라 지속적인 활동입니다. 추가 작업을 수행 하는 것은 사용자의 시작에만 유용 합니다. 이 여행을 위해 성공을 강조 하 고, 새로운 기능을 소개 하 고, 전체 Office 365 서비스 전략을 사용 하 여 연결 하는 것이 중요 합니다-IT 부서가이를 위한 것입니다. 사용자가 피로 하는 것이 아니라, 첨부 파일을 전자 메일로 보내는 등 기존 습관을 활용 하 여 클라우드에 문서를 저장 하는 등의 새로운 작업을 수행할 수 있도록 합니다.
+조직의 추진 변화는 이벤트가 아니라 지속적인 활동입니다. 추가 작업을 수행 하는 것은 사용자의 시작에만 유용 합니다. 성공 여부를 강조 하 고, 새 기능을 소개 하 고, 전체 Microsoft 365 또는 Office 365 서비스 전략으로 연결 하는이 여행을 계획 하는 것은 중요 합니다. 사용자가 피로 하는 것이 아니라, 첨부 파일을 전자 메일로 보내는 등 기존 습관을 활용 하 여 클라우드에 문서를 저장 하는 등의 새로운 작업을 수행할 수 있도록 합니다.
 
-Microsoft 기술 커뮤니티 사이트의 [운전 도입 커뮤니티](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) 에서 팀 및 Office 365의 서비스 채택에 대 한 질문을 공유 하세요. 저희는 항상 여러분의 의견을 듣고 여러분의 도움이 필요 합니다.  
+Microsoft 기술 커뮤니티 사이트의 [운전 도입 커뮤니티](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) 에서 팀, microsoft 365 또는 Office 365 서비스 채택에 대 한 질문을 공유 하세요. 저희는 항상 여러분의 의견을 듣고 여러분의 도움이 필요 합니다.  
 
 

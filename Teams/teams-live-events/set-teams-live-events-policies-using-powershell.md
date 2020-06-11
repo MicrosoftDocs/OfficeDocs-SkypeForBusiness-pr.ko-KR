@@ -18,12 +18,12 @@ description: PowerShell을 사용 하 여 조직에서 실시간 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d5f1cceb42afd2be92aedcd0a40af4e23650512
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1c1131790e36fe451444a8c8a3fb25259d5741da
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140649"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691574"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell을 사용 하 여 Microsoft 팀에서 실시간 이벤트 정책 설정
 
@@ -36,7 +36,7 @@ ms.locfileid: "43140649"
 몇 가지 예는 다음과 같습니다.
 
 > [!NOTE]
-> 이러한 cmdlet을 실행 하려면 비즈니스용 Skype Online PowerShell에 연결 되어 있어야 합니다. 자세한 내용은 [Office 365 PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)를 참조 하세요.
+> 이러한 cmdlet을 실행 하려면 비즈니스용 Skype Online PowerShell에 연결 되어 있어야 합니다. 자세한 내용은 [Microsoft 365 또는 Office 365 PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)를 참조 하세요.
 
 ## <a name="allow-users-to-schedule-live-events"></a>사용자가 라이브 이벤트를 예약할 수 있도록 허용 
 

@@ -23,16 +23,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Microsoft 팀 관리 센터를 사용 하 여 조직의 모든 전화 번호 목록과 사용자에 게 할당 되거나 지정 되지 않은 모든 번호를 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8ad4e0ce2949e2aa72d387aff167a433ec7c8150
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140961"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691174"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>조직의 전화 번호 목록 보기
 
-Office 365의 오디오 회의와 같이 사용자 또는 다른 서비스 (서비스 번호)에 할당할 수 있는 다양 한 전화 번호 유형이 있습니다.
+Microsoft 365 또는 Office 365의 오디오 회의와 같이 사용자 또는 다른 서비스 (서비스 번호)에 할당할 수 있는 다양 한 전화 번호 유형이 있습니다.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>조직에서 사용 하는 모든 전화 번호 목록을 보려면
 
@@ -40,7 +40,7 @@ Office 365의 오디오 회의와 같이 사용자 또는 다른 서비스 (서�
 
 1. **Microsoft 팀 관리 센터로**이동 합니다.
 
-2. 왼쪽 탐색 창에서 **음성** > **전화 번호로**이동 합니다.
+2. 왼쪽 탐색 창에서 **음성**  >  **전화 번호로**이동 합니다.
 
     > [!IMPORTANT]
     > 비즈니스용 Skype 관리 센터의 왼쪽 탐색 창에서 **음성** 옵션을 보려면 먼저 하나 이상의 **Enterprise E5 라이선스**, 하나의 **전화 시스템** 추가 기능 라이선스 또는 하나의 **오디오 회의** 추가 기능 라이선스를 구입 해야 합니다.
@@ -67,7 +67,7 @@ Office 365의 오디오 회의와 같이 사용자 또는 다른 서비스 (서�
 
 1. **Microsoft 팀 관리 센터로**이동 합니다.
 
-2. 왼쪽 탐색 창에서 **음성** > **전화 번호로**이동 합니다.
+2. 왼쪽 탐색 창에서 **음성**  >  **전화 번호로**이동 합니다.
 
     > [!IMPORTANT]
     > Microsoft 팀 관리 센터의 왼쪽 탐색에서 **음성** 옵션을 보려면 먼저 하나 이상의 **Enterprise E5 라이선스**, 하나의 **전화 시스템** 추가 기능 라이선스 또는 하나의 **오디오 회의** 추가 기능 라이선스를 구입 해야 합니다.
@@ -88,7 +88,7 @@ Office 365의 오디오 회의와 같이 사용자 또는 다른 서비스 (서�
   
 1. **Microsoft 팀 관리 센터로**이동 합니다.
 
-2. 왼쪽 탐색 창에서 **음성** > **전화 번호로**이동 합니다.
+2. 왼쪽 탐색 창에서 **음성**  >  **전화 번호로**이동 합니다.
 
     > [!IMPORTANT]
     > Microsoft 팀 관리 센터의 왼쪽 탐색에서 **음성** 옵션을 보려면 먼저 하나 이상의 **Enterprise E5 라이선스**, 하나의 **전화 시스템** 추가 기능 라이선스 또는 하나의 **오디오 회의** 추가 기능 라이선스를 구입 해야 합니다.

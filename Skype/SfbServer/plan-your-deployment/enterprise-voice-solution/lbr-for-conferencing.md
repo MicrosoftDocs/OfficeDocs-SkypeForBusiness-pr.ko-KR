@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 문의 후 통화 전송을 포함 하 여 비즈니스용 Skype 서버 Enterprise Voice에서 회의에 대 한 위치 기반 라우팅을 계획 합니다.
-ms.openlocfilehash: decfe8117b3b47c5de4db8a7d0963eca587d0da1
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f2a44c1f3275dd0cc9e1205d60ba26e01429ea51
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42130181"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690584"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 회의를 위한 위치 기반 라우팅
 
@@ -41,7 +41,7 @@ ms.locfileid: "42130181"
 
 전화 회의 응용 프로그램에 대 한 위치 기반 라우팅을 사용 하면 비즈니스용 Skype 사용자 및 다른 네트워크 사이트의 PSTN 끝점이 동일한 회의에 참가할 수 없습니다. 모임 이끌이가 위치 기반 라우팅을 사용 하도록 설정 된 경우에는 회의 응용 프로그램에서 다음과 같은 제한이 적용 됩니다.
 
-- 비즈니스용 Skype 모임에 참가할 수 있는 끝점은 이미 전화 회의에 참가 한 끝점에 의존 하며,이 제한은 연결 된 끝점 탈퇴 및 새 끝점이 전화 회의에 참가 하는 것으로 조정 됩니다. 이끌이 및 참가자가 동일한 네트워크 사이트에서 비즈니스용 Skype 모임에 참가 하는 경우 PSTN 끝점, 같은 네트워크 사이트의 다른 참가자, 다른 네트워크 사이트 또는 알 수 없는 네트워크 사이트의 참가자가 보낸 다른 참가자 참가할 수 있습니다.
+- 비즈니스용 Skype 모임에 참가할 수 있는 끝점은 이미 전화 회의에 참가 한 끝점에 의존 하며,이 제한은 연결 된 끝점 탈퇴 및 새 끝점이 전화 회의에 참가 하는 것으로 조정 됩니다. 이끌이 및 참가자가 동일한 네트워크 사이트에서 비즈니스용 Skype 모임에 참가 하는 경우 PSTN 끝점, 같은 네트워크 사이트의 다른 참가자, 다른 네트워크 사이트 또는 알 수 없는 네트워크 사이트의 참가자가 참가 하는 다른 참가자가 참가할 수 있습니다.
 
 - 이끌이 및 참가자가 다른 네트워크나 알 수 없는 네트워크 사이트에서 모임에 참가 하는 경우 PSTN 전화가 위치 기반 라우팅을 위해 사용 하도록 설정 된 SIP 트렁크에서 ingresses 경우 모임에 참가할 수 없습니다.
 
@@ -82,11 +82,11 @@ ms.locfileid: "42130181"
 
 ![회의 다이어그램의 위치 기반 라우팅](../../media/LocationBasedRoutingForConferencing.jpg)
 
-위치 기반 라우팅이 사용 하도록 설정 된 사용자가 PSTN 끝점 (이전 그림에 표시 된 대로)의 통화 전송 (문의 후)을 시작 하면 두 개의 활성 통화, PSTN 사용자와 비즈니스용 Skype 사용자 A, 그리고 Skype 간 통화 간 전화가 하나씩 생성 됩니다. 비즈니스 사용자 A 및 비즈니스용 Skype 사용자 B: 회의 응용 프로그램에 대 한 위치 기반 라우팅에 의해 적용 되는 동작은 다음과 같습니다.
+위치 기반 라우팅이 사용 하도록 설정 된 경우에는 이전 그림에 표시 된 것 처럼 PSTN 끝점의 문의 후 통화 전송이 시작 되며,이를 통해 PSTN 사용자와 비즈니스용 skype 사용자 A 간의 통화와 비즈니스용 Skype 사용자 A 및 비즈니스용 skype 사용자 B 간의 통화가 만들어집니다. 회의 응용 프로그램에 대 한 위치 기반 라우팅에 의해 적용 되는 동작은 다음과 같습니다. :
 
 - PSTN 통화에 대 한 SIP 트렁크 라우팅에 비즈니스용 Skype 사용자 B (즉, 전송 대상)가 있는 네트워크 사이트로 PSTN 통화를 다시 라우팅할 수 있는 권한이 있는 경우에는 통화 전송이 허용 됩니다. 그렇지 않으면 문의 후 통화 전송이 차단 됩니다. 이 인증은 현재 통화를 PSTN 끝점으로 라우팅하는 SIP 트렁크와 동일한 네트워크 사이트에 있는 전송 된 파티의 위치를 기반으로 수행 됩니다.
 
-- 인바운드 PSTN 통화에 대 한 SIP 트렁크 라우팅에 전송 된 파티 (비즈니스용 Skype 사용자 B)가 있거나, 전송 된 파티가 알 수 없는 네트워크 사이트에 있는 네트워크 사이트로 통화를 라우팅할 권한이 없는 경우에는 문의 후 call transfer to PSTN 끝점 (즉, 통화 전송 대상)이 차단 됩니다.
+- 인바운드 PSTN 통화에 대 한 SIP 트렁크 라우팅에 전송 된 파티 (비즈니스용 Skype 사용자 B)가 있거나, 전송 된 파티가 알 수 없는 네트워크 사이트에 있는 네트워크 사이트로 통화를 라우팅할 권한이 없는 경우에는 통화 전송 대상으로 문의 후 호출이 PSTN 끝점으로 전송 됩니다.
 
 다음 표에서는 문의 후 통화 전송에 대 한 회의 응용 프로그램에 대 한 위치 기반 라우팅에 따라 위치 기반 라우팅 제한이 적용 되는 방식을 설명 합니다. PBX 끝점이 네트워크 사이트에 직접 연결 되어 있지 않더라도 PBX에 연결 된 SIP 트렁크에 네트워크 사이트를 할당할 수 있습니다. 따라서 PBX 끝점이 네트워크 사이트에 간접적으로 연결 될 수 있습니다.
 
@@ -137,25 +137,25 @@ ms.locfileid: "42130181"
 
 회의 응용 프로그램에 대 한 위치 기반 라우팅은 기본적으로 사용 하지 않도록 설정 되어 있습니다. 이 응용 프로그램을 사용 하도록 설정 하기 전에 응용 프로그램에 할당할 올바른 우선 순위를 결정 해야 합니다. 이 우선 순위를 확인 하려면 비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행 합니다.
 
-Get-CsServerApplication-Identity Service: 등록자:<Pool FQDN>이 cmdlet에서 \<풀 FQDN\> 은 회의 응용 프로그램에 대 한 위치 기반 라우팅을 사용 하도록 설정 되는 풀입니다.
+Get-CsServerApplication-Identity Service: 등록자: <Pool FQDN> 이 cmdlet \<Pool FQDN\> 은 회의 응용 프로그램에 대 한 위치 기반 라우팅을 사용 하도록 설정 되는 풀입니다.
 
 이 cmdlet은 비즈니스용 Skype 서버에서 호스트 되는 응용 프로그램의 목록과 각 작업에 대 한 우선 순위 값을 반환 합니다. 회의 응용 프로그램에 대 한 위치 기반 라우팅에는 "DefaultRouting", "ExumRouting" 및 "OutboundRouting" 응용 프로그램 보다 더 작은 우선 순위 값이 할당 되어야 합니다. 회의 응용 프로그램에 대 한 위치 기반 라우팅을 "UdcAgent" 응용 프로그램의 우선 순위 값 보다 1 포인트가 더 높은 우선 순위 값으로 지정 하는 것이 좋습니다.
 
-예를 들어 "UdcAgent" 응용 프로그램의 우선 순위 값이 "2" 인 경우 "DefaultRouting" 응용 프로그램의 우선 순위 값은 "9"이 고 "ExumRouting" 응용 프로그램의 우선 순위 값은 "10"이 고 "OutboundRouting" 응용 프로그램의 우선 순위 값은 "10" 이면 회의 응용 프로그램에 대 한 위치 기반 라우팅에 우선 순위 값 "3"을 할당 해야 합니다. 이렇게 하면 응용 프로그램의 우선 순위가 다른 응용 프로그램 (우선 순위: 0 ~ 1), "UdcAgent" (Priority: 2), 위치 기반 라우팅 회의 응용 프로그램 (우선 순위: 3), 기타 응용 프로그램 (우선 순위: 4 ~ 8), " DefaultRouting "(Priority: 9)," ExumRouting "(Priority: 10) 및" OutboundRouting "(Priority: 11)
+예를 들어 "UdcAgent" 응용 프로그램의 우선 순위 값이 "2" 인 경우 "DefaultRouting" 응용 프로그램의 우선 순위 값은 "8"이 고 "ExumRouting" 응용 프로그램의 우선 순위 값은 "9"이 고 "OutboundRouting" 응용 프로그램의 우선 순위 값이 "10" 이면 회의 응용 프로그램에 대 한 위치 기반 경로를 지정 하 여 우선 순위 값 "3"을 할당 해야 합니다. 이렇게 하면 응용 프로그램의 우선 순위가 다음 순서 대로 적용 됩니다. 기타 응용 프로그램 (우선 순위: 0 ~ 1), "UdcAgent" (Priority: 2), 위치 기반 라우팅 회의 응용 프로그램 (우선 순위: 3), 다른 응용 프로그램과 (priority: 4-8), "DefaultRouting" (Priority: 9), "ExumRouting" (Priority: 10) 및 "OutboundRouting" (Priority: 11)
 
 회의 응용 프로그램에 대 한 위치 기반 라우팅에 대 한 올바른 우선 순위 값을 찾은 후 위치 기반 라우팅을 사용 하도록 설정 된 사용자를 가정 하는 각 프런트 엔드 풀 또는 Standard Edition Server에 대해 다음 cmdlet을 입력 합니다.
 
-새-CsServerApplication-Identity Service: 등록자:`<Pool FQDN`>/Lbrouting-priority \<응용 프로그램\> 우선 순위-사용 되는 $true-Critical $true-Uri<https://www.microsoft.com/LCS/LBRouting> 
+새-CsServerApplication-Identity Service: 등록자: `<Pool FQDN`>/lbrouting-우선 순위 \<Application Priority\> 사용 $True-Critical $True-Uri<http://www.microsoft.com/LCS/LBRouting>
 
-예:
+예시:
 
-새-CsServerApplication-Identity Service:Registrar:Ls2013-2lbrpool. s t s/LBRouting-Priority 3-사용 $true-Critical $true-Urihttps://www.microsoft.com/LCS/LBRouting 
+새-CsServerApplication-Identity Service:Registrar:Ls2013-2lbrpool. s t s/LBRouting-Priority 3-사용 $true-Critical $true-Urihttp://www.microsoft.com/LCS/LBRouting
 
 이 cmdlet을 사용한 후에는 풀의 모든 프런트 엔드 서버 또는 회의 응용 프로그램에 대 한 위치 기반 라우팅이 사용 하도록 설정 된 Standard Edition 서버를 다시 시작 합니다.
 
 > [!IMPORTANT]
 > 해당 하는 풀 또는 Standard Edition 서버에 있는 모든 프런트 엔드 서버가 다시 시작 될 때 까지는 전화 회의 또는 문의 후 전송에 대 한 위치 기반 라우팅 enforcements 적용 되지 않습니다. 위의 cmdlet에서 **$true** 하도록 설정 하는 **경우에는** 비즈니스용 Skype 서버 서비스가 즉시 다시 시작 됩니다. 이러한 서비스가 즉시 다시 시작 되지 않도록 하려면 지금 **$false** **하도록 설정 하 고** , 서비스를 다시 시작한 후에는 **csserverapplication** 을 사용 하 여 나중에 **$true** 로 변경 하는 것이 **중요** 합니다.
 
-회의 응용 프로그램에 대 한 위치 기반 라우팅을 사용 하도록 설정 하 고 해당 하는 모든 서버를 다시 시작 하면 위치 기반 라우팅을 사용 하도록 설정 된 비즈니스용 Skype 사용자가 구성한 모든 회의가 모니터링 됩니다. PSTN 유료 바이패스
+회의 응용 프로그램에 대 한 위치 기반 라우팅을 사용 하도록 설정 하 고 해당 하는 모든 서버를 다시 시작 하 고 나면 비즈니스용 Skype 사용자가 사용 하는 모든 회의가 PSTN 유료 바이패스를 방지 하기 위해 모니터링 됩니다.
 
 

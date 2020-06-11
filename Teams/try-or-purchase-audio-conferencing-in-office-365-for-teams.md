@@ -22,13 +22,13 @@ ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
-description: 'Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 26b7074407759533d2ac272371e34c9022dd6ce5
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+description: 'Microsoft 365 또는 Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
+ms.openlocfilehash: db49a690ef0936dc22a618756d15064543074137
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041775"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691544"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 팀을 위해 Microsoft 365에서 오디오 회의 체험 또는 구매
 
@@ -52,7 +52,7 @@ ms.locfileid: "44041775"
 
    - **구입**: [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
 
-3. 조직에서 일정을 예약 또는 진행 하는 사용자에 게 구입한 [비즈니스용 Office 365에 대 한 라이선스를 할당 하거나 제거](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) 합니다.
+3. [사용자를 개별적으로 또는 대량으로 추가 하거나](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 조직의 사용자에 게 예약 또는 선행 회의로 이동할 수 있습니다.
 
 4. 오디오 회의 추가 기능 라이선스 및 통신 크레딧 라이선스를 구입한 경우에는 할당 합니다. 지침은 [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
 
@@ -69,7 +69,7 @@ ms.locfileid: "44041775"
     > [!IMPORTANT]
     > 통신 크레딧이 설정 되어 있지 않은 경우에는 분당 유료 라이선스가 있는 모든 사용자가 오디오 회의를 사용할 수 없습니다.
 
-4. 조직에서 일정을 예약 또는 진행 하는 사용자에 게 구입한 [비즈니스용 Office 365에 대 한 라이선스를 할당 하거나 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 합니다.
+4. [사용자를 개별적으로 또는 대량으로 추가 하거나](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 조직의 사용자에 게 예약 또는 선행 회의로 이동할 수 있습니다.
 
     > [!NOTE]
     > 오디오 회의 분당 요금 라이선스가 있는 경우 오디오 회의 사용을 위해 특별히 각 사용자에 게 통신 크레딧 라이선스를 별도로 할당할 필요는 없습니다 (다른 서비스에 대해서도 할당 해야 할 수 있음).
@@ -96,7 +96,7 @@ ms.locfileid: "44041775"
 > [!NOTE]
 > 중국에서 21Vianet이 운영 하는 Office 365를 사용 하는 고객은이 기능을 아직 사용할 수 없습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에 대 한](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)자세한 내용을 알아보세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직에서 팀 사용](office-365-set-up.md)
 

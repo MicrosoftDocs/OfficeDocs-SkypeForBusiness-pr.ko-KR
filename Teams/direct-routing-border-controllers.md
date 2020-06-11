@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증 된 SBCs (세션 경계 컨트롤러)에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35ce7be2c99ad0de9da3d397c8b6aed28a3634bc
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1a76ed1e3a386aef7d6b6216b279a1e712e20f88
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666100"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691274"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -81,7 +81,12 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 | [오디오 코드](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     |
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. 소프트웨어 버전: 8.1.1 (빌드 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. 소프트웨어 버전: 8.1.1 (빌드 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
-
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP1100 소프트웨어 버전 8.3.0.1.2 |     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP3900 소프트웨어 버전 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP4600 소프트웨어 버전 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 소프트웨어 버전 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 소프트웨어 버전 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME 소프트웨어 버전 8.3.0.1.2 |     &#10004;     |
 
 새 기능에 대 한 아이디어 등 팀에 대 한 제품 피드백을 제공 하려면 [Uservoice](https://microsoftteams.uservoice.com)를 참조 하세요.
 주 버전에 부여 된 인증을 확인 합니다. 이는 주요 버전 다음의 SBC 펌웨어에 숫자가 포함 된 펌웨어가 지원 됨을 의미 합니다.

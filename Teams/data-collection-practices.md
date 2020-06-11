@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Microsoft에서 제품을 개선 하기 위해 비즈니스 및 비즈니스용 Skype 사용 및 문제를 이해 하기 위해 인구 조사, 사용, 오류 데이터를 수집 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b7f1f7b63645adfb0cfa0c492a680059ef383402
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137358"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691534"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>비즈니스용 Skype 및 Microsoft 팀 데이터 수집 방법
 
@@ -104,7 +104,7 @@ Skype 모임 앱 및 참가 시작 관리자 웹 페이지의 경우이 정책�
 
 - Disable자동 Sendtracing 그룹 정책 설정이 서버나 테 넌 트 관리 센터 (기본 상태인 경우)에서 False로 설정 되어 있습니다. 자세한 내용은 [클라이언트 부트스트랩 정책 구성을](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) 참조 하세요.
     
-- 최종 사용자 ![의 일반 탭 (기어 아이콘을 클릭 하면 기어를 ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) 나타내는 아이콘에는 비즈니스용 Skype 클라이언트에서 **일반** 탭이 표시 됨)의 **옵션** 대화 상자가 열립니다.
+- 최종 사용자의 일반 탭 (기어 아이콘을 클릭 하면 기어 ![ 를 나타내는 아이콘에는 ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) 비즈니스용 Skype 클라이언트에서 **일반** 탭이 표시 됨)의 **옵션** 대화 상자가 열립니다.
     
  
 ![옵션 대화 상자의 데이터 수집 확인란 스크린샷](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
@@ -115,7 +115,7 @@ Skype 모임 앱의 경우 MeetingUxEnableTelemetry는 또한 오류 보고 기�
 
 네트워크 설정을 위해 [비즈니스용 Skype Online에 대 한 네트워크 설정을](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66) 볼 수 있습니다.
 
-중국에서 21Vianet에서 운영 하는 Office 365를 사용 하는 경우 [21vianet에서 운영 하는 비즈니스용 Skype Online을 위한 네트워크 설정을](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)참조 하세요.
+중국에서 21Vianet이 운영 하는 Microsoft 365 또는 Office 365을 사용 하는 경우 [21vianet에서 운영 하는 비즈니스용 Skype Online을 위한 네트워크 설정을](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

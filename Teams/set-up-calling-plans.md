@@ -23,16 +23,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: '& 지역에서 사용할 수 있는 보기 계획을 비롯 하 여 전화 플랜을 설정 하 고, 라이선스를 할당 하 고, 전화 번호를 얻고, 긴급 주소 & 위치를 추가 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 97d0a29068acbb645018d7a3b76867e93d9804cd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666240"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691084"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 
-다른 팀 사용자에 게 거는 통화는 무료 이지만 사용자가 회사 외부의 전화로 전화를 걸 수 있게 하려면 Office 365에서 국내 통화 요금제 또는 국제 통화 요금제를 받으세요. 비즈니스에 대 한 통화 요금제를 쉽게 설정할 수 있습니다.  통화 요금제에 대 한 자세한 내용은 [사용자에 게 적합 한 통화 요금제](calling-plan-landing-page.md)를 참조 하세요.
+다른 팀 사용자에 게 거는 통화는 무료 이지만 사용자가 회사 외부의 전화로 전화를 걸 수 있게 하려면 Microsoft 365 또는 Office 365에서 국내 통화 요금제 또는 국제 통화 요금제를 받으세요. 비즈니스에 대 한 통화 요금제를 쉽게 설정할 수 있습니다.  통화 요금제에 대 한 자세한 내용은 [사용자에 게 적합 한 통화 요금제](calling-plan-landing-page.md)를 참조 하세요.
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>1 단계: 해당 국가/지역에서 통화 요금제를 사용할 수 있는지 확인
 [오디오 회의 및 통화 요금제에 대 한 국가 및 지역](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 으로 이동 하 고, 통화 요금제에 대 한 사용 가능성 정보를 가져오려면 국가 또는 지역을 선택 하 고, 음성 회의, 전화 시스템, 유료 전화, 무료 전화 번호, 통신 크레딧에 대 한 정보를 확인 하려면 여기를 클릭 합니다.
@@ -40,10 +40,10 @@ ms.locfileid: "44666240"
 해당 국가나 지역에 대 한 통화 요금제를 사용할 수 없는 경우 직접 라우팅 기능을 사용 하 여 온-프레미스 전화 통신 인프라를 전화 시스템에 연결 하는 것이 좋습니다.  자세한 내용은 [전화 시스템 직접 라우팅을](direct-routing-landing-page.md)참조 하세요.
   
 ## <a name="step-2-buy-and-assign-licenses"></a>2 단계: 라이선스 구입 및 할당
-1. Office 365 기능의 전화 시스템이 요금제에 포함 되어 있지 않은 경우에는 **전화 시스템** 추가 기능 라이선스를 구입 해야 할 수 있습니다. **전화 시스템** 라이선스가 있으면 [Office 365에 대 한 요금제](calling-plans-for-office-365.md)를 구입 합니다. [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하 고 라이선스 및 계획을 구입 합니다. 
+1. 전화 시스템 기능이 Microsoft 365 또는 Office 365 계획에 포함 되어 있지 않은 경우 **전화 시스템** 추가 기능 라이선스를 구입 해야 할 수 있습니다. **전화 시스템** 라이선스가 있으면 [Microsoft 365 또는 Office 365에 대 한 플랜](calling-plans-for-office-365.md)을 구입 합니다. [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하 고 라이선스 및 계획을 구입 합니다. 
     
     > [!TIP]
-    > Office 365의 **전화 시스템** 라이선스 및 통화 요금제가 함께 이동 하 여 통화 요금제를 구매 하는 옵션을 보려면 먼저 **전화 시스템** 라이선스를 보유 해야 합니다.
+    > Microsoft 365 또는 Office 365의 **전화 시스템** 라이선스 및 통화 계획이 함께 이동 하 여 통화 계획을 구매 하는 옵션을 보려면 먼저 **전화 시스템** 라이선스를 보유 해야 합니다.
   
 2. 먼저 라이선스를 할당 한 다음 조직의 사용자에 게 통화 계획을 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
     
@@ -52,7 +52,7 @@ ms.locfileid: "44666240"
 
 - **팀 관리 센터를 사용 합니다.** 일부 국가/지역의 경우 팀 관리 센터를 사용 하 여 사용자에 대 한 번호를 얻을 수 있습니다. [사용자의 전화 번호 가져오기를](getting-phone-numbers-for-your-users.md)참조 하세요.
     
-- **기존 서비스 전화 번호 포팅하기** 기존 전화번호를 현재 서비스 공급자 또는 전화 캐리어에서 Office 365로 포팅하거나 이전할 수 있습니다. 자세한 내용은 [팀으로 전화 번호 양도](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요. 
+- **기존 서비스 전화 번호 포팅하기** 현재 서비스 공급자 또는 전화 통신 회사의 기존 번호를 Microsoft 365 또는 Office 365으로 이식 하거나 전송할 수 있습니다. 자세한 내용은 [팀으로 전화 번호 양도](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요. 
   
 - **새 전화 번호를 위한 요청 양식 사용하기** 때로는 (국가/지역에 따라) 팀 관리 센터를 사용 하 여 새 전화 번호를 가져올 수 없으며, 특정 전화 번호 또는 지역 코드도 필요 합니다. 그럴 경우 양식을 다운로드하여 다시 보내주세요. 자세한 내용은 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요. 
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: 정책 이름에 특수 문자와 문제 해결을 위해 수행할 수 있는 작업에 대해 알아봅니다.
-ms.openlocfilehash: c6e41e19467f01252049c7fdc54745bcee3109d9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 7358bd989b793e988f0a3dacdded275b5232c8cc
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140841"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691514"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>팀 정책의 특수 문자 제한 사항은 무엇 인가요?
 
@@ -42,7 +42,7 @@ ms.locfileid: "43140841"
 ## <a name="to-remove-special-characters"></a>특수 문자를 제거 하려면
 
 **1 단계-PowerShell을 사용 하 여 원격 연결을 설정 합니다.** 
-아직 설치 하지 않은 경우 [Windows PowerShell 용 컴퓨터를 설정](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 합니다.
+ 아직 설치 하지 않은 경우 [Windows PowerShell 용 컴퓨터를 설정](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 합니다.
 ```PowerShell
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -91,11 +91,11 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell을 사용 하 여 관리 하는 방법을 알고 싶으세요?
 
-Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
     
   - [Office 365 PowerShell을 사용 해야 하는 이유는 무엇 인가요?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
     

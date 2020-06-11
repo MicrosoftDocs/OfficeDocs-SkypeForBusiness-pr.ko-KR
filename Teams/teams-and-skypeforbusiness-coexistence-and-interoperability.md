@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcc9aa13f80a090d65bd51c00b797c2a2ad63c61
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523331"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691044"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성 이해
 
@@ -54,7 +54,7 @@ ms.locfileid: "44523331"
 
 ### <a name="islands-mode"></a>아일랜드 모드
 
-기본적으로 사용자는 현재 상태, 채팅, 통화, 모임 등 유사 하 고 겹치는 기능을 제공 하는 두 개의 별도 솔루션으로 팀을 비즈니스용 Skype와 함께 실행할 수 있습니다. 팀 사용자는 또한 팀과 채널, Office 365의 파일에 대 한 액세스, 응용 프로그램 등의 새로운 공동 작업 기능을 활용할 수 있습니다.
+기본적으로 사용자는 현재 상태, 채팅, 통화, 모임 등 유사 하 고 겹치는 기능을 제공 하는 두 개의 별도 솔루션으로 팀을 비즈니스용 Skype와 함께 실행할 수 있습니다. 팀 사용자는 또한 팀과 채널, Microsoft 365 또는 Office 365의 파일에 대 한 액세스, 응용 프로그램 등의 새로운 공동 작업 기능을 활용할 수 있습니다.
 
 **아일랜드**라는이 공존 모드에서는 각 클라이언트 응용 프로그램이 별도의 아일랜드로 작동 합니다. 비즈니스용 skype는 비즈니스용 Skype와 통신 하 고 팀에 게 통신 합니다. 사용자는 항상 두 클라이언트를 모두 실행 하 고 통신이 시작 된 클라이언트에서 기본적으로 통신할 수 있어야 합니다. 따라서 **아일랜드** 모드에서는 상호 운영성이 필요 하지 않습니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "44523331"
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>팀 공동 작업을 통한 비즈니스용 Skype
 
-이 모드를 사용 하 여 비즈니스용 Skype에서 기존 투자를 계속 활용 하면서 팀을 환경에 도입할 수 있습니다. 이 모드에서는 채팅, 통화 및 모임 기능을 위해 비즈니스용 Skype를 변경 하지 않고 팀 공동 작업 기능 (팀 및 채널, Office 365의 파일에 대 한 액세스 및 응용 프로그램)을 추가할 수 있습니다. 팀 통신 기능-비공개 채팅, 통화, 모임 예약 등은이 모드에서 기본적으로 해제 되어 있습니다.
+이 모드를 사용 하 여 비즈니스용 Skype에서 기존 투자를 계속 활용 하면서 팀을 환경에 도입할 수 있습니다. 이 모드에서는 채팅, 통화 및 모임 기능을 위해 비즈니스용 Skype를 변경 하지 않고 팀 공동 작업 기능 (팀 및 채널, Microsoft 365 또는 Office 365의 파일에 대 한 액세스, 응용 프로그램)을 추가 합니다. 팀 통신 기능-비공개 채팅, 통화, 모임 예약 등은이 모드에서 기본적으로 해제 되어 있습니다.
 
 온-프레미스 또는 하이브리드 비즈니스 서버의 비즈니스용 Skype를 사용 하는 조직은 해당 사용자에 게 통신에 대 한 상호 운용성 및 예측 가능성을 제공 하려는 경우와 팀 업그레이드에 대 한 예측 가능한 시간 표시 막대 ( **아일랜드** 모드의 채택 채도에 의존 하지 않는 경우 **)를 고려해** 야 합니다.
 
@@ -142,7 +142,7 @@ Interop 환경에는 네이티브 및 interop 에스컬레이션 이라는 두 �
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> 비즈니스용 Skype 배포의 Interop 환경은 Office 365 비즈니스용 Skype를 사용 하 여 온-프레미스 환경이 하이브리드 모드에 있어야 합니다. 자세한 내용은 [마이그레이션 및 상호 운용성 지침](https://aka.ms/SkypeToTeams-Interop)을 참조 하세요.
+> 비즈니스용 Skype 배포를 사용 하는 Interop 환경은 Microsoft 365 또는 Office 365 비즈니스용 Skype를 사용 하 여 온-프레미스 환경이 하이브리드 모드에 있어야 합니다. 자세한 내용은 [마이그레이션 및 상호 운용성 지침](https://aka.ms/SkypeToTeams-Interop)을 참조 하세요.
 
 이러한 interop 환경은 다음 공존 모드 중 하나를 할당 받은 사용자, 즉 **팀 공동 작업**, **팀 공동 작업 및 모임** **, 비즈니스용 skype 또는** **팀만**이 포함 된 비즈니스용 skype에서 사용할 수 있습니다. **아일랜드** 모드에서는 사용자와의 상호 운영성이 없습니다.
 

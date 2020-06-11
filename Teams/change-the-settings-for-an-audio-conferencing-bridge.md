@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: 입력 및 종료 알림, 재생 이름 또는 전화 번호, 톤, 메시지 발신자 등의 오디오 회의 브리지 설정을 변경 하 여 자신의 이름을 기록 합니다.
-ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acebe42e8dbc5707238975c34ce97961c1493d91
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780347"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690914"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>오디오 회의 브리지의 설정 변경
 
-Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브리지 라고 하는 사용자의 전화 번호를 받게 됩니다. 회의 브리지에는 하나 이상의 전화 번호가 포함될 수 있습니다. 이러한 전화 번호는 발신자가 모임에 전화를 걸 때 사용 됩니다. 전화 번호는 비즈니스용 Skype 또는 Microsoft 팀 모임 초대의 아래쪽에 포함 되어 있습니다.
+Microsoft 365 또는 Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브리지 라고 하는 사용자의 전화 번호를 받게 됩니다. 회의 브리지에는 하나 이상의 전화 번호가 포함될 수 있습니다. 이러한 전화 번호는 발신자가 모임에 전화를 걸 때 사용 됩니다. 전화 번호는 비즈니스용 Skype 또는 Microsoft 팀 모임 초대의 아래쪽에 포함 되어 있습니다.
   
 회의 브리지는 전화를 걸거나 모임 자동 전화 교환을 사용 하 여 음성 메시지를 발신자에 게 메시지를 표시 하 고, 설정에 따라 알림을 재생 하 고, 발신자에 게 자신의 이름을 기록 하도록 요청 하 고, PIN 설정을 제어할 수 있습니다. 모임이 비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하지 않는 경우 모임을 시작할 수 있도록 모임 이끌이에게 Pin이 지정 됩니다.
 
@@ -45,7 +45,7 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams 로고를 보여주는 아이콘](media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
 
-1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
+1. 왼쪽 탐색 창에서 **모임**  >  **회의 브리지로**이동 합니다. 
 
 2. **회의 브리지** 페이지 맨 위에서 **브리지 설정을**클릭 합니다. 
 
@@ -72,7 +72,7 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
 
  **발신자가 모임에 참가 하는 경우의 모임 환경 설정**
     
-1. **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의** > **Microsoft bridge 설정**으로 이동 합니다.
+1. **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의**  >  **Microsoft bridge 설정**으로 이동 합니다.
     
 2. **Microsoft 브리지 설정** 페이지의 **모임 참가 환경**에서 다음을 선택 합니다.
     
@@ -92,9 +92,9 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
   
 1. 회사 또는 학교 계정으로 로그인 합니다.
     
-2. **Microsoft 365 관리 센터** > **비즈니스용 Skype**로 이동 합니다.
+2. **Microsoft 365 관리 센터**  >  **비즈니스용 Skype**로 이동 합니다.
     
-3. **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의** > **Microsoft bridge 설정**으로 이동 합니다.
+3. **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의**  >  **Microsoft bridge 설정**으로 이동 합니다.
     
 4. **Microsoft 브리지 설정** 페이지의 **보안**에서 **PIN 길이** 목록에 원하는 pin의 자릿수를 입력 한 다음 **저장**을 클릭 합니다.
     
@@ -105,9 +105,9 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
   
 1. 회사 또는 학교 계정으로 로그인 합니다.
     
-2. **Microsoft 365 관리 센터** > **비즈니스용 Skype**로 이동 합니다.
+2. **Microsoft 365 관리 센터**  >  **비즈니스용 Skype**로 이동 합니다.
     
-3. **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의** > **Microsoft bridge 설정**으로 이동 합니다.
+3. **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의**  >  **Microsoft bridge 설정**으로 이동 합니다.
     
 4. **Microsoft 브리지 설정** 페이지에서 **전화 접속 정보가 변경 된 경우 자동으로 전자 메일을 사용자에 게 보내기를**선택 하거나 선택을 취소 한 다음 **저장**을 클릭 합니다.
     
@@ -117,11 +117,11 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
 
 - 시간을 절약 하거나이 프로세스를 자동화 하려면 [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) cmdlet을 사용 하면 됩니다.
     
-- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
     
   - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요. 
     

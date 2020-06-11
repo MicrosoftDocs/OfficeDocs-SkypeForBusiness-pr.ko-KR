@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Office 365에서 통화 요금제를 사용 하는 경우 응급 통화를 위해 이러한 레이블을 다운로드 하 여 인쇄할 수 있습니다.
-ms.openlocfilehash: d092d94ac6ca2288a2cb6a5a0dac6a8b49fb0967
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+description: Microsoft 365 또는 Office 365에서 통화 요금제를 사용 하는 경우 응급 통화를 위해 이러한 레이블을 다운로드 하 여 인쇄할 수 있습니다.
+ms.openlocfilehash: 30286acb1d1b91f52287d50eab7a72d7efe94915
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904313"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691464"
 ---
 # <a name="emergency-calling-labels"></a>비상 전화 레이블
 

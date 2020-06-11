@@ -17,12 +17,12 @@ f1.keywords:
 description: 다이렉트 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a66213214457648ec0b699d77bdadc96113fba27
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780687"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691224"
 ---
 # <a name="direct-routing---sip-protocol"></a>다이렉트 라우팅-SIP 프로토콜
 
@@ -30,7 +30,7 @@ ms.locfileid: "43780687"
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>수신 요청 처리: 테 넌 트 및 사용자 찾기
 
-수신 전화에서 SIP 프록시는 통화가 전송 되는 테 넌 트를 찾아이 테 넌 트 내의 특정 사용자를 찾습니다. 테 넌 트 관리자는 여러 테 넌 트에 + 1001와 같이 숫자가 아닌 번호를 구성할 수 있습니다. 따라서 여러 Office 365 조직에서 유효 하지 않은 번호를 사용할 경우에는 번호 조회를 수행할 특정 테 넌 트를 찾는 것이 중요 합니다.  
+수신 전화에서 SIP 프록시는 통화가 전송 되는 테 넌 트를 찾아이 테 넌 트 내의 특정 사용자를 찾습니다. 테 넌 트 관리자는 여러 테 넌 트에 + 1001와 같이 숫자가 아닌 번호를 구성할 수 있습니다. 따라서 여러 Microsoft 365 또는 Office 365 조직에서 번호 조회를 수행할 특정 테 넌 트가 아닌 숫자가 동일할 수 있으므로이를 찾는 것이 중요 합니다.  
 
 이 섹션에서는 SIP 프록시에서 테 넌 트 및 사용자를 찾고, 들어오는 연결에 대 한 SBC의 인증을 수행 하는 방법을 설명 합니다.
 
@@ -56,11 +56,11 @@ ms.locfileid: "43780687"
 
 2. 연락처 머리글에 표시 된 전체 FQDN 이름을 사용 하 여 테 넌 트를 찾아 봅니다.  
 
-   Contact 헤더 (sbc1.adatum.biz)의 FQDN 이름이 모든 Office 365 조직에서 DNS 이름으로 등록 되었는지 확인 합니다. 발견 되 면 사용자의 조회가 도메인 이름으로 등록 된 SBC FQDN이 있는 테 넌 트에서 수행 됩니다. 이를 찾을 수 없는 경우 3 단계가 적용 됩니다.   
+   Sbc1.adatum.biz (연락처 헤더)의 FQDN 이름이 Microsoft 365 또는 Office 365 조직에 DNS 이름으로 등록 되었는지 확인 합니다. 발견 되 면 사용자의 조회가 도메인 이름으로 등록 된 SBC FQDN이 있는 테 넌 트에서 수행 됩니다. 이를 찾을 수 없는 경우 3 단계가 적용 됩니다.   
 
 3. 3 단계는 2 단계가 실패 한 경우에만 적용 됩니다. 
 
-   FQDN에서 호스트 부분 (호스트 부분: adatum.biz을 제거한 후에는 FQDN: sbc12.adatum.biz)을 제거 하 고이 이름이 모든 Office 365 조직에서 DNS 이름으로 등록 되었는지 확인 합니다. 발견 되 면 사용자 조회가이 테 넌 트에서 수행 됩니다. 찾을 수 없는 경우에는 통화에 실패 합니다.
+   FQDN에서 호스트 부분 (호스트 부분: adatum.biz을 제거한 후에는 FQDN: sbc12.adatum.biz)을 제거 하 고이 이름이 Microsoft 365 또는 Office 365 조직에서 DNS 이름으로 등록 되었는지 확인 합니다. 발견 되 면 사용자 조회가이 테 넌 트에서 수행 됩니다. 찾을 수 없는 경우에는 통화에 실패 합니다.
 
 4. 요청 URI에 표시 된 전화 번호를 사용 하 여 2 단계 또는 3 단계의 테 넌 트 내에서 역 번호 조회를 수행 합니다. 제시 된 전화 번호를 이전 단계에서 찾은 테 넌 트 내의 사용자 SIP URI와 일치 시킵니다.
 
@@ -82,7 +82,7 @@ Microsoft SIP 프록시로 들어오는 모든 통화에 대해 Contact 헤더�
 
 와일드 카드 지원은 [RFC 2818, 섹션 3.1](https://tools.ietf.org/html/rfc2818#section-3.1)에 설명 되어 있습니다. 개발
 
-*"이름에는 단일 도메인 이름 \* 구성 요소 또는 구성 요소 조각과 일치 하는 것으로 간주 되는 와일드 카드 문자가 포함 될 수 있습니다. 예: a.com \*는 foo.a.com와 일치 하지만 bar.foo.a.com는 그렇지 않습니다. \*foo.com는 일치 하지만 bar.com는 그렇지 않습니다.*
+*"이름에는 \* 단일 도메인 이름 구성 요소 또는 구성 요소 조각과 일치 하는 것으로 간주 되는 와일드 카드 문자가 포함 될 수 있습니다. 예를 들어, \* . a.com는 foo.a.com와 일치 하지만 bar.foo.a.com는 \* foo.com만 일치 하지만 bar.com는 그렇지 않습니다. "*
 
 SIP 메시지에 표시 된 연락처 머리글에 두 개 이상의 값이 SBC에 의해 전송 되는 경우 연락처 머리글의 첫 번째 값에 대 한 FQDN 부분만 사용 됩니다.
 

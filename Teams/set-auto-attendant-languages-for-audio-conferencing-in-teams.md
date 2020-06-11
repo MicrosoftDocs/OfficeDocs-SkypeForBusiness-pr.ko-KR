@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Microsoft 팀에서 오디오 회의 번호에 대 한 오디오 회의 자동 전화 교환 언어를 선택 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 37d430ba641277c7b72f921b06599f58cff4e4a0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d7f6893bfc9c58131fe596597afc1ac90389d908
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140921"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691134"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의를 위한 자동 전화 교환 언어 설정
 
@@ -45,7 +45,7 @@ Microsoft 팀의 오디오 회의 자동 전화 교환은 사용자가 모임에
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다.
+1. 왼쪽 탐색 창에서 **모임**  >  **회의 브리지로**이동 합니다.
 
 2. 목록에서 **전용** 오디오 회의 전화 번호를 선택 하 고 페이지 맨 위에서 **편집**을 클릭 합니다. 전용 오디오 회의 번호의 언어만 변경할 수 있습니다. **편집** 옵션은 전용 오디오 회의 번호를 선택 하는 경우에만 표시 됩니다.
 
@@ -63,7 +63,7 @@ Microsoft 팀의 오디오 회의 자동 전화 교환은 사용자가 모임에
     
 - 공유 전화 번호에 대해서만 언어를 설정할 수 있습니다.
     
-- Microsoft를 공급자로 사용 하는 Office 365의 오디오 회의를 사용할 수 있는 국가/지역 목록을 보려면 [오디오 회의의 전화 번호](phone-numbers-for-audio-conferencing-in-teams.md)를 참조 하세요.
+- Microsoft에서 제공 하는 공급자를 사용 하는 Office 365 365의 오디오 회의를 사용할 수 있는 국가/지역 목록을 보려면 [오디오 회의의 전화 번호](phone-numbers-for-audio-conferencing-in-teams.md)를 참조 하세요.
     
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell을 사용 하 고 싶으신가요?
 
@@ -71,5 +71,5 @@ Microsoft 팀의 오디오 회의 자동 전화 교환은 사용자가 모임에
   
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

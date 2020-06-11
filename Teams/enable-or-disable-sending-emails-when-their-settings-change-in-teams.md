@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Pin 변경 또는 Microsoft 팀의 기본 회의 번호 변경 등의 설정이 사용자에 게 전자 메일을 보내는 것을 허용 하거나 해제 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: f1c9ca14a88317cd921c19e761ee06cba2786dba
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 36c7e9dce17de1e6f9bbf8b812d62ddd91bc6ffe
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141241"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691604"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의 설정이 변경 될 때 전자 메일 보내기 사용 또는 사용 안 함
 
@@ -61,7 +61,7 @@ Microsoft 팀 또는 Windows PowerShell을 사용 하 여 사용자에 게 전�
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
+1. 왼쪽 탐색 창에서 **모임**  >  **회의 브리지로**이동 합니다. 
 
 2. **회의 브리지** 페이지 맨 위에서 **브리지 설정을**클릭 합니다. 
 
@@ -80,7 +80,7 @@ Microsoft 팀 또는 Windows PowerShell을 사용 하 여 사용자에 게 전�
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 
-Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
     
   - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     

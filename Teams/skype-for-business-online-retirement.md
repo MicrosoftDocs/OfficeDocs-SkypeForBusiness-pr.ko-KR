@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905540"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691524"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
@@ -31,7 +31,7 @@ ms.locfileid: "43905540"
  
 ## <a name="what-is-the-skype-for-business-retirement-plan"></a>비즈니스용 Skype 만료 플랜은 무엇 인가요?
 
-비즈니스용 Skype Online은 2021 년 7 월 31 일에 만료 되며, 그 이후에는 서비스에 액세스할 수 없게 됩니다. 지금까지 현재 비즈니스용 Skype Online 고객은 서비스를 변경할 필요가 없으며 필요에 따라 새 사용자를 계속 추가할 수 있습니다. 그러나 2019 년 9 월 1 일부 터는 채팅, 모임, 통화에 대 한 팀에 게 모든 새 Office 365 고객을 바로 무료로 제공 합니다. Skype 소비자 서비스 및 비즈니스용 Skype 서버는 모두 본 공지에 영향을 받지 않습니다.  
+비즈니스용 Skype Online은 2021 년 7 월 31 일에 만료 되며, 그 이후에는 서비스에 액세스할 수 없게 됩니다. 지금까지 현재 비즈니스용 Skype Online 고객은 서비스를 변경할 필요가 없으며 필요에 따라 새 사용자를 계속 추가할 수 있습니다. 그러나 2019 년 9 월 1 일부 터는 채팅, 모임, 통화를 위해 팀에 직접 새로운 Microsoft 365 또는 Office 365 고객을 무료로 제공 합니다. Skype 소비자 서비스 및 비즈니스용 Skype 서버는 모두 본 공지에 영향을 받지 않습니다.  
 
 ## <a name="why-are-we-making-this-announcement-now"></a>지금 알림을 보내는 이유는 무엇 인가요?
 

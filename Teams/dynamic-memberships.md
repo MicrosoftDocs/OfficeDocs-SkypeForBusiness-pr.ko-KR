@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 24268206ee4f325d3b80f315f1125cfff5d0fbad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638407"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691594"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>팀의 동적 구성원 개요
 
@@ -43,13 +43,13 @@ Microsoft 팀은 팀의 Microsoft 365 그룹에 영향을 주는 경우 동적 �
 > - 멤버가 동적 그룹 규칙으로 정의 되므로 소유자는 팀 구성원으로 사용자를 추가 하거나 제거할 수 없습니다.
 > -    구성원은 동적 그룹으로 지원 되는 팀에서 나갈 수 없습니다.
 
-
 ## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>동적 구성원 자격을 사용 하 여 Microsoft 365 그룹 만들기 및 관리
+
 테 넌 트 관리자로 로그인 한 [후 동적 그룹 만들기](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)의 지침에 따라 상태를 확인 합니다. 필요에 따라 [Azure Active Directory의 그룹에 대 한 동적 구성원 규칙](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)을 참조 하세요.
 
-## <a name="create-a-new-team-with-your-o365-group"></a>O365 그룹을 사용 하 여 새 팀 만들기
+## <a name="create-a-new-team-with-your-microsoft-365-group"></a>Microsoft 365 그룹을 사용 하 여 새 팀 만들기
 
-이제 구성원 변경 내용이 적용 되는 시간을 허용 하 고 [Microsoft 팀과 기존 microsoft 365 그룹 향상](enhance-office-365-groups.md)에 설명 된 대로 새 팀을 만듭니다.
+이제 구성원 변경 내용이 적용 되는 시간을 허용 하 고 [기존 그룹에서 팀 만들기](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865)에 설명 된 대로 새 팀을 만듭니다.
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>기존 팀에 동적 구성원 자격 적용
 

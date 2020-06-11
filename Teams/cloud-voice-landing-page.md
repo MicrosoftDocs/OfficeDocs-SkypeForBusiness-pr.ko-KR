@@ -20,12 +20,12 @@ search.appverid: MET150
 description: 클라우드 음성 기능에 대해 자세히 알아보고 필요한 배포 결정을 이해 하세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281673"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690794"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성
 
@@ -43,7 +43,7 @@ ms.locfileid: "44281673"
 
 다음 문서는 팀에서 클라우드 음성 기능을 배포 하 고 사용 하는 방법에 대 한 자세한 정보를 제공 합니다.
 
-- [Office 365의 전화 시스템](what-is-phone-system-in-office-365.md)
+- [Microsoft 365 또는 Office 365의 전화 시스템](what-is-phone-system-in-office-365.md)
 - [통화 요금제가 포함 되어 있는 전화 시스템](calling-plan-landing-page.md)
 - [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
 - [클라우드 음성 배포](cloud-voice-deployment.md)
@@ -57,12 +57,12 @@ ms.locfileid: "44281673"
 
 ## <a name="phone-system-office-365"></a>전화 시스템 (Office 365)
 
-전화 시스템은 Office 365 클라우드에서 통화 제어 및 PBX (개인 브랜치 교환) 기능을 사용 하도록 설정 하기 위한 Microsoft의 기술입니다. 전화 시스템을 사용 하면 기존 개인 분기 교환 (PBX) 시스템을 Office 365에서 직접 전달 되는 기능 집합으로 대체 하 고 회사의 클라우드 생산성 환경에 긴밀 하 게 통합할 수 있습니다.
+전화 시스템은 Microsoft 365 또는 Office 365 클라우드에서 통화 제어 및 PBX (개인 브랜치 교환) 기능을 사용 하도록 설정 하기 위한 Microsoft의 기술입니다. 전화 시스템을 사용 하면 기존 개인 분기 교환 (PBX) 시스템을 Microsoft 365 또는 Office 365에서 직접 제공 되는 기능 집합으로 대체 하 고 회사의 클라우드 생산성 환경에 긴밀 하 게 통합할 수 있습니다.
 
 
 |본인에게 질의하기|작업 |
 |:------------|:-------|
-|어떤 사용자 위치 또는 사무실에서 전화 시스템을 구현 하나요? |전화 시스템에 대 한 자세한 내용은 [Office 365의 전화 시스템](what-is-phone-system-in-office-365.md)을 참조 하세요.</li></ul>|
+|어떤 사용자 위치 또는 사무실에서 전화 시스템을 구현 하나요? |전화 시스템에 대 한 자세한 내용은 [Microsoft 365 또는 Office 365의 전화 시스템](what-is-phone-system-in-office-365.md)을 참조 하세요.</li></ul>|
 |||
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>PSTN (공개 교환 전화 네트워크)에 대 한 연결
@@ -120,7 +120,7 @@ Microsoft에는 두 가지 유형의 전화 번호, 즉 조직의 사용자에 �
 
 ### <a name="dial-plans"></a>다이얼 플랜
 
-Office 365의 전화 시스템 기능에 있는 다이얼 플랜은 전화 번호를 대체 형식 (일반적으로 E. \ 164 형식)으로 변환 하는 표준화 규칙 집합으로, 통화 승인 및 통화 라우팅을 위해 사용할 수 있습니다.
+Microsoft 365 또는 Office 365의 전화 시스템 기능에 있는 다이얼 플랜은 전화 걸기 전화 번호를 대체 형식 (일반적으로 E. \ 164 형식)으로 변환 하는 표준화 규칙 집합으로, 통화 승인 및 통화 라우팅을 위한 것입니다.
 
 다이얼 플랜에 대한 자세한 내용은 [다이얼 플랜이란?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)을 참조하세요.
 

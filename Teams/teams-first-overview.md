@@ -11,33 +11,33 @@ ms.collection:
 ms.reviewer: lsomi
 localization_priority: Normal
 search.appverid: MET150
-description: 이 지침을 사용 하 여 Microsoft 팀을 첫 번째 Office 365 작업으로 배포 합니다.
+description: 이 지침을 사용 하 여 Microsoft 팀을 첫 번째 Microsoft 365 또는 Office 365 작업 부하로 롤아웃할 수 있습니다.
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
-ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
+ms.openlocfilehash: 84408fdb6d58e755d0eb4c775d1954f22791264c
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44472349"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691004"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft 팀 먼저 롤아웃
 
-Microsoft 팀은 직원 들이 전세계에 있는 직원의 실제 근무 시간에 따라 서로 연결 하 고 공동 작업 하는 데 도움이 될 수 있습니다. 팀 내에서 채팅, 영상 모임, Office 문서 공동 작업을 할 수 있습니다. 회사가 생산성을 유지 하는 데 도움을 줍니다. 소규모 기업, 비 손익 또는 대규모 조직에 관계 없이 다른 Office 앱 이나 서비스를 배포 하기 전에 Office 365 suite의 첫 번째 작업 부하로 팀을 시작할 수 있습니다.
+Microsoft 팀은 직원 들이 전세계에 있는 직원의 실제 근무 시간에 따라 서로 연결 하 고 공동 작업 하는 데 도움이 될 수 있습니다. 팀 내에서 채팅, 영상 모임, Office 문서 공동 작업을 할 수 있습니다. 회사가 생산성을 유지 하는 데 도움을 줍니다. 소규모 기업, 비 손익 또는 대규모 조직에 관계 없이 다른 Office 앱 이나 서비스를 배포 하기 전에 Microsoft 365 또는 Office 365 제품군의 첫 번째 작업 부하로 팀을 시작할 수 있습니다.
 
 이 문서에서는 "팀 먼저" 접근 방법으로 수행 해야 하는 고려 사항에 대해 설명 합니다.
 
 > [!IMPORTANT]
 > 팀은 조직의 첫 번째 클라우드가 배포할 수 있지만 전체 클라우드 배포 전략의 일부로 팀을 배포 해야 합니다.
 
-다른 Office 365 서비스와 팀이 이미 출시 된 경우 다음 작업 부하 (첫 단계 대신)에서 [팀을 배포 하는 방법](How-to-roll-out-teams.md)부터 시작 합니다.
+다른 Microsoft 365 또는 Office 365 서비스와 팀이 배포 되는 경우 (첫 번째 단계 대신) 다음 작업 부하로 인해 [팀을 롤아웃 하는 방법](How-to-roll-out-teams.md)부터 시작 합니다.
 
 ## <a name="start-here"></a>여기에서 시작
 
 먼저 팀을 배포 하려면 최소한 몇 가지 사전 요구 사항이 충족 되어야 합니다. 다음 목록에는 팀을 사용 하도록 설정 하기 전에 조직에 대해 필요한 항목이 표시 됩니다.
 
-1.  도메인 이름으로 구성 된 Office 365 조직
+1.  도메인 이름으로 구성 된 Microsoft 365 또는 Office 365 조직
 
 2.  필수 특성이 모두 테 넌 트에서 동기화 되는 Azure Active Directory 연결 (AAD connect) 또는 유사한 클라우드 id 동기화 솔루션  
     AAD 동기화와 동기화 된 특성을 이해 하려면 [AZURE AD Connect 동기화 읽기: 특성을 Azure Active Directory와 동기화](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized) 됨
@@ -48,7 +48,7 @@ Microsoft 팀은 직원 들이 전세계에 있는 직원의 실제 근무 시�
 4.  조직에서 팀에 대해 준비한 네트워크  
     네트워크 준비를 이해 하려면 [팀에 대 한 조직의 네트워크 준비](prepare-network.md)를 읽어 보세요.
 
-5.  Office 365: [office 365 url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)에서 Exchange, Sharepoint, 비즈니스용 OneDrive에 대 한 네트워크 액세스를 허용 합니다.
+5.  Microsoft 365 또는 Office 365에서 Exchange, Sharepoint, 비즈니스용 OneDrive에 대 한 네트워크 액세스를 허용 합니다. [office 365 url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!NOTE]
 > 2019 년 9 월 1 일 이후에 만든 테 넌 트를 팀 전용 모드로 프로 비전 합니다.
@@ -58,7 +58,7 @@ Microsoft 팀은 직원 들이 전세계에 있는 직원의 실제 근무 시�
 
 ## <a name="migration-starting-points"></a>마이그레이션 시작 지점
 
-시작 지점 및 온-프레미스 비즈니스용 Skype 또는 Lync server에 따라 팀에서 사용할 수 있는 Office 365 및 기능에 대 한 여행입니다. 다음 섹션에서는 위의 사전 요구 사항 외에도 기본적인 기능과 구성 옵션에 대해 자세히 설명 합니다. 이 출발점 시나리오를 다음 항목으로 세분 했습니다.
+Microsoft 365 또는 Office 365에 대 한 여행, 시작 지점 및 온-프레미스 비즈니스용 Skype 또는 Lync server에 따라 팀에서 사용할 수 있는 기능입니다. 다음 섹션에서는 위의 사전 요구 사항 외에도 기본적인 기능과 구성 옵션에 대해 자세히 설명 합니다. 이 출발점 시나리오를 다음 항목으로 세분 했습니다.
 
 **테 넌 트 팀 구성**: 테 넌 트 및 사용자 모드는 받는 사람의 동작을 제어 하는 데 사용 됩니다. 이러한 설정은 테 넌 트 수준이 나 조직의 사용자 수준에 할당할 수 있습니다. 자세한 내용은 [비즈니스용 Skype를 사용 하 여](coexistence-chat-calls-presence.md)함께 읽어 보세요.
 
@@ -88,7 +88,7 @@ Microsoft 팀은 직원 들이 전세계에 있는 직원의 실제 근무 시�
 
 ## <a name="organizations-span-classunderlinewithoutspan-skype-for-business-or-lync-server"></a>비즈니스용 Skype 또는 Lync server가 **<span class="underline">없는</span>** 조직
 
-이 시작 단계에서는 조직이 비즈니스용 Skype 또는 Lync server를 사용 하지 않는 것으로 가정 하 고 현재 그리고 팀이 Office 365의 첫 번째 응용 프로그램이 됩니다. 다음 표에서는 핵심 서비스에 대 한 팀의 상위 수준 구성과 최종 사용자 기능에 대해 설명 합니다.
+이 시작 단계에서는 조직이 비즈니스용 Skype 또는 Lync server를 사용 하지 않는 것으로 가정 하 고, 현재 팀이 Microsoft 365 또는 Office 365의 첫 번째 응용 프로그램이 됩니다. 다음 표에서는 핵심 서비스에 대 한 팀의 상위 수준 구성과 최종 사용자 기능에 대해 설명 합니다.
 
 <table>
 <thead>
@@ -104,9 +104,9 @@ Microsoft 팀은 직원 들이 전세계에 있는 직원의 실제 근무 시�
 </tr>
 <tr class="even">
 <td>팀에서 채팅/외부 통신</td>
-<td><p>내부 (Office에서 365 조직 내) 및 팀에서 수행할 수 있는 외부 채팅 통신</p>
-<p><em>참고: DNS 항목은 외부 액세스용으로 구성 해야 합니다. 비즈니스용 skype for 온-프레미스 또는 Office 365에서 Lync 및 비즈니스용 Skype 환경과 페더레이션이 허용 되지 않는 경우에도 비즈니스용 skype DNS 레코드가 필요 합니다.<br />
-<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Office 365의 외부 도메인 이름 시스템 레코드</a></em></p></td>
+<td><p>내부 (Microsoft 365 또는 Office 365 조직 내) 및 팀에서 가능 하 게 하는 외부 채팅 통신</p>
+<p><em>참고: DNS 항목은 외부 액세스용으로 구성 해야 합니다. 비즈니스용 skype for 구내 또는 Microsoft 365 또는 Office 365을 사용 하지 않는 경우에도 Lync 및 비즈니스용 skype 환경과의 페더레이션을 허용 하는 skype for Business DNS 레코드가 필요 합니다.<br />
+<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">외부 도메인 이름 시스템 레코드</a></em></p></td>
 </tr>
 <tr class="odd">
 <td><em>팀에서 모임 만들기 및 보기</em></td>
@@ -162,11 +162,11 @@ Exchange 하이브리드 구성 외에 Exchange OAuth 인증 설정: <a href="ht
     
     [Microsoft 팀 채택 빠른 시작 검사 목록](teams-adoption-quick-start-checklist.md)
 
-6.  다른 작업을 Office 365으로 이동 하기 위해 계획 시작
+6.  다른 작업을 Microsoft 365 또는 Office 365로 이동 하기 위해 계획 시작
 
 ## <a name="organizations-span-classunderlinewithspan-skype-for-business-or-lync-server"></a>비즈니스용 Skype 또는 Lync server **<span class="underline">를 사용 하는</span>** 조직
 
-이 시작 단계에서는 조직에서 비즈니스용 Skype 2019 또는 2015 + 또는 Lync 2013 + server 온-프레미스를 이용 한다고 가정 합니다. 지금까지 온-프레미스 서버에서 팀으로 마이그레이션하는 조직에 대 한 광범위 한 지침이 있으며, 이러한 시나리오를 따라야 합니다. 이 지침은 팀이 Office 365에서 사용 하는 첫 번째 응용 프로그램에 해당 하는 시나리오와 관련이 있습니다. 다음 표에서는 핵심 서비스에 대 한 팀의 상위 수준 구성과 최종 사용자 기능에 대해 설명 합니다.
+이 시작 단계에서는 조직에서 비즈니스용 Skype 2019 또는 2015 + 또는 Lync 2013 + server 온-프레미스를 이용 한다고 가정 합니다. 지금까지 온-프레미스 서버에서 팀으로 마이그레이션하는 조직에 대 한 광범위 한 지침이 있으며, 이러한 시나리오를 따라야 합니다. 이 지침은 팀이 Microsoft 365 또는 Office 365에서 사용 하는 첫 번째 응용 프로그램에 해당 하는 시나리오와 관련이 있습니다. 다음 표에서는 핵심 서비스에 대 한 팀의 상위 수준 구성과 최종 사용자 기능에 대해 설명 합니다.
 
 <table>
 <thead>
@@ -244,7 +244,7 @@ Exchange 하이브리드 구성 외에 Exchange OAuth 인증 설정: <a href="ht
     [Microsoft 팀 채택](adopt-microsoft-teams-landing-page.md)<br/>
     [Microsoft 팀 채택 빠른 시작 검사 목록](teams-adoption-quick-start-checklist.md)
 
-6.  다른 작업을 Office 365으로 이동 하기 위해 계획 시작
+6.  다른 작업을 Microsoft 365 또는 Office 365로 이동 하기 위해 계획 시작
 
 7.  비즈니스용 Skype 하이브리드 설정 및 비즈니스용 Skype 및 Lync server의 권장 업그레이드 경로 팔 로우  
     [비즈니스용 Skype 온-프레미스에서 팀으로 업그레이드](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)
@@ -275,7 +275,7 @@ Microsoft 팀은 조직의 모든 직원, 정보 근로자 및 Firstline worker�
 
 ## <a name="support-services-reference"></a>지원 서비스 참조
 
-팀은 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 365 그룹에 의존 하 여 사용자에 게 완전 통합 Office 365 환경을 제공 합니다. 위에서 언급 한 것 처럼 팀은 제한 된 기능으로 이러한 서비스를 완전 하 게 배포 하지 않고 작동 합니다. 팀에 대 한 자세한 내용과 해당 필수 구성 요소를 읽어 보세요. [팀에 오신 것을 환영](teams-overview.md)합니다.
+팀은 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 365 그룹에 의존 하 여 사용자에 게 완전 통합 Microsoft 365 또는 Office 365 환경을 제공 합니다. 위에서 언급 한 것 처럼 팀은 제한 된 기능으로 이러한 서비스를 완전 하 게 배포 하지 않고 작동 합니다. 팀에 대 한 자세한 내용과 해당 필수 구성 요소를 읽어 보세요. [팀에 오신 것을 환영](teams-overview.md)합니다.
 
 위에 나열 된 각 서비스에 대 한 자세한 내용은 아래 링크를 참조 하세요.
 
@@ -297,4 +297,4 @@ Microsoft 팀은 조직의 모든 직원, 정보 근로자 및 Firstline worker�
 
 [팀을 사용 하 여 원격 작업자 지원](support-remote-work-with-teams.md)
 
-[Office 365로 원격 작업](https://aka.ms/remote-work)
+[Microsoft 365를 사용 하 여 원격으로 작업](https://aka.ms/remote-work)

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 사용자의 Microsoft 전화 시스템 다이렉트 라우팅을 사용 하도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160062"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691374"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>사용자가 직접 라우팅, 음성, 보이스 메일을 사용할 수 있도록 설정
 
@@ -37,17 +37,17 @@ ms.locfileid: "43160062"
 
 사용자가 직접 라우팅을 사용할 준비가 되 면 다음 단계를 따릅니다. 
 
-1. Office 365에서 사용자를 만들고 전화 시스템 라이선스를 할당 합니다. 
+1. Microsoft 365 또는 Office 365에서 사용자를 만들고 전화 시스템 라이선스를 할당 합니다. 
 2. 사용자가 비즈니스용 Skype Online에 있는지 확인 합니다. 
 3. 전화 번호를 구성 하 고 엔터프라이즈 음성 및 보이스 메일을 사용 하도록 설정 합니다. 
 4. 사용자에 게 팀 전용 모드를 할당 합니다.
 
-## <a name="create-a-user-in-office-365-and-assign-the-license"></a>Office 365에서 사용자를 만들고 라이선스를 할당 합니다. 
+## <a name="create-a-user-and-assign-the-license"></a>사용자 만들기 및 라이선스 할당 
 
-Office 365에서 새 사용자를 만드는 두 가지 옵션이 있습니다. 그러나 조직에서 라우팅 문제를 방지 하기 위한 옵션 하나를 선택 하는 것이 좋습니다. 
+Microsoft 365 또는 Office 365에서 새 사용자를 만드는 두 가지 옵션이 있습니다. 그러나 조직에서 라우팅 문제를 방지 하기 위한 옵션 하나를 선택 하는 것이 좋습니다. 
 
 - 온-프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드와 동기화 합니다. [Azure Active Directory와 온-프레미스 디렉터리 통합](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)을 참조 하세요.
-- Office 365 관리자 포털에서 직접 사용자를 만듭니다. [Office 365에 개별적으로 또는 대량으로 사용자 추가-관리자 도움말을](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)참조 하세요. 
+- Microsoft 365 관리 센터에서 직접 사용자를 만듭니다. [Microsoft 365 또는 Office 365-관리자 도움말에서 사용자를 개별적으로 또는 대량으로 추가를](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)참조 하세요. 
 
 비즈니스용 Skype Online 배포가 비즈니스용 Skype 2015 또는 Lync 2010 또는 2013 온-프레미스와 함께 존재 하는 경우 유일 하 게 지원 되는 옵션은 온-프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드와 동기화 (옵션 1) 하는 것입니다. 
 

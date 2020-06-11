@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e754177de6f08476c9160254f2334f6f3ac18d3
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: de73dc3edff66bfe8b427e570bfc661e1dec46b4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903143"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689684"
 ---
 <a name="teams-experience-in-a-microsoft-365-or-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Microsoft 365 또는 Office 365 OneDrive 및 SharePoint Online 다중 테 넌 시/지역에서의 팀 환경 사용
 ===========================================
 
-Microsoft 팀은 Office 365의 팀워크에 대 한 허브 인 그룹 채팅 소프트웨어입니다. SharePoint Online 및 비즈니스용 OneDrive와 함께 Microsoft 365 Groups 서비스에서 파일 환경을 제공 합니다. 테 넌 트가 북미, 유럽, 호주 등의 여러 지리적 위치로 확장 되는 비즈니스용 OneDrive/SharePoint Online의 경우 기본 파일 환경이 다중 지역 인지 때문에 파일 공동 작업을 통해 팀이 다중 지역으로 인식 될 수도 있습니다. 이는 원시 파일 환경에서 여러 Geos에 의해 호스팅되는 파일을 팀에 게 제공 하는 주요 최고의 기능입니다.
+Microsoft 팀은 Microsoft 365 및 Office 365에서 팀워크 용 허브가 그룹 채팅 소프트웨어입니다. SharePoint Online 및 비즈니스용 OneDrive와 함께 Microsoft 365 Groups 서비스에서 파일 환경을 제공 합니다. 테 넌 트가 북미, 유럽, 호주 등의 여러 지리적 위치로 확장 되는 비즈니스용 OneDrive/SharePoint Online의 경우 기본 파일 환경이 다중 지역 인지 때문에 파일 공동 작업을 통해 팀이 다중 지역으로 인식 될 수도 있습니다. 이는 원시 파일 환경에서 여러 Geos에 의해 호스팅되는 파일을 팀에 게 제공 하는 주요 최고의 기능입니다.
 
 예를 들어 유럽 지역, 영국, 중앙 Geo 인 Contoso의 테 넌 트에서 유럽 위성 사용자는 파일 탭의 왼쪽 창에 있는 OneDrive 파일을 볼 수 있지만,이는 유럽 데이터 위치에서 호스팅되므로 미국에는 테 넌 트의 중앙 위치를 나타내는 것입니다. 또한 사용자는 최근 보기 블레이드에서 최근에 사용한 파일에 액세스할 수 있습니다. 최근 파일에는 다른 Geos의 사용자가 사용자와 공유 하는 파일이 포함 되어 있을 수 있으며, 테 넌 트가 확장 된 다른 지리적 위치에서 마스터 될 수 있습니다. 
 
@@ -38,4 +38,4 @@ Microsoft 팀은 Office 365의 팀워크에 대 한 허브 인 그룹 채팅 소
 
 팀 경험 내에 있는 채팅 및 모임 메신저 대화 노트의 대화는 다중 지역 인식 되지 않으며, 테 넌 트의 중앙 위치 내 에서만 유지 된다는 점에 유의 하세요. 일반적으로 채팅 대화는 데이터 영주권 요구 사항에는 적용 되지 않습니다.
 
-Office 365 다중 지역에 대 한 자세한 내용은 [Microsoft 다중 지역 기능 페이지](https://aka.ms/multi-geo)를 참조 하세요.
+다중 지역에 대 한 자세한 내용은 [Microsoft 다중 지역 기능 페이지](https://aka.ms/multi-geo)를 참조 하세요.

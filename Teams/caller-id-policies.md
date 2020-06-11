@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 발신자 ID 정책을 사용 하 고 관리 하 여 조직에서 팀 사용자의 발신자 ID를 변경 하거나 차단 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: dde534d0c74b11b3c3131a7d5c9eb8611135f70f
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 67b5abef6cdbdab9a127dd2957c2fdfefbaf2927
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349782"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691424"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft 팀의 발신자 ID 정책 관리
 
@@ -77,11 +77,11 @@ Microsoft 팀 관리 센터를 사용 하 여 한 명 이상의 사용자 또는
 2. **정책을**클릭 한 다음 **할당 된 정책**옆에 있는 **편집**을 클릭 합니다.
 3. **발신자 ID 정책**에서 할당할 정책을 선택한 다음 **저장**을 선택 합니다.
 
-한 번에 여러 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
+한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**로 이동한 다음 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
-2. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
-3. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.  
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자**로 이동한 다음, 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
+2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 표 맨 위에서 &#x2713;(확인 표시)를 클릭합니다.
+3. **설정 편집**을 클릭하고 원하는 대로 변경한 다음, **적용**을 클릭합니다.  
 
 또는 다음을 수행할 수도 있습니다.
 
@@ -98,7 +98,7 @@ Microsoft 팀 관리 센터를 사용 하 여 한 명 이상의 사용자 또는
 이 예제에서는 사용자 지정 호출자 덮개 정책을 Contoso 지원 그룹의 모든 사용자에 게 할당 합니다.  
 
 > [!NOTE]
-> 먼저 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)의 단계를 따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
+> 먼저 [모든 Microsoft 365 또는 Office 365 서비스에 연결의 단계를 단일 Windows powershell 창에](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
 
 특정 그룹의 GroupObjectId를 가져옵니다.
 ```PowerShell

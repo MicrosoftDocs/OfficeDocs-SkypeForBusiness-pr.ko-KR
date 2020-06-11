@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c3d9d6ee6da2881aff52efa77c3d13678b560a
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 1338b9f497722b50658545918afa825fb652d462
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350232"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689704"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -132,8 +132,10 @@ Enterprise 용 microsoft 365 앱에 대 한 자세한 내용은 [엔터프라이
 
 1. 다음 링크 중 하나를 사용 하 여 VDI VM 운영 체제와 일치 하는 팀 MSI 패키지를 다운로드 합니다.
 
-    - [32 비트 버전](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
-    - [64 비트 버전](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
+
+    - [32 비트 버전](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [64 비트 버전](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
 
     필요한 팀 데스크톱 앱의 최소 버전은 버전 1.3.00.4461입니다. (PSTN 보류가 이전 버전에서 지원 되지 않습니다.)
 
@@ -246,11 +248,11 @@ DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에 게 할�
     2.  **모임 정책**에서 **AllOff**를 클릭 합니다.
 4. **적용**을 클릭 합니다.
 
-한 번에 여러 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
+한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**로 이동한 다음 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
-2. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
-3. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.  
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자**로 이동한 다음, 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
+2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 표 맨 위에서 &#x2713;(확인 표시)를 클릭합니다.
+3. **설정 편집**을 클릭하고 원하는 대로 변경한 다음, **적용**을 클릭합니다.  
 
 또는 다음을 수행할 수도 있습니다.
 
@@ -302,11 +304,11 @@ AllowCalling 호출 정책 및 AllOn meeting policy를 사용자에 게 할당 �
     2.  **모임 정책**에서 **allon**을 클릭 합니다.
 4. **적용**을 클릭 합니다.
 
-한 번에 여러 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
+한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**로 이동한 다음 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
-2. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
-3. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.  
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자**로 이동한 다음, 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
+2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 표 맨 위에서 &#x2713;(확인 표시)를 클릭합니다.
+3. **설정 편집**을 클릭하고 원하는 대로 변경한 다음, **적용**을 클릭합니다.  
 
 또는 다음을 수행할 수도 있습니다.
 
@@ -373,3 +375,4 @@ VDA 및 CWA 문제를 해결 하는 방법에 대 한 자세한 내용은 [이 C
 
 - [MSI를 사용 하 여 Microsoft 팀 설치](msi-deployment.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)
+- [Windows 가상 데스크톱에서 Microsoft 팀 사용](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)

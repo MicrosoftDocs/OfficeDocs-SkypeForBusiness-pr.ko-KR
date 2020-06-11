@@ -18,12 +18,12 @@ description: 네트워크 설정, 라이선스 할당, 라이브 이벤트 기�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: df54e90f2c895ebf7090fbec2487aae52bd53d66
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2e865fe2285abb9cd515d1efe769f18cb5735ff2
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779957"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689674"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams에서 실시간 이벤트 설정
 
@@ -99,7 +99,7 @@ Windows PowerShell을 사용하여 이 작업을 수행할 수도 있습니다. 
 
 1. 조직의 사용자에 대해 Microsoft Stream을 활성화하세요. 스트림은 적격 Microsoft 365 또는 Office 365 구독 또는 독립 실행형 서비스의 일부로 사용할 수 있습니다. 스트림은 Business Essentials 또는 Business Premium 요금제에 포함되지 않습니다. 자세한 내용은 [Stream 라이센싱 개요](https://docs.microsoft.com/stream/license-overview)를 참조하세요.
 
-      사용자가 스트림에 액세스할 수 있도록 [Office 365에서 사용자에게 라이선스를 할당](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)하는 방법에 대해 자세히 알아보세요. [이 문서](https://docs.microsoft.com/stream/disable-user-organization)에 정의된 대로 사용자에 대해 Stream이 차단되지 않았는지 확인합니다.
+      사용자가 스트림에 액세스할 수 있도록 [라이선스를 사용자에 게 할당할](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 수 있는 방법에 대해 자세히 알아보세요. [이 문서](https://docs.microsoft.com/stream/disable-user-organization)에 정의된 대로 사용자에 대해 Stream이 차단되지 않았는지 확인합니다.
 
 2. 사용자에게 Stream의 실시간 이벤트 생성 권한이 있는지 확인하세요. 기본적으로 관리자는 외부 앱 또는 장치로 이벤트를 만들 수 있습니다. Stream 관리자는 [추가 사용자를 사용하여 스트림에서 실시간 이벤트를 만들](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) 수 있습니다.  
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 사용자 만들기와 지원 또는 지원 되지 않는 조합에 대 한 다양 한 조합에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: a7b41eb474d7574aa23b5fa195219794ed715424
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280257"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690874"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
 
@@ -31,7 +31,7 @@ ms.locfileid: "44280257"
 이 문서는 다음이 모두 있는 환경에 적용 됩니다. 
  
 - 비즈니스용 Skype 서버 또는 Lync Server 2013 
-- Office 365 조직 
+- Microsoft 365 또는 Office 365 조직 
 - 비즈니스용 Skype 서버와 비즈니스용 Skype Online 또는 Microsoft 팀 테 넌 트 간에 하이브리드 연결이 구성 되었습니다. 
 - 클라이언트와의 PSTN (공개 교환 네트워크) 전화를 걸고 받을 수 있는 사용자
 
@@ -46,7 +46,7 @@ PSTN 연결을 사용 하는 비즈니스용 Skype 하이브리드 환경에서�
 **용어**   
 - **엔터프라이즈 음성:** 온-프레미스 비즈니스용 Skype 사용자 계정을 사용 하는 사용자를 위해 PSTN에 대 한 액세스를 제공 하는 옵션입니다. 온-프레미스 비즈니스용 Skype 중재 서버는 PSTN에 interconnectivity을 제공 합니다.  
 - **하이브리드 음성 연결:** 비즈니스용 Skype Online 계정이 있는 사용자의 PSTN에 대 한 액세스를 제공 하는 옵션입니다. 온-프레미스 비즈니스용 Skype 중재 서버는 PSTN에 interconnectivity을 제공 합니다. 
-- **다이렉트 라우팅:** Microsoft 팀 클라이언트를 사용 하 여 온라인 비즈니스용 Skype 계정, Microsoft 팀 라이선스가 있는 사용자에 게 PSTN에 대 한 액세스를 제공 하는 옵션입니다. SBC는 Microsoft의 온-프레미스 소프트웨어를 사용할 필요 없이 Office 365의 SIP 프록시에 연결 되어 있습니다.
+- **다이렉트 라우팅:** Microsoft 팀 클라이언트를 사용 하 여 온라인 비즈니스용 Skype 계정, Microsoft 팀 라이선스가 있는 사용자에 게 PSTN에 대 한 액세스를 제공 하는 옵션입니다. SBC는 microsoft의 온-프레미스 소프트웨어를 사용할 필요 없이 Microsoft 365 또는 Office 365의 SIP 프록시에 연결 되어 있습니다.
 
   
 **환경에서 지원 되는 조합은 다음과 같습니다.**
@@ -70,4 +70,4 @@ PSTN 연결을 사용 하는 비즈니스용 Skype 하이브리드 환경에서�
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>PSTN이 있는 하이브리드 환경에 대 한 지원 가능성 문
 
-모든 사용자는 온-프레미스 광고에서 사용자 개체를 만들고 Azure AD Connect 도구를 사용 하 여 Azure AD와 동기화 **해야 합니다** . 사용자 개체가 하이브리드 구성의 Azure AD에서 직접 만들어진 경우 팀에서 비즈니스용 Skype를 사용 하도록 설정 하는 **것은 지원 되지 않습니다** . 팀에 게 직접 사용할 수 있는 신규 고용 같은 새 사용자의 경우, 사용자는 온-프레미스 비즈니스용 skype 관리 도구를 사용 하 여 비즈니스용 Skype를 사용 하도록 설정 해야 합니다. Enterprise Voice를 사용 하 여 온-프레미스 풀을 사용 하지 않고 비즈니스용 Skype 또는 팀에서 사용자를 만드는 **것은 지원 되지 않습니다**. 이에 대 한 자세한 내용은 [비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용 하 여 Office 365에서 계획 전화 시스템](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)을 참조 하세요.
+모든 사용자는 온-프레미스 광고에서 사용자 개체를 만들고 Azure AD Connect 도구를 사용 하 여 Azure AD와 동기화 **해야 합니다** . 사용자 개체가 하이브리드 구성의 Azure AD에서 직접 만들어진 경우 팀에서 비즈니스용 Skype를 사용 하도록 설정 하는 **것은 지원 되지 않습니다** . 팀에 게 직접 사용할 수 있는 신규 고용 같은 새 사용자의 경우, 사용자는 온-프레미스 비즈니스용 skype 관리 도구를 사용 하 여 비즈니스용 Skype를 사용 하도록 설정 해야 합니다. Enterprise Voice를 사용 하 여 온-프레미스 풀을 사용 하지 않고 비즈니스용 Skype 또는 팀에서 사용자를 만드는 **것은 지원 되지 않습니다**. 이에 대 한 자세한 내용은 [비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용 하 여 전화 시스템 계획](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)을 참조 하세요.

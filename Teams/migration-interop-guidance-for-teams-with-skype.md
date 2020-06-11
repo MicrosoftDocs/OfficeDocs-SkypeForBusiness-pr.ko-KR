@@ -20,19 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56029dc8f1cb5a9cb99096107d85a6414dc4ed25
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 77cee207d885299e6f8a1a90f889c9f661c7383e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638627"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691444"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침
 
 > [!Tip] 
-> [공존 및 상호 운용성](https://aka.ms/teams-upgrade-coexistence-interop) 에 대해 알아보려면 다음 세션을 시청 하세요.
+> [공존 및 상호 운용성](https://aka.ms/teams-upgrade-coexistence-interop)에 대해 알아보려면 다음 세션을 시청 하세요.
 
 비즈니스용 Skype를 사용 하는 조직에서 팀을 채택 하기 시작 하면 관리자는 TeamsUpgradePolicy의 속성인 공존 "모드"의 개념을 사용 하 여 조직에서 사용자 환경을 관리할 수 있습니다. 관리자는 사업부를 사용 하 여 비즈니스용 Skype에서 팀으로 전환 하는 것으로 interop 및 마이그레이션을 관리 합니다.  사용자의 모드는 클라이언트가 들어오는 채팅 및 통화를 비롯 하 여 어떤 서비스 (팀 또는 비즈니스용 Skype) 새 모임이 예정 되어 있는지를 결정 합니다. 또한 팀 클라이언트에서 사용할 수 있는 기능을 제어 합니다. 
+
+> [!IMPORTANT]
+> 변경 내용이 적용 되려면 최대 24 시간이 소요 될 수 있습니다 TeamsUpgradePolicy. 그 전에 사용자의 현재 상태가 올바르지 않을 수 있습니다 ( **알 수 없는**것으로 표시 가능).
 
 
 ## <a name="fundamental-concepts"></a>기본 개념
@@ -50,7 +53,7 @@ ms.locfileid: "44638627"
 
 5.  팀과 비즈니스용 Skype 사용자 간 상호 운용성은 *팀 사용자가 비즈니스용 skype에서 온라인 상태인 경우*에만 가능 합니다. 받는 사람 비즈니스용 Skype 사용자는 온-프레미스 (비즈니스용 Skype 하이브리드 구성 필요) 또는 온라인 중 하나로 설정할 수 있습니다. 비즈니스용 Skype 온-프레미스에 속한 사용자는이 문서의 뒷부분에 정의 된 아일랜드 모드에서 팀을 사용할 수 있지만, 팀을 사용 하 여 비즈니스용 Skype를 사용 하는 다른 사용자와 상호 운용 하거나 페더레이션 할 수는 없습니다.  
 
-6.    업그레이드 및 interop 동작은 아래에 설명 된 대로 사용자의 공존 모드에 따라 결정 됩니다. Mode는 TeamsUpgradePolicy에 의해 관리 됩니다. 
+6.    업그레이드 및 interop 동작은 아래에 설명 된 사용자의 공존 모드에 따라 결정 됩니다. Mode는 TeamsUpgradePolicy에 의해 관리 됩니다. 
 
 7.  사용자를 TeamsOnly 모드로 업그레이드 하면 가져온 클라이언트에 관계 없이 모든 수신 채팅 및 통화가 항상 사용자의 팀 클라이언트에 있게 됩니다. 이러한 사용자는 또한 팀의 모든 새 모임을 예약 합니다. Teamonly 모드에 있으려면 비즈니스용 Skype에서 사용자를 온라인으로 전환 해야 합니다. 이는 팀 사용자의 interop, 페더레이션 및 전체 관리를 보장 하는 데 필요 합니다. 사용자를 TeamsOnly로 업그레이드 하려면 다음을 수행 합니다.
     - 사용자가 비즈니스용 Skype online에 있는 경우 (또는 Skype 계정이 없는 경우), PowerShell을 사용 하 여 "UpgradeToTeams" 인스턴스를 사용 하는 경우에만 TeamsUpgradePolicy 모드를 허용 하거나 팀 관리 센터를 사용 하 여 TeamsOnly 모드를 선택 합니다.
@@ -107,6 +110,9 @@ Interop 및 마이그레이션은 TeamsUpgradePolicy를 사용 하 여 "공존 �
 
 
 ## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy: 마이그레이션 및 공동 존재 관리
+
+> [!IMPORTANT]
+> 변경 내용이 적용 되려면 최대 24 시간이 소요 될 수 있습니다 TeamsUpgradePolicy. 그 전에 사용자의 현재 상태가 올바르지 않을 수 있습니다 ( **알 수 없는**것으로 표시 가능).
 
 TeamsUpgradePolicy는 Mode 및 NotifySfbUsers 라는 두 가지 키 속성을 표시 합니다. 
 </br>

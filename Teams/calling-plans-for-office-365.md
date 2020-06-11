@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Skype for business 옵션에 대 한 통화 요금제 (PSTN 통화 요금제)와 조직의 라이선스를 얻는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: baa90b5a625abf53890fcd51ff91b0ac754b3c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041735"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691404"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365에 대 한 통화 요금제
 
@@ -39,28 +39,28 @@ ms.locfileid: "44041735"
   
 통화 요금제 옵션은 다음과 같습니다.
   
-- **국내 통화 요금제**: 라이선스가 있는 사용자는 국가/지역에 거주 하는 번호로 전화를 걸어 Office 365에서이를 할당할 수 있습니다.
+- **국내 통화 요금제**: 라이선스 사용자는 Microsoft 365 또는 Office 365에서 할당 된 국가/지역에 있는 번호로 전화를 걸 수 있습니다.
     
-- **국내 및 국제 통화 요금제**: 라이선스 사용자는 사용자의 위치 및 [196 국가/지역의](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)국제 전화 번호에 따라 사용자에 게 Office 365 라이선스가 할당 되는 국가/지역에 있는 번호로 통화할 수 있습니다.
+- **국내 및 국제 통화 요금제**: 라이선스가 있는 사용자는 사용자의 위치 및 [196 국가/지역의](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)국제 전화 번호에 따라 Microsoft 365 또는 Office 365 라이선스가 사용자에 게 할당 되는 국가/지역에 있는 번호로 통화할 수 있습니다.
     
 [국가 및 지역 사용 가능성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 을 방문 하 여 각 국가/지역의 각 조직에 대해 월간 통화 가능 시간을 확인 하세요.
   
 > [!IMPORTANT]
-> 국가/지역은 microsoft **365 관리 센터** > **활성 사용자** 의 사용자 라이선스 위치를 기반으로 하며 **microsoft 365 관리 센터**의 **조직 프로필** 아래에 나열 된 청구 주소는 **아닙니다** .   
+> 국가/지역은 microsoft **365 관리 센터**활성 사용자의 사용자 라이선스 위치를 기반으로  >  **Active users** 하며 **microsoft 365 관리 센터**의 **조직 프로필** 아래에 나열 된 청구 주소는 **아닙니다** .   
 ![사용자의 라이선스 위치 스크린샷](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 사용 제한 및 사용 약관에 대 한 자세한 내용은 [오디오 회의 무료 전화 걸기 기간](complimentary-dial-out-period.md)을 참조 하세요.
   
 ## <a name="how-to-buy-a-calling-plan"></a>통화 플랜을 구입하는 방법
 
-1. <strong>먼저 * * 전화 시스템 추가 기능 라이선스를 구입 해야</strong> 합니다<strong>. 이 작업을 수행 [하려면 Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 고 * * 청구</strong> > **구입 서비스** > **추가 기능 구독** > 을**지금 구입**하세요.
+1. <strong>먼저 * * 전화 시스템 추가 기능 라이선스를 구입 해야</strong> 합니다<strong>. 이 작업을 수행 하려면 [Microsoft 365 관리 센터에 로그인 하 여](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) * * 청구</strong>  >  **구입 서비스**  >  **추가 기능 구독**을  >  **지금 구입**하세요.
     
     ![음성 통화 요금제를 구매 하는 옵션을 보여 주는 스크린샷](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > 요금제에 따라 추가 기능을 구입 해야 전화 시스템 라이선스를 구입할 수 있습니다. 자세히 알아보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
-2. 전화 시스템 라이선스를 구입한 후에 **Microsoft 365 관리 센터**에 로그인 하 여 통화 요금제를 구입 하 고 **청구** > **구입 서비스** > **추가 기능 구독**을 선택한 다음 **지금 구입**을 클릭할 수 있습니다. 통화 요금제가 표시 됩니다.
+2. 전화 시스템 라이선스를 구입한 후에 **Microsoft 365 관리 센터**에 로그인 하 여 통화 요금제를 구입 하 고 **청구**  >  **구입 서비스**  >  **추가 기능 구독**을 선택한 다음 **지금 구입**을 클릭할 수 있습니다. 통화 요금제가 표시 됩니다.
     
     ![음성 통화 요금제 옵션을 보여 주는 스크린샷](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
@@ -88,10 +88,10 @@ ms.locfileid: "44041735"
     
 - [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [Microsoft 365 또는 Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 보관, 착신 전환, 기타 기능을 제공 하는 Microsoft 팀을 사용 하 여 클라우드 통화 큐 용 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669397"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697427"
 ---
 # <a name="create-a-cloud-call-queue"></a>클라우드 통화 큐 만들기
 
@@ -68,10 +68,10 @@ ms.locfileid: "44669397"
   > [!NOTE]
   > 통화 대기열에 대 한 직접 라우팅 서비스 번호는 Microsoft 팀 사용자 및 상담원만 지원 합니다.
 
-  > [!NOTE]
-  > 온라인 상태에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하며 Enterprise Voice를 사용 하도록 설정 되어 있거나 Office 365 통화 계획이 있어야 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE]
+> 온라인 상태에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하 고 Enterprise Voice를 사용 하도록 설정 하거나 Microsoft 365 또는 Office 365 통화 요금제가 필요 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Office 365 통화 요금제에 대 한 자세한 내용은 [office 365에 대 한](calling-plans-for-office-365.md) [전화 시스템 및 통화 요금제](calling-plan-landing-page.md) 및 통화 요금제를 참조 하세요.
+- 통화 요금제에 대 한 자세한 내용은 [Microsoft 365 또는 Office 365에 대 한](calling-plans-for-office-365.md) [전화 시스템 및 통화 요금제](calling-plan-landing-page.md) 및 통화 요금제를 참조 하세요.
 
 - 클라우드 통화 대기열에는 **Microsoft 팀 관리 센터** 에서 받은 유료 및 무료 서비스 전화번호만 할당할 수 있으며, 다른 서비스 공급자에 게 서 전송 됩니다. 무료 서비스 번호에는 통신 크레딧이 필요 합니다.
 
@@ -97,7 +97,7 @@ ms.locfileid: "44669397"
 
 ## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>2 단계-유료 또는 무료 서비스 전화 번호 받기 또는 전송
 
-통화 대기열을 만들고 설정 하기 전에 기존의 유료 또는 무료 서비스 번호를 가져오거나 이전 해야 합니다. 서비스 번호를 얻으려면 [서비스 전화 번호 가져오기를](getting-service-phone-numbers.md) 참조 하거나 기존 서비스 번호를 전송 하려면 [전화 번호를 Office 365에](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)연결을 참조 하세요. 무료 또는 무료 서비스 전화 번호를 얻은 후에는 **Microsoft 팀 관리 센터**의  >  **음성**  >  **전화 번호로**표시 됩니다. 무료 전화 번호에는 다양 한 서비스 **유형** (무료 **)** 이 표시 됩니다.
+통화 대기열을 만들고 설정 하기 전에 기존의 유료 또는 무료 서비스 번호를 가져오거나 이전 해야 합니다. 서비스 번호를 얻으려면 [서비스 전화 번호 가져오기를](getting-service-phone-numbers.md) 참조 하거나 기존 서비스 번호를 전송 하려는 경우 [전화 번호를 팀에 게 양도](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)를 참조 하세요. 무료 또는 무료 서비스 전화 번호를 얻은 후에는 **Microsoft 팀 관리 센터**의  >  **음성**  >  **전화 번호로**표시 됩니다. 무료 전화 번호에는 다양 한 서비스 **유형** (무료 **)** 이 표시 됩니다.
 
 > [!NOTE]
 > 미국 이외의 지역에 거주 하는 경우에는 Microsoft 팀 관리 센터를 사용 하 여 서비스 번호를 얻을 수 없습니다. 미국 이외의 지역에서이를 수행 하는 방법을 확인 하려면 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 로 이동 하세요.
@@ -163,7 +163,7 @@ ms.locfileid: "44669397"
 
 다음 메일 목록 또는 그룹 중 하나에 속한 최대 200 개의 통화 에이전트를 선택할 수 있습니다.
 
-- Office 365 그룹
+- Microsoft 365 그룹
 - 보안 그룹
 - 메일 그룹
 
@@ -178,7 +178,7 @@ ms.locfileid: "44669397"
 
    엔터프라이즈 음성에 대 한 에이전트를 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Office 365 그룹에 추가 되는 **전화 시스템** 라이선스 또는 통화 요금제를 사용 하는 사용자 메일 사용이 가능한 메일 그룹 또는 보안 그룹. 배포 목록 또는 보안 그룹의 에이전트를 통화 대기열 에이전트로 추가 하는 경우 첫 번째 통화가 도착 하는 데 최대 3 시간까지 걸릴 수 있습니다. 새로 만든 메일 그룹 또는 보안 그룹이 통화 큐와 함께 사용할 수 있게 되는 데 최대 48 시간이 걸릴 수 있습니다. 새로 만든 Microsoft 365 그룹은 거의 즉시 사용할 수 있습니다.
+- **전화 시스템** 라이선스 또는 Microsoft 365 그룹, 메일 사용이 가능한 배포 목록 또는 보안 그룹에 추가 되는 통화 요금제를 사용 하는 사용자 배포 목록 또는 보안 그룹의 에이전트를 통화 대기열 에이전트로 추가 하는 경우 첫 번째 통화가 도착 하는 데 최대 3 시간까지 걸릴 수 있습니다. 새로 만든 메일 그룹 또는 보안 그룹이 통화 큐와 함께 사용할 수 있게 되는 데 최대 48 시간이 걸릴 수 있습니다. 새로 만든 Microsoft 365 그룹은 거의 즉시 사용할 수 있습니다.
 
 - 상담원은 통화 대기열 통화를 위해 Microsoft 팀 앱을 사용 하 고 있는 경우에는 TeamsOnly 모드에 있어야 합니다.
 
@@ -328,7 +328,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 ### <a name="more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보
 
-- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하 여 단일 관리 지점으로 Office 365 및 Microsoft 팀을 관리할 수 있습니다. 여러 작업이 수행 되는 경우 일상 업무를 단순화할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하 여 단일 관리 지점으로 Microsoft 365 또는 Office 365 및 Microsoft 팀을 관리할 수 있습니다. 여러 작업이 수행 되는 경우 일상 업무를 단순화할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
 
   - [Windows PowerShell 및 Lync Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -336,13 +336,13 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 - Windows PowerShell에는 여러 사용자가 한 번에 변경할 경우 Microsoft 팀 관리 센터에서 속도, 단순성, 생산성에 많은 장점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
 
-  - [Windows PowerShell을 사용 하 여 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Windows PowerShell용 컴퓨터 설정](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
+[다음은 전화 시스템 기능입니다.](here-s-what-you-get-with-phone-system.md)
 
 [서비스 전화 번호 가져오기](getting-service-phone-numbers.md)
 

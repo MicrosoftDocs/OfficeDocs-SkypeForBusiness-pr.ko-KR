@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '사용자와 다른 여러 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 전화 회의 ID를 할당 하려면 Microsoft 팀의 단계를 참조 하세요. '
-ms.openlocfilehash: 704bcd5777fd0327ed944cc903959ef019f794a5
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 1cf51db4bd2ba4e6fb29d7301cb2ad46d4afb2f4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638467"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691214"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 오디오 회의 설정 관리
 
@@ -54,8 +54,8 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
     
 4. **제품 라이선스** 페이지에서 **오디오 회의** 를 켠 다음 **저장**을 클릭 합니다. 라이선스에 대 한 자세한 내용은 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
     
-> [!NOTE]
-> 라이선스를 할당 한 후에는 Microsoft에서 처음에 오디오 회의 공급자로 목록에 표시 되지 않을 수 있습니다. 이 문제가 발생 하면 관리 센터에서 로그 아웃 하거나 CTRL + F5를 눌러 브라우저 창을 새로 고칩니다. 
+   > [!NOTE]
+   > 라이선스를 할당 한 후에는 Microsoft에서 처음에 오디오 회의 공급자로 목록에 표시 되지 않을 수 있습니다. 이 문제가 발생 하면 관리 센터에서 로그 아웃 하거나 CTRL + F5를 눌러 브라우저 창을 새로 고칩니다. 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>오디오 회의 사용자에 게 전송 되는 전자 메일 사용 또는 사용 안 함
 
@@ -146,10 +146,8 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 
     **이름 또는 전화 번호**를 선택 하 **는 경우 모임에 참가 하기 전에 해당 사용자의 이름을 기록 하도록 요청 발신자**를 선택 하거나 사용 하지 않도록 설정할 수도 있습니다. 
     > [!NOTE]
-> 기본적으로 외부 참가자는 전화를 건 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호에 대 한 개인 정보를 유지 관리 하려면 **입력/종료 알림 유형에** **색조** 를 선택 하세요 (이로 인해 팀에서 번호를 읽지 못하게 됩니다).
-
-    > [!NOTE]
     > 기본적으로 외부 참가자는 전화를 건 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호에 대 한 개인 정보를 유지 관리 하려면 **입력/종료 알림 유형에** **색조** 를 선택 하세요 (이로 인해 팀에서 번호를 읽지 못하게 됩니다).
+
 
 5. **저장**을 클릭합니다.
 

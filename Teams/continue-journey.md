@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522811"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689464"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft 팀을 효과적으로 사용 하는 방법
 
@@ -48,7 +48,7 @@ ms.locfileid: "44522811"
 팀과 최대한의 이점과 비즈니스 결과물을 실현 하려면 사용자가 실제로이를 사용 해야 합니다. 그러나 초기에는 wane 하는 경향이 있으며 사용자가 이전 작업 방법으로 쉽게 전환할 수 있습니다. 진행 중인 채택 계획이 있는 팀에 대해 사용자 채택을 유도 하 고 다음을 포함할 수 있습니다.
 
 - 동료 사용자를 evangelize 하 고 권유 하는 데 도움이 되도록 피어 챔피언 참여
-- 계약을 높이고 추진 하는 방법에 대 한 팁은 [Office 365 채택을 참조](https://go.microsoft.com/fwlink/?linkid=859045) 하세요.
+- 계약 올리기 및 추진 채택을 위한 팁을 보려면 [Microsoft 365 채택 가이드](https://go.microsoft.com/fwlink/?linkid=859045) 를 확인 하세요.
 - [팀 고객 성공 키트](https://aka.ms/TeamsCustomerSuccess) 를 활용 하 여 인식을 개선 하 고 모범 사례를 공유 하세요.
 - 채택을 증가 시킬 수 있도록 공식적인 채택을 구현 하 [고 변경 관리 전략을 수립](http://www.successwithteams.com/) 합니다.
 

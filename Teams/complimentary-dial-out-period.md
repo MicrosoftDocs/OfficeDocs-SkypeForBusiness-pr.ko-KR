@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: Microsoft 팀에서 Office 365 통화 요금제 및 Office 365 오디오 회의에 대 한 무료 전화 걸기 기간에 대해 알아보세요.
-ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Microsoft 팀에서 Microsoft 365 또는 Office 365 통화 요금제 및 Office 365 오디오 회의에 대 한 무료 전화 접속 기간에 대해 알아보세요.
+ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779795"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690894"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>오디오 회의 무료 전화 걸기 기간
 
 ## <a name="skype-for-business-pstn-services"></a>비즈니스용 Skype PSTN 서비스
 
-비즈니스용 Skype Online PSTN 서비스 사용 약관 및 고객의 볼륨 라이선스 계약에 허용 된 대로 Office 365 통화 요금제 및 Office 365 오디오 회의를 사용할 수 있습니다. PSTN 서비스 사용 조건은 [라이선스 약관 및 설명서](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)에서 찾을 수 있습니다.
+비즈니스용 Skype Online PSTN 서비스 사용 약관 및 고객의 볼륨 라이선스 계약에 허용 된 대로 Microsoft 365 또는 Office 365 통화 요금제 및 Office 365 오디오 회의를 사용할 수 있습니다. PSTN 서비스 사용 조건은 [라이선스 약관 및 설명서](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)에서 찾을 수 있습니다.
   
 ### <a name="end-of-complimentary-dial-out-period"></a>무료 전화 걸기 기간 종료
 
@@ -44,7 +44,7 @@ ms.locfileid: "43779795"
 
 ### <a name="complimentary-dial-out-period-details"></a>무료 전화 걸기 기간 세부 정보
 
-Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsoft는 11 2019 월을 통해 Office 365 오디오 회의 구독 라이선스를 할당 하는 사용자가 이끄는 모임에서 전화를 거는 데 관련 된 추가 혜택을 제공 합니다. 이 무료 기간 동안 Microsoft는 모임 정책 설정에 정의 된 대로 모임 이끌이 또는 권한이 있는 참석자를 허용 하 고, 아래에 나열 된 44 "Zone A" 국가 및 지역의 "비 premium" 전화 번호로 모임에서 전화를 걸 수 있도록 합니다. 이 혜택은 오디오 회의 월간 플랜 라이선스에 적용 되며 오디오 회의 분당 요금 라이선스에 따라 확장 되지 않습니다.
+Microsoft 365 또는 Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsoft는 11 월 2019을 통해 Microsoft 365 또는 Office 365 오디오 회의 라이선스를 할당 하는 사용자가 이끄는 모임에서의 전화 걸기에 관련 된 추가 혜택을 제공 합니다. 이 무료 기간 동안 Microsoft는 모임 정책 설정에 정의 된 대로 모임 이끌이 또는 권한이 있는 참석자를 허용 하 고, 아래에 나열 된 44 "Zone A" 국가 및 지역의 "비 premium" 전화 번호로 모임에서 전화를 걸 수 있도록 합니다. 이 혜택은 오디오 회의 월간 플랜 라이선스에 적용 되며 오디오 회의 분당 요금 라이선스에 따라 확장 되지 않습니다.
 
 또한 다음과 같은 무료 전화 걸기 기간 동안 900 분의 cap 제한 사항이 있습니다.
 
@@ -58,7 +58,7 @@ Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsof
 - 영역에 없는 대상에 대 한 모든 아웃 바운드 통화는 게시 된 요금에 대 한 통신 크레딧을 사용 하 여 분당 청구 됩니다 (지정 된 테 넌 트가 통신 크레딧을 설정 하 고 모임 이끌이에게 통신 크레딧 라이선스를 할당 한 경우).
 
 > [!NOTE]
-> 비즈니스용 Skype 관리 센터에서 전화 접속 지연 풀에 대 한 사용 현황을 모니터링할 수 있습니다. Microsoft 팀 & Skype 관리 센터에서 **구형 포털** > **보고서** > **PSTN 통화 은행**으로 이동 하세요. 이 무료 수영장은 보고서에 "국가 및 지역에 대 한 아웃 바운드 통화"로 표시 됩니다.
+> 비즈니스용 Skype 관리 센터에서 전화 접속 지연 풀에 대 한 사용 현황을 모니터링할 수 있습니다. Microsoft 팀 & Skype 관리 센터에서 **구형 포털**  >  **보고서**  >  **PSTN 통화 은행**으로 이동 하세요. 이 무료 수영장은 보고서에 "국가 및 지역에 대 한 아웃 바운드 통화"로 표시 됩니다.
 
 테 넌 트의 전화 접속 시간 풀 사용률이 80% 및 100%에 도달 하면 지정 된 고객의 모든 테 넌 트 관리자에 게 전자 메일 알림이 전송 됩니다.
 

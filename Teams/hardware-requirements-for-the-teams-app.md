@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33b88e877afe4711894194d6ae05f51c1244b3af
-ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
+ms.openlocfilehash: 6f097563ae71c6d7f59f0469da98cfbf59f2ec82
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407380"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690564"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -43,7 +43,7 @@ ms.locfileid: "44407380"
 |.NET 버전    |  .NET 4.5 CLR 이상 필요       |
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    | 
-|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하려면 싱글 코어 프로세서와 4.0 GB RAM (또는 그 이상의)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>**배경 흐림** 비디오 효과 옵션을 사용하려면 AVX2(고급 벡터 확장 2)를 지원하는 프로세서가 필요합니다. 지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가하려면 클라이언트 장치에서 Bluetooth의 활성화가 요구되는 Bluetooth LE가 필요하고 Windows 클라이언트의 경우 64비트 Teams 클라이언트가 필요합니다. 32비트 Teams 클라이언트에서는 사용할 수 없습니다.</li></ul> |
+|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하려면 싱글 코어 프로세서와 4.0 GB RAM (또는 그 이상의)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>선택적 **배경 영상 효과** 에는 고급 벡터 확장 2 (AVX2) 지원을 사용 하거나 Windows 10을 실행 하는 프로세서가 필요 합니다. </li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가하려면 클라이언트 장치에서 Bluetooth의 활성화가 요구되는 Bluetooth LE가 필요하고 Windows 클라이언트의 경우 64비트 Teams 클라이언트가 필요합니다. 32비트 Teams 클라이언트에서는 사용할 수 없습니다.</li></ul> |
 |Teams 라이브 이벤트 | Teams 라이브 이벤트를 생성하는 경우 Core i5 Kaby Lake 프로세서, 4.0GB RAM 이상 및 하드웨어 인코더가 있는 컴퓨터를 사용하는 것이 좋습니다. 지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac용 Teams의 하드웨어 요구 사항
@@ -57,7 +57,7 @@ ms.locfileid: "44407380"
 |운영 체제  |    Mac OS X 10.11 El Capitan 이상     |
 |비디오  |    호환되는 웹캠     |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하려면 싱글 코어 프로세서와 4.0 GB RAM (또는 그 이상의)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>**배경 흐림** 비디오 효과 옵션을 사용하려면 AVX2(고급 벡터 확장 2)를 지원하는 프로세서가 필요하며, 2013 Late 이후 대부분의 Mac 장치에서 지원됩니다. 지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Mac OS에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul> |
+|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하려면 싱글 코어 프로세서와 4.0 GB RAM (또는 그 이상의)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>선택적 **배경 비디오 효과** 에는 최대 2013 Mac 장치 이상에서 지원 되는 고급 벡터 확장 2 (AVX2) 지원이 포함 된 프로세서가 필요 합니다. </li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Mac OS에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux용 Teams의 하드웨어 요구 사항
 
@@ -72,7 +72,7 @@ ms.locfileid: "44407380"
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    | 
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하려면 싱글 코어 프로세서와 4.0 GB RAM (또는 그 이상의)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다.  </li><li>배경 영상 효과에는 최대 2013 Mac 장치 이상에서 지원 되는 고급 벡터 확장 2 (AVX2) 지원이 있는 프로세서가 필요 합니다. 지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
+|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하려면 싱글 코어 프로세서와 4.0 GB RAM (또는 그 이상의)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다.  </li><li>**배경 흐림** 비디오 효과 옵션을 사용하려면 AVX2(고급 벡터 확장 2)를 지원하는 프로세서가 필요하며, 2013 Late 이후 대부분의 Mac 장치에서 지원됩니다. </li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
 |지원되는 Linux 배포판 | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>모바일 장치용 Teams의 하드웨어 요구 사항

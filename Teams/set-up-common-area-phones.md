@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 지역 및 회의실에 대 한 공통 영역 전화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 23e60a5fe57ea8e2ff07bb6333a5ea1c341bba88
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140871"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691074"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft 팀을 위한 공통 영역 전화 라이선스 설정
 > [!NOTE]
@@ -40,11 +40,11 @@ ms.locfileid: "43140871"
 
 ## <a name="step-1---buy-the-licenses"></a>1 단계-라이선스 구입
 
-1. Microsoft 365 관리 센터에서 **청구** > **구매 서비스로** 이동한 다음 **다른 요금제**를 확장 합니다.
+1. Microsoft 365 관리 센터에서 **청구**  >  **구매 서비스로** 이동한 다음 **다른 요금제**를 확장 합니다.
 
     ![공통 영역 전화 타일을 보여 주는 스크린샷](media/set-up-common-area-phone-image1.png)
 
-2. 지금 **일반 지역 전화** > **구입**을 선택 합니다.
+2. 지금 **일반 지역 전화**  >  **구입**을 선택 합니다.
 
 3. 체크 아웃 페이지에서 **지금 구입**을 클릭 합니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "43140871"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>2 단계-휴대폰에 대 한 새 사용자 계정 만들기 및 라이선스 할당
 
-1. Microsoft 365 관리 센터에서 사용자 > **활성 사용자** > 가 사용자를**추가** **하도록 이동**합니다.
+1. Microsoft 365 관리 센터에서 사용자 **users**  >  **활성 사용자**가 사용자를  >  **추가**하도록 이동 합니다.
 
 2. 이름에 "Main"과 같은 사용자 이름을 입력 하 고 두 번째 이름에 대해 "수신"을 선택 합니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "43140871"
 
 팀 관리 센터를 사용 하 여 사용자에 게 번호를 할당 합니다.
 
-1. 팀 관리 센터에서 **음성** > **전화 번호**를 선택 합니다.
+1. 팀 관리 센터에서 **음성**  >  **전화 번호**를 선택 합니다.
 
 3.    전화 번호 목록에서 번호를 선택 하 고 **할당**을 클릭 합니다.
 
@@ -120,6 +120,4 @@ ms.locfileid: "43140871"
 
 자세한 내용은 [사용자의 전화 번호 가져오기를](getting-phone-numbers-for-your-users.md)참조 하세요.
 
-다른 통신 회사와 "포트"를 사용 하 여 전화 번호를 가져와 Office 365으로 양도할 수도 있습니다. [팀에 전화 번호 전송을](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)참조 하세요.
-
-
+다른 통신 회사와 "포트"를 사용 하 여 전화 번호를 받아 Microsoft 365 또는 Office 365에 전송할 수도 있습니다. [팀에 전화 번호 전송을](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)참조 하세요.

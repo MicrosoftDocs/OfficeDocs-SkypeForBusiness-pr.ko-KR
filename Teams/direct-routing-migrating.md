@@ -16,27 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 비즈니스용 Skype Online 및 팀 구성 관점에서 직접 라우팅하기 위해 마이그레이션하는 데 필요한 사항에 대해 알아보세요.
-ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888587"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691364"
 ---
 # <a name="migrate-to-direct-routing"></a>직접 라우팅으로 마이그레이션
 
 이 문서에서는 비즈니스용 Skype Online 및 Microsoft 팀 구성 관점에서 직접 라우팅하기 위해 마이그레이션하는 데 필요한 사항에 대해 설명 합니다. 이 문서에서는 다음에서 마이그레이션하는 방법에 대해 설명 합니다. 
  
-- 전화 요금제가 포함 되어 있는 Office 365 전화 시스템 (팀 및 비즈니스용 Skype Online) 
-- 비즈니스용 skype Online에서 온-프레미스 PSTN 연결을 사용 하는 Office 365 전화 시스템 (비즈니스용 Skype Online)  
-- 클라우드 커넥터 버전 (비즈니스용 Skype Online)을 사용 하 여 온-프레미스 PSTN 연결을 사용 하는 Office 365 전화 시스템
+- 통화 요금제가 포함 되어 있는 전화 시스템 (팀 및 비즈니스용 Skype Online) 
+- 비즈니스용 skype Online에서 온-프레미스 PSTN 연결을 사용 하는 전화 시스템 (비즈니스용 Skype Online)  
+- 클라우드 커넥터 에디션을 사용 하 여 온-프레미스 PSTN 연결을 사용한 전화 시스템 (비즈니스용 Skype Online)
 
 
 이러한 구성 단계 외에도 SBC (세션 경계 컨트롤러)에서 호출을 새 경로로 라우팅하는 데 구성이 필요 합니다. 이 문서에서는 다루지 않습니다. 자세한 내용은 SBC 공급 업체 문서를 참조 하세요.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>다양 한 PSTN 연결 옵션의 사용자 프로비저닝 종료 상태 
 
-다음 표에는 Office 365 전화 시스템을 사용 하 여 선택한 PSTN 연결 옵션에 대해 프로 비전 된 사용자의 종료 상태가 나와 있습니다. 음성과 관련 된 특성만 표시 됩니다.
+다음 표에는 전화 시스템에서 선택한 PSTN 연결 옵션에 대해 프로 비전 된 사용자의 종료 상태가 나와 있습니다. 음성과 관련 된 특성만 표시 됩니다.
 
 |사용자 개체 특성 |통화 요금제가 포함 되어 있는 전화 시스템|비즈니스용 Skype 서버를 통해 온-프레미스 PSTN 연결을 사용 하는 전화 시스템|클라우드 커넥터를 통해 온-프레미스 PSTN 연결을 사용 하는 전화 시스템|직접 라우팅을 통한 온-프레미스 PSTN 연결을 사용 하는 전화 시스템|
 |---|---|---|---|---|

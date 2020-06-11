@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 클라우드 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ba7da55a33aa1fa65b677146e73ce352158a4cdf
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523755"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697415"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>클라우드 자동 전화 교환 설정
 
@@ -83,7 +83,7 @@ ms.locfileid: "44523755"
 다음과 같은 여러 가지 방법으로 연산자를 설정할 수 있습니다.
 
 - **연산자 없음** "연산자" 및 "0 키" 옵션을 사용 하지 않습니다. 현재 기본값입니다.
-- **조직의 사용자** 가 Office 365에서 Enterprise Voice 또는 지정 된 통화 요금제를 사용 하도록 설정 하는 전화 시스템 라이선스를 사용자에 게 할당 합니다. 발신자를 보이스 메일로 보내도록 설정할 수도 있습니다. 전화를 음성 메일로 보내려면 **조직의 사용자** 를 선택 하 고 해당 계정의 설정을 설정 하 여 전화를 음성 메일로 바로 보냅니다.
+- **조직의 사용자** 가 Microsoft 365 또는 Office 365에서 엔터프라이즈 음성 또는 할당 된 통화 계획을 사용 하도록 설정 된 전화 시스템 라이선스를 가진 사용자를 할당 합니다. 발신자를 보이스 메일로 보내도록 설정할 수도 있습니다. 전화를 음성 메일로 보내려면 **조직의 사용자** 를 선택 하 고 해당 계정의 설정을 설정 하 여 전화를 음성 메일로 바로 보냅니다.
 
      > [!Note]
      > **조직의** 사용자는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스 사용자 또는 온라인 사용자가 될 수 있습니다. **조직에서 사용자** 를 선택할 때 공유 사서함 또는 사용자 사서함이 있는 계정을 선택할 수 있습니다.
@@ -157,13 +157,13 @@ ms.locfileid: "44523755"
 
 ![숫자 4의 아이콘, 이전 스크린샷 ](media/teamscallout4.png) **리디렉션 호출** 의 설명선은 옵션에서 선택 하지 않고 선택한 대상에 호출자를 보냅니다. 다음과 같은 설정이 가능 합니다.
 
-  - **조직의 사용자** 선택 하는 계정에는 Enterprise Voice에 사용할 수 있는 전화 시스템 라이선스가 있거나 Office 365에서 통화 요금제를 할당 받아야 합니다. 발신자에 게 전화를 걸 수 있도록 설정할 수 있습니다: **조직에서 사용자** 를 선택 하 고 해당 계정이 음성 메일로 바로 착신 전환 되도록 설정 합니다.
+  - **조직의 사용자** 선택 하는 계정에는 Enterprise Voice에 사용할 수 있는 전화 시스템 라이선스가 있거나 Microsoft 365 또는 Office 365에서 통화 요금제를 할당 받아야 합니다. 발신자에 게 전화를 걸 수 있도록 설정할 수 있습니다: **조직에서 사용자** 를 선택 하 고 해당 계정이 음성 메일로 바로 착신 전환 되도록 설정 합니다.
 
     > [!Note]
     > **조직의** 사용자는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스 사용자 또는 온라인 사용자가 될 수 있습니다. **조직에서 사용자** 를 선택할 때 공유 사서함 또는 사용자 사서함이 있는 계정을 선택할 수 있습니다.
 
   - **음성 앱** 이미 설정 된 자동 전화 교환 또는 통화 대기열을 선택 합니다. 서비스와 연결 된 리소스 계정의 이름으로 자동 전화 교환 또는 통화 대기열을 검색 합니다.
-  - 보이스 **메일** 이 자동 전화 교환으로 수신 되는 음성 메일에 액세스 해야 하는 조직의 사용자가 포함 된 Office 365 그룹을 선택 합니다. 보이스 메일 메시지는 사용자가 지정한 Office 365 그룹으로 전송 됩니다. 음성 메일 메시지에 액세스 하려면 해당 그룹의 구성원이 Outlook의 그룹으로 이동 하 여 열 수 있습니다.
+  - 보이스 **메일** 이 자동 전화 교환으로 수신 되는 음성 메일에 액세스 해야 하는 조직의 사용자가 포함 된 Microsoft 365 그룹을 선택 합니다. 사용자가 지정한 Microsoft 365 그룹에 보이스 메일 메시지가 전송 됩니다. 음성 메일 메시지에 액세스 하려면 해당 그룹의 구성원이 Outlook의 그룹으로 이동 하 여 열 수 있습니다.
 
       보이스 메일 메시지의 음성-텍스트 기록을 사용 하려면 **기록을** **on** 으로 전환 합니다.
 
@@ -198,11 +198,11 @@ ms.locfileid: "44523755"
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
 - **연산자** 연산자가 이미 설정 된 경우이 옵션은 키 0에 자동으로 매핑되지만, 삭제 하거나 다른 키에 다시 할당할 수도 있습니다. 이 옵션을 선택 하는 호출자가 지정 된 운영자에 게 전송 됩니다. If 연산자가 아무 키로도 설정 되어 있지 않으면 음성 명령 "연산자"를 사용할 수 없습니다. 
-- **조직의** 사용자는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스 사용자 또는 온라인 사용자가 될 수 있습니다. 사용자는 Office 365에서 엔터프라이즈 음성 또는 할당 된 통화 요금제를 사용 하도록 설정 된 전화 시스템 라이선스가 있어야 합니다. **이름으로 검색** 필드에서 해당 사용자를 검색 합니다.
+- **조직의** 사용자는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스 사용자 또는 온라인 사용자가 될 수 있습니다. 사용자는 Microsoft 365 또는 Office 365에서 엔터프라이즈 음성 또는 할당 된 전화 시스템 라이선스를 사용 해야 합니다. **이름으로 검색** 필드에서 해당 사용자를 검색 합니다.
 
 - **음성 앱** 이미 설정 된 자동 전화 교환 또는 통화 대기열을 선택 합니다. 응용 프로그램과 연결 된 리소스 계정의 이름으로 자동 전화 교환 또는 통화 대기열을 검색 합니다.
 
-- 보이스 **메일** 이 자동 전화 교환으로 수신 되는 음성 메일에 액세스 해야 하는 조직의 사용자가 포함 된 Office 365 그룹을 선택 합니다. 보이스 메일 메시지는 사용자가 지정한 Office 365 그룹으로 전송 됩니다. 음성 메일 메시지에 액세스 하려면 해당 그룹의 구성원이 Outlook의 그룹으로 이동 하 여 열 수 있습니다.
+- 보이스 **메일** 이 자동 전화 교환으로 수신 되는 음성 메일에 액세스 해야 하는 조직의 사용자가 포함 된 Microsoft 365 그룹을 선택 합니다. 사용자가 지정한 Microsoft 365 그룹에 보이스 메일 메시지가 전송 됩니다. 음성 메일 메시지에 액세스 하려면 해당 그룹의 구성원이 Outlook의 그룹으로 이동 하 여 열 수 있습니다.
 
     보이스 메일 메시지의 음성-텍스트 기록을 사용 하려면 **기록을** **on** 으로 전환 합니다.
 
@@ -333,7 +333,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 **모든 온라인 사용자**를 선택 하면 디렉터리 검색에 모든 적격 사용자가 포함 됩니다.
 
-**사용자 지정 사용자 그룹** 이 옵션을 사용 하면 조직에서 이미 만든 Office 365 그룹, 메일 그룹 또는 보안 그룹을 검색 하 고 선택할 수 있습니다. 사용자가 선택 된 Office 365 그룹, 메일 그룹 또는 보안 그룹과 온라인 사용자이 고, **전화 시스템 라이선스가** 있거나, 비즈니스용 Skype Server를 사용 하 여 온-프레미스에 호스팅되는 경우 해당 디렉터리가 디렉터리에 추가 됩니다. 여러 Microsoft 365 그룹, 배포 목록, 보안 그룹을 디렉터리에 추가할 수 있습니다.
+**사용자 지정 사용자 그룹** 이 옵션을 사용 하면 조직에서 이미 만든 Microsoft 365 그룹, 메일 그룹 또는 보안 그룹을 검색 하 고 선택할 수 있습니다. 사용자가 선택 된 Microsoft 365 그룹, 메일 그룹 또는 보안 그룹에 있고 **온라인 사용자가 전화 시스템 라이선스를가지고** 있거나 비즈니스용 Skype 서버를 사용 하 여 온-프레미스에 호스팅되는 경우 해당 디렉터리가 디렉터리에 추가 됩니다. 여러 Microsoft 365 그룹, 배포 목록, 보안 그룹을 디렉터리에 추가할 수 있습니다.
 
 <a name="dialscope"> </a>
 
@@ -343,8 +343,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 **없음**을 선택 하면 모든 적합 한 사용자가 디렉터리 검색에 포함 됩니다.
 
-사용자 **지정 사용자 그룹** 조직에서 만든 Office 365 그룹, 메일 그룹 또는 보안 그룹을 검색할 수 있습니다. 해당 그룹의 사용자는 디렉터리 검색에서 제외 됩니다. 여러 Microsoft 365 그룹, 배포 목록, 보안 그룹을 추가할 수 있습니다.
-
+사용자 **지정 사용자 그룹** 조직에서 만든 Microsoft 365 그룹, 배포 목록 또는 보안 그룹을 검색할 수 있습니다. 해당 그룹의 사용자는 디렉터리 검색에서 제외 됩니다. 여러 Microsoft 365 그룹, 배포 목록, 보안 그룹을 추가할 수 있습니다.
 
 이름으로 전화 걸기를 사용할 때 설정을 기본값으로 두면 디렉터리 검색에 모든 적격 사용자가 포함 됩니다.
 
@@ -411,7 +410,7 @@ PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 
 
 ### <a name="more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보
 
-- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하 여 일상 업무를 단순화할 수 있는 단일 관리 지점에서 Office 365 및 Microsoft 팀을 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하 여 일일 작업을 단순화할 수 있는 단일 관리 지점에서 Microsoft 365 또는 Office 365 및 Microsoft 팀을 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
 
   - [Windows PowerShell 및 Lync Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -419,13 +418,13 @@ PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 
 
 - Windows PowerShell에는 Microsoft 365 관리 센터를 사용 하는 경우 한 번에 여러 사용자의 설정을 변경 하는 것과 같은 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
 
-  - [Office 365 PowerShell을 사용 하 여 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Office 365 PowerShell을 사용 하 여 Microsoft 365 또는 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[다음은 전화 시스템 기능입니다.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 

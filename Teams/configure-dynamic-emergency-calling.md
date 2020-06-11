@@ -17,12 +17,12 @@ description: Microsoft 통화 계획 및 전화 시스템을 구성 하는 방�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e0523086ab985a488da15305fffbed8c57b0dc
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232579"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690884"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -159,7 +159,7 @@ Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 네트워�
 
 다음 정책을 사용 하 여 비상 전화를 구성 합니다. Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 이러한 정책을 관리할 수 있습니다.
 
-- **긴급 통화 라우팅 정책** – 직접 라우팅에만 적용 됩니다. 이 정책은 긴급 전화 번호, 필요한 경우에는 마스크, 숫자 당 PSTN 경로를 구성 합니다.  이 정책을 사용자, 네트워크 사이트 또는 둘 다에 할당할 수 있습니다. (통화 계획 팀 클라이언트는 해당 국가의 비상 전화를 사용 하 여 Office 365 사용 위치를 기준으로 응급 통화로 자동으로 설정 됩니다.)  자세한 내용은 [직접 라우팅에 대 한 긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)를 참조 하세요.
+- **긴급 통화 라우팅 정책** – 직접 라우팅에만 적용 됩니다. 이 정책은 긴급 전화 번호, 필요한 경우에는 마스크, 숫자 당 PSTN 경로를 구성 합니다.  이 정책을 사용자, 네트워크 사이트 또는 둘 다에 할당할 수 있습니다. (통화 계획 팀 클라이언트는 Microsoft 365 또는 Office 365 사용 위치를 기반으로 국가의 비상 전화를 사용 하 여 응급 통화로 자동으로 활성화 됩니다.)  자세한 내용은 [직접 라우팅에 대 한 긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)를 참조 하세요.
 
 - **비상 통화 정책** -통화 요금제 및 직접 라우팅에 적용 됩니다. 이 정책은 비상 통화가 이루어질 때 보안 데스크 알림 환경을 구성 합니다. 알림을 받을 사람과 알리는 방법을 설정할 수 있습니다. 예를 들어 조직의 보안 지원팀에 자동으로 알리고 긴급 통화를 수신 대기 하도록 할 수 있습니다.  이 정책은 사용자 또는 네트워크 사이트에 할당 하거나 둘 다에 할당할 수 있습니다. 자세히 알아보려면 [팀에서 긴급 통화 정책 관리](manage-emergency-calling-policies.md)를 참조 하세요.
 

@@ -17,17 +17,17 @@ description: 주로 방화벽 또는 프록시 연결에서 발생하는 Microso
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ee6cb916388dbfc0109185a0280da052980f8ccd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: cef20522784ba2d63d1461104a51f3148f48cf53
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137758"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689644"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Microsoft Teams 클라이언트의 연결 문제 해결
 ==============================================================
 
-Microsoft Teams 클라이언트에서 발견되는 대부분의 문제는 방화벽 또는 프록시 연결 문제로 추적됩니다. 방화벽 또는 프록시에서 필수 URL, IP 주소 및 포트가 열려 있는지 확인하면 불필요한 문제 해결을 최소화할 수 있습니다. Microsoft Teams에서 필요한 URL 및 IP에 대한 자세한 내용은 [Office 365 URL 및 IP 주소](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 지원 문서를 참조하세요. 다음 시나리오는 방화벽에서 특정 URL 및 포트가 열려 있어야 합니다.
+Microsoft Teams 클라이언트에서 발견되는 대부분의 문제는 방화벽 또는 프록시 연결 문제로 추적됩니다. 방화벽 또는 프록시에서 필수 URL, IP 주소 및 포트가 열려 있는지 확인하면 불필요한 문제 해결을 최소화할 수 있습니다. Microsoft 팀에 필요한 Url 및 Ip에 대 한 특정 정보는 [microsoft 365 및 Office 365 url 및 IP 주소](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 지원 문서를 참조 하세요. 다음 시나리오는 방화벽에서 특정 URL 및 포트가 열려 있어야 합니다.
 
 -   인증
 

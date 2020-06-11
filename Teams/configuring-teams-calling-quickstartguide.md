@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902883"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689654"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft 팀에서 통화 계획 구성
 ==============================================================
@@ -36,7 +36,7 @@ ms.locfileid: "43902883"
 > [!NOTE]
 > 이 빠른 시작 가이드를 사용 하 여 통화 요금제와 [Fasttrack](https://aka.ms/cloudvoice) 을 함께 사용 하 여 성공적인 출시를 계획 하 고 구동 하는 방법으로 [전화 시스템](calling-plan-landing-page.md) 을 읽을 것을 권장 합니다.
 
-통화 계획 추가-비즈니스용 Skype에서 제공 하는 Office 365 기능-이제 팀을 사용 하 여 PSTN (공공 교환 전화 네트워크)을 통해 지역 및 휴대폰으로 전화를 걸고 받을 수 있습니다.
+통화 요금제 추가 (비즈니스용 Skype에서 제공 하는 Microsoft 365 및 Office 365 기능)-이제 팀을 사용 하 여 PSTN (공공 교환 전화 네트워크)을 통해 지역 및 휴대폰으로 전화를 걸고 받을 수 있습니다.
 
 ![팀의 연락처 페이지를 보여주는 스크린샷](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>팀에서 **통화** 탭을 사용 하기 위한 필수 구성 요소

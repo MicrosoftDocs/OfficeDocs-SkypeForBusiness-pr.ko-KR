@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 비즈니스용 Skype 영국에 대 한 PSTN 통화 요금제의 연습 코드 (도움말을 얻을 수 있는 위치, 불만을 제출 하 고 분쟁를 해결 하는 방법 포함)에 대해 알아보세요.
-ms.openlocfilehash: 064d6961289a7874e9e67843c0cf47339c64f896
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779634"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689764"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365의 통화 요금제-영국 (영국)에 대 한 연습용 코드
 
-이 코드는 영국 통신 규정에 따라 Office 365 통화 계획 서비스 ("서비스")와 관련 하 여 소규모 비즈니스 고객 (영국)에 적용 됩니다 (미국 직원이 10 명 이하인 조직). 다른 비즈니스용 Skype 서비스는 Microsoft 및 특정 서비스 사용에 적용 되는 다른 약관의 서비스 계약에 따라 결정 됩니다.
+이 코드는 영국 통신 규정에 따라 Microsoft 365 또는 Office 365 통화 계획 서비스 ("서비스")와 관련 하 여 소규모 비즈니스 고객 (영국)에 적용 됩니다 (영국의 경우 10 명이 하). 다른 비즈니스용 Skype 서비스는 Microsoft 및 특정 서비스 사용에 적용 되는 다른 약관의 서비스 계약에 따라 결정 됩니다.
 
 ## <a name="1-about-skype-for-business"></a>1. 비즈니스용 Skype 정보
 
@@ -52,7 +52,7 @@ Skype for Business는 70, John Rogerson의 $ Ay, 더블린 2, 아일랜드에서
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. 불만 및 분쟁 해결
 
-주요 우선 순위는 고객 만족도와 우수한 서비스입니다. 그러나 불만 사항이 있는 경우 문제를 해결 하는 데 도움이 될 것입니다. 미국, 영국 [(영국) 페이지에 대 한 Office 365의 문제 처리 코드에](complaint-handling-code-for-the-united-kingdom-u-k.md) 포함 된 Microsoft의 요금제는 미국 비즈니스에 대 한 문제를 해결 하는 방법에 대해 자세히 설명 하 고 독립적인 분쟁 해결 체계를 제공 합니다.
+주요 우선 순위는 고객 만족도와 우수한 서비스입니다. 그러나 불만 사항이 있는 경우 문제를 해결 하는 데 도움이 될 것입니다. 영국 [(영국) 페이지의 Microsoft 365 또는 Office 365-불만 처리 코드에서](complaint-handling-code-for-the-united-kingdom-u-k.md) 사용 하는 계획에 따라 중소 기업에 대해 미국 및 독립적인 분쟁 해결 체계에 파일을 제공 하는 절차가 자세히 설명 되어 있습니다.
   
 ## <a name="4-number-porting"></a>4. 포팅 수
 
@@ -60,13 +60,13 @@ Skype for Business는 70, John Rogerson의 $ Ay, 더블린 2, 아일랜드에서
 
 ## <a name="5-service-reliability"></a>5. 서비스 안정성
 
-Office 365 통화 요금제는 광대역 연결에 의존 합니다. 광대역 연결에 정전이 나 장애가 발생 하는 경우에는 전화를 걸 수 없습니다. 이러한 장애가 발생 하는 이유는 제어 범위 밖에 있을 수 있습니다.
+Microsoft 365 또는 Office 365 호출 플랜은 광대역 연결에 의존 합니다. 광대역 연결에 정전이 나 장애가 발생 하는 경우에는 전화를 걸 수 없습니다. 이러한 장애가 발생 하는 이유는 제어 범위 밖에 있을 수 있습니다.
 
 ## <a name="6-emergency-calls"></a>6. 비상 전화
 
-비즈니스용 Skype는 영국, 웨일스, 스코틀랜드, 북부 아일랜드에 거주 하는 고객에 게 999/112 공개 비상 통화 서비스에 대 한 액세스를 제공 합니다. 그러나 999 또는 112에 대 한 비상 통화는 Office 365 통화 계획 서비스와 기존 전화 서비스에 따라 다르게 작동 합니다. 고객은 이러한 차이에 대 한 Office 365 호출 계획 서비스를 각 사용자에 게 알려야 합니다.
+비즈니스용 Skype는 영국, 웨일스, 스코틀랜드, 북부 아일랜드에 거주 하는 고객에 게 999/112 공개 비상 통화 서비스에 대 한 액세스를 제공 합니다. 그러나 999 또는 112에 대 한 비상 통화는 Microsoft 365 또는 Office 365 호출 계획 서비스와는 다른 전통적인 전화 서비스에 대해 다르게 작동 합니다. 고객은 이러한 차이에 대해 Microsoft 365 또는 Office 365 통화 계획 서비스의 각 사용자에 게 알려야 합니다.
 
-차이점에는 다음이 포함 됩니다. (i) 비즈니스용 Skype는 발신자의 실제 위치를 알 수 없기 때문에 응급 서비스가 잘못 된 위치로 despatched 될 수 있습니다. (ii) 비즈니스용 Skype 사용자가 비상 전화를 걸 때, 사용자에 게 현재 위치를 제공 하 라는 메시지가 표시 되어 긴급 통화와 despatching 응급 서비스를 적절 하 게 라우팅 하는 데 도움을 드릴 수 있습니다. (iii) 사용자의 장치에 전원이 들어오지 않거나, 전원이 중단 되거나, 어떠한 이유로 든 인터넷에 액세스할 수 없는 경우, 사용자가 Office 365 통화 요금제 서비스를 통해 비상 전화를 걸 수 없습니다. (iv) Office 365 통화 계획 서비스는 전세계 어디에서 든 인터넷 연결을 사용할 수 있지만, 사용자는 해당 비상 서비스로 라우팅되지 않기 때문에 영국, 웨일스, 스코틀랜드 또는 북부 아일랜드 외부의 999 또는 112을 호출 해서는 안 됩니다.
+차이점에는 다음이 포함 됩니다. (i) 비즈니스용 Skype는 발신자의 실제 위치를 알 수 없기 때문에 응급 서비스가 잘못 된 위치로 despatched 될 수 있습니다. (ii) 비즈니스용 Skype 사용자가 비상 전화를 걸 때, 사용자에 게 현재 위치를 제공 하 라는 메시지가 표시 되어 긴급 통화와 despatching 응급 서비스를 적절 하 게 라우팅 하는 데 도움을 드릴 수 있습니다. (iii) 사용자의 장치에 전원이 들어오지 않거나 정전이 발생 하거나 어떤 이유로 든 인터넷에 액세스할 수 없는 경우에는 사용자가 Microsoft 365 또는 Office 365 통화 요금제 서비스를 통해 비상 전화를 걸 수 없습니다. (iv) Microsoft 365 및 Office 365 통화 계획 서비스는 전세계 어디에서 든 인터넷 연결을 사용할 수 있지만, 사용자는 해당 통화를 적절 한 비상 서비스로 회람할 수 없기 때문에 영국 아일랜드에 있는 또는 112을 귀하에 게 999 문의 하면 안 됩니다.
 
 각 고객이 사용자의 위치를 등록 하 고, 긴급 서비스에 제공 될 수 있도록이 정보를 업데이트 하는 것이 중요 합니다. 비즈니스용 Skype 관리자 포털을 통해 온라인으로 위치 정보를 변경할 수 있습니다.
 
@@ -108,9 +108,9 @@ Office 365 통화 요금제는 광대역 연결에 의존 합니다. 광대역 �
 
 ### <a name="telephone-preference-service-and-fax-preference-services"></a>전화 기본 설정 서비스 및 팩스 기본 설정 서비스
 
-Ofcom을 대신 하 여 직접 마케팅 연결에 의해 운영 되는 전화 기본 설정 서비스 ("TPS")는 고객이 원하지 않는 영업 전화를 받을 수 있도록 하는 등록입니다. TPS에 등록 하려는 경우 [https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) 또는 0843 005 9576를 호출 하 여 등록할 수 있습니다.
+Ofcom을 대신 하 여 직접 마케팅 연결에 의해 운영 되는 전화 기본 설정 서비스 ("TPS")는 고객이 원하지 않는 영업 전화를 받을 수 있도록 하는 등록입니다. TPS에 등록 하려는 경우 또는 0843 005 9576를 호출 하 여 등록할 수 있습니다 [https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) .
 
-TPS와 같은 팩스 기본 설정 서비스 ("FPS")는 기업과 개인이 원하지 않는 영업 및 시장 팩스 수신을 거부할 수 있는 등록입니다. 0843 005 9576 또는에서 [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps)online을 호출 하 여 FPS에 등록할 수 있습니다.
+TPS와 같은 팩스 기본 설정 서비스 ("FPS")는 기업과 개인이 원하지 않는 영업 및 시장 팩스 수신을 거부할 수 있는 등록입니다. 0843 005 9576 또는에서 online을 호출 하 여 FPS에 등록할 수 있습니다 [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps) .
 
 ### <a name="internet-dialler-protection"></a>인터넷 dialler 보호
 
@@ -118,7 +118,7 @@ TPS와 같은 팩스 기본 설정 서비스 ("FPS")는 기업과 개인이 원�
 
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-모든 서비스 공급자는 Ofcom에 의해 승인 된 독립 조직인 PhonepayPlus에 등록 해야 합니다. PhonepayPlus는 프리미엄 요금 서비스를 조정 하 고 소비자가 보고 하는 불만을 조사 합니다. 모든 서비스 공급자는에서 [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice)찾을 수 있는 PhonepayPlus의 연습 코드를 준수 해야 합니다. 서비스 공급자가 연습용 코드를 위반 하는 경우 다음이 PhonepayPlus 수 있습니다.
+모든 서비스 공급자는 Ofcom에 의해 승인 된 독립 조직인 PhonepayPlus에 등록 해야 합니다. PhonepayPlus는 프리미엄 요금 서비스를 조정 하 고 소비자가 보고 하는 불만을 조사 합니다. 모든 서비스 공급자는에서 찾을 수 있는 PhonepayPlus의 연습 코드를 준수 해야 합니다 [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice) . 서비스 공급자가 연습용 코드를 위반 하는 경우 다음이 PhonepayPlus 수 있습니다.
 
 - 침해를 해결 하기 위해 파티 필요
 
@@ -128,7 +128,7 @@ TPS와 같은 팩스 기본 설정 서비스 ("FPS")는 기업과 개인이 원�
 
 ### <a name="service-provider-contact-information"></a>서비스 공급자 연락처 정보
 
-서비스 공급자에 대 한 연락처 정보를 찾으려면에서 [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)PhonepayPlus ' #NumberChecker 도구를 사용할 수 있습니다. 프리미엄 요금 서비스에 대해 wrongfully 된 것으로 생각 되는 경우 서비스 공급자에 직접 문의 해야 합니다.
+서비스 공급자에 대 한 연락처 정보를 찾으려면에서 PhonepayPlus ' #NumberChecker 도구를 사용할 수 있습니다 [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry) . 프리미엄 요금 서비스에 대해 wrongfully 된 것으로 생각 되는 경우 서비스 공급자에 직접 문의 해야 합니다.
 
 ### <a name="complaints"></a>불만
 

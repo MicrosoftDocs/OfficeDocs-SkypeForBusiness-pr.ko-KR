@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637507"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690014"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 
@@ -75,7 +75,7 @@ Microsoft Teams에는 다음과 같은 두 가지 주요 역할이 있습니다.
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-Office 365의 Microsoft Teams 관리자인 경우 Microsoft Teams 관리 센터에서 시스템 전체 설정에 액세스할 수 있습니다. 이러한 설정은 팀 소유자가 팀 설정 아래에서 볼 수 있는 옵션 및 기본값에 영향을 줄 수 있습니다. 예를 들어, 팀 전체에 표시되는 팀 전체 공지, 토론, 리소스에 대해 기본 채널 “일반”을 사용할 수 있습니다.
+Microsoft 365 또는 Office 365의 Microsoft 팀 관리자 인 경우 Microsoft 팀 관리 센터에서 시스템 전체 설정에 액세스할 수 있습니다. 이러한 설정은 팀 소유자가 팀 설정 아래에서 볼 수 있는 옵션 및 기본값에 영향을 줄 수 있습니다. 예를 들어, 팀 전체에 표시되는 팀 전체 공지, 토론, 리소스에 대해 기본 채널 “일반”을 사용할 수 있습니다.
 
 기본적으로 모든 사용자에게 Microsoft Teams 내에서 팀을 만들 수 있는 권한이 있습니다. 이 권한을 수정하려면 [Teams의 역할 및 권한 할당](assign-roles-permissions.md)을 참조하세요. 기존 Microsoft 365 그룹의 사용자는 팀의 기능을 사용 하 여 사용 권한을 향상 시킬 수도 있습니다.
 

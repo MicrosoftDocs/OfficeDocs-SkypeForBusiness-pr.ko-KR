@@ -21,59 +21,41 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '사용자를 위해 클라우드 보이스 메일을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 5526bee2bd365a4047e3641ea223941227858d1a
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 62729794ff1e23ce29b3e3aad86fa09b63a428e5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523121"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691054"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 메일 설정
 
-이 문서는 비즈니스의 모든 사용자에 대해 클라우드 보이스 메일 기능을 설정 하려는 [Office 365 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 를 대상으로 합니다.
+이 문서는 비즈니스의 모든 사용자에 게 클라우드 보이스 메일 기능을 설정 하려는 [관리자 역할에 대 한](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 설명 대로 Microsoft 365 또는 Office 365 관리자를 위한 것입니다.
 
 > [!NOTE]
 > 클라우드 보이스 메일은 Exchange 사서함 에서만 depositing 보이스 메일 메시지를 지원 하며 제 3 자 이메일 시스템을 지원 하지 않습니다. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-phone-system-users"></a>클라우드 전용 환경: 전화 시스템 사용자를 위한 클라우드 보이스 메일 설정
+> [!NOTE]
+> 대리인이 대리인을 대신 하 여 전화를 받으면 클라우드 보이스 메일에서 알림을 사용할 수 없습니다. 사용자는 부재 중 통화에 대 한 알림을 받을 수 있습니다.
 
-비즈니스용 Skype Online 및 통화 계획 사용자의 경우, **전화 시스템** 라이선스와 전화 번호를 할당 한 후 사용자에 대 한 클라우드 보이스 메일이 자동으로 설정 되 고 제공 됩니다.
-  
-1. 전화 시스템 기능이 요금제에 포함 되어 있지 않은 경우에는 **전화 시스템** 추가 기능 라이선스를 구입 해야 할 수 있습니다. Exchange Online 라이선스를 구입 해야 할 수도 있습니다. [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
-    
-2. 비즈니스용 [Office 365에 대 한 라이선스를 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)하 고, [Microsoft 팀 추가 기능 라이선스를 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)하 고, 비즈니스 사용자에 게 Exchange Online 라이선스를 부여 합니다. 이렇게 하면 해당 사용자가 보이스 메일 메시지를 받을 수 있습니다.
-    
-3. 보이스 메일에 대 한 지원은 3 월 2017 (으)로 추가 되었으며 모든 조직 및 사용자에 대해 기본적으로 사용 하도록 설정 되어 있습니다. Windows PowerShell을 사용 하 고 아래 단계를 수행 하 여 조직의 기록을 사용 하지 않도록 설정할 수 있습니다.
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>클라우드 전용 환경: 온라인 전화 시스템 사용자를 위한 클라우드 보이스 메일 설정
+
+온라인 전화 시스템 사용자의 경우 사용자에 게 **전화 시스템** 라이선스를 할당 한 후에는 사용자에 대해 클라우드 보이스 메일이 자동으로 설정 되 고 프로 비전 됩니다. 
+
+> [!NOTE]
+> 온-프레미스 전화 번호와 함께 제공 되는 비즈니스용 Skype 휴대폰 시스템 사용자의 경우 [Set-CsUser-HostedVoicemail $True](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)를 사용 하 여 호스팅 음성 메일을 사용 하도록 설정 해야 할 수 있습니다. 
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Exchange Server 사서함 사용자를 위한 클라우드 보이스 메일 설정
 
 다음 정보는 클라우드 보이스 메일을 구성 하 여 전화 시스템용으로 온라인 상태 이지만 Exchange Server에서 사서함을 사용 하는 사용자와 작동 하는 것입니다. 
   
-1. 전화 시스템 기능이 요금제에 포함 되어 있지 않은 경우에는 **전화 시스템** 추가 기능 라이선스를 구입 해야 할 수 있습니다. [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
-    
-2. 비즈니스의 사용자에 게 [Microsoft 팀 추가 기능 라이선스를 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md) 합니다.
-    
-3. 보이스 메일에 대 한 지원은 3 월 2017 (으)로 추가 되었으며 모든 조직 및 사용자에 대해 기본적으로 사용 하도록 설정 되어 있습니다. Windows PowerShell을 사용 하 고 아래 단계를 수행 하 여 조직의 기록을 사용 하지 않도록 설정할 수 있습니다.
+1. 보이스 메일 메시지는 Exchange Online 보호를 통해 라우팅된 SMTP를 통해 사용자의 Exchange 사서함으로 배달 됩니다. 이러한 메시지를 성공적으로 배달 하려면 exchange 서버와 Exchange Online 보호 간에 Exchange 커넥터가 올바르게 구성 되어 있는지 확인 하세요. [커넥터를 사용 하 여 메일 흐름을 구성](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)합니다. 
 
-4. 보이스 메일 메시지는 Exchange Online 보호를 통해 라우팅된 SMTP를 통해 사용자의 Exchange 사서함으로 배달 됩니다. 이러한 메시지를 성공적으로 배달 하려면 exchange 서버와 Exchange Online 보호 간에 Exchange 커넥터가 올바르게 구성 되어 있는지 확인 하세요. [커넥터를 사용 하 여 메일 흐름을 구성](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)합니다. 
-
-6. 인사말 사용자 지정, 비즈니스용 Skype 클라이언트의 시각적 보이스 메일 기능을 사용 하도록 설정 하려면 Exchange Web Services를 통해 Office 365에서 Exchange server 사서함으로 연결 해야 합니다. 이 연결을 사용 하도록 설정 하려면 [exchange 및 Exchange Online 조 직 간의 Oauth 인증 구성](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)에 설명 된 새 Exchange Oauth 인증 프로토콜을 구성 하거나 EXCHANGE 2013 CU5 이상에서 Exchange 하이브리드 마법사를 실행 해야 합니다. 또한 통합 구성에 설명 된 비즈니스용 Skype Online 및 Exchange server (비즈니스용 [Skype online 및 Exchange server 간](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises))의 통합 및 oauth를 구성 해야 합니다. 
+2. 비즈니스용 Skype 클라이언트에서 인사말 및 시각적 보이스 메일을 사용자 지정 하는 등의 보이스 메일 기능을 사용 하려면 Exchange Web Services를 통해 Microsoft 365 또는 Office 365에서 Exchange server 사서함으로 연결 해야 합니다. 이 연결을 사용 하도록 설정 하려면 [exchange 및 Exchange Online 조 직 간 Oauth 인증 구성](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)에서 설명한 새로운 exchange Oauth 인증 프로토콜을 구성 하거나 EXCHANGE 2013 CU5 이상에서 Exchange 하이브리드 마법사를 실행 해야 합니다. 또한 통합 구성에 설명 된 비즈니스용 Skype Online 및 Exchange server (비즈니스용 [Skype online 및 Exchange server 간](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises))의 통합 및 oauth를 구성 해야 합니다. 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>비즈니스용 Skype Server 사용자를 위한 클라우드 보이스 메일 설정
 
-다음 정보는 Exchange 용 인터넷 및 비즈니스용 Skype에 온-프레미스 사용자와 작동 하도록 클라우드 보이스 메일을 구성 하는 것입니다. 
-  
-1. 비즈니스 사용자에 게 Exchange Online 라이선스를 구입 해야 할 수 있습니다. [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
-    
-2. 비즈니스 사용자에 게 Exchange Online 라이선스를 [비즈니스용 Office 365에 대 한 라이선스를 할당 하거나 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 합니다.
-    
-3. 보이스 메일에 대 한 지원은 3 월 2017 (으)로 추가 되었으며 모든 조직 및 사용자에 대해 기본적으로 사용 하도록 설정 되어 있습니다. Windows PowerShell을 사용 하 고 아래 단계를 수행 하 여 조직의 기록을 사용 하지 않도록 설정할 수 있습니다.
-
-4. 클라우드 보이스 메일에 대 한 비즈니스용 Skype 서버 사용자를 구성 하려면 [온-프레미스 사용자 용 클라우드 보이스 메일 서비스 계획](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail) 을 참조 하세요.
-
-
-> [!NOTE]
-> 대리인이 대리인을 대신 하 여 전화를 받으면 클라우드 보이스 메일에서 알림을 사용할 수 없습니다. 사용자는 부재 중 통화에 대 한 알림을 받을 수 있습니다.
+클라우드 보이스 메일에 대 한 비즈니스용 Skype 서버 사용자를 구성 하려면 [온-프레미스 사용자 용 클라우드 보이스 메일 관리 서비스 계획](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)을 참조 하세요.
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>조직에서 보호 된 보이스 메일 사용
 
@@ -90,8 +72,8 @@ ms.locfileid: "44523121"
 5. 새 메일 흐름 규칙의 이름을 입력 하 고 다음 **규칙 적용**에서 **메시지 속성**을 선택 합니다  >  **Include the message type**  >  .**음성 메일**메시지를 포함 합니다. **확인을**선택 합니다.
 6. **다음 작업 수행**에서 **메시지에 Office 365 메시지 암호화 및 권한 보호 적용** 을 선택한 다음, **하나 선택을**선택 합니다. **RMS 템플릿에서** **전달 안 함**을 선택 합니다. **확인** 을 선택한 다음 **저장**을 선택 합니다.
     > [!NOTE]
-    > **RMS 서식 파일** 목록이 비어 있으면 Office 365 메시지 암호화를 설정 해야 합니다. Office 365 메시지 암호화를 설정 하는 방법에 대 한 자세한 내용은 다음 문서를 참조 하세요.
-    > - [새로운 Office 365 메시지 암호화 기능 설정](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > **RMS 서식 파일** 목록이 비어 있으면 메시지 암호화를 설정 해야 합니다. 메시지 암호화 설정에 대 한 자세한 내용은 다음 문서를 참조 하세요.
+    > - [새 메시지 암호화 기능 설정](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [Azure Information Protection 서식 파일 구성 및 관리](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
     > - [전자 메일에 대 한 전달 옵션 안 함](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
@@ -102,7 +84,7 @@ ms.locfileid: "44523121"
 
 보이스 메일은 기본적으로 사용 하도록 설정 되어 있으며, 모든 조직 및 사용자에 대해 기본적으로 기록 불경 마스크를 사용할 수 없습니다. 그러나 [CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 및 [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet을 사용 하 여 컨트롤을 제어할 수 있습니다.
 
-조직의 사용자가 받은 보이스 메일 메시지는 Office 365 조직이 호스팅되는 지역의 transcribed입니다. 테 넌 트가 호스팅되는 영역은 보이스 메일 메시지를 받는 사용자가 있는 지역과 다를 수 있습니다. 테 넌 트가 호스팅되는 지역을 보려면 [조직 프로필](https://go.microsoft.com/fwlink/p/?linkid=2067339) 페이지로 이동한 다음 **데이터 위치**옆에 있는 **세부 정보 보기** 를 클릭 합니다.
+조직의 사용자가 받은 보이스 메일 메시지는 Microsoft 365 또는 Office 365 조직이 호스팅되는 지역에 transcribed 됩니다. 테 넌 트가 호스팅되는 영역은 보이스 메일 메시지를 받는 사용자가 있는 지역과 다를 수 있습니다. 테 넌 트가 호스팅되는 지역을 보려면 [조직 프로필](https://go.microsoft.com/fwlink/p/?linkid=2067339) 페이지로 이동한 다음 **데이터 위치**옆에 있는 **세부 정보 보기** 를 클릭 합니다.
 
 > [!IMPORTANT]
 > **새 CsOnlineVoiceMailPolicy** cmdlet을 사용 하 여 기록 및 기록 불경 표시 해제에 대 한 새 정책 인스턴스를 만들 수 없으며, **CsOnlineVoiceMailPolicy** cmdlet을 사용 하 여 기존 정책 인스턴스를 제거할 수 없습니다.
@@ -150,7 +132,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 ```
 
 > [!IMPORTANT]
-> Office 365의 보이스 메일 서비스는 음성 메일 정책을 캐시 하 고 4 시간 마다 캐시를 업데이트 합니다. 따라서 정책 변경은 적용 하는 데 최대 4 시간까지 걸릴 수 있습니다.
+> Microsoft 365 및 Office 365의 보이스 메일 서비스는 음성 메일 정책을 캐시 하 고 4 시간 마다 캐시를 업데이트 합니다. 따라서 정책 변경은 적용 하는 데 최대 4 시간까지 걸릴 수 있습니다.
 
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>사용자가 팀의 보이스 메일 기능을 배우는 데 유용한 정보
 
@@ -169,7 +151,6 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 ## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
-[Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
+[다음은 전화 시스템 기능입니다.](here-s-what-you-get-with-phone-system.md)
 
 [비즈니스용 Skype Server 및 Exchange Server의 마이그레이션 계획](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
-

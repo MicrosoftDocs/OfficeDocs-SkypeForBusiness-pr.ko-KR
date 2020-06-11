@@ -17,12 +17,12 @@ description: 팀에서 클라우드 음성으로 조직에 가장 적합 한 Mic
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 46a985247acaf80c228e19dc8ba38cfb1085308e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905030"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691414"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>사용자에게 적합한 통화 플랜은 무엇인가요? 
 
@@ -35,8 +35,8 @@ ms.locfileid: "43905030"
 
 다음 문서는 Microsoft 통화 계획 배포 및 사용에 대 한 자세한 정보를 제공 합니다.
 
-- [Office 365의 전화 시스템](what-is-phone-system-in-office-365.md)
-- [Office 365의 통화 플랜](calling-plans-for-office-365.md)
+- [Microsoft 365 또는 Office 365의 전화 시스템](what-is-phone-system-in-office-365.md)
+- [Microsoft 365 또는 Office 365에 대 한 통화 계획](calling-plans-for-office-365.md)
 - [통화 플랜 설정](set-up-calling-plans.md)
 
 
@@ -52,19 +52,19 @@ Microsoft를 전화 통신 회사로 사용 하려면 통화 요금제 라이선
 |본인에게 질의하기|작업 |
 |------------|-------|
 |내 지역에서 사용 가능한 통화 요금제가 있나요? 요금제 서비스를 호출할 사용자 위치 | 자세한 내용은 [오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조 하세요. | 
-사용자에 게 국제 통화가 필요 한가요? | 자세한 내용은 [Office 365에 대 한 요금제 호출](calling-plans-for-office-365.md)을 참조 하세요. |
+사용자에 게 국제 통화가 필요 한가요? | 자세한 내용은 [Microsoft 365 또는 Office 365에 대 한 요금제 호출](calling-plans-for-office-365.md)을 참조 하세요. |
 내 사용자가 통화 계획 라이선스를 보유 하 고 있나요? | 라이선스를 구입 하 여 할당 하려면 [2 단계: 라이선스 구입 및 할당](set-up-calling-plans.md#step-2-buy-and-assign-licenses)을 참조 하세요. |
 사용자에 게 직접 바로 안쪽 전화 접속 (a) 전화 번호를 사용 하 고 있습니까? | 전화 번호를 얻으려면 [3 단계: 전화 번호 받기를](set-up-calling-plans.md#step-3-get-phone-numbers)참고 하세요. |
 |||
 
-### <a name="transfer-phone-numbers-to-office-365"></a>Office 365로 전화 번호 전송
+### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365에 전화 번호 전송
 
 현재 서비스 공급자에서 팀으로 전화 번호를 쉽게 전송할 수 있습니다. 전화 번호를 팀으로 이식 하면 Microsoft가 서비스 공급자가 되며 해당 전화 번호로 청구 됩니다. 자세한 내용은 [팀으로 전화 번호 전송을](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)참조 하세요.
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>전화 번호 및 비상 위치
 
-Office 365의 통화 요금제를 사용 하는 경우 조직의 모든 사용자에 게 고유한 직접 안쪽 전화 접속 (a) 전화 번호 및 해당 하 고 확인 된 긴급 주소가 있어야 합니다. 긴급 주소 내에서 비상 위치 (예: 사무실 번호 또는 바닥 번호)를 지정할 수도 있습니다. 
+Microsoft 365 또는 Office 365의 통화 계획을 사용 하는 경우 조직의 모든 사용자에 게 고유한 직접 연결 다이얼 (시작) 전화 번호와 해당 하 고 확인 된 긴급 주소가 있어야 합니다. 긴급 주소 내에서 비상 위치 (예: 사무실 번호 또는 바닥 번호)를 지정할 수도 있습니다. 
 
 |본인에게 질의하기|작업 |
 |:------------|:-------|

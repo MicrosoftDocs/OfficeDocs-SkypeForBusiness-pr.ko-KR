@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 모임 이끌이는 다른 사용자가 자신의 전화를 사용 하 여 동일한 모임에 참가할 수 있도록 팀 앱을 사용 하 여 전화를 거는 방법을 알아봅니다.
-ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901963"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691294"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>다른 사용자가 참여할 수 있도록 Microsoft 팀 모임에서 전화 걸기
 
@@ -45,7 +45,7 @@ ms.locfileid: "43901963"
 
 다음과 같은 방법으로 전화를 걸어 작업할 수 있습니다.
 
- **1 단계:** 모임에서 사람 추가 단추 ![](media/add-people-button.png) 에 대 한 **사용자 추가** 스크린샷을 사용 하 여 전화를 걸 수 있습니다.
+ **1 단계:** 모임에서 **Add people** ![ 사람 추가 단추에 대 한 사용자 추가 스크린샷을 사용 하 여 ](media/add-people-button.png) 전화를 걸 수 있습니다.
  **2 단계:** **다른 사람 초대 또는 전화 걸기** 상자에 국가/지역 번호를 포함 하 여 전체 전화 번호를 입력 합니다.
   
 ![다른 사용자 초대 또는 전화 번호 상자 스크린샷](media/invite-someone-box.png)
@@ -60,6 +60,6 @@ ms.locfileid: "43901963"
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>오디오 회의에 대 한 자세한 내용을 확인 하 고 싶으신가요?
 
-[Office 365에서 오디오 회의 체험 또는 구매](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[오디오 회의 체험 또는 구매](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

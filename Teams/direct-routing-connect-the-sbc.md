@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC를 전화 시스템 다이렉트 라우팅에 구성 하 고 연결 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fbcc1d79a4875ba835fc77ea24f6356ded3da894
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159041"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691264"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>직접 라우팅에 SBC (세션 경계 컨트롤러) 연결
 
@@ -38,9 +38,9 @@ ms.locfileid: "44159041"
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. 왼쪽 탐색 창에서 **음성** > **다이렉트 라우팅으로**이동한 다음 **SBCs** 탭을 클릭 합니다.
+1. 왼쪽 탐색 창에서 **음성**  >  **다이렉트 라우팅으로**이동한 다음 **SBCs** 탭을 클릭 합니다.
 2. **추가**를 클릭 합니다.
-3. SBC에 대 한 FQDN을 입력 합니다. <br><br>FQDN의 도메인 이름 부분이 테 넌 트에 등록 된 도메인과 일치 하는지 확인 하 고, SBC FQDN 도메인 이름에 대 `*.onmicrosoft.com` 한 도메인 이름이 지원 되지 않는다는 점에 유의 하세요. 예를 들어 두 개의 도메인 이름이 `contoso.com` 있고 `contoso.on.microsoft.com`SBC 이름으로 사용 `sbc.contoso.com` 합니다.
+3. SBC에 대 한 FQDN을 입력 합니다. <br><br>FQDN의 도메인 이름 부분이 테 넌 트에 등록 된 도메인과 일치 하는지 확인 하 고, `*.onmicrosoft.com` SBC FQDN 도메인 이름에 대 한 도메인 이름이 지원 되지 않는다는 점에 유의 하세요. 예를 들어 두 개의 도메인 이름이 `contoso.com` 있고 `contoso.on.microsoft.com` `sbc.contoso.com` SBC 이름으로 사용 합니다.
 4. 조직의 요구 사항에 따라 SBC에 대해 다음 설정을 구성 합니다. 이러한 각 설정에 대 한 자세한 내용은 [SBC 설정을](#sbc-settings)참조 하세요.
 
     ![Microsoft 팀 관리 센터의 SBC 추가 페이지 스크린샷](media/direct-routing-add-sbc.png)
@@ -86,7 +86,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. SBC 설명서에서 찾을 수 있는 정보를 사용 하 여 SBC의 최대 통화 제한을 설정 하는 것이 좋습니다. 이 제한은 SBC이 용량 수준에 있는 경우 알림을 트리거합니다.
-  > 2. FQDN의 도메인 부분이 onmicrosoft.com를 제외 \*하 고 테 넌 트에서 등록 된 도메인 중 하 나와 일치 하는 경우에만 SBC를 연결할 수 있습니다. Onmicrosoft.com \*도메인 이름을 사용 하는 것은 SBC FQDN 이름에 대해 지원 되지 않습니다. 예를 들어 두 개의 도메인 이름인 **contoso** **와 onmicrosoft.com**가 있는 경우 sbc 이름에 대해 sbc를 사용할 수 있습니다. Sbc와 같은 이름을 사용 하 여 SBC에 연결 하려고 하면이 테 넌 트가 도메인을 소유 하지 않으므로 시스템에서 사용자를 허용 하지 않습니다.<br/>
+  > 2. FQDN의 도메인 부분이 onmicrosoft.com를 제외 하 고 테 넌 트에서 등록 된 도메인 중 하 나와 일치 하는 경우에만 SBC를 연결할 수 있습니다. \* \*Onmicrosoft.com 도메인 이름을 사용 하는 것은 SBC FQDN 이름에 대해 지원 되지 않습니다. 예를 들어 두 개의 도메인 이름인 **contoso** **와 onmicrosoft.com**가 있는 경우 sbc 이름에 대해 sbc를 사용할 수 있습니다. Sbc와 같은 이름을 사용 하 여 SBC에 연결 하려고 하면이 테 넌 트가 도메인을 소유 하지 않으므로 시스템에서 사용자를 허용 하지 않습니다.<br/>
   > 테 넌 트에 등록 된 도메인 외에도 해당 도메인 및 할당 된 E3 또는 E5 라이선스를 가진 사용자가 있어야 합니다. 그렇지 않으면 다음 오류가 표시 됩니다.<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
@@ -164,7 +164,7 @@ Enabled               : True
 |아니요|**수**|수|아웃 바운드 통화에 대 한 SBC를 설정 하는 데 사용 합니다. 이를 사용 하 여 업데이트 중이거나 유지 관리 하는 동안 서비스에서 SBC를 일시적으로 제거할 수 있습니다. |해제|False<br/>해제|부울|
 |예|**SIP 신호 포트**|SipSignalingPort |TLS (전송 계층) 프로토콜을 사용 하 여 직접 라우팅과 통신 하는 데 사용 되는 수신 대기 포트입니다.|없음|모든 포트|0 ~ 65535 |
 |아니요|**SIP 보내기 옵션**|SendSIPOptions |SBC가 SIP 옵션 메시지를 보낼지 여부를 정의 합니다. 이 설정을 사용 하는 것이 좋습니다. 이 설정을 해제 하면 SBC는 모니터링 및 알림 시스템에서 제외 됩니다.|False|False<br/>해제|부울|
-|아니요|**착신 통화 기록**|ForwardCallHistory |전화 기록 정보가 트렁크를 통해 전달 되는지 여부를 나타냅니다. 이 기능을 설정 하면 Office 365 프록시에서 기록 정보 및 참조 된 머리글을 보냅니다. |해제|False<br/>해제|부울|
+|아니요|**착신 통화 기록**|ForwardCallHistory |전화 기록 정보가 트렁크를 통해 전달 되는지 여부를 나타냅니다. 이 기능을 설정 하면 Microsoft 365 또는 Office 365 프록시에서 기록 정보 및 참조 된 머리글을 보냅니다. |해제|False<br/>해제|부울|
 |아니요|**정방향 P-어설션된-id (PAI) 헤더**|ForwardPAI|PAI 헤더가 통화와 함께 착신 전환 되는지 여부를 나타냅니다. PAI 헤더를 사용하면 발신자 번호를 확인할 수 있습니다. 이 설정이 켜져 있으면 개인 정보: ID 헤더만 전송 됩니다.|해제|False<br/>해제|부울|
 |아니요|**동시 통화 용량**|MaxConcurrentSessions |값을 설정 하면 경고 시스템에서 동시 세션 수가이 값 보다 90% 이상인 경우 알림을 받습니다. 값을 설정 하지 않으면 알림이 생성 되지 않습니다. 그러나 모니터링 시스템에서는 24 시간 마다 동시 세션의 수를 보고 합니다. |L|L<br/>1 ~ 10만 ||
 |아니요|**장애 조치 응답 코드**|FailoverResponseCodes<br>|송신 초대에 대 한 응답으로 직접 라우팅이 4xx 또는 6xx SIP 오류 코드를 수신 하는 경우에는 통화가 기본적으로 완료 된 것으로 간주 됩니다. 발신은 트래픽 흐름을 사용 하 여 팀 클라이언트에서 PSTN으로의 통화 (팀 클라이언트 > 직접 라우팅 > SBC-> 전화 통신 네트워크)를 의미 합니다. 장애 조치 (failover) 응답 코드를 지정 하면 네트워크 또는 기타 문제로 인해 SBC에서 전화를 걸 수 없는 경우 지정 된 코드를 받을 때 다른 SBC (사용자의 음성 라우팅 정책에 다른 SBC이 있는 경우)를 시도 하도록 직접 라우팅이 강제 적용 됩니다. 자세한 내용은 [SBC (세션 경계 컨트롤러)에서 받은 특정 SIP 코드의 장애 조치](direct-routing-trunk-failover-on-outbound-call.md)를 참조 하세요.|408, 503, 504||Int|

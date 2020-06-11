@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Microsoft 팀 관리 센터 또는 Windows PowerShell을 사용 하 여 다이얼 플랜을 만들고 관리 하는 방법 (PSTN 통화 다이얼 플랜)에 대해 알아봅니다.
-ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902023"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691344"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "43902023"
 
 ### <a name="create-a-dial-plan"></a>다이얼 플랜 만들기
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **다이얼 플랜**으로 이동 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **다이얼 플랜**으로 이동 합니다.
 2. **추가**를 클릭 한 다음 다이얼 플랜의 이름과 설명을 입력 합니다.
     ![다이얼 플랜을 만들기 위한 추가 페이지를 보여 주는 스크린샷](media/create-dial-plan.png)
 3. **다이얼 플랜 세부 정보**아래에서 사용자가 하나 이상의 추가 선행 번호 (예: 9)를 입력 하 여 외부 회선을 확보 해야 하는 경우 외부 전화 걸기 접두사를 지정 합니다. 실행할 작업:
@@ -56,7 +56,7 @@ ms.locfileid: "43902023"
 
 ### <a name="edit-a-dial-plan"></a>다이얼 플랜 편집
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **다이얼 플랜**으로 이동 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **다이얼 플랜**으로 이동 합니다.
 2. 다이얼 플랜 이름 왼쪽을 클릭 하 여 다이얼 플랜을 선택 하 고 **편집**을 클릭 합니다.
 3. 원하는 변경 작업을 수행한 다음 **저장**을 클릭 합니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "43902023"
 
  **Windows PowerShell 버전 3.0 이상을 실행 하 고 있는지 확인**
   
-1. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴** > 에서**Windows PowerShell**을 수행 합니다.
+1. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴**에서  >  **Windows PowerShell**을 수행 합니다.
     
 2. **Windows PowerShell** 창에서 _Get-Host_ 를 입력 하 여 버전을 확인 합니다.
     
@@ -82,11 +82,11 @@ ms.locfileid: "43902023"
     
 4. 비즈니스용 skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)에서 다운로드할 수 있습니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
     
-자세한 내용은 [단일 Windows PowerShell 창에서 모든 Office 365 서비스에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)을 참조 하세요.
+자세한 내용은 [단일 Windows PowerShell 창에서 모든 Microsoft 365 또는 Office 365 서비스에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)을 참조 하세요.
   
  **Windows PowerShell 세션 시작**
   
-1. **Windows PowerShell** **시작** > 을 클릭 합니다.
+1. **Start**  >  **Windows PowerShell**시작을 클릭 합니다.
     
 2. **Windows PowerShell** 창에서 다음을 실행 하 여 Microsoft 365 또는 Office 365에 연결 합니다.
     

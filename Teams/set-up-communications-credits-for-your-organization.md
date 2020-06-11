@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '사용자 및 조직에 대해 통신 크레딧 (PSTN 소비) 청구 라이선스를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f124cd09c0baa604b09345394d9a53ae254bbb6f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042945"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691244"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -44,7 +44,7 @@ ms.locfileid: "44042945"
   
 - 사용자에 게 **오디오 회의** 라이선스를 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
     
-    이 라이선스를 할당 한 후에는 오디오 회의를 설정 해야 합니다. 단계별 지침은 [Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)을 참조 하세요.
+    이 라이선스를 할당 한 후에는 오디오 회의를 설정 해야 합니다. 단계별 지침은 [Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)을 참조 하세요.
     
 - **전화 시스템** 및 **국내 또는 국내 및 국제** 통화 요금제 라이선스를 사용자에 게 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
     
@@ -57,9 +57,9 @@ ms.locfileid: "44042945"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>2 단계: 조직의 통신 크레딧을 설정
 
-1. 회사 또는 학교 계정으로 새 Microsoft 365 관리 센터에 로그인 합니다.
+1. 회사 또는 학교 계정으로 [Microsoft 365 관리 센터](https://portal.office.com/Adminportal) 에 로그인 합니다.
     
-2. Microsoft 365 관리 센터의 왼쪽 탐색 모음에서 **청구** > **구입 서비스로**이동 합니다. 아래로 스크롤하여 **추가 기능**을 선택 합니다.
+2. Microsoft 365 관리 센터의 왼쪽 탐색 모음에서 **청구**  >  **구입 서비스로**이동 합니다. 아래로 스크롤하여 **추가 기능**을 선택 합니다.
 
 3. **통신 크레딧을**선택 합니다.
     
@@ -84,15 +84,15 @@ ms.locfileid: "44042945"
     >[!IMPORTANT]
     >볼륨 라이선스 고객 인 경우 결제를 위해 엔터프라이즈 계약 번호를 선택할 수 있습니다. 여러 엔터프라이즈 계약 번호를 사용 하는 경우 결제에 사용할 엔터프라이즈 계약을 선택할 수 있습니다. 또한 회사 계약 번호와 연결할 구매 주문 번호를 지정할 기회가 주어 집니다 (해당 하는 경우).
     
-각 조직은 서로 다른 통화 계획 볼륨 및 고려 요금을 사용 하 게 됩니다. 현재 서비스 공급자 로부터이 유형의 사용 데이터를 받아야 합니다. 비즈니스용 skype Online을 이미 서비스 공급자로 사용 하는 조직은 비즈니스용 **skype 관리 센터** > **보고서** > 에서**PSTN 사용 정보** 보고서를 검토 하 여 사용 현황 데이터를 얻을 수 있습니다.
+각 조직은 서로 다른 통화 계획 볼륨 및 고려 요금을 사용 하 게 됩니다. 현재 서비스 공급자 로부터이 유형의 사용 데이터를 받아야 합니다. 이미 비즈니스용 Skype Online을 해당 서비스 공급자로 사용 하는 조직은 **Microsoft 팀 관리 센터**의  >  **Reports**  >  **PSTN 사용 정보** 보고서에서 사용 현황 데이터를 검토 하 여 이용할 수 있습니다.
   
-통신 크레딧을 설정 하는 경우 조직의 통화 사용량을 조사 하 여 필요한 금액을 확인 해야 합니다. **PSTN 사용** 정보 보고서를 검토 하 여 통화 사용 정보를 얻을 수 있습니다. 이 보고서를 사용 하면 데이터를 저장 하거나 사용자 지정 보고서를 만들어야 할 경우 Excel로 통화 데이터 레코드를 내보낼 수 있습니다. 사용 현황을 확인 하는 방법에 [대 한 자세한 내용은 비즈니스용 SKYPE PSTN 사용 보고서](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)를 읽어 보세요.
+통신 크레딧을 설정 하는 경우 조직의 통화 사용량을 조사 하 여 필요한 금액을 확인 해야 합니다. **PSTN 사용** 정보 보고서를 검토 하 여 통화 사용 정보를 얻을 수 있습니다. 이 보고서를 사용 하면 데이터를 저장 하거나 사용자 지정 보고서를 만들어야 할 경우 Excel로 통화 데이터 레코드를 내보낼 수 있습니다. 사용 현황을 확인 하는 방법에 대해 알아보려면 [PSTN 사용 현황 보고서](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)를 읽어보십시오.
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>3 단계: 사용자에 게 통신 크레딧 라이선스 할당
 
-1. 회사 또는 학교 계정으로 로그인 합니다.
+1. 회사 또는 학교 계정으로 [Microsoft 365 관리 센터](https://portal.office.com/Adminportal) 에 로그인 합니다.
     
-2. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **사용자** > **활성 사용자**로 이동한 다음 목록에서 한 명 또는 몇 명의 사용자를 선택 합니다.
+2. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **사용자**  >  **활성 사용자**로 이동한 다음 목록에서 사용자를 선택 합니다.
     
 3. **라이선스 및 앱**을 선택 합니다.
     
@@ -100,6 +100,9 @@ ms.locfileid: "44042945"
     
     > [!NOTE]
     > **Enterprise E5** 라이선스를 할당 받은 사용자가 있는 경우에도이 작업을 수행 하는 것이 좋습니다.
+
+    > [!TIP]
+    > [Powershell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) 을 사용 하 여 한 명령으로 여러 사용자에 게 라이선스와 앱을 할당할 수 있습니다.
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>요금제 및 가격에 대해 알고 싶으세요?
 
@@ -111,17 +114,17 @@ ms.locfileid: "44042945"
     
 - [전화 시스템 요금제](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-[Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 여 정보를 볼 수 있으며, **결제** > **Subscriptions** > 플랜으로 진행 하 여**구독을 추가할**수도 있습니다.
+[Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 여 정보를 볼 수 있으며, **결제**플랜으로 진행 하 여  >  **Subscriptions**  >  **구독을 추가할**수도 있습니다.
   
 각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
 - [클라우드 음성 메일 설정 - 관리자 도움말](set-up-phone-system-voicemail.md)
     
-- [Office 365에 대 한](calling-plans-for-office-365.md) [통화 계획](set-up-calling-plans.md) 및 통화 계획 설정
+- [Microsoft 365 또는 Office 365에 대 한](calling-plans-for-office-365.md) [통화 계획](set-up-calling-plans.md) 및 통화 계획 설정
     
 - [자금 추가 및 커뮤니케이션 크레딧 관리](add-funds-and-manage-communications-credits.md)
     

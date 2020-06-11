@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Microsoft 팀에서 콘텐츠 검색을 사용 하 여 Exchange, SharePoint Online, 비즈니스용 OneDrive, OneNote에서 Microsoft 팀 정보를 쿼리 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776453"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690444"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft 팀에서 콘텐츠 검색 사용
 =====================================
@@ -32,7 +32,7 @@ ms.locfileid: "43776453"
 
 콘텐츠 검색은 Exchange, SharePoint Online, 비즈니스용 OneDrive에 걸친 Microsoft 팀 정보를 쿼리 하는 방법을 제공 합니다.
 
-자세한 내용은 [Office 365의 콘텐츠 검색](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)을 참고 하세요.
+자세한 내용은 [Microsoft 365 또는 Office 365의 콘텐츠 검색](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)을 참고 하세요.
 
 예를 들어 제조 스펙 사서함 및 제조 사양 SharePoint 사이트에 대 한 **콘텐츠 검색** 을 사용 하 여 Exchange에서 팀 표준 채널 대화, sharepoint Online의 파일 업로드 및 수정, OneNote 변경 내용을 검색할 수 있습니다.
 

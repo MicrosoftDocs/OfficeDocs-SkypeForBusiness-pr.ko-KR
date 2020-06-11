@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637717"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689814"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -139,7 +139,7 @@ Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 - 사용자에 게 Outlook 추가 기능을 허용 하는 팀 모임 정책이 있는지 확인 합니다. 자세한 내용은 [팀에서 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) 를 참조 하세요.
 - 사용자에 게 팀 데스크톱 클라이언트가 설치 되어 있는지 확인 합니다. 모임 추가 기능은 팀 웹 클라이언트만을 사용 하는 경우에는 설치 되지 않습니다.
 - 사용자에 게 Outlook 2013 이상이 설치 되어 있는지 확인 합니다.
-- 사용자에 게 regsvr32를 실행할 수 있는 권한이 있는지 확인 합니다.
+- 사용자에 게 regsvr32.exe 실행할 수 있는 권한이 있는지 확인 합니다.
 - Outlook 데스크톱 클라이언트에 대해 사용 가능한 모든 업데이트가 적용 되었는지 확인 합니다.
 - 다음 단계를 따릅니다:
   - Teams 데스크톱 클라이언트를 다시 시작합니다.
@@ -161,7 +161,7 @@ Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 
 > [!NOTE]
 > 레지스트리를 잘못 편집 하면 시스템에 심각한 손상을 줄 수 있습니다. 레지스트리를 변경 하기 전에 컴퓨터에 있는 중요 한 데이터를 백업 해야 합니다.
-- Regedit.exe 시작
+- 시작 RegEdit.exe
 - HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins 이동
 - TeamsAddin을 확인 합니다. FastConnect가 있습니다.
 - TeamsAddin 내에서 FastConnect, LoadBehavior이 있는지 확인 하 고 3으로 설정 합니다.
@@ -169,4 +169,6 @@ Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 
 ### <a name="delegate-scheduling-does-not-work"></a>대리인 일정이 작동 하지 않음
 
-관리자가 [EWS(Exchange 웹 서버)에 대한 액세스 권한을 제어](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)하기 위해 Microsoft Exchange를 구성한 경우에는 대리인이 상사를 대신하여 Teams 모임을 예약할 수 없습니다. 이 구성에 대한 해결 방법은 개발 중이며 향후에 출시될 예정입니다. 
+관리자가 [EWS(Exchange 웹 서버)에 대한 액세스 권한을 제어](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)하기 위해 Microsoft Exchange를 구성한 경우에는 대리인이 상사를 대신하여 Teams 모임을 예약할 수 없습니다. 이 구성에 대한 해결 방법은 개발 중이며 향후에 출시될 예정입니다. 이 문제를 해결 하기 위해 관리자는 EWS 허용 목록에 "*SchedulingService*" 문자열을 추가할 수 있습니다. 
+
+

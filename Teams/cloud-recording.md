@@ -16,12 +16,12 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eb2a9a3cf2e349ab74fc9059408a7be2c41c8408
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4f2cfcc4be8641fd11a0f22ba090fc5c71a3a240
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523341"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690904"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -48,7 +48,7 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 <sup>1</sup> 사용자에 게 Microsoft Stream에 대 한 모임 업로드/다운로드를 위한 라이선스가 필요 하지는 않지만 모임을 녹음/녹화할 수 있는 라이선스는 없습니다. Microsoft Temas 모임을 녹음/녹화하는 것에서 사용자를 차단하려면 AllowCloudRecording이 False로 설정된 TeamsMeetingPolicy를 부여해야 합니다.
 
 > [!IMPORTANT] 
-> 사용자가 녹음/녹화 및 녹음/녹화의 다운로드만 하도록 하려면 사용자에게 Microsoft Stream 라이선스를 할당할 필요가 없습니다. 이는 녹화가 Microsoft Stream에 저장 되지 않지만, 삭제 되기 30 일 제한을 초과 하 여 Azure Media Services (AMS)에 저장 되는 것을 의미 합니다. 이는 이 시점에 관리자가 삭제하는 기능을 포함하여 컨트롤하거나 관리할 수 있는 사항이 아닙니다.
+> 사용자가 녹음/녹화 및 녹음/녹화의 다운로드만 하도록 하려면 사용자에게 Microsoft Stream 라이선스를 할당할 필요가 없습니다. 이는 녹화가 Microsoft Stream에 저장 되지 않지만, 삭제 되기 21 일 제한을 초과 하 여 Azure Media Services (AMS)에 저장 되는 것을 의미 합니다. 이는 이 시점에 관리자가 삭제하는 기능을 포함하여 컨트롤하거나 관리할 수 있는 사항이 아닙니다.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>조직의 사용자를 위해 Teams 클라우드 모임 녹음/녹화 설정
 
@@ -58,7 +58,7 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 
 Microsoft Stream은 적격 Microsoft 365 및 Office 365 구독의 일부로 또는 독립 실행형 서비스로 사용할 수 있습니다.  자세한 내용은 [Stream 라이선싱 개요](https://docs.microsoft.com/stream/license-overview)를 참조하세요.  Microsoft Stream이 이제 Microsoft 365 비즈니스, Microsoft 365 Business Standard 및 Microsoft 365 Business Basic에 포함 되어 있습니다.
 
-사용자가 Microsoft Stream에 액세스할 수 있도록 [Office 365에서 사용자에게 라이선스를 할당](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)하는 방법에 대해 자세히 알아보세요. [Microsoft stream에 대 한 등록 차단](https://docs.microsoft.com/stream/disable-user-organization)에서 정의한 대로 microsoft stream이 사용자에 대해 차단 되지 않았는지 확인 합니다.
+Microsoft [365 또는 Office 365에서](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 사용자가 microsoft Stream에 액세스할 수 있도록 라이선스를 할당 하는 방법에 대해 자세히 알아보세요. [Microsoft stream에 대 한 등록 차단](https://docs.microsoft.com/stream/disable-user-organization)에서 정의한 대로 microsoft stream이 사용자에 대해 차단 되지 않았는지 확인 합니다.
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>사용자가 Microsoft Stream에서 비디오 업로드 권한이 있는지 확인
 
@@ -83,11 +83,15 @@ PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowCloudRecording 설정�
 
 사용자에 대한 전역 정책으로 변경하기 위해 다음과 같은 cmdlet를 사용하여 사용자에 대한 특정 정책 과제를 제거합니다.
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 전역 정책의 AllowCloudRecording 값을 변경하려면 다음과 같은 cmdlet를 사용합니다.
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
+```
 </br>
 </br>
 
@@ -105,7 +109,7 @@ PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowCloudRecording 설정�
 
 Microsoft Stream 데이터가 저장된 지역을 찾으려면 Microsoft Stream에서 오른쪽 상단 모서리의 **?** 를 클릭하고 **Microsoft Stream 정보**를 클릭한 다음 **사용자 데이터 저장 위치**를 클릭합니다.  Microsoft Stream이 데이터를 저장하는 지역에 대한 자세한 내용은 [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)를 참조하세요.
 
-Office 365의 서비스에서 데이터가 저장되는 위치에 대한 자세한 내용은 [사용자 데이터 위치](https://products.office.com/where-is-your-data-located?rtc=1)를 참조하세요.
+Microsoft 365 또는 Office 365의 서비스에서 데이터가 저장 되는 위치에 대 한 자세한 내용은 [데이터](https://products.office.com/where-is-your-data-located?rtc=1) 위치
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>녹음/녹화 기록 설정 또는 해제
 
@@ -121,11 +125,15 @@ PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowTranscription 설정을
 
 사용자에 대한 전역 정책으로 변경하기 위해 다음과 같은 cmdlet를 사용하여 사용자에 대한 특정 정책 과제를 제거합니다.
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 전역 정책의 AllowCloudRecording 값을 변경하려면 다음과 같은 cmdlet를 사용합니다.
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
+```
 </br>
 </br>
 
@@ -150,7 +158,7 @@ PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowTranscription 설정을
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>모임 녹음/녹화에 대한 규정 준수 및 eDiscovery
 
-모임 녹음/녹화는 Office 365 계층 C 규격인 Microsoft Stream에 저장됩니다. Microsoft Stream의 모임 또는 통화 녹음/녹화에 관심이 있는 준수 관리자에 대한 eDiscovery 요청을 지원하기 위해 녹음/녹화 완료 메시지를 Microsoft Teams의 준수 콘텐츠 검색 기능에서 사용할 수 있습니다. 준수 관리자는 준수 콘텐츠 검색 미리 보기에서 항목의 제목 줄에서 “녹음/녹화” 키워드를 찾을 수 있으며 조직에서 모임 및 통화 녹음/녹화를 검색할 수 있습니다. 모든 녹음/녹화를 확인하기 위한 필수 구성 요소는 관리자 액세스로 Microsoft Stream에서 설정해야 한다는 것입니다. [Stream에서 관리자 권한 할당](https://docs.microsoft.com/stream/assign-administrator-user-role)에 대해 자세히 알아봅니다.
+모임 기록은 microsoft Stream에 저장 되며, Microsoft 365 및 Office 365 계층-C 규격입니다. Microsoft Stream의 모임 또는 통화 녹음/녹화에 관심이 있는 준수 관리자에 대한 eDiscovery 요청을 지원하기 위해 녹음/녹화 완료 메시지를 Microsoft Teams의 준수 콘텐츠 검색 기능에서 사용할 수 있습니다. 준수 관리자는 준수 콘텐츠 검색 미리 보기에서 항목의 제목 줄에서 “녹음/녹화” 키워드를 찾을 수 있으며 조직에서 모임 및 통화 녹음/녹화를 검색할 수 있습니다. 모든 녹음/녹화를 확인하기 위한 필수 구성 요소는 관리자 액세스로 Microsoft Stream에서 설정해야 한다는 것입니다. [Stream에서 관리자 권한 할당](https://docs.microsoft.com/stream/assign-administrator-user-role)에 대해 자세히 알아봅니다.
 
 ## <a name="related-topics"></a>관련 항목
 

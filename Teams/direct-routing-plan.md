@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
-ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
+ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "44428955"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691234"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -71,22 +71,22 @@ Microsoft는 또한 통화 계획과 같은 모든 클라우드 음성 솔루션
 |:--- |:--- |
 |SBC (세션 경계 컨트롤러)|지원 되는 SBC입니다. 자세한 내용은 [지원 되는 SBCs](#supported-session-border-controllers-sbcs)를 참조 하세요.|
 |SBC에 연결 된 전화 통신 trunks|SBC에 연결 된 하나 이상의 전화 접속 trunks. 한 쪽 끝에서 SBC는 직접 라우팅을 통해 Microsoft 전화 시스템에 연결 됩니다. 또한 SBC는 Pbx, 아날로그 전화 통신 어댑터 등과 같은 타사 전화 통신 엔티티와 연결 될 수 있습니다. SBC에 연결 된 모든 PSTN 연결 옵션은 작동 합니다. SBC에 대 한 PSTN trunks 구성의 경우 SBC 공급 업체 또는 트렁크 공급자에 게 문의 하세요.|
-|Office 365 조직|Microsoft 팀 사용자를 홈으로 설정 하 고 SBC에 대 한 구성 및 연결을 하는 데 사용 하는 Office 365 조직입니다.|
-|사용자 등록자|사용자는 Office 365에서 가져와야 합니다.<br/>회사에서 Office 365에 하이브리드 연결을 사용 하는 온-프레미스 비즈니스용 Skype 또는 Lync 환경을 보유 하 고 있는 경우 온-프레미스 사용자의 팀에서 음성을 사용할 수 없습니다.<br/><br/>사용자의 등록자를 확인 하려면 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 합니다.<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet의 출력은 다음과 같이 표시 되어야 합니다.<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|도메인용|하나 이상의 도메인이 Office 365 조직에 추가 되었습니다.<br/><br/>\*테 넌 트에 대해 자동으로 만들어지는 기본 도메인 onmicrosoft.com는 사용할 수 없습니다.<br/><br/>다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 하 여 도메인을 볼 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Office 365 조직에 대 한 자세한 내용은 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)를 참조 하세요.|
+|Microsoft 365 또는 Office 365 조직|Microsoft 팀 사용자를 가정용으로 사용 하는 Microsoft 365 또는 Office 365 조직 및 SBC에 대 한 구성 및 연결입니다.|
+|사용자 등록자|사용자는 Microsoft 365 또는 Office 365에 있어야 합니다.<br/>회사에서 Microsoft 365 또는 Office 365에 하이브리드 연결을 사용 하는 온-프레미스 비즈니스용 Skype 또는 Lync 환경을 보유 하 고 있는 경우, 사용자가 온-프레미스에 대 한 팀에서 음성을 사용할 수 없습니다.<br/><br/>사용자의 등록자를 확인 하려면 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 합니다.<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet의 출력은 다음과 같이 표시 되어야 합니다.<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|도메인용|Microsoft 365 또는 Office 365 조직에 하나 이상의 도메인이 추가 되었습니다.<br/><br/>\*테 넌 트에 대해 자동으로 만들어지는 기본 도메인 onmicrosoft.com는 사용할 수 없습니다.<br/><br/>다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 하 여 도메인을 볼 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Microsoft 365 또는 Office 365 조직에 대 한 자세한 내용은 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)를 참조 하세요.|
 |SBC의 공용 IP 주소|SBC에 연결 하는 데 사용할 수 있는 공용 IP 주소입니다. Sbc의 유형에 따라 SBC에서 NAT를 사용할 수 있습니다.|
-|SBC에 대 한 FQDN (정규화 된 도메인 이름)|SBC에 대 한 FQDN으로, 여기서 FQDN의 도메인 부분은 Office 365 조직의 등록 된 도메인 중 하나입니다. 자세한 내용은 [SBC 도메인 이름을](#sbc-domain-names)참조 하세요.|
+|SBC에 대 한 FQDN (정규화 된 도메인 이름)|SBC에 대 한 FQDN으로, 여기서 FQDN의 도메인 부분은 Microsoft 365 또는 Office 365 조직의 등록 된 도메인 중 하나입니다. 자세한 내용은 [SBC 도메인 이름을](#sbc-domain-names)참조 하세요.|
 |SBC에 대 한 공용 DNS 항목 |공용 DNS 항목이 SBC FQDN을 공용 IP 주소에 매핑하는 것입니다. |
 |SBC에 대해 신뢰할 수 있는 공용 인증서 |직접 라우팅과 관련 된 모든 통신에 사용할 SBC에 대 한 인증서입니다. 자세한 내용은 [SBC에 대해 신뢰할 수 있는 공개 인증서](#public-trusted-certificate-for-the-sbc)를 참조 하세요.|
 |직접 라우팅 연결 지점 |직접 라우팅의 연결 지점은 다음 세 가지 Fqdn입니다.<br/><br/>`sip.pstnhub.microsoft.com`-전역 FQDN을 먼저 시도해 야 합니다.<br/>`sip2.pstnhub.microsoft.com`-보조 FQDN, 지리적으로 두 번째 우선 순위 영역에 매핑됩니다.<br/>`sip3.pstnhub.microsoft.com`– 3 차 FQDN, 지리적으로 세 번째 우선 순위 영역에 매핑됩니다.<br/><br/>구성 요구 사항에 대 한 자세한 내용은 [SIP 신호: fqdn](#sip-signaling-fqdns)을 참조 하세요.|
-|다이렉트 라우팅 미디어에 대 한 방화벽 IP 주소 및 포트 |SBC는 클라우드의 다음 서비스와 통신 합니다.<br/><br/>신호를 처리 하는 SIP 프록시<br/>미디어를 처리 하는 미디어 프로세서-매체 바이패스를 사용 하는 경우를 제외 하 고<br/><br/>이 두 서비스에는 Microsoft 클라우드에서이 문서의 뒷부분에 설명 된 별도의 IP 주소가 있습니다.<br/><br/>자세한 내용은 [Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)에서 [Microsoft 팀 섹션](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 을 참조 하세요. |
+|다이렉트 라우팅 미디어에 대 한 방화벽 IP 주소 및 포트 |SBC는 클라우드의 다음 서비스와 통신 합니다.<br/><br/>신호를 처리 하는 SIP 프록시<br/>미디어를 처리 하는 미디어 프로세서-매체 바이패스를 사용 하는 경우를 제외 하 고<br/><br/>이 두 서비스에는 Microsoft 클라우드에서이 문서의 뒷부분에 설명 된 별도의 IP 주소가 있습니다.<br/><br/>자세한 내용은 [url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)에서 [Microsoft 팀 섹션](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 을 참조 하세요. |
 |미디어 전송 프로필|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내용은 [Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조 하세요. |
+Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내용은 [url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조 하세요. |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>라이선스 및 기타 요구 사항 
 
-직접 라우팅 사용자에 게는 Office 365에 할당 된 다음 라이선스가 있어야 합니다. 
+직접 라우팅 사용자는 Microsoft 365 또는 Office 365에 다음 라이선스가 할당 되어야 합니다. 
 
 - Microsoft 전화 시스템. 
 - Microsoft 팀 + 비즈니스용 Skype 요금제 2 (라이선스에 포함 된 경우)
@@ -117,7 +117,7 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 
 동일한 사용자에 대 한 통화 계획과 직접 라우팅 연결을 혼합 하는 기능은 선택 사항 이지만, 사용자에 게 Microsoft 호출 계획을 할당 했지만 SBC를 사용 하 여 일부 통화를 라우팅해야 하는 경우와 같이 유용할 수 있습니다. 가장 일반적인 시나리오 중 하나는 타사 Pbx를 호출 하는 것입니다.  타사 Pbx를 사용 하는 경우 해당 Pbx에 연결 된 전화에 대 한 호출을 제외한 모든 통화는 Microsoft 통화 계획을 사용 하 여 라우팅되며, 타사 Pbx에 연결 된 전화기로의 통화는 SBC로 이동 하므로 PSTN이 아닌 엔터프라이즈 네트워크 내에서 유지 됩니다. 
 
-전화 시스템 라이선스에 대 한 자세한 내용은 office 365 및 [office 365 계획 옵션](https://technet.microsoft.com/library/office-365-plan-options.aspx)을 [사용 하 여 Office에서 최대한 활용](https://products.office.com/compare-all-microsoft-office-products?tab=2) 을 참조 하세요. 
+전화 시스템 라이선스에 대 한 자세한 내용은 Office 및 [계획 옵션](https://technet.microsoft.com/library/office-365-plan-options.aspx) [에서 최대한 활용](https://products.office.com/compare-all-microsoft-office-products?tab=2) 을 참조 하세요. 
 
 전화 시스템 라이선스에 대 한 자세한 내용은 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요. 
 
@@ -190,15 +190,15 @@ Microsoft는 고객 요청에 따라 추가 인증 기관을 추가 하기 위�
 
 ## <a name="sip-signaling-fqdns"></a>SIP 신호: Fqdn 
 
-직접 라우팅은 다음과 같은 Office 365 환경에서 제공 됩니다.
-- Office 365
+직접 라우팅은 다음 환경에서 제공 됩니다.
+- Microsoft 365 또는 Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
 
 GCC, GCC High, DoD 등의 [Office 365 및 US 정부 환경](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 에 대해 자세히 알아보세요.
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 및 Office 365 GCC 환경
 
 직접 라우팅의 연결 지점은 다음 세 가지 Fqdn입니다.
 
@@ -251,8 +251,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 다음 IP 주소 중 하나로 확인 �
 
 ## <a name="sip-signaling-ports"></a>SIP 신호: 포트
 
-직접 라우팅이 제공 되는 Office 365 환경에 대해 다음 포트를 사용 해야 합니다.
-- Office 365
+직접 라우팅이 제공 되는 Microsoft 365 또는 Office 365 환경에 대해 다음 포트를 사용 해야 합니다.
+- Microsoft 365 또는 Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
@@ -282,7 +282,7 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
 
 미디어 소통량이 Microsoft 클라우드의 별도 서비스에 전달 됩니다. 미디어 트래픽에 대 한 IP 주소 범위는 다음과 같습니다.
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 및 Office 365 GCC 환경
 
 - 52.112.0.0/14 (IP 주소는 52.112.0.1에서 52.115.255.254)입니다.
 - 52.120.0.0/14 (IP 주소는 52.120.0.1에서 52.123.255.254)입니다.
@@ -320,7 +320,7 @@ SIP 프록시와 미디어 프로세서 구성 요소가 모두 배포 된 위�
 
 미디어 프로세서만 배포 되는 위치 (위에 나열 된 가장 가까운 데이터 센터를 통한 SIP 흐름):
 - 일본 (JP/서쪽 데이터 센터)
-- 오스트레일리아 (AU 동쪽 및 서쪽 데이터 센터)
+- 오스트레일리아 (AU 동쪽 및 남동쪽 데이터 센터)
 
 
 

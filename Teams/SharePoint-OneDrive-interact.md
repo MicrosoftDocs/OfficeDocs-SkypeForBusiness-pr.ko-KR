@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f4f536c6395e17e58f255ac3b88ccca0a092815c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: cdcf054cfcf6b9d4f030ff1cf47bb9959a4cbcf8
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778564"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689824"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 및 비즈니스용 OneDrive가 Microsoft 팀과 상호 작용 하는 방법
 
@@ -37,7 +37,7 @@ Microsoft 팀의 각 팀은 SharePoint Online에 팀 사이트가 있으며, 팀
 
 개인 채팅 파일은 발신자의 비즈니스용 OneDrive 폴더에 저장 되며, 모든 참가자에 게 파일 공유 프로세스의 일부로 사용 권한이 자동으로 부여 됩니다.
 
-사용자가 SharePoint Online 라이선스를 할당 하 고 사용 하도록 설정 하지 않은 경우 Office 365의 비즈니스용 OneDrive 저장소가 없습니다. 파일 공유는 표준 채널에서 계속 작동 하지만, 사용자는 Office 365의 비즈니스용 OneDrive 저장소 없이도 채팅에서 파일을 공유할 수 있습니다.
+사용자가 SharePoint Online 라이선스를 할당 하 고 사용 하도록 설정 하지 않은 경우 Microsoft 365 또는 Office 365에 비즈니스용 OneDrive 저장소가 없습니다. 파일 공유는 표준 채널에서 계속 작동 하지만, Microsoft 365 또는 Office 365의 비즈니스용 OneDrive 저장소 없이는 채팅에서 파일을 공유할 수 없게 됩니다.
 
 SharePoint Online 문서 라이브러리와 비즈니스용 OneDrive에 파일을 저장하면 테넌트 수준에서 구성된 모든 규정 준수 규칙을 따릅니다. 
 
