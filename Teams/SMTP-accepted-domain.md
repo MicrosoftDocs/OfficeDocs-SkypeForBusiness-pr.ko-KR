@@ -16,24 +16,24 @@ f1.keywords:
 description: 팀 구성원에 게 알림을 보내기 위해 Exchange Online에서 허용 된 보낸 사람 도메인으로 Microsoft 팀 SMTP 도메인을 추가 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0efec3be7bbd9cf14ee7d0f1ca826ca76996795
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b66b58cb14c5205b0ba4a6ff7e95102dc1584579
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637747"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689864"
 ---
-<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a><span data-ttu-id="99538-103">Exchange Online에서 Microsoft 팀 SMTP 도메인을 허용 된 보낸 사람 도메인으로 추가</span><span class="sxs-lookup"><span data-stu-id="99538-103">Add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online</span></span> 
+<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a><span data-ttu-id="0bf13-103">Exchange Online에서 Microsoft 팀 SMTP 도메인을 허용 된 보낸 사람 도메인으로 추가</span><span class="sxs-lookup"><span data-stu-id="0bf13-103">Add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online</span></span> 
 =============================================================================
 
-<span data-ttu-id="99538-104">관리 콘솔에서 Microsoft 365 그룹을 만들거나 Outlook을 사용 하는 경우 Exchange Online은 그룹에 추가 되는 팀 구성원의 알림을 보내는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="99538-104">Whether you create a Microsoft 365 Group in the admin console or by using Outlook, Exchange Online is used to send notifications of a team member being added to a Group.</span></span> <span data-ttu-id="99538-105">이러한 메시지는 사용자의 기본 도메인 SMTP FQDN을 나타내므로 테 넌 트에서 생성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="99538-105">These messages are generated from your tenant as they represent your default domain SMTP FQDN.</span></span>
+<span data-ttu-id="0bf13-104">관리 콘솔에서 Microsoft 365 그룹을 만들거나 Outlook을 사용 하는 경우 Exchange Online은 그룹에 추가 되는 팀 구성원의 알림을 보내는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0bf13-104">Whether you create a Microsoft 365 group in the admin console or by using Outlook, Exchange Online is used to send notifications of a team member being added to a group.</span></span> <span data-ttu-id="0bf13-105">이러한 메시지는 사용자의 기본 도메인 SMTP FQDN을 나타내므로 테 넌 트에서 생성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0bf13-105">These messages are generated from your tenant as they represent your default domain SMTP FQDN.</span></span>
 
 ![그룹에 추가 된 사용자를 보여 주는 메시지 머리글의 스크린샷](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-<span data-ttu-id="99538-107">팀에서 Microsoft Exchange Online을 사용 하는 것은 물론, 추가 된 구성원에 게 알림을 보내는 경우입니다.</span><span class="sxs-lookup"><span data-stu-id="99538-107">Teams uses Microsoft Exchange Online as well to send notifications to team members when they've been added.</span></span> <span data-ttu-id="99538-108">SMTP 메시지의 도메인 FQDN에 대 한 차이점은 상업용/비즈니스 테 넌 트에 대 한 @email "teams.microsoft.com"이 고, 정부 테 넌 트의 경우 "@GCC-email.teams.com"이 고 스팸 필터링을 통해이를 찾아낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="99538-108">The difference being the domain FQDN of the SMTP message is "@email.teams.microsoft.com" for Commercial/Business tenants and "@GCC-email.teams.com" for Government tenants and could be caught by spam filtering.</span></span>
+<span data-ttu-id="0bf13-107">팀에서 Microsoft Exchange Online을 사용 하는 것은 물론, 추가 된 구성원에 게 알림을 보내는 경우입니다.</span><span class="sxs-lookup"><span data-stu-id="0bf13-107">Teams uses Microsoft Exchange Online as well to send notifications to team members when they've been added.</span></span> <span data-ttu-id="0bf13-108">SMTP 메시지의 도메인 FQDN에 대 한 차이점은 상업용/비즈니스 테 넌 트에 대 한 @email "teams.microsoft.com"이 고, 정부 테 넌 트의 경우 "@GCC-email.teams.com"이 고 스팸 필터링을 통해이를 찾아낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0bf13-108">The difference being the domain FQDN of the SMTP message is "@email.teams.microsoft.com" for Commercial/Business tenants and "@GCC-email.teams.com" for Government tenants and could be caught by spam filtering.</span></span>
 
 ![그룹에 추가 된 사용자를 보여 주는 메시지 머리글의 스크린샷](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 
-<span data-ttu-id="99538-110">최상의 결과와 원활한 작업을 위해서는 Exchange Online 스팸 구성에서 Microsoft 팀 SMTP 도메인을 "허용 된 보낸 사람 도메인" 목록에 추가 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="99538-110">For best result and seamless operation, consider adding the Microsoft Teams SMTP domain to your "allowed sender domains" list in your Exchange Online spam configuration:</span></span>
+<span data-ttu-id="0bf13-110">최상의 결과와 원활한 작업을 위해서는 Exchange Online 스팸 구성에서 Microsoft 팀 SMTP 도메인을 "허용 된 보낸 사람 도메인" 목록에 추가 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="0bf13-110">For best result and seamless operation, consider adding the Microsoft Teams SMTP domain to your "allowed sender domains" list in your Exchange Online spam configuration:</span></span>
 
 ![스팸 구성 설정의 허용 목록 섹션 스크린샷](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image3.png)
