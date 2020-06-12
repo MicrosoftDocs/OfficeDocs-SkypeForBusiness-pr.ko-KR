@@ -18,12 +18,12 @@ description: Microsoft 팀에서 사용자에 게 정책을 할당 하는 다양
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 098e55aa5f4096ac80e6f54e191e6c9d48d90826
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 1c8c6700ced98cad815c0e30a3afe3e40ae85b33
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698288"
+ms.locfileid: "44702733"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
 
@@ -34,7 +34,7 @@ ms.locfileid: "44698288"
 
 조직에는 고유한 요구 사항이 있는 다양 한 유형의 사용자와 사용자 지정 정책을 만들어 할당 하 여 해당 요구에 따라 다른 사용자 집합에 맞게 정책 설정을 조정할 수 있습니다.
 
-조직의 정책을 더욱 쉽게 관리할 수 있도록 하기 위해 팀에서는 여러 가지 방법으로 사용자에 게 정책을 할당할 수 있습니다. 정책을 사용자에 게 직접 또는 일괄 처리 할당을 통해 또는 사용자가 구성원으로 속해 있는 그룹에 할당할 수 있습니다. 정책 패키지를 사용 하 여 조직에서 유사한 역할이 있는 사용자에 게 미리 설정 된 정책 모음을 할당할 수도 있습니다. 선택 하는 옵션은 관리 하는 정책의 수와 할당 하려는 사용자 수에 따라 달라 집니다.
+조직의 정책을 더욱 쉽게 관리할 수 있도록 하기 위해 팀에서는 여러 가지 방법으로 사용자에 게 정책을 할당할 수 있습니다. 개별적으로 또는 일괄 처리 할당을 통해 또는 사용자가 구성원으로 속한 그룹에 게 정책을 직접 할당할 수 있습니다. 정책 패키지를 사용 하 여 조직에서 유사한 역할이 있는 사용자에 게 미리 설정 된 정책 모음을 할당할 수도 있습니다. 선택 하는 옵션은 관리 하는 정책의 수와 할당 하려는 사용자 수에 따라 달라 집니다. 조직의 최대 사용자 수에 적용 되도록 전역 (조직 차원의 기본값) 정책을 설정 하 여 특별 한 정책이 필요한 사용자에 게 정책을 할당 해야 합니다.
 
 이 문서에서는 사용자에 게 정책을 할당할 수 있는 다양 한 방법과이를 사용 하는 경우에 권장 되는 시나리오에 대해 설명 합니다.
 
@@ -62,6 +62,8 @@ ms.locfileid: "44698288"
 
 다음은 사용자에 게 정책을 할당할 수 있는 방법과 각각에 대해 권장 되는 시나리오에 대 한 개요입니다. 링크를 클릭 하 여 자세한 내용을 알아보세요.
 
+개별 사용자 또는 그룹에 정책을 할당 하기 전에 조직의 최대 사용자 수에 적용 되도록 [전역 (조직 차원의 기본) 정책을 설정](#set-the-global-policies) 하 여 시작 합니다.  전역 정책을 설정한 후에는 특수화 된 정책이 필요한 사용자에 게 정책만 할당 하면 됩니다.
+
 |방법  |If ...  | 사용 하 고 있습니다 ...
 |---------|---------|----|
 |[개인 사용자에 게 정책 할당](#assign-a-policy-to-individual-users)    | 팀을 처음 사용할 때 시작 하는 것이 든, 소수의 사용자에 게 하나 또는 두 가지 정책만 할당 하면 됩니다. |비즈니스용 Skype Online PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet
@@ -70,6 +72,50 @@ ms.locfileid: "44698288"
 |[그룹에 정책 할당](#assign-a-policy-to-a-group) (미리 보기)   |사용자의 그룹 구성원 자격을 기준으로 정책을 할당 해야 합니다. 예를 들어 보안 그룹 또는 조직 구성 단위의 모든 사용자에 게 정책을 할당 하려고 합니다.| 팀 PowerShell 모듈의 PowerShell cmdlet|
 | [사용자 일괄 처리에 정책 패키지 할당](#assign-a-policy-package-to-a-batch-of-users)|조직이 동일 하거나 비슷한 역할을 하는 조직의 사용자 일괄 처리에 여러 정책을 할당 해야 합니다. 예를 들어, 교육 (교사) 정책 패키지를 일괄 처리를 사용 하 여 모든 교사에 게 배정 하 고, 채팅, 통화, 모임에 대 한 전체 액세스 권한을 부여 하 고, 교육 (보조 학생) 정책 패키지를 보조 학생의 일괄 처리에 할당 하 여 비공개 통화와 같은 특정 기능을 제한할 수 있습니다.|팀 PowerShell 모듈의 PowerShell cmdlet|
 | 그룹에 정책 패키지 할당 (예정 대로)   | ||
+
+## <a name="set-the-global-policies"></a>전역 정책 설정
+
+각 정책 유형의 전역 (조직 전체 기본값) 정책을 설정 하려면 다음 단계를 따릅니다.
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
+
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 업데이트 하려는 정책 유형의 정책 페이지로 이동 합니다. 예를 들어 *팀 > 팀 정책* 또는 *모임 > 모임 정책* 또는 *메시징 정책* 또는 *음성 > 호출 정책*입니다.
+2. 현재 설정을 보려면 **전역 (조직 전체 기본값)** 정책을 선택 합니다.
+3. 필요에 따라 정책을 업데이트 한 다음 **저장**을 선택 합니다.
+
+### <a name="using-powershell"></a>PowerShell 사용
+
+PowerShell을 사용 하 여 전역 정책을 설정 하려면 전역 식별자를 사용 합니다.  먼저 현재 전역 정책을 검토 하 여 변경 하려는 설정을 결정 합니다.
+
+```powershell
+Get-CsTeamsMessagingPolicy -Identity Global
+ 
+Identity                      : Global
+Description                   :
+AllowUrlPreviews              : True
+AllowOwnerDeleteMessage       : False
+AllowUserEditMessage          : True
+AllowUserDeleteMessage        : True
+AllowUserChat                 : True
+AllowRemoveUser               : True
+AllowGiphy                    : True
+GiphyRatingType               : Moderate
+AllowMemes                    : True
+AllowImmersiveReader          : True
+AllowStickers                 : True
+AllowUserTranslation          : False
+ReadReceiptsEnabledType       : UserPreference
+AllowPriorityMessages         : True
+ChannelsInChatListEnabledType : DisabledUserOverride
+AudioMessageEnabledType       : ChatsAndChannels
+Expand (20 lines) Collapse 
+```
+
+그런 다음 필요에 따라 전역 정책을 업데이트 합니다.  변경 하려는 설정에 대 한 값만 지정 해야 합니다. 
+ 
+```powershell
+Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
+```
 
 ## <a name="assign-a-policy-to-individual-users"></a>개인 사용자에 게 정책 할당
 
