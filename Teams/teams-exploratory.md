@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 502bdb8c5e441449680fa383b20f3e570d8a8ecc
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489130"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689714"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================
@@ -33,18 +33,18 @@ Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory
 
 관리자가 Teams 예비 환경의 일부로서 보게 될 서비스 계획은 다음과 같습니다.
  - Exchange Online(플랜 1)
- - Office 365용 흐름
+ - Microsoft 365 혹은 Office 365에 대한 흐름
  - MyAnalytics의 인사이트
  - Microsoft Forms(플랜 E1)
  - Microsoft Planner
  - Microsoft Search
  - Microsoft StaffHub
- - O365 E1 SKU용 Microsoft Stream
+ - Microsoft 365 및 Office 365 E1 SKU용 Microsoft Stream
  - Microsoft Teams
- - Office 365용 모바일 장치 관리
+ - Microsoft 365 혹은 Office 365용 모바일 장치 관리
  - Office 365용 Office 모바일 앱 
  - Office Online
- - Office 365용 PowerApps
+ - Microsoft 365 혹은 Office 365용 PowerApps
  - SharePoint Online(플랜 1)
  - Sway
  - To-Do(플랜 1)
@@ -152,7 +152,7 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 
 - PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
 
-- 관리 포털을 통해 이 라이선스를 제거하려면 [비즈니스용 Office 365의 사용자 라이선스 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요. 
+- 관리 포털을 통해 이 라이선스를 제거하려면 [조직에서 사용자 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요.
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams 예비 환경은 얼마나 오래 지속되나요?
 

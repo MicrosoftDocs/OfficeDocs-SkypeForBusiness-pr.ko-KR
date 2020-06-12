@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c706fdde4f9634cc67b334cf19d0e9d3325f6ec8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f01c95ac248d470cc0384e42b6948c45bb99c8bf
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776583"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691324"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 배포하는 방법 알아보기
 
@@ -44,7 +44,7 @@ Teams용 오디오 회의를 출시하기 전에 다음의 사항을 고려합�
 |본인에게 질의하기|작업 |
 |------------|-------|
 |내 국가/지역에서 오디오 회의를 사용할 수 있나요?|본인의 국가/지역에서 오디오 회의를 사용할 수 있는지 확인하려면 [오디오 회의 및 통화 플랜에 대한 국가 및 지역의 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조하세요.|
-|사용자는 Teams 오디오 회의에 적절한 라이선스가 있나요?|오디오 회의 라이선스는 Office 365 E5 구독의 일부로 사용할 수 있으며 혹은 Microsoft 365 Business Standard, E1 또는 E3 구독의 추가 기능 서비스로 사용할 수 있습니다. <ul><li>라이선스를 받고 할당하려면 [Office 365에서의 오디오 회의 체험 혹은 구입](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) 및 [비즈니스용 Office 365에 대한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 참조합니다.</li><li> 자세한 내용은 [Microsoft Teams의 추가 기능 라이센싱](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 검토하세요. </li><li>각 Office 365 플랜에 어떤 클라우드 기능이 포함 되어있는지 확인하려면 [플랜에 기반한 라이선스 옵션](teams-add-on-licensing/office-365-business-premium.md) 문서를 참조하세요.</li></ul>|
+|사용자에게 Teams 오디오 회의에 적절한 라이선스가 있나요?|오디오 회의 라이선스는 Microsoft 365 혹은 Office 365 E5 구독의 일부로 사용할 수 있으며 혹은 Microsoft 365 Business Standard, E1 또는 E3 구독의 추가 기능 서비스로 사용할 수 있습니다. <ul><li>라이선스를 받고 할당하려면 [Microsoft 365 혹은 Office 365에서의 오디오 회의 체험 혹은 구입](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) 및 [비즈니스용 Microsoft 365 앱의 라이선스 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)를 참조합니다.</li><li> 자세한 내용은 [Microsoft Teams의 추가 기능 라이센싱](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 검토하세요. </li><li>각 플랜에 어떤 클라우드 기능이 포함 되어있는지 확인하려면 [플랜에 기반한 라이선스 옵션](teams-add-on-licensing/office-365-business-premium.md) 문서를 참조하세요.</li></ul>|
 |오디오 회의 라이선스가 할당된 사용자를 위해 통신 크레딧을 구매해야 하나요?|자세한 내용을 보려면 [통신 크레딧 소개](what-are-communications-credits.md)를 검토하고 아래에 있는 [통신 크레딧](#communications-credits) 섹션을 참조하세요.|
 |||
 
@@ -69,7 +69,7 @@ Teams는 조직의 팀을 관리하는데 사용할 수 있는 사용자 지정 
 
 회의 브리지를 통해 사용자는 휴대폰을 사용하여 모임에 전화를 걸 수 있습니다. 회의 브리지에 대한 기본 설정을 사용하거나 전화번호(유료 및 무료) 및 PIN이나 사용 언어와 같은 기타 설정을 변경할 수 있습니다.
 
-자세한 내용은 [Office 365의 오디오 회의](audio-conferencing-in-office-365.md)를 참조하세요.
+자세한 내용은 [오디오 회의](audio-conferencing-in-office-365.md)를 참조하세요.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -136,7 +136,7 @@ Teams 오디오 회의를 사용하여 회의 브리지의 기본 및 대체 언
 
 ### <a name="dial-plans"></a>다이얼 플랜
 
-다이얼 플랜은 Office 365에서 전화 시스템의 일부로서 통화 승인 및 통화 라우팅을 위해 전화번호를 대체 형식(일반적으로 E.164 형식)으로 변환하는 정규화 규칙의 집합입니다.
+다이얼 플랜은 Microsoft 365 혹은 Office 365에서 전화 시스템의 일부로서, 통화 승인 및 통화 라우팅을 위해 전화번호를 대체 형식(일반적으로 E.164 형식)으로 변환하는 정규화 규칙의 집합입니다.
 
 다이얼 플랜에 대한 자세한 내용은 [다이얼 플랜이란?](what-are-dial-plans.md)을 참조하세요.
 

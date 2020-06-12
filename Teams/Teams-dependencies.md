@@ -18,17 +18,17 @@ f1.keywords:
 description: 네 가지 수준의 권한 부여를 통해 Microsoft Teams 게스트 액세스 기능을 관리합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 848db9ea517876d941e837eaff34e72e0cff9c2a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778484"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689804"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams에서 게스트 액세스 권한 부여
 ===========================================
 
-조직의 요구 사항을 충족시키기 위해, 네 가지 수준의 권한 부여를 통해 Microsoft Teams 게스트 액세스 기능을 관리할 수 있습니다. 모든 인증 수준은 Office 365 조직에 적용됩니다. 각 권한 수준은 아래와 같이 게스트 경험을 제어합니다.
+조직의 요구 사항을 충족시키기 위해, 네 가지 수준의 권한 부여를 통해 Microsoft Teams 게스트 액세스 기능을 관리할 수 있습니다. 모든 인증 수준은 Microsoft 365 혹은 Office 365 조직에 적용됩니다. 각 권한 수준은 아래와 같이 게스트 경험을 제어합니다.
 
 - **Azure Active Directory**: Microsoft Teams의 게스트 액세스는 Azure AD B2B (Business-to-Business) 플랫폼에 의존합니다. 이 권한 수준은 디렉터리, 테넌트 및 응용 프로그램 수준에서의 게스트 경험을 제어합니다.
 - **Microsoft Teams**: Microsoft Teams의 게스트 경험만 제어합니다.
@@ -38,9 +38,9 @@ ms.locfileid: "43778484"
 이러한 서로 다른 권한 수준은 조직에 게스트 액세스를 설정하는 방법에 유연성을 제공합니다. 예를 들어 Microsoft Teams에서 게스트 사용자를 허용하지 않고 조직 전체에서 게스트 사용자를 허용하려면 Microsoft Teams에서 게스트 액세스를 해제하기만 하면 됩니다. 또 다른 예: Azure AD, Teams, 그룹 수준에서 게스트 액세스를 사용하도록 설정할 수 있지만, 선택한 팀에서 데이터 분류와 같은 하나 이상의 조건과 일치하는 게스트 사용자를 추가하는 기능을 사용하지 않도록 설정합니다. SharePoint Online 및 비즈니스용 OneDrive에는 Microsoft 365 그룹에 의존하지 않는 자체 게스트 액세스 설정이 있습니다.
 
 > [!NOTE]
-> 게스트는 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 및 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 서비스 제한에 영향을 받습니다. 
+> 게스트는 [Microsoft 365 및 Office 365 서비스 설명](https://go.microsoft.com/fwlink/p/?linkid=282347) 및 [Azure AD B2B 공동 작업의 제한 사항](https://go.microsoft.com/fwlink/p/?linkid=853019)에서 설명하는 서비스 제한의 적용을 받습니다. 
 
-다음 다이어그램은 게스트 액세스 권한 종속성이 Azure Active Directory, Microsoft Teams 및 Office 365간에 부여되고 통합되는 방법을 보여줍니다.
+다음 다이어그램은 게스트 액세스 권한종속성이 Azure Active Directory, Microsoft Teams 및 Microsoft 365 혹은 Office 365 사이에 부여되고 통합되는 방법을 보여줍니다.
 
 ![게스트 액세스에 대한 권한 종속성 다이어그램.](media/teams_dependencies_image1.png)
 
@@ -110,7 +110,7 @@ Microsoft 365 그룹에서 조직의 모든 Microsoft 365 그룹 및 Microsoft T
 
 Teams는 SharePoint Online 및 비즈니스용 OneDrive를 사용하여 채널 및 채팅 대화를 위한 파일과 문서를 저장합니다.  
 
-전체 Teams 게스트 액세스 환경을 위해서는 Office 365 관리자가 다음 설정을 구성해야 합니다.
+완전한 Teams 게스트 액세스 환경을 위해서는 Microsoft 365 및 Office 365 관리자가 다음 설정을 구성해야 합니다.
 
 - SharePoint Online에서 **기존 게스트**, **신규 및 기존 게스트** 또는 모두를 선택합니다.
 

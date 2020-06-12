@@ -17,12 +17,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdcb1dd78db1e3a555b58b40c17a7313d875317a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 91f41893f572465d2e51b66a56737f10f0f88fc0
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042425"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691494"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -89,11 +89,11 @@ ms.locfileid: "44042425"
 
    - 제한된 대역폭은 Teams 모임의 오디오 품질에 영향을 미칠 수 있습니다. 저대역폭 조건 하에서 최고의 모임을 경험하기 위해, 사용자에게 비디오를 제한하고 통화 및 모임 오디오에 PSTN을 사용하도록 장려합니다. 
 
-   - 최신 블로그(2020 3월 6일) 기사, [원격 직원에 맞게 Office 365 트래픽을 빠르게 최적화하고 인프라에 대한 부하를 줄이는 방법](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)을 읽어 보세요.
+   - 최신 블로그(2020 3월 6일) 기사, [원격 직원에 맞추어 Microsoft 365 혹은 Office 365 트래픽을 빠르게 최적화하고 인프라에 대한 부하를 줄이는 방법](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)을 읽어보세요.
 
    - 2020년 3월 26일 블로그: [ PN에서 실행: Microsoft가 원격 인력을 연결 상태로 유지하는 방법](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
-   - 중국에 있는 경우 [중국 사용자를 위한 Office 365 전역 테넌트 성능 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)를 참조하세요.
+   - 중국에 있는 경우 [중국 사용자를 위한 Microsoft 365 혹은 Office 365 전역 테넌트 성능 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)를 참조하세요.
 
    - 통화 또는 모임 품질 문제를 해결하는 데 도움이 필요한 경우에는 이 문서의 맨 아래에 있는 [알려진 문제 - 중국: 비즈니스용 Skype/Teams 회의에 전화 걸기](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)에 관한 지침을 따르세요.
 
@@ -107,9 +107,9 @@ ms.locfileid: "44042425"
 
    - [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [VPN 분할 터널링을 사용하여 원격 사용자에게 맞도록 Office 365 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [VPN 분할 터널링을 사용하여 원격 사용자를 위해 Microsoft 365 혹은 Office 365 연결성을 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-   - [보안 및 Teams](teams-security-guide.md)에서는 Microsoft 365의 엔터프라이즈급 보안 모범 사례 및 절차의 일부로 Teams 보안의 모든 기술 세부 정보가 제공됩니다.
+   - [보안 및 Teams](teams-security-guide.md)에서는 Microsoft 365의 엔터프라이즈급 보안 모범 사례 및 절차의 일부로 Teams 보안의 모든 기술적 세부 정보가 제공됩니다.
 
 
 2.  직원들이 Teams를 최대한 활용할 수 있도록 [Teams 비디오 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) 링크를 공유하세요.
@@ -133,9 +133,9 @@ ms.locfileid: "44042425"
 
       - Teams 블로그 (2020년 2월 28일): [Microsoft Teams로 집에서 작업하는 4가지 팁](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
-      - [Office 365로 공동 작업하기](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
+      - [Microsoft 365 또는 Office 365를 통한 공동 작업](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - [Office 365로 원격 작업](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
+      - [Microsoft 365 또는 Office 365를 통한 원격 작업](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
       - [원격 작업에 대한 9가지 팁](https://www.microsoft.com/tips/home/working-remotely)
 

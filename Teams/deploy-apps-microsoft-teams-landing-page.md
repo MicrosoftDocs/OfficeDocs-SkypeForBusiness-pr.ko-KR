@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83e5c452cd2e9056818059c5f0b1ddcdeca2c235
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 10d17aedd0a653b6fc5bd24946ede5da09dc4647
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901953"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691334"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams의 앱, 봇 및 커넥터
 
@@ -63,11 +63,11 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 ### <a name="bots-for-private-chats-and-channels"></a>개인 채팅 및 채널을 위한 봇
 
-봇은 사용자가 흥미를 느끼거나 정보를 얻고자 하는 세부 정보에 대해 쿼리에 응답하거나 업데이트 및 알림을 제공하는 자동화된 프로그램입니다. 봇은 Teams 채팅을 통해 사용자가 클라우드 서비스(예: 작업 관리, 일정 관리 및 설문조사 등)와 상호 작용할 수 있도록 해줍니다. Teams는 개인 채팅 및 채널을 통해 봇을 지원합니다. 관리자는 Office 365 조직에서 봇의 사용을 제어할 수 있습니다.
+봇은 사용자가 흥미를 느끼거나 정보를 얻고자 하는 세부 정보에 대해 쿼리에 응답하거나 업데이트 및 알림을 제공하는 자동화된 프로그램입니다. 봇은 Teams 채팅을 통해 사용자가 클라우드 서비스(예: 작업 관리, 일정 관리 및 설문조사 등)와 상호 작용할 수 있도록 해줍니다. Teams는 개인 채팅 및 채널을 통해 봇을 지원합니다. 관리자는 Microsoft 365 혹은 Office 365 조직에서 봇의 사용을 허용할지 여부를 제어할 수 있습니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-|Office 365 조직에서 사용자 지정 봇을 허용하고 싶으세요?|봇 추가에 대한 자세한 내용은 [Microsoft Teams에서 개인 채팅 및 채널을 위한 봇 추가](add-bots.md)를 참조하세요. 사용자 지정 봇을 켜거나 끄는 방법에 대한 자세한 내용은 [Microsoft Teams에서 앱 관리 설정](admin-settings.md)을 참조하세요.|
+|조직에서 사용자 지정 봇을 허용하고 싶으신가요?|봇 추가에 대한 자세한 내용은 [Microsoft Teams에서 개인 채팅 및 채널을 위한 봇 추가](add-bots.md)를 참조하세요. 사용자 지정 봇을 켜거나 끄는 방법에 대한 자세한 내용은 [Microsoft Teams에서 앱 관리 설정](admin-settings.md)을 참조하세요.|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>기본 제공 및 사용자 지정 탭
@@ -76,16 +76,16 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-|Office 365 조직에서 사용자 지정 탭을 허용하고 싶으세요?|자세한 내용은 [Teams에서 기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)을 참조하세요.|
+|조직에서 사용자 지정 탭을 허용하고 싶으신가요?|자세한 내용은 [Teams에서 기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)을 참조하세요.|
 |||
 
-### <a name="office-365-and-custom-connectors"></a>Office 365 및 사용자 지정 커넥터
+### <a name="custom-connectors"></a>사용자 지정 커넥터
 
 커넥터는 자주 사용하는 서비스의 콘텐츠와 업데이트를 채널에 직접 제공하여 팀을 최신 상태로 유지합니다. 커넥터를 사용하면 Teams 사용자는 Teams 채팅에서 Twitter, Trello, Wunderlist, GitHub 및 Azure DevOps 서비스와 같은 인기 서비스로부터 업데이트를 받을 수 있습니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-|사용자가 사용자 지정 커넥터를 만들 수 있도록 허용하고 싶나요?|자세한 내용은 [Teams에서 Office 365 및 사용자 지정 커넥터 사용](office-365-custom-connectors.md)을 참조하세요.|
+|사용자가 사용자 지정 커넥터를 만들 수 있도록 허용하고 싶나요?|자세한 내용은 [Teams에서 사용자 지정 커넥터 사용](office-365-custom-connectors.md)을 참조하세요.|
 |||
 
 ## <a name="additional-deployment-decisions"></a>추가 배포 결정사항
@@ -94,7 +94,7 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 ### <a name="activity-reports"></a>활동 보고서
 
-활동 보고서를 사용하여 조직의 사용자가 Teams를 어떻게 사용하고 있는지 확인할 수 있습니다. 예를 들어, 아직 Teams를 사용하고 있지 않은 경우 Teams를 사용하여 생산성과 공동 작업을 향상 시키는 방법을 모를 수도 있습니다. 조직에서 활동 보고서를 사용하여 교육 및 커뮤니케이션 노력에 대한 우선 순위를 결정할 수 있습니다. 활동 보고서를 보려면 Office 365의 전역 관리자, Teams 서비스 관리자 또는 비즈니스용 Skype 관리자여야 합니다.
+활동 보고서를 사용하여 조직의 사용자가 Teams를 어떻게 사용하고 있는지 확인할 수 있습니다. 예를 들어, 아직 Teams를 사용하고 있지 않은 경우 Teams를 사용하여 생산성과 공동 작업을 향상 시키는 방법을 모를 수도 있습니다. 조직에서 활동 보고서를 사용하여 교육 및 커뮤니케이션 노력에 대한 우선 순위를 결정할 수 있습니다. 활동 보고서를 보려면 Microsoft 365 혹은 Office 365의 전역 관리자, Teams 서비스 관리자 또는 비즈니스용 Skype 관리자여야 합니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|

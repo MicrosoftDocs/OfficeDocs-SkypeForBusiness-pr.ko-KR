@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 3b1546c71cc2796ce599da449ab37bf275384efc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 6a77e98a75497d8608f0b85ad1a52d3fed8d153b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637897"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691314"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -35,7 +35,7 @@ Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 *2019년 11월의 새로운 기능*
- - 사용자는 이제 [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포에 도움을 받을 수 있습니다](use-advisor-teams-roll-out.md). Advisor for Teams(미리 보기)는 Teams의 배포 과정을 안내합니다. Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
+ - 사용자는 이제 [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포에 도움을 받을 수 있습니다](use-advisor-teams-roll-out.md). Advisor for Teams(미리 보기)는 Teams의 배포 과정을 안내합니다. Advisor for Teams(미리 보기)는 Microsoft 365 또는 Office 365 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
  - Teams를 배포, 구성, 관리하는 방법을 보여주는 짧은(8-10분) 비디오를 포함한 [IT YouTube 채널용 Microsoft Teams 중요 기능](https://aka.ms/MicrosoftTeamsforIT)
 
 > [!TIP]
@@ -47,7 +47,7 @@ Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-|조직에서 Teams를 배포할 준비가 되었는가?|이 질문에 답변하려면 다음의 사항을 참조하세요: <ul><li>[Teams에 대한 조직의 네트워크 준비](prepare-network.md)</li><li>[Office 365 URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)</li><li>[팀을 만들 때 Microsoft 365 그룹에 대한 계획](plan-office-365-groups.md)</li></ul>|
+|조직에서 Teams를 배포할 준비가 되었는가?|이 질문에 답변하려면 다음의 사항을 참조하세요: <ul><li>[Teams에 대한 조직의 네트워크 준비](prepare-network.md)</li><li>[URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)</li><li>[팀을 만들 때 Microsoft 365 그룹에 대한 계획](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>핵심 배포 결정사항
@@ -131,7 +131,7 @@ Teams는 웹에서 데스크톱 그리고 모바일까지 여러 클라이언트
 
 ### <a name="teams-usage-reporting"></a>Teams 사용 현황 보고
 
-Office 365의 전역 관리자, Teams 서비스 관리 그리고 보고서 리더 역할은 팀 사용 현황 보고서를 볼 수 있습니다. 자세한 내용은 [Microsoft 365 사용 현황 분석 문서](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide)를 참조하세요.
+전역 관리자, Teams 서비스 관리자 그리고 보고서 구독자 역할은 Teams 사용 현황 보고서를 볼 수 있습니다. 자세한 내용은 [Microsoft 365 사용 현황 분석 문서](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide)를 참조하세요.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -151,16 +151,16 @@ Teams에서의 앱의 배포 및 관리에 대한 자세한 내용은 당사의 
 
 ### <a name="teams-licensing"></a>Teams 라이선싱
 
-Teams는 많은 Office 365 라이선스의 일부로 제공됩니다. Teams 라이선싱에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요.
+Teams는 많은 Microsoft 365 혹은 Office 365 라이선스의 일부로 제공됩니다. Teams 라이선싱에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
 |사용자는 배포하려는 모든 Teams의 기능을 사용하기 위해 필요한 라이선스가 있나요? | 라이선싱 요구 사항에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 읽어 보세요.|
 |||
 
-### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 및 SharePoint 상호 운용성 
+### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 및 SharePoint 상호 운용성
 
-완전한 Teams 환경이 되려면 모든 사용자가 Exchange Online, SharePoint Online 및 Microsoft 365 그룹 만들기가 가능하도록 설정해야 합니다. 다음의 문서는 다양한 환경에서 호스팅되는 Exchange 메일함과 관련된 정보, Exchange와 Teams가 상호 작용하는 방법 그리고 SharePoint 및 비즈니스용 OneDrive에 대한 이와 유사한 고려 사항에 관련된 정보를 간략하게 설명합니다. 
+완전한 Teams 환경이 되려면 모든 사용자가 Exchange Online, SharePoint Online 및 Microsoft 365 그룹 만들기가 가능하도록 설정해야 합니다. 다음의 문서는 다양한 환경에서 호스팅되는 Exchange 메일함과 관련된 정보, Exchange와 Teams가 상호 작용하는 방법 그리고 SharePoint 및 비즈니스용 OneDrive에 대한 이와 유사한 고려 사항에 관련된 정보를 간략하게 설명합니다.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -176,13 +176,13 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 | Teams의 배포 시 나는 어떠한 제한에 걸리기 쉽나요? | 자세한 내용은 [Teams의 제한과 사양](limits-specifications-teams.md)를 참조하세요. |
 |||
 
-### <a name="office-365-urls-and-ports"></a>Office 365 URL 및 포트
+### <a name="urls-and-ports"></a>URL 및 포트
 
-인터넷 트래픽의 세분화된 컨트롤을 유지하는 조직은 Teams에 맞게 올바르게 구성해야 하는 URL, IP 주소, 포트 및 프로토콜의 최신 목록을 위해 [Office 365 URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조합니다. Microsoft는 계속해서 Office 365 서비스를 개선 하고 새 기능을 추가하고 있으며 이는 필수 포트, URL, IP 주소가 시간이 지나면서 변경됨을 의미합니다. 이러한 정보가 업데이트되거나 변경될 시 알림을 받도록 RSS를 통해 구독을 할 것을 권장합니다. 적어도 위의 [채팅 배포 전제 조건](#chat-deployment-prerequisites)에 나열된 포트를 열었는지를 확인합니다.
+인터넷 트래픽의 세분화된 컨트롤을 유지하는 조직은 Teams에 맞게 올바르게 구성해야 하는 URL, IP 주소, 포트 및 프로토콜의 최신 목록을 위해 [URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조해야 합니다. Microsoft는 계속해서 Microsoft 365 및 Office 365 서비스를 개선하고 새 기능을 추가하고 있으며 이는 필수 포트, URL, IP 주소가 시간이 지나면서 변경됨을 의미합니다. 이러한 정보가 업데이트되거나 변경될 시 알림을 받도록 RSS를 통해 구독을 할 것을 권장합니다. 적어도 위의 [채팅 배포 전제 조건](#chat-deployment-prerequisites)에 나열된 포트를 열었는지를 확인합니다.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-| 사용자가 Teams를 사용할 수 있도록 하려면 인터넷 액세스 규칙이 필요한가요 혹은 필요한 최소 포트를 여는 것으로 충분하나요? | 자세한 내용은 [Office 365 URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)를 참조하세요.|
+| 사용자가 Teams를 사용할 수 있도록 하려면 인터넷 액세스 규칙이 필요한가요 혹은 필요한 최소 포트를 여는 것으로 충분하나요? | 자세한 내용은 [URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)를 참조하세요.|
 |||
 
 
@@ -241,11 +241,11 @@ Teams는 모임, 일정, 인터롭 차트 그리고 파일 공유를 포함하�
 
 ### <a name="government---gcc-considerations"></a>정부 - GCC 고려사항
 
-정부용 Microsoft 365의 사용 - GCC(정부 커뮤니티 클라우드)는 정부의 규정 및 요건을 적용 받는 미국 연방, 주, 지역적,부족적 혹은 영토적 정부 기관 혹은 기타 기관에서 Office 365의 배포를 진행하는 IT 전문가의 요구 사항을 충족하는 데 적합합니다.
+정부 기관용 Office 365의 사용 - GCC(정부 커뮤니티 클라우드)는 정부의 규정 및 요건을 적용 받는 미국 연방, 주, 지역적,부족적 혹은 영토적 정부 기관 혹은 기타 기관에서 Office 365의 배포를 진행하는 IT 전문가의 요구 사항을 충족하는 데 적합합니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-| Microsoft 365 정부 - GCC 환경에서 Teams를 배포해야 하나요? | 배포 관련 고려 사항은 [Microsoft 365 정부 - GCC 배포](plan-for-government-gcc.md) 계획을 참조하세요.|
+| 정부 기관용 Office 365 - GCC 환경에서 Teams를 배포해야 하나요? | 배포 관련 고려 사항은 [Office 365 정부 - GCC 배포 계획](plan-for-government-gcc.md)을 참조하세요.|
 |||
 
 ## <a name="next-steps"></a>다음 단계
