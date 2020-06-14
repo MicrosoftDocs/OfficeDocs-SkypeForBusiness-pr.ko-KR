@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665940"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691304"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 모임 및 회의
 
@@ -63,11 +63,9 @@ Teams에서 최상의 경험을 얻으려면 조직이 *Exchange Online 및 Shar
 - Teams를 사용하는 클라이언트가 발신하는 TCP 포트 80 및 443
 - Teams를 사용하는 클라이언트가 발신하는 UDP 포트 3478~3481
 
-[네트워크 테스트 도우미](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2)를 사용하여 네트워크 위치에서 모임 경험을 지원할 음성 및 비디오 트래픽에 대한 준비가 되었는지 확인할 수 있습니다.
-
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-|네트워크가 Teams 모임을 배포할 준비가 되었나요? | 네트워크가 준비되었는지 확인하려면 다음을 참조하세요.<ul><li>[Microsoft Teams에 대한 조직의 네트워크 준비](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Office 365 URL 및 IP 주소 범위](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|네트워크가 Teams 모임을 배포할 준비가 되었나요? | 네트워크가 준비되었는지 확인하려면 다음을 참조하세요.<ul><li>[Microsoft Teams에 대한 조직의 네트워크 준비](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL 및 IP 주소 범위](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>핵심 배포 결정사항

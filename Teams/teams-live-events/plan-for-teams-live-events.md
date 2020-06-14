@@ -18,12 +18,12 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224241"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689734"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -46,7 +46,7 @@ Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하�
 > [!NOTE]
 > 현재로서는 Teams 라이브 이벤트를 만들고 보유하는 데 사용할 수 있는 Microsoft 365 Small Business 요금제가 없습니다.
 
-인증된 사용자로서 라이브 이벤트에 참여하려면 Office 365 라이선스가 필요하다는 것을 알고 있어야 하지만 이 요구 사항은 사용되는 프로덕션 방법에 따라 다릅니다.
+인증된 사용자로서 라이브 이벤트에 참여하려면 Microsoft 365 또는 Office 365 라이선스가 필요하다는 것을 알고 있어야 하지만 이 요구 사항은 사용되는 프로덕션 방법에 따라 다릅니다.
 
 - **Teams에서 생성된 이벤트의 경우** 사용자에게 Teams 라이선스가 할당되어야 합니다.
 - **외부 앱 또는 장치를 사용하여 생성된 이벤트의 경우** 사용자에게 Stream 라이선스가 할당되어야 합니다.
@@ -97,7 +97,7 @@ Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하�
 |대상 그룹 최대 크기 |10,000명의 참석자 |10,000명의 참석자<sup>1</sup> |10,000명의 참석자<sup>1</sup> |
 |라이브 이벤트 최대 시간 |4시간 |4시간 |4시간 |
 |라이브 이벤트에서 발표자 및 프로듀서의 최대 수 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Office 365 조직당 최대 동시 라이브 이벤트 수 |15  | 15  | 15  |
+|Microsoft 365 또는 Office 365 조직당 최대 동시 발생 라이브 이벤트 수 |15  | 15  | 15  |
 |라이브 이벤트 만들기 |   Skype 모임 브로드캐스트 포털 |Teams, Teams를 통한 Yammer | Teams, Teams를 통한 Yammer, Stream |
 |대상 그룹 참여 – Yammer |&#x2714; |&#x2714; (통합 환경) |&#x2714; (통합 환경) |
 |대상 그룹 참여 – 중재된 Q&A |&#x2714;  |&#x2714; |&#x2714; |
@@ -117,7 +117,7 @@ Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하�
 |라이브 캡션 및 자막 |&#x2714; |&#x2714; |&#x274C; |
 |라이브 이벤트 녹음/녹화의 캡션 |&#x2714; |&#x2714; |&#x2714; |
 |참석자 DVR 컨트롤(일시 중지, 되감기) |&#x2714; |&#x2714; |&#x2714; |
-|파트너 eCDN 지원 |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|파트너 eCDN 지원 |&#x2714; (Kollective, Ramp) |&#x2714; (Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
 |프로듀서용 브로드캐스트 후 참석 보고서 |&#x2714; |&#x2714; |&#x274C; |
 |대상 그룹 감정 분석 – 실시간 투표 및 설문 조사 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

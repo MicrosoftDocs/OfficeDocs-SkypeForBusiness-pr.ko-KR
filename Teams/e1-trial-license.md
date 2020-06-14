@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 7b8cd74a8ac6c06a1bc51368009051dbacaca962
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042395"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691354"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 평가판 관리
 ==============================
@@ -85,7 +85,7 @@ E1 평가판 사용자를 유료 구독으로 업그레이드하려면 다음을
 
 - PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
 
-- 관리 포털을 통해 이 라이선스를 제거하려면 [비즈니스용 Office 365의 사용자 라이선스 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요. 
+- 관리 포털을 통해 이 라이선스를 제거하려면 [비즈니스용 Microsoft 365 사용자에서 라이선스 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요. 
 
 
 ## <a name="related-topics"></a>관련 항목
@@ -96,6 +96,6 @@ E1 평가판 사용자를 유료 구독으로 업그레이드하려면 다음을
 
 [Teams 예비 환경 관리](teams-exploratory.md)
 
-[Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Microsoft 365 또는 Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
 
 [Teams 배포 지원 받기](https://go.microsoft.com/fwlink/?linkid=780698)

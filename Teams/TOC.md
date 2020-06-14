@@ -905,3 +905,5 @@
 ### [Microsoft 365의 통화 플랜 - 영국의 직업 규약](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Microsoft 365의 통화 플랜 - 영국의 코드 호환 처리](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
+
+## [Teams 관리자 기능 릴리즈 노트](release-notes/release-notes.md)

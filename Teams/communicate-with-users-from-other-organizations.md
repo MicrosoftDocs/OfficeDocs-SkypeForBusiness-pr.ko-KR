@@ -17,12 +17,12 @@ description: 외부 액세스 (페더레이션) 및 게스트 액세스를 사�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b2f91d994ef05b9668d31dabc4d43033350ae85a
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: fcc17aa7bc00904a13aa77761472ea3ea37a17cd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562043"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689694"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams에서 다른 조직의 사용자와 의사소통하기
 ======================================================
@@ -44,7 +44,7 @@ ms.locfileid: "44562043"
 
 ## <a name="guest-access"></a>게스트 액세스
 
-**게스트 액세스**를 사용하여 개인 사용자(도메인에 상관없이)를 팀에 추가할 수 있습니다. 그들은 Office 365 앱 (예: Word, Excel 또는 PowerPoint)을 사용하여 채팅, 전화, 모임 및 조직 파일 (SharePoint 또는 비즈니스용 OneDrive에 저장된)에 공동작업할 수 있습니다. 게스트 사용자는 기존 팀 구성원과 같은 거의 모든 Teams 권한을 부여받을 수 있습니다. 자세한 내용은 [Teams의 게스트 액세스](guest-access.md)를 참조하세요.
+**게스트 액세스**를 사용하여 개인 사용자(도메인에 상관없이)를 팀에 추가할 수 있으며, 팀에서 Microsoft 365이나 Office 365 앱(예: Word, Excel 또는 PowerPoint)을 사용하여 채팅, 전화, 모임 및 조직 파일 (SharePoint 또는 비즈니스용 OneDrive에 저장된)에 공동작업할 수 있습니다. 게스트 사용자는 기존 팀 구성원과 같은 거의 모든 Teams 권한을 부여받을 수 있습니다. 자세한 내용은 [Teams의 게스트 액세스](guest-access.md)를 참조하세요.
 
 - 게스트는 조직의 Active Directory에 추가됩니다.
 - 게스트와 의사소통하려면 게스트는 게스트 계정을 사용하여 Teams에 로그인해야 합니다. 즉, 게스트는 사용자의 Teams 계정에 로그인하기 위해 자신의 Teams 계정에서 로그아웃해야 합니다.
@@ -87,7 +87,7 @@ ms.locfileid: "44562043"
 <sup>1</sup> 사용자가 게스트로 추가되어 있고 게스트 테넌트에 게스트로 로그인되어 있는 경우.<br>
 <sup>2</sup> 전자 메일 또는 SIP(Session Initiation Protocol) 주소만 해당.<br>
 <sup>3</sup> 외부 (페더레이션) 채팅은 1:1만 허용합니다.<br>
-<sup>4</sup> Teams의 1:1 채팅은 Teams에서만, 다른 두 조직의 사용자만 지원됩니다. 
+<sup>4</sup> Teams의 1:1 채팅은 Teams에서만, 다른 두 조직의 사용자만 지원됩니다. <br>
 <sup>5</sup> 기본적으로 외부 참가자는 전화 접속 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호의 개인 정보 보안을 유지하려면 **입장/퇴장 알림 유형**은 **톤**을 선택합니다(이 경우 해당 숫자를 Teams에서 소리내어 읽지 못하도록 방지). 외부 사용자에게 외부 PSTN 전화 번호를 표시하고 싶지 않은 경우, **입장/퇴장 알림**을 켤 때, 알림 유형은 **톤**을 선택합니다. 자세한 내용은 [Microsoft Teams에서 모임에 대한 입장 및 퇴장 알림 켜기 혹은 끄기](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)를 읽어보세요.
 
 ## <a name="related-topics"></a>관련 항목

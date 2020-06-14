@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5c8ad6455fda6231efd089a2592a0860f206939
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 24abb87a7cf6b4c8ceb3f98f1ff35bdda1445e6e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506829"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691564"
 ---
 # <a name="microsoft-teams-admin-training"></a>Microsoft Teams 관리자 교육
 
@@ -161,7 +161,7 @@ ms.locfileid: "43506829"
                 <div class="card">
                     <div class="cardText">
                         <h3>Microsoft 365 인증: 팀워크 관리자 학위</h3>
-                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 팀워크 관리자는 SharePoint (온라인, 온-프레미스 및 하이브리드), OneDrive 및 Teams와 같은 Office 365 작업을 구성, 배포 및 관리합니다.</a></p>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 팀워크 관리자는 SharePoint(온라인, 온-프레미스 및 하이브리드), OneDrive 및 Teams와 같은 Microsoft 365 또는 Office 365 작업을 구성, 배포 및 관리합니다.</a></p>
                     </div>
                 </div>
             </div>
