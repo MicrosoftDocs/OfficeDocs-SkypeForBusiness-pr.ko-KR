@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직에 대 한 전화 번호 또는 포팅 (전송) 번호를 받고 있는 경우 PSTN 서비스 데스크에서 도움말 및 지원을 받아야 할 수 있습니다.
-ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: fd6300c16ec3f09742138e0ea4879b9d0dd6b12a
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374276"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710832"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN 서비스 데스크 연락처
 
@@ -42,13 +42,13 @@ PSTN 서비스 데스크 팀에는 다음 표에 나와 있는 지원에 대 한
 
 **Microsoft 팀에 기존 전화 번호를 전송/포팅 하**는 데 도움이 필요한 경우 최대한 많은 세부 정보를 포함 하세요.
   - [조직 ID (테 넌 트 id) 또는 현재 활성 상태인 Microsoft 도메인](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - 도움이 필요한 전화 번호 유형 (**사용자/구독자** 또는 **서비스/** 무료).
+  - 도움이 필요한 전화 번호 유형 **(사용자, 서비스 유료 또는 서비스 무료)**.
   - 요청에 따른 다른 중요 한 정보
   
 **Microsoft 팀에 대해 새 전화 번호를 취득**하는 데 도움이 필요한 경우 최대한 많은 세부 정보를 포함 하세요.
   - [조직 ID (테 넌 트 id) 또는 현재 활성 상태인 Microsoft 도메인](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - 구입 하려는 전화 번호 유형 (**사용자/구독자** 또는 **서비스/수신자 부담/무료**).
-  - 필요한 수와 새 전화 번호를 원하는 지역 번호를/Country/Region.
+  - 도움이 필요한 전화 번호 유형 **(사용자, 서비스 유료 또는 서비스 무료)**.
+  - 필요한 수와 새 전화 번호를 원하는 지역 번호를/country/region.
 
 **숫자 설정, 구성, 라이선스/수수료/청구와 관련 된 모든 정보에**대 한 도움이 필요한 경우 [비즈니스 제품에 대 한 지원 연락처-관리 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online) 페이지에 연락 하 여 기술 팀이 도움을 받으세요.
 

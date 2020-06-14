@@ -16,12 +16,12 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f2cfcc4be8641fd11a0f22ba090fc5c71a3a240
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3fd2a8c7c34b52b8724d72110e281e754d9c02b0
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690904"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710812"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -113,7 +113,9 @@ Microsoft 365 또는 Office 365의 서비스에서 데이터가 저장 되는 �
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>녹음/녹화 기록 설정 또는 해제
 
-사용자가 Teams 모임을 녹음/녹화하는 경우 모임이 녹음/녹화된 이후에 자동으로 기록을 생성할지 여부를 확인할 수 있습니다. 모임 이끌이 및 녹음/녹화 개시자에 대한 기록 기능을 사용하지 않도록 설정한 경우 녹음/녹화 개시자는 모임 녹음/녹화를 기록할 수 있는 선택 항목을 받지 않습니다.
+이 설정은 모임 녹음/녹화를 재생 하는 동안 캡션과 기록 기능을 사용할 수 있는지 여부를 제어 합니다. 이 기능을 해제 하면 모임 녹음/녹화를 재생 하는 동안 **검색** 및 **참조** 옵션을 사용할 수 없습니다. 녹음/녹화를 시작한 사람에 게는 녹음/녹화가 포함 되도록이 설정이 켜져 있어야 합니다.
+
+기록 된 모임에 대 한 정보는 현재 팀의 언어를 영어로 설정한 경우와 모임에서 영어를 사용 하 고 있는 사용자만 지원 합니다.
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 녹음/녹화 개시자에게 모임 녹음/녹화를 기록할 수 있는 선택권이 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 

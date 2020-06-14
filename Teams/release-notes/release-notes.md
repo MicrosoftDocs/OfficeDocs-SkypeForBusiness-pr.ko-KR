@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 팀 관리 기능에 대 한 릴리스 정보입니다.
-ms.openlocfilehash: f8bf1c14e8dca43eccfa2bfdde209eca43fc24fe
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 99f92af75e90ef568bf98ccb6587d0dad0da1591
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702723"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710822"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 팀 관리 기능에 대 한 릴리스 정보
 
 이 릴리스 정보는 Microsoft 팀의 새로운 관리 기능에 대 한 정보를 제공 합니다.
+
+## <a name="june-11-2020"></a>2020 년 6 월 11 일
+
+### <a name="call-queues---presence-based-routing"></a>통화 대기열-현재 상태 기반 라우팅
+
+이 기능을 해제 하면 현재 상태에 관계 없이 전화를 수신 하도록 옵트인 한 상담원에 게 통화가 전달 됩니다. 설정 되 면 현재 상태를 사용할 수 있는 경우에만 옵트인 (opt in) 에이전트가 통화를 받습니다. [자세히 알아보세요](../create-a-phone-system-call-queue.md).
+
+
+## <a name="june-10-2020"></a>2020 년 6 월 10 일
+
+### <a name="call-queues---longest-idle-routing"></a>통화 대기열-가장 긴 유휴 라우팅
+이를 선택 하면 수신 전화는 들어오는 통화에 대 한 응답을 받지 못한 호출 에이전트로 라우팅 됩니다 (가장 긴 시간 동안). [자세히 알아보세요](../create-a-phone-system-call-queue.md).
 
 ## <a name="june-1-2020"></a>2020 년 6 월 1 일
 
@@ -90,12 +102,6 @@ RealWear 용 Microsoft 팀 클라이언트는 RealWear의 ruggedized 헤드 탑�
 ### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>팀 통화 및 모임에 대 한 정책 기반 기록
 
 이 기능을 사용 하면 Microsoft 인증 소프트웨어 공급 업체를 통해 팀 전화 및 모임에 대 한 자동 정책 기반 녹화가 가능 합니다.
-
-## <a name="march-29-2020"></a>2020 년 3 월 29 일
-
-### <a name="call-queues---presence-based-routing"></a>통화 대기열-현재 상태 기반 라우팅
-
-이 기능을 해제 하면 현재 상태에 관계 없이 전화를 수신 하도록 옵트인 한 상담원에 게 통화가 전달 됩니다. 설정 되 면 현재 상태를 사용할 수 있는 경우에만 옵트인 (opt in) 에이전트가 통화를 받습니다. [자세히 알아보세요](../create-a-phone-system-call-queue.md).
 
 ## <a name="march-25-2020"></a>2020 년 3 월 25 일
 

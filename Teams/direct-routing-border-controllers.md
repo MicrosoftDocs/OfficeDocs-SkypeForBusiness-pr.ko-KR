@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증 된 SBCs (세션 경계 컨트롤러)에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a76ed1e3a386aef7d6b6216b279a1e712e20f88
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691274"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710802"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -71,7 +71,11 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-시스템](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      지원 되는 3.20 (권장 4.0)        |     |    |    
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |    
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
+|                     [Cisco](http://www.cisco.com/go/cube)                               |     1000 시리즈 통합 서비스 라우터의 Cisco 통합 Border 요소 (큐브)        |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |     |   |  
+|                                   |     4000 시리즈 통합 서비스 라우터의 Cisco 통합 Border 요소 (큐브)        |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |     |    |  
+|                                   |     1000V 시리즈 클라우드 서비스 라우터의 Cisco 통합 Border 요소 (큐브)       |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |     |    |  
+|                                 |     1000 시리즈 집계 서비스 라우터의 Cisco 통합 Border 요소 (큐브)      |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |     |    |  
 
 다음 표에는 직접 라우팅 및 아날로그 장치 간의 상호 운용성을 확인 하는 장치가 나와 있습니다.
 
