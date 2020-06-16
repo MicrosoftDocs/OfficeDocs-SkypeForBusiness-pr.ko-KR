@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft 팀 관리자 설명서
-summary: 팀을 배포 하 고 관리 하는 방법과 팀을 위해 사용자를 준비 하는 방법을 알아봅니다.
+title: Microsoft Teams 관리 문서
+summary: Teams를 배포하고 관리하는 방법과 사용자가 Teams를 사용할 수 있도록 준비시키는 방법에 대해 알아봅니다.
 brand: teams
 metadata:
-  title: Microsoft 팀 관리자 설명서
-  description: 팀을 배포 하 고 관리 하는 방법과 팀을 위해 사용자를 준비 하는 방법을 비롯 한 Microsoft 팀 관리자 설명서에 대해 알아보세요.
+  title: Microsoft Teams 관리 문서
+  description: Teams를 배포하고 관리하는 방법과 사용자가 Teams를 사용할 수 있도록 준비시키는 방법을 비롯하여 Microsoft Teams 관리 문서에 대해 알아봅니다.
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -15,22 +15,22 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
   ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 04/27/2020
   ms.locfileid: "43905480"
 highlightedContent:
   items:
-  - title: COVID-19 응답-팀을 사용 하 여 원격 작업자 지원
+  - title: COVID-19 대응 - Teams를 사용하여 원격 작업자 지원
     itemType: overview
     url: /MicrosoftTeams/support-remote-work-with-teams
   - title: Teams를 배포하는 방법
     itemType: deploy
     url: /MicrosoftTeams/how-to-roll-out-teams
-  - title: 팀의 보안 및 규정 준수
+  - title: Teams의 보안 및 규정 준수
     itemType: overview
     url: /MicrosoftTeams/security-compliance-overview
-  - title: 귀하와 사용자를 위한 교육 찾기
+  - title: 관리자 및 사용자를 위한 교육 찾기
     itemType: learn
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: 비즈니스용 Skype에서 Teams로 업그레이드
@@ -42,21 +42,21 @@ highlightedContent:
 additionalContent:
   sections:
   - items:
-    - title: 주요 문서
+    - title: 상위 문서
       links:
-      - text: 팀을 위한 네트워크 준비
+      - text: Teams에 맞게 네트워크 준비
         url: /MicrosoftTeams/prepare-network
-      - text: 팀의 관리자를 사용 하 여 팀 롤아웃 지원
+      - text: Teams용 어드바이저를 사용하여 Teams 배포
         url: /MicrosoftTeams/use-advisor-teams-roll-out
-      - text: 팀에서 메모리를 사용 하는 방법
+      - text: Teams에서 메모리를 사용하는 방법
         url: /MicrosoftTeams/teams-memory-usage-perf
-      - text: 다른 조직의 사용자와 통신 (게스트/외부 액세스)
+      - text: 다른 조직의 사용자와 의사 소통(게스트/외부 액세스)
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
       - text: IT 아키텍처 포스터 및 해결 방법
         url: /MicrosoftTeams/teams-architecture-solutions-posters
-    - title: 팀과 음성 통화
+    - title: Teams를 사용한 음성 통화
       links:
-      - text: Microsoft 팀의 클라우드 음성
+      - text: Microsoft Teams의 클라우드 음성
         url: /MicrosoftTeams/cloud-voice-landing-page
       - text: Microsoft 365 Business Voice
         url: /MicrosoftTeams/business-voice/whats-business-voice
@@ -64,15 +64,15 @@ additionalContent:
         url: /MicrosoftTeams/direct-routing-landing-page
       - text: 공통 지역 전화 설정
         url: /MicrosoftTeams/set-up-common-area-phones
-    - title: 팀 콘텐츠 더 보기
+    - title: Teams 콘텐츠 더 보기
       links:
       - text: 최종 사용자를 위한 도움말 콘텐츠
         url: https://support.office.com/Teams
       - text: Teams 기술 커뮤니티
         url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-      - text: 팀 사용자 피드백 포럼
+      - text: Teams 사용자 피드백 포럼
         url: https://microsoftteams.uservoice.com/
-      - text: 팀 제품 정보
+      - text: Teams 제품 정보
         url: https://products.office.com/microsoft-teams/group-chat-software
       - text: Teams 개발자 플랫폼
         url: https://docs.microsoft.com/microsoftteams/platform/overview
