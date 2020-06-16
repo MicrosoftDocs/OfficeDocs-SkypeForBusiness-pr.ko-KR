@@ -1,8 +1,8 @@
 ---
 title: 토폴로지 작성기 병합 마법사를 사용 하 여 병합
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Merge using Topology Builder Merge wizard
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc25e73e2eb62e8d1b43fee4ce4350d8ae05b354
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4760dcd8810d12b112c3bb042e0f28a039683a08
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210174"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757049"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,13 +47,13 @@ _**마지막으로 수정 된 항목:** 2012-10-02_
     
     ![토폴로지 병합 마법사,에 지 설정 지정 페이지](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "토폴로지 병합 마법사,에 지 설정 지정 페이지")  
 
-5.  **에지 유형 지정**에서 에지 서버 구성 유형을 입력하고 **다음**을 클릭합니다. 이 예에서는 **단일 에지 서버** 옵션이 사용됩니다.
+5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <STRONG>확장된 에지 배포</STRONG>는 지원되는 구성이 아닙니다. <STRONG>확장된 에지 서버</STRONG>가 먼저 <STRONG>단일 에지 서버</STRONG> 또는 <STRONG>부하 분산 통합 에지</STRONG> 서버로 변환되어야 합니다.
+    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
 
     
     </div>
@@ -68,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > <STRONG>다음</STRONG>을 클릭하기 전에 이 절차의 다음 단계를 수행합니다. 이 단계를 결코 건너뛰어서는 안 됩니다.
+    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
 
     
     </div>

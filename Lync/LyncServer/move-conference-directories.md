@@ -1,8 +1,8 @@
 ---
 title: 회의 디렉터리 이동
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move conference directories
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 705540ba138a6b62c41480e275f183d67dbfbfc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2de2b588d880600a4a7d8365f20423d3faf2653e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209725"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +49,7 @@ _**마지막으로 수정 된 항목:** 2012-10-04_
     
         Get-CsConferenceDirectory
     
-    이 cmdlet은 조직에 있는 모든 회의 디렉터리를 반환하므로 해제하려는 풀로만 결과를 제한해야 할 수 있습니다. 예를 들어 FQDN(정규화된 도메인 이름)이 pool01.contoso.net인 풀을 해제하려는 경우 다음을 수행합니다.
+    Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission. For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     

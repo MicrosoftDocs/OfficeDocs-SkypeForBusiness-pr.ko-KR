@@ -1,8 +1,8 @@
 ---
 title: Office Communications Server 2007 R2 환경 확인
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 885b1b08ef2d02c6a3cb3a77b83ca832e70281a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 14a7ba7e51e6dd1f6e42aeddfbbbd4ce7581d3fc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188941"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755582"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ Office Communications Server 2007 r 2와 함께 사용 상태로 Lync Server 201
 
 **레거시 XMPP 페더레이션 파트너 구성 확인**
 
-1.  레거시 XMPP 서버에서 관리 도구\\서비스 애플릿으로 이동 합니다.
+1.  레거시 XMPP 서버에서 관리 도구 \\ 서비스 애플릿으로 이동 합니다.
 
 2.  Office Communications Server XMPP 게이트웨이 서비스가 시작되었는지 확인합니다.
     

@@ -1,8 +1,8 @@
 ---
-title: 사용자 복제가 완료 되었는지 확인
+title: 사용자 복제가 완료되었는지 확인
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify user replication has completed
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96e8df3cb77e6b53596ae17e15fed6b05243a99a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d883b5446c843ac8b79e2b29d15f8a1c99f0089
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188801"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188801"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>사용자 복제가 완료 되었는지 확인
+# <a name="verify-user-replication-has-completed"></a>사용자 복제가 완료되었는지 확인
 
 </div>
 
@@ -55,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2012-09-17_
 
 6.  **이벤트 원본** 목록에서 **LS User Replicator**를 클릭합니다.
 
-7.  ** \<모든 이벤트 id\> ** 에 **30024** 를 입력 한 다음 **확인**을 클릭 합니다.
+7.  에서 **\<All Event IDs\>** **30024** 를 입력 한 다음 **확인**을 클릭 합니다.
 
 8.  필터링된 이벤트 목록의 **일반** 탭에서 사용자 복제가 성공적으로 완료되었음을 나타내는 항목을 찾습니다.
 

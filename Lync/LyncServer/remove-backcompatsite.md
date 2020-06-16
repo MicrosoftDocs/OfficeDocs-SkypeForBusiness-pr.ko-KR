@@ -1,8 +1,8 @@
 ---
 title: BackCompatSite 제거
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove BackCompatSite
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d41d333e834dba34da2a1a04854571d721e94e38
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 792fcf29033a7495a7da340decb561e25084612d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209456"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757129"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +49,7 @@ _**마지막으로 수정 된 항목:** 2012-09-28_
 
 3.  계속하려면 **다음**을 클릭합니다.
 
-4.  **레거시 에지 지정** 페이지에서 에지 서버의 목록이 비어 있는지 확인합니다. 목록이 비어 있지 않으면 **제거** 단추를 사용하여 모든 레거시 에지 서버를 제거한 후 **다음**을 클릭합니다.
+4.  On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty. If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.
     
     ![토폴로지 병합 마법사,에 지 설정 지정 페이지](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "토폴로지 병합 마법사,에 지 설정 지정 페이지")  
 

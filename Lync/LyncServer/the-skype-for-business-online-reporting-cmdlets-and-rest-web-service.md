@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype Online 보고 cmdlet 및 REST 웹 서비스
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online reporting cmdlets and REST web service
@@ -12,12 +12,12 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63cbce4dda006bb45606a09eef29d8c47946ad2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f40d394ba69cf017c11d4eb6cd57246a9d425c0f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189181"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755702"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ _**마지막으로 수정 된 항목:** 2014-09-05_
 
   - Get-csp2psessionreport-사용자가 참여 한 피어 투 피어 세션의 수와 유형에 대 한 정보를 제공 합니다.
 
-대부분의 관리자는 Microsoft 365 관리 센터에서 제공 되는 보고서를 사용 합니다. 자동으로 생성 되는 보고서는 아니지만,이를 통해 반환 되는 데이터를 그래픽으로 표시 하는 것도 도움이 될 수 있지만 보고 cmdlet 그러나 Windows PowerShell에 익숙한 관리자는 보고 cmdlet을 사용 하 여 Lync Online 보고서에서 즉시 사용할 수 없는 데이터를 반환할 수 있습니다. 예를 들어 보고 cmdlet은 세션 기간 (각 세션이 지속 되는 시간 (분)에 대 한 정보를 반환 합니다. 개별 세션 기간은 Lync Online 보고서를 사용 하 여 사용할 수 없습니다. 마찬가지로 일별 보기에서는 Lync Online 보고서에 이전 14 일간의 정보만 표시 됩니다. 하루 동안의 일별 합계를 검토 하려는 경우 (예: 4 달 전 날짜) 보고 cmdlet을 사용 하 여이 작업을 수행할 수 있습니다.
+대부분의 관리자는 Microsoft 365 관리 센터에서 제공 되는 보고서를 사용 합니다. 자동으로 생성 되는 보고서는 아니지만 보고 cmdlet에서 반환 하는 원시 숫자 값 보다 해석 하기가 더 쉬운 데이터를 그래픽으로 표시 하기도 합니다. 그러나 Windows PowerShell에 익숙한 관리자는 보고 cmdlet을 사용 하 여 Lync Online 보고서에서 즉시 사용할 수 없는 데이터를 반환할 수 있습니다. 예를 들어 보고 cmdlet은 세션 기간 (각 세션이 지속 되는 시간 (분)에 대 한 정보를 반환 합니다. 개별 세션 기간은 Lync Online 보고서를 사용 하 여 사용할 수 없습니다. 마찬가지로 일별 보기에서는 Lync Online 보고서에 이전 14 일간의 정보만 표시 됩니다. 하루 동안의 일별 합계를 검토 하려는 경우 (예: 4 달 전 날짜) 보고 cmdlet을 사용 하 여이 작업을 수행할 수 있습니다.
 
 관리자는 Excel을 사용 하 여 Microsoft Excel에서 OData 데이터 쿼리 기능을 사용 하 여 사용자 지정 office 365 보고서를 만드는 방법에 대해 설명 하는 [Office 365 보고 데이터를 검색 하](https://msdn.microsoft.com/library/dn781442.aspx)는 문서에도 관심이 있을 수 있습니다. 사용자 지정 보고서를 통해 Office 365 보고 서비스에서 반환 되는 데이터 (및 데이터 양)를 지정할 수 있습니다. 또한 사용자 지정 보고서를 사용 하면 데이터 정렬 및 그룹화 방법을 지정 하 고 관리 센터에 표시 되지 않는 정보에 대 한 액세스를 제공 하는 등의 작업을 수행할 수 있습니다.
 

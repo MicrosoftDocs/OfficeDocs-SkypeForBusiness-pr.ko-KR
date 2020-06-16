@@ -1,8 +1,8 @@
 ---
 title: 사용자 및 연락처 만들기
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Create Users and Contacts
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76b8016079cd130a814da410df5e5a5b151d8702
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f90e6cbb1afb9c4c2dd2b43e1448ca635899531b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188691"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755482"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42188691"
 
 _**마지막으로 수정 된 항목:** 2013-02-22_
 
-스트레스 및 성능 부하 테스트를 준비 하는 동안 Lync Server 2013 사용자 프로 비전 도구 (UserProvisioningTool)를 사용 하 여 사용자 및 연락처를 만들어야 합니다.
+스트레스 및 성능 부하 테스트를 준비 하기 위해 Lync Server 2013 사용자 프로 비전 도구 (UserProvisioningTool.exe)를 사용 하 여 사용자 및 연락처를 만들어야 합니다.
 
 이 항목을 참조 하 여 읽을 때 유용한 용어 및 정의 목록이 나와 있습니다.
 
   - 조직 구성 단위-Active Directory 도메인 서비스 OU (조직 구성 단위)입니다.
 
-  - 페더레이션/교차 풀 – 인터넷 서비스의 MSN 네트워크, AOL® 및 Yahoo\!®와 같은 다른 IM (인스턴트 메시징) 서비스의 사용자와 통신 하도록 설정할 수 있는 사용자입니다.
+  - 페더레이션/교차 풀 – 인터넷 서비스의 MSN 네트워크, AOL® 및 Yahoo®와 같은 다른 IM (인스턴트 메시징) 서비스의 사용자와 통신 하도록 설정할 수 있는 사용자 \! 입니다.
 
   - 메일 그룹-사용자 그룹과의 통신을 시작 하는 데 사용 되는 Active Directory 도메인 서비스 사용자 목록을 포함 하는 Active Directory 도메인 서비스의 개체입니다.
 
@@ -53,15 +53,15 @@ _**마지막으로 수정 된 항목:** 2013-02-22_
 
 <div>
 
-## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>UserProvisioningTool을 사용 하 여 사용자 및 연락처 만들기
+## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>UserProvisioningTool.exe을 사용 하 여 사용자 및 연락처 만들기
 
-부하 시뮬레이션을 위해 사용자 및 연락처를 만들려면 Lync Server 사용자 프로 비전 도구를 사용 해야 합니다. Lync server 사용자 프로 비전 도구는 Lync Server 스트레스 및 성능 도구 패키지와 함께 설치 됩니다. 프런트 엔드 서버 또는 Standard Edition 서버에서 패키지 설치 관리자 (CapacityPlanningTool)를 실행 해야 합니다. 프런트 엔드 서버 또는 Standard Edition Server에서 UserProvisioningTool 파일 (% InstalledDirectory% LyncStressAndPerfTool\\lyncstress)을 실행 하 여 Lync Server 사용자 프로 비전 도구를 시작 합니다.
+부하 시뮬레이션을 위해 사용자 및 연락처를 만들려면 Lync Server 사용자 프로 비전 도구를 사용 해야 합니다. Lync server 사용자 프로 비전 도구는 Lync Server 스트레스 및 성능 도구 패키지와 함께 설치 됩니다. 프런트 엔드 서버 또는 Standard Edition 서버에서 CapacityPlanningTool.msi (패키지 설치 관리자)가 실행 되었는지 확인해 보십시오. 프런트 엔드 서버 또는 Standard Edition Server에서 파일 UserProvisioningTool.exe (% InstalledDirectory% LyncStressAndPerfTool lyncstress)을 실행 하 여 Lync Server 사용자 프로 비전 도구를 시작 합니다 \\ .
 
 <div>
 
 
 > [!IMPORTANT]  
-> UserProvisioningTool를 실행 하려면 Domain Admins 보안 그룹의 구성원으로 로그온 해야 합니다. UserProvisioningTool에서 새 Active Directory 도메인 서비스 사용자를 만들고 구성 하기 때문에이 컨텍스트에서 실행 해야 합니다.
+> UserProvisioningTool.exe를 실행 하려면 Domain Admins 보안 그룹의 구성원으로 로그온 해야 합니다. UserProvisioningTool.exe에서는 새 Active Directory 도메인 서비스 사용자를 만들고 구성 하므로이 컨텍스트에서 실행 해야 합니다.
 
 
 
@@ -71,13 +71,13 @@ _**마지막으로 수정 된 항목:** 2013-02-22_
 
 
 > [!NOTE]  
-> 많은 수의 사용자를 만들 때 (1만 이상), 고급 컴퓨터에서 UserProvisioningTool를 실행 합니다. 사용자가 만들어지는 동안에도 도메인 컨트롤러의 부하가 높아집니다.
+> 많은 수의 사용자를 만들 때 (1만 이상), 고급 컴퓨터에서 UserProvisioningTool.exe를 실행 합니다. 사용자가 만들어지는 동안에도 도메인 컨트롤러의 부하가 높아집니다.
 
 
 
 </div>
 
-Lync Server 사용자 프로 비전 도구가 열리면 **구성을** 클릭 하 고 **구성 로드**를 선택 합니다. 사용자 및 연락처 구성을 시작 하려면 패키지, SampleData에 포함 된 기본 파일을 로드 합니다. 이렇게 하면 시스템에서 수정 해야 하는 예제 데이터를 사용 하 여 필드를 미리 채울 수 있습니다. 이미 사용자 지정 설정을 포함 하는 미리 구성 된 XML 파일이 있는 경우 해당 파일을 로드 합니다. 다음 섹션에서 설명 하는 대로 Lync Server 사용자 프로 비전 도구의 필드를 입력 합니다.
+Lync Server 사용자 프로 비전 도구가 열리면 **구성을** 클릭 하 고 **구성 로드**를 선택 합니다. 사용자 및 연락처 구성을 시작 하려면 패키지에 포함 된 기본 파일을 SampleData.xml에 로드 합니다. 이렇게 하면 시스템에서 수정 해야 하는 예제 데이터를 사용 하 여 필드를 미리 채울 수 있습니다. 이미 사용자 지정 설정을 포함 하는 미리 구성 된 XML 파일이 있는 경우 해당 파일을 로드 합니다. 다음 섹션에서 설명 하는 대로 Lync Server 사용자 프로 비전 도구의 필드를 입력 합니다.
 
 ![사용자 만들기 탭](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "사용자 만들기 탭")
 
@@ -133,7 +133,7 @@ Lync Server 사용자 프로 비전 도구가 열리면 **구성을** 클릭 하
 > [!NOTE]  
 > <OL>
 > <LI>
-> <P>미국 형식으로 된 전화 번호만 지원 됩니다. 전화 번호가 항상 사용자에 게 할당 되며 UserProvisioningTool에서 만든 모든 사용자가 Enterprise Voice를 사용할 수 있도록 설정 됩니다. 전화 회의 자동 전화 교환 또는 UC-PSTN 통화와 같이 해당 번호를 사용 하는 모든 시나리오에서이 전화 번호를 사용 하 여 통화를 올바르게 라우팅합니다. 따라서 모든 사용자에 게 고유한 전화 번호가 있어야 합니다. 사용자를 두 번 만들어야 하는 경우 다른 지역 번호를 사용 하지 않거나 이전 사용자가 <STRONG>Disable-CsUser</STRONG> cmdlet을 사용 하 여 사용 하지 않도록 설정한 경우에만 명령이 실패 합니다.</P>
+> <P>미국 형식으로 된 전화 번호만 지원 됩니다. 전화 번호는 항상 사용자에 게 할당 되며 UserProvisioningTool.exe에서 만든 모든 사용자가 Enterprise Voice를 사용할 수 있습니다. 전화 회의 자동 전화 교환 또는 UC-PSTN 통화와 같이 해당 번호를 사용 하는 모든 시나리오에서이 전화 번호를 사용 하 여 통화를 올바르게 라우팅합니다. 따라서 모든 사용자에 게 고유한 전화 번호가 있어야 합니다. 사용자를 두 번 만들어야 하는 경우 다른 지역 번호를 사용 하지 않거나 이전 사용자가 <STRONG>Disable-CsUser</STRONG> cmdlet을 사용 하 여 사용 하지 않도록 설정한 경우에만 명령이 실패 합니다.</P>
 > <LI>
 > <P>연락처를 만들기 전에 먼저 사용자 탭에서 수행 하는 전체 복제를 완료 해야 합니다. 사용자를 방금 만든 경우 Lync Server 복제가 완료 될 때까지 기다린 후 데이터베이스의 사용자 계정을 채웁니다. 사용자가 복제를 완료 하지 않은 경우 오류가 표시 됩니다. Lync Server 2013 프런트 엔드 서비스가 시작 되었거나 마지막 사용자에 대해 <STRONG>csuser</STRONG> cmdlet을 성공적으로 실행 하 여 사용자가 복제를 완료 한 경우를 알 수 있습니다.</P></LI></OL>
 
@@ -229,7 +229,7 @@ Lync Server 2013 스트레스 및 성능 도구의 기능 중 하나는 위치 �
 
 ![위치 정보 서비스 구성 탭](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "위치 정보 서비스 구성 탭")
 
-이 기능을 테스트 하도록 선택한 경우 양식에 언급 된 값을 입력 한 다음 LIS Config 파일 생성 단추를 클릭할 수 있습니다. 이를 통해\_lis 서브넷 .CSV, lis\_스위치 .csv\_, lis 및\_lis의 .csv 파일을 생성 합니다. 그런 다음 **CsLisSubnet** Cmdlet, **CsLisSwitch** cmdlet, **CsLisPort** cmdlet 및 **CsWirelessAccessPoint** cmdlet을 각각 사용 하 여 이러한 CSV 파일을 LIS 데이터베이스로 가져올 수 있습니다.
+이 기능을 테스트 하도록 선택한 경우 양식에 언급 된 값을 입력 한 다음 LIS Config 파일 생성 단추를 클릭할 수 있습니다. 이 도구는 LIS \_Subnet.csv, lis \_Switches.csv, Lis \_Ports.csv 및 LISWAP.csv 라는 CSV 파일을 생성 합니다 \_ . 그런 다음 **CsLisSubnet** Cmdlet, **CsLisSwitch** cmdlet, **CsLisPort** cmdlet 및 **CsWirelessAccessPoint** cmdlet을 각각 사용 하 여 이러한 CSV 파일을 LIS 데이터베이스로 가져올 수 있습니다.
 
 </div>
 

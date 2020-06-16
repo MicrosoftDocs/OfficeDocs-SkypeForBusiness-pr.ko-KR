@@ -1,8 +1,8 @@
 ---
 title: 부하를 실행할 토폴로지 프로 비전
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Provisioning the Topology to Run Load
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08f9cd219e70f1f761ac49932b73ca0d8c618121
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3e08a66397e5c6e7fb5b6111fbdcf6d11d3632a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196091"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756879"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +67,7 @@ _**마지막으로 수정 된 항목:** 2013-02-04_
         Powershell.exe -file <path to the file>
     ```
     
-4.  일반적으로이 패키지의 스크립트 중 하나를 실행 하면 스크립트의 결과 추적은 scriptname \<\>$h $ m $ .txt 라는 스크립트를 호출한 경로에 있는 파일에 저장 됩니다. 예를 들어 오후 12:15 시에 ArchivingPolicy를 실행 합니다. ArchivingPolicy121500와 같은 로그 파일이 생성 됩니다.
+4.  일반적으로이 패키지의 스크립트 중 하나를 실행 하면 스크립트의 결과 추적은 \<scriptname\> $h $ m $s.txt 라는 스크립트를 호출한 경로에 있는 파일에 저장 됩니다. 예를 들어 오후 12:15 시 ArchivingPolicy.ps1 실행 ArchivingPolicy121500.txt와 같은 로그 파일이 생성 됩니다.
 
 5.  마지막으로 서버를 구성 하는 예제를 제공 했지만 부하를 모두 실행 한 후에 구성을 수정 하거나 삭제 해야 합니다.
 

@@ -1,8 +1,8 @@
 ---
-title: '6 단계: 파일럿 배포에서 프로덕션으로 이동'
+title: '6단계: 파일럿 배포에서 프로덕션으로 이동'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 6: Move from pilot deployment into production'
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af65324bc20d47bf12804c045a3c1beb62134fd5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e51e252fe670b85a2aeb3e827b37465be00ac68e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189651"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189651"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a>6 단계: 파일럿 배포에서 프로덕션으로 이동
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a>6단계: 파일럿 배포에서 프로덕션으로 이동
 
 </div>
 
@@ -45,9 +45,9 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
   - [페더레이션 경로 및 미디어 트래픽 구성](configure-federation-routes-and-media-traffic.md)
 
-  - [외부 사용자에 대 한 페더레이션 및 원격 액세스 확인](verify-federation-and-remote-access-for-external-users.md)
+  - [외부 사용자에 대한 페더레이션 및 원격 액세스 확인](verify-federation-and-remote-access-for-external-users.md)
 
-  - [마이그레이션 후 단순 Url 변경](change-simple-urls-after-migration.md)
+  - [마이그레이션 후 단순 URL 변경](change-simple-urls-after-migration.md)
 
   - [Lync Server 2013로 나머지 사용자 이동](move-remaining-users-to-lync-server-2013.md)
 

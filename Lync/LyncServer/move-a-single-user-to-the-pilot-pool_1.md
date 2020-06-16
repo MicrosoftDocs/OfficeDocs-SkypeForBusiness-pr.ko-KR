@@ -1,8 +1,8 @@
 ---
 title: 파일럿 풀로 단일 사용자 이동
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move a single user to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20f4e85c2f34a2e4319b14f310d2a9360cb274d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189897"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756477"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189897"
 
 _**마지막으로 수정 된 항목:** 2012-09-28_
 
-Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 Office Communications Server 2007 R2 풀에서 Lync Server 2013 파일럿 풀로 사용자를 이동할 수 있습니다. 아래 예에서 등록자 풀 열에 있는 ** \<office communications\> ** server는 office communications server 2007 R2 풀 이며, 6 명의 사용자는이 풀에 연결 되어 있습니다. Lync server 2013 제어판 및 Lync Server 관리 셸을 사용 하 여 사용자를 Lync Server 2013 풀로 이동 하려면 다음 절차를 사용 합니다.
+Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 Office Communications Server 2007 R2 풀에서 Lync Server 2013 파일럿 풀로 사용자를 이동할 수 있습니다. 아래 예에서 등록자 풀 열에 **\<Office Communications Server\>** 는 Office Communications Server 2007 R2 풀이, 그리고 6 명의 사용자는이 풀에 연결 되어 있습니다. Lync server 2013 제어판 및 Lync Server 관리 셸을 사용 하 여 사용자를 Lync Server 2013 풀로 이동 하려면 다음 절차를 사용 합니다.
 
 ![Lync Server 제어판에서 OCS 사용자 검색](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Lync Server 제어판에서 OCS 사용자 검색")
 

@@ -1,8 +1,8 @@
 ---
-title: '8 단계: 레거시 풀 해제'
+title: '8단계: 레거시 풀 해제'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 8: Decommission legacy pools'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 474cc5ee3f508ed5a9069f3e8625bcc6ee451153
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e2df5d01ff4aa6227091d7851b086fc55ff95e2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209494"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756769"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209494"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>8 단계: 레거시 풀 해제
+# <a name="phase-8-decommission-legacy-pools"></a>8단계: 레거시 풀 해제
 
 </div>
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2016-12-08_
 
 다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 해제 및 이전에 Lync Server 2010의 서버 및 풀을 비활성화 하 고 제거 하는 방법에 대 한 지침을 제공 합니다. 이 섹션에 나열된 모든 절차가 필수는 아닙니다. 사용할 해제 절차를 확인하려면 설명서를 확인하십시오.
 
-Lync Server 2010 서버 및 서버 역할 제거를 철저히 검사 하 고 Lync Server 2010 배포를 해제 하는 단계별 가이드를 확인 하려면에서 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)다운로드할 수 있는 "Microsoft Lync Server 2010 제거 및 서버 역할 삭제"를 참조 하세요.
+Lync Server 2010 서버 및 서버 역할 제거를 철저히 검사 하 고 Lync Server 2010 배포를 해제 하는 단계별 가이드를 확인 하려면에서 다운로드할 수 있는 "Microsoft Lync Server 2010 제거 및 서버 역할 삭제"를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) .
 
 <div>
 
@@ -62,7 +62,7 @@ Lync Server 2010 서버 및 서버 역할 제거를 철저히 검사 하 고 Lyn
     [Lync server 2010 중앙 관리 서버를 Lync Server 2013로 이동](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
   - <span></span>  
-    [전화 회의 디렉터리 이동](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+    [회의 디렉터리 이동](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
   - <span></span>  
     [보관 서버 연결 제거](remove-the-archiving-server-association.md)

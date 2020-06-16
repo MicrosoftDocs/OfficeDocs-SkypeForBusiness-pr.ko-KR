@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 온라인 cmdlet
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02365bfeeed60a22ea467091ebb0f2c92b0fa3c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ee81531ca8d900225d2b8dc2a10af55718a5b67
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189191"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755712"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189191"
 
 _**마지막으로 수정 된 항목:** 2013-07-05_
 
-Windows PowerShell을 사용 하 여 비즈니스용 Skype Online에 연결 하는 경우 비즈니스용 Skype 온라인 cmdlet 모음이 컴퓨터에 복사 됩니다. Windows PowerShell을 설치할 때 설치 되는 핵심 cmdlet을 비롯 하 여 로컬 컴퓨터에 이미 설치한 다른 cmdlet 외에 이러한 cmdlet은 비즈니스용 Skype Online 배포 및 Skype를 관리 하는 데 사용할 수 있습니다. 비즈니스 온라인 사용자 계정 비즈니스용 Skype Online cmdlet은 다음 항목에 도입 되어 있습니다.
+Windows PowerShell을 사용 하 여 비즈니스용 Skype Online에 연결 하는 경우 비즈니스용 Skype 온라인 cmdlet 모음이 컴퓨터에 복사 됩니다. Windows PowerShell을 설치할 때 설치 되는 핵심 cmdlet을 비롯 하 여 로컬 컴퓨터에 이미 있는 다른 모든 cmdlet 외에 이러한 cmdlet은 비즈니스용 Skype 온라인 배포 및 비즈니스용 Skype Online 사용자 계정을 관리 하는 데 사용할 수 있습니다. 비즈니스용 Skype Online cmdlet은 다음 항목에 도입 되어 있습니다.
 
   - [비즈니스용 Skype Online 테 넌 트 관리](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 

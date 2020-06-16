@@ -1,8 +1,8 @@
 ---
 title: DNS SRV 레코드 업데이트
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Update DNS SRV records
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40abfa35892b09b3bdc4824a35f0697142980854
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85b286355f765342a2c7b240f23e0aac1c7daad6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189141"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755672"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,9 +45,9 @@ _**마지막으로 수정 된 항목:** 2012-09-29_
 
 1.  DNS 서버에서 **시작**, **관리 도구**를 차례로 클릭한 다음 **DNS**를 클릭합니다.
 
-2.  SIP 도메인의 콘솔 트리에서 **정방향 조회 영역**을 확장 하 고 Lync Server 2013이 설치 된 SIP 도메인을 확장 한 다음 ** \_tcp** 설정으로 이동 합니다.
+2.  SIP 도메인의 콘솔 트리에서 **정방향 조회 영역**을 확장 하 고 Lync Server 2013이 설치 된 SIP 도메인을 확장 한 다음 ** \_ tcp** 설정으로 이동 합니다.
 
-3.  오른쪽 창에서 ** \_sipinternaltls** 를 마우스 오른쪽 단추로 클릭 하 고 **속성**을 선택 합니다.
+3.  오른쪽 창에서 ** \_ sipinternaltls** 를 마우스 오른쪽 단추로 클릭 하 고 **속성**을 선택 합니다.
 
 4.  **이 서비스를 제공**하는 호스트에서 Lync Server 2013 풀을 가리키도록 호스트 FQDN을 업데이트 합니다.
 
@@ -61,7 +61,7 @@ _**마지막으로 수정 된 항목:** 2012-09-29_
 
 3.  **열기** 상자에 **cmd**를 입력한 다음 **확인**을 클릭합니다.
 
-4.  명령 프롬프트에 프런트 엔드 풀 **** \<\> 의 nslookup fqdn 또는 \<Standard Edition 서버의\>FQDN을 입력 한 다음 enter 키를 누릅니다.
+4.  명령 프롬프트에서 **nslookup** \<FQDN of the Front End pool\> 또는을 입력 한 \<FQDN of the Standard Edition server\> 다음 enter 키를 누릅니다.
 
 5.  FQDN에 대해 적절한 IP 주소로 확인되는 응답이 수신되는지 확인합니다.
 

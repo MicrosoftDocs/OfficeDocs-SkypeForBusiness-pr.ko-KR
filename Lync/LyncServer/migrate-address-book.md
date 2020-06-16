@@ -1,8 +1,8 @@
 ---
 title: 주소록 마이그레이션
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate Address Book
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42d28161eab03d494dd5ebb3771c0879dd3dbb99
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee0dc4d50fb3b60d4f6a9581d497df11da630122
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210136"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2012-10-09_
 
 **그룹화된 주소록 항목**
 
-각 OU에 대해 주소록을 만들기 위해 **PartitionbyOU** WMI 속성을 True로 설정한 경우 주소록 항목을 계속 그룹화하려면 사용자 및 대화 상대에 대해 **msRTCSIP-GroupingId** Active Directory 특성을 설정해야 합니다. 주소록 항목을 그룹화하여 주소록 검색 범위를 제한할 수도 있습니다. **msRTCSIP-GroupingId** 특성을 사용하려면 특성을 채우는 스크립트를 작성하여 함께 그룹화하려는 모든 사용자에 대해 동일한 값을 지정합니다. 예를 들어 OU의 모든 사용자에 대해 단일 값을 지정합니다.
+If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
 
 **주소록 정규화 규칙**
 
@@ -57,7 +57,7 @@ Lync Server 2010 환경에서 주소록 정규화 규칙을 사용자 지정한 
 
 
 > [!NOTE]  
-> 조직에서 원격 통화 제어를 사용하고 사용자가 주소록 정규화 규칙을 사용자 지정한 경우 원격 통화 제어를 사용하기 전에 이 항목의 절차를 수행해야 합니다. 이 절차를 수행하려면 RTCUniversalServerAdmins 그룹의 구성원이거나 이와 동등한 권한이 있어야 합니다.
+> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
 
 
 
@@ -71,22 +71,22 @@ Lync Server 2010 환경에서 주소록 정규화 규칙을 사용자 지정한 
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>사용자 지정된 주소록 정규화 규칙을 마이그레이션하려면
 
-1.  주소록 공유 폴더\_의\_루트\_에서\_회사 전화 번호 정규화 규칙 .txt 파일을 찾아 Lync Server 2013 파일럿 풀에 있는 주소록 공유 폴더의 루트에 복사 합니다.
+1.  \_ \_ \_ \_ 주소록 공유 폴더의 루트에서 회사 전화 번호 정규화Rules.txt 파일을 찾아 Lync Server 2013 파일럿 풀에 있는 주소록 공유 폴더의 루트에 복사 합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > ABS 웹 구성 요소 파일 디렉터리에 샘플 주소록 정규화 규칙이 설치되어 있습니다. 경로는 <STRONG>$설치 드라이브 문자:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>입니다. 이 파일 &nbsp; <STRONG></STRONG> &nbsp;을 Company_Phone_Number_Normalization_Rules로 복사 하 고 이름을 주소록 공유 폴더의 루트 디렉터리에 복사할 수 있습니다. 예를 들어 <STRONG>$serverX</STRONG>에서 공유 되는 주소록의&nbsp;경로는 <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>와 비슷합니다.
+    > ABS 웹 구성 요소 파일 디렉터리에 샘플 주소록 정규화 규칙이 설치되어 있습니다. 경로는 <STRONG>$설치 드라이브 문자:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>입니다. 이 파일 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; 을Company_Phone_Number_Normalization_Rules.txt주소록 공유 폴더의 루트 디렉터리에 복사 하 고 이름을 바꿀 수 있습니다. 예를 들어 <STRONG>$serverX</STRONG>에서 공유 되는 주소록의 &nbsp; 경로는 <STRONG> \\ $serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>와 비슷합니다.
 
     
     </div>
 
-2.  메모장과 같은 텍스트 편집기를 사용 하 여\_회사 전화\_번호\_정규화\_규칙 .txt 파일을 엽니다.
+2.  메모장과 같은 텍스트 편집기를 사용 하 여 회사 \_ 전화 \_ 번호 \_ 정규화 \_Rules.txt 파일을 엽니다.
 
 3.  특정 유형의 항목은 Lync Server 2013에서 올바르게 작동 하지 않습니다. 파일에서 이 단계에 설명한 항목 유형을 조사하고, 필요에 따라 편집한 후 변경 내용을 파일럿 풀의 주소록 공유 폴더에 저장합니다.
     
-    공백 또는 문장 부호가 포함된 문자열의 경우 정규화 규칙에 입력할 때 이러한 문자가 제거되기 때문에 이러한 문자열을 사용하면 정규화 규칙이 실패할 수 있습니다. 공백 또는 문장 부호가 필요한 문자열의 경우 문자열을 수정해야 합니다. 예를 들어 다음 문자열을 사용하면 정규화 규칙이 실패합니다.
+    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
@@ -114,7 +114,7 @@ Lync Server 2010 환경에서 주소록 정규화 규칙을 사용자 지정한 
 
 3.  모든 풀에서 중앙 관리 저장소 복제가 발생할 때까지 기다립니다.
 
-4.  배포에서 콘텐츠를 지우기 위해 전화 정규화 규칙\_파일인\_"\_회사\_전화 번호 정규화 규칙. t x"를 수정 합니다. 파일이 각 Lync Server 2013 풀의 파일 공유에 있습니다. 파일이 없으면 "\_회사 전화\_번호\_정규화\_규칙. t a x" 라는 빈 파일을 만듭니다.
+4.  배포에서 콘텐츠를 지우기 위해 전화 정규화 규칙 파일인 "회사 \_ 전화 \_ 번호 \_ 정규화 \_Rules.txt"를 수정 합니다. 파일이 각 Lync Server 2013 풀의 파일 공유에 있습니다. 파일이 없으면 "회사 \_ 전화 \_ 번호 \_ 정규화 \_Rules.txt" 라는 빈 파일을 만듭니다.
 
 5.  모든 프런트 엔드 풀에서 새 파일을 읽을 때까지 몇 분 정도 기다립니다.
 

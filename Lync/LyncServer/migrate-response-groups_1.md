@@ -1,8 +1,8 @@
 ---
 title: 응답 그룹 마이그레이션
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate response groups
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36b37fc6a67a1935c442edb4e2e8ef0d8812315c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de012d0886c51cd70d5003beb24053ff86af05b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190151"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +73,7 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 </div>
 
-응답 그룹을 마이그레이션한 후에는 공식 에이전트가 응답 그룹에 로그인 및 로그 아웃 하는 데 사용 하는 URL을 업데이트 하 고, Lync Server 제어판 또는 Lync Server 관리 셸 cmdlet을 사용 하 여 모든 에이전트 그룹, 큐 및 워크플로가 이동 되었는지 확인 해야 합니다. 성공적.
+응답 그룹을 마이그레이션한 후에는 공식 에이전트가 해당 응답 그룹에 로그인 하 여 아웃 하는 데 사용 하는 URL을 업데이트 하 고 Lync Server 제어판 또는 Lync Server 관리 셸 cmdlet을 사용 하 여 모든 에이전트 그룹, 큐 및 워크플로가 성공적으로 이동 되었는지 확인 해야 합니다.
 
 <div>
 
@@ -127,13 +127,13 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
     
         Move-CsRgsConfiguration -Source pool01.contoso.net -Destination pool02.contoso.net
 
-5.  Office Communications Server 2007 R2 환경에서 Microsoft Office Communicator 2007 r 2에 대 한 응답 그룹 탭을 배포한 경우 Office Communicator 2007 R2 탭 .xml 파일에서 해당 탭을 제거 합니다.
+5.  Office Communications Server 2007 R2 환경에서 Microsoft Office Communicator 2007 r 2에 대 한 응답 그룹 탭을 배포한 경우 Office Communicator 2007 R2 tabs.xml 파일에서 해당 탭을 제거 합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > 공식 에이전트는 호출을 수신하기 전에 응답 그룹 탭을 사용하여 응답 그룹에 로그인했습니다. 응답 그룹 탭을 배포한 경우 배포할 때 Office Communicator 2007 R2 탭 .xml 파일의 위치를 선택 합니다.
+    > 공식 에이전트는 호출을 수신하기 전에 응답 그룹 탭을 사용하여 응답 그룹에 로그인했습니다. 응답 그룹 탭을 배포한 경우 Office Communicator 2007 R2 tabs.xml 파일을 배포할 때 해당 위치를 선택 합니다.
 
     
     </div>
@@ -144,7 +144,7 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
     
 
     > [!NOTE]  
-    > 일반적 https://webpoolFQDN/RgsClients/Tab.aspx으로 webpoolFQDN은 Lync Server 2013로 마이그레이션한 풀과 연결 된 웹 풀의 FQDN (정규화 된 도메인 이름)이 됩니다.
+    > 일반적으로 https://webpoolFQDN/RgsClients/Tab.aspx webpoolFQDN은 Lync Server 2013로 마이그레이션한 풀과 연결 된 웹 풀의 FQDN (정규화 된 도메인 이름)이 됩니다.
 
     
     </div>

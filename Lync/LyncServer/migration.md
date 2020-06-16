@@ -1,8 +1,8 @@
 ---
 title: 마이그레이션
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6add96ea262c2d8495997bd2e17f046d6463e42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e57303aa330245a0d00a7a824c5eb846e19519d7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209804"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42209804"
 
 _**마지막으로 수정 된 항목:** 2012-09-18_
 
-이 섹션에서는 microsoft Office Communications Server 2007 R2 또는 Microsoft Lync server 2010에서 microsoft lync server 2013으로, microsoft lync server 2010, Group Chat to Microsoft Lync Server 2013, 영구 채팅 서버 및 보낸 사람으로 마이그레이션하는 방법에 대해 설명 합니다. Microsoft Office Communications Server 2007 R2 그룹 채팅을 영구 채팅 서버에 전달 합니다.
+이 섹션에서는 microsoft Office Communications Server 2007 R2 또는 Microsoft Lync server 2010에서 microsoft lync server 2013으로 2010, microsoft lync server 2013, 영구 채팅 서버 및 microsoft Office Communications Server 2007 R2 그룹 채팅에서 영구 채팅 서버로 마이그레이션하는 방법에 대해 설명 합니다.
 
 <div>
 

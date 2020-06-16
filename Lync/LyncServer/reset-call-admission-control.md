@@ -1,8 +1,8 @@
 ---
-title: 통화 허용 제어 다시 설정
+title: 통화 허용 콘트롤 재설정
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Reset call admission control
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2140327f4c95f1f83f9720b7f14ef9650b8a7746
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ccd809e8c0670535723692fd35e05fd4230ddc67
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189351"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755782"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189351"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reset-call-admission-control"></a>통화 허용 제어 다시 설정
+# <a name="reset-call-admission-control"></a>통화 허용 콘트롤 재설정
 
 </div>
 

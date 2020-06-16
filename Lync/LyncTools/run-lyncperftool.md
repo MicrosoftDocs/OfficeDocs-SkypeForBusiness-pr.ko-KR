@@ -1,8 +1,8 @@
 ---
 title: LyncPerfTool 실행
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run LyncPerfTool
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b4c7d7de6dcb2f2eee15e7da0809dd6e3c41e07
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82df3ee8cfccb91aec4e284674ace72e23a202c4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196081"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,22 +37,22 @@ ms.locfileid: "42196081"
 
 _**마지막으로 수정 된 항목:** 2013-02-24_
 
-Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool)를 실행 하기 전에 사용자, 연락처 및 시나리오를 만들어야 합니다. 도구를 사용 하 여 이러한 작업을 수행 하는 방법에 대 한 자세한 내용은 [Create Users And Contacts](create-users-and-contacts.md) 및 [Configure User Profile](configure-user-profile.md)을 참조 하십시오. 이러한 도구를 실행 하면 필요한 매개 변수를 포함 하는 배치 파일의 일부로 LyncPerfTool .exe를 실행 하는 파일도 생성 됩니다.
+Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool.exe)를 실행 하기 전에 사용자, 연락처 및 시나리오를 만들어야 합니다. 도구를 사용 하 여 이러한 작업을 수행 하는 방법에 대 한 자세한 내용은 [Create Users And Contacts](create-users-and-contacts.md) 및 [Configure User Profile](configure-user-profile.md)을 참조 하십시오. 이러한 도구를 실행 하면 필요한 매개 변수가 포함 된 배치 파일의 일부로 LyncPerfTool.exe를 실행 하는 파일도 생성 됩니다.
 
 <div>
 
 ## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 스트레스 및 성능 도구 실행
 
-Userprofilegenerator.exe 공용 도구는 LyncPerfTool 성능 카운터를 등록 하 고 XML 구성 파일을 로드 하 여 LyncPerfTool를 실행할 수 있는 배치 파일을 만듭니다. 일괄 파일은 구성 파일당 LyncPerfTool 인스턴스 하나를 실행 합니다. 배치 파일을 실행 하려면 다음을 수행 합니다.
+UserProfileGenerator.exe 도구는 LyncPerfTool 성능 카운터를 등록 하 고 XML 구성 파일을 로드 하 여 LyncPerfTool.exe 실행 하는 데 사용할 수 있는 배치 파일을 만듭니다. 일괄 파일은 구성 파일당 LyncPerfTool.exe 인스턴스 하나를 실행 합니다. 배치 파일을 실행 하려면 다음을 수행 합니다.
 
-1.  구성 폴더 및 파일이 포함 된 폴더를 각 클라이언트 컴퓨터에서 LyncStressTool를 포함 하는 디렉터리에 복사 합니다. 예를 들어 1.28\_13.16.16 이라는 폴더에 구성 파일을 생성 한 경우 각 클라이언트에서이 폴더를 LyncPerfTool가 포함 된 폴더로 복사 합니다.
+1.  구성 폴더 및 파일이 포함 된 폴더를 각 클라이언트 컴퓨터의 LyncStressTool.exe를 포함 하는 디렉터리에 복사 합니다. 예를 들어 1.28 13.16.16 이라는 폴더에 구성 파일을 생성 \_ 한 경우 각 클라이언트에 LyncPerfTool.exe를 포함 하는 폴더에 해당 폴더를 복사 합니다.
 
 2.  적절 하 게 번호가 매겨진 클라이언트 폴더로 이동 하 고 RunClient batch 스크립트를 실행 합니다. Windows 탐색기에서 배치 파일을 두 번 클릭 하기만 하면 해당 클라이언트 번호에 대 한 모든 구성 파일이 실행 됩니다. 다음 구문을 사용 하 여 해당 클라이언트 폴더에서 스크립트를 실행할 수도 있습니다.
 
     ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
     ```
-Lyncperftool를 직접 실행 하려면 명령 프롬프트를 열고 명령줄에서 다음 명령을 입력 합니다 (이 항목의 뒷부분에 나오는 참고 사항에 표시 되는 것 처럼 성능 카운터 regsvr32/i/n/s Lsioncperftoolcluster.exe를 등록 해야 함). LyncPerfTool .exe/file:\<configxml\>
+LyncPerfTool.exe를 직접 실행 하려면 명령 프롬프트를 열고 명령줄에서 다음 명령을 입력 합니다 (이 항목의 뒷부분에 나오는 참고 사항에 나오는 것 처럼, 처음으로이 작업을 수행 하는 경우에는 성능 카운터 regsvr32/i/n/s LyncPerfToolPerf.dll를 등록 해야 합니다.) :LyncPerfTool.exe/file:\<configXML\>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
 ```
@@ -79,7 +79,7 @@ Lyncperftool를 직접 실행 하려면 명령 프롬프트를 열고 명령줄�
 
 
 > [!NOTE]  
-> 시작 하는 LyncPerfTool의 모든 인스턴스는 사용자에 게 즉시 로그인을 시작 하 고, 일반적으로 초당 1 명의 사용자에 대 한 작업을 실행 합니다. 풀에 대 한 최고 사용자 로그인 속도는 초당 약 12입니다. 즉, 사용자가 계속 해 서 로그인 하는 동안 12 개 이상의 LyncPerfTool 인스턴스를 동시에 시작 해서는 안 됩니다. 1000 사용자는 초당 1 초에 완전히 로그인 하는 데 약 20 분 정도 소요 됩니다.
+> 시작 하는 LyncPerfTool.exe의 모든 인스턴스는 사용자에 게 즉시 로그인을 시작 하 고, 일반적으로 초당 1 명의 사용자에 대 한 작업을 실행 합니다. 풀에 대 한 최고 사용자 로그인 속도는 초당 약 12입니다. 즉, 사용자가 계속 해 서 로그인 하는 동안 12 개 이상의 LyncPerfTool 인스턴스를 동시에 시작 해서는 안 됩니다. 1000 사용자는 초당 1 초에 완전히 로그인 하는 데 약 20 분 정도 소요 됩니다.
 
 
 

@@ -1,8 +1,8 @@
 ---
 title: 보관 및 모니터링 서버 마이그레이션
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67896576fce21eea630533a5826bbcbc53392fa0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43b7c7509dcf678967db651900c67cdfb3d26685
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209854"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757079"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ Office Communications Server 2007 r 2에 보관 서버 및 모니터링 서버�
     
 
     > [!NOTE]  
-    > 새 Lync Server 2013 파일럿 풀과 함께 레거시에 지 서버를 계속 사용 하는 경우 마이그레이션 단계에서 Office Communications Server 2007 R2 버전의 보관 서버는 Office Communications Server의 사용자에 대 한 데이터를 계속 수집 2007 R2 풀 및 Lync Server 2013 버전의 보관 서버는 Lync Server 2013 풀에 있는 사용자에 대 한 데이터를 수집 합니다.
+    > 새 Lync Server 2013 파일럿 풀에서 레거시에 지 서버를 계속 사용 하는 경우에는 Office Communications Server 2007 R2 버전의 보관 서버가 Office Communications Server 2007 R2 풀에 있는 사용자에 대 한 데이터를 계속 수집 하며 Lync server 2013 버전의 보관 서버는 Lync Server 2013 풀에 있는 사용자에 대 한 데이터를 수집 합니다.
 
     
     </div>

@@ -1,8 +1,8 @@
 ---
-title: '단계 7: 마이그레이션 후 작업 완료'
+title: '7단계: 마이그레이션 후 작업 완료'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 7: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d42207ecff45a66f2b8fb4d88abb69483504c644
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcf827412104bcfc8b6c3fe2b58378ecab8ad7bf
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209564"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756779"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209564"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a>단계 7: 마이그레이션 후 작업 완료
+# <a name="phase-7-complete-post-migration-tasks"></a>7단계: 마이그레이션 후 작업 완료
 
 </div>
 
@@ -57,15 +57,15 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
   - [레거시 보관 및 모니터링 서버 제거](remove-legacy-archiving-and-monitoring-servers.md)
 
-  - [트러스트된 응용 프로그램 서버 구성](configure-trusted-application-servers.md)
+  - [신뢰할 수 있는 응용 프로그램 서버 구성](configure-trusted-application-servers.md)
 
   - [Lync Server 2013 클라이언트 배포](deploy-lync-server-2013-clients.md)
 
-  - [Sba (survivable 분기 기기 연결](connect-a-survivable-branch-appliance.md)
+  - [SBA(Survivable Branch Appliance) 연결](connect-a-survivable-branch-appliance.md)
 
   - [SCOM 모니터링 구성](configure-scom-monitoring.md)
 
-  - [공통 영역 전화 마이그레이션](migrate-common-area-phones.md)
+  - [공통 지역 전화 마이그레이션](migrate-common-area-phones.md)
 
   - [아날로그 장치 마이그레이션](migrate-analog-devices.md)
 

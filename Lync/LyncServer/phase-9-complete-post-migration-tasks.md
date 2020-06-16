@@ -1,8 +1,8 @@
 ---
 title: '단계 9: 마이그레이션 후 작업 완료'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 9: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d1ef8c74a0ac14fd99cabb676a63ca176697fc9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e12268cce33526ba2602a2efc9a611ebb211801
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209484"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756339"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2012-10-15_
 
   - [중재 서버 마이그레이션](migrate-mediation-server.md)
 
-  - [트러스트된 응용 프로그램 서버 구성](configure-trusted-application-servers_1.md)
+  - [신뢰할 수 있는 응용 프로그램 서버 구성](configure-trusted-application-servers_1.md)
 
   - [모임 참가 페이지 구성](configure-the-meeting-join-page_1.md)
 

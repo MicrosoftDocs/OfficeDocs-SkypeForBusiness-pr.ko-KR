@@ -1,8 +1,8 @@
 ---
 title: 마이그레이션 프로세스-세부 정보
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration process - details
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6df1eb2e0f69f79bd299f2da4f6f12aaba1bb5d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 76624475b86427d8e3b1aa4f9efa75c127afcb85
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189951"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그�
     
 
     > [!IMPORTANT]  
-    > 새로 만든 항목이 마이그레이션하는 기존 항목과 충돌할 수 있습니다. 이름이 충돌하지 않도록 방지하십시오. 그렇지 않으면 기존 데이터를 마이그레이션할 때 덮어써집니다.
+    > Be aware that these newly created items may conflict with legacy items that you migrate. Avoid any naming conflicts; otherwise, they will be overwritten when the legacy data is migrated.
 
     
     </div>
@@ -66,7 +66,7 @@ Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그�
 
 다음 단계를 수행하여 마이그레이션을 위해 원본 데이터를 올바로 준비합니다.
 
-1.  Lync Server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그룹 채팅에 대 한 원본 데이터베이스를 백업 합니다. SQL Server를 백업 하는 방법에 대 한 자세한 내용은의 "백업 개요 (SQL <https://go.microsoft.com/fwlink/p/?linkid=254851>Server)"를 참조 하십시오.
+1.  Lync Server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그룹 채팅에 대 한 원본 데이터베이스를 백업 합니다. SQL Server를 백업 하는 방법에 대 한 자세한 내용은의 "백업 개요 (SQL Server)"를 참조 하십시오 <https://go.microsoft.com/fwlink/p/?linkid=254851> .
     
     <div>
     
@@ -92,9 +92,9 @@ Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그�
     
     1.  영구 채팅 서버는 범주에 대 한 심도 깊은 계층 집합과 달리 단일 수준의 범주를 지원 합니다. 마이그레이션이 완료되면 하위 범주 앞에 전체 상위 범주 이름이 붙습니다. 기존 범주 구조를 단일 계층으로 단순화하여 요구 사항에 맞는 결과 구조를 만들 수도 있습니다.
     
-    2.  루트 범주에 **관리자**가 있는지 확인합니다. 이 루트 수준에 관리자가 존재하면 마이그레이션 이후 해당 사용자는 **모든 채팅방의 관리자**로 추가됩니다. 관리자가 조직 요구 사항이 아니면 루트 범주에서 이들 관리자를 제거해야 합니다.
+    2.  Verify the **Managers** at the root Category. If any Managers exist at this level, these users will be added as **Managers to all rooms** after migration. If this is not a requirement for your organization, you need to remove these Managers from the root Category.
     
-    3.  채팅방 이름의 길이를 확인합니다. 마이그레이션 이후 단순화된 범주 구조로 인해 하위 범주를 보유한 채팅방은 이름 앞에 상위 범주의 전체 이름이 붙습니다. 이름은 상위 범주 이름을 포함하여 256자로 제한됩니다. 채팅방 이름의 길이를 확인한 후, 이름이 너무 긴 경우 가능하면 길이를 줄입니다.
+    3.  Verify the length of room names. After migration, due to simplified category structures, if the rooms exist under a child category, they are prefixed with full parent category names. The naming limit is 256 characters, including parent category names. You must verify the length of the room names and possibly shorten the length, if they are too long.
     
     4.  Lync Server 2013에서 범주 **초대** 설정이 true로 설정 된 경우 해당 범주의 대화방에 대 한 초대에 대해 true 또는 false를 선택할 수 있습니다. 하지만 범주 초대 설정이 거짓으로 설정된 경우 해당 범주 아래의 채팅방은 해제됩니다. 특정 범주에 해당 하는 대화방을 만들려는 경우 마이그레이션 전에 레거시 Lync Server 그룹 채팅 서버 버전에서 초대 설정을 다시 설정 해야 합니다. 그렇지 않으면 마이그레이션 중에 Lync Server 2013에서 경고를 표시 하 고 대화방을 기본값인 false로 설정 합니다.
     
@@ -104,7 +104,7 @@ Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그�
     
     7.  마이그레이션하지 않으려는 채팅방을 식별하여 사용 안 함으로 표시합니다.
     
-    8.  채팅방 콘텐츠를 마이그레이션하기 시작할 날짜를 식별합니다. 예를 들어 2010년 1월 1일 이전의 메시지는 오래되었거나 마이그레이션과 관련이 없다는 이유로 마이그레이션하지 않으려 할 수 있습니다.
+    8.  Identify the date beyond which you want to migrate the chat room content. For example, you may not want to migrate messages earlier than January 1, 2010, because these messages may be obsolete or not relevant for migration.
 
 </div>
 
@@ -141,7 +141,7 @@ Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그�
 
 8.  Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그룹 채팅 조회 서버 URI를 Lync Server 2013, 영구 채팅 서버 연락처 개체에 이식 합니다. 다음 단계는 Lync 2010 그룹 채팅 또는 Office Communicator 2007 R2 그룹 채팅 클라이언트가 클라이언트 쪽 구성 변경 없이 마이그레이션 후 최신 Lync 2013, 영구 채팅 (클라이언트)에 연결 해야 하는 경우에 필요 합니다.
     
-      - Ocschat@\<DomainName\>조회 서버 사용자 계정을 삭제 합니다. 이는 Lync Server 2010, 그룹 채팅의 조회 서비스를 가리키는 데 사용 됩니다. 풀을 제거하고 신뢰할 수 있는 항목을 나중에 제거할 수 있습니다.
+      - Ocschat@ \<domainName\> .Com 조회 서버 사용자 계정을 삭제 합니다. 이는 Lync Server 2010, 그룹 채팅의 조회 서비스를 가리키는 데 사용 됩니다. 풀을 제거하고 신뢰할 수 있는 항목을 나중에 제거할 수 있습니다.
     
       - 레거시 클라이언트가 서비스를 다시 시작할 때 효과적으로 작동 하도록 하려면 Windows PowerShell cmdlet **get-cspersistentchatendpoint**를 실행 하 여 동일한 SIP URI를 사용 하 여 레거시 끝점 (영구 채팅 서버 대화 상대 개체)을 만듭니다.
     
@@ -163,7 +163,7 @@ Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그�
     
 
     > [!IMPORTANT]  
-    > Lync Server 2013에서는 여러 영구 채팅 서버 풀을 지원 합니다. 그러나 microsoft는 Lync 2010 그룹 채팅 또는 Office Communications Server 2007 R2&nbsp;그룹 채팅 풀을 단일 Lync Server 2013, 영구 채팅 서버 풀로 마이그레이션하는 것을 지원 합니다. 배포에 새 영구 채팅 서버 풀을 추가 하 여 규정 요구 사항 (예: 지정 된 지리 내의 데이터 유지)을 충족할 수 있습니다.
+    > Lync Server 2013에서는 여러 영구 채팅 서버 풀을 지원 합니다. 그러나 microsoft는 Lync 2010 그룹 채팅 또는 Office Communications Server 2007 R2 &nbsp; 그룹 채팅 풀을 단일 Lync Server 2013, 영구 채팅 서버 풀로 마이그레이션하는 것을 지원 합니다. 배포에 새 영구 채팅 서버 풀을 추가 하 여 규정 요구 사항 (예: 지정 된 지리 내의 데이터 유지)을 충족할 수 있습니다.
 
     
     </div>

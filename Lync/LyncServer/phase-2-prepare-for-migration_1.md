@@ -1,8 +1,8 @@
 ---
-title: '2 단계: 마이그레이션 준비'
+title: '2단계: 마이그레이션 준비'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 2: Prepare for migration'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54f616c43d62f91b7b9f8a3eecd058037590669b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5d7d511844f2b577ecddfd188ff34738e5238b5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209784"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209784"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>2 단계: 마이그레이션 준비
+# <a name="phase-2-prepare-for-migration"></a>2단계: 마이그레이션 준비
 
 </div>
 
@@ -45,7 +45,7 @@ Office Communications Server 2007 r 2에서 Lync Server 2013로의 마이그레�
 
   - [Office Communications Server 2007 R2 업데이트 적용](apply-office-communications-server-2007-r2-updates.md)
 
-  - [파일럿 풀 배포를 위한 DNS 레코드 구성](configure-dns-records-for-pilot-pool-deployment_1.md)
+  - [파일럿 풀 배포에 대한 DNS 레코드 구성](configure-dns-records-for-pilot-pool-deployment_1.md)
 
   - [모범 사례 분석기 실행](run-best-practices-analyzer_1.md)
 

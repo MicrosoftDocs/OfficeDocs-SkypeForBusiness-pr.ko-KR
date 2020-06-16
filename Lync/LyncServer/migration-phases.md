@@ -1,8 +1,8 @@
 ---
 title: 마이그레이션 단계
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration phases
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d8101e5dee47699421ed83effed3c578c96bfda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19594eb5f0e7c2847dfbbf41795574c01b67d0be
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189981"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Lync Server 2013에서는 Lync Server 2013 구성 요소를 포함 하는 네트
 
 1.  [1 단계: Lync Server 2010에서 마이그레이션 계획](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-2.  [2 단계: 마이그레이션 준비](phase-2-prepare-for-migration.md)
+2.  [2단계: 마이그레이션 준비](phase-2-prepare-for-migration.md)
 
 3.  [3 단계: Lync Server 2013 파일럿 풀 배포](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
@@ -53,11 +53,11 @@ Lync Server 2013에서는 Lync Server 2013 구성 요소를 포함 하는 네트
 
 5.  [단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-6.  [6 단계: 파일럿 배포에서 프로덕션으로 이동](phase-6-move-from-pilot-deployment-into-production.md)
+6.  [6단계: 파일럿 배포에서 프로덕션으로 이동](phase-6-move-from-pilot-deployment-into-production.md)
 
-7.  [단계 7: 마이그레이션 후 작업 완료](phase-7-complete-post-migration-tasks.md)
+7.  [7단계: 마이그레이션 후 작업 완료](phase-7-complete-post-migration-tasks.md)
 
-8.  [8 단계: 레거시 풀 해제](phase-8-decommission-legacy-pools.md)
+8.  [8단계: 레거시 풀 해제](phase-8-decommission-legacy-pools.md)
 
 </div>
 

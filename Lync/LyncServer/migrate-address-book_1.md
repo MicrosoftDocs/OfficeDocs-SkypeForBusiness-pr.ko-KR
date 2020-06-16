@@ -1,8 +1,8 @@
 ---
 title: 주소록 마이그레이션
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate Address Book
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185218
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e68dbe4db6ee9ac6b9bd758b23a575089019f6c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 937bf9dfff07591ea12a2c78604ab82fa34e97f6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210154"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757029"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,22 +39,22 @@ _**마지막으로 수정 된 항목:** 2012-10-02_
 
 **사용자 지정된 주소록 정규화 규칙을 마이그레이션하려면**
 
-1.  주소록 공유 폴더\_의\_루트\_에서\_회사 전화 번호 정규화 규칙 .txt 파일을 찾아 Lync Server 2013 파일럿 풀에 있는 주소록 공유 폴더의 루트에 복사 합니다.
+1.  \_ \_ \_ \_ 주소록 공유 폴더의 루트에서 회사 전화 번호 정규화Rules.txt 파일을 찾아 Lync Server 2013 파일럿 풀에 있는 주소록 공유 폴더의 루트에 복사 합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > ABS 웹 구성 요소 파일 디렉터리에 샘플 주소록 정규화 규칙이 설치되어 있습니다. 경로는 <STRONG>$설치 드라이브 문자:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>입니다. 이 파일 &nbsp; <STRONG></STRONG> &nbsp;을 Company_Phone_Number_Normalization_Rules로 복사 하 고 이름을 주소록 공유 폴더의 루트 디렉터리에 복사할 수 있습니다. 예를 들어 <STRONG>$serverX</STRONG>에서 공유 되는 주소록의&nbsp;경로는 <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>와 비슷합니다.
+    > ABS 웹 구성 요소 파일 디렉터리에 샘플 주소록 정규화 규칙이 설치되어 있습니다. 경로는 <STRONG>$설치 드라이브 문자:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>입니다. 이 파일 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; 을Company_Phone_Number_Normalization_Rules.txt주소록 공유 폴더의 루트 디렉터리에 복사 하 고 이름을 바꿀 수 있습니다. 예를 들어 <STRONG>$serverX</STRONG>에서 공유 되는 주소록의 &nbsp; 경로는 <STRONG> \\ $serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>와 비슷합니다.
 
     
     </div>
 
-2.  메모장과 같은 텍스트 편집기를 사용 하 여\_회사 전화\_번호\_정규화\_규칙 .txt 파일을 엽니다.
+2.  메모장과 같은 텍스트 편집기를 사용 하 여 회사 \_ 전화 \_ 번호 \_ 정규화 \_Rules.txt 파일을 엽니다.
 
 3.  특정 유형의 항목은 Lync Server 2013에서 올바르게 작동 하지 않습니다. 파일에서 이 단계에 설명한 항목 유형을 조사하고, 필요에 따라 편집한 후 변경 내용을 파일럿 풀의 주소록 공유 폴더에 저장합니다.
     
-    공백 또는 문장 부호가 포함된 문자열의 경우 정규화 규칙에 입력할 때 이러한 문자가 제거되기 때문에 이러한 문자열을 사용하면 정규화 규칙이 실패할 수 있습니다. 공백 또는 문장 부호가 필요한 문자열의 경우 문자열을 수정해야 합니다. 예를 들어 다음 문자열을 사용하면 정규화 규칙이 실패합니다.
+    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     

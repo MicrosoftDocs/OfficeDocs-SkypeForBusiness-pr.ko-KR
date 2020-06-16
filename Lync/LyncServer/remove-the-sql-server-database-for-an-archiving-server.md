@@ -1,8 +1,8 @@
 ---
-title: 보관 서버에 대 한 SQL Server 데이터베이스 제거
+title: 보관 서버용 SQL Server 데이터베이스 제거
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for an Archiving server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d077b21b1b45cc73c268b3dc6294f0a476f48809
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c84c15aea6be5ddcc30c357fec5971bf9786c25
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189361"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755792"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189361"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-an-archiving-server"></a>보관 서버에 대 한 SQL Server 데이터베이스 제거
+# <a name="remove-the-sql-server-database-for-an-archiving-server"></a>보관 서버용 SQL Server 데이터베이스 제거
 
 </div>
 
@@ -63,7 +63,7 @@ Microsoft Lync Server 2010 보관 서버를 제거한 후에는 해당 풀 데�
     
         Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    여기서 \<fqdn\> 은 데이터베이스 서버의 fqdn (정규화 된 도메인 이름)이 고 \<인스턴스\> 는 명명 된 데이터베이스 인스턴스이며 (즉, 정의 된 경우).
+    여기서 \<FQDN\> 은 데이터베이스 서버의 FQDN (정규화 된 도메인 이름) 이며, \<instance\> 명명 된 데이터베이스 인스턴스 (즉, 정의 된 경우)입니다.
 
 4.  **Uninstall-CsDataBase** cmdlet에서 작업을 확인하라는 메시지가 표시되면 해당 정보를 읽고, 계속하려면 **Y**(또는 Enter 키)를 누르고, cmdlet을 중지하려면 **N**을 누른 후 Enter 키를 누릅니다(즉, 오류가 있을 경우에 대비하여).
 

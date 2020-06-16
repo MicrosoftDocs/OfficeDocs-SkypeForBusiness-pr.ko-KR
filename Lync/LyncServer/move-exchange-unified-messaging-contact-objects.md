@@ -1,8 +1,8 @@
 ---
 title: Exchange 통합 메시징 대화 상대 개체 이동
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move Exchange Unified Messaging Contact objects
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c9a16251ca49d4d5179ed3ad72e4d0307beb4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f3b3091a342b46b5c1aad1d456aa9159d951a4ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189900"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756617"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 
 > [!NOTE]  
-> <STRONG>Get-CsExUmContact</STRONG> 및 <STRONG>Move-CsExUmContact</STRONG> cmdlet을 사용하려면 RTCUniversalUserAdmins 그룹의 구성원이어야 하며 대화 상대 개체가 저장된 OU에 대한 OU(조직 구성 단위) 권한이 있어야 합니다. OU 권한은 <STRONG>Grant-OUPermission</STRONG> cmdlet을 사용하여 부여할 수 있습니다.
+> In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored. OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.
 
 
 
@@ -75,9 +75,9 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 2.  Exchucutil.ps1 Windows PowerShell 스크립트로 이동 합니다.
     
-    Exchange 2007에서 Exchucutil.ps1는 **%\\Program Files%\\Microsoft Exchange Server\\스크립트\\exchucutil.ps1** 에 있습니다. ps1
+    Exchange 2007에서 ExchUCUtil.ps1는 **% Program Files% \\ Microsoft \\ Exchange Server \\ 스크립트 \\ ** 에 있습니다ExchUCUtil.ps1
     
-    Exchange 2010에서 Exchucutil.ps1는 **%\\Program Files% Microsoft\\Exchange Server\\v 14\\Scripts\\exchucutil.ps1. ps1** 위치에 있습니다.
+    Exchange 2010에서 ExchUCUtil.ps1의 위치는 **% Program Files% \\ Microsoft \\ Exchange Server \\ v 14 \\ Scripts \\ExchUCUtil.ps1**
 
 3.  Exchange가 단일 포리스트에 배포된 경우 다음을 입력합니다.
     

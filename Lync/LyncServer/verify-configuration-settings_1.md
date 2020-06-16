@@ -1,8 +1,8 @@
 ---
 title: 구성 설정 확인
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify configuration settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f7655547ff4f3e528b3948a537bbd5e85f351ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2430fe82aa424571405def33139ba315677ffcc7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188981"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755602"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -82,7 +82,7 @@ _**마지막으로 수정 된 항목:** 2012-09-28_
 <td><p>외부 액세스 정책</p></td>
 </tr>
 <tr class="even">
-<td><p>보관할</p></td>
+<td><p>보관</p></td>
 <td><p>보관 정책</p></td>
 </tr>
 </tbody>
@@ -95,7 +95,7 @@ _**마지막으로 수정 된 항목:** 2012-09-28_
 
 ## <a name="to-verify-policies-and-settings"></a>정책 및 설정을 확인하려면
 
-1.  Office Communications Server 2007 R2 환경에서 다이얼 플랜의 이름 (이전의 위치 프로필), 전화 접속 액세스 번호 (회의 수행자 액세스 전화 번호 및 지역), 음성 경로 및 다음에 나열 된 정책에 대 한 정보를 기록 합니다. Communicator Web Access에 사용 되는 Url 외에도 위의 표
+1.  Office Communications Server 2007 R2 환경에서 다이얼 플랜의 이름 (이전에는 위치 프로필), 전화 접속 액세스 번호 (회의 수행자 액세스 전화 번호 및 지역), 음성 경로, Communicator Web Access에 사용 된 Url을 기록해 둡니다.
 
 2.  Lync Server 2013 프런트 엔드 서버에서 Lync Server 제어판을 엽니다.
 

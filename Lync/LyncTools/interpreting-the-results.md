@@ -1,8 +1,8 @@
 ---
 title: 결과 해석
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Interpreting the Results
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b3683e2a2ac9fb163fe9db3dabce40b3c61d098
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d02f69f8ea1c8eb7df004e063dba39f03bbe8b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206164"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755472"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42206164"
 
 _**마지막으로 수정 된 항목:** 2013-02-24_
 
-Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool)에는 클라이언트가 수행 하는 작업과 문제가 발생 하는지 여부를 이해 하는 데 사용할 수 있는 여러 카운터가 있습니다.
+Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool.exe)에는 클라이언트가 수행 하는 작업과 문제가 발생 하는지 여부를 이해 하는 데 사용할 수 있는 많은 카운터가 있습니다.
 
 <div>
 
 ## <a name="client-counters"></a>클라이언트 카운터
 
-실행 중인 LyncPerfTool 각 인스턴스에는 별도의 카운터 인스턴스가 있습니다. 각 인스턴스의 이름은 해당 프로세스 ID에 의해 지정 됩니다.
+실행 중인 각 LyncPerfTool.exe 인스턴스에는 별도의 카운터 인스턴스가 있습니다. 각 인스턴스의 이름은 해당 프로세스 ID에 의해 지정 됩니다.
 
 클라이언트가 오버 로드 되 면 문제가 발생할 수 있습니다. 이러한 문제를 방지 하려면 다음을 수행 합니다.
 

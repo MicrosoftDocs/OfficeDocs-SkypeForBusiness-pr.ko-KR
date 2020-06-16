@@ -1,8 +1,8 @@
 ---
 title: 영구 채팅 서버에 대 한 이전 버전과의 호환성을 실행 합니다.
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run backward compatibility for Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d107c13d281001196dcad17604d0bfbbb9e522
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5308d39e4edcfeddf494aa364f6b7ed43b9822dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189341"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42189341"
 
 _**마지막으로 수정 된 항목:** 2013-02-21_
 
-Lync Server 2013, 영구 채팅 서버 끝점은 영구 채팅 서버 풀을 가리키는 간단한 URL을 만드는 방법을 제공 합니다. 이 기능은 레거시 클라이언트를 Lync 2013을 실행 하는 컴퓨터에 연결 하려고 할 때 수동 구성에 사용자가 단순 URL을 입력할 수 있기 때문에 (Microsoft Office Communications Server 2007 R2 그룹 채팅 서버 또는 Lync Server 2010, 그룹 채팅)에 유용 합니다. 영구 채팅 이 끝점은 영구 채팅에서 사용 되지 않으며 레거시 클라이언트에만 필요 합니다. 이 기능은 대화방을 마이그레이션할 수 있지만 조직 전체에 Lync 2013 클라이언트를 배포 하지 않은 중간 기간에 유용 합니다. Lync 2010 그룹 채팅 (클라이언트)을 실행 하는 사용자는 계속 해 서 영구 채팅 서버 백 엔드 서버에 연결할 수 있습니다.
+Lync Server 2013, 영구 채팅 서버 끝점은 영구 채팅 서버 풀을 가리키는 간단한 URL을 만드는 방법을 제공 합니다. 이 기능은 레거시 클라이언트를 Lync 2013, 영구 채팅을 실행 하는 컴퓨터에 연결 하려고 할 때 수동 구성에 간단한 URL을 입력할 수 있기 때문에 (Microsoft Office Communications Server 2007 R2 그룹 채팅 서버 또는 Lync Server 2010, 그룹 채팅)에 유용 합니다. 이 끝점은 영구 채팅에서 사용 되지 않으며 레거시 클라이언트에만 필요 합니다. 이 기능은 대화방을 마이그레이션할 수 있지만 조직 전체에 Lync 2013 클라이언트를 배포 하지 않은 중간 기간에 유용 합니다. Lync 2010 그룹 채팅 (클라이언트)을 실행 하는 사용자는 계속 해 서 영구 채팅 서버 백 엔드 서버에 연결할 수 있습니다.
 
 여러 영구 채팅 서버 끝점을 만들 필요는 없습니다. 각 영구 채팅 서버 풀에 대해 하나만 필요 합니다. 관리자는 여러 끝점 (풀 당 하나)을 만들 수 있지만 레거시 클라이언트는 한 번에 하나의 풀에만 연결 되도록 구성할 수 있습니다. 일반 또는 메인스트림 시나리오에서는 레거시 배포가 하나의 풀에 불과합니다. 일반적으로 새 배포는 해당 풀을 새 Lync Server 2013로 마이그레이션하고 새로운 영구 채팅 서버 풀을 더 추가할 수 있습니다.
 
 주요 시나리오에서는 일반적으로 다음 패턴을 따릅니다.
 
-  - Lync Server 2010, 그룹 채팅 풀을 하나씩 사용 하 여 사용자를 관리 하 고, Lync 2010 그룹 채팅 클라이언트는 잘 알려진 사용자 (기본 sip: ocschat@\<domainName\>) 또는 이와 유사한 것 중 하나를 통해 해당 풀에 연결 합니다. 사용자가 SIP 사용이 가능한 Active Directory 도메인 서비스이 고 조회 서비스에서 들어오는 요청을 받을 수 있도록 등록 합니다.
+  - Lync Server 2010, 그룹 채팅 풀을 하나씩 사용 하 여 사용자를 관리 하 고, Lync 2010 그룹 채팅 클라이언트는 잘 알려진 사용자 (기본 sip: ocschat@ .com 또는 이와 유사한 것)를 통해 해당 풀에 연결 \<domainName\> 합니다. 사용자가 SIP 사용이 가능한 Active Directory 도메인 서비스이 고 조회 서비스에서 들어오는 요청을 받을 수 있도록 등록 합니다.
 
   - 이후에 Lync Server 2013 영구 채팅 서버와 영구 채팅 서버 풀을 설치 합니다.
 

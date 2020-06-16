@@ -1,8 +1,8 @@
 ---
 title: 전화 접속 액세스 번호 마이그레이션
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate dial-in access numbers
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e808e587c9bd65668e35eba46692591bf72b9c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 383fed15e2b67013ddd85356eb141a4c5dcf64e6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210023"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ Lync server 2010에서 만들었지만 마이그레이션 중 또는 이후에 2
 
   - Priority 매개 변수와 함께 et-CsDialinConferencingAccessNumber cmdlet을 사용하여 지역 내에서 다시 순차화할 수 있습니다.
 
-Lync Server 2010 풀을 해지하기 전에 Lync Server 2010 풀을 가리키는 전화 접속 액세스 번호의 마이그레이션을 마쳐야 합니다. 다음 절차에 설명된 대로 전화 접속 액세스 번호 마이그레이션을 완료하지 않으면 액세스 번호로의 수신 전화가 실패합니다.
+You must finish migrating dial-in access numbers that point to a Lync Server 2010 pool before you decommission the Lync Server 2010 pool. If you do not complete dial-in access number migration as described in the following procedure, incoming calls to the access numbers will fail.
 
 <div>
 

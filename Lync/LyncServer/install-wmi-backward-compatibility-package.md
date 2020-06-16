@@ -1,8 +1,8 @@
 ---
 title: WMI 이전 버전과의 호환성 패키지 설치
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Install WMI Backward Compatibility package
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c59e3ea03b3b6f4085f8acf461b1da3f32e21fa9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 35be17aa08cf26f93a9d4002b23dacdfb35c5143
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199401"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ WMI 이전 버전과의 호환성 패키지를 설치하지 않고 **Merge-CsLeg
 
 WMI 이전 버전과의 호환성 패키지를 설치하려면
 
-1.  설치 \\미디어에서 setup\\AMD64\\setup\\ocswmibc로 이동 합니다. MSI.DLL.
+1.  설치 미디어에서 \\ SETUP \\ AMD64 setupOCSWMIBC.MSI으로 이동 \\ \\ 합니다.
 
 2.  OCSWMIBC.MSI를 설치합니다.
     
@@ -55,7 +55,7 @@ WMI 이전 버전과의 호환성 패키지를 설치하려면
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC.msi는 토폴로지 작성기 병합 마법사가 실행되는 컴퓨터에 설치해야 합니다. 그러나 토폴로지의 모든 프런트 엔드 서버에 OCSWMIBC.msi를 설치하는 것이 좋습니다.
+    > OCSWMIBC.msi must be installed on the computer where the Topology Builder Merge wizard is run. However, we recommend installing OCSWMIBC.msi on all Front End servers in your topology.
 
     
     </div>
@@ -64,7 +64,7 @@ WMI 이전 버전과의 호환성 패키지를 설치하려면
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC는 Lync Server 2013 Core 구성 요소와 Lync Server 2013 관리 셸이 설치 되어 있는 도메인의 모든 컴퓨터에 설치할 수 있으며 Office Communications Server 2007 R2 토폴로지 (WMI 공급자에 게 Active Directory 도메인으로의)에 대 한 액세스 권한이 있습니다. 서비스 (AD DS) 및 SQL Server)
+    > OCSWMIBC.msi은 Lync Server 2013 핵심 구성 요소와 Lync Server 2013 관리 셸이 설치 되어 있는 도메인의 컴퓨터에 설치할 수 있으며 Office Communications Server 2007 R2 토폴로지 (WMI 공급자에 게 AD DS (Active Directory 도메인 서비스) 및 SQL Server)에 대 한 액세스 권한이 있습니다.
 
     
     </div>

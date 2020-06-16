@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2013; 네트워크 통과 영역 경로 만들기
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: admin
 manager: serdars
 f1.keywords:
@@ -13,12 +13,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72917dc3ef179e0c27de6d47e599746a97e0540e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 156f2322d5b1b7cc1951f1cbd4df41eb231a8170
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210244"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757209"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42210244"
 
 _**마지막으로 수정 된 항목:** 2012-10-20_
 
-*네트워크 지역 간 경로*는 네트워크 지역 쌍 간의 경로를 정의합니다. 통화 허용 제어 배포의 각 네트워크 지역 쌍에는 네트워크 지역 간 경로가 필요합니다. 따라서 배포 내의 모든 네트워크 지역이 다른 모든 지역에 액세스할 수 있습니다.
+A *network interregion route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregion route. This enables every network region within the deployment to access every other region.
 
 지역 링크는 지역 간 연결에 대한 대역폭 제한을 설정하는 반면, 지역 간 경로는 연결이 지역 간에 이어지는 링크된 경로를 결정합니다.
 
@@ -99,9 +99,9 @@ _**마지막으로 수정 된 항목:** 2012-10-20_
 
 5.  **새 지역 경로** 페이지에서 **이름**을 클릭하고 네트워크 지역 간 경로의 이름을 입력합니다.
 
-6.  **네트워크 지역 \#1**을 클릭 하 고 목록에서 네트워크 지역 \#2로 라우팅할 네트워크 지역을 클릭 합니다.
+6.  **네트워크 지역 \# 1**을 클릭 하 고 목록에서 네트워크 지역 2로 라우팅할 네트워크 지역을 클릭 \# 합니다.
 
-7.  **네트워크 지역 \#2**를 클릭 하 고 목록에서 네트워크 지역 \#1로 라우팅할 네트워크 지역을 클릭 합니다.
+7.  **네트워크 지역 \# 2**를 클릭 하 고 목록에서 네트워크 지역 1로 라우팅할 네트워크 지역을 클릭 \# 합니다.
 
 8.  **네트워크 지역 링크** 필드 옆의 **추가**를 클릭한 다음, 네트워크 지역 간 경로에 사용할 네트워크 지역 링크를 추가합니다.
     
@@ -109,7 +109,7 @@ _**마지막으로 수정 된 항목:** 2012-10-20_
     
 
     > [!NOTE]  
-    > 두 네트워크 지역에 대한 경로를 만드는데 해당 지역 사이에 직접 네트워크 지역 링크가 없는 경우, 경로를 완료하려면 필요한 모든 링크를 추가해야 합니다. 예를 들어 North America/APAC 네트워크 지역 간 경로의 경우, 지역 간에 직접 네트워크 지역 링크가 없으므로 네트워크 지역 링크가 두 개 필요합니다.
+    > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     
     </div>

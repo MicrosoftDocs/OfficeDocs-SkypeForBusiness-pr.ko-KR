@@ -1,8 +1,8 @@
 ---
 title: '4 단계: 테스트 사용자를 파일럿 풀로 이동'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 4: Move test users to the pilot pool'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184208
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3063b1f30bd7c63b35eb62f0bdbfdf0097a795ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 50077f7438be8a6b7e620b8bb8dcac12c0bd2e07
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209704"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Lync Server 제어판과 Lync Server 관리 셸 두 가지 방법을 사용 하 
 
   - [Lync Server 2010 풀의 현재 사용자 보기](view-current-users-in-lync-server-2010-pool.md)
 
-  - [사용자 복제가 완료 되었는지 확인](verify-user-replication-has-completed.md)
+  - [사용자 복제가 완료되었는지 확인](verify-user-replication-has-completed.md)
 
   - [파일럿 풀로 단일 사용자 이동](move-a-single-user-to-the-pilot-pool.md)
 

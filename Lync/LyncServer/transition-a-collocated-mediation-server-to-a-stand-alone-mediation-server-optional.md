@@ -1,8 +1,8 @@
 ---
 title: 배치 된 중재 서버를 독립 실행형 중재 서버로 전환 (선택 사항)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4140732fd5d091f3ed03e2dadd2f827a24531e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0ce0228edacba502161c4d44a6a94b38cede6655
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189161"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,13 +49,13 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 3.  **중재 풀**을 마우스 오른쪽 단추로 클릭한 후 **새 중재 서버**를 선택합니다.
 
-4.  **새 중재 풀 정의** 페이지에서 새 중재 서버 풀의 FQDN을 제공합니다. 또한 이 풀이 단일 서버인지 또는 다중 서버 풀인지 여부를 선택한 후 **다음**을 클릭합니다.
+4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
 
 5.  새 중재 서버가 인바운드 호출을 라우팅할 다음 홉 프런트 엔드 서버 풀을 선택한 후 **다음**을 클릭합니다.
 
 6.  중재 서버에서 사용할 에지 풀을 선택한 후 **다음**을 클릭합니다.
 
-7.  **PSTN 게이트웨이 지정** 페이지에서 이전 PSTN 게이트웨이를 중재 서버와 연결합니다. 게이트웨이를 선택한 후 **추가**를 클릭합니다.
+7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
 
 8.  **마침**을 클릭하여 **새 중재 풀 정의** 마법사를 닫습니다.
 

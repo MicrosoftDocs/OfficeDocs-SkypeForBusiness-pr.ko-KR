@@ -1,8 +1,8 @@
 ---
 title: 필수 구성 요소
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Prerequisites
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4f10cb1bdf5733dbe54519325475871be10564
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d8f0ee6a50d40f938a9f2c6f731b0a4afa647ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196151"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756889"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,9 +93,9 @@ Lync Server 2013 스트레스 및 성능 도구를 실행 하는 컴퓨터는 �
 
 1.  Domain 또는 Local Admins 그룹의 구성원으로 로그온 해야 합니다.
 
-2.  Lync server 2013 스트레스 및 성능 도구 (LyncPerfTool)는 Lync Server 2013 구성 요소도 실행 되는 컴퓨터에서 실행할 수 없습니다.
+2.  Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool.exe)는 Lync Server 2013 구성 요소도 실행 되는 컴퓨터에서 실행할 수 없습니다.
 
-3.  프런트 엔드 서버 또는 사용자 계정이 상주할 Standard Edition 서버에서 Lync Server 2013 사용자 만들기 도구 (UserProvisioningTool)를 실행 해야 합니다. 도구를 여러 번 실행 하는 경우 Microsoft 통합 통신을 사용 하도록 설정 된 각 사용자에 게 고유한 전화 번호가 있어야 합니다.
+3.  프런트 엔드 서버 또는 사용자 계정이 상주할 Standard Edition 서버에서 Lync Server 2013 사용자 만들기 도구 (UserProvisioningTool.exe)를 실행 해야 합니다. 도구를 여러 번 실행 하는 경우 Microsoft 통합 통신을 사용 하도록 설정 된 각 사용자에 게 고유한 전화 번호가 있어야 합니다.
 
 4.  페이지 파일 크기는 시스템에서 관리 되거나 시스템의 RAM 크기의 1.5 배 이상 이어야 합니다.
 
