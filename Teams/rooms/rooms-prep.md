@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 모든 기능을 활용할 수 있도록 Microsoft 팀 대화방을 배포 하는 인프라를 준비 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666170"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735428"
 ---
 # <a name="prepare-your-environment"></a>작업 환경 준비
 
@@ -53,7 +53,7 @@ ms.locfileid: "44666170"
 제대로 작동 하려면 Microsoft 팀 대화방 장치가 다음 요구 사항을 충족 하는 유선 네트워크에 액세스할 수 있어야 합니다.
   
 - Active Directory 또는 Azure AD (Azure Active Directory) 인스턴스에 대 한 액세스 및 Microsoft Exchange 및 비즈니스용 Skype 서버에 대 한 액세스가 가능 합니다.
-- DHCP를 사용 하 여 IP 주소를 제공할 수 있는 서버에 액세스 합니다. Microsoft 팀 대화방은 고정 IP 주소로 구성할 수 없습니다.
+- DHCP를 사용 하 여 IP 주소를 제공할 수 있는 서버에 액세스 합니다. Microsoft 팀 대화방은 첫 번째 단위 시작 시 고정 IP 주소로 구성할 수 없습니다.
 - HTTP 포트 80 및 443에 액세스 합니다.
 - 온-프레미스 비즈니스용 Skype Server 구현에 대 한 [서버의 포트 및 프로토콜 요구 사항](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) 에 설명 된 대로 구성 되는 TCP 및 UDP 포트와 microsoft 팀 또는 비즈니스용 skype online 구현에 대 한 [Microsoft 365 및 Office 365 url 및 IP 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
@@ -120,7 +120,7 @@ Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록
 |데스크톱 공유  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50040-50059  <br/> |\*contoso.com  <br/> |아니오  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50000-59999  <br/> |
 |IOS 장치에서 Lync Mobile 2010에 대 한 lync Mobile 푸시 알림 Android, Nokia Symbian 또는 Windows Phone 모바일 장치에는 필요 하지 않습니다.  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니오  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype 원격 분석  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |아니요  <br/> |아니요  <br/> |해당 없음  <br/> |TCP 443  <br/> |
-|Skype 클라이언트 퀵 팁  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |quicktips.skypeforbusiness.com  <br/> |아니요  <br/> |아니요  <br/> |해당 없음  <br/> |TCP 443  <br/> |
+|Skype 클라이언트 빠른 팁  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |quicktips.skypeforbusiness.com  <br/> |아니요  <br/> |아니요  <br/> |해당 없음  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
 > Contoso.com 및 broadcast.skype.com의 와일드 카드는 Microsoft 365 또는 Office 365에 독점적으로 사용 되는 노드의 긴 목록을 나타냅니다. 
@@ -144,7 +144,7 @@ Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록
   
 ### <a name="admin---local-administrator-account"></a>"관리자"-로컬 관리자 계정
 
-Microsoft 팀 대화방 기본 암호는 "sfb"로 설정 됩니다. Windows 설정으로 이동 하 여 암호를 로컬에서 변경할 수 있습니다 \> (windows 또는 AutoUnattend 파일에서 Windows 시스템 이미지 관리자를 사용 하 여 xml 파일을 변경 합니다.).
+Microsoft 팀 대화방 기본 암호는 "sfb"로 설정 됩니다. Windows 설정으로 이동 하 여 암호를 로컬에서 변경할 수 있습니다 \> (windows 또는 AutoUnattend.xml 파일에서 Windows 시스템 이미지 관리자를 사용 하 여 xml 파일을 변경 합니다.)
   
 > [!CAUTION]
 > Microsoft 팀 대화방 비밀 번호를 최대한 빨리 변경 하세요. 
