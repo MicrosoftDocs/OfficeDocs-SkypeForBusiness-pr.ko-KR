@@ -1,8 +1,8 @@
 ---
-title: Sba (survivable 분기 기기 연결
+title: SBA(Survivable Branch Appliance) 연결
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Connect a Survivable Branch Appliance
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b65eed74396eb7c373230358f29366f7d6d18e5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0fcba962129353ddeb5e5f4c77520cf6d127733
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180591"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180591"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-a-survivable-branch-appliance"></a>Sba (survivable 분기 기기 연결
+# <a name="connect-a-survivable-branch-appliance"></a>SBA(Survivable Branch Appliance) 연결
 
 </div>
 
@@ -69,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 7.  **다음**을 클릭하고 다음 중 하나를 수행합니다.
     
-    1.  이 사이트에서 Lync 2010 SBA(Survivable Branch Appliance) 또는 Server를 사용 중인 경우 **이 마법사가 닫히면 새 SBA(Survivable Branch Appliance) 마법사를 엽니다.** 옵션의 선택을 취소해야 합니다. **마침**을 클릭합니다.
+    1.  If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.
 
 8.  레거시 Lync Server 2010 SBA를 Lync Server 2013 프런트 엔드 풀에 연결 하려면 다음을 수행 합니다.
     

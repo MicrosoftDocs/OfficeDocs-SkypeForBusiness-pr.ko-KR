@@ -1,8 +1,8 @@
 ---
 title: 트러스트된 응용 프로그램 서버 구성
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb693a68f58ef16ca29048d9e18738ef98d719d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cbaba4f59a22de6fcee38ee51845d551033cfea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180751"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754486"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42180751"
 
 _**마지막으로 수정 된 항목:** 2012-10-04_
 
-혼합 환경에서는 레거시 Office Communications Server 토폴로지를 Lync Server 2013와 병합 한 후에 새 신뢰할 수 있는 응용 프로그램 서버를 만들고 토폴로지 작성기를 사용 하 여 신뢰할 수 있는 응용 프로그램 서버를 새로 정의한 경우 다음 홉 풀을 다음으로 설정 해야 합니다. Lync Server 2013 풀 병합 된 환경에서는 레거시 Office Communications Server 풀과 Lync Server 2013 풀이 모두 드롭다운 목록에 표시 됩니다. 레거시 풀 선택은 지원되지 *않습니다*.
+혼합 환경에서는 레거시 Office Communications Server 토폴로지를 Lync Server 2013와 병합 한 후에 새 신뢰할 수 있는 응용 프로그램 서버를 만들고 토폴로지 작성기를 사용 하 여 신뢰할 수 있는 응용 프로그램 서버를 새로 정의한 경우 다음 홉 풀을 Lync Server 2013 풀로 설정 해야 합니다. 병합 된 환경에서는 레거시 Office Communications Server 풀과 Lync Server 2013 풀이 모두 드롭다운 목록에 표시 됩니다. 레거시 풀 선택은 지원되지 *않습니다*.
 
 <div>
 

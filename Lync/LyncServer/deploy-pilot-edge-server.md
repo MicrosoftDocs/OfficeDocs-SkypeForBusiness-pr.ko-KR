@@ -1,8 +1,8 @@
 ---
-title: 파일럿에 지 서버 배포
+title: 파일럿 Edge 서버 배포
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Deploy pilot Edge Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4d8fbf34e618c5bf41d3b005c70897c5dddb69
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4ba616f6a5ce86e0f94c3b52afd60aaba34b7635
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180391"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180391"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-pilot-edge-server"></a>파일럿에 지 서버 배포
+# <a name="deploy-pilot-edge-server"></a>파일럿 Edge 서버 배포
 
 </div>
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 이 항목에서는 Lync Server 2013에 지 서버를 배포 하기 전에 알아야 하는 구성 설정을 중점적으로 설명 합니다. Lync Server 2013에 대 한 배포 및 구성 프로세스는 Lync Server 2010와 매우 비슷합니다. 또한 이 섹션에서는 파일럿 풀 배포 중에 고려해야 하는 핵심 사항들에 대해서도 설명합니다. 자세한 단계에 대 한 자세한 내용은 배포 설명서에서 [Lync Server 2013의 외부 사용자 액세스 배포](lync-server-2013-deploying-external-user-access.md) 를 참조 하 고, 외부 사용자 액세스에 대 한 구성 정보도 제공 합니다.
 
-**새 에지 풀 정의** 마법사를 탐색할 때 다음 단계에 표시된 핵심 구성 설정을 검토합니다. **새 에지 풀 정의** 마법사의 일부 페이지만 표시됩니다.
+As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown.
 
 **에지 풀을 정의합니다.**
 

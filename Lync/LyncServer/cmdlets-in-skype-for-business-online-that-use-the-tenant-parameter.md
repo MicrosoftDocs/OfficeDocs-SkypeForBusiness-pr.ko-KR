@@ -1,8 +1,8 @@
 ---
 title: 테 넌 트 매개 변수를 사용 하는 비즈니스용 Skype Online의 cmdlet
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 121133ce163b73bd0ddf49faa1db03ae352056d3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 352a33fcff5db306b62535c28fb4a2b2dd766bea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42000933"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755044"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>테 넌 트 매개 변수를 사용 하는 비즈니스용 Skype Online의 cmdlet
 
@@ -29,7 +29,7 @@ ms.locfileid: "42000933"
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-다행히 이러한 cmdlet 중 하나를 실행할 때마다 테 넌 트 ID (예: bf19b7db-6960-41e5-a139-2aa373474354)를 입력할 필요가 없습니다. 대신, [CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) cmdlet을 실행 하 고, 변수에 테 넌 트 id를 저장 한 다음, 다른 cmdlet 중 하나를 호출할 때이 변수를 사용 하 여 테 넌 트 id를 검색할 수 있습니다. 예:
+다행히 이러한 cmdlet 중 하나를 실행할 때마다 테 넌 트 ID (예: bf19b7db-6960-41e5-a139-2aa373474354)를 입력할 필요가 없습니다. 대신, [CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) cmdlet을 실행 하 고, 변수에 테 넌 트 id를 저장 한 다음, 다른 cmdlet 중 하나를 호출할 때이 변수를 사용 하 여 테 넌 트 id를 검색할 수 있습니다. 예시:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"

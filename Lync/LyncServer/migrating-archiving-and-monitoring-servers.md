@@ -1,8 +1,8 @@
 ---
 title: 보관 및 모니터링 서버 마이그레이션
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4edd989985c4ed65027ed8d19725ec1f93c2bdc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ba86de15ea86844b677db1abb0f47f7e1995c7e8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190101"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755308"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ Lync Server 2010 환경에 보관 서버 및 모니터링 서버를 배포한 �
     
 
     > [!NOTE]  
-    > 새 Lync Server 2013 파일럿 풀을 사용 하 여 레거시에 지 서버를 계속 사용 하는 경우 마이그레이션 단계가 진행 되는 동안 lync server 2010 버전의 보관 서버는 lync server 2010 풀에 있는 사용자에 대 한 데이터를 계속 수집 하며 Lync Server 2013에 보관 됩니다. Lync Server 2013 풀에 있는 사용자에 대 한 데이터를 수집 합니다.
+    > 새 Lync Server 2013 파일럿 풀에서 레거시에 지 서버를 계속 사용 하는 경우에는 lync server 2010 버전의 보관 서버가 lync server 2010 풀에 있는 사용자에 대 한 데이터를 계속 수집 하며 lync server 2013의 보관은 lync server 2013 풀에 있는 사용자에 대 한 데이터를 수집 합니다.
 
     
     </div>

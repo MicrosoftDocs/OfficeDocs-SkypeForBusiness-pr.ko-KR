@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype Online cmdlet을 다른 Windows PowerShell cmdlet과 결합
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f95d242ec5a1f24f403e59b49e305d9e0a6c84b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bd4f08370e5aeab6688fdbf2ce13a3e5ccb11a37
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180991"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -46,7 +46,7 @@ Windows PowerShell 3.0의 전체 과정은이 문서의 범위를 벗어나지�
 
 추가 매개 변수가 포함 되지 않으므로 **출력을 사용** 하는 모든 정보가 기본 프린터로 인쇄 됩니다.
 
-마찬가지로 비즈니스용 Skype Online cmdlet에는 데이터를 파일에 저장할 수 있는 매개 변수가 포함 되어 있지 않습니다. 그러나이 명령은 다음 명령을 사용 **하 여 반환** 되는 정보를 텍스트 파일 C:\\로그\\에 저장 합니다.
+마찬가지로 비즈니스용 Skype Online cmdlet에는 데이터를 파일에 저장할 수 있는 매개 변수가 포함 되어 있지 않습니다. 그러나이 명령은 다음 명령을 사용 **하 여 반환** 되는 정보를 텍스트 파일 C: \\ LogsTenants.txt에 저장 합니다. \\
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 

@@ -1,8 +1,8 @@
 ---
 title: 여러 사용자를 파일럿 풀로 이동
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move multiple users to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81b5ad16b36063c217d90c4c8f1e8a2e7fa3c0ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a5a92b0438e72be0ecb5acaa1b8e1886768ad59
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189851"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755402"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +69,7 @@ Lync server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 
 
 1.  Lync Server 2013 관리 셸을 엽니다.
 
-2.  명령줄에서 다음을 입력 하 고 **User1** **과 사용자 1을 이동** 하려는 특정 사용자 이름으로 바꾸고 **풀\_FQDN** 을 대상 풀의 이름으로 바꿉니다. 이 예에서는 Hao Chen과 Katie Jordan을 이동하겠습니다.
+2.  명령줄에서 다음을 입력 하 고 **User1** **과 사용자 1을 이동** 하려는 특정 사용자 이름으로 바꾸고 **풀 \_ FQDN** 을 대상 풀의 이름으로 바꿉니다. 이 예에서는 Hao Chen과 Katie Jordan을 이동하겠습니다.
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
     
@@ -79,7 +79,7 @@ Lync server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 
     
         Get-CsUser -Identity "User1"
 
-4.  이제 **등록자 풀** id가 이전 단계에서 **풀\_FQDN** 으로 지정한 풀을 가리켜야 합니다. ID는 이제 사용자가 이전 단계에서 pool_FQDN으로 지정한 풀을 가리킵니다.이 ID가 있으면 사용자가 성공적으로 이동된 것입니다. 이 단계를 반복하여 **User2**가 이동되었는지 확인합니다.
+4.  이제 **등록자 풀** id가 이전 단계에서 **풀 \_ FQDN** 으로 지정한 풀을 가리켜야 합니다. ID는 이제 사용자가 이전 단계에서 pool_FQDN으로 지정한 풀을 가리킵니다.이 ID가 있으면 사용자가 성공적으로 이동된 것입니다. 이 단계를 반복하여 **User2**가 이동되었는지 확인합니다.
     
     ![PowerShell Get-UsUser-Identity cmdlet의 출력](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser-Identity cmdlet의 출력")  
 
@@ -103,7 +103,7 @@ Lync server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  이제 각 사용자의 **등록자 풀** id가 이전 단계에서 "Pool\_FQDN"으로 지정한 풀을 가리킵니다. 이 ID가 있으면 사용자가 성공적으로 이동되었음을 나타냅니다.
+4.  이제 각 사용자의 **등록자 풀** id가 \_ 이전 단계에서 "Pool FQDN"으로 지정한 풀을 가리킵니다. 이 ID가 있으면 사용자가 성공적으로 이동되었음을 나타냅니다.
 
 5.  또한 Lync Server 2013 제어판의 사용자 목록을 보고 등록자 풀 값이 Lync Server 2013 풀을 가리키는지 확인할 수 있습니다.
     

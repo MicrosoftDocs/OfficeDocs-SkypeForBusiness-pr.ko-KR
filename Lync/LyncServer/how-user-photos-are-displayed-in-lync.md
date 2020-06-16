@@ -1,8 +1,8 @@
 ---
 title: Lync에서 사용자 사진이 표시 되는 방식
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: How user photos are displayed in Lync
@@ -12,12 +12,12 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b2c64d0a147457eb50a778d7909b3ccfbf8fecc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 88d6f6f6f5578994831fd15329988d963a295832
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180361"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,13 +93,13 @@ Active Directory 도메인 서비스에서 이미지를 사용할 때 고려해 
 
 사용자는 Lync 2010 클라이언트를 통해 Active Directory 도메인 서비스 프로필에 사용 되는 이미지를 직접 변경할 수 없습니다. 사용 가능한 경우 다음 옵션 중 하나를 사용 하 여이 작업을 수행할 수 있습니다.
 
-  - **Sharepoint server**   사용자는 sharepoint server의 ' 내 사이트 '에 사진을 업로드 한 다음 [sharepoint에서 프로필 동기화를 구성](https://go.microsoft.com/fwlink/p/?linkid=507466) 하 여 Active Directory 도메인 서비스의 **thumbnailPhoto** 특성에 사진을 동기화 할 수 있습니다.
+  - **SharePoint Server**     사용자는 SharePoint Server의 ' 내 사이트 '에 사진을 업로드 한 다음 [sharepoint에서 프로필 동기화를 구성](https://go.microsoft.com/fwlink/p/?linkid=507466) 하 여 Active Directory 도메인 서비스의 **thumbnailPhoto** 특성에 사진을 동기화 할 수 있습니다.
 
-  - **공개적으로 액세스할**   수 있는 url에 저장 된 사진 사용자가 사용 하려는 이미지에 대해 공개적으로 액세스할 수 있는 url을 지정 하는 사용자 사진을 구성할 수도 있습니다. 이미지는 암호 없이 공개적으로 액세스할 수 있어야 합니다. 지정한 웹 주소에 저장 된 이미지는 현재 상태 정보의 대화 상대 카드 범주를 통해 다른 사용자에 게 전송 됩니다. Lync 클라이언트에서 사용자 사진을 표시 해야 하는 경우에는 지정 된 웹 주소에서 이미지를 검색 합니다.
+  - **공개적으로 액세스할 수 있는 URL**     에 저장 된 사진 사용자는 사용 하려는 이미지에 대해 공개적으로 액세스할 수 있는 URL을 지정 하는 사용자 사진을 구성할 수 있습니다. 이미지는 암호 없이 공개적으로 액세스할 수 있어야 합니다. 지정한 웹 주소에 저장 된 이미지는 현재 상태 정보의 대화 상대 카드 범주를 통해 다른 사용자에 게 전송 됩니다. Lync 클라이언트에서 사용자 사진을 표시 해야 하는 경우에는 지정 된 웹 주소에서 이미지를 검색 합니다.
 
-  - **Windows PowerShell**   관리자 용 exchange 2010 cmdlet은의 exchange 2010 관리 셸에서 [import-recipientdataproperty](https://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet을 실행 하 여 **thumbnailPhoto** 특성을 관리할 수 있습니다. Exchange 2010 cmdlet을 사용 하 여 이미지를 가져올 때 파일 크기는 10kb로 제한 됩니다.
+  - **Windows PowerShell**     용 Exchange 2010 cmdlet 관리자는 **thumbnailPhoto** 특성을 관리 하기 위해 Exchange 2010 관리 셸에서 [import-recipientdataproperty](https://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet을 실행할 수 있습니다. Exchange 2010 cmdlet을 사용 하 여 이미지를 가져올 때 파일 크기는 10kb로 제한 됩니다.
 
-  - **타사 도구**   사용자는 **thumbnailPhoto** 특성에 대해 자신의 사진만 업로드할 수 있습니다.
+  - 타사 **도구**     사용자는 **thumbnailPhoto** 특성에 대해 자신의 사진만 업로드할 수 있습니다.
 
 </div>
 
@@ -183,13 +183,13 @@ Lync 2010에서는 사용자 사진이 주소록 서비스에 의해 서버에�
 
 ABWQ 서비스에 대 한 쿼리에는 다음과 같은 특성이 포함 됩니다.
 
-  - **Photo hash**   이진 사진 데이터의 해시 값으로, 현재 사진이 변경 되었는지 여부를 확인 하는 데 사용 됩니다.
+  - **사진 해시**     이진 사진 데이터의 해시 값으로, 현재 사진이 변경 되었는지 여부를 확인 하는 데 사용 됩니다.
 
-  - **PhotoRelPath**   서버에 저장 된 이미지 파일의 상대 경로입니다.
+  - **PhotoRelPath**     서버에 저장 된 이미지 파일의 상대 경로입니다.
 
-  - **사진 크기**   이미지 파일의 크기 (바이트)입니다.
+  - **사진 크기**     이미지 파일의 크기 (바이트)입니다.
 
-  - **TimeStamp**   서버에서 이미지 파일을 마지막으로 다운로드 한 날짜와 시간으로, 클라이언트 캐시에 복사 됩니다.
+  - **타임 스탬프**     서버에서 이미지 파일을 마지막으로 다운로드 한 날짜와 시간으로, 클라이언트 캐시에 복사 됩니다.
 
 그런 다음 이미지 파일을 검색 한 후 Lync 2010 클라이언트는 쿼리에서 반환 된 특성 값을 클라이언트에서 수신 되는 특성 값과 비교 하 여 해당 쿼리가 서로 다른 지 여부를 확인 합니다. 값이 다르면 클라이언트는 HTTP GET 요청을 사용 하 여 로그인 한 사용자의 이미지 파일을 검색 합니다.
 
@@ -320,13 +320,13 @@ Lync 2013에서는 다음 표에 설명 된 것 처럼 사용자 사진에 대�
 
 Exchange 2013에서 사서함이 사용 하도록 설정 된 모든 사용자는 Outlook Web Access 또는 Lync 2013 클라이언트 옵션을 통해 고해상도 사진을 비롯 한 다른 이미지를 업로드할 수 있습니다. 사용 되는 이미지에 권장 되는 설정은 다음과 같습니다.
 
-  - **이미지 해상도**   648 x 648 픽셀
+  - **이미지 해상도**     648 x 648 픽셀
 
-  - **색 농도**   24 비트
+  - **색 농도**     24 비트
 
-  - **이미지 파일 크기**   최대 20mb
+  - **이미지 파일 크기**     최대 20mb
 
-  - **파일 형식**   JPEG
+  - **파일 형식**     JPEG
 
 일반적인 24 비트 JPEG 이미지에는 648 픽셀 x 648 픽셀로 표시 되는 파일 크기는 약 240 KB 이기 때문에 4 사용자 사진 마다 1MB의 저장소 공간이 필요 합니다.
 

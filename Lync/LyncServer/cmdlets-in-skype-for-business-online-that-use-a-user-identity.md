@@ -1,8 +1,8 @@
 ---
 title: 사용자 id를 사용 하는 비즈니스용 Skype Online의 cmdlet
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558859
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8310d5e25b5fc3dd3ada43fcf3c8f899f60e5a7e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8aee680c6e55de62ff9d49724d3e480c00159aa4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001263"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755110"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>사용자 id를 사용 하는 비즈니스용 Skype Online의 cmdlet
 
@@ -27,19 +27,19 @@ ms.locfileid: "42001263"
 
 비즈니스용 Skype Online에서 개별 사용자 Id를 참조 하는 방법에는 여러 가지가 있습니다.
 
-  - 사용자의 Active Directory 도메인 서비스 표시 이름을 사용 합니다. 예:
+  - 사용자의 Active Directory 도메인 서비스 표시 이름을 사용 합니다. 예시:
     
         -Identity "Ken Myer"
 
-  - 사용자의 SIP 주소를 사용 합니다. 예:
+  - 사용자의 SIP 주소를 사용 합니다. 예시:
     
         -Identity "sip:kenmyer@litwareinc.com"
 
-  - 사용자의 UPN을 사용 합니다. 예:
+  - 사용자의 UPN을 사용 합니다. 예시:
     
         -Identity " kenmyer@litwareinc.com"
 
-  - 사용자의 Active Directory 도메인 서비스 고유 이름을 사용 합니다. 예:
+  - 사용자의 Active Directory 도메인 서비스 고유 이름을 사용 합니다. 예시:
     
         -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 

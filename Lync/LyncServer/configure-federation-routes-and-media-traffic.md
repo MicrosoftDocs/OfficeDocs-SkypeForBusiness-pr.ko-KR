@@ -1,8 +1,8 @@
 ---
 title: 페더레이션 경로 및 미디어 트래픽 구성
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f5b3e0a775af649b7210dd75dcf90d012f2e421
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5e9b7ad3f08d9ebf129c478bbcf94bed7845ef1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180921"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +65,7 @@ _**마지막으로 수정 된 항목:** 2012-10-15_
 
 
 > [!IMPORTANT]  
-> XMPP 페더레이션이 Lync Server 2013에 지 서버를 통해 라우팅되는 경우, 모든 사용자가 Lync Server 2013로 이동 될 때까지 레거시 Lync Server 2010 사용자는 XMPP 페더레이션 파트너와 통신할 수 없으며 XMPP 정책 및 인증서가 사용 됩니다. 구성 된 경우에는 Lync Server 2013에 XMPP 페더레이션 파트너가 구성 되어 있고 마지막으로 DNS 항목이 업데이트 되었습니다.
+> XMPP 페더레이션이 Lync Server 2013에 지 서버를 통해 라우팅되는 경우, 모든 사용자가 Lync Server 2013로 이동 되 고 XMPP 정책 및 인증서가 구성 되었으며, Lync Server 2013에 XMPP 페더레이션 파트너가 구성 되어 있고, 마지막으로 DNS 항목이 업데이트 된 경우에만 레거시 Lync Server 2010 사용자가 XMPP 페더레이션 파트너와 통신할 수 있습니다.
 
 
 
@@ -269,7 +269,7 @@ _**마지막으로 수정 된 항목:** 2012-10-15_
     
 
     > [!NOTE]  
-    > 하드웨어 부하 분산 장치가 없으면 새 Lync Server 액세스 에지 서버로 확인되도록 페더레이션에 대한 DNS A 레코드를 업데이트해야 합니다. 최소한의 중단으로 이를 수행하려면 새 Lync Server 액세스 에지를 가리키도록 DNS를 업데이트할 때 페더레이션 및 원격 액세스를 빠르게 업데이트할 수 있도록 외부 Lync Server 액세스 에지 FQDN에 대한 TLL 값을 줄입니다.
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.
 
     
     </div>

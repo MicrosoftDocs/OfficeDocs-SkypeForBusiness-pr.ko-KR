@@ -1,8 +1,8 @@
 ---
 title: 페더레이션 경로 및 미디어 트래픽 구성
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fc7359a21d60c0c77028491af9fccdf21991c58
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0d6af77188809b092050629c1b74cdab8b20a2cc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136095"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754964"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>페더레이션 경로 및 미디어 트래픽 구성
 
@@ -36,7 +36,7 @@ ms.locfileid: "42136095"
 
 
 > [!IMPORTANT]  
-> 레거시 Office Communications Server 2007 R2에 지 서버가 액세스에 지 서비스, 웹 회의에 지 서비스 및 A/V에 지 서비스에 대해 동일한 FQDN을 사용 하도록 구성 되어 있는 경우이 섹션의 절차를 통해 페더레이션 설정을 Lync Server 2013에 지 서버로 전환할 수 없습니다. 레거시에 지 서비스가 동일한 FQDN을 사용 하도록 구성 된 경우에는 먼저 Office Communications Server 2007 R2에서 Lync Server 2013로 모든 사용자를 마이그레이션한 다음, 페더레이션을 사용 하도록 설정 하기 전에 Office Communications Server 2007 R2에 지 서버를 해제 해야 합니다. Lync Server 2013에 지 서버 자세한 내용은 다음 항목을 참조하십시오. 
+> 레거시 Office Communications Server 2007 R2에 지 서버가 액세스에 지 서비스, 웹 회의에 지 서비스 및 A/V에 지 서비스에 대해 동일한 FQDN을 사용 하도록 구성 되어 있는 경우이 섹션의 절차를 통해 페더레이션 설정을 Lync Server 2013에 지 서버로 전환할 수 없습니다. 레거시에 지 서비스가 동일한 FQDN을 사용 하도록 구성 된 경우 먼저 Office Communications Server 2007 R2에서 Lync Server 2013로 모든 사용자를 마이그레이션한 다음 Lync Server 2013 Edge Server에서 페더레이션을 사용 하기 전에 Office Communications Server 2007 R2에 지 서버를 해제 해야 합니다. 자세한 내용은 다음 항목을 참조하십시오. 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Lync Server 2013로 나머지 사용자 이동</A></P>
@@ -47,7 +47,7 @@ ms.locfileid: "42136095"
 
 
 > [!IMPORTANT]  
-> XMPP 페더레이션이 Lync Server 2013에 지 서버를 통해 라우팅되는 경우에는 모든 사용자가 Lync Server 2013, XMPP 정책으로 이동 될 때까지 레거시 Office Communications Server 2007 R2 사용자가 XMPP 페더레이션 파트너와 통신할 수 없습니다. 인증서가 구성 되어 있고, XMPP 페더레이션 파트너가 Lync Server 2013에 구성 되어 있고, 마지막으로 DNS 항목이 업데이트 되었습니다.
+> XMPP 페더레이션이 Lync Server 2013에 지 서버를 통해 라우팅되는 경우, 모든 사용자가 Lync Server 2013로 이동 되 고 XMPP 정책 및 인증서가 구성 되었으며, Lync Server 2013에 XMPP 페더레이션 파트너가 구성 되어 있고, 마지막으로 DNS 항목이 업데이트 된 경우에는 레거시 Office Communications Server 2007 R2 사용자가 XMPP 페더레이션 파트너와 통신할 수 없습니다.
 
 
 
@@ -87,11 +87,11 @@ ms.locfileid: "42136095"
     
     ![토폴로지 작성기 외부에 지 지정 페이지](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "토폴로지 작성기 외부에 지 지정 페이지")
 
-5.  **외부 에지 지정**에서 **이 에지 풀은 페더레이션 및 공용 IM 연결에 사용됩니다.** 확인란의 선택을 취소합니다. 그러면 BackCompatSite와의 페더레이션 연결이 제거됩니다.
+5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
     
 
     > [!IMPORTANT]  
-    > 이 단계는 중요한 단계입니다. 레거시 페더레이션 연결을 제거하려면 이 옵션의 선택을 취소해야 합니다.
+    > This step is important. You must clear this option to remove the legacy federation association.
 
 
 
@@ -123,7 +123,7 @@ ms.locfileid: "42136095"
 
 1.  Office Communications Server 2007 R2 Standard Edition server 또는 프런트 엔드 서버에서 Office Communications Server 2007 R2 관리 도구를 엽니다.
 
-2.  왼쪽 창에서 맨 위의 노드를 확장한 후 **포리스트** 노드를 마우스 오른쪽 단추로 클릭합니다. **속성**을 선택한 후 **전역 속성**을 클릭합니다.
+2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
 
 3.  **페더레이션** 탭을 클릭합니다.
 
@@ -217,7 +217,7 @@ ms.locfileid: "42136095"
     
 
     > [!NOTE]  
-    > 하드웨어 부하 분산 기능이 없는 경우 페더레이션에 대한 DNS A를 업데이트하여 새 Lync Server 액세스 에지 서버를 확인해야 합니다. 최소한의 중단만으로 이 작업을 수행하려면 DNS가 업데이트되어 새 Lync Server 액세스 에지 서버를 가리킬 때 페더레이션 및 원격 액세스가 신속히 업데이트되도록 외부 Lync Server 액세스 에지 FQDN에 대한 TTL 값을 낮춥니다.
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
 
 
 

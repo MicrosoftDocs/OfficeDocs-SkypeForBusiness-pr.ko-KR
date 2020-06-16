@@ -1,8 +1,8 @@
 ---
 title: '1 단계: Office Communications Server 2007 r 2에서 마이그레이션 계획'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 1: Plan your migration from Office Communications Server 2007 R2'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d10698ba2529887db108484a21b3e878ef8c7ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 15a56e2fdade4021590ce0dfb039e734ae2a76e7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189751"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

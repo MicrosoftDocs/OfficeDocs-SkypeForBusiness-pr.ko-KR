@@ -1,8 +1,8 @@
 ---
-title: 파일럿 풀을 레거시에 지 서버에 연결
+title: 레거시 에지 서버에 파일럿 풀 연결
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e48d2450d468ae6a28faef4c1fcacf577262c42f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b83877505bfc9c2accc2057a9ebb1fb62355b3d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180561"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180561"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>파일럿 풀을 레거시에 지 서버에 연결
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>레거시 에지 서버에 파일럿 풀 연결
 
 </div>
 

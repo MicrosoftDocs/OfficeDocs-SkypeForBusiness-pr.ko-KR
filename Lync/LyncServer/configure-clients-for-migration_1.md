@@ -1,8 +1,8 @@
 ---
 title: 마이그레이션을 위한 클라이언트 구성
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b63ad4dfd4b69966a6d206ab19330d7088aff434
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a8f8cfcab36c1bfa47eb8ee4a24ebe683398707
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180981"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,7 +54,7 @@ _**마지막으로 수정 된 항목:** 2013-11-21_
 
 2.  Office Communications Server 2007 R2에서 클라이언트 버전 필터링을 사용 하 여 Office Communications Server 2007 R2 클라이언트만 설치 된 최신 업데이트를 허용 하 고 로그인 합니다.
 
-3.  Office Communications Server 2007 R2에서 클라이언트 버전 필터링을 사용 하 여 Lync Server 2013 클라이언트가 로그인 하지 못하도록 차단 합니다. 다음 표에 나와 있는 버전 필터 [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) 를 추가 하려면 **클라이언트 버전 필터링 구성** 에 설명 된 단계를 수행 합니다. 각 버전 필터에 대해 **차단** 동작을 지정합니다.
+3.  Office Communications Server 2007 R2에서 클라이언트 버전 필터링을 사용 하 여 Lync Server 2013 클라이언트가 로그인 하지 못하도록 차단 합니다. 다음 표에 나와 있는 버전 필터를 추가 하려면 **클라이언트 버전 필터링 구성** 에 설명 된 단계를 수행 [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) 합니다. 각 버전 필터에 대해 **차단** 동작을 지정합니다.
     
     
     <table>
@@ -74,17 +74,17 @@ _**마지막으로 수정 된 항목:** 2013-11-21_
     <tr class="odd">
     <td><p>Lync 2013</p></td>
     <td><p>NM-OC-14-2ND</p></td>
-    <td><p>15 ...** *</p></td>
+    <td><p>15 ...*.* *</p></td>
     </tr>
     <tr class="even">
     <td><p>Lync Web App</p></td>
     <td><p>NM-CWA-NO-VERSION</p></td>
-    <td><p>5 ...** *</p></td>
+    <td><p>5 ...*.* *</p></td>
     </tr>
     <tr class="odd">
     <td><p>Lync Phone Edition</p></td>
     <td><p>Cpe-ocphone</p></td>
-    <td><p>4 ...** *</p></td>
+    <td><p>4 ...*.* *</p></td>
     </tr>
     </tbody>
     </table>
