@@ -1,8 +1,8 @@
 ---
 title: 마이그레이션 단계
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration phases
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36541a63ab36eb2c99c816904b7b03eb1a1010b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 912035b963bdd2c23b998550679b1b731add2d21
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209835"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209835"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-phases"></a><span data-ttu-id="e2bdb-102">마이그레이션 단계</span><span class="sxs-lookup"><span data-stu-id="e2bdb-102">Migration phases</span></span>
+# <a name="migration-phases"></a><span data-ttu-id="49a8c-102">마이그레이션 단계</span><span class="sxs-lookup"><span data-stu-id="49a8c-102">Migration phases</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42209835"
 
 <span> </span>
 
-<span data-ttu-id="e2bdb-103">_**마지막으로 수정 된 항목:** 2012-08-29_</span><span class="sxs-lookup"><span data-stu-id="e2bdb-103">_**Topic Last Modified:** 2012-08-29_</span></span>
+<span data-ttu-id="49a8c-103">_**마지막으로 수정 된 항목:** 2012-08-29_</span><span class="sxs-lookup"><span data-stu-id="49a8c-103">_**Topic Last Modified:** 2012-08-29_</span></span>
 
-<span data-ttu-id="e2bdb-104">다음 단계에서는 Office Communications Server 2007 R2에서 Lync Server 2013로의 풀 마이그레이션 프로세스에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="e2bdb-104">The following phases describe the process of a pool migration from Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
+<span data-ttu-id="49a8c-104">다음 단계에서는 Office Communications Server 2007 R2에서 Lync Server 2013로의 풀 마이그레이션 프로세스에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="49a8c-104">The following phases describe the process of a pool migration from Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
 
-  - [<span data-ttu-id="e2bdb-105">1 단계: Office Communications Server 2007 r 2에서 마이그레이션 계획</span><span class="sxs-lookup"><span data-stu-id="e2bdb-105">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
+  - [<span data-ttu-id="49a8c-105">1 단계: Office Communications Server 2007 r 2에서 마이그레이션 계획</span><span class="sxs-lookup"><span data-stu-id="49a8c-105">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [<span data-ttu-id="e2bdb-106">2 단계: 마이그레이션 준비</span><span class="sxs-lookup"><span data-stu-id="e2bdb-106">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration_1.md)
+  - [<span data-ttu-id="49a8c-106">2단계: 마이그레이션 준비</span><span class="sxs-lookup"><span data-stu-id="49a8c-106">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration_1.md)
 
-  - [<span data-ttu-id="e2bdb-107">3 단계: Lync Server 2013 파일럿 풀 배포</span><span class="sxs-lookup"><span data-stu-id="e2bdb-107">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [<span data-ttu-id="49a8c-107">3 단계: Lync Server 2013 파일럿 풀 배포</span><span class="sxs-lookup"><span data-stu-id="49a8c-107">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [<span data-ttu-id="e2bdb-108">4 단계: 토폴로지 병합</span><span class="sxs-lookup"><span data-stu-id="e2bdb-108">Phase 4: Merge topologies</span></span>](phase-4-merge-topologies.md)
+  - [<span data-ttu-id="49a8c-108">4 단계: 토폴로지 병합</span><span class="sxs-lookup"><span data-stu-id="49a8c-108">Phase 4: Merge topologies</span></span>](phase-4-merge-topologies.md)
 
-  - [<span data-ttu-id="e2bdb-109">단계 5: 파일럿 풀 구성</span><span class="sxs-lookup"><span data-stu-id="e2bdb-109">Phase 5: Configure the pilot pool</span></span>](phase-5-configure-the-pilot-pool.md)
+  - [<span data-ttu-id="49a8c-109">단계 5: 파일럿 풀 구성</span><span class="sxs-lookup"><span data-stu-id="49a8c-109">Phase 5: Configure the pilot pool</span></span>](phase-5-configure-the-pilot-pool.md)
 
-  - [<span data-ttu-id="e2bdb-110">단계 6: 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="e2bdb-110">Phase 6: Move users to the pilot pool</span></span>](phase-6-move-users-to-the-pilot-pool.md)
+  - [<span data-ttu-id="49a8c-110">단계 6: 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="49a8c-110">Phase 6: Move users to the pilot pool</span></span>](phase-6-move-users-to-the-pilot-pool.md)
 
-  - [<span data-ttu-id="e2bdb-111">단계 7: 파일럿 풀에 Lync Server 2013에 지 서버 추가</span><span class="sxs-lookup"><span data-stu-id="e2bdb-111">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [<span data-ttu-id="49a8c-111">단계 7: 파일럿 풀에 Lync Server 2013에 지 서버 추가</span><span class="sxs-lookup"><span data-stu-id="49a8c-111">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [<span data-ttu-id="e2bdb-112">8 단계: 파일럿 배포에서 프로덕션으로 이동</span><span class="sxs-lookup"><span data-stu-id="e2bdb-112">Phase 8: Move from pilot deployment into production</span></span>](phase-8-move-from-pilot-deployment-into-production.md)
+  - [<span data-ttu-id="49a8c-112">8 단계: 파일럿 배포에서 프로덕션으로 이동</span><span class="sxs-lookup"><span data-stu-id="49a8c-112">Phase 8: Move from pilot deployment into production</span></span>](phase-8-move-from-pilot-deployment-into-production.md)
 
-  - [<span data-ttu-id="e2bdb-113">단계 9: 마이그레이션 후 작업 완료</span><span class="sxs-lookup"><span data-stu-id="e2bdb-113">Phase 9: Complete post-migration tasks</span></span>](phase-9-complete-post-migration-tasks.md)
+  - [<span data-ttu-id="49a8c-113">단계 9: 마이그레이션 후 작업 완료</span><span class="sxs-lookup"><span data-stu-id="49a8c-113">Phase 9: Complete post-migration tasks</span></span>](phase-9-complete-post-migration-tasks.md)
 
-  - [<span data-ttu-id="e2bdb-114">단계 10: 레거시 사이트 해제</span><span class="sxs-lookup"><span data-stu-id="e2bdb-114">Phase 10: Decommission legacy site</span></span>](phase-10-decommission-legacy-site.md)
+  - [<span data-ttu-id="49a8c-114">단계 10: 레거시 사이트 해제</span><span class="sxs-lookup"><span data-stu-id="49a8c-114">Phase 10: Decommission legacy site</span></span>](phase-10-decommission-legacy-site.md)
 
 </div>
 

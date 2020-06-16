@@ -1,8 +1,8 @@
 ---
 title: 마이그레이션 단계
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration phases
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d8101e5dee47699421ed83effed3c578c96bfda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19594eb5f0e7c2847dfbbf41795574c01b67d0be
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189981"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189981"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-phases"></a><span data-ttu-id="a051e-102">마이그레이션 단계</span><span class="sxs-lookup"><span data-stu-id="a051e-102">Migration phases</span></span>
+# <a name="migration-phases"></a><span data-ttu-id="f70d0-102">마이그레이션 단계</span><span class="sxs-lookup"><span data-stu-id="f70d0-102">Migration phases</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42189981"
 
 <span> </span>
 
-<span data-ttu-id="a051e-103">_**마지막으로 수정 된 항목:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="a051e-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="f70d0-103">_**마지막으로 수정 된 항목:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="f70d0-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="a051e-104">Lync Server 2013에서는 Lync Server 2013 구성 요소를 포함 하는 네트워크의 사이트를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="a051e-104">In Lync Server 2013, you define sites on your network that contain Lync Server 2013 components.</span></span> <span data-ttu-id="a051e-105">사이트는 단일 LAN(Local Area Network)이나 고속 광섬유 네트워크로 연결된 두 개의 네트워크와 같이 고속, 저지연 네트워크로 견고하게 연결된 컴퓨터 집합입니다.</span><span class="sxs-lookup"><span data-stu-id="a051e-105">A site is a set of computers that are well-connected by a high-speed, low-latency network, such as a single local area network (LAN) or two networks connected by a high-speed fiber optic network.</span></span>
+<span data-ttu-id="f70d0-104">Lync Server 2013에서는 Lync Server 2013 구성 요소를 포함 하는 네트워크의 사이트를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="f70d0-104">In Lync Server 2013, you define sites on your network that contain Lync Server 2013 components.</span></span> <span data-ttu-id="f70d0-105">사이트는 단일 LAN(Local Area Network)이나 고속 광섬유 네트워크로 연결된 두 개의 네트워크와 같이 고속, 저지연 네트워크로 견고하게 연결된 컴퓨터 집합입니다.</span><span class="sxs-lookup"><span data-stu-id="f70d0-105">A site is a set of computers that are well-connected by a high-speed, low-latency network, such as a single local area network (LAN) or two networks connected by a high-speed fiber optic network.</span></span>
 
-<span data-ttu-id="a051e-106">*프런트 엔드 풀*은 동일하게 구성된 프런트 엔드 서버 집합으로서, 이러한 서버가 함께 작동하여 일반 사용자 그룹에 대한 서비스를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="a051e-106">A *Front End pool* is a set of Front End Servers that are configured identically and work together to provide services for a common group of users.</span></span> <span data-ttu-id="a051e-107">풀은 사용자에게 확장성 및 장애 조치 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="a051e-107">A pool provides scalability and failover capability to your users.</span></span> <span data-ttu-id="a051e-108">풀의 각 서버는 동일한 서버 역할을 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a051e-108">Each server in a pool must run an identical server role or roles.</span></span> <span data-ttu-id="a051e-109">소규모 조직을 위해 설계 된 Standard Edition 서버는 풀을 정의 하 고 단일 서버에서 실행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a051e-109">A Standard Edition server, designed for small organizations, also defines a pool and runs on a single server.</span></span> <span data-ttu-id="a051e-110">이를 통해 Lync Server 2013 기능을 저렴 한 비용으로 사용할 수 있지만, 진정한 고가용성 솔루션은 제공 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a051e-110">This enables you to have Lync Server 2013 functionality for a lesser cost, but does not provide a true high-availability solution.</span></span>
+<span data-ttu-id="f70d0-106">*프런트 엔드 풀*은 동일하게 구성된 프런트 엔드 서버 집합으로서, 이러한 서버가 함께 작동하여 일반 사용자 그룹에 대한 서비스를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f70d0-106">A *Front End pool* is a set of Front End Servers that are configured identically and work together to provide services for a common group of users.</span></span> <span data-ttu-id="f70d0-107">풀은 사용자에게 확장성 및 장애 조치 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f70d0-107">A pool provides scalability and failover capability to your users.</span></span> <span data-ttu-id="f70d0-108">풀의 각 서버는 동일한 서버 역할을 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f70d0-108">Each server in a pool must run an identical server role or roles.</span></span> <span data-ttu-id="f70d0-109">소규모 조직을 위해 설계 된 Standard Edition 서버는 풀을 정의 하 고 단일 서버에서 실행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f70d0-109">A Standard Edition server, designed for small organizations, also defines a pool and runs on a single server.</span></span> <span data-ttu-id="f70d0-110">이를 통해 Lync Server 2013 기능을 저렴 한 비용으로 사용할 수 있지만, 진정한 고가용성 솔루션은 제공 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f70d0-110">This enables you to have Lync Server 2013 functionality for a lesser cost, but does not provide a true high-availability solution.</span></span>
 
-<span data-ttu-id="a051e-111">다음 단계에서는 Lync Server 2010에서 Lync Server 2013로의 풀 마이그레이션 프로세스에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="a051e-111">The following phases describe the process of a pool migration from Lync Server 2010 to Lync Server 2013.</span></span> <span data-ttu-id="a051e-112">여러 풀을 포함하는 다중 사이트의 경우 각각의 개별 풀에서 이러한 단계별 접근 방식을 따라야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a051e-112">For multiple sites containing multiple pools, each individual pool should follow this phased approach.</span></span>
+<span data-ttu-id="f70d0-111">다음 단계에서는 Lync Server 2010에서 Lync Server 2013로의 풀 마이그레이션 프로세스에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="f70d0-111">The following phases describe the process of a pool migration from Lync Server 2010 to Lync Server 2013.</span></span> <span data-ttu-id="f70d0-112">여러 풀을 포함하는 다중 사이트의 경우 각각의 개별 풀에서 이러한 단계별 접근 방식을 따라야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f70d0-112">For multiple sites containing multiple pools, each individual pool should follow this phased approach.</span></span>
 
-1.  [<span data-ttu-id="a051e-113">1 단계: Lync Server 2010에서 마이그레이션 계획</span><span class="sxs-lookup"><span data-stu-id="a051e-113">Phase 1: Plan your migration from Lync Server 2010</span></span>](phase-1-plan-your-migration-from-lync-server-2010.md)
+1.  [<span data-ttu-id="f70d0-113">1 단계: Lync Server 2010에서 마이그레이션 계획</span><span class="sxs-lookup"><span data-stu-id="f70d0-113">Phase 1: Plan your migration from Lync Server 2010</span></span>](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-2.  [<span data-ttu-id="a051e-114">2 단계: 마이그레이션 준비</span><span class="sxs-lookup"><span data-stu-id="a051e-114">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration.md)
+2.  [<span data-ttu-id="f70d0-114">2단계: 마이그레이션 준비</span><span class="sxs-lookup"><span data-stu-id="f70d0-114">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration.md)
 
-3.  [<span data-ttu-id="a051e-115">3 단계: Lync Server 2013 파일럿 풀 배포</span><span class="sxs-lookup"><span data-stu-id="a051e-115">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool.md)
+3.  [<span data-ttu-id="f70d0-115">3 단계: Lync Server 2013 파일럿 풀 배포</span><span class="sxs-lookup"><span data-stu-id="f70d0-115">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
-4.  [<span data-ttu-id="a051e-116">4 단계: 테스트 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="a051e-116">Phase 4: Move test users to the pilot pool</span></span>](phase-4-move-test-users-to-the-pilot-pool.md)
+4.  [<span data-ttu-id="f70d0-116">4 단계: 테스트 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="f70d0-116">Phase 4: Move test users to the pilot pool</span></span>](phase-4-move-test-users-to-the-pilot-pool.md)
 
-5.  [<span data-ttu-id="a051e-117">단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가</span><span class="sxs-lookup"><span data-stu-id="a051e-117">Phase 5: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
+5.  [<span data-ttu-id="f70d0-117">단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가</span><span class="sxs-lookup"><span data-stu-id="f70d0-117">Phase 5: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-6.  [<span data-ttu-id="a051e-118">6 단계: 파일럿 배포에서 프로덕션으로 이동</span><span class="sxs-lookup"><span data-stu-id="a051e-118">Phase 6: Move from pilot deployment into production</span></span>](phase-6-move-from-pilot-deployment-into-production.md)
+6.  [<span data-ttu-id="f70d0-118">6단계: 파일럿 배포에서 프로덕션으로 이동</span><span class="sxs-lookup"><span data-stu-id="f70d0-118">Phase 6: Move from pilot deployment into production</span></span>](phase-6-move-from-pilot-deployment-into-production.md)
 
-7.  [<span data-ttu-id="a051e-119">단계 7: 마이그레이션 후 작업 완료</span><span class="sxs-lookup"><span data-stu-id="a051e-119">Phase 7: Complete post-migration tasks</span></span>](phase-7-complete-post-migration-tasks.md)
+7.  [<span data-ttu-id="f70d0-119">7단계: 마이그레이션 후 작업 완료</span><span class="sxs-lookup"><span data-stu-id="f70d0-119">Phase 7: Complete post-migration tasks</span></span>](phase-7-complete-post-migration-tasks.md)
 
-8.  [<span data-ttu-id="a051e-120">8 단계: 레거시 풀 해제</span><span class="sxs-lookup"><span data-stu-id="a051e-120">Phase 8: Decommission legacy pools</span></span>](phase-8-decommission-legacy-pools.md)
+8.  [<span data-ttu-id="f70d0-120">8단계: 레거시 풀 해제</span><span class="sxs-lookup"><span data-stu-id="f70d0-120">Phase 8: Decommission legacy pools</span></span>](phase-8-decommission-legacy-pools.md)
 
 </div>
 

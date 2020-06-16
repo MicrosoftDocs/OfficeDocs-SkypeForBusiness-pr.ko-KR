@@ -1,8 +1,8 @@
 ---
 title: '4 단계: 테스트 사용자를 파일럿 풀로 이동'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 4: Move test users to the pilot pool'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184208
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3063b1f30bd7c63b35eb62f0bdbfdf0097a795ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 50077f7438be8a6b7e620b8bb8dcac12c0bd2e07
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209704"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209704"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-4-move-test-users-to-the-pilot-pool"></a><span data-ttu-id="d4dac-102">4 단계: 테스트 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="d4dac-102">Phase 4: Move test users to the pilot pool</span></span>
+# <a name="phase-4-move-test-users-to-the-pilot-pool"></a><span data-ttu-id="f74a1-102">4 단계: 테스트 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="f74a1-102">Phase 4: Move test users to the pilot pool</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42209704"
 
 <span> </span>
 
-<span data-ttu-id="d4dac-103">_**마지막으로 수정 된 항목:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="d4dac-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="f74a1-103">_**마지막으로 수정 된 항목:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="f74a1-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="d4dac-104">Lync Server 제어판과 Lync Server 관리 셸 두 가지 방법을 사용 하 여 단일 사용자 또는 사용자 그룹을 새 Microsoft Lync Server 2013 배포로 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d4dac-104">You can move a single user or groups of users to your new Microsoft Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="d4dac-105">이 섹션의 항목에서는 파일럿 배포 중에 수행 해야 하는 작업에 대해 설명 하 고, 파일럿 배포에서 프로덕션 수준의 배포로 Lync Server 2013의 배포를 이동 하기 전까지,</span><span class="sxs-lookup"><span data-stu-id="d4dac-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="f74a1-104">Lync Server 제어판과 Lync Server 관리 셸 두 가지 방법을 사용 하 여 단일 사용자 또는 사용자 그룹을 새 Microsoft Lync Server 2013 배포로 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f74a1-104">You can move a single user or groups of users to your new Microsoft Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="f74a1-105">이 섹션의 항목에서는 파일럿 배포 중에 수행 해야 하는 작업에 대해 설명 하 고, 파일럿 배포에서 프로덕션 수준의 배포로 Lync Server 2013의 배포를 이동 하기 전까지,</span><span class="sxs-lookup"><span data-stu-id="f74a1-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d4dac-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="d4dac-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f74a1-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="f74a1-106">In This Section</span></span>
 
-  - [<span data-ttu-id="d4dac-107">Lync Server 2010 풀의 현재 사용자 보기</span><span class="sxs-lookup"><span data-stu-id="d4dac-107">View current users in Lync Server 2010 pool</span></span>](view-current-users-in-lync-server-2010-pool.md)
+  - [<span data-ttu-id="f74a1-107">Lync Server 2010 풀의 현재 사용자 보기</span><span class="sxs-lookup"><span data-stu-id="f74a1-107">View current users in Lync Server 2010 pool</span></span>](view-current-users-in-lync-server-2010-pool.md)
 
-  - [<span data-ttu-id="d4dac-108">사용자 복제가 완료 되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="d4dac-108">Verify user replication has completed</span></span>](verify-user-replication-has-completed.md)
+  - [<span data-ttu-id="f74a1-108">사용자 복제가 완료되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="f74a1-108">Verify user replication has completed</span></span>](verify-user-replication-has-completed.md)
 
-  - [<span data-ttu-id="d4dac-109">파일럿 풀로 단일 사용자 이동</span><span class="sxs-lookup"><span data-stu-id="d4dac-109">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool.md)
+  - [<span data-ttu-id="f74a1-109">파일럿 풀로 단일 사용자 이동</span><span class="sxs-lookup"><span data-stu-id="f74a1-109">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool.md)
 
-  - [<span data-ttu-id="d4dac-110">여러 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="d4dac-110">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool.md)
+  - [<span data-ttu-id="f74a1-110">여러 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="f74a1-110">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool.md)
 
 </div>
 
