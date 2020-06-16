@@ -1,8 +1,8 @@
 ---
 title: 시스템 및 데이터 백업
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5883be7a15e780ea8a804b51e54aa9d43992e775
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9146b854b7710df8342739c250ee75848e9a1d26
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181131"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755348"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42181131"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="82c84-102">시스템 및 데이터 백업</span><span class="sxs-lookup"><span data-stu-id="82c84-102">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="e9739-102">시스템 및 데이터 백업</span><span class="sxs-lookup"><span data-stu-id="e9739-102">Back up systems and data</span></span>
 
 </div>
 
@@ -36,9 +36,9 @@ ms.locfileid: "42181131"
 
 <span> </span>
 
-<span data-ttu-id="82c84-103">_**마지막으로 수정 된 항목:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="82c84-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="e9739-103">_**마지막으로 수정 된 항목:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="e9739-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="82c84-104">Lync Server 2013로의 마이그레이션을 시작 하기 전에 전체 시스템 백업을 수행 하 고 각 풀에 있는 사용자 계정 인벤토리를 포함 하 여 기존 시스템을 문서화 하 여 Office 통신으로 롤백할 수 있도록 하는 것이 좋습니다. 서버 2007 R2 (필요한 경우)</span><span class="sxs-lookup"><span data-stu-id="82c84-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Office Communications Server 2007 R2 if it becomes necessary.</span></span> <span data-ttu-id="82c84-105">데이터, 설정, 시스템 백업 및 복원에는 여러 도구 및 프로그램을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="82c84-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span> <span data-ttu-id="82c84-106">자세한 내용과 절차에 대 한 자세한 내용은의 "Office Communications Server 2007 R2 백업 및 복원 <https://go.microsoft.com/fwlink/p/?linkid=168162>가이드"를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="82c84-106">For details and procedures, see "Office Communications Server 2007 R2 Backup and Restoration Guide" at <https://go.microsoft.com/fwlink/p/?linkid=168162>.</span></span>
+<span data-ttu-id="e9739-104">Lync Server 2013로의 마이그레이션을 시작 하기 전에 전체 시스템 백업을 수행 하 고 각 풀에 있는 사용자 계정 인벤토리를 포함 하 여 기존 시스템을 문서화 하 여 필요한 경우 Office Communications Server 2007 r 2로 롤백할 수 있도록 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="e9739-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Office Communications Server 2007 R2 if it becomes necessary.</span></span> <span data-ttu-id="e9739-105">데이터, 설정, 시스템 백업 및 복원에는 여러 도구 및 프로그램을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e9739-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span> <span data-ttu-id="e9739-106">자세한 내용과 절차에 대 한 자세한 내용은의 "Office Communications Server 2007 R2 백업 및 복원 가이드"를 참조 하십시오 <https://go.microsoft.com/fwlink/p/?linkid=168162> .</span><span class="sxs-lookup"><span data-stu-id="e9739-106">For details and procedures, see "Office Communications Server 2007 R2 Backup and Restoration Guide" at <https://go.microsoft.com/fwlink/p/?linkid=168162>.</span></span>
 
 </div>
 

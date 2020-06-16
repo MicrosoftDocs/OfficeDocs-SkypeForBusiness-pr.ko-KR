@@ -1,8 +1,8 @@
 ---
-title: '2 단계: 마이그레이션 준비'
+title: '2단계: 마이그레이션 준비'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 2: Prepare for migration'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6f55ef2f7db41022dbf1a3d39e6baece47c377f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0687c32890d149672fd71a59d6a64206b99af384
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189741"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189741"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a><span data-ttu-id="01cd8-102">2 단계: 마이그레이션 준비</span><span class="sxs-lookup"><span data-stu-id="01cd8-102">Phase 2: Prepare for migration</span></span>
+# <a name="phase-2-prepare-for-migration"></a><span data-ttu-id="a9a28-102">2단계: 마이그레이션 준비</span><span class="sxs-lookup"><span data-stu-id="a9a28-102">Phase 2: Prepare for migration</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42189741"
 
 <span> </span>
 
-<span data-ttu-id="01cd8-103">_**마지막으로 수정 된 항목:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="01cd8-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="a9a28-103">_**마지막으로 수정 된 항목:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="a9a28-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="01cd8-104">Lync Server 2010에서 Lync Server 2013로의 마이그레이션을 시작 하기 전에이 섹션에서 설명 하는 단계를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="01cd8-104">Before you begin your migration to Lync Server 2013 from Lync Server 2010, follow the steps described in this section.</span></span>
+<span data-ttu-id="a9a28-104">Lync Server 2010에서 Lync Server 2013로의 마이그레이션을 시작 하기 전에이 섹션에서 설명 하는 단계를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="a9a28-104">Before you begin your migration to Lync Server 2013 from Lync Server 2010, follow the steps described in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="01cd8-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="01cd8-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a9a28-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="a9a28-105">In This Section</span></span>
 
-  - [<span data-ttu-id="01cd8-106">Lync Server 2010 업데이트 적용</span><span class="sxs-lookup"><span data-stu-id="01cd8-106">Apply Lync Server 2010 updates</span></span>](apply-lync-server-2010-updates.md)
+  - [<span data-ttu-id="a9a28-106">Lync Server 2010 업데이트 적용</span><span class="sxs-lookup"><span data-stu-id="a9a28-106">Apply Lync Server 2010 updates</span></span>](apply-lync-server-2010-updates.md)
 
-  - [<span data-ttu-id="01cd8-107">파일럿 풀 배포를 위한 DNS 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="01cd8-107">Configure DNS records for pilot pool deployment</span></span>](configure-dns-records-for-pilot-pool-deployment.md)
+  - [<span data-ttu-id="a9a28-107">파일럿 풀 배포에 대한 DNS 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="a9a28-107">Configure DNS records for pilot pool deployment</span></span>](configure-dns-records-for-pilot-pool-deployment.md)
 
-  - [<span data-ttu-id="01cd8-108">모범 사례 분석기 실행</span><span class="sxs-lookup"><span data-stu-id="01cd8-108">Run Best Practices Analyzer</span></span>](run-best-practices-analyzer.md)
+  - [<span data-ttu-id="a9a28-108">모범 사례 분석기 실행</span><span class="sxs-lookup"><span data-stu-id="a9a28-108">Run Best Practices Analyzer</span></span>](run-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="01cd8-109">시스템 및 데이터 백업</span><span class="sxs-lookup"><span data-stu-id="01cd8-109">Back up systems and data</span></span>](back-up-systems-and-data.md)
+  - [<span data-ttu-id="a9a28-109">시스템 및 데이터 백업</span><span class="sxs-lookup"><span data-stu-id="a9a28-109">Back up systems and data</span></span>](back-up-systems-and-data.md)
 
-  - [<span data-ttu-id="01cd8-110">마이그레이션을 위한 클라이언트 구성</span><span class="sxs-lookup"><span data-stu-id="01cd8-110">Configure clients for migration</span></span>](configure-clients-for-migration.md)
+  - [<span data-ttu-id="a9a28-110">마이그레이션을 위한 클라이언트 구성</span><span class="sxs-lookup"><span data-stu-id="a9a28-110">Configure clients for migration</span></span>](configure-clients-for-migration.md)
 
-  - [<span data-ttu-id="01cd8-111">Lync Server 2010 환경 확인</span><span class="sxs-lookup"><span data-stu-id="01cd8-111">Verify Lync Server 2010 environment</span></span>](verify-lync-server-2010-environment.md)
+  - [<span data-ttu-id="a9a28-111">Lync Server 2010 환경 확인</span><span class="sxs-lookup"><span data-stu-id="a9a28-111">Verify Lync Server 2010 environment</span></span>](verify-lync-server-2010-environment.md)
 
 </div>
 

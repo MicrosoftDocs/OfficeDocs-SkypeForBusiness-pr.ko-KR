@@ -1,8 +1,8 @@
 ---
 title: Windows PowerShell cmdlet을 사용 하 여 영구 채팅 서버 구성
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configuring Persistent Chat Server by using Windows PowerShell cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a5e31494cbea5c622d89d82eb1da63e231d9fd6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 87fcd7a5af75d5a98765f6a39d793e5a28b03718
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180601"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754456"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180601"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="2f4a3-102">Windows PowerShell cmdlet을 사용 하 여 영구 채팅 서버 구성</span><span class="sxs-lookup"><span data-stu-id="2f4a3-102">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</span></span>
+# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="47459-102">Windows PowerShell cmdlet을 사용 하 여 영구 채팅 서버 구성</span><span class="sxs-lookup"><span data-stu-id="47459-102">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "42180601"
 
 <span> </span>
 
-<span data-ttu-id="2f4a3-103">_**마지막으로 수정 된 항목:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="2f4a3-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="47459-103">_**마지막으로 수정 된 항목:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="47459-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="2f4a3-104">Lync Server 2013, 영구 채팅 서버 내에서 관리를 구성 하려면 다음 Windows PowerShell cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="2f4a3-104">Use the following Windows PowerShell cmdlets to configure management within Lync Server 2013, Persistent Chat Server.</span></span>
+<span data-ttu-id="47459-104">Lync Server 2013, 영구 채팅 서버 내에서 관리를 구성 하려면 다음 Windows PowerShell cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="47459-104">Use the following Windows PowerShell cmdlets to configure management within Lync Server 2013, Persistent Chat Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2f4a3-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="2f4a3-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="47459-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="47459-105">In This Section</span></span>
 
-  - [<span data-ttu-id="2f4a3-106">종류 관리</span><span class="sxs-lookup"><span data-stu-id="2f4a3-106">Manage categories</span></span>](manage-categories.md)
+  - [<span data-ttu-id="47459-106">종류 관리</span><span class="sxs-lookup"><span data-stu-id="47459-106">Manage categories</span></span>](manage-categories.md)
 
-  - [<span data-ttu-id="2f4a3-107">대화방 관리</span><span class="sxs-lookup"><span data-stu-id="2f4a3-107">Manage rooms</span></span>](manage-rooms.md)
+  - [<span data-ttu-id="47459-107">대화방 관리</span><span class="sxs-lookup"><span data-stu-id="47459-107">Manage rooms</span></span>](manage-rooms.md)
 
-  - [<span data-ttu-id="2f4a3-108">추가 기능 관리</span><span class="sxs-lookup"><span data-stu-id="2f4a3-108">Manage add-ins</span></span>](manage-add-ins.md)
+  - [<span data-ttu-id="47459-108">추가 기능 관리</span><span class="sxs-lookup"><span data-stu-id="47459-108">Manage add-ins</span></span>](manage-add-ins.md)
 
-  - [<span data-ttu-id="2f4a3-109">메시지 제거</span><span class="sxs-lookup"><span data-stu-id="2f4a3-109">Remove a message</span></span>](remove-a-message.md)
+  - [<span data-ttu-id="47459-109">메시지 제거</span><span class="sxs-lookup"><span data-stu-id="47459-109">Remove a message</span></span>](remove-a-message.md)
 
-  - [<span data-ttu-id="2f4a3-110">가상 트랜잭션으로 영구 채팅 서버 테스트</span><span class="sxs-lookup"><span data-stu-id="2f4a3-110">Test Persistent Chat Server with a synthetic transaction</span></span>](test-persistent-chat-server-with-a-synthetic-transaction.md)
+  - [<span data-ttu-id="47459-110">가상 트랜잭션으로 영구 채팅 서버 테스트</span><span class="sxs-lookup"><span data-stu-id="47459-110">Test Persistent Chat Server with a synthetic transaction</span></span>](test-persistent-chat-server-with-a-synthetic-transaction.md)
 
-  - [<span data-ttu-id="2f4a3-111">영구 채팅 서버에 대 한 이전 버전과의 호환성을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="2f4a3-111">Run backward compatibility for Persistent Chat Server</span></span>](run-backward-compatibility-for-persistent-chat-server.md)
+  - [<span data-ttu-id="47459-111">영구 채팅 서버에 대 한 이전 버전과의 호환성을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="47459-111">Run backward compatibility for Persistent Chat Server</span></span>](run-backward-compatibility-for-persistent-chat-server.md)
 
-  - [<span data-ttu-id="2f4a3-112">Lync Server 2013에서 영구 채팅 정책 실행, 부여, 가져오기, 제거 또는 설정</span><span class="sxs-lookup"><span data-stu-id="2f4a3-112">Run, grant, get, remove, or set Persistent Chat Policy in Lync Server 2013</span></span>](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
+  - [<span data-ttu-id="47459-112">Lync Server 2013에서 영구 채팅 정책 실행, 부여, 가져오기, 제거 또는 설정</span><span class="sxs-lookup"><span data-stu-id="47459-112">Run, grant, get, remove, or set Persistent Chat Policy in Lync Server 2013</span></span>](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
 
-  - [<span data-ttu-id="2f4a3-113">Lync Server 2013에서 영구 채팅 서버 구성</span><span class="sxs-lookup"><span data-stu-id="2f4a3-113">Configure Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-configure-persistent-chat-server.md)
+  - [<span data-ttu-id="47459-113">Lync Server 2013에서 영구 채팅 서버 구성</span><span class="sxs-lookup"><span data-stu-id="47459-113">Configure Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-configure-persistent-chat-server.md)
 
-  - [<span data-ttu-id="2f4a3-114">Lync Server 2013에서 영구 채팅 서버 풀 가용성 받기</span><span class="sxs-lookup"><span data-stu-id="2f4a3-114">Get Persistent Chat Server pool availability in Lync Server 2013</span></span>](lync-server-2013-get-persistent-chat-server-pool-availability.md)
+  - [<span data-ttu-id="47459-114">Lync Server 2013에서 영구 채팅 서버 풀 가용성 받기</span><span class="sxs-lookup"><span data-stu-id="47459-114">Get Persistent Chat Server pool availability in Lync Server 2013</span></span>](lync-server-2013-get-persistent-chat-server-pool-availability.md)
 
-  - [<span data-ttu-id="2f4a3-115">Lync Server 2013의 영구 채팅 준수</span><span class="sxs-lookup"><span data-stu-id="2f4a3-115">Persistent Chat compliance in Lync Server 2013</span></span>](lync-server-2013-persistent-chat-compliance.md)
+  - [<span data-ttu-id="47459-115">Lync Server 2013의 영구 채팅 준수</span><span class="sxs-lookup"><span data-stu-id="47459-115">Persistent Chat compliance in Lync Server 2013</span></span>](lync-server-2013-persistent-chat-compliance.md)
 
 </div>
 
