@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: 비즈니스용 Skype 서버 2019에 대 한 가상화 지원에 대해 알아봅니다.'
-ms.openlocfilehash: a01f529d80e84df3f7ca844696738b079f78df26
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: b4524b1284a85e7ab372b415d45c2005f8212887
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565957"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755812"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에 대 한 가상화 지원
 
@@ -42,3 +42,13 @@ SfB 서버 2019는 Windows Server 2016 및 Windows Server 2019에서 지원 됩�
 
 - SVVP 목록에서 [Windows Server 2016 버전](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) 을 참조 하십시오.
 - SVVP 목록에서 [Windows Server 2019 버전](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) 을 참조 하십시오.
+
+## <a name="stress-and-performance-tool"></a>스트레스 및 성능 도구
+
+비즈니스용 skype 서버 2019 스트레스 및 성능 도구에는 비즈니스용 Skype 서버 2019에 대 한 용량 계획을 간소화 하는 도구가 포함 되어 있습니다. 비즈니스용 Skype 서버 2019 스트레스 및 성능 도구는 다음 작업을 수행 하는 데 도움이 됩니다.
+
+- 비즈니스용 Skype 서버 2019에 대 한 하드웨어 계획 간소화
+- 성능 조정에 대 한 향상 된 지식과 모범 사례 제공
+- 예정 된 Skype for Business Server 2019 배포의 성능 측정
+ 
+이 도구는 [여기](https://www.microsoft.com/download/details.aspx?id=101447)에서 다운로드할 수 있습니다.

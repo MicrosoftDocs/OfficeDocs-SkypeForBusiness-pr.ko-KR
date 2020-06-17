@@ -1,8 +1,8 @@
 ---
 title: 마이그레이션을 위한 클라이언트 구성
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 항목에는 비즈니스용 Skype 서버 2019로 마이그레이션하기 전에 수행 해야 하는 권장 클라이언트 배포 단계가 포함 되어 있습니다. 이러한 구성 변경은 Lync Server 2013 또는 비즈니스용 Skype 서버 2015에서 수행 해야 합니다.
-ms.openlocfilehash: ad3ed4f34409b5ba730d79c24db65092802572db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fd630898d064c8ba079f87ce571e73de8cf0aaf9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986093"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754068"
 ---
 # <a name="configure-clients-for-migration"></a>마이그레이션을 위한 클라이언트 구성
 

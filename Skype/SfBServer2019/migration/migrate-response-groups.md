@@ -1,8 +1,8 @@
 ---
 title: 응답 그룹 마이그레이션
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 사용자를 비즈니스용 Skype 서버 2019 풀로 이동한 후에는 응답 그룹을 마이그레이션할 수 있습니다. 응답 그룹을 마이그레이션하면 레거시 배포에서 비즈니스용 Skype 서버 2019 풀로 에이전트 그룹, 큐, 워크플로, 오디오 파일 및 이동 응답 그룹 대화 상대 개체를 복사 하는 작업이 포함 됩니다. 레거시 응답 그룹을 마이그레이션한 후에는 응답 그룹에 대 한 통화를 비즈니스용 Skype 서버 2019 풀의 응답 그룹 응용 프로그램에서 처리 합니다. 응답 그룹에 대한 호출은 더 이상 레거시 풀에서 처리되지 않습니다.
-ms.openlocfilehash: 2d439462fa103cc16fd7ae70b79364be7d79803a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03b0ffd900b5d7c23dd6ff680d56c0c4db53d8dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42016109"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752680"
 ---
 # <a name="migrate-response-groups"></a>응답 그룹 마이그레이션
 
@@ -40,7 +40,7 @@ ms.locfileid: "42016109"
 응답 그룹을 마이그레이션할 때 레거시 응답 그룹은 제거 되지 않습니다. 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용 하 여 마이그레이션 후에 응답 그룹을 관리 하는 경우 레거시 응답 그룹과 비즈니스용 Skype 서버 2019 응답 그룹을 둘 다 볼 수 있습니다. 비즈니스용 Skype 서버 2019 응답 그룹에만 업데이트를 적용 해야 합니다. 레거시 응답 그룹은 롤백 목적 으로만 보존 됩니다. 
   
 > [!CAUTION]
-> 마이그레이션이 완료 되 고 새 응답 그룹이 만들어진 후 비즈니스용 Skype 서버 제어판 및 비즈니스용 Skype 서버 관리 셸에서 각 응답의 레거시 및 비즈니스용 Skype 서버 2019 버전이 표시 됩니다. 여러. 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용 하 여 레거시 응답 그룹을 제거 하지 마십시오. 하나를 제거 하면 마이그레이션 중에 만들어진 해당 하는 응답 그룹이 작동을 멈춥니다. 레거시 풀을 해제 하면 레거시 응답 그룹이 제거 됩니다. 
+> 마이그레이션이 완료 되 고 새 응답 그룹이 만들어진 후 비즈니스용 Skype 서버 제어판 및 비즈니스용 Skype 서버 관리 셸에서 각 응답 그룹의 레거시 및 비즈니스용 Skype 서버 2019 버전이 표시 됩니다. 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용 하 여 레거시 응답 그룹을 제거 하지 마십시오. 하나를 제거 하면 마이그레이션 중에 만들어진 해당 하는 응답 그룹이 작동을 멈춥니다. 레거시 풀을 해제 하면 레거시 응답 그룹이 제거 됩니다. 
   
 > [!IMPORTANT]
 > 풀을 해제하기 전까지는 이전 배포에서 어떠한 데이터도 제거하지 않는 것이 좋습니다. 또한 마이그레이션 직후 응답 그룹을 내보내는 것이 좋습니다. 레거시 응답 그룹을 제거 해야 하는 경우에는 백업에서 응답 그룹을 복원 하 여 비즈니스용 Skype 서버 2019 응답 그룹을 다시 실행할 수 있습니다. 

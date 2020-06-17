@@ -1,8 +1,8 @@
 ---
-title: Sba (survivable 분기 기기 연결
+title: SBA(Survivable Branch Appliance) 연결
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 모든 SBA(Survivable Branch Appliance)는 SBA용 백업 고급 등록자로 작동하는 프런트 엔드 풀과 연결됩니다. 프런트 엔드 풀이 비즈니스용 Skype 서버 2019로 마이그레이션될 경우 프런트 엔드 풀에서 SBA를 분리 해야 함 풀이 업그레이드 되는 동안에는 풀이 비즈니스용 Skype 서버 2019로 마이그레이션된 후에도 SBA가 업그레이드 된 전면 E와 연결 될 수 있습니다. nd 풀 여기에는 토폴로지 작성기의 레거시 토폴로지에서 SBA를 삭제 한 다음 SBA를 비즈니스용 Skype 서버 2019 토폴로지에 추가 하는 작업이 포함 됩니다. 레거시 SBA에 있는 사용자를 먼저 다른 프런트 엔드 풀로 이동한 후 토폴로지에 있는 SBA를 제거 해야 합니다. SBA를 비즈니스용 Skype 서버 2019 토폴로지에 추가 하면 해당 사용자는 SBA로 다시 이동할 수 있습니다. 이러한 단계는 아래에 요약되어 있습니다.
-ms.openlocfilehash: 7f51b9c29d6008ea3606184eb22741a489d056df
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 모든 SBA(Survivable Branch Appliance)는 SBA용 백업 고급 등록자로 작동하는 프런트 엔드 풀과 연결됩니다. 프런트 엔드 풀이 비즈니스용 Skype 서버 2019로 마이그레이션될 경우 프런트 엔드 풀에서 SBA를 분리 해야 함 풀이 업그레이드 되는 동안, 풀이 비즈니스용 Skype 서버 2019로 마이그레이션된 후에는 SBA가 업그레이드 된 프런트 엔드 풀과 다시 연결 될 수 있습니다. 여기에는 토폴로지 작성기의 레거시 토폴로지에서 SBA를 삭제 한 다음 SBA를 비즈니스용 Skype 서버 2019 토폴로지에 추가 하는 작업이 포함 됩니다. 레거시 SBA에 있는 사용자를 먼저 다른 프런트 엔드 풀로 이동한 후 토폴로지에 있는 SBA를 제거 해야 합니다. SBA를 비즈니스용 Skype 서버 2019 토폴로지에 추가 하면 해당 사용자는 SBA로 다시 이동할 수 있습니다. 이러한 단계는 아래에 요약되어 있습니다.
+ms.openlocfilehash: 23fea7694a754b82ecad684d2ea02b603a6c7299
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027789"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751550"
 ---
-# <a name="connect-a-survivable-branch-appliance"></a>Sba (survivable 분기 기기 연결
+# <a name="connect-a-survivable-branch-appliance"></a>SBA(Survivable Branch Appliance) 연결
 
 모든 Sba (survivable Branch 기기 (SBA)는 SBA의 백업 등록자 역할을 하는 프런트 엔드 풀과 연결 됩니다. 프런트 엔드 풀이 비즈니스용 Skype 서버 2019로 마이그레이션될 경우에는 풀이 업그레이드 되는 동안 SBA를 프런트 엔드 풀에서 분리 해야 합니다. 풀이 비즈니스용 Skype 서버 2019로 마이그레이션된 후에는 SBA를 업그레이드 된 프런트 엔드 풀에 다시 연결할 수 있습니다. 여기에는 토폴로지 작성기의 레거시 토폴로지에서 SBA를 삭제 한 다음 SBA를 비즈니스용 Skype 서버 2019 토폴로지에 추가 하는 작업이 포함 됩니다. 레거시 SBA에 있는 사용자를 먼저 다른 프런트 엔드 풀로 이동한 후 토폴로지에 있는 SBA를 제거 해야 합니다. SBA를 비즈니스용 Skype 서버 2019 토폴로지에 추가 하 고 나면 해당 사용자는 SBA로 다시 이동할 수 있습니다. 이러한 단계는 아래에 요약되어 있습니다.
   
