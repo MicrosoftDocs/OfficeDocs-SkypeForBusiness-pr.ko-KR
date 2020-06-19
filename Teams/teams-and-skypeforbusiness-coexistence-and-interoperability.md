@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: fcf7fc339fdf1b204f81d88c4fed08c720978280
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691044"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756849"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성 이해
 
@@ -76,7 +76,7 @@ ms.locfileid: "44691044"
 
 
 > [!IMPORTANT]
-> 사용자가 **Teams 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거하면 Outlook 및 기타 Office 앱에서 현재 상태가 작동하지 않습니다. 현재 상태는 Teams에서 잘 작동합니다. 해결 방법: **Teams 전용** 모드에서 팀을 실행하는 경우에도 Outlook (및 기타 Office 앱)에서 현재 상태를 보려면 비즈니스용 Skype를 설치해야 합니다. Microsoft는 이 문제를 알고 있으며 해결하기 위해 노력하고 있습니다.
+> 사용자를 **팀 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거 하는 경우 현재 상태가 작동 하지 않는 경우 Outlook과 팀을 다시 시작 해야 할 수 있습니다. 
 
 
 **팀 전용** 사용자 ( *업그레이드* 된 사용자 라고도 함)는 팀의 모든 기능에 액세스할 수 있습니다. 업그레이드 되지 않은 사용자나 외부 사용자가 구성한 비즈니스용 Skype에서 비즈니스용 skype 클라이언트를 유지 하 여 모임에 참가할 수 있습니다. 업그레이드 된 사용자는 비즈니스용 skype (비즈니스용 skype 사용자가 **아일랜드** 모드에 있지 않은 경우)의 상호 운용성 기능을 사용 하 여 비즈니스를 계속 사용 중인 조직의 다른 사용자와 계속 통신할 수 있습니다. 그러나 업그레이드 된 사용자는 비즈니스용 Skype 채팅, 통화 또는 모임을 시작할 수 없습니다.

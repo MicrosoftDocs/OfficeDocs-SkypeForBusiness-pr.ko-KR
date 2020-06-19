@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실을 배포 하기 위한 관련 계획 고려 사항에 대해 설명 합니다.
-ms.openlocfilehash: b28c310ab5c00040490d359cf6b79445f0d1cc95
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 7b954b81d13addd4b8eb0c7bb5614f9e08f24251
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997309"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761466"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft 팀 회의실 계획
 
@@ -102,8 +102,8 @@ _예제 모임/회의실 목록_
 
 | 사이트  | 방 이름 | 방 종류 | 인원 수  | 범위 | 현재 채팅방 용량       | 향후 방 용량     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
-| 런던 사령부 | Curie         | 중형        | 6&ndash;12                  | 예          | 폰                        | 1 화면, 오디오 및 비디오 + 프레젠테이션<br>PSTN 액세스 |
-| 시드니 사령부 | 지          | 대형         | 12&ndash;16                 | 예          | 레거시 AV 장치, 1 화면 및 카메라 | 2 개의 화면, 오디오 및 비디오와 프레젠테이션<br>PSTN 액세스 |
+| 런던 사령부 | Curie         | 중형        | 6 &ndash; 12                  | 예          | 폰                        | 1 화면, 오디오 및 비디오 + 프레젠테이션<br>PSTN 액세스 |
+| 시드니 사령부 | 지          | 대형         | 12 &ndash; 16                 | 예          | 레거시 AV 장치, 1 화면 및 카메라 | 2 개의 화면, 오디오 및 비디오와 프레젠테이션<br>PSTN 액세스 |
 
 ## <a name="device-selection"></a>장치 선택 
 
@@ -124,10 +124,10 @@ _조직의 샘플 Microsoft 팀 공간 배포 서식 파일_
 
 | **방 종류/크기** | **인원 수**  | **Microsoft 팀 대화방 시스템** | **주변 기기 장치**  | **개 표시** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
-| ' 10으로 9 ' 포커스      | 2&ndash;4                   |                                  |                         |                 |
-| Small 16 ' x 16 '     | 4&ndash;6                   |                                  |                         |                 |
-| 중간 18 ' 기준 20 '    | 6&ndash;12                  |                                  |                         |                 |
-| 큰 15 개 ' 기준 32 '     | 12&ndash;16                 |                                  |                         |                 |
+| ' 10으로 9 ' 포커스      | 2 &ndash; 4                   |                                  |                         |                 |
+| Small 16 ' x 16 '     | 4 &ndash; 6                   |                                  |                         |                 |
+| 중간 18 ' 기준 20 '    | 6 &ndash; 12                  |                                  |                         |                 |
+| 큰 15 개 ' 기준 32 '     | 12 &ndash; 16                 |                                  |                         |                 |
 
 **Pro 팁 –** 이제 선택한 Microsoft 팀 회의실 솔루션에 대 한 정보 수집을 시작 하는 데 시간이 오래 걸리는 경우
 
@@ -150,7 +150,7 @@ _조직의 샘플 Microsoft 팀 공간 배포 서식 파일_
 
 대부분의 조직에는 회의실 및 장치를 관리 하는 AV 팀 또는 파트너가 있습니다. 이 팀은 Microsoft 팀 대화방 장치를 관리 하 여 성능을 모니터링 하 고 소프트웨어 업데이트 및 핫픽스를 배포 하는 사용자에 게 동의 해야 합니다. 
 
-Microsoft 팀 회의실을 사용 하는 방법 및 Microsoft 팀원 들이 수행할 수 있는 주요 문제 해결 단계를 더 잘 이해 하 고 있는지 확인 하 고 헬프 데스크 팀에 대 한 질문과 대답을 제공 하는 헬프 데스크 전담팀에 대해 Rooms֪를 고려 합니다. 이 FAQ는 조직의 [사용자 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) 및 [지원 팀](known-issues.md)에 대 한 유용한 출발점입니다.
+Microsoft 팀 회의실을 사용 하는 방법 및 Microsoft 팀원 들이 수행할 수 있는 주요 문제 해결 단계를 더 잘 이해 하 고 있는지 확인 하 고 헬프 데스크 팀에 대 한 질문과 대답을 제공 하는 헬프 데스크 전담팀에 대해 Rooms֪를 고려 합니다. 이 FAQ는 [사용자 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) 및 [알려진 문제](known-issues.md)를 출발점으로 하는 것이 좋습니다.
 
 |    |     |
 |-----------|------------|

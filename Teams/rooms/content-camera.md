@@ -1,7 +1,7 @@
 ---
 title: 콘텐츠 카메라를 설정 하는 방법 알아보기-Microsoft 팀
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 이미지 처리 소프트웨어와 상호 작용 하는 Microsoft 팀 방에 콘텐츠 카메라를 사용 하 여 발표자가 아날로그 화이트 보드에서 그릴 수 있도록 합니다.
-ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157811"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756899"
 ---
 # <a name="content-cameras"></a>콘텐츠 카메라
 
@@ -87,7 +87,7 @@ ms.locfileid: "43157811"
 
 방에 카메라가 설치 되 면 해당 방에 있는 Microsoft 팀 대화방 콘솔에서 설정 합니다.
 
-1. **설정** ![설정 아이콘](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)을 선택 하 고 관리자로 로그인 한 다음 **장치 설정을**선택 합니다.
+1. **설정** ![ 설정 아이콘 ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) 을 선택 하 고 관리자로 로그인 한 다음 **장치 설정을**선택 합니다.
 2. **카메라 기본값** 섹션에서 콘텐츠 카메라를 선택 하 고 **콘텐츠 향상** 옵션이 선택 되어 있는지 확인 합니다.
 3. ) 카메라가 천장에서 탑재 되어 카메라가 거꾸로 설치 된 경우에는 **콘텐츠 카메라 180 회전** 옵션을 선택 합니다.
 4. **저장 및 종료**를 선택 합니다.
@@ -100,6 +100,6 @@ ms.locfileid: "43157811"
 
 [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리](xml-config-file.md)
 
-[Microsoft 팀 방에 대 한 요구 사항](requirements.md)
+[Microsoft Teams 룸 요구사항](requirements.md)
 
 

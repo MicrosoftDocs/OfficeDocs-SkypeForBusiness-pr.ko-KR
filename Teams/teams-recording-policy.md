@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bb6f5a682b816e04e03694788fbdcf48ad897b5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 00727602aed5eee205a01b01e1ab01218c5b2352
+ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690994"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44804682"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>팀 소개 정책 기반 & 모임 기록
 
@@ -133,7 +133,7 @@ Azure 및 Windows VM 요구 사항은 팀 인공 지능 구성 요소에만 적�
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>준수 기록 정책 과제 및 프로비저닝
 
-IT 관리자는 규정 준수 기록 정책을 만들고 할당 하 여 기록 되는 사용자와 각 사용자에 게 사용할 레코더를 결정할 수 있습니다. 녹음기는 통신 조작이 발생 하는 경우 이러한 정책의 구성을 기반으로 대화에 참여 하도록 자동으로 초대 됩니다. 준수 기록 정책은 [<span class="underline">Microsoft Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) 을 사용 하 여 관리 되며 각 조직에 대해 테 넌 트 및 사용자별 수준에서 적용 될 수 있습니다. Microsoft 문서에서 [<span class="underline">모임 정책</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams) 및 [<span class="underline">통화 정책</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy)에 대 한 자세한 내용을 확인할 수 있습니다.
+IT 관리자는 규정 준수 기록 정책을 만들고 할당 하 여 기록 되는 사용자와 각 사용자에 게 사용할 레코더를 결정할 수 있습니다. 녹음기는 통신 조작이 발생 하는 경우 이러한 정책의 구성을 기반으로 대화에 참여 하도록 자동으로 초대 됩니다. 준수 기록 정책은 [<span class="underline">Microsoft Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) 을 사용 하 여 관리 되며 각 조직의 테 넌 트, 사용자 단위 및 보안 그룹 수준에서 적용 될 수 있습니다. Microsoft 문서에서 [<span class="underline">모임 정책</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams), [<span class="underline">호출 정책</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) 및 [<span class="underline">그룹 정책</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)에 대 한 자세한 정보를 확인할 수 있습니다.
 
 1. 테 넌 트에 응용 프로그램 인스턴스를 만듭니다.
 

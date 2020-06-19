@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 19c4bf59275d0f9be4c522129fd20ae668c2f30d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690014"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753440"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 
@@ -34,7 +34,7 @@ Microsoft Teams에서 개별 팀이 비즈니스 시나리오에 전반에 걸�
 - **Teams**는 조직 내에서 서로 다른 프로젝트와 결과에 포함된 사용자, 콘텐츠 및 도구 모음입니다.
 
     - Teams는 초대된 사용자만 비공개로 구성할 수 있습니다.
-    - Teams는 모두에게 공개되도록 설정할 수 있고 조직 내 누구나 참여할 수 있습니다(최대 5,000명의 멤버 참여 가능).
+    - 또한 팀을 공개 하 고 열고 조직 내의 모든 사용자가 참가할 수 있는 (최대 1만 구성원) 만들 수 있습니다.
     
     팀은 작업을 밀접하게 수행하여 완료하는 한 무리의 사람들이 결합하도록 만들어진 것입니다. Teams는 제품 출시, 디지털 작전실 만들기와 같은 프로젝트 기반 작업에 탁월할 뿐만 아니라 계속 진행하여 부서 및 사무실 위치와 같이 조직의 내부 구조를 반영할 수 있습니다. 팀 채널 간에 대화, 파일 및 메모는 팀 구성원만 볼 수 있습니다.
 

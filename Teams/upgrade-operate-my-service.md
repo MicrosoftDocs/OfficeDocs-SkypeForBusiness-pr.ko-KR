@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c167903414aecabf7eecae01527a71ae61c27a4b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 434b7e0fed87d6273d13c7cb646079d51d7c1ddc
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666090"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761476"
 ---
 # <a name="operate-your-service"></a>서비스 운영
 
@@ -433,7 +433,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 2. **클라이언트 연결의 유효성을 검사 합니다.** 연결 문제로 인해 팀에서 기능 또는 로그인 문제가 발생 합니다. 서비스에 대 한 연결을 확인 하는 것이 좋습니다 (특히 새 사이트 또는 위치에 적용). 각 사이트에 대해 다음 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips) 지침이 제공 되는지 확인 합니다. [Microsoft 네트워크 평가 도구](https://www.microsoft.com/download/details.aspx?id=53885) 를 활용 하 여 연결 테스트를 수행 하 여 미디어 포트가 팀의 기능에 맞게 올바르게 열려 있는지 확인할 수 있습니다. 연결 테스트를 실행 하는 방법에 대 한 자세한 단계는 [네트워크 준비](prepare-network.md) 지침에 나와 있습니다.
 
-3. **알려진 문제점 목록 확인:** [조직의 지원 팀](known-issues.md) 에 문의 하 여 사용자가 이러한 문제 중 하나에 부정적인 영향을 미치는지 확인 합니다. 이 문제를 해결 하려면 제공 된 해결 방법 (있는 경우)을 따릅니다.
+3. **알려진 문제점 목록 확인:** [팀 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) 을 참조 하 여 사용자가 이러한 문제 중 하나 때문에 부정적인 영향을 받는지 확인 합니다. 이 문제를 해결 하려면 제공 된 해결 방법 (있는 경우)을 따릅니다.
 
 4. **Microsoft 팀 커뮤니티를 방문 하세요.** [Microsoft 팀 커뮤니티](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) 는 팀을 위한 전용 공간을 제공 합니다. 팀 커뮤니티는 토론 목록, 블로그 게시물, 팀 중심의 공지 사항을 제공 합니다. 질문을 게시 하거나 문제에 대 한 이전 토론을 검색할 수 있습니다.
 
@@ -457,7 +457,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 [Microsoft 팀 커뮤니티](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[조직의 지원 팀](known-issues.md)
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
 [Microsoft 팀의 서비스 상태 확인](service-health.md)
 

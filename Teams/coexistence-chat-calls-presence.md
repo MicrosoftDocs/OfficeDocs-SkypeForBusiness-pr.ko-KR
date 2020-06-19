@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype와 동시 사용
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: 팀 간의 공존 동작 (라우팅 매개 변수, 채팅 & 전화 접속 &, 착신 전환, 기존 스레드, & 현재 상태를 포함 하 여 Skype for Business &)
-ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137313"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757239"
 ---
 # <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 동시 사용
 
@@ -65,12 +65,12 @@ ms.locfileid: "43137313"
 
 아래 표에는 테 넌 트 채팅 및 통화의 라우팅이 캡처 되어 있으며 기존 스레드에서 시작 되지 않는 새 통화 또는 채팅에 유효 합니다. 이 문서에서는 새 통화를 받을 클라이언트를 설명 하 고, 왼쪽에 있는 사용자가 시작 되 면 오른쪽에 있는 테 넌 트의 받는 사람 사용자에 게 채팅을 합니다.
 
-팀에 게 전송 되는 메시지는 사용자만이 항상 팀별로 회람 됩니다. 앞에서 설명한 대로\* 대화가 가능 하면 SfB 사용자에 게 전송 되는 메시지는 항상 비즈니스용 Skype로 라우팅됩니다. 아일랜드 사용자에 게 보낸 메시지는 항상 전송 된 것과 동일한 클라이언트로 라우팅합니다.
+팀에 게 전송 되는 메시지는 사용자만이 항상 팀별로 회람 됩니다. 앞에서 설명한 대로 대화가 가능 하면 SfB 사용자에 게 전송 되는 메시지 \* 는 항상 비즈니스용 Skype로 라우팅됩니다. 아일랜드 사용자에 게 보낸 메시지는 항상 전송 된 것과 동일한 클라이언트로 라우팅합니다.
 
 아래 표에는 지정 된 모드의 클라이언트가 보낸 사람 모드, 클라이언트 선택, Skype for Business 클라이언트가 설정 된 위치 (프레미스 또는 온라인)에 따라 송신자 로부터 전화를 받을 수 있는 클라이언트 (3 개의 맨 왼쪽 열)가 나와 있습니다.
 
 다음 표에서는 다음을 수행 합니다. 
-- **SfB\* ** 는 *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*모드 중 하나를 나타냅니다.
+- **SfB \* ** *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*모드 중 하나를 나타냅니다.
 
 - *기울임꼴 텍스트* 는 interop 대화를 강조 합니다.
 
@@ -78,16 +78,16 @@ ms.locfileid: "43137313"
 
 **표 1a: 테 넌 트 내 새 채팅 또는 통화를 아일랜드 모드 받는 사람에 게 라우팅**
 
-| <br/><br/> 모드 | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB&nbsp;홈 | | 게 <br/><br/> 아일랜드  |
+| <br/><br/> 모드 | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB &nbsp; 홈 | | 게 <br/><br/> 아일랜드  |
 |--- |--- |--- |--- |--- |
 | 아일랜드 | Teams <br/> 비즈니스용 Skype<br/> Teams<br/> 비즈니스용 Skype| 온라인<br/> 온라인<br/> 온-프레미스<br/>온-프레미스| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> 비즈니스용 Skype<br/> Teams<br/> 비즈니스용 Skype|
 |SfB\* <br/> | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> |&boxv;<br/>&boxv;|비즈니스용 Skype<br/>비즈니스용 Skype<br/>|
 |TeamsOnly |Teams| 온라인<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
-**표 1b: SfB\* 모드로 보낸 테 넌 트의 새 채팅 또는 통화 라우팅**
+**표 1b: SfB 모드로 보낸 테 넌 트의 새 채팅 또는 통화 라우팅 \***
 
-| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB&nbsp;홈 | |   게 <br/><br/> SfB\*   |
+| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB &nbsp; 홈 | |   게 <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
 | 아일랜드 |Teams<br/>비즈니스용 Skype<br/>Teams <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype<br/> **불가능** <br/>비즈니스용 Skype<br/> |
 |SfB\* <br/> | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> |&boxv;<br/>&boxv; |  비즈니스용 Skype<br/>비즈니스용 Skype<br/> |
@@ -96,7 +96,7 @@ ms.locfileid: "43137313"
 
 **표 1c: 팀 전용 모드 받는 사람에 대 한 테 넌 트의 새 채팅 또는 통화 라우팅**
 
-| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB&nbsp;홈 | |   게 <br/><br/> TeamsOnly  |
+| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB &nbsp; 홈 | |   게 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
 | 아일랜드   |Teams<br/>비즈니스용 Skype<br/>Teams <br/>비즈니스용 Skype<br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |SfB\*  | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
@@ -107,7 +107,7 @@ ms.locfileid: "43137313"
   
 아래 표는 페더레이션된 통화 및 채팅의 라우팅을 캡처하는 데, 새로운 통화 또는 채팅에 유효 합니다. 또한, 왼쪽에 있는 사용자가 시작 하거나, 오른쪽에 있는 페더레이션 대상 사용자에 게 새로운 통화 또는 채팅을 받게 될 클라이언트를 설명 합니다.
 
-요약 하면 앞에서 설명한 것 처럼 대화를 받을 수 있는 경우, 팀에는 항상 사용자만 전송 되는 메시지가 있는 것입니다. SfB\* 사용자에 게 전송 되는 메시지는 항상 비즈니스용 Skype에 있습니다. 아일랜드 사용자에 게 전송 된 메시지는 보낸 원본 클라이언트에 관계 없이 항상 비즈니스용 Skype에 도착 합니다. 페더레이션 채팅 및 통화에 대 한 라우팅은 해당 아일랜드 사용자가 항상 비즈니스용 Skype에서 페더레이션된 통신을 수신 하는 테 넌 트 라우팅과 다릅니다.
+요약 하면 앞에서 설명한 것 처럼 대화를 받을 수 있는 경우, 팀에는 항상 사용자만 전송 되는 메시지가 있는 것입니다. SfB 사용자에 게 보내는 메시지 \* 는 항상 비즈니스용 skype에 있고, 군도 사용자에 게 보낸 메시지는 전송 된 클라이언트에 관계 없이 비즈니스용 skype에 항상 있습니다. 페더레이션 채팅 및 통화에 대 한 라우팅은 해당 아일랜드 사용자가 항상 비즈니스용 Skype에서 페더레이션된 통신을 수신 하는 테 넌 트 라우팅과 다릅니다.
 
 이는 현재 페더레이션 비즈니스용 Skype 파트너가 이미 팀을 사용 하 고 있는 경우이를 사용자가 담당할 수 없기 때문입니다. 아일랜드는 기본 모드 이지만, 모든 아일랜드 사용자가 팀을 실행 한다고 가정할 수는 없습니다. 비즈니스용 Skype로 회람 하 여 아일랜드 사용자에 게 통신 하지 못하는 문제가 있는지 확인 합니다. 팀으로 라우팅된 경우 대상에서 팀을 사용 하지 않은 경우 해당 통신이 누락 될 수 있습니다. 비즈니스용 Skype로 회람 하면 항상 메시지를 받을 수 있습니다.  
 
@@ -125,7 +125,7 @@ ms.locfileid: "43137313"
 | TeamsOnly |Teams |온라인| &boxv;|*비즈니스용 Skype* |
 |  | | | | 
 
-**표 2b: SfB\* 모드로 받는 사람에 게 새로 연결 된 채팅 또는 통화 라우팅**
+**표 2b: SfB 모드로 받는 사람에 게 새로 연결 된 채팅 또는 통화 라우팅 \***
 
 | <br/><br/>모드   | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| |  게<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
@@ -174,7 +174,7 @@ ms.locfileid: "43137313"
 어떤 동작을 예상할 수 있으려면 사용자의 공존 모드에 따라 현재 상태가 공유 됨을 이해 해야 합니다.
 
 * 사용자가 TeamsOnly 모드에 있는 경우 (팀 또는 비즈니스용 Skype) 다른 모든 사용자가 팀의 사용자 현재 상태를 볼 수 있습니다.
-* 사용자가 SfB\* 모드 (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings)에 있는 경우 다른 사용자 (팀 또는 비즈니스용 skype)가 해당 SfB\* 사용자의 비즈니스용 skype 현재 상태를 볼 수 있습니다.
+* 사용자가 SfB \* 모드 (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings)에 있는 경우 다른 사용자 (팀 또는 비즈니스용 skype)가 해당 SfB \* 사용자의 비즈니스용 skype 현재 상태를 볼 수 있습니다.
 * 사용자가 아일랜드 (또는 레거시) 모드에 있는 경우 비즈니스용 Skype에서 팀의 현재 상태는 독립적 이며 (값이 일치 하지 않아도 됨) 다른 사용자는 동일한 테 넌 트에 있는지 아니면 페더레이션 테 넌 트에 있든, 사용 하는 클라이언트에 따라 아일랜드 사용자의 현재 상태를 볼 수 있습니다.
     * 팀에서 같은 테 넌 트 내의 다른 사용자는 아일랜드 사용자의 팀 상태를 볼 수 있습니다. 위의 테 넌 트 라우팅 테이블과 맞춤
     * 팀에서 페더레이션 테 넌 트의 다른 사용자는 비즈니스에 대 한 사용자의 Skype 현재 상태를 볼 수 있습니다. 위의 페더레이션된 라우팅 테이블과 맞춤
@@ -183,7 +183,7 @@ ms.locfileid: "43137313"
 
 ### <a name="in-tenant-presence"></a>테 넌 트 현재 상태
 
-팀에 게 전송 되는 메시지는 사용자만이 항상 팀원에 게 전달 됩니다. 앞에서 설명한 대로\* 대화가 가능 하면 SfB 사용자에 게 전송 되는 메시지는 항상 비즈니스용 Skype에 있습니다. 아일랜드 사용자에 게 전송 된 메시지는 항상 시작 된 클라이언트에 도착 합니다.
+팀에 게 전송 되는 메시지는 사용자만이 항상 팀원에 게 전달 됩니다. 앞에서 설명한 대로 대화가 가능 하면 SfB 사용자에 게 전송 되는 메시지는 \* 항상 비즈니스용 Skype에 있습니다. 아일랜드 사용자에 게 전송 된 메시지는 항상 시작 된 클라이언트에 도착 합니다.
 
 이 표에서는 게시자의 모드와 감시자의 클라이언트 (새 스레드)에 따라 감시자에 게 표시 되는 게시자의 현재 상태에 대해 설명 합니다.
 

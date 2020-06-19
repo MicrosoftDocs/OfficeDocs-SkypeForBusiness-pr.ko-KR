@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61569b2a60bdce188a7ffb75ae6720d4e1e87a3c
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ec2845723ce7f4a593064795f158ddf718d5b6e5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637057"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753898"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 그룹 및 Microsoft 팀
 =====================================
@@ -43,7 +43,7 @@ Office 365 관리자는 Exchange 공유 사서함, SharePoint 문서 라이브�
 팀을 만들 때 백 엔드에서 Microsoft 365 그룹 및 연결 된 SharePoint 문서 라이브러리 및 OneNote 전자 필기장을 다른 Office 365 클라우드 응용 프로그램에 묶는 것과 함께 만듭니다. 팀을 만드는 사람이 기존 Office 365 공용 또는 개인 그룹의 소유자 인 경우 그룹에 팀에 추가 된 적이 없는 5000 경우 해당 사용자는 팀에 기능을 추가할 수 있습니다. 이렇게 하면 채팅 메시지, 문서, OneNote 및 기타 개체가 있는 기본 **일반** 채널이 하나 만들어집니다. 채널에 대 한 문서 라이브러리를 보면 팀에서 채널을 나타내는 **일반** 폴더가 표시 됩니다. 더 중요 한 것은 문서 라이브러리 내에서 고유한 폴더 구조를 만드는 경우 팀에 채널로 **전파 되지 않는다는 것** 입니다. 지금은 팀에서 SharePoint로 이동 합니다.
 
 > [!NOTE]
-> Microsoft 팀에서 팀을 만들기 위해 생성 된 새로운 Microsoft 365 그룹은 고객 의견을 기반으로 Outlook에 더 이상 기본적으로 표시 되지 않습니다. Outlook에서 이러한 그룹을 표시 하는 기존 동작을 계속 하려는 고객의 경우 Outlook 환경을 위해 그룹을 사용할 수 있는 Exchange Online PowerShell cmdlet이 제공 됩니다. Outlook을 통해 만들어지고 나중에 팀에서 사용 하도록 설정 된 그룹은 Outlook과 팀에 계속 표시 됩니다. 이 업데이트는 앞으로 진행 되는 달에 Outlook과 팀 간에 점차적으로 롤아웃 됩니다.
+> Microsoft 팀 클라이언트에서 팀을 만들기 위해 생성 된 새로운 Microsoft 365 그룹은 고객 의견을 기반으로 Outlook에서 기본적으로 더 이상 표시 되지 않습니다. Outlook에서 그룹의 표시를 설정 하거나 해제 하려면 [UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) Cmdlet을 **HiddenFromExchangeClientsEnabled** 매개 변수와 함께 사용 합니다. Outlook을 통해 만들어지고 나중에 팀에서 사용 하도록 설정 된 그룹은 Outlook과 팀에 계속 표시 됩니다. 
 
 > [!NOTE]
 > Microsoft 365 그룹을 삭제 하면 영구 Outlook/OWA 대화 및 팀 모임 초대에 대 한 사서함 별칭이 제거 되 고 SharePoint 사이트를 삭제 하도록 표시 합니다. 팀을 제거 하는 시간과 Outlook에 미치는 영향 사이에 약 20 분이 걸립니다. 팀 클라이언트에서 팀을 삭제 하면 해당 팀의 구성원 인 모든 사용자가 보기에서 즉시 제거 됩니다. 팀 기능을 사용할 수 있는 Microsoft 365 그룹의 구성원을 제거 하는 경우 팀 클라이언트에서 해당 사용자가 제거 된 영향을 받는 사람을 보기에서 제거 하기 전에 약 2 시간이 지연 될 수 있습니다.

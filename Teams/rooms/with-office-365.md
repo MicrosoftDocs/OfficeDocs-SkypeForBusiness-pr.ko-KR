@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요. 팀 또는 비즈니스용 Skype와 Exchange가 모두 온라인 상태입니다.
-ms.openlocfilehash: 9a4ee558cfa9901566afc7f30f1f64a8b745331b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 440bf2f624bfd150f7e00f145770b0fda336deb4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666140"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756799"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방 배포
 
 Microsoft 팀 또는 비즈니스용 Skype와 Exchange를 모두 온라인으로 설정 하 여 microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
 
-사용자 계정을 설정 하는 가장 쉬운 방법은 원격 Windows PowerShell을 사용 하 여 구성 하는 것입니다. Microsoft는 새 사용자 계정을 만들거나, 호환 되는 Microsoft 팀 대화방 사용자 계정으로 전환 하는 데 도움을 주는 기존 리소스 계정이 있는지 확인 하는 데 도움이 되는 [SkypeRoomProvisioningScript. ps1을 제공 합니다.](https://go.microsoft.com/fwlink/?linkid=870105) 원하는 경우 아래 단계에 따라 Microsoft 팀 대화방 장치에서 사용할 계정을 구성할 수 있습니다.
+사용자 계정을 설정 하는 가장 쉬운 방법은 원격 Windows PowerShell을 사용 하 여 구성 하는 것입니다. Microsoft는 새 사용자 계정을 만드는 데 도움이 되는 스크립트 또는 호환 되는 Microsoft 팀 대화방 사용자 계정으로 전환 하는 데 도움을 주는 기존 리소스 계정이 유효한 지 확인 하는 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)제공 합니다. 원하는 경우 아래 단계에 따라 Microsoft 팀 대화방 장치에서 사용할 계정을 구성할 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -116,53 +116,55 @@ Microsoft 365 또는 Office 365를 사용 하 여 Microsoft 팀 회의실을 배
 
 5. 암호가 만료 되지 않도록 하려면 다음 구문을 사용 합니다.
 
-    ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-    ```
-<!--
-   ``` PowerShell
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
+   ```
+   <!--
+   ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
    이 예제에서는 계정 Rigel1@contoso.onmicrosoft.com의 암호가 만료 되지 않도록 설정 합니다.
 
-  ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-  ```
-<!-- 
-   ``` PowerShell
+   ```PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
+   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   ```
+   <!-- 
+   ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
    다음 명령을 실행 하 여 계정의 전화 번호를 설정할 수도 있습니다.
 
-  ``` PowerShell
-    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
-  ```
-<!-- 
-   ``` PowerShell
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
+   ```
+   <!-- 
+   ```PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
 6. 장치 계정에 유효한 Microsoft 365 또는 Office 365 라이선스가 필요 하거나 Exchange 및 Microsoft 팀 또는 비즈니스용 Skype가 작동 하지 않습니다. 라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 하는 것입니다. 사용할 수 있는`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Microsoft 365 또는 Office 365 조 직에 사용할 수 있는 Sku 목록을 다음과 같이 검색 합니다.
 
-  ``` Powershell
-  Get-MsolAccountSku
-  ```
-<!--
-   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
    다음으로, 다음을 사용 하 여 라이선스를 추가할 수 있습니다.`Set-MsolUserLicense` <!--Set-AzureADUserLicense --> 은. 이 경우 $strLicense는 사용자에 게 표시 되는 SKU 코드입니다 (예: contoso: STANDARDPACK).
 
-  ``` PowerShell
+   ```PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
    Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-  ``` 
-<!-- 
-   ``` Powershell
+   ``` 
+   <!-- 
+   ```Powershell
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
@@ -183,19 +185,19 @@ Microsoft 365 또는 Office 365를 사용 하 여 Microsoft 팀 회의실을 배
    다음 cmdlet을 실행 하 여 비즈니스용 Skype Server에 대해 Microsoft 팀 대화방 계정을 사용 하도록 설정 합니다.
 
    ``` Powershell
+   $rm="Rigel1@contoso.onmicrosoft.com"
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
    이 예제에 표시 된 대로 새 사용자 계정을 설정 하 여 RegistrarPool 정보를 가져옵니다.
 
     ``` Powershell
+    $rm="Rigel1@contoso.onmicrosoft.com"
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
     > 새 사용자 계정이 테 넌 트에서 기존 사용자 계정과 동일한 등록자 풀에 만들어지지 않을 수 있습니다. 위의 명령은이 문제 때문에 계정 설정 오류를 방지 합니다.
-
-Microsoft 팀 또는 비즈니스용 Skype Online에서 Microsoft 팀 회의실 계정을 사용할 수 있도록 앞의 단계를 완료 한 후에 Microsoft 팀 대화방 장치에 라이선스를 할당 해야 합니다. Microsoft 365 관리 센터를 사용 하 여 비즈니스용 Skype Online (계획 2) 또는 비즈니스용 Skype Online (계획 3) 라이선스를 장치에 할당 합니다.
 
 ### <a name="assign-a-license-to-your-account"></a>계정에 라이선스 할당
 

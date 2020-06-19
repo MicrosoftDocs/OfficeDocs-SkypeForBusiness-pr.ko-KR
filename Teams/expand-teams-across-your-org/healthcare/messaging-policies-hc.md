@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 읽음 확인 및 우선 순위 알림을 포함할 수 있는 보안 메시징 정책을 사용자 지정 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: 1321c22f2eac04063723b404153909c20125dd57
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724887"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755832"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>의료 조직을 위한 보안 메시징 시작
 
@@ -53,7 +53,7 @@ ms.locfileid: "44724887"
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>우선 순위 알림을 사용 하 여 긴급 메시지 보내기
 
-사용자는 다른 사용자에 게 채팅 메시지를 보낼 때 메시지를 *긴급* 으로 표시할 수 있습니다. 이 기능을 통해 중요 한 사고에 주의가 필요한 경우 직원 들에 게 서로 알림을 할 수 있습니다. 일반 *중요* 메시지와 달리 [우선 순위 알림은](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) 최대 20 분 동안 사용자에 게 메시지를 수신 하 고 읽을 때까지, 메시지가 제때에 처리 될 가능성을 최대화 합니다.
+사용자는 다른 사용자에 게 채팅 메시지를 보낼 때 메시지를 *긴급* 으로 표시할 수 있습니다. 이 기능을 통해 중요 한 사고에 주의가 필요한 경우 직원 들에 게 서로 알림을 할 수 있습니다. 일반 *중요* 메시지와 달리 [우선 순위 알림은](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) 최대 20 분 동안 사용자에 게 메시지를 수신 하 고 읽을 때까지, 메시지가 제때에 처리 될 가능성을 최대화 합니다.
 
 관리자는이 정책을 할당 한 사용자가 우선 순위 알림을 보내는 기능을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 이 기능은 기본적으로 설정 되어 있습니다. 우선 순위 메시지의 받는 사람에 게는 동일한 메시징 정책이 없을 수 있으며, 우선 순위 메시지를 받을 수 없도록 설정 하는 옵션은 없습니다. 의료 응용 프로그램의 경우 적어도 일부 사용자에 대해이 기능을 사용 하도록 설정 하는 것이 좋지만, 그 중 하나를 결정 해야 합니다.
 

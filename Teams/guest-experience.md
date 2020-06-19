@@ -18,23 +18,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637277"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799799"
 ---
 <a name="what-the-guest-experience-is-like"></a>게스트 환경의 모양
 =================================
 
 방문자가 팀에 참가 하도록 초대 되 면 환영 전자 메일 메시지를 받습니다. 이 메시지에는 팀에 대 한 몇 가지 정보와 현재 구성원 인 것으로 예상 되는 내용이 포함 됩니다. 게스트는 팀과 해당 채널에 액세스할 수 있으려면 먼저 전자 메일 메시지에서 **Microsoft 팀 열기** 를 선택 하 여 초대를 수락 해야 합니다.
     
-![환영 전자 메일 메시지의 예를 보여주는 스크린샷](media/guest-experience-image1.png)
+![환영 전자 메일 메시지의 예를 보여 주는 스크린샷](media/guest-experience-image1.png)
     
-모든 팀 멤버가 팀 소유자가 게스트를 추가 하 고 게스트 이름을 제공 한다는 것을 알리기 위해 채널 스레드에서 메시지가 표시 됩니다. 팀의 모든 사용자가 쉽게 게스트를 식별할 수 있습니다. 샘플 팀의 다음 스크린샷은 "이 팀에 게스트 있음"이 표시 되 고 각 게스트 이름 옆에 **(게스트)** 레이블이 표시 됩니다.
-    
-![게스트 사용자에 게 배너 알림을 보여 주는 스크린샷](media/guest-experience-image2.png "스크린샷은 Northwind 배너의 마케팅 채널 중 일부를 보여 주며,이는 팀에 게스트와 게스트 사용자가 자신의 이름 옆에 있는 word 게스트로 식별 되었음을 나타내는 알림입니다.")
+모든 팀 멤버가 팀 소유자가 게스트를 추가 하 고 게스트 이름을 제공 한다는 것을 알리기 위해 채널 스레드에서 메시지가 표시 됩니다. 팀의 모든 사용자가 쉽게 게스트를 식별할 수 있습니다. 채널 스레드 오른쪽 위 모서리에 있는 태그는 팀의 게스트 수를 나타내고, 각 게스트 이름 옆에 **(게스트)** 레이블이 표시 됩니다.
+
+![팀의 게스트 수를 나타내는 태그를 표시 하는 스크린샷](media/guest-experience-image2.png)
 
 팀의 게스트 환경에 대 한 다음 비디오를 확인 하세요.
 - [게스트로 팀 참가](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

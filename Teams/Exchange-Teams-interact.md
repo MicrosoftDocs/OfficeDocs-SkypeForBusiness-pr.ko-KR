@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5debf9eb72066c90ff0af002b4e5f3b3bafe8383
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637067"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752980"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -50,7 +50,7 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Microsoft 
 |**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예<sup>8</sup>|예|예|예 <sup>7</sup>|예|예|예|예|
 |**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예<sup>8</sup>|예|예|예 <sup>7</sup>|예|예|예|예|
 |**Exchange Online 전용-레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup> 4|예|아니요|아니요|예|예|아니요|예 <sup> 5|예 <sup> 6|예|예|
-|**Exchange 온-프레미스** (Azure AD와 동기화 & OAuth 구성 필요)|예 <sup>2</sup>| 예 <sup>2</sup> |예 <sup> 4|예|Yes (Exchange 2016 CU3 이상 +)|예<sup>8</sup> (EXCHANGE 2016 cu3 이상 +)|예|예|아니요|예 <sup> 5|예 <sup> 6|예|예|
+|**Exchange 온-프레미스** (Azure AD와 동기화 & OAuth 구성 필요)|예 <sup>2</sup>| 예 <sup>2</sup> |예 <sup> 4|예|Yes (Exchange 2016 CU3 이상 +)|아니오|예|예|아니요|예 <sup> 5|예 <sup> 6|예|예|
 
 <sup>1</sup> EXCHANGE 2016 cu3 이상 이상 지원 됩니다.  
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: d14c32357101ef2fe002394046f707445b7c10a6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690944"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756919"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -420,9 +420,9 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 사용자에 게 제공 하려는 모임 추가 기능을 지정 하려면 다음과 같이 **PreferredMeetingProviderForIslandsMode** 매개 변수를 설정 합니다.
 
 - Outlook에서 팀 모임 추가 기능 및 비즈니스용 Skype 추가 기능을 모두 사용 하도록 매개 변수를 **TeamsAndSfB** 로 설정 합니다. 기본값입니다.
-- Outlook에서 팀 모임 추가 기능만 사용 하도록 매개 변수를 **Teamsonly** 설정 합니다. 이 정책 설정은 이후의 모든 모임에 팀 모임 참가 링크가 있는지 확인 합니다. 팀에 대 한 기존 비즈니스용 Skype 모임 참가 링크는 마이그레이션하지 않습니다. 이 정책 설정은 현재 상태, 채팅, PSTN 통화 또는 비즈니스용 Skype의 기타 기능에는 영향을 주지 않으며,이는 사용자가 이러한 기능을 위해 계속 해 서 비즈니스용 Skype를 사용 하는 것을 의미 합니다.
+- Outlook에서 팀 모임 추가 기능만 사용할 수 있도록 하려면 해당 매개 변수를 **팀** 으로 설정 합니다. 이 정책 설정은 이후의 모든 모임에 팀 모임 참가 링크가 있는지 확인 합니다. 팀에 대 한 기존 비즈니스용 Skype 모임 참가 링크는 마이그레이션하지 않습니다. 이 정책 설정은 현재 상태, 채팅, PSTN 통화 또는 비즈니스용 Skype의 기타 기능에는 영향을 주지 않으며,이는 사용자가 이러한 기능을 위해 계속 해 서 비즈니스용 Skype를 사용 하는 것을 의미 합니다.
 
-  매개 변수를 **Teamsonly**으로 설정한 다음 **TeamsAndSfB**로 다시 전환 하면 두 모임 추가 기능이 모두 사용 됩니다. 그러나 기존 팀 모임 참가 링크는 비즈니스용 Skype로 마이그레이션되지 않습니다. 변경 후에 예약 된 비즈니스용 Skype 모임에는 비즈니스용 Skype 모임 참가 링크가 있습니다.
+  매개 변수를 **팀**으로 설정한 다음 다시 **TeamsAndSfB**로 전환 하는 경우 두 모임 추가 기능이 모두 사용 하도록 설정 됩니다. 그러나 기존 팀 모임 참가 링크는 비즈니스용 Skype로 마이그레이션되지 않습니다. 변경 후에 예약 된 비즈니스용 Skype 모임에는 비즈니스용 Skype 모임 참가 링크가 있습니다.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>모임 정책 설정-비디오 필터 모드
 
