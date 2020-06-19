@@ -1,10 +1,10 @@
 ---
 title: 채택을 위한 도구 및 다운로드
 ms.reviewer: karuanag
-description: 이러한 채택 리소스를 사용 하 여 Microsoft 팀과 다른 Office 365 서비스의 채택을 도울 수 있습니다.
+description: 이러한 채택 리소스를 사용 하 여 Microsoft 팀과 기타 Microsoft 365 또는 Office 365 서비스의 채택을 지원할 수 있습니다.
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551006"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756507"
 ---
 # <a name="tools-for-driving-adoption"></a>추진 도구 
 
@@ -148,8 +148,8 @@ ms.locfileid: "42551006"
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Office 365 챔피언 프로그램
-Office 365 챔피언 프로그램은 Microsoft 팀과 다른 Office 365 서비스에서 더 많은 사용자를 대상으로 하는 데 도움이 되는 무료 프로그램입니다. [Microsoft 기술 커뮤니티](https://aka.ms/DriveAdoption) 의 온라인 커뮤니티는 관리에서 제공 하는 모범 사례에 대 한 모든 구성 요소를 제공 하는 월간 커뮤니티 통화와 함께 새로운 기능을 제공 합니다. 커뮤니티에 https://aka.ms/O365Champions 참가 하 고, 일찍 릴리스에 액세스 하 고, 다른 고객 으로부터 음성을 듣고, Microsoft 전문가 로부터 배워 보세요.  
+### <a name="microsoft-365-or-office-365-champions-program"></a>Microsoft 365 또는 Office 365 챔피언 프로그램
+챔피언 프로그램은 Microsoft 팀과 기타 Microsoft 365 또는 Office 365 서비스에서 더 많은 사용자에 게 도움을 주는 무료 프로그램입니다. [Microsoft 기술 커뮤니티](https://aka.ms/DriveAdoption) 의 온라인 커뮤니티는 관리에서 제공 하는 모범 사례에 대 한 모든 구성 요소를 제공 하는 월간 커뮤니티 통화와 함께 새로운 기능을 제공 합니다. 커뮤니티에 참가 하 https://aka.ms/O365Champions 고, 일찍 릴리스에 액세스 하 고, 다른 고객 으로부터 음성을 듣고, Microsoft 전문가 로부터 배워 보세요.  
 
 ### <a name="teams-adoption-guide"></a>팀 채택 가이드
 회사에서 팀을 배포 하는 데 도움이 되는 온라인 가이드 인 [팀 채택을 flipbook](https://aka.ms/teamstoolkit)을 확인 하세요. 여기에는 팀 채택을 여행 하는 데 도움이 되는 다양 한 다운로드 가능한 도구, 서식 파일 및 기타 리소스가 포함 됩니다.

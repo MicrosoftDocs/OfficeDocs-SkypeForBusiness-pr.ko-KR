@@ -136,6 +136,7 @@
 ## [설정이 변경되면 사용자에게 전송되는 전자 메일](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [모임의 시작 및 종료 알림 설정 또는 해제](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [팀 모임에서 손 올리기 옵션](raise-hand-meetings.md)
 ## [지원 되지 않는 브라우저에서 Teams 모임](unsupported-browsers.md)
 ## [Teams에서 데스크톱 공유 구성](configure-desktop-sharing.md)
 ## [Teams 클라우드 모임 녹음/녹화](cloud-recording.md)
