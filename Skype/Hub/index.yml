@@ -1,0 +1,59 @@
+### YamlMime:Hub
+title: 비즈니스용 Skype
+summary: 비즈니스용 Skype 기술 문서
+brand: m365
+metadata:
+  title: 비즈니스용 Skype
+  description: 비즈니스용 Skype 기술 문서
+  ms.service: skype-for-business-online
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
+  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "44805553"
+additionalContent:
+  sections:
+  - title: IT 전문가용
+    items:
+    - title: 비즈니스용 Skype Online
+      summary: Office 365 환경에서 비즈니스용 Skype Online을 관리하는 데 사용할 리소스를 찾아보세요.
+      url: /SkypeForBusiness/skype-for-business-online
+    - title: 하이브리드 솔루션
+      summary: 비즈니스용 Skype 하이브리드 배포 계획에 대한 정보를 찾아보세요.
+      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+    - title: 비즈니스용 Skype 서버
+      summary: 조직에 대한 비즈니스용 Skype 서버를 배포하고 관리하세요.
+      url: /SkypeForBusiness/skype-for-business-server-2019
+    - title: 비즈니스용 Skype에 대한 PowerShell 참고자료
+      summary: 비즈니스용 Skype 및 비즈니스용 Skype Online을 관리하는 데 필요한 PowerShell cmdlet에 대해 알아보세요.
+      url: /powershell/skype/intro
+    - title: Microsoft Teams
+      summary: Microsoft Teams를 성공적으로 배포하는 데 필요한 계획, 방법 및 실질적인 지침을 받으세요.
+      url: /MicrosoftTeams/
+    - title: 비즈니스용 Skype에서 Microsoft Teams로의 여정
+      summary: Teams로의 최상의 경로를 탐색하기 위한 지침 및 도구를 찾아보세요.
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: Microsoft Teams 룸
+      summary: Microsoft Teams 룸을 계획, 배포 및 관리하는 방법을 알아보세요.
+      url: /SkypeForBusiness/room-systems/
+    - title: 비즈니스용 Skype 인증 프로그램
+      summary: 인증된 솔루션 및 장치에 대해 알아보세요.
+      url: /SkypeForBusiness/certification/overview
+    - title: 문제 해결
+      summary: IT 전문가와 관리자를 위한 문제 해결 및 지원 리소스를 찾아보세요.
+      url: /office/troubleshoot
+  - title: 기타 대상 그룹
+    items:
+    - title: 개발자
+      summary: 비즈니스용 Skype에 대한 솔루션 개발 지침입니다.
+      url: /skype-sdk/
+    - title: 최종 사용자
+      summary: support.office.com에서 비즈니스용 Skype 사용자를 위한 도움말, 교육 및 기술 지원을 찾아보세요.
+      url: https://support.office.com/skype-for-business

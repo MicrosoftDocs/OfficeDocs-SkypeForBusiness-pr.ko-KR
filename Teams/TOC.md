@@ -354,6 +354,16 @@
 ### [긴급 전화 정책 관리](manage-emergency-calling-policies.md)
 ### [긴급 전화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)
 
+## Contoso 음성 마이그레이션 사례 연구
+### [개요](voice-case-study-overview.md)
+### [Teams 업그레이드 계획](voice-case-study-migration-plan.md)
+### [전화 시스템](voice-case-study-phone-system.md)
+### [위치 기반 라우팅](voice-case-study-location-based-routing.md)
+### [비상 전화](voice-case-study-emergency-calling.md)
+### [오디오 회의](voice-case-study-audio-conferencing.md)
+### [자동 전화 교환 및 통화 큐](voice-case-study-call-queues.md)
+
+
 
 
 ## 참조
@@ -687,7 +697,6 @@
 
 <!-- ============================================================ -->
 # 모니터링, 유지 관리 및 문제 해결
-## [조직에서 Teams 지원](Known-issues.md)
 ## [통화 품질 모니터링 및 관리](monitor-call-quality-qos.md)
 ### [QoE(체감 품질) 검토 가이드](quality-of-experience-review-guide.md)
 ### [Teams에 QoS 설정](QoS-in-Teams.md)
@@ -703,6 +712,7 @@
 #### [CQD PSTN 직접 라우팅 보고서 사용](CQD-PSTN-report.md)
 ### [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [통화 품질 대시보드의 분류 간소화](stream-classification-in-call-quality-dashboard.md)
+## [Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [설치 및 업데이트 문제 해결](troubleshoot-installation.md)
 ## [Teams 클라이언트의 연결 문제 해결](connectivity-issues.md)
 ## [기존 시스템에서 메시지와 통화 수신 문제](legacy-login-issues.md)
