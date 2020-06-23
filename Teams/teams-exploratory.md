@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a342c27c7379ed11e691098fe309fe4e429cb1e0
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689714"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785304"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================
@@ -147,6 +147,8 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>레거시 Microsoft Teams 상용 클라우드 평가판 라이선스는 어떻게 되나요?
 
 2020년 2월부로 적격 사용자는 최신 Microsoft Teams 예비 환경을 사용하기 시작할 수 있습니다. 모든 레거시 Teams 상용 클라우드 평가판 라이선스는 평가판이 만료되기 전에 자동으로 신규 서비스로 변환됩니다.
+
+사용자가 만료된 Teams 상업용 클라우드 평가판에 처음으로 로그인하면 해당 사용자에게 자동으로 Teams 탐색 체험 라이선스를 할당합니다. 로그인할 때까지 사용자가 변환되지 않습니다.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Teams 예비 라이선스 제거
 

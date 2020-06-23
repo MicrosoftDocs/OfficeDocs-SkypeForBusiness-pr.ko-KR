@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c9fc53608d1072558931ee2ba424d6d0334e31
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 7220a7776acb796a4ca56ef28541fd821c0c0132
+ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689774"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773313"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되면 [Teams 배포 방법](How-to-roll-out-teams.md)과 함께 시작해보겠습니다.
@@ -100,7 +100,7 @@ Teams는 Microsoft 365 및 Office 365에서의 지능형 커뮤니케이션을 �
 
 ## <a name="teams-known-issues"></a>Teams의 알려진 문제점
 
-[조직에서 Teams 지원](Known-issues.md)을 참조하세요.
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams). 참조
 
 ## <a name="teams-client-release-notes"></a>Teams 클라이언트 릴리스 정보
 

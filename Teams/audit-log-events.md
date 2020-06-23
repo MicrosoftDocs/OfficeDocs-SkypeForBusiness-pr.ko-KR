@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665640"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816629"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft 팀에서 이벤트 감사 로그 검색
 
@@ -187,8 +187,8 @@ Microsoft 365 감사 로그에서 팀의 사용자 및 관리자 활동에 대�
 
 ## <a name="office-365-management-activity-api"></a>Office 365 관리 활동 API
 
-Office 365 관리 활동 API를 사용 하 여 팀 이벤트에 대 한 정보를 검색할 수 있습니다. 팀의 관리 활동 API 스키마에 대해 자세히 알아보려면 [팀 스키마](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api)를 참조 하세요.
+Office 365 관리 활동 API를 사용 하 여 팀 이벤트에 대 한 정보를 검색할 수 있습니다. 팀의 관리 활동 API 스키마에 대해 자세히 알아보려면 [팀 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)를 참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Microsoft 365 준수 센터에서 감사 로그 검색](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 
+- [Microsoft 365 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 

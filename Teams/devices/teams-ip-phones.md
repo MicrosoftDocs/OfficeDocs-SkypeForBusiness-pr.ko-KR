@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
-ms.openlocfilehash: f25373f0d7b35163bd1fce2d5662e5eb96e5aeab
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666120"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816819"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -71,6 +71,39 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 |Poly Studio X50 | 3.1.1.216109| 2020 년 6 월|포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m)|
 |옛 alink VC210| 118.15.0.14|2020 년 2 월|포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m)|
 
+### <a name="product-release-information-teams-phones"></a>제품 릴리스 정보-팀 전화
+다음은 최신 팀 IP 전화 앱 버전 및 출시 된 펌웨어 버전입니다.
+#### <a name="release-date-may-132020"></a>릴리스 날짜: 2020 년 5 월 13 일
+#### <a name="app-versions"></a>앱 버전
+|내| 버전|
+|:---|:---|
+|Teams | .040801|
+|관리자 에이전트|.210|
+|회사 포털| .4715|
+
+#### <a name="firmware-versions"></a>펌웨어 버전
+|업데이트 #3| Prod로 출시 되는 펌웨어|
+|:---|:---|
+|오디오 코드 C450HD|C450HD_TEAMS_1 3.47|
+|Poly CCX400|1.0.1.0054|
+|Poly CCX500/ CCX600|5.9.13.0306|
+|옛 alink T55/T56/T58|58.15.0.104|
+|옛 alink VP59|91.15.0.40|
+|옛 alink CP960|73.15.0.100|
+
+### <a name="product-release-information-collaboration-bar"></a>제품 릴리스 정보-공동 작업 모음
+다음은 최신 팀 공동 작업 모음 앱 버전 및 펌웨어 버전이 출시 된 것입니다.
+#### <a name="app-versions"></a>앱 버전
+|내| 버전|
+|:---|:---|
+|Teams | .040901|
+|관리자 에이전트|.210|
+|회사 포털| .4715|
+
+#### <a name="firmware-versions"></a>펌웨어 버전
+|업데이트 #3| Prod로 출시 되는 펌웨어|
+|:---|:---|
+|옛 alink VC210|118.15.0.19|
 
 이러한 장치에서 지원 되는 기능에 대 한 정보는 [Microsoft 팀 전화 기능 집합](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) 을 참조 하세요.
 

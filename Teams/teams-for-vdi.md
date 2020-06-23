@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb1be3215aff5aa97d97b0bc7cfbb81febd7d7fe
-ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
+ms.openlocfilehash: 82e7a9af9c8e3fa2374234efbb752682d58d1602
+ms.sourcegitcommit: dad97d53f63e5164095b6d6de2d1b0445e2c10db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44804702"
+ms.lasthandoff: 06/20/2020
+ms.locfileid: "44820849"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -115,6 +115,7 @@ VDI 환경에서 팀의 AV 최적화가 올바르게 작동 하려면 씬 클라
 
 - .txt 파일
 - 미디어 스택 폴더
+- meeting-addin\Cache (%appdata%\Microsoft\Teams\meeting-addin\Cache)
 
 ### <a name="microsoft-365-apps-for-enterprise-considerations"></a>엔터프라이즈 고려 사항에 대 한 Microsoft 365 앱
 

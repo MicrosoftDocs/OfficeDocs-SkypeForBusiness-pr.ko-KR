@@ -17,12 +17,12 @@ description: 외부 액세스 (페더레이션) 및 게스트 액세스를 사�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fcc17aa7bc00904a13aa77761472ea3ea37a17cd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689694"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785280"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams에서 다른 조직의 사용자와 의사소통하기
 ======================================================
@@ -88,7 +88,7 @@ ms.locfileid: "44689694"
 <sup>2</sup> 전자 메일 또는 SIP(Session Initiation Protocol) 주소만 해당.<br>
 <sup>3</sup> 외부 (페더레이션) 채팅은 1:1만 허용합니다.<br>
 <sup>4</sup> Teams의 1:1 채팅은 Teams에서만, 다른 두 조직의 사용자만 지원됩니다. <br>
-<sup>5</sup> 기본적으로 외부 참가자는 전화 접속 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호의 개인 정보 보안을 유지하려면 **입장/퇴장 알림 유형**은 **톤**을 선택합니다(이 경우 해당 숫자를 Teams에서 소리내어 읽지 못하도록 방지). 외부 사용자에게 외부 PSTN 전화 번호를 표시하고 싶지 않은 경우, **입장/퇴장 알림**을 켤 때, 알림 유형은 **톤**을 선택합니다. 자세한 내용은 [Microsoft Teams에서 모임에 대한 입장 및 퇴장 알림 켜기 혹은 끄기](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)를 읽어보세요.
+<sup>5</sup> 기본적으로 외부 참가자는 전화 접속 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호의 프라이버시를 유지하려면 **입장/종료** **알림** 유형에 대해 톤을 선택하십시오(이로 인해 Teams가 번호를 읽을 수 없음). 자세한 내용은 [Microsoft Teams에서 모임에 대한 입장 및 퇴장 알림 켜기 혹은 끄기](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)를 읽어보세요.
 
 ## <a name="related-topics"></a>관련 항목
 

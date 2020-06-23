@@ -34,10 +34,10 @@ ms.locfileid: "41888847"
 1. Teams에서 프로필 그림을 선택한 다음  > **버전**에 대한 **정보**를 클릭합니다.
 2. 같은 메뉴에서 **업데이트 확인**을 클릭합니다.
 3. 앱 상단에 있는 배너가 Teams에 "새로 고침"이 필요함을 나타낼 때까지 기다립니다. 이 프로세스는 새 버전의 Teams를 다운로드하므로 링크가 약 1분 후에 표시됩니다. 또한 최신 버전을 이미 실행 중인지 여부를 배너를 통해 알 수 있으며, 이 경우 업데이트할 필요가 없습니다.
-4. 배너에서[새로 고침] 링크를 클릭합니다.
-5. Teams가 다시 시작할 때까지 기다렸다가 1단계를 반복하여 앱이 업데이트되었는지 확인합니다.
+4. 배너에서 [새로 고침] 링크를 클릭합니다.
+5. Teams가 다시 시작될 때까지 기다렸다가 1단계를 반복하여 앱이 업데이트되었는지 확인합니다.
 
-오류 메시지가 표시되거나 버전 번호가 4단계와 같으면 업데이트 프로세스가 실패합니다.
+오류 메시지가 표시되거나 버전 번호가 4단계와 같으면 업데이트 프로세스가 실패한 것입니다.
 
 ## <a name="troubleshoot-installation-and-update-issues"></a>설치 및 업데이트 문제 해결
 
@@ -60,14 +60,14 @@ Teams는 정책에 따라 자동으로 업데이트 프로세스를 시작하거
 
 1. **업데이트 확인**. Teams는 웹 요청을 하고 현재 앱 버전 및 배포 링 정보를 포함합니다. 이 단계의 목표는 다운로드 링크를 가져오는 것입니다. 이 단계에서 오류가 로그에 기록됩니다.
 2. **업데이트를 다운로드합니다**. Teams는 1단계에서 얻은 다운로드 링크를 사용하여 업데이트를 다운로드합니다. 다운로드가 완료되면 Teams는 Update.exe를 호출하여 다운로드를 준비합니다. 또한 다운로드 오류가 로그에 기록됩니다.
-3. **업데이트를 준비합니다**. 다운로드 한 콘텐츠는 Update.exe에서 수행되는 중간 폴더 %LocalAppData%\Microsoft\Teams\stage)로 확인되고 압축이 풀립니다. 이 단계의 장애는 SquirrelTemp.log에 기록됩니다.
-4. **업데이트를 설치합니다**. Teams를 시작하는 방법에는 여러 가지가 있습니다. 사용자가 로그인하거나 바로 가기를 통해 Teams를 시작할 수있을 때 시스템이 자동으로 Teams를 시작합니다. 이 단계에서 Update.exe는 준비 폴더가 있는지 확인하고 콘텐츠를 다시 확인한 다음 파일 작업을 수행하여 앱의 스테이지를 해제합니다. %LocalAppData%\Microsoft\Teams\current의 이전 응용 프로그램 폴더는 %LocalAppData%\Microsoft\Teams\previous에 백업되고 스테이지 폴더의 이름은 "current"로 변경됩니다. 이 단계의 장애는 SquirrelTemp.log에 기록됩니다.
+3. **업데이트를 준비합니다**. 다운로드한 콘텐츠는 Update.exe에서 수행되는 중간 폴더 %LocalAppData%\Microsoft\Teams\stage)로 확인되고 압축이 풀립니다. 이 단계의 실패는 SquirrelTemp.log에 기록됩니다.
+4. **업데이트를 설치합니다**. Teams를 시작하는 방법에는 여러 가지가 있습니다. 사용자가 로그인하거나 바로 가기를 통해 Teams를 시작할 수있을 때 시스템이 자동으로 Teams를 시작합니다. 이 단계에서 Update.exe는 준비 폴더가 있는지 확인하고 콘텐츠를 다시 확인한 다음 파일 작업을 수행하여 앱의 스테이지를 해제합니다. %LocalAppData%\Microsoft\Teams\current의 이전 응용 프로그램 폴더는 %LocalAppData%\Microsoft\Teams\previous에 백업되고 스테이지 폴더의 이름은 "current"로 변경됩니다. 이 단계의 실패는 SquirrelTemp.log에 기록됩니다.
 
 SquirrelTemp.log 또는 Logs.txt에 근본적인 원인을 판별하기에 충분한 정보가 없고 문제점을 해결하기 위해 추가 정보가 필요한 경우 [ 응용 프로그램 및 시스템 로그 수집 및 분석](#collect-and-analyze-application-and-system-logs)으로 이동하세요.
 
 ## <a name="collect-and-analyze-application-and-system-logs"></a>응용 프로그램 및 시스템 로그 수집 및 분석
 
-이 섹션에서는 응용 프로그램 및 시스템 로그를 수집 및 분석하여 문제를 해결하기위한보다 포괄적 인 정보를 얻는 방법에 대해 설명합니다. Sysinternals 도구를 사용하여 이 단계를 완료합니다. 자세한 내용은 [Windows Sysinternals](https://docs.microsoft.com/sysinternals/)를 참조하세요.
+이 섹션에서는 응용 프로그램 및 시스템 로그를 수집 및 분석하여 문제를 해결하기 위한 보다 포괄적인 정보를 얻는 방법에 대해 설명합니다. Sysinternals 도구를 사용하여 이 단계를 완료합니다. 자세한 내용은 [Windows Sysinternals](https://docs.microsoft.com/sysinternals/)를 참조하세요.
 
 ### <a name="collect-logs"></a>로그 수집
 
@@ -112,16 +112,16 @@ SquirrelTemp.log 또는 Logs.txt에 근본적인 원인을 판별하기에 충�
 
 ### <a name="analyze-logs-for-advanced-users"></a>로그 분석(고급 사용자용)
 
-업데이트에 실패하면 예측할 수 없는 앱 동작이 발생할 수 있습니다. 예를 들어, 사용자가 Teams를 종료 할 수 없거나 오래된 버전의 Teams를 보유하고 있거나 Teams를 시작할 수 없습니다. 업데이트 중에 문제가 발생하는 경우 원인을 찾을 수 있는 첫 번째 위치는 SquirrelTemp.log입니다. 다음은 가장 일반적인 업데이트 오류가 나열된 여러 가지 유형과 로그를 사용하여 해당 업데이트를 분석하고 해결하는 방법입니다.
+업데이트에 실패하면 예측할 수 없는 앱 동작이 발생할 수 있습니다. 예를 들어, 사용자가 Teams를 종료할 수 없거나, 오래된 버전의 Teams를 보유하고 있거나, Teams를 시작할 수 없을 수 있습니다. 업데이트 중에 문제가 발생하는 경우 원인을 찾을 수 있는 첫 번째 위치는 SquirrelTemp.log입니다. 다음은 가장 일반적인 업데이트 오류가 나열된 여러 가지 유형과 로그를 사용하여 해당 업데이트를 분석하고 해결하는 방법입니다.
 
 #### <a name="unable-to-exit-teams"></a>Teams를 종료할 수 없음
 
-Teams를 스스로 최신 버전으로 업데이트해야 한다고 판단함에 따라 새 앱을 다운로드하고 스테이징한 다음 다음에 시스템이 유휴 상태일 때 다시 시작될 기회를 기다립니다. 이 프로세스 중에 발생하는 일반적인 문제는 다른 프로세스 또는 파일 시스템 드라이버가 Teams.exe 프로세스를 잠가 Teams.exe가 종료되지 않는 경우입니다. 결과적으로 Teams 앱은 새로 다운로드하여 준비된 앱으로 대체 할 수 없습니다.
+Teams를 스스로 최신 버전으로 업데이트해야 한다고 판단함에 따라 새 앱을 다운로드하고 스테이징한 다음, 시스템이 유휴 상태일 때 다시 시작될 기회를 기다립니다. 이 프로세스 중에 발생하는 일반적인 문제는 다른 프로세스 또는 파일 시스템 드라이버가 Teams.exe 프로세스를 잠가 Teams.exe가 종료되지 않는 경우입니다. 결과적으로 Teams 앱은 새로 다운로드하여 준비된 앱으로 대체할 수 없습니다.
 
 문제 해결 팁:
 
-- 발생한 문제인지 확인하려면 Teams를 종료합니다(작업 표시 줄에서 Teams를 마우스 오른쪽 단추로 클릭한 후 **종료**를 클릭합니다). 그런 다음 Windows에서 [작업 관리자]를 열어 Teams 인스턴스가 아직 실행 중인지 확인합니다.  
-- 이 문제가 있는 컴퓨터에 있지 않은 경우 이 문제가 발생한 컴퓨터에서 수집한 SquirrelTemp.log를 검사하고 "프로그램 : 로그에서 프로세스를 종료 할 수 없음"항목을 찾습니다.
+- 겪고 있는 문제가 이에 해당되는지 확인하려면, Teams를 종료합니다(작업 표시 줄에서 Teams를 마우스 오른쪽 단추로 클릭한 후 **종료**를 클릭합니다). 그런 다음 Windows에서 [작업 관리자]를 열어 Teams 인스턴스가 아직 실행 중인지 확인합니다.  
+- 이 문제가 있는 컴퓨터에 있지 않은 경우 이 문제가 발생한 컴퓨터에서 수집한 SquirrelTemp.log를 검사하고 "프로그램 : 로그에서 프로세스를 종료할 수 없음"항목을 찾습니다.
 - Teams.exe가 종료할 수 없는 원인을 확인하려면 Dlls.txt 및 Handles.txt 로그를 확인합니다. 이는 Teams를 종료할 수 없는 프로세스를 알려줍니다.
 - Teams를 종료하지 못하게 할 수 있는 또 다른 원인은 커널 모드 파일 시스템 필터 드라이버입니다. SysInternals 도구 [ ProcDump ](https://docs.microsoft.com/sysinternals/downloads/procdump)를 사용하여 ```procdump -mk <pid>```을 실행하여 커널 모드 프로세스 덤프를 수집합니다. 여기서 <pid>는 작업 관리자에서 얻은 프로세스 ID입니다. Driverquery.txt 로그 파일을 검사하여 Teams를 방해할 수 있는 활성 필터 드라이버를 확인할 수도 있습니다.
 - 이 상태에서 복구하려면 컴퓨터를 다시 시작합니다.
@@ -133,14 +133,14 @@ Teams는 설치 및 업데이트 프로세스 동안 사용자의 프로필에 �
 |폴더  |사용자  |
 |---------|---------|
 |%LocalAppData%\SquirrelTemp     | 설치 단계 중 Teams 설치 프로그램(예 : Teams_Windows_x64.exe)        |
-|%LocalAppData%\Microsoft\Teams  | 업데이트 프로세스 중에 앱 패키지를 추출하고 준비하기위한 Teams 업데이트 프로그램(Update.exe)        |
+|%LocalAppData%\Microsoft\Teams  | 업데이트 프로세스 중에 앱 패키지를 추출하고 준비하기 위한 Teams 업데이트 프로그램(Update.exe)        |
 |%AppData%\Microsoft\Teams   |  설정, 앱 상태 및 다운로드된(사전 준비된) 업데이트 패키지를 저장하는 Teams 앱(Teams.exe)       |
 
 Teams에서 파일에 쓸 수 없어 액세스가 거부되는 경우 다른 소프트웨어 응용 프로그램이 간섭하거나 보안 설명자 항목이 폴더에 대한 쓰기 액세스를 제한할 수 있습니다.
 
 문제 해결 팁:
 
-- SquirrelTemp.log 또는 Logs.txt에서 "액세스 거부"증거를 찾습니다. 이 파일을 확인하여 실패한 파일에 쓰려고 시도한 것이 있는지 확인합니다.
+- SquirrelTemp.log 또는 Logs.txt에서 "액세스 거부" 증거를 찾습니다. 이 파일을 확인하여, 파일에 쓰려고 시도했으나 실패한 기록이 있는지 확인합니다.
 - Icacls.txt를 열고 관리자가 아닌 사용자의 쓰기 작업을 차단하는 효과적인 ACE(액세스 제어 항목)를 찾습니다. 일반적으로 DACL 항목 중 하나에 있습니다. 자세한 내용을 보려면 [icacls 설명서](https://docs.microsoft.com/windows-server/administration/windows-commands/icacls)를 참조하세요.
 
 #### <a name="file-corrupted"></a>파일이 손상됨
