@@ -17,12 +17,12 @@ f1.keywords:
 description: 다이렉트 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0756860bc6fad7a470a33e00ac8452e7977ecde0
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691224"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859653"
 ---
 # <a name="direct-routing---sip-protocol"></a>다이렉트 라우팅-SIP 프로토콜
 
@@ -44,7 +44,7 @@ ms.locfileid: "44691224"
 | 머리글에서 | 보낸 사람 머리글: <sip: 7168712781@sbc1 adatum, transport = udp, tag = 1c747237679 |
 | To 머리글 | 대상: sip:+183338006777@sbc1.adatum.biz | 
 | CSeq 헤더 | CSeq: 1 초대 | 
-| 연락처 머리글 | 연락처: <sip: 68712781@sbc1 adatum, transport = tls> | 
+| 연락처 머리글 | 연락처: <sip: 68712781@sbc1 adatum: 5058; transport = tls> | 
 
 초대를 받을 때 SIP 프록시는 다음 단계를 수행 합니다.
 
@@ -100,13 +100,13 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 SIP 프록시는 새로운 대화 상자 클라이언트 트랜잭션 (예: Bye 또는 재 초대)에 대해 다음 홉 FQDN을 계산 해야 하며 SIP 옵션에 회신할 때 연락처 또는 레코드 경로가 사용 됩니다. 
 
-RFC 3261에 따르면 새 대화를 만들 수 있는 모든 요청에 대해 Contact 헤더가 필요 합니다. 레코드 경로는 프록시에서 대화에 대 한 향후 요청 경로를 유지 하려는 경우에만 필요 합니다. 
+RFC 3261에 따르면 새 대화를 만들 수 있는 모든 요청에 대해 Contact 헤더가 필요 합니다. 레코드 경로는 프록시에서 대화에 대 한 향후 요청 경로를 유지 하려는 경우에만 필요 합니다. 프록시 SBC가 [직접 라우팅에 대 한 로컬 미디어 최적화](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)와 함께 사용 되는 경우 프록시 sbc가 경로에 있어야 하므로 레코드 경로를 구성 해야 합니다. 
 
-다음과 같은 이유로 인해 연락처 머리글만 사용 하는 것이 좋습니다.
+프록시 SBC를 사용 하지 않는 경우에는 Contact 헤더만 사용 하는 것이 좋습니다.
 
-- RFC 3261에서 레코드는 프록시에서 대화에 대 한 향후 요청 경로를 유지 하려는 경우에 사용 되며,이는 모든 트래픽이 Microsoft SIP 프록시와 페어링된 SBC 사이에서 진행 됨에 따라 반드시 필요한 것은 아닙니다. SBC와 Microsoft SIP 프록시 사이에는 중간 프록시 서버가 필요 하지 않습니다.
+- RFC 3261에서 레코드는 프록시에서 대화에 대 한 향후 요청 경로를 유지 하려는 경우에 사용 되며, 모든 트래픽이 Microsoft SIP 프록시와 쌍 SBC 사이에 연결 될 때 프록시 SBC이 구성 되어 있지 않은 경우에는 필수적이 지 않습니다. 
 
-- Microsoft SIP 프록시는 아웃 바운드 ping 옵션을 보낼 때 다음 홉을 결정 하는 데 레코드 경로가 아닌 대화 상대 머리글만 사용 합니다. 2 (연락처 및 레코드 경로) 대신 매개 변수 (Contact) 하나만 구성 하면 관리가 간단해 집니다.
+- Microsoft SIP 프록시는 아웃 바운드 ping 옵션을 보낼 때 다음 홉을 결정 하는 데 레코드 경로가 아닌 대화 상대 머리글만 사용 합니다. 2 (연락처 및 레코드 경로) 대신 매개 변수 (Contact)를 하나만 구성 하면 프록시 SBC를 사용 하지 않는 경우 관리가 간단해 집니다. 
 
 다음 홉을 계산 하기 위해 SIP 프록시는 다음을 사용 합니다.
 

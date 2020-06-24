@@ -12,16 +12,14 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 팀 사용자와 Skype (소비자) 사용자 간의 상호 운용성 기능에 대해 알아봅니다.
 localization_priority: Normal
-ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 87e860a49f235713ed4e9cea5c818912f2a352f5
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410433"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859643"
 ---
 # <a name="teams-and-skype-interoperability"></a>팀 및 Skype 상호 운용성
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 이 문서에서는 Microsoft 팀과 Skype (소비자) 간의 상호 운용성 기능에 대 한 개요를 제공 합니다. 팀 사용자와 Skype 사용자가 채팅 및 통화와 적용 되는 관리 제어를 통해 통신 하는 방법에 대해 알아봅니다.
 

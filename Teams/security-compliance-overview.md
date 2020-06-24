@@ -20,19 +20,19 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0771141955e2641e1cdd261a22b933950e6c3c2e
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 33c09a92d8c23d8bc4c13c9a131eb82733378840
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690244"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44841899"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
 > [!IMPORTANT]
 > **모든 사람이 공동으로 작업 하는 동안 보안**을 유지 하는 가장 좋은 방법을 알아보려면 다음 문서를 참조 하세요.
 >  - [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
->  - [VPN 분할 tunnelling를 사용 하 여 원격 사용자를 위한 Microsoft 365 또는 Office 365 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+>  - [VPN 분할 터널링을 사용하여 원격 사용자를 위해 Microsoft 365 혹은 Office 365 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - 업데이트 됨 2020 년 4 월 2 일: [팀 보안 가이드](teams-security-guide.md)
 
 
@@ -104,7 +104,7 @@ Microsoft 팀의 보존 정책을 사용 하면 조직에서 중요 한 데이�
 
 Microsoft 팀의 DLP (데이터 손실 방지)는 물론 Microsoft 365 또는 Office 365의 대규모 DLP 스토리는 중요 한 문서 및 데이터를 보호 하는 데 있어 비즈니스 준비가 진행 되 고 있는 것을 중심으로 합니다. 메시지 또는 문서의 중요 한 정보에 대해 염려 하는 경우 DLP 정책은 사용자가 중요 한 데이터를 잘못 된 사용자와 공유 하지 못하도록 할 수 있습니다.
 
-팀에서 데이터 손실 방지에 대 한 자세한 내용은 [Microsoft 팀에 대 한 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)를 검토 하세요. O36 DLP 관심사에 대 한 좋은 문서는 [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)에 대 한 개요입니다.
+팀에서 데이터 손실 방지에 대 한 자세한 내용은 [Microsoft 팀에 대 한 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)를 검토 하세요. O365 DLP 문제에 대 한 좋은 문서는 [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)에 대 한 개요입니다.
 
 ### <a name="ediscovery"></a>eDiscovery
 

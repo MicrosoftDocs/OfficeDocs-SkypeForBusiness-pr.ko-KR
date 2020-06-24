@@ -14,19 +14,19 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 모든 사용자가 팀 전용 업그레이드 모드에 있는 외부 사용자 간에 사용할 수 있는 Microsoft 팀의 외부 액세스 (페더레이션된) 사용자를 위한 기본 팀 채팅 환경에 대해 알아봅니다.
-ms.openlocfilehash: 0d6f7ed00482ee68233b4d93cc101e9c820a6f14
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a8cd038f8ff65ea24abb790e564d2cb30ef0ed1
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832688"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44842009"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft 팀의 외부 (페더레이션된) 사용자를 위한 기본 채팅 환경
 ======================================
 
-Microsoft 팀 사용자가 외부 (페더레이션된) 사용자와 채팅을 하는 경우 채팅 환경은 텍스트로 제한 됩니다. 그러나 팀 테 넌 트가 나 외부 사용자가 모두 TeamsOnly 업그레이드 모드인 경우, 다양 한 서식, @mentions, 기타 채팅 기능을 포함 하는 "기본 팀 채팅 환경"이 있을 수 있습니다. 즉, 조직의 사용자와 마찬가지로, 적격 외부 사용자와 동일한 다양 한 1:1 팀 채팅 환경을 제공할 수 있습니다. 외부 사용자와의 기본 팀 채팅은 여전히 1:1 채팅으로 제한 됩니다 (외부 사용자는 그룹 채팅을 수행할 수 없음).
+Microsoft 팀 사용자가 외부 (페더레이션된) 사용자와 채팅을 하는 경우 채팅 환경은 텍스트로 제한 됩니다. 그러나 팀 사용자와 외부 사용자가 모두 TeamsOnly 업그레이드 모드인 경우, 다양 한 서식, @mentions, 기타 채팅 기능을 포함 하는 "기본 팀 채팅 환경"을 사용할 수 있습니다. 즉, 조직의 사용자와 마찬가지로, 적격 외부 사용자와 동일한 다양 한 1:1 팀 채팅 환경을 제공할 수 있습니다. 외부 사용자와의 기본 팀 채팅은 여전히 1:1 채팅으로 제한 됩니다 (외부 사용자는 그룹 채팅을 수행할 수 없음).
 
-외부 사용자에 대 한 기본 채팅 환경은 모든 팀 테 넌 트에 대해 설정 되어 있지만 모든 사용자가 사용할 수 있는 것은 아닙니다. 기본 채팅 환경을 제공 하려면 발신자와 수신자가 모두 TeamsOnly 업그레이드 모드를 실행 하는 팀 테 넌 트에 있어야 합니다. 업그레이드 정책에 대해 자세히 알아보려면 [공존 및 업그레이드 설정 설정을](setting-your-coexistence-and-upgrade-settings.md)참조 하세요.
+외부 사용자에 대 한 기본 채팅 환경은 모든 팀 테 넌 트에 대해 설정 되어 있지만 모든 사용자가 사용할 수 있는 것은 아닙니다. 기본 채팅 환경을 제공 하려면, 팀 전용 업그레이드 모드에 대해 발신자와 수신자를 모두 구성 해야 합니다. 업그레이드 정책에 대해 자세히 알아보려면 [공존 및 업그레이드 설정 설정을](setting-your-coexistence-and-upgrade-settings.md)참조 하세요.
 
 팀의 외부 액세스 사용자에 대 한 기능 목록을 보려면 [외부 및 게스트 액세스 비교](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)를 참조 하세요.
 
