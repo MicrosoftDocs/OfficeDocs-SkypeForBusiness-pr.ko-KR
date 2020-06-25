@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 개발에서 배포에 이르기까지 사용자 지정 팀 앱을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 705f5ecf5628dd981a4deb3ded847b3da8e9ea08
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064533"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868515"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Microsoft 팀에서 사용자 지정 앱 관리
 
@@ -41,7 +41,7 @@ ms.locfileid: "44064533"
 
 ### <a name="create-test-users"></a>테스트 사용자 만들기
 
-사내 또는 외부에 있든 관계 없이 개발자가 테스트 테 넌 트에 계정이 있는지 확인 합니다. <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">사용자 추가에 대해 자세히 알아보세요</a>.
+사내 또는 외부에 있든 관계 없이 개발자가 테스트 테 넌 트에 계정이 있는지 확인 합니다. <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users" target="_blank">사용자 추가에 대해 자세히 알아보세요</a>.
 
 ### <a name="allow-custom-apps-in-the-test-tenant"></a>테스트 테 넌 트에서 사용자 지정 앱 허용
 
@@ -50,13 +50,13 @@ ms.locfileid: "44064533"
 사용자가 사용자 지정 앱을 업로드 하도록 허용 하려면 다음 단계를 따릅니다.
 
 1. **사용자 지정 앱과 상호 작용 허용** 조직 전체 앱 설정을 사용 합니다. 실행할 작업:
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > 으로 이동 하 여**앱을 관리**하 고 **조직 전체 앱 설정을**클릭 합니다.
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱**으로 이동 하 여  >  **앱을 관리**하 고 **조직 전체 앱 설정을**클릭 합니다.
     2. **사용자 지정 앱**에서 **사용자 지정 앱과의 상호 작용 허용**을 켠 다음 **저장**을 클릭 합니다.
 
     !["사용자 지정 앱과 상호 작용 허용" 조직 전체 앱 설정의 스크린샷](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. 전역 앱 설정 정책에서 **사용자 지정 앱 업로드** 설정을 켭니다. 실행할 작업:
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > **설정 정책**으로 이동한 다음 **전역 (조직 전체 기본값)** 정책을 클릭 합니다.
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱**  >  **설정 정책**으로 이동한 다음 **전역 (조직 전체 기본값)** 정책을 클릭 합니다.
     2. **사용자 지정 앱 업로드**를 켠 다음 **저장**을 클릭 합니다.
 
     !["사용자 지정 앱 업로드" 앱 설치 정책 설정의 스크린샷](media/manage-your-lob-apps-app-setup-custom-apps.png)
@@ -86,13 +86,13 @@ Microsoft는 <a href="https://docs.microsoft.com/microsoftteams/platform/publish
 신뢰할 수 있는 사용자가 사용자 지정 앱을 업로드 하도록 허용 하려면 다음 단계를 따릅니다.
 
 1. **사용자 지정 앱과 상호 작용 허용** 조직 전체 앱 설정을 사용 합니다. 실행할 작업:
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > 으로 이동 하 여**앱을 관리**하 고 **조직 전체 앱 설정을**클릭 합니다.
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱**으로 이동 하 여  >  **앱을 관리**하 고 **조직 전체 앱 설정을**클릭 합니다.
     2. **사용자 지정 앱**에서 **사용자 지정 앱과의 상호 작용 허용**을 켠 다음 **저장**을 클릭 합니다.
 2. 전역 앱 설정 정책에서 **사용자 지정 앱 업로드** 설정을 해제 합니다. 실행할 작업:
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > **설정 정책**으로 이동한 다음 **전역 (조직 전체 기본값)** 정책을 클릭 합니다.
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱**  >  **설정 정책**으로 이동한 다음 **전역 (조직 전체 기본값)** 정책을 클릭 합니다.
     2. **사용자 지정 앱 업로드**를 해제 한 다음 **저장**을 클릭 합니다.
 3. 사용자 지정 앱을 업로드 하 고 신뢰할 수 있는 사용자 집합에 할당할 수 있는 새 앱 설정 정책을 만듭니다. 실행할 작업:
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > **설치 정책**으로 이동한 다음 **추가**를 클릭 합니다. 새 정책에 이름 및 설명을 지정 하 고, **사용자 지정 앱 업로드**를 설정한 다음 **저장**을 클릭 합니다.
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱**  >  **설치 정책**으로 이동한 다음 **추가**를 클릭 합니다. 새 정책에 이름 및 설명을 지정 하 고, **사용자 지정 앱 업로드**를 설정한 다음 **저장**을 클릭 합니다.
     2. 만든 새 정책을 선택한 다음 **사용자 관리**를 클릭 합니다. 사용자를 검색 하 고 **추가**를 클릭 한 다음 **적용**을 클릭 합니다. 이 단계를 반복 하 여 모든 신뢰할 수 있는 사용자에 게 정책을 할당 합니다.
 
         !["앱 설치 정책 추가" 페이지의 스크린샷](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -125,7 +125,7 @@ Microsoft는 <a href="https://docs.microsoft.com/microsoftteams/platform/publish
 
 앱을 업데이트 하려면 개발자가 [1 단계](#step-1-develop-and-test) 와 [2 단계](#step-2-validate-in-production)를 계속 수행 해야 합니다.
 
-테 넌 트 앱 카탈로그를 통해 앱을 업데이트할 수 있습니다. 이렇게 하려면 Microsoft 팀 관리 센터에서 **팀 앱** > 앱**관리**로 이동 합니다. 앱 목록에서 앱 이름을 클릭 한 다음 **업데이트**를 클릭 합니다. 이렇게 하면 테 넌 트 앱 카탈로그의 기존 앱이 바뀌고, 모든 앱 권한 정책 및 앱 설정 정책은 업데이트 된 앱에 적용 됩니다.
+테 넌 트 앱 카탈로그를 통해 앱을 업데이트할 수 있습니다. 이렇게 하려면 Microsoft 팀 관리 센터에서 **팀 앱**앱  >  **관리**로 이동 합니다. 앱 목록에서 앱 이름을 클릭 한 다음 **업데이트**를 클릭 합니다. 이렇게 하면 테 넌 트 앱 카탈로그의 기존 앱이 바뀌고, 모든 앱 권한 정책 및 앱 설정 정책은 업데이트 된 앱에 적용 됩니다.
 
 ### <a name="end-user-update-experience"></a>최종 사용자 업데이트 환경
 

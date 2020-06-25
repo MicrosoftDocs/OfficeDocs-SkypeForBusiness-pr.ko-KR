@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: 누적 업데이트 1을 설치한 후 PowerShell을 사용 하 여 비즈니스용 Skype 서버 2019의 SEFAUtil 기능을 가져오는 방법을 알아봅니다.'
-ms.openlocfilehash: 24040a3da5dc2549996463078a55324f3fc03657
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 19c3ba1124bbc1f32f301096036404f8bd101fe9
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232569"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868555"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에서 PowerShell을 통해 SEFAUtil 기능 사용
 
@@ -103,7 +103,7 @@ SEFAUtil (보조 확장 기능 활성화)를 사용 하면 비즈니스용 skype
 - CsHelpDesk-모든 cmdlet 가져오기
 
 이러한 관리자 역할에 대 한 자세한 내용은 [Create Skype For Business Server 제어판 Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)를 참조 하세요. 관리자는 서버 컴퓨터에 직접 또는 원격으로 로그온 하 여 이러한 cmdlet에 액세스할 수 있습니다.
-하이브리드 배포의 경우 비즈니스용 Skype 관리자는 모든 cmdlet에 대해 Get 및 Set을 호출할 수 있어야 합니다. 역할의 전체 목록에 대 한 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하십시오.
+하이브리드 배포의 경우 비즈니스용 Skype 관리자는 모든 cmdlet에 대해 Get 및 Set을 호출할 수 있어야 합니다. 전체 역할 목록에 대 한 자세한 내용은 [관리 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조 하십시오.
 
 > [!NOTE]
 > 서버 자동 검색을 사용 하도록 설정 해야 합니다. Cmdlet 사용을 위해 추가 라이선스 요구 사항이 도입 되지는 않습니다.

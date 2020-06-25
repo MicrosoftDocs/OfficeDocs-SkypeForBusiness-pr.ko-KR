@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 클라우드 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697415"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874255"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>클라우드 자동 전화 교환 설정
 
@@ -220,7 +220,7 @@ ms.locfileid: "44697415"
 
 > [!IMPORTANT]
 > 다음 사항을 준수 하세요.
->- 내선 번호로 전화를 걸 수 있도록 하려는 사용자는 Active Directory 또는 Azure Active Directory [Microsoft 365 관리 센터](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)에 정의 된 다음 phone 특성 중 하나의 일부로 확장명을 지정 해야 합니다.
+>- 내선 번호로 전화를 걸 수 있도록 하려는 사용자는 Active Directory 또는 Azure Active Directory에 정의 된 다음 전화 특성 중 하나의 일부로 확장명을 지정 해야 합니다 (자세한 내용은 [사용자를 개별적으로 또는 대량 추가] 참조) ( https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .
 >    - HomePhone
 >    - 모바일/MobilePhone
 >    - TelephoneNumber/PhoneNumber

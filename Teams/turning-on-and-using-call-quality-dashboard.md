@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 받는 방법을 알아봅니다.
-ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8f1bd778cfa24551d90b0186e606235193a47b0d
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697449"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874249"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -41,7 +41,7 @@ CQD (통화 품질 대시보드)는 Microsoft 팀과 비즈니스용 Skype Onlin
 
 ## <a name="assign-roles-for-accessing-cqd"></a>CQD에 액세스 하기 위한 역할 할당
 
-사용 해야 하는 사용자에 게 CQD에 액세스 하기 위한 [역할](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 을 할당 합니다. 
+사용 해야 하는 사용자에 게 CQD에 액세스 하기 위한 [역할](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 을 할당 합니다.
 
 다음 표에서는 각 역할이 CQD에서 수행할 수 있는 작업을 보여 줍니다.
 

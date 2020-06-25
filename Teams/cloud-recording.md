@@ -16,12 +16,12 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3fd2a8c7c34b52b8724d72110e281e754d9c02b0
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 97fa736a1f2277dbd9da2305b75bf16b26d34e73
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710812"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874415"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -76,7 +76,7 @@ Microsoft Teams 관리 센터에서 모임 정책의 **클라우드 녹음/녹�
 
 PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowCloudRecording 설정을 구성할 수 있습니다. 자세한 내용은 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)를 참조하세요.
 
-모임 이끌이 및 녹음/녹화 개시자 모두에게 모임을 녹음/녹화하는 데 필요한 녹음/녹화 권한이 있어야 합니다. 사용자에게 사용자 지정 정책을 할당하지 않은 경우 사용자는 기본적으로 AllowCloudRecording을 해제한 전역 정책을 받게됩니다.
+모임 이끌이 및 녹음/녹화 개시자 모두에게 모임을 녹음/녹화하는 데 필요한 녹음/녹화 권한이 있어야 합니다. 사용자에 게 사용자 지정 정책을 할당 하지 않은 경우 사용자는 기본적으로 허용 되는 AllowCloudRecording을 사용 하는 전역 정책을 가져옵니다.
 
 > [!NOTE]
 > 팀 역할을 사용 하 여 모임 기록 권한이 있는 사용자를 구성 하는 방법에 대 한 자세한 내용은 [팀 모임에서 역할](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)을 참조 하세요.

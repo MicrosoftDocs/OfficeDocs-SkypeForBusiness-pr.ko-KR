@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀의 정보 장벽에 대해 설명
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 12bd0102904ff933b5a2ffd6f12d8a8d3b76aaaa
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326745"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868695"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
@@ -94,7 +94,7 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
 
 - 두 명 이상의 사용자가 화면을 **공유** 하는 경우, 두 명 이상의 사용자가 화면을 공유할 때마다 화면 공유를 평가 하 여 다른 사용자의 정보 장벽 정책에 위배 되지 않도록 해야 합니다. 정보 장벽 정책이 위반 되는 경우 화면 공유는 허용 되지 않습니다.
 - **사용자가 팀에 VOIP (voice call)를 배치** 합니다-사용자가 다른 사용자 또는 사용자 그룹에 게 음성 통화를 시작할 때마다 해당 통화가 다른 팀 구성원의 정보 장벽 정책을 위반 하지 않도록 평가 됩니다. 위반 사항이 있는 경우 음성 통화가 차단 됩니다.
-- **팀의 게스트 사용자** -정보 장벽 정책은 팀의 게스트 사용자 에게도 적용 됩니다. 조직의 전체 주소 목록에서 게스트 사용자를 검색할 수 있어야 하는 경우 [Microsoft 365 그룹에서 게스트 액세스 관리](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)를 참조 하세요. 게스트 사용자가 검색 가능 하면 [정보 장벽 정책을 정의할](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)수 있습니다.
+- **팀의 게스트 사용자** -정보 장벽 정책은 팀의 게스트 사용자 에게도 적용 됩니다. 조직의 전체 주소 목록에서 게스트 사용자를 검색할 수 있어야 하는 경우 [Microsoft 365 그룹에서 게스트 액세스 관리](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)를 참조 하세요. 게스트 사용자가 검색 가능 하면 [정보 장벽 정책을 정의할](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)수 있습니다.
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>정책 변경으로 기존 채팅에 영향을 주는 방법
 

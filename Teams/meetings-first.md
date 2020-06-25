@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637947"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868475"
 ---
 # <a name="meetings-first"></a>무엇보다도 모임을 우선으로
 
@@ -82,7 +82,7 @@ ms.locfileid: "44637947"
 
 최상의 모임 첫 경험을 위해서는 사용자가 [Exchange Online](exchange-teams-interact.md), [SharePoint Online, 비즈니스용 OneDrive](sharepoint-onedrive-interact.md), Microsoft 365 그룹 만들기를 사용 해야 합니다. 사서함이 Exchange 온-프레미스에 있거나 SharePoint Online 또는 비즈니스용 OneDrive를 사용 하지 않는 사용자 또는 Microsoft 365 그룹 만들기 인 경우에는 먼저 모임이 지원 됩니다. 그러나, 그 환경은 그다지 완벽 하지 않을 것입니다. 특히 Exchange Server 온-프레미스를 사용 하는 조직의 경우 팀 클라이언트에서 모임을 만들고 볼 때 준수 기능과 관련 하 여 몇 가지 제한 사항이 있을 수 있습니다 (Exchange Server 버전에 따라 다름).
 
-최소한 사용자는 [팀에 대 한 라이선스가](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)있어야 합니다. 또한 필요한 경우 [오디오 회의](set-up-audio-conferencing-in-teams.md)에 대 한 사용이 허가 될 수 있습니다.
+최소한 사용자는 [팀에 대 한 라이선스가](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)있어야 합니다. 또한 필요한 경우 [오디오 회의](set-up-audio-conferencing-in-teams.md)에 대 한 사용이 허가 될 수 있습니다.
 
 사용자를 라이선스 할 때 테 넌 트 기본값으로 [ **SfBOnly** 또는 **SfBWithTeamsCollab** ](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) 모드를 부여 하는 것이 좋습니다. 이렇게 하면 사용자가 처음에 모임 시작을 준비 하기 전에 기본 **제도** 모드에서 팀을 사용 하 여 시작 하지 않아도 됩니다.
 

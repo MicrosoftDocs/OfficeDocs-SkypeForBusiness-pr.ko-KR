@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: dc05c885b3b2eb5ef4991a6580ebcb0751c87f39
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669414"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874266"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams에 대한 조직의 네트워크 준비 
 
@@ -51,8 +51,8 @@ ms.locfileid: "44669414"
     
 2.  Microsoft 365 또는 Office 365에 대해 확인 된 도메인이 있습니까 (예: contoso.com)?
     
-      - 조직에서 Microsoft 365 또는 Office 365을 롤백하지 않은 경우 [microsoft 365 또는 비즈니스용 office 365 시작](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)을 참조 하세요.
-      - 조직에서 Microsoft 365 또는 Office 365에 대해 확인 된 도메인을 추가 하거나 구성 하지 않은 경우 [microsoft 365 또는 office 365 도메인 확인](https://docs.microsoft.com/office365/admin/setup/domains-faq)을 참조 하세요.
+      - 조직에서 Microsoft 365 또는 Office 365을 롤백하지 않은 경우 [시작](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365)을 참조 하세요.
+      - 조직에서 Microsoft 365 또는 Office 365에 대해 확인 된 도메인을 추가 하거나 구성 하지 않은 경우에는 [도메인 FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)를 참조 하세요.
 
 3.  조직에서 Exchange Online 및 SharePoint Online을 배포 했습니까?
     
@@ -99,7 +99,7 @@ ms.locfileid: "44669414"
 </tr>
 <tr class="even">
 <td>팀 관리자</td>
-<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">팀</a> 관리자는 <a href="https://admin.teams.microsoft.com">팀 관리 센터</a>의 일부입니다. Microsoft 365 또는 Office 365 환경을 평가 하 고 팀을 성공적으로 롤아웃하기 위해 업데이트 하거나 수정 해야 할 수 있는 가장 일반적인 구성을 식별 합니다.</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">팀</a> 관리자는 <a href="https://admin.teams.microsoft.com">팀 관리 센터</a>의 일부입니다. Advisor for Teams(미리 보기)는 Microsoft 365 또는 Office 365 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.</td>
 </tr>
 <tr class="odd">
 <td>외부 이름 확인</td>

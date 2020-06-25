@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c5f6c30ea0fd36df35280dc0b179babec9e98107
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666220"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868145"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Microsoft 팀을 위한 IT 직원 준비
 
@@ -42,7 +42,7 @@ Microsoft 365 또는 Office 365 조직 관리자, 기술 책임자 및 지원 �
 IT 담당자와 다음 리소스를 공유 하 고 팀으로 업그레이드 하기 전에 사용자 지원 준비가 되었는지 확인 합니다.
 
 - [Microsoft 팀의 관리 교육](itadmin-readiness.md)
-- [비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 - [Microsoft Teams 클라이언트의 연결 문제 해결](connectivity-issues.md)
 - [Microsoft 팀 문제 해결에서 로그 파일 사용](log-files.md)
 

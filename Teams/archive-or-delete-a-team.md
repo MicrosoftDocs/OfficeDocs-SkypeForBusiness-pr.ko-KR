@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611007"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868705"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 ===========================================
@@ -72,7 +72,7 @@ ms.locfileid: "44611007"
 
 팀과 연결 된 Microsoft 365 그룹을 복원 하 여 삭제 된 팀을 복원 하려면 다음 단계를 따르세요. 팀에 대 한 Microsoft 365 그룹을 복원 하면 탭, 표준 채널, 개인 채널 및 연결 된 사이트 모음을 비롯 한 팀 콘텐츠가 복원 됩니다.
 
-기본적으로 삭제 된 Microsoft 365 그룹은 30 일 동안 보존 됩니다. 이 30일의 기간을 “일시 삭제”라고 하며 이 기간 동안 그룹을 복원할 수 있습니다. 자세히 알아보려면 [삭제 된 Microsoft 365 그룹 복원을](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)참조 하세요.
+기본적으로 삭제 된 Microsoft 365 그룹은 30 일 동안 보존 됩니다. 이 30일의 기간을 “일시 삭제”라고 하며 이 기간 동안 그룹을 복원할 수 있습니다. 자세히 알아보려면 [삭제 된 그룹 복원을](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)참조 하세요.
 
 ### <a name="install-the-azureadpreview-module"></a>AzureADPreview 모듈 설치하기
 

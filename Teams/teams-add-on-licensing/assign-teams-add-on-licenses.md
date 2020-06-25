@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대해 사용자에 게 팀 추가 기능 라이선스를 할당 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c7c455628f7595e1517fbd0cef8d2edc454ffbb
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: c7faaf2e65330aafd809872ed19b5f2f16afc668
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042782"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868585"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>사용자에 게 팀 추가 기능 라이선스 할당
 
@@ -48,7 +48,7 @@ Microsoft 365 관리 센터 또는 PowerShell을 사용 하 여 조직의 사용
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 사용
 
-Microsoft 365 관리 센터를 사용 하 여 개별 사용자 또는 작은 사용자 집합에 라이선스를 한 번에 할당할 수 있습니다. **라이선스 페이지 (** 한 번에 최대 20 명의 사용자) 또는 **활성 사용자** 페이지에서 라이선스를 할당할 수 있습니다. 특정 사용자에 대 한 제품 라이선스를 관리 하거나 특정 제품에 대 한 사용자 라이선스를 관리할 것인지 여부에 따라 다른 방법이 선택 됩니다. 
+Microsoft 365 관리 센터를 사용 하 여 개별 사용자 또는 작은 사용자 집합에 라이선스를 한 번에 할당할 수 있습니다. **라이선스 페이지 (** 한 번에 최대 20 명의 사용자) 또는 **활성 사용자** 페이지에서 라이선스를 할당할 수 있습니다. 특정 사용자에 대 한 제품 라이선스를 관리 하거나 특정 제품에 대 한 사용자 라이선스를 관리할 것인지 여부에 따라 다른 방법이 선택 됩니다.
 
 단계별 지침은 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)을 참조 하세요.
 
@@ -71,7 +71,7 @@ PowerShell을 사용 하 여 사용자에 게 라이선스를 대량으로 할�
         ```
     3. NuGet 공급자를 설치 하 라는 메시지가 표시 되 면 **Y**를 입력 한 다음 enter 키를 누릅니다.
     4. PSGallery에서 모듈을 설치 하 라는 메시지가 표시 되 면 **Y**를 입력 한 다음 enter 키를 누릅니다.
-3. Windows PowerShell 명령 프롬프트에서 다음 스크립트를 실행 하 여 사용자에 게 라이선스를 할당 합니다. \<여기에서 CompanyName: 라이선스>는 조직 이름 및 할당 하려는 라이선스의 식별자입니다. 예를 들어 litwareinc: MCOMEETADV.
+3. Windows PowerShell 명령 프롬프트에서 다음 스크립트를 실행 하 여 사용자에 게 라이선스를 할당 \<CompanyName:License> 합니다. 여기서 조직 이름과 할당 하려는 라이선스의 식별자는 여기에 지정 됩니다. 예를 들어 litwareinc: MCOMEETADV.
 
     식별자가 라이선스의 식별 이름과 다릅니다. 예를 들어 오디오 회의에 대 한 식별자는 MCOMEETADV입니다. 자세한 정보는 [라이선스의 제품 이름 및 SKU 식별자](#product-names-and-sku-identifiers-for-licensing)를 참조 하세요.
 
@@ -153,7 +153,7 @@ PowerShell을 사용 하 여 사용자에 게 라이선스를 대량으로 할�
 | 국내 통화 요금제 (각 국가의 사용자/월 240 분) </br>*이 요금제는 미국에서 사용할 수 없습니다.* | MCOPSTN6 |
 | 통신 크레딧 | MCOPSTNPP |
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams 추가 기능 라이선스](microsoft-teams-add-on-licensing.md)
 - [Teams에 대한 사용자 액세스 관리](../user-access.md)

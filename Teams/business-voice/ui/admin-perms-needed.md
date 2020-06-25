@@ -16,12 +16,12 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: 7ec22f179ce56c25955db824a0358a5550cdcfbb
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: b1f031a538872aac7bf0891c6dc56886f7eae048
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610957"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868445"
 ---
 # <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Microsoft 365 Business Voice를 구입 하는 데 필요한 관리자 권한
 
@@ -45,4 +45,4 @@ Microsoft 365 관리 센터에 액세스할 수 없는 경우 비즈니스 음�
 
 ## <a name="what-if-im-still-having-trouble"></a>여전히 문제가 있는 경우에는 어떻게 하나요?
 
-위의 모든 이유를 확인 했지만 비즈니스 음성을 구매할 수 없는 경우 도움이 필요한 경우 [고객 지원에 문의 하세요](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) .
+위의 모든 이유를 검사 했지만 비즈니스 음성을 구매할 수 없는 경우 [비즈니스 제품에 대 한 고객 지원 팀에 문의-관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)을 참조 하세요.

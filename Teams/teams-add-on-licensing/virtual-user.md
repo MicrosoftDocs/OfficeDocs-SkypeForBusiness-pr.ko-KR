@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 조직의 리소스 계정에 무료 전화 시스템-가상 사용자 라이선스 또는 유료 전화 시스템 사용자 라이선스를 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042415"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868655"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템-가상 사용자 라이선스
 
@@ -47,25 +47,25 @@ ms.locfileid: "44042415"
 
 ### <a name="license-allocation-example"></a>라이선스 할당 예제
 
-Contoso, Inc.는 전화 시스템을 포함 하는 600 라이선스 (각 직원에 대해 하나씩)을 구매 합니다. Contoso에는 초기 25 plus 60 Microsoft 365 전화 시스템 (가상 사용자 라이선스, 총 85)이 할당 됩니다. 귀하의 조직에는 90 통화 대기열과 전화 번호가 있는 자동 전화 교환이 있습니다. 모든 Microsoft 365 전화 시스템-가상 사용자 라이선스를 할당 하 고 정기적인 일반 전화 시스템 라이선스를 확보 해야 합니다. 
+Contoso, Inc.는 전화 시스템을 포함 하는 600 라이선스 (각 직원에 대해 하나씩)을 구매 합니다. Contoso에는 초기 25 plus 60 Microsoft 365 전화 시스템 (가상 사용자 라이선스, 총 85)이 할당 됩니다. 귀하의 조직에는 90 통화 대기열과 전화 번호가 있는 자동 전화 교환이 있습니다. 모든 Microsoft 365 전화 시스템-가상 사용자 라이선스를 할당 하 고 정기적인 일반 전화 시스템 라이선스를 확보 해야 합니다.
 
-Contoso는 자동 전화 교환 및 통화 대기열 시스템 다시 디자인을 고려해 야 합니다. 전화 번호와 더 적은 수의 중첩 된 노드를 사용 하는 경우에는 전화번호가 필요 하지 않으며, 구현 하 고 비용을 줄여줍니다. 
+Contoso는 자동 전화 교환 및 통화 대기열 시스템 다시 디자인을 고려해 야 합니다. 전화 번호와 더 적은 수의 중첩 된 노드를 사용 하는 경우에는 전화번호가 필요 하지 않으며, 구현 하 고 비용을 줄여줍니다.
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Microsoft 365 전화 시스템을 구입 하는 방법-가상 사용자 라이선스 
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Microsoft 365 전화 시스템을 구입 하는 방법-가상 사용자 라이선스
 
 1. Microsoft 365 관리 센터에 로그인합니다.
-2. **청구** > **구입 서비스** > **추가** 기능으로 이동
+2. **청구**  >  **구입 서비스**  >  **추가** 기능으로 이동
 3. 끝으로 스크롤하여 **Microsoft 365 전화 시스템-가상 사용자** 라이선스를 찾습니다. **지금 구입**을 선택 합니다.
 
 > [!NOTE]
-> 비용을 0으로 표시 하는 경우에도 라이선스를 **구입** 해야 한다는 점에 유의 하세요. 
+> 비용을 0으로 표시 하는 경우에도 라이선스를 **구입** 해야 한다는 점에 유의 하세요.
 
 ## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템을 사용 하도록 기존 리소스 계정 변경-가상 사용자 라이선스
 
-해당 리소스 계정의 라이선스를 전화 시스템 라이선스에서 Microsoft 365 전화 시스템으로 전환 하기로 결정 한 경우-가상 사용자 라이선스: 
+해당 리소스 계정의 라이선스를 전화 시스템 라이선스에서 Microsoft 365 전화 시스템으로 전환 하기로 결정 한 경우-가상 사용자 라이선스:
 
-1. 새로운 Microsoft 365 전화 시스템-가상 사용자 라이선스를 얻습니다. 
-2. Microsoft 365 관리 센터의 연결 된 단계에 따라 [사용자를 다른 구독으로 이동](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)합니다. 
+1. 새로운 Microsoft 365 전화 시스템-가상 사용자 라이선스를 얻습니다.
+2. Microsoft 365 관리 센터의 연결 된 단계에 따라 [사용자를 다른 구독으로 이동](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)합니다.
 
 > [!WARNING]
 > 항상 전체 전화 시스템 라이선스를 제거 하 고 동일한 라이선스 활동에 Microsoft 365 전화 시스템 (가상 사용자 라이선스)을 할당 합니다. 이전 라이선스를 제거 하 고, 계정 변경 내용을 저장 하 고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장 하면 리소스 계정이 더 이상 예상 대로 작동 하지 않을 수 있습니다. 이 문제가 발생 하는 경우 Microsoft 365 전화 시스템에 대 한 새 리소스 계정 (가상 사용자 라이선스)을 만들고 끊어진 리소스 계정을 제거 하는 것이 좋습니다. 

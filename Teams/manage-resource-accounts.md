@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 팀에서 자원 계정을 만들고, 편집 하 고, 관리 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: f454658cb051ed9e918ca8a1d90c716a35933f68
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b47e00323129211f657ec1dafc4e62a7cd6e4321
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637977"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868615"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -118,7 +118,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 ![새 자원 계정 옵션 스크린샷](media/res-acct.png)
 
-다음으로 [사용자를 개별적으로 또는 대량으로 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)에 설명 된 바와 같이 Microsoft 365 관리 센터의 자원 계정에 라이선스를 적용 합니다.
+다음으로 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)에 설명 된 대로 Microsoft 365 관리 센터의 자원 계정에 라이선스를 적용 합니다.
 
 ### <a name="edit-resource-account"></a>자원 계정 편집 
 
@@ -153,10 +153,10 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>가상 사용자 라이선스를 사용 하도록 기존 리소스 계정 변경
 
-기존 리소스 계정의 라이선스를 전화 시스템 라이선스에서 가상 사용자 라이선스로 전환 하려는 경우 무료 가상 사용자 라이선스를 취득 한 다음 Microsoft 365 관리 센터의 단계를 따라 [사용자를 다른 구독으로 이동](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)해야 합니다. 
+기존 리소스 계정의 라이선스를 전화 시스템 라이선스에서 가상 사용자 라이선스로 전환 하려는 경우 무료 가상 사용자 라이선스를 취득 한 다음 Microsoft 365 관리 센터의 단계를 따라 [사용자를 다른 구독으로 이동](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)해야 합니다.
 
 > [!WARNING]
-> 항상 전체 전화 시스템 라이선스를 제거 하 고 동일한 라이선스 활동에 가상 사용자 라이선스를 할당 합니다. 이전 라이선스를 제거 하 고, 계정 변경 내용을 저장 하 고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장 하면 리소스 계정이 더 이상 예상 대로 작동 하지 않을 수 있습니다. 이 문제가 발생 하는 경우 가상 사용자 라이선스에 대 한 새 리소스 계정을 만들고 끊어진 리소스 계정을 제거 하는 것이 좋습니다. 
+> 항상 전체 전화 시스템 라이선스를 제거 하 고 동일한 라이선스 활동에 가상 사용자 라이선스를 할당 합니다. 이전 라이선스를 제거 하 고, 계정 변경 내용을 저장 하 고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장 하면 리소스 계정이 더 이상 예상 대로 작동 하지 않을 수 있습니다. 이 문제가 발생 하는 경우 가상 사용자 라이선스에 대 한 새 리소스 계정을 만들고 끊어진 리소스 계정을 제거 하는 것이 좋습니다.
 
 ## <a name="create-a-resource-account-in-powershell"></a>Powershell에서 리소스 계정 만들기
 
@@ -182,7 +182,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. 라이선스를 적용 하기 전에는 리소스 계정을 사용할 수 없습니다. Microsoft 365 관리 센터의 계정에 라이선스를 적용 하는 방법에 대 한 자세한 내용은 [비즈니스용 Skype 라이선스 할당](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)및 [대량으로 사용자 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 를 참조 하세요.
+2. 라이선스를 적용 하기 전에는 리소스 계정을 사용할 수 없습니다. Microsoft 365 관리 센터의 계정에 라이선스를 적용 하는 방법에 대 한 자세한 내용은[사용자에](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 게 라이선스 할당 및 [비즈니스용 Skype 라이선스 할당](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)을 참조 하세요.
 
 3. ) 자원 계정에 올바른 라이선스를 적용 한 후에는 다음과 같이 리소스 계정에 전화 번호를 지정할 수 있습니다. 일부 자원 계정에는 전화 번호가 필요 하지 않습니다. 자원 계정에 라이선스를 적용 하지 않은 경우에는 전화 번호 할당이 실패 합니다.
 

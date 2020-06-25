@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 업데이트, 사용자 인터페이스, 하드웨어, 제한 사항, 예상 동작 등 Microsoft 팀 대화방의 알려진 문제 목록에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e3cb46ed1ca3fde81f301ec6c2f2f8620452b389
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: 1083ceb040f173aeef0a8a60d56a888a6b8fdb17
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338228"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874455"
 ---
 # <a name="known-issues"></a>알려진 문제 
  
@@ -31,9 +31,10 @@ ms.locfileid: "44338228"
 
 | 문제 제목 |  동작 \/ 증상 | 알려진 해결 방법 | 기술 자료 문서 |
 |  ---        |      ---             |   ---            | --- |
+| 응용 프로그램이 시작 되지 않음 |  응용 프로그램 버전 4.4.41.0로 업데이트 한 후 시스템에서 검은색 화면으로 부팅 하거나 몇 분 후에 로그온 화면으로 이동 합니다. | 이 문제를 해결 하려면 Microsoft 팀 대화방의 단계를 수행 하 여 [버전 4.4.41.0로 업데이트 한 후 응용 프로그램을 시작 하지](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) 않습니다.  | 없음 |
 |  앱이 만료 되었습니다.         |    Microsoft 팀 회의실 콘솔에 "시스템 구성 오래 됨" 오류가 표시 됩니다.                |   [Microsoft 팀 대화방 복구 도구 사용](recovery-tool.md)             |  없음 |
 |  장치가 지원 되지 않는 버전의 Windows 10으로 업데이트 됨   |    Windows 10 장치가 버전 1803에서 버전 1809 (지원 되지 않음)로 업데이트 되었습니다. 지원 되는 버전은 1903입니다. |   이 문제는 지정 된 일 수 동안 기능 업데이트를 지연할 수 있는 [DeferFeatureUpdatesPeriodinDays setting에 대 한 그룹 정책 또는 MDM 설정이](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) 최대 365 일로 설정 된 경우에 발생할 수 있습니다. <br><br> Windows 10 버전 1809는 Microsoft 팀 대화방에서 지원 되지 않으며 버전 1903이 지원 됩니다. 그러나, 3 월 27 일 현재 2020 버전 1809은 365 일이 하를 초과 합니다. 이 설정이 변경 되지 않으면 Windows에서 버전 1809를 설치 하려고 시도 하며,이 경우 Microsoft 팀 대화방에 문제가 발생할 수 있습니다.<br><br>이 문제를 방지 하려면 업데이트 지연에 대 한 그룹 정책 또는 MDM 설정을 **제거** 합니다. 이렇게 하면 Windows에서 지원 되는 최신 OS 버전으로 업데이트할 수 있습니다. <br><br>**중요** 그룹 정책 또는 MDM 설정을 **제거** (왼쪽에 구성 취소) 하 고 **0으로 설정 하지**않아야 합니다. 정책이 0으로 설정 되 면 Windows에서 지원 되지 않을 수 있는 최신 버전을 사용 합니다. |  없음 |
-| 응용 프로그램이 시작 되지 않음 |  응용 프로그램 버전 4.4.41.0로 업데이트 한 후 시스템이 중지 될 수 있는 검은 화면으로 부팅 되거나 몇 분 후에 로그온 화면으로 이동 합니다. | 이 문제를 해결 하려면 Microsoft 팀 대화방의 단계를 수행 하 여 [버전 4.4.41.0로 업데이트 한 후 응용 프로그램을 시작 하지](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) 않습니다.  | 없음 |
+
 
 
 <a name="OS-conflicts"> </a>  

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1577000dfe1adcdbc7c1bb0c03ce6c90aa3b29f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e883a71d22a8af6c2af6eee8cdbd30e5b618f4dc
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666290"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868645"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft 팀 채택을 위한 피드백 및 신고 최적화
 
@@ -57,7 +57,7 @@ Microsoft 팀의 사용 현황을 확대할 준비가 되 면 확장 하는 각 
 Microsoft 팀을 배포 하 고 채택할 때 검토 해야 하는 세 가지 보고 유형은 다음과 같습니다.
 
 - [서비스 상태](https://status.office365.com/) -Microsoft 365, Office 365, 내부 IT 지원 부서에서 제공 합니다.
-- Microsoft [팀에서](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide) [서비스 활동](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) -microsoft 365 또는 Office 365에서의 보고서를 보고 합니다. 조직 내 다른 시스템의 정보를 사용할 수도 있습니다.
+- [관리 센터의 microsoft 365 보고서](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) -microsoft 365 또는 Office 365 [관리 센터-microsoft 팀 사용자 활동에 microsoft 365 보고서](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)를 표시 합니다. 조직 내 다른 시스템의 정보를 사용할 수도 있습니다.
 - 서비스 만족도 – 특정 환경에 대 한 내부 커뮤니티 포럼 및 설문 조사에서 수집
 
 ![다음 단계를 나타내는 아이콘 ](media/teams-adoption-next-icon.png) (다음: [드라이브 인식 및 교육 구현](teams-adoption-drive-awareness.md) )

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33c09a92d8c23d8bc4c13c9a131eb82733378840
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 43535495153979642e0913c18d39581406fbf84c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44841899"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868085"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -45,7 +45,7 @@ Microsoft 팀은 고객에 게 제공 되는 고급 보안 및 규정 준수 기
 - [Microsoft 팀의 보안 및 규정 준수 제어](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 분)
 
 > [!IMPORTANT]
-> Microsoft 365 또는 Office 365의 고객은 데이터를 소유 하 고 제어 합니다. Microsoft는 귀하가 구독 한 서비스를 제공 하는 것 외에는 데이터를 사용 하지 않습니다. 서비스 제공 업체는 전자 메일, 문서 또는 팀이 광고 또는 서비스와 관련이 없는 목적을 검사 하지 않습니다. Microsoft는 업로드 된 콘텐츠에 액세스할 수 없습니다. 비즈니스용 OneDrive 및 SharePoint Online과 마찬가지로 고객 데이터는 테 넌 트 내에 남아 있습니다. [Microsoft 보안 센터](https://microsoft.com/trustcenter)에서 신뢰 및 보안 관련 정보에 대 한 자세한 내용을 확인할 수 있습니다. 팀은 Microsoft 보안 센터와 동일한 지침 및 원칙을 따릅니다.
+> Microsoft 365 또는 Office 365의 고객은 데이터를 소유 하 고 제어 합니다. Microsoft는 귀하가 구독 한 서비스를 제공 하는 것 외에는 데이터를 사용 하지 않습니다. 서비스 제공 업체는 전자 메일, 문서 또는 팀이 광고 또는 서비스와 관련이 없는 목적을 검사 하지 않습니다. Microsoft는 업로드 된 콘텐츠에 액세스할 수 없습니다. Microsoft 365의 OneDrive 및 SharePoint와 마찬가지로 고객 데이터는 테 넌 트 내에 남아 있습니다. [Microsoft 보안 센터](https://microsoft.com/trustcenter)에서 신뢰 및 보안 관련 정보에 대 한 자세한 내용을 확인할 수 있습니다. 팀은 Microsoft 보안 센터와 동일한 지침 및 원칙을 따릅니다.
 
 ## <a name="security"></a>보안
 
@@ -53,14 +53,14 @@ Microsoft 팀은 고객에 게 제공 되는 고급 보안 및 규정 준수 기
 
 인증 및 팀에 대 한 자세한 내용을 확인 하기 위해 [id 모델 및 인증](identify-models-authentication.md) 을 읽고, [최신 인증 작동 방식](sign-in-teams.md) 에서는 최신 인증을 사용 하는 것이 특히 도움이 됩니다.
 
-팀은 SharePoint, OneNote, Exchange 등과의 협력 관계를 사용 하기 때문에 Microsoft 365 또는 Office 365의 모든 보안을 더욱 안전 하 게 관리할 수 있습니다. 자세한 내용은[보안을 강화 하기 위해 Microsoft 365 또는 Office 365 조 직을 구성 하는 방법을 참고 하세요](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+팀은 SharePoint, OneNote, Exchange 등과의 협력 관계를 사용 하기 때문에 Microsoft 365 또는 Office 365의 모든 보안을 더욱 안전 하 게 관리할 수 있습니다. 자세한 내용은 [보안을 강화 하기 위해 Microsoft 365 또는 Office 365 조 직을 구성 하는 방법을 참고 하세요](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
 
 > [!NOTE]
 > 현재 [개인 채널](private-channels.md) 은 제한 된 보안 및 규정 준수 기능을 지원 합니다. 개인 채널의 모든 보안 및 규정 준수 기능에 대 한 지원은 곧 제공 될 예정입니다.
 
 ### <a name="advanced-threat-protection-atp"></a>ATP (고급 위협 방지)
 
-Microsoft 팀은 SharePoint 및 비즈니스용 OneDrive, 콘텐츠 관리용 팀과 통합 되는 응용 프로그램 등의 ATP (고급 위협 방지)를 사용할 수 있습니다. ATP를 사용 하 여 이러한 응용 프로그램의 콘텐츠가 악의적인 지 여부를 확인 하 고 사용자 액세스에서이 콘텐츠를 차단할 수 있습니다.
+Microsoft 팀은 콘텐츠 관리용 팀과 통합 하는 응용 프로그램 및 SharePoint 및 OneDrive와 함께 ATP (Advanced Threat protection)를 사용할 수 있습니다. ATP를 사용 하 여 이러한 응용 프로그램의 콘텐츠가 악의적인 지 여부를 확인 하 고 사용자 액세스에서이 콘텐츠를 차단할 수 있습니다.
 
 검색 후에는 Microsoft 365 또는 Office 365에서 선택한 설정에 영향을 받는 콘텐츠를 관리 하는 방법에 대해 설명 합니다. 모든 응용 프로그램에서 ATP를 구성 하 고 더 읽기 위해 [SharePoint, OneDrive 및 Microsoft 팀 문서에 대 한 atp](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) 는 시작 방법에 대 한 자세한 정보를 얻을 것을 적극 권장 합니다.
 
@@ -70,13 +70,13 @@ Microsoft 팀은 SharePoint 및 비즈니스용 OneDrive, 콘텐츠 관리용 �
 
 ### <a name="safe-attachments"></a>안전한 첨부 파일
 
-안전한 첨부 파일은 악의적인 첨부 파일을 확인 하 고 검색 하 여 사용자 보안을 강화 하기 위해 디자인 된 기능입니다. 전역 또는 보안 관리자는 이러한 의심 스러운 첨부 파일을 사용자에 게 보내고, 클릭 하 고, 처리 하지 않도록 하는 [정책을](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) 만듭니다. 안전한 첨부 파일 보호는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 사용할 수 있으며, Microsoft 365 또는 Office 365 [고급 위협 보호 계획 1 및 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 에는이 기능이 있습니다. 안전한 첨부 파일과 [이를 통해 조직을 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)하는 방법에 대 한 자세한 내용을 확인 하세요.
+안전한 첨부 파일은 악의적인 첨부 파일을 확인 하 고 검색 하 여 사용자 보안을 강화 하기 위해 디자인 된 기능입니다. 전역 또는 보안 관리자는 이러한 의심 스러운 첨부 파일을 사용자에 게 보내고, 클릭 하 고, 처리 하지 않도록 하는 [정책을](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) 만듭니다. 안전한 첨부 파일 보호는 SharePoint, OneDrive 및 Microsoft 팀에서 사용할 수 있으며, Microsoft 365 또는 Office 365 [고급 위협 보호 계획 1 및 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 에는이 기능이 있습니다. 안전한 첨부 파일과 [이를 통해 조직을 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)하는 방법에 대 한 자세한 내용을 확인 하세요.
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>팀에 조건부 액세스 정책이 작동 하는 방식
 
-Microsoft 팀은 모임, 일정, interop 채팅, 파일 공유 등의 핵심 생산성 시나리오를 위해 Exchange Online, SharePoint Online, 비즈니스용 Skype Online에 크게 의존 합니다. 이러한 클라우드 앱에 대해 설정 된 조건부 액세스 정책은 사용자가 모든 클라이언트에서 Microsoft 팀에 직접 로그인 할 때 Microsoft 팀에 적용 됩니다.
+Microsoft 팀은 모임, 일정, interop 채팅, 파일 공유 등의 핵심 생산성 시나리오를 위해 Exchange Online, SharePoint, 비즈니스용 Skype Online에 크게 의존 합니다. 이러한 클라우드 앱에 대해 설정 된 조건부 액세스 정책은 사용자가 모든 클라이언트에서 Microsoft 팀에 직접 로그인 할 때 Microsoft 팀에 적용 됩니다.
 
-Microsoft 팀은 Azure Active Directory 조건부 액세스 정책의 클라우드 앱으로 별도로 지원 됩니다. Microsoft 팀 클라우드 앱에 대해 설정 된 조건부 액세스 정책은 사용자가 로그인 할 때 Microsoft 팀에 적용 됩니다. 그러나 Exchange Online 및 SharePoint Online과 같은 다른 앱에 대 한 올바른 정책이 없는 경우에도 사용자는 해당 리소스에 직접 액세스할 수 있습니다. Azure 포털에서 조건부 액세스 정책을 설정 하는 방법에 대 한 자세한 내용은 [Azure Active Directory 빠른](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)시작을 참조 하세요.
+Microsoft 팀은 Azure Active Directory 조건부 액세스 정책의 클라우드 앱으로 별도로 지원 됩니다. Microsoft 팀 클라우드 앱에 대해 설정 된 조건부 액세스 정책은 사용자가 로그인 할 때 Microsoft 팀에 적용 됩니다. 그러나 Exchange Online 및 SharePoint 같은 다른 앱에 대 한 올바른 정책이 없으면 사용자가 계속 해당 리소스에 액세스할 수 있습니다. Azure 포털에서 조건부 액세스 정책을 설정 하는 방법에 대 한 자세한 내용은 [Azure Active Directory 빠른](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)시작을 참조 하세요.
 
 Windows 및 Mac 용 Microsoft 팀 데스크톱 클라이언트는 최신 인증을 지원 합니다. 최신 인증은 office 용 ADAL (Active Directory 인증 라이브러리)을 플랫폼 전체의 Microsoft Office 클라이언트 응용 프로그램에 따라 로그인 합니다.
 
@@ -153,7 +153,7 @@ Microsoft 365 규정 준수 센터의 보존 및 유지에 대 한 자세한 내
 
 ### <a name="auditing-and-reporting"></a>감사 및 보고
 
-감사 로그 검색은 Microsoft 365 준수 센터에 바로 연결 되며, 다양 한 감사 시간 내에 관리 사용 및 조사를 위해 작업 부하 또는 제네릭 이벤트 집합을 내보낼 수 있도록 허용 하 여 감사 이벤트에 대 한 보고를 할 수 있는 기능을 제공 합니다. Microsoft 365 준수 센터 내에서 모든 감사 로그 데이터에 대 한 알림을 설정 하 고 추가 분석을 위해이 데이터를 필터링 하 고 내보낼 수 있습니다. Microsoft 365 또는 Office 365에 대 한 감사 로그를 수행 하는 방법에 대해 자세히 알아보려면 [감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 문서를 참조 하세요. Microsoft 365 규정 준수 센터에서 Microsoft 팀 이벤트를 검색 하는 방법에 대해 자세히 알아보려면 [팀에서 감사를 사용](audit-log-events.md) 하는 방법에 대해서도 검토할 수 있습니다.
+감사 로그 검색은 Microsoft 365 준수 센터에 바로 연결 되며, 다양 한 감사 시간 내에 관리 사용 및 조사를 위해 작업 부하 또는 제네릭 이벤트 집합을 내보낼 수 있도록 허용 하 여 감사 이벤트에 대 한 보고를 할 수 있는 기능을 제공 합니다. Microsoft 365 준수 센터 내에서 모든 감사 로그 데이터에 대 한 알림을 설정 하 고 추가 분석을 위해이 데이터를 필터링 하 고 내보낼 수 있습니다. Microsoft 365 또는 Office 365에 대 한 감사 로그 검색을 수행 하는 방법에 대해 자세히 알아보려면 [감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 문서를 참조 하세요. Microsoft 365 규정 준수 센터에서 Microsoft 팀 이벤트를 검색 하는 방법에 대해 자세히 알아보려면 [팀에서 감사를 사용](audit-log-events.md) 하는 방법에 대해서도 검토할 수 있습니다.
 
 ## <a name="privacy"></a>프라이버시
 
@@ -197,6 +197,8 @@ Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니
 
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 보안](https://docs.microsoft.com/microsoft-365/security/) 
- [Microsoft 365 준수](https://docs.microsoft.com/microsoft-365/compliance/) 
- [Microsoft 준수 제공](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
+[Microsoft 365 보안](https://docs.microsoft.com/microsoft-365/security/)
+
+[Microsoft 365 준수](https://docs.microsoft.com/microsoft-365/compliance/)
+
+[Microsoft 준수 제공](https://docs.microsoft.com/microsoft-365/compliance/offering-home)

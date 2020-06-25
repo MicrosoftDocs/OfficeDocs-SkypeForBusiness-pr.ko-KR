@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 7e557d204ca838ce3f8c5bad9c2c62949bf836aa
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350162"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868665"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 사용 중지 예정
 
@@ -133,7 +133,7 @@ StaffHub에서 팀으로 전환 하는 방법에 대 한 자세한 지침은 [�
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>StaffHub에서 StaffHub 팀이 만든 모든 Microsoft 365 그룹에 특별 한 접두사를 추가할 수 있습니다. 팀에서 동일 하 게 할 수 있나요?
 
-StaffHub에서 팀으로 이동 하는 경우에는 같은 기능을 사용할 수 없습니다. 모든 Microsoft 365 그룹에 이름 일관성을 적용 해야 하는 경우 [microsoft 365 그룹 명명 정책을](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)사용할 수 있습니다.
+StaffHub에서 팀으로 이동 하는 경우에는 같은 기능을 사용할 수 없습니다. 모든 Microsoft 365 그룹에 이름 일관성을 적용 해야 하는 경우 [그룹 이름 지정 정책을](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)사용할 수 있습니다.
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>팀의 이름을 동일 하 게 설정할 수 있습니다.
 

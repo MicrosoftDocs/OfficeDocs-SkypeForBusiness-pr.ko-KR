@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에 대 한 리소스 계정을 설정 합니다.
-ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221138"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868435"
 ---
 # <a name="configure-resource-accounts"></a>리소스 계정 구성
 
@@ -84,7 +84,7 @@ ms.locfileid: "44221138"
 
     이 명령에 대 한 자세한 내용은 [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 을 참조 하십시오.
 
-5. 전화 시스템-가상 사용자 또는 전화 시스템 라이선스를 리소스 계정에 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) 및 한 명의 [사용자에 게 라이선스 할당](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)을 참조 하세요.
+5. 전화 시스템-가상 사용자 또는 전화 시스템 라이선스를 리소스 계정에 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) 및 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)을 참조 하세요.
 
    리소스 계정에 전화 번호를 할당 하는 경우 이제 비용 무료 전화 시스템 가상 사용자 라이선스를 사용할 수 있습니다. 이렇게 하면 조직 수준의 전화 번호에 전화 시스템 기능이 제공 되며, 자동 전화 교환 및 전화 큐 기능을 만들 수 있습니다.
 

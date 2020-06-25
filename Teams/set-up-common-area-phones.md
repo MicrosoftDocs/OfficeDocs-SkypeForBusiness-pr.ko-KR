@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 지역 및 회의실에 대 한 공통 영역 전화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 23e60a5fe57ea8e2ff07bb6333a5ea1c341bba88
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1b8e1582e1f3eba65802d4b1c181f8e0ba319eb0
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691074"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868605"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft 팀을 위한 공통 영역 전화 라이선스 설정
 > [!NOTE]
@@ -97,7 +97,7 @@ ms.locfileid: "44691074"
 > [!NOTE]
 > Microsoft 전화 시스템 다이렉트 라우팅을 사용 하는 경우에는 통화 요금제 라이선스를 할당할 필요가 없습니다.
 
-자세한 내용은 [사용자 추가](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide)를 참조 하세요.
+자세한 내용은 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)을 참조 하세요.
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>3 단계-일반 지역 전화 사용자 계정에 전화 번호 지정
 

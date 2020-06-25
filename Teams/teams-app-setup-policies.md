@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b804916609b121ba02a048d1763c4181fb5d0a63
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ef4ff711aa385c062ca6d507363b4d1a1a5d88e4
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691024"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868572"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
@@ -200,7 +200,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 앱을 제출 하기 전에 로고 지침을 따르고 있는지 확인 합니다. 자세한 내용은 [판매자 대시보드 제출에 대 한 검사 목록](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)을 참조 하세요. 
 
- ## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 항목
 
 - [Team에서 앱의 관리 설정](admin-settings.md)
 - [팀에서 사용자에 게 정책 할당](assign-policies.md)

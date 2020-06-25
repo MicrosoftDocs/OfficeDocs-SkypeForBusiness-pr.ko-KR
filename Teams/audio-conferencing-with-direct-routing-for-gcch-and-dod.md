@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 관리자는 GCCH 및 DoD 환경에서 직접 라우팅이 있는 오디오 회의를 사용 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17b928dc62cb6e4da0a88fd868ff0e599705d89a
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 55efdc0c79f80a2a7b7ca44fd9c80481b163c63f
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610257"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868595"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
 
@@ -93,7 +93,7 @@ CsOnlineDialInConferencingBridge를 사용 하 여 오디오 회의 브리지의
 
 ### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>4 단계: 사용자에 게 GCC High 또는 DoD 라이선스에 대 한 직접 라우팅이 있는 오디오 회의 할당
 
-사용자에 게 GCC High 또는 DoD 라이선스에 대 한 직접 라우팅이 있는 오디오 회의를 할당 하려면 [개별적으로 또는 대량으로 사용자 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)를 참조 하세요.
+사용자에 게 GCC High 또는 DoD 라이선스에 대 한 직접 라우팅이 있는 오디오 회의를 할당 하려면 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)을 참조 하세요.
 
 ### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>5 단계: (선택 사항) 팀의 오디오 회의 번호 목록 보기
 

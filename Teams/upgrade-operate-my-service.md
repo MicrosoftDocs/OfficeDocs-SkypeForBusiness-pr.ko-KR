@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 434b7e0fed87d6273d13c7cb646079d51d7c1ddc
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761476"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868505"
 ---
 # <a name="operate-your-service"></a>서비스 운영
 
@@ -437,7 +437,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 4. **Microsoft 팀 커뮤니티를 방문 하세요.** [Microsoft 팀 커뮤니티](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) 는 팀을 위한 전용 공간을 제공 합니다. 팀 커뮤니티는 토론 목록, 블로그 게시물, 팀 중심의 공지 사항을 제공 합니다. 질문을 게시 하거나 문제에 대 한 이전 토론을 검색할 수 있습니다.
 
-5. **Microsoft 지원 문의:** 온라인 또는 휴대폰을 통한 팀 관련 문제는 Microsoft 지원에 문의할 수 있습니다. 자세한 내용은 [비즈니스 제품에 대 한 고객 지원 문의](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)를 참조 하세요. 프리미어 고객의 경우 [Microsoft 팀에 대 한 연락처 지원 (프리미어 고객)](https://support.microsoft.com/premier/contacts)의 지침에 따라 지원 요청을 시작할 수 있습니다.
+5. **Microsoft 지원 문의:** 온라인 또는 휴대폰을 통한 팀 관련 문제는 Microsoft 지원에 문의할 수 있습니다. 자세한 내용은 [비즈니스 제품에 대 한 고객 지원 팀에 문의-관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)을 참조 하세요. 프리미어 고객의 경우 [Microsoft 팀에 대 한 연락처 지원 (프리미어 고객)](https://support.microsoft.com/premier/contacts)의 지침에 따라 지원 요청을 시작할 수 있습니다.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
