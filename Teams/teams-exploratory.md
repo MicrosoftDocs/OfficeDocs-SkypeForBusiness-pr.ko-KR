@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a342c27c7379ed11e691098fe309fe4e429cb1e0
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 99017e63ae784c7c4271454829198c7c06ecfe8e
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785304"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868465"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================
@@ -154,7 +154,7 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 
 - PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
 
-- 관리 포털을 통해 이 라이선스를 제거하려면 [조직에서 사용자 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요.
+- 관리 포털을 통해 이 라이선스를 제거하려면 [조직에서 사용자 제거](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)를 참조하세요.
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams 예비 환경은 얼마나 오래 지속되나요?
 
