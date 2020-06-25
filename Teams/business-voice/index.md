@@ -16,12 +16,12 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 Business Voice
 description: Microsoft 365 Business Voice를 계획, 배포 및 사용하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e99af9be9e07e686b25324cb49b38ca826eeef42
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: c4b7a347feb1b09ab32eee9809e0408fd718a735
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610967"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868625"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -170,7 +170,7 @@ ms.locfileid: "44610967"
                                                      <P><a href="https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page" target="_blank">Microsoft Teams 관리 문서</a></p>
                                                      <p><a href="https://microsoftteams.uservoice.com/" target="_blank">Microsoft Teams UserVoice 피드백</a>
                                                      <p><a href="https://support.office.com/teams" target="_blank">Microsoft Teams 클라이언트 문서</a>
-                                                     <P><a href="https://docs.microsoft.com/office365/admin">Microsoft 365 및 Office 365 관리 문서</a></p>
+                                                     <P><a href="https://docs.microsoft.com/microsoft-365/admin/">Microsoft 365 및 Office 365 관리 문서</a></p>
                                                 </div>
                                             </div>
                                         </div>
