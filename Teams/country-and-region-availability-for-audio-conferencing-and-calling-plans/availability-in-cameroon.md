@@ -1,9 +1,9 @@
 ---
-title: 알제리의 사용 가능 여부
-author: LanaChin
-ms.author: v-lanac
+title: 카메룬에서의 가용성
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 여기에는 비즈니스용 Skype 용 Microsoft 365 및 Office 365 서비스와 알제리에서 사용할 수 있는 Microsoft 팀이 나와 있습니다.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: 다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 카메룬에서 사용할 수 있는 Microsoft 팀입니다.
+ms.openlocfilehash: 283605d9c7c43dbf472d2738e19a940beffe7d43
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877899"
+ms.locfileid: "44878016"
 ---
-# <a name="availability-in-algeria"></a>알제리의 사용 가능 여부
+# <a name="availability-in-cameroon"></a>카메룬에서의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-여기에는 비즈니스용 Skype 용 Microsoft 365 및 Office 365 서비스와 알제리에서 사용할 수 있는 Microsoft 팀이 나와 있습니다.
+다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 카메룬에서 사용할 수 있는 Microsoft 팀입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 

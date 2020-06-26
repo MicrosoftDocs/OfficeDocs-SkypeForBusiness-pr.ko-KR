@@ -1,9 +1,9 @@
 ---
-title: 알제리의 사용 가능 여부
-author: LanaChin
-ms.author: v-lanac
+title: 우간다의 사용 가능 여부
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 여기에는 비즈니스용 Skype 용 Microsoft 365 및 Office 365 서비스와 알제리에서 사용할 수 있는 Microsoft 팀이 나와 있습니다.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: 다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 우간다에서 사용할 수 있는 Microsoft 팀에 대 한 소개입니다.
+ms.openlocfilehash: 1ffab17c3330ff19c24c27f2e840f5ad1856a456
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877899"
+ms.locfileid: "44878041"
 ---
-# <a name="availability-in-algeria"></a>알제리의 사용 가능 여부
+# <a name="availability-in-uganda"></a>우간다의 사용 가능 여부
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-여기에는 비즈니스용 Skype 용 Microsoft 365 및 Office 365 서비스와 알제리에서 사용할 수 있는 Microsoft 팀이 나와 있습니다.
+다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 우간다에서 사용할 수 있는 Microsoft 팀에 대 한 소개입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 

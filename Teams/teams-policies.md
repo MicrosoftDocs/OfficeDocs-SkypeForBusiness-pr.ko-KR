@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: f046a21ee0ff0bf4fe49feea2c4a38702516227a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b28b61a6b2d4c441fc69d0e50124df50f95b4a49
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690964"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889977"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft 팀에서 팀 정책 관리
 
@@ -48,7 +48,7 @@ ms.locfileid: "44690964"
     ![팀 정책 설정 스크린샷](media/teams-policies.png)
 4. 원하는 설정을 선택 합니다.
 
-- **개인 팀**검색:<a name="discoverteams"> </a> 이 설정을 사용 하면 사용자가 검색 결과 및 팀 갤러리에서 비공개 팀을 검색할 수 있습니다.
+- **비공개 팀 검색** (비공개 미리 보기):<a name="discoverteams"> </a> 사용자가 검색 결과 및 팀 갤러리에서 비공개 팀을 검색할 수 있도록 하려면이 설정을 사용 합니다.
 - **개인 채널 만들기**: <a name="createchannels"> </a>이 설정을 사용 하면 사용자가 개인 채널을 만들 수 있습니다.
 
 5. **저장**을 클릭합니다.

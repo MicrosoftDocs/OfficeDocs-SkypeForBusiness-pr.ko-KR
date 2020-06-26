@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ef4ff711aa385c062ca6d507363b4d1a1a5d88e4
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: d521a00389286bf60a42201134a1d9b697a9bfdc
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868572"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44890007"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
@@ -167,7 +167,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>정책 변경 내용이 적용 되는 데 걸리는 시간
 
-전역 정책을 편집 하거나 정책을 할당 한 후 변경 내용을 적용 하는 데 몇 시간이 걸릴 수 있습니다.
+정책을 편집 하거나 할당 한 후 변경 내용을 적용 하는 데 몇 시간이 걸릴 수 있습니다.
 
 ### <a name="user-experience"></a>사용자 환경
 

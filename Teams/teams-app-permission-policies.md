@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b54a4263adc8e697a19f997ac34018e1e2b2c302
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 4bde860f0f3e64899f4309706575c71862c754a5
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691014"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889997"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 권한 정책 관리
 
 관리자는 앱 권한 정책을 사용하여 조직의 Microsoft Teams 사용자가 사용할 수있는 앱을 제어할 수 있습니다. Microsoft, 타사, 조직에서 게시 한 앱 또는 특정 앱을 모두 허용 하거나 차단할 수 있습니다. 앱을 차단하면 정책이 있는 사용자는 Teams 앱 스토어에서 goekd 앱을 설치할 수 없습니다. 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
 
-Microsoft 팀 관리 센터에서 앱 권한 정책을 관리 합니다. 전역 (조직 차원의 기본) 정책을 사용 하거나 개별 사용자 또는 그룹의 사용자에 게 사용자 지정 정책을 만들어 할당할 수 있습니다.  
+Microsoft 팀 관리 센터에서 앱 권한 정책을 관리 합니다. 전역 (조직 차원의 기본) 정책을 사용 하거나 개별 사용자 또는 그룹의 사용자에 게 사용자 지정 정책을 만들어 할당할 수 있습니다. 정책을 편집 하거나 할당 한 후 변경 내용을 적용 하는 데 몇 시간이 걸릴 수 있습니다.
 
 ![앱 사용 권한 정책의 스크린샷](media/app-permission-policies.png)
 

@@ -1,9 +1,9 @@
 ---
-title: 알제리의 사용 가능 여부
-author: LanaChin
-ms.author: v-lanac
+title: 북마리아나 군도
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 여기에는 비즈니스용 Skype 용 Microsoft 365 및 Office 365 서비스와 알제리에서 사용할 수 있는 Microsoft 팀이 나와 있습니다.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: 다음은 북마리아나 군도 사용할 수 있는 비즈니스용 Skype 및 Microsoft 팀을 위한 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: 0f06d17547b5d4b5367d60dfbcba142730fa8b29
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877899"
+ms.locfileid: "44878024"
 ---
-# <a name="availability-in-algeria"></a>알제리의 사용 가능 여부
+# <a name="availability-in-northern-mariana-islands"></a>북마리아나 군도
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-여기에는 비즈니스용 Skype 용 Microsoft 365 및 Office 365 서비스와 알제리에서 사용할 수 있는 Microsoft 팀이 나와 있습니다.
+다음은 북마리아나 군도 사용할 수 있는 비즈니스용 Skype 및 Microsoft 팀을 위한 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|음성 회의를 구매할 수 있나요?  <br/> |예. 분당 요금이 부과 됩니다.  <br/> |
+|음성 회의를 구매할 수 있나요?  <br/> |예. 분당 요금이 부과 됩니다. <br/> |
 |전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> | 아니요 |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> | 통신 크레딧이 필요 합니다. <br/> |
    
@@ -68,9 +68,9 @@ ms.locfileid: "44877899"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | 비 지역. 전화 번호가 특정 도시 또는 위치에 연결 되어 있지 않습니다. <br/> |
-|유료 번호를 사용할 수 있나요?  <br/> |지리적이 지 않음 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | 해당 사항 없음 <br/> |
+|유료 번호를 사용할 수 있나요?  <br/> |아니요 <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |예 <br/> |
    
  오디오 회의, 자동 전화 교환 및 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 받기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
   

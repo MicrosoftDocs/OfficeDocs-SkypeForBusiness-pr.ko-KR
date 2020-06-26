@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 교육 또는 EDU 설정의 정책과 Microsoft Teams에서 정책 패키지를 사용하고 관리하는 방법에 대해 자세히 알아봅니다.
-ms.openlocfilehash: c8eed1c27f73d8805924ee30be0041a710bbdb25
-ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
+ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330573"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874432"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>교육용 Teams 정책 및 정책 패키지
 
@@ -158,9 +158,20 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 ![원격 학습 페이지의 학생 교육, 일반 섹션 표시, 해당 모든 옵션 해제](media/edu-policy-list-a.png)
 
-- 동일한 페이지에서 모임의 참석자 및 게스트 섹션: **비공개 모임에서 모임 시작 허용**: 해제
+- 동일한 페이지에서 모임의 참석자 및 게스트 섹션에서 다음과 같이 설정합니다.
+  - **비공개 모음에서 지금 모임 시작 허용**: 해제
+  - **모임에서 채팅 허용**: 사용 안 함
 
-![참석자 및 게스트 섹션은 비공개 모임에서 모임 시작 허용 옵션과 함께 해제됩니다.](media/edu-participants-and-guests.png)
+![참석자 및 게스트 섹션은 비공개 모임에서 지금 모임 시작 허용 옵션과 함께 해제로 설정됩니다.](media/edu-participants-and-guests.png)
+
+학생에 대한 **채널에서 지금 모임 시작을 허용**, **채널 모임 예약을 허용**, **비공개 모임의 예약을 허용** 그리고 **비공개 모임에서 지금 모임**을 해제하는 경우, 학생의 주최자로서의 모임 예약을 차단할 뿐만 아니라 교육에 대한 다음과 같은 보안 조치가 제공됩니다.
+
+- 학생들이 강사보다 먼저 모임에 참가하려고 시도하는 경우, 최신 버전의 Teams 앱에서는 모임에 참가할 수 없게 됩니다.
+- 모임 만들기는 모든 사용자와 라이선스에 적용되지만 앞서 설명한 모임 참가 차단에 대한 보안 조치는 사용자의 라이선스 유형을 기반으로 Teams의 교육 고객에게만 적용됩니다.
+
+앞에서와 같이 **모임에서 채팅 허용** 정책을 사용하지 않도록 변경하고 학생의 모임 예약을 차단한 상태에서 이 정책을 강사에게 설정하는 경우(채널 혹은 채널의 지금 모임에서 예약하지 않은 모임에 대해), 학생은 강사가 모임에 참가하기 전 혹은 후에 채팅을 할 수 없게 됩니다. 학생은 모임 이전, 진행 중 그리고 후에 여전히 채팅 기록을 확인할 수 있습니다. 예를 들어, 모임이 녹음/녹화된 경우 학생은 교사의 메시지 또는 모임 녹음/녹화 링크를 볼 수 있습니다.
+
+학생과 강사 모두에 대해 **모임에서 채팅 허용** 정책이 해제된 경우, 아무도 모임 채팅 창에서 채팅할 수 없습니다. 위에서 설명한 모임 채팅 제한에 대한 보안 조치는 사용자의 라이선스 유형을 기반으로 Teams의 교육 고객에게만 적용됩니다.
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>학생이 통화 및 모임 중에 비디오를 공유할 수 있는지 여부를 제어합니다.
 

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
-ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
+ms.openlocfilehash: 6253d1bd46589892d1558ab7e9871bbf38c8cdbb
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816819"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877909"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -51,6 +51,7 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 |M100에서 crestron| 이 제품은 단종 되었습니다. 자세한 내용은 M100의 웹 사이트에서 [crestron](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 을 참조 하세요. | 단종 된 5/11/2020|
 |Flex UC에서 crestron P100-T & UC-P110-T  | 이 제품은 단종 되었습니다. 자세한 내용은 Crestron 웹 사이트에서 [UC 전화]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) 를 방문 하세요. |단종 된 5/11/2020|
 |Lenovo ThinkSmart View|CD-18781Y 200410.067|2020 년 4 월|
+|Poly Trio C60|5.9.3.6155|2020 년 4 월|
 |Poly CCX400 | 1.0.0.0200 | 2020 년 1 월|
 |Poly CCX600 | 5.9.12.1111| 2020 년 1 월|
 |Poly CCX500 | 5.9.12.1111| 2019 년 12 월|

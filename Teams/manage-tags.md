@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 조직에 태그를 사용 하는 방법을 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b19613268384831aaaa2608fc183b62fdc1b0445
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690861"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877939"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft 팀의 태그 관리
 
@@ -38,6 +38,8 @@ Microsoft 팀의 태그를 통해 사용자가 팀의 일부 사용자와 통신
 - 그룹 제품 관리자가 채널의 모든 제품 관리자에 게 메시지를 전송 하려고 합니다.
 - 병원 관리자가 채널의 모든 radiologists에 게 메시지를 보내려고 합니다.
 - 마케팅 관리자가 모든 설계자와 그룹 채팅을 시작 하려고 합니다.
+
+채널 대화에서 태그를 @mentioned 하는 경우 태그와 연결 된 팀 구성원은 다른 @mention 같은 방법으로 알림을 받습니다.
 
 자세한 내용은 [팀에서 태그를 사용 하 여](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)확인해 보세요.
 
@@ -77,10 +79,20 @@ Microsoft 팀의 태그를 통해 사용자가 팀의 일부 사용자와 통신
 
 ![팀 수준의 태그 설정 스크린샷](media/manage-tags-team-settings.png)
 
-## <a name="add-tags-in-teams"></a>팀에서 태그 추가
+## <a name="use-tags"></a>태그 사용
 
-태그를 관리 하려면 앱의 왼쪽에서 **팀 관리** 를 선택 하 고 목록에서 팀을 찾습니다. **기타 옵션**을 선택한 다음 **태그 관리**를 선택 합니다.
+### <a name="add-tags"></a>태그 추가
+
+태그를 만들고 할당 하려면 앱의 왼쪽에서 **팀** 을 선택한 다음 목록에서 팀을 찾습니다. **기타 옵션**을 선택한 다음 **태그 관리**를 선택 합니다.
 
 여기서는 태그를 만들어 팀 구성원에 게 할당할 수 있습니다.
 
 ![팀 클라이언트에서 태그를 적용 하는 방법 스크린샷 ](media/manage-tags-teams.png)
+
+### <a name="delete-tags"></a>태그 삭제
+
+태그와 연결 된 모든 팀 구성원을 제거 하면 태그가 삭제 됩니다.
+
+## <a name="related-topics"></a>관련 항목
+
+[팀에서 태그 사용](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '요약: 통화 품질 대시보드를 계획할 때 고려해 야 할 사항에 대해 알아봅니다.'
-ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: 407366fc98dc423db59ed9bf98cfe58463b708fc
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339443"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877949"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 통화 품질 대시보드 계획 
  
@@ -144,7 +144,7 @@ CQD는 여러 구성 요소와 함께 제공 되며, 각 구성 요소의 요구
     
 - "개발" 포털을 "프로덕션" 포털과 별개로 호스팅 
     
-  **다른 컴퓨터에서 CQD 웹 포털 및 CQD 큐브 호스팅** Sql server 설치에서 CQD 포털을 분리 하 여 sql server 인스턴스에 대 한 SQL Server 버전을 혼합 및 일치 시킬 수 있는 요구 사항이 있거나 sql server Analysis Services 인스턴스를 설치할 필요가 있는 조직은 CQD 포털을 설치 하도록 선택 하 고 다른 컴퓨터의 CQD 큐브 QoE 보관 구성 요소는 조직에서 모니터링 서버에 대 한 성능 제한 없이 QoE 데이터를 보관 하는 지속 가능한 방법을 원할 경우에 설치 되는 단독 CQD 구성 요소 일 수도 있습니다.
+  **다른 컴퓨터에서 CQD 웹 포털 및 CQD 큐브 호스팅** Sql server 설치에서 CQD 포털을 분리 하 여 sql server 인스턴스에 대 한 SQL Server 버전을 혼합 및 일치 시킬 수 있는 요구 사항이 있거나 sql Server Analysis Services 인스턴스를 사용할 수 있는 조직은 여러 컴퓨터에 CQD 포털 및 CQD 큐브를 설치할 수도 있습니다. QoE 보관 구성 요소는 조직에서 모니터링 서버에 대 한 성능 제한 없이 QoE 데이터를 보관 하는 지속 가능한 방법을 원할 경우에 설치 되는 단독 CQD 구성 요소 일 수도 있습니다.
   
 ![단일 서버 CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
@@ -195,9 +195,9 @@ CQD의 데이터 처리는 두 가지 주요 단계로 구분 됩니다.
 
 |**컴퓨터**|**CPU 코어**|**RAM**|**같은 디스크의 QoE 보관 및 큐브**|**QoE 보관 및 SQL Temp DB 같은 디스크**|
 |:-----|:-----|:-----|:-----|:-----|
-|가상 컴퓨터  <br/> |1-4  <br/> |7G B  <br/> |예  <br/> |예  <br/> |
-|코어 4 개  <br/> |1-4  <br/> |20GB  <br/> |예  <br/> |아니요  <br/> |
-|코어 8 개  <br/> |8  <br/> |32GB  <br/> |예  <br/> |아니요  <br/> |
+|가상 컴퓨터  <br/> |4   <br/> |7G B  <br/> |예  <br/> |예  <br/> |
+|코어 4 개  <br/> |4   <br/> |20GB  <br/> |예  <br/> |아니요  <br/> |
+|코어 8 개  <br/> |8   <br/> |32GB  <br/> |예  <br/> |아니요  <br/> |
 |16 코어  <br/> |16   <br/> |128GB  <br/> |아니요  <br/> |아니요  <br/> |
    
 **성능 결과**
@@ -282,7 +282,7 @@ CQD에는 다음과 같은 운영 체제가 필요 합니다.
   - IIS 관리 콘솔
     
 > [!NOTE]
->  위의 요구 사항에 대 한 자세한 내용은 > 3.5 및 4.5 버전의 .Net framework를 사용할 수 있습니다. 둘 다 필요 합니다 (특히, 3.5 SP1이 필요 함). > 일부 시스템에서 IIS를 설치 하기 전에 ASP.NET을 설치 하는 경우 ASP.NET를 IIS에 등록할 수 없습니다. 이 문제는 해당 .Net 버전에 대 한 응용 프로그램 풀이 없거나 앱 풀 구성에 .NET CLR 버전이 없다는 것을 통해 해결 됩니다. Windows Server 2008 R2에서 이러한 문제를 해결 하려면을 실행 `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`합니다. Windows Server 2012 및 Windows Server 2012 r 2에서를 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` 실행 한 후에 IIS 관리자의 기본 웹 사이트에서 "ServiceModel" 모듈을 제거 합니다. > 관리 도구는 선택 사항 이지만 권장 됩니다.
+>  위의 요구 사항에 대 한 자세한 내용은 > 3.5 및 4.5 버전의 .Net framework를 사용할 수 있습니다. 둘 다 필요 합니다 (특히, 3.5 SP1이 필요 함). > 일부 시스템에서 IIS를 설치 하기 전에 ASP.NET을 설치 하는 경우 ASP.NET를 IIS에 등록할 수 없습니다. 이 문제는 해당 .Net 버전에 대 한 응용 프로그램 풀이 없거나 앱 풀 구성에 .NET CLR 버전이 없다는 것을 통해 해결 됩니다. Windows Server 2008 R2에서 이러한 문제를 해결 하려면을 실행 `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` 합니다. Windows Server 2012 및 Windows Server 2012 r 2에서를 실행 한 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` 후에 IIS 관리자의 기본 웹 사이트에서 "ServiceModel" 모듈을 제거 합니다. > 관리 도구는 선택 사항 이지만 권장 됩니다.
   
 PowerShell을 사용 하 여 이러한 요구 사항을 설치 하려면 다음을 실행 합니다.
   
@@ -318,6 +318,9 @@ SQL Server 비즈니스 인텔리전스 기능을 설치 및 구성 하는 방�
 최소 권한 원칙에는 다음과 같은 세 가지 도메인 서비스 계정이 권장 됩니다. 
   
 - QoE 메트릭 데이터베이스에 대 한 로그인 보안 주체 (db_datareader 권한)와 QoE 보관 SQL Server 인스턴스의 로그인 보안 주체 (설치 중에 연결 된 서버 개체를 만드는 데 필요 함)가 이미 있는 계정입니다. 이 계정은 SQL Server 에이전트 작업의 "QoE 보관 데이터" 단계를 실행 하는 데 사용 됩니다.
+    
+    > [!NOTE]
+    > 상당히 잠긴 가동 환경에서 작업 하는 경우에는이 서비스 계정에 실제로 "일괄 작업으로 로그온" 및 QoE 보관 SQL Server 모두에 대 한 "로그인을 로컬로 허용" 사용자 권한이 부여 되어 있는지 확인 해야 합니다.
     
 - SQL Server 에이전트 작업의 "큐브 처리" 단계를 실행 하는 데 사용 되는 것입니다. 설치 프로그램에서 QoE 보관 데이터베이스 (읽기 및 쓰기 권한 포함)에 대 한 로그인 보안 주체를 만들고 해당 큐브에 대 한 QoE 역할에 구성원 (모든 권한 사용)을 만듭니다.
     
