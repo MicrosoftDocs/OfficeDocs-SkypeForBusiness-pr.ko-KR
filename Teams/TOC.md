@@ -217,6 +217,7 @@
 ## 라이브 이벤트
 ### [Teams 라이브 이벤트란?](teams-live-events/what-are-teams-live-events.md)
 ### [Teams 라이브 이벤트 계획](teams-live-events/plan-for-teams-live-events.md)
+### [라이브 이벤트에서 발표자, 제작자 및 참가자 기능](roles-in-live-events.md)
 ### [Teams 라이브 이벤트 설정](teams-live-events/set-up-for-teams-live-events.md)
 ### [PowerShell을 사용하여 Teams 라이브 이벤트 정책 설정](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Teams 라이브 이벤트 설정 구성](teams-live-events/configure-teams-live-events.md)
@@ -508,31 +509,31 @@
 
 ## 업그레이드 여정 계획
 
-### [계획 개요 업그레이드](upgrade-plan-journey.md)
-### [프로젝트 관련자 참여](upgrade-enlist-stakeholders.md)
-### [프로젝트 범위 정의](upgrade-define-project-scope.md)
-### [공존 및 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-### [업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [무엇보다도 모임을 우선으로](meetings-first.md)
+### 프로젝트 및 요구 사항 계획 
+#### [개요](upgrade-plan-journey.md)
+#### [프로젝트 관련자 참여](upgrade-enlist-stakeholders.md)
+#### [프로젝트 범위 정의](upgrade-define-project-scope.md)
+#### [공존 및 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [사용자 파일럿 계획](pilot-essentials.md)
 
-## Teams용 환경 준비
-### [기술 준비 개요](upgrade-prepare-environment.md)
-### [Teams를 사용하도록 IT 직원 준비](upgrade-prepare-IT-pros.md)
-### [필수 구성 요소](upgrade-plan-journey-prerequisites.md)
-### [환경 평가](upgrade-plan-journey-evaluate-environment.md)
-### [서비스 준비](upgrade-prepare-environment-prepare-service.md)
 
-## Teams를 사용하도록 조직 준비
-### [조직 준비 개요](upgrade-prepare-organization.md)
-### [조직 변경 준비 사항 평가](upgrade-org-change-readiness.md)
-### [사용자 준비 계획 준비](upgrade-user-readiness.md)
+### Teams용 환경 준비
+#### [기술 준비 개요](upgrade-prepare-environment.md)
+#### [Teams를 사용하도록 IT 직원 준비](upgrade-prepare-IT-pros.md)
+#### [필수 구성 요소](upgrade-plan-journey-prerequisites.md)
+#### [환경 평가](upgrade-plan-journey-evaluate-environment.md)
+#### [서비스 준비](upgrade-prepare-environment-prepare-service.md)
+
+### Teams를 사용하도록 조직 준비
+#### [조직 준비 개요](upgrade-prepare-organization.md)
+#### [조직 변경 준비 사항 평가](upgrade-org-change-readiness.md)
+#### [사용자 준비 계획 준비](upgrade-user-readiness.md)
 
 
 ## 업그레이드 수행
 ### [개요](upgrade-to-Teams.md)
-### [사용자 파일럿 수행](pilot-essentials.md)
 ### [비즈니스용 Skype Online을 Teams로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [비즈니스용 Skype 온-프레미스를 Teams로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
@@ -551,6 +552,9 @@
 ### [비즈니스용 Skype와 공존](coexistence-chat-calls-presence.md)
 ### [Teams 클라이언트 환경 및 공존 모드 준수](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [공존 및 업그레이드 설정 지정](setting-your-coexistence-and-upgrade-settings.md)
+
+
+### [무엇보다도 모임을 우선으로](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -719,7 +723,7 @@
 ## [Teams 문제 해결에 로그 파일 사용](log-files.md)
 ## [자주 묻는 질문(FAQ) - 원격 작업자 지원](FAQ-support-remote-workforce.md)
 ## [Teams의 서비스 상태 확인](service-health.md)
-## [Teams의 지원 리소스](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [비즈니스용 제품에 대한 고객 지원 센터 문의 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 <!-- ============================================================ -->
   
@@ -738,7 +742,6 @@
 ### [Teams에서 팀을 만들 때 Microsoft 365 그룹에 대한 계획](plan-office-365-groups.md)
 ### [Teams에서 수명 주기 관리 계획](plan-teams-lifecycle.md)
 ### [Teams에서 거버넌스 계획](plan-teams-governance.md)
-### [네트워크 테스트 비교 사용](use-network-testing-companion.md)
 
 ## Teams 설치
 ### [Teams용 클라이언트 가져오기](get-clients.md)
