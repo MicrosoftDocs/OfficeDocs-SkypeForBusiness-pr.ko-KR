@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 97f7e653e345c8e2448f0519087c5f6eb6b600d1
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042815"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868544"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Office 365 G1 평가판 관리 미국 정부 기관용 
 ==============================
@@ -78,7 +78,7 @@ G1 평가판 사용자를 유료 구독으로 업그레이드하려면 다음을
 
   - PowerShell을 통해 이 라이선스를 제거하려면  [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
 
-  - 관리 포털을 통해 이 라이선스를 제거하려면  [Office 365의 사용자 라이선스 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요. 
+  - 관리 포털을 통해 이 라이선스를 제거하려면  [조직에서 사용자 삭제](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

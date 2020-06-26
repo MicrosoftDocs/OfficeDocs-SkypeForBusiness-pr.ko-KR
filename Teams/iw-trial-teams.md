@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b0e6185b81d7fcdbf76efa7c827249a93dfc00df
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638777"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868685"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams 상용 클라우드 평가판 관리
 =======================================================
@@ -150,4 +150,4 @@ Teams로의 액세스를 해제하려면:
 
 - PowerShell을 통해 이 라이선스를 제거하려면 [Microsoft 365 또는 Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
 
-- 관리 포털을 통해 이 라이선스를 제거하려면 [사용자 라이선스 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요.
+- 관리 포털을 통해 이 라이선스를 제거하려면 [조직에서 사용자 삭제](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)를 참조하세요.
