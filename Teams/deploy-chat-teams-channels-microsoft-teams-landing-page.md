@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 6a77e98a75497d8608f0b85ad1a52d3fed8d153b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0de34afb93093a1385dc8c0e4bca078e485e6887
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691314"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868115"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -128,10 +128,9 @@ Teams는 웹에서 데스크톱 그리고 모바일까지 여러 클라이언트
 |나의 조직의 Teams 클라이언트 설정을 사용자 지정할 수 있나요?|[MSI를 사용하여 Teams를 설치](msi-deployment.md)하는 방법을 학습하세요.|
 |||
 
-
 ### <a name="teams-usage-reporting"></a>Teams 사용 현황 보고
 
-전역 관리자, Teams 서비스 관리자 그리고 보고서 구독자 역할은 Teams 사용 현황 보고서를 볼 수 있습니다. 자세한 내용은 [Microsoft 365 사용 현황 분석 문서](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide)를 참조하세요.
+전역 관리자, Teams 서비스 관리자 그리고 보고서 구독자 역할은 Teams 사용 현황 보고서를 볼 수 있습니다. 자세한 내용은 [Microsoft 365 사용 현황 분석](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics)을 참조하세요.
 
 |본인에게 질의하기|작업 |
 |------------|-------|

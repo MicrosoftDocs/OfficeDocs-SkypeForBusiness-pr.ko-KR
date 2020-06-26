@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Advisor for Teams(공개 미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
-ms.openlocfilehash: 5c7c0cad16c61b498da0693653979c26da4b219f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665260"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868155"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -89,7 +89,7 @@ Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같�
 
 |평가 테스트  |알리는 내용  |
 |---------|---------|
-|베니티 도메인이 구성됨     |테넌트에 대해 non-@onmicrosoft.com이 도메인이 구성되어 있는 경우(예: @contoso.onmicrosoft.com). 예를 들어 @onmicrosoft .com 도메인을 사용하거나 베니티 도메인을 구성할 수 있습니다. 자세한 내용은 [도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain)를 참조하세요. |
+|베니티 도메인이 구성됨     |테넌트에 대해 non-@onmicrosoft.com이 도메인이 구성되어 있는 경우(예: @contoso.onmicrosoft.com). 예를 들어 @onmicrosoft .com 도메인을 사용하거나 베니티 도메인을 구성할 수 있습니다. 자세한 내용은 [Microsoft 365에 도메인 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)를 참조하세요. |
 |Teams 라이선스     |이는 필수 구성 요소입니다. Teams를 배포하려면 Teams 라이선스가 **있어야 합니다**. Microsoft Graph를 쿼리하여 Teams 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 읽어 보세요.    |
 |EXCHANGE ONLINE 라이선스     |사용 가능한 Exchange Online 라이선스가 포함된 활성 구독이 있는지 여부 기본 Teams 기능을 사용하는 데는 Exchange가 필요하지 않지만 Exchange와 통합하면 최상의 Teams 환경이 제공됩니다. Microsoft Graph를 쿼리하여 테넌트와 연결된 구독을 분석하고 적격의 Exchange Online 라이선스 구독을 보유하고 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [Exchange 및 Teams가 상호 작용하는 방법](exchange-teams-interact.md)을 참조하세요.    |
 |SharePoint Online 라이선스     |사용 가능한 SharePoint Online 라이선스가 포함된 활성 구독이 있는지 여부 채팅에서 파일 저장소에 비즈니스용 OneDrive를 제공하도록 사용자 1인당 SharePoint Online 라이선스를 보유할 것을 권장합니다. Microsoft Graph를 쿼리하여 SharePoint Online 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)을 참조하세요.    |
@@ -102,8 +102,8 @@ Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같�
 
 |평가 테스트  |알리는 내용  |
 |---------|---------|
-|Microsoft 365 그룹 명명 정책이 구성됨     |Microsoft 365 그룹에 명명 표준이 구성되어 있는지 여부 Microsoft 365 그룹 명명 정책을 사용하면 조직이 일관된 명명 전략을 사용자가 만든 팀에 적용하고 또한 Outlook, SharePoint, Planner 및 Yammer를 포함한 다른 그룹 작업에도 적용할 수 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하여 Microsoft 365 그룹에 적용되는 명명 정책의 존재 여부를 확인합니다. 자세한 내용은 [그룹 명명 정책](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)을 참조하세요.    |
-|Microsoft 365 그룹 만료 정책이 구성됨     |Microsoft 365 그룹에 대한 그룹 만료 정책이 정의되어있는지 여부 이는 조직에서 자동으로 비활성 팀을 제거할 수 있도록 해줍니다. 이는 기본적으로 해제되어 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하고 기본값에서 값이 수정되었는지를 보고합니다. 자세한 내용은 [그룹 만료 정책](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)을 참조하세요.    |
+|Microsoft 365 그룹 명명 정책이 구성됨     |Microsoft 365 그룹에 명명 표준이 구성되어 있는지 여부 Microsoft 365 그룹 명명 정책을 사용하면 조직이 일관된 명명 전략을 사용자가 만든 팀에 적용하고 또한 Outlook, SharePoint, Planner 및 Yammer를 포함한 다른 그룹 작업에도 적용할 수 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하여 Microsoft 365 그룹에 적용되는 명명 정책의 존재 여부를 확인합니다. 자세한 내용은 [그룹 명명 정책](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)을 참조하세요.    |
+|Microsoft 365 그룹 만료 정책이 구성됨     |Microsoft 365 그룹에 대한 그룹 만료 정책이 정의되어있는지 여부 이는 조직에서 자동으로 비활성 팀을 제거할 수 있도록 해줍니다. 이는 기본적으로 해제되어 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하고 기본값에서 값이 수정되었는지를 보고합니다. 자세한 내용은 [Microsoft 365 그룹 만료 정책](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)을 참조하세요.    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>모임 및 회의에 대한 평가
 

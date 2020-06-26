@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32e231fbcef2991e13ec5b496e6ed61eb677ee20
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665760"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868305"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용하여 Microsoft Teams에 로그인
 ==========================
@@ -59,6 +59,44 @@ Microsoft Teams는 최신 인증을 사용하여 로그인 환경을 간편하�
 
 MacOS의 경우 Teams에서 사용자 이름 및 자격 증명을 입력하라는 메시지가 표시되고 조직의 설정에 따라 다단계 인증 관련 메시지가 표시될 수 있습니다. 사용자가 자격 증명을 입력한 후에는 다시 제공할 필요가 없습니다. 이때부터 Teams가 같은 컴퓨터에서 작업하는 경우 자동으로 시작됩니다.
 
+## <a name="teams-for-ios-and-android-users"></a>iOS 및 Android 사용자용 Teams
+
+로그인하면 모바일 사용자에게 현재 장치에서 로그인했거나 이전에 로그인 한 모든 Microsoft 365 계정 목록이 표시됩니다. 사용자는 계정 중 하나를 탭하여 로그인할 수 있습니다. 모바일 로그인에는 다음과 같은 두 가지 시나리오가 있습니다.
+    
+1. 선택한 계정이 현재 다른 Office 365 또는 Microsoft 365 앱에 로그인되어 있는 경우, 사용자는 Teams로 바로 이동됩니다. 사용자는 자격 증명을 입력할 필요가 없습니다.
+    
+2. 사용자가 다른 곳에 Microsoft 365 계정으로 로그인되어 있지 않은 경우, 조직에서 모바일 로그인 정책에 대해 구성한 항목에 따라 일단계 혹은 다단계(SFA 또는 MFA) 인증을 제공하라는 메시지가 표시됩니다.
+
+### <a name="adding-multiple-accounts-to-teams"></a>Teams에 여러 계정 추가
+
+iOS 및 Android용 Teams는 단일 장치에서 Teams로의 여러 계정의 추가를 지원합니다. 다음 이미지는 사용자가 Teams에서 계정을 여러 개 추가하는 방법을 보여줍니다.
+    
+:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Teams에 여러 계정 추가":::
+
+### <a name="use-enterprise-mobility-management-to-control-which-accounts-can-sign-in-to-teams"></a>엔터프라이즈 이동성 관리를 사용하여 Teams에 로그인할 수 있는 계정 제어
+
+iOS 및 Android용 Teams는 IT 관리자에게 계정 구성을 Microsoft 365 계정으로 푸시할 수 있는 기능을 제공합니다. 이 기능은 iOS용  [관리 앱 구성](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) 채널을 혹은 Android용  [Android Enterprise](https://developer.android.com/work/managed-configurations) 채널을 사용하는 모든 MDM(모바일 장치 관리) 공급자와 작동합니다.
+
+Microsoft Intune에 등록된 사용자의 경우, Azure Portal에서 Intune을 사용하여 계정 구성 설정을 배포할 수 있습니다.
+
+MDM 공급자에 계정 설정 구성이 설정되고 사용자가 장치를 등록한 후에는 로그인 페이지에서 iOS 및 Android용 Teams가 Teams 로그인 페이지에서 허용된 계정만을 표시합니다. 사용자는 이 페이지에서 허용된 계정 중 하나를 탭하여 로그인할 수 있습니다.
+
+관리 장치에 대한 Azure Intune 포털에서 다음 구성 매개 변수를 설정합니다.
+
+
+|플랫폼 |키  |값  |
+|---------|---------|---------|
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **사용**: IntuneMAMUPN 키로 정의된 관리되는 사용자 계정만 허용됩니다.<br> **사용 안 함** (또는 대/소문자 구분이 없이 **사용**에 일치하지 않는 모든 값): 모든 계정이 허용됩니다.        |
+|iOS     |   **IntuneMAMUPN**      |   Teams 로그인하도록 허용된 계정의 UPN입니다.<br> Intune에서 등록된 장치의 경우 {{userprincipalname}} 토큰을 사용하여 등록된 사용자 계정을 나타낼 수 있습니다.       |
+|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    이 키로 정의된 관리되는 사용자 계정만 허용됩니다.<br> 하나 이상의 세미 콜론 [;] - 구분된 UPN입니다.<br> Intune에서 등록된 장치의 경우 {{userprincipalname}} 토큰을 사용하여 등록된 사용자 계정을 나타낼 수 있습니다.
+
+계정 설정 구성을 설정하면, Teams에서 로그인하는 기능을 제한하여 등록된 장치에서 허용되는 계정만 액세스 권한을 부여 받도록 합니다.
+
+관리 iOS/iPadOS 장치에 대한 앱 구성 정책을 만들려면  [관리 iOS/iPadOS 장치에 대한 앱 구성 정책 추가](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)를 참조하세요.
+
+관리 Android 장치에 대한 앱 구성 정책을 만들려면  [관리 Android 장치에 대한 앱 구성 정책 추가](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)를 참조하세요.
+
+
 ## <a name="switching-accounts-after-completing-modern-authentication"></a>최신 인증을 완료한 후 계정 전환
 
 사용자가 도메인에 가입된 컴퓨터에서 작업하는 경우(예: 테넌트에 Kerberos가 설정된 경우) 최신 인증을 완료한 후에는 사용자 계정을 전환할 수 없습니다. 도메인에 가입된 컴퓨터에서 사용자가 작업하지 않는 경우 계정을 전환할 수 있습니다.
@@ -67,9 +105,16 @@ MacOS의 경우 Teams에서 사용자 이름 및 자격 증명을 입력하라�
 
 Teams에서 로그아웃하려면 사용자가 앱 맨 위에 있는 프로필 사진을 클릭한 다음 **로그아웃**을 선택하면 됩니다. 작업 표시줄에서 앱 아이콘을 마우스 오른쪽 단추로 클릭한 다음 **로그아웃**을 선택할 수도 있습니다. Teams에서 로그아웃한 후에는 해당 사용자의 자격 증명을 다시 입력하여 앱을 시작해야 합니다.
 
+### <a name="signing-out-of-teams-for-ios-and-android"></a>iOS 및 Android용 Teams에서 로그아웃
+
+모바일 사용자는 메뉴로 이동하고 **더보기** 메뉴를 선택한 다음, **로그아웃**을 선택하여 Teams에서 로그아웃할 수 있습니다. 로그아웃한 후 사용자가 다음에 앱을 시작할 때는 자격 증명을 다시 입력해야 합니다.
+
+> [!NOTE]
+> Android용 Teams는 SSO(Single Sign-On)을 사용하여 로그인 환경을 단순화합니다. 사용자는 Android 플랫폼에서 완전히 로그아웃하려면 Teams 외에도 **모든** Microsoft 앱에서 반드시 로그아웃해야 합니다.
+
 ## <a name="urls-and-ip-address-ranges"></a>URL 및 IP 주소 범위
 
-Teams를 사용하려면 인터넷에 연결되어 있어야 합니다. Microsoft 365 혹은 Office 365 요금제 뿐만 아니라 정부 및 기타 클라우드에서 Teams를 사용하는 고객이 도달할 수 있는 끝점을 이해하려면 [Office 365 URL 및 IP 주소 범위 ](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 읽어보세요.
+Teams를 사용하려면 인터넷에 연결되어 있어야 합니다. Office 365 요금제, 정부 및 기타 클라우드에서 Teams를 사용하는 고객이 도달할 수 있는 끝점을 이해하려면 [Office 365 URL 및 IP 주소 범위 ](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 읽어보세요.
 
 > [!IMPORTANT]
 > 현재 Teams는 모든 사용자에 대해 Google ssl.gstatic.com 서비스에 대한 액세스(TCP 포트 443)가 필요합니다(모든 사용자를 위한 <https://ssl.gstatic.com)>. Gstatic을 사용하지 않는 경우에도 마찬가지입니다). Teams에서 이 요구 사항은 곧 제거됩니다(2020 초). 이 문서를 해당 시점에 업데이트하겠습니다.
