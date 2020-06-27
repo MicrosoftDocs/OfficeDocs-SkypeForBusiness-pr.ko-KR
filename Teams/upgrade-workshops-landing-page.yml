@@ -1,0 +1,62 @@
+### YamlMime:Hub
+title: Teams 업그레이드 계획 워크숍
+summary: Teams에 대한 업그레이드를 계획하고 구현하는 데 도움을 주기 위해 설계된 지침, 모범 사례 및 리소스를 공유하는 실시간 대화형 업그레이드 계획 워크숍 시리즈에 참여하세요. 최적의 환경을 위해 아래의 업그레이드 계획 세션을 사용하여 시작하세요. 등록할 워크숍 타이틀을 클릭 합니다.
+brand: teams
+metadata:
+  title: Teams 업그레이드 계획 워크숍
+  description: Teams에 대한 업그레이드를 계획하고 구현하는 데 도움을 주기 위해 설계된 지침, 모범 사례 및 리소스를 공유하는 실시간 대화형 업그레이드 계획 워크숍 시리즈에 참여하세요. 최적의 환경을 위해 아래의 업그레이드 계획 세션을 사용하여 시작하세요. 등록할 워크숍 타이틀을 클릭 합니다.
+  ms.service: msteams
+  ms.topic: hub-page
+  author: LolaJacobsen
+  ms.author: lolaj
+  manager: serdars
+  ms.date: 01/27/2020
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  ms.custom:
+  - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
+  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 06/26/2020
+  ms.locfileid: "44902393"
+productDirectory:
+  items:
+  - title: 업그레이드 계획 (여기에서 시작하세요!)
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: Teams로의 성공적인 업그레이드를 위해 필요한 모든 정보를 검색합니다. 대상 그룹-모두 (비즈니스 스폰서, IT 관리자, 사용자 준비/변경 관리자, 프로젝트 책임자)
+    url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
+  - title: 최종 사용자 준비
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: 사용자가 Teams에 애정을 갖고 채택할 수 있도록 사용자 준비 전략을 설계하세요. 대상 그룹-사용자 준비/변경 관리자
+    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
+  - title: 업그레이드 접근 방법 파악
+    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: 현재 비즈니스용 Skype 구현 및 업그레이드 목표에 따라 가장 적합한 접근 방법을 결정하세요. 대상 그룹-IT 관리자
+    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
+  - title: 업그레이드 접근 방법 구현
+    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
+    summary: 공식 업그레이드 계획의 일부로 정의한 업그레이드 접근 방법을 실행하세요. 대상 그룹-IT 관리자
+    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+additionalContent:
+  sections:
+  - items:
+    - title: 자신의 시간에이 워크샵 보기
+      summary: YouTube에서 Microsoft 팀으로 업그레이드를 방문 합니다.
+      url: https://aka.ms/UpgradeOnDemand
+    - title: 팀 시나리오 확장
+      summary: IT 전문가를 위한 팀의 분필 대화 워크샵을 확인 하세요.
+      url: https://aka.ms/TeamsChalkTalks
+    - title: Teams를 처음 사용하시나요?
+      summary: 팀을 시작 하는 방법에 대해 자세히 알아보세요.
+      url: https://docs.microsoft.com/microsoftteams/teams-overview

@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 용 Microsoft 365 및 Office 365 서비스와 방글라데시에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: 1ec0337d6c63f97197908375c2c8a3712f5b9621
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: e271e0328e787326921d0fe931a643c3b5ba924e
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878027"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902233"
 ---
 # <a name="availability-in-bangladesh"></a>방글라데시의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 Bangladash 용으로 제공 되는 Microsoft 팀입니다.
+다음은 비즈니스용 Skype 용 Microsoft 365 및 Office 365 서비스와 방글라데시에서 사용할 수 있는 Microsoft 팀입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 

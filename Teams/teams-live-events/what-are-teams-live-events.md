@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ab528740947fa7efdd0608cec309757c3bb5eb2
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689724"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902293"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀 live 이벤트는 무엇 인가요?
 
@@ -76,7 +76,7 @@ Microsoft 365 live 이벤트는 라이브 비디오 스트리밍을 새 수준�
 ECDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 성능에 영향을 주지 않고 기업 전체에 콘텐츠를 배포 하는 것입니다. 다음 인증 된 eCDN 파트너 중 하나를 사용 하 여 조직 내에 보관 되는 실시간 이벤트에 대 한 네트워크를 최적화할 수 있습니다.
 - [벌](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
-- [경사](http://www.ramp.com)
+- [경사](https://rampecdn.com)
 
 ### <a name="attendee-experience"></a>참석자 환경 
 참석자 환경은 라이브 이벤트의 가장 중요 한 측면이 며 참석자가 문제 없이 라이브 이벤트에 참여할 수 있도록 하는 것이 중요 합니다. 참석자 환경은 스트림 재생기 (팀에서 생성 된 이벤트)와 Azure Media Player (외부 앱 또는 장치에서 생성 된 이벤트의 경우)를 사용 하 고 데스크톱, 브라우저 및 모바일 (iOS, Android)에서 작동 합니다. Microsoft 365 및 Office 365는 두 개의 공동 작업 허브가 있는 Yammer와 팀을 제공 하 고, 실시간 참석자 환경이 이러한 공동 작업 도구에 통합 되어 있습니다. 
@@ -91,7 +91,7 @@ ECDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 
 
 ### <a name="related-topics"></a>관련 항목
 - [Yammer, Microsoft 팀, Microsoft Stream의 Microsoft 365에서 발생 하는 라이브 이벤트](https://docs.microsoft.com/stream/live-event-m365)
-- [Microsoft 팀의 실시간 이벤트 시작 하기](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
+- [Microsoft Teams 라이브 이벤트 시작하기](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Yammer의 라이브 이벤트](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
 - [Microsoft Stream의 라이브 이벤트](https://docs.microsoft.com/stream/live-event-overview)
 

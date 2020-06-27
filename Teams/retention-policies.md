@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e091cc9c5d6f3ce55ea9e64473759afbd59df2c4
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666180"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902273"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
@@ -59,7 +59,7 @@ Teams 보존 정책을 통해 다음을 수행할 수 있습니다.
 
 ## <a name="how-teams-retention-policies-work"></a>Teams 보존 정책 작동 방식
 
-Teams 채팅은 채팅에 참여하는 각 사용자의 사서함에 있는 숨겨진 SubstrateHolds 폴더에 저장되고, Teams 채널 메시지는 팀의 그룹 사서함에있는 숨겨진 SubstratesHolds 폴더에 저장됩니다. Teams가 사용하는 Azure 기반 채팅 서비스에서도 이 데이터를 저장하고 기본적으로 이 서비스는 데이터를 영구적으로 저장합니다. Teams 보존 정책을 사용하여 데이터를 삭제하면 Exchange 사서함과 기본 채팅 서비스 모두에서 데이터가 영구적으로 삭제됩니다.
+팀 채팅은 숨겨진 폴더 (Teamschat-채팅에 있는 각 사용자의 사서함)에 저장 되며 팀 채널 메시지는 그룹 사서함의 숨겨진 폴더에 저장 됩니다. Teams가 사용하는 Azure 기반 채팅 서비스에서도 이 데이터를 저장하고 기본적으로 이 서비스는 데이터를 영구적으로 저장합니다. Teams 보존 정책을 사용하여 데이터를 삭제하면 Exchange 사서함과 기본 채팅 서비스 모두에서 데이터가 영구적으로 삭제됩니다.
 
 Teams 채팅 및 채널 메시지에 보존 정책을 적용하면 다음과 같은 일이 발생합니다.
 
@@ -83,7 +83,7 @@ SharePoint Online 또는 비즈니스 용 OneDrive에 적용되는 보존 정책
 
 - Teams는 키워드 또는 민감한 정보를 포함하는 콘텐츠에 정책을 적용하는 기능과 같은 고급 보존 설정을 지원하지 않습니다. 현재 Teams의 보존 정책은 모든 채팅 및/또는 채널 메시지 콘텐츠에 적용됩니다.
 
-- 만료 된 메시지를 정리 하려면 팀에 최대 3 ~ 7 일이 걸릴 수 있습니다. Teams 보존 정책은 보존 기간이 만료되면 채팅 및 채널 메시지를 삭제합니다. 그러나이 메시지를 정리 하 고 영구적으로 삭제 하는 데는 최대 3 ~ 7 일이 걸릴 수 있습니다. 또한 보존 기간이 만료된 후부터 메시지가 영구적으로 삭제될 때까지 eDiscovery 도구를 사용하여 채팅 및 채널 메시지를 검색할 수 있습니다.
+- 팀 보존 정책은 보존 기간이 만료 되 면 채팅 및 채널 메시지를 삭제 하는 프로세스를 트리거합니다. 그러나이 메시지를 정리 하 고 영구적으로 삭제 하는 데는 최대 3 ~ 7 일이 걸릴 수 있습니다. 또한 보존 기간이 만료된 후부터 메시지가 영구적으로 삭제될 때까지 eDiscovery 도구를 사용하여 채팅 및 채널 메시지를 검색할 수 있습니다.
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>복수의 보존 정책 및 보존 원칙
 
