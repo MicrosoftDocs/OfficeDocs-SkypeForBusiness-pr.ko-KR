@@ -117,6 +117,7 @@
 #### [개요](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams 사용 현황 보고서](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams 사용자 작업 보고서](teams-analytics-and-reports/user-activity-report.md)
+#### [Teams 앱 사용 현황 보고서](teams-analytics-and-reports/app-usage-report.md)
 #### [Teams 장치 사용 현황 보고서](teams-analytics-and-reports/device-usage-report.md)
 #### [PSTN으로 차단된 사용자 보고서](teams-analytics-and-reports/pstn-blocked-users-report.md)
 #### [PSTN 통화 시간 풀(분) 보고서](teams-analytics-and-reports/pstn-minute-pools-report.md)
