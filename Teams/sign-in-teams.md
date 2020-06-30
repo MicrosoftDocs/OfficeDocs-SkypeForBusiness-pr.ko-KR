@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0189c6072840582854b276f0c0116e03fcaff3c0
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868305"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877819"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용하여 Microsoft Teams에 로그인
 ==========================
@@ -66,6 +66,10 @@ MacOS의 경우 Teams에서 사용자 이름 및 자격 증명을 입력하라�
 1. 선택한 계정이 현재 다른 Office 365 또는 Microsoft 365 앱에 로그인되어 있는 경우, 사용자는 Teams로 바로 이동됩니다. 사용자는 자격 증명을 입력할 필요가 없습니다.
     
 2. 사용자가 다른 곳에 Microsoft 365 계정으로 로그인되어 있지 않은 경우, 조직에서 모바일 로그인 정책에 대해 구성한 항목에 따라 일단계 혹은 다단계(SFA 또는 MFA) 인증을 제공하라는 메시지가 표시됩니다.
+
+> [!NOTE]
+> 사용자가 이 섹션에서 설명한 대로 로그온 환경을 경험하려면 해당 기기에서 Teams for iOS 버전 2.0.13 이상(빌드 2020061704) 또는 Teams for Android 버전 1416/1.0.0.2020061702 이상을 실행해야 합니다..
+
 
 ### <a name="adding-multiple-accounts-to-teams"></a>Teams에 여러 계정 추가
 
