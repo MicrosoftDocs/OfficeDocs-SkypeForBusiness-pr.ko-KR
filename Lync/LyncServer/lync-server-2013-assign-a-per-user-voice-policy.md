@@ -12,12 +12,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6a10e2fb6d8e17352eb8a96be57b24e706fc5d5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1528ef6124193023a0e5938caac7b40c2c6187a2
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134394"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943931"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>Lync Server 2013에서 사용자별 음성 정책 할당
 
@@ -40,29 +40,29 @@ ms.locfileid: "42134394"
     
 
     > [!NOTE]  
-    > 자동 설정은 기본 서버 또는 전역 정책 설정을 적용 합니다. <STRONG> &lt;&gt; </STRONG>
+    > <STRONG> &lt; 자동 &gt; </STRONG> 설정은 기본 서버 또는 전역 정책 설정을 적용 합니다.
 
 
 
-## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 사용자별 음성 정책 할당
+## <a name="assign-per-user-voice-policies"></a>사용자별 음성 정책 할당
 
-Windows PowerShell 및 **set-csvoicepolicy** cmdlet을 사용 하 여 사용자별 음성 정책을 할당할 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Windows PowerShell 및 **set-csvoicepolicy** cmdlet을 사용 하 여 사용자별 음성 정책을 할당할 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용을 보려면이 Lync Server Windows PowerShell 블로그 게시물: [빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync server 2010 관리](https://go.microsoft.com/fwlink/p/?linkId=255876)를 참조 하세요.
 
-## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a>단일 사용자에 게 사용자별 음성 정책을 할당 하려면
+### <a name="assign-a-per-user-voice-policy-to-a-single-user"></a>단일 사용자에 게 사용자별 음성 정책 할당
 
   - 다음 명령은 사용자 Ken Myer에게 사용자별 음성 정책 RedmondVoicePolicy를 할당합니다.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-## <a name="to-assign-a-per-user-voice-policy-to-multiple-users"></a>여러 사용자에 게 사용자별 음성 정책을 할당 하려면
+## <a name="assign-a-per-user-voice-policy-to-multiple-users"></a>여러 사용자에 게 사용자별 음성 정책 할당
 
   - 이 명령은 사용자별 음성 정책 FinanceVoicePolicy를 Active Directory의 Finance OU에 계정이 있는 모든 사용자에게 할당합니다. 이 명령에 사용 되는 OU 매개 변수에 대 한 자세한 내용은 [csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) u i c c i c c a c c # cmdlet의 설명서를 참조 하십시오.
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
-## <a name="to-unassign-a-per-user-voice-policy"></a>사용자별 음성 정책을 할당 해제 하려면
+## <a name="unassign-a-per-user-voice-policy"></a>사용자별 음성 정책 할당 해제
 
-  - 다음 명령은 Ken Myer에게 이전에 할당된 사용자별 음성 정책을 할당 해제합니다. 사용자별 정책을 할당 해제한 후에는 Ken Myer가 자동으로 전역 정책 또는 해당 로컬 사이트 정책(있는 경우)을 사용하여 관리됩니다. 사이트 정책이 전역 정책보다 우선합니다.
+  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 

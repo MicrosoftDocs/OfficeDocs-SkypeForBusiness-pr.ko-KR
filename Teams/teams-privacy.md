@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579574"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938497"
 ---
 # <a name="privacy-and-microsoft-teams"></a>개인 정보 보호 및 Microsoft Teams
 
@@ -58,7 +58,7 @@ Microsoft는 다음을 제외하고 개인 데이터를 공개하지 않습니�
 1. 온라인 서비스 약관에 명시된 경우 (예: 권한이 부여된 하청계약자를 통해 특정 서비스 구성 요소를 제공하는 경우)
 1. 법에 의해 필요한 경우
 
-법 집행 기관이 필요에 따라 Microsoft에 요청하는 경우 Microsoft는 법 집행 기관이 고객에게서 직접 개인 데이터를 요청하도록 리디렉션을 시도합니다. 개인 데이터를 법 집행 기관에 공개하도록 강제하는 경우 Microsoft는 즉시 고객에게 알리고 법적으로 금지되지 않는 한 요청 사본을 고객에게 제공합니다. 법 집행 기관 및 기타 정부 기관 요청의 응답으로 데이터 공개에 대한 자세한 내용은 [법 집행 요청 보고서](https://www.microsoft.com/about/corporate-responsibility/lerr/)를 참조하세요.
+법 집행 기관이 필요에 따라 Microsoft에 요청하는 경우 Microsoft는 법 집행 기관이 고객에게서 직접 개인 데이터를 요청하도록 리디렉션을 시도합니다. 개인 데이터를 법 집행 기관에 공개하도록 강제하는 경우 Microsoft는 즉시 고객에게 알리고 법적으로 금지되지 않는 한 요청 사본을 고객에게 제공합니다. 법 집행 기관 및 기타 정부 기관 요청의 응답으로 데이터 공개에 대한 자세한 내용은 [법 집행 요청 보고서](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report)를 참조하세요.
 
 [Teams 보안 가이드](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards)에는 규정 준수 표준에 대한 자세한 내용이 있습니다.
 
