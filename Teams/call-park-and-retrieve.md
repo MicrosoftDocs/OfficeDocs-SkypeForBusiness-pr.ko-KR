@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 통화 공원을 사용 하 고 클라우드의 팀 서비스에서 통화를 보류 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042965"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938537"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원 및 Microsoft 팀에서 검색
 
@@ -52,45 +52,47 @@ ms.locfileid: "44042965"
 
 | 기능 | 팀 데스크톱 | 팀 Mac 앱 | 팀 웹 앱 (Edge) |팀 모바일 iOS/Android 앱 | 팀 IP 전화 | 비즈니스용 Skype IP 전화 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| 통화 파킹 | 예 | 예 | 예 | 예 | 개봉박두| 아니요 |
-| 파킹 된 통화 검색 | 예 | 예 | 예 | 예 | 개봉박두| 아니요 |
-| 통화 링 뒤로 검색 | 예 | 예 | 예 | 예 | 개봉박두| 아니요 |
+| 통화 파킹 | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| 파킹 된 통화 검색 | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| 통화 링 뒤로 검색 | 예 | 예 | 예 | 예 | 예 | 아니요 |
 
-## <a name="configuring-call-park-and-retrieve"></a>통화 공원 구성 및 검색
+## <a name="configure-call-park-and-retrieve"></a>통화 공원 구성 및 검색
 
-관리자만 통화 대기를 구성 하 고 검색을 할 수 있으며 기본적으로이 기능은 비활성화 되어 있습니다. 사용자에 대해이 기능을 사용 하도록 설정 하 고 통화 공원 정책을 사용 하 여 사용자 그룹을 만들 수 있습니다. 사용자 집합에 같은 정책을 적용 하는 경우에는 서로 간에 전화를 걸고 검색할 수 있습니다. 사용자에 대 한 통화 공원를 구성 하 고 통화 공원 사용자 그룹을 만들려면 아래 [통화 공원 할당 정책](#assign-a-call-park-policy) 절차를 따르세요.
+통화 공원 및 검색을 구성 하려면 관리자 여야 하며 기본적으로이 기능은 비활성화 되어 있습니다. 사용자에 대해이 기능을 사용 하도록 설정 하 고 통화 공원 정책을 사용 하 여 사용자 그룹을 만들 수 있습니다. 사용자 집합에 같은 정책을 적용 하는 경우에는 서로 간에 전화를 걸고 검색할 수 있습니다. 사용자에 대 한 통화 공원를 구성 하 고 통화 공원 사용자 그룹을 만들려면 아래 [통화 공원 할당 정책](#assign-a-call-park-policy) 절차를 따르세요.
 
 통화 공원 및 검색 기능을 사용 하는 방법에 대 한 자세한 내용은 [팀에서 통화](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)대기를 참조 하세요.
 
 ### <a name="enable-a-call-park-policy"></a>통화 공원 정책 사용
 
-통화 공원 정책을 사용 하도록 설정 하려면 다음 단계를 따르세요.
-
-1. **Microsoft 팀 관리 센터** > **음성** > **통화 공원 정책**으로 이동 합니다.
-2. **새 정책을**선택 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **통화 공원 정책**으로 이동 합니다.
+2. **추가**를 선택 합니다.
 3. 정책 이름을 지정한 다음 **통화 대기 허용** 을 **설정**으로 전환 합니다.
 4. **저장**을 선택 합니다.
 
+#### <a name="using-powershell"></a>PowerShell 사용
+
+[새로운 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)을 참조 하세요.
+
+### <a name="edit-a-call-park-policy"></a>통화 공원 정책 편집
+
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **통화 공원 정책**으로 이동 합니다.
+2. 정책 이름 왼쪽을 클릭 하 여 정책을 선택한 다음 **편집**을 클릭 합니다.
+3. 통화 대기를 **끄거나** **켜려면**스위치를 **사용** 합니다.
+4. **저장**을 클릭합니다.
+
+#### <a name="using-powershell"></a>PowerShell 사용
+
+[Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)를 참조 하세요. 예를 들어 기본 설정을 변경 하려면 다음을 실행 합니다.
+
+  ```PowerShell
+  Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true
+  ```
+
 ### <a name="assign-a-call-park-policy"></a>통화 공원 정책 할당
 
-한 명 이상의 사용자에 게 통화 공원 정책을 할당 하려면 다음 단계를 따르세요.
-
-1. **Microsoft 팀 관리 센터** > **음성** > **통화 공원 정책**으로 이동 합니다.
-2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
-3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-5. 사용자 추가를 마쳤으면 **저장**을 선택합니다.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
  
-### <a name="configure-call-park-and-retrieve-with-powershell"></a>호출 공원 구성 및 PowerShell을 사용 하 여 검색
-
-[새 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet을 사용 하 여 통화 공원 정책을 만듭니다.
-
-[CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet을 사용 하 여 통화 공원 정책을 부여 합니다.
-
-다음과 같이 [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) 를 사용 하 여 기본 설정을 변경할 수 있습니다.
-
-`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
-
+[허용-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)을 참조 하세요.
 
 ## <a name="troubleshooting"></a>문제 해결
 
@@ -105,6 +107,8 @@ ms.locfileid: "44042965"
 - 섬 모드 – 팀 섬 모드에서는 통화 공원 및 읽어들이기를 사용할 수 없습니다.
 - 통화가 이미 검색 되었거나 종료 되었습니다.
 
-## <a name="more-information"></a>추가 정보
+## <a name="related-topics"></a>관련 항목
 
-[팀에서 통화를 파킹](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)합니다.
+[팀에서 통화 대기](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+
+[팀에서 사용자에 게 정책 할당](assign-policies.md)

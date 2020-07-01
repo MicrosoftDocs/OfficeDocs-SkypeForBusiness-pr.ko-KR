@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 긴급 전화 번호를 설정 하 고 긴급 전화의 라우팅 방법을 지정 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b200f5a160e7b13a9412d588f3342eeb5a08ccd8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 35595d8c3b784b908448eae72013cb8bcf3f37f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638697"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938167"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 라우팅 정책 관리
 
@@ -74,56 +74,9 @@ ms.locfileid: "44638697"
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>사용자에 게 사용자 지정 긴급 전화 라우팅 정책 할당
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
-
-한 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
-
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
-2. **정책을**클릭 한 다음 **할당 된 정책**옆에 있는 **편집**을 클릭 합니다.
-3. **비상 전화 라우팅 정책**에서 할당할 정책을 선택한 다음 **저장**을 클릭 합니다.
-
-한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
-
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자**로 이동한 다음, 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
-2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 표 맨 위에서 &#x2713;(확인 표시)를 클릭합니다.
-3. **설정 편집**을 클릭하고 원하는 대로 변경한 다음, **적용**을 클릭합니다.  
-
-또는 다음을 수행할 수도 있습니다.
-
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **응급 정책**으로 이동한 다음 **전화 라우팅 정책** 탭을 클릭 합니다.
-2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
-3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
-
-### <a name="using-powershell"></a>PowerShell 사용
-
-#### <a name="assign-a-custom-emergency-call-routing-policy-to-a-user"></a>사용자에 게 사용자 지정 긴급 통화 라우팅 정책 할당
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 [허용-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)을 참조 하세요.
-
-### <a name="assign-a-custom-emergency-call-routing-policy-to-users-in-a-group"></a>그룹의 사용자에 게 사용자 지정 긴급 전화 라우팅 정책 할당
-
-이미 확인 한 여러 사용자에 게 사용자 지정 긴급 전화 라우팅 정책을 할당 하려고 할 수 있습니다. 예를 들어 보안 또는 메일 그룹의 모든 사용자에 게 정책을 할당할 수 있습니다. 그래프 모듈의 Azure Active Directory PowerShell 및 비즈니스용 Skype PowerShell 모듈에 연결 하 여이 작업을 수행할 수 있습니다.
-
-이 예제에서는 Contoso HR 그룹의 모든 사용자에 게 HR 비상 통화 라우팅 정책 이라는 정책을 할당 합니다.  
-
-> [!NOTE]
-> 먼저 [모든 Microsoft 365 또는 Office 365 서비스에 연결의 단계를 단일 Windows powershell 창에](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
-
-특정 그룹의 GroupObjectId를 가져옵니다.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso HR"
-```
-지정 된 그룹의 구성원을 가져옵니다.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-특정 팀 정책에 그룹의 모든 사용자를 할당 합니다. 이 예제에서는 HR 긴급 통화 라우팅 정책입니다.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
-``` 
-그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>네트워크 사이트에 사용자 지정 긴급 전화 라우팅 정책 할당
 
@@ -137,6 +90,8 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 ## <a name="related-topics"></a>관련 항목
 
-- [팀에서 긴급 통화 정책 관리](manage-emergency-calling-policies.md)
-- [Teams PowerShell 개요](teams-powershell-overview.md)
-- [팀에서 사용자에 게 정책 할당](assign-policies.md)
+[팀에서 긴급 통화 정책 관리](manage-emergency-calling-policies.md)
+
+[Teams PowerShell 개요](teams-powershell-overview.md)
+
+[팀에서 사용자에 게 정책 할당](assign-policies.md)

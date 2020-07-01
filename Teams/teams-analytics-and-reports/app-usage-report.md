@@ -17,12 +17,12 @@ description: Microsoft 팀 관리 센터에서 팀 앱 사용 현황 보고서�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a5d5c1bdb5b5bbe58ecdb90721ce24bd0081a65
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902364"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938207"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft 팀 앱 사용 보고서
 
@@ -30,7 +30,7 @@ Microsoft 팀 관리 센터의 팀 앱 사용 보고서에서는 팀에서 사�
 
 ## <a name="view-the-app-usage-report"></a>앱 사용 현황 보고서 보기
 
-1.  관리 센터의 왼쪽 탐색 창에서 <https://teams.admin.microsoft.com> **분석 & 보고서** \> **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **앱 사용**을 선택 합니다.
+1.  관리 센터의 왼쪽 탐색 창에서 <https://admin.teams.microsoft.com> **분석 & 보고서** \> **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **앱 사용**을 선택 합니다.
 
      :::image type="content" source="media/app-usage-report1.png" alt-text="사용 현황 보고서 메뉴 항목의 스크린샷":::
 

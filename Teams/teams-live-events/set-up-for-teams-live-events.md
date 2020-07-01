@@ -3,7 +3,6 @@ title: Microsoft Teams에서 실시간 이벤트 설정
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -18,12 +17,12 @@ description: 네트워크 설정, 라이선스 할당, 라이브 이벤트 기�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a813f72c61e34ab217b14316ec4c2320affedfc6
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902283"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938507"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams에서 실시간 이벤트 설정
 
@@ -42,20 +41,18 @@ Teams에서 생성된 라이브 이벤트를 사용하여 용어 집합을 가�
 실시간 이벤트 정책은 조직에서 실시간 이벤트를 보유할 수 있는 사람과 이들이 생성한 이벤트에서 사용할 수 있는 기능을 제어하는 데 사용됩니다. 기본 정책을 사용하거나 하나 이상의 사용자 지정 라이브 이벤트 정책을 만들 수 있습니다. 사용자 지정 정책을 만든 후 조직의 사용자 또는 사용자 그룹에 할당합니다.
 
 > [!NOTE]
-> 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 적용됩니다. 기본적으로 전역 정책에서는 Teams 사용자에 게 실시간 이벤트 예약을 사용할 수 있습니다. live 캡션과 자막(기록)이 꺼져 있는 경우 조직의 모든 사용자가 실시간 이벤트에 참석할 수 있으며 녹음/녹화 설정은 항상 녹음/녹화로 설정됩니다.
+> 사용자 지정 정책을 만들고 할당 하지 않으면 조직의 사용자는 전역 (조직 차원의 기본값) 정책을 받습니다. 기본적으로 전역 정책에서는 Teams 사용자에 게 실시간 이벤트 예약을 사용할 수 있습니다. live 캡션과 자막(기록)이 꺼져 있는 경우 조직의 모든 사용자가 실시간 이벤트에 참석할 수 있으며 녹음/녹화 설정은 항상 녹음/녹화로 설정됩니다.
 
 ### <a name="create-or-edit-a-live-events-policy"></a>라이브 이벤트 정책 만들기 또는 편집
 
 <a name="bkcreatepolicy"> </a>
 
-**![Microsoft Teams 로고를 나타내는 아이콘](../media/teams-logo-30x30.png)Microsoft Teams 관리 센터 사용**
-
-1. 왼쪽 탐색 메뉴에서 **모임** > **라이브 이벤트 정책**으로 이동하세요.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **모임**  >  **라이브 이벤트 정책**으로 이동 합니다.
 2. 다음 중 하나를 수행합니다.
 
-- 기존 기본 정책을 편집하려면 **전역(조직 전체 기본값)** 을 선택하세요.
-- 새 사용자 지정 정책을 만들려면 **새 정책**을 선택하세요.
-- 사용자 지정 정책을 편집하려면 정책을 선택하고 **편집**을 선택합니다.
+    - 기존 기본 정책을 편집하려면 **전역(조직 전체 기본값)** 을 선택하세요.
+    - 새 사용자 지정 정책을 만들려면 **추가**를 선택 합니다.
+    - 사용자 지정 정책을 편집하려면 정책을 선택하고 **편집**을 선택합니다.
 
     조직의 요구 사항에 맞게 변경할 수 있는 설정은 다음과 같습니다.
 
@@ -72,26 +69,9 @@ Teams에서 생성된 라이브 이벤트를 사용하여 용어 집합을 가�
 
 Windows PowerShell을 사용하여 이 작업을 수행할 수도 있습니다. 자세한 내용은 [PowerShell을 사용하여 Teams에서 라이브 이벤트 정책 설정](set-teams-live-events-policies-using-powershell.md)을 참조 하세요. 
 
-### <a name="assign-a-live-events-policy-to-users"></a>사용자에게 라이브 이벤트 정책 할당 
+### <a name="assign-a-live-events-policy-to-users"></a>사용자에게 라이브 이벤트 정책 할당
 
-사용자 지정 라이브 이벤트 정책을 만든 경우, 정책이 활성화될 수 있도록 사용자에게 할당합니다. 
-
-![Microsoft Teams 로고를 보여주는 아이콘](../media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
-
-1. 왼쪽 탐색 창에서 **사용자**로 이동한 다음 사용자를 선택합니다.
-2. **할당된 정책** 옆에서 **편집**을 선택합니다. 
-3. 할당할 라이브 이벤트 정책을 선택하고 **저장**을 선택합니다. 
-
-다음과 같이 한 명 이상의 사용자에게 라이브 이벤트 정책을 할당할 수도 있습니다.
-
-![Microsoft Teams 로고를 보여주는 아이콘](../media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
-
-1. **모임** > **라이브 이벤트 정책**으로 이동합니다.
-2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
-3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-5. 사용자 추가를 마쳤으면 **저장**을 선택합니다.
- 
+사용자 지정 라이브 이벤트 정책을 만든 경우, 정책이 활성화될 수 있도록 사용자에게 할당합니다. <br><br>[!INCLUDE [assign-policy](../includes/assign-policy.md)]
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>사용자가 외부 앱 또는 장치로 생성된 이벤트를 예약할 수 있도록 합니다.
 
@@ -106,6 +86,7 @@ Windows PowerShell을 사용하여 이 작업을 수행할 수도 있습니다. 
 3. 실시간 이벤트 주최자가 Stream 관리자가 설정한 회사 정책에 동의했는지 확인하십시오. Stream 관리자가 [회사 가이드라인 정책을 설정](https://docs.microsoft.com/stream/company-policy-and-consent)하고 직원이 콘텐츠를 저장하기 전에이 정책을 수락하도록 요구하는 경우 사용자는 팀에서 실시간 이벤트(외부 앱 또는 장치 사용)를 만들기 전에 이 작업을 수행해야 합니다. 조직에서 실시간 이벤트 기능을 출시하기 전에 이러한 실시간 이벤트를 만들 사용자가 정책에 동의했는지 확인하세요. 
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>4단계: Teams에서 라이브 이벤트에 대한 비디오 배포 솔루션 설정
+
 라이브 이벤트 비디오 재생은 ABR(Adaptive Bitrate Streaming)을 사용하지만 유니캐스트 스트림이므로 모든 시청자가 인터넷에서 자신의 비디오 스트림을 받고 있습니다. 조직의 많은 부분으로 전송되는 실시간 이벤트 또는 비디오의 경우 시청자가 상당한 양의 인터넷 대역폭을 소비할 수 있습니다. 라이브 이벤트의 인터넷 트래픽을 줄이려는 조직을 위해 라이브 이벤트 솔루션은 소프트웨어 정의 네트워크(SDN) 또는 엔터프라이즈 컨텐츠 전송 네트워크 (eCDN)를 제공하는 Microsoft의 신뢰할 수 있는 비디오 제공 파트너와 통합됩니다. 이러한 SDN/eCDN 플랫폼을 통해 조직은 최종 사용자 시청 경험을 희생하지 않고도 네트워크 대역폭을 최적화할 수 있습니다. 파트너는 엔터프라이즈 네트워크에서보다 확장 가능하고 효율적인 비디오 배포를 지원할 수 있습니다.
 
 **Teams 외부에서 솔루션 구매 및 설정** Microsoft의 신뢰할 수 있는 비디오 제공 파트너를 활용하여 비디오 제공 확장에 대한 전문가의 도움을 받으세요. 비디오 제공 공급자를 Teams와 함께 사용하려면 먼저 Teams 외부에서 SDN/eCDN 솔루션을 구입하여 설정해야 합니다.
@@ -124,9 +105,11 @@ Windows PowerShell을 사용하여 이 작업을 수행할 수도 있습니다. 
 SDN 또는 eCDN 솔루션을 설정한 후에는 Teams에서 실시간 이벤트에 대해 공급자를 구성할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
+
 [Teams에서 라이브 이벤트 설정 구성하기](configure-teams-live-events.md)로 이동합니다.
 
 ### <a name="related-topics"></a>관련 항목
+
 - [Teams 라이브 이벤트란?](what-are-teams-live-events.md)
 - [Teams 라이브 이벤트 계획](plan-for-teams-live-events.md)
 - [Teams에서 라이브 이벤트 설정 구성하기](configure-teams-live-events.md)

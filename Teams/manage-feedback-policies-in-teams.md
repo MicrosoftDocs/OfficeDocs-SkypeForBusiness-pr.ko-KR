@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 팀 사용자가 Microsoft에 팀에 대 한 피드백을 제출할 수 있는지 여부를 제어 하는 데 피드백 정책을 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b489e574a1d1c2a2b1ac5faf69626e997dbbfaa9
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637957"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938487"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft 팀에서 피드백 정책 관리
 
@@ -46,11 +46,11 @@ ms.locfileid: "44637957"
 
 관리자는 조직의 사용자가 **피드백을 제공** 하 고 설문 조사를 받을지 여부를 통해 Microsoft에 팀에 대 한 피드백을 보낼 수 있는지 여부를 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에 게 전역 (조직 전체 기본값) 정책이 자동으로 할당 되며 **사용자 의견 제공** 기능 및 설문 조사가 정책에 사용 됩니다. 예외는 교사를 위해 기능을 사용 하도록 설정 하 고 학생 들이 사용할 수 없도록 하는 교육용 팀입니다.
 
-전역 정책을 편집 하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자가 사용자 지정 정책을 할당 한 경우 해당 정책이 사용자에 게 적용 됩니다. 사용자가 사용자 지정 정책을 할당 하지 않으면 전역 정책이 사용자에 게 적용 됩니다. 전역 정책을 편집 하거나 정책을 할당 한 후 변경 내용을 적용 하는 데 몇 시간이 걸릴 수 있습니다.
+전역 정책을 편집 하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 전역 정책을 편집 하거나 사용자 지정 정책을 할당 한 후 변경 내용을 적용 하는 데 몇 시간이 걸릴 수 있습니다.
 
 예를 들어 조직의 모든 사용자가 교육에 대 한 새로운 채용을 제외 하 고 **피드백을 제공** 하 고 설문 조사를 통해 피드백을 보낼 수 있도록 하려는 경우를 예로 들어 보겠습니다. 이 시나리오에서는 두 기능을 해제 하 고 새 고용에 할당 하는 사용자 지정 정책을 만듭니다. 조직의 다른 모든 사용자는 기능이 설정 된 전역 정책을 받습니다.  
 
-* [여기서 찾을](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)수 있는* **New CsTeamsFeedbackPolicy** cmdlet을 사용 하 여 사용자 지정 정책 및 **허용-CsTeamsFeedbackPolicy** cmdlet을 만들어 보안 그룹 또는 메일 그룹과 같은 하나 이상의 사용자 또는 사용자 그룹에 할당 합니다.
+PowerShell을 사용 하 여 피드백 정책을 관리 합니다. * [여기서 찾을](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)수 있는* **New CsTeamsFeedbackPolicy** cmdlet을 사용 하 여 사용자 지정 정책 및 **허용-CsTeamsFeedbackPolicy** cmdlet을 만들어 보안 그룹 또는 메일 그룹과 같은 하나 이상의 사용자 또는 사용자 그룹에 할당 합니다.
 
 기능을 끄고 켜려면 다음 매개 변수를 설정 합니다.
 
@@ -65,35 +65,17 @@ ms.locfileid: "44637957"
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
-## <a name="assign-a-custom-feedback-policy"></a>사용자 지정 피드백 정책 지정
+## <a name="assign-a-custom-feedback-policy-to-users"></a>사용자에 게 사용자 지정 피드백 정책 할당
 
-### <a name="assign-a-custom-feedback-policy-to-a-user"></a>사용자에 게 사용자 지정 피드백 정책 할당
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 이 예제에서는 user1 이라는 사용자에 게 새 채용 사용자 의견 정책 이라는 사용자 지정 정책을 할당 합니다.
 
 ```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
-### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>그룹의 사용자에 게 사용자 지정 피드백 정책 할당
-
-이미 식별 한 여러 사용자에 게 사용자 지정 피드백 정책을 할당 하려고 할 수 있습니다. 예를 들어 보안 그룹의 모든 사용자에 게 정책을 할당 하려고 할 수 있습니다.
-
-이 예제에서는 Contoso 새 고용 그룹의 모든 사용자에 게 새 채용 사용자 의견 정책 이라는 사용자 지정 피드백 정책을 할당 합니다.  
-
-특정 그룹의 GroupObjectId를 가져옵니다.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso New Hires"
-```
-지정 된 그룹의 구성원을 가져옵니다.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-그룹의 모든 사용자를 특정 피드백 정책에 할당 합니다. 이 예제에서는 새 채용에 대 한 의견 수집 정책입니다.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
-``` 
-그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
 - [팀 PowerShell 개요](teams-powershell-overview.md)
+- [팀에서 사용자에 게 정책 할당](assign-policies.md)

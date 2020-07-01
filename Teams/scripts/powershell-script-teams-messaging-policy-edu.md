@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 748167dc8e03b53fc07611df0ff464d984fb5678
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951063"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938197"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 스크립트 샘플-메시징 정책 만들기 및 할당
 
@@ -62,4 +62,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> 일괄 처리 정책 할당을 사용 하 여 대규모 사용자 집합에 메시징 정책을 할당할 수도 있습니다. 자세한 내용은 [학교에서 대규모 사용자 집합에 정책 할당](../batch-policy-assignment-edu.md) 및 [팀에서 사용자에 게 정책 할당](../assign-policies.md)을 참조 하세요.
+> 일괄 처리 정책 할당 또는 사용자가 구성원으로 속한 그룹을 통해 확장할 때 사용자에 게 직접 메시징 정책을 할당할 수도 있습니다. 자세한 내용은 [학교에서 대규모 사용자 집합에 정책 할당](../batch-policy-assignment-edu.md) 및 [팀에서 사용자에 게 정책 할당](../assign-policies.md)을 참조 하세요.

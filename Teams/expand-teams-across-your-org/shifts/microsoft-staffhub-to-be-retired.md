@@ -1,14 +1,14 @@
 ---
-title: Microsoft StaffHub 사용 중지 예정
+title: Microsoft StaffHub가 만료 되었습니다.
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft StaffHub의 만료와 microsoft 팀에서 교대 근무 앱으로 전환 하는 방법에 대 한 질문과 대답을 확인할 수 있습니다.
+description: Microsoft StaffHub를 만료 하는 데 대 한 질문과 대답을 확인 하 고 Microsoft 팀의 교대 근무 앱으로 전환 하는 방법에 대해 알아봅니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7e557d204ca838ce3f8c5bad9c2c62949bf836aa
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ed2b2c3b2b1671b0000fb452d3c1b1dd6979625c
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868665"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938317"
 ---
-# <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 사용 중지 예정
+# <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub가 만료 되었습니다.
 
-유효 2020 년 6 월 30 일에 Microsoft StaffHub 사용이 중지 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다.
+유효 2020 년 6 월 30 일에 Microsoft StaffHub 사용이 중지 되었습니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다.
 
 이러한 변경은 모든 직원에 게 Microsoft 365을 강화 하기 위한 지속적인 노력의 일부입니다. 팀의 Firstline Worker에 대 한 접근 권한 값을 통해 조직의 모든 직원이 팀을 사용 하 여 업무를 합리화 하 고, 동료와 공동 작업을 진행 하 고, 정보 및 전문성에 액세스 하 여 가장 좋은 업무를 도울 수 있습니다.
 
@@ -37,27 +37,27 @@ ms.locfileid: "44868665"
 
 #### <a name="when-will-staffhub-be-retired"></a>StaffHub는 언제 만료 되나요?
 
-2019 년 4 월 중간에 새 테 넌 트에 대해 더 이상 Microsoft StaffHub를 사용할 수 없으며 기존 테 넌 트의 Microsoft 365 또는 Office 365 앱 시작 관리자에서 앱에 액세스할 수 없게 됩니다. 현재 사용자는 2019 년 12 월 31 일까 지 서비스를 계속 사용할 수 있지만 추가 기능은 제공 되지 않습니다.
+Microsoft StaffHub은 2020 6 월 30 일에 만료 되었습니다.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>StaffHub가 만료 되 면 어떻게 되나요?
 
-2020 년 6 월 30 일에 Microsoft StaffHub에서 모든 사용자의 작동이 중지 됩니다. 앱을 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 사용자에 게 팀을 포함 하는 활성 라이선스가 있고 조직이 팀을 활성화 하는 적절 한 단계를 수행 하는 경우 팀을 전환할 때 StaffHub에서 해당 데이터 및 핵심 기능을 사용할 수 있습니다.
-
-4 월 2019과 6 월 2020 사이에는 StaffHub 사용자가 팀을 사용 하도록 권유 하 여 앱에서 직접 알림을 받게 됩니다.
+StaffHub에서 2020 년 6 월 30 일에 모든 사용자의 작동이 중지 되었습니다. 앱을 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다.
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>현재 StaffHub에서 제공 하는 모든 기능이 팀에서 제공 되나요?
 
 2019 년 1 월에는 팀이 이전에 Microsoft StaffHub에서 사용할 수 있었던 교대 근무를 제공 하기 시작 했습니다. 이 기능을 사용 하 여 관리자는 교대 근무 일정을 계획 하 고 배포할 수 있으며, 팀 구성원이 자신의 일정을 검토 하 고 모바일 장치에서 일정 변경 요청을 수행할 기회가 있습니다. 자세히 알아보려면 [팀에서 조직의 교대 근무 앱 관리](manage-the-shifts-app-for-your-organization-in-teams.md)를 참조 하세요.
 
-저희는 뛰어난 사용자 환경을 제공 하 고 StaffHub의 고유 기능을 팀에 게 제공할 수 있도록 노력 하 고 있습니다. 팀에서 사용할 수 있는 기능에 대 한 자세한 내용은 [팀에 게 곧 제공 되는 Firstline Worker 기능](firstline-worker-features-coming-to-teams.md)을 참조 하세요.
-
-#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>이 변경 사항에 대해 준비 해야 할 사항
-
-팀에서 StaffHub 전환에 대 한 전환을 준비 하는 방법에 대 한 자세한 내용은 [준비를 참조 하 여 StaffHub 팀을 교대으로 이동](move-staffhub-teams-to-shifts-in-teams.md#prepare)하세요.
+저희는 뛰어난 사용자 환경을 제공 하 고 StaffHub의 고유 기능을 팀에 게 제공할 수 있도록 노력 하 고 있습니다.
 
 #### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>조직의 사용자가 팀의 StaffHub 팀에 액세스할 수 없는 이유는 무엇 인가요?
 
-StaffHub를 사용 하 여 만든 팀은 StaffHub 에서만 보고 관리할 수 있습니다. StaffHub 팀이 팀으로 이동 하 고 나면 사용자는 자신의 일정을 교대으로 볼 수 있습니다. 이 변경 사항을 조기에 의사 소통 하 고 팀과 기존 사용자를 숙지 하도록 권장 합니다.
+팀에서 StaffHub 팀에 액세스 하려면 StaffHub가 종료 된 경우 2020 년 6 월 30 일 이전에 StaffHub 팀을 팀으로 이동 해야 했습니다.
+
+#### <a name="what-happens-if-i-didnt-move-a-staffhub-team-to-shifts-in-teams"></a>팀에서 StaffHub 팀을 이동 하지 않은 경우 어떻게 되나요?
+
+StaffHub를 사용 하 여 만들었고 팀으로 이동 하지 않은 팀은 StaffHub가 만료 된 경우 더 이상 효과적으로 2020 6 월 30 일을 보거나 이동할 수 없습니다. 하지만 언제 든 지 팀 사용을 시작 하 고 교대 근무 앱에서 교대 근무 일정을 만들 수 있습니다.
+
+팀으로 이동 하지 않은 Office 365 그룹에 연결 된 StaffHub 팀이 있고, 이제 해당 Office 365 그룹과 연결 된 팀 이동 일정을 만들려는 경우 고객 지원에 문의 하세요.
 
 ### <a name="about-shifts"></a>교대 정보
 
@@ -109,15 +109,9 @@ StaffHub를 사용 하 여 만든 팀은 StaffHub 에서만 보고 관리할 수
 
 최종 사용자 도움말을 보려면 [Firstline worker에 대 한 도움말](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)을 이동 합니다.
 
-### <a name="switch-from-staffhub-to-shifts-in-teams"></a>StaffHub에서 팀의 교대 근무로 전환
-
 #### <a name="what-licenses-do-i-need-for-teams"></a>팀에 필요한 라이선스는 무엇 인가요?
 
-각 사용자는 [적격 요금제](#which-plans-is-shifts-available-in) 에서 활성 Microsoft 365 또는 Office 365 라이선스를 보유 하 고 있어야 하며 팀 라이선스를 할당 받아야 합니다. 자세한 내용은 [팀에서 StaffHub 팀 이동을](move-staffhub-teams-to-shifts-in-teams.md)참조 하세요.
-
-#### <a name="how-do-i-move-my-organizations-staffhub-teams-to-teams"></a>조직의 StaffHub 팀을 팀으로 이동 하려면 어떻게 하나요?
-
-StaffHub에서 팀으로 전환 하는 방법에 대 한 자세한 지침은 [팀에서 Microsoft StaffHub 팀 이동을](move-staffhub-teams-to-shifts-in-teams.md)참조 하세요.
+각 사용자는 적격 요금제에서 활성 Microsoft 365 또는 Office 365 라이선스를 보유 하 고 있어야 하며 팀 라이선스를 할당 받아야 합니다. 
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>조직에서 팀을 사용 하도록 설정 하려면 어떻게 하나요?
 
@@ -130,40 +124,6 @@ StaffHub에서 팀으로 전환 하는 방법에 대 한 자세한 지침은 [�
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>각 사용자에 게 Microsoft 365 또는 Office 365 계정 또는 azure AD (Active Directory) 계정이 있어야 하나요?
 
 예, 팀을 사용 하는 각 관리자와 팀 구성원에 게 Microsoft 365 또는 Office 365 account (Azure AD)가 있어야 하며 유효한 라이선스를 할당 해야 합니다.
- 
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>StaffHub에서 StaffHub 팀이 만든 모든 Microsoft 365 그룹에 특별 한 접두사를 추가할 수 있습니다. 팀에서 동일 하 게 할 수 있나요?
-
-StaffHub에서 팀으로 이동 하는 경우에는 같은 기능을 사용할 수 없습니다. 모든 Microsoft 365 그룹에 이름 일관성을 적용 해야 하는 경우 [그룹 이름 지정 정책을](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)사용할 수 있습니다.
-
-#### <a name="will-team-names-be-the-same-in-teams"></a>팀의 이름을 동일 하 게 설정할 수 있습니다.
-
-팀 이름은 서로 다를 수 있습니다. 팀원의 팀 이름은 Microsoft 365 그룹 이름을 사용 합니다. StaffHub 팀 이름이 해당 Microsoft 365 그룹의 이름과 다르면 팀으로 전환할 때 다른 이름이 표시 됩니다.
-
-#### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>StaffHub 팀이 팀으로 이동할 때 팀 구성원은 어떻게 되나요?
-
-팀 구성원은 StaffHub 팀이 팀으로 이동할 때 유지 됩니다. 팀 구성원의 전화 번호는 교대 근무에 표시 되지 않습니다. StaffHub 전화 번호가 Azure AD의 전화 번호와 일치 하는 경우 해당 사용자 계정에 대 한 Azure AD에 저장 됩니다. 
-
-StaffHub에서 기존 팀 rosters을 검토 하 고 해당 하는 경우 전화 번호를 관련 Azure AD id에 맞추는 것이 좋습니다.
- 
-#### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>프로 비전 되지 않았거나 상태가 비활성 상태인 팀 구성원이 StaffHub 어떻게 되나요?
-
-사용자의 일정이 교대으로 이동 하지만 사용자는 팀 구성원이 되거나 Microsoft 365 그룹에 속해 있지 않습니다.
-
-Azure AD 사용자 계정에 연결 되지 않은 비활성 계정의 경우 관리자는 사용자가 조직의 올바른 Azure AD 계정에 연결 되도록 StaffHub 팀 구성원 페이지에 유효한 Microsoft 365 또는 Office 365 전자 메일 주소를 추가 하 여 사용자가 팀 구성원으로 추가 되도록 할 수 있습니다.
-
-또 다른 옵션은 관리자가 **추가-StaffHubMember** 및 **Remove-StaffHubUser** cmdlet을 실행 하 여 StaffHub 팀에서 프로 비전 되지 않은 계정을 제거 하 고 사용자를 해당 UPN을 사용 하 여 팀에 다시 추가 하는 것입니다.
-
-조직의 모든 사용자가 적절 한 라이선스로 검사 하 여 중단 및 서비스에 대 한 액세스를 최소화 하는 것이 좋습니다.
- 
-#### <a name="what-happens-to-chats-in-staffhub"></a>StaffHub의 채팅은 어떻게 되나요?
-
-사용자를 전환 하는 데 도움이 되도록 StaffHub에서 팀으로 데이터 채팅 기록을 마이그레이션할 계획입니다. 팀에서 사용할 수 있는 채팅 기록 크기는 전환을 위해 조직을 구성 하는 순간에 따라 달라 집니다. 2019 년 6 월 2020 30 일을 기준으로 90 일간 데이터를 전환 하는 데 충분 한 시간을 제공 하려면 6 월 30 일 이전에 작업을 수행 하는 것이 좋습니다.
-
-StaffHub 채팅 데이터를 팀으로 이동 하는 것이 중요 하므로 전환이 시작 되기 전에 microsoft 365 관리 센터에서 Microsoft 365 그룹 만들기가 사용 하도록 설정 되어 있는지 확인 합니다. 2019 년 6 월 30 일에이 서비스를 설정 하지 않으면 이후 마이그레이션 날짜를 반환 하 고 복사 되는 채팅 데이터를 줄여 보세요.
-
-#### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>StaffHub에 업로드 된 파일은 어떻게 되나요?
-
-팀이 필요로 하는 파일을 StaffHub에서 팀으로 이동할 수 있습니다. 이동 하는 파일은 SharePoint Online의 팀 사이트에 대 한 일반 폴더에 저장 됩니다. 팀에서 사용자는 팀의 일반 채널에 있는 **파일** 탭에서 파일에 액세스할 수 있습니다. 자세한 내용은 [팀에서 이동 하려면 Microsoft StaffHub 팀 이동을](move-staffhub-teams-to-shifts-in-teams.md)참조 하세요.
 
 #### <a name="can-i-export-shift-schedules-from-shifts"></a>교대 근무 일정을 교대으로 내보낼 수 있나요?
   
@@ -182,10 +142,6 @@ StaffHub 채팅 데이터를 팀으로 이동 하는 것이 중요 하므로 전
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>교대 근무와 Outlook 일정 간 통합이 있나요? 일정을 일정으로 내보낼 수 있나요?
  
 Firstline Worker는 교대 근무 일정을 한눈에 볼 수 있습니다. 이 로드맵의 일부로 Outlook 일정과 네이티브 통합을 지원 합니다. 그 동안 Microsoft 흐름을 사용 하 여 팀과 Outlook 및 Google 캘린더의 교대 근무와 통합을 설정 합니다.
-
-#### <a name="do-i-need-to-train-users-on-how-to-use-shifts-if-theyre-already-familiar-with-staffhub"></a>StaffHub에 이미 익숙한 경우 교대 근무를 사용 하는 방법을 사용자에 게 교육 해야 하나요?
-
-추가 교육이 필요 하지 않습니다. StaffHub 사용 방법에 대 한 비슷한 방식으로 교대 근무를 사용할 수 있습니다. 
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>조직의 사용자가 교대 근무를 사용할 수 있는지 여부를 관리 하기 위해 사용 가능한 관리 컨트롤  
   
@@ -198,10 +154,6 @@ Firstline Worker는 교대 근무 일정을 한눈에 볼 수 있습니다. 이 
 Microsoft 팀 PowerShell 모듈 및 비즈니스용 Skype PowerShell 모듈을 통해 팀을 관리 합니다. 자세한 내용은 [팀 PowerShell 개요](../../teams-powershell-overview.md)를 참조 하세요. 현재 교대 근무를 관리 하는 데 사용할 수 있는 특정 PowerShell cmdlet이 없습니다.  
 
 관심 있는 일이 라면 [UserVoice에 대 한 팀 피드백 포털](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)을 통해 요청을 보내 보세요.
-
-#### <a name="what-will-happen-with-the-staffhub-api-which-is-currently-in-private-preview"></a>현재 비공개 미리 보기에 있는 StaffHub API에서 발생 하는 작업은 무엇 인가요?
-
-StaffHub Api를 사용 하 여 통합을 구축한 경우 이러한 Api는 더 이상 사용 되지 않습니다. Microsoft Graph Api를 출시 하 여 인적 자원, 급여 또는 직원 관리 솔루션과의 통합을 지원 합니다. 자세한 내용은 [Microsoft GRAPH API를 사용 하 여 팀 작업을](https://docs.microsoft.com/graph/api/resources/teams-api-overview)참조 하세요.
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>조직 전체의 교대 사용 현황을 보는 데 보고 기능을 사용할 수 있나요?
 

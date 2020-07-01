@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 주의 조정, 보안 메시징, telehealth, EHR 통합,에서 일선 worker 시스템 통합을 포함 하는 상태 관리 기능에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905740"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938367"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
@@ -109,10 +109,4 @@ Microsoft 팀은 의사, clinicians, nurses, 기타 직원이 다음과 같이 �
 
 ## <a name="firstline-worker-integration"></a>Firstline Worker 통합
 
-Microsoft 팀은 Firstline Worker와 통합 되어 교대 근무 인력 기능을 조정 하는 데 사용할 수 있습니다.
-
- 다음 문서를 참조 하세요.
-
-- [Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
-
-- [Microsoft 팀에서 조직의 교대 근무 앱 관리](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft 팀은 Firstline Worker와 통합 되어 교대 근무 인력 기능을 조정 하는 데 사용할 수 있습니다. [Microsoft 팀에서 조직의 교대 근무 앱 관리](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)를 참조 하세요.

@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Microsoft 팀 관리 센터 또는 Windows PowerShell을 사용 하 여 다이얼 플랜을 만들고 관리 하는 방법 (PSTN 통화 다이얼 플랜)에 대해 알아봅니다.
-ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691344"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938237"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 
@@ -60,13 +60,9 @@ ms.locfileid: "44691344"
 2. 다이얼 플랜 이름 왼쪽을 클릭 하 여 다이얼 플랜을 선택 하 고 **편집**을 클릭 합니다.
 3. 원하는 변경 작업을 수행한 다음 **저장**을 클릭 합니다.
 
-### <a name="add-users-to-a-dial-plan"></a>다이얼 플랜에 사용자 추가
+### <a name="assign-a-dial-plan-to-users"></a>사용자에 게 다이얼 플랜 지정
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동 합니다.
-2. 표시 이름을 클릭 하 여 사용자를 선택 합니다.
-3. **정책** 탭을 선택 합니다.
-4. 할당 된 정책 오른쪽에 있는 **편집** 을 클릭 합니다.
-5. **다이얼 플랜** 드롭다운 메뉴에서 사용자에 게 할당 하려는 다이얼 플랜을 선택 하 고 **적용**을 클릭 합니다.
+정책을 할당 하는 것과 동일한 방법으로 다이얼 플랜을 할당 합니다. [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="using-powershell"></a>PowerShell 사용
   

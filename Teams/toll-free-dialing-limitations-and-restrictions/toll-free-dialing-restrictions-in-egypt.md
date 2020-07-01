@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 사용 가능성, 유선/고정 회선, 모바일 네트워크 가용성, 제한을 포함 하 여 이집트에서 무료 전화 번호를 사용 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: d7302220500a766fb00a6a13ffa0d96b0bbcf184
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3ebb1bbd5a66064b6d53a26347d881df20485d5e
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140437"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938427"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>이집트에서 무료 전화 걸기 제한
 
@@ -38,7 +38,7 @@ ms.locfileid: "43140437"
 
 |**세부 정보**|**설명**|
 |:-----|:-----|
-|무료 전화를 받을 수 있나요?  <br/> |예  <br/> |
+|무료 전화를 받을 수 있나요?  <br/> |아니요  <br/> |
 |전화 걸기 형식  <br/> |0800-XXX-XXXX  <br/> |
 |국가/지역 ISO 코드  <br/> |예:  <br/> |
 |섬/지역 포함  <br/> |해당 사항 없음  <br/> |

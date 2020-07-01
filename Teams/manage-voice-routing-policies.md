@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 음성 라우팅 정책을 만들고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350192"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938129"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 음성 라우팅 정책 관리
 
@@ -65,35 +65,16 @@ ms.locfileid: "44350192"
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>사용자에 게 사용자 지정 음성 라우팅 정책 지정
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
-
-한 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
-
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
-2. **정책을**클릭 한 다음 **할당 된 정책**옆에 있는 **편집**을 클릭 합니다.
-3. **음성 라우팅 정책**에서 할당할 정책을 선택한 다음 **저장**을 클릭 합니다.
-
-한 번에 여러 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
-
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**로 이동한 다음 사용자를 검색 하거나 보기를 필터링 하 여 원하는 사용자를 표시 합니다.
-2. **&#x2713;** (확인 표시) 열에서 사용자를 선택 합니다. 모든 사용자를 선택 하려면 표 맨 위에 있는 &#x2713; (확인 표시)을 클릭 합니다.
-3. **설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **적용**을 클릭 합니다.  
-
-또는 다음을 수행할 수도 있습니다.
-
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **음성 라우팅 정책**으로 이동 합니다.
-2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
-3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
-
-### <a name="using-powershell"></a>PowerShell 사용
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 [허용-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)을 참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Teams PowerShell 개요](teams-powershell-overview.md)
-- [다이렉트 라우팅에 대 한 음성 라우팅 구성](direct-routing-voice-routing.md)
-- [직접 라우팅에 위치 기반 라우팅 사용](location-based-routing-enable.md)
-- [팀에서 사용자에 게 정책 할당](assign-policies.md)
+[Teams PowerShell 개요](teams-powershell-overview.md)
+
+[다이렉트 라우팅에 대 한 음성 라우팅 구성](direct-routing-voice-routing.md)
+
+[직접 라우팅에 위치 기반 라우팅 사용](location-based-routing-enable.md)
+
+[팀에서 사용자에 게 정책 할당](assign-policies.md)

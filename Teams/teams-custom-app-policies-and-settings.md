@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 454d3b4a057b15ad0f329434f541cd03d2b41a7f
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698278"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938457"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft 팀에서 사용자 지정 앱 정책 및 설정 관리
 
@@ -132,6 +132,8 @@ ms.locfileid: "44698278"
 | 등     | 등     | 끄십시오         | 사용자가 사용자 지정 앱을 업로드할 수 없습니다.       |
 | 등    | 등        | 등        | 사용자가 팀 소유자 인지 여부에 관계 없이 팀에 사용자 지정 앱을 업로드할 수 있습니다. 사용자는 개인 컨텍스트에서 사용자 지정 앱을 업로드할 수 있습니다.       |
 
- ## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 항목
  
-- [Team에서 앱의 관리 설정](admin-settings.md)
+[Team에서 앱의 관리 설정](admin-settings.md)
+
+[팀에서 사용자에 게 정책 할당](assign-policies.md)

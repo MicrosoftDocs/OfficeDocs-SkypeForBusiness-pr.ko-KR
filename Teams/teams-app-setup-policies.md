@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d521a00389286bf60a42201134a1d9b697a9bfdc
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 9ddbcd1a5110cff52ce518cf052279204fc8e2c9
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44890007"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938217"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
@@ -45,9 +45,9 @@ ms.locfileid: "44890007"
 
 사전 설치 된 앱을 보려면 앱 표시줄에서 사용자 **를 클릭 합니다. **팀 데스크톱 및 웹 클라이언트의 앱을 더 추가 하 고 모바일 클라이언트에서 위로 살짝 밉니다.
 
-Microsoft 팀 관리 센터에서 앱 설치 정책을 관리할 수 있습니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다. 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
+Microsoft 팀 관리 센터에서 앱 설치 정책을 관리할 수 있습니다. 전역 (조직 차원의 기본) 정책을 사용 하거나 사용자 지정 정책을 만들고 할당할 수 있습니다.  사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다. 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
 
-전역 정책의 설정을 편집 하 여 원하는 앱을 포함할 수 있습니다. 조직의 다른 사용자 그룹에 대해 팀을 사용자 지정 하려면 하나 이상의 사용자 지정 정책을 만들고 할당 합니다. 사용자가 사용자 지정 정책을 할당 한 경우 해당 정책이 사용자에 게 적용 됩니다. 사용자가 사용자 지정 정책을 할당 하지 않으면 전역 정책이 사용자에 게 적용 됩니다.
+전역 정책의 설정을 편집 하 여 원하는 앱을 포함할 수 있습니다. 조직의 다른 사용자 그룹에 대해 팀을 사용자 지정 하려면 하나 이상의 사용자 지정 정책을 만들고 할당 합니다.
 
 ![앱 설정 정책 페이지를 보여 주는 스크린샷](media/app-setup-policies.png)
 
@@ -93,52 +93,7 @@ Microsoft 팀 관리 센터를 사용 하 여 전역 (조직 전체 기본값) �
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>사용자에 게 사용자 지정 앱 설정 정책 할당
 
-Microsoft 팀 관리 센터를 사용 하 여 개인 사용자 또는 비즈니스용 Skype PowerShell 모듈에 사용자 지정 정책을 할당 하 여 그룹의 사용자에 게 보안 그룹 또는 메일 그룹과 같은 사용자 지정 정책을 할당할 수 있습니다.
-
-### <a name="assign-a-custom-app-setup-policy-to-users"></a>사용자에 게 사용자 지정 앱 설정 정책 할당
-
-한 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
-
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
-2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
-3. **앱 설정 정책**에서 할당 하려는 앱 설정 정책을 선택한 다음 **적용**을 클릭 합니다.
-
-한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
-
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자**로 이동한 다음, 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
-2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 표 맨 위에서 &#x2713;(확인 표시)를 클릭합니다.
-3. **설정 편집**을 클릭하고 원하는 대로 변경한 다음, **적용**을 클릭합니다.  
-
-또는 다음을 수행할 수도 있습니다.
-
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**  >  **설정 정책**으로 이동 합니다.
-2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
-3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-5. 사용자 추가를 마쳤으면 **저장**을 선택 합니다.
-
-### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>그룹의 사용자에 게 사용자 지정 앱 설정 정책 할당
-
-이미 식별 한 여러 사용자에 게 사용자 지정 앱 설정 정책을 할당 하려고 할 수 있습니다. 예를 들어 보안 그룹의 모든 사용자에 게 정책을 할당 하려고 할 수 있습니다. 그래프 모듈의 Azure Active Directory PowerShell 및 비즈니스용 Skype PowerShell 모듈에 연결 하 여이 작업을 수행할 수 있습니다. PowerShell을 사용 하 여 팀을 관리 하는 방법에 대 한 자세한 내용은 [팀 Powershell 개요](teams-powershell-overview.md)를 참조 하세요.
-
-이 예제에서는 Contoso 금강 HR 프로젝트 그룹의 모든 사용자에 게 HR 앱 설정 정책 이라는 사용자 지정 앱 설정 정책을 할당 합니다.  
-
-> [!NOTE]
-> 먼저 [모든 Microsoft 365 또는 Office 365 서비스에 연결의 단계를 단일 Windows powershell 창에](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
-
-특정 그룹의 GroupObjectId를 가져옵니다.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
-```
-지정 된 그룹의 구성원을 가져옵니다.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-그룹의 모든 사용자를 특정 앱 설정 정책에 할당 합니다. 이 예제에서는 HR 앱 설정 정책입니다.
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
-``` 
-그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="faq"></a>FAQ
 
@@ -202,5 +157,6 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Team에서 앱의 관리 설정](admin-settings.md)
-- [팀에서 사용자에 게 정책 할당](assign-policies.md)
+[Team에서 앱의 관리 설정](admin-settings.md)
+
+[팀에서 사용자에 게 정책 할당](assign-policies.md)

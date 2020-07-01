@@ -2,7 +2,7 @@
 title: 조직의 교대 근무 앱 관리
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416888"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938357"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 교대 근무 앱 관리
 
 > [!IMPORTANT]
-> 유효 2020 년 6 월 30 일에 Microsoft StaffHub 사용이 중지 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다. StaffHub은 2020 년 6 월 30 일에 모든 사용자의 작업을 중지 합니다. StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.  
+> 유효 2020 년 6 월 30 일에 Microsoft StaffHub 사용이 중지 되었습니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다. StaffHub에서 2020 년 6 월 30 일에 모든 사용자의 작동이 중지 되었습니다. StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.  
 
 ## <a name="overview-of-shifts"></a>교대의 개요
 
@@ -65,7 +65,7 @@ Microsoft 팀의 교대 근무 앱은 Firstline Worker를 연결 된 상태로 �
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>FirstlineWorker 앱 설정 정책을 사용 하 여 팀에 고정 이동
 
-앱 설정 정책은 팀을 사용자 지정 하 여 조직의 사용자에 게 가장 중요 한 앱을 강조 표시할 수 있습니다. 정책에 설정 된 앱은 &mdash; 팀 데스크톱 클라이언트의 측면에 있는 표시줄과 팀 모바일 클라이언트의 맨 아래에 있으며 &mdash; 사용자가 빠르고 쉽게 액세스할 수 있습니다. 
+앱 설정 정책은 팀을 사용자 지정 하 여 조직의 사용자에 게 가장 중요 한 앱을 강조 표시할 수 있습니다. 정책에 설정 된 앱은 &mdash; 팀 데스크톱 클라이언트의 측면에 있는 표시줄과 팀 모바일 클라이언트의 맨 아래에 있으며 &mdash; 사용자가 빠르고 쉽게 액세스할 수 있습니다.
  
 팀에는 조직의 Firstline Worker에 할당할 수 있는 기본 제공 FirstlineWorker 앱 설정 정책이 포함 됩니다. 기본적으로 정책에는 활동, 교대, 채팅 및 통화 앱이 포함 됩니다. 
 
@@ -73,50 +73,9 @@ Firstlineworker 정책을 보려면 Microsoft 팀 관리 센터의 왼쪽 탐색
 
 ![FirstlineWorker 앱 설정 정책의 스크린샷](../../media/firstline-worker-app-setup-policy.png "Microsoft 팀 관리 센터의 FirstlineWorker 앱 설치 정책 스크린샷")
 
-#### <a name="assign-the-firstlineworker-policy-to-users"></a>사용자에 게 FirstlineWorker 정책 할당
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>사용자에 게 FirstlineWorker 앱 설정 정책 할당
 
-한 명의 사용자에 게 FirstlineWorker 앱 설정 정책을 할당 하려면 다음을 수행 합니다.
-
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
-2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
-3. **앱 설정 정책**에서 **firstlineworker**를 선택 하 고 **적용**을 클릭 합니다.
-
-한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
-
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자**로 이동한 다음, 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
-2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 표 맨 위에서 &#x2713;(확인 표시)를 클릭합니다.
-3. **설정 편집**을 클릭 하 **고 앱 설정 정책**에서 **Firstlineworker**를 선택한 다음 **적용**을 클릭 합니다.  
-
-또는 다음을 수행할 수도 있습니다.
-
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**  >  **설정 정책**으로 이동 합니다.
-2. 정책 이름 왼쪽을 클릭 하 여 FirstlineWorker 정책을 선택 합니다.
-3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가**를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-5. 사용자 추가를 완료 한 후 **적용**을 선택 합니다.
-
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>그룹의 사용자 구성원에 FirstlineWorker 앱 설정 정책 할당
-
-그래프 모듈의 Azure Active Directory PowerShell 및 비즈니스용 Skype PowerShell 모듈에 연결 하 여 보안 그룹과 같은 그룹의 사용자 구성원에 게 FirstlineWorker 앱 설정 정책을 할당할 수 있습니다. PowerShell을 사용 하 여 팀을 관리 하는 방법에 대 한 자세한 내용은 [팀 Powershell 개요](../../teams-powershell-overview.md)를 참조 하세요.
-
-이 예제에서는 FirstlineWorker 앱 설정 정책을 Contoso Firstline 팀 그룹의 모든 사용자 구성원에 게 할당 합니다.
-
-> [!NOTE]
-> 먼저 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)의 단계를 따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
-
-특정 그룹의 GroupObjectId를 가져옵니다.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
-```
-지정 된 그룹의 구성원을 가져옵니다.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-FirstlineWorker 앱 설치 정책을 그룹의 모든 사용자 구성원에 게 할당 합니다.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
-``` 
-그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
+[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>감사 로그에서 이동 이벤트 검색
 
