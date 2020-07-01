@@ -1,0 +1,3 @@
+<span data-ttu-id="1b8c5-101">개별적으로 또는 일괄 처리 할당 (정책 유형으로 지원 되는 경우) 또는 사용자가 구성원으로 속한 그룹 (정책 유형으로 지원 되는 경우)에 정책을 사용자에 게 직접 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1b8c5-101">You can assign a policy directly to users, either individually or at scale through a batch assignment (if supported for the policy type), or to a group that the users are members of (if supported for the policy type).</span></span> 
+
+<span data-ttu-id="1b8c5-102">사용자에 게 정책을 할당할 수 있는 다양 한 방법에 대해 알아보려면 [팀에서 사용자에 게 정책 할당](../assign-policies.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="1b8c5-102">To learn about the different ways that you can assign policies to users, see [Assign policies to your users in Teams](../assign-policies.md).</span></span>
