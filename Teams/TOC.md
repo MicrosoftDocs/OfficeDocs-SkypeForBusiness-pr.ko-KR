@@ -131,7 +131,6 @@
 ## [빠른 시작 - 모임 및 라이브 이벤트](quick-start-meetings-live-events.md)
 ## [배포 계획](deploy-meetings-microsoft-teams-landing-page.md)
 ## [자습서: Teams에서의 모임](Tutorial-Meetings-in-Teams.yml)
-## [Teams 모임의 발표자 및 참가자 기능](roles-in-meetings.md)
 ## [모임 정책 관리](meeting-policies-in-teams.md)
 ## [모임 설정 관리](meeting-settings-in-teams.md)
 ## [설정이 변경되면 사용자에게 전송되는 전자 메일](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -626,12 +625,7 @@
 ## [Teams 서식 파일 시작](get-started-with-teams-templates.md)
 ## [예약 앱 및 가상 방문](bookings-app-admin.md)
 ## [Teams의 교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Microsoft StaffHub 사용 중지 예정](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Microsoft StaffHub PowerShell 모듈 설치](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [보고서를 실행하여 활성 StaffHub 사용 현황 표시](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [Teams에서 StaffHub 팀을 교대로 이동하기 위한 계획](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Teams에서 Microsoft StaffHub 팀을 교대로 이동](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [사용자에 대한 샘플 전자 메일 통신](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Microsoft StaffHub이 사용 중지되었습니다](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Teams에서 조직의 교대 근무 앱 관리](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## 의료용 Teams
