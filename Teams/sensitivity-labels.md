@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 우편물 종류 레이블을 정의 하 고 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: 2940fd5537f02a6d5b3125f4c0037b9705571ffa
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854120"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012314"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 팀의 민감도 레이블
 
@@ -100,6 +100,10 @@ $setting["EnableMIPLabels"] = "False"
 특정 레이블을 사용 하 여 만든 팀에서 게스트 액세스를 허용 하는지 여부를 지정할 수 있습니다. 게스트 액세스를 허용 하지 않는 레이블을 사용 하 여 만든 팀은 조직의 사용자만 사용할 수 있습니다. 조직 외부의 사용자를 팀에 추가할 수 없습니다.
 
 ## <a name="known-issues"></a>알려진 문제
+
+**팀을 만드는 동안 자식 기본 레이블이 표시 되지 않음**
+
+현재, 팀에 대 한 기본 레이블로 설정 된 자식 레이블이 목록 맨 위에 표시 되지 않으며,이는 팀 만들기 모델의 민감도 레이블 드롭다운입니다. 팀 작성자는 여전히 드롭다운을 사용 하 여 해결 방법으로 하위 레이블을 적용할 수 있습니다.
 
 **Microsoft 팀 관리 센터의 민감도 레이블 지원**
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 136b06a6c134fc2ec906c8c2175d462f71a5b9a6
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321747"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944021"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 지정 계층 구조 설정
 
@@ -116,7 +116,7 @@ CSV 파일에는 다음 순서 대로 첫 번째 열부터 다음 세 개의 열
 ## <a name="apply-your-hierarchy"></a>계층 구조 적용
 
 > [!IMPORTANT]
-> 이 단계를 수행 하려면 [Powershell 테스트 갤러리](https://www.poshtestgallery.com/packages/MicrosoftTeams/)에서 최신 버전의 팀 PowerShell 모듈을 설치 하 고 사용 해야 합니다. 모듈을 설치 하는 방법에 대 한 단계는 [팀 PowerShell 모듈의 시험판 버전 설치](install-prerelease-teams-powershell-module.md)를 참조 하세요.
+> 이 단계를 수행 하려면 [Powershell 갤러리](https://www.powershellgallery.com/packages/MicrosoftTeams/)에서 팀 PowerShell 공용 preview 모듈을 설치 하 고 사용 해야 합니다. 모듈을 설치 하는 방법에 대 한 단계는 [팀 PowerShell 설치](teams-powershell-install.md)를 참조 하세요.
 
 스키마 CSV 파일에서 계층 구조를 정의 하 고 나면 팀에 업로드할 수 있습니다. 이렇게 하려면 다음 명령을 실행 합니다. 이 단계를 수행 하려면 전역 관리자 또는 팀 서비스 관리자 여야 합니다.
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>계층 구조 제거
 
 > [!IMPORTANT]
-> 이 단계를 수행 하려면 [Powershell 테스트 갤러리](https://www.poshtestgallery.com/packages/MicrosoftTeams/)에서 최신 버전의 팀 PowerShell 모듈을 설치 하 고 사용 해야 합니다. 모듈을 설치 하는 방법에 대 한 단계는 [팀 PowerShell 모듈의 시험판 버전 설치](install-prerelease-teams-powershell-module.md)를 참조 하세요.
+> 이 단계를 수행 하려면 [Powershell 갤러리](https://www.powershellgallery.com/packages/MicrosoftTeams/)에서 팀 PowerShell 공용 preview 모듈을 설치 하 고 사용 해야 합니다. 모듈을 설치 하는 방법에 대 한 단계는 [팀 PowerShell 설치](teams-powershell-install.md)를 참조 하세요.
 
 조직의 모든 사용자에 대해 게시 된 **목록** 탭을 즉시 사용 하지 않도록 설정 하려는 경우 계층 구조를 제거할 수 있습니다. 사용자는 **게시 된 목록** 탭 또는 탭의 기능에 액세스할 수 없습니다.  여기에는 게시, 액세스 초안 목록, 게시, 게시 취소 및 중복 목록에 대 한 새 작업 목록을 만드는 기능과 보고서 보기가 포함 됩니다. 계층을 제거 해도 이전에 게시 한 작업은 게시 취소 되지 않습니다. 이러한 작업은 받는 사람 팀이 완료 될 때까지 계속 사용할 수 있습니다. 
 

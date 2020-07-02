@@ -16,12 +16,12 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97fa736a1f2277dbd9da2305b75bf16b26d34e73
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874415"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012284"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -43,7 +43,7 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 - 사용자는 Microsoft Stream의 저장 공간이 충분하여 녹음/녹화를 저장할 수 있습니다.
 - 사용자에게 TeamsMeetingPolicy-AllowCloudRecording 설정이 True로 설정되어 있습니다.
 - 사용자는 모임에서 익명, 게스트 또는 페더레이션 사용자가 아닙니다.
-- 사용자의 모임에 대 한 기록을 사용 하도록 설정 하려면, 자신에 게 할당 된 팀 모임 정책에 대해-AllowTranscription 설정을 true로 설정 해야 합니다.
+- 사용자의 모임에 대 한 기록을 사용 하도록 설정 하려면, 자신에 게 할당 된 팀 모임 정책에는-AllowTranscription 설정이 true로 설정 되어 있어야 합니다.
 
 <sup>1</sup> 사용자에 게 Microsoft Stream에 대 한 모임 업로드/다운로드를 위한 라이선스가 필요 하지는 않지만 모임을 녹음/녹화할 수 있는 라이선스는 없습니다. Microsoft Temas 모임을 녹음/녹화하는 것에서 사용자를 차단하려면 AllowCloudRecording이 False로 설정된 TeamsMeetingPolicy를 부여해야 합니다.
 
@@ -115,7 +115,7 @@ Microsoft 365 또는 Office 365의 서비스에서 데이터가 저장 되는 �
 
 이 설정은 모임 녹음/녹화를 재생 하는 동안 캡션과 기록 기능을 사용할 수 있는지 여부를 제어 합니다. 이 기능을 해제 하면 모임 녹음/녹화를 재생 하는 동안 **검색** 및 **참조** 옵션을 사용할 수 없습니다. 녹음/녹화를 시작한 사람에 게는 녹음/녹화가 포함 되도록이 설정이 켜져 있어야 합니다.
 
-기록 된 모임에 대 한 정보는 현재 팀의 언어를 영어로 설정한 경우와 모임에서 영어를 사용 하 고 있는 사용자만 지원 합니다.
+기록 된 모임에 대 한 **정보** 는 현재 팀의 언어를 영어로 설정한 경우와 모임에서 영어를 사용 하 고 있는 사용자만 지원 합니다.
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 녹음/녹화 개시자에게 모임 녹음/녹화를 기록할 수 있는 선택권이 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 

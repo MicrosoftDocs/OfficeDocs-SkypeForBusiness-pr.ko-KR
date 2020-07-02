@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 생성 하는 디버그, 미디어, 데스크톱 로그, 찾을 수 있는 위치, 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374206"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012194"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft 팀 문제 해결에서 로그 파일 사용
 =================================================
@@ -44,6 +44,7 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 |웹    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
+|Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -72,11 +73,17 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 
       바로 가기 키: Option + Command + Shift + 1
 
+-   Linux
+
+      바로 가기 키: Ctrl + Alt + Shift + 1
+
 디버그 로그는 다음 폴더에 자동으로 다운로드 됩니다.
 
 -   Windows:% userprofile% \\ 다운로드
 
 -   Mac OSX: 다운로드
+
+-   Linux: ~/다운로드
 
 -   브라우저: 디버그 로그를 기본 저장 위치에 저장 하 라는 메시지가 표시 됩니다.
 
@@ -93,6 +100,8 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 |            |%appdata%\Microsoft\Teams\media-stack \\ * .etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/팀/media-stack/* 블로그         |
 |            |~/Library/Application Support/Microsoft/팀/skylib/* 블로그         |
+|Linux       |~/.config/Microsoft/Microsoft 팀/media-stack/*-블로그         |
+|            |~/.config/Microsoft/Microsoft 팀/skylib/*-블로그         |
 
 
 
@@ -103,13 +112,18 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 
 창을
 
-1.  시스템 트레이에서 **Microsoft 팀 아이콘** 을 마우스 오른쪽 단추로 클릭 하 고 **로그 가져오기를** 선택 합니다.
+1.  시스템 트레이에서 **Microsoft 팀** 아이콘을 마우스 오른쪽 단추로 클릭 하 고 **로그 가져오기를** 선택 합니다.
 
 Mac OsX:
 
 1.  **도움말** 풀 다운 메뉴에서 **로그 가져오기를** 선택 합니다.
 
+Linux
+
+1.  시스템 트레이에서 **Microsoft 팀** 아이콘을 클릭 하 고 **로그 가져오기를** 선택 합니다.
+
 |클라이언트 |위치 |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
-|Mac OSX     |~/Library/Application 지원/Microsoft/팀/로그. t e         |
+|Windows     |% appdata% \Microsoft\Teams\logs.txt         |
+|Mac OSX     |~/Library/Application 지원/Microsoft/팀/logs.txt         |
+|Linux       |~/.config/Microsoft/Microsoft 팀/logs.txt         |

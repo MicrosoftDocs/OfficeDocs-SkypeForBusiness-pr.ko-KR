@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326695"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012294"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
 
 여기에서 조직의 [개인 채널](private-channels.md) 수명 주기를 관리 하는 데 필요한 지침을 확인할 수 있습니다.
 
 > [!IMPORTANT]
-> 이 문서의 PowerShell 단계를 사용 하 여 개인 채널을 관리 하는 경우 [Powershell 테스트 갤러리](https://www.poshtestgallery.com/packages/MicrosoftTeams/)에서 팀 powershell 모듈의 최신 시험판 버전을 설치 하 고 사용 해야 합니다. 모듈을 설치 하는 방법에 대 한 단계는 [팀 PowerShell 모듈의 시험판 버전 설치](install-prerelease-teams-powershell-module.md)를 참조 하세요. 공개적으로 사용할 수 있는 팀 PowerShell 모듈의 최신 버전은 비공개 채널 관리를 지원 하지 않습니다.
+> 이 문서의 PowerShell 단계를 사용 하 여 개인 채널을 관리 하는 경우에는 [Powershell 갤러리](https://www.powershellgallery.com/packages/MicrosoftTeams/)에서 팀 powershell 공용 preview 모듈을 설치 하 고 사용 해야 합니다. 모듈을 설치 하는 방법에 대 한 단계는 [Microsoft 팀 PowerShell 설치](teams-powershell-install.md)를 참조 하세요. 최신 일반 가용성 팀 PowerShell 모듈은 개인 채널 관리를 지원 하지 않습니다.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>팀 구성원이 개인 채널을 만들 수 있는지 여부 설정
 

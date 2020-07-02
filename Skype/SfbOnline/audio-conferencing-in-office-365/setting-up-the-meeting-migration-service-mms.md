@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: MMS (모임 마이그레이션 서비스)는 백그라운드에서 실행 되며 사용자를 위해 비즈니스용 Skype 및 Microsoft 팀 모임을 자동으로 업데이트 하는 서비스입니다. MMS는 사용자가 모임 마이그레이션 도구를 실행 하 여 비즈니스용 Skype 및 Microsoft 팀 모임을 업데이트 하지 않아도 되도록 설계 되었습니다.
-ms.openlocfilehash: 81bd5f1e9304ff3ff6eedb901a50632aa6edd73a
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: da04e98269f20eca327b30c2bd40f3e5181523d0
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163957"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012184"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>MMS (모임 마이그레이션 서비스) 사용
 
@@ -64,7 +64,7 @@ MMS를 트리거하는 시점부터, 일반적으로 사용자의 모임이 마�
 
 **참고**사항:
 
-- 모임이 마이그레이션될 때 온라인 모임 정보 블록의 모든 내용을 MMS로 바꿉니다. 따라서 사용자가 해당 블록을 편집 하면 해당 변경 내용을 덮어쓰게 됩니다. 온라인 모임 정보 블록 외부의 모임 세부 정보에 있는 모든 콘텐츠는 영향을 받지 않습니다.
+- 모임이 마이그레이션될 때 온라인 모임 정보 블록의 모든 내용을 MMS로 바꿉니다. 따라서 사용자가 해당 블록을 편집 하면 해당 변경 내용을 덮어쓰게 됩니다. 온라인 모임 정보 블록 외부의 모임 세부 정보에 있는 모든 콘텐츠는 영향을 받지 않습니다. 즉, 모임 초대에 첨부 된 모든 파일이 계속 포함 됩니다. 
 - 웹용 Outlook에서 또는 Outlook 용 Skype 모임 추가 기능을 사용 하 여 **skype 모임 추가** 단추를 클릭 하 여 예약 된 비즈니스용 Skype 또는 Microsoft 팀 모임만 마이그레이션됩니다. 사용자가 한 모임에서 Skype online 모임 정보를 복사 하 여 새 모임에 붙여 넣으면 원래 서비스에 모임이 없기 때문에 새 모임이 업데이트 되지 않습니다.
 - MMS를 실행 한 후에는 모임에 만들었거나 연결 된 모임 콘텐츠 (화이트 보드, 설문 등)가 유지 되지 않습니다. 모임 이끌이가 미리 모임에 콘텐츠를 첨부 한 경우 MMS를 실행 한 후 콘텐츠를 다시 만들어야 합니다.
 - 또한 Skype 모임 내에서 일정 항목의 공유 모임 메모에 대 한 링크도 덮어쓰게 됩니다. OneNote에 저장 된 실제 모임 메모는 그대로 유지 됩니다. 이는 덮어쓴 공유 메모에 대 한 링크입니다.
@@ -82,9 +82,9 @@ MMS를 트리거하는 시점부터, 일반적으로 사용자의 모임이 마�
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>온-프레미스 사용자를 클라우드로 이동할 때 모임 업데이트
 
-이는 MMS에서 사용자에 게 원활한 전환을 만들기 위해 사용 하는 가장 일반적인 시나리오입니다. 모임 마이그레이션이 없으면 사용자가 온라인으로 이동 하면 비즈니스용 Skype Server 온-프레미스의 사용자가 구성한 기존 모임이 더 이상 작동 하지 않습니다. 따라서 사용자를 클라우드로 이동 하기 위해 온-프레미스 관리 도구 `Move-CsUser` (또는 관리 제어판)를 사용 하는 경우 다음과 같이 기존 모임이 클라우드로 자동으로 이동 됩니다.
+이는 MMS에서 사용자에 게 원활한 전환을 만들기 위해 사용 하는 가장 일반적인 시나리오입니다. 모임 마이그레이션이 없으면 사용자가 온라인으로 이동 하면 비즈니스용 Skype Server 온-프레미스의 사용자가 구성한 기존 모임이 더 이상 작동 하지 않습니다. 따라서 `Move-CsUser` 사용자를 클라우드로 이동 하기 위해 온-프레미스 관리 도구 (또는 관리 제어판)를 사용 하는 경우 다음과 같이 기존 모임이 클라우드로 자동으로 이동 됩니다.
 
-- If `MoveToTeams` 스위치 `Move-CsUser` 를 지정 하면 모임이 팀으로 직접 마이그레이션되고 사용자는 teamsonly 모드에 있는 것입니다. 이 스위치를 사용 하려면 비즈니스용 Skype 서버 2015 (CU8 이상)이 필요 합니다. 이러한 사용자는 비즈니스용 skype 클라이언트 또는 Skype 모임 앱을 사용 하 여 초대를 받을 수 있는 비즈니스용 Skype 모임에 계속 참가할 수 있습니다.
+- If `MoveToTeams` 스위치를 `Move-CsUser` 지정 하면 모임이 팀으로 직접 마이그레이션되고 사용자는 TeamsOnly 모드에 있는 것입니다. 이 스위치를 사용 하려면 비즈니스용 Skype 서버 2015 (CU8 이상)이 필요 합니다. 이러한 사용자는 비즈니스용 skype 클라이언트 또는 Skype 모임 앱을 사용 하 여 초대를 받을 수 있는 비즈니스용 Skype 모임에 계속 참가할 수 있습니다.
 - 그렇지 않으면 모임이 비즈니스용 Skype Online으로 마이그레이션됩니다.
 
 두 경우 모두 사용자에 게 클라우드로 이동 하기 전에 오디오 회의 라이선스가 할당 되 면 전화 접속 좌표를 사용 하 여 모임이 생성 됩니다. 사용자를 온-프레미스에서 클라우드로 이동 하 고 해당 사용자가 오디오 회의를 사용 하려는 경우에는 먼저 오디오 회의를 할당 한 후 1 회의 마이그레이션과만 트리거 되도록 사용자를 이동 하는 것이 좋습니다.
@@ -104,32 +104,32 @@ MMS를 트리거하는 시점부터, 일반적으로 사용자의 모임이 마�
 사용자의 오디오 회의 설정에 대 한 모든 변경 내용이 MMS를 트리거하지는 않습니다. 특히 다음 두 가지 변경 사항으로 인해 MMS 업데이트는 수행 되지 않습니다.
 
 - 모임 이끌이의 SIP 주소 (SIP 사용자 이름 또는 SIP 도메인)를 변경 하는 경우
-- `Update-CsTenantMeetingUrl` 명령을 사용 하 여 조직의 모임 URL을 변경 합니다.
+- 명령을 사용 하 여 조직의 모임 URL을 변경 `Update-CsTenantMeetingUrl` 합니다.
 
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>TeamsUpgradePolicy 배정 시 모임 업데이트
 
-기본적으로 모임 마이그레이션은 사용자에 게 `TeamsUpgradePolicy` `mode=TeamsOnly` 또는 `mode= SfBWithTeamsCollabAndMeetings`의 인스턴스가 부여 될 때 자동으로 트리거됩니다. 이러한 모드 중 하나를 허용할 때 모임을 마이그레이션하지 않으려는 경우 (PowerShell을 사용 하는 `MigrateMeetingsToTeams $false` 경우 `Grant-CsTeamsUpgradePolicy` )에서 지정 하거나 확인란을 선택 취소 하 여 사용자의 공존 모드 (팀 관리 포털을 사용 하는 경우)를 설정할 때 모임 마이그레이션을 수행 합니다.
+기본적으로 모임 마이그레이션은 사용자에 게 또는의 인스턴스가 부여 될 때 자동으로 트리거됩니다 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode= SfBWithTeamsCollabAndMeetings` . 이러한 모드 중 하나를 허용할 때 모임을 마이그레이션하지 않으려는 경우 `MigrateMeetingsToTeams $false` `Grant-CsTeamsUpgradePolicy` (PowerShell을 사용 하는 경우)에서 지정 하거나 확인란을 선택 취소 하 여 사용자의 공존 모드 (팀 관리 포털을 사용 하는 경우)를 설정할 때 모임 마이그레이션을 수행 합니다.
 
 또한 다음을 참고 하세요.
 
-- 모임 마이그레이션은 특정 사용자에 게 부여 `TeamsUpgradePolicy` 하는 경우에만 호출 됩니다. `TeamsUpgradePolicy` `mode=TeamsOnly` 또는 `mode=SfBWithTeamsCollabAndMeetings` *테 넌 트 전체* 를 사용 하 여 부여 하는 경우에는 모임 마이그레이션이 호출 되지 않습니다.
-- 사용자에 게 온라인 상태를 유지 하는 경우에만 팀 전용 모드를 부여할 수 있습니다. 온-프레미스 사용자는 앞에서 설명한 대로 사용 하 `Move-CsUser` 여 이동 해야 합니다.
+- 모임 마이그레이션은 특정 사용자에 게 부여 하는 경우에만 호출 됩니다 `TeamsUpgradePolicy` . `TeamsUpgradePolicy`또는 테 넌 트 전체를 사용 하 여 부여 하는 경우에 `mode=TeamsOnly` `mode=SfBWithTeamsCollabAndMeetings` 는 모임 마이그레이션이 호출 되지 않습니다. *tenant-wide*
+- 사용자에 게 온라인 상태를 유지 하는 경우에만 팀 전용 모드를 부여할 수 있습니다. 온-프레미스 사용자는 앞에서 설명한 대로 사용 하 여 이동 해야 합니다 `Move-CsUser` .
 - TeamsOnly 또는 SfBWithTeamsCollabAndMeetings 이외의 모드를 허용 하면 기존 팀 모임이 비즈니스용 Skype 모임으로 전환 되지 않습니다.
 
 ### <a name="trigger-meeting-migration-manually-via-powershell-cmdlet"></a>PowerShell cmdlet을 통해 수동으로 모임 마이그레이션 트리거
 
-자동 모임 마이그레이션 외에도 관리자는 cmdlet `Start-CsExMeetingMigration`을 실행 하 여 사용자에 대 한 모임 마이그레이션을 수동으로 트리거할 수 있습니다. 이 cmdlet은 지정 된 사용자에 대 한 마이그레이션 요청을 큐에 대기 시킵니다.  필수 `Identity` 매개 변수 외에도 다음과 같은 두 개의 선택적 매개 변수 `SourceMeetingType` `TargetMeetingType`를 사용 하 여 모임을 마이그레이션하는 방법을 지정할 수 있습니다.
+자동 모임 마이그레이션 외에도 관리자는 cmdlet을 실행 하 여 사용자에 대 한 모임 마이그레이션을 수동으로 트리거할 수 있습니다 `Start-CsExMeetingMigration` . 이 cmdlet은 지정 된 사용자에 대 한 마이그레이션 요청을 큐에 대기 시킵니다.  필수 매개 변수 외에도 `Identity` 다음과 같은 두 개의 선택적 매개 변수를 사용 하 여 `SourceMeetingType` `TargetMeetingType` 모임을 마이그레이션하는 방법을 지정할 수 있습니다.
 
 **TargetMeetingType:**
 
-- 을 `TargetMeetingType Current` 사용 하 여 비즈니스용 skype 모임이 비즈니스용 skype 모임 및 팀 모임으로 유지 되도록 지정 합니다. 그러나 오디오 회의 좌표는 변경 될 수 있으며, 온-프레미스 비즈니스용 Skype 모임은 비즈니스용 Skype Online으로 마이그레이션됩니다. 이 값이 TargetMeetingType의 기본값입니다.
-- 사용 `TargetMeetingType Teams` 은 모임이 비즈니스용 Skype online 또는 온-프레미스에 호스팅 되었는지 여부와 오디오 회의 업데이트가 필요한 지 여부에 관계 없이 모든 기존 모임을 팀으로 마이그레이션해야 합니다. 
+- 을 사용 하 여 비즈니스용 Skype 모임이 비즈니스용 `TargetMeetingType Current` skype 모임 및 팀 모임으로 유지 되도록 지정 합니다. 그러나 오디오 회의 좌표는 변경 될 수 있으며, 온-프레미스 비즈니스용 Skype 모임은 비즈니스용 Skype Online으로 마이그레이션됩니다. 이 값이 TargetMeetingType의 기본값입니다.
+- 사용은 `TargetMeetingType Teams` 모임이 비즈니스용 Skype online 또는 온-프레미스에 호스팅 되었는지 여부와 오디오 회의 업데이트가 필요한 지 여부에 관계 없이 모든 기존 모임을 팀으로 마이그레이션해야 합니다. 
 
 **SourceMeetingType:**
-- 을 `SourceMeetingType SfB` 사용 하면 Skype for Business 모임만 (온-프레미스 또는 온라인)으로 업데이트 해야 한다는 것을 나타냅니다.
-- 사용 `SourceMeetingType Teams` 은 팀 모임만 업데이트 해야 함을 나타냅니다.
-- 을 `SourceMeetingType All` 사용 하 여 비즈니스용 Skype 모임 및 팀 모임을 모두 업데이트 해야 함을 나타냅니다. 이 값이 SourceMeetingType의 기본값입니다.
+- 을 사용 하면 `SourceMeetingType SfB` Skype For Business 모임만 (온-프레미스 또는 온라인)으로 업데이트 해야 한다는 것을 나타냅니다.
+- 사용은 `SourceMeetingType Teams` 팀 모임만 업데이트 해야 함을 나타냅니다.
+- 을 사용 하 여 `SourceMeetingType All` 비즈니스용 Skype 모임 및 팀 모임을 모두 업데이트 해야 함을 나타냅니다. 이 값이 SourceMeetingType의 기본값입니다.
     
 
 아래 예제에서는 모든 모임이 팀으로 마이그레이션될 수 있도록 사용자 ashaw@contoso.com에 대 한 모임 마이그레이션을 시작 하는 방법을 보여 줍니다.
@@ -146,7 +146,7 @@ Windows PowerShell을 사용 하 여 진행 중인 마이그레이션 상태를 
 
 ### <a name="check-the-status-of-meeting-migrations"></a>모임 마이그레이션 상태 확인
 
-`Get-CsMeetingMigrationStatus` Cmdlet을 사용 하 여 모임 마이그레이션 상태를 확인 합니다. 다음은 몇 가지 예입니다.
+Cmdlet을 사용 하 여 `Get-CsMeetingMigrationStatus` 모임 마이그레이션 상태를 확인 합니다. 다음은 몇 가지 예입니다.
 
 - 모든 MMS 마이그레이션에 대 한 요약 상태를 얻으려면 모든 마이그레이션 상태의 표 형식 보기를 제공 하는 다음 명령을 실행 합니다.
 
@@ -170,7 +170,7 @@ Windows PowerShell을 사용 하 여 진행 중인 마이그레이션 상태를 
     ```PowerShell
     Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
     ```
-실패 한 마이그레이션이 표시 되는 경우 이러한 문제를 해결할 때까지 해당 사용자가 구성한 모임에 대 한 전화 접속을 할 수 없기 때문에, 가능한 한 빨리 해결 하기 위해 조치를 취해야 합니다. 에서 `Get-CsMeetingMigrationStatus` 실패 상태의 마이그레이션이 표시 되는 경우 다음 단계를 수행 합니다.
+실패 한 마이그레이션이 표시 되는 경우 이러한 문제를 해결할 때까지 해당 사용자가 구성한 모임에 대 한 전화 접속을 할 수 없기 때문에, 가능한 한 빨리 해결 하기 위해 조치를 취해야 합니다. `Get-CsMeetingMigrationStatus`에서 실패 상태의 마이그레이션이 표시 되는 경우 다음 단계를 수행 합니다.
  
 1. 어떤 사용자에 게 영향을 미치는지 결정 합니다. 다음 명령을 실행 하 여 영향을 받는 사용자 목록과 보고 된 특정 오류를 가져옵니다.
 
@@ -190,20 +190,20 @@ Windows PowerShell을 사용 하 여 진행 중인 마이그레이션 상태를 
 MMS는 모든 조직에 대해 기본적으로 사용 하도록 설정 되지만 다음과 같이 사용 하지 않도록 설정할 수 있습니다.
 
 - 테 넌 트에 대해 완전히 사용 하지 않도록 설정 합니다. 
-- 오디오 회의 관련 변경 내용에 대해서만 비활성화 합니다. 이 경우 사용자를 온-프레미스에서 클라우드로 마이그레이션하거나 TeamsOnly 모드 또는 SfBWithTeamsCollabAndMeetings 모드를 사용 하도록 허용할 때 MMS는 계속 실행 됩니다 `TeamsUpgradePolicy`.
+- 오디오 회의 관련 변경 내용에 대해서만 비활성화 합니다. 이 경우 사용자를 온-프레미스에서 클라우드로 마이그레이션하거나 TeamsOnly 모드 또는 SfBWithTeamsCollabAndMeetings 모드를 사용 하도록 허용할 때 MMS는 계속 실행 됩니다 `TeamsUpgradePolicy` .
 
 예를 들어 조직의 오디오 회의 설정을 대폭 변경 하면서 모든 모임을 수동으로 마이그레이션하거나 MMS를 일시적으로 사용 하지 않도록 설정할 수 있습니다.
 
-조직에 MMS를 사용할 수 있는지 확인 하려면 다음 명령을 실행 합니다. 매개 변수가 있는 `MeetingMigrationEnabled` 경우 MMS를 사용할 `$true`수 있습니다.
+조직에 MMS를 사용할 수 있는지 확인 하려면 다음 명령을 실행 합니다. 매개 변수가 있는 경우 MMS를 사용할 수 `MeetingMigrationEnabled` `$true` 있습니다.
 ```PowerShell
 Get-CsTenantMigrationConfiguration
 ```
-MMS를 완전히 사용 하거나 사용 하지 않도록 설정 `Set-CsTenantMigrationConfiguration` 하려면 명령을 사용 합니다. 예를 들어 MMS를 사용 하지 않도록 설정 하려면 다음 명령을 실행 합니다.
+MMS를 완전히 사용 하거나 사용 하지 않도록 설정 하려면 `Set-CsTenantMigrationConfiguration` 명령을 사용 합니다. 예를 들어 MMS를 사용 하지 않도록 설정 하려면 다음 명령을 실행 합니다.
 
 ```PowerShell
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
-조직에서 MMS를 사용 하도록 설정 하 고 오디오 회의 업데이트를 사용 하도록 설정 되어 있는지 확인 하려면 출력에서 `AutomaticallyMigrateUserMeetings` 매개 변수 값을 확인 `Get-CsOnlineDialInConferencingTenantSettings`합니다. 오디오 회의에 대 한 MMS를 사용 하거나 사용 `Set-CsOnlineDialInConferencingTenantSettings`하지 않도록 설정 하려면을 사용 합니다. 예를 들어 오디오 회의에 대 한 MMS를 사용 하지 않도록 설정 하려면 다음 명령을 실행 합니다.
+조직에서 MMS를 사용 하도록 설정 하 고 오디오 회의 업데이트를 사용 하도록 설정 되어 있는지 확인 하려면 출력에서 매개 변수 값을 확인 `AutomaticallyMigrateUserMeetings` `Get-CsOnlineDialInConferencingTenantSettings` 합니다. 오디오 회의에 대 한 MMS를 사용 하거나 사용 하지 않도록 설정 하려면을 사용 `Set-CsOnlineDialInConferencingTenantSettings` 합니다. 예를 들어 오디오 회의에 대 한 MMS를 사용 하지 않도록 설정 하려면 다음 명령을 실행 합니다.
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false

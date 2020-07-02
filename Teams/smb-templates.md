@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Microsoft 팀에서 미리 정의 된 서식 파일을 사용 하 여 중소 기업에 맞게 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d88ee5ea6a584a4b064b1ba12dd6d6ef72f2f25
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757059"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944031"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>중소 기업에 대 한 팀 서식 파일 시작 하기
 
