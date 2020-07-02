@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 microsoft 팀 대화방에 대 한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d2b03a954661920b2c31d03081f7d6853e06b12
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877919"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021876"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -71,6 +71,8 @@ ms.locfileid: "44877919"
 - 품질 및 안정성 수정
 - "4.4.41.0 업데이트 후 응용 프로그램이 실행 되지 않음" 문제에 대 한 해결 방법
 
+> [!NOTE]
+> 장치가 버전 4.4.63.0에 자동으로 업데이트 되지 않는 경우에는 Microsoft 팀 대화방의 단계를 따라 [버전 4.4.41.0 업데이트 한 후](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) 에도 문제 해결을 시작 합니다.
 
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 

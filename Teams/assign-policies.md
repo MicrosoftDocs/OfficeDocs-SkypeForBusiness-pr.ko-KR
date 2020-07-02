@@ -18,19 +18,19 @@ description: Microsoft 팀에서 사용자에 게 정책을 할당 하는 다양
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 403131fa3e7bd2b3fb2a128640ac49497394d669
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: c7522bc4bffeafeef4d194f5e4ad24ec9648a91a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938547"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021756"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
 
 > [!NOTE]
 > **이 문서에서 설명 하는 기능 중 하나에 대 한 다음에는 그룹에 대 한 정책 할당을 참고**하세요. 
 > - [Microsoft 팀 관리 센터를 사용 하는 그룹에 대 한 정책 할당은](#using-the-microsoft-teams-admin-center-3)아직 해제 되지 않았습니다. 발표 되었으며 곧 제공 될 예정입니다. 
-> - [PowerShell을 사용 하는 그룹에 대 한 정책 할당](#using-powershell-3)은 현재 비공개 미리 보기 에서만 사용할 수 있습니다. 이 기능에 대 한 Powershell cmdlet은 시험판 팀 PowerShell 모듈에 있습니다.
+> - [PowerShell을 사용 하는 그룹에 대 한 정책 할당](#using-powershell-3)은 현재 비공개 미리 보기 에서만 사용할 수 있습니다. 이 기능에 대 한 cmdlet은 팀 PowerShell 공용 미리 보기 모듈에 있습니다.
 >
 > 이 기능의 릴리스 상태를 유지 하려면 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)확인 하세요.
 
@@ -160,7 +160,7 @@ Import-PSSession -Session $CSSession
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-자세히 알아보려면 [PowerShell을 통한 정책 관리](teams-powershell-overview.md#managing-policies-via-powershell)를 참조 하세요.
+자세히 알아보려면 [PowerShell을 통한 정책 관리](teams-powershell-managing-teams.md#manage-policies-via-powershell)를 참조 하세요.
 
 ## <a name="assign-a-policy-package"></a>정책 패키지 할당
 
@@ -315,40 +315,14 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-**이 기능은 현재 비공개 미리 보기 에서만 사용할 수 있습니다. 이 기능에 대 한 cmdlet은 시험판 팀 PowerShell 모듈에 있습니다.**
+**이 기능은 현재 비공개 미리 보기 에서만 사용할 수 있습니다. 이 기능에 대 한 cmdlet은 팀 PowerShell 공용 미리 보기 모듈에 있습니다.**
 
 > [!NOTE]
 > 현재 모든 팀 정책 유형에는 PowerShell을 사용 하는 그룹에 대 한 정책 할당을 사용할 수 없습니다. 지원 되는 정책 유형 목록에 대 한 [새 CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 을 참조 하세요.
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft 팀 PowerShell 모듈을 설치 하 고 연결 합니다.
 
-Cmdlet은 팀 PowerShell 모듈의 시험판 버전에 있습니다. 일반적으로 사용 가능한 팀 PowerShell 모듈 (설치 되어 있는 경우)을 제거 하 고 PowerShell 테스트 갤러리에서 해당 모듈의 최신 시험판 버전을 설치 하려면 다음 단계를 따릅니다.
-
-아직 하지 않은 경우 다음을 실행 하 여 PowerShell 테스트 갤러리를 신뢰할 수 있는 원본으로 등록 합니다.
-
-```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-일반적으로 사용 가능한 팀 PowerShell 모듈 버전이 설치 되어 있는 경우 다음을 실행 하 여 제거 합니다.
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-다음을 실행 하 여 PowerShell 테스트 갤러리에서 최신 Microsoft 팀 PowerShell 모듈을 설치 합니다.
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
-```
-
-다음을 실행 하 여 팀에 연결 하 고 세션을 시작 합니다.
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-메시지가 표시 되 면 관리자 자격 증명을 사용 하 여 로그인 합니다.
+이러한 cmdlet은 팀 PowerShell 공용 미리 보기 모듈의 일부입니다. 단계별 지침은 [설치 팀 PowerShell](teams-powershell-install.md)을 참조 하세요.
 
 #### <a name="assign-a-policy-to-a-group"></a>그룹에 정책 할당
 

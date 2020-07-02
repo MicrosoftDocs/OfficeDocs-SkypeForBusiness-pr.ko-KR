@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
-ms.openlocfilehash: 6253d1bd46589892d1558ab7e9871bbf38c8cdbb
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 4dc1438261271b57796b0907def79a4affdc167b
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877909"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021736"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -44,67 +44,77 @@ IP 전화 인증 프로그램은 인증 된 통신 전화 및 전화 회의 휴�
 
 Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 
-|전화 모델|펌웨어 버전|릴리스 날짜 |
-|:---|:---|:---|
-|오디오 코드 C450HD | C450HD_TEAMS_0.225 | 2019 년 3 월|
-|오디오 코드 C448HD (CAP 모드에만 해당) | C450HD_TEAMS_0.225 | 2019 년 3 월|
-|M100에서 crestron| 이 제품은 단종 되었습니다. 자세한 내용은 M100의 웹 사이트에서 [crestron](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 을 참조 하세요. | 단종 된 5/11/2020|
-|Flex UC에서 crestron P100-T & UC-P110-T  | 이 제품은 단종 되었습니다. 자세한 내용은 Crestron 웹 사이트에서 [UC 전화]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) 를 방문 하세요. |단종 된 5/11/2020|
-|Lenovo ThinkSmart View|CD-18781Y 200410.067|2020 년 4 월|
-|Poly Trio C60|5.9.3.6155|2020 년 4 월|
-|Poly CCX400 | 1.0.0.0200 | 2020 년 1 월|
-|Poly CCX600 | 5.9.12.1111| 2020 년 1 월|
-|Poly CCX500 | 5.9.12.1111| 2019 년 12 월|
-|Poly Trio 8500/8800 (공유 모드에만 해당)| 5.9.0.10869|2019 년 6 월|
-|옛 alink MP56| 122.15.0.6| 2020 년 3 월|
-|옛 alink VP59 | 91.15.0.16 |2019 년 6 월|
-|옛 alink T55 | 58.15.0.36 |2019 년 5 월|
-|옛 alink CP 960 |73.15.0.20|2018 년 12 월|
-|옛 alink T58 & T56 시리즈 |58.15.0.20|2018 년 12 월|
+| 전화 모델                            | 펌웨어 버전                                                                                                                                                                                                                           | 릴리스 날짜                 |
+|:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
+| 오디오 코드 C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 년 3 월                   |
+| 오디오 코드 C448HD (CAP 모드에만 해당)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 년 3 월                   |
+| M100에서 crestron                          | 이 제품은 단종 되었습니다. 자세한 내용은 M100의 웹 사이트에서 [crestron](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 을 참조 하세요. | 단종 된 5/11/2020 |
+| Flex UC에서 crestron P100-T & UC-P110-T    | 이 제품은 단종 되었습니다. 자세한 내용은 Crestron 웹 사이트에서 [UC 전화](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) 를 방문 하세요.                  | 단종 된 5/11/2020 |
+| Lenovo ThinkSmart View                 | CD-18781Y 200410.067                                                                                                                                                                                                                       | 2020 년 4 월                   |
+| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020 년 4 월                   |
+| Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020 년 1 월                 |
+| Poly CCX600                            | 5.9.12.1111                                                                                                                                                                                                                                | 2020 년 1 월                 |
+| Poly CCX500                            | 5.9.12.1111                                                                                                                                                                                                                                | 2019 년 12 월                |
+| Poly Trio 8500/8800 (공유 모드에만 해당) | 5.9.0.10869                                                                                                                                                                                                                                | 2019 년 6 월                    |
+| 옛 alink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | 2020 년 3 월                   |
+| 옛 alink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | 2019 년 6 월                    |
+| 옛 alink T55                            | 58.15.0.36                                                                                                                                                                                                                                 | 2019 년 5 월                     |
+| 옛 alink CP 960                         | 73.15.0.20                                                                                                                                                                                                                                 | 2018 년 12 월                |
+| 옛 alink T58 & T56 시리즈               | 58.15.0.20                                                                                                                                                                                                                                 | 2018 년 12 월                |
 
 ## <a name="certified-collaboration-bars"></a>인증 된 공동 작업 모음
 
 다음 공동 작업 모음은 Microsoft 팀에 대해 인증 됩니다.
 
-|공동 작업 표시줄 모델|펌웨어 버전|릴리스 날짜 |방 크기 (최대)|
-|:---|:---|:---|:---|
-|Poly Studio X30 | 3.1.1.216109| 2020 년 6 월|포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m)|
-|Poly Studio X50 | 3.1.1.216109| 2020 년 6 월|포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m)|
-|옛 alink VC210| 118.15.0.14|2020 년 2 월|포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m)|
+| 공동 작업 표시줄 모델 | 펌웨어 버전 | 릴리스 날짜  | 방 크기 (최대)                                         |
+|:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Poly Studio X30         | 3.1.1.216109     | 2020 년 6 월     | 포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m) |
+| Poly Studio X50         | 3.1.1.216109     | 2020 년 6 월     | 포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m) |
+| 옛 alink VC210           | 118.15.0.14      | 2020 년 2 월 | 포커스 공간 (3m x 3m) </br> 작은 회의실 (4.5 m x 4.5 m) |
 
-### <a name="product-release-information-teams-phones"></a>제품 릴리스 정보-팀 전화
-다음은 최신 팀 IP 전화 앱 버전 및 출시 된 펌웨어 버전입니다.
-#### <a name="release-date-may-132020"></a>릴리스 날짜: 2020 년 5 월 13 일
+### <a name="product-release-information-for-teams-phones"></a>팀 전화에 대 한 제품 릴리스 정보
+
+다음은 최신 팀 IP 전화 앱 및 펌웨어 버전입니다.
+
+#### <a name="release-date-june-262020"></a>릴리스 날짜: 2020 년 6 월 26 일
+
 #### <a name="app-versions"></a>앱 버전
-|내| 버전|
-|:---|:---|
-|Teams | .040801|
-|관리자 에이전트|.210|
-|회사 포털| .4715|
+
+| 제품 릴리스 | 릴리스 날짜  | Microsoft 팀 앱 버전 | 회사 포털 버전 | 관리자 에이전트 버전 |
+|:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 업데이트 #4       | 2020 년 6 월 30 일 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| 업데이트 #3       | 5 월 13 일, 2020  | .040801                     | .4715                  | 1.210               |
 
 #### <a name="firmware-versions"></a>펌웨어 버전
-|업데이트 #3| Prod로 출시 되는 펌웨어|
-|:---|:---|
-|오디오 코드 C450HD|C450HD_TEAMS_1 3.47|
-|Poly CCX400|1.0.1.0054|
-|Poly CCX500/ CCX600|5.9.13.0306|
-|옛 alink T55/T56/T58|58.15.0.104|
-|옛 alink VP59|91.15.0.40|
-|옛 alink CP960|73.15.0.100|
 
-### <a name="product-release-information-collaboration-bar"></a>제품 릴리스 정보-공동 작업 모음
-다음은 최신 팀 공동 작업 모음 앱 버전 및 펌웨어 버전이 출시 된 것입니다.
+장치에 새 펌웨어 버전을 설치 하면 **포함 된 제품 릴리스** 열에서 제품 릴리스를 검색 하 여 설치 된 해당 Microsoft 팀 앱, 회사 포털 및 관리자 에이전트 버전을 확인할 수 있습니다. 그런 다음 위의 **앱 버전** 표에서 제품 릴리스를 찾습니다.
+
+| 장치 모델        | 펌웨어 버전     | 포함 된 제품 릴리스 |
+|:--------------------|:---------------------|:-------------------------|
+| 오디오 코드 C450HD   | C450HD_TEAMS_1 4.208 | 업데이트 #4                |
+| Poly CCX400         | 1.0.1.0054           | 업데이트 #3                |
+| Poly CCX500/CCX600  | 5.9.13.0306          | 업데이트 #3                |
+| 옛 alink T55/T56/T58 | 58.15.0.107          | 업데이트 #4                |
+| 옛 alink VP59        | 91.15.0.42           | 업데이트 #4                |
+| 옛 alink CP960       | 73.15.0.103          | 업데이트 #4                |
+
+### <a name="product-release-information-for-collaboration-bars"></a>공동 작업 모음의 제품 릴리스 정보
+
+다음은 최신 팀 공동 작업 표시줄 앱 및 펌웨어 버전입니다.
+
 #### <a name="app-versions"></a>앱 버전
-|내| 버전|
-|:---|:---|
-|Teams | .040901|
-|관리자 에이전트|.210|
-|회사 포털| .4715|
+
+| 제품 릴리스 | 릴리스 날짜 | Microsoft 팀 앱 버전 | 회사 포털 버전 | 관리자 에이전트 버전 |
+|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 업데이트 #3       | 5 월 13 일, 2020 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>펌웨어 버전
-|업데이트 #3| Prod로 출시 되는 펌웨어|
-|:---|:---|
-|옛 alink VC210|118.15.0.19|
+
+장치에 새 펌웨어 버전을 설치 하면 **포함 된 제품 릴리스** 열에서 제품 릴리스를 검색 하 여 설치 된 해당 Microsoft 팀 앱, 회사 포털 및 관리자 에이전트 버전을 확인할 수 있습니다. 그런 다음 위의 **앱 버전** 표에서 제품 릴리스를 찾습니다.
+
+| 장치 모델  | 펌웨어 버전 | 포함 된 제품 릴리스 |
+|:--------------|:-----------------|:-------------------------|
+| 옛 alink VC210 | 118.15.0.19      | 업데이트 #3                |
 
 이러한 장치에서 지원 되는 기능에 대 한 정보는 [Microsoft 팀 전화 기능 집합](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) 을 참조 하세요.
 

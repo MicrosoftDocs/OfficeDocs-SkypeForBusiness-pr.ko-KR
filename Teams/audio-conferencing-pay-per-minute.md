@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft 볼륨 라이선스를 사용 하는 조직의 오디오 회의 기능을 사용 하도록 설정 하는 분당 요금 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: f153c05638f26244a9f37b69018cc22428ee99f2
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610513"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021746"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>오디오 회의 분당 요금
 
@@ -39,7 +39,7 @@ ms.locfileid: "44610513"
 
   
 > [!NOTE]
-> 이 제안은 볼륨 및 라이선스 고객만 사용할 수 있기 때문에 계정 담당자와 협력 하 여 라이선스를 취득 해야 합니다. 
+> 이 제안은 볼륨 및 라이선스 고객만 사용할 수 있기 때문에 계정 담당자와 협력 하 여 이러한 라이선스를 얻어야 합니다. 
   
 ## <a name="need-some-details"></a>몇 가지 세부 사항이 필요 한가요?
 
@@ -54,7 +54,7 @@ ms.locfileid: "44610513"
 > [!NOTE]
 > [오디오 회의](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)에서 **섹션을 호출 하려는 위치에 대 한 참조 요금 보기** 를 검토 하 여 이러한 통화 유형에 관련 된 전화 접속 및 전화 접속 요금을 확인할 수 있습니다.
   
-분 단위 요금은 각 사용자에 게 할당 된 라이선스와 [통신 크레딧을](what-are-communications-credits.md) 사용 하 여 오디오 회의가 작동 하도록 요구 합니다. 자세한 내용은 조직 및/또는 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) [에 대 한 통신 크레딧 설정을](set-up-communications-credits-for-your-organization.md) 참조 하세요.
+분 단위로 결제는 조직의 [통신 크레딧이](what-are-communications-credits.md) 설정 되어 있어야 합니다. 또한 오디오 회의가 작동 하도록 각 사용자에 게 유료 라이선스 및 통신 제작진 라이선스를 할당 해야 합니다. 자세한 내용은 조직 및/또는 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) [에 대 한 통신 크레딧 설정을](set-up-communications-credits-for-your-organization.md) 참조 하세요.
   
 조직의 사용자에 대 한 오디오 회의 시간당 유료 통화를 사용 하려면 [Microsoft office 365 또는 Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)을 참조 하세요.
 

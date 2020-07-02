@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 또는 Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 8c94dac38495069f22f9729e8625bc006fb4662f
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868536"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021866"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 팀을 위해 Microsoft 365에서 오디오 회의 체험 또는 구매
 
@@ -72,7 +72,7 @@ ms.locfileid: "44868536"
 4. 조직의 [사용자에 게 라이선스를 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 하 여 모임을 예약 하거나 잠재 고객으로 이동할 수 있습니다.
 
     > [!NOTE]
-    > 오디오 회의 분당 요금 라이선스가 있는 경우 오디오 회의 사용을 위해 특별히 각 사용자에 게 통신 크레딧 라이선스를 별도로 할당할 필요는 없습니다 (다른 서비스에 대해서도 할당 해야 할 수 있음).
+    > 오디오 회의 분당 요금 라이선스가 있는 경우 각 사용자에 게 개별적으로 통신 제작진 라이선스를 할당 해야 합니다.
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>2 단계: 모임을 진행 하거나 예약 하는 사람을 위해 오디오 회의 공급자 설정
 

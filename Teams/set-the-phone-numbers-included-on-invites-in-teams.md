@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 다음 단계에 따라 호출자가 Microsoft 팀 모임에 참가 하는 데 사용할 기본 전화 번호를 만듭니다.
-ms.openlocfilehash: 81624090b1e82bf695f8e558cd55324a45d927e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691114"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021766"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsoft 팀의 초대에 포함 된 전화 번호 설정
 
@@ -55,7 +55,7 @@ Microsoft 365 및 Office 365의 오디오 회의를 통해 조직의 사용자�
 
 이러한 변경 작업을 수행 하려면 관리자 여야 합니다.
 
-1. 의 관리 센터에 로그인 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 합니다.
+1. Microsoft 팀 관리 센터에 로그인 합니다.
 
 2. 왼쪽 탐색 창에서 **사용자**를 클릭 합니다.
 
