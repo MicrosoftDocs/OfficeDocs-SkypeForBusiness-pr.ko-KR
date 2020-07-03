@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft 팀의 추가 기능 라이선스와 각 라이선스에 대해 제공 하는 기능에 대해 알아봅니다.
-ms.openlocfilehash: acb0ff4cd9cbaeeedb81490731a8b68a8de854a8
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170689"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028184"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft 팀 추가 기능 라이선스
 
@@ -164,9 +164,9 @@ Microsoft 365 Enterprise 또는 Office 365 Enterprise 요금제가 이미 있는
 
 Microsoft는 사용자가 원격으로 작업 하거나 집에서 작업 하는 데 도움이 되므로 정부, 교육 및 비영리 조직의 경우 여러 무료 팀 평가판을 제공 합니다. 다음 계획에 대해 평가판을 사용할 수 있습니다.
 
-- Office 365 Enterprise [E1 평가판](../e1-trial-license.md), E3 평가판 및 E5 평가판
+- Office 365 Enterprise [E1 평가판](../e1-trial-license.md) (단종 됨-7 월 1 일, 2020), E3 평가판, E5 평가판
 - Office 365 교육 [A1 평가판](../teams-edu-licensing.md)
-- Office 365 정부 [G1 평가판](../g1-trial-license.md)
+- Office 365 정부/지방 [평가판](../g1-trial-license.md) (단종 기간 1/7-2020)
 
 평가판에 등록 하려면 [평가판 제공에 등록](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)을 참조 하세요.
 
@@ -176,7 +176,7 @@ Microsoft는 사용자가 원격으로 작업 하거나 집에서 작업 하는 
 
   ![평가판 기반 옵션](../media/licensing-trial-offers.png)
 
- 기본 요금제는 음성 기능에 대해 이러한 평가판을 사용 하는 데 평가판을 제공할 필요가 없습니다. 음성 기능에 대 한 평가판 제공으로 Microsoft 365 비즈니스 요금제 또는 엔터프라이즈, 정부, 교육 또는 비영리 계획을 사용할 수 있습니다. 사용 가능한 평가판과 추가 기능을 보려면 Microsoft 365 관리 센터에서 **청구** > **구입 서비스로**이동 하 여 **관심 있는 다른 범주**를 선택한 다음 **추가 기능**을 선택 합니다.
+ 기본 요금제는 음성 기능에 대해 이러한 평가판을 사용 하는 데 평가판을 제공할 필요가 없습니다. 음성 기능에 대 한 평가판 제공으로 Microsoft 365 비즈니스 요금제 또는 엔터프라이즈, 정부, 교육 또는 비영리 계획을 사용할 수 있습니다. 사용 가능한 평가판과 추가 기능을 보려면 Microsoft 365 관리 센터에서 **청구**  >  **구입 서비스로**이동 하 여 **관심 있는 다른 범주**를 선택한 다음 **추가 기능**을 선택 합니다.
 
   이러한 음성 및 회의 옵션 각각에 대해 무료 전화 번호가 있거나 사용자가 모임에서 전화를 거는 시간 (분)을 더 추가 해야 하거나 사용자가 국내 및 국제 PSTN 통화를 할 수 있도록 [통신 크레딧이](../set-up-communications-credits-for-your-organization.md) 필요 합니다.
 
@@ -188,7 +188,7 @@ Microsoft는 사용자가 원격으로 작업 하거나 집에서 작업 하는 
 
 * * *
 
-## <a name="need-help"></a>도움이 필요하십니까?
+## <a name="need-help"></a>도움이 필요하신가요?
 
 추가 기능 옵션에 대 한 다른 사람과 통화 해야 하나요? [비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53eed34584cb3a8167367e29f036cb21d741bd83
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944011"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028164"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -30,12 +30,12 @@ ms.locfileid: "44944011"
 ## <a name="what-is-vdi"></a>VDI 란?
 
 VDI (가상 데스크톱 인프라)는 데스크톱 운영 체제 및 응용 프로그램을 데이터 센터의 중앙 집중식 서버에 호스팅하는 가상화 기술입니다. 이렇게 하면 완전히 안전한 중앙 집중화 된 원본을 사용 하 여 사용자에 게 개인 설정 된 데스크톱 환경이 제공 됩니다.
- 
+
 가상화 된 환경에서 Microsoft 팀은 채팅 및 공동 작업을 지원 합니다. Citrix 플랫폼을 사용 하는 경우에도 통화와 모임 기능이 지원 됩니다.
 
 가상화 된 환경의 팀은 여러 구성을 지원 합니다. 여기에는 VDI, 전용, 공유, 영구, 비 영구적인 모드가 포함 됩니다. 기능은 지속적으로 개발 되 고 있으며 정기적으로 추가 되며, 제공 되는 개월 단위와 몇 년 동안 기능이 확장 됩니다.
- 
-가상화 된 환경에서 팀을 사용 하는 것은 가상화 되지 않은 환경에서 팀을 사용 하는 것과 약간 다를 수 있습니다. 예를 들어 가상화 된 환경에서는 일부 고급 기능을 사용할 수 없으며 비디오 해상도가 다를 수 있습니다. 
+
+가상화 된 환경에서 팀을 사용 하는 것은 가상화 되지 않은 환경에서 팀을 사용 하는 것과 약간 다를 수 있습니다. 예를 들어 가상화 된 환경에서는 일부 고급 기능을 사용할 수 없으며 비디오 해상도가 다를 수 있습니다.
 
 최적의 사용자 환경을 보장 하려면이 문서의 지침을 따르세요.
 
@@ -100,12 +100,12 @@ VDI 환경에서 팀의 AV 최적화가 올바르게 작동 하려면 씬 클라
 
 비 영구적인 설정에서는 사용자가 로그 아웃 한 후 사용자의 로컬 운영 체제 변경 내용이 보존 되지 않습니다. 이러한 설정은 일반적으로 공유 다중 사용자 세션입니다. VM 구성은 사용자 수와 사용 가능한 실제 box 리소스에 따라 달라 집니다.
 
-비 영구적인 설정의 경우 팀 데스크톱 앱은 골든 이미지에 컴퓨터별 설치 되어 있어야 합니다. 자세히 알아보려면 [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요. 이렇게 하면 사용자 세션 중에 팀 앱을 효율적으로 실행할 수가 있습니다. 
+비 영구적인 설정의 경우 팀 데스크톱 앱은 골든 이미지에 컴퓨터별 설치 되어 있어야 합니다. 자세히 알아보려면 [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요. 이렇게 하면 사용자 세션 중에 팀 앱을 효율적으로 실행할 수가 있습니다.
 
 비 영구적인 설정으로 팀을 사용 하려면 효율적인 팀 런타임 데이터 동기화를 위한 프로필 캐싱 관리자도 필요 합니다. 이렇게 하면 사용자의 사용자 정보 (예: 사용자 데이터, 프로필 및 설정)가 사용자 세션 중에 캐시 됩니다. 이 두 폴더의 데이터가 동기화 되는지 확인 합니다.  
 
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
-- C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
+- C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
 다양 한 캐싱 관리자 솔루션을 사용할 수 있습니다. 예를 들어 [Fslogix](https://docs.microsoft.com/fslogix/overview)를 사용할 경우 특정 구성 지침은 캐싱 관리자 공급자에 게 문의 하세요.
 
@@ -143,10 +143,8 @@ Enterprise 용 microsoft 365 앱에 대 한 자세한 내용은 [엔터프라이
 
 1. 다음 링크 중 하나를 사용 하 여 VDI VM 운영 체제와 일치 하는 팀 MSI 패키지를 다운로드 합니다.
 
-
     - [32 비트 버전](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
     - [64 비트 버전](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
-
 
     필요한 팀 데스크톱 앱의 최소 버전은 버전 1.3.00.4461입니다. (PSTN 보류가 이전 버전에서 지원 되지 않습니다.)
 
@@ -179,6 +177,7 @@ Enterprise 용 microsoft 365 앱에 대 한 자세한 내용은 [엔터프라이
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+
       이 프로세스는 운영 체제 환경에 따라 x86 (프로그램 파일) 폴더 또는 프로그램 파일 폴더에서 팀을 제거 합니다.
 
 ## <a name="teams-on-vdi-performance-considerations"></a>VDI 성능 고려 사항에 대 한 팀
@@ -271,9 +270,9 @@ DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에 게 할�
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 할당 하려는 정책으로 이동 합니다. 예를 들면 다음과 같습니다.
     - **음성**  >  **통화 정책**으로 이동한 다음 **DisallowCalling**를 클릭 합니다.
     - **모임**  >  **모임 정책**으로 이동한 다음 **AllOff**를 클릭 합니다.
-3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가**를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
+2. **사용자 관리**를 선택합니다.
+3. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가**를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
+4. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell을 사용 하 여 정책 할당
 
@@ -327,9 +326,9 @@ AllowCalling 호출 정책 및 AllOn meeting policy를 사용자에 게 할당 �
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 할당 하려는 정책으로 이동 합니다. 예를 들면 다음과 같습니다.
     - **음성**  >  **통화 정책**으로 이동한 다음 **allowcalling**를 클릭 합니다.
     - **모임**  >  **모임 정책**으로 이동한 다음, **allon**을 클릭 합니다.
-3. **사용자 관리**를 선택합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가**를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
+2. **사용자 관리**를 선택합니다.
+3. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가**를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
+4. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell을 사용 하 여 정책 할당
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d8d7edb5710883c7725a0784819d3a35c1c2f2f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0d8c8246ef635f860b5cc601613faf5ef1663726
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905100"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028134"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>무료 버전의 Microsoft 팀 관리
 ==========================================
@@ -45,10 +45,6 @@ ms.locfileid: "43905100"
 
 ## <a name="get-the-right-teams-trial"></a>적절 한 팀 평가판 다운로드
 
-Microsoft는 COVID-19 (coronavirus) 침입에 대 한 응답으로 직원 들이 가정 (WFH)에서 작업 하는 데 필요한 요구 사항에 따라 사용할 수 있는 평가판 Office 365 라이선스 (팀 포함)를 만듭니다. 
-
-- [E1 평가판](e1-trial-license.md):이 제안은 Microsoft 계정 담당자가 관리 하는 비 수익을 포함 하 여 모든 고객을 대상으로 합니다.
-
-- 미국 정부 (GCC)의 경우 [Office 365 G1 평가판](g1-trial-license.md)을 확인 하세요. 
+- 팀의 무료 사용 또는 [팀 예비](teams-exploratory.md)를 확인해 보세요.
 
 - .EDU 고객은 무료 [Office 365 A1 라이선스](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)를 사용 해야 합니다.
