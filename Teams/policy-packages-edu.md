@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 교육 또는 EDU 설정의 정책과 Microsoft Teams에서 정책 패키지를 사용하고 관리하는 방법에 대해 자세히 알아봅니다.
-ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874432"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021886"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>교육용 Teams 정책 및 정책 패키지
 
@@ -148,6 +148,9 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 ### <a name="meeting-policies"></a>모임 정책
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>모임 생성 및 시작 기능 해제
+
+> [!NOTE]
+> 현재 테넌트에서 이 기능을 확인할 수 없습니다. 이 기능은 현재 배포 중이며 모든 테넌트에 배포된 후 모든 사용자가 사용할 수 있기 때문입니다. 자세한 내용은 [Teams 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355)을 참조하세요.
 
 학생이 무인 통신을 위해 모임을 예약할 수 없도록 하려면 모임 정책에서 해당 일반 설정을 통해 모임 생성 기능을 **해제**로 설정하세요.
 
