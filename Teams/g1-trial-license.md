@@ -15,43 +15,21 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97f7e653e345c8e2448f0519087c5f6eb6b600d1
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 38ffb22e1f1321f7aebffa2ae22bb154bef48ca5
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868544"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028104"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Office 365 G1 평가판 관리 미국 정부 기관용 
 ==============================
 
-2020년 3월 Microsoft Teams를 포함한 6개월 무료 Office 365 G1 평가판을 새롭게 사용할 수 있습니다. Microsoft는 COVID-19(코로나 바이러스) 발생에 대응하여 직원들의 재택 근무(WFH)에 대한 필요성이 증가함에 따라 미국 정부를 위해 이 특별 G1 평가판 라이선스를 제공하고 있습니다.
+2020년 7월 1일부터 Office 365 E1 평가판 라이선스를 더 이상 사용할 수 없습니다. 사용자에게 Microsoft Teams의 라이선스를 설정해야 하는 경우 Teams를 포함한 유료 구독 목록의 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요. 
 
-G1 라이선스로 사용할 수 있는 기능에 대해 알아보려면 [Microsoft 365 정부 요금제](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) 및 [GCC Cloud에서 제공하는 Microsoft Teams의 기능](plan-for-government-gcc.md)을 참조하세요.
+이 문서의 안내에 따라 [유료 구독으로 업그레이드](#upgrade-users-from-the-office-365-g1-trial-license)를 포함하여 기존 Office 365 G1 평가판 라이선스를 관리합니다. 자세히 알아보려면 [Microsoft 365 정부 요금제](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) 및 [GCC Cloud에서 제공하는 Microsoft Teams의 기능](plan-for-government-gcc.md)을 참조하세요.
 
- [Teams로 원격 작업자를 지원](support-remote-work-with-teams.md)하기 위한 모든 지침을 놓치지 마세요.
-
-## <a name="how-to-get-an-g1-trial-license"></a>G1 평가판 라이선스를 얻는 방법
-
-Microsoft 계정 담당자에게 문의하세요. G1 평가판에 등록하는 데 사용할 수 있는 프로모션 코드가 제공됩니다.
-
-## <a name="how-to-sign-up-for-the-g1-trial"></a>G1 가입 방법
-
-계정 담당자가 발송할 이메일의 지침을 따릅니다.
-
-## <a name="whos-eligible"></a>사용 자격이 있는 사용자
-
-이 서비스는 GCC 클라우드에서 운영하고 Microsoft 계정 담당자가 관리하는 미국 정부 고객을 위한 것입니다. 과거에 다른 Office 365 G1 평가판을 활성화하지 않은 조직을 위한 것입니다.
-
-G1 평가판 프로모션 코드를 사용한 후에는 이 코드를 다시 사용할 수 없으며 다른 G1 평가판 코드를 활성화 할 수 없습니다.
-
-## <a name="who-isnt-eligible"></a>사용 자격이 없는 사용자
-
-  - 이 서비스는 상업적, GCC High, DoD 또는 EDU 고객에게는 제공되지 않습니다.
-
-  - 상업적 고객은 Office 365 E1 평가판을 사용해야 합니다.
-
-  - EDU 고객은 무료 Office 365 A1 라이선스를 사용해야 합니다.
+ [Teams로 원격 작업자를 지원](support-remote-work-with-teams.md)하기 위한 모든 Microsoft 지침을 놓치지 마세요.
 
 ## <a name="manage-the-g1-trial"></a>G1 평가판 관리
 

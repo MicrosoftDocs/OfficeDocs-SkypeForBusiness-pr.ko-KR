@@ -15,47 +15,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03544095e5189af2f80714151f31648f79e65c8d
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ea7c72e78fe14894678f963f8b876a608f6d6222
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868675"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028154"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 평가판 관리
 ==============================
 
-2020년 3월 Microsoft Teams를 포함한 6 개월 무료 Office 365 E1 평가판을 새롭게 사용할 수 있습니다. Microsoft는 COVID-19(코로나 바이러스) 발생에 대응하여 직원들이 재택 근무 (WFH)에 대한 필요성이 증가함에 따라 이 특별 E1 평가판 라이선스를 제공하고 있습니다. 
-
-E1 라이선스로 사용할 수 있는 기능을 알아보려면 [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software)을 참조하세요.
-
-[Teams로 원격 작업자를 지원](support-remote-work-with-teams.md)하기 위한 모든 지침을 놓치지 마세요.
-
-## <a name="how-to-get-an-e1-trial-license"></a>E1 평가판 라이선스를 얻는 방법
-
-Microsoft 계정 담당자에게 문의하세요. E1 평가판에 등록하는 데 사용할 수 있는 프로모션 코드가 제공됩니다. 
-
-조직이 Microsoft 파트너의 서비스를 받는 경우 파트너와 협의하여 Teams 6개월 무료 평가판을 받으세요. 아직 Microsoft 파트너가 없으나 협력하기를 원하면 [Microsoft 솔루션 공급자](https://www.microsoft.com/solution-providers/home)로 가서 Teams에 대한 전문 지식을 지닌 파트너를 검색하세요.
+2020년 7월 1일부터 Office 365 E1 평가판 라이선스를 더 이상 사용할 수 없습니다. 사용자에게 Microsoft Teams의 라이선스를 설정해야 하는 경우 Teams를 포함한 유료 구독 목록의 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요. 또는 적격 조직의 경우 **[무료 버전의 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 를 사용하거나 직원들이 **[Teams 예비](teams-exploratory.md)** 환경을 활성화할 수 있습니다.
 
 
-## <a name="how-to-sign-up-for-e1"></a>E1 가입 방법
+교육용 Teams 고객이라면 무료 [Office 365 A1 라이선스](teams-edu-licensing.md)를 확인하세요.
 
-계정 담당자가 발송할 이메일에서 프로모션 코드를 클릭하세요. 
+이 문서의 안내에 따라 [유료 구독으로 업그레이드](#upgrade-users-from-the-office-365-e1-trial-license)를 포함하여 기존 Office 365 E1 평가판 라이선스를 관리합니다.
 
-
-## <a name="whos-eligible"></a>사용 자격이 있는 사용자
-
-이 서비스는 Microsoft 계정 담당자가 관리하는 모든 고객을 위한 것입니다. 과거에 다른 Office 365 E1 평가판을 활성화하지 않은 조직(비영리 포함)을 위한 것입니다. 
-
-E1 평가판 프로모션 코드를 사용한 후에는 이 코드를 다시 사용할 수 없으며 다른 E1 평가판 코드를 활성화 할 수 없습니다. 이 경우 직원이 [Teams 예비 라이선스](teams-exploratory.md)를 활성화하도록 할 수 있습니다.
-
-## <a name="who-isnt-eligible"></a>사용 자격이 없는 사용자
-
-- 이 서비스는 GCC, GCC High, DoD 또는 EDU 고객에게는 제공되지 않습니다. 
-
-- GCC의 경우 [Office 365 G1 평가판](g1-trial-license.md)를 확인하세요. 
-
-- EDU 고객은 무료 Office 365 A1 라이선스를 사용해야 합니다.
+[Teams로 원격 작업자 지원](support-remote-work-with-teams.md)을 위한 모든 Microsoft 지침을 놓치지 마세요.
 
 ## <a name="manage-the-e1-trial"></a>E1 평가판 관리
 
