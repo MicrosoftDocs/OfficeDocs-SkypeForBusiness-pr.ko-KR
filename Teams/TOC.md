@@ -259,6 +259,7 @@
 ### [통화 공유 및 그룹 전화 받기](call-sharing-and-group-call-pickup.md)
 ### [통화 정책](teams-calling-policy.md)
 ### [회선 공유 기능](shared-line-appearance.md)
+### [다이얼 패드 구성](dial-pad-configuration.md)
 
 
 ## 통화 플랜
@@ -780,6 +781,7 @@
 
 ## 지원되는 장치
 ### [Teams에서 디바이스 관리](devices/device-management.md)
+### [원격으로 장치 업데이트](devices/remote-update.md)
 ### [Teams용 전화](devices/phones-for-teams.md)
 ### [USB 오디오 및 비디오 디바이스](devices/usb-devices.md)
 ### [Microsoft Teams용 공동 작업 모음 배포](devices/collab-bar-deploy.md)
@@ -790,8 +792,10 @@
 
 ## Teams PowerShell
 ### [개요](teams-powershell-overview.md)
+### [Teams PowerShell 설치](teams-powershell-install.md)
+### [Teams PowerShell을 사용하여 Teams 관리](teams-powershell-managing-teams.md)
+### [Teams PowerShell 릴리스 노트](teams-powershell-release-notes.md)
 ### [Teams용 Cmdlet 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [Teams PowerShell 모듈의 시험판 버전 설치](install-prerelease-teams-powershell-module.md)
 
 ## [Teams용 개발자 문서](https://docs.microsoft.com/microsoftteams/platform)
 ## [Teams에서 도움말 보기](get-help-in-microsoft-teams.md)
