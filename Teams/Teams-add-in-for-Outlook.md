@@ -18,12 +18,11 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: MT
+ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689814"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049415"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -133,6 +132,10 @@ Teams 모임 추가 기능은 아직 기능적으로 빌드하는 중이므로 �
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Windows 용 Outlook의 팀 모임 추가 기능이 표시 되지 않음
 
 Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문제 해결 단계를 시도해보세요.
+
+[Microsoft 지원 복구 도우미](https://aka.ms/SaRA_Home) 를 [다운로드](https://aka.ms/SaRA-TeamsAddInScenario) 하 여 실행 하 여 자동화 된 문제 해결 단계 및 수정을 수행 합니다.
+
+또는 다음 단계를 수동으로 수행 합니다.
 
 - Windows 7 사용자는 팀 모임 추가 기능을 사용 하기 위해 [windows에서 유니버설 C 런타임에 대 한 업데이트](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) 를 설치 해야 합니다.
 - 팀에서 모임을 예약할 수 있도록 사용자에 게 팀 업그레이드 정책이 있는지 확인 합니다. 자세한 내용은 비즈니스용 [Skype에서 팀으로 업그레이드를](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) 참조 하세요.

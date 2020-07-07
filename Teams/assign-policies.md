@@ -18,20 +18,16 @@ description: Microsoft 팀에서 사용자에 게 정책을 할당 하는 다양
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: c7522bc4bffeafeef4d194f5e4ad24ec9648a91a
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
-ms.translationtype: MT
+ms.openlocfilehash: 161a979578f24b351c93e870a562e6c4104b52d0
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021756"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049445"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
 
 > [!NOTE]
-> **이 문서에서 설명 하는 기능 중 하나에 대 한 다음에는 그룹에 대 한 정책 할당을 참고**하세요. 
-> - [Microsoft 팀 관리 센터를 사용 하는 그룹에 대 한 정책 할당은](#using-the-microsoft-teams-admin-center-3)아직 해제 되지 않았습니다. 발표 되었으며 곧 제공 될 예정입니다. 
-> - [PowerShell을 사용 하는 그룹에 대 한 정책 할당](#using-powershell-3)은 현재 비공개 미리 보기 에서만 사용할 수 있습니다. 이 기능에 대 한 cmdlet은 팀 PowerShell 공용 미리 보기 모듈에 있습니다.
->
+> 이 문서에서 설명 하는 기능 중에는 [Microsoft 팀 관리 센터를 사용 하는 그룹에 대 한 정책 할당이](#using-the-microsoft-teams-admin-center-3)아직 해제 되지 않았습니다. 발표 되었으며 곧 제공 될 예정입니다.
 > 이 기능의 릴리스 상태를 유지 하려면 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)확인 하세요.
 
 관리자는 정책을 사용 하 여 조직의 사용자가 사용할 수 있는 팀 기능을 제어 합니다. 예를 들어, 전화 정책, 모임 정책, 메시지 정책이 몇 가지 이름으로 사용할 수 있습니다.
@@ -73,7 +69,7 @@ ms.locfileid: "45021756"
 |[개인 사용자에 게 정책 할당](#assign-a-policy-to-individual-users)    | 팀을 처음 사용할 때 시작 하는 것이 든, 소수의 사용자에 게 하나 또는 두 가지 정책만 할당 하면 됩니다. |비즈니스용 Skype Online PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet
 | [정책 패키지 할당](#assign-a-policy-package)   | 조직에서 역할이 같거나 비슷한 특정 사용자 집합에 여러 정책을 할당 해야 합니다. 예를 들어 학교에서 교사에 게 교육 (교사) 정책 패키지를 할당 하 여 채팅, 통화, 모임, 교육 (보조 학생) 정책 패키지에 대 한 모든 액세스 권한을 보조 학생이 비공개 통화와 같은 특정 기능을 제한할 수 있습니다.  |팀 PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet|
 |[사용자 일괄 처리에 정책 할당](#assign-a-policy-to-a-batch-of-users)   | 대규모 사용자 집합에 정책을 할당 해야 합니다. 예를 들어 조직에서 한 번에 수백 명 또는 수천 명의 사용자에 게 정책을 할당 하려고 합니다.  |팀 PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet|
-|[그룹에 정책 할당](#assign-a-policy-to-a-group) (미리 보기/출시 예정)|사용자의 그룹 구성원 자격을 기준으로 정책을 할당 해야 합니다. 예를 들어 보안 그룹 또는 조직 구성 단위의 모든 사용자에 게 정책을 할당 하려고 합니다.| Microsoft 팀 관리 센터 (곧 출시) 또는 팀 PowerShell 모듈 (미리 보기)의 PowerShell cmdlet|
+|[그룹에 정책 할당](#assign-a-policy-to-a-group) |사용자의 그룹 구성원 자격을 기준으로 정책을 할당 해야 합니다. 예를 들어 보안 그룹 또는 조직 구성 단위의 모든 사용자에 게 정책을 할당 하려고 합니다.| 팀 PowerShell 모듈의 Microsoft 팀 관리 센터 (곧 출시 예정) 또는 PowerShell cmdlet|
 | [사용자 일괄 처리에 정책 패키지 할당](#assign-a-policy-package-to-a-batch-of-users)|조직이 동일 하거나 비슷한 역할을 하는 조직의 사용자 일괄 처리에 여러 정책을 할당 해야 합니다. 예를 들어, 교육 (교사) 정책 패키지를 일괄 처리를 사용 하 여 모든 교사에 게 배정 하 고, 채팅, 통화, 모임에 대 한 전체 액세스 권한을 부여 하 고, 교육 (보조 학생) 정책 패키지를 보조 학생의 일괄 처리에 할당 하 여 비공개 통화와 같은 특정 기능을 제한할 수 있습니다.|팀 PowerShell 모듈의 PowerShell cmdlet|
 | 그룹에 정책 패키지 할당 (예정 대로)   | ||
 
@@ -315,14 +311,12 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-**이 기능은 현재 비공개 미리 보기 에서만 사용할 수 있습니다. 이 기능에 대 한 cmdlet은 팀 PowerShell 공용 미리 보기 모듈에 있습니다.**
-
 > [!NOTE]
 > 현재 모든 팀 정책 유형에는 PowerShell을 사용 하는 그룹에 대 한 정책 할당을 사용할 수 없습니다. 지원 되는 정책 유형 목록에 대 한 [새 CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 을 참조 하세요.
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft 팀 PowerShell 모듈을 설치 하 고 연결 합니다.
 
-이러한 cmdlet은 팀 PowerShell 공용 미리 보기 모듈의 일부입니다. 단계별 지침은 [설치 팀 PowerShell](teams-powershell-install.md)을 참조 하세요.
+단계별 지침은 [팀 PowerShell 설치](teams-powershell-install.md)를 참조 하세요.
 
 #### <a name="assign-a-policy-to-a-group"></a>그룹에 정책 할당
 
@@ -385,6 +379,9 @@ Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-
 
 #### <a name="change-a-policy-assignment-for-a-group"></a>그룹에 대 한 정책 할당 변경
 
+> [!NOTE]
+> ```Set-CsGroupPolicyAssignment```Cmdlet은 곧 제공 될 예정입니다. 그 동안 그룹 정책 할당을 변경 하려면 그룹에서 현재 정책 할당을 제거한 다음 새 정책 할당을 추가 하면 됩니다.
+
 그룹에 정책을 할당 한 후 cmdlet을 사용 ```Set-CsGroupPolicyAssignment``` 하 여 다음과 같이 해당 그룹의 정책 할당을 변경할 수 있습니다.
 
 - 순위 변경
@@ -398,6 +395,8 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 ```
 
 자세한 내용은 [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment)을 참조 하세요.
+
+
 
 #### <a name="change-the-effective-policy-for-a-user"></a>사용자에 대 한 유효 정책 변경
 

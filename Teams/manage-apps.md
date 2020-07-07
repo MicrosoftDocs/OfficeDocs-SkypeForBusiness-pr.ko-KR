@@ -17,12 +17,11 @@ description: Microsoft 팀 관리 센터의 앱 관리 페이지에서 팀 앱�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 7884aa033d3d137ac36fe86a47a2861732b50bb5
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
-ms.translationtype: MT
+ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028094"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042930"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 앱 관리
 ======================================================
@@ -77,6 +76,9 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**으로  >  **�
 
 조직 전체 앱 설정을 사용 하 여 사용자가 타사 앱을 설치할 수 있는지 여부와 사용자가 조직의 사용자 지정 앱을 업로드 하거나 대화형 작업을 할 수 있습니다. 조직 전체 앱 설정은 모든 사용자의 동작을 제어 하 고 사용자에 게 할당 된 다른 앱 사용 권한 정책을 재정의 합니다. 이를 사용 하 여 악의적 이거나 문제가 있는 앱을 제어할 수 있습니다.
 
+> [!NOTE]
+> Microsoft 365 정부 GCC 팀 배포에서 **앱 관리** 페이지를 아직 사용할 수 없습니다.  조직 전체 앱 설정을 사용 하 여 타사 앱을 사용 하거나 사용 하지 않도록 설정 하는 방법을 알아보려면 [팀에서 앱 권한 정책 관리](teams-app-permission-policies.md)를 참조 하세요.
+
 1. **앱 관리** 페이지에서 **조직 전체 앱 설정을**선택 합니다. 그런 다음 패널에서 원하는 설정을 구성할 수 있습니다.
 
     ![조직 전체 앱 설정 스크린샷](media/manage-apps-org-wide-app-settings.png)
@@ -84,9 +86,6 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**으로  >  **�
 2. 타사 앱에 대 한 액세스를 제어 하기 위해이 설정을 설정 하거나 **해제 합니다.**
 
     - 타사 **앱 허용**:이는 사용자가 타사 앱을 사용할 수 있는지 여부를 제어 합니다. 이 설정을 해제 하면 사용자가 타사 앱을 설치 하거나 사용할 수 없게 되며 이러한 앱의 앱 상태는 테이블에서 **조직 전체로 차단** 된 것으로 표시 됩니다.
-
-        > [!NOTE]
-        > 팀의 Microsoft 365 정부-GCC 배포에서는 **타사 앱 허용** 설정이 기본적으로 해제 되어 있습니다.
 
         타사 **앱 허용** 이 해제 된 경우 [보내는 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) 를 사용할 수 없으며,이는 사용자가 만들 수 없음을 의미 합니다. 이 설정을 사용 하면 사용자의 앱 권한 정책에서 설정이 설정 되어 있는지 여부에 관계 없이 모든 사용자가 보내는 webhooks를 사용할 수 있습니다.
     - **기본적으로 저장소에 게시 된 새 타사 앱 허용**: 팀 앱 스토어에 게시 되는 새로운 타사 앱을 팀에서 자동으로 사용할 수 있는지 여부를 제어 합니다. 타사 앱을 허용 하는 경우에만이 옵션을 설정할 수 있습니다.

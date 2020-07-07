@@ -15,12 +15,11 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
-ms.translationtype: MT
+ms.openlocfilehash: 4084074d9dec08b2c254d1678fde51d0a26adfaa
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816629"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042880"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft 팀에서 이벤트 감사 로그 검색
 
@@ -41,7 +40,7 @@ ms.locfileid: "44816629"
 
 ## <a name="turn-on-auditing-in-teams"></a>팀에서 감사 설정
 
-감사 데이터를 보려면 먼저 [보안 & 준수 센터](https://protection.office.com)에서 감사를 설정 해야 합니다. 감사 설정에 대 한 도움말은 [감사 로그 검색 설정 또는 해제](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)를 참조 하세요.
+감사 데이터를 보려면 먼저 [보안 & 준수 센터](https://protection.office.com)에서 감사를 설정 해야 합니다. 감사를 설정 하는 방법에 대 한 도움말은 [감사 로그 검색 설정 또는 해제](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)를 참조 하세요.
 
 > [!IMPORTANT]
 > 감사 데이터는 감사를 설정한 지점 에서만 사용할 수 있습니다.
@@ -103,7 +102,7 @@ ms.locfileid: "44816629"
 
 ![대량 삭제에 의해 트리거되는 이벤트 목록의 스크린샷](media/TeamsMassDeleteList.png)
 
-설정한 정책에 맞게 필터링 하 여 해당 정책의 결과를 볼 수 있습니다. 활동 로그에서 발생 하는 결과가 만족 스 럽 지 않은 경우 (결과가 많은 경우 또는 아무것도 표시 되지 않는 경우)에는 필요한 사항에 맞게 쿼리를 세부적으로 조정 하는 데 도움이 될 수 있습니다.
+설정한 정책에 맞게 필터링 하 여 해당 정책의 결과를 볼 수 있습니다. 활동 로그에서 발생 하는 결과가 만족 스 럽 지 않으면 (결과가 많은 경우 또는 아무것도 표시 되지 않을 수 있음), 필요한 항목에 더 적합 하도록 쿼리를 세부적으로 조정 하는 데 도움이 될 수도 있습니다.
 
 ### <a name="alert-and-governance-scenario"></a>알림 및 관리 시나리오
 
@@ -115,7 +114,7 @@ ms.locfileid: "44816629"
 
 클라우드 앱 보안의 [변칙 검색 정책은](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) 클라우드 환경에서 고급 위협 감지를 즉시 실행할 수 있도록 최신 사용자 및 엔터티 동작 분석 (UEBA) 및 ML (시스템 학습)을 제공 합니다. 새로운 변칙 검색 정책은 사용자와 네트워크에 연결 된 컴퓨터 및 장치에 대 한 다양 한 동작을 대상으로 하 여 즉각적인 감지를 제공 함으로써 즉각적인 결과를 제공 합니다. 또한 새로운 정책은 클라우드 앱 보안 검색 엔진의 추가 데이터를 제공 하 여 조사 프로세스의 속도를 개선 하 고 진행 중인 위협을 포함할 수 있도록 지원 합니다.
 
-팀 이벤트를 변칙 검색 정책에 통합 하는 작업을 진행 하 고 있습니다. 지금은 다른 Office 제품에 대 한 변칙 검색 정책을 설정 하 고 해당 정책과 일치 하는 사용자에 게 작업 항목을 받을 수 있습니다.
+팀 이벤트를 변칙 검색 정책에 통합 하는 작업을 진행 하 고 있습니다. 현재로 서는 다른 Office 제품에 대 한 변칙 검색 정책을 설정 하 고 해당 정책과 일치 하는 사용자에 게 작업 항목을 찍을 수 있습니다.
 
 ## <a name="teams-activities"></a>팀 활동
 
@@ -138,6 +137,7 @@ Microsoft 365 감사 로그에서 팀의 사용자 및 관리자 활동에 대�
 |채널 삭제 됨     |ChannelDeleted         |사용자가 팀에서 채널을 삭제 합니다.         |
 |삭제 된 팀  |팀 삭제            |팀 소유자가 팀을 삭제 합니다.      |
 |설치 된 앱 |AppInstalled 됨         |앱이 설치 되었습니다.   |
+|카드에서 수행 되는 작업|PerformedCardAction|사용자가 채팅 내의 적응 카드에 대 한 조치를 취했습니다. 적응 카드는 일반적으로 인공으로 다양 한 정보와 조작 된 채팅을 가능 하 게 하기 위해 봇에서 사용 합니다. <br/><br/>**참고:** 채팅 내부의 적응 카드에 대 한 인라인 입력 동작만 감사 로그에서 사용할 수 있게 됩니다. 예를 들어 설문 봇에서 생성 된 적응 카드의 채널 대화에서 사용자가 폴링 응답을 제출 하는 경우입니다. 대화 상자를 여는 "결과 보기"와 같은 사용자 작업은 감사 로그에서 사용할 수 없습니다.|
 |게시 된 앱 |AppPublishedToCatalog           |앱이 카탈로그에 추가 되었습니다.     |
 |팀에서 인공 지능 제거   |BotRemovedFromTeam         |사용자가 팀에서 인공 지능을 제거 합니다.       |
 |연결선 제거 됨     |제거 됨         |사용자가 채널에서 커넥터를 제거 합니다.         |
