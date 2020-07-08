@@ -17,12 +17,11 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91f41893f572465d2e51b66a56737f10f0f88fc0
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: HT
+ms.openlocfilehash: b582ea0b08b8748a6636440cc8ea3ec2f4296753
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691494"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028124"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -32,7 +31,7 @@ ms.locfileid: "44691494"
 
 ## <a name="it-admin-guidance"></a>IT 관리자 가이드
 
-- 모든 사용자가 무료 6개월**[Office 365 E1 제공](e1-trial-license.md)** 을 사용하여 평가판을 보유하거나**[Teams의 프리미엄 버전](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 에 액세스하여 Team에 액세스할 수 있도록 합니다. 도움이 필요한 경우 Microsoft 계정 팀 또는 파트너에게 연락하세요.
+- 모든 사용자가 [Teams를 포함한 유료 구독](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 통해 Teams에 액세스할 수 있는지 확인합니다. 또는 적격 조직의 경우 **[무료 버전의 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 를 사용하거나 직원들이 **[Teams 예비](teams-exploratory.md)** 환경을 활성화할 수 있습니다.
 
 -  Teams를 포함하는 구독이 이미 있는 경우에는 **모든 사용자를 위해 켭니다.[](user-access.md)**.
     
@@ -82,8 +81,6 @@ ms.locfileid: "44691494"
    - 교육 기관에서 일하고 Teams에 교사, 학생 및 관리자를 설정하려면 Office 365 A1을 사용하세요. 이 무료 버전의 Office 365는 모든 교육 기관에서 사용할 수 있습니다. [전체 학교에서 무료로 Office 365 사용](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)에서 가입하세요.
 
    - [Teams에서 원격 학습 시작하기](remote-learning-edu.md)를 놓치지 마세요.
-
-2. [Office 365 E1 평가판](e1-trial-license.md) 및 [무료 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)외에도 무료 Teams 라이선스가 필요한 경우 [Teams Exploratory](teams-exploratory.md)가 선택 사항이될 수 있습니다.
 
 1. 직원들이 Teams에 적합한 인터넷 액세스와 대역폭을 보유하고 있는지 확인합니다. [Teams에 대한 조직의 네트워크 준비](prepare-network.md)의 지침을 사용하여 이 작업을 수행하는 방법을 알아보세요.
 

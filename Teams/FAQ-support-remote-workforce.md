@@ -16,12 +16,11 @@ search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
-ms.translationtype: HT
+ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637907"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028114"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
@@ -77,10 +76,7 @@ Teams는 다음 두 가지 프로그램을 통해 무료로 사용할 수 있습
 
 **IT 전문가**
 
-- 기업에서 일하고 직원들이 Teams에서 설정하도록 하려면 Microsoft 파트너 또는 영업 담당자를 통해 6개월 간 [Office 365 E1 평가판](e1-trial-license.md) 서비스에 가입할 수 있습니다.
-
-> [!NOTE]
-> GCC High와 국방부를 제외하고 [미국 정부 클라우드](g1-trial-license.md)에서도 동일한 Teams 서비스가 제공됩니다.
+- 비즈니스에 속해있고 Teams에 직원을 설정하려는 경우 [Teams 예비](teams-exploratory.md)에 등록할 수 있습니다.
 
 - 교육 기관에서 일하고 팀에 교사, 학생 및 관리자를 설정하려면 교육 기관에서 사용할 수있는 무료 버전의 Office 365인 Office 365 A1을 사용하세요. [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)에서 가입하세요.
 

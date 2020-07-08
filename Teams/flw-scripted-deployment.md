@@ -18,12 +18,11 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
-ms.translationtype: HT
+ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638387"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028174"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>일선 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -50,7 +49,7 @@ ms.locfileid: "44638387"
 
 ## <a name="technical-requirements"></a>기술 요구 사항
 
-- 테넌트에는 Microsoft Teams를 포함하여 사용 가능한 적절한 수의 라이센스가 있어야 합니다. 아직 이러한 라이선스가 없는 경우 여기에 나와 있는 지침에 따라 [Office 365 E1 무료 평가판](e1-trial-license.md)을 활성화합니다.
+- 테넌트에는 Microsoft Teams를 포함하여 사용 가능한 적절한 수의 라이센스가 있어야 합니다. 아직 이러한 라이선스가 없는 경우 무료 평가판 구독에 대한 [Teams 예비](teams-exploratory.md)를 확인합니다.
 - 이러한 단계를 수행하는 사용자는 Azure AD에서 전역 관리자, 사용자 관리자 및 Teams 서비스 관리자와 같은 역할이 할당되어야 합니다.
 - 사용자는 로컬 컴퓨터에 소프트웨어를 설치하고 구성할 수 있는 권한이 있어야 합니다.
 
