@@ -658,6 +658,7 @@
 ### [일선 직원용 빠른 시작](firstline-workers-quickstart.yml)
 ### [일선 직원 스크립팅된 배포](flw-scripted-deployment.md)
 ### [Microsoft Teams용 RealWear](flw-realwear.md)
+### [Walkie Talkie](walkie-talkie.md)
 ### [SPO 사이트 또는 페이지에서 Teams 인트라넷 포털 앱 만들기](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [소매용 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
