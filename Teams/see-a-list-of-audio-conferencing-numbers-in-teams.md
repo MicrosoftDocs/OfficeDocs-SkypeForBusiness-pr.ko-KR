@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft 팀 내에서 오디오 회의에 사용할 수 있는 전화 접속 회의 번호를 찾는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d7eb7f1e1679e49f6a6e1b09009a6772cf1bc47f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c2d8850ddda3581932565e8d1dc2357c261e4e15
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691184"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077663"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft 팀의 오디오 회의 번호 목록 보기
 
@@ -38,9 +38,6 @@ Microsoft 팀 사용자를 위해 오디오 회의를 설정할 때 오디오 �
 조직에서 사용할 수 있는 전화 번호가 하나뿐인 경우 모든 사용자의 기본 번호로 사용 됩니다. 여러 개의 전화 번호를 사용할 수 있는 경우 각 사용자의 기본 전화 번호를 선택할 수 있습니다. 이 기본 번호는 Microsoft 팀 모임 초대에 포함 됩니다.
   
 [초대에 포함 된 전화 번호를 설정](set-the-phone-numbers-included-on-invites-in-teams.md) 하 여 단일 사용자의 전화 접속 전화 번호를 변경 하는 방법을 알아봅니다.
-  
-> [!NOTE]
-> 국내 전화 접속 번호는 조직 전용 이므로 기본 전화 번호로 설정할 수 있습니다. 그러나 국제 전화 접속 번호는 여러 조직에서 공유 될 수 있습니다. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

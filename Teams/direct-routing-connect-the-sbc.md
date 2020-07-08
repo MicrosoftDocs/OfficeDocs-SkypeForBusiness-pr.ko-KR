@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC를 전화 시스템 다이렉트 라우팅에 구성 하 고 연결 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691264"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077623"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>직접 라우팅에 SBC (세션 경계 컨트롤러) 연결
 
@@ -40,7 +40,7 @@ ms.locfileid: "44691264"
 
 1. 왼쪽 탐색 창에서 **음성**  >  **다이렉트 라우팅으로**이동한 다음 **SBCs** 탭을 클릭 합니다.
 2. **추가**를 클릭 합니다.
-3. SBC에 대 한 FQDN을 입력 합니다. <br><br>FQDN의 도메인 이름 부분이 테 넌 트에 등록 된 도메인과 일치 하는지 확인 하 고, `*.onmicrosoft.com` SBC FQDN 도메인 이름에 대 한 도메인 이름이 지원 되지 않는다는 점에 유의 하세요. 예를 들어 두 개의 도메인 이름이 `contoso.com` 있고 `contoso.on.microsoft.com` `sbc.contoso.com` SBC 이름으로 사용 합니다.
+3. SBC에 대 한 FQDN을 입력 합니다. <br><br>FQDN의 도메인 이름 부분이 테 넌 트에 등록 된 도메인과 일치 하는지 확인 하 고, `*.onmicrosoft.com` SBC FQDN 도메인 이름에 대 한 도메인 이름이 지원 되지 않는다는 점에 유의 하세요. 예를 들어 두 개의 도메인 이름이 `contoso.com` 있고 `contoso.onmicrosoft.com` `sbc.contoso.com` SBC 이름으로 사용 합니다.
 4. 조직의 요구 사항에 따라 SBC에 대해 다음 설정을 구성 합니다. 이러한 각 설정에 대 한 자세한 내용은 [SBC 설정을](#sbc-settings)참조 하세요.
 
     ![Microsoft 팀 관리 센터의 SBC 추가 페이지 스크린샷](media/direct-routing-add-sbc.png)

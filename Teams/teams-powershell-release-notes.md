@@ -13,12 +13,12 @@ ms.collection:
 description: 팀 PowerShell의 최신 변경 사항에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cda7c9db774632317cb568a6b448b4fc04b3b5ff
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 5859aeb74e8966138b91d16e206cbd9d00cf0587
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944124"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077683"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 팀 PowerShell 릴리스 정보
 
@@ -31,7 +31,8 @@ ms.locfileid: "44944124"
 
 | 시작일 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
-| 2020 년 6 월 | [1.1.0-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.0-preview) | <li>비즈니스용 Skype Online 커넥터 통합<li>가져오기-팀 최적화<li>향상 된 안정성</li> |
+| 2020 년 7 월 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>[그룹 정책 할당 cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group) 이 추가 됨</li> |
+| 2020 년 6 월 | [1.1.3-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>비즈니스용 Skype Online 커넥터 통합<li>가져오기-팀 최적화<li>향상 된 안정성</li> |
 | 2020 년 6 월 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Cmdlet 미리 로드 추가 됨<li>.Net Framework 최적화</li>   |
 | 2020 년 4 월 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode 및 어셈블리 서명<li>CsPolicyPackage 추가 됨<li>CsUserPolicyPackage 추가 됨<li>CsUserPolicyPackageRecommendation 추가 됨<li>추가 된 권한 부여-CsUserPolicyPackage<li>새 CsBatchPolicyPackageAssignmentOperation 추가 됨<li>추가 된 Set-TeamArchivedState<li>부가 집합-팀 사진<li>제거 된 가져오기-팀 도움말</li>  |
 | 2020 년 3 월 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>새 CsBatchPolicyAssignmentOperation 추가 됨</li> |
@@ -50,7 +51,7 @@ ms.locfileid: "44944124"
 | [연결-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) | 예 | 예 |
 | [연결 해제-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | 예 | 예 |
 | [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | 예 | 예 |
-| [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | 예 | **아니요** |
+| [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | 예 | 예 |
 | [Get-CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | 예 | **아니요** |
 | [Get-CsPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-cspolicypackage?view=teams-ps) | 예 | 예 |
 | [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | 예 | 예 |
@@ -64,13 +65,13 @@ ms.locfileid: "44944124"
 | [Get-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/get-teamsappinstallation?view=teams-ps) | 예 | 예 |
 | [부여-CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/grant-csuserpolicypackage?view=teams-ps) | 예 | 예 |
 | [새로운 CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | 예 | 예 |
-| [새-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | 예 | **아니요** |
+| [새-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | 예 | 예 |
 | [새로운 CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | 예 | 예 |
 | [새로운 CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | 예 | **아니요** |
 | [신규-팀](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | 예 | 예 |
 | [새 팀 채널](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | 예 | 예 |
 | [새 팀 앱](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | 예 | 예 |
-| [-CsGroupPolicyAssignment 제거](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | 예 | **아니요** |
+| [-CsGroupPolicyAssignment 제거](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | 예 | 예 |
 | [팀 제거](https://docs.microsoft.com/powershell/module/teams/remove-team?view=teams-ps) | 예 | 예 |
 | [팀 제거 채널](https://docs.microsoft.com/powershell/module/teams/remove-teamchannel?view=teams-ps) | 예 | 예 |
 | [-TeamChannelUser 제거](https://docs.microsoft.com/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | 예 | 예 |
@@ -78,7 +79,7 @@ ms.locfileid: "44944124"
 | [제거-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/remove-teamsappinstallation?view=teams-ps) | 예 | **아니요** |
 | [제거-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/remove-teamtargetinghierarchy?view=teams-ps) | 예 | **아니요**|
 | [-팀 사용자 제거](https://docs.microsoft.com/powershell/module/teams/remove-teamuser?view=teams-ps) | 예 | 예 |
-| [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | 예 | **아니요** |
+| [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | 예 | 예 |
 | [집합-팀](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps) | 예 | 예 |
 | [Set-TeamArchivedState](https://docs.microsoft.com/powershell/module/teams/set-teamarchivedstate?view=teams-ps) | 예 | 예 |
 | [TeamChannel](https://docs.microsoft.com/powershell/module/teams/set-teamchannel?view=teams-ps) | 예 | 예 |

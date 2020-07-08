@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 클라우드 자동 전화 교환 및이를 사용 하 여 호출자가 사용자 또는 부서에 전화를 걸고 배치 하거나 전송 하기 위해 메뉴 시스템에서 이동할 수 있도록 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 590d2282faa4642cbd23c195e6a2e9e327803993
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665190"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077643"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>클라우드 자동 전화 교환이란?
 
@@ -71,8 +71,9 @@ ms.locfileid: "44665190"
     > [!IMPORTANT]
     > 사용자 (구독자) 전화 번호를 자동 전화 교환에 할당할 수 없음-서비스 유료 또는 무료 전화 번호를 사용할 수 있습니다.
 
-- 완전 한 자동 전화 교환 시스템에는 일반적으로 여러 자동 전화 교환이 수반 되며, 최상위 또는 항목 자동 전화 교환에 대해 할당 된 전화 번호를 하나만 필요할 수 있습니다. 전체 시스템의 다른 자동 전화 교환 또는 통화 대기열은 시스템에 여러 항목을 입력 하는 경우에만 전화 번호를 필요로 합니다.
-- 여러 리소스 계정을 자동 전화 교환에 연결 하 여 두 개 이상의 전화 번호를 자동 전화 교환에 적용할 수 있습니다.
+- 완전 한 자동 전화 교환 시스템에는 일반적으로 여러 자동 전화 교환이 수반 됩니다.
+- 입력 수준의 자동 전화 교환에 두 개 이상의 전화 번호를 적용할 수 있습니다.
+- 시작 되지 않은 수준의 자동 전화 교환 또는 통화 대기열은 아웃 바운드 PSTN 통화를 하는 경우에만 전화 번호를 필요로 합니다.
   
 ## <a name="feature-overview"></a>기능 개요
 

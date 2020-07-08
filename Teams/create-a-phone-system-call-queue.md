@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 보관, 착신 전환, 기타 기능을 제공 하는 Microsoft 팀을 사용 하 여 클라우드 통화 큐 용 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697427"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077720"
 ---
 # <a name="create-a-cloud-call-queue"></a>클라우드 통화 큐 만들기
 
@@ -69,7 +69,7 @@ ms.locfileid: "44697427"
   > 통화 대기열에 대 한 직접 라우팅 서비스 번호는 Microsoft 팀 사용자 및 상담원만 지원 합니다.
 
 > [!NOTE]
-> 온라인 상태에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하 고 Enterprise Voice를 사용 하도록 설정 하거나 Microsoft 365 또는 Office 365 통화 요금제가 필요 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> 온라인 상태에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하 고 Enterprise Voice를 사용 하도록 설정 하거나 Microsoft 365 또는 Office 365 통화 요금제가 필요 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 ' Set-CsUser-id "Amos 대리석"-EnterpriseVoiceEnabled $true를 실행 합니다.
 
 - 통화 요금제에 대 한 자세한 내용은 [Microsoft 365 또는 Office 365에 대 한](calling-plans-for-office-365.md) [전화 시스템 및 통화 요금제](calling-plan-landing-page.md) 및 통화 요금제를 참조 하세요.
 
@@ -174,11 +174,11 @@ ms.locfileid: "44697427"
 - 온-프레미스 비즈니스용 Skype 서버 사용자
 
   > [!NOTE]
-  > 이는 온라인 상태인 조직의 사용자에 게 전화를 리디렉션하는 경우에도 적용 됩니다. 이러한 개인에 게는 **전화 시스템** 라이선스와 Enterprise Voice가 설정 되어 *있거나* 통화 요금제가 있어야 합니다. 자세한 내용은 [비즈니스용 Skype 라이선스 할당](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Microsoft 팀 라이선스 할당](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)또는 [사용자에 게 적합 한 통화 계획](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) 을 참조 하세요.
+  > 이는 온라인 상태인 조직의 사용자에 게 전화를 리디렉션하는 경우에도 적용 됩니다. 이러한 개인에 게는 전화 시스템 라이선스와 Enterprise Voice가 설정 되어 *있거나* 통화 요금제가 있어야 합니다. 자세한 내용은 [비즈니스용 Skype 라이선스 할당](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Microsoft 팀 라이선스 할당](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)또는 [사용자에 게 적합 한 통화 계획](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) 을 참조 하세요.
 
    엔터프라이즈 음성에 대 한 에이전트를 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- **전화 시스템** 라이선스 또는 Microsoft 365 그룹, 메일 사용이 가능한 배포 목록 또는 보안 그룹에 추가 되는 통화 요금제를 사용 하는 사용자 배포 목록 또는 보안 그룹의 에이전트를 통화 대기열 에이전트로 추가 하는 경우 첫 번째 통화가 도착 하는 데 최대 3 시간까지 걸릴 수 있습니다. 새로 만든 메일 그룹 또는 보안 그룹이 통화 큐와 함께 사용할 수 있게 되는 데 최대 48 시간이 걸릴 수 있습니다. 새로 만든 Microsoft 365 그룹은 거의 즉시 사용할 수 있습니다.
+- 전화 시스템 라이선스 또는 Microsoft 365 그룹, 메일 사용이 가능한 배포 목록 또는 보안 그룹에 추가 되는 통화 요금제를 사용 하는 사용자 배포 목록 또는 보안 그룹의 에이전트를 통화 대기열 에이전트로 추가 하는 경우 첫 번째 통화가 도착 하는 데 최대 3 시간까지 걸릴 수 있습니다. 새로 만든 메일 그룹 또는 보안 그룹이 통화 큐와 함께 사용할 수 있게 되는 데 최대 48 시간이 걸릴 수 있습니다. 새로 만든 Microsoft 365 그룹은 거의 즉시 사용할 수 있습니다.
 
 - 상담원은 통화 대기열 통화를 위해 Microsoft 팀 앱을 사용 하 고 있는 경우에는 TeamsOnly 모드에 있어야 합니다.
 
@@ -274,11 +274,23 @@ ms.locfileid: "44697427"
 - **연결 해제** 통화가 끊겼습니다.
 - **리디렉션 대상** 이를 선택 하는 경우 다음 중 하나를 선택 합니다.
 
-  - **조직의 사용자** **전화 시스템** 라이선스가 있는 온라인 사용자 이며 엔터프라이즈 음성 또는 통화 요금제를 사용할 수 있습니다. 전화를 음성 메일로 보낼 수 있도록 설정할 수 있습니다. 이렇게 하려면 조직에서 사용자를 선택 하 고이 사용자가 전화를 음성 메일로 바로 착신 전환 하도록 설정 합니다.
+  - **조직의 사용자** 전화 시스템 라이선스가 있는 온라인 사용자 이며 엔터프라이즈 음성 또는 통화 요금제를 사용할 수 있습니다. 전화를 음성 메일로 보낼 수 있도록 설정할 수 있습니다. 이렇게 하려면 조직에서 사용자를 선택 하 고이 사용자가 전화를 음성 메일로 바로 착신 전환 하도록 설정 합니다.
 
   보이스 메일에 필요한 라이선스에 대해 알아보려면 [클라우드 보이스 메일 설정을](set-up-phone-system-voicemail.md)참조 하세요.
 
   - **음성 앱** 이미 생성 된 통화 대기열 또는 자동 전화 교환에 연결 된 리소스 계정의 이름을 선택 합니다.
+
+  - **외부 전화 번호** 지정 된 외부 전화 번호로 발신자를 전송 하려면이를 선택 합니다. 다음 사항에 유의 하세요.
+
+    - PSTN을 전송 하는 응용 프로그램에 연결 된 리소스 계정은 전화 번호를가지고 있고 가상 전화 시스템 라이선스를 할당 받아야 합니다. 전화 시스템 라이선스가 지원 되지 않습니다. 또한 리소스 계정에는 다음 중 하나가 있어야 합니다.
+        - 통화 요금제 번호가 있는 자원 계정의 경우, [통화 요금제](calling-plans-for-office-365.md) 라이선스를 할당 합니다.
+        - 직접 라우팅 번호가 있는 리소스 계정의 경우 [온라인 음성 라우팅 정책을](manage-voice-routing-policies.md)할당 합니다.
+    - 표시 되는 아웃 바운드 전화 번호는 다음과 같이 결정 됩니다.
+        - 통화 요금제 번호의 경우 최초 발신자의 전화 번호가 표시 됩니다.
+        - 직접 라우팅 번호의 경우 전송 되는 숫자는 다음과 같이 SBC에 대 한 P-어설션된-Identity (PAI) 설정을 기반으로 합니다.
+            - 사용 안 함으로 설정 하면 최초 발신자의 전화 번호가 표시 됩니다. 이 설정이 기본값 이며 권장 되는 설정입니다.
+            - 사용으로 설정 하면 리소스 계정 전화 번호가 표시 됩니다.
+    - 통화 요금제 trunks와 다이렉트 라우팅 trunks 간에 전송이 지원 되지 않습니다.
 
 * * *
 
@@ -292,11 +304,23 @@ Timeout 값을 초 단위로 15 초 간격으로 설정할 수 있습니다. 이
 
 - **연결 해제** 통화가 끊겼습니다.
 - **착신 전환 대상:** 이 옵션을 선택 하면 다음 옵션이 표시 됩니다.
-  - **조직의 사용자** **전화 시스템** 라이선스가 있는 온라인 사용자 이며 엔터프라이즈 음성 또는 통화 요금제를 사용할 수 있습니다. 전화를 거는 사람을 음성 메일로 보낼 수 있도록 설정 하려면 조직에서 사용자를 선택 하 고 해당 사용자가 전화를 음성 메일로 바로 착신 전환 하도록 설정 합니다.
+  - **조직의 사용자** 전화 시스템 라이선스가 있는 온라인 사용자 이며 엔터프라이즈 음성 또는 통화 요금제를 사용할 수 있습니다. 전화를 거는 사람을 음성 메일로 보낼 수 있도록 설정 하려면 조직에서 사용자를 선택 하 고 해당 사용자가 전화를 음성 메일로 바로 착신 전환 하도록 설정 합니다.
 
   보이스 메일에 필요한 라이선스에 대해 알아보려면 [클라우드 보이스 메일 설정을](set-up-phone-system-voicemail.md)참조 하세요.
 
   - **음성 앱** 이미 만든 통화 대기열 또는 자동 전화 교환 중 하 나와 연결 된 리소스 계정의 이름을 선택 합니다.
+
+  - **외부 전화 번호** 지정 된 외부 전화 번호로 발신자를 전송 하려면이를 선택 합니다. 다음 사항에 유의 하세요.
+
+    - PSTN을 전송 하는 응용 프로그램에 연결 된 리소스 계정은 전화 번호를가지고 있고 가상 전화 시스템 라이선스를 할당 받아야 합니다. 전화 시스템 라이선스가 지원 되지 않습니다. 또한 리소스 계정에는 다음 중 하나가 있어야 합니다.
+        - 통화 요금제 번호가 있는 자원 계정의 경우, [통화 요금제](calling-plans-for-office-365.md) 라이선스를 할당 합니다.
+        - 직접 라우팅 번호가 있는 리소스 계정의 경우 [온라인 음성 라우팅 정책을](manage-voice-routing-policies.md)할당 합니다.
+    - 표시 되는 아웃 바운드 전화 번호는 다음과 같이 결정 됩니다.
+        - 통화 요금제 번호의 경우 최초 발신자의 전화 번호가 표시 됩니다.
+        - 직접 라우팅 번호의 경우 전송 되는 숫자는 다음과 같이 SBC에 대 한 P-어설션된-Identity (PAI) 설정을 기반으로 합니다.
+            - 사용 안 함으로 설정 하면 최초 발신자의 전화 번호가 표시 됩니다. 이 설정이 기본값 이며 권장 되는 설정입니다.
+            - 사용으로 설정 하면 리소스 계정 전화 번호가 표시 됩니다.
+    - 통화 요금제 trunks와 다이렉트 라우팅 trunks 간에 전송이 지원 되지 않습니다.
 
 ## <a name="change-caller-id-for-outbound-calls"></a>발신 전화의 발신자 ID 변경
 
