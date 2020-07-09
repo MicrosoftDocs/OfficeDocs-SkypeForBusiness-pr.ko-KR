@@ -18,11 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049415"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085244"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -175,3 +176,6 @@ Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 관리자가 [EWS(Exchange 웹 서버)에 대한 액세스 권한을 제어](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)하기 위해 Microsoft Exchange를 구성한 경우에는 대리인이 상사를 대신하여 Teams 모임을 예약할 수 없습니다. 이 구성에 대한 해결 방법은 개발 중이며 향후에 출시될 예정입니다. 이 문제를 해결 하기 위해 관리자는 EWS 허용 목록에 "*SchedulingService*" 문자열을 추가할 수 있습니다. 
 
 
+## <a name="related-topics"></a>관련 항목
+
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

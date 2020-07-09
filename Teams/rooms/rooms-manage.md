@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft 팀 대화방 시스템을 사용자가 사용할 수 있도록 하기 위해 지속적인 유지 관리 및 작업을 개발 하 고 실행 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd1b552e9a59ee36856d23478a7e414637976889
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905370"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085954"
 ---
 # <a name="management-overview"></a>관리 개요
 
@@ -42,7 +42,7 @@ Microsoft 팀 공간 응용 프로그램 및 연결 된 주변 장치 상태에 
 |**설정**|**가능**|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Microsoft 팀 회의실을 부팅할 수 있도록 설정  <br/> |
-|전원 관리-\> AC, 10 분 후 화면 끄기  <br/> 전원 관리-\> AC, 시스템을 절전 모드로 전환 안 함  <br/> |Microsoft 팀 대화방에서 연결 된 디스플레이를 끄고 자동으로 절전 모드 해제 하도록 설정  <br/> |
+|전원 관리- \> AC, 10 분 후 화면 끄기  <br/> 전원 관리- \> AC, 시스템을 절전 모드로 전환 안 함  <br/> |Microsoft 팀 대화방에서 연결 된 디스플레이를 끄고 자동으로 절전 모드 해제 하도록 설정  <br/> |
 |네트 계정/maxpwage: 무제한  <br/> 또는 동등한 방법으로 로컬 계정에서 암호 만료를 비활성화 합니다. 이 작업을 수행 하지 않으면 결국 Skype 계정에 만료 된 비밀 번호에 대 한 로그온 complaining 실패 하 게 됩니다. 이로 인해 컴퓨터의 모든 로컬 계정에 영향을 줄 수 있으므로이를 설정 하지 않으면 상자의 관리 계정도 결국 만료 됩니다.  <br/> |Skype 계정이 항상 로그인 할 수 있도록 합니다.  <br/> |
 
 그룹 정책을 사용 하 여 파일을 전송 하는 방법에 대해서는 [파일 항목 구성을](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)설명 합니다.
@@ -65,7 +65,7 @@ Microsoft Operations Manager Suite를 사용 하 여 Microsoft 팀 회의실 시
 
 빌드 정보를 CQD에 업로드 하면 각 건물 수준에서 통화 품질 및 안정성 추세를 조사 하 여 쉽게 건물을 비교 하 고 특정 문제에 집중할 수 있습니다.
 
-품질 및 안정성 추세를 식별 하 고 해당 문제를 해결할 작업 계획을 만들려면 [경험 치 검토 가이드](https://aka.ms/qerguide) 를 검토 하 고 팔 로우 하는 것이 좋습니다. 
+[팀에 대 한 통화 품질 및 모니터링](../monitor-call-quality-qos.md) 을 검토 하 고 진행 하 여 품질 및 안정성 추세를 식별 하 고 작업 계획을 만들어 문제를 해결 하는 것이 좋습니다. 
 
 ## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>Microsoft 팀 대화방 OS 및 Microsoft 팀 대화방 응용 프로그램 업데이트
 

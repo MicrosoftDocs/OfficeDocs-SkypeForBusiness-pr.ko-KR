@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀의 정보 장벽에 대해 설명
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: ce71f0c0f2621253698cd250372624ded638dcec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021827"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083188"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
@@ -143,10 +143,6 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
     ![그룹 채팅을 보여 주는 스크린샷](media/information-barriers-people-picker.png)
     
 - **활동 탭** -사용자가 차단 된 사용자의 **활동** 탭을 방문 하면 게시물이 표시 되지 않습니다. ( **활동** 탭에는 채널 게시물만 표시 되며, 두 사용자 사이에는 공통 채널이 없습니다.)
-
-    다음은 활동 탭 보기의 예입니다.
-
-    ![활동 탭을 보여 주는 스크린샷](media/ib-before-activity-tab-policy.png)
 
     다음은 차단 되는 활동 탭 보기의 예입니다.
 

@@ -17,12 +17,12 @@ description: Microsoft 통화 계획 및 전화 시스템을 구성 하는 방�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690884"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083158"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -74,6 +74,7 @@ Microsoft 통화 요금제 및 전화 시스템 다이렉트 라우팅을 위한
 - Apple iOS 클라이언트 버전 1.0.92.2019121004 및 App Store 버전 1.0.92 이상에 대 한 팀 모바일 클라이언트
 - Android 클라이언트 및 Google Play 스토어 버전 1416/1.0.0.2019121201 이상에 대 한 팀 모바일 클라이언트
 - 팀 전화 버전 1449/1.0.94.2019110802 이상
+- 팀 대화방 버전 4.4.25.0 이상
 
 ## <a name="assign-emergency-addresses"></a>긴급 주소 할당
 

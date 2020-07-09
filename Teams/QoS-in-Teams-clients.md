@@ -1,14 +1,13 @@
 ---
-title: 팀 클라이언트에서 서비스 품질 구현
+title: Microsoft 팀 클라이언트에서 QoS (서비스 품질) 구현
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
-ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
-description: Microsoft 팀에서 QoS (서비스 품질)를 위해 조직의 네트워크를 준비 하는 방법에 대해 알아봅니다.
+description: QoS (서비스 품질)를 사용 하 여 Microsoft 팀 데스크톱 클라이언트에 대 한 네트워크 트래픽을 최적화 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
@@ -18,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c10ce415c0ed0db670a81b896289b23cb39218
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80b9257abbbb873b30367f9d430e9a8d155cda09
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904563"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085534"
 ---
-# <a name="set-qos-on-windows-clients"></a>Windows 클라이언트에 QoS 설정
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Microsoft 팀 클라이언트에서 QoS (서비스 품질) 구현
 
-그룹 정책 내에서 정책 기반 QoS를 사용 하 여 팀 클라이언트에서 미리 정의 된 DSCP 값에 대 한 원본 포트 범위를 설정할 수 있습니다. 다음 표에 지정 된 포트 범위는 각 작업 부하에 대 한 정책을 만들기 위한 출발점입니다.
+그룹 정책 내에서 정책 기반 QoS (서비스 품질)를 사용 하 여 팀 클라이언트에서 미리 정의 된 DSCP 값에 대 한 원본 포트 범위를 설정할 수 있습니다. 다음 표에 지정 된 포트 범위는 각 작업 부하에 대 한 정책을 만들기 위한 출발점입니다.
 
 *표 1 권장 되는 초기 포트 범위*
 
@@ -54,7 +53,7 @@ ms.locfileid: "43904563"
 
 1. **정책 기반 QoS** 대화 상자의 열기 페이지에 있는 **이름** 상자에 새 정책의 이름을 입력 합니다. **DSCP 값 지정** 을 선택 하 고 값을 **46**로 설정 합니다. **아웃 바운드 스로틀 속도 지정** 을 선택 하지 않은 상태로 두고 **다음**을 클릭 합니다.
 
-1. 다음 페이지에서 **이 실행 파일 이름의 응용** 프로그램만 선택 하 고 **다음**을 클릭 하 **여 이름을 입력 합니다.** 이 설정은 팀 클라이언트에서 일치 하는 트래픽에만 우선 순위를 지정 하도록 정책에 지시 합니다.
+1. 다음 페이지에서 **이 실행 파일 이름의 응용** 프로그램만 선택 하 고 **Teams.exe**이름을 입력 한 후 **다음**을 클릭 합니다. 이 설정은 팀 클라이언트에서 일치 하는 트래픽에만 우선 순위를 지정 하도록 정책에 지시 합니다.
 
 1. 세 번째 페이지에서 **원본 ip 주소** 와 **대상 ip 주소가** 모두 선택 되어 있는지 확인 하 고 **다음**을 클릭 합니다. 이러한 두 가지 설정은 패킷을 보낸 컴퓨터 (IP 주소)와 패킷을 받을 컴퓨터 (IP 주소)에 관계 없이 패킷이 관리 됨을 보장 합니다.
 
@@ -86,9 +85,9 @@ ms.locfileid: "43904563"
    gpresult /R > gp.txt
    ```
 
-   이렇게 하면 적용 된 Gpo에 대 한 보고서가 생성 되 고 *gp .txt*(이) 라는 텍스트 파일에 전송 됩니다.
+   이렇게 하면 적용 된 Gpo에 대 한 보고서가 생성 되 고이를 *gp.txt*이라는 텍스트 파일에 보냅니다.
 
-   보다 읽기 쉬운 HTML 보고서에 대 한 *자세한 내용은 다음*명령을 입력 합니다.
+   *gp.html*이라는 보다 읽기 쉬운 HTML 보고서를 보려면 다음 명령을 입력 합니다.
 
    ```console
    gpresult /H gp.html
@@ -98,7 +97,7 @@ ms.locfileid: "43904563"
 
 1. 레지스트리 편집기를 열고 다음으로 이동 합니다.
 
-   HKEY\_로컬\_컴퓨터\\소프트웨어\\정책\\Microsoft\\Windows\\QoS
+   HKEY \_ 로컬 \_ 컴퓨터 \\ 소프트웨어 \\ 정책 \\ Microsoft \\ Windows \\ QoS
 
    표 2에 나열 된 레지스트리 항목의 값을 확인 합니다.
 
@@ -106,7 +105,7 @@ ms.locfileid: "43904563"
 
    |          이름          |  유형  |    데이터     |
    |         :---:          | :---:  |    :---:    |
-   |    응용 프로그램 이름    | REG_SZ |  팀. exe  |
+   |    응용 프로그램 이름    | REG_SZ |  Teams.exe  |
    |       DSCP 값       | REG_SZ |     46      |
    |        로컬 IP        | REG_SZ |     \*      |
    | 로컬 IP 접두사 길이 | REG_SZ |     \*      |
@@ -119,3 +118,8 @@ ms.locfileid: "43904563"
    | | | |
 
 1. 사용 중인 클라이언트에 대 한 응용 프로그램 이름 항목의 값이 올바른지 확인 하 고 DSCP 값과 로컬 포트 항목에 그룹 정책 개체의 설정이 반영 되는지 확인 합니다.
+
+
+## <a name="related-topics"></a>관련 항목
+
+[팀에서 QoS (서비스 품질) 구현](QoS-in-Teams.md)

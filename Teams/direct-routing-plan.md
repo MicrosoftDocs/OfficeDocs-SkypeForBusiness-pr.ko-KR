@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: 1d0dff52258cfae9776fde57b5a30ff60793b902
-ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
+ms.openlocfilehash: 71ef4cd96853bd11f1169fd10aa7519c3ea4a2ec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799829"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083178"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -219,6 +219,8 @@ Fqdn – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.
 - 52.114.76.76 
 - 52.114.7.24 
 - 52.114.14.70
+- 52.114.16.74
+- 52.114.20.29
 
 수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지 원하는 경우 FQDN sip-all.pstnhub.microsoft.com 이러한 모든 IP 주소를 확인 합니다. 
 

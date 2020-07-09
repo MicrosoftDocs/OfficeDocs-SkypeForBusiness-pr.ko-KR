@@ -1,10 +1,10 @@
 ---
-title: 통화 품질 대시보드의 분류 간소화
-ms.author: tonysmit
-author: tonysmit
+title: 통화 품질 대시보드의 스트림 분류 (CQD)
+ms.author: lolajacobsen
+author: lolaj
 manager: serdars
 ms.reviewer: gageames
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -19,17 +19,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Microsoft 팀 및 비즈니스용 Skype Online 용 통화 품질 대시보드에서 스트림 품질이 분류 되는 방법에 대해 알아보세요.
-ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+description: Microsoft 팀과 비즈니스용 Skype Online의 경우 통화 품질 대시보드 (CQD)에서 스트림 품질이 분류 되는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160742"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085894"
 ---
-# <a name="stream-classification-in-call-quality-dashboard"></a>통화 품질 대시보드의 분류 간소화
+# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>통화 품질 대시보드의 스트림 분류 (CQD)
 
-Microsoft 팀 및 비즈니스용 Skype Online에 대 한 CQD (통화 품질 대시보드)는 Microsoft 팀과 비즈니스용 Skype 서비스를 사용 하 여 만든 통화 품질에 대 한 통찰력을 얻을 수 있도록 합니다. 이 항목에서는 미디어 스트림의 품질 분류에 대 한 자세한 정보를 제공 합니다. CQD 및이를 사용 하는 방법에 대해 자세히 알아보려면 [통화 품질 대시보드 켜기 및 사용](turning-on-and-using-call-quality-dashboard.md)을 참조 하세요.
+Microsoft 팀 및 비즈니스용 Skype Online에 대 한 CQD (통화 품질 대시보드)는 Microsoft 팀과 비즈니스용 Skype 서비스를 사용 하 여 만든 통화 품질에 대 한 통찰력을 얻을 수 있도록 합니다. 이 항목에서는 미디어 스트림의 품질 분류에 대 한 자세한 정보를 제공 합니다. CQD 및 설정 방법에 대해 자세히 알아보려면 [통화 품질 대시보드 설정을](turning-on-and-using-call-quality-dashboard.md)참조 하세요.
 
 ## <a name="classifier-definitions"></a>분류자 정의
 
@@ -115,10 +115,18 @@ _분류_ 되지 않은 스트림에 대해 ICE 연결에 성공 하면 키 스�
 > "패킷 사용률" 차원과 "Avg Packet 사용률" 측정값을 사용 하 여 스트림의 패킷 활동을 확인할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
+[팀의 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md)
 
-[CQD (통화 품질 대시보드) 설정 및 사용](turning-on-and-using-call-quality-dashboard.md)
+[CQD 란 무엇 인가요?](CQD-what-is-call-quality-dashboard.md)
 
-[통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[CQD (통화 품질 대시보드) 설정](turning-on-and-using-call-quality-dashboard.md)
 
-[통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
- 
+[테 넌 트 업로드 및 데이터 빌드](CQD-upload-tenant-building-data.md)
+
+[CQD 데이터 및 보고서](CQD-data-and-reports.md)
+
+[CQD를 사용 하 여 통화 및 모임 품질 관리](quality-of-experience-review-guide.md)
+
+[CQD에서 사용할 수 있는 차원과 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[Power BI를 사용 하 여 CQD 데이터 분석](CQD-Power-BI-query-templates.md)

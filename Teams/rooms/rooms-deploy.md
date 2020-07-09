@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 배포 단계를 포함 하 여 Microsoft 팀 대화방을 배포 하는 방법에 대해 자세히 알아보려면이 문서를 참조 하세요.
-ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905410"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085964"
 ---
 # <a name="deployment-overview"></a>배포 개요
 
@@ -119,7 +119,7 @@ PowerShell을 사용 하 여 구성 정보를 가져오고 설정 하는 등의 
 
 각 Microsoft 팀 대화방 장치에는 Microsoft 팀 또는 비즈니스용 Skype 및 Exchange 모두에 대해 사용 하도록 설정 해야 하는 전용 고유 리소스 계정이 필요 합니다. 이 계정에는 Exchange에서 호스트 되는 채팅방 사서함이 있어야 하며,이를 팀 또는 비즈니스용 Skype 배포에서 회의실으로 사용 하도록 설정 해야 합니다. Exchange 쪽에서는 장치가 들어오는 모임 요청을 자동으로 수락할 수 있도록 일정 처리를 구성 해야 합니다. 이러한 계정을 만드는 방법에 대 한 자세한 내용은 [Microsoft 팀 대화방 계정 구성을](rooms-configure-accounts.md)참조 하세요. 
 
-**Pro 팁** – 이러한 계정에 대 한 표시 이름을 설명 하 고 이해 하기 쉽게 만듭니다. 다음은 사용자가 Microsoft 팀 공간 시스템을 검색 하 고 모임에 추가할 때 표시 되는 이름입니다. 일부 조직에서는 *사이트*-*공간 이름*(*최대 회의실 용량*)을 사용 하 여 (예: London의 12 사람 전화 회의실) 디스플레이 이름 LON-curie (12)-r이 표시 될 수 있습니다. 
+**Pro 팁** – 이러한 계정에 대 한 표시 이름을 설명 하 고 이해 하기 쉽게 만듭니다. 다음은 사용자가 Microsoft 팀 공간 시스템을 검색 하 고 모임에 추가할 때 표시 되는 이름입니다. 일부 조직에서는 *사이트* - *공간 이름*(*최대 회의실 용량*)을 사용 하 여 (예: London의 12 사람 전화 회의실) 디스플레이 이름 LON-curie (12)-r이 표시 될 수 있습니다. 
 
 |    |     |
 |-----------|------------|
@@ -138,7 +138,7 @@ Microsoft 팀 회의실을 배포 하려는 경우 필요한 소프트웨어를 
 | 50 개 이상의 Microsoft 팀 공간 장치 배포, 둘 이상의 공급 업체에서 장치 배포, 배포의 일부로 조직 관련 에이전트 필요 | [Microsoft 끝점 구성 관리자](rooms-scale.md)와 같은 작업 시퀀서 기반 소프트웨어 빌드 및 배포 플랫폼을 사용 합니다.  |
 
 
-**Pro 팁** -각 Microsoft 팀 방에는 네트워크에 대 한 유효한 고유한 컴퓨터 이름이 있어야 합니다. 많은 모니터링 및 경고 시스템은 컴퓨터 이름을 키 식별자로 표시 하므로 Microsoft 팀 대화방 배포에 대 한 명명 규칙을 개발 하 여 지원 직원이 작업 필요에 따라 플래그가 지정 된 Microsoft 팀 대화방을 쉽게 찾을 수 있도록 하는 것이 중요 합니다. 예를 들어 mtr*사이트*-*방 이름* 패턴 (mtr-LON-curie)을 사용 하 고 있을 수 있습니다. 
+**Pro 팁** -각 Microsoft 팀 방에는 네트워크에 대 한 유효한 고유한 컴퓨터 이름이 있어야 합니다. 많은 모니터링 및 경고 시스템은 컴퓨터 이름을 키 식별자로 표시 하므로 Microsoft 팀 대화방 배포에 대 한 명명 규칙을 개발 하 여 지원 직원이 작업 필요에 따라 플래그가 지정 된 Microsoft 팀 대화방을 쉽게 찾을 수 있도록 하는 것이 중요 합니다. 예를 들어 mtr*사이트* - *방 이름* 패턴 (mtr-LON-curie)을 사용 하 고 있을 수 있습니다. 
 
 배포의 일부로 Microsoft 팀 대화방 응용 프로그램 설치 관리자에서 만든 [로컬 계정을](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) 관리 하 고 구성 하는 방법에 대 한 전략도 함께 고려해 야 합니다.
 
@@ -188,7 +188,7 @@ XML 구성 파일을 사용 하는 방법에 대 한 자세한 내용은 [xml �
 
 Microsoft 팀 대화방 시스템을 배포한 후에는 테스트 해야 합니다. [Microsoft 팀 대화방](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) 에 나열 된 기능이 배포 된 장치에서 작동 하는지 확인 합니다. Microsoft 팀 객실이 Microsoft Operations Management Suite (사용 되는 경우)에 기록 되 고 있는지 배포 팀이이를 적극 권장 합니다. 또한 다양 한 테스트 통화와 모임을 통해 품질을 확인 하는 것이 중요 합니다. 자세한 내용은이 [유용한 배포 검사 목록을](console.md#microsoft-teams-rooms-deployment-checklist)참조 하세요.
 
-일반 팀 또는 비즈니스용 Skype 출시의 일부로 서, 통화 품질 대시보드 (CQD)에 대 한 빌드 파일을 구성 하 고, 품질 추세를 모니터링 하 고, 경험 치를 검토 하는 프로세스에 참여 하는 것이 좋습니다. 자세한 내용은 [경험 치 리뷰 가이드](https://aka.ms/qerguide)를 참조 하세요. 
+일반 팀 또는 비즈니스용 Skype 출시의 일부로 서, 통화 품질 대시보드 (CQD)에 대 한 빌드 파일을 구성 하 고, 품질 추세를 모니터링 하 고, 경험 치를 검토 하는 프로세스에 참여 하는 것이 좋습니다. 자세한 내용은 [팀의 통화 품질 개선 및 모니터링](../monitor-call-quality-qos.md)을 참조 하세요. 
 
 ### <a name="asset-management"></a>자산 관리
 

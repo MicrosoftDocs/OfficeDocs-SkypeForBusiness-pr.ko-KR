@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell 컨트롤을 사용 하 여 Microsoft 팀을 관리 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849b22d09c79e97c5eaaeab4dee96b1d432970cb
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944109"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085884"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Microsoft 팀 PowerShell 설치
 
@@ -26,7 +26,7 @@ ms.locfileid: "44944109"
 
 ## <a name="requirements"></a>요구 사항
 
-팀 PowerShell은 모든 플랫폼에서 PowerShell 6.2.4 이상에서 작동 합니다. Windows의 PowerShell 5.1 에서도 지원 됩니다. 운영 체제에 사용할 수 있는 [최신 버전의 PowerShell](/powershell/scripting/install/installing-powershell) 을 설치 합니다. PowerShell 6.2.4 이상에서 실행 되는 경우 팀 PowerShell에는 추가 요구 사항이 없습니다.
+모든 플랫폼에서 팀 PowerShell에는 PowerShell 5.1 이상을 필요로 합니다. 운영 체제에 사용할 수 있는 [최신 버전의 PowerShell](/powershell/scripting/install/installing-powershell) 을 설치 합니다.
 
 > [!WARNING]
 > PowerShell 7 및 팀 PowerShell에 알려진 문제가 있습니다. 최상의 환경을 위해서는 PowerShell 5.1를 사용 하는 것이 좋습니다.
@@ -45,7 +45,7 @@ Install-Module MicrosoftTeams
 
 기본적으로 PowerShell 갤러리 (PSGallery)는 **PowerShellGet**에 대해 신뢰할 수 있는 리포지토리로 구성 되어 있지 않습니다. 처음으로 PSGallery를 사용 하는 경우 다음 메시지가 표시 됩니다.
 
-```output
+```console
 Untrusted repository
 
 You are installing the modules from an untrusted repository. If you trust this repository, change
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-설치를 응답 `Yes` 하거나 `Yes to All` 계속 합니다.
+설치를 계속 하려면 **yes** 또는 **yes에** 응답 합니다.
 
 
 ## <a name="install-teams-powershell-public-preview"></a>팀 PowerShell 공용 미리 보기 설치
@@ -71,7 +71,7 @@ PowerShell 5.1를 사용 중인 경우에는 **PowerShellGet** 모듈을 미리 
 Install-Module PowerShellGet -Force -AllowClobber
 ```
 
-팀 Powershell 공개 미리 보기를 설치 하려면 아래에서 PowerShell 명령을 실행 합니다.
+팀 PowerShell 공개 미리 보기를 설치 하려면 아래에서 PowerShell 명령을 실행 합니다.
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease

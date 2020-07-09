@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: CQD PSTN 다이렉트 라우팅 보고서를 사용 하 여 Microsoft 팀에서 PSTN 통화를 모니터링 하 고 문제를 해결 하세요.
-ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Microsoft 팀 통화 품질 대시보드 (CQD)) PSTN 다이렉트 라우팅 보고서를 사용 하 여 Microsoft 팀에서 PSTN 통화를 모니터링 하 고 문제를 해결 하세요.
+ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221752"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085344"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN 다이렉트 라우팅 보고서 사용
 
-2 월 2020 새 [cqd에 대 한 다운로드 가능한 POWER BI 쿼리 서식 파일](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)에 CQD PSTN 다이렉트 라우팅 보고서가 추가 되었습니다. 
+2 월 2020 새 사용자는 [cqd 용 다운로드 가능한 POWER BI 쿼리 서식 파일](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)에 Microsoft 팀 통화 품질 대시보드 (cqd) PSTN 다이렉트 라우팅 보고서를 추가 했습니다. 
 
 
 CQD PSTN 다이렉트 라우팅 보고서 (pbit d PSTN 다이렉트 라우팅 보고서)는 PSTN 서비스의 사용 패턴 및 품질을 이해 하는 데 도움이 됩니다. 이 보고서를 사용 하 여 서비스 사용 현황, SBC (세션 경계 컨트롤러)에 대 한 정보, 전화 통신 서비스, 네트워크 매개 변수, 네트워크 효율성 비율에 대 한 세부 정보를 모니터링할 수 있습니다. 이 정보는 통화 제거 사유를 포함 하 여 문제를 식별 하는 데 도움이 될 수 있습니다. 예를 들어 볼륨의 낙하 또는 영향을 받는 통화 수와 그 이유를 확인할 수 있습니다.
@@ -146,3 +146,5 @@ NER는 시간 기준 추세에 따라 21:00에서 dip가 발생 하는 것을 �
 ## <a name="related-topics"></a>관련 항목
 
 [Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터 분석](CQD-PSTN-report.md)
+
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

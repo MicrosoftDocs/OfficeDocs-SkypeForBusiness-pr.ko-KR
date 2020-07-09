@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀을 위한 네트워크 Planner 사용
+title: Microsoft 팀을 위한 네트워크 planner 사용
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -21,20 +21,20 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a4676349dab9c7b587e63dcc9a538c9f0b43a80
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b8c6a59216d1ac04c0e079015aa9de13f8cecb37
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904800"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45088236"
 ---
-# <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft 팀을 위한 네트워크 Planner 사용
+# <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft 팀을 위한 네트워크 planner 사용
 
-네트워크 Planner는 팀 관리 센터에서 사용할 수 있는 새로운 도구입니다. **Planner** > **네트워크 planner**로 이동한 후이를 찾을 수 있습니다. 네트워크 Planner를 사용 하 여 조직 내에서 Microsoft 팀 사용자를 연결 하는 데 필요한 네트워크 요구 사항을 확인 하 고 구성 하는 방법에 대해 설명 합니다. 네트워크 세부 정보 및 팀 사용량을 제공 하는 경우 네트워크 계획자는 조직의 실제 위치에서 팀 및 클라우드 음성을 배포 하기 위한 네트워크 요구 사항을 계산 합니다.
+네트워크 Planner는 팀 관리 센터에서 사용할 수 있는 새로운 도구입니다. **Planner**  >  **네트워크 planner**로 이동한 후이를 찾을 수 있습니다. 네트워크 Planner를 사용 하 여 조직 내에서 Microsoft 팀 사용자를 연결 하는 데 필요한 네트워크 요구 사항을 확인 하 고 구성 하는 방법에 대해 설명 합니다. 네트워크 세부 정보 및 팀 사용량을 제공 하는 경우 네트워크 계획자는 조직의 실제 위치에서 팀 및 클라우드 음성을 배포 하기 위한 네트워크 요구 사항을 계산 합니다.
 
-![네트워크 Planner 스크린샷](media/network-planner.png)
+![네트워크 planner 스크린샷](media/network-planner.png)
 
-네트워크 Planner를 사용 하 여 다음을 수행할 수 있습니다.
+네트워크 planner를 사용 하 여 다음을 수행할 수 있습니다.
 
 - 사이트와 Microsoft 권장 가상 사용자 (office worker, 원격 작업자, 팀 대화방 시스템)를 사용 하 여 조직의 표현을 만듭니다.
 
@@ -43,13 +43,13 @@ ms.locfileid: "43904800"
 
 - 팀 사용에 대 한 보고서를 생성 하 고 대역폭 요구 사항을 계산 합니다.
 
-네트워크 Planner를 사용 하려면 전역 관리자, 팀 서비스 관리자 또는 팀 통신 관리자 여야 합니다.
+네트워크 planner를 사용 하려면 전역 관리자, 팀 서비스 관리자 또는 팀 통신 관리자 여야 합니다.
 
 ## <a name="create-a-custom-persona"></a>사용자 지정 가상 사용자 만들기
 
 다음 단계에 따라 사용자 지정 가상 사용자를 만듭니다.
 
-1. Microsoft 팀 관리 센터의 네트워크 Planner로 이동 합니다.
+1. Microsoft 팀 관리 센터의 네트워크 planner로 이동 합니다.
 
 2. **가상 사용자** 탭에서 **+ 사용자 가상 사용자**를 클릭 합니다. 
 
@@ -63,7 +63,7 @@ ms.locfileid: "43904800"
 
 네트워크 계획 만들기를 시작 하려면 다음 단계를 따르세요.
 
-1. Microsoft 팀 관리 센터의 네트워크 Planner로 이동 합니다.
+1. Microsoft 팀 관리 센터의 네트워크 planner로 이동 합니다.
 
 2. **네트워크 계획** 탭에서 **네트워크 계획 추가**를 클릭 합니다.
 
@@ -106,4 +106,4 @@ ms.locfileid: "43904800"
 
 ## <a name="example-scenario"></a>예제 시나리오
 
-네트워크 Planner를 사용 하 여 네트워크 계획을 설정 하 고 이러한 단계를 사용 하 여 보고서를 생성 하는 방법에 대 한 예는 [네트워크 Planner 방법 PowerPoint 데크](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) 를 다운로드 하세요 (영어만 해당).
+네트워크 planner를 사용 하 여 네트워크 계획을 설정 하 고 이러한 단계를 사용 하 여 보고서를 생성 하는 방법에 대 한 예는 [네트워크 Planner 방법 PowerPoint 데크](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) 를 다운로드 하세요 (영어만 해당).

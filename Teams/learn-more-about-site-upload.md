@@ -22,17 +22,20 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 1b32e9db020b3498e8185b4d38e25d1d9a1feca5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539645"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085294"
 ---
 <a name="add-and-update-reporting-labels"></a>보고 레이블 추가 및 업데이트
 ============================
 
-보고 레이블은 조직에서 사무실, 건물 또는 조직 사이트의 실제 위치를 나타내는 데 사용 됩니다. Microsoft 팀 관리 센터의 보고 레이블 페이지에서 실제 위치 및 관련 네트워크 서브넷 목록을 포함 하는 텍스트 파일 (.csv 또는 tsv)을 제공할 수 있습니다. 이 파일은 통화 분석 및 보고서 생성을 위한 통화 품질 대시보드에서 사용 합니다. 서브넷 매핑을 업로드할 때 이러한 서비스에서 제공 하는 보고서에는 위치 이름도 포함 되며, 이러한 보고서를 이해 하 고 수정 하는 데 사용 하는 것이 더욱 쉬워질 수 있도록 합니다.
+보고 레이블은 조직에서 사무실, 건물 또는 조직 사이트의 실제 위치를 나타내는 데 사용 됩니다. Microsoft 팀 관리 센터의 보고 레이블 페이지에서 실제 위치 및 관련 네트워크 서브넷 목록을 포함 하는 텍스트 파일 (.csv 또는 tsv)을 제공할 수 있습니다. 이 파일은 보고서 생성을 위해 통화 분석에서 사용 합니다. 서브넷 매핑을 업로드할 때 이러한 서비스에서 제공 하는 보고서에는 위치 이름도 포함 되며, 이러한 보고서를 이해 하 고 수정 하는 데 사용 하는 것이 더욱 쉬워질 수 있도록 합니다.
+
+> [!IMPORTANT]
+> 업로드 하는 보고 레이블은 *고객 데이터* 나 *개인 데이터로*간주 되는 정보를 포함 하 여 Office 365의 계약에 따라 *지원 데이터로* 처리 됩니다. Microsoft에 지원 *데이터*를 제공 하지 않는 데이터를 포함 하지 마세요 .이 정보는 지원에 대 한 microsoft 엔지니어가 볼 수 있습니다.
 
 제공 하는 보고서 레이블 및 위치 데이터는 단일 데이터 구조 이며 현재는 데이터를 개별적으로 편집할 수 있는 인터페이스가 없습니다.
 
@@ -57,7 +60,7 @@ ms.locfileid: "44539645"
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso의 임대 다시&F|Office|다시&F|산 보기|94043|보세요|캐나다|보세요|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso의 임대 다시&F|Office|다시&F|산 보기|94043|보세요|캐나다|보세요|1|1|
 
-데이터 파일의 서식을 지정 하는 방법에 대 한 자세한 내용은 [테 넌 트 데이터 파일 형식 및 빌드 데이터 파일 구조](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)를 참조 하세요.
+데이터 파일의 서식을 지정 하는 방법에 대 한 자세한 내용은 [테 넌 트 데이터 파일 형식 및 빌드 데이터 파일 구조](CQD-upload-tenant-building-data.md#upload-building-data-file)를 참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

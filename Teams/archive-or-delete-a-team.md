@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868705"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086194"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 ===========================================
@@ -48,7 +48,7 @@ ms.locfileid: "44868705"
 
     ![Teams 보관 메시지 스크린샷](media/teams-archive-message.png)
 
-4. 팀의 SharePoint 사이트를 읽기 전용으로 설정하려면 해당 확인란을 선택합니다.
+4. 팀과 연결 된 SharePoint 사이트 및 위 키 탭의 콘텐츠를 다른 사용자가 편집할 수 없도록 하려면 **팀 구성원에 대해 sharepoint 사이트를 읽기 전용으로 만들기**를 선택 합니다. (팀 소유자는 여전히이 콘텐츠를 편집할 수 있게 됩니다.)
 5. **보관**을 선택하여 팀을 보관합니다. 팀의 상태가 **보관됨**으로 변경됩니다.
 
 ## <a name="make-an-archived-team-active"></a>보관된 팀을 활성화하기

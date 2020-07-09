@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: CQD (통화 품질 대시보드) 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
+ms.openlocfilehash: d474ad6e3f10b0aefaafcd06bb17a5959b65846d
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690934"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085574"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 
-CQD (.PBIX 파일) 용 Power BI 쿼리 템플릿을 사용 하려면 먼저 [다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)에 포함 된 *MicrosoftCallQuality* 파일을 사용 하 여 Microsoft Cqd 용 power bi Connector를 설치 해야 합니다. 
+Microsoft 팀 통화 품질 대시보드 (CQD)에 대 한 Power BI 쿼리 템플릿 (.PBIX 파일)을 사용 하려면 먼저 [다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)에 포함 된 *MicrosoftCallQuality* 파일을 사용 하 여 microsoft Cqd 용 power bi 커넥터를 설치 해야 합니다. 
 
 [POWER BI를 사용 하 여 팀에 대 한 CQD 데이터를 분석](CQD-Power-BI-query-templates.md) 하 여 이러한 템플릿에 대해 알아보세요.
 

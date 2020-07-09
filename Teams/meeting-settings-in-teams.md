@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 1d7aed894724a09f1b3cc352ef3e280cf3ead310
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489140"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086164"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -83,10 +83,10 @@ ms.locfileid: "44489140"
 
 <a name="bknetwork"> </a>
 
-[QoS](qos-in-teams.md)(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를 지정하는 경우 QoS 마커를 활성화하고 각 미디어 트래픽 유형에 대한 포트 범위를 설정할 수 있습니다. 다양한 트래픽 유형에 대한 포트 범위를 설정하는 것은 실시간 미디어를 처리하는 한 단계입니다. 자세한 내용은 [Teams의 QoS(서비스 품질)](qos-in-teams.md)를 참조하세요.
+QoS (서비스 품질)를 사용 하 여 네트워크 트래픽의 우선 순위를 지정 하는 경우 QoS 마커를 사용 하도록 설정 하 고 각 미디어 트래픽 유형에 대해 포트 범위를 설정할 수 있습니다. 다양한 트래픽 유형에 대한 포트 범위를 설정하는 것은 실시간 미디어를 처리하는 한 단계입니다. 자세한 내용은 [Teams의 QoS(서비스 품질)](qos-in-teams.md)를 참조하세요.
 
 > [!IMPORTANT]
-> Microsoft Teams 서비스에 대해 Microsoft Teams 관리 센터에서 QoS를 활성화하거나 설정을 변경하는 경우, Teams에서 QoS에 대한 변경 사항을 완전히 구현하려면 모든 네트워크 장치 및 [모든 사용자 장치에 일치하는 설정을 적용](QoS-in-Teams-clients.md)해야 합니다.
+> 팀 서비스에 대 한 Microsoft 팀 관리 센터에서 QoS를 사용 하도록 설정 하거나 설정을 변경 하는 경우 팀에서 QoS에 대 한 변경 내용을 완전히 구현 하려면 [모든 사용자 장치](QoS-in-Teams-clients.md) 및 내부 네트워크 장치에 일치 하는 설정을 적용 해야 할 수도 있습니다.
 
  ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터로</a>이동 합니다.

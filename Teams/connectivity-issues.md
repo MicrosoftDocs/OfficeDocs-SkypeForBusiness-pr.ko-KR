@@ -17,12 +17,12 @@ description: 주로 방화벽 또는 프록시 연결에서 발생하는 Microso
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cef20522784ba2d63d1461104a51f3148f48cf53
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 116ce1afef08a6f1639ed011b799f9ca43ea57f5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689644"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085234"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Microsoft Teams 클라이언트의 연결 문제 해결
 ==============================================================
@@ -44,3 +44,8 @@ Microsoft Teams 클라이언트에서 발견되는 대부분의 문제는 방화
 -   비즈니스용 Skype 상호 운용성
 
 -   비즈니스용 Skype 클라이언트 상호 운용성
+
+
+## <a name="related-topics"></a>관련 항목
+
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

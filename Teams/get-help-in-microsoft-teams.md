@@ -3,7 +3,6 @@ title: Microsoft 팀에서 도움말 보기
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/10/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,19 +17,17 @@ description: Microsoft 팀에서 도움말을 보려면 도움말 항목, 비디
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6de91776e6ca187df92deef412057eb92410a145
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5a43e6f0907f3cb5c994b9ce0060a7213744358d
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904680"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085304"
 ---
 <a name="get-help-in-microsoft-teams"></a>Microsoft 팀에서 도움말 보기
 ============================================
 
 Microsoft 팀의 도움말 단추는 사용자와 챔피언가 팀을 사용 하는 동안 필요한 모든 지원을 찾을 수 있는 위치입니다.
-
-[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 팀은 도움말 내용에 대해 지역화 된 언어 지원을 제공 합니다. 지원 되는 언어의 최신 목록은 [Microsoft 팀에서 지원 되는 도움말 콘텐츠 언어](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)를 참조 하세요.
 
@@ -38,11 +35,9 @@ Microsoft 팀의 도움말 단추는 사용자와 챔피언가 팀을 사용 하
 
  - **비디오** -주문형 영상 콘텐츠를 통해 사용자는 특정 작업을 빠르게 배울 수 있습니다. 계속 해 서 새 비디오가 생성 되므로 자주 확인해 보세요. 물론 인터넷 액세스가 필요 합니다. 
 
- - 새로운 또는 업데이트 된 팀 기능에 대 한 사용자 및 팀 소유자를 위한 **새로운** - 
-   정기 릴리스 정보
+ - **새로운 기능** - 
+    신규 또는 업데이트 된 팀 기능에 대 한 사용자 및 팀 소유자의 정기 릴리스 정보입니다.
 
  - **아이디어 공유** -팀을 개선 하는 방법에 대 한 의견을 항상 알려 드립니다. 이 옵션을 선택 하면 새 기능 요청을 제출 하거나 기존에 투표 하는 데 사용할 수 있는 제품 피드백 포럼으로 이동 합니다. 이 정보는 새로운 기능을 계획할 때 지속적으로 검토 합니다. 
 
-> [!NOTE]
-> 팀에서 T-봇을 바꿀 수 있도록 지원 합니다. 일부 사용자는 채팅 기록에서 T-봇 채팅 아이콘을 볼 수 있습니다. 이 아이콘을 클릭 하면 새 도움말 환경으로 이동 합니다. 
 

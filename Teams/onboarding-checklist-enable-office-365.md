@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2439a2fd23566c93fb60772112da098cff315760
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 28a89502a628c3cc9dcdf2c910371bb37568f194
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665170"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085174"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365 사용
  
@@ -36,4 +36,4 @@ ms.locfileid: "44665170"
 | 7  | 테 넌 트 관리자 확인 | 보안 팀과 협력 하 여 Microsoft 365 또는 Office 365 관리 모델을 개발 합니다. <br/><br/>모든 테 넌 트 및 서비스 관리자를 식별 하 고 문서화 하세요. | | [Microsoft 365 또는 Office 365 관리자 역할 정보](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 20cm(8  | 테 넌 트에 대 한 관리 역할 구현 | 관리 모델이 조직의 요구 사항에 맞는지 확인 하 고 관리자에 게 Microsoft 365 또는 Office 365 관리자 역할을 할당 합니다. | | [Microsoft 365 또는 비즈니스용 Office 365에서 관리자 역할 할당](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
 | 되었는지  | CQD (통화 품질 대시보드)에 로그인 하 여 건물 정보를 업로드 합니다. | 모든 팀 구축은 팀을 사용 하는 모든 통화의 품질 및 안정성에 대 한 통찰력을 얻으려면 CQD를 활용 해야 합니다. <br><br>**추가 정보** 열에 나열 된 CQD 지침을 사용 하 여이 도구를 최대한 활용 하세요. | | [서비스 관리 및 품질 계획](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[품질 환경 검토 가이드](https://aka.ms/qerguide) <br/><br/>[품질 경험 검토 서식 파일](https://aka.ms/qertemplates) <br/><br/>[Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[건물 정보 업로드](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
-| 1천만  | 건물 정보가 처리 되었는지 확인 하 고 테 넌 트에 대해 CQD (통화 품질 대시보드)가 작동 하도록 합니다. | | | [통화 품질 대시보드](https://cqd.lync.com) |
+| 1천만  | 건물 정보가 처리 되었는지 확인 하 고 테 넌 트에 대해 CQD (통화 품질 대시보드)가 작동 하도록 합니다. | | | [통화 품질 대시보드](https://cqd.teams.microsoft.com) |

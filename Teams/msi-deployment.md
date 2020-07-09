@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: rafarhi, jhreddy
 audience: admin
 description: Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀을 일괄적으로 배포 하 여 사용자 또는 컴퓨터를 선택 합니다.
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4d29790994ba155984077ea9046fc6cf097302
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ae096b52a6934ed4a59fbd7d8ec20fba3a6baa47
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902813"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45088196"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치
 
@@ -59,7 +59,7 @@ MSI 파일에 대 한 링크는 다음과 같습니다.
 
 ### <a name="pc-installation"></a>PC 설치
 
-팀 MSI는 프로그램 파일에 설치 관리자를 배치 합니다. 사용자가 새 Windows 사용자 프로필에 로그인 할 때마다 설치 프로그램이 시작 되 고 팀 앱의 복사본이 해당 사용자의 `AppData` 폴더에 설치 됩니다. 사용자가 `AppData` 폴더에 이미 팀 앱을 설치한 경우 MSI 설치 관리자가 해당 사용자에 대 한 프로세스를 건너뜁니다.
+팀 MSI는 프로그램 파일에 설치 관리자를 배치 합니다. 사용자가 새 Windows 사용자 프로필에 로그인 할 때마다 설치 프로그램이 시작 되 고 팀 앱의 복사본이 해당 사용자의 폴더에 설치 됩니다 `AppData` . 사용자가 폴더에 이미 팀 앱을 설치한 경우 `AppData` MSI 설치 관리자가 해당 사용자에 대 한 프로세스를 건너뜁니다.
 
 MSI를 사용 하 여 업데이트를 배포 하는 경우 클라이언트는 서비스에서 새 버전이 제공 될 때 자동으로 업데이트 됩니다. 최신 설치 관리자를 다시 배포 하려면 아래 설명 된 MSI 재배포 프로세스를 사용 합니다. 이전 버전의 MSI 패키지를 배포 하는 경우 클라이언트는 사용자에 대해 가능 하면 VDI 환경에서 제외 하 고 자동으로 업데이트 됩니다. 오래 된 버전이 배포 되는 경우 MSI는 사용자가 팀을 사용할 수 있도록 앱 업데이트를 트리거합니다.
 
@@ -85,8 +85,8 @@ VDI에서 팀 데스크톱 앱을 배포 하는 방법에 대 한 자세한 지�
 > 다음 단계에는 레지스트리를 수정 하는 방법에 대 한 정보가 포함 되어 있습니다. 레지스트리를 수정 하기 전에 백업 하 고 문제가 발생 하는 경우 레지스트리를 복원 하는 방법을 알고 있는지 확인 합니다. 레지스트리를 백업, 복원 및 수정 하는 방법에 대 한 자세한 내용은 [고급 사용자를 위한 Windows 레지스트리 정보](https://support.microsoft.com/help/256986)를 참조 하세요.
 
 1. 모든 사용자 프로필에 대해 설치 된 팀 앱을 제거 합니다. 자세한 내용은 [Microsoft 팀 제거](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)를 참조 하세요.
-2. 재귀적으로 디렉터리를 삭제 `%localappdata%\Microsoft\Teams\`합니다.
-3. 레지스트리 값 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 을 삭제 합니다.
+2. 재귀적으로 디렉터리를 삭제 `%localappdata%\Microsoft\Teams\` 합니다.
+3. `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`레지스트리 값을 삭제 합니다.
 4. 해당 특정 컴퓨터에 MSI 패키지를 다시 배포 합니다.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>설치 후 팀이 자동으로 시작 되지 않도록 방지

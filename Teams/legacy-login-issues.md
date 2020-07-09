@@ -17,12 +17,12 @@ description: 이전 시스템에서 메시지 수신 및 통화와 관련 된 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52038470e81b825391e4176c07af7a30f51356df
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489167"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085154"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>레거시 시스템에서 메시지 및 통화 수신 문제
 ==============================================================
@@ -45,3 +45,8 @@ ms.locfileid: "44489167"
 ## <a name="skype-token-revocation"></a>Skype 토큰 해지
 
 비밀 번호를 변경/재설정 하는 경우 구형 클라이언트는 최대 1 시간 동안 메시지와 통화를 받을 수 없습니다. 이 문제를 해결 하려면 앱을 다시 시작 하거나 최신 클라이언트로 이동 하세요.
+
+
+## <a name="related-topics"></a>관련 항목
+
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

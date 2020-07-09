@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5f6c30ea0fd36df35280dc0b179babec9e98107
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 15c7c38b31586d0eec73e34702d873514938020e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868145"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085904"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Microsoft 팀을 위한 IT 직원 준비
 
@@ -46,7 +46,7 @@ IT 담당자와 다음 리소스를 공유 하 고 팀으로 업그레이드 하
 - [Microsoft Teams 클라이언트의 연결 문제 해결](connectivity-issues.md)
 - [Microsoft 팀 문제 해결에서 로그 파일 사용](log-files.md)
 
-[//]: # (Debbie 요청:)
+
 
 | | |
 |---|---|

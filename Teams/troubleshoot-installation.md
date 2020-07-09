@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Windows에서 Teams 데스크톱 클라이언트 앱의 설치 및 문제를 해결하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
-ms.translationtype: HT
+ms.openlocfilehash: 7b8d4984a8ee40f9a013155ad28b682e000260ba
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888847"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086144"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows에서 Microsoft Teams 설치 및 업데이트 문제 해결
 
@@ -154,3 +154,4 @@ Teams에서 파일에 쓸 수 없어 액세스가 거부되는 경우 다른 소
 
 - [Teams용 클라이언트 가져오기](get-clients.md)
 - [Teams 클라이언트 업데이트](teams-client-update.md)
+- [Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

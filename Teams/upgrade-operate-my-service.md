@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868505"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085914"
 ---
 # <a name="operate-your-service"></a>서비스 운영
 
@@ -49,7 +49,9 @@ ms.locfileid: "44868505"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>팀에 대해 작업을 구현 하는 방법을 결정 합니다.</li></ul></td></tr>
+
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>운영 가이드를 전체적으로 검토 합니다.</li><li>조직의 목표와 부합 하는 운영 전략을 구현 하 여 팀 작업량의 품질과 안정성을 제공 합니다.</li><li>경력 품질 검토 가이드를 검토 합니다.</li><li> 환경 리뷰를 정기적으로 수행 하 여 팀 구축이 최고 용량으로 운영 되는지 확인 하는 운영 전략을 구현 합니다.</li></ul></td></tr>
+
 </table>
 
 ### <a name="operational-role-mapping"></a>운영 역할 매핑
@@ -377,12 +379,12 @@ NPS는 – 100에서 100 까지의 인덱스 이며, 고객의 willingness을 �
 모든 조직에는 품질을 책임을 질 수 있는 그룹 또는 개인이 필요 합니다. 이는 서비스 관리에서 가장 중요 한 역할을 합니다. 품질 챔피언 역할은 사용자의 경험을 열정 하는 사람이 나 그룹에 게 할당 됩니다.
 이 역할에는 환경에서 추세를 식별 하는 기술 및 다른 팀과 협력 하 여 업데이트 관리를 위한 지원이 필요 합니다. 품질 챔피언에서 가장 좋은 후보는 일반적으로 고객 서비스 소유자입니다. 조직의 규모 및 복잡도에 따라 고품질 사용자 환경을 보장 하는 데 필요한 열정을 갖는 사람이 나 그룹을 사용할 수 있습니다.
 
-품질 챔피언은 기존 도구 및 문서화 된 프로세스 (예: CQD) 및 경험 치 리뷰 가이드, 사용자 경험을 모니터링 하 고, 품질 추세를 식별 하 고, 필요한 경우 재구성을 활용 합니다.
+품질 챔피언은 기존 도구 및 문서화 된 프로세스 (예: CQD)를 사용 하 고 [팀에 대 한 통화 품질을 개선 및 모니터링](monitor-call-quality-qos.md)하 고, 사용자 환경을 모니터링 하 고, 품질 추세를 식별 하 고, 필요한 경우 재구성 하는 과정을 활용 합니다.
 품질 챔피언은 각 팀과 관리 작업을 처리 하 고 진행 상황과 모든 미해결 문제에 대 한 조종 위원회에 보고 해야 합니다.
 
-[경력 품질 검토 가이드](https://aka.ms/qerguide) 에는 사용자 환경 개선에 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 작업이 포함 됩니다. 품질 경험 검토 가이드에서 제공 하는 지침에 따라, 각 영역을 보고 하 고 조사 하 고, 오디오에 집중 하 여 채택을 비롯 하 여 효과를 최대화할 수 있는 기본 도구로 CQD Online을 사용 하는 것에 중점을 두기. 오디오 환경을 개선 하기 위해 네트워크에 대 한 최적화는 비디오 및 데스크톱 공유의 향상 된 기능으로 직접 번역 될 수 있습니다.
+[팀의 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md) 에는 사용자 환경 개선에 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 작업이 포함 됩니다. 품질 경험 검토 가이드에서 제공 하는 지침에 따라, 각 영역을 보고 하 고 조사 하 고, 오디오에 집중 하 여 채택을 비롯 하 여 효과를 최대화할 수 있는 기본 도구로 CQD Online을 사용 하는 것에 중점을 두기. 오디오 환경을 개선 하기 위해 네트워크에 대 한 최적화는 비디오 및 데스크톱 공유의 향상 된 기능으로 직접 번역 될 수 있습니다.
 
-품질 챔피언을 일찍 지명할 것을 적극 권장 합니다. 지정 된 후에는 경험 치 검토 가이드의 콘텐츠와 관련 교육 자료를 숙지 하기 시작 해야 합니다.
+품질 챔피언을 일찍 지명할 것을 적극 권장 합니다. 지정 된 후에는 팀과 관련 교육 자료의 [향상 및 모니터링에 대 한](monitor-call-quality-qos.md) 콘텐츠를 숙지 하기 시작 해야 합니다.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
@@ -398,7 +400,7 @@ NPS는 – 100에서 100 까지의 인덱스 이며, 고객의 willingness을 �
 
 [건물 정보 업로드](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[QoE(체감 품질) 검토 가이드](https://aka.ms/qerguide)
+[팀의 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
@@ -419,7 +421,7 @@ Microsoft 팀 끝점은 팀 클라이언트를 실행 하는 PC, Mac, 태블릿 
 
 ### <a name="wi-fi-drivers"></a>Wi-fi 드라이버
 
-Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이버는 필요 하지 않은 액세스 지점 전환을 유도 하 고 잘못 된 통화 음질을 초래 하는 액세스 지점 간에 적극적인 로밍 동작을 가질 수 있습니다. 잘못 수행 되는 Wi-fi 드라이버는 경험 치 검토를 통해 검색 될 수 있습니다 (자세한 내용은 [경력 검토 가이드](https://aka.ms/qerguide) 참조). 새로운 Wi-fi 드라이버를 모니터링 하 고 일반 사용자 모집단에 배포 하기 전에 테스트 하는지 확인 하는 고품질 프로세스를 구현 하는 것이 필수적입니다.
+Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이버는 필요 하지 않은 액세스 지점 전환을 유도 하 고 잘못 된 통화 음질을 초래 하는 액세스 지점 간에 적극적인 로밍 동작을 가질 수 있습니다. 잘못 수행 되는 Wi-fi 드라이버는 경험 치 검토를 통해 검색 될 수 있습니다 (자세한 내용은 [팀의 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md) 참조). 새로운 Wi-fi 드라이버를 모니터링 하 고 일반 사용자 모집단에 배포 하기 전에 테스트 하는지 확인 하는 고품질 프로세스를 구현 하는 것이 필수적입니다.
 
 ### <a name="endpoint-management"></a>끝점 관리
 
@@ -445,7 +447,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 |---|---|---|---|
 | 끝점 요구 사항 | 팀 끝점이 [Microsoft 팀 용 클라이언트 가져오기](get-clients.md)에 나열 된 팀의 모든 소프트웨어 요구 사항을 계속 충족 하는지 확인 합니다. | 월간 | |
 | 끝점 방화벽 | [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips)에 대 한 정보를 기반으로 끝점 방화벽에 대 한 적절 한 제외를 유지 합니다. 타사 공급 업체는 제외를 유지 하는 방법에 대 한 특정 지침을 제공 합니다. 자동으로 변경 내용을 알리도록 [RSS 피드에](https://support.office.com/o365ip/rss) 가입 합니다. | 필요에 따라 | |
-| Wi-fi 드라이버 | PC에서 Wi-fi 드라이버를 테스트 하 고 업데이트 합니다. CQD ([경력 수준 검토 가이드](https://aka.ms/qerguide))를 사용 하 여 결과의 유효성을 검사 합니다. | 필요에 따라 | |
+| Wi-fi 드라이버 | PC에서 Wi-fi 드라이버를 테스트 하 고 업데이트 합니다. CQD ([팀의 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md))를 사용 하 여 결과의 유효성을 검사 합니다. | 필요에 따라 | |
 | 끝점 관리 | 지원 되는 끝점 및 인터페이스 디바이스 (예: 헤드셋)의 카탈로그를 유지 관리 합니다. 공급 업체 계약, 보증, 배포, 대체 및 복구 정책을 관리 합니다. | 월간 | |
 | 끝점 문제 해결 | 문제 해결 작업에는 연결 확인, 알려진 문제점 목록, 로그 수집, 분석, Microsoft 지원 또는 타사 공급 업체에 대 한 escalation 등이 포함 될 수 있습니다. | 필요에 따라 | |
 

@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Windows PowerShell 및 CsTenant 및 CsTenantLicensingConfiguration cmdlet을 사용 하 여 비즈니스용 Skype Online 테 넌 트에 대 한 정보를 가져옵니다.
-ms.openlocfilehash: e4765fbbe8c705300bb93c09651034e080a8132e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 06597447edaf095be3df26b58e6210bb919ee0bd
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010621"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085694"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>비즈니스용 Skype Online 조 직 관리
+> [!NOTE]
+> 최신 [팀 powershell 공개 미리 보기 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/) 는 비즈니스용 Skype Online 커넥터와 통합 되어 팀 PowerShell 관리를 위한 단일 모듈을 제공 합니다.
 
 **CsTenant** 및 **CsTenantLicensingConfiguration** cmdlet을 사용 하 여 비즈니스용 Skype Online 테 넌 트에 대 한 정보를 확인할 수 있습니다.
   

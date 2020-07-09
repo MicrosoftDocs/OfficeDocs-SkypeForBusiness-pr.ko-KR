@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 32a334f4866c1874f60e85e3b74908f161d45a33
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 7e4db423d262f939362400cdec489ca065b5d5c1
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691554"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086205"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스에 대한 문제 해결
 ======================================================
@@ -54,3 +54,4 @@ ms.locfileid: "44691554"
 [Teams의 게스트 액세스](guest-access.md)
 
 
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

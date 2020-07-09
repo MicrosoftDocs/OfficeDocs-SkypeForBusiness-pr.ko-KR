@@ -1,12 +1,11 @@
 ---
 title: Microsoft 팀에서 서비스 품질 구현
-author: lanachin
-ms.author: v-lanac
+author: LolaJacobsen
+ms.author: lolaj
 manager: Serdars
-ms.date: 12/17/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
 description: Microsoft 팀의 QoS (서비스 품질)에 대 한 조직의 네트워크를 준비 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
@@ -21,40 +20,72 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a146b2971c32b88a8a8ef6925e38044b25b847e6
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ef2fca810a7125c4150ff4de2c3eea8fd7970d2e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665710"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085284"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft 팀에서 QoS (서비스 품질) 구현
 
-이 문서는 Microsoft 팀의 QoS (서비스 품질)에 대 한 조직의 네트워크를 준비 하는 데 도움이 됩니다. 대규모 사용자 그룹을 지 원하는 경우 아래에 언급 된 문제가 발생 하는 경우 QoS를 구현 해야 할 수 있습니다. 사용자 수가 적은 소규모 기업에는 QoS가 필요 하지 않을 수 있지만,이 경우에도 도움이 됩니다.
+Microsoft 팀의 QoS (서비스 품질)는 네트워크 지연 (예: 음성 또는 비디오 스트림)에 영향을 주는 실시간 네트워크 소통량을 중요 하지 않은 트래픽 앞으로 허용 하는 방식으로, 즉 다운로드 하는 추가 초가 큰 문제가 아닌 새 앱을 다운로드 하는 등의 "줄로 잘라내기" 하는 방법입니다. QoS는 실시간 스트림의 모든 패킷을 식별 하 고 표시 합니다 (Windows 그룹 정책 개체 및 포트 기반 액세스 제어 목록 이라고 하는 라우팅 기능, 아래에 대해 자세히 설명) 그런 다음 네트워크에서 음성, 비디오 및 화면 공유 스트림을 네트워크 대역폭의 전용 부분으로 제공 하는 데 도움이 됩니다.
 
-QoS는 중요 한 네트워크 트래픽 (예: 음성 또는 비디오 스트림)을 사용 하는 것을 허용 하는 방법으로 네트워크 지연이 중요 한 트래픽 앞 (새 앱 다운로드 (예: 다운로드가 2 초에 큰 문제가 되지 않는 경우))입니다. QoS는 실시간 스트림의 모든 패킷을 식별 하 고 표시 합니다 (Windows 그룹 정책 개체 및 포트 기반 액세스 제어 목록 이라고 하는 라우팅 기능, 아래에 대해 자세히 설명) 그런 다음 네트워크에서 음성, 비디오 및 화면 공유 스트림을 네트워크 대역폭의 전용 부분으로 제공 하는 데 도움이 됩니다.
+대규모 사용자 그룹을 지원 하 고 있고 아래에 설명 된 문제가 발생 하는 경우에는 QoS를 구현 해야 할 것입니다. 사용자 수가 적은 소규모 기업에는 QoS가 필요 하지 않을 수 있지만,이 경우에도 도움이 됩니다.
 
 일부 QoS 형식이 없는 경우 다음과 같은 음성 및 비디오의 품질 문제가 나타날 수 있습니다.
 
-- 지터 – 다른 요금으로 도착 하는 미디어 패킷으로, 통화에 누락 된 단어나 음절이 생길 수 있습니다.
-- 패킷 손실 – 패킷이 손실 되 고 음성 품질이 낮고 음성을 이해 하기 어려울 수도 있습니다.
-- 지연 왕복 시간 (RTT) – 대상에 도달 하는 데 오랜 시간이 소요 되는 미디어 패킷이 있어 대화 중 두 당사자 간의 지연이 현저 하 게 발생 하 여 사람들이 서로 대화를 나눌 수 있습니다.
+- 지터 – 다른 요금으로 도착 하는 미디어 패킷으로,이로 인해 통화에 단어나 음절이 누락 될 수 있습니다.
+- 패킷 손실 – 손실 된 패킷, 음성 품질을 낮추고 음성을 이해 하기 어려울 수도 있습니다.
+- 지연 왕복 시간 (RTT) – 대상에 도달 하는 데 오랜 시간이 소요 되는 미디어 패킷이 있어 대화 중 두 당사자 간의 지연이 현저 하 게 진행 되어 다른 사람이 서로를 서로 대화 하는 것을 일으킵니다.
 
-이러한 문제를 해결 하는 가장 복잡 한 방법은 인터넷을 통해 내부와 외부 모두 데이터 연결의 크기를 늘리는 것입니다. QoS는 대개 비용을 초과 하기 때문에 새 리소스를 추가 하는 대신 사용 하는 리소스를 보다 효과적으로 관리 하는 방법을 제공 합니다. 품질 문제를 완벽 하 게 해결 하려면 구현 전체에서 QoS를 사용 하 고 꼭 필요한 경우에만 연결을 추가 합니다.
+이러한 문제를 해결 하는 가장 복잡 한 방법은 인터넷을 통해 내부와 외부 모두 데이터 연결의 크기를 늘리는 것입니다. QoS는 대개 비용을 초과 하기 때문에 대역폭을 추가 하는 대신 사용 하는 리소스를 보다 효과적으로 관리 하는 방법을 제공 합니다. 품질 문제를 해결 하려면 먼저 QoS를 사용 하 고 필요한 경우에만 대역폭을 추가 하는 것이 좋습니다.
 
-Qos 우선 순위를 지원 하지 않는 경로의 일부는 통화, 비디오, 화면 공유의 품질을 저하 시킬 수 있기 때문에 QoS는 효율성을 위해 조직에서 end에 일관 된 QoS 설정을 적용 해야 합니다. 여기에는 모든 사용자 Pc 또는 장치, 네트워크 스위치, 인터넷 라우터에, 팀 온라인 서비스에 설정을 적용 하는 것이 포함 됩니다.
+Qos 우선 순위를 지원 하지 않는 경로의 일부는 통화, 비디오, 화면 공유의 품질을 저하 시킬 수 있으므로 QoS가 유효 하기 위해서는 조직 전체에 일관 된 QoS 설정을 적용 합니다. 여기에는 모든 사용자 Pc 또는 장치, 네트워크 스위치, 인터넷 라우터에, 팀 서비스에 설정을 적용 하는 것이 포함 됩니다.
 
 _그림 1. 조직의 네트워크와 Microsoft 365 또는 Office 365 서비스 간의 관계_
 
 ![네트워크와 서비스 간의 관계를 보여 주는 그림](media/Qos-in-Teams-Image1.png "조직의 네트워크와 Microsoft 365 또는 Office 365 서비스 간의 관계: 온-프레미스 네트워크 및 장치는 interconnect 네트워크로 연결 되며,이는 다시 Microsoft 365 또는 Office 365 클라우드 음성 및 오디오 회의 서비스와 연결 됩니다.")
 
-대부분의 경우 엔터프라이즈를 클라우드에 연결 하는 네트워크는 관리 되지 않는 네트워크 이며, 이렇게 하면 안전 하 게 QoS 옵션을 설정할 수 없게 됩니다. 주소 종단 간 QoS에서 사용할 수 있는 한 가지 선택 사항은 [Azure express](https://azure.microsoft.com/documentation/articles/expressroute-introduction/)경로 이지만 인바운드 및 아웃 바운드 트래픽 모두에 대해 온-프레미스 네트워크에 QoS를 구현 하는 것이 좋습니다. 이렇게 하면 배포 전체에서 실시간 통신 작업의 품질을 높이고 chokepoints을 줄일 수 있습니다.
+## <a name="qos-implementation-checklist"></a>QoS 구현 검사 목록
 
-## <a name="verify-your-network-is-ready"></a>네트워크가 준비 되었는지 확인
+높은 수준에서 QoS를 구현 하려면 다음을 수행 합니다.
+
+1. [네트워크가 준비 되었는지 확인](#make-sure-your-network-is-ready)
+
+1. [QoS 구현 방법 선택](#select-a-qos-implementation-method)
+
+1. [각 미디어 유형의 초기 포트 범위 선택](#choose-initial-port-ranges-for-each-media-type)
+
+1. QoS 설정 구현:
+   1. GPO를 사용 하 여 [클라이언트 장치 포트 범위 및 표식을 설정](QoS-in-Teams-clients.md) 하는 클라이언트
+   2. 라우터 (제조업체 설명서 참조) 또는 기타 네트워크 장치 여기에는 포트 기반 Acl이 포함 되거나 QoS 큐와 DSCP 표시 또는이 모두를 정의 하는 것이 표시 됩니다.
+
+      > [!IMPORTANT]
+      > 클라이언트 원본 포트와 "모든"의 원본 및 대상 IP 주소를 사용 하 여 이러한 QoS 정책을 구현 하는 것이 좋습니다. 이렇게 하면 내부 네트워크의 들어오고 나가는 미디어 소통량이 모두 포착 됩니다.  
+
+   3. [팀 모임에 대 한 미디어 트래픽을 처리 하는 방법을 설정 합니다.](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+
+5. 네트워크에서 팀 트래픽을 분석 하 여 [QoS 구현에 대 한 유효성을 검사](#validate-your-qos-implementation) 합니다.
+
+QoS를 구현할 준비가 되 면 다음 지침을 염두에 두어야 합니다.
+
+- Microsoft 365의 최단 경로는 가장 좋은 방법입니다.
+- 포트를 닫으면 음질이 저하 될 수 있습니다.
+- 프록시 등의 장애를 하는 것은 권장 되지 않습니다.
+- 홉 수 제한:
+  - 클라이언트-네트워크에 지-3 ~ 5 홉
+  - ISP-Microsoft 네트워크에 지-3 홉
+  - Microsoft 네트워크 edge에서 최종 목적지까지-관련이 없음
+
+방화벽 포트를 구성 하는 방법에 대 한 자세한 내용은 [Office 365 url 및 IP 범위로](office-365-urls-ip-address-ranges.md)이동 하세요.
+
+
+## <a name="make-sure-your-network-is-ready"></a>네트워크가 준비 되었는지 확인
 
 QoS 구현을 고려 하는 경우에는 이미 대역폭 요구 사항 및 기타 [네트워크 요구 사항을](prepare-network.md)결정 해야 합니다. 
   
-  네트워크를 통한 트래픽 정체는 미디어 품질에 큰 영향을 줍니다. 대역폭 부족으로 인해 성능이 저하 되 고 사용자 환경이 저하 될 수 있습니다. 팀을 도입 하 고 사용 하는 데는 보고, [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md) 를 사용 하 여 문제를 식별 하 고 QoS 및 선택적 대역폭 추가를 사용 하 여 조정을 수행 합니다.
+네트워크를 통한 트래픽 정체는 미디어 품질에 큰 영향을 줍니다. 대역폭 부족으로 인해 성능이 저하 되 고 사용자 환경이 저하 될 수 있습니다. 팀을 도입 하 고 사용 하는 데는 보고, 사용자별 [통화 분석](use-call-analytics-to-troubleshoot-poor-call-quality.md), [통화 품질 대시보드 (cqd)](turning-on-and-using-call-quality-dashboard.md) 를 사용 하 여 문제를 식별 하 고 QoS 및 선택적 대역폭 추가를 사용 하 여 조정을 만듭니다.
 
 ### <a name="vpn-considerations"></a>VPN 고려 사항
 
@@ -68,7 +99,7 @@ QoS를 제공 하려면 네트워크 장치에 트래픽을 분류 하는 방법
 
 네트워크 트래픽이 라우터로 들어가면 소통량이 대기열에 배치 됩니다. QoS 정책이 구성 되지 않은 경우 하나의 큐만 있으며 모든 데이터는 동일한 우선 순위로 첫 번째 항목으로 처리 됩니다. 즉, 지연 하는 것이 매우 중요 한 음성 소통량이 발생 하는 것은 몇 가지 추가 밀리초의 지연이 문제가 되지 않는 트래픽 뒤에 있을 수 있다는 것입니다.
 
-QoS를 구현할 때는 몇 가지 혼잡 관리 기능 (예: Cisco의 우선 순위 대기열 및 클래스 기반 가중치 공정 큐 [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641))과 혼잡 방지 기능 (예: 가중치가 지정 된 무작위 조기 검색 [wred](https://en.wikipedia.org/wiki/Weighted_random_early_detection))을 사용 하 여 여러 큐를 정의 합니다.
+QoS를 구현할 때는 몇 가지 혼잡 관리 기능 (예: Cisco의 우선 순위 대기열 및 [클래스 기반 가중치 공정 (CBWFQ)](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)) 및 혼잡 방지 기능 (예: 가중치가 지정 된 [무작위 조기 감지 (wred)](https://en.wikipedia.org/wiki/Weighted_random_early_detection)) 중 하나를 사용 하 여 여러 큐를 정의 합니다.
 
 _그림 2. QoS 큐의 예_
 
@@ -80,19 +111,19 @@ _그림 2. QoS 큐의 예_
 
 네트워크 라우터의 Acl (액세스 제어 목록)을 사용 하 여 포트 기반 태깅을 통해 QoS를 구현할 수 있습니다. 포트 기반 태깅은 혼합 Windows, Mac 및 Linux 환경에서 작동 하 고 구현 하기가 가장 쉽고 가장 신뢰할 수 있는 방법입니다. 모바일 클라이언트는 DSCP 값을 사용 하 여 트래픽을 표시 하는 메커니즘을 제공 하지 않으므로이 메서드가 필요 합니다.  
 
-이 방법을 사용 하면 네트워크 라우터가 들어오는 패킷을 검사 하 고, 특정 포트 또는 포트 범위를 사용 하 여 패킷이 도착 하는 경우, 다른 장치가 해당 트래픽 유형을 인식 하 고 해당 사용자의 대기열에 우선 순위를 지정할 수 있도록 특정 미디어 유형으로 지정 된 [DSCP](https://tools.ietf.org/html/rfc2474) 표시를 IP 패킷 헤더에 추가 하 여 해당 유형의 대기열에 배치 합니다.
+포트 기반 태깅을 사용 하면 네트워크 라우터가 들어오는 패킷을 검사 하 고, 특정 포트 또는 포트 범위를 사용 하 여 패킷이 도착 하는 경우, 다른 장치가 해당 트래픽 유형을 인식 하 고 해당 사용자의 큐에 우선 순위를 지정할 수 있도록 IP 패킷 헤더에 미리 정의 된 [DSCP](https://tools.ietf.org/html/rfc2474) 표시를 추가 하 여 해당 형식의 큐에 배치 합니다.
 
 이것은 플랫폼에서 작동 하지만 WAN edge의 트래픽만 클라이언트 컴퓨터에 표시 하 고 관리 오버 헤드를 생성 합니다. 이 방법을 구현 하는 방법에 대 한 지침은 라우터 제조업체에서 제공 하는 설명서를 참조 해야 합니다.
 
-* * *
+### <a name="insert-dscp-markers"></a>DSCP 표식 삽입
 
-또한 GPO (그룹 정책 개체)를 사용 하 여 클라이언트 장치를 특정 유형의 트래픽 (예: 음성)으로 식별 하는 IP 패킷 헤더에 DSCP 마커를 삽입 하도록 하 여 구현 된 QoS를 구현할 수 있습니다. 라우터 및 기타 네트워크 장치가이를 인식 하 고 우선 순위가 높은 별도의 큐에 트래픽을 전송 하도록 구성할 수 있습니다.
+또한 GPO (그룹 정책 개체)를 사용 하 여 클라이언트 장치를 특정 유형의 트래픽 (예: 음성)으로 식별 하는 IP 패킷 헤더에 DSCP 마커를 삽입 하도록 하 여 QoS를 구현할 수도 있습니다. 라우터 및 기타 네트워크 장치가이를 인식 하 고 우선 순위가 높은 별도의 큐에 트래픽을 전송 하도록 구성할 수 있습니다.
 
 이 시나리오는 완전히 유효 하지만 도메인에 가입 된 Windows 클라이언트에 대해서만 작동 합니다. 도메인에 가입 된 Windows 클라이언트가 아닌 모든 장치는 DSCP 태깅에 대해 사용 하도록 설정 되지 않습니다. Mac OS와 같은 클라이언트는 하드 코딩 된 태그를 포함 하며 항상 트래픽에 태그를 지정 합니다.
 
 플러스 측면에서, GPO를 통해 DSCP 표시를 제어 하면 모든 도메인 참가 컴퓨터가 동일한 설정을 받고 관리자만 관리할 수 있습니다. GPO를 사용할 수 있는 클라이언트는 원래 장치에서 태그가 지정 되 고, 구성 된 네트워크 디바이스는 DSCP 코드에서 실시간 스트림을 인식 하 고 적절 한 우선 순위를 제공할 수 있습니다.
 
-* * *
+### <a name="best-practice"></a>모범 사례
 
 끝점 및 포트 기반 Acl (가능 하면 라우터의 경우)에 DSCP 표시를 조합 하는 것이 좋습니다. 그룹 정책 개체를 사용 하 여 대부분의 클라이언트를 catch 하 고 포트 기반 DSCP 태깅을 사용 하면 모바일, Mac 및 다른 클라이언트가 여전히 QoS 처리를 할 수 있습니다 (최소한 부분적).
 
@@ -105,8 +136,6 @@ DSCP 표시는 우편 작업자에 게 배달이 얼마나 긴급 한지, 그리
 DSCP 값은 패킷 또는 스트림에 제공 되는 우선 순위 (dscp 표시가 클라이언트에 의해 할당 되는지 여부 또는 ACL 설정에 따라 네트워크 자체에 의해 지정 됨)에 대 한 우선순위를 구성 된 네트워크에 알려 줍니다. 각 미디어 작업 부하에는 고유한 DSCP 값 (다른 서비스에서 DSCP 표시를 공유 하도록 허용 하 고, 팀은 포함 하지 않음)과 각 미디어 유형에 사용 되는 정의 된 별도의 포트 범위가 있습니다. 다른 환경에는 네트워크 작업의 우선 순위를 결정 하는 데 도움이 되는 기존 QoS 전략이 있을 수 있습니다.
 
 다양 한 실시간 스트리밍 작업의 포트 범위에 대 한 상대적 크기는 해당 작업 부하 전용의 총 사용 가능 대역폭의 비율을 설정 합니다. 앞에서 설명한 우편으로 돌아가려면 "Air Mail" 스탬프가 있는 문자는 1 시간 내에 가장 가까운 공항으로, "대량 메일" 표시로 표시 된 작은 패키지는 여러 개의 트럭을 통해 여행 하기 전에 하루 동안 대기할 수 있습니다.
-
-다음 표에서는 필요한 DSCP 표식 및 제안 된 적절 한 미디어 포트 범위를 팀과 Express에서 모두 사용 하는 방법을 보여 줍니다. 이러한 범위는 자신의 환경에서 사용할 사항을 모르는 고객을 위한 좋은 출발점으로 사용할 수 있습니다. 자세한 내용은 [express의 QoS 요구 사항](https://docs.microsoft.com/azure/expressroute/expressroute-qos)읽기를 참고 하세요.
 
 _권장 되는 초기 포트 범위_
 
@@ -129,84 +158,29 @@ _권장 되는 초기 포트 범위_
 이전에 QoS 태깅 및 포트 범위를 포함 하 여 비즈니스용 Skype Online을 배포 하 고 팀을 배포 하는 경우 팀에서 기존 구성을 고려 하 고 비즈니스용 Skype 클라이언트와 동일한 포트 범위와 태그를 사용 하 게 됩니다. 대부분의 경우 추가 구성은 필요 하지 않습니다.
 
 > [!NOTE]
-> 그룹 정책을 통해 응용 프로그램 이름 QoS 태그를 사용 하는 경우에는 응용 프로그램 이름으로 excel.exe를 추가 해야 합니다.
+> 그룹 정책을 통해 응용 프로그램 이름 QoS 태그를 사용 하는 경우 응용 프로그램 이름으로 Teams.exe 추가 해야 합니다.
 
-## <a name="qos-implementation-steps"></a>QoS 구현 단계
-
-매우 높은 수준의 QoS 구현에는 다음 단계가 필요 합니다.
-
-1. [네트워크가 준비 되었는지 확인](#verify-your-network-is-ready)
-2. [QoS 구현 방법 선택](#select-a-qos-implementation-method)
-3. [각 미디어 유형의 초기 포트 범위 선택](#choose-initial-port-ranges-for-each-media-type)
-4. QoS 설정 구현:
-   1. GPO를 사용 하 여 [클라이언트 장치 포트 범위 및 표식을 설정](QoS-in-Teams-clients.md) 하는 클라이언트
-   2. 라우터 (제조업체 설명서 참조) 또는 기타 네트워크 장치 여기에는 포트 기반 Acl이 포함 되거나 QoS 큐와 DSCP 표시 또는이 모두를 정의 하는 것이 표시 됩니다.
-
-      > [!IMPORTANT]
-      > 클라이언트 원본 포트와 "모든"의 원본 및 대상 IP 주소를 사용 하 여 이러한 QoS 정책을 구현 하는 것이 좋습니다. 이렇게 하면 내부 네트워크의 들어오고 나가는 미디어 소통량이 모두 포착 됩니다.  
-
-   3. [팀 관리 센터](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
-5. 네트워크에서 팀 트래픽을 분석 하 여 [QoS 구현의 유효성을 검사](#validate-the-qos-implementation) 합니다.
-
-QoS를 구현할 준비가 되 면 다음 지침을 염두에 두어야 합니다.
-
-- Microsoft 365 또는 Office 365에 대 한 최단 경로는 가장 좋은 방법입니다.
-- 포트를 닫으면 품질이 저하 될 뿐입니다.
-- 프록시 등의 다른 장애가 있는 경우에는이 방법을 권장 하지 않습니다.
-- 홉 수 제한:
-  - 클라이언트-네트워크 경계-3 ~ 5 홉.
-  - ISP-Microsoft 네트워크에 지-3 홉
-  - Microsoft 네트워크 edge에서 최종 목적지까지-관련이 없음
-
-방화벽 포트를 구성 하는 방법에 대 한 자세한 내용은 [Microsoft 365 및 Office 365 url 및 IP 범위로](office-365-urls-ip-address-ranges.md)이동 하세요.
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>팀 관리 센터의 원본 포트 관리
 
-팀에서 여러 작업 부하에 사용 되는 QoS 원본 포트는 적극적으로 관리 되 고 필요에 따라 조정 되어야 합니다. [각 미디어 유형의 초기 포트 범위 선택](#choose-initial-port-ranges-for-each-media-type)에서 테이블을 참조 하면 포트 범위는 조정할 수 있지만 DSCP 표시는 구성할 수 없습니다. 이러한 설정을 구현한 후에는 지정 된 미디어 형식에 대해 포트 수가 더 많거나 적은 경우를 확인할 수 있습니다. [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md) 는 팀이 구현 된 후 포트 범위를 조정 하는 것을 결정 하 고 주기적으로 변경 해야 하는 경우에 사용 해야 합니다.
+팀에서 여러 작업 부하에 사용 되는 QoS 원본 포트는 적극적으로 관리 되 고 필요에 따라 조정 되어야 합니다. [각 미디어 유형의 초기 포트 범위 선택](#choose-initial-port-ranges-for-each-media-type)에서 테이블을 참조 하면 포트 범위는 조정할 수 있지만 DSCP 표시는 구성할 수 없습니다. 이러한 설정을 구현한 후에는 지정 된 미디어 형식에 대해 포트 수가 더 많거나 적은 경우를 확인할 수 있습니다. 팀을 구현 하 고 주기적으로 변경 해야 하는 경우 포트 범위를 조정 하기로 결정 하는 데는 [사용자 단위 호출 분석](use-call-analytics-to-troubleshoot-poor-call-quality.md) 및 [call Quality 대시보드 (cqd)](turning-on-and-using-call-quality-dashboard.md) 를 사용 해야 합니다.
 
 > [!NOTE]
-> 비즈니스용 Skype Online에 대 한 원본 포트 범위 및 DSCP 표시를 기반으로 QoS를 이미 구성한 경우 팀에는 동일한 구성이 적용 되며, 매핑에 대 한 추가 클라이언트 또는 네트워크 변경은 필요 하지 않지만, [팀 관리 센터에서 사용 되는 범위](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) 를 비즈니스용 Skype Online에 대해 구성 된 것과 일치 하도록 설정 해야 할 수는 있습니다.
+> 비즈니스용 Skype Online에 대 한 원본 포트 범위 및 DSCP 표시를 기반으로 QoS를 이미 구성한 경우 팀에 [사용 되는 범위](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) 를 비즈니스용 skype online에 대해 구성 된 것과 일치 시 키 지 않도록 설정 해야 하는 것은 아니지만, 매핑에 대 한 추가 클라이언트 또는 네트워크 변경은 필요 하지 않을 수 있습니다.
 
-이전에 비즈니스용 Skype Server 온-프레미스를 배포한 경우에는 QoS 정책을 다시 검사 하 고 필요에 맞게 조정 하 여 팀에 대 한 품질 사용자 환경을 제공 하는 것으로 확인 된 포트 범위 설정에 일치 시켜야 할 수 있습니다.
+이전에 비즈니스용 Skype Server 온-프레미스를 배포한 경우에는 QoS 정책을 다시 검사 하 고 팀에 대 한 품질 사용자 환경을 제공 하도록 확인 한 포트 범위 설정에 맞게 조정 해야 할 수 있습니다.
 
-## <a name="validate-the-qos-implementation"></a>QoS 구현 확인
+## <a name="validate-your-qos-implementation"></a>QoS 구현 확인
 
-QoS가 유효 하려면 그룹 정책 개체에서 설정한 DSCP 값이 통화의 양끝에 있어야 합니다. 팀 클라이언트에서 생성 된 트래픽을 분석 하 여 팀 작업 부하 트래픽이 네트워크를 통과할 때 DSCP 값이 변경 되거나 제거 되지 않았는지 확인할 수 있습니다.
+QoS가 유효 하려면 그룹 정책 개체에서 설정한 DSCP 값이 통화의 양끝에 있어야 합니다. 팀 클라이언트에서 생성 된 트래픽을 분석 하 여 팀 작업 부하 트래픽이 네트워크를 통해 이동할 때 DSCP 값이 변경 되거나 제거 되지 않았는지 확인할 수 있습니다.
 
 가능 하면 네트워크 송신 지점에서 트래픽을 캡처 하세요. 스위치 또는 라우터에서 포트 미러링을 사용 하 여이 작업을 도울 수 있습니다.
 
-### <a name="use-network-monitor-to-verify-dscp-values"></a>네트워크 모니터를 사용 하 여 DSCP 값 확인
 
-네트워크 모니터는 네트워크 트래픽을 분석 하기 위해 [Microsoft에서 다운로드할](https://www.microsoft.com/download/4865) 수 있는 도구입니다.
-
-1. 네트워크 모니터를 실행 하는 PC에서 포트 미러링에 대해 구성 된 포트에 연결 하 고 패킷 캡처를 시작 합니다.
-
-2. 팀 클라이언트를 사용 하 여 전화를 겁니다. 통화를 끊기 전에 미디어가 설정 되었는지 확인 합니다.
-
-3. 캡처를 중지 합니다.
-
-4. **표시 필터** 필드에서 호출을 수행한 PC의 원본 IP 주소를 사용 하 고 다음 예제와 같이 DSCP 값 46 (16 진수 0x2E)을 검색 조건으로 정의 하 여 필터를 구체화 합니다.
-
-    Source = = "192.168.137.201" 및 IPv4. DifferentiatedServicesField = = 0x2E
-
-    ![표시 필터 대화 상자의 스크린샷 필터](media/Qos-in-Teams-Image4.png "적용할 필터가 표시 된 네트워크 모니터의 표시 필터 대화 상자")
-
-5. **적용** 을 선택 하 여 필터를 활성화 합니다.
-
-6. **프레임 요약** 창에서 첫 번째 UDP 패킷을 선택 합니다.
-
-7. **프레임 세부 정보** 창에서 IPv4 목록 항목을 확장 하 고 **DSCP**로 시작 하는 줄의 끝에 있는 값을 확인 합니다.
-
-    ![프레임 세부 정보 대화 상자의 DSCP 설정을 보여 주는 스크린샷](media/Qos-in-Teams-Image5.png "네트워크 모니터의 프레임 세부 정보 대화 상자에서 DSCP 설정을 강조 표시 합니다.")
-
-이 예제에서는 DSCP 값이 46로 설정 됩니다. 사용 된 원본 포트는 50019 이며,이는 음성 작업 워크 이기 때문에이는 올바릅니다.
-
-GPO에 표시 된 각 작업 부하에 대해 확인을 반복 합니다.
-
-## <a name="more-information"></a>추가 정보
+## <a name="related-topics"></a>관련 항목
 
 [비디오: 네트워크 계획](https://aka.ms/teams-networking)
 
 [Microsoft Teams에 대한 조직의 네트워크 준비](prepare-network.md)
 
-[Express 경로 QoS 요구 사항](https://docs.microsoft.com/azure/expressroute/expressroute-qos)
+[팀 클라이언트에서 QoS 구현](QoS-in-Teams-clients.md)

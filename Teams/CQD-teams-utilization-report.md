@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 팀 활용 Power BI 보고서를 사용 하 여 조직의 Microsoft 팀 사용량을 추적 합니다.
-ms.openlocfilehash: efca39a89eecdf9d603a81a07d8529147f87698a
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+description: 팀 활용 Power BI 보고서를 사용 하 여 조직에서 Microsoft 팀 사용량을 추적 하기 위해 Microsoft 팀의 CQD (통화 품질 대시보드) 데이터에 액세스 합니다.
+ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978557"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085584"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>CQD 데이터를 사용 하 여 Power BI에서 Microsoft 팀 사용률 보기
 
 2020 년 3 월에 새로 추가 된, [CQD 용으로 다운로드할 수 있는 POWER BI 쿼리 서식 파일](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)에 팀 사용률 보고서가 추가 되었습니다. 
 
-이 새로운 팀 사용률 보고서를 사용 하 여 사용자가 Microsoft 팀을 사용 하는 방법과 그 정도를 확인할 수 있습니다. 이러한 보고서는 관리자와 비즈니스 리더가 모두이 데이터로 빠르게 이동할 수 있는 중앙 집중화 된 위치를 대상으로 합니다.
+이 새로운 팀 이용률 보고서를 통해 사용자가 CQD (팀 통화 품질) 대시보드 데이터에 액세스 하 여 Microsoft 팀을 사용 하는 방법을 확인할 수 있습니다. 이러한 보고서는 관리자와 비즈니스 리더가 모두이 데이터로 빠르게 이동할 수 있는 중앙 집중화 된 위치를 대상으로 합니다.
 
 팀 활용 Power BI 보고서는 두 가지 기본 보고서 ( **[통화 수 요약](#call-count-summary-report)** 및 **[오디오 시간 요약)](#audio-minutes-summary-report)** 로 구성 됩니다. 사용자가 아래 설명에 명시 된 드릴 다운 보고서를 이용 하는 경우 [일별 사용량](#daily-usage), [지역 오디오 세부 정보](#regional-audio-details), [회의 정보](#conference-details) 및 [사용자 목록](#user-list) 보고서가 재생에 제공 됩니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "42978557"
   ![스크린샷: 팀 이용률 보고서](media/CQD-teams-utilization-report4.png)
 
 페이지의 왼쪽 아래 섹션에서 지난 해의 각 미디어 유형에 대 한 총 값을 제공 하는 테이블을 찾을 수 있습니다. 
-    ![스크린샷: 팀 사용률 보고서](media/CQD-teams-utilization-report5.png) ![스크린샷: 팀 이용률 보고서](media/CQD-teams-utilization-report6.png)   
+    ![스크린샷: 팀 사용률 보고서 ](media/CQD-teams-utilization-report5.png) ![ 스크린샷: 팀 이용률 보고서](media/CQD-teams-utilization-report6.png)   
 
 가로 막대형 차트는 지난 30 일간의 사용 (호출/스트림)이 가장 많은 클라이언트를 표 오른쪽에 표시 합니다.
    ![스크린샷: 팀 이용률 보고서](media/CQD-teams-utilization-report7.png)
@@ -167,4 +167,6 @@ P2P 및 컨퍼런스 오디오의 차이를 표시 하기 위해 아래쪽 왼�
 [통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
  

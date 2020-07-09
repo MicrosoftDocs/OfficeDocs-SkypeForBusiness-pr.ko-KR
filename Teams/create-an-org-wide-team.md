@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a87ee4f846002537311fc5a9a9dd2e5f22757b0e
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868125"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086225"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams에서 조직 전체 팀 만들기
 
@@ -32,7 +32,7 @@ ms.locfileid: "44868125"
 
 ![조직 전체 팀을 만들기 위한 조직 전체 옵션의 스크린샷](media/create-org-wide-team.png "조직 전체 팀을 만들기 위한 조직 전체 옵션의 스크린샷")
 
-조직 전체 팀이 만들어지면 모든 전역 관리자가 팀 소유자로 추가되고 모든 활성 사용자가 팀 구성원으로 추가됩니다. 라이선스가 없는 사용자도 팀에 추가됩니다. 라이선스가 없는 사용자가 처음으로 Teams에 로그인하면 사용자에게 Microsoft Teams 상업적 클라우드 평가판 라이선스가 할당됩니다. 평가판 라이선스에 대한 자세한 내용은 [Teams 상업적 클라우드 평가판 제품](iw-trial-teams.md)을 참조하세요. 
+조직 전체 팀이 만들어지면 모든 전역 관리자가 팀 소유자로 추가되고 모든 활성 사용자가 팀 구성원으로 추가됩니다. 라이선스가 없는 사용자도 팀에 추가됩니다. 라이선스가 없는 사용자가 처음으로 팀에 로그인 할 때 사용자에 게 Microsoft 팀의 예비 라이선스가 할당 됩니다. 예비 라이선스에 대해 자세히 알아보려면 [Microsoft 팀 예비 라이선스 관리](teams-exploratory.md)를 참조 하세요. 
 
 다음 유형의 계정은 조직 전체 팀에 추가할 수 없습니다.
 

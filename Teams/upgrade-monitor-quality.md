@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b356d171ee8c1a66de2f69b0b0525c24220755
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 843acff0dafc7cd5ad2b3fd63ccc009c64716b03
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522561"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085924"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
@@ -33,7 +33,9 @@ ms.locfileid: "44522561"
 
 이 문서는 비즈니스용 Skype에서 팀으로 업그레이드를 완료 하는 즉시 시작 되는 업그레이드 여행에 대 한 작업을 위한 뛰어난 단계의 일부입니다.
 
-[경력 품질 검토 가이드](https://aka.ms/qerguide) 에는 아래 그림과 같이 사용자 환경 개선에 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 일련의 활동이 포함 됩니다.
+## <a name="improve-and-monitor-call-quality"></a>통화 음질 개선 및 모니터링
+
+[팀의 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md) 에는 아래 그림과 같이 사용자 환경 개선에 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 일련의 활동이 포함 됩니다.
 
 ![검토 중에 검사할 주요 영역에 대 한 그림입니다.](media/plan-my-service-management-image2.png "경력을 검토 하는 동안에는 오디오, 안정성, 사용자 설문 조사 결과 중에서 검사할 주요 영역입니다.")
 
@@ -51,8 +53,8 @@ ms.locfileid: "44522561"
 
 - 문제가 있는 서브넷 또는 네트워크 장치
 
-경력 품질 검토 가이드에서 제공 하는 지침에 따라, 제공 되는 각 영역에 대해 보고 하 고 조사 하 고, 오디오에 초점을 따라 채택 및 영향을 최대화 하는 기본 도구로 서 온라인으로 CQD (통화 품질 대시보드)를 사용할 수 있습니다. 오디오 환경을 개선 하기 위해 네트워크에 대 한 최적화는 비디오 및 데스크톱 공유의 향상 된 기능으로 직접 번역 될 수 있습니다.
+[팀의 통화 품질을 개선 하 고 모니터링](monitor-call-quality-qos.md) 하는 데 사용 되는 지침은 오디오에 초점을 따라 채택 및 영향을 최대화 하는 각 영역을 보고 하 고 조사 하는 기본 도구로 서 CQD (통화 품질 대시보드)를 온라인으로 사용 하는 것에 중점을 둔 오디오 환경을 개선 하기 위해 네트워크에 대 한 최적화는 비디오 및 데스크톱 공유의 향상 된 기능으로 직접 번역 될 수 있습니다.
 
-품질 챔피언을 일찍 지명할 것을 적극 권장 합니다. 지정 된 후에는 [경험 치 검토 가이드](https://aka.ms/qerguide)의 콘텐츠를 숙지 하기 시작 해야 합니다.
+품질 챔피언을 일찍 지명할 것을 적극 권장 합니다. 지정 된 후에는 [팀의 통화 품질을 개선 하 고 모니터링](monitor-call-quality-qos.md)하기 위해 콘텐츠를 숙지 하기 시작 해야 합니다.
 
 <!--ENDOFSECTION-->

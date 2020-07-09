@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 생성 하는 디버그, 미디어, 데스크톱 로그, 찾을 수 있는 위치, 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 2303082c4f1c16a28a9116047d904a5d491a535a
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012194"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085754"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft 팀 문제 해결에서 로그 파일 사용
 =================================================
@@ -127,3 +127,9 @@ Linux
 |Windows     |% appdata% \Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application 지원/Microsoft/팀/logs.txt         |
 |Linux       |~/.config/Microsoft/Microsoft 팀/logs.txt         |
+
+
+## <a name="related-topics"></a>관련 항목
+
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+

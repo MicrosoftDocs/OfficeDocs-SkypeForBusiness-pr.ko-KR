@@ -1,12 +1,12 @@
 ---
-title: QoS 구현 및 통화 분석 모니터
-author: dstrome
-ms.author: dstrome
+title: Microsoft 팀의 통화 품질 모니터링 및 개선
+author: lolajacobsen
+ms.author: lolaj
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: vkorlep, siunies
 description: QoS (서비스 품질) 설정을 사용한 다음 Microsoft 팀에서 분석 및 통화 품질 대시보드를 호출 합니다.
 localization_priority: Normal
 search.appverid: MET150
@@ -17,43 +17,56 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2157ea9ec536e644440161fb321c7a60bb8d396e
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2d5db11bbd9608aebb1eb2b73ebacc9793629e44
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638617"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085943"
 ---
-# <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Microsoft 팀에서 QoS를 구현 하 고 통화 품질을 모니터링
+# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>Microsoft 팀의 통화 품질 모니터링 및 개선
 
-## <a name="get-started"></a>시작 하기
+이 문서에서는 Microsoft 팀에서 통화 품질을 모니터링, 문제 해결, 관리 및 개선 하는 데 사용할 수 있는 세 가지 주요 도구에 대해 설명 합니다. 
 
-사용자가 전화를 걸고 모임에 참가 하기 위해 팀을 사용 하기 시작 하면 통화 또는 모임에서 발신자의 음성이 발생 하거나 chopping 수 있습니다. 공유 비디오가 중지 또는 pixelate 수도 있고 모두 실패할 수 있습니다. 이는 네트워크 혼잡이 발생 하 고 순서에 도달 하지 않은 음성 및 비디오 트래픽을 나타내는 IP 패킷으로 인해 발생 합니다. 이러한 문제를 처리 하 고 반환 하는 것을 방지 하는 방법 (주로 QoS (서비스 품질)을 확인할 수 있는 방법이 있습니다.
+- **CQD (통화 품질 대시보드)**: 조직 전체에 걸친 추세 또는 문제를 분석 하는 데 드라이브 성능이 향상 되었습니다.
 
-**QoS (서비스 품질)** 는 네트워크 지연과 같은 중요 한 네트워크 트래픽 (예: 새 앱을 다운로드 하 여 다운로드 하는 것이 중요 하지 않은 경우) 앞에 "줄의 잘라내기"를 허용 하는 방법입니다. QoS는 Windows 그룹 정책 개체와 포트 기반 액세스 제어 목록 이라는 라우팅 기능을 사용 하 여 실시간 스트림의 모든 패킷을 식별 하 고 표시 하 고, 이렇게 하면 네트워크에서 음성, 비디오 및 화면 공유 스트림을 네트워크 대역폭의 전용 부분에 제공할 수 있습니다.
+- **통화 분석**: 개별 사용자의 통화 및 모임 품질을 분석 하는 방법
 
- 전자 메일을 통해 편지를 보내는 것과 같은 기능을 제공 하는 것과 같은 방법으로, 책 속도를 제공 하는 것이 훨씬 좋을 것이 고,이에 대 한 첫 번째 수업을 보내는 것이 훨씬 더 빠르기 때문에, 우선 순위가 높은 메일을 보내는 경우 2 일 이내에 표시 됩니다. 많은 양의 네트워크는 메일 보다 빠르게 실행 되지만, 일부 응용 프로그램에 대해 속도가 중요 하 고 다른 사용자에 게는 중요 하지 않은 경우에도 계속 실행 됩니다. 이 주제는 본질적으로 기본적으로 자세 하 고 이해 하기 힘든 반면, 시간과 에너지 선행에 투자 하는 것이 가능 하도록 사용자 환경에 큰 차이를 줍니다. 자세한 내용은 [Microsoft 팀에서 서비스 품질 구현 (QoS)](QoS-in-Teams.md) 을 참조 하세요.
+- **QoS (서비스 품질)**: 중요 한 네트워크 트래픽 우선 순위 지정
 
-이상적으로는 팀을 설정 하는 동안 내부 네트워크에 QoS를 구현할 수 있지만,이 경우 선택 사항으로 충분 합니다. 이렇게 하면 지연 되는 음성 및 비디오 트래픽이 다른 트래픽에 대 한 우선 순위를 가질 수 있습니다. 모든 [클라이언트 장치](QoS-in-Teams-clients.md), [Microsoft 팀 관리 센터](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)및 네트워크의 스위치와 라우터에서이 우선 순위를 지정 합니다.
 
-[**통화 분석 및 통화 품질 대시보드**](difference-between-call-analytics-and-call-quality-dashboard.md) 는 진행 중인 작업 중 발생 하는 문제를 찾아서 해결 하는 데 사용 됩니다.  
 
-**통화 분석** 에서는 Microsoft 팀 또는 비즈니스용 Skype 계정의 각 사용자에 대 한 ***특정 통화 및 모임*** 과 관련 된 장치, 네트워크 및 연결에 대 한 자세한 정보를 보여 줍니다. Microsoft 365 또는 Office 365 관리자 인 경우 통화 분석을 사용 하 여 특정 통화에서 발생 하는 통화 품질 및 연결 문제를 해결할 수 있습니다. 이는 문제를 식별 하 고 제거 하는 데 도움이 됩니다.
+## <a name="monitor-and-troubleshoot-call-quality"></a>통화 음질 모니터링 및 문제 해결
+사용자 단위 **통화 분석** 및 **통화 품질 대시보드** 를 사용 하 여 진행 중인 작업 중에 발생 하는 통화 품질 문제를 찾고 해결 합니다. 이렇게 하면 네트워크에서 성능을 향상 시킬 수 있습니다. 이러한 도구는 모두 팀 관리 센터에 있습니다.
 
-**콜 품질 대시보드 (CQD)** 는 관리자와 네트워크 엔지니어가 ***네트워크***를 최적화 하 고 단일 통화를 분석 하 고 문제를 해결할 수 있도록 설계 되었습니다. CQD는 특정 사용자 로부터 포커스를 이동 하 여 전체 조직에 대 한 집계 된 정보를 확인 합니다. 또한 문제를 식별 하 고 제거 하는 데 도움이 될 수 있습니다.
+ - **통화 분석** 은 팀의 각 사용자에 대 한 ***특정 통화 및 모임*** 과 관련 된 장치, 네트워크 및 연결에 대 한 자세한 정보를 보여 줍니다. 팀 관리자 및 헬프데스크 상담원은이 정보를 사용 하 여 특정 전화의 통화 품질 및 연결 문제를 해결할 수 있습니다. 자세한 내용은 통화 [분석 설정](set-up-call-analytics.md) 및 통화 [분석을 사용 하 여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)을 참고 하세요.
+ 
+ - **CQD (통화 품질 대시보드)** 는 조직의 ***네트워크 전체*** 에 걸친 통화 품질 보기를 제공 합니다. 모든 문제를 식별 하 고 해결 하는 데 도움이 되는 CQD 정보를 사용 합니다. 먼저 [CQD를 설정](turning-on-and-using-call-quality-dashboard.md)합니다. 그런 다음 [팀에서 통화 및 모임 품질 관리](quality-of-experience-review-guide.md)를 읽어 보세요.
+
+ 통화 분석 및 CQD는 병렬로 실행 되며 독립적으로 또는 함께 사용할 수 있습니다. 예를 들어 통신 지원 전문가에 게 사용자의 통화 문제 해결에 대 한 추가 지원이 필요한 것으로 판단 되는 경우 통화를 통신 지원 엔지니어에 게 전달 하 고, 사용자는 통화에 대 한 자세한 정보에 액세스할 수 있습니다. 그러면 통신 지원 엔지니어가 전화 분석에서 발견 되는 사이트 관련 문제에 대 한 네트워크 엔지니어를 알립니다. 네트워크 엔지니어는 전체 사이트 관련 문제가 사용자의 통화 문제를 일으킬 수 있는지 확인 하기 위해 CQD를 검사 합니다.
+
+
+## <a name="prioritize-important-network-traffic-using-qos"></a>QoS를 사용 하 여 중요 한 네트워크 트래픽 우선 순위 지정
+사용자가 팀을 사용 하 여 통화 및 모임을 시작 하면 통화 또는 모임에서 발신자의 음성이 발생 하거나 절삭 될 수 있습니다. 공유 비디오가 중지 또는 pixelate 수도 있고 모두 실패할 수 있습니다. 이는 네트워크 혼잡이 발생 하 고 순서에 도달 하지 않은 음성 및 비디오 트래픽을 나타내는 IP 패킷으로 인해 발생 합니다. 이 문제가 발생 하는 경우 (또는 처음에이를 발생 하지 않도록 하려면) **서비스 품질 (QoS)** 을 사용 합니다. 
+
+QoS를 사용 하는 경우에는 지연 되는 네트워크 트래픽 (예: 음성 또는 비디오 스트림)의 우선 순위를 지정 하 여 중요 하지 않은 트래픽 앞 (즉, 다운로드가 시작 되는 추가 초가 큰 문제가 아닌 경우 새 앱 다운로드)에 "줄에서 잘라내기"를 허용 합니다. QoS는 실시간 스트림의 모든 패킷을 식별 하 고 표시 하며, Windows 그룹 정책 개체와 포트 기반 액세스 제어 목록 이라는 라우팅 기능을 사용 하 여 네트워크에 음성, 비디오, 화면 공유를 제공 하 여 자신의 전용 네트워크 대역폭을 공유할 수 있도록 합니다.
+
+이상적으로는 팀 롤아웃을 준비 하는 동안 내부 네트워크에 QoS를 구현 하지만 언제 든 지이 작업을 수행할 수 있습니다. 충분히 작은 경우 QoS가 필요 하지 않을 수 있습니다.
+
+준비가 되 면 [Microsoft 팀에서 QoS (서비스 품질)](QoS-in-Teams.md)를 읽어 보세요.
+
+QoS를 사용 하 여 모임 트래픽을 관리 하려면 [팀 모임에 대 한 실시간 미디어 트래픽을 처리 하는 방법 설정을](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)읽습니다.
+
 
 ## <a name="related-topics"></a>관련 항목
-
-[Microsoft 팀에서 QoS (서비스 품질) 구현](QoS-in-Teams.md)
-
-[비디오: 통화 품질 개요](https://aka.ms/teams-quality)
 
 [통화 분석 설정](set-up-call-analytics.md)
 
 [통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[통화 품질 대시보드 켜기 및 사용](turning-on-and-using-call-quality-dashboard.md)
+[CQD 설정](turning-on-and-using-call-quality-dashboard.md)
 
-[통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[팀에서 통화 및 모임 품질 관리](quality-of-experience-review-guide.md)
 
-[통화 품질 대시보드의 분류 간소화](stream-classification-in-call-quality-dashboard.md)
+[Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
