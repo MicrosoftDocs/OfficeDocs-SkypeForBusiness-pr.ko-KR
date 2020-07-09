@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 기존 SharePoint Online 사이트 또는 페이지를 이용해 조직의 인트라넷 포털로 사용할 수 있는 독립 실행형 정적 탭을 만듭니다.
 localization_priority: Priority
-ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326585"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083168"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기
 
@@ -105,7 +105,7 @@ Teams 데스크톱에서 새 탭을 보려면 앱 표시줄 왼쪽에 있는 줄
 
 ## <a name="a-sample-manifestjson-file"></a>샘플 Manifest.JSON 파일
 
-사용자가 생성하는 JSO        파일이 아래와 같이 표시됩니다.
+사용자가 생성하는 JSON 파일이 아래와 같이 표시됩니다.
 
 ```JSON'
 {
