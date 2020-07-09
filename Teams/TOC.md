@@ -382,7 +382,6 @@
 #### [영국의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [미국의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
-
 ### 무료 전화 걸기 제한 사항
 #### [개요](toll-free-dialing-limitations-and-restrictions.md)
 #### [아르헨티나](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -518,7 +517,6 @@
 #### [업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [사용자 파일럿 계획](pilot-essentials.md)
 
-
 ### Teams용 환경 준비
 #### [기술 준비 개요](upgrade-prepare-environment.md)
 #### [Teams를 사용하도록 IT 직원 준비](upgrade-prepare-IT-pros.md)
@@ -531,12 +529,10 @@
 #### [조직 변경 준비 사항 평가](upgrade-org-change-readiness.md)
 #### [사용자 준비 계획 준비](upgrade-user-readiness.md)
 
-
 ## 업그레이드 수행
 ### [개요](upgrade-to-Teams.md)
 ### [비즈니스용 Skype Online을 Teams로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [비즈니스용 Skype 온-프레미스를 Teams로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## 운영, 채택 및 최적화
 ### [운영 계획 개요](continue-journey.md)
@@ -553,7 +549,6 @@
 ### [비즈니스용 Skype와 공존](coexistence-chat-calls-presence.md)
 ### [Teams 클라이언트 환경 및 공존 모드 준수](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [공존 및 업그레이드 설정 지정](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [무엇보다도 모임을 우선으로](meetings-first.md)
 
@@ -686,6 +681,7 @@
 ## 규정 준수
 ### [정보 장벽](information-barriers-in-teams.md)
 ### [보존 정책](retention-policies.md)
+### [통신 규정 준수](communication-compliance.md)
 ### [통화 및 모임에 대한 정책 기반 녹음](teams-recording-policy.md)
 ### [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -767,7 +763,6 @@
 ### [메시징 정책 라이선스](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 전화 시스템 - 가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md)
 
-
 ## Microsoft 365 및 Office 365와의 상호 운용성
 
 ### [Microsoft 365 그룹 및 Microsoft Teams](office-365-groups.md)
@@ -779,7 +774,6 @@
 ### [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](sharepoint-onedrive-interact.md)
 ### [Microsoft 365 또는 Office 365의 다중 지역 지원 테넌시의 Teams 환경](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## 지원되는 장치
 ### [Teams에서 디바이스 관리](devices/device-management.md)
 ### [원격으로 장치 업데이트](devices/remote-update.md)
@@ -789,7 +783,6 @@
 ### [회의실 디바이스 및 솔루션](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Microsoft Teams에서 인증 받은 IP 휴대폰](devices/teams-ip-phones.md)
 ### [비즈니스용 Skype Online용 휴대폰](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
 
 ## Teams PowerShell
 ### [개요](teams-powershell-overview.md)
