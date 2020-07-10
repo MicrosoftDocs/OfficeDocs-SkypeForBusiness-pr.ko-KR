@@ -22,6 +22,7 @@ ms.custom:
 description: 이 문서에서는 메시징 정책과이를 사용 하 여 팀의 채팅 메시지를 제어 하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: c29697c8ec4d235ed232616e34590351bea59e9e
 ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45042980"
