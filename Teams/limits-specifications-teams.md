@@ -18,11 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9356ae3dc9ed5bb7375f90cad18e13a83b8f5e8
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 83872fd1a98bc75a2872651e0ed8085ef815d082
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042800"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085714"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -68,7 +69,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |첨부 파일 수<sup>2</sup>  |10     |
 |채팅 크기 | 게시물당 28 KB<sup>3</sup> |
 
-<sup>1</sup>채팅에 20명 이상의 사용자가 있는 경우 다음과 같은 채팅 기능이 꺼집니다. Outlook 자동 회신 및 Teams 상태 메시지, 입력 표시기, 비디오 및 오디오 통화, 공유, 읽음 확인.
+<sup>1</sup>채팅에 20명 이상의 사용자가 있는 경우 다음과 같은 채팅 기능이 꺼집니다. Outlook 자동 회신 및 Teams 상태 메시지, 입력 표시기, 비디오 및 오디오 통화, 공유, 읽음 확인. 개인 그룹 채팅에 20명 이상의 구성원이 포함 된 경우에도 "배달 옵션 설정" 단추 (!)가 제거 됩니다.
 
 <sup>2</sup>첨부 파일 수가 이 제한을 초과하는 경우 오류 메시지가 표시됩니다.
 
