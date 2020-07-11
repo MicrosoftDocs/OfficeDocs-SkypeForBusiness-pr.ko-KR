@@ -18,18 +18,16 @@ appliesto:
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱에 전자 의료 기록 통합에 대 한 자세한 내용을 보려면 Api를 사용 하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f981b2fc68aa52f8ea5a48fab18977197ac813c8
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905520"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098426"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Microsoft Teams에 전자 의료 레코드 통합
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
-개인 미리 보기에 참여 하려면 [비공개 미리 보기에 등록](#enroll-in-the-private-preview)을 참조 하세요.
 
 이 문서는 Microsoft 팀에 연결 하기 위해 의료 정보 시스템의 맨 위에 FA r Api를 사용 하는 데 관심이 있는 일반 의료 IT 개발자를 대상으로 합니다. 이는 의료 조직의 요구 사항에 맞는 의료 조정 시나리오를 사용 합니다.
 
@@ -53,7 +51,6 @@ ms.locfileid: "43905520"
 - 성능 및 안정성에 대 한 기대
 - 환자 앱에 대해 지원 되는 f r 리소스에 대 한 기대
 - 통합 프로세스 및 예상 되는 계약 모델
-- 환자 앱의 비공개 미리 보기에서 사용자 및 고객을 등록 하는 방법
 - 환자 앱을 사용 하 여 시작 하는 방법 및 몇 가지 일반적인 과제에 대해 알아봅니다.
 - 환자 앱의 다음 반복에 대 한 향후 요구 사항
 
@@ -80,7 +77,7 @@ OAuth 2.0 [클라이언트 자격 증명 흐름](https://www.oauth.com/oauth2-se
     {"resourceType": "CapabilityStatement",.
         .
         .
-        "rest": [{"모드": "서버", "보안": {"확장명": [{"확장명": [{"url": "token", "valueuri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"url": "권한 부여", "valueuri":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize""}http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"," "서비스": [{"코딩": [{"시스템": "https://hl7.org/fhir/ValueSet/restful-security-service", "코드": "OAuth"}]}]},.
+        "rest": [{"모드": "서버", "보안": {"확장명": [{"확장명": [{"url": "token", "valueUri": " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token "}, {"url": "권한 부여", "valueUri": ""} "," " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris 서비스": [{"코딩": [{"시스템": "", "코드": " https://hl7.org/fhir/ValueSet/restful-security-service OAuth"}]}]},.
                 .
                 .
             } ] }
@@ -145,26 +142,4 @@ AAD 테 넌 트를 공급자 끝점에 매핑하면 AAD 테 넌 트 ID (GUID)가
 
 FA r을 처음 사용 하는 경우 Microsoft 팀 EHR 통합 인터페이스에 노출할 수 있는 FA r 서버에 대 한 액세스 권한이 필요한 경우 Microsoft는 모든 개발자가 사용할 수 있는 오픈 소스 FA r 서버를 제공 합니다. Microsoft에서 제공 하는 오픈 소스 FTO r 서버에 대 한 자세한 정보를 확인 하 고 조직에 대해 배포 하는 방법에 대해 자세히 알아보려면 다음 [항목](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) 을 참조 하세요.
 
-HSPC Open 샌드박스 EHR environment를 사용 하 여 열려 있는 FHIR 서버를 지원 하 고이를 사용 하 여 환자 앱에서 재생 하는 EHR를 만들 수도 있습니다. [Hspc 샌드박스 설명서](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)를 참조 하는 것이 좋습니다. 샌드박스는 손쉽게 환자를 만들고, 추가 하 고, 편집할 수 있는 방법을 제공 하는 것이 아니라 몇 가지 샘플을 사용 하 여 시작 될 수도 있습니다.  
-
-## <a name="enroll-in-the-private-preview"></a>개인 미리 보기에서 등록
-
-오픈 소스 FA r 서버를 만든 후에는 아래 언급 된 단계에 따라 테 넌 트 내에서 환자 앱에 연결 하는 것이 매우 쉽습니다.
-
-1. 다음 초기 세부 정보로 [문의 하세요](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview) .  
-    - 사용자 이름
-    - 위치
-    - 대표 하는 회사나 조직
-    - 환자 앱에서 EHR 통합용으로 관심이 있는 이유는 무엇 인가요?
-
-    더 많은 질문을 포함 하 여 즉시 사용자에 게 다시 전화를 걸고 개인 미리 보기를 설정 하는 과정을 안내 합니다.
-
-2. 환자 앱을 사용해 보려는 테 넌 트에서 사용자 지정 앱의 테스트용 로드를 사용 하도록 설정 했는지 확인 합니다. 사용자 또는 고객의 테 넌 트에 대 한 팀 관리 센터에서이 기능을 설정 하는 방법을 알아보려면 [앱 권한 정책을](../../admin-settings.md) 참조 하세요.
-
-3. Microsoft에서 테스트용으로 로드 (전자 메일을 처리 한 후)에서 제공 하는 환자 앱 매니페스트를 테 넌 트에서 조심 스럽게 조정 하 고 환자 반올림 시나리오에 사용할 팀으로 가져옵니다. 앱을 로드 하는 방법에 대 한 자세한 지침은 [Microsoft 팀에 앱 패키지 업로드](/microsoftteams/platform/concepts/apps/apps-upload) 를 참조 하십시오.
-
-4. 팀 소유자로 일반 채널로 이동한 다음 환자 탭을 클릭 합니다. EHR 모드 및 수동 모드와 같은 두 가지 옵션을 제공 하는 첫 실행 환경이 표시 됩니다. **EHR 모드** 를 선택 하 고, 앞에 있는 모든 필수 데이터 및 리소스를 사용 하 여 위의 사양에 따라 설치 하는 것 처럼 표시 되는 Fe r server 끝점을 링크 필드에 복사 하 고 연결에 f r 서버를 잘 나타내는 이름을 입력 합니다. 연결을 클릭 하면 모든 준비가 완료 됩니다.
-
-    ![환자 app server 설정 스크린샷](../../media/patients-server.png)
-
-5. 앱을 사용 하 여 FHIR Server/EHR에서 환자를 검색 하 고 목록에 추가 하 고 문제가 해결 되지 않는 경우 [피드백을 제공](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) 해 주세요. 또한, 환자 app-> f r Server flow의 완전히 인증 된 버전을 설정 하려면 Microsoft 팀에서 의료 제품 엔지니어링을 위해 앞에서 언급 한 전자 메일 요청을 통해 요구 사항을 명확 하 게 설명 하 고이를 사용 하 여 앞에서 설명한 인증 요구 사항에 따라이를 지원 하도록 합니다.  
+HSPC Open 샌드박스 EHR environment를 사용 하 여 열려 있는 FHIR 서버를 지원 하 고이를 사용 하 여 환자 앱에서 재생 하는 EHR를 만들 수도 있습니다. [Hspc 샌드박스 설명서](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)를 참조 하는 것이 좋습니다. 샌드박스는 손쉽게 환자를 만들고, 추가 하 고, 편집할 수 있는 방법을 제공 하는 것이 아니라 몇 가지 샘플을 사용 하 여 시작 될 수도 있습니다. 
