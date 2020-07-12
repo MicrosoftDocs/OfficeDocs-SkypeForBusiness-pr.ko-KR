@@ -255,6 +255,7 @@
 #### [클라우드 통화 큐 만들기](create-a-phone-system-call-queue.md)
 #### [자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기](answer-auto-attendant-and-call-queue-calls.md)
 
+### [수신 전화 차단](block-inbound-calls.md)
 ### [통화 대기 및 검색](call-park-and-retrieve.md)
 ### [통화 공유 및 그룹 전화 받기](call-sharing-and-group-call-pickup.md)
 ### [통화 정책](teams-calling-policy.md)
