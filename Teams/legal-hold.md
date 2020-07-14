@@ -1,26 +1,26 @@
 ---
 title: 법률 보류에 Microsoft 팀 사용자 또는 팀 배치
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 보안 & 준수 센터를 사용 하 여 법적 고 지에 따라 Microsoft 팀 사용자 또는 팀을 배치 하 고 데이터 요구 사항에 따라 법적 보류가 필요한 경우에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3727ac3f6b9ded4c3dbb34a1977f9b99cbaf15e
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: d11ae740f051d4da2a5e930193797c08451cbe7c
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341636"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121358"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>법률 보류에 Microsoft 팀 사용자 또는 팀 배치
 ==================================================

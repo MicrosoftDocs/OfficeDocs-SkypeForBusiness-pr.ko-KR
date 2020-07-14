@@ -1,15 +1,15 @@
 ---
 title: 콘텐츠의 eDiscovery 조사 수행
-author: LolaJacobsen
-ms.author: hakank
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
 - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ description: 법률 소송 절차에 대해 전자적으로 저장 된 모든 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950893"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121398"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft 팀의 콘텐츠 eDiscovery 조사 수행
 
@@ -54,9 +54,9 @@ ms.locfileid: "43950893"
 
 - Microsoft 팀 콘텐츠를 사용 하 여 eDiscovery 조사를 수행 하려면 [보안 & 준수 센터 링크에서 ediscovery 사례 관리](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) 의 1 단계를 검토 합니다.
 
-- Microsoft 팀 데이터가 Excel eDiscovery 내보내기 출력에 IM 또는 대화로 표시 됩니다. Outlook에서 파일을 `.pst` 열어 내보낸 후 해당 메시지를 볼 수 있습니다.
+- Microsoft 팀 데이터가 Excel eDiscovery 내보내기 출력에 IM 또는 대화로 표시 됩니다. `.pst`Outlook에서 파일을 열어 내보낸 후 해당 메시지를 볼 수 있습니다.
 
-    팀에 대 `.pst` 한 파일을 볼 때 모든 대화가 대화 내용 아래의 팀 채팅 폴더에 보관 되어 있는지 확인 합니다. 메시지 제목은 팀 이름 및 채널 이름을 포함 합니다. 예를 들어 아래 이미지는 제조 사양 팀의 Project 7 표준 채널을 messaged 하는 Bob의 메시지를 보여줍니다.
+    `.pst`팀에 대 한 파일을 볼 때 모든 대화가 대화 내용 아래의 팀 채팅 폴더에 보관 되어 있는지 확인 합니다. 메시지 제목은 팀 이름 및 채널 이름을 포함 합니다. 예를 들어 아래 이미지는 제조 사양 팀의 Project 7 표준 채널을 messaged 하는 Bob의 메시지를 보여줍니다.
 
     ![Outlook의 사용자 사서함에 있는 팀 채팅 폴더 스크린샷](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
@@ -154,7 +154,7 @@ Custodian로 지정할 특정 사용자가 없는 경우 전체 데이터 원본
 
 검색을 검토 집합에 추가 하는 경우 일반 검토 집합 또는 대화 검토 집합에서 선택할 수 있습니다.
 
-일반 검토 집합은 내보내기와 유사 합니다. 팀 콘텐츠의 개별 `.msg` 파일을 제공 하 고 기본 보기에 콘텐츠를 표시 합니다. 나중에 다른 소프트웨어 도구를 사용 하 여 파일을 다시 처리 하려는 경우 일반적으로 일반 검토 설정을 사용 합니다.
+일반 검토 집합은 내보내기와 유사 합니다. `.msg`팀 콘텐츠의 개별 파일을 제공 하 고 기본 보기에 콘텐츠를 표시 합니다. 나중에 다른 소프트웨어 도구를 사용 하 여 파일을 다시 처리 하려는 경우 일반적으로 일반 검토 설정을 사용 합니다.
 
 대화 검토 집합을 통해 보다 직관적인 스레드된 대화를 볼 수가 있습니다. 적절 한 순서 대로 관련 메시지를 함께 표시 합니다.
 
@@ -184,7 +184,7 @@ Custodian로 지정할 특정 사용자가 없는 경우 전체 데이터 원본
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>요약 보기, 텍스트 보기 및 주석 달기 보기
 
-검토 집합에서 팀 대화를 클릭 하면 전체 팀 대화를 개별적으로 상호 작용할 수 있는 메시지 목록으로 표시 하는 **요약 보기가**표시 됩니다. 메시지 오른쪽에 있는 아래쪽 화살표를 클릭 하 여 메시지 세부 정보를 보거나 개별 `.msg` 파일을 다운로드할 수 있는 상황에 맞는 메뉴를 표시 합니다. 메시지 정보를 클릭 하면 해당 메시지의 전체 메타 데이터 또는 메타 데이터 요약이 표시 됩니다.
+검토 집합에서 팀 대화를 클릭 하면 전체 팀 대화를 개별적으로 상호 작용할 수 있는 메시지 목록으로 표시 하는 **요약 보기가**표시 됩니다. 메시지 오른쪽에 있는 아래쪽 화살표를 클릭 하 여 메시지 세부 정보를 보거나 개별 파일을 다운로드할 수 있는 상황에 맞는 메뉴를 표시 합니다 `.msg` . 메시지 정보를 클릭 하면 해당 메시지의 전체 메타 데이터 또는 메타 데이터 요약이 표시 됩니다.
 
 PDF를 다운로드 하려면 요약 보기의 오른쪽 위에 있는 다운로드 단추를 클릭 합니다.
 
@@ -196,7 +196,7 @@ PDF를 다운로드 하려면 요약 보기의 오른쪽 위에 있는 다운로
 
 #### <a name="action-menu"></a>동작 메뉴
 
-집합 검토 창에서 **작업** \> **내보내기를**클릭 하 여 콘텐츠를 내보낼 수 있습니다. 내보낼 때 사용할 수 있는 여러 가지 옵션이 있습니다.
+집합 검토 창에서 **작업** 내보내기를 클릭 하 여 콘텐츠를 내보낼 수 있습니다 \> **Export**. 내보낼 때 사용할 수 있는 여러 가지 옵션이 있습니다.
 
 모든 팀 메시지에 대 한 모든 메타 데이터가 포함 된 파일을 내보내려면 **파일 로드** 확인란을 클릭 하 여 선택 합니다. 콘텐츠에 적용 한 태그를 파일에 포함 하려면 **태그** 확인란을 클릭 하 여 선택 합니다.
 
@@ -213,7 +213,7 @@ Microsoft에서 제공 하는 Azure blob 저장소 컨테이너로 내보내기�
 > [!NOTE]
 > 내보내기에 오랜 시간이 걸릴 수 있습니다. 내보내기 프로세스의 상태를 추적 하려면 **검토 집합** 탭을 종료 하 고 **내보내기** 탭을 클릭 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Microsoft 365의 eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
 - [팀 PowerShell 개요](teams-powershell-overview.md)

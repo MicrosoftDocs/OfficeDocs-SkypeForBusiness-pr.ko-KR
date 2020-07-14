@@ -1,8 +1,8 @@
 ---
 title: Microsoft 팀에 대 한 통신 준수
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: robmazz
+ms.author: robmazz
+manager: laurawi
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf97f4adc33b0855e986cf2baed54f69de91f4f0
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 01d9906044fe0ea8472cd8bb2ba8ccf247cdbeb9
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077700"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121698"
 ---
 # <a name="communication-compliance-for-microsoft-teams"></a>Microsoft 팀에 대 한 통신 준수
 

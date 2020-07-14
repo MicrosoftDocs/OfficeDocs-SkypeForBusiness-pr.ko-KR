@@ -1,13 +1,13 @@
 ---
 title: 최신 인증을 사용하여 Teams에 로그인
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ''
+ms.reviewer: anwara
 description: 최신 인증의 작동 원리, 계정을 전환하는 방법, 최신 인증 문제를 해결하는 방법에 대해 알아봅니다. 로그인 시 사용자 이름(UPN) 미리 채우기를 무시하도록 Teams에 알리는 방법을 포함합니다.
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fb5b21be6b45aab617c0bcb48fbcbb2d404a816
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: b8db647d5021aee124dec794e8711662de9f0a1c
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085444"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121368"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용하여 Microsoft Teams에 로그인
 ==========================

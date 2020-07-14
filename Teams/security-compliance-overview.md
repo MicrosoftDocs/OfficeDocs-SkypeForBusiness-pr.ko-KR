@@ -5,7 +5,7 @@ ms.author: heidip
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: anwara
 audience: admin
 description: 감사 및 보고, 준수 콘텐츠 검색, eDiscovery 등의 Microsoft 팀의 보안 및 규정 준수 기능에 대해 간략하게 설명 합니다.
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43535495153979642e0913c18d39581406fbf84c
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 5d4c19de7fdc8bfc4ed0608841613514d09fae27
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868085"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121388"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 

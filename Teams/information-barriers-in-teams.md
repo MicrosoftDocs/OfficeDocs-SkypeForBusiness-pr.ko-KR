@@ -1,8 +1,8 @@
 ---
 title: Microsoft 팀의 정보 장벽
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: chrfox
+ms.author: chrfox
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀의 정보 장벽에 대해 설명
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce71f0c0f2621253698cd250372624ded638dcec
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: dc9bbd3f3ff190eee3aa0b44ba68dfd8eb9aab6a
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083188"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121708"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 

@@ -1,12 +1,12 @@
 ---
 title: Microsoft Teams 보안 가이드
-author: MicrosoftHeidi
+author: MSFTTracyP
 ms.author: tracyp
-manager: serdars
+manager: dansimp
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: pawa
 description: Microsoft Teams 설치, 구성 및 유지 관리에서 IT 관리자를 위한 보안 자문 및 학습
 localization_priority: Priority
 search.appverid: MET150
@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6762bd49bbe22b1e80c1b97f37048ee0a944e0a1
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: 94a16b7f9f133c6df6c0c30ee4ac24c54397d110
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761446"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121638"
 ---
 # <a name="security-and-microsoft-teams"></a>보안 및 Microsoft Teams
 

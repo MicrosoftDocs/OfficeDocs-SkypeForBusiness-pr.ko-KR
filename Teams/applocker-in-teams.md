@@ -1,8 +1,8 @@
 ---
 title: AppLocker 제어 정책
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -16,12 +16,12 @@ description: AppLocker 응용 프로그램 제어 정책으로 팀 데스크톱 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3bcb75eb28730b4387ebcee0be869f1f91cc31c5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: cbccede3ca2d114b7bffa81b669a06a519f6b4e6
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137428"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121668"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft 팀의 AppLocker 응용 프로그램 제어 정책
 

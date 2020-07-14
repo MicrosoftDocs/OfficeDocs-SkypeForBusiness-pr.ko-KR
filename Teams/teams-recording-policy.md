@@ -1,8 +1,8 @@
 ---
 title: 팀에 대 한 소개 정책 기반 기록 & 모임 통화
-author: microsoftheidi
-ms.author: heidip
-manager: serdars
+author: cabailey
+ms.author: cabailey
+manager: laurawi
 ms.date: 05/11/2020
 audience: Admin
 ms.topic: conceptual
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00727602aed5eee205a01b01e1ab01218c5b2352
-ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
+ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44804682"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121648"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>팀 소개 정책 기반 & 모임 기록
 
