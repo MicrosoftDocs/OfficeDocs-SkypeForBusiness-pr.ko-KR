@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 모든 기능을 활용할 수 있도록 Microsoft 팀 대화방을 배포 하는 인프라를 준비 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
+ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735428"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125961"
 ---
 # <a name="prepare-your-environment"></a>작업 환경 준비
 
@@ -36,8 +36,8 @@ ms.locfileid: "44735428"
    - HTTP: 80
    - 네트워크가 프록시를 통해 실행 되는 경우에는 프록시 주소 또는 스크립트 정보도 필요 합니다.
     
-     > [!NOTE]
-     > Microsoft 팀 대화방은 HDMI 수집 기능 (비디오, 오디오)에 문제가 발생 하는 데 관측 된 HDCP 입력을 지원 하지 않습니다. Microsoft 팀 대화방에 연결 된 스위치에 HDCP 옵션이 설정 되어 있는지 확인 합니다.
+     > [!IMPORTANT]
+     > Microsoft 팀 대화방은 프록시 인증을 지원 하지 않으므로 실내의 일반 작업을 방해할 수 있습니다. 프로덕션으로 전환 하기 전에 Microsoft 팀 채팅방이 프록시 인증에서 제외 되었는지 확인 합니다.
   
 3. Microsoft는 환경을 개선 하기 위해 데이터를 수집 합니다. Microsoft에서 데이터를 수집 하도록 허용 하려면 다음 사이트를 허용 목록.
 

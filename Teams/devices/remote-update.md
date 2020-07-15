@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 팀 관리 센터를 사용 하 여 원격으로 Microsoft 팀 전화 및 공동 작업 모음 업데이트
-ms.openlocfilehash: 7e47c9394eddfa73b8b55279b68ae59ff7b6de3d
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f7607da002be7f038e4cafe5b4b6026ea2d99ddf
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944108"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125951"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Microsoft 팀 장치를 원격으로 업데이트
 
@@ -32,7 +32,7 @@ Microsoft 팀 관리 센터를 사용 하 여 전화 및 공동 작업 표시줄
 장치 펌웨어 업데이트는 이후 날짜 및 시간에 자동으로 적용 되거나 예약 될 수 있습니다. 다른 사용 가능한 장치 업데이트는 자동으로 적용 되지 않지만 수동으로 적용 하거나 나중에 날짜와 시간에 예약할 수 있습니다.
 
 > [!NOTE]
-> 장치 펌웨어 업데이트를 예약할 수 있는 동안, 예약 된 날짜와 시간이 구성 된 최대 30 또는 90 일 지연 이후 이면 펌웨어 업데이트가 최대 지연에 도달할 때 적용 됩니다. 예약 된 날짜와 시간은 무시 됩니다.
+> 장치 펌웨어 업데이트를 예약할 수 있는 동안, 예약 된 날짜와 시간이 구성 된 최대 30 또는 90 일 지연 이후 이면 펌웨어 업데이트가 최대 지연에 도달할 때 적용 됩니다. 예약 된 날짜와 시간은 무시 됩니다. 또한 Microsoft 팀 디바이스를 원격으로 업데이트 하는 기능은 미국 정부 클라우드 테 넌 트 (GCC-높음)에서 아직 사용할 수 없습니다.
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>자동 장치 펌웨어 업데이트 동작 선택
 

@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 주의 조정, 보안 메시징, telehealth, EHR 통합,에서 일선 worker 시스템 통합을 포함 하는 상태 관리 기능에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938367"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138108"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
@@ -89,9 +89,25 @@ Microsoft 팀은 의사, clinicians, nurses, 기타 직원이 다음과 같이 �
 
 구현 세부 정보는 [Microsoft 팀에 전자 의료 기록 통합](patients-app.md) 을 참조 하세요.
 
-## <a name="templates"></a>템플릿과
+## <a name="teams-templates"></a>팀 서식 파일
 
 팀을 만들기 위한 새 템플릿이 병원 설정에 적용 되도록 개발 되었고 더 많은 내용이 곧 제공 될 예정입니다. 이를 통해 의료 근로자가 다양 한 부서나 wards의 환자을 조정 하는 데 사용 하는 팀을 쉽게 만들 수 있습니다. [의료 조직의 팀 서식 파일 시작을](healthcare-templates.md)참조 하세요. 팀은 cardiology 등의 내부 부서를 위해 시작 하거나 주의를 wards 하 고 더 많은 서식 파일을 개발할 수 있습니다.
+
+## <a name="lists-app"></a>목록 앱
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+팀의 목록 앱은 팀에서 정보를 추적 하 고 작업을 구성 하는 데 도움이 됩니다. 앱은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 목록은 미리 정의 된 서식 파일에서 만들거나 Excel로 데이터를 가져와 처음부터 만들 수 있습니다.
+
+관리 팀에서 환자 서식 파일을 사용 하 여 시작 하세요. 환자의 요구 및 상태를 추적 하는 목록을 만들 수 있습니다. 팀에서 Excel 스프레드시트의 기존 환자 데이터를 가져와 목록을 만들 수 있습니다. 이러한 목록은 라운드 및 환자 모니터링과 같은 시나리오에 사용 하 여 주의를 조정할 수 있습니다.
+
+예를 들어, 청구 nurse는 모든 의료 팀 구성원을 포함 하는 환자 목록을 팀에 만듭니다. 라운드 하는 동안 의료 팀은 모바일 장치에서 팀에 액세스 하 고 목록에서 환자 정보를 업데이트 하 여 팀의 모든 구성원이 동기화 상태를 유지할 수 있습니다. 관리 팀에서 주요 상태 성과 지표에 대해 논의 하 고 평가 하는 데 사용 되는 반올림 세션에서는 대규모 디스플레이 화면에서 팀을 사용 하 여이 정보를 공유할 수 있습니다. 사이트를가지고 있지 않은 팀 구성원은 원격으로 참가할 수 있습니다.
+
+다음은 환자 반올림을 위해 설정 된 예제 목록입니다.
+
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="환자 반올림에 대 한 예제 목록 스크린샷":::
+
+자세히 알아보려면 [팀에서 조직의 목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 ## <a name="secure-messaging"></a>보안 메시지
 

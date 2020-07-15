@@ -17,19 +17,23 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2343ce76e404ce2462cdbfc443130058112dcc4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d29a517b8df194fe19b9e16554f7c57964177c90
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140861"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138018"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>사용자의 전화 받기 기능 설정
 
-Microsoft 팀에서 전화 **걸기** 기능을 통해 사용자는 휴대폰으로 모임의 오디오 부분에 참가할 수 있습니다. 이 방법은 오디오를 사용 하는 것이 불가능할 수 있는 시나리오에서 유용 합니다. 사용자는 휴대폰 또는 육지 모임의 오디오 부분을 받고 다른 모임 참가자가 화면을 공유 하거나 컴퓨터를 통해 비디오&mdash;&mdash;를 재생할 때 모임의 콘텐츠 부분을 사용할 수 있습니다.
+Microsoft 팀에서 전화 **걸기** 기능을 통해 사용자는 휴대폰으로 모임의 오디오 부분에 참가할 수 있습니다. 이 방법은 오디오를 사용 하는 것이 불가능할 수 있는 시나리오에서 유용 합니다. 사용자는 휴대폰 또는 주식에 따라 모임의 오디오 부분을 받고 &mdash; 다른 모임 참가자가 화면을 공유 하거나 컴퓨터를 통해 비디오를 재생 하는 등 모임의 콘텐츠 부분을 볼 수 &mdash; 있습니다.
 
 > [!IMPORTANT]
-> COVID가 발생 하는 동안 사용자는 PSTN 컨퍼런스 번호를 사용 하거나 **전화**</strong>를 사용 하 여 전화를 걸고 있지 않고 **팀 모임 참가** 단추를 클릭 하 여 모임에 참가 하는 것이 좋습니다. 이는 주로 COVID-19의 영향을 받는 국가 전화 통신 인프라의 정체 때문입니다. PSTN 통화를 방지 하 여 더 나은 음질을 경험할 수 있습니다. 
+> 
+> 고용량 전화 번호를 사용 <strong>하거나 전화를</strong>사용 하 여 전화 접속을 하는 대신 <strong>팀 모임 참가</strong> 단추를 클릭 하 여 모임에 참가 하는 것이 좋습니다 (예를 들어, covid-19 번 침입과 함께 발생). 이는 고용량 모임 볼륨이 PSTN 네트워크에서 혼잡이 발생 하는 경우 음질 있는 오디오를 보장 하는 데 도움이 됩니다. 
+
+> [!IMPORTANT]
+> COVID-19 발생 기간에는 PSTN 회의 번호 또는 **전화 번호**</strong>를 사용해 전화를 거는 대신 **Teams 모임 참가** 버튼을 눌러 모임에 참석하는 것이 좋습니다. 이는 주로 COVID-19의 영향을 받는 국가의 전화 통신 인프라의 혼잡 때문입니다. PSTN 통화를 피하면 오디오 품질이 향상될 수 있습니다. 
 
 ## <a name="the-user-experience"></a>사용자 환경
 
