@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3096673df464b02ae828423c5aebf8690a7ab853
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 1a61c7338c6a182b6803bf2a302522b7fb97586f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702623"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143779"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -32,7 +32,7 @@ ms.locfileid: "44702623"
 
 ## <a name="hardware-requirements-for-teams-on-a-windows-pc"></a>Windows PC용 Teams의 하드웨어 요구 사항
 
-|**구성 요소**|**요구 사항**  |
+| 구성 요소 | 요구 사항 |
 |---------|---------|
 |컴퓨터 및 프로세서    | 최소 1.6GHz 이상(32비트 또는 64비트).        |
 |메모리     |    2.0GB RAM     |
@@ -43,12 +43,12 @@ ms.locfileid: "44702623"
 |.NET 버전    |  .NET 4.5 CLR 이상 필요       |
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    | 
-|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하려면 싱글 코어 프로세서와 4.0 GB RAM (또는 그 이상의)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>선택적 **배경 비디오 효과** 는 Windows 8.1 또는 아래에서 실행 되는 AVX2 명령 집합이 없는 프로세서에서는 지원 되지 않습니다.</li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가하려면 클라이언트 장치에서 Bluetooth의 활성화가 요구되는 Bluetooth LE가 필요하고 Windows 클라이언트의 경우 64비트 Teams 클라이언트가 필요합니다. 32비트 Teams 클라이언트에서는 사용할 수 없습니다.</li></ul> |
+|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하기 위해 듀얼 코어 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>선택적 **배경 비디오 효과** 는 Windows 8.1 또는 아래에서 실행 되는 AVX2 명령 집합이 없는 프로세서에서는 지원 되지 않습니다.</li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가하려면 클라이언트 장치에서 Bluetooth의 활성화가 요구되는 Bluetooth LE가 필요하고 Windows 클라이언트의 경우 64비트 Teams 클라이언트가 필요합니다. 32비트 Teams 클라이언트에서는 사용할 수 없습니다.</li></ul> |
 |Teams 라이브 이벤트 | 팀 live 이벤트를 생성 하는 경우 코어 i5 Kaby 호수 프로세서, 4.0 GB RAM (또는 그 이상) 및 하드웨어 인코더가 있는 컴퓨터를 사용 하는 것이 좋습니다. 지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac용 Teams의 하드웨어 요구 사항
 
-|**구성 요소**|**요구 사항**  |
+| 구성 요소 | 요구 사항 |
 |---------|---------|
 |프로세서    | 최소 인텔 프로세서, 코어 2 듀오 이상 |
 |메모리     |   2.0GB RAM      |
@@ -57,11 +57,11 @@ ms.locfileid: "44702623"
 |운영 체제  |    Mac OS X 10.11 El Capitan 이상     |
 |비디오  |    호환되는 웹캠     |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하려면 싱글 코어 프로세서와 4.0 GB RAM (또는 그 이상의)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다.</li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Mac OS에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul> |
+|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하기 위해 듀얼 코어 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다.</li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Mac OS에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux용 Teams의 하드웨어 요구 사항
 
-|**구성 요소**|**요구 사항**  |
+| 구성 요소 | 요구 사항 |
 |---------|---------|
 |컴퓨터 및 프로세서    | 최소 1.6GHz 이상(32비트 또는 64비트).        |
 |메모리     |    2.0GB RAM     |
@@ -72,7 +72,7 @@ ms.locfileid: "44702623"
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    | 
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하려면 싱글 코어 프로세서와 4.0 GB RAM (또는 그 이상의)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다.</li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
+|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하기 위해 듀얼 코어 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다.</li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
 |지원되는 Linux 배포판 | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>모바일 장치용 Teams의 하드웨어 요구 사항

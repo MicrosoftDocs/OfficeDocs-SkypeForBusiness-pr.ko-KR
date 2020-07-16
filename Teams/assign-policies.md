@@ -18,11 +18,12 @@ description: Microsoft 팀에서 사용자에 게 정책을 할당 하는 다양
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 161a979578f24b351c93e870a562e6c4104b52d0
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049445"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143849"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
 
@@ -295,7 +296,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 **이 기능은 아직 출시 되지 않았습니다. 발표 되었으며 곧 제공 될 예정입니다.**
 
 > [!NOTE]
-> 현재 Microsoft 팀 관리 센터를 사용 하는 그룹에 대 한 정책 할당은 팀 호출 정책, 팀 모임 정책, 팀 메시징 정책에만 사용할 수 있습니다. 다른 정책 유형의 경우 PowerShell을 사용 합니다.
+> 현재 Microsoft 팀 관리 센터를 사용 하는 그룹에 대 한 정책 할당은 팀 호출 정책, 팀 통화 대기 정책, 팀 정책, 팀 live 이벤트 정책, 팀 모임 정책, 팀 메시징 정책에만 사용할 수 있습니다. 다른 정책 유형의 경우 PowerShell을 사용 합니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 정책 유형 페이지로 이동 합니다. 예를 들어 **모임**  >  **모임 정책**으로 이동 합니다.
 2. **그룹 정책 할당** 탭을 선택 합니다.

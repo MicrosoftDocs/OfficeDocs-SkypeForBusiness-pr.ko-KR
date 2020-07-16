@@ -17,12 +17,12 @@ description: Microsoft 팀 관리 센터의 앱 관리 페이지에서 팀 앱�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 1aa72a1720139324f53168c36f1d27a12b5cf5bb
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 3a99577b51f08d9ae0e0d4aef73297fade1b1176
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086215"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146124"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 앱 관리
 ======================================================
@@ -42,15 +42,24 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**으로  >  **�
 
 ![관리 되는 앱 페이지의 스크린샷](media/manage-apps.png)
 
-- **Name**: 앱 이름입니다. 앱에 대 한 자세한 정보를 보려면 앱 이름을 클릭 합니다. 여기에는 앱에 대 한 설명, 허용 또는 차단 여부, 버전, 앱에 적용 되는 범주, 인증 상태, 지원 되는 기능, 앱 ID가 포함 됩니다. 예를 들면 다음과 같습니다.<br> 
-![앱에 대 한 앱 세부 정보 페이지 스크린샷](media/manage-apps-app-details.png)
+- **Name**: 앱 이름입니다. 앱에 대 한 자세한 정보를 보려면 앱 이름을 클릭 합니다. 여기에는 앱에 대 한 설명, 허용 또는 차단 여부, 버전, 앱에 적용 되는 범주, 인증 상태, 지원 되는 기능, 앱 ID가 포함 됩니다. 예를 들면 다음과 같습니다.
+
+  ![앱에 대 한 앱 세부 정보 페이지 스크린샷](media/manage-apps-app-details.png)
+  
 - **인증**: 앱이 인증을 통과 하 게 되 면 **Microsoft 365 인증** 된 또는 **게시자 증명**중 하나가 표시 됩니다. 링크를 클릭 하 여 앱에 대 한 인증 세부 정보를 봅니다. " **--** "가 표시 되 면 앱에 대 한 인증 정보가 없는 것입니다. 팀의 인증 된 앱에 대 한 자세한 내용을 보려면 [Microsoft 365 앱 인증 프로그램](https://docs.microsoft.com/teams-app-certification/all-apps)을 참조 하세요.  
+
 - **범주**: 앱에 적용 되는 범주입니다.
+
 - **앱 상태**: 조직 수준의 앱 상태 이며 다음 중 하나일 수 있습니다.
+
     - **허용 됨**: 조직의 모든 사용자가 앱을 사용할 수 있습니다.
+    
     - **차단**됨: 앱이 차단 되어 조직의 모든 사용자가 사용할 수 없습니다.
-    - **차단 됨**: 조직 전체 앱 설정에서 앱이 차단 됩니다. <br>
-이 열은 이전에 **조직 전체 설정** 창에 있는 앱의 허용 및 차단 상태를 나타내는 것을 알아야 합니다. 이제 **앱 관리** 페이지에서 조직 전체에 앱을 표시 하 고, 차단 하 고, 허용 합니다. 
+    
+    - **차단 됨**: 조직 전체 앱 설정에서 앱이 차단 됩니다.
+    
+      이 열은 이전에 **조직 전체 설정** 창에 있는 앱의 허용 및 차단 상태를 나타내는 것을 알아야 합니다. 이제 **앱 관리** 페이지에서 조직 전체에 앱을 표시 하 고, 차단 하 고, 허용 합니다. 
+
 - **버전**: 앱 버전.
 
 표에 원하는 정보를 표시 하려면 오른쪽 위 모서리에서 **열 편집** 을 클릭 하 여 표에 열을 추가 하거나 제거 합니다.
@@ -91,7 +100,8 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**으로  >  **�
 
     - 타사 **앱 허용**:이는 사용자가 타사 앱을 사용할 수 있는지 여부를 제어 합니다. 이 설정을 해제 하면 사용자가 타사 앱을 설치 하거나 사용할 수 없게 되며 이러한 앱의 앱 상태는 테이블에서 **조직 전체로 차단** 된 것으로 표시 됩니다.
 
-        타사 **앱 허용** 이 해제 된 경우 [보내는 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) 를 사용할 수 없으며,이는 사용자가 만들 수 없음을 의미 합니다. 이 설정을 사용 하면 사용자의 앱 권한 정책에서 설정이 설정 되어 있는지 여부에 관계 없이 모든 사용자가 보내는 webhooks를 사용할 수 있습니다.
+        > [!NOTE]
+        > 타사 **앱 허용** 이 해제 된 경우 [보내는 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) 를 사용할 수 없으며,이는 사용자가 만들 수 없음을 의미 합니다. 이 설정이 켜져 있으면 보내는 webhooks는 모든 사용자에 대해 사용 하도록 설정 되며, [앱 권한 정책을](teams-app-permission-policies.md)통해 보내는 Webhook 앱을 허용 하거나 차단 하 여 사용자 수준에서 제어 하도록 할 수 있습니다. <br><br>**특정 앱 허용 및 다른 모든 항목 차단** 설정을 사용 하는 **Microsoft 앱** 에 대 한 기존 [앱 권한 정책이](teams-app-permission-policies.md) 있고 사용자에 게 보내는 webhooks를 사용 하도록 설정 하려는 경우에는 보내는 Webhook 앱을 목록에 추가 합니다.
     - **기본적으로 저장소에 게시 된 새 타사 앱 허용**: 팀 앱 스토어에 게시 되는 새로운 타사 앱을 팀에서 자동으로 사용할 수 있는지 여부를 제어 합니다. 타사 앱을 허용 하는 경우에만이 옵션을 설정할 수 있습니다.
 
 3. **사용자 지정 앱**에서 **사용자 지정 앱과의 상호 작용 허용**을 설정 하거나 해제 합니다. 이 설정은 사용자가 사용자 지정 앱을 조작할 수 있는지 여부를 제어 합니다. 자세히 알아보려면 [팀에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조 하세요.

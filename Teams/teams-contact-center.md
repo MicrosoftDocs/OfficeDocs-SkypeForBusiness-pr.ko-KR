@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft 팀을 위한 서비스 (CCaaS) 솔루션의 통합 된 연락처 센터 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aceca495760670846a869a8dcca9734a5cf7daa1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756829"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143839"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 팀에 대 한 연락처 센터 통합
 
@@ -49,6 +49,7 @@ Microsoft 팀은 고객 여행을 위해 비즈니스 도구 및 워크플로와
 | Enghouse 대화형 | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genes | https://www.genesys.com/microsoft                                                                                   |
+| Landis 기술 | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | 멋진 연락처 | https://www.niceincontact.com/microsoft-teams                                                            |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
@@ -204,11 +205,11 @@ Microsoft 팀이 지 원하는 통합 모델에 대 한 개요는 아래 표를 
 </tr>
 <tr class="even">
 <td>서비스 연결</td>
-<td>Platform<br />
+<td>플랫폼<br />
 (통화 계획 + DR)</td>
 <td>직접 라우팅</td>
 <td>직접 라우팅</td>
-<td>Platform<br />
+<td>플랫폼<br />
 (통화 계획 + DR)</td>
 </tr>
 </tbody>
