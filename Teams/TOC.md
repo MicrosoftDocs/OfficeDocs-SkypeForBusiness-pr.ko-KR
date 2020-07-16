@@ -672,17 +672,17 @@
 
 # 보안, 개인 정보 보호, 규정 준수
 ## [개요](security-compliance-overview.md)
-## 보안 및 개인 정보
+## 보안
 ### [보안 가이드](teams-security-guide.md)
+### [Azure Sentinel 및 팀](teams-sentinel-guide.md)
 ### [ID 모델 및 인증](identify-models-authentication.md)
 ### [최신 인증을 사용하여 Teams에 로그인](sign-in-teams.md)
 ### [Teams의 안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [개인 정보 보호 및 Microsoft Teams](teams-privacy.md)
-### [Teams의 데이터 위치](location-of-data-in-teams.md)
+### [AppLocker 응용 프로그램 제어 정책](applocker-in-teams.md)
 ## 규정 준수
 ### [정보 장벽](information-barriers-in-teams.md)
 ### [보존 정책](retention-policies.md)
-### [통신 규정 준수](communication-compliance.md)
+### [커뮤니케이션 규정 준수](communication-compliance.md)
 ### [통화 및 모임에 대한 정책 기반 녹음](teams-recording-policy.md)
 ### [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -691,7 +691,9 @@
 ### 콘텐츠 검색
 #### [콘텐츠 검색 사용](content-search.md)
 #### [감사 로그에서 이벤트 검색](audit-log-events.md)
-### [AppLocker 응용 프로그램 제어 정책](applocker-in-teams.md)
+## 개인 정보
+### [개인 정보 보호 및 Microsoft Teams](teams-privacy.md)
+### [Teams의 데이터 위치](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # 모니터링, 유지 관리 및 문제 해결
