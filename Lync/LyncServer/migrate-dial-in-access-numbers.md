@@ -55,7 +55,7 @@ Lync server 2010에서 만들었지만 마이그레이션 중 또는 이후에 2
 
   - Priority 매개 변수와 함께 et-CsDialinConferencingAccessNumber cmdlet을 사용하여 지역 내에서 다시 순차화할 수 있습니다.
 
-You must finish migrating dial-in access numbers that point to a Lync Server 2010 pool before you decommission the Lync Server 2010 pool. If you do not complete dial-in access number migration as described in the following procedure, incoming calls to the access numbers will fail.
+Lync Server 2010 풀을 해지하기 전에 Lync Server 2010 풀을 가리키는 전화 접속 액세스 번호의 마이그레이션을 마쳐야 합니다. 다음 절차에 설명된 대로 전화 접속 액세스 번호 마이그레이션을 완료하지 않으면 액세스 번호로의 수신 전화가 실패합니다.
 
 <div>
 

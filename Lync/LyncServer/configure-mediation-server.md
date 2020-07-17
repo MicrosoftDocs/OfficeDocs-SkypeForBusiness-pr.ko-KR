@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2012-09-28_
 
 이 절차에서는 레거시 Office Communications Server 2007 R2 중재 서버가 아닌 Lync server 2013 중재 서버를 사용 하도록 Lync Server 2013 풀을 구성 하는 단계를 자세히 설명 합니다.
 
-To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
+서버 역할을 추가하거나 제거할 때 토폴로지를 성공적으로 게시하거나 사용 또는 사용하지 않도록 설정하려면 RTCUniversalServerAdmins 및 Domain Admins 그룹 구성원인 사용자로 로그인해야 합니다. 또한 서버 역할을 추가하는 데 적절한 관리자 권한 및 사용 권한을 위임할 수 있습니다. 자세한 내용은 Standard Edition 서버 또는 Enterprise Edition 서버 배포 설명서에서 설정 권한 위임을 참조하십시오. 기타 구성을 변경하려는 경우에는 RTCUniversalServerAdmins 그룹 구성원 자격만 있으면 됩니다.
 
 <div>
 
@@ -63,7 +63,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 4.  **새 IP/PSTN 게이트웨이 정의** 페이지에서 다음 정보를 작성합니다.
     
-      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
+      - 게이트웨이의 FQDN 또는 IP 주소를 입력합니다. 게이트웨이에서 TLS 프로토콜을 사용하는 경우 게이트웨이의 FQDN이 필요합니다.
     
       - **IP/PSTN 게이트웨이용 수신 대기 포트**의 기본값을 사용하거나 값이 수정된 경우 새 수신 대기 포트를 입력합니다.
     

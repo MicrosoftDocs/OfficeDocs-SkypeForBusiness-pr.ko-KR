@@ -62,7 +62,7 @@ Windows PowerShell 및 **set-csvoicepolicy** cmdlet을 사용 하 여 사용자�
 
 ## <a name="unassign-a-per-user-voice-policy"></a>사용자별 음성 정책 할당 해제
 
-  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
+  - 다음 명령은 Ken Myer에게 이전에 할당된 사용자별 음성 정책을 할당 해제합니다. 사용자별 정책을 할당 해제한 후에는 Ken Myer가 자동으로 전역 정책 또는 해당 로컬 사이트 정책(있는 경우)을 사용하여 관리됩니다. 사이트 정책이 전역 정책보다 우선합니다.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 

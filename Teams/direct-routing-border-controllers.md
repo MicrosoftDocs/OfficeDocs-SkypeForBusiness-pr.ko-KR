@@ -20,6 +20,7 @@ description: 관리자는 직접 라우팅에 대해 인증 된 SBCs (세션 경
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: b27bcc55ad2039d7e51af835c0b64c514d7dc303
 ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45042950"

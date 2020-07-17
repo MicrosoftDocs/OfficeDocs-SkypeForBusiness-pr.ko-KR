@@ -49,13 +49,13 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 3.  **중재 풀**을 마우스 오른쪽 단추로 클릭한 후 **새 중재 서버**를 선택합니다.
 
-4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
+4.  **새 중재 풀 정의** 페이지에서 새 중재 서버 풀의 FQDN을 제공합니다. 또한 이 풀이 단일 서버인지 또는 다중 서버 풀인지 여부를 선택한 후 **다음**을 클릭합니다.
 
 5.  새 중재 서버가 인바운드 호출을 라우팅할 다음 홉 프런트 엔드 서버 풀을 선택한 후 **다음**을 클릭합니다.
 
 6.  중재 서버에서 사용할 에지 풀을 선택한 후 **다음**을 클릭합니다.
 
-7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
+7.  **PSTN 게이트웨이 지정** 페이지에서 이전 PSTN 게이트웨이를 중재 서버와 연결합니다. 게이트웨이를 선택한 후 **추가**를 클릭합니다.
 
 8.  **마침**을 클릭하여 **새 중재 풀 정의** 마법사를 닫습니다.
 

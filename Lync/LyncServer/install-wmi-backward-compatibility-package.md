@@ -55,7 +55,7 @@ WMI 이전 버전과의 호환성 패키지를 설치하려면
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC.msi must be installed on the computer where the Topology Builder Merge wizard is run. However, we recommend installing OCSWMIBC.msi on all Front End servers in your topology.
+    > OCSWMIBC.msi는 토폴로지 작성기 병합 마법사가 실행되는 컴퓨터에 설치해야 합니다. 그러나 토폴로지의 모든 프런트 엔드 서버에 OCSWMIBC.msi를 설치하는 것이 좋습니다.
 
     
     </div>

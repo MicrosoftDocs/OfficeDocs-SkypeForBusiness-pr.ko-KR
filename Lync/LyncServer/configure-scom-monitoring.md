@@ -72,7 +72,7 @@ Microsoft Lync Server 2013로 마이그레이션한 후에는 몇 가지 작업�
     
 
     > [!NOTE]  
-    > Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists. If you experience this, you can safely ignore the error.
+    > 레지스트리를 편집할 때마다 레지스트리 키가 이미 있으면 명령이 실패했다는 오류가 발생할 수 있습니다. 이 문제가 발생할 경우 오류를 무시해도 됩니다.
 
     
     </div>

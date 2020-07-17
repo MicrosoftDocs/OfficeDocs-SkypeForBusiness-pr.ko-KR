@@ -23,7 +23,7 @@ ms.locfileid: "44752870"
 이 항목에서는 비즈니스용 Skype 서버 2019에 지 서버를 배포 하기 전에 알아야 하는 구성 설정을 중점적으로 설명 합니다. 비즈니스용 Skype 서버 2019에 대 한 배포 및 구성 프로세스는 비즈니스용 Skype 서버 2015와 매우 비슷합니다. 또한 이 섹션에서는 파일럿 풀 배포 중에 고려해야 하는 핵심 사항들에 대해서도 설명합니다. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown. 
+**새 에지 풀 정의** 마법사를 탐색할 때 다음 단계에 표시된 핵심 구성 설정을 검토합니다. **새 에지 풀 정의** 마법사의 일부 페이지만 표시됩니다. 
   
 ### <a name="to-define-an-edge-pool"></a>에 지 풀을 정의 하려면
 

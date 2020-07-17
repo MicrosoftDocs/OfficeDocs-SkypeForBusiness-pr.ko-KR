@@ -49,7 +49,7 @@ _**마지막으로 수정 된 항목:** 2012-09-28_
 
 3.  계속하려면 **다음**을 클릭합니다.
 
-4.  On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty. If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.
+4.  **레거시 에지 지정** 페이지에서 에지 서버의 목록이 비어 있는지 확인합니다. 목록이 비어 있지 않으면 **제거** 단추를 사용하여 모든 레거시 에지 서버를 제거한 후 **다음**을 클릭합니다.
     
     ![토폴로지 병합 마법사,에 지 설정 지정 페이지](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "토폴로지 병합 마법사,에 지 설정 지정 페이지")  
 

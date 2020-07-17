@@ -22,6 +22,7 @@ ms.custom:
 description: Microsoft 팀 메시지의 우선 순위 알림에 대해 알아봅니다.
 ms.openlocfilehash: 0456d93cefbe293e883c23edffe237f11f653fe7
 ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45042910"

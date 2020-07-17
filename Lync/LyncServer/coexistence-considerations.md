@@ -48,7 +48,7 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
 
   - Office communications Server 2007 R2 그룹 채팅 풀-Office Communications Server 2007 R2 풀에 속해 있어야 합니다.
 
-These deployments can exist side by side. However the categories, rooms, and add-ins in one deployment do not interact with those in the accompanying deployment.
+이러한 배포는 함께 있을 수 있지만, 한 배포의 범주, 대화방 및 추가 기능이 다른 배포의 범주, 대화방 및 추가 기능과 상호 작용하지 않습니다.
 
 수동 구성을 사용 하는 경우 레거시 클라이언트 (그룹 채팅 클라이언트)는 Office Communications Server 2007 R2, Lync Server 2010, 그룹 채팅 또는 Lync Server 2013에 대해 한 번에 하나의 풀에 연결할 수 있습니다.
 

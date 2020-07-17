@@ -53,7 +53,7 @@ Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그�
     
 
     > [!IMPORTANT]  
-    > Be aware that these newly created items may conflict with legacy items that you migrate. Avoid any naming conflicts; otherwise, they will be overwritten when the legacy data is migrated.
+    > 새로 만든 항목이 마이그레이션하는 기존 항목과 충돌할 수 있습니다. 이름이 충돌하지 않도록 방지하십시오. 그렇지 않으면 기존 데이터를 마이그레이션할 때 덮어써집니다.
 
     
     </div>
@@ -92,9 +92,9 @@ Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그�
     
     1.  영구 채팅 서버는 범주에 대 한 심도 깊은 계층 집합과 달리 단일 수준의 범주를 지원 합니다. 마이그레이션이 완료되면 하위 범주 앞에 전체 상위 범주 이름이 붙습니다. 기존 범주 구조를 단일 계층으로 단순화하여 요구 사항에 맞는 결과 구조를 만들 수도 있습니다.
     
-    2.  Verify the **Managers** at the root Category. If any Managers exist at this level, these users will be added as **Managers to all rooms** after migration. If this is not a requirement for your organization, you need to remove these Managers from the root Category.
+    2.  루트 범주에 **관리자**가 있는지 확인합니다. 이 루트 수준에 관리자가 존재하면 마이그레이션 이후 해당 사용자는 **모든 채팅방의 관리자**로 추가됩니다. 관리자가 조직 요구 사항이 아니면 루트 범주에서 이들 관리자를 제거해야 합니다.
     
-    3.  Verify the length of room names. After migration, due to simplified category structures, if the rooms exist under a child category, they are prefixed with full parent category names. The naming limit is 256 characters, including parent category names. You must verify the length of the room names and possibly shorten the length, if they are too long.
+    3.  채팅방 이름의 길이를 확인합니다. 마이그레이션 이후 단순화된 범주 구조로 인해 하위 범주를 보유한 채팅방은 이름 앞에 상위 범주의 전체 이름이 붙습니다. 이름은 상위 범주 이름을 포함하여 256자로 제한됩니다. 채팅방 이름의 길이를 확인한 후, 이름이 너무 긴 경우 가능하면 길이를 줄입니다.
     
     4.  Lync Server 2013에서 범주 **초대** 설정이 true로 설정 된 경우 해당 범주의 대화방에 대 한 초대에 대해 true 또는 false를 선택할 수 있습니다. 하지만 범주 초대 설정이 거짓으로 설정된 경우 해당 범주 아래의 채팅방은 해제됩니다. 특정 범주에 해당 하는 대화방을 만들려는 경우 마이그레이션 전에 레거시 Lync Server 그룹 채팅 서버 버전에서 초대 설정을 다시 설정 해야 합니다. 그렇지 않으면 마이그레이션 중에 Lync Server 2013에서 경고를 표시 하 고 대화방을 기본값인 false로 설정 합니다.
     
@@ -104,7 +104,7 @@ Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그�
     
     7.  마이그레이션하지 않으려는 채팅방을 식별하여 사용 안 함으로 표시합니다.
     
-    8.  Identify the date beyond which you want to migrate the chat room content. For example, you may not want to migrate messages earlier than January 1, 2010, because these messages may be obsolete or not relevant for migration.
+    8.  채팅방 콘텐츠를 마이그레이션하기 시작할 날짜를 식별합니다. 예를 들어 2010년 1월 1일 이전의 메시지는 오래되었거나 마이그레이션과 관련이 없다는 이유로 마이그레이션하지 않으려 할 수 있습니다.
 
 </div>
 

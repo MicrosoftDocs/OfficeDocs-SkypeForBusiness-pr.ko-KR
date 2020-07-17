@@ -47,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2012-10-09_
 
 **그룹화된 주소록 항목**
 
-If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
+각 OU에 대해 주소록을 만들기 위해 **PartitionbyOU** WMI 속성을 True로 설정한 경우 주소록 항목을 계속 그룹화하려면 사용자 및 대화 상대에 대해 **msRTCSIP-GroupingId** Active Directory 특성을 설정해야 합니다. 주소록 항목을 그룹화하여 주소록 검색 범위를 제한할 수도 있습니다. **msRTCSIP-GroupingId** 특성을 사용하려면 특성을 채우는 스크립트를 작성하여 함께 그룹화하려는 모든 사용자에 대해 동일한 값을 지정합니다. 예를 들어 OU의 모든 사용자에 대해 단일 값을 지정합니다.
 
 **주소록 정규화 규칙**
 
@@ -57,7 +57,7 @@ Lync Server 2010 환경에서 주소록 정규화 규칙을 사용자 지정한 
 
 
 > [!NOTE]  
-> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
+> 조직에서 원격 통화 제어를 사용하고 사용자가 주소록 정규화 규칙을 사용자 지정한 경우 원격 통화 제어를 사용하기 전에 이 항목의 절차를 수행해야 합니다. 이 절차를 수행하려면 RTCUniversalServerAdmins 그룹의 구성원이거나 이와 동등한 권한이 있어야 합니다.
 
 
 
@@ -86,7 +86,7 @@ Lync Server 2010 환경에서 주소록 정규화 규칙을 사용자 지정한 
 
 3.  특정 유형의 항목은 Lync Server 2013에서 올바르게 작동 하지 않습니다. 파일에서 이 단계에 설명한 항목 유형을 조사하고, 필요에 따라 편집한 후 변경 내용을 파일럿 풀의 주소록 공유 폴더에 저장합니다.
     
-    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
+    공백 또는 문장 부호가 포함된 문자열의 경우 정규화 규칙에 입력할 때 이러한 문자가 제거되기 때문에 이러한 문자열을 사용하면 정규화 규칙이 실패할 수 있습니다. 공백 또는 문장 부호가 필요한 문자열의 경우 문자열을 수정해야 합니다. 예를 들어 다음 문자열을 사용하면 정규화 규칙이 실패합니다.
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     

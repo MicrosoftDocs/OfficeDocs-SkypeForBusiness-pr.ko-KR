@@ -63,7 +63,7 @@ _**마지막으로 수정 된 항목:** 2013-10-01_
 
 </div>
 
-Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
+채팅방 관리자는 방 범주 변경을 제외한 모든 채팅방 속성을 변경할 수 있습니다. 채팅방 관리자가 다음과 같은 작업을 수행하지 못하도록 제한할 수는 없습니다.
 
   - 채팅방 비활성화
 
@@ -89,7 +89,7 @@ Chat room managers can make changes to all chat room properties, except for chan
 
 범주를 올바르게 사용 하면 영구 대화방을 만들고 관리 하기가 훨씬 쉬워졌습니다. 영구 채팅 관리자는 각 범주에 대해 **Allowedmembers** 및 **작성자** 를 정의할 수 있으며, 범주에 만들어지는 모든 채팅방에 적용할 기본 대화방 설정 및 동작도 정의할 수 있습니다. 영구 채팅 관리자 Lync Server 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 범주를 만들고 관리 합니다.
 
-Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.
+범주의 작성자로 식별되는 사용자, OU(조직 구성 단위) 및 사용자 그룹은 해당 범주에서 대화방을 만들 수 있는 개인과 그룹입니다. 이들은 범주를 만든 후 범주의 **AllowedMembers** 목록에서 사용자, OU 및 사용자 그룹을 대화방을 관리하고 대화방에 참가할 관리자 및 구성원으로 선택할 수 있습니다.
 
 범주 안에 만들어지는 대화방은 범주에 의해 적용되는 정책 및 설정(대화방 구성원, 대화방 관리자, 파일 업로드 허용 여부, 초대 전송 여부 등)을 따릅니다.
 

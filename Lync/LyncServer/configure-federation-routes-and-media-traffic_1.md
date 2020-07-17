@@ -87,11 +87,11 @@ ms.locfileid: "44754964"
     
     ![토폴로지 작성기 외부에 지 지정 페이지](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "토폴로지 작성기 외부에 지 지정 페이지")
 
-5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
+5.  **외부 에지 지정**에서 **이 에지 풀은 페더레이션 및 공용 IM 연결에 사용됩니다.** 확인란의 선택을 취소합니다. 그러면 BackCompatSite와의 페더레이션 연결이 제거됩니다.
     
 
     > [!IMPORTANT]  
-    > This step is important. You must clear this option to remove the legacy federation association.
+    > 이 단계는 중요한 단계입니다. 레거시 페더레이션 연결을 제거하려면 이 옵션의 선택을 취소해야 합니다.
 
 
 
@@ -123,7 +123,7 @@ ms.locfileid: "44754964"
 
 1.  Office Communications Server 2007 R2 Standard Edition server 또는 프런트 엔드 서버에서 Office Communications Server 2007 R2 관리 도구를 엽니다.
 
-2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
+2.  왼쪽 창에서 맨 위의 노드를 확장한 후 **포리스트** 노드를 마우스 오른쪽 단추로 클릭합니다. **속성**을 선택한 후 **전역 속성**을 클릭합니다.
 
 3.  **페더레이션** 탭을 클릭합니다.
 
@@ -217,7 +217,7 @@ ms.locfileid: "44754964"
     
 
     > [!NOTE]  
-    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
+    > 하드웨어 부하 분산 기능이 없는 경우 페더레이션에 대한 DNS A를 업데이트하여 새 Lync Server 액세스 에지 서버를 확인해야 합니다. 최소한의 중단만으로 이 작업을 수행하려면 DNS가 업데이트되어 새 Lync Server 액세스 에지 서버를 가리킬 때 페더레이션 및 원격 액세스가 신속히 업데이트되도록 외부 Lync Server 액세스 에지 FQDN에 대한 TTL 값을 낮춥니다.
 
 
 
