@@ -25,7 +25,7 @@ ms.locfileid: "44757029"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-address-book"></a><span data-ttu-id="d5960-102">주소록 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="d5960-102">Migrate Address Book</span></span>
+# <a name="migrate-address-book"></a><span data-ttu-id="e6b62-102">주소록 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="e6b62-102">Migrate Address Book</span></span>
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "44757029"
 
 <span> </span>
 
-<span data-ttu-id="d5960-103">_**마지막으로 수정 된 항목:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="d5960-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="e6b62-103">_**마지막으로 수정 된 항목:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="e6b62-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="d5960-104">**사용자 지정된 주소록 정규화 규칙을 마이그레이션하려면**</span><span class="sxs-lookup"><span data-stu-id="d5960-104">**To migrate Address Book customized normalization rules**</span></span>
+<span data-ttu-id="e6b62-104">**사용자 지정된 주소록 정규화 규칙을 마이그레이션하려면**</span><span class="sxs-lookup"><span data-stu-id="e6b62-104">**To migrate Address Book customized normalization rules**</span></span>
 
-1.  <span data-ttu-id="d5960-105">\_ \_ \_ \_ 주소록 공유 폴더의 루트에서 회사 전화 번호 정규화Rules.txt 파일을 찾아 Lync Server 2013 파일럿 풀에 있는 주소록 공유 폴더의 루트에 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="d5960-105">Find the Company\_Phone\_Number\_Normalization\_Rules.txt file in the root of the Address Book shared folder, and copy it to the root of the Address Book shared folder in your Lync Server 2013 pilot pool.</span></span>
+1.  <span data-ttu-id="e6b62-105">\_ \_ \_ \_ 주소록 공유 폴더의 루트에서 회사 전화 번호 정규화Rules.txt 파일을 찾아 Lync Server 2013 파일럿 풀에 있는 주소록 공유 폴더의 루트에 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6b62-105">Find the Company\_Phone\_Number\_Normalization\_Rules.txt file in the root of the Address Book shared folder, and copy it to the root of the Address Book shared folder in your Lync Server 2013 pilot pool.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="d5960-106">ABS 웹 구성 요소 파일 디렉터리에 샘플 주소록 정규화 규칙이 설치되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d5960-106">The sample Address Book normalization rules have been installed in your ABS Web component file directory.</span></span> <span data-ttu-id="d5960-107">경로는 <STRONG>$설치 드라이브 문자:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>입니다.</span><span class="sxs-lookup"><span data-stu-id="d5960-107">The path is <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>.</span></span> <span data-ttu-id="d5960-108">이 파일 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; 을Company_Phone_Number_Normalization_Rules.txt주소록 공유 폴더의 루트 디렉터리에 복사 하 고 이름을 바꿀 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d5960-108">This file can be copied and renamed as &nbsp;<STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp;to the address book shared folder’s root directory.</span></span> <span data-ttu-id="d5960-109">예를 들어 <STRONG>$serverX</STRONG>에서 공유 되는 주소록의 &nbsp; 경로는 <STRONG> \\ $serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>와 비슷합니다.</span><span class="sxs-lookup"><span data-stu-id="d5960-109">For example, the address book shared in <STRONG>$serverX</STRONG>,&nbsp;the path will be similar to: <STRONG>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.</span></span>
+    > <span data-ttu-id="e6b62-106">ABS 웹 구성 요소 파일 디렉터리에 샘플 주소록 정규화 규칙이 설치되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e6b62-106">The sample Address Book normalization rules have been installed in your ABS Web component file directory.</span></span> <span data-ttu-id="e6b62-107">경로는 <STRONG>$설치 드라이브 문자:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>입니다.</span><span class="sxs-lookup"><span data-stu-id="e6b62-107">The path is <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>.</span></span> <span data-ttu-id="e6b62-108">이 파일 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; 을Company_Phone_Number_Normalization_Rules.txt주소록 공유 폴더의 루트 디렉터리에 복사 하 고 이름을 바꿀 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e6b62-108">This file can be copied and renamed as &nbsp;<STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp;to the address book shared folder’s root directory.</span></span> <span data-ttu-id="e6b62-109">예를 들어 <STRONG>$serverX</STRONG>에서 공유 되는 주소록의 &nbsp; 경로는 <STRONG> \\ $serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>와 비슷합니다.</span><span class="sxs-lookup"><span data-stu-id="e6b62-109">For example, the address book shared in <STRONG>$serverX</STRONG>,&nbsp;the path will be similar to: <STRONG>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="d5960-110">메모장과 같은 텍스트 편집기를 사용 하 여 회사 \_ 전화 \_ 번호 \_ 정규화 \_Rules.txt 파일을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="d5960-110">Use a text editor, such as Notepad, to open the Company\_Phone\_Number\_Normalization\_Rules.txt file.</span></span>
+2.  <span data-ttu-id="e6b62-110">메모장과 같은 텍스트 편집기를 사용 하 여 회사 \_ 전화 \_ 번호 \_ 정규화 \_Rules.txt 파일을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="e6b62-110">Use a text editor, such as Notepad, to open the Company\_Phone\_Number\_Normalization\_Rules.txt file.</span></span>
 
-3.  <span data-ttu-id="d5960-111">특정 유형의 항목은 Lync Server 2013에서 올바르게 작동 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d5960-111">Certain types of entries will not work correctly in Lync Server 2013.</span></span> <span data-ttu-id="d5960-112">파일에서 이 단계에 설명한 항목 유형을 조사하고, 필요에 따라 편집한 후 변경 내용을 파일럿 풀의 주소록 공유 폴더에 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="d5960-112">Look through the file for the types of entries described in this step, edit them as necessary, and save the changes to the Address Book shared folder in your pilot pool.</span></span>
+3.  <span data-ttu-id="e6b62-111">특정 유형의 항목은 Lync Server 2013에서 올바르게 작동 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e6b62-111">Certain types of entries will not work correctly in Lync Server 2013.</span></span> <span data-ttu-id="e6b62-112">파일에서 이 단계에 설명한 항목 유형을 조사하고, 필요에 따라 편집한 후 변경 내용을 파일럿 풀의 주소록 공유 폴더에 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="e6b62-112">Look through the file for the types of entries described in this step, edit them as necessary, and save the changes to the Address Book shared folder in your pilot pool.</span></span>
     
-    <span data-ttu-id="d5960-113">Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules.</span><span class="sxs-lookup"><span data-stu-id="d5960-113">Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules.</span></span> <span data-ttu-id="d5960-114">If you have strings that include required whitespace or punctuation, you need to modify the strings.</span><span class="sxs-lookup"><span data-stu-id="d5960-114">If you have strings that include required whitespace or punctuation, you need to modify the strings.</span></span> <span data-ttu-id="d5960-115">For example, the following string would cause the normalization rule to fail:</span><span class="sxs-lookup"><span data-stu-id="d5960-115">For example, the following string would cause the normalization rule to fail:</span></span>
+    <span data-ttu-id="e6b62-p103">공백 또는 문장 부호가 포함된 문자열의 경우 정규화 규칙에 입력할 때 이러한 문자가 제거되기 때문에 이러한 문자열을 사용하면 정규화 규칙이 실패할 수 있습니다. 공백 또는 문장 부호가 필요한 문자열의 경우 문자열을 수정해야 합니다. 예를 들어 다음 문자열을 사용하면 정규화 규칙이 실패합니다.</span><span class="sxs-lookup"><span data-stu-id="e6b62-p103">Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:</span></span>
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
-    <span data-ttu-id="d5960-116">다음 문자열을 사용하면 정규화 규칙이 실패하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d5960-116">The following string would not cause the normalization rule to fail:</span></span>
+    <span data-ttu-id="e6b62-116">다음 문자열을 사용하면 정규화 규칙이 실패하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e6b62-116">The following string would not cause the normalization rule to fail:</span></span>
     
         \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
 

@@ -25,7 +25,7 @@ ms.locfileid: "44751140"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-users-to-the-pilot-pool"></a><span data-ttu-id="749d9-102">단계 6: 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="749d9-102">Phase 6: Move users to the pilot pool</span></span>
+# <a name="phase-6-move-users-to-the-pilot-pool"></a><span data-ttu-id="64da3-102">단계 6: 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="64da3-102">Phase 6: Move users to the pilot pool</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "44751140"
 
 <span> </span>
 
-<span data-ttu-id="749d9-103">_**마지막으로 수정 된 항목:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="749d9-103">_**Topic Last Modified:** 2012-10-16_</span></span>
+<span data-ttu-id="64da3-103">_**마지막으로 수정 된 항목:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="64da3-103">_**Topic Last Modified:** 2012-10-16_</span></span>
 
-<span data-ttu-id="749d9-104">Lync Server 제어판과 Lync Server 관리 셸 두 가지 방법을 사용 하 여 단일 사용자 또는 사용자 그룹을 새 Lync Server 2013 배포로 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="749d9-104">You can move a single user or groups of users to the new Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="749d9-105">이 섹션의 항목에서는 파일럿 배포 중에 수행 해야 하는 작업에 대해 설명 하 고, 파일럿 배포에서 프로덕션 수준의 배포로 Lync Server 2013의 배포를 이동 하기 전까지,</span><span class="sxs-lookup"><span data-stu-id="749d9-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="64da3-104">Lync Server 제어판과 Lync Server 관리 셸 두 가지 방법을 사용 하 여 단일 사용자 또는 사용자 그룹을 새 Lync Server 2013 배포로 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="64da3-104">You can move a single user or groups of users to the new Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="64da3-105">이 섹션의 항목에서는 파일럿 배포 중에 수행 해야 하는 작업에 대해 설명 하 고, 파일럿 배포에서 프로덕션 수준의 배포로 Lync Server 2013의 배포를 이동 하기 전까지,</span><span class="sxs-lookup"><span data-stu-id="64da3-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="749d9-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="749d9-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="64da3-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="64da3-106">In This Section</span></span>
 
-  - [<span data-ttu-id="749d9-107">사용자 복제가 완료되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="749d9-107">Verify user replication has completed</span></span>](verify-user-replication-has-completed_1.md)
+  - [<span data-ttu-id="64da3-107">사용자 복제가 완료되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="64da3-107">Verify user replication has completed</span></span>](verify-user-replication-has-completed_1.md)
 
-  - [<span data-ttu-id="749d9-108">파일럿 풀로 단일 사용자 이동</span><span class="sxs-lookup"><span data-stu-id="749d9-108">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool_1.md)
+  - [<span data-ttu-id="64da3-108">파일럿 풀로 단일 사용자 이동</span><span class="sxs-lookup"><span data-stu-id="64da3-108">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool_1.md)
 
-  - [<span data-ttu-id="749d9-109">여러 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="749d9-109">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool_1.md)
+  - [<span data-ttu-id="64da3-109">여러 사용자를 파일럿 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="64da3-109">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool_1.md)
 
 </div>
 

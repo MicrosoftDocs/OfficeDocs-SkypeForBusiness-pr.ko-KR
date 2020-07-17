@@ -25,7 +25,7 @@ ms.locfileid: "44755562"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a><span data-ttu-id="982ae-102">레거시 풀로 파일럿 풀 동시 사용 확인</span><span class="sxs-lookup"><span data-stu-id="982ae-102">Verify pilot pool coexistence with legacy pool</span></span>
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a><span data-ttu-id="0ec82-102">레거시 풀로 파일럿 풀 동시 사용 확인</span><span class="sxs-lookup"><span data-stu-id="0ec82-102">Verify pilot pool coexistence with legacy pool</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "44755562"
 
 <span> </span>
 
-<span data-ttu-id="982ae-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="982ae-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="0ec82-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="0ec82-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
 <div>
 
-## <a name="verify-the-pool-in-office-communications-server-2007-r2-administrative-tool"></a><span data-ttu-id="982ae-104">Office Communications Server 2007 R2 관리 도구의 풀 확인</span><span class="sxs-lookup"><span data-stu-id="982ae-104">Verify the Pool in Office Communications Server 2007 R2 Administrative Tool</span></span>
+## <a name="verify-the-pool-in-office-communications-server-2007-r2-administrative-tool"></a><span data-ttu-id="0ec82-104">Office Communications Server 2007 R2 관리 도구의 풀 확인</span><span class="sxs-lookup"><span data-stu-id="0ec82-104">Verify the Pool in Office Communications Server 2007 R2 Administrative Tool</span></span>
 
-1.  <span data-ttu-id="982ae-105">Office Communications Server 2007 R2 관리 도구를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="982ae-105">Open the Office Communications Server 2007 R2 administrative tool.</span></span>
+1.  <span data-ttu-id="0ec82-105">Office Communications Server 2007 R2 관리 도구를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="0ec82-105">Open the Office Communications Server 2007 R2 administrative tool.</span></span>
 
-2.  <span data-ttu-id="982ae-106">**포리스트** 노드를 확장하고 **Standard Edition 서버** 또는 **엔터프라이즈 풀** 노드를 확장한 후 풀 또는 서버 이름을 확장합니다.</span><span class="sxs-lookup"><span data-stu-id="982ae-106">Expand the **Forest** node, expand the **Standard Edition Servers** or **Enterprise pools** node, and then expand the pool or server name.</span></span>
+2.  <span data-ttu-id="0ec82-106">**포리스트** 노드를 확장하고 **Standard Edition 서버** 또는 **엔터프라이즈 풀** 노드를 확장한 후 풀 또는 서버 이름을 확장합니다.</span><span class="sxs-lookup"><span data-stu-id="0ec82-106">Expand the **Forest** node, expand the **Standard Edition Servers** or **Enterprise pools** node, and then expand the pool or server name.</span></span>
 
-3.  <span data-ttu-id="982ae-107">풀에서 Office Communications Server 2007 R2 서비스가 실행 되 고 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="982ae-107">Ensure that the Office Communications Server 2007 R2 services are running on the pool.</span></span>
+3.  <span data-ttu-id="0ec82-107">풀에서 Office Communications Server 2007 R2 서비스가 실행 되 고 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="0ec82-107">Ensure that the Office Communications Server 2007 R2 services are running on the pool.</span></span>
     
-    <span data-ttu-id="982ae-108">![Office Communications Server 2007 R2 관리 콘솔](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 관리 콘솔")</span><span class="sxs-lookup"><span data-stu-id="982ae-108">![Office Communications Server 2007 R2 Admin Console](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 Admin Console")</span></span>  
+    <span data-ttu-id="0ec82-108">![Office Communications Server 2007 R2 관리 콘솔](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 관리 콘솔")</span><span class="sxs-lookup"><span data-stu-id="0ec82-108">![Office Communications Server 2007 R2 Admin Console](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 Admin Console")</span></span>  
 
 </div>
 
 <div>
 
-## <a name="verify-the-pilot-pool-in-lync-server-2013-control-panel"></a><span data-ttu-id="982ae-109">Lync Server 2013 제어판에서 파일럿 풀 확인</span><span class="sxs-lookup"><span data-stu-id="982ae-109">Verify the Pilot Pool in Lync Server 2013 Control Panel</span></span>
+## <a name="verify-the-pilot-pool-in-lync-server-2013-control-panel"></a><span data-ttu-id="0ec82-109">Lync Server 2013 제어판에서 파일럿 풀 확인</span><span class="sxs-lookup"><span data-stu-id="0ec82-109">Verify the Pilot Pool in Lync Server 2013 Control Panel</span></span>
 
-1.  <span data-ttu-id="982ae-110">CsAdministrator 역할의 구성원 인 사용자 계정에서 Lync Server 2013 프런트 엔드 서버에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="982ae-110">From a user account that is a member of the CsAdministrator role, log on to the Lync Server 2013 Front End server.</span></span>
+1.  <span data-ttu-id="0ec82-110">CsAdministrator 역할의 구성원 인 사용자 계정에서 Lync Server 2013 프런트 엔드 서버에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="0ec82-110">From a user account that is a member of the CsAdministrator role, log on to the Lync Server 2013 Front End server.</span></span>
 
-2.  <span data-ttu-id="982ae-111">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="982ae-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="982ae-112">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="982ae-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="0ec82-111">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="0ec82-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0ec82-112">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0ec82-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="982ae-113">**토폴로지**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="982ae-113">Click **Topology**.</span></span>
+3.  <span data-ttu-id="0ec82-113">**토폴로지**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0ec82-113">Click **Topology**.</span></span>
 
-4.  <span data-ttu-id="982ae-114">배포한 서버가 파일럿 풀에 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="982ae-114">Verify that the servers you deployed are present in your pilot pool.</span></span>
+4.  <span data-ttu-id="0ec82-114">배포한 서버가 파일럿 풀에 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="0ec82-114">Verify that the servers you deployed are present in your pilot pool.</span></span>
     
-    <span data-ttu-id="982ae-115">![Lync Server 제어판 토폴로지 페이지](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server 제어판 토폴로지 페이지")</span><span class="sxs-lookup"><span data-stu-id="982ae-115">![Lync Server Control Panel Topology page](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server Control Panel Topology page")</span></span>  
+    <span data-ttu-id="0ec82-115">![Lync Server 제어판 토폴로지 페이지](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server 제어판 토폴로지 페이지")</span><span class="sxs-lookup"><span data-stu-id="0ec82-115">![Lync Server Control Panel Topology page](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server Control Panel Topology page")</span></span>  
 
 </div>
 
 <div>
 
-## <a name="verify-lync-server-2013-services-have-started"></a><span data-ttu-id="982ae-116">Lync Server 2013 서비스가 시작 되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="982ae-116">Verify Lync Server 2013 services have started</span></span>
+## <a name="verify-lync-server-2013-services-have-started"></a><span data-ttu-id="0ec82-116">Lync Server 2013 서비스가 시작 되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="0ec82-116">Verify Lync Server 2013 services have started</span></span>
 
-1.  <span data-ttu-id="982ae-117">Lync Server 2013 프런트 엔드 서버의 **관리 도구** 그룹에서 **서비스** 애플릿을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="982ae-117">On the Lync Server 2013 Front End Server, open the **Services** applet from the **Administrative Tools** group.</span></span>
+1.  <span data-ttu-id="0ec82-117">Lync Server 2013 프런트 엔드 서버의 **관리 도구** 그룹에서 **서비스** 애플릿을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="0ec82-117">On the Lync Server 2013 Front End Server, open the **Services** applet from the **Administrative Tools** group.</span></span>
 
-2.  <span data-ttu-id="982ae-118">나열된 서비스가 다음 그림의 목록과 일치하는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="982ae-118">Verify that the services listed match the list in the following figure.</span></span>
+2.  <span data-ttu-id="0ec82-118">나열된 서비스가 다음 그림의 목록과 일치하는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="0ec82-118">Verify that the services listed match the list in the following figure.</span></span>
     
-    <span data-ttu-id="982ae-119">![Lync services가 시작 된 서비스 페이지](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Lync services가 시작 된 서비스 페이지")</span><span class="sxs-lookup"><span data-stu-id="982ae-119">![Services page showing Lync services started](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Services page showing Lync services started")</span></span>  
+    <span data-ttu-id="0ec82-119">![Lync services가 시작 된 서비스 페이지](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Lync services가 시작 된 서비스 페이지")</span><span class="sxs-lookup"><span data-stu-id="0ec82-119">![Services page showing Lync services started](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Services page showing Lync services started")</span></span>  
 
 </div>
 

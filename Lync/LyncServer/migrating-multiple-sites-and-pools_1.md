@@ -25,7 +25,7 @@ ms.locfileid: "44756497"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-multiple-sites-and-pools"></a><span data-ttu-id="4b568-102">여러 사이트 및 풀 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="4b568-102">Migrating multiple sites and pools</span></span>
+# <a name="migrating-multiple-sites-and-pools"></a><span data-ttu-id="718c6-102">여러 사이트 및 풀 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="718c6-102">Migrating multiple sites and pools</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "44756497"
 
 <span> </span>
 
-<span data-ttu-id="4b568-103">_**마지막으로 수정 된 항목:** 2012-08-26_</span><span class="sxs-lookup"><span data-stu-id="4b568-103">_**Topic Last Modified:** 2012-08-26_</span></span>
+<span data-ttu-id="718c6-103">_**마지막으로 수정 된 항목:** 2012-08-26_</span><span class="sxs-lookup"><span data-stu-id="718c6-103">_**Topic Last Modified:** 2012-08-26_</span></span>
 
-<span data-ttu-id="4b568-104">Lync Server 2013에서는 다중 사이트 및 다중 풀 배포를 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="4b568-104">Lync Server 2013 supports multi-site and multi-pool deployments.</span></span> <span data-ttu-id="4b568-105">Office Communications Server 2007 R2에서 Lync Server 2013로 여러 풀을 마이그레이션하는 프로세스를 수행 하려면 다음 사항을 고려해 야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4b568-105">The process of migrating multiple pools from Office Communications Server 2007 R2 to Lync Server 2013 requires the following considerations:</span></span>
+<span data-ttu-id="718c6-104">Lync Server 2013에서는 다중 사이트 및 다중 풀 배포를 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="718c6-104">Lync Server 2013 supports multi-site and multi-pool deployments.</span></span> <span data-ttu-id="718c6-105">Office Communications Server 2007 R2에서 Lync Server 2013로 여러 풀을 마이그레이션하는 프로세스를 수행 하려면 다음 사항을 고려해 야 합니다.</span><span class="sxs-lookup"><span data-stu-id="718c6-105">The process of migrating multiple pools from Office Communications Server 2007 R2 to Lync Server 2013 requires the following considerations:</span></span>
 
-1.  <span data-ttu-id="4b568-106">Lync Server 2013 파일럿 풀을 배포한 후에는 Lync Server 2013 풀로 이동할 파일럿 사용자의 하위 집합 및 사용자 기능의 유효성 검사 방법론을 정의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4b568-106">After deploying a Lync Server 2013 pilot pool, you need to define a subset of pilot users that will be moved to the Lync Server 2013 pool, and a methodology for validating the functionality of the users.</span></span>
+1.  <span data-ttu-id="718c6-106">Lync Server 2013 파일럿 풀을 배포한 후에는 Lync Server 2013 풀로 이동할 파일럿 사용자의 하위 집합 및 사용자 기능의 유효성 검사 방법론을 정의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="718c6-106">After deploying a Lync Server 2013 pilot pool, you need to define a subset of pilot users that will be moved to the Lync Server 2013 pool, and a methodology for validating the functionality of the users.</span></span>
 
-2.  <span data-ttu-id="4b568-107">파일럿 풀에에 지 서버를 배포한 후에는 외부 사용자가 Lync Server 2013 풀과 통신할 수 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4b568-107">After deploying an Edge Server in the pilot pool, you need to validate that external users can communicate with the Lync Server 2013 pool.</span></span>
+2.  <span data-ttu-id="718c6-107">파일럿 풀에에 지 서버를 배포한 후에는 외부 사용자가 Lync Server 2013 풀과 통신할 수 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="718c6-107">After deploying an Edge Server in the pilot pool, you need to validate that external users can communicate with the Lync Server 2013 pool.</span></span>
 
-3.  <span data-ttu-id="4b568-108">Office Communications Server 2007 R2에 지 서버에서 파일럿 Lync Server 2013에 지 서버로의 페더레이션 경로를 전환 하 고 나면 페더레이션 사용자가 Lync Server 2013 풀과 통신할 수 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4b568-108">After transitioning the federated routes from Office Communications Server 2007 R2 Edge Servers to the pilot Lync Server 2013 Edge Servers, you need to validate that federated users can communicate with the Lync Server 2013 pool.</span></span>
+3.  <span data-ttu-id="718c6-108">Office Communications Server 2007 R2에 지 서버에서 파일럿 Lync Server 2013에 지 서버로의 페더레이션 경로를 전환 하 고 나면 페더레이션 사용자가 Lync Server 2013 풀과 통신할 수 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="718c6-108">After transitioning the federated routes from Office Communications Server 2007 R2 Edge Servers to the pilot Lync Server 2013 Edge Servers, you need to validate that federated users can communicate with the Lync Server 2013 pool.</span></span>
 
-4.  <span data-ttu-id="4b568-109">모든 사용자와 사용자가 아닌 대화 상대 개체를 이동한 후에는 Office Communications Server 2007 R2 풀이 비어 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4b568-109">After moving all the users and non-user contact objects, you need to validate that the Office Communications Server 2007 R2 pool is empty.</span></span>
+4.  <span data-ttu-id="718c6-109">모든 사용자와 사용자가 아닌 대화 상대 개체를 이동한 후에는 Office Communications Server 2007 R2 풀이 비어 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="718c6-109">After moving all the users and non-user contact objects, you need to validate that the Office Communications Server 2007 R2 pool is empty.</span></span>
 
-5.  <span data-ttu-id="4b568-110">Office Communications Server 2007 R2 풀이 비어 있는지 확인 한 후에는 해당 풀을 비활성화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4b568-110">After verifying that the Office Communications Server 2007 R2 pool is empty, you can then deactivate the pool.</span></span>
+5.  <span data-ttu-id="718c6-110">Office Communications Server 2007 R2 풀이 비어 있는지 확인 한 후에는 해당 풀을 비활성화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="718c6-110">After verifying that the Office Communications Server 2007 R2 pool is empty, you can then deactivate the pool.</span></span>
     
-    <span data-ttu-id="4b568-111">레거시 Office Communications Server 2007 R2 풀 및 서버를 비활성화 하는 방법에 대 한 자세한 내용은 [Phase 10: 레거시 사이트](phase-10-decommission-legacy-site.md)해제를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4b568-111">For details about how to deactivate the legacy Office Communications Server 2007 R2 pool and servers, see [Phase 10: Decommission legacy site](phase-10-decommission-legacy-site.md).</span></span>
+    <span data-ttu-id="718c6-111">레거시 Office Communications Server 2007 R2 풀 및 서버를 비활성화 하는 방법에 대 한 자세한 내용은 [Phase 10: 레거시 사이트](phase-10-decommission-legacy-site.md)해제를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="718c6-111">For details about how to deactivate the legacy Office Communications Server 2007 R2 pool and servers, see [Phase 10: Decommission legacy site](phase-10-decommission-legacy-site.md).</span></span>
 
 </div>
 

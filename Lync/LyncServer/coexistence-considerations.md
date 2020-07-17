@@ -26,7 +26,7 @@ ms.locfileid: "44755034"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="coexistence-considerations"></a><span data-ttu-id="22d33-102">동시 사용 고려 사항</span><span class="sxs-lookup"><span data-stu-id="22d33-102">Coexistence considerations</span></span>
+# <a name="coexistence-considerations"></a><span data-ttu-id="f42bc-102">동시 사용 고려 사항</span><span class="sxs-lookup"><span data-stu-id="f42bc-102">Coexistence considerations</span></span>
 
 </div>
 
@@ -36,23 +36,23 @@ ms.locfileid: "44755034"
 
 <span> </span>
 
-<span data-ttu-id="22d33-103">_**마지막으로 수정 된 항목:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="22d33-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="f42bc-103">_**마지막으로 수정 된 항목:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f42bc-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="22d33-104">마이그레이션 후에는 Lync Server 2013, 영구 채팅 서버 풀만 존재 하며, 레거시 배포를 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22d33-104">After migration, only a Lync Server 2013, Persistent Chat Server pool will exist, and you can decommission your legacy deployment.</span></span>
+<span data-ttu-id="f42bc-104">마이그레이션 후에는 Lync Server 2013, 영구 채팅 서버 풀만 존재 하며, 레거시 배포를 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f42bc-104">After migration, only a Lync Server 2013, Persistent Chat Server pool will exist, and you can decommission your legacy deployment.</span></span>
 
-<span data-ttu-id="22d33-105">마이그레이션이 완료 되 고 현재 그룹 채팅 서버 배포를 완전히 해제 하기 전에 다음과 같은 배포가 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22d33-105">Before migration completes and before you have decommissioned your current Group Chat Server deployment completely, you may have any of the following deployments:</span></span>
+<span data-ttu-id="f42bc-105">마이그레이션이 완료 되 고 현재 그룹 채팅 서버 배포를 완전히 해제 하기 전에 다음과 같은 배포가 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f42bc-105">Before migration completes and before you have decommissioned your current Group Chat Server deployment completely, you may have any of the following deployments:</span></span>
 
-  - <span data-ttu-id="22d33-106">Lync server 2013, 영구 채팅 서버 풀 (Lync Server 2013 풀에 속해 있어야 함)</span><span class="sxs-lookup"><span data-stu-id="22d33-106">Lync Server 2013, Persistent Chat Server pool, which must be homed on a Lync Server 2013 pool.</span></span>
+  - <span data-ttu-id="f42bc-106">Lync server 2013, 영구 채팅 서버 풀 (Lync Server 2013 풀에 속해 있어야 함)</span><span class="sxs-lookup"><span data-stu-id="f42bc-106">Lync Server 2013, Persistent Chat Server pool, which must be homed on a Lync Server 2013 pool.</span></span>
 
-  - <span data-ttu-id="22d33-107">Lync server 2010, 그룹 채팅 풀-Lync Server 2010 풀에 속해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22d33-107">Lync Server 2010, Group Chat pool, which must be homed on a Lync Server 2010 pool.</span></span>
+  - <span data-ttu-id="f42bc-107">Lync server 2010, 그룹 채팅 풀-Lync Server 2010 풀에 속해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f42bc-107">Lync Server 2010, Group Chat pool, which must be homed on a Lync Server 2010 pool.</span></span>
 
-  - <span data-ttu-id="22d33-108">Office communications Server 2007 R2 그룹 채팅 풀-Office Communications Server 2007 R2 풀에 속해 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22d33-108">Office Communications Server 2007 R2 Group Chat pool, which must be homed on an Office Communications Server 2007 R2 pool.</span></span>
+  - <span data-ttu-id="f42bc-108">Office communications Server 2007 R2 그룹 채팅 풀-Office Communications Server 2007 R2 풀에 속해 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f42bc-108">Office Communications Server 2007 R2 Group Chat pool, which must be homed on an Office Communications Server 2007 R2 pool.</span></span>
 
-<span data-ttu-id="22d33-109">These deployments can exist side by side.</span><span class="sxs-lookup"><span data-stu-id="22d33-109">These deployments can exist side by side.</span></span> <span data-ttu-id="22d33-110">However the categories, rooms, and add-ins in one deployment do not interact with those in the accompanying deployment.</span><span class="sxs-lookup"><span data-stu-id="22d33-110">However the categories, rooms, and add-ins in one deployment do not interact with those in the accompanying deployment.</span></span>
+<span data-ttu-id="f42bc-p101">이러한 배포는 함께 있을 수 있지만, 한 배포의 범주, 대화방 및 추가 기능이 다른 배포의 범주, 대화방 및 추가 기능과 상호 작용하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f42bc-p101">These deployments can exist side by side. However the categories, rooms, and add-ins in one deployment do not interact with those in the accompanying deployment.</span></span>
 
-<span data-ttu-id="22d33-111">수동 구성을 사용 하는 경우 레거시 클라이언트 (그룹 채팅 클라이언트)는 Office Communications Server 2007 R2, Lync Server 2010, 그룹 채팅 또는 Lync Server 2013에 대해 한 번에 하나의 풀에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22d33-111">Using manual configuration, a legacy client (Group Chat client) can connect to one pool at a time for Office Communications Server 2007 R2, Lync Server 2010, Group Chat, or Lync Server 2013.</span></span>
+<span data-ttu-id="f42bc-111">수동 구성을 사용 하는 경우 레거시 클라이언트 (그룹 채팅 클라이언트)는 Office Communications Server 2007 R2, Lync Server 2010, 그룹 채팅 또는 Lync Server 2013에 대해 한 번에 하나의 풀에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f42bc-111">Using manual configuration, a legacy client (Group Chat client) can connect to one pool at a time for Office Communications Server 2007 R2, Lync Server 2010, Group Chat, or Lync Server 2013.</span></span>
 
-<span data-ttu-id="22d33-112">Lync 2013 (클라이언트)는 레거시 그룹 채팅 서버 풀이 아닌 Lync Server 2013, 영구 채팅 서버 풀과 상호 작용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22d33-112">The Lync 2013 (client) can interact only with the Lync Server 2013, Persistent Chat Server pool, not with legacy Group Chat Server pools.</span></span> <span data-ttu-id="22d33-113">Lync 2013 (클라이언트)에서 영구 채팅을 사용 하려면 사용자가 Lync 2013에 있고 정책에 따라 사용 하도록 설정 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22d33-113">To use Persistent Chat in a Lync 2013 (client), the user must be homed on Lync 2013 and enabled by policy.</span></span>
+<span data-ttu-id="f42bc-112">Lync 2013 (클라이언트)는 레거시 그룹 채팅 서버 풀이 아닌 Lync Server 2013, 영구 채팅 서버 풀과 상호 작용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f42bc-112">The Lync 2013 (client) can interact only with the Lync Server 2013, Persistent Chat Server pool, not with legacy Group Chat Server pools.</span></span> <span data-ttu-id="f42bc-113">Lync 2013 (클라이언트)에서 영구 채팅을 사용 하려면 사용자가 Lync 2013에 있고 정책에 따라 사용 하도록 설정 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f42bc-113">To use Persistent Chat in a Lync 2013 (client), the user must be homed on Lync 2013 and enabled by policy.</span></span>
 
 </div>
 

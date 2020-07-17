@@ -18,49 +18,49 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44752500"
 ---
-# <a name="move-conference-directories"></a><span data-ttu-id="f08bf-103">회의 디렉터리 이동</span><span class="sxs-lookup"><span data-stu-id="f08bf-103">Move Conference Directories</span></span>
+# <a name="move-conference-directories"></a><span data-ttu-id="d374f-103">회의 디렉터리 이동</span><span class="sxs-lookup"><span data-stu-id="d374f-103">Move Conference Directories</span></span>
 
-<span data-ttu-id="f08bf-104">풀을 해제 하기 전에 레거시 풀의 각 전화 회의 디렉터리에 대해 다음 절차를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-104">Before decommissioning a pool, you must perform the following procedure for each conference directory in your legacy pool.</span></span>
+<span data-ttu-id="d374f-104">풀을 해제 하기 전에 레거시 풀의 각 전화 회의 디렉터리에 대해 다음 절차를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-104">Before decommissioning a pool, you must perform the following procedure for each conference directory in your legacy pool.</span></span>
   
-### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a><span data-ttu-id="f08bf-105">회의 디렉터리를 비즈니스용 Skype 서버 2019로 이동 하려면</span><span class="sxs-lookup"><span data-stu-id="f08bf-105">To Move a Conference Directory to Skype for Business Server 2019</span></span>
+### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a><span data-ttu-id="d374f-105">회의 디렉터리를 비즈니스용 Skype 서버 2019로 이동 하려면</span><span class="sxs-lookup"><span data-stu-id="d374f-105">To Move a Conference Directory to Skype for Business Server 2019</span></span>
 
-1. <span data-ttu-id="f08bf-106">비즈니스용 Skype 서버 관리 셸을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-106">Open the Skype for Business Server Management Shell.</span></span>
+1. <span data-ttu-id="d374f-106">비즈니스용 Skype 서버 관리 셸을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-106">Open the Skype for Business Server Management Shell.</span></span>
     
-2. <span data-ttu-id="f08bf-107">조직에서 회의 디렉터리의 id를 가져오려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-107">To obtain the identity of the conference directories in your organization, run the following command:</span></span>
+2. <span data-ttu-id="d374f-107">조직에서 회의 디렉터리의 id를 가져오려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-107">To obtain the identity of the conference directories in your organization, run the following command:</span></span>
     
    ```PowerShell
    Get-CsConferenceDirectory
    ```
 
-    <span data-ttu-id="f08bf-108">위의 명령은 조직의 모든 전화 회의 디렉터리를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-108">The preceding command returns all the conference directories in your organization.</span></span> <span data-ttu-id="f08bf-109">따라서 역할을 해제 하는 풀로 결과를 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-109">Because of that, you might want to limit the results to the pool being decommissioned.</span></span> <span data-ttu-id="f08bf-110">예를 들어 FQDN (정규화 된 도메인 이름) pool01.contoso.net을 사용 하 여 풀을 제거 하는 경우이 명령을 사용 하 여 반환 되는 데이터를 해당 풀의 전화 회의 디렉터리로 제한 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-110">For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:</span></span>
+    <span data-ttu-id="d374f-108">위의 명령은 조직의 모든 전화 회의 디렉터리를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-108">The preceding command returns all the conference directories in your organization.</span></span> <span data-ttu-id="d374f-109">따라서 역할을 해제 하는 풀로 결과를 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-109">Because of that, you might want to limit the results to the pool being decommissioned.</span></span> <span data-ttu-id="d374f-110">예를 들어 FQDN (정규화 된 도메인 이름) pool01.contoso.net을 사용 하 여 풀을 제거 하는 경우이 명령을 사용 하 여 반환 되는 데이터를 해당 풀의 전화 회의 디렉터리로 제한 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-110">For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:</span></span>
     
    ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
-    <span data-ttu-id="f08bf-111">이 명령은 ServiceID 속성에 FQDN pool01.contoso.net가 포함 된 전화 회의 디렉터리만 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-111">That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.</span></span>
+    <span data-ttu-id="d374f-111">이 명령은 ServiceID 속성에 FQDN pool01.contoso.net가 포함 된 전화 회의 디렉터리만 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-111">That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.</span></span>
     
-3. <span data-ttu-id="f08bf-112">전화 회의 디렉터리를 이동 하려면 풀의 각 전화 회의 디렉터리에 대해 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-112">To move conference directories, run the following command for each conference directory in the pool:</span></span>
+3. <span data-ttu-id="d374f-112">전화 회의 디렉터리를 이동 하려면 풀의 각 전화 회의 디렉터리에 대해 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-112">To move conference directories, run the following command for each conference directory in the pool:</span></span>
     
    ```PowerShell
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
-    <span data-ttu-id="f08bf-113">예를 들어 전화 회의 디렉터리 3을 이동 하려면 다음 명령을 사용 하 여 비즈니스용 Skype 서버 2019 풀을 TargetPool로 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-113">For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:</span></span>
+    <span data-ttu-id="d374f-113">예를 들어 전화 회의 디렉터리 3을 이동 하려면 다음 명령을 사용 하 여 비즈니스용 Skype 서버 2019 풀을 TargetPool로 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-113">For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:</span></span>
     
    ```PowerShell
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
-    <span data-ttu-id="f08bf-114">풀의 모든 전화 회의 디렉터리를 이동 하려면 다음과 같은 명령을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-114">If you want to move all the conference directories on a pool, use a command similar to the following:</span></span>
+    <span data-ttu-id="d374f-114">풀의 모든 전화 회의 디렉터리를 이동 하려면 다음과 같은 명령을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-114">If you want to move all the conference directories on a pool, use a command similar to the following:</span></span>
     
    ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
-<span data-ttu-id="f08bf-115">레거시 풀을 제거 하는 방법에 대 한 포괄적인 단계별 지침을 제공 [하는 Microsoft legacy을 다운로드 하 고 서버 역할을 제거](https://go.microsoft.com/fwlink/p/?linkId=246227) 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-115">Download [Uninstalling Microsoft legacy and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) for comprehensive, step-by-step instructions on decommissioning legacy pools.</span></span>
+<span data-ttu-id="d374f-115">레거시 풀을 제거 하는 방법에 대 한 포괄적인 단계별 지침을 제공 [하는 Microsoft legacy을 다운로드 하 고 서버 역할을 제거](https://go.microsoft.com/fwlink/p/?linkId=246227) 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-115">Download [Uninstalling Microsoft legacy and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) for comprehensive, step-by-step instructions on decommissioning legacy pools.</span></span>
   
-<span data-ttu-id="f08bf-116">전화 회의 디렉터리를 이동할 때 다음과 같은 오류가 발생할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-116">When moving conference directories, you might encounter the following error:</span></span>
+<span data-ttu-id="d374f-116">전화 회의 디렉터리를 이동할 때 다음과 같은 오류가 발생할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-116">When moving conference directories, you might encounter the following error:</span></span>
   
 ```console
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
@@ -69,6 +69,6 @@ Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObjec
 This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 ```
 
-<span data-ttu-id="f08bf-117">이 오류는 일반적으로 비즈니스용 Skype 서버 관리 셸에서 작업을 완료 하기 위해 업데이트 된 Active Directory 사용 권한 집합이 필요한 경우 발생 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-117">This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task.</span></span> <span data-ttu-id="f08bf-118">이 문제를 해결 하려면 관리 셸의 현재 인스턴스를 닫은 다음 셸의 새 인스턴스를 열고 명령을 다시 실행 하 여 전화 회의 디렉터리를 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="f08bf-118">To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command to move the conference directory.</span></span>
+<span data-ttu-id="d374f-117">이 오류는 일반적으로 비즈니스용 Skype 서버 관리 셸에서 작업을 완료 하기 위해 업데이트 된 Active Directory 사용 권한 집합이 필요한 경우 발생 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-117">This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task.</span></span> <span data-ttu-id="d374f-118">이 문제를 해결 하려면 관리 셸의 현재 인스턴스를 닫은 다음 셸의 새 인스턴스를 열고 명령을 다시 실행 하 여 전화 회의 디렉터리를 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="d374f-118">To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command to move the conference directory.</span></span>
   
 

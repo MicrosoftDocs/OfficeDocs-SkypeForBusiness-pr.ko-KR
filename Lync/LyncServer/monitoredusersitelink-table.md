@@ -25,7 +25,7 @@ ms.locfileid: "44757189"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoredusersitelink-table"></a><span data-ttu-id="afe8c-102">MonitoredUserSiteLink 테이블</span><span class="sxs-lookup"><span data-stu-id="afe8c-102">MonitoredUserSiteLink table</span></span>
+# <a name="monitoredusersitelink-table"></a><span data-ttu-id="78ca8-102">MonitoredUserSiteLink 테이블</span><span class="sxs-lookup"><span data-stu-id="78ca8-102">MonitoredUserSiteLink table</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "44757189"
 
 <span> </span>
 
-<span data-ttu-id="afe8c-103">_**마지막으로 수정 된 항목:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="afe8c-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="78ca8-103">_**마지막으로 수정 된 항목:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="78ca8-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="afe8c-104">The MonitoredUserSiteLink table is a supporting table.</span><span class="sxs-lookup"><span data-stu-id="afe8c-104">The MonitoredUserSiteLink table is a supporting table.</span></span> <span data-ttu-id="afe8c-105">Each record represents one link between two user sites.</span><span class="sxs-lookup"><span data-stu-id="afe8c-105">Each record represents one link between two user sites.</span></span>
+<span data-ttu-id="78ca8-p101">MonitoredUserSiteLink 테이블은 지원 테이블입니다. 각 레코드는 두 사용자 사이트 간의 한 링크를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="78ca8-p101">The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "44757189"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="afe8c-106"><strong>열</strong></span><span class="sxs-lookup"><span data-stu-id="afe8c-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="afe8c-107"><strong>데이터 형식</strong></span><span class="sxs-lookup"><span data-stu-id="afe8c-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="afe8c-108"><strong>키/인덱스</strong></span><span class="sxs-lookup"><span data-stu-id="afe8c-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="afe8c-109"><strong>세부 정보</strong></span><span class="sxs-lookup"><span data-stu-id="afe8c-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="78ca8-106"><strong>열</strong></span><span class="sxs-lookup"><span data-stu-id="78ca8-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="78ca8-107"><strong>데이터 형식</strong></span><span class="sxs-lookup"><span data-stu-id="78ca8-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="78ca8-108"><strong>키/인덱스</strong></span><span class="sxs-lookup"><span data-stu-id="78ca8-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="78ca8-109"><strong>세부 정보</strong></span><span class="sxs-lookup"><span data-stu-id="78ca8-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="afe8c-110"><strong>UserSite1Key</strong></span><span class="sxs-lookup"><span data-stu-id="afe8c-110"><strong>UserSite1Key</strong></span></span></p></td>
-<td><p><span data-ttu-id="afe8c-111">int</span><span class="sxs-lookup"><span data-stu-id="afe8c-111">int</span></span></p></td>
-<td><p><span data-ttu-id="afe8c-112">Primary, Foreign</span><span class="sxs-lookup"><span data-stu-id="afe8c-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="afe8c-113"><a href="lync-server-2013-usersite-table.md">Lync Server 2013의 Usersite 테이블</a>에서 참조 됩니다.</span><span class="sxs-lookup"><span data-stu-id="afe8c-113">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="78ca8-110"><strong>UserSite1Key</strong></span><span class="sxs-lookup"><span data-stu-id="78ca8-110"><strong>UserSite1Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="78ca8-111">int</span><span class="sxs-lookup"><span data-stu-id="78ca8-111">int</span></span></p></td>
+<td><p><span data-ttu-id="78ca8-112">Primary, Foreign</span><span class="sxs-lookup"><span data-stu-id="78ca8-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="78ca8-113"><a href="lync-server-2013-usersite-table.md">Lync Server 2013의 Usersite 테이블</a>에서 참조 됩니다.</span><span class="sxs-lookup"><span data-stu-id="78ca8-113">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="afe8c-114"><strong>UserSite2Key</strong></span><span class="sxs-lookup"><span data-stu-id="afe8c-114"><strong>UserSite2Key</strong></span></span></p></td>
-<td><p><span data-ttu-id="afe8c-115">int</span><span class="sxs-lookup"><span data-stu-id="afe8c-115">int</span></span></p></td>
-<td><p><span data-ttu-id="afe8c-116">Primary, Foreign</span><span class="sxs-lookup"><span data-stu-id="afe8c-116">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="afe8c-117"><a href="lync-server-2013-usersite-table.md">Lync Server 2013의 Usersite 테이블에</a>대 한 참조입니다.</span><span class="sxs-lookup"><span data-stu-id="afe8c-117">Reference from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="78ca8-114"><strong>UserSite2Key</strong></span><span class="sxs-lookup"><span data-stu-id="78ca8-114"><strong>UserSite2Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="78ca8-115">int</span><span class="sxs-lookup"><span data-stu-id="78ca8-115">int</span></span></p></td>
+<td><p><span data-ttu-id="78ca8-116">Primary, Foreign</span><span class="sxs-lookup"><span data-stu-id="78ca8-116">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="78ca8-117"><a href="lync-server-2013-usersite-table.md">Lync Server 2013의 Usersite 테이블에</a>대 한 참조입니다.</span><span class="sxs-lookup"><span data-stu-id="78ca8-117">Reference from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

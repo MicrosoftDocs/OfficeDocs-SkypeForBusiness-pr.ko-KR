@@ -25,7 +25,7 @@ ms.locfileid: "44757139"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-an-authorized-host-entry"></a><span data-ttu-id="2113f-102">권한이 부여 된 호스트 항목 제거</span><span class="sxs-lookup"><span data-stu-id="2113f-102">Remove an authorized host entry</span></span>
+# <a name="remove-an-authorized-host-entry"></a><span data-ttu-id="10f78-102">권한이 부여 된 호스트 항목 제거</span><span class="sxs-lookup"><span data-stu-id="10f78-102">Remove an authorized host entry</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "44757139"
 
 <span> </span>
 
-<span data-ttu-id="2113f-103">_**마지막으로 수정 된 항목:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="2113f-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="10f78-103">_**마지막으로 수정 된 항목:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="10f78-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="2113f-104">이 항목에서는 Lync Server 2013의 *신뢰할 수 있는 응용 프로그램 항목* 으로 알려진 레거시 권한 부여 된 호스트 항목을 제거 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="2113f-104">This topic describes how to remove a legacy authorized host entry (known as a *trusted application entry* in Lync Server 2013).</span></span> <span data-ttu-id="2113f-105">원격 통화 제어를 Lync Server 2013 배포로 마이그레이션할 때 Office Communications Server 2007 R2 배포에서 모든 SIP/CSTA 게이트웨이 용으로 권한이 부여 된 기존 호스트 항목을 제거 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2113f-105">You must remove existing authorized host entries for any SIP/CSTA gateways in your Office Communications Server 2007 R2 deployment when you migrate remote call control to a Lync Server 2013 deployment.</span></span> <span data-ttu-id="2113f-106">권한이 부여 된 기존 호스트 항목을 제거 하려면 Office Communications Server 2007 r 2에 포함 된 관리 도구를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2113f-106">You must use the administrative tools included with Office Communications Server 2007 R2 to remove the existing authorized host entries.</span></span>
+<span data-ttu-id="10f78-104">이 항목에서는 Lync Server 2013의 *신뢰할 수 있는 응용 프로그램 항목* 으로 알려진 레거시 권한 부여 된 호스트 항목을 제거 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="10f78-104">This topic describes how to remove a legacy authorized host entry (known as a *trusted application entry* in Lync Server 2013).</span></span> <span data-ttu-id="10f78-105">원격 통화 제어를 Lync Server 2013 배포로 마이그레이션할 때 Office Communications Server 2007 R2 배포에서 모든 SIP/CSTA 게이트웨이 용으로 권한이 부여 된 기존 호스트 항목을 제거 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="10f78-105">You must remove existing authorized host entries for any SIP/CSTA gateways in your Office Communications Server 2007 R2 deployment when you migrate remote call control to a Lync Server 2013 deployment.</span></span> <span data-ttu-id="10f78-106">권한이 부여 된 기존 호스트 항목을 제거 하려면 Office Communications Server 2007 r 2에 포함 된 관리 도구를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="10f78-106">You must use the administrative tools included with Office Communications Server 2007 R2 to remove the existing authorized host entries.</span></span>
 
 <div>
 
-## <a name="to-remove-an-authorized-host-entry-in-an-office-communications-server-2007-r2-deployment"></a><span data-ttu-id="2113f-107">Office Communications Server 2007 R2 배포에서 권한이 부여 된 호스트 항목을 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="2113f-107">To remove an authorized host entry in an Office Communications Server 2007 R2 deployment</span></span>
+## <a name="to-remove-an-authorized-host-entry-in-an-office-communications-server-2007-r2-deployment"></a><span data-ttu-id="10f78-107">Office Communications Server 2007 R2 배포에서 권한이 부여 된 호스트 항목을 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="10f78-107">To remove an authorized host entry in an Office Communications Server 2007 R2 deployment</span></span>
 
-1.  <span data-ttu-id="2113f-108">Office Communications Server 2007 R2 관리 콘솔을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="2113f-108">Open the Office Communications Server 2007 R2 administrative console.</span></span>
+1.  <span data-ttu-id="10f78-108">Office Communications Server 2007 R2 관리 콘솔을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="10f78-108">Open the Office Communications Server 2007 R2 administrative console.</span></span>
 
-2.  <span data-ttu-id="2113f-109">트리를 확장하고 권한이 부여된 호스트를 만든 풀을 마우스 오른쪽 단추로 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2113f-109">Expand the tree and right-click the pool where the authorized host was created.</span></span>
+2.  <span data-ttu-id="10f78-109">트리를 확장하고 권한이 부여된 호스트를 만든 풀을 마우스 오른쪽 단추로 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="10f78-109">Expand the tree and right-click the pool where the authorized host was created.</span></span>
 
-3.  <span data-ttu-id="2113f-110">**속성**을 클릭한 다음 **프런트 엔드 속성**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2113f-110">Click **Properties**, and then click **Front End Properties**.</span></span>
+3.  <span data-ttu-id="10f78-110">**속성**을 클릭한 다음 **프런트 엔드 속성**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="10f78-110">Click **Properties**, and then click **Front End Properties**.</span></span>
 
-4.  <span data-ttu-id="2113f-111">**호스트 권한 부여** 탭을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2113f-111">Click the **Host Authorization** tab.</span></span>
+4.  <span data-ttu-id="10f78-111">**호스트 권한 부여** 탭을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="10f78-111">Click the **Host Authorization** tab.</span></span>
 
-5.  <span data-ttu-id="2113f-112">서버를 클릭하고 **제거**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2113f-112">Select a server, and then click **Remove**.</span></span>
+5.  <span data-ttu-id="10f78-112">서버를 클릭하고 **제거**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="10f78-112">Select a server, and then click **Remove**.</span></span>
 
-6.  <span data-ttu-id="2113f-113">**속성**에서 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2113f-113">In **Properties**, click **OK**.</span></span>
+6.  <span data-ttu-id="10f78-113">**속성**에서 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="10f78-113">In **Properties**, click **OK**.</span></span>
 
 </div>
 

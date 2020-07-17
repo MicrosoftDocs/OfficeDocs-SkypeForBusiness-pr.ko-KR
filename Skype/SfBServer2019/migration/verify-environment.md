@@ -18,73 +18,73 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44751680"
 ---
-# <a name="verify-the-legacy-environment"></a><span data-ttu-id="6cb2f-105">레거시 환경 확인</span><span class="sxs-lookup"><span data-stu-id="6cb2f-105">Verify the legacy environment</span></span>
+# <a name="verify-the-legacy-environment"></a><span data-ttu-id="b9e00-105">레거시 환경 확인</span><span class="sxs-lookup"><span data-stu-id="b9e00-105">Verify the legacy environment</span></span>
 
-<span data-ttu-id="6cb2f-106">비즈니스용 Skype 서버 2019을 동시 사용 상태로 배포 하기 전에 레거시 서비스가 구성 및 시작 되었는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-106">Before deploying Skype for Business Server 2019 in a coexistence state, you need to verify that legacy services have been configured and started.</span></span> <span data-ttu-id="6cb2f-107">비즈니스용 Skype 서버 2019 파일럿 풀을 배포 하기 전에 레거시 환경에 있는 주요 서비스와 기능을 파악 하는 것이 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-107">It is important to identify key services and features that exist in your legacy environment prior to deploying a Skype for Business Server 2019 pilot pool.</span></span> <span data-ttu-id="6cb2f-108">레거시 XMPP 배포를 사용 하 여 Microsoft 비즈니스용 Skype 서버 2019 XMPP를 공존 상태로 배포 하기 전에 레거시 XMPP 서비스가 구성 및 시작 되었는지 확인 하 고 레거시 XMPP 구성에서 지 원하는 페더레이션 파트너를 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-108">Before deploying Microsoft Skype for Business Server 2019 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify that the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting.</span></span> <span data-ttu-id="6cb2f-109">레거시 배포를 확인 하는 경우 다음이 수반 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-109">Verifying your legacy deployment entails the following:</span></span>
+<span data-ttu-id="b9e00-106">비즈니스용 Skype 서버 2019을 동시 사용 상태로 배포 하기 전에 레거시 서비스가 구성 및 시작 되었는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-106">Before deploying Skype for Business Server 2019 in a coexistence state, you need to verify that legacy services have been configured and started.</span></span> <span data-ttu-id="b9e00-107">비즈니스용 Skype 서버 2019 파일럿 풀을 배포 하기 전에 레거시 환경에 있는 주요 서비스와 기능을 파악 하는 것이 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-107">It is important to identify key services and features that exist in your legacy environment prior to deploying a Skype for Business Server 2019 pilot pool.</span></span> <span data-ttu-id="b9e00-108">레거시 XMPP 배포를 사용 하 여 Microsoft 비즈니스용 Skype 서버 2019 XMPP를 공존 상태로 배포 하기 전에 레거시 XMPP 서비스가 구성 및 시작 되었는지 확인 하 고 레거시 XMPP 구성에서 지 원하는 페더레이션 파트너를 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-108">Before deploying Microsoft Skype for Business Server 2019 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify that the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting.</span></span> <span data-ttu-id="b9e00-109">레거시 배포를 확인 하는 경우 다음이 수반 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-109">Verifying your legacy deployment entails the following:</span></span>
   
-- <span data-ttu-id="6cb2f-110">레거시 서비스가 시작 되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="6cb2f-110">Verifying that the legacy services are started</span></span>
+- <span data-ttu-id="b9e00-110">레거시 서비스가 시작 되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="b9e00-110">Verifying that the legacy services are started</span></span>
     
-- <span data-ttu-id="6cb2f-111">토폴로지 및 사용자 검토</span><span class="sxs-lookup"><span data-stu-id="6cb2f-111">Reviewing the topology and users</span></span>
+- <span data-ttu-id="b9e00-111">토폴로지 및 사용자 검토</span><span class="sxs-lookup"><span data-stu-id="b9e00-111">Reviewing the topology and users</span></span>
     
-- <span data-ttu-id="6cb2f-112">페더레이션 및에 지 서버 설정 확인</span><span class="sxs-lookup"><span data-stu-id="6cb2f-112">Verifying the federation and Edge server settings</span></span>
+- <span data-ttu-id="b9e00-112">페더레이션 및에 지 서버 설정 확인</span><span class="sxs-lookup"><span data-stu-id="b9e00-112">Verifying the federation and Edge server settings</span></span>
     
-- <span data-ttu-id="6cb2f-113">XMPP 서비스 및 페더레이션 파트너 확인</span><span class="sxs-lookup"><span data-stu-id="6cb2f-113">Verifying XMPP services and federated partners</span></span>
+- <span data-ttu-id="b9e00-113">XMPP 서비스 및 페더레이션 파트너 확인</span><span class="sxs-lookup"><span data-stu-id="b9e00-113">Verifying XMPP services and federated partners</span></span>
     
-## <a name="verify-that-legacy-services-are-started"></a><span data-ttu-id="6cb2f-114">레거시 서비스가 시작 되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="6cb2f-114">Verify that legacy services are started</span></span>
+## <a name="verify-that-legacy-services-are-started"></a><span data-ttu-id="b9e00-114">레거시 서비스가 시작 되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="b9e00-114">Verify that legacy services are started</span></span>
 
-1. <span data-ttu-id="6cb2f-115">레거시 프런트 엔드 서버에서 관리 도구 \ 서비스 애플릿으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-115">From the legacy Front End Server, navigate to the Administrative Tools\Services applet.</span></span>
+1. <span data-ttu-id="b9e00-115">레거시 프런트 엔드 서버에서 관리 도구 \ 서비스 애플릿으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-115">From the legacy Front End Server, navigate to the Administrative Tools\Services applet.</span></span>
     
-2. <span data-ttu-id="6cb2f-116">프런트 엔드 서버에서 다음 서비스가 실행되고 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-116">Verify that the following services are running on the Front End Server:</span></span>
+2. <span data-ttu-id="b9e00-116">프런트 엔드 서버에서 다음 서비스가 실행되고 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-116">Verify that the following services are running on the Front End Server:</span></span>
     
      ![프런트 엔드 서버에서 실행 중인 서비스 목록](../media/migration_lyncserver_config_w14_services.jpg)
   
-## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a><span data-ttu-id="6cb2f-118">비즈니스용 Skype 서버 제어판에서 레거시 토폴로지 검토</span><span class="sxs-lookup"><span data-stu-id="6cb2f-118">Review the legacy topology in Skype for Business Server Control Panel</span></span>
+## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a><span data-ttu-id="b9e00-118">비즈니스용 Skype 서버 제어판에서 레거시 토폴로지 검토</span><span class="sxs-lookup"><span data-stu-id="b9e00-118">Review the legacy topology in Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="6cb2f-119">RTCUniversalServerAdmins 그룹의 구성원이거나 CsAdministrator 또는 CsUserAdministrator 관리 역할의 구성원인 계정으로 프런트 엔드 서버에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-119">Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
+1. <span data-ttu-id="b9e00-119">RTCUniversalServerAdmins 그룹의 구성원이거나 CsAdministrator 또는 CsUserAdministrator 관리 역할의 구성원인 계정으로 프런트 엔드 서버에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-119">Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
     
-2. <span data-ttu-id="6cb2f-120">비즈니스용 Skype 서버 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-120">Open the Skype for Business Server Control Panel.</span></span>
+2. <span data-ttu-id="b9e00-120">비즈니스용 Skype 서버 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-120">Open the Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="6cb2f-121">**토폴로지**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-121">Select **Topology**.</span></span> <span data-ttu-id="6cb2f-122">레거시 배포에서 다양 한 서버가 나열 되는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-122">Verify that the various servers in your legacy deployment are listed.</span></span>
+3. <span data-ttu-id="b9e00-121">**토폴로지**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-121">Select **Topology**.</span></span> <span data-ttu-id="b9e00-122">레거시 배포에서 다양 한 서버가 나열 되는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-122">Verify that the various servers in your legacy deployment are listed.</span></span>
     
      ![제어판 토폴로지 페이지](../media/migration_lyncserver_2010_topology.JPG)
   
-## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a><span data-ttu-id="6cb2f-124">비즈니스용 Skype 서버 제어판의 레거시 사용자 검토</span><span class="sxs-lookup"><span data-stu-id="6cb2f-124">Review legacy users in Skype for Business Server Control Panel</span></span>
+## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a><span data-ttu-id="b9e00-124">비즈니스용 Skype 서버 제어판의 레거시 사용자 검토</span><span class="sxs-lookup"><span data-stu-id="b9e00-124">Review legacy users in Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="6cb2f-125">비즈니스용 Skype 서버 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-125">Open the Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="b9e00-125">비즈니스용 Skype 서버 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-125">Open the Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="6cb2f-126">**사용자**를 선택 하 고 **찾기를**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-126">Select **Users**, and then click **Find**.</span></span>
+2. <span data-ttu-id="b9e00-126">**사용자**를 선택 하 고 **찾기를**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-126">Select **Users**, and then click **Find**.</span></span>
     
-3. <span data-ttu-id="6cb2f-127">**등록자 풀** 열이 나열 된 각 사용자의 레거시 풀을 가리키는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-127">Verify that the **Registrar Pool** column points to the legacy pool for each user listed.</span></span> 
+3. <span data-ttu-id="b9e00-127">**등록자 풀** 열이 나열 된 각 사용자의 레거시 풀을 가리키는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-127">Verify that the **Registrar Pool** column points to the legacy pool for each user listed.</span></span> 
     
      ![사용자를 나열 하는 제어판](../media/migration_lyncserver_2010_allusers.JPG)
   
-## <a name="verify-legacy-edge-and-federation-settings"></a><span data-ttu-id="6cb2f-129">레거시에 지 및 페더레이션 설정 확인</span><span class="sxs-lookup"><span data-stu-id="6cb2f-129">Verify legacy Edge and federation settings</span></span>
+## <a name="verify-legacy-edge-and-federation-settings"></a><span data-ttu-id="b9e00-129">레거시에 지 및 페더레이션 설정 확인</span><span class="sxs-lookup"><span data-stu-id="b9e00-129">Verify legacy Edge and federation settings</span></span>
 
-1. <span data-ttu-id="6cb2f-130">토폴로지 작성기를 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-130">Start Topology Builder.</span></span>
+1. <span data-ttu-id="b9e00-130">토폴로지 작성기를 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-130">Start Topology Builder.</span></span>
     
-2. <span data-ttu-id="6cb2f-131">**기존 배포에서 토폴로지 다운로드**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-131">Select **Download Topology from existing deployment**.</span></span>
+2. <span data-ttu-id="b9e00-131">**기존 배포에서 토폴로지 다운로드**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-131">Select **Download Topology from existing deployment**.</span></span>
     
-3. <span data-ttu-id="6cb2f-132">파일 이름을 선택 하 고 redmond.tbxml 파일 형식을 사용 하 여 토폴로지를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-132">Choose a file name, and save the topology with the default .tbxml file type.</span></span>
+3. <span data-ttu-id="b9e00-132">파일 이름을 선택 하 고 redmond.tbxml 파일 형식을 사용 하 여 토폴로지를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-132">Choose a file name, and save the topology with the default .tbxml file type.</span></span>
     
-4. <span data-ttu-id="6cb2f-133">레거시 설치 노드를 확장 하 여 배포의 다양 한 서버 역할을 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-133">Expand the legacy installs node to reveal the various server roles in the deployment.</span></span>
+4. <span data-ttu-id="b9e00-133">레거시 설치 노드를 확장 하 여 배포의 다양 한 서버 역할을 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-133">Expand the legacy installs node to reveal the various server roles in the deployment.</span></span>
     
-5. <span data-ttu-id="6cb2f-134">사이트 노드를 선택 하 고 **사이트 페더레이션 경로 할당** 값이 설정 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-134">Select the site node and verify that a **Site federation route assignment** value is set.</span></span> 
+5. <span data-ttu-id="b9e00-134">사이트 노드를 선택 하 고 **사이트 페더레이션 경로 할당** 값이 설정 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-134">Select the site node and verify that a **Site federation route assignment** value is set.</span></span> 
     
      ![토폴로지 작성기, 사이트 페더레이션 경로](../media/migration_lyncserver_w14_federation.jpg)
   
-6. <span data-ttu-id="6cb2f-136">Standard Edition 서버 또는 Enterprise Edition 프런트 엔드 풀을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-136">Select the Standard Edition Server or Enterprise Edition front end pool.</span></span> <span data-ttu-id="6cb2f-137">**연결**아래 미디어에 대 한에 지 풀이 구성 되었는지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-137">Determine whether an Edge pool has been configured for media below **Associations**.</span></span> 
+6. <span data-ttu-id="b9e00-136">Standard Edition 서버 또는 Enterprise Edition 프런트 엔드 풀을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-136">Select the Standard Edition Server or Enterprise Edition front end pool.</span></span> <span data-ttu-id="b9e00-137">**연결**아래 미디어에 대 한에 지 풀이 구성 되었는지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-137">Determine whether an Edge pool has been configured for media below **Associations**.</span></span> 
     
      ![서버 및 풀을 보여 주는 토폴로지 작성기](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
-7. <span data-ttu-id="6cb2f-139">에 지 풀을 선택 하 고 **다음 홉 선택**아래에서 다음 홉 풀이 구성 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-139">Select the Edge pool and identify whether a Next hop pool is configured below **Next hop selection**.</span></span>
+7. <span data-ttu-id="b9e00-139">에 지 풀을 선택 하 고 **다음 홉 선택**아래에서 다음 홉 풀이 구성 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-139">Select the Edge pool and identify whether a Next hop pool is configured below **Next hop selection**.</span></span>
     
      ![토폴로지 작성기, 다음 홉 선택](../media/migration_lyncserver_w14_nexthop.jpg)
   
-## <a name="verify-legacy-xmpp-federated-partner-configuration"></a><span data-ttu-id="6cb2f-141">레거시 XMPP 페더레이션 파트너 구성 확인</span><span class="sxs-lookup"><span data-stu-id="6cb2f-141">Verify legacy XMPP federated partner Configuration</span></span>
+## <a name="verify-legacy-xmpp-federated-partner-configuration"></a><span data-ttu-id="b9e00-141">레거시 XMPP 페더레이션 파트너 구성 확인</span><span class="sxs-lookup"><span data-stu-id="b9e00-141">Verify legacy XMPP federated partner Configuration</span></span>
 
-1. <span data-ttu-id="6cb2f-142">레거시 XMPP 서버에서 관리 도구의 서비스 애플릿으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-142">From the legacy XMPP server, navigate to the Administrative Tools\Services applet.</span></span>
+1. <span data-ttu-id="b9e00-142">레거시 XMPP 서버에서 관리 도구의 서비스 애플릿으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-142">From the legacy XMPP server, navigate to the Administrative Tools\Services applet.</span></span>
     
-2. <span data-ttu-id="6cb2f-143">Office Communications Server XMPP 게이트웨이 서비스가 시작되었는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="6cb2f-143">Verify that the Office Communications Server XMPP Gateway service is started.</span></span> 
+2. <span data-ttu-id="b9e00-143">Office Communications Server XMPP 게이트웨이 서비스가 시작되었는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="b9e00-143">Verify that the Office Communications Server XMPP Gateway service is started.</span></span> 
     
      ![Office Communications Server XMPP 게이트웨이 서비스](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   

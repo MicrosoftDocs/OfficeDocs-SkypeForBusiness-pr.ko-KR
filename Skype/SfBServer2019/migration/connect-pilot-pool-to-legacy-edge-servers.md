@@ -18,38 +18,38 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44753928"
 ---
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a><span data-ttu-id="8466f-104">레거시 에지 서버에 파일럿 풀 연결</span><span class="sxs-lookup"><span data-stu-id="8466f-104">Connect pilot pool to legacy Edge Servers</span></span>
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a><span data-ttu-id="48128-104">레거시 에지 서버에 파일럿 풀 연결</span><span class="sxs-lookup"><span data-stu-id="48128-104">Connect pilot pool to legacy Edge Servers</span></span>
 
-<span data-ttu-id="8466f-105">비즈니스용 Skype 서버 2019를 배포한 후에는 사이트에 대 한 페더레이션 경로를 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-105">After deploying Skype for Business Server 2019, you need to configure a federation route for your site.</span></span> <span data-ttu-id="8466f-106">레거시 설치에서 사용 중인 페더레이션 경로를 사용 하려면 비즈니스용 Skype 서버 2019이이 경로를 사용 하도록 구성 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-106">In order to use the federated route that is being used by the legacy installation, Skype for Business Server 2019 must be configured to use this route.</span></span> 
+<span data-ttu-id="48128-105">비즈니스용 Skype 서버 2019를 배포한 후에는 사이트에 대 한 페더레이션 경로를 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-105">After deploying Skype for Business Server 2019, you need to configure a federation route for your site.</span></span> <span data-ttu-id="48128-106">레거시 설치에서 사용 중인 페더레이션 경로를 사용 하려면 비즈니스용 Skype 서버 2019이이 경로를 사용 하도록 구성 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-106">In order to use the federated route that is being used by the legacy installation, Skype for Business Server 2019 must be configured to use this route.</span></span> 
   
-<span data-ttu-id="8466f-107">비즈니스용 Skype 서버 2019 사이트에서 레거시 배포의 디렉터 및에 지 서버를 사용할 수 있도록 설정 하려면 토폴로지 작성기를 사용 하 여 레거시에 지 풀을 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-107">To enable the Skype for Business Server 2019 site to use the Director and Edge Server of the legacy deployment, use Topology Builder to associate the legacy Edge pool.</span></span>
+<span data-ttu-id="48128-107">비즈니스용 Skype 서버 2019 사이트에서 레거시 배포의 디렉터 및에 지 서버를 사용할 수 있도록 설정 하려면 토폴로지 작성기를 사용 하 여 레거시에 지 풀을 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-107">To enable the Skype for Business Server 2019 site to use the Director and Edge Server of the legacy deployment, use Topology Builder to associate the legacy Edge pool.</span></span>
   
-### <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a><span data-ttu-id="8466f-108">토폴로지 작성기를 사용하여 레거시 에지 풀을 연결하려면</span><span class="sxs-lookup"><span data-stu-id="8466f-108">To associate the legacy Edge pool by using Topology Builder</span></span>
+### <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a><span data-ttu-id="48128-108">토폴로지 작성기를 사용하여 레거시 에지 풀을 연결하려면</span><span class="sxs-lookup"><span data-stu-id="48128-108">To associate the legacy Edge pool by using Topology Builder</span></span>
 
-1. <span data-ttu-id="8466f-109">토폴로지 작성기를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-109">Open Topology Builder.</span></span> 
+1. <span data-ttu-id="48128-109">토폴로지 작성기를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="48128-109">Open Topology Builder.</span></span> 
     
-2. <span data-ttu-id="8466f-110">**비즈니스용 Skype 서버** 노드 바로 아래에 있는 사이트를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-110">Select your site, which is directly below the **Skype for Business Server** node.</span></span> 
+2. <span data-ttu-id="48128-110">**비즈니스용 Skype 서버** 노드 바로 아래에 있는 사이트를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-110">Select your site, which is directly below the **Skype for Business Server** node.</span></span> 
     
-3. <span data-ttu-id="8466f-111">**동작** 메뉴에서 **속성 편집**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-111">On the **Actions** menu, click **Edit Properties**.</span></span>
+3. <span data-ttu-id="48128-111">**동작** 메뉴에서 **속성 편집**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-111">On the **Actions** menu, click **Edit Properties**.</span></span>
     
-4. <span data-ttu-id="8466f-112">왼쪽 창에서 **페더레이션 경로**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-112">In the left pane, select **Federation route**.</span></span>
+4. <span data-ttu-id="48128-112">왼쪽 창에서 **페더레이션 경로**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-112">In the left pane, select **Federation route**.</span></span>
     
-5. <span data-ttu-id="8466f-113">**사이트 페더레이션 경로**지정에서 **SIP 페더레이션 사용**을 선택한 다음 레거시 디렉터를 선택 하거나, 디렉터가 나열 되어 있지 않으면 레거시에 지 서버를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-113">Under **Site federation route assignment**, select **Enable SIP federation**, and then select the legacy Director, or the legacy Edge Server if no Director is listed.</span></span>
+5. <span data-ttu-id="48128-113">**사이트 페더레이션 경로**지정에서 **SIP 페더레이션 사용**을 선택한 다음 레거시 디렉터를 선택 하거나, 디렉터가 나열 되어 있지 않으면 레거시에 지 서버를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-113">Under **Site federation route assignment**, select **Enable SIP federation**, and then select the legacy Director, or the legacy Edge Server if no Director is listed.</span></span>
   
-6. <span data-ttu-id="8466f-114">**확인**을 클릭하여 **속성 편집** 페이지를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-114">Click **OK** to close the **Edit Properties** page.</span></span> 
+6. <span data-ttu-id="48128-114">**확인**을 클릭하여 **속성 편집** 페이지를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="48128-114">Click **OK** to close the **Edit Properties** page.</span></span> 
     
-7. <span data-ttu-id="8466f-115">토폴로지 작성기의 비즈니스용 Skype 서버 2019 노드에서 **Standard edition server** 또는 **Enterprise Edition 프런트 엔드 풀**로 이동 하 여 해당 풀을 마우스 오른쪽 단추로 클릭 한 다음 **속성 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-115">In Topology Builder, under the Skype for Business Server 2019 node, navigate to the **Standard Edition server** or **Enterprise Edition Front End pools**, right-click the pool, and then click **Edit Properties**.</span></span>
+7. <span data-ttu-id="48128-115">토폴로지 작성기의 비즈니스용 Skype 서버 2019 노드에서 **Standard edition server** 또는 **Enterprise Edition 프런트 엔드 풀**로 이동 하 여 해당 풀을 마우스 오른쪽 단추로 클릭 한 다음 **속성 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-115">In Topology Builder, under the Skype for Business Server 2019 node, navigate to the **Standard Edition server** or **Enterprise Edition Front End pools**, right-click the pool, and then click **Edit Properties**.</span></span>
     
-8. <span data-ttu-id="8466f-116">**연결**에서 **에지 풀 연결(미디어 구성 요소)** 옆의 확인란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-116">Under **Associations**, select the check box next to **Associate Edge pool (for media components)**.</span></span> 
+8. <span data-ttu-id="48128-116">**연결**에서 **에지 풀 연결(미디어 구성 요소)** 옆의 확인란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-116">Under **Associations**, select the check box next to **Associate Edge pool (for media components)**.</span></span> 
     
-9. <span data-ttu-id="8466f-117">목록에서 레거시 에지 서버를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-117">From the list, select the legacy Edge Server.</span></span> 
+9. <span data-ttu-id="48128-117">목록에서 레거시 에지 서버를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-117">From the list, select the legacy Edge Server.</span></span> 
   
-10. <span data-ttu-id="8466f-118">**확인**을 클릭하여 **속성 편집** 페이지를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-118">Click **OK** to close the **Edit Properties** page.</span></span> 
+10. <span data-ttu-id="48128-118">**확인**을 클릭하여 **속성 편집** 페이지를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="48128-118">Click **OK** to close the **Edit Properties** page.</span></span> 
     
-11. <span data-ttu-id="8466f-119">**토폴로지 작성기**에서 맨 위에 있는 **비즈니스용 Skype 서버**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-119">In **Topology Builder**, select the top-most node, **Skype for Business Server**.</span></span>
+11. <span data-ttu-id="48128-119">**토폴로지 작성기**에서 맨 위에 있는 **비즈니스용 Skype 서버**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-119">In **Topology Builder**, select the top-most node, **Skype for Business Server**.</span></span>
     
-12. <span data-ttu-id="8466f-120">**동작** 메뉴에서 **토폴로지 게시**를 클릭하고 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-120">From the **Action** menu, click **Publish Topology**, and then click **Next**.</span></span>
+12. <span data-ttu-id="48128-120">**동작** 메뉴에서 **토폴로지 게시**를 클릭하고 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-120">From the **Action** menu, click **Publish Topology**, and then click **Next**.</span></span>
     
-13. <span data-ttu-id="8466f-121">**게시 마법사**가 완료되면 **마침**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8466f-121">When the **Publishing wizard** completes, click **Finish**.</span></span>
+13. <span data-ttu-id="48128-121">**게시 마법사**가 완료되면 **마침**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="48128-121">When the **Publishing wizard** completes, click **Finish**.</span></span>
     
 
