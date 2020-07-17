@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be512ac7726defdd2879114eb47ed3e66a229e30
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751540"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158506"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft 팀을 효과적으로 사용 하는 방법
 
@@ -37,10 +37,10 @@ ms.locfileid: "44751540"
 
 ## <a name="monitor-for-network-health-and-quality"></a>네트워크 상태 및 품질 모니터링
 
-네트워크 상태가 사용자 환경에 영향을 줍니다. 사용자에 게 문제가 발생 하는 경우 (예: 모임에 참가할 때 통화 낙하 또는 지연 되는 시간), 기술이 작동 하지 않는다는 인상을 유지 하 고 지원 되지 않는 앱에 대 한 도어를 열 수 있습니다. 네트워크 상태 모니터링 및 완화 계획을 구현 하면 지원 센터에 대 한 통화를 줄이는 것 외에도 긍정적인 사용자 환경을 유지 하는 데 도움이 됩니다. 자세한 내용은 다음 문서를 참조 하세요.
+네트워크 상태가 사용자 환경에 영향을 줍니다. 사용자에 게 문제가 발생 하는 경우 (예: 모임에 참가할 때 통화 낙하 또는 지연 되는 시간), 기술이 작동 하지 않는다는 인상을 유지 하 고 지원 되지 않는 앱에 대 한 도어를 열 수 있습니다. 네트워크 상태 모니터링 및 완화 계획을 구현 하면 지원 센터에 대 한 통화를 줄이는 것 외에도 긍정적인 사용자 환경을 유지 하는 데 도움이 됩니다. 자세한 내용은 다음을 참조 하세요.
 
 - [서비스 운영](upgrade-operate-my-service.md)
-- [모니터 품질](upgrade-monitor-quality.md)
+- [통화 음질 모니터링 및 개선](monitor-call-quality-qos.md)
 - [서비스 향상](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>드라이브 사용자 통해 계속 앞서 및 채택

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665420"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158606"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>비즈니스용 Skype에서 팀으로 업그레이드 여행 선택
 
@@ -56,6 +56,9 @@ ms.locfileid: "44665420"
 팀에 게 여행을 위해 조직을 공식적으로 준비 하려면 조직에서 팀을 유일한 통신 및 공동 작업 솔루션으로 완벽 하 게 사용할 수 있도록 업그레이드 시나리오에 대 한 계획을 시작 해야 합니다.
 
 결정을 진행 하는 데 도움이 되도록 비즈니스용 Skype에서 팀으로 업그레이드 하는 데 관련 된 다양 한 모드, 개념 및 용어에 대해 익힙니다. 자세한 내용은 [Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성](https://aka.ms/SkypeToTeams-Coexist)을 참조 하세요.
+
+> [!NOTE]
+> 또한 음성 마이그레이션 시나리오를 고려해 야 합니다. 전화 시스템은 Microsoft 365 또는 Office 365 클라우드에서 통화 제어 및 PBX (개인 브랜치 교환) 기능을 사용 하도록 설정 하기 위한 Microsoft의 기술입니다. 사용자가 전세계에서 전화를 걸 수 있도록 휴대폰 시스템을 PSTN (공개 교환 전화 네트워크)에 연결 하려면 비즈니스 요구 사항에 따라 옵션을 사용 합니다. 전화 시스템 및 PSTN 연결 옵션에 대 한 자세한 내용은 [음성 전화 시스템 및 pstn 연결](cloud-voice-landing-page.md)을 참조 하세요.
 
 팀으로 마이그레이션한 사용자는 비즈니스용 Skype에서 호스팅되는 모임에 참가 하는 경우를 제외 하 고는 비즈니스용 Skype 클라이언트를 더 이상 사용 하지 않습니다. 발신자가 팀과 비즈니스용 Skype를 사용 하는지 여부에 관계 없이 사용자의 팀 클라이언트에 있는 모든 수신 채팅 및 통화입니다. 업그레이드 된 사용자가 구성한 모든 새 모임은 팀 모임으로 예약 됩니다. 사용자가 비즈니스용 Skype 클라이언트를 사용 하려고 시도 하는 경우 채팅 및 통화에 대 한 시작이<sup>1</sup>로 차단 됩니다. 그러나 사용자는 계속 해 서 비즈니스용 Skype 클라이언트를 사용 하 여 초대 받은 모임에 참가할 수 있습니다.
 

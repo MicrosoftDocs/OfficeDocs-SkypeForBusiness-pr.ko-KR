@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀의 클라우드 음성
+title: Microsoft Teams의 클라우드 음성
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,33 +20,32 @@ search.appverid: MET150
 description: 클라우드 음성 기능에 대해 자세히 알아보고 필요한 배포 결정을 이해 하세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8106e5ef30b71ec82e9b1ae42f785b7a73b170a5
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690794"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158646"
 ---
-# <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성
+# <a name="voice---phone-system-and-pstn-connectivity-options"></a>음성 전화 시스템 및 PSTN 연결 옵션
 
-[시작](get-started-with-teams-quick-start.md)을 완료했습니다. 조직 전체에서 [채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md)이 포함된 Teams를 배포했습니다. [모임 & 회의](deploy-meetings-microsoft-teams-landing-page.md)를 배포 했을 수도 있습니다. 이제 사용자에 게 클라우드 음성 기능을 추가할 준비가 되었습니다. 
+[시작](get-started-with-teams-quick-start.md)을 완료했습니다. 조직 전체에서 [채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md)이 포함된 Teams를 배포했습니다. [모임 & 회의](deploy-meetings-microsoft-teams-landing-page.md)를 배포 했을 수도 있습니다. 이제 사용자에 게 음성 기능을 추가할 준비가 되었습니다. 
 
-클라우드 음성은 PBX (개인 브랜치 교환) 기능 및 PSTN (공개 통신 네트워크)에 연결 하기 위한 옵션을 제공 합니다.
+음성은 PBX (개인 브랜치 교환) 기능 및 PSTN (공개 통신 네트워크)에 연결 하기 위한 옵션을 제공 합니다.
 
-이 문서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 클라우드 음성 설정을 변경 해야 하는지 여부를 결정 하는 데 도움이 되며, 각 변경 내용을 안내 합니다. 두 그룹으로 설정 된 핵심 [변경 내용](#core-deployment-decisions)집합부터 시작 하 여 설정을 나눌 수 있습니다. 두 번째 그룹은 조직의 요구 사항에 따라 구성하고자 하는 [추가 설정](#additional-deployment-decisions)을 포함합니다.
+이 문서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 음성 설정을 변경 해야 하는지 여부를 결정 하는 데 도움이 되며 각 변경 내용을 안내 합니다. 두 그룹으로 설정 된 핵심 [변경 내용](#core-deployment-decisions)집합부터 시작 하 여 설정을 나눌 수 있습니다. 두 번째 그룹은 조직의 요구 사항에 따라 구성하고자 하는 [추가 설정](#additional-deployment-decisions)을 포함합니다.
 
 모든 조직에서 핵심 의사 결정을 수행 하는 것이 좋으며 조직에 추가 요구 사항이 있는 경우 다음 자료를 검토 합니다.
 
 
 
-## <a name="learn-more-about-cloud-voice"></a>클라우드 음성에 대 한 자세한 정보
+## <a name="learn-more-about-voice"></a>음성에 대 한 자세한 정보
 
-다음 문서는 팀에서 클라우드 음성 기능을 배포 하 고 사용 하는 방법에 대 한 자세한 정보를 제공 합니다.
+다음 문서는 팀에서 음성 기능을 배포 하 고 사용 하는 방법에 대 한 자세한 정보를 제공 합니다.
 
 - [Microsoft 365 또는 Office 365의 전화 시스템](what-is-phone-system-in-office-365.md)
 - [통화 요금제가 포함 되어 있는 전화 시스템](calling-plan-landing-page.md)
 - [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
-- [클라우드 음성 배포](cloud-voice-deployment.md)
 - [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - 전화 시스템에 대 한 자세한 내용을 보려면 다음 세션을 시청 하세요. [Microsoft 팀의 전화 시스템 소개](https://aka.ms/teams-phone-system)
 

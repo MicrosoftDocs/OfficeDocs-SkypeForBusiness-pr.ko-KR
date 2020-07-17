@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a864e810df8cdd69a9c8a2e9bb29524147a3b865
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45137908"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146074"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -125,6 +125,9 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |정규(종료 시간 있음)     |종료 시간 + 60일         |60일         |
 |되풀이(종료 시간 없음)     |시작 시간 + 60일         |60일         |
 |되풀이(종료 시간 있음)     |마지막 발생 항목의 종료 시간 + 60일         |60일         |
+
+> [!NOTE]
+> Microsoft Teams 모임의 제한 시간은 24시간입니다. 
 
 ## <a name="teams-live-events"></a>Teams 라이브 이벤트
 

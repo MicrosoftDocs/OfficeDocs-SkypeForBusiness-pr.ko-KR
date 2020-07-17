@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666060"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158686"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>팀으로 업그레이드 하기 위해 서비스 준비
 
@@ -40,9 +40,9 @@ ms.locfileid: "44666060"
 
 이 문서에서는 팀과 공동 작업 및 클라우드 음성 서비스에 대 한 조직을 준비 하는 데 필요한 요구 사항에 대해 간략하게 설명 합니다. 제대로 준비 하 여 조직에 이러한 접근 권한 값을 제공할 수 있는지 확인 하세요.
 
-## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Microsoft 팀의 출시 용 온 보 딩 검사 목록
+## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Microsoft 팀의 출시 용 온 보 딩 검사 목록 및 랜딩 페이지
 
-다음 검사 목록은 조직에서 Microsoft 팀을 배포 하는 단계를 안내 합니다.
+다음 검사 목록 및 랜딩 페이지는 조직에서 Microsoft 팀을 배포 하는 단계를 안내 합니다.
 
 - [팀 용 Microsoft 365 또는 Office 365 준비](onboarding-checklist-enable-office-365.md)
 
@@ -50,9 +50,12 @@ ms.locfileid: "44666060"
 
 - [네트워크 준비](prepare-network.md)
 
-- [팀에서 클라우드 음성 작업 부하 구성](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
-- [팀에서 직접 라우팅 구성](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [모임 및 오디오 회의](deploy-meetings-microsoft-teams-landing-page.md)
+
+- [전화 시스템 및 PSTN 연결 옵션](cloud-voice-landing-page.md)
+
 
 이러한 검사 목록의 작업 및 활동은 팀과 공동 작업 및 음성 기능을 배포할 때마다 적용 되는 핵심적인 "할 일" 항목입니다. 자신의 팀에서 여행 하는 작업과 관련 된 활동과 작업을 포함 하도록 검사 목록을 사용자 지정할 수 있습니다.
 

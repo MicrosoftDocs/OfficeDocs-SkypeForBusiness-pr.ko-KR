@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b7e237ffd041c2207516b714147d555b3a1b9043
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138401"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158696"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 목록 앱 관리
 
@@ -46,7 +46,7 @@ Microsoft 팀의 목록 앱은 조직의 사용자가 정보를 추적 하 고, 
 
 - 문제를 추적 하 고 문제 추적기 서식 파일을 사용 하 여 클로저로 전환 합니다.
 - 이벤트 여행 서식 파일을 사용 하 여 모든 이벤트 세부 정보를 구성 합니다.
-- 환자 서식 파일을 사용 하 여 환자의 요구와 상태를 기록 하 고 건강 관리 팀이 주의를 걸고 조정할 수 있도록 주의 해야 합니다.
+- 환자 서식 파일을 사용 하 여 의료 기관에 팀의 요구 사항과 상태를 기록 하 여 주의를 모니터링 하 고 조정 합니다.
 - 대출금 서식 파일을 사용 하 여 대출 응용 프로그램의 상태를 추적 합니다.
 
 ## <a name="example-scenario"></a>예제 시나리오

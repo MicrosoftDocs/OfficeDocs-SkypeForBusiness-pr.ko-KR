@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666070"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158736"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>팀에 대 한 전제 조건 및 환경 종속성
 
@@ -48,12 +48,16 @@ ms.locfileid: "44666070"
 
 - 조직이 Azure Active Directory에 대 한 id를 동기화 하지 않은 경우 [Microsoft 팀의 id 모델 및 인증](identify-models-authentication.md)을 참조 하세요.
 
-- 조직에 Exchange Online<sup>1</sup>이 없는 경우 [Exchange 및 Microsoft 팀의 상호 작용 방법 이해](Exchange-Teams-interact.md)를 참조 하세요.
+- 조직에 Exchange Online이 없는 경우 [exchange 및 Microsoft 팀의 상호 작용 방법 이해](Exchange-Teams-interact.md)를 참조 하세요.
 
 - 조직에 SharePoint Online이 없는 경우 [Sharepoint online 및 비즈니스용 OneDrive For Business가 Microsoft 팀과 어떻게 상호 작용 하는지 이해](SharePoint-OneDrive-interact.md)를 참조 하세요.
 
-- [Microsoft 365 그룹 및 Microsoft 팀의 상호 작용](Office-365-groups.md)방법에 대해 알아봅니다.
+- [Microsoft 365 그룹 및 Microsoft 팀의 상호 작용](Office-365-groups.md)방법에 대해 알아보세요.
 
-- 조직이 교육 기관이 고 학생 정보 시스템을 사용 하는 경우 Microsoft 팀을 배포 하기 전에 [School Data Sync를 배포](https://docs.microsoft.com/schooldatasync) 합니다.
+- 조직이 교육 기관 이거나 학생 정보 시스템을 사용 하는 경우 Microsoft [School Data Sync 시작](https://docs.microsoft.com/schooldatasync) 을 참조 하세요.
+
+- 조직이 PSTN (공개 통신 네트워크) 전화 옵션을 고려 하는 경우 [음성 전화 시스템 및 pstn 연결](cloud-voice-landing-page.md)을 참조 하 고, [전화 시스템 다이렉트 라우팅](direct-routing-landing-page.md) [에 대 한 통화 요금제가 적합](calling-plan-landing-page.md)합니다.
+
+- 팀 롤아웃 전에 모든 네트워크 요구 사항이 충족 되었는지 확인 하려면 [Microsoft 팀 용 조직의 네트워크 준비](prepare-network.md)를 참조 하세요.
 
 해당 환경이 적용 가능한 모든 필수 구성 요소를 충족 하는지 확인 한 후 [팀에 대 한 현재 환경을 평가](upgrade-plan-journey-evaluate-environment.md)합니다.

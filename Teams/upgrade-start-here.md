@@ -28,12 +28,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f113f617ece465c3f18a0e9facacabc7bd776eb9
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fae61030e7ee8b2695fa518b194999a974ed0d8d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523001"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158636"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft Teams 업그레이드 시작하기
 
@@ -52,6 +52,14 @@ Microsoft Teams는 채팅, 모임, 통화, 공동 작업, 앱 통합 및 파일 
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>Teams로의 업그레이드를 준비하고 수행할 때 비즈니스용 Skype 온라인을 계속 사용할 수 있나요?
 
 예. Microsoft는 비즈니스용 Skype 온라인과 Teams를 함께 실행하기 위한 몇 가지 옵션을 제공합니다. 이러한 공존 모드를 통해 사용자는 지금의 Teams에 익숙해지는 동시에 Teams 전용으로의 업그레이드를 가속화할 수 있습니다. 자세한 내용은 [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist)을(를) 참조하세요.
+
+## <a name="is-phone-system-available-for-teams-users"></a>팀 사용자는 전화 시스템을 사용할 수 있나요?
+
+예. 전화 시스템은 팀의 유일한 모드로 이동한 후 모든 팀원에 게 제공 됩니다.  또한, Microsoft는 사용자가 전세계 어디에서 든 전화를 걸 수 있도록 PSTN (공개 통신 네트워크)에 연결 하는 옵션을 제공 합니다. 자세한 내용은 [음성 전화 시스템 및 PSTN 연결](cloud-voice-landing-page.md)을 참조 하세요.
+
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>온-프레미스 전화 통신 인프라를 계속 사용할 수 있나요?
+
+예. 전화 시스템 다이렉트 라우팅을 사용 하 여 거의 모든 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다. 직접 라우팅이 있으면 자체의 SBC (세션 경계 컨트롤러)을 전화 시스템에 직접 연결 합니다. 자세한 내용은 [전화 시스템 직접 라우팅을](direct-routing-landing-page.md)참조 하세요.
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Microsoft는 고객이 Teams로 업그레이드하는 데 어떤 도움을 주나요? 
 

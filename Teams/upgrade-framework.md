@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 입증 된 성공 프레임 워크를 사용 하 여 비즈니스용 Skype에서 팀으로 조직의 업그레이드를 도울 수 있습니다.
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab92190b95c081f1b82d27970972c77bcf726f05
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b49d1d20e31a9c3051a89f62e7238eac73595a26
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139657"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158656"
 ---
 # <a name="about-the-upgrade-framework"></a>업그레이드 프레임워크 정보
 
@@ -42,16 +42,16 @@ ms.locfileid: "43139657"
 변경 계획을 시작 하면 업그레이드에 대 한 여행 준비가 시작 됩니다. 성공 프레임 워크를 지침으로 활용 하는 경우 업그레이드를 계획 하 고 준비 하는 사전 업그레이드 단계를 수행 하는 샘플 시간 표시 막대 이며, 결과를 유지 하 고 확장할 수 있도록 설계 된 업그레이드 이후 작업 단계를 진행 하 게 됩니다. 
 
 > [!NOTE]
-> 팀으로의 여행에는 다양 한 시간에 여러 [모드](https://aka.ms/skypetoteams-coexist) 를 이용 하 고 사용자 그룹을 업그레이드 하는 작업이 포함 될 수 있으며,이를 통해 팀과 통해 계속 앞서을 유지 하면서 사용자 업그레이드 환경을 제어할 수 있습니다.  
+> 팀으로의 여행에는 다양 한 시간에 여러 [모드](https://aka.ms/skypetoteams-coexist)를 이용 하 고 사용자 그룹을 업그레이드 하는 작업이 포함 될 수 있으며   ,이를 통해 팀과 통해 계속 앞서을 유지 하면서 사용자 업그레이드 환경을 제어할 수 있습니다.  
 
-업그레이드의 여행에 unfold 하는 방법을 설명 하기 위해 비즈니스용 Skype Online에서 아일랜드 모드로의 여행에 대 한 여행을 팀 전용으로 정의 하는 예제 요금제를 제공 했습니다. 또한 샘플 계획에서는 사용자를 네 가지 업그레이드 그룹 또는 cohorts으로 나눈 조직을 간략하게 설명 합니다. 이 서식 파일을 사용 하 여 팀에 게 특정 한 여행에 맞게 계획을 사용자 지정 하 여 사용할 다양 한 [모드](https://aka.ms/skypetoteams-coexist) 와 사용자가 세그먼트화 할 업그레이드 그룹의 수를 통합 합니다. 
+업그레이드의 여행에 unfold 하는 방법을 설명 하기 위해 비즈니스용 Skype Online에서 아일랜드 모드로의 여행에 대 한 여행을 팀 전용으로 정의 하는 예제 요금제를 제공 했습니다. 또한 샘플 계획에서는 사용자를 네 가지 업그레이드 그룹 또는 cohorts으로 나눈 조직을 간략하게 설명 합니다. 이 서식 파일을 사용 하 여 팀에 게 특정 한 여행에 맞게 계획을 사용자 지정 하 여 사용할 다양 한 [모드](https://aka.ms/skypetoteams-coexist)   와 사용자가 세그먼트화 할 업그레이드 그룹의 수를 통합 합니다. 
 
 ## <a name="pre-upgrade"></a>업그레이드 전
 
 **팀을 위해 조직을 준비**합니다. 팀으로 성공적으로 업그레이드 하려면 준비에 적절 한 시간을 할당 하는 것이 중요 합니다. 조직에서 팀의 가치를 신속 하 게 실현 하도록 할 수 있을 뿐만 아니라 팀이 준비 되는 즉시 비즈니스용 Skype에서 업그레이드를 가속화할 수 있게 됩니다. 이미 비즈니스용 Skype와 함께 팀을 사용 하도록 설정한 경우에는 이러한 사전 업그레이드 작업을 검사점으로 사용 하 여 사용자를 팀으로 업그레이드 하기 전에 조직의 준비 상태를 확인 합니다. 
 
 > [!TIP]
-> 예제 업그레이드 프로젝트 계획 및 파일럿 테스트 계획 외에, 커뮤니케이션 및 사용자 조사 등의 서식 파일 사용자 준비 자료에 대 한 [업그레이드 성공 키트](https://aka.ms/UpgradeSuccessKit) 를 다운로드 합니다. 키트에서 사용할 수 있는 항목은 아래 목록에서 별표 (*)로 표시 됩니다.
+>  [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)   예제 업그레이드 프로젝트 계획 및 파일럿 테스트 계획 외에, 커뮤니케이션 및 사용자 조사 등의 서식 파일 사용자 준비 자료에 대 한 업그레이드 성공 키트를 다운로드 합니다. 키트에서 사용할 수 있는 항목은 아래 목록에서 별표 (*)로 표시 됩니다.
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>계획: 조직이 장기간 성공 하도록 설정할 수 있도록 업그레이드 계획 만들기
 
@@ -62,7 +62,7 @@ ms.locfileid: "43139657"
 | **3** | **프로젝트 목표 정의** | 프로젝트 성공 및 진행률을 측정 하는 데 사용할 수 있는 대상 지정 목표를 설정 합니다. | [프로젝트 목표](upgrade-define-project-scope.md#project-goals) |
 | **4(tcp/ipv4)** | **위험 및 완화 계획 식별** | 문제가 발생할 경우 프로젝트를 신속 하 게 다시 확인할 수 있도록 완화 계획을 수립 합니다. | [위험 및 완화](upgrade-define-project-scope.md#risks-and-mitigation) |
 | **5mb** | **시간 표시 막대 정의** | 시간 및 예산에 맞게 프로젝트를 유지할 수 있도록 시간 표시 막대와 주요 중요 시점을 설정 합니다. | [시간대](upgrade-define-project-scope.md#timeline) <br><br> [성공 키트 업그레이드](https://aka.ms/UpgradeSuccessKit) |
-| **26** | **비즈니스에 적합 한 Skype 및 팀 업그레이드 및 공존 전략 정의** | 비즈니스용 Skype에서 조직의 팀에 가장 적합 한 경로를 유지 하려면 여행에 지도 하세요. | [Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **26** | **비즈니스에 적합 한 Skype 및 팀 업그레이드 및 공존 전략 정의** | 비즈니스용 Skype에서 조직의 팀에 가장 적합 한 경로를 유지 하려면 여행에 지도 하세요. | [Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br>[전화 시스템 및 PSTN 연결 옵션 이해](cloud-voice-landing-page.md)<br><br>  [업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>준비: 조직의 팀에 대 한 준비 상태 평가
@@ -92,7 +92,7 @@ ms.locfileid: "43139657"
 | 단계만 |  | 요약 | 자원별 |
 |------|--|---------|----------|
 | **1** | **팀의 공식적인 시작 알림** | 팀 준비가 완료 되 면 공식적인 시작 알림을 보내 통해 계속 앞서를 생성 합니다. | [성공 키트 업그레이드](https://aka.ms/UpgradeSuccessKit) |
-| **2** | **사용자에 대해 적절 한 공존 모드를 사용 하도록 설정** | 단계에 따라 조직에 적합 한 공존 모드를 설정 합니다. | [공존 및 업그레이드 설정 설정](setting-your-coexistence-and-upgrade-settings.md) |
+| **2** | **업그레이드 수행** | 수행 하는 단계는 비즈니스용 Skype의 현재 배포에 따라 달라 집니다. | [업그레이드 수행](upgrade-to-teams.md) |
 | **3** | **팀 로드맵에 대 한 정보 유지** | 조직에서 팀으로 이동할 시기를 결정 하는 팀 로드맵을 모니터링 합니다. | [팀 로드맵](https://aka.ms/teamsroadmap) |
 | **4(tcp/ipv4)** | **팀의 흥미로운 성과 채택을 챔피언 추가 통신을 보내고 팀을 참여 시킬 수 있습니다.** | 지속적으로 커뮤니케이션 및 챔피언 팀에 대해 사용자 채택을 유도 하 고 흥미로운 것을 유지 합니다. | [Microsoft 365 챔피언 프로그램](https://aka.ms/O365Champions) |
 
@@ -106,7 +106,7 @@ ms.locfileid: "43139657"
 |------|--|---------|----------|
 | **1** | **위에서 설명한 업그레이드 사전 작업을 완료 했는지 확인 합니다.** | 모든 계획 및 준비 작업의 완료를 확인 하 여 업그레이드 성공 여부를 확인 합니다. | 위의 모든 것 |
 | **2** | **첫 번째 업그레이드 그룹의 사용자에 게 통신 시작** | 업그레이드가 시작 됨을 사용자에 게 알리고 프로세스 전체에 걸쳐 알림을 지속적으로 유지 합니다. | [사용자 준비 계획 준비](upgrade-user-readiness.md) <br><br> [성공 키트 업그레이드](https://aka.ms/UpgradeSuccessKit) |
-| **3** | **첫 번째 업그레이드 그룹의 사용자에 대해서만 공존 모드를 팀으로 사용** | Skype for Business 환경에 맞는 단계를 따라 기술 사용자 마이그레이션을 수행 합니다. | [비즈니스용 Skype Online에서 팀으로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[비즈니스용 Skype 하이브리드 또는 온-프레미스에서 팀으로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
+| **3** | **첫 번째 업그레이드 그룹의 사용자에 대해서만 공존 모드를 팀으로 사용** | Skype for Business 환경에 맞는 단계를 따라 기술 사용자 마이그레이션을 수행 합니다. | [비즈니스용 Skype Online에서 팀으로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[비즈니스용 Skype 온-프레미스에서 팀으로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
 | **4(tcp/ipv4)** | **순환 주기에 나머지 업그레이드 그룹에 대해 앞의 업그레이드 작업 반복** | 계속 진행 되는 통신 계획을 관리 하 고 계획에 따라 사용자 그룹을 업그레이드 합니다. | |
 | **5mb** | **업그레이드 후 피드백 설문 조사를 모든 사용자에 게 보내기** | 피드백 설문 조사를 사용 하 여 사용자의 피드백 및 통찰력을 수집 합니다. | [성공 키트 업그레이드](https://aka.ms/UpgradeSuccessKit) |
 

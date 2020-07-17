@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523171"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158666"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>비즈니스용 Skype Online에서 팀으로 업그레이드
 
@@ -99,8 +99,16 @@ Microsoft 팀 관리 센터를 사용 하는 경우 한 번에 최대 20 명의 
 팀 전용 모드로의 업그레이드를 확인 하 고 확장할 준비가 되 면 이전 단계를 반복 하 여 다른 사용자 에게만 팀을 적용 합니다.  
 
 
-## <a name="phone-system-and-teams-upgrade"></a>전화 시스템 및 팀 업그레이드
+## <a name="phone-system-and-pstn-connectivity-options"></a>전화 시스템 및 PSTN 연결 옵션
 
-비즈니스용 Skype Online 배포에 전화 요금제가 포함 되어 있고 Microsoft가 공공 교환 통신망 (PSTN) 인 경우 팀으로의 사용자 업그레이드는 자동으로 인바운드 PSTN 통화를 팀으로 전환 합니다.
+사용자가 TeamsOnly 모드에 있는 경우 팀이 포함 된 전화 시스템이 지원 됩니다. (사용자가 군도 모드에 있는 경우, 전화 시스템은 비즈니스용 Skype 에서만 지원 됩니다.)  
 
-비즈니스용 Skype Online 배포에 클라우드 커넥터 버전이 있는 전화 시스템이 포함 된 경우 [전화 시스템 다이렉트 라우팅에 대 한 추가 고려 사항을](2-envision-make-my-service-decisions-direct-routing.md)참조 하세요.
+### <a name="pstn-connectivity-options"></a>PSTN 연결 옵션
+
+PSTN (공개 통신 네트워크) 연결 옵션을 고려할 때 비즈니스용 Skype Online에서 팀 전용 모드로 전환할 때 다음과 같은 두 가지 시나리오가 가능 합니다.
+
+- Microsoft 전화 요금제를 사용 하 여 비즈니스용 Skype Online의 사용자입니다. 업그레이드 되 면이 사용자는 계속 Microsoft 통화 요금제를 보유 하 게 됩니다. 이는 몇 단계만 필요한 가장 간단한 시나리오입니다. 자세한 내용은 [Microsoft 통화 요금제를 사용 하 여 비즈니스용 Skype Online에서](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans)확인 하세요.
+
+- 비즈니스용 skype Online의 Skype for Business for 온-프레미스 음성 기능을 사용 하는 사용자 팀으로의 사용자 업그레이드는 사용자가 자신에 게 PSTN 기능을가지고 있는지를 확인 하기 위해 자신을 마이그레이션하도록 조정 해야 합니다.  자세한 내용은 [온-프레미스 음성으로 비즈니스용 Skype Online에서](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice)를 참조 하세요.
+
+

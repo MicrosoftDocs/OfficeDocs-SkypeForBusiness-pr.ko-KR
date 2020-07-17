@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cd9b38f09d4936d2db895f3ae8861bcf65b8a4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 17420c93c883054d36c4ae2e1b323be9e589a2c2
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666030"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158676"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>비즈니스용 Skype 온-프레미스에서 팀으로 업그레이드
 
@@ -69,14 +69,24 @@ ms.locfileid: "44666030"
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>3 단계: 비즈니스용 Skype 온-프레미스에서 팀 으로만 사용자 이동
 
-궁극적으로 사용자를 팀 전용 모드로 이동 해야 합니다. 현재 온-프레미스 환경에 따라 하나 또는 두 단계가 포함 될 것입니다.  
+궁극적으로 사용자를 팀 전용 모드로 이동 해야 합니다. 이 작업에는 온-프레미스 환경에 따라 하나 또는 두 단계가 포함 될 것입니다.  
 
 자세한 내용은 온 [-프레미스와 클라우드 간에 사용자 이동을](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) 참조 하 고 온 [-프레미스에서 팀으로 사용자를 이동](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)합니다. 
 
+## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>4 단계: 하이브리드를 사용 하지 않도록 설정 하 여 클라우드로 마이그레이션 완료
+
+모든 사용자를 온-프레미스에서 클라우드로 이동한 후에는 온-프레미스 Skype 비즈니스 배포를 해제할 수 있습니다. 자세한 내용은 [클라우드로 마이그레이션을 완료 하기 위해 하이브리드 사용 안 함을](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)참조 하세요.
 
 
-## <a name="phone-system-and-teams-upgrade"></a>전화 시스템 및 팀 업그레이드
+## <a name="phone-system-and-pstn-connectivity-options"></a>전화 시스템 및 PSTN 연결 옵션
 
-통화 요금제로 Skype for Business 배포를 전화 시스템으로 전환 하는 경우 Microsoft는 PSTN (공개 통신 네트워크) 공급자가 됩니다. 전화 번호 포팅을 완료 했다고 가정 하면 사용자를 팀으로 업그레이드 하면 자동으로 인바운드 PSTN 통화가 팀으로 전환 됩니다.
+사용자가 TeamsOnly 모드에 있는 경우 팀이 포함 된 전화 시스템이 지원 됩니다. (사용자가 군도 모드에 있는 경우, 전화 시스템은 비즈니스용 Skype 에서만 지원 됩니다.) 
 
-Skype for Business 배포를 전화 시스템으로 전환 하 고 있지만 통화 요금제를 사용 하 고 있지 않은 경우에는 엔터프라이즈 음성 배포를 Microsoft 전화 시스템 다이렉트 라우팅으로 전환 해야 합니다. 자세한 내용은 [전화 시스템 직접 라우팅을](direct-routing-landing-page.md)참조 하세요.
+### <a name="pstn-connectivity-options"></a>PSTN 연결 옵션
+
+PSTN (공용 전환 전화 네트워크) 연결 옵션을 고려할 때 비즈니스용 Skype에서 팀 전용 모드로 전환할 때 다음과 같은 두 가지 시나리오가 가능 합니다.
+
+- Enterprise Voice를 사용 하는 비즈니스용 Skype 온-프레미스 사용자로 서, 온라인으로 이동 하 고 Microsoft의 통화 요금제를 사용 하 게 됩니다. 이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 해당 사용자의 전화 번호를 Microsoft 통화 요금제 또는 B로 이동 하 여 사용 가능한 지역에서 새 구독자 번호를 할당 해야 합니다.  자세한 내용은 [비즈니스용 Skype Server 온-프레미스에서 엔터프라이즈 음성을 사용 하 여 Microsoft 전화 요금제를](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)참조 하세요.
+
+- 비즈니스용 Skype 온-프레미스에서 엔터프라이즈 음성을 사용 하 여 온라인으로 전환 하 고 온-프레미스 PSTN 연결을 유지 하는 사용자입니다. 이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 사용자의 직접 라우팅에 맞게 이동 하도록 조정 해야 합니다. 자세한 내용은 [비즈니스용 Skype Server 온-프레미스에서 엔터프라이즈 음성을 사용 하 여 직접 라우팅](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)을 참조 하세요.
+
