@@ -16,12 +16,12 @@ search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 9335f890f3d466ed467025c5ab7b828e2db516b9
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028114"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138008"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
@@ -103,6 +103,10 @@ Microsoft는 [Office 365용 FastTrack 센터 혜택](https://docs.microsoft.com/
 
 처음으로 사용자에게 라이선스를 부여거나 사용자를 활성화했지만 Microsoft 365를 한동안 보유한 경우 조직에 대한 [Teams를 사용 설정](Office-365-set-up.md)해야 할 수 있습니다. 이 문서에서 [Microsoft 365가 이미 있지만 Teams를 사용하지 않습니다. 평가판 라이선스를 제공하나요?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)를 확인하세요.
 
+### <a name="in-meetings-attendees-are-having-trouble-joining-by-dialing-in---calls-arent-getting-through"></a>모임에서 전화가 연결되지 않는 등 참가자가 전화를 걸어 참가하는 데 문제가 발생했습니다.
+
+COVID-19 발생과 관련하여 경험한 대로 모임이 많은 기간에는 PSTN 회의 번호 또는 <strong>전화 번호</strong>를 사용해 전화를 거는 대신 <strong>Teams 모임 참가</strong> 버튼을 눌러 모임에 참석하는 것이 좋습니다. 이러면 모임이 증가하여 PSTN 네트워크가 정체되는 시기에 오디오 품질을 유지할 수 있습니다. 
+
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Microsoft에서 제공하는 Office 365 E1 평가판에서 통화 플랜을 사용할 수 있나요? 사용자에게 전화 번호를 할당할 수 있나요? 지불할 금액은 얼마인가요?
 
 사용자는 모든 버전의 Teams에서 앱 대 앱 음성 및 영상 통화가 가능합니다. 직원에게 번호를 할당하려면 [전화 시스템](what-is-phone-system-in-office-365.md)이 필요합니다. 이 시스템을 구해 배포하려면 Microsoft 파트너 또는 영업 담당자와 함께 작업할 것을 권장합니다. [Teams를 사용하여 음성 및 영상 통화](https://products.office.com/microsoft-teams/voice-calling)에서 자세한 내용을 확인하세요.
@@ -119,4 +123,6 @@ IT 관리자/ITPro: [Teams를 사용하 여 원격 작업자 지원](support-rem
 
 ### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>코로나 19 사태에 직원 지원을 위해 Microsoft는 무엇을 하고 있습니까?
 
-Brad Smith의 2020년 5 월 5 일 블로그를 읽어 보세요. Microsoft 사장: [공공의 건강 보호를 위해 노력하면서도 우리 사업장에서 일하는 시간제 근로자의 소득도 보호해야 합니다](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/).
+Brad Smith의 2020년 5월 5일 블로그를 읽어보세요. Microsoft 사장: [공공의 건강 보호를 위해 노력하면서도 우리 사업장에서 일하는 시간제 근로자의 소득도 보호해야 합니다](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/).
+
+또한 Microsoft.com에서 [함께 COVID-19에 대응하기](https://news.microsoft.com/covid-19-response/?icid=mscom_marcom)를 방문하세요.

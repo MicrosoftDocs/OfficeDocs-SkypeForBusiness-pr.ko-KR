@@ -17,12 +17,12 @@ description: 외부 액세스 (페더레이션) 및 게스트 액세스를 사�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 61cbaf6b869ffb0ff377615081953d16a6a63aea
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785280"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125971"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams에서 다른 조직의 사용자와 의사소통하기
 ======================================================
@@ -47,7 +47,7 @@ ms.locfileid: "44785280"
 **게스트 액세스**를 사용하여 개인 사용자(도메인에 상관없이)를 팀에 추가할 수 있으며, 팀에서 Microsoft 365이나 Office 365 앱(예: Word, Excel 또는 PowerPoint)을 사용하여 채팅, 전화, 모임 및 조직 파일 (SharePoint 또는 비즈니스용 OneDrive에 저장된)에 공동작업할 수 있습니다. 게스트 사용자는 기존 팀 구성원과 같은 거의 모든 Teams 권한을 부여받을 수 있습니다. 자세한 내용은 [Teams의 게스트 액세스](guest-access.md)를 참조하세요.
 
 - 게스트는 조직의 Active Directory에 추가됩니다.
-- 게스트와 의사소통하려면 게스트는 게스트 계정을 사용하여 Teams에 로그인해야 합니다. 즉, 게스트는 사용자의 Teams 계정에 로그인하기 위해 자신의 Teams 계정에서 로그아웃해야 합니다.
+- 게스트와 의사소통하려면 게스트는 게스트 계정을 사용하여 Teams에 로그인해야 합니다. 즉, 게스트는 자신의 Teams 계정에서 로그아웃하여 Teams 계정에 로그인하거나 계정이 동일한 경우 조직을 전환해야 할 수 있습니다.
 - 게스트 사용자는 외부 액세스 (페더레이션) 사용자 보다 Teams에서 더 많은 리소스 (예: 파일, 팀 및 채널)에 액세스할 수 있습니다.
 - Teams 관리자는 Teams 관리 센터에서 게스트가 수행할 수 있는 (또는 수행할 수 없는) 모든 항목을 제어합니다. 자세한 내용은 [게스트 액세스 관리](manage-guests.md)를 참조하세요.
 
