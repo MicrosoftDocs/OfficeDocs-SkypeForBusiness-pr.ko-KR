@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
-ms.openlocfilehash: 4dc1438261271b57796b0907def79a4affdc167b
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021736"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166756"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -53,8 +53,8 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 | Lenovo ThinkSmart View                 | CD-18781Y 200410.067                                                                                                                                                                                                                       | 2020 년 4 월                   |
 | Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020 년 4 월                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020 년 1 월                 |
-| Poly CCX600                            | 5.9.12.1111                                                                                                                                                                                                                                | 2020 년 1 월                 |
-| Poly CCX500                            | 5.9.12.1111                                                                                                                                                                                                                                | 2019 년 12 월                |
+| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 년 1 월                 |
+| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 년 12 월                |
 | Poly Trio 8500/8800 (공유 모드에만 해당) | 5.9.0.10869                                                                                                                                                                                                                                | 2019 년 6 월                    |
 | 옛 alink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | 2020 년 3 월                   |
 | 옛 alink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | 2019 년 6 월                    |
@@ -91,6 +91,7 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 
 | 장치 모델        | 펌웨어 버전     | 포함 된 제품 릴리스 |
 |:--------------------|:---------------------|:-------------------------|
+| 오디오 코드 C448HD   | C450HD_TEAMS_1 4.208 | 업데이트 #4                |
 | 오디오 코드 C450HD   | C450HD_TEAMS_1 4.208 | 업데이트 #4                |
 | Poly CCX400         | 1.0.1.0054           | 업데이트 #3                |
 | Poly CCX500/CCX600  | 5.9.13.0306          | 업데이트 #3                |

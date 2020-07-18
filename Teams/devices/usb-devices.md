@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Microsoft 팀에 대해 인증 된 헤드셋, 스피커폰, 웹캠, 모니터 등의 USB 주변 기기와 장치에 대해 알아봅니다.
-ms.openlocfilehash: 587b4cd4af1c80709fe1f9c306d34f32ef2d37e5
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666110"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166746"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft 팀에 인증 된 USB 오디오 및 비디오 장치
 
@@ -74,10 +74,11 @@ ms.locfileid: "44666110"
 
 ## <a name="certified-devices"></a>인증 된 장치
 
-*업데이트 된 테이블 5 월 2020*
+*2020 년 7 월 업데이트 된 표*
 
 | 제조업체        | Model                                                     | 갖춘      | 인증 된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Bose                 |NC 700 헤드셋                                             |6/8/2020        |Microsoft 팀 인증|
 |Jabra              | Jabra 링크 370 USB 동글으로 말하기 750 스피커폰       | 5/21/2020 | Microsoft 팀 인증|
 | EPOS                | 660 헤드셋 Sennheiser                              | 5/15/2020      | Microsoft 팀 인증                          |
 | EPOS                | 560 헤드셋 Sennheiser                              | 5/15/2020      | Microsoft 팀 인증                          |
@@ -134,5 +135,5 @@ ms.locfileid: "44666110"
 | Polycom             | Elara                                                     | 11/06/2019     | Microsoft 팀 인증                          |
 | Polycom             | Studio 사운드바                                           | 10/18/2019     | Microsoft 팀 인증                          |
 | 옛 alink             | UVC30                                                     | 10/18/2019     | Microsoft 팀 인증                          |
-| Jabra               | 용 Acast                                                  | 08/14/2019     | Microsoft에 인증 됨                                |
+| Jabra               | 용 Acast                                                  | 08/14/2019     | Microsoft 팀 인증                          |
 
