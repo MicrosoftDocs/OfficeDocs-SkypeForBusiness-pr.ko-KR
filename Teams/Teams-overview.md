@@ -32,7 +32,7 @@ ms.locfileid: "44773313"
 
 <span data-ttu-id="bda5e-108">Teams 관리자를 위한 Teams에 오신 것을 환영합니다 비디오를 놓치지 마세요(3분 조금 초과).</span><span class="sxs-lookup"><span data-stu-id="bda5e-108">Don't miss our Welcome to Teams for the Teams admin video (just over 3 minutes):</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkIT]
 
 <span data-ttu-id="bda5e-109">최종 사용자 Teams 도움말을 찾고 있는 경우 앱의 왼쪽에 있는 **도움말**을 클릭하거나 [Microsoft Teams 도움말 센터](https://support.office.com/teams)로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="bda5e-109">If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams).</span></span> <span data-ttu-id="bda5e-110">교육을 받으려면 [Microsoft Teams 교육](training-microsoft-teams-landing-page.md)으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="bda5e-110">For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md).</span></span> 
 
