@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 448534a9cab210be71f36ac034207d35e2b9f5f7
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: b352493f408f9adbc41fc978c4990f3d07f7a410
+ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281703"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170607"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Business Voice의 국가 및 지역 가용성
 
@@ -55,6 +55,7 @@ Microsoft 365 Business Voice는 70개 이상의 국가 및 지역에서 사용�
 | 영국       | X                                    | X<sup>1</sup>                                               | X                      |
 | 미국        | X                                    | X<sup>1</sup>                                               | X                      |
 | 아르헨티나            |                                      | X                                                           |                        |
+| 오스트레일리아            |                                      | X                                                           |                        |
 | 오스트리아              |                                      | X                                                           |                        |
 | 벨기에              |                                      | X                                                           |                        |
 | 보스니아 헤르체고비나 |                                      | X                                                           |                        |
