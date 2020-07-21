@@ -2,11 +2,9 @@
 title: 채택을 위한 도구 및 다운로드
 ms.reviewer: karuanag
 description: 이러한 채택 리소스를 사용 하 여 Microsoft 팀과 기타 Microsoft 365 또는 Office 365 서비스의 채택을 지원할 수 있습니다.
-ms.topic: landing-page
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-layout: LandingPage
 ms.date: 11/20/2018
 audience: admin
 ms.service: msteams
@@ -19,133 +17,21 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 5e721db22f14ed04a207f4655b745a25e0bc358b
+ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756507"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189190"
 ---
 # <a name="tools-for-driving-adoption"></a>추진 도구 
 
 아래 도구를 사용 하 여 서비스 도입 계획의 각 단계를 지원 합니다.  
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>채택 프로젝트 계획</h3>
-                        <p>채택 계획 파일 계획 수립 Jumpstart</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Chat" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>예제 가상 사용자 및 작업 스타일</h3>
-                        <p>이러한 서식 파일을 사용 하 여 직원 들에 게 중요 한 사항 매핑<p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>이 서식 파일을 사용 하 여 주요 팀 구성원에 게 작업 흐름을 할당 하 고 관련자와 통신</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="Best practices" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>만나보세요를 사용 하 여 직원 들에 게 일상의 quicksheets</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://aka.ms/CoffeeintheCloud">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Training" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>챔피언 및 ITPros 용 비디오 리소스를 포함할 없는 경우</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="Checklist" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Microsoft 팀을 위한 헬프데스크 준비</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li></ul>
+|               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px">| [채택 프로젝트 계획](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" width="40 px" height="40 px">| [예제 가상 사용자 및 작업 스타일](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [이 서식 파일을 사용 하 여 주요 팀 구성원에 게 작업 흐름을 할당 하 고 관련자와 통신](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip) |
+| <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px">| [만나보세요를 사용 하 여 직원 들에 게 일상의 quicksheets](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px">| [챔피언 및 ITPros 용 비디오 리소스를 포함할 없는 경우](https://aka.ms/CoffeeintheCloud) | <img src="https://docs.microsoft.com/office/media/icons/success.svg" width="40 px" height="40 px">| [Microsoft 팀을 위한 헬프데스크 준비](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf) |
 
 
 ### <a name="microsoft-365-or-office-365-champions-program"></a>Microsoft 365 또는 Office 365 챔피언 프로그램

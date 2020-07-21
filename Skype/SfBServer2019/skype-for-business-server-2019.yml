@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: 비즈니스용 Skype 서버 2019 설명서
+summary: 비즈니스용 Skype 서버 2019을 구현 하는 방법을 알아봅니다.
+metadata:
+  title: 비즈니스용 Skype 서버 2019 설명서
+  description: 비즈니스용 Skype 서버 2019을 구현 하는 방법을 알아봅니다.
+  ms.service: skype-for-business-online
+  ms.topic: landing-page
+  audience: ITPro
+  author: LanaChin
+  ms.author: v-lanac
+  ms.date: 06/23/2020
+  ms.openlocfilehash: 4aa8036644cf6d38e150d458c7ca1645e3d6822e
+  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 07/21/2020
+  ms.locfileid: "45189350"
+landingContent:
+- title: 비즈니스용 Skype 서버 2019
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: 새로운 기능
+      url: /skypeforbusiness/whats-new
+  - linkListType: overview
+    links:
+    - text: 시스템 요구 사항
+      url: /skypeforbusiness/plan/system-requirements
+    - text: 네트워크 요구 사항
+      url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
+  - linkListType: download
+    links:
+    - text: 지금 다운로드 하세요!
+      url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
+- title: 계획
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 토폴로지 기본 사항
+      url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
+    - text: 하이브리드 연결 계획
+      url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
+    - text: Enterprise Voice 계획
+      url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
+- title: 설치 및 관리
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: 비즈니스용 Skype 서버 설치
+      url: /skypeforbusiness/deploy/install/install
+    - text: 비즈니스용 Skype 2019로 마이그레이션
+      url: /skypeforbusiness/migration/migration-to-skype-for-business-server-2019
+    - text: Enterprise Voice 배포
+      url: /skypeforbusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+  - linkListType: how-to-guide
+    links:
+    - text: 토폴로지 관리
+      url: /skypeforbusiness/manage/topology/topology
+- title: 기타 리소스
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 비즈니스용 Skype 서버 2015 설명서
+      url: /SkypeForBusiness/skype-for-business-server-2015
+    - text: Lync Server 2013 설명서
+      url: /lyncserver/microsoft-lync-server-2013
