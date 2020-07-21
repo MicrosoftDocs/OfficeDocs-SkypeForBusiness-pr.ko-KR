@@ -15,14 +15,16 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: 758b371594f6bf42c8600028f7801627ca7d0999
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: db4b7e5469608724bb9d147d212a08e6b31957a0
+ms.sourcegitcommit: 705ccc9a76e08fd3bae2b51d8853f84d3b325a3b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943941"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185793"
 ---
 # <a name="skype-for-business-online-admin"></a>비즈니스용 Skype Online 관리자
+
+비즈니스용 Skype Online은 서비스에 대 한 액세스가 종료 되는 2021 년 7 월 31 일에 사용이 중지 됩니다. Microsoft 365의 팀워크에 대 한 허브 인 Microsoft 팀으로 업그레이드를 시작 하도록 고객에 게 권장 합니다. <a href=https://aka.ms/sfboannounce>자세히 알아보세요</a>. 
 
 조직의 비즈니스용 Skype Online을 관리 하는 방법에 대해 알아봅니다.
 
