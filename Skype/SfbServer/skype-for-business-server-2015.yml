@@ -1,0 +1,76 @@
+### YamlMime:Landing
+title: 비즈니스용 Skype 서버 2015 설명서
+summary: 비즈니스용 Skype 서버 2015을 구현 하는 방법을 알아봅니다.
+metadata:
+  title: 비즈니스용 Skype 서버 2015 설명서
+  description: 비즈니스용 Skype 서버 2015을 구현 하는 방법을 알아봅니다.
+  ms.service: skype-for-business-online
+  audience: ITPro
+  ms.topic: landing-page
+  ms.collection: collection
+  author: lanachin
+  ms.author: v-lanac
+  ms.date: 06/23/2020
+  ms.openlocfilehash: ec8397ba718cf31a5b92f9b4ce8c26f6e5b709be
+  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 07/21/2020
+  ms.locfileid: "45189351"
+landingContent:
+- title: 비즈니스용 Skype 서버 2015
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 환경 요구 사항
+      url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
+    - text: 네트워크 요구 사항
+      url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
+    - text: Skype 모임 브로드캐스트
+      url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
+    - text: 기술 다이어그램
+      url: /SkypeForBusiness/technical-diagrams
+  - linkListType: download
+    links:
+    - text: 지금 다운로드 하세요!
+      url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
+- title: 계획
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 배포 계획
+      url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
+    - text: 하이브리드 연결 계획
+      url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
+    - text: 클라이언트 및 장치 계획
+      url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
+    - text: Enterprise Voice 솔루션 계획
+      url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
+- title: 설치 및 관리
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: 비즈니스용 Skype 서버 배포
+      url: /SkypeForBusiness/deploy/deploy
+    - text: 비즈니스용 Skype 서버 설치
+      url: /SkypeForBusiness/deploy/install/install
+    - text: 비즈니스용 Skype 서버 업그레이드
+      url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
+    - text: Enterprise Voice 배포
+      url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+    - text: Skype 모임 브로드캐스트에 대 한 온-프레미스 배포 구성
+      url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
+  - linkListType: how-to-guide
+    links:
+    - text: 비즈니스용 Skype 서버 관리
+      url: /SkypeForBusiness/manage/manage
+- title: 기타 리소스
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 비즈니스용 Skype 준비 시리즈
+      url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
+    - text: 비즈니스용 Skype 서버 2019 설명서
+      url: /SkypeForBusiness/skype-for-business-server-2019
+    - text: Lync Server 2013 설명서
+      url: /lyncserver/microsoft-lync-server-2013
