@@ -1,7 +1,7 @@
 
   
 
-# [비즈니스용 Skype 서버 2015](../skype-for-business-server-2015.md)
+# [비즈니스용 Skype 서버 2015](../skype-for-business-server-2015.yml)
 ## [기술 다이어그램](../technical-diagrams.md)
 ## [비즈니스용 Skype 서버의 새로운 기능](../what-s-new-in-skype-for-business-server.md)
 

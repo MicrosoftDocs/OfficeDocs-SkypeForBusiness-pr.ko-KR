@@ -219,7 +219,6 @@
 ## 라이브 이벤트
 ### [Teams 라이브 이벤트란?](teams-live-events/what-are-teams-live-events.md)
 ### [Teams 라이브 이벤트 계획](teams-live-events/plan-for-teams-live-events.md)
-### [라이브 이벤트에서 발표자, 제작자 및 참가자 기능](roles-in-live-events.md)
 ### [Teams 라이브 이벤트 설정](teams-live-events/set-up-for-teams-live-events.md)
 ### [PowerShell을 사용하여 Teams 라이브 이벤트 정책 설정](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Teams 라이브 이벤트 설정 구성](teams-live-events/configure-teams-live-events.md)
@@ -227,7 +226,7 @@
 <!-- ============================================================ -->
 
 
-# 클라우드 음성 
+# 음성 - 전화 시스템 및 PSTN 연결 
 
 ## [배포 계획](cloud-voice-landing-page.md)
 
@@ -517,6 +516,7 @@
 #### [프로젝트 관련자 참여](upgrade-enlist-stakeholders.md)
 #### [프로젝트 범위 정의](upgrade-define-project-scope.md)
 #### [공존 및 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [전화 시스템 및 PSTN 연결 옵션 이해](cloud-voice-landing-page.md)
 #### [업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [사용자 파일럿 계획](pilot-essentials.md)
 
@@ -537,11 +537,7 @@
 ### [비즈니스용 Skype Online을 Teams로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [비즈니스용 Skype 온-프레미스를 Teams로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-## 운영, 채택 및 최적화
-### [운영 계획 개요](continue-journey.md)
-### [서비스 운영](upgrade-operate-my-service.md)
-### [모니터 품질](upgrade-monitor-quality.md)
-### [서비스 향상](upgrade-enhance-my-service.md)
+## [운영, 채택 및 최적화](continue-journey.md)
 
 ## [비즈니스용 Skype Online 단종](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
@@ -700,6 +696,8 @@
 
 <!-- ============================================================ -->
 # 모니터링, 유지 관리 및 문제 해결
+## [서비스 운영](upgrade-operate-my-service.md)
+## [서비스 향상](upgrade-enhance-my-service.md)
 ## 통화 품질 모니터링 및 관리
 ### [통화 품질 모니터링 및 향상](monitor-call-quality-qos.md)
 ### 통화 품질 대시보드(CQD)
@@ -723,6 +721,9 @@
 ### QoS(서비스 품질)
 #### [Teams에 QoS 설정](QoS-in-Teams.md)
 #### [Windows 클라이언트에 QoS 설정](QoS-in-Teams-clients.md)
+
+
+
 ## [Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [설치 및 업데이트 문제 해결](troubleshoot-installation.md)
 ## [Teams 클라이언트의 연결 문제 해결](connectivity-issues.md)
@@ -934,5 +935,7 @@
 ### [Microsoft 365의 통화 플랜 - 영국의 직업 규약](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Microsoft 365의 통화 플랜 - 영국의 코드 호환 처리](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
+
+## [업그레이드 검색 질문](upgrade-plan-journey-discovery-questionnaire.md)
 
 ## [Teams 관리자 기능 릴리즈 노트](release-notes/release-notes.md)

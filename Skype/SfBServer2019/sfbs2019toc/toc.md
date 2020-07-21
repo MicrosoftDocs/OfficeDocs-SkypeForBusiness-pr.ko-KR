@@ -1,4 +1,4 @@
-# [비즈니스용 Skype 서버 2019](../skype-for-business-server-2019.md)
+# [비즈니스용 Skype 서버 2019](../skype-for-business-server-2019.yml)
 
 ## [새로운 기능](../whats-new.md)
 ## [더 이상 사용되지 않는 기능](../deprecated.md)
