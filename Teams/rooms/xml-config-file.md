@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 사용자 지정 테마 적용 및 마스터 설정 파일 만들기를 포함 하 여 Microsoft 팀 대화방 장치에서 사용 하는 기본 설정의 원격 관리
-ms.openlocfilehash: 77fc064157d57a2584e4a527148a143680010832
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842019"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201252"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리
 
@@ -49,6 +49,10 @@ ms.locfileid: "44842019"
     <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+    <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
+    <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
+    <CustomDisplayNameForThirdPartyMeetings>Rainier Conference Room</CustomDisplayNameForThirdPartyMeetings>
+    <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
@@ -94,6 +98,10 @@ ms.locfileid: "44842019"
 | \<ConfigureDomain\>  |문자열 &#x2778;  ||여러 도메인을 쉼표로 구분 하 여 나열할 수 있습니다. |
 |\<TeamsMeetingsEnabled\> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. <br/> <br/> XML 파일은 두 가지를 모두 사용할 수 없는 경우 잘못 된 형식으로 간주 \<SkypeMeetingsEnabled\> \<TeamsMeetingsEnabled\> 되지만 두 설정을 동시에 사용 하는 것이 허용 됩니다. |
 |\<IsTeamsDefaultClient> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. |
+|\<WebExMeetingsEnabled\> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. <br/> <br/> True 이면 Cisco Webex 모임에 대해 게스트 참가를 직접 할 수 있습니다.|
+|\<UseCustomInfoForThirdPartyMeetings\> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 하지 않도록 설정 되어 있으며 컨퍼런스 회의실 계정 정보를 사용 하 여 타사 모임에 참가 합니다. <br/> <br/> 이 값을 true로 설정 하는 경우 둘 다 지정 해야 합니다 \<CustomDisplayNameForThirdPartyMeetings\> \<CustomDisplayEmailForThirdPartyMeetings\> .|
+|\<CustomDisplayNameForThirdPartyMeetings\> |문자열 &#x2778;  |첫 번째 &#x2776;  |타사 모임에 참가 하는 데 사용 되는 게스트 이름을 지정 합니다. 타사 서비스는이 데이터를 자신의 환경에 표시 하 고 서비스에 저장할 수 있습니다.|
+|\<CustomDisplayEmailForThirdPartyMeetings\> |문자열 &#x2778;  |첫 번째 &#x2776;  |타사 모임에 참가 하는 데 사용 되는 게스트 전자 메일을 지정 합니다. 타사 서비스는이 데이터를 자신의 환경에 표시 하 고 서비스에 저장할 수 있습니다.|
 |\<BluetoothAdvertisementEnabled> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 하도록 설정 되어 있습니다. |
 |\<AutoAcceptProximateMeetingInvitations> |부울 &#x2777;  |첫 번째 &#x2776;  |True 인 경우에는 근접 기반 모임이 자동으로 수락 됩니다. 기본적으로 사용 되지 않습니다. |
 |\<DualScreenMode\>  |부울 &#x2777;  |첫 번째 &#x2776;  |True 이면 이중 화면 모드를 사용 하도록 설정 합니다. 그렇지 않으면 장치가 단일 화면 모드를 사용 합니다. |

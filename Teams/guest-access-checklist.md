@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 583fdf2ba821437d1877036ddafe5cce0a460269
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637297"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201052"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 게스트 액세스 검사 목록
 =========================================
@@ -78,7 +78,7 @@ ms.locfileid: "44637297"
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>3 단계: Microsoft 365 그룹 구성
 
-1. Microsoft 365 관리 센터에서 **설정**설정으로 이동 하 여  >  **Settings** **서비스**를 클릭 한 다음 **Microsoft 365 그룹**을 선택 합니다.
+1. Microsoft 365 관리 센터에서 **설정**  >  **조직 설정**으로 이동 하 여 **서비스**를 클릭 한 다음 **Microsoft 365 그룹**을 선택 합니다.
 
      ![스크린샷에는 Microsoft 365 Groups 설정이 나와 있습니다.](media/guest-access-checklist-services-settings.png)
 2. **조직 외부의 그룹 구성원이 그룹 콘텐츠에 액세스하도록 허용** 확인란을 선택했는지 확인합니다. 이 설정을 선택하지 않으면 게스트가 그룹 콘텐츠에 액세스할 수 없습니다.
@@ -92,7 +92,7 @@ ms.locfileid: "44637297"
 
 사용자가 게스트를 추가할 수 있는지 확인합니다. 방법은 다음과 같습니다.
 
-1. Microsoft 365 관리 센터에서 **설정** > **설정**으로 이동하고 **보안 및 개인 정보**를 클릭한 다음 **공유**를 선택합니다.
+1. Microsoft 365 관리 센터에서 **설정**  >  **조직 설정**으로 이동 하 여 **보안 & 개인 정보**를 클릭 한 다음 **공유**를 선택 합니다.
 
      ![서비스 설정의 예를 보여주는 스크린샷](media/guest-access-checklist-security-privacy-settings.png)
  

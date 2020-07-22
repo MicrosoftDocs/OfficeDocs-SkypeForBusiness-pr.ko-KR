@@ -1,0 +1,147 @@
+---
+title: Microsoft 팀 회의실 Premium
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.reviewer: ''
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+audience: Admin
+ms.collection:
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+localization_priority: Normal
+search.appverid: MET150
+description: Microsoft 팀 대화방 Premium에 대해 알아보세요.
+f1keywords: ''
+ms.openlocfilehash: 01486e66f13af34fb14264c3a14dc414e0d5eb4f
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201282"
+---
+# <a name="microsoft-teams-rooms-premium"></a>Microsoft 팀 회의실 Premium
+
+Microsoft 팀 대화방 Premium은 Microsoft 팀 공간 장치 및 주변 기기를 최신 상태로 유지 하 고 사전 모니터링 하 여 훌륭한 사용자 환경을 위해 최적화 된 환경을 지 원하는 클라우드 기반 IT 관리 및 모니터링 서비스입니다.
+
+Microsoft 팀 객실 Premium은 조직의 회의실 환경을 개선 하 고 Microsoft 팀 공간 장치에 대 한 예방적 관리를 제공 하 여 공간을 신속 하 게 확장 하는 데 유용 합니다. 이 서비스를 사용 하면 조직에서 "자신을 직접 관리" 하는 데 소모 되는 시간, 비용, 전문성을 절약할 수 있습니다.  
+
+Microsoft 팀 대화방 Premium 서비스는 소프트웨어 사용이 가능한 끝점, 컴퓨터 학습, 지능형 자동화에 대 한 Microsoft의 전문가의 강력한 기반을 제공 합니다. Microsoft 팀 대화방 Premium은 조직에서 여러 원격 사이트 간에 고품질 환경을 제공 하 고 조직의 요구에 따라 증가 하는 모든 속도를 수용할 수 있도록 지원 합니다.
+
+## <a name="service-capabilities"></a>서비스 기능
+
+Microsoft 팀 회의실 Premium 서비스의 기능에 대 한 개요는 다음과 같습니다.
+
+|기능  |설명  |
+|---------|---------|
+|**회의실 계획 및 출시**   |회의실 장비 재고를 파악 하 고 새 회의실 배포를 위한 장비 표준에 대 한 의사 결정을 내릴 수 있는 회의실 계획 기능입니다.         |
+|**모니터링 및 문제 해결**  |채팅방 시스템 및 주변 장치에서 발생 하는 문제를 감지 하 고 Microsoft의 사전 대처 관리 응답을 제공 하는 대화방 상태 모니터링.         |
+|**업데이트 관리**    |Microsoft에서 수행 하는 회의실 시스템 및 주변 기기에 대 한 응용 프로그램 및 펌웨어 업데이트의 관리 및 제공         |
+|**정보 활용 및 권장 사항**     |고객 건강, 사용, 이용, 장비 신뢰성에 대 한 통찰력.         |
+|**준수 및 인증**   |Microsoft 온라인 서비스에 대 한 모든 해당 표준을 충족 합니다.         |
+|**고객 지원**   |전용 Microsoft 팀 대화방 Premium 서비스 센터 (SOC)를 통한 연중 무휴 티켓 지원. 해당 되는 경우 다른 주요 공급 업체에 게 전달 자세한 내용은 [고객 지원](#customer-support)을 참조 하세요.|
+|**지원되는 장치**    |인증 된 Microsoft 팀 회의실 시스템 및 주변 기기.         |
+|**지원 지역**    |[지원 지역](#supported-regions)을 참조 하세요.        |
+|**통합**    |지금 고객 호스팅 서비스와 통합할 수 있습니다.         |
+
+## <a name="service-features"></a>서비스 기능
+
+다음은 위의 기능을 지원 하기 위해 Microsoft 팀 회의실 Premium 서비스에서 제공 하는 중요 한 기능에 대 한 요약입니다.
+
+|기능  |설명  |
+|---------|---------|
+|**재고 관리**   |공간 장치, 주변 기기, 제작, 모델이 나열 된 대량 내보내기 옵션을 사용 하는 방 재고 추적.         |
+|**채팅방 등록**   |Microsoft 팀 대화방 Premium 서비스에 자동으로 회의실 장치를 등록 하 여 쉽게 온 보 딩          |
+|**회의실 관리**     |관리 서비스 기능, insights, 관리 설정, 룸 그룹 관리에 대 한 고객 포털         |
+|**모니터링**    |응용 프로그램, 운영 체제, 주변 기기, 펌웨어 상태 모니터링. 주변 장치 상태와 같은 문제로 인해 모임 환경에 영향을 주는 문제에 대 한 자동 사고 감지. Microsoft 팀 회의실 Premium 포털을 통해 회의실 전체의 공간 및 사고의 상태 개요.|
+|**문제 해결 및 업데이트 관리**     |자동화 된 진단 및 자동 업데이트 관리 (해당 하는 경우) 자동이 아닌 경우에 대 한 Microsoft 팀 대화방 Premium SOC-지원 인시던트 재구성. 서비스는 이제 인시던트 조정을 위해 통합 됩니다.         |
+|**업데이트 관리**   |고객 구성 가능한 배포 링을 기반으로 하는 자동화 된 모임 응용 프로그램 및 펌웨어 업데이트 오케스트레이션         |
+|**정보 활용 및 권장 사항**   |사용, 사건, 상태 및 전체 보고 (기록 보기)         |
+
+## <a name="service-prerequisites"></a>서비스 필수 구성 요소
+
+Microsoft 팀 대화방 Premium 서비스는 회의실 라이선스 별 추가 기능입니다. Microsoft 팀 대화방에는 별도의 사용자 또는 Microsoft 팀 대화방 라이선스가 필요 합니다.
+
+Microsoft 팀 회의실 Premium에서 서비스 품질을 유지 하려면, 등록 된 채팅방이 [Microsoft 팀 대화방에서 지원](requirements.md#hardware-requirements)되는 장치 여야 하며, [필요한 모든 Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 를 사용 하 여 사용자 환경을 준비 하 고 회의실 디바이스에 의해 완전히 허용 되 고 연결 가능 합니다. 자세한 내용은 Microsoft 팀 대화방 문서에서 [환경 준비](rooms-prep.md) 를 참조 하세요.
+
+관리 서비스의 공급자는 Microsoft에서 조직의 채팅방에 대 한 책임 관계자와 협력 하 여 회의실을 유지 하 고 문제를 복구 해야 합니다. 귀하는 회의실 장치에 배포 하기로 선택 하 고 Microsoft에서 권장 하는 변경 관리 방법에 부합 하는 uncertified, 타사 또는 사용자 지정 소프트웨어에 사용 되는 디바이스를 담당 하 고 있습니다.
+
+조직이 나 조직에서 계약 하는 파트너는 서비스에서 검색 된 마지막 마일 문제를 수정할 수 있도록 준비 해야 합니다.
+
+## <a name="customer-support"></a>고객 지원
+
+Microsoft 팀 대화방 Premium 서비스는 전용 Microsoft 팀 대화방 Premium SOC를 통해 지원 됩니다. Microsoft 팀 대화방 premium SOC와 고객에 게 통신 하는 기본 모드는 Microsoft 팀 회의실 Premium 포털을 통해 담당 합니다. Microsoft 팀 대화방 Premium SOC는 시스템 또는 조직에서 발생 하는 티켓에 대 한 첫 번째 응답과 적절 한 escalation을 제공 합니다.
+
+|  |  |
+|---------|---------|
+|**범위**   |회의실 앱, 채팅방 장치, 주변 기기와 관련 된 인시던트가 Microsoft 팀 대화방 Premium 지원에 포함 되어 있습니다.|
+|**그룹**  |IT 운영 전용         |
+|**지원 되는 언어**    |영어         |
+|**포털을 통해 가용성 지원**   | 24      |
+|**Microsoft 팀 회의실 Premium SOC에 대 한 초기 응답 시간**   |  4시간       |
+|**고객의 반응이 없는 경우 티켓을 자동으로 닫기**    |고객 개시 티켓: 업무일 3 일<br>시스템 개시 티켓: 영업일/기간 15 일</li>   </ul>      |
+|**광범위 한 Microsoft 지원으로 리디렉션**   |Microsoft 팀 회의실의 범위를 벗어나는 다른 Microsoft 제품과 관련 된 문제는 해당 지원 팀에 게 전달 됩니다.         |
+|**OEM (주문자 상표 제조) 지원으로 리디렉션**    |Microsoft 팀 대화방 Premium SOC는 문제를 파악 하 고 해당 되는 경우 OEM에 대 한 지원 조정 작업에 도움을 줍니다. 경우에 따라 OEM과 직접 관련 하 여 책임을 지는 경우가 있을 수 있습니다.         |
+
+또한 Microsoft 팀 대화방 Premium SOC는 조직에서 IT 작업을 지원 하 고 최종 사용자를 위한 지원 센터 서비스를 대체 하지 않는다는 점에 유의 하세요.
+
+Microsoft 팀 대화방 Premium 지원 범위에 대 한 자세한 내용은 [지원 포함 및 제외](#support-inclusions-and-exclusions)를 참조 하세요.
+
+## <a name="supported-regions"></a>지원 지역
+
+Microsoft 팀 대화방 Premium은 다음 국가 및 지역에서 사용할 수 있습니다.
+
+- 오스트레일리아
+- 오스트리아
+- 벨기에
+- 캐나다 (퀘벡에서 제외)
+- 덴마크
+- 핀란드
+- 독일
+- 그리스
+- 아일랜드
+- 이탈리아
+- 룩셈부르크
+- 모나코
+- 네덜란드
+- 뉴질랜드
+- 노르웨이
+- 포르투갈
+- 스페인
+- 스웨덴
+- 스위스
+- 영국
+- 미국
+
+## <a name="support-inclusions-and-exclusions"></a>포함 및 제외 지원
+
+
+|포함 된 항목 |제외 사항 |제외 된 항목에 대 한 채널 지원  |
+|---------|---------|---------|
+|**서비스 구성**   |         |         |
+|Microsoft 팀 대화방 앱 설정, 첫 번째 타사 네트워크 구성, 첫 번째 타사 소프트웨어 설정, 권장 되는 전원 설정 및 구성 등 Microsoft 팀원에 대 한 조사 및 지침     |Microsoft 팀 대화방 앱에 직접적으로 포함 되지 않는 타사 소프트웨어 구성 및 조사 또한 타사 windows 외부에서 구성을 필요로 하는 모든 OEM 관련 구성 또는 Microsoft 팀 대화방 앱 설정입니다.         |타사 표준 지원 채널         |
+|**채팅방 계정 설정**    |         |         |
+|요청 시 회의실 계정 설정에 사용할 수 있는 설명서 방향입니다. 로그인 또는 계정 구성 문제를 해결 하기 위해 초기 조사가 수행 됩니다.     |추천 수정 사항 실행, 타사 인증 공급자 구성, 개별 계정 기능 구성에 대 한 권장 수정 또는 문제 실행.        |Microsoft 메인스트림 지원 및 타사 인증 공급자 지원         |
+|**주변 장치 지원**    |         |         |
+|카메라, 마이크, 스피커 등의 인증 된 주변 장치에 대 한 초기 조사가 수행 됩니다.    |표준 구성을 적용 하거나 타사 응용 프로그램을 포함 하 여 해결 되지 않는 문제         |OEM 지원         |
+|**RMA 및 장치 대체**   |         |         |
+|카메라, 마이크, 스피커 등의 인증 된 주변 장치에 대 한 초기 조사가 수행 됩니다. OEM에 게 대체 또는 보증 요청을 수행 하는 데 OEM 지원으로의 핸드 전달이 수행 됩니다.    |구매, 배송 또는 대체의 설치         |OEM 지원         |
+|**근본 원인 분석**     |         |         |
+|회의실 환경에서 발생 하는 문제에 대 한 모든 근본 원인은 사용할 수 있는 경우에는 제공 되지만, 그에 따라 수행 될 수 있습니다.     |타사 소프트웨어 문제에 대 한 근본 원인 분석은 포함 되어 있지 않습니다.         |타사 표준 지원 채널         |
+|**모임 환경**   |         |         |
+|Microsoft 팀 객실의 모임 설정 내에서 문제를 조사 하는 중 장치에서 서비스 품질을 올바르게 구성 하는 데 필요한 지침은 요청 시 제공 됩니다.      |통화 품질 문제 또는 네트워크 관련 문제에 대 한 근본 원인 분석 또는 조사가이 범위에서 제외 됩니다.         |Microsoft 메인스트림 지원         |
+|**재구성, 온 보 딩, 진행 중**     |         |         |
+|고객은 온 보 딩 시 Microsoft 팀 회의실 Premium에서 권장 하는 표준으로 채팅방을 가져올 수 있는 지침을 받습니다.    |Microsoft 팀 대화방의 권장 소프트웨어 버전 지침과 관련 없는 사용자 지정 소프트웨어 이미지 또는 비규격에 대 한 조사가 범위에 없습니다.          |         |
+
+## <a name="data-collection"></a>데이터 수집
+
+Microsoft 팀 대화방 Premium 서비스는 장치를 모니터링 하 고, 장치 데이터를 수집 하 고, Microsoft가 대화방 장치에 원격으로 액세스 하 고 관리할 수 있도록 합니다. Microsoft 팀 대화방 Premium 서비스에서 모임의 라이브 콘텐츠에 액세스 하지 못합니다.
+
+수집 된 데이터는 개인 사용자가 아니라 룸 계정에만 해당 됩니다. 개별 사용자에 대 한 부수적 참조는 장치를 사용 하는 동안 활동 로그에 있을 수 있습니다. 수집 된 데이터는 [Microsoft 개인 정보 취급](https://aka.ms/privacy)방침에 따라 처리 됩니다.  
+
+## <a name="related-topics"></a>관련 항목
+
+- [Microsoft 팀 회의실 Premium](https://rooms.microsoft.com)

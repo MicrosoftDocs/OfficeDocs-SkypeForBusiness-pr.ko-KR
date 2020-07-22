@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀의 정보 장벽에 대해 설명
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc9bbd3f3ff190eee3aa0b44ba68dfd8eb9aab6a
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121708"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202914"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
@@ -31,7 +31,7 @@ IB (정보 장벽)은 관리자가 개인 또는 그룹이 서로 통신 하는 
 > - 테 넌 트 간에 정보 장벽 그룹을 만들 수 없습니다.
 > - 봇을 사용 하 여 사용자를 추가 하는 것은 버전 1에서 지원 되지 않습니다.
 > - 개인 채널은 사용자가 구성한 정보 장벽 정책에 따릅니다.
-> - 신규: 팀에 연결 된 SharePoint 사이트에 대 한 정보 장벽 지원은 이제 비공개 미리 보기입니다. 비공개 미리 보기에 참여 하려면 [여기](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) 를 클릭 하세요.
+> - 신규: 팀에 연결 된 SharePoint 사이트에 대 한 장벽 지원에 대 한 자세한 내용을 보려면 [여기](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)를 클릭 하세요.
 
 정보 장벽 정책은 또한 조회 및 검색을 방지 합니다. 따라서 통신 하지 않아야 하는 사람과 통신을 시도 하는 경우에는 사용자 선택에서 해당 사용자를 찾지 못합니다.
 
@@ -171,6 +171,8 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
 
 예: Contoso Bank corporation에서 사용자 ' Sesha@contosobank.onmicrosoft.com '은 투자 은행 부문에 속하고 ' Nikita@contosobank.onmicrosoft.com ' 사용자는 세그먼트 권고에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신과 공동 작업을 차단 합니다.
 사용자가 투자 은행 부문에 대 한 팀을 만드는 경우 팀과이를 지 원하는 SharePoint 사이트는 투자 은행 부문 사용자만 액세스할 수 있습니다. 사이트 링크를가지고 있는 경우에도 사용자 Nikita 해당 사이트에 액세스할 수 없습니다.
+
+자세한 내용을 보려면 [여기](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) 를 클릭 하세요.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 

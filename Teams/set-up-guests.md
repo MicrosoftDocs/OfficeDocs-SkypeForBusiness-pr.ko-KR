@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 297a101389de2e1609697ffa2c30a2a8b7a84080
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 8124a2acddc9488d22c4579412f665d8cc090553
+ms.sourcegitcommit: 712c1ac5dd8c4b2faacad80aca9cbb1e4ccfb985
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042780"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204353"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
 ===================================================
@@ -70,15 +70,7 @@ ms.locfileid: "45042780"
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell을 사용하여 게스트 액세스 켜기 또는 끄기
 
-[PowerShell을 사용하여 게스트 액세스 켜기 또는 끄기](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off) 참조하기
-
-
-## <a name="video-adding-guests-in-teams"></a>비디오: Teams에서 게스트 추가하기
-
-|  |  |
-|---------|---------|
-| Microsoft Teams에서 게스트 추가하기   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
-
+[PowerShell을 사용 하 여 게스트 액세스를 설정 하거나 해제](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)합니다.
 
 ## <a name="external-access-federation-vs-guest-access"></a>외부 액세스(페더레이션) 대 게스트 액세스
 

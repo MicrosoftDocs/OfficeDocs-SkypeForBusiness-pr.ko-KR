@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 microsoft 팀 대화방에 대 한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021876"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201182"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -29,6 +29,7 @@ ms.locfileid: "45021876"
 
 |제품 |게시 대상 <br/> Microsoft Store |
 |--- |--- |
+|4.5.33.0 |07/20/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -64,6 +65,17 @@ ms.locfileid: "45021876"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 팀 대화방 기능 소개 및 문제 해결
+
+### <a name="45330-07202020"></a>4.5.33.0 (07/20/2020)
+이 업데이트에 도입 된 내용:
+- 팀 대화방에서 직접 게스트 참가를 사용 하 여 Cisco Webex 모임 참가
+- 팀 관리 센터 기능 및 자동 등록
+- Windows 10 1909 릴리스 지원
+- 콘텐츠가 있는 경우에도 비디오 갤러리 레이아웃으로 전환
+- 가상에서 발표자를 위해 참석자 및 컨트롤에 대 한 핸 즈 지원을 높입니다.
+- 회의 및 기본 스피커의 조정할 수 있는 기본 볼륨 설정
+- 팀 대화방에서 페더레이션 사용자 (테 넌 트) 검색 및 호출
+    
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 

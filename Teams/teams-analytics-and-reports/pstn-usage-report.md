@@ -17,12 +17,12 @@ description: Microsoft 팀 관리 센터에서 팀 PSTN 사용 보고서를 사�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 18fce1d70308fcdc58441bb1a5cad8a446131e0e
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918576"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201202"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 팀 PSTN 사용 보고서
 
@@ -30,16 +30,19 @@ Microsoft 팀 관리 센터의 팀 PSTN 사용 보고서에서 조직의 통화 
 
 **통화 계획** 탭에는 사용자가 인바운드 및 아웃 바운드 PSTN 통화와 이러한 통화 비용을 사용한 시간 (분)을 비롯 하 여 정보가 표시 됩니다. **직접 라우팅** 탭에는 SIP 주소 및 통화 시작 및 종료 시간을 포함 한 정보가 표시 됩니다. 이 보고서의 정보를 사용 하 여 조직의 PSTN 사용에 대 한 통찰력을 얻고 비즈니스 의사 결정을 조사, 계획 및 수립 하는 데 도움을 줍니다.
 
+> [!NOTE]
+> Telstra 또는 소프트 은행 통화 요금제가 있는 경우 PSTN 사용 보고서에 통화 정보 레코드가 표시 되지 않습니다. 보고 요구 사항에 대해 Telstra 또는 소프트 은행에 문의 하세요. 
+
 ## <a name="view-the-pstn-usage-report"></a>PSTN 사용 보고서 보기
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서** > **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **PSTN 사용 보고서**를 선택 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서**  >  **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **PSTN 사용 보고서**를 선택 합니다.
 2. **날짜 범위**에서 미리 정의 된 범위의 7 개 또는 28 일을 선택 하거나 사용자 지정 범위를 설정한 다음 **보고서 실행**을 선택 합니다.
 
 ## <a name="interpret-the-report"></a>보고서 해석
 
 ### <a name="calling-plans"></a>통화 플랜
 
-![관리 센터의 통화 계획 PSTN 사용 보고서 보고서 스크린샷](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "번호가 매겨진 설명선이 있는 Microsoft 팀 관리 센터의 PSTN 사용 보고서 스크린샷")
+[![관리 센터의 통화 계획 PSTN 사용 보고서 보고서 스크린샷](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "번호가 매겨진 설명선이 있는 Microsoft 팀 관리 센터의 PSTN 사용 보고서 스크린샷")](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |호출 |설명  |
 |--------|-------------|
@@ -54,7 +57,7 @@ Microsoft 팀 관리 센터의 팀 PSTN 사용 보고서에서 조직의 통화 
 
 ### <a name="direct-routing"></a>직접 라우팅
 
-![관리 센터의 다이렉트 라우팅 PSTN 사용 보고서 보고서 스크린샷](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "번호가 매겨진 설명선이 있는 Microsoft 팀 관리 센터의 다이렉트 라우팅 PSTN 사용 보고서 스크린샷")
+[![관리 센터의 다이렉트 라우팅 PSTN 사용 보고서 보고서 스크린샷](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "번호가 매겨진 설명선이 있는 Microsoft 팀 관리 센터의 다이렉트 라우팅 PSTN 사용 보고서 스크린샷")](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |호출 |설명  |
 |--------|-------------|
@@ -90,11 +93,11 @@ Microsoft 팀 관리 센터의 팀 PSTN 사용 보고서에서 조직의 통화 
 
 이렇게 하면 모든 사용자의 데이터가 내보내며 추가 분석을 위해 간단한 정렬 및 필터링이 가능 합니다. 내보낸 파일에는 온라인 보고서에서 사용할 수 없는 추가 필드가 포함 되어 있습니다. 문제 해결 및 자동화 워크플로를 위해 사용 될 수 있습니다.
 
- "**Calls`[identifier]`." 라는 zip 파일을 받게 됩니다. zip**",이 식별자는 문제 해결에 사용할 수 있는 내보내기의 고유 ID입니다.
+ "Calls." 라는 zip 파일을 받게 됩니다.** `[identifier]` zip**",이 식별자는 문제 해결에 사용할 수 있는 내보내기의 고유 ID입니다.
 
-전화 요금제와 직접 라우팅이 모두 있는 경우 내보낸 파일에는 두 제품 모두에 대 한 데이터가 포함 될 수 있습니다. PSTN 사용 보고서 파일에는 파일 이름 "**PSTN. 통화`[UTC date]`. csv**"및 직접 라우팅"**DirectRouting`[UTC date]`. csv**".
+전화 요금제와 직접 라우팅이 모두 있는 경우 내보낸 파일에는 두 제품 모두에 대 한 데이터가 포함 될 수 있습니다. PSTN 사용 보고서 파일에는 파일 이름 "**PSTN. 통화. `[UTC date]` csv**"및 직접 라우팅"**DirectRouting `[UTC date]` . csv**".
 
- PSTN 및 다이렉트 라우팅 파일 외에도, 보관에는 "**parameters. json**"이 선택한 내보내기 시간 범위와 기능이 포함 되어 있습니다.
+ PSTN 및 다이렉트 라우팅 파일 외에도,이 아카이브에는 "**parameters.json**"이 있으며 선택한 내보내기 시간 범위와 기능이 포함 되어 있습니다.
 
 내보낸 파일은 [RFC 4180](https://tools.ietf.org/html/rfc4180) 표준과 호환 되는 CSV (쉼표로 구분 된 값) 형식으로 되어 있습니다. 파일은 Excel 또는 다른 표준 규격 편집기에서 변환을 필요 없이 열 수 있습니다.
 
