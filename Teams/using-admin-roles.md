@@ -22,24 +22,22 @@ ms.reviewer: islubin
 description: 관리 역할을 사용 하 여 팀을 관리 하는 데 다른 수준의 액세스가 필요한 관리자를 지정 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665210"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229044"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft 팀 관리자 역할을 사용 하 여 팀 관리
 
-Azure AD (Active Directory)를 사용 하 여 Microsoft 팀을 관리 하기 위해 다른 수준의 액세스 권한을 필요로 하는 관리자를 지정할 수 있습니다. 관리자는 전체 팀 작업 부하를 관리할 수 있으며, 통화 품질 문제를 해결 하기 위한 권한을 위임 하거나 조직의 전화 통신 요구 사항을 관리할 수 있습니다. 
+Azure AD (Active Directory)를 사용 하 여 Microsoft 팀을 관리 하기 위해 다른 수준의 액세스 권한을 필요로 하는 관리자를 지정할 수 있습니다. 관리자는 전체 팀 작업 부하를 관리할 수 있으며, 통화 품질 문제를 해결 하기 위한 권한을 위임 하거나 조직의 전화 통신 요구 사항을 관리할 수 있습니다.
 
 ## <a name="teams-roles-and-capabilities"></a>팀 역할 및 기능
 
 팀 서비스 관리자, 팀 통신 관리자, 팀 의사 소통 지원 전문가, 팀 의사 소통 지원 엔지니어가 4 명의 팀 관리자 역할을 사용할 수 있습니다. 다음 표를 검토 하 여 각 역할이 수행할 수 있는 작업과 Microsoft 팀 관리 센터 및 PowerShell에서 관리자가 사용할 수 있는 도구에 대해 알아봅니다.
 
-팔 로우 하려면의 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 합니다.
-
-
+팔 로우 하려면 관리자 여야 합니다. 이 문서에서는 사용 권한을 얻기 위한 지침이 나와 있습니다.
 
 <!-- add Global admin role? -->
 

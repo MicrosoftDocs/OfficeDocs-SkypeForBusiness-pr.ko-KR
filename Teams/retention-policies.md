@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efa11a5ca91be13508ab518ab5be504743825b68
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202961"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45247387"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
@@ -154,6 +154,24 @@ Teams 보존 정책을 삭제하려면 다음을 수행합니다.
 1. 보안 및 준수 센터의 왼쪽 탐색에서 **정보 거버넌스** > **보존**으로 이동합니다.
 2. 보존 정책 목록에서 삭제하려는 보존 정책 옆의 확인란을 선택합니다.
 3. **정책 삭제**를 선택합니다.
+
+### <a name="end-user-experience"></a>최종 사용자 환경
+
+개인 채팅 (1:1 채팅) 또는 그룹 채팅의 경우, 최종 사용자는 보존 정책 구성 보다 오래 된 채팅을 삭제 하 고 "조직의 보존 정책에 따라 오래 된 messaged를 삭제 했습니다." 라는 제어 메시지가 아직 삭제 되지 않은 메시지의 맨 위에 표시 됨을 확인할 수 있습니다.
+:::image type="content" source="media/retention-policies-image1.png" alt-text="채팅 보존 스크린샷":::
+
+
+:::image type="content" source="media/retention-policies-image2.png" alt-text="그룹 채팅 보존 스크린샷":::
+
+채널 메시지의 경우 최종 사용자 (채널 구성원)가 삭제 된 메시지를 보기에서 사라지고 메시지가 만료 된 것 처럼 표시 합니다. 삭제 된 메시지가 스레드 대화의 상위 메시지 이면 상위 메시지 대신 "이 메시지가 보존 정책으로 인해 삭제 되었습니다." 라는 메시지가 표시 됩니다.
+
+:::image type="content" source="media/retention-policies-image3.png" alt-text="보존 전의 채널 스크린샷":::
+
+:::image type="content" source="media/retention-policies-image4.png" alt-text="보존 후 채널의 스크린샷":::
+
+> [!NOTE]
+> 최종 사용자 메시지는 현재 사용자 또는 관리자가 수정할 수 없습니다.
+
 
 ### <a name="using-powershell"></a>PowerShell 사용
 

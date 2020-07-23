@@ -22,20 +22,17 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 통화 품질 대시보드 (CQD)에서 사용할 수 있는 데이터 및 보고서에 대해 알아봅니다.
-ms.openlocfilehash: 02acff8cd423901c8959e94af664ffe4d43c0e51
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086051"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372167"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>CQD (통화 품질 대시보드의 데이터 및 보고서)
 
 CQD (Microsoft 통화 품질 대시보드)는 NRT (근거리 실시간) 데이터 피드를 사용 합니다. 통화 기록은 통화 종료 시간 30 분 이내에 CQD에서 사용할 수 있습니다. NRT 파이프라인의 통화 레코드는 일부 달에만 사용할 수 있으며 데이터 집합에서 제거 됩니다. 
 
-
-> [!NOTE]
-> Advanced CQD (11 월의 새로운 2019)는 이전 CQD 파이프라인 (고급 CQD 파이프라인의 NRT 데이터를 사용 하 여 약 24 시간 동안 사용할 수 있는 통화 레코드)의 데이터를 병합 합니다. 보관 기간의 데이터에 대 한 이전 및 고급 포털 쿼리는 동일한 결과를 생성 합니다. N RT 데이터와 NRT 데이터 + EUII 기간에 대 한 포털의 쿼리는 서로 다릅니다.
 
 ## <a name="many-ways-to-access-cqd-data"></a>CQD 데이터에 액세스 하는 다양 한 방법
 
@@ -46,7 +43,7 @@ CQD (Microsoft 통화 품질 대시보드)는 NRT (근거리 실시간) 데이�
 |팀 관리 센터 [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 데이터는 팀 관리 센터의 **사용자** 페이지에 포함 되어 있으며, 읽기 쉬운 형식으로 필요한 가장 일반적인 데이터를 표시 합니다. **사용자가**찾은 CQD 데이터는 사용자 지정할 수 없습니다.  |
 |CQD 포털 [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | 드릴스루 필터링을 사용 하 여 대부분의 요구를 충족 하는 강력한 요약 및 상세 보고서. CQD 포털에서 보고서를 사용자 지정할 수도 있습니다. <br><br>CQD 포털에서 데이터를 분석 하는 데 도움이 되는 두 개의 [cqd 보고서 서식 파일](#import-the-cqd-report-templates) 을 다운로드 하세요.       |
 |Power BI     | 직접 쿼리를 사용 하 여 Power BI에서 [사용자 지정 가능한 POWER bi 서식 파일](CQD-Power-BI-query-templates.md)을 사용 하 여 CQD 데이터를 볼 수 있습니다. [CQD 용 POWER BI 쿼리 서식 파일을 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)합니다.<br><br>또한 REST API를 사용 하 여 Power BI를 통해 [CQD 데이터에 액세스할](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/data-api) 수 있습니다. 이 방법을 사용 하 여 오프 라인으로 작업할 수 있도록 CQD 데이터를 다운로드 합니다. 이 방법을 사용 하면 성능이 향상 되는 데, 특히 온라인 상태일 때 Power BI에서 bog 하는 대규모 데이터 집합에 유용 하 게 활용할 수 있습니다.       |
-|Graph API     | [GRAPH API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)를 사용 하 여 직접 통화 품질 데이터에 액세스 합니다. 가장 복잡 한 방법 이지만, 통화 품질 데이터를 분석 하는 것은 대부분의 제어 및 유연성을 제공 합니다. 예를 들어 조직의 다른 데이터와 조인 해야 하는 경우 그래프 API를 사용 하 여 데이터 모델을 만들고 통화 품질 데이터를 통합할 수 있습니다.        |
+|그래프 API     | [GRAPH API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)를 사용 하 여 직접 통화 품질 데이터에 액세스 합니다. 가장 복잡 한 방법 이지만, 통화 품질 데이터를 분석 하는 것은 대부분의 제어 및 유연성을 제공 합니다. 예를 들어 조직의 다른 데이터와 조인 해야 하는 경우 그래프 API를 사용 하 여 데이터 모델을 만들고 통화 품질 데이터를 통합할 수 있습니다.        |
 
 ## <a name="import-the-cqd-report-templates"></a>CQD 보고서 서식 파일 가져오기
 

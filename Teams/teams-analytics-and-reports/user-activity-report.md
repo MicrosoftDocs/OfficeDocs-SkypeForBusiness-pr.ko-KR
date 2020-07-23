@@ -17,12 +17,12 @@ description: Microsoft 팀 관리 센터에서 팀 사용자 활동 보고서를
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19f1ef23e29805e53d819752e3f6313c4989d295
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903873"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372157"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft 팀 사용자 활동 보고서
 
@@ -30,7 +30,9 @@ ms.locfileid: "43903873"
 
 ## <a name="view-the-user-activity-report"></a>사용자 활동 보고서 보기
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서** > **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **팀 사용자 활동**을 선택 합니다.
+이러한 변경 작업을 수행 하려면 팀 서비스 관리자 여야 합니다. 팀 [관리 역할을 사용](https://docs.microsoft.com/microsoftteams/using-admin-roles) 하 여 관리자 역할 및 사용 권한 얻기에 대 한 정보를 읽어 보세요 .를 참조 하세요.
+
+1. 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서**  >  **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **팀 사용자 활동**을 선택 합니다.
 2. **날짜 범위**아래에서 범위를 선택 하 고 **보고서 실행**을 클릭 합니다.
 
     ![팀 관리 센터에서 설명선이 포함 된 팀 사용자 활동 보고서 스크린샷](../media/teams-reports-user-activity-with-callouts.png "팀 관리 센터에서 설명선이 포함 된 팀 사용자 활동 보고서 스크린샷")

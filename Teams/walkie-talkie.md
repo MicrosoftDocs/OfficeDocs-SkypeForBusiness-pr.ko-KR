@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9369cf56a32142d6527fcb86271d8d0fa56718ec
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043017"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229054"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft 팀의 Walkie Talkie app
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-팀에 있는 Walkie Talkie 앱은 팀에 대 한 PTT (인스턴트) 통신을 제공 하며 Android의 공개 미리 보기에서 곧 사용할 수 있게 됩니다. Walkie Talkie 사용자는 자신이 구성원으로 속해 있는 동일한 기본 채널을 사용 하 여 팀과 연결할 수 있습니다. 채널에서 Walkie Talkie에 연결 하는 사용자만이 참가자가 되며 한 번에 하나씩 푸시 투-통신을 사용 하 여 서로 통신할 수 있습니다.
+팀의 Walkie Talkie 앱은 사용자의 팀에 대 한 PTT (즉각적인 푸시 간) 통신을 제공 하며 Android의 공개 미리 보기에서 사용할 수 있습니다. Walkie Talkie 사용자는 자신이 구성원으로 속해 있는 동일한 기본 채널을 사용 하 여 팀과 연결할 수 있습니다. 채널에서 Walkie Talkie에 연결 하는 사용자만이 참가자가 되며 한 번에 하나씩 푸시 투-통신을 사용 하 여 서로 통신할 수 있습니다.
 
 Walkie Talkie 팀에서 현재에서 일선 worker는 라디오를 사용할 필요 없이 익숙한 ptt 환경과 안전 하 게 통신할 수 있으며, Walkie Talkie는 WiFi 또는 셀룰러 인터넷 연결을 통해 어디서 나 작동 합니다.
 
@@ -73,9 +73,9 @@ Walkie Talkie의 예상 데이터 사용량은 오디오를 보내거나 받을 
 
 일반적으로 FirstLine worker는 전화를 Walkie Talkie 전화를 주고 받아야 할 때도 있습니다. 전용 PTT 단추가 있는 특수 장치를 통해이 문제가 발생할 수 있습니다.
 
-- 기존 전화
-  - 유선 헤드셋 ([Klein 전자](https://www.kleinelectronics.com/))
-  - 무선 헤드셋 ([Jabra BlueParrott](https://www.blueparrott.com/))
+- 헤드셋
+  - 유선 헤드셋 ([Klein 전자](https://www.kleinelectronics.com/poc-accessories/mtwt/))
+  - 무선 헤드셋 ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
 - 강력한 전화
   - 삼성 Galaxy XCover Pro
     - [추가 정보](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).

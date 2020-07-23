@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Microsoft 팀과 비즈니스용 Skype Online에 대 한 CQD (통화 품질 대시보드)에 사용 되는 크기와 측정에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 1625a7fcb0de0c2e5ad8586b0985ddb61de5e75b
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085784"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372137"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>통화 품질 대시보드에서 사용할 수 있는 크기 및 측정값 (CQD)
 
@@ -170,10 +170,10 @@ CQD의 여러 차원과 측정값에는 첫 또는 초로 레이블이 지정 �
 | 첫 번째 사용자 에이전트  | 문자열  | 첫 번째 끝점의 사용자 에이전트 문자열입니다. <br/> **예제 값:** S e u i CAPI/16.0.7766.5281 OC/16.0.7766.2047 (비즈니스용 Skype) | &bull;첫 번째 끝점에서 보고 된 사용자 에이전트 없음   |
 | 두 번째 사용자 에이전트  | 문자열  | 두 번째 끝점의 사용자 에이전트 문자열입니다. <br/> **예제 값:** S e u i CAPI/16.0.7766.5281 OC/16.0.7766.2047 (비즈니스용 Skype) | &bull;두 번째 끝점에서 보고 된 사용자 에이전트가 없습니다.   |
 | 회의 유형  | 열거할 <br/>**사용할 수 있는 값:** <br/>&bull;회의: applicationsharing <br/>&bull;회의: 오디오-영상 <br/>&bull;회의: 포커스 | 회의 URI의 유형입니다.  <br/> **예제 값:** 회의: 오디오-비디오 | &bull;비 컨퍼런스 시나리오   |
-| 전화 회의 ID  | 문자열 | 스트림과 연결 된 전화 회의 ID (또는 호출 ID)입니다. Cqd.teams.microsoft.com에서 모든 통화는 P2P (사용자 간) 통화 인지 전화 회의 통화 든 관계 없이 통화 ID를 갖습니다. Cqd.lync.com에서이 값은 비즈니스용 Skype 컨퍼런스 통화에만 사용할 수 있습니다.  이 차원에는 보고서에서 차원으로 사용할 행이 너무 많을 수 있습니다. 대신 필터를 사용할 수 있습니다.  <br/> **예제 값 (cqd.lync.com):** 0001p6gk <br/> **예제 값 (cqd.teams.microsoft.com):** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
+| 전화 회의 ID  | 문자열 | 스트림과 연결 된 전화 회의 ID (또는 호출 ID)입니다. Cqd.teams.microsoft.com에서 모든 통화는 P2P (사용자 간) 통화 인지 전화 회의 통화 든 관계 없이 통화 ID를 갖습니다. 이 차원에는 보고서에서 차원으로 사용할 행이 너무 많을 수 있습니다. 대신 필터를 사용할 수 있습니다.   <br/> **예제 값 (cqd.teams.microsoft.com):** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
 | 첫 번째 클라이언트 앱 버전  | 문자열  | 첫 번째 끝점에 사용 되는 응용 프로그램 버전입니다. 데이터는 사용자 에이전트 문자열에서 구문 분석 됩니다. <br/> **예제 값:** 16.0.7766.2047 | &bull;버전 문자열을 구문 분석할 수 없습니다. <br/>&bull;값이 보고 되지 않았습니다.   |
 | 두 번째 클라이언트 앱 버전  | 문자열  | 두 번째 끝점에 사용 되는 응용 프로그램 버전입니다. 데이터는 사용자 에이전트 문자열에서 구문 분석 됩니다. <br/> **예제 값:** 16.0.7766.2047 | &bull;버전 문자열을 구문 분석할 수 없습니다. <br/>&bull;값이 보고 되지 않았습니다. |
-|모임 Id (cqd.teams.microsoft.com) <br/> 전화 회의 ID (cqd.lync.com) |문자열 |모임이 생성 될 때 생성 된 모임의 식별자입니다. <br/> **예제 값 (비즈니스용 Skype):** 0001p6gk  <br/> **예제 값 (팀):** 19: meeting_MzB zIw@thread. v2| |
+|모임 Id |문자열 |모임이 생성 될 때 생성 된 모임의 식별자입니다.  <br/> **예제 값:** 19: meeting_MzB zIw@thread. v2| |
 |**네트워크**||| 
 | 운송  | 열거할 <br/>**사용할 수 있는 값:** <br/>&bull;UDP <br/>&bull;NET.TCP <br/>&bull;않음  | Stream에서 사용 하는 네트워크 전송 유형입니다.  인식할 수 없음은 전송 유형이 TCP 또는 UDP 인지 여부를 시스템에서 확인할 수 없음을 나타냅니다.  | &bull;전송 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다.  |
 | 첫 번째 연결 Ice  | 열거할 <br/>**사용할 수 있는 값:** <br/>&bull;DIRECT = 직접 네트워크 경로 <br/>&bull;릴레이 = 릴레이 <br/>&bull;Http = HTTP 프록시를 통해 <br/>&bull;실패 = 연결 실패 | 첫 번째 끝점에서 사용 하는 ICE 연결 유형입니다.  |&bull;전송 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다.   |

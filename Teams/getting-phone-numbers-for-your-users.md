@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '팀에 대해 새, 포트 또는 기존 번호를 전송 하는 방법과 사용자에 게 변경 내용을 표시 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 45c0b87d8e208913b9be0d231a8e2ae2e0ebfd5a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ccc0baa1f4793967daa9520de1c9aaa9b56175ba
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691434"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372077"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -34,7 +34,7 @@ ms.locfileid: "44691434"
 다음과 같은 세 가지 방법으로 사용자 번호를 얻을 수 있습니다.
 
 - **Microsoft 팀 관리 센터를 사용 합니다.** 일부 국가 및 지역의 경우 Microsoft 팀 관리 센터를 사용 하 여 사용자에 대 한 번호를 얻을 수 있습니다. [사용자의 새 전화 번호 받기를](#get-new-phone-numbers-for-your-users)참조 하세요.
-    
+
 - **기존 서비스 전화 번호 포팅하기** 현재 서비스 공급자 또는 전화 통신 회사에서 기존 번호를 이식 하거나 전송할 수 있습니다. 이 작업을 수행하는 데 도움이 되는 자세한 내용은 [Teams로 전화 번호 이전](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 또는 [조직에 대한 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)를 참조하세요.  
   
 - **새 전화 번호를 위한 요청 양식 사용하기** 때로는 (국가 또는 지역에 따라) Microsoft 팀 관리 센터를 사용 하 여 새 전화 번호를 받을 수 없으며 특정 전화 번호 또는 지역 코드가 필요 합니다. 자세한 내용은 [조직에서 전화번호 관리하기](/microsoftteams/manage-phone-numbers-for-your-organization)를 참조하세요.
@@ -46,14 +46,16 @@ ms.locfileid: "44691434"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 의 Microsoft 팀 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 합니다. 
+이러한 변경 작업을 수행 하려면 팀 서비스 관리자 여야 합니다. 팀 [관리 역할을 사용](https://docs.microsoft.com/microsoftteams/using-admin-roles) 하 여 관리자 역할 및 사용 권한 얻기에 대 한 정보를 읽어 보세요 .를 참조 하세요.
+
+1. Microsoft 팀 관리 센터로 이동 합니다.
 2. 왼쪽 탐색 창에서 **음성**  >  **전화 번호로**이동한 다음 **추가**를 클릭 합니다.
 3. 주문의 이름을 입력 하 고 설명을 추가 합니다.
 4. 위치 및 수량 페이지에서 다음을 수행 합니다.
     1. **국가 또는 지역**에서 국가 또는 지역을 선택 합니다.
     2. **숫자 형식**에서 **사용자 (구독자)** 를 선택 합니다.
     3. **위치**에서 위치를 선택 합니다. 새 위치를 만들어야 할 경우 **위치 추가**를 클릭 합니다.
-    4. **지역 번호**에서 지역 번호를 선택 합니다. 
+    4. **지역 번호**에서 지역 번호를 선택 합니다.
     5. **수량**에서 조직에 사용할 숫자의 개수를 입력 하 고 **다음** 을 클릭 하 여 번호를 선택 합니다.
 5. 원하는 숫자를 선택 합니다. 전화 번호를 선택 하 고 주문을 하는 데 10 분이 걸립니다. 10 분 이상 소요 되는 경우 전화 번호는 숫자의 풀로 반환 됩니다.
 6. 주문을 추가할 준비가 되 면 **주문을**클릭 합니다.
@@ -69,9 +71,9 @@ ms.locfileid: "44691434"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>조직의 전화 번호 보기
 
-![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용** 
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a>의 왼쪽 탐색 창에서 **음성**  >  **전화 번호로** 이동 하 여 위치, 번호 형식, 상태 정보를 비롯 한 조직의 번호를 확인 합니다.
+관리 센터의 왼쪽 탐색 창에서 **음성**  >  **전화 번호로** 이동 하 여 위치, 번호 형식, 상태 정보를 비롯 한 조직의 번호를 확인 합니다.
   
 ## <a name="assign-phone-numbers-to-users"></a>사용자에게 전화번호 할당
 

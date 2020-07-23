@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 6a30843070adc8da14343ad2dc94730a750e1f31
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 0e87b5eadd358bb4c7e13f2948b180d2f7bfff81
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201222"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45371987"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -38,7 +38,9 @@ ms.locfileid: "45201222"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> 합니다.
+이러한 변경 작업을 수행 하려면 팀 서비스 관리자 여야 합니다. 팀 [관리 역할을 사용](https://docs.microsoft.com/microsoftteams/using-admin-roles) 하 여 관리자 역할 및 사용 권한 얻기에 대 한 정보를 읽어 보세요 .를 참조 하세요.
+
+1. 관리 센터로 이동 합니다.
 
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
 
@@ -65,7 +67,7 @@ ms.locfileid: "45201222"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터로</a>이동 합니다.
+1. 관리 센터로 이동 합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
 3. **전자 메일 초대장**에서 다음을 수행합니다.
 
@@ -89,7 +91,7 @@ QoS (서비스 품질)를 사용 하 여 네트워크 트래픽의 우선 순위
 > 팀 서비스에 대 한 Microsoft 팀 관리 센터에서 QoS를 사용 하도록 설정 하거나 설정을 변경 하는 경우 팀에서 QoS에 대 한 변경 내용을 완전히 구현 하려면 [모든 사용자 장치](QoS-in-Teams-clients.md) 및 내부 네트워크 장치에 일치 하는 설정을 적용 해야 할 수도 있습니다.
 
  ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터로</a>이동 합니다.
+1. 관리 센터로 이동 합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
 3. **네트워크**에서 다음을 수행합니다.
 

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 다음 단계에 따라 호출자가 Microsoft 팀 모임에 참가 하는 데 사용할 기본 전화 번호를 만듭니다.
-ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 7dd59950403543074d8428d35270ab963ca824e3
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021766"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372187"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsoft 팀의 초대에 포함 된 전화 번호 설정
 
@@ -36,7 +36,7 @@ Microsoft 365 및 Office 365의 오디오 회의를 통해 조직의 사용자�
 회의 브리지는 조직의 전화 접속 전화 번호 집합을 제공 합니다. 이 모든 항목은 모임 이끌이가 만든 모임에 참가 하는 데 사용할 수 있지만 모임 초대에 포함 될 모임을 선택할 수 있습니다.
   
 > [!NOTE]
-> 모임 주최자에 대 한 모임 초대에는 최대 1 명의 유료 전화 번호와 한 명 이상의 무료 전화번호가 있을 수 있지만, 모임 참가에 사용할 수 있는 모든 전화 접속 전화 번호의 전체 목록을 여는 링크가 각 모임 초대의 맨 아래에 있는 링크 이기도 합니다. 
+> 모임 주최자에 대 한 모임 초대에는 최대 1 명의 유료 전화 번호와 한 명 이상의 무료 전화번호가 있을 수 있지만, 모임 참가에 사용할 수 있는 모든 전화 접속 전화 번호의 전체 목록을 여는 링크가 각 모임 초대의 맨 아래에 있는 링크 이기도 합니다.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -53,7 +53,7 @@ Microsoft 365 및 Office 365의 오디오 회의를 통해 조직의 사용자�
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-이러한 변경 작업을 수행 하려면 관리자 여야 합니다.
+이러한 변경 작업을 수행 하려면 팀 서비스 관리자 여야 합니다. 팀 [관리 역할을 사용](https://docs.microsoft.com/microsoftteams/using-admin-roles) 하 여 관리자 역할 및 사용 권한 얻기에 대 한 정보를 읽어 보세요 .를 참조 하세요.
 
 1. Microsoft 팀 관리 센터에 로그인 합니다.
 
@@ -63,27 +63,25 @@ Microsoft 365 및 Office 365의 오디오 회의를 통해 조직의 사용자�
 
 3. 사용 가능한 사용자 목록에서 사용자 이름을 클릭 합니다.
 
-4. **오디오 회의**옆에 있는 **편집**을 클릭 합니다. 
-    
+4. **오디오 회의**옆에 있는 **편집**을 클릭 합니다.
+
     ![오디오 회의 옆에 있는 편집 클릭](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. **유료** 번호 또는 **수신자 부담 번호** 필드를 사용 하 여 사용자의 번호를 입력 합니다.
 
-
 > [!IMPORTANT]
-> 사용자의 오디오 회의 설정을 변경 하는 경우에는 되풀이 및 향후 Microsoft 팀 모임을 업데이트 하 고 참석자에 게 보내야 합니다. 
+> 사용자의 오디오 회의 설정을 변경 하는 경우에는 되풀이 및 향후 Microsoft 팀 모임을 업데이트 하 고 참석자에 게 보내야 합니다.
 
-## <a name="want-to-use-windows-powershell"></a>Windows PowerShell을 사용 하 고 싶으신가요?
+## <a name="want-to-use-windows-powershell"></a>Windows PowerShell을 사용 하려는 경우
 
 Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
-    
-  - [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요. 
+
+- [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+
+- [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+
+Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
   
-    
 ## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

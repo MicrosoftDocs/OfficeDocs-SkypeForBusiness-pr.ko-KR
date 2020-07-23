@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e17f27cdbaaca9070d87714b58906df96539e12e
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086194"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372197"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 ===========================================
@@ -40,9 +40,9 @@ ms.locfileid: "45086194"
 
 ## <a name="archive-a-team"></a>팀 보관하기
 
-팀을 보관하려면 다음 단계를 따르세요.
+팀을 보관하려면 다음 단계를 따르세요. 이러한 변경 작업을 수행 하려면 팀 서비스 관리자 여야 합니다. 팀 [관리 역할을 사용](https://docs.microsoft.com/microsoftteams/using-admin-roles) 하 여 관리자 역할 및 사용 권한 얻기에 대 한 정보를 읽어 보세요 .를 참조 하세요.
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> **팀**을 선택 합니다.
+1. 관리 센터에서 **팀**을 선택 합니다.
 2. 팀 이름을 클릭하여 팀을 선택합니다.
 3. **보관**을 선택합니다. 다음 메시지가 표시됩니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "45086194"
 
 보관된 팀을 다시 활성화하려면 다음 단계를 따르세요.
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a>에서 **팀**을 선택 합니다.
+1. 관리 센터에서 **팀**을 선택 합니다.
 2. 팀 이름을 클릭하여 팀을 선택합니다.
 3. **보관 취소**를 선택합니다. 팀의 상태가 **활성**으로 변경됩니다.
 
@@ -63,7 +63,7 @@ ms.locfileid: "45086194"
 
 나중에 팀이 필요하지 않은 경우에는 팀을 보관하지 않고 삭제할 수 있습니다. 팀을 삭제하려면 다음 단계를 따르세요.
 
-1.  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a>에서 **팀**을 선택 합니다.
+1.  관리 센터에서 **팀**을 선택 합니다.
 2.  팀 이름을 클릭하여 팀을 선택합니다.
 3.  **삭제**를 선택합니다. 확인 메시지가 표시됩니다.
 4.  팀을 영구적으로 삭제하려면 **삭제**를 선택합니다.
@@ -79,7 +79,7 @@ ms.locfileid: "45086194"
 1. 관리자 권한으로 Windows PowerShell을 엽니다.
 2. 이전 버전의 AzureADPreview 모듈 또는 AzureAD module이 설치되어 있는 경우 다음 중 하나를 실행하여 제거합니다.
 
-    ```PowerShell 
+    ```PowerShell
     Uninstall-Module AzureADPreview
     ```
 
@@ -90,7 +90,7 @@ ms.locfileid: "45086194"
 
     ```PowerShell
     Install-Module AzureADPreview
-    ```    
+    ```
 
 ### <a name="restore-the-deleted-microsoft-365-group"></a>삭제 된 Microsoft 365 그룹 복원
 
@@ -102,7 +102,7 @@ ms.locfileid: "45086194"
 2. 다음을 실행 하 여 30 일 보존 기간 내에 있는 모든 일시 삭제 된 Microsoft 365 그룹의 목록을 표시 합니다. 그룹이 많이 있는 경우 **-All $True** 매개 변수를 사용합니다.
     ```PowerShell
     Get-AzureADMSDeletedGroup
-    ``` 
+    ```
 3. 복원하려는 그룹을 찾은 다음 해당 Id를 기록해 둡니다.
 4. 다음을 실행하여 해당 그룹을 복원합니다. 여기서 [Id]는 그룹 Id입니다.
     ```PowerShell

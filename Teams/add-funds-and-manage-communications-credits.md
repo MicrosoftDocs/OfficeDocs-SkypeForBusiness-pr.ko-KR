@@ -29,27 +29,27 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '비즈니스용 Skype 서비스용 통신 크레딧 (PSTN 소비)을 지불 하는 방법과 사용자에 게 지속적인 전화 시스템 액세스를 유지 하는 계획을 확인 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ad8122ba0b915c669ec991d1b522b853e7b85533
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610285"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229104"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>자금 추가 및 커뮤니케이션 크레딧 관리
 
 통신 제작진은 Microsoft 365 또는 Office 365에서 전화 시스템 및 통화 요금제에 대해 비용을 지불 하는 편리한 방법입니다. 의사 소통 크레딧을 사용 하면 사용자와 귀하는 다음을 수행할 수 없을 때까지 귀하의 의견을 받지 않게 됩니다.
   
 - 무료 전화 접속 전화 번호를 사용 하 여 오디오 회의 모임에 전화를 걸 수 있습니다.
-    
+
 - 오디오 회의 모임에서 전화를 걸어 전세계 어느 곳에도 다른 사람을 추가할 수 있습니다.
-    
+
 - 비즈니스용 Skype 또는 Microsoft 팀 앱이 설치 된 휴대 전화로 오디오 회의를 통해 전화를 걸어 보세요.
-    
+
 - **국내 통화 요금제**를 사용 하 고 있는 경우 국제 전화 번호로 전화를 걸어 보세요.
-    
+
 - 월간 통화 시간을 모두 사용 하 여 전화를 걸고 분당 요금을 지불 합니다.
-    
+
 > [!NOTE]
 > 얼마나 저렴 하 고 급여가 얼마나 되는지 궁금 하다 면 [통화 요금제](https://go.microsoft.com/fwlink/p/?LinkId=799523) 페이지의 비용 표를 참조 하세요.
   
@@ -62,31 +62,29 @@ ms.locfileid: "44610285"
 결제는 서비스를 사용 하는 경우 Microsoft에서 게시 한 요금으로 통신 크레딧에만 적용 됩니다. 12 개월 이내에 사용 되지 않은 자금은 모두 만료 되 고 forfeited 됩니다.
   
 > [!TIP]
-> 자동 충전을 통해 자금을 추가할 때, 자동 충전에 실패 하는 경우 (예: 신용 카드 만료), 잔액이 0 미만으로 떨어질 때 전자 메일 알림을 보냅니다. 
+> 자동 충전을 통해 자금을 추가할 때, 자동 충전에 실패 하는 경우 (예: 신용 카드 만료), 잔액이 0 미만으로 떨어질 때 전자 메일 알림을 보냅니다.
   
 자세한 내용은 [통신 크레딧을 소개 하는](what-are-communications-credits.md) 항목을 참조 하세요.
   
-## <a name="want-to-know-about-plans-and-pricing"></a>요금제 및 가격에 대해 알고 싶으세요?
+## <a name="want-to-know-about-plans-and-pricing"></a>요금제 및 가격에 대해 알아야 할 내용
 
 다음 링크 중 하나를 방문 하 여 요금제 및 가격을 확인할 수 있습니다.
   
 - [통화 플랜](https://go.microsoft.com/fwlink/?LinkId=799761 )
-    
+
 - [오디오 회의 계획](https://go.microsoft.com/fwlink/?LinkId=799762 )
-    
+
 - [전화 시스템 요금제](https://go.microsoft.com/fwlink/?LinkId=799763)
-    
-[Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 여 정보를 볼 수 있으며, **결제**플랜으로 진행 하 여  >  **Subscriptions**  >  **구독을 추가할**수도 있습니다.
+
+Microsoft 365 관리 센터에 로그인 하 여 정보를 볼 수 있으며, **결제**플랜으로 진행 하 여  >  **Subscriptions**  >  **구독을 추가할**수도 있습니다.
   
 각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
 ## <a name="related-topics"></a>관련 항목
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
-    
+
 - [클라우드 음성 메일 설정 - 관리자 도움말](set-up-phone-system-voicemail.md)
-    
+
 - [Microsoft 365 또는 Office 365에 대 한](calling-plans-for-office-365.md) [통화 계획](set-up-calling-plans.md) 및 통화 계획 설정
-        
- 
- 
+

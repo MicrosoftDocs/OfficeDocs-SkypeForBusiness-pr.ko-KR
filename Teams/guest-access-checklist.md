@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: d38b0adf1a342c4398d2779e2f0b5ec3aa310144
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201052"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372007"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 게스트 액세스 검사 목록
 =========================================
@@ -31,7 +31,7 @@ ms.locfileid: "45201052"
 이 검사 목록을 사용하여 Microsoft Teams에서 게스트 액세스를 설정하고 구성할 수 있습니다. 이렇게 변경하려면 사용자가 전역 관리자 또는 Teams 관리자여야 합니다.
 
 > [!IMPORTANT]
-> 변경 내용이 적용 되려면 몇 시간 정도 기다려야 할 수 있습니다. 
+> 변경 내용이 적용 되려면 몇 시간 정도 기다려야 할 수 있습니다.
 
 이 짧은 비디오(5분 31초)를 시청하여 Teams와 같은 Microsoft 365를 통해 게스트 액세스를 설정하는 방법에 대해 알아보세요.
 
@@ -39,7 +39,7 @@ ms.locfileid: "45201052"
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>1단계: 조직 전체 수준에서 게스트 액세스 설정
 
-게스트 액세스를 설정 하려면 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 합니다. 
+이러한 변경 작업을 수행 하려면 팀 서비스 관리자 여야 합니다. 팀 [관리 역할을 사용](https://docs.microsoft.com/microsoftteams/using-admin-roles) 하 여 관리자 역할 및 사용 권한 얻기에 대 한 정보를 읽어 보세요 .를 참조 하세요.
 
 1. Teams 관리 센터에서 **조직 전체 설정** > **게스트 액세스**를 선택합니다.
 2. **Microsoft Teams에서 게스트 액세스 허용** 스위치를 **켬**으로 설정합니다.
@@ -73,7 +73,7 @@ ms.locfileid: "45201052"
      - **공동 작업 제한 사항**: 특정 도메인에 대한 초대를 허용하거나 차단하는 방법에 대한 자세한 내용은 [특정 조직에서 B2B 사용자에 대한 초대 허용 또는 차단](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)을 참조하세요.
         > [!NOTE]
         > 공동 작업 제한 사항에 대한 자세한 내용은 [B2B 외부 공동 작업 사용 및 게스트를 초대할 수 있는 사용자 관리](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)를 참조하세요.
-      
+
     게스트를 초대할 수 있는 사용자를 제어하는 방법에 대한 자세한 내용은 [Azure Active Directory B2B 공동 작업에 대한 초대 위임](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)을 참조합니다.
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>3 단계: Microsoft 365 그룹 구성
@@ -88,18 +88,18 @@ ms.locfileid: "45201052"
 
 이러한 설정을 구성 하는 방법에 대 한 자세한 지침은 [microsoft 365 그룹에서 게스트 액세스 관리](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) 및 [microsoft 365 그룹의 게스트 액세스 제어](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups)를 참조 하세요.
 
-## <a name="step-4-configure-sharing-in-microsoft-365"></a>4 단계: Microsoft 365에서 공유 구성 
+## <a name="step-4-configure-sharing-in-microsoft-365"></a>4 단계: Microsoft 365에서 공유 구성
 
 사용자가 게스트를 추가할 수 있는지 확인합니다. 방법은 다음과 같습니다.
 
 1. Microsoft 365 관리 센터에서 **설정**  >  **조직 설정**으로 이동 하 여 **보안 & 개인 정보**를 클릭 한 다음 **공유**를 선택 합니다.
 
      ![서비스 설정의 예를 보여주는 스크린샷](media/guest-access-checklist-security-privacy-settings.png)
- 
+
 2. **사용자가 이 조직에 새 게스트를 추가하도록 허용** 확인란을 선택한 다음 **변경 내용 저장**을 클릭합니다.
 
      ![공유 설정 토글의 예를 보여주는 스크린샷](media/guest-access-checklist-sharing-setting.png)
- 
+
     > [!NOTE]
     > 이 설정은 Azure AD의 **사용자 설정** > **외부 사용자**에 있는 **구성원 초대 허용** 설정과 동일합니다.  
 

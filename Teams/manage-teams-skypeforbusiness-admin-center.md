@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f30db1425c61e8cb5f916345c0b751bc81c90a0f
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0dc4e9a4c223422ab743e657d808f5de0f3239e7
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637427"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228894"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 ======================================================
@@ -34,9 +34,9 @@ ms.locfileid: "44637427"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>새로운 Microsoft 팀 관리 센터는 무엇 인가요?  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>새로운 Microsoft 팀 관리 센터 소개  
 
-새로운 관리 센터 환경은 팀과 비즈니스용 Skype를 모두 관리할 수 있는 통일 된 환경을 제공 합니다. 추가 기능, 종단 간 insights, 사용자 수준에서 팀 설정을 관리 하는 기능을 제공 하는 것입니다. 의 관리 센터에 액세스할 수 있습니다 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+새로운 관리 센터 환경은 팀과 비즈니스용 Skype를 모두 관리할 수 있는 통일 된 환경을 제공 합니다. 추가 기능, 종단 간 insights, 사용자 수준에서 팀 설정을 관리 하는 기능을 제공 하는 것입니다.
 
 ![Microsoft 팀 관리 센터의 스크린샷.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -84,15 +84,15 @@ ms.locfileid: "44637427"
 
 - 사용자가 [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)의 사용자 수준에서 관리할 수 있는 앱을 테스트용으로 로드 수 있도록 허용 합니다.
 - 테 넌 트에서 사용자가 조직 전체 앱 설정의 테 넌 트 수준에서 관리할 수 있는 사용자 지정 앱과 상호 작용할 수 있도록 허용 합니다.
- 
-<sup>3</sup> TeamsAppPermissionPolicy의 사용자 수준에서 기본 앱 및 외부 앱을 사용 하도록 설정 하거나 사용 하지 않도록 설정할 수 있습니다. 또한 사용자 및 테 넌 트 수준 설정을 재정의 하는 조직 전체 앱 설정에서 테 넌 트 수준에서 앱을 차단할 수 있습니다. 
+
+<sup>3</sup> TeamsAppPermissionPolicy의 사용자 수준에서 기본 앱 및 외부 앱을 사용 하도록 설정 하거나 사용 하지 않도록 설정할 수 있습니다. 또한 사용자 및 테 넌 트 수준 설정을 재정의 하는 조직 전체 앱 설정에서 테 넌 트 수준에서 앱을 차단할 수 있습니다.
 
 > [!NOTE]
-> 팀 및 채널과 관련 된 구성의 경우 Microsoft 365 관리 센터에서 그룹 대시보드를 계속 사용 합니다. 앱에 대 한 설정은 Microsoft 365 관리 센터의 팀 영역에 유지 되 고 나중에 마이그레이션됩니다. 
+> 팀 및 채널과 관련 된 구성의 경우 Microsoft 365 관리 센터에서 그룹 대시보드를 계속 사용 합니다. 앱에 대 한 설정은 Microsoft 365 관리 센터의 팀 영역에 유지 되 고 나중에 마이그레이션됩니다.
 
 ## <a name="manage-settings-during-the-migration"></a>마이그레이션 중 설정 관리
 
-테 넌 트에 대해 섹션의 마이그레이션이 완료 될 때까지 Microsoft 365 관리 센터 및 비즈니스용 Skype 관리 센터에서 설정을 계속 수정할 수 있습니다. 
+테 넌 트에 대해 섹션의 마이그레이션이 완료 될 때까지 Microsoft 365 관리 센터 및 비즈니스용 Skype 관리 센터에서 설정을 계속 수정할 수 있습니다.
 
 다음 표에서는 마이그레이션 중에 기능을 관리할 수 있는 위치를 보여 줍니다.
 
@@ -104,7 +104,7 @@ ms.locfileid: "44637427"
 |팀 수명 주기 관리   |    X    |      |       |
 |팀 설정   |    X    |      |       |
 |외부 액세스 설정     |    X    |      |       |
-|사용자 관리    |         |         |    X     |    
+|사용자 관리    |         |         |    X     |
 |오디오 회의     |    X     |    X     |         |
 |통화 요금제     |    X    |    X     |         |
 |전화 시스템    |    X    |     X    |         |

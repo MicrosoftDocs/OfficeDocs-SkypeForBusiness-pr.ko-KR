@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f800b92a0663b5c4318022c00cbb9ba022f2e8c3
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7ae1776cf57368ea0f18cb6b0e46e5a11dffe447
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085684"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228904"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft 팀의 앱에 대 한 관리자 설정
 ==========================================
@@ -34,7 +34,7 @@ ms.locfileid: "45085684"
 
 앱은 조직의 다양 한 도구를 제공 하 여 팀을 최대한 활용할 수 있습니다. 이러한 앱은 Microsoft에서 제공 하는 제 3 자, 메시징 확장, 커넥터, 인공 지능 기능을 기반으로 하거나 조직의 개발자가 만듭니다.
 
-[관리 센터](https://admin.teams.microsoft.com/)의 **팀 앱** 에서 조직의 앱을 관리 합니다. 예를 들어 조직 수준에서 앱을 허용 하거나 차단 하 고, 팀 사용자가 사용할 수 있는 앱을 제어 하는 정책을 설정 하 고, 사용자에 게 가장 중요 한 앱을 고정 하 여 팀을 사용자 지정할 수 있습니다.
+관리 센터의 **팀 앱** 에서 조직의 앱을 관리 합니다. (팀 [관리자 역할을 사용 하 여 팀 관리에서](https://docs.microsoft.com/microsoftteams/using-admin-roles) 관리자 역할 및 사용 권한 가져오기를 참조 하세요.) 예를 들어 조직 수준에서 앱을 허용 하거나 차단 하 고, 팀 사용자가 사용할 수 있는 앱을 제어 하는 정책을 설정 하 고, 사용자에 게 가장 중요 한 앱을 고정 하 여 팀을 사용자 지정할 수 있습니다.
 
 팀에서 앱 환경을 지속적으로 개선 하 고 기능 및 기능을 추가 합니다. 시간이 지남에 따라 추가 앱 관리 기능을 구축 하 게 되므로 앱 정책에 대 한 최신 정보를 다시 확인 하세요.
 
