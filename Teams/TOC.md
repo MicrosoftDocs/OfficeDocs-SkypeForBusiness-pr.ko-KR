@@ -132,6 +132,38 @@
 # 모 및 회의
 ## [빠른 시작 - 모임 및 라이브 이벤트](quick-start-meetings-live-events.md)
 ## [배포 계획](deploy-meetings-microsoft-teams-landing-page.md)
+## Microsoft Teams 룸
+### [개요](rooms/index.md)
+### 계획
+#### [Microsoft Teams 룸 계획의 개요](rooms/rooms-plan.md)
+#### [버전 지원](rooms/rooms-lifecycle-support.md)
+#### [릴리스 정보](rooms/rooms-release-note.md)
+#### [작업 환경 준비](rooms/rooms-prep.md)
+#### [요구 사항](rooms/requirements.md)
+#### [온라인 라이선싱](rooms/rooms-licensing.md)
+#### [Azure 모니터를 이용한 계획 관리](rooms/azure-monitor-plan.md)
+#### [Microsoft Teams 룸 프리미엄을 사용하여 관리 계획](rooms/microsoft-teams-rooms-premium.md)
+### 배포
+#### [배포 개요](rooms/rooms-deploy.md)
+#### [계정 구성](rooms/rooms-configure-accounts.md)
+#### [Office 365를 사용하면](rooms/with-office-365.md)
+#### [비즈니스용 Skype 서버를 사용하면](rooms/with-skype-for-business-server-2015.md)
+#### [Exchange Online (하이브리드)를 사용하면](rooms/with-exchange-online.md)
+#### [Exchange 온-프레미스 (하이브리드)를 사용 하면](rooms/with-exchange-on-premises.md)
+#### [콘솔 구성](rooms/console.md)
+#### [인증 구성](rooms/rooms-authentication.md)
+#### [Microsoft Endpoint Configuration Manager 사용](rooms/rooms-scale.md)
+#### [Azure Monitor를 이용한 관리](rooms/azure-monitor-deploy.md)
+#### [SRS v1 또는 LRS 마이그레이션](rooms/lrs-migration.md)
+#### [콘텐츠 카메라](rooms/content-camera.md)
+### 관리
+#### [관리 개요](rooms/rooms-manage.md)
+#### [유지 관리 및 운영](rooms/rooms-operations.md)
+#### [조직에서 Teams 지원](rooms/known-issues.md)
+#### [Azure 모니터를 이용하는 장치](rooms/azure-monitor-manage.md)
+#### [XML파일을 사용하여 설정](rooms/xml-config-file.md)
+#### [복구 도구 사용](rooms/recovery-tool.md)
+
 ## [자습서: Teams에서의 모임](Tutorial-Meetings-in-Teams.yml)
 ## [모임 정책 관리](meeting-policies-in-teams.md)
 ## [모임 설정 관리](meeting-settings-in-teams.md)
@@ -147,7 +179,6 @@
 ## [사용자의 전화 받기 기능 설정](set-up-the-call-me-feature-for-your-users.md)
 ## [모임 참석 보고서 받기](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [MMS(Meeting Migration Service) 설정](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams 룸](rooms/index.md)
 ## [Teams에서 화이트보드 관리](manage-whiteboard.md)
 
 
