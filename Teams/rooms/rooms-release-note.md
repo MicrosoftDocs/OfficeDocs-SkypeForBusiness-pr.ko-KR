@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 microsoft 팀 대화방에 대 한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 2975d384fd0d09b36e18802dbede4e8ec7dc721b
+ms.sourcegitcommit: f1834bb47452007480269b5a5cdad20037c32ef6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201182"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45390118"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -29,7 +29,7 @@ ms.locfileid: "45201182"
 
 |제품 |게시 대상 <br/> Microsoft Store |
 |--- |--- |
-|4.5.33.0 |07/20/2020 |
+|4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -66,20 +66,25 @@ ms.locfileid: "45201182"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 팀 대화방 기능 소개 및 문제 해결
 
-### <a name="45330-07202020"></a>4.5.33.0 (07/20/2020)
+### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
+
 이 업데이트에 도입 된 내용:
-- 팀 대화방에서 직접 게스트 참가를 사용 하 여 Cisco Webex 모임 참가
+
+- 팀 대화방에서 직접 게스트 참가를 사용 하 여 Cisco WebEx 모임 참가
 - 팀 관리 센터 기능 및 자동 등록
 - Windows 10 1909 릴리스 지원
 - 콘텐츠가 있는 경우에도 비디오 갤러리 레이아웃으로 전환
 - 가상에서 발표자를 위해 참석자 및 컨트롤에 대 한 핸 즈 지원을 높입니다.
 - 회의 및 기본 스피커의 조정할 수 있는 기본 볼륨 설정
 - 팀 대화방에서 페더레이션 사용자 (테 넌 트) 검색 및 호출
-    
+
+> [!IMPORTANT]
+> Windows 10 버전 1803를 지원 하기 위해 버전 4.5이 마지막 릴리스 되었습니다. 향후 릴리스는 Windows 10 버전 1803의 시스템에는 제공 되지 않습니다. Windows 버전 지원에 대 한 자세한 내용은 [windows 10 릴리스 지원을](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)참조 하세요.
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
 이 업데이트에 도입 된 내용:
+
 - 품질 및 안정성 수정
 - "4.4.41.0 업데이트 후 응용 프로그램이 실행 되지 않음" 문제에 대 한 해결 방법
 
@@ -89,6 +94,7 @@ ms.locfileid: "45201182"
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 
 이 업데이트에 도입 된 내용:
+
 - Windows 10 Kiosk의 응용 프로그램 시작에 대 한 안정성 수정
 
 ### <a name="44250-03312020"></a>4.4.25.0 (03/31/2020)

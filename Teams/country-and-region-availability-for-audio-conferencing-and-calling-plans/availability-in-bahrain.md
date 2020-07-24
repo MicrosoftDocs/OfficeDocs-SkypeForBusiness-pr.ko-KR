@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 바레인에서 사용할 수 있는 Microsoft 팀을 위한 Microsoft 365 및 Office 365 서비스입니다.
-ms.openlocfilehash: 5d3dbac85646384eb2491c05797235d212450382
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 2b87e6545d8c24215f9d61c6b2f75ade95fa3266
+ms.sourcegitcommit: ca2faa1cd2b078e8d0389b5d2f49bfe6ddbcb9f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231217"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391626"
 ---
 # <a name="availability-in-bahrain"></a>바레인의 가용성
 
@@ -71,7 +71,7 @@ ms.locfileid: "44231217"
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |Manama  <br/> |
-|유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
+|유료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
  오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.
