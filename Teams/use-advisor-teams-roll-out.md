@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Advisor for Teams(공개 미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
-ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: e447c05fc19766d3e67d510af6fbd424dc4173e7
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868155"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201212"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -53,7 +53,7 @@ Teams용 어드바이저를 처음으로 사용하는 경우 Teams에서 사용�
 
 ## <a name="available-advisor-for-teams-plans"></a>사용 가능한 Teams용 어드바이저 계획
 
-Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같은 두 가지 플랜이 제공됩니다.
+Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같은 플랜이 제공됩니다.
 
 1. 채팅, 팀, 채널 및 앱
     - 테넌트 평가
