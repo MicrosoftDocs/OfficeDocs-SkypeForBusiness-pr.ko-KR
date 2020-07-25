@@ -152,6 +152,7 @@
 #### [Exchange 온-프레미스 (하이브리드)를 사용 하면](rooms/with-exchange-on-premises.md)
 #### [콘솔 구성](rooms/console.md)
 #### [인증 구성](rooms/rooms-authentication.md)
+#### [타사 모임 참가](rooms/third-party-join.md)
 #### [Microsoft Endpoint Configuration Manager 사용](rooms/rooms-scale.md)
 #### [Azure Monitor를 이용한 관리](rooms/azure-monitor-deploy.md)
 #### [SRS v1 또는 LRS 마이그레이션](rooms/lrs-migration.md)
