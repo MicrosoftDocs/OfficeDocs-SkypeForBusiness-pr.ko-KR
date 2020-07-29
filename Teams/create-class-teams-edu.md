@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e8b8e8605b5e4f916389109cb611996aa90a895
-ms.sourcegitcommit: 34a30c2c9a8e32bfcb382c3e6e7237f277ec361d
+ms.openlocfilehash: e85ef79247bdf35c3c116504af23728a0d268ca5
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45206772"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429330"
 ---
 # <a name="recommended-methods-and-best-practices-for-creating-class-teams"></a>수업 팀 만들기 권장 방법과 모범 사례
 
@@ -60,17 +60,17 @@ ms.locfileid: "45206772"
 
 ### <a name="considerations"></a>고려 사항
 
-SDS는 2단계로 팀을 만듭니다. 첫 번째 단계에서는 Azure AD(Azure Active Directory)에 Microsoft 365 그룹을 만들고 두 번째 단계에서 자동으로 해당 그룹을 팀으로 변환합니다. 팀 만들기의 두 번째 단계는 SDS에서 선택 사항입니다. 배포 시간 및 발생할 수 있는 사용하지 않은 팀 수에 따라 관리자는 자동으로 팀을 만들려고 하지 않을 수 있습니다. 팀이 50만 개 이상인 기관은 SDS에서 자동 팀 만들기를 해제하고 [교사 주도 팀 만들기 방법](#teacher-led-team-creation-from-office-365-class-groups)을 사용하는 것을 권장합니다.  
+SDS는 2단계로 팀을 만듭니다. 첫 번째 단계에서는 Azure AD(Azure Active Directory)에 Microsoft 365 그룹을 만들고 두 번째 단계에서 자동으로 해당 그룹을 팀으로 변환합니다. 팀 만들기의 두 번째 단계는 SDS에서 선택 사항입니다. 배포 시간 및 발생할 수 있는 사용하지 않은 팀 수에 따라 관리자는 자동으로 팀을 만들려고 하지 않을 수 있습니다. 팀이 50만 개 이상인 기관은 SDS에서 자동 팀 만들기를 해제하고 [교육자 주도 팀 만들기 방법](#educator-led-team-creation-from-office-365-class-groups)을 사용하는 것을 권장합니다.  
 
 ### <a name="get-started"></a>시작하기
 
 시작하려면 [SDS(School Data Sync)](https://docs.microsoft.com/SchoolDataSync)로 이동하여 [https://aka.ms/sdssupport](https://aka.ms/sdssupport)배포 지원에 문의하세요.  
 
-## <a name="teacher-led-team-creation-from-office-365-class-groups"></a>Office 365 클래스 그룹에서 교사 주도 팀 만들기
+## <a name="educator-led-team-creation-from-office-365-class-groups"></a>Office 365 클래스 그룹에서 교육자 주도 팀 만들기
 
 **이 기능은 2020년 8월 말에 제공될 예정입니다.**
 
-교사 주도 팀 만들기는 교사에게 필요한 수업을 신속하게 만들 수 있도록 해주는 훌륭한 배포 옵션입니다. 또한 팀이 50만 개 이상인 기관은 이 방법을 사용하여 관련 없는 팀의 수를 최소화하는 것을 권장합니다.  
+교육자 주도 팀 만들기는 교사가 필요한 수업을 신속하게 만들 수 있도록 해주는 훌륭한 배포 옵션입니다. 또한 팀이 50만 개 이상인 기관은 이 방법을 사용하여 관련 없는 팀의 수를 최소화하는 것을 권장합니다.  
 
 이 하이브리드 방법을 통해 SDS를 사용하여 각 수업에 대한 그룹을 만들거나(권장) [그래프 API](https://docs.microsoft.com/graph/api/educationroot-post-classes)를 사용하여 직접 파일을 만들 수 있습니다. 수업 그룹이 준비되면 교사는 **제안된 수업** 아이콘을 사용하여 그룹을 팀으로 변환할 수 있습니다.
 
@@ -108,7 +108,7 @@ SDS 방법을 사용해 시작하려면, [SDS(School Data Sync)](https://docs.mi
 그래프 API 방법을 사용하려면 [그래프 API](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-1.0&tabs=http) 및 [수업 팀 만들기](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http)를 참조하세요.  
 
 > [!NOTE]
-> SDS에 이 방법을 사용하려면 SDS 프로필에서 자동 팀 만들기를 설정/해제해야 합니다. 2개의 SDS 프로필을 사용하여 필수 및 선택 수업 팀에 대한 자동 및 교사 주도 팀 만들기를 함께 사용할 수도 있습니다.
+> SDS에 이 방법을 사용하려면 SDS 프로필에서 자동 팀 만들기를 설정/해제해야 합니다. 2개의 SDS 프로필을 사용하여 필수 및 선택 수업 팀에 대한 자동 및 교육자 주도 팀 만들기를 함께 사용할 수도 있습니다.
 
 ## <a name="powershell-script-using-graph-apis"></a>그래프 API를 사용하는 PowerShell 스크립트
 
@@ -147,6 +147,6 @@ PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구�
 ## <a name="recommended-best-practices"></a>권장 모범 사례
 
 - 조기 배포하세요! 조기 배포하여 개학 날을 위해 모든 작업이 안정적으로 준비되었는지 확인합니다. SDS를 사용하는 경우에는 SDS 배포를 시작하기 위해 전체 학생 등록을 하지 않아도 됩니다. 해당 정보를 SIS에서 사용할 수 있게 되면 학생들이 동기화됩니다.
-- 팀이 50만 개 이상인 경우 [교사 주도 팀 만들기 방법](#teacher-led-team-creation-from-office-365-class-groups)을 사용하는 것을 권장합니다. 관련이 있고 필요한 수업 팀만 만들어 사용되지 않는 팀을 줄여 혼란을 방지할 수 있습니다.  
-- SDS 자동 팀 만들기 및 교사에게 해당하는 문제가 있을 경우(예: 수업이 누락된 경우) [교사 주도 팀 만들기 방법](#teacher-led-team-creation-from-office-365-class-groups)을 사용하여 다시 시도할 수 있습니다. [수동 팀 만들기](#manual-team-creation)는 또 다른 솔루션이지만 팀 구성원의 업데이트는 유지되지 않습니다.  
+- 팀이 50만 개 이상인 경우 [교육자 주도 팀 만들기 방법](#educator-led-team-creation-from-office-365-class-groups)을 사용하는 것을 권장합니다. 관련이 있고 필요한 수업 팀만 만들어 사용되지 않는 팀을 줄여 혼란을 방지할 수 있습니다.  
+- SDS 자동 팀 만들기 및 교사에게 해당하는 문제가 있을 경우(예: 수업이 누락된 경우) [교육자 주도 팀 만들기 방법](#educator-led-team-creation-from-office-365-class-groups)을 사용하여 다시 시도할 수 있습니다. [수동 팀 만들기](#manual-team-creation)는 또 다른 솔루션이지만 팀 구성원의 업데이트는 유지되지 않습니다.  
 - 테넌트 팀 제한은 50만 개입니다. 따라서 관리자는 이러한 제한 팀 수에 도달하지 않고 설정 시간을 연장하지 않도록 사용하지 않는 팀 수를 사전에 줄여야 합니다. 제한에 대한 자세한 내용은 [Microsoft Teams의 제한 사항 및 사양](limits-specifications-teams.md)을 참조하세요.  
