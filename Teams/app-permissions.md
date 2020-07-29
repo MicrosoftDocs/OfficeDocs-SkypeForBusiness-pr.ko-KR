@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611017"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429370"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 팀 앱 사용 권한 및 고려 사항
 
@@ -59,7 +59,7 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 
 - 앱은 사용 약관 및 개인 정보 취급 방침 링크에서 사용 하는 데이터와 데이터를 공개 해야 합니다.
 
-- [리소스 관련 동의](resource-specific-consent.md) 는 앱이 요청할 수 있는 권한 집합을 제공 하며 앱의 설치 화면에 표시 됩니다. 리소스 관련 승인 권한에 대 한 자세한 내용은 [그래프 사용 권한 참조](https://docs.microsoft.com/graph/permissions-reference)를 참고 하세요.
+- [리소스 관련 동의](resource-specific-consent.md) 는 앱이 요청할 수 있는 권한 집합을 제공 하며 앱의 설치 화면에 표시 됩니다. 리소스 관련 승인 권한에 대 한 자세한 내용은 [그래프 사용 권한 참조](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)를 참고 하세요.
 
 - 앱에는 리소스 관련 승인 권한이 아닌 다른 권한도 필요할 수도 있습니다. 앱이 설치 되 면 승인 프롬프트를 통해 앱에서 그래프 권한을 요청할 수 있습니다. 자세한 내용은 [AZURE AD 응용 프로그램 승인 환경 이해](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)를 참조 하세요. Azure 포털에서 API 사용 권한과 승인을 구성할 수 있습니다. 자세한 정보는 [Azure Active Directory 동의 프레임 워크](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)를 참조 하세요.
 
@@ -117,7 +117,7 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 
 <sup>1</sup> 일부 봇만 메시지를 보냅니다 (POST_MESSAGE_USER). "알림 전용" 인공 지능 이라고 하는 데,이는 봇이 허용 되거나 허용 되지 않는 것을 의미 하지 않지만,이는 봇이 대화를 하는 것을 원하지 않습니다. 팀에서는이 필드를 사용 하 여 일반적으로 사용 되는 UI의 기능을 사용 하지 않도록 설정 합니다. 이 봇은 대화를 표시 하는 것과 비교 하 여 허용 되는 것으로 제한 되지 않습니다.
 
-<sup>2</sup> 앱에 대 한 manifest.xml 파일의 bot 개체에 대 한 Supportsfiles 부울 속성에 의해 관리 됩니다.
+<sup>2</sup> 앱의 파일에 대 한 manifest.js에서 bot 개체에 대 한 Supportsfiles 부울 속성에 의해 관리 됩니다.
 
 > [!NOTE]
 > 봇에 자체 로그인이 있으면 두 번째, 즉 사용자가 처음 로그인 할 때 동의 하는 환경이 제공 됩니다.

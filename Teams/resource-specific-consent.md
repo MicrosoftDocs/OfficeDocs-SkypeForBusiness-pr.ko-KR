@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54a0565f5126c899ed5fbf9527aa30f83c3bee3b
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 1ed13f1f85b0c7eccead3737c4549931f016284c
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256600"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429380"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft 팀의 자원 관련 승인
 
@@ -95,6 +95,7 @@ PowerShell을 사용 하 여이 설정을 관리할 수도 있습니다. 자세�
 
 ## <a name="related-topics"></a>관련 항목
 
+- [사용 가능한 RSC 권한](https://aka.ms/teams-rsc)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
 - [Microsoft 팀 관리 센터에서 앱 관리](manage-apps.md)
 - [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
