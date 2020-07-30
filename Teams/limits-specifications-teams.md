@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: c31a368c33c1e88cb97a67fb7fd2001e0168bf73
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146074"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506131"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -108,6 +108,9 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 또한 채널 이름은 밑줄(_) 또는 마침표(.)로 시작하거나 마침표(.)로 끝날 수 없습니다.
 
 ## <a name="meetings-and-calls"></a>모임 및 통화
+
+> [!IMPORTANT]
+> Microsoft 365 Live 이벤트에서 고객에게 더 좋은 지원을 제공 하도록 7월 1일까지 일시적인 기본 제한을 늘릴 것을 4월에 [발표](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) 했습니다. 고객의 요구를 충족 시키기 위해 일시적인 기본 제한을 2020년 10월 1일까지 확대 적용 할 예정입니다. Teams, Stream 및 Yammer의 Live 이벤트 운영팀은 최대 20,000 참석자, 16시간 동안 그리고 50개의 동시 이벤트까지 일시적인 지원을 계속할 것입니다. 또한 사용자가 [Microsoft Live 이벤트 지원 프로그램](https://resources.techcommunity.microsoft.com/live-events/assistance/)을 통해 라이브 이벤트를 준비하면 Stream에서 최대 100,000 참석자까지 호스트 할 수 있습니다.
 
 |기능     | 최대 한도 |
 |------------|---------------|
