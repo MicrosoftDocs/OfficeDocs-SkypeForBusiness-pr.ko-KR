@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD (통화 품질 대시보드) 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: 1647497cf2551a125e28d5a3920625bee15eca9f
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1c315dc0214ee0540ddce25fb8f0a1dc1794048f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138067"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506171"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 
@@ -124,7 +124,7 @@ Power BI를 사용 하는 데도 불구 하 고 CQD 데이터 모델 또는 일�
 
 6. **GCC (정부 커뮤니티 클라우드) 지원 –** GCC 환경에 거주 하는 고객의 경우 Power BI Desktop을 사용할 때 CQD Power BI Connector가 작동 합니다. CQD Power BI 커넥터는 현재 GCC 고객을 위한 Power BI 서비스와 호환 되지 않습니다.
 
-연결선은 미리 보기에 있지만 커넥터의 최종 릴리스에서는 변경 될 가능성이 적습니다. 이러한 문제는 대부분 Power BI의 DirectQuery 커넥터 디자인에 대 한 제한 사항 이거나 CQD 데이터 모델 디자인의 기본입니다.
+이러한 문제는 대부분 Power BI의 DirectQuery 커넥터 디자인에 대 한 제한 사항 이거나 CQD 데이터 모델 디자인의 기본입니다.
 
 ## <a name="troubleshooting"></a>문제 해결
 

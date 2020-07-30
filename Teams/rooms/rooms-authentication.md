@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Microsoft 팀 대화방에 대 한 최신 인증을 구성 하는 방법 알아보기
-ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 83aff70e43fa578330fe48e814b4e7b216c7f90f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666260"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506184"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft 팀 대화방의 인증
 
@@ -31,9 +31,9 @@ Microsoft 365 또는 Office 365에서 Microsoft 팀 회의실 장치를 사용 �
 
 ## <a name="modern-authentication"></a>최신 인증
 
-Microsoft 팀 대화방 응용 프로그램에서 최신 인증을 사용 하는 경우, Microsoft 팀, Exchange, 비즈니스용 Skype에 연결 하는 데 ADAL (Active Directory Authentication Library)을 사용 합니다. Microsoft 팀 대화방 장치는 공유 장치이 고 원활한 부팅을 수행 하 여 중요 한 운영 체제, 드라이버, 펌웨어 또는 응용 프로그램 업데이트를 얻을 수 있도록 합니다. 최신 인증 메커니즘은 사용자 개입이 필요 하지 않은 OAuth 2.0의 [리소스 소유자 암호 자격 증명](https://tools.ietf.org/html/rfc6749#section-1.3.3) 권한 부여 형식을 사용 합니다. 이는 Microsoft 팀 대화방 응용 프로그램에서 사용 하는 사용자 계정 및 리소스 계정에 대 한 최신 인증이 작동 하는 방식 간의 주요 차이점 중 하나입니다. 이 때문에 Microsoft 팀 대화방 리소스 계정은 MFA (다단계 인증), 스마트 카드 인증 또는 클라이언트 인증서 기반 인증 (최종 사용자에 게 사용할 수 있음)을 사용 하도록 구성 될 수 없습니다.
+Microsoft 팀 대화방 응용 프로그램에서 최신 인증을 사용 하는 경우, Microsoft 팀, Exchange, 비즈니스용 Skype에 연결 하는 데 ADAL (Active Directory Authentication Library)을 사용 합니다. Microsoft 팀 대화방 장치는 공유 장치이 고 원활한 부팅을 수행 하 여 중요 한 운영 체제, 드라이버, 펌웨어 또는 응용 프로그램 업데이트를 얻을 수 있도록 합니다. 최신 인증 메커니즘은 사용자 개입이 필요 하지 않은 OAuth 2.0의 [리소스 소유자 암호 자격 증명](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc) 권한 부여 형식을 사용 합니다. 이는 Microsoft 팀 대화방 응용 프로그램에서 사용 하는 사용자 계정 및 리소스 계정에 대 한 최신 인증이 작동 하는 방식 간의 주요 차이점 중 하나입니다. 이 때문에 Microsoft 팀 대화방 리소스 계정은 MFA (다단계 인증), 스마트 카드 인증 또는 클라이언트 인증서 기반 인증 (최종 사용자에 게 사용할 수 있음)을 사용 하도록 구성 될 수 없습니다.
 
-Microsoft 팀 공간 장치 및 최종 사용자 장치에서 최신 인증이 작동 하는 방법의 다른 주요 차이점은 리소스 계정을 사용 하 여 "장치를 규격으로 표시 해야 함" 또는 "하이브리드 Azure AD에 연결 된 디바이스 필요"와 같은 장치 수준의 조건부 액세스 정책을 적용 하는 것입니다. 이는 장치 수준 개념이 응용 프로그램 수준에서 사용 될 때 최신 인증에 적용 되지 않기 때문입니다. 대신 Microsoft Intune에서 장치를 등록 하 고 [Intune을 사용 하 여 팀 회의실을 관리할](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)때 제공 되는 지침에 따라 준수 정책을 적용할 수 있습니다.
+Microsoft 팀 대화방 장치 및 최종 사용자 장치에서 최신 인증을 사용할 때의 다른 주요 차이점은이 부여 유형을 사용할 때 장치 정보가 전달 되지 않으므로, 리소스 계정을 사용 하 여 Azure Active Directory 및 끝점 관리자에서 디바이스 수준의 조건부 액세스 정책을 적용할 수 없다는 것입니다. 대신 Microsoft Endpoint Manager에서 장치를 등록 하 고 [Intune을 사용 하 여 팀 회의실을 관리할](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)때 제공 되는 지침에 따라 준수 정책을 적용할 수 있습니다.
 
 ## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>Microsoft 팀 회의실 장치에서 최신 인증을 사용 하도록 설정
 
@@ -51,7 +51,7 @@ Microsoft 팀 대화방에서 비즈니스용 Skype 및 Exchange에서 최신 �
 
 ### <a name="using-the-xml-config-file"></a>XML 구성 파일 사용
 
-SkypeSettings 파일에서 다음과 같이 최신 인증 XML 요소를 **True**로 설정 합니다.
+다음과 같이 SkypeSettings.xml 파일에서 최신 인증 XML 요소를 **True**로 설정 합니다.
 
 ```
 <ModernAuthEnabled>True</ModernAuthEnabled>
@@ -67,17 +67,19 @@ SkypeSettings 파일에서 다음과 같이 최신 인증 XML 요소를 **True**
 
 Exchange Online에 대 한 최신 인증을 설정 하려면 [Exchange online에서 최신 인증 사용](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)을 참조 하세요. 비즈니스용 Skype Online을 사용 하는 경우 비즈니스용 Skype Online에 대 한 최신 인증이 설정 되어 있는지도 확인 해야 합니다. 자세한 내용은 비즈니스용 [Skype Online: 최신 인증을 위해 테 넌 트를 사용 하도록 설정 해](https://aka.ms/SkypeModernAuth)보세요.
 
-최신 인증 설정이 켜져 있고 기본 인증을 사용 하도록 구성 된 장치가 없는 경우 Microsoft 팀 공간 장치가 Exchange Online과 팀 또는 비즈니스용 Skype Online에 로그인 할 수 있는지 확인 하기 전에 Exchange Online에 대 한 기본 인증 정책을 제거 하지 않는 것이 좋습니다.
+Microsoft 팀 대화방 장치가 Exchange Online, 팀 및 비즈니스용 Skype Online으로 성공적으로 로그인 할 수 있는지 확인할 때까지 Exchange Online에 대 한 기본 인증 정책을 제거 하지 않는 것이 좋으며, 그렇지 않은 경우에는 테 넌 트에 대 한 기본 인증을 해제 하는 것이 좋습니다.
 
 Exchange Online에서 기본 인증을 사용 하지 않도록 설정 하는 방법에 대 한 자세한 내용은 [Exchange online에서 기본 인증 사용 안 함을](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)참조 하세요.
 
 ## <a name="hybrid-modern-authentication"></a>하이브리드 최신 인증
 
-온-프레미스 Exchange server 및/또는 비즈니스용 Skype 서버에 대 한 인증을 성공적으로 수행 하려면 Microsoft 팀 대화방에 사용 되는 리소스 계정이 Azure AD에서 권한을 획득 하도록 구성 되어 있어야 합니다. 조직에서 사용할 수 있는 하이브리드 id 및 메서드에 대 한 자세한 내용은 다음 항목을 참조 하세요. 
+온-프레미스 Exchange server 및/또는 비즈니스용 Skype 서버에 대 한 인증을 성공적으로 수행 하려면 Microsoft 팀 대화방에 사용 되는 리소스 계정이 Azure AD에서 권한을 획득 하도록 구성 되어 있어야 합니다. 
 
-- [암호 해시 동기화 란?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-phs)
-- [Passthrough 인증 이란?](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta)
-- [페더레이션 이란?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-fed)
+팀 대화방 인증 흐름은 인증 구성에 따라 달라 집니다. 관리 도메인을 사용 하는 고객의 경우 팀 대화방은 Azure Active Directory에 [OAuth 2.0 리소스 소유자 암호 자격 증명](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc) 을 사용 합니다. 그러나 페더레이션 도메인을 사용 하는 고객의 경우 [OAuth 2.0 SAML 전달자 어설션 흐름이](https://docs.microsoft.com/azure/active-directory/develop/v2-saml-bearer-assertion) 사용 됩니다.
+
+> [!NOTE]
+> Id 공급자에는 Azure Active Directory 또는 Office 365 통합을 위한 특정 구성 또는 설정이 필요할 수 있습니다. 팀 대화방에서 인증을 구성 하는 데 도움이 필요한 경우 id 공급자에 게 문의 하세요.
+
 
 ### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a>Microsoft 팀 회의실 관련 전제 조건
 
@@ -88,7 +90,7 @@ Exchange Online에서 기본 인증을 사용 하지 않도록 설정 하는 방
 - Exchange Server 2016 CU8 이상 또는 Exchange Server 2019 CU1 이상 이어야 합니다.
 - 비즈니스용 Skype Server 2015 CU5 이상 또는 비즈니스용 Skype Server 2019 이상이 있어야 합니다.
 - 사용 중인 토폴로지에 관계 없이 MFA는 지원 되지 않습니다.
-- Azure AD에서 지원 되는 타사 인증 공급자를 사용 하는 경우 OAuth를 지원 하 고 리소스 소유자 암호 자격 증명 인증을 사용 해야 합니다.
+- Azure AD에서 지원 되는 타사 인증 공급자를 사용 하는 경우에는 WS 신뢰를 통해 활성 인증 흐름을 지원 해야 합니다.
 - 응용 프로그램을 사용 하 여 구성 된 리소스 계정에 대해 장치 수준의 조건부 액세스 정책을 사용 하지 마세요. 이렇게 하면 로그인 오류가 발생 합니다. 대신 Microsoft Intune에서 디바이스를 등록 하 고 [Intune을 사용 하 여 팀 회의실을 관리](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)하기 위해 게시 된 지침을 사용 하 여 준수 정책을 적용 합니다.
 
 ### <a name="configure-exchange-server"></a>Exchange Server 구성

@@ -1,5 +1,5 @@
 ---
-title: Teams 서식 파일 시작
+title: Microsoft Graph를 사용 하 여 팀 서식 파일 시작
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 팀 서식 파일을 사용 하 여 여러 주제에 대 한 채널과 공동 작업 공간을 만드는 방법과 콘텐츠 및 서비스를 제공 하는 앱을 사전 설치 하는 방법을 알아봅니다.
+description: Microsoft Graph에서 팀 서식 파일을 사용 하 여 여러 주제에 대 한 채널과 함께 공동 작업 공간을 만들고 콘텐츠 및 서비스를 제공 하는 앱을 사전 설치 하는 방법을 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,22 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4cdf8d489025110b47a98402a344e025b256012
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 18459b8350326d1af50fa8da4046b8987dd336dd
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904623"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506190"
 ---
-# <a name="get-started-with-teams-templates"></a>Teams 서식 파일 시작
+# <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Microsoft Graph를 사용 하 여 팀 서식 파일 시작
 
 > [!NOTE]
-> 팀 템플릿은 현재 개인 채널 만들기를 지원 하지 않습니다. 개인 채널 만들기는 서식 파일 정의에 포함 되지 않습니다. 
+> 팀 템플릿은 현재 개인 채널 만들기를 지원 하지 않습니다. 개인 채널 만들기는 서식 파일 정의에 포함 되지 않습니다.
 
-팀 템플릿은 비즈니스 요구 또는 프로젝트를 기준으로 설계 된 팀의 구조에 대 한 미리 작성 된 정의입니다. 팀 서식 파일을 사용 하 여 다양 한 주제 및 사전 설치 앱에 대 한 채널을 사용 하 여 업무에 중요 한 콘텐츠 및 서비스에 대 한 공동 작업 공간을 빠르게 만들 수 있습니다. 팀 서식 파일은 조직에서 일관 된 팀을 쉽게 만들 수 있도록 미리 정의 된 팀 구조를 제공 합니다. 
+팀 템플릿은 비즈니스 요구 또는 프로젝트를 기준으로 설계 된 팀의 구조에 대 한 미리 작성 된 정의입니다. 고유한 서식 파일을 만들 수 없습니다. 대신 Microsoft Graph를 사용 하 여 미리 작성 된 서식 파일을 사용 합니다. 팀 서식 파일을 사용 하 여 다양 한 주제 및 사전 설치 앱에 대 한 채널을 사용 하 여 업무에 중요 한 콘텐츠 및 서비스에 대 한 공동 작업 공간을 빠르게 만들 수 있습니다. 팀 서식 파일은 조직에서 일관 된 팀을 쉽게 만들 수 있도록 미리 정의 된 팀 구조를 제공 합니다.
 
 이 문서에서는 템플릿에서 정의할 수 있는 속성, 기본 서식 파일 형식, 몇 가지 샘플 요청을 사용 하 여 서식 파일에서 팀을 만드는 방법에 대해 설명 합니다.
- 
+
 이 문서는 다음과 같은 경우에 적합 합니다.
 
 - 조직에서 여러 팀을 계획, 배포 및 관리 하는 책임이 있습니다.<br>
@@ -58,9 +58,9 @@ ms.locfileid: "43904623"
 > [!NOTE]
 > Microsoft 팀의 향후 릴리스에서 서식 파일 기능을 추가 하면 지원 되는 속성에 대 한 최신 정보를 다시 확인 하세요.
 
-## <a name="what-are-base-template-types"></a>기본 서식 파일 형식 이란?
+## <a name="what-are-base-template-types"></a>기본 서식 파일 형식
 
-기본 서식 파일 형식은 Microsoft에서 특정 산업에 대해 만든 특수 서식 파일입니다. 이러한 기본 서식 파일에는 팀 템플릿에서 개별적으로 지원 되지 않는 저장소 및 팀 속성에서 사용할 수 없는 독점 앱이 포함 되는 경우가 많습니다.
+기본 서식 파일 형식은 Microsoft에서 특정 산업에 대해 만든 특수 서식 파일입니다. 이러한 기본 서식 파일에는 팀 템플릿에서 개별적으로 지원 되지 않는 저장소 및 팀 속성에서 사용할 수 없는 독점 앱이 포함 되는 경우가 많습니다. [관리 콘솔에서 팀 템플릿을](get-started-with-teams-templates.md)사용 하는 방법에 대해 알아봅니다.
 
 기본 서식 파일 형식을 정의한 후에는 지정 하려는 추가 속성을 사용 하 여 이러한 특수 템플릿을 확장 하거나 재정의할 수 있습니다. 그러나 일부 기본 서식 파일 형식에는 재정의할 수 없는 속성이 포함 되어 있습니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "43904623"
 | Retail<br>스토어 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 채널<ul><li>교대 이송</li><li>배웁니다</li></ul>팀 속성<ul><li>팀 가시성을 공개로 설정</li></ul>회원 사용 권한<ul><li>구성원이 채널을 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li><li>구성원이 앱을 추가 하거나 제거 하지 못하도록 방지</li><li>구성원이 커넥터를 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li></ul> |
 | Retail<br>관리자 공동 작업 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 채널<ul><li>교대 이송</li><li>배웁니다</li></ul>팀 속성:<ul><li>팀 표시 유형을 비공개로 설정</li></ul>회원 권한:<ul><li>구성원이 채널을 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li><li>구성원이 앱을 추가 하거나 제거 하지 못하도록 방지</li><li>구성원이 커넥터를 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li></ul>|
 | 의료<br>I |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |채널 <ul><li>알림에서\*</li><li>Huddles\*</li><li>소수</li><li>자원\*</li><li>교육\*</li></ul>\*자동 즐겨찾기에 채널 |
-|의료<br>병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |채널<ul><li>알림에서\*</li><li>충족\*</li><li>Custodial</li><li>인적 자원</li></li><li>Pharmacy</li></ul>\*자동 즐겨찾기에 채널|
+|의료<br>병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |채널<ul><li>알림에서\*</li><li>규정 준수\*</li><li>Custodial</li><li>인적 자원</li></li><li>Pharmacy</li></ul>\*자동 즐겨찾기에 채널|
 |||
 
 ## <a name="related-topics"></a>관련 항목
