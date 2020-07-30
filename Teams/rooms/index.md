@@ -13,26 +13,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Microsoft 팀 공간을 배포 하기 위한 적절 한 계획 고려 사항과 시스템을 배포 하 고 관리 하는 방법을 설명 합니다.
-ms.openlocfilehash: 2cba74f72016b51446f7721041039faedd865866
-ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
+ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773383"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521993"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
-적은 규모의 공동 작업 팀이 사용 하 고, 배포 하 고 관리 하는 것이 간편한 대규모 huddle 영역에 이르기까지 모임 공간을 다양 하 게 변환할 수 있습니다.
-
-원터치 참가를 사용 하 여 한 번에 모임을 시작 하 고, 룸에 표시 되는 즉시 프로젝트를 진행 하 고 원격 참가자와 공유 합니다.
-
-(옛 Alink, Logitech, Crestron, Polycom, Lenovo, HP 등 파트너 중 하나에서 올바른 시스템 및 오디오 영상 주변 장치를 선택 합니다.
-
-:::image type="content" source="../media/srs-room.jpg" alt-text="Microsoft 팀 회의실 장비를 사용 하는 컨퍼런스 표":::
+:::row:::
+    :::column span="2":::
+       적은 규모의 공동 작업 팀이 사용 하 고, 배포 하 고 관리 하는 것이 간편한 대규모 huddle 영역에 이르기까지 모임 공간을 다양 하 게 변환할 수 있습니다. <br> 
+       원터치 참가를 사용 하 여 한 번에 모임을 시작 하 고, 룸에 표시 되는 즉시 프로젝트를 진행 하 고 원격 참가자와 공유 합니다.<br> 
+       (옛 Alink, Logitech, Crestron, Polycom, Lenovo, HP 등 파트너 중 하나에서 올바른 시스템 및 오디오 영상 주변 장치를 선택 합니다.
+    :::column-end:::
+    :::column:::
+       ![Microsoft 팀 회의실 장비를 사용 하는 컨퍼런스 표](../media/srs-room.jpg)
+    :::column-end:::
+:::row-end:::
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![목록 기호](https://docs.microsoft.com/office/media/icons/list-123-teams.svg)  | **[계획](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![배포 기호](https://docs.microsoft.com/office/media/icons/deploy-teams.svg)  | **[배포](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![도구/렌치](https://docs.microsoft.com/office/media/icons/toolbox.svg)  | **[관리](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+| ![목록 기호](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[계획](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![배포 기호](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[배포](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![도구/렌치](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[관리](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 

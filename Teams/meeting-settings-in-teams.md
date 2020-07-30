@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 0e87b5eadd358bb4c7e13f2948b180d2f7bfff81
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 559dcc8a2f5e38c4c35ba7794241e69402a092ef
+ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45371987"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526714"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -99,7 +99,7 @@ QoS (서비스 품질)를 사용 하 여 네트워크 트래픽의 우선 순위
 
     - DSCP 마커를 QoS에 사용하려면 **실시간 미디어 트래픽에 대한 QoS(서비스 품질) 마커 삽입**을 설정합니다. 마커의 사용 옵션만 선택할 수 있습니다. 각 트래픽 유형에 대해 사용자 지정 마커를 설정할 수 없습니다. DSCP 마커에 대한 자세한 내용은 [QoS 구현 방법 선택](QoS-in-Teams.md#select-a-qos-implementation-method)을 참조하세요.
         > [!NOTE]
-        > DSCP 태깅은 일반적으로 원본 포트를 통해 수행 되며 UDP 트래픽은 기본적으로 3478의 대상 포트를 사용 하 여 Transfport Relay에 라우팅합니다.  회사에서 대상 포트에 태깅 해야 하는 경우 UDP 포트 3479 (오디오), 3480 (비디오) 및 3481 (공유)을 사용 하 여 전송 릴레이 통신을 사용 하도록 지원 팀에 문의 하세요.
+        > DSCP 태깅은 일반적으로 원본 포트를 통해 수행 되며 UDP 트래픽은 기본적으로 3478의 대상 포트를 사용 하 여 전송 릴레이가 됩니다. 회사에서 대상 포트에 태그를 지정 해야 하는 경우 UDP 포트 3479 (오디오), 3480 (비디오) 및 3481 (공유)을 사용 하 여 전송 릴레이에 대 한 통신을 사용 하도록 지원 팀에 문의 하세요.
     - 포트 범위를 지정하려면 **각 유형의 실시간 미디어 트래픽에 대한 포트 범위 선택** 옆에 있는 **포트 범위 지정**을 선택한 다음 오디오, 비디오 및 화면 공유를 위한 시작 및 종료 포트를 입력합니다. QoS를 구현하려면 이 옵션을 선택해야 합니다.
         > [!IMPORTANT]
         > **사용 가능한 포트 자동 사용**을 선택하면 1024에서 65535 사이의 사용 가능한 포트가 사용됩니다. QoS를 구현하지 않는 경우에만 이 옵션을 사용합니다.

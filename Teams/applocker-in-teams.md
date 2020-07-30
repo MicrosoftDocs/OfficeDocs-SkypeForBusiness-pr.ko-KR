@@ -16,24 +16,24 @@ description: AppLocker 응용 프로그램 제어 정책으로 팀 데스크톱 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cbccede3ca2d114b7bffa81b669a06a519f6b4e6
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 4e70fc4502851137494c316db9eff7faefc140d1
+ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121668"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526694"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft 팀의 AppLocker 응용 프로그램 제어 정책
 
 이 문서에서는 AppLocker 응용 프로그램 제어 정책으로 팀 데스크톱 클라이언트 앱을 사용 하도록 설정 하는 방법을 설명 합니다. AppLocker 사용은 관리자가 아닌 사용자가 프로그램과 스크립트 실행을 제한 하도록 설계 되었습니다. AppLocker에 대 한 자세한 내용 및 지침은 [applocker 란?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)을 참조 하세요.
 
-AppLocker로 팀을 사용 하도록 설정 하는 프로세스에는 AppLocker 기반 whitelisting 정책을 만들어야 합니다. 정책은 그룹 정책 관리 소프트웨어 및/또는 AppLocker 용 Windows PowerShell cmdlet을 사용 하 여 생성 됩니다 (자세한 내용은 [applocker 기술 참조](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) 를 참조 하세요). AppLocker 정책은 XML 형식으로 저장 되며 모든 텍스트 또는 XML 편집기를 사용 하 여 편집할 수 있습니다.
+AppLocker를 사용 하는 팀을 사용 하도록 설정 하는 프로세스에는 AppLocker 기반 허용 목록 정책 만들기가 필요 합니다. 정책은 그룹 정책 관리 소프트웨어 및/또는 AppLocker 용 Windows PowerShell cmdlet을 사용 하 여 생성 됩니다 (자세한 내용은 [applocker 기술 참조](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) 를 참조 하세요). AppLocker 정책은 XML 형식으로 저장 되며 모든 텍스트 또는 XML 편집기를 사용 하 여 편집할 수 있습니다.
 
-## <a name="teams-whitelisting-with-applocker"></a>AppLocker로 whitelisting 팀
+## <a name="teams-allow-list-with-applocker"></a>AppLocker와 팀 허용 목록
 
 AppLocker 규칙은 규칙 모음으로 구성 됩니다. AppLocker 규칙은 대상 앱에 적용 되며 AppLocker 정책을 구성 하는 구성 요소입니다.  
 
-팀을 허용 목록 모든 팀 앱 파일에 디지털 서명이 있으므로 [게시자 조건 규칙](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) 을 사용 하는 것이 좋습니다.
+팀을 허용 하려면 모든 팀 앱 파일에 디지털 서명이 있으므로 [게시자 조건 규칙](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) 을 사용 하는 것이 좋습니다.
   
 팀 설치 디렉터리는 사용자에 게 쓸 수 있으므로 경로 규칙을 사용 하지 않는 것이 좋습니다. 또한 팀 클라이언트 앱이 업데이트 될 때마다 규칙이 업데이트 되어야 하므로 해시 규칙을 사용 하지 않는 것이 좋습니다.
 

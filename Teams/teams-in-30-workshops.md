@@ -3,8 +3,6 @@ title: 팀 (30 개)
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-layout: HubPage
-ms.topic: hub-page
 ms.date: 7/1/19
 ms.service: msteams
 audience: admin
@@ -21,25 +19,19 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b82830041736751685807e2cda652fc4ab8525d
-ms.sourcegitcommit: b257e11ba5506b5a105b438dcade4f12805d9595
+ms.openlocfilehash: b6d721da9e2b5a722675c5026301435c65eac5a8
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44909001"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522490"
 ---
+# <a name="teams-in-30"></a>팀 (30 개)
 <div id="main" class="v2">
     <div class="container">
-        <h1>팀 (30 개)</h1>
-           <p>Microsoft는 중간 규모 조직 (500-5000 직원)을 30 일 내에 Microsoft 팀과 함께 운영 하는 데 도움이 되도록 디자인 된 실시간 대화형 워크샵으로 <strong>팀</strong>에 게 사용자를 초대 합니다. 시간 테스트 지침과 모범 사례를 알아보고 팀의 질문에 대 한 답변을 확인 하려면 저희에 게 참여 하세요. 또한 워크숍 참가자는 팀 전문가가 연 mic 근무 시간에 대 한 독점적 초대를 받습니다.
+        <p>Microsoft는 중간 규모 조직 (500-5000 직원)을 30 일 내에 Microsoft 팀과 함께 운영 하는 데 도움이 되도록 디자인 된 실시간 대화형 워크샵으로 <strong>팀</strong>에 게 사용자를 초대 합니다. 시간 테스트 지침과 모범 사례를 알아보고 팀의 질문에 대 한 답변을 확인 하려면 저희에 게 참여 하세요. 또한 워크숍 참가자는 팀 전문가가 연 mic 근무 시간에 대 한 독점적 초대를 받습니다.
            <p><font color="#6264A7">점프할 준비가 되었나요?</font> 프로젝트 팀의 모든 구성원이 <i>30 개 세션에서 팀 시작</i> 으로 시작 하는 것이 좋습니다. 아래 세션 제목을 클릭 하 여 등록 합니다.
-        <ul class="pivots">
-            <li>
-                <a href="#home" data-linktype="self-bookmark"></a>
-                <ul id="home">
-                    <li>
-                        <a href="#home-all" data-linktype="self-bookmark"></a>
-                        <ul id="home-all" class="panelContent cardsF cols cols2">        
+ <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
         <div class="cardSize">
@@ -47,7 +39,7 @@ ms.locfileid: "44909001"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Grid of three shapes representing a process" />
+                            <img src="./media/process-flow-teams.svg"  alt="Grid of three shapes representing a process" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +59,7 @@ ms.locfileid: "44909001"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                            <img src="./media/users-people.svg"  alt="Two person icons with representing users" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +78,7 @@ ms.locfileid: "44909001"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" alt="Cloud image and carpenter's square, representing cloud architecture" />
+                            <img src="./media/cloud-architecture2.svg"  alt="Cloud image and carpenter's square, representing cloud architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +96,7 @@ ms.locfileid: "44909001"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Grid of four blocks representing architecture" />
+                            <img src="./media/blocks-teams.svg"  alt="Grid of four blocks representing architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -123,7 +115,7 @@ ms.locfileid: "44909001"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg" alt="Image of a graph, representing a report" />
+                            <img src="./media/trend-graph-teams.svg"  alt="Image of a graph, representing a report" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -143,7 +135,7 @@ ms.locfileid: "44909001"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                            <img src="./media/sign-up-teams.svg"  alt="Sign up symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -156,9 +148,5 @@ ms.locfileid: "44909001"
             </div>
         </div>
         </a>
-    </li>
-
-</ul>
-
-    
+    </li>    
 </ul>

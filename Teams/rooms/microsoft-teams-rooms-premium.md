@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀 대화방 Premium에 대해 알아보세요.
 f1keywords: ''
-ms.openlocfilehash: 01486e66f13af34fb14264c3a14dc414e0d5eb4f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201282"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521983"
 ---
 # <a name="microsoft-teams-rooms-premium"></a>Microsoft 팀 회의실 Premium
 
-Microsoft 팀 대화방 Premium은 Microsoft 팀 공간 장치 및 주변 기기를 최신 상태로 유지 하 고 사전 모니터링 하 여 훌륭한 사용자 환경을 위해 최적화 된 환경을 지 원하는 클라우드 기반 IT 관리 및 모니터링 서비스입니다.
+Microsoft 팀 객실 Premium에는 Microsoft 팀 공간 장치 및 주변 장치를 최신 상태로 유지 하 고 사전 모니터링 하 여 훌륭한 사용자 환경을 위해 최적화 된 환경을 지 원하는 클라우드 기반 IT 관리 및 모니터링 서비스가 포함 됩니다.
 
 Microsoft 팀 객실 Premium은 조직의 회의실 환경을 개선 하 고 Microsoft 팀 공간 장치에 대 한 예방적 관리를 제공 하 여 공간을 신속 하 게 확장 하는 데 유용 합니다. 이 서비스를 사용 하면 조직에서 "자신을 직접 관리" 하는 데 소모 되는 시간, 비용, 전문성을 절약할 수 있습니다.  
 
@@ -62,8 +62,6 @@ Microsoft 팀 회의실 Premium 서비스의 기능에 대 한 개요는 다음�
 |**정보 활용 및 권장 사항**   |사용, 사건, 상태 및 전체 보고 (기록 보기)         |
 
 ## <a name="service-prerequisites"></a>서비스 필수 구성 요소
-
-Microsoft 팀 대화방 Premium 서비스는 회의실 라이선스 별 추가 기능입니다. Microsoft 팀 대화방에는 별도의 사용자 또는 Microsoft 팀 대화방 라이선스가 필요 합니다.
 
 Microsoft 팀 회의실 Premium에서 서비스 품질을 유지 하려면, 등록 된 채팅방이 [Microsoft 팀 대화방에서 지원](requirements.md#hardware-requirements)되는 장치 여야 하며, [필요한 모든 Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 를 사용 하 여 사용자 환경을 준비 하 고 회의실 디바이스에 의해 완전히 허용 되 고 연결 가능 합니다. 자세한 내용은 Microsoft 팀 대화방 문서에서 [환경 준비](rooms-prep.md) 를 참조 하세요.
 
