@@ -1,0 +1,124 @@
+### YamlMime:Landing
+title: 비즈니스용 Skype Online 관리자
+summary: 비즈니스용 Skype Online은 서비스에 대 한 액세스가 종료 되는 2021 년 7 월 31 일에 사용이 중지 됩니다. Microsoft 365의 팀워크에 대 한 허브 인 Microsoft 팀으로 업그레이드를 시작 하도록 고객에 게 권장 합니다.
+metadata:
+  title: 비즈니스용 Skype Online 관리자
+  description: 조직의 비즈니스용 Skype Online을 관리 하는 방법에 대해 알아봅니다.
+  services: skype-for-business-online-admin
+  ms.service: skype-for-business-online-admin
+  ms.topic: landing-page
+  search.appverid: MET150
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  author: tonysmit
+  ms.author: tonysmit
+  f1.keywords:
+  - CSH
+  ms.custom:
+  - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+  ms.date: 06/24/2020
+  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
+  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 07/29/2020
+  ms.locfileid: "46522970"
+landingContent:
+- title: 비즈니스용 Skype Online 정보
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: 2021에서 비즈니스용 Skype Online 사용 중지
+      url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
+  - linkListType: get-started
+    links:
+    - text: 시작하기
+      url: https://support.office.com/article/2da94a13-6d16-4d67-adf3-439f2b946994
+  - linkListType: overview
+    links:
+    - text: 저희에 게 도움을 주세요.
+      url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+    - text: 비즈니스용 Skype에 로그인 하는 데 도움이 필요 하세요?
+      url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
+    - text: 비즈니스용 Skype Online 문제 해결
+      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+    - text: 비즈니스용 Skype에서 팀으로의 여행
+      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+- title: 새로운 기능
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 조직에서 전화 시스템 설정
+      url: /microsoftteams/setting-up-your-phone-system
+    - text: 오디오 회의를 이용한 타사 통합
+      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+    - text: 오디오 회의 설정
+      url: /microsoftteams/audio-conferencing-in-office-365
+  - linkListType: overview
+    links:
+    - text: 캐나다의 통화 플랜 (일반 가용성)
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
+    - text: 오스트레일리아의 통화 요금제 (미리 보기에만 해당)
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia
+- title: 오디오 회의
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 오디오 회의 일반적인 질문
+      url: /MicrosoftTeams/audio-conferencing-common-questions
+    - text: 해당 국가/지역에서 음성 회의를 사용할 수 있는지 확인
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: 조직의 오디오 회의 설정 관리
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+    - text: 오디오 회의 공급자 비교
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
+- title: 설정
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 비즈니스용 Skype 온라인 설정
+      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: 사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용
+      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: 비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용
+      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+- title: 추가 기능 라이선스
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 비즈니스용 Skype 및 Microsoft 팀 추가 기능 라이선스
+      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+    - text: 통신 크레딧이란?
+      url: /MicrosoftTeams/what-are-communications-credits
+- title: 통화 플랜
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 통화 플랜은 무엇 인가요?
+      url: /MicrosoftTeams/calling-plan-landing-page
+    - text: 해당 국가/지역에서 통화 요금제를 사용할 수 있는지 확인
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: 통화 플랜 설정
+      url: /MicrosoftTeams/set-up-calling-plans
+- title: 전화 시스템
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 전화 시스템 이란?
+      url: /MicrosoftTeams/what-is-phone-system-in-office-365
+    - text: 다음은 전화 시스템 기능입니다.
+      url: /MicrosoftTeams/here-s-what-you-get-with-phone-system
+- title: 통화 및 화질 개선
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 비즈니스용 Skype에서 연결 문제 해결
+      url: https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771
+    - text: 비즈니스용 Skype에서 오디오 및 비디오 문제 해결
+      url: https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc
+    - text: 비즈니스용 Skype Online 성능 조정
+      url: https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802
