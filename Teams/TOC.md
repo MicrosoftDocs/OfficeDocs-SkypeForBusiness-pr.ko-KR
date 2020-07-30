@@ -6,7 +6,7 @@
 
 # [지원 원격 작업자 (WFH)](support-remote-work-with-teams.md)
 
-# 교육 
+# 교육
 ## [개요](training-microsoft-teams-landing-page.md)
 ## [Teams용 강사 진행 교육](instructor-led-training-teams-landing-page.md)
 ## [Teams에 대한 관리자 교육](itadmin-readiness.md)
@@ -50,7 +50,7 @@
 ## [팀 만료 및 갱신](team-expiration-renewal.md)
 ## [팀 보관 또는 삭제](archive-or-delete-a-team.md)
 ## [Slack에서 Teams로 마이그레이션](migrate-slack-to-teams.md)
-## [중소기업을 위한 Teams 서식 파일](smb-templates.md)
+## [중소기업을 위한 기본 제공 Teams 서식 파일 그래프](smb-templates.md)
 
 
 
@@ -649,7 +649,7 @@
 
 # 산업 및 정부 지침
 ## [개요](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [Teams 서식 파일 시작](get-started-with-teams-templates.md)
+## [Microsoft Graph를 사용하여 Teams 서식 파일과 함께 시작](get-started-with-teams-templates.md)
 ## [예약 앱 및 가상 방문](bookings-app-admin.md)
 ## [Teams의 교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub이 사용 중지되었습니다](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
