@@ -1,5 +1,5 @@
 
-# [비즈니스용 Skype Online 관리자](../skype-for-business-online.md)
+# [비즈니스용 Skype Online 관리자](../skype-for-business-online.yml)
 
 ## [오디오 회의 및 통화 요금제 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [아르헨티나](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
