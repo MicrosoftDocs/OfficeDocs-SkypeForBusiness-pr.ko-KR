@@ -53,7 +53,6 @@
 ## [중소기업을 위한 기본 제공 Teams 서식 파일 그래프](smb-templates.md)
 
 
-
 ## 앱, 인공 지능 및 커넥터
 
 ### [개요](deploy-apps-microsoft-teams-landing-page.md)
