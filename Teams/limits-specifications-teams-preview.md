@@ -18,12 +18,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 178dc23403a637e15bb8c01b18e03fb5c86477dc
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 7138495b3f210a7c10b61b7bb8dc1287afefb71c
 ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522345"
+ms.locfileid: "46522927"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -109,16 +110,20 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 ## <a name="meetings-and-calls"></a>모임 및 통화
 
-> [!IMPORTANT]
-> Microsoft 365 Live 이벤트에서 고객에게 더 좋은 지원을 제공 하도록 7월 1일까지 일시적인 기본 제한을 늘릴 것을 4월에 [발표](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) 했습니다. 고객의 요구를 충족 시키기 위해 일시적인 기본 제한을 2020년 10월 1일까지 확대 적용 할 예정입니다. Teams, Stream 및 Yammer의 Live 이벤트 운영팀은 최대 20,000 참석자, 16시간 동안 그리고 50개의 동시 이벤트까지 일시적인 지원을 계속할 것입니다. 또한 사용자가 [Microsoft Live 이벤트 지원 프로그램](https://resources.techcommunity.microsoft.com/live-events/assistance/)을 통해 라이브 이벤트를 준비하면 Stream에서 최대 100,000 참석자까지 호스트 할 수 있습니다.
-
 |기능     | 최대 한도 |
 |------------|---------------|
-|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  |300 <br><br>**참고:** 정부 기관용 Teams(GCC, GCC High, DoD)의 경우, 제한은 여전히 250입니다. 정부 클라우드 제한이 250에서 300으로 늘어나고 모임 오버플로를 지원하면 이 문서를 업데이트할 예정입니다.   |
+|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  |300. **보기 전용**을 사용하면 이끌이가 고급 통신 추가 기능 SKU에 대한 라이선스를 보유한 모임에 듣기만 하는 참가자 20,000명이 참가할 수 있습니다.<sup>1</sup> [!INCLUDE [template](includes/preview-feature.md)] <br><br>**참고:** 정부 기관용 Teams(GCC, GCC High, DoD)의 경우, 제한은 여전히 250입니다. 정부 클라우드 제한이 250에서 300으로 늘어나고 모임 오버플로를 지원하면 이 문서를 업데이트할 예정입니다.   |
 |모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 300 |
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않은 [모임 녹화](cloud-recording.md)를 보관하며 로컬로 다운로드할 수 있습니다. | 20일 |
+
+<sup>1</sup> 보기 전용은 기본값입니다. PowerShell로 모임 오버플로를 사용하지 않을 수 있습니다. 
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
+```
+보기만 하는 참가자는 모임에 보기 전용 참가자를 더 이상 수용할 수 없거나 설정된 대기실 정책 또는 옵션에 따라 대기실을 우회할 권한이 없을 경우 모임에 참가할 수 없습니다. 보기 전용 참가자는 기본 PPT 공유 파일을 확인할 수 없습니다.
 
 ### <a name="meeting-expiration"></a>모임 만료
 
