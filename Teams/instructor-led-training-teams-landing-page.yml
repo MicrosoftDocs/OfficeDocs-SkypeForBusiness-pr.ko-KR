@@ -1,0 +1,62 @@
+### YamlMime:Hub
+title: Microsoft Teams용 강사 진행 교육
+summary: Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 무료 온라인 라이브 교육 수업을 주관하게 되어 기쁩니다.   비즈니스 의사 결정자, 관리자, IT 전문가 또는 최종 사용자 모두가 자신에게 적합한 수업을 찾을 수 있습니다. 어디서 시작해야 할지 잘 모르겠나요? Teams 지식 점검을 수행하세요. 함께 Teams의 작동을 확인하고 질문에 대한 답을 듣고 실제 강사와 의견을 나누세요. 원하는 시간에 교육 수업을 보려면 온디맨드 최종 사용자 교육을 방문하세요. 아래 세션을 클릭하여 가입하세요.
+metadata:
+  title: Microsoft Teams용 강사 진행 교육
+  description: 무료로 진행되는 강사 주도형 교육 과정에 등록하여 Microsoft Teams에 대한 모든 정보를 얻을 수 있는 방법에 대해 알아보세요.
+  ms.topic: hub-page
+  author: lolajacobsen
+  ms.author: lolaj
+  ms.date: 06/16/2020
+  ms.openlocfilehash: 11b6a79428b957680c5a931f062e44f605a6d54c
+  ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 07/31/2020
+  ms.locfileid: "46534148"
+highlightedContent:
+  items:
+  - title: 팀 지식 검사
+    itemType: learn
+    url: https://aka.ms/TeamsKnowledgeCheck
+  - title: 주문형 최종 사용자 교육
+    itemType: video
+    url: https://aka.ms/TeamsOnDemand
+productDirectory:
+  items:
+  - title: Microsoft Teams와 인사하세요.
+    imageSrc: https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg
+    summary: 'Microsoft Teams란? 이 30분 오리엔테이션에 참여하여 Teams가 무엇인지 파악하고 Teams의 활용 방법을 확인해 보세요. (대상 그룹: 모두)'
+    url: https://aka.ms/SayhelloTeams
+  - title: Teams 시작하기
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: '채팅 및 모임에서 팀 및 채널 사용에 이르기까지 사용자는 이 세션이 끝나면 Teams를 자신 있게 사용할 수 있는 기본을 배우게 될 것입니다. (대상: 최종 사용자)'
+    url: https://aka.ms/GetstartedwithMSTeams
+  - title: Teams로 모임을 효과적으로 실행
+    imageSrc: https://docs.microsoft.com/office/media/icons/tasks-teams.svg
+    summary: '모임 전, 모임 중, 모임 후 경험을 위해 Teams를 활용하는 방법에 대해 알아봅니다. (대상: 최종 사용자)'
+    url: https://aka.ms/RunmeetingsTeams
+  - title: Teams에서 팀과 채널 탐색
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    summary: '프로젝트 및 작업 그룹 공동 작업을 간소화하는 방법에 대해 알아봅니다. (대상: 최종 사용자)'
+    url: https://aka.ms/TeamsandchannelsinTeams
+  - title: Teams에서 앱을 사용하는 방법을 알아봅니다.
+    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+    summary: " 앱을 사용하여 팀워크를 개선하는 방법에 대해 알아봅니다. (대상: 최종 사용자)"
+    url: https://aka.ms/IntegrateappsinTeams
+  - title: Teams를 한 단계 업그레이드하는 방법을 알아봅니다.
+    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+    summary: '일상 업무에서 Teams를 최적화하고 구성하는 독창적인 방법을 이해합니다. (대상: 최종 사용자)'
+    url: https://aka.ms/GodeeperwithTeams
+  - title: 교육용 Teams - 웨비나
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: '고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다. (대상: 직원, 학생, academics, 리서치 교직원, IT 전문가)'
+    url: https://aka.ms/TeamsEduWebinars
+  - title: 집에서 Teams로 작업 중인 마스터
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    summary: " 새로운 기능! 팀에 계속 연결된 상태에서 생산성을 유지할 수 있는 모범 사례를 알아보세요. (대상: 최종 사용자, 팀 및 부서 관리자)"
+    url: https://aka.ms/WorkathomewithTeams
+  - title: 업그레이드 계획 워크숍
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+    summary: '팀으로 성공적으로 업그레이드를 계획 하 고 구현 합니다. (대상: IT 전문가, 채택 변경 관리자)'
+    url: /MicrosoftTeams/upgrade-workshops-landing-page
