@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 조직의 정부 기관 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: ae7580b9fd58be66296ab4c9c5e6723aa1a3db91
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028144"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533753"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 정부 기관 원격 작업자 지원하기
 
@@ -65,7 +65,7 @@ ms.locfileid: "45028144"
 
   - 조직에서 Teams를 설치하고 실행하기 위해 마련된 라이브 시리즈인 **[대화형 교육](https://aka.ms/TeamsLiveTraining)** 을 통해 Teams의 여정을 시작해보세요.
 
-  - **[온라인 수업](../instructor-led-training-teams-landing-page.md)** 중 하나에 참여하여 Teams가 실제로 작동하는 모습을 확인하고 질문에 대한 답변을 받으세요.
+  - **[온라인 수업](../instructor-led-training-teams-landing-page.yml)** 중 하나에 참여하여 Teams가 실제로 작동하는 모습을 확인하고 질문에 대한 답변을 받으세요.
 
   - 자세한 정보를 알고 싶어하는 사용자와 **[자세한 교육용 비디오](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** 를 공유합니다.
 

@@ -18,18 +18,14 @@ description: Microsoft 팀에서 사용자에 게 정책을 할당 하는 다양
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
-ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.openlocfilehash: 9d6253645e674d680f86d0b6f89a62968e6c21ba
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143849"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533945"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
-
-> [!NOTE]
-> 이 문서에서 설명 하는 기능 중에는 [Microsoft 팀 관리 센터를 사용 하는 그룹에 대 한 정책 할당이](#using-the-microsoft-teams-admin-center-3)아직 해제 되지 않았습니다. 발표 되었으며 곧 제공 될 예정입니다.
-> 이 기능의 릴리스 상태를 유지 하려면 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)확인 하세요.
 
 관리자는 정책을 사용 하 여 조직의 사용자가 사용할 수 있는 팀 기능을 제어 합니다. 예를 들어, 전화 정책, 모임 정책, 메시지 정책이 몇 가지 이름으로 사용할 수 있습니다.
 
@@ -70,7 +66,7 @@ ms.locfileid: "45143849"
 |[개인 사용자에 게 정책 할당](#assign-a-policy-to-individual-users)    | 팀을 처음 사용할 때 시작 하는 것이 든, 소수의 사용자에 게 하나 또는 두 가지 정책만 할당 하면 됩니다. |비즈니스용 Skype Online PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet
 | [정책 패키지 할당](#assign-a-policy-package)   | 조직에서 역할이 같거나 비슷한 특정 사용자 집합에 여러 정책을 할당 해야 합니다. 예를 들어 학교에서 교사에 게 교육 (교사) 정책 패키지를 할당 하 여 채팅, 통화, 모임, 교육 (보조 학생) 정책 패키지에 대 한 모든 액세스 권한을 보조 학생이 비공개 통화와 같은 특정 기능을 제한할 수 있습니다.  |팀 PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet|
 |[사용자 일괄 처리에 정책 할당](#assign-a-policy-to-a-batch-of-users)   | 대규모 사용자 집합에 정책을 할당 해야 합니다. 예를 들어 조직에서 한 번에 수백 명 또는 수천 명의 사용자에 게 정책을 할당 하려고 합니다.  |팀 PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet|
-|[그룹에 정책 할당](#assign-a-policy-to-a-group) |사용자의 그룹 구성원 자격을 기준으로 정책을 할당 해야 합니다. 예를 들어 보안 그룹 또는 조직 구성 단위의 모든 사용자에 게 정책을 할당 하려고 합니다.| 팀 PowerShell 모듈의 Microsoft 팀 관리 센터 (곧 출시 예정) 또는 PowerShell cmdlet|
+|[그룹에 정책 할당](#assign-a-policy-to-a-group) |사용자의 그룹 구성원 자격을 기준으로 정책을 할당 해야 합니다. 예를 들어 보안 그룹 또는 배포 목록의 모든 사용자에 게 정책을 할당 하려고 합니다.| 팀 PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet|
 | [사용자 일괄 처리에 정책 패키지 할당](#assign-a-policy-package-to-a-batch-of-users)|조직이 동일 하거나 비슷한 역할을 하는 조직의 사용자 일괄 처리에 여러 정책을 할당 해야 합니다. 예를 들어, 교육 (교사) 정책 패키지를 일괄 처리를 사용 하 여 모든 교사에 게 배정 하 고, 채팅, 통화, 모임에 대 한 전체 액세스 권한을 부여 하 고, 교육 (보조 학생) 정책 패키지를 보조 학생의 일괄 처리에 할당 하 여 비공개 통화와 같은 특정 기능을 제한할 수 있습니다.|팀 PowerShell 모듈의 PowerShell cmdlet|
 | 그룹에 정책 패키지 할당 (예정 대로)   | ||
 
@@ -256,7 +252,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="assign-a-policy-to-a-group"></a>그룹에 정책 할당
 
-그룹에 정책 할당을 통해 보안 그룹 또는 조직 구성 단위와 같은 사용자 그룹에 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에 게 전파 됩니다. 그룹에서 구성원이 추가 되거나 제거 되 면 그에 따라 상속 된 정책 할당이 업데이트 됩니다.
+그룹에 정책 할당을 사용 하 여 보안 그룹 또는 배포 목록 등의 사용자 그룹에 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에 게 전파 됩니다. 그룹에서 구성원이 추가 되거나 제거 되 면 그에 따라 상속 된 정책 할당이 업데이트 됩니다.
 
 그룹에 대 한 정책 할당은 최대 5만 사용자 그룹에 게 권장 되지만 대규모 그룹 에서도 작동 합니다.
 
@@ -289,11 +285,9 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 |스토어 관리자   |스토어 관리자 호출 정책         |1|
 |직원 저장    |직원에 게 통화 정책 저장      |2|
 
-순위를 지정 하지 않으면 정책 할당에 순위가 가장 낮은 것으로 지정 됩니다.
+순위를 지정 하지 않으면 정책 할당에 순위가 가장 낮은 것으로 지정 됩니다. 
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
-
-**이 기능은 아직 출시 되지 않았습니다. 발표 되었으며 곧 제공 될 예정입니다.**
 
 > [!NOTE]
 > 현재 Microsoft 팀 관리 센터를 사용 하는 그룹에 대 한 정책 할당은 팀 호출 정책, 팀 통화 대기 정책, 팀 정책, 팀 live 이벤트 정책, 팀 모임 정책, 팀 메시징 정책에만 사용할 수 있습니다. 다른 정책 유형의 경우 PowerShell을 사용 합니다.
@@ -426,7 +420,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-팀 Powershell 모듈에서 다음 cmdlet을 사용 하 여 일괄 처리 정책 할당 인 경우에는이 작업을 수행할 수 있으며, 여기서 $users는 사용자가 지정 하는 사용자의 목록입니다.
+팀 PowerShell 모듈에서 다음 cmdlet을 사용 하 여 일괄 처리 정책 할당 인 경우에는이 작업을 수행할 수 있으며, 여기서 $users는 사용자가 지정 하는 사용자의 목록입니다.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  

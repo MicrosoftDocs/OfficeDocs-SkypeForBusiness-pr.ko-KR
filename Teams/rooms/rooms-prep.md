@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 모든 기능을 활용할 수 있도록 Microsoft 팀 대화방을 배포 하는 인프라를 준비 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d565cd500f22f86c19e38b531511eb25a5e1227a
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
+ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526704"
+ms.locfileid: "46529181"
 ---
 # <a name="prepare-your-environment"></a>작업 환경 준비
 
@@ -39,7 +39,7 @@ ms.locfileid: "46526704"
      > [!IMPORTANT]
      > Microsoft 팀 대화방은 프록시 인증을 지원 하지 않으므로 실내의 일반 작업을 방해할 수 있습니다. 프로덕션으로 전환 하기 전에 Microsoft 팀 채팅방이 프록시 인증에서 제외 되었는지 확인 합니다.
   
-3. Microsoft는 환경을 개선 하기 위해 데이터를 수집 합니다. Microsoft에서 데이터를 수집 하도록 허용 하려면 다음 사이트를 사용 합니다.
+3. Microsoft는 환경을 개선 하기 위해 데이터를 수집 합니다. Microsoft에서 데이터를 수집 하도록 허용 하려면 다음 사이트를 허용 합니다.
 
    - 원격 분석 클라이언트 끝점:https://vortex.data.microsoft.com/
    - 원격 분석 설정 끝점:https://settings.data.microsoft.com/

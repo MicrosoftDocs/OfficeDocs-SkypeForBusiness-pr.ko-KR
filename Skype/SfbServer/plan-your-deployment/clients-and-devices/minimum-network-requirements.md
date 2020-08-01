@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: '요약: Microsoft 365 또는 Office 365을 사용 하지 않고 조직에서 호스팅하는 모임에 액세스 해야 하는 조직에 대 한 정보입니다.'
-ms.openlocfilehash: 656f8fa52f4a1080cca0b8464becf77c8c2a0ef0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: bcb8cfa74067ec6aa3e895f757c71d075888f447
+ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219728"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529191"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 모임 앱 최소 네트워크 요구 사항
  
 **요약:**  Microsoft 365 또는 Office 365를 사용 하지 않는 조직에 대 한 정보 이며, 조직에서 호스팅하는 모임에 액세스 해야 합니다. 이 문서는 이러한 앱의 사용자를 위한 것이 아닙니다.
   
-사용자가 Skype 모임 앱을 사용 하 여 비즈니스용 Skype Online에서 호스트 되는 모임에 참가할 수 있도록 허용 하려면 Microsoft 365 또는 Office 365을 사용 하지 않는 조직의 네트워크 관리자는 허용 목록 또는 아래에 설명 된 Fqdn, Ip 및 포트를 사용 가능 하도록 설정 해야 합니다.
+사용자가 Skype 모임 앱을 사용 하 여 비즈니스용 Skype Online에서 호스트 되는 모임에 참가할 수 있도록 허용 하려면 Microsoft 365 또는 Office 365를 사용 하지 않는 조직의 네트워크 관리자가 허용 하거나 사용 가능 하도록 설정 해야 합니다.
 
 ## <a name="requirements-for-skype-meetings-app-connectivity"></a>Skype 모임 앱 연결 요구 사항
 

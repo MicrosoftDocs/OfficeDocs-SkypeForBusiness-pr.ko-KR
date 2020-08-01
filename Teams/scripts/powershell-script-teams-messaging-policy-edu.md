@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 318a430f6f59cbb28ffeda4336c36ae07533615b
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938197"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533743"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 스크립트 샘플-메시징 정책 만들기 및 할당
 
@@ -38,7 +38,6 @@ ms.locfileid: "44938197"
 [비즈니스용 Skype Online PowerShell 모듈](https://www.microsoft.com/download/details.aspx?id=39366)을 다운로드 하 여 설치한 다음 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
 
 자세히 알아보려면 [Office 365 PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)를 참조 하세요.
-
 
 ## <a name="sample-script"></a>예제 스크립트
 
@@ -62,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> 일괄 처리 정책 할당 또는 사용자가 구성원으로 속한 그룹을 통해 확장할 때 사용자에 게 직접 메시징 정책을 할당할 수도 있습니다. 자세한 내용은 [학교에서 대규모 사용자 집합에 정책 할당](../batch-policy-assignment-edu.md) 및 [팀에서 사용자에 게 정책 할당](../assign-policies.md)을 참조 하세요.
+> 일괄 처리 정책 할당 또는 사용자가 구성원으로 속한 그룹을 통해 확장할 때 사용자에 게 직접 메시징 정책을 할당할 수도 있습니다. 자세한 내용은 [학교에서 대규모 사용자 집합에 정책 할당](../batch-group-policy-assignment-edu.md) 및 [팀에서 사용자에 게 정책 할당](../assign-policies.md)을 참조 하세요.
