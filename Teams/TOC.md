@@ -8,7 +8,7 @@
 
 # 교육
 ## [개요](training-microsoft-teams-landing-page.md)
-## [Teams용 강사 진행 교육](instructor-led-training-teams-landing-page.md)
+## [Teams용 강사 진행 교육](instructor-led-training-teams-landing-page.yml)
 ## [Teams에 대한 관리자 교육](itadmin-readiness.md)
 ## [Teams에 대한 최종 사용자 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -670,7 +670,8 @@
 ### [빠른 시작 - 교육용 Teams 관리](teams-quick-start-edu.yml)
 ### [원격 학습 시작](remote-learning-edu.md)
 ### [Teams EDU 정책 및 정책 패키지](policy-packages-edu.md)
-### [다수의 사용자에 정책 할당하기](batch-policy-assignment-edu.md)
+### [다수의 사용자에 정책 할당하기](batch-group-policy-assignment-edu.md)
+### [교사 및 학생을 위한 보안 그룹 생성을 위한 PowerShell 스크립트](scripts/powershell-script-security-groups-edu.md)
 ### [교육 관리자용 낮은 대역폭 지침](edu-remote-low-bandwidth.md)
 ### [수업 정보 활용](class-insights.md)
 ### [교육용 Teams의 과제](expand-teams-across-your-org/assignments-in-teams.md)

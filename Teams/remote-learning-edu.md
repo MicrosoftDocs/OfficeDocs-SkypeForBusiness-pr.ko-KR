@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f0fab79f0672c21f348ccfda999bcc32a468c87f
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085974"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533763"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -98,7 +98,7 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 > [!IMPORTANT]
 > 모든 사용자에게 할당된 모임 정책의 경우 "자동으로 사용자 관리" 설정을 "조직의 모든 사람"으로 설정하는 것이 좋습니다. 이 설정은 인증되지 않은 사용자가 Teams 회의에 참여하기 전에 로비에서 입장을 허가 받도록 합니다. 자세한 내용은 [Teams에서 회의 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)를 참조하세요.
 
-**초등학교 교직원 및 교사**는 학생에게 제한될 수 있는 핵심 기능을 허용하는 정책이 할당되어야 합니다. 비공개 채팅 및 모임 예약(새 정책의 기본 설정)을 허용하는 새 정책을 만듭니다. [일괄 정책 할당을 통해 직원과 교육자에게 이 정책을 대량으로 할당합니다](batch-policy-assignment-edu.md).
+**초등학교 교직원 및 교사**는 학생에게 제한될 수 있는 핵심 기능을 허용하는 정책이 할당되어야 합니다. 비공개 채팅 및 모임 예약(새 정책의 기본 설정)을 허용하는 새 정책을 만듭니다. [직원과 교육자에게 이 정책을 대량으로 할당합니다](batch-group-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Teams 사용 시작
 
