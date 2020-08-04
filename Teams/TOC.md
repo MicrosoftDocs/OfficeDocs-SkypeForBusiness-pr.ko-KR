@@ -62,11 +62,13 @@
 ### [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
 ### [Microsoft 365 또는 Office 365, 그리고 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
 ### [리소스별 승인](resource-specific-consent.md)
-### [사용자 지정 앱 관리](manage-your-custom-apps.md)
+### [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
+### [앱 패키지를 업로드하여 사용자 지정 앱 게시](upload-custom-apps.md)
 ### [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams에서 조직의 목록 앱 관리](manage-lists-app.md)
 ### [조직에 대한 작업 앱 관리](manage-tasks-app.md)
+### [칭찬 앱 관리](manage-praise-app.md)
 ### [팀 대상 계층 구조 설정](set-up-your-team-hierarchy.md)
 ### [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -808,6 +810,7 @@
 ### [Teams 예비 환경 관리](teams-exploratory.md)
 ### [무료 버전의 팀 관리](manage-freemium.md)
 ### [Teams를 구독 버전으로 무료 업그레이드](upgrade-freemium.md)
+### [고급 커뮤니케이션](teams-add-on-licensing/advanced-communications.md)
 ### [메시징 정책 라이선스](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 전화 시스템 - 가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md)
 
