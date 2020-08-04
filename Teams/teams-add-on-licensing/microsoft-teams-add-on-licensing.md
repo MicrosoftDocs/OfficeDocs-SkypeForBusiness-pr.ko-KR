@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft 팀의 추가 기능 라이선스와 각 라이선스에 대해 제공 하는 기능에 대해 알아봅니다.
-ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 05df369636687d84235dffbfe5ba494213e5374f
+ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522465"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "46542859"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft 팀 추가 기능 라이선스
 
@@ -46,6 +46,7 @@ ms.locfileid: "46522465"
 |**전화 시스템** <br/> |[전화 시스템](../what-is-phone-system-in-office-365.md) 은 PSTN (공개 통신 네트워크)에 연결 하는 옵션이 있는 통화 제어 및 PBX (개인 브랜치 교환) 기능을 제공 하는 호스팅 전화 서비스입니다. 전화 시스템 기능에는 클라우드 보이스 메일, 발신자 ID, 통화 공원, 착신 전환, 자동 전화 교환, 통화 대기열, 착신 전환, 발신자 ID 등이 포함 됩니다. <br>자세한 내용은 [다음은 전화 시스템에서 얻을 수 있는 내용](../here-s-what-you-get-with-phone-system.md)입니다. 가격 정보는 [전화 시스템의 가격 산정](https://go.microsoft.com/fwlink/?linkid=799763)을 참조 하세요.  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**통화 플랜** <br/> |사용자가 조직 외부의 전화 번호로 통화할 수 있도록 하려면 [통화 요금제](../calling-plans-for-office-365.md)를 구입 합니다. 국내 통화 요금제와 국내 및 국제 통화 요금제가 있습니다. 가격 정보는 [통화 요금제 가격 산정](https://go.microsoft.com/fwlink/?linkid=799761 )을 참조 하세요.  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Microsoft Teams Rooms** <br/> |[Microsoft 팀 대화방](../rooms/index.md) 은 추가 기능이 아니지만, 회의실에 비디오, 오디오 및 콘텐츠 공유를 제공 하는 기능입니다. [팀 회의실 라이선스](../rooms/rooms-licensing.md)를 참조 하세요.  <br/> |&#x2713;|&#x2713;|
+|**고급 통신** <br/> |[고급 통신](advanced-communications.md) 에는 대규모 모임, 모임 사용자 지정, 커뮤니케이션 통합, 통신 관리용 고급 도구와 같은 향상 된 통화 및 모임 기능이 포함 됩니다. 최대 2만 참가자 및 1000 참가자를 위한 대화형 모임에 대 한 라이브 이벤트를 통해 더 많은 청중에 게 연락을 주고 받을 수 있습니다. 추가 기능에는 모임 맞춤을 위한 사용자 지정 브랜드 모임 대기실, 모임 및 워크플로로 전화를 통합 하는 기능, 사용자 및 장치의 데이터 모니터링, 추적 및 분석 도구가 포함 됩니다.   |&#x2713;|&#x2713;|
 
 <sup>1</sup> Microsoft 365 Enterprise 요금제를 보유 하 고 있는 중소 규모의 기업 이라면 이러한 음성 기능에 대 한 추가 기능 라이선스를 구매할 수 있지만 [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) 요금제 및 [business voice](https://www.microsoft.com/microsoft-365/business/business-voice)를 고려 하는 것이 좋습니다.
 
