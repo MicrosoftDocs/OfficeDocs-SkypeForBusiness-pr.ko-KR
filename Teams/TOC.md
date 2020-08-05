@@ -68,7 +68,6 @@
 ### [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams에서 조직의 목록 앱 관리](manage-lists-app.md)
 ### [조직에 대한 작업 앱 관리](manage-tasks-app.md)
-### [칭찬 앱 관리](manage-praise-app.md)
 ### [팀 대상 계층 구조 설정](set-up-your-team-hierarchy.md)
 ### [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
 
