@@ -8,12 +8,13 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Microsoft 팀 관리 센터에서 칭찬 앱의 관리 설정에 대 한 자세한 정보
-ms.openlocfilehash: a61b4236a3c1378cbe4134833ad0f3fcd5b1651c
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: deff9fca7cf1097399079482dc4667052a7be537
+ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552876"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46564079"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 칭찬 앱 관리
 
