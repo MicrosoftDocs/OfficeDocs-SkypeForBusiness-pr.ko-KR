@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 지역 및 회의실에 대 한 공통 영역 전화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d9d77765451f98028f808028822ec42e6e51fdc7
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125991"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552306"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft 팀을 위한 공통 영역 전화 라이선스 설정
 > [!NOTE]
 > 일반 지역 전화는 보이스 메일을 지원 하지 않습니다.
 
-일반적으로 일반적인 지역 전화는 대기실 또는 여러 사람이 전화를 걸 수 있는 다른 영역과 같은 영역에 위치 합니다. 예를 들어 수신 영역, 대기실 또는 전화 회의 전화. 일반적인 지역 전화는 사용자가 아닌 장치로 설정 되며 네트워크에 자동으로 로그인 할 수 있습니다.
+일반적으로 일반적인 지역 전화는 대기실 또는 여러 사람이 전화를 걸 수 있는 다른 영역과 같은 영역에 위치 합니다. 예를 들어 수신 영역, 대기실 또는 전화 회의 전화. 일반적인 지역 전화는 일반 지역 전화 라이선스에 연결 된 계정으로 로그인 합니다. 또한 휴대폰에서 공통 영역 사용자 환경을 제공 하도록 TeamsIPPhone 정책을 적절 하 게 설정 해야 합니다.
 
 아래 단계에서는 전화 시스템의 계정을 설정 하 여 조직의 공통 영역 전화를 배포 하는 방법에 대해 알아봅니다. 오디오 회의를 포함 하 여 더 완벽 한 회의실 환경을 보려면 회의실 장치를 사용 하 여 전용 회의실 라이선스를 구입 하는 것이 좋습니다. 
 

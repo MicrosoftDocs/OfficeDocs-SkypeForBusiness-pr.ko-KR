@@ -19,15 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b60ea0159207c88a9aab7030a1d058a44c649eb
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 5a318d59d10b90d5335c84fbbbe6e6e8ae68966d
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666010"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552720"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Microsoft 팀에서 무료 구독 버전으로 업그레이드
-======================================================
 
 조직에서 무료 버전의 Microsoft 팀을 사용 하는 경우 사용자를 위해 Microsoft 365 또는 Office 365 구독 계획을 구매 하 여 정식 버전으로 쉽게 업그레이드할 수 있습니다. 정식 버전은 예약, 오디오 회의, 향상 된 관리, 보안 기능 등 무료 버전이 제공 하지 않는 추가 팀 기능을 제공 합니다. Microsoft 365 및 Office 365는 친숙 한 microsoft Office 데스크톱 제품군을 Exchange Online, SharePoint Online, Office를 비롯 한 클라우드 기반 Microsoft 차세대 통신 및 공동 작업 서비스와 함께 사용 하 여 사용자가 인터넷을 통해 사실상 생산성을 높일 수 있도록 지원 합니다. 팀을 업그레이드할 때 기존 팀 데이터가 손실 되지 않습니다. 모든 팀, 채널, 채팅, 파일, 사용 권한을 함께 얻을 수 있습니다. 
 

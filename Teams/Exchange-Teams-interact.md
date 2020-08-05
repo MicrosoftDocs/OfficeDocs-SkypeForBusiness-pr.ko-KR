@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8b064fa34511704c382ca42e6daa7812c17a13b0
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752980"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552014"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -45,28 +45,26 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Microsoft 
 
 **지원 되는 작업:**
 
-| 사용자의 사서함이 호스트 되는 위치: | eDiscovery| 법률 &nbsp; 보류 | 보관| 팀 및 채널 관리 |팀에서 모임 만들기 및 보기| 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처에 액세스 | 음성 메일 |커넥터 추가 및 구성|탭 추가 및 구성|봇 추가 및 구성|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예<sup>8</sup>|예|예|예 <sup>7</sup>|예|예|예|예|
-|**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예<sup>8</sup>|예|예|예 <sup>7</sup>|예|예|예|예|
-|**Exchange Online 전용-레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup> 4|예|아니요|아니요|예|예|아니요|예 <sup> 5|예 <sup> 6|예|예|
-|**Exchange 온-프레미스** (Azure AD와 동기화 & OAuth 구성 필요)|예 <sup>2</sup>| 예 <sup>2</sup> |예 <sup> 4|예|Yes (Exchange 2016 CU3 이상 +)|아니오|예|예|아니요|예 <sup> 5|예 <sup> 6|예|예|
+| 사용자의 사서함이 호스트 되는 위치:                                        | eDiscovery       | 법률 &nbsp; 보류    | 보관  | 팀 및 채널 관리 | 팀에서 모임 만들기 및 보기 | 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처에 액세스 | 음성 메일  | 커넥터 추가 및 구성 | 탭 추가 및 구성 | 봇 추가 및 구성 |
+|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                 | 예 <sup>1</sup> | 예 <sup>1</sup>   | 예        | 예                   | 예                               | 예<sup>7</sup>             | 예          | 예             | 예 <sup>6</sup>        | 예        | 예                          | 예                    | 예                    |
+| **Exchange Online 전용 vNext**                                 | 예 <sup>1</sup> | 예 <sup>1</sup>   | 예        | 예                   | 예                               | 예<sup>7</sup>             | 예          | 예             | 예 <sup>6</sup>        | 예        | 예                          | 예                    | 예                    |
+| **Exchange Online 전용-레거시** (Azure AD와 동기화 필요)  | 예 <sup>1</sup> | 예 <sup>1, 2</sup> | 예 <sup> 3 | 예                   | 아니요                                | 아니요                          | 예          | 예             | 아니요                      | 예 <sup> 4 | 예 <sup> 5                   | 예                    | 예                    |
+| **Exchange 온-프레미스** (Azure AD와 동기화 & OAuth 구성 필요) | 예 <sup>1</sup> | 예 <sup>1</sup>   | 예 <sup> 3 | 예                   | Yes (Exchange 2016 CU3 이상 +)          | 아니오                          | 예          | 예             | 아니요                      | 예 <sup> 4 | 예 <sup> 5                   | 예                    | 예                    |
 
-<sup>1</sup> EXCHANGE 2016 cu3 이상 이상 지원 됩니다.  
+모든 호스팅 옵션에 대해 채널 메시지에 대 한 eDiscovery 및 법적 보류가 <sup>1 개</sup> 지원 됩니다.
 
-모든 호스팅 옵션에 대해 채널 메시지의 준수에 대 한 eDiscovery 및 법적 보류가 <sup>2 개</sup> 지원 됩니다.
+<sup>2</sup> 팀 개인 채팅 메시지는이 호스팅 옵션의 법률 보존에 대해 아직 지원 되지 않습니다.
 
-<sup>3</sup> 팀 개인 채팅 메시지는이 호스팅 옵션의 법률 보존에 대해 아직 지원 되지 않습니다.
+<sup>3</sup> 보존은 온라인 사용자를 위해 섀도 사서함을 사용 하 여 메시지를 저장 합니다.
 
-<sup>4</sup> 보존은 온라인 사용자가 메시지를 저장할 때 그림자 사서함을 사용 합니다. [Microsoft 팀은 Exchange 하이브리드 환경에서 팀 사용자를 위해 eDiscovery를 지원](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)합니다.
+<sup>4</sup> 온-프레미스 Exchange 사서함이 있는 팀 사용자는 Outlook에서 팀과 보이스 메일을 사용할 수 있지만, 음성 메일 메시지는 팀 클라이언트 내에서 보거나 재생할 수 없습니다.
 
-<sup>5 개의</sup> 팀-온-프레미스 Exchange 사서함이 있는 사용자는 Outlook에서 팀과 보이스 메일을 사용할 수 있지만, 음성 메일 메시지는 팀 클라이언트 내에서 보거나 재생할 수 없습니다.
+팀의 소유자 중 한 명에 게 커넥터를 추가할 수 <sup>있는 경우 해당</sup> 팀의 다른 사용자는 해당 사서함이 온-프레미스 인 경우에도이 작업을 수행할 수 있습니다.
 
-<sup>6</sup> 팀 소유자 중 한 명에 게 커넥터를 추가할 수 있는 경우 해당 팀의 다른 사용자는 자신의 사서함이 온-프레미스 인 경우에도이 작업을 수행할 수 있습니다.
+<sup>6</sup> 기본 연락처 폴더의 연락처만 다른 연락처 폴더 또는 하위 폴더에 대 한 액세스는 지원 되지 않습니다.
 
-<sup>7</sup> 기본 연락처 폴더의 연락처만 다른 연락처 폴더 또는 하위 폴더에 대 한 액세스는 지원 되지 않습니다.
-
-<sup>8</sup> 팀은 테 넌 트 관리자가 구성 하는 [웹 사서함 정책](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정의 Outlook을 통해 사용자가 프로필 사진을 변경할 수 있는지 여부를 제어 합니다. 정책에서 **-set사진 사용** 설정이 해제 되어 있으면 사용자가 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 예를 들어 사용자가 조직의 IT 또는 HR 부서에서 승인한 프로필 사진을 업로드 하는 경우 아무런 작업도 필요 하지 않습니다. 그러나 사용자가 부적절 한 그림을 업로드 하는 경우 조직의 내부 정책에 따라 그림을 변경 합니다.
+<sup>7</sup> 팀은 테 넌 트 관리자가 구성한 [웹 사서함 정책](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정의 Outlook을 통해 사용자가 프로필 사진을 변경할 수 있는지 여부를 제어 합니다. 정책에서 **-set사진 사용** 설정이 해제 되어 있으면 사용자가 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 예를 들어 사용자가 조직의 IT 또는 HR 부서에서 승인한 프로필 사진을 업로드 하는 경우 아무런 작업도 필요 하지 않습니다. 그러나 사용자가 부적절 한 그림을 업로드 하는 경우 조직의 내부 정책에 따라 그림을 변경 합니다.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft 팀을 최대한 활용 하기 위한 요구 사항
 

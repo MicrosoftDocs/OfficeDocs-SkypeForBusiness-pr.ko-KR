@@ -17,14 +17,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 팀 갤러리 및 검색 결과의 제안에 따라 Microsoft 팀 사용자가 개인 팀을 검색할 수 있는지 여부를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0d068de791afd32d38b2b49ada275c6e3eced41c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e06a9511d8198a069c3dccfdbbbacf3d3f1b2c42
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836518"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554698"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Microsoft 팀에서 비공개 팀의 검색 관리
+
+> [!IMPORTANT]
+> 고객 의견을 기반으로이 기능을 사용 하지 않도록 설정 했습니다 (2020 년 8 월 31 일 유효). 즉, 2020 년 8 월 31 일 이후에는 더 이상 검색 가능 하도록 비공개 팀을 설정할 수 없으며 모든 기존 및 새 비공개 팀을 더 이상 검색할 수 없게 됩니다. 자세히 알아보려면 [Microsoft 365 로드맵을](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=44370)참조 하세요.
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -60,7 +63,7 @@ ms.locfileid: "41836518"
 
 ### <a name="in-team-settings"></a>팀 설정
 
-팀에서 비공개 팀으로 이동 하 고 **추가 옵션** > 을 클릭 하 여**팀 관리**를 선택 합니다. **설정** 탭에서 **팀 검색**을 확장 한 다음 검색 **기능 설정** 확인란을 선택 하거나 선택을 취소 합니다.
+팀에서 비공개 팀으로 이동 하 고 **추가 옵션**을 클릭 하 여  >  **팀 관리**를 선택 합니다. **설정** 탭에서 **팀 검색**을 확장 한 다음 검색 **기능 설정** 확인란을 선택 하거나 선택을 취소 합니다.
 
 ![기존 비공개 팀의 검색 설정 스크린샷](media/private-team-discovery-existing-team.png)
 

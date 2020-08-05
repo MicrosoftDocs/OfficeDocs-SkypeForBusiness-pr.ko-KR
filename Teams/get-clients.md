@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928812619ff0f3f5c0194f75bdc93ced2f84c79b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: d19e7b997a5972d3b3eb9b28d89b3e1b06359889
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139132"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552346"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드 
 
@@ -40,7 +40,7 @@ Microsoft Teams에는 데스크톱(Windows, Mac, Linux), 웹, 모바일(Android 
 > [!TIP]
 > 다음 세션에서 Windows 데스크톱 클라이언트의 장점과 해당 클라이언트를 계획하고 배포하는 방법에 대해 알아보세요. [Teams Windows 데스크톱 클라이언트](https://aka.ms/teams-clients)
 
-Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그램으로, [microsoft 365 for Enterprise 앱 에서도 사용할 수](https://docs.microsoft.com/deployoffice/teams-install)있습니다. 32 비트 및 64 비트 버전의 Windows (8.1 이상) 및 Windows Server (2012 R2 이상) 및 macOS 및 Linux (in `.deb` 및 `.rpm` 형식)에 대 한 팀을 사용할 수 있습니다. Windows에서 Teams는 .NET Framework 4.5 이상이 필요하며, 설치되어 있지 않으면 Teams 설치 관리자가 설치를 제안합니다. Linux에서 `apt`, `yum` 등의 패키지 관리자가 모든 요구 사항을 설치하려고 시도합니다. 하지만 그렇지 않을 경우에는 Linux에 Teams를 설치하기 전에 보고된 모든 요구 사항을 설치해야 합니다.
+Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그램으로, [microsoft 365 for Enterprise 앱 에서도 사용할 수](https://docs.microsoft.com/deployoffice/teams-install)있습니다. 32 비트 및 64 비트 버전의 Windows (8.1 이상) 및 Windows Server (2012 R2 이상) 및 macOS 및 Linux (in `.deb` 및 형식)에 대 한 팀을 사용할 수 있습니다 `.rpm` . Windows에서 Teams는 .NET Framework 4.5 이상이 필요하며, 설치되어 있지 않으면 Teams 설치 관리자가 설치를 제안합니다. Linux에서 `apt`, `yum` 등의 패키지 관리자가 모든 요구 사항을 설치하려고 시도합니다. 하지만 그렇지 않을 경우에는 Linux에 Teams를 설치하기 전에 보고된 모든 요구 사항을 설치해야 합니다.
 
 데스크톱 클라이언트는 팀 모임, 그룹 통화 및 비공개 일대일 통화를 위한 실시간 통신 지원(오디오, 비디오, 콘텐츠 공유)을 제공합니다.
 
@@ -125,7 +125,7 @@ DEB 또는 RPM 패키지를 설치 하면 패키지 리포지토리가 자동으
     - 관련 패키지 관리 도구를 열고 셀프 가이드 Linux 앱 설치 프로세스를 진행합니다.
     - 또는 터미널을 좋아하는 경우 다음을 입력합니다. `sudo apt install **teams download file**`
 
-`Teams`를 입력하여 터미널 또는 활동을 통해 Teams를 실행할 수 있습니다. 
+`teams`를 입력하여 터미널 또는 활동을 통해 Teams를 실행할 수 있습니다. 
 
 #### <a name="install-teams-using-rpm-package"></a>RPM 패키지를 사용하여 Teams 설치
 
@@ -134,12 +134,13 @@ DEB 또는 RPM 패키지를 설치 하면 패키지 리포지토리가 자동으
     - 관련 패키지 관리 도구를 열고 셀프 가이드 Linux 앱 설치 프로세스를 진행합니다.
     - 또는 터미널을 좋아하는 경우 다음을 입력합니다. `sudo yum install **teams download file**`
 
-`Teams`를 입력하여 터미널 또는 활동을 통해 Teams를 실행할 수 있습니다.
+`teams`를 입력하여 터미널 또는 활동을 통해 Teams를 실행할 수 있습니다.
 
 #### <a name="install-manually-from-the-command-line"></a>명령줄에서 수동으로 설치
 
 Debian 및 Ubuntu 배포에 수동으로 설치:
-```
+
+```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
@@ -149,7 +150,8 @@ sudo apt install teams
 ```
 
 RHEL, Fedora 및 CentOS 기반 배포에 수동으로 설치:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
@@ -159,13 +161,15 @@ sudo dnf install teams
 ```
 
 또는 dnf가 아닌 yum을 사용하려면 다음을 수행합니다.
-```
+
+```bash
 yum check-update
 sudo yum install teams
 ```
 
 OpenSUSE 기반 배포에 수동으로 설치:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'

@@ -17,22 +17,19 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 팀 앱 제출 API를 사용 하 여 제출한 사용자 지정 앱을 승인 하는 방법에 대해 알아봅니다.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4c3563dc028c8566d29906e4e42a2002a197e71d
-ms.sourcegitcommit: 8812db47b45d171d47e71f87e84ab1828590392d
+ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46523727"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552604"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>팀 앱 제출 API를 통해 제출 된 사용자 지정 앱 게시
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview"></a>개요
 
 > [!NOTE]
-> 사용자 지정 팀 앱을 게시 하면 조직의 앱 스토어에 있는 사용자가 사용할 수 있습니다. 두 가지 방법으로 사용자 지정 앱을 게시할 수 있으며, 사용 하는 방법은 앱을 가져오는 방법에 따라 다릅니다. **이 문서에서는 개발자가 팀 앱 제출 API를 통해 제출 하는 사용자 지정 앱을 승인 하 고 게시 하는 방법에 대해 설명**합니다. 사용자 지정 앱을 업로드 하는 다른 방법은 개발자가 .zip 형식으로 앱 패키지를 보내는 경우에 사용 됩니다. 해당 방법에 대 한 자세한 내용은 [앱 패키지를 업로드 하 여 사용자 지정 앱 게시](manage-your-custom-apps.md)를 참조 하세요.
+> 사용자 지정 팀 앱을 게시 하면 조직의 앱 스토어에 있는 사용자가 사용할 수 있습니다. 두 가지 방법으로 사용자 지정 앱을 게시할 수 있으며, 사용 하는 방법은 앱을 가져오는 방법에 따라 다릅니다. **이 문서에서는 개발자가 팀 앱 제출 API를 통해 제출 하는 사용자 지정 앱을 승인 하 고 게시 하는 방법에 대해 설명**합니다. 사용자 지정 앱을 업로드 하는 다른 방법은 개발자가 .zip 형식으로 앱 패키지를 보내는 경우에 사용 됩니다. 해당 방법에 대 한 자세한 내용은 <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">앱 패키지를 업로드 하 여 사용자 지정 앱 게시</a>를 참조 하세요.
  
 이 문서에서는 팀 앱을 개발에서 배포로 가져오는 방법에 대 한 종단 간 지침을 제공 합니다. 팀에서 앱 수명 주기 동안 제공 하는 연결 된 환경에 대해 개괄적으로 살펴보고 조직의 앱 스토어에서 사용자 지정 앱을 개발, 배포 및 관리 하는 방법을 간소화 합니다.
 
@@ -142,6 +139,7 @@ Microsoft 팀 관리 센터의 <a href="https://docs.microsoft.com/microsoftteam
 
 ## <a name="related-topics"></a>관련 항목
 
+- [앱 패키지를 업로드 하 여 사용자 지정 앱 게시](upload-custom-apps.md)
 - [Microsoft 팀 관리 센터에서 앱 관리](manage-apps.md)
 - [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)
 - [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)

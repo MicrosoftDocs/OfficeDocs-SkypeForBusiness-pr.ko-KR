@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 클라우드 자동 전화 교환 및이를 사용 하 여 호출자가 사용자 또는 부서에 전화를 걸고 배치 하거나 전송 하기 위해 메뉴 시스템에서 이동할 수 있도록 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 57e718ad6b660baa39814b987c2b6ca18bba05d9
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077643"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552574"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>클라우드 자동 전화 교환이란?
 
@@ -109,7 +109,7 @@ ms.locfileid: "45077643"
 |FirstName  |수준의   |Amos #   |Amos 대리석의 경우 1 번 누름  <br/> Amos 용 2를 누르세요: Cus |
 |이름 |수준의 |Marble #  |Amos 대리석의 경우 1 번 누름  <br/> Mary 대리석으로 2 누르기 |
 |이름 또는 성 |Partial |최종 # |Mary 대리석에 대해 1을 누릅니다.  <br/> Mary Jones에 대해 2를 누릅니다.  <br/> Amos 용 3을 누릅니다. |
-|FirsName + LastName |Partial |Mar0Amos # |Amos 대리석의 경우 1 번 누름  <br/> Amos 용 2를 누르세요: Cus |
+|FirsName + LastName |Partial |Amos0Mar # |Amos 대리석의 경우 1 번 누름  <br/> Amos 용 2를 누르세요: Cus |
 |LastName + FirstName |Partial |Mar0Am # |Amos 대리석의 경우 1 번 누름  <br/> Amos 용 2를 누르세요: Cus |
 
 전화 키패드를 사용 하 여 사용자를 검색할 때 사용할 수 있는 특수 문자가 몇 가지 있습니다. 예를 들어 사용자에 게 파운드 키 (#)를 사용 하 라는 메시지가 표시 되는 반면, 영 (0) 키는 이름 사이의 공백에 사용 됩니다. 별표 키 (*)를 누르면 일치 하는 이름 목록이 해당 사용자에 게 반복 됩니다.

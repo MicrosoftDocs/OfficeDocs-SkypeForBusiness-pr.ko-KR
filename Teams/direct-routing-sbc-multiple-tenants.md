@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 회사에 여러 테 넌 트를 제공 하도록 SBC (세션 경계 컨트롤러)를 구성 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689744"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552624"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -104,7 +104,7 @@ SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 
 기본 및 하위 도메인을 구성 하려면 아래 설명 된 단계를 따르세요. 이 예제에서는 customers.adatum.biz (기본 도메인 이름) 및 한 고객의 하위 도메인 (Woodgrove 은행 테 넌 트의 sbc1.customers.adatum.biz)을 구성 합니다.
 
 > [!NOTE]
-> SbcX.customers.adatum.biz를 사용 하 여 반송파 테 넌 트에서 음성을 사용 하도록 설정 합니다.
+> SbcX.customers.adatum.biz를 사용 하 여 반송파 테 넌 트에서 음성을 사용 하도록 설정 합니다. sbcX는 고유 하 고 유효한 영숫자 호스트 이름이 될 수 있습니다.
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>반송파 테 넌 트에 기본 도메인 이름 등록
 

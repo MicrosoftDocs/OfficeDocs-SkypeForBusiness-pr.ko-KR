@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 항목에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "43580706"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552296"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 팀 회의실 유지 관리 및 운영 
  
@@ -105,7 +105,8 @@ PowerShell을 사용 하 여 원격으로 다음 관리 작업을 수행할 수 
   
 1. Microsoft 팀 대화방 장치에서 관리자로 로그인 합니다.
 2. 관리자 권한 PowerShell 명령 프롬프트를 엽니다.
-3. Enable-PSRemoting-force 명령을 입력 합니다.
+3. 다음 명령을 입력 합니다.`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. 로컬 보안 정책을 열고 *관리자* 보안 그룹을 **보안 설정**에 추가  >  **로컬 정책**  >  **사용자 권한 할당**  >  **네트워크에서이 컴퓨터에 액세스**합니다.
 
 관리 작업을 수행 하려면 다음을 실행 합니다.
   
@@ -113,7 +114,7 @@ PowerShell을 사용 하 여 원격으로 다음 관리 작업을 수행할 수 
 2. PC에서 일반 PowerShell 명령 프롬프트를 엽니다.
 3. 아래 표의 명령 텍스트를 복사 하 고 프롬프트에 붙여 넣습니다.
 4. `<Device fqdn>`필드를 사용자 환경에 적합 한 FQDN 값으로 바꿉니다.
-5. * \< 경로 \> * 를 마스터 SkypeSettings 구성 파일 (또는 테마 이미지)의 파일 이름 및 로컬 경로로 바꿉니다.
+5. *\<path\>* 마스터 SkypeSettings.xml 구성 파일 (또는 테마 이미지)의 파일 이름 및 로컬 경로로 대체 합니다.
     
 연결 된 장치를 얻으려면
   
@@ -173,7 +174,7 @@ Copy-Item $movefile $targetDevice
 ### <a name="to-update-using-powershell"></a>Powershell을 사용 하 여 업데이트 하려면
 
 1. 설치 [MSI](https://go.microsoft.com/fwlink/?linkid=851168) 에서 장치에 액세스할 수 있는 공유로 패키지를 추출 합니다.
-2. Microsoft 팀 회의실 장치를 대상으로 하는 다음 스크립트를 실행 하 고 \< \> 장치 공유에 대 한 공유를 적절 하 게 변경 합니다.
+2. Microsoft 팀 회의실 장치를 대상으로 하는 다음 스크립트를 실행 하 고 \<share\> 장치 공유로 변경 합니다.
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})

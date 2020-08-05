@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 34d7780e1d10370b78c11c1a8021381aff71f479
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905900"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552594"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams에서 데스크톱 공유 구성하기
 ============================================
@@ -54,7 +54,7 @@ ms.locfileid: "43905900"
 5. 다음 설정을 켜거나 끕니다.
 
     - **참가자가 제어권을 부여 하거나 요청할 수 있도록 허용** -팀 멤버가 발표자의 데스크톱 또는 응용 프로그램에 대 한 제어권을 부여 하거나 요청할 수 있습니다.
-    - **외부 참가자가 제어권을 부여 하거나 요청 하도록 허용** – 게스트 및 외부 (페더레이션된) 사용자가 발표자의 데스크톱 또는 응용 프로그램에 대 한 제어권을 부여 하거나 요청할 수 있습니다.
+    - **외부 참가자가 제어권을 부여 하거나 요청할 수 있도록 허용** -이것은 사용자 단위 정책입니다. 조직에서이 사용자에 대해이 집합을 보유 하 고 있는지 여부는 모임 이끌이가 설정한 내용에 관계 없이 외부 참가자가 수행할 수 있는 작업을 제어 하지 않습니다. 이 매개 변수는 해당 조직의 모임 정책 내에서 설정한 공유자에 따라 외부 참가자가 제어권을 부여 하거나 공유자 화면 제어권을 요청할 수 있는지 여부를 제어 합니다.
     - **PowerPoint 공유 허용** – 사용자가 PowerPoint 프레젠테이션을 업로드하고 공유하도록 허용하는 모임을 만들 수 있습니다.
     - **화이트보드 허용** – 사용자가 화이트보드를 공유할 수 있습니다.
     - **공유 노트 허용** – 사용자가 공유 노트를 작성할 수 있습니다.
