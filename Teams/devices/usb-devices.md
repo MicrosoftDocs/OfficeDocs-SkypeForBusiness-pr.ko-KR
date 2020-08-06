@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Microsoft 팀에 대해 인증 된 헤드셋, 스피커폰, 웹캠, 모니터 등의 USB 주변 기기와 장치에 대해 알아봅니다.
-ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
-ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
+ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45166746"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572263"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft 팀에 인증 된 USB 오디오 및 비디오 장치
 
@@ -78,8 +78,15 @@ ms.locfileid: "45166746"
 
 | 제조업체        | Model                                                     | 갖춘      | 인증 된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Bose                 |NC 700 헤드셋                                             |6/8/2020        |Microsoft 팀 인증|
-|Jabra              | Jabra 링크 370 USB 동글으로 말하기 750 스피커폰       | 5/21/2020 | Microsoft 팀 인증|
+|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |비즈니스용 Skype에 대해 인증 됨                        |
+|ViewSonic            |WCD-IFP6570                                               |7/31/2020       |비즈니스용 Skype에 대해 인증 됨                        |
+|Jabra                |75 헤드셋 참가                                          |7/31/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
+|Jabra                |65 헤드셋 참가                                          |7/31/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
+|Jabra                |50 헤드셋 참가                                          |7/31/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
+|Avocor               |WCD-AVW-6555                                              |7/30/2020       |Microsoft 팀 인증                           |
+|Jabra                |Evolve2 85 헤드셋                                         |7/17/2020       |Microsoft 팀 인증                           |
+|Bose                 |NC 700 헤드셋                                             |6/8/2020        |Microsoft 팀 인증                           |
+|Jabra                | Jabra 링크 370 USB 동글으로 말하기 750 스피커폰     | 5/21/2020       | Microsoft 팀 인증                         |
 | EPOS                | 660 헤드셋 Sennheiser                              | 5/15/2020      | Microsoft 팀 인증                          |
 | EPOS                | 560 헤드셋 Sennheiser                              | 5/15/2020      | Microsoft 팀 인증                          |
 | EPOS                | Sennheiser 460T 헤드셋에 적응                             | 5/15/2020      | Microsoft 팀 인증                          |

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
-ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
-ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
+ms.openlocfilehash: 6aab0bcb24729dc1e021709563ca1c2dcda5d039
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45166756"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576920"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -48,6 +48,7 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | 오디오 코드 C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 년 3 월                   |
 | 오디오 코드 C448HD (CAP 모드에만 해당)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 년 3 월                   |
+|UC-2의 crestr                           |1.0.1.46                                                  | 2020 년 7 월                    |
 | M100에서 crestron                          | 이 제품은 단종 되었습니다. 자세한 내용은 M100의 웹 사이트에서 [crestron](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 을 참조 하세요. | 단종 된 5/11/2020 |
 | Flex UC에서 crestron P100-T & UC-P110-T    | 이 제품은 단종 되었습니다. 자세한 내용은 Crestron 웹 사이트에서 [UC 전화](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) 를 방문 하세요.                  | 단종 된 5/11/2020 |
 | Lenovo ThinkSmart View                 | CD-18781Y 200410.067                                                                                                                                                                                                                       | 2020 년 4 월                   |

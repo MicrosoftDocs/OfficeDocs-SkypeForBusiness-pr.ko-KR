@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552276"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572243"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
@@ -35,7 +35,7 @@ ms.locfileid: "46552276"
 - [직접 라우팅에 위치 기반 라우팅 사용](location-based-routing-enable.md)
 
 > [!NOTE]
-> Microsoft 365 정부 커뮤니티 클라우드 (GCC) High 배포에서는 위치 기반 라우팅을 사용할 수 없습니다.
+> Microsoft 365 정부 커뮤니티 클라우드 (GCC) 높음 또는 DoD 배포에서는 위치 기반 라우팅을 사용할 수 없습니다.
 
 위치 기반 라우팅은 인바운드 또는 아웃 바운드 PSTN 호출 시 정책 및 사용자의 지리적 위치에 따라 수신자의 부담을 제한할 수 있는 기능입니다. 위치 기반 라우팅은 유료 바이패스를 방지 하는 메커니즘을 제공 하기 위한 것입니다. 사용자의 위치에 따라 PSTN 호출을 동적으로 라우팅하는 메커니즘으로 사용할 수 없으며 의도 하지 않은 결과가 발생할 수 있습니다.
 

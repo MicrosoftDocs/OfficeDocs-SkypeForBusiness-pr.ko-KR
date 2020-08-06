@@ -17,12 +17,12 @@ description: Microsoft 통화 계획 및 전화 시스템을 구성 하는 방�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083158"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576930"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -75,6 +75,9 @@ Microsoft 통화 요금제 및 전화 시스템 다이렉트 라우팅을 위한
 - Android 클라이언트 및 Google Play 스토어 버전 1416/1.0.0.2019121201 이상에 대 한 팀 모바일 클라이언트
 - 팀 전화 버전 1449/1.0.94.2019110802 이상
 - 팀 대화방 버전 4.4.25.0 이상
+
+> [!NOTE]
+> 팀 웹 클라이언트에서는 보안 데스크 알림을 포함 하 여 동적 비상 통화가 지원 되지 않습니다. 사용자가 팀 웹 클라이언트를 사용 하 여 PSTN 번호를 호출 하지 못하도록 하려면 팀 호출 정책을 설정 하 고 **웹 PSTN 통화 허용** 설정을 해제할 수 있습니다. 자세히 알아보려면 팀 및 CsTeamsCallingPolicy [에서 정책 호출](teams-calling-policy.md) 을 참조 [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)하세요.
 
 ## <a name="assign-emergency-addresses"></a>긴급 주소 할당
 

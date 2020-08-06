@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀의 정보 장벽
 author: chrfox
-ms.author: chrfox
+ms.author: anwara
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀의 정보 장벽에 대해 설명
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202914"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572383"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
@@ -177,6 +177,9 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
 계획 및 가격을 비롯 한 자세한 내용은 [라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조 하세요.
+
+## <a name="known-issues"></a>알려진 문제점
+- **사용자가 모임에 참가할 수 없음**: IB 정책을 사용 하는 경우 모임 명단 크기가 250 사용자 보다 큰 경우 사용자가 모임에 참가할 수 없습니다. 근본 원인으로 인해 IB 검사는 사용자가 모임 채팅 명단에 추가 될 수 있는지 여부에 따라 사용자가 모임에 참가 하도록 허용 하는 신호를 받습니다. 모임에 한 번 참가 하면 해당 사용자가 명단에 추가 되므로 되풀이 모임에서는 명단이 빠르게 채워집니다. 250 사용자 수에 도달 하면, 모임 채팅 명단에 추가 사용자를 추가할 수 없습니다. IB가 사용 하도록 설정 되어 있는 경우 사용자는 모임에 참가할 수 없지만, IB를 사용 하도록 설정 하지 않으면 사용자가 모임에 참가할 수 있지만 모임 채팅 명단에 추가 되지는 않습니다. 단기 솔루션은 모임 채팅 명단에서 비활성 구성원을 제거 하 여 새 사용자를 위한 공간을 확보 하는 것입니다. 그러나 나중에 모임 채팅 rosters의 크기를 늘리는 것이 좋습니다.
 
 ## <a name="more-information"></a>추가 정보
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 회사에 여러 테 넌 트를 제공 하도록 SBC (세션 경계 컨트롤러)를 구성 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: d3c2f1fccf0a00e5ce54bad98d4ae94f96534dc6
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552624"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572363"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -60,7 +60,7 @@ SBC 호스팅 시나리오의 SBCs를 배포 하 고 구성 하는 방법에 대
 
 - **오디오 코드:** "오디오 코드 Sbc를 Microsoft 팀의 직접 라우팅 호스팅 모델 구성에 연결"에 설명 된 SBC 호스팅 시나리오의 구성 인 [직접 라우팅 구성 참고 사항](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)입니다. 
 - **Oracle:** [직접 라우팅 구성 참고](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)이 SBC 호스팅 시나리오의 구성은 "Microsoft" 섹션에 설명 되어 있습니다. 
-- **리본 통신:**  리본 메뉴의 [커뮤니케이션 SBC 핵심 Microsoft 팀 구성 가이드](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 를 참조 하세요. 리본 메뉴의 핵심 계열 SBCs를 구성 하는 방법에 대 한 문서를 보려면 [최상의 방법-Microsoft 팀의 매체 구성 직접 경로 설정 SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **리본 통신:**  리본 메뉴의 [커뮤니케이션 SBC 핵심 Microsoft 팀 구성 가이드](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 를 참조 하세요. 리본 메뉴의 핵심 계열 SBCs를 구성 하는 방법에 대 한 문서를 보려면 [최상의 방법-Microsoft 팀의 매체 구성 직접 경로 설정 SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE-시스템 (anynode):**  여러 테 넌 트에 대해 anynode SBC를 구성 하는 방법에 대 한 설명서와 예제는 [TE Systems 커뮤니티 페이지](https://community.te-systems.de/) 를 통해 등록 하십시오.
 - **Metaswitch:**  여러 테 넌 트에 대해 Perimeta SBC를 사용 하는 방법에 대 한 설명서를 보려면 [Metaswitch 커뮤니티 페이지](https://sso.metaswitch.com/UI/Login) 에서 등록 하십시오.
 
