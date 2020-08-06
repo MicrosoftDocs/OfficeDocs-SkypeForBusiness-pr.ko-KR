@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: '비즈니스용 skype online 커넥터를 다운로드 하 여 설치 하 고 사용 하 여 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만듭니다. '
-ms.openlocfilehash: 8c5068c221c46f7be0d9d97c1c3d515ae244b316
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: 비즈니스용 skype online 커넥터를 다운로드 하 여 설치 하 고 사용 하 여 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만듭니다.
+ms.openlocfilehash: 8e9441e152314fafdee8fe8292d0b62a1b17d6da
+ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085704"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46564777"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>비즈니스용 Skype Online 커넥터 모듈 다운로드 및 설치
 

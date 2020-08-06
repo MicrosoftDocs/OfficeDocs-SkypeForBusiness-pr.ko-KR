@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c207834a2975afcb5aa6e9576c56d2129ff248ff
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 871cc753e38979718881b1947eccc0548bcc63e8
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533535"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46551904"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -174,7 +174,7 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 |------------------------|---------|---------|---------|---------|---------|---------|
 |저장소                 |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB 및 구매한 라이선스당 10GB   |조직당 1TB 및 구매한 라이선스당 10GB |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB           |
 |Teams 파일용 저장소 |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |
-|파일 업로드 제한(파일당)    |15GB    |15GB    |15GB    |15GB    |15GB    |15GB    |
+|파일 업로드 제한(파일당)    |100GB    |100GB    |100GB    |100GB    |100GB    |100GB    |
 
 채널은 팀을 위해 만든 SharePoint Online 사이트 모음의 폴더에 의해 지원되므로 채널 내의 파일 탭은 속해 있는 팀의 저장소 용량 한도를 공유 합니다.
 

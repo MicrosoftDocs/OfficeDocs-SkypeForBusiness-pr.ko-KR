@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0e6185b81d7fcdbf76efa7c827249a93dfc00df
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 9f541eb0bd6970a54bad5272a26ec3a3449d2a13
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868685"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552634"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams 상용 클라우드 평가판 관리
 =======================================================
@@ -81,7 +81,7 @@ Teams 평가판은 개별 최종 사용자가 시작하고 최종 사용자 직�
 
 사용자는 평가판 앱과 서비스를 설치하는 기능을 해제할 수 있습니다.
 
-1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)에서 **설정** > **설정**으로 이동하여 **서비스**를 선택한 다음 **사용자 소유 앱 및 서비스**를 선택합니다.
+1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)에서 **설정**  >  **조직 설정**으로 이동하여 **서비스**를 선택한 다음 **사용자 소유 앱 및 서비스**를 선택합니다.
 
     ![관리 센터의 서비스 페이지 스크린샷](media/iw-trial-services.png)
 
