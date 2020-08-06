@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b5c289a2cc87c778a0d9b0bd1ebb8d52978fb4
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 1508305fbc1d45caff9306dd5afb01d587df030b
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229144"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552286"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================
@@ -81,7 +81,7 @@ Teams 예비 환경은 Exchange Online 라이선스와 함께 제공되지만 �
 
 사용자가 평가판 앱 및 서비스를 설치하는 기능을 해제하여 사용자가 Teams 예비 환경을 실행하지 못하도록 할 수 있습니다. 
 
-1. Microsoft 365 관리 센터에서 **설정** > **설정**으로 이동하여 **서비스**를 선택한 다음 **사용자 소유 앱 및 서비스**를 선택합니다.
+1. Microsoft 365 관리 센터에서 **설정** > **조직 설정**으로 이동하여 **서비스**를 선택한 다음 **사용자 소유 앱 및 서비스**를 선택합니다.
 
     ![관리 센터의 서비스 페이지 스크린샷](media/iw-trial-services.png)
 
@@ -169,4 +169,3 @@ Microsoft Teams의 예비 환경은 다음 엔터프라이즈 **계약 기념일
 주기 또는 연간 갱신 날짜가 없는 계약서의 경우, 첫 번째 최종 사용자가 Microsoft Teams Exploratory 환경 라이선스를 정품 인증한 다음의 년도가 기념일 또는 갱신 날짜로 간주됩니다. 위에 간략히 설명한 정책에 따라 Microsoft Teams Exploratory 라이선스를 사용하는 사용자는 각 해 해당일까지 유료 라이선스로 전환해야 합니다.
 
 예를 들어, 첫 번째 최종 사용자가 Microsoft Teams Exploratory 라이선스를 2020년 6월 19일에 정품 인증을 하면, 해당 사용자와 고객 테넌트에 있는 다른 모든 적격 사용자는 2021년 6월 19일까지 유료 라이선스로 전환해야 합니다. 
-
