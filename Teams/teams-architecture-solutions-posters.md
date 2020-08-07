@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams IT 아키텍처 및 전화 통신 솔루션 포스터
-ms.author: lolaj
-author: lolajacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: '요약: Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 논리적 아키텍처에 대해 알아봅니다. Teams의 전화 통신 솔루션에 대해서도 알아봅니다. '
-ms.openlocfilehash: 6518762250e2cd6fadc2bc2b6eb284a4af31edc4
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: dbf9d5eaff538786125b6414b209692ddf36472f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064503"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583497"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT 아키텍처 및 전화 통신 솔루션 포스터
 
