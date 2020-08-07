@@ -675,7 +675,7 @@
 ### [다수의 사용자에 정책 할당하기](batch-group-policy-assignment-edu.md)
 ### [교사 및 학생을 위한 보안 그룹 생성을 위한 PowerShell 스크립트](scripts/powershell-script-security-groups-edu.md)
 ### [교육 관리자용 낮은 대역폭 지침](edu-remote-low-bandwidth.md)
-### [수업 정보 활용](class-insights.md)
+### [인사이트 시작하기](class-insights.md)
 ### [교육용 Teams의 과제](expand-teams-across-your-org/assignments-in-teams.md)
 ### [교육용 Teams 리소스 관리](resources-teams-edu.md)
 ### [관리자용 Microsoft 교육 거버넌스 FAQ](plan-teams-governance-edu.md)
