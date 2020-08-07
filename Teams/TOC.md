@@ -660,6 +660,7 @@
 ### [의료 조직을 위한 Teams 서식 파일 시작](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [의료 조직을 위한 보안 메시징 시작](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [메시지 위임](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [의료용 Teams 정책 패키지](policy-packages-healthcare.md)
 ### [환자 앱 개요](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [Microsoft Teams에 전자 의료 레코드 통합](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 인터페이스 사양](expand-teams-across-your-org/healthcare/dstu2-interface.md)
