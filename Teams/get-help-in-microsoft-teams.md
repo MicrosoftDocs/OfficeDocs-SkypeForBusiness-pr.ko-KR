@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀에서 도움말 보기
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,28 +17,28 @@ description: Microsoft 팀에서 도움말을 보려면 도움말 항목, 비디
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a43e6f0907f3cb5c994b9ce0060a7213744358d
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: cdc4365e000eab7ff4c91cbcb0f44d985bb13c33
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085304"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583215"
 ---
-<a name="get-help-in-microsoft-teams"></a><span data-ttu-id="40952-103">Microsoft 팀에서 도움말 보기</span><span class="sxs-lookup"><span data-stu-id="40952-103">Get help in Microsoft Teams</span></span>
+<a name="get-help-in-microsoft-teams"></a><span data-ttu-id="f2694-103">Microsoft 팀에서 도움말 보기</span><span class="sxs-lookup"><span data-stu-id="f2694-103">Get help in Microsoft Teams</span></span>
 ============================================
 
-<span data-ttu-id="40952-104">Microsoft 팀의 도움말 단추는 사용자와 챔피언가 팀을 사용 하는 동안 필요한 모든 지원을 찾을 수 있는 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="40952-104">The Help button in Microsoft Teams is where your users and champions can find all the assistance they might need while using Teams.</span></span>
+<span data-ttu-id="f2694-104">Microsoft 팀의 도움말 단추는 사용자와 챔피언가 팀을 사용 하는 동안 필요한 모든 지원을 찾을 수 있는 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="f2694-104">The Help button in Microsoft Teams is where your users and champions can find all the assistance they might need while using Teams.</span></span>
 
-<span data-ttu-id="40952-105">팀은 도움말 내용에 대해 지역화 된 언어 지원을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="40952-105">Teams provides localized language support for help content.</span></span> <span data-ttu-id="40952-106">지원 되는 언어의 최신 목록은 [Microsoft 팀에서 지원 되는 도움말 콘텐츠 언어](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="40952-106">For the most current list of supported languages, see [Microsoft Teams supported languages for help content](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).</span></span>
+<span data-ttu-id="f2694-105">팀은 도움말 내용에 대해 지역화 된 언어 지원을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="f2694-105">Teams provides localized language support for help content.</span></span> <span data-ttu-id="f2694-106">지원 되는 언어의 최신 목록은 [Microsoft 팀에서 지원 되는 도움말 콘텐츠 언어](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f2694-106">For the most current list of supported languages, see [Microsoft Teams supported languages for help content](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).</span></span>
 
- - <span data-ttu-id="40952-107">**주제 찾아보기** -팀에서 구성한 도움말 내용으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40952-107">**Browse Topics** - This goes to help content organized by Teams feature.</span></span> <span data-ttu-id="40952-108">사용자가 팀을 최대한 활용 하는 데 도움이 되는 간단 하 고 간단한 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="40952-108">Simple and straightforward guidance to help users get the most out of Teams.</span></span> 
+ - <span data-ttu-id="f2694-107">**주제 찾아보기** -팀에서 구성한 도움말 내용으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="f2694-107">**Browse Topics** - This goes to help content organized by Teams feature.</span></span> <span data-ttu-id="f2694-108">사용자가 팀을 최대한 활용 하는 데 도움이 되는 간단 하 고 간단한 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="f2694-108">Simple and straightforward guidance to help users get the most out of Teams.</span></span> 
 
- - <span data-ttu-id="40952-109">**비디오** -주문형 영상 콘텐츠를 통해 사용자는 특정 작업을 빠르게 배울 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40952-109">**Videos** - Our on-demand video content enables users to learn specific tasks quickly.</span></span> <span data-ttu-id="40952-110">계속 해 서 새 비디오가 생성 되므로 자주 확인해 보세요.</span><span class="sxs-lookup"><span data-stu-id="40952-110">We're continually producing new videos, so check back frequently.</span></span> <span data-ttu-id="40952-111">물론 인터넷 액세스가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="40952-111">Internet access is required, of course.</span></span> 
+ - <span data-ttu-id="f2694-109">**비디오** -주문형 영상 콘텐츠를 통해 사용자는 특정 작업을 빠르게 배울 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f2694-109">**Videos** - Our on-demand video content enables users to learn specific tasks quickly.</span></span> <span data-ttu-id="f2694-110">계속 해 서 새 비디오가 생성 되므로 자주 확인해 보세요.</span><span class="sxs-lookup"><span data-stu-id="f2694-110">We're continually producing new videos, so check back frequently.</span></span> <span data-ttu-id="f2694-111">물론 인터넷 액세스가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="f2694-111">Internet access is required, of course.</span></span> 
 
- - <span data-ttu-id="40952-112">**새로운 기능** - 
-    신규 또는 업데이트 된 팀 기능에 대 한 사용자 및 팀 소유자의 정기 릴리스 정보입니다.</span><span class="sxs-lookup"><span data-stu-id="40952-112">**What's New** - 
+ - <span data-ttu-id="f2694-112">**새로운 기능** - 
+    신규 또는 업데이트 된 팀 기능에 대 한 사용자 및 팀 소유자의 정기 릴리스 정보입니다.</span><span class="sxs-lookup"><span data-stu-id="f2694-112">**What's New** - 
 Periodic release notes for users and team owners about new or updated Teams features.</span></span>
 
- - <span data-ttu-id="40952-113">**아이디어 공유** -팀을 개선 하는 방법에 대 한 의견을 항상 알려 드립니다.</span><span class="sxs-lookup"><span data-stu-id="40952-113">**Share an Idea** - We always want to hear from you about how to improve Teams.</span></span> <span data-ttu-id="40952-114">이 옵션을 선택 하면 새 기능 요청을 제출 하거나 기존에 투표 하는 데 사용할 수 있는 제품 피드백 포럼으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40952-114">This option takes you to our product feedback forum where you can submit new feature requests or vote on existing ones.</span></span> <span data-ttu-id="40952-115">이 정보는 새로운 기능을 계획할 때 지속적으로 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="40952-115">We constantly review this information as we plan new features.</span></span> 
+ - <span data-ttu-id="f2694-113">**아이디어 공유** -팀을 개선 하는 방법에 대 한 의견을 항상 알려 드립니다.</span><span class="sxs-lookup"><span data-stu-id="f2694-113">**Share an Idea** - We always want to hear from you about how to improve Teams.</span></span> <span data-ttu-id="f2694-114">이 옵션을 선택 하면 새 기능 요청을 제출 하거나 기존에 투표 하는 데 사용할 수 있는 제품 피드백 포럼으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="f2694-114">This option takes you to our product feedback forum where you can submit new feature requests or vote on existing ones.</span></span> <span data-ttu-id="f2694-115">이 정보는 새로운 기능을 계획할 때 지속적으로 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="f2694-115">We constantly review this information as we plan new features.</span></span> 
 
 

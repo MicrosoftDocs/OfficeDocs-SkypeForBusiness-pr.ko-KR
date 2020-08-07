@@ -7,8 +7,8 @@ metadata:
   description: IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에서 가장 인기 있고 멋진 시나리오를 중심으로 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 제공 합니다. 이러한 온라인 대화형 워크샵은 실무 전문가의 촉진를 통해 팀 구현을 개선 하 고 최종 사용자에 게 추가 가치를 제공할 수 있는 정보를 제공 합니다. 사용 가능한 날짜와 시간을 보려면 아래 워크숍 제목을 클릭 하 고 지금 등록 하세요! 등록할 워크숍 타이틀을 클릭 합니다.
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 06/17/2020
   ms.reviewer: nsuter
@@ -25,12 +25,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 45489827990ef2453a92e6a7ea980790efadb569
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902388"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583467"
 productDirectory:
   items:
   - title: 팀에 게 가져오기--프로덕션에서의 제로
