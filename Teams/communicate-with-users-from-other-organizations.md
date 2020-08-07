@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서 다른 조직의 사용자와 의사소통하기
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 외부 액세스 (페더레이션) 및 게스트 액세스를 사�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 61cbaf6b869ffb0ff377615081953d16a6a63aea
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: 28897d5d94d56a7113fc555e0547192931caf3eb
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125971"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581799"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams에서 다른 조직의 사용자와 의사소통하기
 ======================================================

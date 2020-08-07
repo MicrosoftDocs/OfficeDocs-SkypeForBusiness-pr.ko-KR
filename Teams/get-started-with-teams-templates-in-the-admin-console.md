@@ -19,16 +19,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 26f26e869758c06762167731068033acb1707135
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506446"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583175"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>팀 관리 콘솔에서 팀 서식 파일 시작
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**사용자 지정 서식 파일은 현재 .EDU 고객에 대해 지원 되지 않습니다.**
 
 > [!NOTE]
 > 팀 템플릿은 현재 개인 채널 만들기를 지원 하지 않습니다. 개인 채널 만들기는 서식 파일 정의에 포함 되지 않습니다.
@@ -89,6 +91,6 @@ ms.locfileid: "46506446"
 
 ## <a name="related-topics"></a>관련 항목
 
-- [팀 서식 파일 만들기](create-a-team-template.md)
-- [기존 팀 서식 파일에서 팀 만들기](modify-existing-team-template.md)
-- [기존 팀에서 서식 파일 만들기](create-team-from-existing-team.md)
+- [사용자 지정 팀 서식 파일 만들기](create-a-team-template.md)
+- [기존 팀 템플릿에서 팀 서식 파일 만들기](create-template-from-existing-template.md)
+- [기존 팀에서 서식 파일 만들기](create-template-from-existing-team.md)

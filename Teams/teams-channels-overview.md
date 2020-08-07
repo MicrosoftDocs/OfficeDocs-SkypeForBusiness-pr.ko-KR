@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams의 Teams 및 채널 개요
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19c4bf59275d0f9be4c522129fd20ae668c2f30d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 36c29eaba8a16bde44e9f3537eee9950c53d2715
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753440"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581829"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 

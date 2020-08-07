@@ -1,6 +1,6 @@
 ---
 title: 통화 품질 대시보드의 스트림 분류 (CQD)
-ms.author: lolajacobsen
+ms.author: serdarsacobsen
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Microsoft 팀과 비즈니스용 Skype Online의 경우 통화 품질 대시보드 (CQD)에서 스트림 품질이 분류 되는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085894"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583827"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>통화 품질 대시보드의 스트림 분류 (CQD)
 

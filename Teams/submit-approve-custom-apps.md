@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 팀 앱 제출 API를 사용 하 여 제출한 사용자 지정 앱을 승인 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 7168a6cf531890a8e942153cc4d214085d6bc63f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552604"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583507"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>팀 앱 제출 API를 통해 제출 된 사용자 지정 앱 게시
 
@@ -87,6 +87,12 @@ Microsoft 팀 관리 센터의 <a href="https://docs.microsoft.com/microsoftteam
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>사용자가 검색할 수 있도록 앱을 고정 하 고 설치 합니다.
 
 기본적으로 사용자는 조직의 app store로 이동 하 여 해당 앱을 찾거나 검색 해야 합니다. 사용자가 앱에 쉽게 액세스할 수 있도록 하려면 팀의 앱 표시줄에 앱을 고정 하면 됩니다. 이렇게 하려면 앱 설치 정책을 만들어 사용자에 게 할당 합니다. 자세히 알아보려면 <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">팀에서 앱 설정 정책 관리</a>를 참조 하세요.
+
+### <a name="search-the-audit-log-for-teams-app-events"></a>팀에 대 한 감사 로그 앱 이벤트 검색
+
+감사 로그를 검색 하 여 조직의 팀 앱 활동을 볼 수 있습니다. 감사 로그를 검색 하 고 감사 로그에 기록 된 팀 활동 목록을 확인 하는 방법에 대 한 자세한 내용은 <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">팀에서 이벤트 감사 로그 검색</a>을 참조 하세요.
+
+감사 로그를 검색 하려면 먼저 <a href="https://protection.office.com" target="_blank">보안 & 준수 센터</a>에서 감사를 설정 해야 합니다. 자세히 알아보려면 <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">감사 로그 검색 설정 또는 해제</a>를 참조 하세요. 감사 데이터는 감사를 설정한 지점 에서만 사용할 수 있다는 점에 유의 하세요.
 
 ## <a name="discover-and-adopt"></a>검색 및 채택
 

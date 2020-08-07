@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서 팀 보관 또는 삭제하기
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e17f27cdbaaca9070d87714b58906df96539e12e
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 334ecfdc387f1b3dd6d7f1312b90d81aee320df0
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372197"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582765"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 ===========================================

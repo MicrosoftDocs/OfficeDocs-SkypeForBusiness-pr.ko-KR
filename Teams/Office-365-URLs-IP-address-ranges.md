@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 및 Office 365 Url 및 IP 주소 범위
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
@@ -20,17 +20,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30736a347f447d265059de1a26ded5ef690e53dc
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 94fd32cb4f68d636a6ff49ecf3b9c19689542142
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665695"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582125"
 ---
 <a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 및 Office 365 Url 및 IP 주소 범위
 =======================================================
 
-[Microsoft 365 및 Office 365 url 및 ip 주소 범위로](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 이동 하 여 팀에 맞게 올바르게 구성 해야 하는 URL, IP 주소, 포트 및 프로토콜에 대 한 상세 및 최신 목록을 표시 합니다. Microsoft는 Microsoft 365 및 Office 365 서비스를 지속적으로 개선 하 고 새로운 기능을 추가 하 여 필요한 포트, Url 및 IP 주소가 시간에 따라 변경 될 수 있음을 의미 합니다. 이 정보를 업데이트 하거나 변경할 때 알림을 받으려면 [RSS를 통해 구독](https://go.microsoft.com/fwlink/p/?linkid=236301) 하는 것이 좋습니다.
+[Microsoft 365 및 Office 365 url 및 ip 주소 범위로](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 이동 하 여 팀에 맞게 올바르게 구성 해야 하는 URL, IP 주소, 포트 및 프로토콜에 대 한 상세 및 최신 목록을 표시 합니다. Microsoft는 계속해서 Microsoft 365 및 Office 365 서비스를 개선하고 새 기능을 추가하고 있으며 이는 필수 포트, URL, IP 주소가 시간이 지나면서 변경됨을 의미합니다. 이 정보를 업데이트 하거나 변경할 때 알림을 받으려면 [RSS를 통해 구독](https://go.microsoft.com/fwlink/p/?linkid=236301) 하는 것이 좋습니다.
 
 팀 통화 및 모임 환경은 Skype 및 비즈니스용 Skype에서 함께 사용 되는 차세대 클라우드 기반 인프라에 기반을 둔 것입니다. 이러한 기술 투자에는 미디어 처리 및 신호, SILK 및 Opus audio 코덱, 네트워크 탄력성, 원격 분석, 품질 진단 등을 위한 Azure 기반 클라우드 서비스가 포함 됩니다. 따라서 Skype와 비즈니스용 Skype 모두에 연결 될 수 있는 Url과 Ip가 필요 합니다.
 

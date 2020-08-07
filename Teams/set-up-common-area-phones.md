@@ -1,7 +1,7 @@
 ---
 title: 일반 지역 전화 라이선스 설정
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/13/2018
 ms.reviewer: kponnus
@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 지역 및 회의실에 대 한 공통 영역 전화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: d9d77765451f98028f808028822ec42e6e51fdc7
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 4e9e96c3384fa365004d4b4b5281c10decdc5dd1
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552306"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581099"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft 팀을 위한 공통 영역 전화 라이선스 설정
 > [!NOTE]

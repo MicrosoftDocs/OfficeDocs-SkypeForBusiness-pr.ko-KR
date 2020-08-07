@@ -1,7 +1,7 @@
 ---
 title: CQD (통화 품질 대시보드) 란?
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드 (CQD) 및이를 사용 하 여 Microsoft 팀의 모임 및 통화 품질에 대 한 보고서를 확인 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b7830d60139991b7ccc18679af798c74430e8ed1
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 9ba1956533887314a9ffa7ad994cbb4c81ffe103
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088246"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583487"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>CQD (통화 품질 대시보드) 란?
 

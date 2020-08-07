@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀의 외부 (페더레이션된) 사용자를 위한 기본 채팅 환경
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,12 +14,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 모든 사용자가 팀 전용 업그레이드 모드에 있는 외부 사용자 간에 사용할 수 있는 Microsoft 팀의 외부 액세스 (페더레이션된) 사용자를 위한 기본 팀 채팅 환경에 대해 알아봅니다.
-ms.openlocfilehash: 1a8cd038f8ff65ea24abb790e564d2cb30ef0ed1
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 1274e71f5854e05049c8d766bd3456a0792b1032
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842009"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583847"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft 팀의 외부 (페더레이션된) 사용자를 위한 기본 채팅 환경
 ======================================

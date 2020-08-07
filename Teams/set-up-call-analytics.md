@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀에 대 한 통화 분석 설정
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Microsoft 팀 통화 품질 문제를 식별 하 고 해결 하기 위한 사용자 단위 통화 분석을 설정 합니다.
-ms.openlocfilehash: 233d91a60ea783238e10ed1baa02334494ef6e08
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f1ea46f275dfbbe5ea7f6cd40d8c06fba2b5e00f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085314"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581109"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>Microsoft 팀에 대 한 통화 분석 설정
 

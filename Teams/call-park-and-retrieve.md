@@ -1,7 +1,7 @@
 ---
 title: 통화 공원 및 Microsoft 팀에서 검색
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 통화 공원을 사용 하 고 클라우드의 팀 서비스에서 통화를 보류 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938537"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582655"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원 및 Microsoft 팀에서 검색
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 및 사용자 지정 커넥터 사용
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -17,12 +17,12 @@ description: 커넥터는 자주 사용하는 서비스의 콘텐츠와 업데�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9ea72fbe054e3a6d0e89f87f1a8c23303ef55c5c
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: e704dd6a9a796be4f9e361972cd2e6b38e48ce51
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637757"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582475"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft 365 및 사용자 지정 커넥터 사용
 =======================================================

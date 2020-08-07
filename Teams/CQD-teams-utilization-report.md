@@ -1,7 +1,7 @@
 ---
 title: CQD 데이터를 사용 하 여 Power BI에서 Microsoft 팀 사용률 보기
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 팀 활용 Power BI 보고서를 사용 하 여 조직에서 Microsoft 팀 사용량을 추적 하기 위해 Microsoft 팀의 CQD (통화 품질 대시보드) 데이터에 액세스 합니다.
-ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: bda89f3715997016e6c1bea242dcf6b8b182c6bf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085584"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581549"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>CQD 데이터를 사용 하 여 Power BI에서 Microsoft 팀 사용률 보기
 

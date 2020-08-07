@@ -1,7 +1,7 @@
 ---
 title: CQD PSTN 다이렉트 라우팅 보고서 사용
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies, fan.fan
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Microsoft 팀 통화 품질 대시보드 (CQD)) PSTN 다이렉트 라우팅 보고서를 사용 하 여 Microsoft 팀에서 PSTN 통화를 모니터링 하 고 문제를 해결 하세요.
-ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e4662d80dbba88c1049c7ef98569dae408ca9ba0
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085344"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583105"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN 다이렉트 라우팅 보고서 사용
 

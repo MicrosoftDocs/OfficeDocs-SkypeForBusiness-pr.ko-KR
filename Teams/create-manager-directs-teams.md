@@ -1,8 +1,8 @@
 ---
 title: Microsoft 팀에서 사람 관리자 팀 만들기
 ms.reviewer: pbethi
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb6cd6ed74bebd0cbd729b828c152b9f04d1fc1f
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: fe57656eec61747dd0a43d475444e65d8600e222
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796224"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583677"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Microsoft 팀에서 사람 관리자 팀 만들기
 
@@ -30,9 +30,9 @@ Microsoft 팀에 "빈 슬레이트" (팀 또는 채널 없음)를 사용 하 여
 
 ## <a name="how-to-use-the-powershell-script"></a>PowerShell 스크립트를 사용 하는 방법 
 
-[내보내기 관리자 및 해당](scripts/powershell-script-create-teams-from-managers-export-managers.md) 하는 연결 스크립트 ( [AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) 및 [MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) PowerShell 모듈을 이미 실행 했다고 가정)를 실행 하 여 시작 합니다. *내보내기 관리자와 해당 하* 는 스크립트는 직접 보고서가 있는 모든 관리자를 나열 하는 탭으로 구분 된 파일 (ExportedManagerDirects)을 만듭니다. 
+[내보내기 관리자 및 해당](scripts/powershell-script-create-teams-from-managers-export-managers.md) 하는 연결 스크립트 ( [AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) 및 [MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) PowerShell 모듈을 이미 실행 했다고 가정)를 실행 하 여 시작 합니다. *내보내기 관리자 및 해당 하* 는 스크립트는 직속 보고서가 있는 모든 관리자를 나열 하는 탭으로 구분 된 파일 (ExportedManagerDirects.txt)을 만듭니다. 
 
-그런 다음, [새 people manager 팀 만들기 스크립트](scripts/powershell-script-create-teams-from-managers-new-teams.md)를 실행 합니다. 이 스크립트는 ExportedManagerDirects 파일을 읽고 관리자의 직접 보고서를 구성원으로 사용 하 여 각 관리자를 위한 팀을 만듭니다. 팀에 대 한 관리자 또는 다이렉트가 활성화 되지 않은 경우 스크립트는이를 건너뛰고 팀을 만들지 않습니다. (보고서를 검토 한 다음 필요한 모든 사용자에 대해 팀을 켠 후에 스크립트를 다시 실행 합니다. 이 스크립트는 이미 팀을 만든 관리자를 위해 두 번째 팀을 만들지 않습니다.
+그런 다음, [새 people manager 팀 만들기 스크립트](scripts/powershell-script-create-teams-from-managers-new-teams.md)를 실행 합니다. 이 스크립트는 ExportedManagerDirects.txt 파일을 읽고 관리자의 직접 보고서를 구성원으로 하 여 각 관리자를 위한 팀을 만듭니다. 팀에 대 한 관리자 또는 다이렉트가 활성화 되지 않은 경우 스크립트는이를 건너뛰고 팀을 만들지 않습니다. (보고서를 검토 한 다음 필요한 모든 사용자에 대해 팀을 켠 후에 스크립트를 다시 실행 합니다. 이 스크립트는 이미 팀을 만든 관리자를 위해 두 번째 팀을 만들지 않습니다.
 
 각 팀에 대해 스크립트는 일반 및 "재미 있는" 채널을 만듭니다. 
 

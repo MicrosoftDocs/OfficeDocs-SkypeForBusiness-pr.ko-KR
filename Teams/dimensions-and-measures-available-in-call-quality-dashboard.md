@@ -1,7 +1,7 @@
 ---
 title: 치수 및 측정-통화 품질 대시보드 (CQD)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Microsoft 팀과 비즈니스용 Skype Online에 대 한 CQD (통화 품질 대시보드)에 사용 되는 크기와 측정에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: 1625a7fcb0de0c2e5ad8586b0985ddb61de5e75b
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 9398c7861be3b87e0d181c979ffb0046dbfdf695
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372137"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583947"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>통화 품질 대시보드에서 사용할 수 있는 크기 및 측정값 (CQD)
 

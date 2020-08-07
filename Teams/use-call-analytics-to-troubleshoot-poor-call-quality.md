@@ -1,7 +1,7 @@
 ---
 title: 통화 분석을 사용 하 여 통화 품질 저하 문제 해결
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 장치, 네트워크 및 연결에 대 한 사용자별 통화 분석 세부 정보를 사용 하 여 Microsoft 팀원의 통화 및 모임에서 발생 하는 문제를 해결할 수 있습니다.
-ms.openlocfilehash: fa923a133ac6a56edcbc6f6445d2859692adf351
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 8bee41e79f2610adcb9a1fed3f895c728526f5ea
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085324"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583627"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용 하 여 통화 품질 저하 문제 해결
 

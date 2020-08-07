@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀 관리자 역할을 사용 하 여 팀 관리
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: 관리 역할을 사용 하 여 팀을 관리 하는 데 다른 수준의 액세스가 필요한 관리자를 지정 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 4f9059815e61ff0343f909ef76d03abf904c8bd4
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229044"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583537"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft 팀 관리자 역할을 사용 하 여 팀 관리
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀에서 기본 제공 및 사용자 지정 탭 사용
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 기본 제공 및 사용자 지정 탭을 사용 하 여 대화, 파일, 지도 등과 같은 기능을 포함 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824696"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581359"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft 팀에서 기본 제공 및 사용자 지정 탭 사용
 ==================================================
@@ -41,7 +41,7 @@ ms.locfileid: "41824696"
 
     ![채팅의 탭 스크린샷.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- 소유자와 팀 구성원은 + 기호를 표시 하는 탭 추가 단추의 **탭** ![스크린샷 추가를 클릭 하 여 채널 또는 채팅에 탭을 추가할 수 있습니다.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 채널 또는 채팅의 맨 위에 있습니다.
+- 소유자와 팀 구성원은 + 기호를 표시 하는 탭 추가 단추의 탭 스크린샷 **추가** 를 클릭 하 여 채널 또는 채팅에 탭을 추가할 수 있습니다 ![ .](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 채널 또는 채팅의 맨 위에 있습니다.
 
 - Excel, PowerPoint, Word, PDF 파일은 탭으로 변환할 수 있으려면 먼저 **파일** 탭에 업로드 해야 합니다. 다음과 같이 한 번의 클릭으로 업로드 된 기존 파일을 탭으로 변환할 수 있습니다.
 

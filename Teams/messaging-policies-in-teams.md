@@ -1,7 +1,7 @@
 ---
 title: 팀에서 메시징 정책 관리
-ms.author: lolaj
-author: lolajacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 메시징 정책과이를 사용 하 여 팀의 채팅 메시지를 제어 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c29697c8ec4d235ed232616e34590351bea59e9e
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 75ea34b23f80538fad2cbf2b1e456ad6ab98ea2c
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042980"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583295"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>팀에서 메시징 정책 관리
 

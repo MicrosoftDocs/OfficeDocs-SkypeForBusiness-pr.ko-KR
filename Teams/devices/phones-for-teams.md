@@ -17,134 +17,68 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀에 대해 인증 되는 전화 목록과 Microsoft 팀을 위해 인증 된 전화에서 지원 되는 기능에 대해 설명 합니다.
-ms.openlocfilehash: e34734d88caa011185e56c5540d0fe6cee62dfe0
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: b017e02b2d3d2bdc6b01886929d034abb6650384
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281779"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583957"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft 팀 용 전화
 
-Microsoft 팀은 일반 전화 환경을 필요로 하는 사용자를 위한 일반 전화기 포트폴리오를 지원 합니다. 이 문서에서는 Microsoft 팀에 대해 인증 되는 전화 목록과 Microsoft 팀을 위해 인증 된 전화에서 지원 되는 기능에 대해 설명 합니다. 팀 인증 장치에 대 한 최신 정보를 얻으려면 [팀 마켓플레이스](https://office.com/teamsdevices)로 이동 하세요.
+Microsoft 팀은 일반 전화 환경을 필요로 하는 사용자를 위한 일반 전화기 포트폴리오를 지원 합니다. 이 문서에서는 팀 전화에 대 한 전체 개요를 제공 하 고 Microsoft 전화 시스템 솔루션의 일부로 Microsoft 팀 전화를 계획, 제공, 관리 하는 데 도움이 될 수 있습니다. 
 
-## <a name="teams-certified-ip-phones"></a>팀 인증 된 IP 전화
+휴대폰을 사용 하는 고품질의 안정적인 Microsoft 팀 환경을 제공 하기 위해, dell은 전세계 Alink, Crestron, Lenovo, Polycom, 및 여러 지역 코드를 통해 파트너와 회의실 오디오 장치를 개발 하 고 인증 하는 데 참여 하 고 있습니다. 팀 장치에 대 한 최신 정보를 얻으려면 [팀 마켓플레이스](https://office.com/teamsdevices)로 이동 하세요.
 
-휴대폰을 사용 하 여 고품질의 안정적인 Microsoft 팀 환경을 제공 하기 위해, 전세계의 다양 한 전화 접속 및 회의실 오디오 장치를 개발 하 고 인증 하기 위해 옛 Alink, Crestron, Polycom,와 함께 작업 하는 것은 파트너와 활발 하 게 작동 하는 것입니다. 현재 지원 되는 디바이스에 대해 [현재 인증 된 IP 전화](teams-ip-phones.md#currently-certified-ip-phones) 를 확인 합니다.
+## <a name="features-supported-by-teams-phones"></a>팀 전화에서 지원 되는 기능
+팀 인증 전화는 사용자가 작업을 수행 하는 데 도움이 되는 광범위 한 기능을가지고 있으며, 사용을 관리 하는 데 도움을 줍니다. 팀 인증 전화에서 사용할 수 있는 기능에 대 한 요약은 다음과 같습니다.
 
-## <a name="microsoft-teams-phones-feature-set"></a>Microsoft 팀 전화 기능 집합
+- **인증** 전화는 로그인을 단순화 하 고 보안을 강화 하기 위해 최신 인증을 사용 합니다. 사용자는 휴대폰에 사용자 이름 및 암호를 입력 하거나 PC/스마트폰 같은 다른 장치에서 로그인 하 여 로그인 할 수 있습니다.
+- **스피드 다이얼 및 통화 기록** 사용자는 연락처, 통화 기록, 보이스 메일에 빠르게 액세스할 수 있습니다. 휴대폰에서 바로 연락처와 빠른 전화 걸기 항목을 쉽게 관리할 수 있습니다.
+- **모임 및 통화** 사용자는 자신의 일정을 보고 팀의 일대일 터치 조인을 사용 하 여 모임에 쉽게 참가할 수 있습니다.
+- **통화 그룹** 통화 그룹에 참가 하는 전화 상담원은 사용 가능한 시간을 쉽게 관리 하 고 통화 대기열에서 수신 전화를 수락 하거나 거절할 수 있습니다.
+- **사용자 위임** 임원 도우미와 관리자는 경영진의 전화 가로채기 수신 전화를 관리할 수 있습니다. 경영진을 대신 하 여 전화를 걸 수 있습니다. 임원에 저장 된 통화를 더 많이 사용 합니다. 그리고 경영진이 통화 중인지, 대기 중인지 여부를 모니터링 하세요.
+- **핫 desking** 사용자는 휴대폰에 로그인 하는 것 만으로 연락처, 모임 및 기타 기본 설정을 가져올 수 있습니다. 완료 되 면 로그 아웃 하 고 다음 사용자에 게 전화를 걸 수 있습니다.
+- **영상** 영상 지원이 있는 휴대폰은 사용자가 컴퓨터에서와 마찬가지로 통화 및 비디오 회의에 참가할 수 있습니다. 사용자는 휴대폰의 카메라 셔터와 마이크 음소거 스위치 (사용 가능한 경우)를 사용 하 여 개인 정보를 유지할 수 있습니다.
+- **더 잘 조화** 휴대폰은 64 비트 팀 데스크톱 클라이언트를 실행 하는 Windows PC에 연결 된 경우 통합 방식으로 잠그거나 잠금을 해제할 수 있습니다.
+- **접근성** 휴대폰에는 모든 사용자가 쉽게 사용할 수 있도록 고대비 텍스트 등의 여러 가지 접근성 기능이 있습니다.
+- **동적 및 향상 된 E911 지원** 911를 호출 하는 로그인 한 사용자는 휴대폰에서 해당 위치를 볼 수 있습니다. 
+    > [!IMPORTANT]
+    > 전화가 로그인 되지 않았거나 인터넷에 연결 되어 있지 않은 경우에는 911 통화를 배치할 수 없습니다. 이러한 상황이 발생 하면 전화에 알림이 표시 됩니다.
 
-팀 인증 IP 전화에서 지원 되는 상위 수준의 기능 집합은 다음 표에 나와 있습니다.
-
-|기능 |일반 전화기 (개인 모드) |회의실 전화 (공유 모드)|
-|---------|---------|---------|
-|**인증** | |  |
-|사용자 자격 증명으로 로그인 |  예 | 예|
-|PC/스마트폰를 사용 하 여 로그인  | 예 |예|
-|최신 인증 | 예 |예 |
-|전화 잠금/잠금 해제 | 예 |아니요 |
-|**통화** |  |  |
-|수신/발신 P2P 통화 | 예  |예 |
-|UI를 통한 통화 중 컨트롤 (음소거, 보류/다시 시작, 전송, 통화 종료)| 예  |예 |
-|PSTN 통화| 예  |예 |
-|시각적 보이스 메일 | 예 | 아니요 |
-|911 지원  | 예  |예 |
-|**일정 및 현재 상태**|   | |
-|일정 액세스 및 모임 세부 정보|예 |예|
-|현재 상태 통합 |예|예|
-|Exchange 일정 통합 |예|예|
-|연락처 사진 통합  |예|예|
-|회사 디렉터리 액세스 | 예|예|
-|**모임**|   ||
-|한 번 클릭으로 모임 참가  | 예  |예 |
-|비즈니스용 Skype 모임 참가 | 예  | 예|
-|모임 통화 제어 (음소거/음소거 해제, 보류/다시 시작, 전화 끊기, 참가자 추가/제거)|예|예|
-|모임 세부 정보|예|아니요|
-
-저희는 사용자가 휴대폰에서 팀의 경험을 향상 시키는 데 도움이 되는 기능을 지속적으로 추가 하는 작업 중입니다. 아래 스크린샷은 현재 지원 되는 경험을 보여줍니다.
-
-## <a name="sign-in-experience"></a>로그인 환경
-
-사용자가 팀의 로그인 단추를 클릭 하면 회사 포털을 통해 로그인이 시작 됩니다. 사용자에 게 휴대폰에 사용자 자격 증명을 입력 하거나 다른 장치에서 로그인을 선택 하 여 로그인 할 수 있는 옵션이 있습니다. 사용자가 다른 장치에서 로그인 하기로 선택한 경우 사용자는 PC 또는 smartphone에서 인증을 완료할 수 있습니다.
-
-**자격 증명을 사용 하 여 사용자 로그인**
-
-![자격 증명으로 로그인 스크린샷](../media/sign-in-with-credentials.png)
-
-**PC/스마트폰을 통한 사용자 로그인**
-
-![다른 장치를 사용 하 여 로그인 하는 스크린샷](../media/sign-in-with-device.jpg)
-
-## <a name="personalshared-mode"></a>개인/공유 모드
-
-로그인이 완료 되 면 개인 용도 또는 공유 회의실에 장치를 사용할지 여부를 사용자가 선택할 수 있습니다.
-
-![개인 또는 공유 계정 옵션 스크린샷](../media/personal-vs-shared-mode.jpg)
-
-팀 전화 환경은 사용자의 선택에 따라 최적화 됩니다.
-
-**개인 모드**
-
-![개인 모드의 계정 스크린샷](../media/personal-mode.png)
-
-**공유 모드**
-
-![공유 모드의 계정 스크린샷](../media/shared-mode.png)
-
-## <a name="calling-experience"></a>전화 환경
-
-Microsoft 팀 사용자는 송수화기를 들어올리고 스피커 버튼을 눌러 통화 화면에서 다이얼 패드를 실행할 수 있습니다. 또는 사용자가 하드웨어 단추 (사용 가능한 경우)를 사용 하 여 전화를 걸 수도 있습니다.
-
-**화상 다이얼 패드**
-
-![화상 다이얼 패드 스크린샷](../media/on-screen-dial-pad.png)
-
-**통화 화면**
-
-![통화 화면의 스크린샷](../media/calling-screen.png)
-
-## <a name="meeting-experience"></a>모임 환경
-
-Microsoft 팀 사용자는 모임 탭으로 이동 하 여 모임을 확인 하 고 **참가** 단추를 사용 하 여 팀 모임에 참가할 수 있습니다.
-
-**달력 보기**
-
-![일정 보기에서 모임의 스크린샷](../media/calendar-view.png)
-
-**모임 참가 보기**
-
-![참가 보기에서 모임 스크린샷](../media/meeting-join-view.png)
-
-
-## <a name="voicemail"></a>음성 메일
-
-Microsoft 팀 사용자가 보이스 **메일** 탭으로 이동할 때 자신의 보이스 메일에 액세스할 수 있습니다.
-
-![보이스 메일 탭 스크린샷](../media/voicemail-tab.png)
-
-## <a name="user-sign-out"></a>사용자 로그 아웃
-
-팀 전화 사용자는 왼쪽 위 메뉴에서 **로그 아웃** 옵션을 선택 하 여 로그 아웃을 선택할 수 있습니다.
-
-![팀의 로그 아웃 스크린샷](../media/teams-sign-out.png)
-
-## <a name="finding-the-firmware-version-on-a-mobile-device"></a>모바일 장치에서 펌웨어 버전 찾기
-
-오른쪽 위 모서리에 있는 **설정** 아이콘을 선택한 다음 **정보**를 클릭 하 여 팀 로그인 페이지에서 최소 펌웨어 버전을 확인할 수 있습니다.
-
-**팀 로그인 페이지**
-
-![팀 로그인 페이지 스크린샷](../media/teams-sign-in-page.jpg)
-
-**설정 페이지**
-
-![팀 설정 페이지 스크린샷](../media/teams-settings-page.jpg)
+위의 기능 외에도, 휴대폰에 로그인 할 때 할당 되는 라이선스 및 전화 정책 유형에 따라 사용할 수 있는 기능을 제어할 수 있습니다. 예를 들어 개인 계정을 사용 하 여 휴대폰에 로그인 하는 사용자는 통화, 모임, 보이스 메일 등의 모든 기능에 액세스할 수 있습니다. 그러나 휴대폰에 로그인 하는 공통 지역 전화 라이선스를 할당 받은 계정에는 제한 된 범위의 기능만 액세스할 수 있습니다. 예를 들어 사용자의 개인 정보를 보호 하기 위해 통화 기록 및 모임 일정이 보존 되지 않을 수 있습니다.
 
 ## <a name="required-licenses"></a>필수 라이선스
 
 Microsoft 팀 라이선스는 [microsoft 365 및 Office 365 구독의](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)일부로 구매할 수 있습니다. 휴대폰에서 Microsoft 팀을 사용 하는 데 필요한 라이선스에 대해 자세히 알아보려면 사용 가능한 [전화 시스템 라이선스](https://products.office.com/microsoft-teams/voice-calling)를 참조 하세요.
 
 팀을 가져오는 방법에 대 한 자세한 내용은 [Microsoft 팀에 대 한 액세스 권한을 얻는 방법](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 확인을 참조 하세요.
+
+## <a name="deploy-your-phones-via-intune"></a>Intune을 통해 휴대폰 배포
+
+### <a name="conditional-access"></a>조건부 액세스
+
+조건부 액세스는 Office 365 리소스에 액세스 하는 디바이스가 제대로 관리 되 고 안전한 지 확인 하는 데 도움이 되는 Azure Active Directory 기능입니다.  팀 서비스에 조건부 액세스 정책을 적용 한 경우에는 팀에 액세스 하는 Android 장치 (팀 전화 포함)가 Intune에 등록 되어 있어야 하 고 해당 설정이 정책을 준수 해야 합니다.  장치가 Intune에 등록 되지 않았거나 등록 되어 있지만 해당 설정이 정책에 맞지 않는 경우에는 조건부 액세스를 통해 사용자가 장치에서 팀 앱을 로그인 하거나 사용할 수 없습니다.
+
+일반적으로 Intune 내에서 정의 된 규정 준수 정책은 사용자 그룹에 게 할당 됩니다.  즉, Android 준수 정책을 user@contoso.com에 할당 하면 해당 정책은 Android smartphone 및 user@contoso.com 로그인 하는 모든 Android 기반 팀 장치에 동일 하 게 적용 됩니다.
+
+사용자의 조직에 Intune 등록이 적용 되어야 하는 조건부 액세스를 사용 하는 경우에는 성공적으로 Intune을 등록할 수 있도록 설정 해야 하는 몇 가지 사항이 있습니다.
+
+- **Intune 라이선스** Microsoft 팀 전화에 로그인 하는 사용자는 Intune에 대 한 사용 권한이 있어야 합니다.  Microsoft 팀 전화가 유효한 Intune 라이선스가 있는 사용자 계정에 로그인 한 경우 로그인 프로세스의 일부로 자동으로 Microsoft Intune에 전화가 등록 됩니다.
+- **Intune 구성** Android 장치 관리자 등록에 대해 올바르게 구성 된 Intune 테 넌 트가 설정 되어 있어야 합니다.
+
+### <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Intune에서 팀으로 등록 Android 기반 장치 구성
+
+팀 Android 기반 장치는 DA (Android 장치 관리자) 관리를 통해 Intune에서 관리 합니다. Intune에 장치를 등록할 수 있으려면 먼저 몇 가지 기본 단계를 수행 해야 합니다.  현재 Intune을 사용 하 여 이미 장치를 관리 하 고 있는 경우 이러한 모든 작업을 이미 수행 했을 수 있습니다.  그렇지 않은 경우 수행할 작업은 다음과 같습니다.
+
+1. Intune MDM (모바일 디바이스 관리) 인증 기관 설정.  아직 Intune을 사용 하지 않은 경우 디바이스를 등록 하기 전에 MDM 기관을 설정 해야 합니다. 자세한 내용은 [모바일 장치 관리 기관 설정을](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set)참조 하세요.  이것은 새 Intune 테 넌 트를 만들 때 수행 해야 하는 일회성 단계입니다.
+2. Android 장치 관리자 등록을 사용 하도록 설정 합니다. Android 기반 팀 디바이스는 Intune을 사용 하 여 디바이스 관리자 장치로 관리 됩니다.  새로 만든 테 넌 트에 대 한 장치 관리자 등록은 기본적으로 해제 되어 있습니다.  자세한 내용은 [Android 장치 관리자 등록](https://docs.microsoft.com/intune/enrollment/android-enroll-device-administrator)을 참조 하세요.
+3. 사용자에 게 라이선스를 할당 합니다. Intune을 등록 하는 팀 디바이스의 사용자에 게 유효한 Intune 라이선스를 할당 해야 합니다. 자세한 내용은 [Intune에서 장치를 등록할 수 있도록 사용자에 게 라이선스 할당](https://docs.microsoft.com/intune/fundamentals/licenses-assign)을 참조 하세요.
+4. 장치 관리자 준수 정책을 할당 합니다.  Android 장치 관리자 준수 정책을 만들고 팀 디바이스에 로그인 할 사용자가 포함 된 Azure Active Directory 그룹에 할당 합니다. 자세한 내용은 [준수 정책을 사용 하 여 Intune을 사용 하 여 관리 하는 장치에 대 한 규칙 설정](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started)을 참조 하세요.
+
+## <a name="manage-your-phones"></a>휴대폰 관리
+
+테 넌 트 관리자는 팀 관리 센터를 통해 모든 팀 디바이스를 최신 상태로 관리할 수 있습니다. 자세한 내용은 [Microsoft 팀에서 장치 관리](https://docs.microsoft.com/microsoftteams/devices/device-management)를 참조 하세요. 
 
 ## <a name="see-also"></a>참고 항목
 

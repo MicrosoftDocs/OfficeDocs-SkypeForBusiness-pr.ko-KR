@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams를 사용하여 정부 기관 원격 작업자 지원하기
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 조직의 정부 기관 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae7580b9fd58be66296ab4c9c5e6723aa1a3db91
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 46e2b3a713ee1c2a1f5de1f858df19dd25c5aef0
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533753"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583877"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 정부 기관 원격 작업자 지원하기
 

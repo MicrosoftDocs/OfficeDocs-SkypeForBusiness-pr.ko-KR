@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀의 공유 선 모양
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Microsoft 팀의 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 92eda8a1818d98689e71d81f31c5355df3ef1e26
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: 7750f85e959f332832c24b60b4efafd784218f61
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125981"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583837"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 팀의 공유 선 모양
 
@@ -59,7 +59,7 @@ ms.locfileid: "45125981"
 
 | 기능 | 팀 데스크톱 | 팀 Mac 앱 | 팀 웹 앱 (Edge) |팀 모바일 iOS/Android 앱 | 팀 IP 전화 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| 대리인 설정 | 예 | 예 | 예 | 아니오 | 예 |
+| 대리인 설정 | 예 | 예 | 예 | 아니요 | 예 |
 | 다른 사람을 대신 하 여 전화 받기 | 예 | 예 | 예 | 예 | 예 |
 | 다른 사람을 대신 하 여 전화 번호 호출 | 예 | 예 | 예 | 예 | 예 |
 | 다른 사람을 대신 하 여 팀 사용자에 게 전화 | 예 | 예 | 예 | 예 | 예 |

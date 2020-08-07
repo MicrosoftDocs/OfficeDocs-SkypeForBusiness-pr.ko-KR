@@ -3,8 +3,8 @@ title: 오디오 회의 설정 구성 - Microsoft Teams
 ms.reviewer: ''
 description: 다음의 배포 리소스를 사용하여 Microsoft Teams에서의 모임 작업의 일부로 오디오 회의를 출시하는 데 도움을 줄 수 있습니다.
 ms.topic: article
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: admin
 ms.date: 01/28/2019
@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c90f5e62dbc3cc4944031eeaa9a19a6fc35bb47f
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 0c8a23faff819f24330b6ab70716dad2afc4cbbd
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085814"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583997"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 배포하는 방법 알아보기
 

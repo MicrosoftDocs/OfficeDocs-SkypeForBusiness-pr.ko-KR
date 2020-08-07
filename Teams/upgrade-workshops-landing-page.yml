@@ -7,8 +7,8 @@ metadata:
   description: Teams에 대한 업그레이드를 계획하고 구현하는 데 도움을 주기 위해 설계된 지침, 모범 사례 및 리소스를 공유하는 실시간 대화형 업그레이드 계획 워크숍 시리즈에 참여하세요. 최적의 환경을 위해 아래의 업그레이드 계획 세션을 사용하여 시작하세요. 등록할 워크숍 타이틀을 클릭 합니다.
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 01/27/2020
   ms.reviewer: landerl
@@ -24,12 +24,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902393"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583285"
 productDirectory:
   items:
   - title: 업그레이드 계획 (여기에서 시작하세요!)

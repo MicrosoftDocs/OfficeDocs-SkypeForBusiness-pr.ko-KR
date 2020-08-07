@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121648"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584087"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>팀 소개 정책 기반 & 모임 기록
 
@@ -40,7 +40,7 @@ ms.locfileid: "45121648"
 
 - 기존 팀 관리 통화, 모임 도구 및 정책과의 통합을 포함 하 여 규정 준수 기록에 대 한 새로운 관리 정책
 
-- 별도의 라이선스가 있는 팀 사용자에 대해 사용
+- [고급 통신 라이선스가](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications) 필요 합니다.
 
 준수 기록 [<span class="underline">및 Microsoft 팀 세션</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)의 Ignite 2019 에서도 문제 해결 기록 솔루션 통합 기능을 검토 했습니다.
 
@@ -56,9 +56,9 @@ ms.locfileid: "45121648"
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | 사람              | 사용자               | 앱/솔루션       | 관리자 (시스템)     | 관리자 (시스템)  | LEA                |
 | 대상                 | 통화 당/회의 | 통화 당/회의 | 통화 당/회의 | 사용자별        | 끝점 단위/ |
-| 저장소 소유자          | 사용자               | 내                | 관리자              | 충족      | LEA                |
+| 저장소 소유자          | 사용자               | 내                | 관리자              | 규정 준수      | LEA                |
 | 알림이 필요 한가요? | 예                | 예                | 예                | 예             | 아니요                 |
-| 액세스 소유자           | 사용자               | 내                | 관리자              | 충족      | LEA                |
+| 액세스 소유자           | 사용자               | 내                | 관리자              | 규정 준수      | LEA                |
 | 보존 정책      | 선택           | 예                | 예                | 예             | 예                |
 
 팀은 모임 및 라이브 이벤트에 대 한 [<span class="underline">편리한</span>](https://docs.microsoft.com/microsoftteams/cloud-recording) 기능과 기능 기록을 위한 다양 한 기능을 제공 합니다. 조직 기록은 팀을 채택 하 여 stipulate에 게 전화를 걸고 모임을 하는 조직을 사용 하도록 설정 하는 것을 의미 합니다. 통화와 온라인 모임을 자동으로 기록 하 고 관련 회사 또는 규정 정책에 따라 후속 처리 및 보존을 위해 캡처할 수 있습니다. 이 정책에 속하는 사용자는 팀과의 디지털 조작이 기록 되 고 있음을 알 수 있지만,이는 조작이 완료 된 후에는 녹음/녹화에 액세스할 수 없게 됩니다. 기록은 eDiscovery, 법률 고 지, 기타 기업 보존 용도에 부합 하 고 법적 담당자가 사용할 수 있는 조직 아카이브의 일부가 됩니다.

@@ -1,8 +1,8 @@
 ---
 title: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: Lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6d2725b3419283d5588882356c7334bb3d33405
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a1b4f05be530e57d11d618ae0489187b65f9e56
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825526"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581669"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Teams에서 작업할 수 있도록 Skype 모임 앱 구성
 ===================================================
@@ -30,7 +30,7 @@ ms.locfileid: "41825526"
 
 Skype for Meeting 앱을 기본 앱으로 지정 하려면 다음을 수행 합니다.
 
-1. Microsoft 팀 관리 센터에 로그인 합니다.
+1. Microsoft Teams 관리 센터에 로그인합니다.
 2. 왼쪽 창의 **조직 전체 설정**에서 **팀 업그레이드**를 선택 합니다.
 3. 팀 업그레이드 페이지의 **앱 기본 설정**에서 비즈니스용 **skype 모임에 참가 하는 사용자를 위한 기본 앱** 의 **skype 모임 앱** 드롭다운 목록을 선택 합니다.
 

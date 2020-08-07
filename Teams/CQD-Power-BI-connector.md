@@ -1,7 +1,7 @@
 ---
 title: CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD (통화 품질 대시보드) 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: 1c315dc0214ee0540ddce25fb8f0a1dc1794048f
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: 04bab862c13652e7a509a96c98bac0eaac699b85
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506171"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584057"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 

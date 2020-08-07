@@ -1,7 +1,7 @@
 ---
 title: 팀 업데이트
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀 데스크톱 클라이언트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 107ef412c7c4faa3e4e0ae3ad9a8539c3bf70dec
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cfe9a7b8878481ccdad3b1d390dc35923987e105
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903153"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583275"
 ---
 # <a name="teams-update-process"></a>팀 업데이트 프로세스
 
@@ -61,4 +61,4 @@ VDI (가상 데스크톱 인프라)의 팀 클라이언트는 비 VDI 팀 클라
 
 현재 정부 클라우드의 팀 데스크톱 클라이언트는 추가 공지에 도달할 때까지이 서비스 계약에 대 한 예외를 발생 합니다.
 
-새 버전 릴리스에 대 한 자세한 내용은 [메시지 센터](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) 를 확인 하거나 클라이언트의**새로운 기능** 에 대 한 **도움말을 참조** > 하세요.
+새 버전 릴리스에 대 한 자세한 내용은 [메시지 센터](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) 를 확인 하거나 **Help**  >  클라이언트의**새로운 기능** 에 대 한 도움말을 참조 하세요.

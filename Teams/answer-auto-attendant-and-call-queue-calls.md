@@ -1,8 +1,8 @@
 ---
 title: 자동 전화 교환 및 통화 대기열 통화 응답
 ms.reviewer: waseemh
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 1ea09e005dea2a89cb23b55a8ac59eaf491df460
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190862"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582825"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 ===========================================================
@@ -65,7 +65,7 @@ Microsoft 팀에서 자동 전화 교환 및 통화 대기열 통화를 받으�
 
 ## <a name="related-topics"></a>관련 항목
 
--    [Office 365의 전화 시스템 소개](what-is-phone-system-in-office-365.md)
+-    [Microsoft 365 또는 Office 365의 전화 시스템 소개](what-is-phone-system-in-office-365.md)
 -    [클라우드 통화 큐 만들기](create-a-phone-system-call-queue.md)
 -    [클라우드 자동 전화 교환이란?](what-are-phone-system-auto-attendants.md)
 -    [클라우드 자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)

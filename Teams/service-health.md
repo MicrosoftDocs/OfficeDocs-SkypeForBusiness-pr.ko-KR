@@ -1,8 +1,8 @@
 ---
 title: Microsoft 팀의 서비스 상태 확인
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 description: 팀 서비스가 정상 인지, 그리고 Exchange, SharePoint, 비즈니스용 OneDrive 등의 다른 Microsoft 365 또는 Office 365 구성 요소를 확인 하는 것도 좋은 방법입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c30a4da2a37f75540c2b81a1f0d37e2c1e348339
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 600bf8802dfb76dc1e96534be0ee303354267661
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085524"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581839"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Microsoft 팀의 서비스 상태 확인
 ===========================================

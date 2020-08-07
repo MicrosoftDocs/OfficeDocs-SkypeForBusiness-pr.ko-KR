@@ -1,7 +1,7 @@
 ---
 title: CQD (통화 품질 대시보드) 용 건물 지도 만들기
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 테 넌 트를 업로드 하 고 CQD (통화 품질 대시보드에서) 데이터를 작성 하는 데 사용할 수 있는 건물 지도를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 18e88c2de64d2d63589a3cd2ebddbc9643fe4522
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 890e5e9b394cf8b600e635014c90ebb9053a1e07
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086099"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584037"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>CQD (통화 품질 대시보드) 용 건물 지도 만들기
 

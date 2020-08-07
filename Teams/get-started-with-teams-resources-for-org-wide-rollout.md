@@ -1,7 +1,7 @@
 ---
 title: 조직 전체 배포에 대한 경로를 선택합니다.
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e172bf86e56e0b9fdb8aa8fdcfc28e214f398c28
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 57075758e7b956323283ff8fa9dcb433e3e63b3c
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904633"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583185"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>조직 전체에서 배포하는 Microsoft Teams의 경로를 선택합니다.
 

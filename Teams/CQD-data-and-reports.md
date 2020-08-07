@@ -1,7 +1,7 @@
 ---
 title: CQD (통화 품질 대시보드의 데이터 및 보고서)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 통화 품질 대시보드 (CQD)에서 사용할 수 있는 데이터 및 보고서에 대해 알아봅니다.
-ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372167"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583095"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>CQD (통화 품질 대시보드의 데이터 및 보고서)
 

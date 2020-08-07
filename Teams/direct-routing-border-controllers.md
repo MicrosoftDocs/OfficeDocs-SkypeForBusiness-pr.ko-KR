@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증 된 SBCs (세션 경계 컨트롤러)에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 973df1511657a71cb05ee6df8409dff4290ccd95
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 357bfd141527d104a0843e9e4e5d9c574307b4ac
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572253"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583937"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -75,7 +75,9 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 시리즈 통합 서비스 라우터의 Cisco 통합 Border 요소 (큐브)        |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |    <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
 |                                   |     4000 시리즈 통합 서비스 라우터의 Cisco 통합 Border 요소 (큐브)        |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
 |                                   |     1000V 시리즈 클라우드 서비스 라우터의 Cisco 통합 Border 요소 (큐브)       |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |    <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
-|                                 |     1000 시리즈 집계 서비스 라우터의 Cisco 통합 Border 요소 (큐브)      |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |    <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
+|                                 |     1000 시리즈 집계 서비스 라우터의 Cisco 통합 Border 요소 (큐브)      |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |    <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya (ASBCE)의 세션 경계 컨트롤러    |     &#10004;     |           |       릴리스 8.1.1       |     |    | 
+
 
 다음 표에는 직접 라우팅 및 아날로그 장치 간의 상호 운용성을 확인 하는 장치가 나와 있습니다.
 

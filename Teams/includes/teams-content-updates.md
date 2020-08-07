@@ -3,79 +3,6 @@
 
 
 
-## <a name="week-of-june-29-2020"></a>6 월 29 일 주 2020
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 6/23/2020 | [Microsoft 팀의 민감도 레이블](/MicrosoftTeams/sensitivity-labels) | 으 |
-| 6/23/2020 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 으 |
-| 6/23/2020 | [팀 전용 모드 고려 사항](/MicrosoftTeams/teams-only-mode-considerations) | 으 |
-| 6/23/2020 | [전화 시스템 직접 라우팅](/MicrosoftTeams/direct-routing-protocols-sip) | 으 |
-| 6/23/2020 | [팀 및 Skype 상호 운용성](/MicrosoftTeams/teams-skype-interop) | 으 |
-| 6/24/2020 | [Microsoft 팀의 운영 가이드](/MicrosoftTeams/1-drive-value-operate-my-service) | 으 |
-| 6/24/2020 | [Microsoft Teams에서 팀 보관 또는 삭제하기](/MicrosoftTeams/archive-or-delete-a-team) | 으 |
-| 6/24/2020 | [직접 라우팅이 있는 오디오 회의, GCCH 및 DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | 으 |
-| 6/24/2020 | [Microsoft 365 사용자 생성, Business Voice 라이선스 추가 및 전화번호 할당](/MicrosoftTeams/business-voice/create-users) | 으 |
-| 6/24/2020 | [Microsoft 365 Business Voice](/MicrosoftTeams/business-voice/index) | 으 |
-| 6/24/2020 | [Microsoft 365 Business Voice를 구입 하는 데 필요한 관리자 권한](/MicrosoftTeams/business-voice/ui/admin-perms-needed) | 으 |
-| 6/24/2020 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
-| 6/24/2020 | [Microsoft Teams에서 조직 전체 팀 만들기](/MicrosoftTeams/create-an-org-wide-team) | 으 |
-| 6/24/2020 | [Microsoft 팀의 채팅, 팀, 채널, & 앱](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 으 |
-| 6/24/2020 | [무료 Office 365 E1 평가판 관리](/MicrosoftTeams/e1-trial-license) | 으 |
-| 6/24/2020 | [Microsoft StaffHub 사용 중지 예정](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 으 |
-| 6/24/2020 | [무료 Office 365 G1 평가판 관리 미국 정부 기관용](/MicrosoftTeams/g1-trial-license) | 으 |
-| 6/24/2020 | [PowerShell을 사용하여 팀에 대한 액세스 권한 제어](/MicrosoftTeams/guest-access-powershell) | 으 |
-| 6/24/2020 | [Microsoft Teams의 게스트 액세스](/MicrosoftTeams/guest-access) | 으 |
-| 6/24/2020 | [Microsoft 팀의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 으 |
-| 6/24/2020 | [상용 클라우드 평가판 관리](/MicrosoftTeams/iw-trial-teams) | 으 |
-| 6/24/2020 | [Microsoft 팀 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으 |
-| 6/24/2020 | [팀에서 자원 계정 관리](/MicrosoftTeams/manage-resource-accounts) | 으 |
-| 6/24/2020 | [Microsoft 팀에서 사용자 지정 앱 관리](/MicrosoftTeams/manage-your-custom-apps) | 으 |
-| 6/24/2020 | [모임 먼저-Microsoft 팀](/MicrosoftTeams/meetings-first) | 으 |
-| 6/24/2020 | [Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으 |
-| 6/24/2020 | [보안 및 규정 준수 개요](/MicrosoftTeams/security-compliance-overview) | 으 |
-| 6/24/2020 | [일반 지역 전화 라이선스 설정](/MicrosoftTeams/set-up-common-area-phones) | 으 |
-| 6/24/2020 | [최신 인증을 사용하여 Teams에 로그인](/MicrosoftTeams/sign-in-teams) | 으 |
-| 6/24/2020 | [Microsoft 팀에서 팀 만료 및 갱신](/MicrosoftTeams/team-expiration-renewal) | 으 |
-| 6/24/2020 | [사용자에 게 팀 추가 기능 라이선스 할당](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 으 |
-| 6/24/2020 | [Microsoft 365 전화 시스템-가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 으 |
-| 6/24/2020 | [Microsoft 팀 채택을 위한 피드백 및 신고 최적화](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | 으 |
-| 6/24/2020 | [Microsoft 팀에서 앱 설치 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으 |
-| 6/24/2020 | [Microsoft Teams 예비 환경 관리](/MicrosoftTeams/teams-exploratory) | 으 |
-| 6/24/2020 | [팀 용 Microsoft 365에서 오디오 회의 체험 또는 구매](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 으 |
-| 6/24/2020 | [통화 품질 대시보드 켜기 및 사용](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 으 |
-| 6/24/2020 | [Microsoft 팀 \| 서비스 관리 품질에 대 한 작업 \|](/MicrosoftTeams/upgrade-operate-my-service) | 으 |
-| 6/24/2020 | [비즈니스용 Skype에서 Microsoft 팀 업그레이드 \| 채택 프레임 워크 계획](/MicrosoftTeams/upgrade-plan-journey) | 으 |
-| 6/24/2020 | [\|관리자 문제를 지 원하는 Microsoft 팀 교육](/MicrosoftTeams/upgrade-prepare-it-pros) | 으 |
-| 6/24/2020 | [Microsoft 팀으로 업그레이드 \| 비즈니스용 Skype 팀 로드맵](/MicrosoftTeams/upgrade-to-teams) | 으 |
-| 6/24/2020 | [Advisor for Teams(공개 미리 보기)를 사용하여 Microsoft Teams 배포 지원](/MicrosoftTeams/use-advisor-teams-roll-out) | 으 |
-| 6/24/2020 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 으 |
-| 6/24/2020 | [EDU 관리자용 Microsoft Teams 정책 및 정책 패키지](/MicrosoftTeams/policy-packages-edu) | 으 |
-| 6/24/2020 | [Teams 라이브 이벤트의 발표자 및 참가자 기능](/MicrosoftTeams/roles-in-live-events) | 으 |
-| 6/24/2020 | [알려진 문제](/MicrosoftTeams/rooms/known-issues) | 으 |
-| 6/24/2020 | 네트워크 테스트 비교 사용 | 제거할 |
-| 6/25/2020 | [알제리의 사용 가능 여부](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria) | 으 |
-| 6/25/2020 | [국가/지역 사용 가능-오디오 회의, 통화 플랜](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 으 |
-| 6/25/2020 | [팀 용 전화 및 장치](/MicrosoftTeams/devices/teams-ip-phones) | 으 |
-| 6/25/2020 | [Microsoft 팀의 태그 관리](/MicrosoftTeams/manage-tags) | 으 |
-| 6/25/2020 | [릴리스 정보](/MicrosoftTeams/rooms/rooms-release-note) | 으 |
-| 6/25/2020 | [최신 인증을 사용하여 Teams에 로그인](/MicrosoftTeams/sign-in-teams) | 으 |
-| 6/25/2020 | Microsoft 팀의 관리 교육 | 제거할 |
-| 6/25/2020 | [관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트](/MicrosoftTeams/quick-start-meetings-live-events) | 으 |
-| 6/25/2020 | [Microsoft 팀에서 앱 권한 정책 관리](/MicrosoftTeams/teams-app-permission-policies) | 으 |
-| 6/25/2020 | [Microsoft 팀에서 앱 설치 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으 |
-| 6/25/2020 | [Microsoft 팀에서 팀 정책 관리](/MicrosoftTeams/teams-policies) | 으 |
-| 6/26/2020 | Microsoft 팀 분필 통신 | 제거할 |
-| 6/26/2020 | [방글라데시의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh) | 으 |
-| 6/26/2020 | [Microsoft Teams의 보존 정책](/MicrosoftTeams/retention-policies) | 으 |
-| 6/26/2020 | [Microsoft Teams에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 으 |
-| 6/26/2020 | [Microsoft 팀 live 이벤트는 무엇 인가요?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 으 |
-| 6/26/2020 | Teams 업그레이드 계획 워크숍 | 제거할 |
-| 6/26/2020 | [사용자를 위한 강사 진행 교육 및 비디오](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 으 |
-| 6/26/2020 | [팀 (30 개)](/MicrosoftTeams/teams-in-30-workshops) | 으 |
-
-
 ## <a name="week-of-july-06-2020"></a>7 월 6 일 (주) 2020
 
 
@@ -307,3 +234,40 @@
 | 7/23/2020 | [바레인의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | 으 |
 | 7/24/2020 | [Microsoft 팀 앱 사용 권한 및 고려 사항](/MicrosoftTeams/app-permissions) | 으 |
 | 7/24/2020 | [Microsoft 팀의 자원 관련 승인](/MicrosoftTeams/resource-specific-consent) | 으 |
+
+
+## <a name="week-of-july-27-2020"></a>7 월 27 일 (주) 2020
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 7/28/2020 | [CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치](/MicrosoftTeams/cqd-power-bi-connector) | 으 |
+| 7/28/2020 | [Microsoft Graph를 사용 하 여 팀 서식 파일 시작](/MicrosoftTeams/get-started-with-teams-templates) | 으 |
+| 7/28/2020 | [조직에서 발신자 ID를 사용하는 방법](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 으 |
+| 7/28/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
+| 7/28/2020 | [Microsoft 팀 대화방의 인증](/MicrosoftTeams/rooms/rooms-authentication) | 으 |
+| 7/28/2020 | [Microsoft Graph로 작성 된 중소 기업에 대 한 팀 서식 파일](/MicrosoftTeams/smb-templates) | 으 |
+| 7/29/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
+| 7/29/2020 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | 으 |
+| 7/29/2020 | [Microsoft 팀 회의실 Premium](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 으 |
+| 7/29/2020 | [팀 (30 개)](/MicrosoftTeams/teams-in-30-workshops) | 으 |
+| 7/29/2020 | [Microsoft 팀 추가 기능 라이선스](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 으 |
+| 7/30/2020 | [AppLocker 제어 정책](/MicrosoftTeams/applocker-in-teams) | 으 |
+| 7/30/2020 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 으 |
+| 7/30/2020 | [Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으 |
+| 7/30/2020 | [환경 준비](/MicrosoftTeams/rooms/rooms-prep) | 으 |
+| 7/31/2020 | [Microsoft Teams에서 사용자에게 정책 할당](/MicrosoftTeams/assign-policies) | 으 |
+| 7/31/2020 | 학교에서 대규모 사용자 집합에 정책 할당 | 제거할 |
+| 7/31/2020 | [Microsoft Teams를 사용하여 정부 기관 원격 작업자 지원하기](/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams) | 으 |
+| 7/31/2020 | 사용자를 위한 강사 진행 교육 및 비디오 | 제거할 |
+| 7/31/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
+| 7/31/2020 | [EDU 관리자용 Microsoft Teams 정책 및 정책 패키지](/MicrosoftTeams/policy-packages-edu) | 으 |
+| 7/31/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
+| 7/31/2020 | [PowerShell 스크립트 샘플-메시징 정책 만들기 & 할당](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | 으 |
+| 7/31/2020 | [교육 SKU 참조](/MicrosoftTeams/sku-reference-edu) | 으 |
+| 7/31/2020 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 으 |
+| 7/31/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
+| 7/31/2020 | [인식 주도 및 교육 구현](/MicrosoftTeams/teams-adoption-drive-awareness) | 으 |
+| 7/31/2020 | [Microsoft 팀 장치 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 으 |
+| 7/31/2020 | [Microsoft 팀 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 으 |
+| 7/31/2020 | [Microsoft 팀 사용자 활동 보고서](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 으 |

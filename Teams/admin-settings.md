@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀의 앱에 대 한 관리자 설정
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ae1776cf57368ea0f18cb6b0e46e5a11dffe447
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 6235352b845898c194e82f3ec292539904a7f61c
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45228904"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582445"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft 팀의 앱에 대 한 관리자 설정
 ==========================================

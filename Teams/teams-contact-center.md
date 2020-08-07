@@ -13,16 +13,19 @@ f1.keywords:
 description: Microsoft 팀을 위한 서비스 (CCaaS) 솔루션의 통합 된 연락처 센터 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
-ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.openlocfilehash: 3f553c29d2a18816053c28c57a6f0f78b818825a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143839"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583255"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 팀에 대 한 연락처 센터 통합
 
 Microsoft 팀과 인기 있는 연락처 센터 솔루션을 통합 하는 것은 팀에 게 전화를 걸 수 있는 고객이 일반적으로 필요 합니다.  이 문서에서는 연락처 센터 솔루션을 Microsoft 팀과 통합 하는 방법과 Microsoft 팀에서 연결 된 연락처 센터 인증 프로그램에 참여 하는 파트너 솔루션에 대 한 추가 정보에 대해 간략하게 설명 합니다.
+
+> [!NOTE]
+> 연락 센터 통합 접근 권한 값에는 고급 통신 라이선스가 필요 합니다. 
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Microsoft 팀에 대 한 문의 센터 통합은 무엇 인가요?
 
@@ -38,7 +41,7 @@ Microsoft 팀은 고객 여행을 위해 비즈니스 도구 및 워크플로와
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft 팀 인증 프로그램에 연결 된 연락처 센터
 
-파트너에 게 팀의 솔루션으로 CCaaS 개발 하 고 통합할 수 있도록 공개적으로 사용할 수 있는 Api를 게시 하는 것 외에, Microsoft 팀에서 각 파트너의 솔루션을 테스트 하 고 Microsoft 솔루션에서 기대 하는 품질, 호환성 및 안정성을 제공 하도록 확인 하기 위해 해당 사용자에 게 연결 된 연락처 센터를 제공 하는 것을 개발 했습니다.
+팀에 대 한 솔루션을 개발 하 고 통합 하는 데 파트너를 허용 하는 Api는 고급 통신 라이선스를 통해 제공 됩니다. 또한 microsoft 팀 인증 프로그램에 대 한 연결 된 연락처 센터를 개발 하 여 고객에 게 Microsoft 솔루션에서 기대 하는 품질, 호환성 및 안정성을 제공 하기 위해 각 참여 파트너의 솔루션을 테스트 하 고 확인 했음을 보증 합니다.
 
 다음 파트너는 Microsoft 팀의 솔루션을 인증 하 고 고객에 게 참여할 준비가 되었습니다.
 

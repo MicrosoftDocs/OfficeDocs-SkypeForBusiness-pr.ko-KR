@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 팀 서식 파일 만들기
+title: Microsoft 팀에서 사용자 지정 팀 서식 파일 만들기
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft 팀에서 팀 서식 파일을 만드는 방법에 대해 알아봅니다.
+description: Microsoft 팀에서 사용자 지정 팀 템플릿을 만드는 방법에 대해 알아봅니다.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,16 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 28f85158662c1c9da2cd6411bc5c1f79523a4693
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506429"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583697"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft 팀에서 사용자 지정 팀 서식 파일 만들기
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**사용자 지정 서식 파일은 현재 .EDU 고객에 대해 지원 되지 않습니다.**
 
 사용자 지정 팀 서식 파일은 적절 한 공동 작업 공간을 신속 하 게 만드는 데 도움이 되도록 개발할 수 있는 일련의 채널, 탭, 앱이 포함 된 미리 정의 된 팀 구조입니다. 사용자 지정 팀 템플릿에서는 기본 설정을 사용 합니다.  
 
@@ -67,5 +69,5 @@ ms.locfileid: "46506429"
 ## <a name="related-topics"></a>관련 항목
 
 - [관리 센터에서 팀 서식 파일 시작](get-started-with-teams-templates-in-the-admin-console.md)
-- [기존 팀에서 팀 만들기](create-team-from-existing-team.md)
-- [기존 팀 서식 파일에서 팀 만들기](modify-existing-team-template.md)
+- [기존 팀에서 서식 파일 만들기](create-template-from-existing-team.md)
+- [기존 팀 템플릿에서 팀 서식 파일 만들기](create-template-from-existing-template.md)
