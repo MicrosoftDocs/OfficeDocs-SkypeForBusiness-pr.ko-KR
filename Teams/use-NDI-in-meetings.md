@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d971a7c9e44e2fbf7c3d2500f237e3755c5f89d0
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 86c0908b04b2eece835a747d9f57625878c15a99
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522918"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588292"
 ---
 # <a name="use-ndi-in-microsoft-teams"></a>Microsoft 팀에서 NDI 사용
 
@@ -40,7 +40,7 @@ NDI는 로컬 네트워크로 제한 되며 브로드캐스트 솔루션이 아�
 
 NDI를 사용 하려면 사용자에 대해 두 단계가 설정 되어 있어야 합니다.
 
-1. 테 넌 트 관리자는 기능 플래그 enableStreamingCallsOverNdi을 사용 하도록 설정 해야 합니다.
+1. 테 넌 트 관리자는 CsTeamsMeetingPolicy에서 ' AllowNDIStreaming ' 속성을 사용 하도록 설정 해야 합니다.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
@@ -54,13 +54,13 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 ![팀 모임에 표시 되는 NDI 배너의 이미지입니다.](media/NDI-disclosure.png)
 
-이 배너에는 [Microsoft 개인정보 보호 정책](https://support.skype.com/faq/FA34853/what-is-skype-for-content-creators?q=ndi)에 대 한 링크가 있습니다.
+이 배너에는 [Microsoft 개인정보 보호 정책](https://aka.ms/teamsprivacy)에 대 한 링크가 있습니다.
 
 ## <a name="supported-locales-and-user-types"></a>지원 되는 로캘 및 사용자 유형
 
 NDI는 모든 로캘에서 지원 됩니다. NDI 모임에서 지원 되는 사용자는 다음과 같습니다.
 
-- 테 넌 트-링/tenantId/userId를 기준으로 제공 되는 완전 한 지원 (모임 정책 + 기능 플래그에 의해 제어 됨)
+- 테 넌 트-링/tenantId/userId를 기준으로 제공 되는 완전 한 지원 (모임 정책에 의해 제어 됨)
 - 페더레이션 – 아니요 (NDI를 사용 하는 경우에도)<sup>1</sup>
 - Freemium-no (기본값)
 - 익명 – 아니요 (기본값)
