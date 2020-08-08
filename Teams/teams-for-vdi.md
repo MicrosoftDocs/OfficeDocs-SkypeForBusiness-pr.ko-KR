@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028164"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597118"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "45028164"
 
 VDI (가상 데스크톱 인프라)는 데스크톱 운영 체제 및 응용 프로그램을 데이터 센터의 중앙 집중식 서버에 호스팅하는 가상화 기술입니다. 이렇게 하면 완전히 안전한 중앙 집중화 된 원본을 사용 하 여 사용자에 게 개인 설정 된 데스크톱 환경이 제공 됩니다.
 
-가상화 된 환경에서 Microsoft 팀은 채팅 및 공동 작업을 지원 합니다. Citrix 플랫폼을 사용 하는 경우에도 통화와 모임 기능이 지원 됩니다.
+가상화 된 환경에서 Microsoft 팀은 채팅 및 공동 작업을 지원 합니다. Windows 가상 데스크톱 또는 Citrix 플랫폼을 사용 하는 경우에도 통화와 모임 기능이 지원 됩니다.
 
 가상화 된 환경의 팀은 여러 구성을 지원 합니다. 여기에는 VDI, 전용, 공유, 영구, 비 영구적인 모드가 포함 됩니다. 기능은 지속적으로 개발 되 고 있으며 정기적으로 추가 되며, 제공 되는 개월 단위와 몇 년 동안 기능이 확장 됩니다.
 
@@ -54,15 +54,20 @@ VDI (가상 데스크톱 인프라)는 데스크톱 운영 체제 및 응용 프
 
 팀 데스크톱 앱의 유효성을 주요 가상화 솔루션 공급자로 확인 했습니다. 여러 시장 공급자를 사용 하는 경우 가상화 솔루션 공급자에 게 문의 하 여 최소 요구 사항을 충족 하는지 확인 하는 것이 좋습니다.
   
-현재, AV (오디오/비디오) 최적화를 사용 하는 VDI의 팀은 Citrix로 인증 됩니다. 이 섹션의 정보를 검토 하 여 적절 한 기능에 대 한 Citrix와 팀 요구 사항을 모두 충족 하는지 확인 합니다.
+현재, AV (오디오/비디오)가 최적화 된 VDI의 팀은 Windows 가상 데스크톱 및 Citrix로 인증 됩니다. 이 섹션의 정보를 검토 하 여 적절 한 기능에 대 한 모든 요구 사항을 충족 하는지 확인 합니다.
 
-### <a name="partners-certified-for-teams"></a>팀에 대해 인증 된 파트너
+### <a name="platforms-certified-for-teams"></a>팀에 대해 인증 된 플랫폼
 
-다음 파트너는 팀에 대 한 가상 데스크톱 인프라 솔루션을 보유 하 고 있습니다.
+다음 플랫폼에는 팀을 위한 가상 데스크톱 인프라 솔루션이 있습니다.
 
-|Partner|파트너 솔루션|
+|플랫폼|솔루션|
 |----|---|
-|![Citrix를 나타내는 로고](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 가상 앱 및 데스크톱</a> |
+|![Microsoft를 나타내는 로고](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows 가상 데스크톱</a> |
+|![Citrix를 나타내는 로고](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 가상 앱 및 데스크톱</a> |
+
+### <a name="windows-virtual-desktop"></a>Windows 가상 데스크톱
+
+Windows 가상 데스크톱은 VDI의 팀에 대해 AV 최적화 기능을 제공 합니다. 자세한 내용 및 요구 사항과 설치에 대 한 자세한 내용은 [Windows 가상 데스크톱에서 팀 사용](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)을 참조 하세요.
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix 가상 앱 및 데스크톱 요구 사항
 
@@ -360,19 +365,19 @@ PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자
 ### <a name="calling-and-meetings"></a>통화 및 모임
 
 - 비즈니스용 Skype와의 상호 운용성은 음성 통화로 제한 됩니다. 영상 형식이 없습니다.
-- 이중 톤 다중 주파수 (DTMF) 전화 통신 시스템과의 상호 작용은 현재 지원 되지 않습니다.
 - 익명 사용자로 팀 회의에 참가 하면 AV는 최적화 되지 않습니다. 사용자가 모임에 참가할 수 있으며 최적화 되지 않은 환경이 있습니다.
 - 모임 또는 그룹 통화에서는 하나의 수신 비디오 스트림만 지원 됩니다. 여러 사용자가 비디오를 보내면 주어진 시간에 주요 스피커 비디오만 표시 됩니다.
 - 수신 및 발신 비디오 스트림 해상도는 720p 해상도로 제한 됩니다. 이것은 WebRTC 제한 사항입니다.
 - 들어오는 카메라 또는 화면 공유 스트림의 비디오 스트림은 하나만 지원 됩니다. 들어오는 화면 공유가 있는 경우 기준 스피커의 비디오 대신 해당 화면 공유가 표시 됩니다.
 - 보내는 화면 공유:
-    - 채팅에서 화면 공유는 지원 되지 않습니다.
     - 응용 프로그램 공유가 지원 되지 않습니다.
 - 제어권을 부여 하 고 컨트롤을 사용 합니다.
     - 화면 공유 또는 응용 프로그램 공유 세션 중에 지원 되지 않습니다.
     - PowerPoint 공유 세션 중에 지원 됩니다.
-- 다중 모니터 설정에서 화면 공유 시 메인 모니터만 공유 됩니다.
-- CWA에서 높은 DPI 조정이 지원 되지 않습니다.
+- Citrix 전용 제한
+    - 이중 톤 다중 주파수 (DTMF) 전화 통신 시스템과의 상호 작용은 현재 지원 되지 않습니다.
+    - 다중 모니터 설정에서 화면 공유 시 메인 모니터만 공유 됩니다.
+    - CWA에서 높은 DPI 조정이 지원 되지 않습니다.
 
 VDI와 관련 되지 않은 팀의 알려진 문제점은 [조직의 지원 팀](Known-issues.md)을 참조 하세요.
 

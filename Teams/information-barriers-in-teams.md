@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀의 정보 장벽에 대해 설명
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
+ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572383"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46592912"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
@@ -167,12 +167,12 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>팀 정책 및 SharePoint 사이트
 
-팀을 만들 때 SharePoint 사이트를 프로 비전 하 고 파일 환경을 위해 팀과 연결 합니다. 이 SharePoint 사이트 및 파일에 대 한 액세스는 조직의 IB를 허용 하 고, 예를 들어 IB에 대 한 IB 세그먼트와 일치 하는 사용자만 액세스를 허용할 수 있습니다. 파일 공유 시에도 IB 정책이 허용 됩니다.
+팀을 만들 때 SharePoint 사이트를 프로 비전 하 고 파일 환경을 위해 Microsoft 팀과 연결 합니다. 기본적으로이 SharePoint 사이트 및 파일에는 정보 장벽 정책이 적용 되지 않습니다. 정보 장벽 정책을 사용 하도록 설정 하려면 관리자가 SharePoint 및 OneDrive에서 IB 정책을 사용 하도록 요청 하는 양식을 이미 작성 했습니다 ( [정보 장벽](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)의 *필수 구성 요소* 섹션 참조). SharePoint 및 OneDrive에서 정보 장벽 정책이 설정 되어 있는 경우 팀이 Microsoft 팀을 사용 하 여 만들어질 때 IB 정책이 프로 비전 된 SharePoint 사이트에서 작동 됩니다.
 
-예: Contoso Bank corporation에서 사용자 ' Sesha@contosobank.onmicrosoft.com '은 투자 은행 부문에 속하고 ' Nikita@contosobank.onmicrosoft.com ' 사용자는 세그먼트 권고에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신과 공동 작업을 차단 합니다.
+**팀의 SharePoint 사이트에 대 한 IB 정책의 예**: Contoso 은행에서 사용자 ' Sesha@contosobank.onmicrosoft.com '이 (가) 투자 은행 부문에 속하고 사용자 ' Nikita@contosobank.onmicrosoft.com '이 (가) segment advise에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신과 공동 작업을 차단 합니다.
 사용자가 투자 은행 부문에 대 한 팀을 만드는 경우 팀과이를 지 원하는 SharePoint 사이트는 투자 은행 부문 사용자만 액세스할 수 있습니다. 사이트 링크를가지고 있는 경우에도 사용자 Nikita 해당 사이트에 액세스할 수 없습니다.
 
-자세한 내용을 보려면 [여기](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) 를 클릭 하세요.
+자세한 내용은 [정보 장벽](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) 문서를 참조 하세요.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 

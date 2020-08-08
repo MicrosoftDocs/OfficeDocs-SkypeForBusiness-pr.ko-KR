@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에 대 한 통신 준수
+title: Microsoft 팀과 통신 준수
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -16,48 +16,57 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01d9906044fe0ea8472cd8bb2ba8ccf247cdbeb9
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121698"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597152"
 ---
-# <a name="communication-compliance-for-microsoft-teams"></a>Microsoft 팀에 대 한 통신 준수
+# <a name="communication-compliance-with-microsoft-teams"></a>Microsoft 팀과 통신 준수
 
-통신 준수는 조직의 부적절 한 메시지에 대 한 검색, 캡처, 재구성 작업을 수행 하 여 통신 위험을 최소화 하는 데 도움이 되는 Microsoft 365에서 설정 된 새로운 참가자 위험 솔루션의 일부입니다. 이를 통해 공격적인 언어를 식별 하 고 팀 채널이 나 1:1 및 그룹 채팅에서 harassment 수 있습니다. 또한 정책을 설정 하 여 중요 한 정보가 팀 채널 또는 1:1 및 그룹 채팅의 일부로 공유 되 고 있는지 확인할 수 있습니다. 다양 한 유형의 정책 및 설정 방법에 대 한 자세한 내용은 [M365 문서](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)를 참조 하세요.
+통신 준수는 조직의 부적절 한 메시지를 감지 하 고, 캡처하고, 작동 하 여 통신 위험을 최소화 하는 Microsoft 365의 참가자 위험 솔루션입니다.
 
-## <a name="how-to-use-communication-compliance-in-teams"></a>팀에서 통신 준수를 사용 하는 방법
+Microsoft 팀의 경우 통신 준수는 팀 채널 또는 1:1 및 그룹 채팅에서 [다음 유형의](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) 부적절 한 콘텐츠를 식별 하는 데 도움이 됩니다.
 
-### <a name="identify-inappropriate-messages"></a>부적절 한 메시지 식별
+- 비속어, 비속어 및 희롱 language
+- 성인용, racy 및 gory 이미지
+- 중요 한 정보 공유
 
-Microsoft 팀 (1:1, 그룹 채팅 또는 채널 대화)에서 전송 된 메시지를 식별 하려는 경우 정책을 사용 하 여이를 식별 하 고, 검토자가 메시지를 보고, 교육 자료 보내기 또는 올바른 인증 기관으로 harassment 하는 것과 같은 필요한 단계를 수행할 수 있습니다.
+>[!IMPORTANT]
+>개인 Microsoft 팀 채널은 통신 준수에서 지원 되지 않습니다. 게스트 사용자가 팀에 게 보낸 채팅 통신은 부적절 한 콘텐츠로 모니터링 되지 않습니다.
 
-### <a name="identify-sensitive-or-regulatory-information"></a>중요 또는 규정 정보 확인
+통신 준수에 대 한 자세한 내용과 조직의 정책을 구성 하는 방법에 대 한 자세한 내용은 [Microsoft 365의 통신 준수](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)를 참조 하세요.
 
-Microsoft 팀에서 보낸 메시지 (1:1, 그룹 채팅 또는 채널 대화)를 중요 한 정보나 규정 유형에 대해 검색 하려는 경우 미리 정의 된 중요 또는 규정 유형을 지 원하는 정책을 선택할 수 있습니다.
+## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Microsoft 팀에서 통신 준수를 사용 하는 방법
 
-> [!NOTE]
-> 통신 준수는 개인 채널을 지원 하지 않습니다.
+의사 소통 준수와 Microsoft 팀이 긴밀 하 게 통합 되어 조직의 통신 위험을 최소화 하는 데 도움이 될 수 있습니다. 첫 번째 통신 준수 정책을 구성한 후에는 알림에 자동으로 플래그가 지정 된 부적절 한 Microsoft 팀 메시지와 콘텐츠를 적극적으로 관리할 수 있습니다.
 
-### <a name="custom-policy"></a>사용자 지정 정책
+### <a name="getting-started"></a>시작
 
-이 템플릿을 사용 하 여 조직의 특정 통신 채널, 개별 검색 조건, 모니터링 하 고 검토할 콘텐트의 양을 구성할 수 있습니다.
+Microsoft 팀의 의사 소통 준수 시작은 미리 정의 된 또는 사용자 지정 정책을 [계획](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) 하 고 만들어 팀 채널 또는 1:1 및 그룹에서 부적절 한 사용자 작업을 식별 하는 데부터 시작 합니다. 구성 프로세스의 일부로 일부 사용 권한과 기본 필수 구성 요소를 [구성](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) 해야 한다는 점에 유의 하세요.
 
-### <a name="custom-trainable-classifier"></a>사용자 지정 Trainable 분류자
+팀 관리자는 다음 수준으로 통신 준수 정책을 구성할 수 있습니다.
 
-상자 분류자 중 하나가 사용자의 요구를 충족 하지 않는 경우 trainable 분류자를 사용 합니다. Microsoft 365 분류자는 다양 한 형식의 콘텐츠를 볼 수 있도록 교육을 제공 하는 도구입니다. 분류자에 대 한 교육에서는 먼저 사람이 선택 하 고 범주와 긍정적인 일치 하는 샘플을 제공 합니다. 그런 다음 샘플을 처리 한 후에는 양수 및 음수 샘플을 함께 제공 하 여 예측을 테스트 합니다. 이에 대 한 자세한 내용은이 항목에 대 한 자세한 [M365 문서](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier) 를 참조 하세요.
+- **사용자 수준**:이 수준의 정책은 개별 팀 사용자에 게 적용 되거나 조직의 모든 팀 사용자에 게 적용 될 수 있습니다. 이러한 정책은 해당 사용자가 1:1 또는 그룹 채팅에서 보낼 수 있는 메시지를 포함 합니다. 사용자에 대 한 채팅 통신은 사용자가 구성원 인 모든 Microsoft 팀에서 자동으로 모니터링 됩니다.
+- **팀 수준**:이 수준의 정책은 Microsoft 팀 채널에 적용 됩니다. 이러한 정책은 팀 채널 에서만 전송 된 메시지를 다룹니다.
 
-> [!NOTE]
-> 통신 준수는 이제 Exchange 하이브리드 배포를 지원 합니다.
+### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Microsoft 팀에서 부적절 한 메시지에 대 한 활동 수행
 
-통신 준수는 정책과 일치 하는 메시지에 대 한 대화 기록을 지원 합니다. 조사 관리자에 게 컨텍스트를 제공 합니다.
+정책을 구성 하 고 Microsoft 팀 메시지에 대 한 통신 준수 알림을 받은 후에는 조직의 승인 검토자가 이러한 메시지에 대해 조치를 취할 수 있습니다. 검토자는 통신 준수 알림을 검토 하 고 Microsoft 팀의 보기에서 플래그가 지정 된 메시지를 제거 하 여 조직을 안전 하 게 보호할 수 있습니다.
 
-:::image type="content" source="media/communication-compliance-1.png" alt-text="Microsoft 팀의 의사 소통 준수 화면":::
+![팀에서 메시지 제거](./media/communication-compliance-remove-teams-message.png)
 
-## <a name="where-communication-policies-can-be-applied-in-teams"></a>팀에서 통신 정책을 적용할 수 있는 위치
+제거 된 메시지와 콘텐츠는 메시지 또는 콘텐츠가 제거 되었고 제거에 적용 되는 정책을 설명 하는 알림으로 바뀝니다. 제거 된 메시지의 보낸 사람이 제거 상태에 대 한 알림을 받고 제거와 관련 한 컨텍스트에 대 한 원본 메시지 콘텐츠를 제공할 수 있습니다. 또한 보낸 사람은 메시지 제거에 적용 되는 특정 정책 조건도 볼 수 있습니다.
 
-통신 준수 정책은 팀에서 보낸 메시지에 대해 다음 수준으로 설정할 수 있습니다.
+보낸 사람에 의해 표시 된 정책 팁의 예:
 
-- 사용자 수준: 관리자는 개별 사용자 수준에서 정책을 설정 하거나 테 넌 트의 모든 사용자에 게 적용할 수 있습니다. 이는 사용자가 1:1 또는 그룹 채팅에서 보낸 메시지만 다룹니다.
-- 팀 수준: 관리자가 팀에 정책을 설정할 수도 있습니다. 이는 해당 팀의 채널에서 전송 된 모든 메시지 (개인 채널 메시지가 지원 되지 않음)를 포함 합니다.
+![보낸 사람에 대 한 정책 팁](./media/communication-compliance-warning-1.png)
+
+보낸 사람에 게 표시 되는 정책 조건 알림의 예:
+
+![보낸 사람에 대 한 정책 조건 정보](./media/communication-compliance-warning-2.png)
+
+받는 사람이 본 정책 팁의 예:
+
+![받는 사람에 대 한 정책 팁](./media/communication-compliance-warning-3.png)
