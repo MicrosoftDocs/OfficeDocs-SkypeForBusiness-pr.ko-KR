@@ -25,7 +25,7 @@
 
 <!-- ============================================================ -->
 
-# 채팅, 팀, 채널 및 앱
+# 채팅, 팀 및 채널
 ## [배포 계획](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Teams용 관리자를 사용하여 Teams 배포](use-advisor-teams-roll-out.md)
 ## [팀 및 채널 개요](teams-channels-overview.md)
@@ -51,25 +51,6 @@
 ## [팀 보관 또는 삭제](archive-or-delete-a-team.md)
 ## [Slack에서 Teams로 마이그레이션](migrate-slack-to-teams.md)
 ## [중소기업을 위한 기본 제공 Teams 서식 파일 그래프](smb-templates.md)
-
-
-## 앱, 인공 지능 및 커넥터
-
-### [개요](deploy-apps-microsoft-teams-landing-page.md)
-### [앱 사용 권한 및 고려 사항](app-permissions.md)
-### [Teams용 앱 관리](manage-apps.md)
-### [Team에서 앱의 관리 설정](admin-settings.md)
-### [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
-### [Microsoft 365 또는 Office 365, 그리고 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
-### [리소스별 승인](resource-specific-consent.md)
-### [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
-### [앱 패키지를 업로드하여 사용자 지정 앱 게시](upload-custom-apps.md)
-### [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Teams에서 조직의 목록 앱 관리](manage-lists-app.md)
-### [조직에 대한 작업 앱 관리](manage-tasks-app.md)
-### [팀 대상 계층 구조 설정](set-up-your-team-hierarchy.md)
-### [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 외부 사용자와 의사 소통
 ### [다른 조직의 사용자와 의사 소통](communicate-with-users-from-other-organizations.md)
@@ -129,6 +110,26 @@
 
 <!-- ============================================================ -->
 
+# 앱, 인공 지능 및 커넥터
+
+## [개요](deploy-apps-microsoft-teams-landing-page.md)
+## [앱 사용 권한 및 고려 사항](app-permissions.md)
+## [Teams용 앱 관리](manage-apps.md)
+## [Team에서 앱의 관리 설정](admin-settings.md)
+## [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
+## [Microsoft 365 또는 Office 365, 그리고 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
+## [리소스별 승인](resource-specific-consent.md)
+## [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
+## [앱 패키지를 업로드하여 사용자 지정 앱 게시](upload-custom-apps.md)
+## [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Teams에서 조직의 목록 앱 관리](manage-lists-app.md)
+## [조직에 대한 작업 앱 관리](manage-tasks-app.md)
+## [팀 대상 계층 구조 설정](set-up-your-team-hierarchy.md)
+## [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
+
+
+<!-- ============================================================ -->
 # 모 및 회의
 ## [빠른 시작 - 모임 및 라이브 이벤트](quick-start-meetings-live-events.md)
 ## [배포 계획](deploy-meetings-microsoft-teams-landing-page.md)
