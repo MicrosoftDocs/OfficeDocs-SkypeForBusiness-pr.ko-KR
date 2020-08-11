@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597118"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46607101"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "46597118"
 
 VDI (가상 데스크톱 인프라)는 데스크톱 운영 체제 및 응용 프로그램을 데이터 센터의 중앙 집중식 서버에 호스팅하는 가상화 기술입니다. 이렇게 하면 완전히 안전한 중앙 집중화 된 원본을 사용 하 여 사용자에 게 개인 설정 된 데스크톱 환경이 제공 됩니다.
 
-가상화 된 환경에서 Microsoft 팀은 채팅 및 공동 작업을 지원 합니다. Windows 가상 데스크톱 또는 Citrix 플랫폼을 사용 하는 경우에도 통화와 모임 기능이 지원 됩니다.
+가상화 된 환경에서 Microsoft 팀은 채팅 및 공동 작업을 지원 합니다. 또한 Windows 가상 데스크톱, Citrix 및 VMware 플랫폼을 사용 하 여 통화 및 모임 기능도 지원 됩니다.
 
 가상화 된 환경의 팀은 여러 구성을 지원 합니다. 여기에는 VDI, 전용, 공유, 영구, 비 영구적인 모드가 포함 됩니다. 기능은 지속적으로 개발 되 고 있으며 정기적으로 추가 되며, 제공 되는 개월 단위와 몇 년 동안 기능이 확장 됩니다.
 
@@ -54,7 +54,7 @@ VDI (가상 데스크톱 인프라)는 데스크톱 운영 체제 및 응용 프
 
 팀 데스크톱 앱의 유효성을 주요 가상화 솔루션 공급자로 확인 했습니다. 여러 시장 공급자를 사용 하는 경우 가상화 솔루션 공급자에 게 문의 하 여 최소 요구 사항을 충족 하는지 확인 하는 것이 좋습니다.
   
-현재, AV (오디오/비디오)가 최적화 된 VDI의 팀은 Windows 가상 데스크톱 및 Citrix로 인증 됩니다. 이 섹션의 정보를 검토 하 여 적절 한 기능에 대 한 모든 요구 사항을 충족 하는지 확인 합니다.
+현재, AV (오디오/비디오)가 최적화 된 VDI의 팀은 Windows 가상 데스크톱, Citrix 및 VMware를 통해 인증 됩니다. 이 섹션의 정보를 검토 하 여 적절 한 기능에 대 한 모든 요구 사항을 충족 하는지 확인 합니다.
 
 ### <a name="platforms-certified-for-teams"></a>팀에 대해 인증 된 플랫폼
 
@@ -64,6 +64,7 @@ VDI (가상 데스크톱 인프라)는 데스크톱 운영 체제 및 응용 프
 |----|---|
 |![Microsoft를 나타내는 로고](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows 가상 데스크톱</a> |
 |![Citrix를 나타내는 로고](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 가상 앱 및 데스크톱</a> |
+|![VMware를 나타내는 로고](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware 구간</a> |
 
 ### <a name="windows-virtual-desktop"></a>Windows 가상 데스크톱
 
@@ -76,6 +77,10 @@ Citrix 가상 앱 및 데스크톱 (이전의 XenApp 및 XenDesktop)은 VDI의 �
 [Citrix 다운로드 사이트](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)에서 최신 버전의 Citrix 가상 앱 및 데스크톱을 다운로드할 수 있습니다. (먼저 로그인 해야 합니다.) 필수 구성 요소는 기본적으로 [Citrix Workspace app (CWA)](https://www.citrix.com/downloads/workspace-app/) 및 가상 배달 에이전트 (VDA)에 번들 됩니다. CWA 또는 VDA에 추가 구성 요소 또는 플러그인을 설치할 필요는 없습니다.
 
 최신 서버 및 클라이언트 요구 사항은 [이 Citrix 웹 사이트](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)를 참조 하세요.
+
+### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware 수평 작업 공간 및 데스크톱 요구 사항
+
+VMware 수평은 가상 데스크톱 전반의 생산성 향상을 위해 VDI의 팀에 최적화 된 AV 지원을 제공 합니다. [Vmware 다운로드](https://my.vmware.com/web/vmware/downloads/#all_products) 페이지에서 최신 버전의 vmware 구간을 다운로드할 수 있습니다.
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI에서 팀 데스크톱 앱 설치 또는 업데이트
 
@@ -197,24 +202,12 @@ Enterprise 용 microsoft 365 앱에 대 한 자세한 내용은 [엔터프라이
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>통화 및 모임으로 VDI의 팀
 
-채팅 및 공동 작업 외에도, 통화 및 모임 지원이 포함 된 VDI 팀은 Citrix 기반 플랫폼에서 사용할 수 있습니다. 지원 되는 기능은 WebRTC 미디어 스택과 Citrix 관련 구현을 기반으로 합니다. 다음 다이어그램은 아키텍처에 대 한 개요를 제공 합니다.
+채팅 및 공동 작업 외에도, 통화와 모임이 포함 된 VDI 팀은 지원 되는 가상화 공급자 플랫폼에서 사용할 수 있습니다. 지원 되는 기능은 WebRTC 미디어 스택과 가상화 공급자 구현에 기반을 둔 것입니다. 다음 다이어그램은 아키텍처에 대 한 개요를 제공 합니다.
 
 ![VDI 아키텍처의 팀을 보여 주는 다이어그램](media/teams-on-vdi-architecture.png)
 
-이러한 통화 및 모임 기능은 지원 되지 않습니다.
-
-- 향상 된 응급 서비스
-- 팀 앱과 장치 간의 HID 단추 및 LED 컨트롤
-- 백그라운드 흐림 및 효과
-- 브로드캐스트/라이브 이벤트
-- LBR (위치 기반 라우팅)
-- 통화 공원
-- 통화 대기열
-
 > [!IMPORTANT]
-> 현재 VDI에서 AV 최적화를 사용 하지 않고 팀을 실행 중 이며 최적화를 위해 아직 지원 되지 않는 기능 (예: 앱 공유 시 제어 권한 부여 및 적용)을 사용할 경우, 팀 리디렉션을 끄려면 Citrix 정책을 설정 해야 합니다. 즉, 팀 미디어 세션이 최적화 되지 않습니다. 팀 리디렉션을 해제 하도록 정책을 설정 하는 방법에 대 한 단계는이 [Citrix 웹 사이트](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)를 참조 하세요.
-
-현재는 비 VDI 환경 에서만 사용할 수 있는 통화 및 모임 기능을 추가 하는 작업을 진행 하 고 있습니다. 여기에는 품질, 추가 화면 공유 시나리오, 최근에 팀에 추가 된 고급 기능에 대 한 더 많은 관리 제어가 포함 될 수 있습니다. 예정 된 기능에 대해 자세히 알아보려면 팀 담당자에 게 문의 하세요.
+> 현재 VDI에서 AV 최적화를 사용 하지 않고 팀을 실행 중 이며 최적화를 위해 아직 지원 되지 않는 기능 (예: 앱 공유 시 제어 권한 부여 및 적용)을 사용할 경우에는 팀 리디렉션을 해제 하도록 가상화 공급자 정책을 설정 해야 합니다. 즉, 팀 미디어 세션이 최적화 되지 않습니다. 팀 리디렉션을 끄려면 정책을 설정 하는 방법에 대 한 단계는 가상화 공급자에 게 문의 하세요.
 
 ### <a name="network-requirements"></a>네트워크 요구 사항
 
@@ -243,7 +236,7 @@ Chrome 브라우저의 팀은 AV 최적화를 사용 하는 VDI 용 팀 데스�
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>채팅 및 공동 작업을 통해 VDI의 팀
 
-조직에서 팀의 채팅 및 공동 작업 기능만 사용 하려는 경우 팀의 통화 및 모임 기능을 해제 하도록 사용자 수준 정책을 설정할 수 있습니다. 이 기능 수준에는 Citrix 가상 앱 및 데스크톱이 필요 하지 않습니다.
+조직에서 팀의 채팅 및 공동 작업 기능만 사용 하려는 경우 팀의 통화 및 모임 기능을 해제 하도록 사용자 수준 정책을 설정할 수 있습니다. 
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>정책을 설정 하 여 통화 및 모임 기능을 해제 합니다.
 
@@ -297,9 +290,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자세히 알아보려면 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)을 참조 하세요.
 
-## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>통화 및 모임으로 채팅 및 공동 작업을 사용 하 여 VDI에서 팀 마이그레이션
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>통화 및 모임으로 팀을 최적화 하기 위해 채팅 및 공동 작업을 통해 VDI에서 팀 마이그레이션
 
-사용자 수준 정책을 설정 하 여 통화 및 모임 기능을 해제 하 고, AV 최적화를 사용 하 여 Citrix로 마이그레이션하는 경우 VDI에 팀이 이미 구현 되어 있는 경우 VDI 사용자에 게 해당 팀의 통화 및 모임 기능을 설정 하도록 정책을 설정 해야 합니다.
+사용자 수준 정책을 설정 하 여 통화 및 모임 기능을 해제 하 고 AV 최적화를 사용 하 여 팀으로 마이그레이션하는 경우 VDI에 팀의 기존 구현이 있는 경우 VDI 사용자에 게 해당 팀에 대 한 통화 및 모임 기능을 설정 하도록 정책을 설정 해야 합니다.
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>통화 및 모임 기능을 켜려면 정책 설정
 
@@ -359,13 +352,28 @@ PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자
 
 - 컴퓨터별 설치의 경우 vdi의 팀이 비 VDI 팀 클라이언트의 방식으로 자동으로 업데이트 되지 않습니다. [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션에 설명 된 대로 새 MSI를 설치 하 여 VM 이미지를 업데이트 해야 합니다. 최신 버전으로 업데이트 하려면 현재 버전을 제거 해야 합니다.
 - 팀은 사용자 또는 컴퓨터 별로 배포 해야 합니다. 사용자 당 동시 및 컴퓨터 별로 팀을 배포 하는 것은 지원 되지 않습니다. 컴퓨터 또는 사용자 별로 이러한 모드 중 하나로 마이그레이션하려면 제거 절차에 따라 두 모드에 다시 배포 합니다.
-- 현재 Citrix는이 시점에 MacOs 및 Linux 기반 클라이언트를 지원 하지 않습니다.
+- Windows 가상 데스크톱 및 VMware는 현재 MacOS 및 Linux 기반 클라이언트를 지원 하지 않습니다.
+- 지금은 Citrix가 MacOs 클라이언트를 지원 하지 않습니다.
 - Citrix는 끝점에 정의 된 명시적 HTTP 프록시 사용을 지원 하지 않습니다.
 
 ### <a name="calling-and-meetings"></a>통화 및 모임
 
+다음 통화 및 모임 기능은 지원 되지 않습니다.
+
+- 향상 된 응급 서비스
+- 팀 앱과 장치 간의 HID 단추 및 LED 컨트롤
+- 백그라운드 흐림 및 효과
+- 브로드캐스트/라이브 이벤트
+- LBR (위치 기반 라우팅)
+- 통화 공원
+- 통화 대기열
+
+> [!NOTE]
+> 현재는 비 VDI 환경 에서만 사용할 수 있는 통화 및 모임 기능을 추가 하는 작업을 진행 하 고 있습니다. 여기에는 품질, 추가 화면 공유 시나리오, 최근에 팀에 추가 된 고급 기능에 대 한 더 많은 관리 제어가 포함 될 수 있습니다. 예정 된 기능에 대해 자세히 알아보려면 팀 담당자에 게 문의 하세요.
+
+다음은 통화 및 모임에 대 한 알려진 문제점 및 제한 사항입니다.
+
 - 비즈니스용 Skype와의 상호 운용성은 음성 통화로 제한 됩니다. 영상 형식이 없습니다.
-- 익명 사용자로 팀 회의에 참가 하면 AV는 최적화 되지 않습니다. 사용자가 모임에 참가할 수 있으며 최적화 되지 않은 환경이 있습니다.
 - 모임 또는 그룹 통화에서는 하나의 수신 비디오 스트림만 지원 됩니다. 여러 사용자가 비디오를 보내면 주어진 시간에 주요 스피커 비디오만 표시 됩니다.
 - 수신 및 발신 비디오 스트림 해상도는 720p 해상도로 제한 됩니다. 이것은 WebRTC 제한 사항입니다.
 - 들어오는 카메라 또는 화면 공유 스트림의 비디오 스트림은 하나만 지원 됩니다. 들어오는 화면 공유가 있는 경우 기준 스피커의 비디오 대신 해당 화면 공유가 표시 됩니다.
