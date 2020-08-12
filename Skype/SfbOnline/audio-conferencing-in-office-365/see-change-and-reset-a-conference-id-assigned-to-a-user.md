@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype Online에서 사용자에 게 전화 번호를 할당 하는 방법과 회의 id 매개 변수를 확인 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: caa94984b06ff73d8f14acf4727870a988298974
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a8f0e64ef30e1e503a1e3b78c9823f5d115df837
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163917"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46643608"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 사용자에 게 할당 된 회의 ID 보기 및 재설정
 
@@ -54,7 +54,7 @@ Microsoft 365 또는 Office 365에서 오디오 회의를 위해 설정 되 고 
 
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
 
-3. **비즈니스용 Skype 관리 센터**> 의**오디오 회의** > **사용자**의 경우, 전화 회의 ID를 필요로 하는 사용자를 선택 합니다.
+3. **비즈니스용 Skype 관리 센터**의 >  **오디오 회의**  >  **사용자**의 경우, 전화 회의 ID를 필요로 하는 사용자를 선택 합니다.
 
 4. 작업 페이지에서 **전화 회의 ID**를 확인 합니다.
 
@@ -82,7 +82,7 @@ Cmdlet에 대해 자세히 알아보려면 [get-csonlinedialinconferencinguser](
 
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
 
-3. **비즈니스용 Skype 관리 센터**> **오디오 회의** > **사용자**의 작업 창에 있는 **전화 회의 ID**아래에서 **원래 대로**를 클릭 합니다.
+3. **비즈니스용 Skype 관리 센터** >  **오디오 회의**  >  **사용자**의 작업 창에 있는 **전화 회의 ID**아래에서 **원래 대로**를 클릭 합니다.
 
 4. **전화 회의 ID 다시 설정** 창에서 **예**를 클릭 합니다. 전화 회의 ID가 자동으로 만들어지고 새 전화 회의 ID를 사용 하 여 사용자에 게 전자 메일이 전송 됩니다.
 
@@ -103,7 +103,7 @@ Windows PowerShell을 사용 하 여 사용자의 전화 회의 ID를 다시 설
 
 - 전화 회의 ID는 오디오 회의 브리지에 설정 된 길이의 자릿수를 충족 해야 합니다. 전화 회의 Id에는 영문자 또는 특수 문자를 사용할 수 없습니다. 숫자만 사용할 수 있습니다.
 
-- 모든 오디오 회의 사용자의 전화 회의 ID는 기본적으로 7 자리로 표시 되며 자릿수는 변경할 수 없습니다.
+- 모든 오디오 회의 사용자의 전화 회의 ID는 기본적으로 9 자리로 표시 되며 자릿수는 변경할 수 없습니다.
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell을 사용 하 여 관리 하는 방법을 알고 싶으세요?
