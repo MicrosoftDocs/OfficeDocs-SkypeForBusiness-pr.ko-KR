@@ -1,5 +1,5 @@
 ---
-title: 관리 콘솔에서 팀 템플릿 사용
+title: 팀 서식 파일을 사용 하 여 새 팀 만들기
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583175"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634734"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>팀 관리 콘솔에서 팀 서식 파일 시작
 
@@ -35,7 +35,7 @@ ms.locfileid: "46583175"
 > [!NOTE]
 > 팀 템플릿은 현재 개인 채널 만들기를 지원 하지 않습니다. 개인 채널 만들기는 서식 파일 정의에 포함 되지 않습니다.
 
-팀 템플릿은 비즈니스 요구 또는 프로젝트를 기준으로 설계 된 팀의 구조에 대 한 미리 작성 된 정의입니다. 미리 작성 된 서식 파일을 사용 하거나 고유한 서식 파일을 만듭니다. 팀 서식 파일을 사용 하면 다양 한 주제에 대 한 채널을 사용 하 여 중요 한 공동 작업 공간을 신속 하 게 만들 수 있으며, 업무용 콘텐츠 및 서비스에서 가져올 수 있는 앱 팀 서식 파일은 조직에서 일관 된 팀을 쉽게 만들 수 있도록 미리 정의 된 팀 구조를 제공 합니다. 현재는 관리 콘솔에서 또는 [Microsoft Graph](get-started-with-teams-templates.md)를 사용 하 여 서식 파일을 사용할 수 있습니다.
+팀 템플릿은 비즈니스 요구 또는 프로젝트를 기준으로 설계 된 팀의 구조에 대 한 미리 작성 된 정의입니다. 미리 작성 된 서식 파일을 사용 하거나 고유한 서식 파일을 만듭니다. 팀 서식 파일을 사용 하면 다양 한 주제에 대 한 채널을 사용 하 여 중요 한 공동 작업 공간을 신속 하 게 만들 수 있으며, 업무용 콘텐츠 및 서비스에서 가져올 수 있는 앱 팀 서식 파일은 조직에서 일관 된 팀을 쉽게 만들 수 있도록 미리 정의 된 팀 구조를 제공 합니다. 현재 팀 또는 [Microsoft Graph](get-started-with-teams-templates.md)를 사용 하 여 서식 파일에서 팀을 만들 수 있습니다.
 
 이 문서에서는 템플릿에서 정의할 수 있는 속성, 기본 서식 파일 형식, 몇 가지 샘플 요청을 사용 하 여 서식 파일에서 팀을 만드는 방법에 대해 설명 합니다.
 

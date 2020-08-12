@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552614"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640963"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -443,3 +443,4 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [팀에서 사용자에 게 정책 할당](assign-policies.md)
+- [사용자의 RestrictedAnonymousAccess 팀 모임 정책 제거](meeting-policies-restricted-anonymous-access.md)

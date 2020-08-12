@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5b458dec4782794fef69b58d44430b35eccc07d
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121378"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634614"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft 팀에서 이벤트 감사 로그 검색
 
@@ -189,6 +189,11 @@ Microsoft 365 감사 로그에서 팀의 사용자 및 관리자 활동에 대�
 ## <a name="office-365-management-activity-api"></a>Office 365 관리 활동 API
 
 Office 365 관리 활동 API를 사용 하 여 팀 이벤트에 대 한 정보를 검색할 수 있습니다. 팀의 관리 활동 API 스키마에 대해 자세히 알아보려면 [팀 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)를 참조 하세요.
+
+
+## <a name="attribution-in-teams-audit-logs"></a>팀 감사 로그의 특성
+
+현재 팀 감사 로그 및 제어 메시지의 특성 관련 알려진 문제는 소유자가 사용자를 제거 하거나 추가 하는 것이 잘못 된 것일 수 있습니다. 이는 변경 내용이 팀 외부에서 발생 하는 경우에 발생 합니다. 이러한 경우에는 [Office 365 감사 로그](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)를 사용 하는 것이 좋습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

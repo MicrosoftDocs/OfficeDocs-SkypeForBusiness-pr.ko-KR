@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 55a514aa6aec6991e331b445a2fbb6e9c602ac91
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46606924"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640833"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치
 
@@ -44,7 +44,7 @@ MSI 파일에 대 한 링크는 다음과 같습니다.
 
 - 64 비트 버전의 팀을 64 비트 운영 체제에 설치 합니다. 32 비트 운영 체제에서 64 비트 버전의 팀을 설치 하려고 하면 설치에 실패 하 고 현재 오류 메시지가 표시 되지 않습니다.
 
-- 고객 테 넌 트가 GCCH 또는 DoD 클라우드에 있는 경우 고객은 레지스트리의 **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** 키에 **cloudtype** 값을 추가 하 여 레지스트리의 초기 끝점을 설정 해야 합니다. **Cloudtype** 에 대 한 형식은 **DWORD** 이 고 값은 (0 = 설정 되지 않음, 1 = 상업용, 2 = GCC, * = GCCH, 4 = DOD)입니다. 레지스트리 키를 사용 하 여 끝점을 설정 하면 팀에서 사전 로그인 연결을 위해 올바른 클라우드 끝점에 연결 하도록 제한 됩니다.
+- 고객 테 넌 트가 GCCH 또는 DoD 클라우드에 있는 경우 고객은 레지스트리의 **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** 키에 **cloudtype** 값을 추가 하 여 레지스트리의 초기 끝점을 설정 해야 합니다. **Cloudtype** 에 대 한 형식은 **DWORD** 이 고 값은 (0 = 설정 되지 않음, 1 = 상업용, 2 = GCC, 3 = GCCH, 4 = DOD)입니다. 레지스트리 키를 사용 하 여 끝점을 설정 하면 팀에서 사전 로그인 연결을 위해 올바른 클라우드 끝점에 연결 하도록 제한 됩니다.
 
 - 팀은 enterprise 용 Microsoft 365 앱 배포에도 포함 될 수 있습니다. 자세한 내용은 microsoft [365 앱을 사용 하 여 엔터프라이즈에 대 한 Microsoft 팀 배포](https://docs.microsoft.com/deployoffice/teams-install)를 참조 하세요.
 
