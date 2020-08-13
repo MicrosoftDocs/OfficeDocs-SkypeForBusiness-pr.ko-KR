@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서 게스트 액세스 권한 부여
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 description: 네 가지 수준의 권한 부여를 통해 Microsoft Teams 게스트 액세스 기능을 관리합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe067e88fe6e73b16e4296b611e87eb94d7e060c
-ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
+ms.openlocfilehash: f9ecf6893539204909bb6f583bbba982e8ee8d19
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45098366"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656159"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams에서 게스트 액세스 권한 부여
 ===========================================
