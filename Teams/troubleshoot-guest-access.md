@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams의 게스트 액세스에 대한 문제 해결
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 83f762acc87a15d87bc4b57813768c9f2011bbad
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 466728a50a5a610ee00665f3661b5c5701bcbad1
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583907"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656279"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스에 대한 문제 해결
 ======================================================

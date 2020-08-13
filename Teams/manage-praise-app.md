@@ -1,20 +1,19 @@
 ---
 title: 팀 관리 센터에서 칭찬 앱 관리
-author: CaitlynZawideh
-ms.author: t-cazaw
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Microsoft 팀 관리 센터에서 칭찬 앱의 관리 설정에 대 한 자세한 정보
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: deff9fca7cf1097399079482dc4667052a7be537
-ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
+ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46564079"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656309"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 칭찬 앱 관리
 
@@ -46,7 +45,7 @@ Microsoft 팀의 칭찬 앱은 사용자에 게 조직이 나 강의실 구성�
 
 ## <a name="create-your-own-badges"></a>나만의 배지 만들기
 
-**사용자 지정 배지** 전환 설정 및 **사용자 지정 배지 만들기**를 선택 합니다. 여기서는 측면 패널에서 사용자 지정 배지를 디자인할 수 있습니다.
+**사용자 지정 배지** 전환 설정 및 **사용자 지정 배지 만들기**를 선택 합니다. 여기서는 측면 패널에서 사용자 지정 배지를 디자인할 수 있습니다. 최대 25 명의 사용자 지정 배지를 만들 수 있습니다. 
 
 1. 배지 이름을 입력 합니다. 사용자가 칭찬를 보낼 때 배지에 표시 되는 이름입니다.
 
@@ -55,7 +54,7 @@ Microsoft 팀의 칭찬 앱은 사용자에 게 조직이 나 강의실 구성�
    > [!TIP]
    > 16 진수 값을 처음 사용 하는 경우이 문서에는 사용법을 보여 주는 [간략](#hex-colors-intro) 한 설명이 포함 되어 있습니다.
 
-3. 배지 이미지를 업로드 합니다. 허용 되는 파일 형식은. N. 파일 크기가 25kb 미만 이어야 합니다.
+3. 배지 이미지를 업로드 합니다. 허용 되는 파일 형식은. N. 이미지 파일은 최대 크기의 216 X 216 픽셀을 사용 하는 40 미만 이어야 합니다.
 ![배경, 텍스트, 이미지 필드가 표시 된 배지](media/praise-app-badge-fields.png)
 
 4. 배지 이름 지역화: 현지화 된 **배지 이름**아래에서 **추가**를 선택 합니다. 드롭다운 목록에서 원하는 로케일을 선택 합니다. 그런 다음 지정 된 언어로 배지 이름을 입력 합니다.
@@ -98,7 +97,7 @@ Microsoft 팀의 칭찬 앱은 사용자에 게 조직이 나 강의실 구성�
 
 **색을 선택할 때 접근성을 염두에 두어야 합니다.** 일부 색이 다른 색상 보다 더 잘 작용 합니다.  텍스트와 배경색 간의 대비를 만들어 배지 이름을 쉽게 읽을 수 있도록 합니다. 예를 들어 어두운 배경색을 선택한 경우 밝은 텍스트 색을 선택 합니다.
 
-**이미지를 선택 하는 경우 배지 크기를 염두에 두십시오.** 최상의 품질을 위해 216x216 픽셀의 이미지 파일을 업로드 하는 것이 좋습니다. 이러한 치수에 맞게 이미지를 늘이거나 왜곡할 필요가 없습니다.
+**이미지를 선택 하는 경우 배지 크기를 염두에 두십시오.** 최상의 품질을 위해서는 216 x 216 픽셀 (최대 크기) 인 이미지 파일을 업로드 하는 것이 좋습니다. 이러한 치수에 맞게 이미지를 늘이거나 왜곡할 필요가 없습니다.
 
 **배지 이미지가 직사각형이 아닌 경우 이미지를 투명 하 게 만듭니다.** 이미지 파일을 칭찬에 업로드 하기 전에이 작업을 수행 해야 합니다.
 

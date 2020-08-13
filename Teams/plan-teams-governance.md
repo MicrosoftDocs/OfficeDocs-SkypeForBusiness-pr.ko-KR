@@ -1,7 +1,7 @@
 ---
 title: 팀에서 관리 계획-Microsoft 팀
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665280"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656359"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams에서 거버넌스 계획
 
@@ -103,6 +103,34 @@ ms.locfileid: "44665280"
 
 - [팀을 보관 하거나 복원](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)합니다.
 
+## <a name="group-and-team-membership-management"></a>그룹 및 팀 구성원 관리
+
+프로젝트 기반 구성원을 일관 되 게 관리 하거나, 빠른 온 보 딩 및 오프 보 딩 또는 사용자 및 게스트가 필요한 팀에 제한 된 그룹이 필요 합니다. 조직에서 현재 모든 회원 들이 팀에 있는 비즈니스 근거를 보유 하 고 있는지도 확인 해야 할 수도 있습니다. 팀 소유자는 프로젝트를 종료 하거나 역할을 변경할 때 사용자의 고유한 accord에 그룹을 남기지 않기 때문에 구성원을 관리 하는 것은 어려울 수 있습니다. 사용자가 필요에 따라 액세스할 수 있도록 하는 그룹 구성원을 관리 하는 가장 좋은 방법은 그룹에 게 자격 부여 관리 및 액세스 검토와 같은 두 개의 학구 프로세스가 있는 것이 아닌지 확인 하는 것입니다.
+
+[자격 관리](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) 를 사용 하면 프로젝트 관리자와 같은 사용자에 게 위임 하 여 팀 구성원을 포함 하 여 필요한 모든 리소스를 단일 패키지로 모을 수 있습니다. 또한 테 넌 트 또는 다른 연결 된 조직의 사용자가 요청할 수 있는 사람을 정의할 수도 있습니다. 프로젝트 관리자는 전자 메일에 액세스 요청을 받고 MyAccess 포털에서 요청을 승인 하거나 거부 합니다. 관리자는 access가 갱신 되지 않는 한 팀에서 사용자 또는 게스트를 제거할 때 만료 날짜 또는 기간을 포함 하도록 액세스 조건을 구성할 수 있습니다. 관리자는 또한 팀과 연결 된 그룹을 설정 하 여 access 리뷰에 참여할 수 있습니다. [Access 리뷰](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)의 경우 그룹 소유자는 팀 구성원을 검토 하기 위한 정기적인 미리 알림을 받게 됩니다. Access 리뷰에는 그룹 소유자가 일반 증명 프로세스를 쉽게 이동할 수 있도록 하는 권장 사항이 포함 되어 있습니다.
+
+||||
+|:-|:-|:-|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 의사 결정 지점 | 조직에서 하나 이상의 팀 구성원을 관리 하기 위해 일관 된 프로세스가 필요 한가요? <br> 조직에서 한 명 이상의 팀 구성원을 정기적으로 정당화 하기 위해 소유자 또는 구성원 자체를 필요로 하나요? <br> 조직에서 팀, 그룹, SharePoint 사이트, 앱을 비롯 한 리소스에 대 한 액세스 권한을 요청 하는 사용자 및 게스트가 승인 해야 합니까? |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 다음 단계 | 회원 가입 만료를 위해 각 팀 또는 특정 팀에 대 한 조직 요구 사항을 문서화 합니다.<br>조직이 access 패키지에서 팀, 그룹, SharePoint 사이트 및 앱을 함께 묶을 수 있는 방법을 계획 합니다.<br>요청자의 관리자, 프로젝트 관리자, 연결 된 조직에 대 한 스폰서 또는 조직의 보안 담당자가 액세스 요청을 승인 하거나 거부 해야 하는 사람을 계획 합니다. |
+
+> [!TIP]
+> 조직의 요구 사항을 캡처하려면 다음 표를 사용 합니다.
+
+| 기능 | 세부 정보 | Azure AD Premium 라이선스 필요 | 덕분 |
+|:-|:-|:-|:-|
+| Access 리뷰 | 일정 한 시간 간격으로 특정 팀의 구성원 자격을 recertify 하는 access 리뷰 설정 | 즉 | TBD |
+| 자격 관리 | 사용자와 게스트가 팀에 대 한 액세스를 요청할 수 있도록 액세스 패키지 설치 | 즉 | TBD |
+
+> [!NOTE]
+> 미리 계획 하는 데 도움이 되도록 [필요한 라이선스에 대해 자세히 알아보세요](https://azure.microsoft.com/pricing/details/active-directory/).
+
+### <a name="additional-information"></a>추가 정보
+
+이러한 설정을 구현 하는 방법에 대 한 기술 지침은 다음을 참조 하세요.
+
+- [자격 관리](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
+- [Access 리뷰](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>팀 기능 관리
 

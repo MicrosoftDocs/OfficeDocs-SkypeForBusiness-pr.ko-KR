@@ -1,7 +1,7 @@
 ---
 title: 게스트 환경의 모양
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
-ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
+ms.openlocfilehash: 4d02fa805481e99b2627f4ca88b4d4000da31972
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799799"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655949"
 ---
 <a name="what-the-guest-experience-is-like"></a>게스트 환경의 모양
 =================================
@@ -77,11 +77,11 @@ ms.locfileid: "44799799"
 | Consultative 전송 가능 | 예 | 예 | 예 |
 | VOIP를 통해 통화에 다른 사용자를 추가할 수 있습니다. | 예 | 예 | 예 |
 | 전화 번호를 통해 통화에 사용자를 추가할 수 있습니다. | 아니요 | 아니요 | 예 |
-| 대상 전달 | 아니오 | 예 | 예 |
-| 통화 그룹 대상 | 아니오 | 예 | 예 |
-| 응답 하지 않은 대상 | 아니오 | 예 | 예 |
-| 페더레이션된 통화 대상일 수 있습니다. | 아니오 | 예 | 예 |
-| 페더레이션된 통화를 할 수 있습니다. | 아니오 | 예 | 예 |
+| 대상 전달 | 아니요 | 예 | 예 |
+| 통화 그룹 대상 | 아니요 | 예 | 예 |
+| 응답 하지 않은 대상 | 아니요 | 예 | 예 |
+| 페더레이션된 통화 대상일 수 있습니다. | 아니요 | 예 | 예 |
+| 페더레이션된 통화를 할 수 있습니다. | 아니요 | 예 | 예 |
 | 통화를 즉시 착신 전환할 수 있습니다. | 아니요 | 아니요 | 예 |
 | 동시에 통화를 들을 수 있습니다. | 아니요 | 아니요 | 예 |
 | 응답 하지 않은 통화를 라우팅할 수 있습니다. | 아니요 | 아니요 | 예 |

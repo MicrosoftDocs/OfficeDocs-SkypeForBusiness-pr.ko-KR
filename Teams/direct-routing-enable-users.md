@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 사용자의 Microsoft 전화 시스템 다이렉트 라우팅을 사용 하도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691374"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656149"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>사용자가 직접 라우팅, 음성, 보이스 메일을 사용할 수 있도록 설정
 
@@ -53,9 +53,9 @@ Microsoft 365 또는 Office 365에서 새 사용자를 만드는 두 가지 옵�
 
 라이선스 요구 사항에 대 한 자세한 내용은 [직접 라우팅 계획](direct-routing-plan.md)의 [라이선스 및 기타 요구 사항을](direct-routing-plan.md#licensing-and-other-requirements) 참조 하세요.
 
-## <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>사용자가 비즈니스용 Skype Online에 있는지 확인 
+## <a name="ensure-that-the-user-is-homed-online"></a>사용자가 온라인 상태 인지 확인 
 
-직접 라우팅에는 사용자가 비즈니스용 Skype Online에 있어야 합니다. Infra.lync.com 도메인에 값이 있어야 하는 RegistrarPool 매개 변수를 확인 하 여 확인할 수 있습니다.
+직접 라우팅에는 사용자가 온라인으로 연결 되어 있어야 합니다. Infra.lync.com 도메인에 값이 있어야 하는 RegistrarPool 매개 변수를 확인 하 여 확인할 수 있습니다.
 
 1. 원격 PowerShell에 연결 합니다.
 2. 다음 명령을 실행 합니다. 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8124a2acddc9488d22c4579412f665d8cc090553
-ms.sourcegitcommit: 712c1ac5dd8c4b2faacad80aca9cbb1e4ccfb985
+ms.openlocfilehash: 6674f755c4f6a36c3877680aa0c4c4de4f27c83c
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204353"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656199"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
 ===================================================

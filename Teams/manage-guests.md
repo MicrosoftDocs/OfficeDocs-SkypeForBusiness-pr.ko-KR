@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀에서 게스트 액세스 관리
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 첫 번째 팀과 채널을 만들고, 초기 사용자를 미리 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4751f274e4bc7a874c1469041787d7d145c11bb8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fa45c5c307e33188548353a9a4d36086d804b278
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637667"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655939"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "44637667"
 > [!IMPORTANT]
 > 변경 내용이 적용 되려면 몇 시간 정도 기다려야 할 수 있습니다. 
 
-**게스트** 는 모든 Microsoft 365 비즈니스 표준, Office 365 Enterprise, Microsoft 365 비즈니스 기본 및 Office 365 교육 구독에 포함 된 microsoft 팀의 사용자 유형입니다. Microsoft 365 또는 Office 365 라이선스가 추가로 필요 하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
+**게스트** 는 모든 Microsoft 365 비즈니스 표준, Office 365 Enterprise, Microsoft 365 비즈니스 기본 및 Office 365 교육 구독에 포함 된 microsoft 팀의 사용자 유형입니다. Microsoft 365 또는 Office 365 추가 라이선스가 필요하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
 
 팀 게스트 액세스는 테 넌 트 수준 설정 이므로 기본적으로 꺼져 있습니다. 게스트 액세스를 설정 하는 방법에 대 한 자세한 내용은 [팀에 대 한 게스트 액세스 설정 또는 해제](set-up-guests.md)또는 [게스트 액세스 검사 목록을](guest-access-checklist.md) 사용 하 여 설치를 안내 합니다.
 

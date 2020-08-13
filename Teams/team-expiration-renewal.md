@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 16da525051e09f4ed1a7acaf3e9906f59b8b30af
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868525"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648589"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft 팀에서 팀 만료 및 갱신
 
@@ -33,7 +33,7 @@ ms.locfileid: "44868525"
 
 ![팀 설정에서 팀 갱신을 위한 지금 갱신 단추 스크린샷](media/team-expiration.png "팀 설정에서 팀 갱신을 위한 지금 갱신 단추 스크린샷")
 
-팀 소유자가 팀을 갱신 하지 않으면 팀이 "일시 삭제 됨" 상태로 설정 되며,이는 다음 30 일 내에 복원 될 수 있음을 의미 합니다.
+팀 소유자가 팀을 갱신 하지 않고 만료 정책이 끝날 때까지 팀에 추가 활동이 없는 경우 팀은 "일시 삭제 됨" 상태에 놓이게 되며,이는 다음 30 일 내에 복원 될 수 있음을 의미 합니다.
 
 ## <a name="team-auto-renewal"></a>팀 자동 갱신
 
