@@ -6,8 +6,8 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: dstrome
-  manager: serdars
+  ms.author: mikeplum
+  author: MikePlumleyMSFT
   ms.date: 05/16/2019
   ms.reviewer: lolaj
   ms.service:
@@ -21,12 +21,12 @@ metadata:
   - M365-voice
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: d4810a709884f5d5e98a06de242354ff5c5576eb
-  ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+  ms.openlocfilehash: 543af384a3e5d47e86ae270df1430e7620150596
+  ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 07/14/2020
-  ms.locfileid: "45126001"
+  ms.lasthandoff: 08/14/2020
+  ms.locfileid: "46672869"
 items:
 - durationInMinutes: 2
   content: "\n[Microsoft 팀](/MicrosoftTeams/Teams-overview) 과 [비즈니스용 Skype Online](https://support.office.com/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 은 채팅, 전화 통화, 보이스 메일, 모임, 파일, 앱을 한 곳에 함께 제공 하는 Office 365의 일부입니다. Office 365 클라우드에서 통화 제어 및 PBX 기능을 사용 하려면 [**전화 시스템**](/MicrosoftTeams/what-is-phone-system-in-office-365) 라이선스가 필요 합니다. 라이선스는 추가 기능 또는 Enterprise E5 라이선스의 일부로 사용할 수 있습니다. 라이선스 세부 정보는 [비즈니스용 Skype 추가 기능 라이선스](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)입니다. \n\n전화 시스템 라이선스를 사용 하 여 기존 PBX 시스템을 보이스 메일, 통화 대기열, [자동 전화 교환](/microsoftteams/what-are-phone-system-auto-attendants)등 [의 기능 집합](/MicrosoftTeams/here-s-what-you-get-with-phone-system) 으로 교체할 수 있으며,이를 통해 비즈니스 사용자가 메뉴 시스템을 탐색 하 여 적절 한 부서, 사람 또는 운영자에 게 전화를 걸 수 있습니다. 자동 전화 교환을 팀 또는 비즈니스용 Skype와 함께 사용할 수 있습니다. Microsoft 팀 관리 센터를 사용 하 여 조직에 대 한 자동 전화 교환 시스템을 만듭니다.\n\n자동 전화 교환을 설정 하 라는 메시지가 표시 되는 경우이 문서에서는 가상 small business의 자동 전화 교환에 대 한 계획, 디자인 및 구현 프로세스 그림을 설명 합니다. 이는 여러 자동 전화 교환의 작동 구조에 대 한 생각 프로세스 보다는 한 가지 크기에 딱 맞는 해결 방법입니다. \n\n## <a name=\"before-you-begin\"></a>시작 하기 전에\n\n이 자습서에서는 이미 이러한 작업을 완료 했다고 가정 합니다. \n- 사용자에 게 전화 번호를 제공 하도록 [조직에서 전화 시스템을 설정](/MicrosoftTeams/setting-up-your-phone-system) 합니다.\n- [클라우드 음성 메일 설정](/MicrosoftTeams/set-up-phone-system-voicemail) \n- [클라우드 자동 전화 교환 이란 무엇 인가요?](/MicrosoftTeams/what-are-phone-system-auto-attendants) 자동 전화 교환과 상호 작용할 수 있는 전화 시스템 기능에 대 한 더 나은 이해를 받으세요.\n\n또한 화이트 보드 또는 색인 카드를 사용 하 여 대부분의 계획 및 디자인 부분을 수행할 수 있다는 것을 알게 될 것입니다. 좋은 계획은 기술적으로 요구 되지 않습니다.\n"
