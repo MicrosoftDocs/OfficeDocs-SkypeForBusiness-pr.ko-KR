@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1aeee07b9c9f25c459366d7bf5f062c731c12f66
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 794089ed86b51ba15df2bd72a63a4dbe4f892f13
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581995"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656069"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -44,6 +44,7 @@ ms.locfileid: "46581995"
 |팀당 채널 수    | 200(삭제된 채널 포함)&sup3;         |
 |팀당 비공개 채널 수    |30|
 |비공개 채널 회원수    |250|
+|그룹에서 팀으로 전환할 수 있는 최대 구성원 수    |10,000|
 |채널 대화 게시 크기 | 게시물당 28 KB<sup>4</sup> |
 
 <sup>1</sup> Azure Active Directory의 모든 디렉터리 개체는 이 제한에 포함됩니다. 전역 관리자는 [응용 프로그램 사용 권한](https://docs.microsoft.com/graph/permissions-reference)을 사용하여 Microsoft Graph를 호출하는 앱과 마찬가지로 이 제한에서 제외됩니다.

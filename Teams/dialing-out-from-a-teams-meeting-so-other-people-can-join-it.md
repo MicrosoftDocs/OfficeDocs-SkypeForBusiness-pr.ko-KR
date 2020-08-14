@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 모임 이끌이는 다른 사용자가 자신의 전화를 사용 하 여 동일한 모임에 참가할 수 있도록 팀 앱을 사용 하 여 전화를 거는 방법을 알아봅니다.
-ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691294"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662108"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>다른 사용자가 참여할 수 있도록 Microsoft 팀 모임에서 전화 걸기
 
@@ -38,7 +38,8 @@ ms.locfileid: "44691294"
   다음 사항에 유의 하세요.
 
 - 팀을 사용 하 여 모임에 참가 하는 경우에만 전화를 걸 수 있습니다.
-- 모임 이끌이는 오디오 회의를 사용 하도록 설정 되었습니다.
+- 모임 이끌이는 오디오 회의에 사용 하도록 설정 되어 있거나, 오디오 회의 라이선스가 할당 되지 않은 경우, 온라인 통화 계획 또는 직접 라우팅을 통해 공용 전환 전화 네트워크에 전화를 걸 수 있습니다.
+- 모임 이끌이는 [회의에서 전화를 걸 수 있는 온라인 전화 접속 정책이 부여](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps) 됩니다.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

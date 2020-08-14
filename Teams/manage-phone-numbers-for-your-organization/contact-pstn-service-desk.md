@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직의 전화 번호 또는 포트 (전송) 번호를 받은 경우 PSTN 서비스 데스크에서 도움말 및 지원을 받아야 할 수 있습니다.
-ms.openlocfilehash: 7e259010772dd655f748f30e3de291a4a43c5cef
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: b0ba69aae5c25db788279ec4e28ad306514b1974
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597063"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662098"
 ---
 # <a name="pstn-service-desk-contact-information"></a>PSTN 서비스 데스크 연락처 정보
 
@@ -36,8 +36,9 @@ PSTN 서비스 데스크 팀에 문의 하려면 다음 표에 나열 된 적절
 
 | **기존 번호를 전송/이식 하 고 싶습니다.**  | **새로운 번호를 주문 하 고 싶습니다.** |
 |:-----:|:------:|
-| **미국** 또는 **캐나다** **내** 에서 [ptn@microsoft.com](mailto:ptn@microsoft.com)에 전자 메일을 보냅니다.| **벨기에, 프랑스, 독일, 위대한 영국, 아일랜드, 네덜란드, 스페인, 스웨덴, 스위스**, [ptneu@microsoft.com](mailto:ptneu@microsoft.com)에 게 전자 메일 보내기.|
-|**미국** 또는 **캐나다** **이외의** 지역에서 [ptneu@microsoft.com](mailto:ptneu@microsoft.com)에 게 전자 메일을 보냅니다.| **나머지 세상**에는 [gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)에 게 전자 메일을 보냅니다.|
+| [**미국 또는 캐나다 내**에 ptn@microsoft.com에서 전자 메일 보내기](mailto:ptn@microsoft.com)| [**벨기에, 프랑스, 독일, 위대한 영국, 아일랜드, 네덜란드, 스페인, 스웨덴, 스위스**, ptneu@microsoft.com에서 전자 메일 보내기](mailto:ptneu@microsoft.com)|
+|[**미국 또는 캐나다 외**에는 ptneu@microsoft.com에서 전자 메일을 보내 주십시오.](mailto:ptneu@microsoft.com)| [**전 세계의**gcstnmsd@microsoft.com를 전자 메일로 보내 주십시오.](mailto:gcstnmsd@microsoft.com)|
+|받는 요청의 크기가 큰 스파이크 때문에 **북미 포팅 팀** 은 백로그입니다. 이 백로그를 FIFO (선입 선출)에 따라 제거 하 고, 결과적으로 **새 요청에 대 한 응답이 지연 됩니다.**|받는 요청의 크기가 큰 스파이크 때문에 **EU 포팅 팀** 은 백로그입니다. 이 백로그를 FIFO (선입 선출)에 따라 제거 하 고, 결과적으로 **새 요청에 대 한 응답이 지연 됩니다.**|
 
 > [!NOTE]
 > 북미 응답은 들어오는 요청의 증가 때문에 지연 될 수 있습니다. 백로그가 FIFO (선입 선출) 기준으로 지워졌습니다.

@@ -16,12 +16,12 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012284"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662088"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -36,7 +36,7 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 
 팀 사용자의 모임이 기록 되도록 하려면 테 넌 트에 대해 Microsoft Stream을 사용 하도록 설정 해야 합니다. 또한 다음과 같이 모임 이끌이 및 녹음/녹화를 시작하는 사용자 모두에게 필요한 필수 구성 요소가 있습니다.
 
-- 사용자는 Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium 또는 Business Essentials을 사용할 수 있습니다.
+- 사용자에 게 Office 365 E1, E3, E5, A1, A3, A5, M365 Business Premium, M365 Business Standard 또는 M365 Business Basic이 있습니다.
 - 사용자에게 Microsoft Stream<sup>1</sup>에 대한 라이선스가 필요합니다. 
 - 사용자에게 Microsoft Stream 업로드 비디오 권한이 있습니다.
 - 관리자가 설정한 경우 사용자는 회사 지침을 동의합니다.

@@ -1,7 +1,7 @@
 ---
 title: 클라우드 자동 전화 교환이란?
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 4/2/2019
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 클라우드 자동 전화 교환 및이를 사용 하 여 호출자가 사용자 또는 부서에 전화를 걸고 배치 하거나 전송 하기 위해 메뉴 시스템에서 이동할 수 있도록 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 57e718ad6b660baa39814b987c2b6ca18bba05d9
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 88b1a67c1438efb5ef1113999feeffd9735f293f
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552574"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672839"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>클라우드 자동 전화 교환이란?
 
@@ -64,7 +64,7 @@ ms.locfileid: "46552574"
 > 자동 전화 교환 및 통화 대기열에 대 한 직접 라우팅 서비스 번호는 Microsoft 팀 사용자 및 통화 에이전트만 사용할 수 있습니다.
 
    > [!TIP]
-   > **전화 시스템** 라이선스가 있는 온라인 사용자 인 통화를 교환원 또는 메뉴 옵션으로 리디렉션하려면 엔터프라이즈 음성에 대 한 계정을 사용 하도록 설정 하거나 통화 요금제를 할당 해야 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. Windows PowerShell을 사용할 수도 있습니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > **전화 시스템** 라이선스가 있는 온라인 사용자 인 통화를 교환원 또는 메뉴 옵션으로 리디렉션하려면 엔터프라이즈 음성에 대 한 계정을 사용 하도록 설정 하거나 통화 요금제를 할당 해야 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. Windows PowerShell을 사용할 수도 있습니다. 예를 들어 다음을 실행 합니다.  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 자동 전화 교환에 무료 서비스 번호를 이용 하 여 사용 하려면 통신 크레딧을 설정 해야 합니다. 이를 위해서는 [통신 크레딧을 소개](what-are-communications-credits.md) 하 고 [조직의 통신 크레딧을 설정](set-up-communications-credits-for-your-organization.md)하세요.
 
@@ -81,7 +81,7 @@ ms.locfileid: "46552574"
 
 이름으로 전화 걸기는 디렉터리 검색이 라고도 하는 자동 전화 교환의 기능입니다. 자동 전화 교환 기능을 통해 음성 (음성 인식) 또는 해당 휴대폰 키패드 (DTMF) 응답을 사용 하 여 회사 디렉터리를 검색 하는 전체 또는 일부 이름을 입력 하면 해당 사용자를 찾은 다음 통화가 전달 됩니다. 전화를 걸고 받을 사용자는 전화 번호를 사용 하거나 통화 **요금제를 할당 하지 않아도 되지만, 온라인 사용자 인 경우에는 전화 시스템 라이선스가 필요 하지만, 비즈니스용 Skype 서버 사용자에 게는 Enterprise Voice가 설정 되어 있어야 합니다**. 이름으로 전화 걸기는 여러 국가의 조직에 대해 다른 국가 또는 지역에서 호스팅되는 Microsoft 팀 사용자에 게 전화를 걸고 양도할 수도 있습니다. 관련 된 필수 구성 요소를 사용 하는 경우 자동 전화 교환에서 이름으로 전화 걸기를 명시적으로 설정 합니다.
 
-내선 번호 걸기는 디렉터리 검색의 일부 이기도 한 자동 전화 교환의 기능입니다. 자동 전화 교환 프로그램을 통해 음성 (음성 인식) 또는 해당 전화기 키패드 (DTMF) 응답을 사용 하 여 연결 하려는 사용자의 휴대폰 내선 번호를 입력 하 고 해당 통화를 전달 받을 수 있습니다. 내선 번호로 전화를 걸고 도달 하려는 사용자는 **전화 번호를 사용 하거나 통화 요금제를 할당 하지 않아도 되지만, 온라인 사용자 인 경우에는 전화 시스템 라이선스가 필요 하지만 비즈니스용 Skype 서버 사용자에 게는 Enterprise Voice가 설정 되어 있어야 합니다**. 또한 사용자를 위해 적절 하 게 구성 된 다이얼 플랜이 있어야 합니다. 내선 번호로 전화를 걸려면 다양 한 국가 또는 지역에서 호스팅되는 Microsoft 팀 사용자에 게 전화를 걸고 양도할 수 있습니다. 관련 된 필수 구성 요소를 사용 하 여 자동 전화 교환에서 내선 번호 걸기를 명시적으로 설정 합니다.
+내선 번호 걸기는 디렉터리 검색의 일부 이기도 한 자동 전화 교환의 기능입니다. 자동 전화 교환 프로그램을 통해 음성 (음성 인식) 또는 해당 전화기 키패드 (DTMF) 응답을 사용 하 여 연결 하려는 사용자의 휴대폰 내선 번호를 입력 하 고 해당 통화를 전달 받을 수 있습니다. 내선 번호로 전화를 걸고 도달 하려는 사용자는  **전화 번호를 사용 하거나 통화 요금제를 할당 하지 않아도 되지만, 온라인 사용자 인 경우에는 전화 시스템 라이선스가 필요 하지만 비즈니스용 Skype 서버 사용자에 게는 Enterprise Voice가 설정 되어 있어야 합니다**. 또한 사용자를 위해 적절 하 게 구성 된 다이얼 플랜이 있어야 합니다. 내선 번호로 전화를 걸려면 다양 한 국가 또는 지역에서 호스팅되는 Microsoft 팀 사용자에 게 전화를 걸고 양도할 수 있습니다. 관련 된 필수 구성 요소를 사용 하 여 자동 전화 교환에서 내선 번호 걸기를 명시적으로 설정 합니다.
 
 #### <a name="maximum-directory-size"></a>최대 디렉터리 크기
 

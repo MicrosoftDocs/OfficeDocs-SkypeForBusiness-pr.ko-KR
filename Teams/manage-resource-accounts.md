@@ -1,7 +1,7 @@
 ---
 title: 팀에서 자원 계정 관리
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 팀에서 자원 계정을 만들고, 편집 하 고, 관리 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: b47e00323129211f657ec1dafc4e62a7cd6e4321
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 90e8ab26782424c6cc341936f185a253c6d1fbe6
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868615"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672859"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -54,7 +54,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 자동 전화 교환 또는 통화 대기열이 최상위 자동 전화 교환 아래에 중첩 되는 경우 연결 된 리소스 계정은 자동 전화 교환 및 통화 대기열의 구조에 여러 항목을 입력 하려는 경우에만 전화 번호를 필요로 합니다.
 
-온라인에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하 고 Enterprise Voice를 사용 하도록 설정 하거나 Microsoft 365 또는 Office 365 통화 계획을 받아야 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+온라인에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하 고 Enterprise Voice를 사용 하도록 설정 하거나 Microsoft 365 또는 Office 365 통화 계획을 받아야 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다. `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 > [!WARNING]
 > 자원 계정 관련 문제가 발생 하지 않도록 하려면 다음 단계를 순서 대로 수행 합니다.
@@ -83,7 +83,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 2. 전화 시스템 가상 사용자 라이선스 또는 일반 전화 시스템 라이선스를 얻습니다.
 
    가상 사용자 라이선스를 얻으려면 Microsoft 365 관리 센터에서 **청구**  >  **구입 서비스**  >  **추가 기능 구독** 으로 이동 하 여 끝으로 스크롤합니다. "전화 시스템-가상 사용자" 라이선스가 표시 됩니다. **지금 구입**을 선택 합니다. 비용이 0 인 경우에도 다음 단계를 따라 라이선스를 취득 해야 합니다.
-3. 새 자원 계정을 만듭니다. [Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-the-microsoft-teams-admin-center) 또는 [Powershell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell)를 참조 하세요.
+3. 새 자원 계정을 만듭니다. [Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-the-microsoft-teams-admin-center) 또는 [PowerShell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell)를 참조 하세요.
 4. 전화 시스템- [가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md) 또는 전화 시스템 라이선스를 리소스 계정에 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md) 및 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)을 참조 하세요.
 5. 서비스 번호를 리소스 계정에 할당 합니다. [전화 번호 및 서비스 할당/할당 취소를](#assignunassign-phone-numbers-and-services)참조 하세요.
 6. 다음 중 하나를 설정 합니다.
@@ -97,7 +97,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 중첩 된 자동 전화 교환 또는 통화 대기열에는 리소스 계정이 필요 하지만 대부분의 경우 해당 리소스 계정은 전화 번호와 전화 번호를 지 원하는 데 필요한 라이선스가 필요 하지 않습니다. 전화 번호가 필요 하지 않은 리소스 계정을 만들려면 다음 작업을 순서 대로 수행 해야 합니다.
 
-1. 새 자원 계정을 만듭니다. [Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-the-microsoft-teams-admin-center) 또는 [Powershell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell)를 참조 하세요.
+1. 새 자원 계정을 만듭니다. [Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-the-microsoft-teams-admin-center) 또는 [PowerShell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell)를 참조 하세요.
 
 2. 다음 중 하나를 설정 합니다.
    - [클라우드 자동 전화 교환](create-a-phone-system-auto-attendant.md)
@@ -158,11 +158,11 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 > [!WARNING]
 > 항상 전체 전화 시스템 라이선스를 제거 하 고 동일한 라이선스 활동에 가상 사용자 라이선스를 할당 합니다. 이전 라이선스를 제거 하 고, 계정 변경 내용을 저장 하 고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장 하면 리소스 계정이 더 이상 예상 대로 작동 하지 않을 수 있습니다. 이 문제가 발생 하는 경우 가상 사용자 라이선스에 대 한 새 리소스 계정을 만들고 끊어진 리소스 계정을 제거 하는 것이 좋습니다.
 
-## <a name="create-a-resource-account-in-powershell"></a>Powershell에서 리소스 계정 만들기
+## <a name="create-a-resource-account-in-powershell"></a>PowerShell에서 리소스 계정 만들기
 
-리소스 계정이 온라인 상태 인지 또는 비즈니스용 Skype Server 2019에 따라 관리자 권한을 사용 하 여 적절 한 Powershell 프롬프트에 연결 해야 합니다.
+리소스 계정이 온라인 상태 인지 또는 비즈니스용 Skype Server 2019에 따라 관리자 권한을 사용 하 여 적절 한 PowerShell 프롬프트에 연결 해야 합니다.
 
-- 다음 Powershell cmdlet 예제에서는 [새 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)를 사용 하 여 온라인으로 리소스 계정을 만드는 방법을 보여 줍니다. 
+- 다음 PowerShell cmdlet 예제에서는 [새 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)를 사용 하 여 온라인으로 리소스 계정을 만드는 방법을 보여 줍니다. 
 
 - 클라우드 통화 대기열 및 클라우드 자동 전화 교환에 사용할 수 있는 비즈니스용 Skype Server 2019에 있는 리소스 계정의 경우 [클라우드 통화 대기열 계획](/SkypeforBusiness/hybrid/plan-call-queue) 또는 [클라우드 자동 전화 교환 계획](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)을 참조 하세요. 하이브리드 구현 (직접 라우팅에 있는 숫자)은 온-프레미스 비즈니스용 Skype Server 2019 서버에서 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) cmdlet을 사용 하 여 구성 됩니다.
 
@@ -178,7 +178,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 1. 자동 전화 교환에 사용할 리소스 계정을 온라인으로 만들려면 다음 명령을 사용 합니다.
 
-    ``` Powershell
+    ```powershell
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
@@ -186,7 +186,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 3. ) 자원 계정에 올바른 라이선스를 적용 한 후에는 다음과 같이 리소스 계정에 전화 번호를 지정할 수 있습니다. 일부 자원 계정에는 전화 번호가 필요 하지 않습니다. 자원 계정에 라이선스를 적용 하지 않은 경우에는 전화 번호 할당이 실패 합니다.
 
-   ``` Powershell
+   ```powershell
    Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
    Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
    ```
@@ -196,9 +196,9 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
    > [!NOTE]
    > 앞에서 설명한 대로 Microsoft 팀 관리 센터를 사용 하 여 온라인 전화 번호를 설정 하는 것이 가장 쉽습니다.
 
-   Microsoft 팀 또는 비즈니스용 Skype Server 2019에 있는 리소스 계정에 직접 라우팅 전화 번호를 할당 하려면 비즈니스용 Skype Online Powershell에 다음 cmdlet을 사용 합니다.
+   Microsoft 팀 또는 비즈니스용 Skype Server 2019에 있는 리소스 계정에 직접 라우팅 전화 번호를 할당 하려면 비즈니스용 Skype Online PowerShell에 다음 cmdlet을 사용 합니다.
 
-   ``` Powershell
+   ```powershell
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
@@ -216,7 +216,7 @@ Microsoft 팀 관리 센터에서 자원 계정 설정을 관리 하려면 **조
 
 서비스 번호가 보류 모드에서 중지 되지 않도록 하려면 먼저 리소스 계정에서 전화 번호를 분리 하 여 삭제 해야 합니다. 다음 cmdlet을 사용 하 여이 작업을 수행할 수 있습니다.
 
-``` Powershell
+```powershell
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
@@ -224,7 +224,7 @@ Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -Telephone
 
 리소스 계정에서 직접 라우팅 전화 번호의 연관을 해제 하려면 다음 cmdlet을 사용 합니다.
 
-``` Powershell
+```powershell
 Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
 ```
 
@@ -234,13 +234,13 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 Microsoft 팀 관리 센터에서 자원 계정에 할당 된 전화 번호가 표시 되지 않고 해당 번호를 할당할 수 없는 경우 다음을 확인 합니다.
 
-``` Powershell
+```powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
 ```
 
 부서 특성에 비즈니스용 Skype 응용 프로그램 종점이 표시 되는 경우 아래에서 cmdlet을 실행 하세요.
 
-``` Powershell
+```powershell
 Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance"
 ```
 

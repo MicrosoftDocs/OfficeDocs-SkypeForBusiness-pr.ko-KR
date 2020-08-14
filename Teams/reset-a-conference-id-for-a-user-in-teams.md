@@ -21,20 +21,19 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Microsoft 팀에서 사용자의 모임 전화 회의 ID를 다시 설정 하는 단계와 모임 업데이트 및 마이그레이션 도구에 대 한 링크를 확인 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: fbda2d65868d9f4082ae7b3ee835d0560c609e11
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 52b547fee5bf027bcef21914e3ba3aa79b0e4e08
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666200"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662128"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 대 한 전화 회의 ID 다시 설정
 
 동적 전화 회의 ID는 전화 접속 전화 번호와 함께 모임 초대 맨 아래에 포함 되며, 발신자가 모임에 전화를 걸 때 사용할 수 있습니다. 사용자가 전화 번호를 누르면 모임에 대 한 자동 전화 교환은 발신자에 게이 회의 ID를 입력 하도록 요청 하 여 모임에 참석할 수 있도록 합니다.
   
 > [!NOTE]
-> 회의 공급자가 Microsoft 인 경우에는 기본적으로 사용자의 회의 Id가 동적 으로만 설정 됩니다. 아쉽게도이 기능은 지원 되지 않으므로이를 정적으로 변경할 수 없습니다. 전화 회의 Id는 자동으로 오디오 회의를 사용 하도록 설정 된 Microsoft 팀 사용자 에게만 설정 됩니다. 
-
+> 전화 회의 Id는 자동으로 생성 되며, 사용자에 대 한 오디오 회의를 사용 하도록 설정 하는 경우에는 7-9 자리에 표시 됩니다. **정적 회의 Id는 지원 되지 않습니다.** 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>사용자의 전화 회의 ID 다시 설정
 
@@ -59,7 +58,7 @@ ms.locfileid: "44666200"
 
 - **오디오 회의** 섹션의 사용자에 대 한 **전자 메일에서 회의 정보 보내기를** 클릭 하 여 전화 회의 ID를 포함 하는 전자 메일에서 모든 회의 정보를 사용자에 게 보낼 수 있습니다. PIN은 전송 되지 않습니다.
     
-- 전화 회의 ID에는 8 자리 숫자가 포함 되며 길이는 변경할 수 없습니다.
+- 7-9 자리 회의 ID는 팀 서비스에 의해 생성 됩니다. 길이는 변경할 수 없습니다.
     
 - 다시 설정한 후에는 **전화 회의 id**아래에 나열 된 새 전화 회의 id를 확인할 수 있습니다.
     
