@@ -18,12 +18,12 @@ description: 관리자는 Microsoft Teams 데스크톱 및 웹 클라이언트�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 099e7a0a1fd7368385d564f46e2df12d5aced4b2
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: baac3c7c7e83547672b8baeb0915081523e5bfe8
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656129"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761284"
 ---
 <a name="add-a-guest-to-a-team"></a>팀에 게스트 추가
 =====================
@@ -33,7 +33,7 @@ ms.locfileid: "46656129"
 비즈니스 또는 소비자 전자 메일 계정(Outlook, Gmail 등)이 있는 사용자는 Teams에서 게스트로 참여할 수 있습니다.
 
 관리자는 다음과 같은 두 가지 방법으로 조직에 새 게스트 사용자를 추가할 수 있습니다.
-- 전역 관리자 또는 Teams 관리자와 팀 소유자가 Teams 클라이언트나 Teams 관리 센터에서 팀에 게스트를 추가합니다. 자세한 내용을 보려면 [팀에 게스트 추가](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)를 읽으세요. 아직 게스트 액세스를 설정하지 않은 경우 [게스트 액세스 검사 목록](guest-access-checklist.md)의 단계를 진행합니다.
+- 전역 관리자 또는 Teams 관리자와 팀 소유자가 Teams 클라이언트나 Teams 관리 센터에서 팀에 게스트를 추가합니다. 자세한 내용을 보려면 [팀에 게스트 추가](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)를 읽으세요. 아직 게스트 액세스를 설정하지 않은 경우 [팀 내 게스트와의 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team) 단계를 수행합니다.
 
 > [!NOTE] 
 > **관리자 및 게스트 초대자 역할의 사용자가 초대할 수 있음**을 사용하도록 설정한 경우에는 적용되지 않습니다. 게스트 초대자 역할은 Teams에서 지원되지 않기 때문입니다.

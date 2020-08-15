@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a16b7f9f133c6df6c0c30ee4ac24c54397d110
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121638"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761294"
 ---
 # <a name="security-and-microsoft-teams"></a>보안 및 Microsoft Teams
 
@@ -127,7 +127,7 @@ TLS에서는 사용자가 클라이언트 소프트웨어를 통해 연결하는
 TLS 및 MTLS는 도청 및 중간자 공격을 모두 방지하는 데 도움이 됩니다. 중간자 공격의 공격자는 당사자에 대한 정보가 없어도 공격자의 컴퓨터를 통해 두 네트워크 엔터티 간의 통신을 다시 라우팅합니다. 신뢰할 수 있는 서버의 TLS와 Teams 사양은 두 끝점 사이의 공개 키 암호기법을 사용하여 조정되는 암호화를 사용해 일부 응용 프로그램 계층의 중간자 공격 위험을 줄일 수 있습니다. 공격자는 개인 키에 맞는 올바르고 신뢰할 수 있는 인증서를 보유해야 하며 클라이언트가 해독하고자 통신하는 서비스명으로 발급받아야 합니다.
 
 > [!NOTE]
-> Teams 데이터는 전송 중이거나 사용하지 않을 때 암호화됩니다. Microsoft는 TLS 및 SRTP와 같은 업계 표준 기술을 사용하여 사용자 장치와 Microsoft 데이터 센터 간, 그리고 Microsoft 데이터 센터 간에 전송되는 모든 데이터를 암호화합니다. 이러한 데이터에는 메시지, 파일, 모임 및 기타 콘텐츠가 포함됩니다. 또한 엔터프라이즈 데이터는 조직에서 eDiscovery와 같은 보안 및 준수 의무를 충족하기 위해 필요한 경우 콘텐츠의 암호를 해독 가능한 식으로 사용하지 않을 때 Microsoft 데이터 센터 내에서 암호화됩니다.
+> Teams 데이터는 Microsoft 데이터센터에서 전송 중이거나 사용하지 않을 때 암호화됩니다. Microsoft는 TLS 및 SRTP와 같은 업계 표준 기술을 사용하여 사용자 장치와 Microsoft 데이터 센터 간, 그리고 Microsoft 데이터 센터 간에 전송되는 모든 데이터를 암호화합니다. 이러한 데이터에는 메시지, 파일, 모임 및 기타 콘텐츠가 포함됩니다. 또한 엔터프라이즈 데이터는 조직에서 eDiscovery와 같은 보안 및 준수 의무를 충족하기 위해 필요한 경우 콘텐츠의 암호를 해독 가능한 식으로 사용하지 않을 때 Microsoft 데이터 센터 내에서 암호화됩니다.
 
 ### <a name="encryption-for-teams"></a>Teams용 암호화
 
