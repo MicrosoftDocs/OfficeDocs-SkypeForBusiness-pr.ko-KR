@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 사용자 지정 테마 적용 및 마스터 설정 파일 만들기를 포함 하 여 Microsoft 팀 대화방 장치에서 사용 하는 기본 설정의 원격 관리
-ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: abf6d93dea4f856f372305fd30b474f72ce47989
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201252"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761334"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리
 
@@ -76,6 +76,13 @@ ms.locfileid: "45201252"
             <BlueComponent>100</BlueComponent>
         </CustomThemeColor>
     </Theming>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SkypeSettings>
 ```
 
@@ -123,8 +130,12 @@ ms.locfileid: "45201252"
 |\<CustomThemeColor\> |컨트롤러 ||, 및 값에 대 한 컨테이너 \<RedComponent\> \<GreenComponent\> \<BlueComponent\> 입니다. 이러한 값은 사용자 지정 테마에 필요 합니다. |
 |\<RedComponent\> |Byte (0-255) ||빨강 색 구성 요소를 나타냅니다. |
 |\<GreenComponent\> |Byte (0-255) ||녹색 색 구성 요소를 나타냅니다. |
-|\<BlueComponent\> |Byte (0-255) ||파란색 색 구성 요소를 나타냅니다. | 
-| | | |
+|\<BlueComponent\> |Byte (0-255) ||파란색 색 구성 요소를 나타냅니다. |
+|\<CoordinatedMeetings\>|부울 &#x2777;|첫 번째 &#x2776; |조정 된 모임에 대 한 구성 요소의 컨테이너입니다. 이 요소에는 하나의 특성이 있습니다.<ul><li><b>사용 하도록 설정</b> 팀이 다른 장치와의 통합 된 모임에 참가 하도록 구성 되었는지 여부를 결정 합니다.</li></ul>|
+|\<TrustedAccounts\>| 문자열 | |장치에서 모임 참가 요청을 수락 하거나 모임 참가 요청을 보내야 하는 각 팀 대화방 장치 또는 Surface Hub의 쉼표로 구분 된 목록입니다.|
+|\<Settings\>|컨트롤러 | |조정 된 모임의 구성 오디오 및 비디오 구성 요소에 대 한 컨테이너입니다.|
+|\<Audio\>| 부울 &#x2777;| |Surface Hub의 팀에 대 한 오디오 구성을 제어 합니다. 이 요소에는 두 가지 특성이 있습니다.<br><ul><li><b>기본</b> 모임이 시작 될 때 마이크가 활성화 되는 장치를 결정 합니다. 장치 중 일부 (일반적으로 팀 대화방 장치)는 `true` `false` 오디오 에코 및 피드백을 방지 하기 위해이 필드를 설정 해야 하는 경우에만이 필드를 설정할 수 있습니다.</li><li><b>사용 하도록 설정</b> 모임의 참가자가 마이크를 켜거나 끌 수 있는지 여부를 결정 합니다. **오디오를 기본적** 으로 설정 하는 장치는 `false` 참가자가 `false` 마이크를 실수로 켜고 오디오 반향 또는 피드백이 발생할 수 없도록이 설정이 설정 되어 있어야 합니다.<p>**오디오 기본값이** 로 설정 된 경우 `true` **오디오 사용** 설정이 무시 되 고 참가자가 마이크를 음소거 하거나 음소거 해제 할 수 있습니다.</li></ul>|
+|\<Video\>| 부울 &#x2777;| |Surface Hub의 팀에 대 한 비디오 구성을 제어 합니다. 이 요소에는 두 가지 특성이 있습니다.<br><ul><li><b>기본</b> 모임이 시작 될 때 카메라가 활성화 될 장치를 결정 합니다. 최상의 환경을 위해서는 다른 모든 장치를 설정 하는 동안 팀 대화방 장치만 설정 하는 것이 좋습니다 `true` `false` .</li><li><b>사용 하도록 설정</b> 모임의 참가자가 카메라를 켜거나 끌 수 있는지 여부를 결정 합니다. `true`다른 비디오 관점 (예: 참가자가 Surface Hub 화이트 보드를 사용 하는 경우)을 공유 하려는 이벤트 참가자의 다른 모든 장치에서이를 설정할 수 있습니다. 참가자가 장치에서 카메라를 설정 하거나 해제 하지 못하게 하려면 다음을로 설정 `false` 합니다.<p> **비디오 기본값이** 로 설정 된 경우 `true` **비디오 사용** 설정이 무시 되 고 참가자가 카메라를 켜거나 끌 수 있습니다.</li></ul>|
 
 모든 첫 번째 수준 요소 &#x2776;는 선택 사항입니다. 첫 번째 수준 요소를 생략 하면 해당 하위 매개 변수는 장치에서 변경 되지 않은 상태로 유지 됩니다.
   

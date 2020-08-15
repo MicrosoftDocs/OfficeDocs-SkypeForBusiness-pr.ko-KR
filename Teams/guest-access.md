@@ -8,8 +8,7 @@ ms.service: msteams
 ms.reviewer: sbhatta
 audience: admin
 search.appverid: MET150
-description: Microsoft Teams의 게스트 액세스를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다.
-localization_priority: Priority
+localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
@@ -18,28 +17,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67ddc045c04c1c3d8cb9bffa0ee15ebf71c70c2f
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
-ms.translationtype: HT
+description: Microsoft Teams의 게스트 액세스를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다.
+ms.openlocfilehash: f04fce7f75df32111b2577119c12b14eadf963b9
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656109"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761244"
 ---
-<a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
-======================================
+# <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 
-게스트 액세스를 사용하여 조직 외부의 개인 사용자를 Microsoft Teams의 팀과 채널에 추가할 수 있습니다. 
+게스트 액세스를 사용하면 조직의 팀에서 Teams의 기존 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다. Microsoft 365, Outlook, Gmail 등의 비즈니스 또는 소비자 전자 메일 계정을 사용 하는 모든 사용자는 팀 채팅, 모임 및 파일에 대 한 모든 권한을 가진 팀에서 게스트로 참여할 수 있습니다. Teams 관리자는 Teams에서 게스트가 사용할 수 있거나 사용할 수 없는 기능을 제어할 수 있습니다. [게스트 액세스 관리](manage-guests.md)를 확인합니다.
 
 외부 액세스 (페더레이션)와 게스트 액세스를 비교하려면 (어느 것을 사용할 지 결정하려면) [Teams의 다른 조직의 사용자와 커뮤니케이션](communicate-with-users-from-other-organizations.md)을 참조하세요.
 
-조직에서 게스트 액세스를 활성화할 준비가 되면 [게스트 액세스 검사 목록](guest-access-checklist.md)에서 시작합니다.
+게스트 액세스는 Teams에서 기본적으로 비활성화된 조직 전체에 대한 설정입니다. ( [우편물 종류 레이블을](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)사용 하 여 개별 팀에 대 한 게스트 액세스를 제어할 수 있습니다.)
 
-## <a name="guest-access-overview"></a>게스트 액세스 개요
+팀에 게스트 초대를 시작할 준비가 되었으면 다음 중 하나를 읽어 보세요.
 
-게스트 액세스를 사용하면 조직의 팀에서 Teams의 기존 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다. 비즈니스 또는 소비자 전자 메일 계정(Outlook, Gmail 등)이 있는 사용자는 팀 채팅, 모임 및 파일에 대한 모든 액세스 권한을 부여받아 Teams에서 게스트로 참여할 수 있습니다. Teams 관리자는 Teams에서 게스트가 사용할 수 있거나 사용할 수 없는 기능을 제어할 수 있습니다. [게스트 액세스 관리](manage-guests.md)를 확인합니다.
+- 일반적인 사용을 위해 팀에 대 한 게스트 액세스를 구성 하려면 [팀에서 게스트 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 참조 하세요.
+- Azure Active Directory를 사용 하 고 게스트가 팀 액세스를 자체 등록할 수 있도록 허용 하는 파트너 조직과 공동 작업 하려면 [관리 되는 게스트를 사용 하 여 B2B 엑스트라넷 만들기](https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet)를 참조 하세요.
 
-게스트 액세스는 Teams에서 기본적으로 비활성화된 조직 전체에 대한 설정입니다. 게스트 액세스에는 Azure AD 및 Microsoft 365 또는 Office 365 서비스 제한이 적용됩니다.
-
+게스트 액세스에는 Azure AD 및 Microsoft 365 또는 Office 365 서비스 제한이 적용됩니다.
 
 > [!IMPORTANT]
 > 게스트 사용자는 동시 업그레이드 모드를 위해 Temas 조직 전체 설정을 따릅니다. 변경할 수 없습니다.
@@ -58,17 +57,17 @@ ms.locfileid: "46656109"
 
 게스트가 수행할 수 있는 작업에 대한 자세한 내용을 알아보려면 [Microsoft Teams의 게스트 액세스 권한](teams-dependencies.md)을 참조하세요. 또는 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요. 
 
-끝으로, Teams의 모든 게스트는 Microsoft 365 및 Office 365의 나머지 부분과 동일한 준수 및 감사 보호가 적용이 되며 Azure AD에서 안전하게 관리할 수 있습니다.
+마지막으로, 팀의 모든 게스트는 Microsoft 365의 나머지 부분과 동일한 준수 및 감사 보호에 적용 되며, Azure AD 내에서 관리할 수 있습니다.
 
 ## <a name="why-use-guest-access"></a>게스트 액세스를 사용하는 이유는 무엇인가요?
 
-게스트 액세스에서 Teams를 사용하는 조직은 회사 데이터를 완전하게 제어하면서 팀, 채널의 문서, 리소스, 채팅 및 응용 프로그램에 대한 액세스 권한을 파트너에게 부여할 수 있습니다. Teams의 모든 게스트는 Microsoft 365 및 Office 365의 나머지 부분과 동일한 준수 및 감사 보호가 적용이 되며 Azure AD에서 안전하게 게스트를 관리할 수 있습니다.  
+게스트 액세스에서 Teams를 사용하는 조직은 회사 데이터를 완전하게 제어하면서 팀, 채널의 문서, 리소스, 채팅 및 응용 프로그램에 대한 액세스 권한을 파트너에게 부여할 수 있습니다. 
 
 ## <a name="understand-the-limitations-for-guests"></a>게스트에 대한 제한 사항 이해
 
-게스트 환경에는 디자인별로 제약 사항이 있습니다. 문제를 해결하려면 게스트 환경을 이해하고 있어야 합니다. 예를 들어 Microsoft Teams에서 게스트가 사용할 수 없는 몇 가지 기능이 나열되어 있습니다.
+게스트 환경에는 디자인별로 제약 사항이 있습니다. 문제를 해결하려면 게스트 환경을 이해하고 있어야 합니다. 다음은 Microsoft 팀에서 게스트에 사용할 수 없는 몇 가지 기능 목록입니다.
 
-- 비즈니스용 OneDrive
+- OneDrive
 - Teams 외부에서 사용자 검색
 - 일정, 예약된 모임 또는 모임 세부 정보
 - PSTN
@@ -76,13 +75,13 @@ ms.locfileid: "46656109"
 - 팀 만들기 또는 수정
 - 팀 찾아보기
 - 개인 채팅에 파일 업로드
-- 현재 Teams는 [Azure B2B에서 정의한대로](https://docs.microsoft.com/azure/active-directory/b2b/user-properties) 상태 1 및 상태 2 유형의 게스트 사용자만 지원합니다.
+- 현재 팀 [은 게스트 사용자의 상태 1 및 상태 2 유형만](https://docs.microsoft.com/azure/active-directory/b2b/user-properties) 지원 합니다.
 
-게스트가 Teams에서 수행할 수 있는 작업에 대한 전체 목록을 보려면 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요. Microsoft 365 및 Office 365 수준에서 게스트 액세스에 대한 자세한 내용은 [Microsoft 365 그룹에 게스트 추가](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)를 참조하세요.
+게스트가 Teams에서 수행할 수 있는 작업에 대한 전체 목록을 보려면 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요. Microsoft 365 수준에서 게스트 액세스에 대 한 자세한 내용은 [조직 외부 사용자와의 공동](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)작업을 참조 하세요.
 
 
-## <a name="more-information"></a>추가 정보
+## <a name="related-topics"></a>관련 항목
 
-[비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)  
-[Microsoft 365 그룹에서 게스트 액세스](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
-  
+[비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
+[세 가지 보호 계층을 사용 하 여 팀 구성](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)

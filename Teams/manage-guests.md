@@ -17,32 +17,31 @@ description: 첫 번째 팀과 채널을 만들고, 초기 사용자를 미리 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fa45c5c307e33188548353a9a4d36086d804b278
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: fb7fe026e59bcefb6dc7fb5d586f5458e6b358f9
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655939"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761164"
 ---
-<a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리
-======================================
+# <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리
+
+**게스트** 는 모든 Microsoft 365 비즈니스 표준, Office 365 Enterprise, Microsoft 365 비즈니스 기본 및 Office 365 교육 구독에 포함 된 microsoft 팀의 사용자 유형입니다. Microsoft 365 라이선스가 추가로 필요 하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
+
+팀 게스트 액세스는 테 넌 트 수준 설정 이므로 기본적으로 꺼져 있습니다. 게스트 액세스를 설정 하는 방법에 대 한 자세한 내용은 [팀에서 게스트 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 참조 하세요.
+
+게스트 액세스를 설정한 후에는 [조직의 팀 관리 설정](enable-features-office-365.md) 에서 설명한 컨트롤을 사용 하 여 게스트에 대 한 설정을 구성 하 고 [새 Microsoft 팀 관리 센터로 전환 하는 동안 팀을 관리할](manage-teams-skypeforbusiness-admin-center.md)수 있습니다.     
+    
+IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트 사용자 활동에 대 한 보고서를 가져올 수 있습니다. 이러한 컨트롤은 팀 관리 센터에서 사용할 수 있습니다. 게스트 사용자 콘텐츠 및 활동은 Microsoft 365의 나머지 부분과 동일한 준수 및 감사 보호에 속합니다.
+
+팀 소유자는 새 게스트를 초대 하 고 팀 관리 센터의 팀에 기존 디렉터리 게스트 사용자를 추가할 수 있습니다. **팀 팀**관리 페이지에서 게스트 사용자를 식별  >  **Manage teams** 하 고 **조직 전체 설정**  >  **게스트 액세스** 페이지에서 게스트에 대 한 채널 관련 기능을 설정 합니다. 설정에는 다음 그림과 같이 게스트가 채널을 만들고 업데이트 하 고 삭제할 수 있도록 허용 하는 것이 포함 됩니다.
 
 > [!IMPORTANT]
 > 변경 내용이 적용 되려면 몇 시간 정도 기다려야 할 수 있습니다. 
 
-**게스트** 는 모든 Microsoft 365 비즈니스 표준, Office 365 Enterprise, Microsoft 365 비즈니스 기본 및 Office 365 교육 구독에 포함 된 microsoft 팀의 사용자 유형입니다. Microsoft 365 또는 Office 365 추가 라이선스가 필요하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
-
-팀 게스트 액세스는 테 넌 트 수준 설정 이므로 기본적으로 꺼져 있습니다. 게스트 액세스를 설정 하는 방법에 대 한 자세한 내용은 [팀에 대 한 게스트 액세스 설정 또는 해제](set-up-guests.md)또는 [게스트 액세스 검사 목록을](guest-access-checklist.md) 사용 하 여 설치를 안내 합니다.
-
-게스트 액세스를 설정한 후에는 [조직의 팀 관리 설정](enable-features-office-365.md) 에서 설명한 컨트롤을 사용 하 여 게스트에 대 한 설정을 구성 하 고 [새 Microsoft 팀 관리 센터로 전환 하는 동안 팀을 관리할](manage-teams-skypeforbusiness-admin-center.md)수 있습니다.     
-    
-IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트 사용자 활동에 대 한 보고서를 가져올 수 있습니다. 이러한 컨트롤은 팀 관리 센터에서 사용할 수 있습니다. 게스트 사용자 콘텐츠 및 활동은 Microsoft 365 또는 Office 365의 나머지 부분을 준수 하 고 감사 보호 하 고 있습니다.
-
-팀 소유자는 새 게스트를 초대 하 고 팀 관리 센터의 팀에 기존 디렉터리 게스트 사용자를 추가할 수 있습니다. **팀 팀**관리 페이지에서 게스트 사용자를 식별  >  **Manage teams** 하 고 **조직 전체 설정**  >  **게스트 액세스** 페이지에서 게스트에 대 한 채널 관련 기능을 설정 합니다. 설정에는 다음 그림과 같이 게스트가 채널을 만들고 업데이트 하 고 삭제할 수 있도록 허용 하는 것이 포함 됩니다.
-
 ![팀의 게스트 사용 권한 설정](media/manage-guest-access-image1.png)
   
-Azure AD (Active Directory) 포털을 사용 하 여 게스트 및 Microsoft 365 또는 Office 365 및 팀 리소스에 대 한 액세스를 관리할 수 있습니다. 팀 게스트 액세스는 Azure AD business (B2B) 공동 작업 기능을 기본 인프라로 사용 하 여 id 속성, 멤버 자격, 다단계 인증 설정 등의 보안 원칙 정보를 저장 합니다. Azure AD B2B에 대 한 자세한 내용은 [AZURE AD b2b 공동 작업 이란 무엇 인가요?](https://go.microsoft.com/fwlink/p/?linkid=853011) [AZURE Active Directory B2B 공동 작업](https://go.microsoft.com/fwlink/p/?linkid=853020)에 대해 자세히 알아보세요.
+Azure AD (Active Directory) 포털을 사용 하 여 게스트 및 Microsoft 365 및 팀 리소스에 대 한 액세스를 관리할 수 있습니다. 팀 게스트 액세스는 Azure AD business (B2B) 공동 작업 기능을 기본 인프라로 사용 하 여 id 속성, 멤버 자격, 다단계 인증 설정 등의 보안 원칙 정보를 저장 합니다. Azure AD B2B에 대 한 자세한 내용은 [AZURE AD b2b 공동 작업 이란 무엇 인가요?](https://go.microsoft.com/fwlink/p/?linkid=853011) [AZURE Active Directory B2B 공동 작업](https://go.microsoft.com/fwlink/p/?linkid=853020)에 대해 자세히 알아보세요.
 
 > [!NOTE]
 > Microsoft 팀은 테 넌 트에 대 한 게스트 사용자 추가를 허용 하거나 방지 하기 위해 항상 Azure AD 외부 설정을 따릅니다. 자세한 내용은 [Microsoft 팀에서 게스트 액세스 권한 부여](Teams-dependencies.md)를 참조 하세요.
@@ -56,16 +55,9 @@ Teams에서는 추가할 수 있는 게스트 수를 제한하지 않습니다. 
 
 게스트 액세스 검토를 수행 하거나, 게스트에 게 자신의 구성원을 검토 하도록 요청 하거나, 응용 프로그램 소유자나 비즈니스 의사 결정권자에 게 액세스 검토를 수행 하도록 요청 합니다. Azure 포털을 사용 하 여 게스트 액세스 검토를 수행 합니다. 자세한 내용은 [AZURE AD access 리뷰를 사용 하 여 게스트 액세스 관리](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)를 참조 하세요.
 
-###  <a name="prerequisites-for-azure-ad-access-reviews"></a>Azure AD access 리뷰에 대 한 필수 조건
-
-Microsoft Enterprise Mobility + Security, E5에 포함 되어 있는 Azure AD의 Premium P2 버전에서 Access 리뷰를 사용할 수 있습니다. 자세한 내용은 [Azure Active Directory 버전](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)을 참조 하세요. 검토를 만들거나, 검토를 채우거 나, 액세스를 확인 하 여이 기능과 상호 작용 하는 각 사용자에 게 라이선스가 있어야 합니다.
-
-
-
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>게스트 액세스 설정이 적용 되기까지 지연 되는 시간
 
-Azure Active Directory의 게스트 액세스 설정의 경우 변경 내용이 Microsoft 365 또는 Office 365에 적용 되기까지 몇 시간이 소요 됩니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되는 경우 게스트 기능이 설정 되지 않았거나 설정이 아직 유효 하지 않을 수 있습니다. 게스트 액세스 설정 문제에 대 한 도움말은 [팀의 게스트 액세스 문제 해결](troubleshoot-guest-access.md)을 참조 하세요.
-
+Azure Active Directory의 게스트 액세스 설정의 경우 변경 내용이 Microsoft 365에서 적용 되는 데 몇 시간이 걸릴 수 있습니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되는 경우 게스트 기능이 설정 되지 않았거나 설정이 아직 유효 하지 않을 수 있습니다. 게스트 액세스 설정 문제에 대 한 도움말은 [팀의 게스트 액세스 문제 해결](troubleshoot-guest-access.md)을 참조 하세요.
   
 ## <a name="external-access-federation-vs-guest-access"></a>외부 액세스 (페더레이션) 및 게스트 액세스
 
