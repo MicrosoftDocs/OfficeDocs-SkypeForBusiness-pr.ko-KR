@@ -125,6 +125,7 @@
 ## [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Teams에서 조직의 목록 앱 관리](manage-lists-app.md)
 ## [조직에 대한 작업 앱 관리](manage-tasks-app.md)
+## [Teams 관리 센터에서 칭찬 앱 관리](manage-praise-app.md)
 ## [팀 대상 계층 구조 설정](set-up-your-team-hierarchy.md)
 ## [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -168,6 +169,7 @@
 
 ## [자습서: Teams에서의 모임](Tutorial-Meetings-in-Teams.yml)
 ## [모임 정책 관리](meeting-policies-in-teams.md)
+## [사용자에서 RestrictedAnonymousAccess 모임 정책 제거](meeting-policies-restricted-anonymous-access.md)
 ## [모임 설정 관리](meeting-settings-in-teams.md)
 ## [설정이 변경되면 사용자에게 전송되는 전자 메일](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -829,6 +831,7 @@
 ## 지원되는 장치
 ### [Teams에서 디바이스 관리](devices/device-management.md)
 ### [원격으로 장치 업데이트](devices/remote-update.md)
+### [Teams 디바이스 태그 관리](devices/manage-device-tags.md)
 ### [Teams용 전화](devices/phones-for-teams.md)
 ### [USB 오디오 및 비디오 디바이스](devices/usb-devices.md)
 ### [Microsoft Teams용 공동 작업 모음 배포](devices/collab-bar-deploy.md)
