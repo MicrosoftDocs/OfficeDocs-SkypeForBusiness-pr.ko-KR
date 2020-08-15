@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 'Advisor for Teams로 Microsoft Teams 사용을 계획하고 성공적으로 배포하세요.  '
-ms.openlocfilehash: 72870eb94bc5bf19fce439c3607500eb688a291f
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648599"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761354"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -91,7 +91,7 @@ Advisor for Teams는 현재 다음 계획을 제공합니다.
 |Teams 라이선스     |이는 필수 구성 요소입니다. Teams를 배포하려면 Teams 라이선스가 **있어야 합니다**. Microsoft Graph를 쿼리하여 Teams 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 읽어 보세요.    |
 |EXCHANGE ONLINE 라이선스     |사용 가능한 Exchange Online 라이선스가 포함된 활성 구독이 있는지 여부 기본 Teams 기능을 사용하는 데는 Exchange가 필요하지 않지만 Exchange와 통합하면 최상의 Teams 환경이 제공됩니다. Microsoft Graph를 쿼리하여 테넌트와 연결된 구독을 분석하고 적격의 Exchange Online 라이선스 구독을 보유하고 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [Exchange 및 Teams가 상호 작용하는 방법](exchange-teams-interact.md)을 참조하세요.    |
 |SharePoint Online 라이선스     |사용 가능한 SharePoint Online 라이선스가 포함된 활성 구독이 있는지 여부 채팅에서 파일 저장소에 비즈니스용 OneDrive를 제공하도록 사용자 1인당 SharePoint Online 라이선스를 보유할 것을 권장합니다. Microsoft Graph를 쿼리하여 SharePoint Online 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)을 참조하세요.    |
-|게스트 액세스 사용     |[게스트 액세스](guest-access.md)가 Teams에서 설정되어 있는 여부 게스트 액세스를 사용하여 Teams에 참가하도록 외부 사용자를 초대할 수 있습니다. [Teams 게스트 액세스 검사 목록](guest-access-checklist.md)을 사용하여 Teams에서 게스트 액세스 설정 과정을 단계별로 확인합니다. 검사 목록은 필수 Azure AD 구성을 포함합니다. |
+|게스트 액세스 사용     |[게스트 액세스](guest-access.md)가 Teams에서 설정되어 있는 여부 게스트 액세스를 사용하여 Teams에 참가하도록 외부 사용자를 초대할 수 있습니다. [Teams 게스트 액세스 검사 목록](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 사용하여 Teams에서 게스트 액세스 설정 과정을 단계별로 확인합니다. 검사 목록은 필수 Azure AD 구성을 포함합니다. |
 |외부 액세스 구성됨     |[외부 액세스](manage-external-access.md) 기능이 설정되어 있는지 여부. 기본적으로는 열기 페더레이션을 통해 설정됩니다. |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>채팅, 팀, 채널 및 앱 평가

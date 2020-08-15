@@ -17,12 +17,12 @@ description: 외부 액세스 (페더레이션) 및 게스트 액세스를 사�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 28897d5d94d56a7113fc555e0547192931caf3eb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581799"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761384"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams에서 다른 조직의 사용자와 의사소통하기
 ======================================================
@@ -51,7 +51,7 @@ ms.locfileid: "46581799"
 - 게스트 사용자는 외부 액세스 (페더레이션) 사용자 보다 Teams에서 더 많은 리소스 (예: 파일, 팀 및 채널)에 액세스할 수 있습니다.
 - Teams 관리자는 Teams 관리 센터에서 게스트가 수행할 수 있는 (또는 수행할 수 없는) 모든 항목을 제어합니다. 자세한 내용은 [게스트 액세스 관리](manage-guests.md)를 참조하세요.
 
-조직에서 게스트 액세스를 활성화할 준비가 되면 [게스트 액세스 검사 목록](guest-access-checklist.md)에서 시작합니다.
+조직에서 게스트 액세스를 설정할 준비가 되었으면 [팀에서 게스트와 협력](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)으로 시작합니다.
 
 
 ## <a name="compare-external-and-guest-access"></a>외부 및 게스트 액세스 비교

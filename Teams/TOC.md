@@ -63,7 +63,6 @@
 
 ### 게스트 액세스
 #### [게스트 액세스 정보](guest-access.md)
-#### [게스트 액세스 검사 목록](guest-access-checklist.md)
 #### [게스트가 팀에 참여하는 방법](guest-joins.md)
 #### [게스트 환경의 모양](guest-experience.md)
 #### [Teams에서 게스트 액세스 권한 부여](teams-dependencies.md)
@@ -148,6 +147,9 @@
 ### 배포
 #### [배포 개요](rooms/rooms-deploy.md)
 #### [계정 구성](rooms/rooms-configure-accounts.md)
+#### Surface Hub
+##### [조정된 모임 설정](rooms/coordinated-meetings.md)
+##### [Microsoft Teams 설정 관리](rooms/surface-hub-manage-config.md)
 #### [Office 365를 사용하면](rooms/with-office-365.md)
 #### [비즈니스용 Skype 서버를 사용하면](rooms/with-skype-for-business-server-2015.md)
 #### [Exchange Online (하이브리드)를 사용하면](rooms/with-exchange-online.md)
