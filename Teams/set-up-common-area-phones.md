@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 지역 및 회의실에 대 한 공통 영역 전화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 4e9e96c3384fa365004d4b4b5281c10decdc5dd1
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 05338fe640ca80332eff3659d1a0ef96689d8d41
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581099"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788752"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft 팀을 위한 공통 영역 전화 라이선스 설정
 > [!NOTE]
@@ -56,7 +56,7 @@ ms.locfileid: "46581099"
 > [!NOTE]
 > 전화 시스템 라이선스를 추가할 필요는 없습니다. 일반 지역 전화 라이선스에 포함 되어 있습니다.
 
-라이선스에 대 한 자세한 내용은 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
+라이선스에 대 한 자세한 내용은 [Microsoft 팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
 
 일반 지역 전화 라이선스는 다음을 지원 합니다. 
 

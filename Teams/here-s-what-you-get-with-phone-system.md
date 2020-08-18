@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스에 대 한 Microsoft 전화 시스템을 계획 하 고 설정 하는 방법, 사용 가능성, 기능에 대해 알아보세요. '
-ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638347"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788432"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>다음은 전화 시스템 기능입니다.
 
@@ -83,12 +83,12 @@ GCC High 및 DoD 클라우드에서는 다음 기능을 아직 사용할 수 없
 ## <a name="related-topics"></a>관련 항목
 
 - [전화 시스템이란?](what-is-phone-system-in-office-365.md)
-- [Microsoft 팀의 클라우드 음성](cloud-voice-landing-page.md)
+- [Microsoft Teams의 클라우드 음성](cloud-voice-landing-page.md)
 - [전화 시스템 설정](setting-up-your-phone-system.md)
 - [사용자에게 적합한 통화 플랜은 무엇인가요?](calling-plan-landing-page.md)
 - [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
 - [통화 품질 모니터링 및 관리](monitor-call-quality-qos.md)
-- [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [전화 시스템 가격](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Callings 모임이 있는 가상화 된 데스크톱 인프라 팀](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 

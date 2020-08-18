@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 또는 Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 8c94dac38495069f22f9729e8625bc006fb4662f
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: a1492d7adc67be8fcac100f179514a1e9a2c948a
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021866"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788442"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 팀을 위해 Microsoft 365에서 오디오 회의 체험 또는 구매
 
@@ -42,30 +42,30 @@ ms.locfileid: "45021866"
 
 이 단계를 수행 하려면 [전역 관리자 또는 청구 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 여야 합니다.
 
-### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>사용자 오디오 회의 라이선스를 구입 하 여 할당 하려면 다음을 수행 합니다.
+### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>사용자 오디오 회의 라이선스를 구입 하 여 할당 하려면
 
-1. 해당 국가/지역에서 **음성 회의** 를 사용할 수 있는지 확인 합니다. [오디오 회의 및 통화 플랜에 대 한 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
-    
+1. 해당 국가/지역에서 **음성 회의** 를 사용할 수 있는지 확인 합니다. [오디오 회의 및 통화 플랜에 대 한 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+
 2. **오디오 회의** 라이선스를 가져옵니다. 다음을 수행 합니다.
 
    - 구입 하기 전에 **시도해 보세요** : 오디오 회의를 포함 하는 Office 365 Enterprise E5 무료 평가판에 등록할 수 있습니다. [Office 365 Enterprise E5 평가판](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)을 참조 하세요.
 
-   - **구입**: [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
+   - **구입**: [Microsoft 팀 추가 기능 https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 라이선스]를 참조 하세요.
 
 3. 조직의 [사용자에 게 라이선스를 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 하 여 모임을 예약 하거나 잠재 고객으로 이동할 수 있습니다.
 
-4. 오디오 회의 추가 기능 라이선스 및 통신 크레딧 라이선스를 구입한 경우에는 할당 합니다. 지침은 [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
+4. 오디오 회의 추가 기능 라이선스 및 통신 크레딧 라이선스를 구입한 경우에는 할당 합니다. 지침은 [Microsoft 팀 추가 기능 라이선스 할당](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조 하세요.
 
-### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>분당 유료 오디오 회의 라이선스를 구입 하 여 할당 하려면 다음을 수행 합니다.
+### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>분당 유료 오디오 회의 라이선스를 구입 하 여 할당 하려면
 
-볼륨 및 라이선스 고객 인 경우에는 분당 유료 오디오 회의 라이선스를 받을 수 있습니다. 분당 유료 오디오 회의 라이센스에 대 한 추가 정보는 [오디오 회의 요금/분](audio-conferencing-pay-per-minute.md)을 참조 하세요. 
+볼륨 및 라이선스 고객 인 경우에는 분당 유료 오디오 회의 라이선스를 받을 수 있습니다. 분당 유료 오디오 회의 라이센스에 대 한 추가 정보는 [오디오 회의 요금/분](audio-conferencing-pay-per-minute.md)을 참조 하세요.
   
-1. 해당 국가/지역에서 **음성 회의** 를 사용할 수 있는지 확인 합니다. [오디오 회의 및 통화 요금제의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
-    
+1. 해당 국가/지역에서 **음성 회의** 를 사용할 수 있는지 확인 합니다. [오디오 회의 및 통화 요금제의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+
 2. **오디오 회의** 라이선스를 가져옵니다. 분당 요금 라이선스를 취득 하려면 계정 담당자에 게 문의 하세요.
-    
+
 3. 조직의 [통신 크레딧을 설정](set-up-communications-credits-for-your-organization.md) 합니다. 통신 크레딧을 설정 하려면 [통신 크레딧이 무엇입니까?](what-are-communications-credits.md) 를 참조 하세요.
-    
+
     > [!IMPORTANT]
     > 통신 크레딧이 설정 되어 있지 않은 경우에는 분당 유료 라이선스가 있는 모든 사용자가 오디오 회의를 사용할 수 없습니다.
 
@@ -91,7 +91,6 @@ ms.locfileid: "45021866"
 3. 오디오 회의 자동 전화 교환에서 음성 회의 전화 번호로 전화를 걸 때 발신자를 사용 하는 [오디오 회의에 대 한 자동 전화 교환 언어를 설정](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) 합니다. 이 단계는 Microsoft를 오디오 회의 공급자로 사용 중인 경우에만 적용 됩니다.
 
 4. [오디오 회의 모임에 대 한 PIN 길이를 설정](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)합니다.
-
 
 > [!NOTE]
 > 중국에서 21Vianet이 운영 하는 Office 365를 사용 하는 고객은이 기능을 아직 사용할 수 없습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에 대 한](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)자세한 내용을 알아보세요.

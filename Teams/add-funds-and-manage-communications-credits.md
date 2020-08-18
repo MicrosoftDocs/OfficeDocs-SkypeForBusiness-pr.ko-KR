@@ -29,12 +29,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '비즈니스용 Skype 서비스용 통신 크레딧 (PSTN 소비)을 지불 하는 방법과 사용자에 게 지속적인 전화 시스템 액세스를 유지 하는 계획을 확인 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: ad8122ba0b915c669ec991d1b522b853e7b85533
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 9e7dbfea6e662828a6c79ceaec969659acf9224d
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229104"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788542"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>자금 추가 및 커뮤니케이션 크레딧 관리
 
@@ -78,7 +78,7 @@ ms.locfileid: "45229104"
 
 Microsoft 365 관리 센터에 로그인 하 여 정보를 볼 수 있으며, **결제**플랜으로 진행 하 여  >  **Subscriptions**  >  **구독을 추가할**수도 있습니다.
   
-각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
+각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
   
 ## <a name="related-topics"></a>관련 항목
 

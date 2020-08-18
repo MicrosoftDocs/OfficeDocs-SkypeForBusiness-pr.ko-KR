@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Microsoft 팀에서 전화 접속 회의 설정이 변경 되는 경우 전자 메일을 통해 사용자에 게 자동으로 전송 되는 정보에 대해 알아봅니다. '
-ms.openlocfilehash: 15c35570d509ae69a41e4c6d9522a5a62d32dd59
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1cef5f0ea8865820f6f6f83e29fe5f66799b70ae
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691484"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788692"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft 팀에서 설정이 변경 될 때 사용자에 게 전송 되는 전자 메일
 
@@ -36,7 +36,7 @@ ms.locfileid: "44691484"
 
 - **오디오 회의 라이선스가 자신에 게 할당 되거나 오디오 회의 공급자를 Microsoft로 변경 하는 경우**
 
-     이 전자 메일에는 전화 회의 ID, 모임에 대 한 기본 컨퍼런스 전화 번호, 사용자 용 오디오 회의 PIN, 지침 및 링크를 사용 하 여 사용자의 기존 모임을 업데이트 하는 데 사용 되는 비즈니스용 Skype Online 모임 업데이트 도구를 사용할 수 있습니다. Microsoft [팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md) 또는 [microsoft를 오디오 회의 공급자로 지정](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)을 참조 하세요.
+     이 전자 메일에는 전화 회의 ID, 모임에 대 한 기본 컨퍼런스 전화 번호, 사용자 용 오디오 회의 PIN, 지침 및 링크를 사용 하 여 사용자의 기존 모임을 업데이트 하는 데 사용 되는 비즈니스용 Skype Online 모임 업데이트 도구를 사용할 수 있습니다. Microsoft [팀 추가 기능 라이선스 할당](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 또는 [microsoft를 오디오 회의 공급자로 지정](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)을 참조 하세요.
 
     > [!NOTE]
     > 조직에서 동적 전화 회의 Id를 사용할 수 있는 경우, 자신이 예약한 모든 사용자의 모임에 고유한 전화 회의 Id가 포함 됩니다. [조직에서 오디오 회의 동적 id](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)를 설정할 수 있습니다. 
@@ -45,7 +45,7 @@ ms.locfileid: "44691484"
 
      ![비즈니스용 Skype 라이선스 확인](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    라이선스에 대해 자세히 알아보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
+    라이선스에 대해 자세히 알아보려면 [Microsoft 팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
 
 - **사용자의 전화 회의 ID 또는 기본 컨퍼런스 전화 번호가 변경 되었습니다.**
 

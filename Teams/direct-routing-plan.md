@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: 71ef4cd96853bd11f1169fd10aa7519c3ea4a2ec
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 3239efa7a9cc4677fe28bb25751868b502e5d9a4
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083178"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788712"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -78,7 +78,7 @@ Microsoft는 또한 통화 계획과 같은 모든 클라우드 음성 솔루션
 |SBC에 대 한 FQDN (정규화 된 도메인 이름)|SBC에 대 한 FQDN으로, 여기서 FQDN의 도메인 부분은 Microsoft 365 또는 Office 365 조직의 등록 된 도메인 중 하나입니다. 자세한 내용은 [SBC 도메인 이름을](#sbc-domain-names)참조 하세요.|
 |SBC에 대 한 공용 DNS 항목 |공용 DNS 항목이 SBC FQDN을 공용 IP 주소에 매핑하는 것입니다. |
 |SBC에 대해 신뢰할 수 있는 공용 인증서 |직접 라우팅과 관련 된 모든 통신에 사용할 SBC에 대 한 인증서입니다. 자세한 내용은 [SBC에 대해 신뢰할 수 있는 공개 인증서](#public-trusted-certificate-for-the-sbc)를 참조 하세요.|
-|직접 라우팅 연결 지점 |직접 라우팅의 연결 지점은 다음 세 가지 Fqdn입니다.<br/><br/>`sip.pstnhub.microsoft.com`-전역 FQDN을 먼저 시도해 야 합니다.<br/>`sip2.pstnhub.microsoft.com`-보조 FQDN, 지리적으로 두 번째 우선 순위 영역에 매핑됩니다.<br/>`sip3.pstnhub.microsoft.com`– 3 차 FQDN, 지리적으로 세 번째 우선 순위 영역에 매핑됩니다.<br/><br/>구성 요구 사항에 대 한 자세한 내용은 [SIP 신호: fqdn](#sip-signaling-fqdns)을 참조 하세요.|
+|직접 라우팅 연결 지점 |직접 라우팅의 연결 지점은 다음 세 가지 Fqdn입니다.<br/><br/>`sip.pstnhub.microsoft.com` -전역 FQDN을 먼저 시도해 야 합니다.<br/>`sip2.pstnhub.microsoft.com` -보조 FQDN, 지리적으로 두 번째 우선 순위 영역에 매핑됩니다.<br/>`sip3.pstnhub.microsoft.com` – 3 차 FQDN, 지리적으로 세 번째 우선 순위 영역에 매핑됩니다.<br/><br/>구성 요구 사항에 대 한 자세한 내용은 [SIP 신호: fqdn](#sip-signaling-fqdns)을 참조 하세요.|
 |다이렉트 라우팅 미디어에 대 한 방화벽 IP 주소 및 포트 |SBC는 클라우드의 다음 서비스와 통신 합니다.<br/><br/>신호를 처리 하는 SIP 프록시<br/>미디어를 처리 하는 미디어 프로세서-매체 바이패스를 사용 하는 경우를 제외 하 고<br/><br/>이 두 서비스에는 Microsoft 클라우드에서이 문서의 뒷부분에 설명 된 별도의 IP 주소가 있습니다.<br/><br/>자세한 내용은 [url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)에서 [Microsoft 팀 섹션](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 을 참조 하세요. |
 |미디어 전송 프로필|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내용은 [url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조 하세요. |
@@ -119,7 +119,7 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 
 전화 시스템 라이선스에 대 한 자세한 내용은 Office 및 [계획 옵션](https://technet.microsoft.com/library/office-365-plan-options.aspx) [에서 최대한 활용](https://products.office.com/compare-all-microsoft-office-products?tab=2) 을 참조 하세요. 
 
-전화 시스템 라이선스에 대 한 자세한 내용은 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요. 
+전화 시스템 라이선스에 대 한 자세한 내용은 [Microsoft 팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요. 
 
 ## <a name="supported-end-points"></a>지원 되는 끝점 
 

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft는 2020 년 2 월 28 일부 터 ExchUMO (Exchange 통합 메시징 온라인) 서비스를 더 이상 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 비즈니스 연속성을 계획 하 고 수행 해야 하는 작업을 요약 하 여 설명 합니다.
-ms.openlocfilehash: 3d6c30c1f6323030280fba29c6d53b89ed33c2c9
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842029"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778040"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -47,7 +47,7 @@ Exchange 통합 메시징 온라인 서비스에서 다음 기능을 사용 하�
 
 Microsoft는 ExchUMO의 기능을 소비 하는 다양 한 고객 배포를 파악 했으며 다음 계획에 따라 고객을 마이그레이션하도록 지원 합니다.
 
-|고객 그룹 |타임라인  |세부 정보  |
+|고객 그룹 |시간 표시 막대  |세부 정보  |
 |---------|---------|---------|
 |마이그레이션할 준비가 된 고객<br><br>마이그레이션할 기능:<br><ul><li>음성 메일</ul>   |   3 월 2019 일 수 있음  |예제:<ul><li>    간단한 음성 메일 배포 및 사용 현황이 포함 된 고객<li>마이그레이션을 실행 하기 위해 Microsoft에 대해 설정 된 모든 요구 사항이 있는 고객<ul>|
 |필수 구성 요소가 포함 된 고객<br><br>마이그레이션할 기능:<br><ul><li>음성 메일<li>자동 전화 교환<li>통화 큐</ul> |  5 월 2019 일 |예제: <br><ul><li>하이브리드 구성이 완료 되지 않음<li>하이브리드 PSTN 번호가 설정 되지 않음</ul>|
@@ -100,7 +100,7 @@ Microsoft는 고객이 마이그레이션을 위해 고려할 수 있는 추가 
 
 - 기본 설정 날짜 (화요일): 마이그레이션 물결이 매주 화요일에 실행 됩니다. 12/3/2019이 넘지 않는 화요일에 있는 날짜를 선택 하세요.
  
-- 테 넌 트 ID: 32 문자 번호는 0046728c-688a-4472-a38f-098fec60ac6x 형식입니다. Azure AD 아래의 Microsoft 365 관리 포털에서 또는 다음 PowerShell cmdlet을 사용 하 여 테 넌 트 ID를 찾을 수 있습니다.`Get-CsTenant | Select ObjectId`
+- 테 넌 트 ID: 32 문자 번호는 0046728c-688a-4472-a38f-098fec60ac6x 형식입니다. Azure AD 아래의 Microsoft 365 관리 포털에서 또는 다음 PowerShell cmdlet을 사용 하 여 테 넌 트 ID를 찾을 수 있습니다. `Get-CsTenant | Select ObjectId`
 
 테 넌 트가 성공적으로 마이그레이션된 경우 전자 메일 확인을 받게 됩니다.
 
@@ -148,14 +148,14 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 | V | 사용자 기능 | 개인 인사말 녹음 (인증 된 장치) |  | 피지 | 피지    |
 | V | 사용자 기능 | 녹음 개인 인사말 (PSTN)-전화에서 재생 |  | Kn | 피지    |
 | V | 사용자 기능 | 기록을 사용 하지 않도록 설정할 수 있는 사용자 설정 |  | Kn | 피지    |
-| V | 사용자 기능 | 기록을  |  | 피지 | 피지    |
+| V | 사용자 기능 | 기록  |  | 피지 | 피지    |
 | V | 사용자 기능 | 모든 끝점의 시각적 음성 메일   | 지원 되는 모든 끝점에서 재생, 삭제, 메시지 대기 표시기 및 상태 전환에 사용자 정의 컨트롤 사용  | 피지 | 피지    |
 | V | 사용자 기능 | Outlook의 MP3 오디오 파일 형식    |  | 피지 | 피지    |
 | V | 사용자 기능 | 가변 속도 재생 컨트롤 |  | 피지 | 피지    |
 | V | 사용자 기능 | 음성 메일 전달  | 다른 사용자에 게 받은 음성 메일 전달 | 피지 | 피지    |
 | V | 사용자 기능 | 사용자 그룹에 음성 메시지 보내기  |음성 메일 브로드캐스트   | Kn | 피지   |
 | V | 사용자 기능 | SMS를 사용한 음성 메일 알림    | 사용자에 게 새 음성 메일이 있을 때 SMS 수신 가능    | Kn | 피지    |
-| V | 사용자 기능 | 지원 되는 인사말 언어 | 세부 정보:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | 피지 | 피지    |
+| V | 사용자 기능 | 지원 되는 인사말 언어 | 세부 정보: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | 피지 | 피지    |
 | V | 사용자 기능 | 전화 응답 규칙 |  | 피지 | 피지    |
 | V | 사용자 기능 | 전화에서 재생 (PSTN)-재생 메시지 | 음성 메시지를 들으려면 내 셀에 전화 걸기  | Kn | 피지    |
 | V | 사용자 기능 | 전화에서 재생 (인증)-재생 메시지 | 인증 된 장치에서 전화 걸기  | 피지 | 피지    |
@@ -181,7 +181,7 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 | A | 서비스 기능 | Microsoft 팀 지원|  | 피지 | Kn    |
 | A | 서비스 기능 | 이름으로 전화 걸기, DTMF 입력    |  | 피지 | 피지    |
 | A | 서비스 기능 | 이름으로 전화 걸기, 음성 입력  |  | 피지 | 피지    |
-| A | 서비스 기능 | 다국어 지원 | 언어 세부 정보:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | 피지 | 피지    |
+| A | 서비스 기능 | 다국어 지원 | 언어 세부 정보: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | 피지 | 피지    |
 | A | 서비스 기능 | 교환원, CQ 또는 사용자에 게 전송 |  | 피지 | 피지    |
 | A | 서비스 기능 | 내부 PSTN 번호로 전송 (RNL 않음)  |  | 피지 | 피지    |
 | A | 서비스 기능 | 외부로 PSTN 번호로 전송  |  | 아래의 알려진 문제 확인 섹션 | 피지    |
@@ -223,7 +223,7 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 |전자 메일 알림 | 변경되지 않음<br>사용자에 게 음성 메일 계정 활성화/마이그레이션에 대해 알리는 전자 메일이 전송 되지 않습니다. |
 |이전 메시지에 대 한 액세스 | 변경되지 않음<br>사용자는 지원 되는 모든 끝점에서 이전 음성 메일 메시지에 액세스할 수 있습니다. |
 |Outlook, SFB 앱에서 VM 받기| 변경되지 않음<br>사용자가 계속 해 서 지원 되는 모든 끝점에서 음성 메일 메시지를 받습니다. |
-|기록을 | 방식<br>CVM 기록의 정확도는 ExchUMO 보다 훨씬 더 높고 지원 되는 언어입니다. |
+|기록 | 방식<br>CVM 기록의 정확도는 ExchUMO 보다 훨씬 더 높고 지원 되는 언어입니다. |
 |사용자 설정 | 새로운 환경<br>사용자가 USP (사용자 설정 포털)에서 기본 설정을 변경할 수 있습니다. 사용자는 음성 메일 전자 메일의 하이퍼링크 또는 해당 SFB 클라이언트의 사용자 설정 단추에서 USP에 액세스할 수 있습니다. https://aka.ms/vmsettings.
  |기능| 자세한 내용은 기능 집합 비교를 참조 하세요. |
 |VM 메시지에 대 한 Outlook 규칙 | 변경되지 않음<br>이전에 만든 규칙은 마이그레이션 후 CVM 메시지에 적용 됩니다.
@@ -245,13 +245,7 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 
 #### <a name="auto-attendant-call-transfer-to-pstn"></a>PSTN으로의 자동 전화 교환 통화 전송
 
-고객은 자동 전화 교환 호출을 외부 PSTN 번호나 RGS 인스턴스로 전송 하는 데 필요한 요구 사항을 충족 하도록 임시 해결 방법을 구성 하는 것이 좋습니다.
-
-"PSTN 번호로 전송" 기능을 사용 하 여 품질 보증 중에 확인 한 문제는 고객이 예정 된 만료 날짜가 2 월 2020 28 일 UMO 이전에 Exchange 서비스 마이그레이션을 시작 하기 위해 시간에 고정 되지 않은 것입니다. 이 문제를 해결 하기 위해 관리자는 활성 통화 전달 설정을 사용 하 여 온-프레미스 가상 사용자에 게 자동 전화 교환 발신자를 원하는 PSTN 전화 번호나 RGS 전화 번호로 전송할 수 있습니다. 예상 되는 환경은 다음과 같습니다.
-
-- 해결 방법 이므로 관리자는 가상 사용자에 게 라이선스를 부여할 필요가 없습니다.
-- 관리자는 가상 사용자에 게 원하는 번호를 할당 하거나 SBC 숫자 조작 기능을 사용 하 여 PSTN 수신기가 보는 발신자 ID를 조작할 수 있습니다.
-- 통화 전송 중에는 PSTN 발신자의 지연이 발생 하지 않으며 전송에 성공한 후에도 자동 전화 교환의 발신자 ID를 계속 확인 합니다.
+비즈니스용 skype 서버 또는 RGS (응답 그룹 서비스)를 통해 외부 PSTN 전화 번호로 자동 전화 교환 통화를 전송 하려면 통화 전달을 PSTN 전화 번호 또는 RGS 전화 번호로 설정 하 여 온-프레미스 사용자를 새로 만듭니다. Enterprise Voice에 대해 사용자를 사용 하도록 설정 하 고 올바르게 구성 해야 하며 음성 정책이 할당 되어 있어야 합니다.
 
 #### <a name="shared-mailbox-is-still-accessible"></a>공유 사서함에 계속 액세스할 수 있음
 

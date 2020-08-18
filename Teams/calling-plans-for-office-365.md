@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Skype for business 옵션에 대 한 통화 요금제 (PSTN 통화 요금제)와 조직의 라이선스를 얻는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: baa90b5a625abf53890fcd51ff91b0ac754b3c94
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 427215df1540c11a58d834c59fce84c2b62f96e2
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691404"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788622"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365에 대 한 통화 요금제
 
@@ -58,19 +58,19 @@ ms.locfileid: "44691404"
     ![음성 통화 요금제를 구매 하는 옵션을 보여 주는 스크린샷](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > 요금제에 따라 추가 기능을 구입 해야 전화 시스템 라이선스를 구입할 수 있습니다. 자세히 알아보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
+    > 요금제에 따라 추가 기능을 구입 해야 전화 시스템 라이선스를 구입할 수 있습니다. 자세히 알아보려면 [Microsoft 팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
   
 2. 전화 시스템 라이선스를 구입한 후에 **Microsoft 365 관리 센터**에 로그인 하 여 통화 요금제를 구입 하 고 **청구**  >  **구입 서비스**  >  **추가 기능 구독**을 선택한 다음 **지금 구입**을 클릭할 수 있습니다. 통화 요금제가 표시 됩니다.
     
     ![음성 통화 요금제 옵션을 보여 주는 스크린샷](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-조직의 요구 사항에 따라 다른 사용자에 게 다른 통화 계획을 구입 하 고 할당할 수 있습니다. 필요한 통화 요금제를 선택한 후에는 체크아웃으로 이동 합니다. Microsoft 365 관리 센터에서 각 사용자에 게 계획을 할당 합니다. 방법을 알아보려면 [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
+조직의 요구 사항에 따라 다른 사용자에 게 다른 통화 계획을 구입 하 고 할당할 수 있습니다. 필요한 통화 요금제를 선택한 후에는 체크아웃으로 이동 합니다. Microsoft 365 관리 센터에서 각 사용자에 게 계획을 할당 합니다. 방법을 알아보려면 [Microsoft 팀 추가 기능 라이선스 할당](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조 하세요.
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>하이브리드 사용자에 대해 온-프레미스 PSTN 연결을 제공 하는 서비스 공급자가 있나요?
 
 그렇다면 전화 요금제를 구매할 필요가 없습니다. Office 365 Enterprise E5에는 **전화 시스템** 추가 기능이 포함 되어 있으므로 체크 아웃을 진행할 수 있습니다.
   
-그런 다음 Microsoft 365 관리 센터의 사용자에 게 Enterprise E5 또는 **Phone 시스템** 추가 기능 라이선스를 할당 합니다. 방법을 알아보려면 [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
+그런 다음 Microsoft 365 관리 센터의 사용자에 게 Enterprise E5 또는 **Phone 시스템** 추가 기능 라이선스를 할당 합니다. 방법을 알아보려면 [Microsoft 팀 추가 기능 라이선스 할당](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조 하세요.
   
 ## <a name="pricing-information"></a>가격 정보
 
@@ -86,7 +86,7 @@ ms.locfileid: "44691404"
   
 - [통화 플랜 설정](set-up-calling-plans.md)
     
-- [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
     
 - [Microsoft 365 또는 Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     

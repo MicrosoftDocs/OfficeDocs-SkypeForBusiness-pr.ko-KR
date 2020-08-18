@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
+description: Microsoft 365 준수 센터의 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648539"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778010"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft 팀에서 이벤트 감사 로그 검색
 
@@ -65,8 +65,11 @@ ms.locfileid: "46648539"
 
 - 활동 이름을 클릭 하 여 검색할 특정 활동을 선택할 수 있습니다. 또는 그룹 이름을 클릭 하 여 그룹의 모든 활동 (예: **파일 및 폴더 활동**)을 검색할 수 있습니다. 활동을 선택한 경우이를 클릭 하 여 선택 항목을 취소할 수 있습니다. 검색 상자를 사용 하 여 입력 한 키워드가 포함 된 활동을 표시할 수도 있습니다.<br>
     ![감사 로그 검색 스크린샷](media/audit-log-search.png)
+
 - Cmdlet을 사용 하 여 실행 되는 활동에 대 한 이벤트를 표시 하려면 **활동** 목록의 **모든 활동에 대 한 결과 표시** 를 선택 합니다. 이러한 활동에 대 한 작업의 이름을 알고 있는 경우 모든 활동을 검색 한 다음 **활동** 열의 상자에 작업 이름을 입력 하 여 결과를 필터링 합니다. 자세히 알아보려면 [3 단계: 검색 결과 필터링](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)을 참조 하세요.
+
 - 현재 검색 조건을 지우려면 **지우기를**클릭 합니다. 날짜 범위는 최근 7 일의 기본값으로 반환 됩니다. 모두 지우기를 클릭 하 여 **모든 활동에 대 한 결과를 표시 하** 여 선택한 모든 활동을 취소할 수도 있습니다.
+
 - 5000 결과가 발견 되 면 검색 조건을 충족 하는 이벤트를 5000 개 이상 갖는 것으로 간주할 수 있습니다. 검색 조건을 구체화 하 고 검색을 다시 실행 하 여 더 적은 결과를 반환 하거나, 결과 **내보내기를**  >  **모든 결과 다운로드**를 선택 하 여 모든 검색 결과를 내보낼 수 있습니다.
 
 오디오 로그 검색 사용에 대 한 [이 비디오](https://www.youtube.com/embed/UBxaRySAxyE) 를 확인 하세요. 팀에 대 한 감사 로그 검색을 수행 하는 방법을 보여 주는 방법으로, 팀원을 위한 프로그램 관리자 인 a Ansuman에 참가 합니다.
@@ -99,7 +102,7 @@ ms.locfileid: "46648539"
 
 화면에 표시 되는 것 처럼이 정책에 대해 다양 한 매개 변수를 설정 하 여 심각도, 단일 또는 반복 작업을 비롯 한 팀 삭제를 모니터링할 수 있으며,이를 팀 및 사이트 삭제로 제한 하는 매개 변수 이 작업은 서식 파일과 관계 없이 수행할 수 있으며 조직의 요구 사항에 따라이 정책을 기반으로 만든 서식 파일이 있을 수 있습니다.
 
-비즈니스에 사용할 정책을 설정한 후에는 이벤트가 트리거될 때 활동 로그에서 결과를 검토 하면 됩니다.
+비즈니스에 적합 한 정책을 설정한 후에는 이벤트가 트리거될 때 활동 로그에서 결과를 검토할 수 있습니다.
 
 ![대량 삭제에 의해 트리거되는 이벤트 목록의 스크린샷](media/TeamsMassDeleteList.png)
 
@@ -181,7 +184,7 @@ Microsoft 365 감사 로그에서 팀의 사용자 및 관리자 활동에 대�
 |삭제 된 시간 시계 항목    |TimeClockEntryDeleted              |사용자가 시간 시트에서 시간 시계 항목을 성공적으로 삭제 했습니다.          |
 |교대 근무 요청 추가 됨         |RequestAdded 됨              |사용자가 shift 요청을 추가 했습니다.          |
 |교대 근무 요청에 응답 했습니다.     |RequestRespondedTo                  |사용자가 교대 요청에 응답 했습니다.          |
-|취소 된 교대 근무 요청         |RequestCanceled               |사용자가 교대 요청을 취소 했습니다.          |
+|취소 된 교대 근무 요청         |RequestCancelled 됨               |사용자가 교대 요청을 취소 했습니다.          |
 |일정 설정 변경      |ScheduleSettingChanged          |사용자가 이동 설정에서 설정을 변경 합니다.         |
 |추가 된 인적 자원 통합      |WorkforceIntegrationAdded                  | 교대 근무 앱이 타사 시스템과 통합 되어 있습니다.         |
 |교대 근무 메시지 수락 안 함         |OffShiftDialogAccepted          |교대 근무 시간 이후 팀에 액세스 하도록 사용자가 외부 shift 메시지를 승인 합니다.           |
@@ -190,11 +193,10 @@ Microsoft 365 감사 로그에서 팀의 사용자 및 관리자 활동에 대�
 
 Office 365 관리 활동 API를 사용 하 여 팀 이벤트에 대 한 정보를 검색할 수 있습니다. 팀의 관리 활동 API 스키마에 대해 자세히 알아보려면 [팀 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)를 참조 하세요.
 
-
 ## <a name="attribution-in-teams-audit-logs"></a>팀 감사 로그의 특성
 
 Azure AD (azure Active Directory), Microsoft 365 관리 포털 또는 Microsoft 365 Groups Graph API를 통해 팀에 대 한 구성원 변경 내용은 팀의 실제 초기자가 아니라 팀의 기존 소유자에 대 한 특성을 포함 하는 일반적인 채널 및 작업 감사 메시지에 표시 됩니다. 이러한 시나리오에서는 Azure AD 또는 [Microsoft 365 그룹 감사 로그](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 를 참조 하 여 관련 정보를 확인 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Microsoft 365 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
+- [Microsoft 365 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

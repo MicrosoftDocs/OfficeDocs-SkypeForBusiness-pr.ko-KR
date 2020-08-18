@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed2b2c3b2b1671b0000fb452d3c1b1dd6979625c
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0841f6963f12f97bf689557fe50ff8e109897e88
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938317"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778060"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub가 만료 되었습니다.
 
@@ -90,6 +90,9 @@ StaffHub를 사용 하 여 만들었고 팀으로 이동 하지 않은 팀은 St
 #### <a name="what-browsers-does-shifts-work-on"></a>어떤 브라우저가 작업을 전환 하나요?
 
 이동은 팀이 지 원하는 모든 브라우저에서 최신 버전의 Microsoft Edge, Internet Explorer, Google Chrome 및 Mozilla Firefox를 포함 합니다. 자세한 내용은 [팀 용 클라이언트 가져오기를](../../get-clients.md)참조 하세요.
+
+> [!Note]
+> Microsoft 365 앱 및 서비스는 2021 년 8 월 17 일에 시작 하는 Internet Explorer 11을 지원 하지 않습니다 (Microsoft 팀은 Internet Explorer 11 년 11 월 30 2020 일 이전에는 지원 되지 않음). [자세히 알아보세요](https://aka.ms/AA97tsw). Internet Explorer 11은 지원 되는 브라우저에 남아 있음을 유의 하세요. Internet Explorer 11은 Windows 운영 체제의 구성 요소 이며 설치 된 제품에 대 한 [주기 정책을 따릅니다](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) . 
 
 #### <a name="what-languages-does-shifts-support"></a>어떤 언어가 지원 되나요?
 

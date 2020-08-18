@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 포트 주문 요청을 수동으로 제출 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: d4c0c594cd9cb26d3f0b8b054c140facd2733239
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: a6eda920def415e61278dc4b3ac20d2f58edbb69
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224221"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788582"
 ---
 # <a name="manually-submit-a-port-order"></a>포트 주문 수동 제출
 
@@ -52,11 +52,11 @@ LOA (승인 된 사용자) 양식을 해당 지역 또는 Microsoft 365 관리 �
     1. 제목 (예: 포트 주문 요청) 및 요청에 대 한 설명을 입력 하 고 전화 번호와 전자 메일 주소를 확인 하 고 선호 하는 연락처 방법을 선택 합니다.
     2. **첨부** **파일에서 파일 추가**를 클릭 한 다음 완료 된 [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 업로드 합니다.
     3. **대화 상대**를 클릭 합니다.
-    
+
 ## <a name="what-else-should-you-know-about-number-porting"></a>번호 포팅에 대해 알아야 할 기타 사항
 
-- 통화 계획을 사용 하려면 라이선스를 구입 하 여 사용자에 게 할당 해야 합니다. [팀 추가 기능 라이선스](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
-    
+- 통화 계획을 사용 하려면 라이선스를 구입 하 여 사용자에 게 할당 해야 합니다. [팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
+
 - 각 사용자에 게 부여할 새 전화 번호를 할당 해야 합니다. [사용자의 전화 번호 지정, 변경 또는 제거를](../assign-change-or-remove-a-phone-number-for-a-user.md)참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목

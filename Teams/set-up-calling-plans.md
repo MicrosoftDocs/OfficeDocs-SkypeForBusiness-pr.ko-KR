@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: '& 지역에서 사용할 수 있는 보기 계획을 비롯 하 여 전화 플랜을 설정 하 고, 라이선스를 할당 하 고, 전화 번호를 얻고, 긴급 주소 & 위치를 추가 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 97d0a29068acbb645018d7a3b76867e93d9804cd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 775ebf8d1fae6439b9a2e7249eb0238e48b11a4c
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691084"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788452"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 
@@ -40,12 +40,12 @@ ms.locfileid: "44691084"
 해당 국가나 지역에 대 한 통화 요금제를 사용할 수 없는 경우 직접 라우팅 기능을 사용 하 여 온-프레미스 전화 통신 인프라를 전화 시스템에 연결 하는 것이 좋습니다.  자세한 내용은 [전화 시스템 직접 라우팅을](direct-routing-landing-page.md)참조 하세요.
   
 ## <a name="step-2-buy-and-assign-licenses"></a>2 단계: 라이선스 구입 및 할당
-1. 전화 시스템 기능이 Microsoft 365 또는 Office 365 계획에 포함 되어 있지 않은 경우 **전화 시스템** 추가 기능 라이선스를 구입 해야 할 수 있습니다. **전화 시스템** 라이선스가 있으면 [Microsoft 365 또는 Office 365에 대 한 플랜](calling-plans-for-office-365.md)을 구입 합니다. [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하 고 라이선스 및 계획을 구입 합니다. 
+1. 전화 시스템 기능이 Microsoft 365 또는 Office 365 계획에 포함 되어 있지 않은 경우 **전화 시스템** 추가 기능 라이선스를 구입 해야 할 수 있습니다. **전화 시스템** 라이선스가 있으면 [Microsoft 365 또는 Office 365에 대 한 플랜](calling-plans-for-office-365.md)을 구입 합니다. [Microsoft 팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하 고 라이선스 및 계획을 구입 합니다. 
     
     > [!TIP]
     > Microsoft 365 또는 Office 365의 **전화 시스템** 라이선스 및 통화 계획이 함께 이동 하 여 통화 계획을 구매 하는 옵션을 보려면 먼저 **전화 시스템** 라이선스를 보유 해야 합니다.
   
-2. 먼저 라이선스를 할당 한 다음 조직의 사용자에 게 통화 계획을 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
+2. 먼저 라이선스를 할당 한 다음 조직의 사용자에 게 통화 계획을 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조 하세요.
     
 ## <a name="step-3-get-phone-numbers"></a>3 단계: 전화 번호 가져오기
 다음과 같은 세 가지 방법으로 새 사용자 번호를 얻을 수 있습니다.

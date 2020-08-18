@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46607101"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778070"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -153,8 +153,8 @@ Enterprise 용 microsoft 365 앱에 대 한 자세한 내용은 [엔터프라이
 
 1. 다음 링크 중 하나를 사용 하 여 VDI VM 운영 체제와 일치 하는 팀 MSI 패키지를 다운로드 합니다.
 
-    - [32 비트 버전](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
-    - [64 비트 버전](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
+    - [32 비트 버전](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
+    - [64 비트 버전](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
 
     필요한 팀 데스크톱 앱의 최소 버전은 버전 1.3.00.4461입니다. (PSTN 보류가 이전 버전에서 지원 되지 않습니다.)
 

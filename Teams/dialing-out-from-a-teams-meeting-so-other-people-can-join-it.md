@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 모임 이끌이는 다른 사용자가 자신의 전화를 사용 하 여 동일한 모임에 참가할 수 있도록 팀 앱을 사용 하 여 전화를 거는 방법을 알아봅니다.
-ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 575ed18bd3dbd404dba947c0c4556d52e0653200
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662108"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788762"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>다른 사용자가 참여할 수 있도록 Microsoft 팀 모임에서 전화 걸기
 
@@ -63,4 +63,4 @@ ms.locfileid: "46662108"
 
 [오디오 회의 체험 또는 구매](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)

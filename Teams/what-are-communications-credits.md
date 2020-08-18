@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '통신 크레딧 (PSTN 소비) 청구, 요금을 확인 하는 방법, 제공 되는 서비스에 대해 알아봅니다. '
-ms.openlocfilehash: 2f867ec9d5731aba8f0b99cf9d4b82d35f958844
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 2be427ad418bda694f979ca92bb1ff3acfbc1997
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44841989"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788362"
 ---
 # <a name="what-are-communications-credits"></a>통신 크레딧이란?
 
@@ -97,7 +97,7 @@ ms.locfileid: "44841989"
     
 [Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 여 요금 청구에 대 한 정보를 볼 수 있으며, **결제**  >  **구매 서비스로**이동할 수도 있습니다.
   
-각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
+각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
   
 ## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype PSTN 사용 보고서](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)

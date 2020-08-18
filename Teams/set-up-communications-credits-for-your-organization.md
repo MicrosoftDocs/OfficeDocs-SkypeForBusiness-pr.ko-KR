@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '사용자 및 조직에 대해 통신 크레딧 (PSTN 소비) 청구 라이선스를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: f124cd09c0baa604b09345394d9a53ae254bbb6f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 16b44071e6025d0dc10c270aa2a37679eec840e4
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691244"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788372"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -42,18 +42,18 @@ ms.locfileid: "44691244"
   
 이렇게 하려면 **오디오 회의 또는 전화 시스템 라이선스** 를 사용자에 게 할당 해야 합니다.
   
-- 사용자에 게 **오디오 회의** 라이선스를 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
+- 사용자에 게 **오디오 회의** 라이선스를 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조 하세요.
     
     이 라이선스를 할당 한 후에는 오디오 회의를 설정 해야 합니다. 단계별 지침은 [Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)을 참조 하세요.
     
-- **전화 시스템** 및 **국내 또는 국내 및 국제** 통화 요금제 라이선스를 사용자에 게 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.
+- **전화 시스템** 및 **국내 또는 국내 및 국제** 통화 요금제 라이선스를 사용자에 게 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조 하세요.
     
     > [!NOTE]
     > 통신 크레딧에는 필요 하지 않지만 **국내 통화 요금제** 또는 **국내 및 국제 통화 요금제** 라이선스도 할당 해야 합니다.
   
     이러한 라이선스를 할당 한 후에는 조직의 전화 번호를 얻은 다음 조직의 사용자에 게 해당 번호를 할당 해야 합니다. 단계별 지침은 [통화 계획 설정을](set-up-calling-plans.md)참조 하세요.
     
-자세한 내용은 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 를 참조 하세요.
+자세한 내용은 [Microsoft 팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 를 참조 하세요.
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>2 단계: 조직의 통신 크레딧을 설정
 
@@ -116,7 +116,7 @@ ms.locfileid: "44691244"
     
 [Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 여 정보를 볼 수 있으며, **결제**플랜으로 진행 하 여  >  **Subscriptions**  >  **구독을 추가할**수도 있습니다.
   
-각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
+각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
   
 ## <a name="related-topics"></a>관련 항목
 

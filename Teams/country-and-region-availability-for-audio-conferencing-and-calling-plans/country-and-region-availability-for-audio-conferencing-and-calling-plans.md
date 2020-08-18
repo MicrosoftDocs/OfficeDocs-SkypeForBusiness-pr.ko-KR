@@ -26,20 +26,23 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 국가 또는 지역에서 오디오 회의, 전화 시스템, 통화 요금제, 통신 크레딧, 유료 및 무료 전화 번호를 사용할 수 있는지 알아봅니다.
-ms.openlocfilehash: eae54b4b8957f588afab45758f9be5d2f678b3ea
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 468a583c48e8830684cf170877acde55cbcba711
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230196"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788532"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 
 국가나 지역을 선택하여 조직에 사용할 수 있는 클라우드 음성 기능을 확인할 수 있습니다.
 ***
+
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>조직에서 사용할 수 있는 항목을 보려면 국가 또는 지역을 선택하세요.
 
 > [!div class="op_single_selector"]
+>
+> - [알바니아](availability-in-albania.md)
 > - [알제리](availability-in-algeria.md)
 > - [앤티쿠아바부다](availability-in-antigua-and-barbuda.md)
 > - [아르헨티나](availability-in-argentina.md)
@@ -47,6 +50,7 @@ ms.locfileid: "44230196"
 > - [오스트리아](availability-in-austria.md)
 > - [바하마](availability-in-the-bahamas.md)
 > - [바레인](availability-in-bahrain.md)
+> - [방글라데시](availability-in-bangladesh.md)
 > - [바베이도스](availability-in-barbados.md)
 > - [벨로루시](availability-in-belarus.md)
 > - [벨기에](availability-in-belgium.md)
@@ -58,6 +62,7 @@ ms.locfileid: "44230196"
 > - [브루나이](availability-in-brunei.md)
 > - [불가리아](availability-in-bulgaria.md)
 > - [캄보디아](availability-in-cambodia.md)
+> - [카메룬](availability-in-cameroon.md)
 > - [캐나다](availability-in-canada.md)
 > - [케이맨 제도](availability-in-the-cayman-islands.md)
 > - [칠레](availability-in-chile.md)
@@ -82,6 +87,7 @@ ms.locfileid: "44230196"
 > - [그리스](availability-in-greece.md)
 > - [그레나다](availability-in-grenada.md)
 > - [괌](availability-in-guam.md)
+> - [과테말라](availability-in-guatemala.md)
 > - [온두라스](availability-in-honduras.md)
 > - [홍콩](availability-in-hong-kong.md)
 > - [헝가리](availability-in-hungary.md)
@@ -110,6 +116,7 @@ ms.locfileid: "44230196"
 > - [뉴질랜드](availability-in-new-zealand.md)
 > - [니카라과](availability-in-nicaragua.md)
 > - [나이지리아](availability-in-nigeria.md)
+> - [북마리아나 제도](availability-in-northern-mariana-islands.md)  
 > - [노르웨이](availability-in-norway.md)
 > - [파키스탄](availability-in-pakistan.md)
 > - [파나마](availability-in-panama.md)
@@ -140,6 +147,8 @@ ms.locfileid: "44230196"
 > - [트리니다드 토바고](availability-in-trinidad-and-tobago.md)
 > - [튀니지](availability-in-tunisia.md)
 > - [터키](availability-in-turkey.md)
+> - [터크스 케이커스 제도](availability-in-turks-and-caicos-islands.md)
+> - [우간다](availability-in-uganda.md)
 > - [우크라이나](availability-in-the-ukraine.md)
 > - [아랍에미리트(UAE)](availability-in-the-united-arab-emirates-uae.md)
 > - [영국](availability-in-the-united-kingdom-u-k.md)
@@ -148,18 +157,18 @@ ms.locfileid: "44230196"
 > - [베네수엘라](availability-in-venezuela.md)
 > - [베트남](availability-in-vietnam.md)
 
-[모든 국가와 지역이 포함된 스프레드시트를 찾고 있는 경우 **클라우드 음성 기능 국가/지역 가용성 스프레드시트**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)를 다운로드하여 저장하세요.
+[모든 국가와 지역이 포함된 스프레드시트를 찾고 있는 경우 **클라우드 음성 기능 국가/지역 가용성 스프레드시트**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-06242020)-(en-us).xlsx?raw=true)를 다운로드하여 저장하세요.
 
 ***
 
-비즈니스용 Skype 또는 Microsoft Teams 서비스 중 하나를 사용할 수 있는지 확인한 후에는 라이선스를 구입하고 사용자에게 할당하는 데 도움이 되는 [비즈니스용 Skype 및 Microsoft Teams 추가 기능 라이선싱](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 볼 수 있습니다.
+비즈니스용 Skype 또는 Microsoft Teams 서비스 중 하나를 사용할 수 있는지 확인한 후에는 라이선스를 구입하고 사용자에게 할당하는 데 도움이 되는 [비즈니스용 Skype 및 Microsoft Teams 추가 기능 라이선싱](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 볼 수 있습니다.
 
 > [!NOTE]
-> 
+>
 > 사용자에 대한 전화 번호를 더 많이 받아야 하는 경우 [사용자에 대한 전화 번호 받기](/microsoftteams/getting-phone-numbers-for-your-users)를 참조하거나, 전화 번호 요청 양식의 경우 [조직에 대한 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.
 
 
-## <a name="want-to-learn-more-about-these-services"></a>이러한 서비스에 대해 자세히 알아보고 싶으신가요?
+## <a name="want-to-learn-more-about-these-services"></a>이러한 서비스에 대 한 자세한 내용을 확인 하려면
 
 ### <a name="audio-conferencing"></a>오디오 회의
 
@@ -172,35 +181,38 @@ ms.locfileid: "44230196"
 
 오디오 회의에 대해 자세히 알아보려면 [오디오 회의에 대한 일반적인 질문](../audio-conferencing-common-questions.md)을 참조하세요.
 
-[오디오 회의 가격](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
+[오디오 회의 가격](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>전화 번호 기능 또는 모임에 참가할 수 있도록 모임에 다른 사용자 추가
+
 오디오 회의에는 "*전화 번호*"라는 기능이 있으며, 이 기능은 다른 사용자가 전화 접속 모임에 참가하도록 하는 데 사용할 수 있습니다. 위의 드롭다운 목록을 사용하여 국가/지역을 검색하고 이 기능을 사용할 수 있는지 확인합니다.
 
 > [!CAUTION]
-> 일부 무료 번호는 특정 국가 내에서나 국가 내 지역에서만 작동하므로 무료 번호로 전화를 걸 수 없을 수도 있습니다. 예를 들어, 미국에서 브라질의 무료 번호로 전화를 걸 경우에는 브라질 내에서나 브라질 내 특정 지역에서 건 전화가 아니기 때문에 통화가 실패할 수도 있습니다. 무료 전화 번호로 전화를 걸 수 있는 기능은 전화를 건 무료 번호의 제한 사항에 따라 크게 달라집니다. 아쉽게도이 동작은 제어할 수 없으며, 그 결과 무료 번호와 무료 번호의 제한 사항에 따라 사용자의 환경이 다를 수 있습니다. 
+> 일부 무료 번호는 특정 국가 내에서나 국가 내 지역에서만 작동하므로 무료 번호로 전화를 걸 수 없을 수도 있습니다. 예를 들어, 미국에서 브라질의 무료 번호로 전화를 걸 경우에는 브라질 내에서나 브라질 내 특정 지역에서 건 전화가 아니기 때문에 통화가 실패할 수도 있습니다. 무료 전화 번호로 전화를 걸 수 있는 기능은 전화를 건 무료 번호의 제한 사항에 따라 크게 달라집니다. 아쉽게도이 동작은 제어할 수 없으며, 그 결과 무료 번호와 무료 번호의 제한 사항에 따라 사용자의 환경이 다를 수 있습니다.
   
 아래에 나열 되어 있지 않은 전세계의 다른 국가/지역으로 모임에서 전화를 걸려면 [통신 크레딧을](../what-are-communications-credits.md)사용 하 여 사용할 수 있습니다. 이러한 사용자를 위해서는 [조직에 대한 통신 크레딧을 설정](../set-up-communications-credits-for-your-organization.md)해야 합니다.
   
 ### <a name="phone-system"></a>전화 시스템
+
 전화 시스템을 사용하면 자동 전화 교환 및 통화 큐(유료 또는 무료 번호 포함)를 만들어 조직에 대한 수신 전화에 응답할 수 있고, 사용자에 대한 통화 플랜을 추가하면 사용자가 비즈니스용 Skype를 사용하여 기본 통화 제어 작업(예: 전화 걸기/전화 받기, 통화 전달, 음소거 및 음소거 해제)을 처리할 수 있습니다. **전화 시스템** 사용자는 주소록에 있는 이름을 클릭할 수 있으며, 그러면 비즈니스용 Skype가 해당 사용자에게 전화를 겁니다. **전화 시스템** 사용자는 랩톱이나 PC와 함께 헤드셋을 사용하거나, 모바일 장치, 비즈니스용 Skype가 작동하는 여러 IP 전화 중 하나를 사용하여 전화를 걸고 받을 수 있습니다.
 
-> 이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다. 개별 사용자에 대 한 전화 번호를 얻을 수 있을 뿐만 아니라 오디오 회의 (컨퍼런스 브리지), 자동 전화 교환, 통화 대기열 등의 서비스에 대해 유료 또는 무료 전화 번호를 검색 하 고 받을 수도 있습니다. 이를 서비스 번호라고 합니다. 전화 번호를 받으려면 [서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요. 그러나 사용자의 경우에는, 통화 플랜을 해당 사용자에게 할당한 후 전화를 걸고 받을 수 있도록 사용자 전화 번호를 할당할 수 있습니다. 해당 전화 번호를 찾으려면 [사용자에 대한 전화 번호 받기](/microsoftteams/getting-phone-numbers-for-your-users)로 이동합니다. 또한 [사용자에 대한 전화 번호 할당, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)를 참조할 수도 있습니다. 
+> 이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다. 개별 사용자에 대 한 전화 번호를 얻을 수 있을 뿐만 아니라 오디오 회의 (컨퍼런스 브리지), 자동 전화 교환, 통화 대기열 등의 서비스에 대해 유료 또는 무료 전화 번호를 검색 하 고 받을 수도 있습니다. 이를 서비스 번호라고 합니다. 전화 번호를 받으려면 [서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요. 그러나 사용자의 경우에는, 통화 플랜을 해당 사용자에게 할당한 후 전화를 걸고 받을 수 있도록 사용자 전화 번호를 할당할 수 있습니다. 해당 전화 번호를 찾으려면 [사용자에 대한 전화 번호 받기](/microsoftteams/getting-phone-numbers-for-your-users)로 이동합니다. 또한 [사용자에 대한 전화 번호 할당, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)를 참조할 수도 있습니다.
 
 [전화 시스템 가격](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
-> 이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다. 
+> 이러한 일부 위치에서의 유료 전화 번호는 인벤토리 수준에 따라 지정된 시간에 다를 수 있습니다.
 
 페이지 맨 위에 있는 드롭다운 목록을 사용하여 국가 또는 지역 및 사용 가능한 서비스를 검색합니다.
 
 ### <a name="calling-plans"></a>통화 플랜
+
 전화 시스템과 함께 통화 플랜을 사용하면 사용자가 전화를 걸고 받을 수 있습니다. 먼저 사용자에게 할당할 사용자(구독자) 전화 번호 (서비스 번호 아님)를 받은 후 통화 플랜을 할당해야 합니다. 다음과 같은 두 가지 유형의 통화 플랜을 사용할 수 있습니다. **국내** 및 **국내 및 국제** 자세한 내용은 [전화 시스템 및 통화 플랜](../calling-plan-landing-page.md)을 참조하세요.
 
-또한 라이선싱 정보에 대해서는 [전화 시스템 및 통화 플랜 라이선싱](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 참조하실 수 있습니다.
+또한 라이선싱 정보에 대해서는 [전화 시스템 및 통화 플랜 라이선싱](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조하실 수 있습니다.
 
 > [!NOTE]
-> 국가/지역은 **Microsoft 365 관리 센터**의 **조직 프로필** 아래에 나열된 청구 주소가 **아닌** **Microsoft 365 관리 센터** > **활성 사용자**에 있는 사용자 라이선스의 위치를 기반으로 합니다. 
+> 국가/지역은 **Microsoft 365 관리 센터**의 **조직 프로필** 아래에 나열된 청구 주소가 **아닌** **Microsoft 365 관리 센터** > **활성 사용자**에 있는 사용자 라이선스의 위치를 기반으로 합니다.
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>서비스를 위한 유료 및 무료 전화 번호
 
@@ -220,7 +232,7 @@ ms.locfileid: "44230196"
 
 
 ## <a name="related-topics"></a>관련 항목
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)
 
-  
- 
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+
+

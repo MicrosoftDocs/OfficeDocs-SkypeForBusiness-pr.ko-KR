@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '전화를 사용하여 전화 회의에 참여해야 하는 회사의 사용자를 위해 전화 접속 또는 오디오 회의를 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: 0ac5ac9cd3a722920a76d968848cd37388908121
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 9c86d83b1a39c5ae3623c2205a09b4e8d604ce5e
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691094"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788702"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams용 오디오 회의 설정하기
 
@@ -47,7 +47,7 @@ ms.locfileid: "44691094"
  
 ## <a name="step-2-get-and-assign-licenses"></a>2단계: 라이선스 받기 및 할당하기
  
-1. 오디오 회의를 위해서는 전화 접속 모임을 설정할 각 사용자에 대한 라이선스가 필요합니다. 오디오 회의를 위해 구입해야 하는 라이선스와 비용에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
+1. 오디오 회의를 위해서는 전화 접속 모임을 설정할 각 사용자에 대한 라이선스가 필요합니다. 오디오 회의를 위해 구입해야 하는 라이선스와 비용에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조하세요.
 
     >[!NOTE] 
     > 오디오 회의는 Office 365 Enterprise E5 라이선스에 추가 기능으로 포함되어 있습니다.

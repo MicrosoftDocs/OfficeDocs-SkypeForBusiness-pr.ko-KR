@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 외부 기업과 클라이언트가 통화할 수 있도록 팀 사용자의 회사 전화 번호를 할당, 변경 또는 제거 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18c2cd710459e84f8dc7c0e09ed0fe6f8142bf2c
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44609963"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788672"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 할당, 변경 또는 제거
 
@@ -35,7 +35,7 @@ ms.locfileid: "44609963"
 
 전화를 걸고 받을 수 있도록 사용자를 설정 하는 경우 먼저 Microsoft 팀 관리 센터를 사용 하 고 전화 번호를 할당 해야 합니다. 필요한 경우 전화 번호를 변경 하거나 제거할 수 있습니다.
   
-팀에서 통화 계획을 가져오는 방법과 비용을 파악 하려면 [팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
+팀에서 통화 계획을 가져오는 방법과 비용을 파악 하려면 [팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
   
 > [!NOTE]
 > 사용자에 게 라이선스가 할당 되었는지 여부를 확인 하는 한 가지 방법은 **사용자**> Microsoft 팀 관리 센터를 방문 하는 것입니다. 라이선스가 할당 되 면 페이지에 표시 됩니다.  Microsoft 365 관리 센터를 사용할 수도 있습니다.

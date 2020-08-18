@@ -16,16 +16,125 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 팀 관리 기능에 대 한 릴리스 정보입니다.
-ms.openlocfilehash: 99f92af75e90ef568bf98ccb6587d0dad0da1591
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 36fc23d711437fbeb1976b94409054c27ffd258b
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710822"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788472"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 팀 관리 기능에 대 한 릴리스 정보
 
 이 릴리스 정보는 Microsoft 팀의 새로운 관리 기능에 대 한 정보를 제공 합니다.
+
+## <a name="august-17-2020"></a>2020 년 8 월 17 일
+
+### <a name="manage-the-praise-app"></a>칭찬 앱 관리
+
+Microsoft 팀의 칭찬 앱은 사용자에 게 조직이 나 강의실 구성원에 게 감사를 표시 하는 데 도움이 됩니다. 선택할 수 있는 배지 집합을 선택 하 고 원하는 배지를 만드는 옵션을 사용 하 여 칭찬에서 팀이 수행 하는 다양 한 작업에 대 한 노력을 교육 하는 데 도움이 되도록 디자인 되었습니다. [자세히 알아보세요](../manage-praise-app.md).
+
+### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft 팀 회의실 및 Surface Hub를 사용 하 여 조정 되는 모임 설정
+
+회의실에 하나 이상의 Microsoft 팀 방 장치나 Surface Hub가 있는 경우에는 조정 된 모임을 설정할 수 있습니다. 조정 된 모임을 사용 하면 한 장치에서 모임에 참가할 때 방에 있는 다른 장치도 같은 모임에도 참가 하도록 팀 대화방 장치 및 Surface Hub를 설정할 수 있습니다. [자세히 알아보세요](../rooms/coordinated-meetings.md).
+
+### <a name="tagging-by-shift"></a>Shift 키를 기준으로 태그 지정
+
+이 기능을 사용 하면 팀의 교대 근무 앱에서 일정 및 이동 그룹 이름과 일치 하는 태그가 자동으로 할당 됩니다. [자세히 알아보세요](../manage-tags.md).
+
+## <a name="august-14-2020"></a>2020 년 8 월 14 일
+
+### <a name="cortana-voice-skills-in-teams"></a>팀의 Cortana 음성 스킬
+
+팀의 Cortana 음성 스킬 모바일 앱 도움말 사용자는 음성 자연어를 사용 하 여 모임, 통신 및 공동 작업을 수행 합니다. 사용자는 팀 앱에서 마이크 단추를 클릭 하 여 "Call Megan" 등의 요청을 하 고, 다른 사용자에 게 연결 해야 하는 경우 (예: 사용 중인 가정 또는 일반적으로 이동 중에도 사용) "다음 모임에 게 메시지를 보내는 방법"으로 말할 수 있습니다. 사용자는 "다음 모임 참가" 라고 말하여 모임에 참가 하 고 "이 작업을 수행 하는 일"을 요청 하 여 일정을 확인할 수 있습니다. 모임이 나 통화에는 모임 단계의 오버플로 메뉴에서 Cortana를 호출 하 고, 이름 또는 번호로 사람 추가 ("통화에 Megan 추가"), 데크 프레젠테이션 ("분기별 검토 데크 표시") 또는 슬라이드 탐색 ("부록 슬라이드"로 이동 ") 하 여 일반적인 모임 중 작업을 수행할 수 있습니다. 이 기능에서 지원 되는 다른 사항은 파일 찾기 및 공유, 검색, 일반적으로 팀 앱 내에서 탐색 ("John을 사용 하 여 내 채팅 열기, 읽지 않은 활동으로 이동, 내 멘 션 등으로 이동).
+
+[.Ost (온라인 서비스 이용 약관)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)에 반영 된 cortana 엔터프라이즈 서비스에 대 한 동일한 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수를 팀에서 사용 하는 경우의 cortana가 맞습니다.
+
+### <a name="teams-devices-administrator"></a>팀 디바이스 관리자
+
+이 역할을 가진 사용자는 팀 관리 센터에서 팀 인증 디바이스를 관리할 수 있습니다. 로그인 한 계정 및 장치의 제조업체와 모델을 포함 하 여 각 디바이스의 세부 정보를 확인할 수 있습니다. 장치에서 설정을 변경 하 고, 소프트웨어를 업데이트 하 고, 장치를 원격으로 다시 시작할 수 있습니다. [자세히 알아보세요](../using-admin-roles.md).
+
+## <a name="august-12-2020"></a>2020 년 8 월 12 일
+
+### <a name="lists-app-in-teams"></a>팀의 앱 목록
+
+이제 팀 사용자는 목록 앱 탭을 사용 하 여 목록을 직접 관리 하 고, 유지 관리할 수 있습니다. 목록 앱은 모든 팀 클라이언트에서 작동 하며 목록 항목에 대 한 공동 작업 및 통신을 가능 하 게 합니다.
+
+## <a name="august-3-2020"></a>2020 년 8 월 3 일
+
+### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 팀 용 서비스 구입 타사 앱
+
+팀 앱은 설치 가능 하며, 앱의 모든 기능 및 범위를 경험 하려면 서비스 구독을 구입 해야 할 수 있습니다. 이러한 서비스 구독을 서비스 (SaaS) 제공 이라고 하며,이는 AppSource를 통해 구매할 수 있으며, 현재 Microsoft 팀 관리 센터를 통해 구매 하는 것입니다. [자세히 알아보세요](../purchase-third-party-apps.md).
+
+## <a name="july-31-2020"></a>2020 년 7 월 31 일
+
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>관리자는 Firstline worker에 대 한 이동 기반 현재 상태 (교대 근무)를 구성할 수 있습니다.
+
+관리자는 이동이 가능한 현재 상태를 포함 하도록 (shift 키, 다른 용무 중 (교대 근무 시 전환 가능), shift 키를 사용 하도록 구성 하는 Firstline worker를 구성할 수 있습니다.
+[자세히 알아보세요](../firstline-workers-quickstart.yml).
+
+## <a name="july-29-2020"></a>2020 년 7 월 29 일
+
+### <a name="enhanced-manageability-using-device-tagging-functionality"></a>디바이스 태깅 기능을 사용 하 여 관리 효율성 향상
+
+향상 된 관리 효율성의 일환으로 장치 태깅 기능을 해제 하는 것입니다. It 관리자가 사용자가 생성 한 태그를 사용 하 여 특정 장치 집합을 그룹화 하 고 동일한 작업을 수행할 수 있도록 합니다. [자세히 알아보세요](/../../manage-device-tags.md).
+
+## <a name="july-20-2020"></a>2020 년 7 월 20 일
+
+### <a name="admins-can-control-outgoing-webhooks-at-the-user-level"></a>관리자는 사용자 수준에서 보내는 webhooks를 제어할 수 있습니다.
+
+관리자는 앱 권한 정책의 보내는 Webhooks 앱을 허용 하거나 차단 하 여 사용자 수준에서 나가는 webhooks를 제어할 수 있습니다. [자세히 알아보세요](../manage-apps.md).
+
+## <a name="july-17-2020"></a>2020 년 7 월 17 일
+
+### <a name="ndi-out-for-teams-meetings"></a>팀 모임에 대 한 i d-out
+
+팀 모임에 대해 NDI-Out을 사용 하도록 설정 하는 기능을 추가 했습니다. NDI-Out을 사용 하면 비디오 제작 도구에서 모임의 오디오 및 비디오를 활용할 수 있습니다. [자세히 알아보세요](../use-ndi-in-meetings.md).
+
+## <a name="july-9-2020"></a>2020 년 7 월 9 일
+
+### <a name="voicemail-support-in-call-queues"></a>통화 대기열의 보이스 메일 지원
+
+공유 보이스 메일 상자를 사용 하기 위해 통화 대기열에 대 한 지원이 추가 되었습니다. [자세히 알아보세요](../create-a-phone-system-call-queue.md).
+
+## <a name="july-7-2020"></a>2020 년 7 월 7 일
+
+### <a name="sensitivity-labels-for-teams"></a>Teams의 민감도 레이블
+
+우편물 종류 레이블을 사용 하면 팀 관리자가 팀 내에서 공동 작업을 수행 하는 중요 한 조직 콘텐츠에 액세스할 수 있습니다. [자세히 알아보세요](../sensitivity-labels.md).
+
+## <a name="july-2-2020"></a>2020 년 7 월 2 일
+
+### <a name="suggested-replies"></a>추천 회신
+
+팀 사용자에 게 대화에 대 한 제안 된 회신을 제공 하는 기능을 추가 했습니다. 이러한 제안은 사용 하도록 설정 된 경우 채팅 메시지의 아래쪽에 표시 됩니다. 메시지에 쉽고 빠르게 회신할 수 있습니다! [자세히 알아보세요](../messaging-policies-in-teams.md#messaging-policy-settings).
+
+### <a name="transferring-incoming-calls"></a>걸려오는 전화 전송
+
+자동 전화 교환 및 통화 대기열 수신 전화를 통해 외부 PSTN 전화 번호로 전송 하는 기능을 추가 했습니다.  [자세히 알아보세요](../business-voice/set-up-auto-attendants.md).
+
+## <a name="june-30-2020"></a>2020 년 6 월 30 일
+
+### <a name="install-apps-on-behalf-of-others"></a>다른 사용자를 대신 하 여 앱 설치
+
+사용자가 팀을 시작할 때 기본적으로 설치 되는 앱을 선택 합니다. [자세히 알아보기](../teams-app-setup-policies.md)
+
+## <a name="june-29-2020"></a>2020 년 6 월 29 일
+
+### <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft 팀의 Walkie Talkie app
+
+즉각적으로 대화를 사용 하 여 음성 통신
+
+## <a name="july-15-2020"></a>2020 년 7 월 15 일
+
+### <a name="enable-suggested-replies"></a>제안 된 회신 사용
+
+채팅 메시지에 대해 제안 된 회신을 사용 하도록 설정 하려면이 설정을 켜십시오. [자세히 알아보기](../messaging-policies-in-teams.md)
+
+## <a name="june-21-2020"></a>2020 년 6 월 21 일
+
+### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Android 및 iOS 사용자에 대 한 로그인 제한 사항
+
+사용자가 다른 곳에 Microsoft 365 계정으로 로그인되어 있지 않은 경우, 조직에서 모바일 로그인 정책에 대해 구성한 항목에 따라 일단계 혹은 다단계(SFA 또는 MFA) 인증을 제공하라는 메시지가 표시됩니다. [자세히 알아보세요](../sign-in-teams.md).
 
 ## <a name="june-11-2020"></a>2020 년 6 월 11 일
 
@@ -33,17 +142,17 @@ ms.locfileid: "44710822"
 
 이 기능을 해제 하면 현재 상태에 관계 없이 전화를 수신 하도록 옵트인 한 상담원에 게 통화가 전달 됩니다. 설정 되 면 현재 상태를 사용할 수 있는 경우에만 옵트인 (opt in) 에이전트가 통화를 받습니다. [자세히 알아보세요](../create-a-phone-system-call-queue.md).
 
-
 ## <a name="june-10-2020"></a>2020 년 6 월 10 일
 
 ### <a name="call-queues---longest-idle-routing"></a>통화 대기열-가장 긴 유휴 라우팅
+
 이를 선택 하면 수신 전화는 들어오는 통화에 대 한 응답을 받지 못한 호출 에이전트로 라우팅 됩니다 (가장 긴 시간 동안). [자세히 알아보세요](../create-a-phone-system-call-queue.md).
 
 ## <a name="june-1-2020"></a>2020 년 6 월 1 일
 
 ### <a name="raise-hand-in-meetings"></a>모임에서 손 올리기
 
-이제 사용자가 모임에서 가상 손을 높일 수 있습니다. 다른 참가자는 모임 스테이지의 이름 옆에 있는 사용자의 이름과 명단의 이름 옆에 표시 되는 것을 볼 수 있습니다.
+이제 사용자가 모임에서 가상 손을 높일 수 있습니다. 다른 참가자는 모임 스테이지의 이름 옆에 있는 사용자의 이름과 명단의 이름 옆에 표시 되는 것을 볼 수 있습니다. [자세히 알아보세요](../raise-hand-meetings.md).
 
 ## <a name="may-15-2020"></a>5 월 15 일, 2020
 
@@ -93,7 +202,7 @@ RealWear 용 Microsoft 팀 클라이언트는 RealWear의 ruggedized 헤드 탑�
 
 ## <a name="march-31-2020"></a>2020 년 3 월 31 일
 
-### <a name="tag-youre-it"></a>태그, 정답입니다!
+### <a name="tag-youre-it"></a>태그를 표시 하 고
 
 그룹, 역할, 부서 등을 @mention 수 있도록 태그를 만들고 여기에 사용자를 할당 합니다. 팀 소유자 인 경우 권합니다에 대해 시도해 보세요. 팀으로 이동 하 고 **추가 옵션**을 선택 하 여  >  **태그를 관리**합니다. [자세히 알아보세요](../manage-tags.md).
 

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 365 및 Office 365의 전화 시스템 기술에 대해 설명 합니다.
-ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: b9d44e52cbdd2384742a7473132ba3447e80e8fe
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666130"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788422"
 ---
 # <a name="what-is-phone-system"></a>전화 시스템 이란?
 
@@ -72,9 +72,9 @@ ms.locfileid: "44666130"
 ## <a name="related-topics"></a>관련 항목
 
 - [전화 시스템 기능](here-s-what-you-get-with-phone-system.md)
-- [Microsoft 팀의 클라우드 음성](cloud-voice-landing-page.md)
+- [Microsoft Teams의 클라우드 음성](cloud-voice-landing-page.md)
 - [전화 시스템 설정](setting-up-your-phone-system.md)
 - [사용자에게 적합한 통화 플랜은 무엇인가요?](calling-plan-landing-page.md)
 - [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
-- [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 

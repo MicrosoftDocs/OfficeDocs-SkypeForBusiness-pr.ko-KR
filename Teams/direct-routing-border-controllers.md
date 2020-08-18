@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증 된 SBCs (세션 경계 컨트롤러)에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 357bfd141527d104a0843e9e4e5d9c574307b4ac
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3aa35fe23796f3ee248e2797aba86c9982aa8364
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583937"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788722"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -43,7 +43,8 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 아래 표에는 직접 라우팅에 대해 인증 된 장치가 나와 있습니다. 
 
 [직접 라우팅에 대해 자세히 알아보세요](https://aka.ms/dr). 직접 라우팅에 대 한 SBC 인증 프로그램에 대 한 질문이 있는 경우 drsbccertification@microsoft.com에 문의 하세요.
-
+<br/>
+<br/>
 
 |                                                       공급 업체                                                        |       지원부       | 비 미디어 바이패스 | 미디어 바이패스 | 소프트웨어 버전 | E911 공급자를 사용 하 여 유효성 검사 | ELIN 가능
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
@@ -54,8 +55,8 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   중일     |  지원 되는 7.20.250 (권장 7.20 A. 256)  |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>  |  &#10004;  |    
 |                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  지원 되는 7.20.250 (권장 7.20 A. 256)   | <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>    |  &#10004;  |                                                                       
 |                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  지원 되는 7.20.250 (권장 7.20 A. 256) |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>   |  &#10004;  |    
-|  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       지원 되는 7.2 (권장 8.2)       | <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul> |    |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       지원 되는 7.2 (권장 8.2)       |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul> |    |    
+|  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       지원 되는 7.2 (권장 8.2)       | <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul> |    |    
+|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       지원 되는 7.2 (권장 8.2)       |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul> |    |    
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       지원 되는 7.2 (권장 8.2)       |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li><li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul>  ||    
 |                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       지원 되는 7.2 (권장 8.2)       |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul> |  |    
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       지원 되는 7.2 (권장 8.2)       |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul> |    |    
@@ -78,7 +79,8 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                 |     1000 시리즈 집계 서비스 라우터의 Cisco 통합 Border 요소 (큐브)      |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |    <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya (ASBCE)의 세션 경계 컨트롤러    |     &#10004;     |           |       릴리스 8.1.1       |     |    | 
 
-
+<br/>
+<br/>
 다음 표에는 직접 라우팅 및 아날로그 장치 간의 상호 운용성을 확인 하는 장치가 나와 있습니다.
 
 |                                                       공급 업체                                                        |       지원부       | 유효한

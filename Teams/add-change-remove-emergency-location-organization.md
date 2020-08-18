@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Microsoft 팀 관리 센터에서 조직의 긴급 위치를 추가, 변경 또는 제거 하는 방법에 대해 알아봅니다. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5758d79325cd83579e2a650db47c9913a0cda26b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 762246630d245acf92c16aff8df2c9392a307b07
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690844"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788572"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>조직의 응급 위치 추가, 변경 또는 제거
 
@@ -31,7 +31,7 @@ ms.locfileid: "44690844"
 
 거주 국가 또는 지역에 관계 없이 긴급 위치에 위치 또는 위치를 추가 하 고 긴급 위치를 제거할 수 있습니다. 조직의 실제 위치 수에 따라 빌딩, 바닥, 사무실 등의 위치를 만들 수 있습니다. [비상 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)를 참조 하세요.
   
-통화 요금제와 비용을 가져오는 방법을 알아보려면 [팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
+통화 요금제와 비용을 가져오는 방법을 알아보려면 [팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
 
 Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 조직의 긴급 위치를 관리할 수 있습니다.
   
