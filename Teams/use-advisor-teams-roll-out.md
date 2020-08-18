@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 'Advisor for Teams로 Microsoft Teams 사용을 계획하고 성공적으로 배포하세요.  '
-ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761354"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788402"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -109,7 +109,7 @@ Advisor for Teams는 현재 다음 계획을 제공합니다.
 
 |평가 테스트  |알리는 내용  |
 |---------|---------|
-|오디오 회의 라이선스    |오디오 회의 라이선스가 포함된 활성 구독이 있는지 여부 오디오 회의 브리지를 배포하는 경우 이는 필수 구성 요소입니다. Microsoft Graph를 쿼리하여 오디오 회의 라이선스가 있는지(적어도 할당할 하나의 라이선스가 있음) 확인합니다. 자세한 내용은 [Teams 추가 기능](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 참조하세요.    |
+|오디오 회의 라이선스    |오디오 회의 라이선스가 포함된 활성 구독이 있는지 여부 오디오 회의 브리지를 배포하는 경우 이는 필수 구성 요소입니다. Microsoft Graph를 쿼리하여 오디오 회의 라이선스가 있는지(적어도 할당할 하나의 라이선스가 있음) 확인합니다. 자세한 내용은 [Teams 추가 기능](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)을 참조하세요.    |
 |Stream 라이선스     |Microsoft Stream 라이선스가 포함된 활성 구독이 있는지 여부 이는 모임 녹화를 설정하려면 필수 구성 요소입니다. Microsoft Graph를 쿼리하여 Microsoft Stream 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). Stream에 대한 자세한 내용과 설정 방법은 [Teams 클라우드 모임 녹화](cloud-recording.md)를 참조하세요.
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>비즈니스용 Skype 업그레이드 평가
