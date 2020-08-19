@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2629ef2fd378744647aa7ed158e7128dfbaeba8a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 00ca1a2d7a00b4aa827cfb5a989e31b54b83fbeb
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581209"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803910"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
@@ -53,7 +53,7 @@ Outlook에 있는 팀의 현재 상태는 Outlook 2013 데스크톱 앱 이상�
 || ![화살표가 있는 자주색 원, 부재 중 표시](media/Presence_OOF.png) 부재 중|
 |||
 
-앱 구성 현재 상태는 사용자 활동 (사용 가능, 자리 비움), Outlook 일정 상태 (모임 중) 또는 팀 앱 상태 (통화 중)를 기반으로 합니다. 포커스 모드에서 일정을 기반으로 하는 경우에는 사용자가 Teans에 표시 되는 상태가 되며 다른 제품에서는 방해 금지로 표시 됩니다.
+앱 구성 현재 상태는 사용자 활동 (사용 가능, 자리 비움), Outlook 일정 상태 (모임 중) 또는 팀 앱 상태 (통화 중)를 기반으로 합니다. 사용자가 일정을 기반으로 하는 포커스 모드에 있는 경우에는 포커스가 팀에 표시 되는 상태 이며 다른 제품에서는 방해 금지로 표시 됩니다.
 
 컴퓨터를 잠그거나 유휴 또는 절전 모드로 전환 하면 현재 상태 상태가 ' 자리 비움 '으로 변경 됩니다. 모바일에서 팀 앱이 백그라운드에 있을 때마다 현재 상태는 자리 비움으로 변경 됩니다.
 

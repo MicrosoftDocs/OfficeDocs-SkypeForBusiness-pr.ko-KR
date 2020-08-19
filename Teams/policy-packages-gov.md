@@ -1,5 +1,5 @@
 ---
-title: 의료에 대 한 팀 정책 패키지
+title: 정부용 팀 정책 패키지
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,15 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: 의료 조직의 팀 정책 패키지를 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
+description: 정부 조직의 팀 정책 패키지를 사용 하 고 관리 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 738197a82303c1149ebc89a8e3ad7c6b37df90eb
 ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803977"
+ms.locfileid: "46804038"
 ---
-# <a name="teams-policy-packages-for-healthcare"></a>의료에 대 한 팀 정책 패키지
+# <a name="teams-policy-packages-for-government"></a>정부용 팀 정책 패키지
+
+> [!NOTE]
+> 현재 Microsoft 365 정부 GCC High 또는 DoD 배포에서는 정책 패키지를 사용할 수 없습니다.
 
 ## <a name="overview"></a>개요
 
@@ -38,19 +41,19 @@ Microsoft 팀의 [정책 패키지](manage-policy-packages.md) 는 조직에서 
 - 앱 설정
 - 라이브 이벤트
 
-현재 팀에는 다음과 같은 건강 보험 정책 패키지가 포함 되어 있습니다.
+현재 팀에는 다음과 같은 정부용 정책 패키지가 포함 되어 있습니다.
 
 |Microsoft 팀 관리 센터의 패키지 이름|최적 용도|설명 |
 |---------|---------|---------|
-|의료 임상 근로자  |건강 관리 조직의 임상 근로자  |등록 된 nurses, 청구 nurses, 의사, 소셜 작업자에 게 채팅, 통화, 교대 관리, 모임에 대 한 전체 액세스 등의 임상 근로자를 제공 하는 정책 및 정책 설정 집합을 만듭니다. |
-|의료 정보 근로자  |건강 관리 조직의 정보 근로자 |IT 직원, informatics 스태프, 재무 담당자, 규정 준수 관리자, 채팅, 통화, 모임에 대 한 모든 액세스 권한을 제공 하는 정책 및 정책 설정 집합을 만듭니다.|
-|의료 환자 실  |환자 실 장치|건강 관리 조직의 환자 방에 해당 하는 정책 및 정책 설정 집합을 만듭니다.|
+|공개 안전 책임자  |정부 조직의 공개 보안 관리 책임자  |조직의 공개 보안 책임자에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다. |
+|Firstline manager  |정부 조직의 firstline 관리자 |조직의 Firstline 관리자에 게 정책 집합을 만들고 해당 설정을 적용 합니다.|
+|Firstline worker  |정부 조직의 firstline Worker |정책 집합을 만들고 조직의 Firstline Worker에 해당 설정을 적용 합니다.|
 
-![건강 보험 정책 패키지 스크린샷](media/policy-packages-healthcare.png)
+![건강 보험 정책 패키지 스크린샷](media/policy-packages-gov.png)
 
-정책 패키지에 연결 된 정책을 쉽게 식별할 수 있도록 각 개별 정책에 정책 패키지의 이름이 지정 됩니다. 예를 들어 조직의 clinicians에 의료 임상 작업자 정책 패키지를 할당 하면 패키지의 각 정책에 대 한 Healthcare_ClinicalWorker 라는 정책이 만들어집니다.
+정책 패키지에 연결 된 정책을 쉽게 식별할 수 있도록 각 개별 정책에 정책 패키지의 이름이 지정 됩니다. 예를 들어 조직의 사용자에 게 공용 보안 책임자 정책 패키지를 할당 하면 패키지의 각 정책에 대 한 PublicSafety_Officer 라는 정책이 만들어집니다.
 
-![의료 임상 작업자 패키지의 정책 스크린샷](media/policy-packages-healthcare-clinical-worker.png)
+![의료 임상 작업자 패키지의 정책 스크린샷](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>정책 패키지 관리
 
@@ -72,7 +75,7 @@ Microsoft 팀의 [정책 패키지](manage-policy-packages.md) 는 조직에서 
 
 Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 정책 패키지를 할당 하는 방법에 대 한 단계는 [정책 패키지 할당](manage-policy-packages.md#assign-a-policy-package)을 참조 하세요.
 
-![관리 센터에서 정책 패키지를 할당 하는 방법 스크린샷](media/policy-packages-healthcare-assign.png)
+![관리 센터에서 정책 패키지를 할당 하는 방법 스크린샷](media/policy-packages-gov-assign.png)
 
 사용자에 게 정책이 할당 된 후 나중에 다른 정책을 할당 하는 경우에는 가장 최근의 할당이 우선적으로 적용 됩니다.
 
@@ -80,4 +83,4 @@ Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 정책 패키지
 
 [Teams에서 정책 패키지 관리](manage-policy-packages.md)
 
-[팀에서 사용자에 게 정책 할당](assign-policies.md)
+[팀에서 사용자에 게 정책 할당](assign-policies.md) 

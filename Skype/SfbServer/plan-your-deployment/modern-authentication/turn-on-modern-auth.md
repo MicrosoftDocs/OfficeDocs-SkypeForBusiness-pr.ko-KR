@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 이 문서에서는 관리자가 비즈니스 내부 및 외부에서 사용 되는 인증 방법에 대 한 더 많은 제어 권한을 제공 하는 cmdlet을 소개 합니다. 관리자는 내부에서 또는 네트워크 외부에서 인증 방법을 설정/해제할 수 있습니다.
-ms.openlocfilehash: a3f26e0bb29a58b53547083a4410da849c054b03
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f9a8c9c8576c07de3158fb2446cb3cb89bac72
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043720"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797456"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>네트워크에서 내부적으로 또는 외부적으로 레거시 인증 방법을 해제할 계획입니다.
 
@@ -72,7 +72,7 @@ __5 입력 설명:__ *외부*에서 최신 ADAL 클라이언트는 MA를 사용 
 
 ## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>전역 수준에서 CsAuthConfig를 사용 하는 이유
 
-등록자 `Set-CsAuthConfig` 및 웹 서비스 역할 둘 다에 대 한 cmdlet 효과 구성
+`Set-CsAuthConfig`등록자 및 웹 서비스 역할 둘 다에 대 한 cmdlet 효과 구성
 
 이 cmdlet은 비즈니스용 Skype 서버의 전역 수준에서 실행 되는 것을 의미 합니다. 풀 수준에서 실행할 *수* 는 있지만 설치가 복잡해 짐에 따라 *권장 되지* 않습니다. 풀 수준에서 이러한 명령을 실행 하 여 풀에 포함 된 역할이 모두 없는 경우 (예: 웹 서비스가 없는 경우) 설정은 등록자 역할에 대해서만 설정 됩니다. 이 경우 웹 서비스는 전역 수준의 설정을 사용 하 여 수행 되며, 이러한 동작은 혼란을 야기할 수 있습니다 (특히이 작업을 수행 하는 경우).
 
@@ -97,6 +97,8 @@ __5 입력 설명:__ *외부*에서 최신 ADAL 클라이언트는 MA를 사용 
 > 
 > BlockWindowsAuthExternally 매개 변수를 사용 하 여 외부에서 NTLM을 차단 하는 경우에는 SIP 채널에 대해서도 내부적으로 NTLM을 차단 합니다. 그러나 비즈니스용 Skype 및 Lync 클라이언트가 2010 보다 최신인 경우 로그인에 대해 내부적으로 NTLM HTTP를 사용 하 고 SIP를 통해 로그인 할 인증서를 페치 (fetch) 할 수 있습니다. 그러나 2010 보다 오래 된 클라이언트는 이러한 상황에서 내부적으로 로그인 할 수 없으며, 사용자가 보안 기능을 다시 시작할 수 있도록 이러한 응용 프로그램의 업그레이드를 고려해 야 할 수 있습니다.
 
+> [!IMPORTANT] 
+> 비즈니스용 Skype 웹 응용 프로그램 중 일부는 MA를 지원 하지 않습니다. 따라서 BlockWindowsAuthExternallyAndInternally 시나리오를 사용 하 여 이러한 응용 프로그램에 액세스할 수 없게 됩니다. MA가 지원 되지 않는 응용 프로그램은 웹 스케줄러, 전화 접속 페이지, CSCP (비즈니스용 Skype 제어판) 및 응답 그룹 설정 페이지입니다. 
 
 ## <a name="links"></a>Links 
 - PowerShell에 대 한 자세한 정보:

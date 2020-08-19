@@ -16,18 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 팀 관리 기능에 대 한 릴리스 정보입니다.
-ms.openlocfilehash: 36fc23d711437fbeb1976b94409054c27ffd258b
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788472"
+ms.locfileid: "46797446"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 팀 관리 기능에 대 한 릴리스 정보
 
 이 릴리스 정보는 Microsoft 팀의 새로운 관리 기능에 대 한 정보를 제공 합니다.
 
 ## <a name="august-17-2020"></a>2020 년 8 월 17 일
+
+### <a name="group-chat-size-increase"></a>그룹 채팅 크기 증가
+
+이제 그룹 채팅에 250 참가자를 추가할 수 있습니다.
 
 ### <a name="manage-the-praise-app"></a>칭찬 앱 관리
 
@@ -59,24 +63,29 @@ Microsoft 팀의 칭찬 앱은 사용자에 게 조직이 나 강의실 구성�
 
 이제 팀 사용자는 목록 앱 탭을 사용 하 여 목록을 직접 관리 하 고, 유지 관리할 수 있습니다. 목록 앱은 모든 팀 클라이언트에서 작동 하며 목록 항목에 대 한 공동 작업 및 통신을 가능 하 게 합니다.
 
+## <a name="august-6-2020"></a>2020 년 8 월 6 일
+
+### <a name="approve-custom-apps"></a>사용자 지정 앱 승인
+
+팀 앱 제출 API를 통해 제출 된 사용자 지정 앱을 승인 합니다. [자세히 알아보세요](../submit-approve-custom-apps.md).
+
 ## <a name="august-3-2020"></a>2020 년 8 월 3 일
 
 ### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 팀 용 서비스 구입 타사 앱
 
 팀 앱은 설치 가능 하며, 앱의 모든 기능 및 범위를 경험 하려면 서비스 구독을 구입 해야 할 수 있습니다. 이러한 서비스 구독을 서비스 (SaaS) 제공 이라고 하며,이는 AppSource를 통해 구매할 수 있으며, 현재 Microsoft 팀 관리 센터를 통해 구매 하는 것입니다. [자세히 알아보세요](../purchase-third-party-apps.md).
 
-## <a name="july-31-2020"></a>2020 년 7 월 31 일
-
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>관리자는 Firstline worker에 대 한 이동 기반 현재 상태 (교대 근무)를 구성할 수 있습니다.
-
-관리자는 이동이 가능한 현재 상태를 포함 하도록 (shift 키, 다른 용무 중 (교대 근무 시 전환 가능), shift 키를 사용 하도록 구성 하는 Firstline worker를 구성할 수 있습니다.
-[자세히 알아보세요](../firstline-workers-quickstart.yml).
-
 ## <a name="july-29-2020"></a>2020 년 7 월 29 일
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>디바이스 태깅 기능을 사용 하 여 관리 효율성 향상
 
 향상 된 관리 효율성의 일환으로 장치 태깅 기능을 해제 하는 것입니다. It 관리자가 사용자가 생성 한 태그를 사용 하 여 특정 장치 집합을 그룹화 하 고 동일한 작업을 수행할 수 있도록 합니다. [자세히 알아보세요](/../../manage-device-tags.md).
+
+## <a name="july-28-2020"></a>2020 년 7 월 28 일
+
+### <a name="create-your-own-teams-template"></a>팀 서식 파일 직접 만들기
+
+이제 관리 콘솔에서 템플릿을 사용 하 여 고유한 팀 템플릿을 만들거나 기존 템플릿에서 팀 템플릿을 만들 수 있습니다. [자세히 알아보세요](../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="july-20-2020"></a>2020 년 7 월 20 일
 
@@ -90,11 +99,23 @@ Microsoft 팀의 칭찬 앱은 사용자에 게 조직이 나 강의실 구성�
 
 팀 모임에 대해 NDI-Out을 사용 하도록 설정 하는 기능을 추가 했습니다. NDI-Out을 사용 하면 비디오 제작 도구에서 모임의 오디오 및 비디오를 활용할 수 있습니다. [자세히 알아보세요](../use-ndi-in-meetings.md).
 
+## <a name="july-15-2020"></a>2020 년 7 월 15 일
+
+### <a name="enable-suggested-replies"></a>제안 된 회신 사용
+
+채팅 메시지에 대해 제안 된 회신을 사용 하도록 설정 하려면이 설정을 켜십시오. [자세히 알아보기](../messaging-policies-in-teams.md)
+
 ## <a name="july-9-2020"></a>2020 년 7 월 9 일
 
 ### <a name="voicemail-support-in-call-queues"></a>통화 대기열의 보이스 메일 지원
 
 공유 보이스 메일 상자를 사용 하기 위해 통화 대기열에 대 한 지원이 추가 되었습니다. [자세히 알아보세요](../create-a-phone-system-call-queue.md).
+
+## <a name="july-8-2020"></a>2020 년 7 월 8 일
+
+### <a name="policy-packaging-batch-assignment"></a>정책 패키징 일괄 처리 할당
+
+PowerShell을 사용 하 여 사용자 및 그룹의 정책 패키지를 일괄 할당할 수 있도록 했습니다.
 
 ## <a name="july-7-2020"></a>2020 년 7 월 7 일
 
@@ -116,7 +137,7 @@ Microsoft 팀의 칭찬 앱은 사용자에 게 조직이 나 강의실 구성�
 
 ### <a name="install-apps-on-behalf-of-others"></a>다른 사용자를 대신 하 여 앱 설치
 
-사용자가 팀을 시작할 때 기본적으로 설치 되는 앱을 선택 합니다. [자세히 알아보기](../teams-app-setup-policies.md)
+사용자가 팀을 시작할 때 기본적으로 설치 되는 앱을 선택 합니다. [자세히 알아보세요](../teams-app-setup-policies.md).
 
 ## <a name="june-29-2020"></a>2020 년 6 월 29 일
 
@@ -124,11 +145,15 @@ Microsoft 팀의 칭찬 앱은 사용자에 게 조직이 나 강의실 구성�
 
 즉각적으로 대화를 사용 하 여 음성 통신
 
-## <a name="july-15-2020"></a>2020 년 7 월 15 일
+## <a name="june-25-2020"></a>2020 년 6 월 25 일
 
-### <a name="enable-suggested-replies"></a>제안 된 회신 사용
+### <a name="teams-filter-option"></a>팀 필터 옵션
 
-채팅 메시지에 대해 제안 된 회신을 사용 하도록 설정 하려면이 설정을 켜십시오. [자세히 알아보기](../messaging-policies-in-teams.md)
+명령 모음에 새 필터 옵션을 추가 하 여 특정 팀을 검색할 때 특정 매개 변수를 설정할 수 있습니다.
+
+### <a name="users-widgets"></a>사용자 위젯
+
+팀 및 채널을 추가할 때 사용할 수 있는 새 사용자 요약 위젯을 추가 했습니다.
 
 ## <a name="june-21-2020"></a>2020 년 6 월 21 일
 

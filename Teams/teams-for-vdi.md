@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778070"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803998"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -178,9 +178,9 @@ Enterprise 용 microsoft 365 앱에 대 한 자세한 내용은 [엔터프라이
 
         다음 대화형 로그온 세션에서 팀을 시작 하 고 자격 증명을 요청 합니다.
 
-    > [!NOTE]
-    > 이 예제에서는 또한 **ALLUSERS = 1** 매개 변수를 사용 합니다. 이 매개 변수를 설정 하면 제어판의 프로그램 및 기능 및 컴퓨터의 모든 사용자에 대 한 Windows 설정의 앱 & 기능에 팀 컴퓨터 전체의 설치 관리자가 표시 됩니다. 모든 사용자가 관리자 자격 증명을 사용 하는 경우 팀을 제거할 수 있습니다.
-    **ALLUSERS = 1** 과 **alluser = 1**간의 차이를 이해 하는 것이 중요 합니다. 비 VDI 및 VDI 환경에는 **ALLUSERS = 1** 매개 변수를 사용할 수 있지만 **alluser = 1** 매개 변수는 vdi 환경 에서만 사용 하 여 컴퓨터별 설치를 지정 합니다.
+        > [!NOTE]
+        > 이 예제에서는 또한 **ALLUSERS = 1** 매개 변수를 사용 합니다. 이 매개 변수를 설정 하면 제어판의 프로그램 및 기능 및 컴퓨터의 모든 사용자에 대 한 Windows 설정의 앱 & 기능에 팀 컴퓨터 전체의 설치 관리자가 표시 됩니다. 모든 사용자가 관리자 자격 증명을 사용 하는 경우 팀을 제거할 수 있습니다.
+        **ALLUSERS = 1** 과 **alluser = 1**간의 차이를 이해 하는 것이 중요 합니다. 비 VDI 및 VDI 환경에는 **ALLUSERS = 1** 매개 변수를 사용할 수 있지만 **alluser = 1** 매개 변수는 vdi 환경 에서만 사용 하 여 컴퓨터별 설치를 지정 합니다.
 
 3. VDI VM에서 MSI를 제거 합니다.
   
@@ -346,6 +346,17 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자세히 알아보려면 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)을 참조 하세요.
 
+## <a name="control-fallback-mode-in-teams"></a>팀의 대체 모드 제어
+
+사용자가 지원 되지 않는 끝점에서 연결 하는 경우 사용자는 AV에 최적화 되지 않은 대체 모드에 있습니다. 다음 레지스트리 DWORD 값 중 하나를 설정 하 여 fallback 모드를 사용 하지 않도록 설정 하거나 설정할 수 있습니다.
+
+- HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER \SOFTWARE\Microsoft\Office\Teams\DisableFallback
+
+Fallback 모드를 사용 하지 않도록 설정 하려면 값을 **1**로 설정 합니다. 오디오만 활성화 하려면 값을 **2**로 설정 합니다. 값이 없거나 **0** (영)으로 설정 되어 있으면 fallback 모드를 사용할 수 있습니다.
+
+이 기능은 팀 버전 1.3.00.13565 이상에서 사용할 수 있습니다.
+
 ## <a name="known-issues-and-limitations"></a>알려진 문제점 및 제한 사항
 
 ### <a name="client-deployment-installation-and-setup"></a>클라이언트 배포, 설치 및 설정
@@ -391,7 +402,7 @@ VDI와 관련 되지 않은 팀의 알려진 문제점은 [조직의 지원 팀]
 
 ## <a name="troubleshooting"></a>문제 해결
 
-#### <a name="troubleshoot-citrix-components"></a>Citrix 구성 요소 문제 해결
+### <a name="troubleshoot-citrix-components"></a>Citrix 구성 요소 문제 해결
 
 VDA 및 CWA 문제를 해결 하는 방법에 대 한 자세한 내용은 [이 Citrix 웹 사이트](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)를 참조 하세요.
 

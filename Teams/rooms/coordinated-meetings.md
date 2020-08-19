@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 하나 이상의 장치 또는 다른 상대방이 모임에 참가할 때 모임에 참가 하도록 팀 대화방 디바이스 및 Surface Hub를 구성 합니다.
-ms.openlocfilehash: c1200b4e949cb866440907f8577f61f4528630e2
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: cfd8bd423d8f7765a973d55e42d64773a06bba32
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761451"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803940"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft 팀 회의실 및 Surface Hub를 사용 하 여 조정 되는 모임 설정
 
@@ -52,8 +52,8 @@ Microsoft 365 관리 센터에 액세스 하려면 관리자 역할을 할당 �
 
 팀 방에 디바이스 및 Surface Hub의 Upn을 받으려면 다음을 수행 합니다.
 
-1. 방문 하 여 Microsoft 365 관리 센터에 로그인 https://admin.microsoft.com
-2. **사용자**  >  **활성 사용자** 로 이동
+1. Microsoft 365 관리 센터에 로그인 하 여 방문해 보세요 https://admin.microsoft.com .
+2. **사용자**  >  **활성 사용자**로 이동 합니다.
 3. **표시 이름** 열에서 팀 대화방 장치 또는 Surface Hub의 이름을 찾습니다 (사용자 수가 많은 경우 **검색** 상자를 사용할 수 있음).
 4. **사용자 이름** 열에서 UPN을 찾습니다 (예: alias@contoso.com 또는 alias@contoso.onmicrosoft.com).
 5. 조정 된 모임에 참여할 각 장치에 대해이를 반복 합니다.
@@ -71,6 +71,7 @@ Microsoft 365 관리 센터에 액세스 하려면 관리자 역할을 할당 �
 | **비디오 기본값**      | 모임이 시작 될 때 카메라가 활성화 될 장치를 결정 합니다. 최상의 환경을 위해서는 다른 모든 장치를 설정 하는 동안 팀 대화방 장치만 설정 하는 것이 좋습니다 `true` `false` .          |
 | **비디오 사용**      | 모임의 참가자가 카메라를 켜거나 끌 수 있는지 여부를 결정 합니다. `true`다른 비디오 관점 (예: 참가자가 Surface Hub 화이트 보드를 사용 하는 경우)을 공유 하려는 이벤트 참가자의 다른 모든 장치에서이를 설정할 수 있습니다. 참가자가 장치에서 카메라를 설정 하거나 해제 하지 못하게 하려면 다음을로 설정 `false` 합니다.<p> **비디오 기본값이** 로 설정 된 경우 `true` 이 설정은 무시 되며 참가자는 카메라를 켜거나 끌 수 있습니다.         |
 | **화이트 보드 기본값** | 팀 대화방 장치가 모임 참가자 중 하 나와 공유한 화이트 보드를 표시할지 여부를 결정 합니다. Surface Hub를 보유 하 고 있지 않은 경우이를 설정 하는 것이 좋습니다 `false` `true` . Surface Hub에는이 설정이 적용 되지 않습니다. Surface Hub는 항상 모임 참가자가 공유한 화이트 보드를 표시 합니다.         |
+| **화이트 보드 사용** | 모임의 참가자가 화이트 보드를 설정 하거나 해제할 수 있는지 여부를 결정 합니다. 참가자가 장치에서 화이트 보드를 설정 하거나 해제 하지 않도록 하려면 다음을로 설정 `false` 합니다. <p>**화이트 보드 기본값** 을로 설정한 경우 `true` 이 설정은 무시 되며 참가자는 화이트 보드를 켜거나 끌 수 있습니다.
 | **신뢰할 수 있는 계정**   | 장치에서 모임 참가 요청을 수락 하거나 모임 참가 요청을 보내야 하는 각 팀 대화방 장치 또는 Surface Hub의 쉼표로 구분 된 목록입니다. |
 
 그 다음 열에서 각 팀 객실 장치 및 Surface Hub를 추가 합니다. 각 열에서 회의실에 대해 원하는 환경에 맞는 값을 입력 합니다. 다음은 하나의 팀 대화방 장치와 하나의 Surface Hub를 사용 하는 예입니다.
@@ -88,7 +89,7 @@ Microsoft 365 관리 센터에 액세스 하려면 관리자 역할을 할당 �
 | **오디오 사용**      | `true`          | `false`          |
 | **비디오 기본값**      | `true`          | `false`          |
 | **비디오 사용**      | `true`          | `true`           |
-| **화이트 보드 기본값** | `false`         | 해당 사항 없음   |
+| **화이트 보드 기본값** | `false`         | `false`          |
 | **신뢰할 수 있는 계정**   | hub@contoso.com | room@contoso.com |
 
 ## <a name="step-4-configure-teams-rooms-device"></a>4 단계: 팀 대화방 장치 구성
@@ -101,17 +102,17 @@ Microsoft 365 관리 센터에 액세스 하려면 관리자 역할을 할당 �
 
 장치에서 조정 된 모임을 설정 하려면 다음을 수행 합니다.
 
-1. 선택 **... 기타**  >  **설정**
-2. 관리자 암호를 입력 하 고 **예** 를 선택 합니다.
-3. **조정 모임** 선택
-4. **옵션**에서 **조정 모임을** on으로 설정 합니다.
-5. 워크시트의 **오디오 기본** 이 인 경우 `true` **이 디바이스의 마이크 켜기** 를 설정 하 고, 그렇지 않으면 종료
+1. 선택 **... 추가**  >  **설정**
+2. 관리자 암호를 입력 하 고 **예**를 선택 합니다.
+3. **조정 모임을**선택 합니다.
+4. **옵션**에서 **조정 모임을** _on_으로 설정 합니다.
+5. 워크시트의 **오디오 기본** 이 인 경우 `true` **이 디바이스의 마이크 켜기** 를 설정 하 고, 그렇지 않은 _경우 종료_합니다.
 6. 워크시트에서 **오디오를 사용할 수** 있는 경우 `true` **사용자가** **이 디바이스의 마이크를 켜서**모임에 참가할 수 있도록 허용을 선택 합니다. **이 디바이스의 마이크가** on으로 설정 되어 있으면이 옵션을 끌 수 없습니다.
-7. 워크시트에 **비디오 기본값이** 있는 경우 `true` **이 장치의 카메라** 설정을 켜 세요. 그렇지 않은 경우 종료 합니다.
-8. 워크시트에서 **비디오를 사용 하도록 설정한** 경우 `true` **사용자가** **이 디바이스의 카메라를 켜서**모임에 참가할 수 있도록 허용을 선택 합니다. **이 장치 카메라가** 켜진 상태로 설정 되어 있으면이 옵션을 해제할 수 없습니다.
-9. 워크시트의 **화이트 보드 default** 인 경우 `true` **이 장치에서 whiteboarding 켜기** 설정, 종료 하지 않음
+7. 워크시트에 **비디오 기본값이** 있으면 `true` **이 디바이스의 카메라** 설정을 켜 세요. 그렇지 않은 _경우 종료_합니다.
+8. 워크시트에서 **비디오를 사용 하도록 설정한** 경우 `true` **사용자가** **이 디바이스의 카메라를 켜서**모임에 참가할 수 있도록 허용을 선택 합니다. **이 장치 카메라가** _켜진_상태로 설정 되어 있으면이 옵션을 해제할 수 없습니다.
+9. 워크시트의 **화이트 보드 default** 인 경우 `true` **이 장치에서 whiteboarding 켜기** 를 _on_으로 설정 하 고, 그렇지 않은 _경우 종료_합니다.
 10. **신뢰할 수 있는 디바이스 계정**에서 워크시트의 **신뢰할 수 있는 계정** 에 나열 된 각 UPN을 입력 합니다. 여러 Upn을 쉼표로 구분 합니다.
-11. **저장 후 끝내기를** 선택 합니다.
+11. **저장 및 종료**를 선택 합니다.
 
 **저장 후 종료**를 선택 하면 디바이스가 다시 시작 되 고 조정 된 모임에 참여할 준비가 됩니다.
 
@@ -126,7 +127,7 @@ Microsoft 365 관리 센터에 액세스 하려면 관리자 역할을 할당 �
     <Settings>
         <Audio default="true" enabled="true"/>
         <Video default="true" enabled="true"/>
-        <Whiteboard default="false"/>
+        <Whiteboard default="false" enabled="false"/>
     </Settings>
     <TrustedAccounts>hub@contoso.com</TrustedAccounts>
 </CoordinatedMeetings>
@@ -134,15 +135,22 @@ Microsoft 365 관리 센터에 액세스 하려면 관리자 역할을 할당 �
 
 장치에서 조정 된 모임을 설정 하려면 다음을 수행 합니다.
 
-1. Visual Studio 코드나 메모장과 같은 텍스트 파일 편집기에서 위의 XML을 새 파일에 붙여 넣습니다.
+1. Visual Studio 코드나 메모장과 같은 텍스트 파일 편집기에서 위의 XML을 새 파일에 붙여넣습니다.
+
 2. 각 XML 요소를 `true` 스프레드시트의 해당 or 값으로 설정 합니다 `false` . 예를 들어, **오디오 기본값이** `true` 설정 된 경우 `<Audio default="true">`
-3. Upn 목록으로 변경 해야 합니다. `TrustedAccounts`
-4. 이름을 사용 하 여 파일 저장 `SkypeSettings.xml`
+
+3. `TrustedAccounts`Upn 목록으로 변경 해야 합니다.
+
+4. 이름을 사용 하 여 파일을 저장 `SkypeSettings.xml` 합니다.
+
 5. 파일을 팀 공간 장치의 폴더에 배치 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 합니다. 다음과 같은 몇 가지 방법으로이 작업을 수행할 수 있습니다.
+
     - **팀 대화방 장치에 파일 복사** 파일을 장치에 복사 하려면 먼저 파일 공유를 사용 하도록 설정 하 고 네트워크 공유를 만들어야 합니다. 이 작업을 수행한 후에는 네트워크 공유에 연결 하 고 파일을 장치에 복사할 수 있습니다. 자세한 내용은 [Microsoft 팀 대화방 유지 관리 및 운영](../rooms/rooms-operations.md)을 참조 하세요.
     - **그룹 정책 사용** 그룹 정책을 만들어 파일을 장치에 복사 합니다. 자세한 내용은 [그룹 정책 개요](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11))를 참조 하세요.
     - **팀 대화방 장치에서 파일 다운로드** 관리 모드를 사용 하 여 장치에 로그인 한 다음 네트워크 공유 또는 USB 드라이브에서 파일을 장치에 복사할 수 있습니다. 자세한 내용은 [관리 모드로 전환을](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)참조 하세요.
+    
 6. 장치를 다시 시작 합니다. 다음과 같은 몇 가지 방법으로이 작업을 수행할 수 있습니다.
+
     - **원격 PowerShell** 원격 PowerShell을 사용 하 여 장치에서 종료 명령을 실행할 수 있습니다. 자세한 내용은 [PowerShell을 사용 하 여 원격 관리](../rooms/rooms-operations.md)를 참조 하세요.
     - **컴퓨터 다시 시작** `Restart-Computer` 로컬 컴퓨터에서 cmdlet을 실행 하 고 다시 시작 하려는 장치의 컴퓨터 이름을 지정할 수 있습니다. 자세한 내용은 [컴퓨터 다시 시작](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7)을 참조 하세요.
 
@@ -172,15 +180,18 @@ Windows 구성 디자이너와 Microsoft Intune은 모두 Surface Hub에 조정 
 
 Windows 용 XML 구성 디자이너 또는 Microsoft Intune을 준비 하려면 다음을 실행 합니다.
 
-1. Visual Studio 코드나 메모장과 같은 텍스트 파일 편집기에서 위의 XML을 새 파일에 붙여 넣습니다.
+1. Visual Studio 코드나 메모장과 같은 텍스트 파일 편집기에서 위의 XML을 새 파일에 붙여넣습니다.
+
 2. 각 XML 요소를 `true` 스프레드시트의 해당 or 값으로 설정 합니다 `false` . 예를 들어, **오디오 기본값이** `true` 설정 된 경우 `<Audio default="true">`
-3. Upn 목록으로 변경 해야 합니다. `TrustedAccounts`
+
+3. `TrustedAccounts`Upn 목록으로 변경 해야 합니다.
+
 4. Windows 구성 디자이너에서는 XML이 한 줄에 있어야 합니다. XML이 다음과 같이 표시 되도록 각 줄 사이의 줄 바꿈을 모두 제거 합니다.
 
     ```xml
     <SurfaceHubSettings><BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>...
     ```
 
-5. 컴퓨터에 파일 저장
+5. 컴퓨터에 파일을 저장 합니다.
 
 XML 구성 파일을 만든 후 [Surface Hub에서 Microsoft 팀 설정 관리](surface-hub-manage-config.md) 의 단계를 사용 하 여 surface Hubs에 적용 합니다.
