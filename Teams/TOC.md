@@ -143,7 +143,9 @@
 #### [요구 사항](rooms/requirements.md)
 #### [온라인 라이선싱](rooms/rooms-licensing.md)
 #### [Azure 모니터를 이용한 계획 관리](rooms/azure-monitor-plan.md)
-#### [Microsoft Teams 룸 프리미엄을 사용하여 관리 계획](rooms/microsoft-teams-rooms-premium.md)
+#### Microsoft Teams 룸 관리 서비스
+##### [Microsoft Teams 룸 관리 서비스를 사용한 계획 관리](rooms/microsoft-teams-rooms-premium.md)
+##### [Microsoft Teams 룸 관리 서비스를 사용한 역할 기반 액세스 제어](rooms/microsoft-teams-rooms-premium-rbac.md)
 ### 배포
 #### [배포 개요](rooms/rooms-deploy.md)
 #### [계정 구성](rooms/rooms-configure-accounts.md)
