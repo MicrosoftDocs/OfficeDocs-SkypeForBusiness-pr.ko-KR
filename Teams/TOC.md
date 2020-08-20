@@ -112,7 +112,6 @@
 # 앱, 인공 지능 및 커넥터
 
 ## [개요](deploy-apps-microsoft-teams-landing-page.md)
-## [앱 사용 권한 및 고려 사항](app-permissions.md)
 ## [Teams용 앱 관리](manage-apps.md)
 ## [Team에서 앱의 관리 설정](admin-settings.md)
 ## [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
@@ -121,6 +120,8 @@
 ## [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
 ## [앱 패키지를 업로드하여 사용자 지정 앱 게시](upload-custom-apps.md)
 ## [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [앱 사용 권한 및 고려 사항](app-permissions.md)
+## [Teams 3자 앱 구매 서비스](purchase-third-party-apps.md)
 ## [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Teams에서 조직의 목록 앱 관리](manage-lists-app.md)
 ## [조직에 대한 작업 앱 관리](manage-tasks-app.md)
