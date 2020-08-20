@@ -1,5 +1,5 @@
 ---
-title: 콘텐츠의 eDiscovery 조사 수행
+title: eDiscovery 콘텐츠 조사
 author: markjjo
 ms.author: markjjo
 manager: laurawi
@@ -13,83 +13,104 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 법률 소송 절차에 대해 전자적으로 저장 된 모든 정보를 제출 해야 하는 경우와 같이 eDiscovery을 수행 해야 하는 경우 수행할 작업에 대해 알아봅니다.
+description: 법률 절차에 대한 모든 전자 저장 정보를 제출해야 하는 경우와 같이 eDiscovery를 수행해야 하는 경우 수행할 작업에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 4679d8ed59ab8eec0fb856961f646d1f20049ff3
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121398"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814114"
 ---
-# <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft 팀의 콘텐츠 eDiscovery 조사 수행
+# <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 조사
 
-대규모 기업은 모든 ESI (전자적 저장 정보) 제출을 요구 하는 높은 벌칙 법률 소송 절차에 게 노출 되는 경우가 많습니다. EDiscovery 조사 중에 Microsoft 팀 콘텐츠를 검색 하 고 사용할 수 있습니다.
+대기업은 종종 ESI(전자 저장 정보)를 제출하는 합리적인 법률 의문 사항으로 되어 있습니다. eDiscovery 조사 중에 Microsoft Teams 콘텐츠를 검색하고 사용할 수 있습니다.
 
 ## <a name="overview"></a>개요
 
-모든 팀 1:1 또는 그룹 채팅은 각 사용자의 사서함으로 저널링 됩니다. 모든 표준 채널 메시지가 팀을 나타내는 그룹 사서함으로 저널링 됩니다. 표준 채널로 업로드 되는 파일은 SharePoint Online 및 비즈니스용 OneDrive의 eDiscovery 기능에서 다룹니다.
+모든 Microsoft Teams 1:1 또는 그룹 채팅은 해당 사용자의 사서함을 통해 업무를 수행합니다. 모든 표준 채널 메시지는 팀을 나타내는 그룹 사서함으로 이동합니다. 표준 채널에서 업로드한 파일은 SharePoint Online 및 비즈니스용 OneDrive의 eDiscovery 기능에 대해 다됩니다.
 
-[개인 채널](private-channels.md) 의 메시지 및 파일 eDiscovery은 표준 채널과 다르게 작동 합니다. 자세히 알아보려면 [개인 채널 eDiscovery](#ediscovery-of-private-channels)를 참조 하세요.
+비공개 채널에서 메시지와 [파일을 보낸 후에는 표준](private-channels.md) 채널에서와 다르게 작동합니다. 자세한 내용은 [비공개 채널e의 eDiscovery를 참조하세요.](#ediscovery-of-private-channels)
 
-일부 팀 콘텐츠는 eDiscoverable 수 없습니다. 다음 표에서는 eDiscovery를 통해 찾을 수 있는 콘텐츠 형식을 보여 줍니다.
+모든 Teams 콘텐츠를 Discover로 기능할 수 있는 것은 아닌 경우. 다음 표에서는 eDiscovery를 통해 찾을 수 있는 콘텐츠 형식을 보여 주는 예제입니다.
 
-| 콘텐츠 형식 | eDiscoverable 가능 | 상속자 |
+| 콘텐츠 형식 | eDiscoverable | 참고 |
 |:--- | --- |:--- |
-| 팀 채팅 메시지 | 예 |  |
-| 오디오 녹음 | 아니요 | |
-| 개인 채널 메시지 | 예 | |
-| Emojis, Gif, 스티커 | 예 | |
+| Teams 채팅 메시지 | 예 |  |
+| 비공개 채널 메시지 | 예 | |
+| 채널 이름 | 아니요 | |
+| 모임 메신저 대화 | 예 | |
+| 모임 메타데이터<sup>1</sup> | 예 |  |
+| 편집된 메시지 | 예 | 사용자가 보류 중인 경우 이전 버전의 편집된 메시지는 보존됩니다. |
+| 이모지, GMO, 스티커 | 예 | |
 | 코드 조각 | 아니요 | |
 | 채팅 링크 | 예 | |
-| 반응과 (좋아요, 하트 등) | 아니요 | |
-| 편집 된 메시지 | 예 | 사용자가 보류 중인 경우에는 이전 버전의 편집 된 메시지가 보존 됩니다. |
+| 다시 작음(예: 듣기, 하트 등) | 아니요 | |
 | 인라인 이미지 | 예 | |
-| 목차 | 예 | |
+| 테이블 | 예 | |
 | 제목 | 예 | |
-| 부호가 | 예 | 인용 부호로 묶은 콘텐츠를 검색할 수 있습니다. 그러나 검색 결과에는 콘텐츠가 인용 부호로 표시 되지 않습니다. |
-| 채널 이름 | 아니요 | |
+| 시/따옴표 | 예 | 인용된 콘텐츠를 검색할 수 있습니다. 그러나 검색 결과로는 콘텐츠가 할당되었음을 나타내지는 않습니다. |
+| 오디오 녹음 | 아니요 | |
 
-- Microsoft 팀 콘텐츠를 사용 하 여 eDiscovery 조사를 수행 하려면 [보안 & 준수 센터 링크에서 ediscovery 사례 관리](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) 의 1 단계를 검토 합니다.
+<sup>모임</sup> 메타데이터에는 다음이 포함됩니다.
 
-- Microsoft 팀 데이터가 Excel eDiscovery 내보내기 출력에 IM 또는 대화로 표시 됩니다. `.pst`Outlook에서 파일을 열어 내보낸 후 해당 메시지를 볼 수 있습니다.
+- 모임 또는 통화 시작 시간 및 종료 시간 및 기간
+- 각 참가자에 대한 통화/모임 참가 및 종료
+- VOIP 참가/호출
+- 익명 참가
+- 페더레이스 사용자 참가
+- 게스트 사용자 참가
 
-    `.pst`팀에 대 한 파일을 볼 때 모든 대화가 대화 내용 아래의 팀 채팅 폴더에 보관 되어 있는지 확인 합니다. 메시지 제목은 팀 이름 및 채널 이름을 포함 합니다. 예를 들어 아래 이미지는 제조 사양 팀의 Project 7 표준 채널을 messaged 하는 Bob의 메시지를 보여줍니다.
+이미지는 메타데이터 예제를 보여 주는 이미지입니다.
 
-    ![Outlook의 사용자 사서함에 있는 팀 채팅 폴더 스크린샷](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![이미지는 CVR 레코드 모임 메타데이터입니다.](media/conversationOption3.png)
 
-- 사용자의 사서함에 있는 개인 채팅은 대화 내용 아래의 팀 채팅 폴더에 저장 됩니다.
+다음은 모임 중에 참가자 간의 메신저 대화의 예입니다.
 
-## <a name="ediscovery-of-private-channels"></a>개인 채널 eDiscovery
+![이미지는 참가자들 간의 대화입니다.](media/MeetingIMConversations.png)
+
+![이미지는 참가자들 간의 대화입니다.](media/MeetingImConversation2.png)
+
+Microsoft Teams 콘텐츠에 대한 eDiscovery 조사를 수행하려면 [Core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)시작에서 1단계를 검토하세요.
+
+Microsoft Teams 데이터는 Excel eDiscovery 내보내기 출력에서 메신저 대화 또는 대화로 나타납니다. Outlook에서 파일을 `.pst` 열어 내보낸 후에 해당 메시지를 볼 수 있습니다.
+
+팀에 대한 .pst 파일을 보고 있는 경우 모든 대화가 팀 채팅 폴더의 대화 내용 아래에 저장됩니다. 메시지 제목에는 팀 이름과 채널 이름이 포함되어 있습니다. 예를 들어 아래 이미지는 제조 사양 팀의 Project 7 표준 채널을 메시지를 받는 부동소의 메시지를 보여주고 있습니다.
+
+![Outlook 사용자 사서함에 있는 팀 채팅 폴더 스크린샷](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+
+사용자의 사서함에 있는 비공개 채팅은 팀 채팅 폴더 아래에 대화 내용 아래에 저장됩니다.
+
+## <a name="ediscovery-of-private-channels"></a>eDiscovery of pvate Channels
 
 비공개 채널에 전송된 메시지 레코드는 그룹 사서함이 아닌 모든 비공개 채널 구성원의 사서함에 전달됩니다. 레코드 제목은 출처 비공개 채널을 표시하도록 형식이 지정됩니다.
 
-각 개인 채널은 상위 팀 사이트와 별도의 고유한 SharePoint 사이트 모음을 포함 하므로 개인 채널의 파일은 상위 팀과 독립적으로 관리 됩니다.
+각 비공개 채널에는 상위 팀 사이트와 별도로 별도의 SharePoint 사이트 모음이 있으므로 비공개 채널의 파일은 상위 팀과 개별적으로 관리됩니다.
 
-팀은 팀 내 단일 채널의 eDiscovery 검색을 지원 하지 않으므로 전체 팀을 검색 해야 합니다. 개인 채널에서 콘텐츠를 eDiscovery 검색 하려면 팀에서 검색 하 고, 개인 채널과 연결 된 사이트 모음 (파일 포함)과 개인 채널 구성원의 사서함 (메시지 포함)을 사용 합니다.
+Teams는 팀 내의 단일 채널에 대한 eDiscovery 검색을 지원하지 않으므로 전체 팀이 검색해야 합니다. 비공개 채널에서 콘텐츠를 eDiscovery 콘텐츠를 검색하려면 팀 전반에서 검색하고(파일 포함) 및 비공개 채널 구성원의 사서함(메시지를 포함하기 위한) 개인 채널 구성원의 사서함을 검색합니다.
 
-EDiscovery 검색에 포함할 개인 채널의 파일 및 메시지를 식별 하려면 다음 단계를 사용 합니다.
+다음 단계에 따라 eDiscovery 검색에 포함할 개인 채널에서 파일 및 메시지를 식별합니다.
 
-### <a name="include-private-channel-files-in-an-ediscovery-search"></a>EDiscovery 검색에 개인 채널 파일 포함
+### <a name="include-private-channel-files-in-an-ediscovery-search"></a>eDiscovery 검색에 개인 채널 파일 포함
 
-이 단계를 수행 하기 전에 [Sharepoint Online 관리 셸을 설치 하 고 Sharepoint online에 연결](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)합니다.
+이러한 단계를 수행하기 전에 [SharePoint Online 관리 셸을 설치하고 SharePoint Online에 연결합니다.](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
-1. 팀의 개인 채널과 연결 된 모든 SharePoint 사이트 모음 목록을 가져오려면 다음을 실행 합니다.
+1. 다음을 실행하여 팀의 비공개 채널과 연결된 모든 SharePoint 사이트 모음 목록을 가져올 수 있습니다.
 
     ```PowerShell
     Get-SPOSite
     ```
 
-2. 다음 PowerShell 스크립트를 실행 하 여 팀의 개인 채널과 해당 상위 팀 그룹 ID와 연결 된 모든 SharePoint 사이트 모음 Url 목록을 가져옵니다.
+2. 다음 PowerShell 스크립트를 실행하여 팀의 비공개 채널과 연결된 모든 SharePoint 사이트 모음 URL 목록과 상위 팀 ID의 목록을 가져올 수 있습니다.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
+    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. 각 팀 또는 그룹 ID에 대해 다음 PowerShell 스크립트를 실행 하 여 해당 팀의 그룹 ID 인 모든 관련 개인 채널 사이트를 식별 $groupID 합니다.
+3. 각 팀 또는 그룹 ID에 대해 다음 PowerShell 스크립트를 실행하여 모든 적정 비공개 채널 사이트를 식별합니다. 여기에서 $groupID 팀의 그룹 ID입니다.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -97,123 +118,127 @@ EDiscovery 검색에 포함할 개인 채널의 파일 및 메시지를 식별 �
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>EDiscovery 검색에 개인 채널 메시지 포함
+### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>eDiscovery 검색에 개인 채널 메시지 포함
 
-이 단계를 수행 하기 전에 [최신 버전의 팀 PowerShell 모듈이](teams-powershell-overview.md) 설치 되어 있는지 확인 합니다.
+이러한 단계를 수행하기 전에 최신 [버전의 Teams PowerShell 모듈이 설치되어 있는지 확인합니다.](teams-powershell-overview.md)
 
-1. 다음을 실행 하 여 팀의 비공개 채널 목록을 가져옵니다.
+1. 다음을 실행하여 팀의 비공개 채널 목록을 확인합니다.
 
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 
-2. 다음을 실행 하 여 개인 채널 구성원 목록을 가져옵니다.
+2. 다음을 실행하여 비공개 채널 구성원 목록을 확인합니다.
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. EDiscovery 검색 쿼리의 일부로 팀의 각 개인 채널에 있는 모든 구성원의 사서함을 포함 합니다.
+3. eDiscovery 검색 쿼리의 일부로 팀에 있는 각 비공개 채널의 모든 구성원에 대한 사서함을 포함합니다.
 
 ## <a name="advanced-ediscovery"></a>고급 eDiscovery
 
-일부 Microsoft 팀 콘텐츠는 [고급 eDiscovery 워크플로](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20)를 사용 하 여 검색 하 고 유지할 수도 있습니다. EDiscovery는 다양 한 검색, 유지, 내보내기 기능을 제공 하며, 고급 eDiscovery에서는 규정 준수 관리자가 데이터 원본을 식별 하 고 해당 콘텐츠를 분석 하는 데 더 많은 도구를 제공 합니다.
+일부 Microsoft Teams 콘텐츠는 고급 [eDiscovery 워크플로를 사용하여 검색하고 보관할 수 있습니다.](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20) eDiscovery는 단일 검색, 보관 및 내보내기 기능으로 이어지는 여러 사용자만 고급 eDiscovery는 데이터 원본을 식별하고 해당 콘텐츠를 분석하는 데 더 많은 도구를 제공합니다.
 
-### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>팀 콘텐츠에 대 한 고급 eDiscovery custodian 워크플로
+### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Teams 콘텐츠에 대한 고급 eDiscovery 중요 도우미 워크플로
 
-Custodians는 다양 한 팀의 구성원 일 수 있습니다. 이러한 custodians 관련 된 팀 콘텐츠를 캡처할 수 있습니다. Custodian 워크플로에 대 한 배경 및 지침은 [고급 eDiscovery 워크플로](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20)를 참조 하세요.
+오토토마의는 다양한 팀의 구성원일 수 있습니다. 이러한 대중어와 연관된 Teams 콘텐츠를 캡처할 수 있습니다. 구현워자 워크플로의 배경 및 지침은 [고급 eDiscovery 워크플로를 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20)
 
-Custodian를 추가한 후에 **다음** 단추를 클릭 한 다음 **추가** 단추를 클릭 합니다. 그런 다음 추가 위치를 선택 하 라는 메시지가 표시 되 고 해당 데이터에 대 한 모든 custodian의 멤버 자격과 해당 하는 SharePoint 사이트 위치가 표시 됩니다. 이러한 모든 데이터 원본과 팀에서 eDiscovery에 사용할 콘텐츠를 선택한 다음 해당 사용자와 보류를 위해 확인 한 모든 데이터 원본을 배치할 수 있습니다.
+에버디아어를 추가한 후에 다음 단추를 **클릭하고** 추가 단추를 **클릭합니다.** 그런 다음 추가 위치를 선택하라는 창에 55개의 추가 위치를 선택하면 해당 보유자의 구성원 자격과 해당 데이터에 해당하는 SharePoint 사이트 위치가 표시됩니다. 이러한 모든 데이터 원본과 팀에서 eDiscovery에 사용할 콘텐츠를 선택한 다음 해당 사용자와 보류로 식별한 모든 데이터 원본을 보관할 수 있습니다.
 
-Exchange 콘텐츠, 해당 OneDrive 콘텐츠 또는 두 가지 모두 포함 여부를 선택할 수 있습니다. Exchange 콘텐츠에는 전자 메일, 사서함에 저장 된 팀 콘텐츠 등의 사용자 사서함에 있는 모든 응용 프로그램 콘텐츠가 포함 됩니다. OneDrive 콘텐츠에는 사용자의 콘텐츠 뿐만 아니라 OneDrive에 저장 된 모든 팀 콘텐츠 (예: 1:1 채팅, 1: N 채팅, 채팅에 공유 되는 파일)도 포함 됩니다.
+Exchange 콘텐츠, OneDrive 콘텐츠 또는 둘 다를 포함할지 여부를 선택할 수 있습니다. Exchange 콘텐츠에는 사용자의 사서함에 포함된 모든 응용 프로그램 콘텐츠(예: 전자 메일, 해당 사서함에 저장된 Teams 콘텐츠 등)가 포함됩니다. OneDrive 콘텐츠에는 사용자의 콘텐츠를 포함할 수 있지만 1:1 채팅, 1:N 채팅, 채팅과 같은 OneDrive에 저장된 모든 Teams 콘텐츠도 포함되어 있습니다.
 
-또한 custodian가 구성원 인 모든 팀을 연결 하는 옵션을 사용 하 여 custodian에서 액세스할 수 있는 채널 채팅 메시지 및 파일을 포함 시킬 수 있습니다. 또한 다른 팀은 custodian와 연결 될 수 있습니다. 자세한 내용은 [고급 eDiscovery 사례에 Custodians 추가](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case)를 참조 하세요.
+또한 대리인 팀을 연결할 수 있는 옵션이 있으므로 채널 채팅 메시지와 보상자에 액세스하는 사람이 액세스할 수 있게 됩니다. 또한 다른 팀은 또한 인보자와 연결할 수 있습니다. 자세한 내용은 [고급 eDiscovery 사례에 오고항목 추가를 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case)
 
 > [!NOTE]
-> [개인 채널](private-channels.md) 의 메시지 및 파일 eDiscovery은 표준 채널과 다르게 작동 합니다. 자세히 알아보려면 [개인 채널 eDiscovery](#ediscovery-of-private-channels)를 참조 하세요.
+> 비공개 채널에서 메시지와 [파일을 보낸 후에는 표준](private-channels.md) 채널에서와 다르게 작동합니다. 자세한 내용은 [비공개 채널e의 eDiscovery를 참조하세요.](#ediscovery-of-private-channels)
 
-### <a name="placing-a-data-source-on-hold"></a>데이터 원본을 대기 상태로 두기
+### <a name="placing-a-data-source-on-hold"></a>데이터 원본 보류
 
-Custodian로 지정할 특정 사용자가 없는 경우 전체 데이터 원본을 보류에 배치할 수 있습니다. 보류에 대 한 자세한 내용은 [고급 eDiscovery에서 보류 관리](https://docs.microsoft.com/microsoft-365/compliance/managing-holds)를 참조 하세요.
+보유자로 지정할 특정 사용자가 없는 경우 전체 데이터 원본을 보류할 수 있습니다. 보류에 대한 자세한 내용은 [고급 eDiscovery에서 보류 관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/managing-holds)
 
-팀 콘텐츠에 대 한 보류를 만들 때 보류에 포함할 위치를 모두 선택할 수 있습니다. 사용자가 콘텐츠를 삭제 하거나 변경 해도 보류에는 해당 콘텐츠의 모든 이전 버전의 복사본이 유지 됩니다.
+Teams 콘텐츠를 보류하려면 보류에 포함할 위치를 모두 선택할 수 있습니다. 사용자가 콘텐츠를 삭제하거나 변경하더라도 보류에 포함한 콘텐츠의 사본이 보류됩니다.
 
-또한 선택적 쿼리를 사용 하 여 키워드, 날짜 범위, 저자 및 기타 다양 한 조건을 기준으로 보류 조건을 설정할 수 있습니다. 키워드를 지정 하지 않으면 해당 데이터 원본의 모든 내용에 보류가 적용 됩니다.
+키워드, 날짜 범위, 만든 이, 기타 여러 조건을 기준으로 보류 조건을 설정하기 위한 선택 쿼리를 사용할 수도 있습니다. 키워드를 지정하지 하면 해당 데이터 원본의 모든 항목이 보존되는 데 사용됩니다.
 
 ### <a name="advanced-ediscovery-searches"></a>고급 eDiscovery 검색
 
-팀 콘텐츠를 검색할 수도 있습니다. 검색에 대 한 자세한 내용은 [고급 eDiscovery에서 서비스 케이스에 대 한 데이터 수집](https://docs.microsoft.com/microsoft-365/compliance/collecting-data-for-ediscovery)을 참조 하세요. 검색 쿼리와 일치 하는 메시지가 하나라도 있으면 검색에서 전체 대화를 반환 합니다.
+Teams 콘텐츠를 검색할 수 있습니다. 검색에 대한 자세한 내용은 [고급 eDiscovery에서 사례에 대한 데이터수집을 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/collecting-data-for-ediscovery) 검색 쿼리와 일치하는 메시지가 없더라도 전체 대화가 반환됩니다.
 
-검색 쿼리를 만들 때 이미 선택한 모든 원본이 검색 되도록 custodians을 선택할 수 있습니다. 사용자에 게 매핑되지 않은 팀 사이트와 같은 비 custodial 출처를 검색할 수도 있습니다. 선택 쿼리를 사용 하 여 팀 콘텐츠 내에서 검색 범위를 좁힐 수도 있습니다.
+검색 쿼리를 만들 때 에대한자를 선택하여 이미 선택한 모든 출처를 검색하도록 할 수 있습니다. 사용자에게 매핑되지 않은 Teams 사이트와 같은 바시처리스트 원본을 검색할 수도 있습니다. 선택적 쿼리를 Teams 콘텐츠 내에서 검색 범위를 좁용할 수도 있습니다.
 
-검색을 만들고 선택한 후 선택한 검색에 대해 수행할 수 있는 추가 세부 정보 및 작업이 창에 표시 됩니다. **통계** 단추를 클릭 하면 위치 형식, 콘텐츠의 원본 원본, 콘텐츠를 그룹 사서함, 개별 사용자 사서함 또는 SharePoint 사이트에 배치할지 여부를 포함 하 여 검색에 대 한 통계를 볼 수 분석. 이렇게 하면 검색 결과에 기여 하는 원본에 대해 분석을 확인할 수 있습니다. 또한 **쿼리** 보기를 사용 하 여 결과에 참여 하는 개별 키워드를 확인할 수 있습니다.
+검색을 만들어 선택하고 나면 선택한 검색에 대해 수행할 수 있는 추가 세부 정보와 작업이 나열된 창이 표시됩니다. **통계 단추를** 클릭하면 위치 유형에 맞는 분석, 콘텐츠의 원래 소스, 그룹 사서함의 콘텐츠 위치, 개별 사용자 사서함 또는 SharePoint 사이트 등 검색에 대한 통계를 볼 수 있습니다. 따라서 검색 결과에 어떤 출처가 적으로 어떤 원인이 있는지 분석 결과를 볼 수 있습니다. 또한 쿼리 **보기도 사용할** 수 있도록 쿼리 보기라고 표시되어 있어 결과에 어떤 개별 키워드가 있는지 확인할 수 있습니다.
 
-검색을 완료 한 후 **에 결과 추가** 단추를 클릭 하 여 집합을 검토 하 고 검토 집합에 추가할 수 있습니다. 검토 집합에 대 한 자세한 내용은이 문서의 뒷부분에 나오는 [고급 eDiscovery에서 검토 집합 관리](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) 및 [설정 워크플로](#review-sets-workflow) 를 참조 하세요.
+검색을 완료하고 나면 결과 추가를 클릭하여 결과를 **검토하며** 검토 집합에 추가할 수 있습니다. 검토 집합에 대한 자세한 내용은 이 문서의 [뒷부분에 나오는 고급 eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) 및 [리뷰 설정 워크플로에서](#review-sets-workflow) 검토 설정 관리를 참조하세요.
 
 #### <a name="normal-review-sets-and-conversation-review-sets"></a>일반 검토 집합 및 대화 검토 집합
 
-검색을 검토 집합에 추가 하는 경우 일반 검토 집합 또는 대화 검토 집합에서 선택할 수 있습니다.
+검토 집합에 검색을 추가할 때 정상 검토 집합 또는 대화 검토 집합 중에서 선택할 수 있습니다.
 
-일반 검토 집합은 내보내기와 유사 합니다. `.msg`팀 콘텐츠의 개별 파일을 제공 하 고 기본 보기에 콘텐츠를 표시 합니다. 나중에 다른 소프트웨어 도구를 사용 하 여 파일을 다시 처리 하려는 경우 일반적으로 일반 검토 설정을 사용 합니다.
+일반적인 검토 집합은 내보내기와 비사유합니다. Teams 콘텐츠에 대한 `.msg` 개별 파일을 제공하고 기본 보기에 콘텐츠를 제공합니다. 다른 소프트웨어 도구를 사용하여 나중에 파일을 다시 처리하려는 경우 일반적인 검토 설정을 사용합니다.
 
-대화 검토 집합을 통해 보다 직관적인 스레드된 대화를 볼 수가 있습니다. 적절 한 순서 대로 관련 메시지를 함께 표시 합니다.
+대화 검토 목록은 대화에 더욱 관부분적이고 시각적인 보기를 제공합니다. 관련 메시지를 올바된 순서로 함께 표시합니다.
 
-교정 등의 기능을 두 가지 유형의 검토 집합에서 사용할 수 있습니다.
+![대화 검토 집합 스크린샷](media/conversationOptions2.png)
 
-검토 집합에 대 한 자세한 내용은 [고급 eDiscovery에서 대화 검토](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)를 참조 하세요.
+다시 알림과 같은 기능은 두 유형의 검토 집합에서 사용할 수 있습니다. 검토 설정에 대한 자세한 내용은 [고급 eDiscovery에서의 대화를 검토하세요.](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
 
-#### <a name="collection-options"></a>모음 옵션
+#### <a name="collection-options"></a>컬렉션 옵션
 
-검토 집합에 추가 하는 경우 창의 **모음 옵션** 섹션에서 **대화 검색 옵션** 및 **팀 대화**를 포함 하 여 여러 옵션을 checkbox로 사용할 수 있습니다. 이러한 옵션을 사용 하도록 설정 하면 검토 집합에 포함 된 개별 팀 메시지에도 컨텍스트에 대 한 추가 메시지가 표시 됩니다. 예를 들어 쿼리가 매우 구체적이 고 결과로 하나의 메시지만 반환 되는 경우 이러한 옵션을 사용 하도록 설정 하면 해당 쿼리와 일치 하는 메시지에 대 한 몇 개의 메시지가 앞으로도 반환 됩니다.
+검토 설정에 추가하면 대화 검색 옵션 및 Teams 대화를 비롯하여 창의 컬렉션 **Conversation Retrieval Options** 옵션 섹션에서 여러 옵션을 사용할 **수 있습니다.** **Collection Options** 이러한 옵션을 활성화하면 검토 설정에 포함된 모든 개별 Teams 메시지에 주위의 텍스트수정 메시지도 표시됩니다. 예를 들어 쿼리가 매우 특정이며 한 메시지만 결과값으로 반환되는 경우 이러한 옵션을 사용하도록 설정하면 여러 메시지가 쿼리와 일치하는 메시지를 전달하고 후바로 팔로우할 수 있습니다.
 
-여러 논리 조건을 사용 하 여 추가 메시지가 쿼리와 일치 하는 메시지에 컨텍스트를 제공 하는지 여부를 결정 합니다. 예를 들어 팀 콘텐츠의 경우 이러한 옵션을 사용 하도록 설정 하면 메시지가 스레드 되는 방식 때문에 부모 메시지와 모든 자식 메시지가 검색 됩니다.
+많은 논리 조건을 사용하여 메시지가 쿼리와 일치하는 메시지에 특정 인식을 제공하는지 여부를 확인하는 데 사용됩니다. 예를 들어 Teams 콘텐츠의 경우 이러한 옵션을 사용하도록 설정하면 메시지가 스레드되는 방식으로 인해 상위 메시지와 모든 자식 메시지를 검색할 수 있습니다.
 
-메시지 타임 스탬프도 검사 합니다. 쿼리와 일치 하는 메시지가 있는 경우 4 시간 범위 내에서 그 앞에 오는 인접 한 메시지는 대화의 일부로 간주 되며 결과에도 포함 됩니다.
+메시지 타임스탬프도 선택되어 있습니다. 메시지가 쿼리와 일치하는 경우, 4시간 이내에 또는 4시간 이내에 이어지는 메시지는 대화에 포함되며 결과에 포함됩니다.
 
-검색 쿼리와 일치 하는 항목으로 반환 되는 컨텍스트 메시지에 대해 확실히 알고 있어야 하는 경우에는 이러한 옵션을 사용할 필요가 없습니다. 모든 콘텐츠를 수집 하거나 검색 범위의 날짜 범위를 확장 하 여 쿼리 결과로 반환 되는 메시지를 더 많이 반환할 수 있습니다.
+검색 쿼리와 일치하는 상황별 메시지가 반환될 특정 메시지가 검색 쿼리에 반환될지를 특정게 하는 경우 이러한 옵션을 사용할 필요가 없습니다. 모든 콘텐츠를 수집하거나 더 많은 메시지가 쿼리 결과로 반환되도록 검색 범위의 날짜 범위를 넓히거나 검색 범위의 범위를 넓히게 할 수 있습니다.
 
-### <a name="review-sets-workflow"></a>집합 워크플로 검토
+### <a name="review-sets-workflow"></a>설정 워크플로 검토
 
-**집합 검토** 탭을 클릭 하 여 기존 검토 집합을 보거나 새로 만들 수 있습니다. 검토 집합에 대 한 자세한 내용은 [고급 eDiscovery에서 검토 집합 관리](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets)를 참조 하세요.
+검토 설정 탭을 클릭하면 기존 검토 집합을 보거나 새 목록을 **만들 수** 있습니다. 검토 집합에 대한 자세한 내용은 [고급 eDiscovery에서 리뷰 설정 관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets)
 
-문서 외에도 전자 메일, 팀 메시지, Yammer 메시지 및 기타 콘텐츠를 검토 집합에 추가할 수 있습니다. 검토 집합 내에서 다른 컨텍스트에서 수행할 수 있는 여러 작업 (예: 콘텐츠 검색 및 사용자 지정 쿼리 만들기)을 수행할 수도 있습니다. 이러한 작업은 검토 집합에 추가 된 항목에만 적용 됩니다.
+문서 외에도 검토를 설정할 전자 메일, Teams 메시지 Yammer, 기타 콘텐츠를 추가할 수 있습니다. 검토 집합 내에서 콘텐츠 검색 및 사용자 지정 쿼리 작성 등과 같이 다른 상황에서 수행할 수 있는 것은 다수의 동일한 작업을 수행할 수 있습니다. 이러한 작업은 검토 집합에 추가된 항목에만 적용됩니다.
 
-**검토 집합 관리** 단추는 분석, 요약 보고, 추가 된 부하 집합 수 등의 추가 옵션을 제공 합니다.
+검토 **설정 관리 단추는** 분석, 요약 보고, 추가된 로드 집합 수 등의 추가 옵션을 제공합니다.
 
-데이터의 시각화 및 차트에 액세스 하려면 오른쪽 위에 있는 **개별 결과** \> **검색 프로필 보기** 를 클릭 합니다. 이러한 차트에서 파이 아웃을 클릭 하면 쿼리 하려는 콘텐츠 유형을 대화형으로 선택할 수 있습니다. 예를 들어 팀 콘텐츠만 쿼리 하도록 선택할 수 있습니다. 직접 작성 한 쿼리를 저장 하는 것 처럼 이러한 쿼리를 저장할 수도 있습니다.
+데이터의 시각화 및 차트에 액세스하려면 오른쪽 **위에서** \> **개별 결과 검색 프로필** 보기를 클릭합니다. 이 차트의 방사를 클릭하여 쿼리하려는 콘텐츠의 형식을 대화형으로 선택할 수 있습니다. 예를 들어 Teams 콘텐츠만 쿼리하라고 선택할 수 있습니다. 이러한 쿼리를 수동으로 작성하는 것과 마찬가지로 저장할 수도 있습니다.
 
-#### <a name="summary-view-text-view-and-annotate-view"></a>요약 보기, 텍스트 보기 및 주석 달기 보기
+#### <a name="summary-view-text-view-and-annotate-view"></a>요약 보기, 텍스트 보기 및 주의 주기 탭
 
-검토 집합에서 팀 대화를 클릭 하면 전체 팀 대화를 개별적으로 상호 작용할 수 있는 메시지 목록으로 표시 하는 **요약 보기가**표시 됩니다. 메시지 오른쪽에 있는 아래쪽 화살표를 클릭 하 여 메시지 세부 정보를 보거나 개별 파일을 다운로드할 수 있는 상황에 맞는 메뉴를 표시 합니다 `.msg` . 메시지 정보를 클릭 하면 해당 메시지의 전체 메타 데이터 또는 메타 데이터 요약이 표시 됩니다.
+검토 설정에서 Teams 대화를 클릭하면 Teams 대화가 **Summary view**전체 Teams 대화가 개별적으로 조작할 수 있는 메시지 목록으로 표시됩니다. 메시지의 오른쪽에 있는 아래쪽 화살표를 클릭하여 메시지 세부 정보를 보거나 개별 파일을 다운로드할 수 있는 상황에 맞는 메뉴를 `.msg` 표시합니다. 메시지 세부 정보를 클릭하면 메타데이터 또는 메시지의 전체 메타데이터에 대한 요약이 표시됩니다.
 
-PDF를 다운로드 하려면 요약 보기의 오른쪽 위에 있는 다운로드 단추를 클릭 합니다.
+PDF를 다운로드하려면 요약 보기 오른쪽 위에 있는 다운로드 단추를 클릭합니다.
 
-**텍스트 보기** 탭을 클릭 하 여 팀 대화에서 추출 된 텍스트의 일반 텍스트 보기를 표시 합니다. 이는 내보내기에 적합 하며, 다른 소프트웨어 도구를 사용 하 여 추출 된 텍스트로 쉽게 작업할 수 있습니다.
+텍스트 **보기 탭을** 클릭하여 Teams 대화와 추출된 텍스트의 일반 텍스트 보기를 표시합니다. 이 일반 텍스트 콘텐츠는 내보내기에 적제하고 다른 소프트웨어 도구를 사용하여 쉽게 작업할 수 있습니다.
 
-주석 기능에 액세스 하려면 **주석 달기 보기** 탭을 클릭 합니다. 이 탭에는 팀 대화와 유사한 형식의 콘텐츠가 표시 되지만 편집을 위한 추가 옵션도 있습니다. 메모를 작성 하거나, 메시지에 그림을 그리거나, 교정 하기 위해 세밀 하 게 scratching 아웃 하는 데 사용할 수 있는 연필 도구가 있습니다. 영역을 축소 하 고 "Redacted"로 표시 하는 사각형을 그리는 데 사용할 수 있는 **영역 교정** 도구도 있습니다.
+주제 **기능에 액세스하려면 주제 탭을** 클릭합니다. 이 탭은 Teams 대화와 비합하되만 편집할 수 있는 추가 옵션이 있는 형식의 콘텐츠를 표시합니다. 노트를 작성하거나, 메시지에 그리거나, 정제로 명의하기 쉽게 작성하는 데 사용할 수 있는 연필 도구가 있습니다. 영역의 **정확도를** 사용하여 해당 영역을 이사각형으로 그리고 "Redacted"로 표시하는 사각형을 그릴 수 있습니다.
 
-**주석 달기 보기** 탭의 맨 아래에는 태그 지정 패널이 표시 된 **태그 문서** 단추가 있습니다. 이 패널에서 팀 대화 내의 모든 메시지에 태그를 적용할 수 있습니다. 응답 하거나 응답 하지 않는 것으로 대화에 레이블을 지정할 수 있으며, "관심 있는 항목"이 있는지, 내보내기에 포함 해야 하는지 여부, 추가 검토가 필요한 지 여부 다른 사용자 지정 가능 태그를 관리 하 고 적용할 수도 있습니다.
+다음은 사용자 들 사이에 스레드된 대화에 대한 실제로 해당 파일의 예입니다.
 
-#### <a name="action-menu"></a>동작 메뉴
+![복구된 파일 스크린샷](media/RedactedFileExample.png)
 
-집합 검토 창에서 **작업** 내보내기를 클릭 하 여 콘텐츠를 내보낼 수 있습니다 \> **Export**. 내보낼 때 사용할 수 있는 여러 가지 옵션이 있습니다.
+주석 **번역 탭 하단에는** **태그 패널이** 표시되는 태그 문서 단추가 있습니다. 이 패널 내에서 Teams 대화 내의 모든 메시지에 태그를 적용할 수 있습니다. 대화에 응답 또는 응답성 없이, 사용 여부와 상관없이 부여되거나 여부에 상관없이 내보내기에 포함할지 여부, 검토가 필요한지 여부 등으로 텍스트에 레이블을 지정할 수 있습니다. 또한 기타 사용자 지정 가능한 태그를 관리하고 적용할 수 있습니다.
 
-모든 팀 메시지에 대 한 모든 메타 데이터가 포함 된 파일을 내보내려면 **파일 로드** 확인란을 클릭 하 여 선택 합니다. 콘텐츠에 적용 한 태그를 파일에 포함 하려면 **태그** 확인란을 클릭 하 여 선택 합니다.
+#### <a name="action-menu"></a>작업 메뉴
 
-네이티브 **파일** 옵션을 사용 하 여 파일을 네이티브 형식으로 내보냅니다. 대화를 별도의 파일에 있는 하나의 파일 또는 모든 개별 채팅 메시지로 내보내도록 선택할 수 있습니다.
+검토 집합 내에서 작업 내보내기를 클릭하여 콘텐츠를 내보낼 **수** \> **있습니다.** 내보낼 때 사용할 수 있는 다양한 옵션이 있습니다.
 
-**텍스트 파일** 옵션을 사용 하 여 일반 텍스트 버전의 콘텐츠를 저장할 수 있습니다. 검토 집합에서 팀 대화의 일반 텍스트 보기를 가져오는 방법에 대 한 자세한 내용은 위의 [요약 뷰, 텍스트 뷰 및 주석 달기 보기](#summary-view-text-view-and-annotate-view) 를 참조 하세요.
+모든 Teams 메시지에 대한 모든 메타데이터를 포함하는 파일을 내보내려면 파일 로드 **확인란을 클릭하여** 선택합니다. 파일에 적용한 모든 태그를 파일에 포함하려면 태그 **확인란을 클릭하여 선택합니다.**
 
-위의 [요약 보기, 텍스트 보기 및 주석 보기](#summary-view-text-view-and-annotate-view) 섹션에 설명 된 대로 콘텐츠에 redactions를 적용 한 경우 **변환 된 pdf로 redacted natives 바꾸기** 옵션을 선택 하 여 원시 파일을 PDF의 변환 된 복사본으로 바꿀 수 있습니다.
+기본 **파일 옵션을 사용하여 파일을** 기본 형식으로 내보냅니다. 대화를 하나의 파일로 내보내거나 별도의 파일에 있는 모든 개별 채팅 메시지로 내보낼 수 있습니다.
 
-Microsoft에서 제공 하는 Azure blob 저장소 컨테이너로 내보내기를 선택 하거나 고유한 Azure Blob 저장소 컨테이너를 제공할 수 있습니다.
+텍스트 **파일 옵션을** 사용하면 콘텐츠의 일반 텍스트 버전을 저장할 수 있습니다. 검토 집합에서 Teams 대화의 일반 텍스트 보기를 구하는 방법에 대한 자세한 내용은 요약 보기, [텍스트 보기, 위의](#summary-view-text-view-and-annotate-view) 주의 표시를 참조하세요.
 
-내보내기 프로세스를 시작할 준비가 되 면 **내보내기** 단추를 클릭 합니다. 내보내기가 완료 되 면 Azure blob 저장소 컨테이너에 액세스 하 여 내보낸 콘텐츠를 다운로드 하는 방법에 대 한 자세한 내용은 [내보내기 작업 다운로드](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) 를 참조 하세요.
+위의 요약 [보기,](#summary-view-text-view-and-annotate-view) 텍스트 보기 및 주석 보기 섹션에 설명된 대로 콘텐츠에 대한 수정사항을 적용한 경우 다시 **적용된 원리를** 선택하고 변환된 PDF 로그를 PDF의 변환된 복사본으로 대체하는 옵션을 선택할 수 있습니다.
+
+Microsoft가 제공하는 Azure blob 저장소 컨테이너로 내보내거나 자체 Azure Blob 저장소 컨테이너를 제공할 수 있습니다.
+
+내보내기 프로세스를 시작할 준비가 되면 내보내기 단추를 **클릭합니다.** Azure blob [저장소 컨테이너에](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) 액세스하고 내보내기가 완료된 후 내보낸 콘텐츠를 다운로드하는 방법에 대한 자세한 내용은 내보내기 작업을 참조하세요.
 
 > [!NOTE]
-> 내보내기에 오랜 시간이 걸릴 수 있습니다. 내보내기 프로세스의 상태를 추적 하려면 **검토 집합** 탭을 종료 하 고 **내보내기** 탭을 클릭 합니다.
+> 내보내기에는 오프라인 시간이 걸릴 수 있습니다. 내보내기 프로세스의 상태를 추적하려면 검토 설정 **탭을 종료하고 내보내기** **탭을 클릭합니다.**
 
 ## <a name="related-topics"></a>관련 항목
 
 - [Microsoft 365의 eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
-- [팀 PowerShell 개요](teams-powershell-overview.md)
+- [Teams PowerShell 개요](teams-powershell-overview.md)

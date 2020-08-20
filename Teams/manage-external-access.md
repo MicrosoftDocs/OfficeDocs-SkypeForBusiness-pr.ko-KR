@@ -1,5 +1,5 @@
 ---
-title: 외부 액세스 (페더레이션) 관리
+title: 외부 액세스 관리(Sederation)
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -20,17 +20,17 @@ description: 팀 또는 IT 관리자가 다른 도메인(페더레이션)의 사
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 0aa8cd2ac27bac7bf5159512801670270791f903
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: e845012b35bddc32c357d416d8fbb2cbe160d84a
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583867"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814194"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 ======================================================
 
-외부 액세스는 전체 외부 도메인의 팀 사용자가 팀에서 모임을 검색, 통화, 채팅 및 설정 하는 방법입니다. 외부 액세스를 사용 하 여 아직 비즈니스용 Skype (온라인 및 온-프레미스)와 Skype (미리 보기)를 사용 중인 외부 사용자와 통신할 수도 있습니다.
+외부 액세스는 전체 외부 도메인에서 Teams 사용자가 Teams에서 사용자와의 모임을 찾고, 통화하고, 채팅하고, 모임을 설정할 수 있는 방법입니다. 또한 외부 액세스를 사용하여 비즈니스용 Skype(온라인 및 프레미스) 및 Skype(미리보기에서)를 사용하는 외부 사용자와 통신할 수도 있습니다.
 
 외부 사용자가 팀과 채널에 액세스할 수 있도록 하려면 게스트 액세스를 사용하는 것이 좋습니다. 외부 액세스와 게스트 액세스 사이의 차이점에 대한 자세한 내용은 [외부 및 게스트 액세스 비교](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)를 참조하세요. 
 
@@ -43,7 +43,7 @@ ms.locfileid: "46583867"
 - Teams를 사용하는 전 세계의 모든 사람이 전자 메일 주소를 사용하여 사용자를 찾고 연락할 수 있게 하려고 합니다. 
 
 > [!IMPORTANT]
-> 현재 Microsoft Teams 앱 내에서 현재 사용자의 Azure AD(Azure Active Directory) 또는 테넌트의 게스트가 아닌 조직 외부의 외부 사용자에게 페더레이션하려면 하이브리드용으로 올바르게 설정하고 비즈니스용 Skype Online으로 이동해야 합니다. 2019년 2월 25일 현재 Teams에서는 비즈니스용 Skype Online에 SIP 프로필 사용자가 없는 경우 네이티브 페더레이션을 지원하지 않습니다. 하이브리드 계정을 설정한 다음 Teams으로 이동하는 방법에 대한 자세한 내용은 [비즈니스용 Skype 하이브리드 배포를 Teams로 업그레이드](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)를 참조하세요.
+> 현재 Microsoft Teams 앱 내에서 현재 사용자의 Azure AD(Azure Active Directory) 또는 테넌트의 게스트가 아닌 조직 외부의 외부 사용자에게 페더레이션하려면 하이브리드용으로 올바르게 설정하고 비즈니스용 Skype Online으로 이동해야 합니다. 2019년 2월 25일을 기점으로 Teams는 비즈니스용 Skype **Online에서** 집계되는 SIP 프로필의 사용자가 없이 네이티브 페더레이션을 지원하지 않습니다. 하이브리드 계정을 설정한 다음 Teams으로 이동하는 방법에 대한 자세한 내용은 [비즈니스용 Skype 하이브리드 배포를 Teams로 업그레이드](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)를 참조하세요.
 
 ## <a name="plan-for-external-access"></a>외부 액세스 계획
 
@@ -59,7 +59,7 @@ ms.locfileid: "46583867"
 
 ## <a name="allow-or-block-domains"></a>도메인 허용 또는 차단
 
-### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>1단계 - 조직이 다른 Teams 조직과 통신할 수 있도록 설정
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>1단계 - 조직에서 다른 Teams 또는 비즈니스용 Skype 조직과 교실할 수 있도록 설정
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png)  **Microsoft Teams 관리 센터 사용**
 
@@ -95,25 +95,6 @@ ms.locfileid: "46583867"
 > [!NOTE]
 > 사용자와 다른 사용자가 모두 외부 액세스를 켜고 서로의 도메인을 허용하는 경우 이 작업을 수행할 수 있습니다. 그래도 문제가 해결되지 않으면 다른 사용자가 구성에서 사용자의 도메인을 차단하고 있지 않은지 확인해야 합니다.
 
-## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>비즈니스용 Skype Online 조직에서 사용자와의 통신
-
-Teams 사용자가 사용자에게 연락할 수 있는 사람을 제한하는 비즈니스용 Skype 조직의 사용자를 찾고 연락할 수 있도록 설정하려는 경우 도메인에서 다른 조직의 도메인으로 외부 액세스를 설정하는 단계를 따르세요. 그런 다음 다른 조직의 관리자에게 다음 단계에 따라 비즈니스용 Skype Online에 대한 외부 액세스를 구성하도록 요청합니다.
-
-일반적인 비즈니스용 Skype Online 시나리오에 대한 구체적인 지침은 아래 [일반적인 외부 액세스 시나리오](#common-external-access-scenarios)를 참조하세요.
-
-![비즈니스용 skype 로고를 나타내는 아이콘](media/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
-
-해당 조직의 관리자에게 다음 단계를 수행하도록 합니다.
-
-1. Microsoft 365 관리 센터에서 **관리 센터** > **Teams & Skype** > **레거시 포털**로 이동합니다.
-  
-2. **비즈니스용 Skype 관리 센터**에서 **조직** > **외부 통신**을 선택합니다.
-
-3. 드롭다운 상자에서 특정 비즈니스 또는 다른 도메인의 사용자와의 통신을 설정하려면 **허용된 도메인에 대해서만**을 선택합니다.
-
-    또는 비즈니스용 Skype 정책을 공개한 전 세계의 모든 사용자와 통신할 수 있도록 설정하려는 경우 **차단된 도메인 제외**를 선택합니다. 기본 설정입니다.
-
-4. **차단되거나 허용되는 도메인**에서 **+** 을 선택한 다음 허용하려는 도메인의 이름을 추가합니다.
 
 ## <a name="communicate-with-skype-users-in-preview"></a>Skype 사용자와의 통신(미리 보기)
 
@@ -136,10 +117,11 @@ Teams 사용자가 사용자에게 연락할 수 있는 사람을 제한하는 �
 |조직의 **Teams 사용자**가 다른 (외부) 조직의 **Teams 사용자**와 통신할 수 있도록 합니다.|외부 액세스에서 허용 목록에 외부 도메인을 추가하거나 열려 있는 페더레이션을 사용합니다. 그런 다음 다른 Teams 조직의 관리자가 동일한 작업을 수행하도록 합니다.      |
 |조직의 **Teams 사용자**가 동일한 조직의 **비즈니스용 Skype Online 사용자**와 통신할 수 있도록 합니다.  |공존 모드를 사용하도록 설정하거나 Islands 업그레이드 모드를 선택하여 조직의 비즈니스용 Skype 사용자를 지원하세요.   |
 |조직의 **Teams 사용자**가 다른 (외부) 조직의 **비즈니스용 Skype Online 사용자**와 통신할 수 있도록 합니다.      |외부 액세스에서 허용 목록에 외부 도메인을 추가하거나 열려 있는 페더레이션을 사용합니다. <br><br>외부 액세스에서 **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있음** 설정을 켭니다. 그런 다음 다른 Teams 조직의 관리자가 동일한 작업을 수행하도록 합니다. <br><br>**참고**: 비즈니스용 Skype 사용자를 포함하는 외부 도메인은 공존 모드를 사용하도록 설정하거나 Islands 업그레이드 모드를 선택하여 해당 조직의 비즈니스용 Skype 사용자를 지원해야 합니다.|
+|조직의 **Teams 사용자가** 다른(외부) 조직의 **비즈니스용 Skype Online 사용자와 통신할** 수 있도록 합니다.      |외부 액세스에서 허용 목록에 외부 도메인을 추가하거나 열려 있는 페더레이션을 사용합니다. <br><br>외부 액세스에서 **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있음** 설정을 켭니다. 그런 다음 조직의 관리자가 도메인과페더레이션을 허용하도록 비즈니스용 Skype 온-프레미스 서버를 구성하도록 구성합니다.|
 |조직의 **Teams 사용자**가 **Skype** 사용자와 통신할 수 있도록 합니다.<br> (미리 보기)  |외부 액세스에서 **사용자가 Skype 사용자의 통신할 수 있음** 설정을 켭니다. |
-|**비즈니스용 Skype Online 사용자가** 다른 Microsoft 365 또는 Office 365에서 **팀 사용자** 와 통신할 수 있도록 합니다.| 비즈니스용 Skype Online 사용자는 Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 업그레이드 모드 중 하나이고 다른 조직의 Teams 사용자가 TeamsOnly 모드인 경우 다른 조직의 Teams 사용자와 통신할 수 있습니다. <br><br>외부 액세스에서 **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있음** 설정을 켭니다. 그런 다음 다른 Teams 조직의 관리자가 동일한 작업을 수행하도록 합니다.|
-|**Skype For Business online 사용자가** 다른 Microsoft 365 또는 Office 365의 비즈니스용 **skype online 사용자** 와 통신할 수 있도록 합니다.    | 비즈니스용 Skype Online 사용자는 Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 업그레이드 모드 중 하나이고 다른 조직의 비즈니스용 Skype Online 사용자가 Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 업그레이드 모드 중 하나인 경우 다른 조직의 비즈니스용 Skype Online 사용자와 통신할 수 있습니다.<br><br>외부 액세스에서 **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있음** 설정을 켭니다. 그런 다음 다른 Teams 조직의 관리자가 동일한 작업을 수행하도록 합니다.|
-|**비즈니스용 Skype Online 사용자**가 온-프레미스 조직의 **비즈니스용 Skype 사용자**와 통신할 수 있도록 합니다.     |비즈니스용 Skype Online 사용자는 Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 업그레이드 모드 중 하나이고 다른 조직의 비즈니스용 Skype Online 사용자가 Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 업그레이드 모드 중 하나인 경우 온-프레미스 조직의 비즈니스용 Skype 사용자와 통신할 수 있습니다.<br><br>외부 액세스에서 **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있음** 설정을 켭니다. 그런 다음 다른 Teams 조직의 관리자가 동일한 작업을 수행하도록 합니다.|
+|비즈니스용 **Skype Online 사용자가 다른** Microsoft 365 또는 Office 365에서 **Teams** 사용자와 통신할 수 있도록 합니다.| 비즈니스용 Skype Online 사용자는 Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 업그레이드 모드 중 하나이고 다른 조직의 Teams 사용자가 TeamsOnly 모드인 경우 다른 조직의 Teams 사용자와 통신할 수 있습니다. <br><br>외부 액세스에서 **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있음** 설정을 켭니다. 그런 다음 다른 Teams 조직의 관리자가 동일한 작업을 수행하도록 합니다.|
+|비즈니스용 **Skype Online 사용자가 다른** Microsoft 365 또는 Office 365에서 비즈니스용 **Skype Online** 사용자와 통신할 수 있도록 지원합니다.    | 비즈니스용 Skype Online 사용자는 Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 업그레이드 모드 중 하나이고 다른 조직의 비즈니스용 Skype Online 사용자가 Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 업그레이드 모드 중 하나인 경우 다른 조직의 비즈니스용 Skype Online 사용자와 통신할 수 있습니다.<br><br>외부 액세스에서 **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있음** 설정을 켭니다. 그런 다음 다른 Teams 조직의 관리자가 동일한 작업을 수행하도록 합니다.|
+|**비즈니스용 Skype Online 사용자**가 온-프레미스 조직의 **비즈니스용 Skype 사용자**와 통신할 수 있도록 합니다.     |사용자가 다음 중 한 가지 업그레이드 모드 중 하나를 사용하는 경우 비즈니스용 Skype Online 사용자가 매내 다음 업데이트 모드 중 하나를 사용하고 있는 경우 비즈니스용 Skype Online 사용자가 온라인-프레미스 조직에서 비즈니스용 Skype 사용자와 통신할 수 있습니다. <br><br> 외부 액세스에서 **사용자가 다른 비즈니스용 Skype 및 Teams 사용자의 통신할 수 있음** 설정을 켭니다. 그런 다음 조직의 관리자가 도메인과페더레이션을 허용하도록 비즈니스용 Skype 온-프레미스 서버를 구성하도록 구성합니다.|
 |**비즈니스용 Skype Online 사용자**가 (조직 내부 또는 외부의) **Skype 사용자**와 통신할 수 있도록 합니다.   |외부 액세스에서 **사용자가 Skype 사용자의 통신할 수 있음** 설정을 켭니다.|
 
 > [!IMPORTANT]
