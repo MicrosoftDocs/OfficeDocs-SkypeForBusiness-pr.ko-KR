@@ -707,6 +707,7 @@
 ### [ Microsoft 365 정부 - GCC High 계획](plan-for-government-gcc-high.md)
 ### [Microsoft 365 정부 - DoD 계획](plan-for-government-dod.md)
 ### [GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+### [정부 기관용 팀 정책 패키지](policy-packages-gov.md)
 
 <!-- ============================================================ -->
 
