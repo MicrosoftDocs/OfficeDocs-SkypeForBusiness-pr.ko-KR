@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 559dcc8a2f5e38c4c35ba7794241e69402a092ef
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: b1c71c4b22b90c38e4b34eebd745b85f7d27e86c
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526714"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824949"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -38,9 +38,9 @@ ms.locfileid: "46526714"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-이러한 변경 작업을 수행 하려면 팀 서비스 관리자 여야 합니다. 팀 [관리 역할을 사용](https://docs.microsoft.com/microsoftteams/using-admin-roles) 하 여 관리자 역할 및 사용 권한 얻기에 대 한 정보를 읽어 보세요 .를 참조 하세요.
+이러한 변경을 수행하려면 Teams 서비스 관리자여야 합니다. [Teams 관리자 역할과 권한 가져오기를 사용하여 Teams를](https://docs.microsoft.com/microsoftteams/using-admin-roles) 관리하고 관리하는 방법을 알아봅니다.
 
-1. 관리 센터로 이동 합니다.
+1. 관리 센터로 이동합니다.
 
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "46526714"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 관리 센터로 이동 합니다.
+1. 관리 센터로 이동합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
 3. **전자 메일 초대장**에서 다음을 수행합니다.
 
@@ -85,13 +85,13 @@ ms.locfileid: "46526714"
 
 <a name="bknetwork"> </a>
 
-QoS (서비스 품질)를 사용 하 여 네트워크 트래픽의 우선 순위를 지정 하는 경우 QoS 마커를 사용 하도록 설정 하 고 각 미디어 트래픽 유형에 대해 포트 범위를 설정할 수 있습니다. 다양한 트래픽 유형에 대한 포트 범위를 설정하는 것은 실시간 미디어를 처리하는 한 단계입니다. 자세한 내용은 [Teams의 QoS(서비스 품질)](qos-in-teams.md)를 참조하세요.
+QoS(서비스 품질)를 사용하여 네트워크 트래래오에 우선 순위를 지정한 경우 QoS 마커를 사용하도록 설정하고 각 미디어 트래퍼 유형별로 포트 범위를 설정할 수 있습니다. 다양한 트래픽 유형에 대한 포트 범위를 설정하는 것은 실시간 미디어를 처리하는 한 단계입니다. 자세한 내용은 [Teams의 QoS(서비스 품질)](qos-in-teams.md)를 참조하세요.
 
 > [!IMPORTANT]
-> 팀 서비스에 대 한 Microsoft 팀 관리 센터에서 QoS를 사용 하도록 설정 하거나 설정을 변경 하는 경우 팀에서 QoS에 대 한 변경 내용을 완전히 구현 하려면 [모든 사용자 장치](QoS-in-Teams-clients.md) 및 내부 네트워크 장치에 일치 하는 설정을 적용 해야 할 수도 있습니다.
+> Teams 서비스의 Microsoft Teams 관리 센터에서 QoS를 사용하도록 설정하거나 설정을 [apply matching settings to all user devices](QoS-in-Teams-clients.md) 변경하는 경우, 모든 사용자 장치 및 모든 내부 네트워크 장치에 일치하는 설정을 적용하여 Teams의 QoS에 대한 변경을 완전히 구현해야 합니다.
 
  ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
-1. 관리 센터로 이동 합니다.
+1. 관리 센터로 이동합니다.
 2. 왼쪽 탐색 모음에서 **모임** > **모임 설정**으로 이동합니다.
 3. **네트워크**에서 다음을 수행합니다.
 
@@ -99,8 +99,11 @@ QoS (서비스 품질)를 사용 하 여 네트워크 트래픽의 우선 순위
 
     - DSCP 마커를 QoS에 사용하려면 **실시간 미디어 트래픽에 대한 QoS(서비스 품질) 마커 삽입**을 설정합니다. 마커의 사용 옵션만 선택할 수 있습니다. 각 트래픽 유형에 대해 사용자 지정 마커를 설정할 수 없습니다. DSCP 마커에 대한 자세한 내용은 [QoS 구현 방법 선택](QoS-in-Teams.md#select-a-qos-implementation-method)을 참조하세요.
         > [!NOTE]
-        > DSCP 태깅은 일반적으로 원본 포트를 통해 수행 되며 UDP 트래픽은 기본적으로 3478의 대상 포트를 사용 하 여 전송 릴레이가 됩니다. 회사에서 대상 포트에 태그를 지정 해야 하는 경우 UDP 포트 3479 (오디오), 3480 (비디오) 및 3481 (공유)을 사용 하 여 전송 릴레이에 대 한 통신을 사용 하도록 지원 팀에 문의 하세요.
-    - 포트 범위를 지정하려면 **각 유형의 실시간 미디어 트래픽에 대한 포트 범위 선택** 옆에 있는 **포트 범위 지정**을 선택한 다음 오디오, 비디오 및 화면 공유를 위한 시작 및 종료 포트를 입력합니다. QoS를 구현하려면 이 옵션을 선택해야 합니다.
+        > DSCP 태그는 일반적으로 원본 포트를 통해 수행되지만 UDP 트래픽은 기본적으로 3478로 대상 포트를 가진 전송 릴레이로 라우팅합니다. 회사에서 대상 포트에 태그를 지정해야 하는 경우 UDP 포트 3479(오디오), 3480(비디오), 3481(공유)과 의 전송 리레이어에 대한 통신을 지원하려면 지원 팀에 문의하세요.
+    - 포트 범위를 지정하려면 **각 유형의 실시간 미디어 트래픽에 대한 포트 범위 선택** 옆에 있는 **포트 범위 지정**을 선택한 다음 오디오, 비디오 및 화면 공유를 위한 시작 및 종료 포트를 입력합니다. QoS를 구현하려면 이 옵션을 선택해야 합니다. 
+        > [!Note]
+        > 실시간 **미디어 트래크를 위한 QoS(서비스 품질)** 표식이 설정되어 있는 경우 포트 설정을 관리해야 합니다. 관리되지 않습니다.
+        
         > [!IMPORTANT]
         > **사용 가능한 포트 자동 사용**을 선택하면 1024에서 65535 사이의 사용 가능한 포트가 사용됩니다. QoS를 구현하지 않는 경우에만 이 옵션을 사용합니다.
         >
@@ -114,7 +117,7 @@ QoS (서비스 품질)를 사용 하 여 네트워크 트래픽의 우선 순위
 |:---             |:---                         |:---    |:---      |:---      |
 |오디오            | 50,000~50,019               |TCP/UDP |46        |Expedited Forwarding(EF)|
 |비디오            | 50,020~50,039               |TCP/UDP |34        |Assured Forwarding(AF41)|
-|응용 프로그램/화면 공유| 50,040~50,059      |TCP/UDP |awg        |Assured Forwarding(AF21)|
+|응용 프로그램/화면 공유| 50,040~50,059      |TCP/UDP |18        |Assured Forwarding(AF21)|
 | | | | |
 
 \* 할당하는 포트 범위는 겹칠 수 없으며 서로 근접해 있어야 합니다.
