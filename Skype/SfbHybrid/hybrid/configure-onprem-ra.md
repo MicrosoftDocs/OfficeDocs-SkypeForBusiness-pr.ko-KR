@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에 대 한 리소스 계정을 설정 합니다.
-ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: f3a9166f6e1bb9659a7fb43b9e7c35dba673f176
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868435"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868687"
 ---
 # <a name="configure-resource-accounts"></a>리소스 계정 구성
 
@@ -43,7 +43,7 @@ ms.locfileid: "44868435"
 
 자동 전화 교환 또는 통화 큐가 최상위 자동 전화 교환 아래에 중첩 되어 있는 경우 연결 된 리소스 계정은 자동 전화 교환 및 전화 큐의 구조로 여러 항목을 입력 하려는 경우에만 전화 번호를 필요로 합니다.
 
-온라인에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있고 Enterprise Voice를 사용할 수 있도록 설정 되어 있거나 Microsoft 365 또는 Office 365 통화 계획이 있어야 합니다. [Microsoft 팀 라이선스 할당](/MicrosoftTeams/assign-teams-licenses)을 참조 하세요. Windows PowerShell을 사용 하 여 Enterprise Voice에서 사용 하도록 설정할 수 있습니다. 예를 들면 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+온라인에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있고 Enterprise Voice를 사용할 수 있도록 설정 되어 있거나 Microsoft 365 또는 Office 365 통화 계획이 있어야 합니다. [Microsoft 팀 라이선스 할당](/MicrosoftTeams/assign-teams-licenses)을 참조 하세요. Windows PowerShell을 사용 하 여 Enterprise Voice에서 사용 하도록 설정할 수 있습니다. 예를 들면 다음을 실행 합니다.  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 만들려는 전화 시스템 자동 전화 교환 또는 통화 큐가 중첩 되 고 전화 번호가 필요 하지 않은 경우 프로세스는 다음과 같습니다.
 
@@ -83,6 +83,8 @@ ms.locfileid: "44868435"
     ```
 
     이 명령에 대 한 자세한 내용은 [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 을 참조 하십시오.
+    
+    참고-이 시점에서 계정이 동기화 되었지만 구축이 완료 되지 않을 수 있습니다.  [CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint)의 출력을 확인 합니다.  동기화 된 끝점이 아직 프로 비전을 완료 하지 않은 경우에는 여기에 표시 되지 않습니다.  [팀 설정 상태](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning)에서 M365 포털의 프로 비전 요청 상태를 확인할 수 있습니다.  이 구축 단계는 최대 24 시간까지 소요 될 수 있습니다.
 
 5. 전화 시스템-가상 사용자 또는 전화 시스템 라이선스를 리소스 계정에 할당 합니다. [Microsoft 팀 추가 기능 라이선스 할당](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) 및 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)을 참조 하세요.
 
