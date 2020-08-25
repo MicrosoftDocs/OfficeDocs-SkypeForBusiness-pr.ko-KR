@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45247387"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864572"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
@@ -192,7 +192,7 @@ Teams 보존 정책을 삭제하려면 다음을 수행합니다.
 
 - **Teams 채팅** 위치 행의 **사용자 선택**에서 게스트 및 비사서함 사용자가 표시될 수 있습니다. 보존 정책은 게스트에 대한 설정이 아니며 목록에서 제거하기 위해 해결 중에 있습니다.
 
-- ELC(Exchange 수명 주기 도우미)는 매일 실행되지만, 7일의 SLA를 포함합니다. 따라서 60일보다 오래된 항목을 삭제하는 Teams 보존 정책이 있는 경우 이러한 항목은 최대 67일 동안 보존될 수 있습니다. 이것은 새로운 상황이 아니며 Exchange 모델을 따릅니다. 물론 대부분의 경우 지연되지 않습니다.
+- ELC (Exchange 수명 주기 도우미)는 매일 실행 되지만, 경우에 따라 7 일이 지난 후에 대기 시간이 발생 하는 것으로 알려져 있습니다. 따라서 60일보다 오래된 항목을 삭제하는 Teams 보존 정책이 있는 경우 이러한 항목은 최대 67일 동안 보존될 수 있습니다. 이것은 새로운 상황이 아니며 Exchange 모델을 따릅니다. 물론 대부분의 경우 지연되지 않습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

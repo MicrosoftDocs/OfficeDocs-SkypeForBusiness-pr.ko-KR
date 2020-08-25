@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: ec48927559f5b10cbd8fec98966f1c55d0297fd2
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572243"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864582"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
@@ -256,6 +256,10 @@ PSTN 통화에 대 한 위치 기반 라우팅 사용 사용자는 다른 사용
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>위치 기반 라우팅에 대 한 미디어 바이패스 요구 사항
 
 인도에서 위치 기반 라우팅을 배포 하는 경우 미디어 바이패스를 구성 하는 것도 요구 사항입니다. 자세한 내용은 직접 라우팅을 위한 다이렉트 라우팅 및 [로컬 미디어 최적화](direct-routing-media-optimization.md)를 [사용 하 여 미디어 바이패스에 대 한 계획](direct-routing-plan-media-bypass.md) 을 참조 하세요.
+
+### <a name="direct-voice-over-ip-voip"></a>직접 VoIP (Voice over IP)
+
+VoIP (Voice over IP)는 인도 전화 통신 장비를 사용 하 여 배포 하지 않아야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

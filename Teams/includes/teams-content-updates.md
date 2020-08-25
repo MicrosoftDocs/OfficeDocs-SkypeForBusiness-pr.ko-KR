@@ -3,127 +3,6 @@
 
 
 
-## <a name="week-of-july-06-2020"></a>7 월 6 일 (주) 2020
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 7/7/2020 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
-| 7/7/2020 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
-| 7/7/2020 | [직접 라우팅에 SBC (세션 경계 컨트롤러) 연결](/MicrosoftTeams/direct-routing-connect-the-sbc) | 으 |
-| 7/7/2020 | [다이렉트 라우팅에 대 한 전화 번호 번역](/MicrosoftTeams/direct-routing-translate-numbers) | 으 |
-| 7/7/2020 | [발신 통화 제한-오디오 회의 & PSTN 통화](/MicrosoftTeams/outbound-calling-restriction-policies) | 으 |
-| 7/7/2020 | [오디오 회의 번호 목록 보기](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | 으 |
-| 7/7/2020 | [Microsoft 팀 PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 으 |
-| 7/7/2020 | [클라우드 자동 전화 교환이란?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 으 |
-| 7/8/2020 | [비즈니스용 Skype Online 및 Microsoft Teams용 접근성 솔루션](/MicrosoftTeams/accessibility-solutions-in-france) | 으 |
-| 7/8/2020 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 으 |
-| 7/8/2020 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 으 |
-| 7/8/2020 | [Microsoft 팀의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 으 |
-| 7/8/2020 | [SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 으 |
-| 7/8/2020 | [Microsoft 팀의 운영 가이드](/MicrosoftTeams/1-drive-value-operate-my-service) | 으 |
-| 7/8/2020 | [CQD PSTN 다이렉트 라우팅 보고서 사용](/MicrosoftTeams/cqd-pstn-report) | 으 |
-| 7/8/2020 | [CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치](/MicrosoftTeams/cqd-power-bi-connector) | 으 |
-| 7/8/2020 | [Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터 분석](/MicrosoftTeams/cqd-power-bi-query-templates) | 으 |
-| 7/8/2020 | [CQD 데이터를 사용 하 여 Power BI에서 Microsoft 팀 사용률 보기](/MicrosoftTeams/cqd-teams-utilization-report) | 으 |
-| 7/8/2020 | [Microsoft 팀 클라이언트에서 QoS (서비스 품질) 구현](/MicrosoftTeams/qos-in-teams-clients) | 으 |
-| 7/8/2020 | [Microsoft 팀에서 서비스 품질 구현](/MicrosoftTeams/qos-in-teams) | 으 |
-| 7/8/2020 | [Outlook에서 Microsoft Teams 모임 추가 기능 사용](/MicrosoftTeams/teams-add-in-for-outlook) | 으 |
-| 7/8/2020 | [Microsoft 팀의 앱에 대 한 관리자 설정](/MicrosoftTeams/admin-settings) | 으 |
-| 7/8/2020 | [Microsoft Teams에서 팀 보관 또는 삭제하기](/MicrosoftTeams/archive-or-delete-a-team) | 으 |
-| 7/8/2020 | [통화 품질 모니터링](/MicrosoftTeams/business-voice/monitor-quality) | 으 |
-| 7/8/2020 | [팀 클라이언트의 연결 문제 해결](/MicrosoftTeams/connectivity-issues) | 으 |
-| 7/8/2020 | [Microsoft Teams에서 조직 전체 팀 만들기](/MicrosoftTeams/create-an-org-wide-team) | 으 |
-| 7/8/2020 | [Microsoft 팀의 앱, 인공 & 커넥터](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으 |
-| 7/8/2020 | [오디오 회의 설정 구성 - Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 으 |
-| 7/8/2020 | [Microsoft Teams에서의 모임 및 회의](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 으 |
-| 7/8/2020 | 통화 분석 및 통화 품질 대시보드 | 제거할 |
-| 7/8/2020 | [치수 및 측정-통화 품질 대시보드 (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 으 |
-| 7/8/2020 | [Microsoft 팀에서 도움말 보기](/MicrosoftTeams/get-help-in-microsoft-teams) | 으 |
-| 7/8/2020 | [보고 레이블 추가 및 업데이트](/MicrosoftTeams/learn-more-about-site-upload) | 으 |
-| 7/8/2020 | [팀의 레거시 시스템에서 메시지 및 통화를 수신 하는 문제](/MicrosoftTeams/legacy-login-issues) | 으 |
-| 7/8/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 7/8/2020 | [Microsoft 팀 문제 해결에서 로그 파일 사용](/MicrosoftTeams/log-files) | 으 |
-| 7/8/2020 | [Microsoft 팀 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으 |
-| 7/8/2020 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 으 |
-| 7/8/2020 | [Microsoft 팀의 통화 품질 모니터링 및 개선](/MicrosoftTeams/monitor-call-quality-qos) | 으 |
-| 7/8/2020 | [Microsoft Endpoint Configuration Manager를 사용 하 여 팀 설치](/MicrosoftTeams/msi-deployment) | 으 |
-| 7/8/2020 | [Microsoft 팀을 위한 네트워크 planner 사용](/MicrosoftTeams/network-planner) | 으 |
-| 7/8/2020 | [온 보 딩 검사 목록-Microsoft 365 또는 Office 365 서비스를 사용 하도록 설정](/MicrosoftTeams/onboarding-checklist-enable-office-365) | 으 |
-| 7/8/2020 | [Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으 |
-| 7/8/2020 | [Microsoft 팀에서 통화 및 모임 품질을 관리 하기 위해 CQD 사용](/MicrosoftTeams/quality-of-experience-review-guide) | 으 |
-| 7/8/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
-| 7/8/2020 | [Microsoft Teams의 보존 정책](/MicrosoftTeams/retention-policies) | 으 |
-| 7/8/2020 | [Microsoft Teams 룸 배포](/MicrosoftTeams/rooms/rooms-deploy) | 으 |
-| 7/8/2020 | [Microsoft 팀 대화방 관리 개요](/MicrosoftTeams/rooms/rooms-manage) | 으 |
-| 7/8/2020 | [Microsoft 팀의 서비스 상태 확인](/MicrosoftTeams/service-health) | 으 |
-| 7/8/2020 | [Microsoft 팀에 대 한 통화 분석 설정](/MicrosoftTeams/set-up-call-analytics) | 으 |
-| 7/8/2020 | [최신 인증을 사용하여 Teams에 로그인](/MicrosoftTeams/sign-in-teams) | 으 |
-| 7/8/2020 | [통화 품질 대시보드의 스트림 분류 (CQD)](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | 으 |
-| 7/8/2020 | [Microsoft 팀 PowerShell 설치](/MicrosoftTeams/teams-powershell-install) | 으 |
-| 7/8/2020 | [Microsoft Teams의 게스트 액세스에 대한 문제 해결](/MicrosoftTeams/troubleshoot-guest-access) | 으 |
-| 7/8/2020 | [Windows에서 Microsoft Teams 설치 및 업데이트 문제 해결](/MicrosoftTeams/troubleshoot-installation) | 으 |
-| 7/8/2020 | [CQD (통화 품질 대시보드) 설정](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 으 |
-| 7/8/2020 | [네트워크 Planner 사용-예제 시나리오](/MicrosoftTeams/tutorial-network-planner-example) | 으 |
-| 7/8/2020 | [사용자 환경 품질 \| Microsoft 팀 \| QoS \| 통화 품질](/MicrosoftTeams/upgrade-monitor-quality) | 으 |
-| 7/8/2020 | [Microsoft 팀 \| 서비스 관리 품질에 대 한 작업 \|](/MicrosoftTeams/upgrade-operate-my-service) | 으 |
-| 7/8/2020 | [\|관리자 문제를 지 원하는 Microsoft 팀 교육](/MicrosoftTeams/upgrade-prepare-it-pros) | 으 |
-| 7/8/2020 | [통화 분석을 사용 하 여 통화 품질 저하 문제 해결](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | 으 |
-| 7/9/2020 | [Microsoft 팀의 민감도 레이블](/MicrosoftTeams/sensitivity-labels) | 으 |
-| 7/10/2020 | [Microsoft Teams에서 게스트 액세스 권한 부여](/MicrosoftTeams/teams-dependencies) | 으 |
-| 7/10/2020 | [환자 앱 개요](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 으 |
-
-
-## <a name="week-of-july-13-2020"></a>7 월 13 일 (주) 2020
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 7/14/2020 | [Microsoft Teams에서 다른 조직의 사용자와 의사소통하기](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 으 |
-| 7/14/2020 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
-| 7/14/2020 | [Microsoft 팀 장치를 원격으로 업데이트](/MicrosoftTeams/devices/remote-update) | 으 |
-| 7/14/2020 | [환경 준비](/MicrosoftTeams/rooms/rooms-prep) | 으 |
-| 7/14/2020 | [일반 지역 전화 라이선스 설정](/MicrosoftTeams/set-up-common-area-phones) | 으 |
-| 7/14/2020 | [Microsoft 팀의 공유 선 모양](/MicrosoftTeams/shared-line-appearance) | 으 |
-| 7/14/2020 | [Small business 예 — 자동 전화 교환 설정](/MicrosoftTeams/tutorial-org-aa) | 으 |
-| 7/14/2020 | [CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치](/MicrosoftTeams/cqd-power-bi-connector) | 으 |
-| 7/14/2020 | [자주 묻는 질문(FAQ) - 원격 작업자 지원](/MicrosoftTeams/faq-support-remote-workforce) | 으 |
-| 7/14/2020 | [Microsoft 팀의 모임](/MicrosoftTeams/tutorial-meetings-in-teams) | 으 |
-| 7/14/2020 | [의료 조직을 위한 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 으 |
-| 7/14/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 7/14/2020 | [사용자의 전화 받기 기능 설정](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | 으 |
-| 7/14/2020 | [Microsoft 팀에서 파일 공유](/MicrosoftTeams/sharing-files-in-teams) | 강화 |
-| 7/15/2020 | [Microsoft Teams에서 사용자에게 정책 할당](/MicrosoftTeams/assign-policies) | 으 |
-| 7/15/2020 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
-| 7/15/2020 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
-| 7/15/2020 | [Microsoft Teams의 게스트 액세스](/MicrosoftTeams/guest-access) | 으 |
-| 7/15/2020 | [Microsoft Teams의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으 |
-| 7/15/2020 | [팀 연락처 센터](/MicrosoftTeams/teams-contact-center) | 으 |
-| 7/15/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 7/15/2020 | [Microsoft 팀 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으 |
-| 7/15/2020 | [Microsoft 팀 관리 센터에서 팀 용 서비스 구입 타사 앱](/MicrosoftTeams/purchase-third-party-apps) | 으 |
-| 7/16/2020 | [다이얼 플랜이 무엇인가요?](/MicrosoftTeams/what-are-dial-plans) | 으 |
-| 7/16/2020 | [Microsoft Teams의 클라우드 음성](/MicrosoftTeams/cloud-voice-landing-page) | 으 |
-| 7/16/2020 | [Microsoft 팀 사용자 채택 계획 \| 모범 사례](/MicrosoftTeams/continue-journey) | 으 |
-| 7/16/2020 | [조직의 목록 앱 관리](/MicrosoftTeams/manage-lists-app) | 으 |
-| 7/16/2020 | Microsoft Teams의 보존 정책 | 제거할 |
-| 7/16/2020 | Teams 모임의 발표자 및 참가자 기능 | 제거할 |
-| 7/16/2020 | [비즈니스용 Skype 및 Microsoft 팀 간 상호 운용성](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 으 |
-| 7/16/2020 | [비즈니스용 Skype 모드에서의 Microsoft 팀 업그레이드 \| , 공존](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 으 |
-| 7/16/2020 | [업그레이드 프레임워크 정보](/MicrosoftTeams/upgrade-framework) | 으 |
-| 7/16/2020 | [Microsoft 팀 업그레이드 \| 환경 평가, 검색 질문](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | 으 |
-| 7/16/2020 | [Microsoft 팀 필수 구성 요소 \| 종속성 채택 업그레이드](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | 으 |
-| 7/16/2020 | [Microsoft 팀에 대 한 준비 \| 온 보 딩 출시 검사 목록 업그레이드](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | 으 |
-| 7/16/2020 | [Microsoft Teams 업그레이드 시작하기](/MicrosoftTeams/upgrade-start-here) | 으 |
-| 7/16/2020 | [비즈니스용 Skype 온-프레미스를 Teams로 업그레이드](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 으 |
-| 7/16/2020 | [비즈니스용 Skype Online을 Microsoft 팀으로 업그레이드 \|](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 으 |
-| 7/17/2020 | [팀 용 전화 및 장치](/MicrosoftTeams/devices/teams-ip-phones) | 으 |
-| 7/17/2020 | [Microsoft 팀 용 전화 및 장치](/MicrosoftTeams/devices/usb-devices) | 으 |
-| 7/17/2020 | [Business Voice의 국가 및 지역 가용성](/MicrosoftTeams/business-voice/country-region-availability) | 으 |
-| 7/17/2020 | [Microsoft 365 Business Voice란 무엇인가요?](/MicrosoftTeams/business-voice/whats-business-voice) | 으 |
-| 7/17/2020 | [Microsoft 팀 PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 으 |
-
-
 ## <a name="week-of-july-20-2020"></a>7 월 20 일 (주) 2020
 
 
@@ -360,3 +239,104 @@
 | 8/7/2020 | [PSTN 서비스 데스크에 문의](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 으 |
 | 8/7/2020 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 으 |
 | 8/7/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |
+
+
+## <a name="week-of-august-10-2020"></a>8 월 10 일 (2020 주)
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 8/11/2020 | [Microsoft 팀에서 이벤트 감사 로그 검색](/MicrosoftTeams/audit-log-events) | 으 |
+| 8/11/2020 | [팀 서식 파일을 사용 하 여 새 팀 만들기](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 으 |
+| 8/11/2020 | [Microsoft 팀 용 전화 및 장치](/MicrosoftTeams/devices/usb-devices) | 으 |
+| 8/11/2020 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 으 |
+| 8/11/2020 | [Microsoft Endpoint Configuration Manager를 사용 하 여 팀 설치](/MicrosoftTeams/msi-deployment) | 으 |
+| 8/12/2020 | [Microsoft 팀에서 이벤트 감사 로그 검색](/MicrosoftTeams/audit-log-events) | 으 |
+| 8/12/2020 | [Microsoft 팀에서 팀 만료 및 갱신](/MicrosoftTeams/team-expiration-renewal) | 으 |
+| 8/12/2020 | [비즈니스용 Skype 온-프레미스를 Teams로 업그레이드](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 으 |
+| 8/12/2020 | [Advisor for Teams를 사용하여 Microsoft Teams 배포](/MicrosoftTeams/use-advisor-teams-roll-out) | 으 |
+| 8/12/2020 | [팀에서 관리 계획-Microsoft 팀](/MicrosoftTeams/plan-teams-governance) | 으 |
+| 8/12/2020 | [Microsoft 365 그룹 및 Microsoft 팀](/MicrosoftTeams/office-365-groups) | 으 |
+| 8/12/2020 | [Microsoft Teams에서 게스트 액세스 권한 부여](/MicrosoftTeams/teams-dependencies) | 으 |
+| 8/12/2020 | [팀에 게스트 추가](/MicrosoftTeams/add-guests) | 으 |
+| 8/12/2020 | [Microsoft 팀 채택](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 으 |
+| 8/12/2020 | [Microsoft 팀에서 장치 관리](/MicrosoftTeams/devices/device-management) | 으 |
+| 8/12/2020 | [사용자가 직접 라우팅 하도록 설정](/MicrosoftTeams/direct-routing-enable-users) | 으 |
+| 8/12/2020 | [게스트 사용자 정보 편집](/MicrosoftTeams/edit-guests-information) | 으 |
+| 8/12/2020 | [PowerShell을 사용하여 팀에 대한 액세스 권한 제어](/MicrosoftTeams/guest-access-powershell) | 으 |
+| 8/12/2020 | [Microsoft Teams 게스트 액세스 검사 목록](/MicrosoftTeams/guest-access-checklist) | 으 |
+| 8/12/2020 | [Microsoft Teams의 게스트 액세스](/MicrosoftTeams/guest-access) | 으 |
+| 8/12/2020 | [게스트 환경의 모양](/MicrosoftTeams/guest-experience) | 으 |
+| 8/12/2020 | [게스트가 팀에 참여하는 방법](/MicrosoftTeams/guest-joins) | 으 |
+| 8/12/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
+| 8/12/2020 | [Microsoft 팀에서 게스트 액세스 관리](/MicrosoftTeams/manage-guests) | 으 |
+| 8/12/2020 | [팀 관리 센터에서 칭찬 앱 관리](/MicrosoftTeams/manage-praise-app) | 으 |
+| 8/12/2020 | [팀을 만들 때 Microsoft 365 그룹에 대한 계획](/MicrosoftTeams/plan-office-365-groups) | 으 |
+| 8/12/2020 | [수명 주기 관리 계획](/MicrosoftTeams/plan-teams-lifecycle) | 으 |
+| 8/12/2020 | [Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기](/MicrosoftTeams/set-up-guests) | 으 |
+| 8/12/2020 | [Microsoft 팀을 위한 관리 빠른 시작](/MicrosoftTeams/teams-adoption-governance-quick-start) | 으 |
+| 8/12/2020 | [Microsoft Teams 관리자 교육](/MicrosoftTeams/training-microsoft-teams-landing-page) | 으 |
+| 8/12/2020 | [Microsoft Teams의 게스트 액세스에 대한 문제 해결](/MicrosoftTeams/troubleshoot-guest-access) | 으 |
+| 8/12/2020 | [팀에서 게스트 사용자 보기](/MicrosoftTeams/view-guests) | 으 |
+| 8/13/2020 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 으 |
+| 8/13/2020 | [다른 사용자가 참가할 수 있도록 모임에서 전화 걸기](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | 으 |
+| 8/13/2020 | [PSTN 서비스 데스크에 문의](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 으 |
+| 8/13/2020 | [팀에서 관리 계획-Microsoft 팀](/MicrosoftTeams/plan-teams-governance) | 으 |
+| 8/13/2020 | [Microsoft 팀에서 사용자에 대 한 전화 회의 ID 다시 설정](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | 으 |
+| 8/13/2020 | [관리 교육 리소스-Microsoft 팀](/MicrosoftTeams/itadmin-readiness) | 으 |
+| 8/13/2020 | [자동 전화 교환 및 통화 대기열 통화 응답](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | 으 |
+| 8/13/2020 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
+| 8/13/2020 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
+| 8/13/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
+| 8/13/2020 | [팀에서 자원 계정 관리](/MicrosoftTeams/manage-resource-accounts) | 으 |
+| 8/13/2020 | [Small business 예 — 자동 전화 교환 설정](/MicrosoftTeams/tutorial-org-aa) | 으 |
+| 8/13/2020 | [클라우드 자동 전화 교환이란?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 으 |
+| 8/14/2020 | [팀에 게스트 추가](/MicrosoftTeams/add-guests) | 으 |
+| 8/14/2020 | [Microsoft Teams에서 다른 조직의 사용자와 의사소통하기](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 으 |
+| 8/14/2020 | Microsoft Teams 게스트 액세스 검사 목록 | 제거할 |
+| 8/14/2020 | [Microsoft Teams의 게스트 액세스](/MicrosoftTeams/guest-access) | 으 |
+| 8/14/2020 | [게스트가 팀에 참여하는 방법](/MicrosoftTeams/guest-joins) | 으 |
+| 8/14/2020 | [Microsoft 팀에서 게스트 액세스 관리](/MicrosoftTeams/manage-guests) | 으 |
+| 8/14/2020 | [알려진 문제](/MicrosoftTeams/rooms/known-issues) | 으 |
+| 8/14/2020 | [릴리스 정보](/MicrosoftTeams/rooms/rooms-release-note) | 으 |
+| 8/14/2020 | [Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기](/MicrosoftTeams/set-up-guests) | 으 |
+| 8/14/2020 | [Microsoft Teams 보안 가이드](/MicrosoftTeams/teams-security-guide) | 으 |
+| 8/14/2020 | [Advisor for Teams를 사용하여 Microsoft Teams 배포](/MicrosoftTeams/use-advisor-teams-roll-out) | 으 |
+| 8/14/2020 | [Microsoft 팀 대화방 장치 설정 원격 관리](/MicrosoftTeams/rooms/xml-config-file) | 으 |
+
+
+## <a name="week-of-august-17-2020"></a>8 월 17 일 주 (2020)
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 8/18/2020 | [Microsoft 팀의 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 으 |
+| 8/18/2020 | [Exchange 및 Microsoft 팀의 상호 작용 방식](/MicrosoftTeams/exchange-teams-interact) | 으 |
+| 8/18/2020 | [의료에 대 한 팀 정책 패키지](/MicrosoftTeams/policy-packages-healthcare) | 으 |
+| 8/18/2020 | [Teams에서 사용자 현재 상태 확인](/MicrosoftTeams/presence-admins) | 으 |
+| 8/18/2020 | [Microsoft 팀 회의실 및 Surface Hub를 사용 하 여 조정 되는 모임 설정](/MicrosoftTeams/rooms/coordinated-meetings) | 으 |
+| 8/18/2020 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 으 |
+| 8/18/2020 | [Microsoft 팀 대화방 장치 설정 원격 관리](/MicrosoftTeams/rooms/xml-config-file) | 으 |
+| 8/18/2020 | [Microsoft 팀 실시간 이벤트 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | 으 |
+| 8/18/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 8/19/2020 | [Outlook에서 Microsoft Teams 모임 추가 기능 사용](/MicrosoftTeams/teams-add-in-for-outlook) | 으 |
+| 8/19/2020 | [세션 경계 컨트롤러 구성-여러 테 넌 트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 으 |
+| 8/19/2020 | [콘텐츠의 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으 |
+| 8/19/2020 | [외부 액세스 (페더레이션) 관리](/MicrosoftTeams/manage-external-access) | 으 |
+| 8/19/2020 | [Microsoft 팀에서 조직의 작업 앱 관리](/MicrosoftTeams/manage-tasks-app) | 으 |
+| 8/19/2020 | [팀에서 메시징 정책 관리](/MicrosoftTeams/messaging-policies-in-teams) | 으 |
+| 8/19/2020 | 수업 팀 만들기 권장 방법과 모범 사례 | 제거할 |
+| 8/19/2020 | [Microsoft 팀 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으 |
+| 8/19/2020 | [Microsoft 팀 관리 센터에서 팀 용 서비스 구입 타사 앱](/MicrosoftTeams/purchase-third-party-apps) | 으 |
+| 8/19/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
+| 8/20/2020 | [Microsoft 팀 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 허용](/MicrosoftTeams/app-permissions-admin-center) | 으 |
+| 8/20/2020 | [일본 용 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | 으 |
+| 8/20/2020 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 으 |
+| 8/20/2020 | [팀 앱 제출 API를 사용 하 여 사용자 지정 앱 제출 및 승인](/MicrosoftTeams/submit-approve-custom-apps) | 으 |
+| 8/20/2020 | [Microsoft 팀 PowerShell 설치](/MicrosoftTeams/teams-powershell-install) | 으 |
+| 8/20/2020 | [관리 교육 리소스-Microsoft 팀](/MicrosoftTeams/itadmin-readiness) | 으 |
+| 8/20/2020 | [Microsoft Teams에서 게스트 액세스 권한 부여](/MicrosoftTeams/teams-dependencies) | 으 |
+| 8/20/2020 | [게스트 환경의 모양](/MicrosoftTeams/guest-experience) | 으 |
+| 8/21/2020 | [Microsoft Teams에서 조직 전체 팀 만들기](/MicrosoftTeams/create-an-org-wide-team) | 으 |
+| 8/21/2020 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 으 |
+| 8/21/2020 | [팀 서식 파일을 사용 하 여 새 팀 만들기](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 으 |
