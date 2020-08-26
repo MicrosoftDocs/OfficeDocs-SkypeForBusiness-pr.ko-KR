@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b33122b07723e46e0dfec5b342f40d7581fab8fe
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: daeacf5e5019dd8b63ef19b194b241cbdfe9d84f
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672759"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864512"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -180,6 +180,26 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 채널은 팀을 위해 만든 SharePoint Online 사이트 모음의 폴더에 의해 지원되므로 채널 내의 파일 탭은 속해 있는 팀의 저장소 용량 한도를 공유 합니다.
 
 자세한 내용은 [SharePoint Online 제한](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)을 참조하세요.
+
+## <a name="class-teams"></a>수업 팀
+
+교육용 Microsoft Teams는 강의실 교육과 같은 고유한 교육 시나리오를 위해 설계된 템플릿을 제공합니다. 수업 팀을 포함한 팀 유형에 대한 자세한 내용은 [Microsoft Teams에서 공동 작업할 팀 유형 선택](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)에서 확인할 수 있습니다.
+
+수업 팀은 추가 앱이 포함된 템플릿 유형이며, 팀 구성원 수에는 제한이 있습니다.
+
+> [!NOTE]
+> 수업 팀을 사용하려면 [Office 365 Education 라이선스](https://www.microsoft.com/education/products/office)가 필요합니다.
+
+수업 팀 제한은 다음 표에 나열되어 있습니다.
+
+|기능  |최대 한도  |
+|---------|---------|
+|팀의 구성원 수    | 이 문서의 [Teams 및 채널](#teams-and-channels) 섹션을 참조합니다.        |
+|수업 팀에서 할당을 사용할 구성원 수    | 200        |
+|수업 팀에서 OneNote 클래스 노트북을 사용할 구성원 수     |200         |
+
+한 학급 팀이 200명 이상의 구성원을 지원할 수 있습니다. 그러나 팀 내에서 Assignments 앱 또는 Class Notebook 앱을 사용하려는 경우 구성원 수를 위의 최대 제한 이하로 유지해야 합니다.
+
 
 ## <a name="tags"></a>태그
 

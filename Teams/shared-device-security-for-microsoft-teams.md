@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a723a7300febde4eaa5045b9b1318a3e0cafe779
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860836"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868697"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>공유 컴퓨터에서 Microsoft Teams 를 안전하게 사용
 
@@ -46,7 +46,7 @@ ms.locfileid: "46860836"
 
 1. 운영 체제 플랫폼 보안 기능 활용
     1. 운영 체제가 운영 체제 제공자의 자동 업데이트를 설치하도록 구성되어 있는지 확인합니다(Microsoft 시스템의 경우 [**Windows 업데이트**](https://support.microsoft.com/help/12373/windows-update-faq)를 통해 이 작업을 수행할 수 있습니다). 
-    2. [**bitlocker**](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) 같은 디바이스 암호화 기능이 설정되어 있고 디바이스에 액세스하는 데 사용되는 키가 보호되어 있는지 확인합니다.
+    2. [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) 같은 디바이스 암호화 기능이 설정되어 있고 디바이스에 액세스하는 데 사용되는 키가 보호되어 있는지 확인합니다.  최신 [**Windows 10 장치는 bitlocker를 지원**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)합니다. 
     1. 디바이스에서 [**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)에서 제공하는 것과 같은 바이러스 백신 기능을 사용합니다.
     1. 시스템의 각 사용자마다 [별도 사용자 계정](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)을 사용하는 것이 좋습니다.
     1. 비관리 기능(예: 웹 검색, 팀 실행 등)에 대해 관리자 권한을 부여하거나 사용하지 *않습니다*.
@@ -76,6 +76,6 @@ Windows 보안에서 Microsoft Defender 바이러스 백신을 [사용](https://
 
 [Microsoft Defender 보안 센터 문서](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
-[Teams 웹 클라이언트/teams 웹 앱](../get-clients.md#web-client)
+[Teams 웹 클라이언트/teams 웹 앱](https://docs.microsoft.com/microsoftteams/get-clients#web-client)
 
 [보안 및 Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide)
