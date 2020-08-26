@@ -16,12 +16,12 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662088"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897807"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -105,7 +105,18 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>모임 녹음/녹화가 저장된 위치
 
-모임 녹음/녹화는 Microsoft Stream 클라우드 저장소에 저장됩니다. 모임을 녹화 하면 Microsoft Stream이 영구적으로 보존 됩니다 (또는 녹음/녹화할 때까지 삭제 될 때까지). 녹화가 업로드 되지 않는 경우에는 20 일 동안 다운로드할 수 있는 팀 클라우드 저장소에 저장 됩니다. Microsoft Stream이 데이터가 저장된 국내 데이터 보존 지역에서 제공되지 않는 경우 Teams 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 현재 설정되어 있습니다.
+모임 녹음/녹화는 Microsoft Stream 클라우드 저장소에 저장됩니다. 녹음/녹화는 보존 되며 21 일 동안 보고 다운로드할 수 있습니다. Microsoft Stream이 데이터가 저장된 국내 데이터 보존 지역에서 제공되지 않는 경우 Teams 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 현재 설정되어 있습니다. Microsoft Stream이 국내 데이터 보존 지역에서 제공되지 않는 경우 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 향후 설정될 예정입니다.
+
+해당 변경 내용이 적용되면 기본적으로 모임 녹음/녹화는 지리적으로 가장 가까운 Microsoft Stream 지역에 저장됩니다. Teams 데이터가 국내에 저장되어 있고 모임 녹음/녹화를 국내에 저장하기를 선호하는 경우 기능을 해제하고 Microsoft Stream이 국내 데이터 보존 지역에 배포된 이후 설정하는 것이 좋습니다. 조직의 모든 사용자에 대 한 기능을 해제 하려면 Microsoft 팀 관리 센터에 있는 전역 팀 모임 정책에서 **클라우드 기록 허용** 설정을 해제 합니다.
+
+다음은 해당 변경 내용이 적용될 때 모임 녹음/녹화를 설정하는 경우의 결과에 대한 요약입니다.
+
+|모임 녹음/녹화를 사용 하는 경우|모임 녹음/녹화는 저장됩니다... |
+|---|---|
+|Microsoft Stream을 국가별 데이터 영주권 지역에서 사용 하기 전에 |가장 가까운 Microsoft 스트림 영역|
+|Microsoft Stream을 국가별 데이터 영주권 지역에서 사용할 수 있는 경우 |국가별 데이터 영주권 지역|
+
+모임 녹음/녹화를 아직 설정하지 않은 신규 및 기존 테넌트의 경우 Microsoft Stream이 국내 데이터 보존 지역에서 제공된 이후 새 녹음/녹화는 국내에 저장됩니다. 그러나 microsoft Stream을 국가 내 데이터 영주권 지역에서 사용할 수 있도록 설정 하는 테 넌 트는 Microsoft Stream을 국가별 데이터 영주권 지역에서 사용할 수 있게 된 후에도 기존 및 새 녹화에 대해 Microsoft 스트림 저장소를 계속 사용 하 게 됩니다.
 
 Microsoft Stream 데이터가 저장된 지역을 찾으려면 Microsoft Stream에서 오른쪽 상단 모서리의 **?** 를 클릭하고 **Microsoft Stream 정보**를 클릭한 다음 **사용자 데이터 저장 위치**를 클릭합니다.  Microsoft Stream이 데이터를 저장하는 지역에 대한 자세한 내용은 [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)를 참조하세요.
 

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 준수 센터의 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778010"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897708"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft 팀에서 이벤트 감사 로그 검색
 
@@ -162,9 +162,9 @@ Microsoft 365 감사 로그에서 팀의 사용자 및 관리자 활동에 대�
 
 |친근 한 이름  |작업  |설명  |
 |---------|---------|---------|
-|예약 그룹 추가 됨      |SchedulingGroupAdded          |사용자가 일정에 새 일정 그룹을 성공적으로 추가 합니다.          |
-|일정 그룹 편집 됨     |SchedulingGroupEdited         |사용자가 일정 그룹을 편집 했습니다.          |
-|일정 그룹 삭제 됨         |SchedulingGroupDeleted              |사용자가 일정에서 일정 그룹을 성공적으로 삭제 했습니다.|
+|예약 그룹 추가 됨 |ScheduleGroupAdded          |사용자가 일정에 새 일정 그룹을 성공적으로 추가 합니다.|
+|일정 그룹 편집 됨     |ScheduleGroupEdited         |사용자가 일정 그룹을 편집 했습니다.          |
+|일정 그룹 삭제 됨         |ScheduleGroupDeleted              |사용자가 일정에서 일정 그룹을 성공적으로 삭제 했습니다.|
 |교대 근무 추가 됨      |ShiftAdded          |사용자가 shift를 성공적으로 추가 했습니다.           |
 |편집 된 교대 근무       |ShiftEdited       |사용자가 shift를 성공적으로 편집 했습니다.        |
 |교대 근무 삭제 됨          |ShiftDeleted          | 사용자가 shift를 성공적으로 삭제 했습니다.               |
