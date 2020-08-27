@@ -20,22 +20,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2db1b5cfbc3a50013872b540521f05a5339dd979
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: f820bf6c44eae2cfbdb13a683d017be2f93d6756
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522324"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255552"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>팀의 Cortana 음성 지원
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 > [!Note]
 > Cortana 음성 지원은 미국 사용자 용 Microsoft 팀 iOS 및 Android 모바일 앱에서 지원 됩니다. 현재 GCC, GCC-High, DoD, .EDU 테 넌 트에는 사용할 수 없습니다. 이후 릴리스의 일부로 추가 언어 및 지역으로 확장이 수행 됩니다.
 
-팀 모바일 앱의 Cortana 음성 지원은 Microsoft 365 Enterprise 사용자가 음성 자연어를 사용 하 여 통신, 공동 작업 및 모임 관련 작업을 간소화할 수 있도록 합니다. 사용자는 팀 모바일 앱의 오른쪽 위에 있는 마이크 단추를 클릭 하 여 Cortana에 말할 수 있습니다. 이동 중에 팀과 빠르게 연결 하기 위해 사용자는 "call Megan" 또는 "다음 모임에 메시지 보내기"와 같은 쿼리를 말할 수 있습니다. 사용자는 "다음 모임 참가" 라고 말하여 모임에 참가 하 고, 음성 도우미를 사용 하 여 파일을 공유 하 고, 일정을 확인 하는 등의 기능을 할 수 있습니다 이러한 음성 지원 환경은 [OST (온라인 서비스 사용 약관)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)에 반영 된 Office 365의 개인 정보 취급, 보안 및 준수 약속을 완벽 하 게 준수 하는 [Cortana 엔터프라이즈 등급 서비스](https://docs.microsoft.com/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) 를 사용 하 여 제공 됩니다.
+팀 모바일 앱의 Cortana 음성 지원은 Microsoft 365 Enterprise 사용자가 음성 자연어를 사용 하 여 통신, 공동 작업 및 모임 관련 작업을 간소화할 수 있도록 합니다. 사용자는 팀 모바일 앱의 오른쪽 위에 있는 마이크 단추를 클릭 하 여 Cortana에 말할 수 있습니다. 이동 중에 팀과 빠르게 연결 하기 위해 사용자는 &#8220;call Megan&#8221; 또는 &#8220;다음 모임&#8221;에 메시지를 보낼 수 있습니다. 또한 사용자는 다음 모임&#8221; 참가 &#8220;하 여 모임에 참가 하 고, 음성 도우미를 사용 하 여 파일을 공유 하 고, 일정을 확인할 수 있습니다. 이러한 음성 지원 환경은 [OST (온라인 서비스 사용 약관)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)에 반영 된 Office 365의 개인 정보 취급, 보안 및 준수 약속을 완벽 하 게 준수 하는 [Cortana 엔터프라이즈 등급 서비스](https://docs.microsoft.com/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) 를 사용 하 여 제공 됩니다.
 
 이 이미지는 모바일 장치에서 Cortana에 채팅을 전송 하는 방법을 보여 줍니다.
 
@@ -59,13 +56,13 @@ ms.locfileid: "46522324"
 
 - [제거-CsTeamsCortanaPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsCortanaPolicy)
 
-예를 들어 아래 명령은 Microsoft 팀에서 Cortana 음성 도우미를 사용할 수 없게 되는 "EmployeeCortanaPolicy" 라는 이름을 가진 새 정책을 만듭니다.  
+예를 들어 아래 명령은 Microsoft 팀에서 Cortana 음성 도우미를 사용할 수 없도록 설정 된 이름 &#8220;EmployeeCortanaPolicy&#8221;를 사용 하 여 새 정책을 만듭니다.  
 
 ```PowerShell
 PS C:\> New-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode Disabled
 ```
 
-이 예제에서는 "EmployeeCortanaPolicy" 이름을 사용 하 여 기존 정책을 업데이트 하 고, 푸시 단추 호출만 있는 Microsoft 팀에서 Cortana 음성 도우미를 사용 하도록 설정 하는 방법을 보여 줍니다. 사용자는 팀에서 Cortana 마이크 단추를 탭 하 여 Cortana를 호출할 수 있습니다. 깨우기 단어 ("안녕 코타 나") 호출이 비활성화 됩니다.  
+이 예제에서는 이름 &#8220;EmployeeCortanaPolicy&#8221;를 사용 하 여 기존 정책을 업데이트 하 고, 푸시 단추 호출만 있는 Microsoft 팀에서 Cortana 음성 도우미를 사용 하도록 설정 하는 방법을 보여 줍니다. 사용자는 팀에서 Cortana 마이크 단추를 탭 하 여 Cortana를 호출할 수 있습니다. 깨우기 (&#8220;안녕 코타&#8221;) 호출은 사용할 수 없게 됩니다.  
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride

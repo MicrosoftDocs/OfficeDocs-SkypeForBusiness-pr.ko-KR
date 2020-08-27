@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
-ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
+ms.openlocfilehash: 0db8b037bdf67f920e1089ae8f67f477e85e3e06
+ms.sourcegitcommit: 39fa1aee7a5e067097b126aa619be5aa099888ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46864572"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903807"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
@@ -146,6 +146,14 @@ Teams 보존 정책을 편집하려면 다음을 수행합니다.
 3. 편집하려는 항목 옆에 있는 **편집**을 선택하고 변경한 다음 **저장**을 클릭하고 **닫기**를 클릭합니다.
 
     ![위치 선택 페이지의 Teams 채널 메시지 및 Teams 채팅 옵션 스크린 샷](media/retention-policies-edit.png)
+
+> [!WARNING]
+> 팀 채널 메시지 또는 팀 채팅을 포함 하도록 특정 팀 또는 특정 사용자를 구성한 경우 해당 위치에 대 한 마지막 **항목을 제거**하도록 해당 위치에 대 한 구성이 되돌립니다. 정책을 저장 하기 전에 의도 했던 구성 인지 확인 합니다.
+> 
+> 예를 들어 데이터를 삭제 하도록 구성 된 보존 정책에 포함할 팀 채팅 사용자를 지정 하 고 정책을 편집 하 여이 사용자를 제거 하면 기본적으로 모든 사용자는 팀 채팅 메시지를 영구적으로 삭제 하는 보존 정책에 적용 됩니다. 팀 채널 메시지에도 마찬가지 사항이 적용 됩니다.
+> 
+> 이 시나리오에서는 팀 채널 메시지 또는 팀 채팅 메시지에 대 한 **모든** 설정이 보존 정책에 적용 되는 것을 원하지 않는 경우 위치를 해제 합니다. 또는 정책에서 제외할 경우 exclude를 지정 합니다.
+
 
 #### <a name="delete-a-retention-policy"></a>보존 정책 삭제
 

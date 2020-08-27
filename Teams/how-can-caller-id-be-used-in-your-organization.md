@@ -1,7 +1,7 @@
 ---
 title: 조직에서 발신자 ID를 사용하는 방법
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 발신자 ID는 CallingLineIdentity 이라는 정책을 사용 하 여 전화 시스템 사용자에 대 한 인바운드와 아웃 바운드 호출 모두에 대해 제어할 수 있습니다.
-ms.openlocfilehash: 5c20f439d156997c89ca54c2a3bf39e9c3a42ae4
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: cd2074fec3027f1172b6ea681013f53994963cb5
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506201"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255451"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>조직에서 발신자 ID를 사용하는 방법
 
@@ -60,7 +60,7 @@ ms.locfileid: "46506201"
     
 그러나 아웃 바운드 발신자 ID에 대해 이러한 유형의 전화 번호를 지정할 수는 없습니다.
   
-- 통화 요금제 전화 번호 인벤토리에서 *사용자* 로 분류 된 모든 전화 번호
+- 통화 요금제 전화 번호 인벤토리에서  *사용자*  로 분류 된 모든 전화 번호
     
 - 비즈니스용 Skype Server 온-프레미스 전화 번호
     
@@ -78,8 +78,8 @@ EnableUserOverride 특성을 사용 하면 단일 또는 여러 사용자가 자
 |간편 실행  <br/> |12 월 6 일에 릴리스된 현재 채널 2016-버전 1611 (빌드 7571.2072)  <br/> |예  <br/> |
 |간편 실행  <br/> |2 월 22 일에 릴리스된 지연 채널의 첫 번째 릴리스 2017-버전 1701 (빌드 7766.2060)  <br/> |예  <br/> |
 |간편 실행  <br/> |6 월 13 일에 릴리스된 지연 채널 2017-버전 1701 (빌드 7766.2092)  <br/> |예  <br/> |
-|MSI  <br/> |비즈니스용 Skype  <br/> |아니요  <br/> |
-|Mac  <br/> |비즈니스용 Skype  <br/> |아니요  <br/> |
+|MSI  <br/> |비즈니스용 Skype  <br/> |아니오  <br/> |
+|Mac  <br/> |비즈니스용 Skype  <br/> |아니오  <br/> |
    
 ## <a name="inbound-caller-id"></a>인바운드 발신자 ID
 

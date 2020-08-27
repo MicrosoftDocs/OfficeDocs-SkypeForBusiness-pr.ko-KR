@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀에서 휴일 설정
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Microsoft 팀에서 휴일을 설정 하 고 공휴일 기능을 사용 하 여 자동 전화 교환에 연결 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 531b2ff6c9fedcab7710fbab3ac9bd69d615ab73
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd8b70fcd3f7fd50826498e91fdbbace602fc0f6
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905580"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255411"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft 팀에서 휴일 설정
 
@@ -39,7 +39,7 @@ Microsoft 팀 공휴일 기능을 사용 하 여 조직의 사용자가 작업�
 
 ## <a name="create-a-holiday"></a>명절 만들기
 
-1. Microsoft 팀 관리 센터에서 **조직 전체 설정** > **공휴일**으로 이동 합니다.
+1. Microsoft 팀 관리 센터에서 **조직 전체 설정**  >  **공휴일**으로 이동 합니다.
 
 2. **새 공휴일**을 선택 합니다.
 
@@ -59,7 +59,7 @@ Microsoft 팀 공휴일 기능을 사용 하 여 조직의 사용자가 작업�
 
 ## <a name="change-a-holiday"></a>휴일 변경
 
-1. Microsoft 팀 관리 센터에서 **조직 전체 설정** > **공휴일**으로 이동 합니다.
+1. Microsoft 팀 관리 센터에서 **조직 전체 설정**  >  **공휴일**으로 이동 합니다.
 
 2. 목록에서 공휴일을 선택 합니다.
 
@@ -75,7 +75,7 @@ Microsoft 팀 공휴일 기능을 사용 하 여 조직의 사용자가 작업�
 
 ## <a name="connect-a-holiday-to-an-auto-attendant"></a>자동 전화 교환에 휴일 연결
 
-1. Microsoft 팀 관리 센터에서 **음성** > **자동 전화 교환**으로 이동 합니다.
+1. Microsoft 팀 관리 센터에서 **음성**  >  **자동 전화 교환**으로 이동 합니다.
 2. 목록에서 자원 계정을 선택 합니다.
 3. 왼쪽 창에서 **명절 통화 설정을**선택 합니다.
 4. **새 공휴일**을 선택 합니다.

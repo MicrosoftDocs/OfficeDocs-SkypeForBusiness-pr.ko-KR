@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft는 2020 년 2 월 28 일부 터 ExchUMO (Exchange 통합 메시징 온라인) 서비스를 더 이상 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 비즈니스 연속성을 계획 하 고 수행 해야 하는 작업을 요약 하 여 설명 합니다.
-ms.openlocfilehash: e01bae468a459ef5013aa72eee74ed4cb015cddc
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897818"
+ms.locfileid: "47255441"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -150,7 +150,6 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 | V | 사용자 기능 | 기록을 사용 하지 않도록 설정할 수 있는 사용자 설정 |  | Kn | 피지    |
 | V | 사용자 기능 | 기록  |  | 피지 | 피지    |
 | V | 사용자 기능 | SIP notify 메시지를 사용한 MWI (메시지 대기 표시기) |  | Kn | 피지    |
-| V | 사용자 기능 | 모든 끝점의 시각적 음성 메일   | 지원 되는 모든 끝점에서 재생, 삭제, 메시지 대기 알림 및 상태 전환을 수행 하는 사용자 정의 컨트롤  | 피지 | 피지    |
 | V | 사용자 기능 | Outlook의 MP3 오디오 파일 형식    |  | 피지 | 피지    |
 | V | 사용자 기능 | 가변 속도 재생 컨트롤 |  | 피지 | 피지    |
 | V | 사용자 기능 | 음성 메일 전달  | 다른 사용자에 게 받은 음성 메일 전달 | 피지 | 피지    |

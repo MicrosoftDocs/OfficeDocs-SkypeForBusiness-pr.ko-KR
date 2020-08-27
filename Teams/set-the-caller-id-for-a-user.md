@@ -1,7 +1,7 @@
 ---
 title: 사용자의 발신자 ID 설정
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Microsoft 365 및 Office 365 기본 발신자 ID (사용자의 지정 된 전화 번호)에 대해 알아보고 전화 라인 ID 라고도 합니다. 사용자의 발신자 ID를 변경 하거나 차단할 수 있습니다.
-ms.openlocfilehash: 059e92f04f3d4a5df73ed9201f1f784f2bd01f30
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3c39497618927c20d1103b9aaaec82960a06d56c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691124"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255431"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>사용자의 발신자 ID 설정
 Microsoft 365 및 Office 365의 전화 시스템은 사용자가 할당 한 전화 번호에 해당 하는 기본 발신자 ID를 제공 합니다. 사용자의 발신자 ID (통화 라인 ID 라고도 함)를 변경 하거나 차단할 수 있습니다. 조직에서 발신자 id를 사용 하는 [방법을](how-can-caller-id-be-used-in-your-organization.md)확인 하 여 조직에서 발신자 id를 사용 하는 방법에 대해 자세히 알아볼 수 있습니다.

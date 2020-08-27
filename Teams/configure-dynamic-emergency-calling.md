@@ -17,12 +17,12 @@ description: Microsoft 통화 계획 및 전화 시스템을 구성 하는 방�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576930"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255381"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -81,7 +81,7 @@ Microsoft 통화 요금제 및 전화 시스템 다이렉트 라우팅을 위한
 
 ## <a name="assign-emergency-addresses"></a>긴급 주소 할당
 
-호출 계획 사용자와 위치를 동적으로 가져오는 데 필요한 네트워크 식별자에 모두 긴급 주소를 할당할 수 있습니다. (서브넷 및 WiFi AP가 지원 됨, 이더넷 스위치/포트에 대 한 지원이 보류 중입니다).
+호출 계획 사용자와 위치를 동적으로 가져오는 데 필요한 네트워크 식별자에 모두 긴급 주소를 할당할 수 있습니다. (서브넷 및 WiFi AP가 지원 됩니다. 이더넷 스위치/포트는 Windows 8.1 이상에서 지원 됩니다.
 
 미국 내에서 긴급 통화를 자동으로 라우팅하는 것을 지원 하려면 네트워크 식별자에 할당 된 비상 위치에 연결 된 지역 코드가 포함 되어 있는지 확인 해야 합니다. (지역 코드가 없는 긴급 주소는 동적 위치에 필요한 네트워크 식별자에 할당할 수 없습니다.)
 
@@ -216,7 +216,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [긴급 전화 정책 관리](manage-emergency-calling-policies.md)
-- [긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)
+- [긴급 통화 라우팅 정책 관리 ](manage-emergency-call-routing-policies.md)
 - [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
 - [사용자의 긴급 위치 지정 또는 변경](assign-change-emergency-location-user.md)
 - [클라우드 음성 기능에 대한 네트워크 설정](cloud-voice-network-settings.md)
