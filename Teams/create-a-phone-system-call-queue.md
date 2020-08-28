@@ -1,7 +1,7 @@
 ---
 title: 통화 대기열 만들기
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -23,21 +23,25 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 보관, 착신 전환, 기타 기능을 제공 하는 Microsoft 팀을 사용 하 여 클라우드 통화 큐 용 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f0631eece5b8f67cd93c46b34c56bb2283826c3f
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: be43c2dc378b985b63c47b9322b336eeadfeecb6
+ms.sourcegitcommit: 515f6cf7c16c0ab6ea7acbbd59084ac89b57dfb8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46556653"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47295283"
 ---
 # <a name="create-a-cloud-call-queue"></a>클라우드 통화 큐 만들기
 
 클라우드 통화 대기열은 다음을 제공할 수 있습니다.
 
 - 인사말 메시지입니다.
+
 - 다른 사용자가 대기 중에 음악을 볼 수 있습니다.
+
 - 메일 사용이 가능한 메일 그룹의 통화 에이전트와 보안 그룹에서 통화를 리디렉션합니다.
+
 - 큐 최대 크기, 시간 제한 및 통화 처리 옵션 등의 다른 매개 변수를 설정 합니다.
+
 - 호출자가 조직에 대 한 메시지를 남기기 위해 보이스 메일을 공유 했습니다.
 
 전화 번호를 통화 대기열에 직접 연결 하지 않고, 대신 전화 번호가 [리소스 계정과](manage-resource-accounts.md)연결 되어 있습니다. 전화 큐는 직접 전화를 걸거나 자동 전화 교환에서 선택 하 여 액세스할 수 있습니다.
@@ -47,8 +51,11 @@ ms.locfileid: "46556653"
 큐의 모든 호출은 다음 메서드 중 하나를 통해 에이전트로 전송 됩니다.
 
 - 전화 통신 라우팅을 사용 하면 큐의 첫 번째 호출이 동시에 모든 에이전트를 울릴 때
+
 - 직렬 라우팅을 사용 하면 큐의 첫 번째 호출이 모든 통화 에이전트를 하나씩 울립니다.
+
 - 가장 긴 유휴 라우팅의 경우 가장 오래 된 시간 동안 유휴 상태에 있는 통화 에이전트는 다음 통화를 수신 합니다. 유휴 시간은 통화 에이전트의 현재 상태가 **사용 가능** 또는 **자리 비움** (10 분 미만)으로 설정 되는 시간으로 정의 됩니다. 통화 에이전트의 현재 상태가 10 분 이상 **자리 비움** 상태 이면 유휴 타이머가 다시 설정 됩니다.
+
 - 라운드 로빈으로, 들어오는 호출의 라우팅이 각 호출 에이전트가 대기열에서 같은 수의 통화를 제공 하도록 균형을 유지 합니다.
 
 위의 방법 중 하나를 사용 하 여 에이전트 옵트인/옵트아웃, 현재 상태 기반 라우팅, 통화 대기 시간, 통화 시간 제한 옵션 등의 통화 처리 옵션을 설정할 수 있습니다.
@@ -63,13 +70,14 @@ ms.locfileid: "46556653"
 통화 대기열 사용을 시작 하려면 몇 가지 사항을 기억해 야 합니다.
 
 - 통화 대기열에는 연결 된 리소스 계정이 있어야 합니다. 리소스 계정에 대 한 자세한 내용은 [팀에서 자원 계정 관리](manage-resource-accounts.md) 를 참조 하세요.
+
 - 전화 번호를 자원 계정에 할당 하면 이제 비용 무료 전화 시스템 [가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md)를 사용할 수 있습니다. 전화 시스템은 저렴 한 자동 전화 교환 및 통화 대기열 서비스에 사용할 수 있도록 조직 수준의 전화 번호를 허용 합니다.
 
   > [!NOTE]
   > 통화 대기열에 대 한 직접 라우팅 서비스 번호는 Microsoft 팀 사용자 및 상담원만 지원 합니다.
 
-> [!NOTE]
-> 온라인 상태에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하 고 Enterprise Voice를 사용 하도록 설정 하거나 Microsoft 365 또는 Office 365 통화 요금제가 필요 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 ' Set-CsUser-id "Amos 대리석"-EnterpriseVoiceEnabled $true를 실행 합니다.
+  > [!NOTE]
+  > 온라인 상태에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하 고 Enterprise Voice를 사용 하도록 설정 하거나 Microsoft 365 또는 Office 365 통화 요금제가 필요 합니다. [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 ' Set-CsUser-id "Amos 대리석"-EnterpriseVoiceEnabled $true를 실행 합니다.
 
 - 통화 요금제에 대 한 자세한 내용은 [Microsoft 365 또는 Office 365에 대 한](calling-plans-for-office-365.md) [전화 시스템 및 통화 요금제](calling-plan-landing-page.md) 및 통화 요금제를 참조 하세요.
 
@@ -176,7 +184,7 @@ ms.locfileid: "46556653"
   > [!NOTE]
   > 이는 온라인 상태인 조직의 사용자에 게 전화를 리디렉션하는 경우에도 적용 됩니다. 이러한 개인에 게는 전화 시스템 라이선스와 Enterprise Voice가 설정 되어 *있거나* 통화 요금제가 있어야 합니다. 자세한 내용은 [비즈니스용 Skype 라이선스 할당](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Microsoft 팀 라이선스 할당](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)또는 [사용자에 게 적합 한 통화 계획](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) 을 참조 하세요.
 
-   엔터프라이즈 음성에 대 한 에이전트를 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   엔터프라이즈 음성에 대 한 에이전트를 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다. `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - 전화 시스템 라이선스 또는 Microsoft 365 그룹, 메일 사용이 가능한 배포 목록 또는 보안 그룹에 추가 되는 통화 요금제를 사용 하는 사용자 배포 목록 또는 보안 그룹의 에이전트를 통화 대기열 에이전트로 추가 하는 경우 첫 번째 통화가 도착 하는 데 최대 3 시간까지 걸릴 수 있습니다. 새로 만든 메일 그룹 또는 보안 그룹이 통화 큐와 함께 사용할 수 있게 되는 데 최대 48 시간이 걸릴 수 있습니다. 새로 만든 Microsoft 365 그룹은 거의 즉시 사용할 수 있습니다.
 
@@ -188,8 +196,10 @@ ms.locfileid: "46556653"
 회의 모드는 기본적으로 사용 하지 않도록 설정 되어 있지만 다음 요구 사항이 충족 되는 경우 언제 든 지 사용할 수 있습니다.
 
 - 통화 대기열에 추가 된 상담원은 다음 클라이언트 중 하나를 사용 해야 합니다.
+
   - 최신 버전의 Microsoft 팀 데스크톱 클라이언트, Android 앱 또는 iOS 앱
   - Microsoft 팀 전화 버전 1449/1.0.94.2020051601 이상
+  
 - 에이전트 팀 계정은 팀 전용 모드로 설정 해야 합니다.
 
 > [!IMPORTANT]
@@ -229,6 +239,15 @@ ms.locfileid: "46556653"
 
 > [!IMPORTANT]
 > 비즈니스용 Skype 클라이언트를 사용 하는 상담원은 사용 가능 상태에 관계 없이 상태 기반 라우팅이 사용 되는 경우 통화 라우팅 목록에 포함 되지 않습니다. 통화 라우팅 목록에 없는 상담원은 통화를 수신 하지 못합니다. 비즈니스용 Skype를 사용 하는 에이전트가 있는 경우 현재 상태 기반 통화 회람을 사용 하지 마세요.
+
+> [!IMPORTANT]
+> 고용량 통화를 위해 대기 하는 경우 권장 설정은 다음과 같습니다.
+>
+> 컨퍼런스 모드: 자동<br>
+> 라우팅 방법: 전화 교환 라우팅<br>
+> 현재 상태 기반 라우팅: 설정<br>
+> 에이전트 알림 시간: 20 초
+
 
 ### <a name="select-an-agent-opt-out-option"></a>에이전트 옵트아웃 옵션 선택
 
@@ -276,6 +295,7 @@ ms.locfileid: "46556653"
  호출 대기열이 최대 크기에 도달 하면**최대 호출 수에 도달 하면** 이전 스크린샷의 설명선을 참조 합니다 ( **큐 설정의 최대 통화** 수를 사용 하 여 설정). 새 수신 전화에 대 한 진행 상황을 선택할 수 있습니다.
 
 - **연결 해제** 통화가 끊겼습니다.
+
 - **리디렉션 대상** 이를 선택 하는 경우 다음 중 하나를 선택 합니다.
 
   - **조직의 사용자** 전화 시스템 라이선스가 있는 온라인 사용자 이며 엔터프라이즈 음성에 대해 사용 하도록 설정 되었거나 통화 요금제가 있습니다.
@@ -293,6 +313,7 @@ ms.locfileid: "46556653"
             - 사용 안 함으로 설정 하면 최초 발신자의 전화 번호가 표시 됩니다. 이 설정이 기본값 이며 권장 되는 설정입니다.
             - 사용으로 설정 하면 리소스 계정 전화 번호가 표시 됩니다.
     - 통화 요금제 trunks와 다이렉트 라우팅 trunks 간에 전송이 지원 되지 않습니다.
+    
   - 보이스 **메일** 조직의 사용자가이 통화 대기열에서 받은 음성 메일에 액세스 해야 하는 Microsoft 365 그룹을 선택 하 고 다음 중 하나를 선택 합니다.
       - **오디오 파일 재생** 이 옵션을 선택 하는 경우에는 **파일 업로드** 를 선택 하 여 녹음 된 인사말 메시지를 업로드 합니다. 기록의 크기는 5mb를 초과할 수 없습니다. 
       - **인사말 메시지 입력** 이 옵션을 선택 하는 경우 시스템에서 읽을 텍스트를 입력 합니다 (최대 1000 자). 예를 들어 이번에는 전화를 걸 수 없음을 "미안 하 게 입력할 수 있습니다. 귀하의 이름, 전화번호, 그리고 통화를 하기 위한 이유는 비프음 후에 남겨 주십시오. "
@@ -312,7 +333,9 @@ Timeout 값을 초 단위로 15 초 간격으로 설정할 수 있습니다. 이
  **큐 설정에 대기할 수** 있는 시간에 대해 설정한 제한 시간에 도달 했을 때**전화를 건** 후의 이전 스크린샷에 대 한 설명선을 참조 하는 경우, 통화에 발생 하는 상황을 선택할 수 있습니다.
 
 - **연결 해제** 통화가 끊겼습니다.
+
 - **착신 전환 대상:** 이 옵션을 선택 하면 다음 옵션이 표시 됩니다.
+
   - **조직의 사용자** 전화 시스템 라이선스가 있고 엔터프라이즈 음성 또는 통화 요금제를 사용 하는 온라인 사용자입니다.
 
   - **음성 앱** 이미 만든 통화 대기열 또는 자동 전화 교환 중 하 나와 연결 된 리소스 계정의 이름을 선택 합니다.
@@ -330,6 +353,7 @@ Timeout 값을 초 단위로 15 초 간격으로 설정할 수 있습니다. 이
     - 통화 요금제 trunks와 다이렉트 라우팅 trunks 간에 전송이 지원 되지 않습니다.
     - 보이스 **메일** 조직의 사용자가이 통화 대기열에서 받은 음성 메일에 액세스 해야 하는 Microsoft 365 그룹을 선택 하 고 다음 중 하나를 선택 합니다.
       - **오디오 파일 재생** 이 옵션을 선택 하는 경우에는 **파일 업로드** 를 선택 하 여 녹음 된 인사말 메시지를 업로드 합니다. 기록의 크기는 5mb를 초과할 수 없습니다.
+      
       - **인사말 메시지 입력** 이 옵션을 선택 하는 경우 시스템에서 읽을 텍스트를 입력 합니다 (최대 1000 자). 예를 들어 이번에는 전화를 걸 수 없음을 "미안 하 게 입력할 수 있습니다. 귀하의 이름, 전화번호, 그리고 통화를 하기 위한 이유는 비프음 후에 남겨 주십시오. "
 
       보이스 메일 메시지의 음성-텍스트 기록을 사용 하려는 경우에는 기록을 켜십시오.
@@ -340,13 +364,13 @@ Timeout 값을 초 단위로 15 초 간격으로 설정할 수 있습니다. 이
 
 호출 에이전트의 id를 보호 하려면 다음 예제와 같이 **새 CsCallingLineIdentity** cmdlet을 사용 하 여 통화 큐, 자동 전화 교환 또는 서비스 번호로의 발신 호출에 대 한 발신자 ID를 변경 합니다.
 
-``` Powershell
+```powershell
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
 그런 다음 다음 예제와 같이 **CallingLineIdentity** cmdlet을 사용 하 여 사용자에 게 정책을 적용 합니다. 
 
-``` Powershell
+```powershell
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
