@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀 대화방 관리 서비스를 사용 하 여 역할 기반 액세스 제어에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: ec8bb770f1dd843c569a98dd909c87ef3ca14dd0
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788789"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300292"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Microsoft 팀 대화방 관리 서비스를 사용 하는 역할 기반 액세스 제어
 
@@ -59,12 +59,12 @@ Microsoft 팀 대화방 관리 서비스의 역할 기반 액세스 제어 (RBAC
 |    |키 재설정         |&#10004;           |         ||
 |    |다운로드 키         |&#10004;           |&#10004;          |&#10004; |
 |    |등록         |&#10004;           |&#10004;           |&#10004; |
-|그룹 관리   |만드는         |&#10004;           |&#10004;           ||
+|그룹 관리   |만드는         |&#10004;           |           ||
 |    |보기       |&#10004;          |&#10004;           ||
-|    |변경         |&#10004;           |&#10004;           ||
-|업데이트 링 관리    |만드는         |&#10004;           |&#10004;           ||
-|    |보기         |&#10004;           |&#10004;           ||
-|    |변경         |&#10004;           |&#10004;           ||
+|    |변경         |&#10004;           |           ||
+|업데이트 링 관리    |만드는         |&#10004;           |           ||
+|    |보기         |&#10004;           |           ||
+|    |변경         |&#10004;           |           ||
 |보고서   |보기        |&#10004;           |&#10004;           ||
 |티켓 관리   |고객 사고 만들기         |&#10004;           |&#10004;           |&#10004;  |
 |    |보기         |&#10004;           |&#10004;           |&#10004;  |
@@ -78,7 +78,7 @@ Microsoft 팀 대화방 관리 서비스의 역할 기반 액세스 제어 (RBAC
 
 역할을 할당 하려면 전역 관리자 또는 관리 서비스 관리자 여야 합니다.
 
-1. Microsoft 팀 대화방 관리 서비스 포털의 왼쪽 탐색 모음에서 **역할로**이동 합니다.
+1. Microsoft 팀 대화방 관리 서비스 포털의 왼쪽 탐색 창에서 **설정**  >  **역할로**이동 합니다.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="역할을 보여 주는 액세스 제어 페이지의 스크린샷":::
 
