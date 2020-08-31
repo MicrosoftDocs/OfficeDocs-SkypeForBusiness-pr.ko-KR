@@ -73,7 +73,7 @@
 #### [게스트 사용자 정보 편집](edit-guests-information.md)
 #### [PowerShell을 사용하여 게스트 액세스 제어](guest-access-PowerShell.md)
 #### [게스트 액세스 문제 해결](troubleshoot-guest-access.md)
-
+## [Teams의 Cortana](cortana-in-teams.md)
 
 
 
@@ -294,6 +294,7 @@
 #### [소규모 기업 예제 - 전화 큐 설정](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Teams 자원 계정 관리](manage-resource-accounts.md)
 #### [클라우드 통화 큐 만들기](create-a-phone-system-call-queue.md)
+#### [휴일 설정](set-up-holidays-in-teams.md)
 #### [자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기](answer-auto-attendant-and-call-queue-calls.md)
 
 ### [수신 전화 차단](block-inbound-calls.md)
