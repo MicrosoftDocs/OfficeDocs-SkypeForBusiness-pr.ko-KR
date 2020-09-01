@@ -816,7 +816,6 @@
 ### [Teams 추가 기능 라이선스 할당하기](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [Office 365 E1 평가판 서비스 관리](e1-trial-license.md)
 ### [Office 365 G1 평가판 서비스 관리](g1-trial-license.md)
-### [Teams 상업적 평가판 관리](iw-trial-teams.md)
 ### [Teams 예비 환경 관리](teams-exploratory.md)
 ### [무료 버전의 팀 관리](manage-freemium.md)
 ### [Teams를 구독 버전으로 무료 업그레이드](upgrade-freemium.md)
