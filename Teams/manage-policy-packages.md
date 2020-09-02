@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 정책 패키지를 사용 하 고 관리 하 여 사용자 그룹에 대 한 정책을 관리할 때 일관성을 간소화 하 고 간소화 하 고 해결 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0bd14852a9f488bb6740a2df8219041ba0c71ebb
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: 01f32f1141ce46aa45073571ccfaabc8646fc215
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45374366"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47327208"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft 팀에서 정책 패키지 관리
 
@@ -115,6 +115,14 @@ Microsoft 팀 관리 센터에서 정책 패키지를 보고 할당 하 고 사�
     - 정책 유형을 클릭 합니다.  예를 들어 **메시지 정책을**클릭 합니다.
 2. 편집 하려는 정책을 클릭 합니다. 정책 패키지에 연결 된 정책에는 정책 패키지와 동일한 이름이 사용 됩니다.
 3. 원하는 변경 작업을 수행한 다음 **저장**을 클릭 합니다.
+
+## <a name="supported-policy-types"></a>지원 되는 정책 유형
+
+- 메시징
+- 모임
+- 통화
+- 앱 설정
+- 라이브 이벤트
 
 ## <a name="troubleshooting"></a>문제 해결
 
