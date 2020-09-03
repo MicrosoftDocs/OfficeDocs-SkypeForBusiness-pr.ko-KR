@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Microsoft 팀에 대해 인증 된 헤드셋, 스피커폰, 웹캠, 모니터 등의 USB 주변 기기와 장치에 대해 알아봅니다.
-ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640913"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331633"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft 팀에 인증 된 USB 오디오 및 비디오 장치
 
@@ -74,10 +74,17 @@ ms.locfileid: "46640913"
 
 ## <a name="certified-devices"></a>인증 된 장치
 
-*2020 년 7 월 업데이트 된 표*
+*업데이트 된 표 2020 년 8 월*
 
 | 제조업체        | Model                                                     | 갖춘      | 인증 된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |80 헤드셋 개선                                          |8/23/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
+|Jabra                |40 헤드셋 개선                                          |8/23/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
+|Jabra                |30 II 헤드셋으로 발전                                       |8/23/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
+|Jabra                |20 개의 헤드셋으로 발전                                          |8/23/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
+|EPOS/Sennheiser      |USB-ED CC 01 MS connecto으로 SC 660에 영향을 줍니다.                |8/20/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
+|EPOS/Sennheiser      |USB-ED CC 01 MS connecto으로 SC 630에 영향을 줍니다.                |8/20/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
+|EPOS/Sennheiser      |USB-ED CC 01 MS connecto으로 SC 260에 영향을 줍니다.                |8/20/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |비즈니스용 Skype에 대해 인증 됨                        |
 |ViewSonic            |WCD-IFP6570                                               |7/31/2020       |비즈니스용 Skype에 대해 인증 됨                        |
 |Jabra                |75 헤드셋 개선                                          |7/31/2020       |Microsoft 팀으로 업그레이드 한 비즈니스용 Skype      |
