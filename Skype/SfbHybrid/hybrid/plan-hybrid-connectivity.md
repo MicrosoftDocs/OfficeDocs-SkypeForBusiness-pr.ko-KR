@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 비즈니스용 Skype 서버 및 비즈니스용 Skype Online 또는 팀 간의 하이브리드 연결을 구현 하기 위한 계획 시 고려 사항
-ms.openlocfilehash: 3a7df5ef36a7d0e6bf58c1784edb0bbe0baa9409
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221278"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359064"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365의 하이브리드 연결 계획
 
@@ -37,6 +37,9 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 이 항목에서는 기존 온-프레미스 비즈니스용 Skype 서버 배포와 팀 또는 비즈니스용 Skype Online 간에 하이브리드 연결을 구성 하는 데 필요한 인프라 및 시스템 요구 사항에 대해 설명 합니다.
 
 이 항목을 읽은 후 하이브리드 연결을 구성할 준비가 되 면 [비즈니스용 Skype 서버 및 Microsoft 365 또는 Office 365 간의 하이브리드 연결 구성을](configure-hybrid-connectivity.md)참조 하세요. 구성 항목에서는 온-프레미스 배포와 팀 또는 비즈니스용 Skype Online 간에 하이브리드 연결을 설정 하기 위한 단계별 지침을 제공 합니다.
+
+> [!Important]
+> 비즈니스용 Skype Online은 서비스에 더 이상 액세스할 수 없게 되 고, 2021 년 7 월 31 일에 만료 됩니다.  또한 비즈니스용 Skype 서버 또는 클라우드 Connector Edition과 비즈니스용 Skype Online을 통해 온-프레미스 환경 간의 PSTN 연결이 더 이상 지원 되지 않습니다.  [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아봅니다.
 
 ## <a name="about-shared-sip-address-space-functionality"></a>공유 SIP 주소 공간 기능 정보
 
@@ -84,8 +87,8 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 
 **팀 또는 비즈니스용 Skype Online**을 사용 하 여 하이브리드 배포를 구성 하려면 다음의 지원 되는 토폴로지 중 하나가 있어야 합니다.
 
-- 비즈니스용 skype 서버 2019을 실행 중인 모든 서버와의 비즈니스용 Skype 서버 2019 배포
-- 비즈니스용 skype 서버 2015을 실행 중인 모든 서버와의 비즈니스용 Skype 서버 2015 배포
+- 비즈니스용 Skype 서버 2019 배포 - 모든 서버에서 비즈니스용 Skype 서버 2019 실행
+- 비즈니스용 Skype 서버 2015 배포 - 모든 서버에서 비즈니스용 Skype 서버 2015 실행
 - Lync server 2013 배포 시 모든 서버 2013을 실행 합니다.  그러나 하이브리드 음성 연결이 필요한 경우 아래에 나와 있는 혼합 버전 토폴로지를 사용 해야 합니다.
 - 아래에 나열 된 것과 같은 최대 2 개의 서로 다른 서버 버전을 사용 하는 배포:
   - 비즈니스용 skype 서버 2015 및 비즈니스용 Skype 서버 2019
@@ -149,7 +152,7 @@ Microsoft는 다음과 같은 유형의 다중 포리스트 하이브리드 시�
 
 |DNS 레코드  <br/> |확인할 사람  <br/> |DNS 요구 사항  <br/> |
 |:-----|:-----|:-----|
-|_Sipfederationtls에 대 한 DNS SRV 레코드 _tcp. \< 에 지 \> 외부 IP에 액세스 하기 위해 지원 되는 모든 SIP 도메인에 대 한 sipdomain.com  <br/> |에 지 서버  <br/> |하이브리드 구성에서 페더레이션 통신을 사용 하도록 설정 합니다. 에 지 서버는 온-프레미스와 온라인 간에 분할 된 SIP 도메인에 대 한 페더레이션 트래픽을 라우팅할 위치를 알아야 합니다.  <br/> 사용자 이름 및 SRV 레코드에 있는 도메인 간에 엄격한 DNS 이름 일치를 사용 해야 합니다.  <br/> |
+|_Sipfederationtls에 대 한 DNS SRV 레코드 _tcp.\<sipdomain.com\> 액세스를 대상으로 하는 모든 지원 SIP 도메인에 대해에 지 외부 IP  <br/> |에 지 서버  <br/> |하이브리드 구성에서 페더레이션 통신을 사용 하도록 설정 합니다. 에 지 서버는 온-프레미스와 온라인 간에 분할 된 SIP 도메인에 대 한 페더레이션 트래픽을 라우팅할 위치를 알아야 합니다.  <br/> 사용자 이름 및 SRV 레코드에 있는 도메인 간에 엄격한 DNS 이름 일치를 사용 해야 합니다.  <br/> |
 |Edge 웹 회의 서비스 FQDN에 대 한 DNS A 레코드 (예: 웹 회의에 지 외부 IP에 대 한 webcon.contoso.com 확인)  <br/> |내부 회사 네트워크에 연결 된 사용자 컴퓨터  <br/> |온라인 사용자가 온-프레미스 호스트 모임에서 콘텐츠를 표시 하거나 볼 수 있도록 설정 합니다. 콘텐츠에는 PowerPoint 파일, 화이트 보드, 설문 및 공유 메모가 포함 됩니다.  <br/> |
 
 조직에서 DNS가 구성 된 방식에 따라 이러한 레코드에 내부 DNS 확인을 제공 하기 위해 해당 SIP 도메인의 내부 호스트 DNS 영역에 이러한 레코드를 추가 해야 할 수 있습니다.

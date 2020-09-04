@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 및 Exchange Server 마이그레이션 계획
+title: 비즈니스용 Skype Server 및 Exchange Server의 마이그레이션 계획
 ms.reviewer: ''
 author: dstrome
 ms.author: dstrome
@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: 이 항목에서는 기존 비즈니스용 Skype 서버 또는 Exchange Server 배포를 최신 버전으로 마이그레이션하거나 비즈니스용 Skype Online 또는 Exchange Online으로 마이그레이션할지 결정할 때 고려해 야 할 사항에 대해 설명 합니다.
-ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cb6d58cf839b6260bc8889817ea568528e4832f4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221268"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359044"
 ---
-# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>비즈니스용 Skype 서버 및 Exchange Server 마이그레이션 계획
+# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>비즈니스용 Skype Server 및 Exchange Server의 마이그레이션 계획
 
-이 항목에서는 기존 비즈니스용 Skype 서버 또는 Exchange Server 배포를 최신 버전으로 마이그레이션하거나 비즈니스용 Skype Online 또는 Exchange Online으로 마이그레이션할지 결정할 때 고려해 야 할 사항에 대해 설명 합니다. 마이그레이션할 수 있는 작업과 조직에 이미 설정 되어 있는 상황에 따라 크게 달라 집니다.
+이 항목에서는 기존 비즈니스용 Skype 서버 또는 Exchange Server 배포를 Exchange Online으로 마이그레이션하도록 결정할 때 고려해 야 할 사항에 대해 설명 합니다. 마이그레이션할 수 있는 작업과 조직에 이미 설정 되어 있는 상황에 따라 크게 달라 집니다.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Exchange 2019 및 비즈니스용 Skype 서버 2019의 기능 변경 사항
 

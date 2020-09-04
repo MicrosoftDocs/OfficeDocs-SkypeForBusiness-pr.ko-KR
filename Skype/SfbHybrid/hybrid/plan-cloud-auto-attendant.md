@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에서 클라우드 자동 전화 교환 사용 개요
-ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f6a1b8959bb5411909f8627c5d02a6cdc1935b20
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221298"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359084"
 ---
 # <a name="plan-cloud-auto-attendants"></a>클라우드 자동 전화 교환 계획
 
@@ -49,7 +49,7 @@ Exchange 통합 메시징에 사용 되는 자동 전화 교환 (exchange Server
 
 - 이미 Exchange UM online 또는 온-프레미스를 사용 중이 고 비즈니스용 Skype 2019로 업그레이드 하는 경우 자동 전화 교환의 구조를 캡처하여 클라우드 자동 전화 교환을 사용 하 여 클라우드에서 다시 만들어야 합니다. 자세한 내용은 [EXCHANGE UM 자동 전화 교환 또는 통화 큐를 전화 시스템으로 이동을](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system)참조 하세요.
 
-- 클라우드 자동 전화 교환에 대 한 새 구성을 보려면 [Configure resource accounts](configure-onprem-ra.md)에 설명 되어 있는 단계를 따르세요.
+- 클라우드 자동 전화 교환에 대 한 새 구성을 보려면  [Configure resource accounts](configure-onprem-ra.md)에 설명 되어 있는 단계를 따르세요.
 
 위의 요구 사항 외에도 다음 요구 사항을 Microsoft 클라우드 자동 전화 교환 서비스에 연결 하도록 구성 해야 합니다.
 
@@ -85,7 +85,7 @@ Microsoft는 다음과 같은 마이그레이션 경로를 권장 합니다.
 1. Exchange 관리 powershell 명령을 사용 하 여 중첩 된 자동 전화 교환 및 통화 큐를 포함 하 여 이전 자동 전화 교환 시스템의 구조를 검토 합니다.  
 2. 각 UM 자동 전화 교환 노드와 연결 되는 텍스트 음성 변환 스크립트 또는 녹음 된 메시지의 복사본을 만듭니다.
 3. 테스트 전화 번호 및 개체에 대 한 라이선스 할당을 포함 하 여 각 자동 전화 교환 노드의 온-프레미스 끝점을 만듭니다. 이제 전화 시스템과 같은 온라인 서비스에서 사용 하는 온-프레미스 전화 번호 라이선스를 할당할 수 있습니다.
-4. 비즈니스용 Skype 온라인 및 전화 시스템을 사용 하 여 새 클라우드 자동 전화 교환 서비스를 구현 합니다. 구현에 대 한 자세한 내용은 [리소스 계정 구성을](configure-onprem-ra.md) 참조 하십시오. 이 작업을 수행 하는 동안 각 UM 자동 전화 교환 노드와 연결 된 텍스트 음성 변환 스크립트 또는 기록 된 메시지를 업로드 합니다.
+4. Microsoft 팀 및 전화 시스템을 사용 하 여 새 클라우드 자동 전화 교환 서비스를 구현 합니다. 구현에 대 한 자세한 내용은 [리소스 계정 구성을](configure-onprem-ra.md) 참조 하십시오. 이 작업을 수행 하는 동안 각 UM 자동 전화 교환 노드와 연결 된 텍스트 음성 변환 스크립트 또는 기록 된 메시지를 업로드 합니다.
 5. 클라우드 자동 전화 교환 기능을 테스트 합니다.
 6. 이전 Exchange UM 자동 전화 교환에 할당 된 전화 번호를 새로 만든 주 클라우드 자동 전화 교환에 다시 할당 합니다.
 
@@ -102,7 +102,7 @@ Microsoft는 다음과 같은 마이그레이션 경로를 권장 합니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버 및 Exchange Server 마이그레이션 계획](plan-um-migration.md)
+[비즈니스용 Skype Server 및 Exchange Server의 마이그레이션 계획](plan-um-migration.md)
 
 [리소스 계정 구성](configure-onprem-ra.md)
 

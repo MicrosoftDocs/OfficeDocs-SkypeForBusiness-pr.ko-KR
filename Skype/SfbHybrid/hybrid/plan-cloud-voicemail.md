@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 이 문서에서는 Microsoft Cloud 음성 메일 서비스를 구현 하기 위한 혜택, 계획 고려 사항 및 요구 사항에 대해 설명 합니다. 클라우드 음성 메일을 구성 하는 방법에 대 한 자세한 내용은 클라우드 음성 메일 구성을 참조 하세요.
-ms.openlocfilehash: b78608f3fd1e60421ad0edc4318b2b44217851c2
-ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
+ms.openlocfilehash: d95d3674eb9119be07e8b588ec3fe0e619fb5f1c
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44472257"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359134"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 계획
 
@@ -36,6 +36,9 @@ ms.locfileid: "44472257"
 - 온-프레미스 또는 클라우드에서 Exchange 사서함 지원
 
 - Exchange Online 통합 메시징의 기존 사용자 인사말 활용
+
+> [!Important]
+> 비즈니스용 skype Online은 사용자가 비즈니스용 Skype Online 클라이언트를 통해 Exchange 사서함의 음성 메일에 더 이상 액세스할 수 없게 되는 2021 년 7 월 31 일에 만료 됩니다.
 
 기능 비교에 대 한 자세한 내용은 [비즈니스용 Skype 서버 및 Exchange server 마이그레이션을 계획](plan-um-migration.md)합니다 .를 참조 하세요.
 

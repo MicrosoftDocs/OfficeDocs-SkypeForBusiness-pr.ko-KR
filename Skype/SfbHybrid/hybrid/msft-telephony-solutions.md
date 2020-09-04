@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Microsoft 전화 통신 솔루션에 대해 설명 합니다.
-ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221328"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359104"
 ---
 # <a name="microsoft-telephony-solutions"></a>Microsoft 전화 통신 솔루션
 
@@ -126,7 +126,7 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 | 타사 통신 회사와의 계약 필요      | 아니요   |
 | 비즈니스용 Skype 서버 또는 클라우드 Connector Edition의 배포 및 유지 관리 필요 | 아니요 |
 
-\*통화 요금제를 사용할 수 있는 국가에 대 한 자세한 내용은 [오디오 회의 및 통화 계획에 대 한 국가 및 지역 가용성](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)를 참조 하세요.
+\* 통화 요금제를 사용할 수 있는 국가에 대 한 자세한 내용은 [오디오 회의 및 통화 계획에 대 한 국가 및 지역 가용성](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)를 참조 하세요.
 
 
 다음 질문에 대 한 답변을 받는 경우 적절 한 솔루션은 다음과 같습니다.
@@ -158,7 +158,7 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 | 타사 통신 회사와의 계약 필요 *      | 예   |
 | 비즈니스용 Skype 서버 또는 클라우드 Connector Edition의 배포 및 유지 관리 필요 | 아니요 |
 
-\*통화 계획이 있는 전화 시스템에 있는 사용자의 타사 PBX, 아날로그 장치 또는 기타 전화 통신 장비에 연결 하는 옵션으로 배포 하지 않은 경우
+\* 통화 계획이 있는 전화 시스템에 있는 사용자의 타사 PBX, 아날로그 장치 또는 기타 전화 통신 장비에 연결 하는 옵션으로 배포 하지 않은 경우
 
 다음 질문에 대 한 답변을 받는 경우 적절 한 솔루션은 다음과 같습니다.
 
@@ -172,6 +172,9 @@ Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 �
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>비즈니스용 Skype 서버 또는 클라우드 커넥터 Edition을 통한 자체 캐리어가 있는 전화 시스템
+
+> [!Important]
+> 비즈니스용 Skype Online은 서비스에 더 이상 액세스할 수 없게 되 고, 2021 년 7 월 31 일에 만료 됩니다.  또한 비즈니스용 Skype 서버 또는 클라우드 Connector Edition과 비즈니스용 Skype Online을 통해 온-프레미스 환경 간의 PSTN 연결이 더 이상 지원 되지 않습니다.  [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아봅니다.
 
 이 옵션은 비즈니스용 Skype Online 사용자를 위해 온-프레미스 전화 통신 네트워크에 연결 하는 클라우드에서 Microsoft 전화 시스템을 제공 합니다.
 
