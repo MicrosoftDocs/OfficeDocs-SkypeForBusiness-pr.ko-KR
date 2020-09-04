@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 비즈니스용 Skype 클라우드 커넥터 Edition에서 전화 시스템에 온-프레미스 PSTN 연결 (클라우드 PBX)을 구현 하는 패키지 된 Vm (가상 컴퓨터) 집합에 대 한 정보를 확인 합니다.
-ms.openlocfilehash: d2b7f4203da082112b846cc3f12f57dd7758fc82
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ec96662e3dbe432ce8cebe7dc59004350124451e
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220088"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358994"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>비즈니스용 Skype 클라우드 커넥터 에디션 계획
+
+> [!Important]
+> 클라우드 커넥터 버전은 비즈니스용 Skype Online과 함께 2021 년 7 월 31 일에 사용 중지 됩니다. 조직이 팀으로 업그레이드 된 후에는 [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아보세요.
 
 비즈니스용 Skype 클라우드 커넥터 Edition에서 전화 시스템에 온-프레미스 PSTN 연결 (클라우드 PBX)을 구현 하는 패키지 된 Vm (가상 컴퓨터) 집합에 대 한 정보를 확인 합니다.
 
@@ -242,7 +245,7 @@ ms.locfileid: "44220088"
 
 - 호스트 컴퓨터에서 인터넷을 검색 하는 데 프록시 서버가 필요한 경우에는 다음과 같은 구성을 변경 해야 합니다.
 
-  - 프록시를 사용 하지 않으려면 프록시 서버와 함께 설정 된 WinHTTP 프록시 설정 및 "192.168.213"를 포함 하는 바이패스 목록을 지정 합니다. \* 클라우드 커넥터 Managements 서비스 및 비즈니스용 Skype Corpnet 서브넷에서 사용 되는 네트워크를 CloudConnector .ini 파일에 정의 되어 있습니다. 그렇지 않으면 관리 연결이 실패 하 고 클라우드 커넥터의 배포 및 자동 복구가 방지 됩니다. 다음은 샘플 winhttp 구성 명령입니다. netsh winhttp set proxy "10.10.10.175:8080" 우회-list = " \* . local; 1. \* ; 172.20. \* ; 192.168.218. \* \< 로컬 \> "입니다.
+  - 프록시를 사용 하지 않으려면 프록시 서버와 함께 설정 된 WinHTTP 프록시 설정 및 "192.168.213"를 포함 하는 바이패스 목록을 지정 합니다. \* CloudConnector.ini 파일에 정의 된 대로 클라우드 커넥터 Managements services 및 비즈니스용 Skype Corpnet 서브넷에서 사용 되는 네트워크입니다. 그렇지 않으면 관리 연결이 실패 하 고 클라우드 커넥터의 배포 및 자동 복구가 방지 됩니다. 다음은 샘플 winhttp 구성 명령입니다. netsh winhttp set proxy "10.10.10.175:8080" 우회-list = " \* . local; 1. \* ; 172.20. \* ; 192.168.218. \* \<local\>
 
   - 사용자 단위 보다는 컴퓨터 별로 프록시 설정을 지정 합니다. 그렇지 않으면 클라우드 커넥터 다운로드는 실패 합니다. 다음과 같이 레지스트리를 변경 하거나 그룹 정책 설정을 사용 하 여 컴퓨터 별로 프록시 설정을 지정할 수 있습니다.
 
@@ -258,14 +261,14 @@ ms.locfileid: "44220088"
 
 - 배포 중에 클라우드 커넥터 도메인에서 토폴로지를 만들고 게시할 수 있는 권한이 있는 도메인 관리자 계정을 만드는 메시지가 표시 됩니다.
 
-- 설치 패키지에 포함 된 CloudConnector .ini 파일에 정의 된 외부 DNS 레코드:
+- 다음은 설치 패키지에 포함 된 CloudConnector.ini 파일에 정의 된 외부 DNS 레코드입니다.
 
-  - 에 지 구성 요소의 액세스에 지 서비스에 대 한 외부 DNS 레코드 예를 들어 ap를 예로 들 있습니다. \< 도메인 이름 \> 입니다. PSTN 사이트별 레코드가 하나 필요 합니다. 이 레코드는 해당 사이트에 대 한 모든 가장자리의 IP 주소를 포함 해야 합니다.
+  - 에 지 구성 요소의 액세스에 지 서비스에 대 한 외부 DNS 레코드 예를 들어 \<Domain Name\> ap. PSTN 사이트별 레코드가 하나 필요 합니다. 이 레코드는 해당 사이트에 대 한 모든 가장자리의 IP 주소를 포함 해야 합니다.
 
 - 모든 필수 DNS 및 SRV 레코드를 만든 Microsoft 365 또는 Office 365 조직
 
     > [!IMPORTANT]
-    > 테 넌 트를 클라우드 Connector Edition과 통합 하는 경우 조직의 SIP 도메인으로 기본 도메인 접미사 onmicrosoft.com을 사용할 수 없습니다. > sip를 사용할 수 없습니다. \< \>이 DNS 레코드는 Microsoft 365 및 Office 365에서 사용 되므로 도메인 이름과 클라우드 커넥터에 지 액세스 프록시 인터페이스의 이름입니다.
+    > 테 넌 트를 클라우드 Connector Edition과 통합 하는 경우 조직의 SIP 도메인으로 기본 도메인 접미사 onmicrosoft.com을 사용할 수 없습니다. > sip를 사용할 수 없습니다.\<Domain Name\> 이 DNS 레코드는 Microsoft 365 및 Office 365에서 사용 되므로 클라우드 커넥터에 지 액세스 프록시 인터페이스의 이름입니다.
 
 - 공용 CA (인증 기관)에서 가져온 외부에 지에 대 한 인증서입니다.
 
@@ -352,11 +355,11 @@ ms.locfileid: "44220088"
 |내부 클라이언트  <br/> |클라우드 커넥터 중재 구성 요소  <br/> |TCP 50000-50019  <br/> |TCP 49 152-57 500\*  <br/> |
 |내부 클라이언트  <br/> |클라우드 커넥터 중재 구성 요소  <br/> |UDP 50000-50019  <br/> |UDP 49 152-57 500\*  <br/> |
 
-\*중재 구성 요소의 기본 포트 범위입니다. 최적의 통화 흐름을 위해 통화 당 4 개의 포트가 필요 합니다.
+\* 중재 구성 요소의 기본 포트 범위입니다. 최적의 통화 흐름을 위해 통화 당 4 개의 포트가 필요 합니다.
 
-\*\*이 포트는 SBC/PSTN 게이트웨이에서 구성 해야 합니다. 예를 들면 5060입니다. SBC/PSTN 게이트웨이에서 다른 포트를 구성할 수 있습니다.
+\*\* 이 포트는 SBC/PSTN 게이트웨이에서 구성 해야 합니다. 예를 들면 5060입니다. SBC/PSTN 게이트웨이에서 다른 포트를 구성할 수 있습니다.
 
-\*\*\*Sbc/gateway 제조업체에서 허용한 경우 SBC/게이트웨이에서 포트 범위를 제한할 수도 있습니다.
+\*\*\* Sbc/gateway 제조업체에서 허용한 경우 SBC/게이트웨이에서 포트 범위를 제한할 수도 있습니다.
 
 보안을 위해, [CsMediationServer](https://docs.microsoft.com/powershell/module/skype/set-csmediationserver?view=skype-ps) cmdlet을 사용 하 여 중재 구성 요소의 포트 범위를 제한할 수 있습니다.
 
@@ -435,7 +438,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
     이 대상에 대 한 프록시 제외가 필요한 경우 WinHTTP 바이패스 목록에 추가 해야 합니다.
 
-- 클라우드 커넥터 업데이트: [다운로드 센터](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com) 및[https://download.microsoft.com](https://download.microsoft.com)
+- 클라우드 커넥터 업데이트: [다운로드 센터](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com) 및 [https://download.microsoft.com](https://download.microsoft.com)
 
 ### <a name="dns-name-resolution-for-the-edge-component"></a>에 지 구성 요소에 대 한 DNS 이름 확인
 <a name="BKMB_Ports"> </a>
@@ -444,7 +447,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 각에 지 구성 요소는 외부 및 내부 연결 인터페이스가 있는 멀티홈 컴퓨터입니다. 클라우드 커넥터는 경계 네트워크 내의 도메인 컨트롤러 구성 요소에 DNS 서버를 배포 합니다. 모든 이름 확인을 위해 경계 내의 DNS 서버에 대 한에 지 서버를 가리킬 수 있지만, 다른 공용 DNS 서버에 대 한 이름 조회를 참조 하는 외부 쿼리에 대 한 하나 이상의 DNS A 레코드를 포함 하는 DNS 영역을 설정 하 여 클라우드 커넥터 DNS 서버를 사용 하도록 설정 해야 합니다.
 
-.Ini 파일에서 SIP 도메인과 같은 도메인 공간에서 게이트웨이의 FQDN 이름을 설정 하면이 SIP 도메인에 대 한 신뢰할 수 있는 영역이 경계 내의 DNS 서버에 생성 됩니다. 에 지 서버가이 DNS 서버를 가리키도록 하 여 이름을 확인 하면 Edge에서 _sipfederationtls를 확인 하지 않습니다. \< yourdomain \> DNS 레코드-통화 흐름에 필요 합니다. 이 경우에는에 지 외부 인터페이스에 DNS 서버를 제공 하 여 인터넷 이름 조회를 확인 하 고, 각에 지 구성 요소는 호스트 파일을 사용 하 여 다른 클라우드 커넥터 구성 요소 이름을 IP 주소로 확인 하는 것이 좋습니다.
+.Ini 파일에서 SIP 도메인과 같은 도메인 공간에서 게이트웨이의 FQDN 이름을 설정 하면이 SIP 도메인에 대 한 신뢰할 수 있는 영역이 경계 내의 DNS 서버에 생성 됩니다. 에 지 서버가이 DNS 서버를 가리키도록 하 여 이름을 확인 하면 Edge에서 _sipfederationtls를 확인 하지 않습니다.\<yourdomain\> DNS 레코드-통화 흐름에 필요 합니다. 이 경우에는에 지 외부 인터페이스에 DNS 서버를 제공 하 여 인터넷 이름 조회를 확인 하 고, 각에 지 구성 요소는 호스트 파일을 사용 하 여 다른 클라우드 커넥터 구성 요소 이름을 IP 주소로 확인 하는 것이 좋습니다.
 
 > [!NOTE]
 > 보안상의 이유로 클라우드 커넥터 DNS 서버가 프로덕션 도메인에서 이름 확인을 위해 내부 서버를 가리키지 않는 것이 좋습니다.
@@ -460,7 +463,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |SIP 도메인  <br/> |회사 사용자가 SIP URI를 사용 하 고 있습니다. 이 배포에서 처리할 모든 SIP 도메인을 제공 합니다. SIP 도메인은 두 개 이상 있을 수 있습니다.  <br/> ||
 |PSTN 사이트 수  <br/> |배포할 PSTN 사이트의 수입니다.  <br/> ||
 
-배포 하려는 각 PSTN 사이트에 대해 배포를 시작 하기 전에 다음 정보를 수집 해야 합니다. CloudConnector .ini 파일을 업데이트 하는 경우이 정보를 제공 해야 합니다.
+배포 하려는 각 PSTN 사이트에 대해 배포를 시작 하기 전에 다음 정보를 수집 해야 합니다. CloudConnector.ini 파일을 업데이트할 때이 정보를 제공 해야 합니다.
 
 게이트웨이 정보를 구성할 때는 다음 사항을 염두에 두어야 합니다.
 
@@ -557,7 +560,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
   ```
 
 > [!NOTE]
-> Sip에 대해 외부 DNS 항목을 만들지 않아야 합니다. \< \>이 이름은 Microsoft 365 또는 Office 365 배포에 속해 있기 때문에 microsoft.rtc.management.xds.sipdomain object입니다.
+> Sip에 대해 외부 DNS 항목을 만들지 않아야 \<sipdomain\> 합니다. 이 이름은 Microsoft 365 또는 Office 365 배포에 속해 있기 때문에 com입니다.
 
 > [!NOTE]
 > 조직에 배포 된 모든에 지 풀에 단일 인증서를 사용 하 고 옵션 2에 정의 된 대로 와일드 카드 인증서를 사용할 수 없는 경우에는 인증서의 SAN 이름에 배포 된 모든에 지 풀에 대해 FQDN을 포함 해야 합니다.
@@ -581,7 +584,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
   ```
 
 > [!NOTE]
-> Sip에 대해 외부 DNS 항목을 만들지 않아야 합니다. \< \>이 이름은 Microsoft 365 또는 Office 365 배포에 속해 있기 때문에 microsoft.rtc.management.xds.sipdomain object입니다.
+> Sip에 대해 외부 DNS 항목을 만들지 않아야 \<sipdomain\> 합니다. 이 이름은 Microsoft 365 또는 Office 365 배포에 속해 있기 때문에 com입니다.
 
 배포를 위해 다음 테이블을 사용할 수 있습니다.
 

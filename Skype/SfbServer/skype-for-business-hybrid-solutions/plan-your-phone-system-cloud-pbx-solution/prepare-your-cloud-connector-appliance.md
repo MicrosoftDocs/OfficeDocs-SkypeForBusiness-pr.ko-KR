@@ -16,14 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: 클라우드 커넥터 기기를 배포 하 고 전화 시스템 (Cloud PBX)과 함께 사용 하도록 준비 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d00002719ed8aaac7d0f0fb0e5ceb5722acc289c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 74c4885a25b4176f4d5eb3ac27926bd9528387c6
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220068"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358944"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>클라우드 커넥터 어플라이언스 준비
+
+> [!Important]
+> 클라우드 커넥터 버전은 비즈니스용 Skype Online과 함께 2021 년 7 월 31 일에 사용 중지 됩니다. 조직이 팀으로 업그레이드 된 후에는 [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아보세요.
 
 클라우드 커넥터 기기를 배포 하 고 전화 시스템 (Cloud PBX)과 함께 사용 하도록 준비 하는 방법에 대해 알아봅니다.
 
@@ -150,11 +153,11 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
     경계 네트워크를 연결 하는 스위치의 이름을 인터넷 **SFB CCE Internet 스위치**에 설정 합니다.
 
-## <a name="update-the-cloudconnectorini-configuration-file"></a>CloudConnector .ini 구성 파일 업데이트
+## <a name="update-the-cloudconnectorini-configuration-file"></a>CloudConnector.ini 구성 파일 업데이트
 
-[비즈니스용 Skype 클라우드 Connector Edition 계획](plan-skype-for-business-cloud-connector-edition.md) 의 [배포 매개 변수 결정](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) 에서 수집한 정보를 사용 하 여 cloudconnector .ini 파일을 준비 합니다.
+[비즈니스용 Skype 클라우드 Connector Edition 계획](plan-skype-for-business-cloud-connector-edition.md) 의 [배포 매개 변수 결정](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) 에서 수집한 정보를 사용 하 여 CloudConnector.ini 파일을 준비 합니다.
 
-파일을 업데이트 하려면 먼저 다음 cmdlet을 실행 하 여 샘플 서식 파일 (CloudConnector. .ini)을 가져옵니다.
+파일을 업데이트 하려면 먼저 다음 cmdlet을 실행 하 여 예제 서식 파일 (CloudConnector.Sample.ini)을 가져옵니다.
 
 ```powershell
 Export-CcConfigurationSampleFile
@@ -162,7 +165,7 @@ Export-CcConfigurationSampleFile
 
 이 예제 템플릿은 **기기 디렉터리**에 저장 됩니다.
 
-해당 환경의 값을 사용 하 여 업데이트 한 후에는 해당 파일을 **기기 디렉터리**에 있는 cloudconnector로 저장 합니다. **CcApplianceDirectory** 를 실행 하 여 **기기 디렉터리**에 대 한 경로를 확인할 수 있습니다.
+환경에 대 한 값을 사용 하 여 업데이트 한 후에는 **기기 디렉터리**에 CloudConnector.ini 파일을 저장 합니다. **CcApplianceDirectory** 를 실행 하 여 **기기 디렉터리**에 대 한 경로를 확인할 수 있습니다.
 
 .Ini 파일을 업데이트 하는 경우 다음 사항을 고려 하십시오.
 
@@ -243,7 +246,7 @@ Start-CcDownload
 > [!NOTE]
 > 첫 번째 어플라이언스에 대해서만이 단계를 수행 해야 합니다. 
 
-이 단계를 진행 하기 전에 corpnet 스위치를 만들었는지 확인 합니다. 또한 CloudConnector .ini 파일에서 다음 설정이 올바르게 구성 되었는지 확인 합니다.
+이 단계를 진행 하기 전에 corpnet 스위치를 만들었는지 확인 합니다. 또한 CloudConnector.ini 파일에서 다음 설정이 올바르게 구성 되었는지 확인 합니다.
 
 - 사설망 CorpnetSwitchName
 
@@ -295,7 +298,7 @@ Set-ExecutionPolicy RemoteSigned
 > [!NOTE]
 > 이 작업은 클라우드 커넥터 버전 1.4.2 이상에는 필요 하지 않습니다. 
 
-CceService 계정은 비즈니스용 Skype 클라우드 커넥터 에디션 배포 중에 만들어집니다. 클라우드 커넥터 관리 서비스가 실행 되며 cloudconnector .msi를 제거 하는 권한이 필요 합니다. 사용자가 로그 오프할 때 사용자 레지스트리가 언로드되지 않도록 지정 하려면 클라우드 커넥터 호스트 컴퓨터에서 그룹 정책 설정을 변경 해야 합니다. 아래 단계를 수행 합니다.
+CceService 계정은 비즈니스용 Skype 클라우드 커넥터 에디션 배포 중에 만들어집니다. 클라우드 커넥터 관리 서비스가 실행 되며 cloudconnector.msi를 제거 하는 권한이 필요 합니다. 사용자가 로그 오프할 때 사용자 레지스트리가 언로드되지 않도록 지정 하려면 클라우드 커넥터 호스트 컴퓨터에서 그룹 정책 설정을 변경 해야 합니다. 아래 단계를 수행 합니다.
 
 ### <a name="to-change-the-group-policy-setting"></a>그룹 정책 설정을 변경 하려면
 

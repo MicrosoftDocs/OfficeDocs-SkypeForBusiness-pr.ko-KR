@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: '요약: 온-프레미스 PSTN 연결과 함께 전화 시스템을 사용 하는 사용자에 게 음성 정책을 할당 하는 방법에 대해 알아보려면이 항목을 읽어 보십시오.'
-ms.openlocfilehash: 141d3cca560201df921fb4195db55ac60103a3d6
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5d56d4f88e30b605276296b35cd9f316348342ca
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221862"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359324"
 ---
 # <a name="assign-a-voice-routing-policy"></a>음성 라우팅 정책 할당
  
+> [!Important]
+> 비즈니스용 Skype Online은 서비스에 더 이상 액세스할 수 없게 되 고, 2021 년 7 월 31 일에 만료 됩니다.  또한 비즈니스용 Skype 서버 또는 클라우드 Connector Edition과 비즈니스용 Skype Online을 통해 온-프레미스 환경 간의 PSTN 연결이 더 이상 지원 되지 않습니다.  [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아봅니다.
+
 **요약:** 온-프레미스 PSTN 연결과 함께 전화 시스템을 사용 하는 사용자에 게 음성 정책을 할당 하는 방법에 대 한 자세한 내용은이 항목을 참조 하십시오. 
   
 사용자가 비즈니스용 Skype 온라인에 있고 온-프레미스 PSTN 연결을 통해 전화 시스템을 사용 하는 경우 두 가지 음성 정책이 적용 됩니다. 하나는 온-프레미스 음성 라우팅 정책 (온-프레미스에 할당)입니다. 이 정책은 전역 또는 사용자별 일 수 있으며 사용자와 연결 된 PSTN 사용 레코드를 정의 합니다. 이 항목에서는이 정책을 할당 하는 방법에 대해 설명 합니다.
@@ -57,7 +60,7 @@ ms.locfileid: "44221862"
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
-    예시는 다음과 같습니다:
+    예를 들어,
     
    ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
@@ -77,7 +80,7 @@ ms.locfileid: "44221862"
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
-    예시는 다음과 같습니다:
+    예를 들어,
     
    ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
@@ -101,7 +104,7 @@ ms.locfileid: "44221862"
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
-    예시는 다음과 같습니다:
+    예를 들어,
     
    ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice

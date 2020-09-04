@@ -20,15 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: 비즈니스용 skype Online에서 온-프레미스 음성 인프라와 전화 시스템 (클라우드 PBX) 음성 서비스의 통합을 사용 하도록 설정 하는 데 필요한 비즈니스용 Skype 클라우드 커넥터 버전을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a7c157836497383d89055f8ab986aa15f7e11870
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: e30fcb4cad44bffed495f1191e5e5cae73bb18cc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219518"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358794"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>비즈니스용 Skype 클라우드 커넥터 에디션 구성 및 관리
  
+> [!Important]
+> 클라우드 커넥터 버전은 비즈니스용 Skype Online과 함께 2021 년 7 월 31 일에 사용 중지 됩니다. 조직이 팀으로 업그레이드 된 후에는 [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아보세요.
+
 비즈니스용 skype Online에서 온-프레미스 음성 인프라와 전화 시스템 (클라우드 PBX) 음성 서비스의 통합을 사용 하도록 설정 하는 데 필요한 비즈니스용 Skype 클라우드 커넥터 버전을 구성 하는 방법에 대해 알아봅니다. 
   
 시작 하기 전에 [비즈니스용 Skype 클라우드 Connector Edition 계획](plan-skype-for-business-cloud-connector-edition.md)의 필수 구성 요소를 검토 해야 합니다.

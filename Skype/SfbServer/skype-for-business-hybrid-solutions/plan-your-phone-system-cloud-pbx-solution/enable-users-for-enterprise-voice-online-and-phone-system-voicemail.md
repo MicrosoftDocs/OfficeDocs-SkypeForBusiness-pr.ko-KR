@@ -1,5 +1,5 @@
 ---
-title: 사용자가 Enterprise Voice online 및 전화 시스템 음성 메일을 사용할 수 있도록 설정
+title: 사용자가 전화 시스템 음성 사서함과 온라인으로 Enterprise Voice를 사용하도록 설정
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 비즈니스용 Skype 사용자에 대해 전화 시스템 음성 서비스를 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221108"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359184"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>사용자가 Enterprise Voice online 및 전화 시스템 음성 메일을 사용할 수 있도록 설정
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>사용자가 전화 시스템 음성 사서함과 온라인으로 Enterprise Voice를 사용하도록 설정
  
+> [!Important]
+> 비즈니스용 Skype Online은 서비스에 더 이상 액세스할 수 없게 되 고, 2021 년 7 월 31 일에 만료 됩니다.  또한 비즈니스용 Skype 서버 또는 클라우드 Connector Edition과 비즈니스용 Skype Online을 통해 온-프레미스 환경 간의 PSTN 연결이 더 이상 지원 되지 않습니다.  [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아봅니다.
+
 비즈니스용 Skype 사용자에 대해 전화 시스템 음성 서비스를 사용 하도록 설정 하는 방법을 알아봅니다.
   
 온-프레미스 PSTN 연결을 사용 하 여 전화 시스템을 배포 하는 마지막 단계는 사용자가 전화 시스템 및 음성 메일을 사용할 수 있도록 하는 것입니다. 이러한 기능을 사용 하도록 설정 하려면 전역 관리자 역할을 가진 사용자 여야 하며 원격 PowerShell을 실행할 수 있어야 합니다. 비즈니스용 Skype Online에 Enterprise Voice가 사용 하도록 설정 되어 있지 않은 모든 사용자 계정에 대해이 항목의 단계를 수행 해야 합니다.
@@ -78,7 +81,7 @@ ms.locfileid: "44221108"
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    예시는 다음과 같습니다:
+    예를 들어,
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true

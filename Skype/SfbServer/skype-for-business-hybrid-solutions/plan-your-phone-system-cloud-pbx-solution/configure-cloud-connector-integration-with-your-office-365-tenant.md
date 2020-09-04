@@ -16,15 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Microsoft 365 또는 Office 365 조직과의 클라우드 커넥터 통합을 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: 2c65551ce75efce61f82d47ac2b9c16db555ab42
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: bf5d8c4fb9684a205670701428fa8db30835a871
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221248"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359074"
 ---
 # <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Microsoft 365 또는 Office 365 조직과의 클라우드 커넥터 통합 구성
- 
+
+> [!Important] 
+> 클라우드 커넥터 버전은 비즈니스용 Skype Online과 함께 2021 년 7 월 31 일에 사용 중지 됩니다. 조직이 팀으로 업그레이드 된 후에는 [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아보세요.
+
 Microsoft 365 또는 Office 365 조직과의 클라우드 커넥터 통합을 구성 하는 방법을 알아봅니다.
   
 비즈니스용 Skype 클라우드 커넥터 Edition 설치가 완료 되 면이 섹션의 단계를 수행 하 여 배포를 구성 하 고 Microsoft 365 또는 Office 365 조직에 연결 합니다.
@@ -69,7 +72,7 @@ Microsoft 365 또는 Office 365 조직에 다음 DNS 레코드를 추가 합니�
 
 비즈니스용 Skype 클라우드 커넥터 에디션 배포와 Microsoft 365 또는 Office 365 조 직 간에 하이브리드 연결을 구성 하려면 원격 PowerShell 세션에서 다음 cmdlet을 실행 합니다. 원격 PowerShell 세션을 설정 하는 방법에 [대 한 자세한 내용은 Windows PowerShell에 대 한 컴퓨터 설정](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)를 참조 하십시오.
   
-Cmdlet은 액세스에 지 외부 FQDN을 설정 합니다. 첫 번째 명령에서 \< 외부 액세스에 지 FQDN은 \> SIP 액세스에 지 역할에 대해 하나 여야 합니다. 기본적으로이는 ap 여야 합니다. \< 도메인 이름 \> 입니다.
+Cmdlet은 액세스에 지 외부 FQDN을 설정 합니다. 첫 번째 명령에서는 \<External Access Edge FQDN\> SIP 액세스에 지 역할에 대 한 항목 중 하나 여야 합니다. 기본적으로이는 \<Domain Name\> ap입니다.
   
 ```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
@@ -140,7 +143,7 @@ $user.VoicePolicy
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
-사용자 단위를 사용 하지 않도록 설정한 후 국가별 호출을 다시 사용 하도록 설정 하려면 동일한 cmdlet을 실행 하 되 **PolicyName** 의 값을 *InternationalCallsAllowed* 로 변경 합니다.
+사용자 단위를 사용 하지 않도록 설정한 후 국가별 호출을 다시 사용 하도록 설정 하려면 동일한 cmdlet을 실행 하 되 **PolicyName** 의 값을 *InternationalCallsAllowed*  로 변경 합니다.
   
 ## <a name="assign-users-to-pstn-sites"></a>PSTN 사이트에 사용자 할당
 
@@ -180,7 +183,7 @@ P2P 호출이 PSTN 회의로 에스컬레이션 되 면 비즈니스용 Skype �
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. 비즈니스용 Skype 테 넌 트 관리자 자격 증명을 사용 하 여 테 넌 트 비즈니스용 Skype 원격 PowerShell 세션을 시작한 후 다음 cmdlet을 실행 하 여 중재 서버 및에 지 서버 FQDN을 해당 사용자 계정으로 설정 하 고 \< DisplayName을 \> 1 단계에서 만든 계정에 대 한 사용자의 표시 이름으로 바꿉니다.
+3. 비즈니스용 Skype 테 넌 트 관리자 자격 증명을 사용 하 여 비즈니스용 Skype 원격 PowerShell 세션을 시작한 후 다음 cmdlet을 실행 하 여 중재 서버 및에 지 서버 FQDN을 해당 사용자 계정으로 설정 하 고 \<DisplayName\> 1 단계에서 만든 계정에 대 한 사용자의 표시 이름으로 바꿉니다.
     
    ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>

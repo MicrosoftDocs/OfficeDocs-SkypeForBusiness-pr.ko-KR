@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10fa7e13289a4696dd723b2b6634dc7147321342
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 5810eb2ef38251ad88bd2accf12d857adda9dcbe
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597093"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359394"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
@@ -90,7 +90,7 @@ Skype 소비자 서비스 및 비즈니스용 Skype 서버는 비즈니스용 Sk
 **현재 배포를 진행 중이거나 배포 계획을 하는 고객 (Microsoft 365에서 비즈니스용 Skype)에 게 권장 되는 사항은 무엇 인가요?**<br>
 현재 비즈니스용 Skype Online을 배포하는 고객은 계속해서 사용해도 좋습니다. 새로운 모든 Microsoft 365 고객이 비즈니스용 Skype와 독립적으로 또는 병렬로 팀 사용을 시작 하 고 경로 (공존 또는 팀만 해당)와 비즈니스 요구를 충족 하는 시간을 결정 하는 것이 좋습니다. 비즈니스용 Skype Online의 서비스 만료 기간에 상관없이 고객은 비즈니스용 Skype Online 서비스가 만료되기 전에 Teams로 이동해야 합니다.
 
-**이는 라이선스 관점에서 무엇을 의미 하나요? 고객이 팀의 지능형 통신 서비스에 대해 어떻게 요금을 지불 하나요?**<br>
+**해당 사항은 라이선스 관점에서 무엇을 의히마하요? 고객이 Teams에서 지능형 커뮤니케이션 서비스에 대한 비용을 어떻게 지불할 수 있나요?**<br>
 팀은 대부분의 Microsoft 365 제품군에서 사용할 수 있습니다. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 고객의 만든 기존 라이센싱 투자는 팀으로 이월됩니다. 예를 들어 고객이 독립형으로 혹은 E5의 일부로서 비즈니스용 Skype와 Audio Conferencing 기능을 구입한 경우 Teams에서도 현재 사용할 수 있는 그대로 사용할 수 있습니다.
 
 **Microsoft는 예정된 업그레이드를 계획하고 있나요?**<br>
@@ -100,6 +100,9 @@ Skype 소비자 서비스 및 비즈니스용 Skype 서버는 비즈니스용 Sk
 
 **비즈니스용 Skype Online 서비스 만료 공고는 하이브리드 구성(비즈니스용 Skype Online 및 비즈니스용 Skype 서버)을 갖춘 조직에 어떻게 영향을 미치나요?**<br>
 온라인 및 프레미스 구성을 갖춘 하이브리드 고객은 사용자를 비즈니스용 Skype Online에서 Microsoft Teams로 서비스 만료일 2021년 7월 31 일까지 전환해야 합니다. 공존 및 상호 운용성을 기반으로 구축된 하이브리드 구성의 업그레이드 경로는 비즈니스용 Skype Online이 만료된 후에도 유지됩니다. 자세한 내용은 [Skype for Business와의 공존](coexistence-chat-calls-presence.md) 및 [Microsoft Teams 및 Skype for Business의 공존과 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md)를 참조하십시오.
+
+**비즈니스용 Skype Online에서 온-프레미스 공공 통신 네트워크 (PSTN) 연결 및 온라인 전화 시스템 기능에 대 한 비즈니스용 Skype 구성을 사용 하는 조직에는 어떤 영향이 있나요?**<br>
+일부 조직에서는 PSTN 연결에 대해 홈 온-프레미스와 전화 시스템 기능에 대 한 홈 online 간에 사용자를 분할 했습니다. 비즈니스용 Skype Online 종료에 대 한 액세스 권한이 있으면 조직에서 온라인 사용자를 Microsoft 팀으로 전환 하 고 온-프레미스 전화 통신 네트워크를 [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)통해 팀에 연결 해야 합니다.
 
 구독 자격을 갖춘 고객은 Teams로의 온보딩 지원을 위한 [FastTrack](https://www.microsoft.com/fasttrack?rtc=1)에 참여할 것을 권장합니다.
 

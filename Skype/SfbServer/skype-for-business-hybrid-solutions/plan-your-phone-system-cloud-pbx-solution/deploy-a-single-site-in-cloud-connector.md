@@ -16,15 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 클라우드 커넥터 Edition에 단일 PSTN 사이트를 배포 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220538"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358934"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>클라우드 커넥터에서 단일 사이트 배포
  
+> [!Important]
+> 클라우드 커넥터 버전은 비즈니스용 Skype Online과 함께 2021 년 7 월 31 일에 사용 중지 됩니다. 조직이 팀으로 업그레이드 된 후에는 [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아보세요.
+
 클라우드 커넥터 Edition에 단일 PSTN 사이트를 배포 하는 방법에 대해 알아봅니다.
   
 HA (고가용성) 지원 여부에 관계 없이 비즈니스용 Skype 클라우드 Connector Edition을 배포할 수 있습니다. HA를 사용 하도록 설정 하려는 경우에는 사이트 내에 두 개 이상의 기기를 배포 해야 합니다. 배포 후에 HA를 지원 하도록 기존 기기를 변환할 수도 있습니다.

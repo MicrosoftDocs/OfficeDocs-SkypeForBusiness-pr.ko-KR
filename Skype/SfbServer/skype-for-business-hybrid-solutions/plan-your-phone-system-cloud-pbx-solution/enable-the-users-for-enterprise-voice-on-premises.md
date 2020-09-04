@@ -19,16 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 전화 시스템 (클라우드 PBX)을 사용 하는 사용자는 먼저 Enterprise Voice에 대해이를 사용 하도록 설정 하 고 전화 번호를 할당 해야 합니다. 이 작업은 온-프레미스 배포를 사용 하 고 사용자가 온-프레미스 배포에 여전히 속해 있는 동안에는 수행 해야 합니다.
-ms.openlocfilehash: f02638f618b32190fafcded66550b5c3dcc52f2d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7fc629114900cb9f4d825bd8fdc8e946e6c63880
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221702"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359194"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>사용자가 온-프레미스 Enterprise Voice를 사용 하도록 설정
  
 전화 시스템 (클라우드 PBX)을 사용 하는 사용자는 먼저 Enterprise Voice에 대해이를 사용 하도록 설정 하 고 전화 번호를 할당 해야 합니다. 이 작업은 온-프레미스 배포를 사용 하 고 사용자가 온-프레미스 배포에 여전히 속해 있는 동안에는 수행 해야 합니다.
+
+> [!Important]
+> 비즈니스용 Skype Online은 서비스에 더 이상 액세스할 수 없게 되 고, 2021 년 7 월 31 일에 만료 됩니다.  또한 비즈니스용 Skype 서버 또는 클라우드 Connector Edition과 비즈니스용 Skype Online을 통해 온-프레미스 환경 간의 PSTN 연결이 더 이상 지원 되지 않습니다.  [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아봅니다.
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>사용자에 게 Enterprise Voice 온-프레미스를 사용 하도록 설정 하 고 전화 번호를 할당 하려면
 

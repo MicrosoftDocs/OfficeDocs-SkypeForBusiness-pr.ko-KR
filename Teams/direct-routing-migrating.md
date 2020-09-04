@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 비즈니스용 Skype Online 및 팀 구성 관점에서 직접 라우팅하기 위해 마이그레이션하는 데 필요한 사항에 대해 알아보세요.
-ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691364"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359424"
 ---
 # <a name="migrate-to-direct-routing"></a>직접 라우팅으로 마이그레이션
 
@@ -95,6 +95,9 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 > 전역 CsVoiceRoutingPolicy 구성 된 경우이 글로벌 정책과 연결 된 PSTN 사용량을 제거 하는 것이 좋습니다. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>클라우드 커넥터 에디션을 통해 온-프레미스 PSTN 연결을 사용 하 여 Office 365 전화 시스템에서 마이그레이션 
+
+> [!Important]
+> 클라우드 커넥터 버전이 비즈니스용 Skype Online과 함께 2021 년 7 월 31 일에 사용 중지 됩니다. 조직이 팀으로 업그레이드 되 면 [직접 라우팅을](direct-routing-landing-page.md)사용 하 여 팀에 온-프레미스 전화 접속 네트워크를 연결 하는 방법을 알아보세요.
 
 클라우드 커넥터를 통해 온-프레미스 PSTN 연결을 사용 하 여 전화 시스템을 마이그레이션하는 방법에 대 한 자세한 내용은 다음을 참조 하세요.
 

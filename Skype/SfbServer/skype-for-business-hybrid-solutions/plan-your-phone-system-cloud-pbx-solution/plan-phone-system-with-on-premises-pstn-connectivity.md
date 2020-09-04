@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용 하 여 전화 시스템 계획
+title: 비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하여 전화 시스템 계획
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 온-프레미스 PSTN 연결을 사용한 클라우드 PBX (전화 시스템) 계획 시 고려 사항에 대해 알아봅니다.
-ms.openlocfilehash: 367b7b976dbc79e50f4f7dc1fc1cdba85ddcc679
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f8baab67191f32013a9d7a01ddc12f1b04b62c03
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220239"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358814"
 ---
-# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용 하 여 전화 시스템 계획
+# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용하여 전화 시스템 계획
+
+> [!Important]
+> 비즈니스용 Skype Online은 서비스에 더 이상 액세스할 수 없게 되 고, 2021 년 7 월 31 일에 만료 됩니다.  또한 비즈니스용 Skype 서버 또는 클라우드 Connector Edition과 비즈니스용 Skype Online을 통해 온-프레미스 환경 간의 PSTN 연결이 더 이상 지원 되지 않습니다.  [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아봅니다.
 
 온-프레미스 PSTN 연결을 사용한 클라우드 PBX (전화 시스템) 계획 시 고려 사항에 대해 알아봅니다.
 
@@ -59,7 +62,7 @@ ms.locfileid: "44220239"
 
 통화 센터와 같은 레거시 PBX에 대 한 사용자 지정 기능이 나 주요 추가 기능이 있을 수 있습니다. 현재 전화 시스템에서 사용자 지정 기능을 사용할 수 없는 경우에는 해당 사용자 지정 기능이 레거시 PBX와 함께 온-프레미스에 있어야 하 고, 사용자 지정 기능에 액세스할 필요가 없는 사용자에 게 온-프레미스 PSTN 연결을 사용 하 여 전화를 거는 것이 좋습니다.
 
-비즈니스용 Skype 2015 서버와 직접 상호 작용 하는 레거시 Pbx 목록은 [Microsoft Lync에 대 한 인프라 자격이](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)참조 하세요. PBX가이 목록에 없는 경우에는 세션 경계 컨트롤러를 사용 하 여 PBX를 비즈니스용 Skype Online에서 전화 시스템에 연결할 수 있습니다.
+비즈니스용 Skype 2015 서버와 직접 상호 작용 하는 레거시 Pbx 목록은  [Microsoft Lync에 대 한 인프라 자격이](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)참조 하세요. PBX가이 목록에 없는 경우에는 세션 경계 컨트롤러를 사용 하 여 PBX를 비즈니스용 Skype Online에서 전화 시스템에 연결할 수 있습니다.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>품질 및 성능에 대 한 네트워크 고려 사항
 

@@ -16,21 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 기존 비즈니스용 Skype 클라우드 Connector Edition 1.4.1 이상 배포의 구성을 수정 하려면이 항목의 단계를 수행 합니다.
-ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 2d70dfa9e25a0c89a31e25699e67a21f14e4f097
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220298"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359114"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>기존 클라우드 커넥터 배포의 구성 수정
- 
+
+> [!Important]
+> 클라우드 커넥터 버전은 비즈니스용 Skype Online과 함께 2021 년 7 월 31 일에 사용 중지 됩니다. 조직이 팀으로 업그레이드 된 후에는 [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아보세요.
+
 기존 비즈니스용 Skype 클라우드 Connector Edition 1.4.1 이상 배포의 구성을 수정 하려면이 항목의 단계를 수행 합니다. 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>단일 사이트의 구성 수정
 <a name="BKMK_SIngleSite"> </a>
 
-사이트에 기기가 하나뿐인 경우 기기를 배포한 후 구성 설정을 변경 하려는 경우에는 CloudConnector .ini 파일을 수정 하 고 배포를 다시 시작할 수 있습니다.
+사이트에 기기가 하나뿐인 경우 기기를 배포한 후 구성 설정을 변경 하려는 경우에는 CloudConnector.ini 파일을 수정 하 고 배포를 다시 시작할 수 있습니다.
   
 1. 다음 cmdlet를 실행 하 여 호스트 서버에서 기존 가상 컴퓨터를 모두 제거 합니다. 
     
@@ -44,7 +47,7 @@ ms.locfileid: "44220298"
    Unregister-CcAppliance
    ```
 
-3. 기기 디렉터리에서 CloudConnector .ini 파일을 업데이트 합니다.
+3. 기기 디렉터리에서 CloudConnector.ini 파일을 업데이트 합니다.
     
 4. 다음 cmdlet을 실행 하 여 구성을 업데이트 합니다. (이 단계는 버전 2, 이전 버전의 경우에만 적용 되며, 다음 단계로 건너뜁니다.)
     
@@ -64,7 +67,7 @@ ms.locfileid: "44220298"
    Install-CcAppliance
    ```
 
-사이트에 둘 이상의 기기가 있는 경우 다음 단계를 수행 하 고 CloudConnector .ini 파일을 수정한 다음 기기를 하나씩 다시 배포 해야 합니다.
+사이트에 둘 이상의 기기가 있는 경우 다음 단계를 수행 하 고 CloudConnector.ini 파일을 수정한 다음 기기를 하나씩 다시 배포 해야 합니다.
   
 1. 다음 cmdlet를 실행 하 여 현재 기기에 있는 기존 가상 컴퓨터를 모두 제거 합니다. 
     
@@ -78,7 +81,7 @@ ms.locfileid: "44220298"
    Unregister-CcAppliance
    ```
 
-3. 기기 디렉터리에서 CloudConnector .ini 파일을 업데이트 합니다.
+3. 기기 디렉터리에서 CloudConnector.ini 파일을 업데이트 합니다.
     
 4. 다음 cmdlet을 실행 하 여 구성을 업데이트 합니다. (이 단계는 버전 2, 이전 버전의 경우에만 적용 되며, 다음 단계로 건너뜁니다.)
     
@@ -175,7 +178,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 이 섹션은 클라우드 커넥터 버전 2.0 이상에 적용할 수 있습니다. 
   
-모든 클라우드 커넥터 자격 증명은 "%SystemDrive%\Programdata\Cloudconnector\credentials. \< " 파일에 저장 됩니다. CurrentUser \> "가 있습니다. 호스트 서버의 암호가 변경 되 면 로컬로 저장 된 자격 증명을 업데이트 해야 합니다.
+모든 클라우드 커넥터 자격 증명은 "%SystemDrive%\Programdata\Cloudconnector\credentials." 파일에 저장 됩니다 \<CurrentUser\> . xml "입니다. 호스트 서버의 암호가 변경 되 면 로컬로 저장 된 자격 증명을 업데이트 해야 합니다.
   
 클라우드 커넥터 기기에서 로컬로 저장 된 자격 증명을 업데이트 하려면 [Get-cccredential](get-cccredential.md) 및 [-cccredential](set-cccredential.md) cmdlet을 사용 하 고 다음 단계를 수행 합니다.
   
@@ -191,7 +194,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. 호스트 서버를 다시 시작 합니다.
     
-4. 다음 파일을 삭제 합니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> "가 있습니다.
+4. "%SystemDrive%\Programdata\Cloudconnector\credentials." 파일을 \<CurrentUser\> 삭제 합니다. xml "입니다.
     
 5. PowerShell 콘솔을 관리자 권한으로 시작한 다음 "레지스터-CcAppliance-Local"을 실행 하 여 설명에 해당 하는 암호를 다시 입력 합니다. 클라우드 커넥터 배포 전에 입력 한 것과 동일한 암호를 입력 해야 합니다.
     
@@ -215,7 +218,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 이 섹션은 클라우드 커넥터 버전 2.0.1 이상에 적용할 수 있습니다. 
   
-클라우드 커넥터 서비스가 클라우드 커넥터 관리 서비스를 실행 합니다. CceService 계정은 클라우드 커넥터 에디션 배포 중에 만들어지고 다음 파일에 저장 됩니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> "및"%SystemDrive%\Programdata\Cloudconnector\credentials.. CceService ".
+클라우드 커넥터 서비스가 클라우드 커넥터 관리 서비스를 실행 합니다. CceService 계정은 클라우드 커넥터 에디션 배포 중에 만들어지고 "%SystemDrive%\Programdata\Cloudconnector\credentials. 파일에 저장 \<CurrentUser\> 됩니다. xml "및"% \Programdata\Cloudconnector\credentials..CceService.xml "
   
 모든 기기가 사이트 디렉터리 공유에 액세스할 수 있도록 하려면 CceService 계정의 암호가 사이트 내에 배포 된 모든 기기에서 동일 해야 합니다. 다음 사항에 유의해야 합니다.
   
@@ -271,11 +274,11 @@ Set-CcCredential -AccountType TenantAdmin
     
     - CcLockFile
     
-    - Site_에 \< 지 외부 Sip 풀 fqdn\>
+    - Site_\<Edge External Sip Pool fqdn\>
     
-    - Tenant_에 \< 지 외부 Sip 풀 fqdn\>
+    - Tenant_\<Edge External Sip Pool fqdn\>
     
-    - TenantConfigLock_에 \< 지 외부 Sip 풀 fqdn\>
+    - TenantConfigLock_\<Edge External Sip Pool fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>새 SIP 도메인 추가
 <a name="BKMK_UpdatePassword"> </a>

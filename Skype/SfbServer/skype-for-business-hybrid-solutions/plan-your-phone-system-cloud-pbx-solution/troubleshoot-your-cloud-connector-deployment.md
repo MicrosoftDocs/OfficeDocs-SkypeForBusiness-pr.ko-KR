@@ -16,14 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Cloud Connector Edition 배포 문제를 해결 합니다.
-ms.openlocfilehash: 97ece0ee1bcc11c22fd55709d025169ed95b16ff
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7a1caea67c5b5899c2dc0909ef771a57c7c50389
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220228"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359334"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>클라우드 커넥터 배포 문제 해결
+
+> [!Important]
+> 클라우드 커넥터 버전은 비즈니스용 Skype Online과 함께 2021 년 7 월 31 일에 사용 중지 됩니다. 조직이 팀으로 업그레이드 된 후에는 [직접 라우팅을](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)사용 하 여 팀에 온-프레미스 전화 통신 네트워크를 연결 하는 방법을 알아보세요.
  
 Cloud Connector Edition 배포 문제를 해결 합니다.
   
@@ -159,13 +162,13 @@ Cloud Connector Edition 배포 문제를 해결 합니다.
 
     또는 수동으로 업데이트를 확인 하 고 설치할 수 있습니다. 다음 섹션을 참조하세요.
     
-- **문제: 현재 입력/구성 \< SiteName \> 또는 \< ApplianceName \> 또는 \< 중재 서버 FQDN \> 또는 \< 중재 서버 IP 주소가 \> 기존 기기와 충돌 하므로 기기를 등록할 수 없습니다. 충돌 하는 기기를 제거 하거나 입력/구성 정보를 업데이트 한 다음 다시 등록 합니다. ' 등록-CcAppliance를 실행 하 여 현재 기기를 온라인에 등록할 수 있습니다.**
+- **문제: 현재 입력/구성 \<SiteName\> 또는 \<ApplianceName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> 기존 기기와의 충돌 때문에 기기를 등록할 수 없습니다. 라는 오류 메시지가 표시 됩니다. 충돌 하는 기기를 제거 하거나 입력/구성 정보를 업데이트 한 다음 다시 등록 합니다. ' 등록-CcAppliance를 실행 하 여 현재 기기를 온라인에 등록할 수 있습니다.**
     
-    **해결 방법:** \<ApplianceName \> , \< 중재 서버 FQDN \> 및 중재 서버 IP 주소에 대 한 값은 \< \> 고유 하 고 하나의 기기 등록에만 사용 해야 합니다. 기본적으로 \< ApplianceName는 \> 호스트 이름에서 가져옵니다. \<\> \< \> 구성 ini 파일에 정의 된 중재 서버 FQDN 및 중재 서버 IP 주소입니다.
+    **해결 방법:** 의 값 \<ApplianceName\> 이며, \<Mediation Server FQDN\> \<Mediation Server IP Address\> 고유 하 고 하나의 기기 등록에만 사용 해야 합니다. 기본적으로 \<ApplianceName\> 호스트 이름이 제공 됩니다. \<Mediation Server FQDN\>\<Mediation Server IP Address\>구성 ini 파일에 정의 되어 있습니다.
     
     예를 들어 (ApplianceName = MyserverNew, 중재 서버 FQDN = 10.10.10.10)를 사용 하 여 SiteName = 내 사이트에 등록 하지만 등록 된 기기가 있는 경우 (ApplianceName = Myserver, 중재 서버 FQDN =, 중재 서버 IP 주소 = 10.10.10.10)이 충돌을 받게 됩니다.
     
-    먼저 ApplianceRoot directory 섹션에서 CloudConnector .ini 파일을 확인 하세요. \< \> \< 파일에서 SiteName, 중재 서버 FQDN \> 및 \< 중재 서버 IP 주소 값 \> 을 가져옵니다. \<ApplianceName \> 는 호스트 서버 이름입니다.
+    먼저 ApplianceRoot directory 섹션에서 CloudConnector.ini 파일을 확인 하세요. \<SiteName\> \<Mediation Server FQDN\> 파일에 대 한 값을 얻게 됩니다 \<Mediation Server IP Address\> . \<ApplianceName\> 은 호스트 서버 이름입니다.
     
     그런 다음 비즈니스용 Skype 테 넌 트 관리자 자격 증명을 사용 하 여 테 넌 트 원격 PowerShell을 시작한 후 다음 cmdlet을 실행 하 여 등록 된 기기를 확인 합니다.
     
@@ -173,7 +176,7 @@ Cloud Connector Edition 배포 문제를 해결 합니다.
   Get-CsHybridPSTNAppliance
   ```
 
-    충돌을 확인 한 후에는 등록 된 기기와 일치 하는 정보로 CloudConnector .ini 파일을 업데이트 하거나 기존 기기를 등록 취소 하 여 충돌을 해결할 수 있습니다.
+    충돌을 식별 한 후에는 등록 된 기기와 일치 하는 정보로 CloudConnector.ini 파일을 업데이트 하거나 기존 기기를 등록 취소 하 여 충돌을 해결할 수 있습니다.
     
   ```powershell
   Unregister-CsHybridPSTNAppliance -Force
@@ -182,13 +185,13 @@ Cloud Connector Edition 배포 문제를 해결 합니다.
     
 - **문제: 호스트에서 실행 되는 배포 된 기기가 있는 경우 CcRunningVersion cmdlet은 빈 값을 반환 합니다.**
     
-  **해결 방법:** 1.3.4 또는 1.3.8에서 1.4.1으로 업그레이드할 때 이러한 상황이 발생할 수 있습니다. .Msi와 함께 버전 1.4.1을 설치한 후에는 `Register-CcAppliance` 다른 cmdlet을 실행 하기 전에 실행 해야 합니다. `Register-CcAppliance`%UserProfile%\CloudConnector 에서%ProgramData%\CloudConnector.로 모듈 .ini 파일을 마이그레이션합니다. 누락 된 경우%ProgramData%\CloudConnector 폴더에 새 모듈이 생성 되 고 1.3.4 또는 1.3.8의 실행/백업 버전 정보를 대체 합니다.
+  **해결 방법:** 1.3.4 또는 1.3.8에서 1.4.1으로 업그레이드할 때 이러한 상황이 발생할 수 있습니다. .Msi와 함께 버전 1.4.1을 설치한 후에는 `Register-CcAppliance` 다른 cmdlet을 실행 하기 전에 실행 해야 합니다. `Register-CcAppliance` module.ini 파일 을%UserProfile%\CloudConnector 에서%ProgramData%\CloudConnector.로 마이그레이션합니다. 이 파일을 놓치지 않으면%ProgramData%\CloudConnector 폴더에 새 module.ini 생성 되 고 1.3.4 또는 1.3.8의 실행/백업 버전 정보를 대체 합니다.
     
-  %UserProfile%\CloudConnector 및%ProgramData%\CloudConnector 폴더에서 .ini 파일을 비교 합니다. 차이점이 있으면%ProgramData%\CloudConnector에서 모듈 .ini 파일을 삭제 하 고 다시 실행 `Register-CcAppliance` 합니다. 올바른 실행 및 백업 버전으로 파일을 수동으로 수정할 수도 있습니다.
+  %UserProfile%\CloudConnector 및%ProgramData%\CloudConnector 폴더의 module.ini 파일을 비교 합니다. 차이점이 있으면%ProgramData%\CloudConnector에서 module.ini 파일을 삭제 하 고 다시 실행  `Register-CcAppliance` 합니다. 올바른 실행 및 백업 버전으로 파일을 수동으로 수정할 수도 있습니다.
     
 - **문제: CcVersion cmdlet을 실행 하 여 현재 스크립트 버전과 다른 이전 버전으로 전환한 후에는이 이전 버전에 대 한 고가용성이 지원 되지 않습니다.**
     
-    **해결 방법:** 예를 들어 1.4.1에서 1.4.2으로 업그레이드 했습니다. 실행 중에 확인할 수 있는 현재 스크립트 버전 및 실행 중인 `Get-CcVersion` 버전 `Get-CcRunningVersion` 은 모두 1.4.2입니다. 현재 `Switch-CcVersion` 실행 중인 버전을 다시 1.4.1으로 전환 하기 위해 실행 하는 경우이 이전 버전에 대 한 고가용성 지원이 제공 되지 않습니다.
+    **해결 방법:** 예를 들어 1.4.1에서 1.4.2으로 업그레이드 했습니다. 실행 중에 확인할 수 있는 현재 스크립트 버전 및 실행 중인 `Get-CcVersion` 버전  `Get-CcRunningVersion` 은 모두 1.4.2입니다. 현재 `Switch-CcVersion` 실행 중인 버전을 다시 1.4.1으로 전환 하기 위해 실행 하는 경우이 이전 버전에 대 한 고가용성 지원이 제공 되지 않습니다.
     
     전체 고가용성 지원을 받으려면 1.4.2으로 다시 전환 하 여 실행 중인 버전 및 스크립트 버전이 동일 해야 합니다. 1.4.2 배포에 문제가 있는 경우에는 가능한 한 빨리 제거한 후 다시 설치 하십시오.
     
@@ -246,7 +249,7 @@ Cloud Connector Edition 배포 문제를 해결 합니다.
     
     사용량이 많지 않은 시간에 이러한 단계를 수행 하는 것이 좋습니다.
     
-1. 첫 번째 기기에서 CcCertificationAuthorityFile cmdlet을 실행 하 여 SiteRoot 디렉터리에서 CA 백업 파일을 정리 \< \> 합니다.
+1. 첫 번째 기기에서 CcCertificationAuthorityFile cmdlet을 실행 하 여 디렉터리에서 CA 백업 파일을 정리 \<SiteRoot\> 합니다.
 
      ```powershell
      Remove-CcCertificationAuthorityFile
@@ -276,7 +279,7 @@ Cloud Connector Edition 배포 문제를 해결 합니다.
      Remove-CcLegacyServerCertificate 
      ```
 
-4. 첫 번째 기기에서 다음 cmdlet을 실행 하 여 CA 파일을 SiteRoot 폴더에 백업 \< 합니다 \> .
+4. 첫 번째 기기에서 다음 cmdlet을 실행 하 여 CA 파일을 해당 폴더에 백업 합니다 \<SiteRoot\> .
     
      ```powershell
      Backup-CcCertificationAuthority
@@ -303,7 +306,7 @@ Cloud Connector Edition 배포 문제를 해결 합니다.
      ```
     
     
-- **문제: 클라우드 커넥터 관리 서비스 로그, "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService Error: 0: 상태를 온라인으로 보고할 때 예기치 않은 예외가 발생 했습니다. CmdletInvocationException: 사용자 \< 전역 테 넌 트 관리자에 대해 로그온에 실패 \> 했습니다. 새 credential 개체를 만들어 올바른 사용자 이름과 암호를 사용 했는지 확인 하십시오. ---\>**
+- **문제: 클라우드 커넥터 관리 서비스 로그, "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService Error: 0: 상태를 온라인으로 보고할 때 예기치 않은 예외 발생: CmdletInvocationException: 사용자에 게 로그온 하지 \<Global Tenant Admin\> 못했습니다. 새 credential 개체를 만들어 올바른 사용자 이름과 암호를 사용 했는지 확인 하십시오. ---\>**
     
     **해결 방법:** 클라우드 커넥터 기기가 등록 된 이후 Microsoft 365 또는 Office 365 전역 테 넌 트 관리자 자격 증명이 변경 되었습니다. 클라우드 커넥터 기기에서 로컬로 저장 된 자격 증명을 업데이트 하려면 호스트 기기의 관리자 PowerShell에서 다음을 실행 합니다.
     
@@ -313,13 +316,13 @@ Cloud Connector Edition 배포 문제를 해결 합니다.
 
 - **문제: 배포에 사용한 호스트 서버 계정의 암호를 변경한 후에는 "ConvertTo-SecureString: 키를 지정한 상태에서 사용할 수 없습니다." 라는 오류 메시지가 표시 됩니다. "for Business Cloud Connector Edition\ManagementService\CceManagementService.log 또는%ProgramFiles%\Skype Get-CcCredential cmdlet을 실행 합니다.**
     
-    **해결 방법:** 모든 클라우드 커넥터 자격 증명은 "%SystemDrive%\Programdata\Cloudconnector\credentials. \< " 파일에 저장 됩니다. CurrentUser \> "가 있습니다. 호스트 서버의 암호가 변경 되 면 로컬로 저장 된 자격 증명을 업데이트 해야 합니다.
+    **해결 방법:** 모든 클라우드 커넥터 자격 증명은 "%SystemDrive%\Programdata\Cloudconnector\credentials." 파일에 저장 됩니다 \<CurrentUser\> . xml "입니다. 호스트 서버의 암호가 변경 되 면 로컬로 저장 된 자격 증명을 업데이트 해야 합니다.
     
     **클라우드 커넥터 버전 1.4.2을 실행 하는 경우** 다음 단계를 수행 하 여 모든 클라우드 커넥터 암호를 다시 생성 합니다.
     
   1. 호스트 서버를 다시 시작 합니다.
     
-  2. 다음 파일을 삭제 합니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> "가 있습니다.
+  2. "%SystemDrive%\Programdata\Cloudconnector\credentials." 파일을 \<CurrentUser\> 삭제 합니다. xml "입니다.
     
   3. PowerShell 콘솔을 관리자 권한으로 시작한 다음 "레지스터-CcAppliance-Local"을 실행 하 여 설명에 해당 하는 암호를 다시 입력 합니다. 클라우드 커넥터 배포 전에 입력 한 것과 동일한 암호를 입력 합니다.
     
@@ -327,7 +330,7 @@ Cloud Connector Edition 배포 문제를 해결 합니다.
     
   4. 호스트 서버를 다시 시작 합니다.
     
-  5. 다음 파일을 삭제 합니다. "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> "가 있습니다.
+  5. "%SystemDrive%\Programdata\Cloudconnector\credentials." 파일을 \<CurrentUser\> 삭제 합니다. xml "입니다.
     
   6. PowerShell 콘솔을 관리자 권한으로 시작한 다음 "레지스터-CcAppliance-Local"을 실행 하 여 설명에 해당 하는 암호를 다시 입력 합니다. 
     
@@ -361,9 +364,9 @@ Cloud Connector Edition 배포 문제를 해결 합니다.
 
 - **문제: 클라우드 커넥터 에디션 2.1을 사용 하 여 설치-CcAppliance를 실행 하는 경우 "오류가 발생 하 여 새 인스턴스를 설치 하지 못했습니다." 라는 오류 메시지가 표시 됩니다. "State"를 설정할 수 없습니다.**
 
-   **해결 방법:** Cloudconnector .ini의 [Common] 섹션에 있는 "State" config를 아래와 같이 추가 하십시오. CountryCode = US State = WA 구/군/시 = Redmond
+   **해결 방법:** Cloudconnector.ini의 [Common] 섹션에서 "State" config를 아래와 같이 추가 합니다 (CountryCode = US State = WA 구/군/시 = Redmond).
 
-   "State" 줄이 값을 갖는 것은 필수가 아니며, Cloudconnector .ini 파일에서 "State" 줄을 제거할 수 없습니다.
+   "State" 줄의 값은 필수가 아니므로 Cloudconnector.ini 파일에서 "State" 줄을 제거할 수 없습니다.
 
 - **문제: "WindowsImage: WindowsImage에 오류가 발생 하 여 다음 오류 메시지가 나타납니다. 클라우드 커넥터 버전을 설치 또는 업그레이드할 때 오류 코드 = 0xc1550115 "입니다.**
     
@@ -466,4 +469,4 @@ PowerShell은이 파일을 발견 하는 모듈의 cmdlet 캐시로 만들며, �
     
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
-- CCE. ManagementService를 처리 합니다.
+- 프로세스 Microsoft.Rtc.CCE.ManagementService.exe입니다.
