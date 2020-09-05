@@ -20,12 +20,12 @@ description: 팀 또는 IT 관리자가 다른 도메인(페더레이션)의 사
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: a8139c01f5e79eab451abc1eb47a97c94849147a
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 1acc8bea66791c7e8cfc38cae2d394b6360ceec9
+ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255421"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47395407"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 ======================================================
@@ -56,6 +56,9 @@ ms.locfileid: "47255421"
 - **특정 도메인 허용**: **허용** 목록에 도메인을 추가하여 외부 액세스를 허용된 도메인만으로 제한합니다. 허용된 도메인 목록을 설정하면 다른 모든 도메인은 차단됩니다. 특정 도메인을 허용하려면 **도메인 추가**를 클릭하고 도메인 이름을 추가하고 **이 도메인에서 수행할 작업**을 클릭한 다음 **허용됨**을 선택합니다.
 
 - **특정 도메인 차단** - **차단** 목록에 도메인을 추가하여 차단한 도메인을 *제외*한 모든 외부 도메인과 통신할 수 있습니다. 특정 도메인을 차단하려면 **도메인 추가**를 클릭하고 도메인 이름을 추가하고 **이 도메인에서 수행할 작업**을 클릭한 다음 **차단됨**을 선택합니다. 차단된 도메인 목록을 설정하면 다른 모든 도메인은 허용됩니다.
+
+> [!NOTE]
+> 조직에서 외부 액세스를 해제 하는 경우 외부 사용자는 여전히 익명 참가를 통해 모임에 참가할 수 있습니다. 자세히 알아보려면 [팀에서 모임 설정 관리](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)를 참고 하세요.
 
 ## <a name="allow-or-block-domains"></a>도메인 허용 또는 차단
 

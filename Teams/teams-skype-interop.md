@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 팀 사용자와 Skype (소비자) 사용자 간의 상호 운용성 기능에 대해 알아봅니다.
 localization_priority: Normal
-ms.openlocfilehash: 87e860a49f235713ed4e9cea5c818912f2a352f5
-ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
+ms.openlocfilehash: 05db7408505c4b3e3c47006cfa93c3a4e3c65061
+ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44859643"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47395367"
 ---
 # <a name="teams-and-skype-interoperability"></a>팀 및 Skype 상호 운용성
 
@@ -63,6 +63,10 @@ Skype 사용자는 전자 메일 주소를 사용 하 여 팀 사용자와 채�
 - 대화는 일대일로만 가능 합니다. 그룹 채팅은 지원 되지 않습니다.
 - 팀 사용자와 Skype 사용자는 서로의 현재 상태를 볼 수 없습니다.
 - Skype ID 또는 전화 번호를 사용 하 여 Skype 사용자를 검색 하는 것은 지원 되지 않습니다.
+- Skype 사용자는 다른 사용자의 번호로 착신 전환을 설정한 팀 사용자, 대리인 번호 또는 PSTN (공개 통신 네트워크) 번호로 전화를 걸 수 없습니다.  보이스 메일만 지원 됩니다.
+- Interop 에스컬레이션, 그룹 통화 및 회의가 지원 되지 않습니다.
+- 대리인이 팀 사용자 대신 Skype 사용자에 게 전화를 걸 수 있는 능력은 지원 되지 않습니다.
+- 채팅을 사용한 화면 공유는 지원 되지 않습니다.
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>팀 사용자가 Skype 사용자와 통신할 수 있는지 여부 설정
 
