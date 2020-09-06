@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: a2d10048cf668c15060147b8426c5226e98fdaa4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868697"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359384"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>공유 컴퓨터에서 Microsoft Teams 를 안전하게 사용
 
@@ -46,18 +46,20 @@ ms.locfileid: "46868697"
 
 1. 운영 체제 플랫폼 보안 기능 활용
     1. 운영 체제가 운영 체제 제공자의 자동 업데이트를 설치하도록 구성되어 있는지 확인합니다(Microsoft 시스템의 경우 [**Windows 업데이트**](https://support.microsoft.com/help/12373/windows-update-faq)를 통해 이 작업을 수행할 수 있습니다). 
-    2. [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) 같은 디바이스 암호화 기능이 설정되어 있고 디바이스에 액세스하는 데 사용되는 키가 보호되어 있는지 확인합니다.  최신 [**Windows 10 장치는 bitlocker를 지원**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)합니다. 
+    1. [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) 같은 디바이스 암호화 기능이 설정되어 있고 디바이스에 액세스하는 데 사용되는 키가 보호되어 있는지 확인합니다.  최신 [**Windows 10 장치는 bitlocker를 지원**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)합니다. 
     1. 디바이스에서 [**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)에서 제공하는 것과 같은 바이러스 백신 기능을 사용합니다.
     1. 시스템의 각 사용자마다 [별도 사용자 계정](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)을 사용하는 것이 좋습니다.
     1. 비관리 기능(예: 웹 검색, 팀 실행 등)에 대해 관리자 권한을 부여하거나 사용하지 *않습니다*.
 
-2. 브라우저 보안 기능 활용
+위의 지침을 충족할 수 없는 경우 추가 브라우저 보안 모범 사례를 사용하는 것이 좋습니다.
+
+1. 브라우저 보안 기능 활용
     1. 개인 검색 세션을 사용하여 디스크에 유지되는 데이터 및 기록을 최소화합니다. 예를 들어 [Microsoft Edge의 inPrivate 브라우징](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [Google Chrome의 시크릿 브라우징](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) 또는 비공개 브라우징을위한 특정 브라우저 기능을 사용합니다. 
     1. 비공개 검색을 *기본값*으로 사용하도록 시스템 동작을 변경하는 것이 좋습니다. 
 
-3. 다운로드 가능한 Teams 클라이언트가 아닌 [Teams 웹 앱](https://teams.microsoft.com)(*웹* 클라이언트라고도 함)을 찾아서 사용합니다.
+2. 다운로드 가능한 Teams 클라이언트가 아닌 [Teams 웹 앱](https://teams.microsoft.com)(*웹* 클라이언트라고도 함)을 찾아서 사용합니다.
 
-4. 공유 시스템 사용을 마쳤으면 다음을 수행해야 합니다. 
+3. 공유 시스템 사용을 마쳤으면 다음을 수행해야 합니다. 
     1. [Teams에서 로그아웃](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487)
     1. 모든 브라우저 탭과 창을 닫습니다.
     1. 장치에서 로그아웃합니다.
