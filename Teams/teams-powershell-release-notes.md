@@ -13,12 +13,12 @@ ms.collection:
 description: 팀 PowerShell의 최신 변경 사항에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09014d3e7deba2797b46031efee81f537d2d6538
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 80a1a887ea1db964c8d9b9fe55f144208967f37d
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170627"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405815"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 팀 PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "45170627"
 
 | 시작일 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2020 년 9 월 | [1.1.5-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>비즈니스용 Skype Online 커넥터 통합</li> |
 | 2020 년 7 월 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>[그룹 정책 할당 cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group) 이 추가 됨</li> |
 | 2020 년 6 월 | [1.1.3-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>비즈니스용 Skype Online 커넥터 통합<li>가져오기-팀 최적화<li>향상 된 안정성</li> |
 | 2020 년 6 월 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Cmdlet 미리 로드 추가 됨<li>.Net Framework 최적화</li>   |

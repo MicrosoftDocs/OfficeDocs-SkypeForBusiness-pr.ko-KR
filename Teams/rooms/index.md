@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Microsoft 팀 공간을 배포 하기 위한 적절 한 계획 고려 사항과 시스템을 배포 하 고 관리 하는 방법을 설명 합니다.
-ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 4474d5f7c5e273fccc52e077907017c073e3a7b5
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521993"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405805"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
@@ -33,9 +33,9 @@ ms.locfileid: "46521993"
     :::column-end:::
 :::row-end:::
 
-|               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![목록 기호](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[계획](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![배포 기호](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[배포](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![도구/렌치](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[관리](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|               |               |               |
+| ------------- | ------------- | ------------- |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> <br> **[계획](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> <br> **[배포](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> <br> **[관리](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 

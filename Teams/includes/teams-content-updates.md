@@ -3,43 +3,6 @@
 
 
 
-## <a name="week-of-july-27-2020"></a>7 월 27 일 (주) 2020
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 7/28/2020 | [CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치](/MicrosoftTeams/cqd-power-bi-connector) | 으 |
-| 7/28/2020 | [Microsoft Graph를 사용 하 여 팀 서식 파일 시작](/MicrosoftTeams/get-started-with-teams-templates) | 으 |
-| 7/28/2020 | [조직에서 발신자 ID를 사용하는 방법](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 으 |
-| 7/28/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 7/28/2020 | [Microsoft 팀 대화방의 인증](/MicrosoftTeams/rooms/rooms-authentication) | 으 |
-| 7/28/2020 | [Microsoft Graph로 작성 된 중소 기업에 대 한 팀 서식 파일](/MicrosoftTeams/smb-templates) | 으 |
-| 7/29/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 7/29/2020 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | 으 |
-| 7/29/2020 | [Microsoft 팀 회의실 Premium](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 으 |
-| 7/29/2020 | [팀 (30 개)](/MicrosoftTeams/teams-in-30-workshops) | 으 |
-| 7/29/2020 | [Microsoft 팀 추가 기능 라이선스](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 으 |
-| 7/30/2020 | [AppLocker 제어 정책](/MicrosoftTeams/applocker-in-teams) | 으 |
-| 7/30/2020 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 으 |
-| 7/30/2020 | [Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으 |
-| 7/30/2020 | [환경 준비](/MicrosoftTeams/rooms/rooms-prep) | 으 |
-| 7/31/2020 | [Microsoft Teams에서 사용자에게 정책 할당](/MicrosoftTeams/assign-policies) | 으 |
-| 7/31/2020 | 학교에서 대규모 사용자 집합에 정책 할당 | 제거할 |
-| 7/31/2020 | [Microsoft Teams를 사용하여 정부 기관 원격 작업자 지원하기](/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams) | 으 |
-| 7/31/2020 | 사용자를 위한 강사 진행 교육 및 비디오 | 제거할 |
-| 7/31/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 7/31/2020 | [EDU 관리자용 Microsoft Teams 정책 및 정책 패키지](/MicrosoftTeams/policy-packages-edu) | 으 |
-| 7/31/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
-| 7/31/2020 | [PowerShell 스크립트 샘플-메시징 정책 만들기 & 할당](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | 으 |
-| 7/31/2020 | [교육 SKU 참조](/MicrosoftTeams/sku-reference-edu) | 으 |
-| 7/31/2020 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 으 |
-| 7/31/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
-| 7/31/2020 | [인식 주도 및 교육 구현](/MicrosoftTeams/teams-adoption-drive-awareness) | 으 |
-| 7/31/2020 | [Microsoft 팀 장치 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 으 |
-| 7/31/2020 | [Microsoft 팀 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 으 |
-| 7/31/2020 | [Microsoft 팀 사용자 활동 보고서](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 으 |
-
-
 ## <a name="week-of-august-03-2020"></a>1 월 03 일, 2020
 
 
@@ -325,3 +288,33 @@
 | 8/28/2020 | 상용 클라우드 평가판 관리 | 제거할 |
 | 8/28/2020 | [Microsoft 팀 대화방 Premium 서비스를 사용 하는 역할 기반 액세스 제어](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium-rbac) | 으 |
 | 8/28/2020 | [Windows에서 Microsoft Teams 설치 및 업데이트 문제 해결](/MicrosoftTeams/troubleshoot-installation) | 으 |
+
+
+## <a name="week-of-august-31-2020"></a>2020 년 8 월 31 일 주
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 9/1/2020 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 으 |
+| 9/1/2020 | [Microsoft 팀에서 정책 패키지 관리](/MicrosoftTeams/manage-policy-packages) | 으 |
+| 9/1/2020 | [Microsoft 팀에서 NDI 사용](/MicrosoftTeams/use-ndi-in-meetings) | 으 |
+| 9/1/2020 | [팀 관리 센터에서 칭찬 앱 관리](/MicrosoftTeams/manage-praise-app) | 으 |
+| 9/1/2020 | [Microsoft 팀의 태그 관리](/MicrosoftTeams/manage-tags) | 으 |
+| 9/1/2020 | [Microsoft Endpoint Configuration Manager를 사용 하 여 팀 설치](/MicrosoftTeams/msi-deployment) | 으 |
+| 9/2/2020 | [팀 용 전화 및 장치](/MicrosoftTeams/devices/teams-ip-phones) | 으 |
+| 9/2/2020 | [Microsoft 팀 용 전화 및 장치](/MicrosoftTeams/devices/usb-devices) | 으 |
+| 9/2/2020 | [Microsoft 팀에서 조직의 작업 앱 관리](/MicrosoftTeams/manage-tasks-app) | 으 |
+| 9/2/2020 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 으 |
+| 9/3/2020 | [직접 라우팅으로 마이그레이션](/MicrosoftTeams/direct-routing-migrating) | 으 |
+| 9/3/2020 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 으 |
+| 9/3/2020 | [다이렉트 라우팅에 대 한 음성 라우팅 구성](/MicrosoftTeams/direct-routing-voice-routing) | 으 |
+| 9/3/2020 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 으 |
+| 9/3/2020 | [Microsoft Teams 보안 가이드](/MicrosoftTeams/shared-device-security-for-microsoft-teams) | 으 |
+| 9/3/2020 | [Microsoft 팀 디바이스 태그 관리 및 필터링](/MicrosoftTeams/devices/manage-device-tags) | 으 |
+| 9/4/2020 | [인라인 메시지 번역 켜기](/MicrosoftTeams/inline-message-translation-teams) | 으 |
+| 9/4/2020 | [외부 액세스 (페더레이션) 관리](/MicrosoftTeams/manage-external-access) | 으 |
+| 9/4/2020 | [Microsoft 팀의 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 으 |
+| 9/4/2020 | [Microsoft 팀 PSTN 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 으 |
+| 9/4/2020 | [팀 및 Skype 상호 운용성](/MicrosoftTeams/teams-skype-interop) | 으 |
+| 9/4/2020 | [미국의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 으 |
+| 9/4/2020 | [포트 순서](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 으 |
