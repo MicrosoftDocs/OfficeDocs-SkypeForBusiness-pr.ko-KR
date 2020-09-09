@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7869d5030f5a2f778fb4988c49d7f48274f4f792
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e00bfc5606e23460255e3ee4748010843415eb1b
+ms.sourcegitcommit: 92fdfad4564eb27190cd88f109bded2b95d473ee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778100"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47408234"
 ---
 # <a name="it-admin-guide-to-insights-in-teams-for-education"></a>교육용 Teams의 인사이트에 대한 IT 관리자 가이드
 
@@ -34,14 +34,16 @@ Office 365 Education SKUs A1, A3, A5에서 통찰력이 활발합니다.
 
 ## <a name="permissions"></a>사용 권한
 
-사용자 유형: 
-- 학생은 라이선스로 식별되며 Insights 탭에 액세스할 수 없습니다(팀 소유자인 경우에도). 
-- 강사는 교직원용 라이선스로 식별됩니다. 강사는 데이타를 추가하여 인사이트 탭에 표시하려면 교직원용 라이선스가 있어야 하며 수업 팀 소유자여야 합니다. 
-- 리더는 교직원용 라이선스로 식별되지만, 인사이트 앱에서 보고서를 보려면 추가로 IT 글로벌 관리자로부터 명시적인 권한을 받아야 합니다.
+### <a name="user-types"></a>사용자 유형
+- **학생**은 라이선스로 식별되며 Insights 탭에 액세스 _할 수 없습니다_(팀 소유자인 경우에도). 
+- **강사**는 교직원용 라이선스로 식별됩니다. 강사는 데이타를 추가하여 인사이트 탭에 표시하려면 교직원용 라이선스가 있어야 하며 수업 팀 소유자여야 합니다. 
+- **리더**는 교직원용 라이선스로 식별되지만, Insights 앱에서 보고서를 보려면 추가로 IT 글로벌 관리자로부터 명시적인 권한을 받아야 합니다.
+- 게스트 계정은 Insights에 액세스_할 수 없습니다_.
 
+### <a name="permission-levels"></a>권한 수준
 강사와 리더는 다양한 사용 권한 수준 및 논리를 포함합니다.
-- 강사는 Teams 앱 모음의 앱으로 이동하여 인사이트를 검색하여 수업 팀 내의 공개 채널에 인사이트 앱을 추가할 수 있습니다. 탭에는 소유자가 아닌 수업 팀의 모든 사람(팀의 소유자가 아닌 강사 포함)의 활동이 반영됩니다. 
-- 리더는 Teams 앱 모음에서 앱으로 이동하여 인사이트를 검색하여 인사이트 앱을 개인 앱으로 추가할 수 있습니다(Teams 왼쪽 메뉴에 표시됨). 
+- **강사**는 Teams 앱 모음의 앱으로 이동하여 Insights를 검색하여 수업 팀 내의 공개 채널에 Insights 앱을 추가할 수 있습니다. 탭에는 소유자가 아닌 수업 팀의 모든 사람(팀의 소유자가 아닌 강사 포함)의 활동이 반영됩니다. 
+- **리더**는 Teams 앱 모음에서 앱으로 이동하여 Insights를 검색하여 Insights 앱을 개인 앱으로 추가할 수 있습니다(Teams 왼쪽 메뉴에 표시됨). 
 
 ## <a name="compliance"></a>규정 준수
 
@@ -58,9 +60,9 @@ Microsoft의 목표는 강사가 참여를 이해하고 학생 교육 과정을 
 
 ## <a name="data-collection"></a>데이터 수집
 
-테넌트에 대해 교육 분석을 설정하면 인사이트에 대한 데이터를 수집합니다. 데이터는 교육 및 학습에 대한 실행 가능한 정보를 표시하기 위해 Teams 활동에서 수집됩니다.
-
-기본적으로 Education Analytics는 **켜져** 있습니다.
+- 테넌트에 대해 교육 분석을 설정하면 인사이트에 대한 데이터를 수집합니다. 데이터는 교육 및 학습에 대한 실행 가능한 정보를 표시하기 위해 Teams 활동에서 수집됩니다.
+- 게스트 데이터는 수집되지 _않습니다_.
+- 기본적으로 Education Analytics는 **켜져** 있습니다.
 
 현재 이 데이터는 다음과 같은 수업 팀의 학생과 강사 활동 영역에서 가져옵니다.
 

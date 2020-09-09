@@ -499,21 +499,8 @@
 
 ### [Microsoft Teams 통화 흐름](microsoft-teams-online-call-flows.md)
 
-## 대규모 조직을 위한 실용적인 지침
 ### [자습서: Teams의 통화](Tutorial-calling-in-teams.yml)
-### [클라우드 음성 안내](cloud-voice-landing-page.md)
-#### [성공 정의](1-envision-define-my-success-cloud-voice.md)
-#### [내 서비스 결정 - 통화 플랜을 포함하는 전화 시스템](calling-plan-landing-page.md)
-#### [내 서비스 결정 - 전화 시스템 직접 라우팅](direct-routing-landing-page.md)
-#### [내 환경 평가](3-envision-evaluate-my-environment.md)
-#### [내 서비스 관리 계획](4-envision-plan-my-service-management.md)
 #### [사용자 환경 계획](5-envision-plan-my-users-experience.md)
-#### [내 성공 계획 문서화](6-envision-document-my-success-plan.md)
-#### [내 서비스 준비](1-onboard-prepare-my-service.md)
-#### [내 사용자 준비](2-onboard-prepare-my-users.md)
-#### [내 서비스 배포](3-onboard-deploy-my-service.md)
-#### [내 서비스 운영](1-drive-value-operate-my-service.md)
-#### [내 서비스 개선](2-drive-value-enhance-my-service.md)
 <!-- ============================================================ -->
 
 
