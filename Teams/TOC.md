@@ -773,7 +773,6 @@
 
 ## [Teams의 제한과 사양](limits-specifications-teams.md)
 ## [Teams의 데이터 위치](location-of-data-in-teams.md)
-## [데이터 수집 사례](data-collection-practices.md)
 
 ## Teams 배포 준비
 ### [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
