@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: '요약: 비즈니스용 skype에 사용 되는 비즈니스용 skype 웹 앱 및 Skype 모임 앱을 배포 합니다.'
-ms.openlocfilehash: 7f6bebbc9950a7eb5da202c3b818b1288c811f17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a2a28bf634524d6f61ba579652a6dddfd06de3
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029049"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429424"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 웹 다운로드 가능 클라이언트 배포
 
@@ -33,7 +33,7 @@ ms.locfileid: "42029049"
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>비즈니스용 Skype 웹 응용 프로그램에 대해 Multi-factor Authentication 사용
 <a name="MFA"> </a>
 
-비즈니스용 skype 웹 앱, Skype 모임 앱 및 Mac 용 비즈니스용 Skype는 다단계 인증을 지원 합니다. 사용자 이름 및 암호 외에도 다른 인증 방법 (예: 스마트 카드나 Pin)을 사용 하 여 비즈니스용 Skype 모임에 로그인 할 때 외부 네트워크에서 참가 하는 사용자를 인증 해야 할 수 있습니다. 비즈니스용 Skype 서버에서 AD FS (Active Directory Federation Service) 페더레이션 서버를 배포 하 고 수동 인증을 사용 하도록 설정 하 여 다단계 인증을 사용 하도록 설정할 수 있습니다. AD FS를 구성한 후에는 비즈니스용 Skype 모임에 참가 하는 외부 사용자에 게 사용자 이름 및 암호 챌린지를 포함 하는 AD FS 다단계 인증 웹 페이지와 함께 제공 되는 추가 인증 방법이 나와 있습니다. 구성 되어 있어야 합니다.
+비즈니스용 skype 웹 앱, Skype 모임 앱 및 Mac 용 비즈니스용 Skype는 다단계 인증을 지원 합니다. 사용자 이름 및 암호 외에도 다른 인증 방법 (예: 스마트 카드나 Pin)을 사용 하 여 비즈니스용 Skype 모임에 로그인 할 때 외부 네트워크에서 참가 하는 사용자를 인증 해야 할 수 있습니다. 비즈니스용 Skype 서버에서 AD FS (Active Directory Federation Service) 페더레이션 서버를 배포 하 고 수동 인증을 사용 하도록 설정 하 여 다단계 인증을 사용 하도록 설정할 수 있습니다. AD FS를 구성한 후에는 비즈니스용 Skype 모임에 참가 하려는 외부 사용자에 게 구성한 추가 인증 방법과 함께 사용자 이름 및 암호 챌린지를 포함 하는 AD FS 다단계 인증 웹 페이지가 제공 됩니다.
 
 > [!IMPORTANT]
 > 다단계 인증을 사용 하도록 AD FS를 구성 하려는 경우에는 다음과 같은 중요 한 사항을 고려해 야 합니다.
@@ -106,7 +106,7 @@ Windows Server 2008 R2를 실행 하는 컴퓨터에서 플러그 인 설치가 
 
 ### <a name="modify-the-disablemsi-registry-setting"></a>DisableMSI 레지스트리 설정 수정
 
-1. **시작**, **실행**을 차례로 클릭합니다.
+1. **시작**을 클릭한 다음 **실행**을 클릭합니다.
 
 2. 레지스트리 편집기에 액세스 하려면 **regedit**를 입력 합니다.
 
@@ -135,7 +135,7 @@ Windows Server 2008 R2를 실행 하는 컴퓨터에서 플러그 인 설치가 
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Microsoft로 전송 되는 정보는 [비즈니스용 Skype 데이터 수집 방법을](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)엄격히 준수 하 고 있습니다.
+    Microsoft로 전송 되는 정보는 [개인 정보 보호 및 Microsoft 팀](../../../../Teams/teams-privacy.md)을 엄격히 준수 하 고 있습니다.
 
 3. CDN을 사용할 수 없는 경우 로컬에서 호스트 한 비즈니스용 Skype Web App 환경으로 변경 되기 전에 제한 시간을 다시 설정 합니다. 기본값은 6 초입니다. 이 값을 0으로 설정 하면 시간 제한이 발생 하지 않습니다.
 

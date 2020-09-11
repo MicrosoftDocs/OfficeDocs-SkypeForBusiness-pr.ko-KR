@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d4c19de7fdc8bfc4ed0608841613514d09fae27
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 3c4e8905eaa3f77dd3c92ac26411bf5e5ebd05bf
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121388"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429354"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -82,7 +82,7 @@ Windows 및 Mac 용 Microsoft 팀 데스크톱 클라이언트는 최신 인증�
 
 Microsoft 팀 데스크톱 응용 프로그램에서 AppLocker를 지원 합니다.  AppLocker 전제 조건에 대 한 자세한 내용은 [applocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker)를 사용 하기 위한 요구 사항을 참조 하세요.
 
-## <a name="compliance"></a>충족
+## <a name="compliance"></a>규정 준수
 
 팀에는 채널, 채팅, 첨부 파일, 보존 정책, 데이터 손실 방지 (DLP), 채널에 대 한 eDiscovery 및 유효 유지, 채팅 및 파일, 감사 로그 검색, Microsoft Intune의 모바일 응용 프로그램 관리에 대 한 통신 준수를 비롯 하 여 규정 준수 영역에 도움이 되는 다양 한 정보가 있습니다. 아래의 모든 항목에 대 한 정보를 제공 하 고 [Microsoft 365 준수 센터로](https://compliance.microsoft.com) 이동 하 여 이러한 설정을 관리할 수 있습니다.
 
@@ -155,7 +155,7 @@ Microsoft 365 규정 준수 센터의 보존 및 유지에 대 한 자세한 내
 
 감사 로그 검색은 Microsoft 365 준수 센터에 바로 연결 되며, 다양 한 감사 시간 내에 관리 사용 및 조사를 위해 작업 부하 또는 제네릭 이벤트 집합을 내보낼 수 있도록 허용 하 여 감사 이벤트에 대 한 보고를 할 수 있는 기능을 제공 합니다. Microsoft 365 준수 센터 내에서 모든 감사 로그 데이터에 대 한 알림을 설정 하 고 추가 분석을 위해이 데이터를 필터링 하 고 내보낼 수 있습니다. Microsoft 365 또는 Office 365에 대 한 감사 로그 검색을 수행 하는 방법에 대해 자세히 알아보려면 [감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 문서를 참조 하세요. Microsoft 365 규정 준수 센터에서 Microsoft 팀 이벤트를 검색 하는 방법에 대해 자세히 알아보려면 [팀에서 감사를 사용](audit-log-events.md) 하는 방법에 대해서도 검토할 수 있습니다.
 
-## <a name="privacy"></a>프라이버시
+## <a name="privacy"></a>개인 정보
 
 Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니다. 개인정보 보호 정책에 대 한 자세한 내용은 [Microsoft에서 개인정보 보호](https://www.microsoft.com/trust-center/privacy)정책을 참조 하세요.
 
@@ -191,7 +191,7 @@ Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니
 
 ## <a name="compliance-standards"></a>준수 표준
 
-팀은 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 soc 1 및 Soc 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)및 [EU 모델 절 (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)표준을 사용 합니다. Microsoft 규정 준수 프레임 워크에서 microsoft 365 및 Office 365 응용 프로그램 및 서비스를 네 가지 범주로 분류 합니다. 각 범주는 Microsoft 365 또는 Office 365 서비스에 대해 충족 해야 하는 특정 준수 약정 또는 해당 범주에 나열 되는 관련 Microsoft 서비스에 의해 정의 됩니다.
+팀은 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE18 soc 1 및 Soc 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)및 [EU 모델 절 (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)표준을 사용 합니다. Microsoft 규정 준수 프레임 워크에서 microsoft 365 및 Office 365 응용 프로그램 및 서비스를 네 가지 범주로 분류 합니다. 각 범주는 Microsoft 365 또는 Office 365 서비스에 대해 충족 해야 하는 특정 준수 약정 또는 해당 범주에 나열 되는 관련 Microsoft 서비스에 의해 정의 됩니다.
 
 세부 정보는 [데이터 보호 리소스](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)에서 찾을 수 있습니다. 또한 팀은 클라우드 보안 동맹 준수를 지원 합니다.
 

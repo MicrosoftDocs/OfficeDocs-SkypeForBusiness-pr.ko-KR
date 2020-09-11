@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34498b73b70937eefcff267bc7a3b01068ab9557
-ms.sourcegitcommit: 430aac8c5848fbcaf680ea447bfa2f9d5fa994e2
+ms.openlocfilehash: 675834cd36c4e86d34d179e91fe66905e3860b32
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47420612"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429444"
 ---
 # <a name="teams-and-outlook-email-integration"></a>팀 및 Outlook 전자 메일 통합
 
@@ -35,7 +35,10 @@ Microsoft 팀에는 조직의 사용자가 Outlook에서 전자 메일 간에 �
 
 ## <a name="actionable-activity-emails"></a>작업 가능 활동 전자 메일
 
-사용자가 팀에서 부재 중 대화에 대 한 작업을 처리 하는 데 도움이 되는 조치 되지 않은 부재 중 활동 전자 메일을 자동 부재 중 활동 전자 메일에는 부재 중 메시지 후에 전송 된 메시지를 포함 하 여 대화의 최신 회신이 표시 되며, 사용자는 **회신** 을 클릭 하 여 Outlook 내에서 바로 응답할 수 있습니다. 자세한 내용은 outlook [에서 부재 중 활동 전자 메일에 회신](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381) 을 추가 하 고 [outlook 및 Office 365 그룹의](https://docs.microsoft.com/outlook/actionable-messages/)실행 가능 메시지에 응답을 참조 하세요.
+사용자가 팀에서 부재 중 대화에 대 한 작업을 처리 하는 데 도움이 되는 조치 되지 않은 부재 중 활동 전자 메일을 자동 부재 중 활동 전자 메일에는 부재 중 메시지 후에 전송 된 메시지를 포함 하 여 대화의 최신 회신이 표시 되며, 사용자는 **회신** 을 클릭 하 여 Outlook 내에서 바로 응답할 수 있습니다. 자세한 내용은 [Outlook에서 부재 중 활동 전자 메일에 회신](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381)을 참조 하세요. 
+
+> [!NOTE]
+> 이 기능은 Mac 용 Outlook 또는 Windows 용 Outlook의 일부 이전 버전에서 지원 되지 않습니다. 자세한 내용은 [Outlook 및 Office 365 그룹의](https://docs.microsoft.com/outlook/actionable-messages/)실행 가능 메시지를 참조 하세요.
 
 ![부재 중 활동 전자 메일을 보여 주는 스크린샷](media/missed-activity-email.png)
 
