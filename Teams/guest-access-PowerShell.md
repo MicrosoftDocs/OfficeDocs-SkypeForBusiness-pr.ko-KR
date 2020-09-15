@@ -17,12 +17,12 @@ description: PowerShell을 사용 하 여 Microsoft 팀의 모든 팀 또는 특
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7e2833d1afedb975edf2532fb69c4fdbbdb31d4
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 0c8a2e23f5c03420c4b0ce644a80e0733f9f69a5
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655909"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814337"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell을 사용하여 팀에 대한 액세스 권한 제어
 ================================================
@@ -44,12 +44,17 @@ PowerShell을 사용 하 여 해당 도메인에 따라 게스트 사용자를 �
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell을 사용하여 게스트 액세스 켜기 또는 끄기
 
-1.  에서 비즈니스용 Skype Online PowerShell 모듈 다운로드https://www.microsoft.com/download/details.aspx?id=39366
+1.  에서 비즈니스용 Skype Online PowerShell 모듈 다운로드 https://www.microsoft.com/download/details.aspx?id=39366
  
 2.  비즈니스용 Skype Online 끝점에 PowerShell 세션을 연결 합니다.
 
+> [!NOTE]
+> 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다.
+>
+> 최신 [팀 PowerShell 공용 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/)를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
+
     ```powershell
-    Import-Module SkypeOnlineConnector
+    Import-Module -Name MicrosoftTeams
     $Cred = Get-Credential
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 지원 되는 운영 체제를 포함 하 여 Windows PowerShell을 통한 비즈니스용 Skype Online의 원격 관리에 대 한 요구 사항을 확인 합니다.
-ms.openlocfilehash: 7265bdc662f0ef86f6f279df5e62c2316d9902a3
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: 42f1a8d922d3ecdd738aa82e13567540f53af231
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983764"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814387"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Windows PowerShell용 컴퓨터 설정
 
@@ -50,11 +50,11 @@ Microsoft PowerShell을 사용 하 여 비즈니스용 Skype Online의 원격 �
   
 - 슬래시
     
-- 비즈니스용 Skype Online 커넥터 모듈
+- 팀 PowerShell 모듈 
     
 다음 항목에서는 이러한 항목을 다운로드 하 고 설치 하는 방법에 대 한 정보를 확인할 수 있습니다.
   
-- [비즈니스용 Skype Online 커넥터 모듈 다운로드 및 설치](download-and-install-the-skype-for-business-online-connector.md)
+- [팀 Powershell 모듈 다운로드 및 설치](https://docs.microsoft.com/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [Windows PowerShell 5.1 다운로드 및 설치](download-and-install-windows-powershell-5-1.md)
 

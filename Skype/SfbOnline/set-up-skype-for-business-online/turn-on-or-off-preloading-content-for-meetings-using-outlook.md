@@ -19,19 +19,19 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Outlook 모임 초대에서 파일이 나 첨부 파일을 사용 하 여 비즈니스용 Skype 모임에서 미리 로드 된 콘텐츠를 설정 하거나 해제 하는 방법을 알아봅니다. '
-ms.openlocfilehash: bee2d4094e1a85db39514e0757e58092544653a1
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 079d0642158aa6d28b3c92a63e77afa0a0024d94
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164087"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814587"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Outlook을 사용 하 여 모임에 대 한 콘텐츠 미리 로드 허용 설정 또는 해제
 
 사용자는 비즈니스용 Skype Online 모임에 Outlook 모임 초대에 연결 된 콘텐츠, 파일 또는 첨부 파일을 미리 로드할 수 있지만, 설정 하거나 해제할 수는 있습니다. 비즈니스용 Skype Online을 사용 하는 모든 조직에서 기본적으로 설정 되어 있습니다. [비즈니스용 Skype 모임에 대 한 첨부 파일을 미리 로드](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)하는 방법에 대해 알아봅니다.
   
 > [!NOTE]
-> 현재는 비즈니스용 Skype Online에서 _Maxcontentstoragemb_ 및 _MaxUploadFileMB_의 온라인 값을 설정 하거나 볼 수 있는 cmdlet이 없습니다. 온-프레미스 배포에만 사용할 수 있습니다. 첨부 된 콘텐츠가 _MaxUploadFileSizeMB_ 를 초과 하거나 _Maxcontentstoragemb_ 제한에 도달 하는 경우 콘텐츠가 모임에 업로드 되지 않는다는 것을 알아야 합니다.
+> 현재는 비즈니스용 Skype Online에서  _Maxcontentstoragemb_ 및 _MaxUploadFileMB_의 온라인 값을 설정 하거나 볼 수 있는 cmdlet이 없습니다. 온-프레미스 배포에만 사용할 수 있습니다. 첨부 된 콘텐츠가  _MaxUploadFileSizeMB_ 를 초과 하거나 _Maxcontentstoragemb_ 제한에 도달 하는 경우 콘텐츠가 모임에 업로드 되지 않는다는 것을 알아야 합니다.
   
 ## <a name="to-get-you-started"></a>시작 하기
 
@@ -39,7 +39,7 @@ ms.locfileid: "44164087"
 
  **Windows PowerShell 버전 3.0 이상을 실행 하 고 있는지 확인**
   
-1. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴** > 에서**Windows PowerShell**을 수행 합니다.
+1. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴**에서  >  **Windows PowerShell**을 수행 합니다.
     
 2. **Windows PowerShell** 창에서 _Get-Host_ 를 입력 하 여 버전을 확인 합니다.
     
@@ -53,15 +53,17 @@ ms.locfileid: "44164087"
 
  **Windows PowerShell 세션 시작**
   
-1. **시작 메뉴** > 에서**Windows PowerShell**을 실행 합니다.
+1. **시작 메뉴**에서  >  **Windows PowerShell**을 실행 합니다.
     
 2. **Windows PowerShell** 창에서 다음을 실행 하 여 Microsoft 365 또는 Office 365에 연결 합니다.
     
-    > [!NOTE]
-    > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
+> [!NOTE]
+> 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다.
+>
+> 최신 [팀 PowerShell 공용 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/)를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
   
 ```PowerShell
-Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+Import-Module -Name MicrosoftTeams
 $credential = Get-Credential
 $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session

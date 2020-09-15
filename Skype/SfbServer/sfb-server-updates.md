@@ -13,16 +13,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 곳에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대 한 업데이트를 찾고 관리 합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
-ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326575"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814317"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
-비즈니스용 [Skype 서버 2019](#skype-for-business-server-2019-update-history), [비즈니스용 skype 서버 2015](#skype-for-business-server-2015-update-history), [Lync server 2013](#lync-server-2013-update-history)및 [lync server 2010](#lync-server-2010-update-history) 에 대 한 업데이트를 찾아 관리 합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
+비즈니스용 [Skype 서버 2019](#skype-for-business-server-2019-update-history), [비즈니스용 skype 서버 2015](#skype-for-business-server-2015-update-history),  [Lync server 2013](#lync-server-2013-update-history)및 [lync server 2010](#lync-server-2010-update-history) 에 대 한 업데이트를 찾아 관리 합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
 
 최신 비즈니스용 Skype 온라인 및 Microsoft 365 업데이트에 대해서는 [Microsoft 365 로드맵을](https://go.microsoft.com/fwlink/p/?linkid=529454)참조 하세요.
 
@@ -32,6 +32,7 @@ ms.locfileid: "44326575"
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
+|비즈니스용 Skype 서버 2019 누적 업데이트 3 핫픽스 1 |[(영문) 4470124](https://support.microsoft.com/kb/4470124)| 2020년 7월 |
 |비즈니스용 Skype 서버 2019 누적 업데이트 3 |[(영문) 4470124](https://support.microsoft.com/kb/4470124)| 2020년 3월 |
 |비즈니스용 Skype 서버 2019 누적 업데이트 2 |[(영문) 4470124](https://support.microsoft.com/kb/4470124)| 2019년 12월 |
 |비즈니스용 Skype 서버 2019 누적 업데이트 1 핫픽스 1 |[(영문) 4470124](https://support.microsoft.com/kb/4470124)| 2019년 9월 |
@@ -42,7 +43,7 @@ ms.locfileid: "44326575"
 
 |패키지 이름/링크|릴리스 날짜|
 |:--- |:--- |
-|[C S P 6.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019년 6월       |
+|[C S P 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019년 6월       |
 |[통합 커뮤니케이션 관리 API 5.0 런타임](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | 2018년 6월        |
 |[비즈니스용 Skype 서버 2019, 관리 팩](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | 2018년 6월        |
 |||
@@ -54,6 +55,7 @@ ms.locfileid: "44326575"
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
+|비즈니스용 Skype 서버 2015 누적 업데이트 11 핫픽스 1 |[(영문) 3061064](https://support.microsoft.com/kb/3061064)| 2020년 7월 14일 |
 |비즈니스용 Skype 서버 2015 누적 업데이트 11|[(영문) 3061064](https://support.microsoft.com/kb/3061064)| 5 월 13 일, 2020 |
 |비즈니스용 Skype 서버 2015 누적 업데이트 10 핫픽스 1|[(영문) 3061064](https://support.microsoft.com/kb/3061064)| 2019년 8월 |
 |비즈니스용 Skype 서버 2015 누적 업데이트 10 |[(영문) 3061064](https://support.microsoft.com/kb/3061064)| 2019년 7월 |
@@ -77,7 +79,7 @@ ms.locfileid: "44326575"
 
 |패키지 이름/링크|릴리스 날짜|
 |:--- |:--- |
-|[C S P 5.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015년 5월       |
+|[C S P 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015년 5월       |
 |[통합 커뮤니케이션 관리 API 5.0 런타임](https://www.microsoft.com/download/details.aspx?id=47344)     |   2015년 5월      |
 |[비즈니스용 Skype 서버 2015, 관리 팩](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  2019년 6월       |
 |||
@@ -88,6 +90,7 @@ ms.locfileid: "44326575"
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
+|Lync Server 2013 누적 업데이트 10 핫픽스 4 |[(영문) 2809243](https://support.microsoft.com/kb/2809243)|2020년 6월|
 |Lync Server 2013 누적 업데이트 10 핫픽스 3 |[(영문) 4515509](https://support.microsoft.com/kb/4515509)|2019년 9월|
 |Lync Server 2013 누적 업데이트 10 핫픽스 2 |[(영문) 4501392](https://support.microsoft.com/kb/4501392)|2019년 6월|
 |Lync Server 2013 누적 업데이트 10 핫픽스 1 |[(영문) 4458772](https://support.microsoft.com/kb/4458772)|2019년 1월|

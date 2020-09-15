@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 연락처가 PowerShell을 사용 하 여 로그인 하지 않은 경우에도 비즈니스용 Skype 인스턴트 메시지를 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4af24f66aa82bbd0f0099e062981157b08c639db
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 12d5a6c736616cb9448dc1f75a6f67424d940d7f
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164097"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814607"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>관리자의 오프라인 메시지 설정 또는 해제
 
@@ -46,13 +46,13 @@ ms.locfileid: "44164097"
 
  **Windows PowerShell 버전 3.0 이상을 실행 하 고 있는지 확인**
 
-1. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴** > 에서**Windows PowerShell**을 수행 합니다.
+1. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴**에서  >  **Windows PowerShell**을 수행 합니다.
 
 2. **Windows PowerShell** 창에서 _Get-Host_ 를 입력 하 여 버전을 확인 합니다.
 
 3. 버전 3.0 이상이 없는 경우 Windows PowerShell 업데이트를 다운로드 하 여 설치 해야 합니다. Windows [Management 프레임 워크 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 를 참조 하 여 windows PowerShell을 버전 4.0로 다운로드 하 고 업데이트 합니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
 
-4. 비즈니스용 skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
+4. 비즈니스용 Skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 팀 용 Windows PowerShell 모듈도 설치 해야 합니다.
 
 자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
 
@@ -60,16 +60,17 @@ ms.locfileid: "44164097"
 
  **Windows PowerShell 세션 시작**
 
-1. **시작 메뉴** > 에서**Windows PowerShell**을 실행 합니다.
+1. **시작 메뉴**에서  >  **Windows PowerShell**을 실행 합니다.
 
 2. **Windows PowerShell** 창에서 다음을 실행 하 여 Microsoft 365 또는 Office 365에 연결 합니다.
 
-    > [!NOTE]
-    > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
+   > [!NOTE]
+   > 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다.
+   >
+   > 최신 [팀 PowerShell 공용 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/)를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
 
->
   ```PowerShell
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+  Import-Module -Name MicrosoftTeams
   $credential = Get-Credential
   $session = New-CsOnlineSession -Credential $credential
   Import-PSSession $session
@@ -82,7 +83,7 @@ Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단�
 > [!NOTE]
 > 오프 라인 메시지는 최신 버전의 간편 실행 비즈니스용 Skype 클라이언트 **에서만** 사용할 수 있으며, 이전에 실행 중인 비즈니스용 skype를 사용 하는 경우에는 사용할 수 없으며 비즈니스용 skype 클라이언트를 설치 하는 데 * .msi 파일이 사용 되었습니다.
 
-오프 라인 메시지를 설정 하거나 해제 하려면 조직의 사용자에 게 오프 라인 메시지를 _EnableIMAutoArchiving_ 보내려면 EnableIMAutoArchiving `True` 를 `False`또는으로 설정 합니다. 기본적으로이로 `True`설정 됩니다.
+오프 라인 메시지를 설정 하거나 해제 하려면 조직의 사용자에 게 오프 라인 메시지를 보내려면  _EnableIMAutoArchiving_ 를 또는으로 설정 `True` `False` 합니다. 기본적으로이로 설정 됩니다 `True` .
 
 이 기능을 해제 하려면 **Set-CsClientPolicy** cmdlet을 사용 하 여 다음을 실행 합니다.
 
@@ -90,7 +91,7 @@ Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단�
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-오프 라인 메시지를 설정 하거나 해제 하려면 사용자에 게 오프 라인 메시지 _EnableIMAutoArchiving_ 를 보내려면 `True` EnableIMAutoArchiving `False`를 또는으로 설정 합니다. 기본적으로이로 `True`설정 됩니다. 기존 정책을 사용 하거나 아래 예제와 같은 항목을 만들 수 있습니다.
+오프 라인 메시지를 설정 하거나 해제 하려면 사용자에 게 오프 라인 메시지를 보내려면  _EnableIMAutoArchiving_ 를 또는으로 설정 `True` `False` 합니다. 기본적으로이로 설정 됩니다  `True` . 기존 정책을 사용 하거나 아래 예제와 같은 항목을 만들 수 있습니다.
 
 
   ```PowerShell

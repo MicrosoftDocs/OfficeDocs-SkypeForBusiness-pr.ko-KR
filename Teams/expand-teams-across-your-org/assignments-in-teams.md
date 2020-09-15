@@ -21,18 +21,21 @@ description: 교육 팀의 Microsoft 팀 관리 센터에서 과제를 관리 �
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61caf4bc59387fd5c00cabf459976506b97ef9a0
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 1747075caecdbc4bcd0c83eb037682b023701799
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326765"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814777"
 ---
 # <a name="assignments-in-teams-for-education"></a>교육용 Teams의 과제
 
 과제는 수업에서 학생 또는 팀 구성원에 게 배정 된 작업 또는 작업 단위를 연구의 일부로 하는 것입니다. 팀 클래스 내에서 과제를 만들 수 있습니다.
 
 [과제에 대 한 자세한 정보](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+
+ > [!Note]
+ > 자세한 내용은 [플랫폼용 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 을 참조 하세요.
 
 ## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터의 과제
 

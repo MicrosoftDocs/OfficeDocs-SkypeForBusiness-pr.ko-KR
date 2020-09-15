@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스에 대 한 Microsoft 전화 시스템을 계획 하 고 설정 하는 방법, 사용 가능성, 기능에 대해 알아보세요. '
-ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 5ed14740f5521bdd70d2fda7f50ffb940ccac485
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788432"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814888"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>다음은 전화 시스템 기능입니다.
 
@@ -35,6 +35,8 @@ ms.locfileid: "46788432"
 
 PC, Mac, 모바일에서 클라이언트를 사용할 수 있으며, 태블릿 및 휴대 전화에서 Pc 및 데스크톱 IP 전화기로 장치에 대 한 기능을 제공 합니다. 자세한 내용은 [Microsoft 팀 용 클라이언트 가져오기를](get-clients.md)참조 하세요.
 
+ > [!Note]
+ > 자세한 내용은 [플랫폼용 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 을 참조 하세요.
   
 ## <a name="phone-system-features"></a>전화 시스템 기능
 

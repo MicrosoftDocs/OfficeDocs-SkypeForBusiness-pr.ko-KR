@@ -17,18 +17,21 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ca1a2d7a00b4aa827cfb5a989e31b54b83fbeb
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: 5a944616fef0c3fd9821486a41025adf5f0fdbcc
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803910"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814577"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
 현재 상태는 Microsoft 팀 (및 Microsoft 365 또는 Office 365)의 일부 이며, 다른 사용자에 대 한 현재의 가용성과 상태를 나타내는 사용자 프로필의 일부입니다. 기본적으로 Teams를 사용하는 조직의 모든 사용자는 온라인으로 다른 사용자의 대화 가능 여부를 거의 실시간으로 볼 수 있습니다.
 
 Outlook에 있는 팀의 현재 상태는 Outlook 2013 데스크톱 앱 이상에서 지원됩니다.
+
+ > [!Note]
+ > 자세한 내용은 [플랫폼용 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 을 참조 하세요.
 
 ## <a name="presence-states-in-teams"></a>Teams에서의 현재 상태
 

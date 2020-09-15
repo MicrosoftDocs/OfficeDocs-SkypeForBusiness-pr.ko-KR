@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요. 팀 또는 비즈니스용 Skype와 Exchange가 모두 온라인 상태입니다.
-ms.openlocfilehash: 440bf2f624bfd150f7e00f145770b0fda336deb4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ee1f4da5cbcb65ab58c032ac651e0b563167a35b
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756799"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814797"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -145,7 +145,7 @@ Microsoft 365 또는 Office 365를 사용 하 여 Microsoft 팀 회의실을 배
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. 장치 계정에 유효한 Microsoft 365 또는 Office 365 라이선스가 필요 하거나 Exchange 및 Microsoft 팀 또는 비즈니스용 Skype가 작동 하지 않습니다. 라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 하는 것입니다. 사용할 수 있는`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Microsoft 365 또는 Office 365 조 직에 사용할 수 있는 Sku 목록을 다음과 같이 검색 합니다.
+6. 장치 계정에 유효한 Microsoft 365 또는 Office 365 라이선스가 필요 하거나 Exchange 및 Microsoft 팀 또는 비즈니스용 Skype가 작동 하지 않습니다. 라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 하는 것입니다. 사용할 수 있는 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Microsoft 365 또는 Office 365 조 직에 사용할 수 있는 Sku 목록을 다음과 같이 검색 합니다.
 
    ```Powershell
    Get-MsolAccountSku
@@ -155,7 +155,7 @@ Microsoft 365 또는 Office 365를 사용 하 여 Microsoft 팀 회의실을 배
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   다음으로, 다음을 사용 하 여 라이선스를 추가할 수 있습니다.`Set-MsolUserLicense` <!--Set-AzureADUserLicense --> 은. 이 경우 $strLicense는 사용자에 게 표시 되는 SKU 코드입니다 (예: contoso: STANDARDPACK).
+   다음으로, 다음을 사용 하 여 라이선스를 추가할 수 있습니다. `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> 은. 이 경우 $strLicense는 사용자에 게 표시 되는 SKU 코드입니다 (예: contoso: STANDARDPACK).
 
    ```PowerShell
    $acctUpn="Rigel1@contoso.onmicrosoft.com"
@@ -175,9 +175,14 @@ Microsoft 365 또는 Office 365를 사용 하 여 Microsoft 팀 회의실을 배
 7. 다음으로 비즈니스용 Skype를 사용 하 여 디바이스 계정을 사용 하도록 설정 해야 합니다. 환경이 [Microsoft 팀 회의실 요구 사항](requirements.md)에 정의 된 요구 사항을 충족 하는지 확인 합니다.
 
    다음과 같이 원격 [Windows PowerShell 세션](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 을 시작 합니다 (비즈니스용 [Skype Online PowerShell 구성 요소를 설치](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)해야 하는 경우).
+   
+> [!NOTE]
+> 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다.
+>
+> 최신 [팀 PowerShell 공용 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/)를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
 
    ``` Powershell
-   Import-Module SkypeOnlineConnector  
+   Import-Module -Name MicrosoftTeams  
    $cssess=New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
    ```
@@ -197,7 +202,7 @@ Microsoft 365 또는 Office 365를 사용 하 여 Microsoft 팀 회의실을 배
     ```
 
     > [!NOTE]
-    > 새 사용자 계정이 테 넌 트에서 기존 사용자 계정과 동일한 등록자 풀에 만들어지지 않을 수 있습니다. 위의 명령은이 문제 때문에 계정 설정 오류를 방지 합니다.
+    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
 
 ### <a name="assign-a-license-to-your-account"></a>계정에 라이선스 할당
 

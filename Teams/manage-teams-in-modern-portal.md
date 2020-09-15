@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c963e88d33928add9c7f5c611f44919250b847
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583155"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814557"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft 팀원 관리 센터에서 팀 관리
 ==========================================
@@ -67,6 +67,9 @@ ms.locfileid: "46583155"
 ### <a name="add"></a>추가
 
 새 팀을 추가 하려면 **추가**를 클릭 합니다. **새 팀 추가** 창에서 팀에 이름과 설명을 지정 하 고, 비공개 또는 공용 팀으로 만들 것인지, 분류를 설정할지를 설정 합니다.
+
+> [!NOTE]
+> Outlook과 같은 다른 클라이언트의 환경과 달리 새로 만든 팀은 팀 관리 센터에서 바로 관리할 수 있습니다.
 
 ### <a name="edit"></a>편집한
 

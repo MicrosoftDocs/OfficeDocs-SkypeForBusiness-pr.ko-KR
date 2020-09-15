@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 사용자의 Microsoft 전화 시스템 다이렉트 라우팅을 사용 하도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656149"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814547"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>사용자가 직접 라우팅, 음성, 보이스 메일을 사용할 수 있도록 설정
 
 이 문서에서는 전화 시스템 다이렉트 라우팅에 대 한 사용자를 설정 하는 방법을 설명 합니다.  직접 라우팅 구성에 대 한 다음 단계 중 2 단계입니다.
 
 - 1 단계. [Microsoft 전화 시스템을 사용 하 여 SBC 연결 및 연결 확인](direct-routing-connect-the-sbc.md) 
-- **2 단계. 사용자가 직접 라우팅, 음성 및 보이스 메일을 사용할 수 있도록 설정** (이 문서)
+- **2 단계. 사용자가 직접 라우팅, 음성 및 보이스 메일을 사용할 수 있도록 설정**   (이 문서)
 - 3 단계. [음성 라우팅 구성](direct-routing-voice-routing.md)
 - 4 단계. [숫자를 대체 형식으로 번역](direct-routing-translate-numbers.md) 
 
@@ -53,16 +53,32 @@ Microsoft 365 또는 Office 365에서 새 사용자를 만드는 두 가지 옵�
 
 라이선스 요구 사항에 대 한 자세한 내용은 [직접 라우팅 계획](direct-routing-plan.md)의 [라이선스 및 기타 요구 사항을](direct-routing-plan.md#licensing-and-other-requirements) 참조 하세요.
 
-## <a name="ensure-that-the-user-is-homed-online"></a>사용자가 온라인 상태 인지 확인 
+## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>사용자가 온라인 상태이 고 전화 번호가 온-프레미스에서 동기화 되지 않았는지 확인 (비즈니스용 Skype Server Enterprise Voice 사용 사용자가 팀에 직접 라우팅 하도록 설정 된 경우 해당)
 
-직접 라우팅에는 사용자가 온라인으로 연결 되어 있어야 합니다. Infra.lync.com 도메인에 값이 있어야 하는 RegistrarPool 매개 변수를 확인 하 여 확인할 수 있습니다.
+직접 라우팅에는 사용자가 온라인으로 연결 되어 있어야 합니다. Infra.lync.com 도메인에 값이 있어야 하는 RegistrarPool 매개 변수를 확인 하 여 확인할 수 있습니다. OnPremLineUriManuallySet 매개 변수도 True로 설정 해야 합니다. 이는 전화 번호를 구성 하 고 비즈니스용 Skype Online PowerShell을 사용 하 여 엔터프라이즈 음성 및 보이스 메일을 사용 하도록 설정 함으로써 이루어집니다.
 
-1. 원격 PowerShell에 연결 합니다.
+1. 비즈니스용 Skype Online PowerShell 세션을 연결 합니다.
+
 2. 다음 명령을 실행 합니다. 
 
     ```PowerShell
-    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
+    OnPremLineUriManuallySet가 False로 설정 되 고 LineUri가 <E> 전화 번호를 사용 하 여 채워지면, 비즈니스용 skype Online PowerShell을 사용 하 여 전화 번호를 구성 하기 전에 온-프레미스 비즈니스용 Skype 관리 셸을 사용해 매개 변수를 정리 하세요. 
+
+1. 비즈니스용 Skype 관리 셸에서 다음 명령을 실행 합니다. 
+
+   ```PowerShell
+   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+    ``` 
+   변경 내용이 Office 365와 동기화 된 후의 예상 출력은 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` 다음과 같습니다.
+
+   ```console
+   RegistrarPool                        : pool.infra.lync.com
+   OnPremLineURIManuallySet             : True
+   OnPremLineURI                        : 
+   LineURI                              : 
+   ```
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>전화 번호를 구성 하 고 엔터프라이즈 음성 및 보이스 메일 사용 
 
@@ -70,13 +86,14 @@ Microsoft 365 또는 Office 365에서 새 사용자를 만드는 두 가지 옵�
 
 전화 번호를 추가 하 고 보이스 메일을 사용 하도록 설정 하려면:
  
-1. 원격 PowerShell 세션에 연결 합니다. 
-2. 명령 입력: 
+1. 비즈니스용 Skype Online PowerShell 세션을 연결 합니다. 
+
+2. 다음 명령을 실행 합니다. 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
-
+    
     예를 들어 사용자 "Spencer Low"에 대 한 전화 번호를 추가 하려면 다음을 입력 합니다. 
 
     ```PowerShell
@@ -85,8 +102,8 @@ Microsoft 365 또는 Office 365에서 새 사용자를 만드는 두 가지 옵�
 
     사용 된 전화 번호는 국가 코드를 사용 하 여 전체 전자 164 자로 구성 되어야 합니다. 
 
-      > [!NOTE]
-      > 사용자의 전화 번호가 온-프레미스에서 관리 되는 경우 온-프레미스 Skype for Business 관리 셸 또는 제어판을 사용 하 여 사용자의 전화 번호를 구성 합니다. 
+    > [!NOTE]
+    > 사용자의 전화 번호가 온-프레미스에서 관리 되는 경우 온-프레미스 Skype for Business 관리 셸 또는 제어판을 사용 하 여 사용자의 전화 번호를 구성 합니다. 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>전화를 음성 메일로 바로 보내는 방법 구성

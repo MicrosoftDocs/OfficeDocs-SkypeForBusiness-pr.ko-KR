@@ -19,17 +19,17 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 비즈니스용 skype online 커넥터를 다운로드 하 여 설치 하 고 사용 하 여 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만듭니다.
-ms.openlocfilehash: 8e9441e152314fafdee8fe8292d0b62a1b17d6da
-ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
+ms.openlocfilehash: 3928e77e5bac77dbfe89f7be5e762dd0d8ff93eb
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46564777"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814567"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>비즈니스용 Skype Online 커넥터 모듈 다운로드 및 설치
 
 > [!NOTE]
-> 최신 [팀 powershell 공개 미리 보기 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/) 는 비즈니스용 Skype Online 커넥터와 통합 되어 팀 PowerShell 관리를 위한 단일 모듈을 제공 합니다.
+> 최신 [팀 powershell 공개 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/) 는 비즈니스용 Skype Online 커넥터와 통합 되어 팀 PowerShell 관리를 위한 단일 모듈을 제공 합니다.
 
 비즈니스용 Skype Online 커넥터 모듈에는 비즈니스용 Skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 **새로운 CsOnlineSession** cmdlet이 포함 되어 있습니다. 64 비트 컴퓨터 에서만 지원 되는이 모듈 (자세한 내용은 [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리를 위해 컴퓨터 설정](set-up-your-computer-for-windows-powershell.md) 참조)을 Microsoft 다운로드 센터에서 다운로드할 수 있습니다 [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) . SkypeOnlinePowershell.exe 파일을 다운로드 하 고 다음 절차를 완료 합니다.
   

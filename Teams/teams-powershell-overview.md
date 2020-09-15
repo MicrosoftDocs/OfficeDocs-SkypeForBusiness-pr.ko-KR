@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell 컨트롤을 사용 하 여 Microsoft 팀을 관리 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5385430c7db8aab0adf1efbaec546134e9adf388
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: a5986a730ed678d45360d89efbd35693134c2a6a
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943991"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814367"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft 팀 PowerShell 개요
 
@@ -43,16 +43,17 @@ PowerShell 사용을 시작 하려면 먼저 [설치](teams-powershell-install.m
 
 ## <a name="manage-teams-with-powershell"></a>PowerShell을 사용 하 여 팀 관리
 
-이러한 PowerShell 모듈을 모두 사용 하 여 팀을 완전 관리 합니다.
+팀 PowerShell 모듈을 사용 하 여 팀을 완벽 하 게 관리 합니다.
 
 - [Microsoft 팀 powershell 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams/): 팀 powershell 모듈에는 팀, 채팅 및 채널을 관리 하는 cmdlet이 포함 되어 있습니다.
 
-- 비즈니스용 [Skype powershell 모듈](https://www.microsoft.com/download/details.aspx?id=39366): 비즈니스용 skype powershell 모듈에는 모임, 전화 시스템 및 정책 기능을 관리 하는 cmdlet이 포함 되어 있습니다.
+> [!NOTE]
+> 최신 [팀 powershell 공개 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/) 는 비즈니스용 Skype Online 커넥터와 통합 되어 팀 PowerShell 관리를 위한 단일 모듈을 제공 합니다.
+
+- 비즈니스용 [Skype Powershell 커넥터](https://www.microsoft.com/download/details.aspx?id=39366): 비즈니스용 skype powershell 커넥터는 이제 팀 powershell 모듈의 일부입니다.
 
 이러한 모듈을 사용 하 여 팀을 관리 하는 방법에 대 한 자세한 내용은 [팀으로 팀 관리 PowerShell](teams-powershell-managing-teams.md)을 참조 하세요.
 
-> [!NOTE]
-> 최신 [팀 powershell 공개 미리 보기 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/) 는 비즈니스용 Skype Online 커넥터와 통합 되어 팀 PowerShell 관리를 위한 단일 모듈을 제공 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 
