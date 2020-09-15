@@ -16,12 +16,12 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897807"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766912"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -36,8 +36,8 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 
 팀 사용자의 모임이 기록 되도록 하려면 테 넌 트에 대해 Microsoft Stream을 사용 하도록 설정 해야 합니다. 또한 다음과 같이 모임 이끌이 및 녹음/녹화를 시작하는 사용자 모두에게 필요한 필수 구성 요소가 있습니다.
 
-- 사용자에 게 Office 365 E1, E3, E5, A1, A3, A5, M365 Business Premium, M365 Business Standard 또는 M365 Business Basic이 있습니다.
-- 사용자에게 Microsoft Stream<sup>1</sup>에 대한 라이선스가 필요합니다. 
+- 사용자에 게 Office 365 E1, E3, E5, A1, A3, A5, Microsoft 365 Business Premium, Business Standard 또는 Business Basic<sup>1</sup> 이 있음
+- 사용자에 게 Microsoft 스트림<sup>2</sup> 에 대 한 라이선스가 있어야 합니다. 
 - 사용자에게 Microsoft Stream 업로드 비디오 권한이 있습니다.
 - 관리자가 설정한 경우 사용자는 회사 지침을 동의합니다.
 - 사용자는 Microsoft Stream의 저장 공간이 충분하여 녹음/녹화를 저장할 수 있습니다.
@@ -45,7 +45,9 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 - 사용자는 모임에서 익명, 게스트 또는 페더레이션 사용자가 아닙니다.
 - 사용자의 모임에 대 한 기록을 사용 하도록 설정 하려면, 자신에 게 할당 된 팀 모임 정책에는-AllowTranscription 설정이 true로 설정 되어 있어야 합니다.
 
-<sup>1</sup> 사용자에 게 Microsoft Stream에 대 한 모임 업로드/다운로드를 위한 라이선스가 필요 하지는 않지만 모임을 녹음/녹화할 수 있는 라이선스는 없습니다. Microsoft Temas 모임을 녹음/녹화하는 것에서 사용자를 차단하려면 AllowCloudRecording이 False로 설정된 TeamsMeetingPolicy를 부여해야 합니다.
+<sup>1</sup> 8 월 20 일이 하 2020, A1이 있는 사용자의 모임 기록 파일에 대 한 액세스가 21days 후에 만료 됩니다. 자세한 내용은 [스트림에 Microsoft 팀 모임 기록 업로드](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording)를 참조 하세요.
+
+<sup>2</sup> 사용자에 게 Microsoft Stream에 대 한 모임을 업로드/다운로드할 수 있는 권한이 필요 하지만 모임을 녹음/녹화할 수 있는 라이선스가 필요 하지는 않습니다. Microsoft Temas 모임을 녹음/녹화하는 것에서 사용자를 차단하려면 AllowCloudRecording이 False로 설정된 TeamsMeetingPolicy를 부여해야 합니다.
 
 > [!IMPORTANT] 
 > 사용자가 녹음/녹화 및 녹음/녹화의 다운로드만 하도록 하려면 사용자에게 Microsoft Stream 라이선스를 할당할 필요가 없습니다. 이는 녹화가 Microsoft Stream에 저장 되지 않지만, 삭제 되기 21 일 제한을 초과 하 여 Azure Media Services (AMS)에 저장 되는 것을 의미 합니다. 이는 이 시점에 관리자가 삭제하는 기능을 포함하여 컨트롤하거나 관리할 수 있는 사항이 아닙니다.
@@ -126,7 +128,8 @@ Microsoft 365 또는 Office 365의 서비스에서 데이터가 저장 되는 �
 
 이 설정은 모임 녹음/녹화를 재생 하는 동안 캡션과 기록 기능을 사용할 수 있는지 여부를 제어 합니다. 이 기능을 해제 하면 모임 녹음/녹화를 재생 하는 동안 **검색** 및 **참조** 옵션을 사용할 수 없습니다. 녹음/녹화를 시작한 사람에 게는 녹음/녹화가 포함 되도록이 설정이 켜져 있어야 합니다.
 
-기록 된 모임에 대 한 **정보** 는 현재 팀의 언어를 영어로 설정한 경우와 모임에서 영어를 사용 하 고 있는 사용자만 지원 합니다.
+> [!NOTE]
+> 기록 된 모임에 대 한 해당 사용자는 현재 팀의 언어를 영어로 설정한 경우와 모임에서 영어를 사용 하는 경우에만 지원 됩니다. Microsoft Stream 클라우드 저장소의 모임 녹음/녹화와 함께 저장 됩니다.
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 녹음/녹화 개시자에게 모임 녹음/녹화를 기록할 수 있는 선택권이 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 

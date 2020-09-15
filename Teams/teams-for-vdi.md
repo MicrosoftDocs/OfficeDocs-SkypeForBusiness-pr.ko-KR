@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: dce77f6fd2ff7d26f9452341884406fa69099a79
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803998"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766922"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -80,7 +80,11 @@ Citrix 가상 앱 및 데스크톱 (이전의 XenApp 및 XenDesktop)은 VDI의 �
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware 수평 작업 공간 및 데스크톱 요구 사항
 
-VMware 수평은 가상 데스크톱 전반의 생산성 향상을 위해 VDI의 팀에 최적화 된 AV 지원을 제공 합니다. [Vmware 다운로드](https://my.vmware.com/web/vmware/downloads/#all_products) 페이지에서 최신 버전의 vmware 구간을 다운로드할 수 있습니다.
+VMware 수평은 하이브리드 클라우드에서 가상 데스크톱 및 앱을 안전 하 게 전달 하기 위한 최신 플랫폼입니다. 훌륭한 최종 사용자 환경을 제공 하기 위해 VMware 수평은 팀에 미디어 최적화 기능을 제공 합니다. 이러한 최적화는 가상 데스크톱과 앱에서 전반적인 생산성을 개선 하 고 팀을 사용 하 여 전화를 걸고 회의를 할 때 사용자 환경을 향상 시킵니다.
+
+[Vmware 다운로드](https://my.vmware.com/web/vmware/downloads/#all_products) 페이지에서 최신 버전의 vmware 구간을 다운로드할 수 있습니다. 필수 미디어 최적화 구성 요소는 기본적으로 수평 에이전트 및 수평 클라이언트의 일부 이며, 팀에 최적화 기능을 사용 하기 위해 추가 플러그인을 설치할 필요가 없습니다.
+
+팀에 대 한 미디어 최적화를 구성 하는 방법에 대 한 최신 요구 사항과 지침을 얻으려면 [이 VMware 웹 사이트](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)를 참조 하세요.
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI에서 팀 데스크톱 앱 설치 또는 업데이트
 
@@ -374,10 +378,12 @@ Fallback 모드를 사용 하지 않도록 설정 하려면 값을 **1**로 설�
 - 향상 된 응급 서비스
 - 팀 앱과 장치 간의 HID 단추 및 LED 컨트롤
 - 백그라운드 흐림 및 효과
-- 브로드캐스트/라이브 이벤트
+- 브로드캐스트 및 라이브 이벤트 생산자 및 발표자 역할
 - LBR (위치 기반 라우팅)
 - 통화 공원
 - 통화 대기열
+- 공유 시스템 오디오/컴퓨터 소리
+- 직접 라우팅을 위한 미디어 바이패스
 
 > [!NOTE]
 > 현재는 비 VDI 환경 에서만 사용할 수 있는 통화 및 모임 기능을 추가 하는 작업을 진행 하 고 있습니다. 여기에는 품질, 추가 화면 공유 시나리오, 최근에 팀에 추가 된 고급 기능에 대 한 더 많은 관리 제어가 포함 될 수 있습니다. 예정 된 기능에 대해 자세히 알아보려면 팀 담당자에 게 문의 하세요.

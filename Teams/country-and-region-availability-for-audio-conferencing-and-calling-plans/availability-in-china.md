@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 중국에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: d0629cfe16e5e917a358c55d0b6ec6b78bfbcf29
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8db46e038ff817844f738fbaea630089970908e7
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230576"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766892"
 ---
 # <a name="availability-in-china"></a>중국의 가용성
 
@@ -42,17 +42,17 @@ ms.locfileid: "44230576"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|음성 회의를 구매할 수 있나요?  <br/> |아니요  <br/> |
+|음성 회의를 구매할 수 있나요?  <br/> |예, 중국 외부에 거주 하는 사용자가 사용 합니다. 자세한 내용은 계정 팀에 문의 하세요.  <br/> |
 |전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> | 비 지역. 전화 번호가 특정 도시 또는 위치에 연결 되어 있지 않습니다. <br/>  전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.  <br/> |
-|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |대화 가능  <br/> |
+|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> | 예, 중국에서 서비스를 구입한 고객을 제외 합니다. 중국에서 서비스를 구입한 고객은 전화 접속 기능을 사용할 수 없습니다.   <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |전화 시스템을 구매할 수 있나요?  <br/> |예  <br/> |
-| 자동 전화 교환 <br/> |대화 가능  <br/> |
-|통화 큐  <br/> |대화 가능  <br/> |
+| 자동 전화 교환 <br/> |사용 가능  <br/> |
+|통화 큐  <br/> |사용 가능  <br/> |
 |음성 메일  <br/> |사용 가능  <br/> |
    
 ## <a name="calling-plans"></a>통화 플랜
@@ -71,7 +71,7 @@ ms.locfileid: "44230576"
 |:-----|:-----|
 |유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |베이징  <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |예 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |중국에서 서비스를 구입 하는 고객을 제외한[요청에](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)있음 무료 전화 번호는 중국에서 서비스를 구입 하는 고객에 게는 제공 되지 않습니다. <br/> |
    
  오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 전화 번호와 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.
   
@@ -81,7 +81,6 @@ ms.locfileid: "44230576"
 |:-----|:-----|
 |통신 크레딧을 사용할 수 있나요?  <br/> |아니요  <br/> |
    
-통신 크레딧을 설정하려면 [조직에 대한 통신 크레딧 설정](../set-up-communications-credits-for-your-organization.md)을 참조하세요.
   
 ## <a name="related-topics"></a>관련 항목
 

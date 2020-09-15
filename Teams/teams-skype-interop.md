@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 팀 사용자와 Skype (소비자) 사용자 간의 상호 운용성 기능에 대해 알아봅니다.
 localization_priority: Normal
-ms.openlocfilehash: 551e39cdb496cc9e64ad962a8a50c06cb72f0aa2
-ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
+ms.openlocfilehash: b05724f7ddb860d4b135fad5834ea851403c1490
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651207"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766902"
 ---
 # <a name="teams-and-skype-interoperability"></a>팀 및 Skype 상호 운용성
 
@@ -45,7 +45,7 @@ Skype 사용자가 검색 결과에 표시 하지 않도록 선택할 수 있습
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype 사용자와의 채팅 또는 팀 사용자와의 통화 시작
 
-Skype 사용자는 전자 메일 주소를 사용 하 여 팀 사용자와 채팅을 검색 하 고 시작할 수 있습니다. 팀 사용자에 게는 Skype 사용자의 새 메시지가 있음을 알리는 메시지가 표시 됩니다. 팀 사용자는 먼저 메시지를 수락 해야 회신할 수 있습니다.
+Skype 사용자는 전자 메일 주소를 사용 하 여 팀 사용자와 채팅을 검색 하 고 시작할 수 있습니다. 팀 사용자에 게는 Skype 사용자가 보낸 새 메시지가 있고 먼저 메시지를 수락 하 고 회신할 수 있다는 알림이 표시 됩니다.
 
 - 팀 사용자가 **수락**을 선택 하면 대화가 수락 되 고 두 사용자 모두 서로 채팅 하 고 통화할 수 있습니다.
 - 팀 사용자가 **블록**을 선택 하면 대화가 차단 되 고 이후 해당 Skype 사용자의 후속 메시지와 통화가 차단 됩니다.

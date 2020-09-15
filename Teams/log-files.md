@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 생성 하는 디버그, 미디어, 데스크톱 로그, 찾을 수 있는 위치, 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f13acc1a401a6753b335c17fe0cd8a7984849216
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582115"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766762"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft 팀 문제 해결에서 로그 파일 사용
 =================================================
@@ -81,7 +81,7 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 
 -   Windows:% userprofile% \\ 다운로드
 
--   Mac OSX: 다운로드
+-   Mac OSX: ~/다운로드
 
 -   Linux: ~/다운로드
 
@@ -90,8 +90,11 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 <a name="media-logs"></a>미디어 로그
 ---------------------------
 
-미디어 로그에는 오디오, 비디오, 화면 공유에 대 한 진단 데이터가 포함 되어 있습니다. 요청 시에만 지원 서비스 케이스에 필요 하며 Microsoft만 검사할 수 있습니다. 다음 표에서는 로그 위치에 대해 간략하게 설명 합니다.
+미디어 로그에는 팀 모임에서 오디오, 비디오, 화면 공유에 대 한 진단 데이터가 포함 됩니다. 요청 시에만 지원 서비스 케이스에 필요 하며 Microsoft만 검사할 수 있습니다. 
 
+미디어 로깅은 기본적으로 꺼져 있습니다. 팀 모임에 대 한 진단 데이터를 기록 하려면 사용자가 팀 클라이언트에서 옵션을 설정 해야 합니다. **설정**일반으로 이동 하 고  >  **General**, **모임 진단에 대 한 로깅 사용 (팀 재시작 필요**) 확인란을 선택한 다음 팀을 다시 시작 합니다.
+
+다음 표에서는 로그 위치에 대해 간략하게 설명 합니다.
 
 |클라이언트 |위치 |
 |---------|---------|
@@ -103,7 +106,15 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 |Linux       |~/.config/Microsoft/Microsoft 팀/media-stack/*-블로그         |
 |            |~/.config/Microsoft/Microsoft 팀/skylib/*-블로그         |
 
+생성 되는 로그 파일과 해당 파일에 포함 된 정보 목록은 다음과 같습니다.
 
+|로그 파일 이름  |설명  |
+|---------|---------|
+|팀. msrtc-0-s1039525249. 블로그     | 미디어 스택과 관련 된 정보를 포함 합니다. 여기에는 해상도, 디코더 및 인코더와 같은 채널 상태, 보내고 받은 프레임 수, 카메라 및 비디오 기반 화면 공유 (VBSS) 세션 상태 등이 포함 됩니다.         |
+|rtmcontrol-msrtc-0-2415069487. 블로그      |컨트롤을 지정 하는 경우의 타임 스탬프 및 마우스 포인터 정보 등 원격 제어 작업과 관련 된 정보를 기록 합니다.          |
+|Teams_MediaStackETW -2-U-xr-U .etl      |미디어 스택 추적 이벤트를 기록 합니다.         |
+|디버그-0-s2790420889    | 미디어 에이전트와 관련 된 정보 (렌더링 품질 포함)를 포함 합니다.          |
+|tscalling-0-2061129496-블로그   |Ts 호출 API의 이벤트를 기록 합니다.       |
 
 <a name="desktop-logs"></a>데스크톱 로그
 ---------------------
