@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: 95719bc95cc752888964a5f404e6f8050ebf3fa4
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672879"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766862"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 ===========================================================
@@ -62,6 +62,11 @@ ms.locfileid: "46672879"
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft 팀에 대 한 자동 전화 교환 및 통화 대기열 지원 구성
 
 Microsoft 팀에서 자동 전화 교환 및 통화 대기열 통화를 받으려면 상호 운용성 정책 및 업그레이드 정책을 구성 해야 합니다. [비즈니스용 Skype로 함께 팀을 사용 하는 조직의 마이그레이션 및 상호 운용성](migration-interop-guidance-for-teams-with-skype.md)을 검토 하세요. 자동 전화 교환 및/또는 통화 대기열이 구성 되어 있지 않은 경우이 작업을 수행 하려면 [클라우드 자동 전화 교환 설정](create-a-phone-system-auto-attendant.md) 및 [클라우드 통화 대기열 만들기](create-a-phone-system-call-queue.md)를 참조 하세요.
+
+## <a name="known-issues"></a>알려진 문제점
+
+통화 대기열 에이전트는 해당 모바일 장치에서 전화를 받을 때 장치가 잠겨 있는 경우 통화 대기 상태로 전환 될 수 있습니다. 사용자는 먼저 장치 잠금을 해제 한 다음 통화에 응답 해야 합니다.
+
 
 ## <a name="related-topics"></a>관련 항목
 
