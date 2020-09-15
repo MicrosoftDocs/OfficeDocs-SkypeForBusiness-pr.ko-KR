@@ -17,17 +17,22 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 857c9c4d830cb3264a83a41b555d26ee004751de
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
+ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581749"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47652478"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams에서 데스크톱 공유 구성하기
 ============================================
 
-데스크톱 공유를 통해 사용자는 모임이나 채팅 도중에 화면이나 앱을 표시할 수 있습니다. 관리자는 사용자가 전체 화면, 앱 또는 파일을 공유할 수 있도록 Microsoft Teams에서 화면 공유를 구성할 수 있습니다. 사용자가 제어권을 주거나 요청하고, PowerPoint 공유를 허용하고, 화이트보드를 추가하고, 공유 노트를 허용하도록 할 수 있습니다. 익명 사용자나 외부 사용자가 공유 화면의 제어권을 요청할 수 있는지 여부도 구성할 수 있습니다.
+데스크톱 공유를 통해 사용자는 모임이나 채팅 도중에 화면이나 앱을 표시할 수 있습니다. 관리자는 사용자가 전체 화면, 앱 또는 파일을 공유할 수 있도록 Microsoft Teams에서 화면 공유를 구성할 수 있습니다. 사용자가 제어권을 주거나 요청하고, PowerPoint 공유를 허용하고, 화이트보드를 추가하고, 공유 노트를 허용하도록 할 수 있습니다. 익명 사용자나 외부 사용자가 공유 화면의 제어권을 요청할 수 있는지 여부도 구성할 수 있습니다. 팀 회의의 외부 참가자는 다음과 같이 분류할 수 있습니다.
+
+- 익명 사용자
+- 게스트 사용자
+- B2B 사용자
+- 페더레이션 사용자
 
 화면 공유를 구성하려면 새 모임 정책을 만든 다음 관리하려는 사용자에게 할당합니다.
 
@@ -35,11 +40,11 @@ ms.locfileid: "46581749"
 
 1. **모임** > **모임 정책**을 선택합니다.
 
-    ![선택한 모임 정책을 보여 주는 스크린샷](media/configure-desktop-sharing-image1.png)
+    ![모임 정책 선택](media/configure-desktop-sharing-image1.png)
 
-2. **모임 정책** 페이지에서 **새 정책**을 선택합니다.
+2. **모임 정책** 페이지에서 **추가**를 선택 합니다.
 
-    ![모임 정책 메시지를 보여 주는 스크린샷](media/configure-desktop-sharing-image2.png)
+    ![모임 정책 메시지](media/addMeeting.png)
 
 3. 정책에 고유한 제목을 지정하고 간략한 설명을 입력합니다.
 
@@ -49,7 +54,10 @@ ms.locfileid: "46581749"
    - **단일 응용 프로그램** – 사용자가 단일 활성 응용 프로그램으로 화면 공유를 제한하도록 합니다.
    - **사용 안 함** – 화면 공유를 끕니다.
 
-    ![공유 모드 옵션을 보여 주는 스크린샷](media/configure-desktop-sharing-image3.png)
+    ![공유 모드 옵션](media/configure-desktop-sharing-image3.png)
+
+  > [!Note]
+  > 사용자가 채팅에서 화면 공유를 사용할 수 있도록 호출 정책을 사용할 필요가 없습니다. 그러나 음소거가 해제 될 때까지 해당 오디오는 꺼집니다. 또한 화면을 공유 하는 사용자는 오디오 **추가** 를 클릭 하 여 오디오를 사용 하도록 설정할 수 있습니다. 통화 정책을 사용 하지 않도록 설정 하면 사용자가 채팅 세션에서 화면 공유에 오디오를 추가할 수 없습니다.
 
 5. 다음 설정을 켜거나 끕니다.
 
@@ -67,6 +75,7 @@ ms.locfileid: "46581749"
 
 - Description
 - ScreenSharingMode
+- AllowPrivateCalling
 - AllowParticipantGiveRequestControl
 - AllowExternalParticipantGiveRequestControl
 - AllowPowerPointSharing
@@ -74,4 +83,3 @@ ms.locfileid: "46581749"
 - AllowSharedNotes
 
 [CsTeamsMeetingPolicy cmdlet을 사용하는 방법에 대해 자세히 알아보세요](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
-

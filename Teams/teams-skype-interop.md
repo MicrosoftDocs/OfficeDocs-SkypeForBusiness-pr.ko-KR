@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 팀 사용자와 Skype (소비자) 사용자 간의 상호 운용성 기능에 대해 알아봅니다.
 localization_priority: Normal
-ms.openlocfilehash: 05db7408505c4b3e3c47006cfa93c3a4e3c65061
-ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
+ms.openlocfilehash: 551e39cdb496cc9e64ad962a8a50c06cb72f0aa2
+ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47395367"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47651207"
 ---
 # <a name="teams-and-skype-interoperability"></a>팀 및 Skype 상호 운용성
 
@@ -28,7 +28,10 @@ ms.locfileid: "47395367"
 - 팀 사용자는 일대일 텍스트 대화 또는 Skype 사용자와의 음성/영상 통화를 검색 하 고 시작할 수 있습니다.
 - Skype 사용자는 일대일 텍스트 대화 또는 팀 사용자와의 음성/영상 통화를 검색 하 고 시작할 수 있습니다.
 
-이 기능은 팀과 Skype 모두를 위한 데스크톱, 웹, 모바일 (Android 및 iOS) 클라이언트에서 사용할 수 있습니다. 최상의 환경을 위해서는 Skype 버전 8.58 이상을 권장 합니다.
+이러한 접근 권한 값은 팀과 Skype 모두를 위한 데스크톱, 웹, 모바일 (Android 및 iOS) 클라이언트에서 사용할 수 있습니다. 최상의 환경을 위해서는 Skype 버전 8.58 이상을 권장 합니다.
+
+> [!NOTE]
+> 이 문서에서 설명 하는 팀 및 Skype interop 기능은 GCC, GCC 높음 또는 DOD 배포 또는 사설 클라우드 환경에서 사용할 수 없습니다.
 
 ## <a name="chat-and-calling-experience"></a>채팅 및 통화 환경
 
@@ -42,7 +45,7 @@ Skype 사용자가 검색 결과에 표시 하지 않도록 선택할 수 있습
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype 사용자와의 채팅 또는 팀 사용자와의 통화 시작
 
-Skype 사용자는 전자 메일 주소를 사용 하 여 팀 사용자와 채팅을 검색 하 고 시작할 수 있습니다. 팀 사용자에 게는 Skype 사용자가 보낸 새 메시지가 있고 먼저 메시지를 수락 하 고 회신할 수 있다는 알림이 표시 됩니다.
+Skype 사용자는 전자 메일 주소를 사용 하 여 팀 사용자와 채팅을 검색 하 고 시작할 수 있습니다. 팀 사용자에 게는 Skype 사용자의 새 메시지가 있음을 알리는 메시지가 표시 됩니다. 팀 사용자는 먼저 메시지를 수락 해야 회신할 수 있습니다.
 
 - 팀 사용자가 **수락**을 선택 하면 대화가 수락 되 고 두 사용자 모두 서로 채팅 하 고 통화할 수 있습니다.
 - 팀 사용자가 **블록**을 선택 하면 대화가 차단 되 고 이후 해당 Skype 사용자의 후속 메시지와 통화가 차단 됩니다.
@@ -53,7 +56,7 @@ Skype 사용자는 전자 메일 주소를 사용 하 여 팀 사용자와 채�
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>팀 사용자가 Skype 사용자를 차단 하거나 차단을 해제 합니다.
 
-팀 사용자가 Skype 사용자의 초기 대화 요청을 수락 하거나 차단한 후에는 언제 든 지 대화 또는 팀의 개인 정보 설정에서 해당 사용자를 차단 또는 차단 해제 하도록 선택할 수 있습니다. Skype 사용자는 이들이 차단 되었음을 알 수 없습니다.
+팀 사용자가 Skype 사용자의 초기 대화 요청을 수락 하거나 차단 하 게 되 면 언제 든 지 해당 사용자를 차단 또는 차단 해제 하도록 선택할 수 있습니다. 이 작업은 대화 또는 팀의 개인 정보 설정에서 수행할 수 있습니다. Skype 사용자는 이들이 차단 되었음을 알 수 없습니다.
 
 차단 된 Skype 사용자, 팀 사용자가 차단한 다른 사용자 및 PSTN (공개 전화 네트워크) 전화 번호와 함께 팀의 사용자 차단 연락처 목록에 나열 됩니다.
 
