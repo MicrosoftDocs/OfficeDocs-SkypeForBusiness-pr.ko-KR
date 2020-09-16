@@ -63,6 +63,7 @@
 
 ### 게스트 액세스
 #### [게스트 액세스 정보](guest-access.md)
+#### [게스트 액세스 검사 목록](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
 #### [게스트가 팀에 참여하는 방법](guest-joins.md)
 #### [게스트 환경의 모양](guest-experience.md)
 #### [Teams에서 게스트 액세스 권한 부여](teams-dependencies.md)
@@ -773,6 +774,7 @@
 
 ## [Teams의 제한과 사양](limits-specifications-teams.md)
 ## [Teams의 데이터 위치](location-of-data-in-teams.md)
+## [데이터 수집 사례](data-collection-practices.md)
 
 ## Teams 배포 준비
 ### [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
