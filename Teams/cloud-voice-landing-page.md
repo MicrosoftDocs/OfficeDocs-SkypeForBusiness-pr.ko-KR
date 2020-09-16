@@ -20,12 +20,12 @@ search.appverid: MET150
 description: 클라우드 음성 기능에 대해 자세히 알아보고 필요한 배포 결정을 이해 하세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851e14e934578b0da8853991e1bc993e8483f818
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5a05ba72f52d4131229b28072a615bf12f6b5930
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814878"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820502"
 ---
 # <a name="voice---phone-system-and-pstn-connectivity-options"></a>음성 전화 시스템 및 PSTN 연결 옵션
 
@@ -38,7 +38,7 @@ ms.locfileid: "47814878"
 모든 조직에서 핵심 의사 결정을 수행 하는 것이 좋으며 조직에 추가 요구 사항이 있는 경우 다음 자료를 검토 합니다.
 
  > [!Note]
- > 자세한 내용은 [플랫폼용 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 을 참조 하세요.
+> 다양 한 플랫폼의 전화 시스템 기능에 대 한 자세한 내용은 [플랫폼용 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조 하세요.
 
 ## <a name="learn-more-about-voice"></a>음성에 대 한 자세한 정보
 

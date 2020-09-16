@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc59616cb882897447dac35f33cf197e6e8fe143
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: b8d47361cd075fd5165e6f7e66fd76ad4ce1eb11
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814377"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820612"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -40,7 +40,7 @@ VDI (가상 데스크톱 인프라)는 데스크톱 운영 체제 및 응용 프
 최적의 사용자 환경을 보장 하려면이 문서의 지침을 따르세요.
 
  > [!Note]
- > 자세한 내용은 [플랫폼용 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 을 참조 하세요.
+> 다양 한 플랫폼의 팀 VDI에 대 한 자세한 내용은 [플랫폼용 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조 하세요.
 
 ## <a name="teams-on-vdi-components"></a>VDI 구성 요소의 팀
 

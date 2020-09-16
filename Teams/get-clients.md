@@ -18,17 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1db2aa6eae0dadbd2043198a167daa5cc6fe098
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581679"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820332"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드 
 
+Microsoft Teams에는 데스크톱(Windows, Mac, Linux), 웹, 모바일(Android 및 iOS)에서 사용할 수 있는 클라이언트가 있습니다. 이 클라이언트에는 모두 활성 인터넷 연결이 필요하며 오프라인 모드를 지원하지 않습니다. 
 
-Microsoft Teams에는 데스크톱(Windows, Mac, Linux), 웹, 모바일(Android 및 iOS)에서 사용할 수 있는 클라이언트가 있습니다. 이 클라이언트에는 모두 활성 인터넷 연결이 필요하며 오프라인 모드를 지원하지 않습니다.
+> [!Note]
+> 다양 한 플랫폼의 각 클라이언트 기능에 대 한 자세한 내용은 [플랫폼용 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조 하세요.
 
 > [!NOTE]
 > 2018년 11월 29일부터 더 이상 Microsoft Store에서 제공하는 Windows 10 S(미리 보기)용 Microsoft Teams 앱을 사용할 수 없습니다. 대신 이제는 Windows 10 S 모드를 실행하는 장치에 Teams 데스크톱 클라이언트를 다운로드하고 설치할 수 있습니다. 데스크톱 클라이언트를 다운로드하려면 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)로 이동합니다. Teams 데스크톱 클라이언트의 MSI 빌드는 아직 Windows 10 S 모드를 실행하는 장치에서 사용할 수 없습니다.
