@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 조직에 태그를 사용 하는 방법을 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9295d03aecb6c0bc6a4f667214869fe698d4eaab
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 965de27b2671106bed4e5c877f26a7132bf61040
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324020"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940528"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft 팀의 태그 관리
 
@@ -94,11 +94,11 @@ Microsoft 팀의 태그를 통해 사용자는 팀의 일부 사용자와 빠르
 
 ### <a name="create-and-assign-custom-tags"></a>사용자 지정 태그 만들기 및 할당
 
-사용자 지정 태그를 만들고 할당 하려면 앱의 왼쪽에서 **팀** 을 선택한 다음 목록에서 팀을 찾습니다. **기타 옵션**을 선택한 다음 **태그 관리**를 선택 합니다. 여기서는 태그를 만들어 팀 구성원에 게 할당할 수 있습니다.
+사용자 지정 태그를 만들고 할당 하려면 앱의 왼쪽에서 **팀** 을 선택한 다음 목록에서 팀을 찾습니다. **̇ ̇ ̇ 추가 옵션**을 선택한 다음, **태그 관리**를 선택 합니다. 여기서는 태그를 만들어 팀 구성원에 게 할당할 수 있습니다.
 
 ![팀 클라이언트에서 태그를 적용 하는 방법 스크린샷 ](media/manage-tags-teams.png)
 
-태그를 삭제 하려면 태그와 연결 된 모든 팀 구성원을 제거 합니다.
+태그를 삭제 하려면 태그 옆에 있는 **̇ ̇ ̇ 추가 옵션** 을 선택한 다음 **태그 삭제**를 선택 합니다.
 
 ### <a name="set-up-tagging-by-shift-coming-soon"></a>교대 근무 태그 설정 (예정 대로)
 

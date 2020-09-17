@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1981640ab06d00e7895e11c0e15adf7555577908
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 0b63473dcb07c5fcac49902ced6d11777217a0c5
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648609"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940598"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>비즈니스용 Skype 온-프레미스에서 팀으로 업그레이드
 
@@ -86,6 +86,6 @@ ms.locfileid: "46648609"
 
 PSTN (공용 전환 전화 네트워크) 연결 옵션을 고려할 때 비즈니스용 Skype에서 팀 전용 모드로 전환할 때 다음과 같은 두 가지 시나리오가 가능 합니다.
 
-- Enterprise Voice를 사용 하는 비즈니스용 Skype 온-프레미스 사용자로 서, 온라인으로 이동 하 고 Microsoft의 통화 요금제를 사용 하 게 됩니다. 이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 해당 사용자의 전화 번호를 Microsoft 통화 요금제 또는 B로 이동 하 여 사용 가능한 지역에서 새 구독자 번호를 할당 해야 합니다.  자세한 내용은 [비즈니스용 Skype Server 온-프레미스에서 엔터프라이즈 음성을 사용 하 여 Microsoft 전화 요금제를](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)참조 하세요.
+- Enterprise Voice를 사용 하는 비즈니스용 Skype 온-프레미스 사용자로 서, 온라인으로 이동 하 고 Microsoft의 통화 요금제를 사용 하 게 됩니다. 이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 해당 사용자의 전화 번호를 Microsoft 통화 요금제 또는 B로 이동 하 여 사용 가능한 지역에서 새 구독자 번호를 할당 해야 합니다.  자세한 내용은 [비즈니스용 Skype Server 온-프레미스에서 엔터프라이즈 음성을 사용 하 여 Microsoft 전화 요금제를](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)참조 하세요.
 
-- 비즈니스용 Skype 온-프레미스에서 엔터프라이즈 음성을 사용 하 여 온라인으로 전환 하 고 온-프레미스 PSTN 연결을 유지 하는 사용자입니다. 이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 사용자의 직접 라우팅에 맞게 이동 하도록 조정 해야 합니다. 자세한 내용은 [비즈니스용 Skype Server 온-프레미스에서 엔터프라이즈 음성을 사용 하 여 직접 라우팅](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)을 참조 하세요.
+- 비즈니스용 Skype 온-프레미스에서 엔터프라이즈 음성을 사용 하 여 온라인으로 전환 하 고 온-프레미스 PSTN 연결을 유지 하는 사용자입니다. 이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 사용자의 직접 라우팅에 맞게 이동 하도록 조정 해야 합니다. 자세한 내용은 [비즈니스용 Skype Server 온-프레미스에서 엔터프라이즈 음성을 사용 하 여 직접 라우팅](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)을 참조 하세요.

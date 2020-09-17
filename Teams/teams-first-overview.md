@@ -15,12 +15,12 @@ description: 이 지침을 사용 하 여 Microsoft 팀을 첫 번째 Microsoft 
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84408fdb6d58e755d0eb4c775d1954f22791264c
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 2f7acdfb092e74ae5e10e818b4007c4e22762a36
+ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691004"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950864"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft 팀 먼저 롤아웃
 
@@ -86,9 +86,9 @@ Microsoft 365 또는 Office 365에 대 한 여행, 시작 지점 및 온-프레�
 
 [Exchange 및 Microsoft 팀이 어떻게 상호 작용](exchange-teams-interact.md) 하 여 시나리오에서 사용할 수 있는 규정 준수 기능에 대해 알아보세요.
 
-## <a name="organizations-span-classunderlinewithoutspan-skype-for-business-or-lync-server"></a>비즈니스용 Skype 또는 Lync server가 **<span class="underline">없는</span>** 조직
+## <a name="organizations-span-classunderlinewithoutspan-skype-for-business-or-lync-server"></a>비즈니스용 Skype 또는 Lync Server가 **<span class="underline">없는</span>** 조직
 
-이 시작 단계에서는 조직이 비즈니스용 Skype 또는 Lync server를 사용 하지 않는 것으로 가정 하 고, 현재 팀이 Microsoft 365 또는 Office 365의 첫 번째 응용 프로그램이 됩니다. 다음 표에서는 핵심 서비스에 대 한 팀의 상위 수준 구성과 최종 사용자 기능에 대해 설명 합니다.
+이 시작 단계에서는 조직이 비즈니스용 Skype 또는 Lync Server를 사용 하지 않는 것으로 가정 하 고, 현재 팀이 Microsoft 365 또는 Office 365의 첫 번째 응용 프로그램이 됩니다. 다음 표에서는 핵심 서비스에 대 한 팀의 상위 수준 구성과 최종 사용자 기능에 대해 설명 합니다.
 
 <table>
 <thead>
@@ -104,16 +104,18 @@ Microsoft 365 또는 Office 365에 대 한 여행, 시작 지점 및 온-프레�
 </tr>
 <tr class="even">
 <td>팀에서 채팅/외부 통신</td>
-<td><p>내부 (Microsoft 365 또는 Office 365 조직 내) 및 팀에서 가능 하 게 하는 외부 채팅 통신</p>
-<p><em>참고: DNS 항목은 외부 액세스용으로 구성 해야 합니다. 비즈니스용 skype for 구내 또는 Microsoft 365 또는 Office 365을 사용 하지 않는 경우에도 Lync 및 비즈니스용 skype 환경과의 페더레이션을 허용 하는 skype for Business DNS 레코드가 필요 합니다.<br />
+<td><p>내부 (Microsoft 365 또는 Office 365 조직 내) 및 팀에서 사용할 수 있는 외부 채팅 통신.</p>
+<p><em>참고: DNS 항목은 외부 액세스용으로 구성 해야 합니다. 비즈니스용 skype for 프레미스 또는 Microsoft 365 또는 Office 365을 사용 하 여 Lync 및 비즈니스용 Skype 환경과의 페더레이션을 허용 하는 경우에도 비즈니스용 skype DNS 레코드가 필요 합니다.<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">외부 도메인 이름 시스템 레코드</a></em></p></td>
 </tr>
 <tr class="odd">
-<td><em>팀에서 모임 만들기 및 보기</em></td>
-<td><p><em>Outlook 추가 기능을 통해 모임을 만들 수 있습니다.</em></p>
-<p><em>PSTN 전화 접속 및 전화 접속 기능은 오디오 회의 라이선스를 통해 사용할 수 있습니다.<br />
-참고: 팀 일정 액세스에는 Exchange 하이브리드이 설정 된 Exchange 2016 CU3 이상 + 온-프레미스를 배포 해야 합니다. 하이브리드 <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">구성 마법사를 사용 하 여 하이브리드 배포 만들기</a><br />
-Exchange 하이브리드 구성 외에 Exchange OAuth 인증 설정: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help">exchange 및 Exchange Online 조 직 간의 oauth 인증 구성</a></em></p></td>
+<td>팀에서 모임 만들기 및 보기</td>
+<td><p>Outlook 추가 기능을 통해 내부 및 외부 모임을 만들 수 있습니다.</p>
+<p>PSTN 전화 접속 및 전화 접속 기능은 오디오 회의 라이선스를 통해 사용할 수 있습니다.</p>
+<p>팀 일정 액세스에는 Exchange 하이브리드이 설정 된 Exchange 2016 CU3 이상 + 온-프레미스를 배포 해야 합니다. 하이브리드 <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">구성 마법사를 사용 하 여 하이브리드 배포 만들기</a> </p>
+<p>Exchange 하이브리드 구성 외에 Exchange OAuth 인증 설정: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> exchange 및 Exchange Online 조 직 간 oauth 인증 구성 ".</p>
+
+</p></td>
 </tr>
 <tr class="even">
 <td>통화 기능<br />
@@ -139,10 +141,10 @@ Exchange 하이브리드 구성 외에 Exchange OAuth 인증 설정: <a href="ht
 <td>보안 및 규정 준수 기능</td>
 <td><ul>
 <li><p>보존 정책을 사용할 수 있습니다.</p></li>
-<li><p>채널 메시지의 정책 준수에 대 한 eDiscovery 및 법률 보류가 지원 됩니다.</p></li>
+<li><p>채널 메시지에 대 한 eDiscovery 및 법률 보류가 지원 됩니다.</p></li>
 <li><p>데이터 손실 방지 정책 (DLP)을 사용할 수 있습니다.</p></li>
 </ul>
-<p>Exchange Online과 함께 사용할 수 있는 모든 기능 집합 Exchange 온-프레미스에서는 이러한 기능 대부분을 지원 하며 Exchange와 팀이 전체 목록에 대해 <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">상호 작용 하는 방법</a> 에 대해 알아봅니다.</p></td>
+<p>Exchange Online에서 사용할 수 있는 전체 기능 집합 Exchange 온-프레미스는 이러한 기능을 대부분 지원 합니다. 전체 목록은 <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Exchange와 팀의 상호 작용 방법</a>을 참조 하세요.</p></td>
 </tr>
 </tbody>
 </table>
@@ -178,18 +180,20 @@ Exchange 하이브리드 구성 외에 Exchange OAuth 인증 설정: <a href="ht
 <tbody>
 <tr class="odd">
 <td>테 넌 트 팀 구성</td>
-<td>아일랜드 모드</td>
+<td>아일랜드 모드.</td>
 </tr>
 <tr class="even">
 <td>팀에서 채팅/외부 통신</td>
-<td>내부 테 넌 트에만 해당 됩니다. 비즈니스용 Skype 또는 Lync server 배포를 통해 외부 통신 (페더레이션)이 가능 합니다.</td>
+<td>내부 테 넌 트에만 해당 됩니다. 외부 통신 (페더레이션)은 비즈니스용 Skype 또는 Lync server 배포를 통해 가능 합니다.</td>
 </tr>
 <tr class="odd">
 <td>팀에서 모임 만들기 및 보기</td>
-<td><p>Outlook 추가 기능을 통해 모임을 만들 수 있습니다.</p>
-<p>PSTN 전화 접속 및 전화 접속 기능은 오디오 회의 라이선스를 통해 사용할 수 있습니다.<br />
-팀 일정 액세스에는 Exchange 하이브리드이 설정 된 Exchange 2016 CU3 이상 + 온-프레미스를 배포 해야 합니다.<br />
-<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">하이브리드 구성 마법사를 사용 하 여 하이브리드 배포 만들기</a></p></td>
+<td><p>Outlook 추가 기능을 통해 내부 및 외부 모임을 만들 수 있습니다.</p>
+<p>PSTN 전화 접속 및 전화 접속 기능은 오디오 회의 라이선스를 통해 사용할 수 있습니다.</p>
+<p>팀 일정 액세스에는 Exchange 하이브리드이 설정 된 Exchange 2016 CU3 이상 + 온-프레미스를 배포 해야 합니다.<br />
+<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">하이브리드 구성 마법사를 사용 하 여 하이브리드 배포를 만듭니다.</a></p>
+<p>관리자는 팀 모임 정책의 PreferredMeetingProviderForIslandsMode 특성:<a href="https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps"> csteamsmeetingpolicy</a>를 통해 비즈니스용 Skype Outlook 추가 기능을 제어할 수 있습니다.</p> 
+</td>
 </tr>
 <tr class="even">
 <td>통화 기능<br />
@@ -215,13 +219,11 @@ Exchange 하이브리드 구성 외에 Exchange OAuth 인증 설정: <a href="ht
 <td>보안 및 규정 준수 기능</td>
 <td><ul>
 <li><p>보존 정책을 사용할 수 있습니다.</p></li>
-<li><p>채널 메시지의 정책 준수에 대 한 eDiscovery 및 법률 보류가 지원 됩니다.</p></li>
+<li><p>채널 메시지에 대 한 eDiscovery 및 법률 보류가 지원 됩니다.</p></li>
 <li><p>데이터 손실 방지 정책 (DLP)을 사용할 수 있습니다.</p></li>
 </ul>
-<p>Exchange Online에서 사용할 수 있는 전체 기능 집합 Exchange 온-프레미스에서는 이러한 기능을 대부분 지원 합니다.</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Exchange와 Teams의 상호 작용 방법</a></p>
+<p>Exchange Online에서 사용할 수 있는 전체 기능 집합 Exchange 온-프레미스는 이러한 기능을 대부분 지원 합니다. 전체 목록은 <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Exchange와 팀의 상호 작용 방법</a> 을 참조 하세요.</p>
 <ul>
-<li><p>전체 목록</p></li>
 </ul></td>
 </tr>
 </tbody>

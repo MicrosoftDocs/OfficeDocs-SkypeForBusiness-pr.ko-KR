@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34502fe9883c98179a6b2e23cd8360ae823c1853
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: f88d3ee5fb4d953fb1516fc19d559d2ad9c5e36a
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666020"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940478"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드
 
@@ -58,7 +58,7 @@ ms.locfileid: "44666020"
 
 자세한 내용은 다음을 참조 하세요.
 
-- [TeamsUpgradePolicy: 마이그레이션 및 공존 관리](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+- [TeamsUpgradePolicy: 마이그레이션 및 공존 관리](upgrade-to-teams-on-prem-tools.md).
 
 - [온-프레미스에서 비즈니스용 Skype Online으로 사용자를 이동](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)합니다.
 

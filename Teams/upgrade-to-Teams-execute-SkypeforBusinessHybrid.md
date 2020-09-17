@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2866ae5bdaf38c0269efda13beed98982a057a4d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 72786dc2ef5cefe7c3c87c5a376cc01d93a2c22c
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666040"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940518"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>비즈니스용 Skype 하이브리드 배포에서 팀으로 업그레이드
 
@@ -52,7 +52,7 @@ ms.locfileid: "44666040"
 
 ## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>2 단계: 공존 및 업그레이드 모드 할당
 
-사용자를 비즈니스용 Skype Online으로 이동한 후에는 조직이 선택한 업그레이드의 여행에 따라 적절 한 공존 모드를 할당할 수 있습니다. 자세한 내용은 [공존 및 업그레이드 설정](https://aka.ms/SkypeToTeams-SetCoexistence) 및 TeamsUpgradePolicy 설정 ( [마이그레이션 및 공존 관리](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence))을 참조 하세요.
+사용자를 비즈니스용 Skype Online으로 이동한 후에는 조직이 선택한 업그레이드의 여행에 따라 적절 한 공존 모드를 할당할 수 있습니다. 자세한 내용은 [공존 및 업그레이드 설정](https://aka.ms/SkypeToTeams-SetCoexistence) 및 TeamsUpgradePolicy 설정 ( [마이그레이션 및 공존 관리](upgrade-to-teams-on-prem-tools.md))을 참조 하세요.
 
 > [!NOTE]
 > 비즈니스용 skype 서버 2019 및 향후 비즈니스용 Skype Server 2015의 누적 업데이트는 1 단계 (비즈니스용 Skype Online으로 사용자 이동)와 2 단계 (사용자를 팀으로 업그레이드)를 수행 하 여 한 번에 수행할 수 있게 됩니다. 자세한 내용은 비즈니스용 Skype 서버 2019이 출시 된 후에 제공 됩니다.

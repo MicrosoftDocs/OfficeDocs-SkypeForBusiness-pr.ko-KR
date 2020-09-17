@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 36e4035734e83edd75a8fa00e288d083f96a4154
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158606"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940418"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>비즈니스용 Skype에서 팀으로 업그레이드 여행 선택
 
@@ -62,7 +62,7 @@ ms.locfileid: "45158606"
 
 팀으로 마이그레이션한 사용자는 비즈니스용 Skype에서 호스팅되는 모임에 참가 하는 경우를 제외 하 고는 비즈니스용 Skype 클라이언트를 더 이상 사용 하지 않습니다. 발신자가 팀과 비즈니스용 Skype를 사용 하는지 여부에 관계 없이 사용자의 팀 클라이언트에 있는 모든 수신 채팅 및 통화입니다. 업그레이드 된 사용자가 구성한 모든 새 모임은 팀 모임으로 예약 됩니다. 사용자가 비즈니스용 Skype 클라이언트를 사용 하려고 시도 하는 경우 채팅 및 통화에 대 한 시작이<sup>1</sup>로 차단 됩니다. 그러나 사용자는 계속 해 서 비즈니스용 Skype 클라이언트를 사용 하 여 초대 받은 모임에 참가할 수 있습니다.
 
-관리자는 [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)의 속성인 [mode](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes)라는 개념을 사용 하 여 팀으로의 전환을 관리 합니다. 위에서 설명한 팀으로 마이그레이션한 사용자는 "TeamsOnly" 모드에 있습니다. 팀으로 마이그레이션하는 조직의 경우 궁극적인 목표는 모든 사용자를 TeamsOnly 모드로 이동 하는 것입니다.
+관리자는 [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)의 속성인 [mode](migration-interop-guidance-for-teams-with-skype.md)라는 개념을 사용 하 여 팀으로의 전환을 관리 합니다. 위에서 설명한 팀으로 마이그레이션한 사용자는 "TeamsOnly" 모드에 있습니다. 팀으로 마이그레이션하는 조직의 경우 궁극적인 목표는 모든 사용자를 TeamsOnly 모드로 이동 하는 것입니다.
 
 비즈니스용 Skype (온라인 또는 온-프레미스)의 기존 조직을 팀으로 마이그레이션하는 방법에는 다음 두 가지가 있습니다.
 
@@ -92,7 +92,7 @@ ms.locfileid: "45158606"
 
 예를 들어 아일랜드 모드 받는 사람이 비즈니스용 Skype에 로그인 했지만 팀에서 메시지를 보낼 수 없는 경우에는 아일랜드 모드 받는 사람에 게 메시지가 표시 되지 않지만 결과적으로 팀에서 메시지가 누락 되었다는 전자 메일을 받게 됩니다. 마찬가지로, 사용자가 팀을 운영 하 고 비즈니스용 Skype를 사용 하지 않고 다른 사용자가 비즈니스용 Skype에서 메시지를 보내는 경우 사용자는 해당 채팅을 볼 수 없습니다. 이러한 각 경우의 동작은 통화와 유사 합니다. 사용자가 두 클라이언트를 모두 실행 하지 않으면 쉽게 문제가 발생할 수 있습니다.
 
-현재 상태는 또한이 업그레이드 방법을 사용 하 여 팀과 비즈니스용 Skype 간에 독립적으로 작동 합니다. 즉, 다른 사용자가 사용 하는 클라이언트에 따라 사용자 A에 대해 다른 현재 상태를 볼 수 있습니다. 자세한 내용은 [현재 상태](upgrade-to-Teams-on-prem-overview.md#presence)를 참조 하세요.
+현재 상태는 또한이 업그레이드 방법을 사용 하 여 팀과 비즈니스용 Skype 간에 독립적으로 작동 합니다. 즉, 다른 사용자가 사용 하는 클라이언트에 따라 사용자 A에 대해 다른 현재 상태를 볼 수 있습니다. 자세한 내용은 [현재 상태](upgrade-to-Teams-on-prem-coexistence.md#presence)를 참조 하세요.
 
 - 팀을 사용 하는 다른 사용자는 팀의 사용자 활동을 기준으로 현재 상태를 볼 수 있습니다.
 
@@ -102,7 +102,7 @@ ms.locfileid: "45158606"
 
 그러나 아일랜드 모드의 업그레이드 되지 않은 수신자는 비즈니스용 Skype 또는 팀 클라이언트에 있는 TeamsOnly 사용자의 채팅 및 통화를 계속 받을 수 있습니다. 기존 대화의 경우 팀은 사용자만이 채팅 또는 통화를 시작한 클라이언트에 회신할 수 있습니다. 
 
-TeamsOnly의 관점에서 새 대화를 사용 하는 경우, 채팅 또는 통화는 항상 아일랜드 모드 사용자 팀 클라이언트로 이동 합니다. 이는 팀 클라이언트가 팀 간, 팀 간 통신을 위해 별도의 대화 스레드를 유지 관리 하기 때문입니다 (동일한 사용자의 경우에도). 자세한 내용은 [팀 대화-상호 운용성과 네이티브 스레드 비교](upgrade-to-Teams-on-prem-overview.md#teams-conversations---interop-versus-native-threads)를 참조 하세요.
+TeamsOnly의 관점에서 새 대화를 사용 하는 경우, 채팅 또는 통화는 항상 아일랜드 모드 사용자 팀 클라이언트로 이동 합니다. 이는 팀 클라이언트가 팀 간, 팀 간 통신을 위해 별도의 대화 스레드를 유지 관리 하기 때문입니다 (동일한 사용자의 경우에도). 자세한 내용은 [팀 대화-상호 운용성과 네이티브 스레드 비교](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads)를 참조 하세요.
 
 다음 표에는 아일랜드 모드와 TeamsOnly 모드 모두에 대 한 팀 환경이 요약 되어 있습니다.
 
@@ -124,7 +124,7 @@ TeamsOnly의 관점에서 새 대화를 사용 하는 경우, 채팅 또는 통�
 
 <sup>2</sup> 사용자가 비즈니스용 Skype 서버에서 온-프레미스에 있는 경우에도 마찬가지입니다. 사용자가 온-프레미스 또는 온라인 상태 인지 여부에 상관 없이, 현재 전체 팀 기능에 필요 하므로 비즈니스용 Skype Online 라이선스를 사용 하도록 설정 합니다.
 
-<sup>3</sup> 팀에 대 한 비즈니스용 Skype 모임 마이그레이션은 테 넌 트 기준에 따라 개별 사용자에 게 TeamsUpgradePolicy를 적용 하는 경우에만 트리거됩니다. 자세한 내용은 [모임 마이그레이션을](upgrade-to-Teams-on-prem-overview.md#meeting-migration) 참조 하세요.
+<sup>3</sup> 팀에 대 한 비즈니스용 Skype 모임 마이그레이션은 테 넌 트 기준에 따라 개별 사용자에 게 TeamsUpgradePolicy를 적용 하는 경우에만 트리거됩니다. 자세한 내용은 [모임 마이그레이션을](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) 참조 하세요.
 
 ## <a name="select-capabilities-method-using-skype-for-business-modes"></a>성능 방법 선택 (비즈니스용 Skype 모드 사용)
 
@@ -136,9 +136,9 @@ TeamsOnly의 관점에서 새 대화를 사용 하는 경우, 채팅 또는 통�
 
 - TeamsOnly 모드의 사용자는 팀의 모든 수신 채팅 및 통화를 받을 수 있습니다: 팀, 비즈니스용 Skype 또는 모든 종류의 페더레이션 사용자에 관계 없이 팀에서 제공 하는 정보입니다.
 
-겹치는 기능 방법과 달리, 선택 기능 방법에서는 비즈니스용 Skype를 사용 하는 사용자가 TeamsOnly 사용자와 통신할 수 있습니다. 비즈니스용 Skype 사용자와 팀 사용자 간의 통신을 [상호 운용성](upgrade-to-Teams-on-prem-overview.md#interoperability) 또는 "interop" 라고 합니다. Interop 통신은 비즈니스용 Skype 사용자와 팀의 다른 사용자 간 채팅 및 통화에 대 한 일대일 기반으로 가능 합니다. 또한, 초대 받은 사용자는 항상 비즈니스용 Skype 또는 팀 모임에 참가할 수 있지만, 모임 유형에 해당 하는 클라이언트를 사용 해야 합니다. 자세한 내용은 [모임](upgrade-to-Teams-on-prem-overview.md#meetings)을 참조 하세요.
+겹치는 기능 방법과 달리, 선택 기능 방법에서는 비즈니스용 Skype를 사용 하는 사용자가 TeamsOnly 사용자와 통신할 수 있습니다. 비즈니스용 Skype 사용자와 팀 사용자 간의 통신을 [상호 운용성](upgrade-to-Teams-on-prem-coexistence.md#interoperability) 또는 "interop" 라고 합니다. Interop 통신은 비즈니스용 Skype 사용자와 팀의 다른 사용자 간 채팅 및 통화에 대 한 일대일 기반으로 가능 합니다. 또한, 초대 받은 사용자는 항상 비즈니스용 Skype 또는 팀 모임에 참가할 수 있지만, 모임 유형에 해당 하는 클라이언트를 사용 해야 합니다. 자세한 내용은 [모임](upgrade-to-Teams-on-prem-coexistence.md#meetings)을 참조 하세요.
 
-선택 방법의 사용자에 게는 다른 사용자가 사용 하는 클라이언트에 관계 없이 사용자에 대 한 현재 상태는 일관 됩니다. 사용자가 비즈니스용 Skype 모드 중 하나에 있는 경우 다른 모든 사용자는 비즈니스용 Skype에서 해당 사용자의 활동을 기준으로 현재 상태를 볼 수 있습니다. 마찬가지로, 사용자가 팀 전용 모드일 경우 다른 모든 사용자는 해당 사용자의 활동에 따라 현재 상태를 볼 수 있습니다. 자세한 내용은 [현재 상태](upgrade-to-Teams-on-prem-overview.md#presence)를 참조 하세요.
+선택 방법의 사용자에 게는 다른 사용자가 사용 하는 클라이언트에 관계 없이 사용자에 대 한 현재 상태는 일관 됩니다. 사용자가 비즈니스용 Skype 모드 중 하나에 있는 경우 다른 모든 사용자는 비즈니스용 Skype에서 해당 사용자의 활동을 기준으로 현재 상태를 볼 수 있습니다. 마찬가지로, 사용자가 팀 전용 모드일 경우 다른 모든 사용자는 해당 사용자의 활동에 따라 현재 상태를 볼 수 있습니다. 자세한 내용은 [현재 상태](upgrade-to-Teams-on-prem-coexistence.md#presence)를 참조 하세요.
 
 선택 기능 방법을 따르도록 선택한 조직의 경우 관리자는 테 넌 트 범위 모드를 아일랜드에서 해당 하는 비즈니스용 Skype 공존 모드 (SfbWithTeamsCollab 또는 SfBWithTeamsCollabAndMeetings)로 변경 해야 합니다.  
 

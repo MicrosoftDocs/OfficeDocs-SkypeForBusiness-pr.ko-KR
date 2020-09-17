@@ -1,5 +1,5 @@
 ---
-title: 공존 및 업그레이드 설정 설정
+title: 공존 및 업그레이드 설정 지정
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 245e22c9a5deb518617ff547c4cc2f590d9ea1e6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a20e8c355df4103980dc9da460d003382c721800
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905560"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940608"
 ---
-# <a name="setting-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 설정
+# <a name="set-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 지정
 
 
 비즈니스용 Skype 사용자를 업그레이드 하 여 팀을 사용 하는 경우 사용자를 위한 원활한 프로세스를 수행 하는 데 도움이 되는 몇 가지 옵션이 있습니다. 조직의 모든 사용자에 대해 동시에 동시 사용 및 업그레이드 설정을 설정 하거나 조직의 단일 또는 사용자 집합에 대 한 설정을 변경할 수 있습니다. 이전 버전의 비즈니스용 Skype 클라이언트에서는 이러한 설정을 인식 하지 못할 수 있다는 점에 유의 하세요. 비즈니스용 Skype 클라이언트 버전에 대 한 자세한 내용을 보려면 비즈니스용 [skype 다운로드 및 업데이트 페이지로](https://docs.microsoft.com/skypeforbusiness/software-updates)이동 하세요. 
@@ -40,7 +40,7 @@ ms.locfileid: "43905560"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. [Microsoft 팀 관리 센터](https://admin.teams.microsoft.com/)의 왼쪽 탐색에서 **조직 전체 설정** > **팀 업그레이드**로 이동 합니다. 
+1. [Microsoft 팀 관리 센터](https://admin.teams.microsoft.com/)의 왼쪽 탐색에서 **조직 전체 설정**  >  **팀 업그레이드**로 이동 합니다. 
 
 2. **팀 업그레이드** 페이지의 맨 위에서 다음 옵션을 원하는 대로 수정 합니다.
     - **공존** 모드를 설정 합니다.
