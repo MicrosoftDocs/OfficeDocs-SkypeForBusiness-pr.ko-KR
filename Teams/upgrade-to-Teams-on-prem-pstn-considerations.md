@@ -3,27 +3,27 @@ title: 비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레�
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 비즈니스용 Skype에서 Teams로 업그레이드
+description: 비즈니스용 Skype에서 팀으로 업그레이드 음성 고려 사항
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 075960ef47f5d708a72cabc8e3c492786c2a5112
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940686"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955891"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>IT 관리자를 위해 팀으로 업그레이드할 때 PSTN 고려 사항 &mdash;
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d471446d4c0c05d0c13fdee81018c6287c7dda47
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7878c6dc4e4b632668a0db298a9dc086cf554429
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583527"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135842"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Microsoft Graph를 사용 하 여 팀 서식 파일 시작
 
@@ -85,3 +85,4 @@ ms.locfileid: "46583527"
 - [Microsoft 팀의 관리 교육](itadmin-readiness.md)
 - [소매 Teams 서식 파일 시작](get-started-with-retail-teams-templates.md)
 - [의료 조직을 위한 Teams 서식 파일 시작](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [관리 콘솔에서 팀 서식 파일 시작](get-started-with-teams-templates-in-the-admin-console.md)

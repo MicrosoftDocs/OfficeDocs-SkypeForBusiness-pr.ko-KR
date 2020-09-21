@@ -3,27 +3,27 @@ title: 비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레�
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 비즈니스용 Skype에서 Teams로 업그레이드
+description: 비즈니스용 Skype에서 팀으로 업그레이드-업그레이드 도구
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bf51019aad5b2deb6239c698623475263241b3f
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 3b910a93435cedfc1dcc83c34b766d9121f93eea
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940675"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955955"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>IT 관리자를 위한 팀으로 업그레이드 하기 위한 도구 &mdash;
 

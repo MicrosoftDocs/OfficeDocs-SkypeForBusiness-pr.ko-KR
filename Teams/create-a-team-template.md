@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 48c120397c2d2112386e858378ba5391bae5389f
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583697"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135862"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft 팀에서 사용자 지정 팀 서식 파일 만들기
 
@@ -34,7 +34,7 @@ ms.locfileid: "46583697"
 
 시작 하려면 다음을 실행 하세요.
 
-1. 의 관리 센터에 로그인  <a href="<<<https://admin.teams.microsoft.com>>>" target="_blank">https://admin.teams.microsoft.com</a> 합니다.
+1. 팀 관리 센터에 로그인 합니다.
 
 2. 왼쪽 탐색 창에서 **팀**  >  **팀 템플릿을**확장 합니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "46583697"
     2. **추가** 대화 상자에서 채널 이름을
     3. 설명을 추가 합니다.
     4. 채널을 기본적으로 표시할지 여부를 결정 합니다.
-    5. 채널에 addd 하는 앱 이름을 검색 합니다.
+    5. 채널에 추가 하려는 앱 이름을 검색 합니다.
     6. 완료 되 면 **적용** 을 클릭 합니다.
 
 ![팀 서식 파일의 이미지로, 채널, 탭, 앱 화면을 말합니다.](media/template-channels-tabs-apps.png)

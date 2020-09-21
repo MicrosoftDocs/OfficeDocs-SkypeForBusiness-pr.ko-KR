@@ -18,40 +18,26 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 포트 주문 요청을 수동으로 제출 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: a6eda920def415e61278dc4b3ac20d2f58edbb69
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 3ebbe51262adcb3f3cd3e9db2c60d1b667fb0a42
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788582"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962829"
 ---
 # <a name="manually-submit-a-port-order"></a>포트 주문 수동 제출
 
 일부 국가 및 지역에서는 전화 번호를 얻기 위해 서비스 요청을 수동으로 제출 하거나 전화 번호를 전송 하거나 전화 번호를 해제 하거나 주소를 변경 해야 할 수 있습니다. 각 국가 및 지역에 필요한 항목을 확인 하거나 번호 포팅에 대해 자세히 알아보려면 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.
 
-이 문서에 나와 있는 단계를 사용 하 여 국가 또는 지역이 [Microsoft 팀 관리 센터의 포팅 마법사](transfer-phone-numbers-to-teams.md)에 나열 되어 있지 않은 경우 수동으로 포트 순서를 만들고 제출할 수 있습니다.
+이 문서의 단계를 사용 하 여 국가 또는 지역이 [Microsoft 팀 관리 센터의 포팅 마법사](transfer-phone-numbers-to-teams.md)에 나열 되어 있지 않은 경우 수동으로 포트 순서를 제출 합니다.
 
 ## <a name="manually-submit-a-new-port-order-request"></a>새 포트 주문 요청을 수동으로 제출
 
-LOA (승인 된 사용자) 양식을 해당 지역 또는 Microsoft 365 관리 센터의 PSTN 서비스 데스크에 직접 전송 하 여 서비스 요청을 만들어 새 포트 주문을 수동으로 제출할 수 있습니다.
+새 포트 주문을 수동으로 제출 하려면, 완성 된 승인 (LOA) 양식을 해당 지역의 PSTN 서비스 데스크에 직접 보내십시오.
 
-### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>권한 부여의 문자를 PSTN 서비스 데스크에 직접 전송
-
-국가 또는 지역에 대 한 [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 다운로드 하 고 양식을 작성 한 다음 해당 지역의 [PSTN 서비스 데스크](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 에 보냅니다.
-
-- 미국 및 캐나다의 경우 요청을 [보냅니다](mailto:ptn@microsoft.com).
-- 유럽에서 [요청을 보냅니다](mailto:ptneu@microsoft.com).
-- 아시아에서 [요청을 보냅니다](mailto:ptnapac@microsoft.com).
-
-### <a name="submit-a-service-request-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 서비스 요청 제출
-
-1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **Support**  >  **새 서비스 요청**지원으로 이동 합니다.  **지원** 목록이 표시 되지 않으면 왼쪽 탐색 모음에서 **탐색 사용자 지정** 으로 이동 하 여 추가한 다음 **지원** 확인란을 선택 합니다.
-2. **도움이 필요 하세요?** 창에서 **고객 지원에 문의**를 선택 합니다.
-3. **고객 지원** 창에서 다음을 수행 합니다.
-
-    1. 제목 (예: 포트 주문 요청) 및 요청에 대 한 설명을 입력 하 고 전화 번호와 전자 메일 주소를 확인 하 고 선호 하는 연락처 방법을 선택 합니다.
-    2. **첨부** **파일에서 파일 추가**를 클릭 한 다음 완료 된 [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 업로드 합니다.
-    3. **대화 상대**를 클릭 합니다.
+1. 국가 또는 지역에 대 한 [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 다운로드 합니다.
+2. 양식을 작성 합니다.
+3. 해당 지역의 [PSTN 서비스 데스크](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 에이 파일을 보냅니다.
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>번호 포팅에 대해 알아야 할 기타 사항
 

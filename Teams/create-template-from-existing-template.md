@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8e0fc3ba4e210007c5bb71bbc6d53eddbe80b14f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1d12a9422fe7f189d8ad85cf0b139e905550428f
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583457"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135962"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Microsoft 팀의 기존 팀 서식 파일에서 새 서식 파일 만들기
 
@@ -32,7 +32,7 @@ ms.locfileid: "46583457"
 
 Microsoft 팀은 특정 조직의 요구 사항에 맞게 저장 하 고 수정할 수 있는 미리 작성 된 서식 파일을 제공 합니다.
 
-1. 관리 센터에 로그인 합니다.
+1. 팀 관리 센터에 로그인 합니다.
 
 2. 왼쪽 탐색 창에서 **팀**  >  **팀 템플릿을**확장 합니다.
 

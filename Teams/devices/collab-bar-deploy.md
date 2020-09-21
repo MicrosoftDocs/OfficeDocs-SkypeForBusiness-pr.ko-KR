@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Microsoft 팀의 공동 작업 모음 배포에 대해 자세히 알아보려면이 문서를 참조 하세요.
-ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 41eb3335eef78f1da2c64b1df65443ba93d40159
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410453"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962909"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>Microsoft 팀을 위한 공동 작업 표시줄 배포
 
@@ -29,6 +29,8 @@ Microsoft 팀에 대 한 공동 작업 표시줄 배포는 다음 단계로 나�
 - **사이트 준비** 배포 위치 (회의실)가 배포 요구 사항을 충족 하는지 확인 합니다.
 - **서비스 준비** 리소스 계정을 만들고 장치에 할당 합니다 ([Microsoft 365 관리 센터를 사용 하 여 리소스 계정 만들기 참조](resource-account-ui.md)). 전용 회의실 라이선스를 사용 하는 것이 좋지만, 적절 한 라이선스 최종 사용자 계정이 공동 작업 모음에 로그인 할 수도 있습니다.
 - **구성 및 배포** 회의실에서 공동 작업 모음을 설정 하 고 필요한 주변 기기를 연결 하세요 (공동 작업 표시줄에 대 한 제조업체 설명서 참조).
+
+공동 작업 표시줄을 관리 하려면 전역 관리자, 팀 서비스 관리자 또는 팀 장치 관리자 여야 합니다. 관리자 역할에 대 한 자세한 내용은 [Microsoft 팀 관리자 역할을 사용 하 여 팀 관리](../using-admin-roles.md)를 참조 하세요.
 
 ## <a name="site-readiness"></a>사이트 준비
 

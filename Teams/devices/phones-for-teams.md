@@ -17,18 +17,20 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀에 대해 인증 되는 전화 목록과 Microsoft 팀을 위해 인증 된 전화에서 지원 되는 기능에 대해 설명 합니다.
-ms.openlocfilehash: b017e02b2d3d2bdc6b01886929d034abb6650384
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: cd38586b67f728febb4a43d3f018875b378cffd8
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583957"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962849"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft 팀 용 전화
 
 Microsoft 팀은 일반 전화 환경을 필요로 하는 사용자를 위한 일반 전화기 포트폴리오를 지원 합니다. 이 문서에서는 팀 전화에 대 한 전체 개요를 제공 하 고 Microsoft 전화 시스템 솔루션의 일부로 Microsoft 팀 전화를 계획, 제공, 관리 하는 데 도움이 될 수 있습니다. 
 
 휴대폰을 사용 하는 고품질의 안정적인 Microsoft 팀 환경을 제공 하기 위해, dell은 전세계 Alink, Crestron, Lenovo, Polycom, 및 여러 지역 코드를 통해 파트너와 회의실 오디오 장치를 개발 하 고 인증 하는 데 참여 하 고 있습니다. 팀 장치에 대 한 최신 정보를 얻으려면 [팀 마켓플레이스](https://office.com/teamsdevices)로 이동 하세요.
+
+휴대폰을 관리 하기 위해서는 전역 관리자, 팀 서비스 관리자 또는 팀 장치 관리자 여야 합니다. 관리자 역할에 대 한 자세한 내용은 [Microsoft 팀 관리자 역할을 사용 하 여 팀 관리](../using-admin-roles.md)를 참조 하세요.
 
 ## <a name="features-supported-by-teams-phones"></a>팀 전화에서 지원 되는 기능
 팀 인증 전화는 사용자가 작업을 수행 하는 데 도움이 되는 광범위 한 기능을가지고 있으며, 사용을 관리 하는 데 도움을 줍니다. 팀 인증 전화에서 사용할 수 있는 기능에 대 한 요약은 다음과 같습니다.

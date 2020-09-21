@@ -19,20 +19,20 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f118585b28edaea63b3416aa4671337ee436345
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b87c891d29bcfafa0275f3a500eb8c5db85311a0
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820592"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962859"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정 구성
 
-팀 라이브 이벤트 설정을 사용 하 여 조직에 보유 된 라이브 이벤트에 대 한 설정을 구성할 수 있습니다. 지원 URL을 설정 하 고 타사 영상 배포 공급자를 구성할 수 있습니다. 이러한 설정은 조직에서 만든 모든 라이브 이벤트에 적용 됩니다. 
+팀 라이브 이벤트 설정을 사용 하 여 조직에 보유 된 라이브 이벤트에 대 한 설정을 구성할 수 있습니다. 지원 URL을 설정 하 고 타사 영상 배포 공급자를 구성할 수 있습니다. 이러한 설정은 조직에서 만든 모든 라이브 이벤트에 적용 됩니다.
 
-Microsoft 팀 관리 센터에서 이러한 설정을 쉽게 관리할 수 있습니다. 왼쪽 탐색 창에서 **모임**  >  **라이브 이벤트 설정**으로 이동 합니다. 
+Microsoft 팀 관리 센터에서 이러한 설정을 쉽게 관리할 수 있습니다. 왼쪽 탐색 창에서 **모임**  >  **라이브 이벤트 설정**으로 이동 합니다.
 
-![팀의 라이브 이벤트 설정 스크린샷](../media/teams-live-events-settings.png "Microsoft 팀 관리 센터에서 구성할 수 있는 팀 live 이벤트 설정 스크린샷") 
+![팀의 라이브 이벤트 설정 스크린샷](../media/teams-live-events-settings.png "Microsoft 팀 관리 센터에서 구성할 수 있는 팀 live 이벤트 설정 스크린샷")
 
 ## <a name="set-up-event-support-url"></a>이벤트 지원 URL 설정
 
@@ -41,14 +41,16 @@ Microsoft 팀 관리 센터에서 이러한 설정을 쉽게 관리할 수 있�
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams 로고를 보여주는 아이콘](../media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
 
 1. 왼쪽 탐색 창에서 **모임**  >  **라이브 이벤트 설정**으로 이동 합니다.
-2. **지원 url**에서 조직의 지원 url을 입력 합니다. 
+2. **지원 url**에서 조직의 지원 url을 입력 합니다.
 
     ![관리 센터에서 라이브 이벤트에 대 한 URL 설정 지원](../media/teams-live-events-settings-supporturl.png "팀 라이브 이벤트에 대 한 지원 URL 설정 스크린샷")
 
 ### <a name="using-windows-powershell"></a>Windows PowerShell 사용
+
 다음을 실행 합니다.
+
 ```PowerShell
-Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
+Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
 자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)을 참조 하세요.
 ## <a name="configure-a-third-party-video-distribution-provider"></a>타사 영상 배포 공급자 구성 

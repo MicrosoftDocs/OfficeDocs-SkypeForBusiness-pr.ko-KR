@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf5dea8846815f052099193f03f4f90aaf951de6
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d078deaabdb29fbbc75e4f5020d9bf5071c8fdf1
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583967"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814767"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 모임 및 회의
 
@@ -43,6 +43,9 @@ ms.locfileid: "46583967"
 *2020년 4월의 새로운 기능*: 모음 이끌이는 모임 내 모임 컨트롤에서 **모임 종료**를 클릭하여 Teams에서 모든 모임 참가자를 위해 모임을 종료할 수 있습니다.  
 
 *2019년 11월의 새로운 기능*: 이제 [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams를 배포하는 데 도움을 받을 수 있습니다](use-advisor-teams-roll-out.md). Advisor for Teams(미리 보기)는 모임 및 회의를 포함하여 Teams의 배포 과정을 안내합니다. Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams에서 모임 및 회의를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
+
+ > [!Note]
+ > 자세한 내용은 [플랫폼 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>모임 및 회의 배포 결정
 

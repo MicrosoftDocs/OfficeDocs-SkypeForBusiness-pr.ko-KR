@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02588d7aa53561993237bd51c0bb5764c2e6ac2b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581149"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814398"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트
 
@@ -44,6 +44,8 @@ Microsoft Teams 모임의 두 가지 방법 - 모임 및 라이브 이벤트 해
 >
 > <sup>2</sup> [**번호로** 전화 하기](set-up-the-call-me-feature-for-your-users.md)에 대해 모임 전화 걸기는  모임 이끌이가 E5 또는 [오디오 회의 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 보유하고 있어야 합니다. [다이얼 플랜](what-are-dial-plans.md)이 필요할 수도 있습니다. 
 
+ > [!Note]
+ > 자세한 내용은 [플랫폼 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
 
 라이선싱에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 읽어 보세요. 
 
