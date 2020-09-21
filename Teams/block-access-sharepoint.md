@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 특정 사용자를 위해 SharePoint에 대 한 액세스를 차단 하는 방법에 대 한 자세한 정보
-ms.openlocfilehash: 959de8c06e26d2d12c3a3698375b11d373392447
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: a2cfdb938dc11d38303df59061db1c46e5b08fcc
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956039"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135932"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>특정 사용자를 위해 SharePoint에 대 한 액세스 차단
 
-SharePoint Online (SPO)에 대 한 모든 조건부 액세스 (CA) 정책은 팀에도 적용 됩니다. 그러나 일부 조직에서는 SharePoint 파일에 대 한 액세스를 차단 하 여 (업로드, 다운로드, 보기, 편집, 만들기) 아직 직원이 관리 되지 않는 장치에서 팀 데스크톱, 모바일, 웹 클라이언트를 사용할 수 있도록 합니다. CA 정책 규칙에 따라 SPO를 차단 하면 팀도 차단 될 수 있습니다. 이 문서에서는이 제한을 해결 하 고 직원이 SPO에 저장 된 파일에 대 한 액세스를 완전히 차단 하면서 팀을 계속 사용할 수 있도록 하는 방법에 대해 설명 합니다.
+Microsoft 365의 SharePoint에 대 한 CA (조건부 액세스) 정책은 팀에도 적용 됩니다. 그러나 일부 조직에서는 SharePoint 파일에 대 한 액세스를 차단 하 여 (업로드, 다운로드, 보기, 편집, 만들기) 아직 직원이 관리 되지 않는 장치에서 팀 데스크톱, 모바일, 웹 클라이언트를 사용할 수 있도록 합니다. CA 정책 규칙에 따라 Sharepoint를 차단 하면 팀도 차단 될 수 있습니다. 이 문서에서는이 제한을 해결 하 고 직원이 SharePoint에 저장 된 파일에 대 한 액세스를 완전히 차단 하면서 팀을 계속 사용할 수 있도록 하는 방법에 대해 설명 합니다.
 
 > [!Note]
-> 관리 되지 않는 장치에서 액세스를 차단 하거나 제한 하는 것은 Azure AD 조건부 액세스 정책에 따라 달라 집니다. [AZURE AD 라이선스](https://azure.microsoft.com/pricing/details/active-directory/)에 대해 알아보세요. Azure AD의 조건부 액세스에 대 한 개요는 [Azure Active Directory에서 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조 하세요. 추천 SharePoint 액세스 정책에 대 한 자세한 내용은 [sharepoint 사이트 및 파일 보호에 대 한 정책 권장 사항을](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)참조 하세요. 관리 되지 않는 장치에 대 한 액세스를 제한 하는 경우 관리 디바이스의 사용자가 [지원 되는 OS 및 브라우저 조합](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)중 하나를 사용 해야 하며 그렇지 않은 경우에도 액세스가 제한 됩니다.
+> 관리 되지 않는 장치에서 액세스를 차단 하거나 제한 하는 것은 Azure AD 조건부 액세스 정책에 따라 달라 집니다. [AZURE AD 라이선스](https://azure.microsoft.com/pricing/details/active-directory/)에 대해 알아보세요. Azure AD의 조건부 액세스에 대 한 개요는 [Azure Active Directory에서 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조 하세요. 추천 SharePoint Online 액세스 정책에 대 한 자세한 내용은 [sharepoint 사이트 및 파일 보호에 대 한 정책 권장 사항을](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)참조 하세요. 관리 되지 않는 장치에 대 한 액세스를 제한 하는 경우 관리 디바이스의 사용자가 [지원 되는 OS 및 브라우저 조합](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)중 하나를 사용 해야 하며 그렇지 않은 경우에도 액세스가 제한 됩니다.
 
 다음에 대 한 액세스를 차단 하거나 제한할 수 있습니다.
 
@@ -61,9 +61,9 @@ SharePoint Online (SPO)에 대 한 모든 조건부 액세스 (CA) 정책은 팀
   > [!Note]
 > 이 정책을 설정 하면 SharePoint 관리자 포털에 대 한 액세스를 잘라낼 수 있습니다. 제외 정책을 구성 하 고 전역 및 SharePoint 관리자를 선택 하는 것이 좋습니다.
 
-6. SharePoint Online만 대상 클라우드 앱으로 선택 되어 있는지 확인
+6. SharePoint만 대상 클라우드 앱으로 선택 되어 있는지 확인
 
-    ![대상 앱으로 Sharepoint online이 선택 되어 있습니다.](media/no-sharepoint-access3.png)
+    ![Sharepoint가 대상 앱으로 선택 되었습니다.](media/no-sharepoint-access3.png)
 
 7. 데스크톱 클라이언트도 포함 하도록 **조건을** 업데이트 합니다.
 
@@ -79,11 +79,11 @@ SharePoint Online (SPO)에 대 한 모든 조건부 액세스 (CA) 정책은 팀
 
     ![앱 적용 제한을 사용할 수 있습니다.](media/no-sharepoint-access6.png)
 
-정책을 테스트 하려면 팀 데스크톱 앱 또는 OneDrive 동기화 클라이언트 등의 클라이언트에서 로그 아웃 하 고 다시 로그인 하 여 정책 작동을 확인 해야 합니다. 액세스가 차단 된 경우에는 항목이 존재 하지 않을 수 있다는 메시지가 팀에 표시 됩니다.
+정책을 테스트 하려면 팀 데스크톱 앱 또는 비즈니스용 OneDrive 동기화 클라이언트에서 로그 아웃 한 다음 다시 로그인 하 여 정책 작동을 확인 해야 합니다. 액세스가 차단 된 경우에는 항목이 존재 하지 않을 수 있다는 메시지가 팀에 표시 됩니다.
 
  ![항목을 찾을 수 없음 메시지가 있습니다.](media/access-denied-sharepoint.png)
 
-Sharepoint에서는 액세스 거부 메시지가 표시 됩니다. 
+Sharepoint에서는 액세스 거부 메시지가 표시 됩니다.
 
 ![액세스 거부 메시지입니다.](media/blocked-access-warning.png)
 

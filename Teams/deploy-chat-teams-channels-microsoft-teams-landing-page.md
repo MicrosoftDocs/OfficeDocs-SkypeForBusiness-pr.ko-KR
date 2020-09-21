@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: f1fe37d41b0a1ede8e5957ad63016c5447a921ae
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814868"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820512"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -42,7 +42,7 @@ Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경
 > 초기 Teams 롤아웃을 진행 시 Planner와 같은 추천 앱을 포함하는 것이 좋습니다. Teams의 채택을 진행하면서 다른 [앱, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.
 
  > [!Note]
- > 자세한 내용은 [플랫폼 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
+ > 여러 플랫폼에서의 Teams 기능에 대한 자세한 내용은 [플랫폼별 Teams 기능을 참조](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)하세요.
 
 ## <a name="chat-deployment-prerequisites"></a>채팅 배포 전제 조건
 

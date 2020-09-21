@@ -18,19 +18,19 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efde7de344d03ae41ac577f4c44e3b72ee76a9f5
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 61f929452f26bd83b5d4deea93113f9edac29e26
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814307"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962819"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
 조직에서 대규모 모임을 개최하기 위해 Teams 라이브 이벤트를 계획하는 경우 모두 설정하기 전에 고려해야 할 몇 가지 요소가 있습니다.
 
  > [!Note]
- > 자세한 내용은 [플랫폼 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
+> 여러 플랫폼에서의 Teams 라이브 이벤트에 대한 자세한 내용은 [플랫폼별 Teams 기능을 참조](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)하세요.
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>누가 라이브 이벤트를 참석하고 만들고 예약할 수 있나요?
 
@@ -128,7 +128,7 @@ Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하�
 |라이브 캡션 및 자막 |&#x2714; |&#x2714; |&#x274C; |
 |라이브 이벤트 녹음/녹화의 캡션 |&#x2714; |&#x2714; |&#x2714; |
 |참석자 DVR 컨트롤(일시 중지, 되감기) |&#x2714; |&#x2714; |&#x2714; |
-|파트너 eCDN 지원 |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp) |
+|파트너 eCDN 지원 |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |프로듀서용 브로드캐스트 후 참석 보고서 |&#x2714; |&#x2714; |&#x274C; |
 |대상 그룹 감정 분석 – 실시간 투표 및 설문 조사 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

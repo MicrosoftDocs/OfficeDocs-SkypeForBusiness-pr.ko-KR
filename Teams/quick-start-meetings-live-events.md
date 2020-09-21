@@ -17,16 +17,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814398"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820622"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트
 
 Microsoft Teams 모임의 두 가지 방법 - 모임 및 라이브 이벤트 해당 문서를 사용하여 조직의 모임 및 라이브 이벤트를 빠르게 배포하고 구성할 수 있습니다. 
+
+> [!Note]
+> 여러 플랫폼에서 Teams 모임 및 이벤트를 신속하게 구성에 대한 자세한 내용은 [플랫폼별 Teams 기능을 참조](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)하세요.
 
  - Teams **모임**에는 최대 300명의 사용자를 위한 음성, 영상 및 화면 공유 기능이 포함됩니다. Teams에서 공동 작업하는 주요 방법 중 하나입니다. 조직의 구성원이나 심지어 Teams 계정이 없어도 Teams 모임에 참여할 수 있습니다. 참여에 대한 지침은 초대를 참조하세요. 
 
@@ -43,9 +46,6 @@ Microsoft Teams 모임의 두 가지 방법 - 모임 및 라이브 이벤트 해
 > <sup>1</sup> 모임 이끌이가 전화 접속 회의를 포함하는 초대를 보내려면 [오디오 회의 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 보유하고 있어야 합니다.
 >
 > <sup>2</sup> [**번호로** 전화 하기](set-up-the-call-me-feature-for-your-users.md)에 대해 모임 전화 걸기는  모임 이끌이가 E5 또는 [오디오 회의 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 보유하고 있어야 합니다. [다이얼 플랜](what-are-dial-plans.md)이 필요할 수도 있습니다. 
-
- > [!Note]
- > 자세한 내용은 [플랫폼 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
 
 라이선싱에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 읽어 보세요. 
 

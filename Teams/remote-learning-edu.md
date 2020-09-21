@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 781828d8a94595a6b686fdaa729c3480d2712581
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: b264d55c023829cec3d91f3d975f2328a6089c72
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814347"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820602"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -33,8 +33,8 @@ ms.locfileid: "47814347"
 
 이 문서에서는 원격 학습을 위한 교육 기관을 설정하는데 필요한 실제 단계를 다루고 있습니다.
 
- > [!Note]
- > 자세한 내용은 [플랫폼 팀 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
+> [!Note]
+> 여러 플랫폼에서의 원격 학습 기능에 대한 자세한 내용은 [플랫폼별 Teams 기능을 참조](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)하세요.
 
 > [!NOTE]
 > 교육자, 교육 리더 혹은 IT 전문가의 경우 이 리소스가 도움이 될 수 있습니다. 
