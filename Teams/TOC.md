@@ -311,6 +311,7 @@
 ## 통화 플랜
 ### [사용자에게 적합한 통화 플랜은 무엇인가요?](calling-plan-landing-page.md)
 ### [통화 플랜을 구입하는 방법](calling-plans-for-office-365.md)
+### [미국 및 캐나다에 대한 확장 된 전화 접속 시간](dial-out-minutes-canada-us.md)
 ### [조직의 통화 플랜 설정](set-up-calling-plans.md)
 ### [빠른 시작 가이드: 통화 플랜 구성](configuring-teams-calling-quickstartguide.md)
 ### [통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -573,13 +574,19 @@
 ## [비즈니스용 Skype Online 단종](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## 기술 라이브러리
-### [IT 관리자를 위한 업그레이드 지침](upgrade-to-teams-on-prem-overview.md)
-### [비즈니스용 Skype를 사용한 마이그레이션 및 상호 운용성](migration-interop-guidance-for-teams-with-skype.md)
-### [비즈니스용 Skype와 공존](coexistence-chat-calls-presence.md)
-### [Teams 클라이언트 환경 및 공존 모드 준수](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [공존 및 업그레이드 설정 지정](setting-your-coexistence-and-upgrade-settings.md)
+## 기술 라이브러리 
+### IT 관리자를 위한 지침 업그레이드
+#### [개요](upgrade-to-teams-on-prem-overview.md)
+#### [업그레이드 방법](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [업그레이드 관리 도구](upgrade-to-teams-on-prem-tools.md)
+#### [온-프레미스 비즈니스용 Skype를 사용하는 조직에 대한 고려 사항](upgrade-to-teams-on-prem-considerations.md)
+#### [업그레이드 수행](upgrade-to-teams-on-prem-implement.md)
+#### [Teams와 비즈니스용 Skype의 공존](upgrade-to-teams-on-prem-coexistence.md)
+#### [PSTN 고려 사항](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [공존 모드-참조](migration-interop-guidance-for-teams-with-skype.md)
+#### [Teams 클라이언트 환경 및 공존 모드 준수](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [공존 및 업그레이드 설정 지정](setting-your-coexistence-and-upgrade-settings.md)
 ### [무엇보다도 모임을 우선으로](meetings-first.md)
 
 
