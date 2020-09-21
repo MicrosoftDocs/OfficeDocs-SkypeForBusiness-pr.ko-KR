@@ -76,8 +76,6 @@
 #### [게스트 액세스 문제 해결](troubleshoot-guest-access.md)
 ## [Teams의 Cortana](cortana-in-teams.md)
 
-
-
 ## Teams 관리
 ### [관리자 역할](using-admin-roles.md)
 ### [조직의 Teams 설정 관리](enable-features-office-365.md)
@@ -87,6 +85,7 @@
 ### [사용자에게 정책 할당](assign-policies.md)
 ### [활동 로그에서 정책 과제 보기](activity-log.md)
 ### [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
+### [특정 사용자에 대해 Sharepoint에 대한 액세스 차단](block-access-sharepoint.md)
 ### [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)
 ### [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)
 ### [Teams에서 피드백 정책 관리](manage-feedback-policies-in-teams.md)
@@ -719,6 +718,7 @@
 ### [최신 인증을 사용하여 Teams에 로그인](sign-in-teams.md)
 ### [Teams의 안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [AppLocker 응용 프로그램 제어 정책](applocker-in-teams.md)
+### [Sharepoint에 대한 액세스 차단](block-access-sharepoint.md)
 ## 규정 준수
 ### [정보 장벽](information-barriers-in-teams.md)
 ### [보존 정책](retention-policies.md)
