@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820332"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177228"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드 
 
@@ -78,7 +78,7 @@ Windows 클라이언트는 사용자 프로필에 있는 AppData 폴더에 배�
 ![Windows 보안 경고 대화 상자의 스크린샷입니다.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> "취소"를 선택하여 메시지를 해제해도 Windows 방화벽 구성이 변경됩니다. TCP 및 UDP 프로토콜에 대한 차단 동작으로 teams.exe에 대한 두 개의 인바운드 규칙이 만들어집니다.
+> "취소"를 선택하여 메시지를 해제해도 Windows 방화벽 구성이 변경됩니다. TCP 및 UDP 프로토콜에 대해 허용 작업을 사용 하 여 teams.exe에 대 한 두 개의 인바운드 규칙이 생성 됩니다.
 
 사용자가 팀에서 첫 번째 통화를 할 때 팀에서 방화벽 규칙을 만들지 못하게 하려면 아래 [샘플 PowerShell 스크립트-인바운드 방화벽 규칙](#sample-powershell-script---inbound-firewall-rule) 을 사용 합니다. 
 

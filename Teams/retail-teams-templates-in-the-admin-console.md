@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a7cdac4b64f8a6fb10f3b36544e3361b6c413ad7
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8b72fe7b1f101278d206d49f06203fe9841ba25f
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136143"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171082"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>관리 콘솔에서 팀 소매 서식 파일 사용
 
@@ -45,7 +45,7 @@ ms.locfileid: "48136143"
 
 소매 직원을 하나의 중앙 환경에서 함께 가져와 작업을 관리 하 고 문서를 공유 하 고 고객 문제를 해결 하세요. 추가 응용 프로그램을 통합 하 여 이동 시작 & 프로세스를 간소화 합니다.
 
-| 기본 서식 파일 형식| | 이 기본 서식 파일에 포함 된 속성 |
+| 기본 서식 파일 형식 |baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
 | ------------------|-- |----------------------------------------------------- |
 |스토어 구성| `retailStore`|채널 <ul><li>일반<li>교대 이송</li><li>배웁니다</li></ul> 들 <ul><li>키</li></ul>|
 ||||
@@ -54,8 +54,7 @@ ms.locfileid: "48136143"
 
 관리자 공동 작업 템플릿은 저장소/지역에서 공동 작업 하는 관리자 집합을 위한 팀을 만드는 데 적합 합니다. 예를 들어 조직에 지역이 있는 경우 캘리포니아 지역에 대 한 관리자 공동 작업 팀을 만들고 해당 지역의 모든 스토어 관리자와 해당 지역의 지역 관리자를 함께 포함할 수 있습니다.
 
-| 기본 서식 파일 형식|  | 이 기본 서식 파일에 포함 된 속성 |
+| 기본 서식 파일 형식| baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
 | ------------------|- |----------------------------------------------------- |
 |소매 관리자 공동 작업|`retailManagerCollaboration` |채널 <ul><li>일반<li>운영</li><li>배웁니다</li></ul> 들 <ul><li>키</li></ul>|
 ||||
-

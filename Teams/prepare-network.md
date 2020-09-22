@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: d0ce589ef972639928e4c8696f3ed23146126086
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583895"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177557"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams에 대한 조직의 네트워크 준비 
 
@@ -38,26 +38,23 @@ ms.locfileid: "46583895"
     |139     |UDP 포트 <strong>3478</strong> ~ <strong>3481</strong>        |
     |[IP 주소](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, <strong>52.120.0.0/14</strong>         |
 
-> [!IMPORTANT]
-> 온-프레미스 또는 온라인으로 비즈니스용 Skype에 페더레이션 해야 하는 경우 몇 가지 추가 DNS 레코드를 구성 해야 합니다.
->
->|CNAME 레코드/호스트 이름  |TTL  |주소 또는 값 가리키기  |
->|---------|---------|---------|
->|sip     |    3600     |    sipdir.online.lync.com     |
->|lyncdiscover     |   3600      |    webdir.online.lync.com     |
->
-
-
+    > [!IMPORTANT]
+    > 온-프레미스 또는 온라인으로 비즈니스용 Skype에 페더레이션 해야 하는 경우 몇 가지 추가 DNS 레코드를 구성 해야 합니다.
+    >
+    >|CNAME 레코드/호스트 이름  |TTL  |주소 또는 값 가리키기  |
+    >|---------|---------|---------|
+    >|sip     |    3600     |    sipdir.online.lync.com     |
+    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
     
 2.  Microsoft 365 또는 Office 365에 대해 확인 된 도메인이 있습니까 (예: contoso.com)?
     
-      - 조직에서 Microsoft 365 또는 Office 365을 롤백하지 않은 경우 [시작](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365)을 참조 하세요.
-      - 조직에서 Microsoft 365 또는 Office 365에 대해 확인 된 도메인을 추가 하거나 구성 하지 않은 경우에는 [도메인 FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)를 참조 하세요.
+    - 조직에서 Microsoft 365 또는 Office 365을 롤백하지 않은 경우 [시작](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365)을 참조 하세요.
+    - 조직에서 Microsoft 365 또는 Office 365에 대해 확인 된 도메인을 추가 하거나 구성 하지 않은 경우에는 [도메인 FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)를 참조 하세요.
 
 3.  조직에서 Exchange Online 및 SharePoint Online을 배포 했습니까?
     
-      - 조직에 Exchange Online이 없는 경우 [exchange 및 Microsoft 팀의 상호 작용 방법 이해](exchange-teams-interact.md)를 참조 하세요.
-      - 조직에 SharePoint Online이 없는 경우 [Sharepoint online 및 비즈니스용 OneDrive For Business가 Microsoft 팀과 어떻게 상호 작용 하는지 이해](sharepoint-onedrive-interact.md)를 참조 하세요.
+    - 조직에 Exchange Online이 없는 경우 [exchange 및 Microsoft 팀의 상호 작용 방법 이해](exchange-teams-interact.md)를 참조 하세요.
+    - 조직에 SharePoint Online이 없는 경우 [Sharepoint online 및 비즈니스용 OneDrive For Business가 Microsoft 팀과 어떻게 상호 작용 하는지 이해](sharepoint-onedrive-interact.md)를 참조 하세요.
 
 이러한 네트워크 요구 사항을 충족 하는 것으로 확인 되 면 [팀을 롤아웃할](How-to-roll-out-teams.md)준비가 되었을 수 있습니다. 다국적 대기업 이거나 몇 가지 네트워크 제한 사항이 있는 경우에는 팀을 위해 네트워크를 평가 하 고 최적화 하는 방법에 대해 알아보세요.
 
@@ -122,7 +119,7 @@ ms.locfileid: "46583895"
 </tr>
 <tr class="even">
 <td>분할 터널 VPN 구성</td>
-<td><p>일반적으로 [분할 터널 VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)이라고 하는 vpn (가상 사설망)을 우회 하는 팀 트래픽에 대 한 대체 경로를 제공 하는 것이 좋습니다. 분할 터널링은 Microsoft 365 또는 Office 365에 대 한 트래픽이 VPN을 거치지 않고 대신 Microsoft 365 또는 Office 365로 바로 이동 한다는 것을 의미 합니다. VPN을 건너뛰면 팀 품질에 긍정적인 영향을 미칠 수 있으며, VPN 장치 및 조직의 네트워크에서의 로드를 줄여줍니다. 분할 터널 VPN을 구현 하려면 VPN 공급 업체와 협력 하세요.</p>
+<td><p>일반적으로 <a href="https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing">분할 터널 VPN</a>이라고 하는 vpn (가상 사설망)을 우회 하는 팀 트래픽에 대 한 대체 경로를 제공 하는 것이 좋습니다. 분할 터널링은 Microsoft 365 또는 Office 365에 대 한 트래픽이 VPN을 거치지 않고 대신 Microsoft 365 또는 Office 365로 바로 이동 한다는 것을 의미 합니다. VPN을 건너뛰면 팀 품질에 긍정적인 영향을 미칠 수 있으며, VPN 장치 및 조직의 네트워크에서의 로드를 줄여줍니다. 분할 터널 VPN을 구현 하려면 VPN 공급 업체와 협력 하세요.</p>
 <p>VPN을 우회 하는 것이 권장 되는 다른 이유는 다음과 같습니다.
 <ul>
 <li><p>Vpn은 일반적으로 실시간 미디어를 지원 하도록 설계 또는 구성 되지 않았습니다.</p></li> 

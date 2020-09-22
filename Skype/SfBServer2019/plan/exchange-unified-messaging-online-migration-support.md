@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft는 2020 년 2 월 28 일부 터 ExchUMO (Exchange 통합 메시징 온라인) 서비스를 더 이상 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 비즈니스 연속성을 계획 하 고 수행 해야 하는 작업을 요약 하 여 설명 합니다.
-ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 5ee0cb6329f03c5306d14603ab9beedfd8ed55da
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359304"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177428"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -158,7 +158,7 @@ Microsoft 365 및 Office 365 조직 관리자는 Microsoft 클라우드 자동 �
 | V | 사용자 기능 | 지원 되는 인사말 언어 | 세부 정보: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | 피지 | 피지    |
 | V | 사용자 기능 | 전화 응답 규칙 |  | 피지 | 피지    |
 | V | 사용자 기능 | 전화에서 재생 (PSTN)-재생 메시지 | 음성 메시지를 들으려면 내 셀에 전화 걸기  | N | 피지    |
-| V | 사용자 기능 | 전화에서 재생 (인증)-재생 메시지 | 인증 된 장치에서 전화 걸기  | 피지 | 피지    |
+| V | 사용자 기능 | 전화에서 재생 (인증)-재생 메시지 | 인증 된 장치에서 전화 걸기  | N | 피지    |
 | V | 사용자 기능 | 여러 사용자 간의 공유 사서함 |  | 피지 | 피지    |
 | V | 발신자 기능  | 발신자 환경-보호 된 음성 메일 | 발신자는 기록 된 메시지를 보호 된 것으로 표시 하는 옵션을 선택할 수 있습니다.| N | 피지    |
 | V | 발신자 기능  | 발신자 환경-개인 음성 메일 | 발신자는 기록 된 메시지를 비공개로 표시 하는 옵션을 선택할 수 있습니다.  | N | 피지    |

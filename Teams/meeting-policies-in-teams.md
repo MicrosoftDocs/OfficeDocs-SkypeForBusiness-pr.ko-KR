@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8846dea07d0e25a628341e853dee64d42d3e043a
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135972"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177408"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -116,7 +116,7 @@ ms.locfileid: "48135972"
 
 ### <a name="allow-meet-now-in-channels"></a>채널에서 모임 시작 허용
 
-이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 임시 모임을 시작할 수 있는지 여부를 제어 합니다. 이 기능을 설정 하면 사용자가 팀 채널에서 메시지를 게시할 때 작성 **상자 아래에 있는 모임 시작** 을 클릭 하 여 채널에서 특별 모임을 시작할 수 있습니다. 기본값은 True입니다.
+이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 임시 모임을 시작할 수 있는지 여부를 제어 합니다. 이 기능을 설정 하면 사용자가 **모임** 단추를 클릭 하 여 임시 모임을 시작 하거나 채널에서 모임을 예약할 수 있습니다. 기본값은 True입니다.
 
 [![메시지 ](media/meeting-policies-meet-now.png) 아래에 모임 시작 아이콘을 표시 하는 스크린샷](media/meeting-policies-meet-now.png#lightbox)
 
@@ -407,7 +407,7 @@ Leaderless 전화 접속 회의 모임을 허용 하는 이끌이 별 정책입�
 
 ### <a name="allow-chat-in-meetings"></a>모임에서 채팅 허용
 
-이는 이끌이 별 정책입니다. 이 설정은 사용자의 모임에서 모임 채팅을 허용할지 여부를 제어 합니다.
+이는 참가자 별 설정입니다. 이 설정은 사용자의 모임에서 모임 채팅을 허용할지 여부를 제어 합니다.
 
 <a name="bkparticipantsandguests"> </a>
 

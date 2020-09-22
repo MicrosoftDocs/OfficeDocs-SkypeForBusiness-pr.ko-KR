@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dbe4e3ad6f527545fbf691905ce5d70c5b7dbe
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fa95f1fbef860c76b9434b21151a400105bf4101
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581819"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177398"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 팀을 위한 클라우드 비디오 Interop
 
@@ -61,6 +61,7 @@ Office 365는 타사 응용 프로그램을 SharePoint Online 사이트, 비즈�
 |![Polycom RealConnect를 나타내는 로고](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect 서비스</a> |
 |![Pexip 무한대를 나타내는 로고](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 팀 용 pexip 무한대</a> | 
 |![BlueJeans 게이트웨이를 나타내는 로고](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 팀을 위한 BlueJeans 게이트웨이</a> |
+|![Cisco CVI을 나타내는 로고](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Microsoft 팀 용 Cisco Webex 비디오 통합</a>|
 
 ### <a name="cloud-video-interop-overview"></a>클라우드 비디오 Interop 개요
 

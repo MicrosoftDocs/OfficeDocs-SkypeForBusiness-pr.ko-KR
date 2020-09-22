@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 689b2fcad408f0fe18651ada1a5ed03467bea345
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 35c020d981fba9827f10753a04b9b5629a9939df
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255241"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177208"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -37,9 +37,9 @@ Exchange Online 또는 Exchange 전용 vNext에서 호스팅되는 사용자는 
 Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Microsoft 365 또는 Office 365의 Azure Active Directory와 동기화 되어야 합니다. 팀과 채널을 만들고 참가 하 고, 탭 및 인공 지능을 추가 및 구성 하 고, 채팅 및 통화 기능을 활용할 수 있습니다. 그러나 프로필 사진을 수정 하거나, 모임을 관리 하거나, outlook 연락처에 액세스 하거나, 커넥터를 관리할 수는 없습니다.
 
 > [!IMPORTANT]
-> 온-프레미스와 통합 하려면 Exchange Server 2016 이상에서 Exchange 전체 클래식 하이브리드 배포를 사용 하 여 다음 요구 사항을 충족 하는 것이 좋습니다. 하이브리드 배포를 설정 하는 방법에 대 한 자세한 내용은 [Exchange Server 하이브리드 배포](https://docs.microsoft.com/exchange/exchange-hybrid)를 참조 하세요.
+> 온-프레미스와 통합 하려면 Exchange Server 2016 이상에서 Exchange 전체 클래식 하이브리드 배포를 사용 하는 것이 좋습니다. 최신 하이브리드 지원은 약속 있음/없음으로 제한 되며, 예를 들어 팀에서 온-프레미스 사서함으로의 일정 통합을 제공 하지 않습니다. 하이브리드 배포를 설정 하는 방법에 대 한 자세한 내용은 [Exchange Server 하이브리드 배포](https://docs.microsoft.com/exchange/exchange-hybrid)를 참조 하세요.
 
-온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위에서 설명한 [사서함에 대 한 요구](#requirements-for-mailboxes-hosted-on-premises) 사항에 나열 된 요구 사항이 충족 되는 경우 위의 시나리오에서 모든 기능을 사용할 수 있지만, 그 외에도 모임을 관리할 수 있습니다.
+온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위에서 설명한 [사서함에 대 한 요구](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) 사항에 나열 된 요구 사항이 충족 되는 경우 위의 시나리오에서 모든 기능을 사용할 수 있지만, 그 외에도 모임을 관리할 수 있습니다.
 
 다음 표에서는 Exchange 환경을 기반으로 하는 기능 가용성에 대 한 유용한 빠른 참조를 제공 합니다.
 
@@ -50,7 +50,7 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Microsoft 
 | **Exchange Online**                                                 | 예 <sup>1</sup> | 예 <sup>1</sup>   | 예        | 예                   | 예                               | 예<sup>7</sup>             | 예          | 예             | 예 <sup>6</sup>        | 예        | 예                          | 예                    | 예                    |
 | **Exchange Online 전용 vNext**                                 | 예 <sup>1</sup> | 예 <sup>1</sup>   | 예        | 예                   | 예                               | 예<sup>7</sup>             | 예          | 예             | 예 <sup>6</sup>        | 예        | 예                          | 예                    | 예                    |
 | **Exchange Online 전용-레거시** (Azure AD와 동기화 필요)  | 예 <sup>1</sup> | 예 <sup>1, 2</sup> | 예 <sup> 3 | 예                   | 아니요                                | 아니요                          | 예          | 예             | 아니요                      | 예 <sup> 4 | 예 <sup> 5                   | 예                    | 예                    |
-| **Exchange 온-프레미스** (Azure AD와 동기화) | 예 <sup>1</sup> | 예 <sup>1</sup>   | 예 <sup>3</sup> | 예                   | 예 <sup>8</sup>         | 아니오                          | 예          | 예             | 아니요                      | 예 <sup> 4 | 예 <sup> 5                   | 예                    | 예                    |
+| **Exchange 온-프레미스** (Azure AD와 동기화) | 예 <sup>1</sup> | 예 <sup>1</sup>   | 예 <sup>3</sup> | 예                   | 예 <sup>8</sup>         | 아니요                          | 예          | 예             | 아니요                      | 예 <sup> 4 | 예 <sup> 5                   | 예                    | 예                    |
 
 모든 호스팅 옵션에 대해 채널 메시지에 대 한 eDiscovery 및 법적 보류가 <sup>1 개</sup> 지원 됩니다.
 
@@ -66,7 +66,7 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Microsoft 
 
 <sup>7</sup> 팀은 테 넌 트 관리자가 구성한 [웹 사서함 정책](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정의 Outlook을 통해 사용자가 프로필 사진을 변경할 수 있는지 여부를 제어 합니다. 정책에서 **-set사진 사용** 설정이 해제 되어 있는 경우 사용자는 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 예를 들어 사용자가 조직의 IT 또는 HR 부서에서 승인한 프로필 사진을 업로드 하는 경우 아무런 작업도 필요 하지 않습니다. 그러나 사용자가 부적절 한 그림을 업로드 하는 경우 조직의 내부 정책에 따라 변경 합니다.
 
-<sup>8</sup> 온 [-프레미스 섹션에 호스팅되는 사서함의 요구](#requirements-for-mailboxes-hosted-on-premises) 사항에 나열 된 요구 사항을 충족 해야 합니다.
+<sup>8</sup> 온 [-프레미스 섹션으로 호스팅되는 사서함에 대 한 모임을 만들고 보기 위한 요구](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) 사항에 나열 된 요구 사항을 충족 해야 합니다.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft 팀을 최대한 활용 하기 위한 요구 사항
 
@@ -83,9 +83,9 @@ Microsoft 팀은 다양 한 Microsoft 365 및 Office 365 서비스를 사용 하
 > [!IMPORTANT]
 > 사용자를 **팀 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거 하는 경우 Outlook 및 다른 Office 앱에서 현재 상태가 중지 될 수 있습니다. 현재 상태는 Teams에서 잘 작동합니다. 이 문제를 해결 하려면 Microsoft 팀의 오른쪽 위 모서리에서 프로필 사진을 선택한 다음 **설정을**선택 합니다. **일반** 탭의 **응용 프로그램**에서 **Office 용 채팅 앱으로 팀 등록 (office 응용 프로그램을 다시 시작 해야 함)** 을 선택 합니다. 이 옵션을 선택한 후 Outlook을 포함 하 여 모든 Office 앱을 닫았다가 다시 엽니다. Outlook을 열면 현재 상태 정보를 사용할 수 있게 됩니다.
 
-## <a name="requirements-for-mailboxes-hosted-on-premises"></a>온-프레미스에 호스팅되는 사서함에 대 한 요구 사항
+## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>온-프레미스에 호스팅되는 사서함에 대 한 모임을 만들고 보기 위한 요구 사항
 
-사용자가 Exchange Server 온-프레미스를 사용 하 여 팀 모임을 예약 하는 기능을 원하는 경우 다음 요구 사항이 충족 되어야 합니다.
+사서함이 온-프레미스로 호스팅되는 경우 모임을 만들고 보려면 다음 요구 사항을 충족 해야 합니다.
 
 - Azure Active Directory 동기화 사용자에 대해 필요한 팀 라이선스를 할당 해야 합니다.
 
@@ -94,14 +94,11 @@ Microsoft 팀은 다양 한 Microsoft 365 및 Office 365 서비스를 사용 하
 - 사서함은 Exchange Server 2016 누적 업데이트 3 이상에서 호스팅됩니다.
 
 - 자동 검색 및 Exchange 웹 서비스는 외부적으로 게시 됩니다.
- 
-> [!NOTE]
-> 사용자의 사서함에 대 한 인증 되지 않은 검색을 팀 서비스가 수행할 수 있도록 하려면 자동 검색 (AutoD) V2가 필요 합니다. AutoD V2는 Exchange 2016 CU3 이상 이상에서 지원 됩니다.
 
 - OAuth 인증은 Exchange 하이브리드 구성 마법사를 통해 (클래식 또는 최신) 전체 하이브리드 구성을 실행 하 여 구성 됩니다. 하이브리드 구성 마법사를 사용할 수 없는 경우 [exchange 및 Exchange Online 조 직 간의 oauth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명 된 대로 oauth를 구성 합니다.
 
-> [!NOTE]
-> Exchange에서 EvoSTS로 알려진 팀 서비스 로부터 OAuth 토큰을 신뢰 합니다. 1 단계는 충분 하지만 EvoSTS만 가능 합니다. ACS는 일정에서 약속 있음/없음 조회에 사용 됩니다.
+ > [!NOTE]
+ > Exchange에서 EvoSTS로 알려진 팀 서비스 로부터 OAuth 토큰을 신뢰 합니다. 1 단계는 충분 하지만 EvoSTS만 가능 합니다. ACS는 일정에서 약속 있음/없음 조회에 사용 됩니다.
 
 - Azure AD Connect의 Exchange 하이브리드 배포 기능에 대 한 확인란이 설정 되어 있습니다.
 
@@ -109,13 +106,12 @@ Microsoft 팀은 다양 한 Microsoft 365 및 Office 365 서비스를 사용 하
 
 이러한 사용자에 대해 일정 위임을 사용 하려면 다음을 수행 합니다.
 
-
-- 대리인이 나 위임자 모두에 게는 Exchange Server의 사서함이 있어야 합니다.
-
 - 또한 [통합 구성 및 비즈니스용 Skype Online 및 Exchange Server 간](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)설정에 설명 된 대로 2-3 단계를 완료 해야 합니다. 이 단계에서는 팀 예약 응용 프로그램에 대리인 권한을 확인 하는 데 필요한 권한을 제공 합니다.
  
-> [!NOTE]
-> 2 단계에는 위임용으로 필요 하지 않은 ArchiveApplication에 대 한 역할 할당이 포함 됩니다.
+ > [!NOTE]
+ > 2 단계에는 위임용으로 필요 하지 않은 ArchiveApplication에 대 한 역할 할당이 포함 됩니다.
+
+- 다른 사람을 대신 하 여 모임을 예약할 때 Outlook 용 팀 일정 추가 기능은 Exchange 2013 CU19 이상 이어야 합니다. 이는 서비스에서 사서함에 대 한 인증 되지 않은 검색을 지원 하 여 위임자 사서함에 대 한 대리인 권한을 확인 하는 것입니다. 대리인 및 위임자 위치는 Exchange 2013 이상 또는 Exchange online 일 수 있지만, 다시 검색을 Exchange 2013 CU19 이상으로 확인 해야 합니다.
 
 ## <a name="additional-considerations"></a>추가 고려 사항
 

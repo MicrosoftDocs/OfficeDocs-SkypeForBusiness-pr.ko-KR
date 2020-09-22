@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135872"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171102"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>관리 콘솔에서 팀 서식 파일 시작
 
@@ -74,7 +74,7 @@ ms.locfileid: "48135872"
 | 기본 서식 파일 형식 | baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
 | ------------------ |----|----------------------------------------------------- |
 | Office 365 도입 |`com.microsoft.teams.template.AdoptOffice365`|  채널 <ul><li>일반</li> <li>알림에서</li> <li>챔피언 모서리</li> <li>팀 양식</li></ul> 들 <ul><li>키</li>  <li>일정</li> |
-| 프로젝트 관리 |`com.microsoft.teams.template.ManageAnEvent`| 채널 <ul><li>일반</li> <li>알림에서</li> <li>리소스도</li> <li>계획</li></ul> 들<ul><li>키</li><li>만들어졌으므로</li></ul> |
+| 프로젝트 관리 |`com.microsoft.teams.template.ManageAProject`| 채널 <ul><li>일반</li> <li>알림에서</li> <li>리소스도</li> <li>계획</li></ul> 들<ul><li>키</li><li>만들어졌으므로</li></ul> |
 | 이벤트 관리|`com.microsoft.teams.template.ManageAnEvent` | 채널 <ul><li>일반</li> <li>알림에서</li> <li>예산</li> <li>콘텐트가</li><li>물류</li> <li>계획</li> <li> 마케팅 및 홍보</li></ul> 들<ul><li>키</li><li>웹 사이트</li> <li>YouTube</li> <li>Planner</li> <li>만들어졌으므로</li></ul> |
 |내장 직원|`com.microsoft.teams.template.OnboardEmployees` | 채널 <ul><li>일반</li> <li>알림에서</li> <li>직원 채팅</li> <li>교육</li></ul>들<ul><li>키</li><li>커뮤니티</li></ul>|
 |지원 센터 구성| `com.microsoft.teams.template.OrganizeHelpDesk`|채널<ul><li>일반</li><li>알림에서</li><li>FAQ</li></ul>들<ul><li>키</li><li>만들어졌으므로</li></ul> |
