@@ -8,19 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 다음 섹션에서 기존 단일/다중 서버 에지 풀의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 963d396705bb2bc692cdd22e8857f23d351a95b0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: c2d4ec8e97557a584821bb82ef1d24b9bfa7a9bb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820020"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218899"
 ---
 # <a name="edge-settings-expander"></a>에지 설정 확장기
 
@@ -38,7 +38,7 @@ ms.locfileid: "41820020"
 
 에지 서버 풀의 내부 풀 FQDN(정규화된 도메인 이름) 이 설정을 변경하려면 풀의 FQDN을 편집합니다.
 
-Lync Server 2013, Microsoft Lync Server 2010 또는 Microsoft Office Communications Server 2007 R2 신뢰할 수 있는 파트너로 페더레이션을 설정 하려면 확인란을 선택 하 여 **이 Edge 풀에 페더레이션 사용 (포트 5061)** 합니다.
+Lync Server 2013, Microsoft Lync Server 2010 또는 Microsoft Office Communications Server 2007 R2 트러스트 파트너와의 페더레이션을 설정 하려면 **이에 지 풀에 페더레이션 사용 (포트 5061)** 확인란을 선택 합니다.
 
 XMPP 페더레이션을 사용하도록 설정하려면 **이 에지 풀에 XMPP 페더레이션 사용**을 선택합니다.
 
@@ -46,7 +46,7 @@ XMPP 페더레이션을 사용하도록 설정하려면 **이 에지 풀에 XMPP
 
 ## <a name="next-hop-selection-settings"></a>다음 홉 선택 설정
 
-에지 서버에서 내부 인프라와 통신하는 데 사용하는 **다음 홉 풀**을 설정하거나 수정하려면 드롭다운 목록 상자에서 디렉터, 디렉터 풀, 프런트 엔드 서버 또는 프런트 엔드 서버 풀을 선택합니다. 토폴로지 작성기에서 구성 된 디렉터 또는 프론트 엔드가 선택 영역에 표시 됩니다.
+에 지 서버가 내부 인프라와 통신 하는 데 사용 하는 **다음 홉 풀** 을 설정 하거나 수정 하려면 드롭다운 목록 상자에서 디렉터, 디렉터 풀, 프런트 엔드 서버 또는 프런트 엔드 서버 풀을 선택 합니다. 토폴로지 작성기에서 구성 된 디렉터 또는 프런트 엔드가 선택 항목으로 표시 됩니다.
 
 ## <a name="edge-server-configuration"></a>에지 서버 구성
 
@@ -57,7 +57,7 @@ XMPP 페더레이션을 사용하도록 설정하려면 **이 에지 풀에 XMPP
 각 외부 연결 서비스에 대해 FQDN 및 연결된 포트를 지정합니다. 예를 들어 **SIP 액세스**에서 sip.contoso.com과 연결된 포트 5061을 사용합니다.
 
 > [!IMPORTANT]
-> 각 외부 연결 서비스에 대해 서로 다른 FQDN을 선택하는 경우 각 서비스에 각 서비스와 연결된 고유한 포트 값이 있어야 합니다. 기본적으로 SIP는 포트 5061/TLS에 있고, 웹 회의 에지 서비스는 포트 444/TLS에 있으며, A/V 회의 서버는 포트 443/TLS에 있습니다. 서로 다른 FQDN 및 IP 주소 또는 포트 사용을 비롯한 이러한 설정을 변경하는 경우 처음 구성된 값을 사용하는 다른 서비스를 모두 업데이트해야 합니다.
+> 각 외부 연결 서비스에 대해 서로 다른 FQDN을 선택하는 경우 각 서비스에 각 서비스와 연결된 고유한 포트 값이 있어야 합니다. 기본적으로 SIP는 포트 5061/TLS에 있고, 웹 회의에 지 서비스는 포트 444/TLS에 있으며, A/V 회의 서버는 포트 443/TLS에 있습니다. 서로 다른 FQDN 및 IP 주소 또는 포트 사용을 비롯한 이러한 설정을 변경하는 경우 처음 구성된 값을 사용하는 다른 서비스를 모두 업데이트해야 합니다.
 
 조직에서 외부 연결 서비스에 단일 FQDN 및 IP 주소를 사용하기로 결정한 경우 **웹 회의와 A/V에 서로 다른 FQDN 및 IP 주소 사용** 확인란을 선택 취소합니다. 그러면 필요한 경우 **SIP 액세스** 풀 FQDN 및 포트 값을 편집할 수 있습니다.
 
@@ -66,6 +66,6 @@ XMPP 페더레이션을 사용하도록 설정하려면 **이 에지 풀에 XMPP
 
 ## <a name="see-also"></a>참고 항목
 
-에지 서비스의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)를 참조하세요.
+에지 서비스의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)를 참조하십시오.
 
 

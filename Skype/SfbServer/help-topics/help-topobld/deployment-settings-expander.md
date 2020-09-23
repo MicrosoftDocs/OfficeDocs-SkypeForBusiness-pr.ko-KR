@@ -8,23 +8,23 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
-description: 다음 섹션에서 기존 배포의 속성을 편집할 수 있습니다.
-ms.openlocfilehash: 972abaf61a481ae21ea87e09b8355b4481c7f1c1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 다음 섹션을 사용 하 여 기존 배포의 속성을 편집할 수 있습니다.
+ms.openlocfilehash: 87aa6546ea6e536454a6fae79c1bd5c2287ff398
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820150"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219069"
 ---
 # <a name="deployment-settings-expander"></a>배포 설정 확장기
 
-다음 섹션에서 기존 배포의 속성을 편집할 수 있습니다.
+다음 섹션을 사용 하 여 기존 배포의 속성을 편집할 수 있습니다.
 
 - SIP 도메인
 
@@ -73,10 +73,10 @@ URL을 제거해야 하는 경우 URL을 선택하고 **제거**를 클릭합니
 > [!IMPORTANT]
 > 인프라에 대한 중앙 관리 저장소를 정의, 게시 및 배포한 후에는 외부 프로세스로 중앙 관리 저장소를 다른 프런트 엔드로 재배치하지 않고서는 중앙 관리 저장소의 위치를 변경할 수 없습니다.
 
-중앙 관리 저장소를 이동하는 방법에 대한 자세한 내용은 Windows PowerShell cmdlet 참조의 [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)를 참조하세요.
+중앙 관리 저장소를 이동 하는 방법에 대 한 자세한 내용은 Windows PowerShell cmdlet 참조에서 [move-csmanagementserver](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) 를 참조 하십시오.
 
 ## <a name="see-also"></a>참고 항목
 
-이러한 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)을 참조하세요.
+이러한 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)을 참조하십시오.
 
 

@@ -1,5 +1,5 @@
 ---
-title: Edge 컴퓨터 설정 확장기
+title: 에지 컴퓨터 설정 확장기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,43 +8,43 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
-description: Edge 서버 풀의 서버에 대 한 속성을 편집 하려면 다음을 수행 합니다.
-ms.openlocfilehash: 93d8169eaaa6c0ca69b9210addea37ac21a8c5b7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 에지 서버 풀에 있는 서버의 속성을 편집하려면 다음을 수행합니다.
+ms.openlocfilehash: e62cfa000379ed7318c5780bf91ac40035e6beee
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820090"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218919"
 ---
-# <a name="edge-machine-settings-expander"></a>Edge 컴퓨터 설정 확장기
+# <a name="edge-machine-settings-expander"></a>에지 컴퓨터 설정 확장기
  
-Edge 서버 풀의 서버에 대 한 속성을 편집 하려면 다음을 수행 합니다.
+에지 서버 풀에 있는 서버의 속성을 편집하려면 다음을 수행합니다.
   
-정규화 된 도메인 이름 (FQDN)을 편집 하 여 **내부 이름 또는 fqdn** 을 변경할 수 있습니다. FQDN은 DNS (Domain Name System) 호스트 (A) 레코드와 내부에 지 네트워크 인터페이스에 대해 서버에 할당 된 인증서의 주체 이름과 일치 해야 합니다. **내부 IP 주소의** 값은 경계 네트워크 디자인을 기준으로 내부 네트워크로 정의 되는 네트워크 인터페이스에 할당 된 IP 주소를 정의 합니다.
+**내부 이름 또는 FQDN**은 FQDN(정규화된 도메인 이름)을 편집하여 변경할 수 있습니다. FQDN은 내부 에지 네트워크 인터페이스에 대한 DNS(Domain Name System) 호스트(A) 레코드 및 서버에 할당된 인증서의 주체 이름과 일치해야 합니다. **내부 IP 주소** 값은 경계 네트워크 디자인을 기준으로 내부 네트워크로 정의된 네트워크 인터페이스에 할당되는 IP 주소를 정의합니다.
   
-다음 세 개의 대화 상자 섹션에서는이 Edge 서버의 외부 구성에 대 한 IP 주소를 정의 합니다. IP 주소를 변경 하는 기능은 **웹 회의에 별도의 FQDN과 IP 주소를 사용 하도록** 설정 하 고 Edge 서버 풀 수준의 속성 설정에서 A/V에 영향을 받습니다.
+대화 상자의 다음 세 섹션에서는 이 에지 서버의 외부 구성에 대한 IP 주소를 정의합니다. IP 주소를 변경하는 기능은 에지 서버 풀 수준에서 속성 설정의 **웹 회의와 A/V에 서로 다른 FQDN 및 IP 주소 사용** 설정의 영향을 받습니다.
   
 ## <a name="sip-access"></a>SIP 액세스
 
-SIP (세션 시작 프로토콜) 액세스를 위해 네트워크 인터페이스에 할당 된 외부 IP 주소를 편집 합니다. 이 IP 주소는 공용 IP 주소 이거나 개인 IP 주소 범위의 주소 일 수 있습니다.
+SIP(Session Initiation Protocol) 액세스에 대한 네트워크 인터페이스에 할당된 외부 IP 주소를 편집합니다. 이 IP 주소는 공용 IP 주소이거나 개인 IP 주소 범위의 주소일 수 있습니다.
   
 > [!NOTE]
-> 그룹 설정 페이지에 대 한 **별도의 FQDN과 IP 주소를 사용 하도록 설정 하** 는 경우 SIP 액세스에 대 한 ip 주소만 편집할 수 있습니다.
+> 풀 설정 페이지에서 **웹 회의와 A/V에 서로 다른 FQDN 및 IP 주소 사용** 설정이 사용하도록 설정되면 SIP 액세스에 대한 IP 주소만 편집할 수 있습니다.
   
 ## <a name="web-conferencing"></a>웹 회의
 
-웹 회의를 위해 네트워크 인터페이스에 할당 된 외부 IP 주소를 편집 합니다. 이 IP 주소는 공용 IP 주소 이거나 개인 IP 주소 범위의 주소 일 수 있습니다.
+웹 회의에 대한 네트워크 인터페이스에 할당된 외부 IP 주소를 편집합니다. 이 IP 주소는 공용 IP 주소이거나 개인 IP 주소 범위의 주소일 수 있습니다.
   
 ## <a name="audiovideo"></a>오디오/비디오
 
-오디오/비디오 (A/V) 용 네트워크 인터페이스에 할당 된 외부 IP 주소를 편집 합니다. 이 IP 주소는 공용 IP 주소 이거나 개인 IP 주소 범위의 주소 일 수 있습니다.
+A/V(오디오/비디오)에 대한 네트워크 인터페이스에 할당된 외부 IP 주소를 편집합니다. 이 IP 주소는 공용 IP 주소이거나 개인 IP 주소 범위의 주소일 수 있습니다.
   
-**NAT 사용 공용 IP 주소** 에 대 한 설정은 A/V 네트워크 인터페이스 또는 일반 서버에 대 한 외부 인터페이스에 사용 되는 공용 주소입니다. **별도의 FQDN과 웹 회의에 대 한 IP 주소를 설정 하 고 A/V** 를 사용 하는 경우이 공용 IP 주소는 세 개의 외부 인터페이스 모두에 사용 됩니다.
+**NAT 사용 공용 IP 주소가 사용됨**에 대한 설정은 일반적으로 A/V 네트워크 인터페이스 또는 에지 서버에 대한 외부 인터페이스에 사용되는 공용 주소입니다. **웹 회의와 A/V에 서로 다른 FQDN 및 IP 주소 사용** 설정을 사용하도록 설정하면 이 공용 IP 주소가 세 가지 외부 인터페이스 모두에 사용됩니다.
   
 

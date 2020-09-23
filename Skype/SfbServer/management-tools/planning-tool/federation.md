@@ -8,17 +8,18 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.Federation
+- ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 내부 및 외부 사용자가 파트너 조직이 나 서비스에서 연락처에 액세스할 수 있도록에 지 서버를 구성할 수 있습니다.
-ms.openlocfilehash: 9a54bd99c579cc1cc1a99faf9eab18f19262e456
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16ac8fb77a8f15be9da7bc58f96954ffff2c7255
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037698"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219803"
 ---
 # <a name="federation-planning-tool"></a>페더레이션 (계획 도구)
  
