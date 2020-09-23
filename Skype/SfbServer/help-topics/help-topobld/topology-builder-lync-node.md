@@ -8,20 +8,18 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.None
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20c61a2a-4955-42b9-897f-b180ffc226d6
-ms.openlocfilehash: bf59c708783a61ff024b32f2bc2ab22ddcb0568a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 13aecfa63c53b5e4b2f71da1c5ea266826d00f6a
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819180"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219549"
 ---
-# <a name="topology-builder-lync-node"></a><span data-ttu-id="2ab06-102">토폴로지 작성기 Lync 노드</span><span class="sxs-lookup"><span data-stu-id="2ab06-102">Topology Builder Lync Node</span></span>
+# <a name="topology-builder-lync-node"></a><span data-ttu-id="8e2d2-102">토폴로지 작성기 Lync 노드</span><span class="sxs-lookup"><span data-stu-id="8e2d2-102">Topology Builder Lync Node</span></span>
  
-
-

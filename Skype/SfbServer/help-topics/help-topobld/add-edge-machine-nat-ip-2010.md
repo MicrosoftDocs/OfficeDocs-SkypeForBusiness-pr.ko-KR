@@ -1,5 +1,5 @@
 ---
-title: Edge 컴퓨터 NAT IP 2010 추가
+title: 에지 컴퓨터 NAT IP 2010 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeMachineNatIpPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 592496a5-4e03-496e-9b54-2ce3e4ce6733
-description: 이 Edge 풀의 공용 IP 주소가 NAT (network address translation)에 의해 번역 되는 경우 번역할 공용 IP 주소를 지정 해야 합니다. A/V Edge 서비스의 외부 IP 주소 여야 합니다.
-ms.openlocfilehash: 293bbba7d327ede3216aaf3b73563c2af8fac12b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 에지 풀의 공용 IP 주소가 NAT(Network Address Translation)에 의해 변환되는 경우 변환할 공용 IP 주소를 지정해야 합니다. 이 주소는 A/V 에지 서비스의 외부 IP 주소여야 합니다.
+ms.openlocfilehash: 0c7fc50970e5b0a28de723abae7bad5e08c29722
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821120"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219319"
 ---
-# <a name="add-edge-machine-nat-ip-2010"></a><span data-ttu-id="d3b57-104">Edge 컴퓨터 NAT IP 2010 추가</span><span class="sxs-lookup"><span data-stu-id="d3b57-104">Add Edge Machine NAT IP 2010</span></span>
+# <a name="add-edge-machine-nat-ip-2010"></a><span data-ttu-id="eb2bc-104">에지 컴퓨터 NAT IP 2010 추가</span><span class="sxs-lookup"><span data-stu-id="eb2bc-104">Add Edge Machine NAT IP 2010</span></span>
  
-<span data-ttu-id="d3b57-105">이 Edge 풀의 공용 IP 주소가 NAT (network address translation)에 의해 번역 되는 경우 번역할 공용 IP 주소를 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3b57-105">If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated.</span></span> <span data-ttu-id="d3b57-106">A/V Edge 서비스의 외부 IP 주소 여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3b57-106">This should be the external IP address of the A/V Edge service.</span></span>
+<span data-ttu-id="eb2bc-p102">이 에지 풀의 공용 IP 주소가 NAT(Network Address Translation)에 의해 변환되는 경우 변환할 공용 IP 주소를 지정해야 합니다. 이 주소는 A/V 에지 서비스의 외부 IP 주소여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb2bc-p102">If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated. This should be the external IP address of the A/V Edge service.</span></span>
   
-<span data-ttu-id="d3b57-107">Edge 풀에서 NAT 번역을 사용 하는지 여부를 변경 하려면 Edge 풀의 이름을 마우스 오른쪽 단추로 클릭 하 고 **속성 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3b57-107">To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.</span></span>
+<span data-ttu-id="eb2bc-107">에지 풀의 NAT 변환 사용 여부를 변경하려면 에지 풀 이름을 마우스 오른쪽 단추로 클릭하고 **속성 편집**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="eb2bc-107">To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.</span></span>
   
 

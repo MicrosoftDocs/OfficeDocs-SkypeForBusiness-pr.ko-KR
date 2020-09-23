@@ -8,64 +8,64 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 다음 섹션에서 기존 단일/다중 서버 에지 풀의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: 963d396705bb2bc692cdd22e8857f23d351a95b0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: c2d4ec8e97557a584821bb82ef1d24b9bfa7a9bb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820020"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218899"
 ---
-# <a name="edge-settings-expander"></a><span data-ttu-id="8601d-103">에지 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="8601d-103">Edge Settings Expander</span></span>
+# <a name="edge-settings-expander"></a><span data-ttu-id="c2862-103">에지 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="c2862-103">Edge Settings Expander</span></span>
 
-<span data-ttu-id="8601d-104">다음 섹션에서 기존 단일/다중 서버 에지 풀의 설정을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-104">To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:</span></span>
+<span data-ttu-id="c2862-104">다음 섹션에서 기존 단일/다중 서버 에지 풀의 설정을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-104">To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:</span></span>
 
-- <span data-ttu-id="8601d-105">일반 설정</span><span class="sxs-lookup"><span data-stu-id="8601d-105">General settings</span></span>
+- <span data-ttu-id="c2862-105">일반 설정</span><span class="sxs-lookup"><span data-stu-id="c2862-105">General settings</span></span>
 
-- <span data-ttu-id="8601d-106">다음 홉 선택 설정</span><span class="sxs-lookup"><span data-stu-id="8601d-106">Next hop selection settings</span></span>
+- <span data-ttu-id="c2862-106">다음 홉 선택 설정</span><span class="sxs-lookup"><span data-stu-id="c2862-106">Next hop selection settings</span></span>
 
-- <span data-ttu-id="8601d-107">에지 서버 구성</span><span class="sxs-lookup"><span data-stu-id="8601d-107">Edge Server configuration</span></span>
+- <span data-ttu-id="c2862-107">에지 서버 구성</span><span class="sxs-lookup"><span data-stu-id="c2862-107">Edge Server configuration</span></span>
 
 
 
-## <a name="general-settings"></a><span data-ttu-id="8601d-108">일반 설정</span><span class="sxs-lookup"><span data-stu-id="8601d-108">General settings</span></span>
+## <a name="general-settings"></a><span data-ttu-id="c2862-108">일반 설정</span><span class="sxs-lookup"><span data-stu-id="c2862-108">General settings</span></span>
 
-<span data-ttu-id="8601d-p101">에지 서버 풀의 내부 풀 FQDN(정규화된 도메인 이름) 이 설정을 변경하려면 풀의 FQDN을 편집합니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-p101">Internal pool fully qualified domain name (FQDN) of the Edge Server pool. Edit the FQDN of the pool to change this setting.</span></span>
+<span data-ttu-id="c2862-p101">에지 서버 풀의 내부 풀 FQDN(정규화된 도메인 이름) 이 설정을 변경하려면 풀의 FQDN을 편집합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-p101">Internal pool fully qualified domain name (FQDN) of the Edge Server pool. Edit the FQDN of the pool to change this setting.</span></span>
 
-<span data-ttu-id="8601d-111">Lync Server 2013, Microsoft Lync Server 2010 또는 Microsoft Office Communications Server 2007 R2 신뢰할 수 있는 파트너로 페더레이션을 설정 하려면 확인란을 선택 하 여 **이 Edge 풀에 페더레이션 사용 (포트 5061)** 합니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-111">Select the check box **Enable federation for this Edge pool (Port 5061)** if you will set up federation with a Lync Server 2013, Microsoft Lync Server 2010 or Microsoft Office Communications Server 2007 R2 trusted partner.</span></span>
+<span data-ttu-id="c2862-111">Lync Server 2013, Microsoft Lync Server 2010 또는 Microsoft Office Communications Server 2007 R2 트러스트 파트너와의 페더레이션을 설정 하려면 **이에 지 풀에 페더레이션 사용 (포트 5061)** 확인란을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-111">Select the check box **Enable federation for this Edge pool (Port 5061)** if you will set up federation with a Lync Server 2013, Microsoft Lync Server 2010 or Microsoft Office Communications Server 2007 R2 trusted partner.</span></span>
 
-<span data-ttu-id="8601d-112">XMPP 페더레이션을 사용하도록 설정하려면 **이 에지 풀에 XMPP 페더레이션 사용**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-112">Select **Enable XMPP federation for this Edge pool** to enable XMPP federation.</span></span>
+<span data-ttu-id="c2862-112">XMPP 페더레이션을 사용하도록 설정하려면 **이 에지 풀에 XMPP 페더레이션 사용**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-112">Select **Enable XMPP federation for this Edge pool** to enable XMPP federation.</span></span>
 
-<span data-ttu-id="8601d-113">**내부 구성 복제 포트(HTTPS)** 의 포트 번호를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-113">Specify the port number for **Internal Configuration Replication Port (HTTPS)**.</span></span>
+<span data-ttu-id="c2862-113">**내부 구성 복제 포트(HTTPS)** 의 포트 번호를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-113">Specify the port number for **Internal Configuration Replication Port (HTTPS)**.</span></span>
 
-## <a name="next-hop-selection-settings"></a><span data-ttu-id="8601d-114">다음 홉 선택 설정</span><span class="sxs-lookup"><span data-stu-id="8601d-114">Next hop selection settings</span></span>
+## <a name="next-hop-selection-settings"></a><span data-ttu-id="c2862-114">다음 홉 선택 설정</span><span class="sxs-lookup"><span data-stu-id="c2862-114">Next hop selection settings</span></span>
 
-<span data-ttu-id="8601d-115">에지 서버에서 내부 인프라와 통신하는 데 사용하는 **다음 홉 풀**을 설정하거나 수정하려면 드롭다운 목록 상자에서 디렉터, 디렉터 풀, 프런트 엔드 서버 또는 프런트 엔드 서버 풀을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-115">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool from the drop-down list box.</span></span> <span data-ttu-id="8601d-116">토폴로지 작성기에서 구성 된 디렉터 또는 프론트 엔드가 선택 영역에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-116">Only Directors or Front Ends that have been configured in Topology Builder will appear for selection.</span></span>
+<span data-ttu-id="c2862-115">에 지 서버가 내부 인프라와 통신 하는 데 사용 하는 **다음 홉 풀** 을 설정 하거나 수정 하려면 드롭다운 목록 상자에서 디렉터, 디렉터 풀, 프런트 엔드 서버 또는 프런트 엔드 서버 풀을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-115">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool from the drop-down list box.</span></span> <span data-ttu-id="c2862-116">토폴로지 작성기에서 구성 된 디렉터 또는 프런트 엔드가 선택 항목으로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-116">Only Directors or Front Ends that have been configured in Topology Builder will appear for selection.</span></span>
 
-## <a name="edge-server-configuration"></a><span data-ttu-id="8601d-117">에지 서버 구성</span><span class="sxs-lookup"><span data-stu-id="8601d-117">Edge Server configuration</span></span>
+## <a name="edge-server-configuration"></a><span data-ttu-id="c2862-117">에지 서버 구성</span><span class="sxs-lookup"><span data-stu-id="c2862-117">Edge Server configuration</span></span>
 
-<span data-ttu-id="8601d-118">에지 서버의 **외부 설정**에 대한 설정을 편집하거나 지정하려면 먼저 SIP 액세스, 웹 회의 및 오디오/비디오 서비스에 서로 다른 IP 주소를 사용할지를 결정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-118">To edit or specify settings for the **External Settings** for the Edge Servers, you first must determine if you will use separate IP addresses for SIP access, web conferencing, and the Audio/Video service.</span></span>
+<span data-ttu-id="c2862-118">에지 서버의 **외부 설정**에 대한 설정을 편집하거나 지정하려면 먼저 SIP 액세스, 웹 회의 및 오디오/비디오 서비스에 서로 다른 IP 주소를 사용할지를 결정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-118">To edit or specify settings for the **External Settings** for the Edge Servers, you first must determine if you will use separate IP addresses for SIP access, web conferencing, and the Audio/Video service.</span></span>
 
-<span data-ttu-id="8601d-p103">각각에 대해 서로 다른 IP 주소를 사용하려는 경우 **웹 회의와 A/V에 서로 다른 FQDN 및 IP 주소 사용** 확인란을 선택합니다. 각 서비스에는 각 서비스에 대해 만들어진 해당 DNS 호스트(A) 레코드가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-p103">If you intend to use separate IP addresses for each, select the check box **Enable separate FQDN and IP address for Web conferencing and A/V**. Each service must have a corresponding DNS host (A) record created for it.</span></span>
+<span data-ttu-id="c2862-p103">각각에 대해 서로 다른 IP 주소를 사용하려는 경우 **웹 회의와 A/V에 서로 다른 FQDN 및 IP 주소 사용** 확인란을 선택합니다. 각 서비스에는 각 서비스에 대해 만들어진 해당 DNS 호스트(A) 레코드가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-p103">If you intend to use separate IP addresses for each, select the check box **Enable separate FQDN and IP address for Web conferencing and A/V**. Each service must have a corresponding DNS host (A) record created for it.</span></span>
 
-<span data-ttu-id="8601d-p104">각 외부 연결 서비스에 대해 FQDN 및 연결된 포트를 지정합니다. 예를 들어 **SIP 액세스**에서 sip.contoso.com과 연결된 포트 5061을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-p104">For each of the external-facing services, you specify a FQDN and an associated port. For example, the **SIP Access** would use sip.contoso.com with an associated port of 5061.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="8601d-p105">각 외부 연결 서비스에 대해 서로 다른 FQDN을 선택하는 경우 각 서비스에 각 서비스와 연결된 고유한 포트 값이 있어야 합니다. 기본적으로 SIP는 포트 5061/TLS에 있고, 웹 회의 에지 서비스는 포트 444/TLS에 있으며, A/V 회의 서버는 포트 443/TLS에 있습니다. 서로 다른 FQDN 및 IP 주소 또는 포트 사용을 비롯한 이러한 설정을 변경하는 경우 처음 구성된 값을 사용하는 다른 서비스를 모두 업데이트해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-p105">If you select separate FQDNs for each of the external-facing services, each service must have a unique port value associated with it. By default, the SIP is on port 5061/TLS, the web conferencing edge service is on port 444/TLS, and the A/V Conferencing Server is on port 443/TLS. If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all the other services that will rely on the initially configured values.</span></span>
-
-<span data-ttu-id="8601d-p106">조직에서 외부 연결 서비스에 단일 FQDN 및 IP 주소를 사용하기로 결정한 경우 **웹 회의와 A/V에 서로 다른 FQDN 및 IP 주소 사용** 확인란을 선택 취소합니다. 그러면 필요한 경우 **SIP 액세스** 풀 FQDN 및 포트 값을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-p106">If you determine that your organization will use a single FQDN and IP address for the external-facing services, clear the **Enable separate FQDN and IP address for Web conferencing and A/V** check box. You can then edit the **SIP Access** pool FQDN and port values, if necessary.</span></span>
+<span data-ttu-id="c2862-p104">각 외부 연결 서비스에 대해 FQDN 및 연결된 포트를 지정합니다. 예를 들어 **SIP 액세스**에서 sip.contoso.com과 연결된 포트 5061을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-p104">For each of the external-facing services, you specify a FQDN and an associated port. For example, the **SIP Access** would use sip.contoso.com with an associated port of 5061.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="8601d-128">서로 다른 FQDN 및 IP 주소 또는 포트 사용을 비롯한 이러한 설정을 변경하는 경우 처음 구성된 값을 사용하는 다른 서비스를 모두 업데이트해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8601d-128">If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all other services that will rely on the initially configured values.</span></span>
+> <span data-ttu-id="c2862-123">각 외부 연결 서비스에 대해 서로 다른 FQDN을 선택하는 경우 각 서비스에 각 서비스와 연결된 고유한 포트 값이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-123">If you select separate FQDNs for each of the external-facing services, each service must have a unique port value associated with it.</span></span> <span data-ttu-id="c2862-124">기본적으로 SIP는 포트 5061/TLS에 있고, 웹 회의에 지 서비스는 포트 444/TLS에 있으며, A/V 회의 서버는 포트 443/TLS에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-124">By default, the SIP is on port 5061/TLS, the web conferencing edge service is on port 444/TLS, and the A/V Conferencing Server is on port 443/TLS.</span></span> <span data-ttu-id="c2862-125">서로 다른 FQDN 및 IP 주소 또는 포트 사용을 비롯한 이러한 설정을 변경하는 경우 처음 구성된 값을 사용하는 다른 서비스를 모두 업데이트해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-125">If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all the other services that will rely on the initially configured values.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="8601d-129">참고 항목</span><span class="sxs-lookup"><span data-stu-id="8601d-129">See also</span></span>
+<span data-ttu-id="c2862-p106">조직에서 외부 연결 서비스에 단일 FQDN 및 IP 주소를 사용하기로 결정한 경우 **웹 회의와 A/V에 서로 다른 FQDN 및 IP 주소 사용** 확인란을 선택 취소합니다. 그러면 필요한 경우 **SIP 액세스** 풀 FQDN 및 포트 값을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-p106">If you determine that your organization will use a single FQDN and IP address for the external-facing services, clear the **Enable separate FQDN and IP address for Web conferencing and A/V** check box. You can then edit the **SIP Access** pool FQDN and port values, if necessary.</span></span>
 
-<span data-ttu-id="8601d-130">에지 서비스의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="8601d-130">For details about defining and configuring the settings for the Edge Services, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="c2862-128">서로 다른 FQDN 및 IP 주소 또는 포트 사용을 비롯한 이러한 설정을 변경하는 경우 처음 구성된 값을 사용하는 다른 서비스를 모두 업데이트해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2862-128">If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all other services that will rely on the initially configured values.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="c2862-129">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c2862-129">See also</span></span>
+
+<span data-ttu-id="c2862-130">에지 서비스의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="c2862-130">For details about defining and configuring the settings for the Edge Services, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
 
 
