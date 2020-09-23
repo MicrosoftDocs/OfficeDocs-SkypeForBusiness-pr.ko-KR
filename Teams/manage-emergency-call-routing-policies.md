@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -16,13 +17,15 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 긴급 전화 번호를 설정 하 고 긴급 전화의 라우팅 방법을 지정 하는 방법에 대해 알아봅니다.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35595d8c3b784b908448eae72013cb8bcf3f37f7
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.custom:
+- seo-marvel-apr2020
+- ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+ms.openlocfilehash: 67ef3bb5700c223f3057ef0ba44c9df07a2e7be6
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938167"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217699"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 라우팅 정책 관리
 

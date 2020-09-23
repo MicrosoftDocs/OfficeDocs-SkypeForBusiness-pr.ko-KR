@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-f1.keywords: ''
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -16,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 음성 라우팅 정책을 만들고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 2bef422f22dc212b2c615e2ca2ab98806b396e9f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938129"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217659"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 음성 라우팅 정책 관리
 
@@ -38,7 +39,7 @@ ms.locfileid: "44938129"
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **음성 라우팅 정책**으로 이동한 다음 **추가**를 클릭 합니다.<br>
-    ![Microsoft 팀 관리 센터의 음성 라우팅 정책 추가 페이지 스크린샷](media/manage-voice-routing-policies.png) 
+    ![Microsoft 팀 관리 센터의 음성 라우팅 정책 추가 페이지 스크린샷 ](media/manage-voice-routing-policies.png) 
 2. 정책의 이름과 설명을 입력합니다.
 3. **Pstn 사용 레코드**에서 **pstn 사용량 추가**를 클릭 한 다음 추가 하려는 레코드를 선택 합니다. 새 PSTN 사용 레코드를 만들어야 할 경우 **추가**를 클릭 합니다.
 4. 여러 PSTN 사용 레코드를 추가한 경우 원하는 순서 대로 정렬 합니다.

@@ -8,19 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: 컴퓨터 FQDN에 FQDN (정규화 된 도메인 이름)을 입력 하 여 영구 채팅 서버 풀에 포함 될 컴퓨터를 정의 합니다. 이 FQDN은 DNS(Domain Name System) 호스트(A 또는 AAAA) 레코드에 정의된 컴퓨터의 이름이어야 합니다.
-ms.openlocfilehash: 9c116e0160244ee135b3c64ec5d06b8835eb5b44
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 275912ca311f7b36bfe2e20652186a9ed1bedf31
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820210"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218589"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>영구 채팅 풀에서 컴퓨터 정의
  
@@ -34,7 +34,7 @@ ms.locfileid: "41820210"
   
 이전 풀 정의 대화 상자로 돌아가려면 **뒤로**를 클릭합니다.
   
-이 풀에 대 한 컴퓨터 구성원을 모두 입력 하 고 영구 채팅 서버 풀 정의를 진행 하는 과정을 완료 한 후 **다음** 을 클릭 합니다.
+이 풀의 컴퓨터 구성원을 모두 입력 한 후 영구 채팅 서버 풀 정의를 계속 하려면 **다음** 을 클릭 합니다.
   
 모든 변경 내용을 취소하고 **새 영구 채팅 풀 정의** 마법사를 종료하려면 **취소**를 클릭합니다.
   
@@ -44,4 +44,4 @@ ms.locfileid: "41820210"
 
 [비즈니스용 Skype 서버 2015의 영구 채팅 서버 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[비즈니스용 Skype Server 2015 토폴로지에 영구 채팅 서버 추가](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[비즈니스용 Skype 서버 2015 토폴로지에 영구 채팅 서버 추가](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

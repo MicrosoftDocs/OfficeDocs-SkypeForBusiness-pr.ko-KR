@@ -10,19 +10,22 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
-f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 긴급 전화 정책을 사용 하 고 관리 하 여 조직의 팀 사용자가 긴급 통화를 할 때 수행할 작업을 정의 하는 방법에 대해 알아봅니다.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12d2e114a53c47e6c938c6c2cb4bf3cb83c81180
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.custom:
+- seo-marvel-apr2020
+- ms.teamsadmincenter.voice.emergencycallingpolicies.overview
+ms.openlocfilehash: ac2c06e9ba93e650909ee776383f1cebd9da1a9d
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938437"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217669"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 정책 관리
 

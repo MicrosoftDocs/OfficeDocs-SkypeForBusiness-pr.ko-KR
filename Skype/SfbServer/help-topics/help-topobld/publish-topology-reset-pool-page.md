@@ -8,23 +8,23 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyResetPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
-description: 이 문서는 예비 문서로, 변경 될 수 있습니다. 빈 항목은 개체 틀로 포함 됩니다.
-ms.openlocfilehash: 3ebf1094151d4a2ee48bd23e51e09a61ad650119
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 내용은 예비 설명서 이며 변경 될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
+ms.openlocfilehash: 5420fae0974a39730663fd7f80267ae497200647
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819380"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217279"
 ---
 # <a name="publish-topology-reset-pool-page"></a>토폴로지 게시 풀 다시 설정 페이지
  
-이 문서는 예비 문서로, 변경 될 수 있습니다. 빈 항목은 개체 틀로 포함 됩니다.
+이 내용은 예비 설명서 이며 변경 될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
   
 새 컴퓨터를 기존 풀에 추가하려면 풀을 다시 설정하여 Windows Fabric에서 풀의 모든 구성원 간에 연결을 다시 정의하도록 허용해야 합니다. 이렇게 하려면 서버를 추가한 풀을 선택하고 **다음**을 클릭합니다.
   

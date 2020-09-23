@@ -1,5 +1,5 @@
 ---
-title: 에지와 프런트 엔드 연결
+title: 프런트 엔드와 Edge 연결
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,24 +8,24 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
-description: '각 프런트 엔드 풀에는 연결된 하나의 에지 서버 또는 에지 풀만 있을 수 있습니다. 사이트에 대해 외부 사용자 액세스를 사용하도록 설정할 때 원격 사용자에 대한 지원을 제공할 수 있습니다. 또한 페더레이션 사용자에 대한 지원(특정 공용 IM(메신저 대화) 연결 공급자(예: Windows Live)의 사용자에 대한 지원을 포함할 수 있음) 및 익명 사용자에 대한 지원을 사용하도록 설정할 수 있습니다.'
-ms.openlocfilehash: 949c111c718e314455cd6603472ce1bbb1d7e11c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '각 프런트 엔드 풀에는 연결 된 하나의에 지 서버 또는에 지 풀만 있을 수 있습니다. 사이트에 대 한 외부 사용자 액세스를 사용 하도록 설정 하는 경우 원격 사용자에 대 한 지원을 제공할 수 있습니다. 또한 특정 공용 IM (인스턴트 메시징) 연결 공급자 (예: Windows Live)에 대 한 지원을 포함 하 고 익명 사용자에 대 한 지원을 포함할 수 있는 페더레이션 사용자에 대 한 지원을 사용 하도록 설정할 수 있습니다.'
+ms.openlocfilehash: cc804ed9a21b81ce0315664bcb1b3530e8087584
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820400"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217759"
 ---
-# <a name="associate-front-end-with-edge"></a>에지와 프런트 엔드 연결
+# <a name="associate-front-end-with-edge"></a>프런트 엔드와 Edge 연결
 
-각 프런트 엔드 풀에는 연결된 하나의 에지 서버 또는 에지 풀만 있을 수 있습니다. 사이트에 대해 외부 사용자 액세스를 사용하도록 설정할 때 원격 사용자에 대한 지원을 제공할 수 있습니다. 또한 페더레이션 사용자에 대한 지원(특정 공용 IM(메신저 대화) 연결 공급자(예: Windows Live)의 사용자에 대한 지원을 포함할 수 있음) 및 익명 사용자에 대한 지원을 사용하도록 설정할 수 있습니다.
+각 프런트 엔드 풀에는 연결 된 하나의에 지 서버 또는에 지 풀만 있을 수 있습니다. 사이트에 대 한 외부 사용자 액세스를 사용 하도록 설정 하는 경우 원격 사용자에 대 한 지원을 제공할 수 있습니다. 또한 특정 공용 IM (인스턴트 메시징) 연결 공급자 (예: Windows Live)에 대 한 지원을 포함 하 고 익명 사용자에 대 한 지원을 포함할 수 있는 페더레이션 사용자에 대 한 지원을 사용 하도록 설정할 수 있습니다.
 
-사이트의 모든 풀 및 여러 중앙 사이트의 풀은 사용량이 에지 서버의 용량을 초과하지 않는 경우 동일한 에지 서버를 사용할 수 있습니다. 확장을 비롯한 모니터링에 대한 자세한 내용은 계획 설명서의 [Planning for External User Access](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)을 참조하세요. 외부 사용자 액세스를 지원하도록 토폴로지를 디자인하는 방법에 대한 자세한 내용은 배포 설명서에서 [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)를 참조하세요.
+사이트의 모든 풀 및 여러 중앙 사이트의 풀은 사용량이에 지 서버의 용량을 초과 하지 않는 경우 동일한에 지 서버를 사용할 수 있습니다. 확장을 비롯한 모니터링에 대한 자세한 내용은 계획 설명서의 [외부 사용자 액세스 계획](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)을 참조하십시오. 외부 사용자 액세스를 지원하도록 토폴로지를 설계하는 방법에 대한 자세한 내용은 배포 설명서의 [에지 토폴로지 정의](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)를 참조하십시오.
 
 
