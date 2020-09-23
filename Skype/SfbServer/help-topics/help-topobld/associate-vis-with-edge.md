@@ -8,32 +8,32 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateVisWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
-description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 비즈니스용 Skype 서버 2015에서 VIS 풀 만들기에서 온라인으로 설명 됩니다.
-ms.openlocfilehash: 7cb78061b5d30547f12169d03a1eb3a031ef5840
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 비즈니스용 Skype 서버 2015의 Create a VIS pool에서 온라인으로 설명 되어 있습니다.
+ms.openlocfilehash: ebd567f8120732a982a0d938418e0ad9930271b5
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820360"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218659"
 ---
-# <a name="associate-vis-with-edge"></a><span data-ttu-id="e0230-103">Edge와 VIS 연결</span><span class="sxs-lookup"><span data-stu-id="e0230-103">Associate VIS With Edge</span></span>
+# <a name="associate-vis-with-edge"></a><span data-ttu-id="6c9dd-103">Edge와 VIS 연결</span><span class="sxs-lookup"><span data-stu-id="6c9dd-103">Associate VIS With Edge</span></span>
  
-<span data-ttu-id="e0230-104">토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 [비즈니스용 Skype 서버 2015에서 VIS 풀 만들기](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)에서 온라인으로 설명 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e0230-104">The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).</span></span>
+<span data-ttu-id="6c9dd-104">토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 [비즈니스용 Skype 서버 2015의 Create a VIS pool](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)에서 온라인으로 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c9dd-104">The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).</span></span>
   
-<span data-ttu-id="e0230-105">Windows PowerShell을 사용 하 여 서버에 비디오 Interop 서버 역할을 할당 하는 데 필요한 단계는 [비즈니스용 Skype 서버 2015에서 VIS 서버 역할 배포](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) 에서 온라인으로 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0230-105">The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)</span></span>
+<span data-ttu-id="6c9dd-105">Windows PowerShell을 사용 하 여 서버에 비디오 Interop 서버 역할을 할당 하는 데 필요한 단계는 [VIS 서버 역할 배포 시 비즈니스용 Skype 서버 2015에서](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) 온라인으로 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c9dd-105">The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)</span></span>
   
-<span data-ttu-id="e0230-106">Windows PowerShell을 사용 하는 새 비디오 Interop 서버에 대 한 구성 단계는 [비즈니스용 Skype 서버 2015에서 비디오 Interop 서버를 구성할](../../deploy/deploy-video-interop-server/configure-the-vis.md)때 온라인으로 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0230-106">The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).</span></span>
+<span data-ttu-id="6c9dd-106">Windows PowerShell을 사용 하는 새 비디오 Interop 서버에 대 한 구성 단계는 [비즈니스용 Skype 서버 2015에서 비디오 Interop 서버 구성](../../deploy/deploy-video-interop-server/configure-the-vis.md)에 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c9dd-106">The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).</span></span>
   
- <span data-ttu-id="e0230-107">VIS와 상호 운용할 Cisco GUI에서 설정 해야 하는 비디오 게이트웨이에 대 한 설정은 [비즈니스용 Skype 서버 2015의 CUCM 구성](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)에서 온라인으로 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0230-107">The settings for a video gateway that need to be set in the Cisco GUI for interoperation with a VIS are described online at [Configure CUCM for Interoperation with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).</span></span>
+ <span data-ttu-id="6c9dd-107">VIS와 상호 운용 하기 위해 Cisco GUI에서 설정 해야 하는 비디오 게이트웨이의 설정은 [비즈니스용 Skype 서버 2015와의 상호 운용성을 위해 CONFIGURE 위한 cucm](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)에서 온라인으로 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c9dd-107">The settings for a video gateway that need to be set in the Cisco GUI for interoperation with a VIS are described online at [Configure CUCM for Interoperation with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).</span></span>
   
- <span data-ttu-id="e0230-108">비디오 게이트웨이와 VIS와 상호 운용 하기 위해 Cisco GUI에서 설정 해야 하는 VTC에 대 한 설정은 비즈니스용 [Skype 서버 2015의 상호 운용을 위한 Vtc 구성](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)에서 온라인으로 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0230-108">The settings for a VTC that need to be set in the Cisco GUI for interoperation with a Video Gateway and a VIS are described online at [Configure a VTC for Interoperation with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).</span></span>
+ <span data-ttu-id="6c9dd-108">비디오 게이트웨이 및 VIS와 상호 운용할 수 있도록 Cisco GUI에서 설정 해야 하는 VTC의 설정은 [비즈니스용 Skype 서버 2015와의 상호 운용성을 위한 Vtc 구성](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)에서 온라인으로 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c9dd-108">The settings for a VTC that need to be set in the Cisco GUI for interoperation with a Video Gateway and a VIS are described online at [Configure a VTC for Interoperation with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="e0230-109">참고 항목</span><span class="sxs-lookup"><span data-stu-id="e0230-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6c9dd-109">참고 항목</span><span class="sxs-lookup"><span data-stu-id="6c9dd-109">See also</span></span>
 
-[<span data-ttu-id="e0230-110">비즈니스용 Skype 서버 2015의 비디오 상호 운용 서버 계획</span><span class="sxs-lookup"><span data-stu-id="e0230-110">Plan for Video Interop Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/video-interop-server.md)
+[<span data-ttu-id="6c9dd-110">비즈니스용 Skype 서버 2015의 비디오 Interop 서버 계획</span><span class="sxs-lookup"><span data-stu-id="6c9dd-110">Plan for Video Interop Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/video-interop-server.md)

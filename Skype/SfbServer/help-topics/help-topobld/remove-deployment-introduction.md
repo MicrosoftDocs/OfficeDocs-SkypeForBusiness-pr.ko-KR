@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
-description: 전체 배포를 서비스 해제 하려는 경우에만 배포 제거 마법사를 실행 합니다. 이 마법사는 단일 프런트 엔드 서버로 구성 된 빈 토폴로지를 만듭니다. 이 마법사를 실행 하 고 빈 토폴로지를 게시 한 후에는 원래 토폴로지로 되돌릴 수 없습니다.
-ms.openlocfilehash: 6b9bce53e9836a3b19bf5b78d3bf43f4924ba589
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 전체 배포의 서비스를 해제하려는 경우에만 배포 제거 마법사를 실행합니다. 이 마법사는 단일 프런트 엔드 서버로 구성된 빈 토폴로지를 만듭니다. 이 마법사를 실행하여 빈 토폴로지를 게시한 후에는 원래 토폴로지로 되돌릴 수 없습니다.
+ms.openlocfilehash: 03e35836f8d01ce6356f021e334ba612bbd65491
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819320"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217139"
 ---
-# <a name="remove-deployment-introduction"></a><span data-ttu-id="0941a-105">배포 제거 소개</span><span class="sxs-lookup"><span data-stu-id="0941a-105">Remove Deployment Introduction</span></span>
+# <a name="remove-deployment-introduction"></a><span data-ttu-id="77a7b-105">배포 제거 소개</span><span class="sxs-lookup"><span data-stu-id="77a7b-105">Remove Deployment Introduction</span></span>
  
-<span data-ttu-id="0941a-106">전체 배포를 서비스 해제 하려는 경우에만 **배포 제거 마법사** 를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="0941a-106">Run the **Remove Deployment Wizard** only if you want to decommission your entire deployment.</span></span> <span data-ttu-id="0941a-107">이 마법사는 단일 프런트 엔드 서버로 구성 된 빈 토폴로지를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="0941a-107">This wizard creates an empty topology that consists of a single Front End Server.</span></span> <span data-ttu-id="0941a-108">이 마법사를 실행 하 고 빈 토폴로지를 게시 한 후에는 원래 토폴로지로 되돌릴 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="0941a-108">After you run this wizard and publish the empty topology, you cannot revert to your original topology.</span></span>
+<span data-ttu-id="77a7b-p102">전체 배포의 서비스를 해제하려는 경우에만 **배포 제거 마법사**를 실행합니다. 이 마법사는 단일 프런트 엔드 서버로 구성된 빈 토폴로지를 만듭니다. 이 마법사를 실행하여 빈 토폴로지를 게시한 후에는 원래 토폴로지로 되돌릴 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="77a7b-p102">Run the **Remove Deployment Wizard** only if you want to decommission your entire deployment. This wizard creates an empty topology that consists of a single Front End Server. After you run this wizard and publish the empty topology, you cannot revert to your original topology.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="0941a-109">**다음**을 클릭 하기 전에 모든 비활성 컴퓨터를 제거 하 고, 통합 커뮤니케이션의 모든 사용자 및 끝점을 사용 하지 않도록 설정 하 고, 마법사의 첫 번째 페이지에 지정 된 모든 회의 디렉터리를 제거 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0941a-109">Before you click **Next**, be sure to remove any inactive computers, disable all users and endpoints from unified communications, and remove all conference directories as specified on the first page of the wizard.</span></span> 
+> <span data-ttu-id="77a7b-109">**다음**을 클릭하기 전에 마법사의 첫 번째 페이지에 지정된 대로 모든 비활성 컴퓨터를 제거하고 통합 통신의 모든 사용자 및 끝점을 사용하지 않도록 설정하며 모든 전화 회의 디렉터리를 제거해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="77a7b-109">Before you click **Next**, be sure to remove any inactive computers, disable all users and endpoints from unified communications, and remove all conference directories as specified on the first page of the wizard.</span></span> 
   
 

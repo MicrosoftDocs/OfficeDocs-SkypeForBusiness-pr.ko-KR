@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2010용 등록자 설정 확장기
+title: 2010용 Lync Server에 대한 등록자 설정 확장기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,37 +8,37 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
-description: 복원에 대 한 설정을 편집 하 고 다음 속성을 구성 합니다.
-ms.openlocfilehash: adc3d3f0be42d542583cf269a7acf83d98df8dd7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 탄성에 대한 설정을 편집하고 다음 속성을 구성합니다.
+ms.openlocfilehash: 4271203bf9f737034796cc3b74c95836480df521
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819340"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217179"
 ---
-# <a name="registrar-settings-expander-for-lync-server-for-2010"></a><span data-ttu-id="80eff-103">Lync Server 2010용 등록자 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="80eff-103">Registrar Settings Expander for Lync Server for 2010</span></span>
+# <a name="registrar-settings-expander-for-lync-server-for-2010"></a><span data-ttu-id="8d8fa-103">2010용 Lync Server에 대한 등록자 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="8d8fa-103">Registrar Settings Expander for Lync Server for 2010</span></span>
  
-<span data-ttu-id="80eff-104">**복원** 에 대 한 설정을 편집 하 고 다음 속성을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="80eff-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
+<span data-ttu-id="8d8fa-104">**탄성**에 대한 설정을 편집하고 다음 속성을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
   
-- <span data-ttu-id="80eff-105">목록에서 **연결 된 백업 등록자 풀** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="80eff-105">Select **Associated backup Registrar pool** from the list.</span></span>
+- <span data-ttu-id="8d8fa-105">목록에서 **연결된 백업 등록자 풀**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-105">Select **Associated backup Registrar pool** from the list.</span></span>
     
-    <span data-ttu-id="80eff-106">선택적으로 **음성 장애 조치 및 자동 복구 (failback** ) 확인란을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="80eff-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
+    <span data-ttu-id="8d8fa-106">원하는 경우 **자동 음성 장애 조치(failover) 및 장애 복구(failback)** 확인란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
     
-    <span data-ttu-id="80eff-107">**보이스 오류 검색 간격 (초)** 및 **음성 장애 복구 간격 (초)** 을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="80eff-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="80eff-108">기본적으로 음성 오류 감지 및 음성 장애 복구 시 240 초 동안 간격은 120 초입니다.</span><span class="sxs-lookup"><span data-stu-id="80eff-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
+    <span data-ttu-id="8d8fa-p101">**음성 실패 검색 간격(초)** 및 **음성 장애 복구(failback) 간격(초)** 을 구성합니다. 기본적으로 음성 실패 검색 간격은 120초이고 음성 장애 복구(failback) 간격은 240초입니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-p101">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**. By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
     
     > [!CAUTION]
-    > <span data-ttu-id="80eff-109">장애 조치 및 장애 복구 간격에 대해 정의 하는 시간 (초)을 테스트 하 여 복원성이 예상 대로 작동 하는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="80eff-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="80eff-110">간격을 낮음으로 설정 하는 경우 (즉, 120 초 미만) 또는 장애 조치 (failover) 및 장애 복구 (failback)가 너무 자세히 설정 되 면 실제 장애 조치 및 장애 복구가 예상 대로 작동 하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="80eff-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
+    > <span data-ttu-id="8d8fa-p102">장애 조치(failover) 및 장애 복구(failback) 간격에 대해 정의하는 시간(초)은 면밀하게 테스트하여 탄성이 예상대로 작동하는지를 확인해야 합니다. 간격을 낮게(120초 미만으로) 설정하거나 장애 조치(failover) 및 장애 복구(failback)를 너무 가깝게 설정하면 실제 장애 조치(failover) 및 장애 복구(failback)가 예상대로 작동하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-p102">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected. Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
   
-  <span data-ttu-id="80eff-111">**확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.</span><span class="sxs-lookup"><span data-stu-id="80eff-111">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="8d8fa-111">**확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-111">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="80eff-112">**취소**: 변경 내용을 취소하고 대화 상자를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="80eff-112">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="8d8fa-112">**취소**: 변경 내용을 취소하고 대화 상자를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-112">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="80eff-113">**도움말**: 이 도움말 화면을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="80eff-113">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="8d8fa-113">**도움말**: 이 도움말 화면을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-113">**Help** Displays this help screen.</span></span>
   
 
