@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 44be05a7ae1b449e0b267bb0e4ed107c40877f27
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171122"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216699"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>관리 콘솔에서 일반 팀 서식 파일 사용
 
@@ -81,7 +81,7 @@ ms.locfileid: "48171122"
 
 ## <a name="onboard-employees"></a>내장 직원
 
-리소스, 질문 및 재미를 위해이 중앙 팀을 통해 culture를 개선 하 고 직원을 온 보 딩을 간소화 합니다.
+리소스, 질문, 약간의 재미를 위해이 중앙 팀을 통해 사용자의 문화를 개선 하 고 직원의 온 보 딩을 간소화 하세요.
 
 | 기본 서식 파일 형식 |baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
 | ------------------|- |----------------------------------------------------- |

@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 1740e36c496b4df4df796d00d2be6a644ae0933b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177445"
+ms.locfileid: "48209487"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020의 팀 세션
 
@@ -23,7 +23,7 @@ ms.locfileid: "48177445"
 |[Microsoft 팀을 사용 하 여 회복성, 포괄적, 혼성 작업 공간 만들기](https://aka.ms/DB156) |조직은 원격 및 출장 직원의 요구를 지원 하기 위해 하이브리드 작업 공간으로 이동 합니다. 두 부분으로 구성 된 시리즈 중 첫 번째 부분에서는 팀 모임, 가상 이벤트, 통화를 통해, 그리고 새 디바이스 환경에 따라 팀이 어떻게 연락을 유지 하는 방법을 설명 합니다. 팀 플랫폼이 워크플로를 간소화 하 고, 의사 결정을 개선 하 고, 응용 프로그램의 에코 시스템을 팀에 직접 통합할 수 있는 방법을 보여 줍니다. <br> 또한이 시리즈의 두 번째 부분인 세션 코드 DB158를 확인 하세요.|Nicole Herskowitz                 |
 |[더욱 지능적이 고, 집중 유지, Microsoft 팀 모임으로 더 많은 기능 활용](https://aka.ms/DB151)  |모임은 작업을 수행 하는 방법에 대 한 cornerstone입니다. 팀 모임이 새로운 작업 방법에 적응 하 여 생산성을 높일 수 있는 방법에 대해 알아봅니다.  |Shiraz Cupala|
 |[Microsoft 팀이 간단 하 게 통화 했습니다.](https://aka.ms/DB149)  |팀에서 엔터프라이즈 통화는 간편 하 게 배포 하 고 사용할 수 있습니다. 새로운 통화 환경 및 공동 통화와 같은 최신 통화를 찾는 동안 팀의 기본 사항에 대해 알아보세요. |Paul 캐논, 김 미 숙 Barbara, 최 차장|
-|[관리자가 Microsoft 팀을 관리 하기 위한 한 가지 장소: 팀 관리 효율성의 새로운 기능](https://aka.ms/DB144) |팀 관리자는 조직의 요구 사항에 가장 적합 한 사용자 지정 환경을 만들 수 있는 융통성 있고 세부적인 관리 기능을 제공 합니다. 이 세션에서는 팀 관리 센터 포털에 대 한 최신 기능을 소개 하 고, 정책, 앱 관리, 장치 관리, 보고, 분석, 문제 해결, Powershell에 새로 제공 되는 사항에 대해 설명 합니다. |Ronit 이혜준-Sheffer, 자원이 극명|
+|[관리자가 Microsoft 팀을 관리 하기 위한 한 가지 장소: 팀 관리 효율성의 새로운 기능](https://aka.ms/DB144) |팀 관리자는 조직의 요구 사항에 가장 적합 한 사용자 지정 환경을 만들 수 있는 융통성 있고 세부적인 관리 기능을 제공 합니다. 이 세션에서는 팀 관리 센터 포털에 대 한 최신 기능을 소개 하 고, 정책, 앱 관리, 장치 관리, 보고, 분석, 문제 해결, PowerShell에 새로 제공 되는 사항에 대해 설명 합니다. |Ronit 이혜준-Sheffer, 자원이 극명|
 |[Microsoft 팀을 사용 하 여 가상 모임 및 이벤트 크기 조정 및 사용자 지정](https://aka.ms/DB138) |모임이 모든 셰이프 및 크기에 도달 하면 팀을 활용 하 여 다음 대형 이벤트를 구조화 하 고 관리 하는 방법에 대해 알아보세요. 팀은 조직의 요구 사항에 맞게 원활 하 게 확장할 수 있으며, 모든 크기의 이벤트에 대 한 최적의 참석자 환경을 사용자 지정 하 고 제공 하는 방법을 제공 합니다.  |Christina Torok, Ashwin Appiah|
 |[Microsoft 팀 장치를 사용 하 여 하이브리드 작업 영역에서 최신 모임 경험](https://aka.ms/DB147) |Microsoft 팀 디바이스 소개. 팀 디바이스는 사용자가 팀의 기능을 최대화 하 고 원격 및 공유 작업 영역 간의 격차를 브리지로 지원 하도록 설계 되었습니다. 사용자 중심의 회의실 환경을 제공 하기 위해 디자인 된 장치에 대해 알아보고 Microsoft 팀 장치에서 더 포괄적이 고 공동 작업 환경을 가능 하 게 하는 개인 작업 영역을 다시 확인 합니다.  |Kendra Baker, Greg Baribault|
 |[Microsoft 팀 플랫폼으로 현대적인 작업 공간 변환](https://aka.ms/DB157) |팀 플랫폼 내의 모든 새로운 및 기존 확장성 지점 및 비즈니스 요구를 해결 하기 위한 강력한 앱 및 솔루션을 만드는 방법에 대해 알아봅니다.|Archana Saseetharan, Michal Lesiczka|
@@ -55,7 +55,7 @@ ms.locfileid: "48177445"
 | 제목 | 이론적인            | 평준화| 강연자 |
 |---|----------|---|---|---|
 |[가상 이벤트를 사용 하 여 도입: 이끌이 및 생산자에 대 한 모범 사례](https://aka.ms/PR101)|이 실제 월드 수업 세션에서는 이벤트 이끌이 및 IT 전문가를 위한 가상 이벤트 Playbook을 검토 합니다.  Pandemic의 초기 단계에서 Microsoft 팀 엔지니어링을 위한 주요 flagship 이벤트의 기술 생산자 인 Karuana Gatimu에서 알아야 할 사항에 대해 알아보세요.   Microsoft에서 가상 이벤트로의 전환 및 팀 모임 및 라이브 이벤트를 사용 하 여 조직의 연결 상태를 유지 하는 멋진 이벤트를 제공 하는 방법에 대해 설명 하는 지침을 듣고 있습니다.  |300|Karuana Gatimu, Ashwin Appiah|
-|[Office 365 그룹 및 Microsoft 팀의 관리에 대해 자세히 알아보고](https://aka.ms/PR102)|Microsoft 팀의 최종 사용자 환경을 관리 하 고 정보의 보안 및 준수에 대해 확신 하는 것을 허용 하는 관리 capabilties 및 도구에 대 한 데모를 봅니다. Azure Active Directory 추가 기능 구성을 포함 합니다. |300|Karuana Gatimu|
+|[Office 365 그룹 및 Microsoft 팀의 관리에 대해 자세히 알아보고](https://aka.ms/PR102)|Microsoft 팀의 최종 사용자 환경을 관리 하 고 정보의 보안 및 준수에 대해 확신 하는 데 도움이 되는 관리 기능 및 도구에 대 한 데모를 볼 수 있습니다. Azure Active Directory 추가 기능 구성을 포함 합니다. |300|Karuana Gatimu|
 |[산업 채택 – firstline, 비영리, 의료 등의 특별 시나리오 및 기능.](https://aka.ms/PR121)|이 시나리오 기반 세션에서는 해당 사용자에 게 제공 해야 하는 IT 전문가의 컨텍스트에서 기존 및 신규의 기능을 모두 검토 하 게 됩니다.  최종 사용자 및 ITPro 서식 파일을 포함 하 여 모바일 기능|200|Karuana Gatimu, Kathy Minnis|
 |[Microsoft 팀을 배포할 준비가 되었나요?](https://aka.ms/PR127) |이 세션에서는 팀을 성공적으로 출시 하는 데 도움이 될 수 있는 모든 주요 제품과 리소스를 안내 합니다. 도구 및 리소스에서 모범 사례에 이르기까지,이 세션은 팀의 계획 및 배포가 할 일 목록에 있는 경우에만 참석할 수 있습니다.|300|Stephen 장미|
 |[팀 배포 및 Microsoft 끝점 관리자](https://aka.ms/PR122)|끝점 관리자를 통해 Microsoft 팀을 배포 하 고 관리 하는 데 도움이 되는 모범 사례에 대 한 데모를 볼 수 있습니다.|300|Mayunk Jain, Mayank Verma|

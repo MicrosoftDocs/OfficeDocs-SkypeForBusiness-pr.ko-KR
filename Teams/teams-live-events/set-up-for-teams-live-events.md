@@ -17,12 +17,12 @@ description: 네트워크 설정, 라이선스 할당, 라이브 이벤트 기�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b41d48ec05eb6d5bfbbb8ea12475418d0f72bc21
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 0e2d35152ae8a840a6e0c0943144380e7169fe8b
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820532"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203941"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams에서 실시간 이벤트 설정
 
@@ -79,7 +79,10 @@ Windows PowerShell을 사용하여 이 작업을 수행할 수도 있습니다. 
 
 1. 조직의 사용자에 대해 Microsoft Stream을 활성화하세요. 스트림은 적격 Microsoft 365 또는 Office 365 구독 또는 독립 실행형 서비스의 일부로 사용할 수 있습니다. 스트림은 Business Essentials 또는 Business Premium 요금제에 포함되지 않습니다. 자세한 내용은 [Stream 라이센싱 개요](https://docs.microsoft.com/stream/license-overview)를 참조하세요.
 
-      사용자가 스트림에 액세스할 수 있도록 [라이선스를 사용자에 게 할당할](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 수 있는 방법에 대해 자세히 알아보세요. [이 문서](https://docs.microsoft.com/stream/disable-user-organization)에 정의된 대로 사용자에 대해 Stream이 차단되지 않았는지 확인합니다.
+>[!Note]
+> Microsoft Stream을 [비즈니스용 OneDrive 및 SharePoint for 모임 녹화](../tmr-meeting-recording-change.md) 에서 변경 하는 것은 단계적인 방법입니다. 시작 시에는이 환경을 옵트인 할 수 있으며 11 월에는 스트림을 계속 사용 하기 위해 옵트아웃 하 고, 몇 차례 2021 일찍 비즈니스용 OneDrive 및 SharePoint를 사용 하 여 새 모임 녹화가 필요 합니다.
+
+      Learn more about how you can [assign licenses to users](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Stream. Ensure Stream isn't blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 
 2. 사용자에게 Stream의 실시간 이벤트 생성 권한이 있는지 확인하세요. 기본적으로 관리자는 외부 앱 또는 장치로 이벤트를 만들 수 있습니다. Stream 관리자는 [추가 사용자를 사용하여 스트림에서 실시간 이벤트를 만들](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) 수 있습니다.  
 

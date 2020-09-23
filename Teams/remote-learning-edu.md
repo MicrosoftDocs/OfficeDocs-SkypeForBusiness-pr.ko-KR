@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b264d55c023829cec3d91f3d975f2328a6089c72
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820602"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171112"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -87,7 +87,7 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 ### <a name="2-configure-user-experiences-using-policies"></a>2. 정책을 사용하여 사용자 환경 구성
 
 > [!IMPORTANT]
-> 모임 중 학생들을 보호하는 방법에 대해 더 알아야 한다면 [원격 수업용 Teams에서 모임을 통해 학생 안전하게 지키기를](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) 확인하세요. EDU 관리 정책 권장 사항에 대해 자세히 알아보려면 [교육용 Teams 정책 및 정책 패키지](policy-packages-edu.md)로 이동하세요.
+> 학생 보호를 위해 수행해야 하는 작업에 대해 자세히 알아보려면 [원격 학습을 위해 Teams에서 학생을 안전하게 유지](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)를 체크할 수 있습니다. EDU 관리 정책 권장 사항에 대해 자세히 알아보려면 [교육용 Teams 정책 및 정책 패키지](policy-packages-edu.md)로 이동하세요.
 
 [Teams 정책](teams-policies.md)에서는 특정 사용자 또는 사용자 그룹에 대해 제공되는 옵션을 제어할 수 있습니다. 비공개 채팅, 비공개 통화, 모임 예약, 공유할 수 있는 콘텐츠 형식 등을 사용할 수 있는 사용자를 정의하는 정책을 적용할 수 있습니다.
 

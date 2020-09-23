@@ -16,18 +16,21 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766912"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203971"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
 Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹화하여 오디오, 비디오 및 화면 공유 활동을 캡처할 수 있습니다. 사용자가 선택 캡션을 사용하여 모임을 녹음/녹화한 것을 재생하고 대화 내용에서 중요한 토론 항목을 검색할 수 있도록 녹음/녹화를 위한 자동 기록 옵션도 있습니다. 녹음/녹화는 클라우드에서 이루어지며 [Microsoft Stream](https://docs.microsoft.com/stream/)에 저장되므로 사용자는 조직 전체에서 녹음/녹화를 안전하게 공유할 수 있습니다.
 
 관련: [Teams 모임 녹음/녹화 최종 사용자 문서](https://aka.ms/recordmeeting)
+
+>[!Note]
+> Microsoft Stream을 [비즈니스용 OneDrive 및 SharePoint for 모임 녹화](tmr-meeting-recording-change.md) 에서 변경 하는 것은 단계적인 방법입니다. 시작 시에는이 환경을 옵트인 할 수 있으며 11 월에는 스트림을 계속 사용 하기 위해 옵트아웃 하 고, 앞으로 2021에는 모든 고객이 비즈니스용 OneDrive 및 SharePoint에 대 한 시간이 필요 합니다.
 
 > [!NOTE]
 > 팀 모임에서 역할을 사용 하는 방법과 사용자의 역할을 변경 하는 방법에 대 한 자세한 내용은 [팀 모임에서 역할](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)을 참조 하세요.

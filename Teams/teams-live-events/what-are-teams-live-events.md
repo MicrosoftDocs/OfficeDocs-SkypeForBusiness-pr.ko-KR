@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902293"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203961"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀 live 이벤트는 무엇 인가요?
 
@@ -66,10 +66,13 @@ Microsoft 365 live 이벤트는 라이브 비디오 스트리밍을 새 수준�
 
     ![외부 앱 또는 장치를 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷](../media/teams-live-events-external-encoder.png "외부 앱 또는 디바이스 제작 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷")
 
+>[!Note]
+> Microsoft Stream을 [비즈니스용 OneDrive 및 SharePoint for 모임 녹화](../tmr-meeting-recording-change.md) 에서 변경 하는 것은 단계적인 방법입니다. 시작 시에는이 환경을 옵트인 할 수 있으며 11 월에는 스트림을 계속 사용 하기 위해 옵트아웃 하 고, 몇 차례 2021 일찍 비즈니스용 OneDrive 및 SharePoint를 사용 하 여 새 모임 녹화가 필요 합니다.
+
 ### <a name="streaming-platform"></a>스트리밍 플랫폼
 라이브 이벤트 스트리밍 플랫폼은 다음 부분으로 구성 됩니다.
 
-- **Azure 미디어 서비스**: [azure media 서비스](https://docs.microsoft.com/azure/media-services/previous/) 는 현재 인기 있는 모바일 장치에서 더 큰 사용자를 대상으로 하는 브로드캐스트 품질 영상 스트리밍 서비스를 제공 합니다. 미디어 서비스는 접근성, 배포 및 확장성을 강화 하 고 콘텐츠를 보호 하는 동안 로컬 또는 전세계 대상 그룹에 콘텐츠를 쉽게 스트리밍할 수 있도록 합니다.
+- **Azure 미디어 서비스**:  [azure media 서비스](https://docs.microsoft.com/azure/media-services/previous/) 는 현재 인기 있는 모바일 장치에서 더 큰 사용자를 대상으로 하는 브로드캐스트 품질 영상 스트리밍 서비스를 제공 합니다. 미디어 서비스는 접근성, 배포 및 확장성을 강화 하 고 콘텐츠를 보호 하는 동안 로컬 또는 전세계 대상 그룹에 콘텐츠를 쉽게 스트리밍할 수 있도록 합니다.
 - **AZURE cdn (콘텐츠 배달 네트워크)**: 스트림이 실시간으로 이동 하면 [Azure Cdn (콘텐츠 배달 네트워크)](https://docs.microsoft.com/azure/cdn/)을 통해 제공 됩니다. Azure 미디어 서비스는 스트리밍 끝점에 대 한 통합 CDN을 제공 합니다. 이를 통해 스트림을 버퍼링 없이 전세계에 볼 수 있습니다.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>ECDN (Enterprise 콘텐츠 배달 네트워크)

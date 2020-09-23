@@ -8,19 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 다음 섹션에서 기존 프런트 엔드 풀 또는 Standard Edition 서버의 설정을 편집할 수 있습니다.
-ms.openlocfilehash: bd7a9578d9a088d4970834444f78dfa945532393
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 6f66fadbc722f59bdc7bcb54b149bf05fa322afb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819890"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215509"
 ---
 # <a name="front-end-general-settings-expander"></a>프런트 엔드 일반 설정 확장기
 
@@ -28,7 +28,7 @@ ms.locfileid: "41819890"
 
 - 일반 설정
 
-- 탄성 설정
+- 복구 설정
 
 - 웹 서비스 설정
 
@@ -36,7 +36,7 @@ ms.locfileid: "41819890"
 
 ## <a name="front-end-pool"></a>프런트 엔드 풀
 
-프런트 엔드 풀의 경우 일반, 탄성, 웹 서비스 및 중재 서버 설정을 구성할 수 있습니다. 자세한 내용은 다음과 같은 하위 섹션의 정보를 참조하세요. 프런트 엔드 풀의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하세요.
+프런트 엔드 풀의 경우 일반, 복구, 웹 서비스 및 중재 서버 설정을 구성할 수 있습니다. 자세한 내용은 다음과 같은 하위 섹션의 정보를 참조하십시오. 프런트 엔드 풀의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하십시오.
 
 ### <a name="general-settings"></a>일반 설정
 
@@ -48,9 +48,9 @@ ms.locfileid: "41819890"
 
 - **특징 및 기능**에서 이 풀과 배치하려는 추가 역할을 정의합니다. 다음과 같은 설정을 구성할 수 있습니다.
 
-  - **회의**. 오디오, 비디오 및 응용 프로그램 공유가 포함됩니다. 이 옵션을 선택하면 전화 접속(PSTN) 회의를 선택할 수 있습니다. 이 섹션의 뒷부분에 있는 "중재 서버 설정" 하위 섹션에서 공중 전화망(PSTN) 게이트웨이를 지정하고 정의합니다.
+  - **회의**. 오디오, 비디오 및 응용 프로그램 공유가 포함됩니다. 이 옵션을 선택하면 전화 접속(PSTN) 회의를 선택할 수 있습니다. 이 섹션의 뒷부분에 있는 "중재 서버 설정" 하위 섹션에서 PSTN(공중 전화망) 게이트웨이를 지정하고 정의합니다.
 
-  - **Enterprise Voice**. 자격 있는 단말기, 장치 및 비즈니스용 Skype 클라이언트에 대 한 내부 음성 over IP 통화를 가능 하 게 합니다. 외부 통화 기능을 사용하도록 설정하려면 중재 서버를 포함해야 합니다. 자세한 내용은 이 항목 뒷부분의 "중재 서버"를 참조하세요.
+  - **Enterprise Voice**. 적격 단말기 및 장치 및 비즈니스용 Skype 클라이언트에 대 한 내부 음성 over IP 통화를 사용 하도록 설정 합니다. 외부 통화 기능을 사용하도록 설정하려면 중재 서버를 포함해야 합니다. 자세한 내용은 이 항목 뒷부분의 "중재 서버"를 참조하십시오.
 
 - **연결**에서는 다음을 편집하거나 지정합니다.
 
@@ -84,7 +84,7 @@ ms.locfileid: "41819890"
 
   - **Office Web Apps Server에 풀 연결**. Office Web Apps Server를 프런트 엔드 풀과 연결하려면 이 옵션을 선택합니다. 목록에서 기존 서버를 선택하거나 **새로 만들기**를 클릭하여 새 Office Web Apps Server를 만듭니다.
 
-### <a name="resiliency"></a>탄성
+### <a name="resiliency"></a>탄력성
 
 탄성은 풀에 대해 재해 복구 및 고가용성을 제공합니다. 백업을 제공하는 경우 기본 서버에 오류가 발생하면 백업 서버가 작업을 대신 수행하므로 사용자가 로그인 및 통신할 수 있습니다. 기본 서버와 함께 오류가 발생한 시스템에 따라서는 사용자의 기능이 축소될 수 있습니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "41819890"
 **내부 웹 서비스**에서는 다음을 지정합니다.
 
 > [!CAUTION]
-> 프런트 엔드 풀 또는 프런트 엔드 서버를 둘 이상 사용 하는 경우에는 외부 웹 서비스 FQDN이 고유 해야 합니다. 예를 들어 프런트 엔드 서버의 외부 웹 서비스 FQDN을 **pool01.contoso.com**로 정의 하는 경우 다른 프런트 엔드 풀 또는 프런트 엔드 서버에 대해 **pool01.contoso.com** 를 사용할 수 없습니다. 디렉터를 배포 하는 경우에는 모든 디렉터 또는 디렉터 풀에 대해 정의 된 외부 웹 서비스 FQDN이 다른 모든 디렉터 또는 디렉터 풀에서 고유 해야 하며 모든 프런트 엔드 풀 또는 프런트 엔드 서버에서 사용할 수 없습니다. 내부 웹 서비스를 자체 정의 FQDN으로 재정의 하기로 결정 한 경우 각 FQDN은 다른 프런트 엔드 풀, 디렉터 또는 디렉터 풀에서 고유 해야 합니다.
+> 프런트 엔드 풀 또는 프런트 엔드 서버가 두 개 이상 있는 경우에는 외부 웹 서비스 FQDN이 고유 해야 합니다. 예를 들어 프런트 엔드 서버의 외부 웹 서비스 FQDN을 **pool01.contoso.com**로 정의 하는 경우 다른 프런트 엔드 풀 또는 프런트 엔드 서버에 대해 **pool01.contoso.com** 를 사용할 수 없습니다. 디렉터를 배포 하는 경우 모든 디렉터 또는 디렉터 풀에 대해 정의 된 외부 웹 서비스 FQDN은 모든 다른 디렉터 또는 디렉터 풀에서 고유 해야 하며, 모든 프런트 엔드 풀 또는 프런트 엔드 서버에서 수행 되어야 합니다. 내부 웹 서비스를 자체 정의 된 FQDN으로 재정의 하려는 경우 각 FQDN은 다른 프런트 엔드 풀, 디렉터 또는 디렉터 풀에서 고유 해야 합니다.
 
 - **FQDN 다시 정의**를 선택하면 풀의 **내부 웹** 서비스 ID에 대해 다른 FQDN을 지정할 수 있습니다. 기본적으로 프런트 엔드 풀에 정의된 현재 풀 이름이 설정됩니다.
 
@@ -113,7 +113,7 @@ ms.locfileid: "41819890"
 
 - 외부 웹 서비스의 FQDN을 지정합니다. 여기에 지정되는 FQDN은 일반적으로 외부 연결 요구 사항(예: 역방향 프록시)에 따라 정의됩니다.
 
-- 배포에 필요한 HTTP 및 HTTPS용 수신 대기 및 게시 포트를 지정할 수 있습니다. 처음에는 HTTP의 경우 포트 8080, HTTPS의 경우 포트 4443이 기본 설정으로 정의됩니다. 수신 대기 포트의 이러한 설정은 역방향 프록시 및 외부 네트워크 요구 사항에 따라 변경할 수 있습니다. 게시된 포트는 기본적으로 HTTP의 경우 포트 80, HTTPS의 경우 포트 443으로 설정됩니다. 이러한 값에 따라 풀에서 들어오는 요청을 수신 대기할 포트가 결정됩니다. 일반적으로 풀의 포트 요구 사항 충돌이 없는 경우에는 변경할 필요가 없습니다. 게시된 내부 및 외부 포트에서 동일한 포트 값을 사용하는 것은 이미 예상되는 상황입니다. 즉, 포트가 충돌하는 것이 아닙니다.
+- 배포에 필요한 HTTP 및 HTTPS용 수신 대기 및 게시 포트를 지정할 수 있습니다. 처음에는 HTTP의 경우 포트 8080, HTTPS의 경우 포트 4443이 기본 설정으로 정의됩니다. 수신 대기 포트의 이러한 설정은 역방향 프록시 및 외부 네트워크 요구 사항에 따라 변경할 수 있습니다. 게시된 포트는 기본적으로 HTTP의 경우 포트 80, HTTPS의 경우 포트 443으로 설정됩니다. 이러한 값에 따라 풀에서 들어오는 요청을 수신 대기할 포트가 결정됩니다. 일반적으로 풀에 대 한 포트 요구 사항이 충돌 하지 않는 한 이러한 작업을 변경할 필요가 없습니다. 게시된 내부 및 외부 포트에서 동일한 포트 값을 사용하는 것은 이미 예상되는 상황입니다. 즉, 포트가 충돌하는 것이 아닙니다.
 
 ### <a name="mediation-server"></a>중재 서버
 
@@ -127,17 +127,17 @@ ms.locfileid: "41819890"
 
 - 중재 서버에 트렁크가 두 개 이상 연결된 경우 원하는 게이트웨이를 선택하고 **기본값으로 설정**을 클릭하여 기본 트렁크를 지정할 수 있습니다. 기본값으로 설정한 게이트웨이의 선택을 취소하려면 **기본값으로 설정 안 함**을 클릭합니다.
 
-프런트 엔드 풀의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하세요.
+프런트 엔드 풀의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하십시오.
 
 ## <a name="standard-edition-server"></a>Standard Edition 서버
 
-Standard Edition 서버의 경우 일반, 탄성, 웹 서비스 및 중재 서버 설정을 구성할 수 있습니다. 자세한 내용은 다음과 같은 하위 섹션의 정보를 참조하세요. Standard Edition 서버의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) 및 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하세요.
+Standard Edition 서버의 경우 일반, 복구, 웹 서비스 및 중재 서버 설정을 구성할 수 있습니다. 자세한 내용은 다음과 같은 하위 섹션의 정보를 참조하십시오. Standard Edition 서버를 위한 설정의 정의 및 구성에 대한 자세한 내용은 [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) 및 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하십시오.
 
 ### <a name="general-settings"></a>일반 설정
 
 다음과 같은 일반 설정을 구성할 수 있습니다.
 
-- **FQDN**. FQDN은 변경할 수 없습니다. Standard Edition 서버와 연결된 FQDN을 변경하려면 Standard Edition 서버를 제거하고 다시 정의해야 합니다.
+- **FQDN** 이 FQDN은 변경할 수 없습니다. Standard Edition 서버와 연결된 FQDN을 변경하려면 Standard Edition 서버를 제거하고 다시 정의해야 합니다.
 
 - **구성된 모든 IP 주소 사용** 또는 **선택한 IP 주소로 서비스 사용 제한**을 선택합니다. 서비스를 정의된 IP 주소로 제한하도록 선택하는 경우 서버에서 PSTN을 제외한 모든 통신에 사용할 기본 IP 주소를 정의합니다. PSTN에 사용할 별도의 IP 주소를 정의할 수 있습니다. **IPv6 사용**을 선택하여 이 서버에 대해 IPv6을 사용하도록 설정할 수도 있습니다.
 
@@ -147,11 +147,11 @@ Standard Edition 서버의 경우 일반, 탄성, 웹 서비스 및 중재 서�
 
   - **회의**. 오디오, 비디오 및 응용 프로그램 공유가 포함됩니다. 이 옵션을 선택하면 **전화 접속(PSTN) 회의**를 선택할 수 있습니다. 나중에 중재 서버 설정에서 PSTN 게이트웨이를 지정하고 정의할 수 있습니다.
 
-  - **Enterprise Voice**. 자격 있는 단말기, 장치 및 비즈니스용 Skype 클라이언트에 대 한 내부 음성 over IP 통화를 가능 하 게 합니다. 외부 통화 기능을 사용하도록 설정하려면 중재 서버를 포함해야 합니다. 자세한 내용은 이 항목 뒷부분의 "중재 서버"를 참조하세요.
+  - **Enterprise Voice**. 적격 단말기 및 장치 및 비즈니스용 Skype 클라이언트에 대 한 내부 음성 over IP 통화를 사용 하도록 설정 합니다. 외부 통화 기능을 사용하도록 설정하려면 중재 서버를 포함해야 합니다. 자세한 내용은 이 항목 뒷부분의 "중재 서버"를 참조하십시오.
 
 - **연결**에서는 다음을 편집하거나 지정할 수 있습니다.
 
-  - **SQL Server 저장소**를 프런트 엔드 서버와 연결하려면 SQL Server 저장소를 선택합니다. 미러링을 사용하도록 설정하고 미러링 모니터 서버를 선택할 수도 있습니다.
+  - SQL Server 저장소를 프런트 엔드 서버와 연결하려면 **SQL Server 저장소**를 선택합니다. 미러링을 사용하도록 설정하고 미러링 모니터 서버를 선택할 수도 있습니다.
 
   - **파일 공유**. Standard Edition 서버에서 사용 중인 파일 저장소를 수정합니다. 목록에 있는 이미 정의된 저장소 중에서 새 파일 저장소를 선택하거나 **새로 만들기**를 클릭하여 새 파일 저장소를 만들 수 있습니다.
 
@@ -169,7 +169,7 @@ Standard Edition 서버의 경우 일반, 탄성, 웹 서비스 및 중재 서�
 
   - **에지 풀 연결**. 에지 서버를 Standard Edition 서버와 연결합니다. 목록에 있는 이미 정의된 에지 서버 또는 풀에서 서버를 선택하거나 **새로 만들기**를 클릭하여 새 에지 서버 또는 풀을 지정할 수 있습니다.
 
-### <a name="resiliency"></a>탄성
+### <a name="resiliency"></a>탄력성
 
 탄성은 서버에 대해 재해 복구 및 고가용성을 제공합니다. 백업을 제공하는 경우 기본 서버에 오류가 발생하면 백업 서버가 작업을 대신 수행하므로 사용자가 로그인 및 통신할 수 있습니다. 함께 오류가 발생한 시스템에 따라서는 사용자의 기능이 축소될 수 있습니다.
 
@@ -206,6 +206,6 @@ Standard Edition 서버의 경우 일반, 탄성, 웹 서비스 및 중재 서�
 
 - 중재 서버에 게이트웨이가 두 개 이상 연결된 경우 원하는 게이트웨이를 선택하고 **기본값으로 설정**을 클릭하여 기본 게이트웨이를 지정할 수 있습니다. 기본값으로 설정한 게이트웨이의 선택을 취소하려면 **기본값으로 설정 안 함**을 클릭합니다.
 
-Standard Edition 서버의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) 및 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하세요.
+Standard Edition 서버의 설정을 정의 및 구성하는 방법에 대한 자세한 내용은 [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) 및 [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)를 참조하십시오.
 
 

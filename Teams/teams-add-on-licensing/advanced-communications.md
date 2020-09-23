@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f330b183a02654f6c56cad27332fcc9ed81d93f4
-ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
+ms.openlocfilehash: 351a15172b121f0bb937630747d7d0e61b80b96c
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "46542876"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203821"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft 팀을 위한 고급 통신 추가 기능
 
@@ -71,7 +71,10 @@ ms.locfileid: "46542876"
 
 ## <a name="difference-between-overflow-meetings-and-live-events"></a>오버플로 모임과 라이브 이벤트의 차이
 
-고급 통신을 사용 하면 300 참석자가 넘는 모든 모임에서 대화형 환경을 제공 하는 최대 1000 명의 참가자와 보기 전용 환경에서 모임에 참가 하는 최대 2만 참가자를 위한 방법을 제공할 수 있습니다. 라이브 이벤트를 통해 추가 기능을 사용할 수 있습니다. 라이브 이벤트에서 2만 참석자는 브로드캐스트를 시청 하 고, Q&A 팀, Yammer의 대화 또는 Microsoft Stream의 보기 전용으로 상호 작용할 수 있습니다. 또한 live 이벤트의 길이를 4 시간에서 16 시간으로 늘리고, 테 넌 트 당 최대 50 개의 동시 라이브 이벤트를 사용 하도록 설정 하는 것입니다.  
+고급 통신을 사용 하면 300 참석자가 넘는 모든 모임에서 대화형 환경을 제공 하는 최대 1000 명의 참가자와 보기 전용 환경에서 모임에 참가 하는 최대 2만 참가자를 위한 방법을 제공할 수 있습니다. 라이브 이벤트를 통해 추가 기능을 사용할 수 있습니다. 라이브 이벤트에서 2만 참석자는 브로드캐스트를 시청 하 고, Q&A 팀, Yammer의 대화 또는 Microsoft Stream의 보기 전용으로 상호 작용할 수 있습니다. 또한 live 이벤트의 길이를 4 시간에서 16 시간으로 늘리고, 테 넌 트 당 최대 50 개의 동시 라이브 이벤트를 사용 하도록 설정 하는 것입니다. 
+
+>[!Note]
+> Microsoft Stream을 [비즈니스용 OneDrive 및 SharePoint for 모임 녹화](../tmr-meeting-recording-change.md) 에서 변경 하는 것은 단계적인 방법입니다. 시작 시에는이 환경을 옵트인 할 수 있으며 11 월에는 스트림을 계속 사용 하기 위해 옵트아웃 하 고, 몇 차례 2021 일찍 비즈니스용 OneDrive 및 SharePoint를 사용 하 여 새 모임 녹화가 필요 합니다.
 
 > [!NOTE]
 > 엔터프라이즈 및 교육 Sku는 최대 2만 참석자에 대 한 실시간 이벤트, 브로드캐스트의 이벤트 기간 16 시간 50, 테 넌 트 내의 동시 이벤트 (2020:10 월 1 일)를 일시적으로 보관할 수 있습니다.

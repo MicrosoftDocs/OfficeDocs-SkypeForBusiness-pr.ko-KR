@@ -23,13 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
+ROBOTS: NOINDEX, NOFOLLOW
 description: 클라우드 자동 전화 교환 및이를 사용 하 여 호출자가 사용자 또는 부서에 전화를 걸고 배치 하거나 전송 하기 위해 메뉴 시스템에서 이동할 수 있도록 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 88b1a67c1438efb5ef1113999feeffd9735f293f
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: c4bfbd8e56a64105fe1ee00409cf016976c8bb81
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672839"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48209497"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>클라우드 자동 전화 교환이란?
 

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d377b18080d9208529b9c6196cd3879bd03a011f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c7ad1c83a09a17fb45adae149272177c8d42d17e
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584007"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177338"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams의 앱, 봇 및 커넥터
 
@@ -45,7 +45,7 @@ Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경
 
 Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 사용되는 비즈니스 서비스를 Teams로 통합하기 위한 Microsoft 및 타사에서 게시한 앱을 제공합니다. Teams 스토어에서 앱을 다운로드합니다. 기본적으로 [Teams 스토어 승인 프로세스](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)를 통해 제출한 사용자 지정 앱을 포함하여 모든 앱이 모든 사용자에게 설정됩니다. 예를 들어, 사용자는 Planner 앱을 사용하여 Teams에서 팀 작업을 구축하고 관리할 수 있습니다.
 
-기본적으로 모든 Microsoft 제공 앱 및 사용자 지정 앱을 사용할 수 있으며 개별적으로 앱을 켜거나 끌 수 있습니다. 전체 조직에 대해 모든 사용자 지정 앱을 설정하거나 해제할 수 있는 조직 전체 설정이 있습니다.
+기본적으로 모든 Microsoft 제공, 타사 및 사용자 지정 앱을 사용할 수 있으며 개별 앱을 설정하거나 해제할 수 있습니다. 전체 조직에 대해 모든 타사 및/또는 사용자 지정 앱을 설정하거나 해제할 수 있는 조직 차원의 설정이 있습니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|

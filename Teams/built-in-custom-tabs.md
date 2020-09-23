@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 기본 제공 및 사용자 지정 탭을 사용 하 여 대화, 파일, 지도 등과 같은 기능을 포함 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f98024b10cf6fc191e9225a447903ff6dc25d6ff
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581359"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203721"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft 팀에서 기본 제공 및 사용자 지정 탭 사용
 ==================================================
@@ -31,6 +31,9 @@ ms.locfileid: "46581359"
 소유자와 팀 구성원은 채널, 비공개 채팅 및 그룹 채팅에 탭을 추가하여 클라우드 서비스와 통합할 수 있습니다. 사용자가 필요한 데이터를 쉽게 액세스 하 고 관리 하는 데 도움이 되는 탭을 추가할 수 있습니다. Power BI 보고서, 대시보드 또는 교육 비디오를 게시 하는 [Microsoft 스트림](https://go.microsoft.com/fwlink/?linkid=855785) 비디오 채널 일 수 있습니다.
 
 ![탭의 다양 한 콘텐츠에 대 한 세 가지 스크린샷](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+
+>[!Note]
+> Microsoft Stream을 [비즈니스용 OneDrive 및 SharePoint for 모임 녹화](tmr-meeting-recording-change.md) 에서 변경 하는 것은 단계적인 방법입니다. 시작 시에는이 환경을 옵트인 할 수 있으며 11 월에는 스트림을 계속 사용 하기 위해 옵트아웃 하 고, 몇 차례 2021 일찍 비즈니스용 OneDrive 및 SharePoint를 사용 하 여 새 모임 녹화가 필요 합니다.
 
 ## <a name="work-with-tabs"></a>탭 작업
 
