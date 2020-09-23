@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 교육 또는 EDU 설정의 정책과 Microsoft Teams에서 정책 패키지를 사용하고 관리하는 방법에 대해 자세히 알아봅니다.
-ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: 9abf734894e716b6d7840d448cb513d083fe02b3
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868707"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135882"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>교육용 Teams 정책 및 정책 패키지
 
@@ -147,7 +147,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>학생 안전을 위해 할당해야 하는 정책
 
-### <a name="meeting-policies"></a>모임 정책
+### <a name="meeting-policies-for-students"></a>학생용 모임 정책
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>모임 생성 및 시작 기능 해제
 
@@ -216,7 +216,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 :::image type="content" source="media/edu-policy-list-b.png" alt-text="원격 학습 페이지의 학생 교육, 비디오 옵션 표시":::
 
-### <a name="live-events-policies"></a>라이브 이벤트 정책
+### <a name="live-events-policies-for-students"></a>학생용 라이브 이벤트 정책
 
 #### <a name="turn-off-the-ability-to-create-and-start-live-events"></a>라이브 이벤트 생성 및 시작 기능 해제
 
@@ -224,7 +224,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 :::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="원격 학습 페이지의 학생 교육, 예약 허용 옵션 해제":::
 
-### <a name="calling-policies"></a>통화 정책
+### <a name="calling-policies-for-students"></a>학생용 통화 정책
 
 #### <a name="turn-off-the-ability-to-make-private-calls"></a>비공개 통화를 설정하는 기능을 해제합니다.
 
@@ -232,7 +232,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="원격 학습 페이지의 학생 교육, 비공개 통화 생성 해제":::
 
-### <a name="messaging-policies"></a>메시지 정책
+### <a name="messaging-policies-for-students"></a>학생용 메시징 정책
 
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>보낸 메시지 삭제 또는 편집 기능 해제
 
@@ -276,7 +276,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 
 ![원격 학습 페이지의 학생 교육, 그룹 채팅에서 사용자 제거 옵션 해제](media/edu-remove-users-from-chat-for-students.png)
 
-### <a name="teams-policies"></a>Teams 정책
+### <a name="teams-policies-for-students"></a>학생용 Teams 정책
 
 #### <a name="turn-off-the-ability-to-discover-and-create-private-channels"></a>비공개 채널 검색 및 생성 기능 해제
 
@@ -287,7 +287,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 > [!IMPORTANT]
 > 또한 Microsoft Teams에서 학생이 새 팀을 생성하지 못하도록 할 수 있습니다. 이 설정은 실제로 M365 그룹 설정이며, [Microsoft 365 그룹을 만들 수 있는 사용자 관리](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)에서 이를 자세히 볼 수 있습니다.
 
-### <a name="app-permission-policies"></a>앱 사용 권한 정책
+### <a name="app-permission-policies-for-students"></a>학생용 앱 권한 정책
 
 #### <a name="control-whether-students-can-add-apps-within-teams"></a>학생이 Teams 내에서 앱을 추가할 수 있는지 여부를 제어합니다.
 
@@ -309,7 +309,7 @@ Microsoft Teams는 현재 다음 정책 패키지를 포함하고 있습니다.
 > [!NOTE]
 > 핵상에 대한 정책 권장 사항은 아래에서 확인할 수 있는 교육 담당자의 섹션보다 더 많은 정보를 포함하고 있습니다. 교육 기관의 자체 정책 및 절차를 사용하여 정책 설정을 즉시 설정할 수 있는 반면, 여기에서 제공하는 권장 사항은 학생의 안전 및 보안과 엄격히 관련되어 있습니다.
 
-### <a name="meeting-policies"></a>모임 정책
+### <a name="meeting-policies-for-educators"></a>교육자용 모임 정책
 
 해당 설정을 사용하여 교육 담당자는 자신의 모임에 대한 액세스를 제어할 수 있습니다.
 
