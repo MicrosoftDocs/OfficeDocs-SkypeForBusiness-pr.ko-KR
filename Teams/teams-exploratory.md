@@ -17,19 +17,19 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67dcbed06c5827f53646c585a21a805a851e860d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ef709e18627fb8a07f207f736440fa89f5110f0e
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584097"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203811"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================
 
 Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams 예비 환경으로 대체되었습니다.
 
-## <a name="whats-in-the-teams-exploratory-experience"></a>Teams의 예비 환경에는 무엇이 있나요?
+## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory 환경에는 무엇이 있나요?
 
 관리자가 Teams 예비 환경의 일부로서 보게 될 서비스 계획은 다음과 같습니다.
  - Exchange Online(플랜 1)
@@ -39,10 +39,10 @@ Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory
  - Microsoft Planner
  - Microsoft Search
  - Microsoft StaffHub
- - Microsoft 365 및 Office 365 E1 SKU용 Microsoft Stream
+ - Microsoft 365 및 Office 365 E1 SKU용 Microsoft Stream <sup>1</1>
  - Microsoft Teams
  - Microsoft 365 혹은 Office 365용 모바일 장치 관리
- - Office 365용 Office 모바일 앱 
+ - Office 365용 Office 모바일 앱
  - Office Online
  - Microsoft 365 혹은 Office 365용 PowerApps
  - SharePoint Online(플랜 1)
@@ -51,18 +51,17 @@ Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory
  - 화이트보드(플랜 1)
  - Yammer Enterprise
 
+   <sup>1</sup> Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 새 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
 
 ## <a name="whos-eligible"></a>사용 자격이 있는 사용자
 
 사용자에게 관리되는 AAD 도메인 전자 메일 주소가 있고 현재 Teams 라이선스가 할당되지 않은 경우 이 환경을 사용할 수 있습니다. 예를 들어 사용자에게 Microsoft 365 앱(Teams가 포함되지 않음)이 있는 경우 Teams 예비 환경을 사용할 수 있습니다.
 
-(Microsoft 365 관리 센터에서) 사용자는 앱과 평가판을 사용할 수 있게 등록하도록 설정을 해야 합니다. 자세한 내용은 이 문서 뒷부분의 [Teams 예비 환경 관리](#manage-the-teams-exploratory-experience)를 참조하십시오. 
-
+(Microsoft 365 관리 센터에서) 사용자는 앱과 평가판을 사용할 수 있게 등록하도록 설정을 해야 합니다. 자세한 내용은 이 문서 뒷부분의 [Teams 예비 환경 관리](#manage-the-teams-exploratory-experience)를 참조하십시오.
 
 ## <a name="who-isnt-eligible"></a>사용 자격이 없는 사용자
 
 사용자가 Syndication 파트너 고객이거나 GCC, GCC High, DoD 또는 EDU 고객인 경우 사용자의 조직은 이 서비스를 사용할 수 없습니다.
-
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>Teams 예비 환경에 등록하는 방법
 
@@ -76,10 +75,9 @@ Teams 예비 환경은 Exchange Online 라이선스와 함께 제공되지만 �
 
 관리자는 **평가판 앱 및 서비스** 스위치를 사용하여 조직 내에서 최종 사용자가 Teams 예비 환경을 실행할 수 있는 기능을 해제할 수 있습니다.
 
-
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>사용자가 평가판 앱 및 서비스를 설치하지 못하도록 방지
 
-사용자가 평가판 앱 및 서비스를 설치하는 기능을 해제하여 사용자가 Teams 예비 환경을 실행하지 못하도록 할 수 있습니다. 
+사용자가 평가판 앱 및 서비스를 설치하는 기능을 해제하여 사용자가 Teams 예비 환경을 실행하지 못하도록 할 수 있습니다.
 
 1. Microsoft 365 관리 센터에서 **설정** > **조직 설정**으로 이동하여 **서비스**를 선택한 다음 **사용자 소유 앱 및 서비스**를 선택합니다.
 
@@ -94,7 +92,7 @@ Teams 예비 환경은 Exchange Online 라이선스와 함께 제공되지만 �
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>Teams를 포함하는 라이선스가 있는 사용자의 상태 관리
 
-Teams를 포함하는 라이선스가 할당된 사용자는 Teams 예비 환경을 사용할 수 없습니다. Teams 서비스 플랜을 사용할 수 있도록 설정한 경우 사용자는 로그인을 하고 Teams를 사용할 수 있습니다. 서비스 플랜을 사용하지 않도록 설정한 경우 사용자가 로그인할 수 없으며 Teams 예비 환경을 사용할 수 없습니다. 관리자 권한이 있어야 합니다. 
+Teams를 포함하는 라이선스가 할당된 사용자는 Teams 예비 환경을 사용할 수 없습니다. Teams 서비스 플랜을 사용할 수 있도록 설정한 경우 사용자는 로그인을 하고 Teams를 사용할 수 있습니다. 서비스 플랜을 사용하지 않도록 설정한 경우 사용자가 로그인할 수 없으며 Teams 예비 환경을 사용할 수 없습니다. 관리자 권한이 있어야 합니다.
 
 Teams로의 액세스를 해제하려면:
 
@@ -110,7 +108,7 @@ Teams로의 액세스를 해제하려면:
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>Teams 예비 환경을 이미 사용 중인 사용자의 Teams 상태 관리
 
-사용자가 Teams 예비 환경을 실행하고 있는 경우 해당 라이선스 혹은 서비스 플랜을 제거하여이 기능을 해제할 수 있습니다. 관리자 권한이 있어야 합니다. 
+사용자가 Teams 예비 환경을 실행하고 있는 경우 해당 라이선스 혹은 서비스 플랜을 제거하여이 기능을 해제할 수 있습니다. 관리자 권한이 있어야 합니다.
 
 Teams 예비 환경 라이선스를 해제하려면 다음을 수행합니다.
 
@@ -121,7 +119,7 @@ Teams 예비 환경 라이선스를 해제하려면 다음을 수행합니다.
 3. 우측의 **제품 라이선스** 행에서 **편집**을 선택합니다.
 
 4. **제품 라이선스** 창에서 예비 라이선스 토글 스위치를 **해제**로 전환합니다.
-   
+
     >[!Note]
     >조직에서 첫 번째 사용자가 Teams 예비 환경을 실행한 후 Teams 예비 토글 스위치가 표시됩니다.
 
@@ -142,7 +140,7 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요.
 
 > [!NOTE]
-> Teams 예비 라이선스가 종료되고 사용자가 Teams을 포함하는 구독으로 즉시 업그레이드 되지 않는 경우 사용자의 데이터는 제거되지 않습니다. 사용자는 여전히 Azure Active Directory에 존재하고 Teams 내의 모든 데이터는 계속 유지됩니다. Teams의 기능을 다시 사용할 수 있도록 사용자에게 새 라이선스가 할당되면 모든 콘텐츠가 계속 존재하게 됩니다. 
+> Teams 예비 라이선스가 종료되고 사용자가 Teams을 포함하는 구독으로 즉시 업그레이드 되지 않는 경우 사용자의 데이터는 제거되지 않습니다. 사용자는 여전히 Azure Active Directory에 존재하고 Teams 내의 모든 데이터는 계속 유지됩니다. Teams의 기능을 다시 사용할 수 있도록 사용자에게 새 라이선스가 할당되면 모든 콘텐츠가 계속 존재하게 됩니다.
 
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>레거시 Microsoft Teams 상용 클라우드 평가판 라이선스는 어떻게 되나요?
 
@@ -156,16 +154,16 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 
 - 관리 포털을 통해 이 라이선스를 제거하려면 [조직에서 사용자 제거](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)를 참조하세요.
 
-## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams 예비 환경은 얼마나 오래 지속되나요?
+## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 환경은 얼마나 오래 지속되나요?
 
-Microsoft Teams의 예비 환경은 다음 엔터프라이즈 **계약 기념일** 또는 2021년 1월 이후에 **갱신**될 때까지 추가 비용 없이 사용할 수 있습니다. 이 경우 Microsoft 예비 환경 라이선스의 최종 사용자는 Teams가 포함된 유료 라이선스로 전환해야 합니다. 그 이후에 시작된 모든 Microsoft 예비 환경 라이선스는 다음 **기념일** 또는 **갱신** 주기까지 추가 비용 없이 계속 사용할 수 있습니다. 
+Microsoft Teams의 예비 환경은 다음 엔터프라이즈 **계약 기념일** 또는 2021년 1월 이후에 **갱신**될 때까지 추가 비용 없이 사용할 수 있습니다. 이 경우 Microsoft 예비 환경 라이선스의 최종 사용자는 Teams가 포함된 유료 라이선스로 전환해야 합니다. 그 이후에 시작된 모든 Microsoft 예비 환경 라이선스는 다음 **기념일** 또는 **갱신** 주기까지 추가 비용 없이 계속 사용할 수 있습니다.
 
-### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>최종 사용자가 기념일 또는 갱신 날짜 직전에 Microsoft Teams 예비 환경을 시작하는 경우 어떻게 되나요?
+### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>최종 사용자가 기념일 또는 갱신 날짜 직전에 Microsoft Teams Exploratory 환경을 시작하는 경우 어떻게 되나요?
 
-**계약 기념일** 또는 **갱신** 후 90일 이내에 시작된 Microsoft Teams 예비 환경 라이선스는 다음 기념일 또는 갱신 주기까지 유료 라이선스로 전환할 필요가 없습니다. 
+**계약 기념일** 또는 **갱신** 후 90일 이내에 시작된 Microsoft Teams 예비 환경 라이선스는 다음 기념일 또는 갱신 주기까지 유료 라이선스로 전환할 필요가 없습니다.
 
 ### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>계약서에 주기 혹은 연간 갱신 날짜가 없는 경우 어떻게 하나요(예: 월 단위 계약)
 
 주기 또는 연간 갱신 날짜가 없는 계약서의 경우, 첫 번째 최종 사용자가 Microsoft Teams Exploratory 환경 라이선스를 정품 인증한 다음의 년도가 기념일 또는 갱신 날짜로 간주됩니다. 위에 간략히 설명한 정책에 따라 Microsoft Teams Exploratory 라이선스를 사용하는 사용자는 각 해 해당일까지 유료 라이선스로 전환해야 합니다.
 
-예를 들어, 첫 번째 최종 사용자가 Microsoft Teams Exploratory 라이선스를 2020년 6월 19일에 정품 인증을 하면, 해당 사용자와 고객 테넌트에 있는 다른 모든 적격 사용자는 2021년 6월 19일까지 유료 라이선스로 전환해야 합니다. 
+예를 들어, 첫 번째 최종 사용자가 Microsoft Teams Exploratory 라이선스를 2020년 6월 19일에 정품 인증을 하면, 해당 사용자와 고객 테넌트에 있는 다른 모든 적격 사용자는 2021년 6월 19일까지 유료 라이선스로 전환해야 합니다.

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 사용 하려는 고객에 게 제공 되는 몇 가지 주요 질문입니다.
-ms.openlocfilehash: c181c6cf2da1f1573b10f6e206bd1d658c6af00b
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ff6b7d195c2ecd47eb47a924129422a2154f70c4
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611037"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235806"
 ---
 # <a name="audio-conferencing-common-questions"></a>오디오 회의 일반적인 질문
 
@@ -35,7 +35,7 @@ ms.locfileid: "44611037"
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>오디오 회의의 혜택은 무엇 인가요?
 
-예를 들어 출장 중에는 모임에 전화를 거는 것이 매우 유용 하며, 사용자는 랩톱 또는 모바일 장치에서 비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하 여 모임에 참가할 수 없습니다. 그러나 다음과 같은 시나리오에서는 전화기를 사용하여 비즈니스용 Skype 혹은 Microsoft 팀 모임에 참석하는 것이 컴퓨터에서 앱을 사용하는 것보다 더 나을 수 있습니다.
+예를 들어 출장 중에는 다른 사람이 비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하 여 모임에 참석할 수 없을 때 모임에 전화를 거는 것이 유용 합니다. 그러나 다음과 같은 시나리오에서는 전화기를 사용하여 비즈니스용 Skype 혹은 Microsoft 팀 모임에 참석하는 것이 컴퓨터에서 앱을 사용하는 것보다 더 나을 수 있습니다.
   
 - 인터넷 연결이 제한되는 경우
     
@@ -79,13 +79,13 @@ ms.locfileid: "44611037"
   
 |**모임 참석자**|**모임 종료 시간**|
 |:-----|:-----|
-|비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하 여 참가 했거나 모임에 전화를 건 사용자가 있습니다.  <br/> |24 시간 후에 참석자 목록에 변경 사항이 없으면 모임이 종료 됩니다.  <br/> |
+|사용자가 비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하 여 참가 했거나 모임에 전화를 거는 경우  <br/> |24 시간 후에 참석자 목록에 변경 사항이 없으면 모임이 종료 됩니다.  <br/> |
 |모든 사용자가 모임에 전화를 거는 중이지만 다른 사람이 모임을 시작 하기 위해 PIN을 사용 했습니다.  <br/> |24 시간 후에 모임이 종료 됩니다.  <br/> |
 |모든 사용자가 모임에 전화를 거는 중이지만 PIN을 사용 하 여 모임에 진입 하는 사람은 없습니다.  <br/> | 익명 사용자가 모임을 시작할 수 있는 경우 모임이 4 시간 후에 종료 됩니다. 익명 사용자가 모임을 시작 하도록 허용 되지 않는 경우, 인증 된 모든 참가자가 모임을 종료 하면 마지막으로 인증 된 참가자 보다 90 분이 남아 있습니다. <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>모임에서 총 전화 참가자 수는 몇 명 인가요?
 
-오디오 회의를 통해 최대 250명의 전화 참석자가 참여할 수 있습니다.
+모임에서 허용 되는 참석자의 총 수에 대 한 [제한 및 사양을](limits-specifications-teams.md) 참조 하세요.
   
 모임 제한에 대해 알아보려면 [비즈니스용 Skype Online 제한을](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits)참조 하세요.
   
@@ -99,7 +99,7 @@ ms.locfileid: "44611037"
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>사용자가 개인 전화 회의 ID를 받을 수 있나요?
 
-비즈니스용 Skype 및 Microsoft 팀 사용자는 회의 Id를 임의로 할당 받을 수 있으며, 귀하만이 사용 가능한 정적 전화 회의 ID를 예약 하거나 설정할 수 없습니다. 
+비즈니스용 Skype 및 Microsoft 팀 사용자는 회의 Id를 임의로 할당 받을 수 있습니다. 사용자가 사용할 수 있는 정적 전화 회의 ID를 예약 하거나 설정할 수 없습니다. 
   
 ## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트를 통해 오디오 회의를 사용할 수 있나요?
 
@@ -118,9 +118,9 @@ Skype 모임 브로드캐스트에 참가 하도록 오디오 회의를 사용 �
   
 사용자가 조직 관리자의 도움 없이 전화 회의 ID에 액세스 하 고 다시 설정할 수 있도록 해 주는 솔루션을 진행 중입니다.
   
-## <a name="how-does-a-user-access-or-change-hisher-pin"></a>사용자가 자신의 PIN에 액세스 하거나이를 변경 하는 방법은 무엇 인가요?
+## <a name="how-do-users-access-or-change-their-pin"></a>사용자가 PIN을 액세스 하거나 변경 하는 방법은 무엇 인가요?
 
-비즈니스용 Skype 또는 Microsoft 팀 사용자는 설정 된 후에 전송 되는 전자 메일에서 PIN을 찾을 수 있습니다.
+비즈니스용 Skype 또는 Microsoft 팀 사용자가 설정 되 면 전자 메일에 전송 되는 PIN을 찾을 수 있습니다.
   
 > [!NOTE]
 > 비즈니스용 Skype 또는 Microsoft 팀 사용자는 자신의 PIN을 다시 설정할 수 없습니다. PIN은 관리자만 재설정할 수 있습니다. PIN이 다시 설정 되 면 사용자에 게 전자 메일이 전송 됩니다. 
@@ -143,11 +143,11 @@ Skype 모임 브로드캐스트에 참가 하도록 오디오 회의를 사용 �
   
 ## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>모든 참석자가 휴대폰을 사용 하 여 전화를 걸 때 사용자가 모임을 예약 하 고 시작 하는 방법은 무엇 인가요?
 
-전화 접속 로그인을 사용 하 여 모든 참석자가 참가 하는 모임을 예약 하는 것은 일반 온라인 모임 예약과 다릅니다. 그러나 모든 참가자가 전화를 사용 하 여 전화를 걸 수 있는 모임을 시작 하는 방법에는 다음 두 가지가 있습니다.
+휴대폰을 사용 하 여 전화를 걸 수 있는 모든 참석자가 참가 하는 모임을 예약 하는 것은 일반 온라인 모임 예약과 다릅니다. 그러나 모든 참가자가 휴대폰을 사용 하 여 전화를 거는 모임을 시작 하는 방법에는 두 가지가 있습니다.
 
-- **옵션 #1**: 모임 이끌이 및 모든 참가자가 휴대폰을 사용 하 여 모임에 참가 하는 경우 모임 이끌이는 해당 사용자의 오디오 회의 PIN을 입력 하 여 시작 해야 합니다. 발신자는 온라인 모임의 전화 번호로 전화를 걸 때 지정 된 모임의 이끌이로 인증을 요청 하 라는 메시지를 받게 됩니다. 이끌이를 시작 하기 전에 전화 접속을 통해 모임에 참가 하는 모든 참가자는 대기실에 배치 되 고 보류 중인 음악을 청취 하 게 됩니다. 비즈니스용 Skype 모임에 대해 이끌이는 자신의 오디오 회의 PIN을 입력 하 여 시작 하면 대기실에 있는 모든 참가자가 자동으로 모임에 참가 합니다. Microsoft 팀 모임에서는 참가자가 이끌이 모임 정책에서 자동으로 인 한 사람 설정의 값에 따라 모임에 참가 합니다.
+- **옵션 #1**: 모임 이끌이 및 모든 참가자가 휴대폰을 사용 하 여 모임에 참가 하는 경우 모임 이끌이는 오디오 회의 PIN을 입력 하 여 시작 해야 합니다. 발신자는 온라인 모임의 전화 번호로 전화를 걸 때 지정 된 모임의 이끌이로 인증을 요청 하는 경우이에 대 한 질문을 받습니다. 이끌이를 시작 하기 전에 전화 접속을 통해 모임에 참가 하는 모든 참가자는 대기실에 배치 되 고 보류 중인 음악을 청취 하 게 됩니다. 비즈니스용 Skype 모임에 대해 이끌이는 자신의 오디오 회의 PIN을 입력 하 여 시작 하면 대기실에 있는 모든 참가자가 자동으로 모임에 참가 합니다. Microsoft 팀 모임에서는 참가자가 이끌이 모임 정책에서 자동으로 인 한 사람 설정의 값에 따라 모임에 참가 합니다.
 
-- **옵션 #2**: "인증 되지 않은 발신자를 모임에서 첫 번째 사람으로 허용" 설정 (기본적으로 사용 하지 않도록 설정)이 지정 된 조직자에 대해 사용 하도록 설정 되어 있는 경우, 해당 사용자가 예약한 모든 모임은 자신의 오디오 회의 PIN을 입력 하지 않고 시작할 수 있습니다. 이 설정을 사용 하면 첫 번째 참가자가 전화 접속 전화 번호를 통해 모임에 참가 하는 즉시 모임이 시작 되 고 대기실에 입력 되지 않습니다. 자세한 내용은 [Microsoft 팀에서 사용자의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) 또는 비즈니스용 [Skype Online에서 사용자에 대 한 오디오 회의 설정](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)관리를 참조 하세요.
+- **옵션 #2**: "인증 되지 않은 호출자가 모임의 첫 번째 사용자가 될 수 있음" 설정이 기본적으로 사용 되지 않도록 설정 됩니다. 해당 구성 도우미에 대해 설정을 사용 하도록 설정한 경우 이끌이가 오디오 회의 PIN을 입력 하기 전에 해당 이끌이가 예약한 모든 모임을 시작할 수 있습니다. 이 설정을 사용 하면 첫 번째 참가자가 전화 접속 전화 번호를 통해 모임에 참가 하는 즉시 모임이 시작 되며 첫 번째 참가자가 대기실에 놓이게 되지 않습니다. 자세한 내용은 [Microsoft 팀에서 사용자의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) 또는 비즈니스용 [Skype Online에서 사용자에 대 한 오디오 회의 설정](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)관리를 참조 하세요.
    
 ## <a name="related-topics"></a>관련 항목
 

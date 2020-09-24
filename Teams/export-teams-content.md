@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7849892870f54f43f0fda16564ad472426d46cd2
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 2932488128ccf6f0bff12f3aad39181ed56c1cd0
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171446"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235816"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft 팀에서 콘텐츠 내보내기 Api 내보내기
 
@@ -31,8 +31,8 @@ ms.locfileid: "48171446"
 
 다음은 이러한 내보내기 Api를 사용할 수 있는 방법에 대 한 몇 가지 예입니다.
 
-- **예제 1**: 조직에서 microsoft 팀을 사용 하도록 설정한 경우 지정 된 사용자의 데이터 범위를 전달 하 여 프로그래밍 방식으로 모든 Microsoft 팀 메시지를 날짜로 내보낼 수 있습니다.
-- **예제 2**: 데이터 범위를 제공 하 여 매일 모든 사용자 메시지를 프로그래밍 방식으로 내보내려면 합니다. Api 내보내기는 주어진 날짜 범위 중에 만들어지거나 업데이트 된 모든 메시지를 검색할 수 있습니다.
+- **예제 1**: 조직에서 microsoft 팀을 사용 하도록 설정한 경우 지정 된 사용자에 대 한 날짜 범위를 전달 하 여 프로그래밍 방식으로 모든 Microsoft 팀 메시지를 날짜별로 내보내야 합니다.
+- **예제 2**: 날짜 범위를 제공 하 여 매일 모든 사용자 메시지를 프로그래밍 방식으로 내보내려면 합니다. Api 내보내기는 주어진 날짜 범위 중에 만들어지거나 업데이트 된 모든 메시지를 검색할 수 있습니다.
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>팀 내보내기 Api에서 지원 되는 기능은 무엇입니까?
 
@@ -50,13 +50,13 @@ ms.locfileid: "48171446"
 - **예제 1** 은 필터 없이 사용자의 모든 메시지를 검색 하는 간단한 쿼리입니다.
 
     ```HTTP
-    GET [https://graph.microsoft.com/beta/users/{id}/chats/allMessages](https://graph.microsoft.com/beta/users/%7bid%7d/chats/allMessages)
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
     ```
 
 - **예제 2** 는 날짜 시간 필터 및 상위 50 메시지를 지정 하 여 사용자의 모든 메시지를 검색 하는 예제 쿼리입니다.
 
     ```HTTP
-    https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 
 >[!NOTE]
@@ -64,7 +64,7 @@ ms.locfileid: "48171446"
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>팀에 액세스 하기 위한 필수 구성 요소 Api 내보내기 
 
-- 현재 Microsoft Api 사용 약관에 따라 팀 내보내기 Api를 미리 볼 수 있습니다.  필수 라이선스가 있는 사용자와 테 넌 트에만 사용할 수 있습니다. 적절 한 라이선스 없이 Api에 액세스 하려고 하면 403 오류가 발생 합니다.
+- 팀 내보내기 Api는 현재 미리 보기 상태입니다. Api에 대해 [필요한 라이선스가](https://aka.ms/teams-changenotification-licenses) 있는 사용자와 테 넌 트 에서만 사용할 수 있습니다. 앞으로 Microsoft는 사용자 또는 고객이 API를 통해 액세스 하는 데이터 양에 따라 추가 요금을 지불 하도록 요구할 수 있습니다.
 - 중요 한 데이터에 액세스 하는 microsoft Graph Api는 보호 된 Api로 간주 됩니다. 내보내기 Api를 사용 하려면 권한 및 승인 이상의 추가 유효성 검사가 필요 합니다. 이러한 보호 된 Api에 대 한 액세스 권한을 요청 하려면 [요청 양식을](https://aka.ms/teamsgraph/requestaccess)작성 합니다.
 - 응용 프로그램 사용 권한은 로그인 한 사용자 없이 실행 되는 앱에서 사용 됩니다. 응용 프로그램 권한은 관리자만 였음을 수 있습니다. 다음과 같은 사용 권한이 필요 합니다.
 
