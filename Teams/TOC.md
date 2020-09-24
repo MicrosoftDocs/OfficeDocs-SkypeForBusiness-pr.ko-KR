@@ -8,9 +8,11 @@
 
 # 교육
 ## [개요](training-microsoft-teams-landing-page.md)
-## [Teams용 강사 진행 교육](instructor-led-training-teams-landing-page.yml)
 ## [Teams에 대한 관리자 교육](itadmin-readiness.md)
 ## [Teams에 대한 최종 사용자 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Ignite 2020의 Teams 세션](ignite-2020-landing-page.md)
+## [Teams 라이브 교육](instructor-led-training-teams-landing-page.yml)
+## [Teams 온라인 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Teams를 배포하는 방법](How-to-roll-out-teams.md)
@@ -85,7 +87,6 @@
 ### [사용자에게 정책 할당](assign-policies.md)
 ### [활동 로그에서 정책 과제 보기](activity-log.md)
 ### [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
-### [특정 사용자에 대해 Sharepoint에 대한 액세스 차단](block-access-sharepoint.md)
 ### [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)
 ### [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)
 ### [Teams에서 피드백 정책 관리](manage-feedback-policies-in-teams.md)
@@ -112,21 +113,24 @@
 # 앱, 인공 지능 및 커넥터
 
 ## [개요](deploy-apps-microsoft-teams-landing-page.md)
+## [Power Platform과 통합](teams-power-platfom-integration.md)
 ## [Teams용 앱 관리](manage-apps.md)
 ## [Team에서 앱의 관리 설정](admin-settings.md)
 ## [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
 ## [Microsoft 365 또는 Office 365, 그리고 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
 ## [리소스별 승인](resource-specific-consent.md)
-## [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
-## [앱 패키지를 업로드하여 사용자 지정 앱 게시](upload-custom-apps.md)
+## 사용자 지정 앱
+### [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
+### [Microsoft Teams 관리 센터에서 Power Platform 관리](manage-power-platform-apps.md)
+### [앱 패키지를 업로드하여 사용자 지정 앱 게시](upload-custom-apps.md)
 ## [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [앱 사용 권한 및 고려 사항](app-permissions.md)
 ## [Teams 3자 앱 구매 서비스](purchase-third-party-apps.md)
 ## [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Teams에서 조직의 목록 앱 관리](manage-lists-app.md)
 ## [조직에 대한 작업 앱 관리](manage-tasks-app.md)
-## [Teams 관리 센터에서 칭찬 앱 관리](manage-praise-app.md)
 ## [팀 대상 계층 구조 설정](set-up-your-team-hierarchy.md)
+## [Teams 관리 센터에서 칭찬 앱 관리](manage-praise-app.md)
 ## [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -183,6 +187,7 @@
 ## [지원 되지 않는 브라우저에서 Teams 모임](unsupported-browsers.md)
 ## [Teams에서 데스크톱 공유 구성](configure-desktop-sharing.md)
 ## [Teams 클라우드 모임 녹음/녹화](cloud-recording.md)
+## [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용](tmr-meeting-recording-change.md)
 ## [연락 센터 통합](teams-contact-center.md)
 ## [Outlook에서 Teams 모임 추가 기능 사용](teams-add-in-for-outlook.md)
 ## [사용자의 전화 받기 기능 설정](set-up-the-call-me-feature-for-your-users.md)
@@ -255,7 +260,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [클라우드 비디오 Interop](cloud-video-interop.md)
 
 ## 라이브 이벤트
@@ -290,16 +294,17 @@
 #### [전화 회선 ID 및 발신자 이름에 대한 자세한 정보](more-about-calling-line-id-and-calling-party-name.md)
 
 ### 자동 전화 교환 및 통화 큐 
-#### [클라우드 자동 전화 교환이란?](what-are-phone-system-auto-attendants.md)
-#### [클라우드 자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)
+#### [계획](plan-auto-attendant-call-queue.md)
+#### [자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)
+#### [통화 큐 설정](create-a-phone-system-call-queue.md)
 #### [소규모 기업 예제 - 자동 전화 교환 설정](tutorial-org-aa.yml)
 #### [소규모 기업 예제 - 전화 큐 설정](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Teams 자원 계정 관리](manage-resource-accounts.md)
-#### [클라우드 통화 큐 만들기](create-a-phone-system-call-queue.md)
 #### [휴일 설정](set-up-holidays-in-teams.md)
 #### [자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기](answer-auto-attendant-and-call-queue-calls.md)
+#### [다이얼 및 음성 참조](dial-voice-reference.md)
 
-### [수신 전화 차단](block-inbound-calls.md)
+### [들어오는 호출 차단](block-inbound-calls.md)
 ### [통화 대기 및 검색](call-park-and-retrieve.md)
 ### [통화 공유 및 그룹 전화 받기](call-sharing-and-group-call-pickup.md)
 ### [통화 정책](teams-calling-policy.md)
@@ -733,7 +738,12 @@
 #### [감사 로그에서 이벤트 검색](audit-log-events.md)
 ## 개인 정보
 ### [개인 정보 보호 및 Microsoft Teams](teams-privacy.md)
+### [데이터 수집 사례](data-collection-practices.md)
 ### [Teams의 데이터 위치](location-of-data-in-teams.md)
+### [특정 사용자에 대해 Sharepoint Online에 대한 액세스 차단](block-access-sharepoint.md)
+### [정책 컨트롤 개요](policy-control-overview.md)
+### [모바일 진단 데이터](policy-control-diagnostic-data-mobile.md)
+### [데스크톱 클라이언트 진단 데이터](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # 모니터링, 유지 관리 및 문제 해결
@@ -780,8 +790,6 @@
 # 참조
 
 ## [Teams의 제한과 사양](limits-specifications-teams.md)
-## [Teams의 데이터 위치](location-of-data-in-teams.md)
-## [데이터 수집 사례](data-collection-practices.md)
 
 ## Teams 배포 준비
 ### [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
@@ -979,5 +987,5 @@
 ### [긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
 
 ## [업그레이드 검색 질문](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [Microsoft Teams 내보내기 API를 사용하여 콘텐츠 내보내기](export-teams-content.md)
 ## [Teams 관리자 기능 릴리즈 노트](release-notes/release-notes.md)
