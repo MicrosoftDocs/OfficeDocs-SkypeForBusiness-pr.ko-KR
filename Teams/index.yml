@@ -13,12 +13,12 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: 57976f5f6f205c7392a3a426c59a0eac84580a50
+  ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43905480"
+  ms.lasthandoff: 09/22/2020
+  ms.locfileid: "48203931"
 highlightedContent:
   items:
   - title: COVID-19 대응 - Teams를 사용하여 원격 작업자 지원
@@ -39,6 +39,20 @@ highlightedContent:
   - title: 채택 허브
     itemType: get-started
     url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+productDirectory:
+  items:
+  - title: Microsoft Power Platform과 통합
+    imageSrc: ./media/blocks-teams.svg
+    summary: Microsoft Power Platform으로 비즈니스 프로세스 및 드라이브 가치 구현
+    url: teams-power-platfom-integration.md
+  - title: 'Contoso 사례 연구 - Teams 음성 마이그레이션 '
+    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-teams.svg
+    summary: 가상의 다국적 기업이 조직에 대해 구현한 Teams 음성 솔루션 방법을 확인해보세요.
+    url: voice-case-study-overview.md
+  - title: Microsoft 365의 공동 작업 관리
+    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
+    summary: 조직의 요구 사항을 충족하는 Microsoft 365 공동 작업 서비스에 대 한 관리 전략을 개발합니다.
+    url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
 additionalContent:
   sections:
   - items:
