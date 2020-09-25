@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 관리자는 GCCH 및 DoD 환경에서 직접 라우팅이 있는 오디오 회의를 사용 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 55efdc0c79f80a2a7b7ca44fd9c80481b163c63f
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 34fcb84ee0e5126188f47a4ccc231c04ffd093b2
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868595"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262495"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
 
@@ -91,25 +91,79 @@ CsOnlineDialInConferencingBridge를 사용 하 여 오디오 회의 브리지의
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```
 
-### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>4 단계: 사용자에 게 GCC High 또는 DoD 라이선스에 대 한 직접 라우팅이 있는 오디오 회의 할당
+
+### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>4 단계: 모임에서 나가는 호출을 라우팅할 수 있도록 하는 전역 음성 라우팅 정책 정의
+
+조직의 사용자가 구성한 모임에서 PSTN에 대 한 아웃 바운드 통화 라우팅은 조직의 전역 음성 라우팅 정책에 의해 정의 됩니다. 조직에 전역 음성 라우팅 정책이 정의 되어 있는 경우 전역 음성 라우팅 정책이 조직의 사용자가 구성한 모임에서 시작 될 것으로 예상 되는 PSTN에 대 한 아웃 바운드 호출을 허용 하는지 확인 하세요. 조직에 전역 음성 라우팅 정책이 정의 되어 있지 않은 경우 조직의 사용자가 구성한 모임에서 PSTN으로의 아웃 바운드 호출 라우팅이 가능 하도록 설정 해야 합니다. 조직의 글로벌 음성 라우팅 정책은 조직의 사용자가 PSTN으로 하는 일대일 통화에도 적용 된다는 점에 유의 하세요. 조직의 사용자가 PSTN에 대 한 일대일 통화를 사용할 수 있도록 설정 되어 있는 경우 전역 음성 라우팅 정책이 두 가지 유형의 호출에 대해 조직의 요구 사항을 충족 하는지 확인 합니다. 
+
+> [!NOTE]
+> Microsoft 365 정부 커뮤니티 클라우드 (GCC) 높음 또는 DoD 배포에서는 위치 기반 라우팅을 사용할 수 없습니다. 오디오 회의를 사용 하도록 설정 하는 경우 GCC 상위 또는 DoD 환경에서 오디오 회의 사용자가 위치 기반 라우팅에 대해 사용 하도록 설정 되어 있지 않은지 확인 하세요.
+
+#### <a name="defining-a-global-voice-routing-policy"></a>전역 음성 라우팅 정책 정의
+
+전역 음성 라우팅 정책은 PSTN 사용, 음성 경로, 음성 라우팅 정책, 새로운 음성 라우팅 정책을 조직의 전역 음성 라우팅 정책으로 할당 하 여 정의할 수 있습니다.
+
+다음 단계에서는 조직을 사용 하지 않고 새 전역 음성 라우팅 정책을 정의 하는 방법을 설명 합니다. 조직에 이미 음성 라우팅 정책이 정의 되어 있는 경우 다음 구성이 조직의 기존 음성 라우팅 정책과 충돌 하지 않는지 확인 합니다.
+
+비즈니스용 Skype Online에서 원격 PowerShell 세션에 새 PSTN 사용량을 만들려면 다음 명령을 사용 합니다.
+
+  ```PowerShell
+  Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
+  ```
+
+자세한 내용은 [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage)를 참조 하세요.
+
+새 음성 경로를 만들려면 다음 명령을 사용 합니다.
+
+  ```PowerShell
+  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
+  ```
+
+조직의 새 음성 경로를 정의할 때 직접 라우팅을 구성 하는 동안 조직에 대해 정의 된 PSTN 온라인 PSTN 게이트웨이의 하나 또는 여러 개를 지정 하세요. 
+
+숫자 패턴은 통화의 대상 전화 번호를 기준으로 지정 된 게이트웨이 목록을 통해 라우팅되는 호출을 지정 합니다. 위 예제에서 전 세계의 모든 목적지로 거는 호출은 음성 경로와 일치 합니다. 조직의 사용자 모임에서 전화를 걸 수 있는 전화 번호를 제한 하려면 번호 패턴을 변경 하 여 허용 되는 대상의 숫자 패턴에만 음성 경로가 일치 하도록 할 수 있습니다. 지정 된 통화에 대 한 대상 전화 번호 패턴과 일치 하는 음성 경로가 없는 경우 통화는 라우팅되지 않습니다.
+
+자세한 내용은 [New-CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute)를 참조 하세요.
+
+새 음성 라우팅 정책을 만들려면 다음 명령을 사용 합니다.
+
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "InternationalVoiceRoutingPolicy" -OnlinePstnUsages "International"
+  ```
+
+음성 라우팅 정책에 여러 PSTN 사용을 정의 하는 경우 해당 사용자는 정의 된 순서 대로 평가 됩니다. Pstn 용도는 PSTN 사용과 연결 된 음성 경로의 숫자 패턴 측면에서 일반적인 항목의 순서에 따라 정의 되는 것이 좋습니다. 예를 들어 미국에 대 한 라우팅 통화를 위해 PSTN 사용이 정의 되었고 다른 PSTN 사용이 전세계 다른 위치로 호출 하도록 정의 되어 있는 경우 미국에 대 한 호출에 대 한 PSTN 사용이 PSTN 사용 앞의 음성 라우팅 정책에 나열 되어 전세계 다른 위치로 통화를 라우팅합니다.
+
+자세한 내용은 [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)를 참조 하세요.
+
+조직의 전역 음성 라우팅 정책에 새 음성 경로를 할당 하려면 다음 명령을 사용 합니다.
+
+  ```PowerShell
+  Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
+  ```
+
+자세한 내용은 [허용-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)을 참조 하세요.
+
+전역 음성 라우팅 정책이 정의 되 면 조직의 사용자가 구성한 모임에서 발생 한 모든 아웃 바운드 호출은 전역 음성 라우팅 정책의 PSTN 사용에 연결 된 음성 경로에 대해 평가 됩니다. 발신 전화 번호의 번호 패턴과 일치 하는 첫 번째 음성 경로에 따라 수신 통화가 라우팅됩니다.
+
+### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>5 단계: 사용자에 게 GCC High 또는 DoD 라이선스에 대 한 직접 라우팅이 있는 오디오 회의 할당
 
 사용자에 게 GCC High 또는 DoD 라이선스에 대 한 직접 라우팅이 있는 오디오 회의를 할당 하려면 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)을 참조 하세요.
 
-### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>5 단계: (선택 사항) 팀의 오디오 회의 번호 목록 보기
+### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>6 단계: (선택 사항) 팀의 오디오 회의 번호 목록 보기
 
-조직의 오디오 회의 번호 목록을 보려면 [Microsoft 팀에서 오디오 회의 번호 목록 보기를 참조](see-a-list-of-audio-conferencing-numbers-in-teams.md) 하세요.
+조직의 오디오 회의 번호 목록을 보려면 [Microsoft 팀의 오디오 회의 번호 목록 보기를 참조](see-a-list-of-audio-conferencing-numbers-in-teams.md)하세요.
 
-### <a name="step-6-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>6 단계: (선택 사항) 사용자 조직의 오디오 회의 전화 접속 번호에 대 한 자동 전화 교환 언어 설정
+### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>7 단계: (선택 사항) 사용자 조직의 오디오 회의 전화 접속 번호에 대 한 자동 전화 교환 언어 설정
 
-조직의 오디오 회의 전화 접속 번호 언어를 변경 하려면 [Microsoft 팀에서 오디오 회의를 위한 자동 전화 교환 언어 설정을](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) 참조 하세요.
+조직의 오디오 회의 전화 접속 번호 언어를 변경 하려면 [Microsoft 팀에서 오디오 회의를 위한 자동 전화 교환 언어 설정을](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)참조 하세요.
 
-### <a name="step-7-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>7 단계: (선택 사항) 조직의 오디오 회의 브리지에 대 한 설정 변경
+### <a name="step-8-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>8 단계: (선택 사항) 조직의 오디오 회의 브리지에 대 한 설정 변경
 
-조직의 오디오 회의 브리지 설정을 변경 하려면 [오디오 회의 브리지에 대 한 설정 변경을](change-the-settings-for-an-audio-conferencing-bridge.md) 참조 하세요.
+조직의 오디오 회의 브리지 설정을 변경 하려면 [오디오 회의 브리지에 대 한 설정 변경을](change-the-settings-for-an-audio-conferencing-bridge.md)참조 하세요.
 
-### <a name="step-8-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>8 단계: (선택 사항) 조직의 사용자에 대 한 모임 초대에 포함 된 전화 번호 설정
+### <a name="step-9-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>9 단계: (선택 사항) 조직의 사용자에 대 한 모임 초대에 포함 된 전화 번호 설정
 
-사용자의 모임 초대에 포함 되는 전화 번호 집합을 변경 하려면 [Microsoft 팀의 초대에 포함 된 전화 번호 설정을](set-the-phone-numbers-included-on-invites-in-teams.md) 참조 하세요.
+사용자의 모임 초대에 포함 된 전화 번호 집합을 변경 하려면 [Microsoft 팀의 초대에 포함 된 전화 번호 설정을](set-the-phone-numbers-included-on-invites-in-teams.md)참조 하세요.
 
 ## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD에 대 한 직접 라우팅이 있는 오디오 회의에서는 오디오 회의 기능이 지원 되지 않습니다.
 

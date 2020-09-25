@@ -18,18 +18,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 605ba58582210c71561cd60442aa66f97be0be0d
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229054"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262505"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft 팀의 Walkie Talkie app
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-팀의 Walkie Talkie 앱은 사용자의 팀에 대 한 PTT (즉각적인 푸시 간) 통신을 제공 하며 Android의 공개 미리 보기에서 사용할 수 있습니다. Walkie Talkie 사용자는 자신이 구성원으로 속해 있는 동일한 기본 채널을 사용 하 여 팀과 연결할 수 있습니다. 채널에서 Walkie Talkie에 연결 하는 사용자만이 참가자가 되며 한 번에 하나씩 푸시 투-통신을 사용 하 여 서로 통신할 수 있습니다.
+팀의 Walkie Talkie 앱은 현재 사용자에 게 연결 되는 (PTT) 통신을 제공 하 고 Android에서 사용할 수 있습니다. Walkie Talkie 사용자는 자신이 구성원으로 속해 있는 동일한 기본 채널을 사용 하 여 팀과 연결할 수 있습니다. 채널에서 Walkie Talkie에 연결 하는 사용자만이 참가자가 되며 한 번에 하나씩 푸시 투-통신을 사용 하 여 서로 통신할 수 있습니다.
 
 Walkie Talkie 팀에서 현재에서 일선 worker는 라디오를 사용할 필요 없이 익숙한 ptt 환경과 안전 하 게 통신할 수 있으며, Walkie Talkie는 WiFi 또는 셀룰러 인터넷 연결을 통해 어디서 나 작동 합니다.
 
@@ -37,7 +35,7 @@ Walkie Talkie 팀에서 현재에서 일선 worker는 라디오를 사용할 필
 
 ### <a name="deploying-walkie-talkie"></a>Walkie Talkie 배포
 
-공개 미리 보기 중에는 Walkie Talkie가 사전 설치 되어 있지 않습니다. 조직의 사용자에 대해이 기능을 사용 하도록 설정 하려면 [App Setup Policy](teams-app-setup-policies.md)   [팀 관리 센터](https://admin.teams.microsoft.com/)에서 사용자에 게 할당 된 앱 설정 정책에 Walkie Talkie를 추가 해야 합니다.
+현재 Walkie Talkie는 사전 설치 되어 있지 않습니다. 조직의 사용자에 대해이 기능을 사용 하도록 설정 하려면 [App Setup Policy](teams-app-setup-policies.md)   [팀 관리 센터](https://admin.teams.microsoft.com/)에서 사용자에 게 할당 된 앱 설정 정책에 Walkie Talkie를 추가 해야 합니다.
 
 활성화 한 후에는 Walkie Talkie 48 시간 내에 Android 앱에서 사용할 수 있게 됩니다.
 
@@ -59,7 +57,11 @@ Microsoft 팀 관리 센터의 **팀 앱**  >  **설정 정책**에서 **사용�
 
 Walkie Talkie 팀은 인터넷에 연결 되어야 하 고, 최상의 환경을 위해 네트워크 조건 아래에 있어야 합니다.
 
-지연 (RTT) < 300ms | 지터 < 30ms | 패킷 손실 < 1%
+|미터 | 필수 |
+|---|---|
+|대기 시간 (RTT) | < 300ms |
+|지터 |< 30ms |
+|패킷 손실 |< 1% |
 
 위에서 언급 한 것 처럼 IP 네트워크를 통한 실시간 미디어의 품질은 네트워크 연결의 품질에 따라 크게 영향을 받지만, 특히 다음의 금액에 의해 발생 합니다.
 

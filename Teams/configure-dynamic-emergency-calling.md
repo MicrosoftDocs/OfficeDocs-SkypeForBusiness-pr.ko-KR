@@ -17,12 +17,12 @@ description: Microsoft 통화 계획 및 전화 시스템을 구성 하는 방�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321741"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269652"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -141,7 +141,7 @@ Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 네트워�
 
 ## <a name="configure-location-information-service"></a>위치 정보 서비스 구성
 
-팀 클라이언트는 여러 네트워크 식별자와 연결 된 위치에서 긴급 주소를 가져옵니다. 서브넷과 WAPs (무선 액세스 지점)가 모두 지원 됩니다. (이더넷 스위치/포트에 대 한 지원이 보류 중입니다.)
+팀 클라이언트는 여러 네트워크 식별자와 연결 된 위치에서 긴급 주소를 가져옵니다. 서브넷과 WAPs (무선 액세스 지점)가 모두 지원 됩니다. 이더넷 스위치/포트는 Windows 8.1 이상에서 지원 됩니다.
 
 클라이언트가 위치를 가져오려면 네트워크 식별자 (서브넷, WAPs, 스위치, 포트), 긴급 위치로 LIS를 채워야 합니다. Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여이 작업을 수행할 수 있습니다.
 

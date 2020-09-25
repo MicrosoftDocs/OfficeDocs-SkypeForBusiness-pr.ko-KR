@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820642"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262535"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -142,7 +142,7 @@ SBC 도메인 이름은 테 넌 트의 도메인에 등록 된 이름 중 하나
 |DNS 이름|SBC FQDN에 사용할 수 있습니다.|FQDN 이름 예제|
 |:--- |:--- |:--- |
 contoso.com|예|**유효한 이름:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|아니오|Onmicrosoft.com 도메인 사용은 SBC 이름에 대해 지원 되지 않습니다.
+|contoso.onmicrosoft.com|아니요|Onmicrosoft.com 도메인 사용은 SBC 이름에 대해 지원 되지 않습니다.
 
 새 도메인 이름을 사용 하 려 한다고 가정 합니다. 예를 들어 테 넌 트가 테 넌 트에 등록 된 도메인 이름으로 contoso.com sbc1.sip.contoso.com를 사용 하려고 합니다. 이름 sbc1.sip.contoso.com를 사용 하 여 SBC를 쌍으로 만들려면 먼저 테 넌 트의 도메인 이름 sip.contoso.com을 등록 해야 합니다. 도메인 이름을 등록 하기 전에 sbc1.sip.contoso.com를 사용 하 여 SBC를 연결 하려고 하면 "sbc1.sip.contoso.com" 도메인이이 테 넌 트에 대해 구성 되지 않았으므로 사용할 수 없습니다. "라는 오류 메시지가 표시 됩니다.
 도메인 이름을 추가한 후에는 UPN user@sip.contoso.com를 사용 하 여 사용자를 만들고 팀 라이선스를 할당 해야 합니다. 도메인 이름을 테 넌 트의 도메인에 추가한 후 완전 하 게 프로 비전 하는 데 최대 24 시간이 소요 될 수 있으며, 새 이름을 가진 사용자가 만들어지고 라이선스가 사용자에 게 할당 됩니다. 
@@ -189,7 +189,9 @@ CSR (인증 서명 요청)을 생성 하 여 SBC에 대 한 인증서를 요청 
 - T-시스템 국제 GmbH (Deutsche Telekom)
 - QuoVadis
 
-
+Office 365 GCC DoD 환경에서의 직접적인 라우팅에는 다음 루트 인증 기관 중 하나에서 인증서를 생성 해야 합니다.
+- DigiCert 전역 루트 CA
+- DigiCert High 보증할 EV 루트 CA
 
 > [!NOTE]
 > * SBC의 팀 연결에 대해 상호 TLS (MTLS) 지원이 설정 된 경우 팀 TLS 컨텍스트의 SBC 신뢰 된 루트 저장소에 Baltimore CyberTrust Root 인증서를 설치 해야 합니다. 이것은 Microsoft 서비스 인증서가 Baltimore 루트 인증서를 사용 하기 때문입니다. Baltimore 루트 인증서를 다운로드 하려면 [Office 365 암호화 체인](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains)을 참조 하세요.

@@ -16,12 +16,12 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 04ddae49ae16db6c85f67a078f5f5cc1b59c60e8
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203971"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262465"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -30,7 +30,7 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 관련: [Teams 모임 녹음/녹화 최종 사용자 문서](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Microsoft Stream을 [비즈니스용 OneDrive 및 SharePoint for 모임 녹화](tmr-meeting-recording-change.md) 에서 변경 하는 것은 단계적인 방법입니다. 시작 시에는이 환경을 옵트인 할 수 있으며 11 월에는 스트림을 계속 사용 하기 위해 옵트아웃 하 고, 앞으로 2021에는 모든 고객이 비즈니스용 OneDrive 및 SharePoint에 대 한 시간이 필요 합니다.
+> Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
 
 > [!NOTE]
 > 팀 모임에서 역할을 사용 하는 방법과 사용자의 역할을 변경 하는 방법에 대 한 자세한 내용은 [팀 모임에서 역할](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)을 참조 하세요.
@@ -112,7 +112,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 모임 녹음/녹화는 Microsoft Stream 클라우드 저장소에 저장됩니다. 녹음/녹화는 보존 되며 21 일 동안 보고 다운로드할 수 있습니다. Microsoft Stream이 데이터가 저장된 국내 데이터 보존 지역에서 제공되지 않는 경우 Teams 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 현재 설정되어 있습니다. Microsoft Stream이 국내 데이터 보존 지역에서 제공되지 않는 경우 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 향후 설정될 예정입니다.
 
-해당 변경 내용이 적용되면 기본적으로 모임 녹음/녹화는 지리적으로 가장 가까운 Microsoft Stream 지역에 저장됩니다. Teams 데이터가 국내에 저장되어 있고 모임 녹음/녹화를 국내에 저장하기를 선호하는 경우 기능을 해제하고 Microsoft Stream이 국내 데이터 보존 지역에 배포된 이후 설정하는 것이 좋습니다. 조직의 모든 사용자에 대 한 기능을 해제 하려면 Microsoft 팀 관리 센터에 있는 전역 팀 모임 정책에서 **클라우드 기록 허용** 설정을 해제 합니다.
+해당 변경 내용이 적용되면 기본적으로 모임 녹음/녹화는 지리적으로 가장 가까운 Microsoft Stream 지역에 저장됩니다. Teams 데이터가 국내에 저장되어 있고 모임 녹음/녹화를 국내에 저장하기를 선호하는 경우 기능을 해제하고 Microsoft Stream이 국내 데이터 보존 지역에 배포된 이후 설정하는 것이 좋습니다. 조직의 모든 사용자에 대 한 기능을 해제 하려면 Microsoft 팀 관리 센터에 있는 전역 팀 모임 정책에서 **클라우드 기록 허용** 설정을 해제 합니다. 그러나 Microsoft Stream의 가장 가까운 지역에 녹음/녹화를 저장할 수 있도록 설정 하려는 경우에는 **클라우드 기록 허용** 및이 변경 내용을 적용 하기 전에 **지역 외부에서 기록 저장소 허용** 을 설정 해야 합니다.
+
+지역에서 전역 정책으로 녹음/녹화를 사용 하도록 설정 하려면 다음 cmdlet을 사용 합니다.
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
+
 
 다음은 해당 변경 내용이 적용될 때 모임 녹음/녹화를 설정하는 경우의 결과에 대한 요약입니다.
 

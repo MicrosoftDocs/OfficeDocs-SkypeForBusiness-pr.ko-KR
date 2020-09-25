@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 부록에는 팀 및 비즈니스용 Skype에 대 한 클라우드 통합의 일부로 서 하이브리드를 사용 하지 않도록 설정 하는 자세한 단계가 포함 되어 있습니다.
-ms.openlocfilehash: a049491550ed26c61c587824034035a4c3a40a07
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221502"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269662"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
 
@@ -39,6 +39,8 @@ ms.locfileid: "44221502"
 3. 온-프레미스에서 Microsoft 365 또는 Office 365와 통신 하는 기능을 사용 하지 않도록 설정 합니다.
 
 이러한 단계는 하나의 단위로 함께 수행 해야 합니다. 세부 정보는 아래에 나와 있습니다. 또한 온-프레미스 배포의 연결이 끊어지면 마이그레이션된 사용자의 전화 번호를 관리 하기 위한 지침이 제공 됩니다.
+
+이러한 단계가 완료 되 면 온-프레미스 비즈니스용 Skype 서버는 더 이상 사용 되지 않으며, 이러한 서버를 다시 사용할 수 있습니다.
 
 > [!Important] 
 >Azure AD를 통해 Active Directory sync의 Msrtcsip-gateways 특성을 Azure AD에 연결 하는 작업을 계속 수행 해야 합니다.  이 기능을 지원 하지 않으면 이러한 특성을 지우지 않습니다.  온-프레미스 환경에서 사용 안 함-CsUser를 실행 하지 마십시오. 사용자의 SIP 주소를 수정 해야 하는 경우 온-프레미스 Active Directory에서이 작업을 수행 하 고 아래 설명 된 대로 Azure ad를 통해 Azure AD를 통해이 변경 내용을 동기화 하도록 합니다. 마찬가지로 전화 번호를 변경 해야 하는 경우 사용자의 LineURI가 이미 온-프레미스에 정의 되어 있는 경우 온-프레미스 Active Directory에서이를 수정 해야 합니다.
@@ -53,8 +55,8 @@ ms.locfileid: "44221502"
 
     |레코드 유형|이름|TTL|값|
     |---|---|---|---|
-    |SRV|_sipfederationtls _tcp|3600|100 1 5061 sipfed.online.lync.com> <span> . ccw|
-    |SRV|_sip _tls|3600|100 1 443 sipdir.online.lync.com> <span> . ccw|
+    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed.online.lync.com> <span> . ccw|
+    |SRV|_sip._tls|3600|100 1 443 sipdir.online.lync.com> <span> . ccw|
     |CNAME| lyncdiscover|   3600|   webdir. <span> s e t. ccw|
     |CNAME| sip|    3600|   <span>sipdir.online.lync.com>. ccw|
     |CNAME| 조건|   3600|   webdir. <span> s e t. ccw|

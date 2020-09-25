@@ -9,7 +9,6 @@
 # 교육
 ## [개요](training-microsoft-teams-landing-page.md)
 ## [Teams에 대한 관리자 교육](itadmin-readiness.md)
-## [Teams에 대한 최종 사용자 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 ## [Ignite 2020의 Teams 세션](ignite-2020-landing-page.md)
 ## [Teams 라이브 교육](instructor-led-training-teams-landing-page.yml)
 ## [Teams 온라인 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
@@ -367,7 +366,6 @@
 ##### [정의 및 RFC 표준](direct-routing-protocols.md)
 ##### [SIP 프로토콜](direct-routing-protocols-SIP.md)
 ##### [미디어 프로토콜](direct-routing-protocols-media.md)
-#### [통화 다시 걸기 봇 설정](direct-routing-ringback-bot.md)
 #### [음성 라우팅 정책 관리](manage-voice-routing-policies.md)
 
 
