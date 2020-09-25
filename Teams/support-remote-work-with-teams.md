@@ -17,16 +17,16 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cb886083b2f381c16c6b3b0acc13746f641a67
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583817"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235826"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
-조직에서 원격 또는 재택 근무하는 사용자를 지원하기 위해 Microsoft Teams를 시작하고 싶나요? 이 문서의 지침을 사용하여 신속하게 시작할 수 있습니다.
+조직에서 원격 또는 재택 근무하는 사용자를 지원하기 위해 Microsoft Teams를 사용하고 싶나요? 이 문서의 지침을 사용하여 신속하게 시작할 수 있습니다.
 
 중소기업인 경우 [원격 작업를 사용하여 중소기업 역량 강화](https://aka.ms/remote-business)를 놓치지 마세요.
 
@@ -41,7 +41,7 @@ ms.locfileid: "46583817"
 자세한 내용은 [아래 원격 작업자를 지원하기 위한 추가 리소스](#additional-resources-for-supporting-remote-workers)를 참조하세요.
 
 
-## <a name="end-user-communications"></a>최종 사용자 커뮤니케이션
+## <a name="end-user-communications"></a>최종 사용자 통신
 
 사용자에게 Teams를 배포할 준비가 되었나요? 다음과 같은 멋진 전자 메일 템플릿을 포함하는 **[고객 성공 킷](https://aka.ms/TeamsCustomerSuccess)** 를 다운로드하세요.
 
@@ -51,7 +51,7 @@ ms.locfileid: "46583817"
 
 - 며칠 후에는 사용자가 Teams를 최대한 활용하는 데 도움이 되는 **팁과 트릭 전자 메일**을 보내세요.
 
-## <a name="end-user-guidance"></a>최종 사용자 가이드
+## <a name="end-user-guidance"></a>최종 사용자 지침
 
 이러한 자산과 비디오를 공유하여 최종 사용자가 빠르게 시작할 수 있도록 돕습니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "46583817"
    - [Microsoft가 직원들이 Microsoft Teams를 사용해 원격으로 근무 가능하도록 지원하는 방법](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)을 참조하세요.
    - [중소 기업이 Teams와 원격으로 작업할 수 있도록 지원](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT가 직원들의 원격 작업을 가능하게하는 9가지 방법](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT가 직원의 원격 작업을 지원하는 9가지 주요 방법](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 교육용 Teams 
@@ -83,7 +83,7 @@ ms.locfileid: "46583817"
 
    - [Teams에서 원격 학습 시작하기](remote-learning-edu.md)를 놓치지 마세요.
 
-1. 직원들이 Teams에 적합한 인터넷 액세스와 대역폭을 보유하고 있는지 확인합니다. [Teams에 대한 조직의 네트워크 준비](prepare-network.md)의 지침을 사용하여 이 작업을 수행하는 방법을 알아보세요.
+1. 직원들이 Teams에 적합한 인터넷 액세스와 대역폭을 보유하고 있는지 확인합니다. 적절한 대역폭을 보장하는 방법을 알아보려면 [Teams에 대한 조직의 네트워크 준비](prepare-network.md)의 지침을 사용하세요.
 
    - 제한된 대역폭은 Teams 모임의 오디오 품질에 영향을 미칠 수 있습니다. 저대역폭 조건 하에서 최고의 모임을 경험하기 위해, 사용자에게 비디오를 제한하고 통화 및 모임 오디오에 PSTN을 사용하도록 장려합니다. 
 
@@ -151,7 +151,7 @@ ms.locfileid: "46583817"
     
    - 조직의 재택 근무 및 건강 및 안전 정책에 대한 정보를 보내세요.
     
-   - 회사 전체의 모임 및 지원 활동에 [라이브 이벤트](teams-live-events/what-are-teams-live-events.md)를 사용하세요. 250명 이상의 참석자가 있는 모든 모임을 라이브 이벤트로 만드세요. [모임](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)과 [라이브 이벤트](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)에 대한 실시간 캡션을 켭니다. 또한 라이브 이벤트에서 자막을 켭니다. 이러한 기능은 포용력, 생산성 및 이해력을 높여줍니다. 
+   - 회사 전체의 모임 및 지원 활동에 [라이브 이벤트](teams-live-events/what-are-teams-live-events.md)를 사용하세요. 모임이 Teams 정기 모임의 [제한 및 사양](limits-specifications-teams.md)에 도달하면 라이브 이벤트로 만드세요. [모임](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)과 [라이브 이벤트](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)에 대한 실시간 캡션을 켭니다. 라이브 이벤트에서 자막을 켭니다. 이러한 기능은 포용력, 생산성 및 이해력을 높여줍니다. 
 
 4.  사용자 문의를 처리하기 위해 [헬프데스크](troubleshoot-installation.md) 직원을 고용하세요.
 
@@ -161,20 +161,20 @@ ms.locfileid: "46583817"
 1. 사용자에게 분명하게 보고 들을 수 있는 장치가 있는지 확인합니다. 개인 및 공유 공간을 위한 [Teams 인증 장치](https://aka.ms/TeamsDevices)를 확인하세요.
 
 
-### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>알려진 문제 - 중국: 비즈니스용 Skype 또는 Teams 회의 ID에 전화 걸기
+### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>알려진 문제 - 중국: 비즈니스용 Skype 또는 Teams 모임 ID에 전화 걸기
 
 다음은 2020년 2월 7일 메시지 센터 게시물(MC203397)에 대한 요약입니다.
 
 Microsoft는 중국 지역의 일부 사용자가 비즈니스용 Skype 또는 Teams 회의 ID로 전화를 거는 데 문제가 있음을 알고 있습니다. 대부분의 경우 이러한 문제는 당사가 제어하는 시스템의 외부에 있습니다. 종종 로컬 모바일 및 전화 통신 사업자에 문제가 있습니다. 
 
-오디오 회의를 하는 데 문제가 있는 경우 다음을 수행하는 것이 좋습니다.
+오디오 모임을 하는 데 문제가 있는 경우 다음을 수행하는 것이 좋습니다.
 
 - 호출자 또는 모임 이끌이에게 PSTN 또는 휴대폰 번호로 전화하도록 요청합니다.
 - VoIP를 사용하여 데스크톱 또는 모바일 클라이언트에서 통화 또는 모임에 참가합니다.
 
-지원 티켓을 기록해야 하는 경우 다음을 포함하세요.
+지원 티켓을 기록해야 하는 경우 다음 항목을 포함합니다.
     
 - 정확한 통화 시간
-- 전화를 건 전화 회의 브리지 번호
+- 전화를 건 전화 모임 브리지 번호
 - 호출자 전화 네트워크
 - 호출자 전화 번호
