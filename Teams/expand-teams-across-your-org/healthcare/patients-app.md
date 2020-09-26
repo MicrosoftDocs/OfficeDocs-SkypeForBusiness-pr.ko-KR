@@ -18,14 +18,21 @@ appliesto:
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱에 전자 의료 기록 통합에 대 한 자세한 내용을 보려면 Api를 사용 하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f981b2fc68aa52f8ea5a48fab18977197ac813c8
-ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
+ms.openlocfilehash: 1046037ff2cac7f98b9a34ede05a4b30ce793d6c
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45098426"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277292"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Microsoft Teams에 전자 의료 레코드 통합
+
+> [!IMPORTANT]
+> **2020 년 9 월 30 일에 효력을 환자 앱은 더 이상 사용 되지 않으며 사용자는 더 이상 팀 앱 스토어에서 설치할 수 없게 됩니다. 지금 팀에서 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 사용을 시작 하는 것이 좋습니다.**
+>
+>환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱이 종료 되 면 관련 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 현재 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
+>
+>[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 목록에서 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져오면 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 

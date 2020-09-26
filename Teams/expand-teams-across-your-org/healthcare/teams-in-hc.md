@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 주의 조정, 보안 메시징, telehealth, EHR 통합,에서 일선 worker 시스템 통합을 포함 하는 상태 관리 기능에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 2257c82d602146210b217e396d65ebb1fdcb90f6
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138108"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277277"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
@@ -38,6 +38,13 @@ Microsoft 팀은 병원 및 기타 의료 단체에 유용한 다양 한 기능�
 이 섹션의 내용은 모임, 통화, 메시징과 같은 팀의 기본 기능을 기반으로 하며 조직에 이미 팀을 배포한 것으로 가정 합니다. 아직 팀을 롤아웃하기 않은 경우 먼저 [Microsoft 팀을 배포 하는 방법을](../../How-to-roll-out-teams.md)읽어 보세요.
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>의료 협조-Microsoft 팀 환자 앱
+
+> [!IMPORTANT]
+> **2020 년 9 월 30 일에 효력을 환자 앱은 더 이상 사용 되지 않으며 사용자는 더 이상 팀 앱 스토어에서 설치할 수 없게 됩니다. 지금 팀에서 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 사용을 시작 하는 것이 좋습니다.**
+>
+>환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱이 종료 되 면 관련 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 현재 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
+>
+>[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 목록에서 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져오면 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 

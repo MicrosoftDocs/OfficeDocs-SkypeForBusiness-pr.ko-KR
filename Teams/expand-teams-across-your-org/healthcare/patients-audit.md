@@ -15,14 +15,21 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 팀 용 환자 앱 관리자
-ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 2b61f7a923d863086b09d240230a0eb8e5ca897b
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350182"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277236"
 ---
 # <a name="audit-logs-for-patients-app"></a>환자 앱에 대한 감사 로그
+
+> [!IMPORTANT]
+> **2020 년 9 월 30 일에 효력을 환자 앱은 더 이상 사용 되지 않으며 사용자는 더 이상 팀 앱 스토어에서 설치할 수 없게 됩니다. 지금 팀에서 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 사용을 시작 하는 것이 좋습니다.**
+>
+>환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱이 종료 되 면 관련 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 현재 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
+>
+>[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 목록에서 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져오면 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 환자 앱에 대 한 감사 로그 작업은 사고에 대 한 응답 팀이 환자의 전자식 의료 기록 (EMR) 또는 환자 보험 정보 (화이)에 대 한 변경 내용을 검토 하 고 생산성 도구에서 사용 하지 않는 경우에 대 한 정책 또는 절차의 변경 또는 개선 사항이 필요한 지 여부를 결정할 수 있도록 합니다. 감사 로그 이벤트는 환자 앱 사용자 인터페이스를 통해 수행 되는 작업을 다룹니다.
 

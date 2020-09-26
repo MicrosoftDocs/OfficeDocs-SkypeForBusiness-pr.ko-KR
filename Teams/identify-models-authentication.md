@@ -1,9 +1,9 @@
 ---
-title: Id 모델 및 인증
+title: Microsoft 팀의 id 모델 및 인증
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 09/25/2017
+ms.date: 09/25/2020
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anwara
@@ -14,55 +14,54 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: 클라우드, 동기화 됨, 페더레이션 등의 Microsoft 팀에 있는 다양 한 id 모델에 대해 알아봅니다. Multi-factor authentication에 대해서도 알아봅니다.
+description: 클라우드 전용 및 하이브리드 등의 Microsoft 팀에 대 한 다양 한 id 모델에 대해 알아봅니다. Multi-factor authentication에 대해서도 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 330a197f2e042ee8d87e294f9ff822c6bf6d5ac6
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 40a06ce75c3ae7a4f85eb1c93064ba3d80c13fc0
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121568"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277118"
 ---
-<a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 팀의 id 모델 및 인증
-==========================================
+# <a name="identity-models-and-authentication-for-microsoft-teams"></a>Microsoft 팀의 id 모델 및 인증
 
-Microsoft 팀은 Microsoft 365 및 Office 365에서 사용할 수 있는 모든 id 모델을 지원 합니다. 지원 되는 id 모델은 다음과 같습니다.
+Microsoft 팀은 다음을 포함 하 여 Microsoft 365 및 Office 365에서 사용할 수 있는 모든 id 모델을 지원 합니다.
 
--   **클라우드 id**:이 모델에서는 사용자가 Microsoft 365 또는 Office 365에서 만들어지고 관리 되며 Azure active directory에 저장 되며 암호는 Azure active directory에서 확인 됩니다.
+- **클라우드 전용**: 사용자 계정은 Microsoft 365 또는 Office 365에서 만들어지고 관리 되며 Azure Active Directory (azure AD)에 저장 됩니다. Azure AD에서 사용자 로그인 자격 증명 (계정 이름 및 암호)의 유효성을 검사 합니다.
 
--   **동기화 된 id**:이 모델에서 사용자 id는 온-프레미스 서버에서 관리 되며 계정 및 암호 해시가 클라우드와 동기화 됩니다. 사용자는 클라우드에서와 같은 비밀 번호를 온-프레미스와 동일 하 게 입력 하 고 로그인 할 때 Azure Active Directory에서 확인 합니다. 이 모델은 Microsoft Azure Active Directory Connect 도구를 사용 합니다.
+- **하이브리드**: 사용자 계정은 일반적으로 온-프레미스 AD DS (Active Directory 도메인 서비스) 포리스트에서 관리 합니다. 구성에 따라 Azure AD, AD DS 또는 페더레이션 id 공급자에서 자격 증명 유효성 검사를 수행할 수 있습니다. 이 모델은 Azure AD Connect와 함께 AD DS에서 Azure AD로의 디렉터리 동기화를 사용 합니다.
 
--   **페더레이션 id**:이 모델에서는 온-프레미스 id 공급자가 사용자 암호를 사용 하 여 동기화 된 id를 확인 해야 합니다. 이 모델을 사용 하면 암호 해시가 Azure AD에 동기화 될 필요가 없으며 ADFS (Active Directory Federation Services) 또는 타사 id 공급자를 사용 하 여 온-프레미스 Active Directory에 대해 사용자를 인증 합니다.
+자세한 내용은 [Microsoft 365 id 모델 및 AZURE AD](https://docs.microsoft.com/microsoft-365/enterprise/about-microsoft-365-identity)를 참조 하세요.
 
-<a name="configurations"></a>구성
---------------
+## <a name="configurations"></a>구성
 
-구현 하 고 사용 하는 데 사용할 id 모델에 따라 구현 요구 사항이 다를 수 있습니다. 배포가 이러한 전제 조건을 충족 하는지 확인 하려면 아래 요구 사항 표를 참조 하세요. 이미 Microsoft 365 또는 Office 365을 배포한 경우 id 및 인증 방법을 이미 구현한 경우에는이 단계를 건너뛸 수 있습니다.
+사용 하는 id 모델 및 구성에 대 한 조직의 결정에 따라 구현 단계가 다를 수 있습니다.
 
+Microsoft 365 또는 Office 365 및 id 모델을 아직 배포 하지 않은 경우 다음 표를 사용 하세요. 
 
 |Id 모델 |배포 검사 목록  |추가 정보  |
 |---------|---------|---------|
-|모든     |<ol type="1"><li>Microsoft 365 및 Office 365 계획 옵션 비교 및 구독 구하기</li><li>Microsoft 365 또는 Office 365 조 직 만들기</li><li>테 넌 트에 Microsoft 365 또는 Office 365 라이선스 할당</li><li>도메인 및 관리자 사용자 구성</li><li>Id 모델 관련 지침 계속</li></ol>          |<ul style="list-style-type:none"><li>[Microsoft 365 및 Office 365 계획 옵션](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[비즈니스 요금제에 대 한 Microsoft 365 앱 비교](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[구독 라이선스 관리](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[구독에 라이선스 추가](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[비즈니스용 Microsoft 365 설정](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[설정 마법사를 사용 하 여 사용자 및 도메인 추가](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li><li>참고: 도움이 필요한 경우 [Microsoft FastTrack](https://go.microsoft.com/fwlink/?linkid=854618) 을 통해 도움을 받을 수 있습니다.</li></ul>          |
-|클라우드 Id     |<ol type="1"><li>Microsoft 365 관리 센터를 사용 하 여 사용자 만들기</li></ol>           |<ul style="list-style-type:none"><li>[사용자를 개별적으로 또는 대량으로 추가](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul>         |
-|동기화 된 Id     |<ol type="1"><li>Azure AD Connect 설치</li><li>디렉터리 동기화 구성</li><li>온-프레미스 Active Directory 관리 도구를 사용 하 여 사용자 만들기</li></ol>         |<ul style="list-style-type:none"><li>[디렉터리 동기화 설정](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>참고: 인증을 수행 하려면 Microsoft 365 및 Office 365에 대해 암호 해시가 동기화 되어야 합니다.</li></ul>         |
-|페더레이션 Id    |<ol type="1"><li>Azure AD Connect 설치</li><li>디렉터리 동기화 구성</li><li>페더레이션 Id 공급자 설치 및 구성 (ADFS 권장)</li><li>온-프레미스 Active Directory 관리 도구를 사용 하 여 사용자 만들기</li></ol>           |<ul style="list-style-type:none"><li>[디렉터리 동기화 설정](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>[AD FS 배포 계획](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[검사 목록: 페더레이션 서버 팜 배포](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[Adfs에 대 한 엑스트라넷 액세스 구성](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[AD FS와 Azure AD 간의 신뢰 설정](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[ADFS를 사용 하 여 single sign-on 확인 및 관리](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[Azure AD federation compatibility 목록](https://go.microsoft.com/fwlink/?linkid=854625)</li><li>참고: 암호 해시를 Azure Active Directory와 동기화 할 필요는 없습니다.</li></ul>         |
+|모든     |<ol type="1"><li>Microsoft 365 및 Office 365 계획 옵션을 비교 하 고 구독과 테 넌 트를 받습니다.</li><li>테 넌 트에 대 한 Microsoft 365 또는 Office 365 조 직을 만듭니다.</li><li>테 넌 트에 대 한 Microsoft 365 또는 Office 365 라이선스 구입</li><li>도메인 및 관리자 사용자 계정을 구성 합니다.</li></ol>  |<ul><li>[Office 365 계획 옵션](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[비즈니스 요금제에 대 한 Microsoft 365 비교](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[구독 라이선스 구입 또는 제거](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[구독에 라이선스 추가](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[비즈니스용 Microsoft 365 설정](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[설정 마법사를 사용 하 여 도메인 추가](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li></ul><br>[Microsoft FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 을 통해 도움을 받을 수 있습니다.  |
+|클라우드 id     |<ul><li>Microsoft 365 관리 센터를 사용 하 여 사용자 계정 만들기</li></ul> |<ul style="list-style-type:none"><li>[사용자 추가 및 라이선스 할당](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul> |
+|하이브리드 id     |<ol type="1"><li>Azure AD Connect를 설치 합니다.</li><li>디렉터리 동기화를 구성 합니다.</li><li>AD DS 도구를 사용 하 여 사용자 및 그룹을 관리 합니다.</li></ol> |<ul style="list-style-type:none"><li>[디렉터리 동기화 설정](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
+|페더레이션 인증을 사용 하는 하이브리드 id    |<ol type="1"><li>AD FS와 같은 페더레이션 id 공급자를 설치 하 고 구성 합니다.</li><li>Azure AD Connect를 설치 하 고 디렉터리 동기화 및 페더레이션 인증을 구성 합니다.</li><li>AD DS 도구를 사용 하 여 사용자 및 그룹을 관리 합니다.</li></ol> |<ul><li>[AD FS 배포 계획](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[검사 목록: 페더레이션 서버 팜 배포](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[Adfs에 대 한 엑스트라넷 액세스 구성](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[AD FS와 Azure AD 간의 신뢰 설정](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[ADFS를 사용 하 여 single sign-on 확인 및 관리](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[디렉터리 동기화 설정](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
+||||
 
-자세한 내용은 [로그인 모델 선택](https://go.microsoft.com/fwlink/?linkid=854626) 및 [Id 모델 및 Azure Active Directory 가이드 이해](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) 를 참조 하세요.
+## <a name="multi-factor-authentication"></a>다단계 인증
 
+암호는 컴퓨터 또는 온라인 서비스에 로그인 할 때 가장 일반적으로 사용할 수 있는 인증 방법 이지만 가장 취약 합니다. 사용자는 쉽게 암호를 선택 하 고 여러 로그인에 동일한 암호를 다양 한 컴퓨터 및 서비스에 사용할 수 있습니다. 
 
-<a name="multi-factor-authentication"></a>다단계 인증
-----------------------------
+로그인에 대 한 추가 수준의 보안을 제공 하기 위해 다음과 같은 암호와 추가 확인 방법을 모두 필요로 하는 MFA (다단계 인증)를 사용 합니다.
 
-Microsoft 365 및 Office 365 계획은 사용자 로그인의 보안을 서비스에 강화 하는 MFA (다단계 인증)를 지원 합니다. MFA를 사용 하는 경우 사용자는 암호를 올바르게 입력 한 후에 smartphone에서 전화 통화, 문자 메시지 또는 앱 알림을 승인 해야 합니다. 이 두 번째 인증 요소가 충족 된 후에만 사용자가 로그인 할 수 있습니다.
+- 사용자가 확인 코드를 입력 해야 하는 전화기로 전송 된 문자 메시지입니다.
+- 전화 통화.
+- Microsoft Authenticator 스마트 폰 앱.
+- 하이브리드 id 및 페더레이션 인증에서 사용할 수 있는 다른 방법
 
-Microsoft 팀이 포함 된 Microsoft 365 또는 Office 365 요금제에서는 다중 요소 인증이 지원 됩니다. Microsoft 팀이 포함 된 구독 계획에 대 한 자세한 내용은 아래 라이선스 섹션을 참고 하세요.
+MFA는 Microsoft 팀이 포함 된 Microsoft 365 또는 Office 365 요금제에서 지원 됩니다. 팀 서비스 관리자와 같이 [관리자 역할이 할당](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)된 해당 계정에 대 한 MFA가 최소한으로 필요한 지 여부를 적극 권장 합니다.
 
-사용자가 MFA에 등록 되 면 다음에 사용자가 로그인 할 때 두 번째 인증 요소를 설정 하 라는 메시지가 표시 됩니다. 지원 되는 인증 방법은 다음과 같습니다.
+또한 사용자에 게 MFA를 배포 해야 합니다. 사용자가 MFA에 등록 되 면 다음에 로그인 할 때 추가 확인 방법을 설정 하 라는 메시지가 표시 됩니다. 
 
-
-|테 넌 트 형식  |사용 가능한 MFA 두 번째 요소 옵션  |상속자  |
-|---------|---------|---------|
-|**클라우드만**     |Microsoft 365 또는 Office 365 용 MFA <ul><li>전화 통화</li><li>문자 메시지</li><li>모바일 앱 알림</li><li>모바일 앱 확인 코드</li></ul>        | |
-|**하이브리드 설정 (동기화 또는 페더레이션 Id 모델)**     |<ul><li>Microsoft 365 또는 Office 365 용 MFA</li><li>Azure MFA 모듈 (ADF 통합)</li><li>실제 또는 가상 스마트 카드 (ADF 통합)</li></ul>         |참고: [AZURE AD Id 공급자 호환성 문서](https://www.microsoft.com/download/details.aspx?id=56843) 에서는 추가 MFA 솔루션을 사용할 수 있습니다.         |
+자세한 내용은 [Microsoft 365에 대 한 다단계 인증](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)을 참조 하세요.

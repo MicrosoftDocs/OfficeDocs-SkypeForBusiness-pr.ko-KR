@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 339f914ee1802fd4c9307e2a2f3e7faf20ac8eb4
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158696"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277289"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 목록 앱 관리
 
@@ -78,7 +78,7 @@ SharePoint에 설정 된 사용 권한은 목록 앱에서 만든 목록에 적�
 
 목록이 있으면 사용자가 데스크톱, 웹, 모바일 환경을 이용할 수 있습니다. 사용자가 새 목록을 만들거나 팀 모바일 클라이언트의 목록을 사용 하 여 기존 목록을 고정할 수는 없다는 것이 중요 합니다. 팀 모바일 클라이언트에서 목록을 보거나 편집 하려면 먼저 팀 바탕 화면 또는 웹 클라이언트의 목록을 사용 하 여 목록을 만들거나 추가 해야 합니다.
 
-[개인 채널](private-channels.md) 의 게스트는 목록을 만들거나 삭제 하거나 목록 항목에 대 한 새 대화를 시작할 수 없습니다. 기존 목록에 목록 항목을 추가 하 고 목록 항목에 대 한 기존 대화에 회신할 수 있습니다. 이러한 제한은 개인 채널에만 적용 된다는 점에 유의 하세요.
+게스트는 목록을 만들거나 삭제할 수 없습니다. 기존 목록에 목록 항목을 추가 하 고, 목록 항목에 대 한 새 대화를 시작 하 고, 목록 항목에 대 한 기존 대화에 회신할 수 있습니다.
 
 ### <a name="lists-and-the-sharepoint-app"></a>목록 및 SharePoint 앱
 
@@ -115,3 +115,7 @@ SharePoint에 설정 된 사용 권한은 목록 앱에서 만든 목록에 적�
 ## <a name="give-feedback-or-report-an-issue"></a>피드백 제공 또는 문제 보고
   
 의견을 보내거나 문제를 신고 하려면 팀에서 왼쪽 탐색의 아래쪽에 있는 **도움말** 을 클릭 한 다음 **문제 보고**를 선택 합니다. **목록을**선택 하 고 발생 한 문제에 대 한 피드백 또는 세부 정보를 입력 합니다.
+
+## <a name="related-topics"></a>관련 항목
+
+- [도움말 문서를 표시 합니다.](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

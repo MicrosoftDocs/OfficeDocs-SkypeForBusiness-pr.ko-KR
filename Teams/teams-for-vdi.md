@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d47361cd075fd5165e6f7e66fd76ad4ce1eb11
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b0d7d20c9faa8dd214c73e1ea759d32c931c7442
+ms.sourcegitcommit: 4f7870f0958a3c73bbf57ad4d4f6b228f8dead73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820612"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286114"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -413,7 +413,13 @@ VDI와 관련 되지 않은 팀의 알려진 문제점은 [조직의 지원 팀]
 
 ### <a name="troubleshoot-citrix-components"></a>Citrix 구성 요소 문제 해결
 
-VDA 및 CWA 문제를 해결 하는 방법에 대 한 자세한 내용은 [이 Citrix 웹 사이트](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)를 참조 하세요.
+#### <a name="teams-crashes-or-the-teams-sign-in-screen-is-blank"></a>팀의 작동이 중단 되거나 팀 로그인 화면이 비어 있음
+
+이것은 Citrix VDA 버전 1906 및 1909에서 발생 하는 알려진 문제입니다. 이 문제를 해결 하려면 다음 레지스트리 DWORD 값을 추가 하 고 204 (16 진수)으로 설정 합니다.
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
+
+그런 다음 VDA을 다시 시작 합니다. 자세한 내용은이 Citrix 지원 문서, [팀에 대 한 HDX 최적화 문제 해결](https://support.citrix.com/article/CTX253754)을 참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -17,14 +17,21 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 팀의 환자 앱을 Azure API에 연결 하는 방법 (신속한 의료 상호 운용성 리소스)에 대해 알아보세요.
-ms.openlocfilehash: 92c5b033215b0e5520b0321042d52579dfb019bf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: cf59b7bddbd1a480a2e1a2f7d9381f3fdf59d210
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827726"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277302"
 ---
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>환자 앱을 FHIR용 Azure API에 연결
+
+> [!IMPORTANT]
+> **2020 년 9 월 30 일에 효력을 환자 앱은 더 이상 사용 되지 않으며 사용자는 더 이상 팀 앱 스토어에서 설치할 수 없게 됩니다. 지금 팀에서 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 사용을 시작 하는 것이 좋습니다.**
+>
+>환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱이 종료 되 면 관련 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 현재 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
+>
+>[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 목록에서 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져오면 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 다음 단계에 따라 Microsoft 팀의 환자 앱이 FTO r 인스턴스에 대 한 Azure API에 액세스할 수 있도록 허용 합니다. 이 문서에서는 테 넌 트에 [FTO r 인스턴스를](https://azure.microsoft.com/services/azure-api-for-fhir/) 설정 하 고 구성 하는 Azure API를 사용 하 고 있다고 가정 합니다.  테 넌 트에 FTO r 인스턴스에 대 한 Azure API를 아직 만들지 않은 경우 [빠른 시작: azure 포털을 사용 하 여 AZURE Api 배포](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart)를 참조 하세요.
 
@@ -48,8 +55,8 @@ ms.locfileid: "41827726"
 
     ![Azure 포털의 인증 설정 스크린샷](../../media/patients-app-azure-portal-authentication.png)
 
-6. **저장**을 클릭 합니다. 이렇게 하면 인스턴스가 다시 배포 되 고 몇 분 정도 걸릴 수 있습니다.
-7. **개요**를 클릭 한 다음 **fa r 메타 데이터 끝점**에서 URL을 복사 합니다. 메타 데이터 태그를 제거 하 여 FA r 서버 URL을 가져옵니다. 예를 https://test02-teamshealth.azurehealthcareapis.com/들어. 
+6. **저장**을 클릭합니다. 이렇게 하면 인스턴스가 다시 배포 되 고 몇 분 정도 걸릴 수 있습니다.
+7. **개요**를 클릭 한 다음 **fa r 메타 데이터 끝점**에서 URL을 복사 합니다. 메타 데이터 태그를 제거 하 여 FA r 서버 URL을 가져옵니다. 예를 들어 https://test02-teamshealth.azurehealthcareapis.com/ . 
 
     ![Azure 포털의 메타 데이터 끝점 스크린샷](../../media/patients-app-azure-portal-metadata-endpoint.png)
 

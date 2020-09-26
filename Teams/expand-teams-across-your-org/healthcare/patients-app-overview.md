@@ -17,14 +17,21 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 팀 용 환자 앱 관리자
-ms.openlocfilehash: 8424defb7d9fa6359600a99c3c19fdf0b8c4dd28
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: c377ce2db985b19fa576df9519ebd602b56814eb
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350152"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277246"
 ---
 # <a name="patients-app-overview"></a>환자 앱 개요
+
+> [!IMPORTANT]
+> **2020 년 9 월 30 일에 효력을 환자 앱은 더 이상 사용 되지 않으며 사용자는 더 이상 팀 앱 스토어에서 설치할 수 없게 됩니다. 지금 팀에서 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 사용을 시작 하는 것이 좋습니다.**
+>
+>환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱이 종료 되 면 관련 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 현재 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
+>
+>[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 목록에서 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져오면 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 환자 응용 프로그램은 모든 팀 사용자가 사용할 수 있는 Microsoft 팀 스토어 앱입니다. 앱은 임상 팀 (예: Nurses, 의사, 사교 작업자)으로 구성 되는 환자 팀에서 환자 목록을 반올림 및 검토 하 여 라운드 및 interdisciplinary 팀 모임에서 일반 환자 모니터링에 이르기까지 다양 한 시나리오를 만들 수 있습니다.
 

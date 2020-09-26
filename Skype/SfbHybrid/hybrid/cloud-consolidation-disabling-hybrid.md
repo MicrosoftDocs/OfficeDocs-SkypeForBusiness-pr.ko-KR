@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 부록에는 팀 및 비즈니스용 Skype에 대 한 클라우드 통합의 일부로 서 하이브리드를 사용 하지 않도록 설정 하는 자세한 단계가 포함 되어 있습니다.
-ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 93aad1ea230d9edbb81673a3ddabc7088b06d422
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269662"
+ms.locfileid: "48277252"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
 
@@ -46,9 +46,6 @@ ms.locfileid: "48269662"
 >Azure AD를 통해 Active Directory sync의 Msrtcsip-gateways 특성을 Azure AD에 연결 하는 작업을 계속 수행 해야 합니다.  이 기능을 지원 하지 않으면 이러한 특성을 지우지 않습니다.  온-프레미스 환경에서 사용 안 함-CsUser를 실행 하지 마십시오. 사용자의 SIP 주소를 수정 해야 하는 경우 온-프레미스 Active Directory에서이 작업을 수행 하 고 아래 설명 된 대로 Azure ad를 통해 Azure AD를 통해이 변경 내용을 동기화 하도록 합니다. 마찬가지로 전화 번호를 변경 해야 하는 경우 사용자의 LineURI가 이미 온-프레미스에 정의 되어 있는 경우 온-프레미스 Active Directory에서이를 수정 해야 합니다.
 >온-프레미스에서 마이그레이션한 후 온-프레미스 Msrtcsip-gateways 특성을 지우면 사용자에 대 한 서비스가 손실 될 수 있습니다.
 
-> [!Note] 
-> 드문 경우이 든 조직의 온-프레미스에서 Microsoft 365 또는 Office 365로 DNS를 변경 하면 다른 조직에서 페더레이션 구성을 업데이트할 때까지 다른 조직과의 페더레이션이 작동 하지 않을 수 있습니다.<ul><li>
-이전 직접 페더레이션 모델 (허용 된 파트너 서버 라고도 함)을 사용 하는 모든 페더레이션 조직에서는 프록시 FQDN을 제거 하기 위해 조직에 대해 허용 되는 도메인 항목을 업데이트 해야 합니다. 이 레거시 페더레이션 모델은 DNS SRV 레코드를 기반으로 하지 않으므로 이러한 구성은 조직이 클라우드로 이동한 후에 최신 상태가 되지 않게 됩니다. </li><li>Sipfed.online.lync.com> <span> 에 대해 호스팅 공급자가 사용 하도록 설정 되지 않은 페더레이션 조직입니다. com은 해당 구성을 사용 하도록 구성 해야 합니다. 이 상황은 페더레이션 조직이 전적으로 온 적이 있고 하이브리드 또는 온라인 테 넌 트와도 페더레이션 되지 않은 경우에만 가능 합니다. 이러한 경우 이러한 조직과의 페더레이션은 호스팅 공급자를 사용 하도록 설정할 때까지 작동 하지 않습니다.</li></ul>페더레이션 파트너가 직접 페더레이션을 사용 하거나 온라인 또는 하이브리드 조직과 페더레이션 되어 있다고 생각 되는 경우 클라우드로의 마이그레이션을 완료 하기 위해 준비할 때 이러한 정보를이에 대 한 통신으로 보내는 것이 좋습니다.
 
 1.  *Microsoft 365 또는 Office 365를 가리키도록 DNS를 업데이트 합니다.*
 비즈니스용 Skype 레코드가 온-프레미스 배포 대신 Microsoft 365 또는 Office 365를 가리키도록 온-프레미스 조직에 대 한 조직의 외부 DNS를 업데이트 해야 합니다. 특히 다음 사항에 유의합니다.
