@@ -18,28 +18,21 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ec30e455a79ee37a107509e7c179dd859732b1e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d72007a4bde0db2890a889580ee92c8dab72ad1e
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780577"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262515"
 ---
 # <a name="microsoft-teams-for-realwear"></a>RealWear용 Microsoft Teams
-
-> [!NOTE]
-> 미리보기 또는 초기 릴리스 기능입니다.
 
 이 문서는 RealWear head wearables용 Microsoft Teams 클라이언트에 대해 설명합니다. RealWear HMT-1 및 HMT-1Z1을 사용하는 FirstLine 작업자는 이제 팀에서 화상 통화를 사용하여 원격 전문가와 협력할 수 있습니다. RealWear용 Teams는 음성으로 제어되는 사용자 인터페이스를 통해 현장 작업자가 100 % 핸즈프리 상태를 유지하면서 크고 위험한 환경에서 상황 인식을 유지합니다. 필드 직원은 실시간으로 해당 사용자에게 표시되는 내용을 표시하여 문제를 해결하는 시간을 단축하고 비싼 가동 중지 시간의 위험을 줄일 수 있습니다.
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>RealWear용 Microsoft Teams를 배포하는 방법
 
-RealWear용 Microsoft Teams 클라이언트는 현재 공개 미리 보기 상태입니다. 이 미리 보기에 참여하려면 다음이 필요합니다.
-
-RealWear 장치를 릴리스 10.5.0이상으로 업데이트했습니다. [여기](https://realwear.com/knowledge-center/configure-on-release-10/wireless-update/)에서 자세한 내용을 확인하세요.
-
-> [!IMPORTANT]
-> [RealWear Foresight](https://cloud.realwear.com/)에서 RealWear용 Teams 클라이언트에 액세스하려면 [여기](https://www.realwear.com/solutions/microsoft-teams/#C1)에 등록하세요.
+- RealWear 장치를 릴리스 11.2이상으로 업데이트했습니다. [여기](https://realwear.com/knowledge-center/configure-on-release-10/wireless-update/)에서 자세한 내용을 확인하세요.
+- Realwear용 Microsoft Teams 클라이언트를 배포하는 데 필요한 [RealWear Foresight](https://cloud.realwear.com/)에 액세스합니다.
 
 ## <a name="required-licenses"></a>필수 라이선스
 
