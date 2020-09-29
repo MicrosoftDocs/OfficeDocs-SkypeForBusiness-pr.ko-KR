@@ -19,21 +19,21 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7878c6dc4e4b632668a0db298a9dc086cf554429
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: ee4ab53318766b8daaeea225f8c039e32c8c4241
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135842"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294604"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Microsoft Graph를 사용 하 여 팀 서식 파일 시작
 
 > [!NOTE]
 > 팀 템플릿은 현재 개인 채널 만들기를 지원 하지 않습니다. 개인 채널 만들기는 서식 파일 정의에 포함 되지 않습니다.
 
-팀 템플릿은 비즈니스 요구 또는 프로젝트를 기준으로 설계 된 팀의 구조에 대 한 미리 작성 된 정의입니다. 고유한 서식 파일을 만들 수 없습니다. 대신 Microsoft Graph를 사용 하 여 미리 작성 된 서식 파일을 사용 합니다. 팀 서식 파일을 사용 하 여 다양 한 주제 및 사전 설치 앱에 대 한 채널을 사용 하 여 업무에 중요 한 콘텐츠 및 서비스에 대 한 공동 작업 공간을 빠르게 만들 수 있습니다. 팀 서식 파일은 조직에서 일관 된 팀을 쉽게 만들 수 있도록 미리 정의 된 팀 구조를 제공 합니다.
+팀 템플릿은 비즈니스 요구 또는 프로젝트를 기준으로 설계 된 팀의 구조에 대 한 미리 작성 된 정의입니다. [관리 콘솔에서 고유한 서식 파일을 만들](get-started-with-teams-templates-in-the-admin-console.md)수 있습니다. Microsoft Graph에서는 미리 작성 된 서식 파일을 사용 합니다. 팀 서식 파일을 사용 하 여 다양 한 주제 및 사전 설치 앱에 대 한 채널을 사용 하 여 업무에 중요 한 콘텐츠 및 서비스에 대 한 공동 작업 공간을 빠르게 만들 수 있습니다. 팀 서식 파일은 조직에서 일관 된 팀을 쉽게 만들 수 있도록 미리 정의 된 팀 구조를 제공 합니다.
 
-이 문서에서는 템플릿에서 정의할 수 있는 속성, 기본 서식 파일 형식, 몇 가지 샘플 요청을 사용 하 여 서식 파일에서 팀을 만드는 방법에 대해 설명 합니다.
+이 문서에서는 템플릿에서 정의할 수 있는 속성, 기본 템플릿 형식, 몇 가지 샘플 요청을 사용 하 여 템플릿에서 팀을 만드는 방법에 대해 설명 합니다.
 
 이 문서는 다음과 같은 경우에 적합 합니다.
 
@@ -60,11 +60,11 @@ ms.locfileid: "48135842"
 
 ## <a name="what-are-base-template-types"></a>기본 서식 파일 형식
 
-기본 서식 파일 형식은 Microsoft에서 특정 산업에 대해 만든 특수 서식 파일입니다. 이러한 기본 서식 파일에는 팀 템플릿에서 개별적으로 지원 되지 않는 저장소 및 팀 속성에서 사용할 수 없는 독점 앱이 포함 되는 경우가 많습니다. [관리 콘솔에서 팀 템플릿을](get-started-with-teams-templates.md)사용 하는 방법에 대해 알아봅니다.
+기본 서식 파일 형식은 Microsoft에서 특정 산업에 대해 만든 특수 서식 파일입니다. 이러한 기본 서식 파일에는 주로 스토어에서 사용할 수 없는 독점 앱이 포함 되어 있습니다. 또한 기본 템플릿에는 아직 팀 템플릿에서 개별적으로 지원 되지 않는 팀 속성이 포함 되는 경우가 많습니다. [Microsoft Graph에서 팀 서식 파일](get-started-with-teams-templates.md)을 사용 하는 방법에 대해 알아봅니다.
 
-기본 서식 파일 형식을 정의한 후에는 지정 하려는 추가 속성을 사용 하 여 이러한 특수 템플릿을 확장 하거나 재정의할 수 있습니다. 그러나 일부 기본 서식 파일 형식에는 재정의할 수 없는 속성이 포함 되어 있습니다.
+기본 서식 파일 형식을 정의한 후에는 지정 하려는 추가 속성을 사용 하 여 이러한 특수 템플릿을 확장 하거나 재정의할 수 있습니다. 일부 기본 서식 파일 형식에 재정의할 수 없는 속성이 포함 되어 있습니다.
 
-기본적으로 기본 서식 파일에는 추가 독점 앱 또는 특수 속성이 포함 되지 않은 **표준** 으로 설정 되어 있습니다. 다음은 사용 가능한 기본 서식 파일 형식의 현재 목록입니다.
+기본적으로 기본 서식 파일은 **표준**으로 설정 되어 있으며, 여기에는 추가 독점 앱 또는 특수 속성이 포함 되지 않습니다. 다음은 사용 가능한 기본 서식 파일 형식의 현재 목록입니다.
 
 | 기본 서식 파일 형식 | baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -80,9 +80,7 @@ ms.locfileid: "48135842"
 
 ## <a name="related-topics"></a>관련 항목
 
+- [관리 콘솔에서 팀 서식 파일 시작](get-started-with-teams-templates-in-the-admin-console.md)
 - [팀 만들기](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (미리 보기)
 - [신규-팀](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft 팀의 관리 교육](itadmin-readiness.md)
-- [소매 Teams 서식 파일 시작](get-started-with-retail-teams-templates.md)
-- [의료 조직을 위한 Teams 서식 파일 시작](expand-teams-across-your-org/healthcare/healthcare-templates.md)
-- [관리 콘솔에서 팀 서식 파일 시작](get-started-with-teams-templates-in-the-admin-console.md)

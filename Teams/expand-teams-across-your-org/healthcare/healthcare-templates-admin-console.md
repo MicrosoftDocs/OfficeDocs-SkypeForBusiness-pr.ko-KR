@@ -18,17 +18,14 @@ appliesto:
 ms.reviewer: ''
 description: 관리 콘솔에서 Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 서식 파일, 채널 및 앱 템플릿을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171092"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294584"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>관리 콘솔에서 팀 의료 템플릿 사용
-
-[!INCLUDE [template](../../includes/preview-feature.md)]
 
 Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 
@@ -38,7 +35,7 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 ## <a name="collaborate-on-patient-care"></a>환자 관리에 대 한 공동 작업
 
- 통합, pod 또는 부서 내에서 건강 보험 통신과 공동 작업을 합리화 하세요. 이 서식 파일을 사용 하 여 환자 관리를 비롯 하 여 한 가지 작업에 대 한 운영 요구를 활용할 수 있습니다.
+ 통합, pod 또는 부서 내에서 건강 보험 통신과 공동 작업을 합리화 하세요. 서식 파일을 사용 하 여 환자 관리 및 운영 요구를 활용할 수 있습니다.
 
 | 기본 서식 파일 형식 |baseTemplateId| 이 기본 서식 파일에 포함 된 속성 |
 | ------------------ |---|----------------------------------------------------- |
@@ -47,7 +44,7 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 ## <a name="hospital"></a>병원
 
-병원에서 여러 wards, pods, 부서 간의 의사 소통 및 공동 작업을 간소화 합니다. 이 서식 파일에는 병원 작업에 대 한 기본 채널 집합이 포함 되어 있으며, 자격증, ad-hoc을 포함 하도록 자체 확장할 수 있습니다.
+병원에서 여러 wards, pods, 부서 간의 의사 소통 및 공동 작업을 간소화 합니다. 이 서식 파일에는 병원 작업을 위한 기본 채널 집합이 포함 되며, 자격증, ad-hoc을 포함 하도록 자체 확장할 수 있습니다.
 
 | 기본 서식 파일 형식 |baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
 | ------------------|-- |----------------------------------------------------- |

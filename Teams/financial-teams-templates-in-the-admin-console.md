@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 팀 서식 파일을 사용 하 여 관리 콘솔을 사용 하는 미리 정의 된 설정, 채널 및 사전 설치 앱을 제공 하 여 재무 요구 사항에 맞게 설계한 팀 구조를 만드는 방법을 알아봅니다.
+description: 사용 방법에 대해 알아보세요. 관리 콘솔을 사용 하 여 미리 정의 된 설정, 채널 및 사전 설치 앱을 제공 하 여 재무 요구 사항에 맞게 디자인 한 팀 구조를 만들 수 있습니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,25 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 270e03d58a89cf35132f254d2dd1af55d894e8d0
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8273e63213b6a0c3d99d6ef66cb778a2541c0327
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136113"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294414"
 ---
 # <a name="use-teams-financial-templates-in-the-admin-console"></a>관리 콘솔에서 팀 재무 서식 파일 사용
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 
 팀 템플릿에는 재무 요구에 따라 디자인 된 팀 구조 정의가 미리 작성 되어 있습니다. 팀 템플릿을 확장 하 여 특정 조직의 요구 사항에 맞게 조정 된 팀을 만들 수도 있습니다.
 
-이 문서에서는 각 팀 서식 파일과이를 사용 하는 방법을 소개 합니다.
+이 문서에서는 각 팀 템플릿을 소개 하 고 사용 방법을 추천 합니다.
 
-이 문서에서는 재무 조직에서 여러 팀을 계획, 배포 및 관리 하는 책임이 있습니다. 조직에 이미 팀 서비스를 배포 했다고 가정 합니다. 아직 팀을 롤아웃하기 않은 경우 먼저 [Microsoft 팀을 배포 하는 방법을](How-to-roll-out-teams.md)읽어 보세요.
+이 문서에서는 재무 조직에서 여러 팀을 계획, 배포 및 관리 하는 책임이 있습니다. 조직에 이미 팀 서비스를 배포 했습니다. 아직 팀을 롤아웃하기 않은 경우 먼저 [Microsoft 팀을 배포 하는 방법을](How-to-roll-out-teams.md)읽어 보세요.
 
 일반적으로 팀 서식 파일에 대 한 자세한 내용은 [팀 서식 파일 시작](get-started-with-teams-templates-in-the-admin-console.md)을 참조 하세요.
 

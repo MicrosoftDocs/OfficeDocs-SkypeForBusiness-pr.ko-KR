@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 지역 및 회의실에 대 한 공통 영역 전화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 05338fe640ca80332eff3659d1a0ef96689d8d41
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: dfde8c601c0a52dc56a3d76903b788400a5b299a
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788752"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294464"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft 팀을 위한 공통 영역 전화 라이선스 설정
 > [!NOTE]
@@ -67,8 +67,8 @@ ms.locfileid: "46788752"
 |Microsoft Teams |   &#x2714; |
 |전화 시스템 |    &#x2714; |
 |오디오 회의 |       &#x2718; &sup1  |
-|Microsoft Intune |        &#x2718; &sup2 |
-|전세계 가용성 |    &#x2714; |
+|Microsoft Intune |    &#x2714; |
+|전세계 가용성 |       &#x2718; &sup2  |
 |채널 가용성 |    EA, EAS, CSP, GCC, EES, 웹 다이렉트  |
 |      |         |
 

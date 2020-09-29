@@ -19,25 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 077b66a8d5282254540a5b26a2af79c353f58f9b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216699"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294454"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>관리 콘솔에서 일반 팀 서식 파일 사용
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 
 팀 템플릿에는 재무 요구에 따라 디자인 된 팀 구조 정의가 미리 작성 되어 있습니다. 팀 템플릿을 확장 하 여 특정 조직의 요구 사항에 맞게 조정 된 팀을 만들 수도 있습니다.
 
-이 문서에서는 각 팀 서식 파일과이를 사용 하는 방법을 소개 합니다.
+이 문서에서는 각 팀 템플릿을 소개 하 고 사용 방법을 추천 합니다.
 
-이 문서에서는 재무 조직에서 여러 팀을 계획, 배포 및 관리 하는 책임이 있습니다. 조직에 이미 팀 서비스를 배포 했다고 가정 합니다. 아직 팀을 롤아웃하기 않은 경우 먼저 [Microsoft 팀을 배포 하는 방법을](How-to-roll-out-teams.md)읽어 보세요.
+이 문서에서는 재무 조직에서 여러 팀을 계획, 배포 및 관리 하는 책임이 있습니다. 조직에 이미 팀 서비스를 배포 했습니다. 팀이 없는 경우 먼저 [Microsoft 팀을 배포 하는 방법을](How-to-roll-out-teams.md)읽어 보세요.
 
 일반적으로 팀 서식 파일에 대 한 자세한 내용은 [팀 서식 파일 시작](get-started-with-teams-templates-in-the-admin-console.md)을 참조 하세요.
 
@@ -72,7 +69,7 @@ ms.locfileid: "48216699"
 
 멋진 이벤트를 제공 하는 데 필요한 모든 작업을 관리 하 고, 문서 및 공동 작업을 수행 합니다. 회사 내부와 외부에서 안전한 공동 작업을 할 수 있도록 게스트 사용자를 초대 합니다.
 
-앱 사용 권한 정책에 따라 특정 앱에 대 한 액세스 권한이 없을 수 있습니다.
+앱 권한 정책에 따라 특정 앱에 대 한 액세스 권한이 없을 수 있습니다.
 
 | 기본 서식 파일 형식 | baseTemplateId| 이 기본 서식 파일에 포함 된 속성 |
 | ------------------ |--|----------------------------------------------------- |

@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0edb682f4d39e6371c68029f6014945d3de441c9
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 89489ff40cf42fb297ab5ea6b5d61cbc874d272b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219089"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294564"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Microsoft 팀의 기존 팀 서식 파일에서 새 서식 파일 만들기
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **사용자 지정 서식 파일은 현재 .EDU 고객에 대해 지원 되지 않습니다.**
 
@@ -72,6 +69,9 @@ Microsoft 팀은 특정 조직의 요구 사항에 맞게 저장 하 고 수정�
 7. 채널 및 앱 추가를 마쳤으면 **제출을** 선택 합니다.
 
     새 서식 파일이 서식 파일 라이브러리에 저장 됩니다.
+
+> [!Note]
+> 팀 사용자는 갤러리에서 사용자 지정 서식 파일을 표시 하는 데 최대 24 시간이 걸릴 수 있습니다.
 
 ## <a name="related-articles"></a>관련 문서
 

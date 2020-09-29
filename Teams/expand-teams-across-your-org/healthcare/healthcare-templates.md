@@ -18,20 +18,20 @@ appliesto:
 ms.reviewer: ''
 description: Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 설정 서식 파일, 채널 및 앱을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7f5fbeb967b72a25e4df5dee6f0597c3140d85b6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756607"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294443"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직을 위한 Teams 서식 파일 시작
+# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>Microsoft Graph를 사용 하는 건강 보험 조직의 팀 서식 파일 시작
 
 Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 
-건강 보험 조직의 경우, 사용자가 팀을 효과적으로 활용 하는 방법에 대 한 구조를 제공 하는 것 처럼 서식 파일을 사용 하는 것이 특히 좋을 수 있습니다. 또한 서식 파일을 사용 하면 관리자가 조직 간에 일관 된 팀을 배포할 수 있습니다. 이 문서는 의료 기관에서 여러 팀을 계획, 배포 및 관리 해야 하는 경우에 적합 합니다.
+건강 보험 조직의 경우 사용자가 팀을 효과적으로 사용 하는 방법에 대 한 구조를 제공 하는 것 처럼 서식 파일은 특히 강력한 기능을 가질 수 있습니다. 또한 서식 파일을 사용 하면 관리자가 조직 간에 일관 된 팀을 배포할 수 있습니다. 이 문서는 의료 기관에서 여러 팀을 계획, 배포 및 관리 해야 하는 경우에 적합 합니다.
 
-현재 다양 한 상황에 활용할 수 있는 첫 번째 파티 건강 보험 템플릿을 제공 합니다. 팀 서식 파일에 대 한 일반적인 내용은 [팀 서식 파일 시작](../../get-started-with-teams-templates.md)을 참조 하세요.
+현재 다양 한 상황에 사용할 수 있는 제 2 자 건강 보험 템플릿을 제공 합니다. 팀 서식 파일에 대 한 일반적인 내용은 [팀 서식 파일 시작](../../get-started-with-teams-templates.md)을 참조 하세요.
 
 ## <a name="ward-template"></a>서식 파일
 
@@ -42,7 +42,7 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 |건강 보험 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 알림에서\* <br> Huddles\* <br> 소수\* <br> 자원\* <br> 교육\* |
 |     | |         |
 
-\*자동 즐겨찾기에
+\* 자동 즐겨찾기에
 
 ## <a name="hospital-template"></a>병원 서식 파일
 
@@ -50,10 +50,10 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 |기본 서식 파일 형식 |baseTemplateId |기준 서식 파일 채널|
 |:--- |:---|:---|
-|건강 보험-병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 알림에서\* <br> 충족\* <br> Custodial <br> 인적 자원 <br> Pharmacy |
+|건강 보험-병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 알림에서\* <br> 규정 준수\* <br> Custodial <br> 인적 자원 <br> Pharmacy |
 | | |  |
 
-\*자동 즐겨찾기에 
+\* 자동 즐겨찾기에 
 
 ## <a name="how-to-use-first-party-templates"></a>자사 서식 파일을 사용 하는 방법
 
@@ -169,3 +169,5 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 [Teams 서식 파일 시작](../../get-started-with-teams-templates.md)
 
 [의료 조직을 위한 Teams 시작](teams-in-hc.md)
+
+[관리 콘솔에서 팀 서식 파일 시작](../../get-started-with-teams-templates-in-the-admin-console.md)

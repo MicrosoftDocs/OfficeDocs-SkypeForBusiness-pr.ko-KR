@@ -18,17 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e3269a49072f9e050a139d9bd6463ab4c85a358d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218579"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294614"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>관리 콘솔에서 팀 서식 파일 시작
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **사용자 지정 서식 파일은 현재 .EDU 고객에 대해 지원 되지 않습니다.**
 
@@ -39,10 +36,7 @@ ms.locfileid: "48218579"
 
 이 문서에서는 템플릿에서 정의할 수 있는 속성, 기본 템플릿 형식, 몇 가지 샘플 요청을 사용 하 여 템플릿에서 팀을 만드는 방법에 대해 설명 합니다.
 
-이 문서는 다음과 같은 경우에 적합 합니다.
-
-- 조직에서 여러 팀을 계획, 배포 및 관리 하는 책임이 있습니다.<br>
-- 미리 정의 된 채널 및 앱을 사용 하 여 프로그래밍 방식으로 팀을 만드는 개발자
+이 문서는 조직에서 여러 팀을 계획, 배포 및 관리 하는 책임을 맡고 있는 사용자를 위한 것입니다.
 
 ## <a name="teams-template-capabilities"></a>팀 템플릿 기능
 
@@ -64,9 +58,9 @@ ms.locfileid: "48218579"
 
 ## <a name="what-are-base-template-types"></a>기본 서식 파일 형식
 
-기본 서식 파일 형식은 Microsoft에서 특정 산업에 대해 만든 특수 서식 파일입니다. 이러한 기본 서식 파일에는 종종 apps store에서 사용할 수 있는 독점 앱이 포함 되어 있습니다.
+기본 서식 파일 형식은 Microsoft에서 특정 산업에 대해 만든 특수 서식 파일입니다. 이러한 기본 서식 파일에는 종종 apps store에서 사용할 수 없는 독점 앱이 포함 되어 있습니다.
 
-기본 서식 파일 형식을 정의한 후에는 지정 하려는 추가 속성을 사용 하 여 이러한 특수 템플릿을 확장 하거나 재정의할 수 있습니다. 그러나 일부 기본 서식 파일 형식에는 재정의할 수 없는 속성이 포함 되어 있습니다.
+기본 서식 파일 형식을 정의한 후에는 지정 하려는 추가 속성을 사용 하 여 이러한 특수 템플릿을 확장 하거나 재정의할 수 있습니다. 일부 기본 서식 파일 형식에 재정의할 수 없는 속성이 포함 되어 있습니다.
 
 > [!NOTE]
 > Microsoft 팀에서 제공 하는 미리 정의 된 기본 서식 파일은 복제만 가능 하 고 편집할 수는 없습니다.
@@ -88,7 +82,7 @@ ms.locfileid: "48218579"
 |소매 관리자 공동 작업| `retailManagerCollaboration` |채널 <ul><li>일반<li>운영</li><li>배웁니다</li></ul> 들 <ul><li>키</li></ul>|
 ||||
 
-서식 파일 범주에 대 한 자세한 내용은 다음 범주를 참조 하세요.
+서식 파일 범주에 대 한 자세한 내용은 다음 범주를 참고 하세요.
 
 - [재무 서식 파일](financial-teams-templates-in-the-admin-console.md)
 - [일반 서식 파일](general-teams-templates-in-the-admin-console.md)

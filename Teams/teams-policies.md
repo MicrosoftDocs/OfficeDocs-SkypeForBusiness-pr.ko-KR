@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 9ed0bd3aadcde76835bb3d435429785ceaf562a2
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: ad7dadc60b1fb53a518ec5cab340739a89f6b044
+ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938147"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48297380"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft 팀에서 팀 정책 관리
 
-관리자는 Microsoft 팀에서 팀 정책을 사용 하 여 팀과 채널에서 조직의 사용자가 수행할 수 있는 작업을 제어할 수 있습니다. 예를 들어 사용자가 검색 결과 및 팀 갤러리에서 비공개 팀을 검색 하도록 허용할지 여부와 사용자가 개인 채널을 만들 수 있도록 허용 하도록 설정할 수 있습니다.
+관리자는 Microsoft 팀에서 팀 정책을 사용 하 여 팀과 채널에서 조직의 사용자가 수행할 수 있는 작업을 제어할 수 있습니다. 예를 들어 사용자가 개인 채널을 만들 수 있도록 허용할지 여부를 설정할 수 있습니다.
 
 **Teams**  >  Microsoft 팀 관리 센터에서 팀**팀 정책** 으로 이동해 서 팀 정책을 관리할 수 있습니다. 전역 (조직 차원의 기본) 정책을 사용 하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다.
 
@@ -46,10 +46,7 @@ ms.locfileid: "44938147"
 3. 정책의 이름과 설명을 입력합니다.
 
     ![팀 정책 설정 스크린샷](media/teams-policies.png)
-4. 원하는 설정을 선택 합니다.
-
-- **비공개 팀 검색** (비공개 미리 보기):<a name="discoverteams"> </a> 사용자가 검색 결과 및 팀 갤러리에서 비공개 팀을 검색할 수 있도록 하려면이 설정을 사용 합니다.
-- **개인 채널 만들기**: <a name="createchannels"> </a>이 설정을 사용 하면 사용자가 개인 채널을 만들 수 있습니다.
+4. 사용자가 개인 채널을 만들 수 있도록 허용할지 <a name="createchannels"> </a> 여부에 따라 **개인 채널 만들기**를 켜거나 끕니다.
 
 5. **저장**을 클릭합니다.
 
@@ -66,8 +63,6 @@ ms.locfileid: "44938147"
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>관련 항목
-
-[Teams에서 비공개 팀의 검색 관리](manage-discovery-of-private-teams.md)
 
 [팀의 비공개 채널](private-channels.md)
 

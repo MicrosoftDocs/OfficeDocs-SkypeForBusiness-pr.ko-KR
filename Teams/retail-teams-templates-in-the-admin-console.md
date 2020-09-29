@@ -19,17 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8b72fe7b1f101278d206d49f06203fe9841ba25f
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: c9e0a75c558888fcd1c558eb3f87718a85e22471
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171082"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294544"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>관리 콘솔에서 팀 소매 서식 파일 사용
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 
