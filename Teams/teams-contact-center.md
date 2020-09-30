@@ -13,212 +13,212 @@ f1.keywords:
 description: Microsoft 팀을 위한 서비스 (CCaaS) 솔루션의 통합 된 연락처 센터 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 533c407646fd3ce690a50296e2e7447330121e88
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: fa1ac16a488144e431e613126f63ddbf10861ab4
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177378"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308391"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a><span data-ttu-id="be98e-103">Microsoft 팀에 대 한 연락처 센터 통합</span><span class="sxs-lookup"><span data-stu-id="be98e-103">Contact Center integrations for Microsoft Teams</span></span>
+# <a name="contact-center-integrations-for-microsoft-teams"></a><span data-ttu-id="96cc7-103">Microsoft 팀에 대 한 연락처 센터 통합</span><span class="sxs-lookup"><span data-stu-id="96cc7-103">Contact Center integrations for Microsoft Teams</span></span>
 
-<span data-ttu-id="be98e-104">Microsoft 팀과 인기 있는 연락처 센터 솔루션을 통합 하는 것은 팀에 게 전화를 걸 수 있는 고객이 일반적으로 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-104">Integrating popular contact center solutions with Microsoft Teams is a common need for customers deploying Teams Calling capabilities.</span></span>  <span data-ttu-id="be98e-105">이 문서에서는 연락처 센터 솔루션을 Microsoft 팀과 통합 하는 방법과 Microsoft 팀에서 연결 된 연락처 센터 인증 프로그램에 참여 하는 파트너 솔루션에 대 한 추가 정보에 대해 간략하게 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-105">This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and additional information on the partner solutions participating in the Microsoft Teams Connected Contact Center Certification Program.</span></span>
+<span data-ttu-id="96cc7-104">Microsoft 팀과 인기 있는 연락처 센터 솔루션을 통합 하는 것은 팀에 게 전화를 걸 수 있는 고객이 일반적으로 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-104">Integrating popular contact center solutions with Microsoft Teams is a common need for customers deploying Teams Calling capabilities.</span></span>  <span data-ttu-id="96cc7-105">이 문서에서는 연락처 센터 솔루션을 Microsoft 팀과 통합 하는 방법과 Microsoft 팀에서 연결 된 연락처 센터 인증 프로그램에 참여 하는 파트너 솔루션에 대 한 추가 정보에 대해 간략하게 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-105">This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and additional information on the partner solutions participating in the Microsoft Teams Connected Contact Center Certification Program.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="be98e-106">연락 센터 통합 접근 권한 값에는 고급 통신 라이선스가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-106">Contact Center integration capability requires Advanced Communications license.</span></span> 
+> <span data-ttu-id="96cc7-106">연락 센터 통합 접근 권한 값에는 고급 통신 라이선스가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-106">Contact Center integration capability requires Advanced Communications license.</span></span> 
 
-## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a><span data-ttu-id="be98e-107">Microsoft 팀에 대 한 문의 센터 통합은 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="be98e-107">What is a Contact Center integration for Microsoft Teams?</span></span>
+## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a><span data-ttu-id="96cc7-107">Microsoft 팀에 대 한 문의 센터 통합은 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="96cc7-107">What is a Contact Center integration for Microsoft Teams?</span></span>
 
-<span data-ttu-id="be98e-108">오늘날의 대화 상대 센터는 지원 이상의 기능을 제공 하며, 고객 환경에서 브랜드와 함께 조작 및 필터링 되지 않은 피드백을 위한 주요 수단 중 하나로 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-108">Today’s contact centers provide much more than support – they act as one of the main vehicles for interaction and unfiltered feedback on a customer’s experience with a brand.</span></span> <span data-ttu-id="be98e-109">휴대폰, 전자 메일, 텍스트, 소셜, 당일 구매 프로세스와 관련 된 터치 포인트의 확장 볼륨 등을 사용 하는 것이 다양 한 채널의 범위 때문에 많은 조직이 다음과 같은 두 가지 현실에 대해 현실화 했습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-109">Due to the breadth of channels that today’s customers prefer to engage across – phone, email, text, social – and the expanded volume of touch points associated with present day purchase processes, many organizations have realized two additional realities:</span></span>
+<span data-ttu-id="96cc7-108">오늘날의 대화 상대 센터는 지원 이상의 기능을 제공 하며, 고객 환경에서 브랜드와 함께 조작 및 필터링 되지 않은 피드백을 위한 주요 수단 중 하나로 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-108">Today’s contact centers provide much more than support – they act as one of the main vehicles for interaction and unfiltered feedback on a customer’s experience with a brand.</span></span> <span data-ttu-id="96cc7-109">휴대폰, 전자 메일, 텍스트, 소셜, 당일 구매 프로세스와 관련 된 터치 포인트의 확장 볼륨 등을 사용 하는 것이 다양 한 채널의 범위 때문에 많은 조직이 다음과 같은 두 가지 현실에 대해 현실화 했습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-109">Due to the breadth of channels that today’s customers prefer to engage across – phone, email, text, social – and the expanded volume of touch points associated with present day purchase processes, many organizations have realized two additional realities:</span></span>
 
-1. <span data-ttu-id="be98e-110">조직의 모든 구성원은 고객을 직접 사용 하는 데 참여할 수 있으므로 적절 한 도구를 장착 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-110">Every member of the organization has the potential to be involved in engaging a customer directly and therefore needs to be equipped with the appropriate tools.</span></span>
+1. <span data-ttu-id="96cc7-110">조직의 모든 구성원은 고객을 직접 사용 하는 데 참여할 수 있으므로 적절 한 도구를 장착 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-110">Every member of the organization has the potential to be involved in engaging a customer directly and therefore needs to be equipped with the appropriate tools.</span></span>
 
-2. <span data-ttu-id="be98e-111">이러한 확장 된 고객 조작 범위에는 일관성, 지속적인 향상, 확장성을 유지 하는 데 도움이 될 수 있는 도구가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-111">This expanded scope of customer interactions requires tools that can help drive consistency, constant improvement, and scale.</span></span>
+2. <span data-ttu-id="96cc7-111">이러한 확장 된 고객 조작 범위에는 일관성, 지속적인 향상, 확장성을 유지 하는 데 도움이 될 수 있는 도구가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-111">This expanded scope of customer interactions requires tools that can help drive consistency, constant improvement, and scale.</span></span>
 
-<span data-ttu-id="be98e-112">Microsoft 팀은 채팅, 영상 모임, 통화 등의 커뮤니케이션 모드에서 내부 및 외부 고객 연결을 위한 허브 역할을 하 여 고객 조작 작업 스트림을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-112">Microsoft Teams supports customer interaction work streams by acting as the hub for internal and external customer connection across its modes of communication including chat, video meetings and calling.</span></span> <span data-ttu-id="be98e-113">일부 회사의 경우 [자동 전화 교환](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) 및 [통화 대기열](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)을 비롯 한 Microsoft 팀의 [클라우드 음성 기능은](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)필요에 맞게 기능 및 구성을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-113">For some companies, Microsoft Teams’ [cloud voice capabilities](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page), including [auto attendant](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) and [call queues](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue), provide the features and configuration to meet their needs.</span></span>
+<span data-ttu-id="96cc7-112">Microsoft 팀은 채팅, 영상 모임, 통화 등의 커뮤니케이션 모드에서 내부 및 외부 고객 연결을 위한 허브 역할을 하 여 고객 조작 작업 스트림을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-112">Microsoft Teams supports customer interaction work streams by acting as the hub for internal and external customer connection across its modes of communication including chat, video meetings and calling.</span></span> <span data-ttu-id="96cc7-113">일부 회사의 경우 [자동 전화 교환](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) 및 [통화 대기열](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)을 비롯 한 Microsoft 팀의 [클라우드 음성 기능은](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)필요에 맞게 기능 및 구성을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-113">For some companies, Microsoft Teams’ [cloud voice capabilities](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page), including [auto attendant](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) and [call queues](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue), provide the features and configuration to meet their needs.</span></span>
 
-<span data-ttu-id="be98e-114">Microsoft 팀은 고객 여행을 위해 비즈니스 도구 및 워크플로와 통합 된 솔루션을 원하는 다른 사용자를 위해 업계의 주요 연락 센터가 서비스 (CCaaS) 솔루션 공급자로 통합 됩니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-114">For others who desire integrated solutions with business tools and workflows to drive the customer journey, Microsoft Teams also integrates with some of the industry’s leading Contact Center as a Service (CCaaS) solution providers.</span></span>
+<span data-ttu-id="96cc7-114">Microsoft 팀은 고객 여행을 위해 비즈니스 도구 및 워크플로와 통합 된 솔루션을 원하는 다른 사용자를 위해 업계의 주요 연락 센터가 서비스 (CCaaS) 솔루션 공급자로 통합 됩니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-114">For others who desire integrated solutions with business tools and workflows to drive the customer journey, Microsoft Teams also integrates with some of the industry’s leading Contact Center as a Service (CCaaS) solution providers.</span></span>
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a><span data-ttu-id="be98e-115">Microsoft 팀 인증 프로그램에 연결 된 연락처 센터</span><span class="sxs-lookup"><span data-stu-id="be98e-115">Connected Contact Center for Microsoft Teams Certification Program</span></span>
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a><span data-ttu-id="96cc7-115">Microsoft 팀 인증 프로그램에 연결 된 연락처 센터</span><span class="sxs-lookup"><span data-stu-id="96cc7-115">Connected Contact Center for Microsoft Teams Certification Program</span></span>
 
-<span data-ttu-id="be98e-116">팀에 대 한 솔루션을 개발 하 고 통합 하는 데 파트너를 허용 하는 Api는 고급 통신 라이선스를 통해 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-116">The APIs allowing partners to develop and integrate CCaaS solutions for Teams are available with Advanced Communications license.</span></span> <span data-ttu-id="be98e-117">또한 microsoft 팀 인증 프로그램에 대 한 연결 된 연락처 센터를 개발 하 여 고객에 게 Microsoft 솔루션에서 기대 하는 품질, 호환성 및 안정성을 제공 하기 위해 각 참여 파트너의 솔루션을 테스트 하 고 확인 했음을 보증 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-117">In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.</span></span>
+<span data-ttu-id="96cc7-116">팀에 대 한 솔루션을 개발 하 고 통합 하는 데 파트너를 허용 하는 Api는 고급 통신 라이선스를 통해 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-116">The APIs allowing partners to develop and integrate CCaaS solutions for Teams are available with Advanced Communications license.</span></span> <span data-ttu-id="96cc7-117">또한 microsoft 팀 인증 프로그램에 대 한 연결 된 연락처 센터를 개발 하 여 고객에 게 Microsoft 솔루션에서 기대 하는 품질, 호환성 및 안정성을 제공 하기 위해 각 참여 파트너의 솔루션을 테스트 하 고 확인 했음을 보증 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-117">In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.</span></span>
 
-<span data-ttu-id="be98e-118">다음 파트너는 Microsoft 팀의 솔루션을 인증 하 고 고객에 게 참여할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-118">The following partners are in the process of certifying their solution for Microsoft Teams and are ready to engage customers:</span></span>
+<span data-ttu-id="96cc7-118">다음 파트너는 Microsoft 팀의 솔루션을 인증 하 고 고객에 게 참여할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-118">The following partners are in the process of certifying their solution for Microsoft Teams and are ready to engage customers:</span></span>
 
-| <span data-ttu-id="be98e-119">**Partner**</span><span class="sxs-lookup"><span data-stu-id="be98e-119">**Partner**</span></span>                                                                                                                              | <span data-ttu-id="be98e-120">**솔루션 웹 사이트**</span><span class="sxs-lookup"><span data-stu-id="be98e-120">**Solution website**</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| <span data-ttu-id="96cc7-119">**Partner**</span><span class="sxs-lookup"><span data-stu-id="96cc7-119">**Partner**</span></span>                                                                                                                              | <span data-ttu-id="96cc7-120">**솔루션 웹 사이트**</span><span class="sxs-lookup"><span data-stu-id="96cc7-120">**Solution website**</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span data-ttu-id="be98e-121">Anywhere365</span><span class="sxs-lookup"><span data-stu-id="be98e-121">Anywhere365</span></span> | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
-| <span data-ttu-id="be98e-122">Competella</span><span class="sxs-lookup"><span data-stu-id="be98e-122">Competella</span></span> | https://www.competella.com/microsoft-teams-skype-for-business                                  |
-| <span data-ttu-id="be98e-123">ComputerTalk</span><span class="sxs-lookup"><span data-stu-id="be98e-123">ComputerTalk</span></span> | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
-| <span data-ttu-id="be98e-124">Enghouse 대화형</span><span class="sxs-lookup"><span data-stu-id="be98e-124">Enghouse Interactive</span></span> | http://www.enghouseteams.com/                                                       |
-| <span data-ttu-id="be98e-125">Five9</span><span class="sxs-lookup"><span data-stu-id="be98e-125">Five9</span></span> | https://www.five9.com/products/application-integration/uc-integration                                                   |
-| <span data-ttu-id="be98e-126">Genes</span><span class="sxs-lookup"><span data-stu-id="be98e-126">Genesys</span></span> | https://www.genesys.com/microsoft                                                                                   |
-| <span data-ttu-id="be98e-127">Landis 기술</span><span class="sxs-lookup"><span data-stu-id="be98e-127">Landis Technologies</span></span> | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
-| <span data-ttu-id="be98e-128">Luware</span><span class="sxs-lookup"><span data-stu-id="be98e-128">Luware</span></span> | https://luware.com/en/solutions/                                                                                       |
-| <span data-ttu-id="be98e-129">멋진 연락처</span><span class="sxs-lookup"><span data-stu-id="be98e-129">NICE inContact</span></span> | https://www.niceincontact.com/microsoft-teams                                                            |
-| <span data-ttu-id="be98e-130">Tendfor</span><span class="sxs-lookup"><span data-stu-id="be98e-130">Tendfor</span></span> | https://www.tendfor.com/en/                                                                                     |
+| <span data-ttu-id="96cc7-121">Anywhere365</span><span class="sxs-lookup"><span data-stu-id="96cc7-121">Anywhere365</span></span> | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| <span data-ttu-id="96cc7-122">Competella</span><span class="sxs-lookup"><span data-stu-id="96cc7-122">Competella</span></span> | https://www.competella.com/microsoft-teams-skype-for-business                                  |
+| <span data-ttu-id="96cc7-123">ComputerTalk</span><span class="sxs-lookup"><span data-stu-id="96cc7-123">ComputerTalk</span></span> | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| <span data-ttu-id="96cc7-124">Enghouse 대화형</span><span class="sxs-lookup"><span data-stu-id="96cc7-124">Enghouse Interactive</span></span> | http://www.enghouseteams.com/                                                       |
+| <span data-ttu-id="96cc7-125">Five9</span><span class="sxs-lookup"><span data-stu-id="96cc7-125">Five9</span></span> | https://www.five9.com/products/application-integration/uc-integration                                                   |
+| <span data-ttu-id="96cc7-126">Genes</span><span class="sxs-lookup"><span data-stu-id="96cc7-126">Genesys</span></span> | https://www.genesys.com/microsoft                                                                                   |
+| <span data-ttu-id="96cc7-127">Landis 기술</span><span class="sxs-lookup"><span data-stu-id="96cc7-127">Landis Technologies</span></span> | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
+| <span data-ttu-id="96cc7-128">Luware</span><span class="sxs-lookup"><span data-stu-id="96cc7-128">Luware</span></span> | https://luware.com/en/solutions/                                                                                       |
+| <span data-ttu-id="96cc7-129">멋진 연락처</span><span class="sxs-lookup"><span data-stu-id="96cc7-129">NICE inContact</span></span> | https://www.niceincontact.com/microsoft-teams                                                            |
+| <span data-ttu-id="96cc7-130">Tendfor</span><span class="sxs-lookup"><span data-stu-id="96cc7-130">Tendfor</span></span> | https://www.tendfor.com/en/                                                                                     |
 
-<span data-ttu-id="be98e-131">이 목록은 더 많은 파트너가 참가 하 고 인증 기준을 충족 하면 업데이트 됩니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-131">This list will be updated as more partners join and meet the certification criteria.</span></span>
+<span data-ttu-id="96cc7-131">이 목록은 더 많은 파트너가 참가 하 고 인증 기준을 충족 하면 업데이트 됩니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-131">This list will be updated as more partners join and meet the certification criteria.</span></span>
 
-## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a><span data-ttu-id="be98e-132">Microsoft 팀에서 연락처 센터 솔루션을 사용 하는 방법은 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="be98e-132">How do contact center solutions work in Microsoft Teams?</span></span>
+## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a><span data-ttu-id="96cc7-132">Microsoft 팀에서 연락처 센터 솔루션을 사용 하는 방법은 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="96cc7-132">How do contact center solutions work in Microsoft Teams?</span></span>
 
-<span data-ttu-id="be98e-133">Microsoft 팀은 다음을 포함 하 여 타사 음성 솔루션의 개발을 지원할 수 있는 다양 한 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-133">Microsoft Teams offers a range of capabilities to support the development of third-party voice solutions, including:</span></span>
+<span data-ttu-id="96cc7-133">Microsoft 팀은 다음을 포함 하 여 타사 음성 솔루션의 개발을 지원할 수 있는 다양 한 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-133">Microsoft Teams offers a range of capabilities to support the development of third-party voice solutions, including:</span></span>
 
-1. [<span data-ttu-id="be98e-134">직접 라우팅 연결</span><span class="sxs-lookup"><span data-stu-id="be98e-134">Direct Routing Connectivity</span></span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+1. [<span data-ttu-id="96cc7-134">직접 라우팅 연결</span><span class="sxs-lookup"><span data-stu-id="96cc7-134">Direct Routing Connectivity</span></span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
 
-2. [<span data-ttu-id="be98e-135">Microsoft Graph 클라우드 통신 Api</span><span class="sxs-lookup"><span data-stu-id="be98e-135">Microsoft Graph Cloud Communication APIs</span></span>](https://docs.microsoft.com/graph/cloud-communications-get-started)
+2. [<span data-ttu-id="96cc7-135">Microsoft Graph 클라우드 통신 Api</span><span class="sxs-lookup"><span data-stu-id="96cc7-135">Microsoft Graph Cloud Communication APIs</span></span>](https://docs.microsoft.com/graph/cloud-communications-get-started)
 
-3. <span data-ttu-id="be98e-136">팀 플랫폼 및 확장성</span><span class="sxs-lookup"><span data-stu-id="be98e-136">Teams platform and extensibility</span></span>
+3. <span data-ttu-id="96cc7-136">팀 플랫폼 및 확장성</span><span class="sxs-lookup"><span data-stu-id="96cc7-136">Teams platform and extensibility</span></span>
 
-4. <span data-ttu-id="be98e-137">팀 Sdk</span><span class="sxs-lookup"><span data-stu-id="be98e-137">Teams SDKs</span></span>
+4. <span data-ttu-id="96cc7-137">팀 Sdk</span><span class="sxs-lookup"><span data-stu-id="96cc7-137">Teams SDKs</span></span>
 
-<span data-ttu-id="be98e-138">이러한 접근 권한 값을 함께 사용 하 여 세 가지 통합 모델을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-138">Together, these capabilities enable 3 models of integration:</span></span>
+<span data-ttu-id="96cc7-138">이러한 접근 권한 값을 함께 사용 하 여 세 가지 통합 모델을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-138">Together, these capabilities enable 3 models of integration:</span></span>
 
-  - <span data-ttu-id="be98e-139">**연결** (직접 라우팅 통해)</span><span class="sxs-lookup"><span data-stu-id="be98e-139">**Connect** (via Direct Routing)</span></span>
+  - <span data-ttu-id="96cc7-139">**연결** (직접 라우팅 통해)</span><span class="sxs-lookup"><span data-stu-id="96cc7-139">**Connect** (via Direct Routing)</span></span>
 
-  - <span data-ttu-id="be98e-140">**연결 및 확장** (직접 라우팅, 그래프 Api, 팀 앱 플랫폼)</span><span class="sxs-lookup"><span data-stu-id="be98e-140">**Connect and Extend** (Direct Routing, Graph APIs and Teams apps platform)</span></span>
+  - <span data-ttu-id="96cc7-140">**연결 및 확장** (직접 라우팅, 그래프 Api, 팀 앱 플랫폼)</span><span class="sxs-lookup"><span data-stu-id="96cc7-140">**Connect and Extend** (Direct Routing, Graph APIs and Teams apps platform)</span></span>
 
-  - <span data-ttu-id="be98e-141">**확장 및** 향상 (기본 팀 상호 작용을 위해 팀 sdk를 3P 앱에 포함)</span><span class="sxs-lookup"><span data-stu-id="be98e-141">**Extend and Power** (embedding Teams SDKs into 3p Apps for native Teams interactions)</span></span>
+  - <span data-ttu-id="96cc7-141">**확장 및** 향상 (기본 팀 상호 작용을 위해 팀 sdk를 3P 앱에 포함)</span><span class="sxs-lookup"><span data-stu-id="96cc7-141">**Extend and Power** (embedding Teams SDKs into 3p Apps for native Teams interactions)</span></span>
 
-### <a name="connect"></a><span data-ttu-id="be98e-142">연결은</span><span class="sxs-lookup"><span data-stu-id="be98e-142">Connect</span></span>
+### <a name="connect"></a><span data-ttu-id="96cc7-142">연결은</span><span class="sxs-lookup"><span data-stu-id="96cc7-142">Connect</span></span>
 
-<span data-ttu-id="be98e-143">이 모델은 Microsoft 팀 전화 시스템 인프라를 통해 CCaaS 파트너를 연결 하 여 향상 된 라우팅, 구성, 시스템 정보 활용을 가능 하 게 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-143">This model connects CCaaS partners with Microsoft Teams phone system infrastructure, enabling enhanced routing, configuration and system insights.</span></span> <span data-ttu-id="be98e-144">이 모델에서는 연락처 센터 파트너 솔루션에서 선택한 번호와 사용자에 대 한 전화 통신 서비스를 제공할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-144">In this model, the contact center partner solution can also provide telephony services for selected numbers and users.</span></span>
+<span data-ttu-id="96cc7-143">이 모델은 Microsoft 팀 전화 시스템 인프라를 통해 CCaaS 파트너를 연결 하 여 향상 된 라우팅, 구성, 시스템 정보 활용을 가능 하 게 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-143">This model connects CCaaS partners with Microsoft Teams phone system infrastructure, enabling enhanced routing, configuration and system insights.</span></span> <span data-ttu-id="96cc7-144">이 모델에서는 연락처 센터 파트너 솔루션에서 선택한 번호와 사용자에 대 한 전화 통신 서비스를 제공할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-144">In this model, the contact center partner solution can also provide telephony services for selected numbers and users.</span></span>
 
-<span data-ttu-id="be98e-145">연결 모델에 빌드된 솔루션을 사용 하는 상담원은 SME & 정보를 수집할 수 있으며, 필요한 경우 팀의 현재 상태를 확인 하 여 조직의 실무 전문가에 게 직접 전화를 걸고 해당 사용자의 가용성을 보장 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-145">Agents using solutions built on the Connect model can gather information & insights and if necessary transfer calls to subject matter experts directly, leveraging the SME’s presence in Teams to ensure their availability.</span></span>
+<span data-ttu-id="96cc7-145">연결 모델에 빌드된 솔루션을 사용 하는 상담원은 SME & 정보를 수집할 수 있으며, 필요한 경우 팀의 현재 상태를 확인 하 여 조직의 실무 전문가에 게 직접 전화를 걸고 해당 사용자의 가용성을 보장 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-145">Agents using solutions built on the Connect model can gather information & insights and if necessary transfer calls to subject matter experts directly, leveraging the SME’s presence in Teams to ensure their availability.</span></span>
 
-<span data-ttu-id="be98e-146">조직에서는 자동화 된 가상 도우미와 기술 기반 라우팅 큐를 설정 하 여 가장 적합 한 에이전트에 대 한 통화 경로를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-146">Organizations can make sure calls route to the optimal agent by setting up automated virtual assistants and skill-based routing queues.</span></span>
+<span data-ttu-id="96cc7-146">조직에서는 자동화 된 가상 도우미와 기술 기반 라우팅 큐를 설정 하 여 가장 적합 한 에이전트에 대 한 통화 경로를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-146">Organizations can make sure calls route to the optimal agent by setting up automated virtual assistants and skill-based routing queues.</span></span>
 
-<span data-ttu-id="be98e-147">**기능 하이라이트:**</span><span class="sxs-lookup"><span data-stu-id="be98e-147">**Feature highlights:**</span></span>
+<span data-ttu-id="96cc7-147">**기능 하이라이트:**</span><span class="sxs-lookup"><span data-stu-id="96cc7-147">**Feature highlights:**</span></span>
 
-<span data-ttu-id="be98e-148">다음은이 통합 모델의 기능 기능에 대 한 포괄적인 목록이 아니지만 포커스 영역은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-148">While the following is not a comprehensive list of feature capabilities for this model of integration, the focus areas include:</span></span>
+<span data-ttu-id="96cc7-148">다음은이 통합 모델의 기능 기능에 대 한 포괄적인 목록이 아니지만 포커스 영역은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-148">While the following is not a comprehensive list of feature capabilities for this model of integration, the focus areas include:</span></span>
 
-  - <span data-ttu-id="be98e-149">에이전트가 통합 CCaaS 클라이언트로 Microsoft 테 넌 트에 연결할 수 있도록 하는 Office 365 authN</span><span class="sxs-lookup"><span data-stu-id="be98e-149">Office 365 authN for agents to allow agents to connect to their Microsoft tenant from their integrated CCaaS client</span></span> 
+  - <span data-ttu-id="96cc7-149">에이전트가 통합 CCaaS 클라이언트로 Microsoft 테 넌 트에 연결할 수 있도록 하는 Office 365 authN</span><span class="sxs-lookup"><span data-stu-id="96cc7-149">Office 365 authN for agents to allow agents to connect to their Microsoft tenant from their integrated CCaaS client</span></span> 
 
-  - <span data-ttu-id="be98e-150">팀 사용자의 현재 상태 표시</span><span class="sxs-lookup"><span data-stu-id="be98e-150">Presence indication from Teams users</span></span> 
+  - <span data-ttu-id="96cc7-150">팀 사용자의 현재 상태 표시</span><span class="sxs-lookup"><span data-stu-id="96cc7-150">Presence indication from Teams users</span></span> 
 
-  - <span data-ttu-id="be98e-151">직접 라우팅을 통한 통화 흐름 (테스트 계획에 표시 됨)</span><span class="sxs-lookup"><span data-stu-id="be98e-151">Call flows via Direct Routing (as indicated in test plans)</span></span> 
+  - <span data-ttu-id="96cc7-151">직접 라우팅을 통한 통화 흐름 (테스트 계획에 표시 됨)</span><span class="sxs-lookup"><span data-stu-id="96cc7-151">Call flows via Direct Routing (as indicated in test plans)</span></span> 
 
-  - <span data-ttu-id="be98e-152">팀 사용자와의 전송 및 그룹 통화 지원</span><span class="sxs-lookup"><span data-stu-id="be98e-152">Support transfers and group calls with Teams users</span></span> 
+  - <span data-ttu-id="96cc7-152">팀 사용자와의 전송 및 그룹 통화 지원</span><span class="sxs-lookup"><span data-stu-id="96cc7-152">Support transfers and group calls with Teams users</span></span> 
 
-  - <span data-ttu-id="be98e-153">팀과 통합할 Api 및 클라우드 통신 Api를 그래프로 그래프</span><span class="sxs-lookup"><span data-stu-id="be98e-153">Teams Graph APIs and Cloud Communication APIs for integration with Teams</span></span> 
+  - <span data-ttu-id="96cc7-153">팀과 통합할 Api 및 클라우드 통신 Api를 그래프로 그래프</span><span class="sxs-lookup"><span data-stu-id="96cc7-153">Teams Graph APIs and Cloud Communication APIs for integration with Teams</span></span> 
 
-  - <span data-ttu-id="be98e-154">파트너의 SBC에서 여러 고객을 지원 하기 위해 다중 테 넌 트 SIP 트렁크 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-154">Able to support multi-tenant SIP trunking to support several customers on partner’s SBC.</span></span>  
+  - <span data-ttu-id="96cc7-154">파트너의 SBC에서 여러 고객을 지원 하기 위해 다중 테 넌 트 SIP 트렁크 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-154">Able to support multi-tenant SIP trunking to support several customers on partner’s SBC.</span></span>  
 
-  - <span data-ttu-id="be98e-155">[ <span class="underline">MICROSOFT의 SBC (인증 된 세션 경계 컨트롤러)</span> 를 구현 하는 파트너](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers)</span><span class="sxs-lookup"><span data-stu-id="be98e-155">Partners to implement [<span class="underline">Microsoft certified session border controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers)</span></span> 
+  - <span data-ttu-id="96cc7-155">[ <span class="underline">MICROSOFT의 SBC (인증 된 세션 경계 컨트롤러)</span> 를 구현 하는 파트너](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers)</span><span class="sxs-lookup"><span data-stu-id="96cc7-155">Partners to implement [<span class="underline">Microsoft certified session border controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers)</span></span> 
 
-### <a name="connect-and-extend"></a><span data-ttu-id="be98e-156">연결 및 확장</span><span class="sxs-lookup"><span data-stu-id="be98e-156">Connect and extend</span></span>
+### <a name="connect-and-extend"></a><span data-ttu-id="96cc7-156">연결 및 확장</span><span class="sxs-lookup"><span data-stu-id="96cc7-156">Connect and extend</span></span>
 
-<span data-ttu-id="be98e-157">이 모델은 팀 클라이언트 [플랫폼](https://docs.microsoft.com/microsoftteams/platform/overview)을 사용 하 여 팀 클라이언트에 통합 하 고, Microsoft graph에서 팀과 [Api](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) 및 [클라우드 통신 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 를 연결 하 고, 모든 연락처 센터 통화 및 통화 제어 환경에 팀 전화 시스템을 사용 하 여 연락처 센터 담당자 및 에이전트 환경을 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-157">This model extends contact center personnel and agent experiences by integrating with the Teams client using the [Teams client platform](https://docs.microsoft.com/microsoftteams/platform/overview), [Teams Graph APIs](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) and [Cloud Communications API in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) and uses the Teams phone system for all contact center calls and call control experiences.</span></span> <span data-ttu-id="be98e-158">이 모델에서는 연락처 센터 파트너가 Microsoft 365와 함께 전화 통신 사업자 역할을 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-158">In this model, the contact center partner acts as a telephony carrier alongside Microsoft 365.</span></span>
+<span data-ttu-id="96cc7-157">이 모델은 팀 클라이언트 [플랫폼](https://docs.microsoft.com/microsoftteams/platform/overview)을 사용 하 여 팀 클라이언트에 통합 하 고, Microsoft graph에서 팀과 [Api](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) 및 [클라우드 통신 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 를 연결 하 고, 모든 연락처 센터 통화 및 통화 제어 환경에 팀 전화 시스템을 사용 하 여 연락처 센터 담당자 및 에이전트 환경을 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-157">This model extends contact center personnel and agent experiences by integrating with the Teams client using the [Teams client platform](https://docs.microsoft.com/microsoftteams/platform/overview), [Teams Graph APIs](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) and [Cloud Communications API in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) and uses the Teams phone system for all contact center calls and call control experiences.</span></span> <span data-ttu-id="96cc7-158">이 모델에서는 연락처 센터 파트너가 Microsoft 365와 함께 전화 통신 사업자 역할을 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-158">In this model, the contact center partner acts as a telephony carrier alongside Microsoft 365.</span></span>
 
-<span data-ttu-id="be98e-159">연결 및 확장 기반 솔루션을 활용 하는 경우, 상담원은 동적으로, 계약을 시작 하기 전에 여러 시스템의 데이터를 연관 시킬 수 있으며, 내부 공동 작업 및 외부 통신을 위해 팀 내에서 기본적으로 작업을 수행 하 여 비싼 컨텍스트 전환을 방지 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-159">Leveraging Connect and Extend-based solutions, agents can benefit from dynamic, contextual notes correlating data from multiple systems prior to starting an engagement and then avoid costly context switching by working natively within Teams for both internal collaboration and external communications.</span></span>
+<span data-ttu-id="96cc7-159">연결 및 확장 기반 솔루션을 활용 하는 경우, 상담원은 동적으로, 계약을 시작 하기 전에 여러 시스템의 데이터를 연관 시킬 수 있으며, 내부 공동 작업 및 외부 통신을 위해 팀 내에서 기본적으로 작업을 수행 하 여 비싼 컨텍스트 전환을 방지 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-159">Leveraging Connect and Extend-based solutions, agents can benefit from dynamic, contextual notes correlating data from multiple systems prior to starting an engagement and then avoid costly context switching by working natively within Teams for both internal collaboration and external communications.</span></span>
 
-<span data-ttu-id="be98e-160">조직은 워크플로 및 고급 라우팅 구성을 개별 사용자에 게 디자인 하 고 시스템 및 상호 작용의 품질을 측정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-160">Organizations can design workflows and advanced routing configurations down to the individual and measure the quality of their system and interactions.</span></span>
+<span data-ttu-id="96cc7-160">조직은 워크플로 및 고급 라우팅 구성을 개별 사용자에 게 디자인 하 고 시스템 및 상호 작용의 품질을 측정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-160">Organizations can design workflows and advanced routing configurations down to the individual and measure the quality of their system and interactions.</span></span>
 
-<span data-ttu-id="be98e-161">**기능 하이라이트:**</span><span class="sxs-lookup"><span data-stu-id="be98e-161">**Feature highlights:**</span></span>
+<span data-ttu-id="96cc7-161">**기능 하이라이트:**</span><span class="sxs-lookup"><span data-stu-id="96cc7-161">**Feature highlights:**</span></span>
 
-<span data-ttu-id="be98e-162">다음은이 통합 모델의 기능 기능에 대 한 포괄적인 목록이 아니지만 주요 포커스 영역을 강조 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-162">While the following is not a comprehensive list of feature capabilities for this model of integration, it does highlight the main focus areas:</span></span>
+<span data-ttu-id="96cc7-162">다음은이 통합 모델의 기능 기능에 대 한 포괄적인 목록이 아니지만 주요 포커스 영역을 강조 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-162">While the following is not a comprehensive list of feature capabilities for this model of integration, it does highlight the main focus areas:</span></span>
 
-  - <span data-ttu-id="be98e-163">팀과 통합할 Api 및 클라우드 통신 Api를 그래프로 그래프</span><span class="sxs-lookup"><span data-stu-id="be98e-163">Teams Graph APIs and Cloud Communication APIs for integration with Teams</span></span> 
+  - <span data-ttu-id="96cc7-163">팀과 통합할 Api 및 클라우드 통신 Api를 그래프로 그래프</span><span class="sxs-lookup"><span data-stu-id="96cc7-163">Teams Graph APIs and Cloud Communication APIs for integration with Teams</span></span> 
 
-  - <span data-ttu-id="be98e-164">팀 기반 에이전트 환경에 대 한 앱</span><span class="sxs-lookup"><span data-stu-id="be98e-164">Teams based app for agent experiences</span></span> 
+  - <span data-ttu-id="96cc7-164">팀 기반 에이전트 환경에 대 한 앱</span><span class="sxs-lookup"><span data-stu-id="96cc7-164">Teams based app for agent experiences</span></span> 
 
-  - <span data-ttu-id="be98e-165">팀의 에이전트에 대 한 기본 호출 끝점</span><span class="sxs-lookup"><span data-stu-id="be98e-165">Teams as the primary calling endpoint for the agents</span></span> 
+  - <span data-ttu-id="96cc7-165">팀의 에이전트에 대 한 기본 호출 끝점</span><span class="sxs-lookup"><span data-stu-id="96cc7-165">Teams as the primary calling endpoint for the agents</span></span> 
 
-  - <span data-ttu-id="be98e-166">모든 통화 컨트롤에 대 한 팀 클라이언트 통화</span><span class="sxs-lookup"><span data-stu-id="be98e-166">Teams client calling for all the call controls</span></span>
+  - <span data-ttu-id="96cc7-166">모든 통화 컨트롤에 대 한 팀 클라이언트 통화</span><span class="sxs-lookup"><span data-stu-id="96cc7-166">Teams client calling for all the call controls</span></span>
 
-  - <span data-ttu-id="be98e-167">에이전트 환경 앱이 팀 웹 및 모바일 클라이언트 에서도 작업할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-167">Agent experience app should be able to work on Teams web and mobile client as well</span></span>
+  - <span data-ttu-id="96cc7-167">에이전트 환경 앱이 팀 웹 및 모바일 클라이언트 에서도 작업할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-167">Agent experience app should be able to work on Teams web and mobile client as well</span></span>
 
-  - <span data-ttu-id="be98e-168">팀 내의 CCaaS 앱 내 에이전트에 대 한 분석, 워크플로 관리, 역할 기반 환경</span><span class="sxs-lookup"><span data-stu-id="be98e-168">Analytics, Workflow management, role-based experiences for Agents within the CCaaS app within Teams</span></span>
+  - <span data-ttu-id="96cc7-168">팀 내의 CCaaS 앱 내 에이전트에 대 한 분석, 워크플로 관리, 역할 기반 환경</span><span class="sxs-lookup"><span data-stu-id="96cc7-168">Analytics, Workflow management, role-based experiences for Agents within the CCaaS app within Teams</span></span>
 
-  - <span data-ttu-id="be98e-169">팀 클라이언트와 통합 된 채팅 및 공동 작업 환경</span><span class="sxs-lookup"><span data-stu-id="be98e-169">Chat and collaboration experiences integrated with Teams clients</span></span> 
+  - <span data-ttu-id="96cc7-169">팀 클라이언트와 통합 된 채팅 및 공동 작업 환경</span><span class="sxs-lookup"><span data-stu-id="96cc7-169">Chat and collaboration experiences integrated with Teams clients</span></span> 
 
-  - <span data-ttu-id="be98e-170">모든 앱에서 팀의 성능 및 품질 클라이언트 환경 유지</span><span class="sxs-lookup"><span data-stu-id="be98e-170">Preserve performance and quality of Teams client experiences in all apps</span></span>  
+  - <span data-ttu-id="96cc7-170">모든 앱에서 팀의 성능 및 품질 클라이언트 환경 유지</span><span class="sxs-lookup"><span data-stu-id="96cc7-170">Preserve performance and quality of Teams client experiences in all apps</span></span>  
 
-### <a name="extend-and-power"></a><span data-ttu-id="be98e-171">확장 및 전원</span><span class="sxs-lookup"><span data-stu-id="be98e-171">Extend and power</span></span>
+### <a name="extend-and-power"></a><span data-ttu-id="96cc7-171">확장 및 전원</span><span class="sxs-lookup"><span data-stu-id="96cc7-171">Extend and power</span></span>
 
-<span data-ttu-id="be98e-172">이 모델을 통해 파트너는 팀 호출 인프라 및 클라이언트 플랫폼을 활용 하 여 기본 Azure 기반 음성 응용 프로그램을 만들고 공동 작업 고객과 에이전트 연결에 대 한 최신 인텔리전트 솔루션을 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-172">This model enables partners to create native Azure-based voice applications leveraging the Teams calling infrastructure and client platform to deliver modern, intelligent solutions for collaborative customer and agent connection.</span></span> <span data-ttu-id="be98e-173">확장 및 성능 목표는 개발자의 stoke을 유지 하 고 고객 생산성을 유지 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-173">The goal of Extend and Power is to stoke developer creativity and drive customer productivity.</span></span>
+<span data-ttu-id="96cc7-172">이 모델을 통해 파트너는 팀 호출 인프라 및 클라이언트 플랫폼을 활용 하 여 기본 Azure 기반 음성 응용 프로그램을 만들고 공동 작업 고객과 에이전트 연결에 대 한 최신 인텔리전트 솔루션을 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-172">This model enables partners to create native Azure-based voice applications leveraging the Teams calling infrastructure and client platform to deliver modern, intelligent solutions for collaborative customer and agent connection.</span></span> <span data-ttu-id="96cc7-173">확장 및 성능 목표는 개발자의 stoke을 유지 하 고 고객 생산성을 유지 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-173">The goal of Extend and Power is to stoke developer creativity and drive customer productivity.</span></span>
 
-<span data-ttu-id="be98e-174">Azure에서 직접 빌드를 수행 하면 파트너는 모든 팀 지역 및 지역에 benefitting 솔루션을 신속 하 게 배포 하 고 프로 비전 하 여, 공유 전역 통신 네트워크를 통해 Azure의 저장소, 계산, 분석 & 인식 서비스를 활용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-174">By building directly on Azure, partners can rapidly deploy and provision their solution across all Teams regions and geographies, benefitting from our shared, global communications network while taking advantage of Azure’s storage, compute, analytics & cognitive services.</span></span>
+<span data-ttu-id="96cc7-174">Azure에서 직접 빌드를 수행 하면 파트너는 모든 팀 지역 및 지역에 benefitting 솔루션을 신속 하 게 배포 하 고 프로 비전 하 여, 공유 전역 통신 네트워크를 통해 Azure의 저장소, 계산, 분석 & 인식 서비스를 활용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-174">By building directly on Azure, partners can rapidly deploy and provision their solution across all Teams regions and geographies, benefitting from our shared, global communications network while taking advantage of Azure’s storage, compute, analytics & cognitive services.</span></span>
 
-<span data-ttu-id="be98e-175">확장 및 전원 통합 모델을 사용 하는 경우 파트너는 [Microsoft Graph에서 클라우드 통신 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)를 사용 하 여 참가자와 다른 서비스의 통화를 사용자 지정 하는 데 인공 지능을 통합 하는 동시 채널 간 통신 환경을 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-175">With the Extend and Power integration model, partners can provide contact center agents with omni-channel communication experiences while incorporating artificial intelligence to customize how and when participants - or other services - are engaged in a call leveraging the [Cloud Communications API in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0).</span></span>
+<span data-ttu-id="96cc7-175">확장 및 전원 통합 모델을 사용 하는 경우 파트너는 [Microsoft Graph에서 클라우드 통신 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)를 사용 하 여 참가자와 다른 서비스의 통화를 사용자 지정 하는 데 인공 지능을 통합 하는 동시 채널 간 통신 환경을 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-175">With the Extend and Power integration model, partners can provide contact center agents with omni-channel communication experiences while incorporating artificial intelligence to customize how and when participants - or other services - are engaged in a call leveraging the [Cloud Communications API in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0).</span></span>
 
-<span data-ttu-id="be98e-176">**기능 하이라이트:**</span><span class="sxs-lookup"><span data-stu-id="be98e-176">**Feature highlights:**</span></span>
+<span data-ttu-id="96cc7-176">**기능 하이라이트:**</span><span class="sxs-lookup"><span data-stu-id="96cc7-176">**Feature highlights:**</span></span>
 
-<span data-ttu-id="be98e-177">다음은이 통합 모델에 대 한 기능 기능을 포괄적으로 나열 하는 것이 아니지만, 이러한 강조 영역은 연결 및 확장 모델에서 제공 하는 영역과 함께 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="be98e-177">While the following is not a comprehensive list of feature capabilities for this model of integration, these highlight areas in addition to those provided by the Connect and Extend model.</span></span>
+<span data-ttu-id="96cc7-177">다음은이 통합 모델에 대 한 기능 기능을 포괄적으로 나열 하는 것이 아니지만, 이러한 강조 영역은 연결 및 확장 모델에서 제공 하는 영역과 함께 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="96cc7-177">While the following is not a comprehensive list of feature capabilities for this model of integration, these highlight areas in addition to those provided by the Connect and Extend model.</span></span>
 
-  - <span data-ttu-id="be98e-178">팀 SDK를 통한 omni 채널 통신에 기본적으로 사용 되는 공식적인 에이전트 환경</span><span class="sxs-lookup"><span data-stu-id="be98e-178">Formal agent experiences natively enabled for omni-channel communication via Teams SDK</span></span> 
+  - <span data-ttu-id="96cc7-178">팀 SDK를 통한 omni 채널 통신에 기본적으로 사용 되는 공식적인 에이전트 환경</span><span class="sxs-lookup"><span data-stu-id="96cc7-178">Formal agent experiences natively enabled for omni-channel communication via Teams SDK</span></span> 
 
-  - <span data-ttu-id="be98e-179">팀 공동 작업 서비스를 활용 하 여 에이전트 공동 작업 및 고객 상호 작용</span><span class="sxs-lookup"><span data-stu-id="be98e-179">Leverage Teams collaboration services for agent collaboration and customer interactions</span></span>  
+  - <span data-ttu-id="96cc7-179">팀 공동 작업 서비스를 활용 하 여 에이전트 공동 작업 및 고객 상호 작용</span><span class="sxs-lookup"><span data-stu-id="96cc7-179">Leverage Teams collaboration services for agent collaboration and customer interactions</span></span>  
 
-  - <span data-ttu-id="be98e-180">클라우드 서비스의 신속한 프로비저닝, 어디서 나 배포</span><span class="sxs-lookup"><span data-stu-id="be98e-180">Rapid provisioning of cloud services, deploy anywhere</span></span> 
+  - <span data-ttu-id="96cc7-180">클라우드 서비스의 신속한 프로비저닝, 어디서 나 배포</span><span class="sxs-lookup"><span data-stu-id="96cc7-180">Rapid provisioning of cloud services, deploy anywhere</span></span> 
 
-  - <span data-ttu-id="be98e-181">팀 대화 중에 사용자와 직접 대화 제어 및 조작</span><span class="sxs-lookup"><span data-stu-id="be98e-181">Direct conversation control and interaction with users during Teams conversations</span></span> 
+  - <span data-ttu-id="96cc7-181">팀 대화 중에 사용자와 직접 대화 제어 및 조작</span><span class="sxs-lookup"><span data-stu-id="96cc7-181">Direct conversation control and interaction with users during Teams conversations</span></span> 
 
-### <a name="comparing-connected-contact-center-integration-models"></a><span data-ttu-id="be98e-182">연결 된 연락처 센터 통합 모델 비교</span><span class="sxs-lookup"><span data-stu-id="be98e-182">Comparing connected contact center integration models</span></span>
+### <a name="comparing-connected-contact-center-integration-models"></a><span data-ttu-id="96cc7-182">연결 된 연락처 센터 통합 모델 비교</span><span class="sxs-lookup"><span data-stu-id="96cc7-182">Comparing connected contact center integration models</span></span>
 
-<span data-ttu-id="be98e-183">Microsoft 팀이 지 원하는 통합 모델에 대 한 개요는 아래 표를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="be98e-183">Please review the table below for an overview of the integration models that Microsoft Teams supports.</span></span>
+<span data-ttu-id="96cc7-183">Microsoft 팀이 지 원하는 통합 모델에 대 한 개요는 아래 표를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="96cc7-183">Please review the table below for an overview of the integration models that Microsoft Teams supports.</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="be98e-184"><strong>팀 음성 앱</strong></span><span class="sxs-lookup"><span data-stu-id="be98e-184"><strong>Teams voice apps</strong></span></span></th>
-<th><span data-ttu-id="be98e-185"><strong>연결은</strong></span><span class="sxs-lookup"><span data-stu-id="be98e-185"><strong>Connect</strong></span></span></th>
-<th><span data-ttu-id="be98e-186"><strong>연결 + 확장</strong></span><span class="sxs-lookup"><span data-stu-id="be98e-186"><strong>Connect + extend</strong></span></span></th>
-<th><span data-ttu-id="be98e-187"><strong>확장 + 전원</strong></span><span class="sxs-lookup"><span data-stu-id="be98e-187"><strong>Extend + power</strong></span></span></th>
+<th><span data-ttu-id="96cc7-184"><strong>팀 음성 앱</strong></span><span class="sxs-lookup"><span data-stu-id="96cc7-184"><strong>Teams voice apps</strong></span></span></th>
+<th><span data-ttu-id="96cc7-185"><strong>연결은</strong></span><span class="sxs-lookup"><span data-stu-id="96cc7-185"><strong>Connect</strong></span></span></th>
+<th><span data-ttu-id="96cc7-186"><strong>연결 + 확장</strong></span><span class="sxs-lookup"><span data-stu-id="96cc7-186"><strong>Connect + extend</strong></span></span></th>
+<th><span data-ttu-id="96cc7-187"><strong>확장 + 전원</strong></span><span class="sxs-lookup"><span data-stu-id="96cc7-187"><strong>Extend + power</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="be98e-188">클라우드 서비스 모델</span><span class="sxs-lookup"><span data-stu-id="be98e-188">Cloud service model</span></span></td>
-<td><span data-ttu-id="be98e-189">Azure</span><span class="sxs-lookup"><span data-stu-id="be98e-189">Azure</span></span></td>
-<td><span data-ttu-id="be98e-190">Partner</span><span class="sxs-lookup"><span data-stu-id="be98e-190">Partner</span></span></td>
-<td><p><span data-ttu-id="be98e-191">파트너 +</span><span class="sxs-lookup"><span data-stu-id="be98e-191">Partner +</span></span></p>
-<p><span data-ttu-id="be98e-192">Azure</span><span class="sxs-lookup"><span data-stu-id="be98e-192">Azure</span></span></p></td>
-<td><span data-ttu-id="be98e-193">Azure</span><span class="sxs-lookup"><span data-stu-id="be98e-193">Azure</span></span></td>
+<td><span data-ttu-id="96cc7-188">클라우드 서비스 모델</span><span class="sxs-lookup"><span data-stu-id="96cc7-188">Cloud service model</span></span></td>
+<td><span data-ttu-id="96cc7-189">Azure</span><span class="sxs-lookup"><span data-stu-id="96cc7-189">Azure</span></span></td>
+<td><span data-ttu-id="96cc7-190">Partner</span><span class="sxs-lookup"><span data-stu-id="96cc7-190">Partner</span></span></td>
+<td><p><span data-ttu-id="96cc7-191">파트너 +</span><span class="sxs-lookup"><span data-stu-id="96cc7-191">Partner +</span></span></p>
+<p><span data-ttu-id="96cc7-192">Azure</span><span class="sxs-lookup"><span data-stu-id="96cc7-192">Azure</span></span></p></td>
+<td><span data-ttu-id="96cc7-193">Azure</span><span class="sxs-lookup"><span data-stu-id="96cc7-193">Azure</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="be98e-194">솔루션을 누가 운영 하 고 계십니까?</span><span class="sxs-lookup"><span data-stu-id="be98e-194">Who operates the solution?</span></span></td>
-<td><span data-ttu-id="be98e-195">나올</span><span class="sxs-lookup"><span data-stu-id="be98e-195">Microsoft</span></span></td>
-<td><span data-ttu-id="be98e-196">Partner</span><span class="sxs-lookup"><span data-stu-id="be98e-196">Partner</span></span></td>
-<td><span data-ttu-id="be98e-197">Partner</span><span class="sxs-lookup"><span data-stu-id="be98e-197">Partner</span></span></td>
-<td><span data-ttu-id="be98e-198">Partner</span><span class="sxs-lookup"><span data-stu-id="be98e-198">Partner</span></span></td>
+<td><span data-ttu-id="96cc7-194">솔루션을 누가 운영 하 고 계십니까?</span><span class="sxs-lookup"><span data-stu-id="96cc7-194">Who operates the solution?</span></span></td>
+<td><span data-ttu-id="96cc7-195">나올</span><span class="sxs-lookup"><span data-stu-id="96cc7-195">Microsoft</span></span></td>
+<td><span data-ttu-id="96cc7-196">Partner</span><span class="sxs-lookup"><span data-stu-id="96cc7-196">Partner</span></span></td>
+<td><span data-ttu-id="96cc7-197">Partner</span><span class="sxs-lookup"><span data-stu-id="96cc7-197">Partner</span></span></td>
+<td><span data-ttu-id="96cc7-198">Partner</span><span class="sxs-lookup"><span data-stu-id="96cc7-198">Partner</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="be98e-199">M365 로그인</span><span class="sxs-lookup"><span data-stu-id="be98e-199">M365 Sign-in</span></span></td>
-<td><span data-ttu-id="be98e-200">예</span><span class="sxs-lookup"><span data-stu-id="be98e-200">Yes</span></span></td>
-<td><span data-ttu-id="be98e-201">예</span><span class="sxs-lookup"><span data-stu-id="be98e-201">Yes</span></span></td>
-<td><span data-ttu-id="be98e-202">예</span><span class="sxs-lookup"><span data-stu-id="be98e-202">Yes</span></span></td>
-<td><span data-ttu-id="be98e-203">예</span><span class="sxs-lookup"><span data-stu-id="be98e-203">Yes</span></span></td>
+<td><span data-ttu-id="96cc7-199">M365 로그인</span><span class="sxs-lookup"><span data-stu-id="96cc7-199">M365 Sign-in</span></span></td>
+<td><span data-ttu-id="96cc7-200">예</span><span class="sxs-lookup"><span data-stu-id="96cc7-200">Yes</span></span></td>
+<td><span data-ttu-id="96cc7-201">예</span><span class="sxs-lookup"><span data-stu-id="96cc7-201">Yes</span></span></td>
+<td><span data-ttu-id="96cc7-202">예</span><span class="sxs-lookup"><span data-stu-id="96cc7-202">Yes</span></span></td>
+<td><span data-ttu-id="96cc7-203">예</span><span class="sxs-lookup"><span data-stu-id="96cc7-203">Yes</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="be98e-204">팀에서 전화를 거는 사용자</span><span class="sxs-lookup"><span data-stu-id="be98e-204">Users with Teams calling?</span></span></td>
-<td><span data-ttu-id="be98e-205">비공식적인, SME</span><span class="sxs-lookup"><span data-stu-id="be98e-205">Informal, SME</span></span></td>
-<td><span data-ttu-id="be98e-206">비공식적인, SME</span><span class="sxs-lookup"><span data-stu-id="be98e-206">Informal, SME</span></span></td>
-<td><span data-ttu-id="be98e-207">비공식적인, SME, 공식적인 \*</span><span class="sxs-lookup"><span data-stu-id="be98e-207">Informal, SME, Formal\*</span></span></td>
-<td><span data-ttu-id="be98e-208">비공식적인, SME, 공식적인</span><span class="sxs-lookup"><span data-stu-id="be98e-208">Informal, SME, Formal</span></span></td>
+<td><span data-ttu-id="96cc7-204">팀에서 전화를 거는 사용자</span><span class="sxs-lookup"><span data-stu-id="96cc7-204">Users with Teams calling?</span></span></td>
+<td><span data-ttu-id="96cc7-205">비공식적인, SME</span><span class="sxs-lookup"><span data-stu-id="96cc7-205">Informal, SME</span></span></td>
+<td><span data-ttu-id="96cc7-206">비공식적인, SME</span><span class="sxs-lookup"><span data-stu-id="96cc7-206">Informal, SME</span></span></td>
+<td><span data-ttu-id="96cc7-207">비공식적인, SME, 공식적인</span><span class="sxs-lookup"><span data-stu-id="96cc7-207">Informal, SME, Formal</span></span></td>
+<td><span data-ttu-id="96cc7-208">비공식적인, SME, 공식적인</span><span class="sxs-lookup"><span data-stu-id="96cc7-208">Informal, SME, Formal</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="be98e-209">IW/SME 환경</span><span class="sxs-lookup"><span data-stu-id="be98e-209">IW/SME experience</span></span></td>
-<td><span data-ttu-id="be98e-210">Teams</span><span class="sxs-lookup"><span data-stu-id="be98e-210">Teams</span></span></td>
-<td><span data-ttu-id="be98e-211">Teams</span><span class="sxs-lookup"><span data-stu-id="be98e-211">Teams</span></span></td>
-<td><p><span data-ttu-id="be98e-212">팀 +</span><span class="sxs-lookup"><span data-stu-id="be98e-212">Teams +</span></span></p>
-<p><span data-ttu-id="be98e-213">번호</span><span class="sxs-lookup"><span data-stu-id="be98e-213">extensions</span></span></p></td>
-<td><p><span data-ttu-id="be98e-214">팀 +</span><span class="sxs-lookup"><span data-stu-id="be98e-214">Teams +</span></span></p>
-<p><span data-ttu-id="be98e-215">번호</span><span class="sxs-lookup"><span data-stu-id="be98e-215">extensions</span></span></p></td>
+<td><span data-ttu-id="96cc7-209">IW/SME 환경</span><span class="sxs-lookup"><span data-stu-id="96cc7-209">IW/SME experience</span></span></td>
+<td><span data-ttu-id="96cc7-210">Teams</span><span class="sxs-lookup"><span data-stu-id="96cc7-210">Teams</span></span></td>
+<td><span data-ttu-id="96cc7-211">Teams</span><span class="sxs-lookup"><span data-stu-id="96cc7-211">Teams</span></span></td>
+<td><p><span data-ttu-id="96cc7-212">팀 +</span><span class="sxs-lookup"><span data-stu-id="96cc7-212">Teams +</span></span></p>
+<p><span data-ttu-id="96cc7-213">번호</span><span class="sxs-lookup"><span data-stu-id="96cc7-213">extensions</span></span></p></td>
+<td><p><span data-ttu-id="96cc7-214">팀 +</span><span class="sxs-lookup"><span data-stu-id="96cc7-214">Teams +</span></span></p>
+<p><span data-ttu-id="96cc7-215">번호</span><span class="sxs-lookup"><span data-stu-id="96cc7-215">extensions</span></span></p></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="be98e-216">서비스 연결</span><span class="sxs-lookup"><span data-stu-id="be98e-216">Service connectivity</span></span></td>
-<td><span data-ttu-id="be98e-217">플랫폼</span><span class="sxs-lookup"><span data-stu-id="be98e-217">Platform</span></span><br />
-<span data-ttu-id="be98e-218">(통화 계획 + DR)</span><span class="sxs-lookup"><span data-stu-id="be98e-218">(Calling Plans +DR)</span></span></td>
-<td><span data-ttu-id="be98e-219">직접 라우팅</span><span class="sxs-lookup"><span data-stu-id="be98e-219">Direct routing</span></span></td>
-<td><span data-ttu-id="be98e-220">직접 라우팅</span><span class="sxs-lookup"><span data-stu-id="be98e-220">Direct routing</span></span></td>
-<td><span data-ttu-id="be98e-221">플랫폼</span><span class="sxs-lookup"><span data-stu-id="be98e-221">Platform</span></span><br />
-<span data-ttu-id="be98e-222">(통화 계획 + DR)</span><span class="sxs-lookup"><span data-stu-id="be98e-222">(Calling Plans + DR)</span></span></td>
+<td><span data-ttu-id="96cc7-216">서비스 연결</span><span class="sxs-lookup"><span data-stu-id="96cc7-216">Service connectivity</span></span></td>
+<td><span data-ttu-id="96cc7-217">플랫폼</span><span class="sxs-lookup"><span data-stu-id="96cc7-217">Platform</span></span><br />
+<span data-ttu-id="96cc7-218">(통화 계획 + DR)</span><span class="sxs-lookup"><span data-stu-id="96cc7-218">(Calling Plans +DR)</span></span></td>
+<td><span data-ttu-id="96cc7-219">직접 라우팅</span><span class="sxs-lookup"><span data-stu-id="96cc7-219">Direct routing</span></span></td>
+<td><span data-ttu-id="96cc7-220">직접 라우팅</span><span class="sxs-lookup"><span data-stu-id="96cc7-220">Direct routing</span></span></td>
+<td><span data-ttu-id="96cc7-221">플랫폼</span><span class="sxs-lookup"><span data-stu-id="96cc7-221">Platform</span></span><br />
+<span data-ttu-id="96cc7-222">(통화 계획 + DR)</span><span class="sxs-lookup"><span data-stu-id="96cc7-222">(Calling Plans + DR)</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="next-steps"></a><span data-ttu-id="be98e-223">다음 단계</span><span class="sxs-lookup"><span data-stu-id="be98e-223">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="96cc7-223">다음 단계</span><span class="sxs-lookup"><span data-stu-id="96cc7-223">Next steps</span></span>
 
-<span data-ttu-id="be98e-224">인증 프로그램에 참여 하는 공급 업체를 찾고 있다면 전자 메일을 작성해 주십시오 <Teamscategorypartner@microsoft.com> .</span><span class="sxs-lookup"><span data-stu-id="be98e-224">If you are a vendor seeking to join the certification program, please email <Teamscategorypartner@microsoft.com>.</span></span>
+<span data-ttu-id="96cc7-224">인증 프로그램에 참여 하는 공급 업체를 찾고 있다면 전자 메일을 작성해 주십시오 <Teamscategorypartner@microsoft.com> .</span><span class="sxs-lookup"><span data-stu-id="96cc7-224">If you are a vendor seeking to join the certification program, please email <Teamscategorypartner@microsoft.com>.</span></span>
