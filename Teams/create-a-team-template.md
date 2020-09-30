@@ -16,14 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dd598d92ab935ed8221258c386e87788d38f92c
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 2e3a6a19a511d86072f6c1d27c2bda447a937483
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294594"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308381"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft 팀에서 사용자 지정 팀 서식 파일 만들기
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **사용자 지정 서식 파일은 현재 .EDU 고객에 대해 지원 되지 않습니다.**
 

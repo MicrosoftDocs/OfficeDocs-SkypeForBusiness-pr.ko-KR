@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Microsoft 팀 대화방에 대 한 최신 인증을 구성 하는 방법 알아보기
-ms.openlocfilehash: 83aff70e43fa578330fe48e814b4e7b216c7f90f
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: ba6259efac5d1e429bbcc33aeaef19759930e345
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506184"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308261"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft 팀 대화방의 인증
 
@@ -90,6 +90,7 @@ Exchange Online에서 기본 인증을 사용 하지 않도록 설정 하는 방
 - Exchange Server 2016 CU8 이상 또는 Exchange Server 2019 CU1 이상 이어야 합니다.
 - 비즈니스용 Skype Server 2015 CU5 이상 또는 비즈니스용 Skype Server 2019 이상이 있어야 합니다.
 - 사용 중인 토폴로지에 관계 없이 MFA는 지원 되지 않습니다.
+- Microsoft 팀 대화방은 SIP 및 UPN 불일치를 지원 하지 않습니다. 동일한 UPN과 SIP를 사용 하 여 작업 하려면 Microsoft 팀 대화방 계정을 만들어야 합니다.
 - Azure AD에서 지원 되는 타사 인증 공급자를 사용 하는 경우에는 WS 신뢰를 통해 활성 인증 흐름을 지원 해야 합니다.
 - 응용 프로그램을 사용 하 여 구성 된 리소스 계정에 대해 장치 수준의 조건부 액세스 정책을 사용 하지 마세요. 이렇게 하면 로그인 오류가 발생 합니다. 대신 Microsoft Intune에서 디바이스를 등록 하 고 [Intune을 사용 하 여 팀 회의실을 관리](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)하기 위해 게시 된 지침을 사용 하 여 준수 정책을 적용 합니다.
 

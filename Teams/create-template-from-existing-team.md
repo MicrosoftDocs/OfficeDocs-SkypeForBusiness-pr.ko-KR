@@ -16,14 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f386531772a9debddca5d3be2dad8c3c778d69b6
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 96d1d2192335367023544b7a30bc36bf69c02a19
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294574"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308121"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Microsoft 팀의 기존 팀에서 서식 파일 만들기
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **사용자 지정 서식 파일은 현재 .EDU 고객에 대해 지원 되지 않습니다.**
 

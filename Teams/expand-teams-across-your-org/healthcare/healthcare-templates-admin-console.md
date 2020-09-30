@@ -18,14 +18,16 @@ appliesto:
 ms.reviewer: ''
 description: 관리 콘솔에서 Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 서식 파일, 채널 및 앱 템플릿을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294584"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308281"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>관리 콘솔에서 팀 의료 템플릿 사용
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 

@@ -18,14 +18,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3269a49072f9e050a139d9bd6463ab4c85a358d
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: e65fd33ed47b54d220925353bdb350557fc81bcb
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294614"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308191"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>관리 콘솔에서 팀 서식 파일 시작
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **사용자 지정 서식 파일은 현재 .EDU 고객에 대해 지원 되지 않습니다.**
 

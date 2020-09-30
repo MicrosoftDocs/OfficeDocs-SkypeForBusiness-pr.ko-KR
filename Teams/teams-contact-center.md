@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft 팀을 위한 서비스 (CCaaS) 솔루션의 통합 된 연락처 센터 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 533c407646fd3ce690a50296e2e7447330121e88
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: fa1ac16a488144e431e613126f63ddbf10861ab4
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177378"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308391"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 팀에 대 한 연락처 센터 통합
 
@@ -195,7 +195,7 @@ Microsoft 팀이 지 원하는 통합 모델에 대 한 개요는 아래 표를 
 <td>팀에서 전화를 거는 사용자</td>
 <td>비공식적인, SME</td>
 <td>비공식적인, SME</td>
-<td>비공식적인, SME, 공식적인 *</td>
+<td>비공식적인, SME, 공식적인</td>
 <td>비공식적인, SME, 공식적인</td>
 </tr>
 <tr class="odd">

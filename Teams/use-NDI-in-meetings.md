@@ -17,22 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 24e4312af520bf783c0382b7543190644bfc1ff0
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323992"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308171"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Microsoft 팀에서 NDI® 기술 사용
 
-[!INCLUDE [template](includes/preview-feature.md)]
+ NewTek NDI® (네트워크 디바이스 인터페이스) 기술은 미디어 장치 (예: 스튜디오 카메라 및 믹서)를 연결 하는 최신 솔루션입니다. NDI® 기술을 사용 하는 대신 로컬 컴퓨터를 포함 하 여 로컬 인트라넷을 통해 연결할 수 있습니다.
 
- NDI® (네트워크 장치 인터페이스) 기술은 미디어 장치 (예: 스튜디오 카메라 및 믹서)를 연결 하는 최신 솔루션입니다. NDI® 기술을 사용 하는 대신 로컬 컴퓨터를 포함 하 여 로컬 인트라넷을 통해 연결할 수 있습니다.
+NDI® 기술은 스트림에 대 한 라이브 콘텐츠를 생성 하는 표준 업계 솔루션이 되었으며 전문적인 브로드캐스트 환경에서 상당한 인식과 채택을 얻었습니다.
 
-NewTek NDI® 기술은 스트림에 대 한 라이브 콘텐츠를 생성 하는 표준 업계 솔루션이 되었으며, 전문 방송 환경에서 상당한 인식과 채택을 얻었습니다.
-
-Skype는 이전에 2018의 Skype에 NDI® out 기능을 추가 했습니다. Microsoft 팀은이 기능을 활용 하 여 모임 환경을 개선 합니다.
+Skype는 이전에 2018의 Skype에 NDI® out 기능을 추가 했습니다. Microsoft 팀은이 기능을 사용 하 여 모임 환경을 개선 합니다.
 
 NDI® 기술은 로컬 네트워크로 제한 되며, 브로드캐스트 솔루션이 아닌 프로덕션 워크플로의 일부로 간주 해야 합니다.
 
