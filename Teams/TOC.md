@@ -281,7 +281,7 @@
 
 # 음성 - 전화 시스템 및 PSTN 연결 
 
-## [배포 계획](cloud-voice-landing-page.md)
+## [Teams 음성 솔루션](cloud-voice-landing-page.md)
 
 ## 전화 시스템
 ### [전화 시스템이란?](what-is-phone-system-in-office-365.md)
