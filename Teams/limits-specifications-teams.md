@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82140caa97d8e754d6264429b7fbbd07d1877f0a
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 1a95606786b59718e99adedb9a33ad31c1903f75
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203731"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308201"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -111,7 +111,16 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 ## <a name="meetings-and-calls"></a>모임 및 통화
 
 > [!IMPORTANT]
-> Microsoft 365 Live 이벤트에서 고객에게 더 좋은 지원을 제공 하도록 7월 1일까지 일시적인 기본 제한을 늘릴 것을 4월에 [발표](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) 했습니다. 고객의 요구를 충족 시키기 위해 일시적인 기본 제한을 2020년 10월 1일까지 확대 적용 할 예정입니다. Teams, Stream 및 Yammer의 Live 이벤트 운영팀은 최대 20,000 참석자, 16시간 동안 그리고 50개의 동시 이벤트까지 일시적인 지원을 계속할 것입니다. 또한 사용자가 [Microsoft Live 이벤트 지원 프로그램](https://resources.techcommunity.microsoft.com/live-events/assistance/)을 통해 라이브 이벤트를 준비하면 Stream에서 최대 100,000 참석자까지 호스트 할 수 있습니다.
+> **Microsoft 365 라이브 이벤트 한도가 늘어납니다**
+>
+> **고객 지원을 돕기 위해 2021년 1월 1일까지 Teams, Stream 및 Yammer에서 주최하는 라이브 이벤트에 대해 임시 제한 증가를 연장합니다(** 포함).
+>
+>- 이벤트당 최대 20,000명의 참석자가 참석합니다.
+>- Teams 테넌트당 최대 50개의 동시 이벤트입니다.
+>- 브로드캐스트당 최대 16시간입니다.
+>
+> 또한 Microsoft 라이브 이벤트 지원 프로그램을 통해 최대 100,000명의 참석자가 참여하는 라이브 이벤트를 계획할 수 있습니다. [자세한 정보](https://aka.ms/Stream/Blog/LiveEventOptions)를 확인합니다. **2021년 1월 1일 이후 이러한 제한 증가가 필요한 고객은 [고급 통신 추가 기능](teams-add-on-licensing/advanced-communications.md)을 구입해야 합니다.**
+
 
 |기능     | 최대 한도 |
 |------------|---------------|
@@ -151,11 +160,13 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 > [!IMPORTANT]
 > **Microsoft 365 라이브 이벤트 한도가 늘어납니다**
 >
-> 고객들이 급변하는 통신 요구 사항을 충족시키는 데 도움을 주기 위해 Microsoft 365 라이브 이벤트는 Teams에서 호스트하는 라이브 이벤트에 대한 기본 한도를 2020년 10월 1일까지 일시적으로 늘릴 것입니다. 다음의 한도 확장은 다음과 같이 반영되고 있습니다.
+> 고객이 급변하는 커뮤니케이션 요구를 충족할 수 있도록 Teams, Stream, Yammer에서 주최하는 라이브 이벤트에 대해 2021년 1월 1일까지 한시적으로 기본값 제한을 상향 조정하겠습니다.
 >
 > - 참석자 제한: 이벤트는 최대 20,000명의 참석자를 지원할 수 있습니다.
 > - 동시 이벤트: 한 테넌트에 걸쳐 동시에 50개의 이벤트 호스트가 가능
 > - 이벤트 기간: 이벤트 시간이 브로드캐스트 당 16시간으로 늘어났습니다.
+>
+> 또한 Microsoft 라이브 이벤트 지원 프로그램을 통해 최대 100,000명의 참석자가 참여하는 라이브 이벤트를 계획할 수 있습니다. [자세한 정보](https://aka.ms/Stream/Blog/LiveEventOptions)를 확인합니다. **2021년 1월 1일 이후 이러한 제한 증가가 필요한 고객은 [고급 통신 추가 기능](teams-add-on-licensing/advanced-communications.md)을 구입해야 합니다.**
 
 ## <a name="presence-in-outlook"></a>Outlook에서의 현재 상태
 
