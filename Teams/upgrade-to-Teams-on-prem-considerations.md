@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e16e651004148645789f5e8e55df6fbbfa1dea9c
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8c359b39707b57a653f35e75497672d306209ccd
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955915"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328217"
 ---
 # <a name="upgrade-considerations-for-organizations-with-skype-for-business-server-on-premises-mdash-for-it-administrators"></a>비즈니스용 Skype Server 온-프레미스를 사용 하는 조직에 대 한 업그레이드 고려 사항 &mdash; IT 관리자 용
 
@@ -52,7 +52,7 @@ ms.locfileid: "47955915"
 
 - 비즈니스용 Skype 계정이 있는 (즉, 이동-CsUser를 사용 하 여 클라우드로 아직 이동 하지 않은) 팀 사용자는 비즈니스용 Skype 사용자와 상호 운용할 수 없으며 외부 사용자와 페더레이션 할 수도 없습니다. 이 기능은 사용자를 클라우드로 이동한 후에만 사용할 수 있습니다 (예를 들어, 아일랜드 모드에서 또는 Team사용자만 해당). 
 
-- 비즈니스용 Skype 계정을 보유 하 고 있는 사용자가 있는 경우, 온-프레미스 Skype 계정으로 모든 사용자에 게 다른 모드를 명시적으로 할당 하지 않는 한, 테 넌 트 수준에서 TeamsOnly 모드를 할당 하지 않아야 합니다. 
+- 비즈니스용 Skype 계정을 보유 하 고 있는 사용자가 있는 경우 테 넌 트 수준에서 TeamsOnly 모드를 할당할 수 없습니다. 먼저 온-프레미스 비즈니스용 Skype 계정으로 모든 사용자를 클라우드로 이동한 다음 하이브리드을 사용 `Move-CsUser` [하지 않도록 설정 하 여 클라우드로 마이그레이션을 완료](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)해야 합니다.  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` Office 365 이외의 위치를 가리키는 lyncdiscover 레코드가 검색 되는 경우 테 넌 트 수준에서 작동 하지 않습니다.
 
 - 올바른 비즈니스용 Skype 특성을 사용 하 여 사용자가 Azure AD로 적절 하 게 동기화 되었는지 확인 해야 합니다. 이러한 특성은 모두 "msRTCSIP"이 포함 된 접두사입니다. 사용자가 Azure AD에 올바르게 동기화 되지 않은 경우 팀의 관리 도구에서 이러한 사용자를 관리할 수 없게 됩니다. 예를 들어 이러한 특성을 적절 하 게 동기화 하지 않는 한 온-프레미스 사용자에 게 팀 정책을 할당할 수 없게 됩니다. 자세한 내용은 [팀 및 비즈니스용 Skype에 대 한 AZURE AD Connect 구성을](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)참조 하세요.
 
@@ -64,12 +64,6 @@ ms.locfileid: "47955915"
 
 >[!NOTE]
 > 2 월 3 일 이후에 만들어진 모든 새 테 넌 트는 조직에 비즈니스용 Skype 서버에 대 한 온-프레미스 배포가 이미 있는 경우 2019를 제외 하 고는 TeamsOnly 넌 트로만 생성 됩니다. Microsoft는 DNS 레코드를 사용 하 여 온-프레미스 비즈니스용 Skype 서버 조직을 식별 합니다. 조직에서 공용 DNS 항목이 없는 온-프레미스 비즈니스용 Skype 서버를 사용 하는 경우 Microsoft 지원에 전화를 걸어 새 테 넌 트가 다운 그레이드 되도록 해야 합니다. 
-
-
-
-
-
-
 
 
 

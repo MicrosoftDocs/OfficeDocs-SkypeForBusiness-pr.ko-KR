@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft 팀의 추가 기능 라이선스와 각 라이선스에 대해 제공 하는 기능에 대해 알아봅니다.
-ms.openlocfilehash: 05df369636687d84235dffbfe5ba494213e5374f
-ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
+ms.openlocfilehash: 2706f66259adb3bf6689eecd287331e899a89be1
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "46542859"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328267"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft 팀 추가 기능 라이선스
 
@@ -41,7 +41,7 @@ ms.locfileid: "46542859"
 |:-----|:-----|:-----|:-----|
 |**기능** <br/> |**설명** <br/> |**Small business (<300 사용자)**|**대규모 비즈니스 (>300 사용자)**|
 **Microsoft 365 Business Voice** <br/> | [비즈니스 음성](../business-voice/whats-business-voice.md) 은 휴대폰 시스템, 오디오 회의, 국내 통화 요금제 등 최대 300 사용자를 위한 중소 기업에 맞게 설계 된 전화 통신 솔루션입니다. 보이스 메일, 발신자 ID, 통화 공원, 착신 전환, 자동 전화 교환, 통화 대기열 등이 여기에 해당 하는 전화 시스템 기능입니다. <br> 국가 또는 지역에서 비즈니스 음성을 사용할 수 있는지 여부를 확인 하려면 [비즈니스용 국가 및 지역 전화 사용 가능성](../business-voice/country-region-availability.md)을 참조 하세요. 가격 정보는 [비즈니스 보이스 가격 산정](https://go.microsoft.com/fwlink/?linkid=2127221)을 참조 하세요. <br/> |&#x2713;||
-|**오디오 회의** <br/> |때로는 조직의 사용자가 전화를 사용 하 여 컴퓨터 대신 팀 모임에 통화를 해야 하는 경우가 있습니다. 모임을 예약 하거나 리드 하는 사용자를 위해 [오디오 회의](../audio-conferencing-in-office-365.md) 를 설정 합니다. <br/> 본인의 국가/지역에서 오디오 회의를 사용할 수 있는지 확인하려면 [오디오 회의 및 통화 플랜에 대한 국가 및 지역의 가용성](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조하세요. 요금 정보는 [오디오 회의 요금](https://go.microsoft.com/fwlink/?linkid=799762)을 참조하세요.  <br/> |&#x2713;|&#x2713;|
+|**오디오 회의** <br/> |때로는 조직의 사용자가 전화를 사용 하 여 컴퓨터 대신 팀 모임에 통화를 해야 하는 경우가 있습니다. 모임을 예약 하거나 리드 하는 사용자를 위해 [오디오 회의](../audio-conferencing-in-office-365.md) 를 설정 합니다. <br/> 본인의 국가/지역에서 오디오 회의를 사용할 수 있는지 확인하려면 [오디오 회의 및 통화 플랜에 대한 국가 및 지역의 가용성](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조하세요. 요금 정보는 [오디오 회의 요금](https://go.microsoft.com/fwlink/?linkid=799762)을 참조하세요.  <br/> <br/>최대 300 사용자가 있는 중소 규모의 기업 이거나 현재 오디오 회의 라이선스가 없는 경우 1 년 동안 오디오 회의를 무료로 이용할 수 있습니다. 2020 년 10 월 1 일부 터, Microsoft 365 Business Basic, Business Standard, Business Premium, Enterprise E1 또는 Enterprise E3 라이선스가 있는 사용자가 무료 오디오 회의 서비스를 사용할 수 있습니다. 자세한 내용은 [중소 기업에 맞게 오디오 회의 설정을](../audio-conferencing-smb.md)참조 하세요.|&#x2713;|&#x2713;|
 |**무료 전화 번호** |오디오 회의, 자동 전화 교환 또는 통화 대기열에 대 한 무료 전화 번호를 원할 경우 [통신 크레딧을 설정](../set-up-communications-credits-for-your-organization.md)해야 합니다. <br/> |&#x2713;|&#x2713;|
 |**전화 시스템** <br/> |[전화 시스템](../what-is-phone-system-in-office-365.md) 은 PSTN (공개 통신 네트워크)에 연결 하는 옵션이 있는 통화 제어 및 PBX (개인 브랜치 교환) 기능을 제공 하는 호스팅 전화 서비스입니다. 전화 시스템 기능에는 클라우드 보이스 메일, 발신자 ID, 통화 공원, 착신 전환, 자동 전화 교환, 통화 대기열, 착신 전환, 발신자 ID 등이 포함 됩니다. <br>자세한 내용은 [다음은 전화 시스템에서 얻을 수 있는 내용](../here-s-what-you-get-with-phone-system.md)입니다. 가격 정보는 [전화 시스템의 가격 산정](https://go.microsoft.com/fwlink/?linkid=799763)을 참조 하세요.  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**통화 플랜** <br/> |사용자가 조직 외부의 전화 번호로 통화할 수 있도록 하려면 [통화 요금제](../calling-plans-for-office-365.md)를 구입 합니다. 국내 통화 요금제와 국내 및 국제 통화 요금제가 있습니다. 가격 정보는 [통화 요금제 가격 산정](https://go.microsoft.com/fwlink/?linkid=799761 )을 참조 하세요.  <br/> |&#x2713;<sup>1</sup>|&#x2713;|

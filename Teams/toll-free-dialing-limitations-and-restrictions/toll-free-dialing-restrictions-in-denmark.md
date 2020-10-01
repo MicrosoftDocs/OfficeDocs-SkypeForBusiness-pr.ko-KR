@@ -1,11 +1,10 @@
 ---
 title: 덴마크어의 무료 전화 걸기 제한
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -22,14 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: 사용 가능성, 유선/고정 회선 및 모바일 네트워크 가용성, 제한을 포함 하 여 중국 남부에서 무료 전화를 거는 방법에 대해 알아보세요.
-ms.openlocfilehash: b8dc3b6382b5b74a80bba1a8702d1a40bee5eaf0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택 하면 무료 서비스를 사용할 수 있는 무료 서비스 사용에 대 한 특정 세부 정보, 제한 사항, 제한 사항이 포함 된 국가 관련 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내에서 필요한 액세스 코드를 표시 하 여 무료 전화를 받을 수 있습니다.
+ms.openlocfilehash: c3db94798c56ca35886992d8d4c3496b45b258a7
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140447"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320773"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>덴마크어의 무료 전화 걸기 제한
 
@@ -39,7 +37,7 @@ ms.locfileid: "43140447"
 |**세부 정보**|**설명**|
 |:-----|:-----|
 |무료 전화를 받을 수 있나요?  <br/> |예  <br/> |
-|전화 걸기 형식  <br/> | 808 8XXXX <br/>  808 2XXXX <br/>  802 5XXXX <br/> |
+|전화 걸기 형식  <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
 |국가/지역 ISO 코드  <br/> |진한  <br/> |
 |섬/지역 포함  <br/> |해당 사항 없음  <br/> |
 |섬/지역 포함 안 함  <br/> | 페로 제도 또는 그린란드에서 액세스할 권한이 없습니다. <br/> |
@@ -50,7 +48,7 @@ ms.locfileid: "43140447"
 ## <a name="related-topics"></a>관련 항목
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
-[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[서비스 전화 번호 가져오기 ss](/microsoftteams/getting-service-phone-numbers)
 
   
  

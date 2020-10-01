@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 조직의 Microsoft 팀에 대 한 사용자 (구독자) 및 서비스 (유료 및 무료) 전화 번호를 받고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 264196a75c908fb4731c0db1ff9db8d788c08ed0
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f4c9c7a20d5aa20f72f5854e9766f1955c5e4911
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905850"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320823"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>조직의 전화 번호 관리
 
@@ -42,7 +42,7 @@ ms.locfileid: "43905850"
 - Microsoft 팀 관리 센터에 나열 되지 않은 새 전화 번호에 대해 요청 양식을 사용 합니다.
 
 > [!IMPORTANT]
-> 벨기에, 프랑스, 독일, 아일랜드, 네덜란드, 스페인에서는 Microsoft 팀 관리 센터를 사용 하 여 전화 번호를 새로 받을 수 없습니다. 양식을 다운로드 하 여 채워야 합니다. 오스트레일리아의 새로운 전화 번호는 [**Telstra 음성 서비스**](https://aka.ms/TelstraVoicePlan)를 참조 하세요.
+> 오스트레일리아의 새로운 전화 번호는 [Telstra 음성 서비스](https://aka.ms/TelstraVoicePlan)를 참조 하세요. 일본의 새로운 전화 번호는 [소프트 뱅크 음성 서비스](https://aka.ms/SoftBankVoicePlan)를 참조 하세요.
 
 ***
 원하는 양식 종류를 알고 있는 경우에는 드롭다운을 사용 하 여 번호를 가져올 국가/지역을 선택 합니다.
@@ -50,14 +50,20 @@ ms.locfileid: "43905850"
 **사용자의 국가 또는 지역을 선택 하 여 필요한 다운로드 가능한 PDF LOA 양식을 찾습니다.**
 > [!div class="op_single_selector"]
 > - [오스트레일리아](phone-number-management-for-australia.md)
+> - [오스트리아](phone-number-management-for-austria.md)
 > - [벨기에](phone-number-management-for-belgium.md)
 > - [캐나다](phone-number-management-for-canada.md)
+> - [덴마크](phone-number-management-for-denmark.md)
 > - [프랑스](phone-number-management-for-france.md)
 > - [독일](phone-number-management-for-germany.md)
 > - [아일랜드](phone-number-management-for-ireland.md)
+> - [이탈리아](phone-number-management-for-italy.md)
 > - [일본](phone-number-management-for-japan.md)
 > - [네덜란드](phone-number-management-for-the-netherlands.md)
+> - [포르투갈](phone-number-management-for-portugal.md)
 > - [스페인](phone-number-management-for-spain.md)
+> - [스웨덴](phone-number-management-for-sweden.md)
+> - [스위스](phone-number-management-for-switzerland.md)
 > - [영국](phone-number-management-for-the-u-k.md)
 > - [미국 & 푸에르토리코](phone-number-management-for-the-u-s.md)
 

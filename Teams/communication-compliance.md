@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: bb9400778b8e000a438343e74bc6b030087ff297
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597152"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328257"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft 팀과 통신 준수
 
@@ -32,9 +32,6 @@ Microsoft 팀의 경우 통신 준수는 팀 채널 또는 1:1 및 그룹 채팅
 - 비속어, 비속어 및 희롱 language
 - 성인용, racy 및 gory 이미지
 - 중요 한 정보 공유
-
->[!IMPORTANT]
->개인 Microsoft 팀 채널은 통신 준수에서 지원 되지 않습니다. 게스트 사용자가 팀에 게 보낸 채팅 통신은 부적절 한 콘텐츠로 모니터링 되지 않습니다.
 
 통신 준수에 대 한 자세한 내용과 조직의 정책을 구성 하는 방법에 대 한 자세한 내용은 [Microsoft 365의 통신 준수](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)를 참조 하세요.
 

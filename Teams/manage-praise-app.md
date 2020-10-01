@@ -8,18 +8,21 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Microsoft 팀 관리 센터에서 칭찬 앱의 관리 설정에 대 한 자세한 정보
-ms.openlocfilehash: a04287ca6873d4dee9c58302ca563b167a592f3a
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 9d293ebc0a9a8776f21bc0e4d1301380a50186a6
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324032"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328207"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 칭찬 앱 관리
 
 Microsoft 팀의 칭찬 앱은 사용자에 게 조직이 나 강의실 구성원에 게 감사를 표시 하는 데 도움이 됩니다. 선택할 수 있는 배지 집합을 선택 하 고 원하는 배지를 만드는 옵션을 사용 하 여 칭찬에서 팀이 수행 하는 다양 한 작업에 대 한 노력을 교육 하는 데 도움이 되도록 디자인 되었습니다.
 
 관리자는 팀 관리 센터에서 조직에 사용할 수 있는 배지를 제어할 수 있습니다. 왼쪽 탐색 창에서 **팀 앱 > 앱 관리**를 선택 합니다. [테 넌 트 앱 카탈로그](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)에서 칭찬를 열고 **설정**으로 이동 합니다.
+
+> [!Note]
+> 미국 정부 클라우드에서는 칭찬 앱 기능을 사용할 수 없습니다.
 
 ## <a name="use-built-in-badge-sets"></a>기본 제공 배지 집합 사용
 

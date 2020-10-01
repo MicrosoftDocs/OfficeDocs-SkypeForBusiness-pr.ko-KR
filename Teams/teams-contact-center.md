@@ -13,19 +13,16 @@ f1.keywords:
 description: Microsoft 팀을 위한 서비스 (CCaaS) 솔루션의 통합 된 연락처 센터 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa1ac16a488144e431e613126f63ddbf10861ab4
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: ccd4456b006d8b27fd0aa2ec88d6467fe86fea8b
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308391"
+ms.locfileid: "48322287"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 팀에 대 한 연락처 센터 통합
 
 Microsoft 팀과 인기 있는 연락처 센터 솔루션을 통합 하는 것은 팀에 게 전화를 걸 수 있는 고객이 일반적으로 필요 합니다.  이 문서에서는 연락처 센터 솔루션을 Microsoft 팀과 통합 하는 방법과 Microsoft 팀에서 연결 된 연락처 센터 인증 프로그램에 참여 하는 파트너 솔루션에 대 한 추가 정보에 대해 간략하게 설명 합니다.
-
-> [!NOTE]
-> 연락 센터 통합 접근 권한 값에는 고급 통신 라이선스가 필요 합니다. 
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Microsoft 팀에 대 한 문의 센터 통합은 무엇 인가요?
 
@@ -50,6 +47,7 @@ Microsoft 팀은 고객 여행을 위해 비즈니스 도구 및 워크플로와
 | Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | Competella | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | ComputerTalk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| ContactCenter4All | https://docs.microsoft.com/microsoftteams/teams-contact-center#connected-contact-center-for-microsoft-teams-certification-program |
 | Enghouse 대화형 | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genes | https://www.genesys.com/microsoft                                                                                   |

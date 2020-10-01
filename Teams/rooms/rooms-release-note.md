@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 microsoft 팀 대화방에 대 한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761324"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328227"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -29,6 +29,7 @@ ms.locfileid: "46761324"
 
 |제품 |게시 대상 <br/> Microsoft Store |
 |--- |--- |
+|4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
@@ -66,6 +67,13 @@ ms.locfileid: "46761324"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 팀 대화방 기능 소개 및 문제 해결
+
+### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
+
+이 업데이트에 도입 된 내용:
+- 방 디스플레이 앞면에 3x3 비디오 갤러리를 사용 하 여 더 많은 비디오 보기  
+- MTR에서 로컬 실시간 폐쇄 자막 시작 
+- 다이렉트 게스트 참가 (미리 보기)을 사용 하 여 팀 대화방에서 모임 확대/축소
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 

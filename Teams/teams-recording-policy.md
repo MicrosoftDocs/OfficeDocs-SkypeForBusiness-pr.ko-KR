@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: db0c7b0d151a12852adffafeda9d84475b82e055
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584087"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320793"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>팀 소개 정책 기반 & 모임 기록
 
@@ -39,8 +39,6 @@ ms.locfileid: "46584087"
 - 팀 사용자 간 상호 작용 캡처 지원 및 지원 되는 호출 끝점 (팀, 팀 모바일, 비즈니스용 Skype, PSTN)
 
 - 기존 팀 관리 통화, 모임 도구 및 정책과의 통합을 포함 하 여 규정 준수 기록에 대 한 새로운 관리 정책
-
-- [고급 통신 라이선스가](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications) 필요 합니다.
 
 준수 기록 [<span class="underline">및 Microsoft 팀 세션</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)의 Ignite 2019 에서도 문제 해결 기록 솔루션 통합 기능을 검토 했습니다.
 
@@ -133,7 +131,7 @@ Azure 및 Windows VM 요구 사항은 팀 인공 지능 구성 요소에만 적�
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>준수 기록 정책 과제 및 프로비저닝
 
-IT 관리자는 규정 준수 기록 정책을 만들고 할당 하 여 기록 되는 사용자와 각 사용자에 게 사용할 레코더를 결정할 수 있습니다. 녹음기는 통신 조작이 발생 하는 경우 이러한 정책의 구성을 기반으로 대화에 참여 하도록 자동으로 초대 됩니다. 준수 기록 정책은 [<span class="underline">Microsoft Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) 을 사용 하 여 관리 되며 각 조직의 테 넌 트, 사용자 단위 및 보안 그룹 수준에서 적용 될 수 있습니다. Microsoft 문서에서 [<span class="underline">모임 정책</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams), [<span class="underline">호출 정책</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) 및 [<span class="underline">그룹 정책</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)에 대 한 자세한 정보를 확인할 수 있습니다.
+IT 관리자는 규정 준수 기록 정책을 만들고 할당 하 여 기록 되는 사용자와 각 사용자에 게 사용할 레코더를 결정할 수 있습니다. 녹음기는 통신 조작이 발생 하는 경우 이러한 정책의 구성을 기반으로 대화에 참여 하도록 자동으로 초대 됩니다. 준수 기록 정책은 [<span class="underline">Microsoft Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) 을 사용 하 여 관리 되며 각 조직의 테 넌 트, 사용자 단위 및 보안 그룹 수준에서 적용 될 수 있습니다. Microsoft 문서에서 [<span class="underline">모임 정책</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams), [<span class="underline">호출 정책</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) 및  [<span class="underline">그룹 정책</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)에 대 한 자세한 정보를 확인할 수 있습니다.
 
 1. 테 넌 트에 응용 프로그램 인스턴스를 만듭니다.
 
@@ -224,4 +222,4 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당 하 여 기록 �
 
 ## <a name="next-steps"></a>다음 단계
 
-인증 프로그램에 참여 하는 공급 업체를 찾고 있다면 메일을 <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>바랍니다.
+인증 프로그램에 참여 하는 공급 업체를 찾고 있다면 메일을  <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>바랍니다.

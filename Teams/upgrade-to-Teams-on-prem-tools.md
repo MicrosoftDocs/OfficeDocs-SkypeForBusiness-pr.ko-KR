@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b910a93435cedfc1dcc83c34b766d9121f93eea
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 076e96ac8cf44e05e2852ca5bdf33b42e14eb731
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955955"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328197"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>IT 관리자를 위한 팀으로 업그레이드 하기 위한 도구 &mdash;
 
@@ -45,11 +45,11 @@ ms.locfileid: "47955955"
 
 ## <a name="tools-for-managing-the-upgrade"></a>업그레이드 관리 도구
 
-어떤 업그레이드 방법을 선택 하 든 사용자의 공존 모드를 제어 하는 [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)을 사용 하는 경우에만 teamsonly로 전환을 관리 합니다. 각 모드에 대 한 자세한 내용은 [공존 모드](migration-interop-guidance-for-teams-with-skype.md)를 참조 하세요.
+선택 하는 업그레이드 방법에 따라 비즈니스용 Skype Online이 이미 설치 되어 있는 사용자의 경우 사용자의 공존 모드를 제어 하는 [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)을 사용 하는 경우에만 teamsonly로 전환을 관리 합니다. 비즈니스용 Skype Server의 온-프레미스 계정을 사용 하는 사용자는 `Move-CsUser` [클라우드로 이동](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)하는 데도 사용 됩니다.  각 모드에 대 한 자세한 내용은 [공존 모드](migration-interop-guidance-for-teams-with-skype.md)를 참조 하세요.  
 
-Skype for Business 모드를 사용 하 여 선택 기능 전환을 수행 하 든, 기본 군도 구성에서 팀 전용 모드로만 업그레이드 하는 경우 TeamsUpgradePolicy는 기본 도구입니다. 팀의 다른 정책과 마찬가지로 TeamsUpgradePolicy를 사용자에 게 직접 할당할 수 있습니다. 또한 정책을 테 넌 트 차원의 기본값으로 설정할 수도 있습니다. 사용자에 게 할당 하는 모든 작업은 테 넌 트 기본 설정 보다 우선 합니다.  팀 관리 콘솔과 PowerShell에서 정책을 관리할 수 있습니다.
+Skype for Business 모드를 사용 하 여 선택 기능 전환을 수행 하거나, 기본 군도 구성에서 팀 전용 모드로 업그레이드 하 든 관계 없이 TeamsUpgradePolicy는 비즈니스용 Skype Online이 이미 있는 사용자를 위한 기본 도구입니다. 팀의 다른 정책과 마찬가지로 TeamsUpgradePolicy를 사용자에 게 직접 할당할 수 있습니다. 또한 정책을 테 넌 트 차원의 기본값으로 설정할 수도 있습니다. 사용자에 게 할당 하는 모든 작업은 테 넌 트 기본 설정 보다 우선 합니다.  팀 관리 콘솔과 PowerShell에서 정책을 관리할 수 있습니다.
 
-비즈니스용 skype **online에서 이미 사용 중인 사용자 에게만 팀 전용 모드를 배정할 수 있다는 점을 제외**하 고 사용자에 게 TeamsUpgradePolicy의 모드를 비즈니스용 skype online 또는 온-프레미스로 할당할 수 있습니다. 이는 사용자가 비즈니스용 Skype Online에 있는 경우에만 비즈니스용 Skype 사용자 및 페더레이션이 있는 interop와 Microsoft 365 전화 시스템 기능을 사용할 수 있기 때문입니다.
+비즈니스용 Skype 온-프레미스에 있는 사용자에 게 TeamsOnly 모드를 제외한 모든 TeamsUpgradePolicy 모드를 할당할 수도 있습니다. **팀 전용 모드는 비즈니스용 Skype Online에 이미 있는 사용자 에게만 할당 될 수 있습니다**. 이는 사용자가 비즈니스용 Skype Online에 있는 경우에만 비즈니스용 Skype 사용자 및 페더레이션이 있는 interop와 Microsoft 365 전화 시스템 기능을 사용할 수 있기 때문입니다. 또한 비즈니스용 Skype 온-프레미스 배포를 사용 하는 경우 (Office 365 이외의 위치를 가리키는 lyncdiscover DNS 레코드가 있는 경우)에는 **TeamsOnly 모드를 테 넌 트 수준의 기본값으로 할당할 수 없습니다** .
 
 비즈니스용 skype 계정을 사용 하는 사용자는 비즈니스용 skype 온-프레미스 도구 모음에서 이동-CsUser를 사용 하 여 온라인 (비즈니스용 Skype Online 또는 팀에 직접)으로 [이동 해야 합니다](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) . 이러한 사용자는 1 개 또는 2 개 단계 에서만 TeamsOnly로 이동할 수 있습니다.
 
@@ -83,7 +83,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->비즈니스용 Skype 계정을 보유 하 고 있는 사용자가 있는 경우, 온-프레미스 Skype 계정으로 모든 사용자에 게 다른 모드를 명시적으로 할당 하지 않는 한, 테 넌 트 수준에서 TeamsOnly 모드를 할당 하지 않아야 합니다.
+>비즈니스용 Skype 계정을 보유 하 고 있는 사용자가 있는 경우 테 넌 트 수준에서 TeamsOnly 모드를 할당할 수 없습니다. CsUser Move 사용자를 사용 하 여 이러한 사용자를 개별적으로 클라우드로 이동 해야 합니다.
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>비즈니스용 Skype 클라이언트에서 알림 사용
