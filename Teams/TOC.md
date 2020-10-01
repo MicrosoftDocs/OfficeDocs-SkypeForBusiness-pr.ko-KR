@@ -51,7 +51,15 @@
 ## [팀 만료 및 갱신](team-expiration-renewal.md)
 ## [팀 보관 또는 삭제](archive-or-delete-a-team.md)
 ## [Slack에서 Teams로 마이그레이션](migrate-slack-to-teams.md)
-## [중소기업을 위한 기본 제공 Teams 서식 파일 그래프](smb-templates.md)
+## Teams 서식 파일 작업
+### [관리 콘솔에서 Teams 서식 파일 사용](get-started-with-teams-templates-in-the-admin-console.md)
+### [중소기업을 위한 기본 제공 Teams 서식 파일 그래프](smb-templates.md)
+### [사용자 지정 Teams 서식 파일 만들기](create-a-team-template.md)
+### [기존 팀에서 서식 파일 만들기](create-template-from-existing-team.md)
+### [기존 서식 파일에서 서식 파일 작성](create-template-from-existing-template.md)
+### [금융 범주 Teams 서식 파일](financial-teams-templates-in-the-admin-console.md)
+### [일반 범주 Teams 서식 파일](general-teams-templates-in-the-admin-console.md)
+### [제조 범주 Teams 서식 파일](manufacturing-teams-templates-in-the-admin-console.md)
 
 ## 외부 사용자와 의사 소통
 ### [다른 조직의 사용자와 의사 소통](communicate-with-users-from-other-organizations.md)
@@ -665,6 +673,7 @@
 
 ## 의료용 Teams
 ### [의료 조직을 위한 Teams 시작](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [관리 콘솔에서 의료 조직을 위한 Teams 서식 파일 시작](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [의료 조직을 위한 Teams 서식 파일 시작](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [의료 조직을 위한 보안 메시징 시작](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [메시지 위임](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -699,10 +708,12 @@
 ### [SPO 사이트 또는 페이지에서 Teams 인트라넷 포털 앱 만들기](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [소매용 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [관리 콘솔에서 소매용 Teams 서식 파일 시작](retail-teams-templates-in-the-admin-console.md)
 ### [소매 Teams 서식 파일 시작](get-started-with-retail-teams-templates.md)
 
 ## [정부 기관용 Teams](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [지원 원격 작업자 (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
+### [정부 기관용 Teams 서식 파일 시작](government-teams-templates-in-the-admin-console.md)
 ### [Office 365 G1 평가판 서비스 관리](g1-trial-license.md)
 ### [Microsoft 365 정부 - GCC 계획](plan-for-government-gcc.md)
 ### [ Microsoft 365 정부 - GCC High 계획](plan-for-government-gcc-high.md)
