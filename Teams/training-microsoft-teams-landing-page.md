@@ -3,8 +3,8 @@ title: Microsoft Teams 관리자 교육
 ms.reviewer: ''
 description: 이 최종 사용자, 관리자 및 강사 주도 교육 리소스를 활용하여 조직에서 Microsoft Teams를 최대한 활용하는 데 도움을 받을 수 있습니다.
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656339"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336977"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 교육
 
@@ -33,7 +33,7 @@ ms.locfileid: "46656339"
 | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Teams 라이브 교육](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Teams를 활용할 수 있도록 설계된 Microsoft 주관의 무료 라이브 온라인 교육 수업. 함께 Teams의 작동을 확인하고 질문에 대한 답을 듣고 실제 강사와 의견을 나누세요. 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Teams 온라인 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 개인별 진도 교육 리소스를 사용하여 사용자가 Teams를 최대한 활용할 수 있도록 도움을 줄 수 있습니다. |
 
-## <a name="dont-miss-this-key-training"></a>이 핵심 교육을 놓치지 마세요.
+## <a name="dont-miss-these-key-training-offerings"></a>주요 교육 서비스를 놓치지 마세요.
 
 자주 확인하세요 - 당사는 이 목록을 계속 업데이트하여 사용자가 항상 가장 최신의 유용하고 중요한 Teams 교육에 대해 인지하도록 할 것입니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "46656339"
    :::column-end:::
 
    :::column:::
-   **[팀워크](https://aka.ms/edx-cld267x-about)** </br>
+   **[팀워크](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
    과정: Teams를 사용하여 팀워크를 활성화
 
    :::column-end:::
