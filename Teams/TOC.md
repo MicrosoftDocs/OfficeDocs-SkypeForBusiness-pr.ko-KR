@@ -215,8 +215,8 @@
 ### [오디오 회의 구독 "전화 걸기"/"전화 받기" 혜택](audio-conferencing-subscription-dial-out.md)
 
 
-### [Microsoft Teams용 오디오 회의 설정](set-up-audio-conferencing-in-teams.md)
-
+### [오디오 회의 설정](set-up-audio-conferencing-in-teams.md)
+### [오디오 회의 설정-중소기업을 위한 빠른 시작](audio-conferencing-smb.md)
 ### [Microsoft를 오디오 회의 공급자로 지정](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### 오디오 회의 브리지 관리
@@ -426,23 +426,31 @@
 
 
 ## 참조
-### 국가 전화 번호 관리 
+### 국가 전화 번호 관리
 #### [오스트레일리아의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [오스트리아 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md)
 #### [벨기에의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [캐나다의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
+#### [덴마크 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md)
 #### [프랑스의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
 #### [독일의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
 #### [아일랜드의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
-#### [일본의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md)
+#### [이탈리아 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md)
+#### [일본 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md)
+#### [포르투갈 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md)
 #### [스페인의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md)
 #### [네덜란드의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
-#### [영국의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
-#### [미국의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+
+#### [스웨덴 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md)
+#### [스위스 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md)
+#### [영국 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
+#### [미국 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 ### 무료 전화 걸기 제한 사항
 #### [개요](toll-free-dialing-limitations-and-restrictions.md)
 #### [아르헨티나](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [오스트레일리아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+#### [오스트리아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md)
 #### [벨로루시](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 #### [벨기에](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [벨리즈](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
@@ -470,6 +478,7 @@
 #### [인도네시아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 #### [아일랜드](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 #### [이스라엘](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
+#### [이탈리아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md)
 #### [일본](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
 #### [케냐](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
 #### [룩셈부르크](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
@@ -493,8 +502,9 @@
 #### [슬로베니아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
 #### [남아프리카 공화국](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
 #### [대한민국](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
-#### [스페인]](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
+#### [스페인](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 #### [스웨덴](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
+#### [스위스](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 #### [대만](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 #### [태국](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 #### [터키](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
