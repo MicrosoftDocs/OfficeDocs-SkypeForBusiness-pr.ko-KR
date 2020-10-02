@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 이 문서에서는 Microsoft 팀을 설치 하 고 실행 하는 데 필요한 하드웨어 요구 사항에 대해 설명 합니다.
+description: 이 문서에서는 Microsoft 팀을 설치 하 고 실행 하는 데 필요한 하드웨어 요구 사항에 대해 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b79a9c0ed52ff205f81da8d859cfc9ceaacadd1b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 55d683c25ec0a5d83bbcf87a2e6df5031ec822f9
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581559"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333258"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -34,45 +34,46 @@ ms.locfileid: "46581559"
 
 | 구성 요소 | 요구 사항 |
 |---------|---------|
-|컴퓨터 및 프로세서    | 최소 1.6GHz 이상(32비트 또는 64비트).        |
-|메모리     |    2.0GB RAM     |
+|컴퓨터 및 프로세서    | 최소 1.6 GHz 이상, 코어 2 개        |
+|메모리     |    4.0 GB RAM     |
 |하드 디스크    | 3.0GB의 사용 가능한 디스크 공간        |
 |디스플레이    |   화면 해상도 1024x768 |
-|그래픽 하드웨어 |  최소 128MB의 그래픽 메모리
-|운영 체제  |    32비트 및 64비트의 Windows Server 2012 R2+, Windows 10 또는 Windows 8.1 최상의 환경을 위해서는 최신 버전의 운영 체제를 사용하세요.|
+|그래픽 하드웨어 |  Windows OS: 그래픽 하드웨어 가속에는 Windows 10 용 WDDM 2.0 이상에는 DirectX 9 이상이 필요 합니다 (또는 Windows 10이 하 작성자 용 WDDM 1.3 이상).
+|운영 체제  |    Windows 10, Windows 8.1, Windows Server 2019, Windows Server 2016|
 |.NET 버전    |  .NET 4.5 CLR 이상 필요       |
 |비디오    |  USB 2.0 비디오 카메라       |
-|장치    |   표준 노트북 카메라, 마이크 및 스피커    | 
-|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하기 위해 듀얼 코어 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>선택적 **배경 비디오 효과** 는 Windows 8.1 또는 아래에서 실행 되는 AVX2 명령 집합이 없는 프로세서에서는 지원 되지 않습니다.</li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가하려면 클라이언트 장치에서 Bluetooth의 활성화가 요구되는 Bluetooth LE가 필요하고 Windows 클라이언트의 경우 64비트 Teams 클라이언트가 필요합니다. 32비트 Teams 클라이언트에서는 사용할 수 없습니다.</li></ul> |
-|Teams 라이브 이벤트 | 팀 live 이벤트를 생성 하는 경우 코어 i5 Kaby 호수 프로세서, 4.0 GB RAM (또는 그 이상) 및 하드웨어 인코더가 있는 컴퓨터를 사용 하는 것이 좋습니다. 지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다. |
+|장치    |   표준 노트북 카메라, 마이크 및 스피커    |
+|화상 통화 및 모임|<ul><li>2 개의 코어 프로세서가 필요 합니다. 높은 비디오/화면 공유 해상도 및 프레임 속도를 4 개 코어 프로세서 이상으로 권장 합니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가 하려면 bluetooth LE가 필요 하며,이 경우 클라이언트 장치에서 블루투스를 사용 하도록 설정 해야 하며, Windows 클라이언트의 경우에는 64 비트 팀 클라이언트만 필요 합니다. 32 비트 팀 클라이언트에서는이 기능을 사용할 수 없습니다.</li></ul> |
+|Teams 라이브 이벤트 | 팀 live 이벤트를 생성 하는 경우 코어 i5 Kaby 호수 프로세서, 4.0 GB RAM (또는 그 이상) 및 하드웨어 인코더가 있는 컴퓨터를 사용 하는 것이 좋습니다. **지원 되지 않는** 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac용 Teams의 하드웨어 요구 사항
 
 | 구성 요소 | 요구 사항 |
 |---------|---------|
-|프로세서    | 최소 인텔 프로세서, 코어 2 듀오 이상 |
-|메모리     |   2.0GB RAM      |
+|컴퓨터 및 프로세서    | 인텔 코어 듀오 프로세서 |
+|메모리     |   4.0 GB RAM      |
 |하드 디스크    |   1.5GB의 사용 가능한 디스크 공간      |
 |디스플레이    | 모니터 해상도 1280x800 이상    |
-|운영 체제  |    Mac OS X 10.11 El Capitan 이상     |
+|운영 체제  |    세 가지 최신 버전의 macOS 중 하나입니다. [여기](https://support.apple.com/en-us/HT201260)에서 최신 버전의 macos를 찾을 수 있습니다. 예를 들어 새 버전의 macOS가 릴리스되면 새 버전과 그 바로 앞의 두 가지가 지원 되는 버전이 됩니다.      |
 |비디오  |    호환되는 웹캠     |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하기 위해 듀얼 코어 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다.</li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Mac OS에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul> |
+|화상 통화 및 모임 | <ul><li>2 개의 코어 프로세서가 필요 합니다. 더 높은 비디오/화면 공유 해상도 및 프레임 속도를 4 개 코어 프로세서 이상으로 권장 합니다. </li><li>MacOS에서는 Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가할 수 없습니다.</li></ul>
+|
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux용 Teams의 하드웨어 요구 사항
 
 | 구성 요소 | 요구 사항 |
 |---------|---------|
-|컴퓨터 및 프로세서    | 최소 1.6GHz 이상(32비트 또는 64비트).        |
-|메모리     |    2.0GB RAM     |
+|컴퓨터 및 프로세서    | 1.6 GHz (또는 그 이상) (32 비트 또는 64 비트), 코어 2 개        |
+|메모리     |    4.0 GB RAM     |
 |하드 디스크    | 3.0GB의 사용 가능한 디스크 공간        |
 |디스플레이    |   화면 해상도 1024x768 |
-|그래픽 하드웨어 |  최소 128MB의 그래픽 메모리
+|그래픽 하드웨어 |  128 MB 그래픽 메모리
 |운영 체제  | DEB 또는 RPM을 설치할 수 있는 Linux 배포판 |
 |비디오    |  USB 2.0 비디오 카메라       |
-|장치    |   표준 노트북 카메라, 마이크 및 스피커    | 
+|장치    |   표준 노트북 카메라, 마이크 및 스피커    |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>1:1 영상 통화 환경을 개선 하기 위해 듀얼 코어 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>온라인 모임 환경을 개선 하기 위해 듀얼 코어 프로세서와 8.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다.</li><li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
+|화상 통화 및 모임 | <ul><li>2 개의 코어 프로세서가 필요 합니다. 높은 비디오/화면 공유 해상도 및 프레임 속도를 4 개 코어 프로세서 이상으로 권장 합니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
 |지원되는 Linux 배포판 | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>모바일 장치용 Teams의 하드웨어 요구 사항
@@ -81,20 +82,21 @@ ms.locfileid: "46581559"
 
 - Android: Android 휴대폰 및 태블릿과 호환됩니다.
 
-  최근 네 개의 주 버전 Android로 지원이 제한됩니다. 신규 주 버전의 Android가 릴리스될 때 새 버전과 이전 세 가지 버전이 공식적으로 지원됩니다.
+  지원은 Android의 **마지막 네 가지** 주요 버전으로 제한 됩니다. 예를 들어 Android의 새 주요 버전이 릴리스되면 Android 요구 사항은 새 버전과 그 이전의 세 가지 최신 버전입니다.
 
 - iOS: iPhone, iPad 및 iPod touch와 호환됩니다.
 
-  최근 두 개의 주 버전 iOS로 지원이 제한됩니다. 신규 주 버전의 iOS가 릴리스될 때 iOS 새 버전과 이전 버전이 공식적으로 지원 됩니다.
-  선택적 **흐림 효과 내 배경** 영상 통화에는 ios 12 이상 버전의 운영 체제가 필요 하며, iPhone 7 이상, iPad 2018 (6 세대) 이상, iPod touch 2019 (7 세대)와 호환 됩니다.
+  IOS의 최신 주 버전 **두 개** 에 대 한 지원이 제한 됩니다. 예를 들어 iOS의 새 주요 버전이 릴리스되면 iOS 요구 사항은 새 버전과 그 앞에 있는 최신 버전입니다. 선택적 **흐림** 효과에는 ios 12 이상의 운영 체제, iPhone 7 이상, iPad 2018 (6 세대) 이상, iPod touch 2019 (일곱 세대) 등의 장치를 사용 하는 것이 필요 합니다.
 
-Teams에서 최상의 환경을 활용하려면 최신 버전의 iOS 및 Android를 사용하세요.
+> [!Note]
+> Teams에서 최상의 환경을 활용하려면 최신 버전의 iOS 및 Android를 사용하세요.
 
 ## <a name="hardware-requirements-for-teams-in-a-virtual-desktop-infrastructure-vdi-environment"></a>VDI(가상 데스크톱 인프라) 환경에서 Teams의 하드웨어 요구 사항
 
 가상화된 환경에서 Teams를 실행하기 위한 요구 사항은 [가상화된 데스크톱 인프라용 Teams](teams-for-vdi.md)를 참조하세요.
 
 ### <a name="related-topics"></a>관련 항목
+
 - [Teams 앱 받기](get-clients.md)
 - [모바일 장치용 Microsoft Teams](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [MSI를 사용하여 Microsoft Teams 앱 설치](msi-deployment.md)

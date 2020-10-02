@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2cb796db37f40025dc7a78123da729fd5812bbbb
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 4de85d8a18c1221c73b4dbdb42ab27504ebbcb09
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48220149"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48337601"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -175,7 +175,7 @@ ms.locfileid: "48220149"
 
 *전화 걸기 범위* 는 발신자가 이름 또는 내선 번호를 사용 하 여 전화를 걸 때 디렉터리에서 사용할 수 있는 사용자를 정의 합니다. **모든 온라인 사용자** 의 기본값에는 비즈니스용 Skype 서버를 사용 하 여 온라인 사용자가 전화 시스템 라이선스 또는 온-프레미스에 호스팅되는 조직의 모든 사용자가 포함 됩니다.
 
-**포함** 또는 **제외** 에서 **사용자 지정 사용자 그룹** 을 선택 하 고 하나 이상의 Microsoft 365 그룹, 배포 목록 또는 보안 그룹을 선택 하 여 특정 사용자를 포함 하거나 제외할 수 있습니다. 예를 들어, 전화 접속 디렉터리에서 조직의 임원을 제외 하는 것이 좋습니다.
+**포함** 또는 **제외** 에서 **사용자 지정 사용자 그룹** 을 선택 하 고 하나 이상의 Microsoft 365 그룹, 배포 목록 또는 보안 그룹을 선택 하 여 특정 사용자를 포함 하거나 제외할 수 있습니다. 예를 들어, 전화 접속 디렉터리에서 조직의 임원을 제외 하는 것이 좋습니다. (사용자가 두 목록에 모두 있는 경우 해당 디렉터리에서 제외 됩니다.)
 
 > [!NOTE]
 > 새 사용자가 디렉터리에 이름을 나열 하는 데 최대 36 시간이 걸릴 수 있습니다.

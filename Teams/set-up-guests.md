@@ -17,24 +17,21 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e91f51bb809b9917036dce1d074ec694cb113f
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761154"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333248"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
-===================================================
+# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
 
-기본적으로 게스트 액세스 기능은 꺼져있습니다. Microsoft 365 또는 Office 365 관리자는 관리자 또는 팀 소유자가 게스트를 추가할 수 있으려면 먼저 팀에 대 한 게스트 액세스를 설정 해야 합니다. 게스트 액세스를 설정 하려면 [팀에서 게스트를 사용 하 여 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)합니다. 
+기본적으로 게스트 액세스 기능은 꺼져있습니다. Microsoft 365 또는 Office 365 관리자는 관리자 또는 팀 소유자가 게스트를 추가할 수 있으려면 먼저 팀에 대 한 게스트 액세스를 설정 해야 합니다.
 
 게스트 액세스를 설정한 후 변경 내용이 적용 되는 데 몇 시간이 걸릴 수 있습니다. 사용자가 팀에 게스트를 추가하려고 할 때 "관리자에게 문의하세요."라는 메시지가 표시되면 게스트 액세스가 켜지지 않았거나 설정이 아직 적용되지 않았을 가능성이 큽니다.
 
 > [!IMPORTANT]
-> 게스트 액세스를 설정 하는 것은 Azure Active Directory, Microsoft 365 또는 Office 365, SharePoint Online, 팀의 설정에 따라 달라 집니다. 자세한 내용은 [Team에서 게스트 액세스 권한 부여하기](Teams-dependencies.md)를 참조하세요.
-
-
+> 게스트 액세스를 설정 하는 것은 Azure Active Directory, Microsoft 365, SharePoint, 팀의 설정에 따라 달라 집니다. 자세한 내용은 [팀에서 게스트 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 참조 하세요.
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 관리 센터에서 게스트 액세스 구성하기
 
@@ -68,10 +65,12 @@ ms.locfileid: "46761154"
 
 5. **저장**을 클릭합니다.
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell을 사용하여 게스트 액세스 켜기 또는 끄기
-
-[PowerShell을 사용 하 여 게스트 액세스를 설정 하거나 해제](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)합니다.
-
-## <a name="external-access-federation-vs-guest-access"></a>외부 액세스(페더레이션) 대 게스트 액세스
+## <a name="external-access-federation-vs-guest-access"></a>외부 액세스 (페더레이션) 및 게스트 액세스
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="see-also"></a>참고 항목
+
+[특정 팀의 게스트 사용자 차단](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+
+[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)

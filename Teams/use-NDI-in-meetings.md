@@ -16,13 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d1ad11000de2ae0dac7563d785dfaea8c34978ed
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308171"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337017"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Microsoft 팀에서 NDI® 기술 사용
 
@@ -50,7 +49,7 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 다음 이미지는 팀 모임에서 사용자에 게 표시 되는 배너 메시지를 보여줍니다.
 
-![팀 모임에 표시 되는 NDI® 기술 배너의 이미지입니다.](media/NDI-disclosure.png)
+![팀 회의에 표시 되는 NDI® 기술 배너](media/NDI-disclosure.png)
 
 이 배너에는 [Microsoft 개인정보 보호 정책](https://aka.ms/teamsprivacy)에 대 한 링크가 있습니다.
 
@@ -60,7 +59,7 @@ NDI® 기술이 모든 로캘에서 지원 됩니다. 다음 사용자는 NDI® 
 
 - 테 넌 트-링/tenantId/userId를 기준으로 제공 되는 완전 한 지원 (모임 정책에 의해 제어 됨)
 - 페더레이션 – 스트림 액세스가 없음 (NDI® 기술이 설정 된 경우에도)<sup>1</sup>
-- Freemium-스트림 액세스 없음
+- 프리미엄-스트림 액세스 없음
 - 익명 – 스트림 액세스 없음
 - 게스트 – 스트림 액세스 없음  
 
