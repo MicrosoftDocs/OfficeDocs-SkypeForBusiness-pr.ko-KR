@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc99ac35344ff0628ec16c474d849320cf931afe
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597003"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320903"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 
@@ -167,14 +167,8 @@ Skype 룸 시스템 버전 1(SRS v1) 소프트웨어를 갖춘 Lync 룸 시스�
 **Surface Hub에서 Teams를 사용할 수 있나요?**<br>
 이제 Calling and Meetings 환경을 통해서 Teams 모임을 Surface Hub에서 사용할 수 있습니다. 자세한 내용은 [Surface Hub에 Microsoft Teams 배포](https://docs.microsoft.com/microsoftteams/teams-surface-hub)를 참조하세요.
 
-**현재의 제3자 IP(3PIP) 전화는 계속해서 Microsoft Teams에서 작동이 되나요? 작동이 된다면 언제까지 작동되나요?**<br>
-비즈니스용 Skype Online 만료 일자인 2021년 7월 31일이 지난 후, Teams로 마이그레이션한 3PIP 장치 사용자는 2023년 7월 31일까지는 제한된 기능의 세트를 사용하며 3PIP 장치를 계속해서 이용할 수 있습니다.
+**현재의 제3자 IP(3PIP) 전화는 계속해서 Microsoft Teams에서 작동이 되나요? 타사 SIP 전화는 어떤가요?**<br>
+기존 하드웨어를 사용할 수 있으면 새 전화 시스템으로 이동할 때 비용을 크게 절감할 수 있습니다. Microsoft는 2023년 이후로 비즈니스용 Skype (3PIP) 전화에 대한 지원을 확장하여 Teams로 이동할 때 기존 비즈니스용 Skype 전화를 계속 사용할 수 있습니다. 또한 Teams는 2021년 상반기부터Cisco, Yealink, Polycom 등의 SIP 전화에서 핵심 통화 기능을 지원합니다.
 
 **인증된 비즈니스용 Skype Online 전화는 Teams에서 작동이 되나요?**<br>
 전화의 호환성과 관련된 질문은 [인증된 비즈니스용 Skype Online 전화 및 Teams에 대한 그 의미](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309)를 참조하세요.
-
-
-
-
-
-
