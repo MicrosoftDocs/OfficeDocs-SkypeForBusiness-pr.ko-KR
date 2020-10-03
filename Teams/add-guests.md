@@ -10,47 +10,45 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 search.appverid: MET150
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
-localization_priority: Priority
-description: 관리자는 Microsoft Teams 데스크톱 및 웹 클라이언트와 Azure Active Directory B2B 공동 작업 포털의 조직에 새 게스트 사용자를 추가하는 방법을 배울 수 있습니다.
+localization_priority: Normal
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a67fd7ed111c1020eaf133e96e26ae03d4250637
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
-ms.translationtype: HT
+description: 관리자는 Microsoft Teams 데스크톱 및 웹 클라이언트와 Azure Active Directory B2B 공동 작업 포털의 조직에 새 게스트 사용자를 추가하는 방법을 배울 수 있습니다.
+ms.openlocfilehash: e74819ba46af8a9f6bcf3b2198f78354bf7bfb79
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405715"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346179"
 ---
-<a name="add-a-guest-to-a-team"></a>팀에 게스트 추가
-=====================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# <a name="add-a-guest-to-a-team"></a>팀에 게스트 추가
 
 비즈니스 또는 소비자 전자 메일 계정(Outlook, Gmail 등)이 있는 사용자는 Teams에서 게스트로 참여할 수 있습니다.
 
 관리자는 다음과 같은 두 가지 방법으로 조직에 새 게스트 사용자를 추가할 수 있습니다.
+
 - 전역 관리자 또는 Teams 관리자와 팀 소유자가 Teams 클라이언트나 Teams 관리 센터에서 팀에 게스트를 추가합니다. 자세한 내용을 보려면 [팀에 게스트 추가](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)를 읽으세요. 아직 게스트 액세스를 설정하지 않은 경우 [팀 내 게스트와의 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team) 단계를 수행합니다.
 
-- Azure AD(Azure Active Directory) B2B 공동 작업을 통해 조직에 게스트를 추가합니다. Azure AD B2B 공동 작업에서는 전역 관리자가 쉼표로 구분된 값(CSV) 파일(라인 2,000개 이하)을 B2B 공동 작업 포털에 업로드하여 외부 사용자 집단을 초대하고 권한을 부여할 수 있습니다. 자세한 내용은 [Azure Active Directory B2B 공동 작업](https://go.microsoft.com/fwlink/p/?linkid=826383)을 확인하세요.
+- Azure AD(Azure Active Directory) B2B 공동 작업을 통해 조직에 게스트를 추가합니다. 자세한 내용은 [빠른 시작: Azure 포털에서 디렉터리에 게스트 사용자 추가](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal)를 참고 하세요.
 
 관리자는 게스트 초대자 역할을 할당하여 조직의 다른 사용자에게 게스트를 추가할 수 있는 권한을 위임할 수도 있습니다. 자세한 내용은 [B2B 외부 공동 작업 사용 및 게스트를 초대할 수 있는 사용자 관리하기](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations)를 참조하세요.
 
 Azure AD B2B 공동 작업을 통해 조직에서는 B2B 사용자에 대한 조건부 액세스 및 MFA(Multi-Factor Authentication) 정책을 적용할 수 있습니다. 조직의 전일제 직원과 구성원에 대해 이러한 정책을 사용하는 것과 같은 방법으로 이러한 정책을 테넌트, 앱 또는 개별 사용자 수준에서 적용할 수 있습니다. 이러한 정책은 리소스 조직에서 적용됩니다. 자세한 내용은 [B2B 공동 작업 사용자에 대한 조건부 액세스](https://go.microsoft.com/fwlink/?linkid=857454)를 참조하세요. 개별 게스트 사용자는 차단할 수 없습니다.
 
-Azure AD B2B, Microsoft 365 그룹 또는 SharePoint Online을 통해 이미 추가한 게스트 사용자는 준비가 되어 있습니다. Microsoft 365 또는 Office 365의 관리자 또는 팀 소유자는 해당 게스트를 각자의 팀에 추가할 수 있습니다. 팀이 이미 Microsoft 365 그룹을 사용하는데 그룹에 게스트가 추가되는 경우, 해당 게스트는 팀에 대한 액세스 권한을 얻게 됩니다. 게스트가 Microsoft 365 그룹을 통해 게스트를 추가하는 경우에는 게스트에 대한 초대 전자 메일이 생성되지 않습니다. 그러므로 팀의 구성원이 게스트에게 알려야 합니다.
+Azure AD B2B, Microsoft 365 그룹 또는 SharePoint를 통해 이미 추가한 게스트 사용자는 준비가 완료 됩니다. Microsoft 365 관리자 또는 팀 소유자는 해당 게스트를 해당 팀에 추가할 수 있습니다. 팀과 연결 된 Microsoft 365 그룹에 직접 게스트를 추가 하는 경우 게스트는 팀에 액세스할 수 있지만 Microsoft 365 그룹은 게스트에 대 한 초대 전자 메일을 생성 하지 않으므로 팀의 다른 사용자가 게스트에 알려야 합니다.
 
 > [!NOTE]
 > 게스트는 [Microsoft 365 또는 Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 및 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 서비스 제한에 영향을 받습니다.
 
-Azure AD 또는 Microsoft 365 보안 센터에서 게스트 추가를 추적할 수 있습니다. Microsoft Teams에서 게스트 추가가 감사되고 Azure AD 그룹 관리 작업 “그룹에 구성원이 추가됨”으로 기록됩니다. 자세한 내용은 [B2B 공동 작업 사용자 감사 및 보고](https://go.microsoft.com/fwlink/p/?linkid=858884)와 [Microsoft 365 보안 센터에서 감사 로그 검색](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)을 참조하세요.
+Azure AD 또는 Microsoft 365 보안 센터에서 게스트 추가를 추적할 수 있습니다. Microsoft Teams에서 게스트 추가가 감사되고 Azure AD 그룹 관리 작업 “그룹에 구성원이 추가됨”으로 기록됩니다. 자세한 내용은 [B2B 공동 작업 사용자 감사 및 보고](https://docs.microsoft.com/azure/active-directory/external-identities/auditing-and-reporting) 및 [준수 센터에서 감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조 하세요.
 
 
-## <a name="more-information"></a>추가 정보
+## <a name="related-topics"></a>관련 항목
 
-[Microsoft Teams에서 게스트 액세스 권한 부여](teams-dependencies.md)</br>
-[Microsoft Teams에서 게스트 액세스 설정 또는 해제](set-up-guests.md)</br>
-[PowerShell을 사용하여 팀에 대한 액세스 권한 제어](guest-access-powershell.md)
+[Microsoft Teams에서 게스트 액세스 권한 부여](teams-dependencies.md)
+
+[Microsoft Teams에서 게스트 액세스 설정 또는 해제](set-up-guests.md)
