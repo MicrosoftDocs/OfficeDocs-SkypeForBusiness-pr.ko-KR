@@ -14,18 +14,17 @@ search.appverid: MET150
 description: Microsoft Teams에서 게스트 액세스에 대한 도움말을 참조하여 문제를 해결하세요.
 f1.keywords:
 - NOCSH
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 466728a50a5a610ee00665f3661b5c5701bcbad1
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 0ce7744aa18fe8ffe3fc83ca40649672f521bbba
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656279"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346359"
 ---
-<a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스에 대한 문제 해결
-======================================================
+# <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스에 대한 문제 해결
 
 - 문제에 대해 알고 있는지 확인 하려면 [조직의 지원 팀](Known-issues.md)을 확인 하세요.
 - Teams에서 게스트 액세스에 대한 현재 지원 문제를 확인하려면 [ 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)로 이동합니다.
@@ -40,18 +39,17 @@ ms.locfileid: "46656279"
 > [!NOTE]
 > 게스트가 다른 (리소스) 테 넌 트에 로그인 하 여 팀을 게스트로 사용할 수 있도록 하려면 게스트의 홈 테 넌 트에서 팀을 활성화 해야 합니다.
 
-라이선스 오류가 표시 되는 경우에는 [Azure Active DIRECTORY B2B 라이선스 지침](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) 을 참조 하 여 조직에서 게스트 액세스에 대 한 요구 사항에 맞는 라이선스 요구 사항을 결정 해야 합니다.
-
+라이선스 오류가 표시 되는 경우 [AZURE AD External id에 대 한 청구 모델](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) 을 참조 하 여 조직에서 게스트 액세스에 대 한 요구 사항에 맞는 라이선스 요구 사항을 결정 해야 합니다.
 
 - 초대하는 조직에 대한 게스트 라이선스가 계산됩니다. 필요한 라이선스 수를 계산할 경우 이를 고려합니다.
-- 라이선스는 초대 된 게스트를 다른 Microsoft 365 또는 Office 365 조직에서 가져오거나 개인 전자 메일 주소를 사용 하는 조직에 대해 계산 됩니다.
+- 라이선스는 초대 된 게스트가 다른 Microsoft 365 조직에서 보내거나 개인 전자 메일 주소를 사용 하는지 여부에 관계 없이 조직에 게 계산 됩니다.
 
 ## <a name="support-for-b2b-user-types"></a>B2B 사용자 유형 지원
+
 현재 Teams에는 [Azure B2B에서 정의한](https://docs.microsoft.com/azure/active-directory/b2b/user-properties) 상태 1 및 상태 2 유형의 게스트 사용자만 지원됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 
 [Teams의 게스트 액세스](guest-access.md)
-
 
 [Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

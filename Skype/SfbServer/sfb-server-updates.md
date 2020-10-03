@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 곳에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대 한 업데이트를 찾고 관리 합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
-ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: a6b93c7b0428073e9a13808fae1515b2e1c0b344
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814317"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341032"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -32,6 +32,7 @@ ms.locfileid: "47814317"
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
+|비즈니스용 Skype 서버 2019 누적 업데이트 4 |[(영문) 4470124](https://support.microsoft.com/kb/4470124)| 2020년 9월 |
 |비즈니스용 Skype 서버 2019 누적 업데이트 3 핫픽스 1 |[(영문) 4470124](https://support.microsoft.com/kb/4470124)| 2020년 7월 |
 |비즈니스용 Skype 서버 2019 누적 업데이트 3 |[(영문) 4470124](https://support.microsoft.com/kb/4470124)| 2020년 3월 |
 |비즈니스용 Skype 서버 2019 누적 업데이트 2 |[(영문) 4470124](https://support.microsoft.com/kb/4470124)| 2019년 12월 |

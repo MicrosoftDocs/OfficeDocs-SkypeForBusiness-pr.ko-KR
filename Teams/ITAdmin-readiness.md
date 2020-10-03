@@ -19,20 +19,21 @@ ms.custom:
 description: Microsoft 팀을 계획, 배포 및 실행 하는 방법을 설명 하는 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 714e15b16f72085f4261dd9dc961f8a26060b82f
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48170962"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346199"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육 시작
 
 교육 리소스를 사용 하 여 팀에 대해 직접 교육 하 고, 다른 사람을 가르쳐 하거나 워크샵을 실행 합니다. 여기에서 새 콘텐츠를 자주 확인 하세요.
 
-|               |               |               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![손 모양 및 위쪽 화살표를 보여 주는 아이콘](media/get-started-blue-small.svg)  | [몇 개의 팀과 채널을 사용 하 여 빠르게 시작 하세요.](/MicrosoftTeams/get-started-with-teams-quick-start) | ![확인 표시 아이콘](media/success-small.svg)  | [YouTube의 클라우드 채널에서 커피에 대 한 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![두 사용자를 보여 주는 아이콘](media/users-people-small.svg)  | [사용자를 위한 교육 받기](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![작업 클립보드 기호](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30 개 팀: IT 관리자 및 변경 관리 팀장을 위한 교육 시리즈로 30 일간 팀을 구현](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+| ![손 모양 및 위쪽 화살표를 보여 주는 아이콘](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [몇 개의 팀과 채널을 사용 하 여 빠르게 시작 하세요.](/MicrosoftTeams/get-started-with-teams-quick-start) | ![두 사용자를 보여 주는 아이콘](https://docs.microsoft.com/office/media/icons/users-people.png) | [사용자를 위한 교육 받기](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![확인 표시 아이콘](https://docs.microsoft.com/office/media/icons/success-teams.png) | [YouTube의 클라우드 채널에서 커피에 대 한 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![작업 클립보드 기호](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30 개 팀: IT 관리자 및 변경 관리 팀장을 위한 교육 시리즈로 30 일간 팀을 구현](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>기술 교육</h2>
 
@@ -73,7 +74,7 @@ ms.locfileid: "48170962"
 
 | 제목                                                                       | 이론적인                                                                                                                                                                                                               |  가이드 링크                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Id, 액세스 관리 & 팀에 대 한 위협 방지                   | Microsoft 관리 센터 및 PowersShell을 사용 하 여 액세스 및 id 정책을 구성 하 고 팀에 대해 Office 365 고급 위협 보호를 사용 하는 방법에 대해 알아봅니다.                                                            | [팀 보안 가이드](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Id, 액세스 관리 & 팀에 대 한 위협 방지                   | Microsoft 관리 센터 및 PowerShell을 사용 하 여 액세스 및 id 정책을 구성 하 고 팀에 대 한 Office 365 고급 위협 방지 사용 방법을 알아봅니다.                                                            | [팀 보안 가이드](https://aka.ms/teamsesecurityinteractiveguide)         |
 | 팀의 규정 준수 관리                                                | Microsoft 365 보안, Microsoft 365 준수, Microsoft 팀 관리 센터, Windows PowerShell을 사용 하 여 Office 365 조직의 Microsoft 팀 정책 및 설정을 관리 하 고 구성 합니다. | [팀의 규정 준수 관리 가이드](https://aka.ms/complianceinteamsinteractiveguide)      |
 | 팀 관리자: Microsoft 팀에서 채팅, 팀, 채널 및 앱 배포 | 팀 관리자를 활용 하 여 환경을 평가 하 고 채팅, 팀, 채널, 앱 배포 계획을 작성 하는 방법에 대해 알아봅니다.                                                                                         |  [팀 관리자 가이드](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell 및 동적 그룹을 사용 하 여 팀의 합리화 관리        | Office 365 그룹을 정적 구성원에서 동적으로 변환 하 고 Windows PowerShell을 사용 하 여 새 앱 권한 정책을 모든 구성원에 게 할당 합니다.                                                                         |  [팀 합리화 관리 가이드](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -83,7 +84,7 @@ ms.locfileid: "48170962"
 | Microsoft 팀에서 관리 구성                                     | 조직의 팀 메시징 보존 정책을 만드는 방법과 개별 팀을 보관, 삭제 및 복원 하는 방법에 대해 알아봅니다.                                                                                   |  [Microsoft 팀에서 관리 구성 가이드](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Microsoft 팀 모임 구성 및 배포                          | Microsoft 팀에 대 한 모임 작업 부하를 배포 하는 과정을 단계별로 안내 합니다.                                                                                                                                       |  [Microsoft 팀 모임 가이드 구성 및 배포](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Microsoft 팀을 위한 오디오 회의 구성                            | 팀에서 오디오 회의 기능을 살펴보고 회의 브리지 및 전화 접속 전화 번호를 할당 하는 방법을 알아보세요.                                                                                          |  [Microsoft 팀 용 오디오 회의 구성 가이드](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Fisrtline Worker에 대 한 Microsoft 팀 구성                           | Firstline 인력의 올바른 Microsoft 팀 환경을 구성 하 고 배포 하는 방법에 대해 알아봅니다.                                                                                                                  | [Firstline Worker 가이드에 대 한 Microsoft 팀 구성](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Firstline Worker에 대 한 Microsoft 팀 구성                           | Firstline 인력의 올바른 Microsoft 팀 환경을 구성 하 고 배포 하는 방법에 대해 알아봅니다.                                                                                                                  | [Firstline Worker 가이드에 대 한 Microsoft 팀 구성](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>빠른 시작 가이드</h2>
 
@@ -98,5 +99,5 @@ ms.locfileid: "48170962"
 
 <h2>과정</h2>
 
-- [Microsoft 팀과 팀워크 사용](https://aka.ms/edx-cld267x-about)
+- [Microsoft 팀과 팀워크 사용](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
 - [Microsoft 서비스 채택 전문가](https://aka.ms/AdoptionCert)

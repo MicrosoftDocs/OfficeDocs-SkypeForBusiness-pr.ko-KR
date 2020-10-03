@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55d683c25ec0a5d83bbcf87a2e6df5031ec822f9
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: ff7a65127d94882c73b6bf85ff2a01e168f2da4a
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333258"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341012"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -43,7 +43,7 @@ ms.locfileid: "48333258"
 |.NET 버전    |  .NET 4.5 CLR 이상 필요       |
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    |
-|화상 통화 및 모임|<ul><li>2 개의 코어 프로세서가 필요 합니다. 높은 비디오/화면 공유 해상도 및 프레임 속도를 4 개 코어 프로세서 이상으로 권장 합니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가 하려면 bluetooth LE가 필요 하며,이 경우 클라이언트 장치에서 블루투스를 사용 하도록 설정 해야 하며, Windows 클라이언트의 경우에는 64 비트 팀 클라이언트만 필요 합니다. 32 비트 팀 클라이언트에서는이 기능을 사용할 수 없습니다.</li></ul> |
+|화상 통화 및 모임|<ul><li>2-코어 프로세서가 필요 합니다. 비디오/화면 공유 해상도와 프레임 속도를 높이는 경우에는 4-코어 프로세서를 더 잘 활용 하는 것이 좋습니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가 하려면 bluetooth LE가 필요 하며,이 경우 클라이언트 장치에서 블루투스를 사용 하도록 설정 해야 하며, Windows 클라이언트의 경우에는 64 비트 팀 클라이언트만 필요 합니다. 32 비트 팀 클라이언트에서는이 기능을 사용할 수 없습니다.</li></ul> |
 |Teams 라이브 이벤트 | 팀 live 이벤트를 생성 하는 경우 코어 i5 Kaby 호수 프로세서, 4.0 GB RAM (또는 그 이상) 및 하드웨어 인코더가 있는 컴퓨터를 사용 하는 것이 좋습니다. **지원 되지 않는** 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac용 Teams의 하드웨어 요구 사항
@@ -57,7 +57,7 @@ ms.locfileid: "48333258"
 |운영 체제  |    세 가지 최신 버전의 macOS 중 하나입니다. [여기](https://support.apple.com/en-us/HT201260)에서 최신 버전의 macos를 찾을 수 있습니다. 예를 들어 새 버전의 macOS가 릴리스되면 새 버전과 그 바로 앞의 두 가지가 지원 되는 버전이 됩니다.      |
 |비디오  |    호환되는 웹캠     |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>2 개의 코어 프로세서가 필요 합니다. 더 높은 비디오/화면 공유 해상도 및 프레임 속도를 4 개 코어 프로세서 이상으로 권장 합니다. </li><li>MacOS에서는 Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가할 수 없습니다.</li></ul>
+|화상 통화 및 모임 | <ul><li>2-코어 프로세서가 필요 합니다. 비디오/화면 공유 해상도와 프레임 속도를 높이는 경우에는 4-코어 프로세서를 더 잘 활용 하는 것이 좋습니다. </li><li>MacOS에서는 Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가할 수 없습니다.</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux용 Teams의 하드웨어 요구 사항
@@ -73,7 +73,7 @@ ms.locfileid: "48333258"
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>2 개의 코어 프로세서가 필요 합니다. 높은 비디오/화면 공유 해상도 및 프레임 속도를 4 개 코어 프로세서 이상으로 권장 합니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
+|화상 통화 및 모임 | <ul><li>2-코어 프로세서가 필요 합니다. 비디오/화면 공유 해상도와 프레임 속도를 높이는 경우에는 4-코어 프로세서를 더 잘 활용 하는 것이 좋습니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
 |지원되는 Linux 배포판 | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>모바일 장치용 Teams의 하드웨어 요구 사항

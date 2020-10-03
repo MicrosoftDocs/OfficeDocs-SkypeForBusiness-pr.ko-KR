@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269642"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346339"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
@@ -126,3 +126,7 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
 **팀 모임 녹음/녹화를 재생 하려면 어떻게 하나요?**
 
 파일에 액세스 하는 위치에 따라 비즈니스용 OneDrive 또는 SharePoint의 비디오 플레이어에서 비디오가 재생 됩니다.
+
+**Deprecating 추가를 계획 하는 경우 기존 비디오는 그대로 유지 되 고 얼마 동안 지속 되나요?**
+
+플랫폼으로 스트림은 가까운 장래에 더 이상 사용 되지 않습니다. 현재 스트림에 살고 있는 비디오는 마이그레이션을 시작할 때까지 유지 됩니다. 마이그레이션에 따라 이러한 비디오는 ODSP로도 마이그레이션됩니다. 자세한 내용은 [여기](https://docs.microsoft.com/stream/streamnew/classic-migration) 를 참조 하세요.
