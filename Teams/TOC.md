@@ -81,7 +81,6 @@
 #### [팀에 게스트 추가](add-guests.md)
 #### [팀에서 게스트 사용자 보기](view-guests.md)
 #### [게스트 사용자 정보 편집](edit-guests-information.md)
-#### [PowerShell을 사용하여 게스트 액세스 제어](guest-access-PowerShell.md)
 #### [게스트 액세스 문제 해결](troubleshoot-guest-access.md)
 ## [Teams의 Cortana](cortana-in-teams.md)
 
@@ -131,6 +130,7 @@
 ### [Microsoft Teams 관리 센터에서 Power Platform 관리](manage-power-platform-apps.md)
 ### [앱 패키지를 업로드하여 사용자 지정 앱 게시](upload-custom-apps.md)
 ## [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 부여](app-permissions-admin-center.md)
 ## [앱 사용 권한 및 고려 사항](app-permissions.md)
 ## [Teams 3자 앱 구매 서비스](purchase-third-party-apps.md)
 ## [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -190,6 +190,7 @@
 ## [설정이 변경되면 사용자에게 전송되는 전자 메일](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [모임의 시작 및 종료 알림 설정 또는 해제](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Teams에서 NDI® 기술 사용](use-NDI-in-meetings.md)
 ## [팀 모임에서 손 올리기 옵션](raise-hand-meetings.md)
 ## [지원 되지 않는 브라우저에서 Teams 모임](unsupported-browsers.md)
 ## [Teams에서 데스크톱 공유 구성](configure-desktop-sharing.md)
