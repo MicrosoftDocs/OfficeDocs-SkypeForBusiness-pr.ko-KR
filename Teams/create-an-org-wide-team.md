@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84f34ee9af678613580beefeb52b08e9ce924be3
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 3d0534d4c0a62573bd3ac649c39b3d0f17a235f6
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766872"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361438"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams에서 조직 전체 팀 만들기
 
@@ -38,7 +38,7 @@ ms.locfileid: "47766872"
 
 - 로그인이 차단된 계정
 - 게스트 사용자
-- 서비스 계정
+- 리소스 또는 서비스 계정 (예: 자동 전화 교환 및 통화 대기열과 연결 된 계정)
 - 회의실 또는 장비 계정
 - 공유 사서함으로 지원되는 계정
 

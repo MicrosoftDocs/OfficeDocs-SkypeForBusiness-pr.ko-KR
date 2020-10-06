@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 microsoft 팀 대화방에 대 한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328227"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361498"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -74,6 +74,10 @@ ms.locfileid: "48328227"
 - 방 디스플레이 앞면에 3x3 비디오 갤러리를 사용 하 여 더 많은 비디오 보기  
 - MTR에서 로컬 실시간 폐쇄 자막 시작 
 - 다이렉트 게스트 참가 (미리 보기)을 사용 하 여 팀 대화방에서 모임 확대/축소
+
+> [!NOTE]
+> 3x3 비디오 갤러리와 로컬 실시간 폐쇄 캡션은 Microsoft 팀 서비스를 통해 제공 됩니다. 이러한 기능은 모든 팀이 응용 프로그램 버전 4.5.37.0 이상에서 사용할 수 있습니다. 
+
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 

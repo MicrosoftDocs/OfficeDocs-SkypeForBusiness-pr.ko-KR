@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346339"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361338"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
@@ -85,7 +85,7 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>비즈니스용 OneDrive 및 SharePoint에서 스트림을 사용 하 여 계속 합니다.
 
-정책이 이미 **Stream**으로 설정 되어 있는 경우에도 설정 되지 않았을 수 있습니다. Nothing으로 설정 된 경우 기본값은 스트림입니다. 옵트아웃 (opt out) 하려면 해당 스트림이 기본값 인지 확인 하기 위해 정책을 **스트림으로** 다시 설정 **해야 합니다** .
+정책이 **Stream**으로 설정 되어 있는 경우에도 설정 되지 않았을 수 있습니다. 일반적으로 정책이 설정 되어 있지 않으면 기본 설정은 **스트림**입니다. 그러나이 새로운 변경으로 인해 SharePoint 또는 OneDrive 사용을 옵트아웃 하려면 정책을 **스트림으로** 다시 설정 하 여 해당 설정이 기본값 인지 확인 해야 합니다.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"

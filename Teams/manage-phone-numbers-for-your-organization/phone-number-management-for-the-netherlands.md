@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 Microsoft 팀 용 네덜란드에서 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾습니다.
-ms.openlocfilehash: ab5cd7fa88b0748f2628751f95087c9eff677dfd
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 8eecaf1d99a00f386be5dea1fbc42a19f4e567a5
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324114"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361418"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>네덜란드의 전화 번호 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "48324114"
   
 |**실행할 작업**|**올바른 양식 다운로드**|
 |:-----|:-----|
-|Microsoft 팀 관리 센터에 나열 되지 않은 새 사용자 또는 서비스 전화 번호를 가져옵니다.   <br/> | 이 양식을 다운로드 합니다.</br> [네덜란드 (v. 5.0)에 대 한 새 전화 번호 요청 (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf?raw=true) <br/><br/>  기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com).  <br/> |
+|Microsoft 팀 관리 센터에 나열 되지 않은 새 사용자 또는 서비스 전화 번호를 가져옵니다.   <br/> | 이러한 양식 중 하나를 다운로드 합니다.</br> [네덜란드 (v. 5.0)에 대 한 새 전화 번호 요청 (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf?raw=true) <br/>  [네덜란드 (v. 5.0)에 대 한 새 전화 번호 요청 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com).  <br/> |
 |전화 번호를 귀하에 게 전송 하세요.  <br/> |다음 양식 중 하나를 다운로드 합니다. <br/> [네덜란드 (모든 숫자) (LOA)의 인증 문자 (v. a) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.5.0)-(nl-nl).pdf?raw=true) <br/> <br/>  기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com).  <br/> |
 |국가 전화 번호부에 전화 번호를 게시 하거나 게시 취소 합니다.  <br/> |게시/게시 취소 하려는 전화 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) . <br/> |
 |사용자의 번호를 서비스 번호로 변경 합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) . <br/> |

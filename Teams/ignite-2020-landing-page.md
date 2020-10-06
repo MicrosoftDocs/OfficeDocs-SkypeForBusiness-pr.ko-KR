@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
+ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209487"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357606"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020의 팀 세션
 
@@ -40,9 +40,9 @@ ms.locfileid: "48209487"
 |---|----------|---|---|---|
 |[인텔리전스의 팀 모임 및 장치 혁신](https://aka.ms/PR104) |계속 해 서 모임이 innovating 하 고 다시 이미징 하 고 있습니다. 회의에 대 한 추가 정보를 지속적으로 제공 하는 방법과 인텔리전스의 기능을 제공 하는 장치에서 최신 혁신을 제공 하는 방법에 대해 알아보세요.  |200|Shalendra Chhabra|
 |[고급 통화 기능](https://aka.ms/OD265)|새로운 통화 환경, 공동 작업 호출에 대 한 추가 정보, e911, 위치 기반 라우팅 및 기타 기능을 살펴보기 위해 통화를 더 심층적으로 경험해 보세요. 회사 규모에 관계 없이 고급 시나리오에 대 한 통화를 준비 하는 방법에 대해 알아봅니다. |200|박 Xie, Roy Kuntz|
-|[공유 공간에 대 한 Microsoft 팀 디바이스](https://aka.ms/OD261) |Microsoft 팀 디바이스는 사용자가 팀의 기능을 최대화 하 고 원격 및 공유 작업 영역 간의 격차를 브리지로 지원 하도록 설계 되었습니다. 사용자는 팀 모임 기능, 고객 중심 회의실 환경, 업계 선두적인 하드웨어 등을 통해 귀하는 원격에 가입 하거나 회의실에 있든 상관 없이 낮은 마찰, 포괄, 대화형 모임에서 혜택을 누릴 수 있습니다. Microsoft 팀 대화방, 공동 작업 바 및 Surface Hub와 같은 공유 공간 장치를 사용 하 여 팀이 하이브리드 작업 영역에서 지속적으로 연결 하 고 공동 작업을 수행할 수 있는 방법을 알아봅니다.|200|Greg Baribault, Kendra Baker, Sandhya Shahdeo|
+|[공유 공간에 대 한 Microsoft 팀 디바이스](https://aka.ms/OD261) |Microsoft 팀 디바이스는 사용자가 팀의 기능을 최대화 하 고 원격 및 공유 작업 영역 간의 격차를 브리지로 지원 하도록 설계 되었습니다. 사용자는 팀 모임 기능, 고객 중심 회의실 환경, 업계 선두적인 하드웨어 등을 통해 귀하는 원격에 가입 하거나 회의실에 있든 상관 없이 낮은 마찰, 포괄, 대화형 모임에서 혜택을 누릴 수 있습니다. Microsoft 팀 대화방, 공동 작업 바 및 Surface Hub와 같은 공유 공간 장치를 사용 하 여 팀이 하이브리드 작업 영역에서 지속적으로 연결 하 고 공동 작업을 수행할 수 있는 방법을 알아봅니다.|200|Greg Baribault, Kendra Baker, Sandhya Rao|
 |[비즈니스용 Skype에서 Microsoft 팀에 대 한 경로 디자인](https://aka.ms/OD251)|현재 비즈니스용 Skype 구현 및 비즈니스 목표에 따라 가장 적합 한 접근 방법을 알아보려면이 세션에 참가 하세요. 비즈니스용 Skype Online 또는 서버 고객에 관계 없이, 오늘 Microsoft 팀에 게 제공 하기 위한 모범 사례, 리소스 및 지침을 공유 합니다. |200|리사 McKee, Laszlo Somi
-|[팀 개인 디바이스의 최신 혁신](https://aka.ms/PR108)  |고객이 원격으로 작업 하는 대부분의 직원이 사용자에 게 팀을 위한 올바른 개인 디바이스를 찾고 있습니다. 팀 개인 디바이스의 새로운 혁신, 기능 및 인증 디바이스의 통해 계속 앞서 및 원격 작업을 위한 모범 사례에 대해 알아보세요. |200|Sandhya Rao, Arash Ghanaje-Sichanie|
+|[팀 개인 디바이스의 최신 혁신](https://aka.ms/PR108)  |고객이 원격으로 작업 하는 대부분의 직원이 사용자에 게 팀을 위한 올바른 개인 디바이스를 찾고 있습니다. 팀 개인 디바이스의 새로운 혁신, 기능 및 인증 디바이스의 통해 계속 앞서 및 원격 작업을 위한 모범 사례에 대해 알아보세요. |200|Sandhya Rao, Arash Ghanaie-Sichanie, Kruthika Ponnusamy|
 |[Microsoft 팀 모임에서 마스터 가상 브레이크 회의실](https://aka.ms/PR109) |팀의 가상 브레이크 룸의 최신 혁신에 대해 자세히 알아보세요. 이 세션에서는 가상 브레이크 방에 대 한 소규모 그룹 도출, 브레인스토밍, 학습, 토론을 촉진 하는 데 사용 사례 및 모범 사례를 강조 합니다. |200|James Nakul Madaan|
 |[모임 및 비디오 회의 컨트롤을 사용 하 여 팀 모임에 안전 하 게 포함](https://aka.ms/PR110) |이 세션에 참가 하 여 모든 참석자에 게 하드 음소거, 기능 읽어주기, 브레이크 아웃 공간 구성을 비롯 한 모임 안전, 보안 및 중재에 대해 자세히 알아보세요. 또한 모임을 보다 포괄적으로 만드는 데 도움이 되는 반응과 및 볼록 손 같은 기능에 대해서도 설명 합니다.|200|Nakul Madaan, Rajiv Ramaiah|
 |[Microsoft 팀이 플랫폼으로 통화 하 고 회의를 하는 경우](https://aka.ms/PR111) |다른 플랫폼 환경에서 Microsoft Graph 클라우드 통신 Api, 연락 센터, 준수 기록 및 출시 소식에 대 한 업데이트를 통해 팀의 통화 및 모임 플랫폼 기능에 대해 알아봅니다. |200|Srividhya Chandrasekaran, 마나트, Malik|

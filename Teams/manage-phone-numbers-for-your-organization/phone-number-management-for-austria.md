@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 Microsoft 팀 용 오스트리아에서 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾습니다.
-ms.openlocfilehash: 5924296d98696b0505b4ebad3d4b6b2d41cbebe0
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 4653dd744460dffc3407867e27d51f41f9fbb5a5
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324244"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361778"
 ---
 # <a name="phone-number-management-for-austria"></a>오스트리아 용 전화 번호 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "48324244"
   
 |**실행할 작업**|**올바른 양식을 다운로드 하 여 저희에 게 보내기**|
 |:-----|:-----|
-|Microsoft 팀 관리 센터에 나열 되지 않은 새 사용자 및 서비스 전화 번호를 가져옵니다.   <br/> |이 양식을 다운로드 합니다. <br/>  [오스트리아 (v. 5.0)에 대 한 새 전화 번호 요청 (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  <br/>기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com). <br/>  <br/>또한 새 번호를 받을 비즈니스 주소에서 유틸리티 청구서를 포함 해야 합니다. <br/> 
+|Microsoft 팀 관리 센터에 나열 되지 않은 새 사용자 및 서비스 전화 번호를 가져옵니다.   <br/> |이러한 양식 중 하나를 다운로드 합니다. <br/>  [오스트리아 (v. 5.0)에 대 한 새 전화 번호 요청 (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [오스트리아 (v. 5.0)에 대 한 새 전화 번호 요청 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com). <br/>  <br/>또한 새 번호를 받을 비즈니스 주소에서 유틸리티 청구서를 포함 해야 합니다. <br/> 
 |전화 번호를 귀하에 게 전송 하세요.  <br/> | 이 양식을 다운로드 합니다. <br/>[오스트리아 (모든 숫자)의 인증 문자 (LOA) (v. a) (on-in)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf?raw=true) <br/> <br/>기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com).  <br/> <br/>또한 번호를 전송 하려는 비즈니스 주소에서 유틸리티 청구서를 포함 해야 합니다.<br/> |
 |국가 전화 번호부에 전화 번호를 게시 하거나 게시 취소 합니다.  <br/> |게시/게시 취소 하려는 전화 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) .      <br/> |
 |사용자의 번호를 서비스 번호로 변경 합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) . <br/> |

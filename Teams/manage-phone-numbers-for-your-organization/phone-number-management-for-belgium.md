@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 벨기에 Microsoft 팀의 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 29d2aff6965e960e2069876438e935e871bded9e
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 82f508ff286ad0fc811c0048e9ba181ea5847c09
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346319"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361768"
 ---
 # <a name="phone-number-management-for-belgium"></a>벨기에의 전화 번호 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "48346319"
   
 |**실행할 작업**|**올바른 양식을 다운로드 하 여 저희에 게 보내기**|
 |:-----|:-----|
-|Microsoft 팀 관리 센터에 나열 되지 않은 새 사용자 및 서비스 전화 번호를 가져옵니다.   <br/> |벨기에에서는 Microsoft 팀 관리 센터를 사용 하 여 조직의 전화 번호를 가져올 수 없습니다. 새 전화 번호 요청을 제출 해야 합니다. <br/><br/>다음 양식 중 하나를 다운로드 합니다. <br/>  [벨기에 (v. 5.0)에 대 한 새 전화 번호 요청 (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [벨기에 (v. 5.0)에 대 한 새 전화 번호 요청 (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [벨기에 (v. 5.0)에 대 한 새 전화 번호 요청 (nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/><br/> 기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com). <br/> |
+|Microsoft 팀 관리 센터에 나열 되지 않은 새 사용자 및 서비스 전화 번호를 가져옵니다.   <br/> |벨기에에서는 Microsoft 팀 관리 센터를 사용 하 여 조직의 전화 번호를 가져올 수 없습니다. 새 전화 번호 요청을 제출 해야 합니다. <br/><br/>다음 양식 중 하나를 다운로드 합니다. <br/>  [벨기에 (v. 5.0)에 대 한 새 전화 번호 요청 (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [벨기에 (v. 5.0)에 대 한 새 전화 번호 요청 (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [벨기에 (v. 5.0)에 대 한 새 전화 번호 요청 (nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/>   [벨기에 (v. 5.0)에 대 한 새 전화 번호 요청 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com). <br/>|
 |전화 번호를 귀하에 게 전송 하세요.  <br/> | 이러한 양식 중 하나를 다운로드 합니다. <br/>[벨기에 (모든 번호)에 대 한 인증 문자 (LOA) (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf?raw=true) <br/> [벨기에 (모든 번호)에 대 한 인증 문자 (LOA) (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(fr-be).pdf?raw=true)<br/> [벨기에 (모든 번호)의 인증 문자 (LOA) (v. a) (nl-to)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(nl-be).pdf?raw=true) <br/>   <br/>   기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com). <br/> |
 |국가 전화 번호부에 전화 번호를 게시 하거나 게시 취소 합니다.  <br/> |게시/게시 취소 하려는 전화 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) .      <br/> |
 |사용자의 번호를 서비스 번호로 변경 합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) . <br/> |

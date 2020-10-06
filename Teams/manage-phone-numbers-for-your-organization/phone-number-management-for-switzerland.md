@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 스위스에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: feab44e6a6a6cc733ad0c13f2fc7c7c1133abe0f
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: e1fcc1de08256d0bc1ab0a8da95ebf9bc0f1450d
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324104"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361538"
 ---
 # <a name="phone-number-management-for-switzerland"></a>스위스 용 전화 번호 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "48324104"
   
 |**실행할 작업**|**올바른 양식을 다운로드 하 여 저희에 게 보내기**|
 |:-----|:-----|
-|Microsoft 팀 관리 센터에 나열 되지 않은 새 사용자 또는 서비스 전화 번호를 가져옵니다.   <br/> |이러한 양식 중 하나를 다운로드 합니다. <br/>  [스위스 (v. 5.0)에 대 한 새 전화 번호 요청 (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[스위스 (v. 5.0)에 대 한 새 전화 번호 요청 (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[스위스 (v. 5.0)에 대 한 새 전화 번호 요청 (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/><br/>기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com).|
+|Microsoft 팀 관리 센터에 나열 되지 않은 새 사용자 또는 서비스 전화 번호를 가져옵니다.   <br/> |이러한 양식 중 하나를 다운로드 합니다. <br/>  [스위스 (v. 5.0)에 대 한 새 전화 번호 요청 (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[스위스 (v. 5.0)에 대 한 새 전화 번호 요청 (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[스위스 (v. 5.0)에 대 한 새 전화 번호 요청 (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/>  [스위스 (v. 5.0)에 대 한 새 전화 번호 요청 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com).|
 |전화 번호를 귀하에 게 전송 하세요.  <br/> | 이러한 양식 중 하나를 다운로드 합니다. <br/>[스위스 (모든 번호)에 대 한 인증 문자 (LOA) (v. d) (ch)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(de-ch).pdf?raw=true)<br/>[스위스 (모든 번호)에 대 한 인증 문자 (LOA) (v. 5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(fr-ch).pdf?raw=true)<br/>[스위스 (모든 번호)의 승인 문자 (LOA) (v. a-ch)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(it-ch).pdf?raw=true) <br/> <br/>기입 하 여 보내 [주십시오](mailto:ptneu@microsoft.com). <br/> |
 |국가 전화 번호부에 전화 번호를 게시 하거나 게시 취소 합니다.  <br/> |게시/게시 취소 하려는 전화 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) .      <br/> |
 |사용자의 번호를 서비스 번호로 변경 합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) . <br/> |

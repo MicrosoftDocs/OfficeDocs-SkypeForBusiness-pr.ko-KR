@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft 팀을 위한 서비스 (CCaaS) 솔루션의 통합 된 연락처 센터 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccd4456b006d8b27fd0aa2ec88d6467fe86fea8b
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 906af5df0e4ec7c4f4b658210e127b5ad0ef0044
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322287"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361468"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 팀에 대 한 연락처 센터 통합
 
@@ -38,7 +38,7 @@ Microsoft 팀은 고객 여행을 위해 비즈니스 도구 및 워크플로와
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft 팀 인증 프로그램에 연결 된 연락처 센터
 
-팀에 대 한 솔루션을 개발 하 고 통합 하는 데 파트너를 허용 하는 Api는 고급 통신 라이선스를 통해 제공 됩니다. 또한 microsoft 팀 인증 프로그램에 대 한 연결 된 연락처 센터를 개발 하 여 고객에 게 Microsoft 솔루션에서 기대 하는 품질, 호환성 및 안정성을 제공 하기 위해 각 참여 파트너의 솔루션을 테스트 하 고 확인 했음을 보증 합니다.
+Api를 통해 파트너는 팀의 솔루션으로 CCaaS 개발 하 고 통합할 수 있습니다. 또한 microsoft 팀 인증 프로그램에 대 한 연결 된 연락처 센터를 개발 하 여 고객에 게 Microsoft 솔루션에서 기대 하는 품질, 호환성 및 안정성을 제공 하기 위해 각 참여 파트너의 솔루션을 테스트 하 고 확인 했음을 보증 합니다.
 
 다음 파트너는 Microsoft 팀의 솔루션을 인증 하 고 고객에 게 참여할 준비가 되었습니다.
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee4ab53318766b8daaeea225f8c039e32c8c4241
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294604"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361658"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Microsoft Graph를 사용 하 여 팀 서식 파일 시작
 
@@ -73,7 +73,7 @@ ms.locfileid: "48294604"
 | Education<br>교직원 팀 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 들<ul><li>OneNote 교직원 용 전자 필기장 ( **일반** 탭에 고정)</li></ul> |
 |Education<br>PLC 팀 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 들<ul><li>OneNote PLC 전자 필기장 ( **일반** 탭에 고정)</ul></li>|
 | Retail<br>스토어 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 채널<ul><li>교대 이송</li><li>배웁니다</li></ul>팀 속성<ul><li>팀 가시성을 공개로 설정</li></ul>회원 사용 권한<ul><li>구성원이 채널을 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li><li>구성원이 앱을 추가 하거나 제거 하지 못하도록 방지</li><li>구성원이 커넥터를 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li></ul> |
-| Retail<br>관리자 공동 작업 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 채널<ul><li>교대 이송</li><li>배웁니다</li></ul>팀 속성:<ul><li>팀 표시 유형을 비공개로 설정</li></ul>회원 권한:<ul><li>구성원이 채널을 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li><li>구성원이 앱을 추가 하거나 제거 하지 못하도록 방지</li><li>구성원이 커넥터를 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li></ul>|
+| Retail<br>관리자 공동 작업 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 채널<ul><li>배웁니다</li><li>운영</li></ul>팀 속성:<ul><li>팀 표시 유형을 비공개로 설정</li></ul>회원 권한:<ul><li>구성원이 채널을 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li><li>구성원이 앱을 추가 하거나 제거 하지 못하도록 방지</li><li>구성원이 커넥터를 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li></ul>|
 | 의료<br>I |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |채널 <ul><li>알림에서\*</li><li>Huddles\*</li><li>소수</li><li>자원\*</li><li>교육\*</li></ul>\*자동 즐겨찾기에 채널 |
 |의료<br>병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |채널<ul><li>알림에서\*</li><li>규정 준수\*</li><li>Custodial</li><li>인적 자원</li></li><li>Pharmacy</li></ul>\*자동 즐겨찾기에 채널|
 |||
