@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361338"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369173"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
@@ -95,7 +95,7 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
 
 **모임 녹화가 저장 되는 위치**
 
-- 채널이 아닌 모임의 경우 기록은 이라는 폴더에 저장 됩니다. 기록 * * 모임 녹음/녹화를 시작한 사람에 속한 OneDrive의 최상위 수준에 있습니다. 예
+- 채널이 아닌 모임의 경우 녹음/녹화는 모임 녹음/녹화를 시작한 사람에 속한 OneDrive의 상위 수준 **에 있는 기록** 폴더에 저장 됩니다. 예
 
   <i>레코더의 비즈니스용 OneDrive</i> / **기록**
 

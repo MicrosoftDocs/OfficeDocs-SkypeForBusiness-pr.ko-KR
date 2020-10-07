@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 정책 패키지를 사용 하 고 관리 하 여 사용자 그룹에 대 한 정책을 관리할 때 일관성을 간소화 하 고 간소화 하 고 해결 하는 방법을 알아봅니다.
-ms.openlocfilehash: bdbfed095cf522702f55963ba7e46d79b765d59c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48220098"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48370602"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft 팀에서 정책 패키지 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "48220098"
 
 Microsoft 팀의 정책 패키지는 조직에서 유사한 역할을 갖는 사용자에 게 할당할 수 있는 미리 정의 된 정책 및 정책 설정의 모음입니다. 조직의 사용자 그룹에 대 한 정책을 관리할 때 일관성을 단순화 하 고 합리화 하 고 사용할 수 있도록 하는 정책 패키지를 작성 했습니다.  
 
-[팀에 포함 된 정책 패키지](#policy-packages-included-in-teams) 를 사용 하거나 [고유한 사용자 지정 정책 패키지를 만들](#custom-policy-packages) 수 있습니다 (비공개 미리 보기에 예정).
+[팀에 포함 된 정책 패키지](#policy-packages-included-in-teams) 를 사용 하거나 [고유한 사용자 지정 정책 패키지](#custom-policy-packages) (비공개 미리 보기)를 만들 수 있습니다.
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="관리 센터의 정책 패키지 페이지 스크린샷":::
 
@@ -83,7 +83,7 @@ Microsoft 팀의 정책 패키지는 조직에서 유사한 역할을 갖는 사
 
 ## <a name="custom-policy-packages"></a>사용자 지정 정책 패키지
 
-**이 기능은 곧 비공개 미리 보기에 제공 됩니다.**
+**이 기능은 비공개 미리 보기에 있습니다.**
 
 사용자 지정 정책 패키지를 사용 하 여 조직에서 비슷한 역할을 갖는 사용자에 대해 자신만의 정책 집합을 번들로 만들 수 있습니다. 필요한 정책 유형 및 정책을 추가 하 여 고유한 정책 패키지를 만듭니다.
 

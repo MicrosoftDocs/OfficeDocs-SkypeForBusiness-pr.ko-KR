@@ -1,7 +1,7 @@
 ---
 title: Teams에서의 사용자 현재 상태
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a5adfcfd6002f9069934bb25dde5aa8b51e452f
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 9f14aeaf83862cbdd695eb6ec4646d8da81a0c5b
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820522"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369213"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
@@ -49,22 +49,32 @@ Outlook에 있는 팀의 현재 상태는 Outlook 2013 데스크톱 앱 이상�
 | ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png) 자리 비움| ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png) 자리 비움|
 || ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png)자리 비움 마지막 접속 *시간*|
 |![노란색 시계 아이콘, 자리 비움, 곧 돌아오겠음 표시](media/Presence_Away.png) 곧 돌아오겠음| |
-|| ![노란색 시계 아이콘, 퇴근 표시](media/Presence_Away.png)  퇴근|
-|| ![X가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인 |
+|![X가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프 라인으로 표시 | ![X가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인| |
 || ![빈 회색 원, 상태 알 수 없음 표시](media/Presence_Unknown.png) 상태 알 수 없음|
-||![대각선이 있는 빈 빨간색 원, 차단됨 표시](media/Presence_Blocked.png) 차단됨 |
 || ![화살표가 있는 자주색 원, 부재 중 표시](media/Presence_OOF.png) 부재 중|
 |||
 
-앱 구성 현재 상태는 사용자 활동 (사용 가능, 자리 비움), Outlook 일정 상태 (모임 중) 또는 팀 앱 상태 (통화 중)를 기반으로 합니다. 사용자가 일정을 기반으로 하는 포커스 모드에 있는 경우에는 포커스가 팀에 표시 되는 상태 이며 다른 제품에서는 방해 금지로 표시 됩니다.
+앱 구성 현재 상태는 사용자 활동 (사용 가능, 자리 비움), Outlook 일정 상태 (모임 중) 또는 팀 앱 상태 (통화 중)를 기반으로 합니다. 포커스 모드에서 일정을 기반으로 하는 경우에는 포커스가 팀에 표시 되는 상태가 되지만 다른 제품에서는 방해 금지로 표시 됩니다.
 
-컴퓨터를 잠그거나 유휴 또는 절전 모드로 전환 하면 현재 상태 상태가 ' 자리 비움 '으로 변경 됩니다. 모바일에서 팀 앱이 백그라운드에 있을 때마다 현재 상태는 자리 비움으로 변경 됩니다.
+컴퓨터를 잠그거나 컴퓨터가 유휴 또는 절전 모드로 전환 되 면 현재 상태 상태가 "자리 비움"으로 변경 됩니다. 모바일 장치에서 팀 앱이 백그라운드에 있을 때마다 현재 상태가 자리 비움으로 변경 됩니다.
 
-사용자는 현재 상태와 관계없이 Teams에서 전송된 모든 채팅 메시지를 받습니다. 누군가 메시지를 보낼 때 사용자가 오프라인 상태인 경우 다음번에 사용자가 온라인 상태가 되면 채팅 메시지가 Teams에 나타납니다. 사용자가 방해 금지를 사용 하는 경우 채팅 메시지는 계속 표시 되지만 배너 알림은 나타나지 않습니다.
+사용자는 현재 상태와 관계없이 Teams에서 전송된 모든 채팅 메시지를 받습니다. 누군가 메시지를 보낼 때 사용자가 오프라인 상태인 경우 다음번에 사용자가 온라인 상태가 되면 채팅 메시지가 Teams에 나타납니다. 사용자 상태가 방해 금지로 설정 된 경우에도 사용자는 채팅 메시지를 받지만 배너 알림이 표시 되지 않습니다.
 
 사용자는 수신 전화를 음성 메일로 이동 하는 방해 금지를 제외한 모든 현재 상태에서 전화를 받습니다. 받는 사람이 발신자를 차단하는 경우 전화가 전달되지 않으며 받는 사람의 현재 상태가 발신자에 오프라인으로 표시됩니다.
 
-사용자는 Teams에서 **설정** > **개인 정보**로 이동하여 특정 사용자를 우선 순위 액세스 목록에 추가할 수 있습니다. 우선 순위 액세스 권한이 있는 사용자는 사용자가 방해 금지 인 경우에도 사용자에 게 연락할 수 있습니다.
+사용자는 Teams에서 **설정** > **개인 정보**로 이동하여 특정 사용자를 우선 순위 액세스 목록에 추가할 수 있습니다. 우선 순위가 높은 권한이 있는 사용자는 사용자의 상태가 방해 금지로 설정 된 경우에도 사용자에 게 연락할 수 있습니다.
+
+## <a name="user-configured-states-expiration"></a>사용자 구성 상태 만료
+사용자가 특정 현재 상태를 선택 하는 경우 앱 활동 업데이트 보다 우선 순위를 갖습니다. 예를 들어 사용자가 자신을 방해 금지로 설정 하는 경우에는 모임을 참석할 전화를 걸거나 응답 하더라도 현재 상태는 방해 금지로 유지 됩니다.
+
+사용자가 일정 기간 후에는 관련이 없을 수 있는 상태를 표시 하지 않도록 하려면 팀의 기본 만료 설정을 사용 하는 상태입니다.
+
+|사용자 구성 상태|기본 만료|
+|:--- |:---|
+| 다른 용무 중|1 일|
+| 방해 금지|1 일|
+| 타인|7 일|
+|||
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Teams의 관리자 설정을 비즈니스용 Skype와 비교
 

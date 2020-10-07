@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 위한 네트워크의 열기 미리 보기 기능에 대 한 설명입니다.
-ms.openlocfilehash: 3b33c67cc79f79d36cf2a11213dc934103b026fb
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321809"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369183"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>오디오 회의를 위한 네트워크 회의 미리 보기 열기
 
@@ -38,7 +38,7 @@ ms.locfileid: "47321809"
 
 네트워크 회의를 구성 하기 전에 조직이 다음 필수 조건을 충족 하는지 확인 합니다. 
 
-- 오디오 회의에 사용 하도록 설정 되어 있거나 사용할 수 있는 조직의 모든 사용자가 팀 전용 모드에 있는지 확인 합니다. 네트워크 회의를 통한 인바운드 및 outboud 오디오 회의 호출은 팀 모임에 대해서만 지원 됩니다.
+- 오디오 회의에 사용 하도록 설정 되어 있거나 사용할 수 있는 조직의 모든 사용자가 팀 전용 모드에 있는지 확인 합니다. 네트워크 회의를 통한 인바운드 및 아웃 바운드 오디오 회의 호출은 팀 모임에 대해서만 지원 됩니다.
 
 - 네트워크 회의를 사용 하는 모든 사용자에 게 오디오 회의 라이선스를 할당 합니다.
 
@@ -56,6 +56,8 @@ ms.locfileid: "47321809"
 
 **모임 > 회의 브리지** 또는 비즈니스용 Skype Online PowerShell cmdlet CsOnlineDialInConferencingBridge을 사용 하 여 팀 관리 센터에서 서비스 번호를 찾을 수 있습니다. 자세한 내용은 [Microsoft 팀의 오디오 회의 번호](see-a-list-of-audio-conferencing-numbers-in-teams.md)목록을 참조 하세요.
 
+> [!NOTE]
+> 분당 오디오 회의 라이선스가 있는 사용자는이 기능을 사용할 수 없습니다.
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>다이렉트 라우팅을 통해 팀의 모임 전화 접속 통화 회람 사용
 

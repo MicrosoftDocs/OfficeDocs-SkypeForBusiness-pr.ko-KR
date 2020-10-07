@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 업그레이드 한 후 팀 서비스를 향상 시킬 수 있는 기회를 정기적으로 평가 하 고 팀 로드맵을 모니터링 하 여 흥미로운 기능을 개선 했습니다.
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a000cb8b09f4b1eebf5ca1c2805d52222ce7ec5c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780467"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369203"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>업그레이드 후 팀을 최대한 활용 하기
 
@@ -39,9 +39,7 @@ ms.locfileid: "43780467"
 
 조직에 관심을 가질 수 있는 새로운 기능 향상을 위해 [팀 공용 로드맵](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) 를 모니터링 하 여 서비스를 항상 최대한 활용할 수 있도록 하는 좋은 방법입니다. Microsoft 365 관리 센터에 액세스할 수 있는 경우에는 메시지 센터를 통해 새로운 기능과 변경 기능에 대 한 정기 업데이트를 받을 수 있습니다.
 
-서비스를 향상 시킬 수 있는 기회가 표시 되는 경우에는 시간을 사용 하는 것이 적절 합니다. [Microsoft 팀에서 채팅, 팀, 채널 및 앱 배포](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 를 다시 방문 하 여 end에 동일한 지침을 적용 합니다. 약간만 변경 되는 경우 모든 작업 및 작업을 전체적으로 완료 해야 하는 것은 아니지만, 성공적인 결과를 얻을 수 있는 방법에 따라 각 활동 및 작업을 평가 하는 것이 좋습니다.
-
-서비스를 향상 시킬 수 있는 기회가 표시 되는 경우에는 시간을 사용 하는 것이 적절 합니다. [구현 단계](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 를 다시 검토 하 고 동일한 가이드를 end에 적용 합니다. 약간만 변경 되는 경우 모든 작업 및 작업을 전체적으로 완료 해야 하는 것은 아니지만, 성공적인 결과를 얻을 수 있는 방법에 따라 각 활동 및 작업을 평가 하는 것이 좋습니다.
+서비스를 향상 시킬 수 있는 기회가 표시 되는 경우에는 시간을 사용 하는 것이 적절 합니다. Microsoft 팀 및 [구현 단계](deploy-chat-teams-channels-microsoft-teams-landing-page.md) [에서 채팅, 팀, 채널, 앱을 배포](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 하 고 동일한 지침을 end에 적용 합니다. 약간만 변경 되는 경우 모든 작업 및 작업을 전체적으로 완료 해야 하는 것은 아니지만, 성공적인 결과를 얻을 수 있는 방법에 따라 각 활동 및 작업을 평가 하는 것이 좋습니다.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>조직에서 혜택을 받을 수 있는 새 기능 또는 서비스에 대 한 공개 로드맵 및 기타 서비스 알림을 모니터링할 사용자를 결정 합니다.</li><li>새로운 기능 또는 서비스를 주요 관련자에 게 다시 보고 하는 방법을 결정 합니다 (조종 위원회를 통해).</li></ul></td></tr>
