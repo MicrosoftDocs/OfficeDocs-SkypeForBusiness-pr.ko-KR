@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 877dcef8848c7e1bf05ed19c05ede5b5304bd4c8
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203961"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367678"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀 live 이벤트는 무엇 인가요?
 
@@ -67,7 +67,7 @@ Microsoft 365 live 이벤트는 라이브 비디오 스트리밍을 새 수준�
     ![외부 앱 또는 장치를 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷](../media/teams-live-events-external-encoder.png "외부 앱 또는 디바이스 제작 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷")
 
 >[!Note]
-> Microsoft Stream을 [비즈니스용 OneDrive 및 SharePoint for 모임 녹화](../tmr-meeting-recording-change.md) 에서 변경 하는 것은 단계적인 방법입니다. 시작 시에는이 환경을 옵트인 할 수 있으며 11 월에는 스트림을 계속 사용 하기 위해 옵트아웃 하 고, 몇 차례 2021 일찍 비즈니스용 OneDrive 및 SharePoint를 사용 하 여 새 모임 녹화가 필요 합니다.
+> Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](../tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 새 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
 
 ### <a name="streaming-platform"></a>스트리밍 플랫폼
 라이브 이벤트 스트리밍 플랫폼은 다음 부분으로 구성 됩니다.
@@ -80,6 +80,7 @@ ECDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 
 - [벌](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [경사](https://rampecdn.com)
+- [Riverbed](https://www.riverbed.com/solutions/office-365.html)
 
 ### <a name="attendee-experience"></a>참석자 환경 
 참석자 환경은 라이브 이벤트의 가장 중요 한 측면이 며 참석자가 문제 없이 라이브 이벤트에 참여할 수 있도록 하는 것이 중요 합니다. 참석자 환경은 스트림 재생기 (팀에서 생성 된 이벤트)와 Azure Media Player (외부 앱 또는 장치에서 생성 된 이벤트의 경우)를 사용 하 고 데스크톱, 브라우저 및 모바일 (iOS, Android)에서 작동 합니다. Microsoft 365 및 Office 365는 두 개의 공동 작업 허브가 있는 Yammer와 팀을 제공 하 고, 실시간 참석자 환경이 이러한 공동 작업 도구에 통합 되어 있습니다. 

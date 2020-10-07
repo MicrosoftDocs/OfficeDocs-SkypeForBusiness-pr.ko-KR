@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333268"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361648"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -34,8 +34,8 @@ ms.locfileid: "48333268"
 |기능    | 최대 한도 |
 |-----------|---------------|
 |사용자가 만들 수 있는 팀의 수 | 250개체 제한 적용&sup1;         |
-|사용자가 구성원이 될 수 있는 그룹 수|1,000|
-|팀 구성원 수  | 10,000       |
+|사용자가 구성원이 될 수 있는 그룹 수|1,000&sup2;|
+|팀의 구성원 수 | 10,000       |
 |팀당 소유자 수 | 100   |
 |테넌트에 허용되는 조직 전체 팀 수 | 5     |
 |[조직 전체 팀](create-an-org-wide-team.md)의 구성원 수 | 5,000       |
@@ -49,7 +49,7 @@ ms.locfileid: "48333268"
 
 <sup>1</sup> Azure Active Directory의 모든 디렉터리 개체는 이 제한에 포함됩니다. 전역 관리자는 [응용 프로그램 사용 권한](https://docs.microsoft.com/graph/permissions-reference)을 사용하여 Microsoft Graph를 호출하는 앱과 마찬가지로 이 제한에서 제외됩니다.
 
-<sup>2</sup>이 제한에는 보관된 팀이 포함됩니다.
+<sup>2</sup>이 제한에는 보관된 팀이 포함됩니다. 최대 한도를 초과하는 경우 Microsoft 지원에 문의해야 합니다.
 
 <sup>3</sup>삭제된 채널은 30일 이내에 복원될 수 있습니다. 이 30일 동안에는 삭제된 채널이 팀당 200채널 한도에 계속 포함됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널이 더 이상 팀당 200채널 한도에 포함되지 않습니다.
 
