@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361648"
+ms.locfileid: "48367568"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -42,7 +42,7 @@ ms.locfileid: "48361648"
 |전역 관리자가 만들 수 있는 팀의 수        |  500,000   |
 |Microsoft 365 또는 Office 365 조직이 보유할 수 있는 팀 개수    | 500,000&sup2;     |
 |팀당 채널 수    | 200(삭제된 채널 포함)&sup3;         |
-|팀당 비공개 채널 수    |30|
+|팀당 비공개 채널 수    |30| (삭제된 채널 포함)&sup3;
 |비공개 채널 회원수    |250|
 |Office 365 그룹에서 팀으로 전환할 수 있는 최대 구성원 수    |10,000|
 |채널 대화 게시 크기 | 게시물당 28 KB<sup>4</sup> |
@@ -51,9 +51,9 @@ ms.locfileid: "48361648"
 
 <sup>2</sup>이 제한에는 보관된 팀이 포함됩니다. 최대 한도를 초과하는 경우 Microsoft 지원에 문의해야 합니다.
 
-<sup>3</sup>삭제된 채널은 30일 이내에 복원될 수 있습니다. 이 30일 동안에는 삭제된 채널이 팀당 200채널 한도에 계속 포함됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널이 더 이상 팀당 200채널 한도에 포함되지 않습니다.
+<sup>3</sup>삭제된 채널은 30일 이내에 복원될 수 있습니다. 이 30일 동안에는 삭제된 채널이 200채널 혹은 팀 한도 딩 30개의 개인 채널로 계산됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널이 더 이상 팀당 한도에 포함되지 않습니다.
 
-<sup>4</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 숫자, 반응이 포함되기 때문에 대략적인 한도입니다.
+<sup>4</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 수, 반응이 포함되기 때문에 대략적인 한도입니다.
 
 ## <a name="messaging"></a>메시징
 
@@ -94,7 +94,9 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 자세한 내용은 [Exchange Online 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)을 참조하세요.
 
 > [!NOTE]
-> 모든 Microsoft 365 및 Office 365 라이선스에서 메시지 크기, 첨부 파일 및 인라인 이미지 제한이 동일합니다.
+> 모든 Microsoft 365 및 Office 365 라이선스 간에 메시지 크기, 첨부 파일 및 인라인 이미지 제한이 동일합니다. Teams에서 Office GCC/GCCH/DOD 조직에 대해 전자 메일로 채널을 보내기는 사용할 수 없습니다.
+
+
 
 ## <a name="channel-names"></a>채널 이름
 
