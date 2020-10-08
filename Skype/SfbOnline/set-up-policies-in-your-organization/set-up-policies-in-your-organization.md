@@ -18,13 +18,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: 74b5c53e3440afc2dc30632549ea35d31207ba03
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706533"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376561"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="5dfb3-102">조직에서 정책 설정</span><span class="sxs-lookup"><span data-stu-id="5dfb3-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="f3e36-102">조직에서 정책 설정</span><span class="sxs-lookup"><span data-stu-id="f3e36-102">Set up policies in your organization</span></span>
 
+<span data-ttu-id="f3e36-103">정책은 사용자에 게 제공 되는 비즈니스용 Skype Online의 기능을 결정 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f3e36-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="f3e36-104">자세한 정보는 다음 문서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f3e36-104">See the following articles for complete details.</span></span>
 
+- [<span data-ttu-id="f3e36-105">점 대 점 파일 전송 차단</span><span class="sxs-lookup"><span data-stu-id="f3e36-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="f3e36-106">사용자 지정 외부 액세스 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="f3e36-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="f3e36-107">모임에 첨부된 대용량 파일 유지</span><span class="sxs-lookup"><span data-stu-id="f3e36-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="f3e36-108">조직의 회의 정책 설정</span><span class="sxs-lookup"><span data-stu-id="f3e36-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="f3e36-109">조직의 모바일 정책 설정</span><span class="sxs-lookup"><span data-stu-id="f3e36-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="f3e36-110">조직의 클라이언트 정책 설정</span><span class="sxs-lookup"><span data-stu-id="f3e36-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
