@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 비즈니스용 Skype 서버 및 비즈니스용 Skype Online 간의 하이브리드 연결을 구현 하기 위한 지침입니다.
-ms.openlocfilehash: 0c4b2f716e906e30dd45b2750cfe5487868ce6df
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3a68d39062387952b7a43bb22599265a69bf7a61
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780097"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376751"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>비즈니스용 Skype 서버 및 Office 365 간 하이브리드 연결 구성
 
