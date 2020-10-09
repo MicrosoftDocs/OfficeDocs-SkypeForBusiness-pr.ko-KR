@@ -257,6 +257,7 @@
 ### [비디오: 비즈니스용 Skype Online 외부 통신](../set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
 ## 조직에 대한 정책 설정 
+### [조직에서 정책 설정: 개요](../set-up-policies-in-your-organization/set-up-policies-in-your-organization.md)
 ### [점 대 점 파일 전송 차단](../set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
 ### [사용자 지정 외부 액세스 정책 만들기](../set-up-policies-in-your-organization/create-custom-external-access-policies.md)
 ### [모임에 첨부된 대용량 파일 유지](../set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md)
@@ -305,7 +306,7 @@
 ### [무료 전화 걸기 기간](/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [영국(U.K.)에 대한 연습용 코드](/microsoftteams/code-of-practice-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [영국(U.K.)의 불만 사항 처리 코드(영국)](/microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [데이터 수집 사례](/microsoftteams/teams-privacy?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [데이터 수집 사례](/microsoftteams/data-collection-practices?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [긴급 통화 레이블](/microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [타사 오디오 회의를 통해 비즈니스용 Skype를 통합하는 데 사용할 수명 프로그램 종료](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
