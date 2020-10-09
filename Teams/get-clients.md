@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 429dd2c7e5b5fe8048bdac52e07dfb0577121540
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177228"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389876"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드 
 
@@ -42,7 +42,7 @@ Microsoft Teams에는 데스크톱(Windows, Mac, Linux), 웹, 모바일(Android 
 > [!TIP]
 > 다음 세션에서 Windows 데스크톱 클라이언트의 장점과 해당 클라이언트를 계획하고 배포하는 방법에 대해 알아보세요. [Teams Windows 데스크톱 클라이언트](https://aka.ms/teams-clients)
 
-Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그램으로, [microsoft 365 for Enterprise 앱 에서도 사용할 수](https://docs.microsoft.com/deployoffice/teams-install)있습니다. 32 비트 및 64 비트 버전의 Windows (8.1 이상) 및 Windows Server (2012 R2 이상) 및 macOS 및 Linux (in `.deb` 및 형식)에 대 한 팀을 사용할 수 있습니다 `.rpm` . Windows에서 Teams는 .NET Framework 4.5 이상이 필요하며, 설치되어 있지 않으면 Teams 설치 관리자가 설치를 제안합니다. Linux에서 `apt`, `yum` 등의 패키지 관리자가 모든 요구 사항을 설치하려고 시도합니다. 하지만 그렇지 않을 경우에는 Linux에 Teams를 설치하기 전에 보고된 모든 요구 사항을 설치해야 합니다.
+Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그램으로, [microsoft 365 for Enterprise 앱 에서도 사용할 수](https://docs.microsoft.com/deployoffice/teams-install)있습니다. 32 비트 및 64 비트 버전의 Windows (8.1 이상), ARM의 Windows 10 ARM64, Windows Server (2012 R2 이상), macOS 및 Linux (in `.deb` 및 형식)에 대 한 팀을 사용할 수 있습니다 `.rpm` . Windows에서 Teams는 .NET Framework 4.5 이상이 필요하며, 설치되어 있지 않으면 Teams 설치 관리자가 설치를 제안합니다. Linux에서 `apt`, `yum` 등의 패키지 관리자가 모든 요구 사항을 설치하려고 시도합니다. 하지만 그렇지 않을 경우에는 Linux에 Teams를 설치하기 전에 보고된 모든 요구 사항을 설치해야 합니다.
 
 데스크톱 클라이언트는 팀 모임, 그룹 통화 및 비공개 일대일 통화를 위한 실시간 통신 지원(오디오, 비디오, 콘텐츠 공유)을 제공합니다.
 

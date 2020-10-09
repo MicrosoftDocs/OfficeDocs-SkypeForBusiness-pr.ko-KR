@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 7a42c46cf9592c64676d153e1885357a4ee8ec7b
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369173"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389936"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
 > [!Note]
 > Microsoft Stream에서 모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint로의 변경은 단계별로 접근합니다. 시작 시 테 넌 트 관리자는 지금이 새 워크플로 옵션을 선택할 수 있으며, 2020 년 10 월부터 비즈니스용 OneDrive 및 SharePoint에 대 한 녹음/녹화 자동 업로드를 표시 하기 시작 합니다. 11 월에는 스트림을 계속 사용 하기 위해 옵트아웃 해야 하며, 초기 2021에는 모든 고객이 비즈니스용 OneDrive 및 SharePoint를 사용 하 여 새 모임 녹화가 필요 합니다.
 
-Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 있습니다. Stream에서 출발 하는 경우이 메서드는 Microsoft 365에서 Microsoft OneDrive 및 SharePoint를 사용 하 고 다양 한 혜택을 제공 합니다.
+Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 있습니다. 이 방법은 기존 Microsoft Stream에서 [새 스트림으로](https://docs.microsoft.com/stream/streamnew/new-stream)전환 하는 첫 번째 단계로, 365 microsoft OneDrive 및 SharePoint에 기록 저장 하 고 다양 한 혜택을 제공 합니다.
 
 비즈니스용 OneDrive 및 SharePoint를 사용 하 여 기록을 저장할 때의 이점은 다음과 같습니다.
 
@@ -61,7 +61,7 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
 
 1. 비즈니스용 Skype Online PowerShell 관리 콘솔을 설치 합니다.
 
-    a. [비즈니스용 Skype Online Powershell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide)을 다운로드 하세요.
+    a. [비즈니스용 Skype Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide)을 다운로드 하세요.
 
     b. 화면의 지시에 따라 설치 합니다.
 
@@ -102,6 +102,10 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
 - 채널 모임의 **경우 기록은 기록 이라는 폴더**의 팀 사이트 문서 라이브러리에 저장 됩니다. 예
 
   <i>팀 이름-채널 이름</i> / **문서** / **기록**
+
+**이전 직원의 녹음/녹화를 처리 하려면 어떻게 하나요?**
+
+비디오는 OneDrive 및 SharePoint의 다른 파일과 유사 하므로 직원을 떠난 후 소유권 및 보존을 처리 하는 것은 일반 [OneDrive 및 sharepoint 프로세스]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)를 따릅니다.
 
 **모임 녹음/녹화를 볼 수 있는 권한이 있는 사람은 누구 인가요?**
 
