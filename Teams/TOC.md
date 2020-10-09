@@ -693,6 +693,14 @@
 ### Teams의 교대 근무
 #### [Teams의 교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [교대 근무 앱 관리](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### 환자 앱
+#### [환자 앱 개요](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### 전자 의료 기록을 환자 앱에 통합
+##### [FHIR API를 사용하여 전자 의료 기록을 환자 앱에 통합](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [환자 앱용 DSTU2 인터페이스 사양](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [환자 앱용 STU3 인터페이스 사양](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [환자 앱을 FHIR용 Azure API에 연결](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
+#### [환자 앱에 대한 감사 로그](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [교육용 Teams](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [빠른 시작 - 교육용 Teams 관리](teams-quick-start-edu.yml)
