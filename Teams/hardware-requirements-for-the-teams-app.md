@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0555296da359a916b512bde878d5c87207a6e549
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389886"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416863"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -54,7 +54,7 @@ ms.locfileid: "48389886"
 |메모리     |   4.0 GB RAM      |
 |하드 디스크    |   1.5GB의 사용 가능한 디스크 공간      |
 |디스플레이    | 모니터 해상도 1280x800 이상    |
-|운영 체제  |    세 가지 최신 버전의 macOS 중 하나입니다. [여기](https://support.apple.com/en-us/HT201260)에서 최신 버전의 macos를 찾을 수 있습니다. 예를 들어 새 버전의 macOS가 릴리스되면 새 버전과 그 바로 앞의 두 가지가 지원 되는 버전이 됩니다.      |
+|운영 체제  |    세 가지 최신 버전의 macOS 중 하나입니다. 최신 macOS 버전 및 macOS 버전을 업그레이드 하는 방법에 대 한 자세한 내용은 [여기](https://support.apple.com/en-us/HT201260)에서 확인할 수 있습니다. 예를 들어 새 버전의 macOS가 릴리스되면 새 버전과 그 바로 앞의 두 가지가 지원 되는 버전이 됩니다.      |
 |비디오  |    호환되는 웹캠     |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
 |화상 통화 및 모임 | <ul><li>2-코어 프로세서가 필요 합니다. 비디오/화면 공유 해상도와 프레임 속도를 높이는 경우에는 4-코어 프로세서를 더 잘 활용 하는 것이 좋습니다. </li><li>MacOS에서는 Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가할 수 없습니다.</li></ul>

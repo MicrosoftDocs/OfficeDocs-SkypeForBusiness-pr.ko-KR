@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 2180c819491b3067225ada993aec60ec052bc69f
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662118"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416909"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams에서 거버넌스 계획
 
@@ -33,7 +33,7 @@ ms.locfileid: "46662118"
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>그룹 및 팀 만들기, 이름 지정, 분류, 게스트 액세스
 
-조직에서 팀의 이름을 지정 하 고 분류 하는 방법, 게스트를 팀 구성원으로 추가할 수 있는지 여부, 그리고 팀을 만들 수 있는 사람에 게 엄격한 컨트롤을 구현 해야 할 수 있습니다. Azure AD (Active Directory)를 사용 하 여 이러한 영역을 각각 구성할 수 있습니다. 
+조직에서 팀의 이름을 지정 하 고 분류 하는 방법, 게스트를 팀 구성원으로 추가할 수 있는지 여부, 그리고 팀을 만들 수 있는 사람에 게 엄격한 컨트롤을 구현 해야 할 수 있습니다. Azure AD (Active Directory) 및 민감도 레이블을 사용 하 여 이러한 영역을 구성할 수 있습니다. 
 
 <br>
 
@@ -52,6 +52,7 @@ ms.locfileid: "46662118"
 |팀 게스트 액세스 |팀에 게스트를 추가 하는 것을 허용 하거나 금지 합니다. |아니요 |TBD |
 |팀 만들기 |팀 만들기를 관리자로 제한 합니다. |아니요 |TBD|
 |팀 만들기 |팀 만들기를 보안 그룹 구성원으로 제한 합니다. |P1 |TBD|
+|민감도 레이블|개인 정보 및 게스트 공유 구성|아니요|TBD|
 
 > [!NOTE]
 > 미리 계획 하는 데 도움이 되도록 [이러한 정책 설정 및 필요한 라이선스에 대해 자세히 알아보세요](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
@@ -66,14 +67,17 @@ ms.locfileid: "46662118"
 
 - [그룹 설정 구성을 위한 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Azure Active Directory에서 Microsoft 365 그룹에 대 한 이름 지정 정책을 적용](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)합니다.
+- [Azure Active Directory에서 Microsoft 365 그룹에 대 한 이름 지정 정책 적용](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
 - [Microsoft 365 그룹 이름 지정 정책](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
+- [우편물 종류 레이블을 사용 하 여 Microsoft 팀, Microsoft 365 그룹, SharePoint 사이트의 콘텐츠 보호](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+
+- [그룹, 팀 및 Yammer에 대 한 수명 주기 옵션의 끝](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>그룹 및 팀 만료, 보존 및 보관
 
-조직에 만료, 보존 및 보관 팀과 팀 데이터 (채널 메시지 및 채널 파일)에 대 한 정책을 설정 하는 데 필요한 추가 요구 사항이 있을 수 있습니다. 필요에 따라 정보를 보존 하거나 삭제 하기 위해 그룹 및 보존 정책의 수명 주기를 자동으로 관리 하 고 팀을 읽기 전용 모드로 설정 하 여 더 이상 활성 상태가 아닌 팀의 특정 시점 보기를 유지 하도록 그룹 만료 정책을 구성할 수 있습니다.
+조직에 만료, 보존 및 보관 팀과 팀 데이터 (채널 메시지 및 채널 파일)에 대 한 정책을 설정 하는 데 필요한 추가 요구 사항이 있을 수 있습니다. 필요에 따라 정보를 보존 하거나 삭제 하기 위해 그룹 및 보존 정책의 수명 주기를 자동으로 관리 하 고 팀을 읽기 전용 모드로 설정 하 여 더 이상 활성 상태가 아닌 팀의 특정 시점 보기를 유지 하도록 그룹 만료 정책을 구성할 수 있습니다. 보관 된 팀은 계속 만료 정책을 적용 하 고 제외 또는 갱신 되지 않는 한 삭제 될 수 있습니다.
 
 |           |            |
 |-----------|------------|
@@ -149,8 +153,10 @@ ms.locfileid: "46662118"
 
 - [조직에서 Microsoft Teams 설정 관리](enable-features-office-365.md)
 - [새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리](manage-teams-skypeforbusiness-admin-center.md)
+- [Microsoft Teams의 비공개 채널](private-channels.md)
 - [팀에서 모임 정책 관리](meeting-policies-in-teams.md)
 - [팀에서 메시징 정책 관리](messaging-policies-in-teams.md)
+- [Microsoft 팀 관리 센터에서 앱 관리](manage-apps.md)
 
 또한 채널에 대 한 중재를 설정 하 고 특정 사용자에 게 블로그 게시물을 만들고 응답할 수 있는 사람을 제어할 수 있도록 중재자 기능을 제공할 수 있습니다. 자세한 내용은 [Microsoft 팀에서 채널 중재 설정 및 관리](manage-channel-moderation-in-teams.md) 를 참조 하세요.
 
