@@ -18,19 +18,19 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7912fa089f453b0b9e27f59fa73369f6ea22948
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 4cae6ee3f4a335cc1be1636917a5b200d279d374
+ms.sourcegitcommit: 5571e27276d89df97edbce72a42638921c235311
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333516"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408151"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
-조직에서 대규모 모임을 개최하기 위해 Teams 라이브 이벤트를 계획하는 경우 모두 설정하기 전에 고려해야 할 몇 가지 요소가 있습니다.
+조직에서 대규모 모임을 개최하기 위해 Teams 라이브 이벤트를 계획하는 경우, 설정하기 전에 고려해야 할 몇 가지 요소가 있습니다.
 
  > [!Note]
-> 여러 플랫폼에서의 Teams 라이브 이벤트에 대한 자세한 내용은 [플랫폼별 Teams 기능을 참조](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)하세요. Teams 라이브 이벤트에 대한 대역폭 요구 사항에 대해 알아보려면 [조직 준비](../prepare-network.md)를 참조합니다. 
+> 여러 플랫폼에서의 Teams 라이브 이벤트에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요. Teams 라이브 이벤트에 대한 대역폭 요구 사항에 대해 알아보려면 [조직 준비](../prepare-network.md)를 참조합니다.
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>누가 라이브 이벤트를 참석하고 만들고 예약할 수 있나요?
 
@@ -40,11 +40,11 @@ ms.locfileid: "48333516"
 
 Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하는 라이선스는 다음과 같습니다.  
 
-- Microsoft 혹은 Office 365 Enterprise E1, E3 또는 E5 라이선스 또는 Office 365 Education A3 또는 A5 라이선스.
-- Microsoft Teams 라이선스 - 이는 위의 라이선스에 포함되어 있습니다. 
-- 콘텐츠를 외부 앱 또는 장치로 공유 하려는 경우, Microsoft Stream 라이선스가 필요합니다. [Microsoft Stream 라이선싱](https://docs.microsoft.com/stream/license-overview)을 참조하세요. 
+- Microsoft 또는 Office 365 Enterprise E1, E3, E5 라이선스 또는 Office 365 Education A3, A5 라이선스. 이 요구 사항의 예외는 [게스트 사용자](plan-for-teams-live-events.md#guest-to-present)에 대한 다른 조건이 충족되면 게스트 사용자가 라이선스없이 프레젠테이션을 할 수 있다는 것입니다.
+- Microsoft Teams 라이선스 - 첫 번째 글머리 기호에 나열된 라이선스에 포함됩니다.
+- 콘텐츠를 외부 앱 또는 장치로 공유하려는 경우, Microsoft Stream 라이선스가 필요합니다. [Microsoft Stream 라이선스](https://docs.microsoft.com/stream/license-overview)를 참조하세요.
 
-  사용자가 녹음/녹화 및 녹음/녹화의 다운로드만 하도록 하려면 사용자에게 Microsoft Stream 라이선스를 할당할 필요가 없습니다. 이 경우 녹음/녹화는 Microsoft Stream에 저장되지는 않지만, 삭제되기까지 30일의 제한이 있는 AMS(Azure 미디어 서비스)에 저장됩니다. 이는 이 시점에 관리자가 삭제하는 기능을 포함하여 컨트롤하거나 관리할 수 있는 사항이 아닙니다.
+  사용자가 녹음/녹화 및 녹음/녹화의 다운로드만 하도록 하려면 사용자에게 Microsoft Stream 라이선스를 할당할 필요가 없습니다. 이 경우 녹음/녹화는 Microsoft Stream에 저장되지는 않지만, 삭제되기까지 30일의 제한이 있는 AMS(Azure Media Services)에 저장됩니다. 이는 이 시점에서 관리자가 삭제하는 기능을 포함하도록 제어하거나 관리할 수 있는 것이 아닙니다.
 
 >[!Note]
 > Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](../tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
@@ -72,15 +72,17 @@ Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하�
 - 팀 모임(*아일랜드, 모임 먼저 또는 Teams 전용*)를 예약할 수 있는 공존 모드가 구성되었습니다.
 
 > [!IMPORTANT]
-> 인증되지 않은 익명 사용자는 Teams 라이브 이벤트에서 프로듀서 또는 발표자로 초대를 받을 수 없습니다.
+> 인증되지 않은 익명 사용자는 Teams 라이브 이벤트에 제작자 또는 발표자로 초대를 받을 수 없습니다.
 
-게스트를 라이브 이벤트를 표시하려면 다음을 수행합니다.
+### <a name="guest-to-present"></a>[게스트 프레젠테이션](#guest-to-present)
+
+게스트가 라이브 이벤트에서 프레젠테이션을 하려면 다음을 수행합니다.
 
 1. [사용자를 팀에 게스트로 추가합니다](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. 사용자가 게스트 초대를 수락하고 팀에 참가하도록 합니다.
 3. [라이브 이벤트를 예약하고 게스트를 이벤트 그룹에 추가합니다](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-최상의 방법으로, 이벤트 전에 채팅하고 정보를 공유할 수 있도록 라이브 이벤트의 제작자와 발표자용 채널을 만드는 것이 좋습니다. Microsoft 365 자격 증명이 없는 게스트는 Teams에서 일정을 볼 수 없습니다. 이벤트에 쉽게 참석할 수 있도록 생산자가 채널에 이벤트 링크를 게시할 수 있습니다. 그런 다음 발표자가 Teams를 열고 채널로 이동한 다음, 해당 링크를 클릭하여 이벤트에 참가할 수 있습니다. 
+최상의 방법으로, 이벤트 전에 채팅하고 정보를 공유할 수 있도록 라이브 이벤트의 제작자와 발표자용 채널을 만드는 것이 좋습니다. Microsoft 365 자격 증명이 없는 게스트는 Teams에서 일정을 볼 수 없습니다. 이벤트에 쉽게 참석할 수 있도록 생산자가 채널에 이벤트 링크를 게시할 수 있습니다. 그런 다음 발표자가 Teams를 열고 채널로 이동한 다음, 해당 링크를 클릭하여 이벤트에 참가할 수 있습니다.
 
 ## <a name="who-can-watch-live-events"></a>누가 라이브 이벤트를 볼 수 있나요?
 
@@ -158,6 +160,7 @@ Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하�
 - 유럽/아프리카
 
 **이들 국가/지역의 데이터 위치(지원)**
+
 - 오스트레일리아
 - 캐나다
 - 인도
@@ -165,6 +168,7 @@ Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하�
 - 영국
 
 **이들 국가/지역 및 클라우드는 지원 되지 않습니다**
+
 - 독일
 - 프랑스
 - 노르웨이
