@@ -52,7 +52,7 @@
 ## [팀 보관 또는 삭제](archive-or-delete-a-team.md)
 ## [Slack에서 Teams로 마이그레이션](migrate-slack-to-teams.md)
 ## Teams 서식 파일 작업
-### [관리 콘솔에서 Teams 서식 파일 사용](get-started-with-teams-templates-in-the-admin-console.md)
+### [관리 센터에서 Teams 서식 파일 사용](get-started-with-teams-templates-in-the-admin-console.md)
 ### [중소기업을 위한 기본 제공 Teams 서식 파일 그래프](smb-templates.md)
 ### [사용자 지정 Teams 서식 파일 만들기](create-a-team-template.md)
 ### [기존 팀에서 서식 파일 만들기](create-template-from-existing-team.md)
@@ -687,7 +687,7 @@
 #### [의료 조직을 위한 메시지 보안](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [메시지 위임](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### 의료 조직을 위한 Teams 서식 파일
-#### [관리 콘솔에서 Teams 서식 파일 사용](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [관리 센터에서 Teams 의료 서식 파일 사용](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [의료 조직을 위한 Teams 서식 파일 시작](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [목록 앱 관리](manage-lists-app.md)
 ### Teams의 교대 근무
@@ -725,7 +725,7 @@
 ### [SPO 사이트 또는 페이지에서 Teams 인트라넷 포털 앱 만들기](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [소매용 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [관리 콘솔에서 소매용 Teams 서식 파일 시작](retail-teams-templates-in-the-admin-console.md)
+### [관리 센터에서 소매용 Teams 서식 파일 시작](retail-teams-templates-in-the-admin-console.md)
 ### [소매 Teams 서식 파일 시작](get-started-with-retail-teams-templates.md)
 
 ## [정부 기관용 Teams](expand-teams-across-your-org/teams-for-government-landing-page.md)
