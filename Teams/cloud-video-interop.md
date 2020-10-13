@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: srividhc
+ms.reviewer: naforer
 f1.keywords:
 - NOCSH
 description: 클라우드 비디오 Interop를 중간 솔루션으로 사용 하 여 타사 회의실 장치가 Microsoft 팀 모임에 참가할 수 있도록 합니다.
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa95f1fbef860c76b9434b21151a400105bf4101
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 7f812d27b07dadb2f60bf77302e18eb0879f977e
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177398"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433080"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 팀을 위한 클라우드 비디오 Interop
 
@@ -126,7 +126,7 @@ CVI 배포에 대해 선택한 파트너는 조직 내에서 성공적으로 배
 
 다음 PowerShell cmdlet을 사용 하 여 클라우드 비디오 Interop 배포를 부분적으로 자동화할 수 있습니다.
 
-- **CsTeamsVideoInteropServicepolicy**: Microsoft는 지원 되는 각 파트너에 대해 미리 구성 된 정책을 제공 하 여 클라우드 비디오 Interop에 사용할 파트너를 지정할 수 있도록 합니다.<br>이 cmdlet을 사용 하 여 조직에서 사용할 수 있는 미리 구성 된 정책을 식별할 수 있습니다. CsTeamsVideoInteropServicePolicy cmdlet을 활용 하 여 하나 이상의 사용자에 게이 정책을 할당할 수 있습니다.
+- **CsTeamsVideoInteropServicepolicy**: Microsoft는 지원 되는 각 파트너에 대해 미리 구성 된 정책을 제공 하 여 클라우드 비디오 Interop에 사용할 파트너를 지정할 수 있도록 합니다.<br>이 cmdlet을 사용 하 여 조직에서 사용할 수 있는 미리 구성 된 정책을 식별할 수 있습니다. Grant-CsTeamsVideoInteropServicePolicy cmdlet을 활용 하 여 하나 이상의 사용자에 게이 정책을 할당할 수 있습니다.
 - **부여-CsTeamsVideoInteropServicePolicy**:이 cmdlet을 사용 하면 조직에서 사용할 미리 생성 된 정책을 할당 하거나 특정 사용자에 게 정책을 할당할 수 있습니다.
 - **CsVideoInteropServiceProvider**:이 cmdlet을 사용 하 여 조직에서 사용 하려는 지원 되는 cvi 파트너에 대 한 정보를 지정 합니다.
 - **CsVideoInteropServiceProvider**:이 cmdlet을 사용 하 여 조직에서 사용 하는 지원 되는 cvi 파트너에 대 한 정보를 업데이트 합니다.

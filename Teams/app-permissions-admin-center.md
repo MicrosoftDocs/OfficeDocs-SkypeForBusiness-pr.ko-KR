@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 50a9abbd7e5872229c09d7d80c00c5d432723da1
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367598"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433051"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 허용
 
@@ -94,5 +94,6 @@ RSC 권한은 Azure AD가 아니라 앱 매니페스트에서 정의 됩니다. 
 - [Microsoft id 플랫폼 끝점의 사용 권한 및 승인](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
 - [팀의 자원 관련 승인](resource-specific-consent.md)
 - [RSC (리소스 관련 승인)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+- [팀 앱 수명 주기 탐색](https://aka.ms/PR132) (Ignite 2020 세션)
 
 

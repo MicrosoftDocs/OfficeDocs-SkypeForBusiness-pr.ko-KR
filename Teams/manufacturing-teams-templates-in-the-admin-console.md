@@ -1,5 +1,5 @@
 ---
-title: 관리 콘솔에서 팀 제조 템플릿을 시작 하세요.
+title: 관리 센터에서 팀 제조 템플릿을 시작 하세요.
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 사용 방법에 대해 알아보세요. 관리자 콘솔을 사용 하 여 미리 정의 된 설정, 채널, 사전 설치 되어 있는 앱을 제공 하 여 제조할 목적으로 설계 되는 팀 구조를 만들 수 있습니다.
+description: 사용 방법에 대해 알아보세요. 관리 센터를 사용 하 여 미리 정의 된 설정, 채널 및 사전 설치 앱을 제공 하 여 제조의 요구 사항에 맞게 설계한 팀 구조를 만들기 위해 팀 템플릿을 만듭니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb7769a193e95f31db8ffb02b6120babfa05c661
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: ea0e8e517a63fb23cecca71230174bd55ff328ee
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308401"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424618"
 ---
-# <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>관리 콘솔에서 팀 제조 템플릿을 사용 합니다.
+# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>관리 센터에서 팀 제조 서식 파일 사용
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

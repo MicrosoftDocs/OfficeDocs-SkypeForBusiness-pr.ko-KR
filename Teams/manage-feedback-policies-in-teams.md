@@ -17,18 +17,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 팀 사용자가 Microsoft에 팀에 대 한 피드백을 제출할 수 있는지 여부를 제어 하는 데 피드백 정책을 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: b489e574a1d1c2a2b1ac5faf69626e997dbbfaa9
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0bece4515825a0d7ddf7e547f1607fbd6cf205cc
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938487"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433041"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft 팀에서 피드백 정책 관리
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 조직의 사용자는 팀에 대 한 피드백을 Microsoft에 보내 팀 데스크톱 및 웹 클라이언트 내에서 바로 수행 하는 방법을 알 수 있습니다. 팀 경험을 지속적으로 개선 하 고 있으며,이 피드백을 사용 하 여 팀을 개선할 수 있습니다.
+
+> [!NOTE]
+> GCC, GCC 높음 또는 DOD 배포에서는 피드백 정책을 사용할 수 없습니다.
 
 **피드백 제공 기능**
 

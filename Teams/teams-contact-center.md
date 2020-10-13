@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft 팀을 위한 서비스 (CCaaS) 솔루션의 통합 된 연락처 센터 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 906af5df0e4ec7c4f4b658210e127b5ad0ef0044
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 3f0989c8fade3461418e86713dfb758bc7dfbbcc
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361468"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424628"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 팀에 대 한 연락처 센터 통합
 
@@ -42,12 +42,12 @@ Api를 통해 파트너는 팀의 솔루션으로 CCaaS 개발 하 고 통합할
 
 다음 파트너는 Microsoft 팀의 솔루션을 인증 하 고 고객에 게 참여할 준비가 되었습니다.
 
-| **Partner**                                                                                                                              | **솔루션 웹 사이트**                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|  Partner                                                                                                                               |  솔루션 웹 사이트                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | Competella | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | ComputerTalk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
-| ContactCenter4All | https://docs.microsoft.com/microsoftteams/teams-contact-center#connected-contact-center-for-microsoft-teams-certification-program |
+| ContactCenter4All | www.contactcenter4all.com |
 | Enghouse 대화형 | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genes | https://www.genesys.com/microsoft                                                                                   |

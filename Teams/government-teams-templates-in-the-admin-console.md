@@ -1,5 +1,5 @@
 ---
-title: 관리 콘솔에서 팀 정부 서식 파일 사용
+title: 관리 센터에서 팀 정부 서식 파일 사용
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 사용 방법에 대해 알아보세요. 관리자 콘솔을 사용 하 여 미리 정의 된 설정, 채널 및 사전 설치 앱을 제공 하 여 정부용 팀 구조를 개발 하기 위해 팀 템플릿을 만듭니다.
+description: 사용 방법에 대해 알아보세요. 관리 센터를 사용 하 여 미리 정의 된 설정, 채널 및 사전 설치 앱을 제공 하 여 정부용 팀 구조를 개발 하기 위해 팀 서식 파일을 만들 수 있습니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 623a80bbe85e0345a9b5812377290db04f4b817b
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308141"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424718"
 ---
-# <a name="use-teams-government-templates-in-the-admin-console"></a>관리 콘솔에서 팀 정부 서식 파일 사용
+# <a name="use-teams-government-templates-in-the-admin-center"></a>관리 센터에서 팀 정부 서식 파일 사용
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

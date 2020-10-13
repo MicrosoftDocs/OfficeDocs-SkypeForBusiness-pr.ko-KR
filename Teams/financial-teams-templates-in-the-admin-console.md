@@ -1,5 +1,5 @@
 ---
-title: 관리 콘솔을 사용 하 여 팀 재무 템플릿을 시작 하세요.
+title: 관리 센터를 사용 하 여 팀 재무 서식 파일 시작
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 사용 방법에 대해 알아보세요. 관리 콘솔을 사용 하 여 미리 정의 된 설정, 채널 및 사전 설치 앱을 제공 하 여 재무 요구 사항에 맞게 디자인 한 팀 구조를 만들 수 있습니다.
+description: 사용 방법에 대해 알아보세요. 관리 센터를 사용 하 여 미리 정의 된 설정, 채널 및 사전 설치 앱을 제공 하 여 재무 요구 사항에 맞게 설계한 팀 구조를 만들기 위한 팀 서식 파일
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8273e63213b6a0c3d99d6ef66cb778a2541c0327
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294414"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424608"
 ---
-# <a name="use-teams-financial-templates-in-the-admin-console"></a>관리 콘솔에서 팀 재무 서식 파일 사용
+# <a name="use-teams-financial-templates-in-the-admin-center"></a>관리 센터에서 팀 재무 서식 파일 사용
 
 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 

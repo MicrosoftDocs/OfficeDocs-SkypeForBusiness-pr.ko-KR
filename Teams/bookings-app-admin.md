@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀의 예약 앱 및 가상 방문
-author: mattpennathe3rd
-ms.author: v-mapenn
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.reviewer: ''
 description: 예약 앱을 사용 하 여 Microsoft 팀 및 가상 방문
-ms.openlocfilehash: b00a42ab7d0b590d706b8e3218f24d13b945b731
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: c60993b57233c0c526e1770c1d3d414a73fcc42a
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280294"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48427683"
 ---
 # <a name="bookings-app-and-virtual-visits-in-microsoft-teams"></a>Microsoft 팀의 예약 앱 및 가상 방문
 

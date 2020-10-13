@@ -386,3 +386,65 @@
 | 10/2/2020 | [모임 녹음/녹화에 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 으 |
 | 10/2/2020 | [Microsoft Teams의 게스트 액세스에 대한 문제 해결](/MicrosoftTeams/troubleshoot-guest-access) | 으 |
 | 10/2/2020 | [팀에서 게스트 사용자 보기](/MicrosoftTeams/view-guests) | 으 |
+
+
+## <a name="week-of-october-05-2020"></a>10 월 5 일 주 2020
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 10/5/2020 | [Ignite 2020의 팀 세션](/MicrosoftTeams/ignite-2020-landing-page) | 으 |
+| 10/5/2020 | [Microsoft 팀 관리자 역할을 사용 하 여 팀 관리](/MicrosoftTeams/using-admin-roles) | 으 |
+| 10/5/2020 | [Microsoft Teams에서 조직 전체 팀 만들기](/MicrosoftTeams/create-an-org-wide-team) | 으 |
+| 10/5/2020 | [환자 App 및 EHR integration DSTU2 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 으 |
+| 10/5/2020 | [환자 앱을 FHIR용 Azure API에 연결](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 으 |
+| 10/5/2020 | [팀 용 환자 앱 관리자 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 으 |
+| 10/5/2020 | [환자 앱 개요](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 으 |
+| 10/5/2020 | [팀 IT 및 규정 준수 관리자를 위한 환자 앱 감사 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 으 |
+| 10/5/2020 | [환자 App 및 EHR integration STU3 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 으 |
+| 10/5/2020 | [의료 조직을 위한 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 으 |
+| 10/5/2020 | [Microsoft Graph를 사용 하 여 팀 서식 파일 시작](/MicrosoftTeams/get-started-with-teams-templates) | 으 |
+| 10/5/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
+| 10/5/2020 | [오스트리아 용 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria) | 으 |
+| 10/5/2020 | [벨기에의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 으 |
+| 10/5/2020 | [덴마크어 용 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark) | 으 |
+| 10/5/2020 | [프랑스의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 으 |
+| 10/5/2020 | [독일의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 으 |
+| 10/5/2020 | [아일랜드의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 으 |
+| 10/5/2020 | [이탈리아 용 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | 으 |
+| 10/5/2020 | [포르투갈 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal) | 으 |
+| 10/5/2020 | [스페인의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 으 |
+| 10/5/2020 | [스웨덴 용 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden) | 으 |
+| 10/5/2020 | [스위스 용 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 으 |
+| 10/5/2020 | [네덜란드의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 으 |
+| 10/5/2020 | [릴리스 정보](/MicrosoftTeams/rooms/rooms-release-note) | 으 |
+| 10/5/2020 | [팀 연락처 센터](/MicrosoftTeams/teams-contact-center) | 으 |
+| 10/5/2020 | [모임 녹음/녹화에 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 으 |
+| 10/6/2020 | [Microsoft 팀 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 허용](/MicrosoftTeams/app-permissions-admin-center) | 으 |
+| 10/6/2020 | [환자 App 및 EHR integration DSTU2 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 으 |
+| 10/6/2020 | [환자 앱을 FHIR용 Azure API에 연결](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 으 |
+| 10/6/2020 | [팀 용 환자 앱 관리자 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 으 |
+| 10/6/2020 | [환자 앱 개요](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 으 |
+| 10/6/2020 | [팀 IT 및 규정 준수 관리자를 위한 환자 앱 감사 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 으 |
+| 10/6/2020 | [환자 App 및 EHR integration STU3 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 으 |
+| 10/6/2020 | [의료 조직을 위한 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 으 |
+| 10/6/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
+| 10/6/2020 | [Microsoft 팀에서 정책 패키지 관리](/MicrosoftTeams/manage-policy-packages) | 으 |
+| 10/6/2020 | [Microsoft 팀 live 이벤트는 무엇 인가요?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 으 |
+| 10/6/2020 | [오디오 회의를 위한 네트워크 회의](/MicrosoftTeams/audio-conferencing-on-network) | 으 |
+| 10/6/2020 | [직접 라우팅-아날로그 장치 연결](/MicrosoftTeams/direct-routing-analog-devices) | 으 |
+| 10/6/2020 | [다이렉트 라우팅에 대 한 전화 번호 번역](/MicrosoftTeams/direct-routing-translate-numbers) | 으 |
+| 10/6/2020 | [Teams에서 사용자 현재 상태 확인](/MicrosoftTeams/presence-admins) | 으 |
+| 10/6/2020 | [PowerShell을 사용 하 여 라이브 이벤트 정책 설정](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 으 |
+| 10/6/2020 | [모임 녹음/녹화에 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 으 |
+| 10/6/2020 | [Microsoft 팀 요구 사항 \| 개선 서비스](/MicrosoftTeams/upgrade-enhance-my-service) | 으 |
+| 10/8/2020 | [중소 기업에 맞게 오디오 회의 설정](/MicrosoftTeams/audio-conferencing-smb) | 으 |
+| 10/8/2020 | [Microsoft Teams용 클라이언트 다운로드](/MicrosoftTeams/get-clients) | 으 |
+| 10/8/2020 | [Microsoft Teams의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으 |
+| 10/8/2020 | [모임 녹음/녹화에 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 으 |
+| 10/8/2020 | [직접 라우팅에 대해 인증 된 세션 경계 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 으 |
+| 10/9/2020 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 으 |
+| 10/9/2020 | [Microsoft Teams의 게스트 액세스](/MicrosoftTeams/guest-access) | 으 |
+| 10/9/2020 | [Microsoft Teams의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으 |
+| 10/9/2020 | [팀에서 관리 계획-Microsoft 팀](/MicrosoftTeams/plan-teams-governance) | 으 |
+| 10/9/2020 | [수명 주기 관리 계획](/MicrosoftTeams/plan-teams-lifecycle) | 으 |

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀 용 전화 및 장치
-ms.author: v-mapenn
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Microsoft 팀에 대해 인증 된 헤드셋, 스피커폰, 웹캠, 모니터 등의 USB 주변 기기와 장치에 대해 알아봅니다.
-ms.openlocfilehash: 90c97ffb98fafa8908c2e746487d5ffca7412282
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: 446518d9221cd9f484b47f3f098d95db3997dd3d
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962919"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48427693"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft 팀에 인증 된 USB 오디오 및 비디오 장치
 

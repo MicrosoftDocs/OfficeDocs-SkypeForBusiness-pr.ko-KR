@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft 팀을 계획, 배포 및 실행 하는 방법을 설명 하는 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346199"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48426933"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육 시작
 
@@ -56,9 +56,9 @@ ms.locfileid: "48346199"
 
 <h2>팀 회의실 & AV 전문가를 위한 기초</h2>
 
-<p>다음 표에는 Microsoft 팀 방에 대 한 다양 한 PowerPoint 데크와 함께 제공 되는 종합적인 비디오 교육 링크가 포함 되어 있습니다.  
+<p>다음 표에는 Microsoft 팀 대화방에서 함께 제공 되는 PowerPoint 데크 (PDF 형식)의 종합적인 비디오 교육에 대 한 링크가 포함 되어 있습니다.  
 
-| 모듈 | 비디오 | PowerPoint 데크  |
+| 모듈 | 비디오 | PowerPoint 데크 (PDF)  |
 | ------------ | -------------------- | -------------------- |
 | 모듈 1: Microsoft 팀 대화방 소개 (18:29 분) | [비디오](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [뒤집을](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | 모듈 2: Microsoft 팀 네트워킹 (34:10 분) | [비디오](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [뒤집을](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
