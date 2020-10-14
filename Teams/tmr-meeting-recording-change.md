@@ -16,17 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a42c46cf9592c64676d153e1885357a4ee8ec7b
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: 83a7a0628d76a96318081ec51a039d458ea1570f
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389936"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444234"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
 > [!Note]
-> Microsoft Stream에서 모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint로의 변경은 단계별로 접근합니다. 시작 시 테 넌 트 관리자는 지금이 새 워크플로 옵션을 선택할 수 있으며, 2020 년 10 월부터 비즈니스용 OneDrive 및 SharePoint에 대 한 녹음/녹화 자동 업로드를 표시 하기 시작 합니다. 11 월에는 스트림을 계속 사용 하기 위해 옵트아웃 해야 하며, 초기 2021에는 모든 고객이 비즈니스용 OneDrive 및 SharePoint를 사용 하 여 새 모임 녹화가 필요 합니다.
+> Microsoft Stream을 비즈니스용 OneDrive 및 Microsoft SharePoint for Business에 대 한 변경 내용은 단계적으로 사용 됩니다.
+
+|||
+|---|-----------------|
+|시작일|이벤트|
+|초기 Q4 CY20|**비즈니스용 OneDrive 및 SharePoint에 대 한 팀 모임 녹음/녹화를 옵트인 또는 옵트아웃 (opt out) 할 수 있습니다.**<br> 테 넌 트 관리자가 비즈니스용 OneDrive 및 SharePoint에서 옵트인 또는 선택 취소 하 여 PowerShell에서 팀 정책 설정|
+|중급 Q4 CY20|**비즈니스용 OneDrive 및 SharePoint에서 팀 모임 녹음/녹화를 옵트아웃 하지 않은 테 넌 트에 대 한 기본값으로 설정**<br> 이는 대부분의 고객에 게 권장 되는 경로입니다.|
+Q1 CY21|**더 이상 허용 되지 않는 클래식 스트림으로 팀 모임 기록 저장**<br>모든 테 넌 트가 비즈니스용 OneDrive 및 SharePoint에 팀 모임 기록을 저장 합니다.|
+|||
 
 Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 있습니다. 이 방법은 기존 Microsoft Stream에서 [새 스트림으로](https://docs.microsoft.com/stream/streamnew/new-stream)전환 하는 첫 번째 단계로, 365 microsoft OneDrive 및 SharePoint에 기록 저장 하 고 다양 한 혜택을 제공 합니다.
 

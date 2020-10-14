@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 위한 네트워크의 열기 미리 보기 기능에 대 한 설명입니다.
-ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369183"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444214"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>오디오 회의를 위한 네트워크 회의 미리 보기 열기
 
@@ -38,7 +38,7 @@ ms.locfileid: "48369183"
 
 네트워크 회의를 구성 하기 전에 조직이 다음 필수 조건을 충족 하는지 확인 합니다. 
 
-- 오디오 회의에 사용 하도록 설정 되어 있거나 사용할 수 있는 조직의 모든 사용자가 팀 전용 모드에 있는지 확인 합니다. 네트워크 회의를 통한 인바운드 및 아웃 바운드 오디오 회의 호출은 팀 모임에 대해서만 지원 됩니다.
+- 오디오 회의에 대해 사용 하도록 설정 되어 있거나 사용할 수 있는 조직의 모든 사용자가 모든 모임에 대해 팀을 사용 하 고 있는지 확인 합니다. 네트워크 회의를 통한 인바운드 및 아웃 바운드 오디오 회의 호출은 팀 모임에 대해서만 지원 됩니다.
 
 - 네트워크 회의를 사용 하는 모든 사용자에 게 오디오 회의 라이선스를 할당 합니다.
 
@@ -67,11 +67,11 @@ ms.locfileid: "48369183"
 
 OnlineAudioConferencingRoutingPolicy 정책은 직접 라우팅을 통한 1:1 PSTN 통화에 대 한 CsOnlineVoiceRoutingPolicy와 동일 합니다. OnlineAudioConferencingRoutingPolicy 정책은 다음 cmdlet을 사용 하 여 관리할 수 있습니다.
 
--   새로운 CsOnlineAudioConferencingRoutingPolicy
+-   New-CsOnlineAudioConferencingRoutingPolicy
 - Set-CsOnlineAudioConferencingRoutingPolicy
 - Get-CsOnlineAudioConferencingRoutingPolicy
-- 부여-CsOnlineAudioConferencingRoutingPolicy
-- 제거-CsOnlineAudioConferencingRoutingPolicy
+- Grant-CsOnlineAudioConferencingRoutingPolicy
+- Remove-CsOnlineAudioConferencingRoutingPolicy
 
 직접 라우팅을 위한 라우팅에 대 한 자세한 내용은 [직접 라우팅에 대 한 음성 라우팅 구성을](direct-routing-voice-routing.md)참조 하세요.
 
@@ -101,7 +101,7 @@ PSTN 용도는 음성 경로의 모음입니다. 특정 이끌이의 모임에�
 
 "Set-CsOnlinePstnUsage" cmdlet을 사용 하 여 PSTN 사용을 만들 수 있습니다. 예를 들어:
 
-```
+```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
@@ -111,7 +111,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 
 "CsOnlineVoiceRoute" cmdlet을 사용 하 여 음성 경로를 만들고 음성 경로와 연결할 regex 및 게이트웨이를 정의할 수 있습니다. 예를 들어:
 
-```
+```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
@@ -121,7 +121,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7}
 
 "New-CsOnlineAudioConferencingRoutingPolicy" cmdlet을 사용 하 여 오디오 회의 음성 라우팅 정책을 만들 수 있습니다. 예를 들어:
 
-```
+```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -133,14 +133,14 @@ New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and 
 
 "CsOnlineAudioConferencingRoutingPolicy" cmdlet을 사용 하 여 사용자에 게 오디오 회의 음성 라우팅 정책을 할당할 수 있습니다. 예를 들면 다음과 같습니다.
 
-```
+```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
 
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>조직의 전화 통신 장비에 대 한 라우팅 구성
 
-조직의 전화 통신 장비에서 직접 라우팅을 통해 라우팅되는 모임 전화 접속 호출이 의도 하는 대상에 회람 되는지 확인 해야 합니다.
+조직의 전화 통신 장비에서 직접 라우팅을 통해 라우팅되는 모임 전화 접속 통화는 의도 된 네트워크 대상에 라우팅 되어야 합니다.
 
 
 ### <a name="optional-configure-a-dial-plan"></a>) 다이얼 플랜 구성

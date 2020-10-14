@@ -16,12 +16,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d21e120feee26230c225e59b462e35e47e4e12e1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: a1881afc4897ca6321cd56609e491aef144e10da
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665180"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456092"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Microsoft 팀 핵심 기능 구성
 
@@ -33,7 +33,7 @@ ms.locfileid: "44665180"
 | 4(tcp/ipv4)  | 테 넌 트 전체 팀 설정 구성 | 테 넌 트 수준에서 일부 팀 설정을 구성할 수 있습니다. 팀에 대해 사용 하도록 설정 된 사용자는 테 넌 트 구성에서 이러한 설정을 상속 합니다.<ul><li>일반</li><li>전자 메일 통합</li><li>앱</li><li>사용자 지정 클라우드 저장소</li><li>통화 및 모임</li><li>메시징</li></ul>| | [조직에서 Microsoft Teams 설정 관리](enable-features-office-365.md) |
 | 5mb  | 선택 사항: 게스트 액세스 구성 | 팀에서 게스트 액세스를 사용 하 여 조직 외부 사용자와 팀 및 채널에 대 한 액세스 권한을 부여 하 여 공동 작업을 수행 합니다. 게스트 액세스는 팀의 테 넌 트 수준 설정입니다. 이는 기본적으로 해제되어 있습니다. <br/>조직에서 해당 기능을 사용할 계획인 경우 게스트 액세스를 사용 하도록 설정 하 고 테 넌 트 전체 게스트 설정을 구성 합니다. | | [Microsoft Teams의 게스트 액세스](guest-access.md) |
 | 26  | 선택 사항: 팀 명명 정책 구성 | 사용자가 팀 이름을 만들거나 편집할 때 Microsoft 365 그룹에 대 한 이름 지정 정책을 활용 하는 팀 <br/><br/>기본적으로 사용자가 팀을 만들 때 명명 제한이 적용 되지 않습니다. <br/><br/>팀 이름에 대 한 규칙을 적용 해야 하는 경우 조직에 적용 되는 Microsoft 365 그룹 명명 정책을 구성 합니다. 필수 접두사와 접미사를 설정 하 고 차단 된 단어를 지정할 수 있습니다. | | [Microsoft 팀에서 팀을 만들 때 Microsoft 365 그룹에 대 한 계획](plan-office-365-groups.md) <br/><br/>[Microsoft 365 그룹 이름 지정 정책](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
-| 7  | 팀 SMTP 도메인에 대 한 Exchange 구성 | 팀은 Exchange Online을 사용 하 여 SMTP 도메인 (email.teams.microsoft.com)이 추가 또는 제거 된 경우이를 사용 하 여 팀 구성원에 게 알림을 보냅니다. <br/><br/>이 SMTP 도메인을 Exchange 인프라의 허용 도메인 목록에 추가 해야 합니다. | | [Exchange Online에서 Microsoft 팀 SMTP 도메인을 허용 도메인으로 추가](smtp-accepted-domain.md) |
+| 7  | 팀 SMTP 도메인에 대 한 Exchange 구성 | 팀은 Exchange Online을 사용 하 여 SMTP 도메인 (email.teams.microsoft.com)이 추가 또는 제거 된 경우이를 사용 하 여 팀 구성원에 게 알림을 보냅니다. <br/><br/>이 SMTP 도메인을 Exchange 인프라의 허용 도메인 목록에 추가 해야 합니다. | | [Exchange에서 수신 허용-보낸 사람 목록 만들기](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365?view=o365-worldwide) |
 | 20cm(8  | 팀에 대 한 사용자 액세스 구성 및 관리 | 팀의 모든 사용자를 사용 하도록 설정 하는 것이 좋지만 팀 제품 라이선스를 할당 하거나 제거 하 여 사용자 별로 팀에 대 한 액세스를 허용 하거나 허용 하지 않을 수 있습니다. | | [Microsoft 팀에 대 한 사용자 액세스 관리](user-access.md) |
 | 되었는지  | 사용자에 게 라이선스 할당 | 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 사용자에 게 할당 | | [Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)|
 | 1천만 | 선택 사항: PowerShell을 사용 하 여 팀 관리 | Microsoft 365 관리 센터 대신 PowerShell cmdlet을 사용 하 여 팀 설정을 관리 하 고 관리할 수 있습니다. | | [Microsoft 팀 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |
