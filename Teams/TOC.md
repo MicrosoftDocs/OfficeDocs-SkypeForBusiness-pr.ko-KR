@@ -687,7 +687,7 @@
 #### [의료 조직을 위한 메시지 보안](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [메시지 위임](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### 의료 조직을 위한 Teams 서식 파일
-#### [관리 센터에서 Teams 의료 서식 파일 사용](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [관리 센터에서 Teams 의료 서비스 서식 파일 사용](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [의료 조직을 위한 Teams 서식 파일 시작](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [목록 앱 관리](manage-lists-app.md)
 ### Teams의 교대 근무
