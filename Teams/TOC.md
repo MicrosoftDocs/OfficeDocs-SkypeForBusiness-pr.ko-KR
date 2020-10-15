@@ -770,6 +770,7 @@
 ### [정책 컨트롤 개요](policy-control-overview.md)
 ### [모바일 진단 데이터](policy-control-diagnostic-data-mobile.md)
 ### [데스크톱 클라이언트 진단 데이터](policy-control-diagnostic-data-desktop.md)
+### [Office의 선택 사항 연결된 환경 개요](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # 모니터링, 유지 관리 및 문제 해결
@@ -861,7 +862,7 @@
 ### [Teams와 기존 Microsoft 365 그룹 향상](enhance-office-365-groups.md)
 ### [Exchange와 Teams의 상호 작용 방법](exchange-teams-interact.md)
 #### [Teams와 사용할 Exchange 하이브리드 조직 구성](exchange-hybrid-organization.md)
-#### [Exchange Online에서 Teams SMTP 도메인을 허용 도메인으로 추가](smtp-accepted-domain.md)
+#### [Exchange에서 메일 흐름 규칙 사용](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)
 ### [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](sharepoint-onedrive-interact.md)
 ### [Microsoft 365 또는 Office 365의 다중 지역 지원 테넌시의 Teams 환경](teams-experience-o365odb-spo-multi-geo.md)
 
