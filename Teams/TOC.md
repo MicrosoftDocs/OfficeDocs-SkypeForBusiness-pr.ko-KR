@@ -770,7 +770,7 @@
 ### [정책 컨트롤 개요](policy-control-overview.md)
 ### [모바일 진단 데이터](policy-control-diagnostic-data-mobile.md)
 ### [데스크톱 클라이언트 진단 데이터](policy-control-diagnostic-data-desktop.md)
-### [Office의 선택 사항 연결된 환경 개요](teams-privacy-oce-overview.md)
+### [선택적 연결된 환경](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # 모니터링, 유지 관리 및 문제 해결
@@ -882,8 +882,8 @@
 ### [Teams PowerShell 설치](teams-powershell-install.md)
 ### [Teams PowerShell을 사용하여 Teams 관리](teams-powershell-managing-teams.md)
 ### [Teams PowerShell 릴리스 노트](teams-powershell-release-notes.md)
+### [비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 이동](teams-powershell-move-from-sfbo.md)
 ### [Teams용 Cmdlet 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-
 ## [Teams용 개발자 문서](https://docs.microsoft.com/microsoftteams/platform)
 ## [Teams에서 도움말 보기](get-help-in-microsoft-teams.md)
 ## [Teams 콘텐츠 업데이트](teams-updates.md)
