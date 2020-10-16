@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀 관리 센터에서 사용할 수
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 943e8db82f69548008430df082638f61d09b6782
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 027be1837f7a3761a7e1bf97489c49d900173663
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690974"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476703"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 팀 분석 및 보고
 
@@ -29,7 +29,7 @@ Microsoft 팀에 대 한 새로운 분석 및 보고 환경은 Microsoft 팀 관
 
 ## <a name="how-to-access-the-reports"></a>보고서에 액세스 하는 방법
 
-보고서에 액세스 하려면 Microsoft 365 또는 Office 365의 전역 관리자 이거나, 팀 서비스 관리자, 팀 통신 관리자 또는 비즈니스용 Skype 관리자 여야 합니다. 팀 관리자 역할 및 각 관리자 역할이 액세스할 수 있는 보고서에 대 한 자세한 내용은 팀 [관리자 역할을 사용 하 여 팀 관리를](../using-admin-roles.md)참조 하세요.
+보고서에 액세스 하려면 Microsoft 365 또는 Office 365, 팀 서비스 관리자 또는 비즈니스용 Skype 관리자의 전역 관리자 여야 합니다. 팀 관리자 역할 및 각 관리자 역할이 액세스할 수 있는 보고서에 대 한 자세한 내용은 팀 [관리자 역할을 사용 하 여 팀 관리를](../using-admin-roles.md)참조 하세요.
 
 Microsoft 팀 관리 센터로 이동 하 고 왼쪽 탐색 창에서 **분석 & 보고서**를 선택한 다음 **보고서**에서 실행 하려는 보고서를 선택 합니다.
 

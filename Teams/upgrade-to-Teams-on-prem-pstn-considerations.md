@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8a6df112d0ea8359e3fe7db07bd644b0b90404f0
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955891"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486763"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>IT 관리자를 위해 팀으로 업그레이드할 때 PSTN 고려 사항 &mdash;
 
@@ -44,7 +44,8 @@ ms.locfileid: "47955891"
 
 
  > [!NOTE]
- > 팀과 함께 전화 시스템을 사용 하는 것은 사용자가 TeamsOnly 모드에 있는 경우에만 지원 됩니다.  사용자가 군도 모드에 있는 경우, 전화 시스템은 비즈니스용 Skype 에서만 지원 됩니다. 
+ > - 팀과 함께 전화 시스템을 사용 하는 것은 사용자가 TeamsOnly 모드에 있는 경우에만 지원 됩니다.  사용자가 군도 모드에 있는 경우, 전화 시스템은 비즈니스용 Skype 에서만 지원 됩니다. 
+ > - Skype for Business의 착신 전환 및 위임 설정은 마이그레이션되지 않으며 팀에 맞게 다시 만들어야 합니다.
 
 
 ## <a name="pstn-calling-scenarios"></a>PSTN 통화 시나리오
@@ -109,7 +110,7 @@ ms.locfileid: "47955891"
 
 6. 사용자 업그레이드: 이러한 단계는 조정 해야 합니다. 
 
-   - 온-프레미스 비즈니스용 Skype 도구를 사용 하 여-MoveToTeams 스위치를 사용 하 여 CsUser Move 사용자를 실행 합니다. -MoveToTeams 스위치를 지원 하지 않는 비즈니스용 Skype Server 버전을 사용 하는 경우 먼저 이동-CsUser를 실행 한 다음 테 넌 트 원격 PowerShell 또는 팀 관리 콘솔에서 TeamsOnly 모드를 할당 합니다.
+   - 온-프레미스 비즈니스용 Skype 도구를 사용 하 여-MoveToTeams 스위치를 사용 하 여 Move-CsUser를 실행 합니다. -MoveToTeams 스위치를 지원 하지 않는 비즈니스용 Skype Server 버전을 사용 하는 경우 Move-CsUser 먼저 실행 한 다음 테 넌 트 원격 PowerShell 또는 팀 관리자 콘솔에 TeamsOnly 모드를 할당 합니다.
 
    - SBC에서 온-프레미스 중재 서버 대신 다이렉트 라우팅에 대 한 통화를 보내 들어오는 전화를 사용할 수 있도록 음성 라우팅을 구성 합니다. 
 
@@ -135,7 +136,7 @@ ms.locfileid: "47955891"
    - 번호를 다시 사용 하는 경우에는 해당 통신 업체에 포팅 요청을 제출 합니다.  
    - 또는 Microsoft에서 직접 새 번호를 받을 수 있습니다. 
 
-6. 사용자를 업그레이드 하 고 필요한 경우 LineUri를 할당 합니다. 온-프레미스 비즈니스용 Skype 도구를 사용 하 여-MoveToTeams 스위치와 함께 CsUser Move를 실행 합니다.  
+6. 사용자를 업그레이드 하 고 필요한 경우 LineUri를 할당 합니다. 온-프레미스 비즈니스용 Skype 도구를 사용 하 여-MoveToTeams 스위치를 사용 하 여 Move-CsUser를 실행 합니다.  
 
     - Microsoft로 번호를 포팅 하는 경우 포트가 발생할 때이 작업이 발생 하는 시기를 조정 해야 합니다. 
 

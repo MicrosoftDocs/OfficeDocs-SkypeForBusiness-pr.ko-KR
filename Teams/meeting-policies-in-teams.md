@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 팀에서 모임 정책 설정을 관리 하 고이를 사용 하 여 사용자가 예약한 모임의 모임 참가자가 사용할 수 있는 기능을 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: c6942a86a8bf63254fb30e59c4a5400f9fa58304
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308431"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486823"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -161,9 +161,9 @@ ms.locfileid: "48308431"
 
 관리 센터에서 다음을 수행 합니다.
 
-채널 일정 앱은 권한 정책에 대 한 관리 패널의 **Microsoft apps** 섹션 아래에 표시 됩니다.
+채널 달력 앱이 앱 권한 정책 페이지의 **Microsoft apps** 섹션에 표시 됩니다.
 
-![팀 관리 콘솔의 Microsoft 앱 정책을 보여 주는 스크린샷](media/manage-microsoft-apps-policy.png)
+![팀 관리 센터의 앱 사용 권한 정책을 보여 주는 스크린샷](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>개인 모임 예약 허용
 
@@ -227,6 +227,8 @@ Daniela에서 구성한 모임은 기록 하 고 Amanda 수 있으며, 정책 �
 
 이 설정은 1:1 통화에는 적용 되지 않습니다. 1:1 통화를 제한 하려면 팀 [호출 정책을](teams-calling-policy.md) 구성 하 고 **비공개 통화** 설정 설정을 해제 합니다. 이 설정은 Surface Hub 및 Microsoft 팀 방 장치와 같은 회의실 장치에도 적용 되지 않습니다.
 
+이 설정은 Microsoft 365 정부 커뮤니티 클라우드 (GCC), GCC High 또는 보호 (DoD) 환경에는 아직 사용할 수 없습니다.
+
 자세한 내용은 [모임 참가자를 위한 오디오/비디오 관리](#manage-audiovideo-for-meeting-participants)를 참조 하세요.
 
 ### <a name="mode-for-ip-video"></a>IP 비디오용 모드
@@ -240,10 +242,14 @@ Daniela에서 구성한 모임은 기록 하 고 Amanda 수 있으며, 정책 �
 
 사용자가 **사용** 하도록 설정 하지 않으면 해당 사용자가 비디오를 켜거나 다른 모임 참가자가 공유한 비디오를 볼 수 없습니다. 할당 된 정책이 없는 모임 참가자 (예: 익명 참가자)는이 설정이 **발신 및 수신 비디오** 로 기본적으로 활성화 됩니다.
 
-이 설정은 Surface Hub 및 Microsoft 팀 방 장치와 같은 회의실 장치에는 적용 되지 않습니다.
+이 설정은 Surface Hub 및 Microsoft 팀 방 장치와 같은 회의실 장치에는 적용 되지 않습니다. 
+
+이 설정은 Microsoft 365 정부 커뮤니티 클라우드 (GCC), GCC High 또는 보호 (DoD) 환경에는 아직 사용할 수 없습니다.
 
 > [!NOTE]
 > 이 설정은 송신 및 수신 비디오를 모두 제어 하는 반면, **IP 영상 허용** 설정은 나가는 비디오를 제어 합니다. 자세한 내용은 [우선 순위가 높은 IP 비디오 정책 설정을](#which-ip-video-policy-setting-takes-precedence) 확인 하 고 [모임 참가자를 위해 오디오/비디오를 관리](#manage-audiovideo-for-meeting-participants)하세요.
+
+자세한 내용은 [모임 참가자를 위한 오디오/비디오 관리](#manage-audiovideo-for-meeting-participants)를 참조 하세요.
 
 ### <a name="allow-ip-video"></a>IP 비디오 허용
 
@@ -258,7 +264,6 @@ Daniela에서 구성한 모임은 기록 하 고 Amanda 수 있으며, 정책 �
 |:-------:|:-------:|
 |![데스크톱에서 오디오/비디오 설정을 사용 하 여 모임 참가를 보여 주는 스크린샷](media/meeting-policies-audio-video-settings.png)    |![모바일에서 오디오/비디오 설정을 사용 하 여 모임 참가를 보여 주는 스크린샷](media/meeting-policies-mobile-join.png)          |
 
-
 다음 예제를 살펴보겠습니다.
 
 |사용자 |모임 정책  |IP 비디오 허용 |
@@ -271,6 +276,8 @@ Daniela에서 호스팅하는 모임은 영상 통화를 켤 수 있습니다. D
 Amanda에서 호스팅하는 모임에서 할당 된 비디오 정책에 관계 없이 비디오를 켤 수 없습니다. 이는 Daniela에서 Amanda의 모임에서 비디오를 켤 수 없음을 의미 합니다.  
 
 Daniela에서 비디오를 사용 하 여 Amanda를 호출 하는 경우 Amanda는 오디오 만으로 전화를 받을 수 있습니다.  통화가 연결 되 면 Amanda에서 Daniela의 비디오를 볼 수 있지만 영상 통화는 켜지 지 않습니다. Amanda에서 Daniela를 호출 하는 경우 Daniela는 비디오 및 오디오로 전화를 받을 수 있습니다. 통화가 연결 되 면 필요에 따라 Daniela에서 비디오를 켜거나 끌 수 있습니다.
+
+자세한 내용은 [모임 참가자를 위한 오디오/비디오 관리](#manage-audiovideo-for-meeting-participants)를 참조 하세요.
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>어떤 IP 비디오 정책 설정이 우선적으로 적용 되나요?
 

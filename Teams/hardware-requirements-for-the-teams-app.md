@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: 472436eb4dd9f27d6e170ed723c243c002115d9b
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416863"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476653"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -43,7 +43,7 @@ ms.locfileid: "48416863"
 |.NET 버전    |  .NET 4.5 CLR 이상 필요       |
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    |
-|화상 통화 및 모임|<ul><li>2-코어 프로세서가 필요 합니다. 비디오/화면 공유 해상도와 프레임 속도를 높이는 경우에는 4-코어 프로세서를 더 잘 활용 하는 것이 좋습니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가 하려면 bluetooth LE가 필요 하며,이 경우 클라이언트 장치에서 블루투스를 사용 하도록 설정 해야 하며, Windows 클라이언트의 경우에는 64 비트 팀 클라이언트만 필요 합니다. 32 비트 팀 클라이언트에서는이 기능을 사용할 수 없습니다.</li></ul> |
+|화상 통화 및 모임|<ul><li>2-코어 프로세서가 필요 합니다. 비디오/화면 공유 해상도와 프레임 속도를 높이는 경우에는 4-코어 프로세서를 더 잘 활용 하는 것이 좋습니다.</li> <li>배경 영상 효과에는 Windows 10 또는 AVX2 명령 집합이 있는 프로세서가 필요 합니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조합니다.</li><li>Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가 하려면 bluetooth LE가 필요 하며,이 경우 클라이언트 장치에서 블루투스를 사용 하도록 설정 해야 하며, Windows 클라이언트의 경우에는 64 비트 팀 클라이언트만 필요 합니다. 32 비트 팀 클라이언트에서는이 기능을 사용할 수 없습니다.</li></ul> |
 |Teams 라이브 이벤트 | 팀 live 이벤트를 생성 하는 경우 코어 i5 Kaby 호수 프로세서, 4.0 GB RAM (또는 그 이상) 및 하드웨어 인코더가 있는 컴퓨터를 사용 하는 것이 좋습니다. **지원 되지 않는** 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac용 Teams의 하드웨어 요구 사항

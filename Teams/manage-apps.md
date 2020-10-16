@@ -17,12 +17,12 @@ description: Microsoft 팀 관리 센터의 앱 관리 페이지에서 팀 앱�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d75664a6d3884529936f8adcb69a928bdd238b3d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 226bd98c741a84a2d7f26c1808a4c8d7e9a6bb53
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336962"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486783"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 앱 관리
 ======================================================
@@ -108,8 +108,6 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**으로  >  **�
  > 앱을 제거 하려면 앱을 마우스 오른쪽 단추로 클릭 한 다음 **제거** 를 클릭 하거나 왼쪽에 있는 **다른 앱** 메뉴를 사용 합니다.
 
 ## <a name="add-an-app-to-a-team"></a>팀에 앱 추가
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 팀에 **추가** 단추를 사용 하 여 팀에 앱을 설치 합니다. 이는 팀 범위에 설치할 수 있는 앱에만 해당 됩니다. 개인 범위에만 설치할 수 있는 앱에는 **팀에 추가** 단추를 사용할 수 없습니다.
 
