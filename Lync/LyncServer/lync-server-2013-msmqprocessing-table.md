@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: MSMQProcessing 테이블'
+description: 'Lync Server 2013: MSMQProcessing 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8de63095e8273f585ecd22a133393e864d80b93e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c52e1cf5a034282ab534c1cbff04f4035d2422e1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507065"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546934"
 ---
-# <a name="msmqprocessing-table-in-lync-server-2013"></a><span data-ttu-id="17149-102">Lync Server 2013의 MSMQProcessing 테이블</span><span class="sxs-lookup"><span data-stu-id="17149-102">MSMQProcessing table in Lync Server 2013</span></span>
+# <a name="msmqprocessing-table-in-lync-server-2013"></a><span data-ttu-id="01872-103">Lync Server 2013의 MSMQProcessing 테이블</span><span class="sxs-lookup"><span data-stu-id="01872-103">MSMQProcessing table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48507065"
 
 <span> </span>
 
-<span data-ttu-id="17149-103">_**마지막으로 수정 된 항목:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="17149-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="01872-104">_**마지막으로 수정 된 항목:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="01872-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="17149-104">MSMQProcessing 테이블은 내부 전용입니다.</span><span class="sxs-lookup"><span data-stu-id="17149-104">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="17149-105">이 표는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="17149-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="01872-105">MSMQProcessing 테이블은 내부 전용입니다.</span><span class="sxs-lookup"><span data-stu-id="01872-105">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="01872-106">이 표는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="01872-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 

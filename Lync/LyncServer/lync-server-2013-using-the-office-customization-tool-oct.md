@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: OCT (Office 사용자 지정 도구) 사용'
+description: 'Lync Server 2013: OCT (Office 사용자 지정 도구)를 사용 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8943712ff78dcc065a6a75e3756c1c689234eec2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 602502ba4579ed6c640eee909d4c6b056ce247d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503715"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547334"
 ---
-# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a><span data-ttu-id="651ca-102">Lync Server 2013의 OCT (Office 사용자 지정 도구) 사용</span><span class="sxs-lookup"><span data-stu-id="651ca-102">Using the Office Customization Tool (OCT) in Lync Server 2013</span></span>
+# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a><span data-ttu-id="d045f-103">Lync Server 2013의 OCT (Office 사용자 지정 도구) 사용</span><span class="sxs-lookup"><span data-stu-id="d045f-103">Using the Office Customization Tool (OCT) in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48503715"
 
 <span> </span>
 
-<span data-ttu-id="651ca-103">_**마지막으로 수정 된 항목:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="651ca-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="d045f-104">_**마지막으로 수정 된 항목:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="d045f-104">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="651ca-104">OCT (Office 사용자 지정 도구)는 설치 프로그램의 일부 이며 많은 사용자 지정 작업에 권장 되는 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-104">The Office Customization Tool (OCT) is part of the Setup program and is the recommended tool for many customizations.</span></span> <span data-ttu-id="651ca-105">OCT를 사용 하 여 Office를 사용자 지정 하 고 설치 사용자 지정 .msp 파일에 사용자 지정 내용을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-105">By using the OCT, you customize Office and save your customizations in a Setup customization .msp file.</span></span> <span data-ttu-id="651ca-106">이 파일은 네트워크 설치 지점의 Updates 폴더에 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-106">You place the file in the Updates folder on the network installation point.</span></span> <span data-ttu-id="651ca-107">Office를 설치할 때 설치 프로그램은 Updates 폴더에서 설치 사용자 지정 파일을 찾아 사용자 지정 내용을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-107">When you install Office, Setup looks for a Setup customization file in the Updates folder and applies the customizations.</span></span> <span data-ttu-id="651ca-108">Updates 폴더는 Office 2013의 초기 설치 중에 소프트웨어 업데이트를 배포 하는 데에만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-108">The Updates folder can be used only to deploy software updates during an initial installation of Office 2013.</span></span>
+<span data-ttu-id="d045f-105">OCT (Office 사용자 지정 도구)는 설치 프로그램의 일부 이며 많은 사용자 지정 작업에 권장 되는 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-105">The Office Customization Tool (OCT) is part of the Setup program and is the recommended tool for many customizations.</span></span> <span data-ttu-id="d045f-106">OCT를 사용 하 여 Office를 사용자 지정 하 고 설치 사용자 지정 .msp 파일에 사용자 지정 내용을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-106">By using the OCT, you customize Office and save your customizations in a Setup customization .msp file.</span></span> <span data-ttu-id="d045f-107">이 파일은 네트워크 설치 지점의 Updates 폴더에 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-107">You place the file in the Updates folder on the network installation point.</span></span> <span data-ttu-id="d045f-108">Office를 설치할 때 설치 프로그램은 Updates 폴더에서 설치 사용자 지정 파일을 찾아 사용자 지정 내용을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-108">When you install Office, Setup looks for a Setup customization file in the Updates folder and applies the customizations.</span></span> <span data-ttu-id="d045f-109">Updates 폴더는 Office 2013의 초기 설치 중에 소프트웨어 업데이트를 배포 하는 데에만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-109">The Updates folder can be used only to deploy software updates during an initial installation of Office 2013.</span></span>
 
-<span data-ttu-id="651ca-109">OCT는 설치 프로그램의 일부로, 볼륨 라이선스 버전의 제품에 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-109">The OCT is part of setup and it is included in volume license versions of the product.</span></span> <span data-ttu-id="651ca-110">`setup.exe /admin`Office 2013 원본 파일이 포함 된 네트워크 설치 지점의 루트에서 명령줄에 입력 하 여 OCT를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-110">You run the OCT by typing `setup.exe /admin` at the command line from the root of the network installation point that contains the Office 2013 source files.</span></span> <span data-ttu-id="651ca-111">예를 들어 다음을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-111">For example, use the following:</span></span>
+<span data-ttu-id="d045f-110">OCT는 설치 프로그램의 일부로, 볼륨 라이선스 버전의 제품에 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-110">The OCT is part of setup and it is included in volume license versions of the product.</span></span> <span data-ttu-id="d045f-111">`setup.exe /admin`Office 2013 원본 파일이 포함 된 네트워크 설치 지점의 루트에서 명령줄에 입력 하 여 OCT를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-111">You run the OCT by typing `setup.exe /admin` at the command line from the root of the network installation point that contains the Office 2013 source files.</span></span> <span data-ttu-id="d045f-112">예를 들어 다음을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-112">For example, use the following:</span></span>
 
 `\\server\share\Office15\setup.exe /admin`
 
-<span data-ttu-id="651ca-112">관리자는 OCT를 사용 하 여 설치 사용자 지정 .msp 파일을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-112">Administrators use the OCT to create a setup customization .msp file.</span></span> <span data-ttu-id="651ca-113">Microsoft Office 2010 OCT에서와 마찬가지로 관리자는 다음 영역을 사용자 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-113">As in the Microsoft Office 2010 OCT, administrators can customize the following areas:</span></span>
+<span data-ttu-id="d045f-113">관리자는 OCT를 사용 하 여 설치 사용자 지정 .msp 파일을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-113">Administrators use the OCT to create a setup customization .msp file.</span></span> <span data-ttu-id="d045f-114">Microsoft Office 2010 OCT에서와 마찬가지로 관리자는 다음 영역을 사용자 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-114">As in the Microsoft Office 2010 OCT, administrators can customize the following areas:</span></span>
 
-  - <span data-ttu-id="651ca-114">**설치 프로그램** 클라이언트 및 기본 조직 이름, 추가 네트워크 설치 원본, 제품 키, 최종 사용자 사용권 계약, 표시 수준, 제거할 이전 버전의 Office, 설치 중에 실행할 사용자 지정 프로그램, 보안 설정 및 설치 속성을 지정 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-114">**Setup** Used to specify default installation location on the client and default organization name, additional network installation sources, product key, end-user license agreement, display level, earlier versions of Office to remove, custom programs to run during installation, security settings, and Setup properties.</span></span>
+  - <span data-ttu-id="d045f-115">**설치 프로그램** 클라이언트 및 기본 조직 이름, 추가 네트워크 설치 원본, 제품 키, 최종 사용자 사용권 계약, 표시 수준, 제거할 이전 버전의 Office, 설치 중에 실행할 사용자 지정 프로그램, 보안 설정 및 설치 속성을 지정 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-115">**Setup** Used to specify default installation location on the client and default organization name, additional network installation sources, product key, end-user license agreement, display level, earlier versions of Office to remove, custom programs to run during installation, security settings, and Setup properties.</span></span>
 
-  - <span data-ttu-id="651ca-115">**기능** 사용자 설정을 구성 하 고 Office 기능이 설치 되는 방식을 사용자 지정 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-115">**Features** Used to configure user settings and to customize how Office features are installed.</span></span> <span data-ttu-id="651ca-116">관리자는 OCT를 사용 하 여 사용자에 대 한 Office 응용 프로그램 설정의 초기 기본값을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-116">Administrators can use the OCT to specify initial default values of Office application settings for users.</span></span> <span data-ttu-id="651ca-117">사용자는 설치 후 대부분의 설정을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-117">Users can modify most of the settings after the installation.</span></span>
+  - <span data-ttu-id="d045f-116">**기능** 사용자 설정을 구성 하 고 Office 기능이 설치 되는 방식을 사용자 지정 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-116">**Features** Used to configure user settings and to customize how Office features are installed.</span></span> <span data-ttu-id="d045f-117">관리자는 OCT를 사용 하 여 사용자에 대 한 Office 응용 프로그램 설정의 초기 기본값을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-117">Administrators can use the OCT to specify initial default values of Office application settings for users.</span></span> <span data-ttu-id="d045f-118">사용자는 설치 후 대부분의 설정을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-118">Users can modify most of the settings after the installation.</span></span>
 
-  - <span data-ttu-id="651ca-118">**추가 콘텐츠** 파일을 추가 하거나 제거 하 고, 레지스트리 항목을 추가 또는 제거 하 고, 바로 가기를 구성 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-118">**Additional content** Used to add or remove files, add or remove registry entries, and configure shortcuts.</span></span>
+  - <span data-ttu-id="d045f-119">**추가 콘텐츠** 파일을 추가 하거나 제거 하 고, 레지스트리 항목을 추가 또는 제거 하 고, 바로 가기를 구성 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-119">**Additional content** Used to add or remove files, add or remove registry entries, and configure shortcuts.</span></span>
 
-  - <span data-ttu-id="651ca-119">**Outlook** 사용자의 기본 Outlook 프로필을 사용자 지정 하 고, Exchange 설정을 지정 하 고, 계정을 추가 하 고, 계정을 제거 하 고, 설정을 내보내고, 보내기 수신 그룹을 지정 하는 데 사용 \\ 됩니다.</span><span class="sxs-lookup"><span data-stu-id="651ca-119">**Outlook** Used to customize a user's default Outlook profile, specify Exchange settings, add accounts, remove accounts and export settings, and specify Send\\Receive groups.</span></span>
+  - <span data-ttu-id="d045f-120">**Outlook** 사용자의 기본 Outlook 프로필을 사용자 지정 하 고, Exchange 설정을 지정 하 고, 계정을 추가 하 고, 계정을 제거 하 고, 설정을 내보내고, 보내기 수신 그룹을 지정 하는 데 사용 \\ 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d045f-120">**Outlook** Used to customize a user's default Outlook profile, specify Exchange settings, add accounts, remove accounts and export settings, and specify Send\\Receive groups.</span></span>
 
-<span data-ttu-id="651ca-120">OCT에 대 한 자세한 내용은를 참조 <https://go.microsoft.com/fwlink/p/?linkid=267516> 하세요.</span><span class="sxs-lookup"><span data-stu-id="651ca-120">For information about the OCT, see <https://go.microsoft.com/fwlink/p/?linkid=267516>.</span></span>
+<span data-ttu-id="d045f-121">OCT에 대 한 자세한 내용은를 참조 <https://go.microsoft.com/fwlink/p/?linkid=267516> 하세요.</span><span class="sxs-lookup"><span data-stu-id="d045f-121">For information about the OCT, see <https://go.microsoft.com/fwlink/p/?linkid=267516>.</span></span>
 
 </div>
 

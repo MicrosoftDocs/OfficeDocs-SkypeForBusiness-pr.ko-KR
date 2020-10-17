@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 네트워크 지역 링크 구성'
+description: 'Lync Server 2013: 네트워크 지역 링크 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 363baeb3065b04dc936b69fff34f2314726f495a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b92593f3b8fcd5fe3307a9c193ed7cddcf6dfce0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526935"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547014"
 ---
-# <a name="configuring-network-region-links-in-lync-server-2013"></a><span data-ttu-id="2dbde-102">Lync Server 2013에서 네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="2dbde-102">Configuring network region links in Lync Server 2013</span></span>
+# <a name="configuring-network-region-links-in-lync-server-2013"></a><span data-ttu-id="edfc6-103">Lync Server 2013에서 네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="edfc6-103">Configuring network region links in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,75 +38,75 @@ ms.locfileid: "48526935"
 
 <span> </span>
 
-<span data-ttu-id="2dbde-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="2dbde-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="edfc6-104">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="edfc6-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="2dbde-104">CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-104">You can configure links between two network regions as part of call admission control (CAC).</span></span> <span data-ttu-id="2dbde-105">네트워크 내의 지역은 실제 WAN(Wide Area Network) 연결을 통해 연결됩니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-105">Regions within a network are linked through physical wide area network (WAN) connectivity.</span></span> <span data-ttu-id="2dbde-106">Lync Server 제어판을 사용 하 여 두 네트워크 지역 간의 링크를 정의 하 고 이러한 지역 간의 오디오 및 비디오 연결에 대 한 대역폭 제한을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-106">You can use the Lync Server Control Panel to define a link between two network regions and set the bandwidth limitations on audio and video connections between these regions.</span></span> <span data-ttu-id="2dbde-107">기존 네트워크 지역 링크를 삭제 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 네트워크 지역 링크 삭제](lync-server-2013-deleting-network-region-links.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2dbde-107">For details about deleting an existing network region link, see [Deleting network region links in Lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span></span>
+<span data-ttu-id="edfc6-105">CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-105">You can configure links between two network regions as part of call admission control (CAC).</span></span> <span data-ttu-id="edfc6-106">네트워크 내의 지역은 실제 WAN(Wide Area Network) 연결을 통해 연결됩니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-106">Regions within a network are linked through physical wide area network (WAN) connectivity.</span></span> <span data-ttu-id="edfc6-107">Lync Server 제어판을 사용 하 여 두 네트워크 지역 간의 링크를 정의 하 고 이러한 지역 간의 오디오 및 비디오 연결에 대 한 대역폭 제한을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-107">You can use the Lync Server Control Panel to define a link between two network regions and set the bandwidth limitations on audio and video connections between these regions.</span></span> <span data-ttu-id="edfc6-108">기존 네트워크 지역 링크를 삭제 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 네트워크 지역 링크 삭제](lync-server-2013-deleting-network-region-links.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="edfc6-108">For details about deleting an existing network region link, see [Deleting network region links in Lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-network-region-link"></a><span data-ttu-id="2dbde-108">네트워크 지역 링크를 만들려면</span><span class="sxs-lookup"><span data-stu-id="2dbde-108">To create a network region link</span></span>
+## <a name="to-create-a-network-region-link"></a><span data-ttu-id="edfc6-109">네트워크 지역 링크를 만들려면</span><span class="sxs-lookup"><span data-stu-id="edfc6-109">To create a network region link</span></span>
 
-1.  <span data-ttu-id="2dbde-109">RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="edfc6-110">RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-110">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="2dbde-110">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2dbde-111">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2dbde-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="edfc6-111">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="edfc6-112">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="edfc6-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="2dbde-112">왼쪽 탐색 모음에서 **네트워크 구성**을 클릭한 다음 **지역 링크**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-112">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
+3.  <span data-ttu-id="edfc6-113">왼쪽 탐색 모음에서 **네트워크 구성**을 클릭한 다음 **지역 링크**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-113">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
 
-4.  <span data-ttu-id="2dbde-113">**지역 링크** 페이지에서 **새로 만들기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-113">On the **Region Link** page, click **New**.</span></span>
+4.  <span data-ttu-id="edfc6-114">**지역 링크** 페이지에서 **새로 만들기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-114">On the **Region Link** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="2dbde-114">**새 지역 링크**에서 **이름** 필드에 값을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-114">In **New Region Link**, type a value in the **Name** field.</span></span>
+5.  <span data-ttu-id="edfc6-115">**새 지역 링크**에서 **이름** 필드에 값을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-115">In **New Region Link**, type a value in the **Name** field.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="2dbde-115">이 값은 Lync Server 2013 배포 내에서 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-115">This value must be unique within your Lync Server 2013 deployment.</span></span>
+    > <span data-ttu-id="edfc6-116">이 값은 Lync Server 2013 배포 내에서 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-116">This value must be unique within your Lync Server 2013 deployment.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="2dbde-116">**네트워크 지역 \# 1** 드롭다운 목록에서 연결할 두 지역 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-116">From the **Network region \#1** drop-down list, select one of the two regions to be linked.</span></span>
+6.  <span data-ttu-id="edfc6-117">**네트워크 지역 \# 1** 드롭다운 목록에서 연결할 두 지역 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-117">From the **Network region \#1** drop-down list, select one of the two regions to be linked.</span></span>
 
-7.  <span data-ttu-id="2dbde-117">**네트워크 지역 \# 2** 드롭다운 목록에서 연결할 다른 지역을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-117">From the **Network region \#2** drop-down list, select the other region to be linked.</span></span> <span data-ttu-id="2dbde-118">이 지역은 네트워크 지역 1에 대해 선택 된 지역과 달라 야 합니다 \# .</span><span class="sxs-lookup"><span data-stu-id="2dbde-118">This region must be different from the region selected for Network region \#1.</span></span>
+7.  <span data-ttu-id="edfc6-118">**네트워크 지역 \# 2** 드롭다운 목록에서 연결할 다른 지역을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-118">From the **Network region \#2** drop-down list, select the other region to be linked.</span></span> <span data-ttu-id="edfc6-119">이 지역은 네트워크 지역 1에 대해 선택 된 지역과 달라 야 합니다 \# .</span><span class="sxs-lookup"><span data-stu-id="edfc6-119">This region must be different from the region selected for Network region \#1.</span></span>
 
-8.  <span data-ttu-id="2dbde-119">(선택 사항) 이러한 지역 간의 음성 또는 화상 통화에 대역폭 제한을 설정하려면 **대역폭 정책** 드롭다운 목록에서 대역폭 정책 프로필을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-119">(Optional) If you want to place bandwidth limitations on audio or video calls between these regions, select a bandwidth policy profile from the **Bandwidth policy** drop-down list.</span></span>
+8.  <span data-ttu-id="edfc6-120">(선택 사항) 이러한 지역 간의 음성 또는 화상 통화에 대역폭 제한을 설정하려면 **대역폭 정책** 드롭다운 목록에서 대역폭 정책 프로필을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-120">(Optional) If you want to place bandwidth limitations on audio or video calls between these regions, select a bandwidth policy profile from the **Bandwidth policy** drop-down list.</span></span>
 
-9.  <span data-ttu-id="2dbde-120">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-120">Click **Commit**.</span></span>
-
-</div>
-
-<div>
-
-## <a name="to-modify-a-network-region-link"></a><span data-ttu-id="2dbde-121">네트워크 지역 링크를 수정하려면</span><span class="sxs-lookup"><span data-stu-id="2dbde-121">To modify a network region link</span></span>
-
-1.  <span data-ttu-id="2dbde-122">RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-122">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
-
-2.  <span data-ttu-id="2dbde-123">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-123">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2dbde-124">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2dbde-124">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
-
-3.  <span data-ttu-id="2dbde-125">왼쪽 탐색 모음에서 **네트워크 구성**을 클릭한 다음 **지역 링크**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-125">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
-
-4.  <span data-ttu-id="2dbde-126">**지역 링크** 페이지에서 수정할 지역 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-126">On the **Region Link** page, click the region link that you want to modify.</span></span>
-
-5.  <span data-ttu-id="2dbde-127">**편집** 메뉴에서 **자세한 정보 표시**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-127">On the **Edit** menu, click **Show details**.</span></span>
-
-6.  <span data-ttu-id="2dbde-128">**지역 링크 편집**에서 연결된 지역 또는 이 링크에 대한 대역폭 정책 프로필을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-128">In **Edit Region Link**, you can modify the regions that are linked or the bandwidth policy profile for this link.</span></span>
-
-7.  <span data-ttu-id="2dbde-129">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2dbde-129">Click **Commit**.</span></span>
+9.  <span data-ttu-id="edfc6-121">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-121">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2dbde-130">참고 항목</span><span class="sxs-lookup"><span data-stu-id="2dbde-130">See Also</span></span>
+## <a name="to-modify-a-network-region-link"></a><span data-ttu-id="edfc6-122">네트워크 지역 링크를 수정하려면</span><span class="sxs-lookup"><span data-stu-id="edfc6-122">To modify a network region link</span></span>
+
+1.  <span data-ttu-id="edfc6-123">RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-123">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="edfc6-124">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-124">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="edfc6-125">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="edfc6-125">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="edfc6-126">왼쪽 탐색 모음에서 **네트워크 구성**을 클릭한 다음 **지역 링크**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-126">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
+
+4.  <span data-ttu-id="edfc6-127">**지역 링크** 페이지에서 수정할 지역 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-127">On the **Region Link** page, click the region link that you want to modify.</span></span>
+
+5.  <span data-ttu-id="edfc6-128">**편집** 메뉴에서 **자세한 정보 표시**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-128">On the **Edit** menu, click **Show details**.</span></span>
+
+6.  <span data-ttu-id="edfc6-129">**지역 링크 편집**에서 연결된 지역 또는 이 링크에 대한 대역폭 정책 프로필을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-129">In **Edit Region Link**, you can modify the regions that are linked or the bandwidth policy profile for this link.</span></span>
+
+7.  <span data-ttu-id="edfc6-130">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="edfc6-130">Click **Commit**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="edfc6-131">참고 항목</span><span class="sxs-lookup"><span data-stu-id="edfc6-131">See Also</span></span>
 
 
-[<span data-ttu-id="2dbde-131">Lync Server 2013에서 네트워크 지역 링크 삭제</span><span class="sxs-lookup"><span data-stu-id="2dbde-131">Deleting network region links in Lync Server 2013</span></span>](lync-server-2013-deleting-network-region-links.md)  
+[<span data-ttu-id="edfc6-132">Lync Server 2013에서 네트워크 지역 링크 삭제</span><span class="sxs-lookup"><span data-stu-id="edfc6-132">Deleting network region links in Lync Server 2013</span></span>](lync-server-2013-deleting-network-region-links.md)  
 
 
-[<span data-ttu-id="2dbde-132">새-Csnetwork지역 링크</span><span class="sxs-lookup"><span data-stu-id="2dbde-132">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
-[<span data-ttu-id="2dbde-133">설정-Csnetwork지역 링크</span><span class="sxs-lookup"><span data-stu-id="2dbde-133">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
-[<span data-ttu-id="2dbde-134">-Csnetwork지역 링크 제거</span><span class="sxs-lookup"><span data-stu-id="2dbde-134">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
-[<span data-ttu-id="2dbde-135">Get-Csnetwork지역 링크</span><span class="sxs-lookup"><span data-stu-id="2dbde-135">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[<span data-ttu-id="edfc6-133">새-Csnetwork지역 링크</span><span class="sxs-lookup"><span data-stu-id="edfc6-133">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[<span data-ttu-id="edfc6-134">설정-Csnetwork지역 링크</span><span class="sxs-lookup"><span data-stu-id="edfc6-134">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[<span data-ttu-id="edfc6-135">-Csnetwork지역 링크 제거</span><span class="sxs-lookup"><span data-stu-id="edfc6-135">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[<span data-ttu-id="edfc6-136">Get-Csnetwork지역 링크</span><span class="sxs-lookup"><span data-stu-id="edfc6-136">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
   
 
 </div>
