@@ -12,20 +12,22 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8965a842adba2e1f0f3b1197ee392aec3ef10566
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 681b6699e2542a066b9e5b0709fa64f52991b2fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214434"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523665"
 ---
+# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a><span data-ttu-id="eecb5-102">Lync Server 2013의 tblPrincipalMemberDifference</span><span class="sxs-lookup"><span data-stu-id="eecb5-102">tblPrincipalMemberDifference in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a><span data-ttu-id="0ecee-102">Lync Server 2013의 tblPrincipalMemberDifference</span><span class="sxs-lookup"><span data-stu-id="0ecee-102">tblPrincipalMemberDifference in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42214434"
 
 <span> </span>
 
-<span data-ttu-id="0ecee-103">_**마지막으로 수정 된 항목:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="0ecee-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="eecb5-103">_**마지막으로 수정 된 항목:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="eecb5-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="0ecee-104">tblPrincipalMemberDifference에는 이후 Active Directory 도메인 서비스 동기화 단계에서 아직 처리 되지 않은 그룹 구성원 자격 변경 내용 (추가 및 제거 된 구성원 모두)이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0ecee-104">tblPrincipalMemberDifference contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Domain Services Sync steps.</span></span>
+<span data-ttu-id="eecb5-104">tblPrincipalMemberDifference에는 이후 Active Directory 도메인 서비스 동기화 단계에서 아직 처리 되지 않은 그룹 구성원 자격 변경 내용 (추가 및 제거 된 구성원 모두)이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="eecb5-104">tblPrincipalMemberDifference contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Domain Services Sync steps.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="0ecee-105">단</span><span class="sxs-lookup"><span data-stu-id="0ecee-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="eecb5-105">단</span><span class="sxs-lookup"><span data-stu-id="eecb5-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,32 +51,32 @@ ms.locfileid: "42214434"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0ecee-106">열</span><span class="sxs-lookup"><span data-stu-id="0ecee-106">Column</span></span></th>
-<th><span data-ttu-id="0ecee-107">형식</span><span class="sxs-lookup"><span data-stu-id="0ecee-107">Type</span></span></th>
-<th><span data-ttu-id="0ecee-108">설명</span><span class="sxs-lookup"><span data-stu-id="0ecee-108">Description</span></span></th>
+<th><span data-ttu-id="eecb5-106">열</span><span class="sxs-lookup"><span data-stu-id="eecb5-106">Column</span></span></th>
+<th><span data-ttu-id="eecb5-107">유형</span><span class="sxs-lookup"><span data-stu-id="eecb5-107">Type</span></span></th>
+<th><span data-ttu-id="eecb5-108">설명</span><span class="sxs-lookup"><span data-stu-id="eecb5-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0ecee-109">Principal.pringuid</span><span class="sxs-lookup"><span data-stu-id="0ecee-109">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="0ecee-110">GUID, null이 아님</span><span class="sxs-lookup"><span data-stu-id="0ecee-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="0ecee-111">변경된 그룹의 사용자 GUID입니다.</span><span class="sxs-lookup"><span data-stu-id="0ecee-111">Principal GUID of the group that changed.</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-109">Principal.pringuid</span><span class="sxs-lookup"><span data-stu-id="eecb5-109">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-110">GUID, null이 아님</span><span class="sxs-lookup"><span data-stu-id="eecb5-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-111">변경된 그룹의 사용자 GUID입니다.</span><span class="sxs-lookup"><span data-stu-id="eecb5-111">Principal GUID of the group that changed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0ecee-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="0ecee-112">memberADPath</span></span></p></td>
-<td><p><span data-ttu-id="0ecee-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="0ecee-113">nvarchar (256)</span></span></p></td>
-<td><p><span data-ttu-id="0ecee-114">구성원의 고유 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="0ecee-114">Distinguished name of the member.</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="eecb5-112">memberADPath</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="eecb5-113">nvarchar (256)</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-114">구성원의 고유 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="eecb5-114">Distinguished name of the member.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0ecee-115">memberRemoved 됨</span><span class="sxs-lookup"><span data-stu-id="0ecee-115">memberRemoved</span></span></p></td>
-<td><p><span data-ttu-id="0ecee-116">bit, null이 아님</span><span class="sxs-lookup"><span data-stu-id="0ecee-116">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="0ecee-p101">구성원이 추가된 경우 False입니다. 구성원이 제거된 경우 True입니다.</span><span class="sxs-lookup"><span data-stu-id="0ecee-p101">False if the member was added. True if the member was removed.</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-115">memberRemoved 됨</span><span class="sxs-lookup"><span data-stu-id="eecb5-115">memberRemoved</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-116">bit, null이 아님</span><span class="sxs-lookup"><span data-stu-id="eecb5-116">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-p101">구성원이 추가된 경우 False입니다. 구성원이 제거된 경우 True입니다.</span><span class="sxs-lookup"><span data-stu-id="eecb5-p101">False if the member was added. True if the member was removed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="0ecee-119">키</span><span class="sxs-lookup"><span data-stu-id="0ecee-119">Key</span></span>
+### <a name="key"></a><span data-ttu-id="eecb5-119">키</span><span class="sxs-lookup"><span data-stu-id="eecb5-119">Key</span></span>
 
 <table>
 <colgroup>
@@ -83,14 +85,14 @@ ms.locfileid: "42214434"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0ecee-120">열</span><span class="sxs-lookup"><span data-stu-id="0ecee-120">Column</span></span></th>
-<th><span data-ttu-id="0ecee-121">설명</span><span class="sxs-lookup"><span data-stu-id="0ecee-121">Description</span></span></th>
+<th><span data-ttu-id="eecb5-120">열</span><span class="sxs-lookup"><span data-stu-id="eecb5-120">Column</span></span></th>
+<th><span data-ttu-id="eecb5-121">설명</span><span class="sxs-lookup"><span data-stu-id="eecb5-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0ecee-122">&lt;Principal.pringuid, memberADPath&gt;</span><span class="sxs-lookup"><span data-stu-id="0ecee-122">&lt;prinGuid, memberADPath&gt;</span></span></p></td>
-<td><p><span data-ttu-id="0ecee-123">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="0ecee-123">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-122">&lt;Principal.pringuid, memberADPath&gt;</span><span class="sxs-lookup"><span data-stu-id="eecb5-122">&lt;prinGuid, memberADPath&gt;</span></span></p></td>
+<td><p><span data-ttu-id="eecb5-123">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="eecb5-123">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

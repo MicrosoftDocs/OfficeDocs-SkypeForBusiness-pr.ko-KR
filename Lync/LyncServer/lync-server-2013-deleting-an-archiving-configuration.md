@@ -12,20 +12,22 @@ ms:contentKeyID: 48185093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b864bb96ea7d342dbfd449cc9a151b0d7c2dee6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: acca3c362a5e0a2a8a6198d156c24be47884d70a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202474"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525445"
 ---
+# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a><span data-ttu-id="2fda0-102">Lync Server 2013에서 보관 구성 삭제</span><span class="sxs-lookup"><span data-stu-id="2fda0-102">Deleting an Archiving configuration in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a><span data-ttu-id="17228-102">Lync Server 2013에서 보관 구성 삭제</span><span class="sxs-lookup"><span data-stu-id="17228-102">Deleting an Archiving configuration in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,37 +37,37 @@ ms.locfileid: "42202474"
 
 <span> </span>
 
-<span data-ttu-id="17228-103">_**마지막으로 수정 된 항목:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="17228-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="2fda0-103">_**마지막으로 수정 된 항목:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="2fda0-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="17228-104">사이트 구성 또는 풀 구성은 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="17228-104">You can delete a site configuration or pool configuration.</span></span> <span data-ttu-id="17228-105">전역 정책은 제거할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="17228-105">The global configuration cannot be removed.</span></span> <span data-ttu-id="17228-106">전역 구성을 삭제하는 경우 자동으로 구성이 기본값으로 다시 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="17228-106">If you delete the global configuration, it is automatically reset to the default values.</span></span> <span data-ttu-id="17228-107">지정할 수 있는 옵션 및 보관 구성의 계층 구조를 비롯 하 여 보관 구성이 구현 되는 방식에 대 한 자세한 내용은 계획 설명서, 배포 설명서 또는 작업 설명서의 [Lync Server 2013에서 보관이 작동 하는 방식을](lync-server-2013-how-archiving-works.md) 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="17228-107">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="2fda0-104">사이트 구성 또는 풀 구성은 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-104">You can delete a site configuration or pool configuration.</span></span> <span data-ttu-id="2fda0-105">전역 정책은 제거할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-105">The global configuration cannot be removed.</span></span> <span data-ttu-id="2fda0-106">전역 구성을 삭제하는 경우 자동으로 구성이 기본값으로 다시 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-106">If you delete the global configuration, it is automatically reset to the default values.</span></span> <span data-ttu-id="2fda0-107">지정할 수 있는 옵션 및 보관 구성의 계층 구조를 비롯 하 여 보관 구성이 구현 되는 방식에 대 한 자세한 내용은 계획 설명서, 배포 설명서 또는 작업 설명서의 [Lync Server 2013에서 보관이 작동 하는 방식을](lync-server-2013-how-archiving-works.md) 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2fda0-107">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
 <div>
 
-## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a><span data-ttu-id="17228-108">보관을 위해 사이트 또는 풀 구성을 삭제하려면</span><span class="sxs-lookup"><span data-stu-id="17228-108">To delete a site or pool configuration for archiving</span></span>
+## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a><span data-ttu-id="2fda0-108">보관을 위해 사이트 또는 풀 구성을 삭제하려면</span><span class="sxs-lookup"><span data-stu-id="2fda0-108">To delete a site or pool configuration for archiving</span></span>
 
-1.  <span data-ttu-id="17228-109">CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="17228-109">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="2fda0-109">CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-109">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="17228-110">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="17228-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="17228-111">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="17228-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="2fda0-110">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2fda0-111">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2fda0-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="17228-112">왼쪽 탐색 모음에서 **모니터링 및 보관**을 클릭하고 **보관 구성**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="17228-112">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3.  <span data-ttu-id="2fda0-112">왼쪽 탐색 모음에서 **모니터링 및 보관**을 클릭하고 **보관 구성**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-112">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
 
-4.  <span data-ttu-id="17228-113">보관 구성 목록에서 삭제할 사이트 또는 풀 구성을 클릭하고 **편집**을 클릭한 다음 **삭제**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="17228-113">In the list of archiving configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="2fda0-113">보관 구성 목록에서 삭제할 사이트 또는 풀 구성을 클릭하고 **편집**을 클릭한 다음 **삭제**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-113">In the list of archiving configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
 
-5.  <span data-ttu-id="17228-114">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="17228-114">Click **Commit**.</span></span>
+5.  <span data-ttu-id="2fda0-114">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-114">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="17228-115">Windows PowerShell Cmdlet을 사용 하 여 보관 구성 설정 제거</span><span class="sxs-lookup"><span data-stu-id="17228-115">Removing Archiving Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="2fda0-115">Windows PowerShell Cmdlet을 사용 하 여 보관 구성 설정 제거</span><span class="sxs-lookup"><span data-stu-id="2fda0-115">Removing Archiving Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="17228-116">보관 구성 설정은 Windows PowerShell 및 **get-csarchivingconfiguration** cmdlet을 사용 하 여 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="17228-116">Archiving configuration settings can be deleted by using Windows PowerShell and the **Remove-CsArchivingConfiguration** cmdlet.</span></span> <span data-ttu-id="17228-117">이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="17228-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="17228-118">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="17228-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="2fda0-116">보관 구성 설정은 Windows PowerShell 및 **get-csarchivingconfiguration** cmdlet을 사용 하 여 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-116">Archiving configuration settings can be deleted by using Windows PowerShell and the **Remove-CsArchivingConfiguration** cmdlet.</span></span> <span data-ttu-id="2fda0-117">이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="2fda0-118">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 하세요.</span><span class="sxs-lookup"><span data-stu-id="2fda0-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a><span data-ttu-id="17228-119">지정 된 보관 구성 설정 컬렉션을 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="17228-119">To remove a specified collection of archiving configuration settings</span></span>
+## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a><span data-ttu-id="2fda0-119">지정 된 보관 구성 설정 컬렉션을 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="2fda0-119">To remove a specified collection of archiving configuration settings</span></span>
 
-  - <span data-ttu-id="17228-120">다음 명령은 Redmond 사이트에 적용된 보관 구성 설정을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="17228-120">The following command removes the archiving configuration settings applied to the Redmond site:</span></span>
+  - <span data-ttu-id="2fda0-120">다음 명령은 Redmond 사이트에 적용된 보관 구성 설정을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-120">The following command removes the archiving configuration settings applied to the Redmond site:</span></span>
     
         Remove-CsArchivingConfiguration -Identity "site:Redmond"
 
@@ -73,9 +75,9 @@ ms.locfileid: "42202474"
 
 <div>
 
-## <a name="to-remove-all-the-archiving-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="17228-121">사이트 범위에 적용 된 모든 보관 구성 설정을 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="17228-121">To remove all the archiving configuration settings applied to the site scope</span></span>
+## <a name="to-remove-all-the-archiving-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="2fda0-121">사이트 범위에 적용 된 모든 보관 구성 설정을 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="2fda0-121">To remove all the archiving configuration settings applied to the site scope</span></span>
 
-  - <span data-ttu-id="17228-122">다음 명령은 서비스 범위에 적용된 모든 보관 구성 설정을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="17228-122">This command removes all the archiving configuration settings applied to the service scope:</span></span>
+  - <span data-ttu-id="2fda0-122">다음 명령은 서비스 범위에 적용된 모든 보관 구성 설정을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-122">This command removes all the archiving configuration settings applied to the service scope:</span></span>
     
         Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 
@@ -83,27 +85,27 @@ ms.locfileid: "42202474"
 
 <div>
 
-## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a><span data-ttu-id="17228-123">지정 된 속성 값을 기반으로 보관 구성 설정을 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="17228-123">To remove archiving configuration settings based on a specified property value</span></span>
+## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a><span data-ttu-id="2fda0-123">지정 된 속성 값을 기반으로 보관 구성 설정을 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="2fda0-123">To remove archiving configuration settings based on a specified property value</span></span>
 
-  - <span data-ttu-id="17228-124">다음 명령은 Exchange 보관을 사용할 수 없도록 설정된 모든 보관 구성 설정을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="17228-124">This command removes all the archiving configuration settings where Exchange archiving has been disabled:</span></span>
+  - <span data-ttu-id="2fda0-124">다음 명령은 Exchange 보관을 사용할 수 없도록 설정된 모든 보관 구성 설정을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="2fda0-124">This command removes all the archiving configuration settings where Exchange archiving has been disabled:</span></span>
     
         Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 
 </div>
 
-<span data-ttu-id="17228-125">자세한 내용은 [get-csarchivingconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet에 대 한 도움말 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="17228-125">For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet.</span></span>
+<span data-ttu-id="2fda0-125">자세한 내용은 [get-csarchivingconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet에 대 한 도움말 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2fda0-125">For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="17228-126">참고 항목</span><span class="sxs-lookup"><span data-stu-id="17228-126">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2fda0-126">참고 항목</span><span class="sxs-lookup"><span data-stu-id="2fda0-126">See Also</span></span>
 
 
-[<span data-ttu-id="17228-127">Lync Server 2013에서 보관이 작동 하는 방식</span><span class="sxs-lookup"><span data-stu-id="17228-127">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)  
+[<span data-ttu-id="2fda0-127">Lync Server 2013에서 보관이 작동 하는 방식</span><span class="sxs-lookup"><span data-stu-id="2fda0-127">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)  
 
 
-[<span data-ttu-id="17228-128">Lync Server 2013에서 내부 및 외부 통신의 보관 관리</span><span class="sxs-lookup"><span data-stu-id="17228-128">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+[<span data-ttu-id="2fda0-128">Lync Server 2013에서 내부 및 외부 통신의 보관 관리</span><span class="sxs-lookup"><span data-stu-id="2fda0-128">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
   
 
 </div>
