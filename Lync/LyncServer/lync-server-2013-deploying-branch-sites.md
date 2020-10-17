@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 분기 사이트 배포'
+description: 'Lync Server 2013: 분기 사이트를 배포 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed57a78637639d5e6402f88b7909114f3aabce7a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d653e3f06de832693d97bfb229f122a67c28640e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531295"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552644"
 ---
 # <a name="deploying-branch-sites-in-lync-server-2013"></a>Lync Server 2013에서 분기 사이트 배포
 

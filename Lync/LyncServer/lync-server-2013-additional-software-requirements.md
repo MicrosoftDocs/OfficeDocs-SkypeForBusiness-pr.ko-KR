@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 추가 소프트웨어 요구 사항'
+description: 'Lync Server 2013: 추가 소프트웨어 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184731
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4a0c2e200c779d87a13c08eada968b27a7447f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fbc36f23a2246c9d653e47954064182c756f0dff
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521235"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553044"
 ---
 # <a name="additional-software-requirements-for-lync-server-2013"></a>Lync Server 2013의 추가 소프트웨어 요구 사항
 

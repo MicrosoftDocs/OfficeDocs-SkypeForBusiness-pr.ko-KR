@@ -1,5 +1,6 @@
 ---
 title: 프런트 엔드 풀 또는 Standard Edition server에 대 한 DNS 레코드 구성
+description: 프런트 엔드 풀 또는 Standard Edition server에 대 한 DNS 레코드를 구성 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5048763ba239e161825d1250446ac60853499223
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3b41bddc147c8d95dde0f9c0db129574fb87f38c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537125"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553374"
 ---
 # <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>Lync Server 2013에서 프런트 엔드 풀 또는 Standard Edition Server에 대 한 DNS 레코드 구성
 

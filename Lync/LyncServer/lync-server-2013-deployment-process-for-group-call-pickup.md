@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 그룹 통화 픽업 배포 프로세스'
+description: 'Lync Server 2013: 그룹 통화 픽업 배포 프로세스'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52f7646010e4048d135e11c98d06a651f923d633
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a01409b257c685ae71dfdb13074f2d8ea590cd9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522615"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552494"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013의 그룹 통화 픽업 배포 프로세스
 

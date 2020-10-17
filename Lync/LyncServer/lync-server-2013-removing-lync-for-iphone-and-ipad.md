@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: iPhone 및 iPad 용 Lync 제거'
+description: 'Lync Server 2013: iPhone 및 iPad 용 Lync를 제거 하는 중입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541476
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b52ba88edb18f7902d0fca758e7bf94b8dfa34
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 354c49a2aaebd780d1476335950ea6bdc5e9684e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536365"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553470"
 ---
 # <a name="removing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Lync Server 2013에서 iPhone 및 iPad 용 Lync 제거
 

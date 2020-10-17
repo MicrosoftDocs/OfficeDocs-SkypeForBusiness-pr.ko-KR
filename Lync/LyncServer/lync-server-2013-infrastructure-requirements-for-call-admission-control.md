@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 통화 허용 제어에 대 한 인프라 요구 사항'
+description: 'Lync Server 2013: 통화 허용 제어에 대 한 인프라 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184157
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858ab7d857fa2fb551d1056932166c67855b67a3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 64c7adae5ebed850c60a0cbb3e855202440f0d03
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521035"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552744"
 ---
 # <a name="infrastructure-requirements-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013의 통화 허용 제어에 대 한 인프라 요구 사항
 

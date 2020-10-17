@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: hot desking 사용 또는 사용 안 함'
+description: 'Lync Server 2013: 핫 desking을 사용 하거나 사용 하지 않도록 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb052f3a0743edac47ccfbe3786943820c59f78f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3fd22c9bf51078324cfe5e215bd154503c2d9b57
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515551"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552434"
 ---
 # <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Lync Server 2013에서 핫 desking 사용 또는 사용 안 함
 

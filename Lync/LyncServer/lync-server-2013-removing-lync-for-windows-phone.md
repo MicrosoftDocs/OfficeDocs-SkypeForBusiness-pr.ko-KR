@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync for Windows Phone 제거'
+description: 'Lync Server 2013: Lync for Windows Phone을 제거 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9d08f583a4c14390f6dbdc30bdf0a19077cb087
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cb2280df28d31e8bf844fe70014c0c4f33d346ac
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536375"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553484"
 ---
 # <a name="removing-lync-for-windows-phone-in-lync-server-2013"></a>Lync Server 2013에서 Windows Phone 용 Lync 제거
 

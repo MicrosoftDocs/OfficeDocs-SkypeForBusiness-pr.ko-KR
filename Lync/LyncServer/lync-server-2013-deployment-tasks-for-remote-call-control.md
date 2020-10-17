@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 원격 통화 제어에 대 한 배포 작업'
+description: 'Lync Server 2013: 원격 통화 제어에 대 한 배포 작업입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd2ac45e0f589ac155d2e0f51b0115036a97809e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 61d0d57489bd93d7e6ce0209c605f05a2417bded
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499055"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553584"
 ---
 # <a name="deployment-tasks-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013의 원격 통화 제어에 대 한 배포 작업
 

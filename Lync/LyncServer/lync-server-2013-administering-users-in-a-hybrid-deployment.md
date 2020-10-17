@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 하이브리드 배포에서 사용자 관리'
+description: 'Lync Server 2013: 하이브리드 배포에서 사용자를 관리 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15585b5df4a2c38c4d72733b8c999556e6cb8467
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7f1d7684a9f56eb013574a985ded0313378621c2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521245"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552994"
 ---
 # <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a>하이브리드 Lync Server 2013 배포에서 사용자 관리
 

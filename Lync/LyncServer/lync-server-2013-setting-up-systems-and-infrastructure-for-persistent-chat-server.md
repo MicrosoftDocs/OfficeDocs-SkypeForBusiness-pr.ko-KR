@@ -1,5 +1,6 @@
 ---
 title: 영구 채팅 서버에 대 한 시스템 및 인프라 설정
+description: 영구 채팅 서버에 대 한 시스템 및 인프라 설정
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e2f9e4a902625d3520c34bffc12161e89e44476
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9cb522158020b5d173ab4f7974adcf7874120c49
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497535"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554154"
 ---
 # <a name="setting-up-systems-and-infrastructure-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 시스템 및 인프라 설정
 

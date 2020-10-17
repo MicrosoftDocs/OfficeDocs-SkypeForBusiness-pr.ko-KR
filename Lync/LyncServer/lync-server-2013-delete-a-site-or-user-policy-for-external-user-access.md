@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 외부 사용자 액세스에 대 한 사이트 또는 사용자 정책 삭제'
+description: 'Lync Server 2013: 외부 사용자 액세스에 대 한 사이트 또는 사용자 정책을 삭제 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce2f822bb1fc42d385cec762b86c5a674d50c872
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6aac81e7b50603e5eb80cde8877cdc06f138d872
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516325"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553714"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013에서 외부 사용자 액세스에 대 한 사이트 또는 사용자 정책 삭제
 

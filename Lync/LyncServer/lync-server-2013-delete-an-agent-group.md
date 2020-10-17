@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 에이전트 그룹 삭제'
+description: 'Lync Server 2013: 에이전트 그룹을 삭제 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46ec34da45e22386d1b6b45528818725b60790f2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dded2db0957e37a624d7e8bf3a06e102f8d35cad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516285"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553684"
 ---
 # <a name="delete-an-agent-group-in-lync-server-2013"></a>Lync Server 2013에서 에이전트 그룹 삭제
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: SIP 트렁크 구현 방법은 무엇입니까?'
+description: 'Lync Server 2013: SIP 트렁크를 구현 하려면 어떻게 해야 하나요?'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ecd89ce28f1565e44c92ba543ccf992bb2a3c811
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 10882adc0bff573868dcd07268ed0446385d895c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504145"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553154"
 ---
 # <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>Lync Server 2013에서 SIP 트렁크를 구현 하려면 어떻게 하나요?
 

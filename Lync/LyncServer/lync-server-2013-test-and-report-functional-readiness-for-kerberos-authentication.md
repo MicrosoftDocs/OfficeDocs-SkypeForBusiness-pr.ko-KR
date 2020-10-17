@@ -1,5 +1,6 @@
 ---
 title: Kerberos 인증에 대 한 기능 준비 상태 테스트 및 보고
+description: Kerberos 인증에 대 한 기능 준비를 테스트 및 보고 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac03f06a5d2c4b4989319f32a867d91614bd3a30
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5d32591a8cced7dce2e0bb78cc26189dce1900a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519325"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554064"
 ---
 # <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Lync Server 2013에서 Kerberos 인증에 대 한 기능 준비 상태 테스트 및 보고
 

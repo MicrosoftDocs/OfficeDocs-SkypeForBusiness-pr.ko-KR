@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 계획 프로세스 시작'
+description: 'Lync Server 2013: 계획 프로세스를 시작 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d436da8efa7194c2a0a341f4bed7794e532446ec
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9aa46d660ca60538f87c570dd2d7667afd23c609
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513045"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552304"
 ---
 # <a name="beginning-the-planning-process-for-lync-server-2013"></a>Lync Server 2013에 대 한 계획 프로세스 시작
 
