@@ -12,20 +12,22 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bace74b58c706ef58d05e54e31d2f79ab587ba64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31091da9a80dc03c798cbf674c1c46e0ea7b901c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198639"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533115"
 ---
+# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a><span data-ttu-id="59b3d-102">Lync Server 2013의 호스팅된 Exchange UM 라우팅</span><span class="sxs-lookup"><span data-stu-id="59b3d-102">Hosted Exchange UM routing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a><span data-ttu-id="9c869-102">Lync Server 2013의 호스팅된 Exchange UM 라우팅</span><span class="sxs-lookup"><span data-stu-id="9c869-102">Hosted Exchange UM routing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,61 +37,61 @@ ms.locfileid: "42198639"
 
 <span> </span>
 
-<span data-ttu-id="9c869-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="9c869-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="59b3d-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="59b3d-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="9c869-104">Exchange UM 라우팅 응용 프로그램은 프런트 엔드 서버에서 실행 되어 호출을 온-프레미스 Microsoft Exchange UM (통합 메시징) 배포 또는 호스팅된 Exchange UM 서비스로 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-104">The Exchange UM Routing application runs on the Front End Server to route calls, either to an on-premises Microsoft Exchange Server Unified Messaging (UM) deployment or to hosted Exchange UM service.</span></span>
+<span data-ttu-id="59b3d-104">Exchange UM 라우팅 응용 프로그램은 프런트 엔드 서버에서 실행 되어 호출을 온-프레미스 Microsoft Exchange UM (통합 메시징) 배포 또는 호스팅된 Exchange UM 서비스로 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-104">The Exchange UM Routing application runs on the Front End Server to route calls, either to an on-premises Microsoft Exchange Server Unified Messaging (UM) deployment or to hosted Exchange UM service.</span></span>
 
 <div>
 
-## <a name="the-exum-routing-application"></a><span data-ttu-id="9c869-105">ExUM 라우팅 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="9c869-105">The ExUM Routing Application</span></span>
+## <a name="the-exum-routing-application"></a><span data-ttu-id="59b3d-105">ExUM 라우팅 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="59b3d-105">The ExUM Routing Application</span></span>
 
-<span data-ttu-id="9c869-106">Lync Server 2013 Exchange UM 라우팅 응용 프로그램은 다음 다이어그램에 나와 있는 것 처럼 사용자 계정 설정 및 호스팅된 음성 메일 정책 매개 변수의 정보를 사용 하 여 호스트 된 음성 메시징의 통화를 라우팅하는 방법을 결정 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-106">The Lync Server 2013 Exchange UM Routing application uses information from user account settings and from hosted voice mail policy parameters to determine how to route calls for hosted voice messaging, as shown in the following diagram.</span></span>
+<span data-ttu-id="59b3d-106">Lync Server 2013 Exchange UM 라우팅 응용 프로그램은 다음 다이어그램에 나와 있는 것 처럼 사용자 계정 설정 및 호스팅된 음성 메일 정책 매개 변수의 정보를 사용 하 여 호스트 된 음성 메시징의 통화를 라우팅하는 방법을 결정 합니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-106">The Lync Server 2013 Exchange UM Routing application uses information from user account settings and from hosted voice mail policy parameters to determine how to route calls for hosted voice messaging, as shown in the following diagram.</span></span>
 
-<span data-ttu-id="9c869-107">**혼합 배포 Exchange UM 라우팅 예제**</span><span class="sxs-lookup"><span data-stu-id="9c869-107">**Example of mixed deployment Exchange UM routing**</span></span>
+<span data-ttu-id="59b3d-107">**혼합 배포 Exchange UM 라우팅 예제**</span><span class="sxs-lookup"><span data-stu-id="59b3d-107">**Example of mixed deployment Exchange UM routing**</span></span>
 
-<span data-ttu-id="9c869-108">![온-프레미스 Lync Server Exchange UM 배포](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "온-프레미스 Lync Server Exchange UM 배포")</span><span class="sxs-lookup"><span data-stu-id="9c869-108">![On-premises Lync Server Exchange UM deployment](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "On-premises Lync Server Exchange UM deployment")</span></span>
+<span data-ttu-id="59b3d-108">![온-프레미스 Lync Server Exchange UM 배포](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "온-프레미스 Lync Server Exchange UM 배포")</span><span class="sxs-lookup"><span data-stu-id="59b3d-108">![On-premises Lync Server Exchange UM deployment](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "On-premises Lync Server Exchange UM deployment")</span></span>
 
-<span data-ttu-id="9c869-109">Exchange UM 라우팅을 구성 하 여 온-프레미스 Exchange UM을 사용 하도록 설정 된 사용자, 호스트 된 Exchange UM을 사용할 수 있는 사용자 또는 둘의 조합으로 통화를 라우팅하도록 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-109">Exchange UM routing can be configured to route calls to users who are enabled for on-premises Exchange UM, to users who are enabled for hosted Exchange UM, or to a combination of the two.</span></span>
+<span data-ttu-id="59b3d-109">Exchange UM 라우팅을 구성 하 여 온-프레미스 Exchange UM을 사용 하도록 설정 된 사용자, 호스트 된 Exchange UM을 사용할 수 있는 사용자 또는 둘의 조합으로 통화를 라우팅하도록 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-109">Exchange UM routing can be configured to route calls to users who are enabled for on-premises Exchange UM, to users who are enabled for hosted Exchange UM, or to a combination of the two.</span></span>
 
-<span data-ttu-id="9c869-110">예를 들어 Roy의 사서함 및 Exchange UM 서비스가 온-프레미스 Exchange 배포에 있는 경우를 가정해 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-110">For example, suppose that Roy’s mailbox and Exchange UM service are homed in an on-premises Exchange deployment.</span></span>
+<span data-ttu-id="59b3d-110">예를 들어 Roy의 사서함 및 Exchange UM 서비스가 온-프레미스 Exchange 배포에 있는 경우를 가정해 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-110">For example, suppose that Roy’s mailbox and Exchange UM service are homed in an on-premises Exchange deployment.</span></span>
 
-  - <span data-ttu-id="9c869-111">Roy의 사용자 계정에 대 한 프록시 주소 정보는 ExUM 라우팅 응용 프로그램에서 온-프레미스 Exchange UM 서버에 대 한 통화를 라우팅하는 데 사용 하는 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-111">The proxy address information from Roy’s user account provides the information that the ExUM Routing application uses to route his calls to an on-premises Exchange UM server.</span></span>
+  - <span data-ttu-id="59b3d-111">Roy의 사용자 계정에 대 한 프록시 주소 정보는 ExUM 라우팅 응용 프로그램에서 온-프레미스 Exchange UM 서버에 대 한 통화를 라우팅하는 데 사용 하는 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-111">The proxy address information from Roy’s user account provides the information that the ExUM Routing application uses to route his calls to an on-premises Exchange UM server.</span></span>
 
-<span data-ttu-id="9c869-112">Alice의 사서함 및 Exchange UM 서비스는 호스팅된 Exchange 서비스 공급자의 데이터 센터에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-112">Alice’s mailbox and Exchange UM service are located at a hosted Exchange service provider’s data center.</span></span> <span data-ttu-id="9c869-113">Exchange UM 호출에 대 한 라우팅은 다음과 같이 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-113">Routing for her Exchange UM calls is configured as follows:</span></span>
+<span data-ttu-id="59b3d-112">Alice의 사서함 및 Exchange UM 서비스는 호스팅된 Exchange 서비스 공급자의 데이터 센터에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-112">Alice’s mailbox and Exchange UM service are located at a hosted Exchange service provider’s data center.</span></span> <span data-ttu-id="59b3d-113">Exchange UM 호출에 대 한 라우팅은 다음과 같이 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-113">Routing for her Exchange UM calls is configured as follows:</span></span>
 
-  - <span data-ttu-id="9c869-114">Alice의 사용자 계정에 대 한 msExchUCVoiceMailSettings 특성에 설정 된 값은 호스팅된 음성 메일 정책의 라우팅 세부 정보를 확인 하도록 ExUM 라우팅 응용 프로그램에 지시 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-114">The values set in the msExchUCVoiceMailSettings attribute of Alice’s user account tell the ExUM Routing application to check for routing details in a hosted voice mail policy.</span></span>
+  - <span data-ttu-id="59b3d-114">Alice의 사용자 계정에 대 한 msExchUCVoiceMailSettings 특성에 설정 된 값은 호스팅된 음성 메일 정책의 라우팅 세부 정보를 확인 하도록 ExUM 라우팅 응용 프로그램에 지시 합니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-114">The values set in the msExchUCVoiceMailSettings attribute of Alice’s user account tell the ExUM Routing application to check for routing details in a hosted voice mail policy.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="9c869-115">MsExchUCVoiceMailSettings 특성 값은 Exchange 서비스 공급자 또는 Lync Server 2013 관리자에 의해 설정 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-115">The value of the msExchUCVoiceMailSettings attribute can be set by either the Exchange service provider or the Lync Server 2013 administrator.</span></span> <span data-ttu-id="9c869-116">앞의 다이어그램에 표시 된 예에서 Lync Server 2013 관리자는이 값을 사용 하 여 Alice에 게 호스팅된 음성 메일을 사용할 수 있도록 설정 했습니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-116">In the example shown in the preceding diagram, the value (CsHostedVoiceMail=1) was set by the Lync Server 2013 administrator to enable hosted voice mail for Alice.</span></span> <span data-ttu-id="9c869-117">이 특성에 대 한 자세한 내용은 <A href="lync-server-2013-hosted-exchange-user-management.md">Lync Server 2013의 호스팅된 Exchange 사용자 관리</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9c869-117">For details about this attribute, see <A href="lync-server-2013-hosted-exchange-user-management.md">Hosted Exchange user management in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="59b3d-115">MsExchUCVoiceMailSettings 특성 값은 Exchange 서비스 공급자 또는 Lync Server 2013 관리자에 의해 설정 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-115">The value of the msExchUCVoiceMailSettings attribute can be set by either the Exchange service provider or the Lync Server 2013 administrator.</span></span> <span data-ttu-id="59b3d-116">앞의 다이어그램에 표시 된 예에서 Lync Server 2013 관리자는이 값을 사용 하 여 Alice에 게 호스팅된 음성 메일을 사용할 수 있도록 설정 했습니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-116">In the example shown in the preceding diagram, the value (CsHostedVoiceMail=1) was set by the Lync Server 2013 administrator to enable hosted voice mail for Alice.</span></span> <span data-ttu-id="59b3d-117">이 특성에 대 한 자세한 내용은 <A href="lync-server-2013-hosted-exchange-user-management.md">Lync Server 2013의 호스팅된 Exchange 사용자 관리</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="59b3d-117">For details about this attribute, see <A href="lync-server-2013-hosted-exchange-user-management.md">Hosted Exchange user management in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="9c869-118">Alice의 사용자 계정에 할당 된 호스팅된 음성 메일 정책은 다음과 같은 라우팅 세부 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-118">The hosted voice mail policy that is assigned to Alice’s user account provides routing details:</span></span>
+  - <span data-ttu-id="59b3d-118">Alice의 사용자 계정에 할당 된 호스팅된 음성 메일 정책은 다음과 같은 라우팅 세부 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-118">The hosted voice mail policy that is assigned to Alice’s user account provides routing details:</span></span>
     
-      - <span data-ttu-id="9c869-119">대상은 호스팅된 Exchange UM 서비스 공급자 (ls)입니다. ExUm. \<이\>예제의 hostedExchangeServer)</span><span class="sxs-lookup"><span data-stu-id="9c869-119">Destination is the hosted Exchange UM service provider (ls.ExUm.\<hostedExchangeServer\>.com in this example).</span></span>
+      - <span data-ttu-id="59b3d-119">대상은 호스팅된 Exchange UM 서비스 공급자 (ls)입니다. ExUm. \<hostedExchangeServer\> . 이 예제의 com)</span><span class="sxs-lookup"><span data-stu-id="59b3d-119">Destination is the hosted Exchange UM service provider (ls.ExUm.\<hostedExchangeServer\>.com in this example).</span></span>
     
-      - <span data-ttu-id="9c869-120">조직은 ls에 있는 Exchange Server 테 넌 트에 대 한 SIP 메시지의 라우팅 Fqdn 인 테 넌 트 Id로 식별 됩니다. ExUm. \<hostedExchangeServer\>(이 예에서는 corp.contoso.com 및 corp.litwareinc.com)</span><span class="sxs-lookup"><span data-stu-id="9c869-120">Organizations are identified by the tenant IDs, which are the routing FQDNs for SIP messages for Exchange Server tenants that are located on ls.ExUm.\<hostedExchangeServer\>.com (corp.contoso.com and corp.litwareinc.com in this example).</span></span>
+      - <span data-ttu-id="59b3d-120">조직은 ls에 있는 Exchange Server 테 넌 트에 대 한 SIP 메시지의 라우팅 Fqdn 인 테 넌 트 Id로 식별 됩니다. ExUm. \<hostedExchangeServer\> . com (이 예에서는 corp.contoso.com 및 corp.litwareinc.com)</span><span class="sxs-lookup"><span data-stu-id="59b3d-120">Organizations are identified by the tenant IDs, which are the routing FQDNs for SIP messages for Exchange Server tenants that are located on ls.ExUm.\<hostedExchangeServer\>.com (corp.contoso.com and corp.litwareinc.com in this example).</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="9c869-121">Exchange Online의 FQDN은 exap.um.outlook.com입니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-121">The FQDN for Exchange Online is exap.um.outlook.com.</span></span>
+        > <span data-ttu-id="59b3d-121">Exchange Online의 FQDN은 exap.um.outlook.com입니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-121">The FQDN for Exchange Online is exap.um.outlook.com.</span></span>
 
         
         </div>
         
-        <span data-ttu-id="9c869-122">자세한 내용은 [Lync Server 2013에서 호스팅된 음성 메일 정책](lync-server-2013-hosted-voice-mail-policies.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9c869-122">For details, see [Hosted voice mail policies in Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).</span></span>
+        <span data-ttu-id="59b3d-122">자세한 내용은 [Lync Server 2013에서 호스팅된 음성 메일 정책](lync-server-2013-hosted-voice-mail-policies.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="59b3d-122">For details, see [Hosted voice mail policies in Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9c869-123">사용자 계정에 msExchUCVoiceMailSettings 특성과 UM 프록시 주소 설정이 둘 다 있는 경우 msExchUCVoiceMailSettings 특성이 우선적으로 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c869-123">If both the msExchUCVoiceMailSettings attribute and the UM proxy address settings are present in a user account, the msExchUCVoiceMailSettings attribute takes precedence.</span></span>
+> <span data-ttu-id="59b3d-123">사용자 계정에 msExchUCVoiceMailSettings 특성과 UM 프록시 주소 설정이 둘 다 있는 경우 msExchUCVoiceMailSettings 특성이 우선적으로 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="59b3d-123">If both the msExchUCVoiceMailSettings attribute and the UM proxy address settings are present in a user account, the msExchUCVoiceMailSettings attribute takes precedence.</span></span>
 
 
 
