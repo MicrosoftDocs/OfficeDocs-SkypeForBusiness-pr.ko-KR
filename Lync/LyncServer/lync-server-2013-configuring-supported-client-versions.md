@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 지원 되는 클라이언트 버전 구성'
+description: 'Lync Server 2013: 지원 되는 클라이언트 버전을 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cecc551eef4cb7574674c9f7de39f27b4efc8710
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 74396314cae864fae134531b71375c750be8d3da
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517395"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556884"
 ---
 # <a name="configuring-supported-client-versions-in-lync-server-2013"></a>Lync Server 2013에서 지원 되는 클라이언트 버전 구성
 

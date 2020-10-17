@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 모니터링할 Lync Server 컴퓨터 구성'
+description: 'Lync Server 2013: 모니터링할 Lync Server 컴퓨터를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184927
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39819a546d59d47b60f0c6dfca76cc6939a1cdf2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 742bd8a67eb42472e598c45619514e9407cb29cf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532355"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556834"
 ---
 # <a name="configuring-the-lync-server-computers-that-will-be-monitored-in-lync-server-2013"></a>Lync Server 2013에서 모니터링할 Lync Server 컴퓨터 구성
 

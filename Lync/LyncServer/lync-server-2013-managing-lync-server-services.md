@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server 서비스 관리'
+description: 'Lync Server 2013: Lync Server 서비스 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c69692cd9028ad3653f5b85d5329872b5fe6245
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 39c02946246d587cdc8971ddf34d020d9f816f21
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498105"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557424"
 ---
 # <a name="managing-lync-server-2013-services"></a>Lync Server 2013 서비스 관리
 

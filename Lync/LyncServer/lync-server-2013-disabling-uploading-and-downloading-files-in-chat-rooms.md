@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 대화방에서 파일 업로드 및 다운로드를 사용 하지 않도록 설정'
+description: 'Lync Server 2013: 대화방에서 파일 업로드 및 다운로드를 사용 하지 않도록 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48706010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd3215ae60576473ba06f62416798e4e2e3603d8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 77cf0fab4cdc78b088fc46531467048a78954136
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528975"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557684"
 ---
 # <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a>Lync Server 2013의 대화방에서 파일 업로드 및 다운로드를 사용 하지 않도록 설정
 
