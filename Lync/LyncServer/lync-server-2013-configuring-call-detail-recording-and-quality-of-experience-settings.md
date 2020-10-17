@@ -1,5 +1,6 @@
 ---
 title: 통화 정보 기록 및 경험 수준 설정 구성
+description: 통화 정보 기록 및 체감 품질 설정 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6f39bf16a9d0ecf57a5617774395af477a67c2d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: be0238701f561e6694786faec7fc914dcc9cda40
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502135"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567174"
 ---
 # <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Lync Server 2013에서 통화 정보 기록 및 경험 수준 설정 구성
 

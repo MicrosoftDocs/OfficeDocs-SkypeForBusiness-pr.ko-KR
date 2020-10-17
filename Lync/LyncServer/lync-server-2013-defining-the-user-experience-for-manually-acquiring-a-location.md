@@ -1,5 +1,6 @@
 ---
 title: 위치를 수동으로 가져오기 위한 사용자 환경 정의
+description: 위치를 수동으로 가져오기 위한 사용자 환경 정의
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fa9c7242351417c4ea82ed7ce6183963bc9730e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 74e4a399e8010cfc22430216ef6e3c11fc9a7bdc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504475"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567554"
 ---
 # <a name="defining-the-user-experience-for-manually-acquiring-a-location-in-lync-server-2013"></a>Lync Server 2013에서 위치를 수동으로 가져오기 위한 사용자 환경 정의
 

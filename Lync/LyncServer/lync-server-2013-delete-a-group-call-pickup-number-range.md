@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 그룹 통화 픽업 번호 범위 삭제'
+description: 'Lync Server 2013: 그룹 통화 픽업 번호 범위를 삭제 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de031dd73f5fe74ba6d343cdea5414fa15988f2a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b40d423b64d29300741c55433864128897c3ac8f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525655"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566554"
 ---
 # <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a>Lync Server 2013에서 그룹 통화 픽업 번호 범위 삭제
 

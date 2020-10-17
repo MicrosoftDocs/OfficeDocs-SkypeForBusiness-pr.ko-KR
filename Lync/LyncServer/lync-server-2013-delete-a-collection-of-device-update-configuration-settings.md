@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 장치 업데이트 구성 설정 모음 삭제'
+description: 'Lync Server 2013: 장치 업데이트 구성 설정 컬렉션을 삭제 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803928
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 520247186289f4b02a136b3109ec86fa4fa1a6a3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b3a03227869f68a52a30ea94db33bfb954b7e122
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525745"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566654"
 ---
 # <a name="delete-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 장치 업데이트 구성 설정 컬렉션 삭제
 

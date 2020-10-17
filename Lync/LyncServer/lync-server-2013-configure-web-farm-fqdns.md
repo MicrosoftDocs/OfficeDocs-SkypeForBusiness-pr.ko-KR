@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 웹 팜 Fqdn 구성'
+description: 'Lync Server 2013: 웹 팜 Fqdn을 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37799ed65cca468ea7bac18956ed08783c9b6a1c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8a07faac4d4809ffe10e7ca3699e7441e6dbcb7b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520135"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566664"
 ---
 # <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>Lync Server 2013에 대 한 웹 팜 Fqdn 구성
 

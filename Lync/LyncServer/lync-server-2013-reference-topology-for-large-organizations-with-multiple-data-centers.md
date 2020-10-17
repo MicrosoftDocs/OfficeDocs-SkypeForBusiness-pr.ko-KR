@@ -1,5 +1,6 @@
 ---
 title: 여러 데이터 센터가 있는 대규모 조직에 대 한 Lync Server 2013 참조 토폴로지
+description: 여러 데이터 센터가 있는 대규모 조직에 대 한 Lync Server 2013 참조 토폴로지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd3d57724ac1c36e3157fba7bca3331c62d939ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bfb88bd59e4bc27aefbdc94fdf53f094a09998f4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536715"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567604"
 ---
 # <a name="reference-topology-for-lync-server-2013-in-large-organizations-with-multiple-data-centers"></a>여러 데이터 센터가 있는 대규모 조직의 Lync Server 2013에 대 한 참조 토폴로지
 

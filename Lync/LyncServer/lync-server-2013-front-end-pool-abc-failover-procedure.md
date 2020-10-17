@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 프런트 엔드 풀 ABC 장애 조치 (failover) 절차'
+description: 'Lync Server 2013: 프런트 엔드 풀 ABC 장애 조치 (failover) 절차'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa82180853e8835782d1e39d56fe595e5c7b09b2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b86f196d53afdc1dcad6fe41191c2aa1582f717e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500805"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567144"
 ---
 # <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 풀 ABC 장애 조치 (failover) 절차
 

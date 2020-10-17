@@ -1,5 +1,6 @@
 ---
 title: 모범 사례 분석기를 사용 하 여 배포에서 발생할 수 있는 문제 식별
+description: 모범 사례 분석기를 사용 하 여 배포에서 발생할 수 있는 문제를 파악 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183344
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ebeeb175a4c79022630a432a075bd2cda18f3a0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b334a6eb3d6596fdc3208c60a8894b0873386c85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535895"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567194"
 ---
 # <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>모범 사례 분석기를 사용 하 여 Lync Server 2013 배포에서 발생할 수 있는 문제 식별
 

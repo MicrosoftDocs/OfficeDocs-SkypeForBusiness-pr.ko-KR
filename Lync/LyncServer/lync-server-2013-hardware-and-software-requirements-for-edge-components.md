@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013:에 지 구성 요소에 대 한 하드웨어 및 소프트웨어 요구 사항
+description: Lync Server 2013:에 지 구성 요소에 대 한 하드웨어 및 소프트웨어 요구 사항
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185273
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 580016d6169f83d4264f744cff3cb6c64b404757
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5cbe7e4e9e1131d55cb138d4bea17479eefde645
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536875"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567404"
 ---
 # <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a>Lync Server 2013의에 지 구성 요소에 대 한 하드웨어 및 소프트웨어 요구 사항
 

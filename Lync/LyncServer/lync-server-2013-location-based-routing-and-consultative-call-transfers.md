@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Location-Based 라우팅 및 문의 후 통화 전송'
+description: 'Lync Server 2013: Location-Based 라우팅 및 문의 후 통화 전송입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75284736af1307aff4e9c51c8118cf64dbd08568
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0d07cf6a33ff4d6ad57f8913a798fac3bc393a00
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513815"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567674"
 ---
 # <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Lync Server 2013의 라우팅 및 문의 후 통화 전송 Location-Based
 

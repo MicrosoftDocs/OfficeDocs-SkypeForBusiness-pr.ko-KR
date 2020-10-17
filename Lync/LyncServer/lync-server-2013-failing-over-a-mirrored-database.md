@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 미러된 데이터베이스 장애 조치 (Failover)'
+description: 'Lync Server 2013: 미러된 데이터베이스를 장애 조치 (failover) 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 853dfdd6786b4e30513cb57be219edff8d8c1b9b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fc7c401157c79762f674721ca717296c0fe502db
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530975"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567694"
 ---
 # <a name="failing-over-a-mirrored-database-in-lync-server-2013"></a>Lync Server 2013에서 미러된 데이터베이스 장애 조치 (failover)
 
