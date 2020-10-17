@@ -13,20 +13,22 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 476ff46829a0b303c5a9316be1e9a6fcc931099e
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 5dfc5162e2a624f1937e4d1b2751398f57ba8e21
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499855"
 ---
+# <a name="administering-servers-after-migration"></a><span data-ttu-id="48473-102">마이그레이션 후 서버 관리</span><span class="sxs-lookup"><span data-stu-id="48473-102">Administering servers after migration</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-servers-after-migration"></a><span data-ttu-id="1dfe9-102">마이그레이션 후 서버 관리</span><span class="sxs-lookup"><span data-stu-id="1dfe9-102">Administering servers after migration</span></span>
+
 
 </div>
 
@@ -36,15 +38,15 @@ ms.locfileid: "44755170"
 
 <span> </span>
 
-<span data-ttu-id="1dfe9-103">_**마지막으로 수정 된 항목:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="1dfe9-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="48473-103">_**마지막으로 수정 된 항목:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="48473-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="1dfe9-104">일반적으로 관리하려는 서버 버전에 해당하는 관리 도구를 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1dfe9-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="1dfe9-105">Lync Server 2010와 Lync Server 2013 관리 도구는 동일한 컴퓨터에 설치할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="1dfe9-105">You cannot install the Lync Server 2010 and the Lync Server 2013 administrative tools on the same computer.</span></span> <span data-ttu-id="1dfe9-106">또한 Lync Server 2013 제어판은 각 서버에 자동으로 설치 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="1dfe9-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="1dfe9-107">Lync Server 2013 제어판을 설치 하려면 배포 설명서의 [Install Lync Server 2013 관리 도구](lync-server-2013-install-lync-server-administrative-tools.md) 항목에 포함 된 절차를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="1dfe9-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="48473-104">일반적으로 관리하려는 서버 버전에 해당하는 관리 도구를 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="48473-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="48473-105">Lync Server 2010와 Lync Server 2013 관리 도구는 동일한 컴퓨터에 설치할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="48473-105">You cannot install the Lync Server 2010 and the Lync Server 2013 administrative tools on the same computer.</span></span> <span data-ttu-id="48473-106">또한 Lync Server 2013 제어판은 각 서버에 자동으로 설치 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="48473-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="48473-107">Lync Server 2013 제어판을 설치 하려면 배포 설명서의 [Install Lync Server 2013 관리 도구](lync-server-2013-install-lync-server-administrative-tools.md) 항목에 포함 된 절차를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="48473-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1dfe9-108">Lync Server 2013 파일럿 풀이 배포 된 후 lync server 2010 토폴로지 작성기 또는 Lync Server 2010 제어판을 사용 하 여 Lync Server 2013 리소스를 관리할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="1dfe9-108">After a Lync Server 2013 pilot pool is deployed, you cannot use Lync Server 2010 Topology Builder or Lync Server 2010 Control Panel to manage any Lync Server 2013 resources.</span></span> <span data-ttu-id="1dfe9-109">Lync server 2013 및 Lync Server 2010 리소스를 관리 하려면 Lync Server 2013 도구를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1dfe9-109">You must use Lync Server 2013 tools to manage Lync Server 2013 and Lync Server 2010 resources.</span></span>
+> <span data-ttu-id="48473-108">Lync Server 2013 파일럿 풀이 배포 된 후 lync server 2010 토폴로지 작성기 또는 Lync Server 2010 제어판을 사용 하 여 Lync Server 2013 리소스를 관리할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="48473-108">After a Lync Server 2013 pilot pool is deployed, you cannot use Lync Server 2010 Topology Builder or Lync Server 2010 Control Panel to manage any Lync Server 2013 resources.</span></span> <span data-ttu-id="48473-109">Lync server 2013 및 Lync Server 2010 리소스를 관리 하려면 Lync Server 2013 도구를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="48473-109">You must use Lync Server 2013 tools to manage Lync Server 2013 and Lync Server 2010 resources.</span></span>
 
 
 
