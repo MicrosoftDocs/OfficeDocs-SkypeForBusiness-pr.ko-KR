@@ -12,20 +12,22 @@ ms:contentKeyID: 48183834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c56c987fbda2e67ed0f04c7280e9dfd394f9c25
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57b06362ad70bedd8edd0baafc3d512cbbf95714
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214294"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528345"
 ---
+# <a name="hardware-setup-for-lync-server-2013"></a>Lync Server 2013의 하드웨어 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-setup-for-lync-server-2013"></a>Lync Server 2013의 하드웨어 설정
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 토폴로지를 구현 하는 데 필요한 인프라에 필요한 하드웨어 및 기타 구성 요소를 설정 하려면 토폴로지 작성기에서 토폴로지를 게시 하기 전에 다음 작업을 수행 해야 합니다.
 
-  - 필요한 모든 컴퓨터 (Lync Server 2013, 데이터베이스 서버, IIS (인터넷 정보 서비스)를 실행 하는 서버)를 실행 하 여 토폴로지 작성기를 사용 하 여 만들고 저장 한 토폴로지 디자인의 각 구성 요소에 대 한 하드웨어를 설치 합니다. 네트워크 어댑터, 하드웨어 부하 분산 장치 및 저장 장치 (예: 파일 서버)와 같은 역방향 프록시 서버를 적절 하 게 전환 합니다. 네트워크 어댑터 수 및 속도에 대해 권장 사항을 준수했는지 확인합니다. 하드웨어 부하 분산 장치를 사용 하는 경우에는 해당 공급 업체의 적절 한 정보를 사용 하 여 Lync Server 2013에서 사용할 수 있도록 구성 해야 합니다. Lync Server에 필요한 파일 공유를 저장할 파일 서버나 기타 서버를 사용 하는 경우에는 해당 서버를 사용할 수 있는지와 파일 공유의 구성을 준비 해야 합니다. 배포에 필요한 구성 요소를 지정 하는 토폴로지를 정의 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 토폴로지 정의 및 구성을](lync-server-2013-defining-and-configuring-the-topology.md)참조 하십시오. 서버에 대 한 하드웨어 요구 사항에 대 한 자세한 내용은 지원 가능성 설명서에서 [Lync Server 2013 용으로 지 원하는 하드웨어](lync-server-2013-supported-hardware.md) 를 참조 하십시오.
+  - 필요한 모든 컴퓨터 (Lync Server 2013, 데이터베이스 서버, IIS (인터넷 정보 서비스)를 실행 하는 서버 및 역방향 프록시 서버를 실행 하는 서버), 네트워크 어댑터, 하드웨어 부하 분산 및 저장 장치 (예: 파일 서버)를 포함 하 여 토폴로지 작성기를 사용 하 여 만들고 저장 한 토폴로지 디자인에서 각 구성 요소에 대 한 하드웨어를 설치 합니다. 네트워크 어댑터 수 및 속도에 대해 권장 사항을 준수했는지 확인합니다. 하드웨어 부하 분산 장치를 사용 하는 경우에는 해당 공급 업체의 적절 한 정보를 사용 하 여 Lync Server 2013에서 사용할 수 있도록 구성 해야 합니다. Lync Server에 필요한 파일 공유를 저장할 파일 서버나 기타 서버를 사용 하는 경우에는 해당 서버를 사용할 수 있는지와 파일 공유의 구성을 준비 해야 합니다. 배포에 필요한 구성 요소를 지정 하는 토폴로지를 정의 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 토폴로지 정의 및 구성을](lync-server-2013-defining-and-configuring-the-topology.md)참조 하십시오. 서버에 대 한 하드웨어 요구 사항에 대 한 자세한 내용은 지원 가능성 설명서에서 [Lync Server 2013 용으로 지 원하는 하드웨어](lync-server-2013-supported-hardware.md) 를 참조 하십시오.
 
   - 네트워크 인프라가 요구 사항을 충족 하는지 확인 합니다. 자세한 내용은 계획 설명서에서 [Lync Server 2013의 네트워크 인프라 요구 사항](lync-server-2013-network-infrastructure-requirements.md) 를 참조 하십시오.
 

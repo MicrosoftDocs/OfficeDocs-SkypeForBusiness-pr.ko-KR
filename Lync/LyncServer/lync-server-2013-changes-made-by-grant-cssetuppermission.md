@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 부여-CsSetupPermission을 통해 변경한 내용'
+title: 'Lync Server 2013: Grant-CsSetupPermission에서 변경한 내용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98ac8f4f84280fb8980d38170fc964157b8037ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ec13a23daf0f3dae47ae0ce0dc630e64c596e7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191531"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529415"
 ---
+# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Lync Server 2013의 Grant-CsSetupPermission에의 한 변경 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Lync Server 2013의 부여-CsSetupPermission에서 수행한 변경 내용
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42191531"
 
 _**마지막으로 수정 된 항목:** 2012-06-20_
 
-설치를 위임 하려면 특정 Active Directory OU (조직 구성 단위)에 대 한 RTCUniversalServerAdmins 유니버설 그룹에 사용 권한을 부여 하 여 해당 OU에 있는 RTCUniversalServerAdmins 그룹의 구성원이 지정 된에 Lync Server 2013을 설치할 수 있도록 합니다. domain Admins 그룹의 구성원이 아닌 도메인
+설치를 위임 하려면 특정 Active Directory OU (조직 구성 단위)에 대 한 RTCUniversalServerAdmins 유니버설 그룹에 사용 권한을 부여 하 여 해당 OU에 있는 RTCUniversalServerAdmins 그룹의 구성원이 Domain Admins 그룹의 구성원이 아닌 지정 된 도메인에 Lync Server 2013을 설치할 수 있도록 합니다.
 
 **Grant-CsSetupPermission** cmdlet을 실행하면 다음 표에 지정된 것과 같이 OU의 RTCUniversalServerAdmins 그룹에 사용 권한을 부여할 수 있습니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f8edade1ed4f0480d776e77eb66816c033a7e3d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53dcbeb362387c31a97ad1e26713b642f82b2390
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213514"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529125"
 ---
+# <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>온-프레미스 통합 메시징과 Lync Server 2013의 통합을 위한 배포 프로세스
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>온-프레미스 통합 메시징과 Lync Server 2013의 통합을 위한 배포 프로세스
+
 
 </div>
 
@@ -97,13 +99,13 @@ Exchange UM (통합 메시징)을 Lync Server 2013와 통합 하려면이 항목
 <td><p>해당 버전의 Exchange Server에 대 한 해당 설명서를 참조 하세요.</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>Exchange Server 2007 배포 설명서를 <a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a>참조 하세요.</p>
+<dd><p>Exchange Server 2007 배포 설명서를 참조 <a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a> 하세요.</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Exchange Server 2010 또는 최신 서비스 팩 배포 설명서를 <a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a>참조 하세요.</p>
+<dd><p>Exchange Server 2010 또는 최신 서비스 팩 배포 설명서를 참조 <a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a> 하세요.</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Microsoft Exchange Server 2013 계획 및 배포 위치 <a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a></p>
+<dd><p>Microsoft Exchange Server 2013 계획 및 <a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a> 배포 위치</p>
 </dd>
 </dl></td>
 </tr>
@@ -117,9 +119,9 @@ Exchange UM (통합 메시징)을 Lync Server 2013와 통합 하려면이 항목
 <td><p>새 Exchange UM SIP 다이얼 플랜을 만들고 구성 합니다.</p></td>
 <td><p>Exchange UM 서버에서 조직의 특정 배포 요구 사항에 따라 SIP 다이얼 플랜을 만듭니다.</p></td>
 <td><p>Exchange 조직 관리자</p></td>
-<td><p>Exchange 2007 SP1 또는 최신 서비스 팩의 경우 통합 &quot;메시징 SIP URI 다이얼 플랜&quot; 을 만드는 방법을 참조 하세요 <a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a>.</p>
-<p>Exchange 2010 또는 최신 서비스 팩의 경우 UM &quot;다이얼 플랜&quot; 만들기를 참조 <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a>하세요.</p>
-<p>Exchange 2013의 경우 통합 메시징 () <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>을 참조 하세요.</p></td>
+<td><p>Exchange 2007 SP1 또는 최신 서비스 팩의 경우 &quot; 통합 메시징 SIP URI 다이얼 플랜을 만드는 방법을 참조 하세요 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a> .</p>
+<p>Exchange 2010 또는 최신 서비스 팩의 경우 &quot; UM 다이얼 플랜 만들기를 참조 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a> 하세요.</p>
+<p>Exchange 2013의 경우 통합 메시징 ()을 참조 하세요 <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>Exchange UM SIP 다이얼 플랜에 대 한 보안 설정을 구성 합니다.</p></td>
@@ -127,32 +129,32 @@ Exchange UM (통합 메시징)을 Lync Server 2013와 통합 하려면이 항목
 <td><p>Exchange 조직 관리자</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">Lync Server 2013 용 Microsoft Exchange에서 통합 메시징 구성</a></p>
 <p>Exchange 2007 SP1 또는 최신 서비스 팩의 경우 다음 항목을 참조 하십시오.</p>
-<p>&quot;에서&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a>통합 메시징 다이얼 플랜에 대 한 보안을 구성 하는 방법을 설명 합니다.</p>
+<p>&quot;에서 통합 메시징 다이얼 플랜에 대 한 보안을 구성 하는 방법을 설명 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a> 합니다.</p>
 <p>Exchange 2010 또는 최신 서비스 팩의 경우 다음 항목을 참조 하십시오.</p>
-<p>&quot;UM 다이얼 플랜&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a>에 대해 VoIP 보안을 구성 합니다.</p>
-<p>Exchange 2013의 경우 통합 메시징 () <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>을 참조 하세요.</p></td>
+<p>&quot;UM 다이얼 플랜에 대해 VoIP 보안을 구성 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a> 합니다.</p>
+<p>Exchange 2013의 경우 통합 메시징 ()을 참조 하세요 <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p>Exchange UM SIP 다이얼 플랜에 통합 메시징 서버를 추가 합니다.</p></td>
 <td><p>새로 설치한 통합 메시징 서버에서 수신 전화에 응답 하 고이를 처리할 수 있도록 하려면 통합 메시징 서버를 UM 다이얼 플랜에 추가 해야 합니다. 이 경우에는 Exchange UM SIP 다이얼 플랜에 서버를 추가 합니다.</p></td>
 <td><p>관리자</p>
 <p>Exchange Server 관리자</p></td>
-<td><p>Exchange 2007 SP1 또는 최신 서비스 팩의 경우 다음 &quot;위치에서&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a>통합 메시징 서버를 다이얼 플랜에 추가 하는 방법을 참조 하세요.</p>
-<p>Exchange 2010 또는 최신 서비스 팩의 경우 UM &quot;서버의&quot; 속성 보기 또는 구성을 참조 하십시오 <a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a>.</p>
-<p>Exchange 2013의 경우 통합 메시징 () <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>을 참조 하세요.</p></td>
+<td><p>Exchange 2007 SP1 또는 최신 서비스 팩의 경우 다음 &quot; 위치에서 통합 메시징 서버를 다이얼 플랜에 추가 하는 방법을 참조 하세요 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a> .</p>
+<p>Exchange 2010 또는 최신 서비스 팩의 경우 &quot; UM 서버의 속성 보기 또는 구성을 참조 하십시오 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a> .</p>
+<p>Exchange 2013의 경우 통합 메시징 ()을 참조 하세요 <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP 주소를 사용 하 여 사서함을 구성 합니다.</p></td>
 <td><p>Exchange UM 기능을 사용할 Enterprise Voice 사용자의 사서함에 SIP 주소를 할당 합니다.</p></td>
 <td><p>Lync Server 2013 관리자</p>
 <p>Exchange 받는 사람 관리자</p></td>
-<td><p>Exchange 2007 SP1 또는 최신 서비스 팩의 경우 UM &quot;사용 가능 사용자&quot; 에 대 한 SIP 주소를 추가, 제거 또는 수정 하는 방법을 참조 <a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a>하세요.</p>
-<p>Exchange 2010 또는 최신 서비스 팩의 경우 UM &quot;사용 가능 사용자&quot; 에 대 한 SIP 주소 수정에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a>를 참조 하세요.</p>
-<p>Exchange 2013의 경우 통합 메시징 () <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>을 참조 하세요.</p></td>
+<td><p>Exchange 2007 SP1 또는 최신 서비스 팩의 경우 &quot; UM-Enabled 사용자에 대 한 SIP 주소를 추가, 제거 또는 수정 하는 방법에 대 한 자세한 내용은를 참조 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a> 하세요.</p>
+<p>Exchange 2010 또는 최신 서비스 팩의 경우 &quot; UM-Enabled 사용자에 대 한 SIP 주소 수정를 &quot; 참조 <a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a> 하세요.</p>
+<p>Exchange 2013의 경우 통합 메시징 ()을 참조 하세요 <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchucutil.ps1 스크립트를 실행 합니다.</p></td>
-<td><p>Exchange UM 서비스를 실행 하는 서버에서 Exchange 관리 셸을 열고 다음을 수행 하는 exchucutil.ps1 스크립트를 실행 합니다.</p>
+<td><p>exchucutil.ps1 스크립트를 실행 합니다.</p></td>
+<td><p>Exchange UM 서비스를 실행 하는 서버에서 Exchange 관리 셸을 열고 다음 작업을 수행 하는 exchucutil.ps1 스크립트를 실행 합니다.</p>
 <ul>
 <li><p>Lync Server 2013에 게 이전 작업에서 만든 SIP 다이얼 플랜을 사용 하 여 Exchange UM Active Directory 도메인 서비스 개체를 읽을 수 있는 권한을 부여 합니다.</p></li>
 <li><p>Enterprise Voice를 사용할 수 있는 사용자를 호스트 하는 각 Lync Server 2013 Enterprise Edition 풀 또는 Standard Edition Server에 대해 Active Directory에 통합 메시징 IP 게이트웨이 개체를 만듭니다.</p></li>
@@ -185,7 +187,7 @@ Exchange UM (통합 메시징)을 Lync Server 2013와 통합 하려면이 항목
 </tr>
 <tr class="odd">
 <td><p>Exchange UM 통합 도구를 실행 합니다.</p></td>
-<td><p>Lync Server 2013에서 다음을 수행 하는 <strong>ocsumutil을 실행 합니다.</strong></p>
+<td><p>Lync Server 2013에서 다음을 실행 <strong>ocsumutil.exe</strong>합니다.</p>
 <ul>
 <li><p>구독자 액세스 및 자동 전화 교환 대화 상대 개체를 만듭니다.</p></li>
 <li><p>Exchange UM 다이얼 플랜 FQDN과 일치 하는 이름의 Enterprise Voice 다이얼 플랜이 있는지 확인 합니다. Exchange 2010 SP1 이상을 실행 하는 경우 다이얼 플랜 이름이 일치 하지 않아도 되며,이에 대 한 도구의 경고는 무시 해도 됩니다.</p></li>
@@ -196,14 +198,14 @@ Exchange UM (통합 메시징)을 Lync Server 2013와 통합 하려면이 항목
 
 
 > [!IMPORTANT]
-> Ocsumutil을 성공적으로 실행 하려면 사용자가 이러한 두 그룹 모두에 속해 있어야 합니다.
+> ocsumutil.exe를 성공적으로 실행 하려면 사용자가이 두 그룹 모두에 속해 있어야 합니다.
 
 
 
 
 
 > [!NOTE]
-> 연락처 개체를 만들려면 ocsumutil을 실행 하는 사용자에 게 새 연락처 개체가 저장 된 Active Directory OU (조직 구성 단위)에 대 한 올바른 사용 권한이 있어야 합니다. 이 사용 권한은 <STRONG>부여-CsOUPermission</STRONG> cmdlet을 실행 하 여 부여할 수 있습니다. 자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.
+> 연락처 개체를 만들려면 ocsumutil.exe를 실행 하는 사용자에 게 새 연락처 개체가 저장 되는 Active Directory OU (조직 구성 단위)에 대 한 올바른 사용 권한이 있어야 합니다. 이 사용 권한은 <STRONG>부여-CsOUPermission</STRONG> cmdlet을 실행 하 여 부여할 수 있습니다. 자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.
 
 </td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">Microsoft Exchange Server의 통합 메시징과 함께 작동 하도록 Lync Server 2013 구성</a></p></td>
@@ -231,9 +233,9 @@ Exchange UM (통합 메시징)을 Lync Server 2013와 통합 하려면이 항목
 <td><p>Exchange UM에 대해 Enterprise Voice 사용자를 사용 하도록 설정 합니다.</p></td>
 <td><p>Exchange UM 서버에서 통합 메시징 사서함 정책이 만들어졌고 각 사용자에 게 고유한 내선 번호 할당이 있는지 확인 한 다음 사용자가 통합 메시징을 사용할 수 있도록 설정 합니다.</p></td>
 <td><p>Exchange 받는 사람 관리자</p></td>
-<td><p>Exchange 2007 SP1 또는 최신 서비스 팩의 경우 사용자 &quot;가 통합 메시징을&quot; 사용 하도록 설정 하는 방법을 <a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a>참조 하세요.</p>
-<p>Exchange 2010 또는 최신 서비스 팩의 경우 사용자 &quot;가 통합 메시징을&quot; 사용 하도록 설정에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a>를 참조 하세요.</p>
-<p>Exchange 2013의 경우 통합 메시징 () <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>을 참조 하세요.</p></td>
+<td><p>Exchange 2007 SP1 또는 최신 서비스 팩의 경우 &quot; 사용자가 통합 메시징을 사용 하도록 설정 하는 방법을 참조 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a> 하세요.</p>
+<p>Exchange 2010 또는 최신 서비스 팩의 경우 &quot; 사용자가 통합 메시징을 사용 하도록 설정에서를 참조 하세요 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a> .</p>
+<p>Exchange 2013의 경우 통합 메시징 ()을 참조 하세요 <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 </tbody>
 </table>

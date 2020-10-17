@@ -12,20 +12,22 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0216cada44f2512e33a0b33b627ed9a6d6582cda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de9a5c9015dcaf83252260c89837a473a6a2291f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527975"
 ---
+# <a name="populate-the-location-database-in-lync-server-2013"></a>Lync Server 2013에서 위치 데이터베이스 채우기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="populate-the-location-database-in-lync-server-2013"></a>Lync Server 2013에서 위치 데이터베이스 채우기
+
 
 </div>
 
@@ -58,23 +60,23 @@ ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 �
 <tbody>
 <tr class="odd">
 <td><p><strong>무선 액세스 지점</strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</p>
-<p>... &lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;postdirectional&gt;,&lt;구&gt;/&lt;군&gt;/&lt;시&gt;,&lt;시/도, PostalCode, 국가&gt;</p></td>
+<td><p>&lt;BSSID &gt; , &lt; Description &gt; , &lt; Location &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; , &lt; predirectional &gt; ,...</p>
+<p>&lt;... StreetName &gt; , &lt; StreetSuffix &gt; , &lt; postdirectional &gt; , &lt; 구/군/시, 시/ &gt; &lt; &gt; &lt; &gt; &lt; 도, PostalCode, 국가&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>서브넷</strong></p></td>
-<td><p>&lt;서브넷&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</p>
-<p>... &lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;postdirectional&gt;,&lt;구&gt;/&lt;군&gt;/&lt;시&gt;,&lt;시/도, PostalCode, 국가&gt;</p></td>
+<td><p>&lt;서브넷 &gt; , &lt; Description &gt; , &lt; Location &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; , &lt; predirectional &gt; ,...</p>
+<p>&lt;... StreetName &gt; , &lt; StreetSuffix &gt; , &lt; postdirectional &gt; , &lt; 구/군/시, 시/ &gt; &lt; &gt; &lt; &gt; &lt; 도, PostalCode, 국가&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Port</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,...</p>
-<p>... &lt;Predirectional&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;postdirectional&gt;,&lt;구&gt;/&lt;군&gt;/&lt;시&gt;,&lt;PostalCode, 국가&gt;</p></td>
+<td><p><strong>Port(포트)</strong></p></td>
+<td><p>&lt;ChassisID &gt; , &lt; PortIDSubType &gt; , &lt; PortID &gt; , &lt; Description &gt; , &lt; Location &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; ,...</p>
+<p>&lt;... PreDirectional &gt; , &lt; StreetName &gt; , &lt; StreetSuffix &gt; , &lt; postdirectional &gt; , &lt; 구/군/시, &gt; &lt; &gt; &lt; PostalCode &gt; , &lt; 국가&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Switch</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</p>
-<p>... &lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;postdirectional&gt;,&lt;구&gt;/&lt;군&gt;/&lt;시&gt;,&lt;시/도, PostalCode, 국가&gt;</p></td>
+<td><p>&lt;ChassisID &gt; , &lt; Description &gt; , &lt; Location &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; , &lt; predirectional &gt; ,...</p>
+<p>&lt;... StreetName &gt; , &lt; StreetSuffix &gt; , &lt; postdirectional &gt; , &lt; 구/군/시, 시/ &gt; &lt; &gt; &lt; &gt; &lt; 도, PostalCode, 국가&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -88,7 +90,7 @@ ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 �
 
   - **CsLisSubnet**
 
-  - CsLisSubnet을 제거 합니다.
+  - Remove-CsLisSubnet
 
   - **CsLisWirelessAccessPoint**
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48706010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91cc593444e50112b92714dd925be610f69f3f9f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd3215ae60576473ba06f62416798e4e2e3603d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197511"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528975"
 ---
+# <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a>Lync Server 2013의 대화방에서 파일 업로드 및 다운로드를 사용 하지 않도록 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a>Lync Server 2013의 대화방에서 파일 업로드 및 다운로드를 사용 하지 않도록 설정
+
 
 </div>
 

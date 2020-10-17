@@ -12,20 +12,22 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88353019a266fbb094df8808faa4543e31bf562
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65f6411023c80a527cff31c389a8283d090dfc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201894"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528035"
 ---
+# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Lync Server 2013에서 역할 기반 액세스 제어 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Lync Server 2013에서 역할 기반 액세스 제어 계획
+
 
 </div>
 
@@ -147,7 +149,7 @@ RBAC에서 *역할*은 특정 유형의 관리자 또는 기술자에게 유용�
 <td><p>CsPersistentChatAdministrator</p></td>
 <td><p>영구 채팅 기능 및 특정 영구 채팅방을 관리할 수 있습니다.</p></td>
 <td><p>CSPersistentChatAdministrator</p></td>
-<td><p>해당 없음</p></td>
+<td><p>해당 사항 없음</p></td>
 </tr>
 </tbody>
 </table>
@@ -159,13 +161,13 @@ Lync Server에서 제공 되는 미리 정의 된 모든 역할에는 전역 범
 
 ## <a name="creating-a-scoped-role"></a>범위가 지정된 역할 만들기
 
-제한된 범위를 갖는 역할(범위가 지정된 역할)을 만들 때는 역할의 기반이 되는 기존 역할 및 역할에 지정할 Active Directory 그룹과 함께 범위를 지정합니다. 지정하는 Active Directory 그룹은 이미 만들어져 있어야 합니다. 다음 cmdlet은 미리 정의된 관리 역할 중 하나의 권한을 갖지만 범위가 제한된 역할을 만드는 예를 보여줍니다. 라는 `Site01 Server Administrators`새 역할을 만듭니다. 이 역할은 미리 정의된 CsServerAdministrator 역할의 기능을 갖지만 Site01 사이트에 있는 서버로만 범위가 제한됩니다. 이 cmdlet이 작동 하려면 Site01 사이트가 이미 정의 되어 있어야 하며, 라는 `Site01 Server Administrators` 유니버설 보안 그룹이 있어야 합니다.
+제한된 범위를 갖는 역할(범위가 지정된 역할)을 만들 때는 역할의 기반이 되는 기존 역할 및 역할에 지정할 Active Directory 그룹과 함께 범위를 지정합니다. 지정하는 Active Directory 그룹은 이미 만들어져 있어야 합니다. 다음 cmdlet은 미리 정의된 관리 역할 중 하나의 권한을 갖지만 범위가 제한된 역할을 만드는 예를 보여줍니다. 라는 새 역할을 만듭니다 `Site01 Server Administrators` . 이 역할은 미리 정의된 CsServerAdministrator 역할의 기능을 갖지만 Site01 사이트에 있는 서버로만 범위가 제한됩니다. 이 cmdlet이 작동 하려면 Site01 사이트가 이미 정의 되어 있어야 하며, 라는 유니버설 보안 그룹이 `Site01 Server Administrators` 있어야 합니다.
 
     New-CsAdminRole -Identity "Site01 Server Administrators" -Template CsServerAdministrator -ConfigScopes "site:Site01"
 
-이 cmdlet이 실행 된 후에는 `Site01 Server Administrators` 그룹의 구성원 인 모든 사용자에 게 Site01 서버에 대 한 서버 관리자 권한이 부여 됩니다. 또한 나중에이 유니버설 보안 그룹에 추가 되는 모든 사용자는이 역할의 권한을 얻게 됩니다. 역할 자체와 자신에 게 할당 된 유니버설 보안 그룹이 호출 `Site01 Server Administrators`된다는 점에 유의 하십시오.
+이 cmdlet이 실행 된 후에는 그룹의 구성원 인 모든 사용자에 게 `Site01 Server Administrators` Site01 서버에 대 한 서버 관리자 권한이 부여 됩니다. 또한 나중에이 유니버설 보안 그룹에 추가 되는 모든 사용자는이 역할의 권한을 얻게 됩니다. 역할 자체와 자신에 게 할당 된 유니버설 보안 그룹이 호출 된다는 점에 유의 하십시오 `Site01 Server Administrators` .
 
-다음 예에서는 서버 범위 대신 사용자 범위를 제한합니다. 영업 조직 구성 `Sales Users Administrator` 단위에서 사용자 계정을 관리 하는 역할을 만듭니다. 이 cmdlet이 작동 하려면 Sales사용자 관리자 유니버설 보안 그룹이 이미 만들어져 있어야 합니다.
+다음 예에서는 서버 범위 대신 사용자 범위를 제한합니다. `Sales Users Administrator`영업 조직 구성 단위에서 사용자 계정을 관리 하는 역할을 만듭니다. 이 cmdlet이 작동 하려면 Sales사용자 관리자 유니버설 보안 그룹이 이미 만들어져 있어야 합니다.
 
     New-CsAdminRole -Identity "Sales Users Administrator " -Template CsUserAdministrator -UserScopes "OU:OU=Sales, OU=Lync Tenants, DC=Domain, DC=com"
 
@@ -177,13 +179,13 @@ Lync Server에서 제공 되는 미리 정의 된 모든 역할에는 전역 범
 
 미리 정의된 역할 중에서 찾을 수 없는 cmdlet 집합에 액세스하거나 스크립트 또는 모듈 집합에 액세스하는 역할을 만들려는 경우에도 미리 정의된 역할 중 하나를 템플릿으로 사용해서 작업을 시작합니다. 역할이 실행할 수 있어야 하는 스크립트 및 모듈은 다음 위치에 저장되어 있어야 합니다.
 
-  - Lync\\모듈 경로 (기본적으로 C: 프로그램 파일\\공용 파일\\) Microsoft lync Server 2013\\Modules Lync\\
+  - Lync 모듈 경로 (기본적으로 C: \\ 프로그램 파일 \\ 공용 파일) \\ Microsoft lync Server 2013 \\ Modules \\ Lync
 
-  - 사용자 스크립트\\경로 (기본적으로 C: Program Files\\Common files\\Microsoft Lync Server 2013 \adminscripts\\
+  - 사용자 스크립트 경로 (기본적으로 C: \\ Program files \\ Common Files \\ Microsoft Lync Server 2013 \\ \adminscripts
 
 새 역할을 만들려면 **New-CsAdminRole** cmdlet을 사용합니다. **새-CsAdminRole**을 실행 하기 전에 먼저이 역할과 연결 될 기본 유니버설 보안 그룹을 만들어야 합니다.
 
-다음 cmdlet은 새 역할을 만드는 예를 보여줍니다. 라는 `MyHelpDeskScriptRole`새 역할 유형을 만듭니다. 이 새 역할은 미리 정의된 CsHelpDesk 역할의 기능을 포함하며 추가적으로 “testscript”라는 스크립트의 기능을 실행할 수 있습니다.
+다음 cmdlet은 새 역할을 만드는 예를 보여줍니다. 라는 새 역할 유형을 만듭니다 `MyHelpDeskScriptRole` . 이 새 역할은 미리 정의된 CsHelpDesk 역할의 기능을 포함하며 추가적으로 “testscript”라는 스크립트의 기능을 실행할 수 있습니다.
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57f32d84e4cd08c40f95a47af7c988599678c972
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f836c71023defd6c826ab763d36e395a1240d3da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193171"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527745"
 ---
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Lync Server 2013을 사용 하 여 SQL Server에 대 한 방화벽 요구 사항 이해
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Lync Server 2013을 사용 하 여 SQL Server에 대 한 방화벽 요구 사항 이해
+
 
 </div>
 
@@ -60,7 +62,7 @@ Lync Server 2013를 배포할 때 모든 데이터베이스에 대해 SQL Server
 </colgroup>
 <thead>
 <tr class="header">
-<th>프로토콜로</th>
+<th>Protocol(프로토콜)</th>
 <th>포트</th>
 <th>Direction</th>
 </tr>
@@ -92,7 +94,7 @@ SQL Server Browser 서비스는 데이터베이스 인스턴스를 찾아 해당
 </colgroup>
 <thead>
 <tr class="header">
-<th>프로토콜로</th>
+<th>Protocol(프로토콜)</th>
 <th>포트</th>
 <th>Direction</th>
 </tr>
@@ -124,7 +126,7 @@ Lync Server 2013을 지 원하는 데이터베이스에 대 한 SQL Server 구�
 </colgroup>
 <thead>
 <tr class="header">
-<th>프로토콜로</th>
+<th>Protocol(프로토콜)</th>
 <th>포트</th>
 <th>Direction</th>
 </tr>
@@ -145,7 +147,7 @@ Lync Server 2013을 지 원하는 데이터베이스에 대 한 SQL Server 구�
 
 ## <a name="sql-server-documentation"></a>SQL Server 설명서
 
-Microsoft SQL Server 2012 문서에서는 데이터베이스에 대 한 방화벽 액세스를 구성 하는 방법에 대 한 자세한 지침을 제공 합니다. Microsoft SQL Server 2012에 대 한 자세한 내용은의 "SQL Server 액세스를 허용 하도록 Windows 방화벽 구성" [https://go.microsoft.com/fwlink/p/?linkId=218031](https://go.microsoft.com/fwlink/p/?linkid=218031)을 참조 하십시오.
+Microsoft SQL Server 2012 문서에서는 데이터베이스에 대 한 방화벽 액세스를 구성 하는 방법에 대 한 자세한 지침을 제공 합니다. Microsoft SQL Server 2012에 대 한 자세한 내용은의 "SQL Server 액세스를 허용 하도록 Windows 방화벽 구성"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=218031](https://go.microsoft.com/fwlink/p/?linkid=218031) .
 
 </div>
 

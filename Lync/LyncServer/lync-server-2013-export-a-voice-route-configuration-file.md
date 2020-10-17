@@ -12,20 +12,22 @@ ms:contentKeyID: 48183248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b1549cabf8163275c202075dcfc7ef081b38d20
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca000e2ba0c1802d8ec97a2a9c2f361f2c0a1b68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202384"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528385"
 ---
+# <a name="export-a-voice-route-configuration-file-in-lync-server-2013"></a>Lync Server 2013에서 음성 경로 구성 파일 내보내기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-a-voice-route-configuration-file-in-lync-server-2013"></a>Lync Server 2013에서 음성 경로 구성 파일 내보내기
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6954e8a4cd76e103516fd1f2323ef04d820dc056
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b0429eabd9a02a08918e5590043bbad9faca83
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191561"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529475"
 ---
+# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Lync Server 2013에서 포리스트 준비로 인 한 변경 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Lync Server 2013에서 포리스트 준비로 인 한 변경 사항
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2012-10-30_
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory 전역 설정 및 개체
 
-전역 설정을 구성 컨테이너에 저장 하는 경우 (모든 새 Lync Server 2013 배포의 경우) 포리스트 준비에서는 기존 서비스 컨테이너를 사용 하 고 구성\\서비스 개체 아래에 **RTC 서비스** 개체를 추가 합니다. 포리스트 준비에서는 RTC Service 개체 아래에 msRTCSIP-GlobalContainer 유형의 **Global Settings** 개체를 추가합니다. 전역 설정 개체에는 Lync Server 배포에 적용 되는 모든 설정이 포함 됩니다. 시스템 컨테이너에 전역 설정을 저장 하는 경우 포리스트 준비에서는 루트 도메인 시스템 컨테이너 아래의 Microsoft 컨테이너와 시스템\\microsoft 개체 아래에 RTC 서비스 개체를 사용 합니다.
+전역 설정을 구성 컨테이너에 저장 하는 경우 (모든 새 Lync Server 2013 배포의 경우) 포리스트 준비에서는 기존 서비스 컨테이너를 사용 하 고 구성 서비스 개체 아래에 **RTC 서비스** 개체를 추가 \\ 합니다. 포리스트 준비에서는 RTC Service 개체 아래에 msRTCSIP-GlobalContainer 유형의 **Global Settings** 개체를 추가합니다. 전역 설정 개체에는 Lync Server 배포에 적용 되는 모든 설정이 포함 됩니다. 시스템 컨테이너에 전역 설정을 저장 하는 경우 포리스트 준비에서는 루트 도메인 시스템 컨테이너 아래의 Microsoft 컨테이너와 시스템 microsoft 개체 아래에 RTC 서비스 개체를 사용 \\ 합니다.
 
 또한 포리스트 준비에서는 절차가 실행되는 루트 도메인에 대한 새로운 **msRTCSIP-Domain** 개체를 추가합니다.
 
@@ -57,11 +59,11 @@ _**마지막으로 수정 된 항목:** 2012-10-30_
 
 유니버설 그룹에서는 관리자가 전역 설정 및 서비스를 액세스하고 관리할 수 있습니다. 포리스트를 준비하면 다음 유형의 유니버설 그룹이 추가됩니다.
 
-  - **관리 그룹**   이러한 그룹은 Lync Server 네트워크에 대 한 관리자 역할을 정의 합니다.
+  - **관리 그룹**     이러한 그룹은 Lync Server 네트워크에 대 한 관리자 역할을 정의 합니다.
 
-  - **인프라 그룹**   이러한 그룹은 Lync Server 인프라의 특정 영역에 액세스할 수 있는 권한을 제공 합니다. 이 그룹은 관리 그룹의 구성 요소로 작동합니다. 이러한 그룹을 수정하거나 여기에 사용자를 직접 추가해서는 안 됩니다.
+  - **인프라 그룹**     이러한 그룹은 Lync Server 인프라의 특정 영역에 액세스할 수 있는 권한을 제공 합니다. 이 그룹은 관리 그룹의 구성 요소로 작동합니다. 이러한 그룹을 수정하거나 여기에 사용자를 직접 추가해서는 안 됩니다.
 
-  - **서비스 그룹**   이러한 그룹은 다양 한 Lync Server 서비스에 액세스 하는 데 필요한 서비스 계정입니다.
+  - **서비스 그룹**     이러한 그룹은 다양 한 Lync Server 서비스에 액세스 하는 데 필요한 서비스 계정입니다.
 
 다음 표에서는 관리 그룹에 대해 설명합니다.
 

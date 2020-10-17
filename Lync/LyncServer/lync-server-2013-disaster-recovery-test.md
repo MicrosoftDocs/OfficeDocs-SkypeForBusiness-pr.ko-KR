@@ -12,20 +12,22 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0b274d933fbb1c9f47b219a492403bd1c5f58d5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2d36ec6ad1afb8c41c7c5f614e90e03ce4d9282
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197501"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528955"
 ---
+# <a name="disaster-recovery-test-in-lync-server-2013"></a>Lync Server 2013의 재해 복구 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disaster-recovery-test-in-lync-server-2013"></a>Lync Server 2013의 재해 복구 테스트
+
 
 </div>
 
@@ -74,7 +76,7 @@ Lync Server 2013 move user 프로세스는 RTC SQL 데이터베이스의 레코�
 
   - RTC 데이터베이스는 표준 SQL Server 복원 프로세스를 사용 하 여 프로덕션 SQL Server에서 원본 백업 덤프 장치 로부터 복원 하거나 타사 백업/복원 유틸리티를 사용 하 여 복원할 수 있습니다.
 
-  - 프로덕션 SQL Server 내보내기에서 만든 XML 파일을 사용 하 여 DB<C12> .EXP 유틸리티로 사용자 연락처 데이터를 복원할 수 있습니다.
+  - 프로덕션 SQL Server 내보내기에서 만든 XML 파일을 사용 하 여 DBIMPEXP.exe 유틸리티로 사용자 연락처 데이터를 복원할 수 있습니다.
 
 이 데이터를 복원한 후에는 사용자가 재해 복구 Lync Server 2013 풀에 효과적으로 연결 하 고 평소와 같이 작동할 수 있습니다.
 
@@ -82,21 +84,21 @@ Lync Server 2013 move user 프로세스는 RTC SQL 데이터베이스의 레코�
 
 프로덕션 Lync Server 2013 풀은 다음의 자동 구성 및 DNS SRV 레코드를 사용 하는 클라이언트에서 참조 됩니다.
 
-  - SRV: \_sip. \_tls \<도메인\> /CNAME: SIP \<도메인\>
+  - SRV: \_ sip. \_ ls.\<domain\> /CNAME: SIP\<domain\>
 
-  - CNAME: SIP \<도메인\> /cvc-pool-1. \<도메인\>
+  - CNAME: SIP\<domain\> /cvc-pool-1.\<domain\>
 
 장애 조치 (failover)를 촉진 하기 위해이 CNAME 레코드를 업데이트 하 여 DROCSPool FQDN을 참조 해야 합니다.
 
-  - CNAME: SIP \<도메인\> /DROCSPool. \<도메인\>
+  - CNAME: SIP\<domain\> /DROCSPool.\<domain\>
 
-  - 호흡. \<도메인\>
+  - 호흡.\<domain\>
 
-  - AV.\<도메인\>
+  - AV.\<domain\>
 
-  - fea-webconf-service. \<도메인\>
+  - fea-webconf-service.\<domain\>
 
-  - OCSServices \<도메인\>
+  - OCSServices\<domain\>
 
 <div>
 

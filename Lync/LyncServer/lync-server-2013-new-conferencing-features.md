@@ -12,20 +12,22 @@ ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4478a68392e751ee9e641542e7764237580e781
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1e04507e0dc109b4477973a3a36b851afe81014
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216984"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528045"
 ---
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Lync Server 2013의 새로운 회의 기능
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-conferencing-features-in-lync-server-2013"></a>Lync Server 2013의 새로운 회의 기능
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Server 2013에서는 다음 목록에 설명 된 대로 회의를 향상 �
 
   - **업데이트된 PowerPoint 공유**
     
-    이제 Lync Server 2013에서는 Office Web Apps와 Office Web Apps 서버 (이전의 WAC Server)를 사용 하 여 PowerPoint 프레젠테이션을 처리 합니다. Office Web Apps 서버를 사용 하면 더 많은 유형의 모바일 장치에 액세스할 수 있는 고해상도 디스플레이와 PowerPoint 기능에 대 한 지원, 즉 Lync Server 2013에서는 PowerPoint 프레젠테이션을 브로드캐스트하는 데 표준 DHTML 및 JavaScript를 사용 합니다. 적절 한 권한이 있는 사용자가 프레젠테이션 자체에 독립적으로 PowerPoint 프레젠테이션을 스크롤할 수 있는 기능입니다.
+    이제 Lync Server 2013에서는 Office Web Apps와 Office Web Apps 서버 (이전의 WAC Server)를 사용 하 여 PowerPoint 프레젠테이션을 처리 합니다. Office Web Apps 서버를 사용 하 여 보다 해상도가 높은 디스플레이를 제공 하 고 PowerPoint 기능을 보다 잘 지원 하며, 더 많은 유형의 모바일 장치에 액세스할 수 있습니다 (Lync Server 2013에서는 표준 DHTML 및 JavaScript를 사용 하 여 PowerPoint 프레젠테이션을 브로드캐스트하기) 및 적절 한 권한이 있는 사용자가 PowerPoint 프레젠테이션을 프레젠테이션 자체와 독립적으로 스크롤할 수 있습니다.
 
   - **갤러리와 HD 비디오 회의**
     
@@ -86,7 +88,7 @@ Lync Server 2013에서는 다음 목록에 설명 된 대로 회의를 향상 �
     
     이제 Lync Server 2013에서는 Enterprise Voice가 아닌 참가자가 모임 회의에서 전화 걸기를 시작할 수 있도록 허용 합니다. 이 기능은 관리자가 구성할 수 있습니다.
 
-  - **보관할**
+  - **보관**
     
     Exchange Server 통합이 보관 기능을 사용 하도록 설정 된 경우 회의 중에 공유 되는 모든 문서가 Exchange 2013 데이터 저장소에 보관 됩니다. 여기에는 PowerPoint 프레젠테이션, 첨부 파일, 화이트보드 및 설문이 포함됩니다.
 

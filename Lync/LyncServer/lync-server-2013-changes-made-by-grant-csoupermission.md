@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 부여-CsOUPermission에서 변경한 내용'
+title: 'Lync Server 2013: Grant-CsOUPermission에서 변경한 내용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6143310797c7372a30665cd380d7fb07340ebaf9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0ff916c0b4e284f9c6ce4d5dbaf9c2e196ed4bc6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191571"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529435"
 ---
+# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a>Lync Server 2013의 Grant-CsOUPermission에의 한 변경 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a>Lync Server 2013의 부여-CsOUPermission에서 변경한 내용
+
 
 </div>
 
@@ -57,7 +59,7 @@ OU의 User 개체에 대해 **Grant-CsOuPermission** cmdlet을 실행하면 다�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group</th>
+<th>그룹</th>
 <th>사용 권한</th>
 <th>적용 대상</th>
 </tr>
@@ -123,7 +125,7 @@ OU의 Computer 개체에 대해 **Grant-CsOuPermission** cmdlet을 실행하면 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group</th>
+<th>그룹</th>
 <th>사용 권한</th>
 <th>적용 대상</th>
 </tr>
@@ -182,7 +184,7 @@ OU의 Contact 또는 AppContact 개체에 대해 **Grant-CsOuPermission** cmdlet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group</th>
+<th>그룹</th>
 <th>사용 권한</th>
 <th>적용 대상</th>
 </tr>
@@ -253,7 +255,7 @@ OU의 Device 개체에 대해 **Grant-CsOuPermission** cmdlet을 실행하면 �
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group</th>
+<th>그룹</th>
 <th>사용 권한</th>
 <th>적용 대상</th>
 </tr>
@@ -338,7 +340,7 @@ OU의 InetOrgPerson 개체에 대해 **Grant-CsOuPermission** cmdlet을 실행�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group</th>
+<th>그룹</th>
 <th>사용 권한</th>
 <th>적용 대상</th>
 </tr>

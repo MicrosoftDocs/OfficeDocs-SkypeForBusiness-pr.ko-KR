@@ -12,20 +12,22 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1511ea24acb058f8de7bdbcf7f831e6493b2ffd6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33c3db01f772f43ea8507cee5c309b6705c8a69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197181"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528145"
 ---
+# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 풀 및 Standard Edition 서버에 대 한 IIS 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 풀 및 Standard Edition 서버에 대 한 IIS 요구 사항
+
 
 </div>
 
@@ -70,7 +72,7 @@ Lync Server를 사용 하려면 다음 IIS 모듈을 설치 해야 합니다.
 
 
 > [!IMPORTANT]
-> 조직에서 IIS 및 모든 웹 서비스를 시스템 드라이브가 아닌 다른 드라이브에 배치 해야 하는 경우 설치 대화 상자에서 Lync Server 파일의 설치 위치 경로를 변경할 수 있습니다. OCSCore를 포함 하 여이 경로에 설치 파일을 설치 하는 경우 나머지 Lync Server 파일이이 드라이브에도 배포 됩니다. IIS를 설치할 때 Windows Server 관리자가 배포한 INETPUB의 위치를 변경 하는 방법에 <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>대 한 자세한 내용은를 참조 하십시오.
+> 조직에서 IIS 및 모든 웹 서비스를 시스템 드라이브가 아닌 다른 드라이브에 배치 해야 하는 경우 설치 대화 상자에서 Lync Server 파일의 설치 위치 경로를 변경할 수 있습니다. OCSCore.msi를 포함 하 여이 경로에 설치 파일을 설치 하면 나머지 Lync Server 파일이이 드라이브에도 배포 됩니다. IIS를 설치할 때 Windows Server 관리자가 배포한 INETPUB의 위치를 변경 하는 방법에 대 한 자세한 내용은를 참조 하십시오 <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> .
 
 
   - 정적 콘텐츠
@@ -129,58 +131,58 @@ Lync Server를 사용 하려면 다음 IIS 모듈을 설치 해야 합니다.
 <tbody>
 <tr class="odd">
 <td><p>주소록 서버</p></td>
-<td><p>https://&lt;내부 FQDN&gt;/ABS/int/Handler</p></td>
+<td><p>https:// &lt; 내부 FQDN &gt; /ABS/int/Handler</p></td>
 <td><p>내부 사용자 용 주소록 서버 다운로드 파일의 위치</p></td>
 </tr>
 <tr class="even">
 <td><p>자동 검색 서비스</p></td>
-<td><p>https://&lt;내부 FQDN&gt;/자동 검색</p></td>
+<td><p>https:// &lt; 내부 FQDN &gt; /자동 검색</p></td>
 <td><p>내부 모바일 장치 사용자에 대 한 모바일 리소스를 찾는 Lync Server 자동 검색 서비스의 위치입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>클라이언트 업데이트</p></td>
-<td><p>http://&lt;내부 FQDN&gt;/AutoUpdate/Int</p></td>
+<td><p>http:// &lt; 내부 FQDN &gt; /AutoUpdate/Int</p></td>
 <td><p>내부 컴퓨터 기반 클라이언트용 업데이트 파일의 위치</p></td>
 </tr>
 <tr class="even">
 <td><p>회의</p></td>
-<td><p>http://&lt;내부 FQDN&gt;/vrvi</p></td>
+<td><p>http:// &lt; 내부 FQDN &gt; /vrvi</p></td>
 <td><p>내부 사용자에 대 한 회의 리소스의 위치입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>장치 업데이트</p></td>
-<td><p>http://&lt;내부 FQDN&gt;/DeviceUpdateFiles_Int</p></td>
+<td><p>http:// &lt; 내부 FQDN &gt; /DeviceUpdateFiles_Int</p></td>
 <td><p>내부 UC 장치에 대 한 UC (통합 통신) 장치 업데이트 파일의 위치</p></td>
 </tr>
 <tr class="even">
 <td><p>모임</p></td>
-<td><p>http://&lt;내부 FQDN&gt;/etc/place/null</p></td>
+<td><p>http:// &lt; 내부 FQDN &gt; /etc/place/null</p></td>
 <td><p>내부 사용자에 대 한 모임 콘텐츠 위치입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>모바일 서비스</p></td>
-<td><p>https://&lt;내부 FQDN&gt;/mcx</p></td>
+<td><p>https:// &lt; 내부 FQDN &gt; /Mcx</p></td>
 <td><p>내부 모바일 장치 사용자에 대 한 모바일 서비스 리소스의 위치</p></td>
 </tr>
 <tr class="even">
 <td><p>그룹 확장 및 주소록 웹 쿼리 서비스</p></td>
-<td><p>http://&lt;내부 FQDN&gt;/GroupExpansion/int/service.asmx</p></td>
+<td><p>http:// &lt; 내부 FQDN &gt; /GroupExpansion/int/service.asmx</p></td>
 <td><p>내부 사용자에 대 한 그룹 확장을 사용 하도록 설정 하는 웹 서비스의 위치입니다. 또한 내부 Lync Mobile Microsoft Lync 2010 모바일 클라이언트에 전체 주소 목록 정보를 제공 하는 주소록 웹 쿼리 서비스의 위치가 있습니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>전화 회의</p></td>
-<td><p>http://&lt;내부 FQDN&gt;/PhoneConferencing/Int</p></td>
+<td><p>http:// &lt; 내부 FQDN &gt; /PhoneConferencing/Int</p></td>
 <td><p>내부 사용자에 대 한 전화 회의 데이터의 위치입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>장치 업데이트</p></td>
-<td><p>http://&lt;내부 FQDN&gt;/RequestHandler</p></td>
+<td><p>http:// &lt; 내부 FQDN &gt; /RequestHandler</p></td>
 <td><p>내부 UC 장치가 로그를 업로드 하 고 업데이트를 확인할 수 있도록 하는 장치 업데이트 웹 서비스 요청 처리기의 위치입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>응답 그룹 응용 프로그램</p></td>
-<td><p>http://&lt;내부 FQDN&gt;/RgsConfig</p>
-<p>http://&lt;내부 FQDN&gt;/RgsClients</p></td>
+<td><p>http:// &lt; 내부 FQDN &gt; /RgsConfig</p>
+<p>http:// &lt; 내부 FQDN &gt; /RgsClients</p></td>
 <td><p>응답 그룹 구성 도구의 위치입니다.</p></td>
 </tr>
 </tbody>

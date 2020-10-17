@@ -12,20 +12,22 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93750418bce8ea98d0cee385232bc09bb0bd63bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57397d3c2629c0f3f69ebb616c3d933c8312f7b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208824"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527955"
 ---
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>포트 요약-Lync Server 2013의 자동 검색
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---autodiscover-in-lync-server-2013"></a>포트 요약-Lync Server 2013의 자동 검색
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42208824"
 
 _**마지막으로 수정 된 항목:** 2013-03-05_
 
-Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 서버에서 실행 되 고, `lyncdiscover.<domain>` 및 `lyncdiscoverinternal.<domain>` 호스트 레코드를 사용 하 여 DNS에 게시 되 면 클라이언트에서 lync server 기능을 찾을 때 사용할 수 있습니다. Lync Mobile을 실행 하는 모바일 장치에서 자동 검색을 사용 하려면 먼저 자동 검색 서비스를 실행 하는 모든 디렉터 및 프런트 엔드 서버에서 인증서 주체 대체 이름 목록을 수정 해야 할 수 있습니다. 또한 역방향 프록시에 대한 외부 웹 서비스 게시 규칙에 사용되는 인증서에서도 주체 대체 이름 목록을 수정해야 할 수 있습니다.
+Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 서버에서 실행 되 고, 및 호스트 레코드를 사용 하 여 DNS에 게시 되 면 `lyncdiscover.<domain>` `lyncdiscoverinternal.<domain>` 클라이언트에서 lync server 기능을 찾을 때 사용할 수 있습니다. Lync Mobile을 실행 하는 모바일 장치에서 자동 검색을 사용 하려면 먼저 자동 검색 서비스를 실행 하는 모든 디렉터 및 프런트 엔드 서버에서 인증서 주체 대체 이름 목록을 수정 해야 할 수 있습니다. 또한 역방향 프록시에 대한 외부 웹 서비스 게시 규칙에 사용되는 인증서에서도 주체 대체 이름 목록을 수정해야 할 수 있습니다.
 
 역방향 프록시에서 주체 대체 이름 목록을 사용할지 여부에 대 한 결정은 포트 80 또는 포트 443에 자동 검색 서비스를 게시할지 여부에 따라 달라 집니다.
 
-  - **모바일 장치용 포트 80**   에 게시 된 경우 자동 검색 서비스에 대 한 초기 쿼리가 포트 80를 통해 수행 되는 경우 인증서를 변경할 필요가 없습니다. Lync를 실행 하는 모바일 장치는 외부에서 포트 80의 역방향 프록시에 액세스 한 다음 내부적으로 포트 8080에서 디렉터 또는 프런트 엔드 서버로 리디렉션되도록 하기 때문입니다.
+  - **포트 80**     에 게시 됨 모바일 장치의 경우 자동 검색 서비스에 대 한 초기 쿼리가 포트 80를 통해 수행 되는 경우 인증서를 변경할 필요가 없습니다. Lync를 실행 하는 모바일 장치는 외부에서 포트 80의 역방향 프록시에 액세스 한 다음 내부적으로 포트 8080에서 디렉터 또는 프런트 엔드 서버로 리디렉션되도록 하기 때문입니다.
 
-  - **게시 된 포트 443**   외부 웹 서비스 게시 규칙에서 사용 하는 인증서의 주체 대체 이름 목록에 조직 내의 `lyncdiscover.<sipdomain>` 각 SIP 도메인에 대 한 항목이 포함 되어 있어야 합니다.
+  - **포트 443**     에 게시 됨 외부 웹 서비스 게시 규칙에서 사용 하는 인증서의 주체 대체 이름 목록에 `lyncdiscover.<sipdomain>` 조직 내의 각 SIP 도메인에 대 한 항목이 포함 되어 있어야 합니다.
     
     <div>
     
@@ -68,7 +70,7 @@ Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 �
 <th>프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
@@ -76,7 +78,7 @@ Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 �
 <td><p>HTTP/TCP/80</p></td>
 <td><p>모두</p></td>
 <td><p>역방향 프록시 수신기</p></td>
-<td><p>반드시 사용자가 http://&lt;publishedSiteFQDN&gt;를 입력 한 경우 HTTPS로 리디렉션 또한 조직에서 외부 웹 서비스 게시 규칙 인증서를 수정 하지 않으려는 상황에서 Lync를 실행 하는 모바일 장치에 대 한 자동 검색 서비스와 회의에 Office Web Apps를 사용 하는 경우에도 필요 합니다.</p></td>
+<td><p>반드시 사용자가 http://publishedSiteFQDN를 입력 한 경우 HTTPS로 리디렉션 &lt; &gt; 또한 조직에서 외부 웹 서비스 게시 규칙 인증서를 수정 하지 않으려는 상황에서 Lync를 실행 하는 모바일 장치에 대 한 자동 검색 서비스와 회의에 Office Web Apps를 사용 하는 경우에도 필요 합니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
@@ -102,7 +104,7 @@ Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 �
 <th>프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52903a2e7ae1b9a3a994a1199e32d8d7c4bd1e03
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5dd461e6a8ce184e5e418feddede258af68d2c25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202354"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528375"
 ---
+# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Lync Server 2013 토폴로지를 내보내고에 지 설치를 위해 외부 미디어에 복사 합니다.
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Lync Server 2013 토폴로지를 내보내고에 지 설치를 위해 외부 미디어에 복사 합니다.
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202354"
 
 _**마지막으로 수정 된 항목:** 2012-09-08_
 
-토폴로지를 게시 한 후에는 Lync Server 배포 마법사에서 중앙 관리 저장소 데이터에 액세스 하 여 서버에서 배포 프로세스를 시작 해야 합니다. 내부 네트워크에서는 서버에서 데이터를 직접 사용할 수 있지만 내부 도메인에 없는 에지 서버에서는 데이터에 액세스할 수 없습니다. 에 지 서버 배포에서 토폴로지 구성 데이터를 사용할 수 있도록 하려면 Lync Server Dep를 실행 하기 전에 토폴로지 데이터를 파일로 내보낸 다음 해당 파일을 외부 미디어 (예:에 지 서버에서 사용할 수 있는 USB 드라이브 또는 네트워크 공유)에 복사 해야 합니다. 에 지 서버에서 loyment 마법사를 설정 합니다. 다음 절차를 사용하여 배포 중인 에지 서버에서 토폴로지 구성 데이터를 사용할 수 있도록 설정할 수 있습니다.
+토폴로지를 게시 한 후에는 Lync Server 배포 마법사에서 중앙 관리 저장소 데이터에 액세스 하 여 서버에서 배포 프로세스를 시작 해야 합니다. 내부 네트워크에서는 서버에서 데이터를 직접 사용할 수 있지만 내부 도메인에 없는 에지 서버에서는 데이터에 액세스할 수 없습니다. 에 지 서버 배포에서 토폴로지 구성 데이터를 사용할 수 있도록 하려면에 지 서버에서 Lync Server 배포 마법사를 실행 하기 전에 토폴로지 데이터를 파일로 내보낸 후에 지 서버에서 사용할 수 있는 USB 드라이브 또는 네트워크 공유 등의 외부 미디어에 복사 해야 합니다. 다음 절차를 사용하여 배포 중인 에지 서버에서 토폴로지 구성 데이터를 사용할 수 있도록 설정할 수 있습니다.
 
 <div>
 

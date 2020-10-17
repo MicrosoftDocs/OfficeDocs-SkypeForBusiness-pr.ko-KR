@@ -12,20 +12,22 @@ ms:contentKeyID: 51541457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5842a22d1899398b282e7305e4dd921fea86ea39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89d512eea147039a5766193f9ec2a20cf45caaa0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190701"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528725"
 ---
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013의 사용자에 대 한 그룹 통화 픽업 사용 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013의 사용자에 대 한 그룹 통화 픽업 사용 설정
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190701"
 
 _**마지막으로 수정 된 항목:** 2013-01-30_
 
-SEFAUtil resource kit 도구를 사용 하 여 사용자에 대 한 그룹 통화 픽업을 사용 하도록 설정 합니다. 그룹 통화 픽업를 사용 하도록 설정 하려면 사용자에 게 통화 대기 궤도 테이블에서 GroupPickup 유형의 그룹 번호를 할당 해야 합니다. SEFAUtil를 실행할 때 call pickup 그룹 번호를 할당 하 고/enablegrouppickup 매개 변수를 사용 하 여 그룹 통화 픽업를 동시에 사용 하도록 설정 합니다.
+SEFAUtil resource kit 도구를 사용 하 여 사용자에 대 한 그룹 통화 픽업을 사용 하도록 설정 합니다. 그룹 통화 픽업를 사용 하도록 설정 하려면 사용자에 게 통화 대기 궤도 테이블에서 GroupPickup 유형의 그룹 번호를 할당 해야 합니다. SEFAUtil.exe 실행할 때/enablegrouppickup 매개 변수를 사용 하 여 통화 픽업 그룹 번호를 할당 하 고 동시에 그룹 통화 픽업 기능을 사용 하도록 설정 합니다.
 
 <div>
 

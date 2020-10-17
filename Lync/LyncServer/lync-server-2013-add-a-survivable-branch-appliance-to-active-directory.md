@@ -12,20 +12,22 @@ ms:contentKeyID: 48183938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d8efb03b4d67b6409f93b6a99d2314cb703952
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f52d9c5e88e88665f530d6d7ace06a07c4814b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191281"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529565"
 ---
+# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Lync Server 2013에서 Active Directory에 Sba (survivable Branch 기기 추가
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Lync Server 2013에서 Active Directory에 Sba (survivable Branch 기기 추가
+
 
 </div>
 
@@ -80,7 +82,7 @@ Sba (survivable 분기 기기를 배포 하려는 경우 Active Directory 도메
 
 9.  특성 목록에서 **servicePrincipalName**을 클릭하고 **편집**을 클릭합니다.
 
-10. **추가할 값** \<필드에 호스트/sba fqdn\> , 여기서 \<sba fqdn\> 은 sba (survivable Branch 기기의 fqdn (정규화 된 도메인 이름)을 입력 합니다. 예를 들어 **HOST/: branchoffice1**를 입력 합니다.
+10. **추가할 값** 필드에 호스트/ \<SBA FQDN\> 여기에 \<SBA FQDN\> sba (survivable Branch 기기의 FQDN (정규화 된 도메인 이름)을 입력 합니다. 예를 들어 **HOST/: branchoffice1**를 입력 합니다.
 
 11. **확인**을 클릭하여 **servicePrincipalName** 특성 설정을 저장하고 **확인**을 클릭하여 컴퓨터 개체 속성을 저장합니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e521e1665361e15fffdf1e058731d04bc2eb9aa4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7aaecb9bd7b5fc4f144236f83f85f9e1e192784f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197611"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529115"
 ---
+# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Lync Server 2013의 직접 SIP 배포 옵션
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Lync Server 2013의 직접 SIP 배포 옵션
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 <div>
 
-## <a name="lync-server-stand-alone"></a>Lync Server 독립 실행형
+## <a name="lync-server-stand-alone"></a>Lync Server Stand-Alone
 
 조직에서이 섹션에 설명 된 배포 중 하나를 사용 하는 경우 Lync Server 2013를 조직의 일부 또는 전체에 대 한 유일한 전화 통신 솔루션으로 사용할 수 있습니다. 이 섹션에서는 다음 배포에 대해 자세히 설명 합니다.
 
@@ -71,7 +73,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 
 > [!NOTE]  
-> Lync Server 배포를 인증 된 직접 SIP 파트너에 연결 하는 경우 중재 서버와 PBX 사이에 PSTN (공중 전화망) 게이트웨이가 필요 하지 않습니다. 인증 된 직접 SIP 파트너 목록은에서 <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램 웹 사이트를 참조 하세요.
+> Lync Server 배포를 인증 된 직접 SIP 파트너에 연결 하는 경우 중재 서버와 PBX 사이에 PSTN (공중 전화망) 게이트웨이가 필요 하지 않습니다. 인증 된 직접 SIP 파트너 목록은에서 Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램 웹 사이트를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A> .
 
 
 
@@ -141,9 +143,9 @@ Enterprise Voice가 PBX 앞에 배포 되 면 모든 전화가 PSTN 게이트웨
 
 <div>
 
-## <a name="lync-server-voip-only-deployment"></a>Lync Server VoIP 전용 배포
+## <a name="lync-server-voip-only-deployment"></a>Lync Server VoIP-Only 배포
 
-Enterprise Voice는 새로운 기업과 기존 비즈니스를 위한 새로운 office 사이트를 제공 하며, PBX 통합에 대 한 걱정 없이 전체 기능을 갖춘 VoIP 솔루션을 구현 하거나, 실제 배포 및 유지 관리를 수행 하지 않아도 됩니다. IP PBX 인프라 비용 이 솔루션은 사이트 및 원격 작업자를 모두 지원 합니다.
+Enterprise Voice는 새로운 기업과 기존 비즈니스를 위한 새로운 office 사이트를 제공 하며, PBX 통합에 대 한 걱정 없이 전체 기능을 갖춘 VoIP 솔루션을 구현 하거나, IP PBX 인프라의 실질적인 배포 및 유지 관리 비용을 지불 하지 않아도 됩니다. 이 솔루션은 사이트 및 원격 작업자를 모두 지원 합니다.
 
 이 배포에서는 모든 통화가 IP 네트워크를 통해 라우팅됩니다. PSTN 통화는 적절 한 PSTN 게이트웨이로 라우팅됩니다. Lync 2013 또는 Lync Phone Edition은 softphone 역할을 합니다. 사용자가 제어할 PBX 전화가 없기 때문에 원격 통화 제어를 사용할 수 없으며 필요 하지 않습니다. 음성 메일 및 자동 전화 교환 서비스는 Exchange UM (통합 메시징)의 선택적 배포를 통해 제공 됩니다.
 

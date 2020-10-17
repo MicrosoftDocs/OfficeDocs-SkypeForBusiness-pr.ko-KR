@@ -12,20 +12,22 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edaa9a938fe893ebca6f4e8abee4a3f41d1527dc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b63e29608dd8c3a0187b17c03e6ba9373b31f08f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193191"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527765"
 ---
+# <a name="understanding-autodiscover-in-lync-server-2013"></a>Lync Server 2013의 자동 검색 이해
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-autodiscover-in-lync-server-2013"></a>Lync Server 2013의 자동 검색 이해
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**마지막으로 수정 된 항목:** 2013-06-03_
 
 Lync Server 2013 자동 검색 서비스는 Lync Server 2010:11 월 2011에 대 한 누적 업데이트의 일부로, 원래 Microsoft Lync Server 2010에 도입 된 기능입니다. 수정 사항 외에도이 누적 업데이트는 Lync Mobile 및 Lync 2013 클라이언트에 대 한 지원을 제공 합니다.
 
-Lync Server 2013에서 자동 검색 서비스는 외부 및 내부 모바일 클라이언트 작업의 필수 부분이 며, Windows 8 용으로 최근에 도입 된 Lync Windows 스토어 앱과 같은 새 클라이언트로도 자동 검색을 확장 합니다. 자동 검색은 Lync 2013 데스크톱 클라이언트 에서도 사용 됩니다. 입력은 필요한 DNS (domain name system) record **lyncdiscover를 통해 Lync Server에서 인식 됩니다\< . 도메인\> ** 및 **lyncdiscoverinternal.\< 도메인\>** 또한 최신 버전의 Lync 2010 및 Lync 2013 데스크톱 클라이언트는 DNS (domain name system) SRV 레코드에 대 한 자동 검색을 우선적으로 사용 합니다 (lyncdiscover 인 경우에만 DNS SRV 레코드). \<도메인\> 또는 lyncdiscoverinternal \<도메인이\> 응답 하지 않거나 확인 하지 않습니다. Windows 8 및 Lync Mobile 용 Lync Windows 스토어 앱은 자동 검색을 단독으로 사용 하며 기존 DNS SRV 레코드를 참조 하지 않습니다.
+Lync Server 2013에서 자동 검색 서비스는 외부 및 내부 모바일 클라이언트 작업의 필수 부분이 며, Windows 8 용으로 최근에 도입 된 Lync Windows 스토어 앱과 같은 새 클라이언트로도 자동 검색을 확장 합니다. 자동 검색은 Lync 2013 데스크톱 클라이언트 에서도 사용 됩니다. 입력은 필요한 DNS (domain name system) record **lyncdiscover \<domain\> ** 를 통해 Lync Server에서 인식 됩니다. 및 **lyncdiscoverinternal \<domain\> ** 또한 최신 버전의 Lync 2010 및 Lync 2013 데스크톱 클라이언트는 DNS (domain name system) SRV 레코드에 대 한 자동 검색을 우선적으로 사용 합니다 (lyncdiscover 인 경우에만 DNS SRV 레코드).\<domain\> 또는 lyncdiscoverinternal입니다.\<domain\> 응답 하지 않거나 확인 하지 않습니다. Windows 8 및 Lync Mobile 용 Lync Windows 스토어 앱은 자동 검색을 단독으로 사용 하며 기존 DNS SRV 레코드를 참조 하지 않습니다.
 
-Lync Server 2013에서는 클라이언트에서 사용할 수 있는 요소, 기능 및 통신 방법을 클라이언트에 알리기 위해 자동 검색 기능이 확장 되었습니다. 이 정보는 클라이언트에서 전송 되는 요청을 통해 전달 되며, Lync Server 웹 서비스는 클라이언트에 게 제공 되는 이름을 명확 하 게 정의 된 응답과 함께 응답 하 고 해당 기능에 문의 하 여 자동 검색 형식으로 연락 하는 방법을 설명 합니다. 응답 문서
+Lync Server 2013에서는 클라이언트에서 사용할 수 있는 요소, 기능 및 통신 방법을 클라이언트에 알리기 위해 자동 검색 기능이 확장 되었습니다. 정보는 클라이언트에서 전송 되는 요청을 통해 전달 되며, Lync Server 웹 서비스는 클라이언트에 게 제공 되는 이름을 명확 하 게 정의 된 응답으로 응답 하 고 자동 검색 응답 문서 형식으로 이러한 기능에 연락 하는 방법을 설명 합니다.
 
 웹 서비스가이 문서를 통해 클라이언트에 기능을 전달 하는 방법을 비롯 하 여 자동 검색 응답 문서를 이해 하는 가장 좋은 방법은 Lync web service 자동 검색 응답 문서의 일반적인 응답에서 각 줄을 dissect 하 고 정의 하는 것입니다.
 
@@ -59,7 +61,7 @@ Lync Server 2013에서는 클라이언트에서 사용할 수 있는 요소, 기
 
 
 > [!NOTE]  
-> Lync 자동 검색 웹 서비스는 MSDN ( <STRONG>Microsoft Developer Network</STRONG> ) 라이브러리의 <STRONG>공개 사양</STRONG> 섹션에 있는 <STRONG>microsoft Office 프로토콜</STRONG> 에 정의 되어 있습니다. 자세한 내용은의 "Lync 자동 검색 웹 서비스 프로토콜" <A href="https://go.microsoft.com/fwlink/?linkid=273839">https://go.microsoft.com/fwlink/?LinkId=273839</A>전체 사양 문서를 참조 하십시오. 인증에 대 한 자세한 내용은의 <A href="https://go.microsoft.com/fwlink/?linkid=279015">https://go.microsoft.com/fwlink/?LinkId=279015</A>"OC 인증 웹 서비스 프로토콜"을 참조 하세요.
+> Lync 자동 검색 웹 서비스는 MSDN ( <STRONG>Microsoft Developer Network</STRONG> ) 라이브러리의 <STRONG>공개 사양</STRONG> 섹션에 있는 <STRONG>microsoft Office 프로토콜</STRONG> 에 정의 되어 있습니다. 자세한 내용은의 "Lync 자동 검색 웹 서비스 프로토콜" 전체 사양 문서를 참조 <A href="https://go.microsoft.com/fwlink/?linkid=273839">https://go.microsoft.com/fwlink/?LinkId=273839</A> 하십시오. 인증에 대 한 자세한 내용은의 "OC 인증 웹 서비스 프로토콜"을 참조 <A href="https://go.microsoft.com/fwlink/?linkid=279015">https://go.microsoft.com/fwlink/?LinkId=279015</A> 하세요.
 
 
 
@@ -129,7 +131,7 @@ SipClientInternalAccess 및 SipClientExternalAccess에서는 내부 또는 외�
 
     <Link token ="External/Autodiscover" href="https://webexternal.contoso.com/Autodiscover/AutodiscoverService.svc/root"/>
 
-참조 `Autodiscover` 에 자동 검색 서비스에 대 한 서비스 진입점이 포함 됩니다. Token 특성은 서비스 이름을 포함 하며, href는 서비스를 찾을 수 있는 클라이언트에 대해 정의 되는 URL입니다. 외부 네트워크의 클라이언트는를 `External/Autodiscover`사용 합니다. 자동 검색 서비스는 배포 프로세스의 일부로 설치 됩니다. `Internal/Autodiscover`는 현재 사용 되지 않으며 나중에 사용 하도록 예약 되어 있습니다.
+`Autodiscover`참조에 자동 검색 서비스에 대 한 서비스 진입점이 포함 됩니다. Token 특성은 서비스 이름을 포함 하며, href는 서비스를 찾을 수 있는 클라이언트에 대해 정의 되는 URL입니다. 외부 네트워크의 클라이언트는를 사용 `External/Autodiscover` 합니다. 자동 검색 서비스는 배포 프로세스의 일부로 설치 됩니다. `Internal/Autodiscover` 는 현재 사용 되지 않으며 나중에 사용 하도록 예약 되어 있습니다.
 
     <Link token="Internal/AuthBroker" href="https://webinternal.contoso.net/Reach/sip.svc"/>
 
@@ -137,7 +139,7 @@ SipClientInternalAccess 및 SipClientExternalAccess에서는 내부 또는 외�
 
     <Link token="External/AuthBroker" href="https://webexternal.contoso.com/Reach/sip.svc"/>
 
-참조 `AuthBroker` 에는 내부 및 외부 인증 브로커 서비스에 대 한 서비스 진입점 (이 경우에는 sip.)이 포함 됩니다. Token 특성은 서비스 이름을 포함 하며, href는 서비스를 찾을 수 있는 클라이언트에 대해 정의 되는 URL입니다. 사용 `Internal/AuthBroker`하는 내부 네트워크의 클라이언트 외부 네트워크의 클라이언트는를 `External/AuthBroker`사용 합니다. AuthBroker 서비스는 내부 Lync Server 2013 배포 웹 서비스 배포 프로세스의 일부로 설치 됩니다.
+참조에는 `AuthBroker` 내부 및 외부 인증 브로커 서비스에 대 한 서비스 진입점 (이 경우에는 sip.)이 포함 됩니다. Token 특성은 서비스 이름을 포함 하며, href는 서비스를 찾을 수 있는 클라이언트에 대해 정의 되는 URL입니다. 사용 하는 내부 네트워크의 클라이언트 `Internal/AuthBroker` 외부 네트워크의 클라이언트는를 사용 `External/AuthBroker` 합니다. AuthBroker 서비스는 내부 Lync Server 2013 배포 웹 서비스 배포 프로세스의 일부로 설치 됩니다.
 
     <Link token="Internal/WebScheduler" href="https://webinternal.contoso.net/Scheduler"/>
 
@@ -145,7 +147,7 @@ SipClientInternalAccess 및 SipClientExternalAccess에서는 내부 또는 외�
 
     <Link token="External/WebScheduler" href="https://webexternal.contoso.com/Scheduler"/>
 
-이 `WebScheduler` 토큰은 Lync Server 회의에 대 한 웹 기반 예약에 대 한 클라이언트 액세스 url을 참조 합니다. 현재만 사용 `External/WebScheduler` 됩니다. WebScheduler는 내부 Lync Server 2013 배포 웹 서비스 배포 프로세스의 일부로 설치 됩니다.
+이 `WebScheduler` 토큰은 Lync Server 회의에 대 한 웹 기반 예약에 대 한 클라이언트 액세스 url을 참조 합니다. 현재만 `External/WebScheduler` 사용 됩니다. WebScheduler는 내부 Lync Server 2013 배포 웹 서비스 배포 프로세스의 일부로 설치 됩니다.
 
     <Link token="Internal/Mcx" href="https://webexternal.contoso.net/Mcx/McxService.svc"/>
 
@@ -153,7 +155,7 @@ SipClientInternalAccess 및 SipClientExternalAccess에서는 내부 또는 외�
 
     <Link token="External/Mcx" href="https://webexternal.contoso.com/Mcx/McxService.svc"/>
 
-`Internal/Mcx`또한 `External/Mcx` 모바일 서비스의 위치는 Lync Server 2010 용 누적 업데이트에서 도입 되었으며 11 월 2011입니다. 이러한 참조는 지원 되는 모든 장치에서 Lync 2010 Mobile에 계속 사용 됩니다. Mcx 서비스는 내부 Lync Server 2013 배포 웹 서비스 배포 프로세스의 일부로 설치 됩니다.
+`Internal/Mcx` 또한 `External/Mcx` 모바일 서비스의 위치는 Lync Server 2010 용 누적 업데이트에서 도입 되었으며 11 월 2011입니다. 이러한 참조는 지원 되는 모든 장치에서 Lync 2010 Mobile에 계속 사용 됩니다. Mcx 서비스는 내부 Lync Server 2013 배포 웹 서비스 배포 프로세스의 일부로 설치 됩니다.
 
     <Link token="Internal/Ucwa" href="https://webinternal.contoso.net/ucwa/v1/applications"/>
 
@@ -165,7 +167,7 @@ SipClientInternalAccess 및 SipClientExternalAccess에서는 내부 또는 외�
 
     <Link token="Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
 
-**내부/** 일부 wa, **외부/** c u c e c e c e c e c s e c e c e c e c e c e c e c e c e c/c e c e **c/c** e c l i `Internal/Ucwa`또한 `External/Ucwa` 가상 디렉터리는 미래 기능 개선을 위해 예약 된 액세스 포인트 이며 사용 되지 않습니다. 지원 `Ucwa` 되는 모든 장치에서 Microsoft lync Mobile (lync Server 2013에 도입 됨)에 가상 디렉터리를 사용 합니다. 내부 Lync Server 2013 배포 웹 서비스 배포 프로세스의 일환으로 지원 됩니다.
+**내부/** 일부 wa, **외부/** c u c e c e c e c e c s e c e c e c e c e c e c e c e c e c/c e c e **c/c** e c l i `Internal/Ucwa` 또한 `External/Ucwa` 가상 디렉터리는 미래 기능 개선을 위해 예약 된 액세스 포인트 이며 사용 되지 않습니다. `Ucwa`지원 되는 모든 장치에서 Microsoft Lync Mobile (Lync Server 2013에 도입 됨)에 가상 디렉터리를 사용 합니다. 내부 Lync Server 2013 배포 웹 서비스 배포 프로세스의 일환으로 지원 됩니다.
 
     <Link token="Internal/XFrame" href="https://webinternal.contoso.net/Autodiscover/XFrame/XFrame.html"/>
 
@@ -181,7 +183,7 @@ SipClientInternalAccess 및 SipClientExternalAccess에서는 내부 또는 외�
 
     <Link token="Self" href="https://webexternal.contoso.net/Autodiscover/AutodiscoverService.svc/root/user"/>
 
-이 `Self` 토큰은 요청을 수행 하는 클라이언트 (사용자 응답 형식) 관련 정보를 참조 합니다. 이 요청을 수행한 클라이언트는 외부에서 자동 검색 서비스의 사용자 부분으로 참조 됩니다.
+`Self`이 토큰은 요청을 수행 하는 클라이언트 (사용자 응답 형식) 관련 정보를 참조 합니다. 이 요청을 수행한 클라이언트는 외부에서 자동 검색 서비스의 사용자 부분으로 참조 됩니다.
 
 </div>
 

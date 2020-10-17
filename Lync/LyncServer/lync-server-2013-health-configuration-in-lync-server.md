@@ -12,20 +12,22 @@ ms:contentKeyID: 48185305
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea97a57deba77e0bc5b7f2a77a973bb1fb8c21b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa0164a9e3003c130bc7b14a4312397a4559843c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528245"
 ---
+# <a name="health-configuration-in-lync-server-2013"></a>Lync Server 2013의 상태 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="health-configuration-in-lync-server-2013"></a>Lync Server 2013의 상태 구성
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2012-10-22_
 
 예를 들어 Lync Server는 네트워크 중단 및 하드웨어 오류와 같이 제품 자체에서 제어할 수 없는 여러 가지 요인의 영향을 받을 수 있기 때문에 Lync Server 2013에 문제가 발생 하지 않도록 보장할 수 없습니다. 관리자는 상태 모니터링을 구현 하 여 실제 문제가 발생 하기 전에 잠재적 문제를 파악할 수 있습니다. 예를 들어 관리자는 Lync Server 모니터링을 사용 하 여 경향 및 tendencies를 파악할 수 있습니다. 예를 들어 오디오/비디오 회의 수를 일정 하 게 높이면 시스템을 과부하 하기 전에 용량을 추가 해야 할 수도 있습니다.
 
-비슷한 방식으로 관리자는 System Center Operations Manager를 사용 하 여 지정 된 이벤트가 발생 하는 경우 실시간 경고를 표시 하 고 시스템을 사전에 테스트 하는 가상 트랜잭션을 실행할 수 있습니다. Lync Server에서는 가상 트랜잭션을 사용 하 여 사용자가 시스템에 로그온 하거나, 인스턴트 메시지를 교환 하거나, PSTN (공중 전화망)에 있는 전화기를 호출 하는 등의 일반적인 작업을 성공적으로 완료할 수 있는지 확인 합니다. 예를 들어 이러한 테스트를 주기적으로 실행 하면 Lync Server에 로그온 하는 사용자에 게 잠재적 문제가 발생 하는 것을 알릴 수 있으며, 지원 팀이 사용자의 전화를 통해 연결을 설정할 수 없게 되기 전에 문제를 해결할 수도 있습니다. System Center Operations Manager를 사용 하 여 이러한 가상 트랜잭션을 실행 함으로써 관리자는 매일 24 시간 동안 Lync Server의 배포를 주기적으로 모니터링할 수 있습니다. 실행 해야 합니다.
+비슷한 방식으로 관리자는 System Center Operations Manager를 사용 하 여 지정 된 이벤트가 발생 하는 경우 실시간 경고를 표시 하 고 시스템을 사전에 테스트 하는 가상 트랜잭션을 실행할 수 있습니다. Lync Server에서는 가상 트랜잭션을 사용 하 여 사용자가 시스템에 로그온 하거나, 인스턴트 메시지를 교환 하거나, PSTN (공중 전화망)에 있는 전화기를 호출 하는 등의 일반적인 작업을 성공적으로 완료할 수 있는지 확인 합니다. 예를 들어 이러한 테스트를 주기적으로 실행 하면 Lync Server에 로그온 하는 사용자에 게 잠재적 문제가 발생 하는 것을 알릴 수 있으며, 지원 팀이 사용자의 전화를 통해 연결을 설정할 수 없게 되기 전에 문제를 해결할 수도 있습니다. System Center Operations Manager를 사용 하 여 이러한 가상 트랜잭션을 실행 하면 관리자가 발급 될 수 있는 경고에 응답 하는 것 외에도 거의 모든 작업을 수행 하지 않고도 매일 24 시간 동안 Lync Server 배포를 정기적으로 모니터링할 수 있습니다.
 
 <div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2012-10-22_
 
 Lync Server 2013의 상태 구성은 System Center Operations Manager와 Lync Server 관리 팩 사용을 기반으로 합니다. 이러한 관리 팩에는 다음과 같은 여러 가지 새로운 기능과 향상된 기능이 포함되어 있습니다.
 
-  - **모든 위치의 시나리오 가용성.** Lync Server 2010 관리 팩에는 가상 트랜잭션으로 최종 사용자 시나리오 가용성을 모니터링 하는 개념이 도입 되었습니다. Lync Server 2013에서 이러한 에이전트에는 더 많은 가상 트랜잭션이 포함 되며, 지점 사무소 및 Lync Server 2010에 대해 기업 외부의 원격 지리적 위치에서 실행 될 수 있습니다. 레거시에 지 배포에 대 한 검사를 추가 하기 위한 배포
+  - **모든 위치의 시나리오 가용성.** Lync Server 2010 관리 팩에는 가상 트랜잭션으로 최종 사용자 시나리오 가용성을 모니터링 하는 개념이 도입 되었습니다. Lync Server 2013에서 이러한 에이전트는 더 많은 가상 트랜잭션을 포함 하며, 기업 외부의 원격 지리적 위치에서, 지점 사무소 또는 Lync Server 2010 배포에 대해 레거시에 지 배포에 적용 범위를 추가 하는 다양 한 위치에서 실행할 수 있습니다.
 
   - **가상 트랜잭션 로그** 가상 트랜잭션이 실패 하면 오류를 확인 하는 데 도움이 되도록 관리자가 HTML 로그에 액세스할 수 있습니다. 여기에는 실패 한 작업, 각 작업의 대기 시간, 테스트를 실행 하는 데 사용한 명령줄 및 발생 한 오류에 대 한 이해가 포함 됩니다.
 

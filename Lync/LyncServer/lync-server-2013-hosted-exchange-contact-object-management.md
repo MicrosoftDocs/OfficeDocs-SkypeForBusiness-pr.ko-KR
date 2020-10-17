@@ -12,20 +12,22 @@ ms:contentKeyID: 48185748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ede940e1126660aaae89fe6552f050632f841b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1dae7088982fd3f28ead762c6f50ed4543a5cdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528195"
 ---
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Lync Server 2013의 호스팅된 Exchange 연락처 개체 관리
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Lync Server 2013의 호스팅된 Exchange 연락처 개체 관리
+
 
 </div>
 
@@ -93,7 +95,7 @@ _**마지막으로 수정 된 항목:** 2012-09-25_
 
 이 예에서는 SIP 주소 sip:exumaa1@fabrikam.com을 사용 하 여 새 Exchange UM 연락처 개체를 만듭니다. Lync Server 2013 등록자 서비스가 실행 되는 풀의 이름은 RedmondPool.litwareinc.com입니다. 이 정보가 저장 되는 Active Directory 조직 구성 단위는 OU = ExUmContacts, DC = litwareinc, DC = com입니다. 연락처 개체의 전화 번호는 2065554567입니다. Optional-attendant $True 매개 변수는이 개체가 자동 전화 교환 대화 상대 개체 임을 지정 합니다. -자동 전화 교환 매개 변수를 False (기본값)로 설정 하면 구독자 액세스 대화 상대 개체를 지정 합니다.
 
-새-CsExUmContact 및 Set-CsExUmContact cmdlet에 대 한 자세한 내용은 Lync Server Management Shell 설명서를 참조 하십시오.
+New-CsExUmContact 및 Set-CsExUmContact cmdlet에 대 한 자세한 내용은 Lync Server 관리 셸 설명서를 참조 하십시오.
 
 </div>
 

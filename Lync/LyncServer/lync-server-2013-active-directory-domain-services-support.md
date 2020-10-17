@@ -12,20 +12,22 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bee58b0a35d2a3a322d799f2aadc9ba3b9c1bd9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44f427486756895f1bff5330075f4c323f944afd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199751"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529635"
 ---
+# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013의 Active Directory 도메인 서비스 지원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013의 Active Directory 도메인 서비스 지원
+
 
 </div>
 
@@ -93,7 +95,7 @@ Lync Server 2013을 배포 하는 모든 포리스트는 Windows Server 2012 R2,
 
 <div>
 
-## <a name="support-for-read-only-domain-controllers"></a>읽기 전용 도메인 컨트롤러 지원
+## <a name="support-for-read-only-domain-controllers"></a>Read-Only 도메인 컨트롤러 지원
 
 Lync Server 2013은 사용할 수 있는 쓰기 가능한 도메인 컨트롤러가 있는 경우 읽기 전용 도메인 컨트롤러 또는 읽기 전용 글로벌 카탈로그 서버를 포함 하는 Active Directory 도메인 서비스 배포를 지원 합니다.
 
@@ -103,7 +105,7 @@ Lync Server 2013은 사용할 수 있는 쓰기 가능한 도메인 컨트롤러
 
 ## <a name="domain-names"></a>도메인 이름
 
-Lync Server에서는 단일 레이블 도메인을 지원 하지 않습니다. 예를 들어 **contoso.local**이라는 루트 도메인으로 구성된 포리스트는 지원되지만 **local**이라는 루트 도메인은 지원되지 않습니다. 자세한 내용은 Microsoft 기술 자료 문서 300684, "단일 레이블 DNS 이름이 있는 도메인에 대 한 Windows 구성 정보"를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752).
+Lync Server에서는 단일 레이블 도메인을 지원 하지 않습니다. 예를 들어 **contoso.local**이라는 루트 도메인으로 구성된 포리스트는 지원되지만 **local**이라는 루트 도메인은 지원되지 않습니다. 자세한 내용은 Microsoft 기술 자료 문서 300684, "단일 레이블 DNS 이름이 있는 도메인에 대 한 Windows 구성 정보"를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752) .
 
 <div>
 
@@ -121,7 +123,7 @@ Lync Server에서는 단일 레이블 도메인을 지원 하지 않습니다. �
 
 ## <a name="locked-down-adds-environments"></a>잠긴 AD DS 환경
 
-잠겨 있는 AD DS 환경에서는 사용자 및 컴퓨터 개체가 사용 권한 상속이 사용 되지 않는 특정 Ou (조직 구성 단위)에 포함 되는 경우가 많고, 관리 위임을 보호 하 고 Gpo (그룹 정책 개체)를 사용 하도록 설정 하는 데 도움이 됩니다. 보안 정책 Lync Server 2013는 잠겨 있는 Active Directory 환경에 배포할 수 있습니다. 잠긴 환경에서 Lync Server를 배포 하는 데 필요한 사항에 대 한 자세한 내용은 배포 설명서의 [Lync server 2013에서 잠긴 Active Directory 도메인 서비스 준비](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) 를 참조 하십시오.
+잠겨 있는 AD DS 환경에서는 사용자 및 컴퓨터 개체가 사용 권한 상속이 사용 되지 않는 특정 Ou (조직 구성 단위)에 포함 되는 경우가 많고, 이러한 상속은 관리 위임을 보호 하 고 Gpo (그룹 정책 개체)를 사용 하 여 보안 정책을 적용할 수 있도록 합니다. Lync Server 2013는 잠겨 있는 Active Directory 환경에 배포할 수 있습니다. 잠긴 환경에서 Lync Server를 배포 하는 데 필요한 사항에 대 한 자세한 내용은 배포 설명서의 [Lync server 2013에서 잠긴 Active Directory 도메인 서비스 준비](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) 를 참조 하십시오.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4bd4403bedbf6fe3b6983e6071a162ce02c16936
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221198"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527755"
 ---
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Lync Server 2013의 중앙 로깅 서비스 구성 설정 이해
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Lync Server 2013의 중앙 로깅 서비스 구성 설정 이해
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
     
 
     > [!TIP]
-    > "Site: Redmond"와 같이 정의 및 범위로 반환 되는 구성 설정의 범위를 좁히거나 확장 <CODE>-Identity</CODE> 하 여 사이트 Redmond에 대 한 CsClsConfiguration만 반환할 수 있습니다. 구성의 지정 된 부분에 대 한 세부 정보를 원하는 경우 다른 Windows PowerShell cmdlet에 출력을 파이프 할 수 있습니다. 예를 들어 "Redmond" 사이트의 구성에 정의 된 시나리오에 대 한 세부 정보를 보려면 다음을 입력 합니다.<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > "Site: Redmond"와 같이 정의 및 범위로 반환 되는 구성 설정의 범위를 좁히거나 확장 <CODE>-Identity</CODE> 하 여 사이트 Redmond에 대 한 CsClsConfiguration만 반환할 수 있습니다. 구성의 지정 된 부분에 대 한 세부 정보를 원하는 경우 다른 Windows PowerShell cmdlet에 출력을 파이프 할 수 있습니다. 예를 들어 "Redmond" 사이트의 구성에 정의 된 시나리오에 대 한 세부 정보를 보려면 다음을 입력 합니다. <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>

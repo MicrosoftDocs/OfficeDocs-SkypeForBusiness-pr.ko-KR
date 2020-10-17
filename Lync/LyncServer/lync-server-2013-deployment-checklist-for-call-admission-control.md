@@ -12,20 +12,22 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96715d7f11cfa064681982be270f1030dc28a628
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 13d9591ad8dfed90373fedc8adfb3a3c3c44eb57
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529145"
 ---
+# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013의 통화 허용 제어에 대 한 배포 검사 목록
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013의 통화 허용 제어에 대 한 배포 검사 목록
+
 
 </div>
 
@@ -108,7 +110,7 @@ CAC(통화 허용 제어)를 효과적으로 계획하려면 다음 사항을 �
 <td><p>네트워크 인터페이스 요구 사항</p></td>
 <td><ul>
 <li><p>내부 및 외부 인터페이스 정보</p></li>
-<li><p>라우팅 정보 (다음 홉 블로그의 <a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a>정보 포함) (Microsoft Lync Server 팀의 고객 응답 채널)</p></li>
+<li><p>라우팅 정보 (다음 홉 블로그의 정보 포함 <a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a> ) (Microsoft Lync Server 팀의 고객 응답 채널)</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-deploying-external-user-access.md">Lync Server 2013에서 외부 사용자 액세스 배포</a></p></td>
 </tr>
@@ -126,7 +128,7 @@ CAC(통화 허용 제어)를 효과적으로 계획하려면 다음 사항을 �
 <tr class="odd">
 <td><p>배포 프로세스</p></td>
 <td><ul>
-<li><p>필수 구성 요소</p></li>
+<li><p>필수 조건</p></li>
 <li><p>정보 요구 사항</p></li>
 <li><p>프로세스 및 절차</p></li>
 </ul></td>

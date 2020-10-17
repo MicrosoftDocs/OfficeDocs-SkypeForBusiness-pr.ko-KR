@@ -12,20 +12,22 @@ ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e991f6240d9c21815299a3ef169c5824cf5ef3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57d8e3cb0a79c8ce6a6c1c51891fbad265f045de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213144"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529205"
 ---
+# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>Lync Server 2013의 ConferenceSessionDetails 테이블
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>Lync Server 2013의 ConferenceSessionDetails 테이블
+
 
 </div>
 
@@ -248,7 +250,7 @@ _**마지막으로 수정 된 항목:** 2012-09-28_
 </table>
 
 
-\*대부분의 세션에서 SessionIdSeq는 값 1을 갖습니다. 여러 세션이 정확히 동시에 시작될 경우 한 세션에 대한 SessionIdSeq가 1이 되고 다른 세션에 대해서는 2, 3, 4의 순서로 지정됩니다.
+\* 대부분의 세션에서 SessionIdSeq는 값 1을 갖습니다. 여러 세션이 정확히 동시에 시작될 경우 한 세션에 대한 SessionIdSeq가 1이 되고 다른 세션에 대해서는 2, 3, 4의 순서로 지정됩니다.
 
 </div>
 
