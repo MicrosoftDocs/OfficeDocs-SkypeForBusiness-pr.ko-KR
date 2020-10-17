@@ -12,20 +12,22 @@ ms:contentKeyID: 48185908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54a6f1db9f933394a8d8c33a6e002bb52e56341b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4c73027511ec8798010f1d22fb9bd19eeab27a7f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207554"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520255"
 ---
+# <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a><span data-ttu-id="c1f9b-102">Lync Server 2013에서 지정 되지 않은 번호 테이블 구성</span><span class="sxs-lookup"><span data-stu-id="c1f9b-102">Configure the unassigned number table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a><span data-ttu-id="9422c-102">Lync Server 2013에서 지정 되지 않은 번호 테이블 구성</span><span class="sxs-lookup"><span data-stu-id="9422c-102">Configure the unassigned number table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42207554"
 
 <span> </span>
 
-<span data-ttu-id="9422c-103">_**마지막으로 수정 된 항목:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="9422c-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="c1f9b-103">_**마지막으로 수정 된 항목:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="c1f9b-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="9422c-104">Lync Server 2013에서는 조직에 대해 유효 하지만 사용자 또는 전화에 게 할당 되지 않은 전화 번호로 들어오는 호출에 대해 수행할 작업을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-104">In Lync Server 2013, you can specify what happens to incoming calls to phone numbers that are valid for your organization, but are not assigned to a user or phone.</span></span> <span data-ttu-id="9422c-105">발신자는 메시지를 듣고 다른 대상으로 또는 두 가지 모두로 라우팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-105">Callers can hear a message, or can be routed to another destination, or both.</span></span>
+<span data-ttu-id="c1f9b-104">Lync Server 2013에서는 조직에 대해 유효 하지만 사용자 또는 전화에 게 할당 되지 않은 전화 번호로 들어오는 호출에 대해 수행할 작업을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-104">In Lync Server 2013, you can specify what happens to incoming calls to phone numbers that are valid for your organization, but are not assigned to a user or phone.</span></span> <span data-ttu-id="c1f9b-105">발신자는 메시지를 듣고 다른 대상으로 또는 두 가지 모두로 라우팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-105">Callers can hear a message, or can be routed to another destination, or both.</span></span>
 
-<span data-ttu-id="9422c-106">할당되지 않은 번호 테이블을 구성하는 방법은 테이블 사용 방법에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-106">How you configure the unassigned number table depends on how you want to use it.</span></span> <span data-ttu-id="9422c-107">조직에 대해 유효한 모든 내선 번호로 또는 할당되지 않은 내선 번호만으로 또는 두 번호 유형의 결합으로 테이블을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-107">You can configure the table with all the valid extensions for your organization, with only unassigned extensions, or with a combination of both types of numbers.</span></span> <span data-ttu-id="9422c-108">할당되지 않은 번호 테이블은 할당된 번호와 할당되지 않은 번호를 모두 포함할 수 있지만 발신자가 현재 할당되지 않은 번호로 전화를 걸 때만 호출됩니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-108">The unassigned number table can include both assigned and unassigned numbers, but it is invoked only when a caller dials a number that is not currently assigned.</span></span> <span data-ttu-id="9422c-109">할당되지 않은 번호 테이블에 유효한 내선 번호를 모두 포함하면 테이블을 재구성하지 않고도 다른 사용자가 조직을 떠날 때마다 발생하는 동작을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-109">If you include all the valid extensions in the unassigned number table, you can specify the action that occurs whenever someone leaves your organization, without needing to reconfigure the table.</span></span> <span data-ttu-id="9422c-110">할당 되지 않은 확장명을 테이블에 포함 하는 경우 특정 번호에 대해 발생 하는 동작을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-110">If you include unassigned extensions in the table, you can modify the action that occurs for specific numbers.</span></span> <span data-ttu-id="9422c-111">예를 들어 고객 서비스 데스크에 대 한 내선 번호를 변경 하는 경우 테이블에 이전 고객 서비스 번호가 포함 된 다음 새 번호를 제공 하는 공지 사항에 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-111">For example, if you change the extension for your customer service desk, you can include the old customer service number in the table and then assign it to an announcement that provides the new number.</span></span>
+<span data-ttu-id="c1f9b-106">할당되지 않은 번호 테이블을 구성하는 방법은 테이블 사용 방법에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-106">How you configure the unassigned number table depends on how you want to use it.</span></span> <span data-ttu-id="c1f9b-107">조직에 대해 유효한 모든 내선 번호로 또는 할당되지 않은 내선 번호만으로 또는 두 번호 유형의 결합으로 테이블을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-107">You can configure the table with all the valid extensions for your organization, with only unassigned extensions, or with a combination of both types of numbers.</span></span> <span data-ttu-id="c1f9b-108">할당되지 않은 번호 테이블은 할당된 번호와 할당되지 않은 번호를 모두 포함할 수 있지만 발신자가 현재 할당되지 않은 번호로 전화를 걸 때만 호출됩니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-108">The unassigned number table can include both assigned and unassigned numbers, but it is invoked only when a caller dials a number that is not currently assigned.</span></span> <span data-ttu-id="c1f9b-109">할당되지 않은 번호 테이블에 유효한 내선 번호를 모두 포함하면 테이블을 재구성하지 않고도 다른 사용자가 조직을 떠날 때마다 발생하는 동작을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-109">If you include all the valid extensions in the unassigned number table, you can specify the action that occurs whenever someone leaves your organization, without needing to reconfigure the table.</span></span> <span data-ttu-id="c1f9b-110">할당 되지 않은 확장명을 테이블에 포함 하는 경우 특정 번호에 대해 발생 하는 동작을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-110">If you include unassigned extensions in the table, you can modify the action that occurs for specific numbers.</span></span> <span data-ttu-id="c1f9b-111">예를 들어 고객 서비스 데스크에 대 한 내선 번호를 변경 하는 경우 테이블에 이전 고객 서비스 번호가 포함 된 다음 새 번호를 제공 하는 공지 사항에 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-111">For example, if you change the extension for your customer service desk, you can include the old customer service number in the table and then assign it to an announcement that provides the new number.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="9422c-112">할당 되지 않은 번호 테이블을 구성 하기 전에 시스템에 이미 공지 사항이 정의 되어 있거나 UM (Exchange 통합 메시징) 자동 전화 교환이 설정 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-112">Before you configure the unassigned number table, your system must already either have Announcements defined or an Exchange Unified Messaging (UM) Auto Attendant set up.</span></span>
+> <span data-ttu-id="c1f9b-112">할당 되지 않은 번호 테이블을 구성 하기 전에 시스템에 이미 공지 사항이 정의 되어 있거나 UM (Exchange 통합 메시징) 자동 전화 교환이 설정 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-112">Before you configure the unassigned number table, your system must already either have Announcements defined or an Exchange Unified Messaging (UM) Auto Attendant set up.</span></span>
 
 
 
@@ -55,7 +57,7 @@ ms.locfileid: "42207554"
 
 
 > [!TIP]  
-> <span data-ttu-id="9422c-113">사용자가 지정 되지 않은 번호를 호출 하면 Lync Server는 지정 되지 않은 번호 테이블을 위에서 아래 방향으로 검색 하 고 첫 번째 일치 범위를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-113">When someone calls an unassigned number, Lync Server searches the unassigned number table from top to bottom and uses the first matching range.</span></span> <span data-ttu-id="9422c-114">따라서 마지막 수단으로 수행 하려는 작업을 표의 마지막 범위에 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9422c-114">Therefore, an action that you want to be performed as a last resort should be specified for the last range in the table.</span></span>
+> <span data-ttu-id="c1f9b-113">사용자가 지정 되지 않은 번호를 호출 하면 Lync Server는 지정 되지 않은 번호 테이블을 위에서 아래 방향으로 검색 하 고 첫 번째 일치 범위를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-113">When someone calls an unassigned number, Lync Server searches the unassigned number table from top to bottom and uses the first matching range.</span></span> <span data-ttu-id="c1f9b-114">따라서 마지막 수단으로 수행 하려는 작업을 표의 마지막 범위에 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c1f9b-114">Therefore, an action that you want to be performed as a last resort should be specified for the last range in the table.</span></span>
 
 
 
@@ -63,9 +65,9 @@ ms.locfileid: "42207554"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9422c-115">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9422c-115">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c1f9b-115">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="c1f9b-115">In This Section</span></span>
 
-<span data-ttu-id="9422c-116">Lync server [2013에서 할당 되지 않은 번호 범위 만들기 또는 수정](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [lync server 2013에서 알림 만들기](lync-server-2013-create-an-announcement.md)</span><span class="sxs-lookup"><span data-stu-id="9422c-116">[Create or modify an unassigned number range in Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [Create an announcement in Lync Server 2013](lync-server-2013-create-an-announcement.md)</span></span>
+<span data-ttu-id="c1f9b-116">Lync server [2013에서 할당 되지 않은 번호 범위 만들기 또는 수정](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [lync server 2013에서 알림 만들기](lync-server-2013-create-an-announcement.md)</span><span class="sxs-lookup"><span data-stu-id="c1f9b-116">[Create or modify an unassigned number range in Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [Create an announcement in Lync Server 2013](lync-server-2013-create-an-announcement.md)</span></span>
 
 </div>
 

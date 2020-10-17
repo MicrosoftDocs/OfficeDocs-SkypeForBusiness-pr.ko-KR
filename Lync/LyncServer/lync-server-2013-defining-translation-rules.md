@@ -12,20 +12,22 @@ ms:contentKeyID: 48184093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba03cbb16a347b4b4c64758de3397e6030db9dd4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85c4f1dc3b07d56e97211d6d5caf549e72caa177
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521685"
 ---
+# <a name="defining-translation-rules-in-lync-server-2013"></a><span data-ttu-id="9bdb4-102">Lync Server 2013에서 변환 규칙 정의</span><span class="sxs-lookup"><span data-stu-id="9bdb4-102">Defining translation rules in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-translation-rules-in-lync-server-2013"></a><span data-ttu-id="c3dfa-102">Lync Server 2013에서 변환 규칙 정의</span><span class="sxs-lookup"><span data-stu-id="c3dfa-102">Defining translation rules in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,28 +37,28 @@ ms.locfileid: "42198381"
 
 <span> </span>
 
-<span data-ttu-id="c3dfa-103">_**마지막으로 수정 된 항목:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="c3dfa-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="9bdb4-103">_**마지막으로 수정 된 항목:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="9bdb4-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="c3dfa-104">Lync Server 2013 Enterprise Voice는 전자 164 형식으로 정규화 된 전화 번호를 기반으로 통화를 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="c3dfa-104">Lync Server 2013 Enterprise Voice routes calls based on phone numbers normalized to E.164 format.</span></span> <span data-ttu-id="c3dfa-105">즉, RNL (역방향 번호 조회)를 수행 하 여 일치 하는 SIP URI로 변환할 수 있도록 모든 전화 건 문자열을 E. 164 형식으로 정규화 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c3dfa-105">This means that all dialed strings must be normalized to E.164 format for the purpose of performing reverse number lookup (RNL) so they can be translated to their matching SIP URI.</span></span> <span data-ttu-id="c3dfa-106">Lync Server 2013는 호출 된 ID와 발신자 번호 프레젠테이션을 조작할 수 있는 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="c3dfa-106">Lync Server 2013 provides the ability to manipulate the called ID and the caller ID presentation.</span></span>
+<span data-ttu-id="9bdb4-104">Lync Server 2013 Enterprise Voice는 전자 164 형식으로 정규화 된 전화 번호를 기반으로 통화를 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="9bdb4-104">Lync Server 2013 Enterprise Voice routes calls based on phone numbers normalized to E.164 format.</span></span> <span data-ttu-id="9bdb4-105">즉, RNL (역방향 번호 조회)를 수행 하 여 일치 하는 SIP URI로 변환할 수 있도록 모든 전화 건 문자열을 E. 164 형식으로 정규화 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9bdb4-105">This means that all dialed strings must be normalized to E.164 format for the purpose of performing reverse number lookup (RNL) so they can be translated to their matching SIP URI.</span></span> <span data-ttu-id="9bdb4-106">Lync Server 2013는 호출 된 ID와 발신자 번호 프레젠테이션을 조작할 수 있는 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="9bdb4-106">Lync Server 2013 provides the ability to manipulate the called ID and the caller ID presentation.</span></span>
 
-<span data-ttu-id="c3dfa-107">이 섹션에서는 호출 된 ID 및 발신자 ID를 조작 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="c3dfa-107">This section discusses how to manipulate the called ID and caller ID.</span></span>
+<span data-ttu-id="9bdb4-107">이 섹션에서는 호출 된 ID 및 발신자 ID를 조작 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="9bdb4-107">This section discusses how to manipulate the called ID and caller ID.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c3dfa-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="c3dfa-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9bdb4-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9bdb4-108">In This Section</span></span>
 
-  - [<span data-ttu-id="c3dfa-109">Lync Server 2013의 발신자 번호 프레젠테이션</span><span class="sxs-lookup"><span data-stu-id="c3dfa-109">Caller ID presentation in Lync Server 2013</span></span>](lync-server-2013-caller-id-presentation.md)
+  - [<span data-ttu-id="9bdb4-109">Lync Server 2013의 발신자 번호 프레젠테이션</span><span class="sxs-lookup"><span data-stu-id="9bdb4-109">Caller ID presentation in Lync Server 2013</span></span>](lync-server-2013-caller-id-presentation.md)
 
-  - [<span data-ttu-id="c3dfa-110">Lync Server 2013에서 호출 되는 ID 프레젠테이션</span><span class="sxs-lookup"><span data-stu-id="c3dfa-110">Called ID presentation in Lync Server 2013</span></span>](lync-server-2013-called-id-presentation.md)
+  - [<span data-ttu-id="9bdb4-110">Lync Server 2013에서 호출 되는 ID 프레젠테이션</span><span class="sxs-lookup"><span data-stu-id="9bdb4-110">Called ID presentation in Lync Server 2013</span></span>](lync-server-2013-called-id-presentation.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c3dfa-111">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c3dfa-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9bdb4-111">참고 항목</span><span class="sxs-lookup"><span data-stu-id="9bdb4-111">See Also</span></span>
 
 
-[<span data-ttu-id="c3dfa-112">Lync Server 2013에서 정규화 규칙 정의</span><span class="sxs-lookup"><span data-stu-id="c3dfa-112">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)  
+[<span data-ttu-id="9bdb4-112">Lync Server 2013에서 정규화 규칙 정의</span><span class="sxs-lookup"><span data-stu-id="9bdb4-112">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)  
   
 
 </div>

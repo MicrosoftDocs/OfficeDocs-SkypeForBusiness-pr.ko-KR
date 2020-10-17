@@ -12,20 +12,22 @@ ms:contentKeyID: 48183793
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35106634d9ad9dbc8c4a044aad42d50081cd1e7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91a4953edf97d45cb29038ed8803917fe62a076c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196411"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521185"
 ---
+# <a name="address-book-server-cmdlets-in-lync-server-2013"></a><span data-ttu-id="ddfb3-102">Lync Server 2013의 주소록 서버 cmdlet</span><span class="sxs-lookup"><span data-stu-id="ddfb3-102">Address Book Server cmdlets in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="address-book-server-cmdlets-in-lync-server-2013"></a><span data-ttu-id="be8e8-102">Lync Server 2013의 주소록 서버 cmdlet</span><span class="sxs-lookup"><span data-stu-id="be8e8-102">Address Book Server cmdlets in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,58 +37,58 @@ ms.locfileid: "42196411"
 
 <span> </span>
 
-<span data-ttu-id="be8e8-103">_**마지막으로 수정 된 항목:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="be8e8-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="ddfb3-103">_**마지막으로 수정 된 항목:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="ddfb3-103">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="be8e8-104">Active Directory 도메인 서비스와 Microsoft Lync Server 2013 사이에 주소록 서버가 중개 됩니다.</span><span class="sxs-lookup"><span data-stu-id="be8e8-104">Address Book servers are intermediaries between Active Directory Domain Services and Microsoft Lync Server 2013.</span></span> <span data-ttu-id="be8e8-105">주소록 서버는 Lync Server 2013에 저장 되어 있는 사용자 정보가 Active Directory에 저장 된 사용자 정보와 동기화 되도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="be8e8-105">The Address Book server ensures that the user information stored in Lync Server 2013 is in synch with the user information stored in Active Directory.</span></span> <span data-ttu-id="be8e8-106">이 작업은 주소록 파일을 사용자 데이터베이스에 저장된 정보와 주기적으로 동기화하는 방식으로 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="be8e8-106">This is done by periodically synching Address Book files with information stored in the User database.</span></span> <span data-ttu-id="be8e8-107">Lync Server에는 주소록 서버를 관리 하기 위한 여러 개의 cmdlet이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="be8e8-107">In turn, Lync Server includes a number of cmdlets for managing Address Book servers.</span></span>
+<span data-ttu-id="ddfb3-104">Active Directory 도메인 서비스와 Microsoft Lync Server 2013 사이에 주소록 서버가 중개 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ddfb3-104">Address Book servers are intermediaries between Active Directory Domain Services and Microsoft Lync Server 2013.</span></span> <span data-ttu-id="ddfb3-105">주소록 서버는 Lync Server 2013에 저장 되어 있는 사용자 정보가 Active Directory에 저장 된 사용자 정보와 동기화 되도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="ddfb3-105">The Address Book server ensures that the user information stored in Lync Server 2013 is in synch with the user information stored in Active Directory.</span></span> <span data-ttu-id="ddfb3-106">이 작업은 주소록 파일을 사용자 데이터베이스에 저장된 정보와 주기적으로 동기화하는 방식으로 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="ddfb3-106">This is done by periodically synching Address Book files with information stored in the User database.</span></span> <span data-ttu-id="ddfb3-107">Lync Server에는 주소록 서버를 관리 하기 위한 여러 개의 cmdlet이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ddfb3-107">In turn, Lync Server includes a number of cmdlets for managing Address Book servers.</span></span>
 
 <div>
 
-## <a name="address-book-server-cmdlets"></a><span data-ttu-id="be8e8-108">주소록 서버 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="be8e8-108">Address Book Server Cmdlets</span></span>
+## <a name="address-book-server-cmdlets"></a><span data-ttu-id="ddfb3-108">주소록 서버 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="ddfb3-108">Address Book Server Cmdlets</span></span>
 
-<span data-ttu-id="be8e8-109">Lync Server 제어판에서는 주소록 서버 설정을 구성할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="be8e8-109">You cannot configure the Address Book Server settings in Lync Server Control Panel.</span></span> <span data-ttu-id="be8e8-110">Windows PowerShell은 이러한 설정을 관리 하기 위한 기본 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="be8e8-110">Windows PowerShell is the primary tool for managing these settings.</span></span> <span data-ttu-id="be8e8-111">다음은 주소록 서버 관리에 직접적으로 관련된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="be8e8-111">The following is a list of cmdlets that relate directly to managing the Address Book Server:</span></span>
+<span data-ttu-id="ddfb3-109">Lync Server 제어판에서는 주소록 서버 설정을 구성할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ddfb3-109">You cannot configure the Address Book Server settings in Lync Server Control Panel.</span></span> <span data-ttu-id="ddfb3-110">Windows PowerShell은 이러한 설정을 관리 하기 위한 기본 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="ddfb3-110">Windows PowerShell is the primary tool for managing these settings.</span></span> <span data-ttu-id="ddfb3-111">다음은 주소록 서버 관리에 직접적으로 관련된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="ddfb3-111">The following is a list of cmdlets that relate directly to managing the Address Book Server:</span></span>
 
-<span data-ttu-id="be8e8-112">**주소록 서버**</span><span class="sxs-lookup"><span data-stu-id="be8e8-112">**Address Book Server**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="be8e8-113">[Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be8e8-113">[Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))</span></span>
+<span data-ttu-id="ddfb3-112">**주소록 서버**</span><span class="sxs-lookup"><span data-stu-id="ddfb3-112">**Address Book Server**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="be8e8-114">[새-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be8e8-114">[New-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))</span></span>
+    <span data-ttu-id="ddfb3-113">[Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ddfb3-113">[Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="be8e8-115">[CsAddressBookConfiguration 제거](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be8e8-115">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span></span>
+    <span data-ttu-id="ddfb3-114">[새-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ddfb3-114">[New-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="be8e8-116">[설정-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be8e8-116">[Set-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))</span></span>
+    <span data-ttu-id="ddfb3-115">[CsAddressBookConfiguration 제거](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ddfb3-115">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="ddfb3-116">[설정-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ddfb3-116">[Set-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="be8e8-117">[업데이트-Update-csaddressbook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be8e8-117">[Update-CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))</span></span>
+    <span data-ttu-id="ddfb3-117">[업데이트-Update-csaddressbook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ddfb3-117">[Update-CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="be8e8-118">[디버그-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be8e8-118">[Debug-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))</span></span>
+    <span data-ttu-id="ddfb3-118">[디버그-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ddfb3-118">[Debug-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="be8e8-119">[테스트-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be8e8-119">[Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))</span></span>
+    <span data-ttu-id="ddfb3-119">[테스트-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ddfb3-119">[Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="be8e8-120">[테스트-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be8e8-120">[Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))</span></span>
+    <span data-ttu-id="ddfb3-120">[테스트-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ddfb3-120">[Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="be8e8-121">참고 항목</span><span class="sxs-lookup"><span data-stu-id="be8e8-121">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ddfb3-121">참고 항목</span><span class="sxs-lookup"><span data-stu-id="ddfb3-121">See Also</span></span>
 
 
-[<span data-ttu-id="be8e8-122">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="be8e8-122">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="ddfb3-122">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="ddfb3-122">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49105661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45758175a04bad0cc673242087c0a4751c1b01bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2dd5f09f9abbfb1e01935552238d966b5060d9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187431"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520655"
 ---
+# <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="bff74-102">Lync Server 2013의 인증서 요약-XMPP (Extensible messaging and 현재 상태 프로토콜) 페더레이션</span><span class="sxs-lookup"><span data-stu-id="bff74-102">Certificate summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="27fda-102">Lync Server 2013의 인증서 요약-XMPP (Extensible messaging and 현재 상태 프로토콜) 페더레이션</span><span class="sxs-lookup"><span data-stu-id="27fda-102">Certificate summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42187431"
 
 <span> </span>
 
-<span data-ttu-id="27fda-103">_**마지막으로 수정 된 항목:** 2012-12-23_</span><span class="sxs-lookup"><span data-stu-id="27fda-103">_**Topic Last Modified:** 2012-12-23_</span></span>
+<span data-ttu-id="bff74-103">_**마지막으로 수정 된 항목:** 2012-12-23_</span><span class="sxs-lookup"><span data-stu-id="bff74-103">_**Topic Last Modified:** 2012-12-23_</span></span>
 
-<span data-ttu-id="27fda-104">XMPP (extensible messaging and 현재 상태 프로토콜) 파트너와의 통신을 사용 하도록 설정 하 고 설정 하기 위한 인증서 요구 사항에 따라 XMPP 도메인을 추가로 기록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="27fda-104">Certificate requirements for enabling and establishing communications with extensible messaging and presence protocol (XMPP) partners require the additional record of your XMPP domains.</span></span> <span data-ttu-id="27fda-105">인증서에 포함 된 레코드는 SAN (주체 대체 이름)으로 XMPP 통신에 참가할 수 있는 도메인이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="27fda-105">The record that is included on the certificate as a subject alternative name (SAN) will be the domain that can participate in XMPP communications.</span></span> <span data-ttu-id="27fda-106">사용자 하위 집합에 XMPP를 사용 하도록 설정 하는 경우 도메인은 루트 수준 도메인 (예: contoso.com)이 될 수 있으며, 전체 도메인에 대해 XMPP를 설정 하거나 하위 도메인 (예: corp.contoso.com, finance.contoso.com)을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="27fda-106">The domain can be the root-level domain (for example, contoso.com) if you want to enable XMPP for your entire domain, or can be selected child domains (for example, corp.contoso.com, finance.contoso.com) if you are enabling XMPP for a subset of users.</span></span>
+<span data-ttu-id="bff74-104">XMPP (extensible messaging and 현재 상태 프로토콜) 파트너와의 통신을 사용 하도록 설정 하 고 설정 하기 위한 인증서 요구 사항에 따라 XMPP 도메인을 추가로 기록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bff74-104">Certificate requirements for enabling and establishing communications with extensible messaging and presence protocol (XMPP) partners require the additional record of your XMPP domains.</span></span> <span data-ttu-id="bff74-105">인증서에 포함 된 레코드는 SAN (주체 대체 이름)으로 XMPP 통신에 참가할 수 있는 도메인이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bff74-105">The record that is included on the certificate as a subject alternative name (SAN) will be the domain that can participate in XMPP communications.</span></span> <span data-ttu-id="bff74-106">사용자 하위 집합에 XMPP를 사용 하도록 설정 하는 경우 도메인은 루트 수준 도메인 (예: contoso.com)이 될 수 있으며, 전체 도메인에 대해 XMPP를 설정 하거나 하위 도메인 (예: corp.contoso.com, finance.contoso.com)을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bff74-106">The domain can be the root-level domain (for example, contoso.com) if you want to enable XMPP for your entire domain, or can be selected child domains (for example, corp.contoso.com, finance.contoso.com) if you are enabling XMPP for a subset of users.</span></span>
 
 <div>
 
-## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="27fda-107">XMPP(Extensible Messaging and Presence Protocol)의 인증서 요약</span><span class="sxs-lookup"><span data-stu-id="27fda-107">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="bff74-107">XMPP(Extensible Messaging and Presence Protocol)의 인증서 요약</span><span class="sxs-lookup"><span data-stu-id="bff74-107">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -53,21 +55,21 @@ ms.locfileid: "42187431"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="27fda-108">구성 요소</span><span class="sxs-lookup"><span data-stu-id="27fda-108">Component</span></span></th>
-<th><span data-ttu-id="27fda-109">주체 이름</span><span class="sxs-lookup"><span data-stu-id="27fda-109">Subject name</span></span></th>
-<th><span data-ttu-id="27fda-110">SAN(주체 대체 이름)/순서</span><span class="sxs-lookup"><span data-stu-id="27fda-110">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="27fda-111">설명</span><span class="sxs-lookup"><span data-stu-id="27fda-111">Comments</span></span></th>
+<th><span data-ttu-id="bff74-108">구성 요소</span><span class="sxs-lookup"><span data-stu-id="bff74-108">Component</span></span></th>
+<th><span data-ttu-id="bff74-109">주체 이름</span><span class="sxs-lookup"><span data-stu-id="bff74-109">Subject name</span></span></th>
+<th><span data-ttu-id="bff74-110">SAN(주체 대체 이름)/순서</span><span class="sxs-lookup"><span data-stu-id="bff74-110">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="bff74-111">설명</span><span class="sxs-lookup"><span data-stu-id="bff74-111">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="27fda-112">에 지 서버 또는에 지 풀에 대 한 액세스에 지 서비스 할당</span><span class="sxs-lookup"><span data-stu-id="27fda-112">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
-<td><p><span data-ttu-id="27fda-113">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="27fda-113">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="27fda-114">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="27fda-114">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="27fda-115">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="27fda-115">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="27fda-116">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="27fda-116">sip.fabrikam.com</span></span></p>
-<p><span data-ttu-id="27fda-117">contoso.com</span><span class="sxs-lookup"><span data-stu-id="27fda-117">contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="27fda-118">처음 세 개의 SAN 항목은 전체에 지 서버에 대 한 일반 SAN 항목입니다.</span><span class="sxs-lookup"><span data-stu-id="27fda-118">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="27fda-119">contoso.com은 루트 도메인 수준에서 XMPP 파트너와의 페더레이션을 위해 필요한 항목입니다.</span><span class="sxs-lookup"><span data-stu-id="27fda-119">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="27fda-120">이 항목은 contoso.com 접미사를 가진 모든 도메인에 대해 XMPP를 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="27fda-120">This entry will allow XMPP for all domains with the suffix contoso.com.</span></span></p></td>
+<td><p><span data-ttu-id="bff74-112">에 지 서버 또는에 지 풀에 대 한 액세스에 지 서비스 할당</span><span class="sxs-lookup"><span data-stu-id="bff74-112">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
+<td><p><span data-ttu-id="bff74-113">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="bff74-113">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="bff74-114">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="bff74-114">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="bff74-115">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="bff74-115">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="bff74-116">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="bff74-116">sip.fabrikam.com</span></span></p>
+<p><span data-ttu-id="bff74-117">contoso.com</span><span class="sxs-lookup"><span data-stu-id="bff74-117">contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="bff74-118">처음 세 개의 SAN 항목은 전체에 지 서버에 대 한 일반 SAN 항목입니다.</span><span class="sxs-lookup"><span data-stu-id="bff74-118">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="bff74-119">contoso.com은 루트 도메인 수준에서 XMPP 파트너와의 페더레이션을 위해 필요한 항목입니다.</span><span class="sxs-lookup"><span data-stu-id="bff74-119">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="bff74-120">이 항목은 contoso.com 접미사를 가진 모든 도메인에 대해 XMPP를 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="bff74-120">This entry will allow XMPP for all domains with the suffix contoso.com.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -77,18 +79,18 @@ ms.locfileid: "42187431"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="27fda-121">참고 항목</span><span class="sxs-lookup"><span data-stu-id="27fda-121">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bff74-121">참고 항목</span><span class="sxs-lookup"><span data-stu-id="bff74-121">See Also</span></span>
 
 
-[<span data-ttu-id="27fda-122">Lync Server 2013의 XMPP 구성 예-Google 대화를 사용한 XMPP 페더레이션</span><span class="sxs-lookup"><span data-stu-id="27fda-122">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</span></span>](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+[<span data-ttu-id="bff74-122">Lync Server 2013의 XMPP 구성 예-Google 대화를 사용한 XMPP 페더레이션</span><span class="sxs-lookup"><span data-stu-id="bff74-122">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</span></span>](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
 
-[<span data-ttu-id="27fda-123">Lync Server 2013의에 지 서버 인증서 계획</span><span class="sxs-lookup"><span data-stu-id="27fda-123">Plan for Edge Server certificates in Lync Server 2013</span></span>](lync-server-2013-plan-for-edge-server-certificates.md)  
+[<span data-ttu-id="bff74-123">Lync Server 2013의에 지 서버 인증서 계획</span><span class="sxs-lookup"><span data-stu-id="bff74-123">Plan for Edge Server certificates in Lync Server 2013</span></span>](lync-server-2013-plan-for-edge-server-certificates.md)  
 
 
-[<span data-ttu-id="27fda-124">Lync Server 2013에 대 한에 지 인증서 설정</span><span class="sxs-lookup"><span data-stu-id="27fda-124">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)  
-[<span data-ttu-id="27fda-125">요청-Set-cscertificate</span><span class="sxs-lookup"><span data-stu-id="27fda-125">Request-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate)  
-[<span data-ttu-id="27fda-126">Set-cscertificate</span><span class="sxs-lookup"><span data-stu-id="27fda-126">Set-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+[<span data-ttu-id="bff74-124">Lync Server 2013에 대 한에 지 인증서 설정</span><span class="sxs-lookup"><span data-stu-id="bff74-124">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)  
+[<span data-ttu-id="bff74-125">요청-Set-cscertificate</span><span class="sxs-lookup"><span data-stu-id="bff74-125">Request-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate)  
+[<span data-ttu-id="bff74-126">Set-cscertificate</span><span class="sxs-lookup"><span data-stu-id="bff74-126">Set-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
   
 
 </div>
