@@ -1,5 +1,6 @@
 ---
 title: 주소록 관리 Remove-CsAddressBookConfiguration
+description: 주소록 관리 Remove-CsAddressBookConfiguration
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fbb16b55191d115047208cd74f3276815f49b1d0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d513c128dfe87c5a6e92b66a6ba4e1dbdfbfb651
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536505"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555694"
 ---
-# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="2143a-102">Lync Server 2013의 주소록 관리 Remove-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="2143a-102">Remove-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="2f948-103">Lync Server 2013의 주소록 관리 Remove-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="2f948-103">Remove-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,24 +38,24 @@ ms.locfileid: "48536505"
 
 <span> </span>
 
-<span data-ttu-id="2143a-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="2143a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="2f948-104">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="2f948-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="2143a-p101">이 cmdlet을 실행할 수 있는 사용자: 기본적으로 RTCUniversalServerAdmins 그룹의 구성원은 Remove-CsAddressBookConfiguration cmdlet을 로컬로 실행할 수 있습니다. 사용자가 직접 만든 사용자 지정 RBAC(역할 기반 액세스 제어) 역할을 포함하여 이 cmdlet이 지정된 모든 RBAC 역할의 목록을 가져오려면 Windows PowerShell 프롬프트에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="2143a-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Remove-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="2f948-p101">이 cmdlet을 실행할 수 있는 사용자: 기본적으로 RTCUniversalServerAdmins 그룹의 구성원은 Remove-CsAddressBookConfiguration cmdlet을 로컬로 실행할 수 있습니다. 사용자가 직접 만든 사용자 지정 RBAC(역할 기반 액세스 제어) 역할을 포함하여 이 cmdlet이 지정된 모든 RBAC 역할의 목록을 가져오려면 Windows PowerShell 프롬프트에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="2f948-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Remove-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Remove-CsAddressBookConfiguration"}
 
-<span data-ttu-id="2143a-106">이름에서 확인할 수 있듯이, Remove-CsAddressBookConfiguration은 정의된 사이트 ID에 따라 구성을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="2143a-106">As the name implies, Remove-CsAddressBookConfiguration will remove the configuration based on the defined Site Identity.</span></span>
+<span data-ttu-id="2f948-107">이름에서 확인할 수 있듯이, Remove-CsAddressBookConfiguration은 정의된 사이트 ID에 따라 구성을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="2f948-107">As the name implies, Remove-CsAddressBookConfiguration will remove the configuration based on the defined Site Identity.</span></span>
 
-<span data-ttu-id="2143a-107">예:</span><span class="sxs-lookup"><span data-stu-id="2143a-107">For example:</span></span>
+<span data-ttu-id="2f948-108">예:</span><span class="sxs-lookup"><span data-stu-id="2f948-108">For example:</span></span>
 
     Remove-CsAddressBookConfiguration -Identity site:Redmond
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2143a-108">참고 항목</span><span class="sxs-lookup"><span data-stu-id="2143a-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f948-109">참고 항목</span><span class="sxs-lookup"><span data-stu-id="2f948-109">See Also</span></span>
 
 
-<span data-ttu-id="2143a-109">[CsAddressBookConfiguration 제거](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2143a-109">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span></span>  
+<span data-ttu-id="2f948-110">[CsAddressBookConfiguration 제거](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2f948-110">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span></span>  
   
 
 </div>

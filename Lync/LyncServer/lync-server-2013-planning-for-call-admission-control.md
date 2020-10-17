@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 통화 허용 제어 계획'
+description: 'Lync Server 2013: 통화 허용 제어를 계획 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185652
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7c101ab49d16b01dd35d4fc498f002747cd31cd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: afbc3ca411fcf0a3a1c869a23cddccdb87f09ed6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497815"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554314"
 ---
-# <a name="planning-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="9edbd-102">Lync Server 2013의 통화 허용 제어 계획</span><span class="sxs-lookup"><span data-stu-id="9edbd-102">Planning for call admission control in Lync Server 2013</span></span>
+# <a name="planning-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="549b7-103">Lync Server 2013의 통화 허용 제어 계획</span><span class="sxs-lookup"><span data-stu-id="549b7-103">Planning for call admission control in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48497815"
 
 <span> </span>
 
-<span data-ttu-id="9edbd-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="9edbd-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="549b7-104">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="549b7-104">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="9edbd-p101">전화 통신, 비디오, 응용 프로그램 공유 등과 같은 IP 기반 UC(통합 통신) 응용 프로그램에서 사용 가능한 엔터프라이즈 네트워크 대역폭은 일반적으로 LAN 환경에서는 제한 요소로 간주되지 않지만 사이트, 네트워크 대역폭이 교차되는 WAL 링크에서는 제한될 수 있습니다. 네트워크 트래픽량이 WAN 링크를 초과 구독할 경우 이러한 정체를 해결하기 위해 큐, 버퍼링 및 패킷 삭제 등과 같은 현재 메커니즘이 사용됩니다. 추가 트래픽은 일반적으로 네트워크 정체가 해결되거나 필요한 경우 트래픽이 삭제될 때까지 지연됩니다. 이러한 상황에서 일반적인 데이터 트래픽에 대해서는 수신 클라이언트가 복구할 수 있습니다. 하지만 통합 통신과 같은 실시간 트래픽의 경우 통합 통신이 대기 시간 및 패킷 손실 모두에 민감하므로 이 방법으로 네트워크 정체를 해결할 수 없으며, WAN의 정체로 인해 사용자의 QoE(체감 품질)가 저하될 수 있습니다. 정체된 상황에서의 실시간 트래픽에 대해 품질이 낮은 연결을 제공하는 것보다 통화를 지연시키는 것이 더 나은 선택입니다.</span><span class="sxs-lookup"><span data-stu-id="9edbd-p101">For unified communications (UC) applications that are IP-based, such as telephony, video, and application sharing, the available bandwidth of enterprise networks is not generally considered to be a limiting factor within LAN environments. However, on WAN links that interconnect sites, network bandwidth can be limited. When an influx of network traffic oversubscribes a WAN link, current mechanisms such as queuing, buffering, and packet dropping are used to resolve the congestion. The extra traffic is typically delayed until the network congestion eases or, if necessary, the traffic is dropped. For conventional data traffic in such situations, the receiving client can recover. For real-time traffic such as unified communications, network congestion cannot be resolved in this manner, because the unified communications traffic is sensitive to both latency and packet loss. Congestion on the WAN can result in a poor Quality of Experience (QoE) for users. For real-time traffic in congested conditions, it is better to deny calls than to provide connections with poor quality.</span></span>
+<span data-ttu-id="549b7-p101">전화 통신, 비디오, 응용 프로그램 공유 등과 같은 IP 기반 UC(통합 통신) 응용 프로그램에서 사용 가능한 엔터프라이즈 네트워크 대역폭은 일반적으로 LAN 환경에서는 제한 요소로 간주되지 않지만 사이트, 네트워크 대역폭이 교차되는 WAL 링크에서는 제한될 수 있습니다. 네트워크 트래픽량이 WAN 링크를 초과 구독할 경우 이러한 정체를 해결하기 위해 큐, 버퍼링 및 패킷 삭제 등과 같은 현재 메커니즘이 사용됩니다. 추가 트래픽은 일반적으로 네트워크 정체가 해결되거나 필요한 경우 트래픽이 삭제될 때까지 지연됩니다. 이러한 상황에서 일반적인 데이터 트래픽에 대해서는 수신 클라이언트가 복구할 수 있습니다. 하지만 통합 통신과 같은 실시간 트래픽의 경우 통합 통신이 대기 시간 및 패킷 손실 모두에 민감하므로 이 방법으로 네트워크 정체를 해결할 수 없으며, WAN의 정체로 인해 사용자의 QoE(체감 품질)가 저하될 수 있습니다. 정체된 상황에서의 실시간 트래픽에 대해 품질이 낮은 연결을 제공하는 것보다 통화를 지연시키는 것이 더 나은 선택입니다.</span><span class="sxs-lookup"><span data-stu-id="549b7-p101">For unified communications (UC) applications that are IP-based, such as telephony, video, and application sharing, the available bandwidth of enterprise networks is not generally considered to be a limiting factor within LAN environments. However, on WAN links that interconnect sites, network bandwidth can be limited. When an influx of network traffic oversubscribes a WAN link, current mechanisms such as queuing, buffering, and packet dropping are used to resolve the congestion. The extra traffic is typically delayed until the network congestion eases or, if necessary, the traffic is dropped. For conventional data traffic in such situations, the receiving client can recover. For real-time traffic such as unified communications, network congestion cannot be resolved in this manner, because the unified communications traffic is sensitive to both latency and packet loss. Congestion on the WAN can result in a poor Quality of Experience (QoE) for users. For real-time traffic in congested conditions, it is better to deny calls than to provide connections with poor quality.</span></span>
 
-<span data-ttu-id="9edbd-112">CAC(통화 허용 제어)는 허용 가능한 품질의 실시간 세션을 설정하기 위해 충분한 네트워크 대역폭이 있는지 여부를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="9edbd-112">Call admission control (CAC) determines whether there is sufficient network bandwidth to establish a real-time session of acceptable quality.</span></span> <span data-ttu-id="9edbd-113">Lync Server 2013에서는 CAC가 오디오 및 비디오에 대 한 실시간 트래픽만 제어 하지만 데이터 트래픽에는 영향을 주지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9edbd-113">In Lync Server 2013, CAC controls real-time traffic only for audio and video, but it does not affect data traffic.</span></span> <span data-ttu-id="9edbd-114">기본 WAN 경로에 필요한 대역폭이 없는 경우 CAC는 인터넷 경로나 PSTN(공중 전화망)을 통해 통화를 라우팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9edbd-114">If the default WAN path does not have the required bandwidth, CAC can attempt to route the call through an Internet path or the public switched telephone network (PSTN).</span></span> <span data-ttu-id="9edbd-115">CAC는 Lync Server 에서만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9edbd-115">CAC is available only in Lync Server.</span></span>
+<span data-ttu-id="549b7-113">CAC(통화 허용 제어)는 허용 가능한 품질의 실시간 세션을 설정하기 위해 충분한 네트워크 대역폭이 있는지 여부를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="549b7-113">Call admission control (CAC) determines whether there is sufficient network bandwidth to establish a real-time session of acceptable quality.</span></span> <span data-ttu-id="549b7-114">Lync Server 2013에서는 CAC가 오디오 및 비디오에 대 한 실시간 트래픽만 제어 하지만 데이터 트래픽에는 영향을 주지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="549b7-114">In Lync Server 2013, CAC controls real-time traffic only for audio and video, but it does not affect data traffic.</span></span> <span data-ttu-id="549b7-115">기본 WAN 경로에 필요한 대역폭이 없는 경우 CAC는 인터넷 경로나 PSTN(공중 전화망)을 통해 통화를 라우팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="549b7-115">If the default WAN path does not have the required bandwidth, CAC can attempt to route the call through an Internet path or the public switched telephone network (PSTN).</span></span> <span data-ttu-id="549b7-116">CAC는 Lync Server 에서만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="549b7-116">CAC is available only in Lync Server.</span></span>
 
-<span data-ttu-id="9edbd-116">이 섹션에서는 통화 허용 제어 기능과 CAC를 계획하는 방법에 대해서 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="9edbd-116">This section describes the call admission control functionality and explains how to plan for CAC.</span></span>
+<span data-ttu-id="549b7-117">이 섹션에서는 통화 허용 제어 기능과 CAC를 계획하는 방법에 대해서 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="549b7-117">This section describes the call admission control functionality and explains how to plan for CAC.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9edbd-117">Lync Server에는 3 가지 고급 Enterprise Voice 기능인 CAC (통화 허용 제어), 응급 서비스 (E9-1-1) 및 미디어 바이패스가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9edbd-117">Lync Server has three advanced Enterprise Voice features: call admission control (CAC), emergency services (E9-1-1), and media bypass.</span></span> <span data-ttu-id="9edbd-118">이러한 세 가지 기능에 공통적으로 제공 되는 계획 정보에 대 한 개요는 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013의 Advanced Enterprise Voice 기능에 대 한 네트워크 설정을</A>참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9edbd-118">For an overview of planning information that is common to all three of these features, see <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Network settings for the advanced Enterprise Voice features in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="549b7-118">Lync Server에는 3 가지 고급 Enterprise Voice 기능인 CAC (통화 허용 제어), 응급 서비스 (E9-1-1) 및 미디어 바이패스가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="549b7-118">Lync Server has three advanced Enterprise Voice features: call admission control (CAC), emergency services (E9-1-1), and media bypass.</span></span> <span data-ttu-id="549b7-119">이러한 세 가지 기능에 공통적으로 제공 되는 계획 정보에 대 한 개요는 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013의 Advanced Enterprise Voice 기능에 대 한 네트워크 설정을</A>참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="549b7-119">For an overview of planning information that is common to all three of these features, see <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Network settings for the advanced Enterprise Voice features in Lync Server 2013</A>.</span></span>
 
 
 
@@ -57,19 +58,19 @@ ms.locfileid: "48497815"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9edbd-119">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9edbd-119">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="549b7-120">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="549b7-120">In This Section</span></span>
 
-  - [<span data-ttu-id="9edbd-120">Lync Server 2013의 통화 허용 제어 개요</span><span class="sxs-lookup"><span data-stu-id="9edbd-120">Overview of call admission control in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-admission-control.md)
+  - [<span data-ttu-id="549b7-121">Lync Server 2013의 통화 허용 제어 개요</span><span class="sxs-lookup"><span data-stu-id="549b7-121">Overview of call admission control in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-admission-control.md)
 
-  - [<span data-ttu-id="9edbd-121">Lync Server 2013의 통화 허용 제어에 대 한 요구 사항 정의</span><span class="sxs-lookup"><span data-stu-id="9edbd-121">Defining your requirements for call admission control in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-call-admission-control.md)
+  - [<span data-ttu-id="549b7-122">Lync Server 2013의 통화 허용 제어에 대 한 요구 사항 정의</span><span class="sxs-lookup"><span data-stu-id="549b7-122">Defining your requirements for call admission control in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-call-admission-control.md)
 
-  - [<span data-ttu-id="9edbd-122">예: Lync Server 2013의 통화 허용 제어에 대 한 요구 사항 수집</span><span class="sxs-lookup"><span data-stu-id="9edbd-122">Example: Gathering your requirements for call admission control in Lync Server 2013</span></span>](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)
+  - [<span data-ttu-id="549b7-123">예: Lync Server 2013의 통화 허용 제어에 대 한 요구 사항 수집</span><span class="sxs-lookup"><span data-stu-id="549b7-123">Example: Gathering your requirements for call admission control in Lync Server 2013</span></span>](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)
 
-  - [<span data-ttu-id="9edbd-123">Lync Server 2013의 CAC에 대 한 구성 요소 및 토폴로지</span><span class="sxs-lookup"><span data-stu-id="9edbd-123">Components and topologies for CAC in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-cac.md)
+  - [<span data-ttu-id="549b7-124">Lync Server 2013의 CAC에 대 한 구성 요소 및 토폴로지</span><span class="sxs-lookup"><span data-stu-id="549b7-124">Components and topologies for CAC in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-cac.md)
 
-  - [<span data-ttu-id="9edbd-124">Lync Server 2013의 통화 허용 제어에 대 한 모범 사례</span><span class="sxs-lookup"><span data-stu-id="9edbd-124">Best practices for call admission control in Lync Server 2013</span></span>](lync-server-2013-best-practices-for-call-admission-control.md)
+  - [<span data-ttu-id="549b7-125">Lync Server 2013의 통화 허용 제어에 대 한 모범 사례</span><span class="sxs-lookup"><span data-stu-id="549b7-125">Best practices for call admission control in Lync Server 2013</span></span>](lync-server-2013-best-practices-for-call-admission-control.md)
 
-  - [<span data-ttu-id="9edbd-125">Lync Server 2013의 통화 허용 제어에 대 한 배포 검사 목록</span><span class="sxs-lookup"><span data-stu-id="9edbd-125">Deployment checklist for call admission control in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-call-admission-control.md)
+  - [<span data-ttu-id="549b7-126">Lync Server 2013의 통화 허용 제어에 대 한 배포 검사 목록</span><span class="sxs-lookup"><span data-stu-id="549b7-126">Deployment checklist for call admission control in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-call-admission-control.md)
 
 </div>
 

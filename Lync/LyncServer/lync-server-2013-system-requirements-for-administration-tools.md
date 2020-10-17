@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 관리 도구에 대 한 시스템 요구 사항'
+description: 'Lync Server 2013: 관리 도구에 대 한 시스템 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22a0639a7d42112bd265b0e3eb6871b76f596d0c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d37a821ed3f06e0239db928b2a94f909020e542
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497445"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554774"
 ---
-# <a name="system-requirements-for-administration-tools-in-lync-server-2013"></a><span data-ttu-id="8ec76-102">Lync Server 2013의 관리 도구에 대 한 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="8ec76-102">System requirements for administration tools in Lync Server 2013</span></span>
+# <a name="system-requirements-for-administration-tools-in-lync-server-2013"></a><span data-ttu-id="e4735-103">Lync Server 2013의 관리 도구에 대 한 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="e4735-103">System requirements for administration tools in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48497445"
 
 <span> </span>
 
-<span data-ttu-id="8ec76-103">_**마지막으로 수정 된 항목:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="8ec76-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="e4735-104">_**마지막으로 수정 된 항목:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="e4735-104">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="8ec76-104">다음 항목에서는 관리 도구를 설치하고 토폴로지를 게시하기 위한 요구 사항에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="8ec76-104">The following topics describe the requirements for installing the administration tool and publishing a topology.</span></span>
+<span data-ttu-id="e4735-105">다음 항목에서는 관리 도구를 설치하고 토폴로지를 게시하기 위한 요구 사항에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="e4735-105">The following topics describe the requirements for installing the administration tool and publishing a topology.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8ec76-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="8ec76-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e4735-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="e4735-106">In This Section</span></span>
 
-  - [<span data-ttu-id="8ec76-106">Lync Server 2013의 관리 도구 소프트웨어 요구 사항</span><span class="sxs-lookup"><span data-stu-id="8ec76-106">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)
+  - [<span data-ttu-id="e4735-107">Lync Server 2013의 관리 도구 소프트웨어 요구 사항</span><span class="sxs-lookup"><span data-stu-id="e4735-107">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)
 
-  - [<span data-ttu-id="8ec76-107">Lync Server 2013의 토폴로지 게시 요구 사항</span><span class="sxs-lookup"><span data-stu-id="8ec76-107">Requirements to publish a topology in Lync Server 2013</span></span>](lync-server-2013-requirements-to-publish-a-topology.md)
+  - [<span data-ttu-id="e4735-108">Lync Server 2013의 토폴로지 게시 요구 사항</span><span class="sxs-lookup"><span data-stu-id="e4735-108">Requirements to publish a topology in Lync Server 2013</span></span>](lync-server-2013-requirements-to-publish-a-topology.md)
 
 </div>
 
