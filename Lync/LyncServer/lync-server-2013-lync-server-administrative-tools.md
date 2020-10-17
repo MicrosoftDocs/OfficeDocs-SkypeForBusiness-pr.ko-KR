@@ -12,20 +12,22 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27a7567fa467f8e152f4b6a61b06600a127607d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23ac976f2c05268b5cf864511b19db1fd251edbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186171"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525115"
 ---
+# <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 관리 도구
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 관리 도구
+
 
 </div>
 
@@ -45,17 +47,17 @@ Lync Server 관리 도구를 설치 하거나 사용 하기 전에 인프라, �
 
 관리 도구는 다음 항목으로 구성됩니다.
 
-  - **Lync server 배포 마법사**   를 사용 하 여 lync server를 배포 하 고 모든 관리 도구를 설치 합니다.
+  - **Lync Server 배포 마법사**     Lync Server를 배포 하 고 모든 관리 도구를 설치 하는 데 사용 됩니다.
 
-  - **Lync Server 토폴로지 작성기**   를 사용 하 여 배포의 구성 요소를 정의 합니다.
+  - **Lync Server 토폴로지 작성기**     배포의 구성 요소를 정의 하는 데 사용 됩니다.
 
-  - **Lync Server 제어판**   은 웹 기반 인터페이스를 사용 하 여 배포를 지속적으로 관리 하는 데 사용 됩니다.
+  - **Lync Server 제어판**     웹 기반 인터페이스를 사용 하 여 배포를 지속적으로 관리 하는 데 사용 됩니다.
 
-  - **Lync Server 관리 셸**   명령줄을 사용 하 여 배포를 지속적으로 관리 하는 데 사용 됩니다.
+  - **Lync Server 관리 셸**     명령줄을 사용 하 여 배포를 지속적으로 관리 하는 데 사용 됩니다.
 
-  - **Lync Server 로깅 도구**   를 사용 하 여 배포 문제를 해결할 수 있습니다.
+  - **Lync Server 로깅 도구**     배포의 문제를 해결 하는 데 사용 됩니다.
 
-  - **중앙 로깅 서비스**   는 한 컴퓨터, 풀, 사이트 또는 전역에서 로그 및 추적 파일을 수집 합니다. 공급자, 플래그 및 추적 수준이 포함 된 시나리오를 선택 하 고 정의 합니다. 로깅은 텍스트 기반 도구 또는 Snooper와 같은 도구를 사용 하 여 수집 및 집계 되 고 표시 됩니다.
+  - **중앙 로깅 서비스**     한 컴퓨터, 풀, 사이트 또는 전역에서 로그 및 추적 파일을 수집 합니다. 공급자, 플래그 및 추적 수준이 포함 된 시나리오를 선택 하 고 정의 합니다. 로깅은 텍스트 기반 도구 또는 Snooper.exe와 같은 도구를 사용 하 여 수집 및 집계 되 고 표시 됩니다.
 
 기본적으로 토폴로지 작성기 및 Lync Server 제어판을 사용 하 여 배포를 관리할 수 있습니다.
 
@@ -63,7 +65,7 @@ Lync Server 관리 도구를 설치 하거나 사용 하기 전에 인프라, �
 
 ## <a name="deployment-wizard"></a>배포 마법사
 
-Lync Server를 아직 설치 하지 않은 컴퓨터에 설치 미디어에 포함 된 Lync Server 배포 마법사를 사용 하 여 모든 관리 도구를 설치 해야 합니다. 관리 도구 설치 프로세스 중에 Lync Server 배포 마법사는 다른 도구와 함께 로컬로 설치 되므로 나중에 추가 구성 요소에 대 한 파일을 설치 하거나, 필요 하지 않은 구성 요소에 대 한 파일을 제거할 수 있습니다. 컴퓨터.
+Lync Server를 아직 설치 하지 않은 컴퓨터에 설치 미디어에 포함 된 Lync Server 배포 마법사를 사용 하 여 모든 관리 도구를 설치 해야 합니다. 관리 도구 설치 프로세스 중에 Lync Server 배포 마법사는 다른 도구와 함께 로컬로 설치 되므로 나중에 추가 구성 요소에 대 한 파일을 설치 하거나 컴퓨터에서 사용 하지 않으려는 구성 요소에 대 한 파일을 제거할 수 있습니다.
 
 Lync Server 설치 미디어에서 처음으로 Lync Server 배포 마법사를 실행 하는 방법에 대 한 자세한 내용은 [Install Lync server 2013 관리 도구](lync-server-2013-install-lync-server-administrative-tools.md)를 참조 하십시오.
 
@@ -113,7 +115,7 @@ Lync Server에서 Lync Server 관리 셸은 관리 및 관리에 대 한 새로�
 
 ## <a name="logging-tool"></a>로깅 도구
 
-Lync Server 로깅 도구를 이용 하면 제품을 실행 하는 동안 제품에서 로깅 및 추적 정보를 캡처하여 문제를 쉽게 해결할 수 있습니다. 이 도구를 사용 하 여 모든 Lync Server 서버 역할에서 디버그 세션을 실행할 수 있습니다. 로깅 도구에 대 한 자세한 내용은 TechNet 라이브러리에서 Lync Server 2010 로깅 도구 설명서를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265).
+Lync Server 로깅 도구를 이용 하면 제품을 실행 하는 동안 제품에서 로깅 및 추적 정보를 캡처하여 문제를 쉽게 해결할 수 있습니다. 이 도구를 사용 하 여 모든 Lync Server 서버 역할에서 디버그 세션을 실행할 수 있습니다. 로깅 도구에 대 한 자세한 내용은 TechNet 라이브러리에서 Lync Server 2010 로깅 도구 설명서를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265) .
 
 <div>
 

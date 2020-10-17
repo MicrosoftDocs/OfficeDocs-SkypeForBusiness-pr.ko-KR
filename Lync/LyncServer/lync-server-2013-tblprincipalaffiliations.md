@@ -12,20 +12,22 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a57e4a3c7a5fdcc1825c140cb6e26f8cede8dc1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec2ef70b70ff496852a753a9e15a38f80de1509b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214445"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523745"
 ---
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>Lync Server 2013의 tblPrincipalAffiliations
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>Lync Server 2013의 tblPrincipalAffiliations
+
 
 </div>
 
@@ -50,7 +52,7 @@ tblPrincipalAffiliations active directory 컨테이너의 도메인에서 Active
 <thead>
 <tr class="header">
 <th>열</th>
-<th>형식</th>
+<th>유형</th>
 <th>설명</th>
 </tr>
 </thead>
@@ -68,7 +70,7 @@ tblPrincipalAffiliations active directory 컨테이너의 도메인에서 Active
 <tr class="odd">
 <td><p>인덱스</p></td>
 <td><p>int, null이 아님</p></td>
-<td><p>인덱스. 자체 가입 값은-1이 고, 각 &lt;Principalid (affiliationId&gt; 버킷) 내에서 1부터 차례로 증가 하는 다른 인스턴스에 대 한 정보입니다.</p></td>
+<td><p>인덱스. 자체 가입 값은-1이 고, 각 &lt; principalid (affiliationId 버킷) 내에서 1부터 차례로 증가 하는 다른 인스턴스에 대 한 정보입니다 &gt; .</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>

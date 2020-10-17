@@ -12,20 +12,22 @@ ms:contentKeyID: 48183832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 732b9a70ee61ce4ecdf19b3f668ba09a3416cca9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4754881d2ed3205c4f06d5468001c6e45880278c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208124"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523965"
 ---
+# <a name="supported-topologies-in-lync-server-2013"></a>Lync Server 2013에서 지원 되는 토폴로지
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-topologies-in-lync-server-2013"></a>Lync Server 2013에서 지원 되는 토폴로지
+
 
 </div>
 
@@ -84,7 +86,7 @@ Lync Server 2013 온-프레미스 배포는 다음으로 구성 됩니다.
 
   - Lync Server 2013의 Office 웹 응용 프로그램에서 사용 하는 office Web Apps 서버는 Microsoft PowerPoint 프레젠테이션의 공유 및 렌더링을 처리 합니다.
 
-  - 경계 네트워크의에 지 서버 또는에 지 풀 배포에서 페더레이션 파트너, 공용 IM 연결, 확장 가능한 메시징 및 현재 상태 프로토콜 (XMPP) 게이트웨이, 원격 사용자 액세스, 모임에 대 한 익명 사용자의 참여를 지원 하려면 또는 Exchange UM (통합 메시징)이 있습니다. 다른 서버 역할을 에지 서버와 함께 배치할 수 없습니다. 해당되는 경우 DNS 부하 분산이 권장되지만 하드웨어 부하 분산도 지원됩니다. 내부 에지 인터페이스와 외부 에지 인터페이스는 같은 유형의 부하 분산을 사용해야 합니다. 즉, 한 에지 인터페이스에서는 DNS 부하 분산을 사용하고 다른 에지 인터페이스에서는 하드웨어 부하 분산을 사용할 수는 없습니다. 부하 분산 요구 사항 및 지원에 대 한 자세한 내용은 계획 설명서에서 [Lync server 2013의 외부 사용자 액세스 계획](lync-server-2013-planning-for-external-user-access.md) 및 [lync Server 2013의](lync-server-2013-deploying-external-user-access.md) 배포 설명서에서 external user access 배포를 참조 하세요.
+  - 경계 네트워크의에 지 서버 또는에 지 풀 배포를 통해 페더레이션 파트너, 공용 IM 연결, 확장 가능한 메시징 및 현재 상태 프로토콜 (XMPP) 게이트웨이, 원격 사용자 액세스, 모임에서 익명 사용자의 참여 또는 Exchange UM (통합 메시징)을 지원 하도록 하려는 경우 다른 서버 역할을 에지 서버와 함께 배치할 수 없습니다. 해당되는 경우 DNS 부하 분산이 권장되지만 하드웨어 부하 분산도 지원됩니다. 내부 에지 인터페이스와 외부 에지 인터페이스는 같은 유형의 부하 분산을 사용해야 합니다. 즉, 한 에지 인터페이스에서는 DNS 부하 분산을 사용하고 다른 에지 인터페이스에서는 하드웨어 부하 분산을 사용할 수는 없습니다. 부하 분산 요구 사항 및 지원에 대 한 자세한 내용은 계획 설명서에서 [Lync server 2013의 외부 사용자 액세스 계획](lync-server-2013-planning-for-external-user-access.md) 및 [lync Server 2013의](lync-server-2013-deploying-external-user-access.md) 배포 설명서에서 external user access 배포를 참조 하세요.
 
   - 중재 서버 또는 풀 (중앙 사이트의 프런트 엔드 풀에서 Enterprise Voice 또는 전화 접속 회의를 지원 하려는 경우) Enterprise Voice support를 배포 하는 방법에 따라 프런트 엔드 풀에 중재 서버를 함께 배치할 (기본값) 아니면 독립 실행형 중재 서버 또는 풀을 배포할 수 있습니다. DNS, 하드웨어 또는 응용 프로그램 부하 분산 (해당 하는 경우)을 사용 하 여 PSTN 게이트웨이, IP-PBX 또는 SIP 트렁크 세션 테두리 조절 (SBC)을 포함 하 여 중재 서버 풀의 게이트웨이 피어에서 트래픽을 분산할 수 있습니다. 적절 한 중재 서버 토폴로지를 계획 하는 방법에 대 한 자세한 내용은 계획 설명서에서 [Lync server 2013의 중재 서버에 대 한 배포 지침](lync-server-2013-deployment-guidelines-for-mediation-server.md) 을 참조 하십시오.
 
@@ -96,7 +98,7 @@ Lync Server 2013 온-프레미스 배포는 다음으로 구성 됩니다.
 
   - 디렉터 또는 디렉터 풀-사용자의 홈 풀에 대 한 Lync Server 2013 사용자 요청을 복구 및 리디렉션하는 것을 용이 하 게 하려면 (Enterprise Edition 프런트 엔드 풀 또는 Standard Edition Server 일 수 있음) 외부 사용자 액세스를 지원하는 각 중앙 사이트 및 하나 이상의 프런트 엔드 풀을 배포한 각 중앙 사이트에 디렉터 또는 디렉터 풀을 배포하는 것이 좋습니다. 각 디렉터 풀은 최대 10개의 디렉터를 포함할 수 있습니다. 디렉터를 다른 서버 역할과 함께 배치할 수는 없습니다. 적절 한 디렉터 토폴로지를 계획 하는 방법에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 디렉터에 대 한 시나리오](lync-server-2013-scenarios-for-the-director.md) 를 참조 하십시오.
 
-  - 역방향 프록시-Lync Server 2013 구성 요소가 아니지만, 페더레이션 사용자에 대해 웹 콘텐츠를 공유 하거나 모바일 트래픽을 지원 하려는 경우에 필요 합니다. 역방향 프록시 서버를 Lync Server 2013 서버 역할을 사용 하 여 함께 배치할 수는 없지만 다른 사용자에 게 사용 되는 조직의 기존 역방향 프록시 서버에 대 한 지원을 구성 하 여 Lync Server 2013 배포에 대 한 역방향 프록시 지원을 구현할 수 있습니다. 프로그램만. 역방향 프록시 서버에 대 한 자세한 내용은 배포 설명서에서 [Lync Server 2013에 대 한 역방향 프록시 서버 설정을](lync-server-2013-setting-up-reverse-proxy-servers.md) 참조 하십시오.
+  - 역방향 프록시-Lync Server 2013 구성 요소가 아니지만, 페더레이션 사용자에 대해 웹 콘텐츠를 공유 하거나 모바일 트래픽을 지원 하려는 경우에 필요 합니다. 역방향 프록시 서버를 Lync Server 2013 서버 역할을 사용 하 여 함께 배치할 수는 없지만, 다른 응용 프로그램에 사용 되는 조직의 기존 역방향 프록시 서버에 대 한 지원을 구성 하 여 Lync Server 2013 배포에 대 한 역방향 프록시 지원을 구현할 수 있습니다. 역방향 프록시 서버에 대 한 자세한 내용은 배포 설명서에서 [Lync Server 2013에 대 한 역방향 프록시 서버 설정을](lync-server-2013-setting-up-reverse-proxy-servers.md) 참조 하십시오.
 
 <div>
 
@@ -122,7 +124,7 @@ Lync Server 2013 온-프레미스 배포는 다음으로 구성 됩니다.
 
   - 모니터링
 
-  - 보관할
+  - 보관
 
 <div>
 
@@ -142,7 +144,7 @@ Lync Server 2013 온-프레미스 배포는 다음으로 구성 됩니다.
 
   - 영구 채팅 서버 또는 풀
 
-  - 보관할
+  - 보관
 
   - 모니터링
 

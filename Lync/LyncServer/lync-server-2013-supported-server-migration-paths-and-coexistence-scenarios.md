@@ -12,20 +12,22 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab7d85bd25c6123b3befd3520289e40c63461970
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181571"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523975"
 ---
+# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013의 지원 되는 서버 마이그레이션 경로 및 동시 사용 시나리오
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013의 지원 되는 서버 마이그레이션 경로 및 동시 사용 시나리오
+
 
 </div>
 
@@ -78,15 +80,15 @@ Lync Server 2013는 Lync Server 2010 배포 또는 Office Communications Server 
 
 이전 Lync server 2010 또는 Office Communications Server 2007 R2 배포가 새로운 Lync Server 2013 배포와 함께 일시적으로 존재 하는 단계적 마이그레이션 중에는 혼합 버전 라우팅에 대 한 지원이 제한 됩니다. 자세한 내용은 마이그레이션 설명서를 참조하십시오.
 
-Lync Server 2013 데이터베이스 인스턴스에 대해 Microsoft SQL Server 2008 R2 또는 Microsoft SQL Server 2012을 실행 하는 별도의 컴퓨터를 사용 해야 합니다. Lync server 2010 또는 Office Communications Server 2007 R2 프런트 엔드 풀에 사용 하는 Lync Server 2013 프런트 엔드 풀에 대해서는 동일한 SQL Server 인스턴스를 사용할 수 없습니다. Lync server 2010 또는 Office Communications Server 2007 R2가 배포 된 배포에 대해 토폴로지 작성기에서 Lync Server 2013을 정의 하 고 구성 하는 경우 토폴로지 작성기에서 이미 사용 중인 Lync Server 2013 인스턴스를 정의할 수 없습니다. 토폴로지입니다.
+Lync Server 2013 데이터베이스 인스턴스에 대해 Microsoft SQL Server 2008 R2 또는 Microsoft SQL Server 2012을 실행 하는 별도의 컴퓨터를 사용 해야 합니다. Lync server 2010 또는 Office Communications Server 2007 R2 프런트 엔드 풀에 사용 하는 Lync Server 2013 프런트 엔드 풀에 대해서는 동일한 SQL Server 인스턴스를 사용할 수 없습니다. Lync server 2010 또는 Office Communications Server 2007 R2가 배포 된 배포에 대해 토폴로지 작성기에서 Lync Server 2013을 정의 하 고 구성 하는 경우 토폴로지 작성기에서 이미 토폴로지에서 사용 중인 Lync Server 2013의 인스턴스를 정의할 수 없습니다.
 
-토폴로지 작성기에는 "서버의 \[\] SQL server FQDN에 sql 인스턴스 호스팅 역할 ' User Store '가 이미 포함 되어 있습니다." 라는 메시지가 표시 됩니다.
+토폴로지 작성기에는 "서버의 SQL server \[ FQDN에 \] sql 인스턴스 호스팅 역할 ' User Store '가 이미 포함 되어 있습니다." 라는 메시지가 표시 됩니다.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 배포에 새로운 서버 역할을 배포 하려는 경우 먼저 마이그레이션 설명서 및 배포 설명서에 설명 된 대로 기존 배포를 업그레이드 한 다음에 설명 된 대로 새 서버 역할을 배포 해야 합니다. 계획 설명서 및 배포 설명서 이전 버전의 그룹 채팅을 마이그레이션하는 경우 Lync Server 2010 또는 Office Communications Server 2007 r 2에서 다른 모든 구성 요소를 마이그레이션하기 위한 프로세스를 완료 한 후에 마지막으로 마이그레이션하십시오.
+> Lync Server 2013 배포에 새로운 서버 역할을 배포 하려면 먼저 마이그레이션 설명서 및 배포 설명서에 설명 된 대로 기존 배포를 업그레이드 한 다음 계획 설명서 및 배포 설명서에 설명 된 대로 새 서버 역할을 배포 해야 합니다. 이전 버전의 그룹 채팅을 마이그레이션하는 경우 Lync Server 2010 또는 Office Communications Server 2007 r 2에서 다른 모든 구성 요소를 마이그레이션하기 위한 프로세스를 완료 한 후에 마지막으로 마이그레이션하십시오.
 
 
 

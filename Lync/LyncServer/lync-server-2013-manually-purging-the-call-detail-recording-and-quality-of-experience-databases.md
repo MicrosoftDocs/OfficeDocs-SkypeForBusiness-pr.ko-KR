@@ -12,20 +12,22 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6797d5e65f182e8a28bb442858070ffed19fcc80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b34b3a0dd79651ef288740243313d58482959e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524785"
 ---
+# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Lync Server 2013에서 통화 정보 기록 및 경험 수준 데이터베이스를 수동으로 제거
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Lync Server 2013에서 통화 정보 기록 및 경험 수준 데이터베이스를 수동으로 제거
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**마지막으로 수정 된 항목:** 2014-07-07_
 
 관리자는 CDR (통화 정보 기록) 및/또는 QoE (체감 품질) 데이터베이스를 구성 하 여 데이터베이스에서 오래 된 레코드를 자동으로 제거할 수 있습니다. 이는 지정 된 데이터베이스 (CDR 또는 QoE)에 대해 제거가 사용 하도록 설정 되어 있고 데이터베이스에 지정 된 시간 보다 오래 된 레코드가 있는 경우에 발생 합니다. 예를 들어 매일 1:00 AM 관리자가 QoE 데이터베이스에서 이전에 60 일 보다 오래 된 QoE 레코드를 삭제 하도록 시스템을 구성할 수 있습니다.
 
-이러한 자동 삭제 외에도 두 개의 새 cmdlet--Invoke-cscdrdatabasepurge 및 Invoke-CsQoEDatbasePurge가 Microsoft Lync Server 2013에 추가 되었습니다. 이러한 cmdlet을 사용 하면 관리자가 언제 든 지 CDR 및 QoE 데이터베이스에서 레코드를 수동으로 제거할 수 있습니다. 예를 들어 CDR 데이터베이스에서 10 일 보다 오래 된 모든 레코드를 수동으로 제거 하려면 다음과 같은 명령을 사용 하면 됩니다.
+자동 삭제 외에도 두 개의 새 cmdlet--Invoke-CsCdrDatabasePurge 및 Invoke-CsQoEDatbasePurge가 Microsoft Lync Server 2013에 추가 되었습니다. 이러한 cmdlet을 사용 하면 관리자가 언제 든 지 CDR 및 QoE 데이터베이스에서 레코드를 수동으로 제거할 수 있습니다. 예를 들어 CDR 데이터베이스에서 10 일 보다 오래 된 모든 레코드를 수동으로 제거 하려면 다음과 같은 명령을 사용 하면 됩니다.
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 
 위의 예에서는 10일보다 오래된 통화 정보 기록 및 진단 데이터 레코드가 모두 atl-sql-001.litwareinc.com의 모니터링 데이터베이스에서 삭제됩니다. 통화 정보 기록은 사용자/세션 보고서입니다. 진단 데이터 레코드는 Lync 2013와 같은 클라이언트 응용 프로그램에서 업로드 하는 진단 로그입니다.
 
-위에 나와 있는 것처럼, Invoke-CsCdrDatabasePurge cmdlet을 실행할 때는 PurgeCallDetaiDataOlderThanDays 및 PurgeDiagnosticDataOlderThanDays 매개 변수를 둘 다 포함해야 합니다. 그러나 이러한 매개 변수를 같은 값으로 설정할 필요는 없습니다. 예를 들어 10일보다 오래된 통화 정보 기록은 삭제하는 동시에 진단 데이터 레코드는 모두 데이터베이스에 남겨 둘 수 있습니다. 이 작업을 수행 하려면 Purgecalldetaildataolderthandays는을 10으로, PurgeDiagnosticDataOlderThanDays을 0으로 설정 합니다. 예:
+위에 나와 있는 것처럼, Invoke-CsCdrDatabasePurge cmdlet을 실행할 때는 PurgeCallDetaiDataOlderThanDays 및 PurgeDiagnosticDataOlderThanDays 매개 변수를 둘 다 포함해야 합니다. 그러나 이러한 매개 변수를 같은 값으로 설정할 필요는 없습니다. 예를 들어 10일보다 오래된 통화 정보 기록은 삭제하는 동시에 진단 데이터 레코드는 모두 데이터베이스에 남겨 둘 수 있습니다. 이 작업을 수행 하려면 Purgecalldetaildataolderthandays는을 10으로, PurgeDiagnosticDataOlderThanDays을 0으로 설정 합니다. 예를 들면 다음과 같습니다.
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
 

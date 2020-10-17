@@ -12,20 +12,22 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a18cd17686133219ccc60d5e85fd149df190665a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b393f9281c1bb1fc1072a541b33bbab2656dafb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202174"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524255"
 ---
+# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 데이터베이스 스키마
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 데이터베이스 스키마
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2012-09-18_
 
 다음과 같은 모범 사례를 따르십시오.
 
-  - SELECT\* //는 열 목록이 증가할 수 있으므로 지원 되지 않습니다.
+  - SELECT \* //는 열 목록이 증가할 수 있으므로 지원 되지 않습니다.
 
   - 사용자가 생성한 스키마 수정은 지원되지 않습니다.
 

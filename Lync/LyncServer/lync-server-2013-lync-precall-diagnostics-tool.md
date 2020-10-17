@@ -12,20 +12,22 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0377460340e1b639a7fca5862dcd85aed399b94a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19051eb183dc12f091de0d90ebb707bc6cee8fc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186211"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525155"
 ---
+# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Lync Server 2013의 lync PreCall 진단 도구
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Lync Server 2013의 lync PreCall 진단 도구
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2016-11-04_
 
   - 향상 된 안정성
 
-의견을 보내주셔서 감사 합니다. 모든 지원 질문이 나 문제를의 [.Pcd 피드백](mailto:pcdfb@microsoft.com) 별칭으로 보내 주시기 <pcdfb@microsoft.com>바랍니다.
+의견을 보내주셔서 감사 합니다. 모든 지원 질문이 나 문제를의 [.Pcd 피드백](mailto:pcdfb@microsoft.com) 별칭으로 보내 주시기 바랍니다 <pcdfb@microsoft.com> .
 
 이 항목에는 다음 섹션이 포함 되어 있습니다.
 
@@ -75,7 +77,7 @@ _**마지막으로 수정 된 항목:** 2016-11-04_
 
 이 항목에서는 무료 다운로드에 사용할 수 있는 도구의 다음 버전에 대해 설명 합니다.
 
-  - Windows 데스크톱 앱 ([https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914))
+  - Windows 데스크톱 앱 ( [https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914) )
 
 </div>
 
@@ -101,7 +103,7 @@ _**마지막으로 수정 된 항목:** 2016-11-04_
 
   - 모든 버전의 Windows 7 또는 Windows 8 운영 체제
 
-  - Microsoft .NET Framework 4.5는 다음 위치에서 제공 됩니다.[https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
+  - Microsoft .NET Framework 4.5는 다음 위치에서 제공 됩니다. [https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
 
 </div>
 

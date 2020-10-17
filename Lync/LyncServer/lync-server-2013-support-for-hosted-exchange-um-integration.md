@@ -12,20 +12,22 @@ ms:contentKeyID: 48185376
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89c87de9c57abaf4938b350aa40e8deea1150d22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ebc49336712e96bca428132f3ccad631817208d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208294"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524175"
 ---
+# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Lync Server 2013의 호스팅된 Exchange UM 통합 지원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Lync Server 2013의 호스팅된 Exchange UM 통합 지원
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "42208294"
 
 _**마지막으로 수정 된 항목:** 2012-09-21_
 
-Lync Server 2013 ExUM 라우팅 응용 프로그램은 온-프레미스 환경에서 Lync Server 2013 및 Exchange UM을 모두 회사 내에서 로컬로 설치 하거나, a에 의해 호스트 되는 Exchange UM을 사용 하 여 Exchange um (통합 메시징)과의 통합을 지원 합니다. 다음 다이어그램과 같이 서비스 공급자를 제공 합니다.
+Lync Server 2013 ExUM 라우팅 응용 프로그램은 다음 다이어그램에 나와 있는 것 처럼, Lync Server 2013 및 Exchange UM을 모두 회사 내에서 로컬로 설치 하거나 서비스 공급자가 호스트 하는 Exchange UM을 사용 하 여 온-프레미스 환경에서 Exchange UM (통합 메시징)과의 통합을 지원 합니다.
 
 ![온-프레미스 Lync Server Exchange UM 배포](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "온-프레미스 Lync Server Exchange UM 배포")
 
 다음과 같은 모드가 지원됩니다.
 
-  - **온-프레미스 모드**   Lync Server 2013 및 Exchange UM은 둘 다 엔터프라이즈 내의 로컬 서버에 배포 됩니다.
+  - **온-프레미스 모드**     Lync Server 2013 및 Exchange UM은 둘 다 엔터프라이즈 내의 로컬 서버에 배포 됩니다.
 
-  - **크로스-프레미스 모드**   Lync Server 2013는 엔터프라이즈 내의 로컬 서버에 배포 되 고 Exchange UM은 Microsoft exchange online 데이터 센터와 같은 온라인 서비스 공급자의 기능을 통해 호스트 됩니다.
+  - **크로스-프레미스 모드**     Lync Server 2013는 엔터프라이즈 내의 로컬 서버에 배포 되며 Exchange UM은 Microsoft Exchange Online 데이터 센터와 같은 온라인 서비스 공급자의 기능을 통해 호스팅됩니다.
 
-  - **혼합 모드**   Lync Server 2013 배포에는 일부 사용자 사서함이 회사 내에서 Microsoft Exchange Server를 실행 하는 로컬 서버와 호스팅된 Exchange 서비스 데이터 센터에 있는 일부 사서함이 포함 되어 있습니다.
+  - **혼합 모드**     Lync Server 2013 배포에는 일부 사용자 사서함이 회사 내에서 Microsoft Exchange Server를 실행 하는 로컬 서버에 있고 호스팅된 Exchange 서비스 데이터 센터에 있는 일부 사서함이 포함 되어 있습니다.
     
     <div>
     

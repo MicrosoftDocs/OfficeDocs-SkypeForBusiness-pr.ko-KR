@@ -12,20 +12,22 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34a73d343375f53acf7f1b7383efb05dd63b9a64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: db6f415b373e8271f771510d925adef1ae672ced
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208204"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524055"
 ---
+# <a name="supported-lync-server-2013-hybrid-configurations"></a>지원 되는 Lync Server 2013 하이브리드 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-lync-server-2013-hybrid-configurations"></a>지원 되는 Lync Server 2013 하이브리드 구성
+
 
 </div>
 

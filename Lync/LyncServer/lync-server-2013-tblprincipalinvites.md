@@ -12,20 +12,22 @@ ms:contentKeyID: 48184141
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5165adf5b9cb5ddeefe80895217e6b2265784855
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd93043a9120a6de5a0f1da6ad3af64a2a6d38f7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214454"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523725"
 ---
+# <a name="tblprincipalinvites-in-lync-server-2013"></a>Lync Server 2013의 tblPrincipalInvites
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalinvites-in-lync-server-2013"></a>Lync Server 2013의 tblPrincipalInvites
+
 
 </div>
 
@@ -50,7 +52,7 @@ tblPrincipalInvites에는 자동 초대가 켜진 모든 노드에 대해 프로
 <thead>
 <tr class="header">
 <th>열</th>
-<th>형식</th>
+<th>유형</th>
 <th>설명</th>
 </tr>
 </thead>

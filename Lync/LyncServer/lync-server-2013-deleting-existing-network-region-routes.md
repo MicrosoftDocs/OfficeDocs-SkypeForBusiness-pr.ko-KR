@@ -12,20 +12,22 @@ ms:contentKeyID: 49733669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91a8674e635bb5663ebbca994d7d8f865601a193
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f07a0331563c4d78c4e8fc3391b7f8423a2ecc21
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525395"
 ---
+# <a name="deleting-existing-network-region-routes-in-lync-server-2013"></a>Lync Server 2013에서 기존 네트워크 지역 경로 삭제
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-existing-network-region-routes-in-lync-server-2013"></a>Lync Server 2013에서 기존 네트워크 지역 경로 삭제
+
 
 </div>
 
@@ -74,7 +76,7 @@ CAC(통화 허용 제어) 구성 내의 모든 지역에는 다른 모든 지역
 [Lync Server 2013에서 네트워크 지역 경로 만들기 또는 수정](lync-server-2013-creating-or-modifying-network-region-routes.md)  
 
 
-[네트워크 지역 경로 구성](https://technet.microsoft.com/library/gg133706\(v=ocs.15\))  
+[네트워크 영역 경로 구성](https://technet.microsoft.com/library/gg133706\(v=ocs.15\))  
 
 
 [새-Csnetworkinterroute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  

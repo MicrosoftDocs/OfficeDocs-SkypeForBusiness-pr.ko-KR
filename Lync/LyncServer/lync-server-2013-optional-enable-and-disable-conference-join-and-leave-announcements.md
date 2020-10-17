@@ -12,20 +12,22 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5007ec14ad197afb2cfb8d2c73baa41ed144a4e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a50431ee1917c580440f8a47cff0ca09f5e47f07
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524435"
 ---
+# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>반드시 Lync Server 2013에서 전화 회의 참가 및 탈퇴 알림 사용 및 사용 안 함
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>반드시 Lync Server 2013에서 전화 회의 참가 및 탈퇴 알림 사용 및 사용 안 함
+
 
 </div>
 
@@ -60,11 +62,11 @@ _**마지막으로 수정 된 항목:** 2012-09-30_
         [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
         [-EntryExitAnnouncementsType <UseNames | ToneOnly]
     
-    **EnableNameRecording**   은 회의에 들어가기 전에 익명 참가자에 게 자신의 이름을 기록할지 여부를 결정 합니다. 기본값은 "$true" 이며,이 값은 익명 참가자가 회의에 참가할 때 자신의 이름을 명시 하 라는 메시지를 표시 합니다. (인증 된 참가자의 경우 대신 표시 이름이 사용 되므로 이름을 기록 하지 않습니다.)
+    **EnableNameRecording**     익명 참가자가 전화 회의에 들어가기 전에 자신의 이름을 기록할지 묻는 메시지를 표시 합니다. 기본값은 "$true" 이며,이 값은 익명 참가자가 회의에 참가할 때 자신의 이름을 명시 하 라는 메시지를 표시 합니다. (인증 된 참가자의 경우 대신 표시 이름이 사용 되므로 이름을 기록 하지 않습니다.)
     
-    **EntryExitAnnouncementsEnabledByDefault**   는 알림을 기본적으로 설정/해제 하는지 여부를 나타냅니다. 기본값은 "$false" 이며,이 값은 기본적으로 참가자가 회의에 참가 하거나 나갈 때 알림이 제공 되지 않음을 의미 합니다. 모임 이끌이가 모임을 예약할 때이 설정을 다시 정의할 수 있습니다.
+    **EntryExitAnnouncementsEnabledByDefault**     기본적으로 알림을 설정 하거나 해제 하는지 여부를 나타냅니다. 기본값은 "$false" 이며,이 값은 기본적으로 참가자가 회의에 참가 하거나 나갈 때 알림이 제공 되지 않음을 의미 합니다. 모임 이끌이가 모임을 예약할 때이 설정을 다시 정의할 수 있습니다.
     
-    **EntryExitAnnouncementsType**   는 알림을 사용 하도록 설정 된 참가자가 회의에 참가 하거나 나갈 때마다 수행 되는 작업을 나타냅니다. 기본값은 "UseNames" 이며 공지 사항이 설정 된 경우 "Ken Myer에서 전화 회의에 참가 했습니다."와 같은 알림을 받습니다.
+    **EntryExitAnnouncementsType**     참가자가 알림을 사용할 수 있도록 회의에 참가 하거나 나갈 때마다 수행 되는 작업을 나타냅니다. 기본값은 "UseNames" 이며 공지 사항이 설정 된 경우 "Ken Myer에서 전화 회의에 참가 했습니다."와 같은 알림을 받습니다.
     
     이러한 설정은 전역 범위나 사이트 범위에서 구성할 수 있습니다. 사이트 범위에서 구성된 설정이 전역 범위에서 구성된 설정보다 우선합니다.
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec650c62b26775aeddf9f01ff8d455a6f6a7667
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48ee24dca1cdf083de990ef42dae4017ed927e15
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185111"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524565"
 ---
+# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Lync Server 2013의 모임에 대 한 마이그레이션 고려 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Lync Server 2013의 모임에 대 한 마이그레이션 고려 사항
+
 
 </div>
 
@@ -55,11 +57,11 @@ _**마지막으로 수정 된 항목:** 2014-02-10_
 
 ## <a name="changes-to-meetings-in-lync-server-2013"></a>Lync Server 2013의 모임 변경 사항
 
-**Lync Server 2013 기능**    Lync server 2013에서는 계정이 lync server 2013로 이동 되 고 lync 2013 클라이언트에 로그인 한 후 사용자에 게 제공 되는 새로운 회의 기능을 제공 합니다. 새로운 기능은 [Lync server 2013의 새로운 회의 기능과](lync-server-2013-new-conferencing-features.md) [lync server 2013의 클라이언트에 대 한](lync-server-2013-what-s-new-for-clients.md)새로운 기능에 설명 되어 있습니다.
+**Lync Server 2013 기능**     Lync Server 2013에서는 계정이 Lync Server 2013로 이동 되 고 Lync 2013 클라이언트에 로그인 한 후 사용자에 게 제공 되는 새로운 회의 기능을 제공 합니다. 새로운 기능은 [Lync server 2013의 새로운 회의 기능과](lync-server-2013-new-conferencing-features.md) [lync server 2013의 클라이언트에 대 한](lync-server-2013-what-s-new-for-clients.md)새로운 기능에 설명 되어 있습니다.
 
-**모임 URL**    Lync server 2010와 마찬가지로 lync server 2013의 새로 예약 된 모든 모임에는 HTTPS://의 URL 접두사가 있고 사용자 계정과 함께 기존 모임이 마이그레이션됩니다. 그러나 Lync Server 2013에서는 Office Communications Server 2007 R2 전화 회의 통화 (conf://URL 접두사) 또는 웹 회의 (meet://URL 접두사)를 지원 하지 않습니다. 자세한 내용은이 항목의 뒷부분에 나오는 "Office Communications Server 2007 R2에서 모임 마이그레이션"을 참조 하십시오.
+**모임 URL**     Lync Server 2010와 마찬가지로 Lync Server 2013의 새로 예약 된 모든 모임에는 https://의 URL 접두사가 있고 사용자 계정과 함께 기존 모임이 마이그레이션됩니다. 그러나 Lync Server 2013에서는 Office Communications Server 2007 R2 전화 회의 통화 (conf://URL 접두사) 또는 웹 회의 (meet://URL 접두사)를 지원 하지 않습니다. 자세한 내용은이 항목의 뒷부분에 나오는 "Office Communications Server 2007 R2에서 모임 마이그레이션"을 참조 하십시오.
 
-**클라이언트 지원**    Lync server 2010와 달리 lync server 2013에서는 Office Communicator 클라이언트에서 회의를 지원 하지 않습니다. Lync 2013 용 온라인 모임 추가 기능을 통해 예약 된 모임에 참가할 때에는 다음 클라이언트를 사용할 수 없습니다.
+**클라이언트 지원**     Lync Server 2010와 달리 Lync Server 2013에서는 Office Communicator 클라이언트에서 회의를 지원 하지 않습니다. Lync 2013 용 온라인 모임 추가 기능을 통해 예약 된 모임에 참가할 때에는 다음 클라이언트를 사용할 수 없습니다.
 
   - Office Communicator 2007 R2
 
@@ -82,9 +84,9 @@ _**마지막으로 수정 된 항목:** 2014-02-10_
 
 ## <a name="migrating-users-based-on-their-conferencing-needs"></a>회의 요구에 따른 사용자 마이그레이션
 
-**모임 이끌이가 잦은 경우**     [Lync Server 2013의 새 회의 기능과](lync-server-2013-new-conferencing-features.md) lync [server 2013의 새로운 클라이언트](lync-server-2013-what-s-new-for-clients.md)기능에 설명 된 새로운 lync server 2013 및 lync 2013 기능을 활용할 수 있도록 프로세스 초기에 자주 모임 이끌이를 마이그레이션하는 것이 좋습니다.
+**모임 이끌이가 잦은 경우**     [Lync server 2013의 새 회의 기능과](lync-server-2013-new-conferencing-features.md) lync [server 2013의 새로운 클라이언트](lync-server-2013-what-s-new-for-clients.md)기능에 설명 된 새로운 Lync server 2013 및 lync 2013 기능을 활용할 수 있도록 프로세스 초기에 자주 모임 이끌이를 마이그레이션하는 것이 좋습니다.
 
-**Live Meeting 사용자**    Office Communications Server 2007 r 2 r 2에서 마이그레이션하고 Live Meeting과 관련 된 웹 회의 기능을 사용 해야 하는 사용자가 있는 경우 (특히 대규모 모임 및 휴식을 지 원하는 경우) 다음과 같은 옵션을 사용할 수 있습니다.
+**Live Meeting 사용자**     Office Communications Server 2007 r 2 r 2에서 마이그레이션하고 Live Meeting과 관련 된 웹 회의 기능을 사용 해야 하는 사용자가 있는 경우 (특히 대규모 모임 및 휴식을 지 원하는 경우) 다음과 같은 옵션을 사용할 수 있습니다.
 
   - 조직에서 사용 가능한 경우 이끌이가 Live Meeting 서비스를 사용하도록 합니다.
 
@@ -110,7 +112,7 @@ _**마지막으로 수정 된 항목:** 2014-02-10_
 
   - 모임 콘텐츠 (예: PowerPoint 프레젠테이션, 화이트 보드 콘텐츠 및 설문 조사 데이터)
 
-모임에서 공유 된 콘텐츠를 이동 하려면 CsUser cmdlet의 MoveMeetingContent 매개 변수를 사용 합니다. 이 cmdlet을 사용 하는 방법에 대 한 자세한 내용은 Lync Server 2013 cmdlet 설명서의 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) 를 참조 하십시오.
+모임에서 공유 된 콘텐츠를 이동 하려면 Move-CsUser cmdlet의 MoveMeetingContent 매개 변수를 사용 합니다. 이 cmdlet을 사용 하는 방법에 대 한 자세한 내용은 Lync Server 2013 cmdlet 설명서의 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) 를 참조 하십시오.
 
 </div>
 
@@ -158,7 +160,7 @@ Lync Server 2010에서 마이그레이션하는 동안 사용자가 lync Server 
 
 ## <a name="after-user-account-is-migrated-before-lync-2013-is-installed"></a>사용자 계정이 마이그레이션된 후 Lync 2013가 설치 되기 전에
 
-사용자를 Lync Server 2013 Server로 마이그레이션한 후에 새 클라이언트를 설치 하기 전에 Office Communicator 2007 R2 사용자는 현재 상태 및 IM 기능에 대해 Lync Server 2013에 대해 기존 클라이언트를 계속 사용할 수 있지만 회의 기능은 없습니다. 지원.
+사용자가 Lync Server 2013 Server로 마이그레이션 되었지만 새 클라이언트를 설치 하기 전에 Office Communicator 2007 R2 사용자는 현재 상태 및 IM 기능에 대해 Lync Server 2013에 대해 기존 클라이언트를 계속 사용할 수 있지만 회의 기능은 지원 되지 않습니다.
 
 </div>
 

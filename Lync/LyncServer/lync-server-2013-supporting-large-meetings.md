@@ -12,20 +12,22 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 949e5fb209722d8a0d8476d017bba1b7144561a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19359dd785b846fa765e72adb810ccd255c2bd2e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192341"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523925"
 ---
+# <a name="supporting-large-meetings-using-lync-server-2013"></a>Lync Server 2013를 사용 하 여 대규모 모임 지원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supporting-large-meetings-using-lync-server-2013"></a>Lync Server 2013를 사용 하 여 대규모 모임 지원
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2012-10-03_
 
 최대 1000 명의 모임에 대 한 충분 한 CPU 및 메모리 리소스를 확보 하려면 호스팅 프런트 엔드 서버에서 다른 IM (인스턴트 메시징) 및 현재 상태 또는 Enterprise Voice 작업을 호스트 해서는 안 됩니다. 또한 다른 모임의 크기에 관계없이 다른 모임을 호스팅해서도 안됩니다. 즉, 최대 1000 명의 사용자에 게 모임을 호스트 하려면 최대 1000 명의 사용자에 대 한 대규모 회의 호스팅 전용의 별도 Lync Server 풀을 설정 해야 합니다.
 
-대규모 모임 호스팅 전용 Lync Server 풀은 최대 1000 명의 모임 회의를 동시에 호스트 해야 하므로, 프런트 엔드 Serv에서 전용 지원을 위해 대역 외 예약 프로세스를 통해 모임 시간을 미리 예약 해야 합니다. 사람이. 동시에 두 개 이상의 대규모 모임을 지원 하려면 여러 전용 대규모 모임 풀을 설정 하는 것이 좋습니다.
+대규모 모임 호스팅 전용 Lync Server 풀은 최대 1000 명의 모임을 동시에 호스팅해야 하므로, 모임 시간은 대역 외 예약 프로세스를 통해 미리 예약 해야 프런트 엔드 서버에서 전용 지원을 받을 수 있습니다. 동시에 두 개 이상의 대규모 모임을 지원 하려면 여러 전용 대규모 모임 풀을 설정 하는 것이 좋습니다.
 
 대규모 모임의 온라인 부분은 전담 사용자가 실행하고 모니터링하는 것이 좋습니다. 이 사용자는 조직의 상황에 따라 이끌이거나 이끌이 또는 발표자의 대리인 또는 전담 대규모 모임 지원 팀의 구성원일 수 있습니다.
 

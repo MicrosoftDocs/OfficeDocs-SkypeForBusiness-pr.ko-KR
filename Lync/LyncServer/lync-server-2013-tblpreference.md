@@ -12,20 +12,22 @@ ms:contentKeyID: 48185913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d1405634ad92b3f2cde2d085875648d738d6200
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef0ee11cd780037410ea1d7e0d94c83e139d8418
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214540"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523775"
 ---
+# <a name="tblpreference-in-lync-server-2013"></a>Lync Server 2013의 tblPreference 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblpreference-in-lync-server-2013"></a>Lync Server 2013의 tblPreference 설정
+
 
 </div>
 
@@ -50,7 +52,7 @@ tblPreference에는 사용자의 클라이언트 기본 설정이 들어 있습�
 <thead>
 <tr class="header">
 <th>열</th>
-<th>형식</th>
+<th>유형</th>
 <th>설명</th>
 </tr>
 </thead>
@@ -58,7 +60,7 @@ tblPreference에는 사용자의 클라이언트 기본 설정이 들어 있습�
 <tr class="odd">
 <td><p>prefLabel</p></td>
 <td><p>nvarchar(255), null이 아님</p></td>
-<td><p>사용자 sip uri&gt;| 사용자 이름 등 &lt;의 형식을 사용 하는 레이블입니다. &lt;기본 설정&gt;</p></td>
+<td><p>&lt;사용자 sip uri &gt; | 사용자 이름 &lt; 등의 형식을 사용 하는 레이블입니다. 기본 설정 &gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>prefSeqID</p></td>

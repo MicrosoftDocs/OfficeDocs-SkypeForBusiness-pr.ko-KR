@@ -12,20 +12,22 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36afef4fe357e79f1d6c9579273262b265d2c0ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85ffe6b610cfbeb50239b64d1ed7448af4fa41bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193571"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523625"
 ---
+# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Lync Server 2013의 IP 전화 토폴로지
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Lync Server 2013의 IP 전화 토폴로지
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2012-06-21_
 
 
 > [!NOTE]  
-> Lync Server는 다음과 같은 IP 전화를 지원 합니다. Aastra 6721ip 공통 영역 전화, Aastra 6721ip 일반 전화, HP 4110 IP 전화 (공통 영역 전화), HP 4120 IP 전화 (일반 전화), Polycom CX600 IP 일반 전화기, Polycom CX700 Polycom IP 일반 전화 공통 영역 전화 및 Polycom CX3000 IP 전화 회의 이러한 휴대폰 중에서 모든 Polycom CX700는 Lync Phone Edition을 실행할 수 있습니다.
+> Lync Server는 다음 IP 전화를 지원 합니다. Aastra 6721ip 공통 영역 전화, Aastra 6721ip 일반 전화기, HP 4110 IP 전화 (공통 영역 전화), HP 4120 IP 전화 (일반 전화), Polycom CX600 IP 일반 전화기, Polycom CX700 POLYCOM ip 일반 전화, CX500 Polycom ip 전화 전화 이러한 휴대폰 중에서 모든 Polycom CX700는 Lync Phone Edition을 실행할 수 있습니다.
 
 
 

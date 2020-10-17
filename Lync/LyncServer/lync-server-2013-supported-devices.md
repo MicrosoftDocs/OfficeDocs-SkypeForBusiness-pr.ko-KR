@@ -12,20 +12,22 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f19c7eac607ffcba65435cea2faf53c91e75609c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7fc614b2c571df14eac5382e9a022554fc32a260
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208224"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524125"
 ---
+# <a name="supported-devices-in-lync-server-2013"></a>Lync Server 2013에서 지원 되는 장치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-devices-in-lync-server-2013"></a>Lync Server 2013에서 지원 되는 장치
+
 
 </div>
 
@@ -43,13 +45,13 @@ Lync Server는 다음 표에 나열 된 모든 전화를 지원 합니다. 지�
 
 
 > [!NOTE]  
-> 지원 되는 전화에는 일반 전화기 (집에서 사용 하도록 설계 된 송수화기 IP 또는 USB 장치), 회의 장치 (회의실에서 사용 하도록 디자인 된 핸드 프리 IP 또는 USB 전화) 및 공통 영역 전화 (IP 전화)가 있습니다. 로비, 주방, 공장 및 공유 작업 영역과 같은 공유 영역에서 사용 하도록 설계 되었으며, 다양 한 Lync Phone Edition 기능 집합을 제공 하도록 사용자 지정할 수 있습니다.
+> 지원 되는 휴대폰의 유형은 일반 전화기 (일반 사용자가 사용할 수 있도록 설계 된 수화기 IP 또는 usb 장치), 회의 장치 (회의실에서 사용 하도록 설계 된 ip 또는 USB 전화) 및 공통 영역 전화 (예: 로비, 주방, 공장 바닥 등의 공유 영역에 사용 하도록 설계 된 전화) 및 공유 작업 영역-다양 한 Lync Phone Edition 기능 집합을 제공 하도록 사용자 지정할 수 있습니다.
 
 
 
 </div>
 
-Lync에서 작동 하도록 최적화 된 모든 장치에 대 한 자세한 비교 테이블은에서 <https://go.microsoft.com/fwlink/p/?linkid=208938>"Microsoft Lync에 적격 한 전화 및 장치"를 참조 하세요. 이 웹 사이트의 전화 비교 표에는 가격 정보와 기술 사양이 포함되어 있습니다.
+Lync에서 작동 하도록 최적화 된 모든 장치에 대 한 자세한 비교 테이블은에서 "Microsoft Lync에 적격 한 전화 및 장치"를 참조 하세요 <https://go.microsoft.com/fwlink/p/?linkid=208938> . 이 웹 사이트의 전화 비교 표에는 가격 정보와 기술 사양이 포함되어 있습니다.
 
 
 <table>
@@ -60,7 +62,7 @@ Lync에서 작동 하도록 최적화 된 모든 장치에 대 한 자세한 비
 </colgroup>
 <thead>
 <tr class="header">
-<th>전화</th>
+<th>Phone</th>
 <th>Lync Phone Edition 실행</th>
 <th>자세히</th>
 </tr>

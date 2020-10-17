@@ -12,20 +12,22 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9437df126889aefb8400b50d118d44dac12f285d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46f9236bfbd110ee17811edec2e3e81fc4a0e0f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208264"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524165"
 ---
+# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013의 지원 되는 Active Directory 토폴로지
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013의 지원 되는 Active Directory 토폴로지
+
 
 </div>
 
@@ -115,7 +117,7 @@ Lync Server에서 지원 되는 또 다른 Active Directory 토폴로지는 루�
 
 ## <a name="multiple-forests-central-forest"></a>다중 포리스트, 중앙 포리스트
 
-Lync Server에서는 중앙 포리스트 토폴로지에 구성 된 다중 포리스트를 지원 합니다. 중앙 포리스트 토폴로지는 중앙 포리스트의 대화 상대 개체를 사용 하 여 다른 포리스트의 사용자를 나타냅니다. 또한 중앙 포리스트는이 포리스트의 모든 사용자에 대 한 사용자 계정을 호스트 합니다. MIIS (Microsoft Identity Integration Server), FIM (Microsoft Forefront Identity Manager) 2010 또는 Microsoft Id 수명 주기 관리자 (ILM) 2007 기능 팩 1 (FP1)과 같은 디렉터리 동기화 제품은 사용자 계정의 수명 주기를 관리 합니다. 조직: 포리스트 중 하나에서 새 사용자 계정을 만들거나 사용자 계정을 포리스트에서 삭제 하면 디렉터리 동기화 제품이 중앙 포리스트의 해당 연락처와 동기화 합니다.
+Lync Server에서는 중앙 포리스트 토폴로지에 구성 된 다중 포리스트를 지원 합니다. 중앙 포리스트 토폴로지는 중앙 포리스트의 대화 상대 개체를 사용 하 여 다른 포리스트의 사용자를 나타냅니다. 또한 중앙 포리스트는이 포리스트의 모든 사용자에 대 한 사용자 계정을 호스트 합니다. MIIS (Microsoft Identity Integration Server)와 같은 디렉터리 동기화 제품 Microsoft Forefront Identity Manager (FIM) 2010 또는 Microsoft Identity 수명 주기 관리자 (FP1)는 조직 내의 사용자 계정 수명 주기를 관리 2007 합니다. 새 사용자 계정을 포리스트 중 하나에서 만들거나 사용자 계정을 포리스트에서 삭제 하는 경우 디렉터리 동기화 제품이 중앙 포리스트의 해당 연락처와 동기화 합니다.
 
 중앙 포리스트에는 다음과 같은 이점이 있습니다.
 

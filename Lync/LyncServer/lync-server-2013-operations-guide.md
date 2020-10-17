@@ -12,20 +12,22 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2a2ee39440ec339fc7bf0757d1882f0be199659
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 212a640577d55e80225a597c9263b7a2573d257f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216614"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524535"
 ---
+# <a name="operations-guide-for-lync-server-2013"></a>Lync Server 2013에 대 한 운영 가이드
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="operations-guide-for-lync-server-2013"></a>Lync Server 2013에 대 한 운영 가이드
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42216614"
 
 _**마지막으로 수정 된 항목:** 2014-08-18_
 
-이 문서에서는 Microsoft Lync Server 2013 통신 소프트웨어 환경을 유지 관리 하는 데 필요한 운영 프로세스, 작업 및 도구에 대해 설명 합니다. 또한 MOF (Microsoft Operations Framework) 모델에 따라 Lync Server 2013를 관리 하는 방법에 대해 설명 하 고, 예약, 프로세스 및 절차를 유지 관리 하는 작업을 수행 하는 효율적인 운영 관리 환경을 디자인 하는 데 도움이 됩니다. 효율적인 작업 환경
+이 문서에서는 Microsoft Lync Server 2013 통신 소프트웨어 환경을 유지 관리 하는 데 필요한 운영 프로세스, 작업 및 도구에 대해 설명 합니다. 또한 MOF (Microsoft Operations Framework) 모델에 따라 Lync Server 2013를 관리 하는 방법에 대해 설명 하 고, 효율적인 작업 환경을 유지 관리 하기 위한 일정, 프로세스 및 절차를 구현 하는 효율적인 운영 관리 환경을 디자인 하는 데 도움이 됩니다.
 
 <div>
 

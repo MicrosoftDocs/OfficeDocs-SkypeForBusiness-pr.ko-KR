@@ -12,20 +12,22 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b25a989913db4e76b306eaaf7efba38612a2315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2878f47fcace98bbd9e156f24c2b87e85faf728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525235"
 ---
+# <a name="introduction-to-lync-server-2013"></a>Lync Server 2013 소개
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="introduction-to-lync-server-2013"></a>Lync Server 2013 소개
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 및 해당 클라이언트 소프트웨어 (예: Lync 2013)는 
 </colgroup>
 <thead>
 <tr class="header">
-<th>작업량</th>
+<th>워크로드</th>
 <th>설명</th>
 </tr>
 </thead>
@@ -74,7 +76,7 @@ Lync Server 2013 및 해당 클라이언트 소프트웨어 (예: Lync 2013)는 
 <p>현재 상태는 <strong>대화 가능</strong> 또는 <strong>다른 용무 중</strong>과 같은 일반 상태와 <strong>곧 돌아오겠음</strong> 및 <strong>방해 금지</strong>와 같은 보다 상세한 상태를 사용하여 사용자의 개인 상태 및 통신 의사를 설정하고 표시합니다. 이 향상된 현재 상태 정보를 통해 다른 사용자가 효과적인 통신을 즉시 선택할 수 있습니다.</p></td>
 </tr>
 <tr class="even">
-<td><p>전화</p></td>
+<td><p>회의</p></td>
 <td><p>Lync Server에는 예약 된 모임 및 즉석 회의 모두에 대해 IM 회의, 오디오 회의, 웹 회의, 비디오 회의 및 응용 프로그램 공유에 대 한 지원이 포함 됩니다. 이러한 모임 유형이 모두 단일 클라이언트로 지원됩니다. 또한 Lync Server는 공중 전화망 (PSTN) 전화 사용자가 회의의 오디오 부분에 참가할 수 있도록 전화 접속 회의를 지원 합니다.</p>
 <p>전화 회의는 실시간으로 원활하게 변경되고 확대될 수 있습니다. 예를 들어 단일 전화 회의가 소수의 사용자 간에 인스턴트 메시지로 시작되어 데스크톱 공유를 지원하고 대화의 흐름을 중단하지 않고도 더 많은 대상이 즉시 쉽게 참가할 수 있는 오디오 회의로 확대될 수 있습니다.</p></td>
 </tr>
@@ -90,7 +92,7 @@ Lync Server 2013 및 해당 클라이언트 소프트웨어 (예: Lync 2013)는 
 </tr>
 <tr class="odd">
 <td><p>모바일 클라이언트 지원</p></td>
-<td><p>또한 Lync Server mobility services를 사용 하는 경우 사용자는 지원 되는 Apple iOS, Android, Windows Phone 또는 Nokia 모바일 장치를 사용 하 여 Lync 기능에 액세스 하 고 인스턴트 메시지 보내기/받기, 연락처 보기 등의 작업을 수행할 수 있습니다. 현재 상태를 확인 합니다. 또한 모바일 장치에서는 클릭하여 회의 참가, 회사번호로 전화, 단일 번호 연결, 음성 메일, 부재 중 통화 등의 일부 Enterprise Voice 기능도 지원됩니다. 응용 프로그램의 백그라운드 실행을 지원하지 않는 모바일 장치에 대해 푸시 알림도 지원됩니다.</p></td>
+<td><p>또한 Lync Server mobility services를 사용 하는 경우 사용자는 지원 되는 Apple iOS, Android, Windows Phone 또는 Nokia 모바일 장치를 사용 하 여 Lync 기능에 액세스 하 고 인스턴트 메시지 보내기/받기, 연락처 보기 및 현재 상태 보기 등의 작업을 수행할 수 있습니다. 또한 모바일 장치에서는 클릭하여 회의 참가, 회사번호로 전화, 단일 번호 연결, 음성 메일, 부재 중 통화 등의 일부 Enterprise Voice 기능도 지원됩니다. 응용 프로그램의 백그라운드 실행을 지원하지 않는 모바일 장치에 대해 푸시 알림도 지원됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>다른 제품과 통합</p></td>
