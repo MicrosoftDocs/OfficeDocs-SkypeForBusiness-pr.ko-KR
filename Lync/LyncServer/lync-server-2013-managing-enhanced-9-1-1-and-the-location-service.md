@@ -12,20 +12,22 @@ ms:contentKeyID: 49733600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0042d08fbc5cc23b8c8462b59677b8ab6a36e139
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aea9d60c26eed872ce59c7dbac012c93f8ab7564
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505805"
 ---
+# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a>Lync Server 2013의 향상 된 9-1-1 및 위치 서비스 관리
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a>Lync Server 2013의 향상 된 9-1-1 및 위치 서비스 관리
+
 
 </div>
 

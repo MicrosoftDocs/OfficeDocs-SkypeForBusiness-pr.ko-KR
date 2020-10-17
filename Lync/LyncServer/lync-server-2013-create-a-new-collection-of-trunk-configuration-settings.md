@@ -12,20 +12,22 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f988b096b6f991cb52b4d1238219b67364c37ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7d019bfe7bb1dbb1322281a50f393decc8e5cc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199951"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507465"
 ---
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 새 트렁크 구성 설정 컬렉션 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 새 트렁크 구성 설정 컬렉션 만들기
+
 
 </div>
 
@@ -96,7 +98,7 @@ Lync Server 제어판을 사용 하 여 SIP 트렁크 구성 설정을 만들 �
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
 <td><p><strong>게이트웨이에 대한 참조 전송 사용</strong>으로 설정된 경우 트렁크가 중재 서버에서 참조 요청 수신을 지원합니다.</p>
-<p><strong>타사 통화 제어를 사용하여 참조 사용</strong>으로 설정된 경우 3pcc 프로토콜을 사용해서 전송 통화가 호스팅된 사이트를 우회하도록 허용할 수 있음을 나타냅니다. 3pcc는 타사 컨트롤이 라고도 &quot;하며,&quot; 타사를 사용 하 여 한 명 이상의 발신자를 연결할 때 발생 합니다 (예: 사용자 a에서 a로 B에 게 전화를 거는 운영자).</p></td>
+<p><strong>타사 통화 제어를 사용하여 참조 사용</strong>으로 설정된 경우 3pcc 프로토콜을 사용해서 전송 통화가 호스팅된 사이트를 우회하도록 허용할 수 있음을 나타냅니다. 3pcc는 타사 컨트롤이 라고도 &quot; 하며, 타사를 &quot; 사용 하 여 한 명 이상의 발신자를 연결할 때 발생 합니다 (예: 사용자 A에서 a로 B에 게 전화를 거는 운영자).</p></td>
 </tr>
 <tr class="even">
 <td><p>미디어 바이패스 사용</p></td>

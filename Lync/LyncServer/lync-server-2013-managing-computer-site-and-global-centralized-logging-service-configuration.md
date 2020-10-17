@@ -12,20 +12,22 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 868005d0a719bc8bc021f1a0b82260037c1f6ea6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8b7dfb9d96e452fc18dc5a7a962a18802388410
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218124"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505855"
 ---
+# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Lync Server 2013에서 컴퓨터, 사이트 및 전역 중앙화 된 로깅 서비스 구성 관리
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Lync Server 2013에서 컴퓨터, 사이트 및 전역 중앙화 된 로깅 서비스 구성 관리
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42218124"
 
 _**마지막으로 수정 된 항목:** 2014-02-04_
 
-중앙 로깅 서비스는 단일 컴퓨터, 컴퓨터 풀, 사이트 범위 (즉, 배포에 있는 컴퓨터 및 풀의 컬렉션을 포함 하는 사이트 Redmond)를 포함 하는 범위에서 또는 전역 범위에서 실행할 수 있습니다 ( -배포의 모든 컴퓨터 및 풀)
+중앙 로깅 서비스는 단일 컴퓨터, 컴퓨터 풀, 사이트 범위 (즉, 배포에 있는 컴퓨터 및 풀의 컬렉션을 포함 하는 사이트 Redmond와 같은 정의 된 사이트) 또는 전역 범위 (즉, 배포의 모든 컴퓨터 및 풀)를 포함 하는 범위에서 실행할 수 있습니다.
 
-Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 범위를 구성 하려면 CsAdministrator 또는 CsServerAdministrator의 RBAC (역할 기반 액세스 제어) 보안 그룹 또는이를 포함 하는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 두 그룹 중 하나 직접 만든 사용자 지정 RBAC 역할을 포함 하 여이 cmdlet이 할당 된 모든 RBAC 역할의 목록을 반환 하려면 Lync Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
+Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 범위를 구성 하려면 CsAdministrator 또는 CsServerAdministrator의 RBAC (역할 기반 액세스 제어) 보안 그룹 또는 이러한 두 그룹 중 하나를 포함 하는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 직접 만든 사용자 지정 RBAC 역할을 포함 하 여이 cmdlet이 할당 된 모든 RBAC 역할의 목록을 반환 하려면 Lync Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Lync Server 2013 cmdlet>"}
 
-예:
+예제:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
@@ -51,7 +53,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 범위를 구�
 
 
 > [!NOTE]
-> Windows PowerShell에서는 CLSController를 사용 하 여 사용할 수 없는 더 많은 옵션과 추가 구성 옵션을 제공 합니다. CLSController는 명령을 실행 하는 빠른 방법으로 간단한 메서드를 제공 하지만 CLSController에서 사용할 수 있는 명령 집합으로 제한 됩니다. Windows PowerShell은 CLSController의 명령 프로세서에서 사용할 수 있는 명령 으로만 제한 되지 않으며 보다 폭넓은 명령 집합 및 다양 한 옵션 집합을 제공 합니다. 예를 들어 CLSController는-computers 및-풀에 대 한 범위 옵션을 제공 합니다. Windows PowerShell을 사용 하면 대부분의 명령에서 컴퓨터 또는 풀을 표시할 수 있고, 새 시나리오를 정의할 때 (CLSController에는 사용자가 수정할 수 없는 제한 된 수의 시나리오 포함) 사이트 또는 전역 범위를 정의할 수도 있습니다. Windows PowerShell의이 강력한 기능을 사용 하면 사이트 또는 전역 범위에 대 한 시나리오를 정의할 수 있지만 실제 로깅은 컴퓨터나 풀로 제한 됩니다.<BR>Windows PowerShell 또는 CLSController에서 실행할 수 있는 명령줄 명령 사이에는 근본적인 차이점이 있습니다. Windows PowerShell을 사용 하면 시나리오를 구성 및 정의 하 고 문제 해결 시나리오에서 이러한 시나리오를 의미 있는 방식으로 다시 사용할 수 있습니다. CLSController를 사용하면 빠르고 효율적으로 명령을 실행하고 결과를 얻을 수 있지만 CLSController의 명령 집합은 명령줄에서 사용할 수 있는 소수의 명령으로 한정됩니다. Windows PowerShell cmdlet과 달리 CLSController에서는 새 시나리오를 정의 하거나, 사이트 또는 전역 수준에서 범위를 관리 하 고, 동적으로 구성할 수 없는 유한 명령 집합의 다양 한 제한 사항을 관리할 수 없습니다. CLSController는 빠른 실행을 위한 방법을 제공 하지만, Windows PowerShell을 사용 하면 CLSController를 사용할 때 보다 중앙 로깅 서비스 기능을 확장 하는 방법이 제공 됩니다.
+> Windows PowerShell에서는 CLSController.exe를 사용 하 여 사용할 수 없는 추가 옵션과 구성 옵션을 제공 합니다. CLSController는 명령을 실행 하는 빠른 방법으로 간단한 메서드를 제공 하지만 CLSController에서 사용할 수 있는 명령 집합으로 제한 됩니다. Windows PowerShell은 CLSController의 명령 프로세서에서 사용할 수 있는 명령 으로만 제한 되지 않으며 보다 폭넓은 명령 집합 및 다양 한 옵션 집합을 제공 합니다. 예를 들어 CLSController.exe에서는 – computers 및-풀에 대 한 범위 옵션을 제공 합니다. Windows PowerShell을 사용 하면 대부분의 명령에서 컴퓨터 또는 풀을 표시할 수 있고, 새 시나리오를 정의할 때 (CLSController에는 사용자가 수정할 수 없는 제한 된 수의 시나리오 포함) 사이트 또는 전역 범위를 정의할 수도 있습니다. Windows PowerShell의이 강력한 기능을 사용 하면 사이트 또는 전역 범위에 대 한 시나리오를 정의할 수 있지만 실제 로깅은 컴퓨터나 풀로 제한 됩니다.<BR>Windows PowerShell 또는 CLSController에서 실행할 수 있는 명령줄 명령 사이에는 근본적인 차이점이 있습니다. Windows PowerShell을 사용 하면 시나리오를 구성 및 정의 하 고 문제 해결 시나리오에서 이러한 시나리오를 의미 있는 방식으로 다시 사용할 수 있습니다. CLSController를 사용하면 빠르고 효율적으로 명령을 실행하고 결과를 얻을 수 있지만 CLSController의 명령 집합은 명령줄에서 사용할 수 있는 소수의 명령으로 한정됩니다. Windows PowerShell cmdlet과 달리 CLSController에서는 새 시나리오를 정의 하거나, 사이트 또는 전역 수준에서 범위를 관리 하 고, 동적으로 구성할 수 없는 유한 명령 집합의 다양 한 제한 사항을 관리할 수 없습니다. CLSController는 빠른 실행을 위한 방법을 제공 하지만, Windows PowerShell을 사용 하면 CLSController를 사용할 때 보다 중앙 로깅 서비스 기능을 확장 하는 방법이 제공 됩니다.
 
 
 

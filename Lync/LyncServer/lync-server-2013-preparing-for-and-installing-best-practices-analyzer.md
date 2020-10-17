@@ -12,20 +12,22 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59bcaca40414c9bd99e451846c0339d0af6e7bf3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6a1ddaff4813035cabc8ca6b7468f1d4d06c93e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506935"
 ---
+# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013에서 모범 사례 분석기 준비 및 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013에서 모범 사례 분석기 준비 및 설치
+
 
 </div>
 
@@ -77,7 +79,7 @@ Lync Server 2013, 모범 사례 분석기를 실행 하 여 환경을 검색 하
 
   - Windows PowerShell 3.0. 자세한 내용은 배포 설명서의 [Windows PowerShell 3.0 For Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) 을 참조 하십시오.
 
-Lync Server 2013, 핵심 구성 요소 또는 WMI 이전 버전과의 호환성 패키지를 실행 하 고 있지 않은 지원 되는 운영 체제를 사용 하는 컴퓨터에 모범 사례 분석기를 설치할 수 있지만 해당 컴퓨터의 모범 사례 분석기를 통해 보고서를 볼 수만 있습니다. 검색을 실행 합니다.
+Lync Server 2013, 핵심 구성 요소 또는 WMI 이전 버전과의 호환성 패키지를 실행 하 고 있지 않은 지원 되는 운영 체제가 설치 된 컴퓨터에 모범 사례 분석기를 설치할 수 있지만, 검색을 실행 하는 것이 아니라 해당 컴퓨터의 모범 사례 분석기를 사용 하 여 보고서를 볼 수만 있습니다.
 
 </div>
 
@@ -93,9 +95,9 @@ Lync server 2013 관리 전용 컴퓨터에 Lync Server 2013, 모범 사례 분�
 
 ## <a name="installing-best-practices-analyzer"></a>모범 사례 분석기 설치
 
-Lync Server 2013에 대 한 모범 사례 분석기를 다운로드할 수 [https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539)있습니다.
+Lync Server 2013에 대 한 모범 사례 분석기를 다운로드할 수 있습니다 [https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539) .
 
-모범 사례 분석기를 설치하려면 도구를 설치하려는 컴퓨터에서 Microsoft Installer 파일 RtcBPA.msi를 시작하고 화면 지침을 따릅니다. 프로그램 파일을 설치 하는 기본 위치는 \<시스템 드라이브\>\\프로그램 파일\\Lync Server 2013\\BPA입니다.
+모범 사례 분석기를 설치하려면 도구를 설치하려는 컴퓨터에서 Microsoft Installer 파일 RtcBPA.msi를 시작하고 화면 지침을 따릅니다. 프로그램 파일을 설치 하는 기본 위치는 \<system drive\> \\ program Files \\ Lync Server 2013 \\ BPA입니다.
 
 </div>
 

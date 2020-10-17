@@ -12,20 +12,22 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aaae8df4d21e3aa766bd452c5ffd697dce30660a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779584"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507485"
 ---
+# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Lync Server 2013에서 Lync Windows 스토어 앱 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Lync Server 2013에서 Lync Windows 스토어 앱 배포
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "43779584"
 
 _**마지막으로 수정 된 항목:** 2013-12-03_
 
-사용자가 Lync Windows 스토어 앱을 사용할 수 있도록 하려면 배포가 [Lync Server 2013의 Lync Windows 스토어 앱 요구 사항을](lync-server-2013-lync-windows-store-app-requirements.md)충족 하는지 확인 합니다. Lync Server 2013을 지원 하기 위해 다음 홉 블로그 문서를 구성 하는 방법에 대 한 자세한 내용은의 "Lync Server 자동 검색 및 Lync Windows 스토어 앱"을 [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)참조 하십시오. 서버 환경을 올바르게 구성한 후에는 "Lync"를 검색 하 여 사용자가 Windows 스토어에서 Lync 앱을 다운로드 하도록 할 수 있습니다.
+사용자가 Lync Windows 스토어 앱을 사용할 수 있도록 하려면 배포가 [Lync Server 2013의 Lync Windows 스토어 앱 요구 사항을](lync-server-2013-lync-windows-store-app-requirements.md)충족 하는지 확인 합니다. Lync Server 2013을 지원 하기 위해 다음 홉 블로그 문서를 구성 하는 방법에 대 한 자세한 내용은의 "Lync Server 자동 검색 및 Lync Windows 스토어 앱"을 참조 하십시오 [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966) . 서버 환경을 올바르게 구성한 후에는 "Lync"를 검색 하 여 사용자가 Windows 스토어에서 Lync 앱을 다운로드 하도록 할 수 있습니다.
 
 <div>
 
@@ -66,9 +68,9 @@ Lync Server 2013 용 누적 업데이트: 6 월 2013은 Lync Windows 스토어 �
 
 **다단계 인증을 구성 하려면**
 
-1.  AD FS 페더레이션 서버 역할을 설치 합니다. 자세한 내용은에서 <https://go.microsoft.com/fwlink/p/?linkid=267511>Active Directory Federation Services 2.0 배포 가이드를 참조 하세요.
+1.  AD FS 페더레이션 서버 역할을 설치 합니다. 자세한 내용은에서 Active Directory Federation Services 2.0 배포 가이드를 참조 하세요 <https://go.microsoft.com/fwlink/p/?linkid=267511> .
 
-2.  AD FS에 대 한 인증서를 만듭니다. 자세한 내용은의 ' 페더레이션 서버 인증서 ' 섹션에서 single sign-on 사용에 대 한 use AD FS를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376).
+2.  AD FS에 대 한 인증서를 만듭니다. 자세한 내용은의 ' 페더레이션 서버 인증서 ' 섹션에서 single sign-on 사용에 대 한 use AD FS를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  Windows PowerShell 명령줄 인터페이스에서 다음 명령을 실행 합니다.
     ```powershell
@@ -150,7 +152,7 @@ Microsoft 365 또는 Office 365 사용자가 최신 버전의 Lync Windows 스�
 
 장치에서 생성 된 로그를 사용 하 여 문제를 해결할 수 있습니다. 로그는 다음 폴더에 저장 됩니다.
 
-% LocalAppData%\\패키지\\Microsoft. lyncmx\_8wekyb3d8bbwe\\localstate\\Tracing
+% LocalAppData% \\ 패키지 \\ Microsoft. LyncMX \_ 8wekyb3d8bbwe \\ localstate \\ Tracing
 
 사용자 로부터 로그를 가져오기 전에 로깅이 설정 되어 있는지 확인 하 고, 메모리에 저장 된 모든 정보가 하드 드라이브의 파일에도 저장 되도록 로그를 저장 하도록 사용자에 게 요청 합니다.
 

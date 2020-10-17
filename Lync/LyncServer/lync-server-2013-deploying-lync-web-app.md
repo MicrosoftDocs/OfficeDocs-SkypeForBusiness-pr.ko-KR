@@ -12,20 +12,22 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8babb6bf37e3dd75f2051dd08f0b2ebf3a4f093b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2156466e0238a061f2358127c75408fa37e3b823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507535"
 ---
+# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Lync Server 2013에서 Lync Web App 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Lync Server 2013에서 Lync Web App 배포
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Web App의 음성, 비디오 및 공유 기능을 통해 Microsoft ActiveX 
 
 ## <a name="enabling-multi-factor-authentication-for-lync-web-app"></a>Lync Web App에 대해 Multi-factor Authentication 사용
 
-Lync Server 2013 버전의 Lync Web App에서는 다단계 인증을 지원 합니다. 사용자 이름 및 암호 외에도 추가 인증 방법 (예: 스마트 카드나 Pin)을 요구 하 여 Lync 모임에 로그인 할 때 외부 네트워크에서 참가 하는 사용자를 인증 합니다. Lync Server 2013에서 AD FS (Active Directory Federation Service) 페더레이션 서버를 배포 하 고 수동 인증을 사용 하도록 설정 하 여 다단계 인증을 사용 하도록 설정할 수 있습니다. AD FS가 구성 되 면 Lync 모임에 참가 하려는 외부 사용자에 게 구성한 추가 인증 방법과 함께 사용자 이름 및 암호 챌린지를 포함 하는 AD FS 다단계 인증 웹 페이지가 제공 됩니다. .
+Lync Server 2013 버전의 Lync Web App에서는 다단계 인증을 지원 합니다. 사용자 이름 및 암호 외에도 추가 인증 방법 (예: 스마트 카드나 Pin)을 요구 하 여 Lync 모임에 로그인 할 때 외부 네트워크에서 참가 하는 사용자를 인증 합니다. Lync Server 2013에서 AD FS (Active Directory Federation Service) 페더레이션 서버를 배포 하 고 수동 인증을 사용 하도록 설정 하 여 다단계 인증을 사용 하도록 설정할 수 있습니다. AD FS가 구성 되 면 Lync 모임을 연결 하려고 시도 하는 외부 사용자에 게 구성한 추가 인증 방법과 함께 사용자 이름 및 암호 챌린지를 포함 하는 AD FS 다단계 인증 웹 페이지가 제공 됩니다.
 
 <div class=" ">
 
@@ -78,9 +80,9 @@ Lync Server 2013 버전의 Lync Web App에서는 다단계 인증을 지원 합�
 
 **다단계 인증을 구성 하려면**
 
-1.  AD FS 페더레이션 서버 역할을 설치 합니다. 자세한 내용은 다음 위치에 있는 Active Directory Federation Services 2.0 배포 가이드를 참조 하세요.<https://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  AD FS 페더레이션 서버 역할을 설치 합니다. 자세한 내용은 다음 위치에 있는 Active Directory Federation Services 2.0 배포 가이드를 참조 하세요. <https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  AD FS에 대 한 인증서를 만듭니다. 자세한 내용은의 ' 페더레이션 서버 인증서 ' 섹션에서 single sign-on 사용에 대 한 use AD FS를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376).
+2.  AD FS에 대 한 인증서를 만듭니다. 자세한 내용은의 ' 페더레이션 서버 인증서 ' 섹션에서 single sign-on 사용에 대 한 use AD FS를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  Windows PowerShell 명령줄 인터페이스에서 다음 명령을 실행 합니다.
     ```powershell
@@ -113,7 +115,7 @@ Lync Server 2013 버전의 Lync Web App에서는 다단계 인증을 지원 합�
 
 Windows 7 및 Windows Server 2008 R2의 BranchCache 기능은 Lync Web App 웹 구성 요소를 방해할 수 있습니다. Lync Web App 사용자에 대 한 문제를 방지 하려면 BranchCache를 사용 하도록 설정 하지 않았는지 확인 합니다.
 
-BranchCache를 사용 하지 않도록 설정 하는 방법에 대 한 자세한 내용은 Windows Server 2008 R2 기술 라이브러리의 Microsoft 다운로드 센터 [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) 및 HTML 형식으로 제공 되는 Branchcache 배포 가이드를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)하세요.
+BranchCache를 사용 하지 않도록 설정 하는 방법에 대 한 자세한 내용은 [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) Windows Server 2008 R2 기술 라이브러리의 Microsoft 다운로드 센터 및 HTML 형식으로 제공 되는 Branchcache 배포 가이드를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789) 하세요.
 
 </div>
 
@@ -121,7 +123,7 @@ BranchCache를 사용 하지 않도록 설정 하는 방법에 대 한 자세한
 
 ## <a name="verifying-lync-web-app-deployment"></a>Lync Web App 배포 확인
 
-Test-csucwaconference cmdlet을 사용 하 여 테스트 사용자 쌍이 통합 커뮤니케이션 웹 API (c)를 사용 하 여 회의에 참가할 수 있는지 확인할 수 있습니다. 이 cmdlet에 대 한 자세한 내용은 Lync Server 관리 셸 설명서의 [test-csucwaconference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference) 를 참조 하십시오.
+Test-CsUcwaConference cmdlet을 사용 하 여 테스트 사용자 쌍이 통합 커뮤니케이션 웹 API (c)를 사용 하 여 회의에 참가할 수 있는지 확인할 수 있습니다. 이 cmdlet에 대 한 자세한 내용은 Lync Server 관리 셸 설명서의 [test-csucwaconference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference) 를 참조 하십시오.
 
 </div>
 
@@ -154,13 +156,13 @@ Windows Server 2008 R2를 실행 하는 컴퓨터에서 플러그 인 설치가 
 
 **DisableMSI 레지스트리 설정을 수정 하려면**
 
-1.  **시작**, **실행**을 차례로 클릭합니다.
+1.  **시작**을 클릭한 다음 **실행**을 클릭합니다.
 
 2.  레지스트리 편집기에 액세스 하려면 **regedit**를 입력 합니다.
 
-3.  HKEY\_로컬\_컴퓨터\\소프트웨어\\정책\\Microsoft\\Windows\\Installer로 이동 합니다.
+3.  HKEY \_ 로컬 \_ 컴퓨터 \\ 소프트웨어 \\ 정책 \\ Microsoft \\ Windows Installer로 이동 \\ 합니다.
 
-4.  REG\_DWORD 형식의 DisableMSI 레지스트리 키를 편집 하거나 추가 하 고이를 0으로 설정 합니다.
+4.  REG DWORD 형식의 DisableMSI 레지스트리 키를 편집 하거나 추가 \_ 하 고이를 0으로 설정 합니다.
 
 5.  모임에 다시 참가합니다.
 

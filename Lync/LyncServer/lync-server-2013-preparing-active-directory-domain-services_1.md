@@ -12,20 +12,22 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c5d83acbe32d33a235e7c2918663340a3ac7ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b3af3ce7940b8d0fb58a74b4a8f7bb0a21c5e2d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506995"
 ---
+# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Lync Server 2013에서 Active Directory 도메인 서비스 준비
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Lync Server 2013에서 Active Directory 도메인 서비스 준비
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 배포 마법사가 각 Active Directory 준비 작업을 안내 합
 
 
 > [!IMPORTANT]  
-> 도메인 컨트롤러에서 32 비트 버전의 운영 체제를 실행 하는 포리스트 또는 도메인에 Lync Server를 배포할 수 있습니다 (자세한 내용은 <A href="lync-server-2013-active-directory-infrastructure-requirements.md">Active Directory 인프라 요구 사항 (Lync Server 2013의</A>경우). 그러나 배포 마법사와 지원 파일이 64 비트 전용 이므로 이러한 환경에서는 Lync Server 배포 마법사를 사용 하 여 스키마, 포리스트 및 도메인 준비를 실행할 수 없습니다. 대신, ldifde와 연결 된 .ldf 파일을 32 비트 도메인 컨트롤러에 사용 하 여 스키마, 포리스트 및 도메인을 준비할 수 있습니다. 이 항목의 뒷부분에 나오는 "Cmdlet 및 Ldifde 사용" 섹션을 참조 하십시오.
+> 도메인 컨트롤러에서 32 비트 버전의 운영 체제를 실행 하는 포리스트 또는 도메인에 Lync Server를 배포할 수 있습니다 (자세한 내용은 <A href="lync-server-2013-active-directory-infrastructure-requirements.md">Active Directory 인프라 요구 사항 (Lync Server 2013의</A>경우). 그러나 배포 마법사와 지원 파일이 64 비트 전용 이므로 이러한 환경에서는 Lync Server 배포 마법사를 사용 하 여 스키마, 포리스트 및 도메인 준비를 실행할 수 없습니다. 대신, ldifde.exe 및 연결 된 .ldf 파일을 32 비트 도메인 컨트롤러에 사용 하 여 스키마, 포리스트 및 도메인을 준비할 수 있습니다. 이 항목의 뒷부분에 나오는 "Cmdlet 및 Ldifde.exe 사용" 섹션을 참조 하십시오.
 
 
 
@@ -61,7 +63,7 @@ Windows Server 2012, Windows Server 2012 R2 또는 Windows Server 2008 R2 SP1 (6
 
 Active Directory 준비 작업을 실행하려면 다음 구성 요소가 필요합니다.
 
-  - Lync Server Core 구성 요소 (OCScore)
+  - Lync Server Core 구성 요소 (OCScore.msi)
     
     <div>
     
@@ -78,7 +80,7 @@ Active Directory 준비 작업을 실행하려면 다음 구성 요소가 필요
     
 
     > [!NOTE]  
-    > Windows Server 2012 및 Windows Server 2012 r 2의 경우 서버 관리자를 사용 하 여 .NET Framework 4.5을 설치 하 고 정품 인증 합니다. 자세한 내용은 <A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013에 대 한 추가 소프트웨어 요구 사항</A>에서 "Microsoft .net Framework 4.5"를 참조 하세요. Windows Server&nbsp;2008&nbsp;r 2의 경우 Microsoft 웹 사이트에서 <A href="https://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A> 를 다운로드 하 여 설치 합니다.
+    > Windows Server 2012 및 Windows Server 2012 r 2의 경우 서버 관리자를 사용 하 여 .NET Framework 4.5을 설치 하 고 정품 인증 합니다. 자세한 내용은 <A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013에 대 한 추가 소프트웨어 요구 사항</A>에서 "Microsoft .net Framework 4.5"를 참조 하세요. Windows Server 2008 r 2의 경우 &nbsp; &nbsp; Microsoft 웹 사이트에서 <A href="https://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A> 를 다운로드 하 여 설치 합니다.
 
     
     </div>
@@ -170,7 +172,7 @@ Active Directory 준비 작업을 실행하려면 다음 구성 요소가 필요
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>설치-CsAdServerSchema</p></td>
+<td><p>Install-CsAdServerSchema</p></td>
 <td><p>Lcscmd /forest /action:SchemaPrep /SchemaType:Server</p></td>
 </tr>
 <tr class="even">
@@ -182,7 +184,7 @@ Active Directory 준비 작업을 실행하려면 다음 구성 요소가 필요
 <td><p>Lcscmd /forest /action:ForestPrep</p></td>
 </tr>
 <tr class="even">
-<td><p>사용 안 함-CsAdForest</p></td>
+<td><p>Disable-CsAdForest</p></td>
 <td><p>Lcscmd /forest /action:ForestUnprep</p></td>
 </tr>
 <tr class="odd">
@@ -194,7 +196,7 @@ Active Directory 준비 작업을 실행하려면 다음 구성 요소가 필요
 <td><p>Lcscmd /domain /action:DomainPrep</p></td>
 </tr>
 <tr class="odd">
-<td><p>사용 안 함-CsAdDomain</p></td>
+<td><p>Disable-CsAdDomain</p></td>
 <td><p>Lcscmd /domain /action: DomainUnprep</p></td>
 </tr>
 <tr class="even">
@@ -271,7 +273,7 @@ Ldifde.exe를 사용하여 스키마 마스터가 아닌 도메인 컨트롤러�
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Ldifde를 사용 하는 방법에 대 한 자세한 내용은 Microsoft 기술 자료 문서 237677, "LDIFDE를 사용 하 여 Active Directory로 디렉터리 개체 [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204)가져오기 및 내보내기"를 참조 하세요.
+Ldifde를 사용 하는 방법에 대 한 자세한 내용은 Microsoft 기술 자료 문서 237677, "LDIFDE를 사용 하 여 Active Directory로 디렉터리 개체 가져오기 및 내보내기"를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204) .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c15eb698babcce1cd104dd7206c037b95d402992
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 883242824a6dfc45dbae923736a7a88bc1784d62
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506065"
 ---
+# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Lync Server 2013의 lync 클라이언트 비디오 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Lync Server 2013의 lync 클라이언트 비디오 요구 사항
+
 
 </div>
 
@@ -71,7 +73,7 @@ Lync 2013에서는 비디오 인코딩에 대 한 하드웨어 가속을 소개 
 <div>
 
 > [!NOTE]  
-> 디코딩 모드에 대 한 자세한 내용은 <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A>를 참조 하세요.
+> 디코딩 모드에 대 한 자세한 내용은를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A> .
 
 
 </div></td>
@@ -122,7 +124,7 @@ Lync 2013에서는 비디오 인코딩에 대 한 하드웨어 가속을 소개 
 
   - WEI(Windows 체험 지수)
 
-WinSAT(Windows 시스템 평가 도구)는 WEI를 확인합니다. WinSAT 도구를 실행 하면% windir%\\Performance\\WinSAT\\데이터 저장소 디렉터리에 있는 컴퓨터에 공식적인 평가 XML 문서가 생성 됩니다. 이 XML 파일에는 인코딩 및 디코딩 기능을 확인하는 데 특히 중요한 다음 두 가지 점수가 포함됩니다.
+WinSAT(Windows 시스템 평가 도구)는 WEI를 확인합니다. WinSAT 도구를 실행 하면% windir% \\ Performance \\ WinSAT 데이터 저장소 디렉터리에 있는 컴퓨터에 공식적인 평가 XML 문서가 생성 \\ 됩니다. 이 XML 파일에는 인코딩 및 디코딩 기능을 확인하는 데 특히 중요한 다음 두 가지 점수가 포함됩니다.
 
   - VideoEncodeScore는 컴퓨터의 소프트웨어 기반 비디오 인코딩 기능을 나타냅니다.
 

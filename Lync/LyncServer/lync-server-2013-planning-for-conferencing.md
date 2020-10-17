@@ -12,20 +12,22 @@ ms:contentKeyID: 48184937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b7f20857eded55c2488582c4b228bf0a53905c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bf1bf0ce10281bf4d31fc8fdb1be9251b72caf6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202074"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507025"
 ---
+# <a name="planning-for-conferencing-in-lync-server-2013"></a>Lync Server 2013의 회의 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-conferencing-in-lync-server-2013"></a>Lync Server 2013의 회의 계획
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Server 2013, 프런트 엔드 서버를 배포할 때는 웹 회의, A/V �
 
 
 > [!NOTE]  
-> Office Communicator 2007 R2 클라이언트 (Microsoft Office Outlook의 Live Meeting console 또는 회의 추가 기능 포함)를 사용 하 여 구성 된 모임이 배포에 포함 되는 경우에는 Lync로 마이그레이션한 후 모임에 다음과 같은 제한이 적용 됩니다. 서버 2013: 
+> Office Communicator 2007 R2 클라이언트 (Microsoft Office Outlook의 Live Meeting console 또는 회의 추가 기능 포함)를 사용 하 여 구성 된 모임이 배포에 포함 되는 경우, Lync Server 2013로 마이그레이션한 후에는 모임에 다음과 같은 제한이 적용 됩니다. 
 > <UL>
 > <LI>
 > <P>모임 사용자는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유를 비롯 한 데이터 공동 작업 기능을 사용할 수 없습니다.</P>

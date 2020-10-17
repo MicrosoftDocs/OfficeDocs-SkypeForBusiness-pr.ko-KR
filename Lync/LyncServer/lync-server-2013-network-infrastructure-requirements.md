@@ -12,20 +12,22 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3571dba317998af4fe19f7d2dfd1677d3691f278
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 338e2387b08898694bd621e220d7f889a8d25e0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217114"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505545"
 ---
+# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013의 네트워크 인프라 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013의 네트워크 인프라 요구 사항
+
 
 </div>
 
@@ -57,7 +59,7 @@ Lync Server 배포에서 A/V (오디오/비디오)에 대 한 네트워크 요�
     
 
     > [!IMPORTANT]  
-    > 에 지 풀이 있고 하드웨어 부하 분산 장치를 사용 하는 경우에는 각에 지 서버에 대해 공용 IP 주소를 사용 해야 하며 nat 장치 (예: 방화벽 또는 NAT inbou에서 사용 되는 다른 인프라 장치)의 풀 또는 서버에 대해 NAT를 사용할 수 없습니다. nd 또는 아웃 바운드 트래픽) 자세한 내용은 외부 사용자 액세스 설명서 계획에서 <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">포트 요약-확장 된 통합에 지 Lync Server 2013의 하드웨어 부하 분산 장치</A> 를 참조 하십시오.
+    > 에 지 풀이 있고 하드웨어 부하 분산 장치를 사용 하는 경우에는 각에 지 서버에서 공용 IP 주소를 사용 해야 하며, 서버 또는 NAT 장치 (예: 방화벽이 나 인바운드 또는 아웃 바운드 트래픽을 나타내는 다른 인프라 장치)의 풀에 대해서는 NAT를 사용할 수 없습니다. 자세한 내용은 외부 사용자 액세스 설명서 계획에서 <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">포트 요약-확장 된 통합에 지 Lync Server 2013의 하드웨어 부하 분산 장치</A> 를 참조 하십시오.
 
     
     </div>
@@ -70,7 +72,7 @@ Lync Server 배포에서 A/V (오디오/비디오)에 대 한 네트워크 요�
 
   - 최대 사용 기간 동안 오디오 스트림당 65Kbps 및 비디오 스트림(사용 가능한 경우)당 500Kbps의 처리량을 지원하도록 네트워크 링크를 프로비전합니다. 양방향 오디오 또는 비디오 세션은 두 개의 스트림으로 이루어집니다.
 
-  - 이 수준 보다 높은 트래픽에 대 한 예기치 않은 스파이크를 처리 하 고 시간 경과에 따른 사용량을 증대 시키려면 Lync Server media endpoints는 다양 한 네트워크 조건에 적응할 수 있고 3 배의 처리량 (이전 단락 참조)의 부하를 지원 하 여 오디오 및 비디오를 계속 사용 적절 한 품질을 유지 합니다. 하지만 이러한 적응 가능성 때문에 네트워크를 충분하지 않게 프로비전해도 되는 것으로 간주하면 안 됩니다. 프로 비전 된 네트워크에서 Lync Server 미디어 끝점이 동적으로 다양 한 네트워크 조건 (예: 일시적인 높은 패킷 손실)을 처리 하는 기능을 줄였습니다.
+  - 이 수준 보다 높은 트래픽에 대 한 예기치 않은 스파이크를 처리 하 고 시간 경과에 따른 사용량을 증대 시키려면 Lync Server 미디어 끝점이 다양 한 네트워크 조건에 적응할 수 있으며, 오디오 및 비디오에 대 한 처리량 (이전 단락 참조)의 3 배가 되는 부하를 지원 하 여 적절 한 품질을 유지 해야 합니다. 하지만 이러한 적응 가능성 때문에 네트워크를 충분하지 않게 프로비전해도 되는 것으로 간주하면 안 됩니다. 프로 비전 된 네트워크에서 Lync Server 미디어 끝점이 동적으로 다양 한 네트워크 조건 (예: 일시적인 높은 패킷 손실)을 처리 하는 기능을 줄였습니다.
 
   - 프로비전이 상당히 어렵고 비용이 많이 드는 네트워크 링크의 경우 낮은 트래픽 볼륨에 대해 프로비전하는 것을 고려할 수 있습니다. 이 시나리오에서는 Lync Server 미디어 끝점의 회복 력가 트래픽 볼륨과 최고 트래픽 수준 간의 차이를 흡수 하 여 음성 품질이 약간 저하 되는 것을 허용 합니다. 이 경우, 트래픽의 급격한 증가를 수용하는 데 사용할 수 있는 헤드 공간도 감소합니다.
 

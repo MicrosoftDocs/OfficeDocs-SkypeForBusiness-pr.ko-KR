@@ -12,20 +12,22 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88eeae2c08020aacb142bbceb6c2637ae4d55b63
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 150b240fe0c2be769e407cacecd8440bd4596ae5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188371"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506235"
 ---
+# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>System Center Operations Manager에서 작동 하도록 Lync Server 2013 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>System Center Operations Manager에서 작동 하도록 Lync Server 2013 구성
+
 
 </div>
 
@@ -43,7 +45,7 @@ System Center Operations Manager와 함께 작동 하도록 Microsoft Lync Serve
 
   - 모니터링할 Lync Server 컴퓨터를 식별 하 고 구성 합니다. System Center Operations Manager를 사용 하 여 Lync Server 컴퓨터를 모니터링 하려면 System Center Operations Manager 에이전트 파일을 설치 하 고 각 서버가 프록시로 작동 하도록 구성 해야 합니다.
 
-  - Lync Server *감시자 노드로*작동할 컴퓨터를 식별 하 고 구성 합니다. 감시자 노드는 시스템에 로그온 하는 기능 또는 인스턴트 메시지를 교환 하는 기능과 같은 주요 Lync Server 구성 요소를 확인 하는 Windows PowerShell cmdlet 인 Lync Server 가상 트랜잭션을 주기적으로 실행 하는 컴퓨터입니다. 예상 대로 작동 합니다.
+  - Lync Server *감시자 노드로*작동할 컴퓨터를 식별 하 고 구성 합니다. 감시자 노드는 Lync Server 가상 트랜잭션을 주기적으로 실행 하는 컴퓨터로, 시스템에 로그온 하는 기능과 같은 주요 Lync Server 구성 요소를 확인 하는 Windows PowerShell cmdlet 이거나, 인스턴트 메시지를 교환 하는 기능이 정상적으로 작동 하는 컴퓨터입니다.
 
 이 섹션의 항목에는 이러한 각 작업을 수행 하기 위한 지침이 포함 되어 있습니다.
 

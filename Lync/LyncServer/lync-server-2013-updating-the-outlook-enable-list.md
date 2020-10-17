@@ -12,20 +12,22 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7b4bc93f78ed72515270557e3224195df7ecd81
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3702e8976c0afeef364fdec52616bb4f4d1b8d86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193121"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506665"
 ---
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Lync Server 2013에서 Outlook 사용 목록 업데이트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Lync Server 2013에서 Outlook 사용 목록 업데이트
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42193121"
 
 _**마지막으로 수정 된 항목:** 2013-01-07_
 
-Outlook 용 추가 기능 관리 목록에 Microsoft Lync 2013에 대 한 온라인 모임 추가 기능이 항상 사용 하도록 설정 되어 있는지 확인할 수 있습니다. 추가 기능 관리 목록 정책은 그룹 정책 관리 콘솔에 대한 Office 관리 템플릿 파일에 포함됩니다. \\HKCU\\소프트웨어 정책\\아래에 Microsoft\\Office\\15.0\\Outlook15\\복구\\AddinList의 레지스트리 키를 만듭니다. 이 키에 c u c l i c e c i c e c i c e c i c c e c e c의 값을 추가 하 고이 값을 사용 하도록 설정 하 여 사용자가 수동으로 사용 하지 않도록 설정할 수 없도록
+Outlook 용 추가 기능 관리 목록에 Microsoft Lync 2013에 대 한 온라인 모임 추가 기능이 항상 사용 하도록 설정 되어 있는지 확인할 수 있습니다. 추가 기능 관리 목록 정책은 그룹 정책 관리 콘솔에 대한 Office 관리 템플릿 파일에 포함됩니다. HKCU \\ 소프트웨어 정책 아래에 \\ \\ Microsoft \\ Office \\ 15.0 \\ Outlook15 \\ 복구 \\ AddinList의 레지스트리 키를 만듭니다. ucaddin.dll의 값을이 키에 추가 하 고, 항상 사용 하도록 설정 하 고 사용자가 수동으로 사용 하지 않도록 설정할 수 없도록 ucaddin.dll 값을 구성할 수 있습니다.
 
 <div>
 
-## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Outlook 추가 기능 목록에 기타 기능을 추가 하려면
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Outlook 추가 기능 목록에 ucaddin.dll 추가 하려면
 
-  - \\HKCU\\소프트웨어 정책\\아래에 있는 AddinList 레지스트리 키 (Microsoft\\Office\\15.0\\Outlook15\\복원성\\AddinList에 있음)에 다음 값을 추가 합니다.
+  - HKCU 소프트웨어 정책 아래에 있는 AddinList 레지스트리 키 \\ ( \\ \\ Microsoft \\ Office \\ 15.0 \\ Outlook15 복원성 AddinList에 \\ \\ 있음)에 다음 값을 추가 합니다.
     
-      - 레지스트리 유형 = REG\_SZ
+      - 레지스트리 유형 = REG \_ SZ
     
       - 이름 = ucaddin.dll
     

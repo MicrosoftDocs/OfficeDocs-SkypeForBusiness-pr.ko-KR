@@ -12,20 +12,22 @@ ms:contentKeyID: 48183458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb33552fde0da6dc91f21eeecaf1ea5e85d72159
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1391d57232d261edcdfcdd7c4668ee025b1420b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201764"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506845"
 ---
+# <a name="preparing-the-infrastructure-and-systems-for-lync-server-2013"></a>Lync Server 2013의 인프라 및 시스템 준비
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-the-infrastructure-and-systems-for-lync-server-2013"></a>Lync Server 2013의 인프라 및 시스템 준비
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 Lync Server 2013을 배포 하려면 토폴로지 작성기를 사용 하 여 토폴로지 디자인을 정의 하 고 게시 해야 합니다. 토폴로지에 필요한 구성 요소를 확인 하려면 토폴로지 작성기를 사용 하 여 토폴로지 디자인을 만들고 저장 합니다. 토폴로지 작성기에서 토폴로지를 게시하기 전에 다음을 수행합니다.
 
-  - 필요한 모든 컴퓨터 (Lync Server 2013, 데이터베이스 서버, 인터넷 정보 서비스를 실행 하는 서버)를 포함 하 여 토폴로지 작성기를 사용 하 여 만들고 저장 한 토폴로지 디자인의 각 구성 요소에 대 한 하드웨어를 가져오고 설치 합니다 ( IIS) 및 역방향 프록시 서버 (해당 하는 경우), 네트워크 어댑터, 하드웨어 부하 분산 장치 및 저장 장치와 같은 파일 서버 등이 있습니다. 배포에 필요한 구성 요소를 지정 하는 토폴로지를 정의 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 토폴로지 정의 및 구성을](lync-server-2013-defining-and-configuring-the-topology.md)참조 하십시오. 서버에 대 한 하드웨어 요구 사항에 대 한 자세한 내용은 지원 가능성 설명서에서 [Lync Server 2013 용으로 지 원하는 하드웨어](lync-server-2013-supported-hardware.md) 를 참조 하십시오.
+  - 필요한 모든 컴퓨터 (Lync Server 2013, 데이터베이스 서버, IIS (인터넷 정보 서비스)를 실행 하는 서버, 적절 한 역방향 프록시 서버를 실행 하는 서버), 네트워크 어댑터, 하드웨어 부하 분산 및 저장 장치 (예: 파일 서버)를 포함 하 여 토폴로지 작성기를 사용 하 여 만들고 저장 한 토폴로지 디자인의 각 구성 요소에 대 한 하드웨어를 가져오고 설치 합니다. 배포에 필요한 구성 요소를 지정 하는 토폴로지를 정의 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 토폴로지 정의 및 구성을](lync-server-2013-defining-and-configuring-the-topology.md)참조 하십시오. 서버에 대 한 하드웨어 요구 사항에 대 한 자세한 내용은 지원 가능성 설명서에서 [Lync Server 2013 용으로 지 원하는 하드웨어](lync-server-2013-supported-hardware.md) 를 참조 하십시오.
 
   - 네트워크 인프라가 요구 사항을 충족 하는지 확인 합니다. 자세한 내용은 계획 설명서에서 [Lync Server 2013의 네트워크 인프라 요구 사항](lync-server-2013-network-infrastructure-requirements.md) 를 참조 하십시오.
 

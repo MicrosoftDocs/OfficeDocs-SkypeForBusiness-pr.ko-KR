@@ -12,20 +12,22 @@ ms:contentKeyID: 48183665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 155ee98a7386368d90fd549d920cdfe77c05cb6e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5853578ed55f5a5461b5fbb8c1ce3c2dda8b0e5e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221622"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505755"
 ---
+# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>Lync Server 2013에 대 한 페더레이션 및 외부 액세스 관리
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>Lync Server 2013에 대 한 페더레이션 및 외부 액세스 관리
+
 
 </div>
 

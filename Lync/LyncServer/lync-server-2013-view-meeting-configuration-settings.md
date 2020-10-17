@@ -12,20 +12,22 @@ ms:contentKeyID: 49733828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 076c3a13f1cbc6519a0af4c0ee8b587a7f5d83ca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b9ad61f93cd7c65be04d30cf35638019ddc7ee58
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211394"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506335"
 ---
+# <a name="view-meeting-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 모임 구성 설정 보기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-meeting-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 모임 구성 설정 보기
+
 
 </div>
 
@@ -57,7 +59,7 @@ Lync Server 2013 제어판에서는 모임 구성 설정을 사용 하 여 배�
 
 5.  **파일 필터 편집**에서 **세부 정보 표시** ...를 선택 합니다. 확인란.
     
-    **모임 구성 편집- \<선택한\> ** 정책에 대 한 설정을 표시 하는 정책이 열립니다. 설정을 구성 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 모임 구성 설정 컬렉션 만들기 또는 수정을](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)참조 하십시오.
+    **모임 구성 편집- \<policy\> ** 선택한 정책에 대 한 설정 표시를 엽니다. 설정을 구성 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 모임 구성 설정 컬렉션 만들기 또는 수정을](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)참조 하십시오.
 
 </div>
 
@@ -65,7 +67,7 @@ Lync Server 2013 제어판에서는 모임 구성 설정을 사용 하 여 배�
 
 ## <a name="viewing-meeting-configuration-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 모임 구성 정보 보기
 
-모임 구성 설정은 Windows PowerShell 및 Get-csmeetingconfiguration cmdlet을 사용 하 여 볼 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+모임 구성 설정은 Windows PowerShell 및 Get-CsMeetingConfiguration cmdlet을 사용 하 여 볼 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 하세요.
 
 <div>
 

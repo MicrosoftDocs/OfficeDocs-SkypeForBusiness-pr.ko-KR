@@ -12,20 +12,22 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab897bf5bc9d959089090ebeaaddc4d766549401
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdb09d52970b5fd97395acda6a2e4fbc824a378d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217124"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505595"
 ---
+# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Lync Server 2013의 XMPP 페더레이션 파트너에 대 한 협상 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Lync Server 2013의 XMPP 페더레이션 파트너에 대 한 협상 설정
+
 
 </div>
 
@@ -55,7 +57,7 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 <th>SASL (Simple Authentication and Security Layer)</th>
 <th>전화 접속 회의 인증</th>
 <th>예상 인증 방법</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
@@ -68,22 +70,22 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 </tr>
 <tr class="even">
 <td><p>필수</p></td>
-<td><p>선택 사항</p></td>
-<td><p>참</p></td>
+<td><p>선택</p></td>
+<td><p>True</p></td>
 <td><p>TLS, TLS 전화 접속 회의, TCP 전화 접속 회의을 통한 SASL</p></td>
 <td><p>XMPP 페더레이션 파트너가 SASL을 optional로 설정 했거나 필요한 SASL을 사용 하는 경우 TLS를 요구 합니다. SASL을 사용할 수 없는 경우 전화 접속 회의 over TLS가 사용 됩니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>선택</p></td>
 <td><p>선택</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 <td><p>TLS, TLS 전화 접속 회의, TCP 전화 접속 회의을 통한 SASL</p></td>
 <td><p>협상 방법의 유연성이 매우 뛰어납니다, 이러한 설정은 XMPP 페더레이션 파트너의 설정을 사용 합니다. 파트너가 TLS 옵션 또는 필수를 포함 하지만 SASL이 지원 되지 않는 경우 TLS 전화 접속 회의를 사용할 수 있습니다. 파트너에 TLS 및 SASL이 optional 또는 required로 설정 되어 있으면 SASL을 통해 최적의 TLS 선택이 사용 됩니다.</p></td>
 </tr>
 <tr class="even">
-<td><p>미지원</p></td>
-<td><p>미지원</p></td>
-<td><p>참</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>True</p></td>
 <td><p>TCP 전화 접속 회의</p></td>
 <td><p>대부분의 경우 TCP 전화 접속 회의은 유일한 솔루션입니다. 다른 옵션 보다 덜 바람직한 방법으로는 몇 가지 신뢰 수준이 제공 됩니다.</p></td>
 </tr>
@@ -114,7 +116,7 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 <tr class="odd">
 <td><p>필수</p></td>
 <td><p>필수</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 <td><p>EAP-TLS를 통한 SASL</p></td>
 <td><div>
 
@@ -134,7 +136,7 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 <tr class="odd">
 <td><p>선택</p></td>
 <td><p>필수</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 <td><p>TLS, TLS 전화 접속 회의, TCP 전화 접속 회의을 통한 SASL</p></td>
 <td><div>
 
@@ -158,9 +160,9 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>미지원</p></td>
+<td><p>지원되지 않음</p></td>
 <td><p>필수</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 <td><p>TCP 전화 접속 회의</p></td>
 <td><div>
 
@@ -171,7 +173,7 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 </div></td>
 </tr>
 <tr class="even">
-<td><p>미지원</p></td>
+<td><p>지원되지 않음</p></td>
 <td><p>필수</p></td>
 <td><p>False</p></td>
 <td><div>
@@ -191,14 +193,14 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 </tr>
 <tr class="odd">
 <td><p>필수</p></td>
-<td><p>선택 사항</p></td>
-<td><p>참</p></td>
+<td><p>선택</p></td>
+<td><p>True</p></td>
 <td><p>EAP-TLS를 통한 SASL, TLS 전화 접속 회의</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>필수</p></td>
-<td><p>선택 사항</p></td>
+<td><p>선택</p></td>
 <td><p>False</p></td>
 <td><p>EAP-TLS를 통한 SASL</p></td>
 <td></td>
@@ -206,7 +208,7 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 <tr class="odd">
 <td><p>선택</p></td>
 <td><p>선택</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 <td><p>TLS, TLS 전화 접속 회의, TCP 전화 접속 회의을 통한 SASL</p></td>
 <td><div>
 
@@ -230,9 +232,9 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>미지원</p></td>
+<td><p>지원되지 않음</p></td>
 <td><p>선택</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 <td><p>TCP 전화 접속 회의</p></td>
 <td><div>
 
@@ -243,7 +245,7 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 </div></td>
 </tr>
 <tr class="even">
-<td><p>미지원</p></td>
+<td><p>지원되지 않음</p></td>
 <td><p>선택</p></td>
 <td><p>False</p></td>
 <td><div>
@@ -263,14 +265,14 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 </tr>
 <tr class="odd">
 <td><p>필수</p></td>
-<td><p>미지원</p></td>
-<td><p>참</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>True</p></td>
 <td><p>TLS 전화 접속 회의</p></td>
 <td><p>구성에서는 TLS 전화 접속 회의을 허용 합니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>필수</p></td>
-<td><p>미지원</p></td>
+<td><p>지원되지 않음</p></td>
 <td><p>False</p></td>
 <td><p>유효 하지 않은 구성</p></td>
 <td><div>
@@ -283,14 +285,14 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 </tr>
 <tr class="odd">
 <td><p>선택</p></td>
-<td><p>미지원</p></td>
-<td><p>참</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>True</p></td>
 <td><p>TLS 전화 접속 회의, TCP 전화 접속 회의</p></td>
 <td><p>다른 끝점의 협상 선택에 따라 TCP 또는 TLS 전화 접속 회의이 허용 됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>선택</p></td>
-<td><p>미지원</p></td>
+<td><p>지원되지 않음</p></td>
 <td><p>False</p></td>
 <td><p>유효 하지 않은 구성</p></td>
 <td><div>
@@ -302,15 +304,15 @@ XMPP 파트너 구성의 협상 유형에 대 한 설정은 다양 한 조합으
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>미지원</p></td>
-<td><p>미지원</p></td>
-<td><p>참</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>True</p></td>
 <td><p>TCP 전화 접속 회의</p></td>
 <td><p>사용할 수 있는 유일한 협상 방법은 TCP 전화 접속 회의입니다.</p></td>
 </tr>
 <tr class="even">
-<td><p>미지원</p></td>
-<td><p>미지원</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>지원되지 않음</p></td>
 <td><p>False</p></td>
 <td><p>유효 하지 않은 구성</p></td>
 <td><div>

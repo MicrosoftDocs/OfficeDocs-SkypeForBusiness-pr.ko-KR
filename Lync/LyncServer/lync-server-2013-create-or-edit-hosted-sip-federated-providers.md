@@ -12,20 +12,22 @@ ms:contentKeyID: 48679556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b78e9be0f3b885a40fcf313173a1281ac5489936
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: d7704074db1b210ca341b05df9fbd02afabbc70a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221842"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507495"
 ---
+# <a name="create-or-edit-hosted-sip-federated-providers-lync-server-2013"></a>호스팅된 SIP 페더레이션 공급자 만들기 또는 편집 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-hosted-sip-federated-providers-lync-server-2013"></a>호스팅된 SIP 페더레이션 공급자 만들기 또는 편집 Lync Server 2013
+
 
 </div>
 

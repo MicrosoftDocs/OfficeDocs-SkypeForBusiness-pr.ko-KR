@@ -12,20 +12,22 @@ ms:contentKeyID: 48184018
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de54627a1effa25c6dbf16944c933c8d01441e4a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a4f02160ad9991905bf0f149a2beb72ef21169e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179509"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507295"
 ---
+# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 페더레이션 및 외부 액세스 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 페더레이션 및 외부 액세스 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179509"
 
 _**마지막으로 수정 된 항목:** 2012-06-26_
 
-페더레이션 및 외부 액세스는 두 가지 중요 한 기능을 제공 하며, 페더레이션에서는 사용자가 조직 외부의 사용자와 통신할 수 있으며, 외부 액세스를 통해 내부 네트워크 외부에서 Microsoft Lync Server 2013에 연결할 수 있습니다. Lync Server 2013에서 페더레이션 및 외부 액세스를 관리 하는 데 사용할 수 있는 cmdlet을 사용 하면 사용자가 내부에 로그온 하 고 연결할 수 없는 사람을 결정 하 고, 해당 사용자가 내부적으로 로그인 할 필요 없이 Lync Server에 연결 될 수 있는지 여부를 결정 사설망.
+페더레이션 및 외부 액세스는 두 가지 중요 한 기능을 제공 하며, 페더레이션에서는 사용자가 조직 외부의 사용자와 통신할 수 있으며, 외부 액세스를 통해 내부 네트워크 외부에서 Microsoft Lync Server 2013에 연결할 수 있습니다. Lync Server 2013에서 페더레이션 및 외부 액세스를 관리 하는 데 사용할 수 있는 cmdlet을 사용 하면 사용자가 통신할 수 있는 사람을 결정 하 고, 해당 사용자가 내부 네트워크에 로그온 할 필요 없이 Lync Server에 연결할 수 있는지 여부를 결정할 수도 있습니다.
 
 <div>
 

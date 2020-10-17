@@ -12,20 +12,22 @@ ms:contentKeyID: 51803988
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa10335c21a943c90937306a39262e651c392a5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79fef5d58116da6b8cbc07ce2b16f3dd4f6b28ac
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211424"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506385"
 ---
+# <a name="view-information-about-device-update-rules-in-lync-server-2013"></a>Lync Server 2013의 장치 업데이트 규칙에 대 한 정보 보기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-information-about-device-update-rules-in-lync-server-2013"></a>Lync Server 2013의 장치 업데이트 규칙에 대 한 정보 보기
+
 
 </div>
 
@@ -71,7 +73,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
 
 
 > [!NOTE]  
-> 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+> 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 하세요.
 
 
 
@@ -105,7 +107,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
 
 ## <a name="to-view-all-the-device-update-rules-on-a-specific-web-server"></a>특정 웹 서버에서 모든 장치 업데이트 규칙을 보려면
 
-  - 특정 컴퓨터에서 장치 업데이트 규칙을 보려면 Filter 매개 변수 다음에 서버 Id와 와일드 카드 문자 (\*)를 사용 합니다. 예:
+  - 특정 컴퓨터에서 장치 업데이트 규칙을 보려면 Filter 매개 변수 다음에 서버 Id와 와일드 카드 문자 ()를 사용 합니다 \* . 예제:
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"
 

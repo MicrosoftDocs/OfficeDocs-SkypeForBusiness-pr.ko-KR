@@ -12,20 +12,22 @@ ms:contentKeyID: 49733680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9875cb075f29f9f2efcb9328d1ac2d39d2f8ae89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1f913b321d700337d1cb3649c2e1351971b6d7a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506255"
 ---
+# <a name="configuring-microsoft-lync-server-2013-to-use-the-unified-contact-store"></a>통합 연락처 저장소를 사용 하도록 Microsoft Lync Server 2013 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-to-use-the-unified-contact-store"></a>통합 연락처 저장소를 사용 하도록 Microsoft Lync Server 2013 구성
+
 
 </div>
 
@@ -77,7 +79,7 @@ Lync Server 관리 셸에서 [test-csunifiedcontactstore](https://docs.microsoft
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Test-csunifiedcontactstore가 성공한 경우에는 사용자 sip:kenmyer@litwareinc.com의 연락처가 통합 연락처 저장소로 마이그레이션 되었음을 의미 합니다.
+Test-CsUnifiedContactStore에 성공 하면 사용자 sip:kenmyer@litwareinc.com의 연락처가 통합 연락처 저장소로 마이그레이션 되었음을 의미 합니다.
 
 </div>
 
@@ -99,7 +101,7 @@ Test-csunifiedcontactstore가 성공한 경우에는 사용자 sip:kenmyer@litwa
 
 
 > [!NOTE]  
-> 경우에 따라 사용자의 현재 사용자 서비스 정책에 대 한 할당을 취소 하 여 동일한 네트워크 효과를 얻을 수 있습니다. 예를 들어 Ken Myer에 통합 연락처 저장소를 사용 하도록 설정 하는 사용자별 사용자 서비스 정책이 있지만 글로벌 정책에 따라 통합 연락처 저장소를 사용할 수 없는 경우를 가정해 보겠습니다. 이 경우에는 Ken의 사용자별 서비스 정책을 할당 해제할 수 있습니다. 이렇게 하면 Ken가 자동으로 전역 정책으로 관리 되므로 통합 연락처 저장소에 더 이상 액세스할 수 없게 됩니다.<BR>이전에 할당 한 사용자별 정책을 할당 해제 하려면 이전에 표시 된 것과 같은 명령을 사용 하 되, 이번에는 PolicyName 매개 변수를 null 값으로 설정 합니다.<BR>부여-Csuser서비스 정책-Identity "Ken Myer" – PolicyName $Null
+> 경우에 따라 사용자의 현재 사용자 서비스 정책에 대 한 할당을 취소 하 여 동일한 네트워크 효과를 얻을 수 있습니다. 예를 들어 Ken Myer에 통합 연락처 저장소를 사용 하도록 설정 하는 사용자별 사용자 서비스 정책이 있지만 글로벌 정책에 따라 통합 연락처 저장소를 사용할 수 없는 경우를 가정해 보겠습니다. 이 경우에는 Ken의 사용자별 서비스 정책을 할당 해제할 수 있습니다. 이렇게 하면 Ken가 자동으로 전역 정책으로 관리 되므로 통합 연락처 저장소에 더 이상 액세스할 수 없게 됩니다.<BR>이전에 할당 한 사용자별 정책을 할당 해제 하려면 이전에 표시 된 것과 같은 명령을 사용 하 되, 이번에는 PolicyName 매개 변수를 null 값으로 설정 합니다.<BR>Grant-CsUserServicesPolicy-Id "Ken Myer"-PolicyName $Null
 
 
 
@@ -111,7 +113,7 @@ Test-csunifiedcontactstore가 성공한 경우에는 사용자 sip:kenmyer@litwa
 
     Invoke-CsUcsRollback -Identity "Ken Myer"
 
-사용자 서비스 정책을 변경 했지만 실행 하지 않으면 통합 연락처 저장소에서 Invoke-csucsrollback cmdlet Ken의 연락처가 제거 되지 않습니다. Invoke-csucsrollback를 실행 하지만 Ken Myer의 사용자 서비스 정책은 변경 하지 않는 경우 어떻게 해야 하나요? 이 경우 Ken의 연락처가 통합 연락처 저장소에서 일시적으로 제거 됩니다. 이 제거가 일시적 이라는 사실은 주의 해야 합니다. Ken의 연락처가 통합 연락처 저장소에서 제거 된 후 Lync Server 2013는 7 일을 기다린 후 Ken에 할당 된 사용자 서비스 정책을 확인 합니다. Ken에 통합 연락처 저장소의 사용자를 사용 하도록 설정 하는 정책이 할당 되 면 해당 연락처가 자동으로 연락처 저장소로 다시 이동 됩니다. 통합 연락처 저장소에서 연락처를 영구적으로 제거 하려면 Invoke-csucsrollback cmdlet을 실행 하는 것과 함께 사용자 서비스 정책을 변경 해야 합니다.
+사용자 서비스 정책을 변경 하지만 Invoke-CsUcsRollback 실행 하지 않으면 Ken의 연락처가 통합 연락처 저장소에서 제거 되지 않습니다. Invoke-CsUcsRollback를 실행 하지만 Ken Myer의 사용자 서비스 정책을 변경 하지 않는 경우에는 어떻게 하나요? 이 경우 Ken의 연락처가 통합 연락처 저장소에서 일시적으로 제거 됩니다. 이 제거가 일시적 이라는 사실은 주의 해야 합니다. Ken의 연락처가 통합 연락처 저장소에서 제거 된 후 Lync Server 2013는 7 일을 기다린 후 Ken에 할당 된 사용자 서비스 정책을 확인 합니다. Ken에 통합 연락처 저장소의 사용자를 사용 하도록 설정 하는 정책이 할당 되 면 해당 연락처가 자동으로 연락처 저장소로 다시 이동 됩니다. 통합 연락처 저장소에서 연락처를 영구적으로 제거 하려면 Invoke-CsUcsRollback cmdlet을 실행 하는 것과 함께 사용자 서비스 정책을 변경 해야 합니다.
 
 마이그레이션에 영향을 줄 수 있는 변수가 많기 때문에 계정이 통합 연락처 저장소로 완전히 마이그레이션될 때까지 소요 되는 시간을 예측 하기 어렵습니다. 일반적으로 마이그레이션은 즉시 적용 되지 않습니다. 소수의 대화 상대를 마이그레이션하는 경우에도 이동이 완료 되기 전에 10 분 이상 걸릴 수 있습니다.
 

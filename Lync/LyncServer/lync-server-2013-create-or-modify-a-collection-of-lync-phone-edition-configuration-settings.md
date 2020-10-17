@@ -12,20 +12,22 @@ ms:contentKeyID: 49733683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8af910ccffd65f14b7f11919ab66ae95acbf4e09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 11e2d314497223b5a18aa864b0e5333e3762480d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180125"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506215"
 ---
+# <a name="create-or-modify-a-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 Lync Phone Edition 구성 설정 모음 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 Lync Phone Edition 구성 설정 모음 만들기 또는 수정
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
 
 Lync Server를 설치할 때 Lync Phone Edition 설정의 전역 컬렉션을 가져옵니다. 이러한 설정은 배포에서 Lync Phone Edition을 실행 하는 모든 장치에 적용 됩니다. 이러한 설정은 언제 든 지 변경할 수 있습니다. 특정 사이트의 장치에 적용 되는 새 설정 모음을 설정할 수도 있습니다. 사이트 설정은 전역 설정보다 우선합니다.
 
-구성 설정은 컬렉션 이름, 범위 (전역 또는 사이트), SIP 보안 설정, 로깅 수준, 음성 QoS (서비스 품질) 수준, 전화 잠금 설정, 전화 잠금 세부 정보 (즉, a)가 개인 식별 번호를 잠금 해제 하는 시간 (초)으로 구성 됩니다. PIN)은 잠금 전까지 유휴 상태를 유지 해야 합니다.
+구성 설정은 컬렉션 이름, 범위 (전역 또는 사이트), SIP 보안 설정, 로깅 수준, 음성 QoS (서비스 품질) 수준, 전화 잠금 설정, 전화 잠금 세부 정보, 즉 a에서 잠금을 해제 해야 하는 시간 (개인 식별 번호)이 잠금 (PIN)이 되 고 b) 잠금이 유지 되기 전까지 유휴 상태 여야 합니다.
 
 <div>
 
@@ -74,7 +76,7 @@ Lync Server를 설치할 때 Lync Phone Edition 설정의 전역 컬렉션을 �
 
 ## <a name="creating-new-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 새 Lync Phone Edition 구성 설정 만들기
 
-Windows PowerShell 및 **set-csucphoneconfiguration** cmdlet을 사용 하 여 사이트 범위 에서만 Lync Phone Edition 구성 설정을 만들 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Windows PowerShell 및 **set-csucphoneconfiguration** cmdlet을 사용 하 여 사이트 범위 에서만 Lync Phone Edition 구성 설정을 만들 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 하세요.
 
 <div>
 

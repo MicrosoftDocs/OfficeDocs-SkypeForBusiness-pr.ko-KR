@@ -12,20 +12,22 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bdf2ee113682ccee44d2329de68dfa87ea5824be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee394401999038c205826c99b3e6b2e35734087d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179985"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506135"
 ---
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Lync Server 2013에서 그룹 통화 픽업 번호 범위 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Lync Server 2013에서 그룹 통화 픽업 번호 범위 만들기 또는 수정
+
 
 </div>
 
@@ -67,9 +69,9 @@ Call pickup 그룹 번호 범위는 다음 규칙을 준수 해야 합니다.
 
   - 번호 범위는 고유 해야 합니다. 이 범위는 다른 범위와 겹칠 수 없습니다.
 
-  - 숫자 범위가 문자로 \* \#시작 하는 경우에는 범위가 100 보다 커야 합니다.
+  - 숫자 범위가 문자로 시작 하는 경우 \* \# 에는 범위가 100 보다 커야 합니다.
 
-  - 유효한 값:은 정규식 문자열\[\\\*|\#\](?\[ 1-9\]\\d{0,7}) | (\[1-9\]\\d{0,8}) 즉,이 값은 1부터 9 까지의 숫자로 시작 \* \# 하는 문자열 (첫 번째 문자는 0이 될 수 없음)입니다. 첫 번째 문자가 \* or \#인 경우 다음 문자는 1에서 9 사이의 숫자 (0이 될 수 없음) 여야 합니다. 이후 문자에는 0에서 9 까지의 추가 문자 (예: "\#6000", "\*92000", "\*95551212" 및 "915551212")가 최대 7 자까지 있을 수 있습니다. 첫 문자가 아닌 \* \#경우 첫 번째 문자는 1부터 9 까지의 숫자 (0이 될 수 없음)와 최대 8 자 (예: "915551212", "41212", "300") 사이에 있어야 합니다.
+  - 유효한 값:은 정규식 문자열 ( \[ \\ \* | \# \] ? \[ 1-9 \] \\ d {0,7} ) | ( \[ 1-9 \] \\ d {0,8} ) 즉,이 값은 \* \# 1부터 9 까지의 숫자로 시작 하는 문자열 (첫 번째 문자는 0이 될 수 없음)입니다. 첫 번째 문자가 or 인 \* 경우 \# 다음 문자는 1에서 9 사이의 숫자 (0이 될 수 없음) 여야 합니다. 이후 문자에는 0에서 9 까지의 추가 문자 (예: " \# 6000", " \* 92000", " \* 95551212" 및 "915551212")가 최대 7 자까지 있을 수 있습니다. 첫 문자가 아닌 경우 첫 번째 \* \# 문자는 1부터 9 까지의 숫자 (0이 될 수 없음)와 최대 8 자 (예: "915551212", "41212", "300") 사이에 있어야 합니다.
 
 <div>
 

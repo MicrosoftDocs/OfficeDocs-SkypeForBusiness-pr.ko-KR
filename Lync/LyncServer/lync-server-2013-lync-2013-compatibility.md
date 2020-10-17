@@ -12,20 +12,22 @@ ms:contentKeyID: 51541502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19563b36f874bb3a13e1af897ed9ef41d31b4e42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0af6d5d11494e24ecf54dd2ff06cbee9011814e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186391"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507255"
 ---
+# <a name="lync-2013-compatibility"></a>Lync 2013 호환성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-2013-compatibility"></a>Lync 2013 호환성
+
 
 </div>
 
@@ -184,7 +186,7 @@ _**마지막으로 수정 된 항목:** 2013-10-07_
 
   - IM을 사용한 회신 또는 메일, 일정, 연락처 및 작업 폴더에 있는 Outlook 홈 리본에서 호출
 
-  - Outlook 할 일 모음의 Lync 대화 상대 목록
+  - Outlook To-Do 표시줄의 Lync 대화 상대 목록
 
   - Office Backstage(파일 탭) 현재 상태, 프로그램 공유 및 파일 전송
 
@@ -292,7 +294,7 @@ Lync Server 2013에서는 Macintosh 운영 체제를 실행 하는 컴퓨터에�
 <td><p>IM, 기본 현재 상태, 오디오/비디오(A/V)*</p></td>
 </tr>
 <tr class="even">
-<td><p>시간이</p></td>
+<td><p>스카이프</p></td>
 <td><p>IM, 기본 현재 상태, 오디오</p></td>
 </tr>
 <tr class="odd">

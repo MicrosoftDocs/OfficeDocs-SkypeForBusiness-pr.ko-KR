@@ -12,20 +12,22 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5554a9c7fde74b5bcf9c81c451023d0f48bbf918
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3dfd2507f57265b53beea6f84d07760d35abe6e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217144"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507055"
 ---
+# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013에서 Enterprise Voice로 사용자 이동
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013에서 Enterprise Voice로 사용자 이동
+
 
 </div>
 
@@ -175,7 +177,7 @@ ITSP(인터넷 전화 통신 서비스 공급자)에 연결된 일반 PBX 또는
 
   - Exchange 통합 메시징과 Lync Server가 함께 작동 하도록 구성 합니다.
 
-  - 사용자가 Exchange 통합 메시징 통화 응답 및 Outlook Voice Access를 사용할 수 있도록 설정합니다. 이 작업은 Exchange 통합 메시징 서버에서 수행됩니다. 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372)Exchange Server 2010 TechNet 라이브러리를 참조 하십시오.
+  - 사용자가 Exchange 통합 메시징 통화 응답 및 Outlook Voice Access를 사용할 수 있도록 설정합니다. 이 작업은 Exchange 통합 메시징 서버에서 수행됩니다. 자세한 내용은에서 Exchange Server 2010 TechNet 라이브러리를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372) .
 
 </div>
 

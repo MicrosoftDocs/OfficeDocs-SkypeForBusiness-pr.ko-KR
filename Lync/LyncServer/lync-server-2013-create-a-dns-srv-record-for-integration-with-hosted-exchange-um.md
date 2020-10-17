@@ -12,20 +12,22 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c30164813619a271f2321db3ff3e8019067193c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac215b5a0ba42ff031962e656e72fb355a808bf4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198961"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507475"
 ---
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>호스팅된 Exchange UM과의 통합을 위한 DNS SRV 레코드 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>호스팅된 Exchange UM과의 통합을 위한 DNS SRV 레코드 만들기
+
 
 </div>
 
@@ -62,9 +64,9 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 
 5.  **리소스 레코드 종류**에서 **서비스 위치(SRV)** 를 클릭하고 **레코드 만들기**를 클릭합니다.
 
-6.  **새 리소스 레코드**에서 **서비스**를 클릭 하 고 ** \_sipfederationtls**를 입력 합니다.
+6.  **새 리소스 레코드**에서 **서비스**를 클릭 하 고 ** \_ sipfederationtls**를 입력 합니다.
 
-7.  **프로토콜**을 클릭 한 다음 ** \_tcp**를 입력 합니다.
+7.  **프로토콜**을 클릭 한 다음 ** \_ tcp**를 입력 합니다.
 
 8.  **포트 번호**를 클릭한 다음 **5061**을 입력합니다.
 
@@ -74,7 +76,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
     
 
     > [!NOTE]
-    > 이 도메인은 Exchange Online 설정에서 허용되는 신뢰할 수 있는 도메인으로도 설정되어야 합니다. 자세한 내용은 허용 도메인 만들기를 참조 하십시오 <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>.
+    > 이 도메인은 Exchange Online 설정에서 허용되는 신뢰할 수 있는 도메인으로도 설정되어야 합니다. 자세한 내용은 허용 도메인 만들기를 참조 하십시오 <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A> .
 
     
     </div>

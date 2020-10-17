@@ -12,20 +12,22 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78d52e6a7eb36ce0f000a9986480d62692d3a33d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65ecb6946bcbb7244ef3e5ef8504312063ab1bd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195531"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507525"
 ---
+# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 감시자 노드 테스트 사용자 및 구성 설정 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 감시자 노드 테스트 사용자 및 구성 설정 구성
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**마지막으로 수정 된 항목:** 2013-07-29_
 
 ## <a name="configuring-test-user-accounts"></a>테스트 사용자 계정 구성
 
-테스트 사용자는 실제 사용자를 나타낼 필요가 없지만 유효한 Active Directory 도메인 서비스 계정 이어야 합니다. 또한 Lync Server 2013에 대해 이러한 계정을 사용 하도록 설정 해야 하 고, 유효한 SIP 주소가 있어야 하며, Enterprise Voice를 사용할 수 있도록 설정 되어야 합니다 (테스트-CsPstnPeerToPeerCall 가상 트랜잭션을 사용 하는 경우). 로 서버 인증 방법을 사용 하는 경우에는 이러한 계정이 있고 여기에서 지정한 대로 구성 되었는지 확인 해야 합니다. 테스트할 각 풀에 대해 테스트 사용자를 세 명 이상 할당 해야 합니다.
+테스트 사용자는 실제 사용자를 나타낼 필요가 없지만 유효한 Active Directory 도메인 서비스 계정 이어야 합니다. 또한 Lync Server 2013에 대해 이러한 계정을 사용 하도록 설정 해야 하 고, 유효한 SIP 주소가 있어야 하며, Test-CsPstnPeerToPeerCall 가상 트랜잭션을 사용 하기 위해 Enterprise Voice를 사용 하도록 설정 해야 합니다. 로 서버 인증 방법을 사용 하는 경우에는 이러한 계정이 있고 여기에서 지정한 대로 구성 되었는지 확인 해야 합니다. 테스트할 각 풀에 대해 테스트 사용자를 세 명 이상 할당 해야 합니다.
 
 협상 인증 방법을 사용 하는 경우에는 **get-cstestusercredential** Cmdlet 및 Lync Server 관리 셸을 사용 하 여 이러한 테스트 계정이 가상 트랜잭션과 함께 작동 하도록 해야 합니다. 다음과 같은 명령을 실행 하 여이 작업을 수행할 수 있습니다. 이러한 명령은 세 개의 Active Directory 사용자 계정이 이미 만들어졌고 해당 계정이 Lync Server 2013에 대해 사용 하도록 설정 되어 있다고 가정 합니다.
 
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2013-07-29_
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-SIP 주소 뿐만 아니라 사용자 이름과 암호를 포함 해야 합니다. 암호 집합을 포함 하지 않으면-Get-cstestusercredential에서 해당 정보를 입력 하 라는 메시지가 표시 됩니다. 사용자 이름은 위에 나와 있는 도메인 이름\\사용자 이름 형식을 사용 하거나 사용자 name@domain 이름 형식을 사용 하 여 지정할 수 있습니다. 예를 들어:
+SIP 주소 뿐만 아니라 사용자 이름과 암호를 포함 해야 합니다. 암호를 포함 하지 않으면 Set-CsTestUserCredential에 게 해당 정보를 입력 하 라는 메시지가 표시 됩니다. 사용자 이름은 위에 나와 있는 도메인 이름 \\ 사용자 이름 형식을 사용 하거나 사용자 name@domain 이름 형식을 사용 하 여 지정할 수 있습니다 (예:
 
     -UserName "watcher3@litwareinc.com"
 
@@ -117,7 +119,7 @@ Lync Server core 파일 및 RTCLocal 데이터베이스를 감시자 노드 컴�
 
     -ExtendedTests @{Add=$pstnTest1,$pstnTest2,$pstnTest3}
 
-테스트 매개 변수를 사용 하지 않고 Get-cswatchernodeconfiguration를 호출 하면 새 감시자 노드에 기본 가상 트랜잭션과 지정 된 확장 가상 트랜잭션만 사용할 수 있습니다. 즉, 감시자 노드는 다음과 같은 구성 요소를 테스트 합니다.
+테스트 매개 변수를 사용 하지 않고 New-CsWatcherNodeConfiguration를 호출 하면 새 감시자 노드에 기본 가상 트랜잭션과 지정 된 확장 가상 트랜잭션만 사용할 수 있습니다. 즉, 감시자 노드는 다음과 같은 구성 요소를 테스트 합니다.
 
   - 등록
 
@@ -165,7 +167,7 @@ Lync Server core 파일 및 RTCLocal 데이터베이스를 감시자 노드 컴�
 
     Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 
-테스트 이름을 쉼표로 구분 하 여 여러 테스트를 추가할 수 있습니다. 예:
+테스트 이름을 쉼표로 구분 하 여 여러 테스트를 추가할 수 있습니다. 예제:
 
     Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 
@@ -210,7 +212,7 @@ Replace 메서드를 사용 하 여 현재 사용 가능한 모든 테스트를 
 
 
 > [!TIP]
-> 사전순으로 가상 트랜잭션을 보려면 다음 명령을 대신 사용 합니다.<BR>Get-cswatchernodeconfiguration – Identity "atl-cs-001.litwareinc.com" | 선택-개체-ExpandProperty 테스트 | Sort 개체
+> 사전순으로 가상 트랜잭션을 보려면 다음 명령을 대신 사용 합니다.<BR>Get-CsWatcherNodeConfiguration-Id "atl-cs-001.litwareinc.com" | Select-Object-ExpandProperty 테스트 | Sort-Object
 
 
 

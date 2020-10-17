@@ -12,20 +12,22 @@ ms:contentKeyID: 51803945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74808a2deae4f7fa52e1a48fcbd415205eca93cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ff0a3dbc50b48994752e48ea8889508f2376068
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180085"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506175"
 ---
+# <a name="create-or-modify-a-conferencing-device-contact-object-in-lync-server-2013"></a>Lync Server 2013에서 회의 장치 연락처 개체 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-conferencing-device-contact-object-in-lync-server-2013"></a>Lync Server 2013에서 회의 장치 연락처 개체 만들기 또는 수정
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2013-10-02_
 
 
 > [!NOTE]  
-> 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+> 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 하세요.
 
 
 
@@ -58,7 +60,7 @@ _**마지막으로 수정 된 항목:** 2013-10-02_
 
 ## <a name="creating-a-conferencing-device"></a>회의 장치 만들기
 
-  - 새 회의 장치를 나타내는 Active Directory 사용자 계정을 만든 후에는 **enable-csmeetingroom** cmdlet을 사용 하 여 사용 하도록 설정 합니다. 회의 장치 id, b) 대화방 계정이 있는 등록자 풀 및 c) 해당 계정에 할당할 SIP 주소를 포함 해야 합니다. 예:
+  - 새 회의 장치를 나타내는 Active Directory 사용자 계정을 만든 후에는 **enable-csmeetingroom** cmdlet을 사용 하 여 사용 하도록 설정 합니다. 회의 장치 id, b) 대화방 계정이 있는 등록자 풀 및 c) 해당 계정에 할당할 SIP 주소를 포함 해야 합니다. 예제:
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
