@@ -1,5 +1,6 @@
 ---
 title: 하이브리드 배포를 사용 하 여 모바일 기능에 대 한 자동 검색 구성
+description: 하이브리드 배포를 사용 하 여 모바일 기능에 대 한 자동 검색 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3b0617094c9dcab6b6eee0cf634440fea63cf16
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5a66f0045ec1fce65b8e21b6a6f4494b96c93912
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502165"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562464"
 ---
 # <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>하이브리드 배포를 사용한 이동성을 Lync Server 2013에서 자동 검색 구성
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 토폴로지 디자인 마무리 및 구현'
+description: 'Lync Server 2013: 토폴로지 디자인 마무리 및 구현'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f38e4c8782ca6d7c1aa152618fa4e4de1536e626
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cfdb64cce7ea5be8a0cd90a10c95e2daedbc1b3c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500855"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564164"
 ---
 # <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a>Lync Server 2013에서 토폴로지 디자인 마무리 및 구현
 

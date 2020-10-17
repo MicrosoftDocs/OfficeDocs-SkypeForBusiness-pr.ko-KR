@@ -1,5 +1,6 @@
 ---
 title: '8 단계: 파일럿 배포에서 프로덕션으로 이동'
+description: '단계 8: 파일럿 배포에서 프로덕션 환경으로 이동 합니다.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13b5edff336b73b84183162bec3243a55f8aeb67
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 175906d916cf71e3d688a872b175da3f1cd5fcbf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532905"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563764"
 ---
 # <a name="phase-8-move-from-pilot-deployment-into-production"></a>8 단계: 파일럿 배포에서 프로덕션으로 이동
 
@@ -45,11 +46,11 @@ _**마지막으로 수정 된 항목:** 2012-10-15_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [페더레이션 경로 및 미디어 트래픽 구성](configure-federation-routes-and-media-traffic_1.md)
+  - [페더레이션 경로 및 미디어 트래픽 구성](configure-federation-routes-and-media-traffic.md)
 
-  - [Lync Server 2013로 나머지 사용자 이동](move-remaining-users-to-lync-server-2013_1.md)
+  - [Lync Server 2013로 나머지 사용자 이동](move-remaining-users-to-lync-server-2013.md)
 
-  - [Lync Server 2013에서 XMPP 게이트웨이 구성](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [Lync Server 2013에서 XMPP 게이트웨이 구성](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 

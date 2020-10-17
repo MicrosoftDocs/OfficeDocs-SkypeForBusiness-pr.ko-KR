@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DFS 파일 저장소 구성'
+description: 'Lync Server 2013: DFS 파일 저장소를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185037
 ms.date: 05/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f7d5dc3675f06aafed18ddd18e430e2c61dc670
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d70ae93db188ec51d04dd33d6c3cb5659db5a2c5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537225"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564384"
 ---
 # <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Lync Server 2013에 대해 DFS 파일 저장소 구성
 

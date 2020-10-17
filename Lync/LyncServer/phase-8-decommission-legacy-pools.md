@@ -1,5 +1,6 @@
 ---
 title: '8단계: 레거시 풀 해제'
+description: '단계 8: 레거시 풀을 해제 합니다.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c82bb7775c43c1bdbbf9ac9c3d788227f16cb76
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a6414fe97b54ed1b487ff722c6b02d4904443841
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532915"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563754"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>8단계: 레거시 풀 해제
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 성능에 대 한 모바일 기능 모니터링'
+description: 'Lync Server 2013: 성능을 위해 모바일 기능을 모니터링 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e217e28545eea15a61bf4b4470472cc9944e9b0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d6c366542e88406df043ba1a782ee12cd64bd804
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531825"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562904"
 ---
 # <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>Lync Server 2013의 성능에 대 한 모바일 기능 모니터링
 

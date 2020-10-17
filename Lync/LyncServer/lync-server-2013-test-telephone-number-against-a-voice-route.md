@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 음성 경로에 대 한 전화 번호 테스트'
+description: 'Lync Server 2013: 음성 경로에 대해 전화 번호를 테스트 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e2db63b7f8c4d801c7e2e89da93593a5745c9c6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 789f4a538a992a72abf61f4c1fbdb98370f2e643
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519125"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563394"
 ---
 # <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Lync Server 2013에서 음성 경로에 대 한 전화 번호 테스트
 

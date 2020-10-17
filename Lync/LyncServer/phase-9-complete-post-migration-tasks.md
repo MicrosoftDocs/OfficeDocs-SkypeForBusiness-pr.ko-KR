@@ -1,5 +1,6 @@
 ---
 title: '단계 9: 마이그레이션 후 작업 완료'
+description: '단계 9: 마이그레이션 후 작업을 완료 합니다.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33e4b97e0290ef14acda9201bb25897d7a517113
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1448f2ca399fdd31f914a55d2940f41624a9794e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532815"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563744"
 ---
 # <a name="phase-9-complete-post-migration-tasks"></a>단계 9: 마이그레이션 후 작업 완료
 
@@ -45,25 +46,25 @@ _**마지막으로 수정 된 항목:** 2012-10-15_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [응답 그룹 마이그레이션](migrate-response-groups_1.md)
+  - [응답 그룹 마이그레이션](migrate-response-groups.md)
 
-  - [전화 접속 액세스 번호 마이그레이션](migrate-dial-in-access-numbers_1.md)
+  - [전화 접속 액세스 번호 마이그레이션](migrate-dial-in-access-numbers.md)
 
   - [Exchange 2013 Outlook Web App 및 IM 통합 사용](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [주소록 마이그레이션](migrate-address-book_1.md)
+  - [주소록 마이그레이션](migrate-address-book.md)
 
   - [원격 통화 제어 사용](enable-remote-call-control.md)
 
-  - [레거시 보관 및 모니터링 서버 제거](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [레거시 보관 및 모니터링 서버 제거](remove-legacy-archiving-and-monitoring-servers.md)
 
   - [중재 서버 마이그레이션](migrate-mediation-server.md)
 
-  - [신뢰할 수 있는 응용 프로그램 서버 구성](configure-trusted-application-servers_1.md)
+  - [신뢰할 수 있는 응용 프로그램 서버 구성](configure-trusted-application-servers.md)
 
-  - [모임 참가 페이지 구성](configure-the-meeting-join-page_1.md)
+  - [모임 참가 페이지 구성](configure-the-meeting-join-page.md)
 
-  - [Lync Server 2013 클라이언트 배포](deploy-lync-server-2013-clients_1.md)
+  - [Lync Server 2013 클라이언트 배포](deploy-lync-server-2013-clients.md)
 
   - [Exchange 통합 메시징 대화 상대 개체 이동](move-exchange-unified-messaging-contact-objects.md)
 

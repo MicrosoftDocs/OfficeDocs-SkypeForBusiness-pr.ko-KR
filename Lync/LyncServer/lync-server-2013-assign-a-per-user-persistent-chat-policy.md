@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자별 영구 채팅 정책 할당'
+description: 'Lync Server 2013: 사용자별 영구 채팅 정책을 할당 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e06d6c7403bd348b44c6ab36216ed7ee9a1c6d02
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 637f1947fff7f4e919e5f9c252c047b2d0e60392
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134414"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563604"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>Lync Server 2013에서 사용자별 영구 채팅 정책 할당
 
@@ -69,10 +70,10 @@ Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 
     
 
     > [!NOTE]  
-    > <STRONG>정책 할당</STRONG> 대화 <STRONG> &lt;상자를&gt; 사용</STRONG> 하 여 구성할 수 있는 정책이 여러 개 있으므로 대화 상자의 모든 정책에 대해 다음 사용자가 기본적으로 선택 됩니다. 이 설정을 변경하지 않으면 이전에 사용자에게 지정된 정책이 계속 사용됩니다.
+    > <STRONG>정책 할당</STRONG> 대화 <STRONG>상자를 &lt; &gt; 사용</STRONG> 하 여 구성할 수 있는 정책이 여러 개 있으므로 대화 상자의 모든 정책에 대해 다음 사용자가 기본적으로 선택 됩니다. 이 설정을 변경하지 않으면 이전에 사용자에게 지정된 정책이 계속 사용됩니다.
 
     
-      - Lync Server 2013에서 전역 수준 정책을 자동으로 선택 하도록 허용 하려면 ** \<자동\> ** 을 선택 하 고 사이트 수준 정책을 정의 하는 경우
+      - **\<Automatic\>** Lync Server 2013이 전역 수준 정책을 자동으로 선택 하도록 허용 하려면 (정의 된 경우), 사이트 수준 정책
     
       - **영구 채팅 정책(Persistent Chat Policy)** 페이지에서 이전에 정의한 사용자별 영구 채팅 정책의 이름을 클릭합니다.
         
@@ -84,9 +85,9 @@ Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 
 
 8.  작업을 마치면 **확인**을 클릭합니다.
 
-## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 사용자별 영구 채팅 정책 할당
+## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 Per-User 영구 채팅 정책 할당
 
-**Grant-cspersistentchatpolicy** cmdlet을 사용 하 여 사용자별 영구 채팅 정책을 할당할 수도 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+**Grant-cspersistentchatpolicy** cmdlet을 사용 하 여 사용자별 영구 채팅 정책을 할당할 수도 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 하세요.
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-a-single-user"></a>단일 사용자에 게 사용자별 영구 채팅 정책을 할당 하려면
 

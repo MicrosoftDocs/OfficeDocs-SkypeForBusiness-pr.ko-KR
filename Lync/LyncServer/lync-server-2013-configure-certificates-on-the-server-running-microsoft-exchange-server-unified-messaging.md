@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Microsoft Exchange Server 통합 메시징을 실행 하는 서버에서 인증서 구성'
+description: 'Lync Server 2013: Microsoft Exchange Server 통합 메시징을 실행 하는 서버에서 인증서를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 790798835694fcd76a4501c4b94e6ca59f220524
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0a7d1e0aec3ec36723ee68c0a1dcd7f60050f9ea
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521045"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564404"
 ---
 # <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Microsoft Exchange Server 통합 메시징을 실행 하는 서버에서 인증서 구성
 

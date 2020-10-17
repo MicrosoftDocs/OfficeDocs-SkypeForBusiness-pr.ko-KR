@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 외부 사용자 액세스 구성 요소에 대 한 시스템 요구 사항'
+description: 'Lync Server 2013: 외부 사용자 액세스 구성 요소에 대 한 시스템 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adf4ab670d67ad5eb093cb12d05a771848d5916c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f1cd6f7f7ef65e1361b247586a890852786d312
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497355"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562674"
 ---
 # <a name="system-requirements-for-external-user-access-components-for-lync-server-2013"></a>Lync Server 2013의 외부 사용자 액세스 구성 요소에 대 한 시스템 요구 사항
 

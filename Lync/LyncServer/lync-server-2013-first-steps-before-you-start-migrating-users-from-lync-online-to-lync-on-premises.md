@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Online에서 Lync 온-프레미스로 사용자 마이그레이션하기 시작 하기 전에 첫 번째 단계'
+description: 'Lync Server 2013: Lync Online에서 Lync 온-프레미스로 사용자 마이그레이션을 시작 하기 전에 첫 번째 단계입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8065d1c09ab48b1b3a874fd11d7f8fcad298bfcb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 408820e461c0a9f7c0beaaaae3a502802048d3f5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500845"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564204"
 ---
 # <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Lync Server 2013의 lync Online에서 Lync 온-프레미스로 사용자 마이그레이션을 시작 하기 전에 첫 번째 단계
 

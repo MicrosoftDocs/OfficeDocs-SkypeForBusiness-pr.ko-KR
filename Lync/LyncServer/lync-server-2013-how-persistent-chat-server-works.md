@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 영구 채팅 서버 작동 방식'
+description: 'Lync Server 2013: 영구 채팅 서버의 작동 방식'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49684643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d919d7c9d955355a45ebf3c05391204ca919a3fa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c65df6a13305f75a8a25b85a39688fadf64e476c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528175"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562964"
 ---
 # <a name="how-persistent-chat-server-works-in-lync-server-2013"></a>Lync Server 2013에서 영구 채팅 서버가 작동 하는 방식
 
