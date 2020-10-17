@@ -12,20 +12,22 @@ ms:contentKeyID: 48185167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21ed9f0b5bd8e9aecfb39a7dd9c159857d4b240e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 29e8887f35e6d60d7d3aa59a0aa05590df371618
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182049"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509675"
 ---
+# <a name="setting-up-kerberos-authentication-account-passwords-in-lync-server-2013"></a><span data-ttu-id="6ebdd-102">Lync Server 2013에서 Kerberos 인증 계정 암호 설정</span><span class="sxs-lookup"><span data-stu-id="6ebdd-102">Setting up Kerberos authentication account passwords in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-account-passwords-in-lync-server-2013"></a><span data-ttu-id="0db85-102">Lync Server 2013에서 Kerberos 인증 계정 암호 설정</span><span class="sxs-lookup"><span data-stu-id="0db85-102">Setting up Kerberos authentication account passwords in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42182049"
 
 <span> </span>
 
-<span data-ttu-id="0db85-103">_**마지막으로 수정 된 항목:** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="0db85-103">_**Topic Last Modified:** 2010-11-03_</span></span>
+<span data-ttu-id="6ebdd-103">_**마지막으로 수정 된 항목:** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="6ebdd-103">_**Topic Last Modified:** 2010-11-03_</span></span>
 
-<span data-ttu-id="0db85-104">Kerberos 인증 계정에 대 한 컴퓨터 개체를 만든 후에는 해당 계정의 암호를 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0db85-104">After you create the computer object for the Kerberos authentication account, you can set up the password for the account.</span></span> <span data-ttu-id="0db85-105">Windows PowerShell cmdlet을 실행 하 여 한 서버에서 Kerberos 계정 암호를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="0db85-105">You run the Windows PowerShell cmdlet for setting the Kerberos account password on one server.</span></span> <span data-ttu-id="0db85-106">Kerberos 인증을 위해 만든 개체에 대해 암호를 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0db85-106">You can set the password on the object that you created for the Kerberos authentication.</span></span> <span data-ttu-id="0db85-107">암호는 알려진 값으로 설정할 수 있지만 기본적으로 임의의 암호입니다.</span><span class="sxs-lookup"><span data-stu-id="0db85-107">The password can be set to a known value, but by default is a random password.</span></span> <span data-ttu-id="0db85-108">암호는 해당 계정을 사용 하는 모든 Kerberos 인증 원본에 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0db85-108">The password is available to all Kerberos authentication sources that use the account.</span></span> <span data-ttu-id="0db85-109">Windows PowerShell cmdlet을 사용 하 여 Kerberos 계정 암호를 설정 하 고 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="0db85-109">You use Windows PowerShell cmdlets to set up and manage Kerberos account passwords.</span></span>
+<span data-ttu-id="6ebdd-104">Kerberos 인증 계정에 대 한 컴퓨터 개체를 만든 후에는 해당 계정의 암호를 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ebdd-104">After you create the computer object for the Kerberos authentication account, you can set up the password for the account.</span></span> <span data-ttu-id="6ebdd-105">Windows PowerShell cmdlet을 실행 하 여 한 서버에서 Kerberos 계정 암호를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ebdd-105">You run the Windows PowerShell cmdlet for setting the Kerberos account password on one server.</span></span> <span data-ttu-id="6ebdd-106">Kerberos 인증을 위해 만든 개체에 대해 암호를 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ebdd-106">You can set the password on the object that you created for the Kerberos authentication.</span></span> <span data-ttu-id="6ebdd-107">암호는 알려진 값으로 설정할 수 있지만 기본적으로 임의의 암호입니다.</span><span class="sxs-lookup"><span data-stu-id="6ebdd-107">The password can be set to a known value, but by default is a random password.</span></span> <span data-ttu-id="6ebdd-108">암호는 해당 계정을 사용 하는 모든 Kerberos 인증 원본에 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ebdd-108">The password is available to all Kerberos authentication sources that use the account.</span></span> <span data-ttu-id="6ebdd-109">Windows PowerShell cmdlet을 사용 하 여 Kerberos 계정 암호를 설정 하 고 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ebdd-109">You use Windows PowerShell cmdlets to set up and manage Kerberos account passwords.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="0db85-110">Kerberos account 개체는 computer 개체 이지만 참조 되는 Windows PowerShell cmdlet의 작업에는 Useraccount 지만 매개 변수를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="0db85-110">The Kerberos account object is a computer object, but uses the UserAccount parameter for operations in the Windows PowerShell cmdlets that are referenced.</span></span> <span data-ttu-id="0db85-111">이는 실수는 아니지만 Kerberos 계정 만들기 및 유지 관리와 함께 사용할 때 cmdlet이 의도 한 동작을 나타내는 것을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0db85-111">Note that this is not a mistake, but the intended behavior of the cmdlet when used with the Kerberos account creation and maintenance.</span></span>
+> <span data-ttu-id="6ebdd-110">Kerberos account 개체는 computer 개체 이지만 참조 되는 Windows PowerShell cmdlet의 작업에는 Useraccount 지만 매개 변수를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ebdd-110">The Kerberos account object is a computer object, but uses the UserAccount parameter for operations in the Windows PowerShell cmdlets that are referenced.</span></span> <span data-ttu-id="6ebdd-111">이는 실수는 아니지만 Kerberos 계정 만들기 및 유지 관리와 함께 사용할 때 cmdlet이 의도 한 동작을 나타내는 것을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ebdd-111">Note that this is not a mistake, but the intended behavior of the cmdlet when used with the Kerberos account creation and maintenance.</span></span>
 
 
 
@@ -51,11 +53,11 @@ ms.locfileid: "42182049"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0db85-112">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="0db85-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6ebdd-112">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="6ebdd-112">In This Section</span></span>
 
-  - [<span data-ttu-id="0db85-113">Lync Server 2013에서 서버에 대해 Kerberos 인증 계정 암호 설정</span><span class="sxs-lookup"><span data-stu-id="0db85-113">Set a Kerberos authentication account password on a server in Lync Server 2013</span></span>](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
+  - [<span data-ttu-id="6ebdd-113">Lync Server 2013에서 서버에 대해 Kerberos 인증 계정 암호 설정</span><span class="sxs-lookup"><span data-stu-id="6ebdd-113">Set a Kerberos authentication account password on a server in Lync Server 2013</span></span>](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
 
-  - [<span data-ttu-id="0db85-114">Lync Server 2013에서 IIS에 Kerberos 인증 계정 암호 동기화</span><span class="sxs-lookup"><span data-stu-id="0db85-114">Synchronize a Kerberos authentication account password to IIS in Lync Server 2013</span></span>](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
+  - [<span data-ttu-id="6ebdd-114">Lync Server 2013에서 IIS에 Kerberos 인증 계정 암호 동기화</span><span class="sxs-lookup"><span data-stu-id="6ebdd-114">Synchronize a Kerberos authentication account password to IIS in Lync Server 2013</span></span>](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
 
 </div>
 

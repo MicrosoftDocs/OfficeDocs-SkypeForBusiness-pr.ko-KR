@@ -12,20 +12,22 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d51a43d65624aad696f052254bc89aeae001493e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ce9a6f9b24256bdc577e02ceb41bd3f67601e74e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197651"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508915"
 ---
+# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="e0d27-102">Lync Server 2013에서 E9-1-1에 대 한 사이트 정보 구성</span><span class="sxs-lookup"><span data-stu-id="e0d27-102">Configure site information for E9-1-1 in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="4c5d2-102">Lync Server 2013에서 E9-1-1에 대 한 사이트 정보 구성</span><span class="sxs-lookup"><span data-stu-id="4c5d2-102">Configure site information for E9-1-1 in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42197651"
 
 <span> </span>
 
-<span data-ttu-id="4c5d2-103">_**마지막으로 수정 된 항목:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="4c5d2-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="e0d27-103">_**마지막으로 수정 된 항목:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="e0d27-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="4c5d2-104">서브넷용 위치 정책을 정의하려면 다음을 수행해야 합니다(순서는 관계없음).</span><span class="sxs-lookup"><span data-stu-id="4c5d2-104">To define a location policy for subnets, you must do the following, in any order:</span></span>
+<span data-ttu-id="e0d27-104">서브넷용 위치 정책을 정의하려면 다음을 수행해야 합니다(순서는 관계없음).</span><span class="sxs-lookup"><span data-stu-id="e0d27-104">To define a location policy for subnets, you must do the following, in any order:</span></span>
 
-  - <span data-ttu-id="4c5d2-105">네트워크 사이트에 위치 정책을 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="4c5d2-105">Apply a location policy to the network site.</span></span>
+  - <span data-ttu-id="e0d27-105">네트워크 사이트에 위치 정책을 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="e0d27-105">Apply a location policy to the network site.</span></span>
 
-  - <span data-ttu-id="4c5d2-106">네트워크 사이트에 서브넷을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="4c5d2-106">Add the subnets to the network site.</span></span>
+  - <span data-ttu-id="e0d27-106">네트워크 사이트에 서브넷을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="e0d27-106">Add the subnets to the network site.</span></span>
 
-<span data-ttu-id="4c5d2-107">네트워크 사이트에 대 한 자세한 내용은 lync server [sites For Lync server 2013](lync-server-2013-sites.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4c5d2-107">For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).</span></span>
+<span data-ttu-id="e0d27-107">네트워크 사이트에 대 한 자세한 내용은 lync server [sites For Lync server 2013](lync-server-2013-sites.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="e0d27-107">For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="4c5d2-108">다른 음성 기능용으로 네트워크 사이트를 만드는 경우 동일한 사이트를 사용해 E9-1-1을 구성하려면 E9-1-1에 사용되도록 사이트를 수정하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4c5d2-108">If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.</span></span>
+> <span data-ttu-id="e0d27-108">다른 음성 기능용으로 네트워크 사이트를 만드는 경우 동일한 사이트를 사용해 E9-1-1을 구성하려면 E9-1-1에 사용되도록 사이트를 수정하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e0d27-108">If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.</span></span>
 
 
 
@@ -57,11 +59,11 @@ ms.locfileid: "42197651"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4c5d2-109">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="4c5d2-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e0d27-109">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="e0d27-109">In This Section</span></span>
 
-  - [<span data-ttu-id="4c5d2-110">Lync Server 2013에서 네트워크 사이트에 위치 정책 추가</span><span class="sxs-lookup"><span data-stu-id="4c5d2-110">Add a location policy to a network site in Lync Server 2013</span></span>](lync-server-2013-add-a-location-policy-to-a-network-site.md)
+  - [<span data-ttu-id="e0d27-110">Lync Server 2013에서 네트워크 사이트에 위치 정책 추가</span><span class="sxs-lookup"><span data-stu-id="e0d27-110">Add a location policy to a network site in Lync Server 2013</span></span>](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [<span data-ttu-id="4c5d2-111">Lync Server 2013에서 서브넷을 네트워크 사이트에 연결</span><span class="sxs-lookup"><span data-stu-id="4c5d2-111">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [<span data-ttu-id="e0d27-111">Lync Server 2013에서 서브넷을 네트워크 사이트에 연결</span><span class="sxs-lookup"><span data-stu-id="e0d27-111">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 

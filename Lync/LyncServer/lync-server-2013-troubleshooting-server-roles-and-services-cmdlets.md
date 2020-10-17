@@ -12,20 +12,22 @@ ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 844b53a4671ef3544520309e501622863f850c89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5909fb8cdd2326d7c86bac5524a1ee02b5393b5c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193361"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508745"
 ---
+# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a><span data-ttu-id="47ef0-102">Lync Server 2013의 서버 역할 및 서비스 cmdlet 문제 해결</span><span class="sxs-lookup"><span data-stu-id="47ef0-102">Troubleshooting server roles and services cmdlets in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a><span data-ttu-id="61c75-102">Lync Server 2013의 서버 역할 및 서비스 cmdlet 문제 해결</span><span class="sxs-lookup"><span data-stu-id="61c75-102">Troubleshooting server roles and services cmdlets in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42193361"
 
 <span> </span>
 
-<span data-ttu-id="61c75-103">_**마지막으로 수정 된 항목:** 2012-08-27_</span><span class="sxs-lookup"><span data-stu-id="61c75-103">_**Topic Last Modified:** 2012-08-27_</span></span>
+<span data-ttu-id="47ef0-103">_**마지막으로 수정 된 항목:** 2012-08-27_</span><span class="sxs-lookup"><span data-stu-id="47ef0-103">_**Topic Last Modified:** 2012-08-27_</span></span>
 
-<span data-ttu-id="61c75-104">문제 해결 cmdlet은 Microsoft Lync Server 2013이 예상 대로 작동 하는지 확인 하는 다양 한 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="61c75-104">The troubleshooting cmdlets provide different ways to verify that Microsoft Lync Server 2013 is working as expected.</span></span> <span data-ttu-id="61c75-105">예를 들어 CsHealthMonitoringConfiguration cmdlet를 사용하면 등록자 및 디렉터 풀에 대해 테스트 계정을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61c75-105">For example, the CsHealthMonitoringConfiguration cmdlets enable you to set up test accounts for Registrar and Director pools.</span></span> <span data-ttu-id="61c75-106">그런 후에 이러한 테스트 계정을 통해 사용자가 시스템 로그온, 인스턴트 메시지 교환, 공중 전화망(PSTN)의 전화에 전화 걸기 등의 일반 작업을 제대로 완료할 수 있는지를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61c75-106">In turn, you can then use those test accounts to verify that users are able to successfully complete common tasks such as logging on to the system, exchanging instant messages, or making calls to a phone located on the public switched telephone network (PSTN).</span></span>
+<span data-ttu-id="47ef0-104">문제 해결 cmdlet은 Microsoft Lync Server 2013이 예상 대로 작동 하는지 확인 하는 다양 한 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="47ef0-104">The troubleshooting cmdlets provide different ways to verify that Microsoft Lync Server 2013 is working as expected.</span></span> <span data-ttu-id="47ef0-105">예를 들어 CsHealthMonitoringConfiguration cmdlet를 사용하면 등록자 및 디렉터 풀에 대해 테스트 계정을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="47ef0-105">For example, the CsHealthMonitoringConfiguration cmdlets enable you to set up test accounts for Registrar and Director pools.</span></span> <span data-ttu-id="47ef0-106">그런 후에 이러한 테스트 계정을 통해 사용자가 시스템 로그온, 인스턴트 메시지 교환, 공중 전화망(PSTN)의 전화에 전화 걸기 등의 일반 작업을 제대로 완료할 수 있는지를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="47ef0-106">In turn, you can then use those test accounts to verify that users are able to successfully complete common tasks such as logging on to the system, exchanging instant messages, or making calls to a phone located on the public switched telephone network (PSTN).</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="61c75-107">Cmdlet에 대 한 자세한 내용은 Lync Server&nbsp;Windows PowerShell 블로그를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A>하세요.</span><span class="sxs-lookup"><span data-stu-id="61c75-107">For additional information about cmdlets, see the Lync Server&nbsp;Windows PowerShell Blog at <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A>.</span></span> <span data-ttu-id="61c75-108">각 블로그의 콘텐츠와 해당 URL은 사전 통지 없이 변경될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61c75-108">The content of each blog and its URL are subject to change without notice.</span></span>
+> <span data-ttu-id="47ef0-107">Cmdlet에 대 한 자세한 내용은 Lync Server &nbsp; Windows PowerShell 블로그를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A> 하세요.</span><span class="sxs-lookup"><span data-stu-id="47ef0-107">For additional information about cmdlets, see the Lync Server&nbsp;Windows PowerShell Blog at <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A>.</span></span> <span data-ttu-id="47ef0-108">각 블로그의 콘텐츠와 해당 URL은 사전 통지 없이 변경될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="47ef0-108">The content of each blog and its URL are subject to change without notice.</span></span>
 
 
 
@@ -51,64 +53,64 @@ ms.locfileid: "42193361"
 
 <div>
 
-## <a name="server-roles-and-services-cmdlets"></a><span data-ttu-id="61c75-109">서버 역할 및 서비스 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="61c75-109">Server Roles and Services Cmdlets</span></span>
+## <a name="server-roles-and-services-cmdlets"></a><span data-ttu-id="47ef0-109">서버 역할 및 서비스 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="47ef0-109">Server Roles and Services Cmdlets</span></span>
 
-<span data-ttu-id="61c75-110">다음은 서버 역할 및 서비스 문제 해결과 직접적으로 관련된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="61c75-110">The following is a list of cmdlets that relate directly to troubleshooting server roles and services:</span></span>
+<span data-ttu-id="47ef0-110">다음은 서버 역할 및 서비스 문제 해결과 직접적으로 관련된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="47ef0-110">The following is a list of cmdlets that relate directly to troubleshooting server roles and services:</span></span>
 
-<span data-ttu-id="61c75-111">**서버 역할 및 서비스 문제 해결**</span><span class="sxs-lookup"><span data-stu-id="61c75-111">**Troubleshooting Server Roles and Services**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="61c75-112">[Get-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg412984(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-112">[Get-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg412984(v=OCS.15))</span></span>
+<span data-ttu-id="47ef0-111">**서버 역할 및 서비스 문제 해결**</span><span class="sxs-lookup"><span data-stu-id="47ef0-111">**Troubleshooting Server Roles and Services**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="61c75-113">[설정-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg398907(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-113">[Set-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg398907(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-112">[Get-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg412984(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-112">[Get-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg412984(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="47ef0-113">[설정-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg398907(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-113">[Set-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg398907(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="61c75-114">[Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg398667(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-114">[Get-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg398667(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-114">[Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg398667(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-114">[Get-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg398667(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="61c75-115">[Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg398718(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-115">[New-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg398718(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-115">[Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg398718(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-115">[New-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg398718(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="61c75-116">[Get-cshealthmonitoringconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg425794(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-116">[Remove-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg425794(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-116">[Get-cshealthmonitoringconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg425794(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-116">[Remove-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg425794(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="61c75-117">[Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg425847(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-117">[Set-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg425847(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-117">[Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg425847(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-117">[Set-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg425847(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="61c75-118">[Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg413034(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-118">[Get-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg413034(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-118">[Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg413034(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-118">[Get-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg413034(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="61c75-119">[Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg398733(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-119">[New-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg398733(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-119">[Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg398733(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-119">[New-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg398733(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="61c75-120">[Get-csdiagnosticconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg412853(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-120">[Remove-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg412853(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-120">[Get-csdiagnosticconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg412853(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-120">[Remove-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg412853(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="61c75-121">[Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg425734(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-121">[Set-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg425734(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-121">[Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg425734(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-121">[Set-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg425734(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="61c75-122">[New-csdiagnosticsfilter](https://technet.microsoft.com/library/Gg413009(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-122">[New-CsDiagnosticsFilter](https://technet.microsoft.com/library/Gg413009(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-122">[New-csdiagnosticsfilter](https://technet.microsoft.com/library/Gg413009(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-122">[New-CsDiagnosticsFilter](https://technet.microsoft.com/library/Gg413009(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="61c75-123">[Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg412774(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-123">[Get-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg412774(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-123">[Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg412774(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-123">[Get-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg412774(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="61c75-124">[Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg398350(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-124">[New-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg398350(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-124">[Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg398350(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-124">[New-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg398350(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="61c75-125">[Get-csdiagnosticheaderconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398941(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-125">[Remove-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg398941(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-125">[Get-csdiagnosticheaderconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398941(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-125">[Remove-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg398941(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="61c75-126">[Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg399045(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="61c75-126">[Set-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg399045(v=OCS.15))</span></span>
+    <span data-ttu-id="47ef0-126">[Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg399045(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="47ef0-126">[Set-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg399045(v=OCS.15))</span></span>
 
 </div>
 
