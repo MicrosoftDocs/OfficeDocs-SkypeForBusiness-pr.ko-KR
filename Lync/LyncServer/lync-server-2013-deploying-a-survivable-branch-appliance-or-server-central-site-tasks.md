@@ -12,20 +12,22 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ced7b5262880b23540bf3465f787f6512781f2e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ebb3dd9fbeeaed69951ac11ee780bbe8d371a86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213974"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531365"
 ---
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a><span data-ttu-id="c8c2a-102">Lync Server 2013을 사용 하 여 Sba (survivable 분기 어플라이언스 또는 서버 배포-중앙 사이트 작업</span><span class="sxs-lookup"><span data-stu-id="c8c2a-102">Deploying a Survivable Branch Appliance or Server with Lync Server 2013 - central site tasks</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a><span data-ttu-id="2bab9-102">Lync Server 2013을 사용 하 여 Sba (survivable 분기 어플라이언스 또는 서버 배포-중앙 사이트 작업</span><span class="sxs-lookup"><span data-stu-id="2bab9-102">Deploying a Survivable Branch Appliance or Server with Lync Server 2013 - central site tasks</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42213974"
 
 <span> </span>
 
-<span data-ttu-id="2bab9-103">_**마지막으로 수정 된 항목:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="2bab9-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="c8c2a-103">_**마지막으로 수정 된 항목:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="c8c2a-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="2bab9-104">중앙 사이트에서이 섹션의 작업을 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bab9-104">Complete the tasks in this section at the central site.</span></span> <span data-ttu-id="2bab9-105">Sba (survivable 분기 서버를 배포 하는 경우 첫 번째 작업을 건너뜁니다.</span><span class="sxs-lookup"><span data-stu-id="2bab9-105">If you’re deploying a Survivable Branch Server, skip the first task.</span></span>
+<span data-ttu-id="c8c2a-104">중앙 사이트에서이 섹션의 작업을 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c2a-104">Complete the tasks in this section at the central site.</span></span> <span data-ttu-id="c8c2a-105">Sba (survivable 분기 서버를 배포 하는 경우 첫 번째 작업을 건너뜁니다.</span><span class="sxs-lookup"><span data-stu-id="c8c2a-105">If you’re deploying a Survivable Branch Server, skip the first task.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="2bab9-106">이 섹션의 작업을 수행 하기 전에 다음 조건을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bab9-106">Before you perform the tasks in this section, the following conditions must be in place:</span></span> 
+> <span data-ttu-id="c8c2a-106">이 섹션의 작업을 수행 하기 전에 다음 조건을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c2a-106">Before you perform the tasks in this section, the following conditions must be in place:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="2bab9-107">Lync Server는 중앙 사이트에서 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bab9-107">Lync Server must be set up at the central site.</span></span></P>
+> <P><span data-ttu-id="c8c2a-107">Lync Server는 중앙 사이트에서 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c2a-107">Lync Server must be set up at the central site.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="2bab9-108">분기 사이트의 설치 기술자를 RTCUniversalSBATechnicians 그룹에 추가 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bab9-108">An installation technician at the branch site must be added to the RTCUniversalSBATechnicians group.</span></span></P></LI></UL><span data-ttu-id="2bab9-109">또한 다음을 수행 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="2bab9-109">In addition, we recommend that you do the following:</span></span>
+> <P><span data-ttu-id="c8c2a-108">분기 사이트의 설치 기술자를 RTCUniversalSBATechnicians 그룹에 추가 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c2a-108">An installation technician at the branch site must be added to the RTCUniversalSBATechnicians group.</span></span></P></LI></UL><span data-ttu-id="c8c2a-109">또한 다음을 수행 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c8c2a-109">In addition, we recommend that you do the following:</span></span>
 > <UL>
 > <LI>
-> <P><span data-ttu-id="2bab9-110">각 분기 사이트에서 DHCP 서버를 배포 하 여 클라이언트가 IP 주소를 가져올 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bab9-110">Deploy a DHCP server at each branch site to enable clients to obtain IP addresses.</span></span></P>
+> <P><span data-ttu-id="c8c2a-110">각 분기 사이트에서 DHCP 서버를 배포 하 여 클라이언트가 IP 주소를 가져올 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c2a-110">Deploy a DHCP server at each branch site to enable clients to obtain IP addresses.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="2bab9-111">각 분기 사이트에서 DHCP 서버를 배포 하는 대신, Lync Server 관리 셸 cmdlet <STRONG>get-csregistrarconfiguration-EnableDHCPServer $true</STRONG>를 사용 하 여 Sba (survivable 분기 어플라이언스 또는 Sba (survivable 분기 서버에서 LYNC server DHCP를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bab9-111">As an alternative to deploying a DHCP server at each branch site, enable Lync Server DHCP on the Survivable Branch Appliance or Survivable Branch Server by using the Lync Server Management Shell cmdlet <STRONG>Set-CsRegistrarConfiguration –EnableDHCPServer $true</STRONG>.</span></span> <span data-ttu-id="2bab9-112">자세한 내용은 계획 설명서에서 <A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013에 대 한 분기 사이트 복구 요구 사항의</A> "하드웨어 및 소프트웨어 요구 사항" 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2bab9-112">For details, see the “Hardware and Software Requirements” section of <A href="lync-server-2013-branch-site-resiliency-requirements.md">Branch-site resiliency requirements for Lync Server 2013</A> in the Planning documentation.</span></span></P></LI></UL>
+> <P><span data-ttu-id="c8c2a-111">각 분기 사이트에서 DHCP 서버를 배포 하는 대신, Lync Server 관리 셸 cmdlet <STRONG>get-csregistrarconfiguration-EnableDHCPServer $true</STRONG>를 사용 하 여 Sba (survivable 분기 어플라이언스 또는 Sba (survivable 분기 서버에서 LYNC server DHCP를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c2a-111">As an alternative to deploying a DHCP server at each branch site, enable Lync Server DHCP on the Survivable Branch Appliance or Survivable Branch Server by using the Lync Server Management Shell cmdlet <STRONG>Set-CsRegistrarConfiguration –EnableDHCPServer $true</STRONG>.</span></span> <span data-ttu-id="c8c2a-112">자세한 내용은 계획 설명서에서 <A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013에 대 한 분기 사이트 복구 요구 사항의</A> "하드웨어 및 소프트웨어 요구 사항" 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c8c2a-112">For details, see the “Hardware and Software Requirements” section of <A href="lync-server-2013-branch-site-resiliency-requirements.md">Branch-site resiliency requirements for Lync Server 2013</A> in the Planning documentation.</span></span></P></LI></UL>
 
 
 
@@ -61,13 +63,13 @@ ms.locfileid: "42213974"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2bab9-113">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="2bab9-113">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c8c2a-113">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="c8c2a-113">In This Section</span></span>
 
-  - [<span data-ttu-id="2bab9-114">Lync Server 2013에서 Active Directory에 Sba (survivable Branch 기기 추가</span><span class="sxs-lookup"><span data-stu-id="2bab9-114">Add a Survivable Branch Appliance to Active Directory in Lync Server 2013</span></span>](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
+  - [<span data-ttu-id="c8c2a-114">Lync Server 2013에서 Active Directory에 Sba (survivable Branch 기기 추가</span><span class="sxs-lookup"><span data-stu-id="c8c2a-114">Add a Survivable Branch Appliance to Active Directory in Lync Server 2013</span></span>](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
 
-  - [<span data-ttu-id="2bab9-115">Lync Server 2013에서 토폴로지에 분기 사이트 추가</span><span class="sxs-lookup"><span data-stu-id="2bab9-115">Add branch sites to your topology in Lync Server 2013</span></span>](lync-server-2013-add-branch-sites-to-your-topology.md)
+  - [<span data-ttu-id="c8c2a-115">Lync Server 2013에서 토폴로지에 분기 사이트 추가</span><span class="sxs-lookup"><span data-stu-id="c8c2a-115">Add branch sites to your topology in Lync Server 2013</span></span>](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [<span data-ttu-id="2bab9-116">Lync Server 2013에서 Sba (survivable Branch 기기 또는 서버 정의</span><span class="sxs-lookup"><span data-stu-id="2bab9-116">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+  - [<span data-ttu-id="c8c2a-116">Lync Server 2013에서 Sba (survivable Branch 기기 또는 서버 정의</span><span class="sxs-lookup"><span data-stu-id="c8c2a-116">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
 </div>
 
