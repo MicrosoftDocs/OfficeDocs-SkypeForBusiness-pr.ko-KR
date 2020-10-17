@@ -12,20 +12,22 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6e11f85cb929cdd3dbddcab23caaffcf434f303
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 997097da30db000df82cba020b043748a1a5f62d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213544"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522635"
 ---
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Lync Server 2013의 통화 대기 배포 프로세스
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Lync Server 2013의 통화 대기 배포 프로세스
+
 
 </div>
 
@@ -74,7 +76,7 @@ _**마지막으로 수정 된 항목:** 2013-02-25_
 <td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Lync Server 2013에서 통화 대기 번호 범위 만들기 또는 수정</a></p></td>
 </tr>
 <tr class="even">
-<td><p>통화 대기 설정 구성</p></td>
+<td><p>통화 파킹 설정 구성</p></td>
 <td><p><strong>New-cscpsconfiguration</strong> cmdlet을 사용 하 여 통화 대기 설정을 구성 합니다. 최소 대기 통화 시간이 초과 될 때 사용할 대체 대상을 구성 하려면 <strong>Ontimeouturi</strong> 옵션을 구성 하는 것이 좋습니다. 또한 다음 설정을 구성할 수 있습니다.</p>
 <ul>
 <li><p>(선택 사항) <strong>EnableMusicOnHold</strong> - 대기 음악을 사용하거나 사용하지 않도록 설정합니다.</p></li>
@@ -120,7 +122,7 @@ _**마지막으로 수정 된 항목:** 2013-02-25_
 <td><p><a href="lync-server-2013-enable-call-park-for-users.md">Lync Server 2013의 사용자에 대해 통화 대기를 사용 하도록 설정</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>통화 대기에 대 한 정규화 규칙 확인</p></td>
+<td><p>통화 파킹에 대한 정규화 규칙 확인</p></td>
 <td><p>통화 대기 파킹된 통화 번호는 정규화해서는 안 됩니다. 정규화 규칙에 파킹된 통화 번호 범위가 포함되어 있지 않은지 확인하고, 필요한 경우에는 파킹된 통화 번호가 정규화되지 않도록 추가 정규화 규칙을 만드십시오.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>

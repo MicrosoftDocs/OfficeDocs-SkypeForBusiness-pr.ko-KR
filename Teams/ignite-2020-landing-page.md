@@ -4,13 +4,16 @@ description: 사용할 수 있는 모든 비즈니스 센터 학습을 찾습니
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
+ms.service: msteams
 ms.author: v-cichur
-ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
-ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
+audience: admin
+manager: serdars
+ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357606"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514945"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020의 팀 세션
 
@@ -85,7 +88,7 @@ ms.locfileid: "48357606"
 |[낮은 코드 기능으로 Microsoft 팀에 맞게 사용자 지정 앱, 인공 지능 및 자동화 작성](https://aka.ms/PR134)|팀에 대 한 사용자 지정 솔루션 작성을 시작 하는 방법에 대해 알아보세요.  팀이 없는 경우에도 사용자 지정 디지털 도구를 만드는 방법에 대해 자세히 설명 하는 개발자 + 파워 플랫폼 통합에 대해 알아봅니다.|300|Pete Daderko, Geneve Estrada|
 |[팀 및 적응형 카드를 사용 하 여 사용자 환경 승격](https://aka.ms/PR135)|팀에서 적응 카드가 있는 팀 플랫폼을 사용 하 여 깔끔하게 통합 및 실행 가능한 사용자 환경을 구축할 수 있습니다. 이 세션에서는 개발자가 새 기능을 활용 하 여 팀의 공동 작업을 향상 시키는 상황별 및 준수 환경을 빌드하는 방법에 대해 설명 합니다.|300|Suryamanohar Mallela, Shubham Chauhan|
 |[팁과 요령: Microsoft 팀 앱을 구축할 때의 모범 사례 및 일반적인 문제](https://aka.ms/PR136) |개발자가 팀 앱을 빌드하는 동안 실행 되는 몇 가지 일반적인 문제를 다루는 세션에 참가 합니다. 개발자는 팀 앱 개발 여행을 계속할 때 사용할 수 있는 팁과 정보를 포함 하 여이 세션을 종료 합니다.|400|입력 a; B보조 Ie의 Erin|
-|[권한 부여 및 인증 기능과 Microsoft Graph를 사용 하 여 원활한 채택을 가능 하 게 하는 마찰 없는 앱 빌드 &](https://aka.ms/PR137)|SSO (Single Sign-on), RSC (리소스 관련 승인), 세부적인 사용 권한, IT 관리자가 앱 수명 주기/관리를 자동화 하는 그래프 Api를 활용 하는 방법을 배울 수 있는 강력한 기능을 사용 하 여 앱을 개발 합니다.|400|닉 Kin Er|
+|[권한 부여 및 인증 기능과 Microsoft Graph를 사용 하 여 원활한 채택을 가능 하 게 하는 마찰 없는 앱 빌드 &](https://aka.ms/PR137)|SSO (Single Sign-On), RSC (Resource-Specific 동의), 세밀 한 사용 권한, IT 관리자가 Graph Api를 활용 하 여 앱 수명 주기/관리를 자동화 하는 방법을 배울 수 있는 강력한 기능을 갖춘 앱을 개발 합니다.|400|닉 Kin Er|
 ||||||
 
 ### <a name="industry"></a>업종

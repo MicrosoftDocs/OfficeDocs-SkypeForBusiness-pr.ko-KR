@@ -12,20 +12,22 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a8bc7072cb1faa197f733d01eb545a964ed6612
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 52920c81e2055b5151280bbd65e9b2b6a90c0b73
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205804"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522805"
 ---
+# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013의 E9-1-1에 대 한 배포 검사 목록
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013의 E9-1-1에 대 한 배포 검사 목록
+
 
 </div>
 
@@ -104,7 +106,7 @@ E9-1-1을 배포 하기 전에 먼저 Lync Server 내부 서버 (중앙 관리 �
 <td><p>위치 데이터베이스 구성</p></td>
 <td><ol>
 <li><p>데이터베이스를 위치에 대한 네트워크 요소 매핑으로 채웁니다.</p></li>
-<li><p>ELIN 게이트웨이의 경우에는 &lt;CompanyName&gt; 열에 elin를 추가 합니다.</p></li>
+<li><p>ELIN 게이트웨이의 경우에는 CompanyName 열에 Elin를 추가 &lt; &gt; 합니다.</p></li>
 <li><p>주소 유효성 검사를 위해 E9-1-1 서비스 공급자에 대 한 연결을 구성 합니다.</p></li>
 <li><p>E9-1-1 서비스 공급자를 사용 하 여 주소 유효성을 검사 합니다.</p></li>
 <li><p>업데이트된 데이터베이스를 게시합니다.</p></li>

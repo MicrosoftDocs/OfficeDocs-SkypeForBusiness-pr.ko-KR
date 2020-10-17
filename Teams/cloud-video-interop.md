@@ -12,19 +12,20 @@ f1.keywords:
 - NOCSH
 description: 클라우드 비디오 Interop를 중간 솔루션으로 사용 하 여 타사 회의실 장치가 Microsoft 팀 모임에 참가할 수 있도록 합니다.
 localization_priority: Normal
-ms.custom:
-- seo-marvel-apr2020
 ms.collection:
 - M365-voice
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f812d27b07dadb2f60bf77302e18eb0879f977e
-ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
+ms.openlocfilehash: c17768f5d8c67db81f7457122632a6b205827cb5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48433080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523425"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 팀을 위한 클라우드 비디오 Interop
 

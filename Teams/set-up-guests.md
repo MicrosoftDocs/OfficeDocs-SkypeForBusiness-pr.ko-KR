@@ -11,19 +11,22 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+ms.custom:
+- NewAdminCenter_Update
+- seo-marvel-apr2020
+- ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 localization_priority: Normal
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
 description: Office 365 관리자로 Microsoft 팀에서 게스트 액세스 기능을 설정 하거나 해제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: aa4530979054efc5a1aeb2c8fe0afa622b893f9d
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 54d7461e9e03cd22900e07aca7ad2d12712faab7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346329"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508065"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
 

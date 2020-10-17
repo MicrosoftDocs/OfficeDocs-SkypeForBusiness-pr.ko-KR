@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57b7cdcf2229f6fa0aa6b9710866545238bec98c
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 86c5b324e2e240f0d30123e8a3cd2c1767205c81
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323932"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504965"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치
 
@@ -33,18 +33,18 @@ Microsoft 끝점 구성 관리자 또는 그룹 정책 또는 광범위 한 배�
 
 MSI 파일에 대 한 링크는 다음과 같습니다.
 
-|엔터티만  |32 비트      |64 비트      |
-|---------|---------|---------|
-|상업성     | [32 비트](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 비트](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
-|미국 정부의 GCC     | [32 비트](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 비트](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
-|미국 정부-GCC 최고    | [32 비트](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 비트](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
-|연방 정부-DoD     | [32 비트](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 비트](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|엔터티만  |32 비트      |64 비트      | ARM64 |
+|---------|---------|---------|-----------|
+|상업성     | [32 비트](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 비트](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|미국 정부의 GCC     | [32 비트](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 비트](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|미국 정부-GCC 최고    | [32 비트](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 비트](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|연방 정부-DoD     | [32 비트](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 비트](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
 **성공적인 배포를 위해서는 다음에 유의 해야 합니다.**
 
 - 64 비트 버전의 팀을 64 비트 운영 체제에 설치 합니다. 32 비트 운영 체제에서 64 비트 버전의 팀을 설치 하려고 하면 설치에 실패 하 고 현재 오류 메시지가 표시 되지 않습니다.
 
-- 고객 테 넌 트가 GCCH 또는 DoD 클라우드에 있는 경우 고객은 레지스트리의 **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** 키에 **cloudtype** 값을 추가 하 여 레지스트리의 초기 끝점을 설정 해야 합니다. **Cloudtype** 에 대 한 형식은 **DWORD** 이 고 값은 (0 = 설정 되지 않음, 1 = 상업용, 2 = GCC, 3 = GCCH, 4 = DOD)입니다. 레지스트리 키를 사용 하 여 끝점을 설정 하면 팀에서 사전 로그인 연결을 위해 올바른 클라우드 끝점에 연결 하도록 제한 됩니다.
+- 고객 테 넌 트가 GCCH 또는 DoD 클라우드에 있는 경우 고객은 레지스트리의 **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** 키에 **cloudtype** 값을 추가 하 여 레지스트리의 초기 끝점을 설정 해야 합니다. **Cloudtype** 에 대 한 형식은 **DWORD** 이 고 값은 (0 = 설정 되지 않음, 1 = 상업용, 2 = GCC, 3 = GCCH, 4 = DOD)입니다. 레지스트리 키를 사용 하 여 끝점을 설정 하면 팀에서 사전 로그인 연결을 위해 올바른 클라우드 끝점에 연결 하도록 제한 됩니다.
 
 - 팀은 enterprise 용 Microsoft 365 앱 배포에도 포함 될 수 있습니다. 자세한 내용은 microsoft [365 앱을 사용 하 여 엔터프라이즈에 대 한 Microsoft 팀 배포](https://docs.microsoft.com/deployoffice/teams-install)를 참조 하세요.
 
@@ -124,7 +124,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 사용자가 Windows에 로그인 하면 팀이 MSI와 함께 설치 되 고 팀 시작에 대 한 바로 가기가 사용자의 데스크톱에 추가 됩니다. 팀은 사용자가 수동으로 팀을 시작할 때까지 시작 되지 않습니다. 사용자가 수동으로 팀을 시작 하면 사용자가 로그인 할 때마다 팀이 자동으로 시작 됩니다.
 
-이러한 예제에서는 **ALLUSERS = 1** 매개 변수도 사용 합니다. 이 매개 변수를 설정 하면 제어판의 프로그램 및 기능 및 컴퓨터의 모든 사용자에 대 한 Windows 설정의 앱 & 기능에 팀 컴퓨터 전체의 설치 관리자가 표시 됩니다. 모든 사용자는 컴퓨터에 관리자 자격 증명이 있는 경우 팀을 제거할 수 있습니다.
+이러한 예제에서는 **ALLUSERS = 1** 매개 변수도 사용 합니다. 이 매개 변수를 설정 하면 제어판의 프로그램 및 기능 및 컴퓨터의 모든 사용자에 대 한 Windows 설정의 앱 & 기능에 팀 Machine-Wide 설치 프로그램이 표시 됩니다. 모든 사용자는 컴퓨터에 관리자 자격 증명이 있는 경우 팀을 제거할 수 있습니다.
 
 > [!Note]
 > MSI를 수동으로 실행 하는 경우 관리자 권한으로 실행 해야 합니다. 관리자 권한으로 실행 하는 경우에도 권한 상승으로이를 실행 하지 않으면 설치 관리자가 자동 시작을 사용 하지 않도록 설정 하는 옵션을 구성할 수 없게 됩니다.

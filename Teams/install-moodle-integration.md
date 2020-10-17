@@ -15,15 +15,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdd680cda5daeb5acebac8b8276e1adb86fdb563
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 36b966748fe88b8fec803adc7f9f898e247cdec9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508335"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft 팀과 Moodle 통합 설치
 
@@ -164,7 +166,7 @@ Azure에 대 한 구축이 완료 되 면 해당 리소스를 Moodle 플러그 �
 4. 그룹의 리소스 목록에서 **Web app Bot** 리소스를 선택 합니다.
 5. **개요** 섹션에서 **메시징 끝점** 을 복사 합니다.
 6. Moodle에서 Moodle 플러그 인의 **팀 설정** 페이지를 엽니다.
-7. **Bot 끝점** 필드에 방금 복사한 URL을 붙여넣고 word *메시지* 를 *webhook*로 변경 합니다. 이제 URL이 다음과 같이 표시 됩니다.`https://botname.azurewebsites.net/api/webhook`
+7. **Bot 끝점** 필드에 방금 복사한 URL을 붙여넣고 word *메시지* 를 *webhook*로 변경 합니다. 이제 URL이 다음과 같이 표시 됩니다. `https://botname.azurewebsites.net/api/webhook`
 8. **변경 내용 저장** 클릭
 9. 변경 내용이 저장 되 면 **팀 설정** 탭으로 돌아가서 **매니페스트 파일 다운로드** 단추를 클릭 하 고 매니페스트 패키지를 컴퓨터에 저장 합니다 (다음 섹션에서 사용 됨).
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7216b6c3003ab30a31a9181e11d725c4827f0584
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8fce45563538b41773f76a8733b1c226454e6f76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205234"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523125"
 ---
+# <a name="configure-a-trunk-without-media-bypass-in-lync-server-2013"></a>Lync Server 2013에서 미디어 바이패스 없이 트렁크 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trunk-without-media-bypass-in-lync-server-2013"></a>Lync Server 2013에서 미디어 바이패스 없이 트렁크 구성
+
 
 </div>
 
@@ -139,7 +141,7 @@ _**마지막으로 수정 된 항목:** 2013-02-24_
     
 
     > [!IMPORTANT]  
-    > 구성 중인 트렁크에 연결 된 중재 서버 피어에 따라 PSTN 사용 레코드를 연결 하는 것이 중요 합니다. 중재 서버 피어가 PSTN 게이트웨이 또는 SBC (Session Border Controller) 인 경우 트렁크 구성이 pstn 대상 또는 Lync를 통해 연결 된 다른 다운스트림 시스템으로 경로 하는 PSTN 사용 레코드에 연결 되어 있지 않는 것이 좋습니다. 서버.
+    > 구성 중인 트렁크에 연결 된 중재 서버 피어에 따라 PSTN 사용 레코드를 연결 하는 것이 중요 합니다. 중재 서버 피어가 PSTN 게이트웨이 또는 SBC (Session Border Controller) 인 경우 트렁크 구성이 pstn 대상 또는 Lync Server를 통해 연결 된 다른 다운스트림 시스템으로 경로 하는 PSTN 사용 레코드에 연결 되어 있지 않는 것이 좋습니다.
 
     
     </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 위치 기반 라우팅 계획'
+title: 'Lync Server 2013: Location-Based 라우팅 계획'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef077c82a273a480977a21ca1e2e8b14043cae46
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 114f92d0963e8d61c4b0854862ff7ebd59a12b64
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201954"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522045"
 ---
+# <a name="planning-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013의 Location-Based 라우팅 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013의 위치 기반 라우팅 계획
+
 
 </div>
 
@@ -39,25 +41,25 @@ _**마지막으로 수정 된 항목:** 2013-07-31_
 
 이 항목의 정보는 Lync Server 2013:2 월 2013에 대 한 누적 업데이트와 관련 되어 있습니다.
 
-위치 기반 라우팅은 통화에서 파티 위치에 따라 VoIP 끝점과 PSTN 끝점 간의 통화 라우팅을 제한할 수 있도록 합니다. 위치 기반 라우팅은 Lync Server 2013 Enterprise 음성 인프라의 일부입니다. 위치 기반 라우팅은 Lync Server 2013 C U 1에서 통화가 라우팅되는 방식을 제어 하는 통화 관리 기능입니다. Lync 발신자의 지리적 위치를 기반으로 통화를 PBX 또는 PSTN 끝점으로 라우팅할 수 있는지 여부에 대 한 호출 권한 부여 규칙을 적용 합니다.
+Location-Based 라우팅을 사용 하면 통화에서 파티 위치에 따라 VoIP 끝점과 PSTN 끝점 간의 통화 라우팅을 제한할 수 있습니다. Location-Based 라우팅은 Lync Server 2013 Enterprise Voice infrastructure의 일부입니다. Location-Based 라우팅은 Lync Server 2013 C U 1에서 호출을 라우팅하는 방법을 제어 하는 통화 관리 기능입니다. Lync 발신자의 지리적 위치를 기반으로 통화를 PBX 또는 PSTN 끝점으로 라우팅할 수 있는지 여부에 대 한 호출 권한 부여 규칙을 적용 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 위치 기반 라우팅 개요](lync-server-2013-overview-of-location-based-routing.md)
+  - [Lync Server 2013의 Location-Based 라우팅 개요](lync-server-2013-overview-of-location-based-routing.md)
 
-  - [Lync Server 2013의 위치 기반 라우팅에 대 한 지침](lync-server-2013-guidance-for-location-based-routing.md)
+  - [Lync Server 2013의 Location-Based 라우팅에 대 한 지침](lync-server-2013-guidance-for-location-based-routing.md)
 
-  - [Lync Server 2013의 위치 기반 라우팅에 대 한 시나리오](lync-server-2013-scenarios-for-location-based-routing.md)
+  - [Lync Server 2013의 Location-Based 라우팅에 대 한 시나리오](lync-server-2013-scenarios-for-location-based-routing.md)
 
-  - [Lync Server 2013의 위치 기반 라우팅에 대 한 기술적 고려 사항](lync-server-2013-technical-considerations-for-location-based-routing.md)
+  - [Lync Server 2013의 Location-Based 라우팅에 대 한 기술적 고려 사항](lync-server-2013-technical-considerations-for-location-based-routing.md)
 
-  - [Lync Server 2013의 위치 기반 라우팅에 대 한 클라이언트 및 서버 지원](lync-server-2013-client-and-server-support-for-location-based-routing.md)
+  - [Lync Server 2013의 Location-Based 라우팅에 대 한 클라이언트 및 서버 지원](lync-server-2013-client-and-server-support-for-location-based-routing.md)
 
-  - [Lync Server 2013의 위치 기반 라우팅에서 지원 하지 않는 기능](lync-server-2013-capabilities-not-supported-by-location-based-routing.md)
+  - [Lync Server 2013의 Location-Based 라우팅에서 지원 하지 않는 기능](lync-server-2013-capabilities-not-supported-by-location-based-routing.md)
 
-  - [Lync Server 2013의 위치 기반 라우팅 배포 프로세스](lync-server-2013-deployment-process-for-location-based-routing.md)
+  - [Lync Server 2013의 Location-Based 라우팅 배포 프로세스](lync-server-2013-deployment-process-for-location-based-routing.md)
 
   - [Lync Server 2013의 회의에 대 한 위치 기반 라우팅](lync-server-2013-location-based-routing-for-conferencing.md)
 

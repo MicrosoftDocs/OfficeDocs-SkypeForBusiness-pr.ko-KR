@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-f1.keywords:
-- CSH
 ms.reviewer: ritikag
 search.appverid: MET150
 description: 조직의 사용자에 게 팀 라이선스를 할당 하거나 제거 하 여 팀에 대 한 사용자 액세스를 관리 하는 방법을 알아봅니다.
+f1.keywords:
+- CSH
+- ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32ab8f68ef1c37fbb5cb724b322b4db0ee757b84
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 6d877a4c6534c76b894583401dc5dba0936c3c75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521385"
 ---
 # <a name="manage-user-access-to-teams"></a>Teams에 대한 사용자 액세스 관리
 
@@ -31,6 +32,7 @@ Microsoft 팀 제품 라이선스를 할당 하거나 제거 하 여 사용자 �
 
 기본적으로 라이선스 계획 (예: Microsoft 365 Enterprise E3 또는 Microsoft 365 Business Premium)을 사용자에 게 할당 하면 팀 라이선스가 자동으로 할당 되며 사용자가 팀을 사용할 수 있습니다. 언제 든 지 라이선스를 제거 하거나 할당 하 여 사용자의 팀을 사용 하지 않도록 설정 하거나 설정할 수 있습니다.
 
+팀 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a>에서 관리 되는 메시징 정책을 사용 하 여 팀의 사용자가 사용할 수 있는 채팅 및 채널 메시징 기능을 제어 합니다. 기본 정책을 사용 하거나 조직의 사용자를 위해 하나 이상의 사용자 지정 메시징 정책을 만들 수 있습니다. 자세한 내용은 [팀에서 메시징 정책 관리](messaging-policies-in-teams.md)를 참고 하세요.
 Microsoft 365 관리 센터에서 또는 PowerShell을 사용 하 여 팀 라이선스를 관리 합니다. 라이선스를 관리 하려면 전역 관리자 또는 사용자 관리 관리자 여야 합니다.
 
 > [!NOTE]
@@ -38,6 +40,10 @@ Microsoft 365 관리 센터에서 또는 PowerShell을 사용 하 여 팀 라이
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 사용
 
+팀 사용자 수준 라이선스는 Microsoft 365 관리 센터 사용자 관리 인터페이스를 통해 직접 관리 됩니다. 관리자는 새 사용자 계정이 만들어지거나 기존 계정이 있는 사용자에 게 라이선스를 할당할 수 있습니다. 
+
+> [!IMPORTANT]
+> 관리자가 Microsoft 팀 라이선스를 관리 하려면 전역 관리자 또는 사용자 관리 관리자 권한이 있어야 합니다.
 Microsoft 365 관리 센터를 사용 하 여 개별 사용자 또는 소규모 사용자 집합에 대 한 팀 라이선스를 한 번에 관리할 수 있습니다. **라이선스** 페이지 (한 번에 최대 20 명의 사용자) 또는 **활성 사용자** 페이지에서 팀 라이선스를 관리할 수 있습니다. 특정 사용자에 대 한 제품 라이선스를 관리 하거나 특정 제품에 대 한 사용자 라이선스를 관리할 것인지 여부에 따라 다른 방법이 선택 됩니다.
 
 수백 또는 수천 명의 사용자와 같이 많은 사용자의 팀 라이선스를 관리 해야 하는 경우 Powershell 또는 azure [Active Directory (AZURE AD)의 그룹 기반 라이선스](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)를 [사용](#using-powershell) 합니다. 
@@ -85,7 +91,7 @@ PowerShell을 사용 하 여 사용자의 팀 라이선스를 대량으로 관�
 
       Get-MsolAccountSku
 
-다음 명령을 실행 합니다. 여기 \<에서 CompanyName: 라이선스>는 조직 이름과 이전 단계에서 검색 한 라이선스 계획의 식별자입니다. 예를 들어 ContosoSchool: ENTERPRISEPACK_STUDENT.
+\<CompanyName:License>조직 이름과 앞 단계에서 검색 한 라이선스 계획의 식별자 인 다음 명령을 실행 합니다. 예를 들어 ContosoSchool: ENTERPRISEPACK_STUDENT.
 
       $acctSKU="<CompanyName:License>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca916731f34bf08e59ae2ba281a1c6d723b46ae8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8779e770ca96cbfc34bbbc1f1897df1f5eb9ea03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205174"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523055"
 ---
+# <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a>Lync Server 2013에서 대화방에 대 한 추가 기능 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a>Lync Server 2013에서 대화방에 대 한 추가 기능 구성
+
 
 </div>
 

@@ -12,14 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
 description: 이미지 처리 소프트웨어와 상호 작용 하는 Microsoft 팀 방에 콘텐츠 카메라를 사용 하 여 발표자가 아날로그 화이트 보드에서 그릴 수 있도록 합니다.
-ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ced0a65c0c1fab25bd1b244aea7301d654c44a9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756899"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508315"
 ---
 # <a name="content-cameras"></a>콘텐츠 카메라
 

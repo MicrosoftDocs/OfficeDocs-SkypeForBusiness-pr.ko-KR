@@ -13,16 +13,17 @@ ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
+- ms.teamsadmincenter.directrouting.overview
 description: 직접 라우팅에 대해 자세히 알아보고 필요한 배포 의사 결정을 이해 하세요.
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba1732864a765af5bb5a0dfc5504f1d37b5460b5
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 2c988670a17a9ba2f803c11740d97404de52d4d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497305"
 ---
 # <a name="phone-system-direct-routing"></a>전화 시스템 직접 라우팅
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 577d6bb312ae2b31f96fed5f3e5b02e84844adf6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 085b7c10416fddefa8b869bbb617160f03b1e89a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188191"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522945"
 ---
+# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013에서 백 엔드 서버 고가용성을 위해 SQL 미러링 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013에서 백 엔드 서버 고가용성을 위해 SQL 미러링 배포
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188191"
 
 _**마지막으로 수정 된 항목:** 2014-01-08_
 
-SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 2008 R2를 실행해야 합니다. 이 버전은 기본, 미러 및 미러링 모니터 서버 등 모든 관련 서버에서 실행해야 합니다. 자세한 내용은를 참조 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921)하세요.
+SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 2008 R2를 실행해야 합니다. 이 버전은 기본, 미러 및 미러링 모니터 서버 등 모든 관련 서버에서 실행해야 합니다. 자세한 내용은를 참조 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921) 하세요.
 
 일반적으로 미러링 모니터 서버가 포함된 두 개의 백 엔드 서버 사이에 SQL 미러링을 설정하려면 다음이 필요합니다.
 
@@ -47,19 +49,19 @@ SQL 미러링을 배포할 수 있으려면 서버에서 최소한 SQL Server 20
 
   - 기본 및 미러는 SQL Server의 에디션이 동일해야 합니다. 미러링 모니터 서버는 에디션이 다를 수 있습니다.
 
-감시 역할에 대해 지원 되는 SQL 버전에 대 한 SQL 모범 사례에 대 한 자세한 내용은 MSDN Library의 "데이터베이스 미러링 감시" [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345)를 참조 하십시오.
+감시 역할에 대해 지원 되는 SQL 버전에 대 한 SQL 모범 사례에 대 한 자세한 내용은 MSDN Library의 "데이터베이스 미러링 감시"를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345) .
 
 토폴로지 작성기를 사용 하 여 SQL 미러링을 배포 합니다. 토폴로지 작성기에서 옵션을 선택 하 여 데이터베이스를 미러링 하 고 토폴로지 작성기는 토폴로지를 게시할 때 미러링 (원하는 경우 미러링 모니터 서버 설정 포함)을 설정 합니다. 미러를 설정하거나 제거하는 것과 동시에 미러링 모니터 서버도 설정하거나 제거합니다. 미러링 모니터 서버만 배포하거나 제거할 수 있는 별도의 명령은 없습니다.
 
-서버 미러링을 구성하려면 먼저 SQL 데이터베이스 권한을 올바르게 설정해야 합니다. 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454)"데이터베이스 미러링 또는 AlwaysOn 가용성 그룹에 대 한 로그인 계정 설정 (SQL Server)"을 참조 하십시오.
+서버 미러링을 구성하려면 먼저 SQL 데이터베이스 권한을 올바르게 설정해야 합니다. 자세한 내용은에서 "데이터베이스 미러링 또는 AlwaysOn 가용성 그룹에 대 한 로그인 계정 설정 (SQL Server)"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454) .
 
 SQL 미러링을 사용할 경우 데이터베이스 복구 모드는 항상 **전체**로 설정되므로 트랜잭션 로그 크기를 자세히 모니터링하고 백 엔드 서버의 디스크 공간이 부족해지지 않도록 정기적으로 트랜잭션 로그를 백업해야 합니다. 트랜잭션 로그 백업의 빈도는 로그 증가 속도에 따라 달라지며, 이는 다시 프런트 엔드 풀에서의 사용자 활동으로 인해 발생하는 데이터베이스 트랜잭션에 따라 달라집니다. 올바르게 계획할 수 있도록 Lync 배포 작업에 트랜잭션 로그 증가량이 얼마나 예상되는지 확인하는 것이 좋습니다. 다음 문서에서는 SQL 백업 및 로그 관리에 대한 추가 정보를 제공합니다.
 
-  - 데이터베이스 복구 모델: "복구 모델 (SQL Server)"[https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
+  - 데이터베이스 복구 모델: "복구 모델 (SQL Server)" [https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
 
-  - 백업 개요: "백업 개요 (SQL Server)" 위치[https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
+  - 백업 개요: "백업 개요 (SQL Server)" 위치 [https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
 
-  - 백업 트랜잭션 로그: "트랜잭션 로그 백업 (SQL Server)"[https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
+  - 백업 트랜잭션 로그: "트랜잭션 로그 백업 (SQL Server)" [https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
 
 SQL 미러링을 사용하면 풀을 만들 때 또는 풀이 이미 만들어진 후에 미러링에 대한 토폴로지를 구성할 수 있습니다.
 
@@ -86,7 +88,7 @@ SQL 미러링을 사용하면 풀을 만들 때 또는 풀이 이미 만들어�
 
 
 > [!NOTE]
-> 미러 파일을 쓰기 위해 파일 공유를 만들고, SQL Server 및 SQL 에이전트에서 실행 중인 서비스에 읽기/쓰기 권한이 필요 합니다. SQL Server 서비스가 네트워크 서비스의 컨텍스트에서 실행 중인 경우 주 서버 및 미러 SQL Server 둘 &lt;다&gt; 의 &lt;도메인&#92;&gt;sqlservername $을 공유 권한으로 추가할 수 있습니다. 이는 컴퓨터 계정 임을 식별 하는 데 중요 합니다.
+> 미러 파일을 쓰기 위해 파일 공유를 만들고, SQL Server 및 SQL 에이전트에서 실행 중인 서비스에 읽기/쓰기 권한이 필요 합니다. SQL Server 서비스가 네트워크 서비스의 컨텍스트에서 실행 중인 경우 &lt; &gt; 주 서버 &lt; &gt; 및 미러 SQL server 둘 다의 도메인&#92;sqlservername $을 공유 권한으로 추가할 수 있습니다. 이는 컴퓨터 계정 임을 식별 하는 데 중요 합니다.
 
 
 <div>
@@ -151,9 +153,9 @@ SQL 미러링을 설정할 때는 다음 사항에 주의해야 합니다.
 
   - 다른 SQL 인스턴스에 대한 포트를 포함하여 동일 서버의 다른 응용 프로그램에 이미 할당된 포트는 설치된 현재 SQL 인스턴스에 대해 사용하지 않아야 합니다. 이러한 제한은 동일한 서버에 SQL 인스턴스를 두 개 이상 설치한 경우 이러한 인스턴스가 미러링에 대해 동일한 포트를 사용하지 않아야 함을 의미합니다. 자세한 내용은 다음 문서를 참조하십시오.
     
-      - MSDN Library의 "서버 네트워크 주소 (데이터베이스 미러링) 지정"[https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
+      - MSDN Library의 "서버 네트워크 주소 (데이터베이스 미러링) 지정" [https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
     
-      - "데이터베이스 미러링 끝점 (SQL Server)"[https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
+      - "데이터베이스 미러링 끝점 (SQL Server)" [https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
 
 </div>
 
@@ -249,13 +251,13 @@ SQL 미러링을 설정할 때는 다음 사항에 주의해야 합니다.
 
 2.  다음을 확인합니다.
     
-      - 기본 SQL Server e04-ocs\_\\에 있는 Windows 방화벽이 사용 하도록 설정 된 경우 포트 5022은 방화벽을 통해 액세스할 수 있습니다.
+      - 기본 SQL Server e04-ocs에 있는 Windows 방화벽이 사용 하도록 설정 된 경우 포트 5022은 방화벽을 통해 액세스할 \_ 수 있습니다. \\
     
-      - Windows 방화벽이 미러 SQL Server K16-ocs\_\\에서 사용 하도록 설정 된 경우 포트 5022은 방화벽을 통해 액세스할 수 있습니다.
+      - Windows 방화벽이 미러 SQL Server K16-ocs에서 사용 하도록 설정 된 경우 포트 5022은 방화벽을 통해 액세스할 수 \_ 있습니다. \\
     
-      - Windows 방화벽이 미러링 모니터 SQL Server AB14-lct\_\\에서 사용 하도록 설정 된 경우 포트 7022은 방화벽을 통해 액세스할 수 있습니다.
+      - Windows 방화벽이 미러링 모니터 SQL Server AB14-lct에서 사용 하도록 설정 된 경우 포트 7022은 방화벽을 통해 액세스할 \_ 수 있습니다. \\
     
-      - 모든 기본 및 미러 sql server에서 sql server를 실행 하는 계정에는 파일 공유 \\ \\E04-OCS\\csdatabackup에 대 한 읽기/쓰기 권한이 있어야 합니다.
+      - 모든 기본 및 미러 SQL server에서 SQL Server를 실행 하는 계정에는 파일 공유 \\ \\ E04-OCS \\ csdatabackup에 대 한 읽기/쓰기 권한이 있어야 합니다.
     
       - WMI(Windows Management Instrumentation) 공급자가 이러한 모든 서버에서 실행되고 있는지 확인합니다. 이 cmdlet은 이 공급자를 사용해서 모든 기본, 미러 및 미러링 모니터 서버에서 실행되는 SQL Server 서비스에 대한 계정 정보를 찾습니다.
     
@@ -267,7 +269,7 @@ SQL 미러링을 설정할 때는 다음 사항에 주의해야 합니다.
     
     미러링이 구성됩니다.
 
-**CsMirrorDatabase** 를 설치 하면 미러를 설치 하 고 기본 SQL 저장소에 있는 모든 데이터베이스에 대해 미러링을 구성 합니다. 특정 데이터베이스에 대해서만 미러링을 구성 하려면 – DatabaseType 옵션을 사용 하거나, 몇 개를 제외한 모든 데이터베이스에 대해 미러링을 구성 하려는 경우 쉼표로 구분 된 데이터베이스 목록과 함께-ExcludeDatabaseList 옵션을 사용할 수 있습니다. 제외할 이름입니다.
+**CsMirrorDatabase** 를 설치 하면 미러를 설치 하 고 기본 SQL 저장소에 있는 모든 데이터베이스에 대해 미러링을 구성 합니다. 특정 데이터베이스에 대해서만 미러링을 구성 하려면 – DatabaseType 옵션을 사용 하거나, 몇 개를 제외한 모든 데이터베이스에 대해 미러링을 구성 하려는 경우에는-ExcludeDatabaseList 옵션을 사용 하 여 제외할 데이터베이스 이름 목록을 쉼표로 구분 된 목록과 함께 사용할 수 있습니다.
 
 예를 들어 **Install-CsMirrorDatabase**에 다음 옵션을 추가하면 rtcab 및 rtcxds를 제외한 모든 데이터베이스가 미러링됩니다.
 
@@ -319,9 +321,9 @@ SQL 미러링을 설정할 때는 다음 사항에 주의해야 합니다.
     
         Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
     
-    그러나이 단계를 따르지 말고 전체 미러링 구성을 제거 하는 `Uninstall-CsMirrorDatabase` 것으로 입력 하지 마십시오.
+    그러나이 단계를 따르지 말고 `Uninstall-CsMirrorDatabase` 전체 미러링 구성을 제거 하는 것으로 입력 하지 마십시오.
 
-4.  SQL Server 구성에서 미러링 모니터 서버를 제거 하려면 "데이터베이스 미러링 세션에서 감시 제거 (SQL Server)"의 지침을 따르세요 [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456).
+4.  SQL Server 구성에서 미러링 모니터 서버를 제거 하려면 "데이터베이스 미러링 세션에서 감시 제거 (SQL Server)"의 지침을 따르세요 [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456) .
 
 </div>
 

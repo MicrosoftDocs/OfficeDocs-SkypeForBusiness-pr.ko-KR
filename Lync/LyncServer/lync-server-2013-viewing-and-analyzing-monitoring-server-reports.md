@@ -12,20 +12,22 @@ ms:contentKeyID: 63969599
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fc5f963ab9b0181463e3bf065baa61730c9fd0d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7416b54e7b1ddb5bfc41c07502802c7c120a93ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211304"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523575"
 ---
+# <a name="viewing-and-analyzing-monitoring-server-reports-in-lync-server-2013"></a>Lync Server 2013에서 모니터링 서버 보고서 보기 및 분석
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-and-analyzing-monitoring-server-reports-in-lync-server-2013"></a>Lync Server 2013에서 모니터링 서버 보고서 보기 및 분석
+
 
 </div>
 

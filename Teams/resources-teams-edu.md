@@ -3,10 +3,10 @@ title: 교육용 Microsoft Teams 리소스 관리
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: olbesede
 ms.topic: reference
 ms.service: msteams
 audience: admin
+ms.reviewer: olbesede
 description: 교육 관리자는 Microsoft 팀에서 사용할 수 있는 리소스에 대해 자세히 알아보고 원격 학습을 사용 하도록 설정할 수 있습니다.
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3c34fa27053e83b9c9d05f9ab4f6e8fb4222cd7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9af89101620902c86ba52dfb986f54a8637ce097
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905510"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518035"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>교육용 Microsoft Teams 리소스 관리
 ==============================================

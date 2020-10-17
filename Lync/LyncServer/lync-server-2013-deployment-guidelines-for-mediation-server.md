@@ -12,20 +12,22 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afcbfec56f4cfee3def2a0ef6deb82934534dbb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4e627dfdc161093d07243e6598807f3ad91cab1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213823"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522715"
 ---
+# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013의 중재 서버 배포 지침
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013의 중재 서버 배포 지침
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2012-10-12_
 
 계획할 때는 PSTN 통화에 대 한 미디어 처리 요구 사항과 미디어 바이패스를 위해 구성 되지 않은 A/V 회의 및 지원 해야 하는 사용량이 많은 시간에 대 한 신호 상호 작용을 처리 하는 데 필요한 처리를 고려해 야 합니다. CPU가 충분 하지 않으면 중재 서버의 독립 실행형 풀을 배포 해야 합니다. 및 PSTN 게이트웨이, IP-Pbx 및 자회사는 하나의 풀에 있는 배치 된 중재 서버 및 하나 이상의 독립 실행형 풀에 독립 실행형 중재 서버에 의해 제어 되는 하위 집합으로 분할 해야 합니다.
 
-다음을 포함 하 여 중재 서버 풀과 상호 작용 하기 위한 올바른 기능을 지원 하지 않는 PSTN 게이트웨이, IP-PBX 또는 sbc (Session Border Controller)를 배포한 경우에는이를 구성 하는 독립 실행형 풀에 연결 해야 합니다. 단일 중재 서버의 경우:
+다음을 포함 하 여 중재 서버 풀과 상호 작용 하기 위한 올바른 기능을 지원 하지 않는 PSTN 게이트웨이, IP-PBX 또는 sbc (Session Border Controller)를 배포한 경우에는 단일 중재 서버로 구성 된 독립 실행형 풀에 연결 해야 합니다.
 
   - 풀의 중재 서버 간에 네트워크 계층 DNS (Domain Name System) 부하 분산을 수행 합니다 (또는 풀의 모든 중재 서버에 트래픽을 균일 하 게 라우팅하는 경우).
 
@@ -73,7 +75,7 @@ Microsoft Lync Server 2013, 계획 도구를 사용 하 여 배치 중재 서버
 
 
 > [!NOTE]  
-> 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증 된 파트너와의 PSTN 게이트웨이 및 국내 집합을 테스트 했으며 Cisco IP-Pbx를 사용 하 여 몇 가지 테스트를 수행 했습니다. 미디어 바이패스는 통합 커뮤니케이션 오픈 상호 운용성 프로그램-Lync Server에 <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A>나열 된 제품 및 버전 에서만 지원 됩니다.
+> 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증 된 파트너와의 PSTN 게이트웨이 및 국내 집합을 테스트 했으며 Cisco IP-Pbx를 사용 하 여 몇 가지 테스트를 수행 했습니다. 미디어 바이패스는 통합 커뮤니케이션 오픈 상호 운용성 프로그램-Lync Server에 나열 된 제품 및 버전 에서만 지원 됩니다 <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A> .
 
 
 
@@ -89,7 +91,7 @@ Ip-https와 상호 작용 하는 경우, IP-PBX가 여러 초기 대화 및 RFC 
 
 
 > [!NOTE]  
-> 독립 실행형 중재 서버의 미디어 성능을 향상 시키려면 이러한 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은 Windows Server의 "수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
+> 독립 실행형 중재 서버의 미디어 성능을 향상 시키려면 이러한 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은 Windows Server의 "수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A> 하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
 
 
 

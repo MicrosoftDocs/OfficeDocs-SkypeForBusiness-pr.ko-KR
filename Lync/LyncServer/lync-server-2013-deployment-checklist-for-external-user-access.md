@@ -12,20 +12,22 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f2897434eb275b82ef9ab4ef78e32e99e8d0a5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 010d4437f2eb90d596ace15cc392690dba5544d6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213914"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522775"
 ---
+# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013의 외부 사용자 액세스에 대 한 배포 검사 목록
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013의 외부 사용자 액세스에 대 한 배포 검사 목록
+
 
 </div>
 
@@ -41,9 +43,9 @@ _**마지막으로 수정 된 항목:** 2014-02-04_
 
 Microsoft Lync Server 2013에는 내부 서버와에 지 서버를 모두 계획 하 고 배포 하는 데 도움이 되는 도구가 포함 되어 있습니다. 토폴로지를 완료한 후 결과 토폴로지 정의를 프로덕션 환경으로 게시합니다. 이렇게 하려면 **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원이어야 합니다.
 
-  - **계획 도구**   Office Communications Server 2007 r 2에는 토폴로지 디자인을 안내 하는 데 사용할 수 있는 계획 도구와 Edge 계획 도구가 포함 되어 있습니다. Lync Server 2010에서는 이러한 두 도구를 계획 된 사용자 수, 음성 요구 사항, 외부 사용자 액세스 유형 및 페더레이션 옵션 수집과 같은 추가 기능을 제공 하는 단일 기획 도구로 결합 했습니다. 또한 IP 주소, 부하 분산 장치 유형 및 기타 경계 네트워크 고려 사항과 같은 인프라의 네트워크 매개 변수를 계획할 수 있습니다.
+  - **계획 도구**     Office Communications Server 2007 R2에는 토폴로지 디자인을 안내 하는 데 사용할 수 있는 계획 도구와 Edge 계획 도구가 포함 되어 있습니다. Lync Server 2010에서는 이러한 두 도구를 계획 된 사용자 수, 음성 요구 사항, 외부 사용자 액세스 유형 및 페더레이션 옵션 수집과 같은 추가 기능을 제공 하는 단일 기획 도구로 결합 했습니다. 또한 IP 주소, 부하 분산 장치 유형 및 기타 경계 네트워크 고려 사항과 같은 인프라의 네트워크 매개 변수를 계획할 수 있습니다.
 
-  - **토폴로지 작성기**   Lync Server 2013 토폴로지 작성기를 사용 하 여 토폴로지 및 구성 요소를 정의할 수 있습니다. Lync Server 2013를 실행 하는 서버를 배포 하려면 토폴로지 작성기가 필수적입니다. 토폴로지 작성기는 조직에서 Lync Server 2013을 실행 하는 모든 서버를 구성 하는 데 사용 되는 중앙 관리 저장소에 결과를 게시 합니다. 토폴로지 작성기를 사용 하지 않고 서버에 Lync Server 2013을 설치할 수는 없습니다.
+  - **토폴로지 작성기**     Lync Server 2013 토폴로지 작성기를 사용 하면 토폴로지 및 구성 요소를 쉽게 정의할 수 있습니다. Lync Server 2013를 실행 하는 서버를 배포 하려면 토폴로지 작성기가 필수적입니다. 토폴로지 작성기는 조직에서 Lync Server 2013을 실행 하는 모든 서버를 구성 하는 데 사용 되는 중앙 관리 저장소에 결과를 게시 합니다. 토폴로지 작성기를 사용 하지 않고 서버에 Lync Server 2013을 설치할 수는 없습니다.
 
 에 지 토폴로지를 정의 하기 위해 토폴로지 작성기를 실행 하는 것을 포함 하 여 계획 프로세스 중에에 지 토폴로지를 디자인 한 경우 이러한 결과를 사용 하 여에 지 서버 배포를 시작할 수 있습니다. 이전에에 지 토폴로지의 작성을 완료 하지 않았거나 이전에 지정한 정보를 변경 하려는 경우에는 다른 배포 단계를 진행 하기 전에 토폴로지 작성기 실행을 완료 해야 합니다. 토폴로지를 작성 하는 방법에 대 한 자세한 내용은 [Lync Server 2013의 외부 사용자 액세스 시나리오](lync-server-2013-scenarios-for-external-user-access.md)를 참조 하세요.
 
@@ -135,7 +137,7 @@ Microsoft Lync Server 2013에는 내부 서버와에 지 서버를 모두 계획
 <tr class="odd">
 <td><p>역방향 프록시 설정</p></td>
 <td><ul>
-<li><p>경계 네트워크에 역방향 프록시 (예: Microsoft Forefront Threat Management Gateway 2010 또는 Microsoft Internet Security and 가속도 (ISA) Server 서비스 팩 1)를 설정 하 고, 필요한 공용 인증서를 얻은 다음, 역방향 프록시 서버에 대 한 웹 게시 규칙</p>
+<li><p>경계 네트워크에 역방향 프록시 (예: Microsoft Forefront Threat Management Gateway 2010 또는 Microsoft Internet Security and 가속도 (ISA) Server 서비스 팩 1)를 설정 하 고, 필요한 공용 인증서를 획득 하 고, 역방향 프록시 서버에서 웹 게시 규칙을 구성 합니다.</p>
 <p>이동성을 계획하고 Mobility Service를 프런트 엔드 풀 또는 Standard Edition 서버에 배포 중인 경우 Mobility Service에 대한 역방향 프록시를 준비합니다.</p></li>
 </ul></td>
 <td><p><strong>Administrators</strong> 그룹 또는 역방향 프록시 관리자</p></td>
@@ -185,7 +187,7 @@ Microsoft Lync Server 2013에는 내부 서버와에 지 서버를 모두 계획
 <td><ol>
 <li><p>서버 연결 및 내부 서버의 구성 데이터 복제를 확인합니다.</p></li>
 <li><p>원격 사용자, 페더레이션 도메인의 사용자, 공용 IM 사용자 및 익명 사용자를 포함하여 배포에 해당되는 외부 사용자가 연결할 수 있는지 확인합니다.</p></li>
-<li><p>Lync Server 원격 연결 분석기를 사용 하 여 구성 및 통신 확인<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
+<li><p>Lync Server 원격 연결 분석기를 사용 하 여 구성 및 통신 확인 <a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
 <li><p>구성 및 통신 문제를 해결합니다.</p></li>
 </ol></td>
 <td><p>복제 확인의 경우 <strong>RTCUniversalServerAdmins</strong> 그룹 또는 <strong>CSAdministrator</strong> 역할에 지정된 사용자 계정</p>

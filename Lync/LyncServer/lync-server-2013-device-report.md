@@ -12,20 +12,22 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93e750d66f3c18ee0960237ab5ffdfb37784f157
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 97971d339dc57ab8786ff4a05adadd016a87e23a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197991"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522455"
 ---
+# <a name="device-report-in-lync-server-2013"></a>Lync Server 2013의 장치 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-report-in-lync-server-2013"></a>Lync Server 2013의 장치 보고서
+
 
 </div>
 
@@ -197,7 +199,7 @@ _**마지막으로 수정 된 항목:** 2013-11-12_
 
 </div>
 
-때로는 이러한 상세 설명이 필요하겠지만, 그 밖의 경우에는 모델 번호와 상관없이 Aastra 마이크를 사용하는 통화 수에만 관심이 있을 수 있습니다. 이 처럼 정보를 가져오는 한 가지 방법으로 장치 보고서 데이터를 Microsoft Excel로 내보낸 다음 해당 데이터를 쉼표로 구분 된 값 파일 (예를 들어 C:\\data\\Devices\_.csv)에 저장할 수 있습니다. 그러면 이와 비슷한 명령 집합을 사용하여 .CSV 파일을 Windows PowerShell로 가져오고 Aastra 캡처 장치를 사용하여 전화를 건 총 통화 수를 보고할 수 있습니다.
+때로는 이러한 상세 설명이 필요하겠지만, 그 밖의 경우에는 모델 번호와 상관없이 Aastra 마이크를 사용하는 통화 수에만 관심이 있을 수 있습니다. 정보를 가져오는 한 가지 방법은 Microsoft Excel로 장치 보고서 데이터를 내보낸 다음 해당 데이터를 쉼표로 구분 된 값 파일에 저장 하는 것입니다 (예를 들어 C: \\ 데이터 \\ 장치 \_Report.csv). 그러면 이와 비슷한 명령 집합을 사용하여 .CSV 파일을 Windows PowerShell로 가져오고 Aastra 캡처 장치를 사용하여 전화를 건 총 통화 수를 보고할 수 있습니다.
 
     $devices = Import-Csv "C:\Data\Device_Report.csv
     $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
@@ -233,14 +235,14 @@ _**마지막으로 수정 된 항목:** 2013-11-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>From</strong></p></td>
+<td><p><strong>시작</strong></p></td>
 <td><p>시간 범위의 시작 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜 및 시간을 입력합니다.</p>
 <p>7/7/2012 1:00 PM</p>
 <p>시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
 <p>7/7/2012</p>
 <p>주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</p>
 <p>7/3/2012</p>
-<p>주는 항상 일요일부터 토요일까지입니다.</p></td>
+<p>주는 항상 일요일부터 토요일까지로 실행됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -335,10 +337,10 @@ _**마지막으로 수정 된 항목:** 2013-11-12_
 <dd><p>모든</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Internal</p>
+<dd><p>내부</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>외부:</p>
+<dd><p>외부</p>
 </dd>
 </dl></td>
 </tr>
@@ -393,7 +395,7 @@ _**마지막으로 수정 된 항목:** 2013-11-12_
 <p>Microphone(Microsoft LifeCam VX-1000.)</p>
 <p>또는 이름 중 일부만 입력할 수도 있습니다. 예:</p>
 <p>LifeCam</p>
-<p>위의 필터는 이름에 LifeCam &quot;&quot; 문자열이 포함 된 모든 장치를 반환 합니다.</p></td>
+<p>위의 필터는 &quot; 이름에 LifeCam 문자열이 포함 된 모든 장치를 반환 합니다 &quot; .</p></td>
 </tr>
 </tbody>
 </table>
@@ -403,7 +405,7 @@ _**마지막으로 수정 된 항목:** 2013-11-12_
 
 <div>
 
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에서는 장치 보고서에서 제공되는 정보를 보여 줍니다.
 
@@ -441,7 +443,7 @@ _**마지막으로 수정 된 항목:** 2013-11-12_
 <tr class="even">
 <td><p><strong>불량 통화율</strong></p></td>
 <td><p>예</p></td>
-<td><p>불량으로 &quot;분류 된 통화의 비율입니다. &quot; 통화 불량은 측정 된 메트릭이 하나 이상 허용 된 값을 초과 하는 모든 통화 (예: 과도 한 지터가 발생 한 통화)입니다.</p></td>
+<td><p>불량으로 분류 된 통화의 비율 &quot; 입니다. &quot; 통화 불량은 측정 된 메트릭이 하나 이상 허용 된 값을 초과 하는 모든 통화 (예: 과도 한 지터가 발생 한 통화)입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>고유 사용자</strong></p></td>

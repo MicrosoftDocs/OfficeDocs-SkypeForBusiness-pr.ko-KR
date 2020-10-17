@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 위한 네트워크의 열기 미리 보기 기능에 대 한 설명입니다.
-ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: b73461d8aeb42bb7b8edc8d5186b482d6fc2ef31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444214"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503475"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>오디오 회의를 위한 네트워크 회의 미리 보기 열기
 
@@ -63,7 +63,7 @@ ms.locfileid: "48444214"
 
 팀 모임 전화 접속 통화는 조직의 모임 내에서 전화 통화 및 통화를 포함 하 여 새 참가자를 모임에 가져오는 등의 PSTN 번호로 시작 됩니다. 
 
-다이렉트 라우팅을 통해 팀 모임 다이얼 아웃 라우팅을 사용 하도록 설정 하려면 "OnlineAudioConferencingRoutingPolicy" 이라는 오디오 회의 라우팅 정책을 만들어 할당 해야 합니다. 
+네트워크 사용자에 게 직접 라우팅을 통해 팀 모임 전화 걸기를 사용 하도록 설정 하려면 "OnlineAudioConferencingRoutingPolicy" 이라는 오디오 회의 라우팅 정책을 만들어 할당 해야 합니다. 
 
 OnlineAudioConferencingRoutingPolicy 정책은 직접 라우팅을 통한 1:1 PSTN 통화에 대 한 CsOnlineVoiceRoutingPolicy와 동일 합니다. OnlineAudioConferencingRoutingPolicy 정책은 다음 cmdlet을 사용 하 여 관리할 수 있습니다.
 
@@ -164,6 +164,6 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a01d38cec8d03a75d5f295c61f6e591da43f4a61
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2399d6ce6fc17a802c8f6bc39730370948ef0253
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213820"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522745"
 ---
+# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 배포 검사 목록
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 배포 검사 목록
+
 
 </div>
 
@@ -107,13 +109,13 @@ Lync Server 2013, 영구 채팅 서버를 배포 하려면 올바른 순서로 �
 <li><p>준수를 사용 하도록 설정 하려면 영구 채팅 서버 풀 정의 확인란을 클릭 합니다.</p></li>
 <li><p>토폴로지 게시</p></li>
 </ul>
-<p>Standard Edition에 영구 채팅 서버를 설치 하는 경우 영구 채팅 서버 풀의 FQDN (정규화 된 도메인 이름)이 Standard Edition Server와 일치 해야 하며 SQL Server 데이터베이스가 표준의 SQL Server Express 인스턴스에서 배치 된 됩니다. Edition server</p></td>
+<p>Standard Edition에 영구 채팅 서버를 설치 하는 경우 영구 채팅 서버 풀의 FQDN (정규화 된 도메인 이름)이 Standard Edition server와 일치 해야 하며, SQL Server 데이터베이스가 Standard Edition 서버의 SQL Server Express 인스턴스에서 배치 된 됩니다.</p></td>
 <td><p>토폴로지를 정의 하려면 로컬 사용자 그룹의 구성원 인 계정입니다.</p>
 <p>토폴로지를 게시 하려면 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원 인 계정인 사용자에 게 영구 채팅 서버 파일용 Lync 파일 저장소에 대 한 모든 권한 (읽기/쓰기/수정)이 있어야 합니다 (토폴로지 작성기에서 필요한 Dacl을 구성할 수 있음).</p></td>
 <td><p>배포 설명서의 <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync Server 2013에서 배포에 영구 채팅 서버 추가</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>영구 채팅 서버 배포</strong></p></td>
+<td><p><strong>영구적 채팅 서버 배포</strong></p></td>
 <td><p>영구 채팅 서버를 실행 하는 모든 컴퓨터에서 Lync Server 설치 프로그램을 실행 합니다. 영구 채팅 서버 설치 프로그램은 다음 지침을 제공 하는 Lync Server 2013 배포 마법사에 통합 되어 있습니다.</p>
 <ul>
 <li><p>로컬 관리 저장소 배포</p></li>
@@ -125,7 +127,7 @@ Lync Server 2013, 영구 채팅 서버를 배포 하려면 올바른 순서로 �
 <td><p>배포 설명서의 <a href="lync-server-2013-deploying-persistent-chat-server.md">Lync server 2013에서 영구 채팅 서버 배포</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>영구 채팅 관리자 만들기</strong></p></td>
+<td><p><strong>영구적 채팅 관리자 만들기</strong></p></td>
 <td><p>CsPersistentChatAdministrator 보안 그룹에 사용자를 추가 합니다.</p></td>
 <td><p>도메인 관리자의 구성원 인 모든 사용자</p></td>
 <td><p>배포 설명서의 <a href="lync-server-2013-adding-a-persistent-chat-administrator.md">Lync Server 2013에서 영구 채팅 관리자 추가</a></p></td>

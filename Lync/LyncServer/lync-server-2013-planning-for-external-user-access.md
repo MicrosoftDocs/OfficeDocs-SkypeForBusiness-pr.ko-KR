@@ -12,20 +12,22 @@ ms:contentKeyID: 48185903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57ff8418c468e2f2d09ca0f072be318fa486f9a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3068cae2545c0d3f1df3f04935914d21d032ffc2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201944"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522185"
 ---
+# <a name="planning-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013의 외부 사용자 액세스 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013의 외부 사용자 액세스 계획
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42201944"
 
 _**마지막으로 수정 된 항목:** 2013-01-19_
 
-대부분의 조직에서는 내부 네트워크에 포함 되지 않은 서비스와 사용자가 통신 합니다. 이러한 서비스와 사용자에 게는 일시적 이거나 영구적으로 공유 하는 직원, 고객 또는 파트너 조직의 직원, 공용 IM (인스턴트 메시징) 서비스를 사용 하는 사용자, 초대 하는 잠재 고객, 파트너 및 익명 사용자 등이 있습니다. 모임 및 프레젠테이션으로 이동할 수 있습니다. 이 문서에서는 이러한 사용자를 집합적으로 *외부 사용자*라고 합니다.
+대부분의 조직에서는 내부 네트워크에 포함 되지 않은 서비스와 사용자가 통신 합니다. 이러한 서비스와 사용자에는 일시적 이거나 영구적으로 공유 하는 직원, 고객 또는 파트너 조직의 직원, 공용 IM (인스턴트 메시징) 서비스를 사용 하는 사용자, 모임 및 프레젠테이션에 초대한 잠재 고객, 파트너 및 익명 사용자가 포함 됩니다. 이 문서에서는 이러한 사용자를 집합적으로 *외부 사용자*라고 합니다.
 
 Microsoft Lync Server 2013을 사용 하는 경우 조직의 사용자는 IM 및 현재 상태를 통해 외부 사용자와 통신할 수 있으며, 온-V (오디오/비디오) 회의 및 웹 회의에 참가할 수 있습니다 (예를 들어, 오프 사이트 직원과 기타 유형의 외부 사용자). 모바일 장치 및 Enterprise Voice를 통해 외부 액세스를 지원할 수도 있습니다. 조직의 구성원이 아닌 외부 사용자는 Lync Server 2013 모임에 참가할 수 있으며 익명 참석자를 허용 합니다.
 
