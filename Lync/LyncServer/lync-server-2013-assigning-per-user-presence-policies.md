@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자별 현재 상태 정책 할당'
+description: 'Lync Server 2013: 사용자별 현재 상태 정책을 할당 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c4f561189b72cf19fad28879711e3a1da0da8fb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5c3d4b4bda0c4bb85065d546fdbb4b2578db0e3f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527125"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563374"
 ---
-# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a><span data-ttu-id="2a6c3-102">Lync Server 2013에서 사용자별 현재 상태 정책 할당</span><span class="sxs-lookup"><span data-stu-id="2a6c3-102">Assigning per-user presence policies in Lync Server 2013</span></span>
+# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a><span data-ttu-id="802be-103">Lync Server 2013에서 사용자별 현재 상태 정책 할당</span><span class="sxs-lookup"><span data-stu-id="802be-103">Assigning per-user presence policies in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48527125"
 
 <span> </span>
 
-<span data-ttu-id="2a6c3-103">_**마지막으로 수정 된 항목:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="2a6c3-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="802be-104">_**마지막으로 수정 된 항목:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="802be-104">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="2a6c3-104">현재 상태 정책은 현재 상태에 영향을 미치는 제한 집합입니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-104">A presence policy is a set of limits and restrictions that affect presence.</span></span> <span data-ttu-id="2a6c3-105">다음 표에서는 Lync Server 2013에서 사용할 수 있는 현재 상태 정책 설정에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-105">The following table describes the presence policy settings available in Lync Server 2013.</span></span>
+<span data-ttu-id="802be-105">현재 상태 정책은 현재 상태에 영향을 미치는 제한 집합입니다.</span><span class="sxs-lookup"><span data-stu-id="802be-105">A presence policy is a set of limits and restrictions that affect presence.</span></span> <span data-ttu-id="802be-106">다음 표에서는 Lync Server 2013에서 사용할 수 있는 현재 상태 정책 설정에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="802be-106">The following table describes the presence policy settings available in Lync Server 2013.</span></span>
 
-### <a name="presence-policy-settings"></a><span data-ttu-id="2a6c3-106">현재 상태 정책 설정</span><span class="sxs-lookup"><span data-stu-id="2a6c3-106">Presence Policy Settings</span></span>
+### <a name="presence-policy-settings"></a><span data-ttu-id="802be-107">현재 상태 정책 설정</span><span class="sxs-lookup"><span data-stu-id="802be-107">Presence Policy Settings</span></span>
 
 <table>
 <colgroup>
@@ -53,44 +54,44 @@ ms.locfileid: "48527125"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2a6c3-107">XML 이름</span><span class="sxs-lookup"><span data-stu-id="2a6c3-107">XML name</span></span></th>
-<th><span data-ttu-id="2a6c3-108">표시 이름</span><span class="sxs-lookup"><span data-stu-id="2a6c3-108">Display name</span></span></th>
-<th><span data-ttu-id="2a6c3-109">설명</span><span class="sxs-lookup"><span data-stu-id="2a6c3-109">Description</span></span></th>
-<th><span data-ttu-id="2a6c3-110">타이핑</span><span class="sxs-lookup"><span data-stu-id="2a6c3-110">Type</span></span></th>
-<th><span data-ttu-id="2a6c3-111">값</span><span class="sxs-lookup"><span data-stu-id="2a6c3-111">Value</span></span></th>
+<th><span data-ttu-id="802be-108">XML 이름</span><span class="sxs-lookup"><span data-stu-id="802be-108">XML name</span></span></th>
+<th><span data-ttu-id="802be-109">표시 이름</span><span class="sxs-lookup"><span data-stu-id="802be-109">Display name</span></span></th>
+<th><span data-ttu-id="802be-110">설명</span><span class="sxs-lookup"><span data-stu-id="802be-110">Description</span></span></th>
+<th><span data-ttu-id="802be-111">타이핑</span><span class="sxs-lookup"><span data-stu-id="802be-111">Type</span></span></th>
+<th><span data-ttu-id="802be-112">값</span><span class="sxs-lookup"><span data-stu-id="802be-112">Value</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2a6c3-112">CategorySubscriptions</span><span class="sxs-lookup"><span data-stu-id="2a6c3-112">CategorySubscriptions</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-113">구독자 범주의 최대 구독 수</span><span class="sxs-lookup"><span data-stu-id="2a6c3-113">Maximum Number of Subscriber Category Subscriptions</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-p102">구독자의 범주 구독 수를 제한합니다. 예를 들어 Communicator가 사용자의 현재 상태를 구독하면 대화 상대 카드, 일정 데이터, 메모, 서비스 및 상태 범주 각각에 대한 범주 구독을 가져오게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-p102">Limits the number of subscriber category subscriptions. For example, when Communicator subscribes to a user’s presence, it obtains a category subscription for each of the contact card, calendar data, notes, services, and state categories.</span></span></p>
-<p><span data-ttu-id="2a6c3-116">설정이 0인 경우 다른 사용자가 사용자나 대화 상대 개체의 상태를 구독할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-116">A setting of 0 means that the user or contact object cannot be subscribed to by others.</span></span></p>
+<td><p><span data-ttu-id="802be-113">CategorySubscriptions</span><span class="sxs-lookup"><span data-stu-id="802be-113">CategorySubscriptions</span></span></p></td>
+<td><p><span data-ttu-id="802be-114">구독자 범주의 최대 구독 수</span><span class="sxs-lookup"><span data-stu-id="802be-114">Maximum Number of Subscriber Category Subscriptions</span></span></p></td>
+<td><p><span data-ttu-id="802be-p102">구독자의 범주 구독 수를 제한합니다. 예를 들어 Communicator가 사용자의 현재 상태를 구독하면 대화 상대 카드, 일정 데이터, 메모, 서비스 및 상태 범주 각각에 대한 범주 구독을 가져오게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="802be-p102">Limits the number of subscriber category subscriptions. For example, when Communicator subscribes to a user’s presence, it obtains a category subscription for each of the contact card, calendar data, notes, services, and state categories.</span></span></p>
+<p><span data-ttu-id="802be-117">설정이 0인 경우 다른 사용자가 사용자나 대화 상대 개체의 상태를 구독할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="802be-117">A setting of 0 means that the user or contact object cannot be subscribed to by others.</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="2a6c3-117">이 설정에 지정된 숫자가 높을 경우 성능이 심각하게 저하될 수 있으며 해당 사용자의 현재 상태를 구독하는 사용자가 많아집니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-117">This setting can have a significant impact on performance if it is set to a high number, and the average user has a large number of users subscribing to his or her presence.</span></span>
+> <span data-ttu-id="802be-118">이 설정에 지정된 숫자가 높을 경우 성능이 심각하게 저하될 수 있으며 해당 사용자의 현재 상태를 구독하는 사용자가 많아집니다.</span><span class="sxs-lookup"><span data-stu-id="802be-118">This setting can have a significant impact on performance if it is set to a high number, and the average user has a large number of users subscribing to his or her presence.</span></span>
 
 
 </div></td>
-<td><p><span data-ttu-id="2a6c3-118">정수</span><span class="sxs-lookup"><span data-stu-id="2a6c3-118">Integer</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-119">0-3000</span><span class="sxs-lookup"><span data-stu-id="2a6c3-119">0-3000</span></span></p></td>
+<td><p><span data-ttu-id="802be-119">정수</span><span class="sxs-lookup"><span data-stu-id="802be-119">Integer</span></span></p></td>
+<td><p><span data-ttu-id="802be-120">0-3000</span><span class="sxs-lookup"><span data-stu-id="802be-120">0-3000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2a6c3-120">PromptedSubscribers</span><span class="sxs-lookup"><span data-stu-id="2a6c3-120">PromptedSubscribers</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-121">현재 상태 구독에 대해 대기할 수 있는 최대 알림 수</span><span class="sxs-lookup"><span data-stu-id="2a6c3-121">Maximum Number of Queued Presence Subscription Alerts</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-p103">프롬프트 구독자 테이블의 항목 수를 제한합니다. 이 설정으로, 해당 사용자에 대해 대기할 수 있는 최대 프롬프트 수가 결정됩니다. 예를 들어 사용자 A가 사용자 B의 현재 상태를 구독할 때 사용자 B는 사용자 A가 이제 사용자 B의 현재 상태를 구독한다는 프롬프트를 받게 되며 사용자 B의 프롬프트 구독자 테이블에서 승인 프롬프트가 만들어집니다. 사용자 B가 구독을 수락하거나 승인하고 나면 사용자 B의 프롬프트 구독자 테이블에서 승인 프롬프트가 제거됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-p103">Limits the number of entries in the prompted subscribers table. This setting determines the maximum number of prompts that can be queued for a given user. For example, when user A subscribes to user B’s presence, user B receives a prompt that user A is now subscribed to user B, and an acknowledgement prompt is created in user B’s prompted subscribers table. After user B accepts, or acknowledges, the subscription, the acknowledgement prompt is removed from user B’s prompted subscribers table.</span></span></p>
-<p><span data-ttu-id="2a6c3-126">설정이 0인 경우 다른 사람이 사용자의 현재 상태를 구독할 때 해당 사용자에게 메시지가 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-126">A setting of 0 means that the user is not prompted when someone subscribes to his or her presence.</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-127">정수 또는 토큰</span><span class="sxs-lookup"><span data-stu-id="2a6c3-127">Integer or Token</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-128">0-500</span><span class="sxs-lookup"><span data-stu-id="2a6c3-128">0-500</span></span></p></td>
+<td><p><span data-ttu-id="802be-121">PromptedSubscribers</span><span class="sxs-lookup"><span data-stu-id="802be-121">PromptedSubscribers</span></span></p></td>
+<td><p><span data-ttu-id="802be-122">현재 상태 구독에 대해 대기할 수 있는 최대 알림 수</span><span class="sxs-lookup"><span data-stu-id="802be-122">Maximum Number of Queued Presence Subscription Alerts</span></span></p></td>
+<td><p><span data-ttu-id="802be-p103">프롬프트 구독자 테이블의 항목 수를 제한합니다. 이 설정으로, 해당 사용자에 대해 대기할 수 있는 최대 프롬프트 수가 결정됩니다. 예를 들어 사용자 A가 사용자 B의 현재 상태를 구독할 때 사용자 B는 사용자 A가 이제 사용자 B의 현재 상태를 구독한다는 프롬프트를 받게 되며 사용자 B의 프롬프트 구독자 테이블에서 승인 프롬프트가 만들어집니다. 사용자 B가 구독을 수락하거나 승인하고 나면 사용자 B의 프롬프트 구독자 테이블에서 승인 프롬프트가 제거됩니다.</span><span class="sxs-lookup"><span data-stu-id="802be-p103">Limits the number of entries in the prompted subscribers table. This setting determines the maximum number of prompts that can be queued for a given user. For example, when user A subscribes to user B’s presence, user B receives a prompt that user A is now subscribed to user B, and an acknowledgement prompt is created in user B’s prompted subscribers table. After user B accepts, or acknowledges, the subscription, the acknowledgement prompt is removed from user B’s prompted subscribers table.</span></span></p>
+<p><span data-ttu-id="802be-127">설정이 0인 경우 다른 사람이 사용자의 현재 상태를 구독할 때 해당 사용자에게 메시지가 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="802be-127">A setting of 0 means that the user is not prompted when someone subscribes to his or her presence.</span></span></p></td>
+<td><p><span data-ttu-id="802be-128">정수 또는 토큰</span><span class="sxs-lookup"><span data-stu-id="802be-128">Integer or Token</span></span></p></td>
+<td><p><span data-ttu-id="802be-129">0-500</span><span class="sxs-lookup"><span data-stu-id="802be-129">0-500</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="2a6c3-129">기본적으로 **기본 정책** 및 **서비스: 중간** 거점 정책은 Lync Server를 배포할 때 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-129">By default, the **Default Policy** and **Service: Medium** presence policies are installed when you deploy Lync Server.</span></span> <span data-ttu-id="2a6c3-130">다음 표에는 두 개의 현재 상태 정책에 대한 특정 설정이 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-130">The following table describes the specific settings of the two presence policies.</span></span>
+<span data-ttu-id="802be-130">기본적으로 **기본 정책** 및 **서비스: 중간** 거점 정책은 Lync Server를 배포할 때 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="802be-130">By default, the **Default Policy** and **Service: Medium** presence policies are installed when you deploy Lync Server.</span></span> <span data-ttu-id="802be-131">다음 표에는 두 개의 현재 상태 정책에 대한 특정 설정이 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="802be-131">The following table describes the specific settings of the two presence policies.</span></span>
 
-### <a name="presence-policies"></a><span data-ttu-id="2a6c3-131">현재 상태 정책</span><span class="sxs-lookup"><span data-stu-id="2a6c3-131">Presence Policies</span></span>
+### <a name="presence-policies"></a><span data-ttu-id="802be-132">현재 상태 정책</span><span class="sxs-lookup"><span data-stu-id="802be-132">Presence Policies</span></span>
 
 <table>
 <colgroup>
@@ -101,24 +102,24 @@ ms.locfileid: "48527125"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2a6c3-132">정책 이름</span><span class="sxs-lookup"><span data-stu-id="2a6c3-132">Policy name</span></span></th>
-<th><span data-ttu-id="2a6c3-133">설명</span><span class="sxs-lookup"><span data-stu-id="2a6c3-133">Description</span></span></th>
-<th><span data-ttu-id="2a6c3-134">CategorySubscriptions</span><span class="sxs-lookup"><span data-stu-id="2a6c3-134">CategorySubscriptions</span></span></th>
-<th><span data-ttu-id="2a6c3-135">PromptedSubscribers</span><span class="sxs-lookup"><span data-stu-id="2a6c3-135">PromptedSubscribers</span></span></th>
+<th><span data-ttu-id="802be-133">정책 이름</span><span class="sxs-lookup"><span data-stu-id="802be-133">Policy name</span></span></th>
+<th><span data-ttu-id="802be-134">설명</span><span class="sxs-lookup"><span data-stu-id="802be-134">Description</span></span></th>
+<th><span data-ttu-id="802be-135">CategorySubscriptions</span><span class="sxs-lookup"><span data-stu-id="802be-135">CategorySubscriptions</span></span></th>
+<th><span data-ttu-id="802be-136">PromptedSubscribers</span><span class="sxs-lookup"><span data-stu-id="802be-136">PromptedSubscribers</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2a6c3-136">기본 정책</span><span class="sxs-lookup"><span data-stu-id="2a6c3-136">Default Policy</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-p105">일반 사용자를 위한 정책이며, 기본 현재 상태 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-p105">Policy for typical users. This is the default presence policy.</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-139">1000</span><span class="sxs-lookup"><span data-stu-id="2a6c3-139">1000</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-140">200</span><span class="sxs-lookup"><span data-stu-id="2a6c3-140">200</span></span></p></td>
+<td><p><span data-ttu-id="802be-137">기본 정책</span><span class="sxs-lookup"><span data-stu-id="802be-137">Default Policy</span></span></p></td>
+<td><p><span data-ttu-id="802be-p105">일반 사용자를 위한 정책이며, 기본 현재 상태 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="802be-p105">Policy for typical users. This is the default presence policy.</span></span></p></td>
+<td><p><span data-ttu-id="802be-140">1000</span><span class="sxs-lookup"><span data-stu-id="802be-140">1000</span></span></p></td>
+<td><p><span data-ttu-id="802be-141">200</span><span class="sxs-lookup"><span data-stu-id="802be-141">200</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2a6c3-141">서비스: 보통</span><span class="sxs-lookup"><span data-stu-id="2a6c3-141">Service: Medium</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-142">기타 사용자가 개체의 현재 상태를 구독해야 하는 응용 프로그램을 위한 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="2a6c3-142">Policy for applications that require more users to subscribe to the object’s presence.</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-143">1000</span><span class="sxs-lookup"><span data-stu-id="2a6c3-143">1000</span></span></p></td>
-<td><p><span data-ttu-id="2a6c3-144">개</span><span class="sxs-lookup"><span data-stu-id="2a6c3-144">0</span></span></p></td>
+<td><p><span data-ttu-id="802be-142">서비스: 보통</span><span class="sxs-lookup"><span data-stu-id="802be-142">Service: Medium</span></span></p></td>
+<td><p><span data-ttu-id="802be-143">기타 사용자가 개체의 현재 상태를 구독해야 하는 응용 프로그램을 위한 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="802be-143">Policy for applications that require more users to subscribe to the object’s presence.</span></span></p></td>
+<td><p><span data-ttu-id="802be-144">1000</span><span class="sxs-lookup"><span data-stu-id="802be-144">1000</span></span></p></td>
+<td><p><span data-ttu-id="802be-145">개</span><span class="sxs-lookup"><span data-stu-id="802be-145">0</span></span></p></td>
 </tr>
 </tbody>
 </table>

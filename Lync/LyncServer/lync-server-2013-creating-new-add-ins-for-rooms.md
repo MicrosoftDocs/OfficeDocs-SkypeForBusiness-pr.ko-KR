@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 채팅방을 위한 새 추가 기능 만들기'
+description: 'Lync Server 2013: 대화방에 대 한 새 추가 기능을 만듭니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48706001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1dbf63e9afb97a721e65027c85c953673fdc021
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 55d14f3bd8ad2a021437af88c8fd0e2b71d79fde
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531535"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563084"
 ---
-# <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a><span data-ttu-id="2c582-102">Lync Server 2013에서 대화방을 위한 새 추가 기능 만들기</span><span class="sxs-lookup"><span data-stu-id="2c582-102">Creating new add-ins for rooms in Lync Server 2013</span></span>
+# <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a><span data-ttu-id="95c63-103">Lync Server 2013에서 대화방을 위한 새 추가 기능 만들기</span><span class="sxs-lookup"><span data-stu-id="95c63-103">Creating new add-ins for rooms in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48531535"
 
 <span> </span>
 
-<span data-ttu-id="2c582-103">_**마지막으로 수정 된 항목:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="2c582-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="95c63-104">_**마지막으로 수정 된 항목:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="95c63-104">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="2c582-104">영구 채팅방에 대 한 추가 기능을 만들려면 배포 설명서의 [Lync Server 2013에서 대화방에 대 한 추가 기능 구성을](lync-server-2013-configure-add-ins-for-rooms.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2c582-104">To create Add-ins for Persistent Chat rooms, see [Configure add-ins for rooms in Lync Server 2013](lync-server-2013-configure-add-ins-for-rooms.md) in the Deployment documentation.</span></span> <span data-ttu-id="2c582-105">영구 채팅 관리자는 Lync Server 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 추가 기능을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2c582-105">If you are a Persistent Chat administrator, you can create add-ins by using the Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
+<span data-ttu-id="95c63-105">영구 채팅방에 대 한 추가 기능을 만들려면 배포 설명서의 [Lync Server 2013에서 대화방에 대 한 추가 기능 구성을](lync-server-2013-configure-add-ins-for-rooms.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="95c63-105">To create Add-ins for Persistent Chat rooms, see [Configure add-ins for rooms in Lync Server 2013](lync-server-2013-configure-add-ins-for-rooms.md) in the Deployment documentation.</span></span> <span data-ttu-id="95c63-106">영구 채팅 관리자는 Lync Server 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 추가 기능을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="95c63-106">If you are a Persistent Chat administrator, you can create add-ins by using the Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
 
 </div>
 
