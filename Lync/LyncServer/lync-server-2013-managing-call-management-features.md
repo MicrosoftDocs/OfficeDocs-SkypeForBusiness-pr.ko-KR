@@ -12,20 +12,22 @@ ms:contentKeyID: 49733805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c586c02aa24073cd6de17565a53dd97333337df
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 99ed242058c50cc497aeba37f8e87ec04e70e926
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185801"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505945"
 ---
+# <a name="managing-call-management-features-in-lync-server-2013"></a><span data-ttu-id="31042-102">Lync Server 2013의 통화 관리 기능 관리</span><span class="sxs-lookup"><span data-stu-id="31042-102">Managing call management features in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-management-features-in-lync-server-2013"></a><span data-ttu-id="e528b-102">Lync Server 2013의 통화 관리 기능 관리</span><span class="sxs-lookup"><span data-stu-id="e528b-102">Managing call management features in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,31 +37,31 @@ ms.locfileid: "42185801"
 
 <span> </span>
 
-<span data-ttu-id="e528b-103">_**마지막으로 수정 된 항목:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="e528b-103">_**Topic Last Modified:** 2012-12-18_</span></span>
+<span data-ttu-id="31042-103">_**마지막으로 수정 된 항목:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="31042-103">_**Topic Last Modified:** 2012-12-18_</span></span>
 
-<span data-ttu-id="e528b-104">Enterprise Voice 통화 관리 기능은 수신 전화를 라우팅하고 받는 방법을 제어합니다.</span><span class="sxs-lookup"><span data-stu-id="e528b-104">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="e528b-105">Lync Server 2013에서는 다음과 같은 통화 관리 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="e528b-105">Lync Server 2013 provides the following call management features:</span></span>
+<span data-ttu-id="31042-104">Enterprise Voice 통화 관리 기능은 수신 전화를 라우팅하고 받는 방법을 제어합니다.</span><span class="sxs-lookup"><span data-stu-id="31042-104">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="31042-105">Lync Server 2013에서는 다음과 같은 통화 관리 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="31042-105">Lync Server 2013 provides the following call management features:</span></span>
 
-  - <span data-ttu-id="e528b-106">**통화 대기:** 음성 사용자가 통화를 일시적으로 대기 했다가 같은 전화나 다른 전화기에서 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e528b-106">**Call Park:** Enables voice users to temporarily park a call and then pick it up from the same phone or another phone.</span></span>
+  - <span data-ttu-id="31042-106">**통화 대기:** 음성 사용자가 통화를 일시적으로 대기 했다가 같은 전화나 다른 전화기에서 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31042-106">**Call Park:** Enables voice users to temporarily park a call and then pick it up from the same phone or another phone.</span></span>
 
-  - <span data-ttu-id="e528b-107">**그룹 픽업:** 사용자가 통화 픽업 그룹 번호를 사용 하 여 다른 사용자에 게 신호음 울림 통화를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e528b-107">**Group Pickup:** Enables users to pick up calls that are ringing for other users by dialing a call pickup group number.</span></span>
+  - <span data-ttu-id="31042-107">**그룹 픽업:** 사용자가 통화 픽업 그룹 번호를 사용 하 여 다른 사용자에 게 신호음 울림 통화를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31042-107">**Group Pickup:** Enables users to pick up calls that are ringing for other users by dialing a call pickup group number.</span></span>
 
-  - <span data-ttu-id="e528b-108">**응답 그룹:** 헌트 그룹 또는 IVR (대화형 음성 응답) 질문과 대답을 사용 하 여 수신 전화를 에이전트 그룹으로 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="e528b-108">**Response Group:** Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
+  - <span data-ttu-id="31042-108">**응답 그룹:** 헌트 그룹 또는 IVR (대화형 음성 응답) 질문과 대답을 사용 하 여 수신 전화를 에이전트 그룹으로 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="31042-108">**Response Group:** Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
 
-  - <span data-ttu-id="e528b-109">**공지 사항:** 지정 되지 않은 번호에 대 한 통화에 대해 메시지를 재생 하거나, 통화를 다른 곳으로 라우트 하거나 두 가지를 모두 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e528b-109">**Announcement:** Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
+  - <span data-ttu-id="31042-109">**공지 사항:** 지정 되지 않은 번호에 대 한 통화에 대해 메시지를 재생 하거나, 통화를 다른 곳으로 라우트 하거나 두 가지를 모두 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="31042-109">**Announcement:** Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
 
-<span data-ttu-id="e528b-110">이 섹션에서는 엔터프라이즈 음성 배포에서 이러한 통화 관리 기능을 관리 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="e528b-110">This section describes how to manage these call management features in your Enterprise Voice deployment.</span></span>
+<span data-ttu-id="31042-110">이 섹션에서는 엔터프라이즈 음성 배포에서 이러한 통화 관리 기능을 관리 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="31042-110">This section describes how to manage these call management features in your Enterprise Voice deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e528b-111">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="e528b-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="31042-111">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="31042-111">In This Section</span></span>
 
-  - [<span data-ttu-id="e528b-112">Lync Server 2013의 통화 대기 관리</span><span class="sxs-lookup"><span data-stu-id="e528b-112">Managing Call Park in Lync Server 2013</span></span>](lync-server-2013-managing-call-park.md)
+  - [<span data-ttu-id="31042-112">Lync Server 2013의 통화 대기 관리</span><span class="sxs-lookup"><span data-stu-id="31042-112">Managing Call Park in Lync Server 2013</span></span>](lync-server-2013-managing-call-park.md)
 
-  - [<span data-ttu-id="e528b-113">Lync Server 2013에서 그룹 통화 픽업 관리</span><span class="sxs-lookup"><span data-stu-id="e528b-113">Managing Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-managing-group-call-pickup.md)
+  - [<span data-ttu-id="31042-113">Lync Server 2013에서 그룹 통화 픽업 관리</span><span class="sxs-lookup"><span data-stu-id="31042-113">Managing Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-managing-group-call-pickup.md)
 
-  - [<span data-ttu-id="e528b-114">Lync Server 2013에서 응답 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="e528b-114">Managing response groups in Lync Server 2013</span></span>](lync-server-2013-managing-response-groups.md)
+  - [<span data-ttu-id="31042-114">Lync Server 2013에서 응답 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="31042-114">Managing response groups in Lync Server 2013</span></span>](lync-server-2013-managing-response-groups.md)
 
-  - [<span data-ttu-id="e528b-115">Lync Server 2013에서 할당 되지 않은 번호에 대 한 통화 관리</span><span class="sxs-lookup"><span data-stu-id="e528b-115">Managing calls to unassigned numbers in Lync Server 2013</span></span>](lync-server-2013-managing-calls-to-unassigned-numbers.md)
+  - [<span data-ttu-id="31042-115">Lync Server 2013에서 할당 되지 않은 번호에 대 한 통화 관리</span><span class="sxs-lookup"><span data-stu-id="31042-115">Managing calls to unassigned numbers in Lync Server 2013</span></span>](lync-server-2013-managing-calls-to-unassigned-numbers.md)
 
 </div>
 
