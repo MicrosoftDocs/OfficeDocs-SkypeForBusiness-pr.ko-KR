@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 용량 계획
+description: Lync Server 2013 용량 계획
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49352446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3b8a2a9bb70fe62bb2f7d4b74baecc22e77c0d3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 794966ee2de76d2470c6cc633853b25a50a406ef
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508125"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544404"
 ---
-# <a name="capacity-planning-for-lync-server-2013"></a><span data-ttu-id="6961c-102">Lync Server 2013에 대 한 용량 계획</span><span class="sxs-lookup"><span data-stu-id="6961c-102">Capacity planning for Lync Server 2013</span></span>
+# <a name="capacity-planning-for-lync-server-2013"></a><span data-ttu-id="b4d5e-103">Lync Server 2013에 대 한 용량 계획</span><span class="sxs-lookup"><span data-stu-id="b4d5e-103">Capacity planning for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48508125"
 
 <span> </span>
 
-<span data-ttu-id="6961c-103">_**마지막으로 수정 된 항목:** 2013-07-31_</span><span class="sxs-lookup"><span data-stu-id="6961c-103">_**Topic Last Modified:** 2013-07-31_</span></span>
+<span data-ttu-id="b4d5e-104">_**마지막으로 수정 된 항목:** 2013-07-31_</span><span class="sxs-lookup"><span data-stu-id="b4d5e-104">_**Topic Last Modified:** 2013-07-31_</span></span>
 
-<span data-ttu-id="6961c-104">이 섹션의 항목은 조직의 사용자 수를 적절 하 게 계획 하 고 활동이 생성 하는 서버 부하를 계획할 수 있도록 Lync Server 2013을 계획 및 배포 하는 방법을 이해 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6961c-104">The topics in this section help you understand how to plan and deploy Lync Server 2013 so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate.</span></span>
+<span data-ttu-id="b4d5e-105">이 섹션의 항목은 조직의 사용자 수를 적절 하 게 계획 하 고 활동이 생성 하는 서버 부하를 계획할 수 있도록 Lync Server 2013을 계획 및 배포 하는 방법을 이해 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b4d5e-105">The topics in this section help you understand how to plan and deploy Lync Server 2013 so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6961c-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="6961c-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b4d5e-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="b4d5e-106">In This Section</span></span>
 
-  - [<span data-ttu-id="6961c-106">사용자 모델을 사용 하는 Lync Server 2013에 대 한 용량 계획</span><span class="sxs-lookup"><span data-stu-id="6961c-106">Capacity planning for Lync Server 2013 using the user models</span></span>](lync-server-2013-capacity-planning-using-the-user-models.md)
+  - [<span data-ttu-id="b4d5e-107">사용자 모델을 사용 하는 Lync Server 2013에 대 한 용량 계획</span><span class="sxs-lookup"><span data-stu-id="b4d5e-107">Capacity planning for Lync Server 2013 using the user models</span></span>](lync-server-2013-capacity-planning-using-the-user-models.md)
 
-  - [<span data-ttu-id="6961c-107">Lync Server 2013의 음성 사용량 및 트래픽 예상</span><span class="sxs-lookup"><span data-stu-id="6961c-107">Estimating voice usage and traffic for Lync Server 2013</span></span>](lync-server-2013-estimating-voice-usage-and-traffic.md)
+  - [<span data-ttu-id="b4d5e-108">Lync Server 2013의 음성 사용량 및 트래픽 예상</span><span class="sxs-lookup"><span data-stu-id="b4d5e-108">Estimating voice usage and traffic for Lync Server 2013</span></span>](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [<span data-ttu-id="6961c-108">Lync Server 2013의 중재 서버 배포 지침</span><span class="sxs-lookup"><span data-stu-id="6961c-108">Deployment guidelines for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [<span data-ttu-id="b4d5e-109">Lync Server 2013의 중재 서버 배포 지침</span><span class="sxs-lookup"><span data-stu-id="b4d5e-109">Deployment guidelines for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-deployment-guidelines-for-mediation-server.md)
 
-  - [<span data-ttu-id="6961c-109">Lync Server 2013의 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="6961c-109">User models in Lync Server 2013</span></span>](lync-server-2013-user-models.md)
+  - [<span data-ttu-id="b4d5e-110">Lync Server 2013의 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="b4d5e-110">User models in Lync Server 2013</span></span>](lync-server-2013-user-models.md)
 
-  - [<span data-ttu-id="6961c-110">Lync Server 2013에 대 한 용량 계획 계산기 사용</span><span class="sxs-lookup"><span data-stu-id="6961c-110">Using the capacity planning calculator for Lync Server 2013</span></span>](lync-server-2013-capacity-planning-calculator.md)
+  - [<span data-ttu-id="b4d5e-111">Lync Server 2013에 대 한 용량 계획 계산기 사용</span><span class="sxs-lookup"><span data-stu-id="b4d5e-111">Using the capacity planning calculator for Lync Server 2013</span></span>](lync-server-2013-capacity-planning-calculator.md)
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server 관리 도구 열기'
+description: 'Lync Server 2013: Lync Server 관리 도구를 엽니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c3b8ae0dd21221700101d1c94e1a72a4e987de5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 01cf0dc0c17686e2b1c7bee17bdc383ab6247909
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531765"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544764"
 ---
-# <a name="open-lync-server-2013-administrative-tools"></a><span data-ttu-id="2d296-102">Lync Server 2013 관리 도구 열기</span><span class="sxs-lookup"><span data-stu-id="2d296-102">Open Lync Server 2013 administrative tools</span></span>
+# <a name="open-lync-server-2013-administrative-tools"></a><span data-ttu-id="eca5f-103">Lync Server 2013 관리 도구 열기</span><span class="sxs-lookup"><span data-stu-id="eca5f-103">Open Lync Server 2013 administrative tools</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,33 +38,33 @@ ms.locfileid: "48531765"
 
 <span> </span>
 
-<span data-ttu-id="2d296-103">_**마지막으로 수정 된 항목:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="2d296-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="eca5f-104">_**마지막으로 수정 된 항목:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="eca5f-104">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="2d296-104">이 항목의 절차를 사용 하 여 Lync Server 2013 토폴로지를 배포, 구성 또는 문제 해결할 관리 도구를 열 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-104">You can use the procedures in this topic to open administrative tools to deploy, configure, or troubleshoot your Lync Server 2013 topology.</span></span>
+<span data-ttu-id="eca5f-105">이 항목의 절차를 사용 하 여 Lync Server 2013 토폴로지를 배포, 구성 또는 문제 해결할 관리 도구를 열 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-105">You can use the procedures in this topic to open administrative tools to deploy, configure, or troubleshoot your Lync Server 2013 topology.</span></span>
 
-  - <span data-ttu-id="2d296-105">배포 마법사</span><span class="sxs-lookup"><span data-stu-id="2d296-105">Deployment Wizard</span></span>
+  - <span data-ttu-id="eca5f-106">배포 마법사</span><span class="sxs-lookup"><span data-stu-id="eca5f-106">Deployment Wizard</span></span>
 
-  - <span data-ttu-id="2d296-106">토폴로지 작성기</span><span class="sxs-lookup"><span data-stu-id="2d296-106">Topology Builder</span></span>
+  - <span data-ttu-id="eca5f-107">토폴로지 작성기</span><span class="sxs-lookup"><span data-stu-id="eca5f-107">Topology Builder</span></span>
 
-  - <span data-ttu-id="2d296-107">Lync Server 제어판</span><span class="sxs-lookup"><span data-stu-id="2d296-107">Lync Server Control Panel</span></span>
+  - <span data-ttu-id="eca5f-108">Lync Server 제어판</span><span class="sxs-lookup"><span data-stu-id="eca5f-108">Lync Server Control Panel</span></span>
 
-  - <span data-ttu-id="2d296-108">Lync Server 관리 셸</span><span class="sxs-lookup"><span data-stu-id="2d296-108">Lync Server Management Shell</span></span>
+  - <span data-ttu-id="eca5f-109">Lync Server 관리 셸</span><span class="sxs-lookup"><span data-stu-id="eca5f-109">Lync Server Management Shell</span></span>
 
 <span id="BKMK_OpenDeploymentWizard"></span>
 
 <div>
 
-## <a name="deployment-wizard"></a><span data-ttu-id="2d296-109">배포 마법사</span><span class="sxs-lookup"><span data-stu-id="2d296-109">Deployment Wizard</span></span>
+## <a name="deployment-wizard"></a><span data-ttu-id="eca5f-110">배포 마법사</span><span class="sxs-lookup"><span data-stu-id="eca5f-110">Deployment Wizard</span></span>
 
-<span data-ttu-id="2d296-110">다음 절차에 따라 배포 마법사를 로컬로 시작 하 여 Lync Server 2013 구성 요소 파일을 추가 하거나 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-110">Use the following procedure to start the Deployment Wizard locally to add or remove Lync Server 2013 component files.</span></span>
+<span data-ttu-id="eca5f-111">다음 절차에 따라 배포 마법사를 로컬로 시작 하 여 Lync Server 2013 구성 요소 파일을 추가 하거나 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-111">Use the following procedure to start the Deployment Wizard locally to add or remove Lync Server 2013 component files.</span></span>
 
 <div>
 
-## <a name="to-start-lync-server-2013-deployment-wizard"></a><span data-ttu-id="2d296-111">Lync Server 2013 배포 마법사를 시작 하려면</span><span class="sxs-lookup"><span data-stu-id="2d296-111">To start Lync Server 2013 Deployment Wizard</span></span>
+## <a name="to-start-lync-server-2013-deployment-wizard"></a><span data-ttu-id="eca5f-112">Lync Server 2013 배포 마법사를 시작 하려면</span><span class="sxs-lookup"><span data-stu-id="eca5f-112">To start Lync Server 2013 Deployment Wizard</span></span>
 
-1.  <span data-ttu-id="2d296-112">Lync Server 배포 마법사가 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 설치 된 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-112">Log on to the computer where the Lync Server Deployment Wizard is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="eca5f-113">Lync Server 배포 마법사가 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 설치 된 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-113">Log on to the computer where the Lync Server Deployment Wizard is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="2d296-113">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013**, **Lync server 배포 마법사**를 차례로 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-113">Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Deployment Wizard**.</span></span>
+2.  <span data-ttu-id="eca5f-114">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013**, **Lync server 배포 마법사**를 차례로 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-114">Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Deployment Wizard**.</span></span>
 
 </div>
 
@@ -73,26 +74,26 @@ ms.locfileid: "48531765"
 
 <div>
 
-## <a name="topology-builder"></a><span data-ttu-id="2d296-114">토폴로지 작성기</span><span class="sxs-lookup"><span data-stu-id="2d296-114">Topology Builder</span></span>
+## <a name="topology-builder"></a><span data-ttu-id="eca5f-115">토폴로지 작성기</span><span class="sxs-lookup"><span data-stu-id="eca5f-115">Topology Builder</span></span>
 
-<span data-ttu-id="2d296-115">다음 절차에 따라 토폴로지 작성기를 열어 Lync Server 2013 토폴로지에서 배포할 서버를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-115">Use the following procedure to open the Topology Builder to define the servers that you want to deploy in your Lync Server 2013 topology.</span></span>
+<span data-ttu-id="eca5f-116">다음 절차에 따라 토폴로지 작성기를 열어 Lync Server 2013 토폴로지에서 배포할 서버를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-116">Use the following procedure to open the Topology Builder to define the servers that you want to deploy in your Lync Server 2013 topology.</span></span>
 
 <div>
 
-## <a name="to-open-lync-server-2013-topology-builder-to-design-the-topology"></a><span data-ttu-id="2d296-116">Lync Server 2013 토폴로지 작성기를 열어 토폴로지를 디자인 하려면</span><span class="sxs-lookup"><span data-stu-id="2d296-116">To open Lync Server 2013 Topology Builder to design the topology</span></span>
+## <a name="to-open-lync-server-2013-topology-builder-to-design-the-topology"></a><span data-ttu-id="eca5f-117">Lync Server 2013 토폴로지 작성기를 열어 토폴로지를 디자인 하려면</span><span class="sxs-lookup"><span data-stu-id="eca5f-117">To open Lync Server 2013 Topology Builder to design the topology</span></span>
 
-1.  <span data-ttu-id="2d296-117">토폴로지 작성기가 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 설치되어 있는 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-117">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="eca5f-118">토폴로지 작성기가 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 설치되어 있는 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-118">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="2d296-118">로컬 Users 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만 서버에 Lync Server 2013을 설치 하는 데 필요한 토폴로지를 읽거나 게시 하거나 사용 하도록 설정 하려면 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원 인 계정을 사용 해야 하며 모든 권한을 가진 (즉, , 토폴로지 작성기가 필요한 Dacl (임의 액세스 제어 목록) 또는 이와 동등한 사용자 권한을 가진 계정을 구성할 수 있도록 보관 파일 저장소에 사용할 파일 공유에 대 한 읽기, 쓰기 및 수정)</span><span class="sxs-lookup"><span data-stu-id="2d296-118">You can define a topology by using an account that is a member of the local Users group, but to read, publish, or enable a topology, which is required to install Lync Server 2013 on a server, you must use an account that is a member of the Domain Admins group and the RTCUniversalServerAdmins group, and that has full control permissions (that is, read, write, and modify) on the file share that you are going to use for the archiving file store so that Topology Builder can configure the required discretionary access control list (DACLs), or an account with equivalent user rights.</span></span>
+    > <span data-ttu-id="eca5f-119">로컬 Users 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만 서버에 Lync Server 2013을 설치 하는 데 필요한 토폴로지를 읽거나 게시 하거나 사용 하도록 설정 하려면 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원 인 계정을 사용 해야 하며 모든 권한을 가진 (즉, , 토폴로지 작성기가 필요한 Dacl (임의 액세스 제어 목록) 또는 이와 동등한 사용자 권한을 가진 계정을 구성할 수 있도록 보관 파일 저장소에 사용할 파일 공유에 대 한 읽기, 쓰기 및 수정)</span><span class="sxs-lookup"><span data-stu-id="eca5f-119">You can define a topology by using an account that is a member of the local Users group, but to read, publish, or enable a topology, which is required to install Lync Server 2013 on a server, you must use an account that is a member of the Domain Admins group and the RTCUniversalServerAdmins group, and that has full control permissions (that is, read, write, and modify) on the file share that you are going to use for the archiving file store so that Topology Builder can configure the required discretionary access control list (DACLs), or an account with equivalent user rights.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="2d296-119">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-119">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+2.  <span data-ttu-id="eca5f-120">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-120">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
 </div>
 
@@ -102,15 +103,15 @@ ms.locfileid: "48531765"
 
 <div>
 
-## <a name="lync-server-2013-control-panel"></a><span data-ttu-id="2d296-120">Lync Server 2013 제어판</span><span class="sxs-lookup"><span data-stu-id="2d296-120">Lync Server 2013 Control Panel</span></span>
+## <a name="lync-server-2013-control-panel"></a><span data-ttu-id="eca5f-121">Lync Server 2013 제어판</span><span class="sxs-lookup"><span data-stu-id="eca5f-121">Lync Server 2013 Control Panel</span></span>
 
-<span data-ttu-id="2d296-121">다음 절차 중 하나를 사용 하 여 Lync Server 2013 제어판을 열어 해당 환경의 서버, 사용자, 클라이언트 및 장치에 대 한 구성을 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-121">Use one of the following procedures to open Lync Server 2013 Control Panel to manage the configuration of servers, users, clients, and devices in your environment.</span></span>
+<span data-ttu-id="eca5f-122">다음 절차 중 하나를 사용 하 여 Lync Server 2013 제어판을 열어 해당 환경의 서버, 사용자, 클라이언트 및 장치에 대 한 구성을 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-122">Use one of the following procedures to open Lync Server 2013 Control Panel to manage the configuration of servers, users, clients, and devices in your environment.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2d296-122">CsAdministrator 역할에 할당 된 사용자 계정을 사용 하 여 Lync Server 2013 제어판의 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-122">You can use a user account that is assigned to the CsAdministrator role to perform any task in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="2d296-123">다른 역할을 사용 하 여 Lync Server 2013 제어판에 로그온 하 여 수행 해야 하는 작업에 따라 특정 관리 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-123">You can use other roles to log on to Lync Server 2013 Control Panel to perform specific administration tasks, dependent on the task you need to perform.</span></span> <span data-ttu-id="2d296-124">예를 들어 CSArchivingAdministrator을 사용 하 여 Lync Server 2013 제어판에서 보관을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-124">For example, you can use CSArchivingAdministrator to administer Archiving in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="2d296-125">역할에 대 한 자세한 내용은 계획 설명서의 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어 계획</A> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2d296-125">For details about roles, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span> <span data-ttu-id="2d296-126">특정 작업을 수행하기 위해 사용할 수 있는 역할에 대한 자세한 내용은 해당 작업에 대한 설명서를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="2d296-126">For details about the roles that you can use to perform a specific task, see the documentation for the task.</span></span>
+> <span data-ttu-id="eca5f-123">CsAdministrator 역할에 할당 된 사용자 계정을 사용 하 여 Lync Server 2013 제어판의 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-123">You can use a user account that is assigned to the CsAdministrator role to perform any task in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="eca5f-124">다른 역할을 사용 하 여 Lync Server 2013 제어판에 로그온 하 여 수행 해야 하는 작업에 따라 특정 관리 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-124">You can use other roles to log on to Lync Server 2013 Control Panel to perform specific administration tasks, dependent on the task you need to perform.</span></span> <span data-ttu-id="eca5f-125">예를 들어 CSArchivingAdministrator을 사용 하 여 Lync Server 2013 제어판에서 보관을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-125">For example, you can use CSArchivingAdministrator to administer Archiving in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="eca5f-126">역할에 대 한 자세한 내용은 계획 설명서의 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어 계획</A> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="eca5f-126">For details about roles, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span> <span data-ttu-id="eca5f-127">특정 작업을 수행하기 위해 사용할 수 있는 역할에 대한 자세한 내용은 해당 작업에 대한 설명서를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="eca5f-127">For details about the roles that you can use to perform a specific task, see the documentation for the task.</span></span>
 
 
 
@@ -118,30 +119,30 @@ ms.locfileid: "48531765"
 
 <div>
 
-## <a name="to-open-lync-server-2013-control-panel-from-any-computer-inside-your-organizations-firewall"></a><span data-ttu-id="2d296-127">조직의 방화벽 내부에 있는 모든 컴퓨터에서 Lync Server 2013 제어판을 열려면</span><span class="sxs-lookup"><span data-stu-id="2d296-127">To open Lync Server 2013 Control Panel from any computer inside your organization’s firewall</span></span>
+## <a name="to-open-lync-server-2013-control-panel-from-any-computer-inside-your-organizations-firewall"></a><span data-ttu-id="eca5f-128">조직의 방화벽 내부에 있는 모든 컴퓨터에서 Lync Server 2013 제어판을 열려면</span><span class="sxs-lookup"><span data-stu-id="eca5f-128">To open Lync Server 2013 Control Panel from any computer inside your organization’s firewall</span></span>
 
-1.  <span data-ttu-id="2d296-128">CsAdministrator 역할 또는 수행할 작업에 적절 한 사용자 권한 및 사용 권한이 있는 다른 역할에 할당 된 사용자 계정에서 최소 화면 해상도 1024 x 768을 사용 하 여 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-128">From a user account that is assigned to the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to any computer in your internal deployment with a minimum screen resolution of 1024 x 768.</span></span>
+1.  <span data-ttu-id="eca5f-129">CsAdministrator 역할 또는 수행할 작업에 적절 한 사용자 권한 및 사용 권한이 있는 다른 역할에 할당 된 사용자 계정에서 최소 화면 해상도 1024 x 768을 사용 하 여 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-129">From a user account that is assigned to the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to any computer in your internal deployment with a minimum screen resolution of 1024 x 768.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="2d296-129">관리 단순 URL (uniform resource locator)을 구성한 경우 조직의 방화벽 내 모든 컴퓨터에서 실행 되는 인터넷 브라우저에서 Lync Server 2013 제어판에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-129">If you have configured an administration simple uniform resource locator (URL), you can access Lync Server 2013 Control Panel from an Internet browser that is running on any computer within your organization’s firewall.</span></span> <span data-ttu-id="2d296-130">관리 단순 URL을 구성 하는 방법에 대 한 자세한 내용은 배포 설명서의 계획 설명서에서 <A href="lync-server-2013-planning-for-simple-urls.md">Lync server 2013의 단순 Url 계획</A> 및 <A href="lync-server-2013-edit-or-configure-simple-urls.md">lync server 2013의 단순 url 편집 또는 구성</A> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2d296-130">For details about configuring the administration simple URL, see <A href="lync-server-2013-planning-for-simple-urls.md">Planning for simple URLs in Lync Server 2013</A> in the Planning documentation and <A href="lync-server-2013-edit-or-configure-simple-urls.md">Edit or configure simple URLs in Lync Server 2013</A> in the Deployment documentation.</span></span>
+    > <span data-ttu-id="eca5f-130">관리 단순 URL (uniform resource locator)을 구성한 경우 조직의 방화벽 내 모든 컴퓨터에서 실행 되는 인터넷 브라우저에서 Lync Server 2013 제어판에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-130">If you have configured an administration simple uniform resource locator (URL), you can access Lync Server 2013 Control Panel from an Internet browser that is running on any computer within your organization’s firewall.</span></span> <span data-ttu-id="eca5f-131">관리 단순 URL을 구성 하는 방법에 대 한 자세한 내용은 배포 설명서의 계획 설명서에서 <A href="lync-server-2013-planning-for-simple-urls.md">Lync server 2013의 단순 Url 계획</A> 및 <A href="lync-server-2013-edit-or-configure-simple-urls.md">lync server 2013의 단순 url 편집 또는 구성</A> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="eca5f-131">For details about configuring the administration simple URL, see <A href="lync-server-2013-planning-for-simple-urls.md">Planning for simple URLs in Lync Server 2013</A> in the Planning documentation and <A href="lync-server-2013-edit-or-configure-simple-urls.md">Edit or configure simple URLs in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="2d296-131">브라우저 창을 열고 조직에 구성된 관리 URL을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-131">Open a browser window, and then enter the Admin URL configured for your organization.</span></span>
+2.  <span data-ttu-id="eca5f-132">브라우저 창을 열고 조직에 구성된 관리 URL을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-132">Open a browser window, and then enter the Admin URL configured for your organization.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-open-lync-server-2013-control-panel-on-a-computer-running-lync-server-2013"></a><span data-ttu-id="2d296-132">Lync Server 2013를 실행 하는 컴퓨터에서 Lync Server 2013 제어판을 열려면</span><span class="sxs-lookup"><span data-stu-id="2d296-132">To open Lync Server 2013 Control Panel on a computer running Lync Server 2013</span></span>
+## <a name="to-open-lync-server-2013-control-panel-on-a-computer-running-lync-server-2013"></a><span data-ttu-id="eca5f-133">Lync Server 2013를 실행 하는 컴퓨터에서 Lync Server 2013 제어판을 열려면</span><span class="sxs-lookup"><span data-stu-id="eca5f-133">To open Lync Server 2013 Control Panel on a computer running Lync Server 2013</span></span>
 
-1.  <span data-ttu-id="2d296-133">CsAdministrator 역할 또는 수행할 작업에 적절 한 사용자 권한 및 사용 권한이 있는 다른 역할의 구성원 인 사용자 계정에서 Lync Server 2013 또는 최소한 Lync Server 2013 관리 도구를 설치한 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-133">From a user account that is a member of the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to a computer on which you have installed Lync Server 2013 or, at a minimum, the Lync Server 2013 administrative tools.</span></span> <span data-ttu-id="2d296-134">설정을 구성 하려면 컴퓨터의 화면 해상도가 최소 1024 x 768 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-134">To configure settings, the computer must have a minimum screen resolution of 1024 x 768.</span></span>
+1.  <span data-ttu-id="eca5f-134">CsAdministrator 역할 또는 수행할 작업에 적절 한 사용자 권한 및 사용 권한이 있는 다른 역할의 구성원 인 사용자 계정에서 Lync Server 2013 또는 최소한 Lync Server 2013 관리 도구를 설치한 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-134">From a user account that is a member of the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to a computer on which you have installed Lync Server 2013 or, at a minimum, the Lync Server 2013 administrative tools.</span></span> <span data-ttu-id="eca5f-135">설정을 구성 하려면 컴퓨터의 화면 해상도가 최소 1024 x 768 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-135">To configure settings, the computer must have a minimum screen resolution of 1024 x 768.</span></span>
 
-2.  <span data-ttu-id="2d296-135">Lync Server 2013 시작 제어판: **시작**, **모든 프로그램**, **관리 도구**를 차례로 가리킨 다음 **Microsoft lync Server 2013**를 가리키고 **Lync server 2013 제어판**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-135">Start Lync Server 2013 Control Panel: Click **Start**, click **All Programs**, point to **Administrative Tools**, point to **Microsoft Lync Server 2013**, and then click **Lync Server 2013 Control Panel**.</span></span>
+2.  <span data-ttu-id="eca5f-136">Lync Server 2013 시작 제어판: **시작**, **모든 프로그램**, **관리 도구**를 차례로 가리킨 다음 **Microsoft lync Server 2013**를 가리키고 **Lync server 2013 제어판**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-136">Start Lync Server 2013 Control Panel: Click **Start**, click **All Programs**, point to **Administrative Tools**, point to **Microsoft Lync Server 2013**, and then click **Lync Server 2013 Control Panel**.</span></span>
 
 </div>
 
@@ -151,15 +152,15 @@ ms.locfileid: "48531765"
 
 <div>
 
-## <a name="lync-server-2013-management-shell"></a><span data-ttu-id="2d296-136">Lync Server 2013 관리 셸</span><span class="sxs-lookup"><span data-stu-id="2d296-136">Lync Server 2013 Management Shell</span></span>
+## <a name="lync-server-2013-management-shell"></a><span data-ttu-id="eca5f-137">Lync Server 2013 관리 셸</span><span class="sxs-lookup"><span data-stu-id="eca5f-137">Lync Server 2013 Management Shell</span></span>
 
-<span data-ttu-id="2d296-137">다음 절차에 따라 명령줄을 사용 하 여 사용자 환경의 서버, 사용자, 클라이언트 및 장치를 관리 하기 위해 Lync Server 2013 관리 셸을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-137">Use the following procedure to open Lync Server 2013 Management Shell to administer servers, users, clients, and devices in your environment by using the command line.</span></span>
+<span data-ttu-id="eca5f-138">다음 절차에 따라 명령줄을 사용 하 여 사용자 환경의 서버, 사용자, 클라이언트 및 장치를 관리 하기 위해 Lync Server 2013 관리 셸을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-138">Use the following procedure to open Lync Server 2013 Management Shell to administer servers, users, clients, and devices in your environment by using the command line.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2d296-138">CsAdministrator 역할에 할당 된 사용자 계정을 사용 하 여 Lync Server 2013 관리 셸에서 모든 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-138">You can use a user account that is assigned to the CsAdministrator role to perform any task in Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="2d296-139">수행해야 하는 작업에 따라 다른 역할을 사용하여 로그온해서 특정 관리 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-139">You can log on using other roles to perform specific administration tasks, depending on the task you need to perform.</span></span> <span data-ttu-id="2d296-140">예를 들어 CSArchivingAdministrator를 사용하여 보관 관리와 관련된 cmdlet을 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-140">For example, you can use CSArchivingAdministrator to run cmdlets related to Archiving administration.</span></span> <span data-ttu-id="2d296-141">역할에 대 한 자세한 내용은 계획 설명서의 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어 계획</A> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2d296-141">For details about roles, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span> <span data-ttu-id="2d296-142">특정 cmdlet을 실행하기 위해 사용할 수 있는 역할에 대한 자세한 내용은 해당 cmdlet에 대한 설명서를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="2d296-142">For details about the roles that you can use to run a specific cmdlet, see the documentation for the cmdlet.</span></span><BR><span data-ttu-id="2d296-143">또한 cmdlet에 따라 RTCUniversalServerAdmins, RTCUniversalUserAdmins 또는 RTCUniversalReadOnlyAdmins 그룹의 사용자 계정을 사용하여 특정 cmdlet을 실행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-143">You can also run certain cmdlets by using a user account in the RTCUniversalServerAdmins, RTCUniversalUserAdmins, or RTCUniversalReadOnlyAdmins groups, depending on the cmdlet.</span></span>
+> <span data-ttu-id="eca5f-139">CsAdministrator 역할에 할당 된 사용자 계정을 사용 하 여 Lync Server 2013 관리 셸에서 모든 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-139">You can use a user account that is assigned to the CsAdministrator role to perform any task in Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="eca5f-140">수행해야 하는 작업에 따라 다른 역할을 사용하여 로그온해서 특정 관리 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-140">You can log on using other roles to perform specific administration tasks, depending on the task you need to perform.</span></span> <span data-ttu-id="eca5f-141">예를 들어 CSArchivingAdministrator를 사용하여 보관 관리와 관련된 cmdlet을 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-141">For example, you can use CSArchivingAdministrator to run cmdlets related to Archiving administration.</span></span> <span data-ttu-id="eca5f-142">역할에 대 한 자세한 내용은 계획 설명서의 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어 계획</A> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="eca5f-142">For details about roles, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span> <span data-ttu-id="eca5f-143">특정 cmdlet을 실행하기 위해 사용할 수 있는 역할에 대한 자세한 내용은 해당 cmdlet에 대한 설명서를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="eca5f-143">For details about the roles that you can use to run a specific cmdlet, see the documentation for the cmdlet.</span></span><BR><span data-ttu-id="eca5f-144">또한 cmdlet에 따라 RTCUniversalServerAdmins, RTCUniversalUserAdmins 또는 RTCUniversalReadOnlyAdmins 그룹의 사용자 계정을 사용하여 특정 cmdlet을 실행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-144">You can also run certain cmdlets by using a user account in the RTCUniversalServerAdmins, RTCUniversalUserAdmins, or RTCUniversalReadOnlyAdmins groups, depending on the cmdlet.</span></span>
 
 
 
@@ -167,13 +168,13 @@ ms.locfileid: "48531765"
 
 <div>
 
-## <a name="to-open-the-lync-server-2013-management-shell"></a><span data-ttu-id="2d296-144">Lync Server 2013 관리 셸을 열려면</span><span class="sxs-lookup"><span data-stu-id="2d296-144">To open the Lync Server 2013 Management Shell</span></span>
+## <a name="to-open-the-lync-server-2013-management-shell"></a><span data-ttu-id="eca5f-145">Lync Server 2013 관리 셸을 열려면</span><span class="sxs-lookup"><span data-stu-id="eca5f-145">To open the Lync Server 2013 Management Shell</span></span>
 
-  - <span data-ttu-id="2d296-145">Lync Server 2013 관리 셸이 아닌 Windows PowerShell 창을 여는 경우 기본적으로 Lync Server 2013 cmdlet을 실행할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-145">If you open a Windows PowerShell window rather than the Lync Server 2013 Management Shell, by default you cannot run the Lync Server 2013 cmdlets.</span></span> <span data-ttu-id="2d296-146">Windows PowerShell 내에서 Lync Server 2013 cmdlet을 실행 하려면 Windows PowerShell 명령 프롬프트에 다음을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-146">To run the Lync Server 2013 cmdlets from within Windows PowerShell, type the following at the Windows PowerShell command prompt:</span></span>
+  - <span data-ttu-id="eca5f-146">Lync Server 2013 관리 셸이 아닌 Windows PowerShell 창을 여는 경우 기본적으로 Lync Server 2013 cmdlet을 실행할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-146">If you open a Windows PowerShell window rather than the Lync Server 2013 Management Shell, by default you cannot run the Lync Server 2013 cmdlets.</span></span> <span data-ttu-id="eca5f-147">Windows PowerShell 내에서 Lync Server 2013 cmdlet을 실행 하려면 Windows PowerShell 명령 프롬프트에 다음을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-147">To run the Lync Server 2013 cmdlets from within Windows PowerShell, type the following at the Windows PowerShell command prompt:</span></span>
     
     `Import-Module Lync`
 
-  - <span data-ttu-id="2d296-147">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="2d296-147">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+  - <span data-ttu-id="eca5f-148">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="eca5f-148">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
 </div>
 
@@ -181,13 +182,13 @@ ms.locfileid: "48531765"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2d296-148">참고 항목</span><span class="sxs-lookup"><span data-stu-id="2d296-148">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eca5f-149">참고 항목</span><span class="sxs-lookup"><span data-stu-id="eca5f-149">See Also</span></span>
 
 
-[<span data-ttu-id="2d296-149">Lync Server 2013 관리 도구 설치</span><span class="sxs-lookup"><span data-stu-id="2d296-149">Install Lync Server 2013 administrative tools</span></span>](lync-server-2013-install-lync-server-administrative-tools.md)  
+[<span data-ttu-id="eca5f-150">Lync Server 2013 관리 도구 설치</span><span class="sxs-lookup"><span data-stu-id="eca5f-150">Install Lync Server 2013 administrative tools</span></span>](lync-server-2013-install-lync-server-administrative-tools.md)  
 
 
-[<span data-ttu-id="2d296-150">Lync Server 2013 관리 도구</span><span class="sxs-lookup"><span data-stu-id="2d296-150">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
+[<span data-ttu-id="eca5f-151">Lync Server 2013 관리 도구</span><span class="sxs-lookup"><span data-stu-id="eca5f-151">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
   
 
 </div>

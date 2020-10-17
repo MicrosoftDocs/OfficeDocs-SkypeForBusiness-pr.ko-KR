@@ -1,5 +1,6 @@
 ---
 title: 추가 기능 관리
+description: 추가 기능 관리
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f77c0bc46054cd3cb045c07be0d8aac99c81947a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f2f381e73d8da33e1347ccc81e7b0d98270827d2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508455"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545944"
 ---
-# <a name="manage-add-ins"></a><span data-ttu-id="d9513-102">추가 기능 관리</span><span class="sxs-lookup"><span data-stu-id="d9513-102">Manage add-ins</span></span>
+# <a name="manage-add-ins"></a><span data-ttu-id="758c1-103">추가 기능 관리</span><span class="sxs-lookup"><span data-stu-id="758c1-103">Manage add-ins</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48508455"
 
 <span> </span>
 
-<span data-ttu-id="d9513-103">_**마지막으로 수정 된 항목:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="d9513-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="758c1-104">_**마지막으로 수정 된 항목:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="758c1-104">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="d9513-104">새 영구 채팅 서버 추가 기능을 만들려면</span><span class="sxs-lookup"><span data-stu-id="d9513-104">To create a new Persistent Chat Server Add-in</span></span>
+<span data-ttu-id="758c1-105">새 영구 채팅 서버 추가 기능을 만들려면</span><span class="sxs-lookup"><span data-stu-id="758c1-105">To create a new Persistent Chat Server Add-in</span></span>
 
     New-CsPersistentChatAddin -Name Contoso -PersistentChatPoolFqdn client.contoso.com -Url http://contoso.com 
 
 <div>
 
-## <a name="create-get-set-or-remove-an-add-in"></a><span data-ttu-id="d9513-105">추가 기능 만들기, 가져오기, 설정 또는 제거</span><span class="sxs-lookup"><span data-stu-id="d9513-105">Create, Get, Set, or Remove an Add-in</span></span>
+## <a name="create-get-set-or-remove-an-add-in"></a><span data-ttu-id="758c1-106">추가 기능 만들기, 가져오기, 설정 또는 제거</span><span class="sxs-lookup"><span data-stu-id="758c1-106">Create, Get, Set, or Remove an Add-in</span></span>
 
-<span data-ttu-id="d9513-106">새로운 추가 기능을 만들려면</span><span class="sxs-lookup"><span data-stu-id="d9513-106">To create a new Add-in</span></span>
+<span data-ttu-id="758c1-107">새로운 추가 기능을 만들려면</span><span class="sxs-lookup"><span data-stu-id="758c1-107">To create a new Add-in</span></span>
 
     New-CsPersistentChatAddin -PersistentChatPoolFqdn <String> -Name <String> -Url<String>
 
@@ -55,33 +56,33 @@ ms.locfileid: "48508455"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="d9513-107">PersistentChatPoolFqdn &lt; String &gt; 은 영구 채팅 서버 풀이 둘 이상 있는 경우에만 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9513-107">PersistentChatPoolFqdn &lt;String&gt; is required only if there is more than one Persistent Chat Server pool.</span></span>
+> <span data-ttu-id="758c1-108">PersistentChatPoolFqdn &lt; String &gt; 은 영구 채팅 서버 풀이 둘 이상 있는 경우에만 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="758c1-108">PersistentChatPoolFqdn &lt;String&gt; is required only if there is more than one Persistent Chat Server pool.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="d9513-108">추가 기능을 가져오려면</span><span class="sxs-lookup"><span data-stu-id="d9513-108">To get an Add-in</span></span>
+<span data-ttu-id="758c1-109">추가 기능을 가져오려면</span><span class="sxs-lookup"><span data-stu-id="758c1-109">To get an Add-in</span></span>
 
     Get-CsPersistentChatAddin -Identity <String>]
 
-<span data-ttu-id="d9513-109">또는</span><span class="sxs-lookup"><span data-stu-id="d9513-109">or</span></span>
+<span data-ttu-id="758c1-110">또는</span><span class="sxs-lookup"><span data-stu-id="758c1-110">or</span></span>
 
     Get-CsPersistentChatAddin -PersistentChatPoolFqdn <String>
 
-<span data-ttu-id="d9513-110">추가 기능을 설정하려면</span><span class="sxs-lookup"><span data-stu-id="d9513-110">To set an Add-in</span></span>
+<span data-ttu-id="758c1-111">추가 기능을 설정하려면</span><span class="sxs-lookup"><span data-stu-id="758c1-111">To set an Add-in</span></span>
 
     Set-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="d9513-111">또는</span><span class="sxs-lookup"><span data-stu-id="d9513-111">or</span></span>
+<span data-ttu-id="758c1-112">또는</span><span class="sxs-lookup"><span data-stu-id="758c1-112">or</span></span>
 
     Set-CsPersistentChatAddIn -Identity <String> [-Name <String>] [-Url<String>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="d9513-112">추가 기능을 제거하려면</span><span class="sxs-lookup"><span data-stu-id="d9513-112">To remove an Add-in</span></span>
+<span data-ttu-id="758c1-113">추가 기능을 제거하려면</span><span class="sxs-lookup"><span data-stu-id="758c1-113">To remove an Add-in</span></span>
 
     Remove-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="d9513-113">또는</span><span class="sxs-lookup"><span data-stu-id="d9513-113">or</span></span>
+<span data-ttu-id="758c1-114">또는</span><span class="sxs-lookup"><span data-stu-id="758c1-114">or</span></span>
 
     Remove-CsPersistentChatAddIn -Identity <String> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
