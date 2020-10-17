@@ -12,20 +12,22 @@ ms:contentKeyID: 49733834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba0d7a23f62a27bf0aae35c79934624a08f43069
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34c172f6e536f28a7c586e5804ad621f28fb6ad8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186131"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534705"
 ---
+# <a name="lync-server-2013-network-interfaces"></a>Lync Server 2013 네트워크 인터페이스
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-network-interfaces"></a>Lync Server 2013 네트워크 인터페이스
+
 
 </div>
 

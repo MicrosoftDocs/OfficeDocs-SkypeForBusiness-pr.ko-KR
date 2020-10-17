@@ -12,20 +12,22 @@ ms:contentKeyID: 59893869
 ms.date: 07/20/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c24a94bf74b2ecf911179d64691e95153acceeeb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1acd743d3737232c6e6681b84e524549258d5ffe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210208"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535345"
 ---
+# <a name="windows-powershell-and-lync-server-2013-management-tools"></a>Windows PowerShell 및 Lync Server 2013 관리 도구
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-and-lync-server-2013-management-tools"></a>Windows PowerShell 및 Lync Server 2013 관리 도구
+
 
 </div>
 
@@ -45,9 +47,9 @@ Microsoft Lync Server 2013에서는 Windows PowerShell을 사용 하 여 관리 
 
   - **Lync Server 제어판** Microsoft Lync Server 2013 제어판 사용자 인터페이스를 사용 하 여 배포에서 가장 일반적인 작업을 관리할 수 있습니다.
 
-이러한 도구에서는 약 550개의 제품별 cmdlet을 포함하여 배포 관리를 위한 Windows PowerShell cmdlet이 사용됩니다. Lync Server 2013에 포함 된 보안 cmdlet은 주로 인증을 관리 하는 데 사용 되며 사용자 권한 및 사용 권한을 제공 합니다. 인증서 및 PIN(개인 식별 번호) 인증을 위한 cmdlet 등 인증 관리에 사용할 수 있는 다양한 cmdlet가 있습니다. 또한 많은 cmdlet을 사용 하 여 새 RBAC (역할 기반 액세스 제어) 기능을 통해 Lync Server 2013의 관리 제어를 위임할 수 있습니다. Lync Server cmdlet에 대 한 자세한 내용은 [Lync server 2013 관리 셸을](lync-server-2013-lync-server-management-shell.md)참조 하십시오.
+이러한 도구에서는 약 550개의 제품별 cmdlet을 포함하여 배포 관리를 위한 Windows PowerShell cmdlet이 사용됩니다. Lync Server 2013에 포함 된 보안 cmdlet은 주로 인증을 관리 하는 데 사용 되며 사용자 권한 및 사용 권한을 제공 합니다. 인증서 및 PIN(개인 식별 번호) 인증을 위한 cmdlet 등 인증 관리에 사용할 수 있는 다양한 cmdlet가 있습니다. 또한 많은 cmdlet을 사용 하 여 Lync Server 2013의 관리 제어를 위임 하는 데 새 RBAC (Role-Based 액세스 제어) 기능을 사용할 수 있습니다. Lync Server cmdlet에 대 한 자세한 내용은 [Lync server 2013 관리 셸을](lync-server-2013-lync-server-management-shell.md)참조 하십시오.
 
-Windows PowerShell의 스크립트 보안 기능은 특히 Microsoft Visual Basic Scripting Edition(VBScript)을 포함하는 이전 기술들의 일부 스크립트 관련 보안 문제를 방지하도록 설계되었습니다. Windows PowerShell 보안 기능은 사용자가 쉽게 또는 알지 못한 상태로 스크립트를 실행할 수 없는 환경을 만들기 위한 것입니다. Windows PowerShell 보안 기능은 기본적으로 활성화되어 있습니다. 스크립트 요구 사항 및 다양한 보안 목표에 맞게 이러한 기능의 상태를 수정할 수 있습니다. 그렇다고 해서 사용자가 스크립트를 실행할 수 없도록 하는 것은 아닙니다. 셸의 목적은 사용자가 자신이 스크립트를 실행하고 있다는 사실을 인지하지 못한 상태로 스크립트를 실행하기 어렵게 만들기 위한 것입니다. 자세한 내용은 Windows PowerShell 스크립트 보안을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?LinkId=213145](https://go.microsoft.com/fwlink/p/?linkid=213145).
+Windows PowerShell의 스크립트 보안 기능은 특히 Microsoft Visual Basic Scripting Edition(VBScript)을 포함하는 이전 기술들의 일부 스크립트 관련 보안 문제를 방지하도록 설계되었습니다. Windows PowerShell 보안 기능은 사용자가 쉽게 또는 알지 못한 상태로 스크립트를 실행할 수 없는 환경을 만들기 위한 것입니다. Windows PowerShell 보안 기능은 기본적으로 활성화되어 있습니다. 스크립트 요구 사항 및 다양한 보안 목표에 맞게 이러한 기능의 상태를 수정할 수 있습니다. 그렇다고 해서 사용자가 스크립트를 실행할 수 없도록 하는 것은 아닙니다. 셸의 목적은 사용자가 자신이 스크립트를 실행하고 있다는 사실을 인지하지 못한 상태로 스크립트를 실행하기 어렵게 만들기 위한 것입니다. 자세한 내용은 Windows PowerShell 스크립트 보안을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?LinkId=213145](https://go.microsoft.com/fwlink/p/?linkid=213145) .
 
 </div>
 

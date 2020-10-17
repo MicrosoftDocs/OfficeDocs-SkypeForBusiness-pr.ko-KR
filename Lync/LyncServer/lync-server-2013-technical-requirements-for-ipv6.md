@@ -12,20 +12,22 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a5565080f2b5fab0f47cc944f9569f55e8721c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3484dd6ff1404d5d2a4adf77c4ab27a5a29e66b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194891"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533815"
 ---
+# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Lync Server 2013의 i p v 6에 대 한 기술 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Lync Server 2013의 i p v 6에 대 한 기술 요구 사항
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server 2013 for IPv6을 구성 하려는 경우에는 다음 요구 사항�
     
     IPv6의 사용을 시작하기 전에 IPv6 DNS 호스트 레코드를 배포할 수 있습니다. 클라이언트 또는 서버가 IPv6를 사용하지 않는 경우 레코드는 참조되지 않습니다. 변환 기술 구성 및 정책에 기반하여 사용할 레코드가 변환 기술에 따라 결정됩니다.
 
-  - 각 IPv6 주소에는 범위가 있습니다. IPv6 주소 지정에 사용할 수 있는 세 가지 범위는 IPv6 글로벌 주소 (공용 IPv4 주소와 유사함), ipv6 고유 로컬 주소 (개인 IPv4 주소 범위와 비슷함) 및 IPv6 링크 로컬 주소 (의 자동 개인 IP 주소와 비슷함) IPv4 용 Windows Server). 풀 내의 모든 서버는 동일한 범위의 IPv6 주소를 보유해야 합니다.
+  - 각 IPv6 주소에는 범위가 있습니다. IPv6 주소 지정에 사용할 수 있는 세 가지 범위는 IPv6 글로벌 주소 (공용 IPv4 주소와 비슷함), ipv6 고유 로컬 주소 (개인 IPv4 주소 범위와 비슷함) 및 IPv6 링크 로컬 주소 (Windows Server for IPv4의 자동 개인 IP 주소)와 유사 합니다. 풀 내의 모든 서버는 동일한 범위의 IPv6 주소를 보유해야 합니다.
 
 <div>
 

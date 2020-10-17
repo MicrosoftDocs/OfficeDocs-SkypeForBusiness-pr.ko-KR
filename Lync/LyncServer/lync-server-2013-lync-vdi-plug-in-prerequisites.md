@@ -12,20 +12,22 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7be6cd7dcf58cae1cfe794c6a27d27fc5aaa5193
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b63ee7f494b131fc194d6bf9d028525efd71cf0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186111"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534685"
 ---
+# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Lync Server 2013의 lync VDI 플러그 인 필수 구성 요소
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Lync Server 2013의 lync VDI 플러그 인 필수 구성 요소
+
 
 </div>
 
@@ -46,9 +48,9 @@ VDI (가상 데스크톱 인프라) 환경에서는 가상 컴퓨터와 사용�
 > 가상화된 환경을 설치하고 배포하는 방법에 대한 자세한 내용은 가상화 솔루션 공급자에게 문의하십시오. Hyper-V와 원격 데스크톱 서비스에 기반을 둔 가상화된 환경 배포에 대한 자세한 내용은 Microsoft TechNet 라이브러리에서 다음 문서를 참조하십시오. 
 > <UL>
 > <LI>
-> <P>Hyper-v 위치<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
+> <P>Hyper-v 위치 <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
 > <LI>
-> <P>Windows Server&nbsp;2008&nbsp;R2의 원격 데스크톱 서비스<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
+> <P>Windows Server &nbsp; 2008 R2의 원격 데스크톱 &nbsp; 서비스 <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
 
 
 
@@ -66,7 +68,7 @@ VDI (가상 데스크톱 인프라) 환경에서는 가상 컴퓨터와 사용�
 
   - 원격 데스크톱 서비스를 사용 하는 경우 Lync VDI 플러그 인 비트 (응용 프로그램이 32 비트 또는 64 비트 인지 여부)가 로컬 컴퓨터의 운영 체제 비트와 일치 해야 합니다. 로컬 컴퓨터의 운영 체제 비트 수와 가상 컴퓨터의 운영 체제 비트 수는 일치하지 않아도 됩니다. 다른 가상화 솔루션 또는 플랫폼을 사용하는 경우 해당 가상화 솔루션 공급자의 비트 수 요구 사항에 대한 지침을 참조하십시오.
 
-  - 로컬 컴퓨터에서 최신 버전의 원격 데스크톱 클라이언트를 실행 중이어야 합니다. Microsoft에서 제공하는 원격 데스크톱 서비스 클라이언트의 최신 업데이트를 설치하거나 가상화 솔루션 공급자가 제공하는 최신 원격 데스크톱 클라이언트 소프트웨어를 설치합니다. 최신 원격 데스크톱 서비스 업데이트에 대해서는를 [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)참조 하세요.
+  - 로컬 컴퓨터에서 최신 버전의 원격 데스크톱 클라이언트를 실행 중이어야 합니다. Microsoft에서 제공하는 원격 데스크톱 서비스 클라이언트의 최신 업데이트를 설치하거나 가상화 솔루션 공급자가 제공하는 최신 원격 데스크톱 클라이언트 소프트웨어를 설치합니다. 최신 원격 데스크톱 서비스 업데이트에 대해서는를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) .
 
   - 로컬 컴퓨터에서 오디오가 재생되고 원격 녹음을 사용할 수 없도록 원격 데스크톱 클라이언트 설정을 구성해야 합니다. Windows에서 원격 데스크톱 연결에 대 한 이러한 설정을 구성 하려면 다음 섹션인 "원격 데스크톱 연결 설정을 구성 하려면"을 참조 하십시오.
 
@@ -76,7 +78,7 @@ VDI (가상 데스크톱 인프라) 환경에서는 가상 컴퓨터와 사용�
 
 Windows에서 Lync VDI 플러그 인의 원격 데스크톱 연결을 준비 하려면 다음 단계를 수행 합니다.
 
-1.  로컬 컴퓨터에서 Windows 8을 실행 하는 경우이 단계를 건너뜁니다. 로컬 컴퓨터에서 s p 1을 사용 하 여 Windows 7을 실행 하는 경우에는에서 [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)사용할 수 있는 최신 Windows 8 버전의 원격 데스크톱 서비스 클라이언트를 설치 합니다.
+1.  로컬 컴퓨터에서 Windows 8을 실행 하는 경우이 단계를 건너뜁니다. 로컬 컴퓨터에서 s p 1을 사용 하 여 Windows 7을 실행 하는 경우에는에서 사용할 수 있는 최신 Windows 8 버전의 원격 데스크톱 서비스 클라이언트를 설치 [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) 합니다.
 
 2.  **시작**을 클릭하고 **원격 데스크톱 연결**을 클릭하여 원격 데스크톱 서비스 클라이언트를 시작합니다.
 

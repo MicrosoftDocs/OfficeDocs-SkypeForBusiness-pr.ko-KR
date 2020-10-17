@@ -12,20 +12,22 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6203e6a7ee99f4b080fa93976a2a937e62fe9d3c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: dd9288fea9105be27428ac94d992de6e147f4900
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221562"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534185"
 ---
+# <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Lync Server 2013의 새 영구 채팅 서버 기능
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Lync Server 2013의 새 영구 채팅 서버 기능
+
 
 </div>
 
@@ -71,7 +73,7 @@ Lync 2013에서는 영구 채팅 기능이 Lync 2013 클라이언트에 통합 �
 
   - 계획 설명서에서 [Lync Server 2013의 영구 채팅 서버 계획](lync-server-2013-planning-for-persistent-chat-server.md) lync server 2008의 온-The 영구 [채팅 서버 배포](lync-server-2013-deploying-persistent-chat-server.md) 2013 설명서에서 Lync Server [2010, 그룹 채팅 또는 Office Communications server 2007 R2 그룹 채팅에서 lync Server 2013](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) , 영구 채팅 서버, 작업 설명서의 "lync server [2013, 영구](managing-lync-server-2013-persistent-chat-server.md) 채팅 서버, 그리고 모든 영구 채팅 서버 설정에 대 한 지침을 제공 합니다.
 
-  - 영구 채팅 서버 설명서 .msi 파일 (Windows Installer 파일)을 사용 하면 영구 채팅 서버에 대 한 포괄적인 오프 라인 설명서에 액세스할 수 있습니다.
+  - 영구 채팅 서버 Documentation.msi 파일 (Windows Installer 파일)을 사용 하면 영구 채팅 서버에 대 한 포괄적인 오프 라인 설명서에 액세스할 수 있습니다.
 
 <div>
 
@@ -165,7 +167,7 @@ Lync Server 2013에서는 다음을 제공 하 여 영구 채팅 서버를 보�
 
 ## <a name="whats-different-about-user-roles-from-previous-group-chat-server-versions"></a>이전 그룹 채팅 서버 버전의 사용자 역할에 대 한 달라진 점은 무엇 인가요?
 
-Lync Server 2010, 그룹 채팅은 사용자 관리자 역할, 대화방 관리자 역할 및 추가 기능을 관리할 수 있는 Lync Server 관리자 역할을 했습니다. 영구 채팅 서버는 영구 채팅 관리자 역할 (다른 Lync Server의 RBAC (역할 기반 액세스 제어) 역할과 유사)을 제공 합니다. 이 RBAC 역할의 구성원 인 사람은 대화방, 추가 기능 및 범주를 관리 하 고 (따라서 이러한 범주에 대 한 사용자 액세스 권한 획득) 영구 채팅 서버 풀을 구성할 수 있습니다.
+Lync Server 2010, 그룹 채팅은 사용자 관리자 역할, 대화방 관리자 역할 및 추가 기능을 관리할 수 있는 Lync Server 관리자 역할을 갖고 있었습니다. 영구 채팅 서버는 단순히 영구 채팅 관리자 역할 (다른 Lync Server의 RBAC (역할 기반 액세스 제어) 역할과 유사)을 제공 합니다. 이 RBAC 역할의 구성원 인 사람은 대화방, 추가 기능 및 범주를 관리 하 고 (따라서 이러한 범주에 대 한 사용자 액세스 권한 획득) 영구 채팅 서버 풀을 구성할 수 있습니다.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27095f154d4a79af949d3568bb444adfc83699c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 541cd7eb560cd9d509c5c0beec206803f2cddecc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208954"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533995"
 ---
+# <a name="port-summary---single-director-in-lync-server-2013"></a>포트 요약-Lync Server 2013의 단일 디렉터
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-director-in-lync-server-2013"></a>포트 요약-Lync Server 2013의 단일 디렉터
+
 
 </div>
 
@@ -53,25 +55,25 @@ _**마지막으로 수정 된 항목:** 2012-10-20_
 <th>역할/프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP 8080</p></td>
 <td><p>역방향 프록시 내부 인터페이스</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>역방향 프록시의 외부 쪽에서 처음 수신 되는 통신은 디렉터 및 프런트 엔드 서버 웹 서비스로 전송 됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP 4443</p></td>
 <td><p>역방향 프록시 내부 인터페이스</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>역방향 프록시의 외부 쪽에서 처음 수신 되는 통신은 디렉터 및 프런트 엔드 서버 웹 서비스로 전송 됩니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>프런트 엔드 서버 또는 프런트 엔드 풀</p></td>
 <td><p>디렉터와 프런트 엔드 서버 간의 서버 간 통신</p></td>
 </tr>
@@ -90,7 +92,7 @@ _**마지막으로 수정 된 항목:** 2012-10-20_
 <tr class="even">
 <td><p>SIP/MTLS/TCP 5061</p></td>
 <td><p>에 지 서버 내부 인터페이스</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>에 지 서버에서 디렉터 및 프런트 엔드 서버로의 SIP 통신</p></td>
 </tr>
 <tr class="odd">

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 936de680a13a3f9ec851181876ce7a80c1784e52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 001a94927d6160d138d344bf1a8fffcf519b58b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184961"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534395"
 ---
+# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>Lync Server 2013의 토폴로지 작성기에서 트렁크 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>Lync Server 2013의 토폴로지 작성기에서 트렁크 수정
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-2.  -CsPstnGateway cmdlet을 실행 하 고 Lync Server 관리 셸에서 AlternateBypassId 필드를 수정 합니다.
+2.  Set-CsPstnGateway cmdlet을 실행 하 고 Lync Server 관리 셸에서 AlternateBypassId 필드를 수정 합니다.
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -RepresentativeMediaIP <IP address>
 
@@ -57,7 +59,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-2.  -CsPstnGateway cmdlet을 실행 하 고 Lync Server 관리 셸에서 AlternateBypassId 필드를 수정 합니다.
+2.  Set-CsPstnGateway cmdlet을 실행 하 고 Lync Server 관리 셸에서 AlternateBypassId 필드를 수정 합니다.
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -AlternateBypassID <identifier>
 

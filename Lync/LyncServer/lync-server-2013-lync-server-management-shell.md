@@ -12,20 +12,22 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc4ab6a9c32a8b060308526fcdb1f1da403a9e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b77fae816140784e35c81dd9c30f4cf8790f5bef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186161"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534735"
 ---
+# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 관리 셸
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 관리 셸
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2017-09-20_
 
 
 > [!NOTE]  
-> 비즈니스용 Skype cmdlet 참조가 docs.microsoft.com로 이동 되었습니다. 아래 링크를 클릭 하면 새 docs.microsoft.com 페이지로 이동 합니다. 이제 콘텐츠가 사용 가능 하 게 열리고 GitHub를 통한 커뮤니티 기고에 사용할 수 있습니다. 참여에 관심이 있으십니까? 여기에 있는 리포지토리의 추가 정보를 확인 하세요.<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> 비즈니스용 Skype cmdlet 참조가 docs.microsoft.com로 이동 되었습니다. 아래 링크를 클릭 하면 새 docs.microsoft.com 페이지로 이동 합니다. 이제 콘텐츠가 사용 가능 하 게 열리고 GitHub를 통한 커뮤니티 기고에 사용할 수 있습니다. 참여에 관심이 있으십니까? 여기에 있는 리포지토리의 추가 정보를 확인 하세요. <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
@@ -74,7 +76,7 @@ Lync Server 2013의 Windows PowerShell에 대해 알아야 할 사항:
 
   - Lync Server 관리 셸은 모든 Lync Server Enterprise Edition 프런트 엔드 서버 또는 Standard Edition 서버에 자동으로 설치 됩니다.
 
-  - Lync Server Windows PowerShell 블로그에서 [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)windows Powershell 및 Microsoft Lync server 2013 cmdlet에 대 한 새로운 정보와 업데이트 된 정보, 예제 스크립트 및 시작 하는 방법에 대 한 도움말을 확인할 수 있습니다.
+  - Lync Server Windows PowerShell 블로그에서 Windows PowerShell 및 Microsoft Lync Server 2013 cmdlet에 대 한 새로운 정보와 업데이트 된 정보, 예제 스크립트 및 시작 하는 방법에 대 한 도움말을 확인할 수 있습니다 [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150) .
 
 </div>
 

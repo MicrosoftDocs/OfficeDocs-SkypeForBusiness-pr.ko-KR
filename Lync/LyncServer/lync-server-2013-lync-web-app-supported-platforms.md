@@ -12,20 +12,22 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcc5de45da918547a2c26b0e3fcc1e7768c1cbe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 528be9cdc6ba5a256aa3d18e784a26837716802f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186101"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534615"
 ---
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Server 2013의 lync Web App 지원 되는 플랫폼
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Server 2013의 lync Web App 지원 되는 플랫폼
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Web App을 사용 하려면 지원 되는 다음 운영 체제 및 브라�
 
 
 > [!NOTE]  
-> 컴퓨터 기반 음성, 비디오, 공유 및 진행 중인 화면 공유 보기를 비롯 한 특정 Lync Web App 기능에 플러그 인이 필요 합니다. 모임에 참가할 때 또는 이러한 기능 중 하나를 시작할 때 공유 플러그 인을 설치할 수 있습니다. 개<BR>
+> 컴퓨터 기반 음성, 비디오, 공유 및 진행 중인 화면 공유 보기를 비롯 한 특정 Lync Web App 기능에 플러그 인이 필요 합니다. 모임에 참가할 때 또는 이러한 기능 중 하나를 시작할 때 공유 플러그 인을 설치할 수 있습니다. 1 <BR>
 
 
 
@@ -183,7 +185,7 @@ Lync Web App을 사용 하려면 지원 되는 다음 운영 체제 및 브라�
 
 <sup>3</sup> 지원 되는 Windows Server 2008 운영 체제에서는 컴퓨터 기반 음성 및 비디오를 사용할 수 없습니다. 응용 프로그램 보기, 응용 프로그램 공유, 데스크톱 보기 및 데스크톱 공유를 사용할 수 있습니다.
 
-<sup>4</sup> 플러그 인을 사용 하려면 브라우저에서 NPAPI를 지원 해야 합니다. Firefox에서 NPAPI에 대 한 지원이 버전 52.0에서 제거 되었으며 버전 45에서 크롬이 제거 되었으며, 이러한 브라우저는 현재 버전에서 더 이상 지원 되지 않습니다.
+<sup>4</sup>  플러그 인을 사용 하려면 브라우저에서 NPAPI를 지원 해야 합니다. Firefox에서 NPAPI에 대 한 지원이 버전 52.0에서 제거 되었으며 버전 45에서 크롬이 제거 되었으며, 이러한 브라우저는 현재 버전에서 더 이상 지원 되지 않습니다.
 
 </div>
 

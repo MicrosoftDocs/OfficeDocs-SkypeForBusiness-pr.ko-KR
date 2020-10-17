@@ -12,20 +12,22 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5ba88a00ed00a36005f9c1a60806e18253d2ce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 970a638a84849120a27748980fa4017570672a35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207274"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534795"
 ---
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Lync Server 2013에서 계획 도구 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Lync Server 2013에서 계획 도구 설치
+
 
 </div>
 
@@ -77,13 +79,13 @@ Microsoft Lync Server 2013, 계획 도구를 사용 하 여 Lync Server 2013 인
 
 2.  Windows 탐색기나 명령 창을 사용 하 여 계획 도구 설치 파일을 다운로드 한 디렉터리를 찾습니다.
 
-3.  LyncPlanningTool를 찾습니다. Windows 탐색기에서 파일을 두 번 클릭 합니다. 명령 창에서 파일 **이름을 입력 한 다음 enter 키를** 눌러 파일을 실행 합니다.
+3.  LyncPlanningTool.msi를 찾습니다. Windows 탐색기에서 파일을 두 번 클릭 합니다. 명령 창에서 파일 **이름을 입력 한 다음 enter 키를** 눌러 파일을 실행 합니다.
 
 4.  **Microsoft Lync Server 2013, 계획 도구 설치 마법사**시작 페이지에서 **다음**을 클릭 합니다.
 
 5.  **최종 사용자 사용권**계약을 검토 하 고 사용권 계약의 사용 약관에 동의 하도록 선택한 경우 **동의** 함을 선택 하 고 **다음**을 클릭 합니다.
 
-6.  계획 도구 파일을 설치할 위치를 선택 합니다. 기본 위치는 C:\\Program Files (x86)\\Microsoft Lync Server 2013\\계획 도구입니다. 설치 위치를 변경 하려면 **변경을**클릭 합니다. **대상 폴더 변경**에서 파일을 설치할 위치를 찾아보거나 입력 하 고 **확인**을 클릭 한 후 **다음**을 클릭 합니다.
+6.  계획 도구 파일을 설치할 위치를 선택 합니다. 기본 위치는 C: \\ Program Files (x86) \\ Microsoft Lync Server 2013 \\ 계획 도구입니다. 설치 위치를 변경 하려면 **변경을**클릭 합니다. **대상 폴더 변경**에서 파일을 설치할 위치를 찾아보거나 입력 하 고 **확인**을 클릭 한 후 **다음**을 클릭 합니다.
 
 7.  이제 설치 관리자가 계획 도구를 설치할 준비가 되었습니다. 설치 **를 클릭 하** 여 설치 프로세스를 시작 합니다.
 

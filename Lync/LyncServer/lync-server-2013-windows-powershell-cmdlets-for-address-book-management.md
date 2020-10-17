@@ -12,20 +12,22 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69af5cc5bc9279b1be748cb9a38477ea6d0f3aa6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 170936c8ca4445a7dc4e816c2300176d9b730f80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210225"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535325"
 ---
+# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Lync Server 2013의 주소록 서비스용 Windows PowerShell cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Lync Server 2013의 주소록 서비스용 Windows PowerShell cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42210225"
 
 _**마지막으로 수정 된 항목:** 2012-11-01_
 
-Lync Server에서는 주소록 서비스를 관리 하 고 구성 하기 위한 다양 한 Windows PowerShell 명령줄 인터페이스 cmdlet을 제공 합니다. 이러한 cmdlet 중 일부는 이전 버전의 Office Communications Server에서 사용 되는 ABServer .exe 명령을 대체 합니다. 다음 항목은 주소록 서비스에 대한 정보를 설정하고 만들고 검색하는 데 사용되는 cmdlet와 클라이언트가 주소록 서비스 파일 및 설정을 검색할 때 주소록 서비스에서 사용하는 웹 서비스에 대한 해당 구성 및 정보입니다.
+Lync Server에서는 주소록 서비스를 관리 하 고 구성 하기 위한 다양 한 Windows PowerShell 명령줄 인터페이스 cmdlet을 제공 합니다. 이러한 cmdlet 중 일부는 이전 버전의 Office Communications Server에서 사용 되는 ABServer.exe 명령 대신 사용할 수 있습니다. 다음 항목은 주소록 서비스에 대한 정보를 설정하고 만들고 검색하는 데 사용되는 cmdlet와 클라이언트가 주소록 서비스 파일 및 설정을 검색할 때 주소록 서비스에서 사용하는 웹 서비스에 대한 해당 구성 및 정보입니다.
 
 이러한 모든 cmdlet은 관리 도구가 설치 된 서버 또는 워크스테이션의 Lync Server 도구에 있는 Lync Server 관리 셸을 통해 실행 됩니다.
 

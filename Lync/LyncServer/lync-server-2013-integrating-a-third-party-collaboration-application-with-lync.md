@@ -12,20 +12,22 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6210591be9aaf281b76ea02f6f919ea3d1620db7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7bbe3f6439b357253ae49a5c1609319b6a91bfb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195831"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534763"
 ---
+# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>Lync Server 2013를 사용 하 여 타사 공동 작업 응용 프로그램 통합
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>Lync Server 2013를 사용 하 여 타사 공동 작업 응용 프로그램 통합
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 
 <div>
 
-## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Lync 2013에 인터넷 기반 공동 작업 응용 프로그램 통합
+## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Lync 2013을 사용 하 여 Internet-Based 공동 작업 응용 프로그램 통합
 
 타사 공동 작업 응용 프로그램을 통합하는 일반적인 단계는 다음과 같습니다.
 
@@ -57,7 +59,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 
 다음 표에서는 인터넷 기반 공동 작업 응용 프로그램을 Lync 2013와 통합 하는 데 필요한 레지스트리 항목에 대해 설명 합니다. 이러한 항목은 레지스트리에 다음 위치에 배치 됩니다.
 
-  - HKEY\_로컬\_컴퓨터\\소프트웨어\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\매개 변수
+  - HKEY \_ 로컬 \_ 컴퓨터 \\ 소프트웨어 \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps \\ 매개 변수
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>인터넷 기반 공동 작업 응용 프로그램의 레지스트리 항목
 
@@ -93,7 +95,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 <tr class="even">
 <td><p>OriginatorPath</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>온라인 공동 작업 응용 프로그램을 시작할 이끌이의 경로입니다. 이 경로에는 Parameters 하위 키에 정의된 사용자 지정 매개 변수가 하나 이상 포함될 수 있습니다. 예를 들어<code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
+<td><p>온라인 공동 작업 응용 프로그램을 시작할 이끌이의 경로입니다. 이 경로에는 Parameters 하위 키에 정의된 사용자 지정 매개 변수가 하나 이상 포함될 수 있습니다. 예를 들어 <code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
@@ -119,7 +121,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 </table>
 
 
-다음 표에 매개 변수의 레지스트리 항목에 대한 설명이 나와 있습니다. 이러한 항목\_은 HKEY 현재\_사용자\\소프트웨어\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\매개 변수에 배치 됩니다.
+다음 표에 매개 변수의 레지스트리 항목에 대한 설명이 나와 있습니다. 이러한 항목은 HKEY \_ 현재 \_ 사용자 \\ 소프트웨어 \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps \\ 매개 변수에 배치 됩니다.
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>인터넷 기반 공동 작업 응용 프로그램의 레지스트리 항목
 
@@ -140,7 +142,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 <tr class="odd">
 <td><p>Param1</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>OriginatorPath 레지스트리 키에 사용자<code>%Parm1%</code>관련 값을 추가 하기 위해 토큰화 된 형식 ()으로 사용 됩니다.</p></td>
+<td><p><code>%Parm1%</code>OriginatorPath 레지스트리 키에 사용자 관련 값을 추가 하기 위해 토큰화 된 형식 ()으로 사용 됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>Param2</p></td>
@@ -182,11 +184,11 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 
 <div>
 
-## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Lync 2013을 사용 하 여 서버 기반 공동 작업 응용 프로그램 통합
+## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Server-Based 공동 작업 응용 프로그램을 Lync 2013에 통합
 
-Lync 2013 내에서 서버 기반 공동 작업 응용 프로그램을 시작 하기 위한 명령을 추가 하는 설정은 이전 섹션에서 설명한 것과 비슷하며, 인터넷 기반 공동 작업 응용 프로그램을 Lync 2013와 통합 합니다. 그러나 이번에는 OriginatorPath가 필요하지 않으며 일부 값이 다릅니다. 레지스트리 항목은 다음 위치에 배치 됩니다.
+Lync 2013 내에서 서버 기반 공동 작업 응용 프로그램을 시작 하기 위한 명령을 추가 하는 설정은 이전 섹션에서 설명한 것과 유사 하며 Internet-Based 공동 작업 응용 프로그램을 Lync 2013에 통합 합니다. 그러나 이번에는 OriginatorPath가 필요하지 않으며 일부 값이 다릅니다. 레지스트리 항목은 다음 위치에 배치 됩니다.
 
-  - HKEY\_로컬\_컴퓨터\\소프트웨어\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\매개 변수
+  - HKEY \_ 로컬 \_ 컴퓨터 \\ 소프트웨어 \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps \\ 매개 변수
 
 ### <a name="registry-entries-for-a-server-based-collaboration-application"></a>서버 기반 공동 작업 응용 프로그램의 레지스트리 항목
 
@@ -217,7 +219,7 @@ Lync 2013 내에서 서버 기반 공동 작업 응용 프로그램을 시작 �
 <tr class="odd">
 <td><p>경로</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>공동 작업 응용 프로그램을 시작하는 데 사용되는 프로토콜입니다. Live Meeting 2007의 경우 경로 값은로 <code>meet:%conf-uri%</code>설정 됩니다.</p></td>
+<td><p>공동 작업 응용 프로그램을 시작하는 데 사용되는 프로토콜입니다. Live Meeting 2007의 경우 경로 값은로 설정 됩니다 <code>meet:%conf-uri%</code> .</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionType</p></td>

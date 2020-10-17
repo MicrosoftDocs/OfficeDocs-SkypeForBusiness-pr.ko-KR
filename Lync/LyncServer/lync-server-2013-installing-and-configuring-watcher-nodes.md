@@ -12,20 +12,22 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1765e9108619c5947eda02dd758aa764b0b407e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 980dc8c92488e3806cd6c1bf15970a79af6fa2b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197061"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534945"
 ---
+# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Lync Server 2013에서 감시자 노드 설치 및 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Lync Server 2013에서 감시자 노드 설치 및 구성
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2013-11-07_
 
 *감시자 노드* 는 Lync Server 가상 트랜잭션을 주기적으로 실행 하는 컴퓨터입니다. *가상 트랜잭션은* 시스템에 로그인 하는 기능, 또는 인스턴트 메시지를 교환 하는 기능과 같은 주요 최종 사용자 시나리오가 예상 대로 작동 하는지 확인 하는 Windows PowerShell cmdlet입니다. Lync Server 2013의 경우 System Center Operations Manager는 다음 표에 나와 있는 가상 트랜잭션을 실행할 수 있습니다. 이 표에서는 세 가지 서로 다른 가상 트랜잭션 유형을 보여줍니다.
 
-  - **기본값**입니다. 감시자 노드가 기본적으로 실행 되는 가상 트랜잭션입니다. 새 감시자 노드를 만들 때는 해당 노드가 실행 될 가상 트랜잭션을 지정할 수 있습니다. 이는 **get-cswatchernodeconfiguration** cmdlet에서 사용 되는 테스트 매개 변수의 용도입니다. 감시자 노드를 만들 때 테스트 매개 변수를 사용 하지 않으면 기본 가상 트랜잭션이 모두 자동으로 실행 되며 비기본 가상 트랜잭션이 실행 되지 않습니다. 예를 들어, 감시자 노드가 테스트-CsAddressBookService 테스트를 실행 하도록 구성 되지만 Test-csexumconnectivity 테스트는 실행 하도록 구성 되지 않습니다.
+  - **기본값**입니다. 감시자 노드가 기본적으로 실행 되는 가상 트랜잭션입니다. 새 감시자 노드를 만들 때는 해당 노드가 실행 될 가상 트랜잭션을 지정할 수 있습니다. 이는 **get-cswatchernodeconfiguration** cmdlet에서 사용 되는 테스트 매개 변수의 용도입니다. 감시자 노드를 만들 때 테스트 매개 변수를 사용 하지 않으면 기본 가상 트랜잭션이 모두 자동으로 실행 되며 비기본 가상 트랜잭션이 실행 되지 않습니다. 즉, 예를 들어 감시자 노드가 Test-CsAddressBookService 테스트를 실행 하도록 구성 되지만 Test-CsExumConnectivity 테스트를 실행 하도록 구성 되지는 않습니다.
 
   - **기본값 아님** 이름 그대로 기본값이 아닌 가상 트랜잭션은 감시자 노드가 기본적으로 실행하지 않는 테스트입니다. 하지만 감시자 노드가 기본값이 아닌 가상 트랜잭션을 실행하도록 설정할 수는 있습니다. 이러한 설정은 **New-CsWatcherNodeConfiguration** cmdlet을 사용하여 감시자 노드를 만들 때 또는 그 이후 언제라도 지정할 수 있습니다. 기본값이 아닌 가상 트랜잭션은 대부분의 경우 추가 설정 단계가 필요합니다. 자세한 내용은 [Lync Server 2013의 가상 트랜잭션에 대 한 특별 설치 지침](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)을 참조 하십시오.
 
@@ -80,7 +82,7 @@ _**마지막으로 수정 된 항목:** 2013-11-07_
 <td><p>기본</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-csp2pav (P2PAV)</p></td>
+<td><p>Test-CsP2PAV (P2PAV)</p></td>
 <td><p>사용자가 피어 투 피어 음성 통화를 걸 수 있는지 확인합니다(신호만).</p></td>
 <td><p>기본</p></td>
 </tr>
@@ -105,52 +107,52 @@ _**마지막으로 수정 된 항목:** 2013-11-07_
 <td><p>기본값이 아님, 확장</p></td>
 </tr>
 <tr class="odd">
-<td><p>테스트-CsAVConference (AvConference)</p></td>
+<td><p>Test-CsAVConference (AvConference)</p></td>
 <td><p>사용자가 오디오/비디오 회의를 만들고 참가할 수 있는지 확인합니다.</p></td>
 <td><p>기본</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-csavedgeconnectivity (AVEdgeConnectivity)</p></td>
+<td><p>Test-CsAVEdgeConnectivity (AVEdgeConnectivity)</p></td>
 <td><p>A/V 에지 서버가 피어 투 피어 통화 및 회의 통화에 대한 연결을 허용할 수 있는지 확인합니다.</p></td>
 <td><p>비기본</p></td>
 </tr>
 <tr class="odd">
-<td><p>Test-csdataconference (DataConference)</p></td>
+<td><p>Test-CsDataConference (DataConference)</p></td>
 <td><p>사용자가 화이트보드 및 설문 조사와 같은 활동을 포함하여 데이터 공동 작업 회의 및 온라인 모임에 참가할 수 있는지 확인합니다.</p></td>
 <td><p>비기본</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-csexumconnectivity (ExumConnectivity)</p></td>
+<td><p>Test-CsExumConnectivity (ExumConnectivity)</p></td>
 <td><p>사용자가 Exchange UM (통합 메시징)에 연결할 수 있는지 확인 합니다.</p></td>
 <td><p>비기본</p></td>
 </tr>
 <tr class="odd">
-<td><p>테스트-CsGroupIM (GroupIM)</p></td>
+<td><p>Test-CsGroupIM (GroupIM)</p></td>
 <td><p>사용자가 회의 중 인스턴트 메시지를 보내고 3명 이상의 사용자가 포함된 인스턴트 메시지 대화에 참가할 수 있는지 확인합니다.</p></td>
 <td><p>기본</p></td>
 </tr>
 <tr class="even">
-<td><p>테스트-CsGroupIM-TestJoinLauncher 관리자 (Join시작 관리자)</p></td>
+<td><p>Test-CsGroupIM-TestJoinLauncher 관리자 (Join시작 관리자)</p></td>
 <td><p>사용자가 웹 주소 링크를 통해 예약된 모임을 만들고 참가할 수 있는지 확인합니다.</p></td>
 <td><p>비기본</p></td>
 </tr>
 <tr class="odd">
-<td><p>Test-csmcxp2pim (MCXP2PIM)</p></td>
+<td><p>Test-CsMCXP2PIM (MCXP2PIM)</p></td>
 <td><p>모바일 장치 사용자가 등록하고 인스턴트 메시지를 보낼 수 있는지 확인합니다.</p></td>
 <td><p>비기본</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-cspersistentchatmessage (PersistentChatMessage)</p></td>
+<td><p>Test-CsPersistentChatMessage (PersistentChatMessage)</p></td>
 <td><p>사용자가 영구 채팅 서비스를 사용 하 여 메시지를 교환할 수 있는지 확인 합니다.</p></td>
 <td><p>비기본</p></td>
 </tr>
 <tr class="odd">
-<td><p>Test-csunifiedcontactstore (UnifiedContactStore)</p></td>
+<td><p>Test-CsUnifiedContactStore (UnifiedContactStore)</p></td>
 <td><p>통합 연락처 저장소를 사용해서 사용자의 연락처에 액세스할 수 있는지 확인합니다. 통합 연락처 저장소는 사용자가 Lync 2013, Outlook 및/또는 Outlook Web Access를 사용 하 여 액세스할 수 있는 단일 연락처 집합을 유지 관리 하는 방법을 제공 합니다.</p></td>
 <td><p>비기본</p></td>
 </tr>
 <tr class="even">
-<td><p>테스트-CsXmppIM (XmppIM)</p></td>
+<td><p>Test-CsXmppIM (XmppIM)</p></td>
 <td><p>XMPP(Extensible Messaging and Presence Protocol) 게이트웨이에서 인스턴트 메시지를 전송할 수 있는지 확인합니다.</p></td>
 <td><p>비기본</p></td>
 </tr>
@@ -164,7 +166,7 @@ System Center Operations Manager를 사용 하기 위해 감시자 노드를 설
 
 
 > [!NOTE]  
-> 관리자는 또한 Operations Manager를 사용하거나 설치할 필요 없이 가상 트랜잭션을 수동으로 실행할 수 있습니다. 다양 한 테스트-Cs cmdlet에 대 한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlet 인덱스</A>를 참조 하십시오.
+> 관리자는 또한 Operations Manager를 사용하거나 설치할 필요 없이 가상 트랜잭션을 수동으로 실행할 수 있습니다. 다양 한 Test-Cs cmdlet에 대 한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlet 인덱스</A>를 참조 하십시오.
 
 
 

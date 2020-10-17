@@ -12,20 +12,22 @@ ms:contentKeyID: 48183901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e89516f50ba0cd49040ad0fc4884c4d5d3751ebe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f28b1ae46efb997ef80f019cc4bdecb980fc740f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207244"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534775"
 ---
+# <a name="installing-the-operation-manager-agent-files-on-a-watcher-node-in-lync-server-2013"></a>Lync Server 2013의 감시자 노드에 Operation Manager 에이전트 파일 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-operation-manager-agent-files-on-a-watcher-node-in-lync-server-2013"></a>Lync Server 2013의 감시자 노드에 Operation Manager 에이전트 파일 설치
+
 
 </div>
 

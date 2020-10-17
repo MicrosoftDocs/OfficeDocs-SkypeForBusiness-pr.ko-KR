@@ -12,20 +12,22 @@ ms:contentKeyID: 48183694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abfe8c9848e5e015a22bcc7975c6bbdaf1c7465e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 77366884d83d29c39c1f19fc710030ea8457dd7f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192941"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535015"
 ---
+# <a name="configuring-port-ranges-for-your-microsoft-lync-clients-in-lync-server-2013"></a>Lync Server 2013에서 Microsoft Lync 클라이언트에 대 한 포트 범위 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-for-your-microsoft-lync-clients-in-lync-server-2013"></a>Lync Server 2013에서 Microsoft Lync 클라이언트에 대 한 포트 범위 구성
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42192941"
 
 _**마지막으로 수정 된 항목:** 2014-04-22_
 
-기본적으로 Lync 클라이언트 응용 프로그램은 통신 세션에 포함 된 경우 포트 1024과 65535 사이의 모든 포트를 사용할 수 있습니다. 이는 특정 포트 범위가 클라이언트에 대해 자동으로 사용 하지 않도록 설정 되었기 때문입니다. 그러나 서비스 품질을 사용 하려면 다양 한 트래픽 유형 (오디오, 비디오, 미디어, 응용 프로그램 공유 및 파일 전송)을 일련의 고유한 포트 범위에 다시 할당 해야 합니다. 이 작업은 Get-csconferencingconfiguration cmdlet을 사용 하 여 수행할 수 있습니다.
+기본적으로 Lync 클라이언트 응용 프로그램은 통신 세션에 포함 된 경우 포트 1024과 65535 사이의 모든 포트를 사용할 수 있습니다. 이는 특정 포트 범위가 클라이언트에 대해 자동으로 사용 하지 않도록 설정 되었기 때문입니다. 그러나 서비스 품질을 사용 하려면 다양 한 트래픽 유형 (오디오, 비디오, 미디어, 응용 프로그램 공유 및 파일 전송)을 일련의 고유한 포트 범위에 다시 할당 해야 합니다. 이 작업은 Set-CsConferencingConfiguration cmdlet을 사용 하 여 수행할 수 있습니다.
 
 <div>
 
 
 > [!NOTE]  
-> 최종 사용자는 이러한 변경 작업을 직접 수행할 수 없습니다. 포트 변경 내용은 Get-csconferencingconfiguration cmdlet을 사용 하는 관리자만 수행할 수 있습니다.
+> 최종 사용자는 이러한 변경 작업을 직접 수행할 수 없습니다. 포트 변경 내용은 관리자만 Set-CsConferencingConfiguration cmdlet을 사용 하 여 수행할 수 있습니다.
 
 
 

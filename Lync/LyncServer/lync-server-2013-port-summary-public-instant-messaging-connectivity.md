@@ -12,20 +12,22 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfc057f4d41104dcebc89003ff77eb75622ee3c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8bce3413e7e41e3784cb0ba300c621a7c042b618
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183931"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534165"
 ---
+# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>포트 요약-Lync Server 2013의 공용 인스턴트 메시징 연결
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>포트 요약-Lync Server 2013의 공용 인스턴트 메시징 연결
+
 
 </div>
 
@@ -68,7 +70,7 @@ Windows Live Messenger는 Lync 클라이언트와의 오디오/비디오 통신�
 <th>역할/프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>

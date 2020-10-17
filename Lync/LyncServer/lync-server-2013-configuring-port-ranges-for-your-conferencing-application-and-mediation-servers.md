@@ -12,20 +12,22 @@ ms:contentKeyID: 48184074
 ms.date: 05/01/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3c1666e0f1c6f4c208cf5664741ca7cedbe6a1f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b3df859017ca54d32ad56580c842f748114166d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207594"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535065"
 ---
+# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Lync Server 2013에서 회의, 응용 프로그램 및 중재 서버에 대 한 포트 범위 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Lync Server 2013에서 회의, 응용 프로그램 및 중재 서버에 대 한 포트 범위 구성
+
 
 </div>
 

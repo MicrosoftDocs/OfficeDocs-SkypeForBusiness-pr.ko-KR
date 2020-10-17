@@ -12,20 +12,22 @@ ms:contentKeyID: 48184955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c26dfe63e468d7b8d6f4ae557c0b84af2ffceaa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ff1cb9d559d3d6824882a87aaa4d45ad7254c276
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183858"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534145"
 ---
+# <a name="port-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>포트 요약-조정 된 통합에 지, Lync Server 2013에서 NAT를 사용 하는 개인 IP 주소의 DNS 부하 분산
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>포트 요약-조정 된 통합에 지, Lync Server 2013에서 NAT를 사용 하는 개인 IP 주소의 DNS 부하 분산
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2012-12-04_
 <th>역할/프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
@@ -247,19 +249,19 @@ _**마지막으로 수정 된 항목:** 2012-12-04_
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>모두</p></td>
 <td><p>에 지 서버 내부 인터페이스</p></td>
-<td><p>Lync Server 관리 셸 및 중앙화 된 로깅 서비스 cmdlet, ClsController 명령 줄 (ClsController .exe) 또는 에이전트 (Clscontroller) 명령 및 로그 수집을 사용 하는 중앙화 된 로깅 서비스 컨트롤러</p></td>
+<td><p>Lync Server 관리 셸 및 중앙화 된 로깅 서비스 cmdlet, ClsController 명령줄 (ClsController.exe) 또는 에이전트 (ClsAgent.exe) 명령 및 로그 수집을 사용 하는 중앙 로깅 서비스 컨트롤러</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>모두</p></td>
 <td><p>에 지 서버 내부 인터페이스</p></td>
-<td><p>Lync Server 관리 셸 및 중앙화 된 로깅 서비스 cmdlet, ClsController 명령 줄 (ClsController .exe) 또는 에이전트 (Clscontroller) 명령 및 로그 수집을 사용 하는 중앙화 된 로깅 서비스 컨트롤러</p></td>
+<td><p>Lync Server 관리 셸 및 중앙화 된 로깅 서비스 cmdlet, ClsController 명령줄 (ClsController.exe) 또는 에이전트 (ClsAgent.exe) 명령 및 로그 수집을 사용 하는 중앙 로깅 서비스 컨트롤러</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>모두</p></td>
 <td><p>에 지 서버 내부 인터페이스</p></td>
-<td><p>Lync Server 관리 셸 및 중앙화 된 로깅 서비스 cmdlet, ClsController 명령 줄 (ClsController .exe) 또는 에이전트 (Clscontroller) 명령 및 로그 수집을 사용 하는 중앙화 된 로깅 서비스 컨트롤러</p></td>
+<td><p>Lync Server 관리 셸 및 중앙화 된 로깅 서비스 cmdlet, ClsController 명령줄 (ClsController.exe) 또는 에이전트 (ClsAgent.exe) 명령 및 로그 수집을 사용 하는 중앙 로깅 서비스 컨트롤러</p></td>
 </tr>
 </tbody>
 </table>
@@ -284,7 +286,7 @@ _**마지막으로 수정 된 항목:** 2012-12-04_
 <th>역할/프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
@@ -317,7 +319,7 @@ _**마지막으로 수정 된 항목:** 2012-12-04_
 <th>역할/프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>

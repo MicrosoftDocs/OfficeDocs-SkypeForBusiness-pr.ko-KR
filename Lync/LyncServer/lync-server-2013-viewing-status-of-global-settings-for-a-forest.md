@@ -12,20 +12,22 @@ ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab574067b05b494601e0dd769003cb01904c52bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7922fe79d97a1fa83fdaa5afbc1eeddee8523e37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211106"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535585"
 ---
+# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Lync Server 2013에서 포리스트의 전역 설정 상태 보기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Lync Server 2013에서 포리스트의 전역 설정 상태 보기
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013에 대해 지원 되는 SIP (Session 착수 프로토콜) 도�
 
 SIP 도메인 정보는 Windows PowerShell 및 **new-cssipdomain** cmdlet을 사용 하 여 반환할 수 있습니다. 이 정보를 반환 하려면 `Get-CsSipDomain` Windows PowerShell 명령을 실행 합니다.
 
-New-cssipdomain는 모든 권한 있는 SIP 도메인에 대해 다음과 같은 정보를 반환 합니다.
+Get-CsSipDomain는 모든 권한 있는 SIP 도메인에 대해 다음과 같은 정보를 반환 합니다.
 
 Id 이름 IsDefault
 
@@ -59,7 +61,7 @@ fabrikam.com fabrikam.com True
 
 na.fabrikam.com na.fabrikam.com False
 
-IsDefault 속성이 True로 설정 된 경우 해당 도메인은 기본 SIP 도메인입니다. New-cssipdomain cmdlet을 사용 하 여 조직의 기본 SIP 도메인을 변경할 수 있습니다. 그러나 기본 도메인을 제외 하 고는 기본 SIP 도메인을 삭제 하기만 하면 됩니다. 이전 예제와 같이 fabrikam.com 도메인을 삭제 하려면 먼저 na.fabrikam.com를 기본 도메인으로 구성 해야 합니다.
+IsDefault 속성이 True로 설정 된 경우 해당 도메인은 기본 SIP 도메인입니다. Set-CsSipDomain cmdlet을 사용 하 여 조직의 기본 SIP 도메인을 변경할 수 있습니다. 그러나 기본 도메인을 제외 하 고는 기본 SIP 도메인을 삭제 하기만 하면 됩니다. 이전 예제와 같이 fabrikam.com 도메인을 삭제 하려면 먼저 na.fabrikam.com를 기본 도메인으로 구성 해야 합니다.
 
 </div>
 
@@ -71,7 +73,7 @@ IsDefault 속성이 True로 설정 된 경우 해당 도메인은 기본 SIP 도
 
 모임 구성 설정은 Windows PowerShell 및 **get-csmeetingconfiguration** cmdlet을 사용 하 여 검색할 수 있습니다. 예를 들어 다음 명령은 전역 모임 구성 설정에 대 한 정보를 반환 합니다.
 
-Get-csmeetingconfiguration – Id "Global" 모임 구성 설정을 사이트 범위에서 구성할 수도 있습니다. 따라서 모든 모임 구성 설정에 대 한 정보를 반환 하는 다음 명령을 사용할 수 있습니다.
+Get-CsMeetingConfiguration-사이트 범위에서 Id "전역" 모임 구성 설정을 구성할 수도 있습니다. 따라서 모든 모임 구성 설정에 대 한 정보를 반환 하는 다음 명령을 사용할 수 있습니다.
 
 `Get-CsMeetingConfiguration`
 
@@ -239,7 +241,7 @@ Enableout연결 액세스: False
 
 내부 및 페더레이션 통신에 대 한 보관 설정을 확인 합니다. 내부 및 외부 보관에 대 한 설정을 확인 하기 전에 보관이 사용 하도록 설정 되어 있는지 확인 해야 합니다.
 
-보관 구성 설정은 Windows PowerShell 및 Get-csarchivingconfiguration cmdlet을 사용 하 여 확인할 수 있습니다.
+보관 구성 설정은 Windows PowerShell 및 Get-CsArchivingConfiguration cmdlet을 사용 하 여 확인할 수 있습니다.
 
 `Get-CsArchivingConfiguration -Identity "Global"`
 
@@ -247,7 +249,7 @@ Enableout연결 액세스: False
 
 `Get-CsArchivingConfiguration`
 
-Get-csarchivingconfiguration cmdlet은 다음과 같은 데이터를 반환 합니다.
+Get-CsArchivingConfiguration cmdlet은 다음과 같은 데이터를 반환 합니다.
 
 Id: Global
 
@@ -287,7 +289,7 @@ EnableArchiving 속성이 False로 설정 된 경우에는 통신 세션을 보�
 
 보관이 사용 하도록 설정 되어 있는지 확인 한 후에는 보관 정책을 확인 하 여 내부 및 외부 통신 세션의 보관 여부를 확인할 수 있습니다.
 
-보관 정책 정보는 Grant-csarchivingpolicy cmdlet을 사용 하 여 검색할 수 있습니다. 예를 들어 다음 명령은 전역 보관 정책에 대 한 정보를 반환 합니다.
+Get-CsArchivingPolicy cmdlet을 사용 하 여 보관 정책 정보를 검색할 수 있습니다. 예를 들어 다음 명령은 전역 보관 정책에 대 한 정보를 반환 합니다.
 
 `Get-CsArchivingPolicy -Identity "Global"`
 
@@ -295,7 +297,7 @@ EnableArchiving 속성이 False로 설정 된 경우에는 통신 세션을 보�
 
 `Get-CsArchivingPolicy`
 
-Grant-csarchivingpolicy에서 수신 하는 정보는 다음과 같습니다.
+Get-CsArchivingPolicy에서 받는 정보는 다음과 유사 합니다.
 
 Id: Global
 
@@ -321,7 +323,7 @@ ArchiveExternal: False
 
 `Get-CsCdrConfiguration`
 
-Get-cscdrconfiguration cmdlet은 CDR 구성 설정의 각 컬렉션에 대해 다음과 같은 정보를 반환 합니다.
+Get-CsCdrConfiguration cmdlet은 CDR 구성 설정의 각 컬렉션에 대해 다음과 같은 정보를 반환 합니다.
 
 Id: Global
 
@@ -335,7 +337,7 @@ KeepErrorReportForDays: 60
 
 PurgeHourOfDay: 2
 
-Remove-csqoeconfiguration cmdlet을 사용 하 여 QoE 모니터링에 대 한 유사한 정보를 반환할 수 있습니다. 예를 들어이 명령은 QoE 구성 설정의 전역 컬렉션에 대 한 정보를 반환 합니다.
+Get-CsQoEConfiguration cmdlet을 사용 하 여 QoE 모니터링에 대 한 유사한 정보를 반환할 수 있습니다. 예를 들어이 명령은 QoE 구성 설정의 전역 컬렉션에 대 한 정보를 반환 합니다.
 
 `Get-QoEConfiguration -Identity "Global"`
 
@@ -377,7 +379,7 @@ EnableQoE: True
 
 ## <a name="check-voice-settings"></a>음성 설정 확인
 
-일반적으로 관리자에 게 중요 한 음성 설정은 음성 정책 및 음성 경로에 포함 되어 있습니다. 음성 정책에는 개별 사용자에 게 제공 되는 기능 (예: 통화 전달 또는 전송 기능)을 결정 하는 설정이 포함 되어 있습니다. 음성 경로는 통화를 PSTN 전체에 라우팅하는 방법을 결정 합니다.
+음성 정책에는 보통 관리자에 게 중요 한 음성 설정 및 음성 경로에 포함 됩니다. 음성 정책은 개별 사용자에 게 제공 되는 기능 (예: 통화 전달 또는 전송 기능)을 결정 하는 설정을 포함 하 고, 음성 경로는 통화 (및 인 경우)를 PSTN을 통해 라우팅하는 방법을 결정 합니다.
 
 음성 정책 정보는 Windows PowerShell을 사용 하 여 검색할 수 있습니다. 예를 들어 다음 명령은 전역 음성 정책에 대 한 정보를 반환 합니다.
 
@@ -387,11 +389,11 @@ EnableQoE: True
 
 `Get-CsVoicePolicy`
 
-Set-csvoicepolicy cmdlet이 반환 하는 정보는 다음과 유사 합니다.
+Get-CsVoicePolicy cmdlet이 반환 하는 정보는 다음과 유사 합니다.
 
 Id: Global
 
-PstnUsages{}
+PstnUsages {}
 
 설명이
 
@@ -425,7 +427,7 @@ PreventPSTNTollBypass: False
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $False}`
 
-Windows PowerShell에서 CsVoiceRouting cmdlet을 사용 하 여 음성 경로에 대 한 정보를 반환 합니다.
+Windows PowerShell에서 Get-CsVoiceRouting cmdlet을 사용 하 여 음성 경로에 대 한 정보를 반환 합니다.
 
 `Get-CsVoiceRoute`
 
@@ -437,11 +439,11 @@ Identity: LocalRoute
 
 설명이
 
-번호 패턴: ^ (\\+ 1\[0-9\]{10}) $
+번호 패턴: ^ ( \\ + 1 \[ 0-9 \] {10} ) $
 
-PstnUsages{}
+PstnUsages {}
 
-PstnGatewayList{}
+PstnGatewayList {}
 
 이름: LocalRoute
 
@@ -471,7 +473,7 @@ PSTN 전화 접속 회의에 대 한 회의 전화 교환 설정을 확인 합�
 
 `Get-CsDialInConferencingConfiguration`
 
-Get-csdialinconferencingconfiguration cmdlet은 다음과 같은 데이터를 반환 합니다.
+Get-CsDialInConferencingConfiguration cmdlet은 다음과 같은 데이터를 반환 합니다.
 
 Id: Global
 

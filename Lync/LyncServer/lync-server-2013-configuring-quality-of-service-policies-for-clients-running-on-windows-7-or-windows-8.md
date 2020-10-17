@@ -12,20 +12,22 @@ ms:contentKeyID: 48185785
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c372cae4bd55f4dec59be91c47dbee6497cbf7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cd058e2903160f1c9f4ea06e30959b63953ab01
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206004"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534975"
 ---
+# <a name="configuring-quality-of-service-policies-in-lync-server-2013-for-clients-running-on-windows-7-or-windows-8"></a>Windows 7 또는 Windows 8에서 실행 되는 클라이언트에 대해 Lync Server 2013에서 서비스 품질 정책 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-quality-of-service-policies-in-lync-server-2013-for-clients-running-on-windows-7-or-windows-8"></a>Windows 7 또는 Windows 8에서 실행 되는 클라이언트에 대해 Lync Server 2013에서 서비스 품질 정책 구성
+
 
 </div>
 
@@ -94,7 +96,7 @@ Windows 7 또는 Windows 8 컴퓨터에 대 한 서비스 품질 오디오 정�
 
 6.  **정책 기반 QoS** 대화 상자의 열기 페이지에서 **이름** 상자에 새 정책 이름 (예: **Lync Audio**)을 입력 합니다. **DSCP 값 지정**을 선택하고 값을 **46**으로 설정합니다. **아웃바운드 스로틀 속도 지정**은 선택되지 않은 상태로 두고 **다음**을 클릭합니다.
 
-7. 다음 페이지에서 **이 실행 파일 이름의 응용 프로그램만** 선택 하 **고 이름을 입력**한 후 **다음**을 클릭 합니다. 이 설정은 Lync 클라이언트에서 일치 하는 트래픽의 우선 순위를 지정 하는 것만 정책에 지시 합니다.
+7. 다음 페이지에서 **이 실행 파일 이름의 응용 프로그램만** 선택 하 고 **Lync.exe**이름을 입력 한 후 **다음**을 클릭 합니다. 이 설정은 Lync 클라이언트에서 일치 하는 트래픽의 우선 순위를 지정 하는 것만 정책에 지시 합니다.
 
 8.  세 번째 페이지에서는 **모든 원본 IP 주소** 및 **모든 대상 IP 주소**가 둘 다 선택되어 있는지 확인하고 **다음**을 클릭합니다 이 두 설정은 패킷을 보낸 컴퓨터(IP 주소) 및 받는 컴퓨터(IP 주소)에 관계없이 패킷이 관리되도록 합니다.
 
@@ -140,7 +142,7 @@ Windows 7 또는 Windows 8 컴퓨터에 대 한 서비스 품질 오디오 정�
 
 2.  **실행** 대화 상자에 **regedit**를 입력한 다음 Enter 키를 누릅니다.
 
-3.  레지스트리 편집기에서 **\_HKEY\_로컬 컴퓨터**를 확장 하 고 **시스템**, **CurrentControlSet**, **서비스**를 차례로 확장 한 다음 **Tcpip**를 확장 합니다.
+3.  레지스트리 편집기에서 **HKEY \_ 로컬 \_ 컴퓨터**를 확장 하 고 **시스템**, **CurrentControlSet**, **서비스**를 차례로 확장 한 다음 **Tcpip**를 확장 합니다.
 
 4.  **Tcpip**를 마우스 오른쪽 단추로 클릭하고 **새로 만들기**를 가리킨 다음 **키**를 클릭합니다. 새 레지스트리 키를 만든 후 **QoS**를 입력하고 Enter 키를 눌러 키 이름을 바꿉니다.
 
@@ -162,7 +164,7 @@ Windows 7 또는 Windows 8 컴퓨터에 대 한 서비스 품질 오디오 정�
 
 2.  **실행** 대화 상자에 **regedit**를 입력한 다음 Enter 키를 누릅니다.
 
-3.  레지스트리 편집기에서 **\_HKEY\_로컬 컴퓨터**를 확장 하 고 **시스템**, **CurrentControlSet**, **서비스**를 차례로 확장 한 다음 **Tcpip**를 확장 합니다.
+3.  레지스트리 편집기에서 **HKEY \_ 로컬 \_ 컴퓨터**를 확장 하 고 **시스템**, **CurrentControlSet**, **서비스**를 차례로 확장 한 다음 **Tcpip**를 확장 합니다.
 
 4.  **QoS** 라는 이름의 레지스트리 키가 표시 되지 않으면 **Tcpip**를 마우스 오른쪽 단추로 클릭 하 고 **새로 만들기**를 가리킨 다음 **키**를 클릭 합니다. 새 키를 만든 후 **QoS** 를 입력 하 고 enter 키를 눌러 키의 이름을 바꿉니다.
 

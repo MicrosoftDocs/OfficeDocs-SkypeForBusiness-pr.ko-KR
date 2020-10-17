@@ -12,20 +12,22 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 164c58859a6e92abfbb50b79c12b587c3b65c1a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2fc5aec6371bff867c2e33dbe7b88aa0d2a888c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185971"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534551"
 ---
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013에서 재해 복구 시 알림 관리
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013에서 재해 복구 시 알림 관리
+
 
 </div>
 
@@ -47,7 +49,7 @@ Lync Server 2013에서는 중단 시 할당 되지 않은 번호로 전화를 �
 
 중단 시간 중에 알림을 사용할지 여부에 관계 없이 알림 응용 프로그램에 대해 구성한 모든 사용자 지정 오디오 파일을 별도로 백업 해야 합니다. 사용자 지정 된 알림은 Lync Server 재해 복구 프로세스의 일부로 백업 되지 않습니다. 이러한 파일의 별도 백업을 만들지 않은 상태에서 서버 또는 풀에 업로드한 파일이 손상되거나 삭제될 경우 파일이 손실됩니다.
 
-사용자 지정 된 오디오 파일의 백업 복사본을 사용 하지 않고 원본 오디오 파일을 더 이상 사용할 수 없는 경우 알림 응용 프로그램에 대해 구성한 오디오 파일을 찾을 수 있습니다. 파일을 가져왔습니다. 알림 응용 프로그램에 대해 구성한 모든 오디오 파일을 파일 저장소에서 복사할 수 있습니다.
+사용자 지정 된 오디오 파일의 백업 복사본이 없고 원본 오디오 파일을 더 이상 사용할 수 없는 경우 알림 응용 프로그램에 대해 구성한 오디오 파일을 찾으려면 처음에 파일을 가져온 서버나 풀에 대 한 파일 저장소에서 검색 하면 됩니다. 알림 응용 프로그램에 대해 구성한 모든 오디오 파일을 파일 저장소에서 복사할 수 있습니다.
 
 **파일 저장소에서 오디오 파일을 복사 하려면**
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6259614da322e79f69db40441125b28c95e379c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dfe8a797fa926899774386101ff57fa5733b9918
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183911"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534155"
 ---
+# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>포트 요약-Lync Server 2013의 역방향 프록시
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>포트 요약-Lync Server 2013의 역방향 프록시
+
 
 </div>
 
@@ -76,7 +78,7 @@ _**마지막으로 수정 된 항목:** 2013-02-15_
 <th>프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
@@ -84,7 +86,7 @@ _**마지막으로 수정 된 항목:** 2013-02-15_
 <td><p>HTTP/TCP/80</p></td>
 <td><p>모두</p></td>
 <td><p>역방향 프록시 수신기</p></td>
-<td><p>반드시 사용자가 http://&lt;publishedSiteFQDN&gt;를 입력 한 경우 HTTPS로 리디렉션</p>
+<td><p>반드시 사용자가 http://publishedSiteFQDN를 입력 한 경우 HTTPS로 리디렉션 &lt; &gt;</p>
 <p>또한 조직에서 외부 웹 서비스 게시 규칙 인증서를 수정 하지 않으려는 상황에서 Lync를 실행 하는 모바일 장치에 대 한 자동 검색 서비스와 회의에 Office Web Apps를 사용 하는 경우에도 필요 합니다.</p></td>
 </tr>
 <tr class="even">
@@ -111,7 +113,7 @@ _**마지막으로 수정 된 항목:** 2013-02-15_
 <th>프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>

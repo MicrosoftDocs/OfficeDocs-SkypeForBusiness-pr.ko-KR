@@ -12,20 +12,22 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112f9e5a90e0b7b73acc40c6c7ec9d68b256d45d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2118cac5e8380d27e8f273f5cb469efdbddfd9bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184911"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534335"
 ---
+# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Lync Server 2013에서 장치 업데이트 로그 파일에 대 한 설정 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Lync Server 2013에서 장치 업데이트 로그 파일에 대 한 설정 수정
+
 
 </div>
 
@@ -57,25 +59,25 @@ Lync Server 제어판 또는 Lync Server 관리 셸을 사용 하 여 조직에 
 <tr class="odd">
 <td><p>로그 파일의 최대 크기 (바이트)입니다.</p></td>
 <td><p>Lync Server 제어판</p>
-<p>-또는-</p>
+<p>또는</p>
 <p>Communications Server 관리 셸</p></td>
 </tr>
 <tr class="even">
 <td><p>캐시에 보유할 수 있는 정보의 최대 양 (바이트)입니다.</p></td>
 <td><p>Lync Server 제어판</p>
-<p>-또는-</p>
+<p>또는</p>
 <p>Communications Server 관리 셸</p></td>
 </tr>
 <tr class="odd">
 <td><p>로그 파일에 캐시 된 정보를 기록 하는 빈도 (분)</p></td>
 <td><p>Lync Server 제어판</p>
-<p>-또는-</p>
+<p>또는</p>
 <p>Communications Server 관리 셸</p></td>
 </tr>
 <tr class="even">
 <td><p>로그 파일 보존 기간 (일)</p></td>
 <td><p>Lync Server 제어판</p>
-<p>-또는-</p>
+<p>또는</p>
 <p>Communications Server 관리 셸</p></td>
 </tr>
 <tr class="odd">
@@ -106,13 +108,13 @@ Lync Server 제어판 또는 Lync Server 관리 셸을 사용 하 여 조직에 
 
 4.  **로그 설정 편집** 대화 상자에서 다음 설정을 변경 합니다.
     
-      - **최대 파일 크기 (바이트)**   로그 파일을 제거 하기 전까지 사용할 수 있는 최대 크기를 지정 합니다. 기본값은 1024000 바이트 (1mb)입니다.
+      - **최대 파일 크기 (바이트)**     로그 파일이 제거 될 때까지 사용할 수 있는 최대 크기를 지정 합니다. 기본값은 1024000 바이트 (1mb)입니다.
     
-      - **최대 캐시 크기 (바이트)**   캐시를 삭제 하 고 로그 파일에 기록 하기 전에 로그 파일 캐시에 보유할 수 있는 최대 정보 양 (바이트)을 지정 합니다. 기본값은 512000 바이트 (0.5 MB)입니다.
+      - **최대 캐시 크기 (바이트)**     캐시를 삭제 하 고 로그 파일에 데이터를 기록 하기 전에 로그 파일 캐시에 보유할 수 있는 최대 정보 양 (바이트)을 지정 합니다. 기본값은 512000 바이트 (0.5 MB)입니다.
     
-      - **캐시 플러시 시간 (분) (1-60)**   은 로그 파일 캐시에 저장 되는 정보가 실제 로그 파일에 기록 되는 빈도를 나타냅니다. 데이터가 기록 된 후 캐시는 지워집니다. 기본값은 5 분입니다.
+      - **캐시 플러시 시간 (분) (1-60)**     로그 파일 캐시에 저장 된 정보가 실제 로그 파일에 기록 되는 빈도를 나타냅니다. 데이터가 기록 된 후 캐시는 지워집니다. 기본값은 5 분입니다.
     
-      - **로그 파일 보존 일 수 (1-365)**   로그 파일을 제거 하기 전에 보관할 기간 (일)을 지정 합니다. 기본값은 10 일입니다.
+      - **로그 파일을 보관할 일 수 (1-365)**     로그 파일을 삭제 하기 전에 보관할 기간 (일)을 지정 합니다. 기본값은 10 일입니다.
 
 5.  **커밋**을 클릭합니다.
 
@@ -128,7 +130,7 @@ Lync Server 제어판 또는 Lync Server 관리 셸을 사용 하 여 조직에 
 
 
 > [!NOTE]  
-> 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+> 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 하세요.
 
 
 

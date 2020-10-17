@@ -12,20 +12,22 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6f28effa3ac80f4a2bca1fa062fcc3dfafb5d7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d28afb699b63ee3523c7b5d4ae31bf9153459abf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194933"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533945"
 ---
+# <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Lync Server 2013의 회의에 대 한 기술 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Lync Server 2013의 회의에 대 한 기술 요구 사항
+
 
 </div>
 
@@ -214,7 +216,7 @@ Lync Server 2013에서는 전화 접속 회의를 위한 음성 안내 및 음�
 
 ## <a name="user-requirements-for-dial-in-conferencing"></a>전화 접속 회의에 대한 사용자 요구 사항
 
-전화 접속 회의 사용자의 계정에 고유한 전화 번호나 내선 번호가 지정되어야 합니다. 이 요구 사항은 전화 접속 회의를 진행하는 동안 인증을 지원합니다. 엔터프라이즈 사용자 (즉, 조직 내에 Active Directory 도메인 서비스 자격 증명과 Lync Server 계정이 있는 사용자)는 전화 번호 또는 내선 번호를 입력 하 고 회의에 전화를 거는 PIN (개인 id)을 인증 된 사용자입니다.
+전화 접속 회의 사용자의 계정에 고유한 전화 번호나 내선 번호가 지정되어야 합니다. 이 요구 사항은 전화 접속 회의를 진행하는 동안 인증을 지원합니다. 엔터프라이즈 사용자 (즉, 조직 내에 Active Directory 도메인 서비스 자격 증명과 Lync Server 계정이 있는 사용자)의 전화 번호 또는 내선 번호를 입력 하 여 인증 된 사용자로 전화를 걸어 회의에 로그인 할 수 있습니다.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2c4f922565b5b3af5613de4a5e43c79cf573410
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: db84f9b353450419a8cc8029e4a24d01f0df76b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534415"
 ---
+# <a name="modify-a-dial-plan-in-lync-server-2013"></a>Lync Server 2013에서 다이얼 플랜 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-dial-plan-in-lync-server-2013"></a>Lync Server 2013에서 다이얼 플랜 수정
+
 
 </div>
 
@@ -84,7 +86,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
     
     </div>
 
-8.  (선택 사항) 사용자가 외부 회선에 연결하기 위해 하나 이상의 추가 선행 번호(예: 9)를 눌러야 하는 경우에만 **외부 액세스 접두사** 필드에 값을 지정합니다. 접두사 값으로 최대 4 자 ( \# \*즉, 0-9)를 입력할 수 있습니다.
+8.  (선택 사항) 사용자가 외부 회선에 연결하기 위해 하나 이상의 추가 선행 번호(예: 9)를 눌러야 하는 경우에만 **외부 액세스 접두사** 필드에 값을 지정합니다. 접두사 값으로 최대 4 자 (즉, 0-9)를 입력할 수 있습니다 \# \* .
     
     <div>
     
@@ -122,7 +124,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
     
 
     > [!IMPORTANT]  
-    > Lync Server는 정규화 규칙 목록을 위에서 아래로 이동 하 고 전화 건 번호와 일치 하는 첫 번째 규칙을 사용 합니다. 전화를 건 번호가 둘 이상의 정규화 규칙과 일치하도록 다이얼 플랜을 구성하는 경우 더 제한적인 규칙을 덜 제한적인 규칙보다 위에 정렬되게 하십시오.<BR>기본 <STRONG>모든 정규화 유지</STRONG> 규칙 <STRONG>^ (\d{11}) $</STRONG> 는 11 자리 숫자와 일치 합니다. 예를 들어 1425으로 시작 하는 11 자리 번호와 일치 하는 정규화 규칙을 추가 하는 경우에는 <STRONG>모두 유지</STRONG> 를 보다 제한적인 <STRONG>^ ({7}1425) $</STRONG> rule 아래에 정렬 해야 합니다.
+    > Lync Server는 정규화 규칙 목록을 위에서 아래로 이동 하 고 전화 건 번호와 일치 하는 첫 번째 규칙을 사용 합니다. 전화를 건 번호가 둘 이상의 정규화 규칙과 일치하도록 다이얼 플랜을 구성하는 경우 더 제한적인 규칙을 덜 제한적인 규칙보다 위에 정렬되게 하십시오.<BR>기본 <STRONG>모든 정규화 유지</STRONG> 규칙 <STRONG>^ (\d {11} ) $</STRONG> 는 11 자리 숫자와 일치 합니다. 예를 들어 1425으로 시작 하는 11 자리 번호와 일치 하는 정규화 규칙을 추가 하는 경우에는 <STRONG>모두 유지</STRONG> 를 보다 제한적인 <STRONG>^ (1425 {7} ) $</STRONG> rule 아래에 정렬 해야 합니다.
 
     
     </div>

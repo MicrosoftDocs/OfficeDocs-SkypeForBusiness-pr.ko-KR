@@ -12,20 +12,22 @@ ms:contentKeyID: 48185038
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434f7cc92fd6a6bc284074cce476f4bc3b2eca01
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0f457fc96981927ea2b6cb4d4177488dc3f5231
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211074"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535495"
 ---
+# <a name="voice-routes-in-lync-server-2013"></a>Lync Server 2013의 음성 경로
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-routes-in-lync-server-2013"></a>Lync Server 2013의 음성 경로
+
 
 </div>
 
@@ -85,7 +87,7 @@ Lync Server에서는 통화가 PSTN으로 라우팅되는 방식을 유연 하 �
 
 ## <a name="translating-outbound-dial-strings"></a>아웃바운드 전화 걸기 문자열 변환
 
-Lync Server 2013를 바로 실행 하는 경우에는 RNL (역방향 번호 조회)를 수행할 목적으로 모든 다이얼 문자열을 E. 164 형식으로 정규화 해야 합니다. 게이트웨이 또는 Pbx (private branch exchange)가 로컬 전화 걸기 형식으로 변환 되어야 하는 트렁크 경우 Lync Server 2013를 사용 하 여 호출 된 번호 (예: 요청 URI)를 처리 하는 데 도움이 되는 하나 이상의 규칙을 만든 다음 트렁크. 예를 들어 전화 걸기 문자열의 시작 부분에서 +44를 제거하고 대신 0144를 넣는 규칙을 작성할 수 있습니다.
+Lync Server 2013를 바로 실행 하는 경우에는 RNL (역방향 번호 조회)를 수행할 목적으로 모든 다이얼 문자열을 E. 164 형식으로 정규화 해야 합니다. 게이트웨이 또는 Pbx (private branch exchange)가 로컬 전화 걸기 형식으로 변환 되어야 하는 트렁크 경우 Lync Server 2013에서는 트렁크로 라우팅하기 전에 호출 된 번호 (즉, 요청 URI)를 조작 하는 데 도움이 되는 하나 이상의 규칙을 만들 수 있습니다. 예를 들어 전화 걸기 문자열의 시작 부분에서 +44를 제거하고 대신 0144를 넣는 규칙을 작성할 수 있습니다.
 
 Lync Server 2013를 사용 하 여 트렁크로 라우팅하기 전에 호출 번호를 조작 하는 데 도움이 되는 하나 이상의 규칙을 만들 수 있습니다.
 
@@ -97,7 +99,7 @@ Lync Server 2013를 사용 하 여 트렁크로 라우팅하기 전에 호출 �
 
 ## <a name="configuring-caller-id"></a>발신자 번호 구성
 
-Lync Server는 아웃 바운드 호출에 대 한 발신자 ID를 조작할 수 있는 방법을 제공 합니다. 예를 들어 조직에서 직원의 직접 전화 걸기 내선 번호를 마스크 하 고 일반 회사 또는 부서 번호로 교체 하려는 경우 관리자는 Lync Server 제어판을 사용 하 여 발신자 ID를 억제 하 고 지정한 대체 발신자 ID 라우팅 논리를 계획할 때는 개인, 그룹, 사이트 또는 모든 직원 중 어떤 대상에 대해 발신자 번호를 대체할지 고려해야 합니다.
+Lync Server는 아웃 바운드 호출에 대 한 발신자 ID를 조작할 수 있는 방법을 제공 합니다. 예를 들어 조직에서 직원의 직접 전화 걸기 내선 번호를 마스크 하 고 일반 회사 또는 부서 번호로 교체 하려는 경우 관리자는 Lync Server 제어판을 사용 하 여 발신자 ID를 억제 하 고 지정 된 대체 호출자 ID로 바꾸는 방법으로이 작업을 수행할 수 있습니다. 라우팅 논리를 계획할 때는 개인, 그룹, 사이트 또는 모든 직원 중 어떤 대상에 대해 발신자 번호를 대체할지 고려해야 합니다.
 
 <div>
 
