@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 공통 영역 전화에 정책 할당'
+description: 'Lync Server 2013: 공통 영역 전화에 정책을 할당 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a6403092daa1a8cd84d246f2bd3bdece7661fef
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fe437ec87ba30eff834239db2b4815adb2d5718c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499465"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559824"
 ---
-# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a><span data-ttu-id="f1a83-102">Lync Server 2013의 정책을 공통 영역 전화에 할당</span><span class="sxs-lookup"><span data-stu-id="f1a83-102">Assign policies in Lync Server 2013 to a common area phone</span></span>
+# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a><span data-ttu-id="db0fe-103">Lync Server 2013의 정책을 공통 영역 전화에 할당</span><span class="sxs-lookup"><span data-stu-id="db0fe-103">Assign policies in Lync Server 2013 to a common area phone</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,18 +38,18 @@ ms.locfileid: "48499465"
 
 <span> </span>
 
-<span data-ttu-id="f1a83-103">_**마지막으로 수정 된 항목:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="f1a83-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="db0fe-104">_**마지막으로 수정 된 항목:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="db0fe-104">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="f1a83-104">공통 영역 전화에 대 한 정책을 만든 후에 [는 (Lync Server 2013에서 음성 정책 만들기 및 PSTN 사용 레코드 구성](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)참조) Windows PowerShell 및 적절 한 **Cs** cmdlet을 사용 하 여 정책을 공통 영역 전화에 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f1a83-104">After you create your policy for common area phones (for details, see [Create a voice policy and configure PSTN usage records in Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), you can assign the policy to a common area phone by using Windows PowerShell and the appropriate **Grant-Cs** cmdlet.</span></span> <span data-ttu-id="f1a83-105">이러한 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f1a83-105">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="f1a83-106">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 하세요.</span><span class="sxs-lookup"><span data-stu-id="f1a83-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
-
-<div>
-
+<span data-ttu-id="db0fe-105">공통 영역 전화에 대 한 정책을 만든 후에 [는 (Lync Server 2013에서 음성 정책 만들기 및 PSTN 사용 레코드 구성](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)참조) Windows PowerShell 및 적절 한 **Cs** cmdlet을 사용 하 여 정책을 공통 영역 전화에 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db0fe-105">After you create your policy for common area phones (for details, see [Create a voice policy and configure PSTN usage records in Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), you can assign the policy to a common area phone by using Windows PowerShell and the appropriate **Grant-Cs** cmdlet.</span></span> <span data-ttu-id="db0fe-106">이러한 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db0fe-106">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="db0fe-107">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 하세요.</span><span class="sxs-lookup"><span data-stu-id="db0fe-107">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="assigning-a-policy-to-a-single-common-area-phone"></a><span data-ttu-id="f1a83-107">단일 공통 영역 전화에 정책 할당</span><span class="sxs-lookup"><span data-stu-id="f1a83-107">Assigning a Policy to a Single Common Area Phone</span></span>
 
-  - <span data-ttu-id="f1a83-108">다음 명령은 Id가 14 로비 인 일반 영역 전화에 사용자별 음성 정책 RedmondVoice를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="f1a83-108">The following command assigns the per-user voice policy RedmondVoice to the common area phone that has the Identity Building 14 Lobby.</span></span>
+<div>
+
+## <a name="assigning-a-policy-to-a-single-common-area-phone"></a><span data-ttu-id="db0fe-108">단일 공통 영역 전화에 정책 할당</span><span class="sxs-lookup"><span data-stu-id="db0fe-108">Assigning a Policy to a Single Common Area Phone</span></span>
+
+  - <span data-ttu-id="db0fe-109">다음 명령은 Id가 14 로비 인 일반 영역 전화에 사용자별 음성 정책 RedmondVoice를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="db0fe-109">The following command assigns the per-user voice policy RedmondVoice to the common area phone that has the Identity Building 14 Lobby.</span></span>
     
         Grant-CsVoicePolicy -Identity "Building 14 Lobby" -PolicyName "RedmondVoicePolicy"
 
@@ -56,24 +57,24 @@ ms.locfileid: "48499465"
 
 <div>
 
-## <a name="assigning-a-policy-to-multiple-common-area-phones"></a><span data-ttu-id="f1a83-109">여러 공통 영역 전화에 정책 할당</span><span class="sxs-lookup"><span data-stu-id="f1a83-109">Assigning a Policy to Multiple Common Area Phones</span></span>
+## <a name="assigning-a-policy-to-multiple-common-area-phones"></a><span data-ttu-id="db0fe-110">여러 공통 영역 전화에 정책 할당</span><span class="sxs-lookup"><span data-stu-id="db0fe-110">Assigning a Policy to Multiple Common Area Phones</span></span>
 
-  - <span data-ttu-id="f1a83-110">이 예에서는 조직에서 사용 하도록 구성 된 모든 공통 영역 전화에 사용자별 음성 정책 RedmondVoice이 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f1a83-110">In this example, the per-user voice policy RedmondVoice is assigned to all the common area phones configured for use in the organization.</span></span>
+  - <span data-ttu-id="db0fe-111">이 예에서는 조직에서 사용 하도록 구성 된 모든 공통 영역 전화에 사용자별 음성 정책 RedmondVoice이 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="db0fe-111">In this example, the per-user voice policy RedmondVoice is assigned to all the common area phones configured for use in the organization.</span></span>
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
 </div>
 
-<span data-ttu-id="f1a83-111">자세한 내용은 [set-csvoicepolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy)에 대 한 도움말 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f1a83-111">For details, see the Help topics for the [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).</span></span>
+<span data-ttu-id="db0fe-112">자세한 내용은 [set-csvoicepolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy)에 대 한 도움말 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="db0fe-112">For details, see the Help topics for the [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f1a83-112">참고 항목</span><span class="sxs-lookup"><span data-stu-id="f1a83-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="db0fe-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="db0fe-113">See Also</span></span>
 
 
-[<span data-ttu-id="f1a83-113">Move-cscommonareaphone</span><span class="sxs-lookup"><span data-stu-id="f1a83-113">Get-CsCommonAreaPhone</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
+[<span data-ttu-id="db0fe-114">Move-cscommonareaphone</span><span class="sxs-lookup"><span data-stu-id="db0fe-114">Get-CsCommonAreaPhone</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
   
 
 </div>

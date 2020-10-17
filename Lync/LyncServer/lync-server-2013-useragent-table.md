@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: UserAgent 테이블'
+description: 'Lync Server 2013: UserAgent 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32586ddbe4dd6fac410a859fa00a1710bbaa2b47
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b701d8384313d0267dd566e0c32242f6cc077472
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530135"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558894"
 ---
-# <a name="useragent-table-in-lync-server-2013"></a><span data-ttu-id="f1806-102">Lync Server 2013의 UserAgent 테이블</span><span class="sxs-lookup"><span data-stu-id="f1806-102">UserAgent table in Lync Server 2013</span></span>
+# <a name="useragent-table-in-lync-server-2013"></a><span data-ttu-id="683c1-103">Lync Server 2013의 UserAgent 테이블</span><span class="sxs-lookup"><span data-stu-id="683c1-103">UserAgent table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48530135"
 
 <span> </span>
 
-<span data-ttu-id="f1806-103">_**마지막으로 수정 된 항목:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="f1806-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="683c1-104">_**마지막으로 수정 된 항목:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="683c1-104">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="f1806-104">UserAgent 테이블은 데이터베이스에 기록 된 세션에 참여 한 다양 한 사용자 에이전트 목록을 저장 하는 지원 테이블입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-104">The UserAgent table is a supporting table that stores a list of the various user agents that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="f1806-105">테이블의 각 레코드는 한 명의 사용자 에이전트를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-105">Each record in the table represents one user agent</span></span>
+<span data-ttu-id="683c1-105">UserAgent 테이블은 데이터베이스에 기록 된 세션에 참여 한 다양 한 사용자 에이전트 목록을 저장 하는 지원 테이블입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-105">The UserAgent table is a supporting table that stores a list of the various user agents that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="683c1-106">테이블의 각 레코드는 한 명의 사용자 에이전트를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-106">Each record in the table represents one user agent</span></span>
 
 
 <table>
@@ -51,41 +52,41 @@ ms.locfileid: "48530135"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f1806-106"><strong>열</strong></span><span class="sxs-lookup"><span data-stu-id="f1806-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="f1806-107"><strong>데이터 형식</strong></span><span class="sxs-lookup"><span data-stu-id="f1806-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="f1806-108"><strong>키/인덱스</strong></span><span class="sxs-lookup"><span data-stu-id="f1806-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="f1806-109"><strong>세부 정보</strong></span><span class="sxs-lookup"><span data-stu-id="f1806-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="683c1-107"><strong>열</strong></span><span class="sxs-lookup"><span data-stu-id="683c1-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="683c1-108"><strong>데이터 형식</strong></span><span class="sxs-lookup"><span data-stu-id="683c1-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="683c1-109"><strong>키/인덱스</strong></span><span class="sxs-lookup"><span data-stu-id="683c1-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="683c1-110"><strong>세부 정보</strong></span><span class="sxs-lookup"><span data-stu-id="683c1-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f1806-110"><strong>UserAgentKey</strong></span><span class="sxs-lookup"><span data-stu-id="f1806-110"><strong>UserAgentKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1806-111">int</span><span class="sxs-lookup"><span data-stu-id="f1806-111">int</span></span></p></td>
-<td><p><span data-ttu-id="f1806-112">Primary</span><span class="sxs-lookup"><span data-stu-id="f1806-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="f1806-113">이 사용자 에이전트를 식별하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-113">Unique number identifying this user agent.</span></span></p></td>
+<td><p><span data-ttu-id="683c1-111"><strong>UserAgentKey</strong></span><span class="sxs-lookup"><span data-stu-id="683c1-111"><strong>UserAgentKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="683c1-112">int</span><span class="sxs-lookup"><span data-stu-id="683c1-112">int</span></span></p></td>
+<td><p><span data-ttu-id="683c1-113">Primary</span><span class="sxs-lookup"><span data-stu-id="683c1-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="683c1-114">이 사용자 에이전트를 식별하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-114">Unique number identifying this user agent.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1806-114"><strong>UserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="f1806-114"><strong>UserAgent</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1806-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="f1806-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="f1806-116">고유한</span><span class="sxs-lookup"><span data-stu-id="f1806-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="f1806-117">사용자 에이전트 문자열입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-117">User Agent string.</span></span></p></td>
+<td><p><span data-ttu-id="683c1-115"><strong>UserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="683c1-115"><strong>UserAgent</strong></span></span></p></td>
+<td><p><span data-ttu-id="683c1-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="683c1-116">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="683c1-117">고유한</span><span class="sxs-lookup"><span data-stu-id="683c1-117">Unique</span></span></p></td>
+<td><p><span data-ttu-id="683c1-118">사용자 에이전트 문자열입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-118">User Agent string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1806-118"><strong>UAType</strong></span><span class="sxs-lookup"><span data-stu-id="f1806-118"><strong>UAType</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1806-119">smallint</span><span class="sxs-lookup"><span data-stu-id="f1806-119">smallint</span></span></p></td>
+<td><p><span data-ttu-id="683c1-119"><strong>UAType</strong></span><span class="sxs-lookup"><span data-stu-id="683c1-119"><strong>UAType</strong></span></span></p></td>
+<td><p><span data-ttu-id="683c1-120">smallint</span><span class="sxs-lookup"><span data-stu-id="683c1-120">smallint</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="f1806-120">1은 중재 서버입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-120">1 is Mediation Server.</span></span></p>
-<p><span data-ttu-id="f1806-121">2는 A/V 회의 서버입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-121">2 is A/V Conferencing Server.</span></span></p>
-<p><span data-ttu-id="f1806-122">4는 Lync입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-122">4 is Lync.</span></span></p>
-<p><span data-ttu-id="f1806-123">8은 IP 전화입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-123">8 is IP Phone.</span></span></p>
-<p><span data-ttu-id="f1806-124">16은 Live Meeting 콘솔입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-124">16 is Live Meeting Console.</span></span></p>
-<p><span data-ttu-id="f1806-125">32는 DVT (배포 유효성 검사 도구)입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-125">32 is Deployment Validation Tool (DVT).</span></span></p>
-<p><span data-ttu-id="f1806-126">64는 Macintosh 컴퓨터의 Lync입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-126">64 is Lync on Macintosh computers.</span></span></p>
-<p><span data-ttu-id="f1806-127">128는 Office Communications Server 2007 R2 Attendant입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-127">128 is Office Communications Server 2007 R2 Attendant.</span></span></p>
-<p><span data-ttu-id="f1806-128">256은 회의 알림 서비스입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-128">256 is Conferencing Announcement service.</span></span></p>
-<p><span data-ttu-id="f1806-129">512은 회의 자동 전화 교환입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-129">512 is Conferencing Auto Attendant.</span></span></p>
-<p><span data-ttu-id="f1806-130">1024는 응답 그룹 응용 프로그램입니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-130">1024 is Response Group application.</span></span></p>
-<p><span data-ttu-id="f1806-131">2048는 음성 제어 외부에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f1806-131">2048 is Outside Voice Control.</span></span></p></td>
+<td><p><span data-ttu-id="683c1-121">1은 중재 서버입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-121">1 is Mediation Server.</span></span></p>
+<p><span data-ttu-id="683c1-122">2는 A/V 회의 서버입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-122">2 is A/V Conferencing Server.</span></span></p>
+<p><span data-ttu-id="683c1-123">4는 Lync입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-123">4 is Lync.</span></span></p>
+<p><span data-ttu-id="683c1-124">8은 IP 전화입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-124">8 is IP Phone.</span></span></p>
+<p><span data-ttu-id="683c1-125">16은 Live Meeting 콘솔입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-125">16 is Live Meeting Console.</span></span></p>
+<p><span data-ttu-id="683c1-126">32는 DVT (배포 유효성 검사 도구)입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-126">32 is Deployment Validation Tool (DVT).</span></span></p>
+<p><span data-ttu-id="683c1-127">64는 Macintosh 컴퓨터의 Lync입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-127">64 is Lync on Macintosh computers.</span></span></p>
+<p><span data-ttu-id="683c1-128">128는 Office Communications Server 2007 R2 Attendant입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-128">128 is Office Communications Server 2007 R2 Attendant.</span></span></p>
+<p><span data-ttu-id="683c1-129">256은 회의 알림 서비스입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-129">256 is Conferencing Announcement service.</span></span></p>
+<p><span data-ttu-id="683c1-130">512은 회의 자동 전화 교환입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-130">512 is Conferencing Auto Attendant.</span></span></p>
+<p><span data-ttu-id="683c1-131">1024는 응답 그룹 응용 프로그램입니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-131">1024 is Response Group application.</span></span></p>
+<p><span data-ttu-id="683c1-132">2048는 음성 제어 외부에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="683c1-132">2048 is Outside Voice Control.</span></span></p></td>
 </tr>
 </tbody>
 </table>

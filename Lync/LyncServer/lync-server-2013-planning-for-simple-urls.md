@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 단순 Url 계획'
+description: 'Lync Server 2013: 단순 Url 계획'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183610
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7d5ae03267b266b1ef2abbacc2e3fce06e034ec
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 10a7f2aaf85dafe5facba7cfd2509cfcc8812d67
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513525"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558404"
 ---
-# <a name="planning-for-simple-urls-in-lync-server-2013"></a><span data-ttu-id="c6a9f-102">Lync Server 2013의 단순 Url 계획</span><span class="sxs-lookup"><span data-stu-id="c6a9f-102">Planning for simple URLs in Lync Server 2013</span></span>
+# <a name="planning-for-simple-urls-in-lync-server-2013"></a><span data-ttu-id="5e2fe-103">Lync Server 2013의 단순 Url 계획</span><span class="sxs-lookup"><span data-stu-id="5e2fe-103">Planning for simple URLs in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,57 +38,57 @@ ms.locfileid: "48513525"
 
 <span> </span>
 
-<span data-ttu-id="c6a9f-103">_**마지막으로 수정 된 항목:** 2015-12-11_</span><span class="sxs-lookup"><span data-stu-id="c6a9f-103">_**Topic Last Modified:** 2015-12-11_</span></span>
+<span data-ttu-id="5e2fe-104">_**마지막으로 수정 된 항목:** 2015-12-11_</span><span class="sxs-lookup"><span data-stu-id="5e2fe-104">_**Topic Last Modified:** 2015-12-11_</span></span>
 
-<span data-ttu-id="c6a9f-104">단순 Url은 사용자에 게 모임 참석을 보다 용이 하 게 하며, 관리자가 Lync Server 관리 도구를 보다 쉽게 사용할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-104">Simple URLs make joining meetings easier for your users, and make getting to Lync Server administrative tools easier for your administrators.</span></span>
+<span data-ttu-id="5e2fe-105">단순 Url은 사용자에 게 모임 참석을 보다 용이 하 게 하며, 관리자가 Lync Server 관리 도구를 보다 쉽게 사용할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-105">Simple URLs make joining meetings easier for your users, and make getting to Lync Server administrative tools easier for your administrators.</span></span>
 
-<span data-ttu-id="c6a9f-105">Lync Server에서는 다음과 같은 세 가지 단순 Url을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-105">Lync Server supports three simple URLs:</span></span>
+<span data-ttu-id="5e2fe-106">Lync Server에서는 다음과 같은 세 가지 단순 Url을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-106">Lync Server supports three simple URLs:</span></span>
 
-  - <span data-ttu-id="c6a9f-106">**모임**은 사이트 또는 조직의 모든 전화 회의에 대한 기준 URL로 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-106">**Meet** is used as the base URL for all conferences in the site or organization.</span></span> <span data-ttu-id="c6a9f-107">모임 단순 URL의 예는 https://meet.contoso.com 입니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-107">An example of a Meet simple URL is https://meet.contoso.com.</span></span> <span data-ttu-id="c6a9f-108">특정 모임에 대 한 URL은 https://meet.contoso.com/ *사용자 이름*/7322994이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-108">A URL for a particular meeting might be https://meet.contoso.com/*username*/7322994.</span></span>
+  - <span data-ttu-id="5e2fe-107">**모임**은 사이트 또는 조직의 모든 전화 회의에 대한 기준 URL로 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-107">**Meet** is used as the base URL for all conferences in the site or organization.</span></span> <span data-ttu-id="5e2fe-108">모임 단순 URL의 예는 https://meet.contoso.com 입니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-108">An example of a Meet simple URL is https://meet.contoso.com.</span></span> <span data-ttu-id="5e2fe-109">특정 모임에 대 한 URL은 https://meet.contoso.com/ *사용자 이름*/7322994이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-109">A URL for a particular meeting might be https://meet.contoso.com/*username*/7322994.</span></span>
     
-    <span data-ttu-id="c6a9f-109">모임 단순 URL을 사용하면 모임에 참가할 링크를 쉽게 이해하고 전달하고 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-109">With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute.</span></span>
+    <span data-ttu-id="5e2fe-110">모임 단순 URL을 사용하면 모임에 참가할 링크를 쉽게 이해하고 전달하고 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-110">With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute.</span></span>
 
-  - <span data-ttu-id="c6a9f-110">**전화 접속** 을 사용 하면 전화 접속 회의 설정 웹 페이지에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-110">**Dial-in** enables access to the Dial-in Conferencing Settings webpage.</span></span> <span data-ttu-id="c6a9f-111">이 페이지에는 전화 회의 전화 번호를 사용 가능한 언어로 표시 하 고, 전화 회의 정보 (예약할 필요가 없는 모임의 경우)를 지정 하 고, PIN (개인 식별 번호) 및 할당 된 회의 정보 관리를 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-111">This page displays conference dial-in numbers with their available languages, assigned conference information (that is, for meetings that do not need to be scheduled), and in-conference DTMF controls, and supports management of personal identification number (PIN) and assigned conferencing information.</span></span> <span data-ttu-id="c6a9f-112">전화 접속 단순 URL은 모임에 전화를 거는 사용자가 필요한 전화 번호와 PIN 정보에 액세스할 수 있도록 모든 모임 초대에 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-112">The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information.</span></span> <span data-ttu-id="c6a9f-113">전화 접속 단순 URL의 예는 https://dialin.contoso.com 입니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-113">An example of the Dial-in simple URL is https://dialin.contoso.com.</span></span>
+  - <span data-ttu-id="5e2fe-111">**전화 접속** 을 사용 하면 전화 접속 회의 설정 웹 페이지에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-111">**Dial-in** enables access to the Dial-in Conferencing Settings webpage.</span></span> <span data-ttu-id="5e2fe-112">이 페이지에는 전화 회의 전화 번호를 사용 가능한 언어로 표시 하 고, 전화 회의 정보 (예약할 필요가 없는 모임의 경우)를 지정 하 고, PIN (개인 식별 번호) 및 할당 된 회의 정보 관리를 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-112">This page displays conference dial-in numbers with their available languages, assigned conference information (that is, for meetings that do not need to be scheduled), and in-conference DTMF controls, and supports management of personal identification number (PIN) and assigned conferencing information.</span></span> <span data-ttu-id="5e2fe-113">전화 접속 단순 URL은 모임에 전화를 거는 사용자가 필요한 전화 번호와 PIN 정보에 액세스할 수 있도록 모든 모임 초대에 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-113">The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information.</span></span> <span data-ttu-id="5e2fe-114">전화 접속 단순 URL의 예는 https://dialin.contoso.com 입니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-114">An example of the Dial-in simple URL is https://dialin.contoso.com.</span></span>
 
-  - <span data-ttu-id="c6a9f-114">**관리자** 는 Lync Server 제어판에 빠르게 액세스할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-114">**Admin** enables quick access to the Lync Server Control Panel.</span></span> <span data-ttu-id="c6a9f-115">조직의 방화벽 내에 있는 모든 컴퓨터에서 관리자는 브라우저에 관리 단순 URL을 입력 하 여 Lync Server 제어판을 열 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-115">From any computer within your organization’s firewalls, an admin can open the Lync Server Control Panel by typing the Admin simple URL into a browser.</span></span> <span data-ttu-id="c6a9f-116">관리 단순 URL은 조직의 내부 URL입니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-116">The Admin simple URL is internal to your organization.</span></span> <span data-ttu-id="c6a9f-117">관리 단순 URL의 예는 https://admin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c6a9f-117">An example of the Admin simple URL is https://admin.contoso.com</span></span>
+  - <span data-ttu-id="5e2fe-115">**관리자** 는 Lync Server 제어판에 빠르게 액세스할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-115">**Admin** enables quick access to the Lync Server Control Panel.</span></span> <span data-ttu-id="5e2fe-116">조직의 방화벽 내에 있는 모든 컴퓨터에서 관리자는 브라우저에 관리 단순 URL을 입력 하 여 Lync Server 제어판을 열 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-116">From any computer within your organization’s firewalls, an admin can open the Lync Server Control Panel by typing the Admin simple URL into a browser.</span></span> <span data-ttu-id="5e2fe-117">관리 단순 URL은 조직의 내부 URL입니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-117">The Admin simple URL is internal to your organization.</span></span> <span data-ttu-id="5e2fe-118">관리 단순 URL의 예는 https://admin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="5e2fe-118">An example of the Admin simple URL is https://admin.contoso.com</span></span>
 
 <div>
 
-## <a name="simple-url-scope"></a><span data-ttu-id="c6a9f-118">단순 URL 범위</span><span class="sxs-lookup"><span data-stu-id="c6a9f-118">Simple URL Scope</span></span>
+## <a name="simple-url-scope"></a><span data-ttu-id="5e2fe-119">단순 URL 범위</span><span class="sxs-lookup"><span data-stu-id="5e2fe-119">Simple URL Scope</span></span>
 
-<span data-ttu-id="c6a9f-119">전역 범위에서 적용되도록 단순 URL을 구성하거나 조직의 각 중앙 사이트에 대해 서로 다른 단순 URL을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-119">You can configure your simple URLs to have global scope, or you can specify different simple URLs for each central site in your organization.</span></span> <span data-ttu-id="c6a9f-120">전역 범위 단순 URL과 사이트 범위 단순 URL이 모두 지정 된 경우 사이트 범위 단순 URL이 우선 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-120">If both a global scope simple URL and a site scope simple URL are specified, the site scope simple URL has precedence.</span></span>
+<span data-ttu-id="5e2fe-120">전역 범위에서 적용되도록 단순 URL을 구성하거나 조직의 각 중앙 사이트에 대해 서로 다른 단순 URL을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-120">You can configure your simple URLs to have global scope, or you can specify different simple URLs for each central site in your organization.</span></span> <span data-ttu-id="5e2fe-121">전역 범위 단순 URL과 사이트 범위 단순 URL이 모두 지정 된 경우 사이트 범위 단순 URL이 우선 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-121">If both a global scope simple URL and a site scope simple URL are specified, the site scope simple URL has precedence.</span></span>
 
-<span data-ttu-id="c6a9f-p105">대부분의 경우 전역 수준에서만 단순 URL을 설정하여 사이트 간에 이동하더라도 사용자의 모임 단순 URL이 변경되지 않도록 하는 것이 좋습니다. 단, 여러 사이트의 전화 접속 사용자에 서로 다른 전화 번호를 사용해야 하는 조직은 예외입니다. 사이트에서 하나의 단순 URL(예: 전화 접속 단순 URL)을 사이트 수준 단순 URL로 설정한 경우에는 해당 사이트의 다른 단순 URL도 사이트 수준으로 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-p105">In most cases, we recommend that you set simple URLs only at the global level, so that a user’s Meet simple URL does not change if they move from one site to another. The exception would be organizations that need to use different telephone numbers for dial-in users at different sites. Note that if you set one simple URL (such as the Dial-in simple URL) at a site to be a site-level simple URL, you must also set the other simple URLs at that site to be site-level as well.</span></span>
+<span data-ttu-id="5e2fe-p105">대부분의 경우 전역 수준에서만 단순 URL을 설정하여 사이트 간에 이동하더라도 사용자의 모임 단순 URL이 변경되지 않도록 하는 것이 좋습니다. 단, 여러 사이트의 전화 접속 사용자에 서로 다른 전화 번호를 사용해야 하는 조직은 예외입니다. 사이트에서 하나의 단순 URL(예: 전화 접속 단순 URL)을 사이트 수준 단순 URL로 설정한 경우에는 해당 사이트의 다른 단순 URL도 사이트 수준으로 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-p105">In most cases, we recommend that you set simple URLs only at the global level, so that a user’s Meet simple URL does not change if they move from one site to another. The exception would be organizations that need to use different telephone numbers for dial-in users at different sites. Note that if you set one simple URL (such as the Dial-in simple URL) at a site to be a site-level simple URL, you must also set the other simple URLs at that site to be site-level as well.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="c6a9f-124">사이트 범위가 지정 된 단순 Url을 사용 하도록 선택 하는 경우 사용자가 다른 사이트의 Front-End 풀 간에 이동할 수 없으며, 사용자는 모임 단순 Url이 사이트 간에 서로 다른 것으로 예약 된 모든 모임에 대해 일정을 조정 하지 않아도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-124">If you choose to use site scoped simple URLs, your users won't be able to move between Front-End pools in different sites without those users rescheduling all of their scheduled meetings as the meeting simple URLs are different between sites.</span></span> <span data-ttu-id="c6a9f-125">여기에는 백업 관계의 풀이 별도의 사이트에 있는 장애 조치 (failover) 시나리오가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-125">This includes fail-over scenarios where pools in backup relationships are in separate sites.</span></span> <span data-ttu-id="c6a9f-126">사이트 범위가 지정 된 단순 Url이 배포 되는 사이트 간에 장애 조치 (failover)를 수행 해야 하는 경우에는 URL 범위로 인해 사용자가 자신의 모임에 참가할 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-126">When you need to fail-over between sites where site scoped simple URLs are deployed, users won't be able to join their meetings because of the scope for URL.</span></span> <span data-ttu-id="c6a9f-127">자세한 내용을 보려면 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">get-cssimpleurlconfiguration</A>를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-127">For further information, check <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.</span></span>
+> <span data-ttu-id="5e2fe-125">사이트 범위가 지정 된 단순 Url을 사용 하도록 선택 하는 경우 사용자가 다른 사이트의 Front-End 풀 간에 이동할 수 없으며, 사용자는 모임 단순 Url이 사이트 간에 서로 다른 것으로 예약 된 모든 모임에 대해 일정을 조정 하지 않아도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-125">If you choose to use site scoped simple URLs, your users won't be able to move between Front-End pools in different sites without those users rescheduling all of their scheduled meetings as the meeting simple URLs are different between sites.</span></span> <span data-ttu-id="5e2fe-126">여기에는 백업 관계의 풀이 별도의 사이트에 있는 장애 조치 (failover) 시나리오가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-126">This includes fail-over scenarios where pools in backup relationships are in separate sites.</span></span> <span data-ttu-id="5e2fe-127">사이트 범위가 지정 된 단순 Url이 배포 되는 사이트 간에 장애 조치 (failover)를 수행 해야 하는 경우에는 URL 범위로 인해 사용자가 자신의 모임에 참가할 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-127">When you need to fail-over between sites where site scoped simple URLs are deployed, users won't be able to join their meetings because of the scope for URL.</span></span> <span data-ttu-id="5e2fe-128">자세한 내용을 보려면 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">get-cssimpleurlconfiguration</A>를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-128">For further information, check <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="c6a9f-128">토폴로지 작성기에서 전역 단순 Url을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-128">You can set global simple URLs in Topology Builder.</span></span> <span data-ttu-id="c6a9f-129">사이트 수준에서 단순 URL을 설정하려면 Set-CsSimpleURLConfiguration cmdlet을 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-129">To set a simple URL at the site level, you must use the Set-CsSimpleURLConfiguration cmdlet.</span></span>
+<span data-ttu-id="5e2fe-129">토폴로지 작성기에서 전역 단순 Url을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-129">You can set global simple URLs in Topology Builder.</span></span> <span data-ttu-id="5e2fe-130">사이트 수준에서 단순 URL을 설정하려면 Set-CsSimpleURLConfiguration cmdlet을 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-130">To set a simple URL at the site level, you must use the Set-CsSimpleURLConfiguration cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="naming-your-simple-urls"></a><span data-ttu-id="c6a9f-130">단순 URL 이름 지정</span><span class="sxs-lookup"><span data-stu-id="c6a9f-130">Naming Your Simple URLs</span></span>
+## <a name="naming-your-simple-urls"></a><span data-ttu-id="5e2fe-131">단순 URL 이름 지정</span><span class="sxs-lookup"><span data-stu-id="5e2fe-131">Naming Your Simple URLs</span></span>
 
-<span data-ttu-id="c6a9f-p108">단순 URL의 이름을 지정할 때 권장되는 세 가지 옵션이 있습니다. 선택한 옵션에 따라 단순 URL을 지원하는 DNS A 레코드 및 인증서 설정 방법이 결정됩니다. 각 옵션에서는 조직의 각 SIP 도메인에 대해 하나의 모임 단순 URL을 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-p108">There are three recommended options for naming your simple URLs. Which option you choose has implications for how you set up your DNS A records and certificates which support simple URLs. In each option, you must configure one Meet simple URL for each SIP domain in your organization.</span></span>
+<span data-ttu-id="5e2fe-p108">단순 URL의 이름을 지정할 때 권장되는 세 가지 옵션이 있습니다. 선택한 옵션에 따라 단순 URL을 지원하는 DNS A 레코드 및 인증서 설정 방법이 결정됩니다. 각 옵션에서는 조직의 각 SIP 도메인에 대해 하나의 모임 단순 URL을 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-p108">There are three recommended options for naming your simple URLs. Which option you choose has implications for how you set up your DNS A records and certificates which support simple URLs. In each option, you must configure one Meet simple URL for each SIP domain in your organization.</span></span>
 
-<span data-ttu-id="c6a9f-134">보유한 SIP 도메인 수에 관계없이 전화 접속 단순 URL과 관리 단순 URL은 항상 전체 조직에서 각각 하나씩만 있으면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-134">You always need just one simple URL in your whole organization for Dial-in, and one for Admin, no matter how many SIP domains you have.</span></span>
+<span data-ttu-id="5e2fe-135">보유한 SIP 도메인 수에 관계없이 전화 접속 단순 URL과 관리 단순 URL은 항상 전체 조직에서 각각 하나씩만 있으면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-135">You always need just one simple URL in your whole organization for Dial-in, and one for Admin, no matter how many SIP domains you have.</span></span>
 
-<span data-ttu-id="c6a9f-135">필요한 DNS A 레코드 및 인증서에 대 한 자세한 내용은 계획 설명서에서 lync server [2013의 단순 url에 대 한 DNS 요구](lync-server-2013-dns-requirements-for-simple-urls.md) 사항 및 [lync server 2013의 내부 서버에 대 한 인증서 요구 사항을](lync-server-2013-certificate-requirements-for-internal-servers.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-135">For details about the necessary DNS A records and certificates, see [DNS requirements for simple URLs in Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) and [Certificate requirements for internal servers in Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) in the Planning documentation.</span></span>
+<span data-ttu-id="5e2fe-136">필요한 DNS A 레코드 및 인증서에 대 한 자세한 내용은 계획 설명서에서 lync server [2013의 단순 url에 대 한 DNS 요구](lync-server-2013-dns-requirements-for-simple-urls.md) 사항 및 [lync server 2013의 내부 서버에 대 한 인증서 요구 사항을](lync-server-2013-certificate-requirements-for-internal-servers.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-136">For details about the necessary DNS A records and certificates, see [DNS requirements for simple URLs in Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) and [Certificate requirements for internal servers in Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="c6a9f-136">옵션 1에서는 각 단순 URL에 대한 새 SIP 도메인 이름을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-136">In Option 1, you create a new SIP domain name for each simple URL.</span></span>
+<span data-ttu-id="5e2fe-137">옵션 1에서는 각 단순 URL에 대한 새 SIP 도메인 이름을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-137">In Option 1, you create a new SIP domain name for each simple URL.</span></span>
 
-<span data-ttu-id="c6a9f-137">이 옵션을 사용하는 경우 각 단순 URL에 대해 별도의 DNS A 레코드가 필요하며 각 모임 단순 URL의 이름이 인증서에 지정되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-137">If you use this option, you need a separate DNS A record for each simple URL, and each Meet simple URL must be named in your certificates.</span></span>
+<span data-ttu-id="5e2fe-138">이 옵션을 사용하는 경우 각 단순 URL에 대해 별도의 DNS A 레코드가 필요하며 각 모임 단순 URL의 이름이 인증서에 지정되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-138">If you use this option, you need a separate DNS A record for each simple URL, and each Meet simple URL must be named in your certificates.</span></span>
 
-### <a name="simple-url-naming-option-1"></a><span data-ttu-id="c6a9f-138">단순 URL 이름 지정 옵션 1</span><span class="sxs-lookup"><span data-stu-id="c6a9f-138">Simple URL Naming Option 1</span></span>
+### <a name="simple-url-naming-option-1"></a><span data-ttu-id="5e2fe-139">단순 URL 이름 지정 옵션 1</span><span class="sxs-lookup"><span data-stu-id="5e2fe-139">Simple URL Naming Option 1</span></span>
 
 <table>
 <colgroup>
@@ -96,28 +97,28 @@ ms.locfileid: "48513525"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c6a9f-139"><strong>단순 URL</strong></span><span class="sxs-lookup"><span data-stu-id="c6a9f-139"><strong>Simple URL</strong></span></span></p></td>
-<td><p><span data-ttu-id="c6a9f-140"><strong>예</strong></span><span class="sxs-lookup"><span data-stu-id="c6a9f-140"><strong>Example</strong></span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-140"><strong>단순 URL</strong></span><span class="sxs-lookup"><span data-stu-id="5e2fe-140"><strong>Simple URL</strong></span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-141"><strong>예</strong></span><span class="sxs-lookup"><span data-stu-id="5e2fe-141"><strong>Example</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c6a9f-141">조건</span><span class="sxs-lookup"><span data-stu-id="c6a9f-141">Meet</span></span></p></td>
-<td><p><span data-ttu-id="c6a9f-142">https://meet.contoso.com, https://meet.fabrikam.com 등은 (조직의 각 SIP 도메인에 대해 하나씩)</span><span class="sxs-lookup"><span data-stu-id="c6a9f-142">https://meet.contoso.com, https://meet.fabrikam.com, and so on (one for each SIP domain in your organization)</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-142">조건</span><span class="sxs-lookup"><span data-stu-id="5e2fe-142">Meet</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-143">https://meet.contoso.com, https://meet.fabrikam.com 등은 (조직의 각 SIP 도메인에 대해 하나씩)</span><span class="sxs-lookup"><span data-stu-id="5e2fe-143">https://meet.contoso.com, https://meet.fabrikam.com, and so on (one for each SIP domain in your organization)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c6a9f-143">전화 접속</span><span class="sxs-lookup"><span data-stu-id="c6a9f-143">Dial-in</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-144">전화 접속</span><span class="sxs-lookup"><span data-stu-id="5e2fe-144">Dial-in</span></span></p></td>
 <td><p>https://dialin.contoso.com</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c6a9f-144">관리자</span><span class="sxs-lookup"><span data-stu-id="c6a9f-144">Admin</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-145">관리자</span><span class="sxs-lookup"><span data-stu-id="5e2fe-145">Admin</span></span></p></td>
 <td><p>https://admin.contoso.com</p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="c6a9f-p109">옵션 2를 사용하는 경우에는 단순 URL이 도메인 이름 lync.contoso.com을 기반으로 하므로 세 가지 유형의 단순 URL 모두에서 사용할 수 있는 DNS A 레코드가 하나만 있으면 됩니다. 이 DNS A 레코드는 lync.contoso.com을 참조합니다. 조직의 다른 SIP 도메인에 대해서는 여전히 별도의 DNS A 레코드가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-p109">With Option 2, simple URLs are based on the domain name lync.contoso.com. Therefore, you need only one DNS A record which enables all three types of simple URLs. This DNS A record references lync.contoso.com. Additionally, you still need separate DNS A records for other SIP domains in your organization.</span></span>
+<span data-ttu-id="5e2fe-p109">옵션 2를 사용하는 경우에는 단순 URL이 도메인 이름 lync.contoso.com을 기반으로 하므로 세 가지 유형의 단순 URL 모두에서 사용할 수 있는 DNS A 레코드가 하나만 있으면 됩니다. 이 DNS A 레코드는 lync.contoso.com을 참조합니다. 조직의 다른 SIP 도메인에 대해서는 여전히 별도의 DNS A 레코드가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-p109">With Option 2, simple URLs are based on the domain name lync.contoso.com. Therefore, you need only one DNS A record which enables all three types of simple URLs. This DNS A record references lync.contoso.com. Additionally, you still need separate DNS A records for other SIP domains in your organization.</span></span>
 
-### <a name="simple-url-naming-option-2"></a><span data-ttu-id="c6a9f-149">단순 URL 이름 지정 옵션 2</span><span class="sxs-lookup"><span data-stu-id="c6a9f-149">Simple URL Naming Option 2</span></span>
+### <a name="simple-url-naming-option-2"></a><span data-ttu-id="5e2fe-150">단순 URL 이름 지정 옵션 2</span><span class="sxs-lookup"><span data-stu-id="5e2fe-150">Simple URL Naming Option 2</span></span>
 
 <table>
 <colgroup>
@@ -126,28 +127,28 @@ ms.locfileid: "48513525"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c6a9f-150"><strong>단순 URL</strong></span><span class="sxs-lookup"><span data-stu-id="c6a9f-150"><strong>Simple URL</strong></span></span></p></td>
-<td><p><span data-ttu-id="c6a9f-151"><strong>예</strong></span><span class="sxs-lookup"><span data-stu-id="c6a9f-151"><strong>Example</strong></span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-151"><strong>단순 URL</strong></span><span class="sxs-lookup"><span data-stu-id="5e2fe-151"><strong>Simple URL</strong></span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-152"><strong>예</strong></span><span class="sxs-lookup"><span data-stu-id="5e2fe-152"><strong>Example</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c6a9f-152">조건</span><span class="sxs-lookup"><span data-stu-id="c6a9f-152">Meet</span></span></p></td>
-<td><p><span data-ttu-id="c6a9f-153">https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet 등은 (조직의 각 SIP 도메인에 대해 하나씩)</span><span class="sxs-lookup"><span data-stu-id="c6a9f-153">https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet, and so on (one for each SIP domain in your organization)</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-153">조건</span><span class="sxs-lookup"><span data-stu-id="5e2fe-153">Meet</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-154">https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet 등은 (조직의 각 SIP 도메인에 대해 하나씩)</span><span class="sxs-lookup"><span data-stu-id="5e2fe-154">https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet, and so on (one for each SIP domain in your organization)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c6a9f-154">전화 접속</span><span class="sxs-lookup"><span data-stu-id="c6a9f-154">Dial-in</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-155">전화 접속</span><span class="sxs-lookup"><span data-stu-id="5e2fe-155">Dial-in</span></span></p></td>
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c6a9f-155">관리자</span><span class="sxs-lookup"><span data-stu-id="c6a9f-155">Admin</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-156">관리자</span><span class="sxs-lookup"><span data-stu-id="5e2fe-156">Admin</span></span></p></td>
 <td><p>https://lync.contoso.com/Admin</p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="c6a9f-156">옵션 3은 많은 SIP 도메인이 있고 각각에 별도의 모임 단순 URL을 사용하지만 이러한 단순 URL에 필요한 DNS 레코드 및 인증서를 최소화하려는 경우에 가장 유용합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-156">Option 3 is most useful if you have many SIP domains, and you want them to have separate Meet simple URLs but want to minimize the DNS record and certificate requirements for these simple URLs.</span></span>
+<span data-ttu-id="5e2fe-157">옵션 3은 많은 SIP 도메인이 있고 각각에 별도의 모임 단순 URL을 사용하지만 이러한 단순 URL에 필요한 DNS 레코드 및 인증서를 최소화하려는 경우에 가장 유용합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-157">Option 3 is most useful if you have many SIP domains, and you want them to have separate Meet simple URLs but want to minimize the DNS record and certificate requirements for these simple URLs.</span></span>
 
-### <a name="simple-url-naming-option-3"></a><span data-ttu-id="c6a9f-157">단순 URL 이름 지정 옵션 3</span><span class="sxs-lookup"><span data-stu-id="c6a9f-157">Simple URL Naming Option 3</span></span>
+### <a name="simple-url-naming-option-3"></a><span data-ttu-id="5e2fe-158">단순 URL 이름 지정 옵션 3</span><span class="sxs-lookup"><span data-stu-id="5e2fe-158">Simple URL Naming Option 3</span></span>
 
 <table>
 <colgroup>
@@ -156,20 +157,20 @@ ms.locfileid: "48513525"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c6a9f-158"><strong>단순 URL</strong></span><span class="sxs-lookup"><span data-stu-id="c6a9f-158"><strong>Simple URL</strong></span></span></p></td>
-<td><p><span data-ttu-id="c6a9f-159"><strong>예</strong></span><span class="sxs-lookup"><span data-stu-id="c6a9f-159"><strong>Example</strong></span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-159"><strong>단순 URL</strong></span><span class="sxs-lookup"><span data-stu-id="5e2fe-159"><strong>Simple URL</strong></span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-160"><strong>예</strong></span><span class="sxs-lookup"><span data-stu-id="5e2fe-160"><strong>Example</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c6a9f-160">조건</span><span class="sxs-lookup"><span data-stu-id="c6a9f-160">Meet</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-161">조건</span><span class="sxs-lookup"><span data-stu-id="5e2fe-161">Meet</span></span></p></td>
 <td><p>https://lync.contoso.com/contosoSIPdomain/Meet</p>
 <p>https://lync.contoso.com/fabrikamSIPdomain/Meet</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c6a9f-161">전화 접속</span><span class="sxs-lookup"><span data-stu-id="c6a9f-161">Dial-in</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-162">전화 접속</span><span class="sxs-lookup"><span data-stu-id="5e2fe-162">Dial-in</span></span></p></td>
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c6a9f-162">관리자</span><span class="sxs-lookup"><span data-stu-id="c6a9f-162">Admin</span></span></p></td>
+<td><p><span data-ttu-id="5e2fe-163">관리자</span><span class="sxs-lookup"><span data-stu-id="5e2fe-163">Admin</span></span></p></td>
 <td><p>https://lync.contoso.com/Admin</p></td>
 </tr>
 </tbody>
@@ -178,34 +179,34 @@ ms.locfileid: "48513525"
 
 <div>
 
-## <a name="simple-url-naming-and-validation-rules"></a><span data-ttu-id="c6a9f-163">단순 URL 이름 지정 및 유효성 검사 규칙</span><span class="sxs-lookup"><span data-stu-id="c6a9f-163">Simple URL Naming and Validation Rules</span></span>
+## <a name="simple-url-naming-and-validation-rules"></a><span data-ttu-id="5e2fe-164">단순 URL 이름 지정 및 유효성 검사 규칙</span><span class="sxs-lookup"><span data-stu-id="5e2fe-164">Simple URL Naming and Validation Rules</span></span>
 
-<span data-ttu-id="c6a9f-164">토폴로지 작성기 및 Lync Server 관리 셸 cmdlet은 단순 Url에 대 한 몇 가지 유효성 검사 규칙을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-164">Topology Builder and the Lync Server Management Shell cmdlets enforce several validation rules for your simple URLs.</span></span> <span data-ttu-id="c6a9f-165">모임 및 전화 접속 단순 URL은 필수 설정이지만 관리 단순 URL은 선택 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-165">You are required to set simple URLs for Meet and Dialin, but setting one for Admin is optional.</span></span> <span data-ttu-id="c6a9f-166">모임 단순 URL은 SIP 도메인마다 별도의 URL이 있어야 하지만 전화 접속 단순 URL과 관리 단순 URL은 전체 조직에 하나만 있으면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-166">Each SIP domain must have a separate Meet simple URL, but you need only one Dialin simple URL and one Admin simple URL for your whole organization.</span></span>
+<span data-ttu-id="5e2fe-165">토폴로지 작성기 및 Lync Server 관리 셸 cmdlet은 단순 Url에 대 한 몇 가지 유효성 검사 규칙을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-165">Topology Builder and the Lync Server Management Shell cmdlets enforce several validation rules for your simple URLs.</span></span> <span data-ttu-id="5e2fe-166">모임 및 전화 접속 단순 URL은 필수 설정이지만 관리 단순 URL은 선택 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-166">You are required to set simple URLs for Meet and Dialin, but setting one for Admin is optional.</span></span> <span data-ttu-id="5e2fe-167">모임 단순 URL은 SIP 도메인마다 별도의 URL이 있어야 하지만 전화 접속 단순 URL과 관리 단순 URL은 전체 조직에 하나만 있으면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-167">Each SIP domain must have a separate Meet simple URL, but you need only one Dialin simple URL and one Admin simple URL for your whole organization.</span></span>
 
-<span data-ttu-id="c6a9f-167">조직의 각 단순 URL은 고유한 이름을 사용해야 하며 다른 단순 URL의 접두사가 될 수 없습니다(예: lync.contoso.com/Meet를 모임 단순 URL로 설정하고 lync.contoso.com/Meet/Dialin을 전화 접속 단순 URL로 설정할 수는 없음).</span><span class="sxs-lookup"><span data-stu-id="c6a9f-167">Each simple URL in your organization must have a unique name, and cannot be a prefix of another simple URL (for example, you could not set lync.contoso.com/Meet as your Meet simple URL and lync.contoso.com/Meet/Dialin as your Dialin simple URL).</span></span> <span data-ttu-id="c6a9f-168">단순 URL 이름에는 풀의 FQDN을 포함할 수 없으며 모든 포트 정보 (예: https://FQDN:88/meet 허용 되지 않음)가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-168">Simple URL names cannot contain the FQDN of any of your pools, or any port information (for example, https://FQDN:88/meet is not allowed).</span></span> <span data-ttu-id="c6a9f-169">모든 단순 URL은 https:// 접두사로 시작해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-169">All simple URLs must start with the https:// prefix.</span></span>
+<span data-ttu-id="5e2fe-168">조직의 각 단순 URL은 고유한 이름을 사용해야 하며 다른 단순 URL의 접두사가 될 수 없습니다(예: lync.contoso.com/Meet를 모임 단순 URL로 설정하고 lync.contoso.com/Meet/Dialin을 전화 접속 단순 URL로 설정할 수는 없음).</span><span class="sxs-lookup"><span data-stu-id="5e2fe-168">Each simple URL in your organization must have a unique name, and cannot be a prefix of another simple URL (for example, you could not set lync.contoso.com/Meet as your Meet simple URL and lync.contoso.com/Meet/Dialin as your Dialin simple URL).</span></span> <span data-ttu-id="5e2fe-169">단순 URL 이름에는 풀의 FQDN을 포함할 수 없으며 모든 포트 정보 (예: https://FQDN:88/meet 허용 되지 않음)가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-169">Simple URL names cannot contain the FQDN of any of your pools, or any port information (for example, https://FQDN:88/meet is not allowed).</span></span> <span data-ttu-id="5e2fe-170">모든 단순 URL은 https:// 접두사로 시작해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-170">All simple URLs must start with the https:// prefix.</span></span>
 
-<span data-ttu-id="c6a9f-p112">단순 URL은 영숫자(즉, a-z, A-Z, 0-9 및 마침표(.))만 포함할 수 있습니다. 다른 문자를 사용하면 단순 URL이 예상대로 작동하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-p112">Simple URLs can contain only alphanumeric characters (that is, a-z, A-Z, 0-9, and the period (.). If you use other characters, the simple URLs might not work as expected.</span></span>
-
-</div>
-
-<div>
-
-## <a name="changing-simple-urls-after-deployment"></a><span data-ttu-id="c6a9f-172">배포 후 단순 URL 변경</span><span class="sxs-lookup"><span data-stu-id="c6a9f-172">Changing Simple URLs after Deployment</span></span>
-
-<span data-ttu-id="c6a9f-173">초기 배포 후 단순 URL을 변경하려면 단순 URL의 DNS 레코드 및 인증서가 이러한 변경으로 인해 받을 수 있는 영향을 파악해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-173">If you change a simple URL after initial deployment, you must be aware of how the change impacts your DNS records and certificates for simple URLs.</span></span> <span data-ttu-id="c6a9f-174">단순 URL의 기준이 변경되면 DNS 레코드 및 인증서도 변경해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-174">If the base of a simple URL changes, then you must change the DNS records and certificates as well.</span></span> <span data-ttu-id="c6a9f-175">예를 들어에서를 변경 하면 https://lync.contoso.com/Meet https://meet.contoso.com 기본 URL이 lync.contoso.com에서 meet.contoso.com으로 변경 되므로 DNS 레코드 및 인증서를 변경 하 여 meet.contoso.com를 참조 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-175">For example, changing from https://lync.contoso.com/Meet to https://meet.contoso.com changes the base URL from lync.contoso.com to meet.contoso.com, so you would need to change the DNS records and certificates to refer to meet.contoso.com.</span></span> <span data-ttu-id="c6a9f-176">단순 URL을에서로 변경한 경우 https://lync.contoso.com/Meet https://lync.contoso.com/Meetings lync.contoso.com의 기본 url은 동일 하 게 유지 되므로 DNS 또는 인증서를 변경할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-176">If you changed the simple URL from https://lync.contoso.com/Meet to https://lync.contoso.com/Meetings, the base URL of lync.contoso.com stays the same, so no DNS or certificate changes are needed.</span></span>
-
-<span data-ttu-id="c6a9f-177">그러나 단순 URL 이름을 변경할 때마다 각 디렉터 및 프런트 엔드 서버에서 **CsComputer를 사용** 하 여 변경 내용을 등록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6a9f-177">Whenever you change a simple URL name, however, you must run **Enable-CsComputer** on each Director and Front End Server to register the change.</span></span>
-
-</div>
+<span data-ttu-id="5e2fe-p112">단순 URL은 영숫자(즉, a-z, A-Z, 0-9 및 마침표(.))만 포함할 수 있습니다. 다른 문자를 사용하면 단순 URL이 예상대로 작동하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-p112">Simple URLs can contain only alphanumeric characters (that is, a-z, A-Z, 0-9, and the period (.). If you use other characters, the simple URLs might not work as expected.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c6a9f-178">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c6a9f-178">See Also</span></span>
+## <a name="changing-simple-urls-after-deployment"></a><span data-ttu-id="5e2fe-173">배포 후 단순 URL 변경</span><span class="sxs-lookup"><span data-stu-id="5e2fe-173">Changing Simple URLs after Deployment</span></span>
+
+<span data-ttu-id="5e2fe-174">초기 배포 후 단순 URL을 변경하려면 단순 URL의 DNS 레코드 및 인증서가 이러한 변경으로 인해 받을 수 있는 영향을 파악해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-174">If you change a simple URL after initial deployment, you must be aware of how the change impacts your DNS records and certificates for simple URLs.</span></span> <span data-ttu-id="5e2fe-175">단순 URL의 기준이 변경되면 DNS 레코드 및 인증서도 변경해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-175">If the base of a simple URL changes, then you must change the DNS records and certificates as well.</span></span> <span data-ttu-id="5e2fe-176">예를 들어에서를 변경 하면 https://lync.contoso.com/Meet https://meet.contoso.com 기본 URL이 lync.contoso.com에서 meet.contoso.com으로 변경 되므로 DNS 레코드 및 인증서를 변경 하 여 meet.contoso.com를 참조 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-176">For example, changing from https://lync.contoso.com/Meet to https://meet.contoso.com changes the base URL from lync.contoso.com to meet.contoso.com, so you would need to change the DNS records and certificates to refer to meet.contoso.com.</span></span> <span data-ttu-id="5e2fe-177">단순 URL을에서로 변경한 경우 https://lync.contoso.com/Meet https://lync.contoso.com/Meetings lync.contoso.com의 기본 url은 동일 하 게 유지 되므로 DNS 또는 인증서를 변경할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-177">If you changed the simple URL from https://lync.contoso.com/Meet to https://lync.contoso.com/Meetings, the base URL of lync.contoso.com stays the same, so no DNS or certificate changes are needed.</span></span>
+
+<span data-ttu-id="5e2fe-178">그러나 단순 URL 이름을 변경할 때마다 각 디렉터 및 프런트 엔드 서버에서 **CsComputer를 사용** 하 여 변경 내용을 등록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e2fe-178">Whenever you change a simple URL name, however, you must run **Enable-CsComputer** on each Director and Front End Server to register the change.</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="5e2fe-179">참고 항목</span><span class="sxs-lookup"><span data-stu-id="5e2fe-179">See Also</span></span>
 
 
-[<span data-ttu-id="c6a9f-179">Lync Server 2013의 단순 Url에 대 한 DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="c6a9f-179">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)  
+[<span data-ttu-id="5e2fe-180">Lync Server 2013의 단순 Url에 대 한 DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="5e2fe-180">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)  
   
 
 </div>

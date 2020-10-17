@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 데이터 및 설정 복원'
+description: 'Lync Server 2013: 데이터 및 설정을 복원 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 396899d636572e89782112ca7fa445ef1cb255e6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 694b1e362d729d354b08367d31c47e8ca866dd91
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511435"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560294"
 ---
-# <a name="restoring-data-and-settings-in-lync-server-2013"></a><span data-ttu-id="f0edd-102">Lync Server 2013에서 데이터 및 설정 복원</span><span class="sxs-lookup"><span data-stu-id="f0edd-102">Restoring data and settings in Lync Server 2013</span></span>
+# <a name="restoring-data-and-settings-in-lync-server-2013"></a><span data-ttu-id="433c0-103">Lync Server 2013에서 데이터 및 설정 복원</span><span class="sxs-lookup"><span data-stu-id="433c0-103">Restoring data and settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48511435"
 
 <span> </span>
 
-<span data-ttu-id="f0edd-103">_**마지막으로 수정 된 항목:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="f0edd-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="433c0-104">_**마지막으로 수정 된 항목:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="433c0-104">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="f0edd-104">페어링 된 풀을 사용 하 여 재해 복구 토폴로지를 구현 했으며 이러한 프런트 엔드 풀 중 하나가 다운 되어 사용자에 게 서비스를 빠르게 복원 해야 하는 경우 [Lync Server 2013에서 풀 장애 조치 (failover](lync-server-2013-failing-over-a-pool.md))를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f0edd-104">If you have implemented a disaster recovery topology with paired pools, and one of those Front End pools has gone down and you need to quickly restore service to your users, see [Failing over a pool in Lync Server 2013](lync-server-2013-failing-over-a-pool.md).</span></span> <span data-ttu-id="f0edd-105">그렇지 않은 경우에는 오류 또는 중단 후에 lync Server [2013의 백업 및 복원 워크시트](lync-server-2013-backup-and-restoration-worksheets.md)에 있는 워크시트와 함께 다음 항목의 정보를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f0edd-105">Otherwise, use the information in the following topics, along with the worksheets in [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md), to restore Lync Server after a failure or outage.</span></span>
+<span data-ttu-id="433c0-105">페어링 된 풀을 사용 하 여 재해 복구 토폴로지를 구현 했으며 이러한 프런트 엔드 풀 중 하나가 다운 되어 사용자에 게 서비스를 빠르게 복원 해야 하는 경우 [Lync Server 2013에서 풀 장애 조치 (failover](lync-server-2013-failing-over-a-pool.md))를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="433c0-105">If you have implemented a disaster recovery topology with paired pools, and one of those Front End pools has gone down and you need to quickly restore service to your users, see [Failing over a pool in Lync Server 2013](lync-server-2013-failing-over-a-pool.md).</span></span> <span data-ttu-id="433c0-106">그렇지 않은 경우에는 오류 또는 중단 후에 lync Server [2013의 백업 및 복원 워크시트](lync-server-2013-backup-and-restoration-worksheets.md)에 있는 워크시트와 함께 다음 항목의 정보를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="433c0-106">Otherwise, use the information in the following topics, along with the worksheets in [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md), to restore Lync Server after a failure or outage.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="f0edd-106">가동 중지 시간 및 잠재적인 데이터 손실을 줄이기 위해 문제 해결 절차가 효과적이 지 않은 경우에만이 문서에서 설명 하는 복원 절차를 수행 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f0edd-106">To reduce downtime and potential data loss, perform the restoration procedures described in this document only if troubleshooting procedures are not effective in identifying and correcting the problem.</span></span> <span data-ttu-id="f0edd-107">문제를 해결 하는 동안 다른 서버 및 구성 요소에 대 한 영향을 최소화 하 여 서버를 종료 하 고 다시 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="f0edd-107">During troubleshooting, try to minimize the impact on other servers and components as you shut down and restart servers.</span></span>
+> <span data-ttu-id="433c0-107">가동 중지 시간 및 잠재적인 데이터 손실을 줄이기 위해 문제 해결 절차가 효과적이 지 않은 경우에만이 문서에서 설명 하는 복원 절차를 수행 하십시오.</span><span class="sxs-lookup"><span data-stu-id="433c0-107">To reduce downtime and potential data loss, perform the restoration procedures described in this document only if troubleshooting procedures are not effective in identifying and correcting the problem.</span></span> <span data-ttu-id="433c0-108">문제를 해결 하는 동안 다른 서버 및 구성 요소에 대 한 영향을 최소화 하 여 서버를 종료 하 고 다시 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="433c0-108">During troubleshooting, try to minimize the impact on other servers and components as you shut down and restart servers.</span></span>
 
 
 
@@ -53,27 +54,27 @@ ms.locfileid: "48511435"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f0edd-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="f0edd-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="433c0-109">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="433c0-109">In This Section</span></span>
 
-  - [<span data-ttu-id="f0edd-109">Lync Server 2013 복원 준비</span><span class="sxs-lookup"><span data-stu-id="f0edd-109">Preparing to restore Lync Server 2013</span></span>](lync-server-2013-preparing-to-restore-lync-server.md)
+  - [<span data-ttu-id="433c0-110">Lync Server 2013 복원 준비</span><span class="sxs-lookup"><span data-stu-id="433c0-110">Preparing to restore Lync Server 2013</span></span>](lync-server-2013-preparing-to-restore-lync-server.md)
 
-  - [<span data-ttu-id="f0edd-110">Lync Server 2013에서 Standard Edition server 복원</span><span class="sxs-lookup"><span data-stu-id="f0edd-110">Restoring a Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-restoring-a-standard-edition-server.md)
+  - [<span data-ttu-id="433c0-111">Lync Server 2013에서 Standard Edition server 복원</span><span class="sxs-lookup"><span data-stu-id="433c0-111">Restoring a Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-restoring-a-standard-edition-server.md)
 
-  - [<span data-ttu-id="f0edd-111">Lync Server 2013에서 중앙 관리 저장소를 호스트 하는 서버 복원</span><span class="sxs-lookup"><span data-stu-id="f0edd-111">Restoring the server hosting the Central Management store in Lync Server 2013</span></span>](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)
+  - [<span data-ttu-id="433c0-112">Lync Server 2013에서 중앙 관리 저장소를 호스트 하는 서버 복원</span><span class="sxs-lookup"><span data-stu-id="433c0-112">Restoring the server hosting the Central Management store in Lync Server 2013</span></span>](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)
 
-  - [<span data-ttu-id="f0edd-112">Lync Server 2013에서 Enterprise Edition 백 엔드 서버 복원</span><span class="sxs-lookup"><span data-stu-id="f0edd-112">Restoring an Enterprise Edition Back End Server in Lync Server 2013</span></span>](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)
+  - [<span data-ttu-id="433c0-113">Lync Server 2013에서 Enterprise Edition 백 엔드 서버 복원</span><span class="sxs-lookup"><span data-stu-id="433c0-113">Restoring an Enterprise Edition Back End Server in Lync Server 2013</span></span>](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)
 
-  - [<span data-ttu-id="f0edd-113">Lync Server 2013에서 Enterprise Edition 구성원 서버 복원</span><span class="sxs-lookup"><span data-stu-id="f0edd-113">Restoring an Enterprise Edition member server in Lync Server 2013</span></span>](lync-server-2013-restoring-an-enterprise-edition-member-server.md)
+  - [<span data-ttu-id="433c0-114">Lync Server 2013에서 Enterprise Edition 구성원 서버 복원</span><span class="sxs-lookup"><span data-stu-id="433c0-114">Restoring an Enterprise Edition member server in Lync Server 2013</span></span>](lync-server-2013-restoring-an-enterprise-edition-member-server.md)
 
-  - [<span data-ttu-id="f0edd-114">Lync Server 2013에서 Lync Server 풀 복원</span><span class="sxs-lookup"><span data-stu-id="f0edd-114">Restoring a Lync Server pool in Lync Server 2013</span></span>](lync-server-2013-restoring-a-lync-server-pool.md)
+  - [<span data-ttu-id="433c0-115">Lync Server 2013에서 Lync Server 풀 복원</span><span class="sxs-lookup"><span data-stu-id="433c0-115">Restoring a Lync Server pool in Lync Server 2013</span></span>](lync-server-2013-restoring-a-lync-server-pool.md)
 
-  - [<span data-ttu-id="f0edd-115">Lync Server 2013에서 ABC 프런트 엔드 풀 장애 조치 (failover) 수행</span><span class="sxs-lookup"><span data-stu-id="f0edd-115">Performing an ABC Front End pool failover in Lync Server 2013</span></span>](lync-server-2013-performing-an-abc-front-end-pool-failover.md)
+  - [<span data-ttu-id="433c0-116">Lync Server 2013에서 ABC 프런트 엔드 풀 장애 조치 (failover) 수행</span><span class="sxs-lookup"><span data-stu-id="433c0-116">Performing an ABC Front End pool failover in Lync Server 2013</span></span>](lync-server-2013-performing-an-abc-front-end-pool-failover.md)
 
-  - [<span data-ttu-id="f0edd-116">Lync Server 2013에서 파일 저장소 복원</span><span class="sxs-lookup"><span data-stu-id="f0edd-116">Restoring a file store in Lync Server 2013</span></span>](lync-server-2013-restoring-a-file-store.md)
+  - [<span data-ttu-id="433c0-117">Lync Server 2013에서 파일 저장소 복원</span><span class="sxs-lookup"><span data-stu-id="433c0-117">Restoring a file store in Lync Server 2013</span></span>](lync-server-2013-restoring-a-file-store.md)
 
-  - [<span data-ttu-id="f0edd-117">Lync Server 2013에서 모니터링 또는 보관 데이터 복원</span><span class="sxs-lookup"><span data-stu-id="f0edd-117">Restoring monitoring or archiving data in Lync Server 2013</span></span>](lync-server-2013-restoring-monitoring-or-archiving-data.md)
+  - [<span data-ttu-id="433c0-118">Lync Server 2013에서 모니터링 또는 보관 데이터 복원</span><span class="sxs-lookup"><span data-stu-id="433c0-118">Restoring monitoring or archiving data in Lync Server 2013</span></span>](lync-server-2013-restoring-monitoring-or-archiving-data.md)
 
-  - [<span data-ttu-id="f0edd-118">Lync Server 2013에서 영구 채팅 데이터 복원</span><span class="sxs-lookup"><span data-stu-id="f0edd-118">Restoring Persistent Chat data in Lync Server 2013</span></span>](lync-server-2013-restoring-persistent-chat-data.md)
+  - [<span data-ttu-id="433c0-119">Lync Server 2013에서 영구 채팅 데이터 복원</span><span class="sxs-lookup"><span data-stu-id="433c0-119">Restoring Persistent Chat data in Lync Server 2013</span></span>](lync-server-2013-restoring-persistent-chat-data.md)
 
 </div>
 

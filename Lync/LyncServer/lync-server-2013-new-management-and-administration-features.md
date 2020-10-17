@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 새 관리 기능'
+description: 'Lync Server 2013: 새 관리 기능을 제공 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184476
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c612efc380f9319f2c25f78e7a9666ce7c0955e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3f4e5aa27aa02a228d4356351ec13e18a645a9f4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534205"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559314"
 ---
-# <a name="new-management-and-administration-features-in-lync-server-2013"></a><span data-ttu-id="2c3a6-102">Lync Server 2013의 새로운 관리 기능</span><span class="sxs-lookup"><span data-stu-id="2c3a6-102">New management and administration features in Lync Server 2013</span></span>
+# <a name="new-management-and-administration-features-in-lync-server-2013"></a><span data-ttu-id="9f637-103">Lync Server 2013의 새로운 관리 기능</span><span class="sxs-lookup"><span data-stu-id="9f637-103">New management and administration features in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48534205"
 
 <span> </span>
 
-<span data-ttu-id="2c3a6-103">_**마지막으로 수정 된 항목:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="2c3a6-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="9f637-104">_**마지막으로 수정 된 항목:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="9f637-104">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="2c3a6-104">Lync Server 2013에는 배포를 관리 하는 작업을 간소화 하기 위한 다음과 같은 새로운 기능이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2c3a6-104">Lync Server 2013 includes the following new features to simplify the task of managing your deployment.</span></span>
+<span data-ttu-id="9f637-105">Lync Server 2013에는 배포를 관리 하는 작업을 간소화 하기 위한 다음과 같은 새로운 기능이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9f637-105">Lync Server 2013 includes the following new features to simplify the task of managing your deployment.</span></span>
 
-  - [<span data-ttu-id="2c3a6-105">Lync Server 2013에서 토폴로지 작성기를 통한 SQL Server 미러링 지원</span><span class="sxs-lookup"><span data-stu-id="2c3a6-105">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
+  - [<span data-ttu-id="9f637-106">Lync Server 2013에서 토폴로지 작성기를 통한 SQL Server 미러링 지원</span><span class="sxs-lookup"><span data-stu-id="9f637-106">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
 
-  - [<span data-ttu-id="2c3a6-106">Lync Server 2013의 새 역할 기반 액세스 제어 기능</span><span class="sxs-lookup"><span data-stu-id="2c3a6-106">New role based access control features in Lync Server 2013</span></span>](lync-server-2013-has-new-role-based-access-control-features.md)
+  - [<span data-ttu-id="9f637-107">Lync Server 2013의 새 역할 기반 액세스 제어 기능</span><span class="sxs-lookup"><span data-stu-id="9f637-107">New role based access control features in Lync Server 2013</span></span>](lync-server-2013-has-new-role-based-access-control-features.md)
 
-  - [<span data-ttu-id="2c3a6-107">Lync Server 2013의 영구 채팅 관리 도구 통합</span><span class="sxs-lookup"><span data-stu-id="2c3a6-107">Integration of Persistent Chat management tools in Lync Server 2013</span></span>](lync-server-2013-integration-of-persistent-chat-management-tools.md)
+  - [<span data-ttu-id="9f637-108">Lync Server 2013의 영구 채팅 관리 도구 통합</span><span class="sxs-lookup"><span data-stu-id="9f637-108">Integration of Persistent Chat management tools in Lync Server 2013</span></span>](lync-server-2013-integration-of-persistent-chat-management-tools.md)
 
 </div>
 
