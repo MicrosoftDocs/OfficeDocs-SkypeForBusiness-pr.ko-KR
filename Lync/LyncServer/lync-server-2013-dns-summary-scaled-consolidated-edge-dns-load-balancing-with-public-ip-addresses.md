@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DNS 요약-조정 된 통합에 지, 공용 IP 주소의 DNS 부하 분산'
+description: 'Lync Server 2013: DNS 요약-조정 된 통합에 지, 공용 IP 주소의 DNS 부하 분산입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185594
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eaa466792de1adcd3d048c946c7b36803fbaab63
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ca88043b76365508ea00ca840e9a9fdcb0e270be
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501305"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558794"
 ---
 # <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>DNS 요약-조정 된 통합에 지, Lync Server 2013의 공용 IP 주소를 사용한 DNS 부하 분산
 

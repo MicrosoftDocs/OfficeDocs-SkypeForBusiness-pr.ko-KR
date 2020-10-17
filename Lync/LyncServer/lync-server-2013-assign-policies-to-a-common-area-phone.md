@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 공통 영역 전화에 정책 할당'
+description: 'Lync Server 2013: 공통 영역 전화에 정책을 할당 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a6403092daa1a8cd84d246f2bd3bdece7661fef
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fe437ec87ba30eff834239db2b4815adb2d5718c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499465"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559824"
 ---
 # <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a>Lync Server 2013의 정책을 공통 영역 전화에 할당
 

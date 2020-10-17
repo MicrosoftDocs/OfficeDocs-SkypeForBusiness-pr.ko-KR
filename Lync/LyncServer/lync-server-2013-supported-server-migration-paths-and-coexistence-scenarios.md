@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 지원 되는 서버 마이그레이션 경로 및 동시 사용 시나리오'
+description: 'Lync Server 2013: 지원 되는 서버 마이그레이션 경로 및 동시 사용 시나리오'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44d0a40ac6cc6570cf79b56dc896277c83909b5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523975"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560234"
 ---
 # <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013의 지원 되는 서버 마이그레이션 경로 및 동시 사용 시나리오
 
@@ -82,7 +83,7 @@ Lync Server 2013는 Lync Server 2010 배포 또는 Office Communications Server 
 
 Lync Server 2013 데이터베이스 인스턴스에 대해 Microsoft SQL Server 2008 R2 또는 Microsoft SQL Server 2012을 실행 하는 별도의 컴퓨터를 사용 해야 합니다. Lync server 2010 또는 Office Communications Server 2007 R2 프런트 엔드 풀에 사용 하는 Lync Server 2013 프런트 엔드 풀에 대해서는 동일한 SQL Server 인스턴스를 사용할 수 없습니다. Lync server 2010 또는 Office Communications Server 2007 R2가 배포 된 배포에 대해 토폴로지 작성기에서 Lync Server 2013을 정의 하 고 구성 하는 경우 토폴로지 작성기에서 이미 토폴로지에서 사용 중인 Lync Server 2013의 인스턴스를 정의할 수 없습니다.
 
-토폴로지 작성기에는 "서버의 SQL server \[ FQDN에 \] sql 인스턴스 호스팅 역할 ' User Store '가 이미 포함 되어 있습니다." 라는 메시지가 표시 됩니다.
+토폴로지 작성기에는 "서버의 SQL server \[ FQDN에 \] sql 인스턴스 호스팅 역할 ' 사용자 저장소가 이미 있습니다." 라는 메시지가 표시 됩니다.
 
 <div>
 

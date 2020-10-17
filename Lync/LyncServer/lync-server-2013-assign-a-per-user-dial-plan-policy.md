@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자별 다이얼 플랜 정책 할당'
+description: 'Lync Server 2013: 사용자별 다이얼 플랜 정책을 할당 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bd4d46e2cd41c972258a84a1e8fb34549dc8b4e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 654c1f15ccb1efa4d1aa35d957df7a2654fa41d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134444"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559904"
 ---
 # <a name="assign-a-per-user-dial-plan-policy-in-lync-server-2013"></a>Lync Server 2013에서 사용자별 다이얼 플랜 정책 할당
 
@@ -48,9 +49,9 @@ Enterprise Voice 사용자 또는 전화 접속 회의 사용자에 대한 사�
 
 다이얼 플랜을 구성 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 다이얼 플랜 구성](lync-server-2013-configuring-dial-plans.md) 항목을 참조 하십시오.
 
-## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 사용자별 다이얼 플랜 할당
+## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 Per-User 다이얼 플랜 할당
 
-Windows PowerShell 및 **부여-CsdialPlan 플랜** cmdlet을 사용 하 여 사용자별 다이얼 플랜을 할당할 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Windows PowerShell 및 **부여-CsdialPlan 플랜** cmdlet을 사용 하 여 사용자별 다이얼 플랜을 할당할 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 하세요.
 
 ## <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>단일 사용자에 게 사용자별 다이얼 플랜을 할당 하려면
 

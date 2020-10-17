@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 백업 필수 구성 요소 확인'
+description: 'Lync Server 2013: 백업 필수 구성 요소 확인'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85f65ab9afb33889c111133ea80826cf8651a0d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7bd79ded1a0e7cba223692c8d73b5c1008897528
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518575"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560184"
 ---
 # <a name="verifying-backup-prerequisites-in-lync-server-2013"></a>Lync Server 2013에서 백업 필수 구성 요소 확인
 

@@ -1,5 +1,6 @@
 ---
 title: 풀 장애 조치 (failover) 및 풀 장애 복구를 위한 Lync Server 2013 복구 시간
+description: Lync Server 2013 풀 장애 조치 (failover) 및 풀 장애 복구 (failback)를 위한 복원 시간
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1221d145951b4f780638cc2681f6d6cff822a4e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1bb09c32ac4d062358a511464dc21aa7346ee034
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512025"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559174"
 ---
 # <a name="recovery-time-for-pool-failover-and-pool-failback-in-lync-server-2013"></a>Lync Server 2013의 풀 장애 조치 (failover) 및 풀 장애 복구 (failback)
 

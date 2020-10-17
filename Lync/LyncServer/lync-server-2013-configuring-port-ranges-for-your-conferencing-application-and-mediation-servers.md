@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 회의, 응용 프로그램 및 중재 서버에 대 한 포트 범위 구성'
+description: 'Lync Server 2013: 회의, 응용 프로그램 및 중재 서버에 대 한 포트 범위를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184074
 ms.date: 05/01/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b3df859017ca54d32ad56580c842f748114166d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: eb3f51e42c86b667b6990f41640bf09e12e840c2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535065"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558764"
 ---
 # <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Lync Server 2013에서 회의, 응용 프로그램 및 중재 서버에 대 한 포트 범위 구성
 

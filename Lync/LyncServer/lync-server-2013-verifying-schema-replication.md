@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 스키마 복제 확인'
+description: 'Lync Server 2013: 스키마 복제를 확인 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185124
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 483a8125969fffc0db2c8f72bca3fc5b8001d943
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 019cd06db05a9ba683767f550a712ef188b47508
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527625"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560174"
 ---
 # <a name="verifying-active-directory-schema-replication-in-lync-server-2013"></a>Lync Server 2013에서 Active Directory 스키마 복제 확인
 

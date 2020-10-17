@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자에 대 한 그룹 통화 픽업 사용 및 그룹 번호 할당'
+description: 'Lync Server 2013: 사용자에 대 한 그룹 통화 픽업 및 그룹 번호 할당을 사용 하도록 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edba55fcfdedc04eb2d8a8356c3d295c381d7c70
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a03fcb20bfd88842dc8b29100b9ece595bf76254
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528745"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559644"
 ---
 # <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>Lync Server 2013의 사용자에 대 한 그룹 통화 픽업 사용 설정 및 그룹 번호 할당
 

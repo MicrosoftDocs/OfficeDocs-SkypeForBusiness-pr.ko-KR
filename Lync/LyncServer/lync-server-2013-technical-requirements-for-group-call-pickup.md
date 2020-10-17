@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 그룹 통화 픽업에 대 한 기술 요구 사항'
+description: 'Lync Server 2013: 그룹 통화 픽업에 대 한 기술 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ec4c050cd513450cfd0a179dc4264bff605062
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8077dc1db6238b7bf5d0654c9e2a2848d87f8728
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533875"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559494"
 ---
 # <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013의 그룹 통화 픽업에 대 한 기술 요구 사항
 

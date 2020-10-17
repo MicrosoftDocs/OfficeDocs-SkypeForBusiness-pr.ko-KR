@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013:에 지 서버 설치
+description: Lync Server 2013:에 지 서버를 설치 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81a17eacb30c62f64185508afef3842408238ba4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e699a7f41b0ee554bc85fb2d9a72a2d9a42870cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498745"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559584"
 ---
 # <a name="install-edge-servers-for-lync-server-2013"></a>Lync Server 2013에 대 한에 지 서버 설치
 
