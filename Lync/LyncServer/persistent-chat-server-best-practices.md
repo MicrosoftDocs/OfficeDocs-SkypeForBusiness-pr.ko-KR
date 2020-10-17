@@ -1,5 +1,6 @@
 ---
 title: 영구 채팅 서버 모범 사례
+description: 영구 채팅 서버 모범 사례
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fceea7401a6d5442738a0cc64e9a2bafbfd83827
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5c575c0afa0366e88748eadfcf4c04fccb20b375
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500145"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571264"
 ---
 # <a name="persistent-chat-server-best-practices"></a>영구 채팅 서버 모범 사례
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Standard Edition server에 대 한 DNS 요구 사항'
+description: 'Lync Server 2013: Standard Edition server에 대 한 DNS 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87b0fc78e469c0cd91c7bef3e3a4ebb3cf3b9a03
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cc93549e07fb82304ad76b051730eab972530764
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501345"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570674"
 ---
 # <a name="dns-requirements-for-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013의 Standard Edition server에 대 한 DNS 요구 사항
 

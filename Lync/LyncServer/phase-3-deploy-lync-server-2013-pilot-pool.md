@@ -1,5 +1,6 @@
 ---
 title: '3 단계: Lync Server 2013 파일럿 풀 배포'
+description: '3 단계: Lync Server 2013 파일럿 풀을 배포 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b0a36b86c8d0c90ed0799c7e1acbe76b75c7630
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f72f0cdd2e7d3b9e29891a4adc0ab0551539f465
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533725"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571164"
 ---
 # <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>3 단계: Lync Server 2013 파일럿 풀 배포
 

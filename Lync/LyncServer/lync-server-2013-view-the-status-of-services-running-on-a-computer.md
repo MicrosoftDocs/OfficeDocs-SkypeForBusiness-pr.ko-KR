@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 컴퓨터에서 실행 중인 서비스의 상태를 확인 합니다.'
+description: 'Lync Server 2013: 컴퓨터에서 실행 중인 서비스의 상태를 확인 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95c633079e45eba40bd59c7666c752c2ef68b498
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 22aeb13f2beb5d3b0ee5eec8109eceeb14e40213
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518395"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571354"
 ---
 # <a name="view-the-status-of-services-running-on-a-computer-in-lync-server-2013"></a>Lync Server 2013에서 컴퓨터에서 실행 되는 서비스의 상태 보기
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 헌트 그룹 워크플로 만들기 또는 수정'
+description: 'Lync Server 2013: 헌트 그룹 워크플로를 만들거나 수정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90b4c7c07718faf93237dfe11357dc103bf77e9a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 95f6374352c87d13b1e5c09bcef267059016eae0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501685"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570724"
 ---
 # <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>Lync Server 2013에서 헌트 그룹 워크플로 만들기 또는 수정
 

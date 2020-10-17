@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 인증서 요약-NAT 사용 개인 IP 주소의 단일 통합에 지'
+description: 'Lync Server 2013: 인증서 요약-NAT 사용 개인 IP 주소의 단일 통합에 지'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e41a2734feed26a929ed35fef3ec2c1dd320d9ac
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 53c8fa23bd7d5a2faf91da956d363474095a09d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507905"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572204"
 ---
 # <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>인증서 요약-Lync Server 2013에서 NAT를 사용 하는 개인 IP 주소의 단일 통합에 지
 

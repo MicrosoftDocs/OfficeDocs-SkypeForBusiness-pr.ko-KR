@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 기존 Lync Server 2013 Enterprise에 Lync Server 2013 Standard Edition 배포'
+description: 'Lync Server 2013: 기존 Lync Server 2013 Enterprise에 Lync Server 2013 Standard Edition을 배포 하는 중입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183297
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd3d666eefe04a6650a5c1a10253f490e391ff22
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b233d4e782e716904fca0a2a146b2459e906aa57
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501515"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571724"
 ---
 # <a name="deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise"></a>Lync Server 2013 Standard Edition을 기존 Lync Server 2013 Enterprise에 배포
 

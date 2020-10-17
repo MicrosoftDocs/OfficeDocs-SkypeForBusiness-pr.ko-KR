@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 프런트 엔드 풀에 SBA(Survivable Branch Appliance) 연결
+description: Sba (survivable 분기 어플라이언스를 Lync Server 2013 프런트 엔드 풀에 연결 하는 중입니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7a637716f1e5b1a2082f694554951d42f36978f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6ef917d3db6a1d653ac716d6c078e1df240fb31d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502025"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571664"
 ---
 # <a name="connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool"></a>Lync Server 2013 프런트 엔드 풀에 SBA(Survivable Branch Appliance) 연결
 

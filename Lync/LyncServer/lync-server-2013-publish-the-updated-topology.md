@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 업데이트 된 토폴로지 게시'
+description: 'Lync Server 2013: 업데이트 된 토폴로지를 게시 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f696b06f317ac20b98a14734f1eaf076105dbd8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c27cca2eae86eadaf1ff37e2c3520eaec3f86c98
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512315"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571694"
 ---
 # <a name="publish-the-updated-topology-in-lync-server-2013"></a>Lync Server 2013에서 업데이트 된 토폴로지 게시
 

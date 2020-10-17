@@ -1,5 +1,6 @@
 ---
 title: '단계 10: 레거시 사이트 해제'
+description: '단계 10: 레거시 사이트를 해제 합니다.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a8a2871659747b68e7a0dec6a945c6f987219a8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9692301a1da38cfd69780ce2524f00dd428454e5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533765"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571204"
 ---
 # <a name="phase-10-decommission-legacy-site"></a>단계 10: 레거시 사이트 해제
 
@@ -67,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2012-10-16_
 
   - [전화 회의 디렉터리 이동](move-conference-directories.md)
 
-  - [DNS SRV 레코드 업데이트](update-dns-srv-records_1.md)
+  - [DNS SRV 레코드 업데이트](update-dns-srv-records.md)
 
   - [서버 및 풀 해제](decommissioning-servers-and-pools.md)
 

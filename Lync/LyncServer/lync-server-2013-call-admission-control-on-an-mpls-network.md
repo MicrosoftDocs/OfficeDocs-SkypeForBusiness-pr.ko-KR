@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: MPLS 네트워크에서 통화 허용 제어'
+description: 'Lync Server 2013: MPLS 네트워크에서 통화 허용 제어'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efed0826aa35a557628dd64bfdcea9bc22ced28a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e26ba95a9191b567520978ee9512cbbc12e934ec
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535185"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572374"
 ---
 # <a name="call-admission-control-on-an-mpls-network-with-lync-server-2013"></a>Lync Server 2013를 사용 하는 MPLS 네트워크의 통화 허용 제어
 

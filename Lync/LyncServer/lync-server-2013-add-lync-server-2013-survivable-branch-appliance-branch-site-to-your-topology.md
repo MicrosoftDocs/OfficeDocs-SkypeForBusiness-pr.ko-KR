@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Sba (survivable Branch 기기 분기 사이트를 토폴로지에 추가
+description: Lync Server 2013 Sba (survivable Branch 기기 분기 사이트를 토폴로지에 추가 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733830
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad708f2f37b95d970f9c9585730c015ff6798f6a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b50c03dd53c7637fcf0914db290b3e452b64b83
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521465"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572034"
 ---
 # <a name="add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology"></a>Lync Server 2013 Sba (survivable Branch 기기 분기 사이트를 토폴로지에 추가
 
