@@ -12,20 +12,22 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48ee62d2eee4ab6e18b3c0c07b46f79b779bcce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3823f65d5bc565f01b55b08259a4482c97bbd43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217684"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500655"
 ---
+# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Lync Server 2013의 미디어 품질 메트릭 배포 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Lync Server 2013의 미디어 품질 메트릭 배포 보고서
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2012-06-06_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>개</p></td>
+<td><p>1 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
@@ -65,11 +67,11 @@ _**마지막으로 수정 된 항목:** 2012-06-06_
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>1-4</p></td>
+<td><p>4 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>2-5</p></td>
+<td><p>5 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
@@ -89,7 +91,7 @@ _**마지막으로 수정 된 항목:** 2012-06-06_
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>50</p></td>
 </tr>
 </tbody>
@@ -123,7 +125,7 @@ _**마지막으로 수정 된 항목:** 2012-06-06_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>From</strong></p></td>
+<td><p><strong>시작</strong></p></td>
 <td><p>시간 범위의 시작 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜 및 시간을 입력합니다.</p>
 <p>7/7/2012 1:00 PM</p>
 <p>시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
@@ -155,8 +157,8 @@ _**마지막으로 수정 된 항목:** 2012-06-06_
 <td><p>통화가 시도되었을 때 클라이언트가 내부 네트워크 또는 외부 네트워크에 로그온되어 있는지를 나타냅니다. 다음 중 하나를 선택합니다.</p>
 <ul>
 <li><p>모든</p></li>
-<li><p>Internal</p></li>
-<li><p>외부:</p></li>
+<li><p>내부</p></li>
+<li><p>외부</p></li>
 </ul></td>
 </tr>
 <tr class="even">

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b436c52b89ce9e396d93669c09cdadeef10260e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 090c0d4e7ce65f633458860f0c488e4257d15b5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203294"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499425"
 ---
+# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>Lync Server 2013에서 위치 정책 범위 할당
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>Lync Server 2013에서 위치 정책 범위 할당
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2012-06-06_
 
 
 > [!NOTE]  
-> 이러한 특수 정책 범위 지정 동작이 발생 하는 이유는 한 office 사이트의 풀에 있는 사용자가 다른 사이트를 방문 하 여 긴급 통화를 해야 하는 경우 해당 네트워크 사이트에 적합 한 E9-1-1 통화 라우팅 설정이 어떤 풀 또는 사이트에 든 관계 없이 적용 되도록 하는 것입니다. ser이 할당 됩니다.
+> 이 특수 정책 범위 지정 동작이 발생 하는 이유는 한 office 사이트의 풀에 있는 사용자가 다른 사이트를 방문 하 고 긴급 통화를 해야 하는 경우 해당 네트워크 사이트에 적합 한 E9-1-1 통화 라우팅 설정이 사용자가 할당 된 풀 또는 사이트에 관계 없이 적용 되도록 하는 것입니다.
 
 
 

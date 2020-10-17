@@ -12,20 +12,22 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 810a49a35f9b2597e8a84427e513217ff35efefb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 145a2849d8b87f0f19559583e94edb5e895f89db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194281"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500495"
 ---
+# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Lync Server 2013에서 두 사용자 간의 IM 기능 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Lync Server 2013에서 두 사용자 간의 IM 기능 테스트
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우에는 사용자에 게 CsIM cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 받아야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsIM cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="description"></a>설명
 
-CsIM cmdlet은 테스트 사용자 쌍이 인스턴트 메시지를 교환할 수 있는지 확인 합니다. 호출 되 면 test users 쌍을 Lync Server에 로그온 하 여 CsIM cmdlet이 시작 되지 않습니다. 두 로그온이 성공 했다고 가정 하면 cmdlet은 두 테스트 사용자 간에 IM 세션을 시작 합니다. (사용자 1이 IM 세션에 2 사용자를 초대 하 고, 사용자 2가 초대를 수락 합니다.) 두 사용자 간에 메시지를 교환할 수 있는지 확인 한 후에는 Test-CsIM이 IM 세션을 종료 하 고 시스템에서 두 사용자를 모두 기록 합니다.
+Test-CsIM cmdlet은 테스트 사용자 쌍이 인스턴트 메시지를 교환할 수 있는지 확인 합니다. 호출 되 면 test users 쌍을 Lync Server에 로그온 하 여 Test-CsIM cmdlet이 시작 되지 않습니다. 두 로그온이 성공 했다고 가정 하면 cmdlet은 두 테스트 사용자 간에 IM 세션을 시작 합니다. (사용자 1이 IM 세션에 2 사용자를 초대 하 고, 사용자 2가 초대를 수락 합니다.) 두 사용자 간에 메시지를 교환할 수 있는지 확인 한 후에 Test-CsIM는 IM 세션을 종료 하 고 시스템에서 두 사용자를 모두 기록 합니다.
 
 자세한 내용은 [CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) cmdlet에 대 한 도움말 설명서를 참조 하십시오.
 
@@ -76,7 +78,7 @@ CsIM cmdlet은 테스트 사용자 쌍이 인스턴트 메시지를 교환할 �
 
 ## <a name="running-the-test"></a>테스트 실행
 
-테스트-CsIM cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예:
+Test-CsIM cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예제:
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -126,11 +128,11 @@ Microsoft DiagnosticHeader
 
     Get-CsUser "Ken Myer" | Select-Object SipAddress, Enabled
 
-Test-CsIM이 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
+Test-CsIM 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose 매개 변수가 포함 된 경우 Test-CsIM은 두 테스트 사용자가 IM 세션에 참가 하는 기능을 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예를 들어, 다음은 Test-CsIM에 잘못 된 사용자 자격 증명 집합 (이 경우 잘못 된 암호)을 제공 했을 때 발생 하는 예제 출력입니다.
+Verbose 매개 변수를 포함 하면 Test-CsIM는 두 테스트 사용자가 IM 세션에 참가 하는 기능을 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예를 들어, 다음은 Test-CsIM에 잘못 된 사용자 자격 증명 집합 (이 경우 잘못 된 암호)을 제공 했을 때 발생 하는 예제 출력입니다.
 
 등록 요청을 보내는 중:
 
@@ -154,7 +156,7 @@ Sip/atl-litwareinc에 대 한 등록 적중
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-Test-CsIM이 실패할 수 있는 일반적인 이유는 다음과 같습니다.
+Test-CsIM 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.
 
   - 잘못 된 사용자 계정을 지정 했습니다. 다음과 같은 명령을 실행 하 여 사용자 계정이 있는지 확인할 수 있습니다.
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f60ded6539f6d984662449562d0f978e98dc3078
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa82180853e8835782d1e39d56fe595e5c7b09b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206554"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500805"
 ---
+# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 풀 ABC 장애 조치 (failover) 절차
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 풀 ABC 장애 조치 (failover) 절차
+
 
 </div>
 
@@ -89,7 +91,7 @@ Cmdlet을 실행 하려면 관리자 권한으로 실행을 사용 하 여 Lync 
     
 
     > [!WARNING]  
-    > 백업 풀의 응용 프로그램 수준 설정 (풀 A)을 기본 풀의 설정으로 덮어쓰지 않으려면 응답 그룹 응용 프로그램은 풀 a의 응용 프로그램 수준 설정이 손실 될 수 있으므로 해당 설정에 대 한 손실을 방지 하는 것이 좋습니다. 풀 당 하나의 응용 프로그램 수준 설정 집합만 저장 합니다. 풀 C를 배포 하 여 풀 A를 대체 하는 경우 기본 음악 대기 오디오 파일을 포함 하 여 응용 프로그램 수준 설정을 다시 구성 해야 합니다.
+    > 백업 풀의 응용 프로그램 수준 설정 (풀 A)을 기본 풀의 설정으로 덮어쓰지 않으려는 경우 응답 그룹 응용 프로그램은 풀 당 하나의 응용 프로그램 수준 설정만 저장할 수 있으므로 풀 a의 응용 프로그램 수준 설정은 손실 됩니다 (그룹 a) (해당 하는 경우). 풀 C를 배포 하 여 풀 A를 대체 하는 경우 기본 음악 대기 오디오 파일을 포함 하 여 응용 프로그램 수준 설정을 다시 구성 해야 합니다.
 
     
     </div>
@@ -158,7 +160,7 @@ Cmdlet을 실행 하려면 관리자 권한으로 실행을 사용 하 여 Lync 
         
             Xcopy <Source> <Destination: Pool C CPS File Store Path>
         
-        예:
+        예제:
         
             Xcopy "Source Path" "<Pool C File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"
     
@@ -194,7 +196,7 @@ Cmdlet을 실행 하려면 관리자 권한으로 실행을 사용 하 여 Lync 
     
 
     > [!WARNING]  
-    > 그룹 C의 응용 프로그램 수준 설정을 백업 풀 (풀 B)의 설정으로 덮어쓰지 않으려면 응답 그룹 응용 프로그램은 하나의 응용 프로그램 수준 집합만 저장할 수 있으므로 풀 B의 응용 프로그램 수준 설정이 손실 됩니다. 풀 당 설정
+    > 그룹 C의 응용 프로그램 수준 설정을 백업 풀 (풀 B)의 설정으로 덮어쓰지 않으려면 응답 그룹 응용 프로그램은 풀 당 하나의 응용 프로그램 수준 설정 집합만 저장할 수 있으므로 풀 B의 응용 프로그램 수준 설정이 손실 됩니다.
 
     
     </div>

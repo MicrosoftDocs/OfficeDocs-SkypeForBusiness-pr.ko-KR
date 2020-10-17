@@ -12,20 +12,22 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5625aa9d6211c703853b110b3fec439113cfa48d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f5847a43c6d07cf188c97cd8de6a47dfb83e1468
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206282"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501285"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013의 DNS 요약-하드웨어 부하 분산 장치로 확장 된 통합에 지
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013의 DNS 요약-하드웨어 부하 분산 장치로 확장 된 통합에 지
+
 
 </div>
 
@@ -126,13 +128,13 @@ Lync 2013 DNS 요구 사항에 대 한 자세한 내용은 [Lync Server 2013에 
 </tr>
 <tr class="even">
 <td><p>외부 DNS/SRV/443</p></td>
-<td><p>_sip _tls. contoso.</p></td>
+<td><p>_sip _sip._tls</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>액세스에 지 서비스 외부 인터페이스 Lync 2013 및 Lync 2010 클라이언트가 외부적으로 작동 하도록 자동으로 구성 하는 데 필요 합니다. Lync가 설정된 사용자의 모든 SIP 도메인에 대해 필요한 만큼 반복합니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>외부 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls _tcp. contoso.</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP 액세스에 지 서비스 외부 인터페이스 페더레이션 파트너의 자동 DNS 검색에 필요한 "허용 된 SIP 도메인" (이전 릴리스의 향상 된 페더레이션 이라고 함)입니다. Lync를 사용할 수 있는 모든 SIP 도메인 및 푸시 알림 서비스 또는 Apple 푸시 알림 서비스를 사용 하는 Microsoft Lync 모바일 클라이언트에 대해 필요에 따라 반복</p></td>
 </tr>

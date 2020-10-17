@@ -12,20 +12,22 @@ ms:contentKeyID: 48183852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34f3ea8a5b25a4eaa3345249c8c7847dd4a3f2bd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b729112aa0fb064a518c50212a6a041a6661be3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499505"
 ---
+# <a name="appsharingstream-table-in-lync-server-2013"></a>Lync Server 2013의 AppSharingStream 테이블
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appsharingstream-table-in-lync-server-2013"></a>Lync Server 2013의 AppSharingStream 테이블
+
 
 </div>
 
@@ -90,13 +92,13 @@ AppSharingStream 테이블은 응용 프로그램 공유에 사용되는 네트�
 <td><p><strong>JitterInterArrival</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>RTP 패킷 도착 시간 사이에 발견된 평균 지터입니다. (지터는 통화의 &quot;shakiness&quot; 을 측정 한 것입니다.) 높은 지터 값은 일반적으로 혼잡 또는 오버 로드 된 미디어 서버로 인해 발생 하며 오디오가 왜곡 되거나 손실 될 수 있습니다.</p></td>
+<td><p>RTP 패킷 도착 시간 사이에 발견된 평균 지터입니다. (지터는 통화의 shakiness을 측정 한 것 &quot; &quot; 입니다.) 높은 지터 값은 일반적으로 혼잡 또는 오버 로드 된 미디어 서버로 인해 발생 하며 오디오가 왜곡 되거나 손실 될 수 있습니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>RTP 패킷 도착 시간 사이에 발견된 최대 지터입니다. (지터는 통화의 &quot;shakiness&quot; 을 측정 한 것입니다.) 높은 지터 값은 일반적으로 혼잡 또는 오버 로드 된 미디어 서버로 인해 발생 하며 오디오가 왜곡 되거나 손실 될 수 있습니다.</p></td>
+<td><p>RTP 패킷 도착 시간 사이에 발견된 최대 지터입니다. (지터는 통화의 shakiness을 측정 한 것 &quot; &quot; 입니다.) 높은 지터 값은 일반적으로 혼잡 또는 오버 로드 된 미디어 서버로 인해 발생 하며 오디오가 왜곡 되거나 손실 될 수 있습니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>왕복</strong></p></td>

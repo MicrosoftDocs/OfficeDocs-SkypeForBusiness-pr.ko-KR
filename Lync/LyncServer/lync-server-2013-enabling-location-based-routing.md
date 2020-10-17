@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 위치 기반 라우팅을 사용 하도록 설정'
+title: 'Lync Server 2013: Location-Based 라우팅 사용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a66ced9530510ade4d91e8d76032a4260870530
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ab22ffdfc47f390671f2bf66ea76dd734aaa128
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500975"
 ---
+# <a name="enabling-location-based-routing-in-lync-server-2013"></a>Lync Server 2013에서 Location-Based 라우팅 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-location-based-routing-in-lync-server-2013"></a>Lync Server 2013에서 위치 기반 라우팅 사용
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187741"
 
 _**마지막으로 수정 된 항목:** 2013-04-26_
 
-Enterprise Voice가 배포 되 고 네트워크 지역에 연결 되 면 사이트와 서브넷이 정의 되 고 위치 기반 라우팅을 사용 하도록 설정할 수 있습니다. 다음 Enterprise Voice 요소에 대해 위치 기반 라우팅을 사용 하도록 설정 해야 합니다.
+Enterprise Voice가 배포 되 고 네트워크 지역에 있는 경우 사이트와 서브넷이 정의 되 면 Location-Based 라우팅을 사용 하도록 설정할 수 있습니다. 다음 Enterprise Voice 요소에 대해 Location-Based 라우팅을 사용 하도록 설정 해야 합니다.
 
   - 네트워크 사이트
 
@@ -49,15 +51,15 @@ Enterprise Voice가 배포 되 고 네트워크 지역에 연결 되 면 사이�
 
 <div>
 
-## <a name="enable-location-based-routing-to-network-sites"></a>네트워크 사이트에 대 한 위치 기반 라우팅 사용
+## <a name="enable-location-based-routing-to-network-sites"></a>네트워크 사이트에 대 한 Location-Based 라우팅 사용
 
-Enterprise Voice를 배포 하 고 네트워크 사이트를 구성한 후에는 위치 기반 라우팅을 구성할 준비가 된 것입니다. 먼저 네트워크 사이트를 적절 한 PSTN 사용에 연결 하는 음성 라우팅 정책을 만듭니다. 음성 라우팅 정책에 PSTN 사용을 할당할 때는 위치 기반 라우팅 제한이 필요 하지 않은 지역에 있는 pstn 게이트웨이를 사이트 또는 PSTN 게이트웨이로 사용 하는 음성 경로와 연결 된 PSTN 사용량을 사용 해야 합니다. Lync Server Windows PowerShell 명령, Get-csvoiceroutingpolicy 또는 Lync Server 제어판을 사용 하 여 음성 라우팅 정책을 만듭니다.
+Enterprise Voice를 배포 하 고 네트워크 사이트를 구성한 후에는 Location-Based 라우팅을 구성할 수 있습니다. 먼저 네트워크 사이트를 적절 한 PSTN 사용에 연결 하는 음성 라우팅 정책을 만듭니다. 음성 라우팅 정책에 PSTN 사용을 할당할 때에는 사이트에 대 한 PSTN 게이트웨이 로컬을 사용 하는 음성 경로와 연결 된 PSTN 사용 또는 Location-Based 라우팅 제한이 필요 없는 지역에 있는 PSTN 게이트웨이로만 설정 해야 합니다. Lync Server Windows PowerShell 명령, Get-csvoiceroutingpolicy 또는 Lync Server 제어판을 사용 하 여 음성 라우팅 정책을 만듭니다.
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
 자세한 내용은 [get-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoiceRoutingPolicy)를 참조 하십시오.
 
-이 예에서는 다음 표 및 Windows PowerShell 명령은 두 가지 음성 라우팅 정책 및이 시나리오에 정의 된 연결 된 PSTN 사용을 보여 줍니다. 위치 기반 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
+이 예에서는 다음 표 및 Windows PowerShell 명령은 두 가지 음성 라우팅 정책 및이 시나리오에 정의 된 연결 된 PSTN 사용을 보여 줍니다. Location-Based 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
 
     New-CsVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Name "Delhi voice routing policy" -PstnUsages @{add="Delhi usage", "PBX Del usage", "PBX Hyd usage"}
     New-CsVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Name " Hyderabad voice routing policy" -PstnUsages @{add="Hyderabad usage", "PBX Del usage", "PBX Hyd usage"}
@@ -92,11 +94,11 @@ Enterprise Voice를 배포 하 고 네트워크 사이트를 구성한 후에는
 
   
 
-다음으로, 해당 하는 네트워크 사이트에 대 한 위치 기반 라우팅을 구성 하 고 음성 라우팅 정책을 여기에 연결 합니다. Lync Server Windows PowerShell 명령, 새 CsNetworkSite를 사용 하 여 위치 기반 라우팅을 사용 하도록 설정 하 고 라우팅 제한을 적용 해야 하는 네트워크 사이트에 음성 라우팅 정책을 연결 합니다.
+다음으로, 해당 하는 네트워크 사이트에 대 한 Location-Based 라우팅을 구성 하 고 음성 라우팅 정책을 이러한 정책에 연결 합니다. Lync Server Windows PowerShell 명령, 새 CsNetworkSite를 사용 하 여 Location-Based 라우팅을 사용 하도록 설정 하 고 라우팅 제한을 적용 해야 하는 네트워크 사이트에 음성 라우팅 정책을 연결 합니다.
 
     Set-CsNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -VoiceRoutingPolicy <voice routing policy ID>
 
-이 예에서 다음 표에는 Lync Server Windows PowerShell을 사용 하 여이 시나리오에 정의 된 두 개의 서로 다른 네트워크 사이트 (Hyderabad 및 2)에 대 한 위치 기반 라우팅이 나와 있습니다. 위치 기반 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
+이 예제에서 다음 표에는이 시나리오에서 Lync Server Windows PowerShell을 사용 하 여 정의 된 두 개의 서로 다른 네트워크 사이트 (Hyderabad 및 2)에 대 한 Location-Based 라우팅이 나와 있습니다. Location-Based 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
 
     Set-CsNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "DelhiVoiceRoutingPolicy"
     Set-CsNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "HyderabadVoiceRoutingPolicy"
@@ -123,8 +125,8 @@ Enterprise Voice를 배포 하 고 네트워크 사이트를 구성한 후에는
 </tr>
 <tr class="even">
 <td><p>EnableLocationBasedRouting</p></td>
-<td><p>참</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
 </tr>
 <tr class="odd">
 <td><p>음성 라우팅 정책</p></td>
@@ -149,9 +151,9 @@ Enterprise Voice를 배포 하 고 네트워크 사이트를 구성한 후에는
 
 <div>
 
-## <a name="enable-location-based-routing-to-trunks"></a>위치 기반 라우팅 사용 트렁크
+## <a name="enable-location-based-routing-to-trunks"></a>트렁크로 Location-Based 라우팅을 사용 하도록 설정
 
-위치 기반 라우팅을 위해 트렁크 구성을 사용 하도록 설정 하려면 각 트렁크 또는 각 네트워크 사이트에 대해 트렁크 구성을 만들어야 합니다. Lync Server Windows PowerShell 명령 Get-cstrunkconfiguration를 사용 하 여 트렁크 구성을 만듭니다. 트렁크가 지정 된 시스템과 연결 된 경우 (즉, 게이트웨이 또는 PBX) 각 트렁크 구성을 수정 하 여 위치 기반 라우팅 제한을 사용 하도록 설정 해야 합니다.
+Location-Based 라우팅을 위해 트렁크 구성을 사용 하도록 설정 하려면 각 트렁크 또는 각 네트워크 사이트에 대해 트렁크 구성을 만들어야 합니다. Lync Server Windows PowerShell 명령 Get-cstrunkconfiguration를 사용 하 여 트렁크 구성을 만듭니다. 트렁크가 지정 된 시스템과 연결 된 경우 (즉, 게이트웨이 또는 PBX) 각 트렁크 구성을 수정 하 여 Location-Based 라우팅 제한을 사용 하도록 설정 해야 합니다.
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
@@ -164,26 +166,26 @@ Enterprise Voice를 배포 하 고 네트워크 사이트를 구성한 후에는
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-트렁크에 따라 줄기 구성을 구성한 후에는 Lync Server Windows PowerShell 명령 Get-cstrunkconfiguration을 사용 하 여 라우팅 제한을 적용 해야 하는 트렁크에 대 한 위치 기반 라우팅을 사용 하도록 설정할 수 있습니다. PSTN으로 통화를 라우팅하는 PSTN 게이트웨이로 통화를 라우팅하는 트렁크에 대 한 위치 기반 라우팅을 사용 하도록 설정 하 고 게이트웨이가 있는 네트워크 사이트를 연결 합니다.
+트렁크에 따라 줄기 구성을 구성한 후에는 Lync Server Windows PowerShell 명령 Get-cstrunkconfiguration을 사용 하 여 라우팅 제한을 적용 해야 하는 트렁크에 대 한 Location-Based 라우팅을 사용 하도록 설정할 수 있습니다. PSTN에 대 한 통화를 라우팅하는 트렁크에 대 한 Location-Based 라우팅을 사용 하도록 설정 하 고 게이트웨이가 있는 네트워크 사이트를 연결 합니다.
 
     Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
 자세한 내용은 [get-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration)를 참조 하십시오.
 
-이 예에서는 Hyderabad의 PSTN 게이트웨이와 연결 된 각 트렁크에 대해 위치 기반 라우팅을 사용 하도록 설정 되어 있습니다.
+이 Location-Based 예에서는 Hyderabad의 PSTN 게이트웨이와 연결 된 각 트렁크에 대해 라우팅이 사용 하도록 설정 되어 있습니다.
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
-통화를 PSTN으로 라우트 하지 않는 트렁크에 대해 위치 기반 라우팅을 사용 하도록 설정 하지 마십시오. 그러나이 트렁크를 통해 연결 된 끝점에 대 한 PSTN 통화에 대해 위치 기반 라우팅 제한을 적용 해야 하는 경우에도 시스템을 사용 하는 네트워크 사이트에 트렁크를 연결 해야 합니다. 이 예에서는 Hyderabad에서 PBX 시스템과 연결 된 각 트렁크에 대해 위치 기반 라우팅을 사용 하도록 설정 되어 있지 않습니다.
+통화를 PSTN으로 라우트 하지 않는 트렁크에 대해서는 Location-Based 라우팅을 사용 하도록 설정 하지 마십시오. 그러나이 트렁크를 통해 연결 된 끝점에 도달 하는 PSTN 통화에 대 한 라우팅 제한이 적용 되도록 하려면 해당 시스템을 가진 네트워크 사이트에 트렁크를 연결 해야 Location-Based 합니다. 이 예 Location-Based에서는 Hyderabad에서 PBX 시스템과 연결 된 각 트렁크에 대해 라우팅이 사용 하도록 설정 되어 있지 않습니다.
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
-PSTN으로 통화를 라우트 하지 않는 시스템에 연결 된 끝점 (즉, PBX)은 위치 기반 라우팅을 사용 하도록 설정 된 사용자의 Lync 끝점과 비슷한 제한이 적용 됩니다. 즉, 이러한 사용자는 사용자 위치에 관계 없이 Lync 사용자에 게 전화를 걸거나 받을 수 있습니다. 또한 시스템을 연결 하는 네트워크 사이트에 관계 없이 PSTN 네트워크로 통화를 라우팅하는 (즉, 다른 PBX에 연결 된 끝점) 다른 시스템과 주고받는 수신 전화를 걸 수 있습니다. PSTN 끝점을 포함 하는 모든 인바운드 통화, 아웃 바운드 통화, 통화 전송 및 착신 전환에는 위치 기반 라우팅 enforcements 적용 됩니다. 이러한 통화는 해당 시스템에 로컬로 정의 된 PSTN 게이트웨이를 사용 해야 합니다.
+PSTN으로 통화를 라우트 하지 않는 시스템에 연결 된 끝점 (즉, PBX)은 Location-Based 라우팅에 사용 하도록 설정 된 사용자의 Lync 끝점과 비슷한 제한이 적용 됩니다. 즉, 이러한 사용자는 사용자 위치에 관계 없이 Lync 사용자에 게 전화를 걸거나 받을 수 있습니다. 또한 시스템을 연결 하는 네트워크 사이트에 관계 없이 PSTN 네트워크로 통화를 라우팅하는 (즉, 다른 PBX에 연결 된 끝점) 다른 시스템과 주고받는 수신 전화를 걸 수 있습니다. PSTN 끝점을 포함 하는 모든 인바운드 통화, 아웃 바운드 통화, 통화 전송 및 통화 전달에 Location-Based 라우팅 enforcements이 적용 됩니다. 이러한 통화는 해당 시스템에 로컬로 정의 된 PSTN 게이트웨이를 사용 해야 합니다.
 
 다음 표에서는 PSTN 게이트웨이 2 개와 PBX 시스템에 연결 된 2 개의 서로 다른 네트워크 사이트에 있는 네 가지 트렁크의 트렁크 구성을 보여 줍니다.
 
@@ -204,12 +206,12 @@ PSTN으로 통화를 라우트 하지 않는 시스템에 연결 된 끝점 (즉
 <tbody>
 <tr class="odd">
 <td><p>가 pstngateway: 트렁크 1 DEL-GW</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 <td><p>사이트 1(뉴델리)</p></td>
 </tr>
 <tr class="even">
 <td><p>가 pstngateway: 트렁크 2 HYD-GW</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 <td><p>사이트 2 (Hyderabad)</p></td>
 </tr>
 <tr class="odd">
@@ -235,15 +237,15 @@ PSTN으로 통화를 라우트 하지 않는 시스템에 연결 된 끝점 (즉
 
 <div>
 
-## <a name="enable-location-based-routing-to-voice-policies"></a>음성 정책에 대 한 위치 기반 라우팅 사용
+## <a name="enable-location-based-routing-to-voice-policies"></a>음성 정책에 대 한 Location-Based 라우팅 사용
 
-특정 사용자에 대해 위치 기반 라우팅을 적용 하려면 PSTN 전화 바이패스를 방지 하도록 해당 사용자의 음성 정책을 구성 합니다. Lync Server Windows PowerShell 명령 Set-csvoicepolicy를 사용 하 여 기존 정책을 사용 하는 경우 새 음성 정책을 만들거나 Set-csvoicepolicy을 만들어 PSTN 유료 바이패스를 방지 하 여 위치 기반 라우팅을 사용 하도록 설정 합니다.
+특정 사용자에 게 Location-Based 라우팅을 적용 하려면 PSTN 전화 바이패스를 방지 하도록 해당 사용자의 음성 정책을 구성 합니다. Lync Server Windows PowerShell 명령 Set-csvoicepolicy를 사용 하 여 기존 정책을 사용 하는 경우 새 음성 정책을 만들거나 Set-csvoicepolicy을 만들어 PSTN 유료 바이패스를 방지 하 여 Location-Based 라우팅을 사용 하도록 설정할 수 있습니다.
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
 자세한 내용은 [set-csvoicepolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoicePolicy)를 참조 하십시오.
 
-이 예에서는 다음 표 및 Windows PowerShell 명령을 사용 하 여이 시나리오에 정의 된 Hyderabad 음성 정책으로 PSTN 유료 바이패스를 방지 하는 방법을 보여 줍니다. 위치 기반 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
+이 예에서는 다음 표 및 Windows PowerShell 명령을 사용 하 여이 시나리오에 정의 된 Hyderabad 음성 정책으로 PSTN 유료 바이패스를 방지 하는 방법을 보여 줍니다. Location-Based 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
 
     Set-CsVoicePolicy -Identity "Delhi voice policy" -PreventPSTNTollBypass $true
     Set-CsVoicePolicy -Identity "Hyderabad voice policy" -PreventPSTNTollBypass $true
@@ -275,8 +277,8 @@ PSTN으로 통화를 라우트 하지 않는 시스템에 연결 된 끝점 (즉
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
-<td><p>참</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
 </tr>
 </tbody>
 </table>
@@ -291,9 +293,9 @@ PSTN으로 통화를 라우트 하지 않는 시스템에 연결 된 끝점 (즉
 
 <div>
 
-## <a name="enable-location-based-routing-in-the-routing-configuration"></a>라우팅 구성에서 위치 기반 라우팅 사용
+## <a name="enable-location-based-routing-in-the-routing-configuration"></a>라우팅 구성에서 Location-Based 라우팅을 사용 하도록 설정
 
-마지막으로 위치 기반 라우팅을 라우팅 구성에 대해 전역적으로 사용 하도록 설정 합니다. Lync Server Windows PowerShell 명령, 새 CsRoutingConfiguration을 사용 하 여 위치 기반 라우팅을 사용 하도록 설정 합니다.
+마지막으로 라우팅 구성에 대 한 Location-Based 라우팅을 전역적으로 사용 하도록 설정 합니다. Lync Server Windows PowerShell 명령 New CsRoutingConfiguration을 사용 하 여 Location-Based 라우팅을 사용 하도록 설정 합니다.
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
@@ -303,7 +305,7 @@ PSTN으로 통화를 라우트 하지 않는 시스템에 연결 된 끝점 (즉
 
 
 > [!NOTE]  
-> 전역 구성을 통해 위치 기반 라우팅을 사용 하도록 설정 해야 하지만, 적용할 규칙 집합은이 설명서에 지정 된 대로 구성 된 사이트, 사용자 및 트렁크 적용 됩니다.
+> 전역 구성을 통해 Location-Based 라우팅을 사용 하도록 설정 해야 하는 경우에는이 문서에 지정 된 것 처럼 구성 된 사이트, 사용자 및 트렁크에만 적용 되는 규칙 집합을 적용할 수 있습니다.
 
 
 
@@ -321,7 +323,7 @@ PSTN으로 통화를 라우트 하지 않는 시스템에 연결 된 끝점 (즉
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에서 위치 기반 라우팅 구성](lync-server-2013-configuring-location-based-routing.md)  
+[Lync Server 2013에서 Location-Based 라우팅 구성](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 952f4c1b14ce7260d4b320ea7feacddb9a85a8f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec8ac614cdc829ab2b1efd7d6ff9179c33d5a33e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203304"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499475"
 ---
+# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013에 서버 간 인증 인증서 할당
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013에 서버 간 인증 인증서 할당
+
 
 </div>
 
@@ -56,7 +58,7 @@ _**마지막으로 수정 된 항목:** 2013-10-24_
 
 이전 명령에서 검색된 인증서는 전역 서버 간 인증 인증서 역할을 하도록 구성됩니다. 즉, 인증서가 모든 프런트 엔드 서버에 복제되어 사용된다는 의미입니다. 다시 강조하자면 이 명령은 프런트 엔드 서버 중 하나에서 단 한 번만 실행해야 합니다. 모든 프런트 엔드 서버에서 동일한 인증서를 사용해야 하지만 각 프런트 엔드 서버에서 OAuthTokenIssuer 인증서를 구성해서는 안 됩니다. 대신, 인증서 하나를 구성하고 Lync Server의 복제 서버를 통해 각 서버로 해당 인증서가 자동 복사되도록 해야 합니다.
 
-Set-cscertificate cmdlet은 해당 인증서를 즉시 가져와서 현재 OAuthTokenIssuer 인증서로 작동 하도록 구성 합니다. (Lync Server 2013에서는 현재 인증서와 이전 인증서의 두 복사본을 유지 합니다.) 새 인증서가 OAuthTokenIssuer 인증서 역할을 즉시 시작 해야 하는 경우 Set-cscertificate cmdlet을 사용 해야 합니다.
+Set-CsCertificate cmdlet은 해당 인증서를 사용 하 여 해당 인증서를 즉시 현재 OAuthTokenIssuer 인증서로 작동 하도록 구성 합니다. (Lync Server 2013에서는 현재 인증서와 이전 인증서의 두 복사본을 유지 합니다.) 새 인증서가 OAuthTokenIssuer 인증서 역할을 즉시 시작 해야 하는 경우에는 Set-CsCertificate cmdlet을 사용 해야 합니다.
 
 또한 Set-CsCertificate cmdlet을 사용하여 새 인증서를 "롤링"할 수 있습니다. 인증서를 "롤링"한다는 것은 단순히, 지정된 시점에 새 인증서를 현재 OAuthTokenIssuer 인증서로 사용하도록 구성한다는 의미입니다. 예를 들어 다음 명령을 실행하면 기본 인증서가 검색된 후 해당 인증서가 2012년 7월 1일을 기준으로 현재 OAuthTokenIssuer 인증서로 사용되도록 구성됩니다.
 

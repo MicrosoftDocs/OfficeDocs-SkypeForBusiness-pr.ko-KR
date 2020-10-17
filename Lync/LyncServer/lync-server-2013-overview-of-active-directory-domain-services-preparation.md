@@ -12,20 +12,22 @@ ms:contentKeyID: 48185662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e2712859aa3268b70db9bd126f1ea17463955db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0074b1739cd571db46fc704d4863ac4f0462c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216378"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500585"
 ---
+# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Lync Server 2013의 Active Directory 도메인 서비스 준비 개요
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Lync Server 2013의 Active Directory 도메인 서비스 준비 개요
+
 
 </div>
 
@@ -127,7 +129,7 @@ Lync server 2010와 같은 lync 서버 2013는 Office Communications Server 2007
     
       - Kerberos 인증 계정(선택적 컴퓨터 개체)
 
-Lync Server 2013에서는 RTCUniversalServerAdmins 유니버설 그룹에 대 한 설치 권한을 부여 하 여 설치 및 관리를 위임 하므로 해당 그룹의 구성원이 로컬 서버에서 Lync Server 2013을 설치 하 고 활성화할 수 있습니다 (서버를 토폴로지, 게시 됨 및 사용 가능) 위임 된 사용자는 Lync Server 2013을 설치 하 고 활성화 하는 컴퓨터의 로컬 관리자 여야 하지만 Domain Admins 그룹의 구성원 일 필요는 없습니다. 또한 지정 된 Ou (조직 구성 단위)에서 개체에 대 한 사용 권한을 부여 하 여 포리스트 준비 중에 만들어지는 유니버설 그룹의 구성원이 Domain Admins 그룹의 구성원이 없어도 해당 개체에 액세스할 수 있도록 할 수 있습니다.
+Lync Server 2013에서는 RTCUniversalServerAdmins 유니버설 그룹에 대 한 설치 권한을 부여 하 여 설치 및 관리를 위임 하므로 해당 그룹의 구성원이 로컬 서버에서 Lync Server 2013을 설치 하 고 활성화할 수 있습니다 (서버를 토폴로지에 추가 하 고 게시 하 고 사용 하도록 설정한 후). 위임 된 사용자는 Lync Server 2013을 설치 하 고 활성화 하는 컴퓨터의 로컬 관리자 여야 하지만 Domain Admins 그룹의 구성원 일 필요는 없습니다. 또한 지정 된 Ou (조직 구성 단위)에서 개체에 대 한 사용 권한을 부여 하 여 포리스트 준비 중에 만들어지는 유니버설 그룹의 구성원이 Domain Admins 그룹의 구성원이 없어도 해당 개체에 액세스할 수 있도록 할 수 있습니다.
 
 Lync Server 2013의 새 배포의 경우 전역 설정을 구성 컨테이너에 저장 해야 합니다. 조직이 이전 버전에서 업그레이드 되는 동안 여전히 System 컨테이너에 전역 설정이 있으면 System 컨테이너가 여전히 지원 됩니다.
 

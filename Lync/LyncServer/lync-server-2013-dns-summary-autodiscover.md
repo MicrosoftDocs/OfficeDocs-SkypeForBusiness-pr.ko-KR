@@ -12,20 +12,22 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72e52927b8c84f5ad9cb869cd680f057e1618f8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc30b787d938825f229f28b10d54907ad26a4d35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199901"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501325"
 ---
+# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>Lync Server 2013의 DNS 요약-자동 검색
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>Lync Server 2013의 DNS 요약-자동 검색
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2013-02-13_
 
 
 > [!IMPORTANT]  
-> Lync Server 클라이언트의 DNS 조회 논리는 구체적인 확인 순서를 사용 합니다. 항상 lyncdiscoverinternal를 모두 포함 해야 합니다. &lt;도메인&gt; 및 lyncdiscover &lt;DNS&gt; 의 도메인 Lyncdiscoverinternal를 제외 합니다. &lt;도메인&gt; 레코드를 사용 하면 내부 클라이언트가 의도 한 서비스에 연결 하지 못하거나 잘못 된 자동 검색 응답을 받을 수 없게 됩니다.
+> Lync Server 클라이언트의 DNS 조회 논리는 구체적인 확인 순서를 사용 합니다. 항상 lyncdiscoverinternal를 모두 포함 해야 합니다. &lt; 도메인 &gt; 및 lyncdiscover &lt; &gt; DNS의 도메인 Lyncdiscoverinternal를 제외 합니다. &lt; 도메인 레코드를 사용 하면 &gt; 내부 클라이언트가 의도 한 서비스에 연결 하지 못하거나 잘못 된 자동 검색 응답을 받을 수 없게 됩니다.
 
 
 
@@ -67,12 +69,12 @@ _**마지막으로 수정 된 항목:** 2013-02-13_
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>Lyncdiscoverinternal. &lt;내부 도메인 이름&gt;</p></td>
+<td><p>&lt;Lyncdiscoverinternal 내부 도메인 이름&gt;</p></td>
 <td><p>디렉터 풀에 대 한 내부 웹 서비스 FQDN (있는 경우) 또는 디렉터가 없는 경우 프런트 엔드 풀에 대해 사용할 수 있습니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>A (호스트, if IPv6, AAAA)</p></td>
-<td><p>lyncdiscoverinternal. &lt;내부 도메인 이름&gt;</p></td>
+<td><p>&lt;lyncdiscoverinternal 내부 도메인 이름&gt;</p></td>
 <td><p>디렉터 풀에 대 한 내부 웹 서비스 IP 주소 (부하 분산 장치를 사용 하는 경우 VIP (가상 IP) 주소)가 있고 디렉터가 없는 경우 프런트 엔드 풀이 하나 이상 있어야 합니다.</p></td>
 </tr>
 </tbody>
@@ -99,12 +101,12 @@ _**마지막으로 수정 된 항목:** 2013-02-13_
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>lyncdiscover &lt; microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 <td><p>디렉터 풀에 대 한 외부 웹 서비스 FQDN (있는 경우) 또는 디렉터가 없는 경우 프런트 엔드 풀의 경우.</p></td>
 </tr>
 <tr class="even">
 <td><p>A (호스트, if IPv6, AAAA)</p></td>
-<td><p>lyncdiscover. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>lyncdiscover &lt; microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 <td><p>역방향 프록시의 외부 또는 공용 IP 주소입니다.</p></td>
 </tr>
 </tbody>

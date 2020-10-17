@@ -12,20 +12,22 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 049472022a26d7a3a6e8e78e20a20ccaa46ff5fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d1a080f7183bbab62cae679c911c76261694406
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500275"
 ---
+# <a name="move-conference-directories"></a>회의 디렉터리 이동
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-conference-directories"></a>회의 디렉터리 이동
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2014-05-28_
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-Lync 2010 풀을 해제 하는 방법에 대 한 단계별 지침은 "Microsoft Lync Server 2010 제거 및 서버 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)역할 제거" (다운로드 가능) 문서를 참조 하십시오.
+Lync 2010 풀을 해제 하는 방법에 대 한 단계별 지침은 "Microsoft Lync Server 2010 제거 및 서버 역할 제거" (다운로드 가능) 문서를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) .
 
 전화 회의 디렉터리를 이동할 때 다음과 같은 오류가 발생할 수 있습니다.
 

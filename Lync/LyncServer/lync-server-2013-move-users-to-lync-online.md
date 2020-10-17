@@ -12,20 +12,22 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dcc72c0f9934aebf28838cfd79899e1ce7aa2bc
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 189bf46da6c6bdaa6749f899d2a672967680cc45
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221208"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500575"
 ---
+# <a name="move-users-to-lync-online-in-lync-server-2013"></a>Lync Server 2013에서 사용자를 Lync Online으로 이동
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-lync-online-in-lync-server-2013"></a>Lync Server 2013에서 사용자를 Lync Online으로 이동
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**마지막으로 수정 된 항목:** 2014-05-29_
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-**HostedMigrationOverrideUrl** 매개 변수에 대해 지정 된 url의 형식은 호스트 되는 마이그레이션 서비스가 실행 되는 풀의 url 이어야 하며 HTTPS:// \< pool FQDN/HostedMigration/hostedmigrationService.svc.입니다. \>
+**HostedMigrationOverrideUrl** 매개 변수에 대해 지정 된 url의 형식은 호스트 되는 마이그레이션 서비스가 실행 되는 풀의 url 이어야 하며,이 형식은 Https:///HostedMigration/hostedmigrationService.svc.입니다. \<Pool FQDN\>
 
 Microsoft 365 또는 Office 365 조직 계정에 대 한 Lync Online 제어판의 URL을 확인 하 여 호스팅된 마이그레이션 서비스에 대 한 URL을 확인할 수 있습니다.
 

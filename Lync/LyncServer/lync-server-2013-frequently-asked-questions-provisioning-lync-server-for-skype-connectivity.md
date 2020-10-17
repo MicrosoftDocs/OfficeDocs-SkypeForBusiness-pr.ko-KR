@@ -12,20 +12,22 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fb31e6f9319f0a1a7a7eadca8f11c1c3ad1a03
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0315104e4bbbd2d8741d5bc011455be2d28191dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221782"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500815"
 ---
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>질문과 대답: Skype 연결용 Lync Server 2013 프로 비전
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>질문과 대답: Skype 연결용 Lync Server 2013 프로 비전
+
 
 </div>
 
@@ -118,13 +120,13 @@ _**마지막으로 수정 된 항목:** 2019-03-22_
 
 **Q: 분할 도메인 시나리오에서 Lync-Skype 연결을 사용 하도록 설정 하려면 어떻게 해야 합니까?**
 
-**A:** Lync Online 2013 및 Lync Server 온-프레미스 분할 도메인 (사용자가 같은 SIP 도메인을 사용 하 여 온라인 및 온-프레미스 모두)이 있는 경우 다음 두 단계를 수행 하 여 Lync Skype 연결을 다음 순서로 사용 하도록 설정 합니다.
+**A:** Lync Online 2013 및 Lync Server 온-프레미스 분할 도메인 (사용자가 동일한 SIP 도메인을 사용 하 여 온라인 및 온-프레미스 모두)이 있는 경우 다음 두 단계를 수행 하 여 다음 순서 대로 Lync-Skype 연결을 사용 하도록 설정 합니다.
 
-1.  PIC 프로 비전 가이드에 설명 된 대로 온-프레미스 Lync Skype 연결을 설정 합니다.
+1.  PIC 프로 비전 가이드에 설명 된 대로 온-프레미스 Lync-Skype 연결을 설정 합니다.
 
 2.  Microsoft에서 도메인을 프로 비전 한 것으로 확인 될 때까지 기다립니다.
 
-3.  확인이 나타나면 Lync 관리 센터를 사용 하 여 "외부 통신"을 설정 합니다. 자세한 내용은[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  확인이 나타나면 Lync 관리 센터를 사용 하 여 "외부 통신"을 설정 합니다. 자세한 내용은 [https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 이 순서는 중요 합니다.Lync Online에서 통신을 사용 하도록 설정 하기 전에 온-프레미스 연결을 설정 해야 합니다. 순서가 거꾸로 된 경우 온-프레미스에 입력 한 정보는 <https://pic.lync.com> 이동 하지 않습니다. 이 도메인과의 외부 통신에 대해 Lync Online을 이미 설정한 경우에는이 기능을 해제 하 고 24 시간 동안 기다린 후에 온-프레미스 정보를 입력 한 <https://pic.lync.com> 다음 Lync Online에 대 한 외부 통신을 설정 하 여 다시 시작 해야 합니다.
 
@@ -138,7 +140,7 @@ _**마지막으로 수정 된 항목:** 2019-03-22_
 
 **Q: Windows Live에서 지원 하지 않는 도메인을 포함 하는 ID가 있는 Windows Live Messenger 연락처를 추가 하는 방법은 무엇 인가요?**
 
-**A:** 계정이 나 ID가 Windows Live가 아닌 다른 도메인을 사용 하 여 Windows Live Messenger 사용자를 추가 하는 경우 주소를 \< 사용자 이름 \> ( \< 도메인 이름 \> ) @msn .com으로 입력 합니다 ( \< 도메인 이름은 \> 사용자의 전자 메일 주소에 있는 도메인 이름). 예를 들어 ted@contoso.com를 추가 하려면 ted (contoso) @msn .com을 사용 합니다. Windows Live를 통해 관리 되는 도메인 목록은 "Live Communications Server 서비스 팩 1을 설치한 후 공용 인스턴트 메시징에서 발생 하는 알려진 문제"의 지원 되는 도메인 섹션을 참조 https://support.microsoft.com/?kbid=897567 하세요.
+**A:** 계정이 나 ID가 Windows Live가 아닌 도메인을 사용 하 여 Windows Live Messenger 사용자를 추가 하는 경우 주소를 () @msn 형식으로 입력 합니다 \<user name\> ( \<domain name\> 여기서 \<domain name\> 은 사용자의 전자 메일 주소에 있는 도메인 이름). 예를 들어 ted@contoso.com를 추가 하려면 ted (contoso) @msn .com을 사용 합니다. Windows Live를 통해 관리 되는 도메인 목록은 "Live Communications Server 서비스 팩 1을 설치한 후 공용 인스턴트 메시징에서 발생 하는 알려진 문제"의 지원 되는 도메인 섹션을 참조 https://support.microsoft.com/?kbid=897567 하세요.
 
 **Q: 프로 비전 프로세스는 얼마 동안 소요 됩니까?**
 

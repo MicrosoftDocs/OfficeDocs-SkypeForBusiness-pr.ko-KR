@@ -12,20 +12,22 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4165df6829818b90a22eff4f90ac8072876b4831
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8065d1c09ab48b1b3a874fd11d7f8fcad298bfcb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207324"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500845"
 ---
+# <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Lync Server 2013의 lync Online에서 Lync 온-프레미스로 사용자 마이그레이션을 시작 하기 전에 첫 번째 단계
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Lync Server 2013의 lync Online에서 Lync 온-프레미스로 사용자 마이그레이션을 시작 하기 전에 첫 번째 단계
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Online 사용자를 온-프레미스 환경으로 이동 하기 전에 다�
 
   - Lync Online 테 넌 트가 원격 PowerShell 액세스를 사용 하도록 구성 되어 있어야 합니다.
     
-    이 작업을 수행 하려면 먼저 다음에 액세스할 수 있는 Windows PowerShell 용 Lync Online 모듈을 설치 [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911)합니다.
+    이 작업을 수행 하려면 먼저 다음에 액세스할 수 있는 Windows PowerShell 용 Lync Online 모듈을 설치 [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) 합니다.
     
     모듈을 설치한 후에는 Lync Server 관리 셸에서 다음 cmdlet을 입력 하 여 원격 세션을 설정할 수 있습니다.
     

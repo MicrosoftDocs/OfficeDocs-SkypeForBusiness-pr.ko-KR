@@ -12,20 +12,22 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dc6941f612fdf18f081cb52e55e2c7f7201e64b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: efeba476609ad293cd94e67f8dfdbe674b42f3f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184711"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500645"
 ---
+# <a name="monitoring-network-performance-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 성능 모니터링
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-network-performance-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 성능 모니터링
+
 
 </div>
 
@@ -41,9 +43,9 @@ Lync Server 2013는 IM (인스턴트 메시징), 음성 통화 또는 비디오 
 
 네트워크 성능은 다음 두 가지 수준으로 측정 될 수 있습니다.
 
-  - **전체 네트워크 성능**   이 수준의 성능 측정을 사용 하면 조직에서 네트워크에 대 한 "대규모 그림" 보기를 만들 수 있으며, 일반적으로 타사 네트워크 모니터링 시스템을 통해 구현 됩니다. 이러한 시스템은 라우터 등의 원격 네트워크 장치에서 성능 및 용량 데이터를 수신 하 고 네트워크 전체에서 전환 하 여 관리자가 언제 든 지 모든 지정 된 네트워크 구성 요소의 상태를 확인할 수 있도록 합니다.
+  - **전체 네트워크 성능**     이 수준의 성능 측정을 사용 하면 조직에서 네트워크에 대 한 "대규모 그림" 보기를 만들 수 있으며, 일반적으로 타사 네트워크 모니터링 시스템을 통해 구현 됩니다. 이러한 시스템은 라우터 등의 원격 네트워크 장치에서 성능 및 용량 데이터를 수신 하 고 네트워크 전체에서 전환 하 여 관리자가 언제 든 지 모든 지정 된 네트워크 구성 요소의 상태를 확인할 수 있도록 합니다.
 
-  - **개별 서버 성능**   이 수준의 성능 측정은 특정 서버로 제한 되며 관리자가 특정 서버의 네트워크 성능을 gauging 하는 데 도움을 주어 특정 성능 문제를 해결 하는 데 도움이 되거나 용량 계획 프로세스의 일부로 지정 된 기간 동안 각 서버의 성능을 측정 합니다.
+  - **개별 서버 성능**     이 수준의 성능 측정은 특정 서버로 제한 되며 관리자가 특정 서버의 네트워크 성능을 gauging 하는 데 도움을 주어 특정 성능 문제를 해결 하는 데 도움이 되거나 용량 계획 프로세스의 일부로 지정 된 기간 동안 각 서버의 성능을 측정 합니다.
 
 다음 섹션에서 설명 하는 도구를 사용 하 여 네트워크를 모니터링할 수 있습니다.
 
@@ -55,7 +57,7 @@ Lync Server 2013는 IM (인스턴트 메시징), 음성 통화 또는 비디오 
 
 ## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
 
-System Center Operations Manager는 IT 환경에서 향상 된 서비스 수준에 맞게 쉽게 사용자 지정 하 고 확장할 수 있는 종단 간 서비스 관리 기능을 제공 합니다. 이를 통해 Operations 및 IT 관리 팀이 분산 IT 서비스의 상태에 영향을 주는 문제를 식별 하 고 해결할 수 있습니다. 종단 간 서비스 관리는 Microsoft 기반 환경에 국한 되지 않습니다. 관리에 대 한 웹 서비스 지원 (WS-MANAGEMENT), SNMP (Simple Network Management Protocol) 및 파트너 솔루션은 System Center 내에서 서비스를 모니터링 하는 데 Microsoft 운영 체제 및 하드웨어를 포함 하지 않는 시스템을 사용할 수 있습니다. Operations Manager 2012.
+System Center Operations Manager는 IT 환경에서 향상 된 서비스 수준에 맞게 쉽게 사용자 지정 하 고 확장할 수 있는 종단 간 서비스 관리 기능을 제공 합니다. 이를 통해 Operations 및 IT 관리 팀이 분산 IT 서비스의 상태에 영향을 주는 문제를 식별 하 고 해결할 수 있습니다. 종단 간 서비스 관리는 Microsoft 기반 환경에 국한 되지 않습니다. 관리에 대 한 웹 서비스 (WS-MANAGEMENT), SNMP (Simple Network Management Protocol) 및 파트너 솔루션을 지원 하면 System Center Operations Manager 2012 내에서 서비스 모니터링에 Microsoft 운영 체제 및 하드웨어를 포함 하지 않는 시스템을 사용할 수 있습니다.
 
 </div>
 
@@ -63,13 +65,13 @@ System Center Operations Manager는 IT 환경에서 향상 된 서비스 수준�
 
 ## <a name="system-center-operations-manager-2012-and-third-party-network-management-solutions"></a>System Center Operations Manager 2012 및 타사 네트워크 관리 솔루션
 
-**Emc Smarts**   emc Solutions for Operations Manager를 통해 전체에서 서비스 수준에 영향을 주는 문제를 빠르게 해결할 수 있습니다. Operations Manager에 EMC 솔루션을 사용 하 여 통합 자동화 솔루션 하나로 전체 IT 서비스 체인을 관리 하 고 모니터링할 수 있습니다. 성능 및 가용성 문제의 근본적인 원인을 쉽게 파악 하 고이를 보다 신속 하 게 확인 하 여 영향과 비용을 줄일 수 있습니다. 주요 이점은 다음과 같습니다.
+**EMC Smarts**     EMC Operations Manager 솔루션을 통해 전체에서 서비스 수준에 영향을 주는 문제를 빠르게 해결할 수 있습니다. Operations Manager에 EMC 솔루션을 사용 하 여 통합 자동화 솔루션 하나로 전체 IT 서비스 체인을 관리 하 고 모니터링할 수 있습니다. 성능 및 가용성 문제의 근본적인 원인을 쉽게 파악 하 고이를 보다 신속 하 게 확인 하 여 영향과 비용을 줄일 수 있습니다. 주요 이점은 다음과 같습니다.
 
   - 고급, 사용 하기 쉬운 관리 혼란 스러운 알림을 수동 정렬 및 필터링 하는 대신 전략적 비즈니스 가치를 제공 하는 데 집중 됩니다.
 
-  - **보다 빠른 해결 방법**   으로 문제를 해결 하 고 비즈니스 요구에 대응 하는 데 보다 신속한 비용을 절감할 수 있습니다.
+  - **보다 빠른 해결 방법**     IT 관련 문제를 해결 하 고 업무 요구 사항에 대응 하 여 효과 및 비용을 절감 합니다.
 
-  - **효율적인 작업**   을 사용 하면 여러 관리 도구, 응용 프로그램 및 터미널을 결합 하 여 IT 복잡성을 방지할 수 있습니다.
+  - **간소화 된 운영**     여러 관리 도구, 응용 프로그램 및 터미널을 결합 하 여 IT 복잡성을 방지 합니다.
 
 자세한 내용은 다음을 참조 하십시오.
 
@@ -85,7 +87,7 @@ System Center Operations Manager는 IT 환경에서 향상 된 서비스 수준�
 
 Hp **네트워크 관리 센터 (이전 버전의 Hp OpenView)**   [Hp network 관리 센터](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) 는 네트워크 가용성 및 성능을 개선 하기 위해 통합 된 내결함성 및 성능 관리 기능을 제공 합니다. 네트워크 관리 센터는 내결함성, 성능, 구성 및 변경 관리를 통합 하는 HP 자동화 네트워크 관리 솔루션의 일부입니다.
 
-**Cisco 네트워크 관리 및 자동화 제품**   엔터프라이즈에서는 CiscoWorks LAN 관리 솔루션 및 cisco 네트워크 분석 모듈을 비롯 한 다양 한 관리 제품을 사용 하 여 운영 효율성을 높이고 네트워크 가동 중지 시간을 줄일 수 있습니다. 이러한 제품에 대 한 추가 데이터를 보려면에서 [https://www.cisco.com/en/US/products/sw/netmgtsw/index.html](https://www.cisco.com/en/us/products/sw/netmgtsw/index.html)Cisco 웹 사이트를 참조 하세요.
+**Cisco 네트워크 관리 및 자동화 제품**     기업의 경우 Cisco에는 운영 효율성을 개선 하 고 네트워크 가동 중지 시간을 줄이기 위해 CiscoWorks LAN 관리 솔루션 및 Cisco 네트워크 분석 모듈을 포함 하 여 여러 관리 제품을 사용할 수 있습니다. 이러한 제품에 대 한 추가 데이터를 보려면에서 Cisco 웹 사이트를 참조 [https://www.cisco.com/en/US/products/sw/netmgtsw/index.html](https://www.cisco.com/en/us/products/sw/netmgtsw/index.html) 하세요.
 
 SNMP (simple Network Management Protocol) SNMP (Simple network management Protocol)는 TCP/IP 네트워크를 관리 하기 위한 전략을 정의 하는 네트워크 관리 표준입니다. SNMP를 사용 하면 네트워크에 대 한 구성 및 상태 정보를 캡처하고, 해당 정보를 지정 된 컴퓨터로 보내 이벤트를 모니터링할 수 있습니다. 이 표준 기반 네트워크 관리 프로토콜은 다음을 포함 하는 분산 아키텍처를 사용 합니다.
 
@@ -117,7 +119,7 @@ SNMP (simple Network Management Protocol) SNMP (Simple network management Protoc
 
 ## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
 
-System Center Operations Manager 2012에서는 관리자가 Windows Server 2012 관리 팩을 통해 개별 서버의 네트워크 성능을 볼 수 있습니다. Windows Server 운영 체제 관리 팩에 "Performance" 관리 팩이 포함 되어 있습니다. 따라서 관리자가 네트워크 어댑터 성능 및 어댑터 상태를 모니터링할 수 있습니다.
+System Center Operations Manager 2012에서는 관리자가 Windows Server 2012 관리 팩을 통해 개별 서버의 네트워크 성능을 볼 수 있습니다. Windows Server 운영 체제 관리 팩에는 관리자가 네트워크 어댑터 성능 및 어댑터 상태를 모니터링 하는 데 사용할 수 있는 "Performance" 관리 팩이 포함 되어 있습니다.
 
 </div>
 

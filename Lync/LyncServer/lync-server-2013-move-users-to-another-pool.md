@@ -12,20 +12,22 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b103e2911812932026799bda154190aa6f46fc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4ecadb2a487dc17f18e1956b6ac075e25b0b035
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192641"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500555"
 ---
+# <a name="move-users-to-another-pool-in-lync-server-2013"></a>Lync Server 2013의 다른 풀로 사용자 이동
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-another-pool-in-lync-server-2013"></a>Lync Server 2013의 다른 풀로 사용자 이동
+
 
 </div>
 
@@ -159,7 +161,7 @@ Lync Server 제어판을 사용 하 여 특정 서버나 풀에 사용자를 할
     
     1.  로컬 컴퓨터에서 명령을 실행 하는 경우 (예: 프런트 엔드 서버에 직접 로그온 하는 경우), Lync Server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 위임 설정](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.
     
-    2.  다른 컴퓨터에서 원격으로 명령을 실행 하는 경우 (예를 들어, 컴퓨터에 로그온 하 고 Standard Edition 프런트 엔드 서버에서 원격으로 명령을 실행 하는 경우): CsUserAdministrator 역할 또는 CsAdministrator에 할당 된 사용자 계정에서 역할 내부 배포의 컴퓨터에 로그온 합니다.
+    2.  다른 컴퓨터에서 원격으로 명령을 실행 하는 경우 (예: CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 하는 경우)에는 해당 하는 경우를 예로 들 수 있습니다.
 
 2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 

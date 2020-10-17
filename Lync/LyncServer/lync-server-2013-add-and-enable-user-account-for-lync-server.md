@@ -12,20 +12,22 @@ ms:contentKeyID: 48183578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24fe3004f588f50edbcb9428d8bece7a4b20a28a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1277887e6ed866a832edce276f21195fb74f6e92
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499555"
 ---
+# <a name="add-and-enable-user-account-for-lync-server-2013"></a>Lync Server 2013에 대해 사용자 계정 추가 및 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-and-enable-user-account-for-lync-server-2013"></a>Lync Server 2013에 대해 사용자 계정 추가 및 사용
+
 
 </div>
 

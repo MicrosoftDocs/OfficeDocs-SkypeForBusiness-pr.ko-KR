@@ -12,20 +12,22 @@ ms:contentKeyID: 48184463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2de2b588d880600a4a7d8365f20423d3faf2653e
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: d53e3183d781f527373ffcfb8573da9fbb52d41f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756627"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500305"
 ---
+# <a name="move-conference-directories"></a>회의 디렉터리 이동
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-conference-directories"></a>회의 디렉터리 이동
+
 
 </div>
 
@@ -73,7 +75,7 @@ _**마지막으로 수정 된 항목:** 2012-10-04_
 
 </div>
 
-![이동-Get-csconferencedirectory 오류 출력](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "이동-Get-csconferencedirectory 오류 출력")
+![이동-Get-csconferencedirectory 오류 출력](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-CsConferenceDirectory 오류 출력")
 
 </div>
 

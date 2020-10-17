@@ -12,20 +12,22 @@ ms:contentKeyID: 48183340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10c742d8d58392b06bc563cd0a947d46243703d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7755acc815da690312d2f60c2348076b2231cc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192921"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501265"
 ---
+# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013의 DNS 요약-조정 된 디렉터 풀, 하드웨어 부하 분산 장치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013의 DNS 요약-조정 된 디렉터 풀, 하드웨어 부하 분산 장치
+
 
 </div>
 
@@ -60,7 +62,7 @@ _**마지막으로 수정 된 항목:** 2012-10-20_
 <tr class="odd">
 <td><p>내부 DNS/A</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>복제 및 서버 간 통신에 사용 되는 디렉터 호스트 레코드</p></td>
 </tr>
 <tr class="even">

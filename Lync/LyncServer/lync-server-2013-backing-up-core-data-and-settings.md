@@ -12,20 +12,22 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 403a32798f84d2be6d045564e3a3e3803240f4a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e871b0bcd29d3a29a2a3a038529a530bc75e2a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205864"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499385"
 ---
+# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Lync Server 2013에서 핵심 데이터 및 설정 백업
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Lync Server 2013에서 핵심 데이터 및 설정 백업
+
 
 </div>
 
@@ -78,7 +80,7 @@ _**마지막으로 수정 된 항목:** 2014-04-23_
     
     </div>
 
-5.  백업 된 중앙 관리 저장소 구성 파일을 $Backup\\에 복사 합니다.
+5.  백업 된 중앙 관리 저장소 구성 파일을 $Backup에 복사 합니다 \\ .
 
 6.  위치 정보 서비스 데이터를 백업 합니다. 명령줄에 다음을 입력합니다.
     
@@ -88,7 +90,7 @@ _**마지막으로 수정 된 항목:** 2014-04-23_
     
         Export-CsLisConfiguration -FileName "C:\E911Config.zip"
 
-7.  백업 된 위치 정보 서비스 구성 파일을 $Backup\\에 복사 합니다.
+7.  백업 된 위치 정보 서비스 구성 파일을 $Backup에 복사 합니다 \\ .
 
 8.  프런트 엔드 풀의 모든 백 엔드 데이터베이스와 모든 Standard Edition 서버에 대 한 사용자 데이터를 백업 합니다. 명령줄에 다음을 입력합니다.
     
@@ -98,7 +100,7 @@ _**마지막으로 수정 된 항목:** 2014-04-23_
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
-9.  백업한 사용자 파일을 $Backup\\에 복사 합니다.
+9.  백업한 사용자 파일을 $Backup에 복사 합니다 \\ .
 
 10. 응답 그룹 응용 프로그램을 실행 하는 모든 풀에서 응답 그룹 구성을 백업 합니다. 다음을 수행합니다.
     
@@ -110,7 +112,7 @@ _**마지막으로 수정 된 항목:** 2014-04-23_
         
             Export-CsRgsConfiguration -Source ApplicationServer:pool01.contoso.com -FileName C:\RgsConfiguration.zip
 
-11. 백업한 응답 그룹 구성 파일을 $Backup\\에 복사 합니다.
+11. 백업한 응답 그룹 구성 파일을 $Backup에 복사 합니다 \\ .
 
 </div>
 

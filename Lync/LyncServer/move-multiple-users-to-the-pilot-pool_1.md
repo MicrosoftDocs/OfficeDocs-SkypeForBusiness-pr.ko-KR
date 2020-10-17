@@ -12,20 +12,22 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41c663566605529b25d9890bb31cba462364c813
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ffd0fbebffea5553cc461f71cf67843dae0a8ae6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756467"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500225"
 ---
+# <a name="move-multiple-users-to-the-pilot-pool"></a>여러 사용자를 파일럿 풀로 이동
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-multiple-users-to-the-pilot-pool"></a>여러 사용자를 파일럿 풀로 이동
+
 
 </div>
 
@@ -87,7 +89,7 @@ Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 
 
 4.  이제 **등록자 풀** id가 이전 단계에서 **풀 \_ FQDN** 으로 지정한 풀을 가리켜야 합니다. ID는 이제 사용자가 이전 단계에서 pool_FQDN으로 지정한 풀을 가리킵니다.이 ID가 있으면 사용자가 성공적으로 이동된 것입니다. 이 단계를 반복하여 **User2**가 이동되었는지 확인합니다.
     
-    ![PowerShell Get-UsUser-Identity cmdlet의 출력](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser-Identity cmdlet의 출력")  
+    ![PowerShell Get-UsUser의 출력-Identity cmdlet](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser의 출력-Identity cmdlet")  
 
 </div>
 

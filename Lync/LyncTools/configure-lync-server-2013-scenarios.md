@@ -12,20 +12,22 @@ ms:contentKeyID: 51541420
 ms.date: 12/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f05039aab6d09fe498ffce465554d6bbbbbebaa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d108cc3a2c49c40eb04c9039c83689fb8c5abf4c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499945"
 ---
+# <a name="configure-lync-server-2013-scenarios"></a>Lync Server 2013 시나리오 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-lync-server-2013-scenarios"></a>Lync Server 2013 시나리오 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188771"
 
 _**마지막으로 수정 된 항목:** 2016-12-28_
 
-Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool)를 실행 하려면 실행할 시나리오에 대해 Lync Server 2013 토폴로지를 먼저 구성 해야 합니다. Lync Server 2013이 구성 되지 않았거나 잘못 구성 된 경우 대부분의 경우 부하 시뮬레이션이 실패 합니다. Lync Server 2013 스트레스 및 성능 도구를 사용 하 여 lync server 2013 구성에 대 한 시작 점으로 사용할 수 있는 기본 리소스 파일 및 lync server 관리 셸 스크립트 예제를 제공 합니다. 이 항목에서는 제공 되는 Windows PowerShell 예제에 대해 설명 합니다. Lync Server 2013을 일반적인 방식으로 구성 하는 방법을 설명 하는이 항목의 목표는 아닙니다. Lync Server 2013에서 Windows PowerShell을 사용 하는 방법에 대 한 자세한 내용은의 Lync Server Management <https://technet.microsoft.com/library/gg398474.aspx>Shell 설명서를 참조 하십시오.
+Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool)를 실행 하려면 실행할 시나리오에 대해 Lync Server 2013 토폴로지를 먼저 구성 해야 합니다. Lync Server 2013이 구성 되지 않았거나 잘못 구성 된 경우 대부분의 경우 부하 시뮬레이션이 실패 합니다. Lync Server 2013 스트레스 및 성능 도구를 사용 하 여 lync server 2013 구성에 대 한 시작 점으로 사용할 수 있는 기본 리소스 파일 및 lync server 관리 셸 스크립트 예제를 제공 합니다. 이 항목에서는 제공 되는 Windows PowerShell 예제에 대해 설명 합니다. Lync Server 2013을 일반적인 방식으로 구성 하는 방법을 설명 하는이 항목의 목표는 아닙니다. Lync Server 2013에서 Windows PowerShell을 사용 하는 방법에 대 한 자세한 내용은의 Lync Server Management Shell 설명서를 참조 하십시오 <https://technet.microsoft.com/library/gg398474.aspx> .
 
 <div>
 
@@ -59,7 +61,7 @@ Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool)를 실행 하려�
 
 
 > [!NOTE]  
-> Windows PowerShell 및 Lync Server 관리 셸을 사용 하는 방법에 대 한 자세한 내용은 Lync Server 2013 Windows PowerShell Blog <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A>를 참조 하십시오.
+> Windows PowerShell 및 Lync Server 관리 셸을 사용 하는 방법에 대 한 자세한 내용은 Lync Server 2013 Windows PowerShell Blog를 참조 하십시오 <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A> .
 
 
 
@@ -71,7 +73,7 @@ Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool)를 실행 하려�
 
 ## <a name="stress-and-performance-tool-client-version-monikers"></a>스트레스 및 성능 도구 클라이언트 버전 모니커
 
-설정을 기본값에서 변경한 경우에는 클라이언트 버전 검사 정책을 구성 해야 할 수 있습니다. 자세한 내용은에서 <https://technet.microsoft.com/library/gg412832(v=ocs.15).aspx>"지원 되는 클라이언트 버전 구성"을 참조 하십시오. Lync server 2013을 사용 하 여 통신할 때 Lync 서버 2013 스트레스 및 성능 도구는 기본적으로 다음 사용자 에이전트 버전을 사용 합니다.
+설정을 기본값에서 변경한 경우에는 클라이언트 버전 검사 정책을 구성 해야 할 수 있습니다. 자세한 내용은에서 "지원 되는 클라이언트 버전 구성"을 참조 하십시오 <https://technet.microsoft.com/library/gg412832(v=ocs.15).aspx> . Lync server 2013을 사용 하 여 통신할 때 Lync 서버 2013 스트레스 및 성능 도구는 기본적으로 다음 사용자 에이전트 버전을 사용 합니다.
 
   - LSPT/15.0.0.0입니다 (Lync Server 2013 스트레스 및 성능 도구)
 
