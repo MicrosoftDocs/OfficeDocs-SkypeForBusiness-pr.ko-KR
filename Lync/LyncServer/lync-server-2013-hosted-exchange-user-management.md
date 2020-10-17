@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 호스팅된 Exchange 사용자 관리'
+description: 'Lync Server 2013: 호스팅된 Exchange 사용자 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4a54c4a7a3833fdd31999d7613659f9a35f9732
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9ceda9352fc627fc7b762b5995d788ffafa159ae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504205"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550114"
 ---
 # <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Lync Server 2013의 호스팅된 Exchange 사용자 관리
 
