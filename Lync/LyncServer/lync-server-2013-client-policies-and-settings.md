@@ -12,20 +12,22 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82ce84f2b3f5f27e25aceccbf7452f7707b8eb52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34e67a16b6f4d76d36684f8e80919271853150cc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502655"
 ---
+# <a name="client-policies-and-settings-in-lync-server-2013"></a><span data-ttu-id="e2362-102">Lync Server 2013의 클라이언트 정책 및 설정</span><span class="sxs-lookup"><span data-stu-id="e2362-102">Client policies and settings in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-policies-and-settings-in-lync-server-2013"></a><span data-ttu-id="14cc5-102">Lync Server 2013의 클라이언트 정책 및 설정</span><span class="sxs-lookup"><span data-stu-id="14cc5-102">Client policies and settings in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42199731"
 
 <span> </span>
 
-<span data-ttu-id="14cc5-103">_**마지막으로 수정 된 항목:** 2012-06-18_</span><span class="sxs-lookup"><span data-stu-id="14cc5-103">_**Topic Last Modified:** 2012-06-18_</span></span>
+<span data-ttu-id="e2362-103">_**마지막으로 수정 된 항목:** 2012-06-18_</span><span class="sxs-lookup"><span data-stu-id="e2362-103">_**Topic Last Modified:** 2012-06-18_</span></span>
 
-<span data-ttu-id="14cc5-104">이 항목에서는 Lync Server 2013에서 구성할 수 있는 클라이언트 관련 설정 및 정책에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="14cc5-104">This topic provides an overview of the client-related settings and policies that you can configure in Lync Server 2013.</span></span> <span data-ttu-id="14cc5-105">Lync Server 2013에는 클라이언트 관리 및 구성에 대 한 다음과 같은 도구가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="14cc5-105">Lync Server 2013 includes the following tools for managing and configuring clients:</span></span>
+<span data-ttu-id="e2362-104">이 항목에서는 Lync Server 2013에서 구성할 수 있는 클라이언트 관련 설정 및 정책에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="e2362-104">This topic provides an overview of the client-related settings and policies that you can configure in Lync Server 2013.</span></span> <span data-ttu-id="e2362-105">Lync Server 2013에는 클라이언트 관리 및 구성에 대 한 다음과 같은 도구가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e2362-105">Lync Server 2013 includes the following tools for managing and configuring clients:</span></span>
 
-  - <span data-ttu-id="14cc5-106">**Lync Server 2013 제어판 컨트롤 패널**   서버, 사용자, 클라이언트 및 장치를 관리 및 구성 하기 위한 웹 기반 그래픽 사용자 인터페이스입니다.</span><span class="sxs-lookup"><span data-stu-id="14cc5-106">**Lync Server 2013 Control Panel**   A web-based graphical user interface for managing and configuring servers, users, clients, and devices.</span></span>
+  - <span data-ttu-id="e2362-106">**Lync Server 2013 제어판**     서버, 사용자, 클라이언트 및 장치를 관리 및 구성 하기 위한 웹 기반 그래픽 사용자 인터페이스입니다.</span><span class="sxs-lookup"><span data-stu-id="e2362-106">**Lync Server 2013 Control Panel**   A web-based graphical user interface for managing and configuring servers, users, clients, and devices.</span></span>
 
-  - <span data-ttu-id="14cc5-107">**Lync Server 관리 셸**   다양 한 Windows PowerShell 명령줄 인터페이스 cmdlet 및 미리 정의 된 여러 스크립트를 포함 하는 관리 인터페이스입니다.</span><span class="sxs-lookup"><span data-stu-id="14cc5-107">**Lync Server Management Shell**   A management interface with a rich set of Windows PowerShell command-line interface cmdlets and a number of pre-defined scripts.</span></span>
+  - <span data-ttu-id="e2362-107">**Lync Server 관리 셸**     다양 한 Windows PowerShell 명령줄 인터페이스 cmdlet 및 미리 정의 된 스크립트를 포함 하는 관리 인터페이스입니다.</span><span class="sxs-lookup"><span data-stu-id="e2362-107">**Lync Server Management Shell**   A management interface with a rich set of Windows PowerShell command-line interface cmdlets and a number of pre-defined scripts.</span></span>
 
-  - <span data-ttu-id="14cc5-108">**Lync 2013 그룹 정책**     Office 그룹 정책 관리 템플릿을 사용 하 여 클라이언트에 대해 구성할 수 있는 정책 집합입니다.</span><span class="sxs-lookup"><span data-stu-id="14cc5-108">**Lync 2013 Group Policy**    A set of policies that you can configure for clients by using the Office Group Policy Administrative Template.</span></span> <span data-ttu-id="14cc5-109">Lync 2013 클라이언트를 배포 하기 전에 특정 클라이언트 부트스트랩 정책을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="14cc5-109">Certain client bootstrapping policies must be configured before you deploy Lync 2013 clients.</span></span> <span data-ttu-id="14cc5-110">Lync 2010의 기타 선택적 설정은 Lync 2013에서 계속 허용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="14cc5-110">Other optional settings from Lync 2010 continue to be honored in Lync 2013.</span></span>
+  - <span data-ttu-id="e2362-108">**Lync 2013 그룹 정책**     Office 그룹 정책 관리 템플릿을 사용 하 여 클라이언트에 대해 구성할 수 있는 정책 집합입니다.</span><span class="sxs-lookup"><span data-stu-id="e2362-108">**Lync 2013 Group Policy**    A set of policies that you can configure for clients by using the Office Group Policy Administrative Template.</span></span> <span data-ttu-id="e2362-109">Lync 2013 클라이언트를 배포 하기 전에 특정 클라이언트 부트스트랩 정책을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e2362-109">Certain client bootstrapping policies must be configured before you deploy Lync 2013 clients.</span></span> <span data-ttu-id="e2362-110">Lync 2010의 기타 선택적 설정은 Lync 2013에서 계속 허용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e2362-110">Other optional settings from Lync 2010 continue to be honored in Lync 2013.</span></span>
 
-<span data-ttu-id="14cc5-111">이 섹션에서는 Lync Server 2013의 클라이언트 관련 설정 변경 사항에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="14cc5-111">This section describes changes to client-related settings in Lync Server 2013.</span></span>
+<span data-ttu-id="e2362-111">이 섹션에서는 Lync Server 2013의 클라이언트 관련 설정 변경 사항에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="e2362-111">This section describes changes to client-related settings in Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="14cc5-112">이 섹션의</span><span class="sxs-lookup"><span data-stu-id="14cc5-112">In this Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e2362-112">이 섹션의</span><span class="sxs-lookup"><span data-stu-id="e2362-112">In this Section</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="14cc5-113">Lync 2013의 새로 만들기 및 변경 된 설정</span><span class="sxs-lookup"><span data-stu-id="14cc5-113">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
+    [<span data-ttu-id="e2362-113">Lync 2013의 새로 만들기 및 변경 된 설정</span><span class="sxs-lookup"><span data-stu-id="e2362-113">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
 
   - <span></span>  
-    [<span data-ttu-id="14cc5-114">Lync 2013에 대 한 그룹 정책 설정</span><span class="sxs-lookup"><span data-stu-id="14cc5-114">Group Policy settings for Lync 2013</span></span>](lync-server-2013-group-policy-settings-for-lync-2013.md)
+    [<span data-ttu-id="e2362-114">Lync 2013에 대 한 그룹 정책 설정</span><span class="sxs-lookup"><span data-stu-id="e2362-114">Group Policy settings for Lync 2013</span></span>](lync-server-2013-group-policy-settings-for-lync-2013.md)
 
 </div>
 

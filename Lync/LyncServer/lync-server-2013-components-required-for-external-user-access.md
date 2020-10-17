@@ -12,20 +12,22 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05c4b2845f4146c6394712951089750299ce60b7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7a97635c66d66703fc2e9879024004a95c2c09eb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221822"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502455"
 ---
+# <a name="components-required-for-external-user-access-in-lync-server-2013"></a><span data-ttu-id="7f735-102">Lync Server 2013의 외부 사용자 액세스에 필요한 구성 요소</span><span class="sxs-lookup"><span data-stu-id="7f735-102">Components required for external user access in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-required-for-external-user-access-in-lync-server-2013"></a><span data-ttu-id="e5143-102">Lync Server 2013의 외부 사용자 액세스에 필요한 구성 요소</span><span class="sxs-lookup"><span data-stu-id="e5143-102">Components required for external user access in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,86 +37,50 @@ ms.locfileid: "44221822"
 
 <span> </span>
 
-<span data-ttu-id="e5143-103">_**마지막으로 수정 된 항목:** 2014-05-29_</span><span class="sxs-lookup"><span data-stu-id="e5143-103">_**Topic Last Modified:** 2014-05-29_</span></span>
+<span data-ttu-id="7f735-103">_**마지막으로 수정 된 항목:** 2014-05-29_</span><span class="sxs-lookup"><span data-stu-id="7f735-103">_**Topic Last Modified:** 2014-05-29_</span></span>
 
-<span data-ttu-id="e5143-104">대부분의 Edge 구성 요소는 경계 네트워크에 배포 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-104">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="e5143-105">경계 네트워크의 에지 토폴로지를 구성하는 구성 요소는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-105">The following components make up the edge topology of the perimeter network.</span></span> <span data-ttu-id="e5143-106">명시 된 경우를 제외 하 고, 구성 요소는 [Lync Server 2013의 외부 사용자 액세스에 대 한 시나리오](lync-server-2013-scenarios-for-external-user-access.md) 에 포함 되어 경계 네트워크에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-106">Except where noted, the components are part of the [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) and are in the perimeter network.</span></span> <span data-ttu-id="e5143-107">에지 구성 요소는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-107">Edge components include the following:</span></span>
+<span data-ttu-id="7f735-104">대부분의 Edge 구성 요소는 경계 네트워크에 배포 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-104">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="7f735-105">경계 네트워크의 에지 토폴로지를 구성하는 구성 요소는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-105">The following components make up the edge topology of the perimeter network.</span></span> <span data-ttu-id="7f735-106">명시 된 경우를 제외 하 고, 구성 요소는 [Lync Server 2013의 외부 사용자 액세스에 대 한 시나리오](lync-server-2013-scenarios-for-external-user-access.md) 에 포함 되어 경계 네트워크에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-106">Except where noted, the components are part of the [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) and are in the perimeter network.</span></span> <span data-ttu-id="7f735-107">에지 구성 요소는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-107">Edge components include the following:</span></span>
 
-  - <span data-ttu-id="e5143-108">에지 서버</span><span class="sxs-lookup"><span data-stu-id="e5143-108">Edge Servers</span></span>
+  - <span data-ttu-id="7f735-108">에지 서버</span><span class="sxs-lookup"><span data-stu-id="7f735-108">Edge Servers</span></span>
 
-  - <span data-ttu-id="e5143-109">역방향 프록시</span><span class="sxs-lookup"><span data-stu-id="e5143-109">Reverse proxies</span></span>
+  - <span data-ttu-id="7f735-109">역방향 프록시</span><span class="sxs-lookup"><span data-stu-id="7f735-109">Reverse proxies</span></span>
 
-  - <span data-ttu-id="e5143-110">방화벽</span><span class="sxs-lookup"><span data-stu-id="e5143-110">Firewalls</span></span>
+  - <span data-ttu-id="7f735-110">방화벽</span><span class="sxs-lookup"><span data-stu-id="7f735-110">Firewalls</span></span>
 
-  - <span data-ttu-id="e5143-111">디렉터 (선택 사항 및 논리적으로 내부 네트워크에 위치)</span><span class="sxs-lookup"><span data-stu-id="e5143-111">Directors (optional, and logically located on the internal network)</span></span>
+  - <span data-ttu-id="7f735-111">디렉터 (선택 사항 및 논리적으로 내부 네트워크에 위치)</span><span class="sxs-lookup"><span data-stu-id="7f735-111">Directors (optional, and logically located on the internal network)</span></span>
 
-  - <span data-ttu-id="e5143-112">확장된 에지 토폴로지에 대한 부하 분산(DNS 부하 분산 또는 하드웨어 부하 분산 장치)</span><span class="sxs-lookup"><span data-stu-id="e5143-112">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
+  - <span data-ttu-id="7f735-112">확장된 에지 토폴로지에 대한 부하 분산(DNS 부하 분산 또는 하드웨어 부하 분산 장치)</span><span class="sxs-lookup"><span data-stu-id="7f735-112">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="e5143-p102">DNS 부하 분산과 하드웨어 부하 분산을 서로 다른 인터페이스에서 사용할 수 없습니다. 두 인터페이스에서 모두 하드웨어 부하 분산 또는 DNS 부하 분산을 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-p102">Using DNS load balancing on one interface and hardware load balancing on the other is not supported. You must use hardware load balancing for both interfaces or DNS load balancing for both.</span></span>
+    > <span data-ttu-id="7f735-p102">DNS 부하 분산과 하드웨어 부하 분산을 서로 다른 인터페이스에서 사용할 수 없습니다. 두 인터페이스에서 모두 하드웨어 부하 분산 또는 DNS 부하 분산을 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-p102">Using DNS load balancing on one interface and hardware load balancing on the other is not supported. You must use hardware load balancing for both interfaces or DNS load balancing for both.</span></span>
 
     
     </div>
 
 <div>
 
-## <a name="edge-servers"></a><span data-ttu-id="e5143-115">에지 서버</span><span class="sxs-lookup"><span data-stu-id="e5143-115">Edge Servers</span></span>
+## <a name="edge-servers"></a><span data-ttu-id="7f735-115">에지 서버</span><span class="sxs-lookup"><span data-stu-id="7f735-115">Edge Servers</span></span>
 
-<span data-ttu-id="e5143-116">에 지 서버는 외부 사용자가 내부 배포에서 제공 하는 서비스에 대 한 네트워크 트래픽을 주고 받습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-116">The Edge Servers send and receive network traffic for the services offered by internal deployment by external users.</span></span> <span data-ttu-id="e5143-117">에지 서버에서 실행되는 서비스는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-117">The Edge Server runs the following services:</span></span>
+<span data-ttu-id="7f735-116">에 지 서버는 외부 사용자가 내부 배포에서 제공 하는 서비스에 대 한 네트워크 트래픽을 주고 받습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-116">The Edge Servers send and receive network traffic for the services offered by internal deployment by external users.</span></span> <span data-ttu-id="7f735-117">에지 서버에서 실행되는 서비스는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-117">The Edge Server runs the following services:</span></span>
 
-  - <span data-ttu-id="e5143-118">**액세스에 지 서비스**     액세스에 지 서비스는 아웃 바운드 및 인바운드 SIP (Session 착수 프로토콜) 트래픽에 대해 신뢰할 수 있는 단일 연결 지점을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-118">**Access Edge service**   The Access Edge service provides a single, trusted connection point for both outbound and inbound Session Initiation Protocol (SIP) traffic.</span></span>
+  - <span data-ttu-id="7f735-118">**액세스에 지 서비스**     액세스에 지 서비스는 아웃 바운드 및 인바운드 SIP (Session 착수 프로토콜) 트래픽에 대해 신뢰할 수 있는 단일 연결 지점을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-118">**Access Edge service**   The Access Edge service provides a single, trusted connection point for both outbound and inbound Session Initiation Protocol (SIP) traffic.</span></span>
 
-  - <span data-ttu-id="e5143-119">**웹 회의에 지 서비스**     웹 회의에 지 서비스는 외부 사용자가 내부 Lync Server 2013 배포에서 호스팅되는 모임에 참가할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-119">**Web Conferencing Edge service**   The Web Conferencing Edge service enables external users to join meetings that are hosted on your internal Lync Server 2013 deployment.</span></span>
+  - <span data-ttu-id="7f735-119">**웹 회의에 지 서비스**     웹 회의에 지 서비스는 외부 사용자가 내부 Lync Server 2013 배포에서 호스팅되는 모임에 참가할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-119">**Web Conferencing Edge service**   The Web Conferencing Edge service enables external users to join meetings that are hosted on your internal Lync Server 2013 deployment.</span></span>
 
-  - <span data-ttu-id="e5143-120">**A/V에 지 서비스**     A/V에 지 서비스는 외부 사용자가 오디오, 비디오, 응용 프로그램 공유 및 파일 전송을 사용할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-120">**A/V Edge service**   The A/V Edge service makes audio, video, application sharing, and file transfer available to external users.</span></span> <span data-ttu-id="e5143-121">사용자는 외부 참가자가 포함 된 모임에 오디오 및 비디오를 추가할 수 있으며, 지점간 세션에서 외부 사용자와 직접 오디오 및/또는 비디오를 사용 하 여 통신할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-121">Your users can add audio and video to meetings that include external participants, and they can communicate using audio and/or video directly with an external user in point-to-point sessions.</span></span> <span data-ttu-id="e5143-122">A/V 에지 서비스는 데스크톱 공유 및 파일 전송도 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-122">The A/V Edge service also provides support for desktop sharing and file transfer.</span></span>
+  - <span data-ttu-id="7f735-120">**A/V에 지 서비스**     A/V에 지 서비스는 외부 사용자가 오디오, 비디오, 응용 프로그램 공유 및 파일 전송을 사용할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-120">**A/V Edge service**   The A/V Edge service makes audio, video, application sharing, and file transfer available to external users.</span></span> <span data-ttu-id="7f735-121">사용자는 외부 참가자가 포함 된 모임에 오디오 및 비디오를 추가할 수 있으며, 지점간 세션에서 외부 사용자와 직접 오디오 및/또는 비디오를 사용 하 여 통신할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-121">Your users can add audio and video to meetings that include external participants, and they can communicate using audio and/or video directly with an external user in point-to-point sessions.</span></span> <span data-ttu-id="7f735-122">A/V 에지 서비스는 데스크톱 공유 및 파일 전송도 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-122">The A/V Edge service also provides support for desktop sharing and file transfer.</span></span>
 
-  - <span data-ttu-id="e5143-123">**Xmpp 프록시 서비스**     XMPP 프록시 서비스는 구성 된 XMPP 페더레이션 파트너와의 XMPP (extensible messaging and 현재 상태 프로토콜) 메시지를 수락 하 고 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-123">**XMPP Proxy service**   The XMPP Proxy service accepts and sends extensible messaging and presence protocol (XMPP) messages to and from configured XMPP Federated partners.</span></span>
+  - <span data-ttu-id="7f735-123">**Xmpp 프록시 서비스**     XMPP 프록시 서비스는 구성 된 XMPP 페더레이션 파트너와의 XMPP (extensible messaging and 현재 상태 프로토콜) 메시지를 수락 하 고 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-123">**XMPP Proxy service**   The XMPP Proxy service accepts and sends extensible messaging and presence protocol (XMPP) messages to and from configured XMPP Federated partners.</span></span>
 
-<span data-ttu-id="e5143-124">권한 있는 외부 사용자가 내부 Lync Server 2013 배포에 연결 하기 위해에 지 서버에 액세스할 수 있지만,에 지 서버는 내부 네트워크에 대 한 다른 액세스 방법을 제공 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-124">Authorized external users can access the Edge Servers in order to connect to your internal Lync Server 2013 deployment, but the Edge Servers do not provide a means for any other access to the internal network.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="e5143-125">에 지 서버는 페더레이션 시나리오와 같이 사용 하도록 설정 된 Lync 클라이언트 및 기타 Microsoft Edge 서버에 대 한 연결을 제공 하기 위해 배포 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-125">Edge servers are deployed to provide connections for enabled Lync clients and other Microsoft Edge servers (as in federation scenarios).</span></span> <span data-ttu-id="e5143-126">이러한 에지 서버는 다른 끝점 클라이언트 또는 서버 유형으로부터의 연결을 허용하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-126">They are not designed to allow connections from other end point client or server types.</span></span> <span data-ttu-id="e5143-127">구성된 XMPP 파트너와의 연결을 허용하기 위해 XMPP 게이트웨이 서버를 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-127">The XMPP Gateway server can be deployed to allow connections with configured XMPP partners.</span></span> <span data-ttu-id="e5143-128">에지 서버 및 XMPP 게이트웨이는 이러한 클라이언트 및 페더레이션으로부터의 끝점 연결만 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-128">The Edge server and XMPP Gateway can only support end point connections from these client and federation types.</span></span>
-
-
-
-</div>
-
-</div>
-
-<div>
-
-## <a name="reverse-proxy"></a><span data-ttu-id="e5143-129">역방향 프록시</span><span class="sxs-lookup"><span data-stu-id="e5143-129">Reverse Proxy</span></span>
-
-<span data-ttu-id="e5143-130">역방향 프록시는 다음과 같은 경우에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-130">The reverse proxy is required for the following:</span></span>
-
-  - <span data-ttu-id="e5143-131">사용자가 단순 URL을 사용하여 모임 또는 전화 접속 전화 회의에 연결하도록 허용하려는 경우</span><span class="sxs-lookup"><span data-stu-id="e5143-131">To allow users to connect to meetings or dial-in conferences using simple URLs</span></span>
-
-  - <span data-ttu-id="e5143-132">외부 사용자가 모임 콘텐츠를 다운로드할 수 있도록 하기 위해</span><span class="sxs-lookup"><span data-stu-id="e5143-132">To enable external users to download meeting content</span></span>
-
-  - <span data-ttu-id="e5143-133">외부 사용자가 메일 그룹을 확장할 수 있도록 하기 위해</span><span class="sxs-lookup"><span data-stu-id="e5143-133">To enable external users to expand distribution groups</span></span>
-
-  - <span data-ttu-id="e5143-134">사용자가 클라이언트 인증서 기반 인증용 사용자 기반 인증서를 가져오도록 허용하기 위해</span><span class="sxs-lookup"><span data-stu-id="e5143-134">To allow the user to obtain a user-based certificate for client certificate based authentication</span></span>
-
-  - <span data-ttu-id="e5143-135">원격 사용자가 주소록 서버에서 파일을 다운로드하거나 주소록 웹 쿼리 서비스에 쿼리를 제출할 수 있도록 하기 위해</span><span class="sxs-lookup"><span data-stu-id="e5143-135">To enable remote users to download files from the Address Book Server or to submit queries to the Address Book Web Query service</span></span>
-
-  - <span data-ttu-id="e5143-136">원격 사용자가 클라이언트 및 장치 소프트웨어에 대한 업데이트를 가져올 수 있도록 하기 위해</span><span class="sxs-lookup"><span data-stu-id="e5143-136">To enable remote users to obtain updates to client and device software</span></span>
-
-  - <span data-ttu-id="e5143-137">모바일 장치에서 Mobility Service를 제공하는 프런트 엔드 서버를 자동으로 검색할 수 있도록 하기 위해</span><span class="sxs-lookup"><span data-stu-id="e5143-137">To enable mobile devices to automatically discover Front End Servers offering mobility services</span></span>
-
-  - <span data-ttu-id="e5143-138">Microsoft 365, Office 365 또는 Apple 푸시 알림 서비스에서 모바일 장치로 푸시 알림을 사용 하도록 설정 하려면</span><span class="sxs-lookup"><span data-stu-id="e5143-138">To enable push notifications to mobile devices from the Microsoft 365, Office 365, or Apple push notification services</span></span>
-
-<span data-ttu-id="e5143-139">역방향 프록시에 대 한 자세한 내용과 역방향 프록시가 충족 해야 하는 요구 사항에 대 한 자세한 내용은 [Lync Server 2013의 역방향 프록시에 대 한 구성 요구 사항](lync-server-2013-configuration-requirements-for-reverse-proxy.md)정보를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e5143-139">For additional information related to reverse proxies and the requirements that reverse proxies must meet, see the details in [Configuration requirements for reverse proxy in Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).</span></span>
+<span data-ttu-id="7f735-124">권한 있는 외부 사용자가 내부 Lync Server 2013 배포에 연결 하기 위해에 지 서버에 액세스할 수 있지만,에 지 서버는 내부 네트워크에 대 한 다른 액세스 방법을 제공 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-124">Authorized external users can access the Edge Servers in order to connect to your internal Lync Server 2013 deployment, but the Edge Servers do not provide a means for any other access to the internal network.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e5143-140">외부 사용자는 Lync Server 2013을 사용 하 여 통신에 참여 하기 위해 조직에 대 한 VPN (가상 사설망) 연결이 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-140">External users do not need a virtual private network (VPN) connection to your organization in order to participate in communications using Lync Server 2013.</span></span> <span data-ttu-id="e5143-141">조직에 VPN 기술이 구현 되어 있고 사용자가 Lync 용 VPN을 사용 하는 경우 미디어 트래픽 (예: 비디오 회의)에 악영향을 줄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-141">If you have implemented VPN technology in your organization and your users use the VPN for Lync, media traffic (such as video conferencing) can be adversely affected.</span></span> <span data-ttu-id="e5143-142">미디어 트래픽이 AV에 지 서비스에 직접 연결 하 고 VPN을 사용 하지 않도록 하는 방법을 제공 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-142">You should consider providing a means for media traffic to connect to the AV Edge service directly and bypass the VPN.</span></span> <span data-ttu-id="e5143-143">자세한 내용은 다음 홉 블로그 문서, "Lync Media에서 VPN 터널 바이패스를 사용 하도록 설정"을 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A> .</span><span class="sxs-lookup"><span data-stu-id="e5143-143">For details, see the NextHop Blog article, “Enabling Lync Media to Bypass a VPN Tunnel,” at <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>.</span></span>
+> <span data-ttu-id="7f735-125">에 지 서버는 페더레이션 시나리오와 같이 사용 하도록 설정 된 Lync 클라이언트 및 기타 Microsoft Edge 서버에 대 한 연결을 제공 하기 위해 배포 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-125">Edge servers are deployed to provide connections for enabled Lync clients and other Microsoft Edge servers (as in federation scenarios).</span></span> <span data-ttu-id="7f735-126">이러한 에지 서버는 다른 끝점 클라이언트 또는 서버 유형으로부터의 연결을 허용하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-126">They are not designed to allow connections from other end point client or server types.</span></span> <span data-ttu-id="7f735-127">구성된 XMPP 파트너와의 연결을 허용하기 위해 XMPP 게이트웨이 서버를 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-127">The XMPP Gateway server can be deployed to allow connections with configured XMPP partners.</span></span> <span data-ttu-id="7f735-128">에지 서버 및 XMPP 게이트웨이는 이러한 클라이언트 및 페더레이션으로부터의 끝점 연결만 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-128">The Edge server and XMPP Gateway can only support end point connections from these client and federation types.</span></span>
 
 
 
@@ -124,28 +90,64 @@ ms.locfileid: "44221822"
 
 <div>
 
-## <a name="firewall"></a><span data-ttu-id="e5143-144">방화벽이</span><span class="sxs-lookup"><span data-stu-id="e5143-144">Firewall</span></span>
+## <a name="reverse-proxy"></a><span data-ttu-id="7f735-129">역방향 프록시</span><span class="sxs-lookup"><span data-stu-id="7f735-129">Reverse Proxy</span></span>
 
-<span data-ttu-id="e5143-145">외부 방화벽만 사용하거나 외부 방화벽과 내부 방화벽을 둘 다 사용하여 에지 토폴로지를 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-145">You can deploy your edge topology with only an external firewall or both external and internal firewalls.</span></span> <span data-ttu-id="e5143-146">시나리오 아키텍처에는 두 개의 방화벽이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-146">The scenario architectures include two firewalls.</span></span> <span data-ttu-id="e5143-147">두 개의 방화벽을 사용하면 한 네트워크 에지에서 다른 네트워크 에지로 엄격한 라우팅이 이루어지며 두 방화벽 수준 뒤에 있는 내부 네트워크가 보호되므로 두 개의 방화벽을 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-147">Using two firewalls is the recommended approach because it ensures strict routing from one network edge to the other, and it protects your internal deployment behind two levels of firewall.</span></span>
+<span data-ttu-id="7f735-130">역방향 프록시는 다음과 같은 경우에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-130">The reverse proxy is required for the following:</span></span>
+
+  - <span data-ttu-id="7f735-131">사용자가 단순 URL을 사용하여 모임 또는 전화 접속 전화 회의에 연결하도록 허용하려는 경우</span><span class="sxs-lookup"><span data-stu-id="7f735-131">To allow users to connect to meetings or dial-in conferences using simple URLs</span></span>
+
+  - <span data-ttu-id="7f735-132">외부 사용자가 모임 콘텐츠를 다운로드할 수 있도록 하기 위해</span><span class="sxs-lookup"><span data-stu-id="7f735-132">To enable external users to download meeting content</span></span>
+
+  - <span data-ttu-id="7f735-133">외부 사용자가 메일 그룹을 확장할 수 있도록 하기 위해</span><span class="sxs-lookup"><span data-stu-id="7f735-133">To enable external users to expand distribution groups</span></span>
+
+  - <span data-ttu-id="7f735-134">사용자가 클라이언트 인증서 기반 인증용 사용자 기반 인증서를 가져오도록 허용하기 위해</span><span class="sxs-lookup"><span data-stu-id="7f735-134">To allow the user to obtain a user-based certificate for client certificate based authentication</span></span>
+
+  - <span data-ttu-id="7f735-135">원격 사용자가 주소록 서버에서 파일을 다운로드하거나 주소록 웹 쿼리 서비스에 쿼리를 제출할 수 있도록 하기 위해</span><span class="sxs-lookup"><span data-stu-id="7f735-135">To enable remote users to download files from the Address Book Server or to submit queries to the Address Book Web Query service</span></span>
+
+  - <span data-ttu-id="7f735-136">원격 사용자가 클라이언트 및 장치 소프트웨어에 대한 업데이트를 가져올 수 있도록 하기 위해</span><span class="sxs-lookup"><span data-stu-id="7f735-136">To enable remote users to obtain updates to client and device software</span></span>
+
+  - <span data-ttu-id="7f735-137">모바일 장치에서 Mobility Service를 제공하는 프런트 엔드 서버를 자동으로 검색할 수 있도록 하기 위해</span><span class="sxs-lookup"><span data-stu-id="7f735-137">To enable mobile devices to automatically discover Front End Servers offering mobility services</span></span>
+
+  - <span data-ttu-id="7f735-138">Microsoft 365, Office 365 또는 Apple 푸시 알림 서비스에서 모바일 장치로 푸시 알림을 사용 하도록 설정 하려면</span><span class="sxs-lookup"><span data-stu-id="7f735-138">To enable push notifications to mobile devices from the Microsoft 365, Office 365, or Apple push notification services</span></span>
+
+<span data-ttu-id="7f735-139">역방향 프록시에 대 한 자세한 내용과 역방향 프록시가 충족 해야 하는 요구 사항에 대 한 자세한 내용은 [Lync Server 2013의 역방향 프록시에 대 한 구성 요구 사항](lync-server-2013-configuration-requirements-for-reverse-proxy.md)정보를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="7f735-139">For additional information related to reverse proxies and the requirements that reverse proxies must meet, see the details in [Configuration requirements for reverse proxy in Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="7f735-140">외부 사용자는 Lync Server 2013을 사용 하 여 통신에 참여 하기 위해 조직에 대 한 VPN (가상 사설망) 연결이 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-140">External users do not need a virtual private network (VPN) connection to your organization in order to participate in communications using Lync Server 2013.</span></span> <span data-ttu-id="7f735-141">조직에 VPN 기술이 구현 되어 있고 사용자가 Lync 용 VPN을 사용 하는 경우 미디어 트래픽 (예: 비디오 회의)에 악영향을 줄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-141">If you have implemented VPN technology in your organization and your users use the VPN for Lync, media traffic (such as video conferencing) can be adversely affected.</span></span> <span data-ttu-id="7f735-142">미디어 트래픽이 AV에 지 서비스에 직접 연결 하 고 VPN을 사용 하지 않도록 하는 방법을 제공 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-142">You should consider providing a means for media traffic to connect to the AV Edge service directly and bypass the VPN.</span></span> <span data-ttu-id="7f735-143">자세한 내용은 다음 홉 블로그 문서, "Lync Media에서 VPN 터널 바이패스를 사용 하도록 설정"을 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A> .</span><span class="sxs-lookup"><span data-stu-id="7f735-143">For details, see the NextHop Blog article, “Enabling Lync Media to Bypass a VPN Tunnel,” at <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>.</span></span>
+
+
+
+</div>
 
 </div>
 
 <div>
 
-## <a name="director"></a><span data-ttu-id="e5143-148">Director</span><span class="sxs-lookup"><span data-stu-id="e5143-148">Director</span></span>
+## <a name="firewall"></a><span data-ttu-id="7f735-144">방화벽이</span><span class="sxs-lookup"><span data-stu-id="7f735-144">Firewall</span></span>
 
-<span data-ttu-id="e5143-149">디렉터는 홈 사용자 계정이 아닌 Lync Server 2013의 별도의 선택적 서버 역할 이거나, 현재 상태 또는 회의 서비스를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-149">A Director is a separate, optional server role in Lync Server 2013 that does not home user accounts, or provide presence or conferencing services.</span></span> <span data-ttu-id="e5143-150">또한에 지 서버가 내부 서버로 향하는 인바운드 SIP 트래픽을 라우팅하는 내부 다음 홉 서버 역할을 합니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-150">It serves as an internal next hop server to which an Edge Server routes inbound SIP traffic destined for internal servers.</span></span> <span data-ttu-id="e5143-151">디렉터는 인바운드 요청을 사전 인증 하 고 사용자의 홈 풀이나 서버로 리디렉션합니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-151">The Director preauthenticates inbound requests and redirects them to the user’s home pool or server.</span></span> <span data-ttu-id="e5143-152">디렉터에서 사전 인증을 사용 하 여 배포에 알려지지 않은 사용자 계정에서 요청을 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-152">By preauthenticating at the Director, you can drop requests from user accounts that are unknown to the deployment.</span></span>
-
-<span data-ttu-id="e5143-153">디렉터는 DoS (서비스 거부) 공격과 같은 악의적인 트래픽 으로부터 Standard Edition 서버 및 프런트 엔드 서버를 엔터프라이즈 버전의 프런트 엔드 풀에 쉽게 제거할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-153">A Director helps insulate Standard Edition servers and Front End Servers in Enterprise Edition Front End pools from malicious traffic such as denial-of-service (DoS) attacks.</span></span> <span data-ttu-id="e5143-154">이러한 공격에 잘못 된 외부 트래픽이 발생 하는 네트워크의 경우에는 디렉터에서 트래픽이 종료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e5143-154">If the network is flooded with invalid external traffic in such an attack, the traffic ends at the Director.</span></span> <span data-ttu-id="e5143-155">디렉터 사용에 대 한 자세한 내용은 [Lync Server 2013에서 디렉터에 대 한 시나리오](lync-server-2013-scenarios-for-the-director.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e5143-155">For details about the use of Directors, see [Scenarios for the Director in Lync Server 2013](lync-server-2013-scenarios-for-the-director.md).</span></span>
+<span data-ttu-id="7f735-145">외부 방화벽만 사용하거나 외부 방화벽과 내부 방화벽을 둘 다 사용하여 에지 토폴로지를 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-145">You can deploy your edge topology with only an external firewall or both external and internal firewalls.</span></span> <span data-ttu-id="7f735-146">시나리오 아키텍처에는 두 개의 방화벽이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-146">The scenario architectures include two firewalls.</span></span> <span data-ttu-id="7f735-147">두 개의 방화벽을 사용하면 한 네트워크 에지에서 다른 네트워크 에지로 엄격한 라우팅이 이루어지며 두 방화벽 수준 뒤에 있는 내부 네트워크가 보호되므로 두 개의 방화벽을 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-147">Using two firewalls is the recommended approach because it ensures strict routing from one network edge to the other, and it protects your internal deployment behind two levels of firewall.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e5143-156">참고 항목</span><span class="sxs-lookup"><span data-stu-id="e5143-156">See Also</span></span>
+## <a name="director"></a><span data-ttu-id="7f735-148">Director</span><span class="sxs-lookup"><span data-stu-id="7f735-148">Director</span></span>
+
+<span data-ttu-id="7f735-149">디렉터는 홈 사용자 계정이 아닌 Lync Server 2013의 별도의 선택적 서버 역할 이거나, 현재 상태 또는 회의 서비스를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-149">A Director is a separate, optional server role in Lync Server 2013 that does not home user accounts, or provide presence or conferencing services.</span></span> <span data-ttu-id="7f735-150">또한에 지 서버가 내부 서버로 향하는 인바운드 SIP 트래픽을 라우팅하는 내부 다음 홉 서버 역할을 합니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-150">It serves as an internal next hop server to which an Edge Server routes inbound SIP traffic destined for internal servers.</span></span> <span data-ttu-id="7f735-151">디렉터는 인바운드 요청을 사전 인증 하 고 사용자의 홈 풀이나 서버로 리디렉션합니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-151">The Director preauthenticates inbound requests and redirects them to the user’s home pool or server.</span></span> <span data-ttu-id="7f735-152">디렉터에서 사전 인증을 사용 하 여 배포에 알려지지 않은 사용자 계정에서 요청을 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-152">By preauthenticating at the Director, you can drop requests from user accounts that are unknown to the deployment.</span></span>
+
+<span data-ttu-id="7f735-153">디렉터는 DoS (서비스 거부) 공격과 같은 악의적인 트래픽 으로부터 Standard Edition 서버 및 프런트 엔드 서버를 엔터프라이즈 버전의 프런트 엔드 풀에 쉽게 제거할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-153">A Director helps insulate Standard Edition servers and Front End Servers in Enterprise Edition Front End pools from malicious traffic such as denial-of-service (DoS) attacks.</span></span> <span data-ttu-id="7f735-154">이러한 공격에 잘못 된 외부 트래픽이 발생 하는 네트워크의 경우에는 디렉터에서 트래픽이 종료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f735-154">If the network is flooded with invalid external traffic in such an attack, the traffic ends at the Director.</span></span> <span data-ttu-id="7f735-155">디렉터 사용에 대 한 자세한 내용은 [Lync Server 2013에서 디렉터에 대 한 시나리오](lync-server-2013-scenarios-for-the-director.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="7f735-155">For details about the use of Directors, see [Scenarios for the Director in Lync Server 2013](lync-server-2013-scenarios-for-the-director.md).</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="7f735-156">참고 항목</span><span class="sxs-lookup"><span data-stu-id="7f735-156">See Also</span></span>
 
 
-[<span data-ttu-id="e5143-157">Lync Server 2013에 대 한 하드웨어 부하 분산 장치 요구 사항</span><span class="sxs-lookup"><span data-stu-id="e5143-157">Hardware load balancer requirements for Lync Server 2013</span></span>](lync-server-2013-hardware-load-balancer-requirements.md)  
+[<span data-ttu-id="7f735-157">Lync Server 2013에 대 한 하드웨어 부하 분산 장치 요구 사항</span><span class="sxs-lookup"><span data-stu-id="7f735-157">Hardware load balancer requirements for Lync Server 2013</span></span>](lync-server-2013-hardware-load-balancer-requirements.md)  
   
 
 </div>
