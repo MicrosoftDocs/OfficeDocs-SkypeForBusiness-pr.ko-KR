@@ -12,20 +12,22 @@ ms:contentKeyID: 48183444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30fece45c4b13bd9cd2c9243dd21cdac1d779733
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 69b9beb119ebd7189c31f9e239ac45409758ba00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204394"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515695"
 ---
+# <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a>Lync Server 2013에서 A/V에 지 서버에 대 한 서비스 품질 정책 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a>Lync Server 2013에서 A/V에 지 서버에 대 한 서비스 품질 정책 구성
+
 
 </div>
 
@@ -89,15 +91,15 @@ Active Directory 기반 정책을 만드는 경우에는 그룹 정책 관리가
 
     Gpudate.exe /force
 
-이 명령은 Lync Server 또는 관리자 자격 증명으로 실행 되는 명령 창에서 실행할 수 있습니다. 관리자 자격 증명을 사용한 명령 창을 실행하려면 **시작**을 클릭하고 **명령 프롬프트**를 마우스 오른쪽 단추로 클릭한 후 **관리자 권한으로 실행**을 클릭합니다. Gpudate를 실행 한 후에도에 지 서버를 다시 시작 해야 할 수 있습니다.
+이 명령은 Lync Server 또는 관리자 자격 증명으로 실행 되는 명령 창에서 실행할 수 있습니다. 관리자 자격 증명을 사용한 명령 창을 실행하려면 **시작**을 클릭하고 **명령 프롬프트**를 마우스 오른쪽 단추로 클릭한 후 **관리자 권한으로 실행**을 클릭합니다. Gpudate.exe를 실행 한 후에도에 지 서버를 다시 시작 해야 할 수 있습니다.
 
 네트워크 패킷이 적절한 DSCP 값으로 표시되도록 하려면 다음 절차를 완료하여 각 컴퓨터에서 새 레지스트리 항목도 만들어야 합니다.
 
-1.  **시작**을 클릭하고 **실행**을 클릭합니다.
+1.  **시작**을 클릭한 다음 **실행**을 클릭합니다.
 
 2.  **실행** 대화 상자에 **regedit**를 입력한 다음 Enter 키를 누릅니다.
 
-3.  레지스트리 편집기에서 **\_HKEY\_로컬 컴퓨터**를 확장 하 고 **시스템**, **CurrentControlSet**, **서비스**를 차례로 확장 한 다음 **Tcpip**를 확장 합니다.
+3.  레지스트리 편집기에서 **HKEY \_ 로컬 \_ 컴퓨터**를 확장 하 고 **시스템**, **CurrentControlSet**, **서비스**를 차례로 확장 한 다음 **Tcpip**를 확장 합니다.
 
 4.  **Tcpip**를 마우스 오른쪽 단추로 클릭하고 **새로 만들기**를 가리킨 다음 **키**를 클릭합니다. 새 레지스트리 키를 만든 후 **QoS**를 입력하고 Enter 키를 눌러 키 이름을 바꿉니다.
 

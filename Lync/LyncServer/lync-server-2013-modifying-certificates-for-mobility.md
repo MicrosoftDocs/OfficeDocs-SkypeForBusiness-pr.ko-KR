@@ -12,20 +12,22 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f64676494916bf2c2bd71399bbdd04642da50cee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b10ea662d055812b9fccaa730a936033aaea077c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217304"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515165"
 ---
+# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Lync Server 2013에서 모바일 기능에 대 한 인증서 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Lync Server 2013에서 모바일 기능에 대 한 인증서 수정
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217304"
 
 _**마지막으로 수정 된 항목:** 2014-06-20_
 
-Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 위해 디렉터 풀, 프런트 엔드 풀 및 역방향 프록시에 대 한 SSL (Secure sockets Layer) 인증서를 추가 주체 대체 이름으로 업데이트 해야 합니다 ( SAN) 항목 모바일 기능에 대 한 인증서 요구 사항에 대 한 자세한 내용을 확인 해야 하는 경우에는 [Lync Server 2013의 모바일 기능에 대 한 기술 요구](lync-server-2013-technical-requirements-for-mobility.md)사항에서 인증서 요구 사항 섹션을 참조 하 고, 기본적으로 추가 SAN 항목을 포함 하 여 인증 기관에서 새 인증서를 가져온 다음이 문서의 단계를 사용 하 여 해당 인증서를 추가 해야 합니다.
+Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 위해 디렉터 풀, 프런트 엔드 풀 및 역방향 프록시에 대 한 SSL (Secure sockets Layer) 인증서를 몇 가지 추가 SAN (주체 대체 이름) 항목을 사용 하 여 업데이트 해야 합니다. 모바일 기능에 대 한 인증서 요구 사항에 대 한 자세한 내용을 확인 해야 하는 경우에는 [Lync Server 2013의 모바일 기능에 대 한 기술 요구](lync-server-2013-technical-requirements-for-mobility.md)사항에서 인증서 요구 사항 섹션을 참조 하 고, 기본적으로 추가 SAN 항목을 포함 하 여 인증 기관에서 새 인증서를 가져온 다음이 문서의 단계를 사용 하 여 해당 인증서를 추가 해야 합니다.
 
 시작 하기 전에 먼저 인증서에 이미 있는 주체 대체 이름을 아는 것이 좋습니다. 이미 구성 되어 있는 것을 모르는 경우에는 다양 한 방법으로 확인할 수 있습니다. 이 정보를 보기 위해 **set-cscertificate** 및 기타 PowerShell 명령을 실행 하는 옵션 (아래에서 설명)은 기본적으로 데이터를 잘리게 되므로 필요한 모든 속성을 확인 하지 못할 수 있습니다. 인증서와 모든 해당 속성을 확인 하려면 MMC (Microsoft Management Console)로 이동 하 고 인증서 스냅인을 로드 합니다 (아래 참조). 또는 Lync Server 배포 마법사를 확인 하기만 하면 됩니다.
 
@@ -69,7 +71,7 @@ Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 �
     
     **중요:**
     
-    각 사용에 대해 별도의 인증서가 할당 되어 있는 경우 위 예에서와 같이, 위에서 확인 한 지문 값이 서로 다른 경우에는 **set-cscertificate** cmdlet을 실행 **하지** 않는 것이 중요 합니다. 이 경우 각 사용에 대해 **set-cscertificate** cmdlet을 개별적으로 실행 합니다. 예:
+    각 사용에 대해 별도의 인증서가 할당 되어 있는 경우 위 예에서와 같이, 위에서 확인 한 지문 값이 서로 다른 경우에는 **set-cscertificate** cmdlet을 실행 **하지** 않는 것이 중요 합니다. 이 경우 각 사용에 대해 **set-cscertificate** cmdlet을 개별적으로 실행 합니다. 예제:
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>
@@ -95,7 +97,7 @@ Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 �
     
       - 웹 서비스 내부 및 웹 서비스 외부 이름 (예: webpool01.contoso.net, webpool01.contoso.com)-토폴로지 작성기 및 재정의를 사용한 웹 서비스 선택에 대 한 선택 사항에 따라 달라 집니다.
     
-      - 이미 지정 된 경우 lyncdiscover입니다. \<microsoft.rtc.management.xds.sipdomain object\> 및 lyncdiscoverinternal \<microsoft.rtc.management.xds.sipdomain object\> 레코드
+      - 이미 지정 된 경우 lyncdiscover입니다.\<sipdomain\> 및 lyncdiscoverinternal입니다.\<sipdomain\> 레코드.
     
     사용자가 가장 관심을 가질 수 있는 마지막 항목은 무엇 인가요? lyncdiscover 및 lyncdiscoverinternal SAN 항목이 있는 경우
     
@@ -107,7 +109,7 @@ Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 �
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 lyncdiscoverinternal 및 lyncdiscover 레코드의 FQDN을 정의 해야 합니다. 예:
+        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 lyncdiscoverinternal 및 lyncdiscover 레코드의 FQDN을 정의 해야 합니다. 예제:
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
@@ -123,7 +125,7 @@ Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 �
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 SIP 도메인 FQDN에 대해 적절 한 접두사를 사용 해야 합니다. 예:
+        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 SIP 도메인 FQDN에 대해 적절 한 접두사를 사용 해야 합니다. 예제:
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
@@ -131,7 +133,7 @@ Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 �
         
             Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 SIP 도메인 FQDN에 대해 적절 한 접두사를 사용 해야 합니다. 예:
+        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 SIP 도메인 FQDN에 대해 적절 한 접두사를 사용 해야 합니다. 예제:
         
             Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
     
@@ -147,7 +149,7 @@ Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 �
     
 
     > [!NOTE]  
-    > 여기서는 12 단계와 13 단계가 실행 되는 계정에 적절 한 사용 권한이 있는 인증 기관에 대 한 액세스 권한이 있는 경우에만 실행 해야 합니다. 이러한 권한을 가진 계정으로 로그인 할 수 없거나 인증서에 대해 공용 또는 원격 인증 기관을 사용 하는 경우에는 Lync Server 배포 마법사를 통해이를 요청 해야 하며, 여기서는 아티클에서.
+    > 여기서는 12 단계와 13 단계가 실행 되는 계정에 적절 한 사용 권한이 있는 인증 기관에 대 한 액세스 권한이 있는 경우에만 실행 해야 합니다. 이러한 권한을 가진 계정으로 로그인 할 수 없거나 인증서에 대해 공용 또는 원격 인증 기관을 사용 하는 경우에는 문서 맨 위에 설명 된 대로 Lync Server 배포 마법사를 통해 요청 해야 합니다.
 
     
     </div>

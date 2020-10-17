@@ -12,20 +12,22 @@ ms:contentKeyID: 49733673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7043b2ce5fd35e36615b7b92d1561d725a86cc92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 80a90e58c1dee8aacae052f916c6fdf6e260b7ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202744"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514695"
 ---
+# <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 A/V에 지 서버 구성 설정의 기존 컬렉션 삭제
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 A/V에 지 서버 구성 설정의 기존 컬렉션 삭제
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
 
 A/V 에지 서비스는 내부 사용자(조직 단위 네트워크에 로그온된 사용자)가 외부 사용자(조직 단위 네트워크에 로그온되지 않은 사용자)와 오디오 및 비디오를 공유할 수 있는 방법을 제공합니다. A/V 에지 서비스는 주로 사이트 범위 또는 서비스 범위에서 구성할 수 있는(즉, 개별 A/V 에지 서버에 대해 구성할 수 있는) 설정인 A/V 에지 구성 설정을 사용해서 관리됩니다.
 
-Lync Server를 설치 하면 A/V에 지 구성 설정의 전역 컬렉션이 만들어집니다. 이 전역 컬렉션은 삭제할 수 없습니다. 그러나 Windows PowerShell 및 Get-csavedgeconfiguration cmdlet을 사용 하 여 전역 컬렉션을 "다시 설정" 할 수 있습니다. 이는 전역 컬렉션의 모든 속성 값이 기본값으로 다시 설정 된다는 것을 의미 합니다. 예를 들어 MaxTokenLifetime 속성을 16 시간으로 설정한 경우 해당 속성은 기본값으로 8 시간으로 다시 설정 됩니다.
+Lync Server를 설치 하면 A/V에 지 구성 설정의 전역 컬렉션이 만들어집니다. 이 전역 컬렉션은 삭제할 수 없습니다. 그러나 Windows PowerShell 및 Remove-CsAVEdgeConfiguration cmdlet을 사용 하 여 전역 컬렉션을 "다시 설정" 할 수 있습니다. 이는 전역 컬렉션의 모든 속성 값이 기본값으로 다시 설정 된다는 것을 의미 합니다. 예를 들어 MaxTokenLifetime 속성을 16 시간으로 설정한 경우 해당 속성은 기본값으로 8 시간으로 다시 설정 됩니다.
 
 하지만 사이트 범위 또는 서비스 범위에서 만든 사용자 지정 설정 컬렉션은 Remove-CsAVEdgeConfiguration cmdlet을 사용하여 삭제할 수 있습니다. 사이트 설정을 삭제하면 해당 사이트의 A/V 에지 서버가 전역 설정에 의해 관리됩니다. 장치 범위 설정을 삭제할 경우 해당 서버가 사이트 설정(있는 경우)으로 관리되거나, 사이트 설정을 사용할 수 없으면 전역 설정으로 관리됩니다.
 

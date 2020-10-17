@@ -12,20 +12,22 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 010e8314eb7d2cbb33354461bdc2a1eb2c5b2cf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 467dbfe14cbcbe7a032439fd437d3ce2c58c6d46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204354"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515385"
 ---
+# <a name="failure-list-report-in-lync-server-2013"></a>Lync Server 2013의 오류 목록 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failure-list-report-in-lync-server-2013"></a>Lync Server 2013의 오류 목록 보고서
+
 
 </div>
 
@@ -73,7 +75,7 @@ _**마지막으로 수정 된 항목:** 2012-07-02_
 
 사용자를 위한 미디어를 만드는 동안 내부 서버 오류가 발생했습니다.
 
-실패 목록 보고서에는 하나 이상의 실패 한 세션에 참여 한 모든 사용자의 목록을 직접 검색 하는 것이 아니라, 오류가 발생 하는 경우가 가장 많은 사용자를 확인 하는 방법도 제공 되지 않습니다. 세션이. 한 가지 경우에는 실패 목록 보고서에 필터링 기능이 없습니다. 그러나 데이터를 내보낸 다음 쉼표로 구분 된 값 파일로 변환 하면 Windows PowerShell을 사용 하 여 이와 같은 질문에 대 한 답변을 찾을 수 있습니다. 예를 들어 데이터를에 저장 한다고 가정 합니다. C:\\라는 csv 파일의\\데이터\_오류 목록 .csv입니다. 이 명령은 하나 이상의 실패 한 세션에 포함 된 모든 사용자를 나열 하 고 해당 파일에 저장 된 데이터를 기반으로 합니다.
+오류 목록 보고서는 하나 이상의 실패 한 세션에 참여 한 모든 사용자의 목록을 직접 검색 하지 않으며, 오류가 발생 한 세션과 가장 자주 관련 된 사용자를 확인 하는 방법도 제공 하지 않습니다. 한 가지 경우에는 실패 목록 보고서에 필터링 기능이 없습니다. 그러나 데이터를 내보낸 다음 쉼표로 구분 된 값 파일로 변환 하면 Windows PowerShell을 사용 하 여 이와 같은 질문에 대 한 답변을 찾을 수 있습니다. 예를 들어 데이터를에 저장 한다고 가정 합니다. C: 라는 CSV 파일이 \\ \\List.csv 데이터 오류 \_ 입니다. 이 명령은 하나 이상의 실패 한 세션에 포함 된 모든 사용자를 나열 하 고 해당 파일에 저장 된 데이터를 기반으로 합니다.
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
@@ -115,7 +117,7 @@ _**마지막으로 수정 된 항목:** 2012-07-02_
 
 <div>
 
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에서는 각 실패한 통화에 대해 오류 목록 보고서에 제공된 정보를 보여 줍니다.
 

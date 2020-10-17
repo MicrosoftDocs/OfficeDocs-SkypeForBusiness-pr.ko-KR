@@ -12,20 +12,22 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 41d89241cdddd129ea5e7fad38e7a3d761fb220b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756477"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514975"
 ---
+# <a name="move-a-single-user-to-the-pilot-pool"></a>파일럿 풀로 단일 사용자 이동
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-a-single-user-to-the-pilot-pool"></a>파일럿 풀로 단일 사용자 이동
+
 
 </div>
 
@@ -91,7 +93,7 @@ Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 
 
 4.  이제 **RegistrarPool** Id는 Lync Server 2013 풀을 가리킵니다. 이 ID가 있으면 사용자가 성공적으로 이동되었음을 나타냅니다.
     
-    ![Identity 필터가 포함 된 CsUser cmdlet의 출력](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Identity 필터가 포함 된 CsUser cmdlet의 출력")  
+    ![Identity filter를 사용 하 여 Get-CsUser cmdlet의 출력](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Identity filter를 사용 하 여 Get-CsUser cmdlet의 출력")  
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa3e9b587a286cdff2b7ef08ec217a420792b121
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7095e539ec8e9cc832b4ce69f2e347bfcea38ccc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514035"
 ---
+# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Lync Server 2013의 토폴로지 테스트 관련 문제
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Lync Server 2013의 토폴로지 테스트 관련 문제
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42186771"
 
 _**마지막으로 수정 된 항목:** 2012-09-21_
 
-**Enable-cstopology** cmdlet과 마찬가지로 모범 사례 분석기를 통해 Lync Server 2013이 전역 수준에서 올바르게 작동 하는지 확인할 수 있습니다. 기본적으로 cmdlet과 같은 모범 사례 분석기에서는 전체 Lync Server 2013 인프라를 확인 하 고, 필요한 서비스가 실행 되 고 있는지 확인 하 고, 이러한 서비스 및 유니버설에 대해 적절 한 사용자 권한 및 사용 권한을 설정 해야 합니다. Lync Server 2013를 설치할 때 만들어지는 보안 그룹입니다.
+**Enable-cstopology** cmdlet과 마찬가지로 모범 사례 분석기를 통해 Lync Server 2013이 전역 수준에서 올바르게 작동 하는지 확인할 수 있습니다. 기본적으로 cmdlet과 같은 모범 사례 분석기는 전체 Lync Server 2013 인프라를 확인 하 고, 필요한 서비스가 실행 되 고 있는지 확인 하며, 이러한 서비스에 대해 적절 한 사용자 권한 및 사용 권한이 설정 되었는지, Lync Server 2013를 설치할 때 만든 유니버설 보안 그룹에 대 한 권한을 부여 했는지를 검사 합니다.
 
 Lync Server 전체적으로 유효성을 확인 하는 것 외에도 **enable-cstopology** 에서는 특정 서비스의 유효성을 검사 합니다. Cmdlet을 사용 하 여 특정 서비스를 테스트 하는 방법에 대 한 자세한 내용은 Lync Server 관리 셸 설명서의 [enable-cstopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) 를 참조 하십시오. 토폴로지 문제를 해결하는 데 도움이 필요하면 다음 정보를 참조하십시오.
 

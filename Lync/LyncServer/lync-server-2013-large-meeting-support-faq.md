@@ -12,20 +12,22 @@ ms:contentKeyID: 48183837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bcb5e8ecf3843a8997daa818ed75b33162cfb70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28d25c317aa672b56f244fafefc8d96b0c31bc33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186701"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514005"
 ---
+# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Lync Server 2013에 대 한 대규모 모임 지원 FAQ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Lync Server 2013에 대 한 대규모 모임 지원 FAQ
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2012-10-22_
 
 ## <a name="q-how-many-users-can-participate-in-a-large-meeting"></a>대규모 모임에 참가할 수 있는 사용자의 수
 
-Lync Server 사용자 모델은 공유 풀에 있는 250 명의 사용자에 대 한 제한 또는 대규모 모임 전용 풀의 1000 사용자를 지정 하지만 이러한 수치는 테스트를 거친 사용자 수 뿐 아니라 테스트에 사용한 특정 하드웨어 집합에만 표시 됩니다. 이 테스트를 기준으로 하여 최대 크기에 대한 권장 제한이 제공됩니다. 그러나 Lync Server 관리 셸에서 Windows PowerShell cmdlet을 사용 하거나 Lync Server를 사용 하 여 구성 하는 하나 이상의 회의 정책을 구성 하 여 조직의 모임에서 허용 되는 실제 참가자 수를 제어할 수 있습니다. 제어판) 회의 정책에서 지정하는 값은 1에서 4,294,967,295 사이의 32비트 정수일 수 있지만, 권장 크기는 참가자 2~250명(두 끝값 포함)이며 기본값은 250입니다.
+Lync Server 사용자 모델은 공유 풀에 있는 250 명의 사용자에 대 한 제한 또는 대규모 모임 전용 풀의 1000 사용자를 지정 하지만 이러한 수치는 테스트를 거친 사용자 수 뿐 아니라 테스트에 사용한 특정 하드웨어 집합에만 표시 됩니다. 이 테스트를 기준으로 하여 최대 크기에 대한 권장 제한이 제공됩니다. 그러나 Lync Server 관리 셸에서 Windows PowerShell cmdlet을 사용 하거나 Lync Server 제어판을 사용 하 여 구성 하는 하나 이상의 회의 정책을 구성 하 여 조직의 모임에서 허용 되는 실제 참가자 수를 제어할 수 있습니다. 회의 정책에서 지정하는 값은 1에서 4,294,967,295 사이의 32비트 정수일 수 있지만, 권장 크기는 참가자 2~250명(두 끝값 포함)이며 기본값은 250입니다.
 
 </div>
 
@@ -75,7 +77,7 @@ Lync Server 사용자 모델은 공유 풀에 있는 250 명의 사용자에 대
 
 ## <a name="q-can-i-use-group-instant-messaging-im-in-large-meetings"></a>대규모 모임의 그룹 IM(인스턴트 메시징) 사용 가능 여부
 
-예. 그러나 인스턴트 메시지의 수가 많은 경우(특히 많은 모임 참가자가 인스턴트 메시지를 보내는 경우) IM 창에서 텍스트를 빠르게 스크롤하면서 발생하는 문제로 인해 사용자 환경이 영향을 받을 수 있습니다. 또한 최대 1,000명의 사용자에게 많은 양의 인스턴트 메시지를 배달하는 경우 서버 부하가 매우 많아져 성능에도 영향을 줄 수 있습니다. 일반적으로 IM은 질문과 대답에만 필요 합니다 (Q\&As).
+예. 그러나 인스턴트 메시지의 수가 많은 경우(특히 많은 모임 참가자가 인스턴트 메시지를 보내는 경우) IM 창에서 텍스트를 빠르게 스크롤하면서 발생하는 문제로 인해 사용자 환경이 영향을 받을 수 있습니다. 또한 최대 1,000명의 사용자에게 많은 양의 인스턴트 메시지를 배달하는 경우 서버 부하가 매우 많아져 성능에도 영향을 줄 수 있습니다. 일반적으로 IM은 질문과 대답에만 필요 합니다 (Q \& As).
 
 </div>
 

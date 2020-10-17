@@ -12,20 +12,22 @@ ms:contentKeyID: 49733812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 828c02e11d9e5adfe7028dd8d224c10df14c2247
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 582df13f3bcd7c1d25e8bf15ce1534992ba6aeeb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190471"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514795"
 ---
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 CDR 구성 설정 모음 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 CDR 구성 설정 모음 만들기 또는 수정
+
 
 </div>
 
@@ -91,7 +93,7 @@ Lync Server 제어판 또는 [get-cscdrconfiguration](https://docs.microsoft.com
 
 
 > [!NOTE]  
-> Get-cscdrconfiguration 및 Get-cscdrconfiguration cmdlet에는 Lync Server 제어판에서 사용할 수 없는 추가 옵션이 포함 되어 있습니다. 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">get-cscdrconfiguration</A> 및 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">get-cscdrconfiguration</A> 도움말 항목을 참조 하십시오.
+> New-CsCdrConfiguration 및 Set-CsCdrConfiguration cmdlet에는 Lync Server 제어판에서 사용할 수 없는 추가 옵션이 포함 되어 있습니다. 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">get-cscdrconfiguration</A> 및 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">get-cscdrconfiguration</A> 도움말 항목을 참조 하십시오.
 
 
 
@@ -127,7 +129,7 @@ Lync Server 제어판 또는 [get-cscdrconfiguration](https://docs.microsoft.com
 
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 CDR 구성 설정 만들기
 
-또한 Windows PowerShell 및 **get-cscdrconfiguration** cmdlet을 사용 하 여 CDR 구성 설정을 만들 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+또한 Windows PowerShell 및 **get-cscdrconfiguration** cmdlet을 사용 하 여 CDR 구성 설정을 만들 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 하세요.
 
 <div>
 

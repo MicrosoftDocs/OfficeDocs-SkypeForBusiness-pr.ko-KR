@@ -12,20 +12,22 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8400c6bbcf0cfc7d69bcba9dbebab07d14b5e0a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1517ef4a7515a46b9237b1788c457c3aee10953d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180165"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514805"
 ---
+# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Lync Server 2013에서 XMPP 파트너 구성 만들기 또는 편집
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Lync Server 2013에서 XMPP 파트너 구성 만들기 또는 편집
+
 
 </div>
 
@@ -75,7 +77,7 @@ Microsoft Lync Server 2013는 Edge 서버 및 프런트 엔드 서버 또는 프
     
     XEP 요구 사항에 대 한 자세한 내용은 XSF 문서 XEP-0178를 참조 하세요. 자세한 내용은 "XEP-0178: SASL 외부의 인증서 사용에 대 한 모범 사례"를 참조 하세요. <http://xmpp.org/extensions/xep-0178.html>
     
-    IETF 문서 "확장 가능 메시징 및 현재 상태 프로토콜 (XMPP): 코어", 섹션 5.0, STARTTLS 협상 <https://tools.ietf.org/html/rfc6120>을 참조 하십시오.
+    IETF 문서 "확장 가능 메시징 및 현재 상태 프로토콜 (XMPP): 코어", 섹션 5.0, STARTTLS 협상을 참조 하십시오 <https://tools.ietf.org/html/rfc6120> .
     
       - **TLS 협상** TLS 협상 규칙을 정의합니다. XMPP 서비스에 대해 TLS를 필수, 선택 사항 또는 지원 안 됨으로 설정할 수 있습니다. "선택 사항"으로 설정하는 경우 협상 필수 항목 결정을 위해 요구 사항을 최대한 XMPP 서비스까지 그대로 둘 수 있습니다. 유효 및 알려진 오류 구성을 포함 하 여 SASL, TLS 및 전화 접속 회의 협상에 대해 가능한 모든 설정 및 세부 정보를 확인 하려면 [Lync Server 2013의 XMPP 페더레이션 파트너에 대 한 협상 설정을](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)참조 하세요.
         
@@ -108,7 +110,7 @@ Microsoft Lync Server 2013는 Edge 서버 및 프런트 엔드 서버 또는 프
           - <span></span>  
             **지원 되지 않습니다**. XMPP 서비스가 SASL를 지원하지 않습니다.
     
-      - **전화 접속 회의 협상** 전화 접속 회의 협상은 .XSF에서 문서 **Xep-220: Server 전화 접속 회의** <http://xmpp.org/extensions/xep-0220.html>에 의해 정의 됩니다. Server 전화 접속 회의 프로세스는 DNS (domain name system) 및 신뢰할 수 있는 서버를 사용 하 여 요청이 유효한 XMPP 파트너 로부터 온 것을 확인 합니다. 이 작업을 수행 하기 위해 원래 서버는 생성 된 전화 접속 회의 키를 사용 하 여 특정 유형의 메시지를 만들고 DNS에서 수신 서버를 조회 합니다. 원본 서버가 XML 스트림의 키를 결과 DNS 조회로 전송 하 고 받는 서버를 제공 합니다. XML stream에서 키를 받으면 수신 서버가 원래 서버에 응답 하지 않지만 알려진 신뢰할 수 있는 서버로 키를 보냅니다. 신뢰할 수 있는 서버에서 키가 유효 하거나 올바르지 않은지 확인 합니다. 올바르지 않으면 받는 서버가 원래 서버에 응답 하지 않습니다. 키가 올바르면 받는 서버가 원래 서버에 id 및 키가 유효 하며 대화를 시작할 수 있음을 알립니다.
+      - **전화 접속 회의 협상** 전화 접속 회의 협상은 .XSF에서 문서 **Xep-220: Server 전화 접속 회의** 에 의해 정의 됩니다 <http://xmpp.org/extensions/xep-0220.html> . Server 전화 접속 회의 프로세스는 DNS (domain name system) 및 신뢰할 수 있는 서버를 사용 하 여 요청이 유효한 XMPP 파트너 로부터 온 것을 확인 합니다. 이 작업을 수행 하기 위해 원래 서버는 생성 된 전화 접속 회의 키를 사용 하 여 특정 유형의 메시지를 만들고 DNS에서 수신 서버를 조회 합니다. 원본 서버가 XML 스트림의 키를 결과 DNS 조회로 전송 하 고 받는 서버를 제공 합니다. XML stream에서 키를 받으면 수신 서버가 원래 서버에 응답 하지 않지만 알려진 신뢰할 수 있는 서버로 키를 보냅니다. 신뢰할 수 있는 서버에서 키가 유효 하거나 올바르지 않은지 확인 합니다. 올바르지 않으면 받는 서버가 원래 서버에 응답 하지 않습니다. 키가 올바르면 받는 서버가 원래 서버에 id 및 키가 유효 하며 대화를 시작할 수 있음을 알립니다.
         
         **전화 접속 회의 협상**의 유효한 두 상태는 다음과 같습니다.
         

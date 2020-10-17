@@ -12,20 +12,22 @@ ms:contentKeyID: 48185358
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335f7680a98eb53414a8b438975d79327b515946
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f5b2fe64b4f32a43ff1462ab27daef04694c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196971"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515755"
 ---
+# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013의 백 엔드 서버 고가용성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013의 백 엔드 서버 고가용성
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2013-08-12_
 
 재해 복구를 위해 다른 프런트 엔드 풀과 쌍을 이루는 풀에서 SQL 미러링 또는 SQL 클러스터링을 사용 하는 경우에는 두 풀에서 동일한 백 엔드 고가용성 솔루션을 사용 해야 합니다. Sql 미러링을 사용 하 여 풀을 한 풀과 쌍을 사용 하는 것이 좋습니다.
 
-SQL 미러링을 배포할 때 해당 풀에 있는 모든 Lync Server 데이터베이스는 중앙 관리 저장소를 포함 하 여이 풀에 있고 응답 그룹 응용 프로그램 데이터베이스 및 통화 대기 응용 프로그램 데이터베이스 (해당 응용 프로그램의 경우)와 함께 미러링됩니다. 풀에서 실행 되 고 있습니다.
+SQL 미러링을 배포할 때 해당 응용 프로그램이 풀에서 실행 되는 경우 중앙 관리 저장소를 비롯 하 여이 풀에 있는 모든 Lync Server 데이터베이스가 미러링된 다음 응답 그룹 응용 프로그램 데이터베이스 및 통화 대기 응용 프로그램 데이터베이스를 포함 하 여 미러링됩니다.
 
 SQL 미러링을 사용하면 서버에 공유 저장소를 사용하지 않아도 됩니다. 각 서버는 로컬 저장소에 데이터베이스 복사본을 유지합니다.
 

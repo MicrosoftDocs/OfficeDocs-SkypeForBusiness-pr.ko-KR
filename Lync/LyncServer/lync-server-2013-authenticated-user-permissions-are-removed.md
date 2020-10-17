@@ -12,20 +12,22 @@ ms:contentKeyID: 48184304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52815327d185355c6c5762252e4ad9b34e77ea85
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8cf9f63fbe5340b3a241fc60b8623f54906dd8cc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197001"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515765"
 ---
+# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>Lync Server 2013에서 인증 된 사용자 권한이 제거 됨
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>Lync Server 2013에서 인증 된 사용자 권한이 제거 됨
+
 
 </div>
 
@@ -71,7 +73,7 @@ Enterprise Admins 그룹의 구성원인 계정을 사용하여 도메인 준비
 
 6.  **사용 권한** 탭에서 **추가**를 클릭합니다.
 
-7.  다음 형식을 `domain\account name`사용 하 여 사용 권한을 받는 사용자 또는 그룹의 이름을 입력 하 고 **확인**을 클릭 합니다.
+7.  다음 형식을 사용 하 여 사용 권한을 받는 사용자 또는 그룹의 이름을 입력 하 `domain\account name` 고 **확인**을 클릭 합니다.
 
 8.  **개체** 탭의 **적용 대상**에서 **이 개체만**을 클릭합니다.
 

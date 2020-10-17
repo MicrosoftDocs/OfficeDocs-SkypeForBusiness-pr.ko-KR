@@ -12,20 +12,22 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20205bb401132143b0bcda28343e4ae3bcfd93b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a1ff88b11c7d0ce007fc3bac38e7e3618771fb7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186781"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514025"
 ---
+# <a name="key-security-features-in-lync-server-2013"></a>Lync Server 2013의 주요 보안 기능
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="key-security-features-in-lync-server-2013"></a>Lync Server 2013의 주요 보안 기능
+
 
 </div>
 
@@ -127,13 +129,13 @@ Lync Server 2013은에 지 서버의 내부 인터페이스에 NAT (network addr
 
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>SDL (보안 개발 수명 주기)의 신뢰할 수 있는 컴퓨팅
 
-Lync Server 2013는에 <https://go.microsoft.com/fwlink/?linkid=68761>설명 되어 있는 Microsoft의 신뢰할 수 있는 컴퓨팅 SDL (보안 개발 수명 주기)을 준수 하 여 설계 및 개발 되었습니다.
+Lync Server 2013는에 설명 되어 있는 Microsoft의 신뢰할 수 있는 컴퓨팅 SDL (보안 개발 수명 주기)을 준수 하 여 설계 및 개발 되었습니다 <https://go.microsoft.com/fwlink/?linkid=68761> .
 
-  - **신뢰할**   수 있는 것으로 디자인이 보다 안전한 통합 통신 시스템을 만드는 첫 번째 단계는 위협 모델을 디자인 하 고 설계 된 각 기능을 테스트 하는 것 이었습니다. 또한 Microsoft는 예기치 않은 제품 문제로 인해 발생 하는 보안 취약성을 찾기 위해 디자인 된 동작 외부에서 테스트를 수행 합니다. 여러 보안 관련 향상 된 기능이 코딩 프로세스 및 사례에 기본적으로 제공 됩니다. 빌드 시간 도구는 코드가 최종 제품에 체크 인 되기 전에 버퍼 오버런과 기타 잠재적 보안 위협을 검색 합니다. 물론 알려지지 않은 모든 보안 위험을 디자인 하는 것은 불가능 합니다. 시스템에서 완전 한 보안을 보장할 수 없습니다. 그러나 제품 개발 embraced 시작에서 보안 디자인 원리를 구성 하기 때문에 Lync Server 2013는 업계 표준 보안 기술을 해당 아키텍처의 기본 부분으로 통합 합니다.
+  - **신뢰할 수 있는 디자인**     보다 안전한 통합 통신 시스템을 만드는 첫 번째 단계는 위협 모델을 디자인 하 고 디자인 된 각 기능을 테스트 하는 것 이었습니다. 또한 Microsoft는 예기치 않은 제품 문제로 인해 발생 하는 보안 취약성을 찾기 위해 디자인 된 동작 외부에서 테스트를 수행 합니다. 여러 보안 관련 향상 된 기능이 코딩 프로세스 및 사례에 기본적으로 제공 됩니다. 빌드 시간 도구는 코드가 최종 제품에 체크 인 되기 전에 버퍼 오버런과 기타 잠재적 보안 위협을 검색 합니다. 물론 알려지지 않은 모든 보안 위험을 디자인 하는 것은 불가능 합니다. 시스템에서 완전 한 보안을 보장할 수 없습니다. 그러나 제품 개발 embraced 시작에서 보안 디자인 원리를 구성 하기 때문에 Lync Server 2013는 업계 표준 보안 기술을 해당 아키텍처의 기본 부분으로 통합 합니다.
 
-  - **신뢰할**수 기본적으로 기본적으로 Lync Server 2013의 네트워크 통신은 암호화 되어 있습니다.    모든 서버는 인증서 및 Kerberos 인증, TLS, 보안 실시간 전송 프로토콜 (SRTP) 및 128 비트 AES (Advanced Encryption Standard) 암호화를 비롯 한 기타 업계 표준 암호화 기법을 사용 하므로 사실상 모든 Lync 네트워크에서 서버 데이터가 보호 됩니다. 또한 역할 기반 액세스 제어를 통해 Lync Server 2013을 실행 하는 서버를 배포 하 여 각 서버 역할이 서비스만 실행 되 고 해당 서비스와 관련 된 사용 권한만 있으면 서버 역할에 적합 합니다.
+  - **신뢰할 수 있는 기본**     기본적으로 Lync Server 2013의 네트워크 통신은 암호화 되어 있습니다. 모든 서버는 인증서 및 Kerberos 인증, TLS, SRTP (Secure Real-Time Transport Protocol)를 사용 하 고, 128 비트 AES (Advanced Encryption Standard) 암호화를 비롯 한 기타 업계 표준 암호화 기술을 사용할 수 있으므로 사실상 모든 Lync Server 데이터가 네트워크에서 보호 됩니다. 또한 역할 기반 액세스 제어를 통해 Lync Server 2013을 실행 하는 서버를 배포 하 여 각 서버 역할이 서비스만 실행 되 고 해당 서비스와 관련 된 사용 권한만 있으면 서버 역할에 적합 합니다.
 
-  - **신뢰할**   수 있는 프로그램 배포 모든 Lync Server 2013 설명서에는 배포에 최적의 보안 수준을 결정 및 구성 하는 데 도움이 되 고 비기본 옵션을 활성화 하는 경우의 보안 위험을 평가할 수 있는 모범 사례 및 권장 사항이 포함 되어 있습니다.
+  - **신뢰할 수 있는 배포**     모든 Lync Server 2013 설명서에는 배포에 대 한 최적의 보안 수준을 확인 및 구성 하 고 비기본 옵션을 활성화할 경우의 보안 위험을 평가 하는 데 도움이 되는 모범 사례 및 권장 사항이 포함 되어 있습니다.
 
 </div>
 

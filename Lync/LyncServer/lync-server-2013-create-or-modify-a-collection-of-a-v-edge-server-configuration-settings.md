@@ -12,20 +12,22 @@ ms:contentKeyID: 49733630
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2890dd69b8b5fdff58ed2b047b642456657eb0d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ec601a9c51e1b8d5785e91bae1f1f82c13bf245
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180135"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514775"
 ---
+# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 A/V에 지 서버 구성 설정 모음 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 A/V에 지 서버 구성 설정 모음 만들기 또는 수정
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
 
 A/V 에지 서비스는 내부 사용자(조직 단위 네트워크에 로그온된 사용자)가 외부 사용자(조직 단위 네트워크에 로그온되지 않은 사용자)와 오디오 및 비디오를 공유할 수 있는 방법을 제공합니다. A/V 에지 서비스는 주로 사이트 범위 또는 서비스 범위에서 구성할 수 있는(즉, 개별 A/V 에지 서버에 대해 구성할 수 있는) 설정인 A/V 에지 구성 설정을 사용해서 관리됩니다.
 
-Lync Server를 설치 하면 A/V에 지 구성 설정의 전역 컬렉션이 만들어집니다. 또한 Windows PowerShell 및 Get-csavedgeconfiguration cmdlet을 사용 하 여 사이트 범위 또는 서비스 범위 (즉, 개별 A/V에 지 서버에 대 한)에 새 설정을 만들 수 있습니다. 새 설정을 만들 때는 다음을 고려해야 합니다.
+Lync Server를 설치 하면 A/V에 지 구성 설정의 전역 컬렉션이 만들어집니다. 또한 Windows PowerShell 및 New-CsAVEdgeConfiguration cmdlet을 사용 하 여 사이트 범위 또는 서비스 범위 (즉, 개별 A/V에 지 서버에 대 한)에 새 설정을 만들 수 있습니다. 새 설정을 만들 때는 다음을 고려해야 합니다.
 
   - 서비스 범위로(즉, 개별 서버에서) 구성된 설정은 다른 모든 것들보다 우선 적용됩니다.
 

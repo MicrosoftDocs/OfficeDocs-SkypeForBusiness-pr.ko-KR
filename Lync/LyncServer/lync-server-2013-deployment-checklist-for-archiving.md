@@ -12,20 +12,22 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2df74bda74f1b9af01e1c4e73fa2f21b7119363f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ccec3917e892d1ba6c3e1841773c77e8c2d015d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188161"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514531"
 ---
+# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lync Server 2013의 보관을 위한 배포 검사 목록
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lync Server 2013의 보관을 위한 배포 검사 목록
+
 
 </div>
 
@@ -45,9 +47,9 @@ _**마지막으로 수정 된 항목:** 2012-10-18_
 
 보관 설정 방법은 선택한 저장소 옵션에 따라 달라집니다.
 
-  - 배포의 모든 사용자에 대해 Microsoft Exchange 통합을 사용 하는 경우 사용자에 대해 Lync Server 2013 보관 정책을 구성할 필요가 없습니다. 대신 Exchange 2013에 있는 사용자에 대 한 보관을 지원 하도록 Exchange 원본 위치 유지 정책을 구성 하 고 해당 사서함을 원본 위치 유지 상태로 설정 합니다. 이러한 정책을 구성 하는 방법에 대 한 자세한 내용은 Exchange 2013 제품 설명서를 참조 하십시오.
+  - 배포의 모든 사용자에 대해 Microsoft Exchange 통합을 사용 하는 경우 사용자에 대해 Lync Server 2013 보관 정책을 구성할 필요가 없습니다. 대신 Exchange 2013에 있는 사용자에 대 한 보관을 지원 하도록 Exchange In-Place 보존 정책을 구성 하 고 해당 사서함을 In-Place 보류에 배치 합니다. 이러한 정책을 구성 하는 방법에 대 한 자세한 내용은 Exchange 2013 제품 설명서를 참조 하십시오.
 
-  - 배포의 모든 사용자에 대해 Microsoft Exchange 통합을 사용 하지 않는 경우에는 Lync Server 보관 데이터베이스 (SQL Server 데이터베이스)를 토폴로지에 추가 하 고 게시 한 후에 사용자에 대 한 정책 및 설정을 구성 해야 합니다. 해당 사용자에 대 한 보관 데이터 보관 데이터베이스는 토폴로지를 처음 배포할 때 함께 배포하거나 하나 이상의 프런트 엔드 풀 또는 Standard Edition 서버를 배포한 후에 배포할 수 있습니다. 이 문서에서는 기존 배포에 보관 데이터베이스를 추가하여 배포하는 방법에 대해 설명합니다.
+  - 배포의 모든 사용자에 대해 Microsoft Exchange 통합을 사용 하지 않는 경우에는 Lync Server 보관 데이터베이스 (SQL Server 데이터베이스)를 토폴로지에 추가 하 고 게시 한 다음 사용자에 대 한 정책 및 설정을 구성 하 여 해당 사용자에 대 한 데이터를 보관 해야 합니다. 보관 데이터베이스는 토폴로지를 처음 배포할 때 함께 배포하거나 하나 이상의 프런트 엔드 풀 또는 Standard Edition 서버를 배포한 후에 배포할 수 있습니다. 이 문서에서는 기존 배포에 보관 데이터베이스를 추가하여 배포하는 방법에 대해 설명합니다.
 
 하나의 프런트 엔드 풀 또는 Standard Edition 서버에서 보관을 사용하도록 설정한 경우 배포에 포함된 다른 모든 프런트 엔드 풀 및 Standard Edition 서버에 대해서도 보관을 사용하도록 설정해야 합니다. 통신을 보관해야 하는 사용자가 다른 풀에서 호스팅되는 그룹 IM 대화 또는 모임에 초대될 수 있기 때문입니다. 대화 또는 모임이 호스팅되는 풀에 보관이 설정되어 있지 않으면 전체 세션이 보관되지 않을 수 있습니다. 이러한 경우 보관이 설정된 사용자의 IM은 보관할 수 있지만 회의 콘텐츠 파일 및 회의 입장 또는 퇴장 이벤트가 보관되지 않습니다.
 
@@ -121,8 +123,8 @@ _**마지막으로 수정 된 항목:** 2012-10-18_
 </tr>
 <tr class="even">
 <td><p><strong>보관 정책 및 구성 설정</strong></p></td>
-<td><p>Microsoft Exchange 통합, 전역 정책 및 모든 사이트 및 사용자 정책 (모든 데이터 저장소에 대해 Microsoft Exchange 통합을 사용 하지 않을 때)을 사용할지 여부와 중요 모드 및 데이터와 같은 특정 보관 옵션을 포함 하 여 보관을 구성 합니다. 내보내기 및 제거</p>
-<p>Microsoft Exchange 통합을 사용 하는 경우 Exchange 원본 위치 유지 정책을 적절 하 게 구성 합니다.</p></td>
+<td><p>Microsoft Exchange 통합, 전역 정책 및 모든 사이트 및 사용자 정책 (모든 데이터 저장소에 대해 Microsoft Exchange 통합을 사용 하지 않을 때)을 사용할지 여부와 중요 모드 및 데이터 내보내기 및 제거와 같은 특정 보관 옵션을 포함 하 여 보관을 구성 합니다.</p>
+<p>Microsoft Exchange 통합을 사용 하는 경우 Exchange In-Place 보존 정책을 적절 하 게 구성 합니다.</p></td>
 <td><p>RTCUniversalServerAdmins 그룹(Windows PowerShell만) 또는 사용자를 CSArchivingAdministrator 또는 CSAdministrator 역할에 지정</p></td>
 <td><p>배포 설명서의 <a href="lync-server-2013-configuring-support-for-archiving.md">Lync Server 2013에서 보관에 대 한 지원 구성</a></p>
 <p>Exchange 제품 설명서 (Microsoft Exchange 통합을 사용 하는 경우)</p></td>

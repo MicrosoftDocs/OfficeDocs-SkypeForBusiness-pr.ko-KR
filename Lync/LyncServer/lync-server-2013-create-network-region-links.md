@@ -12,20 +12,22 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1af9c2d6b651fd127986d89d521e99745e1af384
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72e8c3d0fd254ba780b91d554402ca38d30f7073
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205594"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515565"
 ---
+# <a name="create-network-region-links-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 지역 링크 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-region-links-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 지역 링크 만들기
+
 
 </div>
 
@@ -83,9 +85,9 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 5.  **새 지역 링크** 페이지에서 **이름**을 클릭하고 네트워크 지역 링크에 대한 이름을 입력합니다.
 
-6.  **네트워크 지역 \#1**을 클릭 하 고 목록에서 네트워크 지역 \#2에 연결할 네트워크 지역을 클릭 합니다.
+6.  **네트워크 지역 \# 1**을 클릭 하 고 목록에서 네트워크 지역 2에 연결할 네트워크 지역을 클릭 \# 합니다.
 
-7.  **네트워크 지역 \#2**를 클릭 하 고 목록에서 네트워크 지역 \#1에 연결할 네트워크 지역을 클릭 합니다.
+7.  **네트워크 지역 \# 2**를 클릭 하 고 목록에서 네트워크 지역 1에 연결할 네트워크 지역을 클릭 \# 합니다.
 
 8.  (선택 사항) **대역폭 정책**을 클릭하고 네트워크 지역 링크에 적용할 대역폭 정책 프로필을 선택합니다.
     

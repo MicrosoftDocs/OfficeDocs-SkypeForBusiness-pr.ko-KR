@@ -12,20 +12,22 @@ ms:contentKeyID: 48185013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7252b2cda2f957dc72e006b7ce298bc5dd87fd5a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4409a0c5688d131b34c792230c992142dd4f9c51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206304"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514685"
 ---
+# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>Lync Server 2013에서 할당 되지 않은 번호 범위 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>Lync Server 2013에서 할당 되지 않은 번호 범위 만들기 또는 수정
+
 
 </div>
 
@@ -86,7 +88,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
     > <LI>
     > <P>범위의 시작 번호나 끝 번호에 내선 번호가 포함된 경우에는 범위의 시작 번호와 끝 번호 둘 다에 내선 번호가 포함되어야 하며, 내선 번호는 시작 번호와 끝 번호에 대해 같아야 합니다.</P>
     > <LI>
-    > <P>번호는 정규식 (tel:)과 일치 해야 합니다 ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9})?. 즉, 번호가 문자열 tel:(이 문자열을 지정하지 않으면 자동으로 추가됨), 더하기 기호(+) 및 숫자 1-9로 시작할 수 있습니다. 전화 번호는 최대 17자리이며 ;ext= 뒤에 내선 번호가 오는 형식으로 내선 번호를 추가할 수 있습니다.</P></LI></UL>
+    > <P>번호는 정규식 (tel:)? ()와 일치 해야 합니다. \+ [1-9] \d {0,17} (; ext = [1-9] \d {0,9} )?. 즉, 번호가 문자열 tel:(이 문자열을 지정하지 않으면 자동으로 추가됨), 더하기 기호(+) 및 숫자 1-9로 시작할 수 있습니다. 전화 번호는 최대 17자리이며 ;ext= 뒤에 내선 번호가 오는 형식으로 내선 번호를 추가할 수 있습니다.</P></LI></UL>
 
     
     </div>

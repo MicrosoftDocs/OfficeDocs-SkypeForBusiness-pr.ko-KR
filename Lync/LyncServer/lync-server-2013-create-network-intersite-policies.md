@@ -12,20 +12,22 @@ ms:contentKeyID: 48185148
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae7024aa0a9f5c5734762ed0accb6e1dc723f2b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 55c8523fe86cfee7b9e2332e459959b096831abb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515595"
 ---
+# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 사이트 간 정책 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 사이트 간 정책 만들기
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 </div>
 
-예제 토폴로지 북미 지역에는 리노 및 앨버커키 사이트 간의 직접 링크가 있습니다. 이러한 두 사이트에는 적절 한 대역폭 정책 프로필을 적용 하는 사이트 간 정책이 필요 합니다. 다음은 20Mb\_링크 프로필을 적용 하는 예제입니다.
+예제 토폴로지 북미 지역에는 리노 및 앨버커키 사이트 간의 직접 링크가 있습니다. 이러한 두 사이트에는 적절 한 대역폭 정책 프로필을 적용 하는 사이트 간 정책이 필요 합니다. 다음은 20Mb 링크 프로필을 적용 하는 예제 \_ 입니다.
 
 <div>
 
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-2.  Remove-csnetworkintersitepolicy cmdlet을 실행 하 여 네트워크 간 정책을 만들고 직접 상호 연결 된 두 사이트에 적절 한 대역폭 정책 프로필을 적용 합니다. 예를 들어 다음을 실행합니다.
+2.  New-CsNetworkInterSitePolicy cmdlet을 실행 하 여 네트워크 간 정책을 만들고 직접 상호 연결 된 두 사이트에 적절 한 대역폭 정책 프로필을 적용 합니다. 예를 들어 다음을 실행합니다.
     
         New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a65dd081cacd9952ce1b9a7f0917209532a28cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e281b85879063cacb9538d03fe221a4bf96b6bc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204794"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514215"
 ---
+# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Lync Server 2013에 대 한 백업 및 복원 전략 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Lync Server 2013에 대 한 백업 및 복원 전략 설정
+
 
 </div>
 
@@ -69,15 +71,15 @@ Lync Server에 대 한 백업 및 복원 계획을 개발 하려면 먼저 조�
 
 비즈니스 우선 순위 및 서비스 수준 계약은 Lync Server 백업 및 복원에 대 한 조직의 요구 사항을 결정 하는 데 작용 합니다. 다음에 대한 요구 사항을 식별하고 문서화합니다.
 
-  - **백업 주기**백업 빈도에 대 한 자세한 내용은 [Lync Server 2013의 백업 및 복원에](lync-server-2013-best-practices-for-backup-and-restoration.md)대 한 모범 사례를 참조 하십시오.   
+  - **백업 빈도**     백업 빈도 모범 사례에 대 한 자세한 내용은 [Lync Server 2013의 백업 및 복원에 대 한 모범 사례](lync-server-2013-best-practices-for-backup-and-restoration.md)를 참조 하세요.
 
-  - **백업 및 복원 도구**   에는 도구를 사용 하는 사람 및 해당 하는 컴퓨터가 포함 됩니다. 이 항목에서 설명 하는 도구와 필요한 권한에 대 한 자세한 내용은 [Lync Server 2013의 백업 및 복원 요구 사항: 도구 및 사용 권한](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)를 참조 하십시오.
+  - **백업 및 복원 도구**     도구를 사용할 사람 및 해당 컴퓨터를 포함 합니다. 이 항목에서 설명 하는 도구와 필요한 권한에 대 한 자세한 내용은 [Lync Server 2013의 백업 및 복원 요구 사항: 도구 및 사용 권한](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)를 참조 하십시오.
 
-  - **백업 위치**   백업이 로컬로 또는 원격으로 진행 되 고 있는지 여부를 확인 하 고 보안 및 접근성을 고려 합니다. 백업에 사용할 미디어를 지정합니다.
+  - **백업 위치**     백업이 로컬로 유지 되는지 또는 원격으로 진행 되 고 있는지 확인 하 여 보안 및 접근성을 고려 합니다. 백업에 사용할 미디어를 지정합니다.
 
-  - **하드웨어 및 소프트웨어 요구 사항**   에서는 백업 및 복원을 지 원하는 데 필요한 소프트웨어 및 네트워크 연결 및 특정 구성 요소의 복원과 관련 된 하드웨어 및 소프트웨어 요구 사항을 식별 하 고 문서화 합니다. 하드웨어 및 소프트웨어 요구 사항을 개발할 때는 다음과 같은 여러 복원 시나리오를 고려합니다.
+  - **하드웨어 및 소프트웨어 요구 사항**     백업 저장 및 백업 및 복원을 지 원하는 데 필요한 모든 소프트웨어 및 네트워크 연결에 대 한 하드웨어 및 복구를 포함 하 여 특정 하드웨어 및 소프트웨어 요구 사항을 식별 하 고 문서화 합니다. 하드웨어 및 소프트웨어 요구 사항을 개발할 때는 다음과 같은 여러 복원 시나리오를 고려합니다.
 
-  - **복원 시나리오**   여기서는 다음과 같은 시나리오에 대 한 복원 프로세스를 소개 합니다.
+  - **복원 시나리오**     다음 시나리오에 대 한 복원 프로세스는 다음과 같습니다.
     
       - Lync Server 풀에 오류가 발생 합니다. 이 시나리오에서는 풀에 각 서버를 다시 구축해야 합니다.
     

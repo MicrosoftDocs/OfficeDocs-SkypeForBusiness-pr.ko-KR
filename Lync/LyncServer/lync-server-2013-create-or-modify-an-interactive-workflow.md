@@ -12,20 +12,22 @@ ms:contentKeyID: 48185260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21ce360c523573af90daecca55fba1eb8a52876d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79af52b46c25796127fcb345360ed9f424ca3bf3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202864"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514765"
 ---
+# <a name="create-or-modify-an-interactive-workflow-in-lync-server-2013"></a>Lync Server 2013에서 대화형 워크플로 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-interactive-workflow-in-lync-server-2013"></a>Lync Server 2013에서 대화형 워크플로 만들기 또는 수정
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
 
 
 > [!NOTE]  
-> Lync Server 관리 셸 또는 응답 그룹 구성 도구를 사용 하 여 대화형 워크플로를 만들고 수정할 수 있습니다. Lync Server 제어판에서 응답 그룹 구성 도구에 액세스 하거나, 다음 URL: <STRONG>https://</STRONG>&lt;webpoolfqdn&gt;<STRONG>/RgsConfig</STRONG>을 입력 하 여 웹 브라우저에서 페이지를 직접 열 수 있습니다.
+> Lync Server 관리 셸 또는 응답 그룹 구성 도구를 사용 하 여 대화형 워크플로를 만들고 수정할 수 있습니다. Lync Server 제어판에서 응답 그룹 구성 도구에 액세스 하거나, 다음 URL: <STRONG>Https://</STRONG> &lt; webpoolfqdn &gt; <STRONG>/RgsConfig</STRONG>을 입력 하 여 웹 브라우저에서 페이지를 직접 열 수 있습니다.
 
 
 
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 응답 그룹 구성 도구가 열립니다. <STRONG>Https://</STRONG>&lt;webpoolfqdn&gt;<STRONG>/RgsConfig</STRONG>URL을 입력 하 여 웹 브라우저에서 직접 응답 그룹 구성 도구를 열 수도 있습니다.
+    > 응답 그룹 구성 도구가 열립니다. <STRONG>Https://</STRONG> &lt; webpoolfqdn &gt; <STRONG>/RgsConfig</STRONG>URL을 입력 하 여 웹 브라우저에서 직접 응답 그룹 구성 도구를 열 수도 있습니다.
 
     
     </div>
@@ -128,7 +130,7 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 표시 이름에 "&lt;" 또는 "&gt;" 문자를 포함 하지 마십시오. RGS Presence Watcher 또는 알림 서비스는 예약되어 있으므로 표시 이름으로 사용할 수 없습니다.
+    > &lt;표시 이름에 "" 또는 "" 문자를 포함 하지 마십시오 &gt; . RGS Presence Watcher 또는 알림 서비스는 예약되어 있으므로 표시 이름으로 사용할 수 없습니다.
 
     
     </div>
@@ -247,11 +249,11 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
       - 통화 연결을 끊으려면 **전화 끊기**를 클릭합니다.
     
-      - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환**을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 \<주소 형식은 사용자 이름\>@\<domainname\> (예: bob@contoso.com)입니다.
+      - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환**을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소 형식은 \<username\> @ \<domainname\> (예: bob@contoso.com)입니다.
     
-      - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환**을 클릭하고 사용자 주소를 입력합니다. \<사용자 주소 형식은 username\>@\<domainname\>입니다.
+      - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환**을 클릭하고 사용자 주소를 입력합니다. 사용자 주소 형식은 \<username\> @ \<domainname\> 입니다.
     
-      - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환**을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 \<번호\>@\<domainname\> (예: + 14255550121@contoso.com)입니다. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
+      - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환**을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 \<number\> @ \<domainname\> (예: + 14255550121@contoso.com)입니다. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
 
 24. **5단계 휴일 지정** 아래에서 응답 그룹이 근무하지 않는 요일을 정의하는 하나 이상의 휴일 집합에 대한 확인란을 클릭합니다.
     
@@ -292,11 +294,11 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
       - 통화 연결을 끊으려면 **전화 끊기**를 클릭합니다.
     
-      - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환**을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 \<주소 형식은 사용자 이름\>@\<domainname\> (예: bob@contoso.com)입니다.
+      - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환**을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소 형식은 \<username\> @ \<domainname\> (예: bob@contoso.com)입니다.
     
-      - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환**을 클릭하고 사용자 주소를 입력합니다. \<사용자 주소 형식은 username\>@\<domainname\>입니다.
+      - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환**을 클릭하고 사용자 주소를 입력합니다. 사용자 주소 형식은 \<username\> @ \<domainname\> 입니다.
     
-      - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환**을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 \<번호\>@\<domainname\> (예: + 14255550121@contoso.com)입니다. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
+      - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환**을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 \<number\> @ \<domainname\> (예: + 14255550121@contoso.com)입니다. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
 
 27. **6단계 대기 음악 구성** 아래에서 다음 중 하나를 수행하여 에이전트를 기다리는 동안 발신자에게 들려줄 음악을 선택합니다.
     

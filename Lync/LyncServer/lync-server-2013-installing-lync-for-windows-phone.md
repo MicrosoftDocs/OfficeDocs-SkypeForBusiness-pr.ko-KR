@@ -12,20 +12,22 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de018fee2d4e9906c8eee3bd59ff360ce1db94a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ac77a8402a62929bcb043ebd165a41605b17351
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514185"
 ---
+# <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a>Lync Server 2013에서 Windows Phone 용 Lync 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a>Lync Server 2013에서 Windows Phone 용 Lync 설치
+
 
 </div>
 
@@ -43,7 +45,7 @@ Windows Phone 용 Lync 2013는 Windows Phone 마켓플레이스에 제공 되는
 
 ## <a name="installing-lync-for-windows-mobile"></a>Lync for Windows Mobile 설치
 
-사용자에 게 장치에서 windows Phone 용 Lync 2013을 설치 하도록 지시할 수 있습니다 <https://go.microsoft.com/fwlink/p/?linkid=231901>.
+사용자에 게 장치에서 windows Phone 용 Lync 2013을 설치 하도록 지시할 수 있습니다 <https://go.microsoft.com/fwlink/p/?linkid=231901> .
 
 </div>
 
@@ -51,7 +53,7 @@ Windows Phone 용 Lync 2013는 Windows Phone 마켓플레이스에 제공 되는
 
 ## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a>DNS SRV 레코드를 사용 하 여 Exchange 웹 서비스를 게시 하는 경우
 
-Lync 클라이언트에 대해 Exchange 통합을 사용 하도록 설정 하기 위해 일부 조직에서는 DNS SRV 레코드를 사용 하 여 Exchange 웹 서비스 URL을 게시 합니다. Microsoft 다운로드 센터 [https://go.microsoft.com/fwlink/?LinkID=391095](https://go.microsoft.com/fwlink/?linkid=391095)에서 제공 하는 "Exchange 통합 이해 및 문제 해결" 문서에서이 작업이 필요할 수 있는 시나리오에 대해 설명 합니다. 그러나 Windows Phone 플랫폼은 SRV 조회를 지원 하지 않으므로이 시나리오에서는 Windows Phone 사용자에 대 한 Exchange 통합이 작동 하지 않습니다. 전화를 통해 서버를 자동으로 검색 하도록 허용 하는 대신 Windows Phone 사용자에 게 Exchange 웹 서비스 URL을 지정 하도록 지시 해야 합니다.
+Lync 클라이언트에 대해 Exchange 통합을 사용 하도록 설정 하기 위해 일부 조직에서는 DNS SRV 레코드를 사용 하 여 Exchange 웹 서비스 URL을 게시 합니다. Microsoft 다운로드 센터에서 제공 하는 "Exchange 통합 이해 및 문제 해결" 문서에서 [https://go.microsoft.com/fwlink/?LinkID=391095](https://go.microsoft.com/fwlink/?linkid=391095) 이 작업이 필요할 수 있는 시나리오에 대해 설명 합니다. 그러나 Windows Phone 플랫폼은 SRV 조회를 지원 하지 않으므로이 시나리오에서는 Windows Phone 사용자에 대 한 Exchange 통합이 작동 하지 않습니다. 전화를 통해 서버를 자동으로 검색 하도록 허용 하는 대신 Windows Phone 사용자에 게 Exchange 웹 서비스 URL을 지정 하도록 지시 해야 합니다.
 
 사용자가 다음과 같이 Windows phone에서 Lync 설정을 구성 하도록 합니다.
 

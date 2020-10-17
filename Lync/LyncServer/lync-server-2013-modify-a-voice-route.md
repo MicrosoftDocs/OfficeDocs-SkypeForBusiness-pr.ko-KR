@@ -12,20 +12,22 @@ ms:contentKeyID: 48185143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e04f3a46d283139e745f1430f835222f25d4d912
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6e2a3f255a77d7773d24d654c5c207b59b887bc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184951"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515345"
 ---
+# <a name="modify-a-voice-route-in-lync-server-2013"></a>Lync Server 2013에서 음성 경로 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-voice-route-in-lync-server-2013"></a>Lync Server 2013에서 음성 경로 수정
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
         
           - **예외:** 접두사 값에 대해 하나 이상의 예외를 지정 하려면 접두사를 강조 표시 하 고 **예외**를 클릭 합니다. 이 경로에 적용 *하지* 않을 일치 패턴에 대해 하나 이상의 값을 입력 합니다. 예를 들어 경로에서 + 425237로 시작 하는 숫자를 제외 하려면 **예외** 필드에 **+ 425237** 값을 입력 하 고 **확인**을 클릭 합니다.
     
-      - 일치 패턴을 수동으로 정의 하려면 **일치 시킬 패턴 작성** 도구에서 **편집** 을 클릭 한 다음 .net Framework 정규식을 입력 하 여 경로가 적용 되는 대상 전화 번호에 대 한 일치 패턴을 지정 합니다. 정규식을 작성 하는 방법에 대 한 자세한 내용은의 ".NET Framework 정규식" [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)을 참조 하십시오.
+      - 일치 패턴을 수동으로 정의 하려면 **일치 시킬 패턴 작성** 도구에서 **편집** 을 클릭 한 다음 .net Framework 정규식을 입력 하 여 경로가 적용 되는 대상 전화 번호에 대 한 일치 패턴을 지정 합니다. 정규식을 작성 하는 방법에 대 한 자세한 내용은의 ".NET Framework 정규식"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) .
 
 8.  통화 수신자에 게 아웃 바운드 통화를 표시 하는 전화의 ID를 설정 하지 않으려면 **발신자 Id 표시 안** 함을 선택 합니다. 이 옵션을 선택 하는 경우 받는 사람의 발신자 ID 표시에 표시 되는 **대체 발신자 id** 를 지정 해야 합니다.
 

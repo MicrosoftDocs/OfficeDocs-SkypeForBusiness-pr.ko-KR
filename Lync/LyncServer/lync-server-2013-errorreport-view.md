@@ -12,20 +12,22 @@ ms:contentKeyID: 49733821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e635cd289f0224a7f8d4106cecc3d8b047e9bb92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8792154c88c74049a785ddfb9ebbca55a52bc26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207535"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514455"
 ---
+# <a name="errorreport-view-in-lync-server-2013"></a>Lync Server 2013의 ErrorReport 보기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorreport-view-in-lync-server-2013"></a>Lync Server 2013의 ErrorReport 보기
+
 
 </div>
 
@@ -198,12 +200,12 @@ ErrorReport 보기에는 보고된 오류에 대한 정보가 저장됩니다. �
 <td><p>오류에 대한 추가 정보입니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>프런트</strong></p></td>
+<td><p><strong>FrontEnd</strong></p></td>
 <td><p>varchar</p></td>
 <td><p>보고서를 전송한 프런트 엔드 서버의 정규화 된 도메인 이름입니다.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>그룹</strong></p></td>
+<td><p><strong>풀</strong></p></td>
 <td><p>varchar</p></td>
 <td><p>보고서를 전송한 프런트 엔드 서버가 포함 된 풀의 정규화 된 도메인 이름입니다.</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 791fa7e697622a4274655a77a2f02a6cdee140cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6c394d3535acb9b1842ac49f13eda1459d68c95
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213454"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514515"
 ---
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Lync Server 2013의 전화 접속 회의 구성 필수 구성 요소 및 사용 권한
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Lync Server 2013의 전화 접속 회의 구성 필수 구성 요소 및 사용 권한
+
 
 </div>
 
@@ -119,11 +121,11 @@ _**마지막으로 수정 된 항목:** 2012-06-20_
 
 전화 접속 회의를 구성 하려면 작업에 따라 다음과 같은 관리 역할이 필요 합니다.
 
-  - **CsVoiceAdministrator**   이 관리자 역할은 음성 관련 설정 및 정책을 만들고 구성 하 고 관리할 수 있습니다.
+  - **CsVoiceAdministrator**     이 관리자 역할은 음성 관련 설정 및 정책을 만들고 구성 하 고 관리할 수 있습니다.
 
-  - **Csuseradministrator**   이 관리자 역할은 Lync Server 사용자를 사용 하거나 사용 하지 않도록 설정 하 고, 사용자에 게 회의 정책 및 PIN 정책과 같은 기존 정책을 할당할 수 있습니다.
+  - **Csuseradministrator**     이 관리자 역할은 Lync Server 사용자를 사용 하거나 사용 하지 않도록 설정 하 고, 회의 정책 및 PIN 정책과 같은 기존 정책을 사용자에 게 할당할 수 있습니다.
 
-  - **Csadministrator**   이 관리자 역할은 CsVoiceAdministrator 및 csuseradministrator의 모든 작업을 수행할 수 있습니다.
+  - **Csadministrator**     이 관리자 역할은 CsVoiceAdministrator 및 CsUserAdministrator의 모든 작업을 수행할 수 있습니다.
 
 </div>
 

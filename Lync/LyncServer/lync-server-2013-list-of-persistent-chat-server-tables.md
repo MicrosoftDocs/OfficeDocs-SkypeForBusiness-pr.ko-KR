@@ -12,20 +12,22 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65560cd792fe4132cf20f3b32824b2c828ae757
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da3069fdd039cb394308f3901ae9805b9023e15d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513885"
 ---
+# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버 테이블 목록
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버 테이블 목록
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tbladupdates.md">Lync Server 2013의 tblADUpdates</a></p></td>
-<td><p>후속 Active Directory 동기화 단계에서 아직 처리 되지 않고 active directory의 첫 단계에서 사용 되는 임시 테이블 (tblPrincipalMemberDifference과 함께) 중 하나인 Active Directory 도메인 서비스에 대 한 변경 내용을 포함 합니다. Activesync.</p>
+<td><p>후속 Active Directory 동기화 단계에서 아직 처리 되지 않은 Active Directory 도메인 서비스에 대 한 변경 내용을 포함 하 고, Active Directory 동기화의 첫 단계에서 사용 되는 임시 테이블 (tblPrincipalMemberDifference table과 함께) 중 하나입니다.</p>
 <p>Active Directory에 대 한 변경 내용은 tblPrincipal 테이블에 이미 나열 된 보안 주체에 대해서만 저장 또는 처리 됩니다.</p></td>
 </tr>
 <tr class="even">
@@ -143,11 +145,11 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblenumattribute.md">Lync Server 2013의 tblEnumAttribute</a></p></td>
-<td><p>TblNode 테이블에서 &quot;사용&quot; 되 &quot;는&quot; 하드 코드 된 Visibility 및 Behavior 특성만 포함 합니다.</p></td>
+<td><p>&quot; &quot; &quot; &quot; Tblnode 테이블에서 사용 되는 하드 코드 된 Visibility 및 Behavior 특성만 포함 합니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblenumvalue.md">Lync Server 2013의 tblEnumValue</a></p></td>
-<td><p>TblNode 테이블에서 사용 되 &quot;는 하드 코드 된 Visibility&quot; "및" Behavior 특성의 값을 포함 합니다.</p></td>
+<td><p>&quot;TblNode 테이블에서 사용 되는 하드 코드 된 Visibility "및" Behavior 특성의 값을 포함 합니다 &quot; .</p></td>
 </tr>
 </tbody>
 </table>

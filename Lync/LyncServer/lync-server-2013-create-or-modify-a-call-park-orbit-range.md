@@ -12,20 +12,22 @@ ms:contentKeyID: 48184142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fe04aea0cc0d6ab38b0bfa9597b420d608c7597
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1ecf0a1313519a74bb054c7fa3b441580758018
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180145"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514785"
 ---
+# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>Lync Server 2013에서 통화 대기 번호 범위 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>Lync Server 2013에서 통화 대기 번호 범위 만들기 또는 수정
+
 
 </div>
 
@@ -80,7 +82,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
     > <LI>
     > <P>파킹된 통화 번호 범위가 * 또는 # 문자로 시작하는 경우 범위는 100보다 커야 합니다.</P>
     > <LI>
-    > <P>유효한 값: 정규식 문자열과 일치 해야 합니다 ([\*| #]? [ 1-9] \d{0,7}) | ([1-9] \d{0,8}). 즉, 값은 * 또는 # 문자나 1~9 사이의 숫자로 시작하는 문자열이어야 하며, 첫 문자가 0일 수는 없습니다. 첫 문자가 * 또는 #인 경우 다음 문자는 숫자 1-9여야 합니다(0일 수 없음). 이후 문자에는 0에서 9 까지의 추가 문자 (예: "#6000", "*92000", "* 95551212" 및 "915551212")가 최대 7 자까지 있을 수 있습니다. 첫 문자가 * 또는 #이 아닌 경우 첫 문자는 숫자 1-9여야 하고(0일 수 없음) 그 뒤에는 숫자 0-9가 최대 8자까지 올 수 있습니다(예: "915551212", "41212", "300").</P>
+    > <P>유효한 값: 정규식 문자열과 일치 해야 합니다 ([ \* | #]? [ 1-9] \d {0,7} ) | ([1-9] \d {0,8} ). 즉, 값은 * 또는 # 문자나 1~9 사이의 숫자로 시작하는 문자열이어야 하며, 첫 문자가 0일 수는 없습니다. 첫 문자가 * 또는 #인 경우 다음 문자는 숫자 1-9여야 합니다(0일 수 없음). 이후 문자에는 0에서 9 까지의 추가 문자 (예: "#6000", "*92000", "* 95551212" 및 "915551212")가 최대 7 자까지 있을 수 있습니다. 첫 문자가 * 또는 #이 아닌 경우 첫 문자는 숫자 1-9여야 하고(0일 수 없음) 그 뒤에는 숫자 0-9가 최대 8자까지 올 수 있습니다(예: "915551212", "41212", "300").</P>
     > <LI>
     > <P>풀당 파킹된 통화 번호는 5만 개까지 포함할 수 있습니다. 각 파킹된 통화 번호 범위에는 일반적으로 100개 이하의 파킹된 통화 번호가 포함되지만, 그보다 훨씬 커질 수도 있습니다(1만 개 이하의 파킹된 통화 번호 포함). 예를 들어 시작 번호를 "7000000"로, 끝 번호를 "8000000"으로 지정하는 대신 시작 번호를 "7000000"로, 끝 번호를 "7000100"으로 지정할 수 있습니다.</P></LI></UL>
 

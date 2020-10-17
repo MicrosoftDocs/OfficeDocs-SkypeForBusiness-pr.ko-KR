@@ -12,20 +12,22 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 692cfd5f04a80a674fffb5e3a0f2f1890309c371
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1eaaebf1fb695bc1ee6ea1b86f980a666cf0a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515535"
 ---
+# <a name="dns-summary---single-director-in-lync-server-2013"></a>Lync Server 2013의 DNS 요약-단일 디렉터
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-director-in-lync-server-2013"></a>Lync Server 2013의 DNS 요약-단일 디렉터
+
 
 </div>
 
@@ -60,31 +62,31 @@ _**마지막으로 수정 된 항목:** 2012-10-20_
 <tr class="odd">
 <td><p>내부 DNS/A</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>복제 및 서버 간 서버에 사용 되는 디렉터 호스트 레코드</p></td>
 </tr>
 <tr class="even">
 <td><p>내부 DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>에 지 서버의 내부에 지 인터페이스에서 인바운드 SIP (세션 시작 프로토콜)</p></td>
 </tr>
 <tr class="odd">
 <td><p>내부 DNS/A</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>역방향 프록시에서 게시된 전화 접속 웹 서비스</p></td>
 </tr>
 <tr class="even">
 <td><p>내부 DNS/A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>역방향 프록시에서 게시된 모임 웹 서비스</p></td>
 </tr>
 <tr class="odd">
 <td><p>내부 DNS/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>디렉터에 대 한 역방향 프록시 웹 티켓 외부 웹 서비스에서 게시 및 정의 됨</p></td>
 </tr>
 </tbody>

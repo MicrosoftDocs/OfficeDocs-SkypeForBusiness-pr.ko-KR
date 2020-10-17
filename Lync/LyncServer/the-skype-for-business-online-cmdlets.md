@@ -12,20 +12,22 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ee81531ca8d900225d2b8dc2a10af55718a5b67
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8ee2e51d9554e4c986bacdcb876fc5b42464477f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755712"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514965"
 ---
+# <a name="the-skype-for-business-online-cmdlets"></a>비즈니스용 Skype 온라인 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-skype-for-business-online-cmdlets"></a>비즈니스용 Skype 온라인 cmdlet
+
 
 </div>
 

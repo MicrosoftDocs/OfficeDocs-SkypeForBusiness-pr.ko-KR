@@ -12,20 +12,22 @@ ms:contentKeyID: 48183368
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec6c3ada06312f816a75f5539593336addc8d2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5cf4a26c9f0b36cd239daabbc2538716e2bcd3c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196981"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515775"
 ---
+# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 자동 검색 서비스 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 자동 검색 서비스 요구 사항
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**마지막으로 수정 된 항목:** 2013-02-25_
 
 자동 검색 서비스를 게시하는 포트(포트 80 또는 포트 443)에 따라 역방향 프록시에서 주체 대체 이름 목록을 사용할지 여부를 결정합니다.
 
-  - **포트 80**   에 게시 자동 검색 서비스에 대 한 초기 쿼리가 포트 80를 통해 수행 되는 경우 인증서 변경이 필요 하지 않습니다. Lync를 실행 하는 모바일 장치는 외부에서 포트 80의 역방향 프록시에 액세스 한 다음 내부적으로 포트 8080에서 디렉터 또는 프런트 엔드 서버로 리디렉션되도록 하기 때문입니다. 자세한 내용은 이 항목 뒷부분의 "포트 80을 사용하는 초기 자동 검색 프로세스" 섹션을 참조하십시오.
+  - **포트 80**     에 게시 됨 포트 80을 통해 자동 검색 서비스에 대 한 초기 쿼리를 수행 하는 경우에는 인증서를 변경할 필요가 없습니다. Lync를 실행 하는 모바일 장치는 외부에서 포트 80의 역방향 프록시에 액세스 한 다음 내부적으로 포트 8080에서 디렉터 또는 프런트 엔드 서버로 리디렉션되도록 하기 때문입니다. 자세한 내용은 이 항목 뒷부분의 "포트 80을 사용하는 초기 자동 검색 프로세스" 섹션을 참조하십시오.
 
-  - **포트 443**   에 게시 외부 웹 서비스 게시 규칙에서 사용 하는 인증서의 주체 대체 이름 목록에는 *lyncdiscover가 포함\< 되어야 합니다. 조직\> * 내의 각 SIP 도메인에 대 한 microsoft.rtc.management.xds.sipdomain object 항목
+  - **포트 443**     에 게시 됨 외부 웹 서비스 게시 규칙에서 사용 하는 인증서의 주체 대체 이름 목록에는 *lyncdiscover \<sipdomain\> * 가 포함 되어야 합니다. 조직 내의 각 SIP 도메인에 대 한 항목입니다.
 
 내부 인증 기관을 사용 하 여 인증서 재발급은 일반적으로 단순 진행 되지만, 웹 서비스 게시 규칙에 사용 되는 공용 인증서의 경우에는 여러 주체 대체 이름 항목을 추가 하는 데 많은 비용이 소요 될 수 있습니다. 이 문제를 해결 하려면 포트 80을 통한 초기 자동 검색 연결을 지원 하며, 그러면 디렉터 또는 프런트 엔드 서버의 포트 8080로 리디렉션됩니다.
 
@@ -59,7 +61,7 @@ _**마지막으로 수정 된 항목:** 2013-02-25_
 
 2.  외부 DNS는 외부 웹 서비스의 IP 주소를 클라이언트에 반환 합니다.
 
-3.  Lync Mobile을 실행 하는 모바일 http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com 장치가 역방향 프록시로 요청을 전송 합니다.
+3.  Lync Mobile http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com 을 실행 하는 모바일 장치가 역방향 프록시로 요청을 전송 합니다.
 
 4.  웹 게시 규칙은 포트 80에서 포트 8080 내부로 요청을 브리지로 연결 하 여 디렉터 또는 프런트 엔드 서버로 라우팅합니다.
     
@@ -77,7 +79,7 @@ _**마지막으로 수정 된 항목:** 2013-02-25_
     
 
     > [!NOTE]  
-    > 대상 웹 서버의 인증서에 주체 대체 이름 목록 값으로 lyncdiscover.contoso.com과 일치하는 값이 포함되어 있지 않은 경우에는 다음과 같은 작업이 수행됩니다.<BR>&nbsp;는 "server Hello"로 응답 하며 인증서를 포함 하지&nbsp;&nbsp;않습니다.<BR>b. Lync mobile을 실행 하는&nbsp;모바일 장치에서 즉시 세션을 종료 합니다.&nbsp;&nbsp;<BR>대상 웹 서버의 인증서에 주체 대체 이름 목록 값으로 lyncdiscover.contoso.com이 포함되어 있는 경우에는 다음과 같은 작업이 수행됩니다.<BR>a.&nbsp;&nbsp;&nbsp;웹 서버는 "서버 hello"와 인증서로 응답 합니다.<BR>b. Lync mobile을 실행 하는&nbsp;모바일 장치가 인증서의 유효성을 검사 하 고 핸드셰이크를 완료 합니다.&nbsp;&nbsp;
+    > 대상 웹 서버의 인증서에 주체 대체 이름 목록 값으로 lyncdiscover.contoso.com과 일치하는 값이 포함되어 있지 않은 경우에는 다음과 같은 작업이 수행됩니다.<BR>a. &nbsp; &nbsp; &nbsp; 웹 서버가 "Server Hello"로 응답 하 고 인증서를 사용 하지 않습니다.<BR>b를 &nbsp; &nbsp; &nbsp; Lync Mobile을 실행 하는 모바일 장치가 즉시 세션을 종료 합니다.<BR>대상 웹 서버의 인증서에 주체 대체 이름 목록 값으로 lyncdiscover.contoso.com이 포함되어 있는 경우에는 다음과 같은 작업이 수행됩니다.<BR>a. &nbsp; &nbsp; &nbsp; 웹 서버는 "서버 hello"와 인증서로 응답 합니다.<BR>b를 &nbsp; &nbsp; &nbsp; Lync Mobile을 실행 하는 모바일 장치가 인증서의 유효성을 검사 하 고 핸드셰이크를 완료 합니다.
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e95d746d323e803bf7dbc37e8cdaebcdd1d655c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6eb6de7f2ba23d52a7b508869dbb25c9c5e3802
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213494"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514495"
 ---
+# <a name="diagnostic-report-in-lync-server-2013"></a>Lync Server 2013의 진단 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="diagnostic-report-in-lync-server-2013"></a>Lync Server 2013의 진단 보고서
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**마지막으로 수정 된 항목:** 2014-02-07_
 
 <div>
 
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에서는 각 세션에 대해 진단 보고서에 제공된 정보를 보여 줍니다.
 
