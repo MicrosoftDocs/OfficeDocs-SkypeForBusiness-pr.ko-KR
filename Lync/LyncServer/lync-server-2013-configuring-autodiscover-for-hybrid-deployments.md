@@ -12,20 +12,22 @@ ms:contentKeyID: 51541521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6015603d2c8c151cbe9d9b76410e51708f3ba9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1b96727af805107e7101c395d7c545c4e4967b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188451"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502195"
 ---
+# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Lync Server 2013에서 하이브리드 배포에 대 한 자동 검색 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Lync Server 2013에서 하이브리드 배포에 대 한 자동 검색 구성
+
 
 </div>
 
@@ -55,13 +57,13 @@ _**마지막으로 수정 된 항목:** 2012-12-12_
 
 ## <a name="configuring-autodiscover-for-hybrid-deployments"></a>하이브리드 배포용 자동 검색 구성
 
-1.  [Lync Server 2013의 자동 검색 서비스 요구 사항](lync-server-2013-autodiscover-service-requirements.md)항목에서, get-help fqdn의 값을 검색 하려면 Get-CsHostingProvider를 사용 합니다.
+1.  [Lync Server 2013의 자동 검색 서비스 요구 사항](lync-server-2013-autodiscover-service-requirements.md)항목에서 Get-CsHostingProvider를 사용 하 여 proxyfqdn 특성 값을 검색 합니다.
 
 2.  Lync Server 관리 셸에서 다음을 입력 합니다.
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodisccoverservice.svc/root
     
-    여기서 \[identity\] 는 공유 SIP 주소 공간의 도메인 이름으로 대체 됩니다.
+    여기서 \[ identity \] 는 공유 SIP 주소 공간의 도메인 이름으로 대체 됩니다.
 
 </div>
 

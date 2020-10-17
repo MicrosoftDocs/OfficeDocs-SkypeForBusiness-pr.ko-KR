@@ -12,20 +12,22 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772ece86803f9fc499b38299621ccd491221f84b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d4390c2f3aa18820668415543496dfdcfd5aa79e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213074"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502355"
 ---
+# <a name="conference-summary-report-in-lync-server-2013"></a>Lync Server 2013의 전화 회의 요약 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a>Lync Server 2013의 전화 회의 요약 보고서
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2014-09-03_
 
 회의 요약 보고서에서는 온라인 회의 세션에 대한 전반적인 보기를 제공합니다. 일반적으로 회의에는 사용자가 2 명 이상 포함 되며 Microsoft Lync Server 2013 회의 서비스를 사용 해야 합니다. 비교적 피어 투 피어 세션에서는 일반적으로 사용자가 2명만 포함되며 Lync Server의 회의 서비스를 사용할 필요가 없습니다. 피어 투 피어 활동은 [Lync Server 2013의 피어 투 피어 활동 요약 보고서](lync-server-2013-peer-to-peer-activity-summary-report.md)에 보고 됩니다.
 
-전화 회의 요약 보고서에는 특정 기간 (매시간, 매일, 매주, 매월) 동안 개최 된 회의 수를 알리는 것은 물론, 해당 회의에 참가 한 총 사용자 수 및 고유한 전화 회의 총 수를 알리는 정보도 표시 됩니다. 이끌이.
+전화 회의 요약 보고서에는 특정 기간 (매시간, 매일, 매주, 매월) 동안 개최 된 회의 수를 알려 주고 해당 회의에 참가 한 총 사용자 수 및 고유한 회의 이끌이 총 수가 표시 됩니다.
 
 "고유한" 이끌이란 적어도 하나 이상의 회의를 예약한 모든 사람을 의미합니다. 예를 들어 Pilar Ackerman이 하나의 회의를 예약했다면 한 명의 고유한 이끌이가 됩니다. Ken Myer가 148개의 회의를 예약했어도 한 명의 고유한 이끌이로 계산됩니다. 예를 들어, 아래 표에는 8개의 예약된 회의가 표시되지만 고유한 이끌이는 단 3명인 Ken Myer, Pilar Ackerman 및 David Ahs뿐입니다.
 
@@ -188,19 +190,19 @@ _**마지막으로 수정 된 항목:** 2014-09-03_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>From</strong></p></td>
+<td><p><strong>시작</strong></p></td>
 <td><p>시간 범위의 시작 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜 및 시간을 입력합니다.</p>
 <p>7/7/2012 1:00 PM</p>
 <p>시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
 <p>7/7/2012</p>
 <p>주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</p>
 <p>7/3/2012</p>
-<p>주는 항상 일요일부터 토요일까지입니다.</p></td>
+<p>주는 항상 일요일부터 토요일까지로 실행됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>시간 범위의 종료 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 종료 날짜 및 시간을 입력합니다.</p>
-<p>2012/7/7 오후 1:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>종료 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시에 종료됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
 <p>7/7/2012</p>
 <p>주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</p>
@@ -226,7 +228,7 @@ _**마지막으로 수정 된 항목:** 2014-09-03_
 
 <div>
 
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에서는 전화 회의 요약 보고서에서 제공되는 정보를 보여 줍니다.
 

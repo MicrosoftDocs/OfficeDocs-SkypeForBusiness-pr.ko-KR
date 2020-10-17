@@ -12,20 +12,22 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc58e0f29ca0a562a94f771857d88da49d616064
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 505ae775e2735ba01bd02cd0104240ad8781f968
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199691"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502075"
 ---
+# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013에서 중앙 로깅 서비스에 대 한 시나리오 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013에서 중앙 로깅 서비스에 대 한 시나리오 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42199691"
 
 _**마지막으로 수정 된 항목:** 2014-02-05_
 
-시나리오는 범위 (전역, 사이트, 풀 또는 컴퓨터)와 중앙 로깅 서비스에서 사용할 공급자를 정의 합니다. 시나리오를 사용 하 여 공급자 (예: S4, 동안의 sipstack, IM 및 현재 상태)에 추적을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 시나리오를 구성 하 여 특정 문제 조건을 해결 하는 지정 된 논리 컬렉션에 대 한 모든 공급자를 그룹화 할 수 있습니다. 문제 해결 및 로깅 요구 사항에 맞게 시나리오를 수정 해야 하는 경우 Lync Server 2013 디버그 도구는 *a* 라는 함수를 포함 하는 Windows PowerShell 모듈 (예: *Edit-csclsscenario)* 을 제공 합니다. 이 모듈은 명명 된 시나리오의 속성을 편집 하는 데 목적이 있습니다. 이 항목에서는이 모듈이 작동 하는 방식에 대 한 예를 제공 합니다. Lync Server 2013 디버그 도구는 다음 링크에서 다운로드 됩니다.[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
+시나리오는 범위 (전역, 사이트, 풀 또는 컴퓨터)와 중앙 로깅 서비스에서 사용할 공급자를 정의 합니다. 시나리오를 사용 하 여 공급자 (예: S4, 동안의 sipstack, IM 및 현재 상태)에 추적을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 시나리오를 구성 하 여 특정 문제 조건을 해결 하는 지정 된 논리 컬렉션에 대 한 모든 공급자를 그룹화 할 수 있습니다. 문제 해결 및 로깅 요구 사항에 맞게 시나리오를 수정 해야 하는 경우 Lync Server 2013 디버그 도구는 *a* 라는 함수를 포함 하는 Windows PowerShell 모듈 (예: *Edit-csclsscenario)* 을 제공 합니다. 이 모듈은 명명 된 시나리오의 속성을 편집 하는 데 목적이 있습니다. 이 항목에서는이 모듈이 작동 하는 방식에 대 한 예를 제공 합니다. Lync Server 2013 디버그 도구는 다음 링크에서 다운로드 됩니다. [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
@@ -49,21 +51,21 @@ _**마지막으로 수정 된 항목:** 2014-02-05_
 
 </div>
 
-Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실행 하려면 CsAdministrator 또는 CsServerAdministrator의 RBAC (역할 기반 액세스 제어) 보안 그룹 또는 다음 중 하나를 포함 하는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 두 그룹 중에서 직접 만든 사용자 지정 RBAC 역할을 포함 하 여이 cmdlet이 할당 된 모든 RBAC 역할의 목록을 반환 하려면 Lync Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
+Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실행 하려면 CsAdministrator 또는 CsServerAdministrator의 RBAC (역할 기반 액세스 제어) 보안 그룹 또는 이러한 두 그룹 중 하나를 포함 하는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 직접 만든 사용자 지정 RBAC 역할을 포함 하 여이 cmdlet이 할당 된 모든 RBAC 역할의 목록을 반환 하려면 Lync Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
-예:
+예제:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-이 항목의 나머지 부분에서는 시나리오를 정의 하 고, 시나리오를 수정 하 고, 실행 중인 시나리오를 검색 하 고, 시나리오를 제거 하 고, 문제 해결을 최적화 하기 위해 시나리오에 포함 된 내용을 지정 하는 방법에 초점을 두고 중앙 로깅 서비스 명령을 실행 하는 방법에는 두 가지가 있습니다. 기본적으로\\C: Program Files\\Common Files\\Microsoft Lync Server 2013\\clscontroller에 있는 clscontroller를 사용할 수 있습니다. 또는 Lync Server 관리 셸을 사용 하 여 Windows PowerShell 명령을 실행할 수 있습니다. 중요 한 차이점은 CLSController .exe를 명령줄에서 사용 하는 경우 사용 가능한 시나리오를 제한적으로 선택할 수 있다는 것입니다. Windows PowerShell을 사용 하는 경우 로깅 세션에서 사용할 새 시나리오를 정의할 수 있습니다.
+이 항목의 나머지 부분에서는 시나리오를 정의 하 고, 시나리오를 수정 하 고, 실행 중인 시나리오를 검색 하 고, 시나리오를 제거 하 고, 문제 해결을 최적화 하기 위해 시나리오에 포함 된 내용을 지정 하는 방법에 초점을 두고 중앙 로깅 서비스 명령을 실행 하는 방법에는 두 가지가 있습니다. 기본적으로 C: \\ Program Files \\ Common Files \\ Microsoft Lync Server 2013 \\ clsagent에 있는 CLSController.exe를 사용할 수 있습니다. 또는 Lync Server 관리 셸을 사용 하 여 Windows PowerShell 명령을 실행할 수 있습니다. 중요 한 차이점은 명령줄에서 CLSController.exe을 사용할 때 선택할 수 있는 다양 한 시나리오를 사용 하는 것입니다. Windows PowerShell을 사용 하는 경우 로깅 세션에서 사용할 새 시나리오를 정의할 수 있습니다.
 
 [Lync Server 2013의 중앙화 된 로깅 서비스 개요에 설명](lync-server-2013-overview-of-the-centralized-logging-service.md)된 대로 시나리오의 요소는 다음과 같습니다.
 
-  - **공급자**   ocslogger 사용 하는 데 익숙한 경우 공급자는 ocslogger 추적 엔진이 로그를 수집 해야 하는 대상을 알리기 위해 선택한 구성 요소입니다. 공급자는 동일한 구성 요소 이며, 대부분의 경우에는 OCSLogger 있는 구성 요소와 이름이 같습니다. OCSLogger 사용 하는 방법을 잘 모르는 경우 공급자는 중앙 로깅 서비스가 로그를 수집할 수 있는 서버 역할 관련 구성 요소입니다. 공급자 구성에 대 한 자세한 내용은 [Lync Server 2013에서 중앙 로깅 서비스에 대 한 공급자 구성을](lync-server-2013-configuring-providers-for-centralized-logging-service.md)참조 하십시오.
+  - **공급자**     OCSLogger 사용 하는 데 익숙한 경우 공급자는 OCSLogger 추적 엔진이 로그를 수집 해야 하는 대상을 알리기 위해 선택한 구성 요소입니다. 공급자는 동일한 구성 요소 이며, 대부분의 경우에는 OCSLogger 있는 구성 요소와 이름이 같습니다. OCSLogger 사용 하는 방법을 잘 모르는 경우 공급자는 중앙 로깅 서비스가 로그를 수집할 수 있는 서버 역할 관련 구성 요소입니다. 공급자 구성에 대 한 자세한 내용은 [Lync Server 2013에서 중앙 로깅 서비스에 대 한 공급자 구성을](lync-server-2013-configuring-providers-for-centralized-logging-service.md)참조 하십시오.
 
-  - **Identity**   매개 변수-identity는 시나리오의 범위와 이름을 설정 합니다. 예를 들어 범위를 "global"로 설정 하 고 시나리오를 "LyssServiceScenario"로 식별할 수 있습니다. 둘을 결합할 때 Id를 정의 합니다 (예: "global/LyssServiceScenario").
+  - **Identity**     -Identity 매개 변수는 시나리오의 범위 및 이름을 설정 합니다. 예를 들어 범위를 "global"로 설정 하 고 시나리오를 "LyssServiceScenario"로 식별할 수 있습니다. 둘을 결합할 때 Id를 정의 합니다 (예: "global/LyssServiceScenario").
     
     원하는 경우 – Name 및 – Parent 매개 변수를 사용할 수 있습니다. 시나리오를 고유 하 게 식별 하는 Name 매개 변수를 정의 합니다. Name을 사용 하는 경우에는 Parent를 사용 하 여 전역 또는 사이트에 시나리오를 추가 해야 합니다.
     
@@ -78,7 +80,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
 
 <div>
 
-## <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>새로운-CsClsScenario cmdlet을 사용 하 여 새 시나리오를 만들려면
+## <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>New-CsClsScenario cmdlet을 사용 하 여 새 시나리오를 만들려면
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
@@ -90,7 +92,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
     
         New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
     
-    예:
+    예제:
     
         New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
     
@@ -102,7 +104,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
 
 <div>
 
-## <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>새로운-CsClsScenario cmdlet을 사용 하 여 여러 공급자가 포함 된 새 시나리오를 만들려면
+## <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>New-CsClsScenario cmdlet을 사용 하 여 여러 공급자가 포함 된 새 시나리오를 만들려면
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
@@ -114,7 +116,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
     
 
     > [!NOTE]  
-    > Windows PowerShell에서 알 수 있듯이 값을 사용 하 <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> 는 해시 테이블을 만드는 규칙을 <EM>splatting</EM>이라고 합니다. Windows PowerShell의 splatting에 대 한 자세한 내용은 <A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A>를 참조 하세요.
+    > Windows PowerShell에서 알 수 있듯이 값을 사용 하는 해시 테이블을 만드는 규칙 <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> 을 <EM>splatting</EM>이라고 합니다. Windows PowerShell의 splatting에 대 한 자세한 내용은를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A> .
 
     
     </div>
@@ -123,7 +125,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
 
 <div>
 
-## <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>설정-CsClsScenario cmdlet을 사용 하 여 기존 시나리오를 수정 하려면
+## <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>Set-CsClsScenario cmdlet을 사용 하 여 기존 시나리오를 수정 하려면
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
@@ -131,7 +133,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
     
         Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
     
-    예:
+    예제:
     
         Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
     
@@ -151,7 +153,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
 
 <div>
 
-## <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>제거-CsClsScenario cmdlet을 사용 하 여 기존 시나리오를 제거 하려면
+## <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>Remove-CsClsScenario cmdlet을 사용 하 여 기존 시나리오를 제거 하려면
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
@@ -169,7 +171,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
 
 <div>
 
-## <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clscontrollerpsm1-module"></a>ClsController. a 모듈을 사용 하 여 편집-CsClsScenario cmdlet을 로드 하 고 언로드하려면
+## <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clscontrollerpsm1-module"></a>ClsController 모듈을 사용 하 여 Edit-CsClsScenario cmdlet을 로드 하 고 언로드하려면
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
     
@@ -190,7 +192,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
     
 
     > [!TIP]  
-    > 모듈 로드에 성공 하면 Windows PowerShell 명령 프롬프트로 돌아갑니다. 모듈이 로드 되 고 편집-CsClsScenario를 사용할 수 있는지 확인 하려면를 입력 <CODE>Get-Help Edit-CsClsScenario</CODE>합니다. EditCsClsScenario에 대 한 구문의 기본 개요 표시 되어야 합니다.
+    > 모듈 로드에 성공 하면 Windows PowerShell 명령 프롬프트로 돌아갑니다. 모듈이 로드 되 고 Edit-CsClsScenario를 사용할 수 있는지 확인 하려면를 입력 <CODE>Get-Help Edit-CsClsScenario</CODE> 합니다. EditCsClsScenario에 대 한 구문의 기본 개요 표시 되어야 합니다.
 
     
     </div>
@@ -203,7 +205,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
     
 
     > [!TIP]  
-    > 모듈을 성공적으로 언로드하면 Windows PowerShell 명령 프롬프트로 돌아갑니다. 모듈이 언로드되는 지 확인 하려면를 입력 <CODE>Get-Help Edit-CsClsScenario</CODE>합니다. Windows PowerShell에서 cmdlet에 대 한 도움말을 찾으려고 하 고 실패 했습니다.
+    > 모듈을 성공적으로 언로드하면 Windows PowerShell 명령 프롬프트로 돌아갑니다. 모듈이 언로드되는 지 확인 하려면를 입력 <CODE>Get-Help Edit-CsClsScenario</CODE> 합니다. Windows PowerShell에서 cmdlet에 대 한 도움말을 찾으려고 하 고 실패 했습니다.
 
     
     </div>
@@ -212,7 +214,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
 
 <div>
 
-## <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>기존 공급자를 시나리오에서 편집-ClsController 모듈을 사용 하 여 제거 하려면
+## <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>Edit-ClsController 모듈을 사용 하 여 시나리오에서 기존 공급자를 제거 하려면
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
@@ -234,7 +236,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
 
 <div>
 
-## <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>ClsController 모듈을 사용 하 여 시나리오에 공급자를 추가 하려면
+## <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>Edit-ClsController 모듈을 사용 하 여 시나리오에 공급자를 추가 하려면
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
@@ -246,7 +248,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
     
         Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
     
-    \-Loglevel은 치명적, Error, Warning, Info, Verbose, Debug 또는 All 형식일 수 있습니다. -Flags는 TF\_COMPONENT, tf\_DIAG와 같이 공급자에서 지 원하는 모든 플래그를 사용할 수 있습니다. -Flags는 모두 값일 수도 있습니다.
+    \-Loglevel은 치명적, Error, Warning, Info, Verbose, Debug 또는 All 형식일 수 있습니다. -Flags는 TF \_ COMPONENT, tf DIAG와 같이 공급자에서 지 원하는 모든 플래그를 사용할 수 있습니다 \_ . -Flags는 모두 값일 수도 있습니다.
     
     Cmdlet의 위치 기능을 사용 하 여 앞의 예제를 입력할 수도 있습니다. 예를 들어 AlwaysOn 시나리오에 provider \ 서버를 추가 하려면 다음을 입력 합니다.
     

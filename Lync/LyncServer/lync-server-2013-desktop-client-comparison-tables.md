@@ -12,20 +12,22 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0e8b1a6713a8a8a4b3ac980679e7f98266338268
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219718"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501505"
 ---
+# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 용 데스크톱 클라이언트 비교 표
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 용 데스크톱 클라이언트 비교 표
+
 
 </div>
 
@@ -1702,7 +1704,7 @@ _**마지막으로 수정 된 항목:** 2018-01-23_
 
 1 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자에 게는 Lync 2010 Attendant가 지원 되지 않습니다.
 
-2 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자의 경우이 기능은 Exchange Online을 필요로 하며 사용자의 Exchange 사서함 원본 위치 유지 특성에 의해 제어 됩니다.
+2 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자는이 기능을 사용 하려면 Exchange Online이 필요 하며 사용자의 Exchange 사서함 In-Place 보류가 특성에 의해 제어 됩니다.
 
 3 비즈니스용 Skype Online, Microsoft 365 또는 Office 365 사용자, 파일 전송 보관, OneNote 페이지 및 PowerPoint 주석을 사용할 수 없습니다.
 

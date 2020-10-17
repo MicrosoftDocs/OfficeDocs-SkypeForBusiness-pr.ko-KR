@@ -12,20 +12,22 @@ ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9518b605ed6c79418e58fd0d3f9aab0e4d493957
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e23f14b1db7c846d5dbaa0aa6861274a7b6a2611
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195931"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501885"
 ---
+# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Lync Server 2013에서 사이트 수준 호스팅된 음성 메일 정책 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Lync Server 2013에서 사이트 수준 호스팅된 음성 메일 정책 만들기
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**마지막으로 수정 된 항목:** 2012-09-24_
     
     이 예제에서는 사이트 범위를 포함하는 호스팅된 음성 메일 정책을 만들고 다음 매개 변수를 설정합니다.
     
-      - **Identity**는 정책의 고유한 식별자를 지정합니다(범위 포함). 사이트 범위가 포함 된 정책의 경우에는 Identity 매개 변수 값을 형식 `site:` * \<이름\>*(예:)으로 지정 해야 `site:Redmond`합니다.
+      - **Identity**는 정책의 고유한 식별자를 지정합니다(범위 포함). 사이트 범위가 포함 된 정책의 경우에는 Identity 매개 변수 값을 형식으로 지정 해야 `site:` *\<name\>* 합니다 (예:) `site:Redmond` .
     
       - **Destination**은 호스팅된 Exchange UM 서비스의 FQDN(정규화된 도메인 이름)을 지정합니다. 이 매개 변수는 선택 사항이지만 호스팅된 음성 메일에 대해 사용자를 활성화하려는 경우 사용자에게 할당된 정책에 Destination 값이 없으면 활성화가 실패합니다.
     

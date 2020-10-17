@@ -12,20 +12,22 @@ ms:contentKeyID: 49557731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85a9a1d035994c143336abc83312fb56f67b927d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6f557c95b9bf706b3a38b51bdbea4fea156b314
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180631"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503165"
 ---
+# <a name="configuring-microsoft-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving"></a>Microsoft Exchange Server 2013 보관을 사용 하도록 Microsoft Lync Server 2013 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving"></a>Microsoft Exchange Server 2013 보관을 사용 하도록 Microsoft Lync Server 2013 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180631"
 
 _**마지막으로 수정 된 항목:** 2014-06-24_
 
-Microsoft Lync Server 2013에서는 관리자에 게 SQL Server 데이터베이스가 아닌 사용자의 Microsoft Exchange Server 2013 사서함에 인스턴트 메시징 및 웹 회의 기록 보관 옵션을 제공 합니다. 이 옵션을 사용 하도록 설정 하면 사용자 사서함의 제거 폴더에 성적이 기록 됩니다. 제거 폴더는 복구 가능한 항목 폴더에 있는 숨겨진 폴더입니다. 이 폴더가 최종 사용자에 게 표시 되지 않는 경우에도 폴더는 Exchange 검색 엔진에 의해 인덱싱되 며 Exchange 사서함 검색 및/또는 Microsoft SharePoint Server 2013을 사용 하 여 검색할 수 있습니다. 정보는 Exchange 원본 위치 유지 기능에서 사용 하는 것과 동일한 폴더에 저장 되므로 전자 메일 보관 및 기타 Exchange 통신을 담당 하는 관리자는 단일 도구를 사용 하 여에 대해 보관 된 모든 전자 통신을 검색할 수 있습니다. 가.
+Microsoft Lync Server 2013에서는 관리자에 게 SQL Server 데이터베이스가 아닌 사용자의 Microsoft Exchange Server 2013 사서함에 인스턴트 메시징 및 웹 회의 기록 보관 옵션을 제공 합니다. 이 옵션을 사용 하도록 설정 하면 사용자 사서함의 제거 폴더에 성적이 기록 됩니다. 제거 폴더는 복구 가능한 항목 폴더에 있는 숨겨진 폴더입니다. 이 폴더가 최종 사용자에 게 표시 되지 않는 경우에도 폴더는 Exchange 검색 엔진에 의해 인덱싱되 며 Exchange 사서함 검색 및/또는 Microsoft SharePoint Server 2013을 사용 하 여 검색할 수 있습니다. 정보는 Exchange In-Place 보존 기능 (전자 메일 보관 및 기타 Exchange 통신을 담당 하는 경우)에서 사용 하는 동일한 폴더에 저장 되므로 관리자는 단일 도구를 사용 하 여 사용자에 대해 보관 된 모든 전자 통신을 검색할 수 있습니다.
 
 <div>
 
@@ -107,7 +109,7 @@ Lync Server 제어판을 사용 하 여 Exchange 보관을 사용 하거나 사�
 
 </div>
 
-Lync Server 2013 및 Exchange 2013이 동일한 포리스트에 있는 경우에는 개별 사용자에 대 한 보관을 수행 하 고, 또는 Exchange 2013에 전자 메일 계정을 가진 사용자에 대 한 경우에는 Exchange 원본 위치 유지 정책을 사용 하 여 관리 합니다. 이전 버전의 Exchange에 있는 사용자가 있는 경우 해당 사용자에 대 한 보관은 Lync Server 보관 정책을 사용 하 여 관리 됩니다. Exchange 2013에 계정이 있는 사용자만 Lync 노트를 Exchange에 보관할 수 있습니다.
+Lync Server 2013 및 Exchange 2013이 동일한 포리스트에 있는 경우에는 개별 사용자에 대 한 보관을 수행 하 고, 또는 Exchange 2013에 전자 메일 계정을 가진 사용자에 대 한 경우에는 Exchange In-Place 보존 정책을 사용 하 여 관리 합니다. 이전 버전의 Exchange에 있는 사용자가 있는 경우 해당 사용자에 대 한 보관은 Lync Server 보관 정책을 사용 하 여 관리 됩니다. Exchange 2013에 계정이 있는 사용자만 Lync 노트를 Exchange에 보관할 수 있습니다.
 
 Lync Server 2013 및 Exchange 2013이 서로 다른 포리스트에 있는 경우 개별 사용자에 대 한 보관은 각 개별 사용자 계정에 대해 ExchangeArchivingPolicy 속성을 구성 하 여 관리 됩니다. 자세한 내용은 3 단계를 참조 하세요.
 
@@ -123,15 +125,15 @@ Lync Server 2013 및 Exchange 2013이 서로 다른 포리스트에 있는 경�
 
   - **ArchiveExternal** True ($True)로 설정 하면 내부 통신 세션 (조직에서 Active Directory 계정이 없는 사용자를 한 명 이상 포함 하는 세션)이 보관 됨을 나타냅니다.
 
-기본적으로 이러한 속성 값은 모두 False로 설정 되어 있으며 내부 및 외부 통신 세션은 보관 되지 않습니다. 전역 정책을 수정 하려면 Lync Server 관리 셸 및 Grant-csarchivingpolicy cmdlet을 사용할 수 있습니다. 이 명령은 내부 및 외부 통신 세션의 보관을 사용 하도록 설정 합니다.
+기본적으로 이러한 속성 값은 모두 False로 설정 되어 있으며 내부 및 외부 통신 세션은 보관 되지 않습니다. 전역 정책을 수정 하려면 Lync Server 관리 셸 및 Set-CsArchivingPolicy cmdlet을 사용할 수 있습니다. 이 명령은 내부 및 외부 통신 세션의 보관을 사용 하도록 설정 합니다.
 
     Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 
-또는 Grant-csarchivingpolicy를 사용 하 여 사이트 범위 또는 사용자별 범위에서 새 정책을 만들 수 있습니다. 예를 들어이 명령은 RedmondArchivingPolicy 라는 새 사용자별 보관 정책을 만듭니다.
+또는 New-CsArchivingPolicy을 사용 하 여 사이트 범위 또는 사용자별 범위에서 새 정책을 만들 수 있습니다. 예를 들어이 명령은 RedmondArchivingPolicy 라는 새 사용자별 보관 정책을 만듭니다.
 
     New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True -ArchiveExternal $True
 
-사용자별 정책을 만드는 경우 해당 사용자에 게 해당 정책을 할당 해야 합니다. 예:
+사용자별 정책을 만드는 경우 해당 사용자에 게 해당 정책을 할당 해야 합니다. 예제:
 
     Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 
@@ -145,13 +147,13 @@ Lync Server 2013 및 Exchange 2013이 서로 다른 포리스트에 있는 경�
 
 Lync Server 2013 및 Exchange 2013이 서로 다른 포리스트에 있는 경우 보관 구성 설정에서 단순히 Exchange 보관을 사용 하도록 설정 하는 것 만으로는 충분 하지 않습니다. 이로 인해 인스턴트 메시징 및 웹 회의 기록이 Exchange에 보관 되지 않습니다. 대신 관련 Lync Server 사용자 계정 각각에 대해 ExchangeArchivingPolicy 속성을 구성 해야 합니다. 이 속성은 다음과 같은 네 가지 값 중 하나로 설정할 수 있습니다.
 
-1.  않은. 사용자의 Exchange 사서함에 대해 구성 된 원본 위치 유지 설정에 따라 보관이 수행 됨을 나타냅니다. 사용자 사서함에 원본 위치 유지를 사용 하도록 설정 하지 않은 경우 사용자에 게 Lync Server에 보관 된 메시징 및 웹 회의 기록이 저장 됩니다.
+1.  않은. 사용자의 Exchange 사서함에 대해 구성 된 In-Place 보존 설정을 기반으로 보관 함을 나타냅니다. 사용자의 사서함에서 In-Place 보존을 사용 하도록 설정 하지 않은 경우 사용자에 게 Lync Server에 보관 된 메시징 및 웹 회의 기록이 저장 됩니다.
 
 2.  **UseLyncArchivingPolicy** 사용자의 인스턴트 메시징 및 웹 회의 기록이 Exchange가 아닌 Lync Server에 보관 되어야 함을 나타냅니다.
 
 3.  **Noarchiving** 사용자의 인스턴트 메시징 및 웹 회의 성적 증명서를 전혀 보관 하지 않아야 함을 나타냅니다. 이 설정은 사용자에 게 할당 된 모든 Lync Server 보관 정책 보다 우선 합니다.
 
-4.  **ArchivingToExchange** 사용자의 사서함에 할당 된 원본 위치 유지 설정에 관계 없이 사용자의 인스턴트 메시징 및 웹 회의 진행 상태를 Exchange에 보관 해야 함을 나타냅니다.
+4.  **ArchivingToExchange** 사용자의 사서함에 할당 되거나 지정 되지 않은 보존 설정에 관계 In-Place 없이 사용자의 인스턴트 메시징 및 웹 회의 기록 기능을 Exchange에 보관 해야 함을 나타냅니다.
 
 예를 들어 인스턴트 메시징 및 웹 회의 기록이 항상 Exchange에 보관 되도록 사용자 계정을 구성 하려면 Lync Server 관리 셸에서 이와 유사한 명령을 사용할 수 있습니다.
 
@@ -163,7 +165,7 @@ Lync Server 2013 및 Exchange 2013이 서로 다른 포리스트에 있는 경�
 
 ExchangeArchivingPolicy 속성 값을 구성 하려면 Lync Server 관리 셸 (및 Windows PowerShell)을 사용 해야 합니다. 이 속성은 Lync Server 제어판의 관리자에 게 노출 되지 않습니다.
 
-특정 보관 정책이 할당 된 모든 사용자의 목록을 보려면 ExchangeArchivingPolicy 속성이 설정 된 모든 사용자의 Active Directory 표시 이름을 반환 하는 다음과 같은 명령을 사용할 수 있습니다 (선택 사항). 초기화 되지 않음:
+특정 보관 정책이 할당 된 모든 사용자의 목록을 보려면 다음과 같은 명령을 사용 하 여 ExchangeArchivingPolicy 속성을 초기화 하도록 설정 된 모든 사용자의 Active Directory 표시 이름을 반환 합니다 (선택 사항).
 
     Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -eq "Uninitialized"} | Select-Object DisplayName
 

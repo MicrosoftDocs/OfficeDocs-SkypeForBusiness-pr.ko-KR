@@ -12,20 +12,22 @@ ms:contentKeyID: 48185005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 108d0ed2800abcb572b7706a26fe9b0c2fab4500
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5b704dc3db81c78e187a08ec9ab420f1676f049d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205694"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501735"
 ---
+# <a name="create-an-announcement-in-lync-server-2013"></a>Lync Server 2013에서 알림 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-an-announcement-in-lync-server-2013"></a>Lync Server 2013에서 알림 만들기
+
 
 </div>
 
@@ -72,7 +74,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
     
         Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
 
-5.  를 실행합니다.
+5.  을 실행합니다.
     
         New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
     

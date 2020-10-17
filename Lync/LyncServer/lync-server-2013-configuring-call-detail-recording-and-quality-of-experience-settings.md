@@ -12,20 +12,22 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f2c57f56f1f82b94b20feb7aa801ca26f0ae022
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6f39bf16a9d0ecf57a5617774395af477a67c2d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502135"
 ---
+# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Lync Server 2013에서 통화 정보 기록 및 경험 수준 설정 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Lync Server 2013에서 통화 정보 기록 및 경험 수준 설정 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180275"
 
 _**마지막으로 수정 된 항목:** 2012-10-17_
 
-모니터링 저장소를 프런트 엔드 풀과 연결한 후 모니터링 저장소를 설정 하 고, SQL Server Reporting Services 및 모니터링 보고서를 설치한 후에 CDR (통화 정보 기록) 및 QoE (서비스 품질)를 관리할 수 있습니다. Lync Server 관리 셸을 사용 하 여 모니터링 Lync Server 관리 셸 cmdlet을 사용 하면 특정 사이트 또는 전체 Lync Server 배포에 대해 CDR 및/또는 QoE 모니터링을 설정 하 고 사용 하지 않도록 설정할 수 있습니다. 다음과 같이 간단한 명령을 사용 하 여이 작업을 수행할 수 있습니다.
+모니터링 저장소를 프런트 엔드 풀과 연결 하 고 나면 모니터링 저장소를 설정한 다음 설치 및 구성 SQL Server Reporting Services 및 모니터링 보고서 Lync Server 관리 셸을 사용 하 여 CDR (통화 정보 기록) 및 QoE (경력 품질) 모니터링을 관리할 수 있습니다. Lync Server 관리 셸 cmdlet을 사용 하면 특정 사이트 또는 전체 Lync Server 배포에 대해 CDR 및/또는 QoE 모니터링을 설정 하 고 사용 하지 않도록 설정할 수 있습니다. 다음과 같이 간단한 명령을 사용 하 여이 작업을 수행할 수 있습니다.
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
@@ -61,12 +63,12 @@ Microsoft Lync Server 2013을 설치할 때 CDR 및 QoE에 대해 미리 정의 
 <tr class="odd">
 <td><p>EnableCDR</p></td>
 <td><p>CDR을 사용할 수 있는지 여부를 나타냅니다. True인 경우 모든 CDR 레코드가 수집되어 모니터링 데이터베이스에 기록됩니다.</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 </tr>
 <tr class="even">
 <td><p>은 enablepurging 설정한</p></td>
 <td><p>CDR 레코드를 데이터베이스에서 주기적으로 삭제할지 여부를 나타냅니다. True이면 KeepCallDetailForDays(CDR 레코드) 및 KeepErrorReportForDays(CDR 오류) 속성에 지정된 기간이 지난 후 기록이 삭제됩니다. False인 경우에는 CDR 레코드가 무기한 유지됩니다.</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 </tr>
 <tr class="odd">
 <td><p>Keepcalldetailfordays는</p></td>
@@ -104,12 +106,12 @@ Microsoft Lync Server 2013을 설치할 때 CDR 및 QoE에 대해 미리 정의 
 <tr class="odd">
 <td><p>EnableQoE</p></td>
 <td><p>QoE 모니터링을 사용할 수 있는지 여부를 나타냅니다. True인 경우 모든 QoE 레코드가 수집되어 모니터링 데이터베이스에 기록됩니다.</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 </tr>
 <tr class="even">
 <td><p>은 enablepurging 설정한</p></td>
 <td><p>QoE 레코드를 데이터베이스에서 주기적으로 삭제할지 여부를 나타냅니다. True이면 KeepQoEDataForDays 속성에 지정된 기간이 지난 후 레코드가 삭제됩니다. False인 경우 QoE 레코드는 무기한 유지됩니다.</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
 </tr>
 <tr class="odd">
 <td><p>KeepQoEDataForDays</p></td>

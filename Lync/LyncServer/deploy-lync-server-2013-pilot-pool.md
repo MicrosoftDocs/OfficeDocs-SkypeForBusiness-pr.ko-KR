@@ -12,20 +12,22 @@ ms:contentKeyID: 48185028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbb620a4846b05c7f81ecea4d5cc525c9c16c0c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9489db1fef9b836749fe4f381e717a4d406f5938
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180531"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502975"
 ---
+# <a name="deploy-lync-server-2013-pilot-pool"></a>Lync Server 2013 파일럿 풀 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-pilot-pool"></a>Lync Server 2013 파일럿 풀 배포
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2013-11-22_
 
 Lync Server 2013로 마이그레이션하는 데 필요한 첫 단계 중 하나는 파일럿 풀을 배포 하는 것입니다. 파일럿 풀은 lync Server 2010 배포와 함께 Lync Server 2013의 공존 성을 테스트 합니다. 동시 사용은 모든 사용자와 풀을 Lync Server 2013로 이동할 때까지 지속 되는 임시 상태입니다.
 
-파일럿 풀을 배포할 때는 새 프런트 엔드 풀 정의 마법사를 사용합니다. Lync Server 2010 풀에 있는 것과 동일한 기능 및 작업을 Lync Server 2013 파일럿 풀에 배포 해야 합니다. Lync Server 2010 환경을 보관 또는 모니터링 하기 위해 보관 서버, 모니터링 서버 또는 System Center Operations Manager를 배포 했으며 마이그레이션 전체에서 보관 또는 모니터링을 계속 하려면 다음을 배포 해야 합니다. 파일럿 환경의 기능 Lync Server 2010 환경을 배포 하거나 모니터링 하기 위해 배포한 버전은 Lync Server 2013 환경에서 데이터를 캡처하지 않습니다.
+파일럿 풀을 배포할 때는 새 프런트 엔드 풀 정의 마법사를 사용합니다. Lync Server 2010 풀에 있는 것과 동일한 기능 및 작업을 Lync Server 2013 파일럿 풀에 배포 해야 합니다. Lync Server 2010 환경을 보관 또는 모니터링 하기 위해 보관 서버, 모니터링 서버 또는 System Center Operations Manager를 배포한 경우 마이그레이션 전체에서 보관 또는 모니터링을 계속 하려면 파일럿 환경에 이러한 기능을 배포 해야 합니다. Lync Server 2010 환경을 배포 하거나 모니터링 하기 위해 배포한 버전은 Lync Server 2013 환경에서 데이터를 캡처하지 않습니다.
 
 <div>
 
@@ -78,7 +80,7 @@ Lync Server 2013로 마이그레이션하는 데 필요한 첫 단계 중 하나
     
     ![프런트 엔드 풀 기능 선택 페이지](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "프런트 엔드 풀 기능 선택 페이지")
 
-6.  **배치 된 서버 역할 선택** 페이지에서 Lync server 2013의 중재 서버를 함께 배치할 것이 좋습니다. Lync Server 2013을 사용 하 여 레거시 토폴로지를 병합 하는 경우 먼저 Lync Server 2010 중재 서버를 함께 배치할 합니다. 토폴로지를 병합 하 고 Lync Server 2013 중재 서버를 구성한 후에는 배포에서 중재 서버 역할을 Lync Server 2013로 이동할 때 배치 된 중재 서버를 유지할지 아니면 독립 실행형 서버로 변경할 것인지 결정할 수 있습니다. 프로세스.
+6.  **배치 된 서버 역할 선택** 페이지에서 Lync server 2013의 중재 서버를 함께 배치할 것이 좋습니다. Lync Server 2013을 사용 하 여 레거시 토폴로지를 병합 하는 경우 먼저 Lync Server 2010 중재 서버를 함께 배치할 합니다. 토폴로지를 병합 하 고 Lync Server 2013 중재 서버를 구성한 후에는 배포 프로세스에서 나중에 중재 서버 역할을 Lync Server 2013로 이동할 때 배치 된 중재 서버를 유지할지 아니면 독립 실행형 서버로 변경할 것인지 결정할 수 있습니다.
     
     ![프런트 엔드 풀 배치 된 서버 역할 선택 페이지](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "프런트 엔드 풀 배치 된 서버 역할 선택 페이지")
 

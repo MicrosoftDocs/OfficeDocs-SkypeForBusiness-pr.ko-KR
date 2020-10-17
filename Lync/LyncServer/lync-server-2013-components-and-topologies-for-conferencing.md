@@ -12,20 +12,22 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4c843bbe5c34aaf0ad98ca73e8ebd33820b87d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfdb6ae250e3ccb97f044892daa8ac11e7c1b99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209354"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502585"
 ---
+# <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Lync Server 2013의 회의에 대 한 구성 요소 및 토폴로지
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Lync Server 2013의 회의에 대 한 구성 요소 및 토폴로지
+
 
 </div>
 
@@ -49,15 +51,15 @@ Lync Server 2013에서는 Office Web Apps와 Office Web Apps 서버를 사용 �
 
 전화 접속 회의는 웹 회의 및 A/V 회의에 대 한 요구 사항 외에도 다음과 같은 Lync Server 2013 구성 요소를 사용 합니다.
 
-  - **응용 프로그램 서비스**   응용 프로그램 서비스는 UC (통합 통신) 응용 프로그램을 배포, 호스팅 및 관리 하기 위한 플랫폼을 제공 합니다. 전화 접속 회의에서는 응용 프로그램 서비스가 필요한 두 개의 UC 응용 프로그램 (회의 전화 교환 및 회의 알림)을 사용 합니다. 회의 작업 부하를 배포하고 전화 접속 회의 옵션을 선택하면 프런트 엔드 풀의 모든 프런트 엔드 서버 및 모든 Standard Edition Server에서 응용 프로그램 서비스가 기본적으로 설치 및 활성화됩니다.
+  - **응용 프로그램 서비스**     응용 프로그램 서비스는 UC (통합 통신) 응용 프로그램을 배포, 호스팅 및 관리 하기 위한 플랫폼을 제공 합니다. 전화 접속 회의에서는 응용 프로그램 서비스가 필요한 두 개의 UC 응용 프로그램 (회의 전화 교환 및 회의 알림)을 사용 합니다. 회의 작업 부하를 배포하고 전화 접속 회의 옵션을 선택하면 프런트 엔드 풀의 모든 프런트 엔드 서버 및 모든 Standard Edition Server에서 응용 프로그램 서비스가 기본적으로 설치 및 활성화됩니다.
 
-  - **회의 전화 교환 응용**   프로그램 회의 교환 응용 프로그램은 공중 전화망 (PSTN) 통화를 허용 하 고, 음성 안내를 재생 하 고, a/V 회의에 통화를 참가 시키는 통합 커뮤니케이션 응용 프로그램입니다. 회의 작업을 배포 하 고 전화 접속 회의 옵션을 선택할 때 회의 전화 교환 응용 프로그램은 기본적으로 설치 및 활성화 됩니다.
+  - **회의 전화 교환 응용 프로그램**     회의 전화 교환 응용 프로그램은 공중 전화망 (PSTN) 통화를 허용 하 고, 음성 안내를 재생 하며, A/V 회의에 통화를 참가 시키는 통합 커뮤니케이션 응용 프로그램입니다. 회의 작업을 배포 하 고 전화 접속 회의 옵션을 선택할 때 회의 전화 교환 응용 프로그램은 기본적으로 설치 및 활성화 됩니다.
 
-  - **회의 알림**   응용 프로그램 회의 알림 응용 프로그램은 참가자가 전화 회의에 참가 하거나 나갈 때, 참가자가 음소거 또는 음소거 해제 되었는지, 누군가 회의 로비에 들어가거나 전화 회의 잠김 또는 잠금 해제와 같은 특정 작업을 수행 하는 통합 커뮤니케이션 응용 프로그램입니다. 회의 알림 응용 프로그램은 또한 전화 키패드에서 DTMF (dual-tone multifrequency) 명령을 지원 합니다. 회의 작업을 배포 하 고 전화 접속 회의 옵션을 선택할 때 회의 알림 응용 프로그램은 기본적으로 자동으로 설치 및 활성화 됩니다.
+  - **회의 알림 응용 프로그램**     회의 알림 응용 프로그램은 참가자가 전화 회의에 참가 하거나 나갈 때, 참가자가 음소거 또는 음소거 해제 되었는지, 누군가 회의 로비에 들어가거나 전화 회의 잠김 또는 잠금 해제와 같은 특정 작업을 수행 하는 통합 커뮤니케이션 응용 프로그램입니다. 회의 알림 응용 프로그램은 또한 전화 키패드에서 DTMF (dual-tone multifrequency) 명령을 지원 합니다. 회의 작업을 배포 하 고 전화 접속 회의 옵션을 선택할 때 회의 알림 응용 프로그램은 기본적으로 자동으로 설치 및 활성화 됩니다.
 
-  - **전화 접속 회의 설정 페이지**   전화 접속 회의 설정 페이지에 사용 가능한 언어의 전화 회의 전화 걸기 번호를 표시 하 고, 전화 회의 정보 (예약할 필요가 없는 모임)를 지정 하 고, 개인 식별 번호 (PIN) 및 할당 된 회의 정보를 관리 하는 기능을 지원 합니다. 전화 접속 회의 설정 페이지는 웹 서비스의 일부로 자동으로 설치 됩니다.
+  - **전화 접속 회의 설정 페이지**     전화 접속 회의 설정 페이지는 사용 가능한 언어로 전화 회의 전화 걸기 번호를 표시 하 고, 전화 회의 정보 (예약 하지 않아도 되는 모임)를 제공 하며, PIN (개인 식별 번호) 및 할당 된 회의 정보 관리를 지원 합니다. 전화 접속 회의 설정 페이지는 웹 서비스의 일부로 자동으로 설치 됩니다.
 
-  - **Lync server 2013, 중재 서버 및 pstn 게이트웨이**   전화 접속 회의에는 중재 서버와 pstn 게이트웨이 간에 신호 및 미디어를 변환 하는 pstn 게이트웨이 및 신호 (일부 구성에서 미디어 2013)를 변환 하기 위한 중재 서버가 필요 합니다. 전화 접속 회의의 경우 중재 서버와 다음 중 하나를 각각 하나 이상씩 배포해야 합니다.
+  - **Lync server 2013, 중재 서버 및 PSTN 게이트웨이**     전화 접속 회의에는 중재 서버와 PSTN 게이트웨이 간의 신호 및 미디어를 변환 하는 PSTN 게이트웨이 및 신호 (일부 구성에서 미디어 2013)를 변환 하기 위한 중재 서버가 필요 합니다. 전화 접속 회의의 경우 중재 서버와 다음 중 하나를 각각 하나 이상씩 배포해야 합니다.
     
       - PSTN 게이트웨이
     
@@ -74,13 +76,13 @@ Lync Server 2013에서는 Office Web Apps와 Office Web Apps 서버를 사용 �
     
     </div>
 
-  - **파일 저장소**   파일 저장소는 녹음 된 이름 오디오 파일에 사용 됩니다. 파일 저장소는 모든 Enterprise Edition 또는 Standard Edition 배포에서 표준 구성 요소입니다.
+  - **파일 저장소**     파일 저장소는 녹음 된 이름 오디오 파일에 사용 됩니다. 파일 저장소는 모든 Enterprise Edition 또는 Standard Edition 배포에서 표준 구성 요소입니다.
 
-  - **사용자 저장소**   사용자 저장소는 사용자 Lync Server 2013 pin을 저장 하는 데 사용 됩니다. PIN은 해시됩니다. 사용자 저장소는 모든 Enterprise Edition 또는 Standard Edition 배포에서 표준 구성 요소입니다.
+  - **사용자 저장소**     사용자 저장소는 사용자 Lync Server 2013 Pin을 저장 하는 데 사용 됩니다. PIN은 해시됩니다. 사용자 저장소는 모든 Enterprise Edition 또는 Standard Edition 배포에서 표준 구성 요소입니다.
 
-  - **Lync server 제어판**   일부 전화 접속 설정은 Lync Server 제어판을 사용 하 여 구성할 수 있습니다.
+  - **Lync Server 제어판**     일부 전화 접속 설정은 Lync Server 제어판을 사용 하 여 구성할 수 있습니다.
 
-  - **Lync server 관리 셸**   모든 전화 접속 설정은 Lync server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다. Lync Server 관리 셸 cmdlet은 회의 교환 응용 프로그램 및 회의 알림 응용 프로그램의 배포, 구성, 실행, 모니터링 및 문제 해결에 사용할 수 있습니다. 특정 cmdlet에 대 한 자세한 내용은 Lync Server Management Shell 설명서를 참조 하십시오.
+  - **Lync Server 관리 셸**     모든 전화 접속 설정은 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다. Lync Server 관리 셸 cmdlet은 회의 교환 응용 프로그램 및 회의 알림 응용 프로그램의 배포, 구성, 실행, 모니터링 및 문제 해결에 사용할 수 있습니다. 특정 cmdlet에 대 한 자세한 내용은 Lync Server Management Shell 설명서를 참조 하십시오.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d414a998fcce0f68186fbf9a6e42d6075dfb991c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e97bb7d77bbd468fff18084ecc7d4da8c5feb7f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203144"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502115"
 ---
+# <a name="configuring-certificates-for-autodiscover-in-lync-server-2013"></a>Lync Server 2013에서 자동 검색에 대 한 인증서 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-certificates-for-autodiscover-in-lync-server-2013"></a>Lync Server 2013에서 자동 검색에 대 한 인증서 구성
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2012-12-12_
 
 
 > [!NOTE]  
-> <STRONG>Get-CsCertificate</STRONG> cmdlet을 사용하여 현재 지정된 인증서에 대한 정보를 볼 수 있습니다. 하지만 기본 보기에서는 인증서의 속성이 잘려서 표시되므로 SubjectAlternativeNames 속성의 모든 값이 표시되지 않습니다. <STRONG>Get-CsCertificate</STRONG> , <STRONG>Request-</STRONG>CsCertificate 및 <STRONG>Set-CsCertificate</STRONG> cmdlet을 사용하면 일부 정보를 보고 인증서를 요청 및 지정할 수 있습니다. 하지만 현재 인증서에 있는 SAN(주체 대체 이름)의 속성이 확실하지 않을 때는 최선의 방법이 아닙니다. 인증서 및 모든 속성 구성원을 보려면 <EM>MMC (Microsoft Management Console)</EM> 에서 인증서 스냅인을 사용 하거나 Lync Server 배포 마법사를 사용 하는 것이 좋습니다. Lync Server 배포 마법사에서 인증서 마법사를 사용 하 여 인증서 속성을 볼 수 있습니다. Lync Server 관리 셸 및 <EM>MMC (Microsoft Management Console)</EM> 를 사용 하 여 인증서를 보거나 요청 하 고 할당 하는 절차는 다음 절차에 자세히 설명 되어 있습니다. Lync Server 배포 마법사를 사용 하려면 자세한 내용은 여기에서 추가 디렉터 또는 디렉터 풀을 배포한 경우 ( <A href="lync-server-2013-configure-certificates-for-the-director.md">Lync server 2013에서 디렉터에 대 한 인증서 구성</A>)을 참조 하십시오. 프런트 엔드 서버 또는 프런트 엔드 풀에 대 한 자세한 내용은 <A href="lync-server-2013-configure-certificates-for-servers.md">Lync Server 2013에서 서버에 대 한 인증서 구성</A>를 참조 하십시오.<BR>이 절차의 시작 단계는 현재 인증서가 수행하는 역할을 확인하는 준비 단계입니다. 기본적으로 인증서에는 lyncdiscover가 포함 되지 않습니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt; 또는 lyncdiscoverinternal &lt;이전에 모바일&gt; 서비스를 설치 하지 않았거나 인증서를 미리 준비 하지 않은 경우 내부 도메인 이름 항목 이 절차에서는 예제 SIP 도메인 이름 'contoso.com' 및 예제 내부 도메인 이름 'contoso.net'을 사용합니다.<BR>Lync Server 2013 및 Lync Server 2010에 대 한 기본 인증서 구성은 용도 기본값 (웹 서비스를 제외한 모든 용도), WebServicesExternal 및 Web서비스 내부를 사용 하 여 단일 인증서 (이름이 ' Default ' 인 ' 기본값 ')를 사용할 수 있습니다. 선택적인 구성은 각 용도에 대해 별도의 인증서를 사용하는 것입니다. Lync Server 관리 셸 및 Windows PowerShell cmdlet을 사용 하거나 Lync Server 배포 마법사에서 인증서 마법사를 사용 하 여 인증서를 관리할 수 있습니다.
+> <STRONG>Get-CsCertificate</STRONG> cmdlet을 사용하여 현재 지정된 인증서에 대한 정보를 볼 수 있습니다. 하지만 기본 보기에서는 인증서의 속성이 잘려서 표시되므로 SubjectAlternativeNames 속성의 모든 값이 표시되지 않습니다. <STRONG>Get-CsCertificate</STRONG> , <STRONG>Request-</STRONG>CsCertificate 및 <STRONG>Set-CsCertificate</STRONG> cmdlet을 사용하면 일부 정보를 보고 인증서를 요청 및 지정할 수 있습니다. 하지만 현재 인증서에 있는 SAN(주체 대체 이름)의 속성이 확실하지 않을 때는 최선의 방법이 아닙니다. 인증서 및 모든 속성 구성원을 보려면 <EM>MMC (Microsoft Management Console)</EM> 에서 인증서 스냅인을 사용 하거나 Lync Server 배포 마법사를 사용 하는 것이 좋습니다. Lync Server 배포 마법사에서 인증서 마법사를 사용 하 여 인증서 속성을 볼 수 있습니다. Lync Server 관리 셸 및 <EM>MMC (Microsoft Management Console)</EM> 를 사용 하 여 인증서를 보거나 요청 하 고 할당 하는 절차는 다음 절차에 자세히 설명 되어 있습니다. Lync Server 배포 마법사를 사용 하려면 자세한 내용은 여기에서 추가 디렉터 또는 디렉터 풀을 배포한 경우 ( <A href="lync-server-2013-configure-certificates-for-the-director.md">Lync server 2013에서 디렉터에 대 한 인증서 구성</A>)을 참조 하십시오. 프런트 엔드 서버 또는 프런트 엔드 풀에 대 한 자세한 내용은 <A href="lync-server-2013-configure-certificates-for-servers.md">Lync Server 2013에서 서버에 대 한 인증서 구성</A>를 참조 하십시오.<BR>이 절차의 시작 단계는 현재 인증서가 수행하는 역할을 확인하는 준비 단계입니다. 기본적으로 인증서에는 lyncdiscover가 포함 되지 않습니다. &lt; microsoft.rtc.management.xds.sipdomain object &gt; 또는 lyncdiscoverinternal &lt; &gt; 이전에 모바일 서비스를 설치 하지 않았거나 인증서를 미리 준비 하지 않은 경우 내부 도메인 이름 항목 이 절차에서는 예제 SIP 도메인 이름 'contoso.com' 및 예제 내부 도메인 이름 'contoso.net'을 사용합니다.<BR>Lync Server 2013 및 Lync Server 2010에 대 한 기본 인증서 구성은 용도 기본값 (웹 서비스를 제외한 모든 용도), WebServicesExternal 및 Web서비스 내부를 사용 하 여 단일 인증서 (이름이 ' Default ' 인 ' 기본값 ')를 사용할 수 있습니다. 선택적인 구성은 각 용도에 대해 별도의 인증서를 사용하는 것입니다. Lync Server 관리 셸 및 Windows PowerShell cmdlet을 사용 하거나 Lync Server 배포 마법사에서 인증서 마법사를 사용 하 여 인증서를 관리할 수 있습니다.
 
 
 
@@ -73,7 +75,7 @@ _**마지막으로 수정 된 항목:** 2012-12-12_
     
     **중요:**
     
-    각 사용에 대해 별도의 인증서가 할당 된 경우 (각 인증서에 대해 손도장 값이 다른 경우) **set-cscertificate** cmdlet을 여러 형식으로 실행 하지 않는 것이 중요 합니다. 이 경우 각 사용에 대해 **set-cscertificate** cmdlet을 개별적으로 실행 합니다. 예:
+    각 사용에 대해 별도의 인증서가 할당 된 경우 (각 인증서에 대해 손도장 값이 다른 경우) **set-cscertificate** cmdlet을 여러 형식으로 실행 하지 않는 것이 중요 합니다. 이 경우 각 사용에 대해 **set-cscertificate** cmdlet을 개별적으로 실행 합니다. 예제:
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>
@@ -108,19 +110,19 @@ _**마지막으로 수정 된 항목:** 2012-12-12_
     
       - 웹 서비스 내부 및 웹 서비스 외부 이름 (예: webpool01.contoso.net, webpool01.contoso.com)-토폴로지 작성기 및 재정의를 사용한 웹 서비스 선택에 대 한 선택 사항에 따라 달라 집니다.
     
-      - 이미 지정 된 경우 lyncdiscover입니다. \<microsoft.rtc.management.xds.sipdomain object\> 및 lyncdiscoverinternal \<microsoft.rtc.management.xds.sipdomain object\> 레코드
+      - 이미 지정 된 경우 lyncdiscover입니다.\<sipdomain\> 및 lyncdiscoverinternal입니다.\<sipdomain\> 레코드.
     
     lyncdiscover 및 lyncdiscoverinternal SAN 항목이 있는 경우 마지막 항목이 가장 중요한 항목입니다.
     
     이러한 정보를 준비했으면 인증서 보기 및 MMC를 닫을 수 있습니다.
 
-12. 자동 검색 서비스인 경우 lyncdiscover를 의미 합니다. \>도메인 이름\> 및 lyncdiscoverinternal. \<도메인 이름\> (외부 또는 내부 인증서 인 경우 기반) 주체 대체 이름이 누락 되었고 기본, Web서비스 내부 및 webserviceexternal 형식에 대해 단일 기본 인증서를 사용 하는 경우 다음을 수행 합니다.
+12. 자동 검색 서비스인 경우 lyncdiscover를 의미 합니다. \> 도메인 이름 \> 및 lyncdiscoverinternal.\<domain name\> (외부 또는 내부 인증서 인지에 따름) 주체 대체 이름이 누락 되었고 기본, Web서비스 내부 및 WebServiceExternal 형식에 대해 단일 기본 인증서를 사용 하는 경우 다음을 수행 합니다.
     
       - Lync Server 관리 셸 명령줄 프롬프트에 다음을 입력 합니다.
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신, DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 lyncdiscoverinternal 및 lyncdiscover record에 대해 FQDN을 정의 해야 합니다. 예:
+        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신, DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 lyncdiscoverinternal 및 lyncdiscover record에 대해 FQDN을 정의 해야 합니다. 예제:
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     

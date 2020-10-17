@@ -12,20 +12,22 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 437051279393b9dedc7c4def0c75cd119cded914
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e00071edd4a3d65e9db763914577983306491fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197831"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502675"
 ---
+# <a name="client-interoperability-in-lync-2013"></a>Lync 2013의 클라이언트 상호 운용성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-interoperability-in-lync-2013"></a>Lync 2013의 클라이언트 상호 운용성
+
 
 </div>
 
@@ -64,33 +66,33 @@ _**마지막으로 수정 된 항목:** 2016-03-04_
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013</p></td>
-<td><p>지원됨</p></td>
+<td><p>지원</p></td>
 <td><p>Supported5</p></td>
-<td><p>미지원</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
-<td><p>지원됨</p></td>
-<td><p>지원됨</p></td>
-<td><p>미지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Web App 2013</p></td>
-<td><p>지원됨</p></td>
-<td><p>미지원</p></td>
-<td><p>미지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
-<td><p>지원됨</p></td>
-<td><p>지원됨</p></td>
-<td><p>미지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 Attendant</p></td>
-<td><p>지원됨</p></td>
-<td><p>지원됨</p></td>
-<td><p>미지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 그룹 채팅</p></td>
@@ -100,45 +102,45 @@ _**마지막으로 수정 된 항목:** 2016-03-04_
 </tr>
 <tr class="odd">
 <td><p>Lync Web App 2010</p></td>
-<td><p>미지원</p></td>
-<td><p>지원됨</p></td>
-<td><p>미지원</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>않음</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 Attendee</p></td>
 <td><p>Supported3 아님</p></td>
-<td><p>지원됨</p></td>
-<td><p>미지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
 <td><p>Interoperable4</p></td>
-<td><p>지원됨</p></td>
-<td><p>지원됨</p></td>
+<td><p>지원</p></td>
+<td><p>지원</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
-<td><p>미지원</p></td>
-<td><p>지원됨</p></td>
-<td><p>지원됨</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>않음</p></td>
+<td><p>지원</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007</p></td>
-<td><p>미지원</p></td>
-<td><p>지원됨</p></td>
-<td><p>지원됨</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>않음</p></td>
+<td><p>지원</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Live Meeting 2007</p></td>
-<td><p>미지원</p></td>
-<td><p>지원됨</p></td>
-<td><p>지원됨</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>않음</p></td>
+<td><p>지원</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Windows 스토어 앱</p></td>
-<td><p>지원됨</p></td>
-<td><p>지원됨</p></td>
-<td><p>미지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 </tbody>
 </table>
@@ -436,7 +438,7 @@ Lync Server 2013 모임에서는 서로 다른 클라이언트 및 클라이언�
 
 2 Lync Server 2013에서는 PowerPoint 파일을 업로드 하는 데 업데이트 된 메커니즘을 사용 합니다. 처음에 Lync Server 2010에 예약 된 모임에 참가 하는 lync Web App 사용자는 PowerPoint 프레젠테이션을 보고 탐색할 수 있지만 PowerPoint 파일을 업로드 하는 것은 불가능 합니다.
 
-3 lync Server 2013에 회의가 예약 되었고 PowerPoint 슬라이드를 Lync 2013 클라이언트에서 업로드 한 경우 Lync 2010 사용자에 게 슬라이드에 대 한 보기 전용 액세스 권한이 있습니다. 반대로, PowerPoint 슬라이드를 Lync 2010 사용자가 업로드 한 경우 Lync Server 2013 사용자는 보기 및 슬라이드를 볼 수 있으며, Office Web Apps 서버가 구성 되어 있으면 더 높은 해상도의 디스플레이, 애니메이션, 화면 전환과 같은 새로운 기능에 액세스 합니다. 포함 된 비디오 자세한 내용은 [Office Web Apps 서버 및 Lync server 2013의 통합 구성을](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)참조 하세요.
+3 lync Server 2013에 회의가 예약 되었고 PowerPoint 슬라이드를 Lync 2013 클라이언트에서 업로드 한 경우 Lync 2010 사용자에 게 슬라이드에 대 한 보기 전용 액세스 권한이 있습니다. 반대로, PowerPoint 슬라이드를 Lync 2010 사용자가 업로드 한 경우 Lync Server 2013 사용자는 보기 및 슬라이드를 볼 수 있으며, Office Web Apps 서버가 구성 되어 있는 경우 고해상도 디스플레이, 애니메이션, 화면 전환, 포함 된 비디오 등의 새로운 기능에 액세스 합니다. 자세한 내용은 [Office Web Apps 서버 및 Lync server 2013의 통합 구성을](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)참조 하세요.
 
 4The Communicator 2007 R2의 현재 상태 및 IM 기능은 Lync Server 2013과 호환 되지만 회의 기능은 없습니다. Office Communications Server 2007 R2에서 마이그레이션하는 동안 Office Communicator 2007 R2는 현재 상태 및 IM 상호 운용성에 적합 하지만 lync Web App 2013을 사용 하 여 Lync Server 2013 meeting에 참가 해야 합니다.
 
@@ -450,11 +452,11 @@ Lync Server 2013 모임에서는 서로 다른 클라이언트 및 클라이언�
 
 다양 한 일정 추가 기능에 대 한 서버 지원은 서버 및 클라이언트 버전 호환성과 일치 합니다. 일반적으로 Lync Server 2013에서는 다음과 같은 예약 추가 기능이 지원 됩니다. 그러나 이전 버전의 추가 기능은 모임 항목에 모든 참석자 오디오 및 비디오를 음소거 하는 옵션과 같은 새로운 Lync 2013 추가 기능 기능을 제공 하지 않습니다.
 
-  - **Lync 2013**   의 온라인 모임 추가 기능은 lync 2010에 대 한 온라인 모임 추가 기능과 같은 기능을 제공 하며, 모임 이끌이가 기본적으로 참석자의 오디오 및 비디오가 음소거 된 회의를 예약할 수 있도록 하는 참석자 음소거 컨트롤을 추가 합니다. 또한 관리자는 사용자 지정 로고, 지원 URL, 법적 고 지 사항 URL 또는 사용자 지정 바닥글 텍스트를 추가 하 여 조직의 모임 초대를 사용자 지정할 수 있습니다.
+  - **Lync 2013**     용 온라인 모임 추가 기능 모임 이끌이가 기본적으로 참석자의 오디오 및 비디오가 음소거 된 전화 회의를 예약할 수 있도록 하는 Lync 2010의 온라인 모임 추가 기능과 같은 기능을 제공 합니다. 또한 관리자는 사용자 지정 로고, 지원 URL, 법적 고 지 사항 URL 또는 사용자 지정 바닥글 텍스트를 추가 하 여 조직의 모임 초대를 사용자 지정할 수 있습니다.
 
-  - **Lync 2010**   용 온라인 모임 추가 기능은 lync 모임 예약을 제공 하 고 Office Live Meeting 회의를 예약 하는 기능을 제거 합니다.
+  - **Lync 2010**     용 온라인 모임 추가 기능 Lync 모임 예약을 제공 하 고 Office Live Meeting 회의를 예약 하는 기능을 제거 합니다.
 
-  - **Office communicator 2007 R2 회의 추가 기능**   office Live Meeting 회의 및 office Communicator 2007 R2 회의 모두의 일정을 제공 합니다. 
+  - **Office Communicator 2007 R2 회의 추가 기능**     Office Live Meeting 회의 및 Office Communicator 2007 R2 회의 모두의 일정을 제공 합니다. 
 
 <div>
 
@@ -485,27 +487,27 @@ Lync Server 2013 모임에서는 서로 다른 클라이언트 및 클라이언�
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013 용 온라인 모임 추가 기능 (Office 2013, Outlook 2010 및 Outlook 2007과 함께 사용할 수 있음)</p></td>
-<td><p>지원됨</p></td>
+<td><p>지원</p></td>
 <td><p>지원 (새 추가 기능 기능을 사용할 수 없음)</p></td>
-<td><p>미지원</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 웹 스케줄러</p></td>
-<td><p>지원됨</p></td>
-<td><p>미지원</p></td>
-<td><p>미지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 <tr class="odd">
 <td><p>Online Meeting Add-in for Lync 2010(Lync 2010용 온라인 모임 추가 기능)</p></td>
-<td><p>지원됨</p></td>
-<td><p>지원됨</p></td>
-<td><p>미지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원</p></td>
+<td><p>지원되지 않음</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007 R2 회의 추가 기능</p></td>
-<td><p>미지원</p></td>
-<td><p>지원됨</p></td>
-<td><p>지원됨</p></td>
+<td><p>지원되지 않음</p></td>
+<td><p>않음</p></td>
+<td><p>지원</p></td>
 </tr>
 </tbody>
 </table>

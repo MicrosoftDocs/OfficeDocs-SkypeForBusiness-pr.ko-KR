@@ -12,20 +12,22 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66f2489b0ffaabc3744d92b38bcbf71ffcd84591
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 173f63fce60215ca0bc68791b0bc051136d931a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205704"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501705"
 ---
+# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Lync Server 2013에서 대역폭 정책 프로필 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Lync Server 2013에서 대역폭 정책 프로필 만들기
+
 
 </div>
 
@@ -51,7 +53,7 @@ CAC 배포에서 설정 해야 하는 대역폭 제한에 대 한 지침은 계�
 
   - [Get-csnetworkbandwidthpolicyprofile을 제거 합니다.](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-다음 절차에서 만들어진 예 정책은 전체 오디오 트래픽, 개별 오디오 세션, 전체 비디오 트래픽 및 개별 비디오 세션에 대한 제한을 설정합니다. 예를 들어, 5Mb\_링크 대역폭 정책 프로필은 다음과 같은 제한을 설정 합니다.
+다음 절차에서 만들어진 예 정책은 전체 오디오 트래픽, 개별 오디오 세션, 전체 비디오 트래픽 및 개별 비디오 세션에 대한 제한을 설정합니다. 예를 들어, 5Mb \_ 링크 대역폭 정책 프로필은 다음과 같은 제한을 설정 합니다.
 
   - 오디오 제한: 2,000kbps
 

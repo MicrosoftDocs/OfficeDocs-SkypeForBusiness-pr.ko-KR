@@ -12,20 +12,22 @@ ms:contentKeyID: 48183843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb57cde990e4c4218297c69aeb3c8933f9a3fd92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6ef309873ef51e06903123dfb5a1b6ecf68b4ea8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196371"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502755"
 ---
+# <a name="call-detail-report-in-lync-server-2013"></a>Lync Server 2013의 통화 정보 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-report-in-lync-server-2013"></a>Lync Server 2013의 통화 정보 보고서
+
 
 </div>
 
@@ -109,7 +111,7 @@ A/V 에지 서버 메트릭을 클릭하면 서버 미디어 품질 추세 보�
 
 <div>
 
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에서는 각 통화에 대해 통화 정보 보고서에 제공된 정보를 보여 줍니다.
 

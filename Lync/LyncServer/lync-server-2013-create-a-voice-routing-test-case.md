@@ -12,20 +12,22 @@ ms:contentKeyID: 48183979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9fac6f65d1bb1c04b8d8597454df775f8545d2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da110d7e3bfb7188384163cb572591d0bf7f8ff3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205754"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501775"
 ---
+# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>Lync Server 2013에서 음성 라우팅 테스트 사례 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>Lync Server 2013에서 음성 라우팅 테스트 사례 만들기
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**마지막으로 수정 된 항목:** 2014-02-07_
 
 5.  **이름**에 테스트 사례의 고유한 이름을 입력합니다.
     
-    이 이름은 엔터프라이즈 음성 배포의 모든 음성 라우팅 테스트 사례에서 고유 해야 합니다. 이 길이는 최대 32 자까지 사용할 수 있으며 백슬래시 (\\), 마침표 (.) 또는 밑줄 (\_) 외에 영숫자 문자를 포함할 수도 있습니다.
+    이 이름은 엔터프라이즈 음성 배포의 모든 음성 라우팅 테스트 사례에서 고유 해야 합니다. 이 길이는 최대 32 자까지 사용할 수 있으며 백슬래시 ( \\ ), 마침표 (.) 또는 밑줄 () 외에 영숫자 문자를 포함할 수도 있습니다. \_
 
 6.  **테스트를 위해 전화를 건 번호**에 이 테스트 사례에 대해 지정하는 라우팅 구성을 테스트하기 위해 사용하려는 전화를 건 번호를 입력합니다. 다이얼 플랜 및 음성 정책에 따라 이 번호는 정규화되어 출력으로 표시됩니다.
 
@@ -80,7 +82,7 @@ _**마지막으로 수정 된 항목:** 2014-02-07_
     
     </div>
     
-    테스트에 사용 되는 다이얼 플랜에서 + 12065551219와 같이 더하기 기호로 시작 하는 전화 번호를 정규화 하면 해당 계획으로 인해 음성 라우팅 테스트가 실패할 수 있습니다. (다이얼 플랜 및 음성 경로는 작동 하지만 실제로 테스트-CsDialPlan 플랜은 성공 합니다. 하지만 음성 라우팅 테스트에 실패할 수 있습니다. 이는 음성 경로를 테스트할 때 염두에 두어야 합니다.
+    테스트에 사용 되는 다이얼 플랜에서 + 12065551219와 같이 더하기 기호로 시작 하는 전화 번호를 정규화 하면 해당 계획으로 인해 음성 라우팅 테스트가 실패할 수 있습니다. (다이얼 플랜 및 음성 경로는 작동 하며, 실제로 Test-CsDialPlan가 성공 합니다. 하지만 음성 라우팅 테스트에 실패할 수 있습니다. 이는 음성 경로를 테스트할 때 염두에 두어야 합니다.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45707cafca4a7ed9da7cdeb5e162128ccd73468d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 586a24f4cfacd2ed28947102a7d5a129159a26bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191511"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502505"
 ---
+# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 구성 요소 및 토폴로지
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 구성 요소 및 토폴로지
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2012-10-05_
     
 
     > [!IMPORTANT]  
-    > Lync Server 2013에서 파일 업로드/다운로드를 위한 영구 채팅 웹 서비스는 이제 Lync Server 2013&nbsp;프런트 엔드 서버를 사용 하 여 배치 된.<BR>또한 대화방 용 영구 채팅 웹 서비스는 Lync Server 2013&nbsp;프런트 엔드 서버를 사용 하 여 배치 된 됩니다.
+    > Lync Server 2013에서 파일 업로드/다운로드를 위한 영구 채팅 웹 서비스는 이제 Lync Server 2013 프런트 엔드 서버를 사용 하 여 배치 된 &nbsp; .<BR>또한 대화방 용 영구 채팅 웹 서비스는 Lync Server 2013 프런트 엔드 서버를 사용 하 여 배치 된 됩니다 &nbsp; .
 
     
     </div>
@@ -83,7 +85,7 @@ _**마지막으로 수정 된 항목:** 2012-10-05_
 
 ## <a name="supported-collocation"></a>지원되는 배치
 
-Lync Server 2013에서는 한 서버에서 여러 구성 요소를 실행 하거나 (소규모 조직의 경우) 개별 구성 요소를 다른 서버에서 실행 하 여 하드웨어 비용을 절약할 수 있도록 하는 다양 한 위치 시나리오를 지원 합니다. 확장성과 성능이 필요한 대규모 조직 구성 요소를 배치할지 여부를 결정하기 전에 확장성 요인을 분명하게 고려해야 합니다.
+Lync Server 2013에서는 한 서버에서 여러 구성 요소를 실행 하거나 (소규모 조직이 있는 경우) 각 서버에서 개별 구성 요소를 실행 하 여 하드웨어 비용을 절약할 수 있도록 하는 다양 한 위치 시나리오를 지원 합니다 (확장성과 성능이 필요한 대규모 조직이 있는 경우). 구성 요소를 배치할지 여부를 결정하기 전에 확장성 요인을 분명하게 고려해야 합니다.
 
 준수를 사용 하도록 설정 된 경우 영구 채팅 준수 서비스는 Lync Server 2013 프런트 엔드 서버를 사용 하 여 배치 된 됩니다.
 
@@ -139,7 +141,7 @@ Lync Server 2013 Enterprise Edition의 경우 Enterprise Edition 서버에서 �
 
 ## <a name="single-server-topology"></a>단일 서버 토폴로지
 
-영구 채팅 서버에 대 한 최소 구성 및 가장 간단한 배포는 단일 영구 채팅 서버 프런트 엔드 서버 토폴로지입니다. 이 배포를 사용 하려면 영구 채팅 서버를 실행 하는 단일 서버 (선택적으로 준수 서비스를 실행 하는 경우, 준수 기능이 사용 하도록 설정 된 경우), SQL Server 데이터베이스를 모두 호스트 하는 서버 및 준수 해야 하는 경우에는 SQL Server 데이터베이스를 저장 합니다. 준수 데이터
+영구 채팅 서버에 대 한 최소 구성 및 가장 간단한 배포는 단일 영구 채팅 서버 프런트 엔드 서버 토폴로지입니다. 이 배포를 사용 하려면 영구 채팅 서버를 실행 하는 단일 서버 (필요한 경우 준수 서비스를 실행 하는 경우), SQL Server 데이터베이스를 모두 호스트 하는 서버, 준수 해야 하는 경우 SQL Server 데이터베이스에서 준수 데이터를 저장 해야 합니다.
 
 <div>
 

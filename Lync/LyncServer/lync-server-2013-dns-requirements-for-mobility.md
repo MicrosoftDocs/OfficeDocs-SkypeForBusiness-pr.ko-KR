@@ -12,20 +12,22 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85ceddef859ebc24168c12fdf0721448c6d2b658
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 508e9c8e030de7aeb496a1285ff7b965e43c2a6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208887"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501435"
 ---
+# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>Lync Server 2013의 모바일 기능에 대 한 DNS 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>Lync Server 2013의 모바일 기능에 대 한 DNS 요구 사항
+
 
 </div>
 
@@ -70,12 +72,12 @@ DNS 레코드는 CNAME 레코드 또는 A(호스트) 레코드일 수 있습니�
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscoverinternal. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>&lt;lyncdiscoverinternal microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 <td><p>디렉터 풀에 대 한 내부 웹 서비스 FQDN (정규화 된 도메인 이름) (있는 경우) 또는 디렉터가 없는 경우 프런트 엔드 풀에 대해</p></td>
 </tr>
 <tr class="even">
 <td><p>A(호스트)</p></td>
-<td><p>lyncdiscoverinternal. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>&lt;lyncdiscoverinternal microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 <td><p>디렉터 풀의 내부 웹 서비스 IP 주소 (부하 분산 장치를 사용 하는 경우 VIP (가상 IP) 주소), 디렉터가 없는 경우 하나 또는 프런트 엔드 풀이 있는 경우</p></td>
 </tr>
 </tbody>
@@ -113,7 +115,7 @@ DNS 레코드는 CNAME 레코드 또는 A(호스트) 레코드일 수 있습니�
 </tr>
 <tr class="odd">
 <td><p>SRV</p></td>
-<td><p>_tcp을 _sipfederationtls 합니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p>
+<td><p>_sipfederationtls._tcp을 _sipfederationtls 합니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p>
 <p>액세스에 지 서비스에 대 한 호스트 (A 또는 AAAA) 레코드로 확인 됩니다.</p></td>
 <td><p>푸시 알림 서비스 및 Apple 푸시 알림 서비스를 지원 하려면 Microsoft Lync Mobile 클라이언트를 포함 하는 각 SIP 도메인에 대해 하나의 SRV 레코드를 만듭니다.</p>
 <div>

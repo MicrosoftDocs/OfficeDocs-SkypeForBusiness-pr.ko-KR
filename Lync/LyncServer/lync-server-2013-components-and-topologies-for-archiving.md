@@ -12,20 +12,22 @@ ms:contentKeyID: 48184213
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ca674be0059a235439df637f07cb4ca834806d4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec153b237df086f3622acc70c104bddc64fef28a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209436"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502615"
 ---
+# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Lync Server 2013의 보관에 대 한 구성 요소 및 토폴로지
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Lync Server 2013의 보관에 대 한 구성 요소 및 토폴로지
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 IM 및 회의 콘텐츠를 보관 하려는 경우 Lync Server�
 
   - **보관 데이터 저장소**. Lync Server 2013의 데이터 저장소는 다음 중 하나일 수 있습니다.
     
-      - Exchange 2013 저장소 Microsoft Exchange 통합 옵션을 사용 하도록 설정 하는 경우 Exchange 2013 서버에 있는 사용자 사서함은 보관 된 데이터에 대해 Exchange 2013 저장소를 사용 하지만 사서함이 원본 위치 유지 상태로 전환 된 경우에만 가능 합니다.
+      - Exchange 2013 저장소 Microsoft Exchange 통합 옵션을 사용 하도록 설정 하는 경우 Exchange 2013 서버에 있는 사용자 사서함은 보관 된 데이터에 대해 Exchange 2013 저장소를 사용 하지만 사서함이 보존 In-Place에 있는 경우에만 가능 합니다.
     
       - SQL Server 저장소입니다. 배포의 사용자가 Lync Server 2013에 있는 경우에는 지원 되는 버전의 SQL Server를 실행 하는 보관 데이터베이스를 설정 하 여 해당 사용자에 대 한 보관을 사용 하도록 설정할 수 있습니다.
 
@@ -69,7 +71,7 @@ Lync Server 2013 IM 및 회의 콘텐츠를 보관 하려는 경우 Lync Server�
 
   - 별도의 SQL Server 데이터베이스를 사용 하 여 배포 됨
 
-Exchange 2013 배포에 Lync Server 배포의 모든 사용자가 포함 되어 있지 않은 경우 Exchange 2013 서버에서 사서함이 홈으로 설정 된 사용자에 대해 Microsoft Exchange 통합을 사용 해야 하며, 다른 모든 경우에는 별도의 SQL Server 데이터베이스를 배포 해야 합니다. 보관에 사용할 Lync 사용자
+Exchange 2013 배포에 Lync Server 배포의 모든 사용자가 포함 되어 있지 않은 경우 Exchange 2013 서버에 사서함이 있는 사용자에 대해 Microsoft Exchange 통합을 사용 해야 하며, 다른 모든 Lync 사용자에 대해 보관에 사용할 별도의 SQL Server 데이터베이스를 배포 해야 합니다.
 
 </div>
 
@@ -77,7 +79,7 @@ Exchange 2013 배포에 Lync Server 배포의 모든 사용자가 포함 되어 
 
 ## <a name="supported-collocation"></a>지원되는 배치
 
-Lync Server 2013에서는 한 서버에서 여러 구성 요소를 실행 하거나 (소규모 조직이 있는 경우) 개별 구성 요소를 서로 다른 서버에서 실행 하 여 하드웨어 비용을 절약할 수 있도록 하는 다양 한 위치 시나리오를 지원 합니다 (대규모 조직에 있는 경우). 확장성과 성능이 필요한 조직 구성 요소를 배치할지 여부를 결정하기 전에 확장성 요인을 분명하게 고려해야 합니다.
+Lync Server 2013에서는 다양 한 배치 시나리오를 지원 하므로 단일 서버에서 여러 구성 요소를 실행 하거나 (소규모 조직이 있는 경우) 개별 구성 요소를 다른 서버에서 실행 하 여 하드웨어 비용을 절약할 수 있습니다 (확장성과 성능이 필요한 대규모 조직이 있는 경우). 구성 요소를 배치할지 여부를 결정하기 전에 확장성 요인을 분명하게 고려해야 합니다.
 
 보관은 풀 또는 Standard Edition 서버의 프런트 엔드 서버에 배포 됩니다. 배치 된 수 있는 구성 요소에 대 한 자세한 내용은 지원 가능성 설명서의 [Lync server 2013에서 Supported server 배치](lync-server-2013-supported-server-collocation.md) 을 참조 하십시오.
 

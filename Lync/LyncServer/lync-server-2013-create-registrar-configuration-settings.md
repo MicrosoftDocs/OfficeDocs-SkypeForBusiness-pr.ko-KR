@@ -12,20 +12,22 @@ ms:contentKeyID: 48185758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf2f9eac959e9061e42bdc05982593c9f21aa2b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2baa4cd40ae0f6421dbb01facecf0ab41825fc31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200190"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501595"
 ---
+# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 등록자 구성 설정 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 등록자 구성 설정 만들기
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**마지막으로 수정 된 항목:** 2013-03-17_
 
 등록자를 사용 하 여 프록시 서버 인증 방법을 구성할 수 있습니다. 사용자가 지정 하는 인증 프로토콜에 따라 풀의 서버가 클라이언트에 발급할 문제 유형이 결정 됩니다. 사용 가능한 프로토콜은 다음과 같습니다.
 
-  - **Kerberos**   클라이언트에서 사용할 수 있는 가장 강력한 암호 기반 인증 구성표 이며, 일반적으로 키 배포 센터 (Kerberos 도메인 컨트롤러)에 대 한 클라이언트 연결이 필요 하기 때문에 엔터프라이즈 클라이언트만 사용할 수 있습니다. 이 설정은 서버에서 엔터프라이즈 클라이언트만 인증 하는 경우에 적합 합니다.
+  - **Kerberos**     클라이언트에서 사용할 수 있는 가장 강력한 암호 기반 인증 구성표 이며, 일반적으로 키 배포 센터 (Kerberos 도메인 컨트롤러)에 대 한 클라이언트 연결이 필요 하기 때문에 엔터프라이즈 클라이언트만 사용할 수 있습니다. 이 설정은 서버에서 엔터프라이즈 클라이언트만 인증 하는 경우에 적합 합니다.
 
-  - **NTLM**   암호에 챌린지 응답 해시 구성표를 사용 하는 클라이언트에서 사용할 수 있는 암호 기반 인증입니다. 이 인증 양식은 원격 사용자와 같은 키 배포 센터 (Kerberos 도메인 컨트롤러)에 연결 하지 않고는 클라이언트에만 사용할 수 있습니다. 서버에서 원격 사용자만 인증 하는 경우 NTLM을 선택 해야 합니다.
+  - **NTLM**     이 인증은 암호에 챌린지-응답 해시 체계를 사용 하는 클라이언트에서 사용할 수 있습니다. 이 인증 양식은 원격 사용자와 같은 키 배포 센터 (Kerberos 도메인 컨트롤러)에 연결 하지 않고는 클라이언트에만 사용할 수 있습니다. 서버에서 원격 사용자만 인증 하는 경우 NTLM을 선택 해야 합니다.
 
-  - **인증서 인증**   서버가 lync Phone Edition 클라이언트, 공통 영역 전화, lync 2013 및 lync Windows 스토어 앱에서 인증서를 가져와야 할 때 사용할 수 있는 새로운 인증 방법입니다. Lync Phone Edition 클라이언트에서 사용자가 로그인 하 고 개인 식별 번호 (PIN)를 제공 하 여 인증 되 면 Lync Server 2013는 SIP URI를 휴대폰에 프로 비전 하 고, SN=joe@contoso.com를 식별 하는 Lync Server 서명 인증서 또는 사용자 인증서를 프로 비전 합니다. 이 인증서는 등록자 및 웹 서비스를 사용 하 여 인증 하는 데 사용 됩니다.
+  - **인증서 인증**     서버가 Lync Phone Edition 클라이언트, 공통 영역 전화, Lync 2013 및 Lync Windows 스토어 앱에서 인증서를 가져와야 하는 경우 새 인증 방법입니다. Lync Phone Edition 클라이언트에서 사용자가 로그인 하 고 개인 식별 번호 (PIN)를 제공 하 여 인증 되 면 Lync Server 2013는 SIP URI를 휴대폰에 프로 비전 하 고, SN=joe@contoso.com를 식별 하는 Lync Server 서명 인증서 또는 사용자 인증서를 프로 비전 합니다. 이 인증서는 등록자 및 웹 서비스를 사용 하 여 인증 하는 데 사용 됩니다.
 
 <div>
 

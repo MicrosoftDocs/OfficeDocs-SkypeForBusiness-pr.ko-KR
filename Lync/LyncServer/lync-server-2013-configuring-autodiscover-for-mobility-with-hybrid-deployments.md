@@ -12,20 +12,22 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d09ad9555e9ef694baece8bf089eeaa06814f51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3b0617094c9dcab6b6eee0cf634440fea63cf16
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180285"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502165"
 ---
+# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>하이브리드 배포를 사용한 이동성을 Lync Server 2013에서 자동 검색 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>하이브리드 배포를 사용한 이동성을 Lync Server 2013에서 자동 검색 구성
+
 
 </div>
 
@@ -55,13 +57,13 @@ _**마지막으로 수정 된 항목:** 2014-06-18_
 
 ## <a name="configuring-autodiscover-for-hybrid-deployments"></a>하이브리드 배포용 자동 검색 구성
 
-1.  Get-CsHostingProvider를 사용 하 여 ProxyFQDN 특성의 값을 검색 합니다.
+1.  Get-CsHostingProvider를 사용 하 여 ProxyFQDN 특성 값을 검색 합니다.
 
 2.  Lync Server 관리 셸에서 다음을 입력 합니다.
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
     
-    여기서 \[identity\] 는 공유 SIP 주소 공간의 도메인 이름으로 대체 됩니다.
+    여기서 \[ identity \] 는 공유 SIP 주소 공간의 도메인 이름으로 대체 됩니다.
 
 </div>
 

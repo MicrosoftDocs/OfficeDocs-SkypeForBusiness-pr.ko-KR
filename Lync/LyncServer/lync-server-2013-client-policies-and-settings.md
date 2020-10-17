@@ -12,20 +12,22 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82ce84f2b3f5f27e25aceccbf7452f7707b8eb52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34e67a16b6f4d76d36684f8e80919271853150cc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502655"
 ---
+# <a name="client-policies-and-settings-in-lync-server-2013"></a>Lync Server 2013의 클라이언트 정책 및 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-policies-and-settings-in-lync-server-2013"></a>Lync Server 2013의 클라이언트 정책 및 설정
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**마지막으로 수정 된 항목:** 2012-06-18_
 
 이 항목에서는 Lync Server 2013에서 구성할 수 있는 클라이언트 관련 설정 및 정책에 대 한 개요를 제공 합니다. Lync Server 2013에는 클라이언트 관리 및 구성에 대 한 다음과 같은 도구가 포함 되어 있습니다.
 
-  - **Lync Server 2013 제어판 컨트롤 패널**   서버, 사용자, 클라이언트 및 장치를 관리 및 구성 하기 위한 웹 기반 그래픽 사용자 인터페이스입니다.
+  - **Lync Server 2013 제어판**     서버, 사용자, 클라이언트 및 장치를 관리 및 구성 하기 위한 웹 기반 그래픽 사용자 인터페이스입니다.
 
-  - **Lync Server 관리 셸**   다양 한 Windows PowerShell 명령줄 인터페이스 cmdlet 및 미리 정의 된 여러 스크립트를 포함 하는 관리 인터페이스입니다.
+  - **Lync Server 관리 셸**     다양 한 Windows PowerShell 명령줄 인터페이스 cmdlet 및 미리 정의 된 스크립트를 포함 하는 관리 인터페이스입니다.
 
   - **Lync 2013 그룹 정책**     Office 그룹 정책 관리 템플릿을 사용 하 여 클라이언트에 대해 구성할 수 있는 정책 집합입니다. Lync 2013 클라이언트를 배포 하기 전에 특정 클라이언트 부트스트랩 정책을 구성 해야 합니다. Lync 2010의 기타 선택적 설정은 Lync 2013에서 계속 허용 됩니다.
 

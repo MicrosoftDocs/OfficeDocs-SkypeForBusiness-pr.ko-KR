@@ -12,20 +12,22 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e8fd10947bab25e522f35e9cd121a04abbb4a45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 90b4c7c07718faf93237dfe11357dc103bf77e9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203364"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501685"
 ---
+# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>Lync Server 2013에서 헌트 그룹 워크플로 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>Lync Server 2013에서 헌트 그룹 워크플로 만들기 또는 수정
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
 
 
 > [!NOTE]  
-> Lync Server 관리 셸 또는 응답 그룹 구성 도구를 사용 하 여 헌트 그룹 워크플로를 만들고 수정할 수 있습니다. Lync Server 제어판에서 응답 그룹 구성 도구에 액세스 하거나, 다음 URL: <STRONG>https://</STRONG>&lt;webpoolfqdn&gt;<STRONG>/RgsConfig</STRONG>을 입력 하 여 웹 브라우저에서 페이지를 직접 열 수 있습니다.
+> Lync Server 관리 셸 또는 응답 그룹 구성 도구를 사용 하 여 헌트 그룹 워크플로를 만들고 수정할 수 있습니다. Lync Server 제어판에서 응답 그룹 구성 도구에 액세스 하거나, 다음 URL: <STRONG>Https://</STRONG> &lt; webpoolfqdn &gt; <STRONG>/RgsConfig</STRONG>을 입력 하 여 웹 브라우저에서 페이지를 직접 열 수 있습니다.
 
 
 
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 응답 그룹 구성 도구가 열립니다. <STRONG>Https://</STRONG>&lt;webpoolfqdn&gt;<STRONG>/RgsConfig</STRONG>URL을 입력 하 여 웹 브라우저에서 직접 응답 그룹 구성 도구를 열 수도 있습니다.
+    > 응답 그룹 구성 도구가 열립니다. <STRONG>Https://</STRONG> &lt; webpoolfqdn &gt; <STRONG>/RgsConfig</STRONG>URL을 입력 하 여 웹 브라우저에서 직접 응답 그룹 구성 도구를 열 수도 있습니다.
 
     
     </div>
@@ -137,7 +139,7 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 표시 이름에 "&lt;" 또는 "&gt;" 문자를 포함 하지 마십시오. <STRONG>RGS Presence Watcher </STRONG> 또는 <STRONG>RGS Presence Watcher</STRONG>는 예약되어 있으므로 표시 이름으로 사용할 수 없습니다.
+    > &lt;표시 이름에 "" 또는 "" 문자를 포함 하지 마십시오 &gt; . <STRONG>RGS Presence Watcher </STRONG> 또는 <STRONG>RGS Presence Watcher</STRONG>는 예약되어 있으므로 표시 이름으로 사용할 수 없습니다.
 
     
     </div>
@@ -265,11 +267,11 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
       - 통화 연결을 끊으려면 **전화 끊기**를 클릭합니다.
     
-      - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환**을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 \<주소 형식은 사용자 이름\>@\<domainName\> (예: bob@contoso.com)입니다.
+      - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환**을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소 형식은 \<username\> @ \<domainName\> (예: bob@contoso.com)입니다.
     
-      - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환**을 클릭하고 사용자 주소를 입력합니다. \<사용자 주소 형식은 username\>@\<domainName\>입니다.
+      - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환**을 클릭하고 사용자 주소를 입력합니다. 사용자 주소 형식은 \<username\> @ \<domainName\> 입니다.
     
-      - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환**을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 \<번호\>@\<domainName\> (예: + 14255550121@contoso.com)입니다. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
+      - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환**을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 \<number\> @ \<domainName\> (예: + 14255550121@contoso.com)입니다. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
 
 24. **5단계 휴일 지정** 아래에서 응답 그룹이 근무하지 않는 요일을 정의하는 하나 이상의 휴일 집합에 대한 확인란을 클릭합니다.
     
@@ -310,11 +312,11 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
       - 통화 연결을 끊으려면 **전화 끊기**를 클릭합니다.
     
-      - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환**을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 \<주소 형식은 사용자 이름\>@\<domainName\> (예: bob@contoso.com)입니다.
+      - 통화를 음성 메일로 착신 전환하려면 **음성 메일로 착신 전환**을 클릭하고 음성 메일 주소를 입력합니다. 음성 메일 주소 형식은 \<username\> @ \<domainName\> (예: bob@contoso.com)입니다.
     
-      - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환**을 클릭하고 사용자 주소를 입력합니다. \<사용자 주소 형식은 username\>@\<domainName\>입니다.
+      - 통화를 다른 사용자에게 착신 전환하려면 **SIP URI로 착신 전환**을 클릭하고 사용자 주소를 입력합니다. 사용자 주소 형식은 \<username\> @ \<domainName\> 입니다.
     
-      - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환**을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 \<번호\>@\<domainName\> (예: + 14255550121@contoso.com)입니다. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
+      - 통화를 다른 전화 번호로 착신 전환하려면 **전화 번호로 착신 전환**을 클릭하고 전화 번호를 입력합니다. 전화 번호 형식은 \<number\> @ \<domainName\> (예: + 14255550121@contoso.com)입니다. 도메인 이름은 발신자를 올바른 대상으로 라우팅하는 데 사용됩니다.
 
 27. **6단계 큐 구성**의 **전화를 받을 큐 선택**에서 에이전트가 사용 가능할 때까지 발신자를 대기 상태로 둘 큐를 선택합니다.
 
@@ -349,7 +351,7 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    예:
+    예를 들면 다음과 같습니다.
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
     
@@ -397,7 +399,7 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
         $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
     
-    예:
+    예를 들면 다음과 같습니다.
     
         $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
     

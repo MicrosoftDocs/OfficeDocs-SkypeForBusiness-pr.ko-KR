@@ -12,20 +12,22 @@ ms:contentKeyID: 48184714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7faf0cd00b59d5df5bab1650a28eff8b9563f91
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b80b5dccfeab136f02705264fea985550cb11240
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205684"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501725"
 ---
+# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Lync Server 2013에서 DNS SRV 레코드 만들기 및 확인
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Lync Server 2013에서 DNS SRV 레코드 만들기 및 확인
+
 
 </div>
 
@@ -53,9 +55,9 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 4.  **리소스 레코드 종류 선택**에서 **서비스 위치(SRV)** 를 클릭한 다음 **레코드 만들기**를 클릭합니다.
 
-5.  **서비스**를 클릭 한 다음 ** \_sipinternaltls**를 입력 합니다.
+5.  **서비스**를 클릭 한 다음 ** \_ sipinternaltls**를 입력 합니다.
 
-6.  **프로토콜**을 클릭 한 다음 ** \_tcp**를 입력 합니다.
+6.  **프로토콜**을 클릭 한 다음 ** \_ tcp**를 입력 합니다.
 
 7.  **포트 번호**를 클릭한 다음 **5061**을 입력합니다.
 
@@ -79,15 +81,15 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 5.  **set type=srv**를 입력한 다음 Enter 키를 누릅니다.
 
-6.  ** \_Sipinternaltls를 입력\_ 합니다. tcp.contoso.com**를 입력 한 다음 enter 키를 누릅니다. TLS(전송 계층 보안) 레코드에 대해 표시되는 결과는 다음과 같습니다.
+6.  ** \_ Sipinternaltls를 입력 합니다. \_ tcp.contoso.com**를 입력 한 다음 enter 키를 누릅니다. TLS(전송 계층 보안) 레코드에 대해 표시되는 결과는 다음과 같습니다.
     
-    서버: \<\>contoso.com
+    서버: \<dns server\> . contoso.com
     
-    주소: \<DNS 서버의 IP 주소\>
+    위치 \<IP address of DNS server\>
     
     Non-authoritative answer:
     
-    \_sipinternaltls. \_tcp.contoso.com SRV 서비스 위치:
+    \_\_sipinternaltls tcp.contoso.com SRV 서비스 위치:
     
     우선 순위 = 0
     
@@ -97,7 +99,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
     
     offhostname = poolname.contoso.com (또는 Standard Edition server A record)
     
-    poolname.contoso.com internet address = \<하나의\> Enterprise Edition server \<\> 또는 \<Standard edition server의 ip 주소를 하나만 사용 하는 풀에 대 한 단일 enterprise edition 서버의 부하 분산 또는 ip 주소에 대 한 가상 IP 주소\>
+    poolname.contoso.com 인터넷 주소 = \<virtual IP Address of the load balancer\> 또는 \<IP address of a single Enterprise Edition server for pools with only one Enterprise Edition server\> 또는 \<IP address of the Standard Edition server\>
 
 7.  작업이 끝나면 명령 프롬프트에서 **exit**를 입력한 다음 Enter 키를 누릅니다.
 
@@ -113,7 +115,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 3.  **열기** 상자에 **cmd**를 입력한 다음 **확인**을 클릭합니다.
 
-4.  명령 프롬프트에 프런트 엔드 풀 **** \<\> 의 nslookup fqdn 또는 \<Standard Edition 서버의\>FQDN을 입력 한 다음 enter 키를 누릅니다.
+4.  명령 프롬프트에서 **nslookup** \<FQDN of the Front End pool\> 또는을 입력 한 \<FQDN of the Standard Edition server\> 다음 enter 키를 누릅니다.
 
 5.  FQDN에 대해 적절한 IP 주소로 확인되는 응답이 수신되는지 확인합니다.
 

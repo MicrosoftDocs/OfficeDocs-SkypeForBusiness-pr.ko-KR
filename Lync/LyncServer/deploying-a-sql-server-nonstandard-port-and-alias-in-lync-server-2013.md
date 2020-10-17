@@ -12,20 +12,22 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51d102c6a810730d6c748dafc6a4fcdc3dd6821e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8721cc82651710ab5fc8158eeb6f297f80847c33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180407"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502915"
 ---
+# <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Lync Server 2013에서 SQL Server 비표준 포트 및 별칭 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Lync Server 2013에서 SQL Server 비표준 포트 및 별칭 배포
+
 
 </div>
 
@@ -55,13 +57,13 @@ Lync Server 2013가 SQL Server와 통신 하는 데 사용 하는 포트를 확�
 
 
 > [!NOTE]  
-> SQL Server에서는 두 가지 내결함성 방법 (장애 조치 (Failover) 클러스터링 및 미러링)을 제공 합니다. 두 SQL Server 내결함성 방법은 Lync Server 2013을 사용 하는 SQL Server 비표준 포트 및 별칭을 사용 하 여 지원 됩니다. 풀에서 사용 하는 SQL Server 백엔드가 미러링된 구성에 있는 경우 데이터베이스를 미러된 SQL로 장애 조치 (failover) 할 때 프런트 엔드 서버에서 sql Server 백 엔드 서버에 대 한 데이터를 미러된 데이터베이스에 연결 하기 위해이 서비스를 실행 해야 합니다. 서버.
+> SQL Server에서는 두 가지 내결함성 방법 (장애 조치 (Failover) 클러스터링 및 미러링)을 제공 합니다. 두 SQL Server 내결함성 방법은 Lync Server 2013을 사용 하는 SQL Server 비표준 포트 및 별칭을 사용 하 여 지원 됩니다. 풀에서 사용 하는 SQL Server 백엔드가 미러링된 구성에 있는 경우 데이터베이스를 미러된 SQL Server로 장애 조치 (failover) 할 때 프런트 엔드 서버에서 sql Server 백 엔드 서버에 대해이 서비스를 실행 하 여 미러된 데이터베이스에 연결 해야 합니다.
 
 
 
 </div>
 
-토폴로지 작성기 내에서 SQL Server 데이터베이스 연결을 구성 하거나 CsDatabase cmdlet을 사용 하는 경우에는 SQL Server 비표준 포트 번호를 명시적으로 정의 하 여 SQL 인스턴스에 연결할 수 없습니다. 비표준 포트를 설정 하려면 SQL Server 및 Windows Server 유틸리티를 사용 해야 합니다.
+토폴로지 작성기 내에서 SQL Server 데이터베이스 연결을 구성 하거나 Install-CsDatabase cmdlet을 사용 하는 경우 SQL Server 비표준 포트 번호를 명시적으로 정의 하 여 SQL 인스턴스에 연결할 수 없습니다. 비표준 포트를 설정 하려면 SQL Server 및 Windows Server 유틸리티를 사용 해야 합니다.
 
 Lync Server 2013에서 사용할 SQL Server 비표준 포트 및 별칭을 설정 하려면 세 가지 기본 단계를 완료 해야 합니다. 이러한 단계는 다음과 같습니다.
 
@@ -99,7 +101,7 @@ Lync Server 2013 토폴로지 작성기에서 참조 하려면 먼저 SQL Server
     
     ![SQL Server Management Studio 아이콘](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "SQL Server Management Studio 아이콘")
 
-2.  탐색 창에서 **sql server 인스턴스**를 확장 하도록 선택 하 고, **sql server 네트워크 구성을**확장 하 고, 다음 그림과 같이 **인스턴스 \<이름\>에 대 한 프로토콜**을 선택 합니다.
+2.  탐색 창에서 **Sql server 인스턴스**를 확장 하도록 선택 하 고, **Sql server 네트워크 구성을**확장 하 고, 다음 **에 대 한 \<instance name\> 프로토콜 **을 선택 합니다.
     
     ![TCP/IP 속성으로 이동](images/Dn776290.3d7a964c-f17e-47fd-8f0c-535453da7fad(OCS.15).jpg "TCP/IP 속성으로 이동")
 
@@ -121,7 +123,7 @@ Lync Server 2013 토폴로지 작성기에서 참조 하려면 먼저 SQL Server
 
 8.  **확인** 을 선택 하 여 tcp/ip 속성 대화 상자를 종료 합니다.
 
-9.  Sql server 구성 관리자의 왼쪽 창에서 **Sql Server 서비스** 를 선택 하 여 sql server 인스턴스를 다시 시작 합니다. 그런 다음 오른쪽 창에서 **SQL \<Server 인스턴스\> 이름을** 마우스 오른쪽 단추로 클릭 하 고 다음 그림과 같이 **다시 시작**을 선택 합니다.
+9.  Sql server 구성 관리자의 왼쪽 창에서 **Sql Server 서비스** 를 선택 하 여 sql server 인스턴스를 다시 시작 합니다. 그런 다음 오른쪽 창에서 **SQL \<instance name\> Server** 를 마우스 오른쪽 단추로 클릭 하 고 다음 그림과 같이 **다시 시작**을 선택 합니다.
     
     ![인스턴스에 대 한 SQL Server 서비스를 다시 설정 합니다.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "인스턴스에 대 한 SQL Server 서비스를 다시 설정 합니다.")
 
@@ -141,7 +143,7 @@ Lync Server 2013 토폴로지 작성기에서 참조 하려면 먼저 SQL Server
     
     ![SQL Server Management Studio 아이콘](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "SQL Server Management Studio 아이콘")
 
-2.  왼쪽 창에서 **Sql Server 인스턴스**를 확장 하도록 선택 하 고, ** \<sql Native Client 버전\> 구성을**확장 한 후에 다음 그림과 같이 **별칭**을 선택 합니다.
+2.  왼쪽 창에서 **Sql Server 인스턴스**를 확장 하도록 선택 하 고, **sql Native Client \<version\> 구성을**확장 한 후에 다음 그림과 같이 **별칭**을 선택 합니다.
     
     ![SQL Server 구성 관리자의 별칭입니다.](images/Dn776290.95341826-55d7-425f-ae19-d47d6668c5d8(OCS.15).jpg "SQL Server 구성 관리자의 별칭입니다.")
 
@@ -210,7 +212,7 @@ Lync Server 2013 토폴로지 작성기에서 참조 하려면 먼저 SQL Server
     
     ![Netstat를 사용 하 여 포트 확인](images/Dn776290.4ff3a1b2-c5eb-4496-8be7-374c351fa027(OCS.15).jpg "Netstat를 사용 하 여 포트 확인")
 
-3.  **텔넷 \<\> \<별칭 이름 포트 \# ** 를 입력 하 여 SQL Server 인스턴스에 대 한 연결을 확인 합니다. 연결에 성공 하면 telnet이 연결 되 고 오류가 표시 되지 않습니다. 이는 SQL Server 인스턴스가 올바른 별칭을 사용 하 여 올바른 포트에서 수신 대기 하 고 있음을 보여 줍니다. SQL Server 데이터베이스에 연결 하는 데 문제가 있는 경우 텔넷은 연결을 설정할 수 없다는 오류를 표시 합니다. 데이터베이스 서버에서 데이터베이스 연결을 확인 했으므로 네트워크를 통해 Lync Server에서 같은 작업을 수행 하 고 방화벽에서 액세스를 차단 하지 않도록 할 수 있습니다.
+3.  ** \<alias name\> Telnet \<port \#\> ** 을 입력 하 여 SQL Server 인스턴스에 대 한 연결을 확인 합니다. 연결에 성공 하면 telnet이 연결 되 고 오류가 표시 되지 않습니다. 이는 SQL Server 인스턴스가 올바른 별칭을 사용 하 여 올바른 포트에서 수신 대기 하 고 있음을 보여 줍니다. SQL Server 데이터베이스에 연결 하는 데 문제가 있는 경우 텔넷은 연결을 설정할 수 없다는 오류를 표시 합니다. 데이터베이스 서버에서 데이터베이스 연결을 확인 했으므로 네트워크를 통해 Lync Server에서 같은 작업을 수행 하 고 방화벽에서 액세스를 차단 하지 않도록 할 수 있습니다.
 
 </div>
 
@@ -229,8 +231,8 @@ SQL Server 별칭이 구성 된 후에는 토폴로지 작성기 도구에서이
 ## <a name="see-also"></a>참고 항목
 
 
-[](microsoft-lync-server-2013.md) 
-[Lync server 2013의 보안을 위한](lync-server-2013-planning-for-security.md) Microsoft lync server 2013 계획  
+[Microsoft Lync Server 2013](microsoft-lync-server-2013.md)  
+ [Lync Server 2013의 보안 계획](lync-server-2013-planning-for-security.md)  
 [Lync Server 2013에서 토폴로지 정의 및 구성](lync-server-2013-defining-and-configuring-the-topology.md)  
 [Lync Server 2013 배포](lync-server-2013-deploying-lync-server.md)  
   
