@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 새 신뢰할 수 있는 응용 프로그램 서버 구성'
+description: 'Lync Server 2013: 새 신뢰할 수 있는 응용 프로그램 서버를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0e053629eae42bc7fcd83b0002b3aad40f3550f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f3cc13c747c5755297b01ae36f27f06d19591acc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507715"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552124"
 ---
-# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a><span data-ttu-id="868af-102">Lync Server 2013에서 신뢰할 수 있는 새 응용 프로그램 서버 구성</span><span class="sxs-lookup"><span data-stu-id="868af-102">Configure a new trusted application server in Lync Server 2013</span></span>
+# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a><span data-ttu-id="8bd9c-103">Lync Server 2013에서 신뢰할 수 있는 새 응용 프로그램 서버 구성</span><span class="sxs-lookup"><span data-stu-id="8bd9c-103">Configure a new trusted application server in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,37 +38,37 @@ ms.locfileid: "48507715"
 
 <span> </span>
 
-<span data-ttu-id="868af-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="868af-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="8bd9c-104">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="8bd9c-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="868af-104">신뢰할 수 있는 응용 프로그램은 Microsoft Lync Server 2013에서 신뢰할 수 있는 Microsoft 통합 커뮤니케이션 관리 API (가) 3.0 Core SDK를 기반으로 하는 응용 프로그램입니다.</span><span class="sxs-lookup"><span data-stu-id="868af-104">A trusted application is an application based on Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK that is trusted by Microsoft Lync Server 2013.</span></span> <span data-ttu-id="868af-105">부분 MA 응용 프로그램에 대 한 자세한 내용은의 "통합 커뮤니케이션 관리 API 3.0 Core SDK 설명서"를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320) .</span><span class="sxs-lookup"><span data-stu-id="868af-105">For details about UCMA applications, see “Unified Communications Managed API 3.0 Core SDK Documentation” at [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320).</span></span>
+<span data-ttu-id="8bd9c-105">신뢰할 수 있는 응용 프로그램은 Microsoft Lync Server 2013에서 신뢰할 수 있는 Microsoft 통합 커뮤니케이션 관리 API (가) 3.0 Core SDK를 기반으로 하는 응용 프로그램입니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-105">A trusted application is an application based on Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK that is trusted by Microsoft Lync Server 2013.</span></span> <span data-ttu-id="8bd9c-106">부분 MA 응용 프로그램에 대 한 자세한 내용은의 "통합 커뮤니케이션 관리 API 3.0 Core SDK 설명서"를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320) .</span><span class="sxs-lookup"><span data-stu-id="8bd9c-106">For details about UCMA applications, see “Unified Communications Managed API 3.0 Core SDK Documentation” at [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320).</span></span>
 
-<span data-ttu-id="868af-106">Microsoft OWA (Outlook web Access) 및 Lync Server 2013을 구성 하는 방법에 대 한 자세한 내용은 Microsoft Exchange Server 2013 설명서에서 "Outlook Web App 및 Lync Server 2010 통합 구성"을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="868af-106">For information about configuring Microsoft Outlook Web Access (OWA) and Lync Server 2013, see “Configure Outlook Web App and Lync Server 2010 Integration” at the Microsoft Exchange Server 2013 documentation.</span></span>
+<span data-ttu-id="8bd9c-107">Microsoft OWA (Outlook web Access) 및 Lync Server 2013을 구성 하는 방법에 대 한 자세한 내용은 Microsoft Exchange Server 2013 설명서에서 "Outlook Web App 및 Lync Server 2010 통합 구성"을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-107">For information about configuring Microsoft Outlook Web Access (OWA) and Lync Server 2013, see “Configure Outlook Web App and Lync Server 2010 Integration” at the Microsoft Exchange Server 2013 documentation.</span></span>
 
-<span data-ttu-id="868af-107">서버 역할을 추가하거나 제거할 때 토폴로지를 게시, 사용하도록 설정 또는 사용하지 않도록 설정하려면 RTCUniversalServerAdmins 및 Domain Admins 그룹의 구성원인 사용자로 로그온해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-107">To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged on as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups.</span></span> <span data-ttu-id="868af-108">적절한 관리자 권한을 위임하여 서버 역할을 추가할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="868af-108">It is also possible to delegate the proper administrator permissions and rights for adding server roles.</span></span> <span data-ttu-id="868af-109">자세한 내용은 배포 설명서에서 [Lync Server 2013의 대리인 설치 권한](lync-server-2013-delegate-setup-permissions.md) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="868af-109">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in the Deployment documentation.</span></span> <span data-ttu-id="868af-110">기타 구성을 변경하려는 경우에는 RTCUniversalServerAdmins 그룹 구성원 자격만 있으면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="868af-110">For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.</span></span>
+<span data-ttu-id="8bd9c-108">서버 역할을 추가하거나 제거할 때 토폴로지를 게시, 사용하도록 설정 또는 사용하지 않도록 설정하려면 RTCUniversalServerAdmins 및 Domain Admins 그룹의 구성원인 사용자로 로그온해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-108">To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged on as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups.</span></span> <span data-ttu-id="8bd9c-109">적절한 관리자 권한을 위임하여 서버 역할을 추가할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-109">It is also possible to delegate the proper administrator permissions and rights for adding server roles.</span></span> <span data-ttu-id="8bd9c-110">자세한 내용은 배포 설명서에서 [Lync Server 2013의 대리인 설치 권한](lync-server-2013-delegate-setup-permissions.md) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-110">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in the Deployment documentation.</span></span> <span data-ttu-id="8bd9c-111">기타 구성을 변경하려는 경우에는 RTCUniversalServerAdmins 그룹 구성원 자격만 있으면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-111">For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.</span></span>
 
 <div>
 
-## <a name="to-configure-a-trusted-application-server"></a><span data-ttu-id="868af-111">신뢰할 수 있는 응용 프로그램 서버를 구성하려면</span><span class="sxs-lookup"><span data-stu-id="868af-111">To configure a trusted application server</span></span>
+## <a name="to-configure-a-trusted-application-server"></a><span data-ttu-id="8bd9c-112">신뢰할 수 있는 응용 프로그램 서버를 구성하려면</span><span class="sxs-lookup"><span data-stu-id="8bd9c-112">To configure a trusted application server</span></span>
 
-1.  <span data-ttu-id="868af-112">토폴로지 작성기가 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 설치되어 있는 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-112">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="8bd9c-113">토폴로지 작성기가 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 설치되어 있는 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-113">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="868af-113">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-113">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+2.  <span data-ttu-id="8bd9c-114">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-114">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-3.  <span data-ttu-id="868af-114">**기존 배포에서 토폴로지 다운로드** 및 **확인**을 차례로 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-114">Select **Download topology from existing deployment**, and then click **OK**.</span></span>
+3.  <span data-ttu-id="8bd9c-115">**기존 배포에서 토폴로지 다운로드** 및 **확인**을 차례로 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-115">Select **Download topology from existing deployment**, and then click **OK**.</span></span>
 
-4.  <span data-ttu-id="868af-115">토폴로지를 **다른 이름으로 저장** 대화 상자에서 사용할 토폴로지 작성기 파일을 클릭 한 다음 **저장**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-115">In the **Save Topology As** dialog box, click the Topology Builder file you want to use, and then click **Save**.</span></span>
+4.  <span data-ttu-id="8bd9c-116">토폴로지를 **다른 이름으로 저장** 대화 상자에서 사용할 토폴로지 작성기 파일을 클릭 한 다음 **저장**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-116">In the **Save Topology As** dialog box, click the Topology Builder file you want to use, and then click **Save**.</span></span>
 
-5.  <span data-ttu-id="868af-116">왼쪽 창에서 **신뢰할 수 있는 응용 프로그램 서버**를 마우스 오른쪽 단추로 클릭 하 고 **새 신뢰할 수 있는 응용 프로그램 풀**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-116">In the left pane, right-click **Trusted application servers**, and then click **New Trusted Application Pool**.</span></span>
+5.  <span data-ttu-id="8bd9c-117">왼쪽 창에서 **신뢰할 수 있는 응용 프로그램 서버**를 마우스 오른쪽 단추로 클릭 하 고 **새 신뢰할 수 있는 응용 프로그램 풀**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-117">In the left pane, right-click **Trusted application servers**, and then click **New Trusted Application Pool**.</span></span>
 
-6.  <span data-ttu-id="868af-117">신뢰할 수 있는 응용 프로그램 풀에 대한 **풀 FQDN**을 입력하고 단일 서버로 설정할지 다중 서버로 설정할지 여부를 선택한 후 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-117">Enter the **Pool FQDN** of the trusted application pool, select whether it will be a single-server or multiple-server, and then click **Next**.</span></span>
+6.  <span data-ttu-id="8bd9c-118">신뢰할 수 있는 응용 프로그램 풀에 대한 **풀 FQDN**을 입력하고 단일 서버로 설정할지 다중 서버로 설정할지 여부를 선택한 후 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-118">Enter the **Pool FQDN** of the trusted application pool, select whether it will be a single-server or multiple-server, and then click **Next**.</span></span>
 
-7.  <span data-ttu-id="868af-118">**다음 홉 선택** 페이지의 목록에서 Lync Server 2013 프런트 엔드 풀을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-118">On the **Select the next hop** page, from the list, select the Lync Server 2013 Front End pool.</span></span>
+7.  <span data-ttu-id="8bd9c-119">**다음 홉 선택** 페이지의 목록에서 Lync Server 2013 프런트 엔드 풀을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-119">On the **Select the next hop** page, from the list, select the Lync Server 2013 Front End pool.</span></span>
 
-8.  <span data-ttu-id="868af-119">**마침**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-119">Click **Finish**.</span></span>
+8.  <span data-ttu-id="8bd9c-120">**마침**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-120">Click **Finish**.</span></span>
 
-9.  <span data-ttu-id="868af-120">최상위 노드 **Lync Server 2013**을 선택한 다음 **동작** 메뉴에서 **토폴로지 게시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-120">Select the top node **Lync Server 2013**, and then, from the **Actions** menu, click **Publish Topology**.</span></span>
+9.  <span data-ttu-id="8bd9c-121">최상위 노드 **Lync Server 2013**을 선택한 다음 **동작** 메뉴에서 **토폴로지 게시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-121">Select the top node **Lync Server 2013**, and then, from the **Actions** menu, click **Publish Topology**.</span></span>
     
-    <span data-ttu-id="868af-121">**신뢰할 수 있는 응용 프로그램 풀이** 성공적으로 만들어졌으며 올바른 프런트 엔드 풀과 연결 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="868af-121">The **Trusted Application Pool** should have been created successfully and associated with the correct Front End pool.</span></span>
+    <span data-ttu-id="8bd9c-122">**신뢰할 수 있는 응용 프로그램 풀이** 성공적으로 만들어졌으며 올바른 프런트 엔드 풀과 연결 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd9c-122">The **Trusted Application Pool** should have been created successfully and associated with the correct Front End pool.</span></span>
 
 </div>
 
