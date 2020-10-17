@@ -12,20 +12,22 @@ ms:contentKeyID: 63969641
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61eb53c5c2f3cfe74087599535541cfb8286ab55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79af6165da1c8d5093912f36413ef98812226cbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193991"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518995"
 ---
+# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a>Lync Server 2013에서 XMPP를 사용 하 여 메시징 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a>Lync Server 2013에서 XMPP를 사용 하 여 메시징 테스트
+
 
 </div>
 
@@ -80,7 +82,7 @@ XMPP(Extensible Messaging and Presence Protocol)는 인터넷에서 메시지를
 
     Test-CsXmppIM -TargetFqdn "atl-cs-001.litwareinc.com" -Receiver "adelany@contoso.com"
 
-다음 예에 표시 된 명령은 특정 사용자 (litwareinc\\pilar)가 로그온 하 여 사용자 adelaney@contoso.com에 xmpp 인스턴트 메시지를 보내는 기능을 테스트 합니다. 이 작업을 수행 하기 위해이 예제의 첫 번째 명령은 Get-Credential cmdlet을 사용 하 여 user Pilar Ackerman의 이름과 암호가 포함 된 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. (로그온 이름 litwareinc\\pilar는 매개 변수로 포함 되었기 때문에 Windows PowerShell 자격 증명 요청 대화 상자에만 관리자가 Pilar Ackerman 계정의 암호를 입력 하면 됩니다.) 그런 다음 결과 credential 개체는 $cred 1 이라는 변수에 저장 됩니다.
+다음 예에 표시 된 명령은 특정 사용자 (litwareinc \\ pilar)가 로그온 하 여 사용자 adelaney@contoso.com에 XMPP 인스턴트 메시지를 보내는 기능을 테스트 합니다. 이 작업을 수행 하기 위해이 예제의 첫 번째 명령은 Get-Credential cmdlet을 사용 하 여 사용자 Pilar Ackerman의 이름과 암호가 포함 된 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. (로그온 이름 litwareinc pilar는 \\ 매개 변수로 포함 되었기 때문에 Windows PowerShell 자격 증명 요청 대화 상자에만 관리자가 Pilar Ackerman 계정의 암호를 입력 하면 됩니다.) 그런 다음 결과 credential 개체는 $cred 1 이라는 변수에 저장 됩니다.
 
 두 번째 명령은이 사용자가 atl-cs-001.litwareinc.com 풀에 로그온 하 여 XMPP 인스턴트 메시지를 보낼 수 있는지 여부를 확인 합니다. 이 작업을 실행 하기 위해 **테스트-CsXmppIm** cmdlet은 네 개의 매개 변수와 함께 targetfqdn (등록자 풀의 FQDN)과 함께 호출 됩니다. 수신자 (메시지를 보내는 사용자의 SIP 주소)입니다. UserCredential (Pilar Ackerman의 사용자 자격 증명을 포함 하는 Windows PowerShell 개체) 및 UserSipAddress (제공 된 사용자 자격 증명에 해당 하는 SIP 주소)
 

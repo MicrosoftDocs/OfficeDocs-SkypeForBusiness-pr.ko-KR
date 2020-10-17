@@ -12,20 +12,22 @@ ms:contentKeyID: 63969596
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d22c801c7d08c3df663f69df07a6c73a5f17f858
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2ac10938dbbc2810e5b43aae85711bf8413ad27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194529"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519165"
 ---
+# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Lync Server 2013의 음성 정책에 대해 전화 번호 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Lync Server 2013의 음성 정책에 대해 전화 번호 테스트
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2014-05-20_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 Set-csvoicepolicy cmdlet을 실행 하는 권한이 있는 RBAC 역할을 사용자에 게 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsVoicePolicy cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoicePolicy&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -76,7 +78,7 @@ Enterprise Voice 사용자가 다음 세 가지 작업을 통해 대규모의 PS
 
 PSTN 사용은 특히 중요 한 음성 정책을 음성 경로에 연결 하는 속성입니다. (음성 정책 및 음성 경로는 하나 이상의 PSTN 사용량이 공통으로 있는 경우 연결 되었다고 말합니다.) 음성 정책은 PSTN 사용을 지정 하지 않고 구성할 수 있습니다. 이 경우 해당 정책이 할당 된 사용자가 PSTN 네트워크를 통해 발신 전화를 걸 수 없습니다. 마찬가지로 지정 된 PSTN 사용량이 하나 이상 없는 음성 경로는 통화를 PSTN 네트워크로 라우팅할 수 없습니다.
 
-Set-csvoicepolicy cmdlet은 지정 된 음성 정책에 PSTN 사용이 있는지 확인 하 고, 하나 이상의 음성 경로를 통해 사용을 공유 합니다. Set-csvoicepolicy에서 실행 하는 확인이 성공 하면 cmdlet은 찾은 첫 번째 유효한 음성 경로의 이름 및 정책을 경로에 연결 하는 PSTN 사용 이름도 보고 합니다.
+Test-CsVoicePolicy cmdlet은 지정 된 음성 정책에 PSTN 사용이 있는지와 사용 현황이 하나 이상의 음성 경로를 통해 공유 되는지 확인 합니다. Test-CsVoicePolicy에서 실행 하는 확인이 성공 하면 cmdlet은 찾은 첫 번째 유효한 음성 경로의 이름과 정책을 연결 하는 PSTN 사용의 이름을 해당 경로에 보고 합니다.
 
 </div>
 
@@ -84,11 +86,11 @@ Set-csvoicepolicy cmdlet은 지정 된 음성 정책에 PSTN 사용이 있는지
 
 ## <a name="running-the-test"></a>테스트 실행
 
-Set-csvoicepolicy cmdlet을 실행 하려면 먼저 Set-csvoicepolicy cmdlet을 사용 하 여 테스트할 음성 정책의 인스턴스를 검색 해야 합니다. 그런 다음 해당 인스턴스를 Set-csvoicepolicy으로 파이프 해야 합니다. 예:
+Test-CsVoicePolicy cmdlet을 실행 하려면 먼저 Get-CsVoicePolicy cmdlet을 사용 하 여 테스트할 음성 정책의 인스턴스를 검색 해야 합니다. 그런 다음 해당 인스턴스를 Set-csvoicepolicy으로 파이프 해야 합니다. 예제:
 
 `Get-CsVoicePolicy -Identity "Global" | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-음성 정책 인스턴스를 검색 하기 위해 Set-csvoicepolicy를 사용 하지 않는이 명령은 실패 합니다.
+음성 정책 인스턴스를 검색 하는 데 Get-CsVoicePolicy를 사용 하지 않는이 명령은 실패 합니다.
 
 `Test-CsVoicePolicy -TargetNumber "+12065551219" -VoicePolicy "Global"`
 
@@ -96,9 +98,9 @@ Set-csvoicepolicy cmdlet을 실행 하려면 먼저 Set-csvoicepolicy cmdlet을 
 
 `Get-CsVoicePolicy | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-TargetNumber는 E. 164 형식을 사용 하 여 지정 해야 합니다. Set-csvoicepolicy은 전화 번호를 정규화 하거나 E. 164 형식으로 변환 하지 않습니다.
+TargetNumber는 E. 164 형식을 사용 하 여 지정 해야 합니다. Test-CsVoicePolicy는 전화 번호를 전자 164 형식으로 정규화 하거나 변환 하지 않습니다.
 
-자세한 내용은 Set-csvoicepolicy cmdlet에 대 한 도움말 설명서를 참조 하십시오.
+자세한 내용은 Test-CsVoicePolicy cmdlet에 대 한 도움말 설명서를 참조 하십시오.
 
 </div>
 
@@ -126,7 +128,7 @@ FirstMatchingRoute MatchingUsage
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-Set-csvoicepolicy에서 일치 하는 항목을 반환 하지 않으면 음성 정책이 음성 경로와 함께 PSTN 사용을 공유 하지 않는 것을 의미할 수 있습니다. 이를 확인 하려면 다음과 같은 cmdlet을 사용 하 여 음성 정책에 할당 된 PSTN 사용법을 확인 합니다.
+Test-CsVoicePolicy에 대해 음성 정책이 음성 경로와 함께 PSTN 사용을 공유 하지 않을 것 이라는 것을 의미 하는 일치 항목을 반환 하지 않는 경우 이를 확인 하려면 다음과 같은 cmdlet을 사용 하 여 음성 정책에 할당 된 PSTN 사용법을 확인 합니다.
 
 `Get-CsVoicePolicy -Identity "Global" | Select-Object PstnUsages | Format-List`
 
@@ -134,7 +136,7 @@ Set-csvoicepolicy에서 일치 하는 항목을 반환 하지 않으면 음성 �
 
 `Get-CsVoiceRoute | Select-Object Identity, PstnUsages`
 
-일치 하는 항목이 표시 되는 경우 즉, 음성 정책을 사용 하 여 하나 이상의 음성 경로를 공유 하는 경우에는 Get-csvoiceroute cmdlet을 실행 하 여 음성 경로에서 제공 된 전화 번호로 전화를 걸 수 있는지 확인 해야 합니다.
+일치 하는 항목이 표시 되는 경우 즉, 음성 정책을 사용 하 여 하나 이상의 음성 경로를 공유 하는 경우에는 Test-CsVoiceRoute cmdlet을 실행 하 여 음성 경로에서 제공 된 전화 번호로 전화를 걸 수 있는지 확인 해야 합니다.
 
 </div>
 

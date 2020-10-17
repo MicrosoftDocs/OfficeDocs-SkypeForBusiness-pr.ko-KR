@@ -12,20 +12,22 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40e049b2a8a88514b9236ee0172474a5252bfdb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d10e70615083796baa0934c6291b377dcd18005
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208314"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519515"
 ---
+# <a name="starting-lync-from-another-application"></a>다른 응용 프로그램에서 Lync 시작
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="starting-lync-from-another-application"></a>다른 응용 프로그램에서 Lync 시작
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync 2013을 시작할 때 자동으로 로그인 하도록 구성한 경우 명
 
 다음 표에는 사용 가능한 매개 변수가 나와 있습니다.
 
-### <a name="lync-2013-command-line-parameters"></a>Lync 2013 명령줄 매개 변수
+### <a name="lync-2013-command-line-parameters"></a>Lync 2013 Command-Line 매개 변수
 
 <table>
 <colgroup>
@@ -89,7 +91,7 @@ Lync 2013을 시작할 때 자동으로 로그인 하도록 구성한 경우 명
 <tr class="even">
 <td><p>메시징을</p></td>
 <td><p>SIP URI</p></td>
-<td><p>SIP URI가 포함된 IM(인스턴트 메시징) 전용 대화 창을 표시합니다. 구분 기호 없이 꺾쇠 괄호 () 안쪽에&lt;&gt;지정 된 여러 SIP uri를 허용 합니다.</p>
+<td><p>SIP URI가 포함된 IM(인스턴트 메시징) 전용 대화 창을 표시합니다. 구분 기호 없이 꺾쇠 괄호 () 안쪽에 지정 된 여러 SIP Uri를 허용 &lt; &gt; 합니다.</p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>

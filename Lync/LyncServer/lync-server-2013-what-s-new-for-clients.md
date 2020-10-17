@@ -12,20 +12,22 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc8ea4abd3608863dea1bf914f5d89cc0ad43fae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6103c6cd8ae762402a94412a56eda107f43a58fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518205"
 ---
+# <a name="whats-new-for-clients-in-lync-server-2013"></a>Lync Server 2013의 새로운 클라이언트 기능
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-clients-in-lync-server-2013"></a>Lync Server 2013의 새로운 클라이언트 기능
+
 
 </div>
 
@@ -43,7 +45,7 @@ Microsoft Lync 2013에는 새롭게 디자인 된 사용자 인터페이스와 �
 
 
 > [!NOTE]  
-> Lync 2013 사용자 인터페이스 업데이트의 설명 보기에 대 한 자세한 내용은 "Lync 2013의 새로운 기능"을 <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A>참조 하십시오.
+> Lync 2013 사용자 인터페이스 업데이트의 설명 보기에 대 한 자세한 내용은 "Lync 2013의 새로운 기능"을 참조 하십시오 <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A> .
 
 
 
@@ -81,7 +83,7 @@ Outlook 메시징 및 공동 작업 클라이언트 내에서 모임 관리를 �
 
 ## <a name="group-policy-deployment"></a>그룹 정책 배포
 
-Lync 2013는 이제 Office 설치에 포함 되어 있으므로 Lync 그룹 정책 설정을 배포 하는 방법이 변경 되었습니다. 이전 버전의 Lync 및 Office Communicator에서는 ADML를 사용 하 여 그룹 정책 설정을 정의할 수 있지만 Lync 2013에서는 이제 Office 그룹 정책과 함께 제공 되는 Lync ADMX 및 관리 템플릿을 사용 합니다. 관리 템플릿
+Lync 2013는 이제 Office 설치에 포함 되어 있으므로 Lync 그룹 정책 설정을 배포 하는 방법이 변경 되었습니다. 이전 버전의 Lync 및 Office Communicator에서는 ADML를 사용 하 여 그룹 정책 설정을 정의할 수 있지만 Lync 2013에서는 이제 Office 그룹 정책 관리 템플릿과 함께 제공 되는 Lync ADMX 및 관리 템플릿을 사용 합니다.
 
 자세한 내용은 [Lync 2013에 대 한 그룹 정책 설정을](lync-server-2013-group-policy-settings-for-lync-2013.md)참조 하십시오.
 

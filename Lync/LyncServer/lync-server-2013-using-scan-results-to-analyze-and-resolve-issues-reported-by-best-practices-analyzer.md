@@ -12,20 +12,22 @@ ms:contentKeyID: 48185581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca12d6a2d41a8787baa8f665014bcf8b77ec3e03
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4bee21cc0d9065868c03467b53d991baba1190d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212794"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518785"
 ---
+# <a name="using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer-in-lync-server-2013"></a>검사 결과를 사용 하 여 Lync Server 2013의 모범 사례 분석기에서 보고 하는 문제 분석 및 해결
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer-in-lync-server-2013"></a>검사 결과를 사용 하 여 Lync Server 2013의 모범 사례 분석기에서 보고 하는 문제 분석 및 해결
+
 
 </div>
 

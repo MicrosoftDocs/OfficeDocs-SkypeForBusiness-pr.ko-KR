@@ -12,20 +12,22 @@ ms:contentKeyID: 63969633
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2f9cd0beea65cfb1718fea3bc1c0235eb7554ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d8d68dfaaca20d991aa37d1a73ae31bf88f5c31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518725"
 ---
+# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>Lync Server 2013에서 음성 번호 정규화 및 라우팅 확인
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>Lync Server 2013에서 음성 번호 정규화 및 라우팅 확인
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211814"
 
 _**마지막으로 수정 된 항목:** 2014-05-19_
 
-올바른 번호 정규화와 라우팅은 기능적인 엔터프라이즈 음성 환경에서 매우 중요 합니다. 특히 PBX (private branch exchange)에서 독립 실행형 Lync Server 환경으로 마이그레이션하는 동안, 모든 기존 전화 걸기 규칙을 표시 하 고 문서화 하 고, 적절 한 정규화 규칙, 음성 정책을 만드는 등의 작업을 수행 하는 것이 좋습니다. 전화 사용 및 경로
+올바른 번호 정규화와 라우팅은 기능적인 엔터프라이즈 음성 환경에서 매우 중요 합니다. 특히 PBX (private branch exchange)에서 독립 실행형 Lync Server 환경으로 마이그레이션하는 동안에는 기존의 모든 전화 걸기 규칙을 표시 하 고 문서화 하 고 적절 한 정규화 규칙, 음성 정책, 전화 사용 및 경로를 만드는 것이 좋습니다.
 
 마이그레이션 중에는 번호 정규화와 라우팅을 확인 하는 것이 중요 하지만 시스템을 정상적으로 작동 하는 경우에도 가능 합니다.
 

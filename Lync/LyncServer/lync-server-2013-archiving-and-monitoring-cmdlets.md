@@ -12,20 +12,22 @@ ms:contentKeyID: 48183281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d0ea105e52783bb61f24323fc7eccedcd5e85dd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 11cd7a2f9cb9eceb68535cec1160dc48ce12b2a9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204682"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517975"
 ---
+# <a name="archiving-and-monitoring-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 보관 및 모니터링 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="archiving-and-monitoring-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 보관 및 모니터링 cmdlet
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2012-10-04_
 
 
 > [!NOTE]
-> Cmdlet에 대 한 자세한 내용은 Lync Server&nbsp;Windows PowerShell 블로그를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A>하세요. 각 블로그의 콘텐츠와 해당 URL은 사전 통지 없이 변경될 수 있습니다.
+> Cmdlet에 대 한 자세한 내용은 Lync Server &nbsp; Windows PowerShell 블로그를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A> 하세요. 각 블로그의 콘텐츠와 해당 URL은 사전 통지 없이 변경될 수 있습니다.
 
 
 

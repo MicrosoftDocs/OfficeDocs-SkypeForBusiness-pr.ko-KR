@@ -12,20 +12,22 @@ ms:contentKeyID: 48185558
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6cc926ecdf990c9d82c4a088a77611ad0fd5806
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bf5eca9118c9f4706aa209dc1e2db1b3dbbed358
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215454"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519815"
 ---
+# <a name="planning-and-deploying-video-in-lync-server-2013"></a>Lync Server 2013의 비디오 계획 및 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-video-in-lync-server-2013"></a>Lync Server 2013의 비디오 계획 및 배포
+
 
 </div>
 
@@ -39,17 +41,17 @@ _**마지막으로 수정 된 항목:** 2012-10-02_
 
 Lync Server 2013에서는 다음과 같은 새로운 비디오 기능을 소개 합니다.
 
-  - **Hd video**   사용자는 2 명의 통화 및 단체 회의에서 최대 hd (고화질) (1920 x 1080)까지 해상도를 경험할 수 있습니다.
+  - **HD 비디오**     사용자는 2 명 통화 및 단체 회의에서 최대 HD (고화질) (1920 x 1080)까지 해상도를 경험할 수 있습니다.
 
-  - **갤러리 보기**   두 명 이상의 사용자가 포함 된 비디오 회의에서 사용자는 전화 회의 참가자의 비디오를 볼 수 있습니다. 회의에 6명 이상이 참가하는 경우에는 맨 위 행에 가장 적극적인 참가자의 비디오만 나타나고 다른 참가자에 대해서는 사진이 표시됩니다.
+  - **갤러리 보기**     두 명 이상의 사용자가 있는 비디오 회의에서는 사용자가 회의 참가자의 비디오를 볼 수 있습니다. 회의에 6명 이상이 참가하는 경우에는 맨 위 행에 가장 적극적인 참가자의 비디오만 나타나고 다른 참가자에 대해서는 사진이 표시됩니다.
 
-  - **** 이제 Lync 2013 클라이언트에서 비디오를 인코딩하기 위해 .h 비디오 코덱이 기본적으로 설정 됩니다.    H.264 비디오는 더욱 광범위한 해상도와 프레임 속도를 지원하며 비디오 확장성도 향상합니다.
+  - **.H 264 동영상**     이제 Lync 2013 클라이언트에서 비디오를 인코딩하기 위해 .H 비디오 코덱이 기본적으로 설정 됩니다. H.264 비디오는 더욱 광범위한 해상도와 프레임 속도를 지원하며 비디오 확장성도 향상합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013에서는 이전 버전의 Lync와의 상호 운용성을 위해 VC1 코덱을 여전히 지원 합니다. 새 비디오 코덱에 대 한 자세한 내용과 배경 정보를 보려면, "Jeff Schertz의 블로그 문서" Lync 2013의 비디오 상호 운용성 "을 <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>참조 하십시오.
+    > Lync Server 2013에서는 이전 버전의 Lync와의 상호 운용성을 위해 VC1 코덱을 여전히 지원 합니다. 새 비디오 코덱에 대 한 자세한 내용과 배경 정보를 보려면, "Jeff Schertz의 블로그 문서" Lync 2013의 비디오 상호 운용성 "을 참조 하십시오 <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A> .
 
     
     </div>

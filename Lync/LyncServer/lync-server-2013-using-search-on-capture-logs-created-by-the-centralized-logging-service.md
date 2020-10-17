@@ -12,20 +12,22 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d306c17f2c399d38e406d466664a49e3e2df6ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b054f3ea8a1054be1e920fbbacbfe2e88b157ba7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518765"
 ---
+# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013의 중앙 로깅 서비스에서 만든 캡처 로그에 검색 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013의 중앙 로깅 서비스에서 만든 캡처 로그에 검색 사용
+
 
 </div>
 
@@ -51,11 +53,11 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 중앙 로깅 서비스의 이점을 최대한 활용 하려면 조사 중인 문제와 관련 된 컴퓨터 및 풀 로그의 추적 메시지만 반환 하도록 검색을 구성 하는 방법을 잘 이해 해야 합니다. 발행
 
-Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 검색 기능을 실행 하려면 CsAdministrator 또는 CsServerAdministrator의 RBAC (역할 기반 액세스 제어) 보안 그룹 또는이를 포함 하는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 두 그룹 중 하나 직접 만든 사용자 지정 RBAC 역할을 포함 하 여이 cmdlet이 할당 된 모든 RBAC 역할의 목록을 반환 하려면 Lync Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
+Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 검색 기능을 실행 하려면 CsAdministrator 또는 CsServerAdministrator의 RBAC (역할 기반 액세스 제어) 보안 그룹 또는 이러한 두 그룹 중 하나를 포함 하는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 직접 만든 사용자 지정 RBAC 역할을 포함 하 여이 cmdlet이 할당 된 모든 RBAC 역할의 목록을 반환 하려면 Lync Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
-예:
+예를 들면 다음과 같습니다.
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
@@ -75,12 +77,12 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 검색 기능�
     
 
     > [!NOTE]
-    > 기본적으로 Search-CsClsLogging은 검색 결과를 콘솔로 보냅니다. 검색 결과를 파일에 저장 하려면 – OutputFilePath &lt;문자열 정규화 된 파일 경로&gt;를 사용 합니다. -OutputFilePath 매개 변수를 정의하려면 매개 변수의 일부분으로 경로와 파일 이름을 따옴표로 묶인 문자열 형식으로 입력합니다(예: C:\LogFiles\SearchOutput.txt). 이 예제에서는 C:\LogFiles 디렉터리가 있으며 해당 폴더에서 파일 읽기 및 쓰기 권한(수정 NTFS 권한)이 있는지 확인해야 합니다. 출력은 추가되며 기존 로그를 덮어쓰지 않습니다. 별도의 파일이 필요하면 각 검색에 대해 고유한 파일 이름을 정의합니다.
+    > 기본적으로 Search-CsClsLogging은 검색 결과를 콘솔로 보냅니다. 검색 결과를 파일에 저장 하려면 – OutputFilePath &lt; 문자열 정규화 된 파일 경로를 사용 &gt; 합니다. -OutputFilePath 매개 변수를 정의하려면 매개 변수의 일부분으로 경로와 파일 이름을 따옴표로 묶인 문자열 형식으로 입력합니다(예: C:\LogFiles\SearchOutput.txt). 이 예제에서는 C:\LogFiles 디렉터리가 있으며 해당 폴더에서 파일 읽기 및 쓰기 권한(수정 NTFS 권한)이 있는지 확인해야 합니다. 출력은 추가되며 기존 로그를 덮어쓰지 않습니다. 별도의 파일이 필요하면 각 검색에 대해 고유한 파일 이름을 정의합니다.
 
     
     </div>
     
-    예:
+    예를 들면 다음과 같습니다.
     
         Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
 
@@ -94,7 +96,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 검색 기능�
     
         Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
     
-    예:
+    예를 들면 다음과 같습니다.
     
         Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
 
@@ -104,13 +106,13 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 검색 기능�
 
 3.  컴퓨터 하나가 아닌 전체 풀을 검색해야 하는 경우 -Computers 매개 변수를 -Pools로 변경하고 컴퓨터 이름을 제거한 다음 따옴표로 묶고 쉼표로 구분한 하나 이상의 풀로 바꿉니다.
     
-    예:
+    예를 들면 다음과 같습니다.
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
 4.  검색 명령을 사용 하는 경우 배포에서 풀은 프런트 엔드 풀,에 지 풀, 영구 채팅 서버 풀 등 배포의 풀 일 수 있습니다.
     
-    예:
+    예를 들면 다음과 같습니다.
     
         Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
@@ -124,7 +126,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 검색 기능�
 
 2.  기본적으로 검색의 시간 관련 매개 변수 시작 시간은 검색 시작 시간 30분 전입니다. 즉, 오후 4시에 시작하는 검색에서는 컴퓨터 및 풀에서 오후 3시 30분에서 4시 사이에 정의하는 로그를 검색합니다. 현재 시간 60분 또는 3시간 전을 검색해야 하는 경우 -StartTime 매개 변수를 사용하여 날짜 및 시간 문자열을 설정해 검색을 시작할 시간을 지정합니다.
     
-    예를 들어 –StartTime 및 –EndTime을 사용하여 시간 및 날짜 범위를 정의하면 풀에서 2012년 11월 20일 오전 8시에서 9시 사이로 검색을 정의할 수 있습니다. 결과를 다음과 같이 c:\\logfile 파일에 쓰도록 출력 경로를 설정할 수 있습니다.
+    예를 들어 –StartTime 및 –EndTime을 사용하여 시간 및 날짜 범위를 정의하면 풀에서 2012년 11월 20일 오전 8시에서 9시 사이로 검색을 정의할 수 있습니다. 다음과 같이 결과를 c:logfile.txt 파일에 쓰도록 출력 경로를 설정할 수 있습니다 \\ .
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     
@@ -139,7 +141,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 검색 기능�
 
 3.  2012년 11월 20일 오전 11시부터 로그를 검색하려면 -StartTime을 정의합니다. 구체적인 -EndTime을 정의하지 않는 경우 검색의 기본 시간 범위는 30분입니다. 이 경우 수행되는 검색은 정의된 컴퓨터에서 오전 11시에서 11시 30분 사이의 로그를 반환합니다.
     
-    예:
+    예를 들면 다음과 같습니다.
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
 

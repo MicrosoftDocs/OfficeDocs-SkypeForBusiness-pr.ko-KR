@@ -12,20 +12,22 @@ ms:contentKeyID: 48183960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4b0b2e2708abbf3b92223474ec0804c1d11ac8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5b504c498b2f07915f741e6c3172e911c7d40dae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181811"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519625"
 ---
+# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice에 대 한 소프트웨어 필수 구성 요소
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice에 대 한 소프트웨어 필수 구성 요소
+
 
 </div>
 
@@ -43,7 +45,7 @@ Enterprise Voice를 배포하려는 인프라가 다음의 소프트웨어 필�
 
   - 모든에 지 서버는 액세스에 지 서비스를 실행 하는에 지 서버, A/V에 지 서비스, 웹 회의에 지 서비스 및 역방향 프록시를 포함 하는 경계 네트워크에서 배포 및 작동 합니다.
 
-  - Microsoft Exchange server 2007 SP3 (서비스 팩 3), microsoft exchange server 2010 또는 Microsoft Exchange Server 2013은 Exchange 통합 메시징을 Lync Server와 통합 하 고 자세한 알림을 제공 하 고 다음에 대 한 로그 정보를 호출 하는 데 필요 합니다. Lync 끝점
+  - Microsoft Exchange server 2007 SP3 (서비스 팩 3), microsoft exchange server 2010 또는 Microsoft Exchange Server 2013은 Exchange 통합 메시징을 Lync Server와 통합 하 고, 다양 한 알림을 제공 하 고 Lync 끝점에 대 한 로그 정보를 호출 하는 데 필요 합니다.
 
   - Lync Server에 대해 하나 이상의 사용자를 만들고 사용할 수 있습니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: defed8a0356d489a628f883b42ae658aadd6442d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3841cb8a582e44e14b9ae7c73f3b3aed6b6ded33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181791"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519575"
 ---
+# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013의 가상 트랜잭션에 대 한 특별 설치 지침
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013의 가상 트랜잭션에 대 한 특별 설치 지침
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**마지막으로 수정 된 항목:** 2015-11-16_
 
 ## <a name="dealing-with-server-timeout-errors"></a>서버 시간 제한 오류 처리
 
-경우에 따라 가상 트랜잭션이 서버 시간 제한 오류 (오류 코드 504)와 함께 실패 하는 경우가 있습니다. 이러한 오류는 일반적으로 방화벽 문제로 인해 발생 합니다. 가상 트랜잭션이 실행 되 면 해당 트랜잭션은 MonitoringHost 프로세스에서 실행 되 고, MonitoringHost는 debug.exe 프로세스의 인스턴스를 시작 합니다. MonitoringHost 또는 debug.exe가 방화벽에 의해 차단 되 면 가상 트랜잭션이 실패 하 고 504 오류가 발생 합니다.
+경우에 따라 가상 트랜잭션이 서버 시간 제한 오류 (오류 코드 504)와 함께 실패 하는 경우가 있습니다. 이러한 오류는 일반적으로 방화벽 문제로 인해 발생 합니다. 가상 트랜잭션이 실행 되 면 해당 트랜잭션은 MonitoringHost.exe 프로세스에서 실행 됩니다. 그런 후에 MonitoringHost.exe PowerShell.exe 프로세스의 인스턴스를 시작 합니다. MonitoringHost.exe 또는 PowerShell.exe이 방화벽에 의해 차단 되 면 가상 트랜잭션이 실패 하 고 504 오류가 발생 합니다.
 
-이 문제를 해결 하려면 로컬 컴퓨터에서 MonitoringHost 및 debug.exe 둘 다에 대해 인바운드 방화벽 규칙을 수동으로 만들어야 합니다. 이 작업은 서버의 기존 구성에 따라 Windows 방화벽이 나 타사 로컬 방화벽 소프트웨어를 통해 수행 될 수 있습니다.
+이 문제를 해결 하려면 로컬 컴퓨터에서 MonitoringHost.exe 및 PowerShell.exe에 대 한 인바운드 방화벽 규칙을 수동으로 만들어야 합니다. 이 작업은 서버의 기존 구성에 따라 Windows 방화벽이 나 타사 로컬 방화벽 소프트웨어를 통해 수행 될 수 있습니다.
 
 가상 트랜잭션 호스트 컴퓨터와 모니터링 하려는 Lync 서버 간에 네트워크 방화벽 장치를 사용할 경우에는 호스트를 클라이언트 컴퓨터로 취급 하 고 모든 방화벽 포트 요구 사항을 [Lync Server 2013의 내부 서버에 대 한 포트 및 프로토콜](lync-server-2013-ports-and-protocols-for-internal-servers.md)에서 관찰자로 다루어야 합니다.
 
@@ -99,7 +101,7 @@ Exchange UM (통합 메시징) 가상 트랜잭션은 테스트 사용자가 Exc
 
   - 서버 자체에서 실행할 경우 cmdlet을 실행하는 사용자는 RTCUniversalServerAdmins 그룹의 구성원이어야 합니다.
 
-위 명령에서는 Setup 매개 변수가 포함되었으며 True($True)로 설정되었습니다. Setup 매개 변수를 포함 하면 Test-cspersistentchatmessage에서 특수 영구 대화방을 만들고 해당 대화방을 테스트 사용자에 게 채웁니다. 이러한 방식은 테스트 목적으로 사용할 수 있는 채팅방을 실제로 만드는 데 도움이 됩니다. Setup 매개 변수는 프런트 엔드 서버 에서만 실행 해야 합니다.
+위 명령에서는 Setup 매개 변수가 포함되었으며 True($True)로 설정되었습니다. Setup 매개 변수를 포함 하면 Test-CsPersistentChatMessage에서 특수 영구 대화방을 만들고 해당 대화방을 테스트 사용자에 게 채웁니다. 이러한 방식은 테스트 목적으로 사용할 수 있는 채팅방을 실제로 만드는 데 도움이 됩니다. Setup 매개 변수는 프런트 엔드 서버 에서만 실행 해야 합니다.
 
 Test-CsPersistentChatMessage로 만든 채팅방은 관리자만 삭제할 수 있습니다.
 
@@ -139,7 +141,7 @@ Test-CsPersistentChatMessage로 만든 채팅방은 관리자만 삭제할 수 �
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer -Setup
 
-이전 명령에서는 Setup 매개 변수가 사용되었습니다. Test-CsUnifiedContactStore를 실행할 때 Setup 매개 변수가 포함되었으면 지정된 사용자의 연락처(이 경우 sip:kenmyer@litwareinc.com)가 통합 연락처 저장소로 이동됩니다. 물론, 사용자의 연락처가 통합 연락처 저장소에 이미 있는 경우에는 이동할 필요가 없습니다. Setup 매개 변수는 일반적으로 한 번만 사용 되며 (첫 번째 테스트-Test-csunifiedcontactstore 실행), 테스트 사용자 에게만 사용 해야 합니다. 즉, 사용자 계정을 사용 하 여 Lync Server에 실제로 로그온 하지 않을 수 있습니다. 테스트 사용자가 통합 연락처 저장소로 마이그레이션된 후에는 Setup 매개 변수 없이 Test-CsUnifiedContactStore를 호출하여 사용자의 연락처를 검색할 수 있는지 확인할 수 있습니다.
+이전 명령에서는 Setup 매개 변수가 사용되었습니다. Test-CsUnifiedContactStore를 실행할 때 Setup 매개 변수가 포함되었으면 지정된 사용자의 연락처(이 경우 sip:kenmyer@litwareinc.com)가 통합 연락처 저장소로 이동됩니다. 물론, 사용자의 연락처가 통합 연락처 저장소에 이미 있는 경우에는 이동할 필요가 없습니다. Setup 매개 변수는 일반적으로 한 번만 사용 되며 (처음 Test-CsUnifiedContactStore 실행) 테스트 사용자 에게만 사용 해야 합니다. 즉, 사용자 계정을 사용 하 여 Lync Server에 실제로 로그온 하지 않을 수 있습니다. 테스트 사용자가 통합 연락처 저장소로 마이그레이션된 후에는 Setup 매개 변수 없이 Test-CsUnifiedContactStore를 호출하여 사용자의 연락처를 검색할 수 있는지 확인할 수 있습니다.
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1e7acf5fa315e566094728066bbc798267f029ed
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780177"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519455"
 ---
+# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Lync Server 2013 하이브리드 환경을 준비 및 배포 하기 위한 단계
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Lync Server 2013 하이브리드 환경을 준비 및 배포 하기 위한 단계
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2016-12-08_
 <td><p>도메인 추가 및 소유권 확인</p></td>
 <td><p>도메인은 <em>베 니 티 도메인이</em>라고도 하기도 합니다. Office 365 조직에 도메인을 추가 하 고 단계에 따라 Office 365 도메인의 유효성을 검사 해야 합니다. 이는 사용자가 도메인의 소유자 인지 확인 하기 위한 것입니다.</p>
 <p>Office 365 조 직에 도메인을 추가 하려면 <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">office 365에 도메인 추가</a>에 설명 된 단계를 수행 합니다.</p>
-<p>Office 365 서비스에 대 한 DNS 레코드 편집을 포함 &quot;하 여 항목의 각 섹션에 있는 모든 단계를 완료 합니다.&quot;</p></td>
+<p>&quot;Office 365 서비스에 대 한 DNS 레코드 편집을 포함 하 여 항목의 각 섹션에 있는 모든 단계를 완료 합니다.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td></td>

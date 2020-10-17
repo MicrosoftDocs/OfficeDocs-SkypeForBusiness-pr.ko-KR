@@ -12,20 +12,22 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca51a3c597be40c679a7b131f87775876a63811d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c07fc83680fd6b1d3f4d0d24429165ff9cc5ca65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211754"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518615"
 ---
+# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Lync Server 2013의 IIS 가상 디렉터리에 대 한 인증 및 인증 확인 또는 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Lync Server 2013의 IIS 가상 디렉터리에 대 한 인증 및 인증 확인 또는 구성
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2012-05-25_
 
 
 > [!NOTE]  
-> 다음 절차에서는 IIS에서 모든 용도의 Lync Server, 내부 웹 사이트 및 외부 웹 사이트에 사용 되는 결합 된 인증서를 요청 하는 절차를 정의 합니다. Lync Server 2010에서는 인증서 요청, 가져오기 및 할당을&nbsp;관리 하는 Express 용도의 Lync Server 관리 셸 Windows PowerShell cmdlet 집합이 도입 되었습니다. 이 절차에서는 내부적으로 배포된 CA(인증 기관)가 요청을 처리할 수 있다고 가정합니다. Lync Server 목적으로 공용 인증서를 사용 하거나 CA에 오프 라인 요청이 필요한 경우 – Output 매개 변수에 대 한 자세한 내용은이 항목의 자세한 구문을 참조 하십시오. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">요청-Set-cscertificate</A>
+> 다음 절차에서는 IIS에서 모든 용도의 Lync Server, 내부 웹 사이트 및 외부 웹 사이트에 사용 되는 결합 된 인증서를 요청 하는 절차를 정의 합니다. Lync Server 2010에서는 &nbsp; 인증서 요청, 가져오기 및 할당을 관리 하는 express 용도의 Lync Server 관리 셸 Windows PowerShell cmdlet 집합이 도입 되었습니다. 이 절차에서는 내부적으로 배포된 CA(인증 기관)가 요청을 처리할 수 있다고 가정합니다. Lync Server 목적으로 공용 인증서를 사용 하거나 CA에 오프 라인 요청이 필요한 경우 – Output 매개 변수에 대 한 자세한 내용은이 항목의 자세한 구문을 참조 하십시오. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">요청-Set-cscertificate</A>
 
 
 
@@ -76,7 +78,7 @@ _**마지막으로 수정 된 항목:** 2012-05-25_
     
     컴퓨터 개인 인증서 저장소의 현재 서버에 있는 인증서 목록이 출력됩니다. 조합된 인증서(즉, 기본값, 내부 웹 서비스 및 외부 웹 서비스가 동일한 인증서 사용)에서는 Use 속성에 기본값, WebServicesInternal 및 WebServicesExternal이 채워집니다. 또한 Thumbprint 속성은 각 Use 유형에 대해 동일합니다. 이 예에서는 Get-CsCertificate의 출력 예를 보여줍니다.
     
-    ![Set-cscertificate 현재 scert 상태에 대 한 정보](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Set-cscertificate 현재 scert 상태에 대 한 정보")
+    ![Set-cscertificate 현재 scert 상태에 대 한 정보](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "현재 scert 상태에 대 한 Get-CsCertificate 정보")
 
 6.  Lync Server 관리 셸에서 다음을 입력 합니다.
     
@@ -95,7 +97,7 @@ _**마지막으로 수정 된 항목:** 2012-05-25_
     
     </div>
     
-    ![요청을 사용 하 여 인증서 요청의 출력 CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "요청을 사용 하 여 인증서 요청의 출력 CsCertifica")
+    ![요청을 사용 하 여 인증서 요청의 출력 CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Request-CsCertifica를 사용 하 여 인증서 요청 출력")
 
 7.  Lync Server 관리 셸에서 다음을 입력 합니다.
     
@@ -107,7 +109,7 @@ _**마지막으로 수정 된 항목:** 2012-05-25_
     
     Set-CsCertificate cmdlet의 출력에는 기본값, WebServicesExternal 및 WebServicesInternal 사용을 위해 동일 인증서(인증서 지문으로 식별)가 지정된 것으로 표시됩니다.
     
-    ![IIS WebExt에서 Set-cscertificate의 출력](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "IIS WebExt에서 Set-cscertificate의 출력")
+    ![IIS WebExt에서 Set-CsCertificate의 출력](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "IIS WebExt에서 Set-CsCertificate의 출력")
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0001d70033aac6d7c6125bb9e4016143beefc80f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51dbff3748f342bd630c33fc867a4249b386c00c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212764"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518825"
 ---
+# <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a>Lync Server 2013에 Microsoft SQL Server 2008 R2를 System Center Operations Manager 데이터베이스로 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a>Lync Server 2013에 Microsoft SQL Server 2008 R2를 System Center Operations Manager 데이터베이스로 사용
+
 
 </div>
 
@@ -47,15 +49,15 @@ System Center Operations Manager 설치를 시작 하기 전에 SQL Server 2008 
 
 1.  **시작**을 클릭하고 **실행**을 클릭합니다.
 
-2.  **실행** 대화 상자에 **C\\: Program Files\\Microsoft SQL Server\\ atl-sc-001\_은\\Reporting Services\\ReportServer** 를 입력 한 다음 enter 키를 누릅니다.
+2.  **실행** 대화 상자에 **C: \\ Program Files \\ Microsoft SQL Server \\ atl-sc-001 \_ 은 \\ Reporting Services \\ ReportServer** 를 입력 한 다음 enter 키를 누릅니다.
 
-3.  **ReportServer** 폴더에서 **Rsreportserver.config** 파일을 메모장 이나 다른 텍스트 편집기에서 엽니다.
+3.  **ReportServer** 폴더에서 메모장 이나 다른 텍스트 편집기에서 **rsreportserver.config** 파일을 엽니다.
 
-4.  파일의 시작 부분에 일련의 "Add Key (키)" 노드가 표시 됩니다. **Add Key = "secureconnectionlevel"을 입력 하 고 값을 0으로 설정 합니다. \<** ****
+4.  파일의 시작 부분에 일련의 "Add Key (키)" 노드가 표시 됩니다. ** \< Add Key = "SecureConnectionLevel"** 을 입력 하 고 값을 **0**으로 설정 합니다.
     
         <Add Key="SecureConnectionLevel" Value="0"/>
 
-5.  **Rsreportserver.config** 파일을 저장 하 고 텍스트 편집기를 닫습니다.
+5.  파일 **rsreportserver.config** 저장 한 다음 텍스트 편집기를 닫습니다.
 
 보고서 서버 구성 파일을 업데이트 한 후에는 SQL Server Reporting Services에 올바른 인증서를 할당 해야 합니다. 이렇게 하려면 다음을 수행 합니다.
 
@@ -81,7 +83,7 @@ System Center Operations Manager에서 SQL Server 2008 R2 데이터베이스를 
 
 Operations Manager 데이터베이스를 수동으로 만들려면 다음을 수행 합니다.
 
-1.  System Center Operations Manager 2007 R2 설치 미디어의 SupportTools\\AMD64 폴더에서 **dbcreatewizard .exe**를 두 번 클릭 합니다.
+1.  System Center Operations Manager 2007 R2 설치 미디어의 SupportTools \\ AMD64 폴더에서 **DBCreateWizard.exe**을 두 번 클릭 합니다.
 
 2.  데이터베이스 구성 마법사의 **데이터베이스 구성 마법사 시작** 페이지에서 **다음**을 클릭 합니다.
 
@@ -101,15 +103,15 @@ Operations Manager 데이터베이스를 수동으로 만들려면 다음을 수
 
 Microsoft Lync Server 2013은 다음과 같은 세 가지 새로운 System Center Operations Manager 보고서와 함께 제공 됩니다.
 
-  - **End to end Scenario availability report**   이 보고서는 등록 또는 현재 상태의 주요 Lync Server 서비스에 대 한 가용성/가동 시간을 자세히 설명 합니다.
+  - **종단 간 시나리오 가용성 보고서**     이 보고서에서는 등록 또는 현재 상태의 키 Lync Server 서비스에 대 한 가용성/가동 시간을 자세히 설명 합니다.
 
-  - **용량 보고서**   이 보고서에서는 성능 카운터 정보를 사용 하 여 메모리 가용성 및 프로세서 사용량과 같은 시스템 구성 요소의 추세를 보여 줍니다.
+  - **용량 보고서**     이 보고서에서는 성능 카운터 정보를 사용 하 여 메모리 가용성 및 프로세서 사용량과 같은 시스템 구성 요소의 추세를 보여 줍니다.
 
-  - **구성 요소 보고서**   이 보고서에는 Lync Server 구성 요소별 그룹화 된 최상위 알림 생성기가 나열 됩니다.
+  - **구성 요소 보고서**     이 보고서에는 Lync Server 구성 요소별 그룹화 된 최상위 알림 생성기가 나열 됩니다.
 
 이러한 새 보고서를 사용 하려면 System Center Operations Manager 데이터 웨어하우스를 설치 해야 합니다. (데이터 웨어하우스는 장기 작업 데이터 저장소를 제공 합니다.) SQL Server 2008 R2에서 데이터 웨어하우스를 사용 하려면 SQL Server 데이터베이스를 호스팅하는 컴퓨터에서 다음 단계를 수행 해야 합니다.
 
-1.  System Center Operations Manager 설치 미디어의 설치\\지원 도구\\AMD64 폴더에서 **dbcreatewizard .exe**를 두 번 클릭 합니다.
+1.  System Center Operations Manager 설치 미디어의 설치 \\ 지원 도구 \\ AMD64 폴더에서 **DBCreateWizard.exe**을 두 번 클릭 합니다.
 
 2.  데이터베이스 구성 마법사의 **데이터베이스 구성 마법사 시작** 페이지에서 **다음**을 클릭 합니다.
 
@@ -127,7 +129,7 @@ Operations Manager 콘솔은 System Center Operations Manager를 관리 하는 �
 
 System Center Operations Manager 콘솔을 설치 하려면
 
-1.  System Center Operations Manager 설치 미디어에서 **setupom.exe**를 두 번 클릭 합니다.
+1.  System Center Operations Manager 설치 미디어에서 **SetupOM.exe**를 두 번 클릭 합니다.
 
 2.  System Center Operations Manager 2007 R2 설치에서 **필수 구성 요소 확인**을 클릭 합니다.
 
@@ -171,15 +173,15 @@ System Center Operations Manager 콘솔을 설치 및 구성한 후 System Cente
 
 2.  서버 관리자에서 **구성**, **로컬 사용자 및 그룹**을 차례로 확장한 다음 **그룹**을 클릭합니다.
 
-3.  다음 그룹을 찾습니다. 여기서 atl-sc-a는 컴퓨터의 이름을 나타내고은는 System Center 데이터베이스에 대 한 SQL Server 인스턴스 **SQLServerReportServerUser $ atl-sc-001 $\_atl-sc-001 50은**를 나타냅니다.
+3.  다음 그룹을 찾습니다. 여기서 atl-sc-a는 컴퓨터의 이름을 나타내고은는 System Center 데이터베이스에 대 한 SQL Server 인스턴스 **SQLServerReportServerUser $ atl-sc-001 $ atl-sc-001 \_ 50은**를 나타냅니다.
 
-4.  그룹을 마우스 오른쪽 단추로 클릭 한 다음 **이름 바꾸기를**클릭 합니다. 그룹 이름에서 ** \_50** 을 삭제 하 여 그룹 이름을 바꿉니다. 예: **SQLServerReportServerUser $ atl-sc-001 $ atl-sc-001. 은**
+4.  그룹을 마우스 오른쪽 단추로 클릭 한 다음 **이름 바꾸기를**클릭 합니다. 그룹 이름에서 ** \_ 50** 을 삭제 하 여 그룹 이름을 바꿉니다. 예: **SQLServerReportServerUser $ atl-sc-001 $ atl-sc-001. 은**
 
 5.  서버 관리자를 닫습니다.
 
 이 시점에 System Center Reporting Services를 설치할 준비가 되었습니다. 이렇게 하려면 다음을 실행합니다.
 
-1.  System Center Operations Manager 2007 R2 설치 미디어에서 **setupom.exe**를 두 번 클릭 합니다.
+1.  System Center Operations Manager 2007 R2 설치 미디어에서 **SetupOM.exe**를 두 번 클릭 합니다.
 
 2.  System Center Operations Manager 2007 R2 설치에서 **Operations Manager 보고 설치**를 클릭 합니다.
 
@@ -219,7 +221,7 @@ System Center 보고가 설치 된 후 다음 절차에 따라 SQL Server 보고
 
 3.  다음 그룹을 찾습니다. 여기서 atl-sc-a는 컴퓨터의 이름을 나타내고은은 보관 및 모니터링 데이터베이스에 대 한 SQL Server 인스턴스 **SQLServerReportServerUser $ atl-sc-001 $ atl-sc-001를 나타냅니다. 은**
 
-4.  그룹을 마우스 오른쪽 단추로 클릭 한 다음 **이름 바꾸기를**클릭 합니다. 그룹 이름 끝에 ** \_50** 을 더하여 SQL Server 인스턴스 이름 바로 앞에 추가 하 여 그룹 이름을 바꿉니다. 예: **SQLServerReportServerUser $ atl-sc-001 $ atl-sc-001\_50.은**
+4.  그룹을 마우스 오른쪽 단추로 클릭 한 다음 **이름 바꾸기를**클릭 합니다. 그룹 이름 끝에 ** \_ 50** 을 더하여 SQL Server 인스턴스 이름 바로 앞에 추가 하 여 그룹 이름을 바꿉니다. 예: **SQLServerReportServerUser $ atl-sc-001 $ atl-sc-001 \_ 50.은**
 
 5.  서버 관리자를 닫습니다.
 

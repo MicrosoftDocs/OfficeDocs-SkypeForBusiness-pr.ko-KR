@@ -12,20 +12,22 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5476d47d0aac550d048e35e617d6d342084ccd75
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e2db63b7f8c4d801c7e2e89da93593a5745c9c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194541"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519125"
 ---
+# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Lync Server 2013에서 음성 경로에 대 한 전화 번호 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Lync Server 2013에서 음성 경로에 대 한 전화 번호 테스트
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2014-05-20_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 Get-csvoiceroute cmdlet을 실행 하는 권한이 있는 RBAC 역할을 사용자에 게 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsVoiceRoute cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceRoute&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -76,7 +78,7 @@ _**마지막으로 수정 된 항목:** 2014-05-20_
 
   - 12065551219
 
-Get-csvoiceroute cmdlet은 지정한 음성 경로에서 지정 된 전화 번호를 라우트할 수 있는지 여부를 확인 합니다.
+Test-CsVoiceRoute cmdlet은 주어진 음성 경로에서 지정 된 전화 번호를 라우팅할 수 있는지 여부를 확인 합니다.
 
 </div>
 
@@ -84,7 +86,7 @@ Get-csvoiceroute cmdlet은 지정한 음성 경로에서 지정 된 전화 번�
 
 ## <a name="running-the-test"></a>테스트 실행
 
-음성 경로에서 지정 된 전화 번호를 라우팅하는 기능이 두 단계로 진행 되는지 확인 합니다. 먼저 Get-csvoiceroute cmdlet을 사용 하 여 해당 음성 경로의 인스턴스를 반환한 다음 Get-csvoiceroute cmdlet을 사용 하 여 해당 경로의 대상 전화 번호를 처리할 수 있는지 확인 해야 합니다. 예를 들어이 명령은 RedmondVoiceRoute 음성 경로에서 전화 번호 2065551219를 라우팅할 수 있는지 여부를 확인 합니다.
+음성 경로에서 지정 된 전화 번호를 라우팅하는 기능이 두 단계로 진행 되는지 확인 합니다. 먼저 Get-CsVoiceRoute cmdlet을 사용 하 여 해당 음성 경로의 인스턴스를 반환한 다음, Test-CsVoiceRoute cmdlet을 사용 하 여 해당 경로의 대상 전화 번호를 처리할 수 있는지 확인 해야 합니다. 예를 들어이 명령은 RedmondVoiceRoute 음성 경로에서 전화 번호 2065551219를 라우팅할 수 있는지 여부를 확인 합니다.
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
@@ -98,7 +100,7 @@ Get-csvoiceroute cmdlet은 지정한 음성 경로에서 지정 된 전화 번�
 
 `Get-CsVoiceRoute | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
-자세한 내용은 Get-csvoiceroute cmdlet에 대 한 도움말 설명서를 참조 하십시오.
+자세한 내용은 Test-CsVoiceRoute cmdlet에 대 한 도움말 설명서를 참조 하십시오.
 
 </div>
 
@@ -106,15 +108,15 @@ Get-csvoiceroute cmdlet은 지정한 음성 경로에서 지정 된 전화 번�
 
 ## <a name="determining-success-or-failure"></a>성공 또는 실패 확인
 
-음성 경로에서 대상 전화 번호를 라우팅할 수 있는 경우 Get-csvoiceroute cmdlet은 True 값을 반환 합니다.
+음성 경로에서 대상 전화 번호를 라우팅할 수 있는 경우 Test-CsVoiceRoute cmdlet은 True 값을 반환 하기만 합니다.
 
 MatchesPattern
 
 \--------------
 
-참
+True
 
-즉, 경로는 대상 번호와 비슷한 숫자를 처리할 수 있습니다. 음성 경로에서 대상 번호를 처리할 수 없는 경우 Get-csvoiceroute는 False 값을 반환 합니다.
+즉, 경로는 대상 번호와 비슷한 숫자를 처리할 수 있습니다. 음성 경로에서 대상 번호를 처리할 수 없는 경우 Test-CsVoiceRoute False 값이 반환 됩니다.
 
 MatchesPattern
 
@@ -128,7 +130,7 @@ False
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-음성 경로를 테스트할 때는 "실패"가 상대 용어입니다. 이 경우에는 경로가 "끊어짐;" 이라는 의미는 아니므로 경로에서 대상 번호를 처리할 수 없다는 것을 의미 합니다. 음성 경로가 잘못 구성 되었기 때문일 수 있습니다. 또한 경로는이 패턴을 사용 하 여 숫자를 처리 하도록 의도 된 것이 아닙니다. 예를 들어 국가 코드를 포함 하는 모든 전화 번호를 거부 하도록 경로 지정 된 경로를 통해 다른 국가에 대 한 통화를 라우팅 하지 않으려는 경우 Get-csvoiceroute가 True를 반환 하는 경우 False가 반환 되 면 대상 번호를 올바르게 입력 했는지 확인 합니다. 이 경우에는 다음과 같은 명령을 사용 하 여 경로에 대해 구성 된 번호 패턴을 확인 합니다.
+음성 경로를 테스트할 때는 "실패"가 상대 용어입니다. 이 경우에는 경로가 "끊어짐;" 이라는 의미는 아니므로 경로에서 대상 번호를 처리할 수 없다는 것을 의미 합니다. 음성 경로가 잘못 구성 되었기 때문일 수 있습니다. 또한 경로는이 패턴을 사용 하 여 숫자를 처리 하도록 의도 된 것이 아닙니다. 예를 들어 국가 코드를 포함 하는 모든 전화 번호를 거부 하도록 경로 지정 된 경로를 통해 다른 국가에 대 한 통화를 라우팅 하지 않으려는 경우 True를 반환 하는 경우 False가 반환 되 Test-CsVoiceRoute 경우 대상 번호를 올바르게 입력 했는지 확인 합니다. 이 경우에는 다음과 같은 명령을 사용 하 여 경로에 대해 구성 된 번호 패턴을 확인 합니다.
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Select-Object NumberPattern`
 

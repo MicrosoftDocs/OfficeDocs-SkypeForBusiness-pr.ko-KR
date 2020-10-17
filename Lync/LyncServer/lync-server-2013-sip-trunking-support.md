@@ -12,20 +12,22 @@ ms:contentKeyID: 48185714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f31159a2d14facbdfed2f74f3567081699a7bde9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d9bbf5ea35b6b24180f7853fd3715ad95973051
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519655"
 ---
+# <a name="sip-trunking-support-in-lync-server-2013"></a>Lync Server 2013의 SIP 트렁크 지원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunking-support-in-lync-server-2013"></a>Lync Server 2013의 SIP 트렁크 지원
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2012-10-03_
 
 SIP 트렁크에 Enterprise Voice를 사용 하려는 경우 중재 서버를 배포 하 고 다른 인프라 및 구성 요소가 배포 모델에 적합 한 지원 요구 사항을 충족 하는지 확인 해야 합니다. SIP 트렁크를 구현할지 여부를 결정 하는 방법에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 sip 트렁크 개요](lync-server-2013-overview-of-sip-trunking.md) 를 참조 하세요.
 
-Microsoft 통합 통신 오픈 상호 운용성 프로그램을 사용 하 여 엔터프라이즈 전화 통신 인프라에 대 한 정규화 된 공공 전화망 (PSTN) 게이트웨이, IP-Pbx 및 SIP 트렁크 서비스 (자격 부여 된 IP 전화 통신 포함)를 찾을 수 있습니다. 서비스 공급자 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램 웹 사이트를 참조 하세요.
+Microsoft 통합 통신 오픈 상호 운용성 프로그램을 사용 하 여 엔터프라이즈 전화 통신 인프라에 대 한 정규화 된 공공 전화망 (PSTN) 게이트웨이, IP-PBX 및 SIP 트렁크 서비스 (자격 있는 IP 전화 통신 서비스 공급자 포함)를 찾을 수 있습니다. 자세한 내용은에서 Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램 웹 사이트를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309) .
 
 <div>
 
@@ -95,7 +97,7 @@ Lync Server 2013에서는 SIP 트렁크에 대해 다음 연결 유형을 지원
 
   - 다른 트래픽(예: 임대된 광 케이블 연결 또는 T1 회선)이 없는 개인 연결은 일반적으로 가장 안정적이고 안전한 연결 유형입니다. 이 연결 유형은 최고의 통화 전달 용량을 제공하지만 일반적으로 가장 비싸며, VPN이 필요하지 않습니다. 개인 연결은 통화량이 많거나 보안 및 사용 가능성 요구 사항이 엄격한 조직에 적합합니다.
 
-  - 인터넷은 비용이 가장 저렴한 연결 유형이지만 통화 전달 용량이 가장 적기 때문에 안정성도 가장 낮습니다. ITSP (인터넷 전화 통신 서비스 공급자)는 TLS (전송 계층 보안) 및 SRTP (실시간 전송 프로토콜)를 지원 하 여 신호 및 미디어 트래픽을 암호화할 때이 SIP 트렁크 연결 형식을 보호 하는 데 도움이 됩니다. 인터넷을 통해 TLS 및 SRTP를 사용하도록 SIP 트렁크 연결을 구성할 수 없는 경우, VPN 터널을 사용하여 원격 보안 연결을 제공하는 것이 좋습니다. TLS 및 SRTP 사용에 대한 지원 여부를 해당 ITSP에 확인하십시오.
+  - 인터넷은 비용이 가장 저렴한 연결 유형이지만 통화 전달 용량이 가장 적기 때문에 안정성도 가장 낮습니다. ITSP (인터넷 전화 통신 서비스 공급자)는 TLS (전송 계층 보안) 및 SRTP (Secure Real-Time Transport Protocol)를 지원 하 여 신호 및 미디어 트래픽을 암호화할 때이 SIP 트렁크 연결 형식을 보호 하는 데 도움이 될 수 있습니다. 인터넷을 통해 TLS 및 SRTP를 사용하도록 SIP 트렁크 연결을 구성할 수 없는 경우, VPN 터널을 사용하여 원격 보안 연결을 제공하는 것이 좋습니다. TLS 및 SRTP 사용에 대한 지원 여부를 해당 ITSP에 확인하십시오.
 
 <div>
 

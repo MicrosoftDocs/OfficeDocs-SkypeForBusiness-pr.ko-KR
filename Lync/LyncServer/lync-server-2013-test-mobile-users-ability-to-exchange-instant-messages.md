@@ -12,20 +12,22 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3536e7bc95aced3a8bd68cab15b8994aa9e697c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7c599e2199a605b4d24a79c450d7abe2bd4473c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519225"
 ---
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Lync Server 2013에서 모바일 사용자의 인스턴트 메시지 교환 기능 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Lync Server 2013에서 모바일 사용자의 인스턴트 메시지 교환 기능 테스트
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2014-06-07_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 Test-csmcxp2pim cmdlet을 실행 하는 권한이 있는 RBAC 역할을 사용자에 게 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsMcxP2PIM cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxP2PIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -74,7 +76,7 @@ _**마지막으로 수정 된 항목:** 2014-06-07_
 
 3.  직장 및 전화 접속 회의를 통한 통화와 같은 Lync Server 기능을 활용 합니다.
 
-CsMxcP2PIM cmdlet은 사용자가 모바일 서비스를 사용 하 여 인스턴트 메시지를 교환할 수 있는지 확인 하는 빠르고 쉬운 방법을 제공 합니다.
+Test-CsMxcP2PIM cmdlet은 사용자가 모바일 서비스를 사용 하 여 인스턴트 메시지를 교환할 수 있는지 확인 하는 빠르고 쉬운 방법을 제공 합니다.
 
 </div>
 
@@ -97,11 +99,11 @@ CsMxcP2PIM cmdlet은 사용자가 모바일 서비스를 사용 하 여 인스�
 
 ## <a name="determining-success-or-failure"></a>성공 또는 실패 확인
 
-두 테스트 사용자가 모바일 서비스를 사용 하 여 인스턴트 메시지를 교환할 수 있는 경우 Test-csmcxp2pim는 테스트 결과 성공을 반환 합니다.
+두 테스트 사용자가 모바일 서비스를 사용 하 여 인스턴트 메시지를 교환할 수 있으면 Test-CsMcxP2PIM에서는 테스트 결과 성공을 반환 합니다.
 
 대상 Fqdn: atl-cs-001.litwareinc.com
 
-대상 Uri:http://atl-cs-001.litwareinc.com:443/mcx
+대상 Uri: http://atl-cs-001.litwareinc.com:443/mcx
 
 결과: 성공
 
@@ -115,13 +117,13 @@ CsMxcP2PIM cmdlet은 사용자가 모바일 서비스를 사용 하 여 인스�
 
 대상 Fqdn: atl-cs-001.litwareinc.com
 
-대상 Uri:https://atl-cs-001.litwareinc.com:443/mcx
+대상 Uri: https://atl-cs-001.litwareinc.com:443/mcx
 
 결과: 실패
 
 대기 시간: 00:00:00
 
-오류 메시지: 웹 티켓 서비스에 대 한 응답이 수신 되지 않습니다.
+오류 메시지: Web-Ticket 서비스에 대 한 응답이 수신 되지 않았습니다.
 
 내부 예외: HHTP 요청에 대해 권한이 부여 되지 않음
 
@@ -139,13 +141,13 @@ CsMxcP2PIM cmdlet은 사용자가 모바일 서비스를 사용 하 여 인스�
 
 001.litwareinc.com
 
-Cache-컨트롤: private
+Cache-Control: private
 
 Content-Type: text/html; charset = u t f-8
 
 서버: Microsoft-IIS/8.5
 
-WWW-인증: 협상, NTLM
+WWW-Authenticate: 협상, NTLM
 
 X-전원 공급: ASP.NET
 
@@ -161,7 +163,7 @@ X-콘텐츠 형식-옵션: noexpression
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-Test-csmcxp2pim가 실패 하는 경우 첫 번째 단계는 mobility service가 작동 하 고 있는지 확인 해야 합니다. 이 작업은 웹 브라우저를 사용 하 여 Lync Server 풀의 모바일 서비스 URL에 액세스할 수 있는지를 확인 하는 데 사용할 수 있습니다. 예를 들어 다음 명령은 atl-cs-001.litwareinc.com 풀에 대 한 URL을 확인 합니다.
+Test-CsMcxP2PIM에 오류가 발생 하는 경우 첫 번째 단계는 mobility service가 작동 하 고 있는지 확인 해야 합니다. 이 작업은 웹 브라우저를 사용 하 여 Lync Server 풀의 모바일 서비스 URL에 액세스할 수 있는지를 확인 하는 데 사용할 수 있습니다. 예를 들어 다음 명령은 atl-cs-001.litwareinc.com 풀에 대 한 URL을 확인 합니다.
 
     https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc
 
@@ -175,11 +177,11 @@ Enabled 속성이 True가 아니거나 명령이 실패 하는 경우에는 사�
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-정책 이름을 확인 한 후 Get-csmobilitypolicy cmdlet을 사용 하 여 문제의 정책 (예: RedmondMobilityPolicy)에 EnableMobility 속성이 True로 설정 되어 있는지 확인 합니다.
+정책 이름을 확인 한 후에 Get-CsMobilityPolicy cmdlet을 사용 하 여 문제의 정책 (예: RedmondMobilityPolicy)이 EnableMobility 속성을 True로 설정 했는지 확인 합니다.
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-인증 헤더와 함께 오류 메시지가 표시 되는 경우에는 종종 유효한 사용자 계정을 지정 하지 않은 것입니다. 사용자 이름 및 암호를 확인 한 후 테스트를 다시 시도 합니다. 사용자 계정이 유효한 것으로 확신 하는 경우 Set-cswebserviceconfiguration cmdlet을 사용 하 여 UseWindowsAuth 속성의 값을 확인 합니다. 그러면 조직에서 사용 하도록 설정 된 인증 방법을 확인할 수 있습니다. 모바일 서비스 문제를 해결 하는 방법에 대 한 자세한 내용은 블로그 게시물 [문제 해결 외부 Lync Mobility Connectivity 문제 단계별](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)설명을 참조 하십시오.
+인증 헤더와 함께 오류 메시지가 표시 되는 경우에는 종종 유효한 사용자 계정을 지정 하지 않은 것입니다. 사용자 이름 및 암호를 확인 한 후 테스트를 다시 시도 합니다. 사용자 계정이 유효한 것으로 확신 하면 Get-CsWebServiceConfiguration cmdlet을 사용 하 여 UseWindowsAuth 속성의 값을 확인 합니다. 그러면 조직에서 사용 하도록 설정 된 인증 방법을 확인할 수 있습니다. 모바일 서비스 문제를 해결 하는 방법에 대 한 자세한 내용은 블로그 게시물 [문제 해결 외부 Lync Mobility Connectivity 문제 단계별](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)설명을 참조 하십시오.
 
 </div>
 

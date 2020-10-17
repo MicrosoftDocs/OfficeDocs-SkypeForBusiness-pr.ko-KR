@@ -12,20 +12,22 @@ ms:contentKeyID: 49361095
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7d01b15c035b3f14a0f2d6dba92719d7f885437
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9c91fcb656d936d0fb469cdec4b01824d3fa97d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213014"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518855"
 ---
+# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 있는 사용자 역할
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 있는 사용자 역할
+
 
 </div>
 
@@ -93,9 +95,9 @@ _**마지막으로 수정 된 항목:** 2015-03-19_
 
 다음 역할은 영구 채팅 서버의 관리자 역할입니다.
 
-  - **영구 채팅 관리자 (CsPersistentChatAdministrator):** 영구 채팅 서버를 관리 하 고 관리 하기 위한 새로운 RBAC (역할 기반 액세스 제어) 역할입니다. CsPersistentChatAdministrator로 지정 된 사용자 또는 보안 그룹은 영구 채팅 서버가 아닌 컴퓨터에서 원격으로 Windows PowerShell cmdlet을 사용 하 여 영구적 채팅 서버를 관리할 수 있습니다. 영구 채팅 서버는 영구 채팅 관리자가 영구 채팅 서버 프런트 엔드 서버에서 RTC 로컬 관리자 로컬 그룹의 구성원 인지 확인 합니다.
+  - **영구 채팅 관리자 (CsPersistentChatAdministrator):** 영구 채팅 서버를 관리 하 고 관리 하기 위한 새로운 RBAC (Role-Based 액세스 제어) 역할입니다. CsPersistentChatAdministrator로 지정 된 사용자 또는 보안 그룹은 영구 채팅 서버가 아닌 컴퓨터에서 원격으로 Windows PowerShell cmdlet을 사용 하 여 영구적 채팅 서버를 관리할 수 있습니다. 영구 채팅 서버는 영구 채팅 관리자가 영구 채팅 서버 프런트 엔드 서버에서 RTC 로컬 관리자 로컬 그룹의 구성원 인지 확인 합니다.
     
-    CsPersistentChatAdministrator 역할은 채팅방을 관리(구성원 자격/관리자/범주를 비롯한 모든 속성을 수정하고 방을 사용할 수 없도록 표시)할 수 있으며 채팅방을 만들고 액세스할 수 있는 사용자를 정의하는 채팅방 범주를 만들고 관리할 수 있습니다. 또한 관리자는 채팅방을 사용할 수 없도록 표시하고 더 이상 사용되지 않는 채팅방을 정리할 수 있습니다. 관리자에게는 작성자 또는 허용 구성원의 제한이 적용되지 않습니다. 관리자는 어떤 종류의 채팅방이든 만들 수 있으며 모든 채팅방에 자신을 구성원으로 추가할 수 있습니다. 관리자는 또한 영구 채팅 구성 (풀 속성, 전역 설정 및 준수 구성)을 수정 하 고 관리할 수 있으며, 이전 그룹 채팅 서버 배포에서 Lync Server 2013 영구 채팅으로의 마이그레이션을 계획 하 고 구현할 수도 있습니다. 서버.
+    CsPersistentChatAdministrator 역할은 채팅방을 관리(구성원 자격/관리자/범주를 비롯한 모든 속성을 수정하고 방을 사용할 수 없도록 표시)할 수 있으며 채팅방을 만들고 액세스할 수 있는 사용자를 정의하는 채팅방 범주를 만들고 관리할 수 있습니다. 또한 관리자는 채팅방을 사용할 수 없도록 표시하고 더 이상 사용되지 않는 채팅방을 정리할 수 있습니다. 관리자에게는 작성자 또는 허용 구성원의 제한이 적용되지 않습니다. 관리자는 어떤 종류의 채팅방이든 만들 수 있으며 모든 채팅방에 자신을 구성원으로 추가할 수 있습니다. 또한 관리자는 영구 채팅 구성 (풀 속성, 전역 설정 및 준수 구성)을 수정 하 고 관리할 수 있으며, 이전 그룹 채팅 서버 배포에서 Lync Server 2013 영구 채팅 서버로의 마이그레이션을 계획 하 고 구현할 수도 있습니다.
 
   - **Lync 관리자:** 배포를 담당 하는 Lync Server 2013의 전반적인 엔터프라이즈 관리자
 

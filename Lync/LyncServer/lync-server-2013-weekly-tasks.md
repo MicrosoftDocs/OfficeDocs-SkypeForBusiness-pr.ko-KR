@@ -12,20 +12,22 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a723c17e5c909ba0313b962cf97a508b17487309
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d8177cf0a647ec5155a32a91c6e764e9c13e1dcb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211000"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518225"
 ---
+# <a name="weekly-tasks-in-lync-server-2013"></a>Lync Server 2013의 주간 작업
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="weekly-tasks-in-lync-server-2013"></a>Lync Server 2013의 주간 작업
+
 
 </div>
 
@@ -145,7 +147,7 @@ Lync Server 2013 모범 사례 분석기 도구는 구성 정보를 수집 하 �
 
   - 나중에 검토 하기 위해 캡처할 수 있는 구성 정보 생성
 
-모든 Lync Server 2013 서버에 RTCBPA이 설치 되어 있는지 확인 하 고 주간 상태 검사 보고서를 생성 합니다. 필요한 경우 결과를 기록해 두고 올바르게 기록 합니다.
+RTCBPA.msi 모든 Lync Server 2013 서버에 설치 되어 있는지 확인 하 고 주간 상태 검사 보고서를 생성 합니다. 필요한 경우 결과를 기록해 두고 올바르게 기록 합니다.
 
 </div>
 
@@ -211,11 +213,11 @@ Lync Server 2013 관리 팩 및 경험 치 보고서를 구해서 검토 합니�
 <ul>
 <li><p>사용 하도록 설정 된 사용자는 Active Directory 사용자 및 컴퓨터 스냅인을 사용 하 여 Lync Server 2013을 사용할 수 있는 사용자입니다.</p></li>
 <li><p>활성 사용자는 로그온 하거나 등록 한 사용자입니다.</p></li>
-<li><p>요약 보고서에는 연락처에 대 한 통계 정보 집합도 제공 됩니다. 이러한 통계는 적어도 한 번 로그온 한 사용자와 적어도 한 명의 대화 상대에 대해서만 유효 합니다. 따라서 일반적으로 최소 개수의 연락처가 0으로 표시 되지는 않습니다. 이 동작으로 인해 사용자에 게 대화 상대가 없지만 (활성 상태이 고 사용자가 등록 한 경우), 일부 통계 필드의 경우 &lt;비어&gt; 있을 수 있습니다.</p></li>
+<li><p>요약 보고서에는 연락처에 대 한 통계 정보 집합도 제공 됩니다. 이러한 통계는 적어도 한 번 로그온 한 사용자와 적어도 한 명의 대화 상대에 대해서만 유효 합니다. 따라서 일반적으로 최소 개수의 연락처가 0으로 표시 되지는 않습니다. 이 동작으로 인해 사용자에 게 대화 상대가 없지만 (활성 상태이 고 사용자가 등록 한 경우), &lt; &gt; 일부 통계 필드의 경우 비어 있을 수 있습니다.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>사용자별 보고서</p></td>
+<td><p>Per-User 보고서</p></td>
 <td><p>Dbanalyze/v/preport: disk [/psqlserver: value]</p>
 <p>사용자 인구를 초과 하 여 계산 되는 요약 보고서와는 달리, 다음은 특정 사용자에 대 한 보고서입니다.</p></td>
 </tr>

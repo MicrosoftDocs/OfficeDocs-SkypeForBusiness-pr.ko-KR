@@ -12,20 +12,22 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e160af5920f58b3813bd168c7f4fbe2e0f0cf95c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac03f06a5d2c4b4989319f32a867d91614bd3a30
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519325"
 ---
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Lync Server 2013에서 Kerberos 인증에 대 한 기능 준비 상태 테스트 및 보고
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Lync Server 2013에서 Kerberos 인증에 대 한 기능 준비 상태 테스트 및 보고
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2012-01-16_
 
 이 절차를 성공적으로 완료하려면 RTCUniversalServerAdmins 그룹의 구성원인 사용자로 로그온해야 합니다.
 
-**Get-cskerberosaccountassignment** Windows PowerShell cmdlet을 사용 하 여 Kerberos 인증에 대 한 사이트 할당의 기능 준비 상태를 테스트 하 고 보고할 수 있습니다. 이 명령은 필수 Identity 매개 변수에서 지정된 사이트를 쿼리합니다. Optional Report 매개 변수를 지정 하면 cmdlet이 명령이 실행 되는 컴퓨터의\\C: 로그에 HTML 보고서를 작성 합니다. 선택적 Verbose 매개 변수는 작업 정보를 화면에 보고합니다.
+**Get-cskerberosaccountassignment**   Windows PowerShell cmdlet을 사용 하 여 Kerberos 인증에 대 한 사이트 할당의 기능 준비 상태를 테스트 하 고 보고할 수 있습니다. 이 명령은 필수 Identity 매개 변수에서 지정된 사이트를 쿼리합니다. Optional Report 매개 변수를 지정 하면 cmdlet \\ 이 명령이 실행 되는 컴퓨터의 C: 로그에 HTML 보고서를 작성 합니다. 선택적 Verbose 매개 변수는 작업 정보를 화면에 보고합니다.
 
 <div>
 

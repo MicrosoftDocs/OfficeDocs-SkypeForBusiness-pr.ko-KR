@@ -12,20 +12,22 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56a030329f9d69a3748b2b76179c7a783b13cb0f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 404ce93e841bbbefd62498a1dbb3da664eb927ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210987"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518255"
 ---
+# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013의 웹 회의 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013의 웹 회의 요구 사항
+
 
 </div>
 
@@ -85,7 +87,7 @@ Lync Server 2013에서는 DFS (직접 연결 된 저장소) 또는 SAN (저장 �
 
   - [Get-csconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)에 있는 **Maxcontentstoragemb**은 단일 모임 중에 콘텐츠 저장소에 허용 되는 최대 파일 공간 크기를 설정 합니다.
 
-**MaxUploadFileSizeMb** 에서는 Lync Web App에 대 한 파일 업로드 설정이 제한 되지 않습니다. Lync Web App에 대 한 파일 크기 업로드 제한은 대략 30MB로 설정 되어 있으며 IIS web.config 파일:/DataCollabWeb/Int\[Ext\]/Handler/web.config. 의해 제어 됩니다. Lync Web App에 대 한 파일 크기 업로드 제한을 구성 하려면 아래 `maxRequestLength` 와 `maxAllowedContentLength` 같이 web.config 파일을 업데이트 합니다.
+**MaxUploadFileSizeMb** 에서는 Lync Web App에 대 한 파일 업로드 설정이 제한 되지 않습니다. Lync Web App에 대 한 파일 크기 업로드 제한은 대략 30MB으로 설정 되며 IIS web.config file:/Datacol Web/int \[ Ext \] /Handler/web.config에 의해 제어 됩니다. Lync Web App에 대 한 파일 크기 업로드 제한을 구성 하려면 `maxRequestLength` 아래에 `maxAllowedContentLength` 나와 있는 대로 web.config 파일을 업데이트 하십시오.
 
     <system.web>
         <!-- 
@@ -105,7 +107,7 @@ Lync Server 2013에서는 DFS (직접 연결 된 저장소) 또는 SAN (저장 �
                     </requestFiltering>
                     </security>
 
-각 프런트 엔드 서버에 대해 web.config 파일을 업데이트 해야 합니다.
+각 프런트 엔드 서버에 대 한 web.config 파일을 업데이트 해야 합니다.
 
 </div>
 
@@ -113,7 +115,7 @@ Lync Server 2013에서는 DFS (직접 연결 된 저장소) 또는 SAN (저장 �
 
 ## <a name="office-web-apps-server"></a>Office Web Apps 서버
 
-이러한 새 기능을 사용 하려면 관리자는 Office Web apps 서버를 설치 하 고 Office Web Apps 서버와 통신 하도록 Lync Server 2013을 구성 해야 합니다. 이 문서에서는 Office Web Apps 서버에서 작동 하도록 Lync Server 2013을 구성 하는 방법에 대 한 정보를 제공 합니다. 이 설명서에서 제공 하지 않는 것은 Office Web Apps 서버를 설치 하는 방법에 대 한 정보입니다. 설치에 대 한 자세한 내용은 Microsoft Office Web Apps 배포 웹 사이트 <https://go.microsoft.com/fwlink/p/?linkid=257525>를 참조 하세요. 이 가이드에는 Office Web Apps 서버에 대 한 전체 필수 구성 요소 정보가 포함 되어 있습니다. Office Web Apps 서버는 Lync Server, SQL Server 또는 기타 서버 응용 프로그램이 실행 되 고 있지 않은 독립 실행형 컴퓨터에 설치 되어 있어야 합니다. (해당 컴퓨터에 설치 된 Office 버전이 없어야 합니다.) Office Web Apps 서버를 실행 하는 데 사용 되는 모든 컴퓨터에는 .NET Framework 4.5 및 Windows PowerShell 3.0를 포함 하 여 특정 소프트웨어 집합도 설치 되어 있어야 합니다. 이러한 요구 사항은 인증서 및 IIS (인터넷 정보 서비스) 구성에 대 한 정보와 함께 Microsoft Office Web Apps 배포 웹 사이트에 자세히 설명 되어 <https://go.microsoft.com/fwlink/p/?linkid=257525>있습니다.
+이러한 새 기능을 사용 하려면 관리자는 Office Web apps 서버를 설치 하 고 Office Web Apps 서버와 통신 하도록 Lync Server 2013을 구성 해야 합니다. 이 문서에서는 Office Web Apps 서버에서 작동 하도록 Lync Server 2013을 구성 하는 방법에 대 한 정보를 제공 합니다. 이 설명서에서 제공 하지 않는 것은 Office Web Apps 서버를 설치 하는 방법에 대 한 정보입니다. 설치에 대 한 자세한 내용은 Microsoft Office Web Apps 배포 웹 사이트를 참조 하세요 <https://go.microsoft.com/fwlink/p/?linkid=257525> . 이 가이드에는 Office Web Apps 서버에 대 한 전체 필수 구성 요소 정보가 포함 되어 있습니다. Office Web Apps 서버는 Lync Server, SQL Server 또는 기타 서버 응용 프로그램이 실행 되 고 있지 않은 독립 실행형 컴퓨터에 설치 되어 있어야 합니다. (해당 컴퓨터에 설치 된 Office 버전이 없어야 합니다.) Office Web Apps 서버를 실행 하는 데 사용 되는 모든 컴퓨터에는 .NET Framework 4.5 및 Windows PowerShell 3.0를 포함 하 여 특정 소프트웨어 집합도 설치 되어 있어야 합니다. 이러한 요구 사항은 인증서 및 IIS (인터넷 정보 서비스) 구성에 대 한 정보와 함께 Microsoft Office Web Apps 배포 웹 사이트에 자세히 설명 되어 <https://go.microsoft.com/fwlink/p/?linkid=257525> 있습니다.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06684665819e14540628e5cd45309ef2c920b227
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0e8d6198fc022c03e69e68475d77f513d577ad4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194528"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519205"
 ---
+# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>Lync Server 2013에서 smart 전화로 푸시 알림 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>Lync Server 2013에서 smart 전화로 푸시 알림 테스트
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2017-03-15_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게는 CsMcxPushNotification cmdlet을 실행할 수 있는 권한이 있는 RBAC 역할이 할당 되어야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsMcxPushNotification cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxPushNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2017-03-15_
 
 ## <a name="description"></a>설명
 
-푸시 알림 서비스 (Apple Push Notification Service 및 Microsoft Push Notification Service)는 Lync 클라이언트를 사용할 경우에도 새 인스턴트 메시지 또는 새 음성 메일과 같은 이벤트에 대 한 알림을 Iphone 및 Windows phone과 같은 모바일 장치에 보낼 수 있습니다. 이러한 장치는 현재 일시 중단 되었거나 백그라운드에서 실행 되 고 있습니다. 푸시 알림 서비스는 Microsoft 서버에서 실행 되는 클라우드 기반 서비스입니다. 푸시 알림을 사용 하려면 푸시 알림 clearinghouse에 연결 하 고 인증을 받을 수 있어야 합니다. 관리자는 CsMcxPushNotification cmdlet을 사용 하 여 푸시 알림 요청이에 지 서버를 통해 푸시 알림 clearinghouse로 라우팅되도록 할 수 있는지 확인 합니다.
+푸시 알림 서비스 (Apple Push Notification Service 및 Microsoft Push Notification Service)는 해당 장치의 Lync 클라이언트를 현재 일시 중단 했거나 백그라운드에서 실행 하는 경우에도 새 인스턴트 메시지 또는 새 음성 메일과 같은 이벤트에 대 한 알림을 Iphone 및 Windows phone과 같은 모바일 장치에 보낼 수 있습니다. 푸시 알림 서비스는 Microsoft 서버에서 실행 되는 클라우드 기반 서비스입니다. 푸시 알림을 사용 하려면 푸시 알림 clearinghouse에 연결 하 고 인증을 받을 수 있어야 합니다. 관리자는 Test-CsMcxPushNotification cmdlet을 사용 하 여 푸시 알림 요청이에 지 서버를 통해 푸시 알림 클리어 링으로 라우팅되도록 할 수 있는지 확인 합니다.
 
 </div>
 
@@ -86,7 +88,7 @@ _**마지막으로 수정 된 항목:** 2017-03-15_
 
 ## <a name="determining-success-or-failure"></a>성공 또는 실패 확인
 
-Test-CsMcxPushNotification가 성공한 경우 cmdlet은 테스트 결과 성공을 반환 합니다.
+Test-CsMcxPushNotification에 성공 하면 cmdlet이 테스트 결과 성공을 반환 합니다.
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -98,17 +100,17 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 진단을
 
-Test-CsMcxPushNotification이 푸시 알림 clearinghouse에 연결할 수 없는 경우 cmdlet은 일반적으로 실패의 테스트 결과를 반환 하지 않습니다. 대신 명령이 완전히 실패 하 게 됩니다. 예:
+Test-CsMcxPushNotification이 푸시 알림 clearinghouse에 연결할 수 없는 경우 일반적으로 cmdlet은 실패의 테스트 결과를 반환 하지 않습니다. 대신 명령이 완전히 실패 하 게 됩니다. 예제:
 
 Test-CsMcxPushNotification: 네트워크에서 504 (서버 시간 초과) 응답이 수신 되었으며 작업이 실패 했습니다. 자세한 내용은 예외 정보를 참조 하세요.
 
 줄: 1 문자: 27
 
-\+Test-csmcxpushnotification \< \< \< \< -AccessEdgeFqdn lyncedge.mydomain.com
+\+Test-CsMcxPushNotification \< \< \< \< -AccessEdgeFqdn lyncedge.mydomain.com
 
-\+CategoryInfo: OperationStopped 됨: (:) \[Test-CsMcxPushNotification\], FailureResponseException
+\+ CategoryInfo: OperationStopped 됨: (:) \[ Test-CsMcxPushNotification \] , FailureResponseException
 
-\+FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. SyntheticTransactions. TestMcxPushNotificationCmdlet
+\+ FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. SyntheticTransactions. TestMcxPushNotificationCmdlet
 
 </div>
 
@@ -116,7 +118,7 @@ Test-CsMcxPushNotification: 네트워크에서 504 (서버 시간 초과) 응답
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-에 지 서버와 통신 하는 데 문제가 있거나 푸시 알림 클리어 링 하우스와 통신 하는 데 문제가 있는 경우 푸시 알림 서비스에서 오류가 발생 합니다. Test-CsMcxPushNotification를 실행할 때 문제가 발생 하는 경우에는에 지 서버가 올바르게 작동 하는지 확인 해야 합니다. 이 작업을 수행 하는 한 가지 방법은 Test-csavedgeconnectivity cmdlet을 사용 하는 것입니다.
+에 지 서버와 통신 하는 데 문제가 있거나 푸시 알림 클리어 링 하우스와 통신 하는 데 문제가 있는 경우 푸시 알림 서비스에서 오류가 발생 합니다. Test-CsMcxPushNotification를 실행할 때 문제가 발생 하는 경우에는에 지 서버가 올바르게 작동 하는지 확인 해야 합니다. 이 작업을 수행 하는 한 가지 방법은 Test-CsAVEdgeConnectivity cmdlet을 사용 하는 것입니다.
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -128,7 +130,7 @@ Test-CsMcxPushNotification: 네트워크에서 504 (서버 시간 초과) 응답
 
     Get-CsMcxConfiguration
 
-PushNotificationProxyUri 속성이 sip:push@push.lync.com 이외의 다른 값으로 설정 된 경우에는 집합-McxConfiguration cmdlet을 사용 하 여 해당 문제를 해결할 수 있습니다. 예를 들어이 명령은 조직 전체에서 URI를 올바르게 설정 합니다.
+PushNotificationProxyUri 속성이 sip:push@push.lync.com 이외의 다른 값으로 설정 된 경우에는 Set-McxConfiguration cmdlet을 사용 하 여 해당 문제를 해결할 수 있습니다. 예를 들어이 명령은 조직 전체에서 URI를 올바르게 설정 합니다.
 
     Get-CsMcxConfiguration | Set-CsMcxConfiguration -PushNotificationProxyUri "sip:push@push.lync.com"
 
@@ -138,17 +140,17 @@ URI가 올바르게 구성 된 경우 다음 단계는 SIP 도메인 및에 지 
 
 네트워크에서 504 (서버 시간 초과) 응답이 수신 되었으며 작업에 실패 했습니다. 자세한 내용은 예외 정보를 참조 하세요.
 
-또한이 오류 메시지와 함께 CsMcxConfiguration이 실패할 수도 있습니다.
+또한 Test-CsMcxConfiguration이 오류 메시지와 함께 실패할 수도 있습니다.
 
 Test-CsMcxPushNotification: 푸시 알림 요청이 거부 되었습니다.
 
 줄: 1 문자: 27
 
-\+Test-CsMcxPushNotification\<\<\<\<
+\+ Test-CsMcxPushNotification \<\<\<\<
 
-\+CategoryInfo: OperationStopped 됨: (:) \[Test-CsMcxPushNotification\], SyntheticTransactionException
+\+ CategoryInfo: OperationStopped 됨: (:) \[ Test-CsMcxPushNotification \] , SyntheticTransactionException
 
-\+FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. SyntheticTransactions. TestMcxPushNotificationCmdlet
+\+ FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. SyntheticTransactions. TestMcxPushNotificationCmdlet
 
 "푸시 알림 요청이 거부 되었습니다." 메시지는 일반적으로 URL 필터링을 사용 하도록 설정 하 고 http: 및 https: 접두사를 차단 하는 경우에 발생 합니다. 다음과 같은 명령을 사용 하 여 차단 되는 접두사를 확인할 수 있습니다.
 

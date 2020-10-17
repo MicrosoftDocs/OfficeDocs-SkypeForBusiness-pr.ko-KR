@@ -12,20 +12,22 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddc58629ea7c641427347600be48538cd555022c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe652a2a378759584b8d855cdcdc7790b622ad02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193355"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518965"
 ---
+# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>Lync Server 2013에서 Lync VDI 플러그 인 문제 해결
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>Lync Server 2013에서 Lync VDI 플러그 인 문제 해결
+
 
 </div>
 
@@ -77,11 +79,11 @@ VDI 플러그 인 페어링이 실패하면 오른쪽 아래의 페어링 아이
 
   - **필요한 파일이 올바르게 설치되지 않음**
     
-    로컬 컴퓨터에 플러그 인을 설치한 후에는 다음 파일이 C:\\Program Files\\Microsoft Office\\office15.adml (또는 적절 한 드라이브 문자) 아래에 표시 됩니다.
+    로컬 컴퓨터에 플러그 인을 설치한 후에는 다음 파일이 C: \\ Program files \\ Microsoft Office \\ office15.adml (또는 적절 한 드라이브 문자) 아래에 표시 됩니다.
     
-      - LyncVdiPlugin
+      - LyncVdiPlugin.dll
     
-      - (C) dll
+      - UcVdi.dll
     
     VDI 페어링에 문제가 있는 경우 로컬 컴퓨터에 이러한 파일이 있는지 확인합니다.
 
