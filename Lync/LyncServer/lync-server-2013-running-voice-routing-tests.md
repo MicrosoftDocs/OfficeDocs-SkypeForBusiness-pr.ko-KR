@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 음성 라우팅 테스트 실행'
+description: 'Lync Server 2013: 음성 라우팅 테스트를 실행 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184185
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dce944c03a89220af381eea59b382c103c8253ba
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7add9b3e555229b478556a0aa1244bf76fa3c759
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511075"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543014"
 ---
-# <a name="running-voice-routing-tests-in-lync-server-2013"></a><span data-ttu-id="c38f9-102">Lync Server 2013에서 음성 라우팅 테스트 실행</span><span class="sxs-lookup"><span data-stu-id="c38f9-102">Running voice routing tests in Lync Server 2013</span></span>
+# <a name="running-voice-routing-tests-in-lync-server-2013"></a><span data-ttu-id="02cef-103">Lync Server 2013에서 음성 라우팅 테스트 실행</span><span class="sxs-lookup"><span data-stu-id="02cef-103">Running voice routing tests in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48511075"
 
 <span> </span>
 
-<span data-ttu-id="c38f9-103">_**마지막으로 수정 된 항목:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="c38f9-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="02cef-104">_**마지막으로 수정 된 항목:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="02cef-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="c38f9-104">Lync Server 2013에서는 음성 경로를 테스트 하는 두 가지 방법, 즉 모든 전화 번호 및 음성 경로에 대해 비공식적인 임의 (ad-hoc) 테스트를 수행할 수 있습니다. 또는 음성 경로 테스트 사례를 사용 하 여 더 많은 공식 테스트를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c38f9-104">Lync Server 2013 provides two different methods for testing voice routes: you can do informal, ad hoc testing against any phone number and any voice route; or you can do more formal testing using voice route test cases.</span></span> <span data-ttu-id="c38f9-105">공식적인 테스트를 사용 하 여 전화를 걸 번호와 사용할 다이얼 플랜 및 음성 정책 등을 정의한 다음 Lync Server에서 제공 된 번호를 PSTN 네트워크로 성공적으로 라우팅할 수 있는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c38f9-105">With formal testing, you define such things as the number to be dialed and the dial plan and voice policy to be employed, and Lync Server can then verify that, given those conditions, the supplied number can successfully be routed to the PSTN network.</span></span> <span data-ttu-id="c38f9-106">이러한 방법에 대 한 자세한 내용은이 설명서의 후속 섹션에 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c38f9-106">Both of these methods are described in subsequent sections of this documentation.</span></span>
+<span data-ttu-id="02cef-105">Lync Server 2013에서는 음성 경로를 테스트 하는 두 가지 방법, 즉 모든 전화 번호 및 음성 경로에 대해 비공식적인 임의 (ad-hoc) 테스트를 수행할 수 있습니다. 또는 음성 경로 테스트 사례를 사용 하 여 더 많은 공식 테스트를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="02cef-105">Lync Server 2013 provides two different methods for testing voice routes: you can do informal, ad hoc testing against any phone number and any voice route; or you can do more formal testing using voice route test cases.</span></span> <span data-ttu-id="02cef-106">공식적인 테스트를 사용 하 여 전화를 걸 번호와 사용할 다이얼 플랜 및 음성 정책 등을 정의한 다음 Lync Server에서 제공 된 번호를 PSTN 네트워크로 성공적으로 라우팅할 수 있는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="02cef-106">With formal testing, you define such things as the number to be dialed and the dial plan and voice policy to be employed, and Lync Server can then verify that, given those conditions, the supplied number can successfully be routed to the PSTN network.</span></span> <span data-ttu-id="02cef-107">이러한 방법에 대 한 자세한 내용은이 설명서의 후속 섹션에 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="02cef-107">Both of these methods are described in subsequent sections of this documentation.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c38f9-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="c38f9-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="02cef-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="02cef-108">In This Section</span></span>
 
-  - [<span data-ttu-id="c38f9-108">Lync Server 2013에서 비공식 음성 라우팅 테스트 실행</span><span class="sxs-lookup"><span data-stu-id="c38f9-108">Run informal voice routing tests in Lync Server 2013</span></span>](lync-server-2013-run-informal-voice-routing-tests.md)
+  - [<span data-ttu-id="02cef-109">Lync Server 2013에서 비공식 음성 라우팅 테스트 실행</span><span class="sxs-lookup"><span data-stu-id="02cef-109">Run informal voice routing tests in Lync Server 2013</span></span>](lync-server-2013-run-informal-voice-routing-tests.md)
 
-  - [<span data-ttu-id="c38f9-109">Lync Server 2013에서 음성 라우팅 테스트 사례 실행</span><span class="sxs-lookup"><span data-stu-id="c38f9-109">Run voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-run-voice-routing-test-cases.md)
+  - [<span data-ttu-id="02cef-110">Lync Server 2013에서 음성 라우팅 테스트 사례 실행</span><span class="sxs-lookup"><span data-stu-id="02cef-110">Run voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-run-voice-routing-test-cases.md)
 
 </div>
 

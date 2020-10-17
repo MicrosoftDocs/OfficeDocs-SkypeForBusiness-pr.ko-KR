@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 통화 대기 음악을 사용자 지정 합니다.'
+description: 'Lync Server 2013: 통화 대기 음악을 사용자 지정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18f7ac9793c8275caa20725d2d303c5fca7f534f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 19219e4a77d4be4a18a43255e142339a4af6f463
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516715"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544004"
 ---
-# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a><span data-ttu-id="587fe-102">Lync Server 2013에서 통화 대기 음악 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="587fe-102">Customize Call Park music on hold in Lync Server 2013</span></span>
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a><span data-ttu-id="11315-103">Lync Server 2013에서 통화 대기 음악 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="11315-103">Customize Call Park music on hold in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48516715"
 
 <span> </span>
 
-<span data-ttu-id="587fe-103">_**마지막으로 수정 된 항목:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="587fe-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="11315-104">_**마지막으로 수정 된 항목:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="11315-104">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="587fe-104">Lync Server 2013와 함께 제공 되는 기본 음악 파일 대신 대기 음악에 사용할 음악 파일을 직접 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="587fe-104">You can specify your own music file to use for music on hold, instead of the default music file that ships with Lync Server 2013.</span></span> <span data-ttu-id="587fe-105">대기 음악을 사용자 지정하려면 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="587fe-105">To customize music on hold, use the **Set-CsCallParkServiceMusicOnHoldFile** cmdlet.</span></span>
+<span data-ttu-id="11315-105">Lync Server 2013와 함께 제공 되는 기본 음악 파일 대신 대기 음악에 사용할 음악 파일을 직접 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11315-105">You can specify your own music file to use for music on hold, instead of the default music file that ships with Lync Server 2013.</span></span> <span data-ttu-id="11315-106">대기 음악을 사용자 지정하려면 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="11315-106">To customize music on hold, use the **Set-CsCallParkServiceMusicOnHoldFile** cmdlet.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="587fe-106">대기 음악을 사용자 지정 하 고 여러 사이트에서 같은 음악을 만들려는 경우에는 통화 대기 응용 프로그램을 실행 하는 각 사이트에 대해 음악 파일을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="587fe-106">If you customize music on hold and want the same music for multiple sites, you must configure the music file for each site that runs the Call Park application.</span></span>
+> <span data-ttu-id="11315-107">대기 음악을 사용자 지정 하 고 여러 사이트에서 같은 음악을 만들려는 경우에는 통화 대기 응용 프로그램을 실행 하는 각 사이트에 대해 음악 파일을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="11315-107">If you customize music on hold and want the same music for multiple sites, you must configure the music file for each site that runs the Call Park application.</span></span>
 
 
 
@@ -53,13 +54,13 @@ ms.locfileid: "48516715"
 
 <div>
 
-## <a name="to-customize-the-music-file"></a><span data-ttu-id="587fe-107">음악 파일을 사용자 지정하려면</span><span class="sxs-lookup"><span data-stu-id="587fe-107">To customize the music file</span></span>
+## <a name="to-customize-the-music-file"></a><span data-ttu-id="11315-108">음악 파일을 사용자 지정하려면</span><span class="sxs-lookup"><span data-stu-id="11315-108">To customize the music file</span></span>
 
-1.  <span data-ttu-id="587fe-108">Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="587fe-108">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="11315-109">Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="11315-109">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="587fe-109">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="587fe-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="11315-110">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="11315-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="587fe-110">을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="587fe-110">Run:</span></span>
+3.  <span data-ttu-id="11315-111">을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="11315-111">Run:</span></span>
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
@@ -67,12 +68,12 @@ ms.locfileid: "48516715"
     
 
     > [!TIP]  
-    > <span data-ttu-id="587fe-111"><STRONG>Get-CsService</STRONG> cmdlet을 사용하여 서비스를 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="587fe-111">Use the <STRONG>Get-CsService</STRONG> cmdlet to identify the service.</span></span> <span data-ttu-id="587fe-112">자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="587fe-112">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>.</span></span>
+    > <span data-ttu-id="11315-112"><STRONG>Get-CsService</STRONG> cmdlet을 사용하여 서비스를 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="11315-112">Use the <STRONG>Get-CsService</STRONG> cmdlet to identify the service.</span></span> <span data-ttu-id="11315-113">자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="11315-113">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="587fe-113">다음 예에서는 soothingmusic.wma 파일의 내용을 바이트 배열로 가져와서 변수에 지정하는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="587fe-113">The following example shows how to obtain the contents of a file, soothingmusic.wma, as a byte array and assign it to a variable.</span></span> <span data-ttu-id="587fe-114">그런 후에 오디오 파일은 통화 대기용 대기 음악 파일로 지정됩니다.</span><span class="sxs-lookup"><span data-stu-id="587fe-114">Then the audio file is assigned as the music-on-hold file for Call Park.</span></span> <span data-ttu-id="587fe-115">자세한 내용은 [set-cscallparkservicemusiconholdfile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="587fe-115">For details, see [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).</span></span>
+    <span data-ttu-id="11315-114">다음 예에서는 soothingmusic.wma 파일의 내용을 바이트 배열로 가져와서 변수에 지정하는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="11315-114">The following example shows how to obtain the contents of a file, soothingmusic.wma, as a byte array and assign it to a variable.</span></span> <span data-ttu-id="11315-115">그런 후에 오디오 파일은 통화 대기용 대기 음악 파일로 지정됩니다.</span><span class="sxs-lookup"><span data-stu-id="11315-115">Then the audio file is assigned as the music-on-hold file for Call Park.</span></span> <span data-ttu-id="11315-116">자세한 내용은 [set-cscallparkservicemusiconholdfile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="11315-116">For details, see [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).</span></span>
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
@@ -81,11 +82,11 @@ ms.locfileid: "48516715"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="587fe-116">참고 항목</span><span class="sxs-lookup"><span data-stu-id="587fe-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="11315-117">참고 항목</span><span class="sxs-lookup"><span data-stu-id="11315-117">See Also</span></span>
 
 
-[<span data-ttu-id="587fe-117">Set-cscallparkservicemusiconholdfile</span><span class="sxs-lookup"><span data-stu-id="587fe-117">Set-CsCallParkServiceMusicOnHoldFile</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
-[<span data-ttu-id="587fe-118">Get-CsService</span><span class="sxs-lookup"><span data-stu-id="587fe-118">Get-CsService</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[<span data-ttu-id="11315-118">Set-cscallparkservicemusiconholdfile</span><span class="sxs-lookup"><span data-stu-id="11315-118">Set-CsCallParkServiceMusicOnHoldFile</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[<span data-ttu-id="11315-119">Get-CsService</span><span class="sxs-lookup"><span data-stu-id="11315-119">Get-CsService</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
   
 
 </div>

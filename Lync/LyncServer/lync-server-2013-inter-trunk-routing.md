@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 트렁크 간 라우팅'
+description: 'Lync Server 2013: 트렁크 간 라우팅'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de302ec9bfbf81ea1d5c43ec568f2a0c0f6c19bf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7e023956f28183423c04e94948acdec0df2c1284
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498495"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543974"
 ---
-# <a name="inter-trunk-routing-in-lync-server-2013"></a><span data-ttu-id="c7fb0-102">Lync Server 2013의 트렁크 간 라우팅</span><span class="sxs-lookup"><span data-stu-id="c7fb0-102">Inter-trunk routing in Lync Server 2013</span></span>
+# <a name="inter-trunk-routing-in-lync-server-2013"></a><span data-ttu-id="dc386-103">Lync Server 2013의 트렁크 간 라우팅</span><span class="sxs-lookup"><span data-stu-id="dc386-103">Inter-trunk routing in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48498495"
 
 <span> </span>
 
-<span data-ttu-id="c7fb0-103">_**마지막으로 수정 된 항목:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="c7fb0-103">_**Topic Last Modified:** 2012-10-08_</span></span>
+<span data-ttu-id="dc386-104">_**마지막으로 수정 된 항목:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="dc386-104">_**Topic Last Modified:** 2012-10-08_</span></span>
 
-<span data-ttu-id="c7fb0-104">Lync Server 2013에서는 인터 트렁크 라우팅 지원을 통해 기본 세션 관리 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7fb0-104">Lync Server 2013 provides basic session management through the support of intertrunk routing.</span></span> <span data-ttu-id="c7fb0-105">이 새로운 기능을 사용 하면 Lync Server에서 다운스트림 전화 통신 시스템에 통화 제어 기능을 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7fb0-105">This new capability enables Lync Server to provide call control functionalities to downstream telephony systems.</span></span> <span data-ttu-id="c7fb0-106">트렁크 간 라우팅은 IP-PBX를 PSTN(공중 전화망) 게이트웨이에 상호 연결할 수 있으므로 PBX(Private Branch eXchange) 전화의 통화를 PSTN으로 라우팅하고 들어오는 PSTN 통화를 PBX 전화로 라우팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7fb0-106">Intertrunk routing can interconnect an IP-PBX to a public switched telephone network (PSTN) gateway so that calls from a private branch exchange (PBX) phone can be routed to the PSTN, and incoming PSTN calls can be routed to a PBX phone.</span></span> <span data-ttu-id="c7fb0-107">마찬가지로 Lync Server는 두 개 이상의 IP PBX 시스템을 상호 연결 하 여 서로 다른 IP PBX 시스템에서 PBX 전화 간에 통화를 주고 받을 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7fb0-107">Similarly, Lync Server can interconnect two or more IP-PBX systems so that calls can be placed and received between PBX phones from the different IP-PBX systems.</span></span>
+<span data-ttu-id="dc386-105">Lync Server 2013에서는 인터 트렁크 라우팅 지원을 통해 기본 세션 관리 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="dc386-105">Lync Server 2013 provides basic session management through the support of intertrunk routing.</span></span> <span data-ttu-id="dc386-106">이 새로운 기능을 사용 하면 Lync Server에서 다운스트림 전화 통신 시스템에 통화 제어 기능을 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc386-106">This new capability enables Lync Server to provide call control functionalities to downstream telephony systems.</span></span> <span data-ttu-id="dc386-107">트렁크 간 라우팅은 IP-PBX를 PSTN(공중 전화망) 게이트웨이에 상호 연결할 수 있으므로 PBX(Private Branch eXchange) 전화의 통화를 PSTN으로 라우팅하고 들어오는 PSTN 통화를 PBX 전화로 라우팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc386-107">Intertrunk routing can interconnect an IP-PBX to a public switched telephone network (PSTN) gateway so that calls from a private branch exchange (PBX) phone can be routed to the PSTN, and incoming PSTN calls can be routed to a PBX phone.</span></span> <span data-ttu-id="dc386-108">마찬가지로 Lync Server는 두 개 이상의 IP PBX 시스템을 상호 연결 하 여 서로 다른 IP PBX 시스템에서 PBX 전화 간에 통화를 주고 받을 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="dc386-108">Similarly, Lync Server can interconnect two or more IP-PBX systems so that calls can be placed and received between PBX phones from the different IP-PBX systems.</span></span>
 
-<span data-ttu-id="c7fb0-108">다음 그림에서는 PSTN 게이트웨이와 ip-pbx 간의 ip-pbx을 제공 하는 Lync Server 2013를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="c7fb0-108">The following figure illustrates Lync Server 2013 providing interconnectivity between a PSTN gateway and an IP-PBX.</span></span>
+<span data-ttu-id="dc386-109">다음 그림에서는 PSTN 게이트웨이와 ip-pbx 간의 ip-pbx을 제공 하는 Lync Server 2013를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="dc386-109">The following figure illustrates Lync Server 2013 providing interconnectivity between a PSTN gateway and an IP-PBX.</span></span>
 
-<span data-ttu-id="c7fb0-109">![Lync Server 연결 PSTN 게이트웨이/i p-PBX 다이어그램](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server 연결 PSTN 게이트웨이/i p-PBX 다이어그램")</span><span class="sxs-lookup"><span data-stu-id="c7fb0-109">![Lync Server connecting PSTN gateway/IP-PBX diagram](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server connecting PSTN gateway/IP-PBX diagram")</span></span>
+<span data-ttu-id="dc386-110">![Lync Server 연결 PSTN 게이트웨이/i p-PBX 다이어그램](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server 연결 PSTN 게이트웨이/i p-PBX 다이어그램")</span><span class="sxs-lookup"><span data-stu-id="dc386-110">![Lync Server connecting PSTN gateway/IP-PBX diagram](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server connecting PSTN gateway/IP-PBX diagram")</span></span>
 
-<span data-ttu-id="c7fb0-110">다음 그림에서는 두 개의 IP PBX 시스템을 연결 하는 Lync Server 2013를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="c7fb0-110">The next figure illustrates Lync Server 2013 connecting two IP-PBX systems.</span></span>
+<span data-ttu-id="dc386-111">다음 그림에서는 두 개의 IP PBX 시스템을 연결 하는 Lync Server 2013를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="dc386-111">The next figure illustrates Lync Server 2013 connecting two IP-PBX systems.</span></span>
 
-<span data-ttu-id="c7fb0-111">![Lync Server 상호 연결 IP-PAX systems 다이어그램](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server 상호 연결 IP-PAX systems 다이어그램")</span><span class="sxs-lookup"><span data-stu-id="c7fb0-111">![Lync Server interconnecting IP-PAX systems diagram](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server interconnecting IP-PAX systems diagram")</span></span>
+<span data-ttu-id="dc386-112">![Lync Server 상호 연결 IP-PAX systems 다이어그램](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server 상호 연결 IP-PAX systems 다이어그램")</span><span class="sxs-lookup"><span data-stu-id="dc386-112">![Lync Server interconnecting IP-PAX systems diagram](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server interconnecting IP-PAX systems diagram")</span></span>
 
 </div>
 

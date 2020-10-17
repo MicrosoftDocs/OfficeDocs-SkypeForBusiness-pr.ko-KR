@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 풀 테이블'
+description: 'Lync Server 2013: 풀 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f9895307599210a7d30fde58d7e09b8353388db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a587eba6798121f39fe64ff8bd720b62e9311ec0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527995"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543194"
 ---
-# <a name="pools-table-in-lync-server-2013"></a><span data-ttu-id="e8369-102">Lync Server 2013의 풀 테이블</span><span class="sxs-lookup"><span data-stu-id="e8369-102">Pools table in Lync Server 2013</span></span>
+# <a name="pools-table-in-lync-server-2013"></a><span data-ttu-id="4b4fa-103">Lync Server 2013의 풀 테이블</span><span class="sxs-lookup"><span data-stu-id="4b4fa-103">Pools table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48527995"
 
 <span> </span>
 
-<span data-ttu-id="e8369-103">_**마지막으로 수정 된 항목:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="e8369-103">_**Topic Last Modified:** 2010-11-09_</span></span>
+<span data-ttu-id="4b4fa-104">_**마지막으로 수정 된 항목:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="4b4fa-104">_**Topic Last Modified:** 2010-11-09_</span></span>
 
-<span data-ttu-id="e8369-104">풀 테이블은 다양 한 풀에 대 한 정보를 저장 하는 지원 테이블입니다.</span><span class="sxs-lookup"><span data-stu-id="e8369-104">The Pools table is a supporting table that stores information about the various pool.</span></span> <span data-ttu-id="e8369-105">테이블의 각 레코드는 하나의 풀을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="e8369-105">Each record in the table represents one pool.</span></span>
+<span data-ttu-id="4b4fa-105">풀 테이블은 다양 한 풀에 대 한 정보를 저장 하는 지원 테이블입니다.</span><span class="sxs-lookup"><span data-stu-id="4b4fa-105">The Pools table is a supporting table that stores information about the various pool.</span></span> <span data-ttu-id="4b4fa-106">테이블의 각 레코드는 하나의 풀을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="4b4fa-106">Each record in the table represents one pool.</span></span>
 
 
 <table>
@@ -51,24 +52,24 @@ ms.locfileid: "48527995"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e8369-106">열</span><span class="sxs-lookup"><span data-stu-id="e8369-106">Column</span></span></th>
-<th><span data-ttu-id="e8369-107">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="e8369-107">Data Type</span></span></th>
-<th><span data-ttu-id="e8369-108">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="e8369-108">Key/Index</span></span></th>
-<th><span data-ttu-id="e8369-109">세부 정보</span><span class="sxs-lookup"><span data-stu-id="e8369-109">Details</span></span></th>
+<th><span data-ttu-id="4b4fa-107">열</span><span class="sxs-lookup"><span data-stu-id="4b4fa-107">Column</span></span></th>
+<th><span data-ttu-id="4b4fa-108">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="4b4fa-108">Data Type</span></span></th>
+<th><span data-ttu-id="4b4fa-109">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="4b4fa-109">Key/Index</span></span></th>
+<th><span data-ttu-id="4b4fa-110">세부 정보</span><span class="sxs-lookup"><span data-stu-id="4b4fa-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e8369-110"><strong>PoolId</strong></span><span class="sxs-lookup"><span data-stu-id="e8369-110"><strong>PoolId</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8369-111">int</span><span class="sxs-lookup"><span data-stu-id="e8369-111">int</span></span></p></td>
-<td><p><span data-ttu-id="e8369-112">Primary</span><span class="sxs-lookup"><span data-stu-id="e8369-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="e8369-113">이 풀을 식별하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="e8369-113">Unique number identifying this pool.</span></span></p></td>
+<td><p><span data-ttu-id="4b4fa-111"><strong>PoolId</strong></span><span class="sxs-lookup"><span data-stu-id="4b4fa-111"><strong>PoolId</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b4fa-112">int</span><span class="sxs-lookup"><span data-stu-id="4b4fa-112">int</span></span></p></td>
+<td><p><span data-ttu-id="4b4fa-113">Primary</span><span class="sxs-lookup"><span data-stu-id="4b4fa-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4b4fa-114">이 풀을 식별하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="4b4fa-114">Unique number identifying this pool.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e8369-114"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="e8369-114"><strong>PoolFQDN</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8369-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="e8369-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="4b4fa-115"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="4b4fa-115"><strong>PoolFQDN</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b4fa-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="4b4fa-116">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="e8369-116">풀 FQDN입니다.</span><span class="sxs-lookup"><span data-stu-id="e8369-116">Pool FQDN.</span></span></p></td>
+<td><p><span data-ttu-id="4b4fa-117">풀 FQDN입니다.</span><span class="sxs-lookup"><span data-stu-id="4b4fa-117">Pool FQDN.</span></span></p></td>
 </tr>
 </tbody>
 </table>

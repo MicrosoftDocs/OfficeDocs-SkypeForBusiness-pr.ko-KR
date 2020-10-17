@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 파일 저장소 복원'
+description: 'Lync Server 2013: 파일 저장소를 복원 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd1984c6e51866b1ace707f305fb2a6cc356a132
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 201c4b20f224fa3a25e931689e564410c60143e6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511615"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543834"
 ---
-# <a name="restoring-a-file-store-in-lync-server-2013"></a><span data-ttu-id="c2042-102">Lync Server 2013에서 파일 저장소 복원</span><span class="sxs-lookup"><span data-stu-id="c2042-102">Restoring a file store in Lync Server 2013</span></span>
+# <a name="restoring-a-file-store-in-lync-server-2013"></a><span data-ttu-id="13a12-103">Lync Server 2013에서 파일 저장소 복원</span><span class="sxs-lookup"><span data-stu-id="13a12-103">Restoring a file store in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,26 +38,26 @@ ms.locfileid: "48511615"
 
 <span> </span>
 
-<span data-ttu-id="c2042-103">_**마지막으로 수정 된 항목:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="c2042-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="13a12-104">_**마지막으로 수정 된 항목:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="13a12-104">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="c2042-104">Standard Edition에 대 한 파일 저장소는 일반적으로 Standard Edition 서버에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c2042-104">File Stores for Standard Edition are typically located on the Standard Edition server.</span></span> <span data-ttu-id="c2042-105">Enterprise Edition의 파일 저장소는 일반적으로 파일 서버 또는 클러스터에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c2042-105">File Stores for Enterprise Edition are typically located on a file server or cluster.</span></span> <span data-ttu-id="c2042-106">다음 절차에서는 파일 저장소를 복원 하는 방법을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2042-106">The following procedure describes how to restore a File Store.</span></span>
+<span data-ttu-id="13a12-105">Standard Edition에 대 한 파일 저장소는 일반적으로 Standard Edition 서버에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="13a12-105">File Stores for Standard Edition are typically located on the Standard Edition server.</span></span> <span data-ttu-id="13a12-106">Enterprise Edition의 파일 저장소는 일반적으로 파일 서버 또는 클러스터에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="13a12-106">File Stores for Enterprise Edition are typically located on a file server or cluster.</span></span> <span data-ttu-id="13a12-107">다음 절차에서는 파일 저장소를 복원 하는 방법을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="13a12-107">The following procedure describes how to restore a File Store.</span></span>
 
 <div>
 
-## <a name="to-restore-a-file-store"></a><span data-ttu-id="c2042-107">파일 저장소를 복원하려면</span><span class="sxs-lookup"><span data-stu-id="c2042-107">To restore a File Store</span></span>
+## <a name="to-restore-a-file-store"></a><span data-ttu-id="13a12-108">파일 저장소를 복원하려면</span><span class="sxs-lookup"><span data-stu-id="13a12-108">To restore a File Store</span></span>
 
-1.  <span data-ttu-id="c2042-108">파일 저장소가 실패 하면 $Backup에서 해당 파일 저장소를 \\ 파일 서버 또는 Standard Edition 서버의 파일 저장소 위치에 복사한 다음 해당 폴더를 공유 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2042-108">If a File Store fails, copy the appropriate File Store from $Backup\\ to the File Store location on the file server or Standard Edition server, and then share the folder.</span></span>
+1.  <span data-ttu-id="13a12-109">파일 저장소가 실패 하면 $Backup에서 해당 파일 저장소를 \\ 파일 서버 또는 Standard Edition 서버의 파일 저장소 위치에 복사한 다음 해당 폴더를 공유 합니다.</span><span class="sxs-lookup"><span data-stu-id="13a12-109">If a File Store fails, copy the appropriate File Store from $Backup\\ to the File Store location on the file server or Standard Edition server, and then share the folder.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="c2042-109">복원 된 파일 저장소의 경로와 파일 이름은 백업한 파일 저장소와 정확히 동일 해야 파일을 사용 하는 구성 요소에서 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c2042-109">The path and file name for the restored File Store should be exactly the same as the backed up File Store, so that components that use the files can access them.</span></span>
+    > <span data-ttu-id="13a12-110">복원 된 파일 저장소의 경로와 파일 이름은 백업한 파일 저장소와 정확히 동일 해야 파일을 사용 하는 구성 요소에서 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="13a12-110">The path and file name for the restored File Store should be exactly the same as the backed up File Store, so that components that use the files can access them.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="c2042-110">필요한 경우 파일 저장소에 대 한 Acl (액세스 제어 목록)을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2042-110">If necessary, set the access control lists (ACLs) for the File Store.</span></span> <span data-ttu-id="c2042-111">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c2042-111">At the command line, type:</span></span>
+2.  <span data-ttu-id="13a12-111">필요한 경우 파일 저장소에 대 한 Acl (액세스 제어 목록)을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="13a12-111">If necessary, set the access control lists (ACLs) for the File Store.</span></span> <span data-ttu-id="13a12-112">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="13a12-112">At the command line, type:</span></span>
     
         Enable-CsTopology
     
@@ -64,7 +65,7 @@ ms.locfileid: "48511615"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="c2042-112">복원 프로세스 중에 토폴로지 작성기를 실행 하지 않은 경우에만이 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2042-112">You need to perform this step only if you have not otherwise run Topology Builder during your restoration process.</span></span>
+    > <span data-ttu-id="13a12-113">복원 프로세스 중에 토폴로지 작성기를 실행 하지 않은 경우에만이 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="13a12-113">You need to perform this step only if you have not otherwise run Topology Builder during your restoration process.</span></span>
 
     
     </div>
