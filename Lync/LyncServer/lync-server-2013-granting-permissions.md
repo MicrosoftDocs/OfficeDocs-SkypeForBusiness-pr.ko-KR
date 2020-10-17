@@ -12,20 +12,22 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20679f910ead1f1b7cab45fde658b38233c644f3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e69cb3c8638cb11ababac73d0f8fe4025bbda24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202194"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498885"
 ---
+# <a name="granting-permissions-in-lync-server-2013"></a><span data-ttu-id="268f2-102">Lync Server 2013에서 사용 권한 부여</span><span class="sxs-lookup"><span data-stu-id="268f2-102">Granting permissions in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="granting-permissions-in-lync-server-2013"></a><span data-ttu-id="86de7-102">Lync Server 2013에서 사용 권한 부여</span><span class="sxs-lookup"><span data-stu-id="86de7-102">Granting permissions in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42202194"
 
 <span> </span>
 
-<span data-ttu-id="86de7-103">_**마지막으로 수정 된 항목:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="86de7-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="268f2-103">_**마지막으로 수정 된 항목:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="268f2-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="86de7-104">설치를 위해 특정 Active Directory OU (조직 구성 단위)에 대 한 RTCUniversalServerAdmins 유니버설 그룹에 사용 권한을 부여 하 여 해당 OU에 있는 RTCUniversalServerAdmins 그룹의 구성원이 지정 된 도메인에 Lync Server 2013을 설치할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="86de7-104">For setup, you can grant permissions to the RTCUniversalServerAdmins universal group for a specific Active Directory organizational unit (OU), enabling members of the RTCUniversalServerAdmins group in that OU to install Lync Server 2013 in the specified domain.</span></span> <span data-ttu-id="86de7-105">OU에 대 한 사용 권한을 부여 하면 다음과 같은 사용 권한이 부여 됩니다.</span><span class="sxs-lookup"><span data-stu-id="86de7-105">When you grant permissions for an OU, the following permissions are granted:</span></span>
+<span data-ttu-id="268f2-104">설치를 위해 특정 Active Directory OU (조직 구성 단위)에 대 한 RTCUniversalServerAdmins 유니버설 그룹에 사용 권한을 부여 하 여 해당 OU에 있는 RTCUniversalServerAdmins 그룹의 구성원이 지정 된 도메인에 Lync Server 2013을 설치할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="268f2-104">For setup, you can grant permissions to the RTCUniversalServerAdmins universal group for a specific Active Directory organizational unit (OU), enabling members of the RTCUniversalServerAdmins group in that OU to install Lync Server 2013 in the specified domain.</span></span> <span data-ttu-id="268f2-105">OU에 대 한 사용 권한을 부여 하면 다음과 같은 사용 권한이 부여 됩니다.</span><span class="sxs-lookup"><span data-stu-id="268f2-105">When you grant permissions for an OU, the following permissions are granted:</span></span>
 
-  - <span data-ttu-id="86de7-106">읽기</span><span class="sxs-lookup"><span data-stu-id="86de7-106">Read</span></span>
+  - <span data-ttu-id="268f2-106">읽기</span><span class="sxs-lookup"><span data-stu-id="268f2-106">Read</span></span>
 
-  - <span data-ttu-id="86de7-107">쓰기</span><span class="sxs-lookup"><span data-stu-id="86de7-107">Write</span></span>
+  - <span data-ttu-id="268f2-107">쓰기</span><span class="sxs-lookup"><span data-stu-id="268f2-107">Write</span></span>
 
-  - <span data-ttu-id="86de7-108">ReadSPN</span><span class="sxs-lookup"><span data-stu-id="86de7-108">ReadSPN</span></span>
+  - <span data-ttu-id="268f2-108">ReadSPN</span><span class="sxs-lookup"><span data-stu-id="268f2-108">ReadSPN</span></span>
 
-  - <span data-ttu-id="86de7-109">WriteSPN</span><span class="sxs-lookup"><span data-stu-id="86de7-109">WriteSPN</span></span>
+  - <span data-ttu-id="268f2-109">WriteSPN</span><span class="sxs-lookup"><span data-stu-id="268f2-109">WriteSPN</span></span>
 
-<span data-ttu-id="86de7-110">관리의 경우 포리스트 준비로 만든 RTC 유니버설 그룹의 구성원이 Domain Admins 그룹의 구성원 일 필요 없이 Ou에 액세스할 수 있도록 지정 된 Ou에 사용 권한을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="86de7-110">For administration, you can add permissions to specified OUs so that members of the RTC universal groups created by forest preparation can access the OUs without needing to be members of the Domain Admins group.</span></span> <span data-ttu-id="86de7-111">지정 된 OU에 추가 되는 사용 권한은 컴퓨터 및 사용자 OU 컨테이너에 추가 되는 **CsAdDomain** cmdlet의 사용 권한입니다.</span><span class="sxs-lookup"><span data-stu-id="86de7-111">The permissions added to the specified OU are the same permissions that the **Enable-CsAdDomain** cmdlet adds to the computers and users OU containers.</span></span>
+<span data-ttu-id="268f2-110">관리의 경우 포리스트 준비로 만든 RTC 유니버설 그룹의 구성원이 Domain Admins 그룹의 구성원 일 필요 없이 Ou에 액세스할 수 있도록 지정 된 Ou에 사용 권한을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="268f2-110">For administration, you can add permissions to specified OUs so that members of the RTC universal groups created by forest preparation can access the OUs without needing to be members of the Domain Admins group.</span></span> <span data-ttu-id="268f2-111">지정 된 OU에 추가 되는 사용 권한은 컴퓨터 및 사용자 OU 컨테이너에 추가 되는 **CsAdDomain** cmdlet의 사용 권한입니다.</span><span class="sxs-lookup"><span data-stu-id="268f2-111">The permissions added to the specified OU are the same permissions that the **Enable-CsAdDomain** cmdlet adds to the computers and users OU containers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="86de7-112">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="86de7-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="268f2-112">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="268f2-112">In This Section</span></span>
 
-  - [<span data-ttu-id="86de7-113">Lync Server 2013에서 설치 권한 부여</span><span class="sxs-lookup"><span data-stu-id="86de7-113">Granting setup permissions in Lync Server 2013</span></span>](lync-server-2013-granting-setup-permissions.md)
+  - [<span data-ttu-id="268f2-113">Lync Server 2013에서 설치 권한 부여</span><span class="sxs-lookup"><span data-stu-id="268f2-113">Granting setup permissions in Lync Server 2013</span></span>](lync-server-2013-granting-setup-permissions.md)
 
-  - [<span data-ttu-id="86de7-114">Lync Server 2013에서 조직 구성 단위 사용 권한 부여</span><span class="sxs-lookup"><span data-stu-id="86de7-114">Granting organizational unit permissions in Lync Server 2013</span></span>](lync-server-2013-granting-organizational-unit-permissions.md)
+  - [<span data-ttu-id="268f2-114">Lync Server 2013에서 조직 구성 단위 사용 권한 부여</span><span class="sxs-lookup"><span data-stu-id="268f2-114">Granting organizational unit permissions in Lync Server 2013</span></span>](lync-server-2013-granting-organizational-unit-permissions.md)
 
 </div>
 

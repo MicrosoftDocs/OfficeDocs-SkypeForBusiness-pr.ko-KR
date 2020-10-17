@@ -12,20 +12,22 @@ ms:contentKeyID: 48184755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 140f4cd63683059a53cd89f954d8ae5c30bbc460
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5eb575659b590462813ed810cb144eadc8a6f7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218014"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498095"
 ---
+# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a><span data-ttu-id="1a761-102">Lync Server 2013에서 모임 및 회의 관리</span><span class="sxs-lookup"><span data-stu-id="1a761-102">Managing meetings and conferences in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a><span data-ttu-id="5c159-102">Lync Server 2013에서 모임 및 회의 관리</span><span class="sxs-lookup"><span data-stu-id="5c159-102">Managing meetings and conferences in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42218014"
 
 <span> </span>
 
-<span data-ttu-id="5c159-103">_**마지막으로 수정 된 항목:** 2013-08-09_</span><span class="sxs-lookup"><span data-stu-id="5c159-103">_**Topic Last Modified:** 2013-08-09_</span></span>
+<span data-ttu-id="1a761-103">_**마지막으로 수정 된 항목:** 2013-08-09_</span><span class="sxs-lookup"><span data-stu-id="1a761-103">_**Topic Last Modified:** 2013-08-09_</span></span>
 
-<span data-ttu-id="5c159-104">이 섹션의 항목에서는 Lync Server 제어판의 **회의** 그룹에 있는 페이지를 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="5c159-104">Topics in this section provide step-by-step procedures for tasks you can perform using the pages in the **Conferencing** group in Lync Server Control Panel.</span></span>
+<span data-ttu-id="1a761-104">이 섹션의 항목에서는 Lync Server 제어판의 **회의** 그룹에 있는 페이지를 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="1a761-104">Topics in this section provide step-by-step procedures for tasks you can perform using the pages in the **Conferencing** group in Lync Server Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5c159-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="5c159-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1a761-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="1a761-105">In This Section</span></span>
 
-  - [<span data-ttu-id="5c159-106">Lync Server 2013의 모임 구성 설정</span><span class="sxs-lookup"><span data-stu-id="5c159-106">Meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-meeting-configuration-settings.md)
+  - [<span data-ttu-id="1a761-106">Lync Server 2013의 모임 구성 설정</span><span class="sxs-lookup"><span data-stu-id="1a761-106">Meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-meeting-configuration-settings.md)
 
-  - [<span data-ttu-id="5c159-107">Lync Server 2013의 회의 정책</span><span class="sxs-lookup"><span data-stu-id="5c159-107">Conferencing policies in Lync Server 2013</span></span>](lync-server-2013-conferencing-policies.md)
+  - [<span data-ttu-id="1a761-107">Lync Server 2013의 회의 정책</span><span class="sxs-lookup"><span data-stu-id="1a761-107">Conferencing policies in Lync Server 2013</span></span>](lync-server-2013-conferencing-policies.md)
 
-  - [<span data-ttu-id="5c159-108">Lync Server 2013 (구성/액세스 번호)의 전화 접속 회의</span><span class="sxs-lookup"><span data-stu-id="5c159-108">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
+  - [<span data-ttu-id="1a761-108">Lync Server 2013 (구성/액세스 번호)의 전화 접속 회의</span><span class="sxs-lookup"><span data-stu-id="1a761-108">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
 
-  - [<span data-ttu-id="5c159-109">Lync 사용 전화 및 Lync Server 2013에서 전화 걸기 사용</span><span class="sxs-lookup"><span data-stu-id="5c159-109">Using Call Me At with a Lync-enabled phone and Lync Server 2013</span></span>](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
+  - [<span data-ttu-id="1a761-109">Lync 사용 전화 및 Lync Server 2013에서 전화 걸기 사용</span><span class="sxs-lookup"><span data-stu-id="1a761-109">Using Call Me At with a Lync-enabled phone and Lync Server 2013</span></span>](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
 
 </div>
 
