@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자의 전화 접속 회의 PIN 설정'
+description: 'Lync Server 2013: 사용자의 전화 접속 회의 PIN을 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d63156f0eae10d71e0af7721f4e69fe6e2bd8fd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 238c2a72da81a53b409d81c1b91c885f1ddabcbc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510025"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543334"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-lync-server-2013"></a>Lync Server 2013에서 사용자의 전화 접속 회의 PIN 설정
 

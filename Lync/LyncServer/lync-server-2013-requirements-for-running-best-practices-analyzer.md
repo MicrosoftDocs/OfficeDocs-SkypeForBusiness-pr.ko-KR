@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 모범 사례 분석기를 실행 하기 위한 요구 사항'
+description: 'Lync Server 2013: 모범 사례 분석기를 실행 하기 위한 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f097da7dc35c63cb385abd7ea233ec85df386a6e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 58a604a2b7d4a2d60a366d288b448ce8f255e5e4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511845"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542484"
 ---
 # <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013에서 모범 사례 분석기를 실행 하기 위한 요구 사항
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 영구 채팅 관리 도구 통합'
+description: 'Lync Server 2013: 영구 채팅 관리 도구를 통합 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19814b3fb193ffb23c53c72929d7597f51ca046a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 55ca6403aca43b9bb197f925add9e73dde8e6493
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498505"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543962"
 ---
 # <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 관리 도구 통합
 

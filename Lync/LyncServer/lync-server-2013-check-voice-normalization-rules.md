@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 음성 정규화 규칙 확인'
+description: 'Lync Server 2013: 음성 정규화 규칙을 확인 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 547f117a9706aa0ab5bf1202c31d0bc9f8ce34fc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f68bbde24a3dc7d8e8214dcfe506d4b8112fbbb3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526215"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543534"
 ---
 # <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Lync Server 2013에서 음성 정규화 규칙 확인
 

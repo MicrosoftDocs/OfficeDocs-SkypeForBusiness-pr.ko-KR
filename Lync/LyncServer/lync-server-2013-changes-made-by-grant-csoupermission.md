@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Grant-CsOUPermission에서 변경한 내용'
+description: 'Lync Server 2013: 부여-CsOUPermission을 통해 변경한 내용입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ff916c0b4e284f9c6ce4d5dbaf9c2e196ed4bc6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 10d3db0e9dde380628690bc016e2b4bd2ec85b54
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529435"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543614"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a>Lync Server 2013의 Grant-CsOUPermission에의 한 변경 사항
 

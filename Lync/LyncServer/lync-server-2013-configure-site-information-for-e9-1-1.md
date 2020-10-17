@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: E9-1-1에 대 한 사이트 정보 구성'
+description: 'Lync Server 2013: E9-1-1에 대 한 사이트 정보를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce9a6f9b24256bdc577e02ceb41bd3f67601e74e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 880a5e596a009e86214c2ab3a5a1223dd3ba63d3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508915"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542674"
 ---
 # <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013에서 E9-1-1에 대 한 사이트 정보 구성
 

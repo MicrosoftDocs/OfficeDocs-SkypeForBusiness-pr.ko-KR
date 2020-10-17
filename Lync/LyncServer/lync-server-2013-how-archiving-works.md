@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 보관 작동 방식'
+description: 'Lync Server 2013: 보관이 작동 하는 방식입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2e982884e0e73a5315f0c6281876be225ccab6f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 57a5ef19c0781b4faa279a6aad46ac34b83ae0f9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504165"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543384"
 ---
 # <a name="how-archiving-works-in-lync-server-2013"></a>Lync Server 2013에서 보관이 작동 하는 방식
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 통화 대기 음악을 사용자 지정 합니다.'
+description: 'Lync Server 2013: 통화 대기 음악을 사용자 지정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18f7ac9793c8275caa20725d2d303c5fca7f534f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 19219e4a77d4be4a18a43255e142339a4af6f463
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516715"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544004"
 ---
 # <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Lync Server 2013에서 통화 대기 음악 사용자 지정
 

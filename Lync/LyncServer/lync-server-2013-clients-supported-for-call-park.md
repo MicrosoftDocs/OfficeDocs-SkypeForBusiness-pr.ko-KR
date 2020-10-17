@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 통화 대기에 지원 되는 클라이언트'
+description: 'Lync Server 2013: 통화 대기에 지원 되는 클라이언트'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74e9231c99754f0916d1ddf94ba36d1dce81fb1f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a923f0e62c246a12b811628d578ab571f4f13e36
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499265"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543494"
 ---
 # <a name="clients-supported-for-call-park-in-lync-server-2013"></a>Lync Server 2013의 통화 대기에 지원 되는 클라이언트
 

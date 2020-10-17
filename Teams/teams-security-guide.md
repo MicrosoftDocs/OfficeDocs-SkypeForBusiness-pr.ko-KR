@@ -3,6 +3,7 @@ title: Microsoft Teams 보안 가이드
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
+ms.date: 10/15/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -19,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761294"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486803"
 ---
 # <a name="security-and-microsoft-teams"></a>보안 및 Microsoft Teams
 
@@ -239,7 +240,7 @@ Teams는 엔터프라이즈 사용자가 실시간 모임을 만들고 참석할
 주최자는 전화 접속 발신자가 모임의 첫 번째 참석자로 되도록 허용하는 설정을 구성할 수도 있습니다. 사용자의 오디오 회의 설정에서 이 설정을 구성하면 사용자가 예약한 모든 모임에 적용됩니다.
 
 > [!NOTE]
-> Teams의 게스트 및 외부 액세스에 대한 자세한 내용은 이 [문서](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)를 참조하세요. 문서에서는 게스트 또는 외부 사용자가 Teams에 로그인 할 때 보고 사용할 수 있는 기능에 대해 다룹니다.
+> Teams의 게스트 및 외부 액세스에 대한 자세한 내용은 이 [문서](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)를 참조하세요. 문서에서는 게스트 또는 외부 사용자가 Teams에 로그인 할 때 보고 사용할 수 있는 기능에 대해 다룹니다. <p> 모임을 녹음/녹화하는 동안 콘텐츠에 액세스하는 데 사용되는 권한 매트릭스를 보려면 [이 문서](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)와 매트릭스를 참조하세요.
 
 ### <a name="participant-roles"></a>참가자 역할
 
@@ -305,3 +306,5 @@ Teams에서 익명 사용자는 대기실이라는 대기 공간으로 보내질
 [VPN 분할 터널링을 사용하여 원격 사용자를 위해 Microsoft 365 혹은 Office 365 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [VPN 분할 터널링 구현](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+
+[녹음/녹화본이 저장되고 사용자가 액세스할 수 있는 Teams 내 모임 녹음/녹화](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)

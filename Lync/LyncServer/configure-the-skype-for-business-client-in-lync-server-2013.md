@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013에서 비즈니스용 Skype 클라이언트 구성
+description: Lync Server 2013에서 비즈니스용 Skype 클라이언트를 구성 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,12 +14,12 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20980f0f0b6697eada6c237aa8d2297b0fd227d9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c7f75ae0fa61d9048991934a0ecce7a886079961
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503305"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542974"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business"></a>비즈니스용 Skype를 사용 하 여 클라이언트 환경 구성
 

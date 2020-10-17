@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 통합 연락처 저장소 요구 사항'
+description: 'Lync Server 2013: 통합 연락처 저장소에 대 한 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fecfde24f84c0e15b434a08c623588a1d0dc3d17
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bd264fcbb9b1d4f3da1678bb3aacb9d3962ffd08
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511835"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542434"
 ---
 # <a name="requirements-for-unified-contact-store-in-lync-server-2013"></a>Lync Server 2013의 통합 연락처 저장소 요구 사항
 
