@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 회의를 위한 위치 기반 라우팅'
+title: 'Lync Server 2013: 회의에 대 한 Location-Based 라우팅'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 56335087
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58bc253427e26c63d97610f5958ae26287fd42e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 03e216e80b50bd7b2d5c0515700c4f1cd7260f22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186521"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513805"
 ---
+# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="9ea2f-102">Lync Server 2013의 회의에 대 한 Location-Based 라우팅</span><span class="sxs-lookup"><span data-stu-id="9ea2f-102">Location-Based Routing for conferencing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="0d1a1-102">Lync Server 2013의 회의에 대 한 위치 기반 라우팅</span><span class="sxs-lookup"><span data-stu-id="0d1a1-102">Location-Based Routing for conferencing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42186521"
 
 <span> </span>
 
-<span data-ttu-id="0d1a1-103">_**마지막으로 수정 된 항목:** 2013-07-31_</span><span class="sxs-lookup"><span data-stu-id="0d1a1-103">_**Topic Last Modified:** 2013-07-31_</span></span>
+<span data-ttu-id="9ea2f-103">_**마지막으로 수정 된 항목:** 2013-07-31_</span><span class="sxs-lookup"><span data-stu-id="9ea2f-103">_**Topic Last Modified:** 2013-07-31_</span></span>
 
-<span data-ttu-id="0d1a1-104">위치 기반 라우팅은 통화에서 파티 위치에 따라 VoIP 끝점과 PSTN 끝점 간의 통화 라우팅을 제한할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d1a1-104">Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call.</span></span> <span data-ttu-id="0d1a1-105">Lync Server 2013의 누적 업데이트 2를 사용 하 여 PSTN 전화 바이패스를 방지 하기 위해 Lync 모임 (예: 회의)에서 위치 기반 라우팅 규칙을 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d1a1-105">With Cumulative Update 2 of Lync Server 2013, Location-Based Routing rules can be enforced on Lync meetings (i.e. conferences) to prevent PSTN toll bypass.</span></span> <span data-ttu-id="0d1a1-106">이 응용 프로그램은 활성 회의를 모니터링 하 고 참가 하는 사용자의 위치에 따라 위치 기반 라우팅 제한을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d1a1-106">The application monitors an active conference and enforces Location-Based Routing restrictions based on the location of users participating.</span></span> <span data-ttu-id="0d1a1-107">또한 위치 기반 라우팅 회의 응용 프로그램을 사용 하면 PSTN 끝점과 관련 된 문의 후 전송에 위치 기반 라우팅 제한이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0d1a1-107">The Location-Based Routing Conferencing application additionally enables the enforcement of Location-Based Routing restrictions to consultative transfers involving PSTN endpoints.</span></span>
+<span data-ttu-id="9ea2f-104">Location-Based 라우팅을 사용 하면 통화에서 파티 위치에 따라 VoIP 끝점과 PSTN 끝점 간의 통화 라우팅을 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ea2f-104">Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call.</span></span> <span data-ttu-id="9ea2f-105">Lync Server 2013의 누적 업데이트 2를 사용 하 여 PSTN 전화 바이패스를 방지 하기 위해 Lync 모임 (예: 회의)에서 라우팅 규칙을 적용할 수 Location-Based.</span><span class="sxs-lookup"><span data-stu-id="9ea2f-105">With Cumulative Update 2 of Lync Server 2013, Location-Based Routing rules can be enforced on Lync meetings (i.e. conferences) to prevent PSTN toll bypass.</span></span> <span data-ttu-id="9ea2f-106">이 응용 프로그램은 활성 회의를 모니터링 하 고 참가 하는 사용자의 위치에 따라 Location-Based 라우팅 제한을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ea2f-106">The application monitors an active conference and enforces Location-Based Routing restrictions based on the location of users participating.</span></span> <span data-ttu-id="9ea2f-107">Location-Based 라우팅 회의 응용 프로그램을 사용 하면 PSTN 끝점이 포함 된 문의 후 전송에 대 한 라우팅 제한 Location-Based 추가로 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ea2f-107">The Location-Based Routing Conferencing application additionally enables the enforcement of Location-Based Routing restrictions to consultative transfers involving PSTN endpoints.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0d1a1-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="0d1a1-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9ea2f-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9ea2f-108">In This Section</span></span>
 
-  - [<span data-ttu-id="0d1a1-109">Lync Server 2013의 회의에 대 한 위치 기반 라우팅 개요</span><span class="sxs-lookup"><span data-stu-id="0d1a1-109">Overview of Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
+  - [<span data-ttu-id="9ea2f-109">Lync Server 2013의 회의에 대 한 Location-Based 라우팅 개요</span><span class="sxs-lookup"><span data-stu-id="9ea2f-109">Overview of Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
 
-  - [<span data-ttu-id="0d1a1-110">Lync Server 2013의 위치 기반 라우팅 및 문의 후 통화 전송</span><span class="sxs-lookup"><span data-stu-id="0d1a1-110">Location-Based Routing and consultative call transfers in Lync Server 2013</span></span>](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
+  - [<span data-ttu-id="9ea2f-110">Lync Server 2013의 위치 기반 라우팅 및 문의 후 통화 전송</span><span class="sxs-lookup"><span data-stu-id="9ea2f-110">Location-Based Routing and consultative call transfers in Lync Server 2013</span></span>](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
 
-  - [<span data-ttu-id="0d1a1-111">Lync Server 2013의 회의에 대 한 위치 기반 라우팅 요구 사항</span><span class="sxs-lookup"><span data-stu-id="0d1a1-111">Requirements for Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
+  - [<span data-ttu-id="9ea2f-111">Lync Server 2013에서 회의에 대 한 Location-Based 라우팅을 위한 요구 사항</span><span class="sxs-lookup"><span data-stu-id="9ea2f-111">Requirements for Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
 
-  - [<span data-ttu-id="0d1a1-112">Lync Server 2013에서 회의를 위한 위치 기반 라우팅 구성</span><span class="sxs-lookup"><span data-stu-id="0d1a1-112">Configuration of Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
+  - [<span data-ttu-id="9ea2f-112">Lync Server 2013에서 회의에 대 한 Location-Based 라우팅을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ea2f-112">Configuration of Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
 
 </div>
 
