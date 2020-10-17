@@ -12,20 +12,22 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce81d2005a9bbed5432f2c78f3d8df5507d6679
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5f56d856aa0a97125812f68ede9a2bff5b49f036
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191681"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498535"
 ---
+# <a name="installing-optional-software-in-lync-server-2013"></a>Lync Server 2013에 선택적 소프트웨어 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-optional-software-in-lync-server-2013"></a>Lync Server 2013에 선택적 소프트웨어 설치
+
 
 </div>
 
@@ -83,7 +85,7 @@ Microsoft Excel로 디자인을 내보내면 스프레드시트에 7 개의 탭�
 
   - 전역 토폴로지-구성 된 Lync Server 2013 사이트의 다이어그램입니다.
 
-  - Site Name 탭-Edge Server, 방화벽, 공중 전화망 (PSTN)이 있는 사이트 구성 토폴로지 및 내부 서버 배포를 표시 합니다. 내부 배포는 프런트 엔드 풀, SQL Server 기반 서버, Active Directory 도메인 서비스, 디렉터, Exchange UM (통합 메시징) 서버, Exchange 사서함 서버, Office Web Apps 서버를 포함 하 여 구성 된 서버 및 풀로 구성 됩니다. 중재 서버 및 영구 채팅 서버
+  - Site Name 탭-Edge Server, 방화벽, 공중 전화망 (PSTN)이 있는 사이트 구성 토폴로지 및 내부 서버 배포를 표시 합니다. 내부 배포는 프런트 엔드 풀, SQL Server 기반 서버, Active Directory 도메인 서비스, 디렉터, Exchange UM (통합 메시징) 서버, Exchange 사서함 서버, Office Web Apps 서버, 중재 서버 및 영구 채팅 서버를 포함 하 여 구성 된 서버 및 풀로 구성 됩니다.
 
   - 에 지 네트워크 다이어그램-연결 된 IP 주소와 Fqdn을 사용 하 여에 지 서버 구성을 자세히 설명 하는 다이어그램입니다. DNS 부하 분산 및 하드웨어 부하 분산 장치도 포함됩니다. 또한 디렉터 및 프런트 엔드 서버 또는 프런트 엔드 풀은 연결 된 DNS LB 또는 HLB 및 할당 된 IP 주소 (계획 도구에서 IPv4 및 IPv6 주소를 모두 지원) 및 FQDN과 함께 표시 됩니다.
 

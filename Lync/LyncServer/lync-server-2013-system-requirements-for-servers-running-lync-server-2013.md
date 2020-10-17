@@ -12,12 +12,12 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0affd2d951d437a930bc7f210e0878e2978f8731
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 2d25be2132fdaba58024ba58081656b830ea9fe4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497335"
 ---
 # <a name="system-requirements-for-servers-running-lync-server-2013"></a>Lync Server 2013을 실행 하는 서버의 시스템 요구 사항
 
@@ -84,7 +84,7 @@ Standard Edition 서버 또는 Enterprise Edition 프런트 엔드 서버에 운
 
 
 > [!NOTE]
-> Lync Server 2013이 Windows Server 2012 r 2에서 작동 하도록 하려면 Windows Server에서 레지스트리 키의 값을 변경 해야 할 수 있습니다. 이 변경 내용은 인증서가 올바르게 작동 하 고 클라이언트에서 Sba (survivable Branch 기기에 등록 하는 데 필요할 수 있습니다. 자세한 내용은를 참조 <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>하세요.
+> Lync Server 2013이 Windows Server 2012 r 2에서 작동 하도록 하려면 Windows Server에서 레지스트리 키의 값을 변경 해야 할 수 있습니다. 이 변경 내용은 인증서가 올바르게 작동 하 고 클라이언트에서 Sba (survivable Branch 기기에 등록 하는 데 필요할 수 있습니다. 자세한 내용은를 참조 <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A> 하세요.
 
 
 
@@ -118,7 +118,7 @@ Lync Server 2013를 사용 하려면 Lync Server 토폴로지에서 작업을 �
 
 
 > [!NOTE]
-> Windows Server&nbsp;2008&nbsp;R2 SP1에서는 Microsoft .net Framework 4.5을 설치 하기 전에 windows PowerShell 명령줄 인터페이스 3.0를 설치할 수 없습니다.
+> Windows Server &nbsp; 2008 &nbsp; R2 SP1에서는 Microsoft .net Framework 4.5을 설치 하기 전에 windows PowerShell 명령줄 인터페이스 3.0를 설치할 수 없습니다.
 
 
 

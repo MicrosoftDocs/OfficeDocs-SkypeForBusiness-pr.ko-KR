@@ -12,20 +12,22 @@ ms:contentKeyID: 48185548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f27eeac11006eab2209bb5491d991a677e3a2887
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6aa7dce34aea04c851608f67d1412c1c3da4069
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218084"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498175"
 ---
+# <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>Lync Server 2013에서 SIP 트렁크 서비스 공급자 위치 관리
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>Lync Server 2013에서 SIP 트렁크 서비스 공급자 위치 관리
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42218084"
 
 _**마지막으로 수정 된 항목:** 2012-10-02_
 
-네트워크 내의 클라이언트를 자동으로 찾도록 Lync Server를 구성 하려면 위치 정보 서비스 데이터베이스를 네트워크 와이어 맵 매핑 및 게시 하거나, 해당 위치를 게시할 수 있는 외부 데이터베이스에 연결 해야 합니다. 매핑. 이 프로세스의 일부로, E9-1-1 서비스 공급자를 통해 구/군/시 주소를 확인해야 합니다. 자세한 내용은 배포 설명서에서 [Lync Server 2013의 Configure the location database](lync-server-2013-configure-the-location-database.md) 을 참조 하십시오.
+네트워크 내의 클라이언트를 자동으로 찾도록 Lync Server를 구성 하려면 위치 정보 서비스 데이터베이스를 네트워크 와이어 맵 매핑 및 게시 하거나 이미 올바른 매핑이 포함 된 외부 데이터베이스에 연결 해야 합니다. 이 프로세스의 일부로, E9-1-1 서비스 공급자를 통해 구/군/시 주소를 확인해야 합니다. 자세한 내용은 배포 설명서에서 [Lync Server 2013의 Configure the location database](lync-server-2013-configure-the-location-database.md) 을 참조 하십시오.
 
 위치 정보 서비스 데이터베이스를 건물의 구/군/시 주소와 특정 주소로 구성된 ERL(비상 응답 위치)로 채울 수 있습니다. 건물 내에서 특정 위치에 해당 하는 위치 정보 서비스 **위치** 필드의 최대 길이는 20 자입니다 (공백 포함). 이 제한 길이 내에서 다음을 포함합니다.
 
   - 119 발신자 위치를 식별하는 알기 쉬운 이름으로 비상 응답자가 구/군/시 주소에 도착하자 마자 특정 위치를 찾을 수 있도록 도와줍니다. 이 위치 이름에는 건물 번호, 층, 윙 지정자, 호수 등이 포함될 수 있습니다. 직원만 알고 있는 별칭은 가급적 사용하지 마십시오. 이러한 이름은 비상 응답자를 잘못된 위치로 이동시킬 수 있습니다.
 
-  - Lync 클라이언트가 정확한 위치를 선택했는지 사용자가 쉽게 알 수 있도록 하는 위치 식별자입니다. Lync 클라이언트가 헤더에서 검색된 **Location** 및 **City** 필드를 자동으로 연결하여 표시합니다. 건물의 주소를 각 위치 식별자 (예: "1 층 \<거리 번호\>")로 추가 하는 것이 좋습니다. 번지를 사용하지 않을 경우 "1층"과 같은 일반 위치 식별자를 도시의 모든 건물에 적용할 수 있습니다.
+  - Lync 클라이언트가 정확한 위치를 선택했는지 사용자가 쉽게 알 수 있도록 하는 위치 식별자입니다. Lync 클라이언트가 헤더에서 검색된 **Location** 및 **City** 필드를 자동으로 연결하여 표시합니다. 각 위치 식별자 (예: "1 층")에 건물의 주소를 추가 하는 것이 좋습니다 \<street number\> . 번지를 사용하지 않을 경우 "1층"과 같은 일반 위치 식별자를 도시의 모든 건물에 적용할 수 있습니다.
 
   - 위치가 무선 액세스 지점에 의해 결정되기 때문에 정확하지 위치가 아니라 대략적인 위치인 경우 Near(예: "1층 1234 근거리")라는 단어를 추가할 수 있습니다.
 
@@ -73,7 +75,7 @@ _**마지막으로 수정 된 항목:** 2012-10-02_
   - **위치 매핑이 이미 포함된 타사 데이터베이스가 있습니까?**  
     Lync Server의 보조 위치 정보 서비스 옵션을 사용 하 여 타사 데이터베이스에 연결 하는 방법으로 오프 라인 플랫폼을 사용 하 여 위치를 그룹화 하 고 관리할 수 있습니다. 이 방법을 사용하면 위치를 네트워크 식별자에게 연결할 수 있을 뿐만 아니라 사용자에게도 연결할 수 있습니다. 즉, 위치 정보 서비스는 보조 위치 정보 서비스에서 시작 하는 여러 주소를 Lync Server 클라이언트에 반환할 수 있습니다. 그러면 사용자는 가장 적합한 위치를 선택할 수 있습니다.
     
-    위치 정보 서비스와 통합 하려면 타사 데이터베이스가 Lync Server 위치 요청/응답 스키마를 따라야 합니다. 자세한 내용은에서\[\] <https://go.microsoft.com/fwlink/p/?linkid=213819>"E911WS: 웹 서비스 for E911 지원 프로토콜 사양"을 참조 하세요. 보조 위치 정보 서비스를 배포 하는 방법에 대 한 자세한 내용은 배포 설명서에서 [Lync Server 2013의 구성 a 보조 위치 정보 서비스](lync-server-2013-configure-a-secondary-location-information-service.md) 를 참조 하십시오.
+    위치 정보 서비스와 통합 하려면 타사 데이터베이스가 Lync Server 위치 요청/응답 스키마를 따라야 합니다. 자세한 내용은 \[ 에서 "E911WS \] : 웹 서비스 For E911 지원 프로토콜 사양"을 참조 <https://go.microsoft.com/fwlink/p/?linkid=213819> 하세요. 보조 위치 정보 서비스를 배포 하는 방법에 대 한 자세한 내용은 배포 설명서에서 [Lync Server 2013의 구성 a 보조 위치 정보 서비스](lync-server-2013-configure-a-secondary-location-information-service.md) 를 참조 하십시오.
 
 위치 데이터베이스를 채우는 방법에 대 한 자세한 내용은 배포 설명서의 [Configure the location database In Lync Server 2013](lync-server-2013-configure-the-location-database.md) 을 참조 하십시오.
 

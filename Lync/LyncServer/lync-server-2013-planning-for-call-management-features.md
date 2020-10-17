@@ -12,20 +12,22 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c40a101d383686c6178c153a40ac0c6b5b26f9a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7ddf45fbeda6aa16c30ee1ff79536658c8d598f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202164"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497775"
 ---
+# <a name="planning-for-call-management-features-in-lync-server-2013"></a>Lync Server 2013의 통화 관리 기능 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-management-features-in-lync-server-2013"></a>Lync Server 2013의 통화 관리 기능 계획
+
 
 </div>
 
@@ -54,7 +56,7 @@ Enterprise Voice 통화 관리 기능은 수신 전화를 라우팅하고 받는
 
   - **응답 그룹**: 헌트 그룹 또는 IVR (대화형 음성 응답) 질문과 대답을 사용 하 여 수신 전화를 에이전트 그룹으로 라우팅합니다.
 
-  - **알림:**    지정 되지 않은 번호에 대 한 통화에 대해 메시지를 재생 하거나, 통화를 다른 곳으로 라우트 하거나 두 가지를 모두 수행 합니다.
+  - **공지 사항:**     지정 되지 않은 번호에 대 한 통화에 대해 메시지를 재생 하거나, 통화를 다른 곳으로 라우트 하거나 두 가지를 모두 수행 합니다.
 
 Enterprise Voice를 배포하려는 경우에는 이러한 통화 관리 기능 중 일부 또는 모든 기능을 구현할 수 있습니다.
 

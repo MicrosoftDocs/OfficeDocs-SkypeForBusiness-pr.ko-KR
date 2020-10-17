@@ -12,20 +12,22 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7424d0c002e5b14335a6d0256fc72a3beff733cc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 196b3dacec792097a4760ef134ead91f267a53d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187481"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499315"
 ---
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Lync Server 2013의 인증서 요약-자동 검색
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Lync Server 2013의 인증서 요약-자동 검색
+
 
 </div>
 
@@ -41,9 +43,9 @@ Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 �
 
 역방향 프록시에서 주체 대체 이름 목록을 사용할지 여부에 대 한 결정은 포트 80 또는 포트 443에 자동 검색 서비스를 게시할지 여부에 따라 달라 집니다.
 
-  - **포트 80**   에 게시 자동 검색 서비스에 대 한 초기 쿼리가 포트 80를 통해 수행 되는 경우 인증서 변경이 필요 하지 않습니다. Lync를 실행 하는 모바일 장치는 외부에서 포트 80의 역방향 프록시에 액세스 한 다음 내부적으로 포트 8080의 디렉터 또는 프런트 엔드 서버에 브리지 되기 때문입니다. 자세한 내용은 [Lync Server 2013에서 모바일 기능에 대 한](lync-server-2013-technical-requirements-for-mobility.md)"포트 80을 사용 하 여 초기 자동 검색 프로세스" 섹션을 참조 하십시오.
+  - **포트 80**     에 게시 됨 포트 80을 통해 자동 검색 서비스에 대 한 초기 쿼리를 수행 하는 경우에는 인증서를 변경할 필요가 없습니다. Lync를 실행 하는 모바일 장치는 외부에서 포트 80의 역방향 프록시에 액세스 한 다음 내부적으로 포트 8080의 디렉터 또는 프런트 엔드 서버에 브리지 되기 때문입니다. 자세한 내용은 [Lync Server 2013에서 모바일 기능에 대 한](lync-server-2013-technical-requirements-for-mobility.md)"포트 80을 사용 하 여 초기 자동 검색 프로세스" 섹션을 참조 하십시오.
 
-  - **포트 443**   에 게시 외부 웹 서비스 게시 규칙에서 사용 하는 인증서의 주체 대체 이름 목록에는 *lyncdiscover가 포함\< 되어야 합니다. 조직\> * 내의 각 SIP 도메인에 대 한 microsoft.rtc.management.xds.sipdomain object 항목
+  - **포트 443**     에 게시 됨 외부 웹 서비스 게시 규칙에서 사용 하는 인증서의 주체 대체 이름 목록에는 *lyncdiscover \<sipdomain\> * 가 포함 되어야 합니다. 조직 내의 각 SIP 도메인에 대 한 항목입니다.
     
     <div>
     
@@ -60,7 +62,7 @@ Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 �
 
 
 > [!NOTE]  
-> Lync Server 2013 인프라에서 내부 CA (인증 기관)에서 발급 된 내부 인증서를 사용 하는 경우 무선으로 연결 되는 모바일 장치를 지원 하려면 내부 CA에서 루트 인증서 체인을 설치 해야 함 모바일 장치에서 또는 Lync Server 2013 인프라의 공용 인증서로 변경 해야 합니다.
+> Lync Server 2013 인프라에서 내부 CA (인증 기관)에서 발급 된 내부 인증서를 사용 하 고 무선으로 연결 되는 모바일 장치를 지원 하려는 경우에는 내부 CA의 루트 인증서 체인을 모바일 장치에 설치 해야 하거나 Lync Server 2013 인프라의 공용 인증서로 변경 해야 합니다.
 
 
 
@@ -86,11 +88,11 @@ Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 �
 <tbody>
 <tr class="odd">
 <td><p>내부 자동 검색 서비스 URL</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;내부 도메인 이름&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; 내부 도메인 이름&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>외부 자동 검색 서비스 URL</p></td>
-<td><p>SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>SAN = lyncdiscover &lt; microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +102,7 @@ Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 �
 
 
 > [!NOTE]  
-> 새 SAN 항목을 사용 하 여 새로 업데이트 된 인증서를 기본 인증서에 할당 합니다. 또는 SAN = *를 사용할 수 있습니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt;
+> 새 SAN 항목을 사용 하 여 새로 업데이트 된 인증서를 기본 인증서에 할당 합니다. 또는 SAN = *를 사용할 수 있습니다. &lt; microsoft.rtc.management.xds.sipdomain object &gt;
 
 
 
@@ -122,11 +124,11 @@ Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 �
 <tbody>
 <tr class="odd">
 <td><p>내부 자동 검색 서비스 URL</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;내부 도메인 이름&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; 내부 도메인 이름&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>외부 자동 검색 서비스 URL</p></td>
-<td><p>SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>SAN = lyncdiscover &lt; microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,7 +138,7 @@ Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 �
 
 
 > [!NOTE]  
-> 새 SAN 항목을 사용 하 여 새로 업데이트 된 인증서를 기본 인증서에 할당 합니다. 또는 SAN = *를 사용할 수 있습니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt;
+> 새 SAN 항목을 사용 하 여 새로 업데이트 된 인증서를 기본 인증서에 할당 합니다. 또는 SAN = *를 사용할 수 있습니다. &lt; microsoft.rtc.management.xds.sipdomain object&gt;
 
 
 
@@ -158,7 +160,7 @@ Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 �
 <tbody>
 <tr class="odd">
 <td><p>외부 자동 검색 서비스 URL</p></td>
-<td><p>SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>SAN = lyncdiscover &lt; microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 </tr>
 </tbody>
 </table>

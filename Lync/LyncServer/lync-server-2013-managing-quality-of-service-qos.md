@@ -13,20 +13,22 @@ ms:contentKeyID: 48185049
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13d96132357e1981214961f136cf5365cf74907a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0bb634a7e4f27693e982e403ad97d32ca2d95bf0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185571"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497935"
 ---
+# <a name="managing-quality-of-service-qos-in-lync-server-2013"></a>Lync Server 2013에서 QoS (서비스 품질) 관리
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-quality-of-service-qos-in-lync-server-2013"></a>Lync Server 2013에서 QoS (서비스 품질) 관리
+
 
 </div>
 
@@ -74,7 +76,7 @@ Lync Server 2013는 서비스 품질에 대 한 완전 한 지원을 제공 하�
 
 
 > [!NOTE]  
-> Microsoft Windows Server 2012 또는 Windows Server 2012 R2를 사용 하는 경우 해당 플랫폼에서 서비스 품질을 관리 하는 데 사용할 수 있는 새로운 Windows PowerShell cmdlet 집합에 관심이 있을 수 있습니다. 자세한 내용은 Windows PowerShell의 네트워크 품질 Cmdlet을 참조 [https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps](https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps)하세요.
+> Microsoft Windows Server 2012 또는 Windows Server 2012 R2를 사용 하는 경우 해당 플랫폼에서 서비스 품질을 관리 하는 데 사용할 수 있는 새로운 Windows PowerShell cmdlet 집합에 관심이 있을 수 있습니다. 자세한 내용은 Windows PowerShell의 네트워크 품질 Cmdlet을 참조 [https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps](https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps) 하세요.
 
 
 

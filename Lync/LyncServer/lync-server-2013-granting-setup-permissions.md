@@ -12,20 +12,22 @@ ms:contentKeyID: 48183491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 647590131702addb8363b42aaa7d49e299b63a47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f557fdda658650fd2cb3dd5a4a080600be023ef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187670"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498865"
 ---
+# <a name="granting-setup-permissions-in-lync-server-2013"></a>Lync Server 2013에서 설치 권한 부여
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="granting-setup-permissions-in-lync-server-2013"></a>Lync Server 2013에서 설치 권한 부여
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**마지막으로 수정 된 항목:** 2012-08-27_
 
 2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  를 실행합니다.
+3.  을 실행합니다.
     
         Grant-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside > [-Domain <Domain FQDN>]
     
@@ -69,7 +71,7 @@ _**마지막으로 수정 된 항목:** 2012-08-27_
 
 2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  를 실행합니다.
+3.  을 실행합니다.
     
         Test-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside> [-Domain <Domain FQDN>]
     
@@ -87,7 +89,7 @@ _**마지막으로 수정 된 항목:** 2012-08-27_
 
 2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  를 실행합니다.
+3.  을 실행합니다.
     
         Revoke-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside > [-Domain <Domain FQDN>]
     

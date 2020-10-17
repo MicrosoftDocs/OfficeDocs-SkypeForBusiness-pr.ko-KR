@@ -12,20 +12,22 @@ ms:contentKeyID: 48185180
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5c95399aa7cccf28ec0c236c2882b6f44794e80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e16d4edfb53511712c58cb41510559fcf69cfa9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197091"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498575"
 ---
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Lync Server 2013에서 로컬 구성 저장소 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Lync Server 2013에서 로컬 구성 저장소 설치
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 배포 마법사를 사용 하 여 모든 작업을 수행 하려면
 
 
 > [!IMPORTANT]  
-> 이전에이 서버에서 Lync Server 2013 설치 프로그램을 실행 하지 않은 경우에는 Lync Server 2013를 설치할 드라이브와 경로를 입력 하 라는 메시지가 표시 됩니다. 이렇게 하면 조직에서 필요로 하는 경우 또는 공간에 문제가 있는 경우 시스템 드라이브 이외의 드라이브에 설치할 수 있습니다. 설치 대화 상자에서 Lync Server 파일의 설치 위치 경로를 사용 가능한 새 드라이브로 변경 하면 됩니다. OCSCore를 포함 하 여이 경로에 설치 파일을 설치 하는 경우 나머지 Lync Server 2013 파일에도 배포 됩니다.
+> 이전에이 서버에서 Lync Server 2013 설치 프로그램을 실행 하지 않은 경우에는 Lync Server 2013를 설치할 드라이브와 경로를 입력 하 라는 메시지가 표시 됩니다. 이렇게 하면 조직에서 필요로 하는 경우 또는 공간에 문제가 있는 경우 시스템 드라이브 이외의 드라이브에 설치할 수 있습니다. 설치 대화 상자에서 Lync Server 파일의 설치 위치 경로를 사용 가능한 새 드라이브로 변경 하면 됩니다. OCSCore.msi를 포함 하 여이 경로에 설치 파일을 설치 하는 경우 나머지 Lync Server 2013 파일에도 배포 됩니다.
 
 
 
@@ -55,7 +57,7 @@ Lync Server 배포 마법사를 사용 하 여 모든 작업을 수행 하려면
 
 ## <a name="to-install-the-local-configuration-store"></a>로컬 구성 저장소를 설치하려면
 
-1.  설치 \\미디어에서 설치\\프로그램 amd64\\setup.exe를 찾은 다음 **확인**을 클릭 합니다.
+1.  설치 미디어에서 \\ 설치 프로그램 \\ amd64Setup.exe로 이동한 \\ 후 **확인**을 클릭 합니다.
 
 2.  Microsoft Visual c # 2012 재배포 가능 패키지를 설치할지 묻는 메시지가 표시 되 면 **예**를 클릭 합니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20679f910ead1f1b7cab45fde658b38233c644f3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e69cb3c8638cb11ababac73d0f8fe4025bbda24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202194"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498885"
 ---
+# <a name="granting-permissions-in-lync-server-2013"></a>Lync Server 2013에서 사용 권한 부여
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="granting-permissions-in-lync-server-2013"></a>Lync Server 2013에서 사용 권한 부여
+
 
 </div>
 

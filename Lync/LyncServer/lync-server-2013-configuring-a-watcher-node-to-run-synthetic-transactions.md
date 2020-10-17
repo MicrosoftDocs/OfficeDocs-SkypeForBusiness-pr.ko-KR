@@ -12,20 +12,22 @@ ms:contentKeyID: 48185578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 605a859717736785df2d726720c2984162ff830d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9514099b3981dafdbb34911d0cedd249221c5621
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207994"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499105"
 ---
+# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013에서 가상 트랜잭션을 실행 하도록 감시자 노드 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013에서 가상 트랜잭션을 실행 하도록 감시자 노드 구성
+
 
 </div>
 
@@ -74,7 +76,7 @@ System Center 에이전트 파일을 설치한 후에는 다음에 감시자 노
 </table>
 
 
-또한 방화벽에 MonitoringHost 및 debug.exe 둘 다에 대 한 인바운드 규칙이 있는지도 확인 해야 합니다. 이러한 프로세스가 방화벽에 의해 차단 되 면 가상 트랜잭션이 504 (서버 시간 제한) 오류로 인해 실패 합니다.
+또한 방화벽에 MonitoringHost.exe 및 PowerShell.exe에 대 한 인바운드 규칙이 있는지도 확인 해야 합니다. 이러한 프로세스가 방화벽에 의해 차단 되 면 가상 트랜잭션이 504 (서버 시간 제한) 오류로 인해 실패 합니다.
 
 </div>
 

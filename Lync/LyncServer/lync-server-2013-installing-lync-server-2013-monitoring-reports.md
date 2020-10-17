@@ -12,20 +12,22 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1a2694aaef4845b776b09f6c57fec65ca77b77b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ad28507f5b0da1758c2e29b9907bd017f922f692
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191671"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498545"
 ---
+# <a name="installing-lync-server-2013-monitoring-reports"></a>Lync Server 2013 모니터링 보고서 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-server-2013-monitoring-reports"></a>Lync Server 2013 모니터링 보고서 설치
+
 
 </div>
 
@@ -43,7 +45,7 @@ Microsoft Lync Server 2013 모니터링 보고서에서는 조직에서 수행 �
 
 
 > [!NOTE]  
-> 모니터링 데이터베이스를 설치한 컴퓨터에 모니터링 보고서를 설치 하는 것이 좋습니다. 이렇게 하면 보고서 액세스 권한을 할당 하는 프로세스가 간단해 집니다. 모니터링 저장소를 호스트 하는 컴퓨터에 모니터링 보고서를 설치 하면 한 컴퓨터의 데이터베이스가 상호 작용할 수 있도록 하는 권한을 구성할 필요가 없습니다. 두 번째 컴퓨터에서 실행 되는 Reporting Services를 사용 합니다.
+> 모니터링 데이터베이스를 설치한 컴퓨터에 모니터링 보고서를 설치 하는 것이 좋습니다. 이렇게 하면 보고서 액세스 권한을 할당 하는 프로세스가 간단해 집니다. 모니터링 저장소를 호스트 하는 컴퓨터에 모니터링 보고서를 설치 하는 것은 한 컴퓨터의 데이터베이스가 두 번째 컴퓨터에서 실행 되는 Reporting Services와 상호 작용할 수 있도록 하는 권한을 구성 하지 않아도 된다는 것을 의미 합니다.
 
 
 
@@ -83,15 +85,15 @@ Lync server 모니터링 보고서는 다음과 같은 두 가지 방법으로 �
 
 3.  모니터링 보고서 배포 마법사의 **모니터링 데이터베이스 지정** 페이지에서 모니터링 저장소를 호스트 하는 컴퓨터의 정규화 된 도메인 이름이 **모니터링 데이터베이스** 드롭다운 목록에 표시 되는지 확인 합니다. 모니터링 저장소가 여러 개인 경우에는 드롭다운 목록에서 적절 한 서버를 선택 해야 합니다. **Sql Server Reporting Services (SSRS) 인스턴스** 상자에 올바른 SQL Server 인스턴스가 나타나는지 확인 하 고 (예: **atl-sql-001.litwareinc.com/archinst**) **Next (다음**)를 클릭 합니다.
 
-4.  **자격 증명 지정** 페이지의 **사용자 이름** 상자에 모니터링 보고서에 액세스할 때 사용할 계정의 도메인 이름과 사용자 이름을 입력 합니다 (예: **\\litwareinc kenmyer**). 이 형식 (도메인\\사용자 이름)을 사용 하지 않는 경우에는 오류가 발생 합니다.
+4.  **자격 증명 지정** 페이지의 **사용자 이름** 상자에 모니터링 보고서에 액세스할 때 사용할 계정의 도메인 이름과 사용자 이름을 입력 합니다 (예: **litwareinc \\ kenmyer**). 이 형식 (도메인 사용자 이름)을 사용 하지 않는 경우에 \\ 는 오류가 발생 합니다.
     
     **암호** 상자에 사용자 계정 암호를 입력 하 고 **다음**을 클릭 합니다. 이 계정에는 특별 한 권한이 필요 하지 않음을 유의 하세요. 설치가 완료 되 면 계정에 필요한 로그온 및 데이터베이스 권한이 자동으로 부여 됩니다.
 
-5.  읽기 전용 **그룹 지정** 페이지에서 사용자 그룹 상자의 SQL Server Reporting Services에 대 한 읽기 전용 액세스 권한이 부여 될 보안 그룹의 이름을 입력 합니다. 예를 들어 읽기 전용 관리자에 게 보고서에 대 한 액세스 권한을 부여 하려면 **RTCUniversalReadOnlyAdmins**를 입력 합니다. **다음**을 클릭합니다.
+5.  **Read-Only 그룹 지정** 페이지에서 사용자 그룹 상자의 SQL Server Reporting Services에 대 한 읽기 전용 액세스 권한이 부여 될 보안 그룹의 이름을 입력 합니다. 예를 들어 읽기 전용 관리자에 게 보고서에 대 한 액세스 권한을 부여 하려면 **RTCUniversalReadOnlyAdmins**를 입력 합니다. **다음**을 클릭합니다.
 
 6.  **명령 실행** 페이지에서 **마침**을 클릭합니다.
 
-스크립트 DeployReports를 실행 하 여 Lync Server 관리 셸에서 모니터링 보고서를 설치할 수도 있습니다. ps1; 이 Windows PowerShell 스크립트는 \\설치\\ReportingSetup 폴더의 Lync Server 설치 미디어에서 찾을 수 있습니다. DeployReports를 사용 하 여 모니터링 보고서를 설치 하려면 관리 셸 프롬프트에 다음과 같은 명령을 입력 합니다.
+스크립트 DeployReports.ps1를 실행 하 여 Lync Server 관리 셸에서 모니터링 보고서를 설치할 수도 있습니다. 이 Windows PowerShell 스크립트는 \\ 설치 ReportingSetup 폴더의 Lync Server 설치 미디어에서 찾을 수 있습니다 \\ . DeployReports.ps1를 사용 하 여 모니터링 보고서를 설치 하려면 관리 셸 프롬프트에 다음과 같은 명령을 입력 합니다.
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 
@@ -146,7 +148,7 @@ Lync server 모니터링 보고서는 다음과 같은 두 가지 방법으로 �
 </table>
 
 
-모니터링 보고서를 설치한 후에는 Get-csreportingconfiguration cmdlet을 사용 하 여 이러한 보고서에 액세스 하는 데 사용 되는 URL을 구성 해야 합니다. 이 작업은 다음 Windows PowerShell 명령을 실행 하 여 Lync Server 관리 셸에서 수행할 수 있습니다. 보고 URL을 구성 하는 경우 HTTPS 프로토콜을 사용 하는 것이 좋지만 반드시 필요한 것은 아닙니다.
+모니터링 보고서를 설치한 후에는 Set-CsReportingConfiguration cmdlet을 사용 하 여 이러한 보고서에 액세스 하는 데 사용 되는 URL을 구성 해야 합니다. 이 작업은 다음 Windows PowerShell 명령을 실행 하 여 Lync Server 관리 셸에서 수행할 수 있습니다. 보고 URL을 구성 하는 경우 HTTPS 프로토콜을 사용 하는 것이 좋지만 반드시 필요한 것은 아닙니다.
 
     Set-CsReportingConfiguration -Identity "MonitoringDatabase:atl-sql-001.litwareinc.com" -ReportingURL "https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST"
 

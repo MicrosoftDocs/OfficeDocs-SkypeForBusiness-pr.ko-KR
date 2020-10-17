@@ -12,20 +12,22 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78032a23fce6bb210ecec6eb828178aabddf9b52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 649d085253610002e7623872012a400ac0a1f079
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498945"
 ---
+# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>Lync Server 2013의 대화형 음성 응답 통화 흐름 디자인
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>Lync Server 2013의 대화형 음성 응답 통화 흐름 디자인
+
 
 </div>
 
@@ -65,7 +67,7 @@ IVR 질문과 발신자의 응답은 통화를 수락한 응답 에이전트에 
 
 ## <a name="working-with-speech-technologies"></a>음성 기술 사용
 
-음성 인식과 텍스트 음성 변환 같은 음성 기술은 사용자 환경을 개선 하 고 사람들이 보다 자연스럽 고 효과적으로 정보에 액세스할 수 있도록 합니다. 그러나 음성 엔진에서 지정 된 텍스트 또는 사용자 음성 응답을 올바르게 인식 하지 못하는 경우가 있을 수 있습니다. 예를 들어 "\#" 기호는 텍스트 음성 변환 엔진에서 단어 "number"로 변환 됩니다. 이 문제는 다음과 같은 경우 완화할 수 있습니다.
+음성 인식과 텍스트 음성 변환 같은 음성 기술은 사용자 환경을 개선 하 고 사람들이 보다 자연스럽 고 효과적으로 정보에 액세스할 수 있도록 합니다. 그러나 음성 엔진에서 지정 된 텍스트 또는 사용자 음성 응답을 올바르게 인식 하지 못하는 경우가 있을 수 있습니다. 예를 들어 " \# " 기호는 텍스트 음성 변환 엔진에서 단어 "number"로 변환 됩니다. 이 문제는 다음과 같은 경우 완화할 수 있습니다.
 
   - 음성 엔진은 발신자에 게 질문에 대 한 답변을 5 회 제공 합니다. 발신자가 질문에 대 한 답변을 잘못 했거나 (즉, 대답이 지정 된 응답에 해당 하지 않음) 대답을 제공 하지 않으면 발신자가 질문에 답변할 수 있는 또 다른 기회를 얻습니다. 발신자가 연결을 끊기 전에 질문에 대 한 답변을 5 회 수행 합니다. 각 발신자 오류가 발생 한 후 사용자 지정 된 메시지를 재생 하도록 IVR을 구성할 수 있습니다. 이 질문은 매번 반복 됩니다.
 
@@ -73,7 +75,7 @@ IVR 질문과 발신자의 응답은 통화를 수락한 응답 에이전트에 
 
   - 음성 및 DTMF 응답이 모두 있는 질문 인 경우 DTMF 응답 대신 개념을 나타내는 단어를 사용 하 여 음성 응답을 구성 합니다. 예를 들어 "다음을 누르거나 말하기"를 사용 하는 대신 "다음을 누르세요."를 사용 하는 것이 좋습니다.
 
-  - IVR을 디자인 한 후에는 워크플로를 호출 하 고 메시지를 듣고 음성을 사용 하는 각 음성 안내에 응답 하 고 IVR이 예상 대로 작동 하는지 확인 합니다. 그런 다음 IVR을 수정 하 여 모든 해석 문제를 해결할 수 있습니다. 앞의 예제를 따라 \# 키를 참조 해야 하는 경우에는 \# 기호 대신 키 이름을 사용 하도록 IVR 프롬프트를 다시 작성할 수 있습니다. 예를 들어 "sales와 대화 하려면 파운드 키를 누릅니다."
+  - IVR을 디자인 한 후에는 워크플로를 호출 하 고 메시지를 듣고 음성을 사용 하는 각 음성 안내에 응답 하 고 IVR이 예상 대로 작동 하는지 확인 합니다. 그런 다음 IVR을 수정 하 여 모든 해석 문제를 해결할 수 있습니다. 앞의 예제를 따라 키를 참조 해야 하는 경우 \# 에는 기호 대신 키 이름을 사용 하도록 IVR 프롬프트를 다시 작성할 수 있습니다 \# . 예를 들어 "sales와 대화 하려면 파운드 키를 누릅니다."
 
 </div>
 

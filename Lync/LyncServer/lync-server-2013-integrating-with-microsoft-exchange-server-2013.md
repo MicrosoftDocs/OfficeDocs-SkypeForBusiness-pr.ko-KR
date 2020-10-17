@@ -12,20 +12,22 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 489c5023ab995700762fa5e19ba361df1b49a6b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 917ffc5103617c04a989ec91043a68fcce9f0320
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498525"
 ---
+# <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013과 Microsoft Exchange Server 2013 통합
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013과 Microsoft Exchange Server 2013 통합
+
 
 </div>
 
@@ -51,7 +53,7 @@ Exchange 및 Lync Server에는 통합 및 호환성에 대 한 긴 기록이 있
 
 이러한 새로운 기능을 사용 하려면 Lync Server 2013 및 Exchange 2013이 모두 필요 합니다. 이외에도 이러한 새로운 기능을 활용 하려는 사용자에 게는 Lync Server 2013 및 Exchange 2013에 대 한 계정이 있어야 하며 최신 버전의 클라이언트 소프트웨어 (예: Lync 2013)를 사용 해야 합니다. 예를 들어 Lync Server 2010에 있는 사용자는 통합 연락처 저장소를 사용할 수 없습니다. 마찬가지로, 고해상도 사진을 Lync 2010에 표시할 수 없습니다.
 
-이 문서에서는 Lync Server 2013 및 Exchange 2013을 통합 하는 방법에 대 한 정보를 제공 합니다. 보관 통합 및 통합 연락처 저장소와 같은 새로운 기능을 사용 하는 방법에 대 한 단계별 정보를 포함 합니다. 이 문서에서는 이러한 두 제품의 초기 설정 및 구성에 대해 설명 합니다. Lync Server 2013 배포에 대 한 자세한 내용은의 Lync Server 2013 Tech Center [https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127)를 참조 하세요. Exchange 2013 배포에 대 한 자세한 내용은의 Exchange 2013 기술 센터 [https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528)를 참조 하세요.
+이 문서에서는 Lync Server 2013 및 Exchange 2013을 통합 하는 방법에 대 한 정보를 제공 합니다. 보관 통합 및 통합 연락처 저장소와 같은 새로운 기능을 사용 하는 방법에 대 한 단계별 정보를 포함 합니다. 이 문서에서는 이러한 두 제품의 초기 설정 및 구성에 대해 설명 합니다. Lync Server 2013 배포에 대 한 자세한 내용은의 Lync Server 2013 Tech Center를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127) . Exchange 2013 배포에 대 한 자세한 내용은의 Exchange 2013 기술 센터를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528) .
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85c43cb727b83b06d6427e2bf3b6027d78dc025e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d17715718d66530686009fdc4b2b9e2acebfceaf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199341"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498905"
 ---
+# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>Lync Server 2013에서 조직 구성 단위 사용 권한 부여
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>Lync Server 2013에서 조직 구성 단위 사용 권한 부여
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**마지막으로 수정 된 항목:** 2012-05-14_
 
 2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  를 실행합니다.
+3.  을 실행합니다.
     
         Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2012-05-14_
 
 2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  를 실행합니다.
+3.  을 실행합니다.
     
         Test-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
@@ -83,7 +85,7 @@ _**마지막으로 수정 된 항목:** 2012-05-14_
 
 2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  를 실행합니다.
+3.  을 실행합니다.
     
         Revoke-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     

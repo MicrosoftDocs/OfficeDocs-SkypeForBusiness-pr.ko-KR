@@ -12,20 +12,22 @@ ms:contentKeyID: 48184028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5496c49db96f1fdd137acf9a4a90ee1acc08914f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dea60cb716d02ad20173826bb0b31d044a6c820a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204244"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498755"
 ---
+# <a name="install-lync-server-2013-prerequisite-software"></a>Lync Server 2013 필수 구성 요소 소프트웨어 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-2013-prerequisite-software"></a>Lync Server 2013 필수 구성 요소 소프트웨어 설치
+
 
 </div>
 

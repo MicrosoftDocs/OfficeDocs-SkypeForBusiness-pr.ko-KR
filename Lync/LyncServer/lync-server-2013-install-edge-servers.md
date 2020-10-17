@@ -12,20 +12,22 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af95403b8a1fc383d8d6065f26a55242e735a51b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 81a17eacb30c62f64185508afef3842408238ba4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498745"
 ---
+# <a name="install-edge-servers-for-lync-server-2013"></a>Lync Server 2013에 대 한에 지 서버 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-edge-servers-for-lync-server-2013"></a>Lync Server 2013에 대 한에 지 서버 설치
+
 
 </div>
 
@@ -47,7 +49,7 @@ Lync server 배포 마법사를 사용 하 여에 지 서버에 Lync Server 2013
 
 1.  로컬 Administrators 그룹의 구성원 또는 그에 해당하는 사용자 권한이 있는 계정으로 에지 서버를 설치할 컴퓨터에 로그온합니다.
 
-2.  토폴로지 작성기를 사용 하 여 만들고 내보낸 후 외부 미디어에 복사 된 토폴로지 구성 파일을에 지 서버 (예: 토폴로지 구성 파일을 복사한 USB 드라이브에 액세스)에서 사용할 수 있는지 확인 한 다음 확인을 클릭 합니다. 파일을 복사한 네트워크 공유에 대 한 액세스를 사용 합니다.
+2.  토폴로지 작성기를 사용 하 여 만든 다음 외부 미디어로 내보내거나 복사한 토폴로지 구성 파일을에 지 서버 (예: 토폴로지 구성 파일을 복사한 USB 드라이브에 액세스 하거나 파일을 복사한 네트워크 공유에 대 한 액세스를 확인)에서 사용할 수 있는지 확인 합니다.
 
 3.  배포 마법사를 시작합니다.
     

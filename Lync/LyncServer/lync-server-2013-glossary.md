@@ -12,20 +12,22 @@ ms:contentKeyID: 48183930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d40e0c94733ca26768e2f72475ed0d66e37f20c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a241f67f524569a4e8bf0d61e2cb667dd018e0a8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199411"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498895"
 ---
+# <a name="glossary-for-lync-server-2013"></a>Lync Server 2013 용어집
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="glossary-for-lync-server-2013"></a>Lync Server 2013 용어집
+
 
 </div>
 
@@ -180,7 +182,7 @@ _**마지막으로 수정 된 항목:** 2014-02-14_
 </tr>
 <tr class="even">
 <td><p>긴 메시지</p></td>
-<td><p>영구 대화방에서 문자 제한을 초과 하는 메시지입니다. 문자 제한이 초과 되 면 메시지에 &quot;긴 메시지로 표시 됩니다.&quot;</p></td>
+<td><p>영구 대화방에서 문자 제한을 초과 하는 메시지입니다. 문자 제한이 초과 되 면 메시지에 &quot; 긴 메시지로 표시 됩니다.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2013 VDI 플러그 인</p></td>

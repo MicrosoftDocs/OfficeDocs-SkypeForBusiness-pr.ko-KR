@@ -12,20 +12,22 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8726d471b1db95aa67cca58a77452d9faa43df4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 041bba31a4c8225a4326e3409475210a46261a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200011"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498775"
 ---
+# <a name="group-membership-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 그룹 구성원 자격 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-membership-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 그룹 구성원 자격 요구 사항
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2012-10-05_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Setup.exe – Lync</strong> Server 2013 관리 도구 설치를 시작 하는 실행 파일입니다.</p></td>
+<td><p><strong>Setup.exe</strong> – Lync Server 2013 관리 도구 설치를 시작 하는 실행 파일입니다.</p></td>
 <td><p>실행 파일이 실행되는 컴퓨터에서 로컬 Administrators 그룹의 구성원. Active Directory 도메인 서비스에서 정보를 읽을 수 있도록 Domain Users 그룹의 구성원 이어야 합니다. 로컬 컴퓨터에서 필수 MSI 패키지를 자동으로 설치하려면 Program Files 디렉터리와 같은 보호된 로컬 컴퓨터 리소스와 Local Machine 하이브와 같은 보호된 레지스트리를 읽고 쓸 수 있는 권한이 필요하므로 이 사용 권한 수준이 필요합니다.</p>
 <div>
 
@@ -87,7 +89,7 @@ _**마지막으로 수정 된 항목:** 2012-10-05_
 <td><p>특정 관리 작업이 할당된 CsAdministrator 그룹의 구성원 또는 다른 RBAC(역할 기반 액세스 제어) 역할의 구성원. Lync Server 2013 제어판은 Lync Server 2013 관리 셸 cmdlet을 실행 하 여 구성을 변경 하는 방법을 구현 합니다. 미리 정의 된 역할 및 cmdlet 구성원의 실행을 허용 하는 목록은 계획 설명서의 <a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어에 대 한 계획</a> 을 참조 하십시오.</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync server <strong>2013 모듈이 로드</strong> 된 명령줄 관리 도구인 lync server 2013의 관리와 관련 된 cmdlet이 포함 된 PowerShell .exe</p></td>
+<td><p>Lync <strong>server 2013 모듈이 로드 된PowerShell.exe</strong> -lync server 2013 관리와 관련 된 cmdlet이 있는 명령줄 관리 도구입니다.</p></td>
 <td><p>특정 cmdlet이 할당된 CsAdministrator 그룹의 구성원 또는 다른 RBAC 역할의 구성원. 미리 정의 된 역할 및 cmdlet 구성원의 실행을 허용 하는 목록은 계획 설명서의 <a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어에 대 한 계획</a> 을 참조 하십시오.</p>
 <p>또는 cmdlet에 따라 다음 그룹 중 하나 이상의 구성원</p>
 <ul>

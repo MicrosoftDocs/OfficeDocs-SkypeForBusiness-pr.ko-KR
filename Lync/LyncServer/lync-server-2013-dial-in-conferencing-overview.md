@@ -12,20 +12,22 @@ ms:contentKeyID: 48184436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d088d07e5d49a916835da581af81ff7def581b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d91c455c1e4bfbb2b4fe7af827265a789c9ace68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214307"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498935"
 ---
+# <a name="overview-of-dial-in-conferencing-in-lync-server-2013"></a>Lync Server 2013의 전화 접속 회의 개요
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-dial-in-conferencing-in-lync-server-2013"></a>Lync Server 2013의 전화 접속 회의 개요
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214307"
 
 _**마지막으로 수정 된 항목:** 2012-09-30_
 
-조직에서 office 외부에 있거나 컴퓨터에 액세스할 수 없는 경우 Lync Server 2013 온-프레미스 전화 회의에 참가 해야 하는 사용자가 있는 경우에는 공개 전환 전화를 사용 하 여 회의에 참가 하는 데 도움이 되도록 다이얼 인 회의를 배포할 수 있습니다. 네트워크 (PSTN) 전화
+조직에서 office 외부에 있거나 컴퓨터에 대 한 액세스 권한이 없는 경우 Lync Server 2013 온-프레미스 전화 회의에 참가 해야 하는 사용자가 있는 경우, 공중 전화망 (PSTN) 전화를 사용 하 여 회의에 참가할 수 있도록 다이얼 인 회의를 배포할 수 있습니다.
 
 전화 접속 회의는 Lync Server 2013 회의를 배포할 때 구성할 수 있는 선택적 기능입니다. 전화 접속 회의에서 Enterprise Voice에 사용 되는 것과 동일한 Lync Server 2013 구성 요소 중 일부를 사용 하지만 Enterprise Voice를 배포 하지 않더라도 전화 접속 회의를 배포할 수 있습니다.
 

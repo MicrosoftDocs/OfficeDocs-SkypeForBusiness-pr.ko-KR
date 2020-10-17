@@ -12,20 +12,22 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3172b2db7197cfec13249bdff4490128d8b664a1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cc7fd5613b39fd17724c9b62152f9d9401fbc072
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197111"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498595"
 ---
+# <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013에서 중재 서버용 파일 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013에서 중재 서버용 파일 설치
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**마지막으로 수정 된 항목:** 2012-08-06_
 
 
 > [!NOTE]  
-> 이 항목에서는 <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">lync server 2013의 토폴로지 작성기에서 중재 서버 정의</A> 및 배포 설명서의 <A href="lync-server-2013-publish-the-topology.md">lync server 2013에서 토폴로지 게시</A> 에 설명 된 대로 독립 실행형 중재 서버 풀을 이미 정의 하 고 게시 했으며, 중재 서버 풀의 컴퓨터가 <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Lync server 2013에서 enterprise Voice 용 소프트웨어 필수</A> 구성 요소에 설명 된 필수 구성 요소를 충족 하는지 확인 했으며, <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">엔터프라이즈에 대 한 보안 및 구성 선행 조건 Lync Server 2013의 음성</A>
+> 이 항목에서는 배포 설명서에서 " <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">lync server 2013의 토폴로지 작성기에서 중재 서버 정의</A> 및 <A href="lync-server-2013-publish-the-topology.md">2013 토폴로지 게시</A> "에 설명 된 대로 독립 실행형 중재 서버 풀을 이미 정의 하 고 게시 했다고 가정 합니다. 그리고 중재 서버 풀의 컴퓨터가 lync server 2013에서 enterprise voice 용 <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">소프트웨어 필수 구성</A> 요소에 설명 된 필수 구성 요소를 충족 하는지 확인 한 후에는 lync server <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">2013의 기업 voice에 대 한 보안 및 구성 필수 구성 요소</A>를 설치 해야 합니다.
 
 
 
@@ -57,7 +59,7 @@ _**마지막으로 수정 된 항목:** 2012-08-06_
 
 ## <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>독립 실행형 중재 서버 풀 용 파일을 설치 하려면
 
-1.  설치 미디어에서 설치 미디어 \<\>**\\설치\\amd64\\setup.exe**를 마우스 오른쪽 단추로 클릭 하 고 **관리자 권한으로 실행**을 클릭 합니다.
+1.  설치 미디어에서 \<installation media\> ** \\ 설치 \\ amd64 \\Setup.exe**를 마우스 오른쪽 단추로 클릭 하 고 **관리자 권한으로 실행**을 클릭 합니다.
 
 2.  **설치 위치** 페이지에서 **확인**을 클릭 합니다.
 

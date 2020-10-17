@@ -12,20 +12,22 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 265febdc2a0b13833c1db04253430306edd2a952
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0a09f55bfb423e9b2288ea879da932ee637c1caa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221832"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499195"
 ---
+# <a name="clients-for-lync-server-2013"></a>Lync Server 2013용 클라이언트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="clients-for-lync-server-2013"></a>Lync Server 2013용 클라이언트
+
 
 </div>
 
@@ -97,7 +99,7 @@ Lync Windows 스토어 앱은 Windows 8.1, Windows 8 및 Windows RT에 맞게 �
 
 ## <a name="lync-2013-for-mobile-devices"></a>모바일 장치용 Lync 2013
 
-Lync 2013 모바일 앱에는 이제 연락처, 현재 상태 및 IM 기능 외에도 VoIP (voice over IP) 및 IP를 통한 비디오가 포함 됩니다. 모바일 사용자는 Wi-fi 또는 사용자의 셀룰러 데이터 연결을 사용 하 여 IM, 음성 통화 또는 비디오 통화를 통해 다른 사용자와 통신 하도록 선택할 수 있습니다. 일정 항목에서 모임 링크를 한 번 클릭 하면 모바일 사용자가 음성 및 비디오 회의에 참가할 수 있습니다. Lync 2013 모바일 앱에 대 한 자세한 내용은 [Lync Server 2013의 모바일 클라이언트 계획](lync-server-2013-planning-for-mobile-clients.md)을 참조 하세요.
+Lync 2013 모바일 앱에는 이제 연락처, 현재 상태 및 IM 기능 외에도 VoIP (voice over IP) 및 IP를 통한 비디오가 포함 됩니다. 모바일 사용자는 Wi-Fi 또는 셀룰러 데이터 연결을 사용 하 여 IM, 음성 통화 또는 비디오 통화를 통해 다른 사용자와 통신 하도록 선택할 수 있습니다. 일정 항목에서 모임 링크를 한 번 클릭 하면 모바일 사용자가 음성 및 비디오 회의에 참가할 수 있습니다. Lync 2013 모바일 앱에 대 한 자세한 내용은 [Lync Server 2013의 모바일 클라이언트 계획](lync-server-2013-planning-for-mobile-clients.md)을 참조 하세요.
 
 </div>
 

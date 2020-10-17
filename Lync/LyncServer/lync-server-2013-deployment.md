@@ -12,20 +12,22 @@ ms:contentKeyID: 48184687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e870fb22bc8d3e183192d7ec8e94a554878fb04
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b5fcba91b3017faff29ad8d1bcce20d51a32bd1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198181"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498985"
 ---
+# <a name="deployment-of-lync-server-2013"></a>Lync Server 2013 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-of-lync-server-2013"></a>Lync Server 2013 배포
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42198181"
 
 _**마지막으로 수정 된 항목:** 2012-10-18_
 
-Lync Server 2013 통신 소프트웨어를 배포 하려면 Active Directory 도메인 서비스 준비, 프런트 엔드 서버 및 기타 핵심 Lync Server 2013 내부 구성 요소 배포 및 추가 서버 역할 및 기능 배포를 포함 합니다. 외부 사용자 액세스 및 Enterprise Voice와 같은 조직에서 요구할 수 있습니다.
+Lync Server 2013 통신 소프트웨어를 배포 하려면 Active Directory 도메인 서비스 준비, 프런트 엔드 서버 및 기타 핵심 Lync Server 2013 내부 구성 요소를 배포한 다음 외부 사용자 액세스 및 Enterprise Voice와 같이 조직에서 요구할 수 있는 추가 서버 역할 및 기능을 배포 합니다.
 
 이 문서에서는 Lync Server 2013 배포를 위한 세 가지 시나리오에 대해 설명 합니다.
 

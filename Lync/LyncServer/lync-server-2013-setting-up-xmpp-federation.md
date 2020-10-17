@@ -12,20 +12,22 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e34e47eaa5cd4bf8ffc2fccbc2a8bcb3f4f2de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cb6b2904ee2a8883c492e570173e73bc001cc03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181951"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497525"
 ---
+# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Lync Server 2013에서 XMPP 페더레이션 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Lync Server 2013에서 XMPP 페더레이션 설정
+
 
 </div>
 
@@ -70,7 +72,7 @@ _**마지막으로 수정 된 항목:** 2012-12-03_
 
 9.  지연 또는 즉시 요청 페이지에서 지금 요청을 준비하고 나중에 보냅니다 확인란을 선택합니다.
 
-10. 인증서 요청 파일 페이지에서 요청을 저장할 파일의 전체 경로와 파일 이름을 입력 합니다 (예를 들어, c:\\cert\_외부\_에 있는 .cer).
+10. 인증서 요청 파일 페이지에서 요청을 저장할 파일의 전체 경로와 파일 이름을 입력 합니다 (예를 들어, c: \\ cert 외부에 있는 \_ \_ .cer).
 
 11. 대체 인증서 템플릿 지정 페이지에서 기본 WebServer 템플릿이 아닌 다른 템플릿을 사용하려면 선택한 인증 기관에 대체 인증서 템플릿 사용 확인란을 선택합니다.
 
@@ -88,7 +90,7 @@ _**마지막으로 수정 된 항목:** 2012-12-03_
 
 15. 주체 이름/주체 대체 이름 페이지에 마법사에서 자동으로 채울 정보가 표시됩니다. 추가 주체 대체 이름이 필요한 경우 다음 두 단계에서 지정합니다.
 
-16. 주체 대체 이름 (San)에 대 한 SIP 도메인 설정 페이지에서 sip를 추가 하려면 도메인 확인란을 선택 합니다. \<주체\> 대체 이름 목록에 microsoft.rtc.management.xds.sipdomain object 항목을 입력 합니다.
+16. 주체 대체 이름 (San)에 대 한 SIP 도메인 설정 페이지에서 sip를 추가 하려면 도메인 확인란을 선택 합니다.\<sipdomain\> 주체 대체 이름 목록에 항목을 입력 합니다.
 
 17. 추가 주체 대체 이름 구성 페이지에서 필요한 추가 주체 대체 이름을 지정합니다.
     
@@ -119,7 +121,7 @@ _**마지막으로 수정 된 항목:** 2012-12-03_
         Start-CsWindowsService
        ```
 
-23. XMPP 페더레이션을 사용 하도록 DNS를 구성 하려면 외부 DNS:\_xmpp-server에 다음 SRV 레코드를 추가 합니다. \_tcp를 \<도메인 이름\> SRV 레코드는에 지 서버의 액세스에 지 FQDN을 확인 하며 포트 값은 5269입니다. 또한 액세스에 지 서버의 IP 주소를 가리키는 ' A ' 호스트 레코드 (예: xmpp.contoso.com)를 구성 합니다.
+23. XMPP 페더레이션을 사용 하도록 DNS를 구성 하려면 외부 DNS: \_ xmpp-server에 다음 SRV 레코드를 추가 합니다. \_ rdp-tcp.\<domain name\> SRV 레코드는 포트 값이 5269 인에 지 서버의 액세스에 지 FQDN을 확인 합니다. 또한 액세스에 지 서버의 IP 주소를 가리키는 ' A ' 호스트 레코드 (예: xmpp.contoso.com)를 구성 합니다.
     
     <div class=" ">
     
@@ -164,7 +166,7 @@ _**마지막으로 수정 된 항목:** 2012-12-03_
         Netstat -ano | findstr 23456
        ```
     
-    **Netstat – ano** 명령은 네트워크 통계 명령, netstat가 모든 연결 및 수신 대기 포트, 주소 및 포트를 숫자 형식으로 표시 하 고 소유 프로세스 ID가 각 연결과 연결 되도록 하는 매개 변수 **-ano** 요청입니다. 문자 **|** 는 다음 command, **findstr**또는 find 문자열에 대 한 파이프를 정의 합니다. Findstr에 매개 변수로 전달 되는 번호 5269 및 23456는 findstr이 문자열 5269 및 23456에 대 한 netstat의 출력을 검색 하도록 지시 합니다. XMPP가 올바르게 구성 되어 있으면 명령 결과에에 지 서버의 외부 (포트 5269) 및 내부 (포트 23456) 인터페이스를 통해 수신 대기 및 설정 된 연결이 생성 됩니다.
+    **Netstat – ano** 명령은 네트워크 통계 명령, netstat가 모든 연결 및 수신 대기 포트, 주소 및 포트를 숫자 형식으로 표시 하 고 소유 프로세스 ID가 각 연결과 연결 되도록 하는 매개 변수 **-ano** 요청입니다. 문자는 **|** 다음 command, **findstr**또는 find 문자열에 대 한 파이프를 정의 합니다. Findstr에 매개 변수로 전달 되는 번호 5269 및 23456는 findstr이 문자열 5269 및 23456에 대 한 netstat의 출력을 검색 하도록 지시 합니다. XMPP가 올바르게 구성 되어 있으면 명령 결과에에 지 서버의 외부 (포트 5269) 및 내부 (포트 23456) 인터페이스를 통해 수신 대기 및 설정 된 연결이 생성 됩니다.
     
     명령이 5269 및 23456에서 설정되었거나 수신 대기 중인 포트를 반환하지 않으면 다음을 확인합니다.
 

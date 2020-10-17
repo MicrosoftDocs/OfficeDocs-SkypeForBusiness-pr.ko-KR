@@ -12,20 +12,22 @@ ms:contentKeyID: 48184901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d82d0ff27745021e7868e3cd6c8c12eed9e0e495
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f30248bb39d24e5fd24deb5d4ee2afb938ef7c24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195061"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497315"
 ---
+# <a name="tblsystemrevision-in-lync-server-2013"></a>Lync Server 2013의 tblSystemRevision
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblsystemrevision-in-lync-server-2013"></a>Lync Server 2013의 tblSystemRevision
+
 
 </div>
 
@@ -50,7 +52,7 @@ tblSystemRevision에는 여러 관리자 클라이언트 간에 일관성을 유
 <thead>
 <tr class="header">
 <th>열</th>
-<th>형식</th>
+<th>유형</th>
 <th>설명</th>
 </tr>
 </thead>
