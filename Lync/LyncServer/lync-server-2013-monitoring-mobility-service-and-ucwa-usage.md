@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Mobility Service 및 c;에 대 한 모니터링 사용'
+description: 'Lync Server 2013: 모바일 서비스 및 c 및 WA 사용을 모니터링 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2248bbd2eea4bb9204a98b5c5805ef196cbf2015
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6575941faf904e46cd1f66d7226a16c88e8cbaa3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531801"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548114"
 ---
-# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a><span data-ttu-id="4ec08-102">Lync Server 2013에서 모바일 서비스 및 c u에 대 한 모니터링 사용</span><span class="sxs-lookup"><span data-stu-id="4ec08-102">Monitoring Mobility Service and UCWA usage in Lync Server 2013</span></span>
+# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a><span data-ttu-id="da558-103">Lync Server 2013에서 모바일 서비스 및 c u에 대 한 모니터링 사용</span><span class="sxs-lookup"><span data-stu-id="da558-103">Monitoring Mobility Service and UCWA usage in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,53 +38,53 @@ ms.locfileid: "48531801"
 
 <span> </span>
 
-<span data-ttu-id="4ec08-103">_**마지막으로 수정 된 항목:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="4ec08-103">_**Topic Last Modified:** 2013-02-14_</span></span>
+<span data-ttu-id="da558-104">_**마지막으로 수정 된 항목:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="da558-104">_**Topic Last Modified:** 2013-02-14_</span></span>
 
-<span data-ttu-id="4ec08-104">지속적으로 Lync Server Mobility Service (Mcx) 및 통합 커뮤니케이션 웹 API (c)에서 사용 하는 CPU 및 메모리를 모니터링 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-104">On an ongoing basis, you should monitor the CPU and memory that is used by the Lync Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA).</span></span> <span data-ttu-id="4ec08-105">사용 현황을 모니터링 하려면 다음을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-105">To monitor usage, you can use the following:</span></span>
+<span data-ttu-id="da558-105">지속적으로 Lync Server Mobility Service (Mcx) 및 통합 커뮤니케이션 웹 API (c)에서 사용 하는 CPU 및 메모리를 모니터링 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="da558-105">On an ongoing basis, you should monitor the CPU and memory that is used by the Lync Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA).</span></span> <span data-ttu-id="da558-106">사용 현황을 모니터링 하려면 다음을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="da558-106">To monitor usage, you can use the following:</span></span>
 
-<span data-ttu-id="4ec08-106">**통합 커뮤니케이션 웹 API (c):**</span><span class="sxs-lookup"><span data-stu-id="4ec08-106">**For Unified Communications Web API (UCWA):**</span></span>
+<span data-ttu-id="da558-107">**통합 커뮤니케이션 웹 API (c):**</span><span class="sxs-lookup"><span data-stu-id="da558-107">**For Unified Communications Web API (UCWA):**</span></span>
 
-  - <span data-ttu-id="4ec08-107">IIS (인터넷 정보 서비스) 관리자의 **Lyncucwa** 작업자 프로세스입니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-107">The **LyncUcwa** worker process in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="4ec08-108">**작업자 프로세스** 창에서 **CPU %** 및 **전용 바이트(KB)**(메모리) 열을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-108">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
+  - <span data-ttu-id="da558-108">IIS (인터넷 정보 서비스) 관리자의 **Lyncucwa** 작업자 프로세스입니다.</span><span class="sxs-lookup"><span data-stu-id="da558-108">The **LyncUcwa** worker process in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="da558-109">**작업자 프로세스** 창에서 **CPU %** 및 **전용 바이트(KB)**(메모리) 열을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="da558-109">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
 
-  - <span data-ttu-id="4ec08-109">**CPU** 및 **프로세서** 성능 카운터</span><span class="sxs-lookup"><span data-stu-id="4ec08-109">The **CPU** and **Processor** performance counters.</span></span>
+  - <span data-ttu-id="da558-110">**CPU** 및 **프로세서** 성능 카운터</span><span class="sxs-lookup"><span data-stu-id="da558-110">The **CPU** and **Processor** performance counters.</span></span>
 
-<span data-ttu-id="4ec08-110">대부분의 배포의 경우에는 평균적으로 15% 미만 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-110">For most deployments, UCWA CPU usage should be below 15 percent on average.</span></span> <span data-ttu-id="4ec08-111">메모리 사용량은 [Lync server 2013의 서버 메모리 용량 제한 모니터링](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)에 설명 된 제한 내에 포함 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-111">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
+<span data-ttu-id="da558-111">대부분의 배포의 경우에는 평균적으로 15% 미만 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="da558-111">For most deployments, UCWA CPU usage should be below 15 percent on average.</span></span> <span data-ttu-id="da558-112">메모리 사용량은 [Lync server 2013의 서버 메모리 용량 제한 모니터링](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)에 설명 된 제한 내에 포함 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="da558-112">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
 
-<span data-ttu-id="4ec08-112">CPU 및 메모리 사용 카운터 외에, 다음 성능 카운터를 사용 하 여 서버가 요청에 따라 오버 로드 되는 시기를 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-112">In addition to CPU and memory usage counters, you can use the following performance counters to help determine when a server is overloaded with requests:</span></span>
+<span data-ttu-id="da558-113">CPU 및 메모리 사용 카운터 외에, 다음 성능 카운터를 사용 하 여 서버가 요청에 따라 오버 로드 되는 시기를 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="da558-113">In addition to CPU and memory usage counters, you can use the following performance counters to help determine when a server is overloaded with requests:</span></span>
 
-  - <span data-ttu-id="4ec08-113">**LS: 웹-제한 및 인증 \\ WEB – 처리 중인 총 요청**수로, 서버에서 보류 중인 웹 요청 수가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-113">**LS:WEB – Throttling and Authentication\\WEB – Total Requests in Processing**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="4ec08-114">이 카운터가 1만에 도달 하면 후속 요청이 실패 하 고 "503-서비스를 사용할 수 없습니다." 라는 오류 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-114">When this counter reaches 10,000, subsequent requests will fail, with the error message, "503 - Service Unavailable."</span></span>
+  - <span data-ttu-id="da558-114">**LS: 웹-제한 및 인증 \\ WEB – 처리 중인 총 요청**수로, 서버에서 보류 중인 웹 요청 수가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="da558-114">**LS:WEB – Throttling and Authentication\\WEB – Total Requests in Processing**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="da558-115">이 카운터가 1만에 도달 하면 후속 요청이 실패 하 고 "503-서비스를 사용할 수 없습니다." 라는 오류 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="da558-115">When this counter reaches 10,000, subsequent requests will fail, with the error message, "503 - Service Unavailable."</span></span>
 
-  - <span data-ttu-id="4ec08-115">**ASP.NET \\ 대기 중인 요청** 수입니다 (항상 0 이어야 함).</span><span class="sxs-lookup"><span data-stu-id="4ec08-115">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="4ec08-116">이러한 값을 충족 하거나 초과 하는 경우에는 웹 서비스를 호스트 하는 컴퓨터에 대 한 올바른 CPU 크기 조정, 코어 수 및 메모리에 대 한 용량 계획을 다시 확인 하 고 계산 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-116">If you meet or exceed these values, you should revisit and re-compute your capacity planning for the correct sizing of CPU, number of cores and memory for the computers hosting the Web services.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="4ec08-117">**모바일 서비스 (Mcx)에 대해 다음을 수행 합니다.**</span><span class="sxs-lookup"><span data-stu-id="4ec08-117">**For the Mobility Service (Mcx):**</span></span>
-
-  - <span data-ttu-id="4ec08-118">IIS (인터넷 정보 서비스) 관리자의 **Csintmcxapppool** 및 **csextmcxapppool** 작업자 프로세스</span><span class="sxs-lookup"><span data-stu-id="4ec08-118">The **CSIntMcxAppPool** and **CSExtMcxAppPool** worker processes in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="4ec08-119">**작업자 프로세스** 창에서 **CPU %** 및 **전용 바이트(KB)**(메모리) 열을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-119">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
-
-  - <span data-ttu-id="4ec08-120">**CPU** 및 **프로세서** 성능 카운터</span><span class="sxs-lookup"><span data-stu-id="4ec08-120">The **CPU** and **Processor** performance counters.</span></span>
-
-<span data-ttu-id="4ec08-121">대부분의 배포에서 이동성 서비스 CPU 사용량은 평균적으로 15% 미만 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-121">For most deployments, Mobility Service CPU usage should be below 15 percent, on average.</span></span> <span data-ttu-id="4ec08-122">메모리 사용량은 [Lync server 2013의 서버 메모리 용량 제한 모니터링](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)에 설명 된 제한 내에 포함 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-122">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
-
-<span data-ttu-id="4ec08-123">CPU 및 메모리 사용량 카운터 외에 다음 ASP.NET 성능 카운터를 사용하여 서버가 너무 많은 요청으로 인해 오버로드되었는지를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-123">In addition to CPU and memory usage counters, you can use the following ASP.NET performance counters to help determine when a server is overloaded with requests:</span></span>
-
-  - <span data-ttu-id="4ec08-124">\*\*ASP.NET v 2.0.50727 \\ \*\*서버에서 보류 중인 웹 요청 수를 나타내는 Current 요청</span><span class="sxs-lookup"><span data-stu-id="4ec08-124">**ASP.NET v2.0.50727\\Requests Current**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="4ec08-125">이 카운터가 5000에 도달 하면 "503-서비스를 사용할 수 없습니다." 라는 오류 메시지가 표시 되 고 후속 요청이 실패 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-125">When this counter reaches 5,000, subsequent requests will fail with the error message, "503 - Service Unavailable."</span></span>
-
-  - <span data-ttu-id="4ec08-126">**ASP.NET \\ 대기 중인 요청** 수입니다 (항상 0 이어야 함).</span><span class="sxs-lookup"><span data-stu-id="4ec08-126">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
+  - <span data-ttu-id="da558-116">**ASP.NET \\ 대기 중인 요청** 수입니다 (항상 0 이어야 함).</span><span class="sxs-lookup"><span data-stu-id="da558-116">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="4ec08-127">이러한 값을 충족 하거나 초과 하는 경우에는 웹 서비스를 호스트 하는 컴퓨터의 정확한 CPU 크기 조정, 코어 수 및 메모리에 대 한 용량 계획을 다시 계산 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec08-127">If you meet or exceed these values, you should revisit and recompute your capacity planning for the correct sizing of CPU, number of cores, and memory for the computers hosting the Web services.</span></span>
+> <span data-ttu-id="da558-117">이러한 값을 충족 하거나 초과 하는 경우에는 웹 서비스를 호스트 하는 컴퓨터에 대 한 올바른 CPU 크기 조정, 코어 수 및 메모리에 대 한 용량 계획을 다시 확인 하 고 계산 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="da558-117">If you meet or exceed these values, you should revisit and re-compute your capacity planning for the correct sizing of CPU, number of cores and memory for the computers hosting the Web services.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="da558-118">**모바일 서비스 (Mcx)에 대해 다음을 수행 합니다.**</span><span class="sxs-lookup"><span data-stu-id="da558-118">**For the Mobility Service (Mcx):**</span></span>
+
+  - <span data-ttu-id="da558-119">IIS (인터넷 정보 서비스) 관리자의 **Csintmcxapppool** 및 **csextmcxapppool** 작업자 프로세스</span><span class="sxs-lookup"><span data-stu-id="da558-119">The **CSIntMcxAppPool** and **CSExtMcxAppPool** worker processes in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="da558-120">**작업자 프로세스** 창에서 **CPU %** 및 **전용 바이트(KB)**(메모리) 열을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="da558-120">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
+
+  - <span data-ttu-id="da558-121">**CPU** 및 **프로세서** 성능 카운터</span><span class="sxs-lookup"><span data-stu-id="da558-121">The **CPU** and **Processor** performance counters.</span></span>
+
+<span data-ttu-id="da558-122">대부분의 배포에서 이동성 서비스 CPU 사용량은 평균적으로 15% 미만 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="da558-122">For most deployments, Mobility Service CPU usage should be below 15 percent, on average.</span></span> <span data-ttu-id="da558-123">메모리 사용량은 [Lync server 2013의 서버 메모리 용량 제한 모니터링](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)에 설명 된 제한 내에 포함 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="da558-123">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
+
+<span data-ttu-id="da558-124">CPU 및 메모리 사용량 카운터 외에 다음 ASP.NET 성능 카운터를 사용하여 서버가 너무 많은 요청으로 인해 오버로드되었는지를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="da558-124">In addition to CPU and memory usage counters, you can use the following ASP.NET performance counters to help determine when a server is overloaded with requests:</span></span>
+
+  - <span data-ttu-id="da558-125">\*\*ASP.NET v 2.0.50727 \\ \*\*서버에서 보류 중인 웹 요청 수를 나타내는 Current 요청</span><span class="sxs-lookup"><span data-stu-id="da558-125">**ASP.NET v2.0.50727\\Requests Current**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="da558-126">이 카운터가 5000에 도달 하면 "503-서비스를 사용할 수 없습니다." 라는 오류 메시지가 표시 되 고 후속 요청이 실패 합니다.</span><span class="sxs-lookup"><span data-stu-id="da558-126">When this counter reaches 5,000, subsequent requests will fail with the error message, "503 - Service Unavailable."</span></span>
+
+  - <span data-ttu-id="da558-127">**ASP.NET \\ 대기 중인 요청** 수입니다 (항상 0 이어야 함).</span><span class="sxs-lookup"><span data-stu-id="da558-127">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="da558-128">이러한 값을 충족 하거나 초과 하는 경우에는 웹 서비스를 호스트 하는 컴퓨터의 정확한 CPU 크기 조정, 코어 수 및 메모리에 대 한 용량 계획을 다시 계산 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="da558-128">If you meet or exceed these values, you should revisit and recompute your capacity planning for the correct sizing of CPU, number of cores, and memory for the computers hosting the Web services.</span></span>
 
 
 
@@ -91,10 +92,10 @@ ms.locfileid: "48531801"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4ec08-128">참고 항목</span><span class="sxs-lookup"><span data-stu-id="4ec08-128">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="da558-129">참고 항목</span><span class="sxs-lookup"><span data-stu-id="da558-129">See Also</span></span>
 
 
-[<span data-ttu-id="4ec08-129">Lync Server 2013의 서버 메모리 용량 제한 모니터링</span><span class="sxs-lookup"><span data-stu-id="4ec08-129">Monitoring for server memory capacity limits in Lync Server 2013</span></span>](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)  
+[<span data-ttu-id="da558-130">Lync Server 2013의 서버 메모리 용량 제한 모니터링</span><span class="sxs-lookup"><span data-stu-id="da558-130">Monitoring for server memory capacity limits in Lync Server 2013</span></span>](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)  
   
 
 </div>

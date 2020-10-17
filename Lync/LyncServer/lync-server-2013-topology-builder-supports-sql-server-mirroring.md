@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 토폴로지 작성기를 통한 SQL Server 미러링 지원
+description: Lync Server 2013 토폴로지 작성기는 SQL Server 미러링을 지원 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3e6f32d50c0b568da48a343454070a79b675fa6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3849ea4d88aac70cee49b9103ca6df3c0d84a93a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530425"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549094"
 ---
-# <a name="topology-builder-supports-sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="bb806-102">Lync Server 2013에서 토폴로지 작성기를 통한 SQL Server 미러링 지원</span><span class="sxs-lookup"><span data-stu-id="bb806-102">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>
+# <a name="topology-builder-supports-sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="deb4c-103">Lync Server 2013에서 토폴로지 작성기를 통한 SQL Server 미러링 지원</span><span class="sxs-lookup"><span data-stu-id="deb4c-103">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48530425"
 
 <span> </span>
 
-<span data-ttu-id="bb806-103">_**마지막으로 수정 된 항목:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="bb806-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="deb4c-104">_**마지막으로 수정 된 항목:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="deb4c-104">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="bb806-104">Lync Server 2013에서는 고가용성을 위해 백 엔드 서버의 미러링을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb806-104">Lync Server 2013 supports mirroring of your Back End Servers for high availability.</span></span> <span data-ttu-id="bb806-105">토폴로지 작성기를 사용 하 여 미러링 모니터 서버 설정을 포함 하 여 미러링을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb806-105">You can use Topology Builder to set up mirroring, including setting up a witness.</span></span>
+<span data-ttu-id="deb4c-105">Lync Server 2013에서는 고가용성을 위해 백 엔드 서버의 미러링을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="deb4c-105">Lync Server 2013 supports mirroring of your Back End Servers for high availability.</span></span> <span data-ttu-id="deb4c-106">토폴로지 작성기를 사용 하 여 미러링 모니터 서버 설정을 포함 하 여 미러링을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="deb4c-106">You can use Topology Builder to set up mirroring, including setting up a witness.</span></span>
 
 </div>
 

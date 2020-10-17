@@ -1,5 +1,6 @@
 ---
 title: 회의 디렉터리 이동
+description: 회의 디렉터리를 이동 합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d53e3183d781f527373ffcfb8573da9fbb52d41f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3a91c30c0bedc84c684a096f5ea482fa911dc798
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500305"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549734"
 ---
-# <a name="move-conference-directories"></a><span data-ttu-id="8115f-102">회의 디렉터리 이동</span><span class="sxs-lookup"><span data-stu-id="8115f-102">Move conference directories</span></span>
+# <a name="move-conference-directories"></a><span data-ttu-id="26210-103">회의 디렉터리 이동</span><span class="sxs-lookup"><span data-stu-id="26210-103">Move conference directories</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,31 +38,31 @@ ms.locfileid: "48500305"
 
 <span> </span>
 
-<span data-ttu-id="8115f-103">_**마지막으로 수정 된 항목:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="8115f-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="26210-104">_**마지막으로 수정 된 항목:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="26210-104">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="8115f-104">풀을 해제 하기 전에 Office Communications Server 2007 R2 풀의 각 전화 회의 디렉터리에 대해 다음 절차를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8115f-104">Before decommissioning a pool, you need to perform the following procedure for each conference directory in your Office Communications Server 2007 R2 pool.</span></span>
+<span data-ttu-id="26210-105">풀을 해제 하기 전에 Office Communications Server 2007 R2 풀의 각 전화 회의 디렉터리에 대해 다음 절차를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="26210-105">Before decommissioning a pool, you need to perform the following procedure for each conference directory in your Office Communications Server 2007 R2 pool.</span></span>
 
 <div>
 
-## <a name="to-move-a-conference-directory-to-lync-server-2013"></a><span data-ttu-id="8115f-105">전화 회의 디렉터리를 Lync Server 2013로 이동 하려면</span><span class="sxs-lookup"><span data-stu-id="8115f-105">To move a conference directory to Lync Server 2013</span></span>
+## <a name="to-move-a-conference-directory-to-lync-server-2013"></a><span data-ttu-id="26210-106">전화 회의 디렉터리를 Lync Server 2013로 이동 하려면</span><span class="sxs-lookup"><span data-stu-id="26210-106">To move a conference directory to Lync Server 2013</span></span>
 
-1.  <span data-ttu-id="8115f-106">Lync Server 관리 셸을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="8115f-106">Open the Lync Server Management Shell.</span></span>
+1.  <span data-ttu-id="26210-107">Lync Server 관리 셸을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="26210-107">Open the Lync Server Management Shell.</span></span>
 
-2.  <span data-ttu-id="8115f-107">조직에서 회의 디렉터리의 ID를 가져오려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="8115f-107">To obtain the identity of the conference directories in your organization, run the following commands:</span></span>
+2.  <span data-ttu-id="26210-108">조직에서 회의 디렉터리의 ID를 가져오려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="26210-108">To obtain the identity of the conference directories in your organization, run the following commands:</span></span>
     
         Get-CsConferenceDirectory
     
-    <span data-ttu-id="8115f-p101">이 cmdlet은 조직에 있는 모든 회의 디렉터리를 반환하므로 해제하려는 풀로만 결과를 제한해야 할 수 있습니다. 예를 들어 FQDN(정규화된 도메인 이름)이 pool01.contoso.net인 풀을 해제하려는 경우 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="8115f-p101">Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission. For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:</span></span>
+    <span data-ttu-id="26210-p101">이 cmdlet은 조직에 있는 모든 회의 디렉터리를 반환하므로 해제하려는 풀로만 결과를 제한해야 할 수 있습니다. 예를 들어 FQDN(정규화된 도메인 이름)이 pool01.contoso.net인 풀을 해제하려는 경우 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="26210-p101">Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission. For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:</span></span>
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
-    <span data-ttu-id="8115f-110">이 cmdlet은 서비스 ID에 FQDN pool01.contoso.net이 포함된 모든 회의 디렉터리를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="8115f-110">This cmdlet returns all the conference directories where service ID contains the FQDN pool01.contoso.net.</span></span>
+    <span data-ttu-id="26210-111">이 cmdlet은 서비스 ID에 FQDN pool01.contoso.net이 포함된 모든 회의 디렉터리를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="26210-111">This cmdlet returns all the conference directories where service ID contains the FQDN pool01.contoso.net.</span></span>
 
-3.  <span data-ttu-id="8115f-111">회의 디렉터리를 이동하려면 풀의 각 회의 디렉터리에 대해 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="8115f-111">To move conference directories, run the following for each conference directory in the pool:</span></span>
+3.  <span data-ttu-id="26210-112">회의 디렉터리를 이동하려면 풀의 각 회의 디렉터리에 대해 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="26210-112">To move conference directories, run the following for each conference directory in the pool:</span></span>
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
-    <span data-ttu-id="8115f-112">예:</span><span class="sxs-lookup"><span data-stu-id="8115f-112">For example:</span></span>
+    <span data-ttu-id="26210-113">예:</span><span class="sxs-lookup"><span data-stu-id="26210-113">For example:</span></span>
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool pool02.contoso.net
 
@@ -69,13 +70,13 @@ ms.locfileid: "48500305"
 
 
 > [!NOTE]  
-> <span data-ttu-id="8115f-113">아래와 같은 오류가 발생할 수 있으며,이는 Lync Server 관리 셸에서 Active Directory에서 업데이트 된 권한 집합이 필요한 경우에 발생 합니다.</span><span class="sxs-lookup"><span data-stu-id="8115f-113">You may experience an error, shown below, that is caused by the Lync Server Management Shell requiring an updated set of permissions from Active Directory.</span></span> <span data-ttu-id="8115f-114">이 오류를 해결 하려면 현재 창을 닫고 새 Lync Server 관리 셸을 연 다음 명령을 다시 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="8115f-114">To resolve the error, closed the current window and open a new Lync Server Management Shell and run the command again.</span></span>
+> <span data-ttu-id="26210-114">아래와 같은 오류가 발생할 수 있으며,이는 Lync Server 관리 셸에서 Active Directory에서 업데이트 된 권한 집합이 필요한 경우에 발생 합니다.</span><span class="sxs-lookup"><span data-stu-id="26210-114">You may experience an error, shown below, that is caused by the Lync Server Management Shell requiring an updated set of permissions from Active Directory.</span></span> <span data-ttu-id="26210-115">이 오류를 해결 하려면 현재 창을 닫고 새 Lync Server 관리 셸을 연 다음 명령을 다시 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="26210-115">To resolve the error, closed the current window and open a new Lync Server Management Shell and run the command again.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="8115f-115">![이동-Get-csconferencedirectory 오류 출력](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-CsConferenceDirectory 오류 출력")</span><span class="sxs-lookup"><span data-stu-id="8115f-115">![Move-CsConferenceDirectory error output](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-CsConferenceDirectory error output")</span></span>
+<span data-ttu-id="26210-116">![이동-Get-csconferencedirectory 오류 출력](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-CsConferenceDirectory 오류 출력")</span><span class="sxs-lookup"><span data-stu-id="26210-116">![Move-CsConferenceDirectory error output](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-CsConferenceDirectory error output")</span></span>
 
 </div>
 
