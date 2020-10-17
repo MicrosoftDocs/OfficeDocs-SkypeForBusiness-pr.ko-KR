@@ -12,20 +12,22 @@ ms:contentKeyID: 48184690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd5f09d80aa86c9c0f692fbe0e744a445067e74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4edc22c1cfc46b032e679a9dc0718113bc6967bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197161"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526655"
 ---
+# <a name="importing-the-lync-server-2013-management-packs"></a>Lync Server 2013 관리 팩 가져오기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="importing-the-lync-server-2013-management-packs"></a>Lync Server 2013 관리 팩 가져오기
+
 
 </div>
 
@@ -37,20 +39,20 @@ ms.locfileid: "42197161"
 
 _**마지막으로 수정 된 항목:** 2012-10-22_
 
-System center Operations Manager에서 모니터링할 수 있는 항목 및 해당 항목을 모니터링 하는 방법 및 알림을 트리거하는 방법을 결정 하는 관리 팩을 설치 하 여 System Center Operations Manager의 기능을 확장할 수 있습니다. 한다고. Lync Server 2013에는 다음과 같은 기능을 제공 하는 2 개의 System Center Operations Manager 관리 팩이 포함 되어 있습니다.
+System center Operations Manager에서 모니터링할 수 있는 항목 및 해당 항목을 모니터링 하는 방법 및 알림을 트리거하거나 보고 하는 방법을 결정 하는 관리 팩을 설치 하 여 System Center Operations Manager의 기능을 확장할 수 있습니다. Lync Server 2013에는 다음과 같은 기능을 제공 하는 2 개의 System Center Operations Manager 관리 팩이 포함 되어 있습니다.
 
-  - 구성 요소 및 Microsoft.LS.2013.Monitoring.ComponentAndUser.mp (사용자 관리 팩)는 이벤트 로그에 기록 되 고, 성능 카운터에서 등록 되거나, CDR (통화 정보 기록) 또는 경력 품질 (QoE)에 기록 된 Lync Server 문제를 추적 합니다. 데이터베이스. 중요 한 문제의 경우 System Center Operations Manager를 구성 하 여 전자 메일, 인스턴트 메시지 또는 SMS (Short Message Service) 메시징을 통해 관리자에 게 즉시 알릴 수 있습니다. SMS는 모바일 장치 간에 문자 메시지를 전송하기 위해 사용되는 기술입니다.
+  - 구성 요소 및 Microsoft.LS.2013.Monitoring.ComponentAndUser.mp (사용자 관리 팩)는 이벤트 로그에 기록 되거나, 성능 카운터에 의해 등록 되거나, CDR (통화 정보 기록) 또는 QoE (품질) 데이터베이스에 기록 된 Lync Server 문제를 추적 합니다. 중요 한 문제의 경우 System Center Operations Manager를 구성 하 여 전자 메일, 인스턴트 메시지 또는 SMS (Short Message Service) 메시징을 통해 관리자에 게 즉시 알릴 수 있습니다. SMS는 모바일 장치 간에 문자 메시지를 전송하기 위해 사용되는 기술입니다.
     
     <div>
     
 
     > [!NOTE]  
-    > Operations Manager 알림을 구성 하는 방법에 대 한 자세한 내용은 TechNet 라이브러리의 구성 알림 <A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A>를 참조 하십시오.
+    > Operations Manager 알림을 구성 하는 방법에 대 한 자세한 내용은 TechNet 라이브러리의 구성 알림를 참조 하십시오 <A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A> .
 
     
     </div>
 
-  - Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp (Active Monitoring Management Pack)는 시스템에 로그인 하거나 인스턴트 메시지를 교환 하거나 공개 된 휴대폰에 전화를 거는 것과 같은 주요 Lync Server 구성 요소를 테스트 합니다. 전화 네트워크 (PSTN) 이러한 테스트는 Lync Server 가상 트랜잭션 cmdlet을 사용 하 여 수행 됩니다. 예를 들어 **Test-CsIM** cmdlet을 사용해서 테스트 사용자의 쌍 간에 IM(인스턴트 메시징) 대화를 시뮬레이션할 수 있습니다. 시뮬레이션된 메시징 대화가 실패하면 알림이 생성됩니다.
+  - Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp (Active Monitoring Management 팩)는 시스템에 로그인 하거나, 인스턴트 메시지를 교환 하거나, PSTN (공중 전화망)에 있는 전화를 호출 하는 등의 주요 Lync Server 구성 요소를 사전에 테스트 합니다. 이러한 테스트는 Lync Server 가상 트랜잭션 cmdlet을 사용 하 여 수행 됩니다. 예를 들어 **Test-CsIM** cmdlet을 사용해서 테스트 사용자의 쌍 간에 IM(인스턴트 메시징) 대화를 시뮬레이션할 수 있습니다. 시뮬레이션된 메시징 대화가 실패하면 알림이 생성됩니다.
 
 관리 팩을 가져와야 합니다. 관리 팩을 가져오지 않으면 Operations Manager를 사용 하 여 Lync Server 이벤트를 모니터링 하거나 Lync Server 가상 트랜잭션을 실행할 수 없습니다.
 
@@ -68,9 +70,9 @@ System center Operations Manager에서 모니터링할 수 있는 항목 및 해
 
 다음 도구 중 하나를 사용해서 관리 팩을 가져올 수 있습니다.
 
-  - **System Center Operations manager**   이 방법을 사용 하는 경우 Operations manager를 사용 하 여 Lync Server에 대 한 모니터링을 추가 합니다.
+  - **System Center Operations Manager**     이 방법을 사용 하는 경우 Operations Manager를 사용 하 여 Lync Server에 대 한 모니터링을 추가 합니다.
 
-  - **Operations manager shell**   operations manager 셸을 사용 하 여 직접 가져오거나 System Center Operations Manager 콘솔을 사용 하 여 관리 팩을 가져올 때 발생 하는 문제를 해결할 수 있습니다.
+  - **Operations Manager 셸**     Operations Manager 셸을 사용 하 여 직접 가져오거나, System Center Operations Manager 콘솔을 사용 하 여 관리 팩을 가져올 때 발생 하는 문제를 해결할 수 있습니다.
 
 <div>
 

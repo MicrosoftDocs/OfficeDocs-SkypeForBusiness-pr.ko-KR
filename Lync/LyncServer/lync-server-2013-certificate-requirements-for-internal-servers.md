@@ -12,20 +12,22 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38bd350a4b552d63b635f8ec5a25ed7803de4b55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c56554a26e5f64089a766300f375039409680578
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187570"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526245"
 ---
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013의 내부 서버에 대 한 인증서 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013의 내부 서버에 대 한 인증서 요구 사항
+
 
 </div>
 
@@ -49,11 +51,11 @@ Lync Server를 실행 중이 고 인증서가 필요한 내부 서버에는 Stan
 
 </div>
 
-내부 서버에는 내부 엔터프라이즈 CA(인증 기관)를 사용하는 것이 좋지만 공용 CA를 사용할 수도 있습니다. UC (통합 통신) 인증서에 대 한 특정 요구 사항을 준수 하 고 Microsoft와 제휴 하 여 Lync Server 인증서 마법사를 사용할 수 있도록 하는 인증서를 제공 하는 공용 Ca 목록을 보려면 Microsoft 기술 자료 929395, "Exchange Server 및 통신 서버용 통합 통신 인증서 파트너" 문서를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
+내부 서버에는 내부 엔터프라이즈 CA(인증 기관)를 사용하는 것이 좋지만 공용 CA를 사용할 수도 있습니다. UC (통합 통신) 인증서에 대 한 특정 요구 사항을 준수 하 고 Microsoft와 제휴 하 여 Lync Server 인증서 마법사를 사용할 수 있도록 하는 인증서를 제공 하는 공용 Ca 목록을 보려면 Microsoft 기술 자료 929395, "Exchange Server 및 통신 서버용 통합 통신 인증서 파트너" 문서를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
 Exchange 2013와 같은 다른 응용 프로그램 및 서버와 통신 하려면 다른 응용 프로그램 및 제품에서 지 원하는 인증서가 필요 합니다. 2013 릴리스의 경우 Lync Server 2013 및 기타 Microsoft 서버 제품 (Exchange 2013 및 SharePoint Server 포함)은 서버 간 인증 및 권한 부여를 위한 OAuth (Open Authorization) 프로토콜을 지원 합니다. 자세한 내용은 배포 설명서 또는 작업 설명서의 [Lync server 2013에서 서버 간 인증 (OAuth) 및 파트너 응용 프로그램 관리](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) 를 참조 하십시오.
 
-Windows 7 운영 체제, Windows Server 2008 운영 체제, Windows Server 2008 R2 운영 체제, Windows Vista 운영 체제 및 Microsoft Lync Phone Edition을 실행 하는 클라이언트에서 연결 하려면 Lync Server 2013에 대 한 지원이 포함 되어 있지만 그렇지 않습니다. 필수) SHA-256 암호화 해시 함수를 사용 하 여 서명 된 인증서 SHA-256을 사용한 외부 액세스를 지원하기 위해 SHA-256을 사용하여 공용 CA에서 외부 인증서가 발급됩니다.
+Windows 7 운영 체제를 실행 하는 클라이언트, Windows Server 2008 운영 체제, Windows Server 2008 R2 운영 체제, Windows Vista 운영 체제 및 Microsoft Lync Phone Edition에 연결 하는 경우 Lync Server 2013에는 SHA-256 암호화 해시 함수를 사용 하 여 서명 된 인증서에 대 한 지원이 포함 됩니다. SHA-256을 사용한 외부 액세스를 지원하기 위해 SHA-256을 사용하여 공용 CA에서 외부 인증서가 발급됩니다.
 
 다음 표에서는 프런트 엔드 풀 및 Standard Edition Server에 대한 서버 역할별 인증서 요구 사항을 보여 줍니다. 이는 모두 표준 웹 서버 인증서로서, 개인 키를 사용하고 내보낼 수 없습니다.
 
@@ -331,7 +333,7 @@ Windows 7 운영 체제, Windows Server 2008 운영 체제, Windows Server 2008 
 <tr class="odd">
 <td><p>기본</p></td>
 <td><p>SBA의 FQDN</p></td>
-<td><p>호흡. &lt;MICROSOFT.RTC.MANAGEMENT.XDS.SIPDOMAIN OBJECT&gt; (SIP 도메인 당 하나의 항목 필요)</p></td>
+<td><p>SIP. &lt; microsoft.rtc.management.xds.sipdomain object &gt; (SIP 도메인 당 하나의 항목 필요)</p></td>
 <td><p>SN = sba01; SAN = sip .com; SAN = sip. p m c</p></td>
 </tr>
 </tbody>

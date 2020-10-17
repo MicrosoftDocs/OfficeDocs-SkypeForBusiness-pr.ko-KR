@@ -12,20 +12,22 @@ ms:contentKeyID: 48184825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f1687a26e5bf464191b742d046bc28e8c8a329a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a195a0bbca8bdfcc0b150504635d3f86cca376c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527015"
 ---
+# <a name="configure-policies-to-control-remote-user-access-in-lync-server-2013"></a>Lync Server 2013에서 원격 사용자 액세스를 제어 하도록 정책 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-remote-user-access-in-lync-server-2013"></a>Lync Server 2013에서 원격 사용자 액세스를 제어 하도록 정책 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195761"
 
 _**마지막으로 수정 된 항목:** 2012-10-18_
 
-원격 사용자가 내부 Lync Server 사용자와 공동 작업할 수 있는지 여부를 제어 하는 하나 이상의 외부 사용자 액세스 정책을 구성 합니다. 원격 사용자 액세스를 제어하기 위해 전역, 사이트 및 사용자 수준에서 정책을 구성할 수 있습니다. 사이트 정책은 글로벌 정책보다 우선 적용되며 사용자 정책은 사이트 정책 및 글로벌 정책보다 우선 적용됩니다. 구성할 수 있는 정책 유형에 대 한 자세한 내용은 [Lync Server 2013에 대 한 페더레이션 및 외부 액세스 관리](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)를 참조 하세요. 한 정책 수준에서 적용 되는 Lync Server 정책 설정은 다른 정책 수준에서 적용 되는 설정을 재정의할 수 있습니다. Lync Server 정책 우선 순위: 사용자 정책 (대부분의 영향을 미칩니다)이 사이트 정책에 우선 하며, 사이트 정책이 글로벌 정책 (최소 영향)을 재정의 합니다. 즉, 정책 설정이 정책이 영향을 주는 개체에 대해 자세히 설정 된다는 것을 의미 하며 개체에 대 한 영향을 더 줍니다.
+원격 사용자가 내부 Lync Server 사용자와 공동 작업할 수 있는지 여부를 제어 하는 하나 이상의 외부 사용자 액세스 정책을 구성 합니다. 원격 사용자 액세스를 제어하기 위해 전역, 사이트 및 사용자 수준에서 정책을 구성할 수 있습니다. 사이트 정책은 글로벌 정책보다 우선 적용되며 사용자 정책은 사이트 정책 및 글로벌 정책보다 우선 적용됩니다. 구성할 수 있는 정책 유형에 대 한 자세한 내용은 [Lync Server 2013에 대 한 페더레이션 및 외부 액세스 관리](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)를 참조 하세요. 한 정책 수준에서 적용 되는 Lync Server 정책 설정은 다른 정책 수준에서 적용 되는 설정을 재정의할 수 있습니다. Lync Server 정책 우선 순위: 사용자 정책 (대부분의 영향을 미칩니다)이 사이트 정책에 우선 하며, 사이트 정책이 글로벌 정책 (최소 영향)을 재정의 합니다. 즉, 정책 설정이 정책이 영향을 주는 개체에 가까울수록 개체에 미치는 영향이 커집니다.
 
 <div>
 

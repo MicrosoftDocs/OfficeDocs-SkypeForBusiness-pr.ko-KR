@@ -12,20 +12,22 @@ ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cb548ad27e61284f5bc5f3fff1718faa20ef0e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe99c67faa5cc9d0fadd2bdabd260c9d40091303
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213154"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526045"
 ---
+# <a name="conference-activity-report-in-lync-server-2013"></a>Lync Server 2013의 전화 회의 활동 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-activity-report-in-lync-server-2013"></a>Lync Server 2013의 전화 회의 활동 보고서
+
 
 </div>
 
@@ -88,14 +90,14 @@ _**마지막으로 수정 된 항목:** 2012-10-22_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>From</strong></p></td>
+<td><p><strong>시작</strong></p></td>
 <td><p>시간 범위의 시작 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜 및 시간을 입력합니다.</p>
 <p>7/7/2012 1:00 PM</p>
 <p>시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
 <p>7/7/2012</p>
 <p>주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</p>
 <p>7/3/2012</p>
-<p>주는 항상 일요일부터 토요일까지입니다.</p></td>
+<p>주는 항상 일요일부터 토요일까지로 실행됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -156,7 +158,7 @@ _**마지막으로 수정 된 항목:** 2012-10-22_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>그룹</strong></p></td>
+<td><p><strong>풀</strong></p></td>
 <td><p>아니요</p></td>
 <td><p>전화 회의에서 사용 되는 등록자 풀 또는에 지 서버의 이름입니다.</p></td>
 </tr>

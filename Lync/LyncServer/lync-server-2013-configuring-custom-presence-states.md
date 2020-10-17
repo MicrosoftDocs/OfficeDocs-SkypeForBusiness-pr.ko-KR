@@ -12,20 +12,22 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f93229ee06a3d45db2478003a18ac22a2e7cf59
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fd551ede7d7be7e631c229e99613cfc8baa006eb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203104"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526995"
 ---
+# <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Lync Server 2013에서 사용자 지정 현재 상태 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Lync Server 2013에서 사용자 지정 현재 상태 구성
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync 2013에서 사용자 지정 현재 상태를 정의 하려면 XML 사용자
 
   - 사용자 지정 현재 상태를 최대 4 개까지 추가할 수 있습니다.
 
-  - CustomStateURL 매개 변수는 구성 파일의 위치를 지정 합니다. Lync 2013에서 SIP 고급 보안 모드는 기본적으로 사용 하도록 설정 되어 있으므로 HTTPS를 사용 하도록 설정 된 웹 서버에 사용자 지정 현재 상태 구성 파일을 저장 해야 합니다. 그렇지 않으면 Lync 2013 클라이언트가 해당 클라이언트에 연결할 수 없게 됩니다. 예를 들어 유효한 주소는 `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`입니다.
+  - CustomStateURL 매개 변수는 구성 파일의 위치를 지정 합니다. Lync 2013에서 SIP 고급 보안 모드는 기본적으로 사용 하도록 설정 되어 있으므로 HTTPS를 사용 하도록 설정 된 웹 서버에 사용자 지정 현재 상태 구성 파일을 저장 해야 합니다. 그렇지 않으면 Lync 2013 클라이언트가 해당 클라이언트에 연결할 수 없게 됩니다. 예를 들어 유효한 주소는 `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml` 입니다.
 
 <div>
 
@@ -58,19 +60,19 @@ Lync 2013에서 사용자 지정 현재 상태를 정의 하려면 XML 사용자
 > 프로덕션 환경에서는 권장 되지 않지만 EnableSIPHighSecurityMode 레지스트리 설정을 사용 하 여 클라이언트에서 SIP 고급 보안 모드를 사용 하지 않도록 설정 하 여 HTTPS가 아닌 파일 공유에 있는 구성 파일을 테스트할 수 있습니다. 그런 다음 CustomStateURL 레지스트리 설정을 사용 하 여 구성 파일에 대해 HTTPS가 아닌 위치를 지정할 수 있습니다. Lync 2013는 Lync 2010 레지스트리 설정을 준수 하지만 레지스트리 하이브가 업데이트 되었습니다. 레지스트리 설정은 다음과 같이 만들 수 있습니다. 
 > <UL>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
-> <P>형식: DWORD</P>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
+> <P>유형: DWORD</P>
 > <P>값 데이터: 0</P>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
 > <P>Type: String (REG_SZ)</P>
-> <P>값 데이터 (예): file://\\lspool com\LSFileShare\ClientConfigFolder\Presence.xml 또는 file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</P></LI></UL>
+> <P>값 데이터 (예): file:// \\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml 또는 file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</P></LI></UL>
 
 
 
 </div>
 
-XML 구성 파일에 하나 이상의 LCID (로캘 ID) 스키마를 지정 하 여 사용자 지정 현재 상태를 지역화 합니다. 이 항목의 뒷부분에 나오는 예제에서는 영어-미국 (1033), 노르웨이어-복말 (1044), 프랑스어-프랑스 (1036) 및 터키어 (1055)로 지역화 하는 방법을 보여 줍니다. Lcid 목록은 Microsoft에서 할당 한 로캘 Id를 참조 하십시오 <https://go.microsoft.com/fwlink/p/?linkid=157331>.
+XML 구성 파일에 하나 이상의 LCID (로캘 ID) 스키마를 지정 하 여 사용자 지정 현재 상태를 지역화 합니다. 이 항목의 뒷부분에 나오는 예제에서는 영어-미국 (1033), 노르웨이어-복말 (1044), 프랑스어-프랑스 (1036) 및 터키어 (1055)로 지역화 하는 방법을 보여 줍니다. Lcid 목록은 Microsoft에서 할당 한 로캘 Id를 참조 하십시오 <https://go.microsoft.com/fwlink/p/?linkid=157331> .
 
 <div>
 
@@ -99,7 +101,7 @@ XML 구성 파일에 하나 이상의 LCID (로캘 ID) 스키마를 지정 하 �
           </customState>
         </customStates>
 
-2.  HTTPS를 사용 하도록 설정 된 웹 서버에 XML 구성 파일을 저장 합니다. 이 예제에서는 파일 이름이 system.xml이 고 위치 https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml에 저장 되어 있습니다.
+2.  HTTPS를 사용 하도록 설정 된 웹 서버에 XML 구성 파일을 저장 합니다. 이 예제에서 파일의 이름은 Presence.xml로 저장 됩니다 https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml .
 
 3.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
@@ -118,9 +120,9 @@ XML 구성 파일에 하나 이상의 LCID (로캘 ID) 스키마를 지정 하 �
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>기본적으로 Lync Server 2013&nbsp;는 3 시간 마다 클라이언트 정책과 설정을 업데이트 합니다.</P>
+> <P>기본적으로 Lync Server 2013는 &nbsp; 3 시간 마다 클라이언트 정책과 설정을 업데이트 합니다.</P>
 > <LI>
-> <P>CustomStateURL과 같은 이전 릴리스의 그룹 정책 설정을 계속 사용 하려면 Lync 2013이 새 정책 레지스트리 하이브에 있는 경우 (HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync) 설정을 인식 합니다. 그러나 서버 기반 클라이언트 정책이 우선적으로 적용 됩니다.</P></LI></UL>
+> <P>CustomStateURL과 같은 이전 릴리스의 그룹 정책 설정을 계속 사용 하려는 경우 Lync 2013은 새 정책 레지스트리 하이브에 있는 설정 (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync))을 인식 합니다. 그러나 서버 기반 클라이언트 정책이 우선적으로 적용 됩니다.</P></LI></UL>
 
 
 

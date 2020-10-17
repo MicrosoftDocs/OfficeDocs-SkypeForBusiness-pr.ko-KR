@@ -12,20 +12,22 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0cb167d2a7aed3f5c107d4beba568c00ac501e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6379d110fc25ba31062d211d3893567ad92fda1f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526205"
 ---
+# <a name="checking-disk-usage-in-lync-server-2013"></a>Lync Server 2013에서 디스크 사용 확인
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-disk-usage-in-lync-server-2013"></a>Lync Server 2013에서 디스크 사용 확인
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2014-04-30_
 
 하드 디스크 드라이브는 Lync Server 2013 배포의 중요 한 구성 요소입니다. 충분 한 여유 디스크 볼륨이 없으면 운영 체제와 Lync Server 2013 데이터베이스 모두 올바르게 작동할 수 없습니다. 매일 Lync Server 2013 백 엔드 데이터베이스 통계를 모니터링 하 여 서버에 디스크 공간이 부족 한 상태를 유지 하 고 필요에 따라 저장소 리소스를 추가 하는 준비를 수행 해야 합니다.
 
-운영 체제, 프로그램 파일, 데이터베이스 및 트랜잭션 로그 (Lync Server 2013 백 엔드)를 호스트 하는 디스크의 공간을 검사 하는 것 외에도 다음과 같은 중요 한 파일 공유를 위한 디스크 공간이 포함 된 파일 시스템의 사용을 모니터링 해야 합니다. 데이터가
+운영 체제, 프로그램 파일, 데이터베이스 및 트랜잭션 로그를 호스트 하는 디스크의 공간을 검사 하는 것 외에도 Lync Server 2013 백 엔드)에서는 다음과 같은 중요 한 데이터를 포함 하는 파일 공유에 대 한 디스크 공간이 포함 된 파일 시스템의 사용을 모니터링 해야 합니다.
 
   - 모임 콘텐츠
 
@@ -67,11 +69,11 @@ Lync Server 2013에는 이전에 나열 된 파일 공유에 있는 파일 외�
 
 다음 방법을 사용하여 사용 가능한 디스크 공간을 확인할 수 있습니다.
 
-1.  **System center operations manager**   system center operations manager를 사용 하 여 볼륨 공간이 제한 되어 있을 때 관리자에 게 경고할 수 있습니다.
+1.  **System Center Operations Manager**     System Center Operations Manager를 사용 하 여 볼륨 공간이 제한 되어 있을 때 관리자에 게 경고할 수 있습니다.
 
-2.  ****   사용 가능한 하드 디스크 공간이 20% 미만이 면 메시지를 전송 하는 스크립트를 실행 하 여 스크립트를 실행 하 여 디스크 공간을 모니터링 합니다. TechNet의 Microsoft 스크립트 센터에서 예제 스크립트를 찾을 수 있습니다.[https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **스크립트 실행**     사용 가능한 하드 디스크 공간이 20% 미만이 면 메시지를 보내는 스크립트를 실행 하 여 디스크 공간을 모니터링 합니다. TechNet의 Microsoft 스크립트 센터에서 예제 스크립트를 찾을 수 있습니다. [https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
-3.  **Windows 탐색기**   windows 탐색기를 사용 하 여 Lync Server 2013 로그 및 데이터베이스를 저장 하는 볼륨에서 디스크 공간을 확인 합니다.
+3.  **Windows 탐색기**     Windows 탐색기를 사용 하 여 Lync Server 2013 로그 및 데이터베이스를 저장 하는 볼륨에서 디스크 공간을 확인 합니다.
 
 </div>
 

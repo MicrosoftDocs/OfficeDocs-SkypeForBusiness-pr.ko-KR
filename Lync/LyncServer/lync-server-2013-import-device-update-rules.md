@@ -12,20 +12,22 @@ ms:contentKeyID: 51803967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5436be837af75045d75b8feee31886aaaf324f0b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ddeb9d37d36d6ab18467e04e4a7c46b9b8576fa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526725"
 ---
+# <a name="import-device-update-rules-in-lync-server-2013"></a>Lync Server 2013에서 장치 업데이트 규칙 가져오기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-device-update-rules-in-lync-server-2013"></a>Lync Server 2013에서 장치 업데이트 규칙 가져오기
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
 
 
 > [!NOTE]  
-> 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+> 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 하세요.
 
 
 
@@ -66,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
 
 ## <a name="to-import-device-update-rules-to-all-your-web-servers"></a>모든 웹 서버에 대 한 장치 업데이트 규칙을 가져오려면
 
-  - 이 예에서는 조직에 배포 된 모든 웹 서버로 장치 업데이트 규칙을 가져옵니다. 이 명령을 사용 하려면 폴더 \\ \\atl-fs-001.litwareinc.com\\업데이트를 공유 하 고 모든 웹 서버에서 사용할 수 있어야 합니다.
+  - 이 예에서는 조직에 배포 된 모든 웹 서버로 장치 업데이트 규칙을 가져옵니다. 이 명령을 사용 하려면 폴더 \\ \\ atl-fs-001.litwareinc.com \\ 업데이트를 공유 하 고 모든 웹 서버에서 사용할 수 있어야 합니다.
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 

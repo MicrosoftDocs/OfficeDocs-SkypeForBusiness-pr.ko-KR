@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 136b06a6c134fc2ec906c8c2175d462f71a5b9a6
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f78d507a7ab15cfa43e10d51e13f36749f11a7cb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944021"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526395"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 지정 계층 구조 설정
 
@@ -90,9 +90,9 @@ CSV 파일에는 다음 순서 대로 첫 번째 열부터 다음 세 개의 열
 
 다음은 위의 이미지에 표시 된 계층 구조를 지원 하기 위해 생성 되는 스키마 CSV 파일의 예입니다. 이 스키마에는 다음이 포함 됩니다.
 
-- 라는 세 개의 필수 열 `TargetName` , `ParentName` 및`TeamId`
-- 이라는 세 개의 특성 `Store layout` 열 `Departments:Clothing` 과`Departments:Foods`
-- 세 개의 버킷 열 `Fresh Foods` , `Frozen Foods` 및`Womenswear`
+- 라는 세 개의 필수 열 `TargetName` , `ParentName` 및 `TeamId`
+- 이라는 세 개의 특성 `Store layout` 열 `Departments:Clothing` 과 `Departments:Foods`
+- 세 개의 버킷 열 `Fresh Foods` , `Frozen Foods` 및 `Womenswear`
 
 특성에는, `Store layout` 및를 포함 하는 값이 있습니다 `Compact` `Standard` `Large` . `Departments`특성 열은 값 `0` (0) 또는으로 설정할 수 있습니다 `1` . `Store`레이아웃 및 `Departments` 특성이 위의 이미지에 표시 되지 않습니다. 노드 항목에 특성을 추가 하는 방법을 보여 주기 위해 여기에 추가 됩니다. 이는 세 개의 버킷 열에도 적용 됩니다.
 
@@ -139,11 +139,28 @@ Remove-TeamTargetingHierarchy
 
 ## <a name="troubleshooting"></a>문제 해결
 
-### <a name="you-receive-an-error-message-when-you-upload-your-schema-file"></a>스키마 파일을 업로드 하면 오류 메시지가 나타남
+### <a name="you-receive-an-error-message-when-you-upload-your-schema-csv-file"></a>스키마 CSV 파일을 업로드 하면 오류 메시지가 나타남
 
 스키마를 업로드할 수 없는 이유를 나타내기 위해 문제 해결 정보를 포함 해야 한다는 오류 메시지에 유의 하세요. 오류 메시지의 정보를 기준으로 스키마 CSV 파일을 검토 하 고 편집한 다음 다시 시도 합니다.
 
-## <a name="related-topics"></a>관련 항목
+### <a name="you-receive-an-error-invalidteamid-error-message-when-you-upload-your-schema-csv-file"></a>스키마 CSV 파일을 업로드 하면 "오류: InvalidTeamId" 오류 메시지가 나타남
+
+스키마 CSV 파일을 업로드 하려고 하면 다음과 같은 오류 메시지가 나타납니다.
+
+```console
+Error: InvalidTeamId
+Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
+```
+
+스키마 CSV 파일에서 팀에 올바른 TeamId를 사용 하 고 있는지 확인 합니다. TeamId는 팀을 백업 하는 Microsoft 365 그룹의 그룹 ID와 동일 해야 합니다. Microsoft 팀 관리 센터에서 팀의 그룹 ID를 조회할 수 있습니다. 
+
+1. [Microsoft 팀원 관리 센터](https://admin.teams.microsoft.com/)의 왼쪽 탐색 창 **에서 팀**  >  **관리**로 이동 합니다.
+2. 테이블에 **그룹 id** 열이 표시 되지 않으면 표의 오른쪽 위 모서리에서 **열 편집** 을 선택한 다음 **그룹 ID**를 켭니다.
+3. 목록에서 팀을 찾은 다음 그룹 ID를 찾습니다.
+
+스키마 CSV 파일의 TeamId가 Microsoft 팀 관리 센터에 표시 되는 그룹 ID와 일치 하는지 확인 합니다. 
+
+## <a name="related-topics"></a>관련 주제
 
 - [팀에서 조직의 작업 앱 관리](manage-tasks-app.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

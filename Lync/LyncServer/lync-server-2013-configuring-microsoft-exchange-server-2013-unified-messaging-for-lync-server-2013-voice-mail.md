@@ -12,20 +12,22 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebce894ae93b9071a880b35dffd039225b5485cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7376ce3cbafe1321878a28e43e9bc3ab065c990f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213594"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525943"
 ---
+# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Microsoft Lync Server 2013 음성 메일에 대해 Microsoft Exchange Server 2013 통합 메시징 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Microsoft Lync Server 2013 음성 메일에 대해 Microsoft Exchange Server 2013 통합 메시징 구성
+
 
 </div>
 
@@ -46,15 +48,15 @@ Lync Server 2013 및 Exchange 2013 간에 서버 간 인증을 이미 구성한 
 
 위 예의 첫 번째 명령에서 VoIPSecurity 매개 변수와 매개 변수의 값 "Secured"는 신호 채널이 TLS(전송 계층 보안)를 사용하여 암호화됨을 나타냅니다. URIType "SipName"은 메시지가 SIP 프로토콜을 사용하여 송/수신됨을 나타내고, CountryOrRegionCode 1은 다이얼 플랜이 미국에 적용됨을 나타냅니다.
 
-두 번째 명령에서 ConfiguredInCountryOrRegionGroups 매개 변수로 전달되는 매개 변수 값은 이 다이얼 플랜에 사용할 수 있는 국가 내 그룹을 지정합니다. "임의의 위치,\*\*\*" 매개 변수 값은 다음을 설정 합니다.
+두 번째 명령에서 ConfiguredInCountryOrRegionGroups 매개 변수로 전달되는 매개 변수 값은 이 다이얼 플랜에 사용할 수 있는 국가 내 그룹을 지정합니다. "임의의 위치," 매개 변수 값은 \* \* 다음을 설정 합니다 \* .
 
   - 그룹 이름("Anywhere")
 
-  - Allowed번호 문자열 (\*숫자 문자열이 허용 됨을 나타내는 와일드 카드 문자)
+  - Allowed번호 문자열 ( \* 숫자 문자열이 허용 됨을 나타내는 와일드 카드 문자)
 
-  - DialNumberString (\*전화를 건 모든 번호가 허용 됨을 나타내는 와일드 카드 문자)
+  - DialNumberString ( \* 전화를 건 모든 번호가 허용 됨을 나타내는 와일드 카드 문자)
 
-  - TextComment (\*모든 텍스트 명령이 허용 됨을 나타내는 와일드 카드 문자)
+  - TextComment ( \* 모든 텍스트 명령이 허용 됨을 나타내는 와일드 카드 문자)
 
 <div>
 
@@ -70,7 +72,7 @@ Lync Server 2013 및 Exchange 2013 간에 서버 간 인증을 이미 구성한 
 
     Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 
-통합 메시징 서버를 구성한 후에는 다음 Get-exchangecertificate cmdlet을 실행 하 여 Exchange 인증서가 통합 메시징 서비스에 적용 되도록 해야 합니다.
+통합 메시징 서버를 구성한 후에는 다음 cmdlet을 Enable-ExchangeCertificate 실행 하 여 Exchange 인증서가 통합 메시징 서비스에 적용 되는지 확인 해야 합니다.
 
     Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 

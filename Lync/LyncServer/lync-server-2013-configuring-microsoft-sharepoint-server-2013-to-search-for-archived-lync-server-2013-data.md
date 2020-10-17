@@ -12,20 +12,22 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed6015a7ff0131ee01c913d59f471a01edd916cd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d831638cf25df4f9c1b792c34815e8bed8c15e8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213584"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525875"
 ---
+# <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>보관 된 Microsoft Lync Server 2013 데이터를 검색 하도록 Microsoft SharePoint Server 2013 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>보관 된 Microsoft Lync Server 2013 데이터를 검색 하도록 Microsoft SharePoint Server 2013 구성
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**마지막으로 수정 된 항목:** 2014-02-04_
 
 Microsoft Lync Server 2013 대신 Microsoft Exchange Server 2013에서 인스턴트 메시징 및 웹 회의 성적 증명서를 저장 하는 주요 이점 중 하나는 데이터를 같은 위치에 저장 하면 관리자가 단일 도구를 사용 하 여 보관 된 Exchange 데이터 및/또는 아카이브된 Lync Server 데이터를 검색할 수 있다는 점입니다. 모든 데이터가 같은 위치에 저장 되므로 보관 된 Exchange 데이터를 검색할 수 있는 도구를 통해 아카이브된 Lync Server 데이터를 검색할 수도 있습니다.
 
-보관 된 데이터를 쉽게 검색할 수 있도록 하는 한 가지 도구는 Microsoft SharePoint Server 2013입니다. SharePoint를 사용 하 여 Lync Server 데이터를 검색 하려면 먼저 Lync Server에서 Exchange 보관을 구성 하는 데 관련 된 모든 단계를 완료 해야 합니다. Exchange 2013 및 Lync Server 2013이 통합 된 후에는 SharePoint 서버에 Exchange 웹 서비스 관리 API 버전 2.0을 설치 해야 합니다. 해당 API의 설치 프로그램은 Microsoft 다운로드 센터 ([https://go.microsoft.com/fwlink/p/?LinkId=258305](https://go.microsoft.com/fwlink/p/?linkid=258305))에서 다운로드할 수 있습니다. 다운로드 한 파일 (EWSManagedAPI)은 SharePoint server의 모든 폴더에 저장할 수 있습니다.
+보관 된 데이터를 쉽게 검색할 수 있도록 하는 한 가지 도구는 Microsoft SharePoint Server 2013입니다. SharePoint를 사용 하 여 Lync Server 데이터를 검색 하려면 먼저 Lync Server에서 Exchange 보관을 구성 하는 데 관련 된 모든 단계를 완료 해야 합니다. Exchange 2013 및 Lync Server 2013이 통합 된 후에는 SharePoint 서버에 Exchange 웹 서비스 관리 API 버전 2.0을 설치 해야 합니다. 해당 API의 설치 프로그램은 Microsoft 다운로드 센터 ()에서 다운로드할 수 있습니다 [https://go.microsoft.com/fwlink/p/?LinkId=258305](https://go.microsoft.com/fwlink/p/?linkid=258305) . 다운로드 한 파일 (EWSManagedAPI.msi)은 SharePoint server의 모든 폴더에 저장할 수 있습니다.
 
 파일을 다운로드한 후 SharePoint 서버에서 다음 절차를 완료합니다.
 
 1.  **시작**, **모든 프로그램**, **보조 프로그램**을 차례로 클릭하고 **명령 프롬프트**를 마우스 오른쪽 단추로 클릭한 후 **관리자로 실행**을 클릭하여 명령 창을 엽니다.
 
-2.  명령 창에서 **cd** 명령을 사용하여 현재 디렉터리를 EWSManagedAPI.msi 파일이 저장된 폴더로 변경합니다. 예를 들어 파일을 C:\\다운로드에 저장 한 경우 명령 창에 다음 명령을 입력 하 고 enter 키를 누릅니다.
+2.  명령 창에서 **cd** 명령을 사용하여 현재 디렉터리를 EWSManagedAPI.msi 파일이 저장된 폴더로 변경합니다. 예를 들어 파일을 C: 다운로드에 저장 한 경우 \\ 명령 창에 다음 명령을 입력 하 고 enter 키를 누릅니다.
     
         cd C:\Downloads
 
@@ -70,13 +72,13 @@ Exchange 웹 서비스를 설치한 후 SharePoint Server 2013 및 Exchange 2013
 
 
 > [!NOTE]  
-> 이때 자동 검색 서비스의 URI를 사용해야 합니다. 샘플 URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1를 사용 하지 마십시오.
+> 이때 자동 검색 서비스의 URI를 사용해야 합니다. 샘플 URI를 사용 하지 마십시오 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 .
 
 
 
 </div>
 
-토큰 발급자를 만들고 토큰 서비스를 구성한 후에는 이러한 명령을 실행 하 여 샘플 URL에 대 한 SharePoint 사이트의 URL로 대체 해야 합니다.http://atl-sharepoint-001:
+토큰 발급자를 만들고 토큰 서비스를 구성한 후에는 이러한 명령을 실행 하 여 샘플 URL에 대 한 SharePoint 사이트의 URL로 대체 해야 합니다. http://atl-sharepoint-001:
 
     $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
     $app = Get-SPAppPrincipal -Site "https://atl-sharepoint-001" -NameIdentifier $exchange.NameID
@@ -124,7 +126,7 @@ Exchange와 SharePoint 간에 서버 간 인증을 설정한 후에는 SharePoin
 
 4.  **자동 검색 사용**이 선택되어 있지 않은지 확인하고 **확인**을 클릭합니다.
 
-마지막으로 SharePoint 검색 사이트에서 다음 절차를 완료 하 여 새 eDiscovery 사례와 새 eDiscovery 집합을 만듭니다 (예:https://atl-sharepoint-001/sites/discovery):
+마지막으로 SharePoint 검색 사이트에서 다음 절차를 완료 하 여 새 eDiscovery 사례와 새 eDiscovery 집합을 만듭니다 (예: https://atl-sharepoint-001/sites/discovery):
 
 1.  사이트 콘텐츠 페이지에서 **새 사례 만들기**를 클릭합니다.
 
@@ -136,7 +138,7 @@ Exchange와 SharePoint 간에 서버 간 인증을 설정한 후에는 SharePoin
 
 4.  eDiscovery 설정 페이지가 나타나면 **식별 및 보존: 검색 설정**에서 **새 항목**을 클릭합니다.
 
-5.  새로 만들기: 검색 설정 페이지의 **검색 설정 이름** 상자에 사용자의 전자 메일 별칭을 입력합니다. **필터** 상자에 **eDiscovery Lync\* ** 를 입력 한 다음 **추가 & 원본 관리**를 클릭 합니다.
+5.  새로 만들기: 검색 설정 페이지의 **검색 설정 이름** 상자에 사용자의 전자 메일 별칭을 입력합니다. **필터** 상자에 **eDiscovery Lync \* ** 를 입력 한 다음 **추가 & 원본 관리**를 클릭 합니다.
 
 6.  원본 추가 및 관리 페이지에서 **사서함** 아래 첫 번째 텍스트 상자에 사용자 전자 메일 별칭을 입력합니다. 해당 텍스트 상자 옆의 사서함 확인 아이콘을 클릭하여 SharePoint에서 지정된 사서함에 연결할 수 있는지 확인합니다.
 
@@ -144,7 +146,7 @@ Exchange와 SharePoint 간에 서버 간 인증을 설정한 후에는 SharePoin
 
 8.  eDiscovery 설정 페이지에서 **저장**을 클릭하여 새 eDiscovery 집합을 저장합니다.
 
-이때 지정 된 사서함 (kenmyer) 및/또는 원본 위치 유지를 검색 하려면 다른 SharePoint 콘텐츠 또는 결과 원본을 사용 하는 것과 동일 합니다.
+이때 지정 된 사서함 (kenmyer) 및/또는 사용을 설정 하 여 다른 SharePoint 콘텐츠 또는 결과 원본에서와 동일한 방식으로 In-Place를 사용할 수 있습니다.
 
 </div>
 

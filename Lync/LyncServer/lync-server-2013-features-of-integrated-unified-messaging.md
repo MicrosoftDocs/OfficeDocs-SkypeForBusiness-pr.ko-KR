@@ -12,20 +12,22 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55da4422ec0151ddc6638ea21b4a5e1c551541ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da109ebb48ff483d117f41297749386b8f0462f8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179635"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526755"
 ---
+# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>통합 메시징 및 Lync Server 2013의 기능
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>통합 메시징 및 Lync Server 2013의 기능
+
 
 </div>
 
@@ -69,7 +71,7 @@ Outlook Voice Access를 사용하면 Enterprise Voice 사용자가 음성 메일
 
 ## <a name="fax-services"></a>팩스 서비스
 
-Exchange UM에는 사용자가 Exchange 사서함에서 수신 팩스를 받을 수 있도록 하는 팩스 기능이 포함 되어 있습니다. 자세한 내용은 Microsoft Exchange Server 설명서의 "통합 메시징"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652).
+Exchange UM에는 사용자가 Exchange 사서함에서 수신 팩스를 받을 수 있도록 하는 팩스 기능이 포함 되어 있습니다. 자세한 내용은 Microsoft Exchange Server 설명서의 "통합 메시징"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652) .
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ea588abf4018ab06a415d4aa5ef7decf5f93996
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89bc70635ac941398a71515e77dd1a792973fc35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189991"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527305"
 ---
+# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>Lync Server 2010에서 Lync Server 2013로 마이그레이션
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>Lync Server 2010에서 Lync Server 2013로 마이그레이션
+
 
 </div>
 
@@ -75,11 +77,11 @@ _**마지막으로 수정 된 항목:** 2012-09-17_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [마이그레이션을 시작 하기 전에](before-you-begin-the-migration.md)
+  - [마이그레이션을 시작하기 전에](before-you-begin-the-migration.md)
 
   - [1 단계: Lync Server 2010에서 마이그레이션 계획](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-  - [2 단계: 마이그레이션 준비](phase-2-prepare-for-migration.md)
+  - [2단계: 마이그레이션 준비](phase-2-prepare-for-migration.md)
 
   - [3 단계: Lync Server 2013 파일럿 풀 배포](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
@@ -87,11 +89,11 @@ _**마지막으로 수정 된 항목:** 2012-09-17_
 
   - [단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [6 단계: 파일럿 배포에서 프로덕션으로 이동](phase-6-move-from-pilot-deployment-into-production.md)
+  - [6단계: 파일럿 배포에서 프로덕션으로 이동](phase-6-move-from-pilot-deployment-into-production.md)
 
-  - [단계 7: 마이그레이션 후 작업 완료](phase-7-complete-post-migration-tasks.md)
+  - [7단계: 마이그레이션 후 작업 완료](phase-7-complete-post-migration-tasks.md)
 
-  - [8 단계: 레거시 풀 해제](phase-8-decommission-legacy-pools.md)
+  - [8단계: 레거시 풀 해제](phase-8-decommission-legacy-pools.md)
 
 </div>
 

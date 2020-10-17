@@ -12,20 +12,22 @@ ms:contentKeyID: 63969597
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2403fde7387c1ef5af7d402ad9bc859aa95fe6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e506fbbe204b7248396c25c3728556c61681cbf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216634"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526575"
 ---
+# <a name="operational-dependencies-in-lync-server-2013"></a>Lync Server 2013의 작동 종속성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="operational-dependencies-in-lync-server-2013"></a>Lync Server 2013의 작동 종속성
+
 
 </div>
 
@@ -212,7 +214,7 @@ Lync Server 2013이 조직의 일상 비즈니스에 세분화 됨에 따라 정
 <tr class="even">
 <td></td>
 <td><p>가상 트랜잭션 감시자 노드 배포</p>
-<p>MonitoringCS_withSCOM .docx 문서를 참고 하 여 연결 설명서를 참조 하세요.</p></td>
+<p>MonitoringCS_withSCOM.docx 문서에서 연결 설명서를 참조 하세요.</p></td>
 <td><p>중앙 사이트</p></td>
 </tr>
 </tbody>

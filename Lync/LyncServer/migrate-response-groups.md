@@ -12,20 +12,22 @@ ms:contentKeyID: 48184020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eee75721eba2e9a329b9418dfb4291216fcd7f33
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9b51fd9bd16da2f6cf135332d68c70c4b4714cdd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756949"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527505"
 ---
+# <a name="migrate-response-groups"></a>응답 그룹 마이그레이션
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-response-groups"></a>응답 그룹 마이그레이션
+
 
 </div>
 
@@ -111,7 +113,7 @@ Lync Server 2013에서는 **워크플로 유형**이라는 새로운 응답 그�
 
 2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  를 실행합니다.
+3.  을 실행합니다.
     
         Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
     
@@ -153,19 +155,19 @@ Lync Server 2013에서는 **워크플로 유형**이라는 새로운 응답 그�
     
         Get-Help <cmdlet name> -Detailed
 
-3.  를 실행합니다.
+3.  을 실행합니다.
     
         Get-CsRgsAgentGroup
 
 4.  Lync Server 2010 환경의 모든 에이전트 그룹이 목록에 포함 되었는지 확인 합니다.
 
-5.  를 실행합니다.
+5.  을 실행합니다.
     
         Get-CsRgsQueue
 
 6.  Lync Server 2010 환경의 모든 큐가 목록에 포함 되었는지 확인 합니다.
 
-7.  를 실행합니다.
+7.  을 실행합니다.
     
         Get-CsRgsWorkflow
 

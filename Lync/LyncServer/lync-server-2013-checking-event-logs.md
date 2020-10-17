@@ -12,20 +12,22 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8574681353a6082ce46efb514923871a01c1427d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: edbd977eb8023d5001a5b8e4a6a1c706eea84fc4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206762"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526195"
 ---
+# <a name="checking-event-logs-in-lync-server-2013"></a>Lync Server 2013에서 이벤트 로그 확인
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-event-logs-in-lync-server-2013"></a>Lync Server 2013에서 이벤트 로그 확인
+
 
 </div>
 
@@ -53,13 +55,13 @@ Lync Server 2013 로깅 도구에서 디버그 세션을 끝낼 때 Snooper 도�
 
 Windows Server 운영 체제에서 Lync Server를 실행 하는 서버는 다음과 같은 네 가지 유형의 로그에 이벤트를 기록 합니다.
 
-  - **응용 프로그램 로그**   응용 프로그램 로그에는 응용 프로그램이 나 프로그램에서 기록한 이벤트가 포함 됩니다. 개발자는 기록할 이벤트를 결정합니다. 예를 들어 데이터베이스 프로그램은 응용 프로그램 로그에 파일 오류를 기록합니다. 대부분의 Lync Server 2013 관련 이벤트는 응용 프로그램 로그에 표시 됩니다.
+  - **응용 프로그램 로그**     응용 프로그램 로그에는 응용 프로그램이 나 프로그램에서 기록한 이벤트가 포함 됩니다. 개발자는 기록할 이벤트를 결정합니다. 예를 들어 데이터베이스 프로그램은 응용 프로그램 로그에 파일 오류를 기록합니다. 대부분의 Lync Server 2013 관련 이벤트는 응용 프로그램 로그에 표시 됩니다.
 
-  - **보안 로그**   보안 로그는 파일 또는 다른 개체 만들기, 열기 또는 삭제와 같은 리소스 사용과 관련 된 이벤트 외에도 유효 및 유효 하지 않은 로그온 시도와 같은 이벤트를 기록 합니다. 예를 들어 로그온 감사를 사용하는 경우 시스템에 대한 로그온 시도가 보안 로그에 기록됩니다.
+  - **보안 로그**     보안 로그는 파일 또는 기타 개체 만들기, 열기 또는 삭제와 같은 리소스 사용과 관련 된 이벤트 외에도 유효 및 유효 하지 않음 로그온 시도와 같은 이벤트를 기록 합니다. 예를 들어 로그온 감사를 사용하는 경우 시스템에 대한 로그온 시도가 보안 로그에 기록됩니다.
 
-  - **시스템 로그**   시스템 로그에는 Windows 시스템 구성 요소에 의해 기록 되는 이벤트가 포함 됩니다. 예를 들어 시작하는 동안 드라이버 또는 기타 시스템 구성요소에 로드하는 데 실패할 경우 시스템 로그에 기록됩니다. 시스템 구성 요소에 의해 기록되는 이벤트 유형은 서버에 의해 미리 결정됩니다.
+  - **시스템 로그**     시스템 로그에는 Windows 시스템 구성 요소에 의해 기록 되는 이벤트가 포함 됩니다. 예를 들어 시작하는 동안 드라이버 또는 기타 시스템 구성요소에 로드하는 데 실패할 경우 시스템 로그에 기록됩니다. 시스템 구성 요소에 의해 기록되는 이벤트 유형은 서버에 의해 미리 결정됩니다.
 
-  - **Lync Server 2013**   로깅 도구는 인증, 연결 및 사용자 작업과 관련 된 중요 한 이벤트를 기록 합니다. 진단 로깅을 사용 하도록 설정한 후에는 이벤트 뷰어에서 로그 항목을 볼 수 있습니다.
+  - **Lync Server 2013**     로깅 도구는 인증, 연결 및 사용자 작업과 관련 된 중요 한 이벤트를 기록 합니다. 진단 로깅을 사용 하도록 설정한 후에는 이벤트 뷰어에서 로그 항목을 볼 수 있습니다.
 
 <div>
 
@@ -93,9 +95,9 @@ Windows Server 운영 체제에서 Lync Server를 실행 하는 서버는 다음
 
 Lync Server 2013 관리 팩에 대 한 자세한 내용은 [System Center Operations Manager를 사용 하 여 Lync server 2013 모니터링](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)을 참조 하십시오.
 
-**이벤트 빗질**   이벤트 빗질 도구는 여러 컴퓨터의 이벤트 로그에서 하나의 중앙 위치로 특정 이벤트를 수집 합니다. 이 도구를 사용 하면 이벤트 Id 또는 이벤트 원본이 지정 하는 경우에만 보고할 수 있습니다. 이벤트 빗질에 대 한 자세한 내용은 [계정 잠금 및 관리 도구](https://go.microsoft.com/fwlink/?linkid=35607) 웹 사이트를 참조 하십시오.
+**이벤트 빗질**     이벤트 빗질 도구는 여러 컴퓨터의 이벤트 로그에서 하나의 중앙 위치로 특정 이벤트를 수집 합니다. 이 도구를 사용 하면 이벤트 Id 또는 이벤트 원본이 지정 하는 경우에만 보고할 수 있습니다. 이벤트 빗질에 대 한 자세한 내용은 [계정 잠금 및 관리 도구](https://go.microsoft.com/fwlink/?linkid=35607) 웹 사이트를 참조 하십시오.
 
-****   Windows Server 2012의 이벤트 트리거 관리자가 프로그램을 실행 하거나 전자 메일 메시지를 보내거나 화면 메시지를 표시할 수 있는 windows 이벤트 뷰어 내에서 "이 이벤트에 작업을 연결" 할 수 있습니다. 이 기능에 대 한 자세한 내용은 Windows Server 2008 R2 항목 [지정한 이벤트에 대 한 응답으로 작업 실행](https://technet.microsoft.com/library/cc748900.aspx)을 참조 하십시오. ' Eventtrigger '와 같은 명령줄 도구를 사용 하 여 이벤트 로그를 만들고 쿼리 하 고 로깅된 특정 이벤트에 프로그램을 연결할 수도 있습니다. Eventtriggers .exe를 사용 하 여 특정 이벤트가 발생할 때 프로그램을 실행 하는 이벤트 트리거를 만들 수 있습니다.
+**이벤트 트리거**     Windows Server 2012에서는 Windows 이벤트 뷰어에서 프로그램을 실행 하거나, 전자 메일 메시지를 보내거나, 화면에 표시 메시지를 표시할 수 있는 "이 이벤트에 작업을 연결 합니다."를 사용할 수 있습니다. 이 기능에 대 한 자세한 내용은 Windows Server 2008 R2 항목 [지정한 이벤트에 대 한 응답으로 작업 실행](https://technet.microsoft.com/library/cc748900.aspx)을 참조 하십시오. ' Eventtrigger.exe ' 같은 명령줄 도구를 사용 하 여 이벤트 로그를 만들고 쿼리 하 고 로깅된 특정 이벤트에 프로그램을 연결할 수도 있습니다. Eventtriggers.exe를 사용 하 여 특정 이벤트가 발생할 때 프로그램을 실행 하는 이벤트 트리거를 만들 수 있습니다.
 
 <div>
 

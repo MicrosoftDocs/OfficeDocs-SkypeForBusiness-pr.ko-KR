@@ -12,20 +12,22 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b805553349e6958671bc024cb862b296b74fc697
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a4c85dd6da5ba15a6ce946c4e331e09c8617974
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187001"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525825"
 ---
+# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Lync Server 2013에서 큐 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Lync Server 2013에서 큐 만들기 또는 수정
+
 
 </div>
 
@@ -95,11 +97,11 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
     
       - 제한 시간 이후에 전화를 끊으려면 **연결 끊기**를 클릭합니다.
     
-      - 통화를 음성 메일로 착신 전환 하려면 **음성 메일로 착신 전환**을 클릭 한 다음 **sip 주소** 필드에 음성 메일 사용자\<이름\>@\<domainname\> 을 입력 합니다 (예: sip:bob@contoso.com).
+      - 통화를 음성 메일로 착신 전환 하려면 **음성 메일로 착신 전환을**클릭 한 다음 **sip 주소** 필드에 음성 메일 주소를 sip: \<username\> @ \<domainname\> (예 sip:bob@contoso.com) 형식으로 입력 합니다.
     
-      - 통화를 다른 전화 번호로 착신 전환 하려면 **전화 번호로 착신 전환을**클릭 한 다음 **sip 주소** \<필드에 전화 번호를 sip: number\>@\<domainname\> (예: sip:+14255550121@contoso.com) 형식으로 입력 합니다.
+      - 통화를 다른 전화 번호로 착신 전환 하려면 **전화 번호로 착신 전환**을 클릭 한 다음 **sip 주소** 필드에 전화 번호를 sip: 형식으로 입력 합니다 \<number\> @ \<domainname\> (예: sip:+14255550121@contoso.com).
     
-      - 통화를 다른 사용자에 게 착신 전환 하려면 sip **주소로 전달을**클릭 한 다음 **sip 주소** 필드에 사용자의 URI를 sip\<: username\>@\<도메인\>형식으로 입력 합니다.
+      - 통화를 다른 사용자에 게 착신 전환 하려면 sip **주소로 전달을**클릭 한 다음 **sip 주소** 필드에 사용자의 URI를 sip: 형식으로 입력 합니다 \<username\> @ \<domainname\> .
     
       - 통화를 다른 큐로 착신 전환하려면 **다른 큐로 착신 전환**을 클릭한 다음 사용할 큐를 찾습니다.
 
@@ -115,11 +117,11 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
     
       - 제한 시간 이후에 전화를 끊으려면 **연결 끊기**를 클릭합니다.
     
-      - 통화를 음성 메일로 착신 전환 하려면 **음성 메일로 착신 전환**을 클릭 한 다음 **sip 주소** 필드에 음성 메일 사용자\<이름\>@\<domainname\> 을 입력 합니다 (예: sip:bob@contoso.com).
+      - 통화를 음성 메일로 착신 전환 하려면 **음성 메일로 착신 전환을**클릭 한 다음 **sip 주소** 필드에 음성 메일 주소를 sip: \<username\> @ \<domainname\> (예 sip:bob@contoso.com) 형식으로 입력 합니다.
     
-      - 통화를 다른 전화 번호로 착신 전환 하려면 **전화 번호로 착신 전환을**클릭 한 다음 **sip 주소** \<필드에 전화 번호를 sip: number\>@\<domainname\> (예: sip:+14255550121@contoso.com) 형식으로 입력 합니다.
+      - 통화를 다른 전화 번호로 착신 전환 하려면 **전화 번호로 착신 전환**을 클릭 한 다음 **sip 주소** 필드에 전화 번호를 sip: 형식으로 입력 합니다 \<number\> @ \<domainname\> (예: sip:+14255550121@contoso.com).
     
-      - 통화를 다른 사용자에 게 착신 전환 하려면 sip **주소로 전달을**클릭 한 다음 **sip 주소** 필드에 사용자의 URI를 sip\<: username\>@\<도메인\>형식으로 입력 합니다.
+      - 통화를 다른 사용자에 게 착신 전환 하려면 sip **주소로 전달을**클릭 한 다음 **sip 주소** 필드에 사용자의 URI를 sip: 형식으로 입력 합니다 \<username\> @ \<domainname\> .
     
       - 통화를 다른 큐로 착신 전환하려면 **다른 큐로 착신 전환**을 클릭한 다음 사용할 큐를 찾습니다.
 
@@ -148,7 +150,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
     
         $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    예:
+    예를 들면 다음과 같습니다.
     
         "All agents are currently busy. Please call back later."
     
@@ -174,7 +176,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
     
     </div>
     
-    예:
+    예를 들면 다음과 같습니다.
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
 
@@ -182,7 +184,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    예:
+    예를 들면 다음과 같습니다.
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     

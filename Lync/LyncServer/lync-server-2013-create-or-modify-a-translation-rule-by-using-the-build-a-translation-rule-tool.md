@@ -12,20 +12,22 @@ ms:contentKeyID: 48185224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9641170534c4c4ad1ef4976d018699d01d6069a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a2adc9d0ca10382aa7faa7abf6f9ea46eb6cf51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186991"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525815"
 ---
+# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Lync Server 2013의 변환 규칙 작성 도구를 사용 하 여 변환 규칙 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Lync Server 2013의 변환 규칙 작성 도구를 사용 하 여 변환 규칙 만들기 또는 수정
+
 
 </div>
 
@@ -55,17 +57,17 @@ _**마지막으로 수정 된 항목:** 2012-10-05_
 
 6.  대화 상자의 **변환 규칙 작성** 섹션에 있는 다음 필드에 값을 입력합니다.
     
-      - **시작 숫자**: (선택 사항) 패턴을 일치시킬 선행 자릿수를 지정합니다. 예를 들어 + **+** 로 시작 하는 E. 164 형식의 번호를 일치 시키려면이 필드에 값을 입력 합니다.
+      - **시작 숫자**: (선택 사항) 패턴을 일치시킬 선행 자릿수를 지정합니다. 예를 들어 **+** +로 시작 하는 E. 164 형식의 번호를 일치 시키려면이 필드에 값을 입력 합니다.
     
       - **길이**: 일치하는 패턴의 자릿수를 지정하고 패턴을 이 길이와 정확히 일치하는 번호와 일치시킬지 또는 이 길이 이상인 번호와 일치시킬지 또는 길이에 상관없이 일치시킬지 여부를 선택합니다 예를 들어 **11**을 입력하고 드롭다운 목록에서 **최소**를 선택하면 길이가 11자리 이상인 번호와 일치하게 됩니다.
     
-      - **제거할 숫자**: (선택 사항) 제거할 시작 자릿수를 지정합니다. 예를 들어 **1** 을 입력 하 여 숫자 **+** 의 시작 부분에서 번호를 제거 합니다.
+      - **제거할 숫자**: (선택 사항) 제거할 시작 자릿수를 지정합니다. 예를 들어 **1** 을 입력 하 여 **+** 숫자의 시작 부분에서 번호를 제거 합니다.
     
       - **추가할 숫자**: (선택 사항) 변환된 번호의 앞에 추가할 자릿수를 지정합니다. 예를 들어 **011**을 입력하면 규칙이 적용될 때 변환된 번호 앞에 011이 추가됩니다.
     
     이 필드에 입력한 값은 **일치시킬 패턴** 및 **변환 규칙** 필드에 적용됩니다. 예를 들어 위의 예 값을 지정한 경우 **일치시킬 패턴** 필드의 정규식 결과는 다음과 같습니다.
     
-    **^\\+ (\\d{9}\\d +) $**
+    **^\\+ ( \\ d {9} \\ d +) $**
     
     **변환 규칙** 필드에서는 변환된 번호 형식에 대한 패턴이 지정됩니다. 이 패턴은 두 부분으로 되어 있습니다.
     

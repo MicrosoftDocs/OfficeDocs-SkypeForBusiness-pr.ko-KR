@@ -12,20 +12,22 @@ ms:contentKeyID: 48185784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b60ba1c402a629c0a85b2bd99dc4819da3455660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 874b73af42869bc5cbe6a66b7efaf792d231b95d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525755"
 ---
+# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>Lync Server 2013에서 에이전트 그룹 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>Lync Server 2013에서 에이전트 그룹 만들기 또는 수정
+
 
 </div>
 
@@ -152,7 +154,7 @@ _**마지막으로 수정 된 항목:** 2014-02-07_
         
           - 메일 그룹을 구성 하 여 구성원 자격이 숨겨 응답 그룹이 관리자가 배포 목록을 에이전트 목록에 할당 하는 경우 사용자가 그룹을 호출 하 여 구성원을 찾을 수 있습니다.
         
-          - 메일 그룹이 Exchange 전체 주소 목록에서 숨겨지도록 구성 된 경우 응답 그룹 프로세스에서 해당 하는 사용자 권한이 있는 상태에서 메일 그룹을 보고 에이전트 목록에 할당할 수 있습니다. 권한 (관리자에 게 적절 한 사용자 권한 및 사용 권한이 없는 경우 포함)
+          - 메일 그룹이 Exchange 전체 주소 목록에서 숨겨지도록 구성 된 경우 응답 그룹 관리자가 해당 사용자 권한 및 사용 권한을 갖고 있지 않더라도 메일 그룹을 확인 하 여 해당 사용자 권한 및 사용 권한이 있는 경우에도 해당 작업을 에이전트 목록에 할당할 수 있습니다.
 
 11. **커밋**을 클릭합니다.
 
@@ -183,7 +185,7 @@ _**마지막으로 수정 된 항목:** 2014-02-07_
     
     </div>
 
-4.  에이전트 그룹이 만들어졌는지 확인 합니다. 를 실행합니다.
+4.  에이전트 그룹이 만들어졌는지 확인 합니다. 을 실행합니다.
     
         Get-CsRgsAgentGroup -Name "Help Desk"
 

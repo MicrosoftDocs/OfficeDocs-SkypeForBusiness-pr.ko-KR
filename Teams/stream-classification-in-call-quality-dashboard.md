@@ -1,6 +1,6 @@
 ---
 title: 통화 품질 대시보드의 스트림 분류 (CQD)
-ms.author: serdarsacobsen
+ms.author: serdars
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Microsoft 팀과 비즈니스용 Skype Online의 경우 통화 품질 대시보드 (CQD)에서 스트림 품질이 분류 되는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: b27de2bb3dc62e8344b51d564f2c295a08f45932
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583827"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526355"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>통화 품질 대시보드의 스트림 분류 (CQD)
 
@@ -50,7 +50,7 @@ CQD의 스트림은 사용 가능한 주요 품질 메트릭의 값에 따라 _�
 
 ### <a name="video-classifier-due-to-freeze"></a>고정으로 인 한 비디오 분류자
 
-비디오 스트림이 최종 사용자가 비디오를 고정 하는 것을 예측 하기 위해 생성 된 분류자 점수 값에 따라 _좋음_ 또는 _불량_ 으로 표시 됩니다. 이 분류자는 Microsoft 팀 제품 에서만 사용할 수 있습니다.
+비디오 스트림이 최종 사용자가 비디오를 고정 하는 것을 예측 하기 위해 생성 된 분류자 점수 값에 따라  _좋음_ 또는 _불량_ 으로 표시 됩니다. 이 분류자는 Microsoft 팀 제품 에서만 사용할 수 있습니다.
 
 |단계만 #|미터|시나리오|조건 |조건이 True 인 경우의 분류 |If 조건이 거짓이 면 분류 |메트릭을 사용할 수 없는 경우의 분류 |볼 |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |

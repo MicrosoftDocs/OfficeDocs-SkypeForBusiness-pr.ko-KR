@@ -12,20 +12,22 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e0bd9d635cc745c10836c58a331d2e36380e446
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38126f54e02738b1f48b42022a9061055e271d18
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190801"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525725"
 ---
+# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>Lync Server 2013에서 공통 영역 전화 연락처 개체 삭제
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>Lync Server 2013에서 공통 영역 전화 연락처 개체 삭제
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 
 공통 영역 전화와 연결 된 contact 개체를 삭제할 수도 있습니다. 예를 들어 직원 \에 게 전화를 제거 하는 경우 해당 전화와 연결 된 연락처 개체를 사용할 필요가 없습니다. **Move-cscommonareaphone** cmdlet은 공통 영역 전화 계정을 삭제할 수 있는 방법을 제공 합니다. 이 cmdlet을 실행 하면 **move-cscommonareaphone**에서 반환 되는 공통 영역 전화 목록에서 전화가 삭제 됩니다. 또한 해당 전화와 연결 된 contact 개체가 Active Directory 도메인 서비스에서 삭제 됩니다.
 
-**Move-cscommonareaphone** 을 사용 하 여 표시 이름, 국가 및 지역 코드와 같은 공통 요소를 가진 공통 영역 전화 또는 모든 공통 영역 전화를 제거 합니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+**Move-cscommonareaphone** 을 사용 하 여 표시 이름, 국가 및 지역 코드와 같은 공통 요소를 가진 공통 영역 전화 또는 모든 공통 영역 전화를 제거 합니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 하세요.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184909
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8051fc18fd42c2c9773d4e0b8904f2923687fe2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a5381d0f71dd6e15a3b4b6d76f2a03be558b9d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526525"
 ---
+# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>Lync Server 2013를 사용 하 여 전용 전화선 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>Lync Server 2013를 사용 하 여 전용 전화선 계획
+
 
 </div>
 
@@ -149,7 +151,7 @@ Cmdlet 및 Lync Server 관리 셸에 대 한 자세한 내용은 [Lync server 20
 
 ## <a name="private-telephone-lines-in-mixed-deployments"></a>혼합 배포에서의 전용 전화선
 
-전용 전화선은 Lync Server 배포에 대해서만 구성 해야 합니다. Lync Server와 Office communications server 2007 또는 Office Communications Server 2007 R2 서버가 둘 다 있는 배포에서 이전 버전의 사용자가 전용 전화선을 호출 하려고 하면 서버에서 전화를 거는 동안 오류가 발생 하 여 연결이 실패 합니다. 전용 전화선에서 역방향 번호 조회를 수행 합니다.
+전용 전화선은 Lync Server 배포에 대해서만 구성 해야 합니다. Lync Server와 Office communications server 2007 또는 Office Communications Server 2007 R2 서버가 모두 있는 배포에서는 이전 버전의 사용자가 전용 전화선에 전화를 걸 때 서버가 전용 전화선에서 역방향 번호 조회를 수행할 수 없기 때문에 통화를 라우팅하는 작업이 실패 합니다.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733762
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2afd309f59a66a7117d43b930500a7807d493d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 151ebb138a1518e184c3b008605c259be533c788
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190941"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526125"
 ---
+# <a name="common-conferencing-concepts-in-lync-server-2013"></a>Lync Server 2013의 일반적인 회의 개념
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="common-conferencing-concepts-in-lync-server-2013"></a>Lync Server 2013의 일반적인 회의 개념
+
 
 </div>
 
@@ -69,11 +71,11 @@ Lync Server 2013에서는 조직이 규정 준수 규정을 따라야 하는 경
 
 외부 사용자가 초대 된 경우에도 회의에 참가할 수 있도록 하 여 Lync Server 2013 회의에 대 한 투자의 이점을 크게 높일 수도 있습니다. 외부 사용자에는 다음이 포함될 수 있습니다.
 
-  - **원격 사용자**   방화벽 외부에서 랩톱 또는 기타 Lync Server 2013 장치를 사용 하는 조직의 사용자
+  - **원격 사용자**     조직의 사용자가 방화벽 외부에서 작업 중 이며 해당 랩톱이 나 기타 Lync Server 2013 장치를 사용 하는 경우
 
-  - ****   사용자가 Lync Server 2013을 실행 하는 회사의 페더레이션 사용자입니다. 조직의 사용자가 이러한 사용자에게 쉽게 연결할 수 있도록 하려면 이러한 회사와 페더레이션 관계를 만들면 됩니다.
+  - **페더레이션 사용자**     회사의 사용자는 Lync Server 2013를 실행 하는 사람과 함께 작업 합니다. 조직의 사용자가 이러한 사용자에게 쉽게 연결할 수 있도록 하려면 이러한 회사와 페더레이션 관계를 만들면 됩니다.
 
-  - **익명 사용자**   특정 회의에 참가 하기 위해 사용자가 특별히 초대한 기타 모든 외부 사용자입니다. 회사의 모임 이끌이는 외부 사용자에게 전화 회의 초대 전자 메일을 보낼 수 있습니다. 이 전자 메일에는 외부 사용자가 클릭하여 전화 회의에 참가할 수 있는 링크가 포함됩니다.
+  - **익명 사용자**     특정 회의에 참가 하기 위해 사용자가 특별히 초대한 기타 모든 외부 사용자입니다. 회사의 모임 이끌이는 외부 사용자에게 전화 회의 초대 전자 메일을 보낼 수 있습니다. 이 전자 메일에는 외부 사용자가 클릭하여 전화 회의에 참가할 수 있는 링크가 포함됩니다.
 
 이러한 시나리오를 일부 또는 모두 사용 하도록 설정 하려면 Lync Server 2013 배포 및 외부 사용자 간의 보안 통신을 사용 하도록 설정 하는 데 도움이 되는에 지 서버를 배포 해야 합니다. 에 지 서버를 사용 하는 Lync Server 2013 솔루션은 VPN (가상 사설망)과 같은 다른 솔루션 보다 더 높은 수준의 미디어를 제공 합니다. 자세한 내용은 [Lync Server 2013에서 외부 사용자 액세스 계획](lync-server-2013-planning-for-external-user-access.md)을 참조 하십시오.
 
