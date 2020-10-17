@@ -1,5 +1,6 @@
 ---
 title: 모범 사례 분석기에서 식별 한 문제 분석 및 해결
+description: 모범 사례 분석기에서 식별 한 문제 분석 및 해결
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3603240aeac91c841dec0a9df6a74e3589e5af7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: eed35acd9a56e278fb043cff48fc6d4eb759181e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531715"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561904"
 ---
-# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="e6f14-102">Lync Server 2013의 모범 사례 분석기에서 식별 한 문제 분석 및 해결</span><span class="sxs-lookup"><span data-stu-id="e6f14-102">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="17280-103">Lync Server 2013의 모범 사례 분석기에서 식별 한 문제 분석 및 해결</span><span class="sxs-lookup"><span data-stu-id="17280-103">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48531715"
 
 <span> </span>
 
-<span data-ttu-id="e6f14-103">_**마지막으로 수정 된 항목:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="e6f14-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="17280-104">_**마지막으로 수정 된 항목:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="17280-104">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="e6f14-p101">모범 사례 분석기는 문제를 해결하기 위해 환경을 변경하지 않습니다. 단지 잠재적인 문제를 찾아내고 그러한 문제를 해결하는 방법에 대한 정보만을 표시할 뿐입니다. 해결해야 할 문제를 식별했으면 적절한 솔루션을 결정해야 합니다. 이 섹션의 항목은 몇 가지 주요 잠재 문제를 식별하고 해결하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e6f14-p101">Best Practices Analyzer does not make changes to your environment to resolve issues. It only detects potential issues and displays information about how to resolve them. If you identify issues that you need to resolve, you must determine the appropriate solution. The topics in this section help you identify and resolve some of the most significant potential issues.</span></span>
+<span data-ttu-id="17280-p101">모범 사례 분석기는 문제를 해결하기 위해 환경을 변경하지 않습니다. 단지 잠재적인 문제를 찾아내고 그러한 문제를 해결하는 방법에 대한 정보만을 표시할 뿐입니다. 해결해야 할 문제를 식별했으면 적절한 솔루션을 결정해야 합니다. 이 섹션의 항목은 몇 가지 주요 잠재 문제를 식별하고 해결하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="17280-p101">Best Practices Analyzer does not make changes to your environment to resolve issues. It only detects potential issues and displays information about how to resolve them. If you identify issues that you need to resolve, you must determine the appropriate solution. The topics in this section help you identify and resolve some of the most significant potential issues.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e6f14-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="e6f14-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="17280-109">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="17280-109">In This Section</span></span>
 
-  - [<span data-ttu-id="e6f14-109">Lync Server 2013의 환경 테스트 관련 문제</span><span class="sxs-lookup"><span data-stu-id="e6f14-109">Issues with the environment test in Lync Server 2013</span></span>](lync-server-2013-issues-with-the-environment-test.md)
+  - [<span data-ttu-id="17280-110">Lync Server 2013의 환경 테스트 관련 문제</span><span class="sxs-lookup"><span data-stu-id="17280-110">Issues with the environment test in Lync Server 2013</span></span>](lync-server-2013-issues-with-the-environment-test.md)
 
-  - [<span data-ttu-id="e6f14-110">Lync Server 2013의 토폴로지 테스트 관련 문제</span><span class="sxs-lookup"><span data-stu-id="e6f14-110">Issues with the topology test in Lync Server 2013</span></span>](lync-server-2013-issues-with-the-topology-test.md)
+  - [<span data-ttu-id="17280-111">Lync Server 2013의 토폴로지 테스트 관련 문제</span><span class="sxs-lookup"><span data-stu-id="17280-111">Issues with the topology test in Lync Server 2013</span></span>](lync-server-2013-issues-with-the-topology-test.md)
 
 </div>
 

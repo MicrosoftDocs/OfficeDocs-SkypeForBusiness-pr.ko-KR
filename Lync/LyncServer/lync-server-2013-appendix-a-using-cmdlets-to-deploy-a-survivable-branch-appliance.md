@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 부록 A: cmdlet을 사용 하 여 Sba (survivable 분기 기기 배포'
+description: 'Lync Server 2013: 부록 A: cmdlet을 사용 하 여 Sba (survivable Branch 기기를 배포 하는 방법을 소개 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e09cd7e0c5cc8bc20f50ba2c2ae5a1d912f949ab
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6bf1fe5d86900ec5da95ed9020720149a5015f19
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531625"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561874"
 ---
-# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a><span data-ttu-id="a5e22-102">부록 A: cmdlet을 사용 하 여 Lync Server 2013에 Sba (survivable 분기 기기 배포</span><span class="sxs-lookup"><span data-stu-id="a5e22-102">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>
+# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a><span data-ttu-id="79fff-103">부록 A: cmdlet을 사용 하 여 Lync Server 2013에 Sba (survivable 분기 기기 배포</span><span class="sxs-lookup"><span data-stu-id="79fff-103">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48531625"
 
 <span> </span>
 
-<span data-ttu-id="a5e22-103">_**마지막으로 수정 된 항목:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="a5e22-103">_**Topic Last Modified:** 2012-10-07_</span></span>
+<span data-ttu-id="79fff-104">_**마지막으로 수정 된 항목:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="79fff-104">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-<span data-ttu-id="a5e22-104">이 항목에서는 Lync Server 관리 셸을 사용 하 여 Sba (survivable Branch 기기를 배포 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5e22-104">This topic describes how to deploy a Survivable Branch Appliance using the Lync Server Management Shell.</span></span> <span data-ttu-id="a5e22-105">이 절차는 중앙 사이트에서 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="a5e22-105">Perform this procedure at the central site.</span></span>
+<span data-ttu-id="79fff-105">이 항목에서는 Lync Server 관리 셸을 사용 하 여 Sba (survivable Branch 기기를 배포 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="79fff-105">This topic describes how to deploy a Survivable Branch Appliance using the Lync Server Management Shell.</span></span> <span data-ttu-id="79fff-106">이 절차는 중앙 사이트에서 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="79fff-106">Perform this procedure at the central site.</span></span>
 
 <div>
 
-## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a><span data-ttu-id="a5e22-106">Sba (survivable Branch 기기를 원격으로 배포 하려면</span><span class="sxs-lookup"><span data-stu-id="a5e22-106">To deploy a Survivable Branch Appliance remotely</span></span>
+## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a><span data-ttu-id="79fff-107">Sba (survivable Branch 기기를 원격으로 배포 하려면</span><span class="sxs-lookup"><span data-stu-id="79fff-107">To deploy a Survivable Branch Appliance remotely</span></span>
 
-1.  <span data-ttu-id="a5e22-107">[Lync Server 2013의 토폴로지에 분기 사이트 추가](lync-server-2013-add-branch-sites-to-your-topology.md) 의 절차에 따라 새 분기 사이트를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5e22-107">Follow the procedure in [Add branch sites to your topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) to add a new branch site.</span></span>
+1.  <span data-ttu-id="79fff-108">[Lync Server 2013의 토폴로지에 분기 사이트 추가](lync-server-2013-add-branch-sites-to-your-topology.md) 의 절차에 따라 새 분기 사이트를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="79fff-108">Follow the procedure in [Add branch sites to your topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) to add a new branch site.</span></span>
 
-2.  <span data-ttu-id="a5e22-108">분기 사이트를 도메인에 참가시킵니다.</span><span class="sxs-lookup"><span data-stu-id="a5e22-108">Join the branch site to the domain.</span></span>
+2.  <span data-ttu-id="79fff-109">분기 사이트를 도메인에 참가시킵니다.</span><span class="sxs-lookup"><span data-stu-id="79fff-109">Join the branch site to the domain.</span></span>
 
-3.  <span data-ttu-id="a5e22-109">RTCUniversalSBATechnicians 그룹을 로컬 Administrators 그룹에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="a5e22-109">Add the RTCUniversalSBATechnicians group to the local Administrators group.</span></span>
+3.  <span data-ttu-id="79fff-110">RTCUniversalSBATechnicians 그룹을 로컬 Administrators 그룹에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="79fff-110">Add the RTCUniversalSBATechnicians group to the local Administrators group.</span></span>
 
-4.  <span data-ttu-id="a5e22-110">서버를 다시 시작한 다음 RTCUniversalSBATechnicians 그룹의 구성원으로 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="a5e22-110">Restart the server, and log on to it as a member of the RTCUniversalSBATechnicians group.</span></span>
+4.  <span data-ttu-id="79fff-111">서버를 다시 시작한 다음 RTCUniversalSBATechnicians 그룹의 구성원으로 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="79fff-111">Restart the server, and log on to it as a member of the RTCUniversalSBATechnicians group.</span></span>
 
-5.  <span data-ttu-id="a5e22-111">Lync Server 관리 셸에서 다음 명령을 입력 하 고 자리 표시자를 조직의 올바른 정보로 바꿉니다.</span><span class="sxs-lookup"><span data-stu-id="a5e22-111">In the Lync Server Management Shell, type the following commands, replacing the placeholders with the correct information for your organization:</span></span>
+5.  <span data-ttu-id="79fff-112">Lync Server 관리 셸에서 다음 명령을 입력 하 고 자리 표시자를 조직의 올바른 정보로 바꿉니다.</span><span class="sxs-lookup"><span data-stu-id="79fff-112">In the Lync Server Management Shell, type the following commands, replacing the placeholders with the correct information for your organization:</span></span>
     
         Export-CsConfiguration -FileName C:\CSConfig.zip
         Import-CsConfiguration -LocalStore -FileName C:\CSConfig.zip -Verbose

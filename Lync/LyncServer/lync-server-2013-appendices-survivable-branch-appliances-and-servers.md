@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 부록: Sba (survivable Branch 기기 및 서버'
+description: 'Lync Server 2013: 부록: Sba (survivable Branch 어플라이언스 및 Servers.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183896
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a633b4394855beffe933e1b2092365f7afbefe8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 96f0775b83460577b947dfe741658fd1b3a59b01
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508955"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561934"
 ---
-# <a name="appendices-survivable-branch-appliances-and-servers-in-lync-server-2013"></a><span data-ttu-id="82f83-102">부록: Lync Server 2013의 Sba (survivable 분기 기기 및 서버</span><span class="sxs-lookup"><span data-stu-id="82f83-102">Appendices: Survivable Branch Appliances and Servers in Lync Server 2013</span></span>
+# <a name="appendices-survivable-branch-appliances-and-servers-in-lync-server-2013"></a><span data-ttu-id="1916b-103">부록: Lync Server 2013의 Sba (survivable 분기 기기 및 서버</span><span class="sxs-lookup"><span data-stu-id="1916b-103">Appendices: Survivable Branch Appliances and Servers in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48508955"
 
 <span> </span>
 
-<span data-ttu-id="82f83-103">_**마지막으로 수정 된 항목:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="82f83-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="1916b-104">_**마지막으로 수정 된 항목:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="1916b-104">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="82f83-104">이 섹션에서는 Sba (survivable 분기 기기 및 Sba (survivable 분기 서버에 대 한 추가 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="82f83-104">The section provides additional information about Survivable Branch Appliances and Survivable Branch Servers.</span></span>
+<span data-ttu-id="1916b-105">이 섹션에서는 Sba (survivable 분기 기기 및 Sba (survivable 분기 서버에 대 한 추가 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="1916b-105">The section provides additional information about Survivable Branch Appliances and Survivable Branch Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="82f83-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="82f83-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1916b-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="1916b-106">In This Section</span></span>
 
-  - [<span data-ttu-id="82f83-106">부록 A: cmdlet을 사용 하 여 Lync Server 2013에 Sba (survivable 분기 기기 배포</span><span class="sxs-lookup"><span data-stu-id="82f83-106">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
+  - [<span data-ttu-id="1916b-107">부록 A: cmdlet을 사용 하 여 Lync Server 2013에 Sba (survivable 분기 기기 배포</span><span class="sxs-lookup"><span data-stu-id="1916b-107">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
 
-  - [<span data-ttu-id="82f83-107">부록 B: Lync Server 2013에서 Sba (survivable 분기 기기 관리</span><span class="sxs-lookup"><span data-stu-id="82f83-107">Appendix B: Managing a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)
+  - [<span data-ttu-id="1916b-108">부록 B: Lync Server 2013에서 Sba (survivable 분기 기기 관리</span><span class="sxs-lookup"><span data-stu-id="1916b-108">Appendix B: Managing a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)
 
 </div>
 

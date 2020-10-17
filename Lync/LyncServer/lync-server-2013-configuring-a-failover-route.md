@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 장애 조치 (failover) 경로 구성'
+description: 'Lync Server 2013: 장애 조치 (failover) 경로 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0a3a0d3b2eb2d505ff345af66ae8ccbcc551ee8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e7cfc45276931685a2d42103b1b7f1d5015dcd7e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520065"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560494"
 ---
-# <a name="configuring-a-failover-route-in-lync-server-2013"></a><span data-ttu-id="f3934-102">Lync Server 2013에서 장애 조치 (failover) 경로 구성</span><span class="sxs-lookup"><span data-stu-id="f3934-102">Configuring a failover route in Lync Server 2013</span></span>
+# <a name="configuring-a-failover-route-in-lync-server-2013"></a><span data-ttu-id="5f328-103">Lync Server 2013에서 장애 조치 (failover) 경로 구성</span><span class="sxs-lookup"><span data-stu-id="5f328-103">Configuring a failover route in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48520065"
 
 <span> </span>
 
-<span data-ttu-id="f3934-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="f3934-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="5f328-104">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="5f328-104">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="f3934-p101">다음 예제에서는 관리자가 Dallas-GW1이 유지 관리를 위해 다운되거나 다른 이유로 인해 사용할 수 없는 경우 사용할 장애 조치(failover) 경로를 정의할 수 있는 방법을 보여 줍니다. 다음 표에서는 필요한 구성 변경을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="f3934-p101">The following example shows how an administrator can define a failover route for use if the Dallas-GW1 is down for maintenance or is otherwise unavailable. The following tables illustrate the required configuration change.</span></span>
+<span data-ttu-id="5f328-p101">다음 예제에서는 관리자가 Dallas-GW1이 유지 관리를 위해 다운되거나 다른 이유로 인해 사용할 수 없는 경우 사용할 장애 조치(failover) 경로를 정의할 수 있는 방법을 보여 줍니다. 다음 표에서는 필요한 구성 변경을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="5f328-p101">The following example shows how an administrator can define a failover route for use if the Dallas-GW1 is down for maintenance or is otherwise unavailable. The following tables illustrate the required configuration change.</span></span>
 
-### <a name="table-1-user-policy"></a><span data-ttu-id="f3934-p102">표 1. 사용자 정책</span><span class="sxs-lookup"><span data-stu-id="f3934-p102">Table 1. User Policy</span></span>
+### <a name="table-1-user-policy"></a><span data-ttu-id="5f328-p102">표 1. 사용자 정책</span><span class="sxs-lookup"><span data-stu-id="5f328-p102">Table 1. User Policy</span></span>
 
 <table>
 <colgroup>
@@ -50,30 +51,30 @@ ms.locfileid: "48520065"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f3934-108">사용자 정책</span><span class="sxs-lookup"><span data-stu-id="f3934-108">User policy</span></span></th>
-<th><span data-ttu-id="f3934-109">전화 사용</span><span class="sxs-lookup"><span data-stu-id="f3934-109">Phone usage</span></span></th>
+<th><span data-ttu-id="5f328-109">사용자 정책</span><span class="sxs-lookup"><span data-stu-id="5f328-109">User policy</span></span></th>
+<th><span data-ttu-id="5f328-110">전화 사용</span><span class="sxs-lookup"><span data-stu-id="5f328-110">Phone usage</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f3934-110">기본 통화 정책</span><span class="sxs-lookup"><span data-stu-id="f3934-110">Default Calling Policy</span></span></p></td>
-<td><p><span data-ttu-id="f3934-111">로컬</span><span class="sxs-lookup"><span data-stu-id="f3934-111">Local</span></span></p>
-<p><span data-ttu-id="f3934-112">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="f3934-112">GlobalPSTNHopoff</span></span></p></td>
+<td><p><span data-ttu-id="5f328-111">기본 통화 정책</span><span class="sxs-lookup"><span data-stu-id="5f328-111">Default Calling Policy</span></span></p></td>
+<td><p><span data-ttu-id="5f328-112">로컬</span><span class="sxs-lookup"><span data-stu-id="5f328-112">Local</span></span></p>
+<p><span data-ttu-id="5f328-113">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="5f328-113">GlobalPSTNHopoff</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f3934-113">레드몬드 시내 정책</span><span class="sxs-lookup"><span data-stu-id="f3934-113">Redmond Local Policy</span></span></p></td>
-<td><p><span data-ttu-id="f3934-114">RedmondLocal</span><span class="sxs-lookup"><span data-stu-id="f3934-114">RedmondLocal</span></span></p></td>
+<td><p><span data-ttu-id="5f328-114">레드몬드 시내 정책</span><span class="sxs-lookup"><span data-stu-id="5f328-114">Redmond Local Policy</span></span></p></td>
+<td><p><span data-ttu-id="5f328-115">RedmondLocal</span><span class="sxs-lookup"><span data-stu-id="5f328-115">RedmondLocal</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f3934-115">달라스 통화 정책</span><span class="sxs-lookup"><span data-stu-id="f3934-115">Dallas Calling Policy</span></span></p></td>
-<td><p><span data-ttu-id="f3934-116">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="f3934-116">DallasUsers</span></span></p>
-<p><span data-ttu-id="f3934-117">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="f3934-117">GlobalPSTNHopoff</span></span></p></td>
+<td><p><span data-ttu-id="5f328-116">달라스 통화 정책</span><span class="sxs-lookup"><span data-stu-id="5f328-116">Dallas Calling Policy</span></span></p></td>
+<td><p><span data-ttu-id="5f328-117">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="5f328-117">DallasUsers</span></span></p>
+<p><span data-ttu-id="5f328-118">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="5f328-118">GlobalPSTNHopoff</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="table-2-routes"></a><span data-ttu-id="f3934-p103">표 2. 경로</span><span class="sxs-lookup"><span data-stu-id="f3934-p103">Table 2. Routes</span></span>
+### <a name="table-2-routes"></a><span data-ttu-id="5f328-p103">표 2. 경로</span><span class="sxs-lookup"><span data-stu-id="5f328-p103">Table 2. Routes</span></span>
 
 <table>
 <colgroup>
@@ -85,54 +86,54 @@ ms.locfileid: "48520065"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f3934-120">경로 이름</span><span class="sxs-lookup"><span data-stu-id="f3934-120">Route name</span></span></th>
-<th><span data-ttu-id="f3934-121">발신 제한</span><span class="sxs-lookup"><span data-stu-id="f3934-121">Number pattern</span></span></th>
-<th><span data-ttu-id="f3934-122">전화 사용</span><span class="sxs-lookup"><span data-stu-id="f3934-122">Phone usage</span></span></th>
-<th><span data-ttu-id="f3934-123">트렁크</span><span class="sxs-lookup"><span data-stu-id="f3934-123">Trunk</span></span></th>
-<th><span data-ttu-id="f3934-124">게이트웨이</span><span class="sxs-lookup"><span data-stu-id="f3934-124">Gateway</span></span></th>
+<th><span data-ttu-id="5f328-121">경로 이름</span><span class="sxs-lookup"><span data-stu-id="5f328-121">Route name</span></span></th>
+<th><span data-ttu-id="5f328-122">발신 제한</span><span class="sxs-lookup"><span data-stu-id="5f328-122">Number pattern</span></span></th>
+<th><span data-ttu-id="5f328-123">전화 사용</span><span class="sxs-lookup"><span data-stu-id="5f328-123">Phone usage</span></span></th>
+<th><span data-ttu-id="5f328-124">트렁크</span><span class="sxs-lookup"><span data-stu-id="5f328-124">Trunk</span></span></th>
+<th><span data-ttu-id="5f328-125">게이트웨이</span><span class="sxs-lookup"><span data-stu-id="5f328-125">Gateway</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f3934-125">레드몬드 시내 경로</span><span class="sxs-lookup"><span data-stu-id="f3934-125">Redmond Local Route</span></span></p></td>
-<td><p><span data-ttu-id="f3934-126">^\+1 (425 | 206 | 253) (\d {7} ) $</span><span class="sxs-lookup"><span data-stu-id="f3934-126">^\+1(425|206|253)(\d{7})$</span></span></p></td>
-<td><p><span data-ttu-id="f3934-127">로컬</span><span class="sxs-lookup"><span data-stu-id="f3934-127">Local</span></span></p>
-<p><span data-ttu-id="f3934-128">RedmondLocal</span><span class="sxs-lookup"><span data-stu-id="f3934-128">RedmondLocal</span></span></p></td>
-<td><p><span data-ttu-id="f3934-129">Trunk1</span><span class="sxs-lookup"><span data-stu-id="f3934-129">Trunk1</span></span></p>
-<p><span data-ttu-id="f3934-130">Trunk2</span><span class="sxs-lookup"><span data-stu-id="f3934-130">Trunk2</span></span></p></td>
-<td><p><span data-ttu-id="f3934-131">레드-GW1</span><span class="sxs-lookup"><span data-stu-id="f3934-131">Red-GW1</span></span></p>
-<p><span data-ttu-id="f3934-132">레드-GW2</span><span class="sxs-lookup"><span data-stu-id="f3934-132">Red-GW2</span></span></p></td>
+<td><p><span data-ttu-id="5f328-126">레드몬드 시내 경로</span><span class="sxs-lookup"><span data-stu-id="5f328-126">Redmond Local Route</span></span></p></td>
+<td><p><span data-ttu-id="5f328-127">^\+1 (425 | 206 | 253) (\d {7} ) $</span><span class="sxs-lookup"><span data-stu-id="5f328-127">^\+1(425|206|253)(\d{7})$</span></span></p></td>
+<td><p><span data-ttu-id="5f328-128">로컬</span><span class="sxs-lookup"><span data-stu-id="5f328-128">Local</span></span></p>
+<p><span data-ttu-id="5f328-129">RedmondLocal</span><span class="sxs-lookup"><span data-stu-id="5f328-129">RedmondLocal</span></span></p></td>
+<td><p><span data-ttu-id="5f328-130">Trunk1</span><span class="sxs-lookup"><span data-stu-id="5f328-130">Trunk1</span></span></p>
+<p><span data-ttu-id="5f328-131">Trunk2</span><span class="sxs-lookup"><span data-stu-id="5f328-131">Trunk2</span></span></p></td>
+<td><p><span data-ttu-id="5f328-132">레드-GW1</span><span class="sxs-lookup"><span data-stu-id="5f328-132">Red-GW1</span></span></p>
+<p><span data-ttu-id="5f328-133">레드-GW2</span><span class="sxs-lookup"><span data-stu-id="5f328-133">Red-GW2</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f3934-133">달라스 시내 경로</span><span class="sxs-lookup"><span data-stu-id="f3934-133">Dallas Local Route</span></span></p></td>
-<td><p><span data-ttu-id="f3934-134">^\+1 (972 | 214 | 469) (\d {7} ) $</span><span class="sxs-lookup"><span data-stu-id="f3934-134">^\+1(972|214|469)(\d{7})$</span></span></p></td>
-<td><p><span data-ttu-id="f3934-135">로컬</span><span class="sxs-lookup"><span data-stu-id="f3934-135">Local</span></span></p></td>
-<td><p><span data-ttu-id="f3934-136">Trunk3</span><span class="sxs-lookup"><span data-stu-id="f3934-136">Trunk3</span></span></p></td>
-<td><p><span data-ttu-id="f3934-137">달라스-GW1</span><span class="sxs-lookup"><span data-stu-id="f3934-137">Dallas-GW1</span></span></p></td>
+<td><p><span data-ttu-id="5f328-134">달라스 시내 경로</span><span class="sxs-lookup"><span data-stu-id="5f328-134">Dallas Local Route</span></span></p></td>
+<td><p><span data-ttu-id="5f328-135">^\+1 (972 | 214 | 469) (\d {7} ) $</span><span class="sxs-lookup"><span data-stu-id="5f328-135">^\+1(972|214|469)(\d{7})$</span></span></p></td>
+<td><p><span data-ttu-id="5f328-136">로컬</span><span class="sxs-lookup"><span data-stu-id="5f328-136">Local</span></span></p></td>
+<td><p><span data-ttu-id="5f328-137">Trunk3</span><span class="sxs-lookup"><span data-stu-id="5f328-137">Trunk3</span></span></p></td>
+<td><p><span data-ttu-id="5f328-138">달라스-GW1</span><span class="sxs-lookup"><span data-stu-id="5f328-138">Dallas-GW1</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f3934-138">범용 경로</span><span class="sxs-lookup"><span data-stu-id="f3934-138">Universal Route</span></span></p></td>
-<td><p><span data-ttu-id="f3934-139">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="f3934-139">^\+?(\d\*)$</span></span></p></td>
-<td><p><span data-ttu-id="f3934-140">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="f3934-140">GlobalPSTNHopoff</span></span></p></td>
-<td><p><span data-ttu-id="f3934-141">Trunk1</span><span class="sxs-lookup"><span data-stu-id="f3934-141">Trunk1</span></span></p>
-<p><span data-ttu-id="f3934-142">Trunk2</span><span class="sxs-lookup"><span data-stu-id="f3934-142">Trunk2</span></span></p>
-<p><span data-ttu-id="f3934-143">Trunk3</span><span class="sxs-lookup"><span data-stu-id="f3934-143">Trunk3</span></span></p></td>
-<td><p><span data-ttu-id="f3934-144">레드-GW1</span><span class="sxs-lookup"><span data-stu-id="f3934-144">Red-GW1</span></span></p>
-<p><span data-ttu-id="f3934-145">레드-GW2</span><span class="sxs-lookup"><span data-stu-id="f3934-145">Red-GW2</span></span></p>
-<p><span data-ttu-id="f3934-146">달라스-GW1</span><span class="sxs-lookup"><span data-stu-id="f3934-146">Dallas-GW1</span></span></p></td>
+<td><p><span data-ttu-id="5f328-139">범용 경로</span><span class="sxs-lookup"><span data-stu-id="5f328-139">Universal Route</span></span></p></td>
+<td><p><span data-ttu-id="5f328-140">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="5f328-140">^\+?(\d\*)$</span></span></p></td>
+<td><p><span data-ttu-id="5f328-141">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="5f328-141">GlobalPSTNHopoff</span></span></p></td>
+<td><p><span data-ttu-id="5f328-142">Trunk1</span><span class="sxs-lookup"><span data-stu-id="5f328-142">Trunk1</span></span></p>
+<p><span data-ttu-id="5f328-143">Trunk2</span><span class="sxs-lookup"><span data-stu-id="5f328-143">Trunk2</span></span></p>
+<p><span data-ttu-id="5f328-144">Trunk3</span><span class="sxs-lookup"><span data-stu-id="5f328-144">Trunk3</span></span></p></td>
+<td><p><span data-ttu-id="5f328-145">레드-GW1</span><span class="sxs-lookup"><span data-stu-id="5f328-145">Red-GW1</span></span></p>
+<p><span data-ttu-id="5f328-146">레드-GW2</span><span class="sxs-lookup"><span data-stu-id="5f328-146">Red-GW2</span></span></p>
+<p><span data-ttu-id="5f328-147">달라스-GW1</span><span class="sxs-lookup"><span data-stu-id="5f328-147">Dallas-GW1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f3934-147">달라스 사용자 경로</span><span class="sxs-lookup"><span data-stu-id="f3934-147">Dallas Users Route</span></span></p></td>
-<td><p><span data-ttu-id="f3934-148">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="f3934-148">^\+?(\d\*)$</span></span></p></td>
-<td><p><span data-ttu-id="f3934-149">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="f3934-149">DallasUsers</span></span></p></td>
-<td><p><span data-ttu-id="f3934-150">Trunk3</span><span class="sxs-lookup"><span data-stu-id="f3934-150">Trunk3</span></span></p></td>
-<td><p><span data-ttu-id="f3934-151">달라스-GW1</span><span class="sxs-lookup"><span data-stu-id="f3934-151">Dallas-GW1</span></span></p></td>
+<td><p><span data-ttu-id="5f328-148">달라스 사용자 경로</span><span class="sxs-lookup"><span data-stu-id="5f328-148">Dallas Users Route</span></span></p></td>
+<td><p><span data-ttu-id="5f328-149">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="5f328-149">^\+?(\d\*)$</span></span></p></td>
+<td><p><span data-ttu-id="5f328-150">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="5f328-150">DallasUsers</span></span></p></td>
+<td><p><span data-ttu-id="5f328-151">Trunk3</span><span class="sxs-lookup"><span data-stu-id="5f328-151">Trunk3</span></span></p></td>
+<td><p><span data-ttu-id="5f328-152">달라스-GW1</span><span class="sxs-lookup"><span data-stu-id="5f328-152">Dallas-GW1</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f3934-p104">표 1에서 GlobalPSTNHopoff의 전화 사용은 달라스 통화 정책의 DallasUsers 전화 사용 뒤에 추가됩니다. 이렇게 하면 DallasUsers 전화 사용의 경로를 사용할 수 없는 경우 달라스 통화 정책의 통화가 GlobalPSTNHopoff 전화에 대해 구성된 경로를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f3934-p104">In Table 1, a phone usage of GlobalPSTNHopoff is added after the DallasUsers phone usage in the Dallas Calling Policy. This enables calls with the Dallas Calling policy to use routes that are configured for the GlobalPSTNHopoff phone usage if a route for the DallasUsers phone usage is unavailable.</span></span>
+<span data-ttu-id="5f328-p104">표 1에서 GlobalPSTNHopoff의 전화 사용은 달라스 통화 정책의 DallasUsers 전화 사용 뒤에 추가됩니다. 이렇게 하면 DallasUsers 전화 사용의 경로를 사용할 수 없는 경우 달라스 통화 정책의 통화가 GlobalPSTNHopoff 전화에 대해 구성된 경로를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5f328-p104">In Table 1, a phone usage of GlobalPSTNHopoff is added after the DallasUsers phone usage in the Dallas Calling Policy. This enables calls with the Dallas Calling policy to use routes that are configured for the GlobalPSTNHopoff phone usage if a route for the DallasUsers phone usage is unavailable.</span></span>
 
 </div>
 
