@@ -12,20 +12,22 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772646b8122e228aa43818aa5fe7fe2fb6689366
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01d3912402b48ce8aede4a53efea208c96bff825
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201364"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511395"
 ---
+# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Lync Server 2013에서 중앙 관리 저장소를 호스트 하는 서버 복원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Lync Server 2013에서 중앙 관리 저장소를 호스트 하는 서버 복원
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server 배포에는 Lync Server 서버 역할을 실행 하는 각 서버�
 
 중앙 관리 서버가 있는 풀을 찾으려면 토폴로지 작성기를 열고 **Lync Server**를 클릭 하 고 **중앙 관리 서버**아래의 오른쪽 창에서 확인 합니다.
 
-중앙 관리 저장소를 호스팅하는 백 엔드 서버가 미러링된 설정에 있고 미러 데이터베이스가 계속 작동 하는 경우에는이 계속 작동 하는 미러를 백업 하 고 기본 데이터베이스와 아래의 복원 절차에 따라이 백업을 사용 하 여 데이터베이스를 미러링합니다. 백 엔드 복원에는 토폴로지를 수정 및 게시 해야 하므로이 작업을 수행할 수 있으며, 기본 데이터베이스에서 CMS를 호스트 하는 경우에만이 작업이 수행 됩니다. 또한 토폴로지를 게시할 수 없는 경우에는 기본 및 미러 데이터베이스 역할을 서로 연결할 수 없다는 점에 유의 하십시오.
+중앙 관리 저장소를 호스팅하는 백 엔드 서버가 미러링된 설정에 있고 미러 데이터베이스가 계속 작동 하는 경우에는이 미러를 백업 하 고,이 백업을 사용 하 여 기본 데이터베이스 및 미러 데이터베이스 모두에서 다음 복원 절차에 따라 전체 복원을 수행 하는 것이 좋습니다. 백 엔드 복원에는 토폴로지를 수정 및 게시 해야 하므로이 작업을 수행할 수 있으며, 기본 데이터베이스에서 CMS를 호스트 하는 경우에만이 작업이 수행 됩니다. 또한 토폴로지를 게시할 수 없는 경우에는 기본 및 미러 데이터베이스 역할을 서로 연결할 수 없다는 점에 유의 하십시오.
 
 <div>
 
@@ -93,7 +95,7 @@ Lync Server 배포에는 Lync Server 서버 역할을 실행 하는 각 서버�
 
 4.  다음 중 하나를 수행합니다.
     
-      - Standard Edition server를 설치 하는 경우 Lync Server 설치 폴더 또는 미디어로 이동한 후 설치 \\\\Amd64\\setup.exe에서 lync server 배포 마법사를 시작 합니다. 배포 마법사에서 **첫 번째 Standard Edition Server 준비** 를 클릭 하 고 마법사의 지시에 따라 중앙 관리 저장소를 설치 합니다.
+      - Standard Edition server를 설치 하는 경우 Lync Server 설치 폴더 또는 미디어로 이동한 후 \\ 설치 amd64Setup.exe에서 Lync Server 배포 마법사를 시작 합니다 \\ \\ . 배포 마법사에서 **첫 번째 Standard Edition Server 준비** 를 클릭 하 고 마법사의 지시에 따라 중앙 관리 저장소를 설치 합니다.
     
       - 엔터프라이즈 백 엔드 서버를 설치 하는 경우 SQL Server 2012 또는 SQL Server 2008 R2를 설치 하 고 인스턴스 이름을 오류 이전과 동일 하 게 유지 합니다.
         
@@ -120,7 +122,7 @@ Lync Server 배포에는 Lync Server 서버 역할을 실행 하는 각 서버�
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn <FQDN> -SqlInstanceName <instance name> -Verbose
     
-    예를 들면 다음과 같습니다.
+    예:
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
@@ -190,7 +192,7 @@ Lync Server 배포에는 Lync Server 서버 역할을 실행 하는 각 서버�
     
     </div>
 
-11. Standard Edition server를 복원 하는 경우 Lync Server 설치 폴더 또는 미디어로 이동 하 여 설치 \\\\Amd64\\Setup.exe에 있는 lync server 배포 마법사를 시작 합니다. Lync Server 배포 마법사를 사용 하 여 다음을 수행 합니다.
+11. Standard Edition server를 복원 하는 경우 Lync Server 설치 폴더 또는 미디어로 이동 하 여 \\ setup amd64Setup.exe에 있는 Lync Server 배포 마법사를 시작 \\ 합니다 \\ . Lync Server 배포 마법사를 사용 하 여 다음을 수행 합니다.
     
     1.  **1단계: 로컬 구성 저장소 설치**를 실행하여 로컬 구성 파일을 설치합니다.
     
@@ -204,7 +206,7 @@ Lync Server 배포에는 Lync Server 서버 역할을 실행 하는 각 서버�
 
 12. 다음을 수행하여 사용자 데이터를 복원합니다.
     
-    1.  $Backup\\ 에서 로컬 디렉터리로 ExportedUserData를 복사 합니다.
+    1.  $Backup에서 \\ 로컬 디렉터리로 ExportedUserData.zip를 복사 합니다.
     
     2.  사용자 데이터를 복원 하기 전에 Lync services를 중지 해야 합니다. 이렇게 하려면 다음을 입력 합니다.
         

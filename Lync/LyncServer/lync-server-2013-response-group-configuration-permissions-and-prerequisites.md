@@ -12,20 +12,22 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8e27d3495ce2152dee67a5f176c4a0d9f7e7f82
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7289b8818a6193efa867ab0a8671abf6d4701f7c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182970"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511745"
 ---
+# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹 구성 권한 및 필수 구성 요소
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹 구성 권한 및 필수 구성 요소
+
 
 </div>
 
@@ -138,7 +140,7 @@ _**마지막으로 수정 된 항목:** 2012-10-05_
 
 
 > [!NOTE]  
-> <STRONG>(1)</STRONG> Active Directory 도메인 서비스 사용자 개체가 나열 된 active directory 보안 그룹의 구성원 이어야 합니다. 보안 그룹에 사용자를 추가할 수 있는 적절 한 사용 권한이 있는 관리자 또는 기타 위임 된 Active Directory 그룹 구성원 (예: 관리자, 계정 운영자)은 나열 된 보안 그룹 또는 그룹에 사용자 개체를 추가 해야 사용자가 나열 된 함수를 수행 합니다. <STRONG>(2)</STRONG> CsResponseGroupAdministrator가 Csresponsegroupadministrator에 할당 한 워크플로에만 해당 됩니다. <STRONG>(3)</STRONG> 응답 그룹 관리자는 CsResponseGroupManager의 다른 구성원에 게 현재 관리자가 이미 관리 하는 워크플로에 할당할 수 있습니다. <STRONG>(4)</STRONG> csviewonly 관리자는 동사 "Get" Lync Server 관리 셸 cmdlet만 실행할 수 있습니다.
+> <STRONG>(1)</STRONG> Active Directory 도메인 서비스 사용자 개체가 나열 된 active directory 보안 그룹의 구성원 이어야 합니다. 사용자를 보안 그룹에 추가할 수 있는 적절 한 사용 권한이 있는 관리자 또는 기타 위임 된 Active Directory 그룹 구성원 (예: 관리자, 계정 운영자)은 나열 된 보안 그룹 또는 그룹에 사용자 개체를 추가 하 여 나열 된 기능을 수행할 수 있도록 해야 합니다. <STRONG>(2)</STRONG> CsResponseGroupAdministrator가 Csresponsegroupadministrator에 할당 한 워크플로에만 해당 됩니다. <STRONG>(3)</STRONG> 응답 그룹 관리자는 CsResponseGroupManager의 다른 구성원에 게 현재 관리자가 이미 관리 하는 워크플로에 할당할 수 있습니다. <STRONG>(4)</STRONG> csviewonly 관리자는 동사 "Get" Lync Server 관리 셸 cmdlet만 실행할 수 있습니다.
 
 
 
@@ -186,15 +188,15 @@ _**마지막으로 수정 된 항목:** 2012-10-05_
 
 이 섹션은 조직에서 FIPS(Federal Information Processing Standards)를 준수해야 하는 경우에만 적용됩니다.
 
-FIPS를 준수하려면 웹 서비스를 설치한 후 다른 암호화 알고리즘을 사용하도록 응용 프로그램 수준 Web.config 파일을 수정해야 합니다. ASP.NET에서 3DES(Triple Data Encryption Standard) 알고리즘을 사용하여 보기 상태 데이터를 처리하도록 지정해야 합니다. 응답 그룹 응용 프로그램의 경우에는 응답 그룹 구성 도구와 에이전트 로그인 및 로그 아웃 콘솔에이 요구 사항이 적용 됩니다. 이 요구 사항에 대 한 자세한 내용은 Microsoft 기술 자료 문서 911722, "ViewState를 사용 하도록 설정 된 ASP.NET 웹 페이지에 액세스할 때 오류 메시지가 표시 될 수 있습니다." (여기서 [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)는 ASP.NET 1.1에서 ASP.NET 2.0로 업그레이드)를 참조 하십시오.
+FIPS를 준수하려면 웹 서비스를 설치한 후 다른 암호화 알고리즘을 사용하도록 응용 프로그램 수준 Web.config 파일을 수정해야 합니다. ASP.NET에서 3DES(Triple Data Encryption Standard) 알고리즘을 사용하여 보기 상태 데이터를 처리하도록 지정해야 합니다. 응답 그룹 응용 프로그램의 경우에는 응답 그룹 구성 도구와 에이전트 로그인 및 로그 아웃 콘솔에이 요구 사항이 적용 됩니다. 이 요구 사항에 대 한 자세한 내용은 Microsoft 기술 자료 문서 911722, "ViewState를 사용 하도록 설정 된 ASP.NET 웹 페이지에 액세스할 때 오류 메시지가 표시 될 수 있습니다." (여기서는 ASP.NET 1.1에서 ASP.NET 2.0로 업그레이드)를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183) .
 
 Web.config 파일을 수정하려면 다음을 수행합니다.
 
 1.  메모장과 같은 텍스트 편집에서 응용 프로그램 수준 Web.config 파일을 엽니다.
 
-2.  Web.config 파일에서 `<system.web>` 섹션을 찾습니다.
+2.  Web.config 파일에서 섹션을 찾습니다 `<system.web>` .
 
-3.  `<system.web>` 섹션에 다음 `<machineKey>` 섹션을 추가 합니다.
+3.  `<machineKey>`섹션에 다음 섹션을 추가 합니다 `<system.web>` .
     
         <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
 
@@ -216,7 +218,7 @@ Web.config 파일을 수정하려면 다음을 수행합니다.
 
 
 > [!NOTE]  
-> Yi, Meng 및 Zang 문자에 대해 설명 하 고 배포에 중요 한 이유를 확인 하려면 GB18030 문자 집합 <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>에 대 한 정보를 참조 하세요.
+> Yi, Meng 및 Zang 문자에 대해 설명 하 고 배포에 중요 한 이유를 확인 하려면 GB18030 문자 집합에 대 한 정보를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A> .
 
 
 
@@ -234,11 +236,11 @@ Yi, Meng 또는 Zang 문자를 지원하려면 Rgsconfig 데이터베이스에 �
 
   - dbo. 워크플로
 
-SQL Server 2008 R2 및 SQL Server 2012의 경우 라틴어\_일반\_100 (악센트 구분) 데이터 정렬을 사용 합니다. 이 데이터 정렬을 사용하는 경우 모든 개체 이름이 대/소문자를 구분하지 않습니다.
+SQL Server 2008 R2 및 SQL Server 2012의 경우 라틴어 \_ 일반 \_ 100 (악센트 구분) 데이터 정렬을 사용 합니다. 이 데이터 정렬을 사용하는 경우 모든 개체 이름이 대/소문자를 구분하지 않습니다.
 
-Microsoft SQL Server Management Studio를 사용하여 데이터 정렬을 변경할 수 있습니다. 이 도구를 사용 하는 방법에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)"SQL Server Management Studio 사용"을 참조 하십시오. 다음 단계에 따라 데이터 정렬을 변경합니다.
+Microsoft SQL Server Management Studio를 사용하여 데이터 정렬을 변경할 수 있습니다. 이 도구를 사용 하는 방법에 대 한 자세한 내용은에서 "SQL Server Management Studio 사용"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184) . 다음 단계에 따라 데이터 정렬을 변경합니다.
 
-1.  테이블을 다시 만들어야 하는 변경 작업을 허용하도록 SQL Server Management Studio가 구성되었는지 확인합니다. 자세한 내용은의 "저장 (허용 안 됨) 대화 상자"를 [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186)참조 하십시오. 열 데이터 정렬 설정에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185)"방법: 열 데이터 정렬 설정 (비주얼 데이터베이스 도구)"을 참조 하십시오.
+1.  테이블을 다시 만들어야 하는 변경 작업을 허용하도록 SQL Server Management Studio가 구성되었는지 확인합니다. 자세한 내용은의 "저장 (허용 안 됨) 대화 상자"를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186) . 열 데이터 정렬 설정에 대 한 자세한 내용은에서 "방법: 열 데이터 정렬 설정 (비주얼 데이터베이스 도구)"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185) .
 
 2.  Microsoft SQL Server Management Studio를 사용하여 Rgsconfig 데이터베이스에 연결합니다.
 

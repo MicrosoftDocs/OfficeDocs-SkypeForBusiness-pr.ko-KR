@@ -12,20 +12,22 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddcfc08ff983ec080bd2382394bfc4b8c3bae3a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb5c5cbe1ef98a4028f8b05d96e4acc90cae7963
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510275"
 ---
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Lync Server 2013 용 서버 하드웨어 플랫폼
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a>Lync Server 2013 용 서버 하드웨어 플랫폼
+
 
 </div>
 
@@ -85,7 +87,7 @@ Lync Server 2013 배포에 사용 되는 특정 하드웨어는 크기 및 사�
 <td><ul>
 <li><p>72GB 이상의 사용 가능한 디스크 공간이 있는 10,000 RPM 하드 디스크 드라이브 8개 이상</p>
 <p>이 중 두 개는 RAID 1을 사용하고 6개는 RAID 10을 사용합니다.</p>
-<p>-사용자나</p></li>
+<p>- 사용자나</p></li>
 <li><p>8개의 10,000 RPM 기계식 디스크 드라이브와 유사한 성능을 제공하는 SDD(반도체 드라이브)</p></li>
 </ul></td>
 </tr>
@@ -124,7 +126,7 @@ Lync Server 2013 배포에 사용 되는 특정 하드웨어는 크기 및 사�
 <td><p>CPU</p></td>
 <td><ul>
 <li><p>64 비트 이중 프로세서, 쿼드 코어, 2.0 ghz 이상</p>
-<p>-사용자나</p></li>
+<p>- 사용자나</p></li>
 <li><p>64 비트 4 방향 프로세서, 듀얼 코어, 2.0 GHz 이상</p></li>
 </ul>
 <p>Lync Server 서버 역할에는 Intel Itanium 프로세서가 지원 되지 않습니다.</p></td>
@@ -138,7 +140,7 @@ Lync Server 2013 배포에 사용 되는 특정 하드웨어는 크기 및 사�
 <td><ul>
 <li><p>72 GB 이상의 사용 가능한 디스크 공간이 있는 1만 RPM 하드 디스크 드라이브 4 개 이상</p>
 <p>디스크는 2 배의 RAID 1 구성에 있어야 합니다.</p>
-<p>-사용자나</p></li>
+<p>- 사용자나</p></li>
 <li><p>4개의 10,000 RPM 기계식 디스크 드라이브와 유사한 성능을 제공하는 SDD(반도체 드라이브)</p></li>
 </ul></td>
 </tr>

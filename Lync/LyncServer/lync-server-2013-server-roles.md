@@ -12,20 +12,22 @@ ms:contentKeyID: 48184456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e153e41e0c5d452ec136daf2ad46d4ea67541d83
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a413bde093c375a887f1ea39c435401b3ce1c4a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200754"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510265"
 ---
+# <a name="server-roles-in-lync-server-2013"></a>Lync Server 2013의 서버 역할
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-roles-in-lync-server-2013"></a>Lync Server 2013의 서버 역할
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server의 서버 역할에 대해 잘 모르는 경우에도 계획 도구�
 
   - 중재 서버
 
-  - 영화
+  - Director
 
   - 영구 채팅 프런트 엔드 서버
 
@@ -127,7 +129,7 @@ Lync Server Enterprise Edition에서 프런트 엔드 서버는 핵심 서버 �
 
 ## <a name="edge-server"></a>에지 서버
 
-에 지 서버를 사용 하면 조직의 방화벽 외부에서 사용자와 정보를 교환 하 고 공동으로 작업할 수 있습니다. 이러한 외부 사용자는 현재 오프 사이트를 사용 하 고 있는 조직 사용자, 페더레이션 파트너 조직의 사용자, Lync Server 배포에서 호스트 되는 회의에 참가 하도록 초대 된 외부 사용자 등을 포함할 수 있습니다. 또한에 지 서버는 Windows Live, AOL, Yahoo\!및 Google 대화를 비롯 한 공용 IM 연결 서비스에 대 한 연결을 사용 하도록 설정 합니다.
+에 지 서버를 사용 하면 조직의 방화벽 외부에서 사용자와 정보를 교환 하 고 공동으로 작업할 수 있습니다. 이러한 외부 사용자는 현재 오프 사이트를 사용 하 고 있는 조직 사용자, 페더레이션 파트너 조직의 사용자, Lync Server 배포에서 호스트 되는 회의에 참가 하도록 초대 된 외부 사용자 등을 포함할 수 있습니다. 또한에 지 서버는 Windows Live, AOL, Yahoo 및 Google 대화를 비롯 한 공용 IM 연결 서비스에 대 한 연결을 사용 하도록 설정 \! 합니다.
 
 <div>
 
@@ -165,7 +167,7 @@ Lync Server Enterprise Edition에서 프런트 엔드 서버는 핵심 서버 �
 
 <div>
 
-## <a name="director"></a>영화
+## <a name="director"></a>Director
 
 디렉터는 Lync Server 사용자 요청을 인증할 수 있지만, 사용자 계정이 나 현재 상태 또는 회의 서비스는 제공 하지 않습니다. 디렉터는 외부 사용자 액세스를 지원하는 배포에서 보안을 효과적으로 향상시켜줍니다. 디렉터는 요청을 내부 서버로 전송하기 전에 요청에 대한 인증을 수행할 수 있습니다. 서비스 거부 공격이 있더라도 공격이 디렉터에서 끝나고 프런트 엔드 서버에 도달하지 못합니다. 자세한 내용은 계획 설명서의 [Lync Server 2013에서 디렉터에 대 한 시나리오](lync-server-2013-scenarios-for-the-director.md) 를 참조 하십시오.
 

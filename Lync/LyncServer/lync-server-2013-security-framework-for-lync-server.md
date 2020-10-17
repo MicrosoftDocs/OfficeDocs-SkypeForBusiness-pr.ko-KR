@@ -12,20 +12,22 @@ ms:contentKeyID: 59893866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7871d662d76f47685a58384804dfc6dee3b7b1d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f84b7eaf3476624479d1ecb7c7bb564a4eae8ad9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200914"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510445"
 ---
+# <a name="security-framework-for-lync-server-2013"></a>Lync Server 2013의 보안 프레임 워크
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="security-framework-for-lync-server-2013"></a>Lync Server 2013의 보안 프레임 워크
+
 
 </div>
 
@@ -43,11 +45,11 @@ _**마지막으로 수정 된 항목:** 2013-11-08_
 
   - AD DS (Active Directory 도메인 서비스)는 사용자 계정 및 네트워크 리소스에 대해 신뢰할 수 있는 단일 백 엔드 리포지토리를 제공 합니다.
 
-  - RBAC (역할 기반 액세스 제어)를 사용 하면 보안에 대 한 높은 표준을 유지 하면서 관리 작업을 위임할 수 있습니다.
+  - RBAC (Role-Based 액세스 제어)를 사용 하면 보안에 대 한 높은 표준을 유지 하면서 관리 작업을 위임할 수 있습니다.
 
   - PKI (공개 키 인프라)에서는 신뢰할 수 있는 Ca (인증 기관)에서 발급 한 인증서를 사용 하 여 서버를 인증 하 고 데이터 무결성을 보장 합니다.
 
-  - TLS (전송 계층 보안), HTTPS를 통한 HTTPS (SSL) 및 MTLS (상호 TLS)를 사용 하도록 설정 합니다. 지점간 오디오, 비디오 및 응용 프로그램 공유 스트림은 Secure SRTP (실시간 전송 프로토콜)를 사용 하 여 암호화 됩니다.
+  - TLS (전송 계층 보안), HTTPS를 통한 HTTPS (SSL) 및 MTLS (상호 TLS)를 사용 하도록 설정 합니다. 지점간 오디오, 비디오 및 응용 프로그램 공유 스트림은 SRTP (Secure Real-Time Transport Protocol)를 사용 하 여 암호화 됩니다.
 
   - 가능한 경우 사용자 인증용으로 업계 표준 프로토콜을 사용 합니다.
 

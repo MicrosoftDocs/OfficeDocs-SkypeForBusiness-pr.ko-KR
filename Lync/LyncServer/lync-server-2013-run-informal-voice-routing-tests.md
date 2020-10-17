@@ -12,20 +12,22 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebd127948ec612be61254d97101c0dcd193eeeee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fd8c20adfa98a10bd0b9a89ad31dda37e4510e8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182899"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511165"
 ---
+# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Lync Server 2013에서 비공식 음성 라우팅 테스트 실행
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Lync Server 2013에서 비공식 음성 라우팅 테스트 실행
+
 
 </div>
 
@@ -77,7 +79,7 @@ _**마지막으로 수정 된 항목:** 2012-08-07_
     
     1.  **음성 라우팅 테스트 사례 정보 저장** 대화 상자의 **이름** 필드에 테스트 사례의 고유한 이름을 입력 합니다.
         
-        이 이름은 엔터프라이즈 음성 배포의 모든 음성 라우팅 테스트 사례에서 고유 해야 합니다. 이 길이는 최대 32 자까지 사용할 수 있으며 백슬래시 (\\), 마침표 (.) 또는 밑줄 (\_) 외에 영숫자 문자를 포함할 수도 있습니다.
+        이 이름은 엔터프라이즈 음성 배포의 모든 음성 라우팅 테스트 사례에서 고유 해야 합니다. 이 길이는 최대 32 자까지 사용할 수 있으며 백슬래시 ( \\ ), 마침표 (.) 또는 밑줄 () 외에 영숫자 문자를 포함할 수도 있습니다. \_
     
     2.  **음성 라우팅 테스트 사례 정보 저장** 대화 상자에서 나머지 필드는 읽기 전용 이며 비공식적인 테스트 구성 *및* 결과에서 미리 채워집니다. 테스트 사례에 대해 저장 하려는 구성 인지 확인 합니다.
         

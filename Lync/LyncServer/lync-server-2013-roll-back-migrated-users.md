@@ -12,20 +12,22 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05678690718563dac9187ee275d3809016b78d33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: deda1ec30ef5267acd8b3826b77077e7902d98e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208494"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511265"
 ---
+# <a name="roll-back-migrated-users-in-lync-server-2013"></a>Lync Server 2013에서 마이그레이션된 사용자 롤백
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="roll-back-migrated-users-in-lync-server-2013"></a>Lync Server 2013에서 마이그레이션된 사용자 롤백
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208494"
 
 _**마지막으로 수정 된 항목:** 2012-10-07_
 
-통합 연락처 저장소 기능을 롤백해야 하는 경우 사용자를 다시 Exchange 2010 또는 Lync Server 2010로 이동 하는 경우에만 연락처를 롤백합니다. 롤백하려면 사용자에 대 한 정책을 사용 하지 않도록 설정한 다음 **invoke-csucsrollback** cmdlet을 실행 합니다. 정책이 사용 하지 않도록 설정 되어 있지 않은 경우 통합 된 연락처 저장소 마이그레이션은 다시 시작 되므로, **invoke-csucsrollback** 단독으로 실행 하는 것 만으로는 영구 롤백을 보장할 수 없습니다. 예를 들어 Exchange 2013이 exchange 2010로 롤백 되 고 사용자의 사서함이 Exchange 2013로 이동 된 경우 통합 연락처 저장소 마이그레이션은 통합 연락처 저장소 보다 7 일 후에 다시 시작 됩니다. 은 사용자 서비스 정책에서 해당 사용자에 대해 계속 사용 하도록 설정 되어 있습니다.
+통합 연락처 저장소 기능을 롤백해야 하는 경우 사용자를 다시 Exchange 2010 또는 Lync Server 2010로 이동 하는 경우에만 연락처를 롤백합니다. 롤백하려면 사용자에 대 한 정책을 사용 하지 않도록 설정한 다음 **invoke-csucsrollback** cmdlet을 실행 합니다. 정책이 사용 하지 않도록 설정 되어 있지 않은 경우 통합 된 연락처 저장소 마이그레이션은 다시 시작 되므로, **invoke-csucsrollback** 단독으로 실행 하는 것 만으로는 영구 롤백을 보장할 수 없습니다. 예를 들어 Exchange 2013이 exchange 2010로 롤백 되었기 때문에 사용자의 사서함이 Exchange 2013으로 이동 된 경우 사용자 서비스 정책에서 통합 연락처 저장소를 계속 해 서 사용 하는 경우 통합 연락처 저장소 마이그레이션은 롤백 후 7 일이 지나면 다시 시작 됩니다.
 
 <div>
 
@@ -91,7 +93,7 @@ _**마지막으로 수정 된 항목:** 2012-10-07_
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
-    예:
+    예를 들면 다음과 같습니다.
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
@@ -110,7 +112,7 @@ _**마지막으로 수정 된 항목:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    예:
+    예를 들면 다음과 같습니다.
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
@@ -143,7 +145,7 @@ _**마지막으로 수정 된 항목:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    예:
+    예를 들면 다음과 같습니다.
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     

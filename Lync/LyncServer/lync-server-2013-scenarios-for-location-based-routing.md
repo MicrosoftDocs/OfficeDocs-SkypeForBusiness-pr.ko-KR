@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 위치 기반 라우팅에 대 한 시나리오'
+title: 'Lync Server 2013: Location-Based 라우팅에 대 한 시나리오'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803975
 ms.date: 08/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 702c777219346af1b35bc70e0fd88a09ad07dae9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f896340a97b9d61ab9b463061d135a9871940335
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182661"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510845"
 ---
+# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013의 Location-Based 라우팅에 대 한 시나리오
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013의 위치 기반 라우팅에 대 한 시나리오
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42182661"
 
 _**마지막으로 수정 된 항목:** 2014-08-11_
 
-위치 기반 라우팅은 다음 시나리오에서 통화를 라우팅할 때 다음과 같은 일반 규칙을 적용 합니다.
+Location-Based 라우팅은 다음 시나리오에서 통화를 라우팅할 때 다음과 같은 일반 규칙을 적용 합니다.
 
 <div>
 
@@ -53,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2014-08-11_
 
   - [Lync Server 2013의 위임](lync-server-2013-delegation.md)
 
-  - [Lync Server 2013의 위치 기반 라우팅을 사용한 팀 호출](lync-server-2013-team-calling-with-location-based-routing.md)
+  - [Lync Server 2013에서 Location-Based 라우팅을 사용 하 여 팀 호출](lync-server-2013-team-calling-with-location-based-routing.md)
 
 </div>
 
@@ -62,7 +64,7 @@ _**마지막으로 수정 된 항목:** 2014-08-11_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013의 위치 기반 라우팅 계획](lync-server-2013-planning-for-location-based-routing.md)  
+[Lync Server 2013의 Location-Based 라우팅 계획](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

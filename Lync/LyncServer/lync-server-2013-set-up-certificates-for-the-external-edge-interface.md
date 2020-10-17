@@ -12,20 +12,22 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec2bad8f01e773d50f8d722ddbbf4be0757cb31d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a190c50ece2b2e5be0f8597851541c71cfbb4e49
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200612"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509885"
 ---
+# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Lync Server 2013의 외부에 지 인터페이스에 대 한 인증서 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Lync Server 2013의 외부에 지 인터페이스에 대 한 인증서 설정
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**마지막으로 수정 된 항목:** 2012-09-08_
 
 이 인증서 요구 사항에 대 한 자세한 내용은 [Lync Server 2013의 외부 사용자 액세스에 대 한 인증서 요구 사항을](lync-server-2013-certificate-requirements-for-external-user-access.md)참조 하십시오.
 
-통합 통신 인증서에 대 한 특정 요구 사항을 준수 하 고 Microsoft와 제휴 하 여 Lync Server 2013 인증서 마법사와 함께 사용할 수 있도록 하는 인증서를 제공 하는 공용 Ca (인증 기관) 목록은 Microsoft 기술 자료 문서 929395, "Exchange Server 및 통신 서버용 통합 커뮤니케이션 인증서 파트너"를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
+통합 통신 인증서에 대 한 특정 요구 사항을 준수 하 고 Microsoft와 제휴 하 여 Lync Server 2013 인증서 마법사와 함께 사용할 수 있도록 하는 인증서를 제공 하는 공용 Ca (인증 기관) 목록은 Microsoft 기술 자료 문서 929395, "Exchange Server 및 통신 서버용 통합 커뮤니케이션 인증서 파트너"를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
 <div>
 
@@ -96,7 +98,7 @@ _**마지막으로 수정 된 항목:** 2012-09-08_
 
 4.  **지연 또는 즉시 요청** 페이지에서 **지금 요청을 준비하고 나중에 보냅니다** 확인란을 선택합니다.
 
-5.  **인증서 요청 파일** 페이지에서 요청을 저장할 파일의 전체 경로와 파일 이름을 입력 합니다 (예를 들어, c:\\cert\_외부\_에 있는 .cer).
+5.  **인증서 요청 파일** 페이지에서 요청을 저장할 파일의 전체 경로와 파일 이름을 입력 합니다 (예를 들어, c: \\ cert 외부에 있는 \_ \_ .cer).
 
 6.  **대체 인증서 템플릿 지정** 페이지에서 기본 WebServer 템플릿이 아닌 다른 템플릿을 사용하려면 **선택한 인증 기관에 대체 인증서 템플릿 사용** 확인란을 선택합니다.
 
@@ -114,7 +116,7 @@ _**마지막으로 수정 된 항목:** 2012-09-08_
 
 10. **주체 이름/주체 대체 이름** 페이지에 마법사에서 자동으로 채울 정보가 표시됩니다. 추가 주체 대체 이름이 필요한 경우 다음 두 단계에서 지정합니다.
 
-11. **주체 대체 이름 (san)에 대 한 Sip 도메인 설정** 페이지에서 sip를 추가 하려면 도메인 확인란을 선택 합니다. \<주체\> 대체 이름 목록에 microsoft.rtc.management.xds.sipdomain object 항목을 입력 합니다.
+11. **주체 대체 이름 (san)에 대 한 Sip 도메인 설정** 페이지에서 sip를 추가 하려면 도메인 확인란을 선택 합니다.\<sipdomain\> 주체 대체 이름 목록에 항목을 입력 합니다.
 
 12. **추가 주체 대체 이름 구성** 페이지에서 필요한 추가 주체 대체 이름을 지정합니다.
 
@@ -144,7 +146,7 @@ _**마지막으로 수정 된 항목:** 2012-09-08_
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Lync Server 2013에 제공 되는 템플릿의 기본 인증서 이름은 웹 서버입니다. 기본 서식 파일과 \<다른 서식\> 파일을 사용 해야 하는 경우에만 서식 파일 이름을 지정 합니다.
+    Lync Server 2013에 제공 되는 템플릿의 기본 인증서 이름은 웹 서버입니다. \<template name\>기본 서식 파일과 다른 서식 파일을 사용 해야 하는 경우에만 지정 합니다.
     
     <div>
     
@@ -239,7 +241,7 @@ _**마지막으로 수정 된 항목:** 2012-09-08_
     
     </div>
 
-9.  파일 형식 내보내기 대화 상자에서 **개인 정보 교환-PKCS\#12 (을 클릭 합니다. PFX)** 를 선택한 후 다음을 선택 합니다.
+9.  파일 형식 내보내기 대화 상자에서 **개인 정보 교환-PKCS \# 12 (을 클릭 합니다. PFX)** 를 선택한 후 다음을 선택 합니다.
     
       - 가능하면 인증 경로에 있는 인증서를 모두 포함합니다.
     

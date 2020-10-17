@@ -12,20 +12,22 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aba7d5f1b279ba83a5a6053d2197c90253dd84ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1432480cbe62aedfc5c05362cc322d971c3cb321
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510865"
 ---
+# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Lync Server 2013에서 바이러스 검사 및 바이러스 정의 확인
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Lync Server 2013에서 바이러스 검사 및 바이러스 정의 확인
+
 
 </div>
 
@@ -47,7 +49,7 @@ Lync Server에 대 한 Forefront 보안 외에도 파일 수준 바이러스 백
 
 
 > [!IMPORTANT]  
-> Lync server를 2013 실행 하는 서버에서 타사 파일 수준 바이러스 백신 소프트웨어를 사용 하는 경우에는 lync server에 대해 Forefront Security 및 Lync server가 설치 되어 있는 폴더를 검색 하지 않도록 합니다. 손상 전체 제외 항목 목록은를 참조 <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>하세요.
+> Lync server 2013을 실행 하는 서버에서 타사 파일 수준 바이러스 백신 소프트웨어를 사용 하는 경우 lync server에 대해 Forefront Security을 설치 하는 경우에는이를 방지 하기 위해 Lync 서버 및 Lync Server를 설치한 폴더를 검사 하지 않아야 합니다. 전체 제외 항목 목록은를 참조 하세요 <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A> .
 
 
 

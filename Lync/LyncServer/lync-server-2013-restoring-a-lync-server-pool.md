@@ -12,20 +12,22 @@ ms:contentKeyID: 51541488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 294b276dbfe12af7b6b2fbd1bca285920431ce9c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e4612fb48c2e526fa501ebc5f7342d7797ca47b8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511605"
 ---
+# <a name="restoring-a-lync-server-pool-in-lync-server-2013"></a>Lync Server 2013에서 Lync Server 풀 복원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-lync-server-pool-in-lync-server-2013"></a>Lync Server 2013에서 Lync Server 풀 복원
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server 배포에는 다음과 같은 유형의 풀이 포함 될 수 있습
 
   - 중재 서버
 
-  - 영구 채팅 서버
+  - 영구적 채팅 서버
 
   - 에지 서버
 

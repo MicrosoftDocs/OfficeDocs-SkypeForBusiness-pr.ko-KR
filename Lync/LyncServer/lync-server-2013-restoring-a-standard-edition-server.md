@@ -12,20 +12,22 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77c49b7d1b02fc2d1cb41efd3fd68213fa8a0dfb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 479e4c690d0ca7931631f3bc553d1dafc2a10ea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201394"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511565"
 ---
+# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Lync Server 2013에서 Standard Edition server 복원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Lync Server 2013에서 Standard Edition server 복원
+
 
 </div>
 
@@ -85,7 +87,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
     
     3.  토폴로지를 선택한 후 **저장**을 클릭합니다. **예**를 클릭하여 선택을 확인합니다.
 
-5.  Lync Server 설치 폴더 또는 미디어로 이동한 후 설치 \\\\Amd64\\setup.exe에서 lync server 배포 마법사를 시작 합니다. Lync Server 배포 마법사를 사용 하 여 다음을 수행 합니다.
+5.  Lync Server 설치 폴더 또는 미디어로 이동한 후 \\ 설치 amd64Setup.exe에 있는 Lync Server 배포 마법사를 시작 합니다 \\ \\ . Lync Server 배포 마법사를 사용 하 여 다음을 수행 합니다.
     
     1.  **1단계: 로컬 구성 저장소 설치**를 실행하여 로컬 구성 파일을 설치합니다.
     
@@ -99,7 +101,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 6.  다음을 수행하여 사용자 데이터를 복원합니다.
     
-    1.  $Backup\\ 에서 로컬 디렉터리로 ExportedUserData를 복사 합니다.
+    1.  $Backup에서 \\ 로컬 디렉터리로 ExportedUserData.zip를 복사 합니다.
     
     2.  사용자 데이터를 복원 하기 전에 Lync services를 중지 해야 합니다. 이렇게 하려면 다음을 입력 합니다.
         
@@ -123,7 +125,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
     
     SQL Server 백업을 사용 하 여 영구 채팅 데이터베이스를 백업 하는 경우 SQL Server 복원 절차를 사용 하 여 복원 합니다.
     
-    Export-cspersistentchatdata cmdlet을 사용 하 여 백업 하는 경우 Export-cspersistentchatdata를 사용 하 여 복원 합니다.
+    Export-CsPersistentChatData cmdlet을 사용 하 여 백업한 경우에는 Import-CsPersistentChatData를 사용 하 여 복원 합니다.
 
 </div>
 

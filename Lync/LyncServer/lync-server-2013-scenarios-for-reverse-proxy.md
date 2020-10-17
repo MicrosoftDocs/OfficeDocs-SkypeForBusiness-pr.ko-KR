@@ -12,20 +12,22 @@ ms:contentKeyID: 48183468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af3b987cfc1a982139aa0151e43918f0ed082034
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 767df1e427cd29e9437b4bd04d2859b382b48267
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510835"
 ---
+# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013의 역방향 프록시에 대 한 시나리오
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013의 역방향 프록시에 대 한 시나리오
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Server 2013에는 모임 및 전화 접속 단순 Url, 주소록, 모임 �
 
 Lync Server 2013 배포를 계획할 때는 Lync Server 2013에 대 한 실제 요구 사항을 역방향 프록시 기능에 매핑합니다.
 
-1.  외부 클라이언트는 TCP 443 포트의 역방향 프록시에 연결 되 고 SSL (secure sockets layer) 또는 TLS (전송 계층 보안)를 사용 합니다. Microsoft Lync 모바일 클라이언트는 TCP 80 포트에 연결할 수 있지만, Lync 검색 서비스에 대 한 초기 연결을 수행 하 고 관리자가 적절 한 DNS (domain name system) CNAME (또는 별칭) 레코드를 구성한 경우에만이 통신은 암호화 되지 않습니다.
+1.  외부 클라이언트는 TCP 443 포트의 역방향 프록시에 연결 되 고 SSL (secure sockets layer) 또는 TLS (전송 계층 보안)를 사용 합니다. Microsoft Lync 모바일 클라이언트는 TCP 80 포트에 연결할 수 있지만, Lync 검색 서비스에 대 한 초기 연결을 수행 하 고 관리자가 적절 한 DNS (domain name system) CNAME (또는 별칭) 레코드를 구성한 경우에만이 통신이 암호화 되지 않을 수 있습니다.
 
 2.  Lync Server 2013 external web services (프런트 엔드 서버 및/또는 디렉터에 배포 됨)는 TCP 4443 포트의 역방향 프록시 연결을 기대 하며 연결이 SSL/TLS가 될 것으로 예상 합니다.
     
@@ -78,7 +80,7 @@ Lync Server 2013 배포를 계획할 때는 Lync Server 2013에 대 한 실제 �
     
       - Lync Windows 스토어 앱, Lync Mobile 및 데스크톱 클라이언트 Lync 2013에 대 한 "자동 검색" vDir Lync Server 2013의 자동 검색은 DNS 이름 "lyncdiscover"에서 알 수 있습니다.
     
-      - 정의 되지 않은 서비스는 외부 웹 서비스를 직접 호출 하 여 외부 클라이언트에서 액세스 합니다. 예를 들어 DLX (메일 그룹 확장) 및 ABS (주소록 서비스)에는 외부 웹 서비스 및 관련 vDirs에 대 한 직접 호출을 통해 액세스 합니다. 클라이언트는 vDir의 실제 경로를 알고 있으며이 정보를 기반으로 하 여 URL (uniform record locator)을 생성 합니다. 클라이언트는 다음과 비슷한 URL을 사용 하 여 주소록 서비스에 액세스 합니다.`https://externalweb.contoso.com/abs/handler`
+      - 정의 되지 않은 서비스는 외부 웹 서비스를 직접 호출 하 여 외부 클라이언트에서 액세스 합니다. 예를 들어 DLX (메일 그룹 확장) 및 ABS (주소록 서비스)에는 외부 웹 서비스 및 관련 vDirs에 대 한 직접 호출을 통해 액세스 합니다. 클라이언트는 vDir의 실제 경로를 알고 있으며이 정보를 기반으로 하 여 URL (uniform record locator)을 생성 합니다. 클라이언트는 다음과 비슷한 URL을 사용 하 여 주소록 서비스에 액세스 합니다. `https://externalweb.contoso.com/abs/handler`
     
       - Lync Server 토폴로지의 일부로 회의를 정의 하 고 구성 하는 경우 Office Web Apps 서버
         

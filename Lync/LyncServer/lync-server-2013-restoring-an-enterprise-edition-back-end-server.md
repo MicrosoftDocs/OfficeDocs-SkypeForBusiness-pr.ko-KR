@@ -12,20 +12,22 @@ ms:contentKeyID: 51541446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9aee487bb9e1a42c7a02e384101b81625482116
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9780963614a1d0f5049fdc5226391e2ee2b6d59c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511545"
 ---
+# <a name="restoring-an-enterprise-edition-back-end-server-in-lync-server-2013"></a>Lync Server 2013에서 Enterprise Edition 백 엔드 서버 복원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-back-end-server-in-lync-server-2013"></a>Lync Server 2013에서 Enterprise Edition 백 엔드 서버 복원
+
 
 </div>
 
@@ -121,7 +123,7 @@ _**마지막으로 수정 된 항목:** 2013-02-18_
 
 5.  다음을 수행하여 사용자 데이터를 복원합니다.
     
-    1.  $Backup\\ 에서 로컬 디렉터리로 ExportedUserData를 복사 합니다.
+    1.  $Backup에서 \\ 로컬 디렉터리로 ExportedUserData.zip를 복사 합니다.
     
     2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
     

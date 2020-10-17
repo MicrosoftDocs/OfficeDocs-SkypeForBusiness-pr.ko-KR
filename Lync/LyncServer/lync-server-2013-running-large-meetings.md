@@ -12,20 +12,22 @@ ms:contentKeyID: 48185603
 ms.date: 01/17/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57928214d86d2d6c931de90ca40c83501e366f2d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5992715ea6f54161086cb09784982c85c64d148
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201154"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511135"
 ---
+# <a name="running-large-meetings-in-lync-server-2013"></a>Lync Server 2013에서 대규모 모임 실행
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-large-meetings-in-lync-server-2013"></a>Lync Server 2013에서 대규모 모임 실행
+
 
 </div>
 

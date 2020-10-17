@@ -12,20 +12,22 @@ ms:contentKeyID: 48184787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eeb9338943d17be1c970b4aa2ffc04d5e2c8cb86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20229f7bbc600b6a54bf28b13b9d5c14e8cbeb28
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182261"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510045"
 ---
+# <a name="set-a-kerberos-authentication-account-password-on-a-server-in-lync-server-2013"></a>Lync Server 2013에서 서버에 대해 Kerberos 인증 계정 암호 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-a-kerberos-authentication-account-password-on-a-server-in-lync-server-2013"></a>Lync Server 2013에서 서버에 대해 Kerberos 인증 계정 암호 설정
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2012-01-16_
 
 이 절차를 성공적으로 완료하려면 RTCUniversalServerAdmins 그룹의 구성원인 사용자로 로그온해야 합니다.
 
-프런트 엔드 서버, Standard Edition 서버 및 디렉터를 포함 하는 각 사이트의 Kerberos 계정에 대해 암호를 설정 해야 합니다. 사이트의 한 서버 (예: 프런트 엔드 서버 1 개)에서 **c44er4osaccountpassword** Windows PowerShell cmdlet을 실행 하 여 암호를 설정할 수 있습니다. 각 사이트에 대해 **c44er4osaccountpassword** cmdlet을 실행 해야 합니다. 이 cmdlet은 웹 서비스 서비스에 대 한 IIS (인터넷 정보 서비스)를 구성한 다음 Active Directory 도메인 서비스의 컴퓨터 계정에 대 한 암호를 설정 합니다. Cmdlet에서 사용 되는 매개 변수를 기반으로 하는 대체 방법은 Kerberos 계정 암호의 원본으로 구성 된 다른 서버를 사용 하는 동안 한 서버에서 IIS를 구성 합니다.
+프런트 엔드 서버, Standard Edition 서버 및 디렉터를 포함 하는 각 사이트의 Kerberos 계정에 대해 암호를 설정 해야 합니다. 사이트의 한 서버 (예: 프런트 엔드 서버 1 개)에서 **C44er4osaccountpassword**Windows PowerShell cmdlet을 실행 하 여 암호를 설정할 수 있습니다   . 각 사이트에 대해 **C44er4osaccountpassword**cmdlet을 실행 해야 합니다   . 이 cmdlet은 웹 서비스 서비스에 대 한 IIS (인터넷 정보 서비스)를 구성한 다음 Active Directory 도메인 서비스의 컴퓨터 계정에 대 한 암호를 설정 합니다. Cmdlet에서 사용 되는 매개 변수를 기반으로 하는 대체 방법은 Kerberos 계정 암호의 원본으로 구성 된 다른 서버를 사용 하는 동안 한 서버에서 IIS를 구성 합니다.
 
 **C4eercosaccountpassword** cmdlet을 사용 하 여 암호를 설정 하는 경우 Kerberos는 임의로 생성 된 문자열로 암호를 설정 합니다. 이 cmdlet은이 계정이 할당 된 모든 Lync Server 2013 중앙 사이트의 모든 IIS 인스턴스에 연결 합니다.
 

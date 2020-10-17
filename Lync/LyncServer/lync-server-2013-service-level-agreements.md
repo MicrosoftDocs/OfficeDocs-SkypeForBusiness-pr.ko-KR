@@ -12,20 +12,22 @@ ms:contentKeyID: 63969580
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f902a946d272ce3a16db5f032b74ec031c7e3a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7dbc961068a0b0efe0e9d540d1e95540d9dd88cd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200794"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510115"
 ---
+# <a name="service-level-agreements-in-lync-server-2013"></a>Lync Server 2013의 서비스 수준 계약
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="service-level-agreements-in-lync-server-2013"></a>Lync Server 2013의 서비스 수준 계약
+
 
 </div>
 
@@ -63,11 +65,11 @@ SLA는 고객이 기대 하는 서비스를 정의 하는 문서입니다. 이 �
 
 Sla에는 최소 수준의 가용성, 지원 및 용량 기준을 정의 하는 섹션이 포함 되어 있습니다.
 
-  - **가용성**   사이트 및 기타 Lync services를 사용할 수 있는 시간 및 운영 체제를 정의 합니다. 서비스 가용성에 영향을 주는 모든 루틴 유지 관리는 정의 해야 합니다. 서비스에 영향을 주는 외부 요인 (예: 인터넷 연결 손실)을 정의 합니다.
+  - **가용성**     사이트 및 기타 Lync 서비스를 사용할 수 있는 시간 및 운영 체제를 정의 합니다. 서비스 가용성에 영향을 주는 모든 루틴 유지 관리는 정의 해야 합니다. 서비스에 영향을 주는 외부 요인 (예: 인터넷 연결 손실)을 정의 합니다.
 
-  - **지원**   시스템에 대 한 지원이 제공 되는 시간을 정의 합니다. 고객이 지원 담당자에 게 연락 하 고, 인시던트를 그룹화 하 고, 응답 하 고, 문제를 해결할 시간을 지정할 수 있는 방법을 지정 합니다. 고객에 대 한 의견의 빈도 및 콘텐츠를 정의 합니다.
+  - **지원**     시스템에 대 한 지원이 제공 되는 시간을 정의 합니다. 고객이 지원 담당자에 게 연락 하 고, 인시던트를 그룹화 하 고, 응답 하 고, 문제를 해결할 시간을 지정할 수 있는 방법을 지정 합니다. 고객에 대 한 의견의 빈도 및 콘텐츠를 정의 합니다.
 
-  - **용량은**   Lync 사이트의 최대 사용 가능 크기와 제한 값을 초과 하는 경우 수행할 단계를 정의 합니다. 표준 작업을 수행 하는 데 사용할 수 있는 최대 시간 (예: 문서 라이브러리에서 문서를 검색 하는 시간)을 정의 합니다. Lync 풀 당 최대 사용자 수를 정의 하 고 더 많은 사용자를 추가할 경우 용량을 늘리기 위해 프로세스에 동의 합니다.
+  - **용량**     Lync 사이트의 최대 사용 가능 크기 및 제한을 초과 하는 경우 수행할 단계를 정의 합니다. 표준 작업을 수행 하는 데 사용할 수 있는 최대 시간 (예: 문서 라이브러리에서 문서를 검색 하는 시간)을 정의 합니다. Lync 풀 당 최대 사용자 수를 정의 하 고 더 많은 사용자를 추가할 경우 용량을 늘리기 위해 프로세스에 동의 합니다.
 
 </div>
 

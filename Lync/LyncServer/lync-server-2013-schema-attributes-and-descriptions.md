@@ -12,20 +12,22 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1c8259312e3ba4e939bd784e189f5aae495605d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcd4c3f3da44be2721d1c6bfc1c1ceece47b6232
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182671"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510875"
 ---
+# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Lync Server 2013의 스키마 특성 및 설명
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Lync Server 2013의 스키마 특성 및 설명
+
 
 </div>
 
@@ -546,7 +548,7 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
 <td><p>Msrtcsip-gateways-MCUFactoryData</p></td>
 <td><p>이는 다중 문자열 예약 특성입니다. 이 특성에 저장 된 설정은 이름 = 값 쌍으로 표현 됩니다. 현재 정의 된 이름 = 값 쌍은 다음과 같습니다.</p>
 <ul>
-<li><p>FactoryURL = &lt;URL&gt;</p></li>
+<li><p>FactoryURL = &lt; URL&gt;</p></li>
 </ul></td>
 <td><p>Office Communications Server 2007의 새로운 정보</p></td>
 </tr>
@@ -769,7 +771,7 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>Msrtcsip-gateways-PoolDomainFQDN</p></td>
-<td><p>이 특성은 단일 값 문자열입니다. 이 특성의 값이 있으면 관리자가 프런트 엔드 풀을 만들 때 사용 하는 Active Directory 도메인 구조를 따르지 않는 프런트 엔드 풀 (예: SIP)을 만들려는 경우 해당 풀의 도메인 FQDN을 나타냅니다. DNS (Domain Name System) 네임 스페이스에서의 네임 스페이스 해제</p>
+<td><p>이 특성은 단일 값 문자열입니다. 이 특성의 값이 있으면 관리자가 프런트 엔드 풀을 만든 Active Directory 도메인 구조를 따르지 않는 프런트 엔드 풀 (예: DNS (Domain Name System) 네임 스페이스에 있는 SIP 네임 스페이스)을 만들려는 경우 해당 풀의 도메인 FQDN을 나타냅니다.</p>
 <p>프런트 엔드 풀 도메인 FQDN을 해당 풀이 상주 하는 Active Directory 도메인으로 도메인 이름 부분에 매핑하는 것이 좋습니다. 따라서이 특성에 값이 없는 경우에는 <strong>dnsHostName</strong> 특성으로 표시 되는 대로 프런트 엔드 풀 FQDN이 Active Directory 도메인 이름 구조를 기본값으로 합니다.</p></td>
 <td><p>Office Communications Server 2007의 새로운 정보</p></td>
 </tr>
@@ -1082,7 +1084,7 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>Msrtcsip-gateways-UserExtension</p></td>
-<td><p>이 다중 값 특성에는 name = 값 형식의 &quot;이름-값 쌍 목록이 들어 있습니다. &quot; 이 특성은 글로벌 카탈로그 복제로 표시 됩니다.</p></td>
+<td><p>이 다중 값 특성에는 name = 값 형식의 이름-값 쌍 목록이 들어 있습니다 &quot; . &quot; 이 특성은 글로벌 카탈로그 복제로 표시 됩니다.</p></td>
 <td><p>Live Communications Server 2005 SP1의 새로운 정보</p></td>
 </tr>
 <tr class="odd">
@@ -1148,7 +1150,7 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>ProxyAddresses</p></td>
-<td><p>이 기존 Active Directory 다중 값 특성은 Windows 2000에서 도입 된 기본 Active Directory 스키마의 일부입니다. 이 특성은 사용자 전자 메일의 다양 한 X400, X500 및 SMTP 주소를 포함 합니다. Live Communications Server 2003 이상에서는 &quot;sip:&quot; 태그를 사용 하 여 사용자의 sip URI가이 목록에 추가 됩니다.</p>
+<td><p>이 기존 Active Directory 다중 값 특성은 Windows 2000에서 도입 된 기본 Active Directory 스키마의 일부입니다. 이 특성은 사용자 전자 메일의 다양 한 X400, X500 및 SMTP 주소를 포함 합니다. Live Communications Server 2003 이상에서는 sip: 태그를 사용 하 여 사용자의 SIP URI가이 목록에 추가 됩니다 &quot; &quot; .</p>
 <p>다음 응용 프로그램은이 특성에서 사용자의 SIP URI를 검색 합니다.</p>
 <ul>
 <li><p>Microsoft Office Outlook 2003 메시징 및 공동 작업 클라이언트</p></li>

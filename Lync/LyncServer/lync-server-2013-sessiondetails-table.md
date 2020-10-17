@@ -12,20 +12,22 @@ ms:contentKeyID: 48184559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfdf5552f150b23c50e8ad6867e90f96a6b586fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e49cb6a5715b95758a5e7520c69dd45b757b10c7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182311"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510055"
 ---
+# <a name="sessiondetails-table-in-lync-server-2013"></a>Lync Server 2013의 SessionDetails 테이블
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessiondetails-table-in-lync-server-2013"></a>Lync Server 2013의 SessionDetails 테이블
+
 
 </div>
 
@@ -255,7 +257,7 @@ IsUser1IntegratedWithDeskPhone 및 IsUser2IntegratedWithDeskPhone 필드는 Micr
 <tbody>
 <tr class="odd">
 <td><p>메시징을</p></td>
-<td><p>개</p></td>
+<td><p>1 </p></td>
 </tr>
 <tr class="even">
 <td><p>FILE_TRANSFER</p></td>
@@ -263,7 +265,7 @@ IsUser1IntegratedWithDeskPhone 및 IsUser2IntegratedWithDeskPhone 필드는 Micr
 </tr>
 <tr class="odd">
 <td><p>REMOTE_ASSISTANCE</p></td>
-<td><p>1-4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="even">
 <td><p>APP_SHARING</p></td>
@@ -325,7 +327,7 @@ IsUser1IntegratedWithDeskPhone 및 IsUser2IntegratedWithDeskPhone 필드는 Micr
 </table>
 
 
-\*대부분의 세션에서 SessionIdSeq는 값 1을 갖습니다. 여러 세션이 정확히 동시에 시작될 경우 한 세션에 대한 SessionIdSeq가 1이 되고 다른 세션에 대해서는 2, 3, 4의 순서로 지정됩니다.
+\* 대부분의 세션에서 SessionIdSeq는 값 1을 갖습니다. 여러 세션이 정확히 동시에 시작될 경우 한 세션에 대한 SessionIdSeq가 1이 되고 다른 세션에 대해서는 2, 3, 4의 순서로 지정됩니다.
 
 </div>
 

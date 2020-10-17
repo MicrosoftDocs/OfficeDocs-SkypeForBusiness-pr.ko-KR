@@ -12,20 +12,22 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e48af9dd5b35676ee0141b771f8e50e1fbdedae6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b958b10fc8c801d680cf17cac8fb493eae82df8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201354"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511451"
 ---
+# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Lync Server 2013에서 Enterprise Edition 구성원 서버 복원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Lync Server 2013에서 Enterprise Edition 구성원 서버 복원
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**마지막으로 수정 된 항목:** 2013-02-18_
 
   - 중재 서버
 
-  - 영화
+  - Director
 
-  - 영구 채팅 서버
+  - 영구적 채팅 서버
 
   - 에지 서버
 
@@ -76,7 +78,7 @@ _**마지막으로 수정 된 항목:** 2013-02-18_
 
 2.  RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정에서 복원 중인 서버에 로그온 합니다.
 
-3.  Lync Server 설치 폴더 또는 미디어로 이동 하 여 설치 \\\\Amd64\\Setup.exe에 있는 lync server 배포 마법사를 시작 합니다.
+3.  Lync Server 설치 폴더 또는 미디어로 이동 하 여 \\ setup amd64Setup.exe에 있는 Lync Server 배포 마법사를 시작 합니다 \\ \\ .
 
 4.  배포 마법사에 따라 다음을 수행합니다.
     

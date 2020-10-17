@@ -12,20 +12,22 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35e7e0f3cfe38a7a1c4802eca16c37a62013cecb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b40f2c316216b01415b3e58d5d59c97421439d2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510305"
 ---
+# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Lync Server 2013의 서버 미디어 품질 추세 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Lync Server 2013의 서버 미디어 품질 추세 보고서
+
 
 </div>
 
@@ -82,14 +84,14 @@ _**마지막으로 수정 된 항목:** 2012-11-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>From</strong></p></td>
+<td><p><strong>시작</strong></p></td>
 <td><p>시간 범위의 시작 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜 및 시간을 입력합니다.</p>
 <p>7/7/2012 1:00 PM</p>
 <p>시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
 <p>7/7/2012</p>
 <p>주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</p>
 <p>7/3/2012</p>
-<p>주는 항상 일요일부터 토요일까지입니다.</p></td>
+<p>주는 항상 일요일부터 토요일까지로 실행됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -124,7 +126,7 @@ _**마지막으로 수정 된 항목:** 2012-11-12_
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Servers</strong></p></td>
+<td><p><strong>서버</strong></p></td>
 <td><p>세션에 포함된 서버 이름입니다. 이 드롭다운 목록은 서버 유형 필터 값에 따라 자동으로 채워집니다. 보고서를 컴파일할 때는 최대 5개의 서버를 선택할 수 있습니다.</p></td>
 </tr>
 <tr class="even">
@@ -132,8 +134,8 @@ _**마지막으로 수정 된 항목:** 2012-11-12_
 <td><p>참가자가 내부 네트워크 또는 외부 네트워크에 로그온되었는지 여부를 나타냅니다. 허용된 값은 다음과 같습니다.</p>
 <ul>
 <li><p>모든</p></li>
-<li><p>Internal</p></li>
-<li><p>외부:</p></li>
+<li><p>내부</p></li>
+<li><p>외부</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -162,7 +164,7 @@ _**마지막으로 수정 된 항목:** 2012-11-12_
 
 <div>
 
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에서는 서버 미디어 품질 추세 보고서에 제공되는 정보를 보여 줍니다.
 
@@ -212,7 +214,7 @@ _**마지막으로 수정 된 항목:** 2012-11-12_
 <tr class="even">
 <td><p><strong>지터(밀리초)</strong></p></td>
 <td><p>아니요</p></td>
-<td><p>RTP 패킷 도착 시간 사이에 발견된 평균 지터입니다. (지터는 통화의 &quot;shakiness&quot; 을 측정 한 것입니다.) 높은 지터 값은 일반적으로 혼잡 또는 오버 로드 된 미디어 서버로 인해 발생 하며 오디오가 왜곡 되거나 손실 될 수 있습니다.</p></td>
+<td><p>RTP 패킷 도착 시간 사이에 발견된 평균 지터입니다. (지터는 통화의 shakiness을 측정 한 것 &quot; &quot; 입니다.) 높은 지터 값은 일반적으로 혼잡 또는 오버 로드 된 미디어 서버로 인해 발생 하며 오디오가 왜곡 되거나 손실 될 수 있습니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>힐러 숨김 비율</strong></p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66d883b48d1269fff8a57594101f083c88f1fbd1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8baf67ce72103ef0dda64a9b0b43a8f6dd6402f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510065"
 ---
+# <a name="sessiondetails-view-in-lync-server-2013"></a>Lync Server 2013의 SessionDetails 보기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessiondetails-view-in-lync-server-2013"></a>Lync Server 2013의 SessionDetails 보기
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200714"
 
 _**마지막으로 수정 된 항목:** 2012-10-01_
 
-SessionDetails view에는 피어 투 피어 세션에 대 한 정보, 즉 VoIP 전화 통화, 두 사용자의 IM 세션 또는 기타 유형의 세션이 저장 됩니다. 이 보기는 Microsoft Lync Server 2013에 도입 되었습니다.
+SessionDetails 보기에는 피어 투 피어 세션에 대 한 정보, 즉 VoIP-VoIP 전화 통화, 두 사용자의 IM 세션 또는 기타 세션 유형이 저장 됩니다. 이 보기는 Microsoft Lync Server 2013에 도입 되었습니다.
 
 
 <table>
@@ -242,12 +244,12 @@ SessionDetails view에는 피어 투 피어 세션에 대 한 정보, 즉 VoIP �
 <td><p>세션의 콘텐츠 형식입니다.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>프런트</strong></p></td>
+<td><p><strong>FrontEnd</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>세션에 대해 데이터를 캡처한 프런트 엔드 서버의 FQDN입니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>그룹</strong></p></td>
+<td><p><strong>풀</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>세션에 대해 데이터를 캡처한 풀의 FQDN입니다.</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183314
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1122605aabea32d86fbacd1f23675fcdef687539
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8e50aa9339d992e73cf4e5b32b1e49fc2a144e67
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200834"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510315"
 ---
+# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Lync Server 2013에 대 한 Standard Edition server 배포의 서버 배치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Lync Server 2013에 대 한 Standard Edition server 배포의 서버 배치
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013에서는 A/V 회의 서비스, 중재 서비스, 모니터링 �
 
 다음 서버 역할을 각각의 개별 컴퓨터에 배포해야 합니다.
 
-  - 영화
+  - Director
 
   - 에지 서버
 
@@ -77,7 +79,7 @@ Lync Server 2013에서는 A/V 회의 서비스, 중재 서비스, 모니터링 �
 
   - 각 SQL 인스턴스는 단일 백 엔드 데이터베이스(Enterprise Edition 프런트 엔드 풀용), 단일 모니터링 데이터베이스, 단일 보관 데이터베이스, 단일 영구 채팅 데이터베이스 및 단일 영구 채팅 준수 데이터베이스만 포함할 수 있습니다.
 
-  - 데이터베이스 서버는 두 개 이상의 Enterprise Edition 프런트 엔드 풀, 보관을 실행 하는 하나의 서버, 단일 영구 채팅 데이터베이스 및 단일 영구 채팅 준수 데이터베이스를 지원할 수 없지만 각각 중 하나를 지원할 수 있습니다. 데이터베이스에서 동일한 SQL Server 인스턴스를 사용 하는지 아니면 별도의 SQL Server 인스턴스를 사용할지 여부에 관계 없이
+  - 데이터베이스 서버는 두 개 이상의 Enterprise Edition 프런트 엔드 풀, 보관을 실행 하는 하나의 서버, 단일 영구 채팅 데이터베이스 및 단일 영구 채팅 준수 데이터베이스를 지원할 수 없지만 데이터베이스에 동일한 SQL Server 인스턴스 또는 개별 SQL Server 인스턴스가 사용 되는지 여부에 관계 없이 각 항목 중 하나를 지원할 수 있습니다.
 
 이 섹션의 뒷부분에서 설명하는 대로 파일 공유를 데이터베이스와 함께 배치할 수 있습니다.
 
