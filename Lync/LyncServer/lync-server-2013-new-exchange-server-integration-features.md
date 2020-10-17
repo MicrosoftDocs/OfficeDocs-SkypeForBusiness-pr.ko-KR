@@ -12,20 +12,22 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e5365675efbcc7427cc29143c21b6656a4dba7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e3ac7a336fc65b6e9b9222fc2f19e1983cb53c79
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216924"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512535"
 ---
+# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Lync Server 2013의 새로운 Exchange Server 통합 기능
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Lync Server 2013의 새로운 Exchange Server 통합 기능
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server 2013는 다음 목록에 설명 된 대로 Microsoft Exchange Server
 
   - 대화 상대에 대해 **고해상도 사진**을 사용할 수 있습니다. 최대 648x648 픽셀인 사진은 Exchange 2013에 저장 되며 Lync 2013, Outlook 2013, Microsoft Lync Web App 및 Outlook Web App을 포함 한 클라이언트에서 사용할 수 있습니다.
 
-  - Exchange 2013에 있는 사용자에 대해 Lync Server 2013 보관을 Exchange 2013 원본 위치 유지 기능으로 통합 하는 **Lync 보관 통합**을 사용 하도록 설정할 수 있으며,이 기능은 규정 준수 및 eDiscovery에 대 한 일반적인 경험을 관리자에 게 제공 합니다.
+  - Exchange 2013에 있는 사용자에 대해 Lync Server 2013 보관을 Exchange 2013 In-Place 보존 기능으로 통합 하는 **Lync 보관 통합**을 사용 하도록 설정할 수 있으며,이를 통해 규정 준수 및 eDiscovery에 대 한 일반적인 경험을 관리자에 게 제공 합니다.
 
 <div>
 

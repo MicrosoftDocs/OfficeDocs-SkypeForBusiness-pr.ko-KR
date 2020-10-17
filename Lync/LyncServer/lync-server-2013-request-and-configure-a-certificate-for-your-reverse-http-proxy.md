@@ -12,20 +12,22 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5db6e8ed2df53acf5c1543569778b29168d0500b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7651e3da61e5ca197d36ca59ad8216af4c0188af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183201"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511985"
 ---
+# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Lync Server 2013에서 역방향 HTTP 프록시에 대 한 인증서 요청 및 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Lync Server 2013에서 역방향 HTTP 프록시에 대 한 인증서 요청 및 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183201"
 
 _**마지막으로 수정 된 항목:** 2014-02-14_
 
-Microsoft Lync를 실행 중인 내부 서버에 서버 인증서를 발급 한 CA 인프라에 대해 Microsoft Forefront Threat Management Gateway 2010 또는 IIS ARR을 실행 하는 서버에 루트 CA (인증 기관) 인증서를 설치 해야 합니다. 서버 2013
+Microsoft Lync Server 2013을 실행 하는 내부 서버에 서버 인증서를 발급 한 CA 인프라에 대해 Microsoft Forefront Threat Management Gateway 2010 또는 IIS ARR을 실행 하는 서버에 루트 CA (인증 기관) 인증서를 설치 해야 합니다.
 
 또한 역방향 프록시 서버에 공용 웹 서버 인증서를 설치해야 합니다. 이 인증서의 주체 대체 이름에는 원격 액세스가 가능하도록 설정된 사용자의 홈인 각 풀의 게시된 외부 FQDN(정규화된 도메인 이름)과 해당 에지 인프라 내에서 사용될 모든 디렉터 또는 디렉터 풀의 외부 FQDN이 포함되어야 합니다. 또한 주체 대체 이름은 모임 단순 URL과 전화 접속 단순 URL을 포함해야 하며, 모바일 응용 프로그램을 배포하고 자동 검색을 사용하려는 경우에는 아래 표에 나와 있는 외부 자동 검색 서비스 URL도 포함해야 합니다.
 
@@ -146,7 +148,7 @@ Microsoft Lync를 실행 중인 내부 서버에 서버 인증서를 발급 한 
 
 
 > [!TIP]
-> 에 지 서버 인증서와 역방향 프록시 인증서를 동시에 계획 하는 경우 두 가지 인증서 요구 사항 사이에 많은 유사도가 있다는 것을 알 수 있습니다. 에 지 서버 인증서를 구성 하 고 요청 하는 경우에 지 서버 및 역방향 프록시 주체 대체 이름을 결합 합니다. 인증서와 개인 키를 내보내고 내보낸 파일을 역방향 프록시로 복사한 다음 앞으로의 절차에서 필요에 따라 인증서/키 쌍을 가져오는 경우 역방향 프록시에 대해 동일한 인증서를 사용할 수 있습니다. Lync server 2013의&nbsp;<A href="lync-server-2013-plan-for-edge-server-certificates.md">lync server 2013</A> 및 역방향 프록시 <A href="lync-server-2013-certificate-summary-reverse-proxy.md">인증서 요약-역방향 프록시</A>에서 edge 서버 요금제에 대 한 인증서 요구 사항을 참조 하세요. 내보낼 수 있는 개인 키를 사용 하 여 인증서를 만들어야 합니다. 풀링된에 지 서버에는 내보낼 수 있는 개인 키를 사용 하 여 인증서 및 인증서 요청 만들기가 필요 하므로,이는 일반적인 관행으로,에 지 서버에 대 한 Lync Server 배포 마법사의 인증서 마법사를 사용 하 여 <STRONG>개인 키 내보내기 가능</STRONG> 플래그를 설정 하면 됩니다. 공용 인증 기관에서 인증서 요청을 받은 후에는 인증서와 개인 키를 내보냅니다. 개인 키를 사용 하 여 인증서를 만들고 내보내는 방법에 대 한 자세한 내용은 " <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Lync Server 2013에</A> 대 한 외부에 지 서버의 개인 키로 인증서 내보내기" 섹션을 참조 하십시오. 인증서의 확장명은 <STRONG>.pfx</STRONG>형식 이어야 합니다.
+> 에 지 서버 인증서와 역방향 프록시 인증서를 동시에 계획 하는 경우 두 가지 인증서 요구 사항 사이에 많은 유사도가 있다는 것을 알 수 있습니다. 에 지 서버 인증서를 구성 하 고 요청 하는 경우에 지 서버 및 역방향 프록시 주체 대체 이름을 결합 합니다. 인증서와 개인 키를 내보내고 내보낸 파일을 역방향 프록시로 복사한 다음 앞으로의 절차에서 필요에 따라 인증서/키 쌍을 가져오는 경우 역방향 프록시에 대해 동일한 인증서를 사용할 수 있습니다. Lync server 2013의 &nbsp; <A href="lync-server-2013-plan-for-edge-server-certificates.md">lync server 2013</A> 및 역방향 프록시 <A href="lync-server-2013-certificate-summary-reverse-proxy.md">인증서 요약-역방향 프록시</A>에서 edge 서버 요금제에 대 한 인증서 요구 사항을 참조 하세요. 내보낼 수 있는 개인 키를 사용 하 여 인증서를 만들어야 합니다. 풀링된에 지 서버에는 내보낼 수 있는 개인 키를 사용 하 여 인증서 및 인증서 요청 만들기가 필요 하므로,이는 일반적인 관행으로,에 지 서버에 대 한 Lync Server 배포 마법사의 인증서 마법사를 사용 하 여 <STRONG>개인 키 내보내기 가능</STRONG> 플래그를 설정 하면 됩니다. 공용 인증 기관에서 인증서 요청을 받은 후에는 인증서와 개인 키를 내보냅니다. 개인 키를 사용 하 여 인증서를 만들고 내보내는 방법에 대 한 자세한 내용은 " <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Lync Server 2013에</A> 대 한 외부에 지 서버의 개인 키로 인증서 내보내기" 섹션을 참조 하십시오. 인증서의 확장명은 <STRONG>.pfx</STRONG>형식 이어야 합니다.
 
 
 
@@ -156,7 +158,7 @@ Microsoft Lync를 실행 중인 내부 서버에 서버 인증서를 발급 한 
 
 **인증서 서명 요청 만들기**
 
-1.  MMC (Microsoft Management Console)를 열고 인증서 스냅인을 추가 하 고 **컴퓨터**를 선택한 다음 **개인**을 확장 합니다. MMC (Microsoft Management Console)에서 인증서 콘솔을 만드는 방법에 대 한 자세한 내용은를 참조 [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616)하세요.
+1.  MMC (Microsoft Management Console)를 열고 인증서 스냅인을 추가 하 고 **컴퓨터**를 선택한 다음 **개인**을 확장 합니다. MMC (Microsoft Management Console)에서 인증서 콘솔을 만드는 방법에 대 한 자세한 내용은를 참조 하세요 [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616) .
 
 2.  **인증서**를 마우스 오른쪽 단추로 클릭 하 고 **모든 작업**, **고급 작업**을 차례로 클릭 한 다음 **사용자 지정 요청 만들기**를 클릭 합니다.
 
@@ -164,13 +166,13 @@ Microsoft Lync를 실행 중인 내부 서버에 서버 인증서를 발급 한 
 
 4.  **인증서 등록 정책 선택** 페이지의 **사용자 지정 요청**에서 **등록 정책 없이 계속**을 선택 합니다. **다음**을 클릭합니다.
 
-5.  **사용자 지정 요청** 페이지에서 **서식 파일** 선택 **(서식 파일 없음) 레거시 키** 다른 방식으로 인증서 공급자가 지정 되지 않은 경우 **기본 확장명** 을 선택 하지 않은 상태로 설정 하 **고 \#PKCS 10**에 대해 **형식 요청** 선택을 유지 합니다. **다음**을 클릭합니다.
+5.  **사용자 지정 요청** 페이지에서 **서식 파일** 선택 **(서식 파일 없음) 레거시 키** 다른 방식으로 인증서 공급자가 지정 되지 않은 경우 **기본 확장명** 을 선택 하지 않은 상태로 설정 하 고 **PKCS \# 10**에 대해 **형식 요청** 선택을 유지 합니다. **다음**을 클릭합니다.
 
 6.  **인증서 정보** 페이지에서 **세부 정보**를 클릭 한 다음 **속성**을 클릭 합니다.
 
 7.  **인증서 속성** 페이지의 **이름** 필드에 있는 **일반** 탭에서이 인증서의 이름을 입력 합니다. 필요한 경우 **설명** 필드에 설명을 입력 합니다. 일반적으로 이름 및 설명은 **Lync Server의 역방향 프록시 수신기**와 같이 관리자가 인증서 용도를 식별 하는 데 사용 됩니다.
 
-8.  **제목** 탭을 선택 합니다. 유형의 **주체 이름** 에서 주체 **** 이름 유형의 **일반 이름을** 선택 합니다. 이 **값**에 대해 역방향 프록시에 사용할 주체 이름을 입력 한 다음 **추가**를 클릭 합니다. 이 항목의 표에서 제공 하는 예에서 주체 이름은 webext.contoso.com 이며 주체 이름에 대 한 값 필드에 입력 됩니다.
+8.  **제목** 탭을 선택 합니다. 유형의 **주체 이름** 에서 주체 **Type**이름 유형의 **일반 이름을** 선택 합니다. 이 **값**에 대해 역방향 프록시에 사용할 주체 이름을 입력 한 다음 **추가**를 클릭 합니다. 이 항목의 표에서 제공 하는 예에서 주체 이름은 webext.contoso.com 이며 주체 이름에 대 한 값 필드에 입력 됩니다.
 
 9.  **대체 이름**아래의 **제목** 탭에서 **유형에**대해 드롭다운에서 **DNS** 를 선택 합니다. 인증서에 필요한 각 정의 된 주체 대체 이름에 대해 정규화 된 도메인 이름을 입력 한 다음 **추가**를 클릭 합니다. 예를 들어이 표에는 meet.contoso.com, dialin.contoso.com 및 lyncdiscover.contoso.com의 세 가지 주체 대체 이름이 있습니다. **값** 필드에 meet.contoso.com를 입력 하 고 **추가**를 클릭 합니다. 정의 해야 하는 각 주체 대체 이름에 대해이 방법을 반복 합니다.
 
@@ -180,7 +182,7 @@ Microsoft Lync를 실행 중인 내부 서버에 서버 인증서를 발급 한 
 
 12. 확장 된 **키 사용 (응용 프로그램 정책)** 화살표를 클릭 하 여 **사용 가능한 옵션**을 표시 합니다. 사용 가능한 옵션에서 **서버 인증**을 클릭 하 고 **추가**를 클릭 합니다. **클라이언트 인증**을 클릭 하 고 **추가**를 클릭 합니다. **확장 키** 사용을 필수로 설정 확인란을 선택 하는 경우 확인란을 선택 취소 합니다. 키 사용 확인란 (선택 해야 함)과는 반대로, 확장 된 키 사용 확인란이 선택 되어 있지 않아야 합니다.
 
-13. **인증서 속성** 페이지에서 **개인 키** 탭을 클릭 하 고 **키 옵션** 화살표를 클릭 합니다. **키 크기**의 경우 드롭다운에서 **2048** 을 선택 합니다. 이 인증서에 해당 하는 역방향 프록시가 아닌 다른 컴퓨터에서이 키 쌍과 CSR을 생성 하려면 **개인 키를 내보낼 수 있도록 만들기**를 선택 합니다.
+13. **인증서 속성** 페이지에서 **개인 키** 탭을 클릭 합니다. **키 옵션** 화살표를 클릭 합니다. **키 크기**의 경우 드롭다운에서 **2048** 을 선택 합니다. 이 인증서에 해당 하는 역방향 프록시가 아닌 다른 컴퓨터에서이 키 쌍과 CSR을 생성 하려면 **개인 키를 내보낼 수 있도록 만들기**를 선택 합니다.
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0738cb282ad2f1f375e89526fcdd1569a6707ad0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1932164cd1236257bbb81d1503b0310c8c55526e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208894"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513455"
 ---
+# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Lync Server 2013의 2 단계 인증 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Lync Server 2013의 2 단계 인증 계획
+
 
 </div>
 
@@ -73,7 +75,7 @@ Lync Server 2013에 대 한 Lync 2013 누적 업데이트: 7 월 2013 데스크�
 <tr class="odd">
 <td><p>웹 서비스</p></td>
 <td><p>System.webserver</p></td>
-<td><p>영화</p></td>
+<td><p>Director</p></td>
 <td><p>Kerberos, NTLM 및 인증서</p></td>
 </tr>
 <tr class="even">
@@ -106,7 +108,7 @@ Lync Server 2013에 대 한 Lync 2013 누적 업데이트: 7 월 2013 데스크�
 
 ## <a name="lync-service-discovery"></a>Lync 서비스 검색
 
-내부 및/또는 외부 클라이언트가 Lync services를 검색 하는 데 사용 하는 DNS 레코드는 2 단계 인증을 사용 하도록 설정 되지 않은 Lync 서버로 확인 되도록 구성 해야 합니다. 이 구성을 사용 하는 경우 2 단계 인증을 사용 하도록 설정 되지 않은 Lync 풀의 사용자는 인증에 PIN을 입력 하지 않아도 되 고, 2 단계 인증을 사용 하는 Lync 풀의 사용자는 PIN을 입력 해야 합니다. 받고.
+내부 및/또는 외부 클라이언트가 Lync services를 검색 하는 데 사용 하는 DNS 레코드는 2 단계 인증을 사용 하도록 설정 되지 않은 Lync 서버로 확인 되도록 구성 해야 합니다. 이 구성을 사용 하는 경우 2 단계 인증을 사용 하도록 설정 되지 않은 Lync 풀의 사용자는 인증에 PIN을 입력 하지 않아도 되 고, 2 단계 인증을 사용 하는 Lync 풀의 사용자는 인증을 위해 PIN을 입력 해야 합니다.
 
 </div>
 
@@ -146,7 +148,7 @@ Lync 환경에서 기술 검색 기능을 구성한 고객은 Lync가 2 단계 �
 
 ## <a name="deleting-saved-credentials"></a>저장 된 자격 증명 삭제
 
-데스크톱 클라이언트 사용자는 2 단계 인증을 사용 하 여 처음으로 서명을 시도 하기 전에 Lync 클라이언트에서 **내 로그인 정보 삭제** 옵션을 사용\\하\\고\\%\\localappdata% Microsoft Office 15.0 Lync에서 SIP 프로필 폴더를 삭제 해야 합니다.
+데스크톱 클라이언트 사용자는 **Delete my sign-in info** \\ \\ \\ \\ 2 단계 인증을 사용 하 여 처음으로 서명을 시도 하기 전에 Lync 클라이언트에서 내 로그인 정보 삭제 옵션을 사용 하 고% localappdata% Microsoft Office 15.0 Lync에서 SIP 프로필 폴더를 삭제 해야 합니다.
 
 </div>
 
@@ -160,9 +162,9 @@ Kerberos 또는 NTLM 인증 방법을 사용 하는 경우 인증을 위해 사�
 
 자격 증명에 대 한 추가 확인을 방지 하려면 로컬 워크스테이션에 다음 레지스트리 항목을 만들거나, 그룹 정책을 사용 하 여 지정 된 풀에 대 한 모든 사용자에 게 Lync 관리 템플릿을 사용 하 여 적용 합니다.
 
-HKEY\_로컬\_컴퓨터\\소프트웨어\\정책\\Microsoft\\Office\\15.0\\Lync
+HKEY \_ 로컬 \_ 컴퓨터 \\ 소프트웨어 \\ 정책 \\ Microsoft \\ Office \\ 15.0 \\ Lync
 
-REG\_DWORD: DisableNTCredentials
+REG \_ DWORD: DisableNTCredentials
 
 값: 0x0
 
@@ -176,9 +178,9 @@ REG\_DWORD: DisableNTCredentials
 
 Lync가 2 단계 인증을 지원 하도록 구성 된 경우에는 **Savepassword** 레지스트리 설정을 사용 하지 않도록 설정 해야 합니다. 사용자가 암호를 저장 하지 못하도록 하려면 로컬 워크스테이션에서 다음 레지스트리 항목을 변경 하거나, 그룹 정책을 사용 하 여 지정 된 풀에 대 한 모든 사용자에 게 Lync 관리 템플릿을 사용 하 여 적용 합니다.
 
-HKEY\_현재\_사용자\\소프트웨어\\Microsoft\\Office\\15.0\\Lync
+HKEY \_ 현재 \_ 사용자 \\ 소프트웨어 \\ Microsoft \\ Office \\ 15.0 \\ Lync
 
-REG\_DWORD: SavePassword
+REG \_ DWORD: SavePassword
 
 값: 0x0
 
@@ -190,9 +192,9 @@ REG\_DWORD: SavePassword
 
 ## <a name="ad-fs-20-token-replay"></a>AD FS 2.0 토큰 재생
 
-AD FS 2.0는 동일한 토큰을 사용 하는 여러 토큰 요청을 검색 한 다음 삭제할 수 있는 토큰 재생 검색 이라는 기능을 제공 합니다. 이 기능을 사용 하도록 설정 하면 토큰 재생 검색 기능이 WS-FEDERATION 수동 프로필과 SAML Websso) 프로필 둘 다에서 인증 요청의 무결성을 보호 하 여 동일한 토큰을 두 번 이상 사용 하지 않도록 합니다.
+AD FS 2.0는 동일한 토큰을 사용 하는 여러 토큰 요청을 검색 한 다음 삭제할 수 있는 토큰 재생 검색 이라는 기능을 제공 합니다. 이 기능을 사용 하도록 설정 하면 토큰 재생 검색 기능은 동일한 토큰을 두 번 이상 사용 하지 않도록 하 여 WS-Federation 수동 프로필과 SAML Websso) 프로필 둘 다에서 인증 요청의 무결성을 보호 합니다.
 
-이 기능은 보안을 사용 하는 경우 키오스크를 사용할 때와 같이 보안이 매우 중요 한 상황에서 사용 하도록 설정 해야 합니다. 토큰 재생 검색에 대 한 자세한 내용은 Secure FS 2.0의 보안 계획 및 배포 모범 사례를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215).
+이 기능은 보안을 사용 하는 경우 키오스크를 사용할 때와 같이 보안이 매우 중요 한 상황에서 사용 하도록 설정 해야 합니다. 토큰 재생 검색에 대 한 자세한 내용은 Secure FS 2.0의 보안 계획 및 배포 모범 사례를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215) .
 
 </div>
 

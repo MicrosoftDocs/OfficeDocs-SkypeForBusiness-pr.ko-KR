@@ -12,20 +12,22 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c68855f3f0ae36e0934959b820dc84a716cf2a51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c92adf48a09f83c3c3dec18f91e4aadc3a3cbd39
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183562"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513235"
 ---
+# <a name="progressreport-table-in-lync-server-2013"></a>Lync Server 2013의 ProgressReport 테이블
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="progressreport-table-in-lync-server-2013"></a>Lync Server 2013의 ProgressReport 테이블
+
 
 </div>
 
@@ -103,7 +105,7 @@ ErrorTime, ErrorReportSeq 및 ProgressReportSeq 필드가 반드시 오류를 �
 <td><p>보고서의 대상 Lync Server 프로세스입니다. 자세한 내용은 Application 테이블을 참조하십시오.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>사항은</strong></p></td>
+<td><p><strong>자세한 정보</strong></p></td>
 <td><p>이미지나</p></td>
 <td></td>
 <td><p>공간 절약을 위해 이진 형식으로 저장된 진행률 보고서 세부 정보입니다. 다음 구문을 사용하여 이 데이터를 텍스트 형식으로 변환할 수 있습니다.</p>

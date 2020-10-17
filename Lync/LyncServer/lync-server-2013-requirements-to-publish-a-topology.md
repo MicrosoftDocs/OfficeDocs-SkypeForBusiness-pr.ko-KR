@@ -12,20 +12,22 @@ ms:contentKeyID: 48184688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8c36fee84880e5236c5048da35dca38a476eab
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c9f4186a351876b874a8b84963f9923369511f65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182991"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511825"
 ---
+# <a name="requirements-to-publish-a-topology-in-lync-server-2013"></a>Lync Server 2013의 토폴로지 게시 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="requirements-to-publish-a-topology-in-lync-server-2013"></a>Lync Server 2013의 토폴로지 게시 요구 사항
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 이 항목에서는 토폴로지 작성기 또는 Lync Server 2013 관리 셸 명령줄 인터페이스를 사용 하 여 토폴로지를 게시 하는 것과 관련 된 인프라 및 소프트웨어 요구 사항에 대해 설명 합니다. 이러한 요구 사항은 모든 Lync Server 2013 관리 도구에 적용 되는 일반적인 운영 체제, 소프트웨어 및 사용 권한 요구 사항 외에도 해당 됩니다. 토폴로지를 게시 하기 전에 모든 관리 도구 요구 사항을 충족 하는지 확인 합니다.
 
-  - Active Directory 도메인 서비스 준비 단계가 이미 완료 되도록 만들려는 Lync Server 2013 배포의 동일한 도메인 또는 포리스트에 가입 된 컴퓨터에서 토폴로지 작성기를 실행 하 고 관리 도구를 사용할 수 있도록 설정 해야 합니다. 토폴로지를 성공적으로 게시 하기 위한 컴퓨터
+  - Active Directory 도메인 서비스 준비 단계가 이미 완료 되도록 만들려는 Lync Server 2013 배포의 동일한 도메인 또는 포리스트에 가입 된 컴퓨터에서 토폴로지 작성기를 실행 해야 하며, 해당 컴퓨터의 관리 도구를 사용 하 여 토폴로지를 성공적으로 게시할 수 있습니다.
 
   - 토폴로지에 정의된 컴퓨터는 에지 서버를 제외하고 도메인 및 AD DS에 참여해야 합니다. 하지만 토폴로지를 게시할 때 컴퓨터가 온라인 상태일 필요는 없습니다.
 

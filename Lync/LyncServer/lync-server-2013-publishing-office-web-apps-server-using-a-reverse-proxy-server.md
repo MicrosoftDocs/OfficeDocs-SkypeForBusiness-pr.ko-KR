@@ -12,20 +12,22 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9a2bc53d306b51bd6aa681ccb4aa6747f38eac7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb200204cc96d40d66d0546c86687fb0e1c48de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201692"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512235"
 ---
+# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>역방향 프록시 서버를 사용 하 여 Lync Server 2013에서 Office Web Apps 서버 게시
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>역방향 프록시 서버를 사용 하 여 Lync Server 2013에서 Office Web Apps 서버 게시
+
 
 </div>
 
@@ -55,9 +57,9 @@ Forefront Threat Management Gateway에서 웹 사이트 게시 규칙을 구성�
 
 7.  **내부 게시 정보** 페이지의 **내부 사이트 이름** 상자에 Office Web Apps Server의 FQDN을 **officewebapps01.contoso.com**과 같이 입력하고 **다음**을 클릭합니다. **내부 사이트 이름** 상자에 입력한 이름은 Office Web Apps Server에 할당한 인증서의 제목 필드 또는 주체 대체 이름 필드에 나타나야 합니다.
 
-8.  **내부 게시 정보** 페이지의 ** / ** **경로 (옵션)** 상자에 다음을 입력 하 고 **다음**을 클릭 합니다. /\* 구문을 통해 사이트의 모든 폴더와 하위 폴더가 게시 되는 것을 확인할 수 있습니다.
+8.  **내부 게시 정보** 페이지의 **/\*** **경로 (옵션)** 상자에 다음을 입력 하 고 **다음**을 클릭 합니다. / \* 구문을 통해 사이트의 모든 폴더와 하위 폴더가 게시 되는 것을 확인할 수 있습니다.
 
-9.  **공개 이름 정보** 페이지의 **다음에 대한 요청 허용** 드롭다운 목록에서 **이 도메인 이름(아래에 입력)** 을 선택하고 공개 이름 상자에 Office Web Apps Server의 정규화된 도메인 이름을 입력합니다. 이 이름은 웹 사이트에 액세스하는 데 사용하는 이름이어야 합니다. 예를 들어 URL http://officewebapps01.contoso.com 을 사용 하 여 사이트에 액세스 하는 경우 **공개 이름** 상자에 **officewebapps01.contoso.com** 를 입력 해야 합니다.
+9.  **공개 이름 정보** 페이지의 **다음에 대한 요청 허용** 드롭다운 목록에서 **이 도메인 이름(아래에 입력)** 을 선택하고 공개 이름 상자에 Office Web Apps Server의 정규화된 도메인 이름을 입력합니다. 이 이름은 웹 사이트에 액세스하는 데 사용하는 이름이어야 합니다. 예를 들어 URL을 사용 하 여 사이트에 액세스 하는 경우 http://officewebapps01.contoso.com **공개 이름** 상자에 **officewebapps01.contoso.com** 를 입력 해야 합니다.
 
 10. **다음**을 클릭합니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c068e284e871caf5848ba9616f8bf7afa380b49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8ddc21554ce57601f61e4b37d1988ca3e4dad65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185188"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513755"
 ---
+# <a name="mediation-server-component-in-lync-server-2013"></a>Lync Server 2013의 중재 서버 구성 요소
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mediation-server-component-in-lync-server-2013"></a>Lync Server 2013의 중재 서버 구성 요소
+
 
 </div>
 
@@ -47,7 +49,7 @@ Enterprise Voice 작업을 배포 하는 경우에는 Lync Server 2013, 중재 �
 
 미디어 바이패스 및 DNS 부하 분산을 지원하는 적격한 PSTN 게이트웨이에 직접 SIP 연결을 배포한 경우 독립 실행형 중재 서버 풀이 필요하지 않습니다. 정규 게이트웨이는 중재 서버 풀에 대 한 DNS 부하 분산을 가능 하 게 하 고 풀의 중재 서버에서 트래픽을 수신할 수 있으므로 독립 실행형 중재 서버 풀은 필요 하지 않습니다.
 
-또한 다음 조건 중 하나라도 충족 되 면 IP-Pbx를 배포 하거나 인터넷 전화 통신 서버 공급자의 세션 경계 컨트롤러 (SBC)에 연결 하는 경우에도 프런트 엔드 풀에 중재 서버를 함께 배치할 것을 권장 합니다.
+또한 다음 조건 중 하나에 해당 하는 경우 IP-PBXs를 배포 하거나 인터넷 전화 통신 서버 공급자의 SBC (세션 경계 컨트롤러)에 연결 하는 경우에도 프런트 엔드 풀에 중재 서버를 함께 배치할 것이 좋습니다.
 
   - IP-PBX 또는 SBC가 풀의 중재 서버에서 트래픽을 수신하도록 구성되었고 풀의 모든 중재 서버에 트래픽을 단일 방식으로 라우팅할 수 있습니다.
 

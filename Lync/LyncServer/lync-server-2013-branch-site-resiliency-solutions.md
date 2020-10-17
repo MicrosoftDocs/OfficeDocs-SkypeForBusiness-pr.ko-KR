@@ -12,20 +12,22 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42ede6730357f50967f13089e02e32ad1a21d8ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 25541f7681ece7b299d6e4c8076fb190382650ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512985"
 ---
+# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Lync Server 2013의 분기 사이트 복구 솔루션
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Lync Server 2013의 분기 사이트 복구 솔루션
+
 
 </div>
 
@@ -61,14 +63,14 @@ _**마지막으로 수정 된 항목:** 2014-12-10_
 <td><p>분기 사이트에서 25~1000명의 사용자를 호스팅하려는 경우(ROI(투자 수익률)가 전체 배포를 지원하지 않거나 로컬 관리 지원을 사용할 수 없음)</p></td>
 <td><p>Survivable Branch Appliance</p>
 <p>Sba (survivable 분기 어플라이언스는 Windows Server 2008 r 2에서 Lync Server 등록자 및 중재 서버가 실행 되는 업계 표준 블레이드 서버입니다. Sba (survivable 분기 기기에는 PSTN (공중 전화망) 게이트웨이도 포함 되어 있습니다. SBA(Survivable Branch Appliance) 자격 검증/인증 프로그램에서 Microsoft 파트너가 개발한 적격 타사 장치는 WAN 오류 시에도 지속적인 PSTN 연결을 제공하지만, 이러한 기능은 중앙 사이트의 프런트 엔드 서버를 기반으로 하기 때문에 이 접근 방식이 탄력적인 현재 상태 및 회의 기능을 제공하지는 못합니다.</p>
-<p>Sba (survivable 분기 기기에 대 한 자세한 내용은 &quot;이 항목의 뒷부분에&quot; 나오는 sba (survivable branch 어플라이언스 details를 참조 하십시오.</p>
+<p>Sba (survivable 분기 기기에 대 한 자세한 내용은 &quot; 이 항목의 뒷부분에 나오는 Sba (survivable Branch 어플라이언스 details를 참조 하십시오 &quot; .</p>
 <p><strong>참고:</strong> Sba (survivable Branch 기기와 함께 SIP 트렁크를 사용 하기로 결정 한 경우에는 Sba (survivable Branch 어플라이언스 공급 업체에 문의 하 여 조직에 가장 적합 한 서비스 공급자를 알아봅니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>분기 사이트에서 1000와 2000 사용자 간의 호스트, 복원 가능한 WAN 연결이 부족 한 경우 교육 된 Lync Server 관리자를 사용할 수 있습니다.</p></td>
 <td><p>Sba (survivable 분기 서버 또는 두 개의 Sba (survivable Branch 기기</p>
 <p>Sba (survivable Branch Server는 Lync Server 등록자 및 중재 서버 소프트웨어가 설치 되어 있는 Windows Server 회의 지정 하드웨어 요구 사항입니다. 이 서버는 전화 서비스 공급자에 대한 SIP 트렁크 또는 PSTN 게이트웨이에 연결되어야 합니다.</p>
-<p>Sba (survivable 분기 서버에 대 한 자세한 내용은 &quot;이 항목의 뒷부분에&quot; 나오는 sba (survivable branch Server details를 참조 하십시오.</p></td>
+<p>Sba (survivable 분기 서버에 대 한 자세한 내용은 &quot; 이 항목의 뒷부분에 나오는 Sba (survivable Branch Server details를 참조 하십시오 &quot; .</p></td>
 </tr>
 <tr class="odd">
 <td><p>최대 5000 명의 사용자에 대 한 음성 기능 외에도 현재 상태 및 회의 기능이 필요 하 고 교육 된 Lync Server 관리자를 사용할 수 있는 경우</p></td>
@@ -108,7 +110,7 @@ Lync Server Sba (survivable Branch 기기에는 다음과 같은 구성 요소�
 
 또한 Sba (survivable Branch 기기에는 PSTN 트렁크, 아날로그 포트 및 이더넷 어댑터만 포함 됩니다.
 
-중앙 사이트에 대 한 분기 사이트의 WAN 연결을 사용할 수 없는 경우 내부 분기 사용자는 Sba (survivable Branch 기기 등록자를 사용 하 여 계속 등록 하 고 Sba (survivable Branch 기기 연결을 통해 중단 되지 않은 음성 서비스를 얻습니다. PSTN으로 이동할 수 있습니다. 홈 또는 다른 원격 위치에서 연결하는 분기 사이트 사용자는 분기 사이트의 WAN 링크를 사용할 수 없어도 중앙 사이트의 등록자 서버에 등록할 수 있습니다. 이러한 사용자는 분기 사이트로의 인바운드 통화가 음성 메일로 이동하는 것을 제외하고는 전체 통합 통신 기능을 사용할 수 있습니다. WAN 연결이 복구되면 분기 사이트 사용자를 위한 전체 기능이 복원됩니다. Sba (survivable 분기 어플라이언스 또는 서비스 복원에 대 한 장애 조치 (failover)를 수행 하려면 IT 관리자가 있어야 합니다.
+중앙 사이트에 대 한 분기 사이트의 WAN 연결을 사용할 수 없는 경우 내부 분기 사용자는 계속 해 서 Sba (survivable Branch 기기 등록자를 사용 하 여 등록 되 고 PSTN에 대 한 Sba (survivable Branch 기기 연결을 통해 음성 서비스가 중단 되지 않도록 합니다. 홈 또는 다른 원격 위치에서 연결하는 분기 사이트 사용자는 분기 사이트의 WAN 링크를 사용할 수 없어도 중앙 사이트의 등록자 서버에 등록할 수 있습니다. 이러한 사용자는 분기 사이트로의 인바운드 통화가 음성 메일로 이동하는 것을 제외하고는 전체 통합 통신 기능을 사용할 수 있습니다. WAN 연결이 복구되면 분기 사이트 사용자를 위한 전체 기능이 복원됩니다. Sba (survivable 분기 어플라이언스 또는 서비스 복원에 대 한 장애 조치 (failover)를 수행 하려면 IT 관리자가 있어야 합니다.
 
 Lync Server는 분기 사이트에서 최대 2 개의 Sba (survivable 분기 기기를 지원 합니다.
 

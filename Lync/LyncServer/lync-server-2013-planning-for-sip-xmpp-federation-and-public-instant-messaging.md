@@ -12,20 +12,22 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4148cd97ec118a223e7e8b1b1e8c3825f51dbad6
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7f213b584d62a9a40810de2a05676b6d0737258e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513465"
 ---
+# <a name="planning-for-sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Lync Server 2013에서 SIP, XMPP 페더레이션 및 공용 인스턴트 메시징 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Lync Server 2013에서 SIP, XMPP 페더레이션 및 공용 인스턴트 메시징 계획
+
 
 </div>
 
@@ -109,7 +111,7 @@ Microsoft Lync Server 2013, Lync Server 2010 및 Office Communications Server �
         
 
         > [!IMPORTANT]
-        > Windows Phone 또는 Apple iPhone, iPad 또는 기타 Apple 장치에서 Microsoft Lync 모바일 클라이언트를 지원 하 고 푸시 알림 서비스 또는 푸시 알림 서비스를 사용 하는 경우에는 _sipfederationtls에 대 한 계획을 세워야 합니다 _tcp. &lt;&gt;Lync Mobile 클라이언트를 가진 각 sip 도메인에 대 한 SIP 도메인 SRV 레코드 Android 및 Nokia Symbian Lync Mobile에서는 푸시 알림을 사용 하지 않으며,이 요구 사항이 적용 되지 않습니다.
+        > Windows Phone 또는 Apple iPhone, iPad 또는 기타 Apple 장치에서 Microsoft Lync 모바일 클라이언트를 지원 하 고 푸시 알림 서비스 또는 푸시 알림 서비스를 사용 하는 경우에는 _sipfederationtls에 대 한 계획을 세워야 합니다. &lt;&gt;Lync Mobile 클라이언트를 가진 각 sip 도메인에 대 한 SIP 도메인 SRV 레코드 Android 및 Nokia Symbian Lync Mobile에서는 푸시 알림을 사용 하지 않으며,이 요구 사항이 적용 되지 않습니다.
 
         
         </div>

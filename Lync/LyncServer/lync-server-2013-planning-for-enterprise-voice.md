@@ -12,20 +12,22 @@ ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90b93d43637585f164f2f9d79d48bb7839a6dc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 324798f36a92a81a1f210a173cf9e3e0efa00aca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202084"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513575"
 ---
+# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice 계획
+
 
 </div>
 
@@ -67,7 +69,7 @@ Enterprise Voice에 대 한 배포 프로세스는 지원 하려는 기존 토�
 
   - [Lync Server 2013를 사용 하 여 전용 전화선 계획](lync-server-2013-planning-for-private-telephone-lines.md)
 
-  - [Lync Server 2013의 위치 기반 라우팅 계획](lync-server-2013-planning-for-location-based-routing.md)
+  - [Lync Server 2013의 Location-Based 라우팅 계획](lync-server-2013-planning-for-location-based-routing.md)
 
   - [Lync Server 2013의 Enterprise Voice 복구 계획](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 

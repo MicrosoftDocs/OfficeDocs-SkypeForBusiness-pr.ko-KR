@@ -12,20 +12,22 @@ ms:contentKeyID: 48183625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc787dee62152e9ace76663a084fe5c1c428b1f2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dd1881050e5226df9c36d3b92194e27e1123df13
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183571"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513265"
 ---
+# <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>서버 유지 관리를 위해 Lync Server 2013에 대 한 새 연결 차단
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>서버 유지 관리를 위해 Lync Server 2013에 대 한 새 연결 차단
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server를 사용 하면 사용자에 대 한 서비스 손실 없이도 서
 
 프런트 엔드 서버에 대 한 새 연결을 차단 하면 일부 Lync Server 기능 및 서비스가 DNS 부하 분산을 사용 하 여 제대로 작동 하는지 확인 합니다. 풀에서 DNS 부하 분산을 사용하지 않는 경우, 이러한 서비스를 통한 연결이 서버가 새 연결을 방지하는 기간 동안 다른 서버로 다시 라우팅되지 않아 서버가 오프라인으로 설정될 때 일부 세션 및 통화가 중단될 수 있습니다. 이 옵션이 적절하게 작동하도록 하기 위해 DNS 부하 분산을 사용하는 기능은 다음과 같습니다.
 
-  - 교환
+  - 도우미
 
   - 회의 알림 응용 프로그램
 
@@ -55,7 +57,7 @@ Lync Server를 사용 하면 사용자에 대 한 서비스 손실 없이도 서
 
 DNS 부하 분산에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 dns 부하 분산](lync-server-2013-dns-load-balancing.md) 을 참조 하십시오.
 
-Lync Server를 실행 하는 서버의 모든 서비스에 대 한 새 연결을 차단 하는 것 외에, 개별 Lync Server 서비스에 대 한 새 연결을 차단할 수도 있습니다. 예를 들어이 방법은 전체 서버를 종료할 필요가 없는 Lync Server 업데이트를 적용 해야 하는 경우에 유용 합니다. 특정 서비스에 대한 연결을 방지할 때는 Windows 서비스 목록에서 그룹화되어 표시되는 서비스를 선택해야 합니다. 예를 들어, Lync Server 프런트 엔드 서비스와 모니터링에 대 한 데이터 수집 에이전트는 별도의 Lync Server 서비스 이지만 Windows 서비스 목록에서 통합 되어 Lync Server 프런트 엔드 서비스로 표시 됩니다. Lync Server 프런트 엔드 서비스에 대 한 새 연결이 차단 되지만 이러한 두 가지 개별 Lync Server 서비스에 대 한 새 연결은 별도로 방지할 수 없습니다.
+Lync Server를 실행 하는 서버의 모든 서비스에 대 한 새 연결을 차단 하는 것 외에, 개별 Lync Server 서비스에 대 한 새 연결을 차단할 수도 있습니다. 예를 들어이 방법은 전체 서버를 종료할 필요가 없는 Lync Server 업데이트를 적용 해야 하는 경우에 유용 합니다. 특정 서비스에 대한 연결을 방지할 때는 Windows 서비스 목록에서 그룹화되어 표시되는 서비스를 선택해야 합니다. 예를 들어 Lync Server Front-End 서비스와 모니터링에 대 한 데이터 수집 에이전트는 별도의 Lync Server 서비스 이지만 Windows 서비스 목록에 통합 되어 Lync Server 프런트 엔드 서비스로 표시 됩니다. Lync Server 프런트 엔드 서비스에 대 한 새 연결이 차단 되지만 이러한 두 가지 개별 Lync Server 서비스에 대 한 새 연결은 별도로 방지할 수 없습니다.
 
 <div>
 

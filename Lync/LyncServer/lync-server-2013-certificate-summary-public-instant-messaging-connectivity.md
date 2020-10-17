@@ -12,20 +12,22 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacf411f348199376e1564be37f683854480872
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdc4bba8064332d7fa3f90d0d6a3d4b9f6cef9e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187411"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512785"
 ---
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>인증서 요약-Lync Server 2013의 공용 인스턴트 메시징 연결
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>인증서 요약-Lync Server 2013의 공용 인스턴트 메시징 연결
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187411"
 
 _**마지막으로 수정 된 항목:** 2013-02-19_
 
-공용 인스턴트 메시징 연결에 대 한 인증서를 구성 하려면 AOL (북미)에 고유 해야 하는 경우를 제외 하 고는 다른 SIP 페더레이션 형식 또는 표준에 지 서버 인증서와는 다른 것이 무엇 인지 확인 해야 합니다. 인증서 구성 미국 온라인에서는 일반적인 서버 EKU (확장 된 키 사용) 외에도 클라이언트 EKU를 포함 하도록 인증서 또는 인증서 (에 지 풀의 경우)가 필요 합니다. 클라이언트 EKU는 인증서에 추가 되며,에 지 서버에 할당 된 외부 공용 인증서의 일부입니다.
+공용 인스턴트 메시징 연결에 대 한 인증서를 구성 하려면 AOL (북아메리카 온라인)에 고유한 인증서 구성이 필요 하다는 점을 제외 하 고는 다른 SIP 페더레이션 유형 또는 표준에 지 서버 인증서와는 다른 것을 알 수 있습니다. 미국 온라인에서는 일반적인 서버 EKU (확장 된 키 사용) 외에도 클라이언트 EKU를 포함 하도록 인증서 또는 인증서 (에 지 풀의 경우)가 필요 합니다. 클라이언트 EKU는 인증서에 추가 되며,에 지 서버에 할당 된 외부 공용 인증서의 일부입니다.
 
 <div>
 

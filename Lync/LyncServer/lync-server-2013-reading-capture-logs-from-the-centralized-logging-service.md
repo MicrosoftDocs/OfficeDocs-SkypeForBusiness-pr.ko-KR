@@ -12,20 +12,22 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0807552784b69b58accfd026031af55d41c91f33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1058f48ede85067ac0aeefc3c8dab329bf042ef8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201534"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512035"
 ---
+# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013의 중앙 로깅 서비스에서 캡처 로그 읽기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013의 중앙 로깅 서비스에서 캡처 로그 읽기
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42201534"
 
 _**마지막으로 수정 된 항목:** 2016-12-28_
 
-검색을 실행 하 고 보고 된 문제를 추적 하는 데 사용할 수 있는 파일이 있는 경우 중앙 로깅 서비스의 실질적인 이점을 얻게 됩니다. 파일을 읽을 수 있는 방법은 여러 가지가 있습니다. 출력 파일이 표준 텍스트 형식이면 Notepad.exe 또는 텍스트 파일을 열고 읽을 수 있는 기타 프로그램을 사용할 수 있습니다. 파일 크기가 크거나 복잡 한 문제를 해결 하기 위해 설계 된 Snooper와 같은 도구를 사용 하 여 중앙 로깅 서비스에서 로깅 출력을 읽고 구문 분석할 수 있습니다. Snooper는 Lync Server 2013 Debug Tools에 포함되어 있으며 별도로 다운로드할 수 있습니다. Lync Server 2013 디버그 도구는 다음 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)위치에서 다운로드할 수 있습니다. Lync Server 2013 디버그 도구를 설치 하면 짧은 컷 및 메뉴 항목은 만들어지지 않습니다. Lync Server 2013 디버그 도구를 설치 하 고 나면 Windows 탐색기, 명령줄 창 또는 Lync Server 관리 셸을 열고 디렉터리로 이동 합니다 (기본 위치) C:\\Program Files\\Microsoft Lync Server 2013\\디버깅 도구 Snooper를 두 번 클릭 하거나 Snooper를 입력 한 다음 명령줄 또는 Lync Server 관리 셸을 사용 하는 경우 enter 키를 누릅니다.
+검색을 실행 하 고 보고 된 문제를 추적 하는 데 사용할 수 있는 파일이 있는 경우 중앙 로깅 서비스의 실질적인 이점을 얻게 됩니다. 파일을 읽을 수 있는 방법은 여러 가지가 있습니다. 출력 파일이 표준 텍스트 형식이면 Notepad.exe 또는 텍스트 파일을 열고 읽을 수 있는 기타 프로그램을 사용할 수 있습니다. 파일 크기가 크거나 복잡 한 문제를 해결 하려면 중앙 로깅 서비스에서 로깅 출력을 읽고 구문 분석 하도록 설계 된 Snooper.exe 등의 도구를 사용할 수 있습니다. Snooper는 Lync Server 2013 Debug Tools에 포함되어 있으며 별도로 다운로드할 수 있습니다. Lync Server 2013 디버그 도구는 다음 위치에서 다운로드할 수 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257) 있습니다. Lync Server 2013 디버그 도구를 설치 하면 짧은 컷 및 메뉴 항목은 만들어지지 않습니다. Lync Server 2013 디버그 도구를 설치 하 고 나면 Windows 탐색기, 명령줄 창 또는 Lync Server 관리 셸을 열고 디렉터리로 이동 합니다 (기본 위치) C: \\ Program Files \\ Microsoft Lync Server 2013 \\ 디버깅 도구 Snooper.exe를 두 번 클릭 하거나 Snooper.exe 입력 한 다음 명령줄 또는 Lync Server 관리 셸을 사용 하는 경우 enter 키를 누릅니다.
 
 <div>
 
 
 > [!IMPORTANT]  
-> 이 문서에서는 문제 해결 기술에 대해 자세히 설명하거나 논의하지 않습니다. 문제 해결 및 관련 프로세스는 복잡한 주제입니다. 문제 해결 기본 사항과 특정 작업의 문제 해결에 대 한 자세한 내용은에서 <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>Microsoft Lync Server 2010 Resource Kit book을 참조 하십시오. 프로세스 및 절차는 Lync Server 2013에도 적용 됩니다.
+> 이 문서에서는 문제 해결 기술에 대해 자세히 설명하거나 논의하지 않습니다. 문제 해결 및 관련 프로세스는 복잡한 주제입니다. 문제 해결 기본 사항과 특정 작업의 문제 해결에 대 한 자세한 내용은에서 Microsoft Lync Server 2010 Resource Kit book을 참조 하십시오 <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A> . 프로세스 및 절차는 Lync Server 2013에도 적용 됩니다.
 
 
 
@@ -75,7 +77,7 @@ Lync Server 2013에는 몇 가지 새로운 기능을 포함 하는 업데이트
 
 1.  Snooper를 사용하여 로그 파일을 열려면 로그 파일에 대한 읽기 액세스 권한이 있어야 합니다. Snooper를 사용하여 로그 파일에 액세스하려면 CsAdministrator 또는 CsServerAdministrator RBAC(역할 기반 액세스 제어) 보안 그룹의 구성원이거나 이들 두 그룹 중 하나를 포함하는 사용자 지정 RBAC 역할의 구성원이어야 합니다.
 
-2.  Lync Server 디버깅 도구 (LyncDebugTools)를 설치한 후 Windows 탐색기나 명령줄을 사용 하 여 디렉터리를 Snooper 위치로 변경 합니다. 기본적으로 디버깅 도구는 C:\\Program Files\\Microsoft Lync Server 2013\\디버깅 도구에 있습니다. Snooper.exe를 두 번 클릭하거나 실행합니다.
+2.  Lync Server 디버깅 도구 (LyncDebugTools.msi)를 설치한 후 Windows 탐색기나 명령줄을 사용 하 Snooper.exe 위치로 디렉터리를 변경 합니다. 기본적으로 디버깅 도구는 C: \\ Program Files \\ Microsoft Lync Server 2013 디버깅 도구에 있습니다 \\ . Snooper.exe를 두 번 클릭하거나 실행합니다.
 
 3.  Snooper가 열리면 **File(파일)** 을 클릭하고 **OpenFile**을 클릭한 다음 **Open(열기)** 대화 상자에서 로그 파일을 찾아 선택한 후 **Open(열기)** 을 클릭합니다.
 

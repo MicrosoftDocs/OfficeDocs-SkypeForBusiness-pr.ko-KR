@@ -12,20 +12,22 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e02c5493f8582d401ea02df3f94cd2df57e0093
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abb3a1b13bf7357a0a2ee31180557911fc37ae0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214894"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511765"
 ---
+# <a name="response-group-call-list-report-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹 통화 목록 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-call-list-report-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹 통화 목록 보고서
+
 
 </div>
 
@@ -87,7 +89,7 @@ _**마지막으로 수정 된 항목:** 2013-02-22_
 
 3.  Windows PowerShell을 사용하여 분석을 실행합니다.
 
-예를 들어 데이터를\\C: 데이터\\응답\_그룹\_통화\_목록\_보고서 .csv로 저장 한 경우 다음 명령을 사용 하 여 보고서에 나열 된 각 워크플로의 수신 된 총 통화 수를 반환할 수 있습니다.
+예를 들어 데이터를 C: \\ 데이터 \\ 응답 그룹 통화 목록Report.csv에 저장 한 경우 \_ \_ \_ \_ 다음 명령을 사용 하 여 보고서에 나열 된 각 워크플로의 수신 된 총 통화 수를 반환할 수 있습니다.
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
@@ -125,14 +127,14 @@ _**마지막으로 수정 된 항목:** 2013-02-22_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>From</strong></p></td>
+<td><p><strong>시작</strong></p></td>
 <td><p>시간 범위의 시작 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜 및 시간을 입력합니다.</p>
 <p>7/7/2012 1:00 PM</p>
 <p>시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
 <p>7/7/2012</p>
 <p>주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</p>
 <p>7/3/2012</p>
-<p>주는 항상 일요일부터 토요일까지입니다.</p></td>
+<p>주는 항상 일요일부터 토요일까지로 실행됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -168,7 +170,7 @@ _**마지막으로 수정 된 항목:** 2013-02-22_
 
 <div>
 
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에서는 응답 그룹 응용 프로그램에서 수신된 각 통화에 대해 응답 그룹 통화 목록 보고서에 제공된 정보를 보여 줍니다.
 

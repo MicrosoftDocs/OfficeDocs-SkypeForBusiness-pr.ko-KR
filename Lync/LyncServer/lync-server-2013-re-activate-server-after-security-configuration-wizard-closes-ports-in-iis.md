@@ -12,20 +12,22 @@ ms:contentKeyID: 48185644
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b74e1f773f449c139beeb1819d69ba77e92c500e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a72bfcf9facfeaa3ca943275d9cdcb3b1ac7705
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512045"
 ---
+# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>보안 구성 마법사가 IIS에서 포트를 닫은 후 서버 다시 활성화
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>보안 구성 마법사가 IIS에서 포트를 닫은 후 서버 다시 활성화
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183381"
 
 _**마지막으로 수정 된 항목:** 2012-10-01_
 
-일부 Lync Server 2013 역할은 IIS (인터넷 정보 서비스) 포트 4443에서 웹 서비스를 실행 합니다. Lync Server 배포 마법사를 실행 하거나, 부트스트래퍼가 나 **Enable-CsComputer** cmdlet을 사용 하 여 방화벽에서 예외를 만들고 포트를 엽니다. 그런 다음 Windows Server 2008 R2 보안 구성 마법사 또는 기타 강화 스크립트를 실행 하면 포트 4443이 차단 되 고 외부 클라이언트에서 웹 서비스에 연결할 수 없게 됩니다. 포트를 다시 열려면 방화벽 예외를 직접 수정하거나 서버를 다시 활성화하면 됩니다.
+일부 Lync Server 2013 역할은 IIS (인터넷 정보 서비스) 포트 4443에서 웹 서비스를 실행 합니다. Lync Server 배포 마법사를 실행 하거나, Bootstrapper.exe 하거나, **Enable-CsComputer** cmdlet을 사용 하 여 방화벽에서 예외를 만들고 포트를 엽니다. 그런 다음 Windows Server 2008 R2 보안 구성 마법사 또는 기타 강화 스크립트를 실행 하면 포트 4443이 차단 되 고 외부 클라이언트에서 웹 서비스에 연결할 수 없게 됩니다. 포트를 다시 열려면 방화벽 예외를 직접 수정하거나 서버를 다시 활성화하면 됩니다.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f996e8f15707a0c676ea77a6ffaeb5e6943ac48c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 026ceb24ef3e046d6d800db4ba82381c8905b99d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183501"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512405"
 ---
+# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Lync Server 2013의 공용 인스턴트 메시징 지원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Lync Server 2013의 공용 인스턴트 메시징 지원
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183501"
 
 _**마지막으로 수정 된 항목:** 2013-10-07_
 
-Lync Server 2013에서는 라이선스가 있는 공용 IM (인스턴트 메시징) 연결 공급자를 사용 하 고, XMPP (eXtensible Messaging and 현재 상태 프로토콜)를 사용 하 여 Lync Server가 구성 된 XMPP에 액세스할 수 있도록 하는 특수 한 유형의 페더레이션을 구현 하는 기능을 지원 합니다. Lync 2013 클라이언트를 사용한 도메인 파트너
+Lync Server 2013에서는 lync 2013 클라이언트를 사용 하 여 Lync Server가 구성 된 XMPP 도메인 파트너에 액세스할 수 있게 해 주는 특수 한 유형의 페더레이션을 구현 하는 데 사용 되는 공용 IM (인스턴트 메시징) 연결 공급자의 사용을 지원 합니다.
 
 <div>
 
@@ -51,7 +53,7 @@ Lync Server 2013에서는 라이선스가 있는 공용 IM (인스턴트 메시�
 
   - Yahoo\!
 
-Windows Live 사용자와 통신 하는 경우 Lync Server 2013는 피어 투 피어 IM 및 오디오 및 비디오 통화를 지원 합니다. AOL 및 Yahoo\!와의 통신의 경우 Lync Server 2013는 피어 투 피어 IM을 지원 합니다. 별도의 라이선스가 필요할 수 있습니다.
+Windows Live 사용자와 통신 하는 경우 Lync Server 2013는 피어 투 피어 IM 및 오디오 및 비디오 통화를 지원 합니다. AOL 및 Yahoo와의 통신의 경우 \! Lync Server 2013는 피어 투 피어 IM을 지원 합니다. 별도의 라이선스가 필요할 수 있습니다.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b920f7fd0325c3232abb5670a2da66fc98352d38
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 230b731bf7b63a1ce86b5652d9e3d3b2956c94a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207384"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512825"
 ---
+# <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Lync Server 2013에 대 한 용량 계획 계산기 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Lync Server 2013에 대 한 용량 계획 계산기 사용
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42207384"
 
 _**마지막으로 수정 된 항목:** 2013-11-21_
 
-Microsoft® Lync™ Server 2013 capacity 계획 계산기는에서 <https://www.microsoft.com/download/details.aspx?id=36828>다운로드할 수 있습니다. 이 기능은 조직에서 사용 하도록 설정 된 사용자 수 및 통신 형식에 따라 서버 요구 사항을 결정 하는 데 도움을 주기 위한 것입니다. 조직의 프로필을 입력 하면 계산기는 토폴로지를 계획 하는 데 도움이 되는 권장 사항을 제공 합니다.
+Microsoft® Lync™ Server 2013 capacity 계획 계산기는에서 다운로드할 수 있습니다 <https://www.microsoft.com/download/details.aspx?id=36828> . 이 기능은 조직에서 사용 하도록 설정 된 사용자 수 및 통신 형식에 따라 서버 요구 사항을 결정 하는 데 도움을 주기 위한 것입니다. 조직의 프로필을 입력 하면 계산기는 토폴로지를 계획 하는 데 도움이 되는 권장 사항을 제공 합니다.
 
 계산기에서 만드는 권장 사항은 계획 목적 으로만 사용 됩니다. Lync Server 2013이 제대로 프로 비전 되도록 하려면 실제 부하 시뮬레이션이 필요 합니다. 시뮬레이트된 부하에서 스트레스 테스트를 수행 하려면 [Lync Server 2013 스트레스 및 성능 도구](https://go.microsoft.com/fwlink/?linkid=282724)를 사용 합니다.
 
@@ -73,7 +75,7 @@ Microsoft® Lync™ Server 2013 capacity 계획 계산기는에서 <https://www.
 
   - Uc 통화에 포함 된 음성 사용자의 백분율은 UC-UC 통화에만 사용 하도록 설정할 수 있는 Enterprise Voice를 사용할 수 있는 사용자의 비율을 보여 줍니다. 이 번호는 UC PSTN 통화에 사용 하도록 설정 된 음성 사용자의 비율에 따라 계산 됩니다.
 
-**전화**
+**회의**
 
   - 동시 회의의 사용자 비율에는 회의에 동시에 참가 하는 사용자의 백분율을 입력 합니다. 기본값은 5%입니다.
 
@@ -91,7 +93,7 @@ Microsoft® Lync™ Server 2013 capacity 계획 계산기는에서 <https://www.
     
       - 음성 회의 중 20%에 Microsoft PowerPoint® 프레젠테이션과 같은 데이터 업로드를 포함 하는 경우 웹 회의 포함 확인란을 선택 합니다.
 
-이동성**
+**이동성**
 
   - 모바일 장치를 사용 하 여 Lync Server에 연결 하는 데 사용할 수 있는 사용자의 백분율을 입력 합니다. 기본값은 40%입니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353e0941f443e2cb971f8ebd037413232e21b827
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 69caa96c6f0e49d472f13da11b34f7d199322184
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183431"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512185"
 ---
+# <a name="qoe-reports-in-lync-server-2013"></a>Lync Server 2013의 QoE 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="qoe-reports-in-lync-server-2013"></a>Lync Server 2013의 QoE 보고서
+
 
 </div>
 
@@ -129,7 +131,7 @@ A/V 회의 서버 성능 보고서는 지정 된 기간 동안 하나 이상의 
 
 ## <a name="location-based-performance-report"></a>위치 기반 성능 보고서
 
-위치 기반 성능 보고서는 네트워크 위치 목록을 제공 하 고 각 위치에 대해 미리 결정 된 각 품질 범위의 통화 수를 표시 합니다. 이 보고서의 목표는 다양 한 위치에 대 한 조직의 전화 통화에 대 한 대량의 정보를 파악 하 여 제대로 수행 되지 않는 위치를 파악 하 고 조직의 다양 한 미디어 품질 등급을 볼 수 있도록 하는 것입니다. 다른 위치
+Location-Based Performance report는 네트워크 위치 목록을 제공 하 고 각 위치에 대해 미리 결정 된 각 품질 범위의 통화 수를 표시 합니다. 이 보고서의 목표는 다양 한 위치에 대 한 조직의 전화 통화에 대 한 대량의 정보를 파악 하 여 제대로 수행 되지 않는 위치를 식별 하 고 조직의 다양 한 위치에서 다른 미디어 품질 등급을 볼 수 있도록 하는 것입니다.
 
 보고서를 표시할 때 각 메트릭이 표시 되 면 조직에서 보고 하기로 결정 한 각 메트릭에 대 한 테이블이 하나씩 나타납니다. 이 보고서에 대해 다음 메트릭 중에서 선택할 수 있습니다.
 

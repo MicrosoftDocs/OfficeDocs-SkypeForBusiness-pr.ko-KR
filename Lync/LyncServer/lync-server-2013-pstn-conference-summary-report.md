@@ -12,20 +12,22 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b531d0e8d7d4fe5de6d1598cf557096ebff8a90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0dbb90d0776ee89fe9ab8b9f5796b182c5dc0457
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215254"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513115"
 ---
+# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Lync Server 2013의 PSTN 전화 회의 요약 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Lync Server 2013의 PSTN 전화 회의 요약 보고서
+
 
 </div>
 
@@ -59,7 +61,7 @@ PSTN 전화 회의 수가 예상한 것보다 적은 경우, 전화 접속 사�
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
-이 명령을 실행하면 다음과 같은 데이터가 반환됩니다.
+그러면 다음과 비슷한 데이터가 반환됩니다.
 
     Identity                                EnableDialInConferencing
     --------                                ------------------------
@@ -96,14 +98,14 @@ PSTN 전화 회의 수가 예상한 것보다 적은 경우, 전화 접속 사�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>From</strong></p></td>
+<td><p><strong>시작</strong></p></td>
 <td><p>시간 범위의 시작 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜 및 시간을 입력합니다.</p>
 <p>7/7/2012 1:00 PM</p>
 <p>시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
 <p>7/7/2012</p>
 <p>주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</p>
 <p>7/3/2012</p>
-<p>주는 항상 일요일부터 토요일까지입니다.</p></td>
+<p>주는 항상 일요일부터 토요일까지로 실행됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -134,7 +136,7 @@ PSTN 전화 회의 수가 예상한 것보다 적은 경우, 전화 접속 사�
 
 <div>
 
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에서는 PSTN 전화 회의 요약 보고서의 정보를 보여 줍니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18f24d99a8b22c78acd32efdb5867c92a5621fe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c6bb3c7dcd8d03ffb0a57fb165fe1dba4ee933d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191251"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512805"
 ---
+# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 용량 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 용량 계획
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42191251"
 
 _**마지막으로 수정 된 항목:** 2012-10-05_
 
-영구 채팅 서버는 향후 검색 및 검색을 위해 유지할 수 있는 여러 사용자 실시간 채팅을 수행할 수 있습니다. 사용자의 사서함에 저장 되는 IM (인스턴트 메시징)과 달리 대화 기록이 구성 되 면 영구 채팅 서버 세션은 더 이상 열어 두고 콘텐츠가 서버에 저장 되며 메시지, 파일, Url 및 기타 데이터를 포함 합니다. 진행 중인 대화입니다.
+영구 채팅 서버는 향후 검색 및 검색을 위해 유지할 수 있는 여러 사용자 실시간 채팅을 수행할 수 있습니다. 사용자의 사서함에 저장 되는 IM (인스턴트 메시징)과 달리 대화 기록이 구성 되 면 영구 채팅 서버 세션은 계속 해 서 열려 있는 상태로 유지 되며, 콘텐츠는 진행 중인 대화의 일부인 메시지, 파일, Url 및 기타 데이터와 함께 서버에 저장 됩니다.
 
 영구 채팅 서버 배포를 준비 하는 데 있어 용량 계획은 중요 한 역할을 합니다. 이 항목에서는 배포에 가장 적합 한 구성을 결정 하는 데 사용할 수 있는 지원 되는 영구 채팅 서버 토폴로지 및 용량 계획 표에 대해 자세히 설명 합니다. 또한 사용량이 가장 많은 시간에 더 많은 용량을 필요로 하는 영구 채팅 서버 배포를 최상으로 관리 하는 방법을 설명 합니다.
 
-영구 채팅 서버를 다운로드 하려면에서 [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)"Microsoft Lync Server 13영구 채팅 서버"를 참조 하세요.
+영구 채팅 서버를 다운로드 하려면에서 "Microsoft Lync Server 13영구 채팅 서버"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539) 하세요.
 
 영구 채팅 서버를 설치 하는 방법에 대 한 자세한 내용은 배포 설명서의 lync [server 2013에서 영구 채팅 서버 설치](lync-server-2013-installing-persistent-chat-server.md) 및 [lync Server 2013의 영구 채팅 서버 구성을](lync-server-2013-configuring-persistent-chat-server.md) 참조 하십시오.
 
@@ -69,7 +71,7 @@ Lync Server 계획 도구와 같은 지원 도구를 사용 하면 용량을 계
 
 ## <a name="single-server-topology"></a>단일 서버 토폴로지
 
-영구 채팅 서버에 대 한 최소 구성 및 가장 간단한 배포는 단일 영구 채팅 서버 프런트 엔드 서버 토폴로지입니다. 이 배포를 사용 하려면 영구 채팅 서버를 실행 하는 단일 서버 (선택적으로 준수 서비스를 실행 하는 경우, 준수 기능이 사용 하도록 설정 된 경우), SQL Server 데이터베이스를 모두 호스트 하는 서버 및 준수 해야 하는 경우에는 SQL Server 데이터베이스를 저장 합니다. 준수 데이터
+영구 채팅 서버에 대 한 최소 구성 및 가장 간단한 배포는 단일 영구 채팅 서버 프런트 엔드 서버 토폴로지입니다. 이 배포를 사용 하려면 영구 채팅 서버를 실행 하는 단일 서버 (필요한 경우 준수 서비스를 실행 하는 경우), SQL Server 데이터베이스를 모두 호스트 하는 서버, 준수 해야 하는 경우 SQL Server 데이터베이스에서 준수 데이터를 저장 해야 합니다.
 
 <div>
 
@@ -191,7 +193,7 @@ Lync Server 계획 도구와 같은 지원 도구를 사용 하면 용량을 계
 <td><p>대화방 수</p></td>
 <td><p>32000</p></td>
 <td><p>1067</p></td>
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>33077</p></td>
 </tr>
 <tr class="odd">
@@ -212,21 +214,21 @@ Lync Server 계획 도구와 같은 지원 도구를 사용 하면 용량을 계
 <td><p>대화방 열기 (명시적 멤버 자격 없음)</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>2-5</p></td>
+<td><p>5 </p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>열려 있지 않은 대화방 (명시적 구성원이 있는 일반 대화방)</p></td>
 <td><p>31040</p></td>
 <td><p>1.035</p></td>
-<td><p>2-5</p></td>
+<td><p>5 </p></td>
 <td><p>32080</p></td>
 </tr>
 <tr class="odd">
 <td><p>강당 대화방 (추가 발표자 항목)</p></td>
 <td><p>개</p></td>
 <td><p>32</p></td>
-<td><p>2-5</p></td>
+<td><p>5 </p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -260,8 +262,8 @@ Lync Server 계획 도구와 같은 지원 도구를 사용 하면 용량을 계
 <tr class="even">
 <td><p>열려 있지 않은 대화방에 대 한 각 대화방의 구성원 목록에 있는 사용자 그룹</p></td>
 <td><p>3(sp3)</p></td>
-<td><p>2-5</p></td>
-<td><p>10 </p></td>
+<td><p>5 </p></td>
+<td><p>10  </p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -515,7 +517,7 @@ Lync Server 계획 도구와 같은 지원 도구를 사용 하면 용량을 계
 <tr class="odd">
 <td><p>일별 사용자 당 채팅 속도</p></td>
 <td><p>15 </p></td>
-<td><p>2-5</p></td>
+<td><p>5 </p></td>
 <td><p>0.1</p></td>
 <td><p>20cm(8</p></td>
 </tr>
@@ -559,7 +561,7 @@ Lync Server 계획 도구와 같은 지원 도구를 사용 하면 용량을 계
 </tr>
 <tr class="even">
 <td><p>영구 채팅 서버 서비스 인스턴스 수</p></td>
-<td><p>1-4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>소규모 대화방의 크기</p></td>
@@ -587,7 +589,7 @@ Lync Server 계획 도구와 같은 지원 도구를 사용 하면 용량을 계
 </tr>
 <tr class="odd">
 <td><p>대규모 대화방 수</p></td>
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 </tr>
 <tr class="even">
 <td><p>사용자당 총 대화방 수</p></td>
@@ -595,7 +597,7 @@ Lync Server 계획 도구와 같은 지원 도구를 사용 하면 용량을 계
 </tr>
 <tr class="odd">
 <td><p>사용자당 소규모 대화방 수</p></td>
-<td><p>12</p></td>
+<td><p>12 </p></td>
 </tr>
 <tr class="even">
 <td><p>사용자당 중규모 대화방 수</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f60a868a4a77259b358f8ab9d4042bf33c56b044
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bb2f12b395215c0b09fa650508cf93f1aec58d7f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199551"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512965"
 ---
+# <a name="call-admission-control-on-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013의 SIP 트렁크에 대 한 통화 허용 제어
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-on-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013의 SIP 트렁크에 대 한 통화 허용 제어
+
 
 </div>
 
@@ -58,7 +60,7 @@ SIP 트렁크에 CAC를 구성하려면 CAC 배포 중에 다음 작업을 수�
     
     </div>
 
-2.  1단계에서 만든 사이트에 대한 관련 매개 변수 값을 사용하여 SIP 트렁크에 대한 사이트 간 링크를 만듭니다. 예를 들어 엔터프라이즈의 네트워크 사이트 이름을 NetworkSiteID1 매개 변수 값으로 사용하고 ITSP 네트워크 사이트를 NetworkSiteID2 매개 변수 값으로 사용합니다. 자세한 내용은 배포 설명서의 [Lync Server 2013에서 네트워크 사이트 간 정책 만들기](lync-server-2013-create-network-intersite-policies.md) 를 참조 하십시오. 또한 Remove-csnetworkintersitepolicy cmdlet에 대 한 Lync Server 관리 셸 설명서도 참조 하십시오.
+2.  1단계에서 만든 사이트에 대한 관련 매개 변수 값을 사용하여 SIP 트렁크에 대한 사이트 간 링크를 만듭니다. 예를 들어 엔터프라이즈의 네트워크 사이트 이름을 NetworkSiteID1 매개 변수 값으로 사용하고 ITSP 네트워크 사이트를 NetworkSiteID2 매개 변수 값으로 사용합니다. 자세한 내용은 배포 설명서의 [Lync Server 2013에서 네트워크 사이트 간 정책 만들기](lync-server-2013-create-network-intersite-policies.md) 를 참조 하십시오. 또한 New-CsNetworkInterSitePolicy cmdlet에 대 한 Lync Server 관리 셸 설명서도 참조 하십시오.
 
 3.  ITSP로부터 SCB(세션 경계 컨트롤러) 미디어 종료 지점의 IP 주소를 얻습니다. 해당 IP 주소(서브넷 마스크 32 포함)를 ITSP를 나타내는 네트워크 사이트에 추가합니다. 자세한 내용은 [Lync Server 2013에서 a 서브넷을 네트워크 사이트에 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)을 참조 하십시오.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183610
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6bbbe8650ae1d7746c9b87ecf4518236f8b1575
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7d5ae03267b266b1ef2abbacc2e3fce06e034ec
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201874"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513525"
 ---
+# <a name="planning-for-simple-urls-in-lync-server-2013"></a>Lync Server 2013의 단순 Url 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-simple-urls-in-lync-server-2013"></a>Lync Server 2013의 단순 Url 계획
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**마지막으로 수정 된 항목:** 2015-12-11_
 
 Lync Server에서는 다음과 같은 세 가지 단순 Url을 지원 합니다.
 
-  - **모임**은 사이트 또는 조직의 모든 전화 회의에 대한 기준 URL로 사용됩니다. 모임 단순 URL의 예는 https://meet.contoso.com입니다. 특정 모임에 대 한 URL은 https://meet.contoso.com/ *사용자 이름*/7322994이 될 수 있습니다.
+  - **모임**은 사이트 또는 조직의 모든 전화 회의에 대한 기준 URL로 사용됩니다. 모임 단순 URL의 예는 https://meet.contoso.com 입니다. 특정 모임에 대 한 URL은 https://meet.contoso.com/ *사용자 이름*/7322994이 될 수 있습니다.
     
     모임 단순 URL을 사용하면 모임에 참가할 링크를 쉽게 이해하고 전달하고 배포할 수 있습니다.
 
-  - **전화 접속** 을 사용 하면 전화 접속 회의 설정 웹 페이지에 액세스할 수 있습니다. 이 페이지에는 전화 회의 전화 번호를 사용 가능한 언어로 표시 하 고, 전화 회의 정보 (예약 하지 않아도 되는 모임의 경우)와 개인 식별 번호 관리를 지원 합니다 ( PIN)을 지정 하 고 회의 정보를 할당 합니다. 전화 접속 단순 URL은 모임에 전화를 거는 사용자가 필요한 전화 번호와 PIN 정보에 액세스할 수 있도록 모든 모임 초대에 포함 됩니다. 전화 접속 단순 URL의 예는 https://dialin.contoso.com입니다.
+  - **전화 접속** 을 사용 하면 전화 접속 회의 설정 웹 페이지에 액세스할 수 있습니다. 이 페이지에는 전화 회의 전화 번호를 사용 가능한 언어로 표시 하 고, 전화 회의 정보 (예약할 필요가 없는 모임의 경우)를 지정 하 고, PIN (개인 식별 번호) 및 할당 된 회의 정보 관리를 지원 합니다. 전화 접속 단순 URL은 모임에 전화를 거는 사용자가 필요한 전화 번호와 PIN 정보에 액세스할 수 있도록 모든 모임 초대에 포함 됩니다. 전화 접속 단순 URL의 예는 https://dialin.contoso.com 입니다.
 
-  - **관리자** 는 Lync Server 제어판에 빠르게 액세스할 수 있도록 합니다. 조직의 방화벽 내에 있는 모든 컴퓨터에서 관리자는 브라우저에 관리 단순 URL을 입력 하 여 Lync Server 제어판을 열 수 있습니다. 관리 단순 URL은 조직의 내부 URL입니다. 관리 단순 URL의 예는https://admin.contoso.com
+  - **관리자** 는 Lync Server 제어판에 빠르게 액세스할 수 있도록 합니다. 조직의 방화벽 내에 있는 모든 컴퓨터에서 관리자는 브라우저에 관리 단순 URL을 입력 하 여 Lync Server 제어판을 열 수 있습니다. 관리 단순 URL은 조직의 내부 URL입니다. 관리 단순 URL의 예는 https://admin.contoso.com
 
 <div>
 
@@ -61,7 +63,7 @@ Lync Server에서는 다음과 같은 세 가지 단순 Url을 지원 합니다.
 
 
 > [!NOTE]  
-> 사이트 범위가 지정 된 단순 Url을 사용 하도록 선택 하는 경우 사용자가 다른 사이트의 프런트 엔드 풀 사이를 이동할 수 없는 경우 모임 단순 Url이 사이트 간에 다른 사용자가 예약 된 모든 모임에 대해 일정을 조정 합니다. 여기에는 백업 관계의 풀이 별도의 사이트에 있는 장애 조치 (failover) 시나리오가 포함 됩니다. 사이트 범위가 지정 된 단순 Url이 배포 되는 사이트 간에 장애 조치 (failover)를 수행 해야 하는 경우에는 URL 범위로 인해 사용자가 자신의 모임에 참가할 수 없게 됩니다. 자세한 내용을 보려면 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">get-cssimpleurlconfiguration</A>를 확인 하세요.
+> 사이트 범위가 지정 된 단순 Url을 사용 하도록 선택 하는 경우 사용자가 다른 사이트의 Front-End 풀 간에 이동할 수 없으며, 사용자는 모임 단순 Url이 사이트 간에 서로 다른 것으로 예약 된 모든 모임에 대해 일정을 조정 하지 않아도 됩니다. 여기에는 백업 관계의 풀이 별도의 사이트에 있는 장애 조치 (failover) 시나리오가 포함 됩니다. 사이트 범위가 지정 된 단순 Url이 배포 되는 사이트 간에 장애 조치 (failover)를 수행 해야 하는 경우에는 URL 범위로 인해 사용자가 자신의 모임에 참가할 수 없게 됩니다. 자세한 내용을 보려면 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">get-cssimpleurlconfiguration</A>를 확인 하세요.
 
 
 
@@ -99,7 +101,7 @@ Lync Server에서는 다음과 같은 세 가지 단순 Url을 지원 합니다.
 </tr>
 <tr class="even">
 <td><p>조건</p></td>
-<td><p>https://meet.contoso.com, https://meet.fabrikam.com등은 (조직의 각 SIP 도메인에 대해 하나씩)</p></td>
+<td><p>https://meet.contoso.com, https://meet.fabrikam.com 등은 (조직의 각 SIP 도메인에 대해 하나씩)</p></td>
 </tr>
 <tr class="odd">
 <td><p>전화 접속</p></td>
@@ -129,7 +131,7 @@ Lync Server에서는 다음과 같은 세 가지 단순 Url을 지원 합니다.
 </tr>
 <tr class="even">
 <td><p>조건</p></td>
-<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet등은 (조직의 각 SIP 도메인에 대해 하나씩)</p></td>
+<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet 등은 (조직의 각 SIP 도메인에 대해 하나씩)</p></td>
 </tr>
 <tr class="odd">
 <td><p>전화 접속</p></td>
@@ -180,7 +182,7 @@ Lync Server에서는 다음과 같은 세 가지 단순 Url을 지원 합니다.
 
 토폴로지 작성기 및 Lync Server 관리 셸 cmdlet은 단순 Url에 대 한 몇 가지 유효성 검사 규칙을 적용 합니다. 모임 및 전화 접속 단순 URL은 필수 설정이지만 관리 단순 URL은 선택 사항입니다. 모임 단순 URL은 SIP 도메인마다 별도의 URL이 있어야 하지만 전화 접속 단순 URL과 관리 단순 URL은 전체 조직에 하나만 있으면 됩니다.
 
-조직의 각 단순 URL은 고유한 이름을 사용해야 하며 다른 단순 URL의 접두사가 될 수 없습니다(예: lync.contoso.com/Meet를 모임 단순 URL로 설정하고 lync.contoso.com/Meet/Dialin을 전화 접속 단순 URL로 설정할 수는 없음). 단순 URL 이름에는 풀의 FQDN을 포함할 수 없으며 모든 포트 정보 (예: 허용 되지 않음 https://FQDN:88/meet )가 포함 됩니다. 모든 단순 URL은 https:// 접두사로 시작해야 합니다.
+조직의 각 단순 URL은 고유한 이름을 사용해야 하며 다른 단순 URL의 접두사가 될 수 없습니다(예: lync.contoso.com/Meet를 모임 단순 URL로 설정하고 lync.contoso.com/Meet/Dialin을 전화 접속 단순 URL로 설정할 수는 없음). 단순 URL 이름에는 풀의 FQDN을 포함할 수 없으며 모든 포트 정보 (예: https://FQDN:88/meet 허용 되지 않음)가 포함 됩니다. 모든 단순 URL은 https:// 접두사로 시작해야 합니다.
 
 단순 URL은 영숫자(즉, a-z, A-Z, 0-9 및 마침표(.))만 포함할 수 있습니다. 다른 문자를 사용하면 단순 URL이 예상대로 작동하지 않을 수 있습니다.
 
@@ -190,7 +192,7 @@ Lync Server에서는 다음과 같은 세 가지 단순 Url을 지원 합니다.
 
 ## <a name="changing-simple-urls-after-deployment"></a>배포 후 단순 URL 변경
 
-초기 배포 후 단순 URL을 변경하려면 단순 URL의 DNS 레코드 및 인증서가 이러한 변경으로 인해 받을 수 있는 영향을 파악해야 합니다. 단순 URL의 기준이 변경되면 DNS 레코드 및 인증서도 변경해야 합니다. 예를 들어에서 https://lync.contoso.com/Meet 를 https://meet.contoso.com 변경 하면 기본 URL이 lync.contoso.com에서 MEET.CONTOSO.COM으로 변경 되므로 DNS 레코드 및 인증서를 변경 하 여 meet.contoso.com를 참조 해야 합니다. 단순 URL을에서 https://lync.contoso.com/Meet 로 https://lync.contoso.com/Meetings변경한 경우 lync.contoso.com의 기본 url은 동일 하 게 유지 되므로 DNS 또는 인증서를 변경할 필요가 없습니다.
+초기 배포 후 단순 URL을 변경하려면 단순 URL의 DNS 레코드 및 인증서가 이러한 변경으로 인해 받을 수 있는 영향을 파악해야 합니다. 단순 URL의 기준이 변경되면 DNS 레코드 및 인증서도 변경해야 합니다. 예를 들어에서를 변경 하면 https://lync.contoso.com/Meet https://meet.contoso.com 기본 URL이 lync.contoso.com에서 meet.contoso.com으로 변경 되므로 DNS 레코드 및 인증서를 변경 하 여 meet.contoso.com를 참조 해야 합니다. 단순 URL을에서로 변경한 경우 https://lync.contoso.com/Meet https://lync.contoso.com/Meetings lync.contoso.com의 기본 url은 동일 하 게 유지 되므로 DNS 또는 인증서를 변경할 필요가 없습니다.
 
 그러나 단순 URL 이름을 변경할 때마다 각 디렉터 및 프런트 엔드 서버에서 **CsComputer를 사용** 하 여 변경 내용을 등록 해야 합니다.
 

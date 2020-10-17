@@ -12,20 +12,22 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aca31ca681c75438bbcbb67b1d2dc5c0b6305cb7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6db6a701c98a44b042d9ee36d0a749bf6363bd2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183742"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513385"
 ---
+# <a name="key-health-indicators-in-lync-server-2013"></a>Lync Server 2013의 주요 상태 지표
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="key-health-indicators-in-lync-server-2013"></a>Lync Server 2013의 주요 상태 지표
+
 
 </div>
 
@@ -111,7 +113,7 @@ Lync 구현의 각 서버에 대해 서버 구성 요소 상태와 시스템 성
 
   - 평균 디스크 읽기 \< 10 밀리초
 
-  - 사용 가능한 \>메모리 20% 시스템 총 MB
+  - 사용 가능한 메모리 \> 20% 시스템 총 MB
 
   - 네트워크 큐 길이 \< 2
 
@@ -170,11 +172,11 @@ LySS = Lync Storage Service
 <tbody>
 <tr class="odd">
 <td><p>/AV/IM MCU</p></td>
-<td><p>MCU 상태 &lt;2</p></td>
+<td><p>MCU 상태 &lt; 2</p></td>
 </tr>
 <tr class="even">
-<td><p>웹 구성 요소</p></td>
-<td><p>메일 그룹 확장 AD 시간 &lt;제한 0</p>
+<td><p>Web Components</p></td>
+<td><p>메일 그룹 확장 AD 시간 제한 &lt; 0</p>
 <p>ABWQ 실패 = 0</p>
 <p>LIS 오류 = 0</p>
 <p>인증 오류 &lt; 1/초</p>
@@ -183,9 +185,9 @@ LySS = Lync Storage Service
 <tr class="odd">
 <td><p>SIP 스택</p></td>
 <td><p>평균 수신 메시지 처리 &lt; 1 초</p>
-<p>들어오는 응답 삭제 &lt; 1/초당 들어오는 요청 1 &lt; /초 손실 됨</p>
-<p>큐 대기 &lt; 시간 100 밀리초</p>
-<p>프로시저에 &lt; 대 한 대기 시간 100 ms</p>
+<p>들어오는 응답 삭제 &lt; 1/초당 들어오는 요청 &lt; 1/초 손실 됨</p>
+<p>큐 대기 시간 &lt; 100 밀리초</p>
+<p>프로시저에 대 한 대기 시간 &lt; 100 ms</p>
 <p>제한 된 요청 = 0</p>
 <p>인증 오류 &lt; 1/초</p>
 <p>들어오는 메시지 시간 초과 &lt; 2</p>
@@ -195,14 +197,14 @@ LySS = Lync Storage Service
 </tr>
 <tr class="even">
 <td><p>LySS</p></td>
-<td><p>Storage Service DB &lt; 80에서 사용 되는 공간의%</p>
-<p>#복제본 복제 실패 횟수 = 0</p>
-<p>#데이터 손실 이벤트의 개수 = 0</p></td>
+<td><p>Storage Service DB 80에서 사용 되는 공간의% &lt;</p>
+<p># 복제본 복제 실패 횟수 = 0</p>
+<p># 데이터 손실 이벤트의 개수 = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>SQL</p></td>
 <td><p>페이지 수명 예상 &gt; 300 초</p>
-<p>일괄 처리 요청/ &lt; 초 2500</p></td>
+<p>일괄 처리 요청/초 &lt; 2500</p></td>
 </tr>
 </tbody>
 </table>
@@ -234,7 +236,7 @@ LySS = Lync Storage Service
 <tr class="odd">
 <td><p>SQL</p></td>
 <td><p>페이지 수명 예상 &gt; 300 초</p>
-<p>일괄 처리 요청/ &lt; 초 2500</p></td>
+<p>일괄 처리 요청/초 &lt; 2500</p></td>
 </tr>
 </tbody>
 </table>
@@ -266,8 +268,8 @@ LySS = Lync Storage Service
 <tr class="odd">
 <td><p>중재 서버 서비스</p></td>
 <td><p>로드 통화 실패 인덱스 = 0</p>
-<p>프록시 &lt;10로 인 한 실패 한 통화</p>
-<p>게이트웨이 &lt;10으로 인 한 실패 한 통화</p>
+<p>프록시 10로 인 한 실패 한 통화 &lt;</p>
+<p>게이트웨이 10으로 인 한 실패 한 통화 &lt;</p>
 <p>거부 된 통화 (로그인 또는 아웃) = 0</p>
 <p>누락 된 미디어 후보 = 0</p>
 <p>미디어 연결 검사 실패 = 0</p></td>
@@ -301,25 +303,25 @@ LySS = Lync Storage Service
 <tbody>
 <tr class="odd">
 <td><p>AV 인증</p></td>
-<td><p>잘못 된 &lt; 요청 20/초</p></td>
+<td><p>잘못 된 요청 &lt; 20/초</p></td>
 </tr>
 <tr class="even">
 <td><p>AV에 지</p></td>
-<td><p>인증 실패 &lt;20/초</p>
-<p>할당 실패 &lt;20/초</p>
-<p>패킷 300 &lt;/초 손실 됨</p></td>
+<td><p>인증 실패 &lt; 20/초</p>
+<p>할당 실패 &lt; 20/초</p>
+<p>패킷 &lt; 300/초 손실 됨</p></td>
 </tr>
 <tr class="odd">
 <td><p>데이터 프록시</p></td>
-<td><p>제한 된 서버 &lt; 연결 3</p>
-<p>시스템이 조절 &lt;1</p></td>
+<td><p>제한 된 서버 연결 &lt; 3</p>
+<p>시스템이 조절 &lt; 1</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP 스택</p></td>
-<td><p>제한을 초과 하는 &lt; 연결 삭제 1</p>
-<p>전송 시간 초과 &lt;10</p>
-<p>흐름 제어 연결 &lt;100</p>
-<p>들어오는 요청 1 &lt; /초 손실</p>
+<td><p>제한을 초과 하는 연결 삭제 &lt; 1</p>
+<p>전송 시간 초과 &lt; 10</p>
+<p>흐름 제어 연결 &lt; 100</p>
+<p>들어오는 요청 &lt; 1/초 손실</p>
 <p>평균 메시지 처리 &lt; 3 초</p></td>
 </tr>
 </tbody>

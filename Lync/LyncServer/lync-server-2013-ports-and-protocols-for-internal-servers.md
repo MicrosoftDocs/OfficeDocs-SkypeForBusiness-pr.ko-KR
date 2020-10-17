@@ -12,20 +12,22 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f40265cf7b8fff7fd6cbf3d4f67a2fb9f558fa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 858ec90cf3811318cc29a902b56ac8ff31c46a22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208795"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513405"
 ---
+# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013의 내부 서버에 대 한 포트 및 프로토콜
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013의 내부 서버에 대 한 포트 및 프로토콜
+
 
 </div>
 
@@ -82,8 +84,8 @@ _**마지막으로 수정 된 항목:** 2016-04-06_
 <th>서버 역할</th>
 <th>서비스 이름</th>
 <th>포트</th>
-<th>프로토콜로</th>
-<th>Notes</th>
+<th>Protocol(프로토콜)</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
@@ -96,21 +98,21 @@ _**마지막으로 수정 된 항목:** 2016-04-06_
 </tr>
 <tr class="even">
 <td><p>프런트 엔드 서버</p></td>
-<td><p>Lync Server 프런트 엔드 서비스</p></td>
+<td><p>Lync Server Front-End 서비스</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>필요에 따라 Standard Edition Server 및 프런트 엔드 서버에서 원격 호출 제어 서버와 같은 트러스트된 서비스에 대한 고정 경로에 사용합니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>프런트 엔드 서버</p></td>
-<td><p>Lync Server 프런트 엔드 서비스</p></td>
+<td><p>Lync Server Front-End 서비스</p></td>
 <td><p>5061</p></td>
 <td><p>TCP(TLS)</p></td>
 <td><p>Standard Edition Server 및 프런트 엔드 풀에서 서버 간 모든 내부 SIP 통신(MTLS), 서버와 클라이언트 간 SIP 통신(TLS) 및 프런트 엔드 서버와 중재 서버 간 SIP 통신(MTLS)에 사용됩니다. 또한 모니터링 서버와의 통신에도 사용됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>프런트 엔드 서버</p></td>
-<td><p>Lync Server 프런트 엔드 서비스</p></td>
+<td><p>Lync Server Front-End 서비스</p></td>
 <td><p>444</p></td>
 <td><p>H</p>
 <p>TCP</p></td>
@@ -119,7 +121,7 @@ _**마지막으로 수정 된 항목:** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>프런트 엔드 서버</p></td>
-<td><p>Lync Server 프런트 엔드 서비스</p></td>
+<td><p>Lync Server Front-End 서비스</p></td>
 <td><p>135</p></td>
 <td><p>DCOM 및 RPC(원격 프로시저 호출)</p></td>
 <td><p>사용자 이동, User Replicator 동기화 및 주소록 동기화와 같은 DCOM 기반 작업에 사용됩니다.</p></td>
@@ -371,14 +373,14 @@ _**마지막으로 수정 된 항목:** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>디렉터</p></td>
-<td><p>Lync Server 프런트 엔드 서비스</p></td>
+<td><p>Lync Server Front-End 서비스</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>필요에 따라 원격 통화 제어 서버와 같은 트러스트된 서비스에 대한 고정 경로에 사용됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>디렉터</p></td>
-<td><p>Lync Server 프런트 엔드 서비스</p></td>
+<td><p>Lync Server Front-End 서비스</p></td>
 <td><p>444</p></td>
 <td><p>H</p>
 <p>TCP</p></td>
@@ -400,7 +402,7 @@ _**마지막으로 수정 된 항목:** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>디렉터</p></td>
-<td><p>Lync Server 프런트 엔드 서비스</p></td>
+<td><p>Lync Server Front-End 서비스</p></td>
 <td><p>5061</p></td>
 <td><p>TCP</p></td>
 <td><p>서버 간 내부 통신과 클라이언트 연결에 사용됩니다.</p></td>
@@ -482,7 +484,7 @@ _**마지막으로 수정 된 항목:** 2016-04-06_
 <tr class="header">
 <th>부하 분산 장치</th>
 <th>포트</th>
-<th>프로토콜로</th>
+<th>Protocol(프로토콜)</th>
 </tr>
 </thead>
 <tbody>
@@ -604,7 +606,7 @@ DNS 부하 분산을 사용하는 프런트 엔드 풀 및 디렉터 풀에는 �
 <tr class="header">
 <th>부하 분산 장치</th>
 <th>포트</th>
-<th>프로토콜로</th>
+<th>Protocol(프로토콜)</th>
 </tr>
 </thead>
 <tbody>
@@ -660,8 +662,8 @@ DNS 부하 분산을 사용하는 프런트 엔드 풀 및 디렉터 풀에는 �
 <tr class="header">
 <th>구성 요소</th>
 <th>포트</th>
-<th>프로토콜로</th>
-<th>Notes</th>
+<th>Protocol(프로토콜)</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
