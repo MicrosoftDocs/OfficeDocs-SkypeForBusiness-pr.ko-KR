@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 클라이언트 인증을 지원 하도록 AD FS 2.0 구성'
+description: 'Lync Server 2013: 클라이언트 인증을 지원 하도록 AD FS 2.0를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d2b713d109a72431e78e966258a84c084523a7a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 156eb6d7e8af85dec04601ab8f88c55181db20d5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517645"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553254"
 ---
-# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a><span data-ttu-id="a9ec5-102">Lync Server 2013에서 클라이언트 인증을 지원 하도록 AD FS 2.0 구성</span><span class="sxs-lookup"><span data-stu-id="a9ec5-102">Configuring AD FS 2.0 to support client authentication in Lync Server 2013</span></span>
+# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a><span data-ttu-id="682a6-103">Lync Server 2013에서 클라이언트 인증을 지원 하도록 AD FS 2.0 구성</span><span class="sxs-lookup"><span data-stu-id="682a6-103">Configuring AD FS 2.0 to support client authentication in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,44 +38,44 @@ ms.locfileid: "48517645"
 
 <span> </span>
 
-<span data-ttu-id="a9ec5-103">_**마지막으로 수정 된 항목:** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="a9ec5-103">_**Topic Last Modified:** 2013-07-03_</span></span>
+<span data-ttu-id="682a6-104">_**마지막으로 수정 된 항목:** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="682a6-104">_**Topic Last Modified:** 2013-07-03_</span></span>
 
-<span data-ttu-id="a9ec5-104">스마트 카드를 사용 하 여 인증을 지원 하도록 AD FS 2.0를 허용 하도록 구성할 수 있는 두 가지 인증 유형이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-104">There are two possible authentication types that can be configured to allow AD FS 2.0 to support authentication using smart cards:</span></span>
+<span data-ttu-id="682a6-105">스마트 카드를 사용 하 여 인증을 지원 하도록 AD FS 2.0를 허용 하도록 구성할 수 있는 두 가지 인증 유형이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-105">There are two possible authentication types that can be configured to allow AD FS 2.0 to support authentication using smart cards:</span></span>
 
-  - <span data-ttu-id="a9ec5-105">FBA (양식 기반 인증)</span><span class="sxs-lookup"><span data-stu-id="a9ec5-105">Forms-based authentication (FBA)</span></span>
+  - <span data-ttu-id="682a6-106">FBA (양식 기반 인증)</span><span class="sxs-lookup"><span data-stu-id="682a6-106">Forms-based authentication (FBA)</span></span>
 
-  - <span data-ttu-id="a9ec5-106">전송 계층 보안 클라이언트 인증</span><span class="sxs-lookup"><span data-stu-id="a9ec5-106">Transport Layer Security Client Authentication</span></span>
+  - <span data-ttu-id="682a6-107">전송 계층 보안 클라이언트 인증</span><span class="sxs-lookup"><span data-stu-id="682a6-107">Transport Layer Security Client Authentication</span></span>
 
-<span data-ttu-id="a9ec5-107">양식 기반 인증을 사용 하는 경우 사용자 이름/암호를 사용 하거나 스마트 카드와 PIN을 사용 하 여 인증을 수행할 수 있는 웹 페이지를 개발할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-107">Using forms-based authentication, you can develop a web page that allows users to authenticate either by using their username/password or by using their smart card and PIN.</span></span> <span data-ttu-id="a9ec5-108">이 항목에서는 AD FS 2.0에서 전송 계층 보안 클라이언트 인증을 구현 하는 방법에 대해 중점적으로 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-108">This topic focuses on how to implement Transport Layer Security Client Authentication with AD FS 2.0.</span></span> <span data-ttu-id="a9ec5-109">AD FS 2.0 인증 유형에 대 한 자세한 내용은 AD FS 2.0:에서 로컬 인증 유형을 변경 하는 방법을 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384) .</span><span class="sxs-lookup"><span data-stu-id="a9ec5-109">For more information about AD FS 2.0 authentication types, see AD FS 2.0: How to Change the Local Authentication Type at [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384).</span></span>
+<span data-ttu-id="682a6-108">양식 기반 인증을 사용 하는 경우 사용자 이름/암호를 사용 하거나 스마트 카드와 PIN을 사용 하 여 인증을 수행할 수 있는 웹 페이지를 개발할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-108">Using forms-based authentication, you can develop a web page that allows users to authenticate either by using their username/password or by using their smart card and PIN.</span></span> <span data-ttu-id="682a6-109">이 항목에서는 AD FS 2.0에서 전송 계층 보안 클라이언트 인증을 구현 하는 방법에 대해 중점적으로 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-109">This topic focuses on how to implement Transport Layer Security Client Authentication with AD FS 2.0.</span></span> <span data-ttu-id="682a6-110">AD FS 2.0 인증 유형에 대 한 자세한 내용은 AD FS 2.0:에서 로컬 인증 유형을 변경 하는 방법을 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384) .</span><span class="sxs-lookup"><span data-stu-id="682a6-110">For more information about AD FS 2.0 authentication types, see AD FS 2.0: How to Change the Local Authentication Type at [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384).</span></span>
 
 <div>
 
 
-<span data-ttu-id="a9ec5-110">**클라이언트 인증을 지원 하도록 AD FS 2.0을 구성 하려면**</span><span class="sxs-lookup"><span data-stu-id="a9ec5-110">**To Configure AD FS 2.0 to Support Client Authentication**</span></span>
+<span data-ttu-id="682a6-111">**클라이언트 인증을 지원 하도록 AD FS 2.0을 구성 하려면**</span><span class="sxs-lookup"><span data-stu-id="682a6-111">**To Configure AD FS 2.0 to Support Client Authentication**</span></span>
 
-1.  <span data-ttu-id="a9ec5-111">도메인 관리자 계정을 사용 하 여 AD FS 2.0 컴퓨터에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-111">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
+1.  <span data-ttu-id="682a6-112">도메인 관리자 계정을 사용 하 여 AD FS 2.0 컴퓨터에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-112">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
 
-2.  <span data-ttu-id="a9ec5-112">Windows 탐색기를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-112">Launch Windows Explorer.</span></span>
+2.  <span data-ttu-id="682a6-113">Windows 탐색기를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-113">Launch Windows Explorer.</span></span>
 
-3.  <span data-ttu-id="a9ec5-113">C: \\ inetpub \\ adfs \\ ls로 이동</span><span class="sxs-lookup"><span data-stu-id="a9ec5-113">Browse to C:\\inetpub\\adfs\\ls</span></span>
+3.  <span data-ttu-id="682a6-114">C: \\ inetpub \\ adfs \\ ls로 이동</span><span class="sxs-lookup"><span data-stu-id="682a6-114">Browse to C:\\inetpub\\adfs\\ls</span></span>
 
-4.  <span data-ttu-id="a9ec5-114">기존 web.config 파일의 백업 복사본을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-114">Make a backup copy of the existing web.config file.</span></span>
+4.  <span data-ttu-id="682a6-115">기존 web.config 파일의 백업 복사본을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-115">Make a backup copy of the existing web.config file.</span></span>
 
-5.  <span data-ttu-id="a9ec5-115">메모장을 사용 하 여 기존 web.config 파일을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-115">Open the existing web.config file using Notepad.</span></span>
+5.  <span data-ttu-id="682a6-116">메모장을 사용 하 여 기존 web.config 파일을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-116">Open the existing web.config file using Notepad.</span></span>
 
-6.  <span data-ttu-id="a9ec5-116">메뉴 모음에서 **편집** 을 선택 하 고 **찾기를**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-116">From the Menu bar, select **Edit** and then select **Find**.</span></span>
+6.  <span data-ttu-id="682a6-117">메뉴 모음에서 **편집** 을 선택 하 고 **찾기를**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-117">From the Menu bar, select **Edit** and then select **Find**.</span></span>
 
-7.  <span data-ttu-id="a9ec5-117">를 검색 **\<localAuthenticationTypes\>** 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-117">Search for **\<localAuthenticationTypes\>**.</span></span>
+7.  <span data-ttu-id="682a6-118">를 검색 **\<localAuthenticationTypes\>** 합니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-118">Search for **\<localAuthenticationTypes\>**.</span></span>
     
-    <span data-ttu-id="a9ec5-118">4 개의 인증 유형이 한 줄에 하나씩 나열 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-118">Note that there are four authentication types listed, one per line.</span></span>
+    <span data-ttu-id="682a6-119">4 개의 인증 유형이 한 줄에 하나씩 나열 됩니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-119">Note that there are four authentication types listed, one per line.</span></span>
 
-8.  <span data-ttu-id="a9ec5-119">TLSClient 인증 유형이 포함 된 줄을 섹션의 목록 맨 위로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-119">Move the line containing the TLSClient authentication type to the top of the list in the section.</span></span>
+8.  <span data-ttu-id="682a6-120">TLSClient 인증 유형이 포함 된 줄을 섹션의 목록 맨 위로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-120">Move the line containing the TLSClient authentication type to the top of the list in the section.</span></span>
 
-9.  <span data-ttu-id="a9ec5-120">web.config 파일을 저장 하 고 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-120">Save and Close the web.config file.</span></span>
+9.  <span data-ttu-id="682a6-121">web.config 파일을 저장 하 고 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-121">Save and Close the web.config file.</span></span>
 
-10. <span data-ttu-id="a9ec5-121">상승 된 권한으로 명령 프롬프트를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-121">Launch a Command Prompt with elevated privileges.</span></span>
+10. <span data-ttu-id="682a6-122">상승 된 권한으로 명령 프롬프트를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-122">Launch a Command Prompt with elevated privileges.</span></span>
 
-11. <span data-ttu-id="a9ec5-122">다음 명령을 실행하여 IIS를 다시 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="a9ec5-122">Restart IIS by running the following command:</span></span>
+11. <span data-ttu-id="682a6-123">다음 명령을 실행하여 IIS를 다시 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="682a6-123">Restart IIS by running the following command:</span></span>
     
         IISReset /Restart /NoForce
 

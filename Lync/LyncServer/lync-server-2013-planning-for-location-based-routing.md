@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Location-Based 라우팅 계획'
+description: 'Lync Server 2013: Location-Based 라우팅 계획'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 114f92d0963e8d61c4b0854862ff7ebd59a12b64
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 894a596e998fe07b97ad7911441eced670ba85b2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522045"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553084"
 ---
-# <a name="planning-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="85c5d-102">Lync Server 2013의 Location-Based 라우팅 계획</span><span class="sxs-lookup"><span data-stu-id="85c5d-102">Planning for Location-Based Routing in Lync Server 2013</span></span>
+# <a name="planning-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="d7800-103">Lync Server 2013의 Location-Based 라우팅 계획</span><span class="sxs-lookup"><span data-stu-id="d7800-103">Planning for Location-Based Routing in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,40 +38,40 @@ ms.locfileid: "48522045"
 
 <span> </span>
 
-<span data-ttu-id="85c5d-103">_**마지막으로 수정 된 항목:** 2013-07-31_</span><span class="sxs-lookup"><span data-stu-id="85c5d-103">_**Topic Last Modified:** 2013-07-31_</span></span>
+<span data-ttu-id="d7800-104">_**마지막으로 수정 된 항목:** 2013-07-31_</span><span class="sxs-lookup"><span data-stu-id="d7800-104">_**Topic Last Modified:** 2013-07-31_</span></span>
 
-<span data-ttu-id="85c5d-104">이 항목의 정보는 Lync Server 2013:2 월 2013에 대 한 누적 업데이트와 관련 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85c5d-104">The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.</span></span>
+<span data-ttu-id="d7800-105">이 항목의 정보는 Lync Server 2013:2 월 2013에 대 한 누적 업데이트와 관련 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d7800-105">The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.</span></span>
 
-<span data-ttu-id="85c5d-105">Location-Based 라우팅을 사용 하면 통화에서 파티 위치에 따라 VoIP 끝점과 PSTN 끝점 간의 통화 라우팅을 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85c5d-105">Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call.</span></span> <span data-ttu-id="85c5d-106">Location-Based 라우팅은 Lync Server 2013 Enterprise Voice infrastructure의 일부입니다.</span><span class="sxs-lookup"><span data-stu-id="85c5d-106">Location-Based Routing is part of the Lync Server 2013 Enterprise Voice infrastructure.</span></span> <span data-ttu-id="85c5d-107">Location-Based 라우팅은 Lync Server 2013 C U 1에서 호출을 라우팅하는 방법을 제어 하는 통화 관리 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="85c5d-107">Location-Based Routing is a call management feature that controls how calls are routed by Lync Server 2013 CU1.</span></span> <span data-ttu-id="85c5d-108">Lync 발신자의 지리적 위치를 기반으로 통화를 PBX 또는 PSTN 끝점으로 라우팅할 수 있는지 여부에 대 한 호출 권한 부여 규칙을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="85c5d-108">It enforces call authorization rules on whether calls can be routed to PBX or PSTN endpoints based on the Lync caller’s geographic location.</span></span>
+<span data-ttu-id="d7800-106">Location-Based 라우팅을 사용 하면 통화에서 파티 위치에 따라 VoIP 끝점과 PSTN 끝점 간의 통화 라우팅을 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d7800-106">Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call.</span></span> <span data-ttu-id="d7800-107">Location-Based 라우팅은 Lync Server 2013 Enterprise Voice infrastructure의 일부입니다.</span><span class="sxs-lookup"><span data-stu-id="d7800-107">Location-Based Routing is part of the Lync Server 2013 Enterprise Voice infrastructure.</span></span> <span data-ttu-id="d7800-108">Location-Based 라우팅은 Lync Server 2013 C U 1에서 호출을 라우팅하는 방법을 제어 하는 통화 관리 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="d7800-108">Location-Based Routing is a call management feature that controls how calls are routed by Lync Server 2013 CU1.</span></span> <span data-ttu-id="d7800-109">Lync 발신자의 지리적 위치를 기반으로 통화를 PBX 또는 PSTN 끝점으로 라우팅할 수 있는지 여부에 대 한 호출 권한 부여 규칙을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="d7800-109">It enforces call authorization rules on whether calls can be routed to PBX or PSTN endpoints based on the Lync caller’s geographic location.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="85c5d-109">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="85c5d-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d7800-110">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="d7800-110">In This Section</span></span>
 
-  - [<span data-ttu-id="85c5d-110">Lync Server 2013의 Location-Based 라우팅 개요</span><span class="sxs-lookup"><span data-stu-id="85c5d-110">Overview of Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-overview-of-location-based-routing.md)
+  - [<span data-ttu-id="d7800-111">Lync Server 2013의 Location-Based 라우팅 개요</span><span class="sxs-lookup"><span data-stu-id="d7800-111">Overview of Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-overview-of-location-based-routing.md)
 
-  - [<span data-ttu-id="85c5d-111">Lync Server 2013의 Location-Based 라우팅에 대 한 지침</span><span class="sxs-lookup"><span data-stu-id="85c5d-111">Guidance for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-guidance-for-location-based-routing.md)
+  - [<span data-ttu-id="d7800-112">Lync Server 2013의 Location-Based 라우팅에 대 한 지침</span><span class="sxs-lookup"><span data-stu-id="d7800-112">Guidance for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-guidance-for-location-based-routing.md)
 
-  - [<span data-ttu-id="85c5d-112">Lync Server 2013의 Location-Based 라우팅에 대 한 시나리오</span><span class="sxs-lookup"><span data-stu-id="85c5d-112">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)
+  - [<span data-ttu-id="d7800-113">Lync Server 2013의 Location-Based 라우팅에 대 한 시나리오</span><span class="sxs-lookup"><span data-stu-id="d7800-113">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)
 
-  - [<span data-ttu-id="85c5d-113">Lync Server 2013의 Location-Based 라우팅에 대 한 기술적 고려 사항</span><span class="sxs-lookup"><span data-stu-id="85c5d-113">Technical considerations for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-technical-considerations-for-location-based-routing.md)
+  - [<span data-ttu-id="d7800-114">Lync Server 2013의 Location-Based 라우팅에 대 한 기술적 고려 사항</span><span class="sxs-lookup"><span data-stu-id="d7800-114">Technical considerations for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-technical-considerations-for-location-based-routing.md)
 
-  - [<span data-ttu-id="85c5d-114">Lync Server 2013의 Location-Based 라우팅에 대 한 클라이언트 및 서버 지원</span><span class="sxs-lookup"><span data-stu-id="85c5d-114">Client and server support for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-client-and-server-support-for-location-based-routing.md)
+  - [<span data-ttu-id="d7800-115">Lync Server 2013의 Location-Based 라우팅에 대 한 클라이언트 및 서버 지원</span><span class="sxs-lookup"><span data-stu-id="d7800-115">Client and server support for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-client-and-server-support-for-location-based-routing.md)
 
-  - [<span data-ttu-id="85c5d-115">Lync Server 2013의 Location-Based 라우팅에서 지원 하지 않는 기능</span><span class="sxs-lookup"><span data-stu-id="85c5d-115">Capabilities not supported by Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-capabilities-not-supported-by-location-based-routing.md)
+  - [<span data-ttu-id="d7800-116">Lync Server 2013의 Location-Based 라우팅에서 지원 하지 않는 기능</span><span class="sxs-lookup"><span data-stu-id="d7800-116">Capabilities not supported by Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-capabilities-not-supported-by-location-based-routing.md)
 
-  - [<span data-ttu-id="85c5d-116">Lync Server 2013의 Location-Based 라우팅 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="85c5d-116">Deployment process for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-location-based-routing.md)
+  - [<span data-ttu-id="d7800-117">Lync Server 2013의 Location-Based 라우팅 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="d7800-117">Deployment process for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-location-based-routing.md)
 
-  - [<span data-ttu-id="85c5d-117">Lync Server 2013의 회의에 대 한 위치 기반 라우팅</span><span class="sxs-lookup"><span data-stu-id="85c5d-117">Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-location-based-routing-for-conferencing.md)
+  - [<span data-ttu-id="d7800-118">Lync Server 2013의 회의에 대 한 위치 기반 라우팅</span><span class="sxs-lookup"><span data-stu-id="d7800-118">Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-location-based-routing-for-conferencing.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="85c5d-118">참고 항목</span><span class="sxs-lookup"><span data-stu-id="85c5d-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d7800-119">참고 항목</span><span class="sxs-lookup"><span data-stu-id="d7800-119">See Also</span></span>
 
 
-[<span data-ttu-id="85c5d-119">Lync Server 2013의 Enterprise Voice 계획</span><span class="sxs-lookup"><span data-stu-id="85c5d-119">Planning for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice.md)  
+[<span data-ttu-id="d7800-120">Lync Server 2013의 Enterprise Voice 계획</span><span class="sxs-lookup"><span data-stu-id="d7800-120">Planning for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice.md)  
   
 
 </div>

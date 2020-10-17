@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013에 새로운 역할 기반 액세스 제어 기능이 있음
+description: Lync Server 2013에는 새로운 역할 기반 액세스 제어 기능이 있습니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4637d41ddd8f36012ead0ac89f733bb6e0c5f62
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ecf42d46670cd1848bece8e4dc6ea70b27f3a68f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528325"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552844"
 ---
-# <a name="new-role-based-access-control-features-in-lync-server-2013"></a><span data-ttu-id="3e7b3-102">Lync Server 2013의 새 역할 기반 액세스 제어 기능</span><span class="sxs-lookup"><span data-stu-id="3e7b3-102">New role based access control features in Lync Server 2013</span></span>
+# <a name="new-role-based-access-control-features-in-lync-server-2013"></a><span data-ttu-id="9c8b2-103">Lync Server 2013의 새 역할 기반 액세스 제어 기능</span><span class="sxs-lookup"><span data-stu-id="9c8b2-103">New role based access control features in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,22 +38,22 @@ ms.locfileid: "48528325"
 
 <span> </span>
 
-<span data-ttu-id="3e7b3-103">_**마지막으로 수정 된 항목:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="3e7b3-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+<span data-ttu-id="9c8b2-104">_**마지막으로 수정 된 항목:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="9c8b2-104">_**Topic Last Modified:** 2012-09-20_</span></span>
 
-<span data-ttu-id="3e7b3-104">Lync Server 2013는 두 가지 주요 방법으로 RBAC (역할 기반 액세스 제어) 기능을 향상 시킵니다.</span><span class="sxs-lookup"><span data-stu-id="3e7b3-104">Lync Server 2013 enhances the role-based access control (RBAC) feature in two major ways.</span></span> <span data-ttu-id="3e7b3-105">이제 지정한 cmdlet 집합에 대 한 권한이 있는 사용자 지정 역할을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e7b3-105">You can now create custom roles, which each have privileges for only a set of cmdlets you specify.</span></span> <span data-ttu-id="3e7b3-106">이러한 사용자 지정 역할은 cmdlet 스크립트를 실행 하기 위한 권한을 부여할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e7b3-106">These custom roles can also be given privilege to run scripts of cmdlets.</span></span>
+<span data-ttu-id="9c8b2-105">Lync Server 2013는 두 가지 주요 방법으로 RBAC (역할 기반 액세스 제어) 기능을 향상 시킵니다.</span><span class="sxs-lookup"><span data-stu-id="9c8b2-105">Lync Server 2013 enhances the role-based access control (RBAC) feature in two major ways.</span></span> <span data-ttu-id="9c8b2-106">이제 지정한 cmdlet 집합에 대 한 권한이 있는 사용자 지정 역할을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c8b2-106">You can now create custom roles, which each have privileges for only a set of cmdlets you specify.</span></span> <span data-ttu-id="9c8b2-107">이러한 사용자 지정 역할은 cmdlet 스크립트를 실행 하기 위한 권한을 부여할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c8b2-107">These custom roles can also be given privilege to run scripts of cmdlets.</span></span>
 
-<span data-ttu-id="3e7b3-107">또한 Lync Server 2013에는 두 가지 새로운 미리 정의 된 역할이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e7b3-107">Additionally, Lync Server 2013 includes two new predefined roles.</span></span>
+<span data-ttu-id="9c8b2-108">또한 Lync Server 2013에는 두 가지 새로운 미리 정의 된 역할이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c8b2-108">Additionally, Lync Server 2013 includes two new predefined roles.</span></span>
 
-  - <span data-ttu-id="3e7b3-108">*응답 그룹 관리자* 역할이 지정 된 사용자는 조직의 특정 응답 그룹 큐를 관리할 수 있지만, 다른 큐 또는 응답 그룹 응용 프로그램 전체에 대 한 관리 권한을 가질 필요는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="3e7b3-108">Users given the *Response Group Manager* role can manage specific Response Group queues in your organization, but not necessarily have management rights for other queues or the Response Group application as a whole.</span></span>
+  - <span data-ttu-id="9c8b2-109">*응답 그룹 관리자* 역할이 지정 된 사용자는 조직의 특정 응답 그룹 큐를 관리할 수 있지만, 다른 큐 또는 응답 그룹 응용 프로그램 전체에 대 한 관리 권한을 가질 필요는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9c8b2-109">Users given the *Response Group Manager* role can manage specific Response Group queues in your organization, but not necessarily have management rights for other queues or the Response Group application as a whole.</span></span>
 
-  - <span data-ttu-id="3e7b3-109">*영구 채팅 관리자* 역할이 지정 된 사용자는 조직의 특정 영구 채팅방을 관리할 수 있지만, 다른 채팅방 또는 영구 채팅 기능에 대 한 관리 권한은 없을 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e7b3-109">Users given the *Persistent Chat Manager* role can manage specific Persistent Chat rooms in your organization, but not necessarily have management rights for other rooms or the Persistent Chat feature as a whole.</span></span>
+  - <span data-ttu-id="9c8b2-110">*영구 채팅 관리자* 역할이 지정 된 사용자는 조직의 특정 영구 채팅방을 관리할 수 있지만, 다른 채팅방 또는 영구 채팅 기능에 대 한 관리 권한은 없을 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c8b2-110">Users given the *Persistent Chat Manager* role can manage specific Persistent Chat rooms in your organization, but not necessarily have management rights for other rooms or the Persistent Chat feature as a whole.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="3e7b3-110">참고 항목</span><span class="sxs-lookup"><span data-stu-id="3e7b3-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9c8b2-111">참고 항목</span><span class="sxs-lookup"><span data-stu-id="9c8b2-111">See Also</span></span>
 
 
-[<span data-ttu-id="3e7b3-111">Lync Server 2013에서 역할 기반 액세스 제어 계획</span><span class="sxs-lookup"><span data-stu-id="3e7b3-111">Planning for role-based access control in Lync Server 2013</span></span>](lync-server-2013-planning-for-role-based-access-control.md)  
+[<span data-ttu-id="9c8b2-112">Lync Server 2013에서 역할 기반 액세스 제어 계획</span><span class="sxs-lookup"><span data-stu-id="9c8b2-112">Planning for role-based access control in Lync Server 2013</span></span>](lync-server-2013-planning-for-role-based-access-control.md)  
   
 
 </div>

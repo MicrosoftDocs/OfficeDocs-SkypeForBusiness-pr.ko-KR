@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 데이터베이스 및 관리 서버 cmdlet'
+description: 'Lync Server 2013: 데이터베이스 및 관리 서버 cmdlet'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad071646faa5769abd6d741585eea33c31553c1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a0a39568e0a0e61526d55a0f27c5125aab8983a7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516535"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553734"
 ---
-# <a name="database-and-management-server-cmdlets-in-lync-server-2013"></a><span data-ttu-id="c7fe7-102">Lync Server 2013의 데이터베이스 및 관리 서버 cmdlet</span><span class="sxs-lookup"><span data-stu-id="c7fe7-102">Database and Management Server cmdlets in Lync Server 2013</span></span>
+# <a name="database-and-management-server-cmdlets-in-lync-server-2013"></a><span data-ttu-id="9c9a5-103">Lync Server 2013의 데이터베이스 및 관리 서버 cmdlet</span><span class="sxs-lookup"><span data-stu-id="9c9a5-103">Database and Management Server cmdlets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,85 +38,85 @@ ms.locfileid: "48516535"
 
 <span> </span>
 
-<span data-ttu-id="c7fe7-103">_**마지막으로 수정 된 항목:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="c7fe7-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="9c9a5-104">_**마지막으로 수정 된 항목:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="9c9a5-104">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="c7fe7-104">데이터베이스 및 관리 서버 cmdlet은 Microsoft Lync Server 2013 백 엔드 데이터베이스와 프런트 엔드 관리 서비스를 모두 관리 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c7fe7-104">The database and Management Server cmdlets are used to manage both your Microsoft Lync Server 2013 back-end databases and your front-end management services.</span></span> <span data-ttu-id="c7fe7-105">이러한 cmdlet을 사용 하 여 Lync Server 2013에서 사용 되는 모든 데이터베이스를 설치 하거나 제거할 수 있을 뿐 아니라 중앙 관리 저장소에 대 한 Active Directory 서비스 제어 지점을 구성할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7fe7-105">You can use these cmdlets to install or uninstall any of the databases used by Lync Server 2013, in addition to configuring the Active Directory service control point for the Central Management store.</span></span>
+<span data-ttu-id="9c9a5-105">데이터베이스 및 관리 서버 cmdlet은 Microsoft Lync Server 2013 백 엔드 데이터베이스와 프런트 엔드 관리 서비스를 모두 관리 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c9a5-105">The database and Management Server cmdlets are used to manage both your Microsoft Lync Server 2013 back-end databases and your front-end management services.</span></span> <span data-ttu-id="9c9a5-106">이러한 cmdlet을 사용 하 여 Lync Server 2013에서 사용 되는 모든 데이터베이스를 설치 하거나 제거할 수 있을 뿐 아니라 중앙 관리 저장소에 대 한 Active Directory 서비스 제어 지점을 구성할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c9a5-106">You can use these cmdlets to install or uninstall any of the databases used by Lync Server 2013, in addition to configuring the Active Directory service control point for the Central Management store.</span></span>
 
 <div>
 
-## <a name="database-and-management-server-cmdlets"></a><span data-ttu-id="c7fe7-106">데이터베이스 및 관리 서버 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="c7fe7-106">Database and Management Server Cmdlets</span></span>
+## <a name="database-and-management-server-cmdlets"></a><span data-ttu-id="9c9a5-107">데이터베이스 및 관리 서버 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="9c9a5-107">Database and Management Server Cmdlets</span></span>
 
-<span data-ttu-id="c7fe7-107">다음은 데이터베이스 및 관리 서버 관리와 직접 관련된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="c7fe7-107">The following is a list of cmdlets that relate directly to managing databases and the Management Server:</span></span>
+<span data-ttu-id="9c9a5-108">다음은 데이터베이스 및 관리 서버 관리와 직접 관련된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="9c9a5-108">The following is a list of cmdlets that relate directly to managing databases and the Management Server:</span></span>
 
-<span data-ttu-id="c7fe7-108">**데이터베이스 및 관리 서버**</span><span class="sxs-lookup"><span data-stu-id="c7fe7-108">**Databases and Management Server**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="c7fe7-109">[Remove-csconfigurationstorelocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-109">[Get-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))</span></span>
+<span data-ttu-id="9c9a5-109">**데이터베이스 및 관리 서버**</span><span class="sxs-lookup"><span data-stu-id="9c9a5-109">**Databases and Management Server**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c7fe7-110">[Remove-csconfigurationstorelocation을 제거 합니다.](https://technet.microsoft.com/library/Gg398214(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-110">[Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398214(v=OCS.15))</span></span>
+    <span data-ttu-id="9c9a5-110">[Remove-csconfigurationstorelocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-110">[Get-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c7fe7-111">[Remove-csconfigurationstorelocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-111">[Set-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))</span></span>
+    <span data-ttu-id="9c9a5-111">[Remove-csconfigurationstorelocation을 제거 합니다.](https://technet.microsoft.com/library/Gg398214(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-111">[Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398214(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="9c9a5-112">[Remove-csconfigurationstorelocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-112">[Set-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="c7fe7-112">[설치-CsDatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-112">[Install-CsDatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))</span></span>
+    <span data-ttu-id="9c9a5-113">[설치-CsDatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-113">[Install-CsDatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c7fe7-113">[테스트-CsDatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-113">[Test-CsDatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))</span></span>
+    <span data-ttu-id="9c9a5-114">[테스트-CsDatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-114">[Test-CsDatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c7fe7-114">[제거-CsDatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-114">[Uninstall-CsDatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))</span></span>
+    <span data-ttu-id="9c9a5-115">[제거-CsDatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-115">[Uninstall-CsDatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="c7fe7-115">[CsDatabaseFailover 조치 (failover)](https://technet.microsoft.com/library/JJ204744(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-115">[Invoke-CsDatabaseFailover](https://technet.microsoft.com/library/JJ204744(v=OCS.15))</span></span>
+  - <span data-ttu-id="9c9a5-116">[CsDatabaseFailover 조치 (failover)](https://technet.microsoft.com/library/JJ204744(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-116">[Invoke-CsDatabaseFailover](https://technet.microsoft.com/library/JJ204744(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="c7fe7-116">[Get-csdatabasemirrorstate](https://technet.microsoft.com/library/JJ204845(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-116">[Get-CsDatabaseMirrorState](https://technet.microsoft.com/library/JJ204845(v=OCS.15))</span></span>
+  - <span data-ttu-id="9c9a5-117">[Get-csdatabasemirrorstate](https://technet.microsoft.com/library/JJ204845(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-117">[Get-CsDatabaseMirrorState](https://technet.microsoft.com/library/JJ204845(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="c7fe7-117">[설치-CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-117">[Install-CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))</span></span>
+  - <span data-ttu-id="9c9a5-118">[설치-CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-118">[Install-CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="c7fe7-118">[제거-CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-118">[Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))</span></span>
-
-<!-- end list -->
-
-  - <span></span>  
-    <span data-ttu-id="c7fe7-119">[Get-CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-119">[Get-CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="c7fe7-120">[설정-CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-120">[Set-CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))</span></span>
+  - <span data-ttu-id="9c9a5-119">[제거-CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-119">[Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="c7fe7-121">[업데이트-CsUserDatabase](https://technet.microsoft.com/library/Gg398682(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-121">[Update-CsUserDatabase](https://technet.microsoft.com/library/Gg398682(v=OCS.15))</span></span>
+    <span data-ttu-id="9c9a5-120">[Get-CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-120">[Get-CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="9c9a5-121">[설정-CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-121">[Set-CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="c7fe7-122">[이동-Move-csmanagementserver](https://technet.microsoft.com/library/Gg412921(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-122">[Move-CsManagementServer](https://technet.microsoft.com/library/Gg412921(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="c7fe7-123">[Move-csmanagementserver](https://technet.microsoft.com/library/Gg398465(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-123">[Set-CsManagementServer](https://technet.microsoft.com/library/Gg398465(v=OCS.15))</span></span>
+    <span data-ttu-id="9c9a5-122">[업데이트-CsUserDatabase](https://technet.microsoft.com/library/Gg398682(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-122">[Update-CsUserDatabase](https://technet.microsoft.com/library/Gg398682(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="c7fe7-124">[-CsManagementServerFailover 조치 (failover)](https://technet.microsoft.com/library/JJ204647(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c7fe7-124">[Invoke-CsManagementServerFailover](https://technet.microsoft.com/library/JJ204647(v=OCS.15))</span></span>
+  - <span></span>  
+    <span data-ttu-id="9c9a5-123">[이동-Move-csmanagementserver](https://technet.microsoft.com/library/Gg412921(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-123">[Move-CsManagementServer](https://technet.microsoft.com/library/Gg412921(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="9c9a5-124">[Move-csmanagementserver](https://technet.microsoft.com/library/Gg398465(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-124">[Set-CsManagementServer](https://technet.microsoft.com/library/Gg398465(v=OCS.15))</span></span>
+
+<!-- end list -->
+
+  - <span data-ttu-id="9c9a5-125">[-CsManagementServerFailover 조치 (failover)](https://technet.microsoft.com/library/JJ204647(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c9a5-125">[Invoke-CsManagementServerFailover](https://technet.microsoft.com/library/JJ204647(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c7fe7-125">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c7fe7-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9c9a5-126">참고 항목</span><span class="sxs-lookup"><span data-stu-id="9c9a5-126">See Also</span></span>
 
 
-[<span data-ttu-id="c7fe7-126">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="c7fe7-126">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="9c9a5-127">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="9c9a5-127">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
