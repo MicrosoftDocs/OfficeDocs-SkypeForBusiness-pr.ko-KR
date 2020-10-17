@@ -12,20 +12,22 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ace2b05b506b5bbf73177282747a66d212b38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eff0ab4c6ee2f6582c8274345c15af681d242561
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209584"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532175"
 ---
+# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 풀에 대 한 DNS 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 풀에 대 한 DNS 요구 사항
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2012-11-07_
 
 
 > [!WARNING]  
-> Lync Server 2013에서는 단일 레이블 도메인을 지원 하지 않습니다. 예를 들어 <STRONG>contoso.local</STRONG>이라는 루트 도메인으로 구성된 포리스트는 지원되지만 <STRONG>local</STRONG>이라는 루트 도메인은 지원되지 않습니다. 자세한 내용은 Microsoft 기술 자료 문서 300684, "단일 레이블 DNS 이름을 사용 하 여 Windows 구성에 대 한 정보, <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&ampkbid = 300684</A>을 참조 하십시오.
+> Lync Server 2013에서는 단일 레이블 도메인을 지원 하지 않습니다. 예를 들어 <STRONG>contoso.local</STRONG>이라는 루트 도메인으로 구성된 포리스트는 지원되지만 <STRONG>local</STRONG>이라는 루트 도메인은 지원되지 않습니다. 자세한 내용은 Microsoft 기술 자료 문서 300684, "단일 레이블 DNS 이름을 사용 하 여 Windows 구성에 대 한 정보, <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp kbid = 300684</A>을 참조 하십시오.
 
 
 
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2012-11-07_
 
   - 각 서버에 대한 DNS A 레코드가 있어야 합니다.
 
-  - \_Sipinternaltls\_tcp 형식의 클라이언트에 대해 자동 로그온을 사용 하려는 경우 각 SIP 도메인에 대해 DNS SRV 레코드가 존재 합니다. \<SIP 도메인\> 클라이언트에 대해 수동 구성을 사용하려는 경우에는 이 레코드가 필요하지 않습니다.
+  - \_Sipinternaltls tcp의 형태로 클라이언트에 대해 자동 로그온을 사용 하려는 경우 각 SIP 도메인에 대해 DNS SRV 레코드가 존재 합니다 \_ \<SIP domain\> . 클라이언트에 대해 수동 구성을 사용하려는 경우에는 이 레코드가 필요하지 않습니다.
 
   - 구성된 각 단순 URL(모임 및 전화 접속)에 대한 DNS A 레코드가 있어야 합니다(일반적으로 meet, dialin, lwa, scheduler의 4가지). 또한 Lync Server 2013 제어판에 액세스 하기 위한 특수 URL 인 관리자 단순 URL이 있습니다.
 
@@ -89,7 +91,7 @@ _**마지막으로 수정 된 항목:** 2012-11-07_
 <thead>
 <tr class="header">
 <th>위치</th>
-<th>유형</th>
+<th>타이핑</th>
 <th>FQDN</th>
 <th>매핑 대상/설명</th>
 </tr>
@@ -201,7 +203,7 @@ _**마지막으로 수정 된 항목:** 2012-11-07_
 <thead>
 <tr class="header">
 <th>위치</th>
-<th>유형</th>
+<th>타이핑</th>
 <th>FQDN</th>
 <th>대상 FQDN</th>
 <th>포트</th>
@@ -212,7 +214,7 @@ _**마지막으로 수정 된 항목:** 2012-11-07_
 <tr class="odd">
 <td><p>내부 DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls _tcp. contoso.</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp</p></td>
 <td><p>pool01.contoso.com</p></td>
 <td><p>5061</p></td>
 <td><p>내부적으로 작동 하도록 Lync 2013 클라이언트를 자동으로 구성 하는 데 필요 합니다.</p></td>
@@ -220,7 +222,7 @@ _**마지막으로 수정 된 항목:** 2012-11-07_
 <tr class="even">
 <td><p>내부 DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls _tcp</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp</p></td>
 <td><p>pool01.fabrikam.com</p></td>
 <td><p>5061</p></td>
 <td><p>내부적으로 작동 하도록 Lync 2013 클라이언트를 자동으로 구성 하는 데 필요 합니다.</p></td>
@@ -228,7 +230,7 @@ _**마지막으로 수정 된 항목:** 2012-11-07_
 <tr class="odd">
 <td><p>내부 DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_ntp _udp. contoso.</p></td>
+<td><p>_ntp _ntp._udp</p></td>
 <td><p>dc01.contoso.com</p></td>
 <td><p>123</p></td>
 <td><p>Lync Phone Edition을 실행 하는 장치에 필요한 NTP (네트워크 시간 프로토콜) 원본입니다. 내부적으로 도메인 컨트롤러를 가리켜야 합니다. 도메인 컨트롤러가 정의되어 있지 않은 경우에는 NTP 서버 time.windows.com을 사용합니다.</p></td>

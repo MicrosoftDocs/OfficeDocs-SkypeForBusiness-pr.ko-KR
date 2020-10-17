@@ -12,20 +12,22 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900421ed081d5fb8e37fb6b23ddbb80dc85963eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 96eee88d6055d7a66d858dc5c6324a2592616ceb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188091"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532645"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Lync Server 2013의 백업 및 복원 요구 사항: 도구 및 사용 권한
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Lync Server 2013의 백업 및 복원 요구 사항: 도구 및 사용 권한
+
 
 </div>
 
@@ -61,20 +63,20 @@ Lync Server를 백업 하려면 다음 표에서 확인 된 도구를 사용 합
 <tbody>
 <tr class="odd">
 <td><p>토폴로지 구성 데이터(Xds.mdf)</p></td>
-<td><p>수출-CsConfiguration</p></td>
+<td><p>Export-CsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>위치 정보 서비스(E9-1-1) 데이터(Lis.mdf)</p></td>
-<td><p>Export-cslisconfiguration</p></td>
+<td><p>Export-CsLisConfiguration</p></td>
 </tr>
 <tr class="odd">
 <td><p>응답 그룹 구성 데이터(RgsConfig.mdf)</p></td>
-<td><p>Export-csrgsconfiguration</p></td>
+<td><p>Export-CsRgsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>영구 사용자 데이터 (Rtcxds 데이터베이스)</p>
 <p>전화 회의 ID</p></td>
-<td><p>수출-CsUserData</p></td>
+<td><p>Export-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><ul>
@@ -86,7 +88,7 @@ Lync Server를 백업 하려면 다음 표에서 확인 된 도구를 사용 합
 </tr>
 <tr class="even">
 <td><p>영구 채팅 데이터베이스 (Mgc .mdf)</p></td>
-<td><p>SQL Server 백업 절차 또는 내보내기-Export-cspersistentchatdata. Export-cspersistentchatdata-영구 채팅 데이터를 파일로 내보냅니다.</p></td>
+<td><p>SQL Server 백업 절차 또는 내보내기-Export-cspersistentchatdata. Export-CsPersistentChatData 영구 채팅 데이터를 파일로 내보냅니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>모든 파일 저장소: Lync Server 파일 저장소, 보관 파일 저장소</p>
@@ -145,7 +147,7 @@ Lync Server를 복원 하려면 다음 표의 도구를 사용 합니다. Lync S
 <li><p>모니터링 데이터베이스</p></li>
 <li><p>보관 데이터베이스</p></li>
 </ul></td>
-<td><p>설치-CsDatabase</p></td>
+<td><p>Install-CsDatabase</p></td>
 </tr>
 <tr class="even">
 <td><p>Active Directory 도메인 서비스 포인터를 중앙 관리 저장소로 복원</p>
@@ -156,21 +158,21 @@ Lync Server를 복원 하려면 다음 표의 도구를 사용 합니다. Lync S
 
 
 </div></td>
-<td><p>Remove-csconfigurationstorelocation</p></td>
+<td><p>Set-CsConfigurationStoreLocation</p></td>
 </tr>
 <tr class="odd">
 <td><p>토폴로지, 정책 및 구성 설정을 중앙 관리 저장소 (Xds)로 가져오기</p></td>
-<td><p>가져오기-CsConfiguration</p></td>
+<td><p>Import-CsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>토폴로지 게시 및 사용</p></td>
 <td><p>토폴로지 작성기</p>
-<p>-또는-</p>
-<p>게시-Enable-cstopology 및 Enable-Enable-cstopology</p></td>
+<p>또는</p>
+<p>Publish-CsTopology 및 Enable-CsTopology</p></td>
 </tr>
 <tr class="odd">
 <td><p>마지막으로 게시된 토폴로지 사용</p></td>
-<td><p>Enable-Enable-cstopology</p></td>
+<td><p>Enable-CsTopology</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 구성 요소 다시 설치</p></td>
@@ -178,22 +180,22 @@ Lync Server를 복원 하려면 다음 표의 도구를 사용 합니다. Lync S
 <div>
 
 > [!NOTE]  
-> Lync Server 설치 폴더 또는 \Setup\amd64\setup.exe의 미디어에 있음
+> Lync Server 설치 폴더 또는 \setup\amd64\Setup.exe 미디어에 있습니다.
 
 
 </div></td>
 </tr>
 <tr class="odd">
 <td><p>위치 정보(E9-1-1) 데이터(Lis.mdf) 복원</p></td>
-<td><p>Export-cslisconfiguration</p></td>
+<td><p>Import-CsLisConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>영구 사용자 데이터 복원 (Rtcxds)</p></td>
-<td><p>가져오기-CsUserData</p></td>
+<td><p>Import-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><p>응답 그룹 구성 데이터 복원(RgsConfig.mdf)</p></td>
-<td><p>Export-csrgsconfiguration</p>
+<td><p>Import-CsRgsConfiguration</p>
 <div>
 
 > [!NOTE]  
@@ -212,7 +214,7 @@ Lync Server를 복원 하려면 다음 표의 도구를 사용 합니다. Lync S
 </tr>
 <tr class="odd">
 <td><p>영구 채팅 데이터베이스 (Mgs .mdf)</p></td>
-<td><p>SQL Server 복원 절차 또는 가져오기-Export-cspersistentchatdata. Export-cspersistentchatdata에서 만든 파일과 함께 Export-cspersistentchatdata을 사용 하 여 데이터를 영구 채팅 데이터베이스로 가져올 수 있습니다.</p></td>
+<td><p>SQL Server 복원 절차 또는 가져오기-Export-cspersistentchatdata. Export-cspersistentchatdata에서 만든 파일을 사용 하 여 Import-CsPersistentChatData를 사용할 수 있으며 데이터를 영구 채팅 데이터베이스로 가져오게 됩니다.</p></td>
 </tr>
 </tbody>
 </table>
@@ -224,7 +226,7 @@ Lync Server를 복원 하려면 다음 표의 도구를 사용 합니다. Lync S
 
 ## <a name="required-permissions"></a>필요한 사용 권한
 
-이 항목에서 설명 하는 모든 명령을 수행 하려면 사용자가 **RTCUniversalServerAdmins** 그룹의 구성원 이어야 합니다. 대부분의 백업 및 복원 명령은 RBAC (역할 기반 액세스 제어)를 지원 하지 않습니다. 두 가지 예외는 CsPersistentChatAdministrator 그룹의 구성원 인 사용자가 실행 해야 하는 영구 채팅 cmdlet Export-cspersistentchatdata 및 Export-cspersistentchatdata입니다. Lync Server 배포 마법사를 실행 하려면 사용자가 로컬 관리자 그룹의 구성원 이기도 해야 합니다.
+이 항목에서 설명 하는 모든 명령을 수행 하려면 사용자가 **RTCUniversalServerAdmins** 그룹의 구성원 이어야 합니다. 대부분의 백업 및 복원 명령은 RBAC (역할 기반 액세스 제어)를 지원 하지 않습니다. 두 가지 예외는 CsPersistentChatAdministrator 그룹의 구성원 인 사용자가 실행 해야 하는 영구 채팅 cmdlet Export-CsPersistentChatData 및 Export-cspersistentchatdata입니다. Lync Server 배포 마법사를 실행 하려면 사용자가 로컬 관리자 그룹의 구성원 이기도 해야 합니다.
 
 </div>
 

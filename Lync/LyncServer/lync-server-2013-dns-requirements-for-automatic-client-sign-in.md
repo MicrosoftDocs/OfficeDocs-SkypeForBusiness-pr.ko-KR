@@ -12,20 +12,22 @@ ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e49d50173439e36bd5bb7f35f668837fe04b46b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b421656d5fefbefa308178962f5c25b9ae72013f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204844"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532185"
 ---
+# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Lync Server 2013의 자동 클라이언트 로그인에 대 한 DNS 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Lync Server 2013의 자동 클라이언트 로그인에 대 한 DNS 요구 사항
+
 
 </div>
 
@@ -54,9 +56,9 @@ _**마지막으로 수정 된 항목:** 2012-06-19_
     
     </div>
 
-클라이언트에 대해 자동 구성을 사용 하도록 설정 하려면 다음 레코드 중 하나를 Lync에서 로그인 요청을 배포 하는 프런트 엔드 풀 또는 Standard Edition 서버의 FQDN (정규화 된 도메인 이름)으로 매핑하는 내부 DNS SRV 레코드를 만들어야 합니다. 클라이언트로
+클라이언트에 대해 자동 구성을 사용 하도록 설정 하려면 다음 레코드 중 하나를 Lync 클라이언트의 로그인 요청을 배포 하는 프런트 엔드 풀 또는 Standard Edition 서버의 FQDN (정규화 된 도메인 이름)에 매핑하는 내부 DNS SRV 레코드를 만들어야 합니다.
 
-  - \_sipinternaltls. \_tcp를 \<domain\> -내부 TLS 연결의 경우
+  - \_\_sipinternaltls rdp-tcp.\<domain\> -내부 TLS 연결의 경우
 
 로그인 요청을 분산할 프런트 엔드 풀 또는 Standard Edition 서버에 대해 하나의 SRV 레코드만 만들면 됩니다.
 
@@ -108,9 +110,9 @@ _**마지막으로 수정 된 항목:** 2012-06-19_
 
 이 예에서는 앞의 표에 있는 것과 같은 예제 이름을 사용합니다. Contoso 조직은 contoso.com 및 retail.contoso.com이라는 SIP 도메인을 지원하고 이 조직의 모든 사용자는 다음 중 한 형태의 SIP URI를 갖게 됩니다.
 
-  - \<contoso.com\>사용자 @retail
+  - \<user\>@retail contoso.com
 
-  - \<사용자\>@contoso
+  - \<user\>@contoso .com
 
 </div>
 

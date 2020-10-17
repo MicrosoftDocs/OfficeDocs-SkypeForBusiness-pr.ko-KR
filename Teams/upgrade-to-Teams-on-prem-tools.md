@@ -3,7 +3,7 @@ title: 비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레�
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 076e96ac8cf44e05e2852ca5bdf33b42e14eb731
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 952214d615b62d0175841e2c7b24b45f1ae2d2b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328197"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533575"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>IT 관리자를 위한 팀으로 업그레이드 하기 위한 도구 &mdash;
 
@@ -51,7 +51,7 @@ Skype for Business 모드를 사용 하 여 선택 기능 전환을 수행 하�
 
 비즈니스용 Skype 온-프레미스에 있는 사용자에 게 TeamsOnly 모드를 제외한 모든 TeamsUpgradePolicy 모드를 할당할 수도 있습니다. **팀 전용 모드는 비즈니스용 Skype Online에 이미 있는 사용자 에게만 할당 될 수 있습니다**. 이는 사용자가 비즈니스용 Skype Online에 있는 경우에만 비즈니스용 Skype 사용자 및 페더레이션이 있는 interop와 Microsoft 365 전화 시스템 기능을 사용할 수 있기 때문입니다. 또한 비즈니스용 Skype 온-프레미스 배포를 사용 하는 경우 (Office 365 이외의 위치를 가리키는 lyncdiscover DNS 레코드가 있는 경우)에는 **TeamsOnly 모드를 테 넌 트 수준의 기본값으로 할당할 수 없습니다** .
 
-비즈니스용 skype 계정을 사용 하는 사용자는 비즈니스용 skype 온-프레미스 도구 모음에서 이동-CsUser를 사용 하 여 온라인 (비즈니스용 Skype Online 또는 팀에 직접)으로 [이동 해야 합니다](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) . 이러한 사용자는 1 개 또는 2 개 단계 에서만 TeamsOnly로 이동할 수 있습니다.
+비즈니스용 skype 계정을 사용 하는 사용자는 비즈니스용 skype 온-프레미스 도구 모음에서 Move-CsUser을 사용 하 여 온라인 (비즈니스용 Skype Online 또는 팀에 게 다이렉트)으로 [이동 해야 합니다](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) . 이러한 사용자는 1 개 또는 2 개 단계 에서만 TeamsOnly로 이동할 수 있습니다.
 
 -   1 단계: CsUser 이동에서-MoveToTeams 스위치를 지정 합니다. 이를 위해서는 비즈니스용 Skype Server 2019 또는 CU8 또는 이후 버전의 비즈니스용 Skype Server 2015이 필요 합니다.
 
@@ -69,7 +69,7 @@ Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
-온-프레미스 비즈니스용 Skype 사용자를 팀 전용 모드로 업그레이드 하려면 온-프레미스 도구 모음에서-CsUser Move 사용자를 사용 합니다.
+온-프레미스 비즈니스용 Skype 사용자를 팀 전용 모드로 업그레이드 하려면 온-프레미스 도구 집합의 Move-CsUser를 사용 합니다.
 
 ```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
@@ -112,7 +112,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 사용자가 팀 전용 모드로 마이그레이션될 때 기본적으로 자신이 구성한 비즈니스용 Skype 모임이 팀으로 변환 됩니다. 사용자에 게 팀 전용 모드를 할당할 때 선택적으로 기본 동작을 사용 하지 않도록 설정할 수 있습니다. 온-프레미스에서 사용자를 이동 하는 경우 온라인 사용자 계정에 대 한 모임을 작동 하도록 클라우드로 마이그레이션해야 하지만,-MoveToTeams를 지정 하지 않으면 모임이 팀으로 변환 되지 않고 비즈니스용 Skype 모임으로 마이그레이션됩니다. 
 
-테 넌 트 수준에서 TeamsOnly 모드를 할당할 때 모임 마이그레이션은 사용자에 대해 트리거되지 않습니다. 테 넌 트 수준에서 TeamsOnly 모드를 할당 하 고 모임을 마이그레이션하려면 PowerShell을 사용 하 여 테 넌 트의 사용자 목록을 가져올 수 있습니다 (예: 필요한 필터와 함께 CsOnlineUser 사용). 그런 다음 이러한 사용자 각각을 순환 하 여 Start-CsExMeetingMigration를 사용 하 여 모임 마이그레이션을 트리거합니다. 자세한 내용은 [MMS (모임 마이그레이션 서비스) 사용](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)을 참조 하세요.
+테 넌 트 수준에서 TeamsOnly 모드를 할당할 때 모임 마이그레이션은 사용자에 대해 트리거되지 않습니다. 테 넌 트 수준에서 TeamsOnly 모드를 할당 하 고 모임을 마이그레이션하면 PowerShell을 사용 하 여 테 넌 트의 사용자 목록을 가져올 수 있습니다 (예: 필요한 필터를 가진 Get-CsOnlineUser 사용) 한 다음 이러한 각 사용자를 순환 하 여 CsExMeetingMigration를 사용 하 여 모임 마이그레이션을 트리거합니다. 자세한 내용은 [MMS (모임 마이그레이션 서비스) 사용](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)을 참조 하세요.
 
 
 

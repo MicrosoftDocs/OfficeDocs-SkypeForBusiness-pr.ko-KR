@@ -12,20 +12,22 @@ ms:contentKeyID: 48185404
 ms.date: 04/08/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 924e15aae9590b6148864084aa68924e4c080f7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 39179f1db1c547081e059d9b3ee275c924621cab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533175"
 ---
+# <a name="enterprise-voice-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice
+
 
 </div>
 

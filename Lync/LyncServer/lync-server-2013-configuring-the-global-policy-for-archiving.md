@@ -12,20 +12,22 @@ ms:contentKeyID: 48184192
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f381aeb1493637dae0f5e25a72e3154bfeb76513
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 589c249f772b130eeed80abb97e272b8053dfdc4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191901"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532385"
 ---
+# <a name="configuring-the-global-policy-for-archiving-in-lync-server-2013"></a>Lync Server 2013에서 보관에 대 한 글로벌 정책 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-global-policy-for-archiving-in-lync-server-2013"></a>Lync Server 2013에서 보관에 대 한 글로벌 정책 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42191901"
 
 _**마지막으로 수정 된 항목:** 2012-10-09_
 
-프런트 엔드 서버를 배포할 때 Lync Server에서는 보관용 글로벌 정책을 만듭니다. 기본적으로 보관은 글로벌 정책에서 사용하지 않도록 설정됩니다. 전역 정책은 전체 배포에 대 한 내부 및 외부 통신에 대해 보관을 사용할지 여부를 제어 합니다 (사이트 또는 사용자 정책을 설정 하거나, 전역 정책을 재정의 하거나, 일부 또는 전체에 대해 Microsoft Exchange 통합을 사용 하는 경우) 사용자입니다. Microsoft Exchange 통합을 사용 하는 경우에는 Exchange 2013에 있는 모든 사용자에 게 글로벌 정책이 적용 되지 않으며 사서함이 원본 위치 유지 상태로 설정 됩니다.
+프런트 엔드 서버를 배포할 때 Lync Server에서는 보관용 글로벌 정책을 만듭니다. 기본적으로 보관은 글로벌 정책에서 사용하지 않도록 설정됩니다. 전역 정책은 전체 배포에 대 한 내부 및 외부 통신에 대해 보관을 사용할지 여부를 제어 합니다 (사이트 또는 사용자 정책을 설정 하거나, 전역 정책을 재정의 하거나, 일부 또는 모든 사용자에 대해 Microsoft Exchange 통합을 사용 하는 경우) Microsoft Exchange 통합을 사용 하는 경우 글로벌 정책은 Exchange 2013에 있는 모든 사용자에 게 적용 되지 않으며 사서함이 보류 In-Place 됩니다.
 
 전역, 사이트 및 사용자 정책의 계층 구조를 비롯 하 여 보관 정책이 작동 하는 방식에 대 한 자세한 내용은 Lync Server 2013 계획 설명서, 배포 설명서 또는 작업 설명서 [에서 보관이 작동 하는 방식을](lync-server-2013-how-archiving-works.md) 참조 하세요.
 
@@ -45,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2012-10-09_
 
 
 > [!NOTE]  
-> 배포에 Microsoft Exchange 통합을 사용 하도록 설정 하는 경우 Exchange 원본 위치 유지 정책은 Exchange 2013에 있는 사용자에 대해 보관을 사용 하도록 설정할지 여부를 제어 하 고 사서함을 원본 위치 유지 상태로 설정 합니다. 자세한 내용은 배포 설명서에서 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 통합을 사용 하는 경우 Lync server 2013에서 보관에 대 한 정책 설정을</A> 참조 하십시오.<BR>보관을 사용하도록 설정하기 전에 보관 구성에서 모든 해당 옵션을 지정해야 합니다. 자세한 내용은 배포 설명서에서 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013의 보관 옵션 구성을</A> 참조 하십시오.
+> 배포에 Microsoft Exchange 통합을 사용 하도록 설정 하는 경우 Exchange 2013에 있는 사용자에 대해 보관을 사용 하도록 설정 하 고 해당 사서함을 In-Place 보류에 넣을지 여부를 제어 In-Place 합니다. 자세한 내용은 배포 설명서에서 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 통합을 사용 하는 경우 Lync server 2013에서 보관에 대 한 정책 설정을</A> 참조 하십시오.<BR>보관을 사용하도록 설정하기 전에 보관 구성에서 모든 해당 옵션을 지정해야 합니다. 자세한 내용은 배포 설명서에서 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013의 보관 옵션 구성을</A> 참조 하십시오.
 
 
 

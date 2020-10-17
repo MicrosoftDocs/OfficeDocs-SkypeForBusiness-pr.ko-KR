@@ -12,20 +12,22 @@ ms:contentKeyID: 48185794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eca6b5c2b4bb88ed1b611eedd831c5c30d14bbb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d99618d5221bb15d3e670a010c1894c69c17ed4d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205624"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532205"
 ---
+# <a name="create-location-policies-in-lync-server-2013"></a>Lync Server 2013의 위치 정책 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-location-policies-in-lync-server-2013"></a>Lync Server 2013의 위치 정책 만들기
+
 
 </div>
 
@@ -60,7 +62,7 @@ Lync Server는 클라이언트 등록 중에 E9-1-1에 대해 Lync 클라이언�
 <tbody>
 <tr class="odd">
 <td><p>EnhancedEmergencyServicesEnabled</p></td>
-<td><p><strong>적용</strong></p></td>
+<td><p><strong>True</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>LocationRequired</p></td>
@@ -108,15 +110,15 @@ Lync Server는 클라이언트 등록 중에 E9-1-1에 대해 Lync 클라이언�
 
 위치 정책을 사용 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하십시오.
 
-  - 새-CsLocationPolicy
+  - New-CsLocationPolicy
 
   - Get-CsLocationPolicy
 
-  - 설정-CsLocationPolicy
+  - Set-CsLocationPolicy
 
-  - 제거-CsLocationPolicy
+  - Remove-CsLocationPolicy
 
-  - 부여-CsLocationPolicy
+  - Grant-CsLocationPolicy
 
 <div>
 

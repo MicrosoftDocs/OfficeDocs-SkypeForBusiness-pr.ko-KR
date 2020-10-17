@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 주소록 관리용 새 Set-cswebserviceconfiguration'
+title: 'Lync Server 2013: 주소록 관리 New-CsWebServiceConfiguration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184067
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d30f40ac449f4643219fd64abc1da4f20914495
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c63d6bfeed8b005c3498a2fd0cfcf2201d0d45c5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192391"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531805"
 ---
+# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013의 주소록 관리 New-CsWebServiceConfiguration
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013의 Set-cswebserviceconfiguration for 주소록 관리를 위한 새로운 기능
+
 
 </div>
 

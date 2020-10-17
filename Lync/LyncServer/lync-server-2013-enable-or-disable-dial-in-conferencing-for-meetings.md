@@ -12,20 +12,22 @@ ms:contentKeyID: 49733627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b995ef14ad1b405b59eba8d54646989c9f63f43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37d23187c76a0e8711340f68e75a422a20ea7588
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204834"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532105"
 ---
+# <a name="enable-or-disable-dial-in-conferencing-for-meetings-in-lync-server-2013"></a>Lync Server 2013에서 모임에 대 한 전화 접속 회의를 사용 하거나 사용 하지 않도록 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-dial-in-conferencing-for-meetings-in-lync-server-2013"></a>Lync Server 2013에서 모임에 대 한 전화 접속 회의를 사용 하거나 사용 하지 않도록 설정
+
 
 </div>
 

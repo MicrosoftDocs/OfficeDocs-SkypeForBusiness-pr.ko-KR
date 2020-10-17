@@ -12,20 +12,22 @@ ms:contentKeyID: 48184778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 172d448b3967782226335a5a3b9a4066514b7a9b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3b8ae0dd21221700101d1c94e1a72a4e987de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216645"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531765"
 ---
+# <a name="open-lync-server-2013-administrative-tools"></a>Lync Server 2013 관리 도구 열기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="open-lync-server-2013-administrative-tools"></a>Lync Server 2013 관리 도구 열기
+
 
 </div>
 
@@ -85,7 +87,7 @@ _**마지막으로 수정 된 항목:** 2012-06-28_
     
 
     > [!NOTE]  
-    > 로컬 Users 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만 서버에 Lync Server 2013을 설치 하는 데 필요한 토폴로지를 읽거나 게시 하거나 사용 하도록 설정 하려면 Domain Admins 그룹의 구성원 인 계정 및 RTCUniv을 사용 해야 합니다. ersalServerAdmins 그룹과, 토폴로지 작성기가 필요한 Dacl (임의 액세스 제어 목록)을 구성할 수 있도록 보관 파일 저장소에 사용할 파일 공유에 대 한 모든 권한 (읽기, 쓰기 및 수정)이 포함 되어 있습니다. 또는 이와 동등한 사용자 권한이 있는 계정을 사용 합니다.
+    > 로컬 Users 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만 서버에 Lync Server 2013을 설치 하는 데 필요한 토폴로지를 읽거나 게시 하거나 사용 하도록 설정 하려면 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원 인 계정을 사용 해야 하며 모든 권한을 가진 (즉, , 토폴로지 작성기가 필요한 Dacl (임의 액세스 제어 목록) 또는 이와 동등한 사용자 권한을 가진 계정을 구성할 수 있도록 보관 파일 저장소에 사용할 파일 공유에 대 한 읽기, 쓰기 및 수정)
 
     
     </div>
@@ -137,7 +139,7 @@ _**마지막으로 수정 된 항목:** 2012-06-28_
 
 ## <a name="to-open-lync-server-2013-control-panel-on-a-computer-running-lync-server-2013"></a>Lync Server 2013를 실행 하는 컴퓨터에서 Lync Server 2013 제어판을 열려면
 
-1.  CsAdministrator 역할 또는 수행할 작업에 적절 한 사용자 권한 및 사용 권한이 있는 다른 역할의 구성원 인 사용자 계정에서 Lync Server 2013을 설치 하는 컴퓨터에 로그온 하거나 최소한 Lync Server 2013 administrat ive 도구 설정을 구성 하려면 컴퓨터의 화면 해상도가 최소 1024 x 768 이어야 합니다.
+1.  CsAdministrator 역할 또는 수행할 작업에 적절 한 사용자 권한 및 사용 권한이 있는 다른 역할의 구성원 인 사용자 계정에서 Lync Server 2013 또는 최소한 Lync Server 2013 관리 도구를 설치한 컴퓨터에 로그온 합니다. 설정을 구성 하려면 컴퓨터의 화면 해상도가 최소 1024 x 768 이어야 합니다.
 
 2.  Lync Server 2013 시작 제어판: **시작**, **모든 프로그램**, **관리 도구**를 차례로 가리킨 다음 **Microsoft lync Server 2013**를 가리키고 **Lync server 2013 제어판**을 클릭 합니다.
 

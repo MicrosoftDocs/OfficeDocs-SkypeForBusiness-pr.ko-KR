@@ -12,20 +12,22 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e2df5d01ff4aa6227091d7851b086fc55ff95e2
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1c82bb7775c43c1bdbbf9ac9c3d788227f16cb76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756769"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532915"
 ---
+# <a name="phase-8-decommission-legacy-pools"></a>8단계: 레거시 풀 해제
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>8단계: 레거시 풀 해제
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 2010 서버 및 서버 역할 제거를 철저히 검사 하 고 Lyn
 
 
 > [!IMPORTANT]  
-> 레거시 환경을 제거 하기 전에 Microsoft 통합 커뮤니케이션 관리 API (c) 응용 프로그램을 마이그레이션 및 업그레이드 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> 레거시 환경을 제거 하기 전에 Microsoft 통합 커뮤니케이션 관리 API (c) 응용 프로그램을 마이그레이션 및 업그레이드 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오. <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 

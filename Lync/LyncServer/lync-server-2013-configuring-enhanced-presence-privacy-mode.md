@@ -12,20 +12,22 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c8622e2c32af698d599b4ed541945b4d1de0a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d9a06a7bf01664c260ace3a86537665e185b64f8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532605"
 ---
+# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Lync Server 2013에서 향상 된 현재 상태 개인 정보 보호 모드 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Lync Server 2013에서 향상 된 현재 상태 개인 정보 보호 모드 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202964"
 
 _**마지막으로 수정 된 항목:** 2014-12-08_
 
-향상 된 현재 상태 개인 정보 보호 모드를 사용 하는 경우 사용자는 해당 Lync 2013 연락처 목록에 나열 된 연락처에만 표시 되도록 현재 상태 정보를 제한할 수 있습니다. **Get-csprivacyconfiguration** 및 **get-csprivacyconfiguration** cmdlet에는이 옵션을 제어 하는 EnablePrivacyMode 매개 변수가 있습니다. EnablePrivacyMode가 True로 설정 되 면 Lync 2013 상태 옵션에서 현재 상태 정보를 연락처로 제한 하는 옵션을 사용할 수 있게 됩니다. EnablePrivacyMode가 False로 설정 되 면 사용자는 항상 모든 사용자가 현재 상태 정보를 볼 수 있도록 허용 하거나 관리자가 개인 정보 모드를 변경 하는 모든 변경을 따르도록 할 수도 있습니다.
+향상 된 현재 상태 개인 정보 보호 모드를 사용 하는 경우 사용자는 해당 Lync 2013 연락처 목록에 나열 된 연락처에만 표시 되도록 현재 상태 정보를 제한할 수 있습니다. **Get-csprivacyconfiguration**   및 **get-csprivacyconfiguration** cmdlet에는이 옵션을 제어 하는 EnablePrivacyMode 매개 변수가 있습니다. EnablePrivacyMode가 True로 설정 되 면 Lync 2013 상태 옵션에서 현재 상태 정보를 연락처로 제한 하는 옵션을 사용할 수 있게 됩니다. EnablePrivacyMode가 False로 설정 되 면 사용자는 항상 모든 사용자가 현재 상태 정보를 볼 수 있도록 허용 하거나 관리자가 개인 정보 모드를 변경 하는 모든 변경을 따르도록 할 수도 있습니다.
 
 <div>
 

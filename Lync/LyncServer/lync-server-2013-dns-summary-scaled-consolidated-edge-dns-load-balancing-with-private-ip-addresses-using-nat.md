@@ -12,20 +12,22 @@ ms:contentKeyID: 48183447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 158dfa2954f331b4dce2407cb3bbee223f8e78ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 269d5a687baba53ed0bd60d4854b79643f23f0e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213084"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532125"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Lync Server 2013의 DNS 요약-조정 된 통합에 지, NAT 사용 개인 IP 주소의 DNS 부하 분산
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Lync Server 2013의 DNS 요약-조정 된 통합에 지, NAT 사용 개인 IP 주소의 DNS 부하 분산
+
 
 </div>
 
@@ -142,13 +144,13 @@ Lync 2013 DNS 요구 사항에 대 한 자세한 내용은 [Lync Server 2013에 
 </tr>
 <tr class="even">
 <td><p>외부 DNS/SRV/443</p></td>
-<td><p>_sip _tls. contoso.</p></td>
+<td><p>_sip _sip._tls</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>액세스 에지 외부 인터페이스. Lync 2013 및 Lync 2010 클라이언트가 외부적으로 작동 하도록 자동으로 구성 하는 데 필요 합니다. Lync가 설정된 사용자의 모든 SIP 도메인에 대해 필요한 만큼 반복합니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>외부 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls _tcp. contoso.</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP 액세스 에지 외부 인터페이스. "허용 SIP 도메인"(이전 버전에서는 확장 페더레이션이라고 함)이라는 페더레이션 파트너의 자동 DNS 검색에 필요합니다. Lync를 사용하도록 설정된 사용자가 포함된 모든 SIP 도메인에 대해 필요한 만큼 반복합니다.</p></td>
 </tr>
@@ -187,7 +189,7 @@ Lync 2013 DNS 요구 사항에 대 한 자세한 내용은 [Lync Server 2013에 
 <tbody>
 <tr class="odd">
 <td><p>외부 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls _tcp. contoso.</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP 액세스 에지 외부 인터페이스. 다른 잠재적인 페더레이션 파트너에 대한 사용자의 페더레이션의 자동 DNS 검색을 위해 필요하며 "허용된 SIP 도메인"으로 알려져 있습니다(이전 릴리스의 향상된 페더레이션). Lync가 설정된 사용자의 모든 SIP 도메인에 대해 필요한 만큼 반복합니다.</p>
 <div>
@@ -260,9 +262,9 @@ Lync 2013 DNS 요구 사항에 대 한 자세한 내용은 [Lync Server 2013에 
 <tbody>
 <tr class="odd">
 <td><p>외부 DNS/SRV/5269</p></td>
-<td><p>_xmpp-.com. _tcp</p></td>
+<td><p>_xmpp server._tcp</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>액세스에 지 서비스 또는에 지 풀의 XMPP 프록시 외부 인터페이스 Lync 사용 가능 사용자가 있는 모든 내부 SIP 도메인에 대해 필요에 따라 반복 글로벌 정책, 사용자가 있는 사이트 정책 또는 도메인에 적용 되는 사용자 정책을 통해 외부 액세스 정책을 구성 하 여 XMPP 대화 상대와의 연결을 허용 합니다. Lync 사용 가능 사용자입니다. XMPP 페더레이션 파트너 정책 에서도 허용 되는 XMPP 도메인을 구성 해야 합니다. 자세한 내용은 관련 <strong>항목을 참조</strong> 하십시오.</p></td>
+<td><p>액세스에 지 서비스 또는에 지 풀의 XMPP 프록시 외부 인터페이스 Lync 사용 가능 사용자가 있는 모든 내부 SIP 도메인에 대해 필요에 따라 반복 글로벌 정책, 사용자가 있는 사이트 정책 또는 Lync 사용 가능 사용자에 게 적용 된 사용자 정책을 통해 외부 액세스 정책의 구성을 통해 XMPP 대화 상대와의 연결을 허용 합니다. XMPP 페더레이션 파트너 정책 에서도 허용 되는 XMPP 도메인을 구성 해야 합니다. 자세한 내용은 관련 <strong>항목을 참조</strong> 하십시오.</p></td>
 </tr>
 <tr class="even">
 <td><p>외부 DNS/A</p></td>

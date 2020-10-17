@@ -12,20 +12,22 @@ ms:contentKeyID: 48183216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e77d5ddf74d43cd277a701608e801a65262c929
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 61462b7910375959e002938a91efa27d8d45c988
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196801"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533365"
 ---
+# <a name="edit-or-configure-simple-urls-in-lync-server-2013"></a>Lync Server 2013에서 단순 Url 편집 또는 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edit-or-configure-simple-urls-in-lync-server-2013"></a>Lync Server 2013에서 단순 Url 편집 또는 구성
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2014-02-04_
 
 Lync Server 2013에서는 단순 Url을 사용 하 여 프런트 엔드 서버 또는 디렉터 (배포 된 경우)의 서비스에 대 한 내부 및 외부 통화를 연결 합니다. 단순 Url에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 단순 Url 계획](lync-server-2013-planning-for-simple-urls.md) 을 참조 하십시오. 여러 옵션에서 단순 Url의 형식을 선택할 수 있습니다. 이러한 옵션에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 단순 url에 대 한 DNS 요구 사항을](lync-server-2013-dns-requirements-for-simple-urls.md) 참조 하세요.
 
-기본적으로 단순 Url은 (예: 전화 접속 단순 URL)와 같은 형식으로 구성 됩니다. https://dialin.\<SIP\>
+기본적으로 단순 Url은 (예: 전화 접속 단순 URL)와 같은 형식으로 구성 https://dialin 됩니다.\<SIP Domain\>
 
 <div>
 
@@ -51,7 +53,7 @@ Lync Server 2013에서는 단순 Url을 사용 하 여 프런트 엔드 서버 �
 
 2.  **단순 url** 창에서 **전화 액세스 url:** (전화 접속) 또는 **모임 url:** (모임)을 선택 하 여 편집 하 고 **URL 편집**을 클릭 합니다.
 
-3.  URL을 원하는 값으로 업데이트하고 **확인**을 클릭하여 편집한 URL을 저장합니다. 여기에 표시 된 예는 전화 접속 URL을로 https://pool01.contoso.net/dialin수정 했습니다.
+3.  URL을 원하는 값으로 업데이트하고 **확인**을 클릭하여 편집한 URL을 저장합니다. 여기에 표시 된 예는 전화 접속 URL을로 수정 했습니다 https://pool01.contoso.net/dialin .
 
 4.  필요한 경우 같은 단계를 수행하여 모임 URL을 편집합니다.
 
@@ -69,7 +71,7 @@ Lync Server 2013에서는 단순 Url을 사용 하 여 프런트 엔드 서버 �
     
 
     > [!TIP]  
-    > 관리 URL에는 최대한 간단한 URL을 사용하는 것이 좋습니다. 가장 간단한 방법은 <STRONG> https://admin입니다.</STRONG> &lt;도메인&gt;
+    > 관리 URL에는 최대한 간단한 URL을 사용하는 것이 좋습니다. 가장 간단한 방법은 <STRONG> https://admin 입니다.</STRONG> &lt; 도메인 &gt;
 
     
     </div>
@@ -78,7 +80,7 @@ Lync Server 2013에서는 단순 Url을 사용 하 여 프런트 엔드 서버 �
     
 
     > [!IMPORTANT]  
-    > 초기 배포 후에 단순 URL을 변경하는 경우에는 변경 내용이 단순 URL의 DNS(Domain Name System) 레코드 및 인증서에 주는 영향을 파악해야 합니다. 변경 내용이 단순 URL의 기준에 영향을 주는 경우에는 DNS 레코드 및 인증서도 변경해야 합니다. 예를 들어에서 https://lync.contoso.com/Meet 를 https://meet.contoso.com 변경 하면 기본 URL이 lync.contoso.com에서 MEET.CONTOSO.COM으로 변경 되므로 DNS 레코드 및 인증서를 변경 하 여 meet.contoso.com를 참조 해야 합니다. 단순 URL을에서 https://lync.contoso.com/Meet 로 https://lync.contoso.com/Meetings변경한 경우 lync.contoso.com의 기본 url은 동일 하 게 유지 되므로 DNS 또는 인증서를 변경할 필요가 없습니다. 그러나 단순 URL 이름을 변경할 때마다 각 디렉터 및 프런트 엔드 서버에서 <STRONG>CsComputer</STRONG> cmdlet을 실행 하 여 변경 내용을 등록 해야 합니다.
+    > 초기 배포 후에 단순 URL을 변경하는 경우에는 변경 내용이 단순 URL의 DNS(Domain Name System) 레코드 및 인증서에 주는 영향을 파악해야 합니다. 변경 내용이 단순 URL의 기준에 영향을 주는 경우에는 DNS 레코드 및 인증서도 변경해야 합니다. 예를 들어에서를 변경 하면 https://lync.contoso.com/Meet https://meet.contoso.com 기본 URL이 lync.contoso.com에서 meet.contoso.com으로 변경 되므로 DNS 레코드 및 인증서를 변경 하 여 meet.contoso.com를 참조 해야 합니다. 단순 URL을에서로 변경한 경우 https://lync.contoso.com/Meet https://lync.contoso.com/Meetings lync.contoso.com의 기본 url은 동일 하 게 유지 되므로 DNS 또는 인증서를 변경할 필요가 없습니다. 그러나 단순 URL 이름을 변경할 때마다 각 디렉터 및 프런트 엔드 서버에서 <STRONG>CsComputer</STRONG> cmdlet을 실행 하 여 변경 내용을 등록 해야 합니다.
 
     
     </div>

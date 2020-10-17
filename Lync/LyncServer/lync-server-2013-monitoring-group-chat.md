@@ -12,20 +12,22 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c8d2a544c9a20e16e9a9f6510002ef5dd3e695e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf44bbaa00412de24af21c493fd05b88bd6259af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184751"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531935"
 ---
+# <a name="monitoring-group-chat-in-lync-server-2013"></a>Lync Server 2013의 모니터링 그룹 채팅
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-group-chat-in-lync-server-2013"></a>Lync Server 2013의 모니터링 그룹 채팅
+
 
 </div>
 
@@ -143,7 +145,7 @@ _**마지막으로 수정 된 항목:** 2014-08-04_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>프로세스 (ChannelService)-&gt;% 프로세서 시간</p></td>
+<td><p>프로세스 (ChannelService)- &gt; % 프로세서 시간</p></td>
 <td><p>최소값: 0</p></td>
 </tr>
 </tbody>

@@ -3,7 +3,9 @@ title: Microsoft 팀 클라우드 음성 서비스 배포
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-audience: admin
+audience:
+- ITPro
+- admin
 ms.date: 05/16/2018
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ae9a1e6abf7dbf97e625be4eb69a0ef95b1910da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610050"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532575"
 ---
 # <a name="deploy-my-service"></a>내 서비스 배포
 

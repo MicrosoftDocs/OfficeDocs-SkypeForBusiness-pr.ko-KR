@@ -1,5 +1,5 @@
 ---
-title: 설정-Set-cscertificate을 사용 하 여 준비 AV 및 OAuth 인증서
+title: Set-CsCertificate 사용 하 여 준비 된 AV 및 OAuth 인증서
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee572bbf115d1e83476194b0e5c92859886da42f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 003c8da4c953dc843fe49bf3fc5eb2d2a70b093b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208411"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533015"
 ---
+# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Lync Server 2013에서 Set-CsCertificate을 사용 하 여 온-using-Roll의 AV 및 OAuth 인증서 준비
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Lync Server 2013 using Set-cscertificate in-Roll에서 AV 및 OAuth 인증서 준비
+
 
 </div>
 
@@ -47,13 +49,13 @@ A/V (오디오/비디오) 통신은 Microsoft Lync Server 2013의 주요 구성 
 > <LI>
 > <P>이 새로운 기능은 A/V에 지 서비스 및 <EM>Oauthtokenissuer</EM> 인증서에 작동 하도록 설계 되었습니다. 다른 인증서 유형은 A/V에 지 서비스 및 OAuth 인증서 유형과 함께 프로 비전 될 수 있지만 A/V에 지 서비스 인증서가 제공 하는 공존 동작은 도움이 되지 않습니다.</P>
 > <LI>
-> <P>Microsoft Lync Server 2013 인증서를 관리 하는 데 사용 되는 Lync Server 관리 셸 cmdlet은 A/V에 지 서비스 인증서를 <EM>오디오 Videoauthentication</EM> 인증서 유형으로, Oauthtokenissuer 형식 <EM></EM>으로 서는이를 참조 합니다. 이 항목의 나머지 부분에서는 인증서를 고유 하 게 식별 하기 위해 동일한 식별자 유형, <EM>오디오 Videoauthentication</EM> 및 <EM>Oauthtokenissuer</EM>를 참조 합니다.</P></LI></OL>
+> <P>Microsoft Lync Server 2013 인증서를 관리 하는 데 사용 되는 Lync Server 관리 셸 cmdlet은 A/V에 지 서비스 인증서를 <EM>오디오 Videoauthentication</EM> 인증서 유형으로, Oauthtokenissuer 형식 <EM>OAuthTokenIssuer</EM>으로 서는이를 참조 합니다. 이 항목의 나머지 부분에서는 인증서를 고유 하 게 식별 하기 위해 동일한 식별자 유형, <EM>오디오 Videoauthentication</EM> 및 <EM>Oauthtokenissuer</EM>를 참조 합니다.</P></LI></OL>
 
 
 
 </div>
 
-A/V 인증 서비스는 클라이언트 및 기타 A/V 소비자가 사용 하는 토큰을 발급 하는 역할을 합니다. 토큰은 인증서의 특성에서 생성 되며 인증서가 만료 되 면 새 인증서에서 생성 된 새 토큰을 사용 하 여 다시 참가 하기 위한 연결 및 요구 사항이 손실 됩니다. Lync Server 2013의 새로운 기능을 통해이 문제를 완화할 수 있으며, 이전 인증서가 만료 되는 시점을 새로운 상태로 유지 하 고 두 인증서를 모두 일정 기간 동안 계속 작동 하도록 허용할 능력이 있습니다. 이 기능은 Set-cscertificate Lync Server Management Shell cmdlet에서 업데이트 된 기능을 사용 합니다. 기존 매개 변수-EffectiveDate를 사용 하는 새 매개 변수-롤은 새 오디오 Videoauthentication 인증서를 인증서 저장소에 배치 합니다. 이전 오디오 Videoauthentication 인증서는 여전히 발급 된 토큰의 유효성을 검사 하기 위해 계속 유지 됩니다. 새 오디오 Videoauthentication 인증서를 현재 위치에 배치 하면 다음과 같은 일련의 이벤트가 발생 합니다.
+A/V 인증 서비스는 클라이언트 및 기타 A/V 소비자가 사용 하는 토큰을 발급 하는 역할을 합니다. 토큰은 인증서의 특성에서 생성 되며 인증서가 만료 되 면 새 인증서에서 생성 된 새 토큰을 사용 하 여 다시 참가 하기 위한 연결 및 요구 사항이 손실 됩니다. Lync Server 2013의 새로운 기능을 통해이 문제를 완화할 수 있으며, 이전 인증서가 만료 되는 시점을 새로운 상태로 유지 하 고 두 인증서를 모두 일정 기간 동안 계속 작동 하도록 허용할 능력이 있습니다. 이 기능은 Set-CsCertificate Lync Server Management Shell cmdlet에서 업데이트 된 기능을 사용 합니다. 기존 매개 변수-EffectiveDate를 사용 하는 새 매개 변수-롤은 새 오디오 Videoauthentication 인증서를 인증서 저장소에 배치 합니다. 이전 오디오 Videoauthentication 인증서는 여전히 발급 된 토큰의 유효성을 검사 하기 위해 계속 유지 됩니다. 새 오디오 Videoauthentication 인증서를 현재 위치에 배치 하면 다음과 같은 일련의 이벤트가 발생 합니다.
 
 <div>
 
@@ -65,15 +67,15 @@ A/V 인증 서비스는 클라이언트 및 기타 A/V 소비자가 사용 하�
 
 </div>
 
-Set-cscertificate cmdlet을 사용 하 고이를 사용 하 여 현재 인증서가 만료 되기 전에 인증서를 준비 하는 경우 옵션 및 요구 사항을 완전히 이해 하려면 추가 정보가 필요 합니다. – Roll 매개 변수는 중요 하지만 기본적으로 단일 용도로만 제공 됩니다. 매개 변수로 정의 하는 경우에는 인증서가 제공 될 때-Type (예: Set-cscertificate Videoauthentication 및 OAuthTokenIssuer)에 의해 정의 되는 영향을 받는 인증서에 대 한 정보를 제공할 것입니다. 라는 메시지가 나타납니다. EffectiveDate에서 정의 하는 유효 수준입니다.
+Set-CsCertificate cmdlet을 사용 하 고이를 사용 하 여 현재 인증서가 만료 되기 전에 인증서를 준비 하는 경우 옵션 및 요구 사항을 완전히 이해 하려면 추가 정보가 필요 합니다. – Roll 매개 변수는 중요 하지만 기본적으로 단일 용도로만 제공 됩니다. 매개 변수로 정의 하는 경우에는 인증서가 – EffectiveDate에서 정의 되는 것 처럼 영향을 받을 인증서에 대 한 정보 (예: AudioVideoAuthentication 및 OAuthTokenIssuer)가 제공 됨을 알리는 것을 Set-CsCertificate 합니다.
 
 **-롤:** – Roll 매개 변수는 필수 이며 종속성과 함께 함께 제공 해야 합니다. 영향을 받는 인증서와 적용 방법을 완전 하 게 정의 하는 데 필요한 매개 변수:
 
 **-EffectiveDate:** -EffectiveDate 매개 변수는 새 인증서가 현재 인증서를 사용 하 여 공동 활성 상태가 되는 시기를 정의 합니다. – EffectiveDate은 현재 인증서의 만료 시간에 근접 하거나 시간이 길어질 수 있습니다. 오디오 Videoauthentication 인증서에 대 한 권장 최소 – EffectiveDate 8 시간이 며,이는 오디오 Videoauthentication 인증서를 사용 하 여 발급 된 AV에 지 서비스 토큰의 기본 토큰 수명입니다.
 
-OAuthTokenIssuer 인증서를 준비할 때 선행 시간에 대 한 요구 사항에 따라 인증서가 유효 해질 수 있습니다. OAuthTokenIssuer 인증서가 선행 시간에 대해 수행 해야 하는 최소 시간은 현재 인증서의 만료 시간 보다 24 시간이 하입니다. 확장 된 리드 타임 인은 인증서가 생성 된 인증 및 암호화 키에 대 한 보존 시간이 길수록 OAuthTokenIssuer 인증서 (예: Exchange Server)에 종속 된 다른 서버 역할로 인해 발생 합니다. 자료.
+OAuthTokenIssuer 인증서를 준비할 때 선행 시간에 대 한 요구 사항에 따라 인증서가 유효 해질 수 있습니다. OAuthTokenIssuer 인증서가 선행 시간에 대해 수행 해야 하는 최소 시간은 현재 인증서의 만료 시간 보다 24 시간이 하입니다. 확장 된 리드 타임 인은 인증서가 생성 된 인증 및 암호화 키 자료에 대 한 보존 시간이 길수록 OAuthTokenIssuer 인증서 (예: Exchange Server)에 종속 된 다른 서버 역할로 인해 발생 합니다.
 
-**-지문:** 손도장은 해당 인증서에 고유한 인증서의 특성입니다. -Thumbprint 매개 변수는 Set-cscertificate cmdlet의 작업에 영향을 받는 인증서를 식별 하는 데 사용 됩니다.
+**-지문:** 손도장은 해당 인증서에 고유한 인증서의 특성입니다. -Thumbprint 매개 변수는 Set-CsCertificate cmdlet의 작업에 영향을 받는 인증서를 식별 하는 데 사용 됩니다.
 
 **-Type:** – Type 매개 변수는 단일 인증서 사용 유형 또는 쉼표로 구분 된 인증서 사용 유형 목록을 사용할 수 있습니다. 인증서 유형은 cmdlet 및 서버에서 인증서의 용도를 식별 하는 유형입니다. 예를 들어 A/V에 지 서비스 및 AV 인증 서비스에서 다음을 사용 합니다. 다른 유형의 인증서를 준비 하 고 동시에 프로 비전 하는 경우에는 인증서에 대해 가장 오래 걸리는 최소 실제 소요 시간을 고려해 야 합니다. 예를 들어,에는 오디오 Videoauthentication 및 OAuthTokenIssuer 유형의 인증서를 준비 해야 합니다. 최소-EffectiveDate은 두 인증서 중 큰 값 이어야 합니다 (이 경우에는 최소 소요 시간이 24 시간인 OAuthTokenIssuer). 리드 인 24 시간 동안 오디오 Videoauthentication 인증서를 준비 하지 않으려면 요구 사항이 더 많은 EffectiveDate와 별도로 준비 합니다.
 
@@ -87,7 +89,7 @@ OAuthTokenIssuer 인증서를 준비할 때 선행 시간에 대 한 요구 사�
 
 3.  풀에 있는에 지 서버 및 다른 모든에 지 서버로 새 오디오 Videoauthentication 인증서를 가져옵니다 (풀이 배포 된 경우).
 
-4.  Set-cscertificate cmdlet을 사용 하 여 가져온 인증서를 구성 하 고 – EffectiveDate 매개 변수와 함께 – Roll 매개 변수를 사용 합니다. 유효 날짜는 현재 인증서 만료 시간 (14:00:00 또는 2:00:00 PM)에서 토큰 수명 (기본값 8 시간)을 뺀 값으로 정의 해야 합니다. 이를 통해 인증서를 활성으로 설정 해야 할 시간이 제공 되 고-EffectiveDate \<문자열\>: "7/22/2012 6:00:00 AM"이 됩니다.
+4.  Set-CsCertificate cmdlet을 사용 하 여 가져온 인증서를 구성 하 고 – EffectiveDate 매개 변수와 함께 – Roll 매개 변수를 사용 합니다. 유효 날짜는 현재 인증서 만료 시간 (14:00:00 또는 2:00:00 PM)에서 토큰 수명 (기본값 8 시간)을 뺀 값으로 정의 해야 합니다. 이를 통해 인증서를 활성으로 설정 해야 할 시간이 제공 되 고-EffectiveDate \<string\> : "7/22/2012 6:00:00 AM"이 됩니다.
     
     <div>
     
@@ -98,11 +100,11 @@ OAuthTokenIssuer 인증서를 준비할 때 선행 시간에 대 한 요구 사�
     
     </div>
     
-    -Roll 및 – EffectiveTime 매개 변수를 사용 하는 Set-cscertificate 명령은 다음과 같습니다.
+    -Roll 및 – EffectiveTime 매개 변수를 사용 하는 Set-CsCertificate 명령은 다음과 같습니다.
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
     
-    Set-cscertificate 명령 예:
+    다음은 Set-CsCertificate 명령 예입니다.
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2012 6:00:00 AM"
     
@@ -115,13 +117,13 @@ OAuthTokenIssuer 인증서를 준비할 때 선행 시간에 대 한 요구 사�
     
     </div>
 
-Set-cscertificate,-롤 및-EffectiveDate에서 사용 중인 오디오 Videoauthentication의 유효성을 검사 하기 위해 기존 인증서를 계속 사용 하면서 새 오디오 Videoauthentication 토큰을 발급 하기 위한 새 인증서를 준비 하는 데 사용 되는 프로세스를 자세히 이해 하려면 기본적으로 시각적 시간 표시 막대는 프로세스를 이해 하는 효율적인 방법입니다.
+Set-cscertificate,-Roll 및-EffectiveDate에서 새 오디오 Videoauthentication 토큰을 발급 하기 위해 새 인증서를 준비 하는 데 사용 되는 프로세스를 추가로 이해 하기 위해 기존 인증서를 사용 하 여 소비자가 사용 하는 오디오 비디오 인증의 유효성을 검사 하는 동시에, visual 타임 라인은 프로세스를 이해 하는 효율적인 방법입니다.
 
-다음 예에서 관리자는 A/V에 지 서비스 인증서가 07/22/2012에서 오후 2:00:00 시에 만료 되는 것으로 확인 합니다. 새 인증서를 요청 하 고 수신 하 여 해당 풀의 각에 지 서버로 가져옵니다. 오전 2 시 07/22/2012에는 Set-cscertificate를 사용 하 여 새 인증서의 지문 문자열과 같은 Get-07/22/2012 6:00:00 EffectiveTime을 실행 하기 시작 하 고,? 각에 지 서버에서이 명령을 실행 합니다.
+다음 예에서 관리자는 A/V에 지 서비스 인증서가 07/22/2012에서 오후 2:00:00 시에 만료 되는 것으로 확인 합니다. 새 인증서를 요청 하 고 수신 하 여 해당 풀의 각에 지 서버로 가져옵니다. 오전 2 시 07/22/2012에는 새 인증서의 지문 문자열과 같은 Get-CsCertificate 실행을 시작 하 고-EffectiveTime를 07/22/2012 6:00:00 AM으로 설정 합니다. 각에 지 서버에서이 명령을 실행 합니다.
 
 ![롤 및 EffectiveDate 매개 변수 사용](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "롤 및 EffectiveDate 매개 변수 사용")
 
-유효 시간에 도달 하면 (7/22/2012 6:00:00 AM) 새 인증서에서 모든 새 토큰을 발급 합니다. 토큰의 유효성을 검사 하는 경우 새 인증서에 대해 토큰의 유효성을 먼저 검사 합니다. 유효성 검사가 실패 하면 이전 인증서가 시도 됩니다. 이전 인증서의 만료 시간까지 새로 만들기를 시도 하는 프로세스는 계속 진행 됩니다. 이전 인증서가 만료 된 경우 (7/22/2012 2:00:00 PM), 새 인증서로만 토큰의 유효성을 검사 합니다. 이전 인증서는 – Previous 매개 변수와 함께 Set-cscertificate cmdlet을 사용 하 여 안전 하 게 제거할 수 있습니다.
+유효 시간에 도달 하면 (7/22/2012 6:00:00 AM) 새 인증서에서 모든 새 토큰을 발급 합니다. 토큰의 유효성을 검사 하는 경우 새 인증서에 대해 토큰의 유효성을 먼저 검사 합니다. 유효성 검사가 실패 하면 이전 인증서가 시도 됩니다. 이전 인증서의 만료 시간까지 새로 만들기를 시도 하는 프로세스는 계속 진행 됩니다. 이전 인증서가 만료 된 경우 (7/22/2012 2:00:00 PM), 새 인증서로만 토큰의 유효성을 검사 합니다. 이전 인증서는 – Previous 매개 변수와 함께 Remove-CsCertificate cmdlet을 사용 하 여 안전 하 게 제거할 수 있습니다.
 
     Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 
@@ -137,13 +139,13 @@ Set-cscertificate,-롤 및-EffectiveDate에서 사용 중인 오디오 Videoauth
 
 3.  풀을 배포한 경우 새 OAuthTokenIssuer 인증서를 해당 풀의 프런트 엔드 서버로 가져옵니다. OAuthTokenIssuer 인증서는 전역적으로 복제 되며, 배포의 모든 서버에서 업데이트 및 갱신 하기만 하면 됩니다. 프런트 엔드 서버는 예제로 사용 됩니다.
 
-4.  Set-cscertificate cmdlet을 사용 하 여 가져온 인증서를 구성 하 고 – EffectiveDate 매개 변수와 함께 – Roll 매개 변수를 사용 합니다. 유효 날짜는 현재 인증서 만료 시간 (14:00:00 또는 2:00:00 PM)에서 최소 24 시간을 뺀 값으로 정의 해야 합니다.
+4.  Set-CsCertificate cmdlet을 사용 하 여 가져온 인증서를 구성 하 고 – EffectiveDate 매개 변수와 함께 – Roll 매개 변수를 사용 합니다. 유효 날짜는 현재 인증서 만료 시간 (14:00:00 또는 2:00:00 PM)에서 최소 24 시간을 뺀 값으로 정의 해야 합니다.
     
-    -Roll 및 – EffectiveTime 매개 변수를 사용 하는 Set-cscertificate 명령은 다음과 같습니다.
+    -Roll 및 – EffectiveTime 매개 변수를 사용 하는 Set-CsCertificate 명령은 다음과 같습니다.
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
     
-    Set-cscertificate 명령 예:
+    다음은 Set-CsCertificate 명령 예입니다.
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2012 1:00:00 PM"
     
@@ -156,7 +158,7 @@ Set-cscertificate,-롤 및-EffectiveDate에서 사용 중인 오디오 Videoauth
     
     </div>
 
-유효 시간에 도달 하면 (7/21/2012 1:00:00 AM) 새 인증서에서 모든 새 토큰을 발급 합니다. 토큰의 유효성을 검사 하는 경우 새 인증서에 대해 토큰의 유효성을 먼저 검사 합니다. 유효성 검사가 실패 하면 이전 인증서가 시도 됩니다. 이전 인증서의 만료 시간까지 새로 만들기를 시도 하는 프로세스는 계속 진행 됩니다. 이전 인증서가 만료 된 경우 (7/22/2012 2:00:00 PM), 새 인증서로만 토큰의 유효성을 검사 합니다. 이전 인증서는 – Previous 매개 변수와 함께 Set-cscertificate cmdlet을 사용 하 여 안전 하 게 제거할 수 있습니다.
+유효 시간에 도달 하면 (7/21/2012 1:00:00 AM) 새 인증서에서 모든 새 토큰을 발급 합니다. 토큰의 유효성을 검사 하는 경우 새 인증서에 대해 토큰의 유효성을 먼저 검사 합니다. 유효성 검사가 실패 하면 이전 인증서가 시도 됩니다. 이전 인증서의 만료 시간까지 새로 만들기를 시도 하는 프로세스는 계속 진행 됩니다. 이전 인증서가 만료 된 경우 (7/22/2012 2:00:00 PM), 새 인증서로만 토큰의 유효성을 검사 합니다. 이전 인증서는 – Previous 매개 변수와 함께 Remove-CsCertificate cmdlet을 사용 하 여 안전 하 게 제거할 수 있습니다.
 
     Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 

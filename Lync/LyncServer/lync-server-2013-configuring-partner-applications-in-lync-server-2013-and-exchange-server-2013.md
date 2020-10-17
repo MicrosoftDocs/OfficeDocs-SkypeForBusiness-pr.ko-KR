@@ -12,20 +12,22 @@ ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db2f0df542cb85956ae3efa7321083b99ed561a8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8743b012042738ea25653cf49a804e08d59a423
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198791"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532515"
 ---
+# <a name="configuring-partner-applications-in-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013 및 Microsoft Exchange Server 2013에서 파트너 응용 프로그램 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-partner-applications-in-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013 및 Microsoft Exchange Server 2013에서 파트너 응용 프로그램 구성
+
 
 </div>
 
@@ -47,7 +49,7 @@ Lync Server와 Exchange 간에 서버 간 인증을 설정 하려면 다음 두 
 
 ## <a name="configuring-lync-server-2013-to-be-a-partner-application-for-exchange-2013"></a>Lync Server 2013을 Exchange 2013에 대 한 파트너 응용 프로그램으로 구성
 
-Lync Server 2013를 Exchange 2013에서 파트너 응용 프로그램으로 구성 하는 가장 쉬운 방법은 Exchange 2013과 함께 제공 되는 Windows PowerShell 스크립트인의 configure-enterprisepartnerapplication.ps1 스크립트를 실행 하는 것입니다. 이 스크립트를 실행 하려면 Lync Server 인증 메타 데이터 문서의 URL을 제공 해야 합니다. 이는 일반적으로 Lync Server 2013 풀의 정규화 된 도메인 이름이 고 그 뒤에 https://accounts.accesscontrol.windows.net/접미사가 됩니다. 예:
+Lync Server 2013를 Exchange 2013에서 파트너 응용 프로그램으로 구성 하는 가장 쉬운 방법은 Exchange 2013과 함께 제공 되는 Windows PowerShell 스크립트인 Configure-EnterprisePartnerApplication.ps1 스크립트를 실행 하는 것입니다. 이 스크립트를 실행 하려면 Lync Server 인증 메타 데이터 문서의 URL을 제공 해야 합니다. 이는 일반적으로 Lync Server 2013 풀의 정규화 된 도메인 이름이 고 그 뒤에 https://accounts.accesscontrol.windows.net/접미사가 됩니다. 예제:
 
     https://atl-cs-001.litwareinc.com/metadata/json/1
 
@@ -67,11 +69,11 @@ Lync Server를 파트너 응용 프로그램으로 구성 하려면 Exchange 관
 
 ## <a name="configuring-exchange-2013-to-be-a-partner-application-for-lync-server-2013"></a>Lync Server 2013에 대해 Exchange 2013을 파트너 응용 프로그램으로 구성
 
-Lync Server 2013을 Exchange 2013에 대 한 파트너 응용 프로그램으로 구성한 후에는 Exchange를 Lync Server에 대 한 파트너 응용 프로그램으로 구성 해야 합니다. Lync Server 관리 셸을 사용 하 고 Exchange에 대 한 인증 메타 데이터 문서를 지정 하 여이 작업을 수행할 수 있습니다. 이는 일반적으로 Exchange 자동 검색 서비스의 URI 다음에 접미사 https://accounts.accesscontrol.windows.net/가 됩니다. 예:
+Lync Server 2013을 Exchange 2013에 대 한 파트너 응용 프로그램으로 구성한 후에는 Exchange를 Lync Server에 대 한 파트너 응용 프로그램으로 구성 해야 합니다. Lync Server 관리 셸을 사용 하 고 Exchange에 대 한 인증 메타 데이터 문서를 지정 하 여이 작업을 수행할 수 있습니다. 이는 일반적으로 Exchange 자동 검색 서비스의 URI 다음에 접미사 https://accounts.accesscontrol.windows.net/가 됩니다. 예제:
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-Lync Server에서 파트너 응용 프로그램은 [get-cspartnerapplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15)) cmdlet을 사용 하 여 구성 됩니다. 메타 데이터 URI를 지정 하는 것 외에도 응용 프로그램 신뢰 수준을 Full로 설정 해야 합니다. 이렇게 하면 Exchange가 자신 및 영역에 있는 모든 권한이 부여 된 사용자를 표현할 수 있습니다. 예:
+Lync Server에서 파트너 응용 프로그램은 [get-cspartnerapplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15)) cmdlet을 사용 하 여 구성 됩니다. 메타 데이터 URI를 지정 하는 것 외에도 응용 프로그램 신뢰 수준을 Full로 설정 해야 합니다. 이렇게 하면 Exchange가 자신 및 영역에 있는 모든 권한이 부여 된 사용자를 표현할 수 있습니다. 예제:
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 

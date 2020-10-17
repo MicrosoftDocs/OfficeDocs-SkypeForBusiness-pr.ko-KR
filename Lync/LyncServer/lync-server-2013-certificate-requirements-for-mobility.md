@@ -12,20 +12,22 @@ ms:contentKeyID: 48185251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e1267710405cb9b6c4e64d9cf2e31fb63feddaa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 87657340205722a721485f213029220641885075
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187567"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533395"
 ---
+# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a>Lync Server 2013의 모바일 기능에 대 한 인증서 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a>Lync Server 2013의 모바일 기능에 대 한 인증서 요구 사항
+
 
 </div>
 
@@ -75,11 +77,11 @@ _**마지막으로 수정 된 항목:** 2012-06-24_
 <tbody>
 <tr class="odd">
 <td><p>내부 자동 검색 서비스 URL</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>외부 자동 검색 서비스 URL</p></td>
-<td><p>SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>SAN = lyncdiscover &lt; microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +91,7 @@ _**마지막으로 수정 된 항목:** 2012-06-24_
 
 
 > [!NOTE]  
-> 또는 SAN = *를 사용할 수 있습니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt;
+> 또는 SAN = *를 사용할 수 있습니다. &lt; microsoft.rtc.management.xds.sipdomain object&gt;
 
 
 
@@ -111,11 +113,11 @@ _**마지막으로 수정 된 항목:** 2012-06-24_
 <tbody>
 <tr class="odd">
 <td><p>내부 자동 검색 서비스 URL</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>외부 자동 검색 서비스 URL</p></td>
-<td><p>SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>SAN = lyncdiscover &lt; microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -125,7 +127,7 @@ _**마지막으로 수정 된 항목:** 2012-06-24_
 
 
 > [!NOTE]  
-> 또는 SAN = *를 사용할 수 있습니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt;
+> 또는 SAN = *를 사용할 수 있습니다. &lt; microsoft.rtc.management.xds.sipdomain object&gt;
 
 
 
@@ -147,7 +149,7 @@ _**마지막으로 수정 된 항목:** 2012-06-24_
 <tbody>
 <tr class="odd">
 <td><p>외부 자동 검색 서비스 URL</p></td>
-<td><p>SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
+<td><p>SAN = lyncdiscover &lt; microsoft.rtc.management.xds.sipdomain object&gt;</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d791943f8d4057c173851e5d6eedb4a713b3cdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6020182c0083ecadcb65c07fa71be213f9458f0f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191821"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532347"
 ---
+# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>클라이언트 컴퓨터에서 Lync Server 2013의 개인 연락처 저장소 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>클라이언트 컴퓨터에서 Lync Server 2013의 개인 연락처 저장소 구성
+
 
 </div>
 
@@ -47,7 +49,7 @@ Lync 2013을 실행 하는 컴퓨터에는이 매개 변수를 입력 하지 않
 
 2.  **실행** 대화 상자에 regedit를 입력한 다음 Enter 키를 누릅니다.
 
-3.  레지스트리 편집기에서 **\_HKEY\_로컬 컴퓨터**를 확장 하 고 **소프트웨어**, **정책**, **Microsoft**를 차례로 확장 한 다음 **Communicator**를 확장 합니다.
+3.  레지스트리 편집기에서 **HKEY \_ 로컬 \_ 컴퓨터**를 확장 하 고 **소프트웨어**, **정책**, **Microsoft**를 차례로 확장 한 다음 **Communicator**를 확장 합니다.
 
 4.  **Communicator**를 마우스 오른쪽 단추로 클릭 하 고 **새로 만들기**를 가리킨 다음 **DWORD (32 비트) 값**을 클릭 합니다.
 
@@ -55,7 +57,7 @@ Lync 2013을 실행 하는 컴퓨터에는이 매개 변수를 입력 하지 않
 
 6.  PersonalContactStoreOverride의 값이 0으로 설정 되어 있는지 확인 한 다음 레지스트리 편집기를 닫습니다.
 
-여러 컴퓨터에서 동일 하 게 변경 해야 하는 경우에는 사용자 지정 그룹 정책 개체를 만들어이 작업을 수행할 수 있습니다. 자세한 내용은 그룹 정책 설명서를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543).
+여러 컴퓨터에서 동일 하 게 변경 해야 하는 경우에는 사용자 지정 그룹 정책 개체를 만들어이 작업을 수행할 수 있습니다. 자세한 내용은 그룹 정책 설명서를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543) .
 
 </div>
 

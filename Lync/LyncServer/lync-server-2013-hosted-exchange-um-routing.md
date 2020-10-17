@@ -12,20 +12,22 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bace74b58c706ef58d05e54e31d2f79ab587ba64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31091da9a80dc03c798cbf674c1c46e0ea7b901c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198639"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533115"
 ---
+# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Lync Server 2013의 호스팅된 Exchange UM 라우팅
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Lync Server 2013의 호스팅된 Exchange UM 라우팅
+
 
 </div>
 
@@ -70,9 +72,9 @@ Alice의 사서함 및 Exchange UM 서비스는 호스팅된 Exchange 서비스 
 
   - Alice의 사용자 계정에 할당 된 호스팅된 음성 메일 정책은 다음과 같은 라우팅 세부 정보를 제공 합니다.
     
-      - 대상은 호스팅된 Exchange UM 서비스 공급자 (ls)입니다. ExUm. \<이\>예제의 hostedExchangeServer)
+      - 대상은 호스팅된 Exchange UM 서비스 공급자 (ls)입니다. ExUm. \<hostedExchangeServer\> . 이 예제의 com)
     
-      - 조직은 ls에 있는 Exchange Server 테 넌 트에 대 한 SIP 메시지의 라우팅 Fqdn 인 테 넌 트 Id로 식별 됩니다. ExUm. \<hostedExchangeServer\>(이 예에서는 corp.contoso.com 및 corp.litwareinc.com)
+      - 조직은 ls에 있는 Exchange Server 테 넌 트에 대 한 SIP 메시지의 라우팅 Fqdn 인 테 넌 트 Id로 식별 됩니다. ExUm. \<hostedExchangeServer\> . com (이 예에서는 corp.contoso.com 및 corp.litwareinc.com)
         
         <div>
         

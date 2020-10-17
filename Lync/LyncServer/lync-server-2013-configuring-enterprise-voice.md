@@ -12,20 +12,22 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6c09bd44f9fc4b98488c7825f8cab1d3eea7f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca998a723e4ef84fc1c203d6eddc5f9016f28739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202944"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532555"
 ---
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013에서 Enterprise Voice 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013에서 Enterprise Voice 구성
+
 
 </div>
 
@@ -51,7 +53,7 @@ Enterprise Voice를 배포 하려면 다음을 구성 해야 합니다.
 
 ## <a name="create-a-trunk"></a>트렁크 만들기
 
-Enterprise Voice 배포에서 트렁크를 정의 해야 합니다. 위치 기반 라우팅의 경우 트렁크 당 트렁크 구성을 만들어야 합니다. Lync Server 토폴로지 작성기를 사용 하 여 트렁크를 정의 하 고 Lync Server Windows PowerShell 명령, Get-cstrunkconfiguration 또는 Lync Server 제어판을 사용 하 여 해당 트렁크 구성을 정의 합니다. 트렁크 구성에서 위치 기반 라우팅을 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 트렁크에 위치 기반 라우팅을 사용 하도록 설정 하 여 [Lync Server 2013에서 위치 기반 라우팅](lync-server-2013-enabling-location-based-routing.md)사용 항목을 참조 하십시오. 이 예제의 경우 다음 표에서는이 시나리오에 사용 되는 트렁크을 보여 줍니다.
+Enterprise Voice 배포에서 트렁크를 정의 해야 합니다. Location-Based 라우팅의 경우 트렁크 당 트렁크 구성을 만들어야 합니다. Lync Server 토폴로지 작성기를 사용 하 여 트렁크를 정의 하 고 Lync Server Windows PowerShell 명령, Get-cstrunkconfiguration 또는 Lync Server 제어판을 사용 하 여 해당 트렁크 구성을 정의 합니다. 트렁크 구성에 대 한 Location-Based 라우팅을 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 Location-Based 라우팅을 사용 하도록 설정](lync-server-2013-enabling-location-based-routing.md)Location-Based 섹션에서 트렁크로의 라우팅을 사용 하도록 설정 하는 방법을 참조 하세요. 이 예제의 경우 다음 표에서는이 시나리오에 사용 되는 트렁크을 보여 줍니다.
 
 자세한 내용은 [Define 추가 트렁크 in a Topology Builder In Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md)을 참조 하십시오.
 
@@ -117,7 +119,7 @@ Enterprise Voice 배포에서 트렁크를 정의 해야 합니다. 위치 기�
 
 ## <a name="defines-voice-policies"></a>음성 정책 정의
 
-Enterprise Voice 배포에 대 한 음성 정책을 정의 해야 합니다. 위치 기반 라우팅을 사용 하기 위해 하위 집합만 필요한 경우 사용자 하위 집합에 대해 위치 기반 라우팅 제한을 적용 하는 음성 정책을 정의 합니다. 이 예제에서 다음 표에는이 시나리오에서 사용 되는 음성 정책이 나와 있습니다. 위치 기반 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
+Enterprise Voice 배포에 대 한 음성 정책을 정의 해야 합니다. Location-Based 라우팅을 사용 하는 데 필요한 하위 집합만 있는 경우 사용자 하위 집합에 대 한 라우팅 제한 사항을 Location-Based 적용 하는 음성 정책을 정의 합니다. 이 예제에서 다음 표에는이 시나리오에서 사용 되는 음성 정책이 나와 있습니다. Location-Based 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
 
 자세한 내용은 [Lync Server 2013의 통화 기능 및 권한을 부여 하도록 음성 정책 및 PSTN 사용 레코드 구성을](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)참조 하십시오.
 
@@ -166,7 +168,7 @@ Enterprise Voice 배포에 대 한 음성 정책을 정의 해야 합니다. 위
 
 ## <a name="define-voice-routes"></a>음성 경로 정의
 
-Enterprise Voice 배포용 음성 경로를 정의 해야 합니다. 이 예에서는 다음 표에서는이 시나리오에서 사용 되는 음성 경로를 보여 줍니다. 위치 기반 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
+Enterprise Voice 배포용 음성 경로를 정의 해야 합니다. 이 예에서는 다음 표에서는이 시나리오에서 사용 되는 음성 경로를 보여 줍니다. Location-Based 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
 
 자세한 내용은 [Lync Server 2013에서 아웃 바운드 통화에 대 한 음성 경로 구성을](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)참조 하십시오.
 
@@ -225,7 +227,7 @@ Enterprise Voice 배포용 음성 경로를 정의 해야 합니다. 이 예에�
 
 ## <a name="enable-users-for-enterprise-voice"></a>사용자가 Enterprise Voice를 사용할 수 있도록 설정
 
-사용자가 Enterprise Voice를 사용할 수 있도록 설정 하 고 이전에 정의한 음성 정책에 할당 합니다. 이 예제의 경우 다음 표에서는이 시나리오에서 사용 되는 배정을 보여 줍니다. 위치 기반 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
+사용자가 Enterprise Voice를 사용할 수 있도록 설정 하 고 이전에 정의한 음성 정책에 할당 합니다. 이 예제의 경우 다음 표에서는이 시나리오에서 사용 되는 배정을 보여 줍니다. Location-Based 라우팅과 관련 된 설정만 설명을 위해 표에 포함 되어 있습니다.
 
 자세한 내용은 [Lync Server 2013에서 사용자에 게 Enterprise Voice 사용을 설정](lync-server-2013-enable-users-for-enterprise-voice.md)합니다 .를 참조 하세요.
 
@@ -270,7 +272,7 @@ Enterprise Voice 배포용 음성 경로를 정의 해야 합니다. 이 예에�
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에서 위치 기반 라우팅 구성](lync-server-2013-configuring-location-based-routing.md)  
+[Lync Server 2013에서 Location-Based 라우팅 구성](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

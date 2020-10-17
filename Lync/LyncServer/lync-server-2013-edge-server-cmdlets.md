@@ -12,20 +12,22 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d18bea94d7844f611afb14d388d6655379ee047
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8af979b36564fef40a4839e31f2597d82117741
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533385"
 ---
+# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013의에 지 서버 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013의에 지 서버 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179955"
 
 _**마지막으로 수정 된 항목:** 2013-10-07_
 
-에 지 서버는 내부 네트워크에 로그온 되어 있지 않은 사용자에 게 Microsoft Lync Server 2013의 기능을 확장할 수 있는 방법을 제공 합니다. 예를 들어 내부 네트워크를 통하지 않고 인터넷을 통해 Lync Server 2013에 로그온 하는 원격 사용자가 인증 된 사용자가 있는 경우에는 Lync Server 액세스에 지 서비스를 실행 하는에 지 서버를 설정 해야 합니다. 또한에 지 서버는 다른 조직과의 페더레이션을 설정 하려는 경우 또는 사용자에 게 Yahoo\!, AOL 또는 MSN과 같은 공용 인스턴트 메시징 서비스를 사용 하는 사용자에 게 연락할 수 있는 권한을 부여 하려는 경우에 필요 합니다.
+에 지 서버는 내부 네트워크에 로그온 되어 있지 않은 사용자에 게 Microsoft Lync Server 2013의 기능을 확장할 수 있는 방법을 제공 합니다. 예를 들어 내부 네트워크를 통하지 않고 인터넷을 통해 Lync Server 2013에 로그온 하는 원격 사용자가 인증 된 사용자가 있는 경우에는 Lync Server 액세스에 지 서비스를 실행 하는에 지 서버를 설정 해야 합니다. 또한에 지 서버는 다른 조직과의 페더레이션을 설정 하려는 경우 또는 사용자에 게 Yahoo \! , AOL 또는 MSN과 같은 공용 인스턴트 메시징 서비스를 사용 하는 사용자에 게 연락할 수 있는 권한을 부여 하려는 경우에 필요 합니다.
 
 <div>
 

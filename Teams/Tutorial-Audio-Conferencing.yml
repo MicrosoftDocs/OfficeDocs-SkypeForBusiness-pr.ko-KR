@@ -3,7 +3,9 @@ title: '자습서: 오디오 회의-Microsoft 팀'
 metadata:
   title: Microsoft Teams에서의 오디오 회의
   description: 이 대화형 자습서를 사용 하 여 Microsoft 팀에서 오디오 회의에 대 한 요구 사항, 계획 단계 및 보고 기능에 대해 알아보세요.
-  ms.custom: seo-marvel-mar2020
+  ms.custom:
+  - seo-marvel-apr2020
+  - seo-marvel-mar2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -20,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 28e1cf02f9f25bded8f0e28f5d82fc18065f6f52
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: fc4f57607a0a96de6754eec0e693b7cf5cb0b767
+  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43904553"
+  ms.lasthandoff: 10/16/2020
+  ms.locfileid: "48532765"
 items:
 - durationInMinutes: 1
   content: >
@@ -68,7 +70,7 @@ items:
     새 기능에 대 한 아이디어 등 팀에 대 한 제품 피드백을 제공 하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문 하세요.
 - title: 팀의 오디오 회의
   durationInMinutes: 12
-  content: "\n오디오 회의를 통해 참가자는 일반 전화기를 사용 하 여 휴대폰에서 모임에 전화를 거 나 모임 내에서 전화 접속 기능을 사용 하 여 팀 모임에 참가 합니다. 오디오 회의에 대 한 자세한 내용을 보려면 다음 리소스를 검토 하세요.\n-   [오디오 회의 기능](https://products.office.com/skype-for-business/audio-conferencing#Features) (예상 읽기 시간 1 분)\n-   [Microsoft 팀과의 모임에 대 한 9 개의 팁](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (\"\\#1-모임에 대 한 추정 된 읽기 시간\"-오디오 회의를 통해 모임을 참가 하는 방법 \"은 1 분, 전체 문서를 읽는 경우 더 보기\n-   [오디오 회의 일반적인 질문](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (예상 읽기 시간 7 분)\n-   [다른 사용자가 참가할 수 있도록 모임에서 전화 걸기](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (예상 읽기 시간 2 분)\n"
+  content: "\n오디오 회의를 통해 참가자는 일반 전화기를 사용 하 여 휴대폰에서 모임에 전화를 거 나 모임 내에서 전화 접속 기능을 사용 하 여 팀 모임에 참가 합니다. 오디오 회의에 대 한 자세한 내용을 보려면 다음 리소스를 검토 하세요.\n-   [오디오 회의 기능](https://products.office.com/skype-for-business/audio-conferencing#Features) (예상 읽기 시간 1 분)\n-   [Microsoft 팀과의 모임에 대 한 9 개의 팁](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (\"1-모임에 대 한 추정 된 읽기 시간 \\# \"-오디오 회의를 통해 모임을 참가 하는 방법 \"은 1 분, 전체 문서를 읽는 경우 더 보기\n-   [오디오 회의 일반적인 질문](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (예상 읽기 시간 7 분)\n-   [다른 사용자가 참가할 수 있도록 모임에서 전화 걸기](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (예상 읽기 시간 2 분)\n"
 - title: 시나리오 – 오디오 회의
   durationInMinutes: 1
   content: "\n진영는 여러 개의 사무실을 보유 하 고 있는 Contoso를 통해 작동 합니다. 진영는 다른 사무실의 사용자와 연결 해야 하는 경우가 많으며, 자주 집에서 작동 하 고 이동 중에도 팀 모임이 매우 큽니다. 진영에서 모임 초대를 보내면 오디오 회의에 대 한 정보가 자동으로 추가 됩니다. 이렇게 하면 다음과 같은 시나리오가 가능 합니다.\n-   Alice는 진영의 모임에 참가 하려고 하지만, 이동 중에는 신뢰할 수 있는 네트워크에 액세스할 수 없습니다. 따라서 모임 초대에서 전화 접속 좌표를 사용 하 여 모임에 참가 합니다. 전화 접속 프로세스 중에는 PIN을 사용 하 여 인증 하므로 시스템에서 \"Alice\"로 인식 합니다.\n-   Bob은 현재 호텔에 거주 하는 사람은 자신의 PC에 있는 팀 클라이언트를 사용 하 여 모임에 참가 합니다. 안타깝게도, 호텔의 인터넷 연결을 통한 오디오 품질이 좋지 않으므로, Bob이 휴대폰 번호로 전화를 걸어 PSTN (공공 교환 전화 네트워크)을 통해 참가할 수 있습니다.\n-   모임 참가자가 다른 전화 번호로 사용자를 추가 하려는 통화 중에 결정 한 경우 전화 번호로 전화를 걸고 추가 사용자를 모임에 제공할 수 있습니다.\n-   다른 사용자도 자신의 PC, Mac 또는 모바일 장치에서 팀 클라이언트에 참가할 수 있습니다.\n\n팀에서 모임 이끌이는 모든 모임 참가자를 위해 모임을 종료할 수 있습니다. 이는 다음과 같은 시나리오에서 유용 합니다.\n\n-   교사는 수업을 완료 한 후 학생 들이 모임 unsupervised에 유지 되지 않도록 할 수 있습니다.\n-   모임 이끌이는 웹 세미나 진행 등의 기록 중인 모임에 대해 모임이 종료 되 면 녹화가 종료 되도록 할 수 있습니다.\n-   모든 참가자에 대 한 모임을 종료 하면 조직의 PSTN 사용 및 청구를 줄일 수 있습니다. \n\n예를 들어 모임이 완료 되 면 팀의 모임에서 **모임 종료** 를 클릭 하 여 모임을 종료 하 고 해당 참석자의 모든 참가자를 제거할 수 진영.\n"

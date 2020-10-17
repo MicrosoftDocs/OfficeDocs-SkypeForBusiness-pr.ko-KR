@@ -12,20 +12,22 @@ ms:contentKeyID: 50873755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c575a861644c27a0dba93790667ece9b973211e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73d2affed023c930a5fe9814d820148b4e850b68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532115"
 ---
+# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>Lync Server 2013에서 클라이언트 버전 관리 사용 또는 사용 안 함
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>Lync Server 2013에서 클라이언트 버전 관리 사용 또는 사용 안 함
+
 
 </div>
 
@@ -71,7 +73,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
 
 ## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 클라이언트 버전 관리 사용 또는 사용 안 함
 
-**-CsClientVersionConfiguration** cmdlet을 사용 하 여 클라이언트 버전 관리를 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+**-CsClientVersionConfiguration** cmdlet을 사용 하 여 클라이언트 버전 관리를 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 하세요.
 
 <div>
 

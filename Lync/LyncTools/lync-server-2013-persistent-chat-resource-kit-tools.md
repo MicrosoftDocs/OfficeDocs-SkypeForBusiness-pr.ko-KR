@@ -12,20 +12,22 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffd95611f3033dff992092e3be93815bd0e01915
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 80a9116374914c212d305ef2e55d0b8c4fecb782
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206174"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533675"
 ---
+# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Lync Server 2013 영구 채팅 리소스 킷 도구
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Lync Server 2013 영구 채팅 리소스 킷 도구
+
 
 </div>
 
@@ -43,13 +45,13 @@ Lync Server 2013 영구 채팅 리소스 키트 도구를 통해 Lync Server 201
 
 ## <a name="installation-of-the-resource-kit-tools"></a>리소스 키트 도구 설치
 
-Lync Server 2013, 리소스 키트 도구를 설치 하려면 PersistentChatReskit를 다운로드 **합니다.** **PersistentChatReskit** 를 실행 하 여 단순 설치를 수행 합니다. .Msi는 \\ **프로그램\\ 파일 Microsoft Lync server 2013\\영구 채팅 서버 Resource Kit**경로에 있는 모든 도구를 설치 합니다. 자체 포함 된 실행 파일은이 폴더에 있습니다. 파일을 포함 하는 도구는 자체 하위 폴더에 있습니다.
+Lync Server 2013, 리소스 키트 도구를 설치 하려면 **PersistentChatReskit.msi**를 다운로드 합니다. 단순 설치를 수행 하려면 **PersistentChatReskit.msi** 를 실행 합니다. .Msi는 \\ **프로그램 파일 \\ Microsoft Lync Server 2013 \\ 영구 채팅 서버 Resource Kit**경로에 있는 모든 도구를 설치 합니다. 자체 포함 된 실행 파일은이 폴더에 있습니다. 파일을 포함 하는 도구는 자체 하위 폴더에 있습니다.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server 2013, 리소스 키트 도구를 설치한 후에는 <STRONG>PsExec</STRONG> 을 설치 하 고 <STRONG>PsExec</STRONG> 를 \\ <STRONG>Program Files \ Microsoft Lync server 2013 \ 영구 채팅 서버 리소스 Kit\ChatStressTool</STRONG>경로에 복사 해야 합니다. <STRONG>PsExec</STRONG>를 복사 하지 않으면 영구 채팅 스트레스 도구에서 오류 예외를 throw 하며 제대로 수행 되지 않습니다. 도구를 실행 하기 전에이 필수 구성 요소를 충족 하는지 확인 합니다. <STRONG>PsExec</STRONG>을 설치 하는 방법에 대 한 <A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A>자세한 내용은를 참조 하세요.
+> Lync Server 2013, Resource Kit Tools를 설치한 후에 <STRONG>PsExec.exe</STRONG> 를 설치 하 고 <STRONG>PsExec.exe</STRONG> 를 \\ <STRONG>프로그램 파일 \ Microsoft Lync Server 2013 \ 영구 채팅 서버 리소스 Kit\ChatStressTool</STRONG>경로에 복사 해야 합니다. <STRONG>PsExec.exe</STRONG>를 복사 하지 않으면 영구 채팅 스트레스 도구에서 오류 예외를 throw 하며 제대로 수행 되지 않습니다. 도구를 실행 하기 전에이 필수 구성 요소를 충족 하는지 확인 합니다. <STRONG>PsExec.exe</STRONG>설치에 대 한 자세한 내용은를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A> .
 
 
 
@@ -111,9 +113,9 @@ AffCheck 도구는 영구 채팅 백 엔드 데이터베이스 사용자 및 그
 
 ## <a name="usage"></a>Usage
 
-Config 파일의 지침에 따라 AffCheck 파일을 구성 하 고 명령줄 매개 변수를 사용 하지 않고 AffCheck 도구를 실행 합니다. 다음은 기본 AffCheck의 내용입니다.
+Config 파일의 지침에 따라 AffCheck.exe.config 파일을 구성 하 고 명령줄 매개 변수를 사용 하지 않고 AffCheck 도구를 실행 합니다. 다음은 기본 AffCheck.exe.config의 내용입니다.
 
-**AffCheck:**
+**AffCheck.exe.config:**
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -175,7 +177,7 @@ CSV 파일에는 전체 세션 수, 성공한 세션, 예기치 않은 오류, �
 
 도구를 실행 하는 데 사용 하는 사용자 계정에는 모니터링 데이터베이스에 대 한 읽기 권한이 있어야 합니다.
 
-PersistentChatMonitoringSummary 파일에는 모니터링 데이터베이스에 대 한 연결 문자열을 \<정의\> 하는 connectionStrings 섹션이 포함 되어야 합니다. 또한 모니터링 데이터를 수집할 PersistentChatEndpointUri 키와 생성 될 CSV 파일의 위치에 대 한 파일 경로를 포함 해야 합니다. 예를 보려면 설치 된 구성 파일을 참조 하십시오. 이 파일은 도구와 같은 디렉터리에 있어야 합니다.
+PersistentChatMonitoringSummary.exe.config 파일은 \<connectionStrings\> 모니터링 데이터베이스에 대 한 연결 문자열을 정의 하는 섹션을 포함 해야 합니다. 또한 모니터링 데이터를 수집할 PersistentChatEndpointUri 키와 생성 될 CSV 파일의 위치에 대 한 파일 경로를 포함 해야 합니다. 예를 보려면 설치 된 구성 파일을 참조 하십시오. 이 파일은 도구와 같은 디렉터리에 있어야 합니다.
 
 </div>
 
@@ -257,9 +259,9 @@ ChatStressTool 파일을 모든 로더 컴퓨터에서 액세스할 수 있는 �
 
 토폴로지에 맞게 구성 파일을 편집 합니다.
 
-**LoaderProcess**에서 "controller.contoso.com"를 컨트롤러 컴퓨터의 FQDN (정규화 된 도메인 이름)으로 변경 합니다.
+**LoaderProcess.exe.config**에서 "controller.contoso.com"를 컨트롤러 컴퓨터의 FQDN (정규화 된 도메인 이름)으로 변경 합니다.
 
-StressLauncher의 경우 **:**
+**StressLauncher.exe.config:**
 
 1.  "LoaderBinary" 설정 값을 공유 폴더의 경로로 변경 합니다.
 
@@ -267,7 +269,7 @@ StressLauncher의 경우 **:**
 
 3.  "ChannelCategory"를 스트레스 채널이 만들어진 범주의 이름으로 변경 합니다.
 
-4.  "UserNamePattern" 및 "UserPasswordPattern"을 스트레스 사용자 자격 증명과 일치 하는 서식 파일로 변경 합니다. {0}사용자의 인덱스 번호로 바뀝니다.
+4.  "UserNamePattern" 및 "UserPasswordPattern"을 스트레스 사용자 자격 증명과 일치 하는 서식 파일로 변경 합니다. {0} 사용자의 인덱스 번호로 바뀝니다.
 
 5.  "도메인"을 테스트 토폴로지의 SIP 도메인으로 변경 합니다.
 
@@ -287,7 +289,7 @@ StressLauncher의 경우 **:**
 
 ## <a name="usage"></a>Usage
 
-구성이 완료 되 면 컨트롤러 컴퓨터에서 StressLauncher를 엽니다. 모든 사용자로 StressLauncher을 시작할 수 있습니다. 로더 시스템에서 시작 하는 로더 프로세스를 구성 파일에 지정 해야 합니다. 또한 영구 채팅 백 엔드 데이터베이스에 대 한 읽기 권한이 있는 연결 문자열을 제공 해야 합니다. 이 연결 문자열이 Windows 통합 인증을 사용 하는 경우에는이 액세스 권한이 있는 사용자로 StressLauncher을 시작 해야 합니다.
+구성이 완료 되 면 컨트롤러 컴퓨터에서 StressLauncher.exe를 엽니다. 모든 사용자로 StressLauncher을 시작할 수 있습니다. 로더 시스템에서 시작 하는 로더 프로세스를 구성 파일에 지정 해야 합니다. 또한 영구 채팅 백 엔드 데이터베이스에 대 한 읽기 권한이 있는 연결 문자열을 제공 해야 합니다. 이 연결 문자열이 Windows 통합 인증을 사용 하는 경우에는이 액세스 권한이 있는 사용자로 StressLauncher을 시작 해야 합니다.
 
 필요에 따라 사용자 모델 설정을 변경 합니다. **로드 시작** 을 클릭 하 여 실행을 시작 합니다. 1 분 후에 사용자는 로그인을 시작 하 고 진행률 표시줄이 채우기 시작 됩니다. 이때 컨트롤러 시스템이 작동 하 고 성능 측정이 수행 될 수 있습니다.
 
@@ -317,7 +319,7 @@ StressLauncher의 경우 **:**
 
 도구를 실행 하는 데 사용 하는 사용자 계정에 영구 채팅 데이터베이스에 대 한 읽기 권한이 있어야 합니다.
 
-GroupChat2010Db 매개 변수는 GroupChat2007R2Db 매개 변수와 함께 사용 해야 하며 해당 그룹 채팅 데이터베이스 (Groupchat 2007R2 또는 2010)에 대 한 연결 문자열을 포함 하 고 있습니다. 또한 영구 채팅 2013 데이터베이스에 대 한 연결 문자열을 사용 하 여 PersistentChat2013Db 매개 변수도 포함 해야 합니다.
+ChatUpgradeVerifier.exe.config 파일에는 GroupChat2007R2Db 매개 변수 또는 GroupChat2010Db 매개 변수가 포함 되어야 하며 해당 그룹 채팅 데이터베이스 (Groupchat 2007R2 또는 2010)에 대 한 연결 문자열을 사용 해야 합니다. 또한 영구 채팅 2013 데이터베이스에 대 한 연결 문자열을 사용 하 여 PersistentChat2013Db 매개 변수도 포함 해야 합니다.
 
 </div>
 
@@ -333,7 +335,7 @@ GroupChat2010Db 매개 변수는 GroupChat2007R2Db 매개 변수와 함께 사�
 
 ## <a name="example"></a>예제
 
-![\ 프로그램을 실행 합니다.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "\ 프로그램을 실행 합니다.")
+![ChatUpgradeVerifier.exe 실행](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "ChatUpgradeVerifier.exe 실행")
 
 </div>
 
@@ -359,7 +361,7 @@ ChatUsageReport 도구는 영구 채팅 서비스 사용 현황에 대 한 HTML 
 
 도구를 실행 하는 데 사용 되는 사용자 계정에 영구 채팅 백 엔드 데이터베이스에 대 한 읽기 권한이 있어야 합니다.
 
-ChatUsageReport 파일은 영구 채팅 백 엔드 데이터베이스에 대 한 연결 \<문자열\> 을 정의 하는 connectionStrings 섹션을 포함 해야 합니다. 기본 구성 파일의 내용은 참조용으로 여기에 포함 되어 있습니다.
+ChatUsageReport.exe.config 파일은 \<connectionStrings\> 영구 채팅 백 엔드 데이터베이스에 대 한 연결 문자열을 정의 하는 섹션을 포함 해야 합니다. 기본 구성 파일의 내용은 참조용으로 여기에 포함 되어 있습니다.
 
 </div>
 
@@ -386,9 +388,9 @@ ChatUsageReport 파일은 영구 채팅 백 엔드 데이터베이스에 대 한
 
 **RoomsInactiveSince:** 이를 지정 하면 보고서에 지정 된 날짜 이후에 비활성화 된 대화방 목록이 포함 됩니다. 기본값: 전체 시간
 
-**Outputfolder:** ChatUsageReport 및 graph 이미지를 배치할 폴더입니다. 이는 config 파일 또는 명령줄에서 정의 해야 합니다.
+**Outputfolder:** ChatUsageReport.html 및 그래프 이미지를 배치할 폴더입니다. 이는 config 파일 또는 명령줄에서 정의 해야 합니다.
 
-도구와 같은 디렉터리에 있는 ChatUsageReport 파일에 모든 명령줄 매개 변수 값을 지정할 수도 있습니다. Config 파일과 명령줄에 모두 값이 지정 되어 있으면 명령줄 값이 config 파일 값을 재정의 합니다.
+도구와 같은 디렉터리에 있는 ChatUsageReport.exe.config 파일에 모든 명령줄 매개 변수 값을 지정할 수도 있습니다. Config 파일과 명령줄에 모두 값이 지정 되어 있으면 명령줄 값이 config 파일 값을 재정의 합니다.
 
 </div>
 
@@ -422,12 +424,12 @@ ChatUsageReport 파일은 영구 채팅 백 엔드 데이터베이스에 대 한
 
 ## <a name="example"></a>예제
 
-다음 예제에서는 전체 연도 2001에 대 한 사용 현황 보고서를 생성 하 고 보고서를 ChatUsageReport에 지정 된 OutputFolder에 배치 합니다.
+다음 예제에서는 전체 연도 2001에 대 한 사용 현황 보고서를 생성 하 고 ChatUsageReport.exe.config에 지정 된 OutputFolder에 보고서를 배치 합니다.
 
 ```Powershell
     ChatUsageReport -RoomsInactiveSince 06-20-2010
 ```
-ChatUsageReport:
+ChatUsageReport.exe.config:
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>

@@ -12,20 +12,22 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b87e395f56c7dfdbd03bf35c5c1c8cf37795652
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b4fca7065c18ab67fce1940adccce6b9071f3373
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533335"
 ---
+# <a name="encryption-for-lync-server-2013"></a>Lync Server 2013에 대 한 암호화
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="encryption-for-lync-server-2013"></a>Lync Server 2013에 대 한 암호화
+
 
 </div>
 
@@ -43,7 +45,7 @@ Microsoft Lync Server 2013에서는 TLS 및 MTLS를 사용 하 여 인스턴트 
 
 
 > [!NOTE]  
-> SSL 3.0에 대 한 보안 권고는 2014에 게시 되어 있습니다. Lync Server 2013에서 SSL 3.0을 사용 하지 않도록 설정 하는 것은 지원 되는 옵션입니다. 보안 권고에 대 한 자세한 내용은를 참조 <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>하세요.
+> SSL 3.0에 대 한 보안 권고는 2014에 게시 되어 있습니다. Lync Server 2013에서 SSL 3.0을 사용 하지 않도록 설정 하는 것은 지원 되는 옵션입니다. 보안 권고에 대 한 자세한 내용은를 참조 하세요 <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A> .
 
 
 
@@ -121,7 +123,7 @@ Microsoft Lync Server 2013에서는 TLS 및 MTLS를 사용 하 여 인스턴트 
 
 ## <a name="media-encryption"></a>미디어 암호화
 
-미디어 트래픽은 기밀, 인증, replay 공격 보호를 제공 하는 rtp (실시간 전송 프로토콜)의 프로필 인 보안 RTP (SRTP)를 사용 하 여 암호화 됩니다. 또한 중재 서버와 해당 내부 다음 홉 간의 양방향에서 양방향 미디어는 SRTP을 사용 하 여 암호화 됩니다. 중재 서버와 미디어 게이트웨이 사이에 양방향으로 진행 되는 미디어 흐름은 기본적으로 암호화 되지 않습니다. 중재 서버는 미디어 게이트웨이에 대 한 암호화를 지원할 수 있지만, 게이트웨이는 MTLS 및 인증서의 저장소를 지원 해야 합니다.
+미디어 트래픽은 SRTP (보안 RTP)를 사용 하 여 암호화 되며, RTP (Real-Time Transport Protocol)의 프로필에 대 한 기밀, 인증, replay 공격 방지 기능을 제공 합니다. 또한 중재 서버와 내부 다음 홉 사이에 양방향으로 흐르는 미디어도 SRTP를 사용하여 암호화됩니다. 중재 서버와 미디어 게이트웨이 사이에 양방향으로 진행 되는 미디어 흐름은 기본적으로 암호화 되지 않습니다. 중재 서버는 미디어 게이트웨이에 대 한 암호화를 지원할 수 있지만, 게이트웨이는 MTLS 및 인증서의 저장소를 지원 해야 합니다.
 
 <div>
 
@@ -141,7 +143,7 @@ Microsoft Lync 2013 및 Windows Live 클라이언트 간에 오디오 및 비디
 
 ## <a name="fips"></a>서명에
 
-Windows Server 운영 체제가 시스템 암호화에 FIPS 140-2 알고리즘을 사용 하도록 구성 되어 있는 경우 Lync Server 2013 및 Microsoft Exchange Server 2013는 FIPS (정보 처리 표준) 140-2 알고리즘을 지원 합니다. FIPS 지원을 구현 하려면 Lync Server 2013를 실행 하는 각 서버가 지원 되도록 구성 해야 합니다. FIPS 규격 알고리즘 사용에 대 한 자세한 내용과 FIPS 지원을 구현 하는 방법에 대 한 자세한 811833 내용은 Windows XP 및 이후 버전의 Windows에서 "시스템 암호화: 암호화, 해시 및 서명에 FIPS 호환 알고리즘 사용" 보안 설정을 사용 하는 경우의 결과를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833). Exchange 2010의 FIPS 140-2 지원 및 제한 사항에 대 한 자세한 내용은 Exchange 2010 SP1 및에서 [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)FIPS 호환 알고리즘 지원를 참조 하세요.
+Windows Server 운영 체제가 시스템 암호화에 FIPS 140-2 알고리즘을 사용 하도록 구성 되어 있는 경우 Lync Server 2013 및 Microsoft Exchange Server 2013는 FIPS (정보 처리 표준) 140-2 알고리즘을 지원 합니다. FIPS 지원을 구현 하려면 Lync Server 2013를 실행 하는 각 서버가 지원 되도록 구성 해야 합니다. FIPS 규격 알고리즘 사용에 대 한 자세한 내용과 FIPS 지원을 구현 하는 방법에 대 한 자세한 811833 내용은 Windows XP 및 이후 버전의 Windows에서 "시스템 암호화: 암호화, 해시 및 서명에 FIPS 호환 알고리즘 사용" 보안 설정을 사용 하는 경우의 결과를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833) . Exchange 2010의 FIPS 140-2 지원 및 제한 사항에 대 한 자세한 내용은 Exchange 2010 SP1 및에서 FIPS 호환 알고리즘 지원를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335) 하세요.
 
 </div>
 

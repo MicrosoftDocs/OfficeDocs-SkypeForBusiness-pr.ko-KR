@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 365 및 Office 365의 전화 시스템 기술에 대해 설명 합니다.
-ms.openlocfilehash: b9d44e52cbdd2384742a7473132ba3447e80e8fe
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: fe04dc409f088d93d9636974bc0bd6b13a1a9f7b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788422"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533545"
 ---
 # <a name="what-is-phone-system"></a>전화 시스템 이란?
 
@@ -69,7 +69,7 @@ ms.locfileid: "46788422"
 
 기능에 대 한 자세한 내용은 [다음을 전화 시스템에서 확인할 수 있습니다](here-s-what-you-get-with-phone-system.md). 시작할 준비가 되었으면 [조직에서 전화 시스템 설정을](setting-up-your-phone-system.md)참조 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [전화 시스템 기능](here-s-what-you-get-with-phone-system.md)
 - [Microsoft Teams의 클라우드 음성](cloud-voice-landing-page.md)

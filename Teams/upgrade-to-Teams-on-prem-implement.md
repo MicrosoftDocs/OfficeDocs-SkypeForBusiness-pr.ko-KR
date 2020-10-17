@@ -3,7 +3,7 @@ title: 비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레�
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8239d1fdbda10a61cd0846a0d56b1f1ffa62f597
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: bec5c2b10dc2e09092cd7c26284c04868982e287
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955905"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533605"
 ---
 # <a name="implement-your-upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>비즈니스용 Skype에서 IT 관리자를 위한 팀으로 업그레이드 구현 &mdash;
 
@@ -89,7 +89,7 @@ ms.locfileid: "47955905"
      Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
      ```
 
-상속자
+참고
  
 - 테 넌 트 전체 정책을 SfbWithTeamsCollab로 설정 하는 대신 SfbWithTeamsCollabAndMeetings로 설정할 수 있습니다. 이렇게 하면 모든 사용자가 팀의 모든 새 모임을 예약 합니다.
 - `Move-CsUser` 온-프레미스 도구의 cmdlet입니다. 이 `MoveToTeams` 스위치를 사용 하려면 비즈니스용 Skype server 2019 또는 CU8 이상과 비즈니스용 Skype server 2015이 필요 합니다. 이전 버전을 사용 하는 경우 먼저 사용자를 비즈니스용 Skype Online으로 이동한 다음 해당 사용자에 게 팀의 유일한 모드를 부여할 수 있습니다.

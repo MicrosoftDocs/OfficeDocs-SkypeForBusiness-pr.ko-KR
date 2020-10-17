@@ -12,20 +12,22 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e969de7198eecf43b57ea00fa0591bbeb06da0b1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 160d90a5a79291d18afdab00c23ff0a6726fa5b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217314"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531945"
 ---
+# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Lync Server 2013의 서버 메모리 용량 제한 모니터링
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Lync Server 2013의 서버 메모리 용량 제한 모니터링
+
 
 </div>
 
@@ -61,19 +63,19 @@ _**마지막으로 수정 된 항목:** 2016-12-08_
 
 적절 한 제한을 결정 하려면 먼저 모바일 서비스에 대해 프런트 엔드 서버에서 사용할 수 있는 메모리 양을 확인 해야 합니다. 다음 수식에 따라 카운터를 모니터링 하 여 추가 용량을 계획 해야 하는 시기를 결정 합니다.
 
-Mcx Mobility Service에서 사용 되는 총 메모리 (MB) = 164 + (400 + 134)/ \* **1024 현재 활성 세션 수 (활성** 현재 상태 구독 포함) \* + 400/1024 (현재**활성** 세션 수-현재 활성 **상태인 활성 세션 수**)
+Mcx Mobility Service에서 사용 되는 총 메모리 (MB) = 164 + (400 + 134)/1024 \* **현재 활성 세션 수 (활성** 현재 상태 구독 포함) + 400/1024 (현재 활성 세션 수-현재 활성 \* 상태인 활성 **세션 수**)**Currently Active Session Count**
 
 <div>
 
 
 > [!IMPORTANT]  
-> Microsoft Lync Server 2010 Capacity 계산기는 계획을 사용 하 여 CPU, 메모리, 하드 드라이브 등의 서버에 대 한 요구 사항을 결정 하는 데 사용할 수 있는 모든 수식이 미리 채워진 스프레드시트입니다. 스프레드시트 및 관련 문서는 다음 위치에서 다운로드할 수 있습니다.<A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
+> Microsoft Lync Server 2010 Capacity 계산기는 계획을 사용 하 여 CPU, 메모리, 하드 드라이브 등의 서버에 대 한 요구 사항을 결정 하는 데 사용할 수 있는 모든 수식이 미리 채워진 스프레드시트입니다. 스프레드시트 및 관련 문서는 다음 위치에서 다운로드할 수 있습니다. <A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
 
 
 
 </div>
 
-프런트 엔드 서버에는 장애 조치 (failover) 상황에서 모바일 서비스를 지 원하는 데 충분 한 사용 가능한 메모리가 필요 합니다. **사용 가능한 메모리\\mb** 카운터를 사용 하 여 프런트 엔드 서버의 현재 사용 가능한 메모리를 모니터링 하거나, 앞에서 설명한 수식을 사용 하 여 모바일 서비스에서 사용할 수 있는 메모리 양을 계획할 수 있습니다.
+프런트 엔드 서버에는 장애 조치 (failover) 상황에서 모바일 서비스를 지 원하는 데 충분 한 사용 가능한 메모리가 필요 합니다. ** \\ 사용 가능한 메모리 mb** 카운터를 사용 하 여 프런트 엔드 서버의 현재 사용 가능한 메모리를 모니터링 하거나, 앞에서 설명한 수식을 사용 하 여 모바일 서비스에서 사용할 수 있는 메모리 양을 계획할 수 있습니다.
 
 예상 되는 모바일 사용자 수를 계획할 때 프런트 엔드 서버에서 사용할 수 있는 메모리 양이 1500 MB 보다 작으면 모바일 서비스를 지원 하기 위해 하드웨어를 더 추가 해야 합니다. 자세한 내용은 작업 설명서의 [Lync Server 2013에서 성능에 맞게 모바일 기능 모니터링](lync-server-2013-monitoring-mobility-for-performance.md) 을 참조 하십시오.
 

@@ -3,7 +3,7 @@ title: Microsoft 팀과 비즈니스용 Skype 동시 사용
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5993611a383ee9b7040dfa4b74dae1b392253f
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 0690af8226f3f992dcc12f68c6135c953eb043f5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955965"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533615"
 ---
 # <a name="coexistence-with-teams-and-skype-for-business"></a>팀과 비즈니스용 Skype 동시 사용
 
@@ -132,7 +132,7 @@ Interop 통신은 네이티브 팀 대화의 모든 기능을 지원 하지 않�
 
 - 비즈니스용 Skype Online 사용자는 처음으로 팀에 로그온 할 때 비즈니스용 Skype의 연락처가 팀에 복사 됩니다.  비즈니스용 Skype 서버에서 온-프레미스 계정을 사용 하는 사용자는이 동작을 사용할 수 없습니다.  
 
-- 사용자가 TeamsUpgradePolicy 또는 Move-CsUser-MoveToTeams를 통해 자신을 업그레이드 한 후에는 다음에 사용자가 팀에 로그인 할 때 비즈니스용 Skype의 기존 연락처가 이미 팀에 있는 기존 연락처와 병합 됩니다. 이 동작은 사용자의 비즈니스용 Skype 계정이 온-프레미스 또는 온라인 인지에 관계 없이 발생 합니다. 
+- 사용자가 TeamsUpgradePolicy를 할당 하거나 Move-CsUser-MoveToTeams를 통해 팀 전용으로 업그레이드 한 후에는 다음에 사용자가 팀에 로그인 할 때 비즈니스용 Skype의 기존 연락처가 이미 팀에 있는 기존 연락처와 병합 됩니다. 이 동작은 사용자의 비즈니스용 Skype 계정이 온-프레미스 또는 온라인 인지에 관계 없이 발생 합니다. 
 
 두 경우 모두 비즈니스용 Skype에서 팀으로 연락처를 전송 하는 것이 비동기적 이므로 연락처가 팀에 표시 되기까지 몇 분이 걸릴 수 있습니다. 위의 두 가지 이벤트는 복사본을 트리거하는 것입니다.  
 

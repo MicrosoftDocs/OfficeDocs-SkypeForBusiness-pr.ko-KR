@@ -12,20 +12,22 @@ ms:contentKeyID: 48185650
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6afb04e0eabcc1c45ae8b0be3904a333852e843
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bdea8e9aeed89a52b6e288be00afb9ed5fbeb27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533215"
 ---
+# <a name="enhanced-9-1-1-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 향상 된 9-1-1 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enhanced-9-1-1-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 향상 된 9-1-1 cmdlet
+
 
 </div>
 

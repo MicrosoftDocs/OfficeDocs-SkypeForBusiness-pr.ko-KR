@@ -12,20 +12,22 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c783a79c6d3ed3cd0af47d53d136a47585cb94d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 051b7f483ec3e3a59d5025c670b63b97765016b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205634"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532305"
 ---
+# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Lync Server 2013에서 호스팅된 Exchange UM에 대 한 대화 상대 개체 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Lync Server 2013에서 호스팅된 Exchange UM에 대 한 대화 상대 개체 만들기
+
 
 </div>
 
@@ -75,7 +77,7 @@ _**마지막으로 수정 된 항목:** 2012-09-24_
     
     이러한 예는 다음 매개 변수를 설정합니다.
     
-      - **Nm-server-w15-short** 은 연락처 개체의 SIP 주소를 지정 합니다. Active Directory 도메인 서비스에서 사용자 또는 연락처 개체를 구성 하는 데 사용 되지 않은 주소 여야 합니다. 이 값은 앞의 예제와 같이 "sip\<:*sip 주소*\>" 형식 이어야 합니다.
+      - **Nm-server-w15-short** 은 연락처 개체의 SIP 주소를 지정 합니다. Active Directory 도메인 서비스에서 사용자 또는 연락처 개체를 구성 하는 데 사용 되지 않은 주소 여야 합니다. 이 값은 \<*SIP address*\> 앞의 예제에 표시 된 대로 "sip:" 형식 이어야 합니다.
     
       - **RegistrarPool**은 등록자 서비스가 실행되고 있는 풀의 FQDN(정규화된 도메인 이름)을 지정합니다.
         
