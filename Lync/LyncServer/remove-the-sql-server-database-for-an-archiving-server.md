@@ -12,20 +12,22 @@ ms:contentKeyID: 49733686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c84c15aea6be5ddcc30c357fec5971bf9786c25
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: fab9cefc3fff51267426fd26263f9e2ec20a85ee
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755792"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518105"
 ---
+# <a name="remove-the-sql-server-database-for-an-archiving-server"></a><span data-ttu-id="0f79c-102">보관 서버용 SQL Server 데이터베이스 제거</span><span class="sxs-lookup"><span data-stu-id="0f79c-102">Remove the SQL Server database for an Archiving server</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-an-archiving-server"></a><span data-ttu-id="f6ca4-102">보관 서버용 SQL Server 데이터베이스 제거</span><span class="sxs-lookup"><span data-stu-id="f6ca4-102">Remove the SQL Server database for an Archiving server</span></span>
+
 
 </div>
 
@@ -35,37 +37,37 @@ ms.locfileid: "44755792"
 
 <span> </span>
 
-<span data-ttu-id="f6ca4-103">_**마지막으로 수정 된 항목:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="f6ca4-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="0f79c-103">_**마지막으로 수정 된 항목:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="0f79c-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="f6ca4-104">Microsoft Lync Server 2010 보관 서버를 제거한 후에는 해당 풀 데이터를 호스트 하는 SQL Server 데이터베이스를 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f6ca4-104">After you remove a Microsoft Lync Server 2010 Archiving Server, you can remove the SQL Server databases that hosted the pool data.</span></span> <span data-ttu-id="f6ca4-105">다음 절차에 따라 토폴로지 작성기에서 정의를 제거 하 고 데이터베이스 서버에서 데이터베이스 및 로그 파일을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="f6ca4-105">Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.</span></span>
+<span data-ttu-id="0f79c-104">Microsoft Lync Server 2010 보관 서버를 제거한 후에는 해당 풀 데이터를 호스트 하는 SQL Server 데이터베이스를 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0f79c-104">After you remove a Microsoft Lync Server 2010 Archiving Server, you can remove the SQL Server databases that hosted the pool data.</span></span> <span data-ttu-id="0f79c-105">다음 절차에 따라 토폴로지 작성기에서 정의를 제거 하 고 데이터베이스 서버에서 데이터베이스 및 로그 파일을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f79c-105">Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.</span></span>
 
 <div>
 
-## <a name="to-remove-the-sql-server-database-using-topology-builder"></a><span data-ttu-id="f6ca4-106">토폴로지 작성기를 사용 하 여 SQL Server 데이터베이스를 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="f6ca4-106">To remove the SQL Server database using Topology Builder</span></span>
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a><span data-ttu-id="0f79c-106">토폴로지 작성기를 사용 하 여 SQL Server 데이터베이스를 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="0f79c-106">To remove the SQL Server database using Topology Builder</span></span>
 
-1.  <span data-ttu-id="f6ca4-107">Lync Server 2013 프런트 엔드 서버에서 토폴로지 작성기를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="f6ca4-107">On the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
+1.  <span data-ttu-id="0f79c-107">Lync Server 2013 프런트 엔드 서버에서 토폴로지 작성기를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="0f79c-107">On the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="f6ca4-108">토폴로지 작성기에서 **공유 구성 요소** 를 탐색 하 고 **SQL server 저장소**로 이동한 후 제거 되거나 다시 구성 된 보관 서버와 연결 된 SQL Server 인스턴스를 마우스 오른쪽 단추로 클릭 한 다음 **삭제**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="f6ca4-108">In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Archiving Server, and then click **Delete**.</span></span>
+2.  <span data-ttu-id="0f79c-108">토폴로지 작성기에서 **공유 구성 요소** 를 탐색 하 고 **SQL server 저장소**로 이동한 후 제거 되거나 다시 구성 된 보관 서버와 연결 된 SQL Server 인스턴스를 마우스 오른쪽 단추로 클릭 한 다음 **삭제**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f79c-108">In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Archiving Server, and then click **Delete**.</span></span>
 
-3.  <span data-ttu-id="f6ca4-109">토폴로지를 게시한 후 복제 상태를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="f6ca4-109">Publish the topology, and then check replication status.</span></span>
+3.  <span data-ttu-id="0f79c-109">토폴로지를 게시한 후 복제 상태를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="0f79c-109">Publish the topology, and then check replication status.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-remove-the-database-files-from-the-sql-server"></a><span data-ttu-id="f6ca4-110">SQL Server에서 데이터베이스 파일을 제거하려면</span><span class="sxs-lookup"><span data-stu-id="f6ca4-110">To remove the database files from the SQL Server</span></span>
+## <a name="to-remove-the-database-files-from-the-sql-server"></a><span data-ttu-id="0f79c-110">SQL Server에서 데이터베이스 파일을 제거하려면</span><span class="sxs-lookup"><span data-stu-id="0f79c-110">To remove the database files from the SQL Server</span></span>
 
-1.  <span data-ttu-id="f6ca4-111">SQL Server에서 데이터베이스를 제거하려면 사용자가 데이터베이스 파일을 제거하려는 SQL Server에 대해 SQL Server sysadmins 그룹의 구성원이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f6ca4-111">To remove the databases on the SQL Server, you must be a member of the SQL Server sysadmins group for the SQL Server where you are removing the database files.</span></span>
+1.  <span data-ttu-id="0f79c-111">SQL Server에서 데이터베이스를 제거하려면 사용자가 데이터베이스 파일을 제거하려는 SQL Server에 대해 SQL Server sysadmins 그룹의 구성원이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f79c-111">To remove the databases on the SQL Server, you must be a member of the SQL Server sysadmins group for the SQL Server where you are removing the database files.</span></span>
 
-2.  <span data-ttu-id="f6ca4-112">Lync Server 관리 셸을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="f6ca4-112">Open the Lync Server Management Shell.</span></span>
+2.  <span data-ttu-id="0f79c-112">Lync Server 관리 셸을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="0f79c-112">Open the Lync Server Management Shell.</span></span>
 
-3.  <span data-ttu-id="f6ca4-113">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="f6ca4-113">At the command line, type the following:</span></span>
+3.  <span data-ttu-id="0f79c-113">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="0f79c-113">At the command line, type the following:</span></span>
     
         Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    <span data-ttu-id="f6ca4-114">여기서 \<FQDN\> 은 데이터베이스 서버의 FQDN (정규화 된 도메인 이름) 이며, \<instance\> 명명 된 데이터베이스 인스턴스 (즉, 정의 된 경우)입니다.</span><span class="sxs-lookup"><span data-stu-id="f6ca4-114">Where \<FQDN\> is the fully qualified domain name (FQDN) of the database server, and \<instance\> is the named database instance (that is, if one was defined).</span></span>
+    <span data-ttu-id="0f79c-114">여기서 \<FQDN\> 은 데이터베이스 서버의 FQDN (정규화 된 도메인 이름) 이며, \<instance\> 명명 된 데이터베이스 인스턴스 (즉, 정의 된 경우)입니다.</span><span class="sxs-lookup"><span data-stu-id="0f79c-114">Where \<FQDN\> is the fully qualified domain name (FQDN) of the database server, and \<instance\> is the named database instance (that is, if one was defined).</span></span>
 
-4.  <span data-ttu-id="f6ca4-115">**Uninstall-CsDataBase** cmdlet에서 작업을 확인하라는 메시지가 표시되면 해당 정보를 읽고, 계속하려면 **Y**(또는 Enter 키)를 누르고, cmdlet을 중지하려면 **N**을 누른 후 Enter 키를 누릅니다(즉, 오류가 있을 경우에 대비하여).</span><span class="sxs-lookup"><span data-stu-id="f6ca4-115">When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press **Y** (or press Enter) to proceed, or press **N** and then Enter if you want to stop the cmdlet (that is, in case there errors).</span></span>
+4.  <span data-ttu-id="0f79c-115">**Uninstall-CsDataBase** cmdlet에서 작업을 확인하라는 메시지가 표시되면 해당 정보를 읽고, 계속하려면 **Y**(또는 Enter 키)를 누르고, cmdlet을 중지하려면 **N**을 누른 후 Enter 키를 누릅니다(즉, 오류가 있을 경우에 대비하여).</span><span class="sxs-lookup"><span data-stu-id="0f79c-115">When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press **Y** (or press Enter) to proceed, or press **N** and then Enter if you want to stop the cmdlet (that is, in case there errors).</span></span>
 
 </div>
 
