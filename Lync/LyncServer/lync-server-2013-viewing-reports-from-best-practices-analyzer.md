@@ -12,20 +12,22 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93ce3e013f5c0578c78db3ceee8ab1d65481efbb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ffa6108760955de643b7ffa4afe841464ae140f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211115"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535595"
 ---
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="933b8-102">Lync Server 2013에서 모범 사례 분석기의 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="933b8-102">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="66918-102">Lync Server 2013에서 모범 사례 분석기의 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="66918-102">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,57 +37,57 @@ ms.locfileid: "42211115"
 
 <span> </span>
 
-<span data-ttu-id="66918-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="66918-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="933b8-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="933b8-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="66918-p101">모범 사례 분석기를 사용해서 환경을 검색할 때는 검색 이름을 지정합니다. 모범 사례 분석기가 검색을 완료하면 검색 결과가 검색 이름 아래에 보고서로 저장됩니다. 검색이 완료되면 **검색 완료** 페이지에서 직접 **이 Best Practices 검색 보고서 보기**를 클릭하여 검색으로 생성된 보고서를 볼 수 있습니다. 또한 해당 검색 또는 이전 검색의 보고서를 나중에 볼 수도 있습니다. 검색이 실행된 로컬 컴퓨터에서 보고서를 보거나, 다른 컴퓨터에서 검색 결과를 가져오거나, 모범 사례 분석기가 설치된 다른 컴퓨터에서 보고서를 볼 수 있도록 검색 결과를 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="66918-p101">When you use Best Practices Analyzer to scan your environment, you specify a name for the scan. After Best Practices Analyzer completes a scan, it stores the scan results in reports and saves them under the name of the scan. Upon completion of the scan, you can view the reports generated for that scan by clicking **View a report of this Best Practices scan** directly from the **Scanning Completed** page. You can also view the reports from that scan or previous scans at a later time. You can view reports on the local computer on which the scan was run, import scan results from another computer, or export scan results to view the reports on another computer on which Best Practices Analyzer is installed.</span></span>
+<span data-ttu-id="933b8-p101">모범 사례 분석기를 사용해서 환경을 검색할 때는 검색 이름을 지정합니다. 모범 사례 분석기가 검색을 완료하면 검색 결과가 검색 이름 아래에 보고서로 저장됩니다. 검색이 완료되면 **검색 완료** 페이지에서 직접 **이 Best Practices 검색 보고서 보기**를 클릭하여 검색으로 생성된 보고서를 볼 수 있습니다. 또한 해당 검색 또는 이전 검색의 보고서를 나중에 볼 수도 있습니다. 검색이 실행된 로컬 컴퓨터에서 보고서를 보거나, 다른 컴퓨터에서 검색 결과를 가져오거나, 모범 사례 분석기가 설치된 다른 컴퓨터에서 보고서를 볼 수 있도록 검색 결과를 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-p101">When you use Best Practices Analyzer to scan your environment, you specify a name for the scan. After Best Practices Analyzer completes a scan, it stores the scan results in reports and saves them under the name of the scan. Upon completion of the scan, you can view the reports generated for that scan by clicking **View a report of this Best Practices scan** directly from the **Scanning Completed** page. You can also view the reports from that scan or previous scans at a later time. You can view reports on the local computer on which the scan was run, import scan results from another computer, or export scan results to view the reports on another computer on which Best Practices Analyzer is installed.</span></span>
 
-<span data-ttu-id="66918-109">검색 결과는 다음과 같은 보고서 유형으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="66918-109">Scan results are presented in the following types of reports:</span></span>
+<span data-ttu-id="933b8-109">검색 결과는 다음과 같은 보고서 유형으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-109">Scan results are presented in the following types of reports:</span></span>
 
-  - <span data-ttu-id="66918-110">목록 보고서</span><span class="sxs-lookup"><span data-stu-id="66918-110">List reports</span></span>
+  - <span data-ttu-id="933b8-110">목록 보고서</span><span class="sxs-lookup"><span data-stu-id="933b8-110">List reports</span></span>
 
-  - <span data-ttu-id="66918-111">트리 보고서</span><span class="sxs-lookup"><span data-stu-id="66918-111">Tree reports</span></span>
+  - <span data-ttu-id="933b8-111">트리 보고서</span><span class="sxs-lookup"><span data-stu-id="933b8-111">Tree reports</span></span>
 
-  - <span data-ttu-id="66918-112">기타 보고서</span><span class="sxs-lookup"><span data-stu-id="66918-112">Other reports</span></span>
+  - <span data-ttu-id="933b8-112">기타 보고서</span><span class="sxs-lookup"><span data-stu-id="933b8-112">Other reports</span></span>
 
-<span data-ttu-id="66918-113">이러한 보고서에는 오류, 경고 및 기타 정보가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="66918-113">These reports include errors, warnings, and other information.</span></span> <span data-ttu-id="66918-114">이러한 각 유형의 보고서와 문제에 대 한 자세한 내용은 [Lync Server 2013에서 모범 사례 분석기에서 만든 보고서 이해](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)(영문)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="66918-114">For details about each of these types of reports and issues, see [Understanding reports created by Best Practices Analyzer in Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).</span></span>
+<span data-ttu-id="933b8-113">이러한 보고서에는 오류, 경고 및 기타 정보가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-113">These reports include errors, warnings, and other information.</span></span> <span data-ttu-id="933b8-114">이러한 각 유형의 보고서와 문제에 대 한 자세한 내용은 [Lync Server 2013에서 모범 사례 분석기에서 만든 보고서 이해](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)(영문)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="933b8-114">For details about each of these types of reports and issues, see [Understanding reports created by Best Practices Analyzer in Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).</span></span>
 
-<span data-ttu-id="66918-115">다음 절차에 따라 이전에 모범 사례 분석기로 생성된 검색 결과를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="66918-115">Use the following procedure to view scan results previously generated by Best Practices Analyzer.</span></span>
+<span data-ttu-id="933b8-115">다음 절차에 따라 이전에 모범 사례 분석기로 생성된 검색 결과를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-115">Use the following procedure to view scan results previously generated by Best Practices Analyzer.</span></span>
 
 <div>
 
-## <a name="to-view-reports-from-a-previous-scan"></a><span data-ttu-id="66918-116">이전 검색의 보고서를 보려면</span><span class="sxs-lookup"><span data-stu-id="66918-116">To view reports from a previous scan</span></span>
+## <a name="to-view-reports-from-a-previous-scan"></a><span data-ttu-id="933b8-116">이전 검색의 보고서를 보려면</span><span class="sxs-lookup"><span data-stu-id="933b8-116">To view reports from a previous scan</span></span>
 
-1.  <span data-ttu-id="66918-117">로컬 User 계정의 구성원인 계정을 사용하여 모범 사례 분석기가 설치된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="66918-117">Log on to a computer on which Best Practices Analyzer is installed using an account that is a member of the local User account.</span></span>
+1.  <span data-ttu-id="933b8-117">로컬 User 계정의 구성원인 계정을 사용하여 모범 사례 분석기가 설치된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-117">Log on to a computer on which Best Practices Analyzer is installed using an account that is a member of the local User account.</span></span>
     
     > [!NOTE]  
-    > <span data-ttu-id="66918-118">로컬 Administrators 그룹의 구성원인 계정을 사용하여 검색 결과를 볼 수도 있지만 적합한 사용자 권한이 없으면 검색을 실행할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="66918-118">You can view the results of a scan using an account that is a member of the local Administrators group, but you cannot run a scan unless you have appropriate user rights and permissions.</span></span> <span data-ttu-id="66918-119">자세한 내용은 <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013의 모범 사례 분석기에 대 한 그룹 구성원 자격 및 사용자 권한 요구 사항</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="66918-119">For details, see <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="933b8-118">로컬 Administrators 그룹의 구성원인 계정을 사용하여 검색 결과를 볼 수도 있지만 적합한 사용자 권한이 없으면 검색을 실행할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-118">You can view the results of a scan using an account that is a member of the local Administrators group, but you cannot run a scan unless you have appropriate user rights and permissions.</span></span> <span data-ttu-id="933b8-119">자세한 내용은 <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013의 모범 사례 분석기에 대 한 그룹 구성원 자격 및 사용자 권한 요구 사항</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="933b8-119">For details, see <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
-2.  <span data-ttu-id="66918-120">**시작**을 클릭 하 고 **모든 프로그램**을 가리킨 다음 **Microsoft Lync Server 2013**, **모범 사례 분석기**를 차례로 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="66918-120">Click **Start**, point to **All Programs**, click **Microsoft Lync Server 2013**, and then click **Best Practices Analyzer**.</span></span>
+2.  <span data-ttu-id="933b8-120">**시작**을 클릭 하 고 **모든 프로그램**을 가리킨 다음 **Microsoft Lync Server 2013**, **모범 사례 분석기**를 차례로 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-120">Click **Start**, point to **All Programs**, click **Microsoft Lync Server 2013**, and then click **Best Practices Analyzer**.</span></span>
 
-3.  <span data-ttu-id="66918-121">**시작** 화면에서 **확인할 검색 결과 선택**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="66918-121">On the **Welcome** screen, click **Select the scan results to view**.</span></span>
+3.  <span data-ttu-id="933b8-121">**시작** 화면에서 **확인할 검색 결과 선택**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-121">On the **Welcome** screen, click **Select the scan results to view**.</span></span>
 
-4.  <span data-ttu-id="66918-122">**확인할 모범 사례 검색 선택** 페이지에서 다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="66918-122">On the **Select a Best Practices Scan to View** page, do one of the following:</span></span>
+4.  <span data-ttu-id="933b8-122">**확인할 모범 사례 검색 선택** 페이지에서 다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-122">On the **Select a Best Practices Scan to View** page, do one of the following:</span></span>
     
-      - <span data-ttu-id="66918-123">로컬로 저장된 검색 결과 목록에서 보고서를 보려면 검색 이름을 클릭한 후 **이 검색 보고서 보기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="66918-123">To view reports from the list of locally stored scan results, click the name of scan, and then click **View a report of this scan**.</span></span>
+      - <span data-ttu-id="933b8-123">로컬로 저장된 검색 결과 목록에서 보고서를 보려면 검색 이름을 클릭한 후 **이 검색 보고서 보기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-123">To view reports from the list of locally stored scan results, click the name of scan, and then click **View a report of this scan**.</span></span>
         
         > [!NOTE]  
-        > <span data-ttu-id="66918-124">모범 사례 분석기는 폴더 &lt;&gt;\\드라이브 드라이브 문서 및 설정\\&lt;사용자&gt;\Application data\microsoft\rtcbpa에서 로컬 파일의 목록을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="66918-124">The Best Practices Analyzer creates the list of local files from the folder &lt;systemDrive&gt;\\Documents and Settings\\&lt;user&gt;\Application Data\Microsoft\RtcBPA.</span></span>
+        > <span data-ttu-id="933b8-124">모범 사례 분석기는 폴더 드라이브 드라이브 &lt; &gt; \\ 문서 및 설정 \\ &lt; 사용자 &gt; \Application data\microsoft\rtcbpa에서 로컬 파일의 목록을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-124">The Best Practices Analyzer creates the list of local files from the folder &lt;systemDrive&gt;\\Documents and Settings\\&lt;user&gt;\Application Data\Microsoft\RtcBPA.</span></span>
     
-      - <span data-ttu-id="66918-125">다른 위치에 저장된 검색 결과에 대한 보고서를 보려면 **검색 가져오기**를 클릭하고 검색 결과가 포함된 파일을 찾은 후 **열기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="66918-125">To view reports for results of a scan that are stored at another location, click **Import scan**, locate the file containing the scan results, and then click **Open**.</span></span>
+      - <span data-ttu-id="933b8-125">다른 위치에 저장된 검색 결과에 대한 보고서를 보려면 **검색 가져오기**를 클릭하고 검색 결과가 포함된 파일을 찾은 후 **열기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-125">To view reports for results of a scan that are stored at another location, click **Import scan**, locate the file containing the scan results, and then click **Open**.</span></span>
         
         > [!NOTE]  
-        > <span data-ttu-id="66918-126">이 컴퓨터의 모범 사례 분석기 버전이 가져온 파일의 데이터를 수집하는 데 사용된 버전과 일치하지 않으면 해당 컴퓨터의 도구가 파일을 가져온 후 다시 분석할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="66918-126">If the version of Best Practices Analyzer on this computer does not match the version that was used to collect the data in the imported file, the tool on your computer might analyze the file again, after it is imported.</span></span>
+        > <span data-ttu-id="933b8-126">이 컴퓨터의 모범 사례 분석기 버전이 가져온 파일의 데이터를 수집하는 데 사용된 버전과 일치하지 않으면 해당 컴퓨터의 도구가 파일을 가져온 후 다시 분석할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-126">If the version of Best Practices Analyzer on this computer does not match the version that was used to collect the data in the imported file, the tool on your computer might analyze the file again, after it is imported.</span></span>
 
-5.  <span data-ttu-id="66918-127">**Best Practices 보고서 보기** 페이지에서 다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="66918-127">On the **View Best Practices Report** page, do one of the following:</span></span>
+5.  <span data-ttu-id="933b8-127">**Best Practices 보고서 보기** 페이지에서 다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-127">On the **View Best Practices Report** page, do one of the following:</span></span>
     
-      - <span data-ttu-id="66918-128">서버 구성 요소로 구성된 목록에서 보고서를 보려면 **목록 보고서**를 클릭한 후 **모든 문제** 탭 또는 **정보 항목** 탭을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="66918-128">To view reports in a list organized by server component, click **List Reports**, and then click either the **All Issues** tab or the **Informational Items** tab.</span></span>
+      - <span data-ttu-id="933b8-128">서버 구성 요소로 구성된 목록에서 보고서를 보려면 **목록 보고서**를 클릭한 후 **모든 문제** 탭 또는 **정보 항목** 탭을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-128">To view reports in a list organized by server component, click **List Reports**, and then click either the **All Issues** tab or the **Informational Items** tab.</span></span>
     
-      - <span data-ttu-id="66918-129">결과 유형별로 구성된 계층적 목록으로 보고서를 보려면 **트리 보고서**를 클릭한 후 **자세히 보기** 탭 또는 **요약 보기** 탭을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="66918-129">To view reports as a hierarchical list organized by types of results, click **Tree Reports**, and then click either the **Detailed View** tab or the **Summary View** tab.</span></span>
+      - <span data-ttu-id="933b8-129">결과 유형별로 구성된 계층적 목록으로 보고서를 보려면 **트리 보고서**를 클릭한 후 **자세히 보기** 탭 또는 **요약 보기** 탭을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-129">To view reports as a hierarchical list organized by types of results, click **Tree Reports**, and then click either the **Detailed View** tab or the **Summary View** tab.</span></span>
     
-      - <span data-ttu-id="66918-130">다른 보고서를 보려면 **기타 보고서**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="66918-130">To view other reports, click **Other Reports**.</span></span>
+      - <span data-ttu-id="933b8-130">다른 보고서를 보려면 **기타 보고서**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="933b8-130">To view other reports, click **Other Reports**.</span></span>
     
     > [!NOTE]  
-    > <span data-ttu-id="66918-131">모범 사례 분석기 보고서 및 이들이 식별 하는 문제에 대 한 자세한 내용은 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Lync server 2013에서 모범 사례 분석기에서 만든 보고서 보기 및 작업</A> 및 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">lync Server 2013의 모범 사례 분석기에서 식별 한 문제 분석 및 해결</A>을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="66918-131">For details about the Best Practices Analyzer reports and the issues that they identify, see <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</A> and <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="933b8-131">모범 사례 분석기 보고서 및 이들이 식별 하는 문제에 대 한 자세한 내용은 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Lync server 2013에서 모범 사례 분석기에서 만든 보고서 보기 및 작업</A> 및 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">lync Server 2013의 모범 사례 분석기에서 식별 한 문제 분석 및 해결</A>을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="933b8-131">For details about the Best Practices Analyzer reports and the issues that they identify, see <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</A> and <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
 </div>
 

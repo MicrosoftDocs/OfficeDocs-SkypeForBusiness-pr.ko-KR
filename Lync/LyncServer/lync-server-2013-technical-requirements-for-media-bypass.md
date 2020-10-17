@@ -12,20 +12,22 @@ ms:contentKeyID: 48184321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e81a90ff0fa7b33bb83e8abbb4ccb6819d6ac11
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2789ecc6f72babf2b0267f70705fd41ecd1a7aaf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194861"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533795"
 ---
+# <a name="technical-requirements-for-media-bypass-in-lync-server-2013"></a><span data-ttu-id="0cc8c-102">Lync Server 2013의 미디어 바이패스에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="0cc8c-102">Technical requirements for media bypass in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-media-bypass-in-lync-server-2013"></a><span data-ttu-id="d9daa-102">Lync Server 2013의 미디어 바이패스에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="d9daa-102">Technical requirements for media bypass in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42194861"
 
 <span> </span>
 
-<span data-ttu-id="d9daa-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="d9daa-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="0cc8c-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="0cc8c-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="d9daa-104">PSTN에 대 한 각 통화에 대해 중재 서버는 중재 서버를 통과 하지 않고 원본에 대 한 온 미디어를 중재 서버 피어로 직접 보낼 수 있는지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9daa-104">For each call to the PSTN, the Mediation Server determines whether media from the Lync endpoint of origin can be sent directly to a Mediation Server peer without traversing the Mediation Server.</span></span> <span data-ttu-id="d9daa-105">피어는 통화가 라우팅될 때 중재 서버 간 트렁크와 연결된 PSTN 게이트웨이, IP-PBX 또는 ITSP(인터넷 전화 통신 서비스 공급업체)의 SBC(세션 경계 컨트롤러)일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d9daa-105">The peer can be a PSTN gateway, IP-PBX, or Session Border Controller (SBC) at an Internet telephony service provider (ITSP) that is associated with the trunk between the Mediation Server where the call is routed.</span></span>
+<span data-ttu-id="0cc8c-104">PSTN에 대 한 각 통화에 대해 중재 서버는 중재 서버를 통과 하지 않고 원본에 대 한 온 미디어를 중재 서버 피어로 직접 보낼 수 있는지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="0cc8c-104">For each call to the PSTN, the Mediation Server determines whether media from the Lync endpoint of origin can be sent directly to a Mediation Server peer without traversing the Mediation Server.</span></span> <span data-ttu-id="0cc8c-105">피어는 통화가 라우팅될 때 중재 서버 간 트렁크와 연결된 PSTN 게이트웨이, IP-PBX 또는 ITSP(인터넷 전화 통신 서비스 공급업체)의 SBC(세션 경계 컨트롤러)일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cc8c-105">The peer can be a PSTN gateway, IP-PBX, or Session Border Controller (SBC) at an Internet telephony service provider (ITSP) that is associated with the trunk between the Mediation Server where the call is routed.</span></span>
 
-<span data-ttu-id="d9daa-106">다음 요구 사항이 충족되는 경우 미디어 바이패스를 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d9daa-106">Media bypass can be employed when the following requirements are met:</span></span>
+<span data-ttu-id="0cc8c-106">다음 요구 사항이 충족되는 경우 미디어 바이패스를 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cc8c-106">Media bypass can be employed when the following requirements are met:</span></span>
 
-  - <span data-ttu-id="d9daa-107">중재 서버 피어는 미디어 바이패스를 위해 필요한 기능을 지원 해야 하며, 가장 중요 한 이유는 여러 분기 응답 ("이전 대화" 라고 함)을 처리할 수 있는 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="d9daa-107">A Mediation Server peer must support the necessary capabilities for media bypass, the most important being the ability to handle multiple forked responses (known as “early dialogs”).</span></span> <span data-ttu-id="d9daa-108">게이트웨이, PBX 또는 SBC에서 수락할 수 있는 최대 초기 대화 상자 수를 구하려면 게이트웨이나 PBX 제조업체에 문의 하거나 ITSP를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9daa-108">Contact the manufacturer of your gateway or PBX, or your ITSP, to obtain the value for the maximum number of early dialogs that the gateway, PBX, or SBC can accept.</span></span>
+  - <span data-ttu-id="0cc8c-107">중재 서버 피어는 미디어 바이패스를 위해 필요한 기능을 지원 해야 하며, 가장 중요 한 이유는 여러 분기 응답 ("이전 대화" 라고 함)을 처리할 수 있는 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="0cc8c-107">A Mediation Server peer must support the necessary capabilities for media bypass, the most important being the ability to handle multiple forked responses (known as “early dialogs”).</span></span> <span data-ttu-id="0cc8c-108">게이트웨이, PBX 또는 SBC에서 수락할 수 있는 최대 초기 대화 상자 수를 구하려면 게이트웨이나 PBX 제조업체에 문의 하거나 ITSP를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="0cc8c-108">Contact the manufacturer of your gateway or PBX, or your ITSP, to obtain the value for the maximum number of early dialogs that the gateway, PBX, or SBC can accept.</span></span>
 
-  - <span data-ttu-id="d9daa-109">중재 서버 피어는 Lync 끝점에서 직접 미디어 트래픽을 수락 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9daa-109">The Mediation Server peer must accept media traffic directly from Lync endpoints.</span></span> <span data-ttu-id="d9daa-110">대부분의 ITSPs에서는 SBC가 중재 서버의 트래픽만 수신할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d9daa-110">Many ITSPs allow their SBC to receive traffic only from the Mediation Server.</span></span> <span data-ttu-id="d9daa-111">ITSP에 문의 하 여 SBC가 Lync 끝점에서 직접 미디어 트래픽을 수락 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9daa-111">Contact your ITSP to determine whether its SBC accepts media traffic directly from Lync endpoints.</span></span>
+  - <span data-ttu-id="0cc8c-109">중재 서버 피어는 Lync 끝점에서 직접 미디어 트래픽을 수락 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0cc8c-109">The Mediation Server peer must accept media traffic directly from Lync endpoints.</span></span> <span data-ttu-id="0cc8c-110">대부분의 ITSPs에서는 SBC가 중재 서버의 트래픽만 수신할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cc8c-110">Many ITSPs allow their SBC to receive traffic only from the Mediation Server.</span></span> <span data-ttu-id="0cc8c-111">ITSP에 문의 하 여 SBC가 Lync 끝점에서 직접 미디어 트래픽을 수락 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="0cc8c-111">Contact your ITSP to determine whether its SBC accepts media traffic directly from Lync endpoints.</span></span>
 
-  - <span data-ttu-id="d9daa-112">Lync 클라이언트와 중재 서버 피어가 연결 되어 있어야 하며, 이러한 피어는 동일한 네트워크 지역에 있거나 대역폭 제한이 없는 WAN 링크를 통해 지역에 연결 되는 네트워크 사이트에 있는 것을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9daa-112">Lync clients and a Mediation Server peer must be well connected, meaning that they are either located in the same network region or at network sites that connect to the region over WAN links that have no bandwidth constraints</span></span>
+  - <span data-ttu-id="0cc8c-112">Lync 클라이언트와 중재 서버 피어가 연결 되어 있어야 하며, 이러한 피어는 동일한 네트워크 지역에 있거나 대역폭 제한이 없는 WAN 링크를 통해 지역에 연결 되는 네트워크 사이트에 있는 것을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="0cc8c-112">Lync clients and a Mediation Server peer must be well connected, meaning that they are either located in the same network region or at network sites that connect to the region over WAN links that have no bandwidth constraints</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d9daa-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="d9daa-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0cc8c-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="0cc8c-113">See Also</span></span>
 
 
-[<span data-ttu-id="d9daa-114">Lync Server 2013의 미디어 바이패스 모드</span><span class="sxs-lookup"><span data-stu-id="d9daa-114">Media bypass modes in Lync Server 2013</span></span>](lync-server-2013-media-bypass-modes.md)  
-[<span data-ttu-id="d9daa-115">Lync Server 2013의 미디어 바이패스 및 통화 허용 제어 서비스</span><span class="sxs-lookup"><span data-stu-id="d9daa-115">Media bypass and call admission control in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-call-admission-control.md)  
+[<span data-ttu-id="0cc8c-114">Lync Server 2013의 미디어 바이패스 모드</span><span class="sxs-lookup"><span data-stu-id="0cc8c-114">Media bypass modes in Lync Server 2013</span></span>](lync-server-2013-media-bypass-modes.md)  
+[<span data-ttu-id="0cc8c-115">Lync Server 2013의 미디어 바이패스 및 통화 허용 제어 서비스</span><span class="sxs-lookup"><span data-stu-id="0cc8c-115">Media bypass and call admission control in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-call-admission-control.md)  
   
 
 </div>
