@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 응용 프로그램 수준 응답 그룹 설정 관리'
+description: 'Lync Server 2013: 응용 프로그램 수준 응답 그룹 설정을 관리 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733776
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af64929beba67b29b4588bae12a5a45c9de64460
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dd362cbe8ce738a16639b89edd79439b564444ee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498345"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555274"
 ---
 # <a name="managing-application-level-response-group-settings-in-lync-server-2013"></a>Lync Server 2013에서 응용 프로그램 수준 응답 그룹 설정 관리
 

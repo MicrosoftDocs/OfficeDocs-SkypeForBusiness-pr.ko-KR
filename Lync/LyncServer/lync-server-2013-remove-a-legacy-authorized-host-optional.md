@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 레거시 권한 있는 호스트 제거 (선택 사항)'
+description: 'Lync Server 2013: 레거시 권한 부여 된 호스트를 제거 합니다 (선택 사항).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183252
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d93129e8f549541386932b849213e9aca67a995a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6c1445e8c96476a1001b9e8be0b493d8c46f6813
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536535"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555764"
 ---
 # <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a>Lync Server 2013에서 권한이 부여 된 기존 호스트 제거 (선택 사항)
 

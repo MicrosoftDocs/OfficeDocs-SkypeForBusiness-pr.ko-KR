@@ -1,5 +1,6 @@
 ---
 title: 그룹 통화 픽업 구성 선행 조건 및 사용자 권한
+description: 그룹 통화 픽업 구성 선행 조건 및 사용자 권한
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b15be02b48c5e3f95a9b05475bea42284ec275
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 74d2a758b7199634e14ee387d2554b30bf2ae8d3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498795"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554454"
 ---
 # <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Lync Server 2013의 통화 픽업 구성 선행 조건 및 사용자 권한 그룹화
 

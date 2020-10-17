@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 원격 통화 제어 및 전화 번호 정규화'
+description: 'Lync Server 2013: 원격 통화 제어 및 전화 번호 정규화'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183696
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 211f0f717f7c40895cdbbad75bd98ae0ff90af89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: edcb50678da7111aba066745bce5e356dd1ac7f3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536555"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555814"
 ---
 # <a name="remote-call-control-and-phone-number-normalization-in-lync-server-2013"></a>Lync Server 2013의 원격 통화 제어 및 전화 번호 정규화
 
@@ -53,7 +54,7 @@ Lync 클라이언트는 ABS (주소록 서비스) 파일 다운로드의 일부�
 
   - Lync Server 2010에 대 한 자세한 내용은 마이그레이션 설명서에서 주소록 [주소록](migrate-address-book.md) 마이그레이션을 참조 하십시오.
 
-  - Communications Server 2007 r 2에 대 한 내용은 마이그레이션 설명서에서 주소록 [주소록](migrate-address-book_1.md) 마이그레이션을 참조 하십시오.
+  - Communications Server 2007 r 2에 대 한 내용은 마이그레이션 설명서에서 주소록 [주소록](migrate-address-book.md) 마이그레이션을 참조 하십시오.
 
 </div>
 

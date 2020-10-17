@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 응답 그룹 큐 관리'
+description: 'Lync Server 2013: 응답 그룹 큐 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183576
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3011ddde4c7f19fd50bbd097212c438ca7c9a5c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a46359df874ee375b8b0b8fdd6ee7ed4f879b31e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507235"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554414"
 ---
 # <a name="managing-response-group-queues-in-lync-server-2013"></a>Lync Server 2013에서 응답 그룹 큐 관리
 

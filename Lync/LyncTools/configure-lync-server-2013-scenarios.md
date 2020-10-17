@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 시나리오 구성
+description: Lync Server 2013 시나리오를 구성 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541420
 ms.date: 12/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d108cc3a2c49c40eb04c9039c83689fb8c5abf4c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c4a5b7bd271191067779ac358807cc54918b16bc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499945"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555464"
 ---
 # <a name="configure-lync-server-2013-scenarios"></a>Lync Server 2013 시나리오 구성
 

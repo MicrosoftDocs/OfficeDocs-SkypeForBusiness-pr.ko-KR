@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 전역 미디어 바이패스 옵션'
+description: 'Lync Server 2013: 전역 미디어 바이패스 옵션'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec067e84c87321374ed1d9beb98c086633f3e28c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e69a776c13171d74666a202108fa4b5c72e224d0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515335"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554554"
 ---
 # <a name="global-media-bypass-options-in-lync-server-2013"></a>Lync Server 2013의 글로벌 미디어 바이패스 옵션
 

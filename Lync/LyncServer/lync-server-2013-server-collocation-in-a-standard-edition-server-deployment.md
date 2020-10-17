@@ -1,5 +1,6 @@
 ---
 title: Standard Edition 서버 배포의 Lync Server 2013 서버 배치
+description: Lync Server 2013 Standard Edition 서버 배포의 서버 위치입니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183314
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e50aa9339d992e73cf4e5b32b1e49fc2a144e67
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: af44761d36c472de1a3da5cd3b3938dc1a130836
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510315"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555114"
 ---
 # <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Lync Server 2013에 대 한 Standard Edition server 배포의 서버 배치
 

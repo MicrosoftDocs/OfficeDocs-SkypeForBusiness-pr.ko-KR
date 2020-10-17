@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 회의 사용자 모델
+description: Lync Server 2013 회의 사용자 모델
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185229
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f16ebf97a23bad014fde7fa9ebfbe005c4b95a8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 699f41303b82f4d8fd2864cbf1b29a1c601b826e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517675"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555984"
 ---
 # <a name="the-conferencing-user-model-in-lync-server-2013"></a>Lync Server 2013의 회의 사용자 모델
 

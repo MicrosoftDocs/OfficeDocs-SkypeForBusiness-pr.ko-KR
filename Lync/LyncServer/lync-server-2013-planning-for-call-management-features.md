@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 통화 관리 기능 계획'
+description: 'Lync Server 2013: 통화 관리 기능을 계획 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7ddf45fbeda6aa16c30ee1ff79536658c8d598f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1ec990aad40baf33365e92e78ee8071216a2add1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497775"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554304"
 ---
 # <a name="planning-for-call-management-features-in-lync-server-2013"></a>Lync Server 2013의 통화 관리 기능 계획
 

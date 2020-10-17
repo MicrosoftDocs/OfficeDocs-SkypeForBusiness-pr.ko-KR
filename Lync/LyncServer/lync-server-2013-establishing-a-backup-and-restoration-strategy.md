@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 백업 및 복원 전략 설정'
+description: 'Lync Server 2013: 백업 및 복원 전략을 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e281b85879063cacb9538d03fe221a4bf96b6bc5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f4fdefed873d1fd69d82f8ecebceeb92f06f65f7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514215"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555044"
 ---
 # <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Lync Server 2013에 대 한 백업 및 복원 전략 설정
 

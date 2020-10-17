@@ -1,5 +1,6 @@
 ---
 title: 사용자 복제가 완료되었는지 확인
+description: 사용자 복제가 완료 되었는지 확인 합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b1ffd7b82b4addb24170644e227b11d50020043
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 60bca44fcce811c29b1633bd4d3a39f832851885
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517995"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555484"
 ---
 # <a name="verify-user-replication-has-completed"></a>사용자 복제가 완료되었는지 확인
 

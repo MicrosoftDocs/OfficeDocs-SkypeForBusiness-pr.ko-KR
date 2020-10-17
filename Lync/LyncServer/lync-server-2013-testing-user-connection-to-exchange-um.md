@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Exchange UM에 대 한 사용자 연결을 테스트 합니다.'
+description: 'Lync Server 2013: Exchange UM에 대 한 사용자 연결을 테스트 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87b6fd59ed0efb3a775017af1effd7bd022071fc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ea6f7d446fe3fd98db67bab4ffee9cc976202689
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503875"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556070"
 ---
 # <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>Lync Server 2013에서 Exchange UM에 대 한 사용자 연결 테스트
 

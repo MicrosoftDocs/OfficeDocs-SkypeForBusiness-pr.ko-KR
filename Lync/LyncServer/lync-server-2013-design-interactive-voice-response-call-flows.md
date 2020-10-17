@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 대화형 음성 응답 통화 흐름 디자인'
+description: 'Lync Server 2013: 대화형 음성 응답 통화 흐름을 디자인 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 649d085253610002e7623872012a400ac0a1f079
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ccf80c1e3226052d952697a4d9fb967f3b681c95
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498945"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555314"
 ---
 # <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>Lync Server 2013의 대화형 음성 응답 통화 흐름 디자인
 
