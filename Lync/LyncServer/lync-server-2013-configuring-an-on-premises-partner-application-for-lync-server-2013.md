@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013에 대해 온-프레미스 파트너 응용 프로그램 구성
+description: Lync Server 2013에 대 한 온-프레미스 파트너 응용 프로그램 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34b6cd21d781f26ca734effd0c574c016aec3266
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f0401634c6cb7afc451652ffbaf55cdc01a7ca89
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517585"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570924"
 ---
-# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a><span data-ttu-id="a1b9d-102">Microsoft Lync Server 2013에 대 한 온-프레미스 파트너 응용 프로그램 구성</span><span class="sxs-lookup"><span data-stu-id="a1b9d-102">Configuring an on-premises partner application for Microsoft Lync Server 2013</span></span>
+# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a><span data-ttu-id="28dee-103">Microsoft Lync Server 2013에 대 한 온-프레미스 파트너 응용 프로그램 구성</span><span class="sxs-lookup"><span data-stu-id="28dee-103">Configuring an on-premises partner application for Microsoft Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48517585"
 
 <span> </span>
 
-<span data-ttu-id="a1b9d-103">_**마지막으로 수정 된 항목:** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="a1b9d-103">_**Topic Last Modified:** 2013-02-04_</span></span>
+<span data-ttu-id="28dee-104">_**마지막으로 수정 된 항목:** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="28dee-104">_**Topic Last Modified:** 2013-02-04_</span></span>
 
-<span data-ttu-id="a1b9d-104">OAuthTokenIssuer 인증서를 할당 한 후에는 Microsoft Lync Server 2013 파트너 응용 프로그램을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-104">After you have assigned the OAuthTokenIssuer certificate you must then configure your Microsoft Lync Server 2013 partner applications.</span></span> <span data-ttu-id="a1b9d-105">(설명 하기 위한 절차에는 Microsoft Exchange Server 2013와 Microsoft SharePoint가 파트너 응용 프로그램으로 작동 하도록 구성 됩니다.) 온-프레미스 파트너 응용 프로그램을 구성 하려면 다음 Windows PowerShell 스크립트를 복사 하 여 메모장 (또는 다른 텍스트 편집기)에 코드를 붙여 넣어 시작 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-105">(The procedure about to be discussed configures both Microsoft Exchange Server 2013 and Microsoft SharePoint to act as partner applications.) To configure an on-premises partner application, you must start by copying the following Windows PowerShell script and pasting the code into Notepad (or any other text editor):</span></span>
+<span data-ttu-id="28dee-105">OAuthTokenIssuer 인증서를 할당 한 후에는 Microsoft Lync Server 2013 파트너 응용 프로그램을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-105">After you have assigned the OAuthTokenIssuer certificate you must then configure your Microsoft Lync Server 2013 partner applications.</span></span> <span data-ttu-id="28dee-106">(설명 하기 위한 절차에는 Microsoft Exchange Server 2013와 Microsoft SharePoint가 파트너 응용 프로그램으로 작동 하도록 구성 됩니다.) 온-프레미스 파트너 응용 프로그램을 구성 하려면 다음 Windows PowerShell 스크립트를 복사 하 여 메모장 (또는 다른 텍스트 편집기)에 코드를 붙여 넣어 시작 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-106">(The procedure about to be discussed configures both Microsoft Exchange Server 2013 and Microsoft SharePoint to act as partner applications.) To configure an on-premises partner application, you must start by copying the following Windows PowerShell script and pasting the code into Notepad (or any other text editor):</span></span>
 
     if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
        {
@@ -87,31 +88,31 @@ ms.locfileid: "48517585"
     
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-<span data-ttu-id="a1b9d-106">코드를 복사한 후에는을 사용 하 여 스크립트를 저장 합니다. PS1 파일 확장명 (예를 들어 C: \\ Scripts \\ServerToServerAuth.ps1)입니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-106">After copying the code, save the script using a .PS1 file extension (for example, C:\\Scripts\\ServerToServerAuth.ps1).</span></span> <span data-ttu-id="a1b9d-107">이 스크립트를 실행 하기 전에 메타 데이터 Url https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 과 http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx Exchange 2013 및 SharePoint 서버에서 사용 하는 메타 데이터 url을 각각 대체 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-107">Note that, before you run this script, you must replace the metadata URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 and http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx with the metadata URLs used by your Exchange 2013 and SharePoint servers, respectively.</span></span> <span data-ttu-id="a1b9d-108">각 제품의 메타 데이터 URL을 식별 하는 방법에 대 한 자세한 내용은 Exchange 2013 및 SharePoint의 제품 설명서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-108">See the product documentation for Exchange 2013 and SharePoint for information on how you can identify the respective product's metadata URL.</span></span>
+<span data-ttu-id="28dee-107">코드를 복사한 후에는을 사용 하 여 스크립트를 저장 합니다. PS1 파일 확장명 (예를 들어 C: \\ Scripts \\ServerToServerAuth.ps1)입니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-107">After copying the code, save the script using a .PS1 file extension (for example, C:\\Scripts\\ServerToServerAuth.ps1).</span></span> <span data-ttu-id="28dee-108">이 스크립트를 실행 하기 전에 메타 데이터 Url https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 과 http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx Exchange 2013 및 SharePoint 서버에서 사용 하는 메타 데이터 url을 각각 대체 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-108">Note that, before you run this script, you must replace the metadata URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 and http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx with the metadata URLs used by your Exchange 2013 and SharePoint servers, respectively.</span></span> <span data-ttu-id="28dee-109">각 제품의 메타 데이터 URL을 식별 하는 방법에 대 한 자세한 내용은 Exchange 2013 및 SharePoint의 제품 설명서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="28dee-109">See the product documentation for Exchange 2013 and SharePoint for information on how you can identify the respective product's metadata URL.</span></span>
 
-<span data-ttu-id="a1b9d-109">스크립트의 마지막 줄을 살펴보면 다음 구문을 사용 하 여 Set-CsOAuthConfiguration cmdlet을 호출 하는 것을 알 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-109">If you look at the last line of the script you will notice that the Set-CsOAuthConfiguration cmdlet is called using this syntax:</span></span>
+<span data-ttu-id="28dee-110">스크립트의 마지막 줄을 살펴보면 다음 구문을 사용 하 여 Set-CsOAuthConfiguration cmdlet을 호출 하는 것을 알 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-110">If you look at the last line of the script you will notice that the Set-CsOAuthConfiguration cmdlet is called using this syntax:</span></span>
 
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-<span data-ttu-id="a1b9d-110">Set-CsOAuthConfiguration를 호출할 때 Realm 매개 변수를 사용 하지 않았으므로 영역이 자동으로 조직의 FQDN (정규화 된 도메인 이름) (예: litwareinc.com)으로 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-110">Because the Realm parameter was not used when calling Set-CsOAuthConfiguration the realm will automatically be set to the fully qualified domain name (FQDN) of your organization (for example, litwareinc.com).</span></span> <span data-ttu-id="a1b9d-111">영역 이름이 조직 이름과 다른 경우 다음과 같이 영역 이름을 포함 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-111">If your realm name is different from your organization name then you should include the realm name, like this:</span></span>
+<span data-ttu-id="28dee-111">Set-CsOAuthConfiguration를 호출할 때 Realm 매개 변수를 사용 하지 않았으므로 영역이 자동으로 조직의 FQDN (정규화 된 도메인 이름) (예: litwareinc.com)으로 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-111">Because the Realm parameter was not used when calling Set-CsOAuthConfiguration the realm will automatically be set to the fully qualified domain name (FQDN) of your organization (for example, litwareinc.com).</span></span> <span data-ttu-id="28dee-112">영역 이름이 조직 이름과 다른 경우 다음과 같이 영역 이름을 포함 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-112">If your realm name is different from your organization name then you should include the realm name, like this:</span></span>
 
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 
-<span data-ttu-id="a1b9d-112">이러한 변경을 수행한 후 스크립트를 실행 하 고 Lync Server 2013 관리 셸에서 스크립트 파일을 실행 하 여 Exchange 2013와 SharePoint를 모두 파트너 응용 프로그램으로 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-112">After making these changes you can then execute the script, and configure both Exchange 2013 and SharePoint as partner applications, by running the script file from within the Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="a1b9d-113">예제:</span><span class="sxs-lookup"><span data-stu-id="a1b9d-113">For example:</span></span>
+<span data-ttu-id="28dee-113">이러한 변경을 수행한 후 스크립트를 실행 하 고 Lync Server 2013 관리 셸에서 스크립트 파일을 실행 하 여 Exchange 2013와 SharePoint를 모두 파트너 응용 프로그램으로 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-113">After making these changes you can then execute the script, and configure both Exchange 2013 and SharePoint as partner applications, by running the script file from within the Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="28dee-114">예제:</span><span class="sxs-lookup"><span data-stu-id="28dee-114">For example:</span></span>
 
     C:\Scripts\ServerToServerAuth.ps1
 
-<span data-ttu-id="a1b9d-114">Exchange 2013 및 SharePoint Server를 모두 설치 하지 않은 경우에도이 스크립트를 실행할 수 있습니다. SharePoint Server가 설치 되어 있지 않더라도 SharePoint Server를 파트너 응용 프로그램으로 구성 하는 경우에는 문제가 발생 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-114">Note that you can run this script even if you do not have both Exchange 2013 and SharePoint Server installed:, no problems will occur if you, say, configure SharePoint Server as a partner application even though you do not have SharePoint Server installed.</span></span>
+<span data-ttu-id="28dee-115">Exchange 2013 및 SharePoint Server를 모두 설치 하지 않은 경우에도이 스크립트를 실행할 수 있습니다. SharePoint Server가 설치 되어 있지 않더라도 SharePoint Server를 파트너 응용 프로그램으로 구성 하는 경우에는 문제가 발생 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-115">Note that you can run this script even if you do not have both Exchange 2013 and SharePoint Server installed:, no problems will occur if you, say, configure SharePoint Server as a partner application even though you do not have SharePoint Server installed.</span></span>
 
-<span data-ttu-id="a1b9d-115">이 스크립트를 실행 하면 다음과 같은 오류 메시지가 표시 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-115">When you run this script you might receive an error message similar to the following:</span></span>
+<span data-ttu-id="28dee-116">이 스크립트를 실행 하면 다음과 같은 오류 메시지가 표시 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-116">When you run this script you might receive an error message similar to the following:</span></span>
 
     New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Exception setting "MetadataUrl": "The metadata document could not be downloaded from the URL in the MetadataUrl parameter or downloaded data is not a valid metadata document."
 
-<span data-ttu-id="a1b9d-116">이 오류 메시지는 일반적으로 다음 두 가지 중 하나를 의미 합니다. 1) 스크립트에 지정 된 Url 중 하나가 유효 하지 않은 경우 (즉, 메타 데이터 Url 중 하나가 실제 메타 데이터 URL이 아님) 또는, 2) 메타 데이터 Url 중 하나에 연결할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-116">This error message typically means one of two things: 1) that one of the URLs specified in the script is not valid (that is, one of your metadata URLs is not an actual metadata URL); or, 2) one of the metadata URLs could not be contacted.</span></span> <span data-ttu-id="a1b9d-117">이 경우 Url이 올바르고 액세스 가능 하며 스크립트를 다시 실행 하십시오.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-117">If this happens, verify that the URLs are correct and are accessible, and the re-run the script.</span></span>
+<span data-ttu-id="28dee-117">이 오류 메시지는 일반적으로 다음 두 가지 중 하나를 의미 합니다. 1) 스크립트에 지정 된 Url 중 하나가 유효 하지 않은 경우 (즉, 메타 데이터 Url 중 하나가 실제 메타 데이터 URL이 아님) 또는, 2) 메타 데이터 Url 중 하나에 연결할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-117">This error message typically means one of two things: 1) that one of the URLs specified in the script is not valid (that is, one of your metadata URLs is not an actual metadata URL); or, 2) one of the metadata URLs could not be contacted.</span></span> <span data-ttu-id="28dee-118">이 경우 Url이 올바르고 액세스 가능 하며 스크립트를 다시 실행 하십시오.</span><span class="sxs-lookup"><span data-stu-id="28dee-118">If this happens, verify that the URLs are correct and are accessible, and the re-run the script.</span></span>
 
-<span data-ttu-id="a1b9d-118">Lync Server 2013에 대 한 파트너 응용 프로그램을 만든 후에는 Lync Server를 Exchange 2013에 대 한 파트너 응용 프로그램으로 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-118">After creating the partner application for Lync Server 2013 you must then configure Lync Server to be a partner application for Exchange 2013.</span></span> <span data-ttu-id="a1b9d-119">스크립트 Configure-EnterprisePartnerApplication.ps1를 실행 하 여 Exchange 2013에 대 한 파트너 응용 프로그램을 구성할 수 있습니다. Lync Server에 대 한 메타 데이터 URL을 지정 하 고 Lync Server가 새 파트너 응용 프로그램 임을 표시 하기만 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-119">You can configure partner applications for Exchange 2013 by running the script Configure-EnterprisePartnerApplication.ps1; all you need to do is specify the metadata URL for Lync Server and indicate that Lync Server is the new partner application.</span></span>
+<span data-ttu-id="28dee-119">Lync Server 2013에 대 한 파트너 응용 프로그램을 만든 후에는 Lync Server를 Exchange 2013에 대 한 파트너 응용 프로그램으로 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-119">After creating the partner application for Lync Server 2013 you must then configure Lync Server to be a partner application for Exchange 2013.</span></span> <span data-ttu-id="28dee-120">스크립트 Configure-EnterprisePartnerApplication.ps1를 실행 하 여 Exchange 2013에 대 한 파트너 응용 프로그램을 구성할 수 있습니다. Lync Server에 대 한 메타 데이터 URL을 지정 하 고 Lync Server가 새 파트너 응용 프로그램 임을 표시 하기만 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-120">You can configure partner applications for Exchange 2013 by running the script Configure-EnterprisePartnerApplication.ps1; all you need to do is specify the metadata URL for Lync Server and indicate that Lync Server is the new partner application.</span></span>
 
-<span data-ttu-id="a1b9d-120">Lync Server를 Exchange 용 파트너 응용 프로그램으로 구성 하려면 Exchange 관리 셸을 열고 다음과 같은 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="a1b9d-120">To configure Lync Server as a partner application for Exchange, open the Exchange Management Shell and run a command similar to this</span></span>
+<span data-ttu-id="28dee-121">Lync Server를 Exchange 용 파트너 응용 프로그램으로 구성 하려면 Exchange 관리 셸을 열고 다음과 같은 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="28dee-121">To configure Lync Server as a partner application for Exchange, open the Exchange Management Shell and run a command similar to this</span></span>
 
     "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://lync.contoso.com/metadata/json/1" -ApplicationType "Lync"
 

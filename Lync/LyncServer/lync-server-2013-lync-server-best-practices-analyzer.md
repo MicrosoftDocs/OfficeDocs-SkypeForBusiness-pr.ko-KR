@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server 모범 사례 분석기'
+description: 'Lync Server 2013: Lync Server 모범 사례 분석기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a491267c90a34bde8553a16ef3810a5dc73561da
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 22c162dc73ce92ada18ee98d6956b7ed3e5c07a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525075"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571894"
 ---
-# <a name="lync-server-2013-best-practices-analyzer"></a><span data-ttu-id="df6f4-102">Lync Server 2013 모범 사례 분석기</span><span class="sxs-lookup"><span data-stu-id="df6f4-102">Lync Server 2013 Best Practices Analyzer</span></span>
+# <a name="lync-server-2013-best-practices-analyzer"></a><span data-ttu-id="748f1-103">Lync Server 2013 모범 사례 분석기</span><span class="sxs-lookup"><span data-stu-id="748f1-103">Lync Server 2013 Best Practices Analyzer</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48525075"
 
 <span> </span>
 
-<span data-ttu-id="df6f4-103">_**마지막으로 수정 된 항목:** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="df6f4-103">_**Topic Last Modified:** 2012-06-13_</span></span>
+<span data-ttu-id="748f1-104">_**마지막으로 수정 된 항목:** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="748f1-104">_**Topic Last Modified:** 2012-06-13_</span></span>
 
-<span data-ttu-id="df6f4-104">Lync Server 2013, 모범 사례 분석기는 Lync Server 2013 환경에서 구성 정보를 수집 하 고 구성이 Microsoft 모범 사례에 따라 설정 되는지 여부를 확인 하는 진단 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="df6f4-104">Lync Server 2013, Best Practices Analyzer is a diagnostic tool that gathers configuration information from Lync Server 2013 environments and determines whether the configuration is set according to Microsoft best practices.</span></span>
+<span data-ttu-id="748f1-105">Lync Server 2013, 모범 사례 분석기는 Lync Server 2013 환경에서 구성 정보를 수집 하 고 구성이 Microsoft 모범 사례에 따라 설정 되는지 여부를 확인 하는 진단 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="748f1-105">Lync Server 2013, Best Practices Analyzer is a diagnostic tool that gathers configuration information from Lync Server 2013 environments and determines whether the configuration is set according to Microsoft best practices.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="df6f4-105">Lync Server 2013, 모범 사례 분석기는 Lync Server 2013 구성 요소 에서만 문제를 검사 하 고 보고 합니다.</span><span class="sxs-lookup"><span data-stu-id="df6f4-105">Lync Server 2013, Best Practices Analyzer scans and reports issues only with Lync Server 2013 components.</span></span> <span data-ttu-id="df6f4-106">배포에 Lync Server 2010 또는 Office Communications Server 2007 R2 구성 요소가 포함 되어 있으면 이전 버전의 모범 사례 분석기를 사용 하 여 해당 구성 요소를 분석 합니다.</span><span class="sxs-lookup"><span data-stu-id="df6f4-106">If your deployment includes Lync Server 2010 or Office Communications Server 2007 R2 components, use the previous version of Best Practices Analyzer to analyze those components.</span></span> <span data-ttu-id="df6f4-107">자세한 내용은 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Lync Server 2013에서 모범 사례 분석기를 실행 하기 위한 요구 사항을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="df6f4-107">For details, see <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="748f1-106">Lync Server 2013, 모범 사례 분석기는 Lync Server 2013 구성 요소 에서만 문제를 검사 하 고 보고 합니다.</span><span class="sxs-lookup"><span data-stu-id="748f1-106">Lync Server 2013, Best Practices Analyzer scans and reports issues only with Lync Server 2013 components.</span></span> <span data-ttu-id="748f1-107">배포에 Lync Server 2010 또는 Office Communications Server 2007 R2 구성 요소가 포함 되어 있으면 이전 버전의 모범 사례 분석기를 사용 하 여 해당 구성 요소를 분석 합니다.</span><span class="sxs-lookup"><span data-stu-id="748f1-107">If your deployment includes Lync Server 2010 or Office Communications Server 2007 R2 components, use the previous version of Best Practices Analyzer to analyze those components.</span></span> <span data-ttu-id="748f1-108">자세한 내용은 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Lync Server 2013에서 모범 사례 분석기를 실행 하기 위한 요구 사항을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="748f1-108">For details, see <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
 
 
@@ -53,15 +54,15 @@ ms.locfileid: "48525075"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="df6f4-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="df6f4-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="748f1-109">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="748f1-109">In This Section</span></span>
 
-  - [<span data-ttu-id="df6f4-109">Lync Server 2013의 모범 사례 분석기 개요</span><span class="sxs-lookup"><span data-stu-id="df6f4-109">Overview of Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-overview-of-best-practices-analyzer.md)
+  - [<span data-ttu-id="748f1-110">Lync Server 2013의 모범 사례 분석기 개요</span><span class="sxs-lookup"><span data-stu-id="748f1-110">Overview of Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-overview-of-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="df6f4-110">Lync Server 2013에서 모범 사례 분석기 준비 및 설치</span><span class="sxs-lookup"><span data-stu-id="df6f4-110">Preparing for and installing Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
+  - [<span data-ttu-id="748f1-111">Lync Server 2013에서 모범 사례 분석기 준비 및 설치</span><span class="sxs-lookup"><span data-stu-id="748f1-111">Preparing for and installing Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="df6f4-111">모범 사례 분석기를 사용 하 여 Lync Server 2013 배포에서 발생할 수 있는 문제 식별</span><span class="sxs-lookup"><span data-stu-id="df6f4-111">Using Best Practices Analyzer to identify potential issues in your Lync Server 2013 deployment</span></span>](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
+  - [<span data-ttu-id="748f1-112">모범 사례 분석기를 사용 하 여 Lync Server 2013 배포에서 발생할 수 있는 문제 식별</span><span class="sxs-lookup"><span data-stu-id="748f1-112">Using Best Practices Analyzer to identify potential issues in your Lync Server 2013 deployment</span></span>](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
 
-  - [<span data-ttu-id="df6f4-112">검사 결과를 사용 하 여 Lync Server 2013의 모범 사례 분석기에서 보고 하는 문제 분석 및 해결</span><span class="sxs-lookup"><span data-stu-id="df6f4-112">Using scan results to analyze and resolve issues reported by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
+  - [<span data-ttu-id="748f1-113">검사 결과를 사용 하 여 Lync Server 2013의 모범 사례 분석기에서 보고 하는 문제 분석 및 해결</span><span class="sxs-lookup"><span data-stu-id="748f1-113">Using scan results to analyze and resolve issues reported by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
 
 </div>
 
