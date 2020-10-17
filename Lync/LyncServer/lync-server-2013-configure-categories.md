@@ -12,20 +12,22 @@ ms:contentKeyID: 48184033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb70397514589ac6f3cc74d84a6ae7509c9baa5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2ad435320a80b2cd2272fbe69afa59a79d39ccbd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205114"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521125"
 ---
+# <a name="configure-categories-in-lync-server-2013"></a>Lync Server 2013에서 범주 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-categories-in-lync-server-2013"></a>Lync Server 2013에서 범주 구성
+
 
 </div>
 
@@ -80,7 +82,7 @@ Lync Server 2013 제어판에서는 **영구 채팅** 페이지의 **범주** �
         
 
         > [!IMPORTANT]  
-        > 이 설정은 Office Communications Server 2007 R2&nbsp;그룹 채팅 서버 또는 Lync server 2010을 사용 하는 사용자 지정 응용 프로그램 또는 이전 그룹 채팅 클라이언트에서 파일을 대화방에 게시할 수 있기 때문에 서버에 적용 됩니다. Lync 2013 클라이언트에는 파일 업로드/다운로드 기능이 없으므로 순수한 Lync 2013 배포 또는 Lync 2013 클라이언트가 있으면 영구 채팅 서버 채팅방에 파일을 게시할 수 없습니다.
+        > 이 설정은 Office Communications Server 2007 R2 그룹 채팅 서버 또는 Lync Server 2010을 사용 하는 사용자 지정 응용 프로그램 또는 이전 그룹 채팅 클라이언트 &nbsp; 에서 파일을 대화방에 게시할 수 있기 때문에 서버에 적용 됩니다. Lync 2013 클라이언트에는 파일 업로드/다운로드 기능이 없으므로 순수한 Lync 2013 배포 또는 Lync 2013 클라이언트가 있으면 영구 채팅 서버 채팅방에 파일을 게시할 수 없습니다.
 
         
         </div>

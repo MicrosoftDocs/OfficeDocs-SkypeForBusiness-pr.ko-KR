@@ -12,20 +12,22 @@ ms:contentKeyID: 48184190
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ce92834cb866b0785523f4498663d7214e44c6a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37208a366ae1cac70733113d6b15605886f34e97
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184151"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521965"
 ---
+# <a name="planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버 계획
+
 
 </div>
 

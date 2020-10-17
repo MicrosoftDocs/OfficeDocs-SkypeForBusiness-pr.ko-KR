@@ -12,20 +12,22 @@ ms:contentKeyID: 48185884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d1f47cbd38604e90354dc6f3590894071cc4c3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e232d6ffee5e49d52eef68c9668d7d8b6325f13d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215754"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520805"
 ---
+# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a>Lync Server 2013의 피어 투 피어 활동 요약 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a>Lync Server 2013의 피어 투 피어 활동 요약 보고서
+
 
 </div>
 
@@ -100,7 +102,7 @@ _**마지막으로 수정 된 항목:** 2012-10-21_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>From</strong></p></td>
+<td><p><strong>시작</strong></p></td>
 <td><p>시간 범위의 시작 날짜 및 시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜와 시간을 모두 입력합니다.</p>
 <p>2012/7/17 오후 1:00</p>
 <p>시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
@@ -138,7 +140,7 @@ _**마지막으로 수정 된 항목:** 2012-10-21_
 
 <div>
 
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에서는 피어 투 피어 활동 요약 보고서에서 제공 되는 정보를 보여 줍니다.
 

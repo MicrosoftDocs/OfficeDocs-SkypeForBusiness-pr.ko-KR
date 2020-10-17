@@ -12,20 +12,22 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b99bc06f22490013dd14dc8527bd3eb88938380
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72d3f60747f9b3456a6999358b0cf318b5e6d91d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205144"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521165"
 ---
+# <a name="configure-call-park-settings-in-lync-server-2013"></a>Lync Server 2013의 통화 대기 설정 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-call-park-settings-in-lync-server-2013"></a>Lync Server 2013의 통화 대기 설정 구성
+
 
 </div>
 
@@ -95,7 +97,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
 
 2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  를 실행합니다.
+3.  을 실행합니다.
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     

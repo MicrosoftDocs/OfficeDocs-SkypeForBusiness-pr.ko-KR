@@ -12,20 +12,22 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417b304825da6a611ccfdaf3521b2d9571cd4756
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9663f7ee8b57ceba27e1a1892c30bb92a1c86ffc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216284"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521005"
 ---
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Lync Server 2013의 IP 주소 유형 개요
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Lync Server 2013의 IP 주소 유형 개요
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**마지막으로 수정 된 항목:** 2013-01-29_
 
 Lync Server 2013에서 IP 주소를 구성할 때는 다음과 같은 세 가지 옵션을 사용할 수 있습니다. IP 버전 4 (IPv4), IP 버전 6 (IPv6) 또는 둘 다를 지원 하도록 Lync Server 2013을 구성할 수 있습니다 ( *이중 스택*이라고 함). 구성 유형마다 고려해야 할 몇 가지 사항이 있습니다.
 
-  - **Ipv4**   는 세계에서 ipv4 주소를 벗어나 실행 중 이므로 IPv6이 (가) 만들어졌습니다. 궁극적으로 IPv6은 전 세계적으로 완벽 하 게 지원 되지만, 이때 엔터프라이즈가 통신 해야 하는 많은 회사 및 장치는 아직 i p v 6을 지원 하지 않을 수도 있습니다. IPv4 전용 구성은 Lync Server 구현이 대부분의 기존 장치와 통신할 수 있도록 하는 데 도움이 됩니다.
+  - **IPv4 전용**     세계에서 IPv4 주소가 부족 하 여 IPv6이 생성 되었습니다. 궁극적으로 IPv6은 전 세계적으로 완벽 하 게 지원 되지만, 이때 엔터프라이즈가 통신 해야 하는 많은 회사 및 장치는 아직 i p v 6을 지원 하지 않을 수도 있습니다. IPv4 전용 구성은 Lync Server 구현이 대부분의 기존 장치와 통신할 수 있도록 하는 데 도움이 됩니다.
 
-  - **Ipv6에만**   해당 되는 경우에는 전체 IPv6 구현에서 대부분의 기존 장치와의 통신을 제외 합니다.
+  - **IPv6만**     해당 반대로 현재 전체 IPv6 구현에서는 여러 기존 장치와의 통신을 제외 합니다.
 
-  - **이중 스택**   이중 스택은 IPv4 및 IPv6 주소를 모두 사용 하도록 설정 된 네트워크입니다. 이 구성은 대부분의 경우 전체-IPv4에서 full-IPv6로 전환 하는 데는 몇 년이 소요 되기 때문에 Lync Server 2013에서 지원 됩니다.
+  - **이중 스택**     이중 스택은 IPv4 및 IPv6 주소를 모두 사용 하도록 설정 된 네트워크입니다. 이 구성은 대부분의 경우 전체-IPv4에서 full-IPv6로 전환 하는 데는 몇 년이 소요 되기 때문에 Lync Server 2013에서 지원 됩니다.
 
 다음 섹션에서는 다양 한 Lync Server 기능에 대 한 이러한 세 가지 구성 간의 호환성에 대해 간략하게 설명 합니다.
 
@@ -155,7 +157,7 @@ Lync Server 2013에서 IP 주소를 구성할 때는 다음과 같은 세 가지
 
 <div>
 
-## <a name="conferencing"></a>전화
+## <a name="conferencing"></a>회의
 
 회의에는 오디오/비디오, 응용 프로그램 공유 및 데이터 공동 작업(화이트보드 및 파일 공유)이 포함됩니다.
 
@@ -246,7 +248,7 @@ Lync Server 2013에서는 트래픽이 IPv6 인터페이스를 통해 수행 되
 </table>
 
 
-\*기본 인터페이스는 Lync Server 구성 요소와 통신 하는 인터페이스입니다.
+\* 기본 인터페이스는 Lync Server 구성 요소와 통신 하는 인터페이스입니다.
 
 </div>
 
@@ -339,7 +341,7 @@ Lync Server 2013에서는 트래픽이 IPv6 인터페이스를 통해 수행 되
 </table>
 
 
-\*이 조합은 랩 환경 에서만 사용 해야 합니다.
+\* 이 조합은 랩 환경 에서만 사용 해야 합니다.
 
 다음 표는 지원되는 내부 및 외부 에지 인터페이스 조합 매트릭스입니다.
 
@@ -381,7 +383,7 @@ Lync Server 2013에서는 트래픽이 IPv6 인터페이스를 통해 수행 되
 </table>
 
 
-\*이 조합은 랩 환경 에서만 사용 해야 합니다.
+\* 이 조합은 랩 환경 에서만 사용 해야 합니다.
 
 </div>
 

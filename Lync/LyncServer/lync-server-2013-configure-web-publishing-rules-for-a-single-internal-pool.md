@@ -12,20 +12,22 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adf6a1d777e16827f41d9a795fde54fca49750e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d159fd8fa4ade4cb2dee44da7fd7bbd2376b2a80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204634"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520105"
 ---
+# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Lync Server 2013의 단일 내부 풀에 대 한 웹 게시 규칙 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Lync Server 2013의 단일 내부 풀에 대 한 웹 게시 규칙 구성
+
 
 </div>
 
@@ -82,7 +84,7 @@ Microsoft Forefront Threat Management Gateway 2010 and Internet Information Serv
     
     </div>
 
-8.  **내부 게시 정보** 페이지의 **경로 (옵션)** 상자에 게시할 폴더의 경로를 ** / ** 입력 합니다.
+8.  **내부 게시 정보** 페이지의 **경로 (옵션)** 상자에 **/\*** 게시할 폴더의 경로를 입력 합니다.
     
     <div>
     
@@ -168,7 +170,7 @@ Microsoft Forefront Threat Management Gateway 2010 and Internet Information Serv
     
     **서버 팜 이름의** **서버 팜 만들기** 대화 상자에서 첫 번째 URL에 대 한 이름 (id를 식별 하기 위한 친근 한 이름)을 입력 합니다. **다음**을 클릭합니다.
 
-6.  서버 **주소**에 **서버 추가** 대화 상자에서 프런트 엔드 서버에 있는 외부 웹 서비스의 FQDN (정규화 된 도메인 이름)을 입력 합니다. 예를 들어 여기에 사용 되는 이름은 [Lync Server 2013의 역방향 프록시, 인증서 요약-역방향 프록시](lync-server-2013-certificate-summary-reverse-proxy.md)계획 섹션에서 사용 되는 것과 같습니다. 역방향 프록시 계획을 참조 하 여 FQDN `webext.contoso.com`을 입력 합니다. **온라인** 옆의 확인란이 선택 되어 있는지 확인 합니다. **추가** 를 클릭 하 여이 구성에 대 한 웹 서버 풀에 서버를 추가 합니다.
+6.  서버 **주소**에 **서버 추가** 대화 상자에서 프런트 엔드 서버에 있는 외부 웹 서비스의 FQDN (정규화 된 도메인 이름)을 입력 합니다. 예를 들어 여기에 사용 되는 이름은 [Lync Server 2013의 역방향 프록시, 인증서 요약-역방향 프록시](lync-server-2013-certificate-summary-reverse-proxy.md)계획 섹션에서 사용 되는 것과 같습니다. 역방향 프록시 계획을 참조 하 여 FQDN을 입력 `webext.contoso.com` 합니다. **온라인** 옆의 확인란이 선택 되어 있는지 확인 합니다. **추가** 를 클릭 하 여이 구성에 대 한 웹 서버 풀에 서버를 추가 합니다.
     
     <div>
     
@@ -234,13 +236,13 @@ Microsoft Forefront Threat Management Gateway 2010 and Internet Information Serv
 
 13. 콘솔의 왼쪽에서 IIS 서버 이름을 클릭 합니다. 콘솔의 가운데에서 **IIS**아래에 있는 **URL 재작성** 을 찾습니다. URL 다시 쓰기 규칙 구성을 두 번 클릭 하 여 엽니다. 이전 단계에서 만든 각 서버 팜에 대 한 규칙이 표시 됩니다. 그렇지 않으면 인터넷 정보 서버 관리자 콘솔의 **시작 페이지** 노드 바로 아래에서 **IIS 서버** 이름을 클릭 했는지 확인 합니다.
 
-14. **URL 재작성** 대화 상자에서 webext.contoso.com를 예로 사용 하 여 표시 되는 규칙의 전체 이름은 **ARR\_\_webext.contoso.com loadbalance\_SSL**입니다.
+14. **URL 재작성** 대화 상자에서 webext.contoso.com를 예로 사용 하 여 표시 되는 규칙의 전체 이름은 **ARR \_ webext.contoso.com \_ loadbalance \_ SSL**입니다.
     
       - 규칙을 두 번 클릭 하 여 **인바운드 규칙 편집** 대화 상자를 엽니다.
     
       - **추가 ...** 를 클릭 합니다. **조건** 대화 상자에서
     
-      - 조건 **추가** 에서 **입력:** 유형의 **{\_HTTP HOST}** 에 입력 합니다. 입력 하는 동안 조건을 선택할 수 있는 대화 상자가 표시 됩니다. **입력 문자열:** 선택에서 **패턴과 일치 하는**경우 확인을 클릭 합니다. **패턴 입력** 형식 **\*** **대/소문자 무시** 를 선택 해야 합니다. **확인**을 클릭합니다.
+      - 조건 **추가** 에서 **입력:** 유형의 **{HTTP \_ HOST}** 에 입력 합니다. 입력 하는 동안 조건을 선택할 수 있는 대화 상자가 표시 됩니다. **입력 문자열:** 선택에서 **패턴과 일치 하는**경우 확인을 클릭 합니다. **패턴 입력** **\*** 형식 **대/소문자 무시** 를 선택 해야 합니다. **확인**을 클릭합니다.
     
       - **인바운드 규칙 편집** 대화 상자에서 아래로 스크롤하여 **작업** 대화 상자를 찾습니다. **작업 유형:** 이 규칙이 적용 되는 URL로 설정 된 **서버 팜의 경로**( **구성표:** **https://**, **Server farm:** set)로 설정 해야 합니다. 이 예에서는 **webext.contoso.com**로 설정 해야 합니다. **경로:** : **0** 으로 설정 됨
     
@@ -252,7 +254,7 @@ Microsoft Forefront Threat Management Gateway 2010 and Internet Information Serv
     
 
     > [!WARNING]  
-    > 기본적으로 HTTP 규칙도 만들어지고 마찬가지로 SSL 규칙과 비슷한 이름이 지정 됩니다. 현재 예에서 HTTP 규칙의 이름은 <STRONG>ARR_webext. com_loadbalance</STRONG>입니다. 이러한 규칙에 대 한 수정이 필요 하지 않으며 무시 해도 안전 합니다.
+    > 기본적으로 HTTP 규칙도 만들어지고 마찬가지로 SSL 규칙과 비슷한 이름이 지정 됩니다. 현재 예에서 HTTP 규칙의 이름은 <STRONG>ARR_webext _loadbalance</STRONG>입니다. 이러한 규칙에 대 한 수정이 필요 하지 않으며 무시 해도 안전 합니다.
 
     
     </div>

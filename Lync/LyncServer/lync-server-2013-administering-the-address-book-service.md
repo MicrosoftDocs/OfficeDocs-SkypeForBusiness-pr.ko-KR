@@ -12,20 +12,22 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72d08d786f41dc606b419f9452970d683b8da37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7a5f7a6a30e510bdcdb57d9f8a2f5a15fe8a7f37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188661"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521195"
 ---
+# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Lync Server 2013에서 주소록 서비스 관리
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Lync Server 2013에서 주소록 서비스 관리
+
 
 </div>
 
@@ -63,7 +65,7 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 
 ## <a name="user-replicator-and-address-book-server"></a>User Replicator와 주소록 서버
 
-주소록 서버는 사용자 복제기에서 제공 하는 데이터를 사용 하 여 처음에 GAL (전체 주소 목록)에서 가져온 정보를 업데이트 합니다. 사용자 복제기는 각 사용자, 연락처 및 그룹에 대 한 Active Directory 도메인 서비스 특성을 데이터베이스의 AbUserEntry 테이블에 쓰고, 주소록 서버는 데이터베이스의 사용자 데이터를 주소록 서버 파일 저장소의 파일에 동기화 하 고, 주소록 데이터베이스 RTCab AbUserEntry 테이블에 대 한 스키마는 **Userguid** 및 **UserData**라는 두 개의 열을 사용 합니다. **Userguid** 는 인덱스 열로, Active Directory 개체의 16 바이트 GUID를 포함 합니다. **UserData** 는 해당 연락처에 대해 앞에서 설명한 모든 Active Directory 도메인 서비스 특성을 포함 하는 이미지 열입니다.
+주소록 서버는 사용자 복제기에서 제공 하는 데이터를 사용 하 여 처음에 GAL (전체 주소 목록)에서 가져온 정보를 업데이트 합니다. 사용자 복제기는 각 사용자, 연락처 및 그룹에 대 한 Active Directory 도메인 서비스 특성을 데이터베이스의 AbUserEntry 테이블에 쓰고 주소록 서버는 데이터베이스의 사용자 데이터를 주소록 서버 파일 저장소의 파일과 주소록 데이터베이스 RTCab에 동기화 합니다. AbUserEntry 테이블에 대 한 스키마는 **Userguid** 및 **UserData**라는 두 개의 열을 사용 합니다. **Userguid** 는 인덱스 열로, Active Directory 개체의 16 바이트 GUID를 포함 합니다. **UserData** 는 해당 연락처에 대해 앞에서 설명한 모든 Active Directory 도메인 서비스 특성을 포함 하는 이미지 열입니다.
 
 사용자 복제기는 AbUserEntry 테이블과 같은 SQL Server 기반 인스턴스에 있는 구성 테이블을 읽어 작성할 Active Directory 특성을 결정 합니다. AbAttribute 테이블에는 **ID**, **이름**, **플래그** 및 **사용**이라는 세 개의 열이 있습니다. 이 테이블은 데이터베이스 설정 중에 만들어집니다. AbAttribute 테이블이 비어 있는 경우 User Replicator는 해당 AbUserEntry 테이블 처리 논리를 건너뜁니다. 주소록 서버 특성은 동적이며 주소록 서버가 활성화될 때 주소록 서버에서 처음으로 작성한 AbAttribute 테이블에서 검색됩니다.
 
@@ -85,7 +87,7 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>개</p></td>
+<td><p>1 </p></td>
 <td><p>givenName</p></td>
 <td><p>0x01400000</p></td>
 </tr>
@@ -96,16 +98,16 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 </tr>
 <tr class="odd">
 <td><p>3(sp3)</p></td>
-<td><p>n</p></td>
+<td><p>displayName</p></td>
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>1-4</p></td>
+<td><p>4 </p></td>
 <td><p>제목</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>2-5</p></td>
+<td><p>5 </p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
@@ -130,22 +132,22 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 <td><p>0x09022800</p></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>homePhone</p></td>
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
 <td><p>11 </p></td>
-<td><p>모바일</p></td>
+<td><p>Mobile</p></td>
 <td><p>0x0B622800</p></td>
 </tr>
 <tr class="even">
-<td><p>12</p></td>
+<td><p>12 </p></td>
 <td><p>otherTelephone</p></td>
 <td><p>0x0C302000</p></td>
 </tr>
 <tr class="odd">
-<td><p>-1</p></td>
+<td><p>13 </p></td>
 <td><p>ipPhone</p></td>
 <td><p>0x0D302000</p></td>
 </tr>
@@ -218,7 +220,7 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 </tr>
 <tr class="odd">
 <td><p>0x2</p></td>
-<td><p>특성 값이 tel: &quot;&quot;로 시작 하는 경우에만 포함 되는 string 특성입니다. 주로 다중값 문자열 특성(특히 <strong>proxyAddresses</strong>)에 사용됩니다. 이 경우 주소록 서버는 tel: &quot;&quot;로 시작 하는 <strong>proxyAddresses</strong> 항목에만 관심이 있습니다. 따라서 공간을 절약 하기 위해 사용자 복제기는 tel: &quot;&quot;로 시작 하는 항목만 저장 합니다.</p></td>
+<td><p>특성 값이 tel:로 시작 하는 경우에만 포함 되는 string 특성입니다 &quot; &quot; . 주로 다중값 문자열 특성(특히 <strong>proxyAddresses</strong>)에 사용됩니다. 이 경우 주소록 서버는 tel:로 시작 하는 <strong>proxyAddresses</strong> 항목에만 관심이 &quot; &quot; 있습니다. 따라서 공간을 절약 하기 위해 사용자 복제기는 tel:로 시작 하는 항목만 저장 합니다 &quot; &quot; .</p></td>
 </tr>
 <tr class="even">
 <td><p>0x3</p></td>
@@ -226,11 +228,11 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 </tr>
 <tr class="odd">
 <td><p>0x4</p></td>
-<td><p>특성 값이 smtp &quot;:&quot; 로 시작 하 고 기호를 &quot; @ &quot; 포함 하는 경우에만 포함 되는 문자열 특성입니다.</p></td>
+<td><p>특성 값이 &quot; smtp:로 시작 &quot; 하 고 기호를 포함 하는 경우에만 포함 되는 문자열 특성입니다 &quot; @ &quot; .</p></td>
 </tr>
 <tr class="even">
 <td><p>0x5</p></td>
-<td><p>&quot;특성 값이 tel:&quot; 또는 &quot;smtp:&quot; 로 시작 하 고 기호를 &quot; @ &quot; 포함 하는 경우에만 포함 되는 문자열 특성입니다.</p></td>
+<td><p>특성 값이 &quot; tel: &quot; 또는 &quot; smtp:로 시작 &quot; 하 고 기호를 포함 &quot; @ &quot; 하는 경우에만 포함 되는 문자열 특성입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x100</p></td>
@@ -278,7 +280,7 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 
 
 > [!NOTE]  
-> 기본적으로 Lync Server 사용자 복제기는 5 분 마다 자동으로 실행 됩니다. Get-csuserreplicatorconfiguration-ReplicationCycleInterval &lt; &gt;을 사용 하 여이 간격을 구성할 수 있습니다.
+> 기본적으로 Lync Server 사용자 복제기는 5 분 마다 자동으로 실행 됩니다. Get-csuserreplicatorconfiguration-ReplicationCycleInterval을 사용 하 여이 간격을 구성할 수 있습니다 &lt; &gt; .
 
 
 
@@ -347,7 +349,7 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 
 특정 사용자만 포함하도록 주소록을 필터링할 수 있지만 항목을 제한하면 다른 사용자가 필터링된 사용자에게 연결하거나 필터링된 사용자의 현재 상태를 볼 수 있는 기능이 제한됩니다. 사용자는 언제든지 전체 로그인 이름을 입력하여 주소록에 없는 사용자를 찾거나 수동으로 인스턴트 메시지를 보내거나 수동으로 전화를 걸 수 있습니다. 또한 사용자의 연락처 정보는 Outlook에서 찾을 수 있습니다.
 
-주소록 파일에 전체 연락처 레코드를 포함 하는 경우, Lync Server를 사용 하 여 전자 메일, 전화 또는 Enterprise Voice 통화를 시작할 수 있습니다 (즉, 서버에서 Enterprise Voice를 사용 하도록 설정 된 경우). 세션을 초기화 하도록 구성 되지 않은 사용자와 프로토콜 (SIP)의 경우, 일부 조직에서는 SIP 사용 가능 사용자만 주소록 서버 항목에 포함 하는 것이 좋습니다. **MailNickname**, **telephoneNumber**, **homePhone**및 **mobile**과 같은 필수 특성의 **Flags** 열에서 0x800 비트를 지워 SIP 사용 가능 사용자만 포함 하도록 주소록을 필터링 할 수 있습니다. **Msrtcsip-gateways-msrtcsip-primaryuseraddress** 특성의 **Flags** 열에 0x8000 (include 특성)을 설정 하 여 주소록을 필터링 하 여 SIP 사용 가능 사용자만 포함 하도록 할 수도 있습니다. 또한 주소록 파일에서 서비스 계정을 제외 하는 데에도 도움이 됩니다.
+주소록 파일에 전체 연락처 레코드를 포함 하는 경우 SIP (Session initiate Protocol)에 대해 구성 되지 않은 사용자와 함께 Lync Server를 사용 하 여 전자 메일, 전화 또는 엔터프라이즈 음성 통화를 시작할 수 있습니다 (즉, 서버에서 Enterprise Voice를 사용 하는 경우) 일부 조직에서는 SIP 사용 가능 사용자만 주소록 서버 항목에 추가 하는 것이 좋습니다. **MailNickname**, **telephoneNumber**, **homePhone**및 **mobile**과 같은 필수 특성의 **Flags** 열에서 0x800 비트를 지워 SIP 사용 가능 사용자만 포함 하도록 주소록을 필터링 할 수 있습니다. **Msrtcsip-gateways-msrtcsip-primaryuseraddress** 특성의 **Flags** 열에 0x8000 (include 특성)을 설정 하 여 주소록을 필터링 하 여 SIP 사용 가능 사용자만 포함 하도록 할 수도 있습니다. 또한 주소록 파일에서 서비스 계정을 제외 하는 데에도 도움이 됩니다.
 
 AbAttribute 테이블을 수정한 후 **Update-CsUserDatabase** cmdlet 명령을 실행하여 AbUserEntry 테이블의 데이터를 새로 고칠 수 있습니다. UR 복제가 완료되면 **UpdateCsAddressBook** 명령을 수동으로 실행하여 주소록 서버 파일 저장소의 파일을 업데이트할 수 있습니다.
 

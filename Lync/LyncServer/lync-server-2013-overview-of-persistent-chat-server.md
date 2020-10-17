@@ -12,20 +12,22 @@ ms:contentKeyID: 48183622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38188067f5320c7e9fc6aa7ccef60812d5a42023
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e5fcc87635f302f58606703b57631c71bc907efe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215944"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520865"
 ---
+# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버 개요
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버 개요
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013, 영구 채팅 서버를 사용 하면 시간에 따라 지속 
 
   - 중요 한 지식 및 정보에 대 한 dispersion을 늘립니다. 문서와 링크를 모든 팀이 액세스 하기 위해 대화 내에 포함할 수 있습니다. 사용자는 광범위 한 팀에 질문을 게시 하 여 주제별 전문가가 제공 하는 반응을 활용할 수 있습니다. 다른 정보 시스템과 통합 하면 중요 한 조직 데이터를 대규모 그룹으로 쉽게 전달할 수 있습니다.
 
-Lync Server 2013에서 대화방을 사용 하도록 설정 하려면 Lync Server 2013 영구 채팅을 배포 합니다. 채팅방을 사용 하는 방법에 대 한 자세한 내용은의 영구 <https://go.microsoft.com/fwlink/p/?linkid=270945>채팅 도움말을 참조 하세요. 사용자가 Lync Server를 사용할 수 있도록 설정 되어 있고 Lync Server 지원이 배포 되는 경우 사용자는 Lync 2013 영구 채팅을 설치 하 고 사용 하 여 대화방 지원을 제공할 수 있습니다.
+Lync Server 2013에서 대화방을 사용 하도록 설정 하려면 Lync Server 2013 영구 채팅을 배포 합니다. 채팅방을 사용 하는 방법에 대 한 자세한 내용은의 영구 채팅 도움말을 참조 하세요 <https://go.microsoft.com/fwlink/p/?linkid=270945> . 사용자가 Lync Server를 사용할 수 있도록 설정 되어 있고 Lync Server 지원이 배포 되는 경우 사용자는 Lync 2013 영구 채팅을 설치 하 고 사용 하 여 대화방 지원을 제공할 수 있습니다.
 
 조직이 규정 준수 규정을 준수 해야 하는 경우에는 필요에 따라 영구 채팅 준수 서비스를 배포할 수 있습니다.
 

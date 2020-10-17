@@ -12,20 +12,22 @@ ms:contentKeyID: 48184180
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1eb03e821615835ea7ce1413100a00740d129647
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e395b021c61a8b07946c9f428043d7679dcfad9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213274"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520425"
 ---
+# <a name="configure-policies-to-control-federated-user-access-in-lync-server-2013"></a>Lync Server 2013에서 페더레이션 사용자 액세스를 제어 하도록 정책 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-federated-user-access-in-lync-server-2013"></a>Lync Server 2013에서 페더레이션 사용자 액세스를 제어 하도록 정책 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213274"
 
 _**마지막으로 수정 된 항목:** 2014-02-05_
 
-페더레이션 파트너와의 통신을 지원할 정책을 구성할 경우 정책이 페더레이션 도메인의 사용자에 적용됩니다. 하나 이상의 외부 사용자 액세스 정책을 구성 하 여 페더레이션 도메인 사용자가 Lync Server 2013 사용자와 공동 작업을 수행할 수 있는지 여부를 제어할 수 있습니다. 페더레이션 사용자 액세스를 제어하려면 전역, 사이트 및 사용자 수준에서 정책을 구성할 수 있습니다. 한 정책 수준에서 적용 되는 Lync Server 정책 설정은 다른 정책 수준에서 적용 되는 설정을 재정의할 수 있습니다. Lync Server 정책 우선 순위: 사용자 정책 (대부분의 영향을 미칩니다)이 사이트 정책에 우선 하며, 사이트 정책이 글로벌 정책 (최소 영향)을 재정의 합니다. 즉, 정책 설정이 정책이 영향을 주는 개체에 대해 자세히 설정 된다는 것을 의미 하며 개체에 대 한 영향을 더 줍니다.
+페더레이션 파트너와의 통신을 지원할 정책을 구성할 경우 정책이 페더레이션 도메인의 사용자에 적용됩니다. 하나 이상의 외부 사용자 액세스 정책을 구성 하 여 페더레이션 도메인 사용자가 Lync Server 2013 사용자와 공동 작업을 수행할 수 있는지 여부를 제어할 수 있습니다. 페더레이션 사용자 액세스를 제어하려면 전역, 사이트 및 사용자 수준에서 정책을 구성할 수 있습니다. 한 정책 수준에서 적용 되는 Lync Server 정책 설정은 다른 정책 수준에서 적용 되는 설정을 재정의할 수 있습니다. Lync Server 정책 우선 순위: 사용자 정책 (대부분의 영향을 미칩니다)이 사이트 정책에 우선 하며, 사이트 정책이 글로벌 정책 (최소 영향)을 재정의 합니다. 즉, 정책 설정이 정책이 영향을 주는 개체에 가까울수록 개체에 미치는 영향이 커집니다.
 
 <div>
 

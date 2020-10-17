@@ -12,20 +12,22 @@ ms:contentKeyID: 48185462
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21f7d374d3c4263f2341386d2c4471f50e4b719d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a5f789f390e1cf104a0dc1b3a10a4116ba38c03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198341"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521665"
 ---
+# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Lync Server 2013에서 보관에 대 한 요구 사항 정의
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Lync Server 2013에서 보관에 대 한 요구 사항 정의
+
 
 </div>
 
@@ -64,7 +66,7 @@ _**마지막으로 수정 된 항목:** 2012-10-09_
     
     전역 수준, 사이트 수준 및 풀 수준에서이 옵션을 구성할 수 있습니다. 기본적으로 중요 모드는 사용 하지 않도록 설정 되어 있습니다.
 
-  - **Microsoft Exchange 통합을 사용할지 여부** 이 옵션은 보관 저장소를 Exchange 2013 저장소와 통합 하 여 Lync Server 보관 데이터 및 Exchange 2013 아카이브된 데이터가 Exchange에 함께 저장 되도록 합니다. 사서함이 원본 위치 유지 상태로 설정 된 경우 Exchange 2013에 있는 사용자의 보관 데이터를 저장 하는 데 Microsoft Exchange 통합을 사용할 수 있습니다. Exchange 2013 배포가 없거나이 배포에 통합 하지 않으려는 경우 또는 Exchange 2013에 있지 않은 Lync 사용자가 있는 경우에는 SQL Server를 사용 하 여 Lync communications에서 보관 된 데이터를 저장 하는 별도의 보관 데이터베이스를 배포할 수 있습니다. 글로벌 수준, 사이트 수준 및 풀 수준에서 Microsoft Exchange 통합 옵션을 구성할 수 있습니다. 기본적으로 Microsoft Exchange 통합은 사용 하도록 설정 되어 있지 않습니다.
+  - **Microsoft Exchange 통합을 사용할지 여부** 이 옵션은 보관 저장소를 Exchange 2013 저장소와 통합 하 여 Lync Server 보관 데이터 및 Exchange 2013 아카이브된 데이터가 Exchange에 함께 저장 되도록 합니다. 사서함이 보류 In-Place 유지 된 경우 Exchange 2013에 있는 사용자에 대 한 보관 데이터 저장용 Microsoft Exchange 통합을 사용할 수 있습니다. Exchange 2013 배포가 없거나이 배포에 통합 하지 않으려는 경우 또는 Exchange 2013에 있지 않은 Lync 사용자가 있는 경우에는 SQL Server를 사용 하 여 Lync communications에서 보관 된 데이터를 저장 하는 별도의 보관 데이터베이스를 배포할 수 있습니다. 글로벌 수준, 사이트 수준 및 풀 수준에서 Microsoft Exchange 통합 옵션을 구성할 수 있습니다. 기본적으로 Microsoft Exchange 통합은 사용 하도록 설정 되어 있지 않습니다.
 
   - **보관 된 데이터를 관리**하는 방법입니다. 보관 데이터베이스는 장기 보존을 위한 것이 아니며 Lync Server 2013에서는 보관 된 데이터에 대 한 전자 검색 (검색) 솔루션을 제공 하지 않으므로 데이터를 다른 저장소로 이동 해야 합니다. Lync Server는 보관 된 데이터를 내보내는 데 사용할 수 있는 세션 내보내기 도구를 제공 하며 보관 된 데이터에 대 한 검색 가능한 정보를 생성 합니다. 전역 정책과 각 사이트 및 사용자 정책에 대해 데이터 제거를 사용 하도록 설정 하 고 다음 옵션 중 하나를 지정할 수 있습니다.
     
@@ -87,7 +89,7 @@ _**마지막으로 수정 된 항목:** 2012-10-09_
     
     </div>
 
-  - **보관 구성** 하나 이상의 보관 구성을 사용 하 여이 항목의 앞부분에서 설명한 것 처럼, 내부 및 외부 통신의 보관을 사용 하는 경우를 제외 하 고 (보관 정책을 사용 하 여 구성 됨) 이전 글머리 기호) 보관 구성에는 기본 전역 구성과 선택적 사이트 및 풀 구성이 포함 됩니다. 전역 구성은 삭제할 수 없습니다. 풀 수준 구성은 사이트 수준 구성 보다 우선 합니다. 사이트 수준 구성은 전역 수준 구성 보다 우선 합니다.
+  - **보관 구성** 이전 글머리 기호에 설명 된 대로 보관 정책을 사용 하 여 구성 된 내부 및 외부 통신의 보관을 사용 하도록 설정 하는 경우를 제외 하 고는 보관 구성을 하나 이상 사용 하 여이 항목의 앞 부분에서 설명 하는 대부분의 보관 옵션을 지정할 수 있습니다. 보관 구성에는 기본 전역 구성과 선택적 사이트 및 풀 구성이 포함 됩니다. 전역 구성은 삭제할 수 없습니다. 풀 수준 구성은 사이트 수준 구성 보다 우선 합니다. 사이트 수준 구성은 전역 수준 구성 보다 우선 합니다.
 
 요구 사항 분석의 일환으로 전역 보관 구성 및 전역 보관 정책을 구성 하는 방법을 결정 해야 합니다. 또한 사이트 수준 보관 구성, 풀 수준 보관 구성, 사이트 수준 보관 정책 및 사용자 수준 보관 정책에 대 한 요구 사항을 확인 해야 합니다.
 
@@ -97,7 +99,7 @@ _**마지막으로 수정 된 항목:** 2012-10-09_
 
 
 > [!NOTE]  
-> 조직의 보안 표준을 유지 관리 하면서 관리 작업을 위임할 수 있도록 하기 위해 Lync Server 2013&nbsp;에서는 RBAC (역할 기반 액세스 제어)를 사용 합니다. RBAC에서는 미리 정의 된 관리 역할에 사용자를 할당 하 여 관리 권한을 부여 합니다. Lync 보관 정책 및 보관 구성을 구성 하려면 사용자를 CsArchivingAdministrator 역할에 할당 해야 합니다 (다른 컴퓨터에서 원격으로 사용 하는 대신 보관을 배포 하는 서버에서 직접 구성 하지 않는 경우). RBAC에 대 한 자세한 내용은 계획 설명서의 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어 계획</A> 을 참조 하십시오. 보관 배포에 필요한 사용자 권한, 사용 권한 및 역할의 목록은 계획 설명서와 배포 설명서에서 모두 사용할 수 있는 <A href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013의 보관에 대 한 배포 검사 목록을</A>참조 하세요.<BR>Microsoft Exchange 통합을 사용 하는 경우 Exchange 정책 구성에 적절 한 관리자 권한 및 사용 권한이 필요 합니다. 자세한 내용은 Exchange 2013 설명서를 참조 하십시오.
+> 조직의 보안 표준을 유지 관리 하면서 관리 작업을 위임할 수 있도록 하기 위해 Lync Server 2013에서는 &nbsp; RBAC (역할 기반 액세스 제어)를 사용 합니다. RBAC에서는 미리 정의 된 관리 역할에 사용자를 할당 하 여 관리 권한을 부여 합니다. Lync 보관 정책 및 보관 구성을 구성 하려면 사용자를 CsArchivingAdministrator 역할에 할당 해야 합니다 (다른 컴퓨터에서 원격으로 사용 하는 대신 보관을 배포 하는 서버에서 직접 구성 하지 않는 경우). RBAC에 대 한 자세한 내용은 계획 설명서의 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어 계획</A> 을 참조 하십시오. 보관 배포에 필요한 사용자 권한, 사용 권한 및 역할의 목록은 계획 설명서와 배포 설명서에서 모두 사용할 수 있는 <A href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013의 보관에 대 한 배포 검사 목록을</A>참조 하세요.<BR>Microsoft Exchange 통합을 사용 하는 경우 Exchange 정책 구성에 적절 한 관리자 권한 및 사용 권한이 필요 합니다. 자세한 내용은 Exchange 2013 설명서를 참조 하십시오.
 
 
 

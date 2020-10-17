@@ -12,20 +12,22 @@ ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ae7ca7e475fd106608dea09fedf250ef541a5c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4656c21d9d28d84259bfaa108c399f36bd2c3d72
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191411"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521445"
 ---
+# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Lync Server 2013의 토폴로지에 영구 채팅 서버 추가
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Lync Server 2013의 토폴로지에 영구 채팅 서버 추가
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
     
 
     > [!NOTE]  
-    > 로컬 Users 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만, Lync Server 2013 서버를 설치 하는 데 필요한 토폴로지를 게시 하려면 <STRONG>Domain Admins</STRONG> 그룹 및 <STRONG>RTCUniversalServerAdmins</STRONG> 그룹의 구성원 인 계정을 사용 해야 하며, 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대 한 모든 권한 (읽기, 쓰기 및 수정)이 포함 되어 있어야 합니다 (즉, 토폴로지 작성기에서 필요한 dacl을 구성할 수 있도록 함). 또는 이와 동등한 권한을 가진 계정
+    > 로컬 Users 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만, Lync Server 2013 서버를 설치 하는 데 필요한 토폴로지를 게시 하려면 <STRONG>Domain Admins</STRONG> 그룹 및 <STRONG>RTCUniversalServerAdmins</STRONG> 그룹의 구성원 인 계정을 사용 해야 하며, 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대 한 모든 권한 (읽기, 쓰기 및 수정)이 포함 되어 있어야 합니다 (즉, 토폴로지 작성기에서 필요한 dacl을 구성할 수 있음) 또는 이와 동등한 권한을 가진 계정
 
     
     </div>
@@ -68,7 +70,7 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
     
 
     > [!IMPORTANT]  
-    > 영구 채팅 서버 역할을 Lync Server 2013&nbsp;Standard edition 서버에 설치 하는 경우 Fqdn이 Standard EDITION 서버의 fqdn과 일치 해야 합니다.
+    > 영구 채팅 서버 역할을 Lync Server 2013 Standard Edition 서버에 설치 하는 경우 &nbsp; fqdn이 Standard Edition 서버의 fqdn과 일치 해야 합니다.
 
     
     </div>
@@ -79,7 +81,7 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
 
 6.  조직에 준수 지원이 필요한 경우에는 **준수 사용** 확인란을 선택합니다. 선택 하는 경우 영구 채팅 서버 준수 서비스가 영구 채팅 서버 프런트 엔드 서버와 동일한 컴퓨터에 설치 됩니다. 영구 채팅 서버에 대 한 준수를 위해 SQL Server 백 엔드 서버를 선택 하 라는 메시지가 표시 됩니다.
 
-7.  영구 채팅 서버 풀에 대해 사이트 선호도를 할당 합니다. 이 **풀을 \<사이트 SiteName\> 에 기본값으로 사용** 확인란을 선택 하거나이 **풀을 모든 사이트의 기본값으로 사용** 하 여이 영구 채팅 서버 풀을 현재 사이트 또는 모든 사이트의 기본 풀로 지정 합니다. Lync 2013 클라이언트를 사용 하 여 대화방을 만들고 관리 하는 경우에는 사용자 사이트와 연결 된 기본 풀이 대화방 만들기 및 관리 환경에서 사용 되어 대화방 만들기 및 관리 작업을 해당 풀로 라우팅할 수 있습니다. 이는 영구 채팅 서버 풀을 여러 개 배포 했으며 영구 채팅 서버의 대화방 만들기 및 관리 기능을 사용 하려는 경우에만 적용 됩니다.
+7.  영구 채팅 서버 풀에 대해 사이트 선호도를 할당 합니다. 이 **풀을 \<SiteName\> 사이트에 기본으로 사용** 확인란을 선택 하거나이 풀을 **모든 사이트의 기본값으로 사용** 하 여이 영구 채팅 서버 풀을 현재 사이트 또는 모든 사이트의 기본 풀로 지정 합니다. Lync 2013 클라이언트를 사용 하 여 대화방을 만들고 관리 하는 경우에는 사용자 사이트와 연결 된 기본 풀이 대화방 만들기 및 관리 환경에서 사용 되어 대화방 만들기 및 관리 작업을 해당 풀로 라우팅할 수 있습니다. 이는 영구 채팅 서버 풀을 여러 개 배포 했으며 영구 채팅 서버의 대화방 만들기 및 관리 기능을 사용 하려는 경우에만 적용 됩니다.
     
     <div>
     

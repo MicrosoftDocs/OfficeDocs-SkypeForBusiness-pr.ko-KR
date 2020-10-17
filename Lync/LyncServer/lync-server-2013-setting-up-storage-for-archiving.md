@@ -12,20 +12,22 @@ ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6f299b01b95cddd461893b35518e3c2fe40c694
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ab7e22d4ff0e34d903fa0306d971705c5455b2f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200484"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521785"
 ---
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Lync Server 2013에서 보관을 위한 저장소 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Lync Server 2013에서 보관을 위한 저장소 설정
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**마지막으로 수정 된 항목:** 2013-12-17_
 
 Lync Server 2013에 대 한 보관 저장소에는 다음이 포함 됩니다.
 
-  - **데이터 저장소**   데이터 저장소는 IM 콘텐츠를 저장 하는 데 필요 합니다.
+  - **데이터 저장소**     데이터 저장소는 IM 콘텐츠를 저장 하는 데 필요 합니다.
 
-  - **파일 저장소**   파일 저장소는 회의 (모임) 콘텐츠 데이터 저장소 및 파일 저장소를 저장 하는 데 필요 합니다.
+  - **파일 저장소**     파일 저장소는 회의 (모임) 콘텐츠 데이터 저장소 및 파일 저장소를 저장 하는 데 필요 합니다.
 
 <div>
 
@@ -57,7 +59,7 @@ Lync Server 2013에서 보관용 데이터 저장소를 설정 하는 데 필요
 
 ## <a name="setting-up-exchange-storage-for-archiving-data"></a>Exchange 저장소를 데이터 보관용으로 설정
 
-Exchange를 설정 하 여 보관 데이터를 저장 하려면 Exchange 배포에서 Exchange 2013이 실행 되 고 있어야 합니다. 또한 사용자 사서함이 Exchange 2013 서버에 있고 해당 사서함을 원본 위치 유지 상태로 설정 해야 합니다. Exchange 2013 구성에 대 한 자세한 내용은 Exchange 제품 설명서를 참조 하십시오.
+Exchange를 설정 하 여 보관 데이터를 저장 하려면 Exchange 배포에서 Exchange 2013이 실행 되 고 있어야 합니다. 또한 사용자 사서함은 Exchange 2013 서버에 있어야 하며 해당 사서함을 In-Place 보류 상태로 설정 해야 합니다. Exchange 2013 구성에 대 한 자세한 내용은 Exchange 제품 설명서를 참조 하십시오.
 
 </div>
 
@@ -71,13 +73,13 @@ SQL Server 보관 데이터베이스의 경우 보관 데이터베이스를 호�
 
 각 데이터베이스 서버는 지원 되는 버전의 SQL Server를 실행 해야 합니다. 지원 되는 버전에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 보관용 기술 요구 사항을](lync-server-2013-technical-requirements-for-archiving.md) 참조 하세요.
 
-보관을 배포 하 고 사용 하도록 설정 하기 전에 SQL Server 플랫폼을 설정 해야 합니다. 토폴로지를 게시하는 데 사용될 계정에 적절한 관리자 권한 및 권한이 있는 경우 토폴로지를 게시할 때 보관 데이터베이스(LcsLog)를 만들 수 있습니다. 또한 설치 절차의 일부로 포함하는 등 나중에 데이터베이스를 만들 수도 있습니다. SQL Server에 대 한 자세한 내용은 SQL Server TechCenter at [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045)를 참조 하십시오.
+보관을 배포 하 고 사용 하도록 설정 하기 전에 SQL Server 플랫폼을 설정 해야 합니다. 토폴로지를 게시하는 데 사용될 계정에 적절한 관리자 권한 및 권한이 있는 경우 토폴로지를 게시할 때 보관 데이터베이스(LcsLog)를 만들 수 있습니다. 또한 설치 절차의 일부로 포함하는 등 나중에 데이터베이스를 만들 수도 있습니다. SQL Server에 대 한 자세한 내용은 SQL Server TechCenter at를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045) .
 
 <div>
 
 
 > [!NOTE]  
-> SQL Server 에이전트 서비스 시작 유형이 자동이 고 보관 데이터베이스를 포함 하는 SQL 인스턴스에 대해 SQL Server 에이전트 서비스가 실행 되 고 있는지 확인 하 여 기본 보관 SQL Server 유지 관리 작업을 예약 된 시간에 실행 하 여 SQL Server 에이전트 서비스 제어
+> Sql Server 에이전트 서비스 시작 유형이 자동이 고 sql server 에이전트 서비스가 보관 데이터베이스를 보유 하 고 있는 SQL 인스턴스에 대해 실행 중 이어야 하며, 기본 보관 SQL Server 유지 관리 작업은 SQL Server 에이전트 서비스의 제어 하에서 일정에 따라 실행 될 수 있도록 해야 합니다.
 
 
 

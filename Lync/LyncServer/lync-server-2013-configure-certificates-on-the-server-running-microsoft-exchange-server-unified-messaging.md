@@ -12,20 +12,22 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 515be9190f9c5012dfd75cdda6621b7f4acfd88f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 790798835694fcd76a4501c4b94e6ca59f220524
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205088"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521045"
 ---
+# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Microsoft Exchange Server 통합 메시징을 실행 하는 서버에서 인증서 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Microsoft Exchange Server 통합 메시징을 실행 하는 서버에서 인증서 구성
+
 
 </div>
 
@@ -65,7 +67,7 @@ Lync Server 2013에 연결 하려면 서버 인증서를 사용 하 여 Exchange
 
 ## <a name="to-download-the-ca-certificate"></a>CA 인증서를 다운로드하려면
 
-1.  Exchange UM을 실행 하는 서버에서 **시작**, **실행**을 차례로 클릭 하 고 **발급 CA 서버\<\>/certsrv의 http://이름을**입력 한 다음 **확인**을 클릭 합니다.
+1.  Exchange UM을 실행 하는 서버에서 **시작**, **실행**을 차례로 클릭 하 고 **http:// \<name of your Issuing CA Server\> /Certsrv**를 입력 한 후에 **확인**을 클릭 합니다.
 
 2.  **작업 선택**에서 **CA 인증서, 인증서 체인 또는 CRL 다운로드**를 클릭합니다.
 
@@ -130,7 +132,7 @@ Lync Server 2013에 연결 하려면 서버 인증서를 사용 하 여 Exchange
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>Lync Server를 사용 하 여 Exchange Server 2013 UM을 구성 하려면
 
-1.  자세한 내용은 Exchange Server 설명서에서 "Lync Server와 Exchange 2013 UM 통합"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372).
+1.  자세한 내용은 Exchange Server 설명서에서 "Lync Server와 Exchange 2013 UM 통합"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372) .
 
 </div>
 
@@ -138,7 +140,7 @@ Lync Server 2013에 연결 하려면 서버 인증서를 사용 하 여 Exchange
 
 ## <a name="to-create-a-certificate-request-and-install-the-certificate-on-exchange-server-2007-sp1"></a>Exchange Server 2007(SP1)에서 인증서 요청을 만들고 인증서를 설치하려면
 
-1.  Exchange UM을 실행 하는 서버에서 **시작**, **실행**을 차례로 클릭 하 고 발급 CA 서버**\>/certsrv**의 **http://\<** 이름을 입력 한 다음 **확인**을 클릭 합니다.
+1.  Exchange UM을 실행 하는 서버에서 **시작**, **실행**을 차례로 클릭 하 고 **http:// \<**name of your Issuing CA Server**\> /Certsrv**를 입력 한 후에 **확인**을 클릭 합니다.
 
 2.  **작업 선택**에서 **인증서 요청**을 클릭합니다.
 
@@ -177,13 +179,13 @@ Lync Server 2013에 연결 하려면 서버 인증서를 사용 하 여 Exchange
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>Exchange Server 2010에서 인증서를 만들려면
 
-1.  적절 한 사용자 권한을 사용 하 여 Exchange UM을 실행 하는 서버에 로그온 합니다. 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)"클라이언트 액세스 권한"을 참조 하십시오.
+1.  적절 한 사용자 권한을 사용 하 여 Exchange UM을 실행 하는 서버에 로그온 합니다. 자세한 내용은에서 "클라이언트 액세스 권한"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499) .
 
 2.  인증서를 만들려면 다음 절차를 참조하십시오.
     
-    1.  "새 Exchange 인증서 만들기"[https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
+    1.  "새 Exchange 인증서 만들기" [https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  "Exchange 인증서 가져오기"[https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  "Exchange 인증서 가져오기" [https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -236,9 +238,9 @@ Lync Server 2013에 연결 하려면 서버 인증서를 사용 하 여 Exchange
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>Exchange Server 2010에서 인증서를 할당하려면
 
-1.  적절 한 사용자 권한을 사용 하 여 Exchange UM을 실행 하는 서버에 로그온 합니다. 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)"클라이언트 액세스 권한"을 참조 하십시오.
+1.  적절 한 사용자 권한을 사용 하 여 Exchange UM을 실행 하는 서버에 로그온 합니다. 자세한 내용은에서 "클라이언트 액세스 권한"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499) .
 
-2.  인증서를 할당 하는 절차는에서 [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497)"인증서에 서비스 할당"을 참조 하십시오.
+2.  인증서를 할당 하는 절차는에서 "인증서에 서비스 할당"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497) .
 
 </div>
 

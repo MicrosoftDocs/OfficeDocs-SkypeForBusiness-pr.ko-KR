@@ -12,20 +12,22 @@ ms:contentKeyID: 48184704
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ff565c1d884fe2af9a49da6798e8c3e52cb38da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9495bc0c52e8e9af4af0daa3d29304d5b25d4b7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213314"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520265"
 ---
+# <a name="configure-the-location-database-in-lync-server-2013"></a>Lync Server 2013에서 위치 데이터베이스 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-location-database-in-lync-server-2013"></a>Lync Server 2013에서 위치 데이터베이스 구성
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2012-09-17_
 
 위치 데이터베이스를 구성하려면 다음 작업을 수행합니다.
 
-1.  데이터베이스를 위치에 대한 네트워크 요소 매핑으로 채웁니다. ELIN (비상 위치 식별 번호) 게이트웨이를 사용 하는 경우 \<CompanyName\> 필드에 elin을 포함 해야 합니다.
+1.  데이터베이스를 위치에 대한 네트워크 요소 매핑으로 채웁니다. ELIN (비상 위치 식별 번호) 게이트웨이를 사용 하는 경우 필드에 ELIN을 포함 해야 합니다 \<CompanyName\> .
 
 2.  E9-1-1 서비스 공급자가 유지 관리하는 MSAG(마스터 주소 가이드)에 대해 주소를 확인합니다.
 

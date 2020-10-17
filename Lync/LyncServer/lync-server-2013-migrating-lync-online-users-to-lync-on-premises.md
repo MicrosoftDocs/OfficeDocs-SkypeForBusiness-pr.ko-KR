@@ -12,20 +12,22 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efc642ea326765df138f19fde4e691aa94d6b3b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 8a2be7414dbdc48c9e245db33e57b8238cfb2ee9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221228"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520995"
 ---
+# <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Lync Server 2013에서 lync Online 사용자를 lync 온-프레미스로 마이그레이션
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Lync Server 2013에서 lync Online 사용자를 lync 온-프레미스로 마이그레이션
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**마지막으로 수정 된 항목:** 2015-11-13_
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
-2.  온-프레미스에 지 서버에 다음 표에 나와 있는 것 처럼 Lync Online에 대 한 연결을 설정할 수 있는 인증서 체인이 있는지 확인 합니다. 여기에서이 체인을 다운로드할 수 있습니다.https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
+2.  온-프레미스에 지 서버에 다음 표에 나와 있는 것 처럼 Lync Online에 대 한 연결을 설정할 수 있는 인증서 체인이 있는지 확인 합니다. 여기에서이 체인을 다운로드할 수 있습니다. https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
 
 
     <table>
@@ -104,7 +106,7 @@ _**마지막으로 수정 된 항목:** 2015-11-13_
         -SipAddress "sip: username@contoso.com"
         -HostingProviderProxyFqdn "sipfed.online.lync.com"
     
-    또는 파일에서 사용자 이름을 읽고이를 CsUser cmdlet에 대 한 입력으로 제공 하는 스크립트를 만들 수 있습니다.
+    또는 파일에서 사용자 이름을 읽고이를 Enable-CsUser cmdlet에 대 한 입력으로 제공 하는 스크립트를 만들 수 있습니다.
     
         Enable-CsUser
         -Identity $Identity 
@@ -141,7 +143,7 @@ _**마지막으로 수정 된 항목:** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    **HostedMigrationOverrideUrl** 매개 변수에 대해 지정 된 Url 형식은 호스트 되는 마이그레이션 서비스가 실행 되는 풀의 url 이어야 하며, *Https:// \< pool FQDN \> /HostedMigration/hostedmigrationService.svc*형식으로 되어 있어야 합니다.
+    **HostedMigrationOverrideUrl** 매개 변수에 대해 지정 된 Url 형식은 호스트 되는 마이그레이션 서비스가 실행 되는 풀의 url 이어야 하며,이 형식은 *Https:// \<Pool FQDN\> /HostedMigration/hostedmigrationService.svc*입니다.
     
     Microsoft 365 또는 Office 365 조직 계정에 대 한 Lync Online 제어판의 URL을 확인 하 여 호스팅된 마이그레이션 서비스에 대 한 URL을 확인할 수 있습니다.
     
@@ -216,8 +218,8 @@ _**마지막으로 수정 된 항목:** 2015-11-13_
     <tr class="odd">
     <td><p>Msrtcsip-gateways-UserEnabled</p></td>
     <td><p>사용</p></td>
-    <td><p>참</p></td>
-    <td><p>참</p></td>
+    <td><p>True</p></td>
+    <td><p>True</p></td>
     </tr>
     </tbody>
     </table>

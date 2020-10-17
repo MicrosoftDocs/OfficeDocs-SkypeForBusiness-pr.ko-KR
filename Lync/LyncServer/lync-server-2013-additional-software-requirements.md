@@ -12,20 +12,22 @@ ms:contentKeyID: 48184731
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4565f91afeb703de967040edb8f6d437aedac9eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a4a0c2e200c779d87a13c08eada968b27a7447f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521235"
 ---
+# <a name="additional-software-requirements-for-lync-server-2013"></a>Lync Server 2013의 추가 소프트웨어 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="additional-software-requirements-for-lync-server-2013"></a>Lync Server 2013의 추가 소프트웨어 요구 사항
+
 
 </div>
 
@@ -69,7 +71,7 @@ Lync Server 2013을 실행 하는 각 서버에 올바른 버전의 Windows Powe
 
 ## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
 
-Lync Server에는 모든 내부 서버 역할 및 Lync Server 관리 도구 또는 Microsoft Lync Server 2013, 계획 도구를 실행 하는 모든 컴퓨터에 Microsoft .NET Framework 4.5이 필요 합니다. Lync Server 2013의 경우 Lync Server 2013을 설치 하기 전에 서버에 64 비트 버전의 Microsoft .NET Framework 4.5을 수동으로 설치 해야 합니다. 이를 수동으로 설치 하려면 Microsoft 다운로드 센터에서 Microsoft .NET 4.5 Framework를 다운로드 하세요.[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
+Lync Server에는 모든 내부 서버 역할 및 Lync Server 관리 도구 또는 Microsoft Lync Server 2013, 계획 도구를 실행 하는 모든 컴퓨터에 Microsoft .NET Framework 4.5이 필요 합니다. Lync Server 2013의 경우 Lync Server 2013을 설치 하기 전에 서버에 64 비트 버전의 Microsoft .NET Framework 4.5을 수동으로 설치 해야 합니다. 이를 수동으로 설치 하려면 Microsoft 다운로드 센터에서 Microsoft .NET 4.5 Framework를 다운로드 하세요. [https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
 <div>
 
@@ -99,7 +101,7 @@ Lync Server 2013 및 Windows Server 2012을 실행할 서버에 Microsoft .NET F
 
 Lync Server 2013의 **Windows Identity foundation** 을 사용 하려면 서버 간 인증 시나리오를 지원 하기 위해 Windows identity foundation을 설치 해야 합니다. Windows Server 2008 R2 및 Windows Server 2012을 설치 하려면 다른 절차가 필요 합니다. 다음 목록에서 서버 운영 체제를 선택 합니다.
 
-  - Windows server 2008 r 2의 경우 컴퓨터에 이미 설치 되어 있는지 확인 합니다. 2008 이렇게 하려면 **프로그램 추가/제거**, **설치 된 업데이트 보기**및 **windows** 에서 windows **Identity Foundation (KB974405)** 항목을 확인 하세요. Windows Identity Foundation을 설치 하는 방법에 [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)대 한 자세한 내용은를 참조 하세요.
+  - Windows server 2008 r 2의 경우 컴퓨터에 이미 설치 되어 있는지 확인 합니다. 2008 이렇게 하려면 **프로그램 추가/제거**, **설치 된 업데이트 보기**및 **windows** 에서 windows **Identity Foundation (KB974405)** 항목을 확인 하세요. Windows Identity Foundation을 설치 하는 방법에 대 한 자세한 내용은를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) .
 
   - Windows server 2012 For Windows Server 2012의 경우 **서버 관리자** 를 사용 하 여 Windows Identity Foundation을 설치 합니다. 서버 관리자 **역할 및 기능 추가 마법사**에서 **기능**을 선택 합니다. 목록에서 **Windows Identity Foundation 3.5** 을 선택 합니다. **다음**을 클릭 하 고 **설치**를 클릭 합니다.
 
@@ -175,7 +177,7 @@ Lync Server 2013을 설치 하기 전에 Windows 데스크톱 환경을 설치 �
 
     Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client, BITS -Source D:\sources\sxs
 
-Windows Server 2012을 실행 하는 서버에 .NET 3.5을 설치 하는 방법에 대 한 자세한 내용은의 " <https://go.microsoft.com/fwlink/p/?linkid=275032>Microsoft .net Framework 3.5 배포 고려 사항"을 참조 하십시오.
+Windows Server 2012을 실행 하는 서버에 .NET 3.5을 설치 하는 방법에 대 한 자세한 내용은의 "Microsoft .NET Framework 3.5 배포 고려 사항"을 참조 하십시오 <https://go.microsoft.com/fwlink/p/?linkid=275032> .
 
 </div>
 
@@ -239,11 +241,11 @@ MSMQ 사용에 대 한 자세한 내용은 [여기를 클릭 하세요.](https:/
 
   - Lync Server 2013을 실행 하는 각 서버에 올바른 버전의 Windows PowerShell 3.0이 설치 되어 있어야 합니다. 자세한 내용은 [설치 Windows PowerShell 3.0 For Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)을 참조 하십시오.
 
-  - Lync Server에는 Microsoft .NET Framework 4.5이 필요 합니다. Windows Server 2008 r 2에 설치 된 Lync Server 2013의 경우 Lync Server 2013을 설치 하기 전에 서버에 64 비트 버전의 Microsoft .NET Framework 4.5을 설치 해야 합니다. 이를 수동으로 설치 하려면 Microsoft 다운로드 센터에서 Microsoft .NET 4.5 Framework를 다운로드 하세요.[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
+  - Lync Server에는 Microsoft .NET Framework 4.5이 필요 합니다. Windows Server 2008 r 2에 설치 된 Lync Server 2013의 경우 Lync Server 2013을 설치 하기 전에 서버에 64 비트 버전의 Microsoft .NET Framework 4.5을 설치 해야 합니다. 이를 수동으로 설치 하려면 Microsoft 다운로드 센터에서 Microsoft .NET 4.5 Framework를 다운로드 하세요. [https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
   - Lync Server 2013의 **Windows Identity foundation** 을 사용 하려면 서버 간 인증 시나리오를 지원 하기 위해 Windows identity foundation을 설치 해야 합니다. Windows Server 2008 R2 및 Windows Server 2012을 설치 하려면 다른 절차가 필요 합니다. 다음 목록에서 서버 운영 체제를 선택 합니다.
     
-      - Windows server 2008 r 2의 경우 컴퓨터에 이미 설치 되어 있는지 확인 합니다. 2008 이렇게 하려면 **프로그램 추가/제거**, **설치 된 업데이트 보기**및 **windows** 에서 windows **Identity Foundation (KB974405)** 항목을 확인 하세요. Windows Identity Foundation을 설치 하는 방법에 [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)대 한 자세한 내용은를 참조 하세요.
+      - Windows server 2008 r 2의 경우 컴퓨터에 이미 설치 되어 있는지 확인 합니다. 2008 이렇게 하려면 **프로그램 추가/제거**, **설치 된 업데이트 보기**및 **windows** 에서 windows **Identity Foundation (KB974405)** 항목을 확인 하세요. Windows Identity Foundation을 설치 하는 방법에 대 한 자세한 내용은를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) .
     
       - Windows server 2012 For Windows Server 2012의 경우 **서버 관리자** 를 사용 하 여 Windows Identity Foundation을 설치 합니다. 서버 관리자 **역할 및 기능 추가 마법사**에서 **기능**을 선택 합니다. 목록에서 **Windows Identity Foundation 3.5** 을 선택 합니다. **다음**을 클릭 하 고 **설치**를 클릭 합니다.
 

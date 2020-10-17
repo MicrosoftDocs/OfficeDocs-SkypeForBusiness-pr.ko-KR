@@ -12,20 +12,22 @@ ms:contentKeyID: 48183337
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 492d4be1865bdb022736a62a2507c115c892b47b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ff5f403329c430e18767d9b334982ecccc3898b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200494"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521805"
 ---
+# <a name="setting-up-sql-server-log-shipping-in-lync-server-2013-for-the-persistent-chat-server-primary-database"></a>영구 채팅 서버 기본 데이터베이스에 대해 Lync Server 2013에서 SQL Server 로그 전달 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-sql-server-log-shipping-in-lync-server-2013-for-the-persistent-chat-server-primary-database"></a>영구 채팅 서버 기본 데이터베이스에 대해 Lync Server 2013에서 SQL Server 로그 전달 설정
+
 
 </div>
 
@@ -53,7 +55,7 @@ SQL Server Management Studio를 사용 하 여 영구 채팅 서버 보조 로�
 
 6.  **백업 폴더의 네트워크 경로** 상자에 트랜잭션 로그 백업 폴더에 대해 만든 공유의 네트워크 경로를 입력합니다.
 
-7.  백업 폴더가 주 서버에 있는 경우 백업 폴더의 기본 서버에 백업 폴더의 로컬 경로를 입력 하 고 **폴더의 로컬 경로 (예: c:\\백업)** 상자를 입력 합니다. (백업 폴더가 주 서버에 없는 경우에는이 상자를 비워 둘 수 있습니다.)
+7.  백업 폴더가 주 서버에 있는 경우 백업 폴더의 기본 서버에 백업 폴더의 로컬 경로를 입력 하 고 **폴더의 로컬 경로 (예: c: \\ 백업)** 상자를 입력 합니다. (백업 폴더가 주 서버에 없는 경우에는이 상자를 비워 둘 수 있습니다.)
     
     <div>
     

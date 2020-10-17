@@ -12,20 +12,22 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f4ff853e3f31804e4bca55bd6a4576e25702b6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 640d8e97cf8b7a31e11cb2dc8f1b1394e4b1aae3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182001"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521815"
 ---
+# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Lync Server 2013에 대 한 역방향 프록시 서버 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Lync Server 2013에 대 한 역방향 프록시 서버 설정
+
 
 </div>
 
@@ -55,7 +57,7 @@ Microsoft Lync Server 2013에 지 서버 배포의 경우 외부 클라이언트
 
   - Lync 2013 클라이언트, Lync Windows 스토어 앱 및 Lync 2013 모바일 클라이언트를 사용 하 여 Lync 검색 (자동 검색) Url을 찾고 통합 커뮤니케이션 웹 API (c)를 사용 하도록 설정 합니다.
 
-모든 풀에서 모든 웹 서비스를 게시하려면 HTTP 역방향 프록시를 구성하는 것이 좋습니다. 게시 https://ExternalFQDN/\* 풀에 대 한 모든 IIS 가상 디렉터리를 게시 합니다. 조직의 각 Standard Edition 서버, 프런트 엔드 풀 또는 디렉터/디렉터 풀에 대해 게시 규칙이 하나 필요합니다.
+모든 풀에서 모든 웹 서비스를 게시하려면 HTTP 역방향 프록시를 구성하는 것이 좋습니다. 게시 https://ExternalFQDN/ \* 풀에 대 한 모든 IIS 가상 디렉터리를 게시 합니다. 조직의 각 Standard Edition 서버, 프런트 엔드 풀 또는 디렉터/디렉터 풀에 대해 게시 규칙이 하나 필요합니다.
 
 또한 단순 URL도 게시해야 합니다. 조직에 디렉터 또는 디렉터 풀이 있는 경우 HTTP 역방향 프록시는 단순 URL에 대한 HTTP/HTTPS 요청을 수신하고 이를 디렉터 또는 디렉터 풀에 있는 외부 웹 서비스 가상 디렉터리에 프록시합니다. 디렉터를 배포하지 않은 경우에는 단순 URL에 대한 요청을 처리하는 풀 하나를 지정해야 합니다. 이 풀이 사용자 홈 풀이 아닌 경우에는 사용자 홈 풀의 웹 서비스로 리디렉션됩니다. 단순 URL은 전용 웹 게시 규칙을 통해 처리할 수도 있고, 디렉터에 대한 웹 게시 규칙의 공용 이름에 추가할 수도 있습니다. 외부 자동 검색 서비스 URL도 게시 해야 합니다.
 

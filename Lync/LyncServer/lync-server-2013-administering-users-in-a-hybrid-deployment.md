@@ -12,20 +12,22 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 906018941b00d8ef2cbb5e37aef8d1245ad93f00
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 15585b5df4a2c38c4d72733b8c999556e6cb8467
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221442"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521245"
 ---
+# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a>하이브리드 Lync Server 2013 배포에서 사용자 관리
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a>하이브리드 Lync Server 2013 배포에서 사용자 관리
+
 
 </div>
 
@@ -65,7 +67,7 @@ Microsoft 365 관리 센터에서 제공 하는 사용자 관리 기능을 사�
 
 **HostedMigrationOverrideUrl** 매개 변수에 대해 지정 된 url 형식은 다음과 같은 형식으로 호스팅된 마이그레이션 서비스를 실행 하는 풀의 url 이어야 합니다.
 
-Https:// \< 풀 FQDN \> /HostedMigration/hostedmigrationService.svc. Microsoft 365 또는 Office 365 조직 계정에 대 한 Lync Online 제어판의 URL을 확인 하 여 호스팅된 마이그레이션 서비스에 대 한 URL을 확인할 수 있습니다.
+Https:// \<Pool FQDN\> /HostedMigration/hostedmigrationService.svc. Microsoft 365 또는 Office 365 조직 계정에 대 한 Lync Online 제어판의 URL을 확인 하 여 호스팅된 마이그레이션 서비스에 대 한 URL을 확인할 수 있습니다.
 
 **Microsoft 365 또는 Office 365 조 직에 대 한 호스팅된 마이그레이션 서비스 URL을 확인 하려면**
 

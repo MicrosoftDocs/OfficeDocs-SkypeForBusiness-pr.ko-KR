@@ -12,20 +12,22 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54c92e1da5ea1ea54ae8386cdcdce5054d76609e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a967f186d924a199b007ceba8390bf968253ec72
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213264"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520415"
 ---
+# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Lync Server 2013에서 공용 사용자 액세스를 제어 하도록 정책 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Lync Server 2013에서 공용 사용자 액세스를 제어 하도록 정책 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213264"
 
 _**마지막으로 수정 된 항목:** 2013-10-07_
 
-공용 im (인스턴트 메시징) 연결을 사용 하면 조직의 사용자가 인터넷 서비스, Yahoo\!및 AOL의 Windows Live 네트워크를 포함 하 여 공용 메신저 서비스 공급자가 제공 하는 im 서비스 사용자와 통신할 수 있습니다. 공용 사용자가 내부 Lync Server 사용자와 공동 작업할 수 있는지 여부를 제어 하는 하나 이상의 외부 사용자 액세스 정책을 구성 합니다. 공용 인스턴트 메시징 연결은 배포 및 사용자의 구성을 기반으로 하는 추가 기능입니다. 또한 공용 IM 공급자에서 서비스를 프로 비전 하는 방법에 따라서도 달라 집니다. 공용 공급자를 사용 하도록 배포를 구축 하는 방법에 대 한 자세한 내용은 "공용 IM 연결 구축 가이드 for Microsoft Lync Server, Office Communications Server 및 Live Communications Server" 가이드를 참조 하십시오.[https://go.microsoft.com/fwlink/?LinkId=269821](https://go.microsoft.com/fwlink/?linkid=269821)
+공용 im (인스턴트 메시징) 연결을 사용 하면 조직의 사용자가 인터넷 서비스, Yahoo 및 AOL의 Windows Live 네트워크를 포함 하 여 공용 메신저 서비스 공급자가 제공 하는 IM 서비스 사용자와 통신할 수 있습니다 \! . 공용 사용자가 내부 Lync Server 사용자와 공동 작업할 수 있는지 여부를 제어 하는 하나 이상의 외부 사용자 액세스 정책을 구성 합니다. 공용 인스턴트 메시징 연결은 배포 및 사용자의 구성을 기반으로 하는 추가 기능입니다. 또한 공용 IM 공급자에서 서비스를 프로 비전 하는 방법에 따라서도 달라 집니다. 공용 공급자를 사용 하도록 배포를 구축 하는 방법에 대 한 자세한 내용은 "공용 IM 연결 구축 가이드 for Microsoft Lync Server, Office Communications Server 및 Live Communications Server" 가이드를 참조 하십시오. [https://go.microsoft.com/fwlink/?LinkId=269821](https://go.microsoft.com/fwlink/?linkid=269821)
 
 <div>
 
@@ -55,9 +57,9 @@ _**마지막으로 수정 된 항목:** 2013-10-07_
 
 </div>
 
-Microsoft Lync Server 공용 IM 연결 프로 비전 사이트에 액세스 하려면 다음 링크를 사용 합니다.[https://go.microsoft.com/fwlink/p/?linkId=212638](https://go.microsoft.com/fwlink/p/?linkid=212638)
+Microsoft Lync Server 공용 IM 연결 프로 비전 사이트에 액세스 하려면 다음 링크를 사용 합니다. [https://go.microsoft.com/fwlink/p/?linkId=212638](https://go.microsoft.com/fwlink/p/?linkid=212638)
 
-공용 사용자 액세스를 제어하려면 전역, 사이트 및 사용자 수준에서 정책을 구성할 수 있습니다. 구성할 수 있는 정책 유형에 대 한 자세한 내용은 배포 설명서 또는 계획 설명서에서 [Lync Server 2013의 외부 사용자 액세스에 대 한 지원 구성을](lync-server-2013-configuring-support-for-external-user-access.md) 참조 하십시오. 한 정책 수준에서 적용 되는 Lync Server 정책 설정은 다른 정책 수준에서 적용 되는 설정을 재정의할 수 있습니다. Lync Server 정책 우선 순위: 사용자 정책 (대부분의 영향을 미칩니다)이 사이트 정책에 우선 하며, 사이트 정책이 글로벌 정책 (최소 영향)을 재정의 합니다. 즉, 정책 설정이 정책이 영향을 주는 개체에 대해 자세히 설정 된다는 것을 의미 하며 개체에 대 한 영향을 더 줍니다.
+공용 사용자 액세스를 제어하려면 전역, 사이트 및 사용자 수준에서 정책을 구성할 수 있습니다. 구성할 수 있는 정책 유형에 대 한 자세한 내용은 배포 설명서 또는 계획 설명서에서 [Lync Server 2013의 외부 사용자 액세스에 대 한 지원 구성을](lync-server-2013-configuring-support-for-external-user-access.md) 참조 하십시오. 한 정책 수준에서 적용 되는 Lync Server 정책 설정은 다른 정책 수준에서 적용 되는 설정을 재정의할 수 있습니다. Lync Server 정책 우선 순위: 사용자 정책 (대부분의 영향을 미칩니다)이 사이트 정책에 우선 하며, 사이트 정책이 글로벌 정책 (최소 영향)을 재정의 합니다. 즉, 정책 설정이 정책이 영향을 주는 개체에 가까울수록 개체에 미치는 영향이 커집니다.
 
 IM 초대의 경우 응답 여부는 클라이언트 소프트웨어에 따라 다릅니다. 사용자가 구성한 규칙(사용자 클라이언트 **허용** 및 **차단** 목록의 설정)에 의해 명시적으로 차단되는 경우가 아니면 요청이 수락됩니다. 또한 사용자가 자신의 **허용** 목록에 없는 사용자에 대해 모든 IM을 차단하도록 선택한 경우 IM 초대가 차단될 수 있습니다.
 

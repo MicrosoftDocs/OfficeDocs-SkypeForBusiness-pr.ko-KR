@@ -12,20 +12,22 @@ ms:contentKeyID: 48183601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e71a1f02fda14c2bcbb54aaec5e12307421090e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 81690d4f006b5c1df3ed001369cbe5c4b1f560b8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215934"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520855"
 ---
+# <a name="overview-of-sip-trunking-in-lync-server-2013"></a>Lync Server 2013의 SIP 트렁크 개요
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-sip-trunking-in-lync-server-2013"></a>Lync Server 2013의 SIP 트렁크 개요
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42215934"
 
 _**마지막으로 수정 된 항목:** 2012-10-05_
 
-SIP 트렁크 구축은 조직의 통신을 단순화 하 고 실시간 통신에 대 한 최신 향상을 준비 하기 위한 커다란 단계가 될 수 있습니다. SIP 트렁크의 주요 장점 중 하나는 이전에는 TDM (시간 구분 위치 멀티플렉싱)와 반대로 중앙 사이트에서 조직의 연결을 PSTN (공중 전화망)에 통합할 수 있다는 것입니다. 각 분기 사이트에서 별도의 트렁크가 필요 합니다.
+SIP 트렁크 구축은 조직의 통신을 단순화 하 고 실시간 통신에 대 한 최신 향상을 준비 하기 위한 커다란 단계가 될 수 있습니다. SIP 트렁크의 주요 이점 중 하나는 일반적으로 각 분기 사이트에서 별도의 트렁크를 필요로 하는 선행, 시간 구분 멀티플렉싱 (TDM) 트렁크와 반대로 중앙 사이트에서 조직의 연결을 PSTN (공중 전화망)으로 통합할 수 있다는 것입니다.
 
 <div>
 
@@ -77,7 +79,7 @@ SIP 트렁크가 서비스 공급자에 직접 연결 하기 때문에 PSTN 게�
 
 ## <a name="expanded-voip-services"></a>확장 된 VoIP 서비스
 
-음성 기능은 종종 SIP 트렁크 배포의 주요 동기 이지만 음성 지원은 첫 번째 단계에 불과합니다. SIP 트렁크를 사용 하 여 VoIP 기능을 확장 하 고 Lync Server 2013을 사용 하 여 보다 다양 한 서비스 집합을 제공할 수 있습니다. 예:
+음성 기능은 종종 SIP 트렁크 배포의 주요 동기 이지만 음성 지원은 첫 번째 단계에 불과합니다. SIP 트렁크를 사용 하 여 VoIP 기능을 확장 하 고 Lync Server 2013을 사용 하 여 보다 다양 한 서비스 집합을 제공할 수 있습니다. 예제:
 
   - 향상 된 현재 상태 검색 (Lync Server 2013을 실행 하지 않는 장치)을 사용 하면 휴대폰을 보다 효율적으로 통합 하 여 사용자가 휴대폰 통화 상태 인지 확인할 수 있습니다.
 

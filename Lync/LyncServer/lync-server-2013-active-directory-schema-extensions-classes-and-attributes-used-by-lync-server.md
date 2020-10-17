@@ -12,20 +12,22 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ed67522a2f47466bbf01efdd3a548c3e3637321
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cf2b157dcd039f11d38ef56d6da07a6921e1c9c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191641"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521595"
 ---
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Lync Server 2013에서 사용 하는 Active Directory 스키마 확장, 클래스 및 특성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Lync Server 2013에서 사용 하는 Active Directory 스키마 확장, 클래스 및 특성
+
 
 </div>
 
@@ -53,9 +55,9 @@ _**마지막으로 수정 된 항목:** 2012-06-19_
 
   - 도메인 준비 도중 도메인 루트 및 기본 제공 컨테이너에 대해 생성되는 ACE(액세스 제어 항목)
 
-  - Active Directory OU (조직 구성 단위) 권한 부여\_cmdlet에 의해 수행 된 변경 내용입니다.
+  - Active Directory OU (조직 구성 단위) 권한 부여 cmdlet에 의해 수행 된 변경 내용입니다 \_ .
 
-  - Active Directory OU에서 csoupermission cmdlet을 부여\_하 여 변경한 사항입니다.
+  - Active Directory OU에서 csoupermission cmdlet을 부여 하 여 변경한 사항입니다 \_ .
 
 <div>
 
@@ -73,9 +75,9 @@ _**마지막으로 수정 된 항목:** 2012-06-19_
 
   - [Lync Server 2013에서 도메인 준비로 인 한 변경 사항](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Lync Server 2013의 부여-CsSetupPermission에서 수행한 변경 내용](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+  - [Lync Server 2013의 Grant-CsSetupPermission에의 한 변경 사항](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Lync Server 2013의 부여-CsOUPermission에서 변경한 내용](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+  - [Lync Server 2013의 Grant-CsOUPermission에의 한 변경 사항](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
 
 </div>
 

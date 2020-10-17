@@ -12,20 +12,22 @@ ms:contentKeyID: 48184535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7b83f900a5d6ccca9932b68e012d5c0dbbd6d23
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd3dad53b954fed8e1513ff9704b35c3c4831ffd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199561"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521255"
 ---
+# <a name="additional-server-support-and-requirements-in-lync-server-2013"></a>Lync Server 2013의 추가 서버 지원 및 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="additional-server-support-and-requirements-in-lync-server-2013"></a>Lync Server 2013의 추가 서버 지원 및 요구 사항
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**마지막으로 수정 된 항목:** 2013-12-09_
 
   - 대부분의 내부 서버에는 OAuth ( **Open Authentication** )로 정의 된 인증서 유형이 필요 합니다. Lync Server 배포 마법사의 **요청, 인증서 설치 및 할당** 단계 중에 OAuth 인증서를 요청 하 고 할당 해야 합니다. OAuth 인증서 키의 최소 크기는 1024 비트입니다. 키 길이가 2048 비트 (길이) 보다 작은 인증서를 요청 하면 경고가 표시 될 수 있습니다. 경고 대신 키 길이가 2048이 적용 되는 경우 발생 하는 문제를 방지 하려면 OAuth 인증서에 대해 키 길이 2048를 항상 사용 하는 것이 좋습니다.
 
-  - Windows Server 2008 R2 운영 체제가 FIPS 140-2 알고리즘을 사용 하도록 구성 된 경우 Lync Server 2013 및 Microsoft Exchange Server 2010 서비스 팩 1 (SP1)은 FIPS (연방 정보 처리 표준) 140-2 알고리즘을 지원 합니다. 시스템 암호화 FIPS 지원을 구현 하려면 Lync Server 2013를 실행 하는 각 서버가 지원 되도록 구성 해야 합니다. FIPS 규격 알고리즘 및 FIPS 지원을 구현 하는 방법에 대 한 자세한 내용은 Microsoft 기술 자료 문서 811833, "시스템 암호화: 암호화, 해싱 및 서명에 FIPS 호환 알고리즘 사용 보안 설정 (Windows XP 및 이후 버전의 Windows)을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833). Exchange 2010의 FIPS 140-2 지원 및 제한 사항에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?linkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)"EXCHANGE 2010 SP1 및 FIPS 호환 알고리즘에 대 한 지원"을 참조 하세요.
+  - Windows Server 2008 R2 운영 체제가 시스템 암호화에 FIPS 140-2 알고리즘을 사용 하도록 구성 된 경우 Lync Server 2013 및 Microsoft Exchange Server 2010 서비스 팩 1 (SP1)은 FIPS (정보 처리 표준) 140-2 알고리즘을 지원 합니다. FIPS 지원을 구현 하려면 Lync Server 2013를 실행 하는 각 서버가 지원 되도록 구성 해야 합니다. FIPS 규격 알고리즘 및 FIPS 지원을 구현 하는 방법에 대 한 자세한 내용은 Microsoft 기술 자료 문서 811833, "시스템 암호화: 암호화, 해싱 및 서명에 FIPS 호환 알고리즘 사용 보안 설정 (Windows XP 및 이후 버전의 Windows)을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833) . Exchange 2010의 FIPS 140-2 지원 및 제한 사항에 대 한 자세한 내용은에서 "Exchange 2010 SP1 및 FIPS 호환 알고리즘에 대 한 지원"을 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335) .
 
 Lync Server 2013를 사용 하려면 배포 전 또는 중에 특정 구성 요소에 다른 소프트웨어를 설치 해야 합니다. 여기에는 Lync Server 2013을 설치 하는 동안 자동으로 설치 되는 운영 체제, 다운로드 가능한 소프트웨어 및 소프트웨어에서 사용할 수 있는 소프트웨어가 포함 되어 있습니다. 필요할 수 있는 추가 소프트웨어 목록은 다음과 같습니다.
 

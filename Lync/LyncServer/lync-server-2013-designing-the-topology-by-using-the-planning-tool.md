@@ -12,20 +12,22 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c519e6b89051dd2034c528a817a34afb9044f1e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48d56ec357892fd84e04ccbc9c4996cc6547370e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520021"
 ---
+# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>계획 도구를 사용 하 여 Lync Server 2013에 대 한 토폴로지 디자인
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>계획 도구를 사용 하 여 Lync Server 2013에 대 한 토폴로지 디자인
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204344"
 
 _**마지막으로 수정 된 항목:** 2013-03-04_
 
-Microsoft Lync Server 2013, 계획 도구는 디자인 중인 Lync Server 2013 토폴로지에 대 한 질문을 하는 마법사 기반 인터뷰 도구입니다. 계획 도구는 제공 된 정보를 사용 하 여 토폴로지 디자인 및 용량에 대 한 기본 설정 방법과 함께 제공 되는 정보와 함께 권장 되는 답변을 기반으로 추천 토폴로지를 제공 합니다. Microsoft 다운로드 센터 ([https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725))에서 계획 도구를 다운로드할 수 있습니다.
+Microsoft Lync Server 2013, 계획 도구는 디자인 중인 Lync Server 2013 토폴로지에 대 한 질문을 하는 마법사 기반 인터뷰 도구입니다. 계획 도구는 제공 된 정보를 사용 하 여 토폴로지 디자인 및 용량에 대 한 기본 설정 방법과 함께 제공 되는 정보와 함께 권장 되는 답변을 기반으로 추천 토폴로지를 제공 합니다. Microsoft 다운로드 센터 ()에서 계획 도구를 다운로드할 수 있습니다 [https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725) .
 
 계획 도구의 목표는 궁극적으로 전체 Lync Server 2013 토폴로지를 디자인 하는 것이 잠재적으로 복잡 함을 줄이기 위한 것입니다. 또한 인터넷을 통해 Microsoft TechNet 웹 사이트에 연결할 수 있는 경우에 한해, 이 도구 내에서는 상황별 계획 및 배포 설명서 참조도 제공됩니다.
 

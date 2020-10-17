@@ -12,20 +12,22 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3fe22d70f442eed0cda1bbf56e79fb0e0e21f8a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 86eade8f7a2ac1db627668ca78b8fb7869e6da71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179735"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520375"
 ---
+# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Lync Server 2013에서 사용자에 대 한 전화 통신 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Lync Server 2013에서 사용자에 대 한 전화 통신 구성
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
 
 Lync Server 사용자 전화 통신 옵션은 다음과 같습니다.
 
-  - **오디오/비디오 사용 안 함**   사용자가 오디오 및 비디오를 사용 하 여 전화를 걸 수 없습니다.
+  - **오디오/비디오 사용 안 함**     사용자가 오디오 및 비디오를 사용 하 여 전화를 걸 수 없습니다.
 
-  - **Pc 대 pc 전용 사용자만**   pc 간 오디오 또는 비디오 통화를 수행할 수 있습니다.
+  - **Pc 대 pc 전용**     사용자는 PC 간 음성 또는 화상 통화만 할 수 있습니다.
 
-  - **Enterprise Voice**   사용자는 Lync Server 2013 인프라를 사용 하 여 모든 수신 및 발신 전화를 라우팅할 수 있습니다. 사용자는 PC 간 통화를 수행할 수도 있습니다.
+  - **Enterprise Voice**     사용자는 Lync Server 2013 인프라를 사용 하 여 모든 수신 및 발신 전화를 라우팅할 수 있습니다. 사용자는 PC 간 통화를 수행할 수도 있습니다.
 
-  - **원격 통화 제어**   사용자는 Lync Server 2013을 사용 하 여 데스크톱 전화를 제어할 수 있으며, pc 간 통화도 할 수 있습니다.
+  - **원격 통화 제어**     사용자는 Lync Server 2013을 사용 하 여 데스크톱 전화를 제어할 수 있으며, PC 간 통화도 할 수 있습니다.
 
 조직의 전화 통신을 구성 하는 방법에 대 한 자세한 내용은 배포 설명서의 lync server [2013에서 사용자에 대 한 전화 통신 구성](lync-server-2013-configure-telephony-for-a-user.md) 및 [lync Server 2013의 Enterprise Voice 배포](lync-server-2013-deploying-enterprise-voice.md) 를 참조 하세요.
 

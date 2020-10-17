@@ -12,20 +12,22 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3556c9147ddf2769e6a403de9e31edf31129d796
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82d23410257db89ff0c7498aba879444a5be9707
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205064"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521065"
 ---
+# <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Lync Server 2013에서 서버에 대 한 인증서 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Lync Server 2013에서 서버에 대 한 인증서 구성
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2013-03-17_
 
 
 > [!NOTE]  
-> Lync Server 2013에는 Windows 7, Windows Server 512 R2, Windows Server 2008, Windows Vista를 실행 하는 클라이언트 로부터의 연결에 대 한 다이제스트 해시 및 서명 알고리즘의 SHA-1, 256, 384 또는 2008 비트에 대 한 지원 (SHA-224 2)이 포함 되어 있습니다. Lync Phone Edition과 함께 Windows XP 운영 체제 SHA-2 제품군을 사용 하 여 외부 액세스를 지원 하기 위해 외부 인증서는 동일한 비트 길이 다이제스트를 사용 하 여 인증서를 발급할 수 있는 공용 CA에서 발급 합니다.
+> Lync Server 2013에는 SHA-2 제품군에 대 한 지원 (224 SHA-1, 256, 384 또는 512 비트)이 포함 되어 있는데,이는 Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista 또는 Windows XP 운영 체제를 실행 하는 클라이언트 로부터의 연결에 대 한 다이제스트 해시 및 서명 알고리즘입니다 (Lync Phone Edition). SHA-2 제품군을 사용 하 여 외부 액세스를 지원 하기 위해 외부 인증서는 동일한 비트 길이 다이제스트를 사용 하 여 인증서를 발급할 수 있는 공용 CA에서 발급 합니다.
 
 
 
@@ -53,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2013-03-17_
 
 
 > [!WARNING]  
-> 클라이언트와 서버에서 사용 하는 서버 및 기타 컴퓨터 및 장치와 통신 하는 데 사용 되는 해시 다이제스트 및 서명 알고리즘과 클라이언트와 서버가 서로 통신할 수 있는 사용자는 누구에 게 달려 있습니다. 기관을. 운영 체제 및 일부 클라이언트 응용 프로그램에서 지원 되는 다이제스트 길이에 대 한 자세한 내용은<A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A>를 참조 하세요.
+> 클라이언트와 서버에서 인증서를 사용 하는 서버 및 기타 컴퓨터 및 장치와 통신 하는 데 사용 되는 해시 다이제스트 및 서명 알고리즘, 그리고 클라이언트와 서버가 정보를 사용 하는 방법에 대 한 정보를 확인할 수 있습니다. 운영 체제 및 일부 클라이언트 응용 프로그램에서 지원 되는 다이제스트 길이에 대 한 자세한 내용은를 참조 하세요 <A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A> .
 
 
 

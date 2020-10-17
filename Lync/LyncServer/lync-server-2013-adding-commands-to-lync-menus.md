@@ -12,20 +12,22 @@ ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6377824a7d96e6bb7b0ae6c60c79f3ee4c05b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 738f745d4f91458b95e95e5cc5770c34ed4e8c88
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203334"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521355"
 ---
+# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Lync Server 2013의 Lync 메뉴에 명령 추가
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Lync Server 2013의 Lync 메뉴에 명령 추가
+
 
 </div>
 
@@ -69,9 +71,9 @@ Lync 2013 메뉴에 사용자 지정 명령을 추가 하 고 현재 사용자�
 
 다음 표의 레지스트리 설정을 사용 하 여 메뉴에 명령을 추가 합니다. 이러한 항목은 레지스트리에 다음 위치 중 하나에 포함 됩니다.
 
-  - 32 비트 OS: HKEY\_로컬\_컴퓨터\\소프트웨어\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps
+  - 32 비트 OS: HKEY \_ 로컬 \_ 컴퓨터 \\ 소프트웨어 \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps
 
-  - 64 비트 OS: HKEY\_로컬\_컴퓨터\\소프트웨어\\Wow6432Node\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps
+  - 64 비트 OS: HKEY \_ 로컬 \_ 컴퓨터 \\ 소프트웨어 \\ Wow6432Node \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps
 
 ### <a name="custom-command-registry-entries"></a>사용자 지정 명령 레지스트리 항목
 
@@ -166,13 +168,13 @@ Lync 2013 메뉴에 사용자 지정 명령을 추가 하 고 현재 사용자�
 
 사용자 지정 명령이 추가 된 후 액세스 하려면 정의 하는 ExtensibleMenu 값에 따라 다음 중 하나를 수행 합니다.
 
-  - **Mainwindowactions**   Lync 주 창에서 **도구**를 클릭 한 다음 사용자 지정 명령을 클릭 합니다.
+  - **Mainwindowactions**     Lync 주 창에서 **도구**를 클릭 한 다음 사용자 지정 명령을 클릭 합니다.
 
-  - **Mainwindowrightclick**   Lync 주 창에서 대화 상대를 마우스 오른쪽 단추로 클릭 한 다음 사용자 지정 명령을 클릭 합니다.
+  - **Mainwindowrightclick**     Lync 주 창에서 대화 상대를 마우스 오른쪽 단추로 클릭 한 다음 사용자 지정 명령을 클릭 합니다.
 
-  - **Conversationwindowactions가 기본값으로**   대화 창에서 **기타 옵션** 아이콘을 클릭 한 다음 사용자 지정 명령을 클릭 합니다.
+  - **Conversationwindowactions가 기본값으로**     대화 창에서 **기타 옵션** 아이콘을 클릭 한 다음 사용자 지정 명령을 클릭 합니다.
 
-  - **ConversationWindowRightClick**   대화 창에서 대화 상대 이름을 마우스 오른쪽 단추로 클릭 한 다음 사용자 지정 명령을 클릭 합니다.
+  - **ConversationWindowRightClick**     대화 창에서 대화 상대 이름을 마우스 오른쪽 단추로 클릭 한 다음 사용자 지정 명령을 클릭 합니다.
 
 </div>
 

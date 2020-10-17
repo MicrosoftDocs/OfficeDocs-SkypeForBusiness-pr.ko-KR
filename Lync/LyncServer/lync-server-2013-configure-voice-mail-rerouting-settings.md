@@ -12,20 +12,22 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f327bfc533b28313e4728b13c7a69d6c16bc034
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b51a529ee7bc4fd1148413058ceaf1f1f6d61e06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520185"
 ---
+# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>Lync Server 2013에서 음성 메일 다시 라우팅 설정 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>Lync Server 2013에서 음성 메일 다시 라우팅 설정 구성
+
 
 </div>
 
@@ -45,7 +47,7 @@ Sba (survivable Branch 기기 및 Sba (survivable 분기 서버는 WAN 중단 �
 
 ## <a name="to-configure-voice-mail-survivability"></a>음성 메일 지속 가능성을 구성하려면
 
-1.  Exchange 관리자에 게 다음 cmdlet을 사용 하 여 exchange 셸에서 메시지만 수락 하도록 구성 합니다 ( **Set-UMAutoAttendant 전화 교환 \<AA 이름\> -CallSomeoneEnabled $false**). 메시지 남겨 두기를 허용하도록 지정하는 매개 변수(*SendVoiceMsgEnabled*)는 기본적으로 true입니다.
+1.  Exchange 관리자에 게 exchange 셸에서 메시지를 허용 하도록 AA를 구성 하는 방법을 물어 봅니다 ( **Set-UMAutoAttendant 전화 \<AA name\> CallSomeoneEnabled $false**를 사용 합니다. 메시지 남겨 두기를 허용하도록 지정하는 매개 변수(*SendVoiceMsgEnabled*)는 기본적으로 true입니다.
 
 2.  Lync Server 관리 셸에서 **new-csvoicemailreroutingconfiguration** cmdlet을 사용 하 여 Sba (survivable branch 기기 또는 Sba (survivable 분기 서버의 음성 메일 다시 라우팅 구성에서 AA 전화 번호를 Exchange UM 자동 전화 교환 전화 번호로 설정 합니다.
     

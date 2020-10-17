@@ -12,20 +12,22 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edd44cbb1e54e811fc646a99362b18a284376953
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6195baf2cdff30cad74dfddc31337d9d429c5d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213424"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520025"
 ---
+# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Lync Server 2013의 다이얼 플랜 및 정규화 규칙
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Lync Server 2013의 다이얼 플랜 및 정규화 규칙
+
 
 </div>
 
@@ -93,7 +95,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
     
     조직에서 여러 위치에 대해 단일 다이얼 플랜을 유지 관리 하는 경우에도 PBX (private branch exchange)에서 마이그레이션하는 Enterprise Voice 사용자에 대해 별도의 다이얼 플랜을 만들고 기존 내선 번호를 보존 해야 할 수 있습니다.
 
-  - 사용자 단위 다이얼 플랜이 필요한 지 여부를 결정 합니다. 예를 들어 중앙 사이트에 등록 된 분기 사이트에 사용자가 있거나 Sba (survivable Branch 기기에 등록 된 사용자가 있는 경우 이러한 사용자에 대 한 특수 전화 걸기 시나리오를 사용 하 여 사용자별 다이얼 플랜 및 정규화 규칙을 고려할 수 있습니다. . 자세한 내용은 [Lync Server 2013에 대 한 분기 사이트 복구 요구 사항을](lync-server-2013-branch-site-resiliency-requirements.md)참조 하세요.
+  - 사용자 단위 다이얼 플랜이 필요한 지 여부를 결정 합니다. 예를 들어 중앙 사이트에 등록 된 분기 사이트에 사용자가 있거나 Sba (survivable Branch 기기에 등록 된 사용자가 있는 경우 이러한 사용자에 대해 사용자별 다이얼 플랜 및 정규화 규칙을 사용 하 여 특정 전화 걸기 시나리오를 고려할 수 있습니다. 자세한 내용은 [Lync Server 2013에 대 한 분기 사이트 복구 요구 사항을](lync-server-2013-branch-site-resiliency-requirements.md)참조 하세요.
 
   - 다이얼 플랜 범위 결정 (이 항목의 앞 부분에 설명 된 대로)
 
@@ -129,7 +131,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 ## <a name="external-access-prefix"></a>외부 액세스 접두사
 
-사용자가 하나 이상의 추가 선행 번호 (예: 9)를\#사용 \*하 여 외부 회선을 사용 해야 하는 경우 최대 4 자 (,, 0-9)의 외부 액세스 접두사를 지정할 수 있습니다.
+\# \* 사용자가 하나 이상의 추가 선행 번호 (예: 9)를 사용 하 여 외부 회선을 사용 해야 하는 경우 최대 4 자 (,, 0-9)의 외부 액세스 접두사를 지정할 수 있습니다.
 
 <div>
 
@@ -173,9 +175,9 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 ## <a name="creating-normalization-rules"></a>정규화 규칙 만들기
 
-정규화 규칙은 .NET Framework 정규식을 사용하여 서버가 역방향 번호 조회를 수행하기 위해 전화 걸기 문자열을 E.164 형식으로 변환하는 데 사용하는 숫자 일치 패턴을 지정합니다. 수동으로 식을 입력 하거나, 일치 시킬 전화 걸기 문자열의 길이를 입력 하 여 Lync Server 제어판에서 정규화 규칙을 만들거나, Lync Server 제어판에서 해당 사용자를 위한 정규식입니다. 두 경우 모두 완료되면 테스트 번호를 입력하여 정규화 규칙이 예상대로 작동하는지 확인할 수 있습니다.
+정규화 규칙은 .NET Framework 정규식을 사용하여 서버가 역방향 번호 조회를 수행하기 위해 전화 걸기 문자열을 E.164 형식으로 변환하는 데 사용하는 숫자 일치 패턴을 지정합니다. 수동으로 식을 입력 하거나, 일치 시킬 전화 걸기 문자열의 길이를 입력 하 여 Lync Server 제어판에서 정규화 규칙을 만들거나, Lync Server 제어판에서 해당 정규식을 생성 하도록 합니다. 두 경우 모두 완료되면 테스트 번호를 입력하여 정규화 규칙이 예상대로 작동하는지 확인할 수 있습니다.
 
-.NET Framework 정규식 사용에 대 한 자세한 내용은의 ".NET Framework 정규식"을 참조 [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)하십시오.
+.NET Framework 정규식 사용에 대 한 자세한 내용은의 ".NET Framework 정규식"을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) .
 
 </div>
 
@@ -210,42 +212,42 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 <tr class="odd">
 <td><p>4digitExtension</p></td>
 <td><p>4자리 내선 번호 변환</p></td>
-<td><p>^ (\d{4}) $</p></td>
+<td><p>^ (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>0100이 +14255550100으로 변환됨</p></td>
 </tr>
 <tr class="even">
 <td><p>: 5Digitextension</p></td>
 <td><p>5자리 내선 번호 변환</p></td>
-<td><p>^ 5 (\d{4}) $</p></td>
+<td><p>^ 5 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>50100이 +14255550100으로 변환됨</p></td>
 </tr>
 <tr class="odd">
 <td><p>7digitcallingRedmond</p></td>
 <td><p>7자리 번호를 레드몬드 지역 번호로 변환</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^ (\d {7} ) $</p></td>
 <td><p>+ 1425 $1</p></td>
 <td><p>5550100이 +14255550100으로 변환됨</p></td>
 </tr>
 <tr class="even">
 <td><p>7digitcallingDallas</p></td>
 <td><p>7자리 번호를 달라스 지역 번호로 변환</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^ (\d {7} ) $</p></td>
 <td><p>+ 1972 $1</p></td>
 <td><p>5550100이 +19725550100으로 변환됨</p></td>
 </tr>
 <tr class="odd">
 <td><p>10digitcallingUS</p></td>
 <td><p>미국 10자리 번호 변환</p></td>
-<td><p>^ (\d{10}) $</p></td>
+<td><p>^ (\d {10} ) $</p></td>
 <td><p>+ 1 $1</p></td>
 <td><p>2065550100이 +12065550100으로 변환됨</p></td>
 </tr>
 <tr class="even">
 <td><p>LDCallingUS</p></td>
 <td><p>미국 시외 접두사 포함 번호 변환</p></td>
-<td><p>^ 1 (\d{10}) $</p></td>
+<td><p>^ 1 (\d {10} ) $</p></td>
 <td><p>+ $1</p></td>
 <td><p>12145550100이 +2145550100으로 변환됨</p></td>
 </tr>
@@ -266,21 +268,21 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 <tr class="odd">
 <td><p>RedmondSitePrefix</p></td>
 <td><p>온넷 접두사(6) 및 레드몬드 사이트 코드(222) 포함 번호 변환</p></td>
-<td><p>^ 6222 (\d{4}) $</p></td>
+<td><p>^ 6222 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>62220100이 +14255550100으로 변환됨</p></td>
 </tr>
 <tr class="even">
 <td><p>NYSitePrefix</p></td>
 <td><p>온넷 접두사(6) 및 뉴욕 사이트 코드(333) 포함 번호 변환</p></td>
-<td><p>^ 6333 (\d{4}) $</p></td>
+<td><p>^ 6333 (\d {4} ) $</p></td>
 <td><p>+ 1202555 $1</p></td>
 <td><p>63330100이 +12025550100으로 변환됨</p></td>
 </tr>
 <tr class="odd">
 <td><p>DallasSitePrefix</p></td>
 <td><p>온넷 접두사(6) 및 달라스 사이트 코드(444) 포함 번호 변환</p></td>
-<td><p>^ 6444 (\d{4}) $</p></td>
+<td><p>^ 6444 (\d {4} ) $</p></td>
 <td><p>+ 1972555 $1</p></td>
 <td><p>64440100이 +19725550100으로 변환됨</p></td>
 </tr>

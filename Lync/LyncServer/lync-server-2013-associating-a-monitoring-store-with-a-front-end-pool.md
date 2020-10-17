@@ -12,20 +12,22 @@ ms:contentKeyID: 48185439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfdff8863c0e629c99d0e64aca0b7f84dcb63a43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e80c6f7482787d448709beaf98e796519860d22c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205454"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520651"
 ---
+# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Lync Server 2013에서 모니터링 저장소를 프런트 엔드 풀과 연결
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Lync Server 2013에서 모니터링 저장소를 프런트 엔드 풀과 연결
+
 
 </div>
 
@@ -69,9 +71,9 @@ Microsoft Lync Server 2013 모니터링 데이터는 모니터링 저장소와 �
 
     Install-CsDatabase -LocalDatabases
 
-위의 명령을 실행 하면 CsDatabase p r a r a r i a r a r i r a r a r a r a r a r a r a r a r a r a r a r a r a r a r a r a r a r a r
+위의 명령을 실행 하면 Install-CsDatabase에서 현재 Lync Server 토폴로지를 읽고, 로컬 컴퓨터에 설치 해야 하는 데이터베이스를 확인 한 다음 각 데이터베이스를 자동으로 설치 및 구성 합니다.
 
-원격 컴퓨터 (관리 셸이 실행 되는 컴퓨터가 아닌 컴퓨터)에 데이터베이스를 설치 하려면 최소 두 개의 매개 변수, 즉 ConfiguredDatabases 매개 변수와 변수와 sqlserverfqdn 매개 변수를 포함 해야 합니다. 이 매개 변수는 CsDatabase cmdlet에 Lync Server 토폴로지를 검색 한 다음 변수와 sqlserverfqdn 매개 변수로 지정 된 컴퓨터에서 필요한 데이터베이스를 설치 및 구성 하도록 지시 합니다. 변수와 sqlserverfqdn 매개 변수는 데이터베이스를 설치할 컴퓨터의 정규화 된 도메인 이름을 나타내는 매개 변수 값을 사용 해야 합니다.
+원격 컴퓨터 (관리 셸이 실행 되는 컴퓨터가 아닌 컴퓨터)에 데이터베이스를 설치 하려면 최소 두 개의 매개 변수, 즉 ConfiguredDatabases 매개 변수와 변수와 sqlserverfqdn 매개 변수를 포함 해야 합니다. 이 매개 변수는 Install-CsDatabase cmdlet에 게 Lync Server 토폴로지를 검색 한 다음 변수와 sqlserverfqdn 매개 변수로 지정 된 컴퓨터에서 필요한 데이터베이스를 설치 및 구성 하도록 지시 합니다. 변수와 sqlserverfqdn 매개 변수는 데이터베이스를 설치할 컴퓨터의 정규화 된 도메인 이름을 나타내는 매개 변수 값을 사용 해야 합니다.
 
 예를 들어 다음 명령은 atl-sql-001.litwareinc.com 컴퓨터에 모니터링 데이터베이스를 설치 합니다.
 
@@ -87,7 +89,7 @@ Microsoft Lync Server 2013 모니터링 데이터는 모니터링 저장소와 �
 
 4.  Lync Server 구성 요소 설치 마법사의 **Lync server 구성 요소 설치** 페이지에서 **다음**을 클릭 합니다.
 
-5.  **Msi에 대 한 경로 지정** 페이지에서 ocscore 파일 (Lync Server 설치 미디어에 포함 된 파일)의 경로를 입력 하 고 **다음**을 클릭 합니다.
+5.  **Msi에 대 한 경로 지정** 페이지에서 파일 Ocscore.msi (Lync Server 설치 미디어에 포함 된 파일)의 경로를 입력 하 고 **다음**을 클릭 합니다.
 
 6.  **명령 실행** 페이지에서 **마침**을 클릭합니다.
 

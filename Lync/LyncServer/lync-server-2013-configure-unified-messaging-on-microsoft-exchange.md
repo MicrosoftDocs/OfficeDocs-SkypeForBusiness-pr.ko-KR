@@ -12,20 +12,22 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d05939f9d15f992d350a6bb756fe3c6b9839c37b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b39c10a3fb590acc99771663f5f6e23e3c3095e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520225"
 ---
+# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Lync Server 2013 용 Microsoft Exchange에서 통합 메시징 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Lync Server 2013 용 Microsoft Exchange에서 통합 메시징 구성
+
 
 </div>
 
@@ -68,19 +70,19 @@ _**마지막으로 수정 된 항목:** 2013-02-24_
     ```powershell
      New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
     ```
-    자세한 내용은 다음을 참조하세요.
+    참조 항목
     
-      - Office Communications Server 2007의 경우, "통합 메시징 SIP URI 다이얼 플랜을 만드는 방법" [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) 및 "새 umdialplan 플랜: Exchange 2007 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666)하세요.
+      - Office Communications Server 2007의 경우, "통합 메시징 SIP URI 다이얼 플랜을 만드는 방법" [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) 및 "새 UMDialplan 플랜: Exchange 2007 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666) 하세요.
     
-      - Exchange 2010의 경우에는 "UM 다이얼 플랜 만들기" [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) 및 "새 umdialplan: Exchange 2010 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680)하세요.
+      - Exchange 2010의 경우에는 "UM 다이얼 플랜 만들기" [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) 및 "새 Umdialplan: Exchange 2010 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680) 하세요.
     
-      - Exchange 2013의 경우 "통합 메시징"을 참조 [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)하세요.
+      - Exchange 2013의 경우 "통합 메시징"을 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) .
     
     <div>
     
 
     > [!NOTE]  
-    > <STRONG>SIP 보안</STRONG> 또는 <STRONG>보안</STRONG> 보안 수준의 선택은 미디어 암호화에 대한 SRTP(Secure Real-time Transport Protocol)의 활성화 여부에 따라 결정됩니다. Exchange UM과의 Lync Server 2010 통합의 경우이는 Lync Server 미디어 구성의 암호화 수준과 일치 해야 합니다. Lync Server 미디어 구성은 <STRONG>get-csmediaconfiguration</STRONG> cmdlet을 실행 하 여 볼 수 있습니다. 자세한 내용은 Lync Server 관리 셸 설명서에서 Get-csmediaconfiguration를 참조 하세요.<BR>적절 한 VoIP 보안 설정을 선택 하는 방법에 대 한 자세한 내용은 <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">온-프레미스 통합 메시징 및 Lync Server 2013의 통합을 위한 배포 프로세스</A>를 참조 하십시오.
+    > <STRONG>SIP 보안</STRONG> 또는 <STRONG>보안</STRONG> 보안 수준의 선택은 미디어 암호화에 대한 SRTP(Secure Real-time Transport Protocol)의 활성화 여부에 따라 결정됩니다. Exchange UM과의 Lync Server 2010 통합의 경우이는 Lync Server 미디어 구성의 암호화 수준과 일치 해야 합니다. Lync Server 미디어 구성은 <STRONG>get-csmediaconfiguration</STRONG> cmdlet을 실행 하 여 볼 수 있습니다. 자세한 내용은 Lync Server Management Shell 설명서의 Get-CsMediaConfiguration를 참조 하십시오.<BR>적절 한 VoIP 보안 설정을 선택 하는 방법에 대 한 자세한 내용은 <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">온-프레미스 통합 메시징 및 Lync Server 2013의 통합을 위한 배포 프로세스</A>를 참조 하십시오.
 
     
     </div>
@@ -91,13 +93,13 @@ _**마지막으로 수정 된 항목:** 2013-02-24_
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
-    자세한 내용은 다음을 참조하세요.
+    참조 항목
     
-      - Exchange 2007의 경우에는에서 [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678)"Get umdialplan 플랜: Exchange 2007 Help"를 참조 하세요.
+      - Exchange 2007의 경우에는에서 "Get UMDialplan 플랜: Exchange 2007 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678) 하세요.
     
-      - Exchange 2010의 경우에는에서 [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679)"Get umdialplan 플랜: Exchange 2010 Help"를 참조 하세요.
+      - Exchange 2010의 경우에는에서 "Get UMDialplan 플랜: Exchange 2010 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679) 하세요.
     
-      - Exchange 2013의 경우 "통합 메시징"을 참조 [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)하세요.
+      - Exchange 2013의 경우 "통합 메시징"을 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) .
 
 3.  각 UM 다이얼 플랜의 다이얼 플랜 이름을 기록합니다. 사용 중인 Exchange Server 버전에 따라 다이얼 플랜 이름이 일치 하도록 각 UM 다이얼 플랜의 해당 Lync Server 다이얼 플랜 이름으로 나중에 각 다이얼 플랜 이름의 FQDN을 사용 해야 할 수 있습니다.
     
@@ -114,11 +116,11 @@ _**마지막으로 수정 된 항목:** 2013-02-24_
     
       - Exchange 관리 콘솔을 사용하도록 선택한 경우 서버에 대한 속성 시트에서 다이얼 플랜을 추가할 수 있습니다. 특정 지침은 Exchange Server 제품 설명서를 참조하십시오.
         
-        Exchange 2007의 경우에 [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681)는 "다이얼 플랜에 통합 메시징 서버를 추가 하는 방법"을 참조 하세요.
+        Exchange 2007의 경우에는 "다이얼 플랜에 통합 메시징 서버를 추가 하는 방법"을 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681) 하세요.
         
-        Exchange 2010의 경우에서 [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682)"UM 서버의 속성 보기 또는 구성"을 참조 하세요.
+        Exchange 2010의 경우에서 "UM 서버의 속성 보기 또는 구성"을 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682) .
         
-        Exchange 2013의 경우 "통합 메시징"을 참조 [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)하세요.
+        Exchange 2013의 경우 "통합 메시징"을 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) .
     
       - Exchange 관리 셸을 사용하는 경우 각 Exchange UM 서버에 대해 다음을 실행합니다.
         ```powershell
@@ -131,12 +133,12 @@ _**마지막으로 수정 된 항목:** 2013-02-24_
     
 
     > [!NOTE]  
-    > 다음 단계를 수행하기 전에 모든 Enterprise Voice 사용자가 Exchange Server 사서함에 구성되었는지 확인합니다.<BR>Exchange 2007의 경우 Exchange Server 2007 TechNet 라이브러리를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A>.<BR>Exchange 2010의 경우 Exchange Server 2010 TechNet 라이브러리를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A>.<BR>1단계에서 만든 각 다이얼 플랜에 대해 사서함 정책을 지정할 때 기본 정책 또는 사용자가 만든 정책을 선택할 수 있습니다.
+    > 다음 단계를 수행하기 전에 모든 Enterprise Voice 사용자가 Exchange Server 사서함에 구성되었는지 확인합니다.<BR>Exchange 2007의 경우 Exchange Server 2007 TechNet 라이브러리를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A> .<BR>Exchange 2010의 경우 Exchange Server 2010 TechNet 라이브러리를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A> .<BR>1단계에서 만든 각 다이얼 플랜에 대해 사서함 정책을 지정할 때 기본 정책 또는 사용자가 만든 정책을 선택할 수 있습니다.
 
     
     </div>
 
-5.  \<Exchange 설치 디렉터리\>\\스크립트로 이동한 다음 exchange가 단일 포리스트에 배포 된 경우 다음을 입력 합니다.
+5.  스크립트로 이동한 \<Exchange installation directory\> \\ 다음 Exchange가 단일 포리스트에 배포 된 경우 다음을 입력 합니다.
     ```console
     exchucutil.ps1
     ```
@@ -181,9 +183,9 @@ _**마지막으로 수정 된 항목:** 2013-02-24_
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        Exchange 2007의 경우 "설정-UMIPGateway: Exchange 2007 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687)하세요.
+        Exchange 2007의 경우 "설정-UMIPGateway: Exchange 2007 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687) 하세요.
         
-        Exchange 2010의 경우 "설정-UMIPGateway: Exchange 2010 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688)하세요.
+        Exchange 2010의 경우 "설정-UMIPGateway: Exchange 2010 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688) 하세요.
     
       - Exchange 관리 콘솔을 사용하는 경우 **이 IP 게이트웨이를 통해 발신 전화 허용** 확인란의 선택을 취소합니다.
     
@@ -212,9 +214,9 @@ _**마지막으로 수정 된 항목:** 2013-02-24_
     ```
     참조 항목
     
-      - Exchange 2007의 경우 "New UMAutoAttendant 전화 교환: Exchange 2007 Help"를 [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689)참조 하세요.
+      - Exchange 2007의 경우 "New UMAutoAttendant 전화 교환: Exchange 2007 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689) 하세요.
     
-      - Exchange 2010의 경우 "New UMAutoAttendant 전화 교환: Exchange 2010 Help"를 [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690)참조 하세요.
+      - Exchange 2010의 경우 "New UMAutoAttendant 전화 교환: Exchange 2010 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690) 하세요.
     
     Lync Server 사용자가 Enterprise Voice를 사용할 수 있도록 설정한 후 SIP Uri를 확인 한 후에는 각 사용자에 대해 다음 단계를 수행 해야 합니다.
 
@@ -234,9 +236,9 @@ _**마지막으로 수정 된 항목:** 2013-02-24_
     ```
     자세한 내용은 다음을 참조하세요.
     
-      - Exchange 2007의 경우 "Enable-UMMailbox: Exchange 2007 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691)하세요.
+      - Exchange 2007의 경우 "Enable-UMMailbox: Exchange 2007 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691) 하세요.
     
-      - Exchange 2010의 경우 "Enable-UMMailbox: Exchange 2010 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692)하세요.
+      - Exchange 2010의 경우 "Enable-UMMailbox: Exchange 2010 Help"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692) 하세요.
 
 </div>
 

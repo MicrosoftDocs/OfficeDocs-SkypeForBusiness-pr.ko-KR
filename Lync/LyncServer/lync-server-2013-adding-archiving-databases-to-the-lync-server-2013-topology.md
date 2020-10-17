@@ -12,20 +12,22 @@ ms:contentKeyID: 48183338
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83d6f4ff4b3881f9dfbd4707d2956aa738b9a375
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ebc2f06e6e3fa2646989e4697354c71f7f0249da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521395"
 ---
+# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a>Lync Server 2013 토폴로지에 보관 데이터베이스 추가
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a>Lync Server 2013 토폴로지에 보관 데이터베이스 추가
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**마지막으로 수정 된 항목:** 2012-10-10_
     
 
     > [!NOTE]  
-    > 로컬 Users 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만 토폴로지를 게시 하려면 토폴로지에 서버를 추가 하는 데 필요 합니다. <STRONG>Domain Admins</STRONG> 그룹 및 <STRONG>RTCUniversalServerAdmins</STRONG> 그룹의 구성원 인 계정을 사용 해야 하며, Lync server 2013 파일 저장소에 사용 하는 파일 공유에 대 한 모든 권한 (읽기, 쓰기 및 수정)을 포함 하는 경우, 즉 토폴로지 작성기에서 필요한 dacl (임의 액세스 제어 목록)을 구성할 수 있도록 합니다. 또는 이와 동등한 권한을 가진 계정
+    > 로컬 Users 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만 토폴로지에 서버를 추가 하는 데 필요한 토폴로지를 게시 하려면 <STRONG>Domain Admins</STRONG> 그룹 및 <STRONG>RTCUniversalServerAdmins</STRONG> 그룹의 구성원 인 계정을 사용 해야 합니다. 여기에는 Lync server 2013 파일 저장소에 사용 하는 파일 공유에 대 한 모든 권한 (읽기, 쓰기 및 수정)이 있으며, 토폴로지 작성기가 필요한 dacl (임의 액세스 제어 목록)을 구성할 수 있도록 하는 것이 좋습니다.
 
     
     </div>

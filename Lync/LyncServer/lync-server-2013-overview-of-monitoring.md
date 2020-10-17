@@ -12,20 +12,22 @@ ms:contentKeyID: 48184261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66dd239acbb274c7223363f1522f2d0c76590c37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c44ef02ef0685b4f930d7a264915d5338600ef71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520845"
 ---
+# <a name="overview-of-monitoring-in-lync-server-2013"></a>Lync Server 2013의 모니터링 개요
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-monitoring-in-lync-server-2013"></a>Lync Server 2013의 모니터링 개요
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2012-09-05_
 
 Microsoft Lync Server 2013에서는 모니터링을 사용 하 여 사용자가 관련 된 통신 세션에 대 한 사용 현황 정보 및 경력 (QoE) 데이터를 수집 합니다. 세션은 다음 항목들에 대한 사용자의 연결을 포함하는 일반 용어입니다.
 
-  - 전화
+  - 회의
 
   - 회의 형식(오디오/비디오 또는 응용 프로그램 공유)
 
@@ -69,7 +71,7 @@ Lync Server에서 수집한 통화 정보 정보는 다음과 같은 다양 한 
 
   - **품질에 영향을 주는 미디어 메트릭**. 이러한 메트릭은 통화 자체의 실제 전송을 다룹니다. 즉, 네트워크 내에서 통화가 이동될 때 일종의 이동 로그를 제공합니다. 이러한 메트릭(패킷 손실, 지터 및 왕복 시간 등 포함)은 사용자의 끝점을 떠난 시간부터 다른 사용자의 끝점에 도달한 시간 사이에 통화에 발생한 작업들에 대한 정보를 제공합니다.
 
-  - **최종 사용자에게 보고되는 문제**. 이러한 메트릭에는 Lync 2013이 최종 사용자에 게 너무 멀리 있거나 너무 작게 말하고, 네트워크에 연결 되지 않았거나, 컴퓨터에 있는 다른 프로그램에 문제가 발생 하 여 품질이 좋지 않은 경우의 잘못 된 품질 알림이 포함 됩니다. 사용 가능한 리소스 소비
+  - **최종 사용자에게 보고되는 문제**. 이러한 메트릭에는 Lync 2013이 최종 사용자에 게 너무 멀리 있거나 너무 작게 말하면 네트워크에 연결 되지 않거나, 컴퓨터의 다른 프로그램에서 사용 가능한 리소스를 소비 하 고 있으므로 품질이 나쁜 경우에는 잘못 된 품질 알림이 포함 됩니다.
 
   - **환경 정보**. 사용 중인 마이크 및 스피커 유형, 사용자가 VPN 연결을 통해 연결되었는지 여부 및 사용자가 무선 연결을 사용 중인지 여부와 같은 메트릭 세부 통화 품질 요소입니다.
 

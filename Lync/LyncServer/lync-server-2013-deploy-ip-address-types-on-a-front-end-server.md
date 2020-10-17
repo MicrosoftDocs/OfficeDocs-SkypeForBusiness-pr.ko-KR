@@ -12,20 +12,22 @@ ms:contentKeyID: 48185193
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e9c2f59cd3ee07e565a984ebb6f19d8ff07f50e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5037a723b16758280eec5ec4500e6f561cb9a8bc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179675"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521635"
 ---
+# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>Lync Server 2013에 대 한 프런트 엔드 서버에 IP 주소 유형 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>Lync Server 2013에 대 한 프런트 엔드 서버에 IP 주소 유형 배포
+
 
 </div>
 

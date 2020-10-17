@@ -12,20 +12,22 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de3d5132d7307f48de905f5bb6d28e53cbec14a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b5d9687069e82cde803f7a01873db482ea2afa2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184211"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521995"
 ---
+# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Lync Server 2013의 미디어 바이패스 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Lync Server 2013의 미디어 바이패스 계획
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 미디어 바이패스는 대기 시간, 불필요한 변환, 패킷 손실 가능성 및 잠재적 오류 지점 수를 줄여 음성 품질을 향상시킬 수 있습니다. 바이패스된 통화에 대한 미디어 처리가 없으므로 중재 서버에 대한 부하가 줄어 들어 확장성이 향상될 수 있습니다. 이러한 부하가 줄어들면 중재 서버가 여러 게이트웨이를 제어 하는 기능이 보완 됩니다.
 
-중재 서버가 없는 분기 사이트가 제한 된 대역폭을 사용 하는 하나 이상의 WAN 링크에 의해 중앙 사이트에 연결 되어 있는 경우 미디어 바이패스는 분기 사이트에 있는 클라이언트의 미디어가 로컬 게이트웨이로 바로 이동 하도록 허용 하 여 대역폭 요구 사항을 줄입니다. 먼저 WAN 링크에서 중앙 사이트의 중재 서버로 이동 하 고 다시 해야 합니다.
+중재 서버가 없는 분기 사이트가 제한 된 대역폭을 사용 하는 하나 이상의 WAN 링크를 통해 중앙 사이트에 연결 되어 있는 경우 미디어 바이패스는 먼저 WAN 링크에서 중앙 사이트의 중재 서버로 흐를 필요 없이 분기 사이트에 있는 클라이언트의 미디어가 로컬 게이트웨이로 직접 흐르도록 하 여 대역폭 요구 사항을 줄입니다.
 
 미디어 바이패스를 통해 중재 서버를 fea-mediation-server-role-plural 하 여 엔터프라이즈 음성 인프라에 필요한 중재 서버 수를 줄일 수도 있습니다.
 
