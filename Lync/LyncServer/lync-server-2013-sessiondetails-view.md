@@ -12,20 +12,22 @@ ms:contentKeyID: 49733859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66d883b48d1269fff8a57594101f083c88f1fbd1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8baf67ce72103ef0dda64a9b0b43a8f6dd6402f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510065"
 ---
+# <a name="sessiondetails-view-in-lync-server-2013"></a><span data-ttu-id="ee468-102">Lync Server 2013의 SessionDetails 보기</span><span class="sxs-lookup"><span data-stu-id="ee468-102">SessionDetails view in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessiondetails-view-in-lync-server-2013"></a><span data-ttu-id="fea98-102">Lync Server 2013의 SessionDetails 보기</span><span class="sxs-lookup"><span data-stu-id="fea98-102">SessionDetails view in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42200714"
 
 <span> </span>
 
-<span data-ttu-id="fea98-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="fea98-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="ee468-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="ee468-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="fea98-104">SessionDetails view에는 피어 투 피어 세션에 대 한 정보, 즉 VoIP 전화 통화, 두 사용자의 IM 세션 또는 기타 유형의 세션이 저장 됩니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-104">The SessionDetails view stores information about peer-to-peer sessions, which could be a VoIP-VoIP phone call, two-party IM session, or other type of session.</span></span> <span data-ttu-id="fea98-105">이 보기는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="ee468-104">SessionDetails 보기에는 피어 투 피어 세션에 대 한 정보, 즉 VoIP-VoIP 전화 통화, 두 사용자의 IM 세션 또는 기타 세션 유형이 저장 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-104">The SessionDetails view stores information about peer-to-peer sessions, which could be a VoIP-VoIP phone call, two-party IM session, or other type of session.</span></span> <span data-ttu-id="ee468-105">이 보기는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -48,257 +50,257 @@ ms.locfileid: "42200714"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fea98-106">열</span><span class="sxs-lookup"><span data-stu-id="fea98-106">Column</span></span></th>
-<th><span data-ttu-id="fea98-107">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="fea98-107">Data Type</span></span></th>
-<th><span data-ttu-id="fea98-108">세부 정보</span><span class="sxs-lookup"><span data-stu-id="fea98-108">Details</span></span></th>
+<th><span data-ttu-id="ee468-106">열</span><span class="sxs-lookup"><span data-stu-id="ee468-106">Column</span></span></th>
+<th><span data-ttu-id="ee468-107">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="ee468-107">Data Type</span></span></th>
+<th><span data-ttu-id="ee468-108">세부 정보</span><span class="sxs-lookup"><span data-stu-id="ee468-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-110">datetime</span><span class="sxs-lookup"><span data-stu-id="fea98-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="fea98-111">세션 요청 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-111">Time of session request.</span></span> <span data-ttu-id="fea98-112">SessionIdSeq와 함께 회의 세션을 고유하게 식별하기 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-112">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="fea98-113">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 테이블의 대화 상자 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fea98-113">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> Table for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-110">datetime</span><span class="sxs-lookup"><span data-stu-id="ee468-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="ee468-111">세션 요청 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-111">Time of session request.</span></span> <span data-ttu-id="ee468-112">SessionIdSeq와 함께 회의 세션을 고유하게 식별하기 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-112">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="ee468-113">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 테이블의 대화 상자 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ee468-113">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> Table for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-114"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-114"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-115">int</span><span class="sxs-lookup"><span data-stu-id="fea98-115">int</span></span></p></td>
-<td><p><span data-ttu-id="fea98-116">세션을 식별하기 위한 ID 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-116">ID number to identify the session.</span></span> <span data-ttu-id="fea98-117">SessionIdTime과 함께 세션을 고유하게 식별하기 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-117">Used in conjunction with SessionIdTime to uniquely identify a session.</span></span> <span data-ttu-id="fea98-118">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fea98-118">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-114"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-114"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-115">int</span><span class="sxs-lookup"><span data-stu-id="ee468-115">int</span></span></p></td>
+<td><p><span data-ttu-id="ee468-116">세션을 식별하기 위한 ID 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-116">ID number to identify the session.</span></span> <span data-ttu-id="ee468-117">SessionIdTime과 함께 세션을 고유하게 식별하기 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-117">Used in conjunction with SessionIdTime to uniquely identify a session.</span></span> <span data-ttu-id="ee468-118">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ee468-118">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-119"><strong>InviteTime</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-119"><strong>InviteTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-120">datetime</span><span class="sxs-lookup"><span data-stu-id="fea98-120">datetime</span></span></p></td>
-<td><p><span data-ttu-id="fea98-121">첫 번째 INVITE 요청의 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-121">Time of the first INVITE request.</span></span> <span data-ttu-id="fea98-122">이 필드는 일반적으로 세션의 초기 INVITE 메시지로부터 생성된 데이터로 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-122">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="fea98-123">INVITE 메시지가 없으면 첫 번째 관련 SIP 메시지(BYE, CANCEL, MESSAGE 또는 INFO)의 날짜 및 시간이 필드에 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-123">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span> <span data-ttu-id="fea98-124">이 필드는 일반적으로 세션에서 초기 INVITE 메시지로부터 생성된 데이터로 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-124">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="fea98-125">INVITE 메시지가 없으면 첫 번째 관련 SIP 메시지(BYE, CANCEL, MESSAGE 또는 INFO)의 날짜 및 시간이 필드에 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-125">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
+<td><p><span data-ttu-id="ee468-119"><strong>InviteTime</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-119"><strong>InviteTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-120">datetime</span><span class="sxs-lookup"><span data-stu-id="ee468-120">datetime</span></span></p></td>
+<td><p><span data-ttu-id="ee468-121">첫 번째 INVITE 요청의 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-121">Time of the first INVITE request.</span></span> <span data-ttu-id="ee468-122">이 필드는 일반적으로 세션의 초기 INVITE 메시지로부터 생성된 데이터로 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-122">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="ee468-123">INVITE 메시지가 없으면 첫 번째 관련 SIP 메시지(BYE, CANCEL, MESSAGE 또는 INFO)의 날짜 및 시간이 필드에 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-123">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span> <span data-ttu-id="ee468-124">이 필드는 일반적으로 세션에서 초기 INVITE 메시지로부터 생성된 데이터로 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-124">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="ee468-125">INVITE 메시지가 없으면 첫 번째 관련 SIP 메시지(BYE, CANCEL, MESSAGE 또는 INFO)의 날짜 및 시간이 필드에 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-125">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-126"><strong>FromUri</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-126"><strong>FromUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-127">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="fea98-127">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-128">세션을 시작한 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-128">URI of the user who started the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-126"><strong>FromUri</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-126"><strong>FromUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-127">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="ee468-127">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-128">세션을 시작한 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-128">URI of the user who started the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-129"><strong>ToUri</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-129"><strong>ToUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-130">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="fea98-130">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-131">세션에 참가 한 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-131">URI of the user who joined the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-129"><strong>ToUri</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-129"><strong>ToUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-130">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="ee468-130">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-131">세션에 참가 한 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-131">URI of the user who joined the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-132"><strong>FromUriType</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-132"><strong>FromUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-133">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-133">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-134">세션을 시작한 사용자의 URI 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-134">Type of URI of the user who started the session.</span></span> <span data-ttu-id="fea98-135">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fea98-135">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-132"><strong>FromUriType</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-132"><strong>FromUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-133">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-133">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-134">세션을 시작한 사용자의 URI 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-134">Type of URI of the user who started the session.</span></span> <span data-ttu-id="ee468-135">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ee468-135">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-136"><strong>ToUriType</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-136"><strong>ToUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-137">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-137">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-138">세션에 참가 한 사용자의 URI 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-138">Type of URI of the user who joined the session.</span></span> <span data-ttu-id="fea98-139">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fea98-139">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-136"><strong>ToUriType</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-136"><strong>ToUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-137">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-137">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-138">세션에 참가 한 사용자의 URI 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-138">Type of URI of the user who joined the session.</span></span> <span data-ttu-id="ee468-139">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ee468-139">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-140"><strong>FromTenant</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-140"><strong>FromTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-141">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="fea98-141">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-142">세션을 시작한 사용자의 테 넌 트입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-142">Tenant of the user who started the session.</span></span> <span data-ttu-id="fea98-143">자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fea98-143">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-140"><strong>FromTenant</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-140"><strong>FromTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-141">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="ee468-141">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-142">세션을 시작한 사용자의 테 넌 트입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-142">Tenant of the user who started the session.</span></span> <span data-ttu-id="ee468-143">자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ee468-143">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-144"><strong>ToTenant 넌 트</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-144"><strong>ToTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-145">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-145">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-146">세션에 참가 한 사용자의 테 넌 트입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-146">The tenant of the user who joined the session.</span></span> <span data-ttu-id="fea98-147">자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fea98-147">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-144"><strong>ToTenant 넌 트</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-144"><strong>ToTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-145">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-145">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-146">세션에 참가 한 사용자의 테 넌 트입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-146">The tenant of the user who joined the session.</span></span> <span data-ttu-id="ee468-147">자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ee468-147">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-148"><strong>FromEndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-148"><strong>FromEndpointId</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-149">고유</span><span class="sxs-lookup"><span data-stu-id="fea98-149">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="fea98-150">세션을 시작한 사용자의 끝점에 대 한 고유 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-150">Unique identifier of the endpoint of the user who started the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-148"><strong>FromEndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-148"><strong>FromEndpointId</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-149">고유</span><span class="sxs-lookup"><span data-stu-id="ee468-149">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="ee468-150">세션을 시작한 사용자의 끝점에 대 한 고유 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-150">Unique identifier of the endpoint of the user who started the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-151"><strong>ToEndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-151"><strong>ToEndpointId</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-152">고유</span><span class="sxs-lookup"><span data-stu-id="fea98-152">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="fea98-153">세션에 참가 한 사용자의 끝점에 대 한 고유 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-153">Unique identifier of the endpoint of the user who joined the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-151"><strong>ToEndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-151"><strong>ToEndpointId</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-152">고유</span><span class="sxs-lookup"><span data-stu-id="ee468-152">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="ee468-153">세션에 참가 한 사용자의 끝점에 대 한 고유 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-153">Unique identifier of the endpoint of the user who joined the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-154"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-154"><strong>EndTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-155">datetime</span><span class="sxs-lookup"><span data-stu-id="fea98-155">datetime</span></span></p></td>
-<td><p><span data-ttu-id="fea98-156">세션 종료 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-156">End time of the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-154"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-154"><strong>EndTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-155">datetime</span><span class="sxs-lookup"><span data-stu-id="ee468-155">datetime</span></span></p></td>
+<td><p><span data-ttu-id="ee468-156">세션 종료 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-156">End time of the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-157"><strong>FromMessageCount</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-157"><strong>FromMessageCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-158">int</span><span class="sxs-lookup"><span data-stu-id="fea98-158">int</span></span></p></td>
-<td><p><span data-ttu-id="fea98-159">세션을 시작한 사용자가 보낸 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-159">Number of messages sent by the user who started the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-157"><strong>FromMessageCount</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-157"><strong>FromMessageCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-158">int</span><span class="sxs-lookup"><span data-stu-id="ee468-158">int</span></span></p></td>
+<td><p><span data-ttu-id="ee468-159">세션을 시작한 사용자가 보낸 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-159">Number of messages sent by the user who started the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-160"><strong>ToMessageCount</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-160"><strong>ToMessageCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-161">int</span><span class="sxs-lookup"><span data-stu-id="fea98-161">int</span></span></p></td>
-<td><p><span data-ttu-id="fea98-162">세션에 참가 한 사용자가 보낸 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-162">Number of messages sent by the user who joined the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-160"><strong>ToMessageCount</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-160"><strong>ToMessageCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-161">int</span><span class="sxs-lookup"><span data-stu-id="ee468-161">int</span></span></p></td>
+<td><p><span data-ttu-id="ee468-162">세션에 참가 한 사용자가 보낸 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-162">Number of messages sent by the user who joined the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-163"><strong>FromClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-163"><strong>FromClientVersion</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-164">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-164">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-165">세션을 시작한 사용자가 사용 하는 클라이언트의 버전입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-165">Version of client used by the user who started the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-163"><strong>FromClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-163"><strong>FromClientVersion</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-164">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-164">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-165">세션을 시작한 사용자가 사용 하는 클라이언트의 버전입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-165">Version of client used by the user who started the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-166"><strong>FromClientType</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-166"><strong>FromClientType</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-167">int</span><span class="sxs-lookup"><span data-stu-id="fea98-167">int</span></span></p></td>
-<td><p><span data-ttu-id="fea98-168">세션을 시작한 사용자가 사용 하는 클라이언트입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-168">Client used by the user who started the session.</span></span> <span data-ttu-id="fea98-169">자세한 내용은 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013의 Useragentdef 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fea98-169">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-166"><strong>FromClientType</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-166"><strong>FromClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-167">int</span><span class="sxs-lookup"><span data-stu-id="ee468-167">int</span></span></p></td>
+<td><p><span data-ttu-id="ee468-168">세션을 시작한 사용자가 사용 하는 클라이언트입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-168">Client used by the user who started the session.</span></span> <span data-ttu-id="ee468-169">자세한 내용은 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013의 Useragentdef 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ee468-169">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-170"><strong>FromClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-170"><strong>FromClientCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-171">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="fea98-171">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-172">세션을 시작한 사용자가 사용 하는 클라이언트의 범주 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-172">Name of the category of the client used by the user who started the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-170"><strong>FromClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-170"><strong>FromClientCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-171">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="ee468-171">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-172">세션을 시작한 사용자가 사용 하는 클라이언트의 범주 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-172">Name of the category of the client used by the user who started the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-173"><strong>ToClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-173"><strong>ToClientVersion</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-174">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-174">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-175">세션에 참가 한 사용자가 사용한 클라이언트 버전입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-175">Version of client used by the user who joined the session</span></span></p></td>
+<td><p><span data-ttu-id="ee468-173"><strong>ToClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-173"><strong>ToClientVersion</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-174">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-174">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-175">세션에 참가 한 사용자가 사용한 클라이언트 버전입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-175">Version of client used by the user who joined the session</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-176"><strong>ToClientType</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-176"><strong>ToClientType</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-177">int</span><span class="sxs-lookup"><span data-stu-id="fea98-177">int</span></span></p></td>
-<td><p><span data-ttu-id="fea98-178">세션에 참가 한 사용자가 사용 하는 클라이언트입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-178">Client used by the user who joined the session.</span></span> <span data-ttu-id="fea98-179">자세한 내용은 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013의 Useragentdef 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fea98-179">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-176"><strong>ToClientType</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-176"><strong>ToClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-177">int</span><span class="sxs-lookup"><span data-stu-id="ee468-177">int</span></span></p></td>
+<td><p><span data-ttu-id="ee468-178">세션에 참가 한 사용자가 사용 하는 클라이언트입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-178">Client used by the user who joined the session.</span></span> <span data-ttu-id="ee468-179">자세한 내용은 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013의 Useragentdef 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ee468-179">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-180"><strong>ToClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-180"><strong>ToClientCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-181">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="fea98-181">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-182">세션에 참가 한 사용자가 사용 하는 클라이언트의 범주 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-182">Name of the category of the client used by the user who joined the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-180"><strong>ToClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-180"><strong>ToClientCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-181">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="ee468-181">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-182">세션에 참가 한 사용자가 사용 하는 클라이언트의 범주 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-182">Name of the category of the client used by the user who joined the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-183"><strong>TargetUri</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-183"><strong>TargetUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-184">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="fea98-184">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-185">세션 대상 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-185">URI of the target user of the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-183"><strong>TargetUri</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-183"><strong>TargetUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-184">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="ee468-184">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-185">세션 대상 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-185">URI of the target user of the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-186"><strong>TargetUriType</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-186"><strong>TargetUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-187">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="fea98-187">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-188">세션에 대 한 대상 사용자의 URI 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-188">Type of URI of the target user for the session.</span></span> <span data-ttu-id="fea98-189">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fea98-189">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-186"><strong>TargetUriType</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-186"><strong>TargetUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-187">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="ee468-187">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-188">세션에 대 한 대상 사용자의 URI 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-188">Type of URI of the target user for the session.</span></span> <span data-ttu-id="ee468-189">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ee468-189">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-190"><strong>OnBehalfOfUri</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-190"><strong>OnBehalfOfUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-191">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="fea98-191">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-192">세션을 대신 시작한 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-192">URI of the user on whose behalf the session was started.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-190"><strong>OnBehalfOfUri</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-190"><strong>OnBehalfOfUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-191">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="ee468-191">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-192">세션을 대신 시작한 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-192">URI of the user on whose behalf the session was started.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-193"><strong>OnnnBehalfOfUriType</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-193"><strong>OnnnBehalfOfUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-194">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-194">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-195">세션을 대신 시작한 사용자 URI의 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-195">Type of URI of the user on whose behalf the session was started.</span></span> <span data-ttu-id="fea98-196">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fea98-196">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-193"><strong>OnnnBehalfOfUriType</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-193"><strong>OnnnBehalfOfUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-194">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-194">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-195">세션을 대신 시작한 사용자 URI의 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-195">Type of URI of the user on whose behalf the session was started.</span></span> <span data-ttu-id="ee468-196">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ee468-196">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-197"><strong>OnBehalfOfTenant</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-197"><strong>OnBehalfOfTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-198">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-198">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-199">세션을 대신 시작한 사용자의 테넌트입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-199">Tenant of the user whose on behalf the session was started.</span></span> <span data-ttu-id="fea98-200">자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fea98-200">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-197"><strong>OnBehalfOfTenant</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-197"><strong>OnBehalfOfTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-198">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-198">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-199">세션을 대신 시작한 사용자의 테넌트입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-199">Tenant of the user whose on behalf the session was started.</span></span> <span data-ttu-id="ee468-200">자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ee468-200">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-201"><strong>ReferredByUri</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-201"><strong>ReferredByUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-202">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="fea98-202">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-203">세션을 참조한 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-203">URI of the user who referred the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-201"><strong>ReferredByUri</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-201"><strong>ReferredByUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-202">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="ee468-202">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-203">세션을 참조한 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-203">URI of the user who referred the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-204"><strong>ReferredByUriType</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-204"><strong>ReferredByUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-205">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-205">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-206">세션을 참조한 사용자 URI의 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-206">Type of URI of the user who referred the session.</span></span> <span data-ttu-id="fea98-207">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fea98-207">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-204"><strong>ReferredByUriType</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-204"><strong>ReferredByUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-205">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-205">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-206">세션을 참조한 사용자 URI의 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-206">Type of URI of the user who referred the session.</span></span> <span data-ttu-id="ee468-207">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ee468-207">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-208"><strong>ReferredByTenant</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-208"><strong>ReferredByTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-209">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-209">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-210">세션을 참조한 사용자의 테넌트입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-210">Tenant of the user who referred the session.</span></span> <span data-ttu-id="fea98-211">자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fea98-211">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-208"><strong>ReferredByTenant</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-208"><strong>ReferredByTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-209">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-209">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-210">세션을 참조한 사용자의 테넌트입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-210">Tenant of the user who referred the session.</span></span> <span data-ttu-id="ee468-211">자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ee468-211">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-212"><strong>DialogId</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-212"><strong>DialogId</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-213">varchar (775)</span><span class="sxs-lookup"><span data-stu-id="fea98-213">varchar(775)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-214">SIP 대화 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-214">SIP dialog ID.</span></span> <span data-ttu-id="fea98-215">형식:</span><span class="sxs-lookup"><span data-stu-id="fea98-215">The format is:</span></span></p>
-<p><span data-ttu-id="fea98-216">대화 상자, from 태그; to 태그</span><span class="sxs-lookup"><span data-stu-id="fea98-216">dialog;from-tag;to-tag</span></span></p></td>
+<td><p><span data-ttu-id="ee468-212"><strong>DialogId</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-212"><strong>DialogId</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-213">varchar (775)</span><span class="sxs-lookup"><span data-stu-id="ee468-213">varchar(775)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-214">SIP 대화 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-214">SIP dialog ID.</span></span> <span data-ttu-id="ee468-215">형식:</span><span class="sxs-lookup"><span data-stu-id="ee468-215">The format is:</span></span></p>
+<p><span data-ttu-id="ee468-216">대화 상자, from 태그; to 태그</span><span class="sxs-lookup"><span data-stu-id="ee468-216">dialog;from-tag;to-tag</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-217"><strong>관계</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-217"><strong>CorrelationId</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-218">고유</span><span class="sxs-lookup"><span data-stu-id="fea98-218">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="fea98-219">여러 세션을 상호 연결 하는 데 사용 되는 GUID입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-219">GUID used to correlate multiple sessions.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-217"><strong>관계</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-217"><strong>CorrelationId</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-218">고유</span><span class="sxs-lookup"><span data-stu-id="ee468-218">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="ee468-219">여러 세션을 상호 연결 하는 데 사용 되는 GUID입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-219">GUID used to correlate multiple sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-220"><strong>ReplaceDialogIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-220"><strong>ReplaceDialogIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-221">datetime</span><span class="sxs-lookup"><span data-stu-id="fea98-221">datetime</span></span></p></td>
-<td><p><span data-ttu-id="fea98-222">세션으로 교체 된 대화의 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-222">Time of the dialog which was replaced by the session.</span></span> <span data-ttu-id="fea98-223">ReplaceDialogIdSeq와 함께 사용 되어 세션으로 대체 되는 대화를 고유 하 게 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-223">Used in conjunction with ReplaceDialogIdSeq to uniquely identify a dialog that is replaced by the session.</span></span> <span data-ttu-id="fea98-224">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fea98-224">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-220"><strong>ReplaceDialogIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-220"><strong>ReplaceDialogIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-221">datetime</span><span class="sxs-lookup"><span data-stu-id="ee468-221">datetime</span></span></p></td>
+<td><p><span data-ttu-id="ee468-222">세션으로 교체 된 대화의 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-222">Time of the dialog which was replaced by the session.</span></span> <span data-ttu-id="ee468-223">ReplaceDialogIdSeq와 함께 사용 되어 세션으로 대체 되는 대화를 고유 하 게 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-223">Used in conjunction with ReplaceDialogIdSeq to uniquely identify a dialog that is replaced by the session.</span></span> <span data-ttu-id="ee468-224">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ee468-224">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-225"><strong>ReplaceDialogIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-225"><strong>ReplaceDialogIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-226">int</span><span class="sxs-lookup"><span data-stu-id="fea98-226">int</span></span></p></td>
-<td><p><span data-ttu-id="fea98-227">세션을 식별하기 위한 ID 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-227">ID number to identify the session.</span></span> <span data-ttu-id="fea98-228">ReplaceDialogIdTime와 함께 사용 되어 세션으로 대체 되는 대화를 고유 하 게 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-228">Used in conjunction with ReplaceDialogIdTime to uniquely identify a dialog that is replaced by the session.</span></span> <span data-ttu-id="fea98-229">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fea98-229">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-225"><strong>ReplaceDialogIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-225"><strong>ReplaceDialogIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-226">int</span><span class="sxs-lookup"><span data-stu-id="ee468-226">int</span></span></p></td>
+<td><p><span data-ttu-id="ee468-227">세션을 식별하기 위한 ID 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-227">ID number to identify the session.</span></span> <span data-ttu-id="ee468-228">ReplaceDialogIdTime와 함께 사용 되어 세션으로 대체 되는 대화를 고유 하 게 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-228">Used in conjunction with ReplaceDialogIdTime to uniquely identify a dialog that is replaced by the session.</span></span> <span data-ttu-id="ee468-229">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ee468-229">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-230"><strong>ReplacesDialogId</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-230"><strong>ReplacesDialogId</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-231">varchar (775)</span><span class="sxs-lookup"><span data-stu-id="fea98-231">varchar(775)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-232">세션이 교체하는 SIP 대화 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-232">SIP dialog ID the session replaces.</span></span> <span data-ttu-id="fea98-233">형식:</span><span class="sxs-lookup"><span data-stu-id="fea98-233">The format is:</span></span></p>
-<p><span data-ttu-id="fea98-234">대화 상자, from 태그; to 태그</span><span class="sxs-lookup"><span data-stu-id="fea98-234">dialog;from-tag;to-tag</span></span></p></td>
+<td><p><span data-ttu-id="ee468-230"><strong>ReplacesDialogId</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-230"><strong>ReplacesDialogId</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-231">varchar (775)</span><span class="sxs-lookup"><span data-stu-id="ee468-231">varchar(775)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-232">세션이 교체하는 SIP 대화 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-232">SIP dialog ID the session replaces.</span></span> <span data-ttu-id="ee468-233">형식:</span><span class="sxs-lookup"><span data-stu-id="ee468-233">The format is:</span></span></p>
+<p><span data-ttu-id="ee468-234">대화 상자, from 태그; to 태그</span><span class="sxs-lookup"><span data-stu-id="ee468-234">dialog;from-tag;to-tag</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-235"><strong>ResponseTime</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-235"><strong>ResponseTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-236">datetime</span><span class="sxs-lookup"><span data-stu-id="fea98-236">datetime</span></span></p></td>
-<td><p><span data-ttu-id="fea98-p120">첫 번째 INVITE 메시지에 대한 응답 시간입니다. 이 필드는 일반적으로 세션에서 초기 INVITE 메시지로부터 생성된 데이터로 채워집니다. INVITE 메시지가 없으면 첫 번째 관련 SIP 메시지(BYE, CANCEL, MESSAGE 또는 INFO)의 날짜 및 시간이 필드에 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-p120">Time of the response to the first INVITE message. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
+<td><p><span data-ttu-id="ee468-235"><strong>ResponseTime</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-235"><strong>ResponseTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-236">datetime</span><span class="sxs-lookup"><span data-stu-id="ee468-236">datetime</span></span></p></td>
+<td><p><span data-ttu-id="ee468-p120">첫 번째 INVITE 메시지에 대한 응답 시간입니다. 이 필드는 일반적으로 세션에서 초기 INVITE 메시지로부터 생성된 데이터로 채워집니다. INVITE 메시지가 없으면 첫 번째 관련 SIP 메시지(BYE, CANCEL, MESSAGE 또는 INFO)의 날짜 및 시간이 필드에 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-p120">Time of the response to the first INVITE message. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-240"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-240"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-241">int</span><span class="sxs-lookup"><span data-stu-id="fea98-241">int</span></span></p></td>
-<td><p><span data-ttu-id="fea98-p121">세션 초대에 대한 SIP 응답 코드입니다. 이 필드는 일반적으로 세션에서 초기 INVITE 메시지로부터 생성된 데이터로 채워집니다. INVITE 메시지가 없으면 첫 번째 관련 SIP 메시지(BYE, CANCEL, MESSAGE 또는 INFO)의 날짜 및 시간이 필드에 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-p121">SIP response code to the session invitation. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
+<td><p><span data-ttu-id="ee468-240"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-240"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-241">int</span><span class="sxs-lookup"><span data-stu-id="ee468-241">int</span></span></p></td>
+<td><p><span data-ttu-id="ee468-p121">세션 초대에 대한 SIP 응답 코드입니다. 이 필드는 일반적으로 세션에서 초기 INVITE 메시지로부터 생성된 데이터로 채워집니다. INVITE 메시지가 없으면 첫 번째 관련 SIP 메시지(BYE, CANCEL, MESSAGE 또는 INFO)의 날짜 및 시간이 필드에 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-p121">SIP response code to the session invitation. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-245"><strong>DiagnosticId</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-245"><strong>DiagnosticId</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-246">int</span><span class="sxs-lookup"><span data-stu-id="fea98-246">int</span></span></p></td>
-<td><p><span data-ttu-id="fea98-247">SIP 헤더에서 캡처된 진단 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-247">Diagnostic ID captured from SIP headers.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-245"><strong>DiagnosticId</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-245"><strong>DiagnosticId</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-246">int</span><span class="sxs-lookup"><span data-stu-id="ee468-246">int</span></span></p></td>
+<td><p><span data-ttu-id="ee468-247">SIP 헤더에서 캡처된 진단 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-247">Diagnostic ID captured from SIP headers.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-248"><strong>ContentType</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-248"><strong>ContentType</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-249">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-249">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-250">세션의 콘텐츠 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-250">Type of content for the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-248"><strong>ContentType</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-248"><strong>ContentType</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-249">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-249">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-250">세션의 콘텐츠 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-250">Type of content for the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-251"><strong>프런트</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-251"><strong>FrontEnd</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-252">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-252">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-253">세션에 대해 데이터를 캡처한 프런트 엔드 서버의 FQDN입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-253">FQDN of the Front End server that captured the data for the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-251"><strong>FrontEnd</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-251"><strong>FrontEnd</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-252">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-252">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-253">세션에 대해 데이터를 캡처한 프런트 엔드 서버의 FQDN입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-253">FQDN of the Front End server that captured the data for the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-254"><strong>그룹</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-254"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-255">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-255">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-256">세션에 대해 데이터를 캡처한 풀의 FQDN입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-256">FQDN of the pool that captured the data for the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-254"><strong>풀</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-254"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-255">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-255">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-256">세션에 대해 데이터를 캡처한 풀의 FQDN입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-256">FQDN of the pool that captured the data for the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-257"><strong>FromEdgeServer</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-257"><strong>FromEdgeServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-258">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-258">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-259">세션을 시작한 사용자가 사용 하는에 지 서버의 FQDN입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-259">FQDN of the Edge server used by the user who started the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-257"><strong>FromEdgeServer</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-257"><strong>FromEdgeServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-258">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-258">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-259">세션을 시작한 사용자가 사용 하는에 지 서버의 FQDN입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-259">FQDN of the Edge server used by the user who started the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-260"><strong>ToEdgeServer</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-260"><strong>ToEdgeServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-261">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-261">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-262">세션을 시작한 사용자가 사용 하는에 지 서버의 FQDN입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-262">FQDN of the Edge server used by the user who started the session</span></span></p></td>
+<td><p><span data-ttu-id="ee468-260"><strong>ToEdgeServer</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-260"><strong>ToEdgeServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-261">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-261">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-262">세션을 시작한 사용자가 사용 하는에 지 서버의 FQDN입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-262">FQDN of the Edge server used by the user who started the session</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-263"><strong>IsFromInternal</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-263"><strong>IsFromInternal</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-264">비트만</span><span class="sxs-lookup"><span data-stu-id="fea98-264">bit</span></span></p></td>
-<td><p><span data-ttu-id="fea98-265">세션을 시작한 사용자가 내부 네트워크에서 로그온 했는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-265">Indicates whether the user who started the session logged on from the internal network.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-263"><strong>IsFromInternal</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-263"><strong>IsFromInternal</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-264">비트만</span><span class="sxs-lookup"><span data-stu-id="ee468-264">bit</span></span></p></td>
+<td><p><span data-ttu-id="ee468-265">세션을 시작한 사용자가 내부 네트워크에서 로그온 했는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-265">Indicates whether the user who started the session logged on from the internal network.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-266"><strong>IsToInternal</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-266"><strong>IsToInternal</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-267">비트만</span><span class="sxs-lookup"><span data-stu-id="fea98-267">bit</span></span></p></td>
-<td><p><span data-ttu-id="fea98-268">세션에 참가 한 사용자가 내부 네트워크에서 로그온 했는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-268">Indicates whether the user who joined the session logged on from the internal network.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-266"><strong>IsToInternal</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-266"><strong>IsToInternal</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-267">비트만</span><span class="sxs-lookup"><span data-stu-id="ee468-267">bit</span></span></p></td>
+<td><p><span data-ttu-id="ee468-268">세션에 참가 한 사용자가 내부 네트워크에서 로그온 했는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-268">Indicates whether the user who joined the session logged on from the internal network.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-269"><strong>CallPriority</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-269"><strong>CallPriority</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-270">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="fea98-270">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-271">세션의 통화 우선 순위입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-271">Call priority of the session.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-269"><strong>CallPriority</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-269"><strong>CallPriority</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-270">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="ee468-270">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-271">세션의 통화 우선 순위입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-271">Call priority of the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-272"><strong>FromUserFlag</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-272"><strong>FromUserFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-273">smallint</span><span class="sxs-lookup"><span data-stu-id="fea98-273">smallint</span></span></p></td>
-<td><p><span data-ttu-id="fea98-274">세션을 시작한 사용자의 특성을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-274">Indicates the attributes of the user who started the session.</span></span> <span data-ttu-id="fea98-275">허용된 특성 정의는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-275">The following attribute definitions are allowed:</span></span></p>
-<p><span data-ttu-id="fea98-276">0x01 - 데스크톱 전화와 통합됨</span><span class="sxs-lookup"><span data-stu-id="fea98-276">0x01 - Integrated with desktop phone</span></span></p></td>
+<td><p><span data-ttu-id="ee468-272"><strong>FromUserFlag</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-272"><strong>FromUserFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-273">smallint</span><span class="sxs-lookup"><span data-stu-id="ee468-273">smallint</span></span></p></td>
+<td><p><span data-ttu-id="ee468-274">세션을 시작한 사용자의 특성을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-274">Indicates the attributes of the user who started the session.</span></span> <span data-ttu-id="ee468-275">허용된 특성 정의는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-275">The following attribute definitions are allowed:</span></span></p>
+<p><span data-ttu-id="ee468-276">0x01 - 데스크톱 전화와 통합됨</span><span class="sxs-lookup"><span data-stu-id="ee468-276">0x01 - Integrated with desktop phone</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-277"><strong>ToUserFlag</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-277"><strong>ToUserFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-278">smallint</span><span class="sxs-lookup"><span data-stu-id="fea98-278">smallint</span></span></p></td>
-<td><p><span data-ttu-id="fea98-279">세션을 시작한 사용자의 특성을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-279">Indicates the attributes of the user who started the session.</span></span> <span data-ttu-id="fea98-280">허용된 특성 정의는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-280">The following attribute definitions are allowed:</span></span></p>
-<p><span data-ttu-id="fea98-281">0x01 - 데스크톱 전화와 통합됨</span><span class="sxs-lookup"><span data-stu-id="fea98-281">0x01 - Integrated with desktop phone</span></span></p></td>
+<td><p><span data-ttu-id="ee468-277"><strong>ToUserFlag</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-277"><strong>ToUserFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-278">smallint</span><span class="sxs-lookup"><span data-stu-id="ee468-278">smallint</span></span></p></td>
+<td><p><span data-ttu-id="ee468-279">세션을 시작한 사용자의 특성을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-279">Indicates the attributes of the user who started the session.</span></span> <span data-ttu-id="ee468-280">허용된 특성 정의는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-280">The following attribute definitions are allowed:</span></span></p>
+<p><span data-ttu-id="ee468-281">0x01 - 데스크톱 전화와 통합됨</span><span class="sxs-lookup"><span data-stu-id="ee468-281">0x01 - Integrated with desktop phone</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fea98-282"><strong>CallFlag</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-282"><strong>CallFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-283">smallint</span><span class="sxs-lookup"><span data-stu-id="fea98-283">smallint</span></span></p></td>
-<td><p><span data-ttu-id="fea98-p124">통화 특성을 나타냅니다. 허용된 특성 정의는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-p124">Indicates the call attributes. The following attribute definitions are allowed:</span></span></p>
-<p><span data-ttu-id="fea98-286">0x01 - 다시 시도된 세션</span><span class="sxs-lookup"><span data-stu-id="fea98-286">0x01 - Retried Session</span></span></p>
-<p><span data-ttu-id="fea98-287">0x02-응답 그룹을 대신 하 여 에이전트가 수행한 통화입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-287">0x02 - A call made by agent on behalf of a Response Group</span></span></p></td>
+<td><p><span data-ttu-id="ee468-282"><strong>CallFlag</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-282"><strong>CallFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-283">smallint</span><span class="sxs-lookup"><span data-stu-id="ee468-283">smallint</span></span></p></td>
+<td><p><span data-ttu-id="ee468-p124">통화 특성을 나타냅니다. 허용된 특성 정의는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-p124">Indicates the call attributes. The following attribute definitions are allowed:</span></span></p>
+<p><span data-ttu-id="ee468-286">0x01 - 다시 시도된 세션</span><span class="sxs-lookup"><span data-stu-id="ee468-286">0x01 - Retried Session</span></span></p>
+<p><span data-ttu-id="ee468-287">0x02-응답 그룹을 대신 하 여 에이전트가 수행한 통화입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-287">0x02 - A call made by agent on behalf of a Response Group</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fea98-288"><strong>위치</strong></span><span class="sxs-lookup"><span data-stu-id="fea98-288"><strong>Location</strong></span></span></p></td>
-<td><p><span data-ttu-id="fea98-289">varchar (max)</span><span class="sxs-lookup"><span data-stu-id="fea98-289">varchar(max)</span></span></p></td>
-<td><p><span data-ttu-id="fea98-290">응급 통화의 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="fea98-290">Location of emergency call.</span></span></p></td>
+<td><p><span data-ttu-id="ee468-288"><strong>위치</strong></span><span class="sxs-lookup"><span data-stu-id="ee468-288"><strong>Location</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee468-289">varchar (max)</span><span class="sxs-lookup"><span data-stu-id="ee468-289">varchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="ee468-290">응급 통화의 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="ee468-290">Location of emergency call.</span></span></p></td>
 </tr>
 </tbody>
 </table>

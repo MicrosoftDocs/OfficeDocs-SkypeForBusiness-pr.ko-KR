@@ -12,20 +12,22 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aba7d5f1b279ba83a5a6053d2197c90253dd84ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1432480cbe62aedfc5c05362cc322d971c3cb321
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510865"
 ---
+# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a><span data-ttu-id="ee583-102">Lync Server 2013에서 바이러스 검사 및 바이러스 정의 확인</span><span class="sxs-lookup"><span data-stu-id="ee583-102">Scanning for viruses and checking virus definitions in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a><span data-ttu-id="bd573-102">Lync Server 2013에서 바이러스 검사 및 바이러스 정의 확인</span><span class="sxs-lookup"><span data-stu-id="bd573-102">Scanning for viruses and checking virus definitions in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42182741"
 
 <span> </span>
 
-<span data-ttu-id="bd573-103">_**마지막으로 수정 된 항목:** 2014-05-01_</span><span class="sxs-lookup"><span data-stu-id="bd573-103">_**Topic Last Modified:** 2014-05-01_</span></span>
+<span data-ttu-id="ee583-103">_**마지막으로 수정 된 항목:** 2014-05-01_</span><span class="sxs-lookup"><span data-stu-id="ee583-103">_**Topic Last Modified:** 2014-05-01_</span></span>
 
-<span data-ttu-id="bd573-104">IM 수준 바이러스 백신 제품을 설치 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="bd573-104">We highly recommend installing an IM-level antivirus product.</span></span> <span data-ttu-id="bd573-105">IM은 조직 전체에서 바이러스 및 악성 소프트웨어를 빠르게 분배 하기 위해 잘 알려진 출처입니다.</span><span class="sxs-lookup"><span data-stu-id="bd573-105">IM is a well-known source for quickly spreading both virus and malicious software throughout an organization.</span></span> <span data-ttu-id="bd573-106">Lync Server에 대 한 Microsoft Forefront® Security에서는 바이러스, 악성 소프트웨어, 파일 및 키워드 필터 보호와 Office Communications Server와의 원활한 통합을 통해 다중 엔진 검색 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="bd573-106">Microsoft Forefront® Security for Lync Server provides multi-engine scanning with virus, malicious software, file and keyword filter protection and seamless integration with Office Communications Server.</span></span>
+<span data-ttu-id="ee583-104">IM 수준 바이러스 백신 제품을 설치 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="ee583-104">We highly recommend installing an IM-level antivirus product.</span></span> <span data-ttu-id="ee583-105">IM은 조직 전체에서 바이러스 및 악성 소프트웨어를 빠르게 분배 하기 위해 잘 알려진 출처입니다.</span><span class="sxs-lookup"><span data-stu-id="ee583-105">IM is a well-known source for quickly spreading both virus and malicious software throughout an organization.</span></span> <span data-ttu-id="ee583-106">Lync Server에 대 한 Microsoft Forefront® Security에서는 바이러스, 악성 소프트웨어, 파일 및 키워드 필터 보호와 Office Communications Server와의 원활한 통합을 통해 다중 엔진 검색 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee583-106">Microsoft Forefront® Security for Lync Server provides multi-engine scanning with virus, malicious software, file and keyword filter protection and seamless integration with Office Communications Server.</span></span>
 
-<span data-ttu-id="bd573-107">Lync Server에 대 한 Forefront 보안 외에도 파일 수준 바이러스 백신 솔루션을 설치 하 여 서버의 파일 시스템을 보호 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="bd573-107">In addition to Forefront Security for Lync Server, we also highly recommend installing a file-level, antivirus solution to protect the server’s file system.</span></span>
+<span data-ttu-id="ee583-107">Lync Server에 대 한 Forefront 보안 외에도 파일 수준 바이러스 백신 솔루션을 설치 하 여 서버의 파일 시스템을 보호 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="ee583-107">In addition to Forefront Security for Lync Server, we also highly recommend installing a file-level, antivirus solution to protect the server’s file system.</span></span>
 
-<span data-ttu-id="bd573-108">스캐너 엔진 및 바이러스 정의를 업데이트 된 상태로 유지 하는 것이 매우 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="bd573-108">Keeping scanner engines and virus definitions updated is very important.</span></span> <span data-ttu-id="bd573-109">업데이트 상태를 구성 하 고 모니터링 하면 최신 검색 정보를 사용 하 여 Office Communications Server와 파일 시스템을 모두 보호 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bd573-109">Configuring and monitoring the health of the updates makes sure that the most current scanning information is being used to protect both Office Communications Server and file-system.</span></span>
+<span data-ttu-id="ee583-108">스캐너 엔진 및 바이러스 정의를 업데이트 된 상태로 유지 하는 것이 매우 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee583-108">Keeping scanner engines and virus definitions updated is very important.</span></span> <span data-ttu-id="ee583-109">업데이트 상태를 구성 하 고 모니터링 하면 최신 검색 정보를 사용 하 여 Office Communications Server와 파일 시스템을 모두 보호 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee583-109">Configuring and monitoring the health of the updates makes sure that the most current scanning information is being used to protect both Office Communications Server and file-system.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="bd573-110">Lync server를 2013 실행 하는 서버에서 타사 파일 수준 바이러스 백신 소프트웨어를 사용 하는 경우에는 lync server에 대해 Forefront Security 및 Lync server가 설치 되어 있는 폴더를 검색 하지 않도록 합니다. 손상</span><span class="sxs-lookup"><span data-stu-id="bd573-110">When using a third-party, file-level antivirus software on a server that runs Lync Server 2013 and Forefront Security for Lync Server, make sure that the folders in which Forefront Security for Lync Server and the Lync Server are installed are not scanned, to prevent their corruption.</span></span> <span data-ttu-id="bd573-111">전체 제외 항목 목록은를 참조 <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>하세요.</span><span class="sxs-lookup"><span data-stu-id="bd573-111">For the full list of exclusions, see <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>.</span></span>
+> <span data-ttu-id="ee583-110">Lync server 2013을 실행 하는 서버에서 타사 파일 수준 바이러스 백신 소프트웨어를 사용 하는 경우 lync server에 대해 Forefront Security을 설치 하는 경우에는이를 방지 하기 위해 Lync 서버 및 Lync Server를 설치한 폴더를 검사 하지 않아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee583-110">When using a third-party, file-level antivirus software on a server that runs Lync Server 2013 and Forefront Security for Lync Server, make sure that the folders in which Forefront Security for Lync Server and the Lync Server are installed are not scanned, to prevent their corruption.</span></span> <span data-ttu-id="ee583-111">전체 제외 항목 목록은를 참조 하세요 <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A> .</span><span class="sxs-lookup"><span data-stu-id="ee583-111">For the full list of exclusions, see <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>.</span></span>
 
 
 

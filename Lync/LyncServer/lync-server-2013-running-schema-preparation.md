@@ -12,20 +12,22 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12dda05b36406e620c08abac494dceecc7d314d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 202052ce01bca6cdc11e8ed36dfede9afba74b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201134"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511105"
 ---
+# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a><span data-ttu-id="29e02-102">Lync Server 2013에서 Active Directory 스키마 준비 실행</span><span class="sxs-lookup"><span data-stu-id="29e02-102">Running Active Directory schema preparation in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a><span data-ttu-id="05e46-102">Lync Server 2013에서 Active Directory 스키마 준비 실행</span><span class="sxs-lookup"><span data-stu-id="05e46-102">Running Active Directory schema preparation in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,103 +37,103 @@ ms.locfileid: "42201134"
 
 <span> </span>
 
-<span data-ttu-id="05e46-103">_**마지막으로 수정 된 항목:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="05e46-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+<span data-ttu-id="29e02-103">_**마지막으로 수정 된 항목:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="29e02-103">_**Topic Last Modified:** 2012-10-29_</span></span>
 
-<span data-ttu-id="05e46-104">설치 또는 Lync Server 관리 셸 cmdlet을 사용 하 여 Active Directory 스키마를 준비할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-104">You can use Setup or Lync Server Management Shell cmdlets to prepare the Active Directory schema.</span></span> <span data-ttu-id="05e46-105">Active Directory 스키마를 확장하는 cmdlet은 **Install-CsAdServerSchema**입니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-105">The cmdlet that extends the Active Directory schema is **Install-CsAdServerSchema**.</span></span>
+<span data-ttu-id="29e02-104">설치 또는 Lync Server 관리 셸 cmdlet을 사용 하 여 Active Directory 스키마를 준비할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-104">You can use Setup or Lync Server Management Shell cmdlets to prepare the Active Directory schema.</span></span> <span data-ttu-id="29e02-105">Active Directory 스키마를 확장하는 cmdlet은 **Install-CsAdServerSchema**입니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-105">The cmdlet that extends the Active Directory schema is **Install-CsAdServerSchema**.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="05e46-106">스키마 준비 cmdlet(<STRONG>Install-CsAdServerSchema</STRONG>)에서는 스키마 마스터에 액세스해야 하며, 이를 위해서는 원격 레지스트리 서비스가 실행되고 원격 레지스트리 키가 사용할 수 있도록 설정되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-106">The schema preparation cmdlet (<STRONG>Install-CsAdServerSchema</STRONG>) must access the schema master, which requires that the remote registry service is running and that the remote registry key is enabled.</span></span> <span data-ttu-id="05e46-107">스키마 마스터에서 원격 레지스트리 서비스를 사용할 수 없는 경우에는 스키마 마스터에서 로컬로 cmdlet를 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-107">If the remote registry service cannot be enabled on the schema master, you can run the cmdlet locally on the schema master.</span></span> <span data-ttu-id="05e46-108">레지스트리 원격 액세스에 대 한 자세한 내용은 Microsoft 기술 자료 문서 314837, "레지스트리에 대 한 원격 액세스를 관리 하는 방법" <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A>을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="05e46-108">For details about registry remote access, see Microsoft Knowledge Base article 314837, "How to Manage Remote Access to the Registry," at <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A>.</span></span>
+> <span data-ttu-id="29e02-106">스키마 준비 cmdlet(<STRONG>Install-CsAdServerSchema</STRONG>)에서는 스키마 마스터에 액세스해야 하며, 이를 위해서는 원격 레지스트리 서비스가 실행되고 원격 레지스트리 키가 사용할 수 있도록 설정되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-106">The schema preparation cmdlet (<STRONG>Install-CsAdServerSchema</STRONG>) must access the schema master, which requires that the remote registry service is running and that the remote registry key is enabled.</span></span> <span data-ttu-id="29e02-107">스키마 마스터에서 원격 레지스트리 서비스를 사용할 수 없는 경우에는 스키마 마스터에서 로컬로 cmdlet를 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-107">If the remote registry service cannot be enabled on the schema master, you can run the cmdlet locally on the schema master.</span></span> <span data-ttu-id="29e02-108">레지스트리 원격 액세스에 대 한 자세한 내용은 Microsoft 기술 자료 문서 314837, "레지스트리에 대 한 원격 액세스를 관리 하는 방법"을 참조 하십시오 <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A> .</span><span class="sxs-lookup"><span data-stu-id="29e02-108">For details about registry remote access, see Microsoft Knowledge Base article 314837, "How to Manage Remote Access to the Registry," at <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="05e46-109">스키마 준비가 완료되면 포리스트 준비를 진행하기 전에 스키마 파티션이 복제되었는지 수동으로 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-109">After you complete schema preparation, manually verify that the schema partition has been replicated before proceeding to forest preparation.</span></span> <span data-ttu-id="05e46-110">자세한 내용은 [Lync Server 2013에서 Active Directory 스키마 복제 확인](lync-server-2013-verifying-schema-replication.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="05e46-110">For details, see [Verifying Active Directory schema replication in Lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span></span>
+<span data-ttu-id="29e02-109">스키마 준비가 완료되면 포리스트 준비를 진행하기 전에 스키마 파티션이 복제되었는지 수동으로 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-109">After you complete schema preparation, manually verify that the schema partition has been replicated before proceeding to forest preparation.</span></span> <span data-ttu-id="29e02-110">자세한 내용은 [Lync Server 2013에서 Active Directory 스키마 복제 확인](lync-server-2013-verifying-schema-replication.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="29e02-110">For details, see [Verifying Active Directory schema replication in Lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span></span>
 
 <div>
 
-## <a name="to-use-setup-to-prepare-the-schema-of-the-current-forest"></a><span data-ttu-id="05e46-111">설치 프로그램을 사용하여 현재 포리스트의 스키마를 준비하려면</span><span class="sxs-lookup"><span data-stu-id="05e46-111">To use Setup to prepare the schema of the current forest</span></span>
+## <a name="to-use-setup-to-prepare-the-schema-of-the-current-forest"></a><span data-ttu-id="29e02-111">설치 프로그램을 사용하여 현재 포리스트의 스키마를 준비하려면</span><span class="sxs-lookup"><span data-stu-id="29e02-111">To use Setup to prepare the schema of the current forest</span></span>
 
-1.  <span data-ttu-id="05e46-112">스키마 마스터의 관리자 권한을 가진 Schema Admins 그룹의 구성원으로 포리스트의 서버에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-112">Log on to a server in your forest as a member of the Schema Admins group and with administrator rights on the schema master.</span></span>
+1.  <span data-ttu-id="29e02-112">스키마 마스터의 관리자 권한을 가진 Schema Admins 그룹의 구성원으로 포리스트의 서버에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-112">Log on to a server in your forest as a member of the Schema Admins group and with administrator rights on the schema master.</span></span>
 
-2.  <span data-ttu-id="05e46-113">Lync Server 2013 설치 폴더 또는 미디어에서 Setup.exe를 실행 하 여 배포 마법사를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-113">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Deployment Wizard.</span></span>
+2.  <span data-ttu-id="29e02-113">Lync Server 2013 설치 폴더 또는 미디어에서 Setup.exe를 실행 하 여 배포 마법사를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-113">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Deployment Wizard.</span></span>
 
-3.  <span data-ttu-id="05e46-114">Microsoft Visual C++ 재배포 가능 파일을 설치하라는 메시지가 표시되면 **예**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-114">If you are prompted to install the Microsoft Visual C++ Redistributable, click **Yes**.</span></span>
+3.  <span data-ttu-id="29e02-114">Microsoft Visual C++ 재배포 가능 파일을 설치하라는 메시지가 표시되면 **예**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-114">If you are prompted to install the Microsoft Visual C++ Redistributable, click **Yes**.</span></span>
 
-4.  <span data-ttu-id="05e46-115">Lync server 2013 설치 대화 상자에 Lync Server 파일을 설치할 위치를 묻는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-115">The Lync Server 2013 Setup dialog box prompts you for a location to install the Lync Server files.</span></span> <span data-ttu-id="05e46-116">기본 위치를 선택하거나 **찾아보기**를 클릭하여 원하는 위치를 선택한 후에 **설치**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-116">Choose the default location or **Browse** to a location of your choice, and then click **Install**.</span></span>
+4.  <span data-ttu-id="29e02-115">Lync server 2013 설치 대화 상자에 Lync Server 파일을 설치할 위치를 묻는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-115">The Lync Server 2013 Setup dialog box prompts you for a location to install the Lync Server files.</span></span> <span data-ttu-id="29e02-116">기본 위치를 선택하거나 **찾아보기**를 클릭하여 원하는 위치를 선택한 후에 **설치**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-116">Choose the default location or **Browse** to a location of your choice, and then click **Install**.</span></span>
 
-5.  <span data-ttu-id="05e46-117">사용권 계약 페이지에서 **동의함**을 선택한 다음 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-117">On the License Agreement page, check **I accept the terms in the license agreement**, and then click **OK**.</span></span>
+5.  <span data-ttu-id="29e02-117">사용권 계약 페이지에서 **동의함**을 선택한 다음 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-117">On the License Agreement page, check **I accept the terms in the license agreement**, and then click **OK**.</span></span>
 
-6.  <span data-ttu-id="05e46-118">설치 관리자가 Lync Server 핵심 구성 요소를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-118">The installer installs the Lync Server Core Components.</span></span>
+6.  <span data-ttu-id="29e02-118">설치 관리자가 Lync Server 핵심 구성 요소를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-118">The installer installs the Lync Server Core Components.</span></span>
 
-7.  <span data-ttu-id="05e46-119">배포 마법사를 사용할 준비가 되었으면 **Active Directory 준비**를 클릭한 후 배포 상태가 확인될 때까지 기다립니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-119">When the Deployment Wizard is ready, click **Prepare Active Directory**, and then wait for the deployment state to be determined.</span></span>
+7.  <span data-ttu-id="29e02-119">배포 마법사를 사용할 준비가 되었으면 **Active Directory 준비**를 클릭한 후 배포 상태가 확인될 때까지 기다립니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-119">When the Deployment Wizard is ready, click **Prepare Active Directory**, and then wait for the deployment state to be determined.</span></span>
 
-8.  <span data-ttu-id="05e46-120">**1단계: 스키마 준비**에서 **실행**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-120">At **Step 1: Prepare Schema**, click **Run**.</span></span>
+8.  <span data-ttu-id="29e02-120">**1단계: 스키마 준비**에서 **실행**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-120">At **Step 1: Prepare Schema**, click **Run**.</span></span>
 
-9.  <span data-ttu-id="05e46-121">**스키마 준비** 페이지에서 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-121">On the **Prepare Schema** page, click **Next**.</span></span>
+9.  <span data-ttu-id="29e02-121">**스키마 준비** 페이지에서 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-121">On the **Prepare Schema** page, click **Next**.</span></span>
 
-10. <span data-ttu-id="05e46-122">**명령 실행** 페이지에서 **작업 상태: 완료됨**을 찾은 다음 **로그 보기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-122">On the **Executing Commands** page, look for **Task status: Completed**, and then click **View Log**.</span></span>
+10. <span data-ttu-id="29e02-122">**명령 실행** 페이지에서 **작업 상태: 완료됨**을 찾은 다음 **로그 보기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-122">On the **Executing Commands** page, look for **Task status: Completed**, and then click **View Log**.</span></span>
 
-11. <span data-ttu-id="05e46-123">**동작** 열 아래에서 **스키마 준비**를 확장 하 고 각 작업 끝에 있는 \*\* \<성공\> \*\* 실행 결과를 찾아서 스키마 준비가 성공적으로 완료 되었는지 확인 한 다음 로그를 닫고 **마침을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-123">Under the **Action** column, expand **Schema Prep**, look for the **\<Success\>** Execution Result at the end of each task to verify that schema preparation completed successfully, close the log, and then click **Finish**.</span></span>
+11. <span data-ttu-id="29e02-123">**동작** 열 아래에 있는 **스키마 준비**를 확장 하 고 **\<Success\>** 각 작업 끝에 있는 실행 결과를 찾아서 스키마 준비가 성공적으로 완료 되었는지 확인 한 다음 로그를 닫고 **마침을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-123">Under the **Action** column, expand **Schema Prep**, look for the **\<Success\>** Execution Result at the end of each task to verify that schema preparation completed successfully, close the log, and then click **Finish**.</span></span>
 
-12. <span data-ttu-id="05e46-124">Active Directory 복제가 완료될 때까지 기다리거나 복제를 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-124">Wait for Active Directory replication to complete or force replication.</span></span>
+12. <span data-ttu-id="29e02-124">Active Directory 복제가 완료될 때까지 기다리거나 복제를 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-124">Wait for Active Directory replication to complete or force replication.</span></span>
 
-13. <span data-ttu-id="05e46-125">다음 절차에 설명된 대로 스키마 변경 내용이 다른 모든 도메인 컨트롤러에 복제되었는지 수동으로 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-125">Manually verify that the schema changes replicated to all other domain controllers.</span></span> <span data-ttu-id="05e46-126">자세한 내용은 [Lync Server 2013에서 Active Directory 스키마 복제 확인](lync-server-2013-verifying-schema-replication.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="05e46-126">For details, see [Verifying Active Directory schema replication in Lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span></span>
+13. <span data-ttu-id="29e02-125">다음 절차에 설명된 대로 스키마 변경 내용이 다른 모든 도메인 컨트롤러에 복제되었는지 수동으로 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-125">Manually verify that the schema changes replicated to all other domain controllers.</span></span> <span data-ttu-id="29e02-126">자세한 내용은 [Lync Server 2013에서 Active Directory 스키마 복제 확인](lync-server-2013-verifying-schema-replication.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="29e02-126">For details, see [Verifying Active Directory schema replication in Lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-use-cmdlets-to-prepare-the-schema-of-the-current-forest"></a><span data-ttu-id="05e46-127">cmdlet를 사용하여 현재 포리스트의 스키마를 준비하려면</span><span class="sxs-lookup"><span data-stu-id="05e46-127">To use cmdlets to prepare the schema of the current forest</span></span>
+## <a name="to-use-cmdlets-to-prepare-the-schema-of-the-current-forest"></a><span data-ttu-id="29e02-127">cmdlet를 사용하여 현재 포리스트의 스키마를 준비하려면</span><span class="sxs-lookup"><span data-stu-id="29e02-127">To use cmdlets to prepare the schema of the current forest</span></span>
 
-1.  <span data-ttu-id="05e46-128">스키마 마스터의 관리자 권한을 가진 Schema Admins 그룹의 구성원으로 포리스트의 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-128">Log on to a computer in the forest as a member of the Schema Admins group and with administrator rights on the schema master.</span></span>
+1.  <span data-ttu-id="29e02-128">스키마 마스터의 관리자 권한을 가진 Schema Admins 그룹의 구성원으로 포리스트의 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-128">Log on to a computer in the forest as a member of the Schema Admins group and with administrator rights on the schema master.</span></span>
 
-2.  <span data-ttu-id="05e46-129">Lync Server Core 구성 요소는 다음과 같이 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-129">Install Lync Server Core components as follows:</span></span>
+2.  <span data-ttu-id="29e02-129">Lync Server Core 구성 요소는 다음과 같이 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-129">Install Lync Server Core components as follows:</span></span>
     
-    1.  <span data-ttu-id="05e46-130">Lync Server 2013 설치 폴더 또는 미디어에서 Setup.exe를 실행 하 여 Lync Server 배포 마법사를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-130">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Lync Server Deployment Wizard.</span></span>
+    1.  <span data-ttu-id="29e02-130">Lync Server 2013 설치 폴더 또는 미디어에서 Setup.exe를 실행 하 여 Lync Server 배포 마법사를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-130">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Lync Server Deployment Wizard.</span></span>
     
-    2.  <span data-ttu-id="05e46-131">Microsoft Visual C++ 재배포 가능 파일을 설치하라는 메시지가 표시되면 **예**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-131">If you are prompted to install the Microsoft Visual C++ Redistributable, click **Yes**.</span></span>
+    2.  <span data-ttu-id="29e02-131">Microsoft Visual C++ 재배포 가능 파일을 설치하라는 메시지가 표시되면 **예**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-131">If you are prompted to install the Microsoft Visual C++ Redistributable, click **Yes**.</span></span>
     
-    3.  <span data-ttu-id="05e46-132">Lync server 2013 설치 대화 상자에 Lync Server 파일을 설치할 위치를 묻는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-132">The Lync Server 2013 Setup dialog box prompts you for a location to install the Lync Server files.</span></span> <span data-ttu-id="05e46-133">기본 위치를 선택하거나 **찾아보기**를 클릭하여 원하는 위치를 선택한 후에 **설치**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-133">Choose the default location or **Browse** to a location of your choice, and then click **Install**.</span></span>
+    3.  <span data-ttu-id="29e02-132">Lync server 2013 설치 대화 상자에 Lync Server 파일을 설치할 위치를 묻는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-132">The Lync Server 2013 Setup dialog box prompts you for a location to install the Lync Server files.</span></span> <span data-ttu-id="29e02-133">기본 위치를 선택하거나 **찾아보기**를 클릭하여 원하는 위치를 선택한 후에 **설치**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-133">Choose the default location or **Browse** to a location of your choice, and then click **Install**.</span></span>
     
-    4.  <span data-ttu-id="05e46-134">사용권 계약 페이지에서 **동의함**을 선택한 다음 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-134">On the License Agreement page, check **I accept the terms in the license agreement**, and then click **OK**.</span></span> <span data-ttu-id="05e46-135">설치 관리자가 Lync Server 2013 핵심 구성 요소를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-135">The installer installs the Lync Server 2013 Core Components.</span></span>
+    4.  <span data-ttu-id="29e02-134">사용권 계약 페이지에서 **동의함**을 선택한 다음 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-134">On the License Agreement page, check **I accept the terms in the license agreement**, and then click **OK**.</span></span> <span data-ttu-id="29e02-135">설치 관리자가 Lync Server 2013 핵심 구성 요소를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-135">The installer installs the Lync Server 2013 Core Components.</span></span>
 
-3.  <span data-ttu-id="05e46-136">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-136">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+3.  <span data-ttu-id="29e02-136">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-136">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-4.  <span data-ttu-id="05e46-137">를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-137">Run:</span></span>
+4.  <span data-ttu-id="29e02-137">을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-137">Run:</span></span>
     
         Install-CsAdServerSchema [-Ldf <directory where the .ldf file is located>] 
     
-    <span data-ttu-id="05e46-138">Ldf 매개 변수를 지정 하지 않은 경우 기본값은 레지스트리에서 읽은 Lync Server 2013 설치 경로입니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-138">If you do not specify the Ldf parameter, the default value is the Lync Server 2013 installation path that is read from the registry.</span></span>
+    <span data-ttu-id="29e02-138">Ldf 매개 변수를 지정 하지 않은 경우 기본값은 레지스트리에서 읽은 Lync Server 2013 설치 경로입니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-138">If you do not specify the Ldf parameter, the default value is the Lync Server 2013 installation path that is read from the registry.</span></span>
     
-    <span data-ttu-id="05e46-139">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-139">For example:</span></span>
+    <span data-ttu-id="29e02-139">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-139">For example:</span></span>
     
         Install-CsAdServerSchema -Ldf "C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup"
 
-5.  <span data-ttu-id="05e46-140">다음 cmdlet를 사용하여 스키마 준비가 완료되었는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-140">Use the following cmdlet to verify that schema preparation ran to completion.</span></span>
+5.  <span data-ttu-id="29e02-140">다음 cmdlet를 사용하여 스키마 준비가 완료되었는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-140">Use the following cmdlet to verify that schema preparation ran to completion.</span></span>
     
         Get-CsAdServerSchema 
     
-    <span data-ttu-id="05e46-141">스키마 준비가 성공적으로 완료 된 경우이 cmdlet은 **스키마\_\_버전 상태\_CURRENT** 의 값을 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-141">This cmdlet returns a value of **SCHEMA\_VERSION\_STATE\_CURRENT** if schema preparation was successful.</span></span>
+    <span data-ttu-id="29e02-141">스키마 준비가 성공적으로 완료 된 경우이 cmdlet은 **스키마 \_ 버전 \_ 상태 \_ CURRENT** 의 값을 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-141">This cmdlet returns a value of **SCHEMA\_VERSION\_STATE\_CURRENT** if schema preparation was successful.</span></span>
 
-6.  <span data-ttu-id="05e46-142">Active Directory 복제가 완료될 때까지 기다리거나 복제를 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-142">Wait for Active Directory replication to complete or force replication.</span></span>
+6.  <span data-ttu-id="29e02-142">Active Directory 복제가 완료될 때까지 기다리거나 복제를 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-142">Wait for Active Directory replication to complete or force replication.</span></span>
 
-7.  <span data-ttu-id="05e46-143">다음 절차에 설명된 대로 스키마 변경 내용이 다른 모든 도메인 컨트롤러에 복제되었는지 수동으로 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="05e46-143">Manually verify that the schema changes replicated to all other domain controllers.</span></span> <span data-ttu-id="05e46-144">자세한 내용은 [Lync Server 2013에서 Active Directory 스키마 복제 확인](lync-server-2013-verifying-schema-replication.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="05e46-144">For details, see [Verifying Active Directory schema replication in Lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span></span>
+7.  <span data-ttu-id="29e02-143">다음 절차에 설명된 대로 스키마 변경 내용이 다른 모든 도메인 컨트롤러에 복제되었는지 수동으로 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="29e02-143">Manually verify that the schema changes replicated to all other domain controllers.</span></span> <span data-ttu-id="29e02-144">자세한 내용은 [Lync Server 2013에서 Active Directory 스키마 복제 확인](lync-server-2013-verifying-schema-replication.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="29e02-144">For details, see [Verifying Active Directory schema replication in Lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="05e46-145">참고 항목</span><span class="sxs-lookup"><span data-stu-id="05e46-145">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="29e02-145">참고 항목</span><span class="sxs-lookup"><span data-stu-id="29e02-145">See Also</span></span>
 
 
-[<span data-ttu-id="05e46-146">Lync Server 2013에서 Active Directory 스키마 복제 확인</span><span class="sxs-lookup"><span data-stu-id="05e46-146">Verifying Active Directory schema replication in Lync Server 2013</span></span>](lync-server-2013-verifying-schema-replication.md)  
+[<span data-ttu-id="29e02-146">Lync Server 2013에서 Active Directory 스키마 복제 확인</span><span class="sxs-lookup"><span data-stu-id="29e02-146">Verifying Active Directory schema replication in Lync Server 2013</span></span>](lync-server-2013-verifying-schema-replication.md)  
 
 
-[<span data-ttu-id="05e46-147">Lync Server 2013에서 Active Directory 스키마 준비</span><span class="sxs-lookup"><span data-stu-id="05e46-147">Preparing the Active Directory schema in Lync Server 2013</span></span>](lync-server-2013-preparing-the-active-directory-schema.md)  
+[<span data-ttu-id="29e02-147">Lync Server 2013에서 Active Directory 스키마 준비</span><span class="sxs-lookup"><span data-stu-id="29e02-147">Preparing the Active Directory schema in Lync Server 2013</span></span>](lync-server-2013-preparing-the-active-directory-schema.md)  
   
 
 </div>

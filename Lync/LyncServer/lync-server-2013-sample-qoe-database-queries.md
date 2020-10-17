@@ -12,20 +12,22 @@ ms:contentKeyID: 48183280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71084419fb2e598e7c0292d5987200edf219edc5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 441384c2ed8dae6f03aa6034ceba2248710e9d3c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201074"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511025"
 ---
+# <a name="sample-qoe-database-queries-in-lync-server-2013"></a><span data-ttu-id="83add-102">Lync Server 2013의 예제 QoE 데이터베이스 쿼리</span><span class="sxs-lookup"><span data-stu-id="83add-102">Sample QoE database queries in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sample-qoe-database-queries-in-lync-server-2013"></a><span data-ttu-id="9f1bb-102">Lync Server 2013의 예제 QoE 데이터베이스 쿼리</span><span class="sxs-lookup"><span data-stu-id="9f1bb-102">Sample QoE database queries in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42201074"
 
 <span> </span>
 
-<span data-ttu-id="9f1bb-103">_**마지막으로 수정 된 항목:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="9f1bb-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="83add-103">_**마지막으로 수정 된 항목:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="83add-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="9f1bb-104">이 섹션에는 QoE(체감 품질) 데이터베이스에 대한 샘플 쿼리가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="9f1bb-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span>
+<span data-ttu-id="83add-104">이 섹션에는 QoE(체감 품질) 데이터베이스에 대한 샘플 쿼리가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="83add-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span>
 
-<span data-ttu-id="9f1bb-105">다음 예제를 사용하여 모든 오디오 스트림에 대한 지터 및 패킷 손실 평균을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="9f1bb-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="83add-105">다음 예제를 사용하여 모든 오디오 스트림에 대한 지터 및 패킷 손실 평균을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="83add-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
 
     select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 
-<span data-ttu-id="9f1bb-106">다음 예제를 사용하여 Meeting Console을 사용한 총 회의 수를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="9f1bb-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="83add-106">다음 예제를 사용하여 Meeting Console을 사용한 총 회의 수를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="83add-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
 
     select avg(ConversationalMOS)
     from SessionView s
@@ -54,7 +56,7 @@ ms.locfileid: "42201074"
        and s.CallerUserAgentType = 4 -- Lync
        and s.CalleeUserAgentType = 4 -- Lync
 
-<span data-ttu-id="9f1bb-107">다음 예제를 사용하여 캡처 장치별 ConversstionalMOS, SendingMOS 및 ListendingMOS를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="9f1bb-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="83add-107">다음 예제를 사용하여 캡처 장치별 ConversstionalMOS, SendingMOS 및 ListendingMOS를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="83add-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
 
     select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
     from
