@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Mcus 보기'
+description: 'Lync Server 2013: Mcus 보기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7512054e3b0f1e4edaf7736558bed1df8c9b08d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c2f72b4584696162496dcd91990edb086d558204
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524655"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556464"
 ---
-# <a name="mcus-view-in-lync-server-2013"></a><span data-ttu-id="69876-102">Lync Server 2013의 Mcus 보기</span><span class="sxs-lookup"><span data-stu-id="69876-102">Mcus view in Lync Server 2013</span></span>
+# <a name="mcus-view-in-lync-server-2013"></a><span data-ttu-id="cd4b3-103">Lync Server 2013의 Mcus 보기</span><span class="sxs-lookup"><span data-stu-id="cd4b3-103">Mcus view in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48524655"
 
 <span> </span>
 
-<span data-ttu-id="69876-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="69876-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="cd4b3-104">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="cd4b3-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="69876-104">Mcus 보기에는 회의 세션에 참가한 MCU에 대한 정보가 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="69876-104">The Mcus view stores information about the MCUs that have participated in conference sessions.</span></span> <span data-ttu-id="69876-105">이 보기는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="69876-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="cd4b3-105">Mcus 보기에는 회의 세션에 참가한 MCU에 대한 정보가 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="cd4b3-105">The Mcus view stores information about the MCUs that have participated in conference sessions.</span></span> <span data-ttu-id="cd4b3-106">이 보기는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="cd4b3-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -50,26 +51,26 @@ ms.locfileid: "48524655"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="69876-106">열</span><span class="sxs-lookup"><span data-stu-id="69876-106">Column</span></span></th>
-<th><span data-ttu-id="69876-107">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="69876-107">Data Type</span></span></th>
-<th><span data-ttu-id="69876-108">세부 정보</span><span class="sxs-lookup"><span data-stu-id="69876-108">Details</span></span></th>
+<th><span data-ttu-id="cd4b3-107">열</span><span class="sxs-lookup"><span data-stu-id="cd4b3-107">Column</span></span></th>
+<th><span data-ttu-id="cd4b3-108">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="cd4b3-108">Data Type</span></span></th>
+<th><span data-ttu-id="cd4b3-109">세부 정보</span><span class="sxs-lookup"><span data-stu-id="cd4b3-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="69876-109"><strong>McuId</strong></span><span class="sxs-lookup"><span data-stu-id="69876-109"><strong>McuId</strong></span></span></p></td>
-<td><p><span data-ttu-id="69876-110">int</span><span class="sxs-lookup"><span data-stu-id="69876-110">int</span></span></p></td>
-<td><p><span data-ttu-id="69876-111">MCU를 식별하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="69876-111">Unique number identifying the MCU.</span></span></p></td>
+<td><p><span data-ttu-id="cd4b3-110"><strong>McuId</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b3-110"><strong>McuId</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd4b3-111">int</span><span class="sxs-lookup"><span data-stu-id="cd4b3-111">int</span></span></p></td>
+<td><p><span data-ttu-id="cd4b3-112">MCU를 식별하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="cd4b3-112">Unique number identifying the MCU.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="69876-112"><strong>McuUri</strong></span><span class="sxs-lookup"><span data-stu-id="69876-112"><strong>McuUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="69876-113">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="69876-113">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="69876-114">MCU의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="69876-114">URI of the MCU.</span></span></p></td>
+<td><p><span data-ttu-id="cd4b3-113"><strong>McuUri</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b3-113"><strong>McuUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd4b3-114">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="cd4b3-114">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="cd4b3-115">MCU의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="cd4b3-115">URI of the MCU.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="69876-115"><strong>M메이 urit3</strong></span><span class="sxs-lookup"><span data-stu-id="69876-115"><strong>McuUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="69876-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="69876-116">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="69876-117">MCU URI의 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="69876-117">Type of MCU URI.</span></span> <span data-ttu-id="69876-118">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="69876-118">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="cd4b3-116"><strong>M메이 urit3</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b3-116"><strong>McuUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd4b3-117">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b3-117">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="cd4b3-118">MCU URI의 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="cd4b3-118">Type of MCU URI.</span></span> <span data-ttu-id="cd4b3-119">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="cd4b3-119">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>

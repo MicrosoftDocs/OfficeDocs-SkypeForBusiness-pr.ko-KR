@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server에서 사용자 관리'
+description: 'Lync Server 2013: Lync Server에서 사용자를 관리 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7991d9cce31c2598e7374e9c80fcaf9dfdf13c41
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c906835f6a0e3af425a827aeac2e67758af44ea9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524825"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556664"
 ---
-# <a name="managing-users-in-lync-server-2013"></a><span data-ttu-id="e69e8-102">Lync Server 2013에서 사용자 관리</span><span class="sxs-lookup"><span data-stu-id="e69e8-102">Managing users in Lync Server 2013</span></span>
+# <a name="managing-users-in-lync-server-2013"></a><span data-ttu-id="f135e-103">Lync Server 2013에서 사용자 관리</span><span class="sxs-lookup"><span data-stu-id="f135e-103">Managing users in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,24 +38,24 @@ ms.locfileid: "48524825"
 
 <span> </span>
 
-<span data-ttu-id="e69e8-103">_**마지막으로 수정 된 항목:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="e69e8-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="f135e-104">_**마지막으로 수정 된 항목:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="f135e-104">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="e69e8-104">Lync server 2013 제어판 및 Lync Server 2013 관리 셸을 사용 하 여 Lync 서버 2013에서 사용자 계정을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e69e8-104">You can use the Lync Server 2013 Control Panel and Lync Server 2013 Management Shell to manage user accounts in Lync Server 2013.</span></span> <span data-ttu-id="e69e8-105">이 섹션의 절차에서는 사용자 계정의 계정 정보를 확인하고 설정을 구성하는 방법을 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="e69e8-105">The procedures in this section guide you through how to view account information and configure setting for user accounts.</span></span>
+<span data-ttu-id="f135e-105">Lync server 2013 제어판 및 Lync Server 2013 관리 셸을 사용 하 여 Lync 서버 2013에서 사용자 계정을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f135e-105">You can use the Lync Server 2013 Control Panel and Lync Server 2013 Management Shell to manage user accounts in Lync Server 2013.</span></span> <span data-ttu-id="f135e-106">이 섹션의 절차에서는 사용자 계정의 계정 정보를 확인하고 설정을 구성하는 방법을 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="f135e-106">The procedures in this section guide you through how to view account information and configure setting for user accounts.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e69e8-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="e69e8-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f135e-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="f135e-107">In This Section</span></span>
 
-  - [<span data-ttu-id="e69e8-107">Lync Server 2013에 사용할 수 있는 사용자 계정</span><span class="sxs-lookup"><span data-stu-id="e69e8-107">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)
+  - [<span data-ttu-id="f135e-108">Lync Server 2013에 사용할 수 있는 사용자 계정</span><span class="sxs-lookup"><span data-stu-id="f135e-108">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e69e8-108">참고 항목</span><span class="sxs-lookup"><span data-stu-id="e69e8-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f135e-109">참고 항목</span><span class="sxs-lookup"><span data-stu-id="f135e-109">See Also</span></span>
 
 
-[<span data-ttu-id="e69e8-109">Lync Server 2013의 작업</span><span class="sxs-lookup"><span data-stu-id="e69e8-109">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
+[<span data-ttu-id="f135e-110">Lync Server 2013의 작업</span><span class="sxs-lookup"><span data-stu-id="f135e-110">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
   
 
 </div>
