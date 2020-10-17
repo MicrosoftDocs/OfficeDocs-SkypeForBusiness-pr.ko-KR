@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Location-Based 라우팅에서 지원 하지 않는 기능'
+description: 'Lync Server 2013: Location-Based 라우팅에서 지원 하지 않는 기능입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40a7d32c0448abfe3552fdfe657b9c6bec960a08
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bf9cd03a8cbdd50e136605c4f172598b2ad3f523
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512865"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565164"
 ---
 # <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Lync Server 2013의 Location-Based 라우팅에서 지원 하지 않는 기능
 

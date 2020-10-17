@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 음성 라우팅 구성에 보류 중인 변경 내용 게시'
+description: 'Lync Server 2013: 음성 라우팅 구성에 보류 중인 변경 내용을 게시 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3202bb936f7165047b968b979b49b036be574140
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a7a56b9a07606932a34dea7149a799dbb60b376
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512385"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565454"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-lync-server-2013"></a>Lync Server 2013의 음성 라우팅 구성에 보류 중인 변경 내용 게시
 

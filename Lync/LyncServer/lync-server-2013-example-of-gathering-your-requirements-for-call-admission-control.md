@@ -1,5 +1,6 @@
 ---
 title: 통화 허용 제어에 대 한 요구 사항 수집 예제
+description: 통화 허용 제어에 대 한 요구 사항을 수집 하는 예제입니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89983ae54e879bdb55691b33a0512a00e5883735
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 25c0b450070bda62c2610d98cfff8c8cd16ad2af
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528445"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564944"
 ---
 # <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>예: Lync Server 2013의 통화 허용 제어에 대 한 요구 사항 수집
 

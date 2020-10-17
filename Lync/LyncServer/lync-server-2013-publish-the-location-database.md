@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 위치 데이터베이스 게시'
+description: 'Lync Server 2013: 위치 데이터베이스를 게시 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 481a8406eeeec6fce25c19336519c4a9bf19da82
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 26892429c7bf5fd9cbfebd0d7ac62482767a541e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512375"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565444"
 ---
 # <a name="publish-the-location-database-from-lync-server-2013"></a>Lync Server 2013에서 위치 데이터베이스 게시
 

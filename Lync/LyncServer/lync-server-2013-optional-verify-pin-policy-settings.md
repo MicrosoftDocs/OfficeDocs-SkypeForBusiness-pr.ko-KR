@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (선택 사항) PIN 정책 설정 확인'
+description: 'Lync Server 2013: (선택 사항) PIN 정책 설정을 확인 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185415
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eef7107089ab3b9d9b0514437343420a3a178842
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fa1598d3bf2def6f999ed1588f35a9d0d4f161cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530765"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565694"
 ---
 # <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a>반드시 Lync Server 2013에서 PIN 정책 설정 확인
 

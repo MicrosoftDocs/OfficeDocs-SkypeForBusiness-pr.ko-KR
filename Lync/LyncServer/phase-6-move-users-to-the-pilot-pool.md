@@ -1,5 +1,6 @@
 ---
 title: '단계 6: 사용자를 파일럿 풀로 이동'
+description: '단계 6: 사용자를 파일럿 풀로 이동 합니다.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b07d568c7aaabba77c9a66a0db3264a96657839
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e8928e142be50398c47b4e9c3d1f92008846137b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518185"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566174"
 ---
 # <a name="phase-6-move-users-to-the-pilot-pool"></a>단계 6: 사용자를 파일럿 풀로 이동
 
@@ -45,11 +46,11 @@ Lync Server 제어판과 Lync Server 관리 셸 두 가지 방법을 사용 하 
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [사용자 복제가 완료되었는지 확인](verify-user-replication-has-completed_1.md)
+  - [사용자 복제가 완료되었는지 확인](verify-user-replication-has-completed.md)
 
-  - [파일럿 풀로 단일 사용자 이동](move-a-single-user-to-the-pilot-pool_1.md)
+  - [파일럿 풀로 단일 사용자 이동](move-a-single-user-to-the-pilot-pool.md)
 
-  - [여러 사용자를 파일럿 풀로 이동](move-multiple-users-to-the-pilot-pool_1.md)
+  - [여러 사용자를 파일럿 풀로 이동](move-multiple-users-to-the-pilot-pool.md)
 
 </div>
 

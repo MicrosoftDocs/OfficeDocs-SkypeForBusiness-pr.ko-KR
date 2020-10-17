@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 네트워크 인터페이스 정보 보기'
+description: 'Lync Server 2013: 네트워크 인터페이스 정보 보기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ae310b0c43d8ec94804a4218f374c39dcbbd651
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 12bf844116c048fb8c55e7aac1de46a7dffce4cd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535735"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565394"
 ---
 # <a name="viewing-network-interface-information-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 인터페이스 정보 보기
 

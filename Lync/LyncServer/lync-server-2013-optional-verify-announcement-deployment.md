@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (선택 사항) 알림 배포 확인'
+description: 'Lync Server 2013: (선택 사항) 알림 배포를 확인 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184144
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 501432fe7ab15232f7e40b3d751c5efa6e034b54
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 70c4f764285387c294bee822f50bd129a4ca4fb0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530825"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565754"
 ---
 # <a name="optional-verify-announcement-deployment-in-lync-server-2013"></a>반드시 Lync Server 2013에서 알림 배포 확인
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (선택 사항) DTMF 명령에 대 한 키 매핑 수정'
+description: 'Lync Server 2013: (선택 사항) DTMF 명령에 대 한 키 매핑을 수정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7104a24c7bf02c310cb1deb7b8f9de3ad51407c9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7581001c31d929163962378a8734435f6d07c6c8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524425"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565794"
 ---
 # <a name="optional-modify-key-mapping-for-dtmf-commands-in-lync-server-2013"></a>반드시 Lync Server 2013의 DTMF 명령에 대 한 키 매핑 수정
 

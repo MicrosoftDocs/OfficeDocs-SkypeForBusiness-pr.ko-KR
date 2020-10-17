@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 잠겨진 Active Directory 도메인 서비스 준비'
+description: 'Lync Server 2013: 잠겨진 Active Directory 도메인 서비스 준비'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184377
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b3e1eb33568bbc0e1742e31638a20879e4fffdd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4aea04b138de2630935713eda7cbef9e4d21572a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513365"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566304"
 ---
 # <a name="preparing-a-locked-down-active-directory-domain-services-in-lync-server-2013"></a>Lync Server 2013에서 잠긴 Active Directory 도메인 서비스 준비
 

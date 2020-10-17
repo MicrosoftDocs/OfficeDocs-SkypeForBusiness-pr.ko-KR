@@ -1,5 +1,6 @@
 ---
 title: 풀 오류 발생 시 Lync Server 2013 응답 그룹 환경
+description: Lync Server 2013 풀 오류 발생 시 응답 그룹 환경
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184116
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 684d33219bb6146a0c5dc85894c060affd6745a2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7d8d5904bc6934d4c330202bafa66d6dd8a16ff5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511645"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564574"
 ---
 # <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a>풀 오류 발생 시 Lync Server 2013의 응답 그룹 환경
 

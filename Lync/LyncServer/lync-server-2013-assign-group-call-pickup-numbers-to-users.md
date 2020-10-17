@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자에 게 그룹 통화 픽업 번호 할당'
+description: 'Lync Server 2013: 사용자에 게 그룹 통화 픽업 번호를 할당 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ced3de74542edc65de68ab5f803934aa671575cc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d550b4556af427e11e99ffb26fb2a6c34d019490
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499485"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566134"
 ---
 # <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>Lync Server 2013의 사용자에 게 그룹 통화 픽업 번호 할당
 
