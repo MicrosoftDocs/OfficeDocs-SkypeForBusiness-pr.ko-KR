@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013에서 SQL Server 비표준 포트 및 별칭 배포
+description: Lync Server 2013에 SQL Server 비표준 포트 및 별칭 배포
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8721cc82651710ab5fc8158eeb6f297f80847c33
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: da76db2b946a47e13fe3549d7184b0b12894a83a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502915"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551234"
 ---
 # <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Lync Server 2013에서 SQL Server 비표준 포트 및 별칭 배포
 

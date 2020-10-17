@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 조직에 대 한 액세스에 지 구성 관리'
+description: 'Lync Server 2013: 조직에 대 한 액세스에 지 구성을 관리 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48679555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c62e5b03057f09d7489a413456e432e8e08799b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2161385f9c03f025bcf6f5e599b7e0276f6d592c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534555"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550644"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization-in-lync-server-2013"></a>Lync Server 2013에서 조직에 대 한 액세스에 지 구성 관리
 

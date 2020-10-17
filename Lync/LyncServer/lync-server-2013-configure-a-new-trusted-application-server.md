@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 새 신뢰할 수 있는 응용 프로그램 서버 구성'
+description: 'Lync Server 2013: 새 신뢰할 수 있는 응용 프로그램 서버를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0e053629eae42bc7fcd83b0002b3aad40f3550f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f3cc13c747c5755297b01ae36f27f06d19591acc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507715"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552124"
 ---
 # <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Lync Server 2013에서 신뢰할 수 있는 새 응용 프로그램 서버 구성
 

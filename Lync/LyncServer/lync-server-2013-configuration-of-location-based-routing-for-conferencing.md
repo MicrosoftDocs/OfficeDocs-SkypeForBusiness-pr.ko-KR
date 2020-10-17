@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 회의에 대 한 Location-Based 라우팅 구성'
+description: 'Lync Server 2013: 회의에 대 한 Location-Based 라우팅을 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd5ada5e4af1ed4ed43434ddf4d82abc25f4cd5e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6a87f9c799e565f64b0dd30ce025a4e7a3174625
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507805"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552164"
 ---
 # <a name="configuration-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013에서 회의에 대 한 Location-Based 라우팅을 구성 합니다.
 

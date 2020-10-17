@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 원격 통화 제어에 대 한 고정 경로 구성'
+description: 'Lync Server 2013: 원격 통화 제어에 대 한 고정 경로를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 48185855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41e871e3023449123af76530659397e1faa6b51d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ecf6478d4fb7ab4f04f8a452d4837b327ba254a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195941"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551694"
 ---
+# <a name="configure-a-static-route-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013에서 원격 통화 제어에 대 한 고정 경로 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-static-route-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013에서 원격 통화 제어에 대 한 고정 경로 구성
+
 
 </div>
 

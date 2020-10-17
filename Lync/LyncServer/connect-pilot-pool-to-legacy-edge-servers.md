@@ -1,5 +1,6 @@
 ---
 title: 레거시 에지 서버에 파일럿 풀 연결
+description: 파일럿 풀을 레거시에 지 서버에 연결 합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d12a67b0ba102fdacea66b6196bafe32d89c9d9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ede2256efabf561be6b3f99543437087cb5c3890
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503105"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550274"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>레거시 에지 서버에 파일럿 풀 연결
 

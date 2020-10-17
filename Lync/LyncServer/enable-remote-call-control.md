@@ -1,5 +1,6 @@
 ---
 title: 원격 통화 제어 사용
+description: 원격 통화 제어를 사용 하도록 설정 합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183380
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa81c938d69aedbc599194c1d820fa4c40e3337
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8009ffc927ad3f7a4f83ad3505100f3a9d4e82d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502895"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551134"
 ---
 # <a name="enable-remote-call-control"></a>원격 통화 제어 사용
 
@@ -55,7 +56,7 @@ _**마지막으로 수정 된 항목:** 2012-10-02_
 
 4.  원격 통화 제어를 사용 하도록 설정 하 고 회선 서버 URI (Uniform Resource Identifier) 및 줄 URI를 할당 하 여 Lync 2013 사용자를 원격 통화 제어로 구성 합니다. 레거시 배포에서 Lync Server 2013으로 사용자를 마이그레이션하는 경우 원격 통화 제어 설정이 다른 사용자 설정과 함께 마이그레이션됩니다.
 
-5.  레거시 배포에서 주소록 전화 번호 정규화 규칙을 사용자 지정한 경우 정책 및 설정에 대한 자동화된 마이그레이션이 완료된 후 몇 가지 수동 작업을 수행하여 사용자 지정된 정규화 규칙을 마이그레이션해야 합니다. 정규화 규칙을 사용자 지정하지 않은 경우 주소록은 남은 토폴로지와 함께 마이그레이션됩니다. 사용자 지정된 정규화된 규칙을 수동으로 마이그레이션하는 방법에 대한 자세한 내용은 [Migrate Address Book](migrate-address-book_1.md)을 참조하십시오.
+5.  레거시 배포에서 주소록 전화 번호 정규화 규칙을 사용자 지정한 경우 정책 및 설정에 대한 자동화된 마이그레이션이 완료된 후 몇 가지 수동 작업을 수행하여 사용자 지정된 정규화 규칙을 마이그레이션해야 합니다. 정규화 규칙을 사용자 지정하지 않은 경우 주소록은 남은 토폴로지와 함께 마이그레이션됩니다. 사용자 지정된 정규화된 규칙을 수동으로 마이그레이션하는 방법에 대한 자세한 내용은 [Migrate Address Book](migrate-address-book.md)을 참조하십시오.
 
 </div>
 

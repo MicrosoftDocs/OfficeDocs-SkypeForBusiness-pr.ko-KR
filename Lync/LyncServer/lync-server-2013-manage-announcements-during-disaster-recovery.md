@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 재해 복구 시 알림 관리'
+description: 'Lync Server 2013: 재해 복구 중에 알림을 관리 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fc5aec6371bff867c2e33dbe7b88aa0d2a888c0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d85dfcd15c9c3650bafafa6fa7702e19ac9c4f7d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534551"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550634"
 ---
 # <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013에서 재해 복구 시 알림 관리
 
