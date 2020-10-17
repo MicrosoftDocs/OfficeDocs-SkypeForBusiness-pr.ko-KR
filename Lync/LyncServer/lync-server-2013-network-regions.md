@@ -12,20 +12,22 @@ ms:contentKeyID: 49733567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a89e1ea12a35b7cf9fd440396369e5217162127b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 541beafe32dcfbe830573ae5954f81ee7febe8de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505495"
 ---
+# <a name="network-regions-in-lync-server-2013"></a><span data-ttu-id="09244-102">Lync Server 2013의 네트워크 지역</span><span class="sxs-lookup"><span data-stu-id="09244-102">Network regions in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-regions-in-lync-server-2013"></a><span data-ttu-id="6cd80-102">Lync Server 2013의 네트워크 지역</span><span class="sxs-lookup"><span data-stu-id="6cd80-102">Network regions in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42184591"
 
 <span> </span>
 
-<span data-ttu-id="6cd80-103">_**마지막으로 수정 된 항목:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="6cd80-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="09244-103">_**마지막으로 수정 된 항목:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="09244-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="6cd80-104">*네트워크 지역*은 통화 허용 제어, E9-1-1 및 미디어 바이패스 구성에 사용되는 네트워크 허브 또는 백본입니다.</span><span class="sxs-lookup"><span data-stu-id="6cd80-104">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="6cd80-105">다음 절차에 따라 네트워크 지역을 확인, 작성 또는 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="6cd80-105">Use the following procedures to view, create, or modify network regions.</span></span> <span data-ttu-id="6cd80-106">예를 들어 단일 음성 기능에 대해 네트워크 지역을 이미 만든 경우에는 새 네트워크 지역을 만들 필요가 없으며, 다른 고급 Enterprise Voice 기능도 같은 네트워크 지역을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="6cd80-106">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="6cd80-107">그러나 기존 네트워크 지역 정의를 수정하여 기능별 설정을 적용할 수는 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6cd80-107">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="6cd80-108">예를 들어 E9-1-1용으로 네트워크 지역을 만든 후(연결된 중앙 사이트가 필요하지 않음) 통화 허용 제어를 배포하는 경우에는 네트워크 지역 정의를 수정하여 중앙 사이트를 지정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6cd80-108">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="6cd80-109">자세한 내용은 [Configure network regions FOR CAC In Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="6cd80-109">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
+<span data-ttu-id="09244-104">*네트워크 지역*은 통화 허용 제어, E9-1-1 및 미디어 바이패스 구성에 사용되는 네트워크 허브 또는 백본입니다.</span><span class="sxs-lookup"><span data-stu-id="09244-104">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="09244-105">다음 절차에 따라 네트워크 지역을 확인, 작성 또는 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="09244-105">Use the following procedures to view, create, or modify network regions.</span></span> <span data-ttu-id="09244-106">예를 들어 단일 음성 기능에 대해 네트워크 지역을 이미 만든 경우에는 새 네트워크 지역을 만들 필요가 없으며, 다른 고급 Enterprise Voice 기능도 같은 네트워크 지역을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="09244-106">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="09244-107">그러나 기존 네트워크 지역 정의를 수정하여 기능별 설정을 적용할 수는 있습니다.</span><span class="sxs-lookup"><span data-stu-id="09244-107">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="09244-108">예를 들어 E9-1-1용으로 네트워크 지역을 만든 후(연결된 중앙 사이트가 필요하지 않음) 통화 허용 제어를 배포하는 경우에는 네트워크 지역 정의를 수정하여 중앙 사이트를 지정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="09244-108">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="09244-109">자세한 내용은 [Configure network regions FOR CAC In Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="09244-109">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6cd80-110">네트워크 지역 정의에 대한 기능별 요구 사항은 해당 기능의 배포 항목에 설명되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6cd80-110">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
+> <span data-ttu-id="09244-110">네트워크 지역 정의에 대한 기능별 요구 사항은 해당 기능의 배포 항목에 설명되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="09244-110">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
 
 
 
@@ -51,21 +53,21 @@ ms.locfileid: "42184591"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6cd80-111">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="6cd80-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="09244-111">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="09244-111">In This Section</span></span>
 
-  - [<span data-ttu-id="6cd80-112">Lync Server 2013에서 네트워크 지역 정보 보기</span><span class="sxs-lookup"><span data-stu-id="6cd80-112">Viewing network region information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-information.md)
+  - [<span data-ttu-id="09244-112">Lync Server 2013에서 네트워크 지역 정보 보기</span><span class="sxs-lookup"><span data-stu-id="09244-112">Viewing network region information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-information.md)
 
-  - [<span data-ttu-id="6cd80-113">Lync Server 2013에서 네트워크 지역 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="6cd80-113">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
+  - [<span data-ttu-id="09244-113">Lync Server 2013에서 네트워크 지역 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="09244-113">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [<span data-ttu-id="6cd80-114">Lync Server 2013에서 기존 네트워크 지역 삭제</span><span class="sxs-lookup"><span data-stu-id="6cd80-114">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)
+  - [<span data-ttu-id="09244-114">Lync Server 2013에서 기존 네트워크 지역 삭제</span><span class="sxs-lookup"><span data-stu-id="09244-114">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)
 
 </div>
 
 <div>
 
-## <a name="reference"></a><span data-ttu-id="6cd80-115">참조</span><span class="sxs-lookup"><span data-stu-id="6cd80-115">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="09244-115">참조</span><span class="sxs-lookup"><span data-stu-id="09244-115">Reference</span></span>
 
-[<span data-ttu-id="6cd80-116">Lync Server 2013에서 고급 Enterprise Voice 기능 배포</span><span class="sxs-lookup"><span data-stu-id="6cd80-116">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[<span data-ttu-id="09244-116">Lync Server 2013에서 고급 Enterprise Voice 기능 배포</span><span class="sxs-lookup"><span data-stu-id="09244-116">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 
