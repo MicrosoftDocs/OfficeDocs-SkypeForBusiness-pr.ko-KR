@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 클라이언트 계획'
+description: 'Lync Server 2013: 클라이언트 계획'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93166d5f10aa91b937377f114f38d3a7efc63f86
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f3fbbf0756dcb9438a809859b3ec9dedde607459
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497715"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567354"
 ---
-# <a name="planning-for-clients-in-lync-server-2013"></a><span data-ttu-id="d4701-102">Lync Server 2013의 클라이언트 계획</span><span class="sxs-lookup"><span data-stu-id="d4701-102">Planning for clients in Lync Server 2013</span></span>
+# <a name="planning-for-clients-in-lync-server-2013"></a><span data-ttu-id="4e5c6-103">Lync Server 2013의 클라이언트 계획</span><span class="sxs-lookup"><span data-stu-id="4e5c6-103">Planning for clients in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,27 +38,27 @@ ms.locfileid: "48497715"
 
 <span> </span>
 
-<span data-ttu-id="d4701-103">_**마지막으로 수정 된 항목:** 2014-02-10_</span><span class="sxs-lookup"><span data-stu-id="d4701-103">_**Topic Last Modified:** 2014-02-10_</span></span>
+<span data-ttu-id="4e5c6-104">_**마지막으로 수정 된 항목:** 2014-02-10_</span><span class="sxs-lookup"><span data-stu-id="4e5c6-104">_**Topic Last Modified:** 2014-02-10_</span></span>
 
-<span data-ttu-id="d4701-104">이 섹션의 항목에서는 Microsoft Lync Server 2013 클라이언트를 배포 하기 위한 계획 고려 사항을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="d4701-104">The topics in this section discuss planning considerations for deploying Microsoft Lync Server 2013 clients.</span></span> <span data-ttu-id="d4701-105">새 Lync Server 2013 설치를 배포 하 든 이전 배포에서 마이그레이션하 든, 이러한 항목은 중요 한 클라이언트 계획 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="d4701-105">Whether you are deploying a new Lync Server 2013 installation or migrating from a previous deployment, these topics provide important client planning information.</span></span>
+<span data-ttu-id="4e5c6-105">이 섹션의 항목에서는 Microsoft Lync Server 2013 클라이언트를 배포 하기 위한 계획 고려 사항을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="4e5c6-105">The topics in this section discuss planning considerations for deploying Microsoft Lync Server 2013 clients.</span></span> <span data-ttu-id="4e5c6-106">새 Lync Server 2013 설치를 배포 하 든 이전 배포에서 마이그레이션하 든, 이러한 항목은 중요 한 클라이언트 계획 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="4e5c6-106">Whether you are deploying a new Lync Server 2013 installation or migrating from a previous deployment, these topics provide important client planning information.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d4701-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="d4701-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4e5c6-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="4e5c6-107">In This Section</span></span>
 
-  - [<span data-ttu-id="d4701-107">Lync Server 2013용 클라이언트</span><span class="sxs-lookup"><span data-stu-id="d4701-107">Clients for Lync Server 2013</span></span>](lync-server-2013-clients.md)
+  - [<span data-ttu-id="4e5c6-108">Lync Server 2013용 클라이언트</span><span class="sxs-lookup"><span data-stu-id="4e5c6-108">Clients for Lync Server 2013</span></span>](lync-server-2013-clients.md)
 
-  - [<span data-ttu-id="d4701-108">Lync Server 2013에 대 한 클라이언트 비교 표</span><span class="sxs-lookup"><span data-stu-id="d4701-108">Client comparison tables for Lync Server 2013</span></span>](lync-server-2013-desktop-client-comparison-tables.md)
+  - [<span data-ttu-id="4e5c6-109">Lync Server 2013에 대 한 클라이언트 비교 표</span><span class="sxs-lookup"><span data-stu-id="4e5c6-109">Client comparison tables for Lync Server 2013</span></span>](lync-server-2013-desktop-client-comparison-tables.md)
 
-  - [<span data-ttu-id="d4701-109">Lync Server 2013에 대 한 클라이언트 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="d4701-109">Client system requirements for Lync Server 2013</span></span>](lync-server-2013-client-system-requirements.md)
+  - [<span data-ttu-id="4e5c6-110">Lync Server 2013에 대 한 클라이언트 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="4e5c6-110">Client system requirements for Lync Server 2013</span></span>](lync-server-2013-client-system-requirements.md)
 
-  - [<span data-ttu-id="d4701-110">Lync Server 2013의 클라이언트 정책 및 설정</span><span class="sxs-lookup"><span data-stu-id="d4701-110">Client policies and settings in Lync Server 2013</span></span>](lync-server-2013-client-policies-and-settings.md)
+  - [<span data-ttu-id="4e5c6-111">Lync Server 2013의 클라이언트 정책 및 설정</span><span class="sxs-lookup"><span data-stu-id="4e5c6-111">Client policies and settings in Lync Server 2013</span></span>](lync-server-2013-client-policies-and-settings.md)
 
-  - [<span data-ttu-id="d4701-111">Lync 2013 호환성</span><span class="sxs-lookup"><span data-stu-id="d4701-111">Lync 2013 compatibility</span></span>](lync-server-2013-lync-2013-compatibility.md)
+  - [<span data-ttu-id="4e5c6-112">Lync 2013 호환성</span><span class="sxs-lookup"><span data-stu-id="4e5c6-112">Lync 2013 compatibility</span></span>](lync-server-2013-lync-2013-compatibility.md)
 
-  - [<span data-ttu-id="d4701-112">Lync 2013의 클라이언트 상호 운용성</span><span class="sxs-lookup"><span data-stu-id="d4701-112">Client interoperability in Lync 2013</span></span>](lync-server-2013-client-interoperability-in-lync-2013.md)
+  - [<span data-ttu-id="4e5c6-113">Lync 2013의 클라이언트 상호 운용성</span><span class="sxs-lookup"><span data-stu-id="4e5c6-113">Client interoperability in Lync 2013</span></span>](lync-server-2013-client-interoperability-in-lync-2013.md)
 
-  - [<span data-ttu-id="d4701-113">Lync Server 2013의 모임에 대 한 마이그레이션 고려 사항</span><span class="sxs-lookup"><span data-stu-id="d4701-113">Migration considerations for meetings in Lync Server 2013</span></span>](lync-server-2013-migration-considerations-for-meetings.md)
+  - [<span data-ttu-id="4e5c6-114">Lync Server 2013의 모임에 대 한 마이그레이션 고려 사항</span><span class="sxs-lookup"><span data-stu-id="4e5c6-114">Migration considerations for meetings in Lync Server 2013</span></span>](lync-server-2013-migration-considerations-for-meetings.md)
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: '단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가'
+description: '단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 683f3e9a4136dcc8bb8ecf3dc1864cfa5a3a6824
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9ae560180ec97089b63678029a4bb979ec7694df
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523415"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568454"
 ---
-# <a name="phase-5-add-lync-server-2013-edge-server-to-pilot-pool"></a><span data-ttu-id="ddf90-102">단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가</span><span class="sxs-lookup"><span data-stu-id="ddf90-102">Phase 5: Add Lync Server 2013 Edge Server to pilot pool</span></span>
+# <a name="phase-5-add-lync-server-2013-edge-server-to-pilot-pool"></a><span data-ttu-id="2e699-103">단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가</span><span class="sxs-lookup"><span data-stu-id="2e699-103">Phase 5: Add Lync Server 2013 Edge Server to pilot pool</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48523415"
 
 <span> </span>
 
-<span data-ttu-id="ddf90-103">_**마지막으로 수정 된 항목:** 2012-09-06_</span><span class="sxs-lookup"><span data-stu-id="ddf90-103">_**Topic Last Modified:** 2012-09-06_</span></span>
+<span data-ttu-id="2e699-104">_**마지막으로 수정 된 항목:** 2012-09-06_</span><span class="sxs-lookup"><span data-stu-id="2e699-104">_**Topic Last Modified:** 2012-09-06_</span></span>
 
-<span data-ttu-id="ddf90-104">이 섹션의 항목에서는 파일럿 풀 배포에 Lync Server 2013에 지 서버를 추가 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="ddf90-104">The topics in this section explain how to add a Lync Server 2013 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="ddf90-105">이 항목에서는 새에 지 풀 배포 마법사를 실행할 때의 구성 및 확인 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="ddf90-105">The topics provide configuration and verification guidance when running the Deploy New Edge pool wizard.</span></span>
+<span data-ttu-id="2e699-105">이 섹션의 항목에서는 파일럿 풀 배포에 Lync Server 2013에 지 서버를 추가 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="2e699-105">The topics in this section explain how to add a Lync Server 2013 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="2e699-106">이 항목에서는 새에 지 풀 배포 마법사를 실행할 때의 구성 및 확인 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="2e699-106">The topics provide configuration and verification guidance when running the Deploy New Edge pool wizard.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ddf90-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="ddf90-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2e699-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="2e699-107">In This Section</span></span>
 
-  - [<span data-ttu-id="ddf90-107">파일럿 Edge 서버 배포</span><span class="sxs-lookup"><span data-stu-id="ddf90-107">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server.md)
+  - [<span data-ttu-id="2e699-108">파일럿 Edge 서버 배포</span><span class="sxs-lookup"><span data-stu-id="2e699-108">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server.md)
 
-  - [<span data-ttu-id="ddf90-108">구성 설정 확인</span><span class="sxs-lookup"><span data-stu-id="ddf90-108">Verify configuration settings</span></span>](verify-configuration-settings.md)
+  - [<span data-ttu-id="2e699-109">구성 설정 확인</span><span class="sxs-lookup"><span data-stu-id="2e699-109">Verify configuration settings</span></span>](verify-configuration-settings.md)
 
 </div>
 
