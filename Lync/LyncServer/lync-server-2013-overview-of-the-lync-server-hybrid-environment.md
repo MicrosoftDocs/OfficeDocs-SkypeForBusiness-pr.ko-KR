@@ -12,20 +12,22 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f99aeda6136c79b7ffda9b5cd3d5dced3b1f6ee4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221532"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516115"
 ---
+# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Lync Server 2013 하이브리드 환경 개요
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Lync Server 2013 하이브리드 환경 개요
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 hybrid environment는 일부 사용자가 온-프레미스 Lync
 
 <div>
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 하이브리드 배포를 구성 하기 위한 작업을 완료 하려면 다음 응용 프로그램 및 유틸리티를 설치 해야 합니다. 이러한 파일의 설치 관리자는 다음 목록에 포함 된 링크 뿐 아니라 배포를 위해 제공 되는 설정 미디어에도 포함 되어 있습니다.
 
@@ -59,7 +61,7 @@ Lync Server 2013 hybrid environment는 일부 사용자가 온-프레미스 Lync
 
   - [AD FS를 사용 하 여 single sign-on 용 Windows PowerShell 설치](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Microsoft Online Services 로그인 도우미 (msoidcli-)는 microsoft 365 관리 센터에서 연결 된 다운로드 페이지에서 구할 수 있는 Microsoft 365 데스크톱 설치에 포함 되어 있습니다.
+  - Microsoft Online Services 로그인 도우미 (msoidcli-7.0.msi)는 microsoft 365 관리 센터에서 연결 된 다운로드 페이지에서 구할 수 있는 Microsoft 365 데스크톱 설치 프로그램에 포함 되어 있습니다.
 
 </div>
 

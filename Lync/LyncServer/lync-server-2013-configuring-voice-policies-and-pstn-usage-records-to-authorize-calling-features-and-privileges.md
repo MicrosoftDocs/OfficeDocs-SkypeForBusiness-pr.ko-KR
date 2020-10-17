@@ -12,20 +12,22 @@ ms:contentKeyID: 48184307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48f419f55c062b6ffaab592dd5346194eaafe5af
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f13057306d278d871ca7e4cba530ae8eba974ea5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195561"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516965"
 ---
+# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a>Lync Server 2013에서 호출 기능 및 권한을 부여 하도록 음성 정책 및 PSTN 사용 레코드 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a>Lync Server 2013에서 호출 기능 및 권한을 부여 하도록 음성 정책 및 PSTN 사용 레코드 구성
+
 
 </div>
 

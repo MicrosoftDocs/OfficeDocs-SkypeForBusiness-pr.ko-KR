@@ -12,20 +12,22 @@ ms:contentKeyID: 48183457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c534aa912e2564f8a8934aafa75bc52b76600795
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3eecf3d55ba3bb8e8629d41a9a924c65ac7a4c0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217474"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516135"
 ---
+# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Lync Server 2013의 모바일 기능
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Lync Server 2013의 모바일 기능
+
 
 </div>
 
@@ -83,7 +85,7 @@ Lync Server 2013 용 누적 업데이트에 도입 된 모바일 기능: 2 월 2
 
 </div>
 
-Apple iPad 사용자는 향상된 기능에 액세스할 수 있습니다. 오디오 통화를 사용 하 여 모임에 참가 한 후에는 iPad 사용자가 모임 내에서 업로드 된 Microsoft PowerPoint 프레젠테이션을 보고, 응용 프로그램 및 데스크톱을 공유 하 고, 모임 참가자 목록을 보고, 다른 콘텐츠 형식에 대 한 알림을 받을 수 있습니다. 모임 내에서 공유 되는 중입니다.
+Apple iPad 사용자는 향상된 기능에 액세스할 수 있습니다. 오디오 통화를 사용 하 여 모임에 참가 한 후에는 iPad 사용자가 모임 내에서 업로드 된 Microsoft PowerPoint 프레젠테이션을 보고, 응용 프로그램 및 데스크톱을 공유 하 고, 모임 참가자 목록을 보고, 모임 내에서 공유 되는 다른 콘텐츠 형식에 대 한 알림을 받을 수 있습니다.
 
 <div>
 
@@ -99,7 +101,7 @@ Apple iPad 사용자는 향상된 기능에 액세스할 수 있습니다. 오�
 
 
 > [!NOTE]  
-> 모든 기능이 모든 모바일 장치에서 정확히 동일하게 작동하는 것은 아닙니다. 모바일 장치에서 지원 되는 기능에 대 한 자세한 내용은 모바일 클라이언트 비교 표 <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A>를 참조 하세요. 지원 되는 장치 및 운영 체제에 대 한 자세한 내용은 <A href="lync-server-2013-planning-for-mobile-clients.md">Lync Server 2013의 모바일 클라이언트 계획</A>에서 요구 사항 항목을 참조 하십시오.
+> 모든 기능이 모든 모바일 장치에서 정확히 동일하게 작동하는 것은 아닙니다. 모바일 장치에서 지원 되는 기능에 대 한 자세한 내용은 모바일 클라이언트 비교 표를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A> . 지원 되는 장치 및 운영 체제에 대 한 자세한 내용은 <A href="lync-server-2013-planning-for-mobile-clients.md">Lync Server 2013의 모바일 클라이언트 계획</A>에서 요구 사항 항목을 참조 하십시오.
 
 
 

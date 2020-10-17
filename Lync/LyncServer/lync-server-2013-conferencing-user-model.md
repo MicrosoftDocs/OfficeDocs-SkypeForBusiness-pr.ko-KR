@@ -12,20 +12,22 @@ ms:contentKeyID: 48185229
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1049ff2d11d76e78661636972c812cc6c9c731f3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8f16ebf97a23bad014fde7fa9ebfbe005c4b95a8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199040"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517675"
 ---
+# <a name="the-conferencing-user-model-in-lync-server-2013"></a>Lync Server 2013의 회의 사용자 모델
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-conferencing-user-model-in-lync-server-2013"></a>Lync Server 2013의 회의 사용자 모델
+
 
 </div>
 
@@ -47,13 +49,13 @@ Lync Server 회의 사용자 모델의 중요 한 부분은 모임 크기입니�
 
 모임 크기 이외에도 회의 사용자 모델은 다음과 같은 여러 가지 요인을 고려합니다.
 
-  - **동시 회의**   회의에 예상 되는 사용자의 수는 얼마나 됩니까?
+  - **동시 모임**     동시에 모임에 포함할 것으로 예상 되는 사용자의 수는 몇 개입니까?
 
-  - **미디어 믹스**   사용할 수 있는 미디어 유형 및 모임 사용자가 사용 해야 할 것으로 예상 되는 기능은 무엇입니까?
+  - **미디어 믹스**     사용할 수 있는 미디어 유형은 무엇이 고, 모임에서 사용자가 사용 해야 하는 경우는 무엇입니까?
 
-  - **사용자 유형은**   사용자 내부 사용자, 원격 사용자, 페더레이션 사용자 또는 익명 사용자입니다.
+  - **사용자 유형**     사용자가 내부 사용자, 원격 사용자, 페더레이션 사용자 또는 익명 사용자 인지 여부
 
-  - **모임 램프 가동 시간**   모든 모임 사용자가 모임에 참가 하는 데 어느 정도의 시간이 걸립니까?
+  - **모임 진입 업 시간**     모임의 모든 사용자가 모임에 참가 하는 데 어느 정도의 시간이 걸립니까?
 
 사용자 모델에 대 한 자세한 내용은 [Lync Server 2013의 사용자 모델](lync-server-2013-user-models.md)을 참조 하십시오.
 

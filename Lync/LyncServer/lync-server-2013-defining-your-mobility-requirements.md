@@ -12,20 +12,22 @@ ms:contentKeyID: 48185226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2da630e422aaf7068a4252333d5221f552bce525
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f560df21555bf15c1a51c055861898860ff8dc6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516335"
 ---
+# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 모바일 기능 요구 사항 정의
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 모바일 기능 요구 사항 정의
+
 
 </div>
 
@@ -45,13 +47,13 @@ Lync Server 2013 모바일 기능에 대 한 계획 단계 중에 Lync 2010 모�
 
   - **Lync 모바일 클라이언트에 대해 자동 검색을 사용할지 여부**
     
-    자동 검색을 지원 하려면 새 내부 및 외부 DNS (Domain Name System) 레코드를 만들고, 프런트 엔드 서버, 디렉터 및 역방향 프록시의 인증서에 주체 대체 이름을 추가 하 고, 기존 게시 규칙을 수정 해야 합니다. 역방향 프록시 자세한 내용은 [Lync Server 2013에서 모바일 기능에 대 한 기술 요구 사항을](lync-server-2013-technical-requirements-for-mobility.md)참조 하세요. 자동 검색을 사용 하면 사용자가 모바일 장치 설정에 Url을 입력 하지 않고도 회사 네트워크 내부 또는 외부의 어디에서 든 지 Lync Server 2013 웹 서비스를 자동으로 찾을 수 있습니다.
+    자동 검색을 지원 하려면 새 내부 및 외부 DNS (Domain Name System) 레코드를 만들고, 프런트 엔드 서버, 디렉터 및 역방향 프록시의 인증서에 주체 대체 이름을 추가 하 고, 역방향 프록시의 기존 게시 규칙을 수정 해야 합니다. 자세한 내용은 [Lync Server 2013에서 모바일 기능에 대 한 기술 요구 사항을](lync-server-2013-technical-requirements-for-mobility.md)참조 하세요. 자동 검색을 사용 하면 사용자가 모바일 장치 설정에 Url을 입력 하지 않고도 회사 네트워크 내부 또는 외부의 어디에서 든 지 Lync Server 2013 웹 서비스를 자동으로 찾을 수 있습니다.
     
     자동 검색 대신 수동 설정을 사용 하는 경우 모바일 사용자가 모바일 장치에서 다음 Url을 수동으로 입력 해야 합니다.
     
-      - 외부\<액세스용 Https://extpoolfqdn\>https://
+      - \<ExtPoolFQDN\>외부 액세스용 Https://https://
     
-      - 내부\<액세스용 Https://intpoolfqdn\>/AutoDiscover/autodiscoverservice/Root
+      - \<IntPoolFQDN\>내부 액세스용 Https:///AutoDiscover/autodiscoverservice/Root
     
     자동 검색은 사용하는 것이 좋습니다. 수동 설정은 주로 문제 해결 시에 사용됩니다.
 
@@ -82,7 +84,7 @@ Lync Server 2013 모바일 기능에 대 한 계획 단계 중에 Lync 2010 모�
     
 
     > [!IMPORTANT]  
-    > Lync Server&nbsp;2013 프런트 엔드 서버 또는 프런트 엔드 풀을 사용 하는 경우 lync <STRONG></STRONG> Server 2010&nbsp;프런트 엔드 서버 또는 프런트 엔드 풀이 없으면 <STRONG>쿠키 기반 지 속성에 대 한 요구 사항은 없습니다</STRONG>. Lync Server 2010&nbsp;프런트 엔드 서버 또는 프런트 엔드 풀을 유지 해야 하는 경우에는 쿠키 기반 지 속성에 대해 동일한 규칙이 여전히 Lync server 2010에 적용 됩니다.
+    > Lync Server 2013 &nbsp; 프런트 엔드 서버 또는 프런트 엔드 풀을 사용 하는 경우 Lync <STRONG>you do not have</STRONG> Server 2010 &nbsp; 프런트 엔드 서버 또는 프런트 엔드 풀이 없으면 <STRONG>쿠키 기반 지 속성에 대 한 요구 사항은 없습니다</STRONG>. Lync Server 2010 &nbsp; 프런트 엔드 서버 또는 프런트 엔드 풀을 유지 해야 하는 경우에는 쿠키 기반 지 속성에 대해 동일한 규칙이 여전히 Lync server 2010에 적용 됩니다.
 
     
     </div>
@@ -91,7 +93,7 @@ Lync Server 2013 모바일 기능에 대 한 계획 단계 중에 Lync 2010 모�
     
     푸시 알림을 지원하는 경우 지원되는 Apple iOS 장치 및 Windows Phone에서는 모바일 응용 프로그램이 비활성 상태일 때 발생하는 이벤트의 알림을 받게 됩니다. Edge 서버가 Lync Online 데이터 센터에 있는 클라우드 기반 Lync Server 푸시 알림 서비스와의 페더레이션 관계를 갖도록 구성 하 고, cmdlet을 실행 하 여 푸시 알림을 사용 하도록 설정 해야 합니다.
     
-    Wi-fi 네트워크를 통해 푸시 알림을 지원 하려는 경우에는 모바일 장치 공급자의 3G 또는 데이터 네트워크를 통한 푸시 알림을 지 원하는 것 외에도 엔터프라이즈 Wi-fi 네트워크에서 포트 5223 아웃 바운드를 열어야 합니다. Wi-Fi만 사용하는 모바일 장치와 실내 수신 상태가 좋지 않은 모바일 장치에 한해 Wi-Fi 네트워크를 통해 푸시 알림을 지원할 수 있습니다.
+    Wi-Fi 네트워크를 통해 푸시 알림을 지원 하 고, 모바일 장치 공급자의 3G 또는 데이터 네트워크에 대 한 푸시 알림을 지 원하는 경우에는 엔터프라이즈 Wi-Fi 네트워크에서 포트 5223 아웃 바운드를 열어야 합니다. Wi-Fi만 사용하는 모바일 장치와 실내 수신 상태가 좋지 않은 모바일 장치에 한해 Wi-Fi 네트워크를 통해 푸시 알림을 지원할 수 있습니다.
     
     <div>
     
@@ -134,7 +136,7 @@ Lync Server 2013 모바일 기능에 대 한 계획 단계 중에 Lync 2010 모�
     <tbody>
     <tr class="odd">
     <td><p>모바일 기능 사용</p>
-    <p>매개 변수 이름:<code>EnableMobility</code></p>
+    <p>매개 변수 이름: <code>EnableMobility</code></p>
     <p>범위: 전역/사이트/사용자</p></td>
     <td><p>관리 설정 Lync Mobile이 설치 된 지정 된 범위에서 사용자를 제어 하기 위해 정책이 False로 설정 되어 있으면 사용자가 클라이언트에 로그인 할 수 없습니다.</p>
     <p>기본 설정은 True입니다.</p></td>
@@ -142,7 +144,7 @@ Lync Server 2013 모바일 기능에 대 한 계획 단계 중에 Lync 2010 모�
     </tr>
     <tr class="even">
     <td><p>외부 음성 사용</p>
-    <p>매개 변수 이름:<code>EnableOutsideVoice</code></p>
+    <p>매개 변수 이름: <code>EnableOutsideVoice</code></p>
     <p>범위: 전역/사이트/사용자</p></td>
     <td><p>사용자가 휴대폰을 통해 전화를 사용 하는 기능을 제어 하는 기능이 지원 되는 기능인 회사 번호를 사용 하 여 전화를 걸고 받을 수 있습니다. False로 설정 하면 사용자가 모바일 장치에서 회사 번호를 사용 하 여 전화를 걸거나 받을 수 없게 됩니다.</p>
     <p>기본 설정은 True입니다.</p></td>
@@ -150,7 +152,7 @@ Lync Server 2013 모바일 기능에 대 한 계획 단계 중에 Lync 2010 모�
     </tr>
     <tr class="odd">
     <td><p>IP 오디오 및 비디오 사용</p>
-    <p>매개 변수 이름:<code>EnableIPAudioVideo</code></p>
+    <p>매개 변수 이름: <code>EnableIPAudioVideo</code></p>
     <p>범위: 전역/사이트/사용자</p></td>
     <td><p>사용자가 VoIP를 사용 하 여 모바일 장치에서 음성 또는 비디오 통화를 만들거나 수신할 수 있는지 여부를 제어 합니다. False로 설정 하면 사용자가 장치에서 VoIP 또는 비디오 통화를 만들거나 받을 수 없게 됩니다.</p>
     <p>기본 설정은 True입니다.</p></td>
@@ -158,7 +160,7 @@ Lync Server 2013 모바일 기능에 대 한 계획 단계 중에 Lync 2010 모�
     </tr>
     <tr class="even">
     <td><p>IP 오디오에 WiFi 필요</p>
-    <p>매개 변수 이름:<code>RequireWiFiForIPAudio</code></p>
+    <p>매개 변수 이름: <code>RequireWiFiForIPAudio</code></p>
     <p>범위: 전역/사이트/사용자</p></td>
     <td><p>이 설정은 클라이언트가 셀룰러 데이터 네트워크가 아닌 WiFi에서 VoIP를 통해 전화를 걸고 받아야 하는지 여부를 정의 합니다. True로 설정 하면 사용자가 WiFi 네트워크에 연결 된 경우에만 VoIP 통화를 설정 하 고 받을 수 있습니다.</p>
     <p>기본 설정은 False입니다.</p></td>
@@ -166,9 +168,9 @@ Lync Server 2013 모바일 기능에 대 한 계획 단계 중에 Lync 2010 모�
     </tr>
     <tr class="odd">
     <td><p>IP 비디오에 WiFi 필요</p>
-    <p>매개 변수 이름:<code>RequireWiFiForIPVideo</code></p>
+    <p>매개 변수 이름: <code>RequireWiFiForIPVideo</code></p>
     <p>범위: 전역/사이트/사용자</p></td>
-    <td><p>이 설정은 클라이언트가 셀룰러 데이터 네트워크가 아닌 Wi-fi에서 화상 통화를 설정 하 고 수신 해야 하는지 여부를 정의 합니다. True로 설정 된 경우 사용자는 Wi-fi 네트워크에 연결 된 경우에만 비디오 통화를 설정 하 고 수신할 수 있습니다.</p>
+    <td><p>이 설정은 클라이언트가 셀룰러 데이터 네트워크 대신 Wi-Fi에서 비디오 통화를 설정 하 고 수신 해야 하는지 여부를 정의 합니다. True로 설정 된 경우 사용자는 Wi-Fi 네트워크에 연결 된 경우에만 비디오 통화를 설정 하 고 받을 수 있습니다.</p>
     <p>기본 설정은 False입니다.</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>

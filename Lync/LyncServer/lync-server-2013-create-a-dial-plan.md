@@ -12,20 +12,22 @@ ms:contentKeyID: 48185424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 382b04f9b0aa835d0230cb05fb56cb272546c038
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f530faa83cb2e924d93abce6f7496c3ef1b82311
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192931"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516925"
 ---
+# <a name="create-a-dial-plan-in-lync-server-2013"></a>Lync Server 2013에서 다이얼 플랜 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dial-plan-in-lync-server-2013"></a>Lync Server 2013에서 다이얼 플랜 만들기
+
 
 </div>
 
@@ -83,7 +85,7 @@ _**마지막으로 수정 된 항목:** 2013-10-24_
     
 
     > [!IMPORTANT]  
-    > <STRONG>단순 이름은</STRONG> Lync Server 배포 내의 모든 다이얼 플랜에서 고유 해야 합니다. 256 유니코드 문자를 초과할 수 없으며 각각은 영문자 또는 숫자, 하이픈 (-), 마침표 (.) 또는 밑줄 (_)이 될 수 있습니다.<BR><STRONG>지원 되지 않는</STRONG> 문자에는 RFC 3966 (http://www.ietf.org/rfc/rfc3966.txt). <STRONG>단순 이름</STRONG> 에서 <STRONG>지원 되지</STRONG> 않는 예약 된 문자에는 다음이 포함 됩니다.<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+    > <STRONG>단순 이름은</STRONG> Lync Server 배포 내의 모든 다이얼 플랜에서 고유 해야 합니다. 256 유니코드 문자를 초과할 수 없으며 각각은 영문자 또는 숫자, 하이픈 (-), 마침표 (.) 또는 밑줄 (_)이 될 수 있습니다.<BR><STRONG>지원 되지 않는</STRONG> 문자에는 RFC 3966 ( http://www.ietf.org/rfc/rfc3966.txt) . <STRONG>단순 이름</STRONG> 에서 <STRONG>지원 되지</STRONG> 않는 예약 된 문자에는 다음이 포함 됩니다.<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
     
     </div>
@@ -101,7 +103,7 @@ _**마지막으로 수정 된 항목:** 2013-10-24_
     
     </div>
 
-9.  반드시 외부 회선을 사용 하 여 사용자가 하나 이상의 추가 선행 번호 (예: 9)를 눌러야 하는 경우에만 **해당 필드에** 값을 지정 합니다. 접두사 값에 최대 4 자 (\#, \*, 0-9)를 입력할 수 있습니다.
+9.  반드시 외부 회선을 사용 하 여 사용자가 하나 이상의 추가 선행 번호 (예: 9)를 눌러야 하는 경우에만 **해당 필드에** 값을 지정 합니다. 접두사 값에 최대 4 자 ( \# ,, 0-9)를 입력할 수 있습니다 \* .
     
     <div>
     
@@ -139,7 +141,7 @@ _**마지막으로 수정 된 항목:** 2013-10-24_
     
 
     > [!IMPORTANT]  
-    > Lync Server는 정규화 규칙 목록을 위에서 아래로 이동 하 고 전화 건 번호와 일치 하는 첫 번째 규칙을 사용 합니다. 전화를 건 번호가 둘 이상의 정규화 규칙과 일치하도록 다이얼 플랜을 구성하는 경우 더 제한적인 규칙을 덜 제한적인 규칙보다 위에 정렬되게 하십시오.<BR>기본 <STRONG>모든 정규화 유지</STRONG> 규칙 <STRONG>^ (\d{11}) $</STRONG> 는 11 자리 숫자와 일치 합니다. 예를 들어 1425으로 시작 하는 11 자리 번호와 일치 하는 정규화 규칙을 추가 하는 경우에는 <STRONG>모두 유지</STRONG> 를 보다 제한적인 <STRONG>^ ({7}1425) $</STRONG> rule 아래에 정렬 해야 합니다.
+    > Lync Server는 정규화 규칙 목록을 위에서 아래로 이동 하 고 전화 건 번호와 일치 하는 첫 번째 규칙을 사용 합니다. 전화를 건 번호가 둘 이상의 정규화 규칙과 일치하도록 다이얼 플랜을 구성하는 경우 더 제한적인 규칙을 덜 제한적인 규칙보다 위에 정렬되게 하십시오.<BR>기본 <STRONG>모든 정규화 유지</STRONG> 규칙 <STRONG>^ (\d {11} ) $</STRONG> 는 11 자리 숫자와 일치 합니다. 예를 들어 1425으로 시작 하는 11 자리 번호와 일치 하는 정규화 규칙을 추가 하는 경우에는 <STRONG>모두 유지</STRONG> 를 보다 제한적인 <STRONG>^ (1425 {7} ) $</STRONG> rule 아래에 정렬 해야 합니다.
 
     
     </div>

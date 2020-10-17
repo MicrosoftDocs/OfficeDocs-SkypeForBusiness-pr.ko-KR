@@ -12,20 +12,22 @@ ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f68b4d884671de3ad4e46c7022df8ae0b3d5da09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fd9823ca211242e0fd317e8a62ea118ed91a82f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197811"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517465"
 ---
+# <a name="configuring-gallery-view-in-lync-server-2013"></a>Lync Server 2013에서 갤러리 보기 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-gallery-view-in-lync-server-2013"></a>Lync Server 2013에서 갤러리 보기 구성
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2012-10-30_
 
 Lync Server 2013에서는 회의 정책에서 갤러리 보기 비디오 회의를 구성 합니다. 갤러리 보기는 기본적으로 설정되어 있습니다. 갤러리 보기를 허용하지 않거나 일부 사용자에게만 허용하려는 경우 회의 정책에서 이 기능을 해제해야 합니다.
 
-전화 회의 참가자의 비디오를 사용할 수 없는 경우 고해상도 사진을 배포할 경우 Lync Server 2013의 새로운 기능인 사용자 갤러리 보기 환경을 향상 시킬 수 있습니다. 고해상도 사진을 사용 하면 Active Directory 도메인 서비스에 저장 된 작고 제한 된 연락처 사진을 보다 쉽게 확인할 수 있습니다. 고해상도 사진은 사용자의 Exchange 2013 사서함에 저장 되므로 Lync Server 2013과 Exchange 2013을 통합 해야 합니다. 자세한 내용은 다음 홉 블로그 문서 "Exchange 2013 및 Lync Server 2013 통합"을 참조 [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987)하세요.
+전화 회의 참가자의 비디오를 사용할 수 없는 경우 고해상도 사진을 배포할 경우 Lync Server 2013의 새로운 기능인 사용자 갤러리 보기 환경을 향상 시킬 수 있습니다. 고해상도 사진을 사용 하면 Active Directory 도메인 서비스에 저장 된 작고 제한 된 연락처 사진을 보다 쉽게 확인할 수 있습니다. 고해상도 사진은 사용자의 Exchange 2013 사서함에 저장 되므로 Lync Server 2013과 Exchange 2013을 통합 해야 합니다. 자세한 내용은 다음 홉 블로그 문서 "Exchange 2013 및 Lync Server 2013 통합"을 참조 [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987) 하세요.
 
 <div>
 
@@ -61,7 +63,7 @@ Lync Server 2013 제어판을 사용 하거나 다음 cmdlet 중 하나를 사�
 
 다음 회의 정책 설정으로 갤러리 보기를 구성합니다.
 
-  - **AllowMultiview**   이 매개 변수는 사용자가 갤러리 보기 비디오 회의를 구성할 수 있는지 여부를 제어 합니다. 이 매개 변수는 사용자가 만드는 예약 모임 및 임시 모임에 적용됩니다.
+  - **AllowMultiview**     이 매개 변수는 사용자가 갤러리 보기 비디오 회의를 구성할 수 있는지 여부를 제어 합니다. 이 매개 변수는 사용자가 만드는 예약 모임 및 임시 모임에 적용됩니다.
     
     예제:
     
@@ -71,11 +73,11 @@ Lync Server 2013 제어판을 사용 하거나 다음 cmdlet 중 하나를 사�
     
     이 매개 변수는 여러 비디오 스트림을 허용하는 모임을 구성할 수 있는 사용자를 결정합니다. 여러 비디오 스트림을 허용하는 모임의 참가자는 개별 권한에 따라 여러 비디오 스트림을 수신하도록 허용되거나 허용되지 않을 수 있습니다(EnableMultiviewJoin 매개 변수 설명 참조).
 
-  - **EnableMultiviewJoin**   이 매개 변수는 모임 참가자가 허용 되는 모임에서 갤러리 보기 비디오 환경을 받는지 여부를 제어 합니다. 이 매개 변수는 사용자가 참가하는 모임에서 사용자의 경험을 제어합니다.
+  - **EnableMultiviewJoin**     이 매개 변수는 모임 참가자가이를 허용 하는 모임에서 갤러리 보기의 비디오 환경을 받는지 여부를 제어 합니다. 이 매개 변수는 사용자가 참가하는 모임에서 사용자의 경험을 제어합니다.
     
     예제:
     
-      - 이 매개 변수는 사용자 A가 구성 하거나 시작한 모임에 참가 하는 경우 여러 비디오 스트림을 받을 수 있습니다. User c는 다음과 같은 경우 Lync Server 2010에서 제공 하는 비디오 회의 환경과 유사한 단일 비디오 스트림을 받습니다. 사용자 B가 구성 하거나 시작한 모임에 참가 합니다.
+      - 이 매개 변수는 사용자 A가 구성 하거나 시작한 모임에 참가 하는 경우 여러 비디오 스트림을 받을 수 있습니다. user c는 사용자 B가 구성 하거나 시작한 모임에 참여할 때 Lync Server 2010에서 제공 하는 비디오 회의 환경과 유사한 단일 비디오 스트림을 받습니다.
     
       - 이 매개 변수는 사용자 D에 대해 False로 설정 됩니다. user D는 사용자 A 또는 사용자 B가 구성한 모든 모임에 참여할 때 Lync Server 2010에서 제공 하는 비디오 회의 환경과 유사한 단일 비디오 스트림을 받습니다.
 

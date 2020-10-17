@@ -12,20 +12,22 @@ ms:contentKeyID: 48184378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2903bd2701ac860232dd73342ed280688feac34b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cc006a73e6fcb7036d0085d9c5dcba4d3e21e133
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188001"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517835"
 ---
+# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>에 지 서버 계획에 영향을 주는 Lync Server 2013의 변경 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>에 지 서버 계획에 영향을 주는 Lync Server 2013의 변경 사항
+
 
 </div>
 
@@ -115,7 +117,7 @@ Lync Server 2013의 쿠키 기반 선호도에 대 한 자세한 내용은 [Lync
 
 ## <a name="autodiscover-enhancements"></a>자동 검색 향상 기능
 
-Lync Server 2013의 자동 검색 기능을 사용 하면 클라이언트에서 통신에 사용할 수 있는 추가 기능을 찾을 수 있습니다. 자동 검색은 Lync Server 2010 용 누적 업데이트 (이동성의 경우 11 월 2011, Microsoft Lync 2010 Mobile)에서 처음 도입 되었습니다. 클라이언트는 자동 검색 기능 (DNS 레코드 이름이 LLyncDiscoverInternal Cdiscover 및이 라고도 함)을 통해 클라이언트가 모바일 서비스 (Microsoft Lync 2010 모바일 클라이언트), Microsoft Lync Web App 및 Lync Web scheduler를 찾고 사용할 수 있습니다. Microsoft Exchange Server 및 SharePoint Server와의 통신 자동 검색은 인프라 및 Lync Server 2013 서버 설치 및 배포의 일반적인 부분으로 설치 됩니다. 토폴로지 작성기 및 Lync Server 배포 마법사는 Lync Server 2010의 누적 업데이트에서 필요한 구성 작업 중 대부분을 제거 합니다 2011.
+Lync Server 2013의 자동 검색 기능을 사용 하면 클라이언트에서 통신에 사용할 수 있는 추가 기능을 찾을 수 있습니다. 자동 검색은 Lync Server 2010 용 누적 업데이트 (이동성의 경우 11 월 2011, Microsoft Lync 2010 Mobile)에서 처음 도입 되었습니다. 자동 검색 기능 (DNS 레코드 이름 LyncDiscover 및 LyncDiscoverInternal이 라고도 함)은 클라이언트가 모바일 서비스 (Microsoft Lync 2010 모바일 클라이언트), Microsoft Lync Web App 및 Lync 웹 스케줄러를 찾고 사용할 수 있으며 Microsoft Exchange Server 및 SharePoint Server와의 통신을 허용 합니다. 자동 검색은 인프라 및 Lync Server 2013 서버 설치 및 배포의 일반적인 부분으로 설치 됩니다. 토폴로지 작성기 및 Lync Server 배포 마법사는 Lync Server 2010의 누적 업데이트에서 필요한 구성 작업 중 대부분을 제거 합니다 2011.
 
 </div>
 
@@ -123,7 +125,7 @@ Lync Server 2013의 자동 검색 기능을 사용 하면 클라이언트에서 
 
 ## <a name="services-for-mobile-clients"></a>모바일 클라이언트를 위한 서비스
 
-Lync Server에 대 한 누적 업데이트 2010: Lync Server 2013의 모바일 서비스 사용 지원 되는 Apple iOS, Android, Windows Phone 또는 Nokia 모바일 장치를 사용 하 여 Lync Mobile 및 태블릿 장치를 실행 하는 모바일 전화를 사용할 수 있도록 설정 합니다 2011. 인스턴트 메시지 보내기 및 받기, 연락처 보기, 현재 상태 보기 등의 작업을 진행 합니다. 또한 모바일 장치에서는 클릭 하 여 전화 회의, 직장 전화, 단일 번호 도착, 음성 메일 및 부재 중 전화 알림 등의 일부 Enterprise Voice 기능을 지원 합니다.
+Lync Server에 대 한 누적 업데이트 2010 2011: Lync Server 2013의 모바일 서비스는 지원 되는 Apple iOS, Android, Windows Phone 또는 Nokia 모바일 장치를 사용 하 여 Lync Mobile 및 태블릿 장치를 실행 하는 휴대폰을 사용 하도록 설정 하 여 인스턴트 메시지 보내기 및 받기, 연락처 보기, 현재 상태 보기 등의 작업을 수행 합니다. 또한 모바일 장치에서는 클릭 하 여 전화 회의, 직장 전화, 단일 번호 도착, 음성 메일 및 부재 중 전화 알림 등의 일부 Enterprise Voice 기능을 지원 합니다.
 
 <div>
 

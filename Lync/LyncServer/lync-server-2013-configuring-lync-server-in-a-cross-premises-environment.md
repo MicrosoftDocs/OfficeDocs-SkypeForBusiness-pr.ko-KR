@@ -12,20 +12,22 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dcbdb7ac12dcb8fc768a1f9e537622d01191b8f
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6f6399185e045afb56231550abc33ab514db0d04
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221732"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517391"
 ---
+# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>크로스-프레미스 환경에서 Microsoft Lync Server 2013 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>크로스-프레미스 환경에서 Microsoft Lync Server 2013 구성
+
 
 </div>
 
@@ -87,7 +89,7 @@ _**마지막으로 수정 된 항목:** 2017-02-21_
 
 
 > [!NOTE]  
-> Microsoft Online Services cmdlet을 설치하지 않은 경우 계속하기 전에 두 가지 작업을 수행해야 합니다. 우선 Microsoft Online Services 로그인 도우미의 64비트 버전을 다운로드하고 설치해야 합니다. 설치가 완료 되 면 64 비트 버전의 Windows PowerShell 용 Microsoft Online Services 모듈을 다운로드 하 여 설치 합니다. Microsoft Online Services 모듈을 설치 하 고 사용 하는 방법에 대 한 자세한 내용은 Microsoft 365 또는 Office 365 웹 사이트에서 찾을 수 있습니다. 이러한 지침에서는 Microsoft 365 또는 Office 36과 Active Directory 간의 single sign-on, 페더레이션 및 동기화를 구성 하는 방법에 대해서도 설명 합니다.<BR>이러한 cmdlet을 설치 하지 않은 경우 CsTenant cmdlet을 사용할 수 없으므로 스크립트에 오류가 발생 합니다.
+> Microsoft Online Services cmdlet을 설치하지 않은 경우 계속하기 전에 두 가지 작업을 수행해야 합니다. 우선 Microsoft Online Services 로그인 도우미의 64비트 버전을 다운로드하고 설치해야 합니다. 설치가 완료 되 면 64 비트 버전의 Windows PowerShell 용 Microsoft Online Services 모듈을 다운로드 하 여 설치 합니다. Microsoft Online Services 모듈을 설치 하 고 사용 하는 방법에 대 한 자세한 내용은 Microsoft 365 또는 Office 365 웹 사이트에서 찾을 수 있습니다. 이러한 지침에서는 Microsoft 365 또는 Office 36과 Active Directory 간의 single sign-on, 페더레이션 및 동기화를 구성 하는 방법에 대해서도 설명 합니다.<BR>이러한 cmdlet을 설치 하지 않은 경우에는 Get-CsTenant cmdlet을 사용할 수 없으므로 스크립트에 오류가 발생 합니다.
 
 
 
@@ -127,7 +129,7 @@ Microsoft 365에 연결 되는 즉시 서비스 계정에 대 한 정보를 반�
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-인증서를 가져오고 인코딩한 후에는 인증서를 Microsoft 365 서비스 사용자에 게 할당할 수 있습니다. 이 작업을 수행 하려면 먼저 (New-msolserviceprincipal를 사용 하 여 Lync Server 및 Microsoft Exchange 서비스 사용자 둘 다에 대 한 AppPrincipalId 속성 값을 검색 합니다. AppPrincipalId 속성 값은 인증서가 할당 되는 서비스 사용자를 식별 하는 데 사용 됩니다. Lync Server 2013의 AppPrincipalId 속성 값을 사용 하 여 Microsoft 365 버전의 Lync Server (시작 날짜 및 EndDate 속성은 인증서의 유효 기간에 해당)에 인증서를 할당 합니다.
+인증서를 가져오고 인코딩한 후에는 인증서를 Microsoft 365 서비스 사용자에 게 할당할 수 있습니다. 이 작업을 수행 하려면 먼저 Get-MsolServicePrincipal를 사용 하 여 Lync Server 및 Microsoft Exchange 서비스 사용자 둘 다에 대 한 AppPrincipalId 속성 값을 검색 합니다. AppPrincipalId 속성 값은 인증서가 할당 되는 서비스 사용자를 식별 하는 데 사용 됩니다. Lync Server 2013의 AppPrincipalId 속성 값을 사용 하 여 Microsoft 365 버전의 Lync Server (시작 날짜 및 EndDate 속성은 인증서의 유효 기간에 해당)에 인증서를 할당 합니다.
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 

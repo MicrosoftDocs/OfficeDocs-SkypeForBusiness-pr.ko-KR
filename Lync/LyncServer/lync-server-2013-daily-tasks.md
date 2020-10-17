@@ -12,20 +12,22 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87653490036c55a5f8b60925c988775c881a7326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 777d0fdfc8857022c0a54fcb1cd237b90f68d9d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209151"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516645"
 ---
+# <a name="daily-tasks-in-lync-server-2013"></a>Lync Server 2013의 일별 작업
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="daily-tasks-in-lync-server-2013"></a>Lync Server 2013의 일별 작업
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42209151"
 
 _**마지막으로 수정 된 항목:** 2015-01-26_
 
-Lync Server 2013 배포의 가용성과 안정성을 보장 하려면 실제 플랫폼, 운영 체제를 비롯 하 여 시스템 작동에 매우 중요 한 일일 일상적인 모니터 및 테스트 요소의 일부로 작업을 수행 해야 합니다. 모든 중요 Lync Server 2013 서비스 예방적 유지 관리 및 사전 모니터링은 Lync Server 2013 배포에 나쁜 영향을 줄 수 있는 잠재적 오류 및 문제를 파악 하는 데 도움이 됩니다.
+Lync Server 2013 배포의 가용성과 안정성을 보장 하기 위해서는 실제 플랫폼, 운영 체제 및 모든 중요 Lync Server 2013 서비스가 포함 된 시스템 작동에 매우 중요 한 일상적인 일상적인 모니터 및 테스트 요소의 일부로 작업을 수행 해야 합니다. 예방적 유지 관리 및 사전 모니터링은 Lync Server 2013 배포에 나쁜 영향을 줄 수 있는 잠재적 오류 및 문제를 파악 하는 데 도움이 됩니다.
 
 모니터링 2013에는 연결, 서비스, 서버 리소스 및 시스템 리소스 관련 문제를 확인 하는 작업이 포함 됩니다. System Center Operations Manager와 함께 Windows Server 운영 체제와 Lync Server를 사용 하 여 Lync Server 조직을 원활 하 게 실행 하는 데 도움이 되는 다양 한 모니터링 도구와 서비스를 제공 합니다. 이러한 기술이 함께 구현 되 면 관리자는 문제가 발생할 때 또는 이전에 알림을 받을 수 있습니다.
 

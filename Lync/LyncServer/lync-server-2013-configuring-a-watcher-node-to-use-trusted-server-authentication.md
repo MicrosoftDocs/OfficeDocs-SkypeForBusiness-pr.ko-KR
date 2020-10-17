@@ -12,20 +12,22 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8272dc0097205749ca3c0e5d613bc3da853fc7ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1478e2b2153c1b6834629ab41ccd6cde5b272430
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191981"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517705"
 ---
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>신뢰할 수 있는 서버 인증을 사용 하도록 Lync Server 2013에서 감시자 노드 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>신뢰할 수 있는 서버 인증을 사용 하도록 Lync Server 2013에서 감시자 노드 구성
+
 
 </div>
 
@@ -112,13 +114,13 @@ Enable-CsTopology를 실행한 후에는 컴퓨터를 다시 시작하는 것이
 
 ## <a name="installing-and-configuring-a-watcher-node"></a>감시자 노드 설치 및 구성
 
-감시자 노드 컴퓨터를 다시 시작하고 인증서를 구성한 후에는 Watchernode.msi 파일을 실행해야 합니다. (Operations Manager 에이전트 파일과 Lync Server 2013 핵심 구성 요소가 설치 되어 있는 컴퓨터에서 Watchernode.msi executable를 실행 해야 합니다.)
+감시자 노드 컴퓨터를 다시 시작하고 인증서를 구성한 후에는 Watchernode.msi 파일을 실행해야 합니다. Operations Manager 에이전트 파일과 Lync Server 2013 핵심 구성 요소가 모두 설치 되어 있는 컴퓨터에서 Watchernode.msi를 실행 해야 합니다.
 
 **감시자 노드를 설치 및 구성하려면**
 
 1.  **시작**, **모든 프로그램**, **lync server**를 차례로 클릭 한 다음 **Lync Server 관리 셸을**클릭 하 여 lync server 관리 셸을 엽니다.
 
-2.  Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다 (Watchernode.msi executable 복사본의 실제 경로 지정).
+2.  Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다 (Watchernode.msi 복사본의 실제 경로 지정).
     
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
@@ -133,7 +135,7 @@ Enable-CsTopology를 실행한 후에는 컴퓨터를 다시 시작하는 것이
 
 앞의 명령 Authentication=TrustedServer에서 이름/값 쌍은 대/소문자를 구분합니다. 표시된 것과 정확히 동일하게 입력해야 합니다. 다음 명령은 대/소문자가 올바르지 않기 때문에 실패합니다.
 
-C:\\도구\\watchernode.msi executable 인증 = 서버
+C: \\ 도구 \\Watchernode.msi authentication = 서버가 있는 서버
 
 경계 네트워크 내에 있는 컴퓨터에서만 TrustedServer 모드를 사용할 수 있습니다. 감시자 노드가 TrustedServer 모드로 실행될 때는 관리자가 컴퓨터에 테스트 사용자 암호를 유지 관리할 필요가 없습니다.
 

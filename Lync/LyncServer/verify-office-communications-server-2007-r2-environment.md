@@ -12,20 +12,22 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a7ba7e51e6dd1f6e42aeddfbbbd4ce7581d3fc
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 5f4107877c237abef92233dbca88cf7060fdca25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755582"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515945"
 ---
+# <a name="verify-office-communications-server-2007-r2-environment"></a>Office Communications Server 2007 R2 환경 확인
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-office-communications-server-2007-r2-environment"></a>Office Communications Server 2007 R2 환경 확인
+
 
 </div>
 
@@ -43,7 +45,7 @@ Office Communications Server 2007 r 2와 함께 사용 상태로 Lync Server 201
 
 1.  Office Communications Server 2007 R2 관리 도구를 엽니다.
 
-2.  **포리스트** 노드를 확장하고 **Standard Edition 서버** 또는 **엔터프라이즈 풀** 노드를 확장한 후 풀 또는 서버 이름을 확장합니다.
+2.  **Forest** 노드를 확장하고 **Standard Edition Server** 또는 **엔터프라이즈 풀** 노드를 확장한 다음 해당 풀 또는 서버 이름을 확장합니다.
 
 3.  Standard Edition Server 또는 엔터프라이즈 풀에서 서비스가 실행 중인지 확인합니다.
     

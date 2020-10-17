@@ -12,20 +12,22 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 443f353a43c2fdfd2f9fc8c7ce1a1b20c11a4a84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b602e29e0f90a49a031c25d6bb919337bef87b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516545"
 ---
+# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Lync Server 2013에서 Lync Server 관리 셸을 사용 하 여 데이터베이스 설치
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Lync Server 2013에서 Lync Server 관리 셸을 사용 하 여 데이터베이스 설치
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2016-06-16_
 
 
 > [!IMPORTANT]  
-> 다음 절차에서는 최소한 Lync Server 2013 OCSCore .msi, SQL Server Native Client (sqlncli) Microsoft sql server 2012 Management Objects, Microsoft sql Server 2012 및 Microsoft SQL Server 2012 ADOMD.NET의 CLR 유형이 설치 되어 있다고 가정 합니다. OCSCore.msi는 \Setup\AMD64\Setup 디렉터리의 설치 미디어에 있습니다. 나머지 구성 요소는 \Setup\amd64.에 있습니다. 또한 Lync Server 2013에 대 한 Active Directory 준비가 성공적으로 완료 되었습니다.
+> 다음 절차에서는 최소한 Lync Server 2013 OCSCore.msi SQL Server Native Client (sqlncli.msi) Microsoft SQL server 2012 Management Objects, Microsoft sql Server 2012 및 Microsoft SQL Server 2012 ADOMD.NET이 설치 되어 있다고 가정 합니다. OCSCore.msi는 \Setup\AMD64\Setup 디렉터리의 설치 미디어에 있습니다. 나머지 구성 요소는 \Setup\amd64.에 있습니다. 또한 Lync Server 2013에 대 한 Active Directory 준비가 성공적으로 완료 되었습니다.
 
 
 
@@ -77,7 +79,7 @@ _**마지막으로 수정 된 항목:** 2016-06-16_
 
 1.  원하는 컴퓨터에서 SQL Server 기반 서버에 데이터베이스를 만들기 위해 관리 자격 증명을 사용하여 로그온합니다. 자세한 내용은 [Lync server 2013의 SQL Server에 대 한 배포 권한을](lync-server-2013-deployment-permissions-for-sql-server.md)참조 하십시오.
 
-2.  Lync Server 2013 관리 셸을 엽니다. Windows PowerShell에 대 한 실행 정책을 조정 하지 않은 경우 Windows PowerShell 스크립트 실행을 허용 하도록 정책을 조정 해야 합니다. 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)"실행 정책 검사"를 참조 하십시오.
+2.  Lync Server 2013 관리 셸을 엽니다. Windows PowerShell에 대 한 실행 정책을 조정 하지 않은 경우 Windows PowerShell 스크립트 실행을 허용 하도록 정책을 조정 해야 합니다. 자세한 내용은에서 "실행 정책 검사"를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093) .
 
 3.  **설치-CsDatabase** cmdlet을 사용 하 여 중앙 관리 저장소를 설치 합니다.
     
@@ -122,7 +124,7 @@ _**마지막으로 수정 된 항목:** 2016-06-16_
     
 
     > [!IMPORTANT]  
-    > SQL Server 기반 데이터베이스를 구성 하려면 여기에 설명 된 단계를 실행 하는 데 사용 되는 SQL Server 관리자 계정이 SQL Server를 실행 하는 서버에서 해당 하는 sysadmins 그룹의 구성원 이기도 하 고 중앙 관리를 보유 하 고 있는지 확인 합니다. 서버 역할 특히 SQL Server 데이터베이스를 설치 하거나 구성 해야 하는 추가 Lync Server 2013 풀을 확인 하는 것이 중요 합니다. 예를 들어 두 번째 풀 (pool02)을 배포 하는 경우 중앙 관리 서버 역할은 pool01에서 보유 합니다. SQL Server sysadmin 그룹에는 두 SQL Server 기반 데이터베이스에 대 한 사용 권한이 있어야 합니다.
+    > SQL Server 기반 데이터베이스를 구성 하려면 여기에 설명 된 단계를 실행 하는 데 사용 되는 SQL Server 관리자 계정이 SQL Server를 실행 하는 서버에서 중앙 관리 서버 역할을 수행 하는 서버의 구성원 이어야 합니다. 특히 SQL Server 데이터베이스를 설치 하거나 구성 해야 하는 추가 Lync Server 2013 풀을 확인 하는 것이 중요 합니다. 예를 들어 두 번째 풀 (pool02)을 배포 하는 경우 중앙 관리 서버 역할은 pool01에서 보유 합니다. SQL Server sysadmin 그룹에는 두 SQL Server 기반 데이터베이스에 대 한 사용 권한이 있어야 합니다.
 
     
     </div>
@@ -166,7 +168,7 @@ _**마지막으로 수정 된 항목:** 2016-06-16_
     
 
     > [!IMPORTANT]  
-    > SQL Server 기반 데이터베이스를 구성 하려면 여기에 설명 된 단계를 실행 하는 데 사용 되는 SQL Server 관리자 계정이 SQL Server를 실행 하는 서버에서 해당 하는 sysadmins 그룹의 구성원 이기도 하 고 중앙 관리를 보유 하 고 있는지 확인 합니다. 서버 역할 특히 SQL Server 데이터베이스를 설치 하거나 구성 해야 하는 추가 Lync Server 풀이 있는지 확인 하는 것이 중요 합니다. 예를 들어 두 번째 풀 (pool02)을 배포 하는 경우 중앙 관리 서버 역할은 pool01에서 보유 합니다. SQL Server sysadmin 그룹에는 두 SQL Server 기반 데이터베이스에 대 한 사용 권한이 있어야 합니다.
+    > SQL Server 기반 데이터베이스를 구성 하려면 여기에 설명 된 단계를 실행 하는 데 사용 되는 SQL Server 관리자 계정이 SQL Server를 실행 하는 서버에서 중앙 관리 서버 역할을 수행 하는 서버의 구성원 이어야 합니다. 특히 SQL Server 데이터베이스를 설치 하거나 구성 해야 하는 추가 Lync Server 풀이 있는지 확인 하는 것이 중요 합니다. 예를 들어 두 번째 풀 (pool02)을 배포 하는 경우 중앙 관리 서버 역할은 pool01에서 보유 합니다. SQL Server sysadmin 그룹에는 두 SQL Server 기반 데이터베이스에 대 한 사용 권한이 있어야 합니다.
 
     
     </div>
@@ -175,7 +177,7 @@ _**마지막으로 수정 된 항목:** 2016-06-16_
 
 4.  DatabasePathMap 매개 변수와 PowerShell 해시 테이블을 포함 하는 **csdatabase** cmdlet을 사용 하 여 토폴로지 작성기 구성 데이터베이스를 설치 합니다.
 
-5.  예제 코드에서 데이터베이스에 대해 정의 된 경로는 다음과 같이 – DatabasePathMap 매개 변수 및 정의 된 해시 테이블을 사용 하 여 세부적으로 결정할 수 있으며,이 예에서는 모든 데이터베이스 (.mdf\\) 파일에 "c: csdata"를 사용 하 고 모든 로그 파일\\(.Ldf)을 "c: csdata"로 지정 합니다. 설치-CsDatabase에서 필요에 따라 폴더를 만듭니다.
+5.  예제 코드에서 데이터베이스에 대해 정의 된 경로는 다음과 같이 – DatabasePathMap 매개 변수 및 정의 된 해시 테이블을 사용 하 여 세부적으로 결정할 수 있으며,이 예에서는 \\ 모든 데이터베이스 (.mdf) 파일에 "c: csdata"를 사용 하 고 \\ 모든 로그 파일 (.ldf)을 "c: csdata"로 지정 합니다. 설치-CsDatabase에서 필요에 따라 폴더를 만듭니다.
     ```powershell
     $pathmap = @{
     "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
@@ -190,31 +192,31 @@ _**마지막으로 수정 된 항목:** 2016-06-16_
     }
     Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
     ```
-6.  데이터베이스와 로그 파일은 대상 데이터베이스 서버에서 해당 위치를 사용 하 여 명시적으로 이름이 지정 되므로 각 서비스 유형의 실제 데이터베이스 및 로그 위치에 대해 특정 위치를 정의할 수 있습니다. 다음 예에서는 각 특정 서비스 종류에 대 한 데이터베이스를 별도의 디스크에 배치 하 고 관련 로그 파일을 서로 연결 합니다. 예:
+6.  데이터베이스와 로그 파일은 대상 데이터베이스 서버에서 해당 위치를 사용 하 여 명시적으로 이름이 지정 되므로 각 서비스 유형의 실제 데이터베이스 및 로그 위치에 대해 특정 위치를 정의할 수 있습니다. 다음 예에서는 각 특정 서비스 종류에 대 한 데이터베이스를 별도의 디스크에 배치 하 고 관련 로그 파일을 서로 연결 합니다. 예제:
     
-      - "D:\\rtcdatabase"에 대 한 모든 RTC 데이터베이스
+      - "D: rtcdatabase"에 대 한 모든 RTC 데이터베이스 \\
     
-      - "E:\\RTCLogs"에 대 한 모든 RTC 로그 파일
+      - "E: RTCLogs"에 대 한 모든 RTC 로그 파일 \\
     
-      - 모든 응용 프로그램 저장소 데이터베이스를 "F\\: cpsdatabases"로
+      - 모든 응용 프로그램 저장소 데이터베이스를 "F: \\ cpsdatabases"로
     
-      - 모든 응용 프로그램 저장소는 "G:\\cpslogs"에 기록 됩니다.
+      - 모든 응용 프로그램 저장소는 "G: \\ cpslogs"에 기록 됩니다.
     
-      - 모든 응답 그룹 저장소 데이터베이스를 "H:\\RGSDatabases"로 저장
+      - 모든 응답 그룹 저장소 데이터베이스를 "H: \\ RGSDatabases"로 저장
     
-      - 모든 응답 그룹 저장소가 "I: RGSLogs"\\에 기록 됩니다.
+      - 모든 응답 그룹 저장소가 "I: RGSLogs"에 기록 됩니다. \\
     
-      - 모든 주소록 저장소 데이터베이스를 "J:\\ABSDatabases"로
+      - 모든 주소록 저장소 데이터베이스를 "J: \\ ABSDatabases"로
     
-      - 모든 주소록 저장소 로그 파일을 "K:\\ABSLogs"에 저장
+      - 모든 주소록 저장소 로그 파일을 "K: \\ ABSLogs"에 저장
     
-      - 모든 보관 저장소 데이터베이스를 "L:\\ArchivingDatabases"로
+      - 모든 보관 저장소 데이터베이스를 "L: \\ ArchivingDatabases"로
     
-      - 모든 보관 저장소는 "M: ArchivingLogs\\"에 기록 됩니다.
+      - 모든 보관 저장소는 "M: ArchivingLogs"에 기록 됩니다. \\
     
-      - "N:\\MonitoringDatabases"에 대 한 모든 모니터링 저장소 데이터베이스
+      - "N: MonitoringDatabases"에 대 한 모든 모니터링 저장소 데이터베이스 \\
     
-      - 모든 모니터링 저장소 로그 파일을 "O:\\MonitoringLogfiles"로
+      - 모든 모니터링 저장소 로그 파일을 "O: \\ MonitoringLogfiles"로
     
     <!-- end list -->
     

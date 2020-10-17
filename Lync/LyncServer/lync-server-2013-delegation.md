@@ -12,20 +12,22 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57de37ff1ef0b43a8a6ea9c03b715d3ebe570a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b31224228a4f2fbdad879e43bab61292852e009c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190911"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516311"
 ---
+# <a name="delegation-in-lync-server-2013"></a>Lync Server 2013의 위임
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegation-in-lync-server-2013"></a>Lync Server 2013의 위임
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42190911"
 
 _**마지막으로 수정 된 항목:** 2013-03-09_
 
-Lync의 위임 기능은 다음과 같은 방식으로 위치 기반 라우팅을 통해 영향을 받습니다.
+Lync의 위임 기능은 다음과 같은 방식으로 Location-Based 라우팅에서 영향을 받습니다.
 
-  - 위치 기반 라우팅을 사용 하도록 설정 된 대리인이 관리자를 대신 하 여 호출을 하면 대리인의 음성 정책을 사용 하 여 통화 권한을 부여 하 고 대리인의 사이트 음성 라우팅 정책이 통화를 라우팅하는 데 사용 됩니다.
+  - Location-Based 라우팅에서 사용 하도록 설정 된 대리인이 관리자를 대신 하 여 전화를 거는 경우 대리인의 음성 정책을 사용 하 여 통화 권한을 부여 하 고 대리인의 사이트 음성 라우팅 정책이 통화를 라우팅하는 데 사용 됩니다.
 
   - 관리자에 게 들어오는 PSTN 통화에 대 한 통화 전송 및 착신 전환 항목에 설명 된 것과 동일한 규칙이 적용 됩니다.
 
@@ -52,7 +54,7 @@ Lync의 위임 기능은 다음과 같은 방식으로 위치 기반 라우팅�
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013의 위치 기반 라우팅에 대 한 시나리오](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013의 Location-Based 라우팅에 대 한 시나리오](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16c37644e07fd0dfd192867d7d8372d3630d13fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f7290a6d4e80c522d29c886b49723cca51d19e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187391"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516505"
 ---
+# <a name="database-software-support-in-lync-server-2013"></a>Lync Server 2013의 데이터베이스 소프트웨어 지원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-software-support-in-lync-server-2013"></a>Lync Server 2013의 데이터베이스 소프트웨어 지원
+
 
 </div>
 
@@ -120,7 +122,7 @@ SQL 클러스터링 지원은 액티브/패시브 구성을 위한 것입니다.
 
 SQL 미러링에 대 한 자세한 내용은 [Lync server 2013에서 백 엔드 서버 고가용성](lync-server-2013-back-end-server-high-availability.md)을 참조 하십시오. SQL 클러스터링을 배포 하는 방법에 대 한 자세한 내용은 [CONFIGURE SQL Server 클러스터링 For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)을 참조 하십시오.
 
-SQL Server 2012의 장애 조치 (failover) 클러스터링에 대 한 자세한 내용 <https://technet.microsoft.com/library/hh231721.aspx>및 모범 사례는을 참조 하십시오. SQL Server 2008의 장애 조치 (failover) <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>클러스터링의 경우를 참조 하세요.
+SQL Server 2012의 장애 조치 (failover) 클러스터링에 대 한 자세한 내용 및 모범 사례는을 참조 하십시오 <https://technet.microsoft.com/library/hh231721.aspx> . SQL Server 2008의 장애 조치 (failover) 클러스터링의 경우를 참조 하세요 <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx> .
 
 </div>
 

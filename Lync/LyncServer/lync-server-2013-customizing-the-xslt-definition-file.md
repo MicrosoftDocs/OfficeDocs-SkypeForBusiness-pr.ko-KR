@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191701"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516635"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Lync Server 2013에서 XSLT 정의 파일 사용자 지정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Lync Server 2013에서 XSLT 정의 파일 사용자 지정
+
 
 </div>
 
@@ -105,7 +107,7 @@ Message 요소에는 Sender 및 DateTimeUTC의 두 가지 요소와 Type, Conten
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>유형</p></td>
+<td><p>타이핑</p></td>
 <td><p>메시지 유형을 지정합니다. 메시지 유형은 Message 요소 메시지 유형 테이블에서 설명합니다.</p></td>
 <td><p>필수</p></td>
 </tr>
@@ -152,12 +154,12 @@ Message 요소에는 Sender 및 DateTimeUTC의 두 가지 요소와 Type, Conten
 <td><p>필수</p></td>
 </tr>
 <tr class="odd">
-<td><p>전자 메일</p></td>
+<td><p>이메일</p></td>
 <td><p>보낸 사람의 전자 메일 주소입니다.</p></td>
 <td><p>선택</p></td>
 </tr>
 <tr class="even">
-<td><p>Internal</p></td>
+<td><p>내부</p></td>
 <td><p>사용자가 내부 사용자 또는 페더레이션 사용자인지를 확인합니다. 값이 True로 설정된 경우 사용자가 내부 사용자입니다.</p></td>
 <td><p>선택</p></td>
 </tr>

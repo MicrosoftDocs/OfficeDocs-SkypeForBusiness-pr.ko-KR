@@ -12,20 +12,22 @@ ms:contentKeyID: 48185121
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26b4e49bb6ba25fb9c7230cdf171dc7d31433619
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: af6a253de4d35b3505b5ffa8be42fae297221641
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207544"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517575"
 ---
+# <a name="configuring-and-assigning-archiving-policies-in-lync-server-2013"></a>Lync Server 2013에서 보관 정책 구성 및 할당
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-and-assigning-archiving-policies-in-lync-server-2013"></a>Lync Server 2013에서 보관 정책 구성 및 할당
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013에서는 정책을 사용 하 여 Lync Server 2013에 있는 �
 
 
 > [!NOTE]  
-> 보관의 구현을 제어하려면 IM 또는 회의 보관 여부, 중요 모드 및 제거 옵션 사용 등의 옵션을 보관 구성에서 지정해야 합니다. 기본적으로 전역 보관 구성 또는 사이트 또는 풀 보관 구성에서 모든 옵션이 사용하도록 설정되어 있지 않습니다. 보관을 사용하도록 설정하기 전에 보관 구성에서 모든 해당 옵션을 지정해야 합니다. 자세한 내용은 작업 설명서에서 <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">조직, 사이트 및 풀에 대 한 Lync Server 2013의 보관 구성 옵션 관리</A> 를 참조 하십시오.<BR>Lync Server 저장소와 Exchange 2013 저장소를 통합 하는 경우 Exchange 사용자 정책은 Lync Server 2013 보관 정책 보다 우선 하지만 사서함이 원본 위치 유지 상태로 설정 된 Exchange 2013에 있는 사용자에 한 해 됩니다.
+> 보관의 구현을 제어하려면 IM 또는 회의 보관 여부, 중요 모드 및 제거 옵션 사용 등의 옵션을 보관 구성에서 지정해야 합니다. 기본적으로 전역 보관 구성 또는 사이트 또는 풀 보관 구성에서 모든 옵션이 사용하도록 설정되어 있지 않습니다. 보관을 사용하도록 설정하기 전에 보관 구성에서 모든 해당 옵션을 지정해야 합니다. 자세한 내용은 작업 설명서에서 <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">조직, 사이트 및 풀에 대 한 Lync Server 2013의 보관 구성 옵션 관리</A> 를 참조 하십시오.<BR>Lync Server 저장소와 Exchange 2013 저장소를 통합 하는 경우 Exchange 사용자 정책은 Lync Server 2013 보관 정책 보다 우선 하지만 exchange 2013에 있는 사용자만 사서함을 유지 In-Place 합니다.
 
 
 

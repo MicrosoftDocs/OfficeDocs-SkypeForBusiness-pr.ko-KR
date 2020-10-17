@@ -12,20 +12,22 @@ ms:contentKeyID: 48183255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ee0d5a07ebd04e6eec585c79eb13b9be7fe98a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4e05ac48896b50b4b83e4211a5036f6a6d513d43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199511"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517695"
 ---
+# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>Lync Server 2013에서 자격 증명 인증을 사용 하도록 감시자 노드 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>Lync Server 2013에서 자격 증명 인증을 사용 하도록 감시자 노드 구성
+
 
 </div>
 
@@ -73,7 +75,7 @@ _**마지막으로 수정 된 항목:** 2012-10-20_
 
 ## <a name="installing-the-watcher-node-configuration-files"></a>감시자 노드 구성 파일 설치
 
-감시자 노드 컴퓨터가 다시 시작되고 나면 다음 단계로 Watchernode.msi 파일을 실행합니다. 이 파일을 실행 하려면 **시작**, **모든 프로그램**, **lync server 2013**을 차례로 클릭 한 다음 **Lync Server 관리 셸을**클릭 하 여 lync server 2013 관리 셸을 엽니다. Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다 (Watchernode.msi executable 복사본의 실제 경로를 지정 하 고 있어야 합니다.).
+감시자 노드 컴퓨터가 다시 시작되고 나면 다음 단계로 Watchernode.msi 파일을 실행합니다. 이 파일을 실행 하려면 **시작**, **모든 프로그램**, **lync server 2013**을 차례로 클릭 한 다음 **Lync Server 관리 셸을**클릭 하 여 lync server 2013 관리 셸을 엽니다. Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다 (Watchernode.msi 복사본의 실제 경로를 지정 하 고 있어야 합니다.).
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 

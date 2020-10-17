@@ -12,20 +12,22 @@ ms:contentKeyID: 48185722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e6ef9454912b2d421302d7e696350a6f83bc9fd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01e6c75a4a557ff44d626f006210bec3a3c38472
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206954"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516575"
 ---
+# <a name="data-collection-in-lync-server-2013"></a>Lync Server 2013의 데이터 수집
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="data-collection-in-lync-server-2013"></a>Lync Server 2013의 데이터 수집
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42206954"
 
 _**마지막으로 수정 된 항목:** 2012-09-08_
 
-Microsoft Lync Server 2013 통신 소프트웨어에서는 기존 및 제안 된 IP 주소와에 지 서버 Fqdn (정규화 된 도메인 이름)을 문서화 하지 않고 Microsoft Lync Server 2013, 계획 도구를 실행할 수 있지만,이 작업을 수행 하는 것이 훨씬 더 어렵습니다. 따라서 구성 오류가 발생 하지 않습니다. 예를 들어 일정 기간 동안 동시 사용이 필요한 경우에는 Lync Server 2013에 지 배포에 대 한 기존에 지 배포에서 Fqdn을 다시 사용 하는 것이 일반적인 실수입니다. 기존의 제안된 IP 주소 및 FQDN을 스프레드시트, 테이블 또는 기타 시각적 양식에 작성해두면 설치하는 동안 이러한 설치 문제를 방지할 수 있습니다.
+Microsoft Lync Server 2013 통신 소프트웨어에서는 기존 및 제안 된 IP 주소와에 지 서버 Fqdn (정규화 된 도메인 이름)을 문서화 하지 않고 Microsoft Lync Server 2013, 계획 도구를 실행할 수 있지만 구성 오류가 발생 하지 않고이 작업을 수행 하는 것이 훨씬 더 어렵습니다. 예를 들어 일정 기간 동안 동시 사용이 필요한 경우에는 Lync Server 2013에 지 배포에 대 한 기존에 지 배포에서 Fqdn을 다시 사용 하는 것이 일반적인 실수입니다. 기존의 제안된 IP 주소 및 FQDN을 스프레드시트, 테이블 또는 기타 시각적 양식에 작성해두면 설치하는 동안 이러한 설치 문제를 방지할 수 있습니다.
 
 <div>
 

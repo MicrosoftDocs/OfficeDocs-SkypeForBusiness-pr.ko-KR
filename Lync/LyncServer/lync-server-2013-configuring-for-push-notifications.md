@@ -12,20 +12,22 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad1967bea18e0a03ac3a34bf187c1248ec5a1ab2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f68cafcfcc616bd6e467514704416f134de3665
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197801"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517495"
 ---
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Lync Server 2013에서 푸시 알림 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Lync Server 2013에서 푸시 알림 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197801"
 
 _**마지막으로 수정 된 항목:** 2013-02-12_
 
-배지, 아이콘 또는 경고 형태의 푸시 알림은 모바일 응용 프로그램이 비활성 상태일 때도 모바일 장치로 발송될 수 있습니다. 푸시 알림은 신규/부재 중 IM 초대 및 음성 메일 등의 이벤트를 사용자에게 알려 줍니다. Lync Server 2013 Mobility Service는 클라우드 기반 Lync Server 푸시 알림 서비스에 알림을 보낸 다음 APNS (Apple Push Notification Service) (Lync 2010 모바일 클라이언트를 실행 하는 Apple 장치)에 알림을 전송 합니다. Microsoft MPNS (푸시 알림 서비스) (Lync 2010 Mobile 또는 Lync 2013 모바일 클라이언트를 실행 하는 Windows Phone 장치용)
+배지, 아이콘 또는 경고 형태의 푸시 알림은 모바일 응용 프로그램이 비활성 상태일 때도 모바일 장치로 발송될 수 있습니다. 푸시 알림은 신규/부재 중 IM 초대 및 음성 메일 등의 이벤트를 사용자에게 알려 줍니다. Lync Server 2013 Mobility Service는 클라우드 기반 Lync Server 푸시 알림 서비스에 알림을 보낸 다음 APNS (Apple Push Notification Service) (Lync 2010 모바일 클라이언트를 실행 하는 Apple 장치) 또는 Microsoft 푸시 알림 서비스 (MPNS) (Lync 2010 Mobile 또는 Lync 2013 모바일 클라이언트를 실행 하는 Windows Phone 장치)에 알림을 보냅니다.
 
 <div>
 

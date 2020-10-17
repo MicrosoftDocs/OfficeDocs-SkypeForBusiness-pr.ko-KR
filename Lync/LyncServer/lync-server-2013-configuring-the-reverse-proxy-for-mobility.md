@@ -12,20 +12,22 @@ ms:contentKeyID: 48183946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e2a84b07821601b82e0268c6f5f167105f7d55c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ed1a67fbc037f0828b386bf1339d59851e13680
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209384"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517405"
 ---
+# <a name="configuring-the-reverse-proxy-for-mobility-in-lync-server-2013"></a>Lync Server 2013에서 모바일 기능에 대 한 역방향 프록시 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-reverse-proxy-for-mobility-in-lync-server-2013"></a>Lync Server 2013에서 모바일 기능에 대 한 역방향 프록시 구성
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2014-03-20_
 
 모바일 장치 클라이언트에 대해 자동 검색을 사용하려는 경우에는 역방향 프록시 인증서에서 주체 대체 이름 목록을 업데이트하는지 여부에 관계없이 역방향 프록시에 대해 기존 웹 게시 규칙을 수정하거나 새 웹 게시 규칙을 만들어야 합니다.
 
-초기 Lync Server 2013 자동 검색 서비스 요청에 HTTPS를 사용 하 고 역방향 프록시 인증서에서 주체 대체 이름 목록을 업데이트 하는 경우 업데이트 된 공용 인증서를 SSL (Secure Sockets layer) 수신기에 할당 해야 합니다. 역방향 프록시 필요한 주체 대체 이름 항목에 대 한 자세한 내용은 [Lync Server 2013에서 모바일 기능에 대 한 기술 요구 사항을](lync-server-2013-technical-requirements-for-mobility.md)참조 하세요. 그런 후에 외부 웹 서비스에 대해 기존 리스너를 수정하거나 외부 자동 검색 서비스 URL에 대해 새 웹 게시 규칙을 만들어야 합니다. 프런트 엔드 풀에 대 한 외부 Lync Server 2013 웹 서비스 URL에 대 한 웹 게시 규칙이 아직 없는 경우에는 해당에 대 한 규칙도 게시 해야 합니다.
+초기 Lync Server 2013 자동 검색 서비스 요청에 HTTPS를 사용 하 고 역방향 프록시 인증서에서 주체 대체 이름 목록을 업데이트 하는 경우에는 역방향 프록시의 SSL (Secure Sockets layer) 수신기에 업데이트 된 공용 인증서를 할당 해야 합니다. 필요한 주체 대체 이름 항목에 대 한 자세한 내용은 [Lync Server 2013에서 모바일 기능에 대 한 기술 요구 사항을](lync-server-2013-technical-requirements-for-mobility.md)참조 하세요. 그런 후에 외부 웹 서비스에 대해 기존 리스너를 수정하거나 외부 자동 검색 서비스 URL에 대해 새 웹 게시 규칙을 만들어야 합니다. 프런트 엔드 풀에 대 한 외부 Lync Server 2013 웹 서비스 URL에 대 한 웹 게시 규칙이 아직 없는 경우에는 해당에 대 한 규칙도 게시 해야 합니다.
 
 <div>
 
@@ -83,15 +85,15 @@ _**마지막으로 수정 된 항목:** 2014-03-20_
 
 7.  **내부 게시 정보** 페이지의 **내부 사이트 이름**에 디렉터 풀의 FQDN (정규화 된 도메인 이름)을 입력 합니다 (예: lyncdir01). 프런트 엔드 풀에서 외부 웹 서비스 URL에 대 한 규칙을 만드는 경우 프런트 엔드 풀 앞에 HLB (하드웨어 부하 분산 장치)의 VIP 주소를 입력 합니다.
 
-8.  **내부 게시 정보** 페이지의 **경로 (옵션)** 에 게시할 폴더의 경로 ** / ** 를 입력 한 다음 **원래 호스트 헤더 전달을**선택 합니다.
+8.  **내부 게시 정보** 페이지의 **경로 (옵션)** 에 **/\*** 게시할 폴더의 경로를 입력 한 다음 **원래 호스트 헤더 전달을**선택 합니다.
 
 9.  **공개 이름 정보** 페이지에서 다음을 수행합니다.
     
       - **다음에 대한 요청 허용**에서 **이 도메인 이름**을 선택합니다.
     
-      - **공개 이름**에 **lyncdiscover를 입력 합니다.** \<microsoft.rtc.management.xds.sipdomain object\> (외부 자동 검색 서비스 URL) 프런트 엔드 풀에서 외부 웹 서비스 URL에 대 한 규칙을 만드는 경우 프런트 엔드 풀의 외부 웹 서비스에 대 한 FQDN (예: lyncwebextpool01.contoso.com)을 입력 합니다.
+      - **공개 이름**에 **lyncdiscover를 입력 합니다.**\<sipdomain\> (외부 자동 검색 서비스 URL) 프런트 엔드 풀에서 외부 웹 서비스 URL에 대 한 규칙을 만드는 경우 프런트 엔드 풀의 외부 웹 서비스에 대 한 FQDN (예: lyncwebextpool01.contoso.com)을 입력 합니다.
     
-      - **경로**에를 입력 ** / **합니다.
+      - **경로**에를 입력 **/\*** 합니다.
 
 10. **웹 수신기 선택** 페이지의 **웹 수신기**에서 업데이트된 공용 인증서를 포함하는 기존 SSL 수신기를 선택합니다.
 
@@ -172,15 +174,15 @@ _**마지막으로 수정 된 항목:** 2014-03-20_
 
 7.  **내부 게시 정보** 페이지의 **내부 사이트 이름**에 프런트 엔드 풀 앞에 HLB (하드웨어 부하 분산 장치)의 VIP 주소를 입력 합니다.
 
-8.  **내부 게시 정보** 페이지의 **경로 (옵션)** 에 게시할 폴더의 경로 ** / ** 를 입력 하 고 **내부 사이트 이름 필드에 지정 된 호스트 헤더 대신 원래 host 머리글 전달을**선택 합니다.
+8.  **내부 게시 정보** 페이지의 **경로 (옵션)** 에 **/\*** 게시할 폴더의 경로를 입력 하 고 **내부 사이트 이름 필드에 지정 된 호스트 헤더 대신 원래 host 머리글 전달을**선택 합니다.
 
 9.  **공개 이름 정보** 페이지에서 다음을 수행합니다.
     
       - **다음에 대한 요청 허용**에서 **이 도메인 이름**을 선택합니다.
     
-      - **공개 이름**에 **lyncdiscover를 입력 합니다.** \<microsoft.rtc.management.xds.sipdomain object\> (외부 자동 검색 서비스 URL)
+      - **공개 이름**에 **lyncdiscover를 입력 합니다.**\<sipdomain\> (외부 자동 검색 서비스 URL)
     
-      - **경로**에를 입력 ** / **합니다.
+      - **경로**에를 입력 **/\*** 합니다.
 
 10. **웹 수신기 선택** 페이지의 **웹 수신기**에서 웹 수신기를 선택하거나 새 웹 수신기 정의 마법사를 사용하여 새 수신기를 만듭니다.
 

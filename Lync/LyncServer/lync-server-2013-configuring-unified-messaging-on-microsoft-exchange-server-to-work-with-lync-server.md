@@ -12,20 +12,22 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3d90f738741c2815d01041a7d2293e978cd2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 462252b1826802ec424c6684e3a6347754095508
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195681"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517055"
 ---
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Lync Server 2013에서 작동 하도록 Microsoft Exchange Server의 통합 메시징 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Lync Server 2013에서 작동 하도록 Microsoft Exchange Server의 통합 메시징 구성
+
 
 </div>
 
@@ -62,7 +64,7 @@ Enterprise Voice와 함께 작동 하도록 Exchange UM (통합 메시징)을 �
 
   - 필요에 따라 하나 이상의 UM SIP URI 다이얼 플랜을 구독자 액세스 전화 번호와 함께 만든 다음 해당 Lync Server 다이얼 플랜을 만듭니다.
 
-  - **Exchucutil.ps1** 스크립트를 사용 하 여 다음을 수행 합니다.
+  - **exchucutil.ps1** 스크립트를 사용 하 여 다음을 수행 합니다.
     
       - UM IP 게이트웨이 만들기
     
@@ -82,7 +84,7 @@ Enterprise Voice와 함께 작동 하도록 Exchange UM (통합 메시징)을 �
 
 시작 하기 전에이 섹션의 설명서에서는 클라이언트 액세스 및 사서함과 같은 Exchange 2013 역할을 배포한 것으로 가정 합니다. Microsoft Exchange Server 2013에서 Exchange UM은 이러한 서버에서 서비스로 실행 됩니다.
 
-Exchange 2013 배포에 대 한 자세한 내용은 다음 위치에서 Exchange 2013 TechNet 라이브러리를 참조 하세요.[https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
+Exchange 2013 배포에 대 한 자세한 내용은 다음 위치에서 Exchange 2013 TechNet 라이브러리를 참조 하세요. [https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 또한 다음에 주의하십시오.
 

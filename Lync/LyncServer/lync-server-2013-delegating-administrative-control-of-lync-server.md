@@ -12,20 +12,22 @@ ms:contentKeyID: 48183418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e93985818c62b195227323f4c0f6d5030db1f16f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5bd0776468b4b5dbbca4c8d2c98f6be02491b6d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190888"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516345"
 ---
+# <a name="delegating-administrative-control-of-lync-server-2013"></a>Lync Server 2013의 관리 제어 위임
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegating-administrative-control-of-lync-server-2013"></a>Lync Server 2013의 관리 제어 위임
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190888"
 
 _**마지막으로 수정 된 항목:** 2013-02-22_
 
-Lync Server 2013에서는 새 RBAC (역할 기반 액세스 제어) 기능을 사용 하 여 관리 작업이 사용자에 게 위임 됩니다. Lync Server를 설치할 때 다양 한 RBAC 역할이 만들어집니다. 이러한 역할은 Active Directory 도메인 서비스의 유니버설 보안 그룹에 해당 합니다. 예를 들어 RBAC 역할 CsHelpDesk는 Active Directory 도메인 서비스의 Users 컨테이너에 있는 CsHelpDesk 그룹에 해당 합니다. 또한 각 RBAC 역할은 Lync Server Windows PowerShell cmdlet 집합과 연결 됩니다. 이러한 cmdlet은 지정 된 RBAC 역할을 할당 받은 사용자가 수행할 수 있는 작업을 나타냅니다. 예를 들어 CsHelpDesk 역할에는 CsClientPin 및 UnlockCsClientPin cmdlet이 할당 되었습니다. 즉, CsHelpDesk 역할이 할당 된 사용자는 사용자 PIN 번호를 잠그고 잠금을 해제할 수 있습니다. 그러나 CsHelpDesk 역할에 Set-csvoicepolicy cmdlet이 할당 되지 않았습니다. 즉, CsHelpDesk 역할이 할당 된 사용자는 새 음성 정책을 만들 수 없습니다.
+Lync Server 2013에서는 새 RBAC (역할 기반 액세스 제어) 기능을 사용 하 여 관리 작업이 사용자에 게 위임 됩니다. Lync Server를 설치할 때 다양 한 RBAC 역할이 만들어집니다. 이러한 역할은 Active Directory 도메인 서비스의 유니버설 보안 그룹에 해당 합니다. 예를 들어 RBAC 역할 CsHelpDesk는 Active Directory 도메인 서비스의 Users 컨테이너에 있는 CsHelpDesk 그룹에 해당 합니다. 또한 각 RBAC 역할은 Lync Server Windows PowerShell cmdlet 집합과 연결 됩니다. 이러한 cmdlet은 지정 된 RBAC 역할을 할당 받은 사용자가 수행할 수 있는 작업을 나타냅니다. 예를 들어 CsHelpDesk 역할에 Lock-CsClientPin 및 Lockcsclientpin cmdlet이 할당 되었습니다. 즉, CsHelpDesk 역할이 할당 된 사용자는 사용자 PIN 번호를 잠그고 잠금을 해제할 수 있습니다. 그러나 CsHelpDesk 역할에 New-CsVoicePolicy cmdlet이 할당 되지 않았습니다. 즉, CsHelpDesk 역할이 할당 된 사용자는 새 음성 정책을 만들 수 없습니다.
 
 <div>
 

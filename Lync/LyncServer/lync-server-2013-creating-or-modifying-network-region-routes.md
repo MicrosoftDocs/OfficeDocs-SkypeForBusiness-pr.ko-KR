@@ -12,20 +12,22 @@ ms:contentKeyID: 48184540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c5f3cdd8000892886b3273fbb33fc1b1f668e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0cdc05978b6fb8d81c81995d7b089d14ed4bec3b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196241"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516745"
 ---
+# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 지역 경로 만들기 또는 수정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 지역 경로 만들기 또는 수정
+
 
 </div>
 
@@ -62,9 +64,9 @@ CAC(통화 허용 제어) 구성 내의 모든 지역에는 다른 모든 지역
     
     </div>
 
-6.  **네트워크 지역 \#1** 드롭다운 목록에서이 경로를 사용 하 여 연결할 두 지역 중 하나를 선택 합니다.
+6.  **네트워크 지역 \# 1** 드롭다운 목록에서이 경로를 사용 하 여 연결할 두 지역 중 하나를 선택 합니다.
 
-7.  **네트워크 지역 \#2** 드롭다운 목록에서이 경로의 다른 지역을 선택 합니다. 이 지역은 네트워크 지역 \#1에 대해 선택 된 지역과 달라 야 합니다.
+7.  **네트워크 지역 \# 2** 드롭다운 목록에서이 경로의 다른 지역을 선택 합니다. 이 지역은 네트워크 지역 1에 대해 선택 된 지역과 달라 야 합니다 \# .
 
 8.  **네트워크 지역 링크** 목록 상자를 사용하여 경로에 지역 링크를 추가합니다. **추가** 단추를 클릭하여 **지역 링크** 페이지를 표시합니다. 이 경로에 추가할 지역 링크를 클릭한 다음 **확인**을 클릭합니다.
     

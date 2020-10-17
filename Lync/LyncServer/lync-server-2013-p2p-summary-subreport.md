@@ -12,20 +12,22 @@ ms:contentKeyID: 48185950
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345a659d3edfe8542391719ed4b90717b45a3c35
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee8b2b914779cf8fde4f1e3a58d827dd355d28e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215784"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515995"
 ---
+# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Lync Server 2013의 P2P 요약 하위 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Lync Server 2013의 P2P 요약 하위 보고서
+
 
 </div>
 
@@ -60,7 +62,7 @@ P2P 요약 하위 보고서는 실패한 피어 투 피어 통신 세션에 대�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>From</strong></p></td>
+<td><p><strong>시작</strong></p></td>
 <td><p>시간 범위의 시작 날짜 및 시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜와 시간을 모두 입력합니다.</p>
 <p>7/7/2012 1:00 PM</p>
 <p>시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
@@ -80,7 +82,7 @@ P2P 요약 하위 보고서는 실패한 피어 투 피어 통신 세션에 대�
 <p>주는 항상 일요일부터 토요일까지로 실행됩니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>그룹</strong></p></td>
+<td><p><strong>풀</strong></p></td>
 <td><p>등록자 풀 또는 에지 서버의 FQDN(정규화된 도메인 이름)입니다. 개별 풀을 선택하거나 <strong>[모두]</strong>를 클릭하여 모든 풀에 대한 데이터를 봅니다. 이 드롭다운 목록은 데이터베이스의 레코드에 따라 자동으로 채워집니다.</p></td>
 </tr>
 </tbody>
@@ -91,7 +93,7 @@ P2P 요약 하위 보고서는 실패한 피어 투 피어 통신 세션에 대�
 
 <div>
 
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에는 P2P 요약 하위 보고서에 제공된 정보가 나와 있습니다.
 

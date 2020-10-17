@@ -12,20 +12,22 @@ ms:contentKeyID: 49733753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a49618cd4039163f22d44f358c29a802037b8b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e817e86d6f05291192593e2345b9e4bc1c0b6db3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209314"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517361"
 ---
+# <a name="configuring-the-use-of-high-resolution-photos-in-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013에서 고해상도 사진 사용 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-use-of-high-resolution-photos-in-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013에서 고해상도 사진 사용 구성
+
 
 </div>
 
@@ -63,13 +65,13 @@ Exchange 웹 서비스를 사용 하 여 액세스 하는 고해상도 사진에
     Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Confirm:$False
     Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 
-위 예제의 첫 번째 명령은 Get-Content cmdlet을 사용 하 여 C:\\사진\\Kenmyer 파일의 내용을 읽고 해당 데이터를 $photo 이라는 변수에 저장 합니다. 두 번째 명령에서는 Exchange cmdlet Ken 사진을 업로드 하 고 해당 사진을 Myer의 사용자 계정에 연결 하는 데 사용 됩니다.
+위 예제의 첫 번째 명령은 Get-Content cmdlet을 사용 하 여 파일 C: \\ 사진Kenmyer.jpg 내용을 읽고 \\ 해당 데이터를 $photo 이라는 변수에 저장 합니다. 두 번째 명령은 Set-UserPhoto Exchange cmdlet을 사용 하 여 사진을 업로드 하 고 해당 사진을 Ken Myer의 사용자 계정에 연결 합니다.
 
 <div>
 
 
 > [!NOTE]  
-> 이 예에서는 사용자 계정 ID로 Ken Myer의 Active Directory 표시 이름이 사용되었습니다. 또한 사용자의 SMTP 주소 또는 사용자 계정 이름 등의 다른 식별자를 사용하여 사용자 계정을 참조할 수도 있습니다. 자세한 내용은에 <A href="https://go.microsoft.com/fwlink/p/?linkid=268536">https://go.microsoft.com/fwlink/p/?LinkId=268536</A> 있는 Set userphoto cmdlet 설명서를 참조 하세요.
+> 이 예에서는 사용자 계정 ID로 Ken Myer의 Active Directory 표시 이름이 사용되었습니다. 또한 사용자의 SMTP 주소 또는 사용자 계정 이름 등의 다른 식별자를 사용하여 사용자 계정을 참조할 수도 있습니다. 자세한 내용은의 Set-UserPhoto cmdlet에 대 한 설명서를 참조 하세요. <A href="https://go.microsoft.com/fwlink/p/?linkid=268536">https://go.microsoft.com/fwlink/p/?LinkId=268536</A>
 
 
 
@@ -85,7 +87,7 @@ Exchange 웹 서비스를 사용 하 여 액세스 하는 고해상도 사진에
 
 관리자가 Internet Explorer를 사용 하 여 사진을 볼 수 있으 나 사용자가 Lync 2013에서 해당 사진을 볼 수도 없으며,이는 일반적으로 Exchange 웹 서비스와의 연결 문제 또는 Exchange 자동 검색 서비스를 사용 하는 것을 나타냅니다.
 
-Lync 2013에서이 사진을 사용할 수 있도록 하기 위해 추가 구성이 필요 하지는 않습니다. 대신, 사진이 업로드 되 고 UserPhoto cmdlet이 실행 된 후에 즉시 사용할 수 있게 됩니다.
+Lync 2013에서이 사진을 사용할 수 있도록 하기 위해 추가 구성이 필요 하지는 않습니다. 대신, 사진이 업로드 되 고 Set-UserPhoto cmdlet이 실행 된 후에 즉시 사용할 수 있게 됩니다.
 
 </div>
 

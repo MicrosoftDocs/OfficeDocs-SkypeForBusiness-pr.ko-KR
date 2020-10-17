@@ -12,20 +12,22 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 128703a39563124f6abfc4ae44143d274fd3a7c5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf9570f3df344c26da3296904a8394f59f8a907d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195641"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516975"
 ---
+# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>Lync Server 2013에 대 한 비디오 예제 시나리오 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>Lync Server 2013에 대 한 비디오 예제 시나리오 구성
+
 
 </div>
 
@@ -65,8 +67,8 @@ Lync 2013는 새로운 비디오 기능을 지원 합니다. 1920 x 1080 full HD
 <tbody>
 <tr class="odd">
 <td><p>방법은</p></td>
-<td><p>참</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
 <td><p>8000</p></td>
 <td><p>8000</p></td>
 <td><p>피어 투 피어: 최대 1920 x 1080 비디오 해상도</p>
@@ -74,8 +76,8 @@ Lync 2013는 새로운 비디오 기능을 지원 합니다. 1920 x 1080 full HD
 </tr>
 <tr class="even">
 <td><p>좋습니다</p></td>
-<td><p>참</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
 <td><p>2500</p></td>
 <td><p>2500</p></td>
 <td><p>피어 투 피어: 최대 1280 x 720 비디오 해상도</p>
@@ -83,16 +85,16 @@ Lync 2013는 새로운 비디오 기능을 지원 합니다. 1920 x 1080 full HD
 </tr>
 <tr class="odd">
 <td><p>보통</p></td>
-<td><p>참</p></td>
-<td><p>참</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
 <td><p>1000</p></td>
 <td><p>1000</p></td>
 <td><p>피어 투 피어: 최대 960 x 540 비디오 해상도</p>
 <p>갤러리 보기: 최대 424 x 240 해상도 비디오 5개</p></td>
 </tr>
 <tr class="even">
-<td><p>적어도</p></td>
-<td><p>참</p></td>
+<td><p>최소</p></td>
+<td><p>True</p></td>
 <td><p>False</p></td>
 <td><p>350</p></td>
 <td><p>350</p></td>

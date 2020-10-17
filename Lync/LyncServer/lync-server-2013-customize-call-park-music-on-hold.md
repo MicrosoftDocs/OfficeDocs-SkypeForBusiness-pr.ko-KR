@@ -12,20 +12,22 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ec182619bca0cf6e52093a28a72f1f8bca077d5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18f7ac9793c8275caa20725d2d303c5fca7f534f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200148"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516715"
 ---
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Lync Server 2013에서 통화 대기 음악 사용자 지정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Lync Server 2013에서 통화 대기 음악 사용자 지정
+
 
 </div>
 
@@ -57,7 +59,7 @@ Lync Server 2013와 함께 제공 되는 기본 음악 파일 대신 대기 음�
 
 2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  를 실행합니다.
+3.  을 실행합니다.
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
