@@ -12,20 +12,22 @@ ms:contentKeyID: 48185079
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bee98cdc88a836be8b629d76b5bed57af402a3ca
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: d95f38ab0adc1457abee7cdd90e8f385f7176ce3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756587"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527365"
 ---
+# <a name="migrating-multiple-sites-and-pools"></a><span data-ttu-id="f60db-102">여러 사이트 및 풀 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="f60db-102">Migrating multiple sites and pools</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-multiple-sites-and-pools"></a><span data-ttu-id="dfc40-102">여러 사이트 및 풀 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="dfc40-102">Migrating multiple sites and pools</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "44756587"
 
 <span> </span>
 
-<span data-ttu-id="dfc40-103">_**마지막으로 수정 된 항목:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="dfc40-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="f60db-103">_**마지막으로 수정 된 항목:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="f60db-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="dfc40-104">Lync Server 2013에서는 다중 사이트 및 다중 풀 배포를 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="dfc40-104">Lync Server 2013 supports multi-site and multi-pool deployments.</span></span> <span data-ttu-id="dfc40-105">Lync Server 2010에서 Lync Server 2013로 여러 풀을 마이그레이션하는 프로세스를 수행 하려면 다음 사항을 고려해 야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dfc40-105">The process of migrating multiple pools from Lync Server 2010 to Lync Server 2013 requires the following considerations:</span></span>
+<span data-ttu-id="f60db-104">Lync Server 2013에서는 다중 사이트 및 다중 풀 배포를 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60db-104">Lync Server 2013 supports multi-site and multi-pool deployments.</span></span> <span data-ttu-id="f60db-105">Lync Server 2010에서 Lync Server 2013로 여러 풀을 마이그레이션하는 프로세스를 수행 하려면 다음 사항을 고려해 야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60db-105">The process of migrating multiple pools from Lync Server 2010 to Lync Server 2013 requires the following considerations:</span></span>
 
-1.  <span data-ttu-id="dfc40-106">Lync Server 2013 파일럿 풀을 배포한 후에는 Lync Server 2013 풀로 이동할 파일럿 사용자의 하위 집합 및 사용자 기능의 유효성 검사 방법론을 정의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dfc40-106">After deploying a Lync Server 2013 pilot pool, you need to define a subset of pilot users that will be moved to the Lync Server 2013 pool, and a methodology for validating the functionality of the users.</span></span> <span data-ttu-id="dfc40-107">예를 들어 파일럿 풀로 사용자를 이동한 후에는 사용자의 회의 정책이 Lync Server 2013으로 이동 되었는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="dfc40-107">For example, after moving a user to the pilot pool, verify the user’s conference policy has moved to Lync Server 2013.</span></span>
+1.  <span data-ttu-id="f60db-106">Lync Server 2013 파일럿 풀을 배포한 후에는 Lync Server 2013 풀로 이동할 파일럿 사용자의 하위 집합 및 사용자 기능의 유효성 검사 방법론을 정의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60db-106">After deploying a Lync Server 2013 pilot pool, you need to define a subset of pilot users that will be moved to the Lync Server 2013 pool, and a methodology for validating the functionality of the users.</span></span> <span data-ttu-id="f60db-107">예를 들어 파일럿 풀로 사용자를 이동한 후에는 사용자의 회의 정책이 Lync Server 2013으로 이동 되었는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60db-107">For example, after moving a user to the pilot pool, verify the user’s conference policy has moved to Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="dfc40-108">파일럿 풀에에 지 서버를 배포한 후에는 외부 사용자가 Lync Server 2013 풀과 통신할 수 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dfc40-108">After deploying an Edge Server in the pilot pool, you need to validate that external users can communicate with the Lync Server 2013 pool.</span></span>
+2.  <span data-ttu-id="f60db-108">파일럿 풀에에 지 서버를 배포한 후에는 외부 사용자가 Lync Server 2013 풀과 통신할 수 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60db-108">After deploying an Edge Server in the pilot pool, you need to validate that external users can communicate with the Lync Server 2013 pool.</span></span>
 
-3.  <span data-ttu-id="dfc40-109">Lync Server 2010에 지 서버에서 파일럿 Lync Server 2013에 지 서버로 연결 된 경로를 전환 하 고 나면 페더레이션 사용자가 Lync Server 2013 풀과 통신할 수 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dfc40-109">After transitioning the federated routes from Lync Server 2010 Edge Servers to the pilot Lync Server 2013 Edge Servers, you need to validate that federated users can communicate with the Lync Server 2013 pool.</span></span>
+3.  <span data-ttu-id="f60db-109">Lync Server 2010에 지 서버에서 파일럿 Lync Server 2013에 지 서버로 연결 된 경로를 전환 하 고 나면 페더레이션 사용자가 Lync Server 2013 풀과 통신할 수 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60db-109">After transitioning the federated routes from Lync Server 2010 Edge Servers to the pilot Lync Server 2013 Edge Servers, you need to validate that federated users can communicate with the Lync Server 2013 pool.</span></span>
 
-4.  <span data-ttu-id="dfc40-110">모든 사용자와 사용자가 아닌 대화 상대 개체를 이동한 후에는 Lync Server 2010 풀이 비어 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dfc40-110">After moving all the users and non-user contact objects, you need to validate that the Lync Server 2010 pool is empty.</span></span>
+4.  <span data-ttu-id="f60db-110">모든 사용자와 사용자가 아닌 대화 상대 개체를 이동한 후에는 Lync Server 2010 풀이 비어 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60db-110">After moving all the users and non-user contact objects, you need to validate that the Lync Server 2010 pool is empty.</span></span>
 
-5.  <span data-ttu-id="dfc40-111">Lync Server 2010 풀이 비어 있는지 확인 한 후에는 해당 풀을 비활성화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dfc40-111">After verifying that the Lync Server 2010 pool is empty, you can then deactivate the pool.</span></span>
+5.  <span data-ttu-id="f60db-111">Lync Server 2010 풀이 비어 있는지 확인 한 후에는 해당 풀을 비활성화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60db-111">After verifying that the Lync Server 2010 pool is empty, you can then deactivate the pool.</span></span>
     
-    <span data-ttu-id="dfc40-112">레거시 Lync Server 2010 풀 및 서버를 비활성화 하는 방법에 대 한 자세한 내용은 [Phase 8: 레거시 풀](phase-8-decommission-legacy-pools.md)해제를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="dfc40-112">For details about how to deactivate the legacy Lync Server 2010 pool and servers, see [Phase 8: Decommission legacy pools](phase-8-decommission-legacy-pools.md).</span></span>
+    <span data-ttu-id="f60db-112">레거시 Lync Server 2010 풀 및 서버를 비활성화 하는 방법에 대 한 자세한 내용은 [Phase 8: 레거시 풀](phase-8-decommission-legacy-pools.md)해제를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f60db-112">For details about how to deactivate the legacy Lync Server 2010 pool and servers, see [Phase 8: Decommission legacy pools](phase-8-decommission-legacy-pools.md).</span></span>
 
 </div>
 

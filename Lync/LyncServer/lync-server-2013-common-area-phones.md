@@ -12,20 +12,22 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 154d079d3a485297dd17239d77cd8aa5e269f365
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb5039fe3e47668a17196a81316250d7c517e6e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204684"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526145"
 ---
+# <a name="common-area-phones-in-lync-server-2013"></a><span data-ttu-id="9b047-102">Lync Server 2013의 공통 영역 전화</span><span class="sxs-lookup"><span data-stu-id="9b047-102">Common area phones in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="common-area-phones-in-lync-server-2013"></a><span data-ttu-id="13011-102">Lync Server 2013의 공통 영역 전화</span><span class="sxs-lookup"><span data-stu-id="13011-102">Common area phones in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42204684"
 
 <span> </span>
 
-<span data-ttu-id="13011-103">_**마지막으로 수정 된 항목:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="13011-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="9b047-103">_**마지막으로 수정 된 항목:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="9b047-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="13011-104">공통 영역 전화는 개별 사용자와 연결 되지 않은 IP 전화입니다.</span><span class="sxs-lookup"><span data-stu-id="13011-104">Common area phones are IP phones that are not associated with an individual user.</span></span> <span data-ttu-id="13011-105">일반적인 지역 전화는 다른 사람의 사무실에 위치 하는 대신, 로비, cafeterias, 직원 lounges, 회의실 및 다 수의 사용자가 수집할 수 있는 기타 위치를 구축 하는 데 있습니다.</span><span class="sxs-lookup"><span data-stu-id="13011-105">Instead of being located in someone’s office, common area phones are typically located in building lobbies, cafeterias, employee lounges, meeting rooms, and other locations where a large number of people are likely to gather.</span></span> <span data-ttu-id="13011-106">일반적으로 개별 사용자에 게 할당 되는 음성 정책 및 다이얼 플랜을 사용 하 여 유지 관리 되는 Lync Server의 다른 전화와 달리, 공통 영역 전화에는 개별 사용자가 할당 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="13011-106">Unlike other phones in Lync Server, which are typically maintained by using voice policies and dial plans that are assigned to individual users, common area phones do not have individual users assigned to them.</span></span> <span data-ttu-id="13011-107">즉, 다른 전화기와는 다르게 관리 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="13011-107">This means that they must be managed differently than your other phones.</span></span>
+<span data-ttu-id="9b047-104">공통 영역 전화는 개별 사용자와 연결 되지 않은 IP 전화입니다.</span><span class="sxs-lookup"><span data-stu-id="9b047-104">Common area phones are IP phones that are not associated with an individual user.</span></span> <span data-ttu-id="9b047-105">일반적인 지역 전화는 다른 사람의 사무실에 위치 하는 대신, 로비, cafeterias, 직원 lounges, 회의실 및 다 수의 사용자가 수집할 수 있는 기타 위치를 구축 하는 데 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9b047-105">Instead of being located in someone’s office, common area phones are typically located in building lobbies, cafeterias, employee lounges, meeting rooms, and other locations where a large number of people are likely to gather.</span></span> <span data-ttu-id="9b047-106">일반적으로 개별 사용자에 게 할당 되는 음성 정책 및 다이얼 플랜을 사용 하 여 유지 관리 되는 Lync Server의 다른 전화와 달리, 공통 영역 전화에는 개별 사용자가 할당 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9b047-106">Unlike other phones in Lync Server, which are typically maintained by using voice policies and dial plans that are assigned to individual users, common area phones do not have individual users assigned to them.</span></span> <span data-ttu-id="9b047-107">즉, 다른 전화기와는 다르게 관리 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b047-107">This means that they must be managed differently than your other phones.</span></span>
 
-<span data-ttu-id="13011-108">공통 영역 전화를 관리 하려면 사용자 계정과 마찬가지로 정책 및 음성 요금제를 할당할 수 있는 모든 공통 영역 전화에 대 한 Active Directory 도메인 서비스 대화 상대 개체를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="13011-108">To manage common area phones, you create Active Directory Domain Services contact objects for all your common area phones that, like user accounts, can be assigned policies and voice plans.</span></span> <span data-ttu-id="13011-109">이 방법을 사용 하면 전화가 개별 사용자와 연결 되어 있지 않더라도 공통 영역 전화에 대 한 제어를 유지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="13011-109">This approach enables you to maintain control over common area phones, even though those phones are not associated with an individual user.</span></span>
+<span data-ttu-id="9b047-108">공통 영역 전화를 관리 하려면 사용자 계정과 마찬가지로 정책 및 음성 요금제를 할당할 수 있는 모든 공통 영역 전화에 대 한 Active Directory 도메인 서비스 대화 상대 개체를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9b047-108">To manage common area phones, you create Active Directory Domain Services contact objects for all your common area phones that, like user accounts, can be assigned policies and voice plans.</span></span> <span data-ttu-id="9b047-109">이 방법을 사용 하면 전화가 개별 사용자와 연결 되어 있지 않더라도 공통 영역 전화에 대 한 제어를 유지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9b047-109">This approach enables you to maintain control over common area phones, even though those phones are not associated with an individual user.</span></span>
 
-<span data-ttu-id="13011-110">이 섹션의 항목을 사용 하 여 공통 영역 전화에 대 한 연락처 개체를 만들고, 수정 하 고, 삭제 하 고, 배포의 공통 영역 전화에 대 한 구성 정보를 구성 하 고 확인 하는 방법에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="13011-110">Use the topics in this section to learn how to create contact objects for common area phones, modify and delete them, and configure and view configuration information about the common area phones in your deployment.</span></span>
+<span data-ttu-id="9b047-110">이 섹션의 항목을 사용 하 여 공통 영역 전화에 대 한 연락처 개체를 만들고, 수정 하 고, 삭제 하 고, 배포의 공통 영역 전화에 대 한 구성 정보를 구성 하 고 확인 하는 방법에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="9b047-110">Use the topics in this section to learn how to create contact objects for common area phones, modify and delete them, and configure and view configuration information about the common area phones in your deployment.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="13011-111">공통 영역 전화에는 Aastra 6721ip 공통 영역 전화, HP 4110 IP 전화 및 Polycom CX500 IP 공통 영역 전화에 대 한 세 가지 옵션이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="13011-111">You have three options for common area phones: the Aastra 6721ip common area phone, the HP 4110 IP Phone, and the Polycom CX500 IP common area phone.</span></span> <span data-ttu-id="13011-112">Polycom CX3000 IP 회의 전화가 또 다른 변형 공통 영역 전화입니다.</span><span class="sxs-lookup"><span data-stu-id="13011-112">The Polycom CX3000 IP conferencing phone is another variant common area phone.</span></span> <span data-ttu-id="13011-113">그러나 회의실에서 사용 하기 위한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="13011-113">However, it is intended for use in conference rooms.</span></span> <span data-ttu-id="13011-114">공통 영역 전화에 대 한 자세한 내용은 <A href="https://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">새 장치 선택</A>의 일반 영역 전화 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="13011-114">For details about common area phones, see the Common Area Phones section of <A href="https://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">Choosing New Devices</A>.</span></span>
+> <span data-ttu-id="9b047-111">공통 영역 전화에는 Aastra 6721ip 공통 영역 전화, HP 4110 IP 전화 및 Polycom CX500 IP 공통 영역 전화에 대 한 세 가지 옵션이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9b047-111">You have three options for common area phones: the Aastra 6721ip common area phone, the HP 4110 IP Phone, and the Polycom CX500 IP common area phone.</span></span> <span data-ttu-id="9b047-112">Polycom CX3000 IP 회의 전화가 또 다른 변형 공통 영역 전화입니다.</span><span class="sxs-lookup"><span data-stu-id="9b047-112">The Polycom CX3000 IP conferencing phone is another variant common area phone.</span></span> <span data-ttu-id="9b047-113">그러나 회의실에서 사용 하기 위한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="9b047-113">However, it is intended for use in conference rooms.</span></span> <span data-ttu-id="9b047-114">공통 영역 전화에 대 한 자세한 내용은 <A href="https://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">새 장치 선택</A>의 일반 영역 전화 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9b047-114">For details about common area phones, see the Common Area Phones section of <A href="https://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">Choosing New Devices</A>.</span></span>
 
 
 
@@ -55,17 +57,17 @@ ms.locfileid: "42204684"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="13011-115">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="13011-115">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9b047-115">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9b047-115">In This Section</span></span>
 
-  - [<span data-ttu-id="13011-116">Lync Server 2013에서 공통 영역 전화 정보 보기</span><span class="sxs-lookup"><span data-stu-id="13011-116">View common area phone information in Lync Server 2013</span></span>](lync-server-2013-view-common-area-phone-information.md)
+  - [<span data-ttu-id="9b047-116">Lync Server 2013에서 공통 영역 전화 정보 보기</span><span class="sxs-lookup"><span data-stu-id="9b047-116">View common area phone information in Lync Server 2013</span></span>](lync-server-2013-view-common-area-phone-information.md)
 
-  - [<span data-ttu-id="13011-117">Lync Server 2013에서 공통 영역 전화 연락처 개체 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="13011-117">Create or modify a common area phone Contact object in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
+  - [<span data-ttu-id="9b047-117">Lync Server 2013에서 공통 영역 전화 연락처 개체 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="9b047-117">Create or modify a common area phone Contact object in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
 
-  - [<span data-ttu-id="13011-118">Lync Server 2013에서 핫 desking 사용 또는 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="13011-118">Enable or disable hot desking in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-hot-desking.md)
+  - [<span data-ttu-id="9b047-118">Lync Server 2013에서 핫 desking 사용 또는 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="9b047-118">Enable or disable hot desking in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-hot-desking.md)
 
-  - [<span data-ttu-id="13011-119">Lync Server 2013에서 공통 영역 전화 연락처 개체 삭제</span><span class="sxs-lookup"><span data-stu-id="13011-119">Delete a common area phone Contact object in Lync Server 2013</span></span>](lync-server-2013-delete-a-common-area-phone-contact-object.md)
+  - [<span data-ttu-id="9b047-119">Lync Server 2013에서 공통 영역 전화 연락처 개체 삭제</span><span class="sxs-lookup"><span data-stu-id="9b047-119">Delete a common area phone Contact object in Lync Server 2013</span></span>](lync-server-2013-delete-a-common-area-phone-contact-object.md)
 
-  - [<span data-ttu-id="13011-120">Lync Server 2013의 정책을 공통 영역 전화에 할당</span><span class="sxs-lookup"><span data-stu-id="13011-120">Assign policies in Lync Server 2013 to a common area phone</span></span>](lync-server-2013-assign-policies-to-a-common-area-phone.md)
+  - [<span data-ttu-id="9b047-120">Lync Server 2013의 정책을 공통 영역 전화에 할당</span><span class="sxs-lookup"><span data-stu-id="9b047-120">Assign policies in Lync Server 2013 to a common area phone</span></span>](lync-server-2013-assign-policies-to-a-common-area-phone.md)
 
 </div>
 

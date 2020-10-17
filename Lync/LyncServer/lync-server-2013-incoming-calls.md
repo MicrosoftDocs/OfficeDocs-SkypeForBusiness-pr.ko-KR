@@ -12,20 +12,22 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5a6cd54732bb6c33e358eeb1a5dbb72a1a4e789
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05147e469ce120663992e5ae7b8a3ee59acaf78c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204752"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526615"
 ---
+# <a name="incoming-calls-in-lync-server-2013"></a><span data-ttu-id="66fbb-102">Lync Server 2013의 수신 전화</span><span class="sxs-lookup"><span data-stu-id="66fbb-102">Incoming calls in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="incoming-calls-in-lync-server-2013"></a><span data-ttu-id="3f089-102">Lync Server 2013의 수신 전화</span><span class="sxs-lookup"><span data-stu-id="3f089-102">Incoming calls in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42204752"
 
 <span> </span>
 
-<span data-ttu-id="3f089-103">_**마지막으로 수정 된 항목:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="3f089-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="66fbb-103">_**마지막으로 수정 된 항목:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="66fbb-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="3f089-104">위치 기반 라우팅을 사용 하도록 설정 된 사용자에 대 한 수신 전화 라우팅은 사용자 끝점의 위치에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-104">The routing of incoming calls to users enabled for Location-Based Routing depends on the location of the user’s endpoint.</span></span> <span data-ttu-id="3f089-105">수신 전화의 라우팅은 다음과 같은 방식으로 영향을 받습니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-105">The routing of incoming calls is affected in the following way.</span></span> <span data-ttu-id="3f089-106">사용자가 위치 기반 라우팅 사용 네트워크 사이트에 있는 끝점에 대 한 수신 전화를가지고 있고 해당 끝점이 PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 경우 통화가 라우팅됩니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-106">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in the same network site as the PSTN gateway, the call will be routed.</span></span> <span data-ttu-id="3f089-107">사용자가 위치 기반 라우팅 설정 네트워크 사이트에 있는 끝점에 대 한 수신 호출을가지고 있고 끝점이 PSTN 게이트웨이와 다른 네트워크 사이트에 있는 경우에는 통화가 라우팅되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-107">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in a different network site than the PSTN gateway, the call will not be routed.</span></span> <span data-ttu-id="3f089-108">사용자가 수신 전화를 거는 PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 끝점이 없으면 수신 전화가 사용자의 음성 메일로 직접 라우팅되고 부재 중 전화 알림이 발신자에 게 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-108">When a user has no endpoints located in the same network site as the PSTN gateway where the incoming call is originating from, the incoming call will be routed directly to the user’s voicemail and a missed call notification will be sent to the called party.</span></span>
+<span data-ttu-id="66fbb-104">Location-Based 라우팅을 사용 하도록 설정 된 사용자에 게 들어오는 호출을 라우팅하는 것은 사용자 끝점의 위치에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-104">The routing of incoming calls to users enabled for Location-Based Routing depends on the location of the user’s endpoint.</span></span> <span data-ttu-id="66fbb-105">수신 전화의 라우팅은 다음과 같은 방식으로 영향을 받습니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-105">The routing of incoming calls is affected in the following way.</span></span> <span data-ttu-id="66fbb-106">사용자가 Location-Based 라우팅 사용 가능 네트워크 사이트에 있는 끝점에 대 한 수신 호출이 있고 해당 끝점이 PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 경우 통화가 라우팅됩니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-106">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in the same network site as the PSTN gateway, the call will be routed.</span></span> <span data-ttu-id="66fbb-107">사용자가 Location-Based 라우팅 사용 가능 네트워크 사이트에 있는 끝점에 대 한 수신 호출이 있고 해당 끝점이 PSTN 게이트웨이와 다른 네트워크 사이트에 있는 경우에는 통화가 라우팅되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-107">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in a different network site than the PSTN gateway, the call will not be routed.</span></span> <span data-ttu-id="66fbb-108">사용자가 수신 전화를 거는 PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 끝점이 없으면 수신 전화가 사용자의 음성 메일로 직접 라우팅되고 부재 중 전화 알림이 발신자에 게 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-108">When a user has no endpoints located in the same network site as the PSTN gateway where the incoming call is originating from, the incoming call will be routed directly to the user’s voicemail and a missed call notification will be sent to the called party.</span></span>
 
-<span data-ttu-id="3f089-109">위치 기반 라우팅을 사용 하도록 설정 된 사용자의 착신 전환 설정은 계속 적용 되지만 착신 전환 된 통화에는 사용자의 위치 기반 라우팅 제한 사항이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-109">The call forwarding settings of a user that is enabled for Location-Based Routing will continue to be enforced, however, calls forwarded will be subject to Location-Based Routing restrictions of the user.</span></span>
+<span data-ttu-id="66fbb-109">Location-Based 라우팅을 사용 하도록 설정 된 사용자의 착신 전환 설정은 계속 적용 되지만 착신 전환 된 통화에는 사용자의 라우팅 제한이 Location-Based 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-109">The call forwarding settings of a user that is enabled for Location-Based Routing will continue to be enforced, however, calls forwarded will be subject to Location-Based Routing restrictions of the user.</span></span>
 
-<span data-ttu-id="3f089-110">다음 표에서는 수신자의 끝점 위치에 따라 위치 기반 라우팅이 인바운드 호출의 라우팅에 미치는 영향을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-110">The following table illustrates how Location-Based Routing affects the routing of inbound calls depending on the location of the callee’s endpoint.</span></span> <span data-ttu-id="3f089-111">위치 기반 라우팅을 위해 PSTN 게이트웨이의 네트워크 사이트를 사용할 수 있으며, 위치 기반 라우팅은 동일한 네트워크 사이트 내의 끝점에 대 한 PSTN 호출 라우팅만 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-111">The network site of the PSTN gateway is enabled for Location-Based Routing, and Location-Based Routing only permits routing of PSTN calls to endpoints within the same network site.</span></span>
+<span data-ttu-id="66fbb-110">다음 표에서는 수신자의 끝점 위치에 따라 Location-Based 라우팅이 인바운드 호출의 라우팅에 미치는 영향을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-110">The following table illustrates how Location-Based Routing affects the routing of inbound calls depending on the location of the callee’s endpoint.</span></span> <span data-ttu-id="66fbb-111">PSTN 게이트웨이의 네트워크 사이트는 Location-Based 라우팅을 사용 하도록 설정 되며, Location-Based 라우팅은 동일한 네트워크 사이트 내의 끝점에 대 한 PSTN 통화 라우팅만 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-111">The network site of the PSTN gateway is enabled for Location-Based Routing, and Location-Based Routing only permits routing of PSTN calls to endpoints within the same network site.</span></span>
 
-### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a><span data-ttu-id="3f089-112">수신자가 PSTN에서 인바운드 호출을 수신 합니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-112">Callee receiving an inbound call from the PSTN</span></span>
+### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a><span data-ttu-id="66fbb-112">수신자가 PSTN에서 인바운드 호출을 수신 합니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-112">Callee receiving an inbound call from the PSTN</span></span>
 
 <table>
 <colgroup>
@@ -55,17 +57,17 @@ ms.locfileid: "42204752"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="3f089-113">PSTN 게이트웨이와 같은 네트워크 사이트에 있는 수신자의 끝점</span><span class="sxs-lookup"><span data-stu-id="3f089-113">Callee’s endpoint located in the same network site as PSTN gateway</span></span></th>
-<th><span data-ttu-id="3f089-114">PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 수신자의 끝점 없음</span><span class="sxs-lookup"><span data-stu-id="3f089-114">Callee’s endpoint not located in the same network site as PSTN gateway</span></span></th>
-<th><span data-ttu-id="3f089-115">알 수 없는 네트워크 사이트에 있는 수신자의 끝점 또는 위치 기반 라우팅을 사용 하도록 설정 되지 않음</span><span class="sxs-lookup"><span data-stu-id="3f089-115">Callee’s endpoint located in unknown network site or not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="66fbb-113">PSTN 게이트웨이와 같은 네트워크 사이트에 있는 수신자의 끝점</span><span class="sxs-lookup"><span data-stu-id="66fbb-113">Callee’s endpoint located in the same network site as PSTN gateway</span></span></th>
+<th><span data-ttu-id="66fbb-114">PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 수신자의 끝점 없음</span><span class="sxs-lookup"><span data-stu-id="66fbb-114">Callee’s endpoint not located in the same network site as PSTN gateway</span></span></th>
+<th><span data-ttu-id="66fbb-115">알 수 없는 네트워크 사이트에 있는 수신자의 끝점 또는 Location-Based 라우팅을 사용 하도록 설정 되지 않음</span><span class="sxs-lookup"><span data-stu-id="66fbb-115">Callee’s endpoint located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3f089-116">인바운드 PSTN 통화 라우팅</span><span class="sxs-lookup"><span data-stu-id="3f089-116">Routing of inbound PSTN call</span></span></p></td>
-<td><p><span data-ttu-id="3f089-117">수신 전화가 수신자의 끝점으로 라우팅됩니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-117">Incoming call is routed to callee’s endpoints</span></span></p></td>
-<td><p><span data-ttu-id="3f089-118">수신 전화가 수신자의 끝점으로 라우팅되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-118">Incoming call is not routed to callee’s endpoints</span></span></p></td>
-<td><p><span data-ttu-id="3f089-119">수신 전화가 수신자의 끝점으로 라우팅되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="3f089-119">Incoming call is not routed to callee’s endpoints</span></span></p></td>
+<td><p><span data-ttu-id="66fbb-116">인바운드 PSTN 통화 라우팅</span><span class="sxs-lookup"><span data-stu-id="66fbb-116">Routing of inbound PSTN call</span></span></p></td>
+<td><p><span data-ttu-id="66fbb-117">수신 전화가 수신자의 끝점으로 라우팅됩니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-117">Incoming call is routed to callee’s endpoints</span></span></p></td>
+<td><p><span data-ttu-id="66fbb-118">수신 전화가 수신자의 끝점으로 라우팅되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-118">Incoming call is not routed to callee’s endpoints</span></span></p></td>
+<td><p><span data-ttu-id="66fbb-119">수신 전화가 수신자의 끝점으로 라우팅되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="66fbb-119">Incoming call is not routed to callee’s endpoints</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -74,10 +76,10 @@ ms.locfileid: "42204752"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="3f089-120">참고 항목</span><span class="sxs-lookup"><span data-stu-id="3f089-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="66fbb-120">참고 항목</span><span class="sxs-lookup"><span data-stu-id="66fbb-120">See Also</span></span>
 
 
-[<span data-ttu-id="3f089-121">Lync Server 2013의 위치 기반 라우팅에 대 한 시나리오</span><span class="sxs-lookup"><span data-stu-id="3f089-121">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+[<span data-ttu-id="66fbb-121">Lync Server 2013의 Location-Based 라우팅에 대 한 시나리오</span><span class="sxs-lookup"><span data-stu-id="66fbb-121">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

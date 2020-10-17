@@ -12,20 +12,22 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 990f22cc08d25d8b78263f4594d8345be5b29c5e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 171b261e5970361e5706589a8bec36114d056efe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203084"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526975"
 ---
+# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="cb69c-102">Lync Server 2013에서 전화 접속 회의 구성</span><span class="sxs-lookup"><span data-stu-id="cb69c-102">Configuring dial-in conferencing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="475ec-102">Lync Server 2013에서 전화 접속 회의 구성</span><span class="sxs-lookup"><span data-stu-id="475ec-102">Configuring dial-in conferencing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,51 +37,51 @@ ms.locfileid: "42203084"
 
 <span> </span>
 
-<span data-ttu-id="475ec-103">_**마지막으로 수정 된 항목:** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="475ec-103">_**Topic Last Modified:** 2014-10-03_</span></span>
+<span data-ttu-id="cb69c-103">_**마지막으로 수정 된 항목:** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="cb69c-103">_**Topic Last Modified:** 2014-10-03_</span></span>
 
-<span data-ttu-id="475ec-104">이 섹션에서는 Lync Server 2013 전화 접속 회의를 구성 하는 과정을 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="475ec-104">This section guides you through the configuration of Lync Server 2013 dial-in conferencing.</span></span>
+<span data-ttu-id="cb69c-104">이 섹션에서는 Lync Server 2013 전화 접속 회의를 구성 하는 과정을 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="cb69c-104">This section guides you through the configuration of Lync Server 2013 dial-in conferencing.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="475ec-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="475ec-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cb69c-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="cb69c-105">In This Section</span></span>
 
-  - [<span data-ttu-id="475ec-106">Lync Server 2013의 전화 접속 회의 구성 필수 구성 요소 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="475ec-106">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
+  - [<span data-ttu-id="cb69c-106">Lync Server 2013의 전화 접속 회의 구성 필수 구성 요소 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="cb69c-106">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
 
-  - [<span data-ttu-id="475ec-107">Lync Server 2013의 전화 접속 회의에 대 한 배포 검사 목록</span><span class="sxs-lookup"><span data-stu-id="475ec-107">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="cb69c-107">Lync Server 2013의 전화 접속 회의에 대 한 배포 검사 목록</span><span class="sxs-lookup"><span data-stu-id="cb69c-107">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="475ec-108">Lync Server 2013에서 전화 접속 회의에 대 한 다이얼 플랜 구성</span><span class="sxs-lookup"><span data-stu-id="475ec-108">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="cb69c-108">Lync Server 2013에서 전화 접속 회의에 대 한 다이얼 플랜 구성</span><span class="sxs-lookup"><span data-stu-id="cb69c-108">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="475ec-109">다이얼 플랜 Lync Server 2013에 지역이 할당 되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="475ec-109">Make sure dial plans Lync Server 2013 have assigned regions</span></span>](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+  - [<span data-ttu-id="cb69c-109">다이얼 플랜 Lync Server 2013에 지역이 할당 되었는지 확인</span><span class="sxs-lookup"><span data-stu-id="cb69c-109">Make sure dial plans Lync Server 2013 have assigned regions</span></span>](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [<span data-ttu-id="475ec-110">반드시 Lync Server 2013에서 PIN 정책 설정 확인</span><span class="sxs-lookup"><span data-stu-id="475ec-110">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-pin-policy-settings.md)
+  - [<span data-ttu-id="cb69c-110">반드시 Lync Server 2013에서 PIN 정책 설정 확인</span><span class="sxs-lookup"><span data-stu-id="cb69c-110">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-pin-policy-settings.md)
 
-  - [<span data-ttu-id="475ec-111">Lync Server 2013에서 전화 접속에 대 한 회의 정책 구성</span><span class="sxs-lookup"><span data-stu-id="475ec-111">Configure conferencing policy for dial-in in Lync Server 2013</span></span>](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
+  - [<span data-ttu-id="cb69c-111">Lync Server 2013에서 전화 접속에 대 한 회의 정책 구성</span><span class="sxs-lookup"><span data-stu-id="cb69c-111">Configure conferencing policy for dial-in in Lync Server 2013</span></span>](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
-  - [<span data-ttu-id="475ec-112">Lync Server 2013에서 전화 접속 회의 액세스 번호 구성</span><span class="sxs-lookup"><span data-stu-id="475ec-112">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="cb69c-112">Lync Server 2013에서 전화 접속 회의 액세스 번호 구성</span><span class="sxs-lookup"><span data-stu-id="cb69c-112">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [<span data-ttu-id="475ec-113">반드시 Lync Server 2013에서 전화 접속 회의 설정 확인</span><span class="sxs-lookup"><span data-stu-id="475ec-113">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [<span data-ttu-id="cb69c-113">반드시 Lync Server 2013에서 전화 접속 회의 설정 확인</span><span class="sxs-lookup"><span data-stu-id="cb69c-113">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [<span data-ttu-id="475ec-114">반드시 Lync Server 2013의 DTMF 명령에 대 한 키 매핑 수정</span><span class="sxs-lookup"><span data-stu-id="475ec-114">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [<span data-ttu-id="cb69c-114">반드시 Lync Server 2013의 DTMF 명령에 대 한 키 매핑 수정</span><span class="sxs-lookup"><span data-stu-id="cb69c-114">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-  - [<span data-ttu-id="475ec-115">반드시 Lync Server 2013에서 전화 회의 참가 및 탈퇴 알림 사용 및 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="475ec-115">(Optional) Enable and disable conference join and leave announcements in Lync Server 2013</span></span>](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [<span data-ttu-id="cb69c-115">반드시 Lync Server 2013에서 전화 회의 참가 및 탈퇴 알림 사용 및 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="cb69c-115">(Optional) Enable and disable conference join and leave announcements in Lync Server 2013</span></span>](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-  - [<span data-ttu-id="475ec-116">반드시 Lync Server 2013에서 전화 접속 회의 확인</span><span class="sxs-lookup"><span data-stu-id="475ec-116">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [<span data-ttu-id="cb69c-116">반드시 Lync Server 2013에서 전화 접속 회의 확인</span><span class="sxs-lookup"><span data-stu-id="cb69c-116">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="475ec-117">Lync 2013 용 온라인 모임 추가 기능 배포</span><span class="sxs-lookup"><span data-stu-id="475ec-117">Deploy the Online Meeting Add-in for Lync 2013</span></span>](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
+  - [<span data-ttu-id="cb69c-117">Lync 2013 용 온라인 모임 추가 기능 배포</span><span class="sxs-lookup"><span data-stu-id="cb69c-117">Deploy the Online Meeting Add-in for Lync 2013</span></span>](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
 
-  - [<span data-ttu-id="475ec-118">Lync Server 2013에서 사용자 계정 설정 구성</span><span class="sxs-lookup"><span data-stu-id="475ec-118">Configure user account settings in Lync Server 2013</span></span>](lync-server-2013-configure-user-account-settings.md)
+  - [<span data-ttu-id="cb69c-118">Lync Server 2013에서 사용자 계정 설정 구성</span><span class="sxs-lookup"><span data-stu-id="cb69c-118">Configure user account settings in Lync Server 2013</span></span>](lync-server-2013-configure-user-account-settings.md)
 
-  - [<span data-ttu-id="475ec-119">는 전화 회의 디렉터리 만들기</span><span class="sxs-lookup"><span data-stu-id="475ec-119">(Recommended) Create Conference Directories</span></span>](recommended-create-conference-directories.md)
+  - [<span data-ttu-id="cb69c-119">는 전화 회의 디렉터리 만들기</span><span class="sxs-lookup"><span data-stu-id="cb69c-119">(Recommended) Create Conference Directories</span></span>](recommended-create-conference-directories.md)
 
-  - [<span data-ttu-id="475ec-120">반드시 Lync Server 2013에서 사용자에 게 전화 접속 회의 시작</span><span class="sxs-lookup"><span data-stu-id="475ec-120">(Optional) Welcome users to dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [<span data-ttu-id="cb69c-120">반드시 Lync Server 2013에서 사용자에 게 전화 접속 회의 시작</span><span class="sxs-lookup"><span data-stu-id="cb69c-120">(Optional) Welcome users to dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="475ec-121">관련 섹션</span><span class="sxs-lookup"><span data-stu-id="475ec-121">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="cb69c-121">관련 섹션</span><span class="sxs-lookup"><span data-stu-id="cb69c-121">Related Sections</span></span>
 
-[<span data-ttu-id="475ec-122">Lync Server 2013 배포</span><span class="sxs-lookup"><span data-stu-id="475ec-122">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
+[<span data-ttu-id="cb69c-122">Lync Server 2013 배포</span><span class="sxs-lookup"><span data-stu-id="cb69c-122">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
 
 </div>
 
