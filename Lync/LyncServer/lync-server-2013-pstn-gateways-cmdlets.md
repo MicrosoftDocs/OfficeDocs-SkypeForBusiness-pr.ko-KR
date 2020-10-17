@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: PSTN 게이트웨이 cmdlet'
+description: 'Lync Server 2013: PSTN 게이트웨이 cmdlet'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184397
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb162c2f4103c8dc6a1941e3f528b9de75bb0bc3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8f5bf26682e3246b1eec732190ee8d2bd5933b68
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512455"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565614"
 ---
-# <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a><span data-ttu-id="5c5b7-102">Lync Server 2013의 PSTN 게이트웨이 cmdlet</span><span class="sxs-lookup"><span data-stu-id="5c5b7-102">PSTN gateways cmdlets in Lync Server 2013</span></span>
+# <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a><span data-ttu-id="89b3c-103">Lync Server 2013의 PSTN 게이트웨이 cmdlet</span><span class="sxs-lookup"><span data-stu-id="89b3c-103">PSTN gateways cmdlets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,44 +38,44 @@ ms.locfileid: "48512455"
 
 <span> </span>
 
-<span data-ttu-id="5c5b7-103">_**마지막으로 수정 된 항목:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="5c5b7-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="89b3c-104">_**마지막으로 수정 된 항목:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="89b3c-104">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="5c5b7-p101">PSTN 게이트웨이를 사용하면 Enterprise Voice 사용자가 PSTN 네트워크(공중 전화망)의 사용자와 전화를 걸고 받을 수 있습니다. 이러한 게이트웨이는 중재 서버와 PSTN 네트워크를 연결하는 역할을 합니다.</span><span class="sxs-lookup"><span data-stu-id="5c5b7-p101">PSTN gateways enable your Enterprise Voice users to make phone calls to, and receive phone calls from, people on the PSTN network (that is, the public switched telephone network). These gateways act as a bridge between the Mediation Server and the PSTN network.</span></span>
+<span data-ttu-id="89b3c-p101">PSTN 게이트웨이를 사용하면 Enterprise Voice 사용자가 PSTN 네트워크(공중 전화망)의 사용자와 전화를 걸고 받을 수 있습니다. 이러한 게이트웨이는 중재 서버와 PSTN 네트워크를 연결하는 역할을 합니다.</span><span class="sxs-lookup"><span data-stu-id="89b3c-p101">PSTN gateways enable your Enterprise Voice users to make phone calls to, and receive phone calls from, people on the PSTN network (that is, the public switched telephone network). These gateways act as a bridge between the Mediation Server and the PSTN network.</span></span>
 
 <div>
 
-## <a name="pstn-gateways-cmdlets"></a><span data-ttu-id="5c5b7-106">PSTN 게이트웨이 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="5c5b7-106">PSTN Gateways Cmdlets</span></span>
+## <a name="pstn-gateways-cmdlets"></a><span data-ttu-id="89b3c-107">PSTN 게이트웨이 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="89b3c-107">PSTN Gateways Cmdlets</span></span>
 
-<span data-ttu-id="5c5b7-107">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) 및 [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlet를 사용하면 사용자가 PSTN 네트워크를 통해 전화를 걸 수 있는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5c5b7-107">The [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) and [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlets enable you to verify that users are able to make call over the PSTN network.</span></span>
+<span data-ttu-id="89b3c-108">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) 및 [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlet를 사용하면 사용자가 PSTN 네트워크를 통해 전화를 걸 수 있는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="89b3c-108">The [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) and [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlets enable you to verify that users are able to make call over the PSTN network.</span></span>
 
-<span data-ttu-id="5c5b7-108">**PSTN 게이트웨이**</span><span class="sxs-lookup"><span data-stu-id="5c5b7-108">**PSTN Gateways**</span></span>
+<span data-ttu-id="89b3c-109">**PSTN 게이트웨이**</span><span class="sxs-lookup"><span data-stu-id="89b3c-109">**PSTN Gateways**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5c5b7-109">[설정-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5c5b7-109">[Set-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span></span>
+    <span data-ttu-id="89b3c-110">[설정-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="89b3c-110">[Set-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5c5b7-110">[Test-cspstnoutboundcall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5c5b7-110">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span></span>
+    <span data-ttu-id="89b3c-111">[Test-cspstnoutboundcall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="89b3c-111">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5c5b7-111">[테스트-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5c5b7-111">[Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span></span>
+    <span data-ttu-id="89b3c-112">[테스트-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="89b3c-112">[Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5c5b7-112">[Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5c5b7-112">[Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span></span>
+    <span data-ttu-id="89b3c-113">[Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="89b3c-113">[Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5c5b7-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="5c5b7-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="89b3c-114">참고 항목</span><span class="sxs-lookup"><span data-stu-id="89b3c-114">See Also</span></span>
 
 
-[<span data-ttu-id="5c5b7-114">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="5c5b7-114">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="89b3c-115">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="89b3c-115">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

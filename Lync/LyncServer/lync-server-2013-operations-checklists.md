@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 작업 검사 목록'
+description: 'Lync Server 2013: 작업 검사 목록'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,37 +13,37 @@ ms:contentKeyID: 63969588
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13d3ddce01fb172aa03134a48c40cdd43573f369
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ce6fc8a17c4b661737d014b5d1abf20731e39d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755802"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565894"
 ---
-# <a name="operations-checklists-for-lync-server-2013"></a><span data-ttu-id="c6ca3-102">Lync Server 2013에 대 한 작업 검사 목록</span><span class="sxs-lookup"><span data-stu-id="c6ca3-102">Operations checklists for Lync Server 2013</span></span> 
+# <a name="operations-checklists-for-lync-server-2013"></a><span data-ttu-id="dd18a-103">Lync Server 2013에 대 한 작업 검사 목록</span><span class="sxs-lookup"><span data-stu-id="dd18a-103">Operations checklists for Lync Server 2013</span></span> 
 
 
-<span data-ttu-id="c6ca3-103">_**마지막으로 수정한 주제:** 2019-06-03_</span><span class="sxs-lookup"><span data-stu-id="c6ca3-103">_**Topic Last Modified:** 2019-06-03_</span></span>
+<span data-ttu-id="dd18a-104">_**마지막으로 수정 된 항목:** 2019-06-03_</span><span class="sxs-lookup"><span data-stu-id="dd18a-104">_**Topic Last Modified:** 2019-06-03_</span></span>
 
-<span data-ttu-id="c6ca3-104">여기에서 설명 하는 검사 목록은 내부 레코드 유지에 대 한 것 이며 필요한 경우 조직의 요구 사항에 맞게 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c6ca3-104">The checklists mentioned here are for your internal record keeping, and if necessary you can change them to meet your organization’s needs.</span></span>
-
-<br>
-
-## <a name="daily-task-checklist"></a><span data-ttu-id="c6ca3-105">일별 작업 검사 목록</span><span class="sxs-lookup"><span data-stu-id="c6ca3-105">Daily task checklist</span></span>
-
-<span data-ttu-id="c6ca3-106">이 [Excel 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true)에는 일일 작업 검사 목록이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6ca3-106">The Daily Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true).</span></span>
+<span data-ttu-id="dd18a-105">여기에 언급 된 검사 목록은 내부 레코드 유지를 위한 것 이며 필요한 경우 조직의 요구에 맞게 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dd18a-105">The checklists mentioned here are for your internal record keeping, and if necessary you can change them to meet your organization’s needs.</span></span>
 
 <br>
 
-## <a name="weekly-task-checklist"></a><span data-ttu-id="c6ca3-107">주간 작업 검사 목록</span><span class="sxs-lookup"><span data-stu-id="c6ca3-107">Weekly task checklist</span></span>
+## <a name="daily-task-checklist"></a><span data-ttu-id="dd18a-106">일별 작업 검사 목록</span><span class="sxs-lookup"><span data-stu-id="dd18a-106">Daily task checklist</span></span>
 
-<span data-ttu-id="c6ca3-108">이 [Excel 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true)에는 주간 작업 검사 목록이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6ca3-108">The Weekly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true).</span></span>
+<span data-ttu-id="dd18a-107">이 [Excel 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true)에는 일별 작업 검사 목록이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dd18a-107">The Daily Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true).</span></span>
+
+<br>
+
+## <a name="weekly-task-checklist"></a><span data-ttu-id="dd18a-108">주간 작업 검사 목록</span><span class="sxs-lookup"><span data-stu-id="dd18a-108">Weekly task checklist</span></span>
+
+<span data-ttu-id="dd18a-109">매주 작업 검사 목록이 [Excel 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true)에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dd18a-109">The Weekly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true).</span></span>
 
 
 <br>
 
-## <a name="monthly-task-checklist"></a><span data-ttu-id="c6ca3-109">월간 작업 검사 목록</span><span class="sxs-lookup"><span data-stu-id="c6ca3-109">Monthly task checklist</span></span>
+## <a name="monthly-task-checklist"></a><span data-ttu-id="dd18a-110">월별 작업 검사 목록</span><span class="sxs-lookup"><span data-stu-id="dd18a-110">Monthly task checklist</span></span>
 
 
-<span data-ttu-id="c6ca3-110">이 [Excel 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true)에는 월별 작업 검사 목록이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c6ca3-110">The Monthly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true).</span></span>
+<span data-ttu-id="dd18a-111">이 [Excel 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true)에는 월별 작업 검사 목록이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dd18a-111">The Monthly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true).</span></span>
 
