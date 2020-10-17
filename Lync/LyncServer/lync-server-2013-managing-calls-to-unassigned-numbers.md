@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 지정 되지 않은 번호로 전화 관리'
+description: 'Lync Server 2013: 지정 되지 않은 번호로의 통화를 관리 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b09be36c372473fc6700669f069646ca3f6054d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a91c1ec30ea1e942fa3ea27fbcd369572884a52a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505895"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569154"
 ---
 # <a name="managing-calls-to-unassigned-numbers-in-lync-server-2013"></a>Lync Server 2013에서 할당 되지 않은 번호에 대 한 통화 관리
 

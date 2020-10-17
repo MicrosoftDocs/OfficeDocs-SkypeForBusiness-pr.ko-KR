@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 운영 프로세스에 대 한 인증서 관리'
+description: 'Lync Server 2013: 운영 프로세스에 대 한 인증서를 관리 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4339a19d58494079d7d8349359c614e7ebf141e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 99ad8d888b6692612c6f931d24d9062cf45f87d8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505865"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569124"
 ---
 # <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a>Lync Server 2013에서 운영 프로세스에 대 한 인증서 관리
 

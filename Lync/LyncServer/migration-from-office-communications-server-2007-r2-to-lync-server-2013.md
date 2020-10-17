@@ -1,5 +1,6 @@
 ---
 title: Office Communications Server 2007 R2에서 Lync Server 2013으로 마이그레이션
+description: Office Communications Server 2007 R2에서 Lync Server 2013로 마이그레이션
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a71ac7e0e1291dedfa45e4e358b5b3495d8a623b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d0afdc754ae691bc674c200addb9fb97c1eb4199
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527255"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569594"
 ---
 # <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>Office Communications Server 2007 R2에서 Lync Server 2013으로 마이그레이션
 
@@ -77,15 +78,15 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [마이그레이션을 시작하기 전에](before-you-begin-the-migration_1.md)
+  - [마이그레이션을 시작하기 전에](before-you-begin-the-migration.md)
 
-  - [마이그레이션 단계](migration-phases_1.md)
+  - [마이그레이션 단계](migration-phases.md)
 
   - [1 단계: Office Communications Server 2007 r 2에서 마이그레이션 계획](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [2단계: 마이그레이션 준비](phase-2-prepare-for-migration_1.md)
+  - [2단계: 마이그레이션 준비](phase-2-prepare-for-migration.md)
 
-  - [3 단계: Lync Server 2013 파일럿 풀 배포](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [3 단계: Lync Server 2013 파일럿 풀 배포](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
   - [4 단계: 토폴로지 병합](phase-4-merge-topologies.md)
 

@@ -1,5 +1,6 @@
 ---
 title: 온-프레미스 통합 메시징 통합을 위한 배포 프로세스
+description: 온-프레미스 통합 메시징 통합을 위한 배포 프로세스
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53dcbeb362387c31a97ad1e26713b642f82b2390
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6c1b8f528edb970893198ed06b821535a398f09d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529125"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569524"
 ---
 # <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>온-프레미스 통합 메시징과 Lync Server 2013의 통합을 위한 배포 프로세스
 

@@ -1,5 +1,6 @@
 ---
 title: WMI 이전 버전과의 호환성 패키지 설치
+description: WMI 이전 버전과의 호환성 패키지를 설치 합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 655d72b2362c6b31d6fc15fd3af0ec14716b13c4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9062e209981fd180b8772801960bd94d2256513a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523365"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568994"
 ---
 # <a name="install-wmi-backward-compatibility-package"></a>WMI 이전 버전과의 호환성 패키지 설치
 

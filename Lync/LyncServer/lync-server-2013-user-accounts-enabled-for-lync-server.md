@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server에 사용할 수 있는 사용자 계정'
+description: 'Lync Server 2013: Lync Server에 대해 사용자 계정을 사용 하도록 설정 했습니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c7133ee4f1753d5178bd1ac41e3483dfe61a9e1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bf87177c378ffe61715d5332d2fd23b1d8e6fce6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530275"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569874"
 ---
 # <a name="user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013에 사용할 수 있는 사용자 계정
 

@@ -1,5 +1,6 @@
 ---
 title: 모범 사례 분석기 실행
+description: 모범 사례 분석기를 실행 합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2294eeb182a94f639c08cb3b6e92fbd80fb4a96b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b7350e7186efced4bdecc6f490e618d00e03e854
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509235"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570144"
 ---
 # <a name="run-best-practices-analyzer"></a>모범 사례 분석기 실행
 

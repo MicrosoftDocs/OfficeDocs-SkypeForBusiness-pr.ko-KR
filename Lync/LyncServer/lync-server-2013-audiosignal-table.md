@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 오디오 신호 테이블'
+description: 'Lync Server 2013: 오디오 신호 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 48183217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de07393ef9f43346d0c1b4c96dcfdcf33f00513a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82f3b3119eaccfe56c4706cff07469bc3434461f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195841"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568764"
 ---
+# <a name="audiosignal-table-in-lync-server-2013"></a>Lync Server 2013의 오디오 신호 테이블
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiosignal-table-in-lync-server-2013"></a>Lync Server 2013의 오디오 신호 테이블
+
 
 </div>
 

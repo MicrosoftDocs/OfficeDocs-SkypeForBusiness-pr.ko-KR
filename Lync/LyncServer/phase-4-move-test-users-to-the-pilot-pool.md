@@ -1,5 +1,6 @@
 ---
 title: '4 단계: 테스트 사용자를 파일럿 풀로 이동'
+description: '4 단계: 테스트 사용자를 파일럿 풀로 이동 합니다.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184208
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed5cb22db64f2f26791bf17ae7217697691ad154
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1e5cc7a4eaec0b47c257a8c68ef0dc426c9d30cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523435"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568484"
 ---
 # <a name="phase-4-move-test-users-to-the-pilot-pool"></a>4 단계: 테스트 사용자를 파일럿 풀로 이동
 
