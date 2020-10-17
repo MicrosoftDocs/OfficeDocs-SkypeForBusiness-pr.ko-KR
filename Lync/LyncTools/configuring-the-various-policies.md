@@ -1,5 +1,6 @@
 ---
 title: 다양 한 정책 구성
+description: 다양 한 정책 구성
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0abb428dab96c09c7cd8b82d99de12ba76068eb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 746d299ac605c7dfe89a957246d47309dfbc0a5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505245"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548844"
 ---
 # <a name="configuring-the-various-policies"></a>다양 한 정책 구성
 

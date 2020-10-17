@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 계획 하기 전에 알아야 할 토폴로지 기본 사항
+description: Lync Server 2013에서는 계획 하기 전에 알아야 할 토폴로지 기본 사항에 대해 설명 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 284306b2f7ba1cc9124a3924146d3e5bd715c353
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4bbff40e840339605b2825b267c50ff5e0c234bc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535985"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549124"
 ---
 # <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>Lync Server 2013에 대 한 계획을 수립 하기 전에 알아야 할 토폴로지 기본 사항
 

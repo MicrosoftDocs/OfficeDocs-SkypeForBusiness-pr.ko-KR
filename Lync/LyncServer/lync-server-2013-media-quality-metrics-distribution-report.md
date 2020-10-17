@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 미디어 품질 메트릭 배포 보고서'
+description: 'Lync Server 2013: 미디어 품질 메트릭 배포 보고서'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3823f65d5bc565f01b55b08259a4482c97bbd43
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: def56580477dadf989268e1fc24fcec7776c00d8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500655"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548154"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Lync Server 2013의 미디어 품질 메트릭 배포 보고서
 
