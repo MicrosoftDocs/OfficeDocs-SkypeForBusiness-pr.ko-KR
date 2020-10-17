@@ -12,20 +12,22 @@ ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d028deec6135f7d29093fb1acee91ce7b1cc6319
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bba917427e42dcba689d3b248c7d889c798368f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183421"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512165"
 ---
+# <a name="qoe-view-details-in-lync-server-2013"></a><span data-ttu-id="fb28d-102">QoE Lync Server 2013의 세부 정보 보기</span><span class="sxs-lookup"><span data-stu-id="fb28d-102">QoE view details in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="qoe-view-details-in-lync-server-2013"></a><span data-ttu-id="f229a-102">QoE Lync Server 2013의 세부 정보 보기</span><span class="sxs-lookup"><span data-stu-id="f229a-102">QoE view details in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42183421"
 
 <span> </span>
 
-<span data-ttu-id="f229a-103">_**마지막으로 수정 된 항목:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="f229a-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="fb28d-103">_**마지막으로 수정 된 항목:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="fb28d-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="f229a-104">보기에는 QoE SQL 데이터베이스에서 데이터를 반환 하는 가장 일반적인 시나리오가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f229a-104">Views cover the most common scenarios for returning data from the QoE SQL database.</span></span> <span data-ttu-id="f229a-105">데이터베이스 테이블에 직접 액세스 하는 대신 사용자 지정 보고서를 작성 하는 데 사용 하는 것이 좋습니다. 이는 보기가 향후 버전과의 호환성을 유지 하는 것이 더 많기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="f229a-105">It is recommended views used for building custom reports instead of directly accessing the database tables; that’s because views are more likely to maintain backwards compatibility with future releases.</span></span>
+<span data-ttu-id="fb28d-104">보기에는 QoE SQL 데이터베이스에서 데이터를 반환 하는 가장 일반적인 시나리오가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fb28d-104">Views cover the most common scenarios for returning data from the QoE SQL database.</span></span> <span data-ttu-id="fb28d-105">데이터베이스 테이블에 직접 액세스 하는 대신 사용자 지정 보고서를 작성 하는 데 사용 하는 것이 좋습니다. 이는 보기가 향후 버전과의 호환성을 유지 하는 것이 더 많기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="fb28d-105">It is recommended views used for building custom reports instead of directly accessing the database tables; that’s because views are more likely to maintain backwards compatibility with future releases.</span></span>
 
 
 <table>
@@ -47,34 +49,34 @@ ms.locfileid: "42183421"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f229a-106">보기 이름</span><span class="sxs-lookup"><span data-stu-id="f229a-106">View Name</span></span></th>
-<th><span data-ttu-id="f229a-107">설명</span><span class="sxs-lookup"><span data-stu-id="f229a-107">Description</span></span></th>
+<th><span data-ttu-id="fb28d-106">보기 이름</span><span class="sxs-lookup"><span data-stu-id="fb28d-106">View Name</span></span></th>
+<th><span data-ttu-id="fb28d-107">설명</span><span class="sxs-lookup"><span data-stu-id="fb28d-107">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f229a-108"><a href="lync-server-2013-audiostreamdetail-view.md">Lync Server 2013의 오디오 Streamdetail 보기</a></span><span class="sxs-lookup"><span data-stu-id="f229a-108"><a href="lync-server-2013-audiostreamdetail-view.md">AudioStreamDetail view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="f229a-109">데이터베이스의 각 오디오 스트림에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="f229a-109">Stores information about each audio stream in the database.</span></span></p></td>
+<td><p><span data-ttu-id="fb28d-108"><a href="lync-server-2013-audiostreamdetail-view.md">Lync Server 2013의 오디오 Streamdetail 보기</a></span><span class="sxs-lookup"><span data-stu-id="fb28d-108"><a href="lync-server-2013-audiostreamdetail-view.md">AudioStreamDetail view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="fb28d-109">데이터베이스의 각 오디오 스트림에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="fb28d-109">Stores information about each audio stream in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f229a-110"><a href="lync-server-2013-medialine-view.md">Lync Server 2013의 MediaLine</a></span><span class="sxs-lookup"><span data-stu-id="f229a-110"><a href="lync-server-2013-medialine-view.md">MediaLine view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="f229a-111">데이터베이스의 각 미디어 라인에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="f229a-111">Stores information about each media line in the database.</span></span> <span data-ttu-id="f229a-112">하나의 오디오 세션은 일반적으로 오디오 미디어 회선 하나를 포함합니다.</span><span class="sxs-lookup"><span data-stu-id="f229a-112">One audio session typically contains one audio media line.</span></span> <span data-ttu-id="f229a-113">하나의 A/V(오디오 및 비디오) 세션은 보통 오디오 미디어 회선과 비디오 미디어 회선을 하나씩 포함하지만, 회의 장치나 갤러리 보기를 사용하는 경우에는 세션이 비디오 미디어 회선 두 개를 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f229a-113">One audio and video (A/V) session typically contains one audio media line and one video media line; however, the session might contain two video media lines if a conferencing device is used or if Gallery View is used.</span></span></p></td>
+<td><p><span data-ttu-id="fb28d-110"><a href="lync-server-2013-medialine-view.md">Lync Server 2013의 MediaLine</a></span><span class="sxs-lookup"><span data-stu-id="fb28d-110"><a href="lync-server-2013-medialine-view.md">MediaLine view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="fb28d-111">데이터베이스의 각 미디어 라인에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="fb28d-111">Stores information about each media line in the database.</span></span> <span data-ttu-id="fb28d-112">하나의 오디오 세션은 일반적으로 오디오 미디어 회선 하나를 포함합니다.</span><span class="sxs-lookup"><span data-stu-id="fb28d-112">One audio session typically contains one audio media line.</span></span> <span data-ttu-id="fb28d-113">하나의 A/V(오디오 및 비디오) 세션은 보통 오디오 미디어 회선과 비디오 미디어 회선을 하나씩 포함하지만, 회의 장치나 갤러리 보기를 사용하는 경우에는 세션이 비디오 미디어 회선 두 개를 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fb28d-113">One audio and video (A/V) session typically contains one audio media line and one video media line; however, the session might contain two video media lines if a conferencing device is used or if Gallery View is used.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f229a-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">Lync Server 2013의 NetworkConfigurationSettings 보기</a></span><span class="sxs-lookup"><span data-stu-id="f229a-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">NetworkConfigurationSettings view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="f229a-115">네트워크 구성에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="f229a-115">Stores information about the network configuration.</span></span></p></td>
+<td><p><span data-ttu-id="fb28d-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">Lync Server 2013의 NetworkConfigurationSettings 보기</a></span><span class="sxs-lookup"><span data-stu-id="fb28d-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">NetworkConfigurationSettings view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="fb28d-115">네트워크 구성에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="fb28d-115">Stores information about the network configuration.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f229a-116"><a href="lync-server-2013-session-view.md">Lync Server 2013의 세션 보기</a></span><span class="sxs-lookup"><span data-stu-id="f229a-116"><a href="lync-server-2013-session-view.md">Session view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="f229a-117">데이터베이스의 레코드가 포함 된 세션에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="f229a-117">Stores information about sessions that have records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="fb28d-116"><a href="lync-server-2013-session-view.md">Lync Server 2013의 세션 보기</a></span><span class="sxs-lookup"><span data-stu-id="fb28d-116"><a href="lync-server-2013-session-view.md">Session view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="fb28d-117">데이터베이스의 레코드가 포함 된 세션에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="fb28d-117">Stores information about sessions that have records in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f229a-118"><a href="lync-server-2013-useragent-view.md">Lync Server 2013의 UserAgent 보기</a></span><span class="sxs-lookup"><span data-stu-id="f229a-118"><a href="lync-server-2013-useragent-view.md">UserAgent view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="f229a-119">데이터베이스의 레코드를 포함 하는 세션에 포함 된 사용자 에이전트에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="f229a-119">Stores information about the user agents that have been involved in sessions that have records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="fb28d-118"><a href="lync-server-2013-useragent-view.md">Lync Server 2013의 UserAgent 보기</a></span><span class="sxs-lookup"><span data-stu-id="fb28d-118"><a href="lync-server-2013-useragent-view.md">UserAgent view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="fb28d-119">데이터베이스의 레코드를 포함 하는 세션에 포함 된 사용자 에이전트에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="fb28d-119">Stores information about the user agents that have been involved in sessions that have records in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f229a-120"><a href="lync-server-2013-videostreamdetail-view.md">Lync Server 2013의 VideoStreamDetail 보기</a></span><span class="sxs-lookup"><span data-stu-id="f229a-120"><a href="lync-server-2013-videostreamdetail-view.md">VideoStreamDetail view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="f229a-121">데이터베이스의 각 비디오 스트림에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="f229a-121">Stores information about each video stream in the database.</span></span></p></td>
+<td><p><span data-ttu-id="fb28d-120"><a href="lync-server-2013-videostreamdetail-view.md">Lync Server 2013의 VideoStreamDetail 보기</a></span><span class="sxs-lookup"><span data-stu-id="fb28d-120"><a href="lync-server-2013-videostreamdetail-view.md">VideoStreamDetail view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="fb28d-121">데이터베이스의 각 비디오 스트림에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="fb28d-121">Stores information about each video stream in the database.</span></span></p></td>
 </tr>
 </tbody>
 </table>

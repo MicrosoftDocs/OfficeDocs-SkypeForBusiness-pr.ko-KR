@@ -12,20 +12,22 @@ ms:contentKeyID: 48184377
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e57d982983bdd5ca0f85235cd44bc2fba5b1bf7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1b3e1eb33568bbc0e1742e31638a20879e4fffdd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183701"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513365"
 ---
+# <a name="preparing-a-locked-down-active-directory-domain-services-in-lync-server-2013"></a><span data-ttu-id="39240-102">Lync Server 2013에서 잠긴 Active Directory 도메인 서비스 준비</span><span class="sxs-lookup"><span data-stu-id="39240-102">Preparing a locked-down Active Directory Domain Services in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-a-locked-down-active-directory-domain-services-in-lync-server-2013"></a><span data-ttu-id="87721-102">Lync Server 2013에서 잠긴 Active Directory 도메인 서비스 준비</span><span class="sxs-lookup"><span data-stu-id="87721-102">Preparing a locked-down Active Directory Domain Services in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42183701"
 
 <span> </span>
 
-<span data-ttu-id="87721-103">_**마지막으로 수정 된 항목:** 2012-05-14_</span><span class="sxs-lookup"><span data-stu-id="87721-103">_**Topic Last Modified:** 2012-05-14_</span></span>
+<span data-ttu-id="39240-103">_**마지막으로 수정 된 항목:** 2012-05-14_</span><span class="sxs-lookup"><span data-stu-id="39240-103">_**Topic Last Modified:** 2012-05-14_</span></span>
 
-<span data-ttu-id="87721-104">조직은 보안 위험을 완화할 수 있도록 Active Directory 도메인 서비스를 잠그는 경우가 많습니다.</span><span class="sxs-lookup"><span data-stu-id="87721-104">Organizations often lock down Active Directory Domain Services to help mitigate security risks.</span></span> <span data-ttu-id="87721-105">그러나 잠겨 있는 Active Directory 환경은 Lync Server 2013에 필요한 권한을 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="87721-105">However, a locked-down Active Directory environment can limit the permissions that Lync Server 2013 requires.</span></span> <span data-ttu-id="87721-106">Lync Server 2013에 대해 잠긴 Active Directory 환경을 적절 하 게 준비 하려면 몇 가지 추가 고려 사항과 단계가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="87721-106">Properly preparing a locked-down Active Directory environment for Lync Server 2013 involves some additional considerations and steps.</span></span>
+<span data-ttu-id="39240-104">조직은 보안 위험을 완화할 수 있도록 Active Directory 도메인 서비스를 잠그는 경우가 많습니다.</span><span class="sxs-lookup"><span data-stu-id="39240-104">Organizations often lock down Active Directory Domain Services to help mitigate security risks.</span></span> <span data-ttu-id="39240-105">그러나 잠겨 있는 Active Directory 환경은 Lync Server 2013에 필요한 권한을 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="39240-105">However, a locked-down Active Directory environment can limit the permissions that Lync Server 2013 requires.</span></span> <span data-ttu-id="39240-106">Lync Server 2013에 대해 잠긴 Active Directory 환경을 적절 하 게 준비 하려면 몇 가지 추가 고려 사항과 단계가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="39240-106">Properly preparing a locked-down Active Directory environment for Lync Server 2013 involves some additional considerations and steps.</span></span>
 
-<span data-ttu-id="87721-107">잠겨 있는 Active Directory 환경에서 사용 권한이 제한 되는 일반적인 두 가지 방법은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="87721-107">Two common ways in which permissions are limited in a locked-down Active Directory environment are as follows:</span></span>
+<span data-ttu-id="39240-107">잠겨 있는 Active Directory 환경에서 사용 권한이 제한 되는 일반적인 두 가지 방법은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="39240-107">Two common ways in which permissions are limited in a locked-down Active Directory environment are as follows:</span></span>
 
-  - <span data-ttu-id="87721-108">인증 된 사용자 Ace (액세스 제어 항목)가 컨테이너에서 제거 됩니다.</span><span class="sxs-lookup"><span data-stu-id="87721-108">Authenticated user access control entries (ACEs) are removed from containers.</span></span>
+  - <span data-ttu-id="39240-108">인증 된 사용자 Ace (액세스 제어 항목)가 컨테이너에서 제거 됩니다.</span><span class="sxs-lookup"><span data-stu-id="39240-108">Authenticated user access control entries (ACEs) are removed from containers.</span></span>
 
-  - <span data-ttu-id="87721-109">User, Contact, InetOrgPerson 또는 Computer 개체의 컨테이너에서 사용 권한 상속이 사용 되지 않도록 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="87721-109">Permissions inheritance is disabled on containers of User, Contact, InetOrgPerson, or Computer objects.</span></span>
+  - <span data-ttu-id="39240-109">User, Contact, InetOrgPerson 또는 Computer 개체의 컨테이너에서 사용 권한 상속이 사용 되지 않도록 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="39240-109">Permissions inheritance is disabled on containers of User, Contact, InetOrgPerson, or Computer objects.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="87721-110">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="87721-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="39240-110">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="39240-110">In This Section</span></span>
 
-  - [<span data-ttu-id="87721-111">Lync Server 2013에서 인증 된 사용자 권한이 제거 됨</span><span class="sxs-lookup"><span data-stu-id="87721-111">Authenticated user permissions are removed in Lync Server 2013</span></span>](lync-server-2013-authenticated-user-permissions-are-removed.md)
+  - [<span data-ttu-id="39240-111">Lync Server 2013에서 인증 된 사용자 권한이 제거 됨</span><span class="sxs-lookup"><span data-stu-id="39240-111">Authenticated user permissions are removed in Lync Server 2013</span></span>](lync-server-2013-authenticated-user-permissions-are-removed.md)
 
-  - [<span data-ttu-id="87721-112">Lync Server 2013의 컴퓨터, 사용자 또는 InetOrgPerson 컨테이너에서 사용 권한 상속이 비활성화 됨</span><span class="sxs-lookup"><span data-stu-id="87721-112">Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers in Lync Server 2013</span></span>](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
+  - [<span data-ttu-id="39240-112">Lync Server 2013의 컴퓨터, 사용자 또는 InetOrgPerson 컨테이너에서 사용 권한 상속이 비활성화 됨</span><span class="sxs-lookup"><span data-stu-id="39240-112">Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers in Lync Server 2013</span></span>](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
 
 </div>
 

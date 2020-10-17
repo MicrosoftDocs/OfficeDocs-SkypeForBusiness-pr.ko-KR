@@ -12,20 +12,22 @@ ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d93300acda297a026af03070680825899a608d86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 948581815b6e38fd08b47a95ea7176a694879e96
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186411"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513785"
 ---
+# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="d6a0f-102">Lync Server 2013의 위치 테이블</span><span class="sxs-lookup"><span data-stu-id="d6a0f-102">Locations table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="bc15c-102">Lync Server 2013의 위치 테이블</span><span class="sxs-lookup"><span data-stu-id="bc15c-102">Locations table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42186411"
 
 <span> </span>
 
-<span data-ttu-id="bc15c-103">_**마지막으로 수정 된 항목:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="bc15c-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="d6a0f-103">_**마지막으로 수정 된 항목:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="d6a0f-103">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="bc15c-104">각 레코드는 E9-1-1 통화와 같은 응급 통화에서 하나의 위치 참조를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="bc15c-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
+<span data-ttu-id="d6a0f-104">각 레코드는 E9-1-1 통화와 같은 응급 통화에서 하나의 위치 참조를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="d6a0f-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
 
 
 <table>
@@ -49,30 +51,30 @@ ms.locfileid: "42186411"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bc15c-105">열</span><span class="sxs-lookup"><span data-stu-id="bc15c-105">Column</span></span></th>
-<th><span data-ttu-id="bc15c-106">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="bc15c-106">Data Type</span></span></th>
-<th><span data-ttu-id="bc15c-107">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="bc15c-107">Key/Index</span></span></th>
-<th><span data-ttu-id="bc15c-108">세부 정보</span><span class="sxs-lookup"><span data-stu-id="bc15c-108">Details</span></span></th>
+<th><span data-ttu-id="d6a0f-105">열</span><span class="sxs-lookup"><span data-stu-id="d6a0f-105">Column</span></span></th>
+<th><span data-ttu-id="d6a0f-106">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="d6a0f-106">Data Type</span></span></th>
+<th><span data-ttu-id="d6a0f-107">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="d6a0f-107">Key/Index</span></span></th>
+<th><span data-ttu-id="d6a0f-108">세부 정보</span><span class="sxs-lookup"><span data-stu-id="d6a0f-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bc15c-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="bc15c-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc15c-110">datetime</span><span class="sxs-lookup"><span data-stu-id="bc15c-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="bc15c-111">Primary, Foreign</span><span class="sxs-lookup"><span data-stu-id="bc15c-111">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc15c-112">세션 요청 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="bc15c-112">Time of session request.</span></span> <span data-ttu-id="bc15c-113"><strong>SessionIdSeq</strong>와 함께 세션을 고유하게 식별하기 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc15c-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="bc15c-114">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="bc15c-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="d6a0f-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-110">datetime</span><span class="sxs-lookup"><span data-stu-id="d6a0f-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-111">Primary, Foreign</span><span class="sxs-lookup"><span data-stu-id="d6a0f-111">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-112">세션 요청 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="d6a0f-112">Time of session request.</span></span> <span data-ttu-id="d6a0f-113"><strong>SessionIdSeq</strong>와 함께 세션을 고유하게 식별하기 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6a0f-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="d6a0f-114">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d6a0f-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc15c-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="bc15c-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc15c-116">int</span><span class="sxs-lookup"><span data-stu-id="bc15c-116">int</span></span></p></td>
-<td><p><span data-ttu-id="bc15c-117">Primary, Foreign</span><span class="sxs-lookup"><span data-stu-id="bc15c-117">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc15c-118">세션을 식별하기 위한 ID 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="bc15c-118">ID number to identify the session.</span></span> <span data-ttu-id="bc15c-119"><strong>SessionIdTime</strong>과 함께 세션을 고유하게 식별하기 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc15c-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="bc15c-120">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="bc15c-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="d6a0f-115"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-116">int</span><span class="sxs-lookup"><span data-stu-id="d6a0f-116">int</span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-117">Primary, Foreign</span><span class="sxs-lookup"><span data-stu-id="d6a0f-117">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-118">세션을 식별하기 위한 ID 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="d6a0f-118">ID number to identify the session.</span></span> <span data-ttu-id="d6a0f-119"><strong>SessionIdTime</strong>과 함께 세션을 고유하게 식별하기 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6a0f-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="d6a0f-120">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d6a0f-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc15c-121"><strong>위치</strong></span><span class="sxs-lookup"><span data-stu-id="bc15c-121"><strong>Location</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc15c-122">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="bc15c-122">nvarchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-121"><strong>위치</strong></span><span class="sxs-lookup"><span data-stu-id="d6a0f-121"><strong>Location</strong></span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-122">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="d6a0f-122">nvarchar(max)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bc15c-123">응급 통화의 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="bc15c-123">Location of emergency call.</span></span></p></td>
+<td><p><span data-ttu-id="d6a0f-123">응급 통화의 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="d6a0f-123">Location of emergency call.</span></span></p></td>
 </tr>
 </tbody>
 </table>

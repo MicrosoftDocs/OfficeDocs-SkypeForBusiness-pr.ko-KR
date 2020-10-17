@@ -12,20 +12,22 @@ ms:contentKeyID: 48185034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddb3a0e781b5f505cb5a63d36eda73b98629e19b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b43adbf088e696b38ff8159e87e2b5b4e8608d38
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213304"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512665"
 ---
+# <a name="gateways-table-in-lync-server-2013"></a><span data-ttu-id="509f6-102">Lync Server 2013의 게이트웨이 테이블</span><span class="sxs-lookup"><span data-stu-id="509f6-102">Gateways table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="gateways-table-in-lync-server-2013"></a><span data-ttu-id="85500-102">Lync Server 2013의 게이트웨이 테이블</span><span class="sxs-lookup"><span data-stu-id="85500-102">Gateways table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42213304"
 
 <span> </span>
 
-<span data-ttu-id="85500-103">_**마지막으로 수정 된 항목:** 2010-11-05_</span><span class="sxs-lookup"><span data-stu-id="85500-103">_**Topic Last Modified:** 2010-11-05_</span></span>
+<span data-ttu-id="509f6-103">_**마지막으로 수정 된 항목:** 2010-11-05_</span><span class="sxs-lookup"><span data-stu-id="509f6-103">_**Topic Last Modified:** 2010-11-05_</span></span>
 
-<span data-ttu-id="85500-104">게이트웨이 테이블이 지원 테이블입니다.</span><span class="sxs-lookup"><span data-stu-id="85500-104">The Gateways table is a supporting table.</span></span> <span data-ttu-id="85500-105">각 레코드는 데이터베이스의 레코드를 포함 하는 공중 전화망 (PSTN) 통화와 관련 된 하나의 게이트웨이에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="85500-105">Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database.</span></span>
+<span data-ttu-id="509f6-104">게이트웨이 테이블이 지원 테이블입니다.</span><span class="sxs-lookup"><span data-stu-id="509f6-104">The Gateways table is a supporting table.</span></span> <span data-ttu-id="509f6-105">각 레코드는 데이터베이스의 레코드를 포함 하는 공중 전화망 (PSTN) 통화와 관련 된 하나의 게이트웨이에 대 한 정보를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="509f6-105">Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database.</span></span>
 
 
 <table>
@@ -49,24 +51,24 @@ ms.locfileid: "42213304"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="85500-106">열</span><span class="sxs-lookup"><span data-stu-id="85500-106">Column</span></span></th>
-<th><span data-ttu-id="85500-107">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="85500-107">Data Type</span></span></th>
-<th><span data-ttu-id="85500-108">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="85500-108">Key/Index</span></span></th>
-<th><span data-ttu-id="85500-109">세부 정보</span><span class="sxs-lookup"><span data-stu-id="85500-109">Details</span></span></th>
+<th><span data-ttu-id="509f6-106">열</span><span class="sxs-lookup"><span data-stu-id="509f6-106">Column</span></span></th>
+<th><span data-ttu-id="509f6-107">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="509f6-107">Data Type</span></span></th>
+<th><span data-ttu-id="509f6-108">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="509f6-108">Key/Index</span></span></th>
+<th><span data-ttu-id="509f6-109">세부 정보</span><span class="sxs-lookup"><span data-stu-id="509f6-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="85500-110"><strong>GatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="85500-110"><strong>GatewayId</strong></span></span></p></td>
-<td><p><span data-ttu-id="85500-111">int</span><span class="sxs-lookup"><span data-stu-id="85500-111">int</span></span></p></td>
-<td><p><span data-ttu-id="85500-112">Primary</span><span class="sxs-lookup"><span data-stu-id="85500-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="85500-113">이 게이트웨이를 식별 하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="85500-113">Unique number identifying this gateway.</span></span></p></td>
+<td><p><span data-ttu-id="509f6-110"><strong>GatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="509f6-110"><strong>GatewayId</strong></span></span></p></td>
+<td><p><span data-ttu-id="509f6-111">int</span><span class="sxs-lookup"><span data-stu-id="509f6-111">int</span></span></p></td>
+<td><p><span data-ttu-id="509f6-112">Primary</span><span class="sxs-lookup"><span data-stu-id="509f6-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="509f6-113">이 게이트웨이를 식별 하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="509f6-113">Unique number identifying this gateway.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85500-114"><strong>게이트웨이</strong></span><span class="sxs-lookup"><span data-stu-id="85500-114"><strong>Gateway</strong></span></span></p></td>
-<td><p><span data-ttu-id="85500-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="85500-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="509f6-114"><strong>게이트웨이</strong></span><span class="sxs-lookup"><span data-stu-id="509f6-114"><strong>Gateway</strong></span></span></p></td>
+<td><p><span data-ttu-id="509f6-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="509f6-115">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="85500-116">게이트웨이 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="85500-116">Gateway name.</span></span></p></td>
+<td><p><span data-ttu-id="509f6-116">게이트웨이 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="509f6-116">Gateway name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

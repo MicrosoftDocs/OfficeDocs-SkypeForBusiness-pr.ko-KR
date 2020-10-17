@@ -12,20 +12,22 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f640e2b7ac67515e5dff91de1cfd48b24bd9c322
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5f8b3af0b93e9f7b7c8c660b91131819b27cb0e9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184361"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513565"
 ---
+# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a><span data-ttu-id="83789-102">Lync Server 2013와의 Exchange Server 통합 계획</span><span class="sxs-lookup"><span data-stu-id="83789-102">Planning for Exchange Server integration with Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a><span data-ttu-id="770f1-102">Lync Server 2013와의 Exchange Server 통합 계획</span><span class="sxs-lookup"><span data-stu-id="770f1-102">Planning for Exchange Server integration with Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42184361"
 
 <span> </span>
 
-<span data-ttu-id="770f1-103">_**마지막으로 수정 된 항목:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="770f1-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+<span data-ttu-id="83789-103">_**마지막으로 수정 된 항목:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="83789-103">_**Topic Last Modified:** 2012-09-20_</span></span>
 
-<span data-ttu-id="770f1-104">조직에 Exchange 및 Lync Server를 둘 다 배포 하면 두 제품의 기능 대부분이 향상 됩니다.</span><span class="sxs-lookup"><span data-stu-id="770f1-104">When you deploy both Exchange and Lync Server in your organization, many features in both products are enhanced.</span></span> <span data-ttu-id="770f1-105">이 섹션에서는 이러한 기능들에 대한 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="770f1-105">This section contains information about these capabilities.</span></span>
+<span data-ttu-id="83789-104">조직에 Exchange 및 Lync Server를 둘 다 배포 하면 두 제품의 기능 대부분이 향상 됩니다.</span><span class="sxs-lookup"><span data-stu-id="83789-104">When you deploy both Exchange and Lync Server in your organization, many features in both products are enhanced.</span></span> <span data-ttu-id="83789-105">이 섹션에서는 이러한 기능들에 대한 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="83789-105">This section contains information about these capabilities.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="770f1-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="770f1-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="83789-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="83789-106">In This Section</span></span>
 
-  - [<span data-ttu-id="770f1-107">Microsoft Lync Server 2013과 Microsoft Exchange Server 2013 통합</span><span class="sxs-lookup"><span data-stu-id="770f1-107">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</span></span>](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
+  - [<span data-ttu-id="83789-107">Microsoft Lync Server 2013과 Microsoft Exchange Server 2013 통합</span><span class="sxs-lookup"><span data-stu-id="83789-107">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</span></span>](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
 
-  - [<span data-ttu-id="770f1-108">Lync Server 2013의 Exchange 통합 메시징 통합 계획</span><span class="sxs-lookup"><span data-stu-id="770f1-108">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
+  - [<span data-ttu-id="83789-108">Lync Server 2013의 Exchange 통합 메시징 통합 계획</span><span class="sxs-lookup"><span data-stu-id="83789-108">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
-  - [<span data-ttu-id="770f1-109">Lync Server 2013의 호스팅된 Exchange 통합 메시징 통합</span><span class="sxs-lookup"><span data-stu-id="770f1-109">Hosted Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
+  - [<span data-ttu-id="83789-109">Lync Server 2013의 호스팅된 Exchange 통합 메시징 통합</span><span class="sxs-lookup"><span data-stu-id="83789-109">Hosted Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
 
 </div>
 
