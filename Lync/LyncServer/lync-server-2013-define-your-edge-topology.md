@@ -12,20 +12,22 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dec463e960a60e1c6d0251bf0c77300626e57c66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ceba1f397493ac0ef6961099877643f802c11d93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504565"
 ---
+# <a name="define-your-edge-topology-in-lync-server-2013"></a>Lync Server 2013에서에 지 토폴로지 정의
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-your-edge-topology-in-lync-server-2013"></a>Lync Server 2013에서에 지 토폴로지 정의
+
 
 </div>
 
@@ -91,7 +93,7 @@ _**마지막으로 수정 된 항목:** 2012-09-28_
         
 
         > [!IMPORTANT]  
-        > 지정하는 이름은 서버에 구성된 컴퓨터 이름과 동일해야 합니다. 기본적으로 도메인에 가입되지 않은 컴퓨터의 컴퓨터 이름은 FQDN이 아닌 짧은 이름입니다. 토폴로지 작성기에서는 짧은 이름이 아닌 FQDN을 사용합니다. 따라서 도메인이 가입되지 않은 에지 서버로 배포할 컴퓨터의 이름에 DNS 접미사를 구성해야 합니다. Lync Server, 에지 서버 및 풀의 FQDN을 지정할 때는 표준 문자(A-Z, a-z, 0-9 및 하이픈 포함)만 사용하십시오. 유니코드 문자 또는 밑줄은 사용하지 마십시오. FQDN의 비표준 문자는 외부 DNS 및 공용 CA에서 지원되지 않는 경우가 많습니다(인증서의 SN에 FQDN을 할당해야 하는 경우). 컴퓨터 이름에 DNS 접미사를 추가 하는 방법에 대 한 자세한 내용은 <A href="lync-server-2013-configure-dns-for-edge-support.md">Lync Server 2013에서 dns에 지 지원에 대 한 구성</A>를 참조 하십시오.
+        > 지정하는 이름은 서버에 구성된 컴퓨터 이름과 동일해야 합니다. 기본적으로 도메인에 가입되지 않은 컴퓨터의 컴퓨터 이름은 FQDN이 아닌 짧은 이름입니다. 토폴로지 작성기에서는 짧은 이름이 아닌 FQDN을 사용합니다. 따라서 도메인이 가입되지 않은 에지 서버로 배포할 컴퓨터의 이름에 DNS 접미사를 구성해야 합니다. Lync Server, 에지 서버 및 풀의 FQDN을 지정할 때는 표준 문자(A-Z, a-z, 0-9 및 하이픈 포함)만 사용하십시오. 유니코드 문자나 밑줄은 사용하지 마십시오. FQDN의 비표준 문자는 외부 DNS 및 공용 CA에서 지원되지 않는 경우가 많습니다(인증서의 SN에 FQDN을 할당해야 하는 경우). 컴퓨터 이름에 DNS 접미사를 추가 하는 방법에 대 한 자세한 내용은 <A href="lync-server-2013-configure-dns-for-edge-support.md">Lync Server 2013에서 dns에 지 지원에 대 한 구성</A>를 참조 하십시오.
 
         
         </div>
@@ -226,7 +228,7 @@ _**마지막으로 수정 된 항목:** 2012-09-28_
         
 
         > [!IMPORTANT]  
-        > 풀에 대해 지정하는 이름은 내부 에지 풀 이름이어야 합니다. 이 이름은 FQDN으로 정의되어야 합니다. 토폴로지 작성기에서는 짧은 이름이 아닌 FQDN을 사용합니다. Lync Server, 에지 서버 및 풀의 FQDN을 지정할 때는 표준 문자(A-Z, a-z, 0-9 및 하이픈 포함)만 사용하십시오. 유니코드 문자 또는 밑줄은 사용하지 마십시오. FQDN에서 비표준 문자는 외부 DNS 및 공용 CA에서 지원되지 않는 경우가 많습니다(FQDN을 인증서의 SN에 지정해야 하는 경우).
+        > 풀에 대해 지정하는 이름은 내부 에지 풀 이름이어야 합니다. 이 이름은 FQDN으로 정의되어야 합니다. 토폴로지 작성기에서는 짧은 이름이 아닌 FQDN을 사용합니다. Lync Server, 에지 서버 및 풀의 FQDN을 지정할 때는 표준 문자(A-Z, a-z, 0-9 및 하이픈 포함)만 사용하십시오. 유니코드 문자나 밑줄은 사용하지 마십시오. FQDN에서 비표준 문자는 외부 DNS 및 공용 CA에서 지원되지 않는 경우가 많습니다(FQDN을 인증서의 SN에 지정해야 하는 경우).
 
         
         </div>

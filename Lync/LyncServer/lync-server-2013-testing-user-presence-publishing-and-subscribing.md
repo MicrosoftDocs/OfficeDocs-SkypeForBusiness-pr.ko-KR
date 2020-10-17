@@ -12,20 +12,22 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f6dcc7461362129df72eefd0fd1ab3f5dd809b5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 335ad014595f855c1ccefab363f3cf34ad7c282b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503855"
 ---
+# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>Lync Server 2013에서 사용자 현재 상태 게시 및 구독 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>Lync Server 2013에서 사용자 현재 상태 게시 및 구독 테스트
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우에는 사용자에 게 해당 cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 받아야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsPresence cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPresence&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="description"></a>설명
 
-테스트-CsPresence 테스트 사용자 쌍이 Lync Server에 로그온 하 여 현재 상태 정보를 교환할 수 있는지 여부를 확인 하는 데 사용 됩니다. 이 작업을 위해 cmdlet은 먼저 두 사용자를 시스템에 로그온시킵니다. 두 로그온이 모두 성공하면 첫 번째 테스트 사용자가 두 번째 사용자로부터 현재 상태 정보를 받기 위해 요청합니다. 두 번째 사용자가 이 정보를 게시한 다음 Test-CsPresence는 정보가 첫 번째 사용자에게 성공적으로 전송되었는지 확인합니다. 현재 상태 정보를 교환 한 후에는 두 테스트 사용자가 Lync Server에서 로그 오프 됩니다.
+Test-CsPresence를 사용 하 여 테스트 사용자 쌍이 Lync Server에 로그온 하 고 현재 상태 정보를 교환할 수 있는지 여부를 확인 합니다. 이 작업을 위해 cmdlet은 먼저 두 사용자를 시스템에 로그온시킵니다. 두 로그온이 모두 성공하면 첫 번째 테스트 사용자가 두 번째 사용자로부터 현재 상태 정보를 받기 위해 요청합니다. 두 번째 사용자가 이 정보를 게시한 다음 Test-CsPresence는 정보가 첫 번째 사용자에게 성공적으로 전송되었는지 확인합니다. 현재 상태 정보를 교환 한 후에는 두 테스트 사용자가 Lync Server에서 로그 오프 됩니다.
 
 </div>
 
@@ -74,7 +76,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="running-the-test"></a>테스트 실행
 
-테스트-CsPresence은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예:
+Test-CsPresence cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예제:
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -126,11 +128,11 @@ Microsoft DiagnosticHeader
 
     "sip:kenmyer@litwareinc.com", "sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, Enabled
 
-테스트-CsPresence 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
+Test-CsPresence 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose 매개 변수가 포함 된 경우 테스트-CsPresence 지정 된 사용자가 Lync Server에 로그온 할 수 있는지 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예:
+Verbose 매개 변수를 포함 하면 Test-CsPresence는 지정 된 사용자가 Lync Server에 로그온 할 수 있는지 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예제:
 
 알 수 없는 등록 요청 적중률
 
@@ -156,7 +158,7 @@ Verbose 매개 변수가 포함 된 경우 테스트-CsPresence 지정 된 사�
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-다음은 테스트-CsPresence 발생할 수 있는 몇 가지 일반적인 이유입니다.
+Test-CsPresence 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.
 
   - 잘못 된 사용자 계정을 지정 했습니다. 다음과 같은 명령을 실행 하 여 사용자 계정이 있는지 확인할 수 있습니다.
     

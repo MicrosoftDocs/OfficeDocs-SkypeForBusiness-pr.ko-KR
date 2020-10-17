@@ -12,20 +12,22 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9be82373d33dafba7a5cf3e967b162ab5d33b01e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54629a270fcba5f6237deaaa1146108e16bafef7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213723"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504335"
 ---
+# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 서버, 인스턴트 메시징 및 현재 상태에 대 한 요구 사항 정의
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 서버, 인스턴트 메시징 및 현재 상태에 대 한 요구 사항 정의
+
 
 </div>
 
@@ -45,11 +47,11 @@ IM(인스턴트 메시징) 및 현재 상태를 계획하는 데 수행되는 �
 
 사용자가 외부 사용자와 정보를 교환할 수 있도록 하 여 Lync Server에 대 한 투자의 이점을 대폭 증대 시킬 수도 있습니다. 외부 사용자에는 다음이 포함될 수 있습니다.
 
-  - **원격 사용자**   방화벽 외부에서 랩톱 또는 다른 Lync Server 장치를 사용 하 여 작업 하는 조직의 사용자입니다.
+  - **원격 사용자**     조직의 사용자가 방화벽 외부에서 작업 중 이며 해당 랩톱이 나 기타 Lync Server 장치를 사용 하는 경우
 
-  - ****   연결 된 사용자 회사의 사용자가 Lync Server를 실행 하는 사람과 함께 작업 합니다. 조직의 사용자가 이러한 사용자에게 쉽게 연결할 수 있도록 하려면 이러한 회사와 페더레이션 관계를 만들면 됩니다.
+  - **페더레이션 사용자**     회사의 사용자는 Lync Server를 실행 하는 사람과 함께 작업 합니다. 조직의 사용자가 이러한 사용자에게 쉽게 연결할 수 있도록 하려면 이러한 회사와 페더레이션 관계를 만들면 됩니다.
 
-  - **공용 사용자**   인터넷 서비스, Yahoo\!및 AOL의 Windows Live 네트워크에서 제공 하는 im 서비스와 같은 공용 im 서비스 사용자 및 Google 대화 기능과 같은 xmpp (Extensible Messaging and 거점 Protocol)를 사용 하는 공급자 및 서버 사용자입니다.
+  - **공개 사용자**     Internet services, Yahoo 및 AOL의 Windows Live 네트워크에서 제공 하는 IM 서비스와 같은 공용 IM 서비스 사용자 \! 및 Google 대화 기능과 같은 XMPP (Extensible Messaging And 현재 상태 프로토콜)를 사용 하는 공급자 및 서버 사용자입니다.
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de4a1a82dbefb5a7f55a4c5872a6702933af08c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5aa98f8935a692f06b78db523e4e109e8cba9ddf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184584"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505435"
 ---
+# <a name="new-and-changed-settings-for-lync-2013"></a>Lync 2013의 새로 만들기 및 변경 된 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-and-changed-settings-for-lync-2013"></a>Lync 2013의 새로 만들기 및 변경 된 설정
+
 
 </div>
 
@@ -52,7 +54,7 @@ _**마지막으로 수정 된 항목:** 2014-12-05_
 </colgroup>
 <thead>
 <tr class="header">
-<th>New</th>
+<th>신규</th>
 <th>Lync Server 관리 셸 Cmdlet</th>
 <th>설명</th>
 </tr>
@@ -61,7 +63,7 @@ _**마지막으로 수정 된 항목:** 2014-12-05_
 <tr class="odd">
 <td><p>TracingLevel</p></td>
 <td><p>Set-csclientpolicy</p></td>
-<td><p>True로 설정 하면 소프트웨어 추적이 Lync에서 사용 됩니다. False로 설정 하면 소프트웨어 추적이 사용 되지 않습니다. 소프트웨어 추적은 API 통화 추적을 비롯하여 프로그램이 수행하는 모든 작업에 대한 자세한 기록을 유지합니다. 추적은 개발자와 응용 프로그램 지원 담당자에 게 대부분 유용 합니다. 이 설정은 Communications Server 2007 R2 그룹 정책 설정과 &quot;Communicator에 대 한 추적을 설정 하는 것과 동일 합니다. &quot; 설정은 다음과 같습니다.</p>
+<td><p>True로 설정 하면 소프트웨어 추적이 Lync에서 사용 됩니다. False로 설정 하면 소프트웨어 추적이 사용 되지 않습니다. 소프트웨어 추적은 API 통화 추적을 비롯하여 프로그램이 수행하는 모든 작업에 대한 자세한 기록을 유지합니다. 추적은 개발자와 응용 프로그램 지원 담당자에 게 대부분 유용 합니다. 이 설정은 Communications Server 2007 R2 그룹 정책 설정과 &quot; Communicator에 대 한 추적을 설정 하는 것과 동일 합니다. &quot; 설정은 다음과 같습니다.</p>
 <ul>
 <li><p>Off = 추적을 사용할 수 없고 사용자가 이 설정을 변경할 수 없습니다.</p></li>
 <li><p>Light = 최소한의 추적이 수행되고 사용자가 이 설정을 변경할 수 없습니다.</p></li>
@@ -77,7 +79,7 @@ _**마지막으로 수정 된 항목:** 2014-12-05_
 <tr class="odd">
 <td><p>AllowLargeMeetings</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>True로 설정 하면 모든 Lync 모임이 대규모 모임으로 &quot;취급 됩니다. &quot; 모임이 많은 경우에는 기본적으로 전송 되는 모임 명단의 크기 외에도 참석자에 게 전송 되는 알림 수에 제한이 적용 됩니다.</p></td>
+<td><p>True로 설정 하면 모든 Lync 모임이 대규모 모임으로 취급 됩니다 &quot; . &quot; 모임이 많은 경우에는 기본적으로 전송 되는 모임 명단의 크기 외에도 참석자에 게 전송 되는 알림 수에 제한이 적용 됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>DisablePowerPointAnnotations</p></td>
@@ -150,8 +152,8 @@ _**마지막으로 수정 된 항목:** 2014-12-05_
 <tr class="odd">
 <td><p>EnableSQMData</p></td>
 <td><p>Set-csclientpolicy</p></td>
-<td><p>EnableSQMData 매개 변수가 Lync Server 2013에서 제거 되었습니다. 대신 SQM(Software Quality Management) 데이터에 대한 공유 그룹 정책 설정을 사용하여 Lync 클라이언트 일반 옵션 페이지에 있는 사용자 환경 개선 옵션의 사용자 인터페이스를 확인할 수 있습니다.</p>
-<p>HKEY_CURRENT_USER \Software\Policies\Microsoft\Office\Common\QMEnable</p>
+<td><p>Set-CSClientPolicy cmdlet의 EnableSQMData 매개 변수는 Lync Server 2013에서 제거 되었습니다. 대신 SQM(Software Quality Management) 데이터에 대한 공유 그룹 정책 설정을 사용하여 Lync 클라이언트 일반 옵션 페이지에 있는 사용자 환경 개선 옵션의 사용자 인터페이스를 확인할 수 있습니다.</p>
+<p>HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</p>
 <p>값</p>
 <p>1 = 확인란을 선택하고 표시합니다(사용자가 확인란을 선택 취소할 수 있음)</p>
 <p>0 = 확인란을 선택 취소하고 비활성화합니다(사용자가 이를 무시할 수 없음)</p>

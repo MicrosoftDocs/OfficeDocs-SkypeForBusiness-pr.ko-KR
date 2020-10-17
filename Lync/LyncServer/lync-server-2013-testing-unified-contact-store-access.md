@@ -12,20 +12,22 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34dbf6ede9f58b39df1722e742511ee0844c41f7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5552c03ac18ddd373385674da03d872ce89eb585
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218294"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503905"
 ---
+# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Lync Server 2013에서 통합 연락처 저장소 액세스 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Lync Server 2013에서 통합 연락처 저장소 액세스 테스트
+
 
 </div>
 
@@ -78,9 +80,9 @@ Lync Server 2013에 도입 된 통합 연락처 저장소는 관리자에 게 Ly
 
 ## <a name="running-the-test"></a>테스트 실행
 
-다음 예에 나와 있는 명령은 통합 연락처 저장소에서 user litwareinc\\kenmyer 연락처를 찾을 수 있는지 여부를 결정 합니다. 이 작업을 수행 하기 위해 예제의 첫 번째 명령은 **Get-Credential** cmdlet을 사용 하 여 사용자 litwareinc\\Kenmyer에 대 한 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. 유효한 자격 증명 개체를 만들려면이 계정의 암호를 입력 하 고 **test-csunifiedcontactstore** cmdlet이 검사를 실행할 수 있는지 확인 해야 합니다.
+다음 예에 나와 있는 명령은 \\ 통합 연락처 저장소에서 user litwareinc kenmyer 연락처를 찾을 수 있는지 여부를 결정 합니다. 이 작업을 수행 하기 위해 예제의 첫 번째 명령은 **Get-Credential** cmdlet을 사용 하 여 사용자 litwareinc kenmyer에 대 한 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다 \\ . 유효한 자격 증명 개체를 만들려면이 계정의 암호를 입력 하 고 **test-csunifiedcontactstore** cmdlet이 검사를 실행할 수 있는지 확인 해야 합니다.
 
-예제의 두 번째 명령은 제공 된 자격 증명 개체 ($x)와 사용자 litwareinc\\KENMYER의 SIP 주소를 사용 하 여 해당 연락처를 통합 연락처 저장소에서 찾을 수 있는지 여부를 확인 합니다.
+예제의 두 번째 명령은 제공 된 자격 증명 개체 ($x)와 사용자 litwareinc kenmyer의 SIP 주소를 사용 하 여 해당 \\ 연락처를 통합 연락처 저장소에서 찾을 수 있는지 여부를 확인 합니다.
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

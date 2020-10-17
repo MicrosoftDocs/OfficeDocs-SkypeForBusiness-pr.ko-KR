@@ -12,20 +12,22 @@ ms:contentKeyID: 48184174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bc6266cdf81f4462adf82c5878bcc47a6060fdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2e982884e0e73a5315f0c6281876be225ccab6f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504165"
 ---
+# <a name="how-archiving-works-in-lync-server-2013"></a>Lync Server 2013에서 보관이 작동 하는 방식
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-archiving-works-in-lync-server-2013"></a>Lync Server 2013에서 보관이 작동 하는 방식
+
 
 </div>
 
@@ -77,15 +79,15 @@ Lync Server 2013 보관은 준수 요구 사항을 충족 하는 데 도움이 �
 
 보관은 서버를 배포할 때 각 프런트 엔드 서버에 자동으로 설치되지만 사용자가 구성하기 전까지는 사용하도록 설정되지 않습니다. 구성 방법은 보관의 배포 방법에 따라 결정됩니다.
 
-  - **Microsoft Exchange 통합을 사용 하 여 보관** Exchange 2013에 있는 사용자가 있고 해당 사서함이 원본 위치 유지 상태로 설정 되어 있는 경우 Lync Server 2013 저장소를 Exchange 저장소와 통합 하는 옵션을 선택할 수 있습니다. Microsoft Exchange 통합 옵션을 선택 하는 경우 Exchange 2013 정책 및 구성을 사용 하 여 해당 사용자에 대 한 Lync Server 2013 데이터 보관을 제어 합니다.
+  - **Microsoft Exchange 통합을 사용 하 여 보관** Exchange 2013에 있는 사용자가 있고 해당 사서함이 보존 In-Place 있는 경우 Lync Server 2013 storage with Exchange storage를 통합 하는 옵션을 선택할 수 있습니다. Microsoft Exchange 통합 옵션을 선택 하는 경우 Exchange 2013 정책 및 구성을 사용 하 여 해당 사용자에 대 한 Lync Server 2013 데이터 보관을 제어 합니다.
 
-  - **Lync Server 보관 데이터베이스를 사용 하 여 보관** Exchange 2013에 속하지 않았거나 사서함에 원본 위치 유지를 설정 하지 않았거나 배포의 모든 사용자에 대해 Microsoft Exchange 통합을 사용 하지 않으려는 경우 또는, SQL Server를 사용 하 여 Lync Server 보관 데이터베이스를 배포할 수 있습니다.  해당 사용자에 대 한 보관 데이터를 저장 합니다. 이 경우 Lync Server 2013 보관 정책 및 구성에서는 보관이 사용 되는지 여부와이를 구현 하는 방법을 결정 합니다. Lync Server 2013을 사용 하려면 적절 한 SQL Server 데이터베이스를 토폴로지에 추가 하 고 토폴로지를 게시 해야 합니다.
+  - **Lync Server 보관 데이터베이스를 사용 하 여 보관** Exchange 2013에 있지 않거나 사서함이 보존 In-Place에 포함 되지 않은 사용자가 있거나, 배포 환경의 모든 사용자에 대해 Microsoft Exchange 통합을 사용 하지 않으려는 경우 또는 해당 사용자에 대 한 보관 데이터를 저장 하기 위해 SQL Server를 사용 하 여 Lync Server 보관 데이터베이스를 배포할 수 있습니다. 이 경우 Lync Server 2013 보관 정책 및 구성에서는 보관이 사용 되는지 여부와이를 구현 하는 방법을 결정 합니다. Lync Server 2013을 사용 하려면 적절 한 SQL Server 데이터베이스를 토폴로지에 추가 하 고 토폴로지를 게시 해야 합니다.
 
 <div>
 
 ## <a name="archiving-setup-when-using-microsoft-exchange-integration"></a>Microsoft Exchange 통합을 사용 하는 경우 보관 설정
 
-사용자가 Exchange 2013에 있고 해당 사서함이 원본 위치 유지 상태로 설정 된 경우에는이 섹션의 뒷부분에 설명 된 **Microsoft Exchange 통합** 옵션을 선택 하 여 해당 사용자에 대 한 lync server 2013를 보관 한 다음 Exchange 원본 위치 유지 정책 및 설정을 지정 하 여 해당 사용자에 대 한 보관을 제어할 수 있으며, lync server 구성을 사용 하 여 다음을 제어할 수도 있습니다.
+사용자가 Exchange 2013에 있고 해당 사서함이 보존 In-Place에 있는 경우에는이 섹션 뒷부분에서 설명 하는 **Microsoft Exchange 통합** 옵션을 선택 하 여 해당 사용자에 대 한 lync server 2013를 보관 한 다음 Exchange In-Place 보류 정책 및 설정을 지정 하 여 해당 사용자에 대 한 보관을 제어할 수 있으며, Lync server 구성을 통해 다음을 제어할 수도 있습니다.
 
   - IM이나 회의 내용 또는 두 가지를 모두 보관할지 여부
 
@@ -93,7 +95,7 @@ Lync Server 2013 보관은 준수 요구 사항을 충족 하는 데 도움이 �
 
   - Microsoft Exchange 통합 옵션을 선택한 후 보관 된 데이터를 저장 하는 데 Exchange 2013을 사용 합니다.
 
-이러한 Lync Server 2013 보관 구성 옵션에 대해서는이 섹션 뒷부분에서 설명 합니다. 보관을 지원 하기 위해 Exchange 원본 위치 유지 정책 및 설정을 구성 하는 방법에 대 한 자세한 내용은 Exchange 2013 제품 설명서를 참조 하십시오.
+이러한 Lync Server 2013 보관 구성 옵션에 대해서는이 섹션 뒷부분에서 설명 합니다. 보관을 지원 하기 위해 Exchange In-Place 보류 정책 및 설정을 구성 하는 방법에 대 한 자세한 내용은 Exchange 2013 제품 설명서를 참조 하십시오.
 
 </div>
 
@@ -123,7 +125,7 @@ Lync Server 2013 보관 정책에는 다음이 포함 됩니다.
 
 
 > [!NOTE]  
-> Lync Server 2013 보관 데이터베이스를 모두 구현 하 고 Microsoft Exchange 통합을 사용 하도록 설정 하는 경우 Exchange 2013 정책은 Lync Server 보관 정책 보다 우선 하지만 Exchange 2013에 속해 있으며 사서함이 원본 위치 유지 상태로 설정 된 사용자 에게만 적용 됩니다. . Lync 보관은 Microsoft Exchange 원본 위치 유지 정책만 해당 됩니다.
+> Lync Server 2013 보관 데이터베이스를 모두 구현 하 고 Microsoft Exchange 통합을 사용 하도록 설정 하는 경우 Exchange 2013 정책은 Exchange 2013에 있는 사용자에 한 해 해당 사서함을 In-Place 보류 상태로 유지 한 상태에서 Lync Server 보관 정책을 재정의 합니다. Lync 보관은 Microsoft Exchange In-Place 보류 정책만 따릅니다.
 
 
 
@@ -167,7 +169,7 @@ Lync Server 2013 보관 정책에는 다음이 포함 됩니다.
     
 
     > [!NOTE]  
-    > Microsoft Exchange 통합을 사용 하도록 설정 하는 경우 Exchange 2013에 있는 사용자를 제거 하 고 해당 사서함을 원본 위치 유지에 사용 하는 경우 Exchange에서 제어 합니다. 유일한 자격 증명은 Lync Server 파일 공유에 저장 되는 회의 파일에 대 한 것입니다. 이러한 파일은 보관 데이터를 내보낸 후 데이터를 삭제하는 옵션을 선택하는 경우에는 파일을 내보내 해당 파일이 Exchange에 업로드된 후에, 그리고 최대 보존 기간(일)을 지정하는 경우에는 지정된 최대 기간(일) 후에 파일 공유에서 삭제됩니다.
+    > Microsoft Exchange 통합을 사용 하도록 설정 하는 경우 Exchange 2013에 있는 사용자에 대해 삭제 하 고 해당 사서함을 포함 하는 In-Place는 Exchange에서 제어 합니다. 유일한 자격 증명은 Lync Server 파일 공유에 저장 되는 회의 파일에 대 한 것입니다. 이러한 파일은 보관 데이터를 내보낸 후 데이터를 삭제하는 옵션을 선택하는 경우에는 파일을 내보내 해당 파일이 Exchange에 업로드된 후에, 그리고 최대 보존 기간(일)을 지정하는 경우에는 지정된 최대 기간(일) 후에 파일 공유에서 삭제됩니다.
 
     
     </div>
@@ -208,9 +210,9 @@ Lync Server 2013 관리 셸을 사용 하 여 cmdlet을 사용 하 여 Lync Serv
 
 보관된 데이터에 대한 액세스는 데이터가 저장된 위치에 따라 달라집니다.
 
-  - **Microsoft Exchange 저장소** Exchange 통합 옵션을 선택 하면 Lync Server는 exchange 2013에 있는 모든 사용자에 대해 exchange 2013 저장소의 보관 콘텐츠를 저축금과 하 고 사서함이 원본 위치 유지 상태로 설정 된 경우를 담당 합니다. 보관 된 데이터는 사용자에 게 표시 되지 않으며 Exchange **검색 관리** 역할을 가진 사용자만 검색할 수 있도록 하는 User 사서함 복구 가능한 항목 폴더에 저장 됩니다. Exchange에서는 연결 된 검색 및 검색과 SharePoint (배포 된 경우)를 함께 사용 하도록 설정 합니다. Exchange에 저장 된 데이터의 저장, 보존 및 검색에 대 한 자세한 내용은 Exchange 2013 및 SharePoint 설명서를 참조 하세요.
+  - **Microsoft Exchange 저장소** Exchange 통합 옵션을 선택 하면 Lync Server는 exchange 2013에 있는 모든 사용자의 Exchange 2013 저장소에 있는 보관 콘텐츠를 저축금과 해당 사서함이 보류 된 In-Place 보존 합니다. 보관 된 데이터는 사용자에 게 표시 되지 않으며 Exchange **검색 관리** 역할을 가진 사용자만 검색할 수 있도록 하는 User 사서함 복구 가능한 항목 폴더에 저장 됩니다. Exchange에서는 연결 된 검색 및 검색과 SharePoint (배포 된 경우)를 함께 사용 하도록 설정 합니다. Exchange에 저장 된 데이터의 저장, 보존 및 검색에 대 한 자세한 내용은 Exchange 2013 및 SharePoint 설명서를 참조 하세요.
 
-  - **Lync Server 저장소**. Lync server 데이터 저장용 lync server 2013 보관 데이터베이스를 설정 하는 경우 lync Server 저축금과 Exchange 2013에 포함 되지 않은 모든 사용자에 대 한 Lync Server 보관 데이터베이스 (SQL Server 데이터베이스)의 콘텐츠를 보관 합니다. 원본 위치 유지 이 데이터는 검색할 수 없지만 다른 도구를 사용해서 검색할 수 있는 형식으로 내보낼 수 있습니다. 보관 데이터베이스에 저장 된 데이터를 내보내는 방법에 대 한 자세한 내용은 작업 설명서에서 [Lync Server 2013에서 보관 된 데이터 내보내기를](lync-server-2013-exporting-archived-data.md) 참조 하십시오.
+  - **Lync Server 저장소**. Lync server 데이터 저장용 lync server 2013 보관 데이터베이스를 설정 하는 경우 lync Server 저축금과는 Exchange 2013에 포함 되지 않은 사용자에 대 한 Lync Server 보관 데이터베이스 (SQL Server 데이터베이스)의 콘텐츠를 보관 하 고 사서함을 In-Place 보류 상태로 두지 않은 상태를 유지 합니다. 이 데이터는 검색할 수 없지만 다른 도구를 사용해서 검색할 수 있는 형식으로 내보낼 수 있습니다. 보관 데이터베이스에 저장 된 데이터를 내보내는 방법에 대 한 자세한 내용은 작업 설명서에서 [Lync Server 2013에서 보관 된 데이터 내보내기를](lync-server-2013-exporting-archived-data.md) 참조 하십시오.
 
 Lync Server 2013 및 Exchange 2013가 함께 작동 하는 방식에 대 한 자세한 내용은 지원 가능성 설명서에서 [Lync server 2013의 Exchange server 및 SharePoint 통합 지원](lync-server-2013-exchange-and-sharepoint-integration-support.md) (영문)을 참조 하십시오.
 

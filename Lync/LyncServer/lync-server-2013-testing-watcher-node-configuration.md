@@ -12,20 +12,22 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d5b73b0c56aa2f1ce4a0db2925354dd658ec2f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a52b251f238b8d79602e5fe1bf2803902cbae23f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193691"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503815"
 ---
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Lync Server 2013에서 감시자 노드 구성 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Lync Server 2013에서 감시자 노드 구성 테스트
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2014-11-03_
 
 ## <a name="description"></a>설명
 
-Microsoft System Center Operations Manager를 사용 하 여 Lync Server 2013을 모니터링 하는 경우 "감시자 노드"를 설정 하는 옵션을 사용할 수 있습니다 (주기적으로, 자동으로 실행 되는 컴퓨터). 하지만. 감시자 노드는 풀에 할당 되며 **get-cswatchernodeconfiguration** cmdlet을 사용 하 여 관리 됩니다. System Center Operations Manager를 사용 중이라면 감시자 노드를 설치할 필요가 없습니다. 감시자 노드를 사용 하지 않고도 시스템을 모니터링할 수 있습니다. 유일한 차이점은 실행 하려는 가상 트랜잭션은 Operations Manager에서 자동으로 호출 하지 않고 수동으로 호출 해야 한다는 것입니다.
+Microsoft System Center Operations Manager를 사용 하 여 Lync Server 2013을 모니터링 하는 경우에는 정기적으로 수행 되는 컴퓨터의 "감시자 노드"를 설정 하 고, 가상 트랜잭션을 실행 하 여 Lync Server가 예상 대로 작동 하는지 확인 하는 옵션을 사용할 수 있습니다. 감시자 노드는 풀에 할당 되며 **get-cswatchernodeconfiguration** cmdlet을 사용 하 여 관리 됩니다. System Center Operations Manager를 사용 중이라면 감시자 노드를 설치할 필요가 없습니다. 감시자 노드를 사용 하지 않고도 시스템을 모니터링할 수 있습니다. 유일한 차이점은 실행 하려는 가상 트랜잭션은 Operations Manager에서 자동으로 호출 하지 않고 수동으로 호출 해야 한다는 것입니다.
 
 **Get-cswatchernodeconfiguration** cmdlet을 사용 하면 감시자 노드가 올바르게 구성 되어 있고 유효한 Lync Server 2013 풀에 할당 되어 있는지 확인할 수 있습니다. **Get-cswatchernodeconfiguration** cmdlet은 감시자 노드 자체에서 실행 되어야 합니다. 원격 컴퓨터에 대해 cmdlet을 실행할 수 없습니다.
 
@@ -122,9 +124,9 @@ Microsoft System Center Operations Manager를 사용 하 여 Lync Server 2013을
 
 먼저. 검색 된 오류가 있으면 인쇄 됩니다.
 
-Get-cswatchernodeconfiguration:에서 Health 레지스트리 키를 찾을 수 없음
+Test-CsWatcherNodeConfiguration:에서 Health 레지스트리 키를 찾을 수 없음
 
-소프트웨어\\Microsoft\\실시간 통신 감시자 노드가 있는지 확인
+소프트웨어 \\ Microsoft \\ 실시간 통신 감시자 노드가 있는지 확인
 
 올바르게 설치 됩니다.
 

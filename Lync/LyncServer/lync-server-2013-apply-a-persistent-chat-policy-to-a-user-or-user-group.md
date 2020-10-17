@@ -12,20 +12,22 @@ ms:contentKeyID: 48184652
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e05c9ec8aae5f0966e5e5dd8c8a575685cbaf64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: af7eeba1070f0bef199ea18112eea3b84414bd42
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204474"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504945"
 ---
+# <a name="apply-a-persistent-chat-policy-to-a-user-or-user-group-in-lync-server-2013"></a>Lync Server 2013의 사용자 또는 사용자 그룹에 영구 채팅 정책 적용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="apply-a-persistent-chat-policy-to-a-user-or-user-group-in-lync-server-2013"></a>Lync Server 2013의 사용자 또는 사용자 그룹에 영구 채팅 정책 적용
+
 
 </div>
 
@@ -69,7 +71,7 @@ _**마지막으로 수정 된 항목:** 2012-10-06_
     
 
     > [!NOTE]  
-    > 자동 설정은 기본 유효 정책을 적용 합니다. <STRONG> &lt;&gt; </STRONG> 이러한 설정은 서버에 의해 자동으로 적용됩니다.
+    > <STRONG> &lt; 자동 &gt; </STRONG> 설정은 기본 유효 정책을 적용 합니다. 이러한 설정은 서버에 의해 자동으로 적용됩니다.
 
     
     </div>

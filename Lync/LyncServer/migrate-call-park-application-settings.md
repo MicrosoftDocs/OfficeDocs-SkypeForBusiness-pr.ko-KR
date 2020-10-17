@@ -12,20 +12,22 @@ ms:contentKeyID: 49733583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2789a8a83c8f3ee831fb91c85999d936ea54dd8b
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f63b91c6a742310d14031bdadc28cbc6ca57e115
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757009"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503565"
 ---
+# <a name="migrate-call-park-application-settings"></a>통화 대기 응용 프로그램 설정 마이그레이션
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-call-park-application-settings"></a>통화 대기 응용 프로그램 설정 마이그레이션
+
 
 </div>
 
@@ -66,7 +68,7 @@ Lync server 2010에서 Lync Server 2013로의 통화 대기 응용 프로그램 
     
     </div>
     ```powershell
-        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold" <LS2010 CPS TimeSpan> "-enablemusiconhold" <LS2010 CPS value> "-MaxCallPickupAttempts" <LS2010 CPS pickup attempts> "-ontimeouturi" <LS2010 CPS timeout URI> "```
+        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold" <LS2010 CPS TimeSpan> "-enablemusiconhold" <LS2010 CPS value> "-MaxCallPickupAttempts" <LS2010 CPS pickup attempts> "-ontimeouturi" <LS2010 CPS timeout URI> " ```
 
 Lync server 2010 풀의 모든 통화 대기 번호 범위를 Lync Server 2013 풀로 다시 할당 하려면 Lync Server 제어판 또는 Lync Server 관리 셸을 사용할 수 있습니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5857e979b48dd3fee5f19016a7109eb15584b83f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33aa0447c90ea9c76a1956cb817f0e61ce0d626e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193951"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504045"
 ---
+# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Lync Server 2013에서 PSTN 피어 통화 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Lync Server 2013에서 PSTN 피어 통화 테스트
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우에는 사용자에 게 테스트-CsPstnPeerToPeerCall cmdlet을 실행할 수 있는 권한이 있는 RBAC 역할을 할당 받아야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsPstnPeerToPeerCall cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnPeerToPeerCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="description"></a>설명
 
-테스트-CsPstnPeerToPeerCall cmdlet은 사용자 쌍이 공중 전화망 (PSTN) 게이트웨이에서 피어 투 피어 통화를 수행 해야 하는 기능을 확인 합니다. 테스트-CsPstnPeerToPeerCall을 호출 하면 cmdlet은 먼저 두 테스트 사용자의 로그온을 Lync Server에 시도 합니다. 로그온이 성공 했다고 가정 하면 cmdlet은 사용자 1이 PSTN 게이트웨이를 통해 사용자 2에 게 전화를 걸기를 시도 합니다. 테스트-Cspstnpeertop이 통화는 다이얼 플랜, 음성 정책 및 테스트 사용자에 게 할당 된 기타 정책 및 구성 설정을 사용 하 여이 통화를 수행 합니다. 테스트를 계획 한 대로 진행 하는 경우 cmdlet은 사용자 2가 통화에 응답할 수 있는지 확인 한 다음 시스템에서 두 테스트 계정을 모두 로그 오프 합니다.
+Test-CsPstnPeerToPeerCall cmdlet은 사용자 쌍이 PSTN (공중 전화망) 게이트웨이를 통해 피어 투 피어 통화를 수행 해야 하는 기능을 확인 합니다. 테스트-CsPstnPeerToPeerCall을 호출 하면 cmdlet은 먼저 두 테스트 사용자의 로그온을 Lync Server에 시도 합니다. 로그온이 성공 했다고 가정 하면 cmdlet은 사용자 1이 PSTN 게이트웨이를 통해 사용자 2에 게 전화를 걸기를 시도 합니다. Test-CsPstnPeerToPeerCall는 다이얼 플랜, 음성 정책 및 테스트 사용자에 게 할당 된 기타 정책 및 구성 설정을 사용 하 여이 통화를 수행 합니다. 테스트를 계획 한 대로 진행 하는 경우 cmdlet은 사용자 2가 통화에 응답할 수 있는지 확인 한 다음 시스템에서 두 테스트 계정을 모두 로그 오프 합니다.
 
-테스트-CsPstnPeerToPeerCall은 연결을 설정할 수 있는지 확인 하 고 네트워크를 통해 DTMF 코드를 전송 하 여 연결을 통해 미디어를 전송할 수 있는지 여부를 확인 하는 실제 전화 통화를 수행 합니다. 이 호출은 cmdlet 자체에 의해 응답 되며, 통화를 수동으로 종료 해야 하는 것은 아닙니다. 즉, 아무도 전화를 받은 다음 통화를 중단 해야 합니다.
+Test-CsPstnPeerToPeerCall는 실제 전화 통화를 수행 하며,이를 통해 연결이 가능한 지 확인 하 고 네트워크를 통해 DTMF 코드를 전송 하 여 미디어를 연결을 통해 전송할 수 있는지 여부를 확인할 수 있습니다. 이 호출은 cmdlet 자체에 의해 응답 되며, 통화를 수동으로 종료 해야 하는 것은 아닙니다. 즉, 아무도 전화를 받은 다음 통화를 중단 해야 합니다.
 
 </div>
 
@@ -76,7 +78,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="running-the-test"></a>테스트 실행
 
-테스트-CsPstnPeerToPeerCall cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예:
+Test-CsPstnPeerToPeerCall cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예제:
 
 `Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com"`
 
@@ -122,11 +124,11 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 이전 출력에서는 지정 된 사용자 중 하나 이상에 게 할당 된 음성 정책에 전화 사용이 포함 되지 않아 테스트가 실패 했다는 것을 나타냅니다. 전화 용도가 음성 경로에 음성 정책을 연결 합니다. 음성 정책 및 해당 하는 음성 경로를 모두 사용 하지 않으면 PSTN을 통해 전화를 걸 수 없습니다.
 
-테스트-CsPstnPeerToPeerCall에 실패 한 경우 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
+Test-CsPstnPeerToPeerCall 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
 
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose 매개 변수가 포함 된 경우 테스트-CsPstnPeerToPeerCall은 지정 된 사용자가 Lync Server에 로그온 할 수 있는 기능을 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예를 들어 다음 출력은 네트워크 문제로 인해 PSTN과의 연결이 차단 됨을 나타냅니다.
+Verbose 매개 변수를 포함 하면 Test-CsPstnPeerToPeerCall는 지정 된 사용자가 Lync Server에 로그온 할 수 있는지 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예를 들어 다음 출력은 네트워크 문제로 인해 PSTN과의 연결이 차단 됨을 나타냅니다.
 
 오디오 화상 통화를 ' sip: + 12065551219@litwareinc .com, user = phone '으로 설정 합니다.
 
@@ -138,7 +140,7 @@ Verbose 매개 변수가 포함 된 경우 테스트-CsPstnPeerToPeerCall은 지
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-테스트-CsPstnPeerToPeerCall이 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.
+Test-CsPstnPeerToPeerCall 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.
 
   - 잘못 된 사용자 계정을 지정 했습니다. 다음과 같은 명령을 실행 하 여 사용자 계정이 있는지 확인할 수 있습니다.
     

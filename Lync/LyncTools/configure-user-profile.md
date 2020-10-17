@@ -12,20 +12,22 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6615e283e0e426e738cd3cdaf714dd90f57b393e
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 63e00301a01920cc836ccc4d227952de4e9a4c78
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755502"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505265"
 ---
+# <a name="configure-user-profile"></a>사용자 프로필 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-user-profile"></a>사용자 프로필 구성
+
 
 </div>
 
@@ -181,7 +183,7 @@ Lync Server 2013 부하 구성 도구의 **음성 시나리오** 탭이 다음 �
 
 ## <a name="reach"></a>지원함
 
-은 프런트 엔드 서버에 설치 된 통합 커뮤니케이션 웹 API (WA) 서버를 통해 회의 시나리오를 지 원하는 Lync Server 2013의 새로운 환경입니다. Lync Server 2013 부하 구성 도구의 **Reach** 탭은 다음 그림에 나와 있습니다.
+Front-End 서버에 설치 된 통합 커뮤니케이션 웹 API (WA) 서버를 통해 회의 시나리오를 지 원하는 Lync Server 2013의 새로운 환경입니다. Lync Server 2013 부하 구성 도구의 **Reach** 탭은 다음 그림에 나와 있습니다.
 
 **Reach 탭을** 사용 하 여 모든 관련 시나리오를 구성 합니다.
 

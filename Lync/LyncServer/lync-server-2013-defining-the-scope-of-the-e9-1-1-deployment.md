@@ -12,20 +12,22 @@ ms:contentKeyID: 48183707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed4a5fb3e34192aab9c94d72a3bc79b733828e3e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27d280580f4d9cae1f6240b554be760d1689daa3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208904"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504485"
 ---
+# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>Lync Server 2013에서 E9-1-1 배포 범위 정의
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>Lync Server 2013에서 E9-1-1 배포 범위 정의
+
 
 </div>
 
@@ -61,7 +63,7 @@ E9-1-1에 대해 Microsoft Lync Server 2013을 구성 하기 전에 E9-1-1 배�
     
 
     > [!NOTE]  
-    > VPN을 사용 하 여 조직의 네트워크에 연결 하는 사용자의 Lync 클라이언트는 내부 IP 주소 정보를 선택할 수 있지만, 이러한 주소는 사용자의 실제 위치를 식별 하는 데 사용할 수 없기 때문에, VPN 서브넷은 위치 정보 서비스
+    > VPN을 사용 하 여 조직의 네트워크에 연결 하는 사용자의 Lync 클라이언트는 내부 IP 주소 정보를 선택할 수 있지만, 이러한 주소는 사용자의 실제 위치를 식별 하는 데 사용할 수 없기 때문에, VPN 서브넷은 위치 정보 서비스에서 제외 된다는 것이 중요 합니다.
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64c164f24f0f2c140a140b7343dd526979cc2bff
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8bdb3b556f5b9a8d552a3c48e300b8c4b7b19f5f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208924"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504525"
 ---
+# <a name="defining-the-location-policy-for-lync-server-2013"></a>Lync Server 2013에 대 한 위치 정책 정의
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-location-policy-for-lync-server-2013"></a>Lync Server 2013에 대 한 위치 정책 정의
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2012-10-29_
 <!-- end list -->
 
   - **위치 필요**  
-    이 설정은 **긴급 서비스 사용** 이 **예/y e s**로 설정 된 경우에만 사용 됩니다.
+    이 설정은 **긴급 서비스 사용**   이 **예/y e s**로 설정 된 경우에만 사용 됩니다.
     
     **위치 필요** 설정을 구성하여 클라이언트 동작을 정의할 수 있습니다. 이 값을 **아니요**로 지정하면 사용자에게 위치를 입력하라는 메시지가 표시되지 않습니다. 반면 **예**로 지정하면 사용자에게 위치를 입력하라는 해제 가능한 메시지가 표시됩니다. 이 값을 **고지 사항**으로 지정하면 사용자에게 위치를 입력하라는 메시지가 표시되며, 메시지를 해제할 때도 고지 사항이 표시됩니다. 어느 옵션을 선택해도 사용자는 클라이언트를 계속 사용할 수 있습니다.
     
@@ -81,7 +83,7 @@ _**마지막으로 수정 된 항목:** 2012-10-29_
     
 
     > [!NOTE]  
-    > 조직에서 외부 회선 액세스 접두사를 사용 하지 않는 경우 Lync 풀 서버의 아웃 바운드 라우팅에 대 한 호출을 보내기 전에 911 문자열에 "+"를 추가 하는 해당 다이얼 플랜 정규화 규칙을 만들 필요가 없습니다. 위치 정책의 결과로 Lync 클라이언트에서 "+"가 자동으로 앞에 놓이게 됩니다. 그러나 사이트에서 외부 액세스 접두사를 사용 하는 경우에는 외부 액세스 접두사를 제거 하 고 "+"를 추가 하는 해당 다이얼 플랜 정책에 정규화 규칙을 추가 해야 합니다. 예를 들어 위치에서 외부 액세스 접두사 9를 사용 하 고 사용자가 응급 통화를&nbsp;시작 하기 위해 9 911을 전화를 걸고 있으면 클라이언트는 전화 걸기 번호를 사용 하 여이를 + 911로 정규화 한 후 발신자의 위치 프로필에 있는 경로에 의해이 번호가 계산 됩니다.
+    > 조직에서 외부 회선 액세스 접두사를 사용 하지 않는 경우 Lync 풀 서버의 아웃 바운드 라우팅에 대 한 호출을 보내기 전에 911 문자열에 "+"를 추가 하는 해당 다이얼 플랜 정규화 규칙을 만들 필요가 없습니다. 위치 정책의 결과로 Lync 클라이언트에서 "+"가 자동으로 앞에 놓이게 됩니다. 그러나 사이트에서 외부 액세스 접두사를 사용 하는 경우에는 외부 액세스 접두사를 제거 하 고 "+"를 추가 하는 해당 다이얼 플랜 정책에 정규화 규칙을 추가 해야 합니다. 예를 들어 위치에서 외부 액세스 접두사 9를 사용 하 고 사용자가 응급 통화를 시작 하기 위해 9 911을 전화를 걸고 있으면 &nbsp; 클라이언트는 전화 걸기 번호를 사용 하 여이를 + 911로 정규화 한 후 발신자의 위치 프로필에 있는 경로에 의해이 번호가 계산 됩니다.
 
     
     </div>

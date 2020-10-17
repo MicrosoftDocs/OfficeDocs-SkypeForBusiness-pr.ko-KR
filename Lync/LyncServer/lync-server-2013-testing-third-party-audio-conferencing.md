@@ -12,20 +12,22 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e55661d2d28052f7672798059d458563ab5c8d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51f728bfb5617185bdd9a1ef3b5f21b3e12ca61f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503935"
 ---
+# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Lync Server 2013에서 타사 오디오 회의 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Lync Server 2013에서 타사 오디오 회의 테스트
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2014-11-01_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 Test-csaudioconferencingprovider cmdlet을 실행 하는 권한이 있는 RBAC 역할을 사용자에 게 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsAudioConferencingProvider cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAudioConferencingProvider&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -82,9 +84,9 @@ _**마지막으로 수정 된 항목:** 2014-11-01_
 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com 
 
-예제 2에 표시 된 명령은 특정 사용자 (litwareinc\\kenmyer)가 자신의 오디오 회의 공급자에 연결 하는 기능을 테스트 합니다. 이 작업을 수행 하기 위해이 예제의 첫 번째 명령은 Get-Credential cmdlet을 사용 하 여 사용자 Ken Myer의 이름과 암호가 포함 된 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. (로그온 이름 litwareinc\\kenmyer가 매개 변수로 포함 되었기 때문에 Windows PowerShell 자격 증명 요청 대화 상자에는 관리자만 Ken Myer 계정의 암호를 입력 해야 합니다.) 결과 자격 증명 개체는 $credential 라는 변수에 저장 됩니다.
+예제 2에 표시 된 명령은 특정 사용자 (litwareinc \\ kenmyer)가 자신의 오디오 회의 공급자에 연결 하는 기능을 테스트 합니다. 이 작업을 수행 하기 위해이 예제의 첫 번째 명령은 Get-Credential cmdlet을 사용 하 여 사용자 Ken Myer의 이름과 암호가 포함 된 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. (로그온 이름 litwareinc \\ kenmyer가 매개 변수로 포함 되었기 때문에 Windows PowerShell 자격 증명 요청 대화 상자에는 관리자만 Ken Myer 계정의 암호를 입력 해야 합니다.) 결과 자격 증명 개체는 $credential 라는 변수에 저장 됩니다.
 
-두 번째 명령은 이 사용자가 오디오 회의 공급자에 연결할 수 있는지 확인합니다. 이 작업을 수행 하기 위해 Test-csaudioconferencingprovider cmdlet은 세 개의 매개 변수, 즉 TargetFqdn (등록자 풀의 FQDN)과 함께 호출 됩니다. UserCredential (Ken Myer의 사용자 자격 증명을 포함 하는 Windows PowerShell 개체) 및 UserSipAddress (제공 된 사용자 자격 증명에 해당 하는 SIP 주소)
+두 번째 명령은 이 사용자가 오디오 회의 공급자에 연결할 수 있는지 확인합니다. 이 작업을 수행 하기 위해 Test-CsAudioConferencingProvider cmdlet은 세 개의 매개 변수, 즉 TargetFqdn (등록자 풀의 FQDN)과 함께 호출 됩니다. UserCredential (Ken Myer의 사용자 자격 증명을 포함 하는 Windows PowerShell 개체) 및 UserSipAddress (제공 된 사용자 자격 증명에 해당 하는 SIP 주소)
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -121,7 +123,7 @@ _**마지막으로 수정 된 항목:** 2014-11-01_
 
 연결 된 호스트에서 연결이 실패 했습니다.
 
-2001:4898 \[: e8: f39e: 5c9a: ad83:81b3:9944\]: 5061을 응답 하지 못했습니다.
+\[2001:4898: e8: f39e: 5c9a: ad83:81b3:9944 \] : 5061을 응답 하지 못했습니다.
 
 내부 예외:
 
@@ -131,7 +133,7 @@ _**마지막으로 수정 된 항목:** 2014-11-01_
 
 응답 하지 못했습니다.
 
-\[2001:4898: e8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+\[2001:4898: e8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 진단을
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89a8969924acdf8268f059ae3b3660b70ca1dca7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3150d56bbd4935d6139c8584fcd69d721056317e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217060"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505385"
 ---
+# <a name="new-archiving-features-in-lync-server-2013"></a>Lync Server 2013의 새로운 보관 기능
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-archiving-features-in-lync-server-2013"></a>Lync Server 2013의 새로운 보관 기능
+
 
 </div>
 
@@ -47,13 +49,13 @@ Lync Server 2013의 보관은 다음과 같은 유형의 콘텐츠를 보관할 
 
 또한 Lync Server 2013의 보관은 배포 및 작업 효율성을 향상 시키는 새로운 기능을 제공 합니다. 이러한 새 기능은 다음과 같습니다.
 
-  - **프런트 엔드 서버에서 보관 위치입니다.**    Lync Server 2013에는 별도의 보관 서버 역할이 없습니다. 보관은 Enterprise Edition 배포의 모든 프런트 엔드 서버와 풀 또는 사이트에 대해 구성하여 구현될 수 있는 Standard Edition Server에서 사용할 수 있는 선택적 기능입니다.
+  - **프런트 엔드 서버에서 보관 위치입니다.**     Lync Server 2013에는 별도의 보관 서버 역할이 없습니다. 보관은 Enterprise Edition 배포의 모든 프런트 엔드 서버와 풀 또는 사이트에 대해 구성하여 구현될 수 있는 Standard Edition Server에서 사용할 수 있는 선택적 기능입니다.
 
-  - **Microsoft Exchange 통합**    보관을 배포할 때는 데이터 저장소를 exchange 2013에 있는 모든 사용자의 기존 Exchange 2013 저장소와 통합 하 고 해당 사서함을 원본 위치 유지 상태로 설정 하 여 Lync 데이터를 보관 하기 위해 별도의 SQL Server 데이터베이스를 배포할 필요가 없도록 할 수 있습니다. Exchange 2013 배포가 없거나 해당 사서함과 통합 하지 않으려는 경우 또는 Exchange 2013에 포함 되지 않은 Lync 2013 사용자가 있는 경우에는 SQL Server를 사용 하 여 stor에 별도의 보관 데이터베이스를 배포할 수 있습니다. e Lync communications에서 데이터를 보관 합니다. 배포의 일부 사용자에 대해서만 Microsoft Exchange 통합을 사용 하려는 경우 Microsoft Exchange 통합 및 Lync Server 2013 보관 데이터베이스를 모두 사용할 수 있습니다. 원본 위치 유지에 대 한 자세한 내용은의 "원본 위치 유지"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500)하세요.
+  - **Microsoft Exchange 통합**     보관을 배포할 때는 데이터 저장소를 Exchange 2013에 있는 모든 사용자의 기존 Exchange 2013 저장소와 통합 하 여 보관할 수 In-Place 있으며, 별도의 SQL Server 데이터베이스를 배포 하 여 Lync 데이터를 보관할 필요가 없습니다. Exchange 2013 배포가 없거나 해당 사서함과 통합 하지 않으려는 경우 또는 Exchange 2013에 포함 되지 않은 Lync 2013 사용자가 있는 경우에는 (이) In-Place 유지 하려면 SQL Server를 사용 하 여 Lync communications에서 보관 된 데이터를 저장 하는 별도의 보관 데이터베이스를 배포 하면 됩니다. 배포의 일부 사용자에 대해서만 Microsoft Exchange 통합을 사용 하려는 경우 Microsoft Exchange 통합 및 Lync Server 2013 보관 데이터베이스를 모두 사용할 수 있습니다. In-Place 보존에 대 한 자세한 내용은의 "원본 위치 유지"를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500) .
 
-  - **SQL 저장소 미러링**    보관을 배포할 때 보관 데이터베이스에 대해 SQL Server 데이터베이스 미러링을 사용 하도록 설정할 수 있습니다.
+  - **SQL 저장소 미러링**     보관을 배포할 때 보관 데이터베이스에 대해 SQL Server 데이터베이스 미러링을 사용 하도록 설정할 수 있습니다.
 
-  - **화이트 보드 및 설문 조사 보관**    보관 된 회의 콘텐츠는 이제 모임 중 공유 되는 화이트 보드 및 설문 조사를 포함 합니다.
+  - **화이트 보드 및 설문 조사 보관**     보관 된 회의 콘텐츠는 이제 모임 중 공유 되는 화이트 보드 및 설문 조사를 포함 합니다.
 
 보관되지 않는 콘텐츠 유형은 다음과 같습니다.
 

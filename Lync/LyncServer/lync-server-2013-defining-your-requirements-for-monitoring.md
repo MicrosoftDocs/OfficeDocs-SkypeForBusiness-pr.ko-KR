@@ -12,20 +12,22 @@ ms:contentKeyID: 48185491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a155f19f134506a4e592de18d03a7812c16dcbab
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f116fec331c252934c42e624c36813218d8f9ca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504325"
 ---
+# <a name="defining-your-requirements-for-monitoring-in-lync-server-2013"></a>Lync Server 2013에서 모니터링에 대 한 요구 사항 정의
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-monitoring-in-lync-server-2013"></a>Lync Server 2013에서 모니터링에 대 한 요구 사항 정의
+
 
 </div>
 

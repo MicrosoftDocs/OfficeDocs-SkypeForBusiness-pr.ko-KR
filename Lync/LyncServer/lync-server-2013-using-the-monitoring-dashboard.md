@@ -12,20 +12,22 @@ ms:contentKeyID: 49733839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 697023ef7c93191cbe13aa0abf4c175240e70ae9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91efa1e0431c86fa1918473d01021f68e4dc16b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503745"
 ---
+# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a>Lync Server 2013에서 모니터링 대시보드 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a>Lync Server 2013에서 모니터링 대시보드 사용
+
 
 </div>
 
@@ -75,7 +77,7 @@ _**마지막으로 수정 된 항목:** 2014-02-05_
 
   - 평균 오디오 세션 시간(분)
 
-**전화**
+**회의**
 
   - 총 전화 회의
 
@@ -135,7 +137,7 @@ _**마지막으로 수정 된 항목:** 2014-02-05_
 
   - 응용 프로그램 공유 실패율
 
-전화
+회의
 
   - 총 실패
 
@@ -163,7 +165,7 @@ _**마지막으로 수정 된 항목:** 2014-02-05_
 
   - 저품질 PSTN 통화
 
-전화
+회의
 
   - 총 저품질 통화
 

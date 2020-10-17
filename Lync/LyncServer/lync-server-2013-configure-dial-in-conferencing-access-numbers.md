@@ -12,20 +12,22 @@ ms:contentKeyID: 48185623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11ca47596106a3c2a6395f90ccaab2905c1a4599
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 83c7069db95d36e79d74cea81faf3aa98685832f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204904"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504775"
 ---
+# <a name="configure-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Lync Server 2013에서 전화 접속 회의 액세스 번호 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Lync Server 2013에서 전화 접속 회의 액세스 번호 구성
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2011-07-17_
 
 
 > [!NOTE]  
-> 해당 액세스 번호의 AD&nbsp;DS (Active Directory 도메인 서비스) 복제가 완료 될 때까지 새 전화 접속 액세스 번호를 사용할 수 없습니다. 복제 작업은 몇 시간이 소요될 수 있습니다.
+> 해당 액세스 번호의 AD DS (Active Directory 도메인 서비스) 복제가 완료 될 때까지 새 전화 접속 액세스 번호를 사용할 수 없습니다 &nbsp; . 복제 작업은 몇 시간이 소요될 수 있습니다.
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2177e4fce4d32bb2dc6c82e1f3fecae367eb2543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c1980d66649ff465ad251d5b95a9642e5bcd43c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193961"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504075"
 ---
+# <a name="testing-persistent-chat-in-lync-server-2013"></a>Lync Server 2013에서 영구 채팅 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-persistent-chat-in-lync-server-2013"></a>Lync Server 2013에서 영구 채팅 테스트
+
 
 </div>
 
@@ -74,7 +76,7 @@ _**마지막으로 수정 된 항목:** 2014-11-03_
 
 ## <a name="running-the-test"></a>테스트 실행
 
-다음 예에 표시 된 명령은 litwareinc\\pilar 및 litwareinc\\kenmyer) 사용자 쌍이 Lync Server 2013에 로그온 한 다음 영구 채팅 서비스를 사용 하 여 메시지를 교환 하는 기능을 테스트 합니다. 이 작업을 수행 하기 위해이 예제의 첫 번째 명령은 **Get-Credential** cmdlet을 사용 하 여 User Pilar Ackerman의 이름과 암호가 포함 된 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. (로그온 이름, litwareinc\\pilar가 매개 변수로 포함 되었기 때문에 Windows PowerShell 자격 증명 요청 대화 상자에만 관리자가 Pilar Ackerman 계정의 암호를 입력 하면 됩니다.) 그런 다음 결과 credentials 개체가 $cred 1 이라는 변수에 저장 됩니다. 두 번째 명령도 같은 작업을 수행하지만 이번에는 Ken Myer 계정의 자격 증명 개체를 반환합니다.
+다음 예에 표시 된 명령은 litwareinc \\ pilar 및 litwareinc kenmyer) 사용자 쌍이 \\ Lync Server 2013에 로그온 한 다음 영구 채팅 서비스를 사용 하 여 메시지를 교환 하는 기능을 테스트 합니다. 이 작업을 수행 하기 위해이 예제의 첫 번째 명령은 **Get-Credential** cmdlet을 사용 하 여 User Pilar Ackerman의 이름과 암호가 포함 된 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. (로그온 이름, litwareinc pilar가 \\ 매개 변수로 포함 되었기 때문에 Windows PowerShell 자격 증명 요청 대화 상자에만 관리자가 Pilar Ackerman 계정의 암호를 입력 하면 됩니다.) 그런 다음 결과 credentials 개체가 $cred 1 이라는 변수에 저장 됩니다. 두 번째 명령도 같은 작업을 수행하지만 이번에는 Ken Myer 계정의 자격 증명 개체를 반환합니다.
 
 Credential 개체를 사용 하는 경우 세 번째 명령은 영구 채팅을 사용 하 여 이러한 두 사용자가 Lync Server 2013에 로그온 할 수 있는지 여부와 exchange 메시지를 확인 합니다. 이 작업을 수행 하려면 다음 매개 변수를 사용 하 여 **test-cspersistentchatmessage** cmdlet을 호출 합니다. targetfqdn (등록자 풀의 FQDN) SenderSipAddress (첫 번째 테스트 사용자의 SIP 주소) SenderCredential (이 사용자에 대 한 자격 증명이 포함 된 Windows PowerShell 개체) ReceiverSipAddress (다른 테스트 사용자의 SIP 주소); 및 변수와 (다른 테스트 사용자에 대 한 자격 증명이 포함 된 Windows PowerShell 개체)
 
@@ -127,7 +129,7 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 연결 된 호스트에서 연결이 실패 했습니다.
 
-2001:4898 \[: e8: f39e: 5c9a: ad83:81b3:9944\]: 5061을 응답 하지 못했습니다.
+\[2001:4898: e8: f39e: 5c9a: ad83:81b3:9944 \] : 5061을 응답 하지 못했습니다.
 
 내부 예외:
 
@@ -137,7 +139,7 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 응답 하지 못했습니다.
 
-\[2001:4898: e8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+\[2001:4898: e8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 진단을
 

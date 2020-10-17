@@ -12,20 +12,22 @@ ms:contentKeyID: 63969600
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cae11cce4d4214f0392304823710fe1f02a36f7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e30d0b8c0e570605c8c6556d42224a205741a821
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193791"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503965"
 ---
+# <a name="testing-the-replica-service-in-lync-server-2013"></a>Lync Server 2013에서 복제본 서비스 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-replica-service-in-lync-server-2013"></a>Lync Server 2013에서 복제본 서비스 테스트
+
 
 </div>
 
@@ -88,7 +90,7 @@ _**마지막으로 수정 된 항목:** 2014-11-03_
 
 예제 2는 예제 1에 표시된 명령의 변형입니다. 이 경우 Report 매개 변수는 테스트에서 생성 된 보고서의 폴더 경로와 이름을 지정 하는 데 포함 됩니다. 보고서 경로를 지정 하지 않으면 보고서에 다음과 유사한 자동 생성 이름이 지정 됩니다.
 
-C:\\사용자\\관리자. Litwareinc\\AppData\\Local\\Temp\\1\\Test-.cs-3db40ee0-4b5d-4f58-8d3d-b1e61253129e .html
+C: \\ 사용자 \\ Litwareinc \\ AppData \\ Local \\ Temp \\ 1 \\Test-Cs-Replica-3db40ee0-4b5d-4f58-8d3d-b1e61253129e.html
 
     Test-CsReplica -Verbose -Report C:\Logs\ReplicaTest.html
 
@@ -100,55 +102,55 @@ C:\\사용자\\관리자. Litwareinc\\AppData\\Local\\Temp\\1\\Test-.cs-3db40ee0
 
 여기에 섹션 본문을 삽입합니다.
 
-VERBOSE: 새 로그 파일 만들기 "C:\\사용자\\테스트\\AppData\\Local\\Temp\\테스트-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c" .xml "을 만듭니다.
+VERBOSE: 새 로그 파일 만들기 "C: \\ 사용자 \\ 테스트 \\ AppData \\ Local \\ Temp \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml"입니다.
 
-VERBOSE: 새 로그 파일 만들기 "C:\\사용자\\테스트\\AppData\\Local\\Temp\\테스트-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c" .xml "을 만듭니다.
+VERBOSE: 새 로그 파일 만들기 "C: \\ 사용자 \\ 테스트 \\ AppData \\ Local \\ Temp \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml"입니다.
 
 VERBOSE: "테스트-CsReplica" 처리가 완료 되었습니다.
 
-VERBOSE: 자세한 결과는 "C\\: 사용자\\테스트\\AppData\\Local\\Temp\\Test-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c)에서 찾을 수 있습니다.
+VERBOSE: 자세한 결과는 "C: \\ 사용자 \\ 테스트 \\ AppData \\ Local \\ Temp \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml"에서 찾을 수 있습니다.
 
 VERBOSE: 새 로그 파일 만들기
 
-"C:\\사용자\\테스트\\AppData\\로컬\\온도\\2\\테스트-csreplica-29fddb35-f56e-4e3c-8f4c-e
+"C: \\ 사용자 \\ 테스트 \\ AppData \\ 로컬 \\ 온도 \\ 2 \\ 테스트-csreplica-29fddb35-f56e-4e3c-8f4c-e
 
-d3bd0e4a083 ".
+d3bd0e4a083.xml "입니다.
 
 VERBOSE: 새 로그 파일 만들기
 
-"C:\\사용자\\테스트\\AppData\\로컬\\온도\\2\\테스트-csreplica-29fddb35-f56e-4e3c-8f4c-e
+"C: \\ 사용자 \\ 테스트 \\ AppData \\ 로컬 \\ 온도 \\ 2 \\ 테스트-csreplica-29fddb35-f56e-4e3c-8f4c-e
 
-d3bd0e4a083 "
+d3bd0e4a083.html ")
 
-경고: 테스트-CsReplica에 오류가 발생 했습니다.
+경고: Test-CsReplica 실패 했습니다.
 
 경고: 자세한 결과는 다음 위치에서 찾을 수 있습니다.
 
-"C:\\사용자\\테스트\\AppData\\로컬\\온도\\2\\테스트-csreplica-29fddb35-f56e-4e3c-8f4c-e
+"C: \\ 사용자 \\ 테스트 \\ AppData \\ 로컬 \\ 온도 \\ 2 \\ 테스트-csreplica-29fddb35-f56e-4e3c-8f4c-e
 
-d3bd0e4a083 "
+d3bd0e4a083.html ")
 
-테스트-CsReplica: 명령 실행 실패: 요청 된 레지스트리 액세스 권한 없음
+Test-CsReplica: 명령 실행 실패: 요청 된 레지스트리 액세스 권한 없음
 
 있도록.
 
 줄: 1 문자: 1
 
-\+테스트-CsReplica-자세한 정보 표시
+\+ Test-CsReplica-Verbose
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~
 
-\+CategoryInfo: InvalidOperation: (:) \[테스트-csreplica\], Security
+\+ CategoryInfo: InvalidOperation: (:) \[ 테스트-CsReplica \] , Security
 
 오류
 
-\+FullyQualifiedErrorId: ProcessingFailed, Microsoft. .Deploy
+\+ FullyQualifiedErrorId: ProcessingFailed, Microsoft. .Deploy
 
 주석. TestReplicaCmdlet
 
-PS C:\\사용자\\테스트\>
+PS C: \\ 사용자 \\ 테스트\>
 
-PS C:\\Test-csucwaconference\\-\> Targetfqdn "lynctest"를 테스트 하는 사용자
+PS C: \\ 사용자 \\ 가 \> Test-CsUcwaConference-Targetfqdn "Lynctest를 테스트 합니다.
 
 icrosoft.com "
 
@@ -164,21 +166,21 @@ SyntheticTransactions SipSyntheticTransaction TryRetri를 관리 합니다.
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Test-csucwaconference: 할당 된 테스트 사용자가 없습니다.
+Test-CsUcwaConference: 할당 된 테스트 사용자가 없습니다.
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\] 테스트 사용자 구성을 확인 합니다.
+\[LyncTest.SelfHost.Corp.Microsoft.com \] 테스트 사용자 구성을 확인 합니다.
 
 줄: 1 문자: 1
 
-\+Test-csucwaconference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
+\+ Test-CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\+CategoryInfo: ResourceUnavailable 사용할 수 없음: (:) \[Test-csucwaconference\]
+\+ CategoryInfo: ResourceUnavailable 사용할 수 없음: (:) \[ Test-csucwaconference\]
 
 , InvalidOperationException
 
-\+FullyQualifiedErrorId: NotFoundTestUsers, Microsoft.
+\+ FullyQualifiedErrorId: NotFoundTestUsers, Microsoft.
 
 eticTransactions
 

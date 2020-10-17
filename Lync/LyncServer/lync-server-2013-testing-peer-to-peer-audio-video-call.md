@@ -12,20 +12,22 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea5283f588315d06387ed2d441f138538cd13ca3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a8522a1f3a8aedd44a6d39faa0ba6f59ba773677
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193971"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504085"
 ---
+# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Lync Server 2013에서 피어 투 피어 오디오/비디오 통화 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Lync Server 2013에서 피어 투 피어 오디오/비디오 통화 테스트
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 Test-csp2pav cmdlet을 실행 하는 권한이 있는 RBAC 역할을 사용자에 게 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsP2PAV cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="description"></a>설명
 
-Test-csp2pav 테스트 사용자 쌍이 피어 투 피어 A/V 대화에 참가할 수 있는지 여부를 확인 하는 데 사용 됩니다. 이 시나리오를 테스트 하기 위해 두 사용자에 게 Lync Server에 로그온 하 여 cmdlet이 해제 됩니다. 두 사용자 모두 로그온에 성공하면 첫 번째 사용자가 두 번째 사용자를 A/V 통화에 참가하도록 초대합니다. 두 번째 사용자가 통화를 수락하고, 두 사용자 간에 연결이 테스트되고, 통화가 종료된 후 테스트 사용자가 시스템에서 로그오프됩니다.
+Test-CsP2PAV은 테스트 사용자 쌍이 피어 투 피어 A/V 대화에 참가할 수 있는지 여부를 확인 하는 데 사용 됩니다. 이 시나리오를 테스트 하기 위해 두 사용자에 게 Lync Server에 로그온 하 여 cmdlet이 해제 됩니다. 두 사용자 모두 로그온에 성공하면 첫 번째 사용자가 두 번째 사용자를 A/V 통화에 참가하도록 초대합니다. 두 번째 사용자가 통화를 수락하고, 두 사용자 간에 연결이 테스트되고, 통화가 종료된 후 테스트 사용자가 시스템에서 로그오프됩니다.
 
-Test-csp2pav는 실제로 A/V 통화를 수행 하지 않습니다. 테스트 사용자 간에는 멀티미디어 정보가 교환 되지 않습니다. 대신, cmdlet은 적절 한 연결이 가능 하며 두 사용자가 이러한 통화를 수행할 수 있는지 확인 하기만 합니다.
+Test-CsP2PAV는 실제로 A/V 통화를 수행 하지 않습니다. 테스트 사용자 간에는 멀티미디어 정보가 교환 되지 않습니다. 대신, cmdlet은 적절 한 연결이 가능 하며 두 사용자가 이러한 통화를 수행할 수 있는지 확인 하기만 합니다.
 
 자세한 내용은 [test-csp2pav](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) cmdlet에 대 한 도움말 설명서를 참조 하십시오.
 
@@ -78,7 +80,7 @@ Test-csp2pav는 실제로 A/V 통화를 수행 하지 않습니다. 테스트 �
 
 ## <a name="running-the-test"></a>테스트 실행
 
-Test-csp2pav cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예:
+Test-CsP2PAV cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예제:
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -124,15 +126,15 @@ Microsoft DiagnosticHeader
 
 예를 들어 위의 출력에서는 Microsoft Exchange 서버에 연결할 수 없기 때문에 테스트가 실패 했다는 것을 나타냅니다. 이 오류 메시지는 일반적으로 Exchange 통합 메시징의 구성에 문제가 있음을 나타냅니다.
 
-Test-csp2pav에 오류가 발생 한 경우에는 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
+Test-CsP2PAV 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
 
-Test-csp2pav-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
+Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
-Verbose 매개 변수가 포함 된 경우 Test-csp2pav는 지정 된 사용자가 Lync Server에 로그온 할 수 있는지 확인 한 각 작업의 단계별 계정을 반환 합니다. 예를 들어 다음과 같은 진단으로 테스트가 실패 했다고 가정해 보겠습니다.
+Verbose 매개 변수를 포함 하면 Test-CsP2PAV에서 지정 된 사용자가 Lync Server에 로그온 할 수 있는지 확인 한 각 작업의 단계별 계정을 반환 합니다. 예를 들어 다음과 같은 진단으로 테스트가 실패 했다고 가정해 보겠습니다.
 
 ErrorCode = 6003, Source = atl-cs-litwareinc, Reason = dialog 요청이 지원 되지 않음
 
-Test-csp2pav를 다시 실행 하 고 Verbose 매개 변수를 포함 하면 다음과 같은 출력이 표시 됩니다.
+Test-CsP2PAV를 다시 실행 하 고 Verbose 매개 변수를 포함 하면 다음과 같은 출력을 얻게 됩니다.
 
 VERBOSE: ' 등록 ' 활동이 시작 되었습니다.
 
@@ -156,7 +158,7 @@ VERBOSE: ' 등록 ' 활동이 시작 되었습니다.
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-다음은 Test-csp2pav에서 오류가 발생할 수 있는 몇 가지 일반적인 이유입니다.
+Test-CsP2PAV 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.
 
   - 잘못 된 사용자 계정을 지정 했습니다. 다음과 같은 명령을 실행 하 여 사용자 계정이 있는지 확인할 수 있습니다.
     

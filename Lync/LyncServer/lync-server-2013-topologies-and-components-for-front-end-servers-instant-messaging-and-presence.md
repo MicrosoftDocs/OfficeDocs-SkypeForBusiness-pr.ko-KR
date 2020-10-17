@@ -12,20 +12,22 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4abe15d3884bc24d4facb26e2fc0c2df9e31bdcc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 103d03920df57023ae7dbb953beb0c426d0a43df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503755"
 ---
+# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 서버, 인스턴트 메시징 및 현재 상태에 대 한 토폴로지 및 구성 요소
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 서버, 인스턴트 메시징 및 현재 상태에 대 한 토폴로지 및 구성 요소
+
 
 </div>
 
@@ -92,27 +94,27 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경 되었으�
 <tbody>
 <tr class="odd">
 <td><p>2</p></td>
-<td><p>개</p></td>
+<td><p>1 </p></td>
 </tr>
 <tr class="even">
 <td><p>3(sp3)</p></td>
 <td><p>3(sp3)</p></td>
 </tr>
 <tr class="odd">
-<td><p>1-4</p></td>
+<td><p>4 </p></td>
 <td><p>3(sp3)</p></td>
 </tr>
 <tr class="even">
-<td><p>2-5</p></td>
-<td><p>1-4</p></td>
+<td><p>5 </p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>6 </p></td>
-<td><p>2-5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>7 </p></td>
-<td><p>2-5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="odd">
 <td><p>8 </p></td>
@@ -123,7 +125,7 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경 되었으�
 <td><p>7 </p></td>
 </tr>
 <tr class="odd">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>8 </p></td>
 </tr>
 <tr class="even">
@@ -131,8 +133,8 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경 되었으�
 <td><p>9 </p></td>
 </tr>
 <tr class="odd">
-<td><p>12</p></td>
-<td><p>10 </p></td>
+<td><p>12 </p></td>
+<td><p>10  </p></td>
 </tr>
 </tbody>
 </table>
@@ -173,7 +175,7 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경 되었으�
 <tbody>
 <tr class="odd">
 <td><p>2</p></td>
-<td><p>개</p></td>
+<td><p>1 </p></td>
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>
@@ -231,7 +233,7 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경 되었으�
 
   - 사용자를 처음으로 풀로 이동할 때는 프런트 엔드 서버 중 세 개 이상이 실행 되 고 있어야 합니다.
 
-  - 이 풀과 재해 복구를 위해 다른 풀 간의 연결 관계를 설정 하는 경우 해당 관계를 설정한 후에는이 풀에 동시에 실행 되는 세 개의 프런트 엔드 서버가 있어야 제대로 동기화 됩니다. 백업 풀을 사용한 데이터 풀 페어링 및 재해 복구 기능에 대 한 자세한 내용은 [Lync Server 2013에서 고가용성 및 재해 복구 계획](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)을 참조 하세요.
+  - 이 풀과 재해 복구를 위해 다른 풀 간의 연결 관계를 설정 하는 경우 해당 관계를 설정한 후에는이 풀에 백업 풀과 데이터를 올바르게 동기화 하기 위해 일정 시간 동안 동시에 실행 되는 세 개의 프런트 엔드 서버가 있는지를 파악 해야 합니다. 풀 페어링 및 재해 복구 기능에 대 한 자세한 내용은 [Lync Server 2013에서 고가용성 및 재해 복구 계획](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)을 참조 하세요.
 
 </div>
 

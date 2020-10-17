@@ -12,20 +12,22 @@ ms:contentKeyID: 48185506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ee078a96350b2796cb3535ee4099a075cc0f622
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e72fd57b05e618f03382a19995beaf9c542dc859
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504175"
 ---
+# <a name="hosted-voice-mail-policies-in-lync-server-2013"></a>Lync Server 2013의 호스팅된 음성 메일 정책
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-voice-mail-policies-in-lync-server-2013"></a>Lync Server 2013의 호스팅된 음성 메일 정책
+
 
 </div>
 
@@ -104,11 +106,11 @@ _**마지막으로 수정 된 항목:** 2012-10-01_
 
 호스팅된 음성 메일 정책을 관리 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하십시오.
 
-  - Set-cshostedvoicemailpolicy
+  - New-CsHostedVoicemailPolicy
 
-  - Set-cshostedvoicemailpolicy
+  - Set-CsHostedVoicemailPolicy
 
-  - Set-cshostedvoicemailpolicy
+  - Get-CsHostedVoicemailPolicy
 
 </div>
 
@@ -120,9 +122,9 @@ _**마지막으로 수정 된 항목:** 2012-10-01_
 
 사용자별 호스팅 음성 메일 정책을 할당 하거나 제거 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하십시오.
 
-  - Set-cshostedvoicemailpolicy
+  - Grant-CsHostedVoicemailPolicy
 
-  - Set-cshostedvoicemailpolicy을 제거 합니다.
+  - Remove-CsHostedVoicemailPolicy
 
 </div>
 

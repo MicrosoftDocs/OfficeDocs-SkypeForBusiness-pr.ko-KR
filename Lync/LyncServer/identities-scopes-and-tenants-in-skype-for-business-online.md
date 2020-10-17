@@ -12,20 +12,22 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3e5217c4214e6e86ca4c1dff62410c247cf7f8c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 80af780f0e7e78553cf8796569f668eae0b0e7e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755432"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505145"
 ---
+# <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a>비즈니스용 Skype Online의 id, 범위 및 테 넌 트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a>비즈니스용 Skype Online의 id, 범위 및 테 넌 트
+
 
 </div>
 
@@ -89,7 +91,7 @@ _**마지막으로 수정 된 항목:** 2015-03-09_
 
 여기에서 볼 수 있듯이 Ken Myer는 공용 IM 공급자와 통신 하도록 허용 됩니다. 이는 사용자에 게 할당 된 사용자별 정책 설정이 전역 정책의 설정을 재정의 하기 때문입니다. Pilar Ackerman은 공용 IM 공급자와 통신할 수 없습니다. 이것은 그녀는 글로벌 정책에 의해 관리 되 고 글로벌 정책은 이러한 통신을 금지 하기 때문입니다.
 
-Microsoft 지원 서비스에 따라 사용자별 정책을 만들어야 합니다. 정책이 만들어진 후에는 해당 하는 **Cs** cmdlet (예: [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy))을 사용 하 여 해당 정책을 사용자에 게 할당할 수 있습니다. 정책 Id는 항상 태그 **접두사로**시작 되므로 사용자 단위 정책은 식별 하기 쉽습니다. 예시:
+Microsoft 지원 서비스에 따라 사용자별 정책을 만들어야 합니다. 정책이 만들어진 후에는 해당 하는 **Cs** cmdlet (예: [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy))을 사용 하 여 해당 정책을 사용자에 게 할당할 수 있습니다. 정책 Id는 항상 태그 **접두사로**시작 되므로 사용자 단위 정책은 식별 하기 쉽습니다. 예제:
 
     Identity : tag:AllowPublicIMCommunication
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1e8fb2cdbf2b9192411f74c5099930d8bd7d7a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d76107fc419891561b8c98cf0989bbb0cbddbee4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504845"
 ---
+# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 분기 사이트 복구 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 분기 사이트 복구 요구 사항
+
 
 </div>
 
@@ -75,7 +77,7 @@ _**마지막으로 수정 된 항목:** 2014-02-25_
 
 </div>
 
-Sba (survivable Branch 기기 사이트의 분기 게이트웨이 또는 Windows 구성 요소를 사용할 수 없는 경우 분기 사이트 사용자에 대 한 인바운드 호출이 이러한 사용자에 게 전달 되도록 하려면 (예: Sba (survivable Branch 어플라이언스 또는 branch) 유지 관리를 위해 게이트웨이가 작동 중단 됨), 게이트웨이에서 장애 조치 (failover) 경로 만들기 (또는 직접 연결 된 전화 걸기 (이전) 공급자와 함께 작동)를 사용 하 여 수신 전화를 중앙 사이트의 백업 등록자 풀로 리디렉션합니다. 여기에서 통화는 WAN 링크를 통해 분기 사용자에게 라우팅됩니다. 경로가 PSTN 게이트웨이 또는 기타 트렁크 피어의 허용되는 전화 번호 형식을 따르도록 경로가 숫자로 변환되는지 확인하십시오. 장애 조치 (failover) 경로를 만드는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 장애 조치 (failover) 경로 구성을](lync-server-2013-configuring-a-failover-route.md)참조 하십시오. 또한 수신 통화를 정규화하도록 분기 사이트의 게이트웨이와 연결된 트렁크에 대한 서비스 수준의 다이얼 플랜을 만듭니다. 분기 사이트에 Sba (survivable 분기 기기가 두 개 있는 경우 별도의 서비스 수준 요금제가 필요한 경우가 아니면 둘 다에 대해 사이트 수준 다이얼 플랜을 만들 수 있습니다.
+분기 게이트웨이 또는 Sba (survivable Branch 기기 사이트의 Windows 구성 요소를 사용할 수 없는 경우 분기 사이트 사용자에 대 한 인바운드 호출이 해당 사용자에 게 전달 되도록 하려면 (즉, 예를 들어 유지 관리를 위해 Sba (survivable Branch 기기 또는 분기 게이트웨이가 다운 된 경우, 게이트웨이에서 장애 조치 (failover) 경로를 만들거나 (직접 안쪽 전화 걸기) 공급자와 함께 작업을 수행 하 여 수신 전화를 중앙 사이트의 백업 등록자 풀로 리디렉션합니다. 여기에서 통화는 WAN 링크를 통해 분기 사용자에게 라우팅됩니다. 경로가 PSTN 게이트웨이 또는 기타 트렁크 피어의 허용되는 전화 번호 형식을 따르도록 경로가 숫자로 변환되는지 확인하십시오. 장애 조치 (failover) 경로를 만드는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 장애 조치 (failover) 경로 구성을](lync-server-2013-configuring-a-failover-route.md)참조 하십시오. 또한 수신 통화를 정규화하도록 분기 사이트의 게이트웨이와 연결된 트렁크에 대한 서비스 수준의 다이얼 플랜을 만듭니다. 분기 사이트에 Sba (survivable 분기 기기가 두 개 있는 경우 별도의 서비스 수준 요금제가 필요한 경우가 아니면 둘 다에 대해 사이트 수준 다이얼 플랜을 만들 수 있습니다.
 
 <div>
 
@@ -93,7 +95,7 @@ Sba (survivable Branch 기기 사이트의 분기 게이트웨이 또는 Windows
 
 ## <a name="routing-extension-numbers"></a>내선 번호 라우팅
 
-분기 사이트 사용자에 대 한 다이얼 플랜 및 음성 정책을 준비할 때는 Msrtcsip-gateways-line (또는 Line URI) 특성에 사용 되는 문자열 및 숫자 형식과 일치 하는 정규화 규칙 및 변환 규칙을 포함 하 여 분기 간 Lync 2013 호출이 사용 되도록 해야 합니다. WAN 링크를 사용할 수 없기 때문에 사이트 사용자 및 중앙 사이트 사용자가 제대로 라우팅되고, 특히 PSTN을 통해 통화를 다시 라우팅해야 할 경우 전화 번호만 있는 것이 아니라 내선이 포함된 전화 접속 번호의 경우에는 특별한 추가 고려 사항이 있습니다.
+분기 사이트 사용자에 대 한 다이얼 플랜 및 음성 정책을 준비 하는 경우에는 Msrtcsip-gateways line (또는 Line URI) 특성에 사용 되는 문자열 및 숫자 형식과 일치 하는 정규화 규칙 및 변환 규칙을 포함 하 여 분기 사이트 사용자와 중앙 사이트 사용자 간에 사용 하도록 설정 된 Lync 2013 통화가 제대로 라우팅될 수 있도록 해야 합니다 (특히, WAN 링크를 사용할 수 없음). 전화 번호만 있는 것이 아니라 내선이 포함된 전화 접속 번호의 경우에는 특별한 추가 고려 사항이 있습니다.
 
 내선 번호를 포함하는 줄 URI와 일치하는 정규화 규칙 및 변환 규칙은 배타적으로 사용되든 전체 E.164 전화 번호에 추가로 사용되든 간에 추가적인 요구 사항이 있습니다. 이 섹션에서는 내선 번호가 포함된 줄 URI에 대한 통화를 라우팅하는 몇 가지 예제 시나리오에 대해 설명합니다.
 
@@ -123,7 +125,7 @@ Sba (survivable Branch 기기 사이트의 분기 게이트웨이 또는 Windows
 <tr class="odd">
 <td><p>5digitExtensions</p></td>
 <td><p>5자리 숫자를 변환하지 않음</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^ (\d {5} ) $</p></td>
 <td><p>$1</p></td>
 <td><p>10001이 변환되지 않음</p></td>
 </tr>
@@ -152,13 +154,13 @@ Sba (survivable Branch 기기 사이트의 분기 게이트웨이 또는 Windows
 <tbody>
 <tr class="odd">
 <td><p>5자리 숫자를 사용자의 전화 번호 및 내선으로 변환</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^ (\d {5} ) $</p></td>
 <td><p>+ 14255550123; ext = $1</p></td>
 <td><p>10001이 +14255550123;ext=10001로 변환됨</p></td>
 </tr>
 <tr class="even">
 <td><p>5자리 숫자를 사용자의 조직 전화 번호 및 사용자의 내선으로 변환</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^ (\d {5} ) $</p></td>
 <td><p>+ 14255550100으로; ext = $1</p></td>
 <td><p>10001이 +14255550100;ext=10001로 변환됨</p></td>
 </tr>
@@ -209,7 +211,7 @@ WAN 링크를 사용할 수 있는지 여부에 관계없이 조직에 개별 �
 
 ## <a name="preparing-for-voice-mail-survivability"></a>음성 메일 지속성 준비
 
-Exchange UM (통합 메시징)은 일반적으로 분기 사이트가 아닌 중앙 사이트 에서만 설치 됩니다. 발신자는 분기 사이트와 중앙 사이트 간의 WAN 링크를 사용할 수 없는 경우에도 음성 메일 메시지를 남길 수 있어야 합니다. 따라서 분기 사이트 사용자에 대 한 음성 메일을 제공 하는 Exchange UM 자동 전화 교환 전화 번호에 대 한 줄 URI를 구성 하려면 음성 정책, 다이얼 플랜 및 해당 지역 사서함에 적용 되는 정규화 규칙 외에도 특별히 고려해 야 할 사항이 있습니다. 수.
+Exchange UM (통합 메시징)은 일반적으로 분기 사이트가 아닌 중앙 사이트 에서만 설치 됩니다. 발신자는 분기 사이트와 중앙 사이트 간의 WAN 링크를 사용할 수 없는 경우에도 음성 메일 메시지를 남길 수 있어야 합니다. 따라서 분기 사이트 사용자에 게 음성 메일을 제공 하는 Exchange UM 자동 전화 교환 전화 번호에 대 한 줄 URI를 구성 하려면 음성 정책, 다이얼 플랜, 그리고 해당 voice 메일 번호에 해당 하는 정규화 규칙 외에도 특별히 고려해 야 할 사항이 있습니다.
 
 Sba (survivable branch 기기 (SBAs) 및 Sba (survivable 분기 서버는 WAN 중단 시 분기 사용자에 게 음성 메일 지 속성 제공 합니다. 특히 Sba (survivable Branch 기기나 Sba (survivable Branch Server를 사용 하는 경우 WAN을 사용할 수 없는 경우 SBA 또는 Sba (survivable 분기 서버는 PSTN을 통해 응답 하지 않은 통화를 중앙 사이트의 Exchange UM으로 다시 라우팅합니다. SBA 또는 Sba (survivable 분기 서버를 사용 하는 경우 사용자는 WAN 중단 시 PSTN을 통해 음성 메일 메시지를 검색할 수도 있습니다. 마지막으로, WAN 중단 중에 Sba (survivable Branch 기기 또는 Sba (survivable 분기 서버는 누락 된 호출 알림을 큐에 대기 시키고 WAN이 복원 되 면 Exchange UM 서버에 업로드 합니다. 음성 메일 다시 라우팅 기능을 다시 사용할 수 있도록 하려면 중앙 사이트 풀의 FQDN에 대 한 항목과에 지 서버 FQDN에 대 한 항목을 Sba (survivable Branch Server의 hosts 파일에 추가 해야 합니다. 그렇지 않으면 분기 사이트에 DNS 서버가 없는 경우 DNS 확인 시간이 초과될 수 있습니다.
 
@@ -273,7 +275,7 @@ Sba (survivable 분기 서버에 대 한 요구 사항은 프런트 엔드 서�
 
 <div>
 
-## <a name="requirements-for-full-scale-lync-server-branch-site-deployments"></a>전체 규모 Lync Server 분기 사이트 배포에 대 한 요구 사항
+## <a name="requirements-for-full-scale-lync-server-branch-site-deployments"></a>Lync Server Branch-Site 배포 Full-Scale에 대 한 요구 사항
 
 자세한 내용은 계획 설명서에서 [Lync Server 2013에 대 한 인프라 요구 사항 결정](lync-server-2013-determining-your-infrastructure-requirements.md) 을 참조 하십시오.
 

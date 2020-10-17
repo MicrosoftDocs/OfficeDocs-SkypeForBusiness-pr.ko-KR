@@ -12,20 +12,22 @@ ms:contentKeyID: 48185859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c3fcfd33668918eb330b64d816ceca818de27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a33a5e9bb93371bdccac3c88b7a1c080e3efaa8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211824"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503685"
 ---
+# <a name="validating-the-configuration-of-office-web-apps-server-in-lync-server-2013"></a>Lync Server 2013에서 Office Web Apps 서버의 구성 유효성 검사
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-the-configuration-of-office-web-apps-server-in-lync-server-2013"></a>Lync Server 2013에서 Office Web Apps 서버의 구성 유효성 검사
+
 
 </div>
 
@@ -45,13 +47,13 @@ Office Web Apps 서버를 토폴로지에 추가 하 고 토폴로지를 게시 
 
 **웹 회의 서버 Office Web Apps 서버 검색이 성공 했습니다.**
 
-**Office Web Apps Server 내부 발표자 페이지:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
+**Office Web Apps Server 내부 발표자 페이지: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
 
-**Office Web Apps Server 내부 참석자 페이지:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
+**Office Web Apps Server 내부 참석자 페이지: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
 
-**Office Web Apps 서버 외부 발표자 페이지:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
+**Office Web Apps 서버 외부 발표자 페이지: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
 
-**Office Web Apps Server 내부 참석자 페이지:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
+**Office Web Apps Server 내부 참석자 페이지: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
 
 이벤트 ID가 41033인 LS 데이터 MCU 이벤트가 표시되는 경우 이는 Office Web Apps 서버가 검색되지 않았음을 의미합니다. 이 경우 Microsoft Lync Server 2013는 새로 구성 된 Office Web Apps 서버를 검색 하는 데 필요한 횟수 만큼 시도 합니다. 검색 프로세스가 계속 실패할 경우에는 Office Web Apps 서버를 토폴로지 문서에서 제거하고 업데이트된 토폴로지를 게시한 다음 연결 문제가 해결된 후에 Office Web Apps 서버를 토폴로지에 다시 추가해 봅니다.
 

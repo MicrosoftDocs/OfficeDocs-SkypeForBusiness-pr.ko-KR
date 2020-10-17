@@ -12,20 +12,22 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71ccdec2c39839674c6304000680ec611a48c016
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bbd021a6b3804c369bccea5affcf26558802de2c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504735"
 ---
+# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Lync Server 2013에 대 한 초기 토폴로지 디자인 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Lync Server 2013에 대 한 초기 토폴로지 디자인 만들기
+
 
 </div>
 
@@ -57,11 +59,11 @@ Lync Server 2013, 계획 도구 설치가 완료 되 면 계획 도구를 시작
 
 2.  계획 도구를 시작한 후 **에는 Microsoft Lync Server에 대 한 계획 도구 2013** 페이지가 나타납니다. 다음 옵션 중 하나를 선택 하 여 디자인을 시작 합니다.
     
-      - **옵션 1:**    **시작 단추를** 클릭 하면 기준을 정의 하기 위한 적절 한 선택과 관련 된 특정 일련의 인터뷰 질문이 제공 됩니다. 초기 면접 **시작** 인터뷰 섹션을 완료 한 후에는 사이트 아키텍처를 정의 하는 **디자인 사이트로** 이동 합니다. 이 옵션을 완료 하려면 3 단계로 이동 합니다.
+      - **옵션 1: 시작 하기**     **시작** 을 클릭 하면 조건을 정의 하기 위한 관련 선택을 통해 특정 일련의 인터뷰 질문이 제공 됩니다. 초기 면접 **시작** 인터뷰 섹션을 완료 한 후에는 사이트 아키텍처를 정의 하는 **디자인 사이트로** 이동 합니다. 이 옵션을 완료 하려면 3 단계로 이동 합니다.
     
-      - **옵션 2: 디자인 사이트**   시작 페이지에서 **디자인 사이트** 를 클릭 하면 **시작** 섹션에 나와 있는 인터뷰 질문이 무시 됩니다. **시작** 섹션의 인터뷰 질문에 응답 하 여 수집 된 정보는이 옵션을 사용 하 여 기본값으로 설정 됩니다. **디자인 사이트**를 클릭 하면 숙련 된 디자이너가 초기 인터뷰를 우회 하 고 필요에 따라 **중앙 사이트** 시작 페이지에서 기본값을 변경할 수 있습니다. 이 옵션을 완료 하려면 3-5 단계를 건너뛰고 6 단계부터 시작 합니다.
+      - **옵션 2: 사이트 디자인**     시작 페이지에서 **디자인 사이트** 를 클릭 하면 **시작** 섹션에 나와 있는 인터뷰 질문이 무시 됩니다. **시작** 섹션의 인터뷰 질문에 응답 하 여 수집 된 정보는이 옵션을 사용 하 여 기본값으로 설정 됩니다. **디자인 사이트**를 클릭 하면 숙련 된 디자이너가 초기 인터뷰를 우회 하 고 필요에 따라 **중앙 사이트** 시작 페이지에서 기본값을 변경할 수 있습니다. 이 옵션을 완료 하려면 3-5 단계를 건너뛰고 6 단계부터 시작 합니다.
     
-      - **옵션 3: 저장 된 토폴로지**   표시 이전에 계획 도구를 사용 하 여 토폴로지를 완료 하 고 저장 한 경우에는 이러한 단계를 대부분 건너뛰고 토폴로지를 열고 표시 하 여 시작할 수 있습니다. 또한 토폴로지를 변경 하 고 업데이트 한 후 다시 저장 한 다음 Microsoft Excel 이나 Microsoft Visio로 내보낼 수도 있습니다. 이 옵션을 완료 하려면 3-12 단계를 건너뛰고 13 단계부터 시작 합니다.
+      - **옵션 3: 저장 된 토폴로지 표시**     이전에 계획 도구를 사용 하 여 토폴로지를 완료 하 고 저장 한 경우에는 이러한 단계를 대부분 건너뛰고 토폴로지를 열고 표시 하 여 시작할 수 있습니다. 또한 토폴로지를 변경 하 고 업데이트 한 후 다시 저장 한 다음 Microsoft Excel 이나 Microsoft Visio로 내보낼 수도 있습니다. 이 옵션을 완료 하려면 3-12 단계를 건너뛰고 13 단계부터 시작 합니다.
 
 3.  **시작** 을 클릭 하 여 Lync Server 2013 토폴로지 디자인을 시작 합니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abdb6796139ddc4be2b8ea24aa9bfeb19f745373
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe6f0b1da87cfff6033840d37f590922c0a3bd9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193929"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504005"
 ---
+# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Lync Server 2013에서 PSTN 전화 통화 라우팅 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Lync Server 2013에서 PSTN 전화 통화 라우팅 테스트
+
 
 </div>
 
@@ -96,7 +98,7 @@ RedmondRoute LocalUsage {RedmondRoute}
 
 테스트가 실패 하면 다음과 같은 출력이 표시 됩니다.
 
-Test-csintertrunkrouting: 매개 변수에서 인수 변환을 처리할 수 없습니다.
+Test-CsInterTrunkRouting: 매개 변수에서 인수 변환을 처리할 수 없습니다.
 
 ' Microsoft.rtc.management.writableconfig.settings.trunkconfiguration.trunkconfiguration 유형의 ' 잘못 된 TrunkConfigurationsetting (매개 변수)입니다. 를 지정 합니다.
 
@@ -104,7 +106,7 @@ Test-csintertrunkrouting: 매개 변수에서 인수 변환을 처리할 수 없
 
 줄: 1 char: 79
 
-\+Test-csintertrunkrouting-TargetNumber "tel: + 12065551219"
+\+ Test-CsInterTrunkRouting-TargetNumber "tel: + 12065551219"
 
 \-Microsoft.rtc.management.writableconfig.settings.trunkconfiguration.trunkconfiguration 유형의 $t
 
@@ -112,11 +114,11 @@ Test-csintertrunkrouting: 매개 변수에서 인수 변환을 처리할 수 없
 
 ~~
 
-\+CategoryInfo: InvalidData: (:) \[Test-csintertrunkrouting\](대만)
+\+CategoryInfo: InvalidData: (:) \[ Test-csintertrunkrouting (대만) \]
 
 ameterBindingArgumentTransformationException
 
-\+FullyQualifiedErrorId: ParameterArgumentTransformationError (Microsoft. R)
+\+ FullyQualifiedErrorId: ParameterArgumentTransformationError (Microsoft. R)
 
 tc. TestOcsInterTrunkRoutingCmdlet를 관리 합니다.
 

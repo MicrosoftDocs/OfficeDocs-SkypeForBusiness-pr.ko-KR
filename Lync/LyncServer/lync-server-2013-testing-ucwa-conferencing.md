@@ -12,20 +12,22 @@ ms:contentKeyID: 63969610
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af4bd6dd911b43714dffa48c3b21d3329b2aaa01
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5879eaa10b128bedbc1e28fe85cee40aed27dddd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193751"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503915"
 ---
+# <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>Lync Server 2013에서 c u c 회의 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>Lync Server 2013에서 c u c 회의 테스트
+
 
 </div>
 
@@ -82,7 +84,7 @@ _**마지막으로 수정 된 항목:** 2014-11-03_
 
     Test-CsUcwaConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-예제 2에 표시 된 명령은 litwareinc\\pilar 및 litwareinc\\kenmyer (사용자 쌍)가 c u 3 회의에 참가 하는 기능을 테스트 합니다. 이 작업을 수행 하기 위해이 예제의 첫 번째 명령은 Get-Credential cmdlet을 사용 하 여 user Pilar Ackerman의 이름과 암호가 포함 된 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. (로그온 이름, litwareinc\\pilar가 매개 변수로 포함 되었기 때문에 Windows PowerShell 자격 증명 요청 대화 상자에만 관리자가 Pilar Ackerman 계정의 암호를 입력 하면 됩니다.) 그런 다음 결과 credentials 개체가 $cred 1 이라는 변수에 저장 됩니다. 두 번째 명령도 같은 작업을 수행하지만 이번에는 Ken Myer 계정의 자격 증명 개체를 반환합니다.
+예제 2에 표시 된 명령은 litwareinc pilar 및 litwareinc kenmyer (사용자 쌍)가 c u 3 \\ \\ 회의에 참가 하는 기능을 테스트 합니다. 이 작업을 수행 하기 위해이 예제의 첫 번째 명령은 Get-Credential cmdlet을 사용 하 여 사용자 Pilar Ackerman의 이름과 암호가 포함 된 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. (로그온 이름, litwareinc pilar가 \\ 매개 변수로 포함 되었기 때문에 Windows PowerShell 자격 증명 요청 대화 상자에만 관리자가 Pilar Ackerman 계정의 암호를 입력 하면 됩니다.) 그런 다음 결과 credentials 개체가 $cred 1 이라는 변수에 저장 됩니다. 두 번째 명령도 같은 작업을 수행하지만 이번에는 Ken Myer 계정의 자격 증명 개체를 반환합니다.
 
 두 자격 증명 개체를 함께 사용 하는 경우 예제의 세 번째 명령은 두 사용자가 c-WA 회의에 참가할 수 있는지 여부를 확인 합니다. 이 작업을 실행 하기 위해 **test-csucwaconference** Cmdlet은 targetfqdn (등록자 풀의 fqdn)과 함께 다음과 같은 매개 변수를 사용 하 여 호출 됩니다. Organizercredential (모임 이끌이의 SIP 주소) 변수와 (이 사용자에 대 한 자격 증명이 포함 된 Windows PowerShell 개체) ParticipantSipAddress (다른 테스트 사용자의 SIP 주소); 및 ParticipantCredential (다른 사용자의 자격 증명을 포함 하는 Windows PowerShell 명령줄 인터페이스 개체)
 
@@ -126,21 +128,21 @@ SyntheticTransactions SipSyntheticTransaction TryRetri를 관리 합니다.
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Test-csucwaconference: 할당 된 테스트 사용자가 없습니다.
+Test-CsUcwaConference: 할당 된 테스트 사용자가 없습니다.
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\] 테스트 사용자 구성을 확인 합니다.
+\[LyncTest.SelfHost.Corp.Microsoft.com \] 테스트 사용자 구성을 확인 합니다.
 
 줄: 1 문자: 1
 
-\+Test-csucwaconference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
+\+ Test-CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\+CategoryInfo: ResourceUnavailable 사용할 수 없음: (:) \[Test-csucwaconference\]
+\+ CategoryInfo: ResourceUnavailable 사용할 수 없음: (:) \[ Test-csucwaconference\]
 
 , InvalidOperationException
 
-\+FullyQualifiedErrorId: NotFoundTestUsers, Microsoft.
+\+ FullyQualifiedErrorId: NotFoundTestUsers, Microsoft.
 
 eticTransactions
 

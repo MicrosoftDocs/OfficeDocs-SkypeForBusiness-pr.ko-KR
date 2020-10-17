@@ -12,20 +12,22 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83f9eb59a14fc0ede5cc5d61f0c9f8dff0e1e445
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b385184486cdbf8e2ee18956df1546d09335e6c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503945"
 ---
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Lync Server 2013에서 웹 스케줄러 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Lync Server 2013에서 웹 스케줄러 테스트
+
 
 </div>
 
@@ -92,7 +94,7 @@ _**마지막으로 수정 된 항목:** 2014-11-03_
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-다음 예에 표시 된 명령은 특정 사용자 (litwareinc\\kenmeyer)가 웹 스케줄러를 사용 하 여 온라인 모임을 예약 하도록 하는 기능을 테스트 합니다. 이 작업을 수행 하기 위해이 예제의 첫 번째 명령은 **Get-Credential** cmdlet을 사용 하 여 사용자 Ken 구 지 후의 이름과 암호가 포함 된 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. (로그온 이름 litwareinc\\kenmeyer는 매개 변수로 포함 되므로 Windows PowerShell 자격 증명 요청 대화 상자에는 관리자만 Ken 구 지 후 계정의 암호를 입력 해야 합니다.) 그런 다음 결과 credential 개체는 $cred 1 이라는 변수에 저장 됩니다.
+다음 예에 표시 된 명령은 특정 사용자 (litwareinc \\ kenmeyer)가 웹 스케줄러를 사용 하 여 온라인 모임을 예약 하도록 하는 기능을 테스트 합니다. 이 작업을 수행 하기 위해이 예제의 첫 번째 명령은 **Get-Credential** cmdlet을 사용 하 여 사용자 Ken 구 지 후의 이름과 암호가 포함 된 Windows PowerShell 명령줄 인터페이스 자격 증명 개체를 만듭니다. (로그온 이름 litwareinc kenmeyer는 \\ 매개 변수로 포함 되므로 Windows PowerShell 자격 증명 요청 대화 상자에는 관리자만 Ken 구 지 후 계정의 암호를 입력 해야 합니다.) 그런 다음 결과 credential 개체는 $cred 1 이라는 변수에 저장 됩니다.
 
 두 번째 명령은이 사용자가 atl-cs-001.litwareinc.com 풀에 로그온 하 고 온라인 모임을 예약할 수 있는지 여부를 확인 합니다. 이 작업을 실행 하기 위해 **테스트-CsWebScheduler** cmdlet은 세 개의 매개 변수, 즉 Targetfqdn (등록자 풀의 FQDN)과 함께 호출 됩니다. UserCredential (Pilar Ackerman의 사용자 자격 증명을 포함 하는 Windows PowerShell 개체) 및 UserSipAddress (제공 된 사용자 자격 증명에 해당 하는 SIP 주소)
 

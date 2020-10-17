@@ -12,20 +12,22 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb206930dae08d0c2fcf5fa6a26b427b28c03e1b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f0bfeef1abcf7b5859c365b7c64b4fcc84f49ae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503705"
 ---
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Lync Server 2013에서 오디오/비디오 회의 확인
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Lync Server 2013에서 오디오/비디오 회의 확인
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 <tr class="even">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우, 사용자에 게는 CsAVConference cmdlet을 실행 하는 권한이 있는 RBAC 역할이 할당 되어야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsAVConference cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,9 +72,9 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="description"></a>설명
 
-테스트-CsAVConference cmdlet은 두 테스트 사용자가 A/V (오디오/비디오) 회의에 참가할 수 있는지 여부를 확인 합니다. cmdlet이 실행되면 두 사용자가 시스템에 로그온됩니다. 로그온 한 후에는 첫 번째 사용자가 A/V 회의를 만든 다음 두 번째 사용자가 해당 회의에 참가 하는 것을 기다립니다. 간단한 데이터 교환 후 전화 회의가 삭제되고 두 테스트 사용자가 로그오프됩니다.
+Test-CsAVConference cmdlet은 두 테스트 사용자가 A/V (오디오/비디오) 회의에 참가할 수 있는지 여부를 확인 합니다. cmdlet이 실행되면 두 사용자가 시스템에 로그온됩니다. 로그온 한 후에는 첫 번째 사용자가 A/V 회의를 만든 다음 두 번째 사용자가 해당 회의에 참가 하는 것을 기다립니다. 간단한 데이터 교환 후 전화 회의가 삭제되고 두 테스트 사용자가 로그오프됩니다.
 
-CsAVConference는 두 테스트 사용자 간의 실제 A/V 회의를 수행 하지 않습니다. 대신, cmdlet은 두 사용자가 이러한 회의를 수행 하는 데 필요한 모든 연결을 수행할 수 있는지 확인 합니다.
+Test-CsAVConference에서는 두 테스트 사용자 간의 실제 A/V 회의를 수행 하지 않습니다. 대신, cmdlet은 두 사용자가 이러한 회의를 수행 하는 데 필요한 모든 연결을 수행할 수 있는지 확인 합니다.
 
 이 명령에 대 한 추가 예는 [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)에서 찾을 수 있습니다.
 
@@ -82,7 +84,7 @@ CsAVConference는 두 테스트 사용자 간의 실제 A/V 회의를 수행 하
 
 ## <a name="running-the-test"></a>테스트 실행
 
-CsAVConference cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예:
+Test-CsAVConference cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예제:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -134,11 +136,11 @@ Microsoft DiagnosticHeader
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
-테스트-CsAVConference 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
+Test-CsAVConference 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose 매개 변수를 포함 하는 경우-CsAVConference는 지정 된 사용자가 AV 회의에 참가 하는 기능을 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예를 들어 테스트가 실패 하 고 다음과 같은 진단이 수신 된다고 가정해 봅니다.
+Verbose 매개 변수를 포함 하면 Test-CsAVConference는 지정 된 사용자가 AV 회의에 참가할 수 있는지 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예를 들어 테스트가 실패 하 고 다음과 같은 진단이 수신 된다고 가정해 봅니다.
 
 ErrorCode = 1008, Source = accessproxy litwareinc, Reason = DNS SRV 레코드를 확인할 수 없음
 
