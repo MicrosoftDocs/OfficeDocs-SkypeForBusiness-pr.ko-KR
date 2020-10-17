@@ -12,20 +12,22 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 998787b3f052d2271eb2323bcdb71ddc106b57f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d639ba422bde7b936bd58ff58abae47ea365bb70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210234"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508525"
 ---
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Lync Server 2013의 와일드 카드 인증서 지원
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Lync Server 2013의 와일드 카드 인증서 지원
+
 
 </div>
 
@@ -52,25 +54,25 @@ Lync Server 2013에서는 인증서를 사용 하 여 통신 암호화 및 서�
 와일드카드 항목은 어떠한 역할에 대해서도 주체 이름(및 CN(공용 이름)이라고도 함)으로 지원되지 않습니다. 다음은 SAN에서 와일드카드 항목을 사용할 때 지원되는 서버 역할입니다.
 
   - <span></span>  
-    **역방향 프록시**    와일드 카드 SAN 항목은 단순 URL (모임 및 전화 접속) 게시 인증서에 대해 지원 됩니다.
+    **역방향 프록시**     와일드 카드 SAN 항목은 단순 URL (모임 및 전화 접속) 게시 인증서에 대해 지원 됩니다.
 
   - <span></span>  
-    **역방향 프록시**    와일드 카드 san 항목은 게시 인증서에서 LyncDiscover의 san 항목에 대해 지원 됩니다.
+    **역방향 프록시**     와일드 카드 SAN 항목은 게시 인증서에서 LyncDiscover의 SAN 항목에 대해 지원 됩니다.
 
   - <span></span>  
-    **디렉터입니다.**    와일드 카드 SAN 항목은 디렉터 웹 구성 요소에서 단순 url (모임 및 전화 걸기)과 LyncDiscover 및 LYNCDISCOVERINTERNAL의 SAN 항목에 대해 지원 됩니다.
+    **디렉터입니다.**     와일드 카드 SAN 항목은 디렉터 웹 구성 요소에서 단순 Url (모임 및 전화 걸기)과 LyncDiscover 및 LyncDiscoverInternal의 SAN 항목에 대해 지원 됩니다.
 
   - <span></span>  
     **프런트 엔드 서버 (Standard Edition) 및 프런트 엔드 풀 (Enterprise Edition)** 와일드 카드 SAN 항목은 프런트 엔드 웹 구성 요소에서 단순 Url (모임 및 전화 걸기)과 LyncDiscover 및 LyncDiscoverInternal의 SAN 항목에 대해 지원 됩니다.
 
   - <span></span>  
-    **Exchange UM (통합 메시징)**    독립 실행형 서버로 배포 하는 경우 서버에서 SAN 항목을 사용 하지 않습니다.
+    **EXCHANGE UM (통합 메시징)**     독립 실행형 서버로 배포 하는 경우 서버에서 SAN 항목을 사용 하지 않습니다.
 
   - <span></span>  
-    **Microsoft Exchange Server 클라이언트 액세스 서버**    SAN의 와일드 카드 항목은 내부 및 외부 클라이언트에 대해 지원 됩니다.
+    **Microsoft Exchange Server 클라이언트 액세스 서버**     SAN의 와일드 카드 항목은 내부 및 외부 클라이언트에 대해 지원 됩니다.
 
   - <span></span>  
-    **Exchange UM (통합 메시징) 및 Microsoft Exchange Server 클라이언트 액세스 서버가 동일한 서버에 있는 경우**    와일드 카드 SAN 항목이 지원 됩니다.
+    **EXCHANGE UM (통합 메시징) 및 Microsoft Exchange Server 클라이언트 액세스 서버가 동일한 서버에 있는 경우**     와일드 카드 SAN 항목이 지원 됩니다.
 
 이 항목에서 다루지 않는 서버 역할:
 

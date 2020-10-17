@@ -12,20 +12,22 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0dc8bc60f87b981a18f351df8ddd163d1b080be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b297a505b1a12335e545895e0203ffc0e29c7354
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197701"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507635"
 ---
+# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Microsoft Exchange Server의 통합 메시징과 함께 작동 하도록 Lync Server 2013 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Microsoft Exchange Server의 통합 메시징과 함께 작동 하도록 Lync Server 2013 구성
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42197701"
 
 _**마지막으로 수정 된 항목:** 2013-04-03_
 
-이 단계에서는 Exchange UM 통합 유틸리티(OcsUmUtil.exe)가 필요합니다. 이 도구는의에 있는 Lync Server 2013 서버에 있습니다. \\프로그램 파일\\공용 파일\\Microsoft Lync Server 2013\\Support 폴더입니다.
+이 단계에서는 Exchange UM 통합 유틸리티(OcsUmUtil.exe)가 필요합니다. 이 도구는의에 있는 Lync Server 2013 서버에 있습니다. \\ 프로그램 파일 \\ 공용 파일 \\ Microsoft Lync Server 2013 \\ Support 폴더입니다.
 
 <div>
 
@@ -57,8 +59,8 @@ Exchange UM 통합 유틸리티를 실행하면 다음 작업이 수행됩니다
 > Exchange UM 통합 유틸리티를 실행 하기 전에 다음을 수행 해야 합니다.
 > <ul>
 > <li><p>Exchange 제품 설명서에 설명 된 대로 하나 이상의 Exchange UM 다이얼 플랜을 만듭니다.</p>
-> <p>Microsoft Exchange Server 2010의 경우에 &quot;&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>는 UM 다이얼 플랜 만들기를 참조 하세요.</p>
-> <p>Microsoft Exchange Server 2007 SP1 (서비스 팩 1)의 경우 통합 &quot;메시징 SIP URI 다이얼 플랜&quot; 을 만드는 방법을 참조 하세요 <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
+> <p>Microsoft Exchange Server 2010의 경우 &quot; 에는 UM 다이얼 플랜 만들기를 참조 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a> 하세요.</p>
+> <p>Microsoft Exchange Server 2007 SP1 (서비스 팩 1)의 경우 &quot; 통합 메시징 SIP URI 다이얼 플랜을 만드는 방법을 참조 하세요 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a> .</p></li>
 > <li><p><a href="lync-server-2013-create-a-dial-plan.md">Lync server 2013의 다이얼 플랜 만들기</a>에 설명 된 대로 해당 하는 lync server 다이얼 플랜을 하나 이상 만듭니다.</p></li>
 > <ul><li>Microsoft Exchange Server 2010 s p 1 보다 이전 버전의 Exchange를 사용 하는 경우 Lync Server 2013 다이얼 플랜 <STRONG>단순한 이름</STRONG> 필드에 해당 하는 exchange UM (통합 메시징) SIP 다이얼 플랜의 FQDN (정규화 된 도메인 이름)을 입력 해야 합니다. Microsoft Exchange Server 2010 SP1 또는 최신 서비스 팩을 사용 하는 경우에는이 다이얼 플랜 이름 일치가 필요 하지 않습니다.</li></ul>
 > <li>자동 전화 교환을 만들고 구독자 액세스 번호와 자동 전화 교환 번호가 모두 E.164 형식인지 확인합니다.</li></ul>
@@ -68,7 +70,7 @@ Exchange UM 통합 유틸리티를 실행하면 다음 작업이 수행됩니다
 
 ## <a name="to-run-the-exchange-um-integration-utility"></a>Exchange UM 통합 유틸리티를 실행하려면
 
-1.  프런트 엔드 서버에서 명령 프롬프트를 열고 **cd% CommonProgramFiles%\\Microsoft Lync Server 2013\\Support**를 입력 한 다음 enter 키를 누릅니다.
+1.  프런트 엔드 서버에서 명령 프롬프트를 열고 **cd% CommonProgramFiles% \\ Microsoft Lync Server 2013 \\ Support**를 입력 한 다음 enter 키를 누릅니다.
 
 2.  **OcsUmUtil.exe**를 입력하고 Enter 키를 누릅니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f4d01e817e1a874af8c6beccdee332f85cc79ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0e053629eae42bc7fcd83b0002b3aad40f3550f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206994"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507715"
 ---
+# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Lync Server 2013에서 신뢰할 수 있는 새 응용 프로그램 서버 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Lync Server 2013에서 신뢰할 수 있는 새 응용 프로그램 서버 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42206994"
 
 _**마지막으로 수정 된 항목:** 2012-11-01_
 
-신뢰할 수 있는 응용 프로그램은 Microsoft Lync Server 2013에서 신뢰할 수 있는 Microsoft 통합 커뮤니케이션 관리 API (가) 3.0 Core SDK를 기반으로 하는 응용 프로그램입니다. 부분 [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320)ma 응용 프로그램에 대 한 자세한 내용은의 "통합 커뮤니케이션 관리 API 3.0 Core SDK 설명서"를 참조 하세요.
+신뢰할 수 있는 응용 프로그램은 Microsoft Lync Server 2013에서 신뢰할 수 있는 Microsoft 통합 커뮤니케이션 관리 API (가) 3.0 Core SDK를 기반으로 하는 응용 프로그램입니다. 부분 MA 응용 프로그램에 대 한 자세한 내용은의 "통합 커뮤니케이션 관리 API 3.0 Core SDK 설명서"를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320) .
 
 Microsoft OWA (Outlook web Access) 및 Lync Server 2013을 구성 하는 방법에 대 한 자세한 내용은 Microsoft Exchange Server 2013 설명서에서 "Outlook Web App 및 Lync Server 2010 통합 구성"을 참조 하십시오.
 

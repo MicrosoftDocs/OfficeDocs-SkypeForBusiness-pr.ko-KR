@@ -12,20 +12,22 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 496d1c5e420ab20787d526f1a9fa93070e9eafb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60c2260f5729c45455596f0ab2477f7a190ef520
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509225"
 ---
+# <a name="lync-server-2013-resource-kit-tools-documentation"></a>Lync Server 2013 Resource Kit 도구 설명서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-resource-kit-tools-documentation"></a>Lync Server 2013 Resource Kit 도구 설명서
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**마지막으로 수정 된 항목:** 2014-01-09_
 
 ## <a name="installation-of-the-resource-kit-tools"></a>리소스 키트 도구 설치
 
-Lync Server 2013, 리소스 키트 도구를 설치 하려면 **Ocsreskit.** m b를 다운로드 합니다. 리소스 키트 도구 설치 관리자는의 다운로드 센터에서 다운로드할 수 있습니다 [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429).
+Lync Server 2013, 리소스 키트 도구를 설치 하려면 **OCSReskit.msi**를 다운로드 합니다. 리소스 키트 도구 설치 관리자는의 다운로드 센터에서 다운로드할 수 있습니다 [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429) .
 
-작업을 간단 하 게 설치 하려면 **Ocsreskit** 를 실행 합니다. .Msi는 다음 경로에 있는 모든 도구를 설치 합니다: **% Program Files%\\Microsoft Lync Server 2013\\ResKit**. 자체 포함 된 실행 파일은이 폴더에 있습니다. 파일을 포함 하는 도구는 자체 하위 폴더에 있습니다.
+단순 설치를 수행 하려면 **OCSResKit.msi** 를 실행 합니다. .Msi는 다음 경로에 있는 모든 도구를 설치 합니다: **% Program Files% \\ Microsoft Lync Server 2013 \\ ResKit**. 자체 포함 된 실행 파일은이 폴더에 있습니다. 파일을 포함 하는 도구는 자체 하위 폴더에 있습니다.
 
 </div>
 
@@ -89,7 +91,7 @@ Lync Server 2013, 리소스 키트 도구를 설치 하려면 **Ocsreskit.** m b
 
   - SEFAUtil
 
-  - Sysprep.inf
+  - SYSPrep.ps1
 
   - 할당 되지 않은 번호 알림 마이그레이션
 
@@ -117,7 +119,7 @@ ABSConfig는 관리자가 주소록 서비스와 관련 된 Active Directory 도
 
   - 관리자가 기본 주소록 서비스 설정을 복원 하도록 설정 합니다.
 
-ABSConfig 도구는 absConfig 파일을 사용 하 여 시작할 수 있습니다. 도구를 열면 **특성 구성** 탭이 열립니다. 이 테이블에는 Active Directory 도메인 서비스 특성을 Lync Server 2013의 특성 필드에 매핑하고, 특정 특성 필터를 기준으로 주소록 서비스 파일에 포함 하거나 제외할 사용자를 지정 하는 옵션이 있습니다. 또한 주소록 파일에 포함할 전화 번호의 값을 사용자 지정 하는 옵션도 있습니다. 관리자는 **기본값 복원** 옵션을 사용 하 여 주소록 서비스 설정을 기본값으로 복원할 수 있습니다.
+ABSConfig 도구는 absConfig.exe 파일을 사용 하 여 시작할 수 있습니다. 도구를 열면 **특성 구성** 탭이 열립니다. 이 테이블에는 Active Directory 도메인 서비스 특성을 Lync Server 2013의 특성 필드에 매핑하고, 특정 특성 필터를 기준으로 주소록 서비스 파일에 포함 하거나 제외할 사용자를 지정 하는 옵션이 있습니다. 또한 주소록 파일에 포함할 전화 번호의 값을 사용자 지정 하는 옵션도 있습니다. 관리자는 **기본값 복원** 옵션을 사용 하 여 주소록 서비스 설정을 기본값으로 복원할 수 있습니다.
 
 </div>
 
@@ -199,11 +201,11 @@ Lync Server 2013 배포를 업데이트 하는 데 필요한 사용 권한이 �
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
-ABSConfig는 명령 프롬프트에서 **ABSConfig** 를 입력 하 여 시작할 수 있습니다. 아래에는 ABSConfig 도구 사용자 인터페이스가 나와 있습니다.
+ABSConfig는 명령 프롬프트에 **ABSConfig.exe** 를 입력 하 여 시작할 수 있습니다. 아래에는 ABSConfig 도구 사용자 인터페이스가 나와 있습니다.
 
-![ABSConfig 도구](images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "ABSConfig 도구")
+![ABSConfig.exe 도구입니다.](images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "ABSConfig.exe 도구입니다.")
 
 </div>
 
@@ -233,7 +235,7 @@ ABSConfig는 명령 프롬프트에서 **ABSConfig** 를 입력 하 여 시작�
 
 ## <a name="description"></a>설명
 
-대역폭 정책 서비스 모니터 도구는 GUI 기반 응용 프로그램으로 구현 됩니다. 관리자가 도구를 시작 합니다.
+대역폭 정책 서비스 모니터 도구는 GUI 기반 응용 프로그램으로 구현 됩니다. 관리자는 PDPMonUI.exe를 실행 하 여 도구를 시작 합니다.
 
 이 도구는 시작 될 때 토폴로지의 대역폭 정책 서비스 목록을 검색 합니다. 초기 업데이트가 완료 되 면 창 왼쪽의 창에는 자신이 속한 클러스터 별로 그룹화 된 서비스 목록이 채워집니다.
 
@@ -295,7 +297,7 @@ Lync Server 토폴로지의 일부인 컴퓨터에서 대역폭 정책 서비스
 
 ## <a name="summary"></a>요약
 
-대역폭 정책 서비스 모니터 도구는 토폴로지의 모든 대역폭 정책 서비스 상태를 검사할 수 있도록 관리자에 게 유용한 리소스가 될 수 있으며, 더 중요 한 역할을 하는 링크에 대 한 실시간 대역폭 사용률을 얻을 수 있습니다. 네트워크 구성 설정에 정의 되어 있습니다.
+대역폭 정책 서비스 모니터 도구는 토폴로지의 모든 대역폭 정책 서비스의 상태를 조사할 수 있도록 관리자에 게 유용한 리소스 이며, 더 중요 한 이유는 네트워크 구성 설정에 정의 된 링크에 대 한 실시간 대역폭 사용률을 얻을 수 있다는 것입니다.
 
 </div>
 
@@ -355,9 +357,9 @@ Lync Server 토폴로지의 일부인 컴퓨터에서 대역폭 정책 서비스
 
 대역폭 사용률 분석기에는 다음과 같은 두 가지 응용 프로그램 (도구)이 있습니다.
 
-  - **WanLinkLogCollector**   이 도구는 사용자가 필요한 정보를 입력할 수 있도록 합니다.
+  - **WanLinkLogCollector.exe**     이 도구를 사용 하면 사용자가 필요한 정보를 입력할 수 있습니다.
 
-  - **BandwidthUtilizationAnalyzer**Microsoft Excel 스프레드시트 소프트웨어 보고서는 WanLinkLogCollector를 통해 자동으로 시작 됩니다.   이 응용 프로그램을 통해 사용자는이 문서 뒷부분에 나와 있는 것 처럼 보고서에 필터를 적용할 수 있습니다.
+  - **BandwidthUtilizationAnalyzer.xlsm**    Microsoft Excel 스프레드시트 소프트웨어 보고서는 WanLinkLogCollector.exe에 의해 자동으로 실행 됩니다. 이 응용 프로그램을 통해 사용자는이 문서 뒷부분에 나와 있는 것 처럼 보고서에 필터를 적용할 수 있습니다.
 
 </div>
 
@@ -367,15 +369,15 @@ Lync Server 토폴로지의 일부인 컴퓨터에서 대역폭 정책 서비스
 
 대역폭 사용률 분석기를 사용 하는 경우 두 가지 단계가 있습니다.
 
-  - WanLinkLogCollector을 사용 하 여 수행 되는 로그 수집
+  - WanLinkLogCollector.exe를 사용 하 여 수행 되는 로그 수집
 
-  - BandwidthUtilizationAnalyzer을 사용 하 여 수행 되는 보고서 사용자 지정
+  - BandwidthUtilizationAnalyzer.xlsm을 사용 하 여 수행 하는 보고서 사용자 지정
 
 <div>
 
 
 > [!IMPORTANT]  
-> 최종 사용자가 수동으로 BandwidthUtilizationAnalyzer을 실행 하는 것이 좋습니다.
+> 최종 사용자가 수동으로 m BandwidthUtilizationAnalyzer.xls를 시작 하지 않는 것이 좋습니다.
 
 
 
@@ -387,17 +389,17 @@ Lync Server 토폴로지의 일부인 컴퓨터에서 대역폭 정책 서비스
 
 ## <a name="starting-bandwidth-utilization-analyzer"></a>대역폭 사용률 분석기 시작
 
-명령 프롬프트 또는 Windows 탐색기를 사용 하 여 WanLinkLogCollector을 시작 합니다.
+명령 프롬프트 또는 Windows 탐색기를 사용 하 여 WanLinkLogCollector.exe을 시작 합니다.
 
-**WanLinkLogCollector 사용**
+**WanLinkLogCollector.exe사용 **
 
-WanLinkLogCollector를 사용 하는 세 가지 단계는 다음과 같습니다.
+WanLinkLogCollector.exe를 사용 하는 세 가지 단계는 다음과 같습니다.
 
-1.  **로그 시간 표시**   막대에 보고서를 생성 해야 하는 시간 표시 막대를 제공 합니다.
+1.  **시간 표시 막대 기록**     보고서를 생성 해야 하는 시간 표시 막대를 제공 합니다.
 
-2.  **파일 위치 정보를 제공 하는 파일 디렉터리 지정**   
+2.  **파일 디렉터리 지정**     파일 위치 정보 제공
 
-3.  **로그를 수집 하 고 보고서 뷰어**  를 실행 하 여 보고서를 생성 하는 명령 실행
+3.  **로그 수집 및 보고서 뷰어 실행**    보고서를 생성 하는 명령을 실행 합니다.
 
 <div>
 
@@ -419,7 +421,7 @@ WanLinkLogCollector를 사용 하는 세 가지 단계는 다음과 같습니다
 
 표시 된 대로 사용자가 다음 파일 디렉터리를 지정할 수 있습니다.
 
-  - **서버 로그 파일 위치** 대역폭 정책 서버 로그가 저장 되는 폴더 위치입니다. 일반적으로 FE \<\>\\\\\<\>appserverfiles PDP를 op-fileserver 선택할 수\\있습니다.
+  - **서버 로그 파일 위치** 대역폭 정책 서버 로그가 저장 되는 폴더 위치입니다. 이는 일반적으로 \<fileserver\> \\ \<choice of FE\> \\ appserverfiles \\ PDP에 있습니다.
 
   - **임시 파일 저장 위치** 보고서를 생성 하는 동안 중간 파일이 저장 되는 임시 파일 위치입니다.
 
@@ -449,20 +451,20 @@ WanLinkLogCollector를 사용 하는 세 가지 단계는 다음과 같습니다
 
 ![Utili 대역폭에서 수집 된 알림을 기록 합니다.](images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "Utili 대역폭에서 수집 된 알림을 기록 합니다.")
 
-**확인**을 클릭합니다. BandwidthUtilizationAnalyzer가 자동으로 시작 됩니다. 메시지 상자의 지침을 따릅니다. 자세한 내용은 다음 섹션에서 **BandwidthUtilizationAnalyzer 사용** 을 참조 하십시오.
+**확인**을 클릭합니다. BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작 됩니다. 메시지 상자의 지침을 따릅니다. 자세한 내용은 다음 섹션에서 **BandwidthUtilizationAnalyzer.xlsm 사용** 을 참조 하십시오.
 
 </div>
 
 <div>
 
 
-**BandwidthUtilizationAnalyzer 사용**
+**BandwidthUtilizationAnalyzer.xlsm 사용**
 
-1.  BandwidthUtilizationAnalyzer가 자동으로 시작 되 면 아래 표시 된 대로 **새로 고침** 을 클릭 합니다.
+1.  BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작 되 면 아래 표시 된 대로 **새로 고침** 을 클릭 합니다.
     
-    ![BandwidthUtilizationAnalyzer. .xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer. .xlsm")
+    ![BandwidthUtilizationAnalyzer.xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer.xlsm")
 
-2.  파일 폴더가 열리면 아래와 같이 메시지 상자에 지정 된 위치에서 통합 .csv를 선택 합니다. 또한 **C:\\Temp**로 위치를 표시 합니다.
+2.  파일 폴더가 열리면 아래와 같이 메시지 상자에 지정 된 위치에서 consolidated.csv를 선택 합니다. 또한 **C: \\ Temp**로 위치를 표시 합니다.
     
     ![BandwidthUtilizationAnalyzer에서 폴더 열기](images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "BandwidthUtilizationAnalyzer에서 폴더 열기")
 
@@ -584,7 +586,7 @@ Call Parkometer는 현재 대기 중인 통화를 추적 하는 도구입니다.
 
   - **– f** 매개 변수-풀에서 현재 사용 가능한 궤도의 수를 나열 합니다.
 
-  - **– r \<n\> ** 매개 변수-n \<\> 개의 마지막으로 대기 된 통화를 나열 합니다. 표시 되는 정보는 다음과 같습니다.
+  - **– r \<n\> ** parameter-마지막으로 대기 된 통화를 나열 합니다 \<n\> . 표시 되는 정보는 다음과 같습니다.
     
       - Parkee SIP URI입니다.
     
@@ -594,7 +596,7 @@ Call Parkometer는 현재 대기 중인 통화를 추적 하는 도구입니다.
     
       - 통화를 검색 하거나 삭제할 때의 타임 스탬프입니다.
 
-  - **-t\<n\> ** 매개 변수-데이터베이스의 궤도를 예약 하 여 지정 된 궤도 번호의 임의성을 표시 하는 테스트입니다.
+  - **-t \<n\> ** parameter-지정 된 궤도 번호의 임의성을 표시 하기 위해 데이터베이스의 궤도를 예약 하는 테스트입니다.
 
 </div>
 
@@ -628,7 +630,7 @@ CPS 도구의 용도는 CPS 데이터베이스에 대 한 명령줄 액세스를
 
 ## <a name="requirements"></a>요구 사항
 
-CPS를 실행 하는 동일한 컴퓨터에서이 도구를 실행 하는 경우에는 요구 사항이 없습니다. 원격 컴퓨터에서이 도구를 실행 하는 경우 Lync Server 2013에서 사용 하는 SQL Server 데이터베이스를 원격 액세스를 허용 하도록 구성 해야 합니다. 풀의 SQL Server에 연결 하려면 Call Parkometer를 SQL Server 데이터베이스 연결 문자열로 구성 해야 합니다. 이 SQL Server 데이터베이스 연결 문자열은 구성 파일인 **parkometer**에 정의 되어 있습니다. Parkometer가 있는 디렉터리에 배치 해야 합니다. 다음 XML 파일은 parkometer의 예입니다. 구성 해야 하는 매개 변수는 사용자 이름 (예: mydomain\\관리자), 암호 (예: mypassword) 및 호스트 이름 (예: myserver)입니다.
+CPS를 실행 하는 동일한 컴퓨터에서이 도구를 실행 하는 경우에는 요구 사항이 없습니다. 원격 컴퓨터에서이 도구를 실행 하는 경우 Lync Server 2013에서 사용 하는 SQL Server 데이터베이스를 원격 액세스를 허용 하도록 구성 해야 합니다. 풀의 SQL Server에 연결 하려면 Call Parkometer를 SQL Server 데이터베이스 연결 문자열로 구성 해야 합니다. 이 SQL Server 데이터베이스 연결 문자열은 구성 파일 **parkometer.exe.config**에 정의 되어 있습니다. parkometer.exe가 있는 디렉터리에 배치 해야 합니다. 다음 XML 파일은 parkometer.exe.config의 예입니다. 구성 해야 하는 매개 변수는 사용자 이름 (예: mydomain \\ 관리자), 암호 (예: mypassword) 및 호스트 이름 (예: myserver)입니다.
 
 ```xml
     <?xml version="1.0" encoding="utf-8" ?>
@@ -647,7 +649,7 @@ CPS를 실행 하는 동일한 컴퓨터에서이 도구를 실행 하는 경우
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
 배포한 궤도 범위:-o 매개 변수는 표시 된 것 처럼이 풀에 대해 구성 된 모든 궤도 범위를 나열 합니다.
 
@@ -661,11 +663,11 @@ Free 궤도의 수: – f 매개 변수는 다음과 같이 풀에 현재 사용
 
 ![통화 Parkometer의 무료 궤도입니다.](images/JJ945604.ecc1d621-0ca0-4ecf-a579-08b41c6f08ed(OCS.15).jpg "통화 Parkometer의 무료 궤도입니다.")
 
-최근에 대기 된 통화: – r \<n\> 매개 변수는 \<표시\> 된 대로 마지막으로 대기 중인 통화를 나열 합니다.
+최근에 대기 된 통화:-r \<n\> 매개 변수는 표시 된 마지막 대기 통화를 나열 합니다. \<n\>
 
 ![통화 Parkometer의 최근에 파킹 된 통화입니다.](images/JJ945604.1c5eb27d-faa1-491b-b4aa-b484255c3353(OCS.15).jpg "통화 Parkometer의 최근에 파킹 된 통화입니다.")
 
-Test 궤도 예약: – t \<n\> 매개 변수 테스트에서는 다음과 같이 데이터베이스에서 궤도를 예약 합니다.
+Test 궤도 예약: – t \<n\> 매개 변수 테스트에서는 다음과 같이 데이터베이스의 궤도를 예약 합니다.
 
 ![통화 Parkometer에서 궤도 예약을 테스트 합니다.](images/JJ945604.84c9b69e-7af0-4224-8711-a43a28f08691(OCS.15).jpg "통화 Parkometer에서 궤도 예약을 테스트 합니다.")
 
@@ -699,15 +701,15 @@ CleanupStorageServiceData resource kit 도구를 사용 하면 Lync Server 저�
 
 ## <a name="requirements"></a>요구 사항
 
-Lync Server 2013, 리소스 키트 도구를 설치 합니다. 이 도구는 Lync Server 및 Lync Server 2013 관리 셸이 설치 된 도메인에 가입 된 컴퓨터에서 실행 됩니다. 이 도구는 관리 셸에서 cmdlet을 사용 하 여 풀의 모든 프런트 엔드 서버를 식별 합니다. 그런 다음 **RtcLocal** 데이터베이스가 설치 된 풀의 컴퓨터에서 도구를 실행 해야 합니다. 이 데이터베이스는 CleanupStorageServiceData 도구에서 Lync Server 라우팅 서비스와 통신 하는 데 필요한 연결 세부 정보를 가져오는 데 사용 됩니다. 마지막으로 도구를 호출 하는 계정 또는 자격 증명에는 출력 로그를 쓸 파일 공유에 대 한 읽기/쓰기 권한이 있어야 합니다. 또한이 도구는 풀이 안정적인 상태임을 따라 달라 집니다. 따라서 모든 프런트 엔드 서버가 가동 되 고 실행 중 이어야 하 고 SQL Server LYNCLOCAL instance 및 LYSS 데이터베이스를 연결할 수 있어야 하며, 각 라우팅 그룹에는 1 개의 기본 프런트 엔드 서버와 2 개의 보조 프런트 엔드 서버의 전체 집합이 있어야 합니다. ervers.
+Lync Server 2013, 리소스 키트 도구를 설치 합니다. 이 도구는 Lync Server 및 Lync Server 2013 관리 셸이 설치 된 도메인에 가입 된 컴퓨터에서 실행 됩니다. 이 도구는 관리 셸에서 cmdlet을 사용 하 여 풀의 모든 프런트 엔드 서버를 식별 합니다. 그런 다음 **RtcLocal** 데이터베이스가 설치 된 풀의 컴퓨터에서 도구를 실행 해야 합니다. 이 데이터베이스는 CleanupStorageServiceData 도구에서 Lync Server 라우팅 서비스와 통신 하는 데 필요한 연결 세부 정보를 가져오는 데 사용 됩니다. 마지막으로 도구를 호출 하는 계정 또는 자격 증명에는 출력 로그를 쓸 파일 공유에 대 한 읽기/쓰기 권한이 있어야 합니다. 또한이 도구는 풀이 안정적인 상태임을 따라 달라 집니다. 즉, 모든 프런트 엔드 서버가 가동 되 고 실행 중 이어야 하 고 SQL Server LYNCLOCAL instance 및 LYSS 데이터베이스를 연결할 수 있어야 하며 각 라우팅 그룹에는 1 개의 기본 프런트 엔드 서버와 2 개의 보조 프런트 엔드 서버가 있어야 합니다.
 
 </div>
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
-C:\\프로그램 파일\\Microsoft Lync Server 2013\\ResKit\\StorageService\> ImportStorageServiceData
+C: \\ 프로그램 파일 \\ Microsoft Lync Server 2013 \\ ResKit \\ StorageService \> ImportStorageServiceData.exe
 
     Description:
     This tool will remove orphaned data from the Storage Service database
@@ -779,7 +781,7 @@ C:\\프로그램 파일\\Microsoft Lync Server 2013\\ResKit\\StorageService\> Im
 
 DBAnalyze는 관리자가 Lync Server 2013 데이터베이스에 대 한 분석 보고서를 수집할 수 있도록 하는 명령줄 도구입니다. DBAnalyze에는 진단, 사용자 데이터, 회의, MCUs 및 디스크 조각화 모드가 있습니다.
 
-  - **진단 모드**   테이블 (레코드 수)에 대 한 정보를 포함 하는 보고서를 만듭니다. 조각화, 데이터 크기 및 인덱스 크기, 데이터 및 로그 파일 크기, 이전 백업 시간, Microsoft Office Communications Server를 실행 하는 서버 간, 최대 사용 권한, 연락처, 컨테이너, 구독, 게시, 사용자 당 작업 수, 모든 부적절 한 홈 사용자, 해당 사용자에 대 한 사용자 별 끝점, 사용자별로 구성 된 회의 평균 수 회의, 활성 회의 및 데이터베이스 버전
+  - **진단 모드**     테이블 (레코드 수, 조각, 데이터 크기 및 인덱스 크기)에 대 한 정보를 포함 하는 보고서를 만듭니다. 데이터 및 로그 파일 크기, 최근 백업 시간, 마지막 다시 실행 시간은 Microsoft Office Communications Server, 사용자 당 평균 사용 권한, 연락처, 컨테이너, 구독, 게시, 사용자별 끝점, 모든 부적절 한 홈 사용자, 사용자에 게 구성 된 최대 전화 회의 수, 예약 된 전화 회의, 활성 회의 및 데이터베이스 버전 등이 여기에 해당 합니다.
     
     <div>
     
@@ -790,17 +792,17 @@ DBAnalyze는 관리자가 Lync Server 2013 데이터베이스에 대 한 분석 
     
     </div>
 
-  - **사용자 데이터 모드**  는 지정 된 사용자 또는 해당 사용자가 연락처 및 사용 권한 목록에 있는 사용자에 대 한 연락처, 컨테이너, 구독, 게시, 사용 권한 및 연락처 그룹 데이터를 보고 합니다. 또한이 모드는 사용자가 구성 하거나 초대 하는 전화 회의에 대 한 요약 데이터를 보고 합니다.
+  - **사용자 데이터 모드**   지정 된 사용자 또는 해당 사용자가 대화 상대 및 사용 권한 목록에 있는 사용자에 대 한 연락처, 컨테이너, 구독, 게시, 사용 권한 및 연락처 그룹 데이터를 보고 합니다. 또한이 모드는 사용자가 구성 하거나 초대 하는 전화 회의에 대 한 요약 데이터를 보고 합니다.
 
-  - **전화 회의 모드**   에서는 회의에 대 한 모든 일정 시간 정보, 초대 대 상자, 회의에 허용 되는 미디어 유형 목록, 활성 참가자 목록 및 각 참가자의 신호 상태를 비롯 하 여 특정 회의에 대 한 자세한 데이터를 보고 합니다.
+  - **전화 회의 모드**     회의에 대 한 모든 일정 시간 정보, 초대 대 상자, 회의에 허용 되는 미디어 유형 목록, 활성 참가자 목록 및 각 참가자의 신호 상태를 비롯 하 여 특정 회의에 대 한 자세한 데이터를 보고 합니다.
 
-  - **디코드 모임 id**   **/pstnid** 스위치로 지정 되는 공중 전화망 (PSTN) 모임 id를 디코딩하고 자세한 정보는 백 엔드에 연결 하지 않습니다.
+  - **디코드 모임 ID**    **/Pstnid** 스위치로 지정 되는 공중 전화망 (PSTN) 모임 ID를 디코딩하고 자세한 정보는 백 엔드에 연결 하지 않습니다.
 
-  - **전화 회의**   문제 해결 **/pstnid** 스위치에 지정 된 PSTN 모임 ID를 디코딩하고 ID로 표시 된 전화 회의에 대 한 정보를 표시 합니다.
+  - **전화 회의**     문제 해결 **/Pstnid** 스위치에 지정 된 PSTN 모임 id를 디코딩하고 ID가 나타내는 전화 회의에 대 한 정보를 표시 합니다.
 
-  - **MCUs 모드**  는 풀의 각 MCU에 대 한 ID, 미디어 유형, URL, 하트 비트 상태, 회의 부하 및 참가자 부하를 보고 합니다.
+  - **MCUs 모드**    풀의 각 MCU에 대 한 ID, 미디어 유형, URL, 하트 비트 상태, 회의 부하 및 참가자 부하를 보고 합니다.
 
-  - **디스크 조각화 모드**  는 모든 디스크의 조각화 상태를 표시 합니다.
+  - **디스크 조각화 모드**    모든 디스크의 조각화 상태를 표시 합니다.
 
 이 도구를 사용 하 여 다양 한 문제를 진단 하거나 관리자가 용량 계획을 지원할 수 있습니다. 예를 들어 서버 A에 있는 대부분의 사용자가 자신의 연락처로 서버 B에 있는 사용자를 선택 하는 경우 관리자는 서버 A의 사용자를 서버 B로 이동 하 여 서버 간 트래픽을 줄일 수 있습니다.
 
@@ -810,7 +812,7 @@ DBAnalyze는 관리자가 Lync Server 2013 데이터베이스에 대 한 분석 
 
 ## <a name="output"></a>출력
 
-이 도구는 Lync Server 2013 데이터베이스에 대 한 미리 정의 된 보고서를 출력 합니다. **경로:** % ProgramFiles%\\Microsoft Lync Server 2013\\Reskit
+이 도구는 Lync Server 2013 데이터베이스에 대 한 미리 정의 된 보고서를 출력 합니다. **경로:** % ProgramFiles% \\ Microsoft Lync Server 2013 \\ Reskit
 
 </div>
 
@@ -818,9 +820,9 @@ DBAnalyze는 관리자가 Lync Server 2013 데이터베이스에 대 한 분석 
 
 ## <a name="purpose"></a>용도
 
-Dbanalyze .exe를 설치 하려면 로컬 폴더에 복사한 다음 도구를 실행 합니다. 이 도구를 사용 하려면 명령줄에서 다음 명령을 실행 합니다.`dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` 명령줄 옵션에 대 한 설명은 아래와 같습니다.
+Dbanalyze.exe을 설치 하려면 해당 파일을 로컬 폴더에 복사한 다음 도구를 실행 합니다. 이 도구를 사용 하려면 명령줄에서 다음 명령을 실행 합니다.`dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` 명령줄 옵션에 대 한 설명은 아래와 같습니다.
 
-![Dbanalyze에 대 한 명령줄 옵션입니다.](images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Dbanalyze에 대 한 명령줄 옵션입니다.")
+![Dbanalyze.exe에 대 한 명령줄 옵션입니다.](images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Dbanalyze.exe에 대 한 명령줄 옵션입니다.")
 
 </div>
 
@@ -836,7 +838,7 @@ Dbanalyze .exe를 설치 하려면 로컬 폴더에 복사한 다음 도구를 �
 
 **사용자** 아래 표에는 Lync Server 2013 데이터베이스에 액세스 하는 데 필요한 권한이 있는 관리자가 나와 있습니다.
 
-![Dbanalyze에 대 한 사용 권한 테이블](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Dbanalyze에 대 한 사용 권한 테이블")
+![Dbanalyze.exe에 대 한 사용 권한 테이블입니다.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Dbanalyze.exe에 대 한 사용 권한 테이블입니다.")
 
 <div>
 
@@ -852,9 +854,9 @@ Dbanalyze .exe를 설치 하려면 로컬 폴더에 복사한 다음 도구를 �
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
-다음은 유효한 Dbanalyze 명령에 대 한 예입니다.
+다음은 유효한 Dbanalyze.exe 명령의 예입니다.
 
     dbanalyze.exe /report:diag
     dbanalyze.exe /report:user /user:usera@domainb.com
@@ -891,7 +893,7 @@ ImportStorageServiceData resource kit 도구를 사용 하면 저장소 서비�
 
 **시나리오 2:** 데이터를 매일 자동으로 플러시 중이거나 저장소 서비스 데이터베이스에 대 한 응답으로 특정 크기 임계값 (예: 60%, 80%, 90% full)을 초과 하는 경우 자동으로 플러시된 데이터는 관리자가 정기적으로 다시 가져와야 합니다. 위의 상황에서 모니터링 SCOM pack이 배포 되지 않은 경우 저장소 서비스에서 플러시하는 데이터와 관련 된 Lync Server 저장소 서비스에 대 한 이벤트가 있습니다. 이벤트 Id 32075 (전체 플러시 작업을 시작 함), 32076 (전체 플러시 완료), 32082 (유지 관리 수준 플러시 시작), 32083 (, 유지 관리 수준 플러시 완료), 32089 (데이터베이스를 채우는 중에 플러시 발생) 참고 이러한 이벤트 Id는 RTM 릴리스에 해당 합니다. 관리자에 게 이러한 이벤트가 표시 되 면 플러시 된 파일이 있음을 의미 합니다. 이 도구를 사용 하 여이 데이터를 정기적으로 다시 가져와야 합니다 (예: 일주일에 한 번).
 
-온라인 서비스 릴리스의 경우 Lync Server에 대 한 상태 모니터링 SCOM pack이 배포 되는 경우 관리자에 게 플러시된 데이터를 다시 저장소 서비스에 재 가져오도록 요청 하는 새로운 경고가 발생할 수 있습니다. 프런트 엔드 서버의 이벤트 로그에 경고를 트리거한 해당 이벤트가 발생 합니다. 이 이벤트는 플러시된 데이터 파일이 있는 상위 경로에 대 한 설명과, 경고 조건을 충족 하는 파일 수를 제공 합니다. 경고 기준은 특정 상위 경로 아래에 Y 일이 지난 파일 (X 및 Y는 StorageService 내에서 사전 설정 되지만 APPCONFIG 파일을 변경 하 여 재정의할 수 있음)이 포함 되어 있다는 것입니다. 상태 경고를 트리거할 수 있는 이벤트의 두 가지 예는 다음과 같습니다 (상위 경로). 웹 서비스 파일 공유 아래에는 각 프런트 엔드의 로컬 응용 프로그램 데이터 디렉터리인 한 가지 가능성이 있습니다. 예를 들면 c:\\ProgramData\\Microsoft\\Lync Server\\StorageService)가 있습니다. 그러면 관리자가이 reskit 도구를 실행 합니다.
+온라인 서비스 릴리스의 경우 Lync Server에 대 한 상태 모니터링 SCOM pack이 배포 되는 경우 관리자에 게 플러시된 데이터를 다시 저장소 서비스에 재 가져오도록 요청 하는 새로운 경고가 발생할 수 있습니다. 프런트 엔드 서버의 이벤트 로그에 경고를 트리거한 해당 이벤트가 발생 합니다. 이 이벤트는 플러시된 데이터 파일이 있는 상위 경로에 대 한 설명과, 경고 조건을 충족 하는 파일 수를 제공 합니다. 경고 기준은 특정 상위 경로 아래에 Y 일이 지난 파일 (X 및 Y는 StorageService 내에서 사전 설정 되지만 APPCONFIG 파일을 변경 하 여 재정의할 수 있음)이 포함 되어 있다는 것입니다. 상태 경고를 트리거할 수 있는 이벤트의 두 가지 예는 다음과 같습니다 (상위 경로). 웹 서비스 파일 공유 아래에는 각 프런트 엔드의 로컬 응용 프로그램 데이터 디렉터리인 한 가지 가능성이 있습니다. 예를 들면 c: \\ ProgramData \\ Microsoft \\ Lync Server \\ StorageService). 그러면 관리자가이 reskit 도구를 실행 합니다.
 
 이 도구는 도구를 실행 하는 프런트 엔드에서 데이터를 소유 하지 않는 경우에도 실행 중인 프런트 엔드에서 CPU 및 IO 부하를 증가 시킵니다. 프런트 엔드의 CPU 및 IO 부하가 많지 않은 경우 (예: 사용량이 가장 많은 시간 외에)이 도구를 사용 하는 것이 좋습니다. 그런 다음이 도구는 데이터 파일 하나를 가져오는 데 2 ~ 3 분이 걸릴 수 있습니다. 도구 실행 시간을 추정할 때이 점에 유의 하세요. 도구에서 생성 되는 자세한 로그 파일은 기본적으로 파일 저장소에 표시 됩니다. 로그 파일의 크기가 수십 개이 하 이므로 오류가 보고 되지 않은 경우 삭제 합니다.
 
@@ -919,7 +921,7 @@ Lync Server 2013, 리소스 키트 도구를 설치 합니다. 이 도구는 Lyn
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
     >  C:\StorageService>ImportStorageServiceData.exe
     Description:
@@ -1116,7 +1118,7 @@ LookupUserConsole 도구는 특정 사용자에 대 한 내부 Lync Server 라�
 
 ## <a name="description"></a>설명
 
-LookupUserConsole을 실행 하면 SIP 주소를 허용 하 고 해당 항목과 관련 된 내부 Lync Server 라우팅 정보를 표시 하려고 하는 명령 프롬프트가 열립니다. **Exit** 를 입력 하 여 LookupUserConsole 도구를 종료 합니다.
+LookupUserConsole.exe를 실행 하면 SIP 주소를 허용 하 고 해당 항목과 관련 된 내부 Lync Server 라우팅 정보를 표시 하려고 하는 명령 프롬프트가 열립니다. **Exit** 를 입력 하 여 LookupUserConsole 도구를 종료 합니다.
 
 </div>
 
@@ -1130,9 +1132,9 @@ Lync Server 2013, 리소스 키트 도구를 설치 합니다. 이 도구는 Lyn
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
-C:\\프로그램 파일\\Microsoft Lync Server 2013\\ResKit\>lookupuserconsole
+C: \\ 프로그램 파일 \\ Microsoft Lync Server 2013 \\ ResKit \>LookupUserConsole.exe
 
     > sip:john.doe@vdomain.com
     
@@ -1236,7 +1238,7 @@ MSTurnPing 도구를 사용 하면 Lync Server 2013 통신 소프트웨어 관�
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
 다음은 도구 입력의 예입니다.
 
@@ -1260,13 +1262,13 @@ MSTurnPing 도구를 사용 하면 Lync Server 2013 통신 소프트웨어 관�
 
 ## <a name="network-configuration-viewer"></a>네트워크 구성 뷰어
 
-Microsoft Lync Server 2013 통신 소프트웨어 관리자는 네트워크 구성 뷰어를 사용 하 여 음성 이나 같은 실시간 통신 세션을 허용 하도록 프로 비전 된 엔터프라이즈에 대 한 CAC (통화 허용 제어) 네트워크 토폴로지를 볼 수 있습니다. 지정 된 대역폭 용량을 기반으로 하는 비디오 통화입니다. Lync Server 2013 관리자는 Lync Server 2013와 함께 설치 되는 대역폭 정책 서비스에 의해 적용 되는 CAC 정책을 정의 합니다.
+Microsoft Lync Server 2013 통신 소프트웨어 관리자는 네트워크 구성 뷰어를 사용 하 여 지정 된 대역폭 용량에 따라 음성 또는 비디오 통화와 같은 실시간 통신 세션을 허용 하도록 프로 비전 된 엔터프라이즈에 대 한 CAC (통화 허용 제어) 네트워크 토폴로지를 볼 수 있습니다. Lync Server 2013 관리자는 Lync Server 2013와 함께 설치 되는 대역폭 정책 서비스에 의해 적용 되는 CAC 정책을 정의 합니다.
 
 <div>
 
 ## <a name="description"></a>설명
 
-네트워크 구성 뷰어 (NetworkConfigurationViewer)를 사용 하면 관리자가 다음 작업을 수행할 수 있습니다.
+NetworkConfigurationViewer.exe (Network Configuration Viewer)에서는 관리자가 다음 작업을 수행할 수 있습니다.
 
   - Lync Server 2013 배포에서 CAC 네트워크 토폴로지를 그래픽 형식으로 로드 하 고 확인 합니다.
 
@@ -1296,7 +1298,7 @@ Microsoft Lync Server 2013 통신 소프트웨어 관리자는 네트워크 구�
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
 **다음은 Lync Server 2013 배포에서 CAC 네트워크 토폴로지를 그래픽 형식으로 로드 하 고 확인 하** 는 것입니다. Lync Server 2013 관리자는 아래 그림에 나와 있는 것 처럼 **네트워크 구성 다운로드** 옵션을 사용 하 여 lync server 2013 컴퓨터에서 CAC 네트워크 토폴로지 구성을 로드 하 고 확인할 수 있습니다. 이 도구는 Lync 구성 저장소에 연결 되지 않은 컴퓨터에 배포할 때 이러한 구성을 다운로드 하거나 볼 수 없습니다.
 
@@ -1400,7 +1402,7 @@ CAC 네트워크 토폴로지를 디스크의 XML 형식으로 저장 하 고 �
 
 ## <a name="configuration"></a>구성
 
-응용 프로그램의 옵션 대화 상자를 사용 하 여 개별 기본 설정에 응답 그룹 에이전트 Live를 사용자 지정할 수 있습니다. 또한 관리자는 RGAgentLive 파일의 defaultHostAddress 속성을 직접 편집 하 여 기본 호스트 주소를 정의할 수 있습니다.
+응용 프로그램의 옵션 대화 상자를 사용 하 여 개별 기본 설정에 응답 그룹 에이전트 Live를 사용자 지정할 수 있습니다. 또한 관리자는 RGAgentLive.exe.config 파일의 defaultHostAddress 속성을 직접 편집 하 여 기본 호스트 주소를 정의할 수 있습니다.
 
 아래 그림에서는 상담원이 호스트 주소 및 바로 가기 키를 구성 하는 데 사용할 수 있는 옵션 대화 상자를 보여 줍니다. 주 인터페이스의 오른쪽 위에 있는 옵션 단추를 클릭 하 여이 대화 상자에 액세스할 수 있습니다.
 
@@ -1420,7 +1422,7 @@ CAC 네트워크 토폴로지를 디스크의 XML 형식으로 저장 하 고 �
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
 아래 그림에서는 오른쪽 창에서 연락처를 마우스 오른쪽 단추로 클릭 하 여 다른 에이전트로 IM을 호출 하거나 보내는 방법을 보여 줍니다.
 
@@ -1446,9 +1448,9 @@ Fast sign-on 및 로그 아웃, 그룹 구성원 자격 및 기본 실시간 통
 
 ## <a name="sefautil"></a>SEFAUtil
 
-SEFAUtil (보조 확장 기능 정품 인증)은 Microsoft Lync Server 2013 communications software administrators 및 헬프데스크 에이전트에서 위임-링, 착신 전환, 동시 전화 신호 울림, 팀 호출을 구성할 수 있도록 하는 명령줄 도구입니다. Lync Server 2013 사용자 대신 설정 및 그룹 통화 픽업 또한이 도구를 사용 하면 관리자가 특정 사용자에 대해 게시 된 통화 라우팅 설정을 쿼리할 수 있습니다. SEFAUtil 도구를 사용 하면 관리자가 사용자를 대신 하 여 착신 전환 또는 동시 신호음 울림을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 관리자는 대상 (SIP URI 형식)을 지정 하거나 사용자가 이미 게시 한 대상을 사용할 수 있습니다. 또한 관리자는이 도구를 사용 하 여 사용자 대신 대리인 또는 팀 호출 그룹 구성원을 추가 하거나 제거할 수 있습니다. 이 도구는 Microsoft 통합 커뮤니케이션 관리 API (지 수) 3.0를 기반으로 작성 되었으며 관리자가 SEFAUtil에 대 한 중앙 관리 저장소에서 트러스트 된 응용 프로그램을 만들어야 합니다.
+SEFAUtil (보조 확장 기능 활성화)는 Microsoft Lync Server 2013 통신 소프트웨어 관리자 및 헬프데스크 에이전트에서 Lync Server 2013 사용자를 대신 하 여 위임-링, 착신 전환, 동시 전화 신호, 팀 호출 설정 및 그룹 통화 픽업을 구성할 수 있도록 하는 명령줄 도구입니다. 또한이 도구를 사용 하면 관리자가 특정 사용자에 대해 게시 된 통화 라우팅 설정을 쿼리할 수 있습니다. SEFAUtil 도구를 사용 하면 관리자가 사용자를 대신 하 여 착신 전환 또는 동시 신호음 울림을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 관리자는 대상 (SIP URI 형식)을 지정 하거나 사용자가 이미 게시 한 대상을 사용할 수 있습니다. 또한 관리자는이 도구를 사용 하 여 사용자 대신 대리인 또는 팀 호출 그룹 구성원을 추가 하거나 제거할 수 있습니다. 이 도구는 Microsoft 통합 커뮤니케이션 관리 API (지 수) 3.0를 기반으로 작성 되었으며 관리자가 SEFAUtil에 대 한 중앙 관리 저장소에서 트러스트 된 응용 프로그램을 만들어야 합니다.
 
-SEFAUtil (보조 확장 기능 활성화) Lync server 2013 관리자 및 지원 센터 에이전트가 Lync Server 2013 사용자를 대신 하 여 위임-링, 착신 전환, 동시 신호 울림, 팀 호출 설정 및 그룹 통화 픽업을 구성할 수 있도록 합니다. . 또한 관리자는이 도구를 사용 하 여 특정 사용자에 대해 게시 된 통화 라우팅 설정을 쿼리할 수 있습니다.
+SEFAUtil (보조 확장 기능 활성화) Lync server 2013 관리자 및 지원 센터 에이전트가 Lync Server 2013 사용자를 대신 하 여 위임-링, 착신 전환, 동시 신호 울림, 팀 호출 설정 및 그룹 통화 픽업을 구성할 수 있도록 합니다. 또한 관리자는이 도구를 사용 하 여 특정 사용자에 대해 게시 된 통화 라우팅 설정을 쿼리할 수 있습니다.
 
 <div>
 
@@ -1525,7 +1527,7 @@ SEFAUtil (보조 확장 기능 활성화) Lync server 2013 관리자 및 지원 
 
   - Joe의 직장 번호에 대 한 통화는 직장에서 언제 든 지 모바일 음성 메일로 이동 합니다. 그러나 대부분의 다른 위치에서 제대로 작동 하는 것 처럼 보입니다. 헬프데스크 기술자는 Joe의 라우팅 구성을 볼 수 있으며, Joe가 휴대폰으로 구성 된 동시 연결을 감지 합니다. 기술자는 귀하의 사무실에 있는 모바일 기능에 대 한 정보를 제공 하 고 동시 벨 울림 규칙으로 인해 네트워크에 문제가 있을 경우 Joe의 모바일 음성 메일로 전화가 이동 하도록 하는 것을 확인할 수 있습니다.
 
-  - Mike는 Contoso의 새로운 직원이 며, Microsoft Lync를 사용할 수 있게 되 면 관리자가 팀 호출에 대해 모든 구성원이 구성 된 새 팀에 참여 하 여 모든 새 팀 구성원이 포함 되도록 설정 될 수 있습니다. 관리자가 Mike를 팀의 각 구성원에 대 한 팀 호출 그룹 구성원으로 추가 합니다.
+  - Mike는 Contoso의 새로운 직원이 며, Microsoft Lync에 대해 사용 하도록 설정 된 경우 관리자가 팀 호출에 대해 모든 구성원을 포함 하도록 구성 하는 새 팀에 참여 하 고 있으며, 관리자는 팀의 각 구성원에 대해 Mike를 팀 호출 그룹 구성원으로 추가할 수 있습니다.
 
   - Contoso의 인적 자원 부서에 있는 고객 서비스 연습은 최초 통화 이후 모든 발신자에 게 개인 서비스를 제공 하는 것입니다. 부서의 모든 구성원이 서로 가까이에 있을 것 이므로 모든 전화가 팀과 동시에 모든 전화를 사용 하는 것은 팀에 게 매우 방해가 됩니다. 팀 구성원을 중단시 키 지 않고 최상의 서비스를 제공 하기 위해 Lync 관리자는 그룹 통화 픽업 기능을 활용 합니다. 관리자가 모든 부서 구성원을 pickup 그룹에 추가 하 고 해당 부서에 pickup 그룹 번호를 전달 합니다. Samantha가 책상에 없으면 Joe가 전화를 걸고 사용자의 책상 으로부터 통화에 응답 하도록 진행 합니다.
 
@@ -1571,7 +1573,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 4.  필요한 경우 SEFAUtil 도구를 실행 하는 데 사용할 Lync Server 2013 Resource Kit 도구 (서버는 신뢰할 수 있는 응용 프로그램 풀의 일부가 되어야 함)를 설치 합니다.
 
-5.  SEFAUtil가 제대로 실행 되 고 있는지 확인 합니다. 이렇게 하려면 관리자 권한으로 windows 명령 프롬프트에서 도구를 실행 하 여 배포에 포함 된 사용자의 착신 전환 설정을 표시 합니다. 도구는 기본적으로 다음 위치에 배치 됩니다. \\프로그램 파일\\Microsoft Lync Server 2013\\Reskit ". 사용자의 착신 전환 설정을 표시 하려면 다음 명령을 사용 합니다.
+5.  SEFAUtil가 제대로 실행 되 고 있는지 확인 합니다. 이렇게 하려면 관리자 권한으로 windows 명령 프롬프트에서 도구를 실행 하 여 배포에 포함 된 사용자의 착신 전환 설정을 표시 합니다. 도구는 기본적으로 다음 \\ 위치에 배치 됩니다. 프로그램 파일 \\ Microsoft Lync Server 2013 \\ Reskit ". 사용자의 착신 전환 설정을 표시 하려면 다음 명령을 사용 합니다.
     
         SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
     
@@ -1579,7 +1581,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 <div>
 
-## <a name="group-call-pickup"></a>그룹 통화 픽업
+## <a name="group-call-pickup"></a>그룹 통화 받기
 
 그룹 통화 픽업 기능을 사용 하려면 Lync Server의 추가 구성이 필요 합니다. 사용자에 게 pickup 그룹을 할당 하기 전에이 기능의 계획 및 배포 단계에 대 한 Call Pickup 제품 설명서 그룹을 참조 하십시오.
 
@@ -1589,7 +1591,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
 <div>
 
@@ -1740,7 +1742,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 <div>
 
-## <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>대리인을 추가 하 고 대리인에 게 착신 전환 규칙을 설정 합니다.
+## <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>대리인을 추가 하 고 대리인 규칙에 Call-Forward 설정
 
 다음은 대리인을 추가 하 고 착신 전환을 대리인 규칙에 설정 하는 예제입니다.
 
@@ -1804,7 +1806,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 <div>
 
-## <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>팀 통화를 위해 팀 구성원을 추가 하 고 팀 호출 구성원 그룹에 게 동시 신호음 울림 설정
+## <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>Team-Call에 대 한 팀 구성원을 추가 하 고 Team-Call 구성원 그룹으로 동시 벨 울림 설정
 
 이 예에서는 사용자의 팀 호출 그룹에 팀 구성원을 추가 하 고 팀 호출 그룹에 동시에 신호음을 울리는 기능을 사용 하도록 설정 합니다.
 
@@ -1831,7 +1833,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 <div>
 
-## <a name="remove-a-member-from-the-team-call-group"></a>팀 호출 그룹에서 구성원 제거
+## <a name="remove-a-member-from-the-team-call-group"></a>Team-Call 그룹에서 구성원을 제거 합니다.
 
 이 예에서는 사용자의 팀 호출 그룹 팀 구성원을 제거 합니다.
 
@@ -1859,7 +1861,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 <div>
 
-## <a name="set-the-delayed-ring-to-the-team-call-group"></a>지연 된 링을 팀 호출 그룹으로 설정
+## <a name="set-the-delayed-ring-to-the-team-call-group"></a>지연 된 링을 Team-Call 그룹으로 설정
 
 이 예에서는 지연 된 링을 팀 통화 그룹 시간 설정으로 변경 합니다.
 
@@ -1876,7 +1878,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 <div>
 
-## <a name="enable-team-call"></a>팀 호출 사용
+## <a name="enable-team-call"></a>Team-Call 사용
 
 이 예에서는 지정 된 사용자에 대해 팀 호출을 사용 하도록 설정 합니다.
 
@@ -1898,7 +1900,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 <div>
 
-## <a name="disable-team-call"></a>팀 호출 사용 안 함
+## <a name="disable-team-call"></a>Team-Call 사용 안 함
 
 이 예에서는 지정 된 사용자에 대해 팀 호출을 사용 하지 않도록 설정 합니다.
 
@@ -1961,13 +1963,13 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 <div>
 
-## <a name="sysprepps1"></a>Sysprep.inf
+## <a name="sysprepps1"></a>SYSPrep.ps1
 
 <div>
 
 ## <a name="description"></a>설명
 
-Sysprep.inf는 Windows Server 2008 운영 체제 컴퓨터에 다음 Lync Server 2013 필수 구성 요소를 설치 하는 Windows PowerShell 스크립트입니다.
+SYSPrep.ps1는 Windows Server 2008 운영 체제 컴퓨터에 다음 Lync Server 2013 필수 구성 요소를 설치 하는 Windows PowerShell 스크립트입니다.
 
   - Microsoft .Net Framework 4.5
 
@@ -1991,7 +1993,7 @@ Sysprep.inf는 Windows Server 2008 운영 체제 컴퓨터에 다음 Lync Server
 
 ## <a name="requirements"></a>요구 사항
 
-Sysprep.inf 스크립트를 실행 하기 전에 필수 구성 요소 파일을 Windows Server 2008 운영 체제 컴퓨터의 로컬 폴더 (예 **:\\D; 설치)** 에 복사 해야 합니다. 이 폴더에는 Lync Server 2013 파일 (특히 **setup.exe** )의 복사본도 포함 해야 합니다. 필수 구성 요소 파일은 다음 위치에서 다운로드할 수 있습니다.
+SYSPrep.ps1 스크립트를 실행 하기 전에 먼저 필수 구성 요소 파일을 Windows Server 2008 운영 체제 컴퓨터의 로컬 폴더 (예 **: D; \\ 설치)** 에 복사 해야 합니다. 이 폴더에는 Lync Server 2013 파일의 복사본 (특히Setup.exe)도 포함 해야 합니다 ** .** 필수 구성 요소 파일은 다음 위치에서 다운로드할 수 있습니다.
 
 
 <table>
@@ -2050,9 +2052,9 @@ Sysprep.inf 스크립트를 실행 하기 전에 필수 구성 요소 파일을 
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
-Sysprep.inf 스크립트를 실행 하 고 Lync Server 2013 필수 구성 요소를 설치 하려면 관리자 권한 명령 프롬프트에서 다음 명령을 실행 합니다.
+SYSPrep.ps1 스크립트를 실행 하 고 Lync Server 2013 필수 구성 요소를 설치 하려면 관리자 권한 명령 프롬프트에서 다음 명령을 실행 합니다.
 
     ./SysPrep.PS1 -SetupFolder D:\Setup
 
@@ -2099,7 +2101,7 @@ Sysprep.inf 스크립트를 실행 하 고 Lync Server 2013 필수 구성 요소
 
 **CsAnnouncementConfiguration** 스크립트는 마이그레이션 작업의 성공 또는 실패를 실행 하는 Lync Management Shell 창을 나타냅니다.
 
-작업 실행이 오류로 인해 중단 되는 경우 대상으로 성공적으로 이동 된 할당 되지 않은 번호 범위는 작업 폼의 대상에 유지 되 고 마이그레이션될 할당 되지 않은 나머지 번호 범위는에 남아 있게 됩니다. 원본 뿐만 아니라 운영 폼에도 해당 합니다. 나머지 구성을 완전히 마이그레이션하려면 오류를 해결 한 후 스크립트를 다시 실행 합니다.
+작업 실행이 오류로 인해 중단 되는 경우 대상으로 성공적으로 이동 된 지정 되지 않은 번호 범위는 운영 양식의 대상에 유지 되 고 마이그레이션될 수 없는 나머지 번호 범위는 운영 양식의 원본에도 유지 됩니다. 나머지 구성을 완전히 마이그레이션하려면 오류를 해결 한 후 스크립트를 다시 실행 합니다.
 
 </div>
 
@@ -2127,11 +2129,11 @@ Sysprep.inf 스크립트를 실행 하 고 Lync Server 2013 필수 구성 요소
 
 <div>
 
-## <a name="move-csannouncementconfiguration-script"></a>CsAnnouncementConfiguration 스크립트
+## <a name="move-csannouncementconfiguration-script"></a>Move-CsAnnouncementConfiguration 스크립트
 
-CsAnnouncementConfiguration 스크립트를 사용 하려면 아래 표에 설명 된 매개 변수가 두 가지입니다.
+Move-CsAnnouncementConfiguration 스크립트를 사용 하려면 아래 표에 설명 된 매개 변수가 두 가지입니다.
 
-![CsAnnouncementConfiguration 매개 변수입니다.](images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "CsAnnouncementConfiguration 매개 변수입니다.")
+![CsAnnouncementConfiguration 매개 변수입니다.](images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "Move-CsAnnouncementConfiguration 매개 변수")
 
 </div>
 
@@ -2141,7 +2143,7 @@ CsAnnouncementConfiguration 스크립트를 사용 하려면 아래 표에 설�
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
 <div>
 
@@ -2227,7 +2229,7 @@ CsAnnouncementConfiguration 스크립트를 사용 하려면 아래 표에 설�
 
 <div>
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
 다음 표에서는 예제에 사용 된 매개 변수에 대해 설명 합니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37462eb9f15553138dc6bb7285a5d0786dbc4b57
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ca1e1e243fe6957fdc5233b248c358d82817516
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508875"
 ---
+# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Lync Server 2013에서 회의, 응용 프로그램 및 중재 서버에 대 한 서비스 품질 정책 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Lync Server 2013에서 회의, 응용 프로그램 및 중재 서버에 대 한 서비스 품질 정책 구성
+
 
 </div>
 
@@ -103,7 +105,7 @@ QoS(서비스 품질) 정책은 그룹 정책을 사용해서 가장 쉽게 만�
 
 2.  **실행** 대화 상자에 **regedit**를 입력한 다음 Enter 키를 누릅니다.
 
-3.  레지스트리 편집기에서 **컴퓨터**를 확장 하 고 **,\_HKEY\_로컬 컴퓨터**, **소프트웨어**, **정책**, **Microsoft**, **Windows**를 차례로 확장 한 다음 **QoS**를 클릭 합니다. **QoS** 아래에 바로 전에 만든 각 QoS 정책에 대한 레지스트리 키가 표시됩니다. 예를 들어 두 개의 새 정책 (이름이 Lync Server Audio QoS와 다른 명명 된 Lync Server 비디오 QoS)을 만든 경우 Lync Server 오디오 QoS 및 Lync Server 비디오 QoS에 대 한 레지스트리 항목이 있어야 합니다.
+3.  레지스트리 편집기에서 **컴퓨터**를 확장 하 고 **, HKEY \_ 로컬 \_ 컴퓨터**, **소프트웨어**, **정책**, **Microsoft**, **Windows**를 차례로 확장 한 다음 **QoS**를 클릭 합니다. **QoS** 아래에 바로 전에 만든 각 QoS 정책에 대한 레지스트리 키가 표시됩니다. 예를 들어 두 개의 새 정책 (이름이 Lync Server Audio QoS와 다른 명명 된 Lync Server 비디오 QoS)을 만든 경우 Lync Server 오디오 QoS 및 Lync Server 비디오 QoS에 대 한 레지스트리 항목이 있어야 합니다.
 
 네트워크 패킷이 적절한 DSCP 값으로 표시되도록 하려면 다음 절차를 완료하여 각 컴퓨터에서 새 레지스트리 항목도 만들어야 합니다.
 
@@ -111,7 +113,7 @@ QoS(서비스 품질) 정책은 그룹 정책을 사용해서 가장 쉽게 만�
 
 2.  **실행** 대화 상자에 **regedit**를 입력한 다음 Enter 키를 누릅니다.
 
-3.  레지스트리 편집기에서 **\_HKEY\_로컬 컴퓨터**를 확장 하 고 **시스템**, **CurrentControlSet**, **서비스**를 차례로 확장 한 다음 **Tcpip**를 확장 합니다.
+3.  레지스트리 편집기에서 **HKEY \_ 로컬 \_ 컴퓨터**를 확장 하 고 **시스템**, **CurrentControlSet**, **서비스**를 차례로 확장 한 다음 **Tcpip**를 확장 합니다.
 
 4.  **Tcpip**를 마우스 오른쪽 단추로 클릭하고 **새로 만들기**를 가리킨 다음 **키**를 클릭합니다. 새 레지스트리 키를 만든 후 **QoS**를 입력하고 Enter 키를 눌러 키 이름을 바꿉니다.
 

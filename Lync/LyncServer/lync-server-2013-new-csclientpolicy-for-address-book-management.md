@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 주소록 관리를 위한 신규-CsClientPolicy'
+title: 'Lync Server 2013: 주소록 관리 New-CsClientPolicy'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30ee2dff06f2881906793043f1dc039f57919a67
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a253fb46dfdfe63957efa97ffa68d97ead65ed87
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508825"
 ---
+# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013의 주소록 관리 New-CsClientPolicy
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013의 주소록 관리를 위한 신규 및 CsClientPolicy
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsClientPolicy"}
 
-Cmdlet 새 CsClientPolicy는 Lync Server 2013에서 사용할 수 있는 기능에 대해 클라이언트 프로 비전을 위한 다 수의 설정을 정의 합니다. 주소록 서비스의 경우 AddressBookAvailability 매개 변수가 고려됩니다. 클라이언트에서 사용할 수 있는 옵션에 직접 영향을 주는 이 매개 변수에는 다음과 같은 세 가지 옵션이 있습니다.
+Cmdlet New-CsClientPolicy는 Lync Server 2013에서 사용할 수 있는 기능에 대 한 클라이언트 프로 비전을 위한 다 수의 설정을 정의 합니다. 주소록 서비스의 경우 AddressBookAvailability 매개 변수가 고려됩니다. 클라이언트에서 사용할 수 있는 옵션에 직접 영향을 주는 이 매개 변수에는 다음과 같은 세 가지 옵션이 있습니다.
 
   - WebSearchAndFileDownload
 

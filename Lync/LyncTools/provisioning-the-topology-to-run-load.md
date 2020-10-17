@@ -12,20 +12,22 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3e08a66397e5c6e7fb5b6111fbdcf6d11d3632a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 45b1c9d320ef35555e83bbd8851d77e00a452631
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756879"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509111"
 ---
+# <a name="provisioning-the-topology-to-run-load"></a>부하를 실행할 토폴로지 프로 비전
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-the-topology-to-run-load"></a>부하를 실행할 토폴로지 프로 비전
+
 
 </div>
 
@@ -38,8 +40,6 @@ ms.locfileid: "44756879"
 _**마지막으로 수정 된 항목:** 2013-02-04_
 
 <div>
-
-## <a name="provisioning-the-topology-to-run-load"></a>부하를 실행할 토폴로지 프로 비전
 
 기존 설정 및 Lync Server 2013의 구성에 따라 사용자 환경에서 다음과 같은 사항을 변경 해야 할 수 있습니다.
 

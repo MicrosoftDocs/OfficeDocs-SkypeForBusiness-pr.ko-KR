@@ -12,20 +12,22 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7665a8edb5e77514633de5e66a063ab509fdd821
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d315de4f8b18a5ecbeabe7ba29231c70ff893e8a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191201"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508145"
 ---
+# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>사용자 모델을 사용 하는 Lync Server 2013에 대 한 용량 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>사용자 모델을 사용 하는 Lync Server 2013에 대 한 용량 계획
+
 
 </div>
 
@@ -73,7 +75,7 @@ _**마지막으로 수정 된 항목:** 2014-01-14_
 <td><ul>
 <li><p>72 GB 이상의 사용 가능한 디스크 공간이 있는 1만-RPM 하드 디스크 드라이브 8 개 이상</p>
 <p>이 중 두 개는 RAID 1을 사용하고 6개는 RAID 10을 사용합니다.</p>
-<p>-사용자나</p></li>
+<p>- 사용자나</p></li>
 <li><p>8개의 10,000 RPM 기계식 디스크 드라이브와 유사한 성능을 제공하는 SDD(반도체 드라이브)</p></li>
 </ul></td>
 </tr>
@@ -175,7 +177,7 @@ _**마지막으로 수정 된 항목:** 2014-01-14_
 
 프런트 엔드 풀의 최대 사용자 수는 8만입니다. 풀의 최대 프런트 엔드 서버 수는 12입니다.
 
-8만 명의 사용자가 포함 된 프런트 엔드 풀의 경우 [Lync Server 2013의 사용자 모델](lync-server-2013-user-models.md)을 따르는 일반적인 배포에서 12 개의 프런트 엔드 서버는 성능에 충분 합니다. 재해 복구 장애 조치 (failover)를 지원 하도록 설계 된 배포에서는 각 풀에 사용자를 수용할 수 있는 충분 한 프런트 엔드 서버가 있는 두 개의 쌍으로 된 프런트 엔드 풀 각각에 대해 최대 4만 명의 사용자를 호스트 하는 것으로 가정 합니다. 합니다.
+8만 명의 사용자가 포함 된 프런트 엔드 풀의 경우 [Lync Server 2013의 사용자 모델](lync-server-2013-user-models.md)을 따르는 일반적인 배포에서 12 개의 프런트 엔드 서버는 성능에 충분 합니다. 재해 복구 장애 조치 (failover)를 지원 하도록 설계 4만 된 배포에서는 각 풀이 두 개의 쌍으로 된 프런트 엔드 풀 각각에 호스트 될 수 있는데,이 경우 각 풀에는 두 풀의 사용자를 둘 다 포함할 프런트 엔드 서버가 충분 한 것으로 가정 합니다.
 
 특정 프런트 엔드 풀에서 양호한 성능을 사용 하 여 지원 되는 사용자 수는 다음과 같은 이유로 인해 발생할 수 있습니다.
 
@@ -220,7 +222,7 @@ _**마지막으로 수정 된 항목:** 2014-01-14_
 
 
 > [!NOTE]  
-> 프런트 엔드 서버에서 공동 위치 A/V 회의 및 중재 서버 기능의 미디어 성능을 개선 하려면 프런트 엔드 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
+> 프런트 엔드 서버에서 공동 위치 A/V 회의 및 중재 서버 기능의 미디어 성능을 개선 하려면 프런트 엔드 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> 하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
 
 
 
@@ -266,7 +268,7 @@ _**마지막으로 수정 된 항목:** 2014-01-14_
 
 
 > [!NOTE]  
-> 에 지 서버에서 A/V 회의에 지 서비스의 성능을 향상 시키려면에 지 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
+> 에 지 서버에서 A/V 회의에 지 서비스의 성능을 향상 시키려면에 지 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> 하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
 
 
 
@@ -276,7 +278,7 @@ _**마지막으로 수정 된 항목:** 2014-01-14_
 
 <div>
 
-## <a name="director"></a>영화
+## <a name="director"></a>Director
 
 <div>
 
@@ -310,7 +312,7 @@ _**마지막으로 수정 된 항목:** 2014-01-14_
 
 중재 서버와 프런트 엔드 서버를 함께 배치할 경우에는 풀의 모든 프런트 엔드 서버에서 중재 서버가 실행 되며 풀의 사용자에 게 충분 한 용량을 제공 해야 합니다.
 
-독립 실행형 중재 서버 풀을 배포 하는 경우 배포할 중재 서버 수는 중재 서버에 사용 되는 하드웨어, VoIP 사용자 수, 각 중재 서버 풀에 있는 게이트웨이 피어 수를 포함 하 여 다양 한 요인에 따라 달라 집니다. 제어, 이러한 게이트웨이를 통한 통화 시간 트래픽 및 중재 서버를 우회 하는 미디어를 사용한 호출 비율
+독립 실행형 중재 서버 풀을 배포 하는 경우 배포할 중재 서버 수는 중재 서버에 사용 되는 하드웨어, VoIP 사용자 수, 각 중재 서버 풀에서 제어 하는 게이트웨이 피어 수, 이러한 게이트웨이를 통한 통화 시간 트래픽 및 중재 서버를 우회 하는 미디어의 호출 비율을 비롯 한 다양 한 요인에 따라 달라 집니다.
 
 다음 표에는 중재 서버에 대 한 하드웨어가 [Lync server 2013 용 서버 하드웨어 플랫폼](lync-server-2013-server-hardware-platforms.md) 의 요구 사항을 충족 하 고 하이퍼스레딩을 사용 하도록 설정 되어 있다고 가정 하 고 중재 서버가 처리할 수 있는 동시 통화의 수에 대 한 지침을 제공 합니다. 중재 서버 확장성에 대 한 자세한 내용은 lync server [2013의 중재 서버에 대](lync-server-2013-deployment-guidelines-for-mediation-server.md)한 [음성 사용량 및 2013 트래픽 예상](lync-server-2013-estimating-voice-usage-and-traffic.md) 및 배포 지침을 참조 하세요.
 
@@ -396,7 +398,7 @@ _**마지막으로 수정 된 항목:** 2014-01-14_
 
 
 > [!NOTE]  
-> 중재 서버의 성능을 향상 시키려면 중재 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
+> 중재 서버의 성능을 향상 시키려면 중재 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> 하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
 
 
 
@@ -435,7 +437,7 @@ Lync Server 2013에서 모니터링 또는 보관을 배포 하는 경우 이러
 <td></td>
 <td><p><strong>CDR (모니터링)</strong></p></td>
 <td><p><strong>QoE (모니터링)</strong></p></td>
-<td><p><strong>보관할</strong></p></td>
+<td><p><strong>보관</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>사용자 당 하루에 필요한 디스크 공간</p></td>
@@ -495,17 +497,17 @@ Microsoft는 성능 테스트 중에 모니터링 및 보관을 위해 데이터
 </tr>
 <tr class="odd">
 <td><p>CDR 데이터베이스 로그 파일</p></td>
-<td><p>개</p></td>
+<td><p>1 </p></td>
 <td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>QoE 데이터베이스 로그 파일</p></td>
-<td><p>개</p></td>
+<td><p>1 </p></td>
 <td><p>2</p></td>
 </tr>
 <tr class="odd">
 <td><p>보관 데이터베이스 로그 파일</p></td>
-<td><p>개</p></td>
+<td><p>1 </p></td>
 <td><p>2</p></td>
 </tr>
 </tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85d0c571ba4e206dc825784c2aaea1c6ceddbf89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2efbed57d88e7312bc1da3a9da8f8057fd6696a5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207142"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509375"
 ---
+# <a name="tblconfig-in-lync-server-2013"></a>Lync Server 2013의 tblConfig
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblconfig-in-lync-server-2013"></a>Lync Server 2013의 tblConfig
+
 
 </div>
 
@@ -50,7 +52,7 @@ tblConfig에는 일부 영구 채팅 서버에서 지원 되지 않는 구성이
 <thead>
 <tr class="header">
 <th>열</th>
-<th>형식</th>
+<th>유형</th>
 <th>설명</th>
 </tr>
 </thead>
@@ -58,7 +60,7 @@ tblConfig에는 일부 영구 채팅 서버에서 지원 되지 않는 구성이
 <tr class="odd">
 <td><p>configLabel</p></td>
 <td><p>nvarchar(255), null이 아님</p></td>
-<td><p>풀 &quot;을 포함 합니다.&quot;</p></td>
+<td><p>&quot;풀을 포함 합니다.&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p>configContent</p></td>

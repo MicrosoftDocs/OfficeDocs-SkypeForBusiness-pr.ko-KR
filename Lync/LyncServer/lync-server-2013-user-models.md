@@ -12,20 +12,22 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389d545c18edb4a3c14fc2f0abdf5fb185fcd0ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a5f110e6b2badd5b0651a2ad32860f421fab167
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213054"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508735"
 ---
+# <a name="user-models-in-lync-server-2013"></a>Lync Server 2013의 사용자 모델
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-models-in-lync-server-2013"></a>Lync Server 2013의 사용자 모델
+
 
 </div>
 
@@ -153,7 +155,7 @@ _**마지막으로 수정 된 항목:** 2013-10-07_
 <td><p>피어 투 피어 메신저 세션</p></td>
 <td><p>각 사용자는 하루 평균 6개의 피어 투 피어 메신저 세션에 참가합니다.</p>
 <p>세션당 메신저 메시지 수는 10개입니다.</p>
-<p>각 메시지는 SIP 정보 메시지 두 개와 SIP 200 정상 메시지 2 개 ("&lt;이름이&gt; 입력 됨"와 같은 상태 표시기의 경우)와 일치 합니다.</p></td>
+<p>각 메시지는 SIP 정보 메시지 두 개와 SIP 200 정상 메시지 2 개 (" &lt; 이름이 입력 됨"와 같은 상태 표시기의 경우)와 일치 합니다. &gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>현재 상태 폴링</p></td>
@@ -234,7 +236,7 @@ _**마지막으로 수정 된 항목:** 2013-10-07_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>예약 된 모임 &quot;및 모임&quot; 시작 모임</p></td>
+<td><p>예약 된 모임 및 &quot; 모임 시작 &quot; 모임</p></td>
 <td><p>60%는 예약, 40%는 비예약</p>
 <p>예약된 모임의 경우 80%는 회의(되풀이 회의)에 할당되고, 10%는 1회성 공개 모임, 8%는 1회성 익명 모임, 2%는 1회성 폐쇄형 모임으로 가정됩니다.</p></td>
 </tr>

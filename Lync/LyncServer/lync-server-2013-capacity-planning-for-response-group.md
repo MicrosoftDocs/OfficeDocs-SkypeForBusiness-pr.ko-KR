@@ -12,20 +12,22 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c9d43f6424a8d960ad5d0eee911b2f48455a39d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d89e2882d3f1990a794e103849c1fa705caca98b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191211"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508115"
 ---
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹에 대 한 용량 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹에 대 한 용량 계획
+
 
 </div>
 
@@ -71,7 +73,7 @@ _**마지막으로 수정 된 항목:** 2012-10-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>192.168.1.0</th>
+<th>메트릭</th>
 <th>Enterprise Edition 풀 (8 개의 프런트 엔드 서버 포함)</th>
 <th>Standard Edition Server별</th>
 </tr>

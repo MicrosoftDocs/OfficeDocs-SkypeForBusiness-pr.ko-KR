@@ -12,20 +12,22 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7ef0d68cc06582339ed066108efa28a7a85bb00
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e730b1e44bbe6e6fbec4d84a2c81ce474cff693
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198831"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507625"
 ---
+# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>사이트 및 지역 정보를 사용 하도록 Lync Server 2013에서 미디어 바이패스 전역 설정 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>사이트 및 지역 정보를 사용 하도록 Lync Server 2013에서 미디어 바이패스 전역 설정 구성
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 또는 미디어 바이패스에 대한 결정을 내릴 때 사이트 및 지역 정보를 사용하되, 통화 허용 제어를 설정하지 않으려는 경우에 이러한 단계를 따르십시오. 이러한 경우에는 [Lync Server 2013의 네트워크 사이트 간 정책 만들기](lync-server-2013-create-network-intersite-policies.md)에 설명 된 것 처럼 대역폭 제한 링크는 여전히 네트워크 사이트 간 정책을 통해 표시 되어야 합니다. 통화 허용 제어가 설정되지 않았으므로 이 경우 실제 대역폭 제한은 중요하지 않습니다. 대신, 이러한 링크는 서브넷을 분할하여 대역폭 제한이 없는 링크를 지정하는 데 사용되므로 미디어 바이패스를 적용할 수 있습니다. 이는 통화 허용 제어와 미디어 바이패스가 둘 다 설정된 경우에도 마찬가지입니다.
 
-또한 바이패스가 제대로 작동 하려면 토폴로지 작성기에 정의 된 사이트와 네트워크 지역 및 네트워크 사이트를 구성할 때 정의 된 대로 일관성을 유지 해야 합니다. 예를 들어 PSTN 게이트웨이만 배포 된 것으로 토폴로지 작성기에 정의한 분기 사이트가 있는 경우에는 분기 사이트 사용자가 pstn을 통해 라우팅되는 PSTN 통화를 사용할 수 있도록 하는 엔터프라이즈 음성 정책을 사용 하 여 해당 분기 사이트를 구성 해야 합니다. 분기 사이트의 게이트웨이입니다.
+또한 바이패스가 제대로 작동 하려면 토폴로지 작성기에 정의 된 사이트와 네트워크 지역 및 네트워크 사이트를 구성할 때 정의 된 대로 일관성을 유지 해야 합니다. 예를 들어, PSTN 게이트웨이만 배포 된 것으로 토폴로지 작성기에 정의한 분기 사이트는 분기 사이트 사용자가 지점 사이트에서 PSTN 게이트웨이를 통해 라우팅되는 PSTN 호출을 사용할 수 있도록 하는 엔터프라이즈 음성 정책을 사용 하 여 구성 해야 합니다.
 
 <div>
 

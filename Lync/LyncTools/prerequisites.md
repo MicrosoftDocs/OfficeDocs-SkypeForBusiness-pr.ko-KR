@@ -1,5 +1,5 @@
 ---
-title: 필수 구성 요소
+title: 필수 조건
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d8f0ee6a50d40f938a9f2c6f731b0a4afa647ba
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9f81299b2efdde3be262439528409d89abf369f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756889"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509135"
 ---
+# <a name="prerequisites"></a>필수 조건
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites"></a>필수 구성 요소
+
 
 </div>
 

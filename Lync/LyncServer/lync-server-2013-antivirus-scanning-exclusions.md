@@ -12,20 +12,22 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f3e9afc3bd17f5cba4caa7619cb562be069942
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b67f1472bbb8225bf952b5b678bcae8401d211d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187261"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508975"
 ---
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013에 대 한 바이러스 백신 검사 제외
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013에 대 한 바이러스 백신 검사 제외
+
 
 </div>
 
@@ -61,101 +63,101 @@ _**마지막으로 수정 된 항목:** 2015-11-02_
 
   - Lync Server 2013 프로세스:
     
-      - ABServer .exe
+      - ABServer.exe
     
-      - AcpMcuSvc
+      - AcpMcuSvc.exe
     
-      - ASMCUSvc
+      - ASMCUSvc.exe
     
-      - AVMCUSvc
+      - AVMCUSvc.exe
     
-      - ChannelService
+      - ChannelService.exe
     
-      - ClsAgent
+      - ClsAgent.exe
     
-      - ComplianceService
+      - ComplianceService.exe
     
-      - DataMCUSvc
+      - DataMCUSvc.exe
     
-      - DataProxy
+      - DataProxy.exe
     
-      - FileTransferAgent
+      - FileTransferAgent.exe
     
-      - IMMCUSvc
+      - IMMCUSvc.exe
     
-      - LysSvc
+      - LysSvc.exe
     
-      - MasterReplicatorAgent
+      - MasterReplicatorAgent.exe
     
-      - MediaRelaySvc
+      - MediaRelaySvc.exe
     
-      - MediationServerSvc
+      - MediationServerSvc.exe
     
-      - MRASSvc
+      - MRASSvc.exe
     
-      - OcsAppServerHost
+      - OcsAppServerHost.exe
     
-      - ReplicaReplicatorAgent
+      - ReplicaReplicatorAgent.exe
     
-      - ReplicationApp
+      - ReplicationApp.exe
     
-      - RtcHost
+      - RtcHost.exe
     
-      - RTCSrv
+      - RTCSrv.exe
     
-      - XmppProxy
+      - XmppProxy.exe
     
-      - XmppTGW
+      - XmppTGW.exe
 
   - Windows Fabric 호스트 서비스 프로세스:
     
-      - Printbrm.exe
+      - Fabric.exe
     
-      - FabricDCA
+      - FabricDCA.exe
     
-      - FabricHost
+      - FabricHost.exe
 
   - IIS 프로세스:
     
-      - % systemroot%\\system32\\inetsrv\\.
+      - % systemroot% \\ system32 \\ inetsrv \\w3wp.exe
     
-      - % systemroot%\\SysWOW64\\inetsrv\\w3wp
+      - % systemroot% \\ SysWOW64 \\ inetsrv \\w3wp.exe
 
-  - SQL Server 백 엔드 프로세스:
+  - SQL Server Back-End 프로세스:
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. MSSQLSERVER\\MSSQL\\Binn\\sqlservr.exe
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11. MSSQLSERVER \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11. MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\ReportingServicesService
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSRS11. MSSQLSERVER \\ Reporting Services \\ ReportServer \\ Bin \\ReportingServicesService.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11. MSSQLSERVER\\OLAP\\Bin\\msmdsrv.ini
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSAS11. MSSQLSERVER \\ OLAP \\ Bin \\MSMDSrv.exe
 
-  - SQL Server 프런트 엔드 프로세스:
+  - SQL Server Front-End 프로세스:
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. LYNCLOCAL\\MSSQL\\Binn\\sqlservr.exe
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11. LYNCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. RTCLOCAL\\MSSQL\\Binn\\sqlservr.exe
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11. RTCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
 
   - 디렉터리 및 파일:
     
-      - % systemroot%\\System32\\LogFiles
+      - % systemroot% \\ System32 \\ LogFiles
     
-      - % systemroot%\\SysWow64\\LogFiles
+      - % systemroot% \\ SysWow64 \\ LogFiles
     
-      - % systemroot%\\Microsoft.NET\\어셈블리\\GAC\_MSIL
+      - % systemroot% \\ Microsoft.NET \\ 어셈블리 \\ GAC \_ MSIL
     
-      - % programfiles%\\Microsoft Lync Server 2013
+      - % programfiles% \\ Microsoft Lync Server 2013
     
-      - % programfiles%\\Common Files\\Microsoft Lync Server 2013\\감시자 노드
+      - % programfiles% \\ Common Files \\ Microsoft Lync Server 2013 \\ 감시자 노드
     
-      - % programfiles%\\Common Files\\Microsoft Lync Server 2013
+      - % programfiles% \\ Common Files \\ Microsoft Lync Server 2013
     
-      - %\\RtcReplicaRoot (%)
+      - % RtcReplicaRoot (%) \\
     
       - 파일 공유 저장소(토폴로지 작성기에서 지정). 파일 저장소는 토폴로지 작성기에서 지정됩니다.
     
       - 백 엔드 데이터베이스, 사용자 저장소, 보관 저장소, 모니터링 저장소 및 응용 프로그램 저장소에 대한 항목을 포함하는 SQL Server 데이터 및 로그 파일. 데이터베이스 및 로그 파일은 토폴로지 작성기에서 지정할 수 있습니다. 기본 이름을 비롯 하 여 각 데이터베이스의 데이터 및 로그 파일에 대 한 자세한 내용은 배포 설명서에서 [SQL Server 데이터 및 Lync Server 2013에 대 한 로그 파일 배치](lync-server-2013-sql-server-data-and-log-file-placement.md) 를 참조 하십시오.
     
-      - SQL Server 데이터 및 로그 파일 (프런트 엔드 데이터베이스, Lync store 및 RtcDatabase 저장소 포함) 일반적 으로% localdrive%\\csdata에 있습니다.
+      - SQL Server 데이터 및 로그 파일 (프런트 엔드 데이터베이스, Lync store 및 RtcDatabase 저장소 포함) 일반적 으로% localdrive% \\ csdata에 있습니다.
 
 </div>
 

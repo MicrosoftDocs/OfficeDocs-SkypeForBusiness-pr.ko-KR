@@ -12,20 +12,22 @@ ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f2c781b01aaa1ac00793f97067f24233c1e8db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc4f354d985ed9e0fc85909e232e06e7c34dd593
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509655"
 ---
+# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Lync Server 2013에서 Kerberos 인증 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Lync Server 2013에서 Kerberos 인증 설정
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200564"
 
 _**마지막으로 수정 된 항목:** 2013-02-21_
 
-Lync Server 2013에서는 웹 서비스에 대 한 NTLM 및 Kerberos 인증을 지원 합니다. Office Communications Server 2007 및 Office Communications Server 2007 R2는 사용자 계정으로 기본 RTCComponentService 및 RTCService를 사용 하 여 웹 서비스 응용 프로그램 풀을 실행 하 고, SPN (서비스 사용자 이름)을 할당할 수 있도록 합니다. 계정 및 인증 사용자 역할을 합니다. Lync Server는 NetworkService를 사용 하 여 웹 서비스를 실행 하 고 NetworkService에서 Spn을 할당할 수 없습니다.
+Lync Server 2013에서는 웹 서비스에 대 한 NTLM 및 Kerberos 인증을 지원 합니다. Office Communications Server 2007 및 Office Communications Server 2007 r 2에서는 사용자 계정으로 기본 RTCComponentService 및 RTCService를 사용 하 여 웹 서비스 응용 프로그램 풀을 실행 하 고, SPN (서비스 사용자 이름)을 인증 주체로 사용할 수 있도록 합니다. Lync Server는 NetworkService를 사용 하 여 웹 서비스를 실행 하 고 NetworkService에서 Spn을 할당할 수 없습니다.
 
 Spn을 보유 하는 Active Directory 개체가 없는 경우의 문제를 해결 하려면 Lync Server 제어판에서이 용도로 컴퓨터 계정 개체를 사용할 수 있습니다. 컴퓨터 계정 개체는 SPN을 보유할 수 있으며, 이전 버전에서 사용자 계정 사용 시 문제가 되었던 암호 만료가 적용하지 않습니다.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d1532acc21bc788adc8e52bfd1d562509e105ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7c7b08d22933947c2f8079a2713fd134feb4629
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187361"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509045"
 ---
+# <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Lync Server 2013의 관리 도구 소프트웨어 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Lync Server 2013의 관리 도구 소프트웨어 요구 사항
+
 
 </div>
 
@@ -61,7 +63,7 @@ Microsoft Lync Server 2013의 구성 요소를 실행 하려면 Windows PowerShe
 
 Lync Server 2013에서는 Windows Installer 기술을 사용 하 여 다양 한 서버 역할을 설치, 제거 및 유지 관리 합니다. Windows Installer 버전 4.5는 Windows Server 운영 체제의 재배포 가능 구성 요소로 사용될 수 있습니다. Windows Installer 4.5에 windows Server 2012 R2, Windows Server 2012 및 Windows Server 2008 R2와 함께 제공 되는 경우 Lync Server 2013을 실행 하는 컴퓨터에 대해 유틸리티를 다운로드할 필요가 없습니다. Lync Server 2013는 windows Server 2012 R2, Windows Server 2012 또는 Windows Server 2008 R2를 실행 하는 컴퓨터에만 설치할 수 있습니다.
 
-그러나 관리자 워크스테이션에 Lync Server 관리 셸 또는 Lync Server 토폴로지 작성기를 설치 하려면 Windows Installer 4.5를 다운로드 해야 할 수 있습니다. 이 유틸리티는 windows 7 및 Windows 2008 R2와 함께 제공 되지만 이전 버전의 Windows 운영 체제와는 호환 되지 않습니다. Microsoft 다운로드 센터에서 Windows Installer 4.5를 다운로드할 수 있습니다 <https://go.microsoft.com/fwlink/p/?linkid=197395>.
+그러나 관리자 워크스테이션에 Lync Server 관리 셸 또는 Lync Server 토폴로지 작성기를 설치 하려면 Windows Installer 4.5를 다운로드 해야 할 수 있습니다. 이 유틸리티는 windows 7 및 Windows 2008 R2와 함께 제공 되지만 이전 버전의 Windows 운영 체제와는 호환 되지 않습니다. Microsoft 다운로드 센터에서 Windows Installer 4.5를 다운로드할 수 있습니다 <https://go.microsoft.com/fwlink/p/?linkid=197395> .
 
 </div>
 

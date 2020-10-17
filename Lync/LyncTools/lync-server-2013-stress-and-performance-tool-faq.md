@@ -12,20 +12,22 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 590453f6270ebcd2beebbb26b8035f9e33cc2cd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 445448633bc35b8071455ccd0c8e6ff93c3862b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196191"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509215"
 ---
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Lync Server 2013 스트레스 및 성능 도구 FAQ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Lync Server 2013 스트레스 및 성능 도구 FAQ
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**마지막으로 수정 된 항목:** 2013-02-24_
 
 <div>
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>FAQ
 
 Lync Server 2013 스트레스 및 성능 도구에 대 한 몇 가지 질문과 대답이 나와 있습니다.
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>프로덕션 환경에서는 LyncPerfTool를 실행할 수 있나요?
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>프로덕션 환경에서 LyncPerfTool.exe 실행할 수 있는지 여부
 
 이 방법은 권장 되지 않습니다. 이 도구는 서버 성능, 보안 및 사용자 환경에 영향을 줍니다.
 
@@ -85,7 +87,7 @@ Lync Server 2013 스트레스 및 성능 도구에 대 한 몇 가지 질문과 
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>가상 서버나 Microsoft Hyper-v Server 2008/2012에서 LyncPerfTool를 실행할 수 있나요?
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>가상 서버나 Microsoft Hyper-v Server 2008/2012에서 LyncPerfTool.exe 실행할 수 있나요?
 
 예.
 
@@ -95,13 +97,13 @@ Lync Server 2013 스트레스 및 성능 도구에 대 한 몇 가지 질문과 
 
 ## <a name="what-does-mpop-mean"></a>MPOP 무슨 의미 입니까?
 
-MPOP는 여러 개의 현재 상태를 나타냅니다. 이는 사용자가 여러 컴퓨터에서 Lync 2013에 로그온 하는 시나리오를 시뮬레이션 하는 것을 의미 합니다. LyncPerfTool 각 끝점은 기본 프로필을 사용 합니다 (즉, 프로필이 두 개의 현재 상태 사이에 분할 되지 않음).
+MPOP는 여러 개의 현재 상태를 나타냅니다. 이는 사용자가 여러 컴퓨터에서 Lync 2013에 로그온 하는 시나리오를 시뮬레이션 하는 것을 의미 합니다. LyncPerfTool.exe에서 각 끝점은 기본 프로필을 사용 하며,이 프로필은 두 개의 현재 상태 사이에 분할 되지 않습니다.
 
 </div>
 
 <div>
 
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>LyncPerfTool를 시작 했지만 아무 일도 발생 하지 않습니다. 어떻게 된 것일까요?
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>LyncPerfTool.exe를 시작 했지만 아무 일도 발생 하지 않습니다. 어떻게 된 것일까요?
 
 사용자가 연결 되어 있는지 여부를 확인 하려면 클라이언트의 총 활성 끝점 카운터를 확인 합니다. 사용자가 연결 되어 있지 않으면 Lync Server 2013 구성을 확인 합니다. 이 문제는 일반적으로 서버 이름, 사용자 접두사 또는 암호가 잘못 되었기 때문에 발생 합니다. 외부 클라이언트는 액세스 프록시를 TargetServer 값으로 지정 해야 합니다. 구성 파일의 포트를 확인 합니다.
 

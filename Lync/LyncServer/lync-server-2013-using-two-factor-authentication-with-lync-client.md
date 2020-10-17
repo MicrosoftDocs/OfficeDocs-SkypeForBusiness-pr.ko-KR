@@ -12,20 +12,22 @@ ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c90183d13581387d444301278d4c1c1125e5dc91
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a90dd3c40267f0994e7f41eabb689c869182cea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212614"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508645"
 ---
+# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Lync 클라이언트 및 Lync Server 2013에서 2 단계 인증 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Lync 클라이언트 및 Lync Server 2013에서 2 단계 인증 사용
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync 로그인 정보는 대개 Lync 2013이 설치 될 때 자동으로 구성 
 
 1.  조직의 네트워크에 로그온 합니다.
 
-2.  모든 **** \> **** 프로그램 \> 시작 **Microsoft \> Lync Lync 2013**을 선택 합니다.
+2.  **Start** \> **모든 프로그램** 시작 \> **Microsoft Lync \> Lync 2013**을 선택 합니다.
     
     Lync 로그인 화면이 표시 됩니다.
     
@@ -108,7 +110,7 @@ Lync 사용을 마친 후에는 파일 메뉴에서 디스플레이를 닫거나
 </tr>
 <tr class="odd">
 <td><p>마침</p></td>
-<td><p>Lync 세션을 종료 하 고 컴퓨터에서 Lync를 종료 합니다. 종료 후 Lync를 다시 시작 하려면 <strong>Microsoft Lync</strong> &gt; <strong>Lync 2013</strong> <strong>모든 프로그램</strong> &gt; <strong>시작</strong> &gt; 을 선택 합니다.</p></td>
+<td><p>Lync 세션을 종료 하 고 컴퓨터에서 Lync를 종료 합니다. 종료 후 Lync를 다시 시작 하려면 <strong>Start</strong> &gt; <strong>All Programs</strong> &gt; <strong>Microsoft Lync</strong> &gt; <strong>Lync 2013</strong>모든 프로그램 시작을 선택 합니다.</p></td>
 <td><p>Lync 주 창에서 <strong>옵션</strong> 단추를 선택 하 고 <strong>파일</strong> &gt; <strong>종료</strong>를 선택 합니다.</p></td>
 </tr>
 </tbody>
@@ -123,9 +125,9 @@ Lync 사용을 마친 후에는 파일 메뉴에서 디스플레이를 닫거나
 
 일부 조직에서는 이제 2 단계 인증 이라는 다단계 로그인 프로세스를 사용 하 여 Lync 2013 사용자의 보안을 강화 합니다. 이 옵션을 사용할 것으로 예상 되 면 Lync에 로그인 하기 위한 "스마트 카드"가 필요 합니다. 스마트 카드는 실제 및 가상의 두 가지 형태로 제공 됩니다.
 
-  - ****   신용 카드 크기에 대 한 실제 정보입니다. 로그인 할 때 스마트 카드 판독기에 삽입 합니다.
+  - **실제**     신용 카드의 크기 정보 로그인 할 때 스마트 카드 판독기에 삽입 합니다.
 
-  - **Virtual**   은 실제 개체가 아니며 컴퓨터의 특수 칩에 기록 되는 전자 식별자로 서 컴퓨터에 스마트 카드를 작성 합니다. TPM (신뢰할 수 있는 플랫폼 모듈) 칩이 포함 된 Windows 8 컴퓨터 에서만 사용할 수 있습니다.
+  - **가상**     실제 개체는 아니지만 컴퓨터의 특수 칩에 기록 되는 전자 식별자 이며, 기본적으로 컴퓨터에 스마트 카드를 작성 합니다. TPM (신뢰할 수 있는 플랫폼 모듈) 칩이 포함 된 Windows 8 컴퓨터 에서만 사용할 수 있습니다.
 
 <div>
 
@@ -149,7 +151,7 @@ Lync 사용을 마친 후에는 파일 메뉴에서 디스플레이를 닫거나
 
 2.  Internet Explorer를 사용 하 여 조직의 인증 기관 웹 등록 페이지로 이동 합니다.
     
-    이 리소스가 없으면 Lync Server 관리자에 게 해당 리소스의 웹 주소를 문의 하세요. URL은 https://MyCA.\[이란 companyname\]. .com/certsrv와 같이 표시 됩니다.
+    이 리소스가 없으면 Lync Server 관리자에 게 해당 리소스의 웹 주소를 문의 하세요. URL은 https://MyCA.\ [이란 companyname \] . .com/certsrv와 같이 표시 됩니다.
     
     <div>
     

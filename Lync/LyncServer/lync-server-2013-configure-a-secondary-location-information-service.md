@@ -12,20 +12,22 @@ ms:contentKeyID: 48183334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a13e99aa7f9e3da9ddd04f5c8e7763c7de1481a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44ffb1968197e79ae9b9fc87913c2e7876a21f8b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196291"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507725"
 ---
+# <a name="configure-a-secondary-location-information-service-in-lync-server-2013"></a>Lync Server 2013에서 보조 위치 정보 서비스 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-secondary-location-information-service-in-lync-server-2013"></a>Lync Server 2013에서 보조 위치 정보 서비스 구성
+
 
 </div>
 

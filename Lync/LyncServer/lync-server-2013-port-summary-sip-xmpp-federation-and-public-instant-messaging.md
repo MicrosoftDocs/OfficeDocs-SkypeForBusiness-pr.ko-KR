@@ -12,20 +12,22 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8fd24bab9596f12060c87937d98cc2a57d0c887
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7119bfd6209ac9a7d8eb2c4adfddb75c3601116d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183711"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508755"
 ---
+# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>포트 요약-SIP, XMPP 페더레이션 및 Lync Server 2013의 공용 인스턴트 메시징
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>포트 요약-SIP, XMPP 페더레이션 및 Lync Server 2013의 공용 인스턴트 메시징
+
 
 </div>
 
@@ -53,7 +55,7 @@ Windows Live Messenger는 Lync 클라이언트와의 오디오/비디오 통신�
 
 </div>
 
-에 지 서버에 배포 된 XMPP (extensible messaging and 거점 protocol) 프록시에 대해 정의 된 포트 및 프로토콜은 XMPP 페더레이션 파트너에서에 지 서버로의 통신을 허용 하 고,에 지 서버에서 XMPP로의 통신도 가능 합니다. 페더레이션 파트너 또한 프런트 엔드 서버 또는 프런트 엔드 풀에서에 지 서버 또는에 지 풀에 대 한 내부 연결 방화벽에서 규칙이 정의 됩니다.
+에 지 서버에 배포 된 XMPP (extensible messaging and 거점 protocol) 프록시에 대해 정의 된 포트 및 프로토콜은 XMPP 페더레이션 파트너에서에 지 서버로의 통신을 허용 하 고,에 지 서버에서 XMPP 페더레이션 파트너와의 통신도 가능 합니다. 또한 프런트 엔드 서버 또는 프런트 엔드 풀에서에 지 서버 또는에 지 풀에 대 한 내부 연결 방화벽에서 규칙이 정의 됩니다.
 
 <div>
 
@@ -72,7 +74,7 @@ Windows Live Messenger는 Lync 클라이언트와의 오디오/비디오 통신�
 <th>역할/프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
@@ -105,7 +107,7 @@ Windows Live Messenger는 Lync 클라이언트와의 오디오/비디오 통신�
 <th>역할/프로토콜/TCP 또는 UDP/포트</th>
 <th>원본 IP 주소</th>
 <th>대상 IP 주소</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
