@@ -1,5 +1,6 @@
 ---
 title: SLA (공유 선 모양) cmdlet
+description: 공유 선 모양 (SLA) cmdlet
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 72808515
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d81641af786e3eed70e41678cbc0c02d31f52cb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4387accd16c797c27c9e8db30a71542bb8c85aba
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520755"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570134"
 ---
-# <a name="shared-line-appearance-sla-cmdlets"></a><span data-ttu-id="3208b-102">SLA (공유 선 모양) cmdlet</span><span class="sxs-lookup"><span data-stu-id="3208b-102">Shared Line Appearance (SLA) cmdlets</span></span>
+# <a name="shared-line-appearance-sla-cmdlets"></a><span data-ttu-id="9301a-103">SLA (공유 선 모양) cmdlet</span><span class="sxs-lookup"><span data-stu-id="9301a-103">Shared Line Appearance (SLA) cmdlets</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,34 +38,34 @@ ms.locfileid: "48520755"
 
 <span> </span>
 
-<span data-ttu-id="3208b-103">_**마지막으로 수정 된 항목:** 2016-04-12_</span><span class="sxs-lookup"><span data-stu-id="3208b-103">_**Topic Last Modified:** 2016-04-12_</span></span>
+<span data-ttu-id="9301a-104">_**마지막으로 수정 된 항목:** 2016-04-12_</span><span class="sxs-lookup"><span data-stu-id="9301a-104">_**Topic Last Modified:** 2016-04-12_</span></span>
 
-<span data-ttu-id="3208b-104">단일 줄 모양 (SLA)과 관련 된 cmdlet을 사용 하 여 해당 회선을 선택할 수 있는 여러 대리인에 게 공유 전화 번호를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="3208b-104">Cmdlets relating to Single Line Appearance (SLA) allow you to configure a shared phone number with multiple delegates who can pick up that line.</span></span>
+<span data-ttu-id="9301a-105">단일 줄 모양 (SLA)과 관련 된 cmdlet을 사용 하 여 해당 회선을 선택할 수 있는 여러 대리인에 게 공유 전화 번호를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="9301a-105">Cmdlets relating to Single Line Appearance (SLA) allow you to configure a shared phone number with multiple delegates who can pick up that line.</span></span>
 
 <div>
 
-## <a name="sla-cmdlets"></a><span data-ttu-id="3208b-105">SLA Cmdlet</span><span class="sxs-lookup"><span data-stu-id="3208b-105">SLA Cmdlets</span></span>
+## <a name="sla-cmdlets"></a><span data-ttu-id="9301a-106">SLA Cmdlet</span><span class="sxs-lookup"><span data-stu-id="9301a-106">SLA Cmdlets</span></span>
 
-<span data-ttu-id="3208b-106">SLA에 다음 cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="3208b-106">Use the following cmdlets for SLA.</span></span>
+<span data-ttu-id="9301a-107">SLA에 다음 cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9301a-107">Use the following cmdlets for SLA.</span></span>
 
-<span data-ttu-id="3208b-107">**SLA 구성**</span><span class="sxs-lookup"><span data-stu-id="3208b-107">**Configuring SLA**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="3208b-108">[CsSlaConfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3208b-108">[Get-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))</span></span>
+<span data-ttu-id="9301a-108">**SLA 구성**</span><span class="sxs-lookup"><span data-stu-id="9301a-108">**Configuring SLA**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="3208b-109">[CsSlaConfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3208b-109">[Set-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))</span></span>
+    <span data-ttu-id="9301a-109">[CsSlaConfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9301a-109">[Get-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="3208b-110">[CsSlaConfiguration을 제거 합니다.](https://technet.microsoft.com/library/Mt703201(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3208b-110">[Remove-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))</span></span>
-
-<span data-ttu-id="3208b-111">**SLA 대리인 구성**</span><span class="sxs-lookup"><span data-stu-id="3208b-111">**Configuring SLA delegates**</span></span>
+    <span data-ttu-id="9301a-110">[CsSlaConfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9301a-110">[Set-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="3208b-112">[CsSlaDelegates 추가](https://technet.microsoft.com/library/Mt703199(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3208b-112">[Add-CsSlaDelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))</span></span>
+    <span data-ttu-id="9301a-111">[CsSlaConfiguration을 제거 합니다.](https://technet.microsoft.com/library/Mt703201(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9301a-111">[Remove-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))</span></span>
+
+<span data-ttu-id="9301a-112">**SLA 대리인 구성**</span><span class="sxs-lookup"><span data-stu-id="9301a-112">**Configuring SLA delegates**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="3208b-113">[CsSlaDelegates을 제거 합니다.](https://technet.microsoft.com/library/Mt703203(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3208b-113">[Remove-CsSlaDelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))</span></span>
+    <span data-ttu-id="9301a-113">[CsSlaDelegates 추가](https://technet.microsoft.com/library/Mt703199(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9301a-113">[Add-CsSlaDelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="9301a-114">[CsSlaDelegates을 제거 합니다.](https://technet.microsoft.com/library/Mt703203(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9301a-114">[Remove-CsSlaDelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))</span></span>
 
 </div>
 
