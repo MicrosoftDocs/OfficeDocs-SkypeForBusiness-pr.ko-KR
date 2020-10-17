@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191701"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516635"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a><span data-ttu-id="2241e-102">Lync Server 2013에서 XSLT 정의 파일 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="2241e-102">Customizing the XSLT definition file in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a><span data-ttu-id="f97e4-102">Lync Server 2013에서 XSLT 정의 파일 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="f97e4-102">Customizing the XSLT definition file in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42191701"
 
 <span> </span>
 
-<span data-ttu-id="f97e4-103">_**마지막으로 수정 된 항목:** 2014-09-11_</span><span class="sxs-lookup"><span data-stu-id="f97e4-103">_**Topic Last Modified:** 2014-09-11_</span></span>
+<span data-ttu-id="2241e-103">_**마지막으로 수정 된 항목:** 2014-09-11_</span><span class="sxs-lookup"><span data-stu-id="2241e-103">_**Topic Last Modified:** 2014-09-11_</span></span>
 
-<span data-ttu-id="f97e4-104">준수 서비스는 참가자를 포함 하 여 각 Lync Server 2013, 영구 채팅 서버 대화와 관련 된 데이터를 기록 하 고 보관 합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-104">The Compliance service records and archives data related to each Lync Server 2013, Persistent Chat Server conversation, including when a participant:</span></span>
+<span data-ttu-id="2241e-104">준수 서비스는 참가자를 포함 하 여 각 Lync Server 2013, 영구 채팅 서버 대화와 관련 된 데이터를 기록 하 고 보관 합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-104">The Compliance service records and archives data related to each Lync Server 2013, Persistent Chat Server conversation, including when a participant:</span></span>
 
-  - <span data-ttu-id="f97e4-105">영구 대화방에 참가</span><span class="sxs-lookup"><span data-stu-id="f97e4-105">Joins a Persistent Chat room</span></span>
+  - <span data-ttu-id="2241e-105">영구 대화방에 참가</span><span class="sxs-lookup"><span data-stu-id="2241e-105">Joins a Persistent Chat room</span></span>
 
-  - <span data-ttu-id="f97e4-106">대화방에서 나가기</span><span class="sxs-lookup"><span data-stu-id="f97e4-106">Leaves a chat room</span></span>
+  - <span data-ttu-id="2241e-106">대화방에서 나가기</span><span class="sxs-lookup"><span data-stu-id="2241e-106">Leaves a chat room</span></span>
 
-  - <span data-ttu-id="f97e4-107">메시지를 게시 합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-107">Posts a message</span></span>
+  - <span data-ttu-id="2241e-107">메시지를 게시 합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-107">Posts a message</span></span>
 
-  - <span data-ttu-id="f97e4-108">채팅 기록 보기</span><span class="sxs-lookup"><span data-stu-id="f97e4-108">Views chat history</span></span>
+  - <span data-ttu-id="2241e-108">채팅 기록 보기</span><span class="sxs-lookup"><span data-stu-id="2241e-108">Views chat history</span></span>
 
-  - <span data-ttu-id="f97e4-109">파일을 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-109">Uploads a file</span></span>
+  - <span data-ttu-id="2241e-109">파일을 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-109">Uploads a file</span></span>
 
-  - <span data-ttu-id="f97e4-110">파일 다운로드</span><span class="sxs-lookup"><span data-stu-id="f97e4-110">Downloads a file</span></span>
+  - <span data-ttu-id="2241e-110">파일 다운로드</span><span class="sxs-lookup"><span data-stu-id="2241e-110">Downloads a file</span></span>
 
-<span data-ttu-id="f97e4-p101">데이터는 XSLT 정의 파일을 사용하여 조직에 가장 적합한 형식으로 변환할 수 있는 XML로 전달됩니다. 이 항목에서는 준수 서비스가 만드는 XML 파일에 대해 설명합니다. 또한 XSLT 정의 및 출력 파일에 대한 예제를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-p101">The data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
+<span data-ttu-id="2241e-p101">데이터는 XSLT 정의 파일을 사용하여 조직에 가장 적합한 형식으로 변환할 수 있는 XML로 전달됩니다. 이 항목에서는 준수 서비스가 만드는 XML 파일에 대해 설명합니다. 또한 XSLT 정의 및 출력 파일에 대한 예제를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-p101">The data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
 
 <div>
 
-## <a name="output-format"></a><span data-ttu-id="f97e4-114">출력 형식</span><span class="sxs-lookup"><span data-stu-id="f97e4-114">Output Format</span></span>
+## <a name="output-format"></a><span data-ttu-id="2241e-114">출력 형식</span><span class="sxs-lookup"><span data-stu-id="2241e-114">Output Format</span></span>
 
-<span data-ttu-id="f97e4-115">준수 서비스 출력은 다음 코드 예제에 표시된 것처럼 대화(Conversation 요소)로 분류된 후 메시지(Messages 요소)로 분류됩니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-115">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample.</span></span>
+<span data-ttu-id="2241e-115">준수 서비스 출력은 다음 코드 예제에 표시된 것처럼 대화(Conversation 요소)로 분류된 후 메시지(Messages 요소)로 분류됩니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-115">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample.</span></span>
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -72,23 +74,23 @@ ms.locfileid: "42191701"
       </Conversation>
     </Conversations>
 
-<span data-ttu-id="f97e4-p102">Conversation 요소에는 Channel, FirstMessage, StartTimeUTC 및 EndTimeUTC의 네 가지 요소가 포함됩니다. Channel 요소에는 대화방의 URI(Uniform Resource Identifier)가 포함되며 FirstMessage 요소는 Messages 요소의 첫 번째 메시지를 기술합니다. StartTimeUTC 및 EndTimeUTC 요소는 다음 코드 예제에 표시된 것처럼 대화의 시작 및 종료 시간을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-p102">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample.</span></span>
+<span data-ttu-id="2241e-p102">Conversation 요소에는 Channel, FirstMessage, StartTimeUTC 및 EndTimeUTC의 네 가지 요소가 포함됩니다. Channel 요소에는 대화방의 URI(Uniform Resource Identifier)가 포함되며 FirstMessage 요소는 Messages 요소의 첫 번째 메시지를 기술합니다. StartTimeUTC 및 EndTimeUTC 요소는 다음 코드 예제에 표시된 것처럼 대화의 시작 및 종료 시간을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-p102">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample.</span></span>
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-<span data-ttu-id="f97e4-p103">Message 요소에는 Sender 및 DateTimeUTC의 두 가지 요소와 Type, Content 및 ID의 세 가지 특성이 포함됩니다. Sender 요소는 메시지를 전송한 사용자를 나타내며, DateTimeUTC 요소는 다음 코드 예제에 표시된 것처럼 이벤트가 발생한 시간을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-p103">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample.</span></span>
+<span data-ttu-id="2241e-p103">Message 요소에는 Sender 및 DateTimeUTC의 두 가지 요소와 Type, Content 및 ID의 세 가지 특성이 포함됩니다. Sender 요소는 메시지를 전송한 사용자를 나타내며, DateTimeUTC 요소는 다음 코드 예제에 표시된 것처럼 이벤트가 발생한 시간을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-p103">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample.</span></span>
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
     </Message>
 
-<span data-ttu-id="f97e4-121">다음 표에서는 메시지 특성 유형, 콘텐츠 및 ID에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-121">The following table describes the message attributes Type, Content, and ID.</span></span>
+<span data-ttu-id="2241e-121">다음 표에서는 메시지 특성 유형, 콘텐츠 및 ID에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-121">The following table describes the message attributes Type, Content, and ID.</span></span>
 
-### <a name="messages-element-attributes"></a><span data-ttu-id="f97e4-122">Messages 요소 특성</span><span class="sxs-lookup"><span data-stu-id="f97e4-122">Messages Element Attributes</span></span>
+### <a name="messages-element-attributes"></a><span data-ttu-id="2241e-122">Messages 요소 특성</span><span class="sxs-lookup"><span data-stu-id="2241e-122">Messages Element Attributes</span></span>
 
 <table>
 <colgroup>
@@ -98,34 +100,34 @@ ms.locfileid: "42191701"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f97e4-123">특성</span><span class="sxs-lookup"><span data-stu-id="f97e4-123">Attribute</span></span></th>
-<th><span data-ttu-id="f97e4-124">설명</span><span class="sxs-lookup"><span data-stu-id="f97e4-124">Description</span></span></th>
-<th><span data-ttu-id="f97e4-125">선택적/필수</span><span class="sxs-lookup"><span data-stu-id="f97e4-125">Optional/Required</span></span></th>
+<th><span data-ttu-id="2241e-123">특성</span><span class="sxs-lookup"><span data-stu-id="2241e-123">Attribute</span></span></th>
+<th><span data-ttu-id="2241e-124">설명</span><span class="sxs-lookup"><span data-stu-id="2241e-124">Description</span></span></th>
+<th><span data-ttu-id="2241e-125">선택적/필수</span><span class="sxs-lookup"><span data-stu-id="2241e-125">Optional/Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f97e4-126">유형</span><span class="sxs-lookup"><span data-stu-id="f97e4-126">Type</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-p104">메시지 유형을 지정합니다. 메시지 유형은 Message 요소 메시지 유형 테이블에서 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-p104">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-129">필수</span><span class="sxs-lookup"><span data-stu-id="f97e4-129">Required</span></span></p></td>
+<td><p><span data-ttu-id="2241e-126">타이핑</span><span class="sxs-lookup"><span data-stu-id="2241e-126">Type</span></span></p></td>
+<td><p><span data-ttu-id="2241e-p104">메시지 유형을 지정합니다. 메시지 유형은 Message 요소 메시지 유형 테이블에서 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-p104">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-129">필수</span><span class="sxs-lookup"><span data-stu-id="2241e-129">Required</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f97e4-130">콘텐츠</span><span class="sxs-lookup"><span data-stu-id="f97e4-130">Content</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-p105">메시지 콘텐츠를 포함합니다. 유형이 Join 또는 Part인 메시지는 이 특성을 사용하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-p105">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-133">선택</span><span class="sxs-lookup"><span data-stu-id="f97e4-133">Optional</span></span></p></td>
+<td><p><span data-ttu-id="2241e-130">콘텐츠</span><span class="sxs-lookup"><span data-stu-id="2241e-130">Content</span></span></p></td>
+<td><p><span data-ttu-id="2241e-p105">메시지 콘텐츠를 포함합니다. 유형이 Join 또는 Part인 메시지는 이 특성을 사용하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-p105">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-133">선택</span><span class="sxs-lookup"><span data-stu-id="2241e-133">Optional</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f97e4-134">ID</span><span class="sxs-lookup"><span data-stu-id="f97e4-134">ID</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-p106">콘텐츠의 고유한 ID를 지정합니다. 이 특성은 유형이 Chat인 메시지에만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-p106">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-137">선택</span><span class="sxs-lookup"><span data-stu-id="f97e4-137">Optional</span></span></p></td>
+<td><p><span data-ttu-id="2241e-134">ID</span><span class="sxs-lookup"><span data-stu-id="2241e-134">ID</span></span></p></td>
+<td><p><span data-ttu-id="2241e-p106">콘텐츠의 고유한 ID를 지정합니다. 이 특성은 유형이 Chat인 메시지에만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-p106">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-137">선택</span><span class="sxs-lookup"><span data-stu-id="2241e-137">Optional</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f97e4-p107">각 Sender 요소에는 사용자 이름, ID, 전자 메일, 내부 및 URI의 5가지 특성이 포함됩니다. 이러한 특성은 다음 표에서 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-p107">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
+<span data-ttu-id="2241e-p107">각 Sender 요소에는 사용자 이름, ID, 전자 메일, 내부 및 URI의 5가지 특성이 포함됩니다. 이러한 특성은 다음 표에서 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-p107">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
 
-### <a name="sender-element-attributes"></a><span data-ttu-id="f97e4-140">Sender 요소 특성</span><span class="sxs-lookup"><span data-stu-id="f97e4-140">Sender Element Attributes</span></span>
+### <a name="sender-element-attributes"></a><span data-ttu-id="2241e-140">Sender 요소 특성</span><span class="sxs-lookup"><span data-stu-id="2241e-140">Sender Element Attributes</span></span>
 
 <table>
 <colgroup>
@@ -135,44 +137,44 @@ ms.locfileid: "42191701"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f97e4-141">특성</span><span class="sxs-lookup"><span data-stu-id="f97e4-141">Attribute</span></span></th>
-<th><span data-ttu-id="f97e4-142">설명</span><span class="sxs-lookup"><span data-stu-id="f97e4-142">Description</span></span></th>
-<th><span data-ttu-id="f97e4-143">선택적/필수</span><span class="sxs-lookup"><span data-stu-id="f97e4-143">Optional/Required</span></span></th>
+<th><span data-ttu-id="2241e-141">특성</span><span class="sxs-lookup"><span data-stu-id="2241e-141">Attribute</span></span></th>
+<th><span data-ttu-id="2241e-142">설명</span><span class="sxs-lookup"><span data-stu-id="2241e-142">Description</span></span></th>
+<th><span data-ttu-id="2241e-143">선택적/필수</span><span class="sxs-lookup"><span data-stu-id="2241e-143">Optional/Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f97e4-144">사용자 이름</span><span class="sxs-lookup"><span data-stu-id="f97e4-144">Username</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-145">보낸 사람의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-145">The name of the sender.</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-146">선택</span><span class="sxs-lookup"><span data-stu-id="f97e4-146">Optional</span></span></p></td>
+<td><p><span data-ttu-id="2241e-144">사용자 이름</span><span class="sxs-lookup"><span data-stu-id="2241e-144">Username</span></span></p></td>
+<td><p><span data-ttu-id="2241e-145">보낸 사람의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-145">The name of the sender.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-146">선택</span><span class="sxs-lookup"><span data-stu-id="2241e-146">Optional</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f97e4-147">ID</span><span class="sxs-lookup"><span data-stu-id="f97e4-147">ID</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-148">보낸 사람의 고유한 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-148">The sender’s unique ID.</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-149">필수</span><span class="sxs-lookup"><span data-stu-id="f97e4-149">Required</span></span></p></td>
+<td><p><span data-ttu-id="2241e-147">ID</span><span class="sxs-lookup"><span data-stu-id="2241e-147">ID</span></span></p></td>
+<td><p><span data-ttu-id="2241e-148">보낸 사람의 고유한 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-148">The sender’s unique ID.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-149">필수</span><span class="sxs-lookup"><span data-stu-id="2241e-149">Required</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f97e4-150">전자 메일</span><span class="sxs-lookup"><span data-stu-id="f97e4-150">Email</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-151">보낸 사람의 전자 메일 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-151">The sender’s email address.</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-152">선택</span><span class="sxs-lookup"><span data-stu-id="f97e4-152">Optional</span></span></p></td>
+<td><p><span data-ttu-id="2241e-150">이메일</span><span class="sxs-lookup"><span data-stu-id="2241e-150">Email</span></span></p></td>
+<td><p><span data-ttu-id="2241e-151">보낸 사람의 전자 메일 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-151">The sender’s email address.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-152">선택</span><span class="sxs-lookup"><span data-stu-id="2241e-152">Optional</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f97e4-153">Internal</span><span class="sxs-lookup"><span data-stu-id="f97e4-153">Internal</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-p108">사용자가 내부 사용자 또는 페더레이션 사용자인지를 확인합니다. 값이 True로 설정된 경우 사용자가 내부 사용자입니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-p108">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-156">선택</span><span class="sxs-lookup"><span data-stu-id="f97e4-156">Optional</span></span></p></td>
+<td><p><span data-ttu-id="2241e-153">내부</span><span class="sxs-lookup"><span data-stu-id="2241e-153">Internal</span></span></p></td>
+<td><p><span data-ttu-id="2241e-p108">사용자가 내부 사용자 또는 페더레이션 사용자인지를 확인합니다. 값이 True로 설정된 경우 사용자가 내부 사용자입니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-p108">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-156">선택</span><span class="sxs-lookup"><span data-stu-id="2241e-156">Optional</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f97e4-157">System.uri</span><span class="sxs-lookup"><span data-stu-id="f97e4-157">Uri</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-158">사용자의 SIP URI입니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-158">The user’s SIP URI.</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-159">필수</span><span class="sxs-lookup"><span data-stu-id="f97e4-159">Required</span></span></p></td>
+<td><p><span data-ttu-id="2241e-157">System.uri</span><span class="sxs-lookup"><span data-stu-id="2241e-157">Uri</span></span></p></td>
+<td><p><span data-ttu-id="2241e-158">사용자의 SIP URI입니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-158">The user’s SIP URI.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-159">필수</span><span class="sxs-lookup"><span data-stu-id="2241e-159">Required</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f97e4-p109">다음 표에서는 Messages 요소가 포함할 수 있는 메시지 유형에 대해 설명합니다. 또한 각 요소가 사용되는 방법에 대한 예도 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-p109">The following table describes the message types that the Messages element can contain. It also provides examples of how each element is used.</span></span>
+<span data-ttu-id="2241e-p109">다음 표에서는 Messages 요소가 포함할 수 있는 메시지 유형에 대해 설명합니다. 또한 각 요소가 사용되는 방법에 대한 예도 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-p109">The following table describes the message types that the Messages element can contain. It also provides examples of how each element is used.</span></span>
 
-### <a name="message-element-message-types"></a><span data-ttu-id="f97e4-162">Message 요소 메시지 유형</span><span class="sxs-lookup"><span data-stu-id="f97e4-162">Message Element Message Types</span></span>
+### <a name="message-element-message-types"></a><span data-ttu-id="2241e-162">Message 요소 메시지 유형</span><span class="sxs-lookup"><span data-stu-id="2241e-162">Message Element Message Types</span></span>
 
 <table>
 <colgroup>
@@ -182,55 +184,55 @@ ms.locfileid: "42191701"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f97e4-163">메시지 유형</span><span class="sxs-lookup"><span data-stu-id="f97e4-163">Message Type</span></span></th>
-<th><span data-ttu-id="f97e4-164">설명</span><span class="sxs-lookup"><span data-stu-id="f97e4-164">Description</span></span></th>
-<th><span data-ttu-id="f97e4-165">코드 예</span><span class="sxs-lookup"><span data-stu-id="f97e4-165">Code example</span></span></th>
+<th><span data-ttu-id="2241e-163">메시지 유형</span><span class="sxs-lookup"><span data-stu-id="2241e-163">Message Type</span></span></th>
+<th><span data-ttu-id="2241e-164">설명</span><span class="sxs-lookup"><span data-stu-id="2241e-164">Description</span></span></th>
+<th><span data-ttu-id="2241e-165">코드 예</span><span class="sxs-lookup"><span data-stu-id="2241e-165">Code example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f97e4-166">Join</span><span class="sxs-lookup"><span data-stu-id="f97e4-166">Join</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-167">사용자가 대화방에 참가합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-167">A user joins a chat room.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-166">Join</span><span class="sxs-lookup"><span data-stu-id="2241e-166">Join</span></span></p></td>
+<td><p><span data-ttu-id="2241e-167">사용자가 대화방에 참가합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-167">A user joins a chat room.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206211842612&quot; string=&quot;2008-03-22T18:50:42.6127374Z&quot; long=&quot;633418086426127374&quot; /&gt; 
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f97e4-168">부에서</span><span class="sxs-lookup"><span data-stu-id="f97e4-168">Part</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-169">사용자가 대화방에서 나갑니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-169">A user leaves a chat room.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-168">부에서</span><span class="sxs-lookup"><span data-stu-id="2241e-168">Part</span></span></p></td>
+<td><p><span data-ttu-id="2241e-169">사용자가 대화방에서 나갑니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-169">A user leaves a chat room.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1212610602532&quot; string=&quot;2008-06-04T20:16:42.5324614Z&quot; long=&quot;633482074025324614&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f97e4-170">채팅</span><span class="sxs-lookup"><span data-stu-id="f97e4-170">Chat</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-171">보낸 사람의 전자 메일 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-171">The sender’s email address.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-170">채팅</span><span class="sxs-lookup"><span data-stu-id="2241e-170">Chat</span></span></p></td>
+<td><p><span data-ttu-id="2241e-171">보낸 사람의 전자 메일 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-171">The sender’s email address.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;CHAT&quot; content=&quot;hello&quot; id=&quot;1&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351800522&quot; string=&quot;2008-03-12T19:56:40.522264Z&quot; long=&quot;633409486005222640&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f97e4-172">채트</span><span class="sxs-lookup"><span data-stu-id="f97e4-172">Backchat</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-173">사용자가 대화 기록의 콘텐츠를 요청합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-173">A user requests content from chat history.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-172">채트</span><span class="sxs-lookup"><span data-stu-id="2241e-172">Backchat</span></span></p></td>
+<td><p><span data-ttu-id="2241e-173">사용자가 대화 기록의 콘텐츠를 요청합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-173">A user requests content from chat history.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;BACKCHAT&quot; content=&quot;backchatcontent&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206034385284&quot; string=&quot;2008-03-20T17:33:05.2841594Z&quot; long=&quot;633416311852841594&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f97e4-174">파일 업로드</span><span class="sxs-lookup"><span data-stu-id="f97e4-174">File upload</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-175">사용자가 파일을 업로드합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-175">A user uploads a file.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-174">파일 업로드</span><span class="sxs-lookup"><span data-stu-id="2241e-174">File upload</span></span></p></td>
+<td><p><span data-ttu-id="2241e-175">사용자가 파일을 업로드합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-175">A user uploads a file.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;FILEUPLOAD&quot; content=&quot;0988239a-bb66-4616-90a4-b07771a2097c.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351828975&quot; string=&quot;2008-03-12T19:57:08.9755711Z&quot; long=&quot;633409486289755711&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f97e4-176">파일 다운로드</span><span class="sxs-lookup"><span data-stu-id="f97e4-176">File download</span></span></p></td>
-<td><p><span data-ttu-id="f97e4-177">사용자가 파일을 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-177">A user downloads a file.</span></span></p></td>
+<td><p><span data-ttu-id="2241e-176">파일 다운로드</span><span class="sxs-lookup"><span data-stu-id="2241e-176">File download</span></span></p></td>
+<td><p><span data-ttu-id="2241e-177">사용자가 파일을 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-177">A user downloads a file.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;FILEDOWNLOAD&quot; content=&quot;006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;kazuto@litwareinc.com&quot; id=&quot;10&quot; email=&quot;&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1212611141851&quot; string=&quot;2008-06-04T20:25:41.8518646Z&quot; long=&quot;633482079418518646&quot; /&gt; 
@@ -242,9 +244,9 @@ ms.locfileid: "42191701"
 
 <div>
 
-## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="f97e4-178">기본 영구 채팅 출력 XSD 및 예제 XSL 변환</span><span class="sxs-lookup"><span data-stu-id="f97e4-178">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="2241e-178">기본 영구 채팅 출력 XSD 및 예제 XSL 변환</span><span class="sxs-lookup"><span data-stu-id="2241e-178">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
 
-<span data-ttu-id="f97e4-179">다음 코드 예제에는 준수 서버의 기본 출력이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-179">The following code sample contains the default output from the Compliance Server.</span></span>
+<span data-ttu-id="2241e-179">다음 코드 예제에는 준수 서버의 기본 출력이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-179">The following code sample contains the default output from the Compliance Server.</span></span>
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -341,7 +343,7 @@ ms.locfileid: "42191701"
       </xs:element>
     </xs:schema>
 
-<span data-ttu-id="f97e4-180">다음 코드 예제에는 예제 XSL 변환이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="f97e4-180">The following code sample contains a sample XSL transform.</span></span>
+<span data-ttu-id="2241e-180">다음 코드 예제에는 예제 XSL 변환이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="2241e-180">The following code sample contains a sample XSL transform.</span></span>
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />

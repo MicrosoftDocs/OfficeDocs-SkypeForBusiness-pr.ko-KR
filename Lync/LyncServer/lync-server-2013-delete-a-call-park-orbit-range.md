@@ -12,20 +12,22 @@ ms:contentKeyID: 48184713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 888c66150ffd371925f911d23d0d2b9171d0bf30
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7081f05d48fa446627120f106df590b24f8834e5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190851"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516315"
 ---
+# <a name="delete-a-call-park-orbit-range-in-lync-server-2013"></a><span data-ttu-id="8b53b-102">Lync Server 2013에서 통화 대기 번호 범위 삭제</span><span class="sxs-lookup"><span data-stu-id="8b53b-102">Delete a Call Park orbit range in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-call-park-orbit-range-in-lync-server-2013"></a><span data-ttu-id="78b82-102">Lync Server 2013에서 통화 대기 번호 범위 삭제</span><span class="sxs-lookup"><span data-stu-id="78b82-102">Delete a Call Park orbit range in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,41 +37,41 @@ ms.locfileid: "42190851"
 
 <span> </span>
 
-<span data-ttu-id="78b82-103">_**마지막으로 수정 된 항목:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="78b82-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="8b53b-103">_**마지막으로 수정 된 항목:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="8b53b-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="78b82-104">통화 대기 번호 범위를 삭제 하려면 다음 절차 중 하나를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-104">Use one of the following procedures to delete a Call Park orbit range.</span></span>
+<span data-ttu-id="8b53b-104">통화 대기 번호 범위를 삭제 하려면 다음 절차 중 하나를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-104">Use one of the following procedures to delete a Call Park orbit range.</span></span>
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-delete-a-call-park-orbit-range"></a><span data-ttu-id="78b82-105">Lync Server 제어판을 사용 하 여 통화 대기 번호 범위를 삭제 하려면</span><span class="sxs-lookup"><span data-stu-id="78b82-105">To use Lync Server Control Panel to delete a Call Park orbit range</span></span>
+## <a name="to-use-lync-server-control-panel-to-delete-a-call-park-orbit-range"></a><span data-ttu-id="8b53b-105">Lync Server 제어판을 사용 하 여 통화 대기 번호 범위를 삭제 하려면</span><span class="sxs-lookup"><span data-stu-id="8b53b-105">To use Lync Server Control Panel to delete a Call Park orbit range</span></span>
 
-1.  <span data-ttu-id="78b82-106">RTCUniversalServerAdmins 그룹의 구성원으로 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-106">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="78b82-107">자세한 내용은 [Lync Server 2013에서 설치 권한 위임을](lync-server-2013-delegate-setup-permissions.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="78b82-107">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="8b53b-106">RTCUniversalServerAdmins 그룹의 구성원으로 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-106">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="8b53b-107">자세한 내용은 [Lync Server 2013에서 설치 권한 위임을](lync-server-2013-delegate-setup-permissions.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="8b53b-107">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="78b82-108">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="78b82-109">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="78b82-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="8b53b-108">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8b53b-109">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="8b53b-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="78b82-110">왼쪽 탐색 모음에서 **음성 기능**을 클릭하고 **통화 대기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-110">In the left navigation bar, click **Voice Features** and then click **Call Park**.</span></span>
+3.  <span data-ttu-id="8b53b-110">왼쪽 탐색 모음에서 **음성 기능**을 클릭하고 **통화 대기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-110">In the left navigation bar, click **Voice Features** and then click **Call Park**.</span></span>
 
-4.  <span data-ttu-id="78b82-111">**통화 대기** 페이지의 검색 필드에 삭제할 번호 범위의 이름 전부 또는 일부를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-111">On the **Call Park** page, in the search field, type all or part of the name of the orbit range that you want to delete.</span></span>
+4.  <span data-ttu-id="8b53b-111">**통화 대기** 페이지의 검색 필드에 삭제할 번호 범위의 이름 전부 또는 일부를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-111">On the **Call Park** page, in the search field, type all or part of the name of the orbit range that you want to delete.</span></span>
 
-5.  <span data-ttu-id="78b82-112">결과로 표시된 번호 목록에서 번호를 클릭하고 **편집**을 클릭한 후 **삭제**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-112">In the resulting list of orbits, click the orbit, click **Edit**, and then click **Delete**.</span></span>
+5.  <span data-ttu-id="8b53b-112">결과로 표시된 번호 목록에서 번호를 클릭하고 **편집**을 클릭한 후 **삭제**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-112">In the resulting list of orbits, click the orbit, click **Edit**, and then click **Delete**.</span></span>
 
-6.  <span data-ttu-id="78b82-113">**확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-113">Click **OK**.</span></span>
+6.  <span data-ttu-id="8b53b-113">**확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-113">Click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-use-windows-powershell-to-delete-a-call-park-orbit-range"></a><span data-ttu-id="78b82-114">Windows PowerShell을 사용 하 여 통화 대기 번호 범위를 삭제 하려면</span><span class="sxs-lookup"><span data-stu-id="78b82-114">To use Windows PowerShell to delete a Call Park orbit range</span></span>
+## <a name="to-use-windows-powershell-to-delete-a-call-park-orbit-range"></a><span data-ttu-id="8b53b-114">Windows PowerShell을 사용 하 여 통화 대기 번호 범위를 삭제 하려면</span><span class="sxs-lookup"><span data-stu-id="8b53b-114">To use Windows PowerShell to delete a Call Park orbit range</span></span>
 
-1.  <span data-ttu-id="78b82-115">Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-115">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="8b53b-115">Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-115">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="78b82-116">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="8b53b-116">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="78b82-117">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-117">At the command line, type:</span></span>
+3.  <span data-ttu-id="8b53b-117">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-117">At the command line, type:</span></span>
     
         Remove-CsCallParkOrbit -Identity "<orbit range name>" 
     
-    <span data-ttu-id="78b82-118">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-118">For example:</span></span>
+    <span data-ttu-id="8b53b-118">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-118">For example:</span></span>
     
         Remove-CsCallParkOrbit -Identity "Redmond orbit 1"
     
@@ -77,7 +79,7 @@ ms.locfileid: "42190851"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="78b82-119">기타 옵션에 대 한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">get-cscallparkorbit</A>를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="78b82-119">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span></span>
+    > <span data-ttu-id="8b53b-119">기타 옵션에 대 한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">get-cscallparkorbit</A>를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="8b53b-119">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span></span>
 
     
     </div>
@@ -86,14 +88,14 @@ ms.locfileid: "42190851"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="78b82-120">참고 항목</span><span class="sxs-lookup"><span data-stu-id="78b82-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8b53b-120">참고 항목</span><span class="sxs-lookup"><span data-stu-id="8b53b-120">See Also</span></span>
 
 
-[<span data-ttu-id="78b82-121">Lync Server 2013에서 통화 대기 번호 범위 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="78b82-121">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+[<span data-ttu-id="8b53b-121">Lync Server 2013에서 통화 대기 번호 범위 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="8b53b-121">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
-[<span data-ttu-id="78b82-122">Get-cscallparkorbit을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="78b82-122">Remove-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
-[<span data-ttu-id="78b82-123">Get-cscallparkorbit</span><span class="sxs-lookup"><span data-stu-id="78b82-123">Get-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
+[<span data-ttu-id="8b53b-122">Get-cscallparkorbit을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b53b-122">Remove-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
+[<span data-ttu-id="8b53b-123">Get-cscallparkorbit</span><span class="sxs-lookup"><span data-stu-id="8b53b-123">Get-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
   
 
 </div>

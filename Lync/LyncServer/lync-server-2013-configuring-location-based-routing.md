@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 위치 기반 라우팅 구성'
+title: 'Lync Server 2013: Location-Based 라우팅 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b88df8bf0b8362a09ea2e5b779b7fa9d789a0a48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7b703aa084204a2c103e02ebff5f913a6647ae94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206364"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517421"
 ---
+# <a name="configuring-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="7afb1-102">Lync Server 2013에서 Location-Based 라우팅 구성</span><span class="sxs-lookup"><span data-stu-id="7afb1-102">Configuring Location-Based Routing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="897dd-102">Lync Server 2013에서 위치 기반 라우팅 구성</span><span class="sxs-lookup"><span data-stu-id="897dd-102">Configuring Location-Based Routing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,18 +37,18 @@ ms.locfileid: "42206364"
 
 <span> </span>
 
-<span data-ttu-id="897dd-103">_**마지막으로 수정 된 항목:** 2013-03-12_</span><span class="sxs-lookup"><span data-stu-id="897dd-103">_**Topic Last Modified:** 2013-03-12_</span></span>
+<span data-ttu-id="7afb1-103">_**마지막으로 수정 된 항목:** 2013-03-12_</span><span class="sxs-lookup"><span data-stu-id="7afb1-103">_**Topic Last Modified:** 2013-03-12_</span></span>
 
-<span data-ttu-id="897dd-104">Lync Server 2013 C U 1, 위치 기반 라우팅은 Enterprise Voice의 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-104">Lync Server 2013 CU1, Location-Based Routing is a feature of Enterprise Voice.</span></span> <span data-ttu-id="897dd-105">위치 기반 라우팅은 Lync Server 2013 C U 1에서 통화가 라우팅되는 방식을 제어 하는 통화 관리 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-105">Location-Based Routing is a call management feature that controls how calls are routed by Lync Server 2013 CU1.</span></span> <span data-ttu-id="897dd-106">Lync 발신자의 위치에 따라 통화를 PBX 또는 PSTN 대상으로 라우팅할 수 있는지 여부에 대 한 제한을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-106">It enforces restrictions on whether calls can be routed to PBX or PSTN destinations based on the Lync caller’s location.</span></span> <span data-ttu-id="897dd-107">위치 기반 라우팅은 발신자의 네트워크 위치를 기반으로 PSTN 통화에 통화 권한 부여 규칙을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-107">Location-Based Routing applies call authorization rules to PSTN calls based on the caller’s network location.</span></span> <span data-ttu-id="897dd-108">발신자의 위치는 발신자가 연결 되는 네트워크 서브넷과 연결 된 네트워크 사이트를 기반으로 결정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-108">The caller’s location is determined based on the network site associated with the network subnet the caller is connected on.</span></span> <span data-ttu-id="897dd-109">위치 기반 라우팅을 구성 하려면 먼저 Enterprise Voice를 배포한 다음 네트워크 지역, 사이트 및 서브넷을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-109">Configuring Location-Based Routing requires first deploying Enterprise Voice, then configuring network regions, sites and subnets.</span></span> <span data-ttu-id="897dd-110">이렇게 하면 위치 기반 라우팅을 사용 하기 위한 기초가 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-110">This sets up the foundation for enabling Location-Based Routing.</span></span>
+<span data-ttu-id="7afb1-104">Lync Server 2013 C U 1 Location-Based 라우팅은 Enterprise Voice의 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-104">Lync Server 2013 CU1, Location-Based Routing is a feature of Enterprise Voice.</span></span> <span data-ttu-id="7afb1-105">Location-Based 라우팅은 Lync Server 2013 C U 1에서 호출을 라우팅하는 방법을 제어 하는 통화 관리 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-105">Location-Based Routing is a call management feature that controls how calls are routed by Lync Server 2013 CU1.</span></span> <span data-ttu-id="7afb1-106">Lync 발신자의 위치에 따라 통화를 PBX 또는 PSTN 대상으로 라우팅할 수 있는지 여부에 대 한 제한을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-106">It enforces restrictions on whether calls can be routed to PBX or PSTN destinations based on the Lync caller’s location.</span></span> <span data-ttu-id="7afb1-107">Location-Based 라우팅은 발신자의 네트워크 위치를 기반으로 PSTN 통화에 통화 권한 부여 규칙을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-107">Location-Based Routing applies call authorization rules to PSTN calls based on the caller’s network location.</span></span> <span data-ttu-id="7afb1-108">발신자의 위치는 발신자가 연결 되는 네트워크 서브넷과 연결 된 네트워크 사이트를 기반으로 결정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-108">The caller’s location is determined based on the network site associated with the network subnet the caller is connected on.</span></span> <span data-ttu-id="7afb1-109">Location-Based 라우팅을 구성 하려면 먼저 Enterprise Voice를 배포한 다음 네트워크 지역, 사이트 및 서브넷을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-109">Configuring Location-Based Routing requires first deploying Enterprise Voice, then configuring network regions, sites and subnets.</span></span> <span data-ttu-id="7afb1-110">이렇게 하면 Location-Based 라우팅을 사용 하기 위한 토대를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-110">This sets up the foundation for enabling Location-Based Routing.</span></span>
 
-<span data-ttu-id="897dd-111">위치 기반 라우팅을 배포 하려면 먼저 Enterprise Voice를 배포 하 고 네트워크 지역 및 사이트를 구성 하 고 네트워크 사이트에 네트워크 서브넷을 연결 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-111">Before deploying Location-Based Routing, you must first deploy Enterprise Voice, and configure network regions, sites, and associate network subnets to your network sites.</span></span> <span data-ttu-id="897dd-112">완료 되 면 위치 기반 라우팅을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-112">Once completed, you can configure Location-Based Routing.</span></span> <span data-ttu-id="897dd-113">네트워크 지역, 사이트 및 서브넷을 구성 하는 방법에 대 한 단계는 [Lync Server 2013에서 고급 Enterprise Voice 기능 배포](lync-server-2013-deploying-advanced-enterprise-voice-features.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="897dd-113">For steps on how to configure network regions, sites and subnets, see [Deploying advanced Enterprise Voice features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)</span></span>
+<span data-ttu-id="7afb1-111">Location-Based 라우팅을 배포 하기 전에 먼저 Enterprise Voice를 배포 하 고 네트워크 지역 및 사이트를 구성 하 고 네트워크 사이트에 네트워크 서브넷을 연결 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-111">Before deploying Location-Based Routing, you must first deploy Enterprise Voice, and configure network regions, sites, and associate network subnets to your network sites.</span></span> <span data-ttu-id="7afb1-112">완료 되 면 Location-Based 라우팅을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-112">Once completed, you can configure Location-Based Routing.</span></span> <span data-ttu-id="7afb1-113">네트워크 지역, 사이트 및 서브넷을 구성 하는 방법에 대 한 단계는 [Lync Server 2013에서 고급 Enterprise Voice 기능 배포](lync-server-2013-deploying-advanced-enterprise-voice-features.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="7afb1-113">For steps on how to configure network regions, sites and subnets, see [Deploying advanced Enterprise Voice features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)</span></span>
 
-<span data-ttu-id="897dd-114">이 섹션에서는 다음 예제를 그림으로 사용 하 여 위치 기반 라우팅을 구성 하는 과정을 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-114">This section guides you through the configuration of Location-Based Routing using the following example as illustration.</span></span>
+<span data-ttu-id="7afb1-114">이 섹션에서는 다음 예제를 그림으로 사용 하 여 Location-Based 라우팅을 구성 하는 과정을 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-114">This section guides you through the configuration of Location-Based Routing using the following example as illustration.</span></span>
 
-<span data-ttu-id="897dd-115">![Enterprise Voice 위치 기반 라우팅 예](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Enterprise Voice 위치 기반 라우팅 예")</span><span class="sxs-lookup"><span data-stu-id="897dd-115">![Enterprise Voice location-based routing example](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Enterprise Voice location-based routing example")</span></span>
+<span data-ttu-id="7afb1-115">![Enterprise Voice 위치 기반 라우팅 예](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Enterprise Voice 위치 기반 라우팅 예")</span><span class="sxs-lookup"><span data-stu-id="7afb1-115">![Enterprise Voice location-based routing example](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Enterprise Voice location-based routing example")</span></span>
 
   
-<span data-ttu-id="897dd-116">다음 표에서는이 예제에 정의 된 사용자를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-116">The following table represents the users defined in this example.</span></span>
+<span data-ttu-id="7afb1-116">다음 표에서는이 예제에 정의 된 사용자를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-116">The following table represents the users defined in this example.</span></span>
 
 
 <table>
@@ -57,48 +59,48 @@ ms.locfileid: "42206364"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="897dd-117">끝점 유형</span><span class="sxs-lookup"><span data-stu-id="897dd-117">Endpoint type</span></span></th>
-<th><span data-ttu-id="897dd-118">위치</span><span class="sxs-lookup"><span data-stu-id="897dd-118">Location</span></span></th>
-<th><span data-ttu-id="897dd-119">사용자</span><span class="sxs-lookup"><span data-stu-id="897dd-119">Users</span></span></th>
+<th><span data-ttu-id="7afb1-117">끝점 유형</span><span class="sxs-lookup"><span data-stu-id="7afb1-117">Endpoint type</span></span></th>
+<th><span data-ttu-id="7afb1-118">위치</span><span class="sxs-lookup"><span data-stu-id="7afb1-118">Location</span></span></th>
+<th><span data-ttu-id="7afb1-119">사용자</span><span class="sxs-lookup"><span data-stu-id="7afb1-119">Users</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="897dd-120">Lync</span><span class="sxs-lookup"><span data-stu-id="897dd-120">Lync</span></span></p></td>
-<td><p><span data-ttu-id="897dd-121">뉴델리 회사 사무실</span><span class="sxs-lookup"><span data-stu-id="897dd-121">Delhi corporate office</span></span></p></td>
-<td><p><span data-ttu-id="897dd-122">DEL-LYNC-1, DEL-LYNC-2, DEL-LYNC-3</span><span class="sxs-lookup"><span data-stu-id="897dd-122">DEL-LYNC-1,DEL-LYNC-2,DEL-LYNC-3</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-120">Lync</span><span class="sxs-lookup"><span data-stu-id="7afb1-120">Lync</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-121">뉴델리 회사 사무실</span><span class="sxs-lookup"><span data-stu-id="7afb1-121">Delhi corporate office</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-122">DEL-LYNC-1, DEL-LYNC-2, DEL-LYNC-3</span><span class="sxs-lookup"><span data-stu-id="7afb1-122">DEL-LYNC-1,DEL-LYNC-2,DEL-LYNC-3</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="897dd-123">Lync</span><span class="sxs-lookup"><span data-stu-id="897dd-123">Lync</span></span></p></td>
-<td><p><span data-ttu-id="897dd-124">Hyderabad 회사 사무실</span><span class="sxs-lookup"><span data-stu-id="897dd-124">Hyderabad corporate office</span></span></p></td>
-<td><p><span data-ttu-id="897dd-125">HYD-1, HYD-2, HYD-3</span><span class="sxs-lookup"><span data-stu-id="897dd-125">HYD-LYNC-1, HYD-LYNC-2, HYD-LYNC-3</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-123">Lync</span><span class="sxs-lookup"><span data-stu-id="7afb1-123">Lync</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-124">Hyderabad 회사 사무실</span><span class="sxs-lookup"><span data-stu-id="7afb1-124">Hyderabad corporate office</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-125">HYD-1, HYD-2, HYD-3</span><span class="sxs-lookup"><span data-stu-id="7afb1-125">HYD-LYNC-1, HYD-LYNC-2, HYD-LYNC-3</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="897dd-126">Lync</span><span class="sxs-lookup"><span data-stu-id="897dd-126">Lync</span></span></p></td>
-<td><p><span data-ttu-id="897dd-127">알 수 없음 (예: 호텔)</span><span class="sxs-lookup"><span data-stu-id="897dd-127">Unknown (i.e. hotel)</span></span></p></td>
-<td><p><span data-ttu-id="897dd-128">UNK-1</span><span class="sxs-lookup"><span data-stu-id="897dd-128">UNK-LYNC-1</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-126">Lync</span><span class="sxs-lookup"><span data-stu-id="7afb1-126">Lync</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-127">알 수 없음 (예: 호텔)</span><span class="sxs-lookup"><span data-stu-id="7afb1-127">Unknown (i.e. hotel)</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-128">UNK-1</span><span class="sxs-lookup"><span data-stu-id="7afb1-128">UNK-LYNC-1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="897dd-129">전화가</span><span class="sxs-lookup"><span data-stu-id="897dd-129">PBX</span></span></p></td>
-<td><p><span data-ttu-id="897dd-130">뉴델리 회사 사무실</span><span class="sxs-lookup"><span data-stu-id="897dd-130">Delhi corporate office</span></span></p></td>
-<td><p><span data-ttu-id="897dd-131">DEL-PBX-1, DEL-2</span><span class="sxs-lookup"><span data-stu-id="897dd-131">DEL-PBX-1, DEL-PBX-2</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-129">전화가</span><span class="sxs-lookup"><span data-stu-id="7afb1-129">PBX</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-130">뉴델리 회사 사무실</span><span class="sxs-lookup"><span data-stu-id="7afb1-130">Delhi corporate office</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-131">DEL-PBX-1, DEL-2</span><span class="sxs-lookup"><span data-stu-id="7afb1-131">DEL-PBX-1, DEL-PBX-2</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="897dd-132">전화가</span><span class="sxs-lookup"><span data-stu-id="897dd-132">PBX</span></span></p></td>
-<td><p><span data-ttu-id="897dd-133">Hyderabad 회사 사무실</span><span class="sxs-lookup"><span data-stu-id="897dd-133">Hyderabad corporate office</span></span></p></td>
-<td><p><span data-ttu-id="897dd-134">HYD-1, HYD-2</span><span class="sxs-lookup"><span data-stu-id="897dd-134">HYD-PBX-1, HYD-PBX-2</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-132">전화가</span><span class="sxs-lookup"><span data-stu-id="7afb1-132">PBX</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-133">Hyderabad 회사 사무실</span><span class="sxs-lookup"><span data-stu-id="7afb1-133">Hyderabad corporate office</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-134">HYD-1, HYD-2</span><span class="sxs-lookup"><span data-stu-id="7afb1-134">HYD-PBX-1, HYD-PBX-2</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="897dd-135">PSTN</span><span class="sxs-lookup"><span data-stu-id="897dd-135">PSTN</span></span></p></td>
-<td><p><span data-ttu-id="897dd-136">알 수 없음</span><span class="sxs-lookup"><span data-stu-id="897dd-136">Unknown</span></span></p></td>
-<td><p><span data-ttu-id="897dd-137">PSTN-1, PSTN-2, PSTN-3</span><span class="sxs-lookup"><span data-stu-id="897dd-137">PSTN-1, PSTN-2, PSTN-3</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-135">PSTN</span><span class="sxs-lookup"><span data-stu-id="7afb1-135">PSTN</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-136">알 수 없음</span><span class="sxs-lookup"><span data-stu-id="7afb1-136">Unknown</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-137">PSTN-1, PSTN-2, PSTN-3</span><span class="sxs-lookup"><span data-stu-id="7afb1-137">PSTN-1, PSTN-2, PSTN-3</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
   
 
-<span data-ttu-id="897dd-138">다음 표에서는이 예제 환경에 설명 된 시스템을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="897dd-138">The following table represents the systems illustrated in this example environment.</span></span>
+<span data-ttu-id="7afb1-138">다음 표에서는이 예제 환경에 설명 된 시스템을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="7afb1-138">The following table represents the systems illustrated in this example environment.</span></span>
 
 
 <table>
@@ -109,41 +111,41 @@ ms.locfileid: "42206364"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="897dd-139">컴퓨터</span><span class="sxs-lookup"><span data-stu-id="897dd-139">System</span></span></th>
-<th><span data-ttu-id="897dd-140">위치</span><span class="sxs-lookup"><span data-stu-id="897dd-140">Location</span></span></th>
-<th><span data-ttu-id="897dd-141">이름</span><span class="sxs-lookup"><span data-stu-id="897dd-141">Name</span></span></th>
+<th><span data-ttu-id="7afb1-139">컴퓨터</span><span class="sxs-lookup"><span data-stu-id="7afb1-139">System</span></span></th>
+<th><span data-ttu-id="7afb1-140">위치</span><span class="sxs-lookup"><span data-stu-id="7afb1-140">Location</span></span></th>
+<th><span data-ttu-id="7afb1-141">이름</span><span class="sxs-lookup"><span data-stu-id="7afb1-141">Name</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="897dd-142">Lync Server 2013 C U 1 풀</span><span class="sxs-lookup"><span data-stu-id="897dd-142">Lync Server 2013 CU1 pool</span></span></p></td>
-<td><p><span data-ttu-id="897dd-143">그</span><span class="sxs-lookup"><span data-stu-id="897dd-143">any</span></span></p></td>
-<td><p><span data-ttu-id="897dd-144">LS-PL1</span><span class="sxs-lookup"><span data-stu-id="897dd-144">LS-PL1</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-142">Lync Server 2013 C U 1 풀</span><span class="sxs-lookup"><span data-stu-id="7afb1-142">Lync Server 2013 CU1 pool</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-143">그</span><span class="sxs-lookup"><span data-stu-id="7afb1-143">any</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-144">LS-PL1</span><span class="sxs-lookup"><span data-stu-id="7afb1-144">LS-PL1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="897dd-145">Lync Server 2013 C U 1, 중재 서버</span><span class="sxs-lookup"><span data-stu-id="897dd-145">Lync Server 2013 CU1, Mediation Server</span></span></p></td>
-<td><p><span data-ttu-id="897dd-146">그</span><span class="sxs-lookup"><span data-stu-id="897dd-146">any</span></span></p></td>
-<td><p><span data-ttu-id="897dd-147">PL1</span><span class="sxs-lookup"><span data-stu-id="897dd-147">MS-PL1</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-145">Lync Server 2013 C U 1, 중재 서버</span><span class="sxs-lookup"><span data-stu-id="7afb1-145">Lync Server 2013 CU1, Mediation Server</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-146">그</span><span class="sxs-lookup"><span data-stu-id="7afb1-146">any</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-147">PL1</span><span class="sxs-lookup"><span data-stu-id="7afb1-147">MS-PL1</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="897dd-148">PSTN 게이트웨이 1</span><span class="sxs-lookup"><span data-stu-id="897dd-148">PSTN gateway 1</span></span></p></td>
-<td><p><span data-ttu-id="897dd-149">Delhi</span><span class="sxs-lookup"><span data-stu-id="897dd-149">Delhi</span></span></p></td>
-<td><p><span data-ttu-id="897dd-150">DEL-GW</span><span class="sxs-lookup"><span data-stu-id="897dd-150">DEL-GW</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-148">PSTN 게이트웨이 1</span><span class="sxs-lookup"><span data-stu-id="7afb1-148">PSTN gateway 1</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-149">Delhi</span><span class="sxs-lookup"><span data-stu-id="7afb1-149">Delhi</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-150">DEL-GW</span><span class="sxs-lookup"><span data-stu-id="7afb1-150">DEL-GW</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="897dd-151">PSTN 게이트웨이 2</span><span class="sxs-lookup"><span data-stu-id="897dd-151">PSTN gateway 2</span></span></p></td>
-<td><p><span data-ttu-id="897dd-152">Hyderabad</span><span class="sxs-lookup"><span data-stu-id="897dd-152">Hyderabad</span></span></p></td>
-<td><p><span data-ttu-id="897dd-153">HYD-GW</span><span class="sxs-lookup"><span data-stu-id="897dd-153">HYD-GW</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-151">PSTN 게이트웨이 2</span><span class="sxs-lookup"><span data-stu-id="7afb1-151">PSTN gateway 2</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-152">Hyderabad</span><span class="sxs-lookup"><span data-stu-id="7afb1-152">Hyderabad</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-153">HYD-GW</span><span class="sxs-lookup"><span data-stu-id="7afb1-153">HYD-GW</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="897dd-154">PBX 1</span><span class="sxs-lookup"><span data-stu-id="897dd-154">PBX 1</span></span></p></td>
-<td><p><span data-ttu-id="897dd-155">Delhi</span><span class="sxs-lookup"><span data-stu-id="897dd-155">Delhi</span></span></p></td>
-<td><p><span data-ttu-id="897dd-156">DEL-PBX</span><span class="sxs-lookup"><span data-stu-id="897dd-156">DEL-PBX</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-154">PBX 1</span><span class="sxs-lookup"><span data-stu-id="7afb1-154">PBX 1</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-155">Delhi</span><span class="sxs-lookup"><span data-stu-id="7afb1-155">Delhi</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-156">DEL-PBX</span><span class="sxs-lookup"><span data-stu-id="7afb1-156">DEL-PBX</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="897dd-157">PBX 2</span><span class="sxs-lookup"><span data-stu-id="897dd-157">PBX 2</span></span></p></td>
-<td><p><span data-ttu-id="897dd-158">Hyderabad</span><span class="sxs-lookup"><span data-stu-id="897dd-158">Hyderabad</span></span></p></td>
-<td><p><span data-ttu-id="897dd-159">적색-PBX</span><span class="sxs-lookup"><span data-stu-id="897dd-159">RED-PBX</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-157">PBX 2</span><span class="sxs-lookup"><span data-stu-id="7afb1-157">PBX 2</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-158">Hyderabad</span><span class="sxs-lookup"><span data-stu-id="7afb1-158">Hyderabad</span></span></p></td>
+<td><p><span data-ttu-id="7afb1-159">적색-PBX</span><span class="sxs-lookup"><span data-stu-id="7afb1-159">RED-PBX</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -151,22 +153,22 @@ ms.locfileid: "42206364"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="897dd-160">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="897dd-160">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7afb1-160">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="7afb1-160">In This Section</span></span>
 
-  - [<span data-ttu-id="897dd-161">Lync Server 2013에서 Enterprise Voice 구성</span><span class="sxs-lookup"><span data-stu-id="897dd-161">Configuring Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-configuring-enterprise-voice.md)
+  - [<span data-ttu-id="7afb1-161">Lync Server 2013에서 Enterprise Voice 구성</span><span class="sxs-lookup"><span data-stu-id="7afb1-161">Configuring Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-configuring-enterprise-voice.md)
 
-  - [<span data-ttu-id="897dd-162">Lync Server 2013에서 네트워크 지역, 사이트 및 서브넷 배포</span><span class="sxs-lookup"><span data-stu-id="897dd-162">Deploying network regions, sites, and subnets in Lync Server 2013</span></span>](lync-server-2013-deploying-network-regions-sites-and-subnets.md)
+  - [<span data-ttu-id="7afb1-162">Lync Server 2013에서 네트워크 지역, 사이트 및 서브넷 배포</span><span class="sxs-lookup"><span data-stu-id="7afb1-162">Deploying network regions, sites, and subnets in Lync Server 2013</span></span>](lync-server-2013-deploying-network-regions-sites-and-subnets.md)
 
-  - [<span data-ttu-id="897dd-163">Lync Server 2013에서 위치 기반 라우팅 사용</span><span class="sxs-lookup"><span data-stu-id="897dd-163">Enabling Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-enabling-location-based-routing.md)
+  - [<span data-ttu-id="7afb1-163">Lync Server 2013에서 Location-Based 라우팅 사용</span><span class="sxs-lookup"><span data-stu-id="7afb1-163">Enabling Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-enabling-location-based-routing.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="897dd-164">참고 항목</span><span class="sxs-lookup"><span data-stu-id="897dd-164">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7afb1-164">참고 항목</span><span class="sxs-lookup"><span data-stu-id="7afb1-164">See Also</span></span>
 
 
-[<span data-ttu-id="897dd-165">Lync Server 2013에서 고급 Enterprise Voice 기능 배포</span><span class="sxs-lookup"><span data-stu-id="897dd-165">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)  
+[<span data-ttu-id="7afb1-165">Lync Server 2013에서 고급 Enterprise Voice 기능 배포</span><span class="sxs-lookup"><span data-stu-id="7afb1-165">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)  
   
 
 </div>

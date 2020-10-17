@@ -12,20 +12,22 @@ ms:contentKeyID: 48183309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b35876d52e43579a147688fa53f83b5b2455369
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 996aec239a2aa94aaa6930fc0ff5edaeca1f102b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215844"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516055"
 ---
+# <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a><span data-ttu-id="c7283-102">Lync Server 2013의 워크플로 생성 시나리오 개요</span><span class="sxs-lookup"><span data-stu-id="c7283-102">Overview of workflow creation scenarios in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a><span data-ttu-id="fde52-102">Lync Server 2013의 워크플로 생성 시나리오 개요</span><span class="sxs-lookup"><span data-stu-id="fde52-102">Overview of workflow creation scenarios in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42215844"
 
 <span> </span>
 
-<span data-ttu-id="fde52-103">_**마지막으로 수정 된 항목:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="fde52-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="c7283-103">_**마지막으로 수정 된 항목:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="c7283-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="fde52-104">워크플로를 만들 때는 다음의 두 가지 시나리오를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fde52-104">When you create workflows, there are two possible scenarios:</span></span>
+<span data-ttu-id="c7283-104">워크플로를 만들 때는 다음의 두 가지 시나리오를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7283-104">When you create workflows, there are two possible scenarios:</span></span>
 
-  - <span data-ttu-id="fde52-105">**관리자가 워크플로를 만들고 구성함** - CsResponseGroupAdministrator 역할 구성원 또는 그와 동일한 사용자가 워크플로 및 워크플로의 모든 요소(예: 에이전트 그룹, 큐, 휴일, 업무 시간, 통화 대기음 등)를 만들고 활성화합니다.</span><span class="sxs-lookup"><span data-stu-id="fde52-105">**The Administrator creates and configures the workflow** — The CsResponseGroupAdministrator role member (or equivalent) creates and activates the workflow and all elements in the workflow, such as the agent groups, queues, holiday and business hours, music on hold, and so on.</span></span>
+  - <span data-ttu-id="c7283-105">**관리자가 워크플로를 만들고 구성함** - CsResponseGroupAdministrator 역할 구성원 또는 그와 동일한 사용자가 워크플로 및 워크플로의 모든 요소(예: 에이전트 그룹, 큐, 휴일, 업무 시간, 통화 대기음 등)를 만들고 활성화합니다.</span><span class="sxs-lookup"><span data-stu-id="c7283-105">**The Administrator creates and configures the workflow** — The CsResponseGroupAdministrator role member (or equivalent) creates and activates the workflow and all elements in the workflow, such as the agent groups, queues, holiday and business hours, music on hold, and so on.</span></span>
 
-  - <span data-ttu-id="fde52-p101">**관리자(Administrator)가 워크플로를 만들고 관리자(Manager)가 옵션을 구성함** - CsResponseGroupAdministrator 역할 구성원 또는 그와 동일한 사용자가 기본 SIP URI와 표시 이름을 정의하고, CsResponseGroupManager 역할의 구성원을 한 명 이상 할당하고, 큐를 선택하고 워크플로를 할당합니다. 그러면 CsResponseGroupManager가 로그온한 다음 에이전트 그룹을 만들어 워크플로 구성을 편집할 수 있으며, 그룹을 큐에 할당하여 전화 번호, 휴일/업무 시간, 통화 대기음 등을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fde52-p101">**The Administrator creates the workflow and the Manager configures options** — The CsResponseGroupAdministrator role member (or equivalent) defines the primary SIP URI, Display Name, assigns a member or members of the CsResponseGroupManager role, and selects a queue and activates the workflow. The CsResponseGroupManager can then log on and edit the configuration of the workflow by creating agent groups and also assigns the group to the queue, configuring the telephone number, holiday and business hours, music on hold, and so on.</span></span>
+  - <span data-ttu-id="c7283-p101">**관리자(Administrator)가 워크플로를 만들고 관리자(Manager)가 옵션을 구성함** - CsResponseGroupAdministrator 역할 구성원 또는 그와 동일한 사용자가 기본 SIP URI와 표시 이름을 정의하고, CsResponseGroupManager 역할의 구성원을 한 명 이상 할당하고, 큐를 선택하고 워크플로를 할당합니다. 그러면 CsResponseGroupManager가 로그온한 다음 에이전트 그룹을 만들어 워크플로 구성을 편집할 수 있으며, 그룹을 큐에 할당하여 전화 번호, 휴일/업무 시간, 통화 대기음 등을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7283-p101">**The Administrator creates the workflow and the Manager configures options** — The CsResponseGroupAdministrator role member (or equivalent) defines the primary SIP URI, Display Name, assigns a member or members of the CsResponseGroupManager role, and selects a queue and activates the workflow. The CsResponseGroupManager can then log on and edit the configuration of the workflow by creating agent groups and also assigns the group to the queue, configuring the telephone number, holiday and business hours, music on hold, and so on.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="fde52-p102">관리되는 워크플로를 만들려면 워크플로를 활성으로 만들어야 합니다. 활성 관리되는 워크플로를 저장하고 나면 워크플로를 수정하고 비활성화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fde52-p102">When you want to create a managed workflow, you need to create the workflow as active. After you save an active, managed workflow, you can then modify and deactivate the workflow.</span></span>
+    > <span data-ttu-id="c7283-p102">관리되는 워크플로를 만들려면 워크플로를 활성으로 만들어야 합니다. 활성 관리되는 워크플로를 저장하고 나면 워크플로를 수정하고 비활성화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7283-p102">When you want to create a managed workflow, you need to create the workflow as active. After you save an active, managed workflow, you can then modify and deactivate the workflow.</span></span>
 
     
     </div>
