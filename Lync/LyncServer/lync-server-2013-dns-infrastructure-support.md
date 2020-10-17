@@ -12,20 +12,22 @@ ms:contentKeyID: 48183878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b36437de04b3e7924085fe95b9f10b13e47cb867
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ed40fb498b93f0c6f3b1a8d32c7642f7714998ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197421"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528945"
 ---
+# <a name="dns-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="99272-102">Lync Server 2013의 DNS 인프라 지원</span><span class="sxs-lookup"><span data-stu-id="99272-102">DNS infrastructure support in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="6e883-102">Lync Server 2013의 DNS 인프라 지원</span><span class="sxs-lookup"><span data-stu-id="6e883-102">DNS infrastructure support in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42197421"
 
 <span> </span>
 
-<span data-ttu-id="6e883-103">_**마지막으로 수정 된 항목:** 2013-03-08_</span><span class="sxs-lookup"><span data-stu-id="6e883-103">_**Topic Last Modified:** 2013-03-08_</span></span>
+<span data-ttu-id="99272-103">_**마지막으로 수정 된 항목:** 2013-03-08_</span><span class="sxs-lookup"><span data-stu-id="99272-103">_**Topic Last Modified:** 2013-03-08_</span></span>
 
-<span data-ttu-id="6e883-104">Lync Server 2013에는 DNS (Domain Name System)가 필요 하며 다음과 같은 방식으로 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-104">Lync Server 2013 requires Domain Name System (DNS) and uses it in the following ways:</span></span>
+<span data-ttu-id="99272-104">Lync Server 2013에는 DNS (Domain Name System)가 필요 하며 다음과 같은 방식으로 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="99272-104">Lync Server 2013 requires Domain Name System (DNS) and uses it in the following ways:</span></span>
 
-  - <span data-ttu-id="6e883-105">서버 간 통신을 위한 내부 서버 또는 풀을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-105">To discover internal servers or pools for server-to-server communications.</span></span>
+  - <span data-ttu-id="99272-105">서버 간 통신을 위한 내부 서버 또는 풀을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="99272-105">To discover internal servers or pools for server-to-server communications.</span></span>
 
-  - <span data-ttu-id="6e883-106">클라이언트가 다양한 SIP 트랜잭션에 사용되는 프런트 엔드 풀 또는 Standard Edition 서버를 검색할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-106">To enable clients to discover the Front End pool or Standard Edition server used for various SIP transactions.</span></span>
+  - <span data-ttu-id="99272-106">클라이언트가 다양한 SIP 트랜잭션에 사용되는 프런트 엔드 풀 또는 Standard Edition 서버를 검색할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="99272-106">To enable clients to discover the Front End pool or Standard Edition server used for various SIP transactions.</span></span>
 
-  - <span data-ttu-id="6e883-107">회의용 단순 URL을 해당 회의를 호스팅하는 서버에 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-107">To associate the simple URLs for conferences with the servers hosting those conferences.</span></span>
+  - <span data-ttu-id="99272-107">회의용 단순 URL을 해당 회의를 호스팅하는 서버에 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="99272-107">To associate the simple URLs for conferences with the servers hosting those conferences.</span></span>
 
-  - <span data-ttu-id="6e883-108">외부 서버 및 클라이언트가 IM(인스턴트 메시징) 또는 회의를 위해 에지 서버 또는 HTTP 역방향 프록시에 연결할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-108">To enable external servers and clients to connect to Edge Servers or the HTTP reverse proxy for instant messaging (IM) or conferencing.</span></span>
+  - <span data-ttu-id="99272-108">외부 서버 및 클라이언트가 IM(인스턴트 메시징) 또는 회의를 위해 에지 서버 또는 HTTP 역방향 프록시에 연결할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="99272-108">To enable external servers and clients to connect to Edge Servers or the HTTP reverse proxy for instant messaging (IM) or conferencing.</span></span>
 
-  - <span data-ttu-id="6e883-109">로그인하지 않은 UC(통합 통신) 장치가 장치 업데이트 웹 서비스를 실행하는 프런트 엔드 풀이나 Standard Edition 서버를 검색하고 업데이트를 가져오고 로그를 보낼 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-109">To enable unified communications (UC) devices that are not logged in to discover the Front End pool or Standard Edition server running Device Update Web service, obtain updates, and send logs.</span></span>
+  - <span data-ttu-id="99272-109">로그인하지 않은 UC(통합 통신) 장치가 장치 업데이트 웹 서비스를 실행하는 프런트 엔드 풀이나 Standard Edition 서버를 검색하고 업데이트를 가져오고 로그를 보낼 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="99272-109">To enable unified communications (UC) devices that are not logged in to discover the Front End pool or Standard Edition server running Device Update Web service, obtain updates, and send logs.</span></span>
 
-  - <span data-ttu-id="6e883-110">사용자가 장치 설정에 URL을 수동으로 입력할 필요 없이 모바일 클라이언트가 웹 서비스 리소스를 자동으로 검색할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-110">To enable mobile clients to automatically discover Web Services resources without requiring users to manually enter URLs in device settings.</span></span>
+  - <span data-ttu-id="99272-110">사용자가 장치 설정에 URL을 수동으로 입력할 필요 없이 모바일 클라이언트가 웹 서비스 리소스를 자동으로 검색할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="99272-110">To enable mobile clients to automatically discover Web Services resources without requiring users to manually enter URLs in device settings.</span></span>
 
-  - <span data-ttu-id="6e883-111">DNS 부하 분산에 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-111">For DNS load balancing.</span></span>
+  - <span data-ttu-id="99272-111">DNS 부하 분산에 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="99272-111">For DNS load balancing.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6e883-112">Lync Server 2013는 다국어 도메인 이름 (Idn)을 지원 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-112">Lync Server 2013 does not support internationalized domain names (IDNs).</span></span>
+> <span data-ttu-id="99272-112">Lync Server 2013는 다국어 도메인 이름 (Idn)을 지원 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="99272-112">Lync Server 2013 does not support internationalized domain names (IDNs).</span></span>
 
 
 
@@ -67,7 +69,7 @@ ms.locfileid: "42197421"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="6e883-113">지정하는 이름은 서버에 구성된 컴퓨터 이름과 동일해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-113">The name you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="6e883-114">기본적으로 도메인에 가입되지 않은 컴퓨터의 컴퓨터 이름은 FQDN(정규화된 이름)이 아닌 짧은 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-114">By default, the computer name of a computer that is not joined to a domain is a short name, not a fully qualified domain name (FQDN).</span></span> <span data-ttu-id="6e883-115">토폴로지 작성기에서는 짧은 이름이 아닌 FQDN을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-115">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="6e883-116">따라서 도메인이 가입되지 않은 에지 서버로 배포할 컴퓨터의 이름에 DNS 접미사를 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e883-116">So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="6e883-117">Lync Server, 에지 서버 및 풀의 FQDN을 지정할 때는 <STRONG>표준 문자</STRONG>(A-Z, a-z, 0-9 및 하이픈 포함)만 사용하십시오.</span><span class="sxs-lookup"><span data-stu-id="6e883-117"><STRONG>Use only standard characters</STRONG> (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools.</span></span> <span data-ttu-id="6e883-118">유니코드 문자나 밑줄을 사용하지 마십시오.</span><span class="sxs-lookup"><span data-stu-id="6e883-118">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="6e883-119">FQDN의 비표준 문자는 외부 DNS 및 공용 CA에서 지원되지 않는 경우가 많습니다(인증서의 SN에 FQDN을 할당해야 하는 경우).</span><span class="sxs-lookup"><span data-stu-id="6e883-119">Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (that is, when the FQDN must be assigned to the SN in the certificate).</span></span>
+> <span data-ttu-id="99272-113">지정하는 이름은 서버에 구성된 컴퓨터 이름과 동일해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="99272-113">The name you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="99272-114">기본적으로 도메인에 가입되지 않은 컴퓨터의 컴퓨터 이름은 FQDN(정규화된 이름)이 아닌 짧은 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="99272-114">By default, the computer name of a computer that is not joined to a domain is a short name, not a fully qualified domain name (FQDN).</span></span> <span data-ttu-id="99272-115">토폴로지 작성기에서는 짧은 이름이 아닌 FQDN을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="99272-115">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="99272-116">따라서 도메인이 가입되지 않은 에지 서버로 배포할 컴퓨터의 이름에 DNS 접미사를 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="99272-116">So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="99272-117">Lync Server, 에지 서버 및 풀의 FQDN을 지정할 때는 <STRONG>표준 문자</STRONG>(A-Z, a-z, 0-9 및 하이픈 포함)만 사용하십시오.</span><span class="sxs-lookup"><span data-stu-id="99272-117"><STRONG>Use only standard characters</STRONG> (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools.</span></span> <span data-ttu-id="99272-118">유니코드 문자나 밑줄을 사용하지 마십시오.</span><span class="sxs-lookup"><span data-stu-id="99272-118">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="99272-119">FQDN의 비표준 문자는 외부 DNS 및 공용 CA에서 지원되지 않는 경우가 많습니다(인증서의 SN에 FQDN을 할당해야 하는 경우).</span><span class="sxs-lookup"><span data-stu-id="99272-119">Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (that is, when the FQDN must be assigned to the SN in the certificate).</span></span>
 
 
 

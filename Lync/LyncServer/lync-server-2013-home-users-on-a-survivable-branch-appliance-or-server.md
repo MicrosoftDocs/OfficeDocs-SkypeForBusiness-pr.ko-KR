@@ -12,20 +12,22 @@ ms:contentKeyID: 48185926
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f6fb176025dd7f075429833e48b53eb1f7a5b07
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: add711ca547648a6071a22fee6a0bcd0eeb0f6c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204628"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528205"
 ---
+# <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a><span data-ttu-id="074a0-102">Lync Server 2013의 Sba (survivable 분기 어플라이언스 또는 서버에 있는 개인 사용자</span><span class="sxs-lookup"><span data-stu-id="074a0-102">Home users on a Survivable Branch Appliance or Server in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a><span data-ttu-id="106a3-102">Lync Server 2013의 Sba (survivable 분기 어플라이언스 또는 서버에 있는 개인 사용자</span><span class="sxs-lookup"><span data-stu-id="106a3-102">Home users on a Survivable Branch Appliance or Server in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42204628"
 
 <span> </span>
 
-<span data-ttu-id="106a3-103">_**마지막으로 수정 된 항목:** 2014-12-10_</span><span class="sxs-lookup"><span data-stu-id="106a3-103">_**Topic Last Modified:** 2014-12-10_</span></span>
+<span data-ttu-id="074a0-103">_**마지막으로 수정 된 항목:** 2014-12-10_</span><span class="sxs-lookup"><span data-stu-id="074a0-103">_**Topic Last Modified:** 2014-12-10_</span></span>
 
-<span data-ttu-id="106a3-104">Sba (survivable 분기 어플라이언스 또는 Sba (survivable 분기 서버에서 사용자를 대신 하는 프로세스는 프런트 엔드 풀에서 사용자를 간 설정 하는 프로세스와 비슷합니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-104">The process of homing users on a Survivable Branch Appliance or a Survivable Branch Server is similar to the process of homing users on a Front End pool.</span></span> <span data-ttu-id="106a3-105">중앙 사이트에서 Sba (survivable Branch 기기 또는 Sba (survivable Branch Server 절차를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-105">Perform the Survivable Branch Appliance or Survivable Branch Server procedure at the central site.</span></span>
+<span data-ttu-id="074a0-104">Sba (survivable 분기 어플라이언스 또는 Sba (survivable 분기 서버에서 사용자를 대신 하는 프로세스는 프런트 엔드 풀에서 사용자를 간 설정 하는 프로세스와 비슷합니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-104">The process of homing users on a Survivable Branch Appliance or a Survivable Branch Server is similar to the process of homing users on a Front End pool.</span></span> <span data-ttu-id="074a0-105">중앙 사이트에서 Sba (survivable Branch 기기 또는 Sba (survivable Branch Server 절차를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-105">Perform the Survivable Branch Appliance or Survivable Branch Server procedure at the central site.</span></span>
 
 <div>
 
-## <a name="to-home-users-on-survivable-branch-appliance-or-survivable-branch-server"></a><span data-ttu-id="106a3-106">Survivable Branch Appliance 또는 지속 가능 분기 서버에 사용자를 두려면</span><span class="sxs-lookup"><span data-stu-id="106a3-106">To home users on Survivable Branch Appliance or Survivable Branch Server</span></span>
+## <a name="to-home-users-on-survivable-branch-appliance-or-survivable-branch-server"></a><span data-ttu-id="074a0-106">Survivable Branch Appliance 또는 지속 가능 분기 서버에 사용자를 두려면</span><span class="sxs-lookup"><span data-stu-id="074a0-106">To home users on Survivable Branch Appliance or Survivable Branch Server</span></span>
 
-1.  <span data-ttu-id="106a3-107">사용자를 Sba (survivable Branch Server 또는 Sba (survivable Branch 서버로 이동 하기 전에 Lync Server 관리 셸을 열고 다음 작업을 모두 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-107">Before moving users to the Survivable Branch Server or Survivable Branch Server, open the Lync Server Management Shell, and then do all of the following:</span></span>
+1.  <span data-ttu-id="074a0-107">사용자를 Sba (survivable Branch Server 또는 Sba (survivable Branch 서버로 이동 하기 전에 Lync Server 관리 셸을 열고 다음 작업을 모두 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-107">Before moving users to the Survivable Branch Server or Survivable Branch Server, open the Lync Server Management Shell, and then do all of the following:</span></span>
     
-      - <span data-ttu-id="106a3-108">Cmdlet **test-cspstnoutboundcall** 를 실행 하 여 Sba (survivable 분기 서버가 실행 중이 고 PSTN (공중 전화망) 연결이 구성 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-108">Run the cmdlet **Test-CsPstnOutboundCall** to verify that the Survivable Branch Server is running and that the public switched telephone network (PSTN) connectivity is configured.</span></span> <span data-ttu-id="106a3-109">PSTN 게이트웨이 속성을 수정해야 할 경우 **Set-CsPstnGateway** cmdlet을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-109">If you need to modify PSTN gateway properties, use the cmdlet **Set-CsPstnGateway**.</span></span>
+      - <span data-ttu-id="074a0-108">Cmdlet **test-cspstnoutboundcall** 를 실행 하 여 Sba (survivable 분기 서버가 실행 중이 고 PSTN (공중 전화망) 연결이 구성 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-108">Run the cmdlet **Test-CsPstnOutboundCall** to verify that the Survivable Branch Server is running and that the public switched telephone network (PSTN) connectivity is configured.</span></span> <span data-ttu-id="074a0-109">PSTN 게이트웨이 속성을 수정해야 할 경우 **Set-CsPstnGateway** cmdlet을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-109">If you need to modify PSTN gateway properties, use the cmdlet **Set-CsPstnGateway**.</span></span>
     
-      - <span data-ttu-id="106a3-110">Cmdlet Set-csvoicepolicy를 실행 하 여 Sba (survivable 분기 서버에서 **사용** 될 사용자에 게 적절 한 VoIP 라우팅 정책이 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-110">Run the cmdlet **Get-CsVoicePolicy** to verify that the users who will be homed on the Survivable Branch Server have the appropriate VoIP routing policy.</span></span> <span data-ttu-id="106a3-111">VoIP 정책을 수정해야 할 경우 **Set-CsVoicePolicy** cmdlet을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-111">If you need to modify the VoIP policy, use the cmdlet **Set-CsVoicePolicy**.</span></span>
+      - <span data-ttu-id="074a0-110">Cmdlet Set-csvoicepolicy를 실행 하 여 Sba (survivable 분기 서버에서 **사용** 될 사용자에 게 적절 한 VoIP 라우팅 정책이 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-110">Run the cmdlet **Get-CsVoicePolicy** to verify that the users who will be homed on the Survivable Branch Server have the appropriate VoIP routing policy.</span></span> <span data-ttu-id="074a0-111">VoIP 정책을 수정해야 할 경우 **Set-CsVoicePolicy** cmdlet을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-111">If you need to modify the VoIP policy, use the cmdlet **Set-CsVoicePolicy**.</span></span>
     
-      - <span data-ttu-id="106a3-112">**Get-CsVoicemailReroutingConfiguration** cmdlet을 사용하여 음성 사서함 라우팅 설정이 구성되었는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-112">Run the cmdlet **Get-CsVoicemailReroutingConfiguration** to verify that the voice mail rerouting settings are configured.</span></span> <span data-ttu-id="106a3-113">음성 사서함 라우팅 설정을 수정해야 할 경우 **Set-CsVoicemailReroutingConfiguration** cmdlet을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-113">If you need to modify the voice mail rerouting settings, use the cmdlet **Set-CsVoicemailReroutingConfiguration**.</span></span>
+      - <span data-ttu-id="074a0-112">**Get-CsVoicemailReroutingConfiguration** cmdlet을 사용하여 음성 사서함 라우팅 설정이 구성되었는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-112">Run the cmdlet **Get-CsVoicemailReroutingConfiguration** to verify that the voice mail rerouting settings are configured.</span></span> <span data-ttu-id="074a0-113">음성 사서함 라우팅 설정을 수정해야 할 경우 **Set-CsVoicemailReroutingConfiguration** cmdlet을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-113">If you need to modify the voice mail rerouting settings, use the cmdlet **Set-CsVoicemailReroutingConfiguration**.</span></span>
 
-2.  <span data-ttu-id="106a3-114">Lync Server 관리 셸에서 cmdlet **이동 CsUser** 를 실행 하 여 홈 사용자를 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-114">In the Lync Server Management Shell, run the cmdlet **Move-CsUser** to move home users.</span></span>
+2.  <span data-ttu-id="074a0-114">Lync Server 관리 셸에서 cmdlet **이동 CsUser** 를 실행 하 여 홈 사용자를 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-114">In the Lync Server Management Shell, run the cmdlet **Move-CsUser** to move home users.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="106a3-115">Lync Server 제어판을 사용 하 여 필수 구성 요소 및 가정 사용자를 확인할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-115">You can also use Lync Server Control Panel to verify prerequisites and home users.</span></span>
+> <span data-ttu-id="074a0-115">Lync Server 제어판을 사용 하 여 필수 구성 요소 및 가정 사용자를 확인할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-115">You can also use Lync Server Control Panel to verify prerequisites and home users.</span></span>
 
 
 
@@ -67,7 +69,7 @@ ms.locfileid: "42204628"
 
 
 > [!NOTE]  
-> <span data-ttu-id="106a3-116">Lync Server Sba (survivable Branch 기기에 속한 사용자는 새 채팅방을 만들거나 기존 채팅방에 대 한 대화방 카드를 볼 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="106a3-116">Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new chat rooms or view the room card for existing rooms.</span></span>
+> <span data-ttu-id="074a0-116">Lync Server Sba (survivable Branch 기기에 속한 사용자는 새 채팅방을 만들거나 기존 채팅방에 대 한 대화방 카드를 볼 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="074a0-116">Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new chat rooms or view the room card for existing rooms.</span></span>
 
 
 
@@ -77,13 +79,13 @@ ms.locfileid: "42204628"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="106a3-117">참고 항목</span><span class="sxs-lookup"><span data-stu-id="106a3-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="074a0-117">참고 항목</span><span class="sxs-lookup"><span data-stu-id="074a0-117">See Also</span></span>
 
 
-[<span data-ttu-id="106a3-118">Test-cspstnoutboundcall</span><span class="sxs-lookup"><span data-stu-id="106a3-118">Test-CsPstnOutboundCall</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall)  
-[<span data-ttu-id="106a3-119">Set-csvoicepolicy</span><span class="sxs-lookup"><span data-stu-id="106a3-119">Get-CsVoicePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicePolicy)  
-[<span data-ttu-id="106a3-120">New-csvoicemailreroutingconfiguration</span><span class="sxs-lookup"><span data-stu-id="106a3-120">Get-CsVoicemailReroutingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
-[<span data-ttu-id="106a3-121">CsUser 이동</span><span class="sxs-lookup"><span data-stu-id="106a3-121">Move-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)  
+[<span data-ttu-id="074a0-118">Test-cspstnoutboundcall</span><span class="sxs-lookup"><span data-stu-id="074a0-118">Test-CsPstnOutboundCall</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall)  
+[<span data-ttu-id="074a0-119">Set-csvoicepolicy</span><span class="sxs-lookup"><span data-stu-id="074a0-119">Get-CsVoicePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicePolicy)  
+[<span data-ttu-id="074a0-120">New-csvoicemailreroutingconfiguration</span><span class="sxs-lookup"><span data-stu-id="074a0-120">Get-CsVoicemailReroutingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
+[<span data-ttu-id="074a0-121">CsUser 이동</span><span class="sxs-lookup"><span data-stu-id="074a0-121">Move-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)  
   
 
 </div>
