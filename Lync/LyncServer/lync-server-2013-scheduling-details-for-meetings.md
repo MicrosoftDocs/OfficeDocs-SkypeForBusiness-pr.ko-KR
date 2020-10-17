@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 모임에 대 한 세부 정보 예약'
+description: 'Lync Server 2013: 모임에 대 한 세부 정보를 예약 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183910
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54b1756d61ce2e21def08b28d5f08adc658e2983
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ef7a6907aedbc880731b3fb474c9294c1c111b80
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510795"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561984"
 ---
 # <a name="scheduling-details-for-meetings-in-lync-server-2013"></a>Lync Server 2013의 모임에 대 한 일정 세부 정보
 

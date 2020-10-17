@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 응답 그룹 구성 권한 및 필수 구성 요소'
+description: 'Lync Server 2013: 응답 그룹 구성 권한 및 필수 구성 요소'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7289b8818a6193efa867ab0a8671abf6d4701f7c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f7a0548c1d8886eb7741d1a31b24b480c1a2d30f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511745"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560904"
 ---
 # <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹 구성 권한 및 필수 구성 요소
 

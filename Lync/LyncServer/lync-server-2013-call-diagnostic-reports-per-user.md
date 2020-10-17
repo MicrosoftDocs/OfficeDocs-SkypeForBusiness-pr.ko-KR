@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 통화 진단 보고서 (사용자 당)'
+description: 'Lync Server 2013: 사용자 당 통화 진단 보고서입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41f4dab3cef81cc29fc300d42fb0a46193a04b43
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f71b7e62122c8da094002b4b17bc790c1b944a42
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502725"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561744"
 ---
 # <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a>Lync Server 2013의 사용자 당 통화 진단 보고서
 

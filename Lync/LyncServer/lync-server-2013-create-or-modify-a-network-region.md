@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 네트워크 지역 만들기 또는 수정'
+description: 'Lync Server 2013: 네트워크 지역을 만들거나 수정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2ddd7a64da7d0939b7b97099cb12878c272766d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a149a668f64df804d2631243d9bb63401bd8a284
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508855"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562234"
 ---
 # <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 지역 만들기 또는 수정
 

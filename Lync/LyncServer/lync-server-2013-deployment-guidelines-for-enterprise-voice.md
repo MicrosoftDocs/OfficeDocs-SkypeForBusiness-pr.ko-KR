@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enterprise Voice 배포 지침'
+description: 'Lync Server 2013: Enterprise Voice에 대 한 배포 지침'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05cde2a845dd6314d8822e6b58445eed5c6a1d19
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0cd847f674ad4b04698be0f54f8fbd490b13d689
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531075"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562124"
 ---
 # <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice에 대 한 배포 지침
 

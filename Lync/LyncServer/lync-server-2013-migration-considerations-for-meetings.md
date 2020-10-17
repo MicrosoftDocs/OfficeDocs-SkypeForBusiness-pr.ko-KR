@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 모임 마이그레이션 고려 사항'
+description: 'Lync Server 2013: 모임에 대 한 마이그레이션 고려 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48ee24dca1cdf083de990ef42dae4017ed927e15
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e238405acf7bc2a96fd2efd4cca761c1f1f258fd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524565"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560944"
 ---
 # <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Lync Server 2013의 모임에 대 한 마이그레이션 고려 사항
 

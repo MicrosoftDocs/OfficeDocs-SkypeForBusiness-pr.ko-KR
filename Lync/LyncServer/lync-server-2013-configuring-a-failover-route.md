@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 장애 조치 (failover) 경로 구성'
+description: 'Lync Server 2013: 장애 조치 (failover) 경로 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0a3a0d3b2eb2d505ff345af66ae8ccbcc551ee8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e7cfc45276931685a2d42103b1b7f1d5015dcd7e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520065"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560494"
 ---
 # <a name="configuring-a-failover-route-in-lync-server-2013"></a>Lync Server 2013에서 장애 조치 (failover) 경로 구성
 

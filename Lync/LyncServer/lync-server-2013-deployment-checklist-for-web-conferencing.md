@@ -1,5 +1,6 @@
 ---
 title: 웹 회의에 대 한 Lync Server 2013 배포 검사 목록
+description: Lync Server 2013 웹 회의에 대 한 배포 검사 목록
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c20bd593e11f032ba0a0ed852a50b6d417fa604
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6194cb71af268a45dc5c142c1814d8c1ef15c09e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531095"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562184"
 ---
 # <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Lync Server 2013의 웹 회의에 대 한 배포 검사 목록
 

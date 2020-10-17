@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 고급 Enterprise Voice 기능에 대 한 네트워크 설정'
+description: 'Lync Server 2013: 고급 Enterprise Voice 기능에 대 한 네트워크 설정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 340a1902137b6c675b154ef9ccf3d9fbcc882e88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 42f04ba78a4cd2114e6ecffb5b92a7a54facb0df
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217084"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561424"
 ---
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Lync Server 2013의 고급 Enterprise Voice 기능에 대 한 네트워크 설정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Lync Server 2013의 고급 Enterprise Voice 기능에 대 한 네트워크 설정
+
 
 </div>
 
@@ -65,7 +68,7 @@ Lync Server에는 3 가지 고급 Enterprise Voice 기능인 CAC (통화 허용 
 
 </div>
 
-CAC를 사용 하려면 모든 네트워크 지역에 연결 된 Lync Server 중앙 사이트 (즉, 사용자가 구성한 정책에 따라 결정을 내리는, 즉, 실시간 오디오 또는 비디오 세션을 사용할 수 있는지 여부와 관련 하 여 해당 지역 내의 미디어 트래픽을 관리 설정 해야 합니다. Lync Server 중앙 사이트는 지리적 위치를 나타내는 것이 아니라 풀 또는 풀 집합으로 구성 된 서버의 논리적 그룹입니다. 중앙 사이트에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 참조 토폴로지](lync-server-2013-reference-topologies.md) 를 참조 하십시오. 또한 지원 가능성 설명서의 [Lync Server 2013에서 지 원하는 토폴로지](lync-server-2013-supported-topologies.md) 를 참조 하세요.
+CAC에서는 모든 네트워크 지역에 연결 된 Lync Server 중앙 사이트 (즉, 구성 된 정책에 따라 결정을 내리는 데, 즉, 실시간 오디오 또는 비디오 세션을 설정할 수 있는지 여부에 대 한)가 지역 내의 미디어 트래픽을 관리 합니다. Lync Server 중앙 사이트는 지리적 위치를 나타내는 것이 아니라 풀 또는 풀 집합으로 구성 된 서버의 논리적 그룹입니다. 중앙 사이트에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 참조 토폴로지](lync-server-2013-reference-topologies.md) 를 참조 하십시오. 또한 지원 가능성 설명서의 [Lync Server 2013에서 지 원하는 토폴로지](lync-server-2013-supported-topologies.md) 를 참조 하세요.
 
 네트워크 지역을 구성 하려면 Lync Server 제어판의 **네트워크 구성** 섹션에 있는 **지역** 탭을 사용 하거나, **새-csnetworkregion** 또는 **Set-csnetworkregion** Lync Server 관리 셸 cmdlet을 실행 하면 됩니다. 자세한 내용은 배포 설명서에서 [Lync server 2013의 네트워크 지역 만들기 또는 수정을](lync-server-2013-create-or-modify-a-network-region.md) 참조 하거나 Lync Server 관리 셸 설명서를 참조 하십시오.
 

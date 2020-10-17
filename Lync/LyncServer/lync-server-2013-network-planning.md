@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 네트워크 계획
+description: Lync Server 2013 네트워크 계획
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733817
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55a9c719d7a33e817024ed4bc8ff4d8e730a2e25
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 054db4855db153c346b88a0a320ee5734a415eae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505535"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561494"
 ---
 # <a name="network-planning-for-lync-server-2013"></a>Lync Server 2013에 대 한 네트워크 계획
 
