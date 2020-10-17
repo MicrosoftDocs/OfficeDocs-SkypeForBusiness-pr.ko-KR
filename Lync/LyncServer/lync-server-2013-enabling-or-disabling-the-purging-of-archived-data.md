@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 보관 된 데이터의 삭제를 사용 하거나 사용 하지 않도록 설정'
+description: 'Lync Server 2013: 보관 된 데이터의 삭제를 사용 하거나 사용 하지 않도록 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 308ba7b91fbe776ed49d72c54e2986ad95d080fc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 442b99e2cfa6db303ca8edd216cbdf3b5c13cea9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500945"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546464"
 ---
 # <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>Lync Server 2013에서 보관 된 데이터의 삭제를 사용 하거나 사용 하지 않도록 설정
 

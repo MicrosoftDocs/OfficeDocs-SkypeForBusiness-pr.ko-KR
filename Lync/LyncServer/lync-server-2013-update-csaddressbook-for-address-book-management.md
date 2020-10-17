@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 주소록 관리 Update-CsAddressBook'
+description: 'Lync Server 2013: 주소록 관리 Update-CsAddressBook'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fdbef7a3826a734262a77aa39fb2ce32e547463
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4adc7f94e2f31f64f6517b8cdf9bbcb0649f6c8b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527705"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546244"
 ---
 # <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013의 주소록 관리 Update-CsAddressBook
 

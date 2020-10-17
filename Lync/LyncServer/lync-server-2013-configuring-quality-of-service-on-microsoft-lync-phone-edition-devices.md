@@ -1,5 +1,6 @@
 ---
 title: Microsoft Lync Phone Edition 장치의 서비스 품질 구성
+description: Microsoft Lync Phone Edition 장치의 서비스 품질을 구성 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c69bf438965c536a3ba424699a7109308368397
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c0d1e4f10c6b4a550f5da25f8bd2e9fe97606255
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534965"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547944"
 ---
 # <a name="configuring-quality-of-service-on-microsoft-lync-phone-edition-devices-in-lync-server-2013"></a>Lync Server 2013에서 Microsoft Lync Phone Edition 장치에 대 한 서비스 품질 구성
 

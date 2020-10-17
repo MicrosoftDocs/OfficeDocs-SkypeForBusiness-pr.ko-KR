@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 대화방에 대 한 추가 기능 구성'
+description: 'Lync Server 2013: 대화방에 대 한 추가 기능을 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8779e770ca96cbfc34bbbc1f1897df1f5eb9ea03
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 803bff81fa76bf5a7d2d408c93ba9247ead72510
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523055"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546754"
 ---
 # <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a>Lync Server 2013에서 대화방에 대 한 추가 기능 구성
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Exchange 저장소와의 통합 사용 또는 사용 안 함'
+description: 'Lync Server 2013: Exchange 저장소와의 통합을 사용 하거나 사용 하지 않도록 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185295
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d20aa4cfc8ab86dfe12458fbd9ce04e11fc4442e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 42d140bd99bdc4aa86bea2f6ad310c4e06f06faf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522395"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546544"
 ---
 # <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>Exchange 저장소와 함께 Lync Server 2013의 통합 사용 또는 사용 안 함
 

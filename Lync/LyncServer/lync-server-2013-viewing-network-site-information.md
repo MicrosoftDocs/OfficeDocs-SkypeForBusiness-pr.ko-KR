@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 네트워크 사이트 정보 보기'
+description: 'Lync Server 2013: 네트워크 사이트 정보 보기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a63f8abe0adb2f17a674474cbf91884bef5d389
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b46dc91510cb5ff737977871470033374573ba8c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535625"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546224"
 ---
 # <a name="viewing-network-site-information-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 사이트 정보 보기
 

@@ -1,5 +1,6 @@
 ---
 title: 테 넌 트 매개 변수를 사용 하는 비즈니스용 Skype Online의 cmdlet
+description: 테 넌 트 매개 변수를 사용 하는 비즈니스용 Skype Online의 cmdlet입니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 352a33fcff5db306b62535c28fb4a2b2dd766bea
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ff2b8053dd855a854fa26699770d3dafaa0dcbd7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755044"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546804"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>테 넌 트 매개 변수를 사용 하는 비즈니스용 Skype Online의 cmdlet
 
@@ -29,12 +30,12 @@ ms.locfileid: "44755044"
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-다행히 이러한 cmdlet 중 하나를 실행할 때마다 테 넌 트 ID (예: bf19b7db-6960-41e5-a139-2aa373474354)를 입력할 필요가 없습니다. 대신, [CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) cmdlet을 실행 하 고, 변수에 테 넌 트 id를 저장 한 다음, 다른 cmdlet 중 하나를 호출할 때이 변수를 사용 하 여 테 넌 트 id를 검색할 수 있습니다. 예시:
+다행히 이러한 cmdlet 중 하나를 실행할 때마다 테 넌 트 ID (예: bf19b7db-6960-41e5-a139-2aa373474354)를 입력할 필요가 없습니다. 대신, [CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) cmdlet을 실행 하 고, 변수에 테 넌 트 id를 저장 한 다음, 다른 cmdlet 중 하나를 호출할 때이 변수를 사용 하 여 테 넌 트 id를 검색할 수 있습니다. 예제:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-또는 테 넌 트 ID를 검색 한 후 해당 값을-Csten앤틸리스 cmdlet으로 파이프 하 여 단일 명령으로이 작업을 수행할 수 있습니다.
+또는 테 넌 트 ID를 검색 한 다음 해당 값을 Set-CsTenantPublicProvider cmdlet으로 파이프 하 여 단일 명령으로이 작업을 수행할 수 있습니다.
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
@@ -60,7 +61,7 @@ ms.locfileid: "44755044"
 
     Get-CsTenantFederationConfiguration
 
-필수는 아니지만 CsTenantFederationConfiguration를 호출할 때 테 넌 트 매개 변수를 포함할 수 있습니다.
+필수는 아니지만 Get-CsTenantFederationConfiguration를 호출할 때 테 넌 트 매개 변수를 포함할 수 있습니다.
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 

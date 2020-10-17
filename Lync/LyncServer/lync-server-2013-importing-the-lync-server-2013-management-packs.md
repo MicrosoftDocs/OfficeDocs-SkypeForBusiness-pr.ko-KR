@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server 2013 관리 팩 가져오기'
+description: 'Lync Server 2013: Lync Server 2013 관리 팩을 가져오는 중입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4edc22c1cfc46b032e679a9dc0718113bc6967bb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c9615e559baf2f1c8b99015f1e407230559ff770
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526655"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547784"
 ---
 # <a name="importing-the-lync-server-2013-management-packs"></a>Lync Server 2013 관리 팩 가져오기
 

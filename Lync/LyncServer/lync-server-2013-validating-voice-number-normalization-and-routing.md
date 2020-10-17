@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 음성 번호 정규화 및 라우팅 확인'
+description: 'Lync Server 2013: 음성 번호 정규화 및 라우팅의 유효성을 검사 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969633
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d8d68dfaaca20d991aa37d1a73ae31bf88f5c31
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5f28f679cbb991bdb90362eb61c9c7b68879791e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518725"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547144"
 ---
 # <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>Lync Server 2013에서 음성 번호 정규화 및 라우팅 확인
 

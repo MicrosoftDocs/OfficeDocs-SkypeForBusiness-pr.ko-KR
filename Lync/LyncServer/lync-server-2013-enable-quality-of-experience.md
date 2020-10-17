@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 경험 수준 사용'
+description: 'Lync Server 2013: 환경 품질을 사용 하도록 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92f386978deba984350029d58dccdf86d3f0f3aa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 43746227395477596ff5e39809cf819c110287ab
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528565"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547874"
 ---
 # <a name="enable-quality-of-experience-in-lync-server-2013"></a>Lync Server 2013의 경험 수준 사용
 

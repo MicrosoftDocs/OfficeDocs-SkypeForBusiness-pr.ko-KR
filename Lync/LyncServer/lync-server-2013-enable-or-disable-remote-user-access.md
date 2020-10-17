@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 원격 사용자 액세스 사용 또는 사용 안 함'
+description: 'Lync Server 2013: 원격 사용자 액세스를 사용 하거나 사용 하지 않도록 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f02281bdb47fc043d372f5b6e3842a70fe39316
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dea2d58c1978ac2d52365a4a453c40b38dd89c44
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515555"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547894"
 ---
 # <a name="enable-or-disable-remote-user-access-in-lync-server-2013"></a>Lync Server 2013에서 원격 사용자 액세스 사용 또는 사용 안 함
 

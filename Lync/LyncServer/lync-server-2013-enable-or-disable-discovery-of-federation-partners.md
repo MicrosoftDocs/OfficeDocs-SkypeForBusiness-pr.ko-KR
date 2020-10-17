@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 페더레이션 파트너 검색을 사용 하거나 사용 하지 않도록 설정'
+description: 'Lync Server 2013: 페더레이션 파트너 검색을 사용 하거나 사용 하지 않도록 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff9fb4e0b243cc1ce9b51deac1c4021f9b3dff56
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 36b91120ffc1ce2bd6cd8b8114f0330e6d39d996
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526825"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546604"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-lync-server-2013"></a>Lync Server 2013에서 페더레이션 파트너 검색을 사용 하거나 사용 하지 않도록 설정
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync 클라이언트에서 2 단계 인증 사용'
+description: 'Lync Server 2013: Lync 클라이언트에서 2 단계 인증을 사용 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a90dd3c40267f0994e7f41eabb689c869182cea7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dbfde1d04d4e641c8fbe4817ffce214df891b565
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508645"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547284"
 ---
 # <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Lync 클라이언트 및 Lync Server 2013에서 2 단계 인증 사용
 
