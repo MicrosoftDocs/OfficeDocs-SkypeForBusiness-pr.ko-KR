@@ -12,20 +12,22 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c6a56f1a622aca4d3f50565bc86528cf474c845
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1163a8abc54f60d55f1042d6d82552ca9f133a60
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523395"
 ---
+# <a name="import-policies-and-settings"></a><span data-ttu-id="d1ebe-102">정책 및 설정 가져오기</span><span class="sxs-lookup"><span data-stu-id="d1ebe-102">Import policies and settings</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-policies-and-settings"></a><span data-ttu-id="e1f20-102">정책 및 설정 가져오기</span><span class="sxs-lookup"><span data-stu-id="e1f20-102">Import policies and settings</span></span>
+
 
 </div>
 
@@ -35,39 +37,39 @@ ms.locfileid: "44756537"
 
 <span> </span>
 
-<span data-ttu-id="e1f20-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="e1f20-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="d1ebe-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="d1ebe-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="e1f20-104">Office Communications Server 2007 R2 토폴로지 정보를 Lync Server 2013 파일럿 풀과 병합 한 후에는 Lync Server 2013 Management Shell cmdlet을 실행 하 여 Office Communications Server 2007 R2 정책 및 구성 설정을 Lync Server 2013 파일럿 풀로 마이그레이션해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1f20-104">After you merge your Office Communications Server 2007 R2 topology information with your Lync Server 2013 pilot pool, you need to run a Lync Server 2013 Management Shell cmdlet to migrate your Office Communications Server 2007 R2 policies and configuration settings to your Lync Server 2013 pilot pool.</span></span>
+<span data-ttu-id="d1ebe-104">Office Communications Server 2007 R2 토폴로지 정보를 Lync Server 2013 파일럿 풀과 병합 한 후에는 Lync Server 2013 Management Shell cmdlet을 실행 하 여 Office Communications Server 2007 R2 정책 및 구성 설정을 Lync Server 2013 파일럿 풀로 마이그레이션해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d1ebe-104">After you merge your Office Communications Server 2007 R2 topology information with your Lync Server 2013 pilot pool, you need to run a Lync Server 2013 Management Shell cmdlet to migrate your Office Communications Server 2007 R2 policies and configuration settings to your Lync Server 2013 pilot pool.</span></span>
 
-<span data-ttu-id="e1f20-105">**Import-cslegacyconfiguration** cmdlet은 정책, 음성 경로, 다이얼 플랜, Communicator Web Access url 및 전화 접속 액세스 번호를 Lync Server 2013로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="e1f20-105">The **Import-CsLegacyConfiguration** cmdlet imports policies, voice routes, dial plans, Communicator Web Access URLs, and dial-in access numbers to Lync Server 2013.</span></span>
+<span data-ttu-id="d1ebe-105">**Import-cslegacyconfiguration** cmdlet은 정책, 음성 경로, 다이얼 플랜, Communicator Web Access url 및 전화 접속 액세스 번호를 Lync Server 2013로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="d1ebe-105">The **Import-CsLegacyConfiguration** cmdlet imports policies, voice routes, dial plans, Communicator Web Access URLs, and dial-in access numbers to Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="to-migrate-policies-and-settings"></a><span data-ttu-id="e1f20-106">정책 및 설정을 마이그레이션하려면</span><span class="sxs-lookup"><span data-stu-id="e1f20-106">To migrate policies and settings</span></span>
+## <a name="to-migrate-policies-and-settings"></a><span data-ttu-id="d1ebe-106">정책 및 설정을 마이그레이션하려면</span><span class="sxs-lookup"><span data-stu-id="d1ebe-106">To migrate policies and settings</span></span>
 
-1.  <span data-ttu-id="e1f20-107">Lync Server 2013 프런트 엔드 서버에서 Lync Server 관리 셸을 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1f20-107">On the Lync Server 2013 Front End server, start the Lync Server Management Shell.</span></span>
+1.  <span data-ttu-id="d1ebe-107">Lync Server 2013 프런트 엔드 서버에서 Lync Server 관리 셸을 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="d1ebe-107">On the Lync Server 2013 Front End server, start the Lync Server Management Shell.</span></span>
 
-2.  <span data-ttu-id="e1f20-108">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="e1f20-108">At the command line, type the following:</span></span>
+2.  <span data-ttu-id="d1ebe-108">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d1ebe-108">At the command line, type the following:</span></span>
     
         Import-CsLegacyConfiguration
     
-    <span data-ttu-id="e1f20-109">정책을 가져온 후에는 다음 절차에 따라 Lync Server 제어판에서 가져온 정책을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1f20-109">After the policies are imported, use the procedure that follows to see the imported policies in the Lync Server Control Panel .</span></span>
+    <span data-ttu-id="d1ebe-109">정책을 가져온 후에는 다음 절차에 따라 Lync Server 제어판에서 가져온 정책을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d1ebe-109">After the policies are imported, use the procedure that follows to see the imported policies in the Lync Server Control Panel .</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-view-imported-policies"></a><span data-ttu-id="e1f20-110">가져온 정책을 보려면</span><span class="sxs-lookup"><span data-stu-id="e1f20-110">To view imported policies</span></span>
+## <a name="to-view-imported-policies"></a><span data-ttu-id="d1ebe-110">가져온 정책을 보려면</span><span class="sxs-lookup"><span data-stu-id="d1ebe-110">To view imported policies</span></span>
 
-1.  <span data-ttu-id="e1f20-111">Lync Server 2013 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="e1f20-111">Open Lync Server 2013 Control Panel.</span></span>
+1.  <span data-ttu-id="d1ebe-111">Lync Server 2013 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="d1ebe-111">Open Lync Server 2013 Control Panel.</span></span>
 
-2.  <span data-ttu-id="e1f20-112">**음성 라우팅**을 클릭하고 가져온 정책을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="e1f20-112">Click **Voice Routing** and view the imported policies.</span></span>
+2.  <span data-ttu-id="d1ebe-112">**음성 라우팅**을 클릭하고 가져온 정책을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="d1ebe-112">Click **Voice Routing** and view the imported policies.</span></span>
 
-3.  <span data-ttu-id="e1f20-113">**회의**를 클릭하고 가져온 정책을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="e1f20-113">Click **Conferencing** and view the imported policies.</span></span>
+3.  <span data-ttu-id="d1ebe-113">**회의**를 클릭하고 가져온 정책을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="d1ebe-113">Click **Conferencing** and view the imported policies.</span></span>
 
-4.  <span data-ttu-id="e1f20-114">**페더레이션 및 외부 액세스**를 클릭하고 가져온 정책을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="e1f20-114">Click **Federation and External Access** and view the imported policies.</span></span>
+4.  <span data-ttu-id="d1ebe-114">**페더레이션 및 외부 액세스**를 클릭하고 가져온 정책을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="d1ebe-114">Click **Federation and External Access** and view the imported policies.</span></span>
 
-5.  <span data-ttu-id="e1f20-115">**모니터링 및 보관**을 클릭하고 가져온 정책을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="e1f20-115">Click **Monitoring and Archiving** and view the imported policies.</span></span>
+5.  <span data-ttu-id="d1ebe-115">**모니터링 및 보관**을 클릭하고 가져온 정책을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="d1ebe-115">Click **Monitoring and Archiving** and view the imported policies.</span></span>
 
 </div>
 

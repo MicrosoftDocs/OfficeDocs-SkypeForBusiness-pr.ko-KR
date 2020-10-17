@@ -12,20 +12,22 @@ ms:contentKeyID: 48185586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfd58efd994e7034253fd3314e66d956e3259bcb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 68ae12ee384a78acd8c5c390715b05791b7a0df8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213524"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522595"
 ---
+# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a><span data-ttu-id="0c56b-102">호스팅된 Exchange UM과 Lync Server 2013의 통합을 위한 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="0c56b-102">Deployment process for integrating hosted Exchange UM with Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a><span data-ttu-id="ea241-102">호스팅된 Exchange UM과 Lync Server 2013의 통합을 위한 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="ea241-102">Deployment process for integrating hosted Exchange UM with Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42213524"
 
 <span> </span>
 
-<span data-ttu-id="ea241-103">_**마지막으로 수정 된 항목:** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="ea241-103">_**Topic Last Modified:** 2012-09-25_</span></span>
+<span data-ttu-id="0c56b-103">_**마지막으로 수정 된 항목:** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="0c56b-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-<span data-ttu-id="ea241-104">Lync Server 2013을 호스팅된 Exchange UM (통합 메시징)과 통합 하기 위한 효과적인 계획을 사용 하려면 다음 사항을 고려해 야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-104">Effective planning for integrating Lync Server 2013 with hosted Exchange Unified Messaging (UM) requires that you take into account the following:</span></span>
+<span data-ttu-id="0c56b-104">Lync Server 2013을 호스팅된 Exchange UM (통합 메시징)과 통합 하기 위한 효과적인 계획을 사용 하려면 다음 사항을 고려해 야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-104">Effective planning for integrating Lync Server 2013 with hosted Exchange Unified Messaging (UM) requires that you take into account the following:</span></span>
 
-  - <span data-ttu-id="ea241-105">Lync Server 2013과 호스팅된 Exchange UM의 통합을 위한 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="ea241-105">Prerequisites for integrating Lync Server 2013 with hosted Exchange UM</span></span>
+  - <span data-ttu-id="0c56b-105">Lync Server 2013과 호스팅된 Exchange UM의 통합을 위한 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="0c56b-105">Prerequisites for integrating Lync Server 2013 with hosted Exchange UM</span></span>
 
-  - <span data-ttu-id="ea241-106">통합 프로세스 중 필요한 단계</span><span class="sxs-lookup"><span data-stu-id="ea241-106">Steps required during the integration process</span></span>
+  - <span data-ttu-id="0c56b-106">통합 프로세스 중 필요한 단계</span><span class="sxs-lookup"><span data-stu-id="0c56b-106">Steps required during the integration process</span></span>
 
 <div>
 
-## <a name="deployment-prerequisites-for-integrating-with-hosted-exchange-um"></a><span data-ttu-id="ea241-107">호스팅된 Exchange UM과의 통합을 위한 배포 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="ea241-107">Deployment Prerequisites for Integrating with Hosted Exchange UM</span></span>
+## <a name="deployment-prerequisites-for-integrating-with-hosted-exchange-um"></a><span data-ttu-id="0c56b-107">호스팅된 Exchange UM과의 통합을 위한 배포 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="0c56b-107">Deployment Prerequisites for Integrating with Hosted Exchange UM</span></span>
 
-<span data-ttu-id="ea241-108">통합 프로세스를 시작 하려면 먼저 Lync Server 2013 (최소, 프런트 엔드 풀 또는 Standard Edition 서버),에 지 서버 및 Lync 2013 또는 Lync 2010 클라이언트를 배포 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-108">Before you can begin the integration process, you must already have deployed Lync Server 2013 (at a minimum, a Front End pool or a Standard Edition server), an Edge Server, and Lync 2013 or Lync 2010 clients.</span></span>
+<span data-ttu-id="0c56b-108">통합 프로세스를 시작 하려면 먼저 Lync Server 2013 (최소, 프런트 엔드 풀 또는 Standard Edition 서버),에 지 서버 및 Lync 2013 또는 Lync 2010 클라이언트를 배포 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-108">Before you can begin the integration process, you must already have deployed Lync Server 2013 (at a minimum, a Front End pool or a Standard Edition server), an Edge Server, and Lync 2013 or Lync 2010 clients.</span></span>
 
 </div>
 
 <div>
 
-## <a name="integration-process"></a><span data-ttu-id="ea241-109">통합 프로세스</span><span class="sxs-lookup"><span data-stu-id="ea241-109">Integration Process</span></span>
+## <a name="integration-process"></a><span data-ttu-id="0c56b-109">통합 프로세스</span><span class="sxs-lookup"><span data-stu-id="0c56b-109">Integration Process</span></span>
 
-<span data-ttu-id="ea241-110">다음 표에서는 호스팅된 Exchange UM 통합 프로세스에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-110">The following table provides an overview of the hosted Exchange UM integration process.</span></span> <span data-ttu-id="ea241-111">배포 단계에 대 한 자세한 내용은 배포 설명서의 [호스팅된 EXCHANGE UM에서 Lync Server 2013 users 음성 메일 제공](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ea241-111">For details about deployment steps, see [Providing Lync Server 2013 users voice mail on hosted Exchange UM](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="0c56b-110">다음 표에서는 호스팅된 Exchange UM 통합 프로세스에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-110">The following table provides an overview of the hosted Exchange UM integration process.</span></span> <span data-ttu-id="0c56b-111">배포 단계에 대 한 자세한 내용은 배포 설명서의 [호스팅된 EXCHANGE UM에서 Lync Server 2013 users 음성 메일 제공](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0c56b-111">For details about deployment steps, see [Providing Lync Server 2013 users voice mail on hosted Exchange UM](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) in the Deployment documentation.</span></span>
 
 
 <table>
@@ -67,55 +69,55 @@ ms.locfileid: "42213524"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ea241-112">단계</span><span class="sxs-lookup"><span data-stu-id="ea241-112">Phase</span></span></th>
-<th><span data-ttu-id="ea241-113">단계</span><span class="sxs-lookup"><span data-stu-id="ea241-113">Steps</span></span></th>
-<th><span data-ttu-id="ea241-114">권한 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="ea241-114">Rights and permissions</span></span></th>
-<th><span data-ttu-id="ea241-115">배포 설명서</span><span class="sxs-lookup"><span data-stu-id="ea241-115">Deployment documentation</span></span></th>
+<th><span data-ttu-id="0c56b-112">단계</span><span class="sxs-lookup"><span data-stu-id="0c56b-112">Phase</span></span></th>
+<th><span data-ttu-id="0c56b-113">단계</span><span class="sxs-lookup"><span data-stu-id="0c56b-113">Steps</span></span></th>
+<th><span data-ttu-id="0c56b-114">권한 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="0c56b-114">Rights and permissions</span></span></th>
+<th><span data-ttu-id="0c56b-115">배포 설명서</span><span class="sxs-lookup"><span data-stu-id="0c56b-115">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ea241-116">에 지 서버를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-116">Configure the Edge Server.</span></span></p></td>
+<td><p><span data-ttu-id="0c56b-116">에 지 서버를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-116">Configure the Edge Server.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="ea241-117">페더레이션을 위해에 지 서버를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-117">Configure the Edge Server for federation.</span></span></p></li>
-<li><p><span data-ttu-id="ea241-118">에 지 서버에 데이터를 수동으로 복제 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-118">Manually replicate data to the Edge Server.</span></span></p></li>
-<li><p><span data-ttu-id="ea241-119">에 지 서버에서 호스팅 공급자를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-119">Configure the hosting provider on the Edge Server.</span></span></p></li>
+<li><p><span data-ttu-id="0c56b-117">페더레이션을 위해에 지 서버를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-117">Configure the Edge Server for federation.</span></span></p></li>
+<li><p><span data-ttu-id="0c56b-118">에 지 서버에 데이터를 수동으로 복제 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-118">Manually replicate data to the Edge Server.</span></span></p></li>
+<li><p><span data-ttu-id="0c56b-119">에 지 서버에서 호스팅 공급자를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-119">Configure the hosting provider on the Edge Server.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="ea241-120">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="ea241-120">RTCUniversalServerAdmins</span></span></p></td>
-<td><p><span data-ttu-id="ea241-121"><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">호스팅된 Exchange UM과의 통합을 위해에 지 서버 구성</a></span><span class="sxs-lookup"><span data-stu-id="ea241-121"><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">Configure the Edge Server for integration with hosted Exchange UM</a></span></span></p></td>
+<td><p><span data-ttu-id="0c56b-120">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="0c56b-120">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="0c56b-121"><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">호스팅된 Exchange UM과의 통합을 위해에 지 서버 구성</a></span><span class="sxs-lookup"><span data-stu-id="0c56b-121"><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">Configure the Edge Server for integration with hosted Exchange UM</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ea241-122">호스팅된 음성 메일 정책을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-122">Configure hosted voice mail policy.</span></span></p></td>
+<td><p><span data-ttu-id="0c56b-122">호스팅된 음성 메일 정책을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-122">Configure hosted voice mail policy.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="ea241-123">전역 호스트 된 음성 메일 정책을 수정 하거나 사이트 또는 사용자별 범위를 사용 하 여 호스팅된 새 음성 메일 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-123">Either modify the global hosted voice mail policy or create a new hosted voice mail policy with Site or Per-User scope.</span></span></p></li>
-<li><p><span data-ttu-id="ea241-124">사용자별 범위가 포함 된 정책의 경우 사용자 또는 그룹에 정책을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-124">For policies with Per-User scope, assign the policy to users or groups.</span></span></p></li>
+<li><p><span data-ttu-id="0c56b-123">글로벌 호스트 된 음성 메일 정책을 수정 하거나 사이트 또는 Per-User 범위를 사용 하 여 호스팅된 새 음성 메일 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-123">Either modify the global hosted voice mail policy or create a new hosted voice mail policy with Site or Per-User scope.</span></span></p></li>
+<li><p><span data-ttu-id="0c56b-124">Per-User 범위가 있는 정책에 대해 사용자 또는 그룹에 정책을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-124">For policies with Per-User scope, assign the policy to users or groups.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="ea241-125">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="ea241-125">RTCUniversalServerAdmins</span></span></p></td>
-<td><p><span data-ttu-id="ea241-126"><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Lync Server 2013에서 호스팅된 음성 메일 정책 관리</a></span><span class="sxs-lookup"><span data-stu-id="ea241-126"><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Manage hosted voice mail policies in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="0c56b-125">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="0c56b-125">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="0c56b-126"><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Lync Server 2013에서 호스팅된 음성 메일 정책 관리</a></span><span class="sxs-lookup"><span data-stu-id="0c56b-126"><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Manage hosted voice mail policies in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ea241-127">사용자가 호스팅된 음성 메일을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-127">Enable users for hosted voice mail.</span></span></p></td>
+<td><p><span data-ttu-id="0c56b-127">사용자가 호스팅된 음성 메일을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-127">Enable users for hosted voice mail.</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="ea241-128">사서함이 호스팅된 Exchange 서비스에 있는 사용자에 대 한 사용자 계정을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-128">Configure user accounts for users whose mailboxes are on a hosted Exchange service.</span></span></p></li>
+<li><p><span data-ttu-id="0c56b-128">사서함이 호스팅된 Exchange 서비스에 있는 사용자에 대 한 사용자 계정을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-128">Configure user accounts for users whose mailboxes are on a hosted Exchange service.</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="ea241-129">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="ea241-129">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="ea241-130"><a href="lync-server-2013-enable-users-for-hosted-voice-mail.md">Lync Server 2013에서 호스팅된 음성 메일에 대해 사용자를 사용 하도록 설정</a></span><span class="sxs-lookup"><span data-stu-id="ea241-130"><a href="lync-server-2013-enable-users-for-hosted-voice-mail.md">Enable users for hosted voice mail in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="0c56b-129">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="0c56b-129">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="0c56b-130"><a href="lync-server-2013-enable-users-for-hosted-voice-mail.md">Lync Server 2013에서 호스팅된 음성 메일에 대해 사용자를 사용 하도록 설정</a></span><span class="sxs-lookup"><span data-stu-id="0c56b-130"><a href="lync-server-2013-enable-users-for-hosted-voice-mail.md">Enable users for hosted voice mail in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ea241-131">호스팅된 대화 상대 개체를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-131">Configure hosted contact objects.</span></span></p></td>
+<td><p><span data-ttu-id="0c56b-131">호스팅된 대화 상대 개체를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-131">Configure hosted contact objects.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="ea241-132">호스팅된 Exchange UM에 대 한 자동 전화 교환 대화 상대 개체를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-132">Create auto-attendant Contact objects for hosted Exchange UM.</span></span></p></li>
-<li><p><span data-ttu-id="ea241-133">호스팅된 Exchange UM에 대 한 구독자 액세스 대화 상대 개체를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-133">Create Subscriber Access contact objects for hosted Exchange UM.</span></span></p></li>
+<li><p><span data-ttu-id="0c56b-132">호스팅된 Exchange UM에 대 한 자동 전화 교환 대화 상대 개체를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-132">Create auto-attendant Contact objects for hosted Exchange UM.</span></span></p></li>
+<li><p><span data-ttu-id="0c56b-133">호스팅된 Exchange UM에 대 한 구독자 액세스 대화 상대 개체를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-133">Create Subscriber Access contact objects for hosted Exchange UM.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="ea241-134">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="ea241-134">RTCUniversalUserAdmins</span></span></p>
+<td><p><span data-ttu-id="0c56b-134">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="0c56b-134">RTCUniversalUserAdmins</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="ea241-135">연락처 개체를 만들거나, 수정 하거나, 제거 하려면 새 연락처 개체가 저장 된 Active Directory 조직 구성 단위에 대 한 올바른 사용 권한을 가져야 합니다 (예를 들어, e c e c e n t e c e i n t e c e c r i e c r i e c r i e c e)을 실행 하는 사용자</span><span class="sxs-lookup"><span data-stu-id="ea241-135">To create, modify or remove contact objects, the user who runs the New-CsExUmContact, Set-CsExUmContact or Remove-CsExUmContact cmdlet must have the correct permission to the Active Directory organizational unit where the new contact objects are stored.</span></span> <span data-ttu-id="ea241-136">이 사용 권한은 부여-CsOUPermission cmdlet을 실행 하 여 부여할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ea241-136">This permission can be granted by running the Grant-CsOUPermission cmdlet.</span></span> <span data-ttu-id="ea241-137">자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="ea241-137">For details, see the Lync Server Management Shell documentation.</span></span>
+> <span data-ttu-id="0c56b-135">연락처 Remove-CsExUmContact Set-CsExUmContact 개체를 만들거나, 수정 하거나, 제거 하려면 새 연락처 개체가 저장 된 Active Directory 조직 구성 단위에 대 한 올바른 사용 권한을 갖고 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-135">To create, modify or remove contact objects, the user who runs the New-CsExUmContact, Set-CsExUmContact or Remove-CsExUmContact cmdlet must have the correct permission to the Active Directory organizational unit where the new contact objects are stored.</span></span> <span data-ttu-id="0c56b-136">이 사용 권한은 Grant-CsOUPermission cmdlet을 실행 하 여 부여할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0c56b-136">This permission can be granted by running the Grant-CsOUPermission cmdlet.</span></span> <span data-ttu-id="0c56b-137">자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="0c56b-137">For details, see the Lync Server Management Shell documentation.</span></span>
 
 
 </div></td>
-<td><p><span data-ttu-id="ea241-138"><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Lync Server 2013에서 호스팅된 Exchange UM에 대 한 대화 상대 개체 만들기</a></span><span class="sxs-lookup"><span data-stu-id="ea241-138"><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Create contact objects for hosted Exchange UM in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="0c56b-138"><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Lync Server 2013에서 호스팅된 Exchange UM에 대 한 대화 상대 개체 만들기</a></span><span class="sxs-lookup"><span data-stu-id="0c56b-138"><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Create contact objects for hosted Exchange UM in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>

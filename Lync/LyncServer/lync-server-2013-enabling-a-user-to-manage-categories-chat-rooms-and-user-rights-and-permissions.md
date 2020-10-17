@@ -12,20 +12,22 @@ ms:contentKeyID: 48706002
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c387d00f457005eb7c40a9b921051a988ee6f044
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0fab4c354be95a5cb5864944412c973030b7e6f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187791"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522421"
 ---
+# <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a><span data-ttu-id="58d7d-102">Lync Server 2013에서 사용자가 범주, 대화방, 사용자 권한 및 사용 권한을 관리할 수 있도록 설정</span><span class="sxs-lookup"><span data-stu-id="58d7d-102">Enabling a user to manage categories, chat rooms, and user rights and permissions in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a><span data-ttu-id="d75ec-102">Lync Server 2013에서 사용자가 범주, 대화방, 사용자 권한 및 사용 권한을 관리할 수 있도록 설정</span><span class="sxs-lookup"><span data-stu-id="d75ec-102">Enabling a user to manage categories, chat rooms, and user rights and permissions in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42187791"
 
 <span> </span>
 
-<span data-ttu-id="d75ec-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="d75ec-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="58d7d-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="58d7d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="d75ec-104">**CsPersistentChatAdministrator** 역할 (영구 채팅 관리자)의 구성원은 다른 사용자와 자신에 게 대화방 관리자 권한을 부여할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d75ec-104">Members of the **CsPersistentChatAdministrator** role (Persistent Chat administrators) can grant chat room manager rights and permissions to other users and to themselves.</span></span>
+<span data-ttu-id="58d7d-104">**CsPersistentChatAdministrator** 역할 (영구 채팅 관리자)의 구성원은 다른 사용자와 자신에 게 대화방 관리자 권한을 부여할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="58d7d-104">Members of the **CsPersistentChatAdministrator** role (Persistent Chat administrators) can grant chat room manager rights and permissions to other users and to themselves.</span></span>
 
-<span data-ttu-id="d75ec-105">영구 채팅 관리자는 다음을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d75ec-105">A Persistent Chat administrator can do the following:</span></span>
+<span data-ttu-id="58d7d-105">영구 채팅 관리자는 다음을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="58d7d-105">A Persistent Chat administrator can do the following:</span></span>
 
-  - <span data-ttu-id="d75ec-106">방 범주 및 채팅방 만들기</span><span class="sxs-lookup"><span data-stu-id="d75ec-106">Create room categories and chat rooms.</span></span>
+  - <span data-ttu-id="58d7d-106">방 범주 및 채팅방 만들기</span><span class="sxs-lookup"><span data-stu-id="58d7d-106">Create room categories and chat rooms.</span></span>
 
-  - <span data-ttu-id="d75ec-107">모든 범주 및 채팅방의 구성원 자격 설정</span><span class="sxs-lookup"><span data-stu-id="d75ec-107">Set the membership of all categories and chat rooms.</span></span>
+  - <span data-ttu-id="58d7d-107">모든 범주 및 채팅방의 구성원 자격 설정</span><span class="sxs-lookup"><span data-stu-id="58d7d-107">Set the membership of all categories and chat rooms.</span></span>
 
-  - <span data-ttu-id="d75ec-108">모든 범주와 채팅방의 모든 설정 관리</span><span class="sxs-lookup"><span data-stu-id="d75ec-108">Manage all settings of all categories and chat rooms.</span></span>
+  - <span data-ttu-id="58d7d-108">모든 범주와 채팅방의 모든 설정 관리</span><span class="sxs-lookup"><span data-stu-id="58d7d-108">Manage all settings of all categories and chat rooms.</span></span>
 
-  - <span data-ttu-id="d75ec-109">영구 채팅 서버에 대 한 정책을 사용 하거나 사용 하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="d75ec-109">Enable or disable policy for Persistent Chat Server.</span></span>
+  - <span data-ttu-id="58d7d-109">영구 채팅 서버에 대 한 정책을 사용 하거나 사용 하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="58d7d-109">Enable or disable policy for Persistent Chat Server.</span></span>
 
-  - <span data-ttu-id="d75ec-110">영구 채팅 서버 풀에서 구성 설정을 설정 및 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="d75ec-110">Set and manage configuration settings on a Persistent Chat Server pool.</span></span>
+  - <span data-ttu-id="58d7d-110">영구 채팅 서버 풀에서 구성 설정을 설정 및 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="58d7d-110">Set and manage configuration settings on a Persistent Chat Server pool.</span></span>
 
-<span data-ttu-id="d75ec-111">자세한 내용은 배포 설명서에서 [Lync Server 2013의 영구 채팅 관리자 추가](lync-server-2013-adding-a-persistent-chat-administrator.md) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d75ec-111">For details, see [Adding a Persistent Chat administrator in Lync Server 2013](lync-server-2013-adding-a-persistent-chat-administrator.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="58d7d-111">자세한 내용은 배포 설명서에서 [Lync Server 2013의 영구 채팅 관리자 추가](lync-server-2013-adding-a-persistent-chat-administrator.md) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="58d7d-111">For details, see [Adding a Persistent Chat administrator in Lync Server 2013](lync-server-2013-adding-a-persistent-chat-administrator.md) in the Deployment documentation.</span></span>
 
 </div>
 

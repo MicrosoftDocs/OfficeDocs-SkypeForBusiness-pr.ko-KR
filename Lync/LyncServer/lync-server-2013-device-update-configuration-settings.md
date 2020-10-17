@@ -12,20 +12,22 @@ ms:contentKeyID: 51803969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed58e9a3b352464933282ce464d8c36bfbf326e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a240df948f7c37fb32d455ce4689a9256eeafd1b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197951"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522405"
 ---
+# <a name="device-update-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="4cd02-102">Lync Server 2013의 장치 업데이트 구성 설정</span><span class="sxs-lookup"><span data-stu-id="4cd02-102">Device Update configuration settings in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-update-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="1854d-102">Lync Server 2013의 장치 업데이트 구성 설정</span><span class="sxs-lookup"><span data-stu-id="1854d-102">Device Update configuration settings in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42197951"
 
 <span> </span>
 
-<span data-ttu-id="1854d-103">_**마지막으로 수정 된 항목:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="1854d-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="4cd02-103">_**마지막으로 수정 된 항목:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="4cd02-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="1854d-104">장치 업데이트 웹 서비스는 장치 구성 설정을 사용 하 여 관리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1854d-104">The Device Update Web service is managed by using device configuration settings.</span></span> <span data-ttu-id="1854d-105">이러한 설정은 전역 범위 또는 사이트 범위에 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1854d-105">These settings can be applied at the global scope or at the site scope.</span></span>
+<span data-ttu-id="4cd02-104">장치 업데이트 웹 서비스는 장치 구성 설정을 사용 하 여 관리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd02-104">The Device Update Web service is managed by using device configuration settings.</span></span> <span data-ttu-id="4cd02-105">이러한 설정은 전역 범위 또는 사이트 범위에 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd02-105">These settings can be applied at the global scope or at the site scope.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1854d-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="1854d-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4cd02-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="4cd02-106">In This Section</span></span>
 
-  - [<span data-ttu-id="1854d-107">Lync Server 2013의 장치 업데이트 구성 설정 보기</span><span class="sxs-lookup"><span data-stu-id="1854d-107">View Device Update configuration settings in Lync Server 2013</span></span>](lync-server-2013-view-device-update-configuration-settings.md)
+  - [<span data-ttu-id="4cd02-107">Lync Server 2013의 장치 업데이트 구성 설정 보기</span><span class="sxs-lookup"><span data-stu-id="4cd02-107">View Device Update configuration settings in Lync Server 2013</span></span>](lync-server-2013-view-device-update-configuration-settings.md)
 
-  - [<span data-ttu-id="1854d-108">Lync Server 2013에서 장치 업데이트 구성 설정 모음 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="1854d-108">Create or modify a collection of Device Update configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md)
+  - [<span data-ttu-id="4cd02-108">Lync Server 2013에서 장치 업데이트 구성 설정 모음 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="4cd02-108">Create or modify a collection of Device Update configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md)
 
-  - [<span data-ttu-id="1854d-109">Lync Server 2013에서 장치 업데이트 구성 설정 컬렉션 삭제</span><span class="sxs-lookup"><span data-stu-id="1854d-109">Delete a collection of Device Update configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md)
+  - [<span data-ttu-id="4cd02-109">Lync Server 2013에서 장치 업데이트 구성 설정 컬렉션 삭제</span><span class="sxs-lookup"><span data-stu-id="4cd02-109">Delete a collection of Device Update configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md)
 
 </div>
 
