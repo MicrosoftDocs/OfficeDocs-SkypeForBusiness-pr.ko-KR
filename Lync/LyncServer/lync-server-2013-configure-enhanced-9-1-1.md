@@ -12,20 +12,22 @@ ms:contentKeyID: 48184205
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8e02c81b19943baaf33ba3bb401f4810d053703
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 642117d89936741cf2610b4d76e1a20125336e4a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196281"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537115"
 ---
+# <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a>Lync Server 2013에서 향상 된 9-1-1 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a>Lync Server 2013에서 향상 된 9-1-1 구성
+
 
 </div>
 

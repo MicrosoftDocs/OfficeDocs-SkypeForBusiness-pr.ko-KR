@@ -12,20 +12,22 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2a8de372a8ca0ae6ec8c80a147eb74ffb01d0a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3533bcf01338a056bab8c75d1409530fab7c901f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536885"
 ---
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Lync Server 2013에 대 한 서버 및 응용 프로그램 강화 및 보호
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Lync Server 2013에 대 한 서버 및 응용 프로그램 강화 및 보호
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**마지막으로 수정 된 항목:** 2013-12-05_
 
 ## <a name="securing-virtual-servers"></a>가상 서버 보안
 
-가상 서버 스냅숏에는 서버의 데이터 디스크 복사본이 포함 되며 메모리 내 데이터의 덤프도 포함 되며, 둘 다 공격이 발생할 수 있는 중요 한 암호화 데이터를 포함할 수 있습니다. 가상화를 사용 하 여 구현 되는 프로덕션 서버의 경우 모든 서버 스냅숏을 사용 하지 않도록 설정 하거나 매우 통제 된 방식으로 관리 해야 합니다. Hyper-v 가상 서버를 보호 하는 방법에 대 한 자세한 내용은: [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)의 Hyper-v 보안 가이드를 참조 하세요.
+가상 서버 스냅숏에는 서버의 데이터 디스크 복사본이 포함 되며 메모리 내 데이터의 덤프도 포함 되며, 둘 다 공격이 발생할 수 있는 중요 한 암호화 데이터를 포함할 수 있습니다. 가상화를 사용 하 여 구현 되는 프로덕션 서버의 경우 모든 서버 스냅숏을 사용 하지 않도록 설정 하거나 매우 통제 된 방식으로 관리 해야 합니다. Hyper-v 가상 서버를 보호 하는 방법에 대 한 자세한 내용은:의 Hyper-v 보안 가이드를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176) .
 
 </div>
 
@@ -85,9 +87,9 @@ Windows Server 2008 및 Windows Server 2008 R2에서 그룹 정책은 디렉터�
 
 관리자가 이러한 설정을 구성 하는 데 사용할 수 있는 사용자 인터페이스를 제공 하기 위해 관리 템플릿은 운영 체제 릴리스, 서비스 팩 릴리스 및 일부 응용 프로그램 (Lync Server 2013 포함)과 함께 제공 됩니다.
 
-Communicator .adm 파일은 Lync Server 2013와 함께 제공 되는 관리 템플릿으로,% windir%\\inf\\ 디렉터리에 설치 되어 있으며, 그룹 정책 설정에 대 한 인터페이스를 제공 합니다. Communicator의 각 설정은 응용 프로그램 동작에 영향을 주는 레지스트리 설정에 해당 합니다.
+Communicator .adm 파일은 Lync Server 2013와 함께 제공 되는 관리 템플릿으로,% windir% inf 디렉터리에 설치 되어 \\ \\ 있으며, 그룹 정책 설정에 대 한 인터페이스를 제공 합니다. Communicator의 각 설정은 응용 프로그램 동작에 영향을 주는 레지스트리 설정에 해당 합니다.
 
-이 설정은 Active Directory 사용자 및 컴퓨터 콘솔과 GPMC (그룹 정책 관리 콘솔)에서 제공 되는 Gpedit.msc에서 액세스할 수 있습니다.
+이 설정은 Active Directory 사용자 및 컴퓨터 콘솔과 GPMC (그룹 정책 관리 콘솔)에서 사용할 수 있는 GPedit.dll에서 액세스할 수 있습니다.
 
 </div>
 
@@ -95,7 +97,7 @@ Communicator .adm 파일은 Lync Server 2013와 함께 제공 되는 관리 템�
 
 ## <a name="group-policy-security-settings"></a>그룹 정책 보안 설정
 
-그룹 정책 Gpedit.msc에서 액세스할 때 컴퓨터 구성/Windows 설정/보안 설정 아래에 GPO에 대 한 보안 설정이 들어 있습니다. 보안 템플릿을 가져와서 GPO에 대 한 보안 설정을 구성할 수 있습니다. 의 Windows Server 2008 보안 가이드 [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) 및 windows Server 2008 R2 보안 준수 관리 도구 키트에는 [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) 사용자의 요구를 충족 하기 위해 수정할 수 있는 다양 한 샘플 서식 파일이 포함 되어 있습니다.
+그룹 정책 GPedit.dll에서 액세스 한 컴퓨터 구성/Windows 설정/보안 설정 아래에 GPO에 대 한 보안 설정이 들어 있습니다. 보안 템플릿을 가져와서 GPO에 대 한 보안 설정을 구성할 수 있습니다. 의 Windows Server 2008 보안 가이드 [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) 및 Windows server 2008 R2 보안 준수 관리 도구 키트에는 [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) 사용자의 요구를 충족 하기 위해 수정할 수 있는 다양 한 샘플 서식 파일이 포함 되어 있습니다.
 
 </div>
 

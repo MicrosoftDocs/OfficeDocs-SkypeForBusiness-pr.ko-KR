@@ -12,20 +12,22 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8b2059048823c1a8f063d0d7832759ec64e6341
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 831968516ef155d6ad018f33bfa27226f58292dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204514"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537145"
 ---
+# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Lync Server 2013에서 부하 분산을 위한 DNS 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Lync Server 2013에서 부하 분산을 위한 DNS 구성
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2012-10-01_
 
 이 절차를 성공적으로 완료하려면 서버 또는 도메인에 최소한 Domain Admins 그룹의 구성원 또는 DnsAdmins 그룹의 구성원으로 로그온해야 합니다.
 
-DNS (Domain Name System) 부하 분산은 SIP 트래픽 및 미디어 트래픽 같은 Lync Server 2013에 고유한 네트워크 트래픽의 균형을 조정 합니다. DNS 부하 분산은 프런트 엔드 풀, 에지 풀, 디렉터 풀 및 독립 실행형 중재 풀에 대해 지원됩니다. DNS 부하 분산을 사용 하도록 구성 된 풀에는 DNS 부하 분산에 사용 되는 일반 풀 FQDN (예: pool1.contoso.com)이 정의 되어 있어야 하며 풀에 있는 서버의 실제 Ip로 확인 됩니다. 및 풀의 웹 서비스 (예: web1.contoso.net)에 대 한 또 다른 FQDN은 풀의 가상 IP 주소로 확인 됩니다. DNS 부하 분산에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 dns 부하 분산](lync-server-2013-dns-load-balancing.md) 을 참조 하십시오.
+DNS (Domain Name System) 부하 분산은 SIP 트래픽 및 미디어 트래픽 같은 Lync Server 2013에 고유한 네트워크 트래픽의 균형을 조정 합니다. DNS 부하 분산은 프런트 엔드 풀, 에지 풀, 디렉터 풀 및 독립 실행형 중재 풀에 대해 지원됩니다. DNS 부하 분산을 사용 하도록 구성 된 풀에는 두 개의 Fqdn (정규화 된 도메인 이름)이 정의 되어 있어야 합니다. DNS 부하 분산 (예: pool1.contoso.com)에서 사용 되며 풀에 있는 서버의 실제 Ip로 확인 되는 일반 풀 FQDN 및 풀의 웹 서비스 (예: web1.contoso.net)에 대 한 다른 FQDN이 풀의 가상 IP 주소로 확인 됩니다. DNS 부하 분산에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 dns 부하 분산](lync-server-2013-dns-load-balancing.md) 을 참조 하십시오.
 
 <div>
 
@@ -127,7 +129,7 @@ DNS 부하 분산을 사용하려면 다음을 수행해야 합니다.
     <thead>
     <tr class="header">
     <th>FQDN</th>
-    <th>유형</th>
+    <th>타이핑</th>
     <th>데이터</th>
     </tr>
     </thead>

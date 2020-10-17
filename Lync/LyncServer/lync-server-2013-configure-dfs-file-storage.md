@@ -12,20 +12,22 @@ ms:contentKeyID: 48185037
 ms.date: 05/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4a9c0bbce2ced36e9df99d7239c2f562b20edbd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f7d5dc3675f06aafed18ddd18e430e2c61dc670
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204924"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537225"
 ---
+# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Lync Server 2013에 대해 DFS 파일 저장소 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Lync Server 2013에 대해 DFS 파일 저장소 구성
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204924"
 
 _**마지막으로 수정 된 항목:** 2016-05-23_
 
-Lync Server 2013에서는 DFS (분산 파일 시스템)에서 파일 공유를 사용할 지를 지원 합니다. Windows Server 2008 용 DFS에 대 한 자세한 내용은 Windows Server 2008에 대 한 DFS 단계별 가이드를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=202835](https://go.microsoft.com/fwlink/p/?linkid=202835). DFS를 사용 하려면 Lync Server 2013에 다음이 필요 합니다.
+Lync Server 2013에서는 DFS (분산 파일 시스템)에서 파일 공유를 사용할 지를 지원 합니다. Windows Server 2008 용 DFS에 대 한 자세한 내용은 Windows Server 2008에 대 한 DFS 단계별 가이드를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=202835](https://go.microsoft.com/fwlink/p/?linkid=202835) . DFS를 사용 하려면 Lync Server 2013에 다음이 필요 합니다.
 
   - 네임스페이스가 도메인 기반이어야 함
 

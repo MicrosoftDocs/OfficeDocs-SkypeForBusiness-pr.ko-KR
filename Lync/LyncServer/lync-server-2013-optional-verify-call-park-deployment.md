@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (선택 사항) 통화 대기 배포 확인'
+description: 'Lync Server 2013: (선택 사항) 통화 대기 배포를 확인 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9a22d48e823526f3b4e4b7e6b321ed640328ecd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 772392a3a791ed57c3220d80e9bd510d8803debb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530815"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541934"
 ---
 # <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>반드시 Lync Server 2013의 통화 대기 배포 확인
 

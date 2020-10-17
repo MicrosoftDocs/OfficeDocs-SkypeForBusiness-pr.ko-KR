@@ -12,20 +12,22 @@ ms:contentKeyID: 48184044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b07ddfa11f23c7e5183c243020c441db7219660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0b06176a033c90ff915fccb145dac3b3ed6fe87
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536125"
 ---
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹에 대 한 기술 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹에 대 한 기술 요구 사항
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**마지막으로 수정 된 항목:** 2013-11-07_
 
 응답 그룹 응용 프로그램은 프런트 엔드 서버와 동일한 운영 체제 요구 사항 및 소프트웨어 필수 구성 요소를 포함 합니다. 소프트웨어 요구 사항에 대 한 자세한 내용은 지원 가능성 설명서의 [Lync server 2013에서 서버 및 도구 운영 체제 지원을](lync-server-2013-server-and-tools-operating-system-support.md) 참조 하십시오.
 
-응답 그룹 음악 및 알림에 대해 Windows Media 오디오 (.wma) 파일을 사용 하는 경우 응답 그룹 응용 프로그램을 실행 하는 모든 프런트 엔드 서버 또는 Standard Edition 서버에 windows Media 형식 런타임이 설치 되어 있어야 합니다. Windows Server 2012 또는 Windows Server 2012 r 2를 실행 하는 서버에 대 한 서버 2008 R2 또는 Microsoft Media Foundation Windows Server 2008 R2의 경우 windows Media 형식 런타임이 Windows 데스크톱 환경의 일부로 설치 됩니다.
+응답 그룹 음악 및 알림에 대해 Windows Media 오디오 (.wma) 파일을 사용 하는 경우 응답 그룹 응용 프로그램을 실행 하는 모든 프런트 엔드 서버 또는 Standard Edition 서버에 windows Server 2008 R2를 실행 하는 서버 또는 Windows server 2012 또는 Windows Server 2012 r 2를 실행 하는 서버에 대 한 Microsoft Media Foundation이 설치 되어 있어야 합니다. Windows Server 2008 R2의 경우 windows Media 형식 런타임이 Windows 데스크톱 환경의 일부로 설치 됩니다.
 
 오디오 요구 사항에 대한 자세한 내용은 이 섹션의 뒷 부분에 나오는 "오디오 파일 요구 사항"을 참조하십시오.
 
@@ -75,9 +77,9 @@ _**마지막으로 수정 된 항목:** 2013-11-07_
 
 응답 그룹 응용 프로그램은 다음 포트를 사용 합니다.
 
-  - ****   SIP 수신 대기 요청에 사용 되는 포트 5071
+  - **포트 5071**     SIP 수신 대기 요청에 사용 됩니다.
 
-  - ****   서버 간 통신에 사용 되는 포트 8404
+  - **포트 8404**     8404 communications에 사용 됨
     
     <div>
     
@@ -132,7 +134,7 @@ Windows Media 오디오 파일 형식을 사용 하려면 windows Media 형식 �
 
 Windows Media 오디오 파일을 사용할 경우 낮은 비트 전송률을 사용하고 시스템 성능이 정상인지 확인합니다.
 
-Microsoft Expression Encoder 4를 사용하여 파일을 Windows Media 오디오 형식으로 변환할 수 있습니다. 수식 인코더 4를 다운로드 하려면를 [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)참조 하세요.
+Microsoft Expression Encoder 4를 사용하여 파일을 Windows Media 오디오 형식으로 변환할 수 있습니다. 수식 인코더 4를 다운로드 하려면를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843) .
 
 </div>
 

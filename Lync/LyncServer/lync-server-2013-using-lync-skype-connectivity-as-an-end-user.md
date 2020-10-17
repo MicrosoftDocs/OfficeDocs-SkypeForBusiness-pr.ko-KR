@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 최종 사용자로 서 Lync Skype 연결 사용'
+title: 'Lync Server 2013: 최종 사용자로 Lync-Skype 연결 사용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 57793365
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6971ef2d6fb08838a4fcf71f4fec8097a7f9e47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 94bb9a2d5fa584de5b6195de0ad2accf6899d0e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212824"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535775"
 ---
+# <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a>최종 사용자로 Lync Server 2013에서 Lync-Skype 연결 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a>Lync Server 2013에서 최종 사용자로 Lync Skype 연결 사용
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2016-12-27_
 
 Lync-Skype 연결을 사용 하면 Skype 사용자와 Lync 사용자가 서로를 연락처로 추가 하 고, exchange 인스턴트 메시지를 보내고, 음성 및 화상 통화를 할 수 있습니다. Skype 사용자가 Lync 사용자를 추가할 때 Skype 사용자는 Lync 사용자의 SIP (session 시작 프로토콜)가 포함 된 Skype에서 연락처를 만듭니다. 반대로 lync 사용자가 Skype 대화 상대를 추가할 때 lync 사용자는 Lync에서 skype 사용자 이름이 아닌 Skype 사용자의 Microsoft 계정 (MSA)을 포함 하는 연락처를 만듭니다.
 
-**MSA 란?** Lync 대화 상대와 통신 하려면 skype 사용자가 Microsoft 계정 (이전의 Windows Live ID)을 사용 하 여 Skype에 로그인 해야 합니다.Microsoft 계정은 전자 메일 주소와 암호의 조합으로 구성 되며,이를 사용 하 여 Microsoft OneDrive 저장 기술, Windows Phone, Microsoft Xbox LIVE online 게임 서비스 및 Microsoft Outlook 메시징과 같은 서비스에 로그인 할 수도 있습니다. 그리고 공동 작업 클라이언트 (및 이전 버전에서는 Microsoft Hotmail 웹 기반 전자 메일 서비스 또는 Windows Live Messenger)를 사용 합니다.전자 메일 주소와 암호를 사용 하 여 이러한 서비스나 다른 서비스에 로그인 하는 경우 이미 Microsoft 계정이 있는 것입니다.Microsoft 계정을 만드는 방법에 대 한 자세한 내용은의 Microsoft 계정 등록 페이지를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061). 다양 한 응용 프로그램 및 서비스에서 사용자의 single sign-on을 사용 하 여 기존 Skype 계정을 Microsoft 계정에 병합할 수 있습니다. 계정이 병합 되 면 Skype 사용자는 Lync 사용자에 게 연락처 요청을 보낼 수 있습니다.
+**MSA 란?** Lync 대화 상대와 통신 하려면 skype 사용자가 Microsoft 계정 (이전의 Windows Live ID)을 사용 하 여 Skype에 로그인 해야 합니다.Microsoft 계정은 전자 메일 주소와 암호의 조합으로 구성 되며, Microsoft OneDrive 저장 기술, Windows Phone, Microsoft Xbox LIVE online 게임 서비스, Microsoft Outlook messaging 및 공동 작업 클라이언트 (및 이전 버전에서는 Microsoft Hotmail 웹 기반 전자 메일 서비스 또는 Windows Live Messenger)와 같은 서비스에 로그인 하는 데 사용할 수도 있습니다.전자 메일 주소와 암호를 사용 하 여 이러한 서비스나 다른 서비스에 로그인 하는 경우 이미 Microsoft 계정이 있는 것입니다.Microsoft 계정을 만드는 방법에 대 한 자세한 내용은의 Microsoft 계정 등록 페이지를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061) . 다양 한 응용 프로그램 및 서비스에서 사용자의 single sign-on을 사용 하 여 기존 Skype 계정을 Microsoft 계정에 병합할 수 있습니다. 계정이 병합 되 면 Skype 사용자는 Lync 사용자에 게 연락처 요청을 보낼 수 있습니다.
 
 <div>
 
@@ -102,7 +104,7 @@ Skype 사용자의 Microsoft 계정에서 <strong>bob@contoso.com</strong> 과 �
 
 2.  사용 가능한 대화 상대 공급자 목록에서 **Skype**를 선택 합니다.
 
-3.  **IM 주소** 필드에 <strong>사용자 (도메인 이름) @msn</strong>형식으로 Skype 사용자의 Microsoft 계정 (MSA)을 입력 합니다. 따라서 사용자 bob@contoso.com에 대 한 항목은 bob <strong>(contoso) @msn 됩니다.<strong>
+3.  **IM 주소** 필드에 <strong>사용자 (도메인 이름) @msn</strong>형식으로 Skype 사용자의 Microsoft 계정 (MSA)을 입력 합니다. 따라서 사용자 bob@contoso.com에 대 한 항목은 <strong> bob (contoso) @msn 됩니다. <strong>
 
 4.  **대화 상대 그룹에 추가** 드롭다운 목록 상자에서 사용자를 추가할 대화 상대 그룹을 선택 합니다.
 

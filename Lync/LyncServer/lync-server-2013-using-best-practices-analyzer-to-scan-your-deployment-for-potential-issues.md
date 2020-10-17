@@ -12,20 +12,22 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f620712404fffe8e46f8f2a6f066c6ffa7b77d74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20a7b43056071ddc2322ff5147de72d818548b86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212893"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535885"
 ---
+# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>모범 사례 분석기를 사용 하 여 Lync Server 2013 배포에서 잠재적인 문제를 검사 합니다.
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>모범 사례 분석기를 사용 하 여 Lync Server 2013 배포에서 잠재적인 문제를 검사 합니다.
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**마지막으로 수정 된 항목:** 2012-10-21_
 
 모범 사례 분석기 검색을 실행하려면 다음을 지정해야 합니다.
 
-  - **자격 증명**   검사를 실행 하려면 로컬 Administrators 그룹의 구성원 인 계정을 사용 하 여 모범 사례 분석기가 설치 된 컴퓨터에 로그온 해야 합니다. 또한 적절한 검색을 실행하는 데 필요한 사용자 권한 및 사용 권한이 있는 사용자 계정을 사용하여 로그온하거나, 모범 사례 분석기를 실행할 때 적절한 사용자 권한 및 사용 권한이 있는 자격 증명을 지정해야 합니다. 자세한 내용은 [Lync Server 2013의 모범 사례 분석기에 대 한 그룹 구성원 자격 및 사용자 권한 요구 사항](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)를 참조 하세요.
+  - **자격 증명**     검사를 실행 하려면 로컬 Administrators 그룹의 구성원 인 계정을 사용 하 여 모범 사례 분석기가 설치 된 컴퓨터에 로그온 해야 합니다. 또한 적절한 검색을 실행하는 데 필요한 사용자 권한 및 사용 권한이 있는 사용자 계정을 사용하여 로그온하거나, 모범 사례 분석기를 실행할 때 적절한 사용자 권한 및 사용 권한이 있는 자격 증명을 지정해야 합니다. 자세한 내용은 [Lync Server 2013의 모범 사례 분석기에 대 한 그룹 구성원 자격 및 사용자 권한 요구 사항](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)를 참조 하세요.
 
-  - **검사 범위 검사**   범위를 지정 하려면 검색할 범주 및 서버를 선택 합니다. Lync Server 환경의 특정 범주에서 모든 범주, 하나 이상의 범주 또는 하나 이상의 서버를 선택할 수 있습니다.
+  - **검사 범위**     검사 범위를 지정 하려면 검사 하려는 범주 및 서버를 선택 합니다. Lync Server 환경의 특정 범주에서 모든 범주, 하나 이상의 범주 또는 하나 이상의 서버를 선택할 수 있습니다.
 
-  - **검사 유형 현재**   상태 검사 검사는 사용 가능한 유일한 검사 유형으로, 기본적으로 선택 됩니다. 상태 검사 검색에서는 범위에 지정된 모든 서버에 대한 오류, 경고 및 기타 정보를 포함하는 보고서를 생성합니다.
+  - **검사 유형**     현재 상태 검사 검사는 사용 가능한 유일한 검사 유형으로, 기본적으로 선택 됩니다. 상태 검사 검색에서는 범위에 지정된 모든 서버에 대한 오류, 경고 및 기타 정보를 포함하는 보고서를 생성합니다.
 
-  - **네트워크 속도**   네트워크 속도 옵션에는 Fast LAN (100 mbps 이상), LAN (10mbps), 초고속 wan (1.5 Mbps) 또는 WAN (64 kbps)이 포함 됩니다. 검색 완료 예상 시간은 이 설정을 기준으로 합니다. 이 설정은 제한 시간을 설정할 때도 사용됩니다. 검색 중에 모범 사례 분석기는 지정된 시간 동안 서버의 응답을 기다립니다. 지정된 제한 시간 내에 응답을 받지 못하면 모범 사례 분석기는 검색의 다음 서버로 이동합니다. 저속 네트워크에서는 네트워크 대기 시간이 더 길기 때문에 이를 반영하여 이 지정된 제한 시간이 더 깁니다. 도구에서 너무 빨리 시간이 초과되지 않도록 이 매개 변수에 대해 토폴로지에서 속도가 가장 느린 링크를 선택하는 것이 좋습니다.
+  - **네트워크 속도**     네트워크 속도 옵션에는 Fast LAN (100 Mbps 이상), LAN (10mbps), 초고속 WAN (1.5 Mbps) 또는 WAN (64 kbps)이 포함 됩니다. 검색 완료 예상 시간은 이 설정을 기준으로 합니다. 이 설정은 제한 시간을 설정할 때도 사용됩니다. 검색 중에 모범 사례 분석기는 지정된 시간 동안 서버의 응답을 기다립니다. 지정된 제한 시간 내에 응답을 받지 못하면 모범 사례 분석기는 검색의 다음 서버로 이동합니다. 저속 네트워크에서는 네트워크 대기 시간이 더 길기 때문에 이를 반영하여 이 지정된 제한 시간이 더 깁니다. 도구에서 너무 빨리 시간이 초과되지 않도록 이 매개 변수에 대해 토폴로지에서 속도가 가장 느린 링크를 선택하는 것이 좋습니다.
 
 <div>
 

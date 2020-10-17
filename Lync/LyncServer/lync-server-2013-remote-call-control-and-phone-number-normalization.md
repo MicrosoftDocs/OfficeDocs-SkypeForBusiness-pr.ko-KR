@@ -12,20 +12,22 @@ ms:contentKeyID: 48183696
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9acca7ab40ea8c6af3488c454620d20f1e9e326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 211f0f717f7c40895cdbbad75bd98ae0ff90af89
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215064"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536555"
 ---
+# <a name="remote-call-control-and-phone-number-normalization-in-lync-server-2013"></a>Lync Server 2013의 원격 통화 제어 및 전화 번호 정규화
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remote-call-control-and-phone-number-normalization-in-lync-server-2013"></a>Lync Server 2013의 원격 통화 제어 및 전화 번호 정규화
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42215064"
 
 _**마지막으로 수정 된 항목:** 2012-09-22_
 
-Lync 클라이언트는 ABS (주소록 서비스) 파일 다운로드의 일부로 전화 번호 정규화 규칙을 다운로드 합니다. 원격 통화 제어 시나리오에서 주소록 서비스 전화 번호 정규화 규칙은 수신 및 발신 원격 통화 제어 통화에 모두 적용됩니다. 원격 통화 제어를 사용하도록 설정한 사용자에 대한 수신 전화의 경우에는 먼저 발신자의 전화 번호가 SIP/CSTA 게이트웨이 또는 PBX(Private Branch Exchange)를 통해 E.164 형식으로 정규화됩니다. Lync Server 2013이 게이트웨이에서 전화를 받으면 발신자의 전화 번호에 대해 수신자의 Microsoft Office Outlook 대화 상대 목록 또는 GAL (전체 주소 목록)에 저장 된 정규화 된 번호에 대해 RNL (역방향 번호 조회)를 수행 합니다. 주소록 서비스 역방향 번호 조회에서 일치하는 항목이 검색되면 발신자가 수신 전화 알림에 이름으로 표시됩니다.
+Lync 클라이언트는 ABS (주소록 서비스) 파일 다운로드의 일부로 전화 번호 정규화 규칙을 다운로드 합니다. 원격 통화 제어 시나리오에서 주소록 서비스 전화 번호 정규화 규칙은 수신 및 발신 원격 통화 제어 통화에 모두 적용됩니다. 원격 통화 제어를 사용하도록 설정한 사용자에 대한 수신 전화의 경우에는 먼저 발신자의 전화 번호가 SIP/CSTA 게이트웨이 또는 PBX(Private Branch Exchange)를 통해 E.164 형식으로 정규화됩니다. Lync Server 2013이 게이트웨이에서 전화를 받으면 발신자의 전화 번호를 수신자의 Microsoft Office Outlook 대화 상대 목록이 나 주소록 서비스에 저장 된 GAL (전체 주소 목록)의 정규화 된 번호에 대해 RNL (역방향 번호 조회)를 수행 합니다. 역방향 번호 조회에서 일치하는 항목이 검색되면 발신자가 수신 전화 알림에 이름으로 표시됩니다.
 
 나가는 원격 통화 제어 통화의 경우 Lync는 통화를 SIP/CSTA 게이트웨이로 라우팅하기 전에 전화 건 번호에 주소록 서비스 전화 번호 정규화 규칙을 적용 합니다.
 

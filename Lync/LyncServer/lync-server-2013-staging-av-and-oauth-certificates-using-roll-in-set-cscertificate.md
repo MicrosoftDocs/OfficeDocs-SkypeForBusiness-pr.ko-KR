@@ -1,5 +1,6 @@
 ---
 title: Set-CsCertificate 사용 하 여 준비 된 AV 및 OAuth 인증서
+description: Set-cscertificate를 사용 하 여 준비 된 AV 및 OAuth 인증서
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 003c8da4c953dc843fe49bf3fc5eb2d2a70b093b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3732c4adb4327cc1e4111307ab2d72ed080cf221
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533015"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541844"
 ---
 # <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Lync Server 2013에서 Set-CsCertificate을 사용 하 여 온-using-Roll의 AV 및 OAuth 인증서 준비
 

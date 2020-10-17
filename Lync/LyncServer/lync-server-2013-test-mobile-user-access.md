@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 모바일 사용자 액세스 테스트'
+description: 'Lync Server 2013: 모바일 사용자 액세스를 테스트 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969624
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83d5be38ecddad1f9388f5e2efb33994b49e4bfd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e99a05e6ef9fe925126026452823e5edcc100ede
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519215"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541874"
 ---
 # <a name="test-mobile-user-access-in-lync-server-2013"></a>Lync Server 2013에서 모바일 사용자 액세스 테스트
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c676247eabbce1d6453308bdbba5a7df0754caf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5cd477b02aa261b762f728ca15d296f49dfbac1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194111"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535995"
 ---
+# <a name="testing-location-policy-in-lync-server-2013"></a>Lync Server 2013의 테스트 위치 정책
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-location-policy-in-lync-server-2013"></a>Lync Server 2013의 테스트 위치 정책
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우, 사용자에 게는 CsLocationPolicy cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 받아야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsLocationPolicy cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLocationPolicy&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="description"></a>설명
 
-테스트-CsLocationPolicy cmdlet은 위치 정책이 사용자에 게 할당 되었는지 확인 합니다. 위치 정책은 E9-1-1 기능 및 클라이언트 위치와 관련된 설정을 적용하는 데 사용됩니다. 위치 정책은 사용자가 E9-1-1을 사용할 수 있는지 여부를 결정 하 고, 대답이 "예" 인 경우 긴급 통화의 동작을 나타냅니다. 예를 들어 위치 정책을 사용 하 여 긴급 통화를 구성 하는 번호 (미국에서는 911), 회사 보안에 자동으로 알릴지 여부 및 통화를 라우팅하는 방법을 정의할 수 있습니다.
+Test-CsLocationPolicy cmdlet은 위치 정책이 사용자에 게 할당 되었는지 확인 합니다. 위치 정책은 E9-1-1 기능 및 클라이언트 위치와 관련된 설정을 적용하는 데 사용됩니다. 위치 정책은 사용자가 E9-1-1을 사용할 수 있는지 여부를 결정 하 고, 대답이 "예" 인 경우 긴급 통화의 동작을 나타냅니다. 예를 들어 위치 정책을 사용 하 여 긴급 통화를 구성 하는 번호 (미국에서는 911), 회사 보안에 자동으로 알릴지 여부 및 통화를 라우팅하는 방법을 정의할 수 있습니다.
 
 사용자나 네트워크 서브넷에 대해 위치 정책을 테스트할 수 있습니다. Subnet 매개 변수의 값을 지정하여 서브넷에 대해 테스트를 실행하는 경우 이 cmdlet은 해당 서브넷에 대한 위치 정책을 확인하려고 합니다. 서브넷에 위치 정책이 할당되어 있지 않으면 구성된 사용자에 대한 위치 정책이 검색됩니다. 서브넷 정책을 성공적으로 검색 하면 LocationPolicyTagID 값이 서브넷-tagid로 시작 하는 출력에 포함 됩니다. 서브넷에 대한 위치 정책을 찾을 수 없는 경우 LocationPolicyTagID가 user-tagid로 시작합니다.
 
@@ -76,7 +78,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="running-the-test"></a>테스트 실행
 
-테스트-CsLocationPolicy cmdlet은 미리 구성 된 테스트 계정 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예:
+Test-CsLocationPolicy cmdlet은 미리 구성 된 테스트 계정 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예제:
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -131,11 +133,11 @@ Microsoft DiagnosticHeader
 
     Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-테스트-CsLocationPolicy가 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
+Test-CsLocationPolicy 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose 매개 변수가 포함 된 경우 테스트-CsLocationPolicy는 위치 정책을 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예를 들어 다음과 같은 출력은 잘못 된 암호가 제공 되었기 때문일 수 있습니다.
+Verbose 매개 변수를 포함 하면 Test-CsLocationPolicy는 위치 정책을 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예를 들어 다음과 같은 출력은 잘못 된 암호가 제공 되었기 때문일 수 있습니다.
 
 등록 요청을 보내는 중:
 
@@ -159,7 +161,7 @@ Sip/atl-litwareinc에 대 한 등록 적중
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-테스트-CsLocationPolicy에 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.
+Test-CsLocationPolicy 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.
 
   - 잘못 된 사용자 계정을 지정 했습니다. 다음과 같은 명령을 실행 하 여 사용자 계정이 있는지 확인할 수 있습니다.
     

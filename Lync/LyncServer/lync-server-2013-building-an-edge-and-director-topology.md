@@ -12,20 +12,22 @@ ms:contentKeyID: 48183451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be41eb547589c74b070a55325efcfd05e33f4588
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 22d3e88cae787a47d1fe519cfbe5c27acf5ad821
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196531"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537275"
 ---
+# <a name="building-an-edge-and-director-topology-in-lync-server-2013"></a>Lync Server 2013에서에 지 및 디렉터 토폴로지 구축
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="building-an-edge-and-director-topology-in-lync-server-2013"></a>Lync Server 2013에서에 지 및 디렉터 토폴로지 구축
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**마지막으로 수정 된 항목:** 2012-09-08_
 
 토폴로지를 작성할 때는 다음과 같은 계획 및 배포 작업을 수행합니다.
 
-  - **계획**   조직에 적합 한 토폴로지를 정의 하 고이를 배포 하는 데 필요한 구성 요소를 식별 해야 합니다. 이러한 작업은 계획 프로세스의 표준 단계입니다. Lync Server 2013와 함께 제공 되는 Microsoft Lync Server 2013, 계획 도구를 사용 하면 계획 프로세스를 쉽게 시작할 수 있을 뿐만 아니라, 요구 사항 및 계획이 종료 됨에 따라 변경을 쉽게 수행 하는 기능을 포함할 수 있습니다.
+  - **계획**     조직에 적합 한 토폴로지를 정의 하 고이를 배포 하는 데 필요한 구성 요소를 식별 해야 합니다. 이러한 작업은 계획 프로세스의 표준 단계입니다. Lync Server 2013와 함께 제공 되는 Microsoft Lync Server 2013, 계획 도구를 사용 하면 계획 프로세스를 쉽게 시작할 수 있을 뿐만 아니라, 요구 사항 및 계획이 종료 됨에 따라 변경을 쉽게 수행 하는 기능을 포함할 수 있습니다.
 
-  - **배포**   토폴로지 작성기를 사용 하 여 정의 하는 토폴로지는 Lync Server 2013 서버를 배포 하는 데 반드시 필요 합니다. 계획 노력의 일환으로 토폴로지 작성기를 사용 하 여 토폴로지 정의 및 게시를 완료 하지 않은 경우에는이를 완료 하 고에 지 서버를 배포 하기 전에 토폴로지를 게시 해야 합니다.
+  - **배포**     토폴로지 작성기를 사용 하 여 정의 하는 토폴로지는 Lync Server 2013 서버를 배포 하는 데 반드시 필요 합니다. 계획 노력의 일환으로 토폴로지 작성기를 사용 하 여 토폴로지 정의 및 게시를 완료 하지 않은 경우에는이를 완료 하 고에 지 서버를 배포 하기 전에 토폴로지를 게시 해야 합니다.
 
 하나 이상의 내부 풀을 배포할 때까지에 지 서버 구성 요소를 배포할 수 없으며, 내부 풀을 배포 하려면 토폴로지 작성기를 설치 해야 합니다. 이 섹션에서는 내부 풀에 대 한 설치 프로세스의 일부인 토폴로지 작성기의 설치에 대해서는 설명 하지 않습니다.
 

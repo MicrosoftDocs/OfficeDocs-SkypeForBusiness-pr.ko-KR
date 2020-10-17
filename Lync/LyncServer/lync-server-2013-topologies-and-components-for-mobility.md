@@ -12,20 +12,22 @@ ms:contentKeyID: 48185282
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ccce5823e997cafc5e8c8e7555df18bc67d1fe6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b27472526f98bc0f867b027fe111aac9c4f9aab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535975"
 ---
+# <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a>Lync Server 2013의 모바일 기능에 대 한 토폴로지 및 구성 요소
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a>Lync Server 2013의 모바일 기능에 대 한 토폴로지 및 구성 요소
+
 
 </div>
 
@@ -67,7 +69,7 @@ Lync Server 2013에서는 모바일 장치에서 Lync 모바일 응용 프로그
 
 모바일 기능을 지원하는 서비스는 다음과 같습니다.
 
-  - **Lync server 2013 통합 커뮤니케이션 웹 API (c)**   는 lync server 2013의 모바일 및 웹 클라이언트와의 실시간 통신을 위한 서비스를 제공 합니다. Lync Server 2013 2013에 대 한 누적 업데이트를 배포 하는 경우에는 프런트 엔드 서버 및 디렉터에 대 한 가상 디렉터리가 설치 됩니다 (내부 및 외부 웹 서비스). C u c 가상 디렉터리의 일부인 웹 구성 요소는가 중 WA-사용 가능 클라이언트의 통화를 수락 합니다. 클라이언트 응용 프로그램은 현재 상태, 연락처, 인스턴트 메시징, VoIP, 비디오 회의 및 공동 작업을 위해 REST 인터페이스를 통해 통신 합니다. (C)는 P 가져오기 기반 채널을 사용 하 여 들어오는 통화, 들어오는 인스턴트 메시지 또는 클라이언트 응용 프로그램에 대 한 메시지와 같은 이벤트를 보냅니다.
+  - **Lync Server 2013 통합 커뮤니케이션 웹 API (c)**     Lync Server 2013의 모바일 및 웹 클라이언트와의 실시간 통신을 위한 서비스를 제공 합니다. Lync Server 2013 2013에 대 한 누적 업데이트를 배포 하는 경우에는 프런트 엔드 서버 및 디렉터에 대 한 가상 디렉터리가 설치 됩니다 (내부 및 외부 웹 서비스). C u c 가상 디렉터리의 일부인 웹 구성 요소는가 중 WA-사용 가능 클라이언트의 통화를 수락 합니다. 클라이언트 응용 프로그램은 현재 상태, 연락처, 인스턴트 메시징, VoIP, 비디오 회의 및 공동 작업을 위해 REST 인터페이스를 통해 통신 합니다. (C)는 P 가져오기 기반 채널을 사용 하 여 들어오는 통화, 들어오는 인스턴트 메시지 또는 클라이언트 응용 프로그램에 대 한 메시지와 같은 이벤트를 보냅니다.
     
     <div>
     
@@ -78,7 +80,7 @@ Lync Server 2013에서는 모바일 장치에서 Lync 모바일 응용 프로그
     
     </div>
 
-  - **Lync Server 2013 모바일 서비스 (mcx)**   이 서비스는 모바일 장치에서 IM (인스턴트 메시징), 현재 상태 및 연락처와 같은 Lync 기능을 지원 합니다. 모바일 서비스는 각 풀의 모든 프런트 엔드 서버에 설치 됩니다. Lync Server 2013을 설치할 때 내부 웹 사이트와 프런트 엔드 서버의 외부 웹 사이트 모두에 새 가상 디렉터리 (Mcx)가 만들어집니다.
+  - **Lync Server 2013 Mobility Service (Mcx)**     이 서비스는 모바일 장치에서 IM (인스턴트 메시징), 현재 상태 및 연락처와 같은 Lync 기능을 지원 합니다. 모바일 서비스는 각 풀의 모든 프런트 엔드 서버에 설치 됩니다. Lync Server 2013을 설치할 때 내부 웹 사이트와 프런트 엔드 서버의 외부 웹 사이트 모두에 새 가상 디렉터리 (Mcx)가 만들어집니다.
     
     <div>
     
@@ -89,7 +91,7 @@ Lync Server 2013에서는 모바일 장치에서 Lync 모바일 응용 프로그
     
     </div>
 
-  - **Lync server 2013 자동 검색 서비스**   이 서비스는 사용자의 위치를 식별 하 고 모바일 장치 및 기타 Lync 클라이언트에서 lync Server 2013 웹 서비스의 내부 및 외부 url, 네트워크 위치에 관계 없이 mcx 또는 인천 wa의 url과 같은 리소스를 찾을 수 있도록 합니다. 자동 검색에서는 하드 코드 된 호스트 이름 (네트워크 내부의 사용자에 게는 lyncdiscoverinternal) 및 사용자의 SIP 도메인을 사용 합니다. HTTP 또는 HTTPS 중 하나를 사용 하는 클라이언트 연결을 지원 합니다.
+  - **Lync Server 2013 자동 검색 서비스**     이 서비스는 사용자의 위치를 식별 하 고 모바일 장치 및 기타 Lync 클라이언트가 Lync Server 2013 웹 서비스의 내부 및 외부 Url과 네트워크 위치에 관계 없이 Mcx 또는 인천 wa의 URL과 같은 리소스를 찾을 수 있도록 합니다. 자동 검색에서는 하드 코드 된 호스트 이름 (네트워크 내부의 사용자에 게는 lyncdiscoverinternal) 및 사용자의 SIP 도메인을 사용 합니다. HTTP 또는 HTTPS 중 하나를 사용 하는 클라이언트 연결을 지원 합니다.
     
     자동 검색 서비스는 모바일 장치에서 Lync 기능을 지원 하기 위해 모든 프런트 엔드 서버 및 각 풀의 모든 디렉터에 설치 됩니다. 자동 검색 서비스를 설치 하면 프런트 엔드 서버와 디렉터 모두에 내부 웹 사이트와 외부 웹 사이트의 새 자동 검색 (가상 디렉터리)이 만들어집니다.
     
@@ -102,7 +104,7 @@ Lync Server 2013에서는 모바일 장치에서 Lync 모바일 응용 프로그
     
     </div>
 
-  - **푸시 알림 서비스**   이 서비스는 Lync Online 데이터 센터에 있는 클라우드 기반 서비스입니다. 지원 되는 Apple iOS 장치 또는 Windows Phone에서 Lync 모바일 응용 프로그램을 사용할 수 없는 경우에는 이러한 장치에서 지원 하지 않으므로 새 이벤트 (IM) 초대, 부재 중 메신저 대화, 부재 중 전화 또는 음성 메일 같은 응답을 받지 못합니다. 백그라운드에서 실행 되는 모바일 응용 프로그램 이러한 경우 새 이벤트에 대 한 알림 ( *푸시 알림*이라고 함)이 모바일 장치로 전송 됩니다. 모바일 서비스가 클라우드 기반 푸시 알림 서비스에 알림을 보낸 다음 APNS (Apple Push Notification Service) (지원 되는 Apple iOS 장치용) 또는 Microsoft 푸시 알림 서비스 (MPNS)에 알림을 보냅니다. ) (Windows Phone)의 경우 모바일 장치로 보냅니다. 그러면 사용자가 모바일 장치의 알림에 응답 하 여 응용 프로그램을 활성화할 수 있습니다.
+  - **푸시 알림 서비스**     이 서비스는 Lync Online 데이터 센터에 있는 클라우드 기반 서비스입니다. 지원 되는 Apple iOS 장치 또는 Windows Phone의 Lync 모바일 응용 프로그램은 백그라운드에서 실행 되는 모바일 응용 프로그램을 지원 하지 않으므로 새 이벤트에 응답할 때 새로운 IM (인스턴트 메시징) 초대, 부재 중 메신저 대화, 부재 중 전화 또는 음성 메일 등이 제공 됩니다. 이러한 경우 새 이벤트에 대 한 알림 ( *푸시 알림*이라고 함)이 모바일 장치로 전송 됩니다. 모바일 서비스는 클라우드 기반 푸시 알림 서비스에 알림을 보낸 다음 APNS (Apple Push Notification Service) (지원 되는 Apple iOS 장치용) 또는 Microsoft 푸시 알림 서비스 (Windows Phone)로 알림을 전송 하 고이를 모바일 장치로 보냅니다. 그러면 사용자가 모바일 장치의 알림에 응답 하 여 응용 프로그램을 활성화할 수 있습니다.
     
     Apple 및 Windows Phone 장치에서 Lync 2010 Mobile은 푸시 알림을 사용 합니다. Lync Server 2013에 대 한 Lync 2013 모바일 클라이언트에서는 더 이상 푸시 알림 또는 PNCH (푸시 알림 클리어 링 하우스)를 사용 하지 않습니다 2013.
 

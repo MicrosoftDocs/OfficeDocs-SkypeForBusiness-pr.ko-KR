@@ -12,20 +12,22 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f572c120d86c5f89fb82e23066a6262e957e5e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f98a19e81ebf52d97b4c6807dbb97dc8110b0f34
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201514"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536565"
 ---
+# <a name="release-notes-for-lync-server-2013"></a>Lync Server 2013 릴리스 정보
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="release-notes-for-lync-server-2013"></a>Lync Server 2013 릴리스 정보
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Server 2013 릴리스 정보에 오신 것을 환영 합니다. Lync Server
 
   - 이동성
 
-  - 전화
+  - 회의
 
   - Enterprise Voice
 
@@ -109,7 +111,7 @@ Lync Server 저장소 서비스는 복제에 Windows Fabric을 사용 합니다.
 
 **여기서**
 
-이 문제를 해결 하기 위해 이벤트 LYSS\_db\_공간\_사용\_오류 (id = 32058) 및 Lyss\_db\_space\_used for\_CRITICAL (id = 32059)이 event Log에 생성 되는 경우 관리자는 이름이 **lyss**인 **storage service API** 의 프런트 엔드 서버의 성능 카운터를 확인 해야 합니다. 이 성능 카운터의 값이 높은 경우 (예: 50000 보다 큰 경우) 관리자는 Lync Server 2013 Resource Kit에서 CleanuUpStorageServiceData 도구를 실행 하 여 풀에서 분리 된 모든 데이터를 삭제 해야 합니다. 도구에 대 한 자세한 내용은 Lync Server 2013 Resource Kit 설명서를 참조 하십시오.
+이 문제를 해결 하기 위해 이벤트 LYSS \_ db \_ 공간 \_ 사용 \_ 오류 (id = 32058) 및 lyss \_ db Space used \_ for \_ \_ CRITICAL (id = 32059)이 event log에 생성 되는 경우 관리자는 이름이 **lyss**인 **storage service API** 의 프런트 엔드 서버의 성능 카운터를 확인 해야 합니다. 이 성능 카운터의 값이 높은 경우 (예: 50000 보다 큰 경우) 관리자는 Lync Server 2013 Resource Kit에서 CleanuUpStorageServiceData.exe 도구를 실행 하 여 풀에서 분리 된 모든 데이터를 삭제 합니다. 도구에 대 한 자세한 내용은 Lync Server 2013 Resource Kit 설명서를 참조 하십시오.
 
 </div>
 
@@ -175,7 +177,7 @@ Lync Server 2013 관리 팩에서는 전화 접속 회의 가상 트랜잭션 cm
 
 Lync Server 2013에서는 각 프런트 엔드 서버의 데이터베이스에 보관 된 메시지 및 CDR (통화 정보 기록)과 같은 회의 및 인스턴트 메시징에 대 한 데이터를 저장 합니다. 데이터는 대상 위치로 배달 되기 전에 처리 되는 동안 데이터베이스에 저장 됩니다. 성능을 개선 하기 위해 Lync Server 2013는 장시간 동안 처리 되지 않은 로컬 데이터베이스에서 큐 항목을 주기적으로 내보낸 다음 파일 저장소에 저장 합니다. 파일 저장소를 사용할 수 없으면 각 프런트 엔드 서버에 항목이 저장 됩니다. 풀 장애 조치(failover) 시에도 데이터 손실을 방지하기 위한 동일한 작업이 수행됩니다.
 
-내보내기 작업 중에 Lync Server 저장소 서비스는 이벤트 Id가 32075 인 이벤트 로그의 모든 단계 (전체 플러시 작업 시작 됨), 32076 (전체 플러시가 완료 됨), 32082 (유지 관리 수준 플러시 시작 됨), 32083 (유지 관리 수준 플러시 완료 됨), 32089 (데이터베이스 꽉 찰 때 플러시가 발생 함) 이 데이터는 처리 하 여 최종 대상 (SQL Server 또는 Exchange 서버)에 배달 하기 위해 시스템으로 다시 가져오지 않습니다.
+내보내기 작업 중에 Lync Server 저장소 서비스는 이벤트 Id가 32075 인 이벤트 로그의 모든 단계를 (전체 플러시 작업 시작), 32076 (전체 플러시 완료), 32082 (유지 관리 수준 플러시 시작), 32083 (유지 관리 수준 플러시 완료), 32089 (데이터베이스 꽉 찰 때 플러시가 발생 함)을 기록 합니다. 이 데이터는 처리 하 여 최종 대상 (SQL Server 또는 Exchange 서버)에 배달 하기 위해 시스템으로 다시 가져오지 않습니다.
 
 **여기서**
 
@@ -209,7 +211,7 @@ UseNormalizationRules의 기본값을 False로 설정 하 여 사용자가 Lync 
 
 3.  모든 풀에서 CMS 복제가 수행될 때까지 기다립니다.
 
-4.  배포의 전화 정규화 규칙 파일에 들어 있는 내용을 삭제하여 이 파일을 수정합니다. 파일이 각 Lync Server 2013 풀의 파일 공유에 있습니다. 파일이 없으면 "\_회사 전화\_번호\_정규화\_규칙. x" 라는 빈 파일을 만듭니다.
+4.  배포의 전화 정규화 규칙 파일에 들어 있는 내용을 삭제하여 이 파일을 수정합니다. 파일이 각 Lync Server 2013 풀의 파일 공유에 있습니다. 파일이 없으면 "회사 \_ 전화 \_ 번호 \_ 정규화 \_Rules.txt" 라는 빈 파일을 만듭니다.
 
 5.  모든 프런트 엔드 풀에서 새 파일을 읽을 때까지 몇 분 정도 기다립니다.
 
@@ -365,13 +367,13 @@ VMware 환경에서 Lync Server 제어판을 사용 하는 경우에는 Microsof
 
 이 문제를 해결하려면 다음 중 하나를 수행합니다.
 
-  - Silverlight 5를 제거 하 고에서 [https://go.microsoft.com/fwlink/p/?LinkID=149156](https://go.microsoft.com/fwlink/p/?linkid=149156)silverlight 4를 설치 합니다.
+  - Silverlight 5를 제거 하 고에서 Silverlight 4를 설치 [https://go.microsoft.com/fwlink/p/?LinkID=149156](https://go.microsoft.com/fwlink/p/?linkid=149156) 합니다.
 
   - VMware virtual computer가 아닌 컴퓨터에서 Lync Server 제어판에 액세스 합니다.
     
     이렇게 하려면 Lync Server 관리 도구가 컴퓨터에 설치 되어 있는 경우 서버의 Windows **시작** 메뉴에서 Lync server 제어판을 시작 하면 됩니다.
     
-    웹 브라우저를 사용 하 여 Lync Server 제어판에 액세스할 수도 있습니다. \<URL은 https://프런트\_엔드 풀\_fqdn\>과 유사 합니다/cscp.
+    웹 브라우저를 사용 하 여 Lync Server 제어판에 액세스할 수도 있습니다. URL은 https:///cscp.와 유사 합니다. \<frontend\_pool\_fqdn\>
 
 </div>
 
@@ -427,11 +429,11 @@ Active Directory 도메인 서비스에서 사용자의 고유 이름 (DN이 라
 
 **문제점과**
 
-"힙 손상은 모듈에서 Microsoft 기술 자료 문서 264886 ([https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)[https://go.microsoft.com/fwlink/p/?LinkId=268603](https://go.microsoft.com/fwlink/p/?linkid=268603))에 설명 된 대로 insertentitybody 7.5 메서드를 호출 하면 Lync Server 2013을 설치 하기 전에 설치 해야 할 때 발생 합니다.
+"힙 손상은 모듈에서 Microsoft 기술 자료 문서 264886 ()에 설명 된 대로 InsertEntityBody 7.5 메서드를 호출 하면 [https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602) [https://go.microsoft.com/fwlink/p/?LinkId=268603](https://go.microsoft.com/fwlink/p/?linkid=268603) Lync Server 2013을 설치 하기 전에 설치 해야 할 때 발생 합니다.
 
 **여기서**
 
-Microsoft 다운로드 센터에서 핫픽스를 다운로드 하 여 설치 [https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)합니다.
+Microsoft 다운로드 센터에서 핫픽스를 다운로드 하 여 설치 [https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602) 합니다.
 
 </div>
 
@@ -447,7 +449,7 @@ HH:MM:SS 시간 형식을 사용할 경우 패브릭 추적이 만들어지므�
 
 **여기서**
 
-이 문제를 해결 하려면 Lync Server 2013을 설치 하기 전에 시스템 레지스트리를 업데이트 하십시오. 업데이트 해야 하는 레지스트리 키는 HKEY\_USERS\\입니다. 기본\\제어판\\국제\\sTimeFormat Windows PowerShell 명령줄 인터페이스를 다음과 같이 사용 하 여 sTimeFormat 값을 HH: mm: ss로 변경 합니다.
+이 문제를 해결 하려면 Lync Server 2013을 설치 하기 전에 시스템 레지스트리를 업데이트 하십시오. 업데이트 해야 하는 레지스트리 키는 HKEY \_ USERS \\ 입니다. 기본 \\ 제어판 \\ 국제 \\ sTimeFormat Windows PowerShell 명령줄 인터페이스를 다음과 같이 사용 하 여 sTimeFormat 값을 HH: mm: ss로 변경 합니다.
 
 1.  Windows PowerShell을 시작 하 고 다음 cmdlet을 실행 합니다.
     
@@ -471,7 +473,7 @@ HH:MM:SS 시간 형식을 사용할 경우 패브릭 추적이 만들어지므�
 
 4.  Lync Server 2013이 성공적으로 설치 된 후에는 다음 cmdlet을 실행 하 여 sTimeFormat의 원래 값을 복원 합니다.
     
-        - ItemProperty $a-sTimeFormat "값" <3 단계에서 적어 둡니다. > 위 "
+        - Set-ItemProperty $a-Name sTimeFormat-Value "<3 단계에서 적어 둔 값입니다. > 위 "
 
 </div>
 
@@ -579,7 +581,7 @@ Lync Server에 오류가 발생 하 여 장애 조치 (failover) 프로세스가
 
 <div>
 
-## <a name="conferencing"></a>전화
+## <a name="conferencing"></a>회의
 
 <div>
 
@@ -591,19 +593,19 @@ Lync Server에 오류가 발생 하 여 장애 조치 (failover) 프로세스가
 
 **여기서**
 
-이 문제를 해결하려면 웹 구성 요소와 .NET Framework가 포함된 폴더를 바이러스 백신 검사에서 제외합니다. 자세한 내용은 Microsoft 기술 자료 문서 312592, "PRB: 임의 응용 프로그램을 다시 시작 합니다. ' 응용 프로그램을 다시 시작 하는 중 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592)' ASP.NET의 오류 발생" (at)을 참조 하십시오.
+이 문제를 해결하려면 웹 구성 요소와 .NET Framework가 포함된 폴더를 바이러스 백신 검사에서 제외합니다. 자세한 내용은 Microsoft 기술 자료 문서 312592, "PRB: 임의 응용 프로그램을 다시 시작 합니다. ' 응용 프로그램을 다시 시작 하는 중 ' ASP.NET의 오류 발생" (at)을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592) .
 
 다음 폴더를 제외해야 합니다.
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\웹 구성\\요소 mcx\\Ext
+  - % ProgramFiles% \\ Microsoft Lync Server 2013 \\ 웹 구성 요소 \\ mcx \\ Ext
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\웹 구성\\요소 mcx\\Int
+  - % ProgramFiles% \\ Microsoft Lync Server 2013 \\ 웹 구성 요소 \\ mcx \\ Int
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\웹 구성\\요소-\\wa Int
+  - % ProgramFiles% \\ Microsoft Lync Server 2013 \\ 웹 구성 요소- \\ wa \\ Int
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\웹 구성\\요소-\\wa Ext
+  - % ProgramFiles% \\ Microsoft Lync Server 2013 \\ 웹 구성 요소- \\ wa \\ Ext
 
-  - % Windir%\\Microsoft.NET\\Framework64\\v v4.0.30319\\Config
+  - % Windir% \\ Microsoft.NET \\ Framework64 \\ v v4.0.30319 \\ Config
 
 </div>
 
@@ -641,7 +643,7 @@ Internet Explorer에서 Active X 컨트롤 또는 "네이티브 XMLHTTP 지원" 
 
 **문제점과**
 
-인터넷, 경계 네트워크 및 웹 회의 서비스 외부에 있는 Office Web Apps 서버 (즉, 내부 회사 네트워크에 있지 않은 서버)를 배포 해야 하는 경우에는 HTTP 프록시를 사용 하 여 해당 서비스에 연결 해야 합니다. Office Web Apps 서버 검색은 실패 합니다. 웹 회의 서비스는 Office Web Apps 서버 설치에 대 한 토폴로지 작성기에 정의 된 대로 HTTP 프록시 설정을 무시 합니다. 따라서 Lync 클라이언트는 전화 회의의 다른 참가자와 Microsoft PowerPoint 2010을 공유할 수 없습니다. Lync Server 온-프레미스를 설치 하 고 내부 네트워크에서 온-프레미스로 Office Web Apps 서버를 구성 하는 경우에는 프록시 구성이 필요 하지 않습니다.
+인터넷, 경계 네트워크 및 웹 회의 서비스 외부에 있는 Office Web Apps 서버 (즉, 내부 회사 네트워크에 없는 서버)가이에 연결 하기 위해 HTTP 프록시를 사용 해야 하는 경우에는 Office Web Apps 서버 검색이 실패 합니다. 웹 회의 서비스는 Office Web Apps 서버 설치에 대 한 토폴로지 작성기에 정의 된 대로 HTTP 프록시 설정을 무시 합니다. 따라서 Lync 클라이언트는 전화 회의의 다른 참가자와 Microsoft PowerPoint 2010을 공유할 수 없습니다. Lync Server 온-프레미스를 설치 하 고 내부 네트워크에서 온-프레미스로 Office Web Apps 서버를 구성 하는 경우에는 프록시 구성이 필요 하지 않습니다.
 
 **여기서**
 
@@ -675,9 +677,9 @@ IPv6을 사용 하 여 토폴로지를 구성 하면 이전 버전의 화면 공
 
 Lync Web App를 통해 모임에 참가할 때 화면 공유 플러그 인의 최신 버전을 강제로 업데이트 하려면 다음의 두 파일에서 **MinSupportedBuildVersion** 의 값을 "4.0.7577.380"에서 "4.0.7457.0"로 수정 합니다.
 
-  - % ProgramFiles%\\Microsoft Lync Server 15\\웹 구성\\요소가\\Int\\클라이언트\\플러그\\인 ReachAppShPluginProperties에 도달 했습니다.
+  - % ProgramFiles% \\ Microsoft Lync Server 15 \\ 웹 구성 \\ 요소가 \\ Int \\ 클라이언트 \\ 플러그 인에 도달 \\ReachAppShPluginProperties.xml
 
-  - % ProgramFiles%\\Microsoft Lync Server 15\\웹 구성\\요소\\에\\Ext\\클라이언트\\플러그 인 ReachAppShPluginProperties가 연결 되어 있습니다.
+  - % ProgramFiles% \\ Microsoft Lync Server 15 \\ 웹 구성 \\ 요소가 \\ Ext \\ 클라이언트 \\ 플러그 인에 도달 했습니다 \\ReachAppShPluginProperties.xml
 
 </div>
 
@@ -965,7 +967,7 @@ Lync server 2010에서 Lync Server 2013로 마이그레이션된 응답 그룹�
 
 **문제점과**
 
-Lync Server 제어판을 사용 하 여 모든 사용자를 한 풀에서 다른 풀로 이동 하는 경우 (예: 여러 도메인 컨트롤러 및 부모/자식 도메인이 있는 경우) "지정 된 사용자가 레거시 사용자가 아닌 경우" 라는 오류 메시지가 반환 될 수 있습니다. 복잡 한 Active Directory 환경의 복제 시간이 길어질 때의 결과입니다.
+Lync Server 제어판을 사용 하 여 모든 사용자를 한 풀에서 다른 풀로 이동 하는 경우 (예: 여러 도메인 컨트롤러 및 부모/자식 도메인이 있는 경우) "지정 된 사용자가 레거시 사용자가 아님," 대신 Move-CsUser cmdlet 사용 "이라는 오류 메시지가 반환 될 수 있습니다. 복잡 한 Active Directory 환경의 복제 시간이 길어질 때의 결과입니다.
 
 **여기서**
 
@@ -989,13 +991,13 @@ VMware 환경에서 Lync Server 제어판을 사용 하는 경우 Silverlight를
 
 이 문제를 해결하려면 다음 중 하나를 수행합니다.
 
-  - Silverlight 5를 제거한 다음에서 [https://go.microsoft.com/fwlink/p/?LinkID=149156\&v=4.0](https://go.microsoft.com/fwlink/p/?linkid=149156%26v=4.0)silverlight 4를 설치 합니다.
+  - Silverlight 5를 제거한 다음에서 Silverlight 4를 설치 [https://go.microsoft.com/fwlink/p/?LinkID=149156\&v=4.0](https://go.microsoft.com/fwlink/p/?linkid=149156%26v=4.0) 합니다.
 
   - VMware 가상 컴퓨터가 아닌 컴퓨터에서 Lync Server 제어판을 엽니다.
     
     원격 컴퓨터에서 Lync Server 제어판을 열려면 컴퓨터에 Lync Server 관리 도구를 설치한 다음 Windows **시작** 메뉴에서 Lync server 제어판을 시작 합니다.
     
-    웹 브라우저에 URL을 입력 하 여 Lync Server 제어판을 열 수도 있습니다. \<URL은 https://프런트\_엔드 풀\_fqdn\>과 유사 합니다/cscp.
+    웹 브라우저에 URL을 입력 하 여 Lync Server 제어판을 열 수도 있습니다. URL은 https:///cscp.와 유사 합니다. \<frontend\_pool\_fqdn\>
 
 </div>
 
@@ -1061,7 +1063,7 @@ VMware 환경에서 Lync Server 제어판을 사용 하는 경우 Silverlight를
 
 **문제점과**
 
-Lync Server 2013, 계획 도구는 재해 복구를 사용 하 여 영구 채팅 서버 배포에 대 한 사이트 토폴로지 다이어그램을 출력 하 고, 사이트 토폴로지 다이어그램에는 여러 개의 (실제) 사이트가 있으며 각 사이트에 균일 하 게 할당 된 영구 채팅 서버가 포함 됩니다. 사이트. 토폴로지 작성기에서 모든 영구 채팅 서버는 단일 (논리적) 사이트에 속하는 것으로 표시 되며 동일한 영구 채팅 서버 풀 노드에 나열 됩니다.
+Lync Server 2013, 계획 도구에서 재해 복구를 사용 하 여 영구 채팅 서버 배포에 대 한 사이트 토폴로지 다이어그램을 출력 하는 경우 사이트 토폴로지 다이어그램에는 여러 개의 (실제) 사이트가 있으며 각 사이트에서 일관 되 게 영구 채팅 서버가 할당 됩니다. 토폴로지 작성기에서 모든 영구 채팅 서버는 단일 (논리적) 사이트에 속하는 것으로 표시 되며 동일한 영구 채팅 서버 풀 노드에 나열 됩니다.
 
 **여기서**
 
@@ -1087,7 +1089,7 @@ Lync Server 2013, 계획 도구는 재해 복구를 사용 하 여 영구 채팅
 
 **문제점과**
 
-중국어 (간체), 중국어 (번체), 일본어 또는 한국어와 같이 한국어 버전의 Lync Server 2013을 사용 하는 경우 시스템 로캘이 동아시아 언어로 설정 되지 않은 운영 체제에서 모니터링 보고서 배포 마법사가 지역화 된 메시지 대신 물음표나 다른 문자를 표시 합니다.
+시스템 로캘이 동아시아 언어로 설정 되지 않은 운영 체제에서 한국어 (중국어 간체), 중국어 (번체), 일본어 또는 한국어와 같은 동아시아 버전을 사용 하는 경우에는 모니터링 보고서 배포 마법사에서 지역화 된 메시지 대신 물음표나 기타 문자를 표시 합니다.
 
 **여기서**
 
@@ -1183,7 +1185,7 @@ Lync Server 제어판의 페이지에서 위쪽 탐색 모음의 마지막 항�
 
 **문제점과**
 
-Internet Explorer에서 웹 브라우저의 중립 로캘을 선택할 때 예를 들어 언어, 스크립트 및 로캘 (예: "노르웨이어, 복말 (노르웨이 \[)\] \[nb-아니요\]")을 지정 하는 로캘 대신 "노르웨이어"와 같은 추가 사양이 없는 언어 이름을 사용 하면 Lync Web Scheduler, 전화 접속, 참가 시작 관리자, 영구 채팅 공간 관리 및 octab의 특정 언어에 대 한 예기치 않은 표시 동작이 발생할 수 있습니다. 예를 들어 다음 언어 중 하나를 선택할 때 영어 페이지가 표시될 수 있습니다.
+Internet Explorer에서 웹 브라우저의 중립 로캘을 선택할 때 예를 들어 \[ \] 언어, 스크립트 및 로캘 (예: "노르웨이어, 복말 (노르웨이) NB-아니요")을 지정 하는 로캘 대신 "노르웨이어"와 같은 추가 사양이 없는 언어 이름을 사용 하면 \[ \] Lync Web Scheduler, 전화 접속, 참가 시작 관리자, 영구 채팅 공간 관리 및 octab의 특정 언어에 대 한 예기치 않은 표시 동작이 발생할 수 있습니다. 예를 들어 다음 언어 중 하나를 선택할 때 영어 페이지가 표시될 수 있습니다.
 
   - 노르웨이어
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0de18da521bd4dadc63d5be592009bd60b643e7b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60fa841f7f88e0da2c428ae68c5007fb79e6c69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195161"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536325"
 ---
+# <a name="tblprincipaltype-in-lync-server-2013"></a>Lync Server 2013의 tblPrincipalType
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipaltype-in-lync-server-2013"></a>Lync Server 2013의 tblPrincipalType
+
 
 </div>
 
@@ -50,7 +52,7 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류하기 �
 <thead>
 <tr class="header">
 <th>열</th>
-<th>형식</th>
+<th>유형</th>
 <th>설명</th>
 </tr>
 </thead>
@@ -120,7 +122,7 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류하기 �
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>개</p></td>
+<td><p>1 </p></td>
 <td><p>모두</p></td>
 <td><p>유형이 알려지지 않은 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.</p></td>
 <td></td>
@@ -138,13 +140,13 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류하기 �
 <td></td>
 </tr>
 <tr class="even">
-<td><p>1-4</p></td>
+<td><p>4 </p></td>
 <td><p>SystemUser</p></td>
 <td><p>영구 채팅 서버에서 내부적으로 사용 되는 보안 주체입니다.</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>2-5</p></td>
+<td><p>5 </p></td>
 <td><p>사용자</p></td>
 <td><p>일반 사용자입니다.</p></td>
 <td><p>예</p></td>
@@ -157,12 +159,12 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류하기 �
 </tr>
 <tr class="odd">
 <td><p>9 </p></td>
-<td><p>Group</p></td>
+<td><p>그룹</p></td>
 <td><p>Active Directory 보안 그룹입니다.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>편지함</p></td>
 <td><p>Active Directory 컨테이너 또는 조직 단위입니다.</p></td>
 <td></td>

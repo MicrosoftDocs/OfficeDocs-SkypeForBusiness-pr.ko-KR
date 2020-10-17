@@ -12,20 +12,22 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 629fa8ea52148e25bd37fa448d9762fbfd557788
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b7da23bc56d18b1b5e6235551f7b99cc15e658fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535935"
 ---
+# <a name="troubleshooting-lync-server-2013-control-panel"></a>Lync Server 2013 제어판 문제 해결
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-lync-server-2013-control-panel"></a>Lync Server 2013 제어판 문제 해결
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Server Control Panel을 사용 하려면 Microsoft Silverlight browser 플�
 
 </div>
 
-인터넷 브라우저가 보안 고려 사항으로 인해 Silverlight 설치를 차단 하는 경우 Lync Server 제어판을 여는 URL (Uniform Resource Locator)을 신뢰할 수 있는 사이트 목록에 추가 합니다. Internet Explorer 보안 설정에서 **ActiveX 컨트롤 및 플러그인 실행**이 **사용**으로 설정되었는지 확인합니다. 자세한 내용은를 참조 [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060)하세요. 또한 브라우저가 SSL 3.0을 사용하도록 구성되었는지 확인합니다.
+인터넷 브라우저가 보안 고려 사항으로 인해 Silverlight 설치를 차단 하는 경우 Lync Server 제어판을 여는 URL (Uniform Resource Locator)을 신뢰할 수 있는 사이트 목록에 추가 합니다. Internet Explorer 보안 설정에서 **ActiveX 컨트롤 및 플러그인 실행**이 **사용**으로 설정되었는지 확인합니다. 자세한 내용은를 참조 [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060) 하세요. 또한 브라우저가 SSL 3.0을 사용하도록 구성되었는지 확인합니다.
 
 인터넷 브라우저가 프록시 서버를 사용하도록 구성된 경우 자동으로 내부 사이트로 검색된 사이트에 대해 프록시 서버를 바이패스하도록 브라우저가 구성되었는지 확인합니다. 또는 프록시 서버 구성 설정에서 해당 주소를 브라우저의 예외 목록에 추가합니다.
 

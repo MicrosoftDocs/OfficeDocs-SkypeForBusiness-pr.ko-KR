@@ -12,20 +12,22 @@ ms:contentKeyID: 48183577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 721932aa2929930b3da742355a46c5e2066c5c83
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc32fe1142094d750b947a789b1e8c473eac8937
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195131"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536305"
 ---
+# <a name="tblroletype-in-lync-server-2013"></a>Lync Server 2013의 tblRoleType
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblroletype-in-lync-server-2013"></a>Lync Server 2013의 tblRoleType
+
 
 </div>
 
@@ -50,7 +52,7 @@ tblRoleType은 역할 유형 및 연관된 권한 집합이 있는 정적 조회
 <thead>
 <tr class="header">
 <th>열</th>
-<th>형식</th>
+<th>유형</th>
 <th>설명</th>
 </tr>
 </thead>

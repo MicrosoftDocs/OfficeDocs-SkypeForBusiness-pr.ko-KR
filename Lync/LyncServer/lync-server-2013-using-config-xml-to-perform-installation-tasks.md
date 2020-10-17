@@ -12,20 +12,22 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2933da3fc52cc6a5c23f74806ff3a4e81dcb2ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 901d95797955c6f545c0d305e2c855829c92addf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212834"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535785"
 ---
+# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Lync Server 2013에서 Config.xml을 사용 하 여 설치 작업 수행
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Config.xml을 사용 하 여 Lync Server 2013에서 설치 작업 수행
+
 
 </div>
 
@@ -53,9 +55,9 @@ _**마지막으로 수정 된 항목:** 2012-10-02_
 
 Config.xml 파일을 사용 하 여 Lync 2013 자동 설치를 구성 하는 것이 좋습니다.
 
-기본적으로 핵심 제품 폴더에 저장 된 Config.xml 파일 (예: \\product) WW) 설치 프로그램에 해당 제품을 설치 하도록 지시 합니다. 예를 들어 다음 폴더의 Config.xml 파일은 Lync 2013을 설치 합니다.
+기본적으로 핵심 제품 폴더에 저장 되는 Config.xml 파일 (예: \\ product) WW) 설치 프로그램에 해당 제품을 설치 하도록 지시 합니다. 예를 들어 다음 폴더의 Config.xml 파일은 Lync 2013을 설치 합니다.
 
-  - \\\\서버\\공유\\lync15.admx가\\ \\
+  - \\\\서버 \\ 공유 \\ lync15.admx가 \\ \\Config.xml
 
 Lync 2013 설치에 가장 일반적으로 사용 되는 Config.xml 요소는 다음 표에 나와 있습니다.
 
@@ -81,24 +83,24 @@ Lync 2013 설치에 가장 일반적으로 사용 되는 Config.xml 요소는 �
 <td><p>OptionState</p></td>
 <td><p>특정 제품 기능이 설치 중에 처리되는 방법을 지정합니다. 다음 특성을 사용 하 여 Outlook 2010을 방해 하는 공유 구성 요소를 포함 하는 Business Connectivity Services의 설치를 차단 합니다.</p>
 <ul>
-<li><p>Id =&quot;주 번호&quot;</p></li>
-<li><p>State =&quot;없음&quot;</p></li>
-<li><p>Children =&quot;Force&quot;</p></li>
+<li><p>Id = &quot; 주 번호&quot;</p></li>
+<li><p>State = &quot; 없음&quot;</p></li>
+<li><p>Children = &quot; Force&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>디스플레이</p></td>
+<td><p>표시</p></td>
 <td><p>설치 프로그램에서 사용자에게 표시하는 UI의 수준입니다. 일반적인 특성은 다음과 같습니다.</p>
 <ul>
-<li><p>고 지 사항&quot;=&quot; | &quot;예&quot;아니요 (기본값)</p></li>
-<li><p>AcceptEula =&quot;Yes&quot; | &quot;No&quot;(기본값)</p></li>
+<li><p>고 지 사항 = &quot; 예 &quot;  |  &quot; 아니요 &quot; (기본값)</p></li>
+<li><p>AcceptEula = &quot; Yes &quot;  |  &quot; No &quot; (기본값)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>기록을</p></td>
 <td><p>설치 프로그램이 수행하는 로깅 종류에 대한 옵션입니다. 일반적인 특성은 다음과 같습니다.</p>
 <ul>
-<li><p>Type =&quot;Off&quot; | &quot;Standard&quot;(기본값) | &quot;자세한 정보 표시&quot;</p></li>
+<li><p>Type = &quot; Off &quot;  |  &quot; Standard &quot; (기본값) | &quot; /V&quot;</p></li>
 <li><p>Template=”파일 이름.txt”(로그 파일의 이름)</p></li>
 </ul></td>
 </tr>
@@ -106,8 +108,8 @@ Lync 2013 설치에 가장 일반적으로 사용 되는 Config.xml 요소는 �
 <td><p>설정</p></td>
 <td><p>Windows Installer 속성의 값을 지정합니다. 일반적인 특성은 다음과 같습니다.</p>
 <ul>
-<li><p>설정 Id =&quot;이름&quot; (Windows Installer 속성의 이름)</p></li>
-<li><p>Value =&quot;value&quot; (속성에 할당할 값)</p></li>
+<li><p>설정 Id = &quot; 이름 &quot; (Windows Installer 속성의 이름)</p></li>
+<li><p>Value = &quot; value &quot; (속성에 할당할 값)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -121,7 +123,7 @@ Lync 2013 설치에 가장 일반적으로 사용 되는 Config.xml 요소는 �
 </table>
 
 
-다음 예제에서는 Lync 2013의 일반적인 자동 설치를 위한 Config.xml 파일을 보여 줍니다.
+다음 예에서는 Lync 2013의 일반적인 자동 설치에 대 한 Config.xml 파일을 보여 줍니다.
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -131,7 +133,7 @@ Lync 2013 설치에 가장 일반적으로 사용 되는 Config.xml 요소는 �
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-Config.xml 파일을 사용 하 여 Office 설치 및 유지 관리 작업을 수행 하는 방법에 대 <https://go.microsoft.com/fwlink/p/?linkid=267514>한 자세한 내용은를 제공 합니다.
+Config.xml 파일을 사용 하 여 Office 설치 및 유지 관리 작업을 수행 하는 방법에 대 한 자세한 내용은를 제공 <https://go.microsoft.com/fwlink/p/?linkid=267514> 합니다.
 
 <div>
 
@@ -141,7 +143,7 @@ Config.xml 파일을 사용 하 여 Office 설치 및 유지 관리 작업을 �
 
 2.  변경할 요소가 포함된 줄을 찾습니다.
 
-3.  요소 항목을 사용하려는 자동 옵션으로 수정합니다. 주석 구분 기호 "\<\!--" 및 "--\>"를 제거 해야 합니다. 예를 들어 다음과 같은 구문을 사용할 수 있습니다.
+3.  요소 항목을 사용하려는 자동 옵션으로 수정합니다. 메모 구분 기호 ""를 제거 해야 합니다 \<\!--" and "--\> . 예를 들어 다음과 같은 구문을 사용할 수 있습니다.
     
         < DistributionPoint Location="\\server\share\Lync15" />
 

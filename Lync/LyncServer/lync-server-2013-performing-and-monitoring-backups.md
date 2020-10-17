@@ -12,20 +12,22 @@ ms:contentKeyID: 63969595
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d44fe94ab8e02551f8d33d95248c6cede63a6974
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b79fdbaceff06155389d101570b23d6143b9bbcc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215674"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536755"
 ---
+# <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>Lync Server 2013에서 백업 수행 및 모니터링
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>Lync Server 2013에서 백업 수행 및 모니터링
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184679
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9628248922742ce46037c94f8257823e4484d168
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8df94773a551ee503ac435af8f31d0104dc38aa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536145"
 ---
+# <a name="technical-requirements-for-mobility-in-lync-server-2013"></a>Lync Server 2013의 모바일 기능에 대 한 기술 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-mobility-in-lync-server-2013"></a>Lync Server 2013의 모바일 기능에 대 한 기술 요구 사항
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2014-07-24_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-모바일 사용자는 특수한 계획을 세워야 하는 다양한 모바일 응용 프로그램 시나리오를 경험하게 됩니다. 예를 들어, 다른 사용자가 3G 네트워크를 통해 연결 하는 방식으로 모바일 응용 프로그램을 사용 하기 시작한 다음 회사 Wi-fi 네트워크로 전환한 다음, 건물에서 나가면 다시 3G로 전환할 수 있습니다. 이와 같은 네트워크 전환을 지원하고 일관된 사용자 환경을 보장할 수 있도록 환경을 계획해야 합니다. 이 섹션에서는 모바일 응용 프로그램을 지원 하 고 이동성 리소스를 자동으로 검색 하기 위해 필요한 인프라 요구 사항에 대해 설명 합니다.
+모바일 사용자는 특수한 계획을 세워야 하는 다양한 모바일 응용 프로그램 시나리오를 경험하게 됩니다. 예를 들어, 다른 사용자가 3G 네트워크를 통해 연결 하는 방식으로 모바일 응용 프로그램을 사용 하기 시작한 후 회사 Wi-Fi 네트워크로 전환한 다음, 건물에서 나가면 다시 3G로 전환할 수 있습니다. 이와 같은 네트워크 전환을 지원하고 일관된 사용자 환경을 보장할 수 있도록 환경을 계획해야 합니다. 이 섹션에서는 모바일 응용 프로그램을 지원 하 고 이동성 리소스를 자동으로 검색 하기 위해 필요한 인프라 요구 사항에 대해 설명 합니다.
 
 <div>
 
@@ -71,13 +73,13 @@ Lync Server 2013는 Lync 2010 모바일 및 Lync 2013 모바일 클라이언트�
 
 모바일 서비스 Mcx (Lync Server 2010:11 월 2011) 및 (Lync Server 용 누적 업데이트에 도입 되었습니다. 2013 2013 년 2 월)에는 동일한 방식으로 DNS를 사용 합니다.
 
-자동 검색을 사용 하는 경우 모바일 장치는 DNS를 사용 하 여 리소스를 찾습니다. DNS 조회 중에는 내부 DNS 레코드 (lyncdiscoverinternal)와 연결 된 FQDN을 먼저 연결 하려고 시도 합니다.\< 내부 도메인 이름\>) 내부 DNS 레코드를 사용 하 여 연결을 설정할 수 없는 경우에는 외부 DNS 레코드 (lyncdiscover)를 사용 하 여 연결\< 을 시도 합니다. microsoft.rtc.management.xds.sipdomain object\>) 네트워크 내부의 모바일 장치가 내부 자동 검색 서비스 URL에 연결 되 고 네트워크 외부의 모바일 장치가 외부 자동 검색 서비스 URL에 연결 됩니다. 외부 자동 검색 요청은 역방향 프록시를 통과 합니다. Lync Server 2013 자동 검색 서비스는 모바일 서비스 (Mcx 및 인천 wa) Url을 포함 하 여 사용자의 홈 풀에 대 한 모든 웹 서비스 Url을 반환 합니다. 그러나 내부 Mobility Service URL과 외부 Mobility Service URL은 모두 외부 웹 서비스 FQDN에 연결됩니다. 따라서 모바일 장치가 네트워크 내부에 있든 외부에 있는지 여부에 관계 없이 장치는 항상 역방향 프록시를 통해 외부 Lync Server 2013 Mobility Service에 연결 됩니다.
+자동 검색을 사용 하는 경우 모바일 장치는 DNS를 사용 하 여 리소스를 찾습니다. DNS 조회 중에는 내부 DNS 레코드 (lyncdiscoverinternal)와 연결 된 FQDN에 대 한 연결을 먼저 시도 합니다. \<internal domain name\> 내부 DNS 레코드를 사용 하 여 연결을 설정할 수 없는 경우에는 외부 DNS 레코드 (lyncdiscover)를 사용 하 여 연결을 시도 합니다. \<sipdomain\> 네트워크 내부의 모바일 장치가 내부 자동 검색 서비스 URL에 연결 되 고 네트워크 외부의 모바일 장치가 외부 자동 검색 서비스 URL에 연결 됩니다. 외부 자동 검색 요청은 역방향 프록시를 통과 합니다. Lync Server 2013 자동 검색 서비스는 모바일 서비스 (Mcx 및 인천 wa) Url을 포함 하 여 사용자의 홈 풀에 대 한 모든 웹 서비스 Url을 반환 합니다. 그러나 내부 Mobility Service URL과 외부 Mobility Service URL은 모두 외부 웹 서비스 FQDN에 연결됩니다. 따라서 모바일 장치가 네트워크 내부에 있든 외부에 있는지 여부에 관계 없이 장치는 항상 역방향 프록시를 통해 외부 Lync Server 2013 Mobility Service에 연결 됩니다.
 
 <div>
 
 
 > [!NOTE]  
-> 배포는 내부 및 외부에서 사용 하기 위해 여러 개의 고유한 네임 스페이스로 구성 될 수 있다는 점을 이해 하는 것이 중요 합니다. SIP 도메인 이름은 내부 배포 도메인 이름과 다를 수 있습니다. 예를 들어 SIP 도메인은 <STRONG>contoso.com</STRONG>수 있지만 내부 배포가 <STRONG>contoso.net</STRONG>될 수 있습니다. Lync Server에 로그인 하는 사용자는 <STRONG>john@contoso.com</STRONG>와 같은 SIP 도메인 이름을 사용 합니다. 외부 웹 서비스에 주소를 지정 하는 경우 (토폴로지 작성기에서 <STRONG>외부 웹 서비스로</STRONG>정의 됨) 도메인 이름 및 SIP 도메인 이름은 DNS에 정의 된 대로 일치 합니다. 내부 웹 서비스를 처리할 때 (토폴로지 작성기에 <STRONG>내부 웹 서비스로</STRONG>정의 됨) 내부 웹 서비스의 기본 이름은 프런트 엔드 서버, 프런트 엔드 풀, 디렉터 또는 디렉터 풀의 FQDN이 됩니다. 내부 웹 서비스 이름을 재정의 하는 옵션이 있습니다. 내부 웹 서비스에 대 한 내부 도메인 이름을 사용 하 고 (SIP 도메인 이름이 아님) DNS 호스트 A (또는 i p v 6) 레코드를 정의 하 여 재정의 된 이름을 반영 해야 합니다. 예를 들어 기본 내부 웹 서비스 FQDN은 <STRONG>pool01.contoso.net</STRONG>일 수 있습니다. 재정의 된 내부 웹 서비스 FQDN은 <STRONG>webpool.contoso.net</STRONG>일 수 있습니다. 이러한 방식으로 웹 서비스를 정의 하면 서비스의 내부 및 외부 집약성을 사용 하는 사용자의 집약성이 관찰 되는 것을 방지할 수 있습니다.<BR>그러나 웹 서비스가 토폴로지 작성기에 정의 되 고 내부 웹 서비스 이름을 다시 정의할 수 있으므로 (예를 들어 웹 서비스 이름을 확인 하는 인증서 및이를 정의 하는 DNS 레코드를 정의 하는 경우)에는 일관성을 유지할 수 있습니다. 원하는 도메인 이름 (SIP 도메인 이름 포함)을 가진 내부 웹 서비스 궁극적으로 IP 주소에 대 한 이름 확인은 DNS 호스트 레코드 및 일관성 있는 네임 스페이스에 의해 결정 됩니다.<BR>이 항목 및 예제를 위해 내부 도메인 이름을 사용 하 여 토폴로지와 DNS 정의를 보여 줍니다.
+> 배포는 내부 및 외부에서 사용 하기 위해 여러 개의 고유한 네임 스페이스로 구성 될 수 있다는 점을 이해 하는 것이 중요 합니다. SIP 도메인 이름은 내부 배포 도메인 이름과 다를 수 있습니다. 예를 들어 SIP 도메인은 <STRONG>contoso.com</STRONG>수 있지만 내부 배포가 <STRONG>contoso.net</STRONG>될 수 있습니다. Lync Server에 로그인 하는 사용자는 <STRONG>john@contoso.com</STRONG>와 같은 SIP 도메인 이름을 사용 합니다. 외부 웹 서비스에 주소를 지정 하는 경우 (토폴로지 작성기에서 <STRONG>외부 웹 서비스로</STRONG>정의 됨) 도메인 이름 및 SIP 도메인 이름은 DNS에 정의 된 대로 일치 합니다. 내부 웹 서비스를 처리할 때 (토폴로지 작성기에 <STRONG>내부 웹 서비스로</STRONG>정의 됨) 내부 웹 서비스의 기본 이름은 프런트 엔드 서버, 프런트 엔드 풀, 디렉터 또는 디렉터 풀의 FQDN이 됩니다. 내부 웹 서비스 이름을 재정의 하는 옵션이 있습니다. 내부 웹 서비스에 대 한 내부 도메인 이름을 사용 하 고 (SIP 도메인 이름이 아님) DNS 호스트 A (또는 i p v 6) 레코드를 정의 하 여 재정의 된 이름을 반영 해야 합니다. 예를 들어 기본 내부 웹 서비스 FQDN은 <STRONG>pool01.contoso.net</STRONG>일 수 있습니다. 재정의 된 내부 웹 서비스 FQDN은 <STRONG>webpool.contoso.net</STRONG>일 수 있습니다. 이러한 방식으로 웹 서비스를 정의 하면 서비스의 내부 및 외부 집약성을 사용 하는 사용자의 집약성이 관찰 되는 것을 방지할 수 있습니다.<BR>그러나 웹 서비스가 토폴로지 작성기에 정의 되 고 내부 웹 서비스 이름을 다시 정의할 수 있으므로, 결과 웹 서비스 이름,이를 통해 유효성을 검사 하는 인증서 및이를 정의 하는 DNS 레코드를 사용 하는 경우에는 SIP 도메인 이름을 포함 하는 내부 웹 서비스를 원하는 도메인 이름으로 정의할 수 있습니다. 궁극적으로 IP 주소에 대 한 이름 확인은 DNS 호스트 레코드 및 일관성 있는 네임 스페이스에 의해 결정 됩니다.<BR>이 항목 및 예제를 위해 내부 도메인 이름을 사용 하 여 토폴로지와 DNS 정의를 보여 줍니다.
 
 
 
@@ -103,7 +105,7 @@ Lync Server 2013는 Lync 2010 모바일 및 Lync 2013 모바일 클라이언트�
 
   - 자동 검색을 위한 새 DNS, CNAME 또는 A (호스트, if IPv6, AAAA) 레코드
 
-  - 새 방화벽 규칙 (Wi-fi 네트워크를 통한 푸시 알림을 지원 하려는 경우)
+  - 새 방화벽 규칙-Wi-Fi 네트워크를 통해 푸시 알림을 지원 하려는 경우
 
   - 자동 검색을 위한 내부 서버 인증서 및 역방향 프록시 인증서의 주체 대체 이름입니다.
 
@@ -195,7 +197,7 @@ Lync 모바일 클라이언트에 대해 자동 검색을 지원하는 경우에
 
 프런트 엔드 풀을 지 원하는 하드웨어 부하 분산 장치에 대해 웹 서비스 트래픽용 외부 웹 서비스 Vip (가상 Ip)를 원본에 대해 구성 해야 합니다. 원본 선호도는 단일 클라이언트 로부터의 여러 연결이 세션 상태를 유지 하기 위해 하나의 서버로 전송 되도록 하는 데 도움이 됩니다. 선호도 요구 사항에 대 한 자세한 내용은 [Lync Server 2013의 부하 분산 요구 사항](lync-server-2013-load-balancing-requirements.md)를 참조 하세요.
 
-내부 Wi-fi 네트워크를 통해서만 Lync 모바일 클라이언트를 지원 하려는 경우에는 외부 웹 서비스 Vip에 대해 설명 된 대로 원본에 대 한 내부 웹 서비스 VIP를 구성 해야 합니다. 이러한 상황에서는 하드웨어 부하 분산 장치에서\_내부 웹 서비스 vip에 대해 원본 주소 선호도를 사용 해야 합니다. 자세한 내용은 [Lync Server 2013의 부하 분산 요구 사항](lync-server-2013-load-balancing-requirements.md)를 참조 하세요.
+내부 Wi-Fi 네트워크를 통해서만 Lync 모바일 클라이언트를 지원 하려는 경우에는 외부 웹 서비스 Vip에 설명 된 대로 원본에 대 한 내부 웹 서비스 VIP를 구성 해야 합니다. 이러한 상황에서는 \_ 하드웨어 부하 분산 장치에서 내부 웹 서비스 vip에 대해 원본 주소 선호도를 사용 해야 합니다. 자세한 내용은 [Lync Server 2013의 부하 분산 요구 사항](lync-server-2013-load-balancing-requirements.md)를 참조 하세요.
 
 </div>
 
@@ -205,9 +207,9 @@ Lync 모바일 클라이언트에 대해 자동 검색을 지원하는 경우에
 
 Lync 모바일 클라이언트에 대 한 자동 검색을 지 원하는 경우 현재 게시 규칙을 다음과 같이 업데이트 해야 합니다.
 
-  - 역방향 프록시 인증서에서 주체 대체 이름 목록을 업데이트 하 고 초기 자동 검색 서비스 요청에 HTTPS를 사용 하기로 결정 한 경우에는 lyncdiscover에 대 한 웹 게시 규칙을 업데이트 해야 합니다. \<microsoft.rtc.management.xds.sipdomain object\> 일반적으로 프런트 엔드 풀의 외부 웹 서비스 URL에 대 한 게시 규칙과 함께 사용 됩니다.
+  - 역방향 프록시 인증서에서 주체 대체 이름 목록을 업데이트 하 고 초기 자동 검색 서비스 요청에 HTTPS를 사용 하기로 결정 한 경우에는 lyncdiscover에 대 한 웹 게시 규칙을 업데이트 해야 \<sipdomain\> 합니다. 일반적으로 프런트 엔드 풀의 외부 웹 서비스 URL에 대 한 게시 규칙과 함께 사용 됩니다.
 
-  - 역방향 프록시 인증서에서 주체 대체 이름 목록을 업데이트 하지 않아도 되도록 초기 자동 검색 서비스 요청에 대해 HTTP를 사용 하려는 경우에는 포트 HTTP/TCP 80에 대 한 새 웹 게시 규칙 (아직 없는 경우)을 만들어야 합니다. HTTP/TCP 80에 대 한 규칙이 이미 있는 경우에는 lyncdiscover를 포함 하도록 해당 규칙을 업데이트할 수 있습니다. \<microsoft.rtc.management.xds.sipdomain object\> 항목
+  - 역방향 프록시 인증서에서 주체 대체 이름 목록을 업데이트 하지 않아도 되도록 초기 자동 검색 서비스 요청에 대해 HTTP를 사용 하려는 경우에는 포트 HTTP/TCP 80에 대 한 새 웹 게시 규칙 (아직 없는 경우)을 만들어야 합니다. HTTP/TCP 80에 대 한 규칙이 이미 있는 경우에는 lyncdiscover를 포함 하도록 해당 규칙을 업데이트할 수 있습니다.\<sipdomain\> 상용구.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 661d7899e90e28a5790351713335cade8ba0d25c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0e73869b70a571ca49026954f84d1111d57ddfbf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187051"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537255"
 ---
+# <a name="call-admission-control-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 통화 허용 제어 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 통화 허용 제어 cmdlet
+
 
 </div>
 
@@ -45,7 +47,7 @@ CAC(통화 허용 제어)는 허용 가능한 품질의 실시간 오디오 또�
 
 다음 cmdlet를 사용 하 여 Lync Server 관리 셸에서 CAC를 관리할 수 있습니다.
 
-**통화 허용 제어**
+**통화 허용 컨트롤**
 
   - <span></span>  
     [CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/library/Gg412727(v=OCS.15))

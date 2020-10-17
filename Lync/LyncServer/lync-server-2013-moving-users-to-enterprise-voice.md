@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enterprise Voice로 사용자 이동'
+description: 'Lync Server 2013: Enterprise Voice로 사용자를 이동 하는 중입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dfd2507f57265b53beea6f84d07760d35abe6e3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 41b075f916f4d81d8d3c24c24c7393be58e10a92
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507055"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542014"
 ---
 # <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013에서 Enterprise Voice로 사용자 이동
 

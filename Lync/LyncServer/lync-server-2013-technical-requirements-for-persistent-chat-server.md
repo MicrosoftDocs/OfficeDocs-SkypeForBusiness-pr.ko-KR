@@ -12,20 +12,22 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75c5bd99e487aa596bdf3b32db77d8deb2cfab9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05a7dbe3073e01505e7f20c3613e94aa05db02ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194791"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536135"
 ---
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 기술 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 기술 요구 사항
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2013-01-06_
 
 영구 채팅 서버를 호스트 하는 각 컴퓨터에는 다음과 같은 구성 요소를 포함 하는 기존 Lync Server 2013 토폴로지에 대 한 액세스 권한이 있어야 합니다.
 
-  - **Lync Server 2013, 프런트 엔드 서버**  프런트 엔드 서버는 SIP (Session 착수 프로토콜) 라우팅의 기반 이며 영구 채팅 서버를 실행 하는 컴퓨터와 가능한 영구 채팅 기능을 사용 하 여 통신을 수행 합니다. 영구 채팅 서버 배포를 시작 하기 전에 Lync server 2013, Standard Edition 또는 lync server 프런트 엔드 풀의 배포와 lync server를 실행 하는 다른 모든 내부 컴퓨터 (조직에 적합)를 확인 합니다.
+  - **Lync server 2013, 프런트 엔드 서버**   프런트 엔드 서버는 SIP (Session 착수 프로토콜) 라우팅의 기반 이며 영구 채팅 서버를 실행 하는 컴퓨터와 가능한 영구 채팅 기능을 사용 하 여 통신을 수행 합니다. 영구 채팅 서버 배포를 시작 하기 전에 Lync server 2013, Standard Edition 또는 lync server 프런트 엔드 풀의 배포와 lync server를 실행 하는 다른 모든 내부 컴퓨터 (조직에 적합)를 확인 합니다.
 
 다음 섹션에서는 영구 채팅 서버 및 영구 채팅 데이터를 저장 하는 데이터베이스에 대 한 특정 요구 사항에 대해 설명 합니다.
 
@@ -99,9 +101,9 @@ Lync Server 및 영구 채팅 서버에 대 한 서버 및 도구 운영 체제 
 
 데이터베이스 서버에서 다음 소프트웨어 응용 프로그램 중 하나가 설치 되어 있는지 확인해 보십시오.
 
-  - Microsoft SQL Server 2012 Microsoft SQL Server 2012을 설치 하는 방법에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559)"SQL Server 2012 설치"를 참조 하십시오.
+  - Microsoft SQL Server 2012 Microsoft SQL Server 2012을 설치 하는 방법에 대 한 자세한 내용은에서 "SQL Server 2012 설치"를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559) .
 
-  - Microsoft SQL Server 2008 R2 Microsoft SQL Server 2008 r 2를 설치 하는 방법에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702)"Sql server 설치 (sql Server 2008 R2)"를 참조 하십시오.
+  - Microsoft SQL Server 2008 R2 Microsoft SQL Server 2008 r 2를 설치 하는 방법에 대 한 자세한 내용은에서 "SQL Server 설치 (SQL Server 2008 R2)"를 참조 하십시오 [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702) .
 
 </div>
 

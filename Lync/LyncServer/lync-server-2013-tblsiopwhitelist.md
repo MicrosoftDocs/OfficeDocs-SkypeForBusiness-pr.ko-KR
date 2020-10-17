@@ -12,20 +12,22 @@ ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 625400f6b6cd602de247cc0bdf612e81713e1663
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3cac704c6f62903c502ae5a4345ee0848c775d6f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195151"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536215"
 ---
+# <a name="tblsiopwhitelist-in-lync-server-2013"></a>Lync Server 2013의 tblSiopWhiteList
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblsiopwhitelist-in-lync-server-2013"></a>Lync Server 2013의 tblSiopWhiteList
+
 
 </div>
 
@@ -50,7 +52,7 @@ tblSiopWhiteList는 노드와 연결할 수 있는 등록된 추가 기능 목�
 <thead>
 <tr class="header">
 <th>열</th>
-<th>형식</th>
+<th>유형</th>
 <th>설명</th>
 </tr>
 </thead>
