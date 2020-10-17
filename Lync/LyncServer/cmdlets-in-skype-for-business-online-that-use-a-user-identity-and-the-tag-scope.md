@@ -1,5 +1,6 @@
 ---
 title: 사용자 id와 태그 범위를 사용 하는 비즈니스용 Skype Online의 cmdlet
+description: 사용자 id와 태그 범위를 사용 하는 비즈니스용 Skype Online의 cmdlet입니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558838
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9adf86a6ec6d2bd859411005dcc67b0dcbe09c7f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 3e2ddbcc9c90096cea5fad4cb680f4ea1797ce48
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755120"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545614"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a>사용자 id와 태그 범위를 사용 하는 비즈니스용 Skype Online의 cmdlet
 
@@ -37,7 +38,7 @@ ms.locfileid: "44755120"
 
 
 > [!NOTE]  
-> 사용자에 게 이전에 사용자가 정책을 할당 했 고 해당 정책을 할당 취소 하 고 대신 사용자에 게 글로벌 정책이 관리 되도록 하려면 어떻게 해야 합니까? 이 경우 먼저 다음 구문을 사용 하 여 해당 사용자에 게 null 정책을 부여 하 여 사용자별 정책을 할당 하지 않도록 합니다.<BR>Grant-Set-csvoicepolicy – Identity "Ken Myer" – PolicyName $Null
+> 사용자에 게 이전에 사용자가 정책을 할당 했 고 해당 정책을 할당 취소 하 고 대신 사용자에 게 글로벌 정책이 관리 되도록 하려면 어떻게 해야 합니까? 이 경우 먼저 다음 구문을 사용 하 여 해당 사용자에 게 null 정책을 부여 하 여 사용자별 정책을 할당 하지 않도록 합니다.<BR>Grant-CsVoicePolicy-Id "Ken Myer"-PolicyName $Null
 
 
 

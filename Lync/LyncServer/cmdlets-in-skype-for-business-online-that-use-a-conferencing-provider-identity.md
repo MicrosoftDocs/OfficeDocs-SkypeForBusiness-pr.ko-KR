@@ -1,5 +1,6 @@
 ---
 title: 회의 공급자 id를 사용 하는 비즈니스용 Skype Online의 cmdlet
+description: 회의 공급자 id를 사용 하는 비즈니스용 Skype Online의 cmdlet입니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558858
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: accaad94f5e29863ac948ea64d061d23b811105f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 61ab4fb410878ca73314b73737948d9961462c87
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755130"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545734"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity"></a>회의 공급자 id를 사용 하는 비즈니스용 Skype Online의 cmdlet
 

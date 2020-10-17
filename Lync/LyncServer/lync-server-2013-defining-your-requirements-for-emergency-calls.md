@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 긴급 통화에 대 한 요구 사항 정의'
+description: 'Lync Server 2013: 긴급 통화에 대 한 요구 사항 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d190d240db85016bd13bfd2480b42b088ca5f88
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8d3c9908dcb4008a1442af86971e42eb4096a98b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504365"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545404"
 ---
 # <a name="defining-your-requirements-for-emergency-calls-in-lync-server-2013"></a>Lync Server 2013의 응급 전화에 대 한 요구 사항 정의
 

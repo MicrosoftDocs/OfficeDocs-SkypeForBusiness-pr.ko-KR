@@ -1,5 +1,6 @@
 ---
 title: Sba (survivable Branch 기기 또는 서버-분기 사이트 작업 배포
+description: Sba (survivable Branch 기기 또는 서버-분기 사이트 작업을 배포 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184586
 ms.date: 10/29/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 835de118f46dba61fe86ee3f412c55d945dfb2a9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b84f603f185bd507111d4767a22e9009fc0e8b3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521655"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545304"
 ---
 # <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>Lync Server 2013-분기 사이트 작업을 사용 하 여 Sba (survivable Branch 기기 또는 서버 배포
 

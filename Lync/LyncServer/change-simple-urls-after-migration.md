@@ -1,5 +1,6 @@
 ---
 title: 마이그레이션 후 단순 URL 변경
+description: 마이그레이션 후 단순 Url을 변경 합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 029fe44d33d41b410d23068551203b1532893354
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b2f9974106d28bcfdc64c2255337baf721a937e7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499695"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545764"
 ---
 # <a name="change-simple-urls-after-migration"></a>마이그레이션 후 단순 URL 변경
 

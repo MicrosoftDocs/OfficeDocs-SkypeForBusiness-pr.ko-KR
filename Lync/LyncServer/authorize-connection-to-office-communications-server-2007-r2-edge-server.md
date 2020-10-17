@@ -1,5 +1,6 @@
 ---
 title: Office Communications Server 2007 R2에 지 서버에 대 한 연결 권한 부여
+description: Office Communications Server 2007 R2에 지 서버에 대 한 연결 권한을 부여 합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6181f3d42facaf49b84b7c07776dc8717e88b271
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: de8dadb2c476c892f4ffd548ce176d12d3b1a1cf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499765"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545834"
 ---
 # <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Office Communications Server 2007 R2에 지 서버에 대 한 연결 권한 부여
 

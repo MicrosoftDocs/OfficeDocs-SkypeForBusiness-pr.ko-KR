@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 위치 데이터베이스 구성'
+description: 'Lync Server 2013: 위치 데이터베이스를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184704
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9495bc0c52e8e9af4af0daa3d29304d5b25d4b7e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 877c83976ca0db9abc3a9e57d4a1cf5adaa1291a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520265"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544934"
 ---
 # <a name="configure-the-location-database-in-lync-server-2013"></a>Lync Server 2013에서 위치 데이터베이스 구성
 

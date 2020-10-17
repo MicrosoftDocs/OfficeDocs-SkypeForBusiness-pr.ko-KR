@@ -7,7 +7,7 @@
       href: ../lync-server-2013-accessibility.md
     - name: 기술 다이어그램
       href: ../lync-server-2013-technical-diagrams.md
-    - name: 시작하기
+    - name: TVM을 간편하게
       href: ../lync-server-2013-getting-started.md
       items:
         - name: Lync Server 소개
@@ -15,7 +15,7 @@
           items:
             - name: IM 및 현재 상태
               href: ../lync-server-2013-im-and-presence.md
-            - name: 전화
+            - name: 회의
               href: ../lync-server-2013-conferencing.md
             - name: Enterprise Voice
               href: ../lync-server-2013-enterprise-voice.md
@@ -792,9 +792,9 @@
                       href: ../lync-server-2013-pstn-gateway-deployment-options.md
                 - name: 'M:N 트렁크'
                   href: ../lync-server-2013-m-n-trunk.md
-                - name: 트렁크 간 라우팅
+                - name: 트렁크 간의 라우팅
                   href: ../lync-server-2013-inter-trunk-routing.md
-                - name: 변환 규칙
+                - name: 번역 규칙
                   href: ../lync-server-2013-translation-rules.md
                 - name: 아웃 바운드 음성 라우팅 계획
                   href: ../lync-server-2013-planning-outbound-voice-routing.md
@@ -913,19 +913,19 @@
                   href: ../lync-server-2013-technical-requirements-for-media-bypass.md
             - name: 전용 전화선 계획
               href: ../lync-server-2013-planning-for-private-telephone-lines.md
-            - name: 위치 기반 라우팅 계획
+            - name: Location-Based 라우팅 계획
               href: ../lync-server-2013-planning-for-location-based-routing.md
               items:
-                - name: 위치 기반 라우팅 개요
+                - name: Location-Based 라우팅 개요
                   href: ../lync-server-2013-overview-of-location-based-routing.md
-                - name: 위치 기반 라우팅에 대 한 지침
+                - name: Location-Based 라우팅에 대 한 지침
                   href: ../lync-server-2013-guidance-for-location-based-routing.md
                   items:
                     - name: 사용자 위치
                       href: ../lync-server-2013-user-s-location.md
                     - name: PSTN 게이트웨이 위치
                       href: ../lync-server-2013-pstn-gateway-s-location.md
-                - name: 위치 기반 라우팅 시나리오
+                - name: Location-Based 라우팅 시나리오
                   href: ../lync-server-2013-scenarios-for-location-based-routing.md
                   items:
                     - name: 발신 전화
@@ -940,24 +940,24 @@
                       href: ../lync-server-2013-delegation.md
                     - name: 팀 통화
                       href: ../lync-server-2013-team-calling-with-location-based-routing.md
-                - name: 위치 기반 라우팅에 대 한 기술 고려 사항
+                - name: Location-Based 라우팅에 대 한 기술적 고려 사항
                   href: ../lync-server-2013-technical-considerations-for-location-based-routing.md
-                - name: 위치 기반 라우팅을 위한 클라이언트 및 서버 지원
+                - name: Location-Based 라우팅을 위한 클라이언트 및 서버 지원
                   href: ../lync-server-2013-client-and-server-support-for-location-based-routing.md
-                - name: 위치 기반 라우팅에서 지원 하지 않는 기능
+                - name: Location-Based 라우팅에서 지원 하지 않는 기능
                   href: ../lync-server-2013-capabilities-not-supported-by-location-based-routing.md
-                - name: 위치 기반 라우팅 배포 프로세스
+                - name: Location-Based 라우팅 배포 프로세스
                   href: ../lync-server-2013-deployment-process-for-location-based-routing.md
-                - name: 회의에 대 한 위치 기반 라우팅
+                - name: 회의에 대 한 Location-Based 라우팅
                   href: ../lync-server-2013-location-based-routing-for-conferencing.md
                   items:
-                    - name: 회의에 대 한 위치 기반 라우팅 개요
+                    - name: 회의에 대 한 Location-Based 라우팅 개요
                       href: ../lync-server-2013-overview-of-location-based-routing-for-conferencing.md
-                    - name: 위치 기반 라우팅 및 문의 후 통화 전송
+                    - name: Location-Based 라우팅 및 문의 후 통화 전송
                       href: ../lync-server-2013-location-based-routing-and-consultative-call-transfers.md
-                    - name: 전화 회의에 대 한 위치 기반 라우팅을 위한 요구 사항
+                    - name: 회의에 대 한 Location-Based 라우팅을 위한 요구 사항
                       href: ../lync-server-2013-requirements-for-location-based-routing-for-conferencing.md
-                    - name: 전화 회의를 위한 위치 기반 라우팅 구성
+                    - name: 회의에 대 한 Location-Based 라우팅 구성
                       href: ../lync-server-2013-configuration-of-location-based-routing-for-conferencing.md
             - name: 통화 관리 기능 계획
               href: ../lync-server-2013-planning-for-call-management-features.md
@@ -975,7 +975,7 @@
                       href: ../lync-server-2013-clients-supported-for-call-park.md
                     - name: 통화 대기에 대 한 용량 계획
                       href: ../lync-server-2013-capacity-planning-for-call-park.md
-                    - name: 통화 대기 배포 프로세스
+                    - name: 통화 파킹 배포 프로세스
                       href: ../lync-server-2013-deployment-process-for-call-park.md
                 - name: 그룹 통화 픽업 계획
                   href: ../lync-server-2013-planning-for-group-call-pickup.md
@@ -1005,7 +1005,7 @@
                       href: ../lync-server-2013-clients-supported-for-response-group.md
                     - name: 응답 그룹에 대 한 용량 계획
                       href: ../lync-server-2013-capacity-planning-for-response-group.md
-                    - name: 응답 그룹 배포 프로세스
+                    - name: 응답 그룹에 대한 배포 프로세스
                       href: ../lync-server-2013-deployment-process-for-response-group.md
                 - name: 공지 사항 계획
                   href: ../lync-server-2013-planning-for-announcements.md
@@ -1016,7 +1016,7 @@
                       href: ../lync-server-2013-components-used-by-the-announcement-application.md
                     - name: 알림 응용 프로그램에 대 한 기술 요구 사항
                       href: ../lync-server-2013-technical-requirements-for-the-announcement-application.md
-                    - name: 알림 응용 프로그램 배포 프로세스
+                    - name: 알림 프로그램에 대한 배포 프로세스
                       href: ../lync-server-2013-deployment-process-for-the-announcement-application.md
             - name: Enterprise Voice 복구 계획
               href: ../lync-server-2013-planning-for-enterprise-voice-resiliency.md
@@ -1346,7 +1346,7 @@
                     - name: Active Directory 도메인 서비스 준비 개요
                       href: ../lync-server-2013-overview-of-active-directory-domain-services-preparation.md
                     - name: Active Directory 도메인 서비스 준비
-                      href: ../lync-server-2013-preparing-active-directory-domain-services_1.md
+                      href: ../lync-server-2013-preparing-active-directory-domain-services.md
                       items:
                         - name: Active Directory 스키마 준비
                           href: ../lync-server-2013-preparing-the-active-directory-schema.md
@@ -1561,7 +1561,7 @@
                   href: ../lync-server-2013-start-services-on-the-director.md
                 - name: 디렉터 테스트
                   href: ../lync-server-2013-test-the-director.md
-                - name: 디렉터를 사용 하도록 자동 클라이언트 로그인 구성
+                - name: 디렉터를 사용 하도록 자동 클라이언트 Sign-In 구성
                   href: ../lync-server-2013-configure-automatic-client-sign-in-to-use-the-director.md
             - name: 에 지 서버 설정
               href: ../lync-server-2013-setting-up-edge-servers.md
@@ -1605,11 +1605,11 @@
             - name: 외부 사용자 액세스에 대 한 지원 구성
               href: ../lync-server-2013-configuring-support-for-external-user-access.md
               items:
-                - name: 원격 사용자 액세스를 제어 하도록 정책 구성
+                - name: 원격 사용자 액세스를 컨트롤하는 정책 구성
                   href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                - name: 원격 사용자 액세스 사용 또는 사용 안 함
+                - name: 원격 사용자 액세스를 사용하도록 설정 또는 해제
                   href: ../lync-server-2013-enable-or-disable-remote-user-access.md
-                - name: 익명 사용자 액세스 사용 또는 사용 안 함
+                - name: 익명의 사용자 액세스를 사용하도록 설정 또는 해제
                   href: ../lync-server-2013-enable-or-disable-anonymous-user-access.md
                 - name: 익명 사용자를 지원 하기 위한 회의 정책 할당
                   href: ../lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md
@@ -1626,16 +1626,16 @@
                   href: ../lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md
             - name: 역방향 프록시 서버를 사용 하 여 Office Web Apps 서버 게시
               href: ../lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md
-            - name: Lync-Skype 연결을 위한 프로 비전 가이드
+            - name: Lync-Skype 연결용 프로 비전 가이드
               href: ../lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md
               items:
-                - name: Lync Online에 대 한 Lync-Skype 연결에 대 한 참고 사항
+                - name: Lync Online의 Lync-Skype 연결에 대 한 참고 사항
                   href: ../lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md
                 - name: Lync Server 공용 IM 연결 프로 비전 사이트 액세스
                   href: ../lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md
                 - name: Lync-Skype 연결 사용
                   href: ../lync-server-2013-enabling-lync-skype-connectivity.md
-                - name: 최종 사용자로 서 Lync Skype 연결 사용
+                - name: 최종 사용자로 Lync-Skype 연결 사용
                   href: ../lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md
                 - name: '질문과 대답: Skype 연결용 Lync Server 프로 비전'
                   href: ../lync-server-2013-frequently-asked-questions-provisioning-lync-server-for-skype-connectivity.md
@@ -1645,14 +1645,14 @@
                 - name: Lync 페더레이션 설정
                   href: ../lync-server-2013-setting-up-lync-federation.md
                   items:
-                    - name: 페더레이션 사용자 액세스를 제어 하도록 정책 구성
+                    - name: 페더레이션 사용자 액세스를 컨트롤하는 정책 구성
                       href: ../lync-server-2013-configure-policies-to-control-federated-user-access.md
                 - name: 공용 인스턴트 메시징 연결 설정
                   href: ../lync-server-2013-setting-up-public-instant-messaging-connectivity.md
                   items:
                     - name: 공용 공급자에 대해 미디어 암호화 구성
                       href: ../lync-server-2013-configure-media-encryption-for-public-providers.md
-                    - name: 공용 사용자 액세스를 제어 하도록 정책 구성
+                    - name: 공용 사용자 액세스를 컨트롤하는하는 정책 구성
                       href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                 - name: XMPP 페더레이션 설정
                   href: ../lync-server-2013-setting-up-xmpp-federation.md
@@ -1731,7 +1731,7 @@
                           href: ../lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md
                         - name: 수동으로 변환 규칙 만들기 또는 수정
                           href: ../lync-server-2013-create-or-modify-a-translation-rule-manually.md
-                - name: 트렁크 간 라우팅
+                - name: 트렁크 간의 라우팅
                   href: ../lync-server-2013-inter-trunk-routing.md
             - name: 다이얼 플랜 구성
               href: ../lync-server-2013-configuring-dial-plans.md
@@ -1761,7 +1761,7 @@
                       href: ../lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md
                     - name: 음성 메일 이스케이프 구성
                       href: ../lync-server-2013-configuring-voice-mail-escape.md
-                - name: PSTN 사용 레코드 보기
+                - name: PSTN 사용 기록 보기
                   href: ../lync-server-2013-view-pstn-usage-records.md
                 - name: 아웃 바운드 통화에 대 한 음성 경로 구성
                   href: ../lync-server-2013-configuring-voice-routes-for-outbound-calls.md
@@ -1857,9 +1857,9 @@
                       href: ../lync-server-2013-create-network-region-links.md
                     - name: 네트워크 통과 영역 경로 만들기
                       href: ../lync-server-2013;-create-network-interregion-routes.md
-                    - name: 네트워크 사이트 간 정책 만들기
+                    - name: 네트워크 사이트간의 정책 만들기
                       href: ../lync-server-2013-create-network-intersite-policies.md
-                    - name: 통화 허용 제어 사용
+                    - name: 통화 허용 콘트롤 활성화
                       href: ../lync-server-2013-enable-call-admission-control.md
                     - name: 통화 허용 제어 배포 검사 목록
                       href: ../lync-server-2013-call-admission-control-deployment-checklist.md
@@ -1916,14 +1916,14 @@
                           items:
                             - name: 미디어 바이패스를 위해 네트워크 사이트에 서브넷 연결
                               href: ../lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md
-                - name: 위치 기반 라우팅 구성
+                - name: Location-Based 라우팅 구성
                   href: ../lync-server-2013-configuring-location-based-routing.md
                   items:
                     - name: Enterprise Voice 구성
                       href: ../lync-server-2013-configuring-enterprise-voice.md
                     - name: '네트워크 지역, 사이트 및 서브넷 배포'
                       href: ../lync-server-2013-deploying-network-regions-sites-and-subnets.md
-                    - name: 위치 기반 라우팅 사용
+                    - name: Location-Based 라우팅 사용
                       href: ../lync-server-2013-enabling-location-based-routing.md
             - name: 통화 관리 기능 배포
               href: ../lync-server-2013-deploying-call-management-features.md
@@ -1933,22 +1933,22 @@
                   items:
                     - name: 통화 대기 구성 필요 조건 및 사용자 권한
                       href: ../lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md
-                    - name: 통화 대기 배포 프로세스
+                    - name: 통화 파킹 배포 프로세스
                       href: ../lync-server-2013-deployment-process-for-call-park.md
                     - name: 통화 대기 궤도 테이블 구성
                       href: ../lync-server-2013-configure-the-call-park-orbit-table.md
                       items:
-                        - name: 통화 대기 번호 범위 만들기 또는 수정
+                        - name: 통화 파킹 궤도 범위 만들기 또는 수정
                           href: ../lync-server-2013-create-or-modify-a-call-park-orbit-range.md
-                    - name: 통화 대기 설정 구성
+                    - name: 통화 파킹 설정 구성
                       href: ../lync-server-2013-configure-call-park-settings.md
-                    - name: 통화 대기 음악 사용자 지정
+                    - name: 통화 파킹 대기 음악 사용자 지정
                       href: ../lync-server-2013-customize-call-park-music-on-hold.md
-                    - name: 사용자에 대해 통화 대기 사용
+                    - name: 사용자를 위한 통화 파킹 활성화
                       href: ../lync-server-2013-enable-call-park-for-users.md
-                    - name: 통화 대기에 대 한 정규화 규칙 확인
+                    - name: 통화 파킹에 대한 정규화 규칙 확인
                       href: ../lync-server-2013-verify-normalization-rules-for-call-park.md
-                    - name: 반드시 통화 대기 배포 확인
+                    - name: (옵션)통화 파킹 배포 확인
                       href: ../lync-server-2013-optional-verify-call-park-deployment.md
                 - name: 그룹 통화 픽업 구성
                   href: ../lync-server-2013-configuring-group-call-pickup.md
@@ -1964,7 +1964,7 @@
                       items:
                         - name: 그룹 통화 픽업 번호 범위 만들기 또는 수정
                           href: ../lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md
-                    - name: 사용자에 대 한 그룹 통화 픽업 사용 및 그룹 번호 할당
+                    - name: 사용자를 위한 그룹 통화 픽업 활성화 및 그룹 번호 할당
                       href: ../lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md
                     - name: 사용자에 게 그룹 통화 픽업 할당 정보 교환
                       href: ../lync-server-2013-communicate-group-call-pickup-assignment-to-users.md
@@ -1975,7 +1975,7 @@
                   items:
                     - name: 응답 그룹 구성 권한 및 필수 구성 요소
                       href: ../lync-server-2013-response-group-configuration-permissions-and-prerequisites.md
-                    - name: 응답 그룹 배포 프로세스
+                    - name: 응답 그룹에 대한 배포 프로세스
                       href: ../lync-server-2013-deployment-process-for-response-group.md
                     - name: 워크플로 만들기 시나리오 개요
                       href: ../lync-server-2013-overview-of-workflow-creation-scenarios.md
@@ -1989,9 +1989,9 @@
                       items:
                         - name: 큐 만들기 또는 수정
                           href: ../lync-server-2013-create-or-modify-a-queue.md
-                    - name: 반드시 응답 그룹 업무 시간 정의
+                    - name: (옵션)응답 그룹 비즈니스 시간 정의
                       href: ../lync-server-2013-optional-define-response-group-business-hours.md
-                    - name: 반드시 응답 그룹의 휴일 집합 정의
+                    - name: (옵션)응답 그룹의 휴일 집합 정의
                       href: ../lync-server-2013-optional-define-response-group-holiday-sets.md
                     - name: 응답 그룹 워크플로 만들기
                       href: ../lync-server-2013-create-response-group-workflows.md
@@ -2004,27 +2004,27 @@
                           href: ../lync-server-2013-create-or-modify-an-interactive-workflow.md
                     - name: 응용 프로그램 수준 응답 그룹 설정 관리
                       href: ../lync-server-2013-managing-application-level-response-group-settings.md
-                    - name: 반드시 응답 그룹 배포 확인
+                    - name: (옵션)응답 그룹 배포 확인
                       href: ../lync-server-2013-optional-verify-response-group-deployment.md
                 - name: 할당 되지 않은 번호에 대 한 알림 구성
                   href: ../lync-server-2013-configuring-announcements-for-unassigned-numbers.md
                   items:
                     - name: 알림 구성 선행 조건 및 역할
                       href: ../lync-server-2013-announcement-configuration-prerequisites-and-roles.md
-                    - name: 알림 응용 프로그램 배포 프로세스
+                    - name: 알림 프로그램에 대한 배포 프로세스
                       href: ../lync-server-2013-deployment-process-for-the-announcement-application.md
-                    - name: 알림 만들기
+                    - name: 공지 사항 만들기
                       href: ../lync-server-2013-create-an-announcement.md
                     - name: 지정 되지 않은 번호 테이블 구성
                       href: ../lync-server-2013-configure-the-unassigned-number-table.md
                       items:
-                        - name: 할당 되지 않은 번호 범위 만들기 또는 수정
+                        - name: 미지정 번호 범위 만들기 또는 수정
                           href: ../lync-server-2013-create-or-modify-an-unassigned-number-range.md
-                    - name: 반드시 알림 배포 확인
+                    - name: 공지 사항 배포 확인(옵션)
                       href: ../lync-server-2013-optional-verify-announcement-deployment.md
             - name: 사용자가 Enterprise Voice를 사용할 수 있도록 설정
               href: ../lync-server-2013-enable-users-for-enterprise-voice.md
-            - name: 공유 선 모양 배포
+            - name: 회선 공유 기능 배포
               href: ../lync-server-2013-deploy-shared-line-appearance.md
         - name: 회의 배포
           href: ../lync-server-2013-deploying-conferencing.md
@@ -2177,7 +2177,7 @@
                               href: ../lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md
                         - name: Exchange Server 통합을 사용할 때 보관용 정책 설정
                           href: ../lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md
-                - name: 페더레이션 파트너에 게 보관 고 지 사항 전송 사용 또는 사용 안 함
+                - name: 페더레이션 파트너로 보관 고지 사항 보내기를 사용하도록 설정 또는 해제
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
         - name: 비디오 계획 및 배포
           href: ../lync-server-2013-planning-and-deploying-video.md
@@ -2626,7 +2626,7 @@
                   items:
                     - name: 비즈니스용 Skype Online 커넥터 모듈 다운로드 및 설치
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
-                    - name: Microsoft Online Services 로그인 도우미 다운로드 및 설치
+                    - name: Microsoft Online Services Sign-In 도우미 다운로드 및 설치
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                     - name: Windows PowerShell 3.0 다운로드 및 설치
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
@@ -2711,9 +2711,9 @@
                 - name: 비즈니스용 Skype Online의 연결 문제 진단 및 해결
                   href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                   items:
-                    - name: Windows PowerShell 실행 정책으로 인해 발생 하는 가져오기 모듈 오류
+                    - name: Windows PowerShell 실행 정책으로 인해 발생 한 Import-Module 오류
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
-                    - name: 잘못 된 버전의 Windows PowerShell로 인해 발생 하는 가져오기 모듈 오류
+                    - name: 잘못 된 버전의 Windows PowerShell로 인해 발생 하는 Import-Module 오류
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                     - name: Live ID 서버에 연결 하지 못했습니다.
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
@@ -2737,7 +2737,7 @@
         - name: Lync Server 2010에서 Lync Server 2013로 마이그레이션
           href: ../migration-from-lync-server-2010-to-lync-server-2013.md
           items:
-            - name: 마이그레이션을 시작 하기 전에
+            - name: 마이그레이션을 시작하기 전에
               href: ../before-you-begin-the-migration.md
               items:
                 - name: 마이그레이션 프로세스
@@ -2759,12 +2759,12 @@
                   href: ../migrating-multiple-sites-and-pools.md
                 - name: XMPP 페더레이션 마이그레이션
                   href: ../migrating-xmpp-federation.md
-            - name: '2 단계: 마이그레이션 준비'
+            - name: '2단계: 마이그레이션 준비'
               href: ../phase-2-prepare-for-migration.md
               items:
                 - name: Lync Server 2010 업데이트 적용
                   href: ../apply-lync-server-2010-updates.md
-                - name: 파일럿 풀 배포를 위한 DNS 레코드 구성
+                - name: 파일럿 풀 배포에 대한 DNS 레코드 구성
                   href: ../configure-dns-records-for-pilot-pool-deployment.md
                 - name: 모범 사례 분석기 실행
                   href: ../run-best-practices-analyzer.md
@@ -2783,9 +2783,9 @@
                   href: ../download-topology-from-existing-deployment.md
                 - name: Lync Server 2013 파일럿 풀 배포
                   href: ../deploy-lync-server-2013-pilot-pool.md
-                - name: 레거시 풀과 파일럿 풀 공존 성 확인
+                - name: 레거시 풀로 파일럿 풀 동시 사용 확인
                   href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
-                - name: 파일럿 풀을 레거시에 지 서버에 연결
+                - name: 레거시 에지 서버에 파일럿 풀 연결
                   href: ../connect-pilot-pool-to-legacy-edge-servers.md
                 - name: XMPP 게이트웨이 액세스 정책 및 인증서 구성
                   href: ../configure-xmpp-gateway-access-policies-and-certificates.md
@@ -2794,7 +2794,7 @@
               items:
                 - name: Lync Server 2010 풀의 현재 사용자 보기
                   href: ../view-current-users-in-lync-server-2010-pool.md
-                - name: 사용자 복제가 완료 되었는지 확인
+                - name: 사용자 복제가 완료되었는지 확인
                   href: ../verify-user-replication-has-completed.md
                 - name: 파일럿 풀로 단일 사용자 이동
                   href: ../move-a-single-user-to-the-pilot-pool.md
@@ -2803,24 +2803,24 @@
             - name: '단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가'
               href: ../phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md
               items:
-                - name: 파일럿에 지 서버 배포
+                - name: 파일럿 Edge 서버 배포
                   href: ../deploy-pilot-edge-server.md
                 - name: 구성 설정 확인
                   href: ../verify-configuration-settings.md
-            - name: '6 단계: 파일럿 배포에서 프로덕션으로 이동'
+            - name: '6단계: 파일럿 배포에서 프로덕션으로 이동'
               href: ../phase-6-move-from-pilot-deployment-into-production.md
               items:
                 - name: 페더레이션 경로 및 미디어 트래픽 구성
                   href: ../configure-federation-routes-and-media-traffic.md
                 - name: 외부 사용자를 위한 페더레이션 및 원격 액세스 확인
                   href: ../verify-federation-and-remote-access-for-external-users.md
-                - name: 마이그레이션 후 단순 Url 변경
+                - name: 마이그레이션 후 단순 URL 변경
                   href: ../change-simple-urls-after-migration.md
                 - name: Lync Server 2013로 나머지 사용자 이동
                   href: ../move-remaining-users-to-lync-server-2013.md
                 - name: Lync Server 2013에서 XMPP 게이트웨이 구성
                   href: ../configure-xmpp-gateway-on-lync-server-2013.md
-            - name: '단계 7: 마이그레이션 후 작업 완료'
+            - name: '7단계: 마이그레이션 후 작업 완료'
               href: ../phase-7-complete-post-migration-tasks.md
               items:
                 - name: 기존 모임 및 모임 콘텐츠 마이그레이션
@@ -2841,7 +2841,7 @@
                   href: ../configure-trusted-application-servers.md
                 - name: Lync Server 2013 클라이언트 배포
                   href: ../deploy-lync-server-2013-clients.md
-                - name: Sba (survivable 분기 기기 연결
+                - name: SBA(Survivable Branch Appliance) 연결
                   href: ../connect-a-survivable-branch-appliance.md
                 - name: SCOM 모니터링 구성
                   href: ../configure-scom-monitoring.md
@@ -2849,7 +2849,7 @@
                   href: ../migrate-common-area-phones.md
                 - name: 아날로그 장치 마이그레이션
                   href: ../migrate-analog-devices.md
-            - name: '8 단계: 레거시 풀 해제'
+            - name: '8단계: 레거시 풀 해제'
               href: ../phase-8-decommission-legacy-pools.md
               items:
                 - name: DNS SRV 레코드 업데이트
@@ -2865,74 +2865,74 @@
                 - name: Enterprise Edition 프런트 엔드 서버 또는 Standard Edition 프런트 엔드 서버 제거
                   href: ../remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md
                   items:
-                    - name: 통화 허용 제어 다시 설정
+                    - name: 통화 허용 콘트롤 재설정
                       href: ../reset-call-admission-control.md
-                    - name: 서비스에 대 한 세션 방지
+                    - name: 서비스에 대한 세션 방지
                       href: ../prevent-sessions-for-services.md
                     - name: Lync Server 2010 서비스 중지
                       href: ../stop-lync-server-2010-services.md
                     - name: 풀에서 프런트 엔드 서버 제거
                       href: ../remove-a-front-end-server-from-a-pool.md
-                    - name: 프런트 엔드 풀 또는 Standard Edition server 제거
+                    - name: 프런트 엔드 풀 또는 Standard Edition 서버 제거
                       href: ../remove-front-end-pool-or-standard-edition-server.md
                 - name: 백 엔드 서버에서 SQL Server 인스턴스 및 데이터베이스 제거
                   href: ../remove-sql-server-instances-and-databases-on-the-back-end-server.md
                   items:
-                    - name: 프런트 엔드 풀에 대 한 SQL Server 데이터베이스 제거
+                    - name: 프런트 엔드 풀에 대한 SQL Server 데이터베이스 제거
                       href: ../remove-the-sql-server-database-for-a-front-end-pool.md
-                    - name: 모니터링 서버에 대 한 SQL Server 데이터베이스 제거
+                    - name: 모니터링 서버용 SQL Server 데이터베이스 제거
                       href: ../remove-the-sql-server-database-for-a-monitoring-server.md
-                    - name: 보관 서버에 대 한 SQL Server 데이터베이스 제거
+                    - name: 보관 서버용 SQL Server 데이터베이스 제거
                       href: ../remove-the-sql-server-database-for-an-archiving-server.md
         - name: Office Communications Server 2007 R2에서 Lync Server 2013으로 마이그레이션
           href: ../migration-from-office-communications-server-2007-r2-to-lync-server-2013.md
           items:
-            - name: 마이그레이션을 시작 하기 전에
-              href: ../before-you-begin-the-migration_1.md
+            - name: 마이그레이션을 시작하기 전에
+              href: ../before-you-begin-the-migration.md
               items:
                 - name: 마이그레이션 프로세스
-                  href: ../migration-process_1.md
+                  href: ../migration-process.md
                 - name: 마이그레이션 단계
-                  href: ../migration-phases_1.md
+                  href: ../migration-phases.md
             - name: '1 단계: Office Communications Server 2007 r 2에서 마이그레이션 계획'
               href: ../phase-1-plan-your-migration-from-office-communications-server-2007-r2.md
               items:
                 - name: 사용자 마이그레이션
-                  href: ../user-migration_1.md
+                  href: ../user-migration.md
                 - name: 보관 및 모니터링 서버 마이그레이션
-                  href: ../migrating-archiving-and-monitoring-servers_1.md
+                  href: ../migrating-archiving-and-monitoring-servers.md
                 - name: 마이그레이션 후 서버 관리
-                  href: ../administering-servers-after-migration_1.md
+                  href: ../administering-servers-after-migration.md
                 - name: 여러 사이트 및 풀 마이그레이션
-                  href: ../migrating-multiple-sites-and-pools_1.md
+                  href: ../migrating-multiple-sites-and-pools.md
                 - name: XMPP 페더레이션 마이그레이션
-                  href: ../migrating-xmpp-federation_1.md
-            - name: '2 단계: 마이그레이션 준비'
-              href: ../phase-2-prepare-for-migration_1.md
+                  href: ../migrating-xmpp-federation.md
+            - name: '2단계: 마이그레이션 준비'
+              href: ../phase-2-prepare-for-migration.md
               items:
                 - name: Office Communications Server 2007 R2 업데이트 적용
                   href: ../apply-office-communications-server-2007-r2-updates.md
-                - name: 파일럿 풀 배포를 위한 DNS 레코드 구성
-                  href: ../configure-dns-records-for-pilot-pool-deployment_1.md
+                - name: 파일럿 풀 배포에 대한 DNS 레코드 구성
+                  href: ../configure-dns-records-for-pilot-pool-deployment.md
                 - name: 모범 사례 분석기 실행
-                  href: ../run-best-practices-analyzer_1.md
+                  href: ../run-best-practices-analyzer.md
                 - name: 시스템 및 데이터 백업
-                  href: ../back-up-systems-and-data_1.md
+                  href: ../back-up-systems-and-data.md
                 - name: 마이그레이션을 위한 클라이언트 구성
-                  href: ../configure-clients-for-migration_1.md
+                  href: ../configure-clients-for-migration.md
                 - name: Office Communications Server 2007 R2 환경 확인
                   href: ../verify-office-communications-server-2007-r2-environment.md
             - name: '3 단계: Lync Server 2013 파일럿 풀 배포'
-              href: ../phase-3-deploy-lync-server-2013-pilot-pool_1.md
+              href: ../phase-3-deploy-lync-server-2013-pilot-pool.md
               items:
                 - name: Lync Server 2013에 대 한 Active Directory 준비
                   href: ../prepare-active-directory-for-lync-server-2013.md
                 - name: Lync Server 관리 도구 설치
                   href: ../install-lync-server-administration-tools.md
                 - name: Lync Server 2013 파일럿 풀 배포
-                  href: ../deploy-lync-server-2013-pilot-pool_1.md
-                - name: 레거시 풀과 파일럿 풀 공존 성 확인
-                  href: ../verify-pilot-pool-coexistence-with-legacy-pool_1.md
+                  href: ../deploy-lync-server-2013-pilot-pool.md
+                - name: 레거시 풀로 파일럿 풀 동시 사용 확인
+                  href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
             - name: '4 단계: 토폴로지 병합'
               href: ../phase-4-merge-topologies.md
               items:
@@ -2947,57 +2947,57 @@
             - name: '단계 5: 파일럿 풀 구성'
               href: ../phase-5-configure-the-pilot-pool.md
               items:
-                - name: 파일럿 풀을 레거시에 지 서버에 연결
-                  href: ../connect-pilot-pool-to-legacy-edge-servers_1.md
+                - name: 레거시 에지 서버에 파일럿 풀 연결
+                  href: ../connect-pilot-pool-to-legacy-edge-servers.md
                 - name: Office Communications Server 2007 R2에 지 서버에 대 한 연결 권한 부여
                   href: ../authorize-connection-to-office-communications-server-2007-r2-edge-server.md
                 - name: 구성 설정 확인
-                  href: ../verify-configuration-settings_1.md
+                  href: ../verify-configuration-settings.md
                 - name: XMPP 게이트웨이 액세스 정책 및 인증서 구성
-                  href: ../configure-xmpp-gateway-access-policies-and-certificates_1.md
+                  href: ../configure-xmpp-gateway-access-policies-and-certificates.md
             - name: '단계 6: 사용자를 파일럿 풀로 이동'
               href: ../phase-6-move-users-to-the-pilot-pool.md
               items:
-                - name: 사용자 복제가 완료 되었는지 확인
-                  href: ../verify-user-replication-has-completed_1.md
+                - name: 사용자 복제가 완료되었는지 확인
+                  href: ../verify-user-replication-has-completed.md
                 - name: 파일럿 풀로 단일 사용자 이동
-                  href: ../move-a-single-user-to-the-pilot-pool_1.md
+                  href: ../move-a-single-user-to-the-pilot-pool.md
                 - name: 여러 사용자를 파일럿 풀로 이동
-                  href: ../move-multiple-users-to-the-pilot-pool_1.md
+                  href: ../move-multiple-users-to-the-pilot-pool.md
             - name: '단계 7: 파일럿 풀에 Lync Server 2013에 지 서버 추가'
               href: ../phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md
               items:
-                - name: 파일럿에 지 서버 배포
-                  href: ../deploy-pilot-edge-server_1.md
+                - name: 파일럿 Edge 서버 배포
+                  href: ../deploy-pilot-edge-server.md
                 - name: 구성 설정 복제 유효성 검사
                   href: ../validate-replication-of-configuration-settings.md
             - name: '8 단계: 파일럿 배포에서 프로덕션으로 이동'
               href: ../phase-8-move-from-pilot-deployment-into-production.md
               items:
                 - name: 페더레이션 경로 및 미디어 트래픽 구성
-                  href: ../configure-federation-routes-and-media-traffic_1.md
+                  href: ../configure-federation-routes-and-media-traffic.md
                 - name: Lync Server 2013로 나머지 사용자 이동
-                  href: ../move-remaining-users-to-lync-server-2013_1.md
+                  href: ../move-remaining-users-to-lync-server-2013.md
                 - name: Lync Server 2013에서 XMPP 게이트웨이 구성
-                  href: ../configure-xmpp-gateway-on-lync-server-2013_1.md
+                  href: ../configure-xmpp-gateway-on-lync-server-2013.md
             - name: '단계 9: 마이그레이션 후 작업 완료'
               href: ../phase-9-complete-post-migration-tasks.md
               items:
                 - name: 응답 그룹 마이그레이션
-                  href: ../migrate-response-groups_1.md
+                  href: ../migrate-response-groups.md
                 - name: 전화 접속 액세스 번호 마이그레이션
-                  href: ../migrate-dial-in-access-numbers_1.md
+                  href: ../migrate-dial-in-access-numbers.md
                 - name: Exchange 2013 Outlook Web App 및 IM 통합 사용
                   href: ../enable-exchange-2013-outlook-web-app-and-im-integration.md
                 - name: 주소록 마이그레이션
-                  href: ../migrate-address-book_1.md
+                  href: ../migrate-address-book.md
                 - name: 원격 통화 제어 사용
                   href: ../enable-remote-call-control.md
                   items:
                     - name: 권한이 부여 된 호스트 항목 제거
                       href: ../remove-an-authorized-host-entry.md
                 - name: 레거시 보관 및 모니터링 서버 제거
-                  href: ../remove-legacy-archiving-and-monitoring-servers_1.md
+                  href: ../remove-legacy-archiving-and-monitoring-servers.md
                 - name: 중재 서버 마이그레이션
                   href: ../migrate-mediation-server.md
                   items:
@@ -3008,11 +3008,11 @@
                     - name: 배치 된 중재 서버를 독립 실행형 중재 서버로 전환 (선택 사항)
                       href: ../transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md
                 - name: 트러스트된 응용 프로그램 서버 구성
-                  href: ../configure-trusted-application-servers_1.md
+                  href: ../configure-trusted-application-servers.md
                 - name: 모임 참가 페이지 구성
-                  href: ../configure-the-meeting-join-page_1.md
+                  href: ../configure-the-meeting-join-page.md
                 - name: Lync Server 2013 클라이언트 배포
-                  href: ../deploy-lync-server-2013-clients_1.md
+                  href: ../deploy-lync-server-2013-clients.md
                 - name: Exchange 통합 메시징 대화 상대 개체 이동
                   href: ../move-exchange-unified-messaging-contact-objects.md
                 - name: 레거시 풀에서 모든 Exchange UM 대화 상대 개체가 제거 되었는지 확인
@@ -3023,7 +3023,7 @@
                 - name: 회의 디렉터리 이동
                   href: ../move-conference-directories.md
                 - name: DNS SRV 레코드 업데이트
-                  href: ../update-dns-srv-records_1.md
+                  href: ../update-dns-srv-records.md
                 - name: 서버 및 풀 해제
                   href: ../decommissioning-servers-and-pools.md
                 - name: BackCompatSite 제거
@@ -3319,25 +3319,25 @@
                       href: ../lync-server-2013-configure-telephony-for-a-user.md
                     - name: 사용자를 다른 풀로 이동
                       href: ../lync-server-2013-move-users-to-another-pool.md
-                - name: 조직에 대 한 외부 액세스 정책 관리
+                - name: 조직에 대한 외부 액세스 정책 관리
                   href: ../lync-server-2013-manage-external-access-policy-for-your-organization.md
                   items:
-                    - name: 페더레이션 사용자 액세스를 제어 하도록 정책 구성
+                    - name: 페더레이션 사용자 액세스를 컨트롤하는 정책 구성
                       href: ../lync-server-2013-configure-policies-to-control-federated-user-access.md
                     - name: XMPP 페더레이션 사용자 액세스를 제어 하도록 정책 구성
                       href: ../lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md
-                    - name: 원격 사용자 액세스를 제어 하도록 정책 구성
+                    - name: 원격 사용자 액세스를 컨트롤하는 정책 구성
                       href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                    - name: 공용 사용자 액세스를 제어 하도록 정책 구성
+                    - name: 공용 사용자 액세스를 컨트롤하는하는 정책 구성
                       href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                     - name: Lync 사용이 가능한 사용자에 게 외부 사용자 액세스 정책 할당
                       href: ../lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md
                     - name: 외부 사용자 액세스 정책 다시 설정 또는 삭제
                       href: ../lync-server-2013-resetting-or-deleting-external-user-access-policies.md
                       items:
-                        - name: 외부 사용자 액세스에 대 한 사이트 또는 사용자 정책 삭제
+                        - name: 외부 사용자 액세스를 위한 사이트 또는 사용자 정책 삭제
                           href: ../lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md
-                        - name: 외부 사용자 액세스에 대 한 전역 정책 다시 설정
+                        - name: 외부 사용자 액세스에 대한 전역 정책 다시 설정
                           href: ../lync-server-2013-reset-the-global-policy-for-external-user-access.md
                 - name: 사용자별 정책 할당
                   href: ../lync-server-2013-assigning-per-user-policies.md
@@ -3373,7 +3373,7 @@
               href: ../lync-server-2013-view-details-about-a-service.md
             - name: Lync Server 2013 서비스 시작 또는 중지
               href: ../lync-server-2013-start-or-stop-lync-server-services.md
-            - name: 서비스에 대 한 세션 방지
+            - name: 서비스에 대한 세션 방지
               href: ../lync-server-2013-prevent-sessions-for-services.md
             - name: 프런트 엔드 서버 업그레이드 또는 업데이트
               href: ../lync-server-2013-upgrade-or-update-front-end-servers.md
@@ -3537,7 +3537,7 @@
                       href: ../lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md
                     - name: 음성 메일 이스케이프 구성
                       href: ../lync-server-2013-configuring-voice-mail-escape.md
-                - name: PSTN 사용 레코드 보기
+                - name: PSTN 사용 기록 보기
                   href: ../lync-server-2013-view-pstn-usage-records.md
                 - name: 아웃 바운드 통화에 대 한 음성 경로 구성
                   href: ../lync-server-2013-configuring-voice-routes-for-outbound-calls.md
@@ -3589,13 +3589,13 @@
                 - name: 파킹 통화에 대 한 전화 번호 확장명 구성
                   href: ../lync-server-2013-configure-phone-number-extensions-for-parking-calls.md
                   items:
-                    - name: 통화 대기 번호 범위 만들기 또는 수정
+                    - name: 통화 파킹 궤도 범위 만들기 또는 수정
                       href: ../lync-server-2013-create-or-modify-a-call-park-orbit-range.md
                     - name: 통화 대기 번호 범위 삭제
                       href: ../lync-server-2013-delete-a-call-park-orbit-range.md
-                - name: 통화 대기 설정 구성
+                - name: 통화 파킹 설정 구성
                   href: ../lync-server-2013-configure-call-park-settings.md
-                - name: 통화 대기 음악 사용자 지정
+                - name: 통화 파킹 대기 음악 사용자 지정
                   href: ../lync-server-2013-customize-call-park-music-on-hold.md
                 - name: 재해 복구 중 통화 대기 관리
                   href: ../lync-server-2013-manage-call-park-during-disaster-recovery.md
@@ -3647,9 +3647,9 @@
                   items:
                     - name: 대화형 음성 응답 통화 흐름 디자인
                       href: ../lync-server-2013-design-interactive-voice-response-call-flows.md
-                    - name: 반드시 응답 그룹 업무 시간 정의
+                    - name: (옵션)응답 그룹 비즈니스 시간 정의
                       href: ../lync-server-2013-optional-define-response-group-business-hours.md
-                    - name: 반드시 응답 그룹의 휴일 집합 정의
+                    - name: (옵션)응답 그룹의 휴일 집합 정의
                       href: ../lync-server-2013-optional-define-response-group-holiday-sets.md
                     - name: 워크플로 만들기 또는 수정
                       href: ../lync-server-2013-create-or-modify-a-workflow.md
@@ -3679,14 +3679,14 @@
                 - name: 알림 구성
                   href: ../lync-server-2013-configure-announcements.md
                   items:
-                    - name: 알림 만들기
+                    - name: 공지 사항 만들기
                       href: ../lync-server-2013-create-an-announcement.md
                     - name: 알림 삭제
                       href: ../lync-server-2013-delete-an-announcement.md
                 - name: 지정 되지 않은 전화 번호 구성
                   href: ../lync-server-2013-configure-unassigned-phone-numbers.md
                   items:
-                    - name: 할당 되지 않은 번호 범위 만들기 또는 수정
+                    - name: 미지정 번호 범위 만들기 또는 수정
                       href: ../lync-server-2013-create-or-modify-an-unassigned-number-range.md
                     - name: 지정 되지 않은 번호 범위 삭제
                       href: ../lync-server-2013-delete-an-unassigned-number-range.md
@@ -3881,49 +3881,49 @@
         - name: Lync Server 2013에 대 한 페더레이션 및 외부 액세스 관리
           href: ../lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md
           items:
-            - name: 조직에 대 한 외부 액세스 정책 관리
+            - name: 조직에 대한 외부 액세스 정책 관리
               href: ../lync-server-2013-manage-external-access-policy-for-your-organization.md
               items:
-                - name: 페더레이션 사용자 액세스를 제어 하도록 정책 구성
+                - name: 페더레이션 사용자 액세스를 컨트롤하는 정책 구성
                   href: ../lync-server-2013-configure-policies-to-control-federated-user-access.md
                 - name: XMPP 페더레이션 사용자 액세스를 제어 하도록 정책 구성
                   href: ../lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md
-                - name: 원격 사용자 액세스를 제어 하도록 정책 구성
+                - name: 원격 사용자 액세스를 컨트롤하는 정책 구성
                   href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                - name: 공용 사용자 액세스를 제어 하도록 정책 구성
+                - name: 공용 사용자 액세스를 컨트롤하는하는 정책 구성
                   href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                 - name: Lync 사용이 가능한 사용자에 게 외부 사용자 액세스 정책 할당
                   href: ../lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md
                 - name: 외부 사용자 액세스 정책 다시 설정 또는 삭제
                   href: ../lync-server-2013-resetting-or-deleting-external-user-access-policies.md
                   items:
-                    - name: 외부 사용자 액세스에 대 한 사이트 또는 사용자 정책 삭제
+                    - name: 외부 사용자 액세스를 위한 사이트 또는 사용자 정책 삭제
                       href: ../lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md
-                    - name: 외부 사용자 액세스에 대 한 전역 정책 다시 설정
+                    - name: 외부 사용자 액세스에 대한 전역 정책 다시 설정
                       href: ../lync-server-2013-reset-the-global-policy-for-external-user-access.md
-            - name: 조직에 대 한 액세스에 지 구성 관리
+            - name: 조직에 대한 액세스 Edge 구성 관리
               href: ../lync-server-2013-manage-access-edge-configuration-for-your-organization.md
               items:
-                - name: 페더레이션 및 공용 IM 연결 사용 또는 사용 안 함
+                - name: 페더레이션 및 공개 IM 연결을 사용하도록 설정 또는 해제
                   href: ../lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md
-                - name: 페더레이션 파트너 검색을 사용 하거나 사용 하지 않도록 설정
+                - name: 페더레이션 파트너 검색을 사용하도록 설정 또는 해제
                   href: ../lync-server-2013-enable-or-disable-discovery-of-federation-partners.md
-                - name: 페더레이션 파트너에 게 보관 고 지 사항 전송 사용 또는 사용 안 함
+                - name: 페더레이션 파트너로 보관 고지 사항 보내기를 사용하도록 설정 또는 해제
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
-                - name: 원격 사용자 액세스 사용 또는 사용 안 함
+                - name: 원격 사용자 액세스를 사용하도록 설정 또는 해제
                   href: ../lync-server-2013-enable-or-disable-remote-user-access.md
-                - name: 익명 사용자 액세스 사용 또는 사용 안 함
+                - name: 익명의 사용자 액세스를 사용하도록 설정 또는 해제
                   href: ../lync-server-2013-enable-or-disable-anonymous-user-access.md
                 - name: 익명 사용자를 지원 하기 위한 회의 정책 할당
                   href: ../lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md
-            - name: 조직에 대 한 SIP 페더레이션 도메인 관리
+            - name: 조직의 SIP 페더레이션 도메인 관리
               href: ../lync-server-2013-manage-sip-federated-domains-for-your-organization.md
               items:
                 - name: 허용 되는 외부 도메인에 대 한 지원 구성
                   href: ../lync-server-2013-configure-support-for-allowed-external-domains.md
                 - name: 차단 된 외부 도메인에 대 한 지원 구성
                   href: ../lync-server-2013-configure-support-for-blocked-external-domains.md
-            - name: 조직에 대 한 SIP 페더레이션 공급자 관리
+            - name: 조직의 SIP 페더레이션 제공자 관리
               href: ../lync-server-2013-manage-sip-federated-providers-for-your-organization.md
               items:
                 - name: 공용 SIP 페더레이션 공급자 만들기 또는 편집
@@ -3979,7 +3979,7 @@
                   href: ../lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md
                 - name: 보관이 실패 하는 경우 IM 및 웹 회의 세션을 차단 또는 허용 하도록 중요 모드 사용 또는 사용 안 함
                   href: ../lync-server-2013-enable-disable-critical-mode.md
-                - name: 페더레이션 파트너에 게 보관 고 지 사항 전송 사용 또는 사용 안 함
+                - name: 페더레이션 파트너로 보관 고지 사항 보내기를 사용하도록 설정 또는 해제
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
                 - name: Exchange 저장소와의 통합 사용 또는 사용 안 함
                   href: ../lync-server-2013-enabling-or-disabling-integration-with-exchange-storage.md
@@ -3995,7 +3995,7 @@
             - name: 운영 프로세스에 대 한 인증서 관리
               href: ../lync-server-2013-managing-certificates-for-operational-processes.md
               items:
-                - name: 설정-Set-cscertificate을 사용 하 여 준비 AV 및 OAuth 인증서
+                - name: Set-CsCertificate 사용 하 여 준비 된 AV 및 OAuth 인증서
                   href: 'https://technet.microsoft.com/library/Gg398518(v=OCS.15)'
             - name: 서버 간 인증 (OAuth) 및 파트너 응용 프로그램 관리
               href: ../lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
@@ -4044,7 +4044,7 @@
                       href: ../lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md
                     - name: 사용자 PIN 정보 보기
                       href: ../lync-server-2013-view-user-pin-information.md
-                    - name: 사용자 PIN 잠금 또는 잠금 해제
+                    - name: 사용자 PIN을 잠금 또는 잠금 해제
                       href: ../lync-server-2013-lock-or-unlock-a-user-pin.md
         - name: Lync Server 2013 네트워크 인프라 관리
           href: ../lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md
@@ -4186,33 +4186,33 @@
                 - name: 주소록 관리용 Windows PowerShell cmdlet
                   href: ../lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
                   items:
-                    - name: 주소록 관리를 위한 신규-CsAddressBookConfiguration
+                    - name: 주소록 관리 New-CsAddressBookConfiguration
                       href: ../lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md
-                    - name: Set-주소록 관리를 위한 CsAddressBookConfiguration
+                    - name: 주소록 관리 Set-CsAddressBookConfiguration
                       href: ../lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
-                    - name: 주소록 관리를 위한 Get-CsAddressBookConfiguration
+                    - name: 주소록 관리 Get-CsAddressBookConfiguration
                       href: ../lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md
-                    - name: 주소록 관리를 위한 CsAddressBookConfiguration 제거
+                    - name: 주소록 관리 Remove-CsAddressBookConfiguration
                       href: ../lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md
-                    - name: 주소록 관리를 위한 테스트-CsAddressBookService
+                    - name: 주소록 관리 Test-CsAddressBookService
                       href: ../lync-server-2013-test-csaddressbookservice-for-address-book-management.md
-                    - name: 주소록 관리를 위한 테스트-CsAddressBookWebQuery
+                    - name: 주소록 관리 Test-CsAddressBookWebQuery
                       href: ../lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md
-                    - name: 업데이트-Update-csaddressbook 주소록 관리
+                    - name: 주소록 관리 Update-CsAddressBook
                       href: ../lync-server-2013-update-csaddressbook-for-address-book-management.md
-                    - name: 새-주소록 관리에 대 한 CsClientPolicy
+                    - name: 주소록 관리 New-CsClientPolicy
                       href: ../lync-server-2013-new-csclientpolicy-for-address-book-management.md
-                    - name: Set-주소록 관리에 대 한 CsClientPolicy
+                    - name: 주소록 관리 Set-CsClientPolicy
                       href: ../lync-server-2013-set-csclientpolicy-for-address-book-management.md
-                    - name: 주소록 관리를 위한 Get-CsService
+                    - name: 주소록 관리 Get-CsService
                       href: ../lync-server-2013-get-csservice-for-address-book-management.md
-                    - name: Set-cswebserviceconfiguration 주소록 관리의 새로운 기능
+                    - name: 주소록 관리 New-CsWebServiceConfiguration
                       href: ../lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md
-                    - name: 주소록 관리를 위한 Set-cswebserviceconfiguration
+                    - name: 주소록 관리 Get-CsWebServiceConfiguration
                       href: ../lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
-                    - name: Set-cswebserviceconfiguration 주소록 관리에 대 한 설정
+                    - name: 주소록 관리 Set-CsWebServiceConfiguration
                       href: ../lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md
-                    - name: Remove-Set-cswebserviceconfiguration for 주소록 관리
+                    - name: 주소록 관리 Remove-CsWebServiceConfiguration
                       href: ../lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md
             - name: 웹 서비스 URL 변경
               href: ../lync-server-2013-change-the-web-services-url.md
@@ -4342,7 +4342,7 @@
                   href: ../lync-server-2013-specifying-retention-of-cdr-data.md
                 - name: CDR 구성 설정 모음 만들기 또는 수정
                   href: ../lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md
-                - name: 기존 CDR 구성 설정 모음 삭제
+                - name: CDR 구성 설정의 기존 모음 삭제
                   href: ../lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md
                 - name: 통화 정보 기록 및 체감 품질 데이터베이스 수동 제거
                   href: ../lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md
@@ -4372,14 +4372,14 @@
                   href: ../lync-server-2013-configuring-mobility-service-for-high-performance.md
                 - name: 모바일 기능 성능 카운터
                   href: ../lync-server-2013-mobility-performance-counters.md
-                - name: C (WA) 이벤트
+                - name: UCWA 이벤트
                   href: ../lync-server-2013-ucwa-events.md
             - name: 모니터링 보고서 사용
               href: ../lync-server-2013-using-monitoring-reports.md
               items:
                 - name: 모니터링 대시보드 사용
                   href: ../lync-server-2013-using-the-monitoring-dashboard.md
-                - name: 시스템 사용 보고서
+                - name: 시스템 사용 현황 보고서
                   href: ../lync-server-2013-system-usage-reports.md
                   items:
                     - name: 사용자 등록 보고서
@@ -4409,7 +4409,7 @@
                           href: ../lync-server-2013-response-group-call-list-report.md
                     - name: IP 전화 인벤토리 보고서
                       href: ../lync-server-2013-ip-phone-inventory-report.md
-                    - name: 통화 허용 제어 보고서
+                    - name: 통화 허용 컨트롤 보고서
                       href: ../lync-server-2013-call-admission-control-report.md
                       items:
                         - name: 피어 투 피어 세션 세부 정보 보고서
@@ -4431,7 +4431,7 @@
                           href: ../lync-server-2013-p2p-summary-subreport.md
                     - name: 피어-투-피어 활동 진단 보고서
                       href: ../lync-server-2013-peer-to-peer-activity-diagnostic-report.md
-                    - name: 전화 회의 진단 보고서
+                    - name: 회의 진단 보고서
                       href: ../lync-server-2013-conference-diagnostic-report.md
                     - name: Top Failures 보고서
                       href: ../lync-server-2013-top-failures-report.md
@@ -4505,7 +4505,7 @@
     - name: 스키마 참조
       href: ../lync-server-2013-schema-reference.md
       items:
-        - name: CDR (통화 정보 기록) 데이터베이스 스키마
+        - name: 통화 세부 정보 기록(CDR) 데이터베이스 스키마
           href: ../lync-server-2013-call-detail-recording-cdr-database-schema.md
           items:
             - name: CDR 테이블 목록
@@ -4646,7 +4646,7 @@
                   href: ../lync-server-2013-user-view.md
                 - name: VoIPDetails 보기
                   href: ../lync-server-2013-voipdetails-view.md
-        - name: QoE (환경 품질) 데이터베이스 스키마
+        - name: 체감 품질(QoE) 데이터베이스 스키마
           href: ../lync-server-2013-quality-of-experience-qoe-database-schema.md
           items:
             - name: QoE 테이블 목록
@@ -4739,16 +4739,16 @@
                   href: ../lync-server-2013-useragent-view.md
                 - name: VideoStreamDetail 보기
                   href: ../lync-server-2013-videostreamdetail-view.md
-            - name: 예제 QoE 데이터베이스 쿼리
+            - name: 샘플 QoE 데이터베이스 쿼리
               href: ../lync-server-2013-sample-qoe-database-queries.md
-        - name: 영구 채팅 데이터베이스 스키마
+        - name: 영구적 채팅 데이터베이스 스키마
           href: ../lync-server-2013-persistent-chat-database-schema.md
           items:
-            - name: 영구 채팅 서버 테이블 목록
+            - name: 영구적 채팅 서버 테이블 목록
               href: ../lync-server-2013-list-of-persistent-chat-server-tables.md
-            - name: 영구 채팅 서버 준수 테이블 목록
+            - name: 영구적 채팅 서버 준수 테이블 목록
               href: ../lync-server-2013-list-of-persistent-chat-server-compliance-tables.md
-            - name: 영구 채팅 서버 테이블 세부 정보
+            - name: 영구적 채팅 서버 테이블 세부 정보
               href: ../lync-server-2013-persistent-chat-server-table-details.md
               items:
                 - name: tblADCookie
@@ -4791,11 +4791,11 @@
                   href: ../lync-server-2013-tbllastinviteid.md
                 - name: tblLastChatId
                   href: ../lync-server-2013-tbllastchatid.md
-                - name: tblPreference 설정
+                - name: tblPreference
                   href: ../lync-server-2013-tblpreference.md
                 - name: tblFileToken
                   href: ../lync-server-2013-tblfiletoken.md
-                - name: Tblserveridentity.serverid
+                - name: tblServerIdentity
                   href: ../lync-server-2013-tblserveridentity.md
                 - name: tblAdminLock
                   href: ../lync-server-2013-tbladminlock.md
@@ -4813,7 +4813,7 @@
                   href: ../lync-server-2013-tblcomplianceparticipant.md
                 - name: tblComplianceState
                   href: ../lync-server-2013-tblcompliancestate.md
-            - name: 샘플 영구 채팅 데이터베이스 쿼리
+            - name: 샘플 영구적 채팅 데이터베이스 쿼리
               href: ../lync-server-2013-sample-persistent-chat-database-queries.md
         - name: 'Lync Server 2013에서 사용 하는 Active Directory 스키마 확장, 클래스 및 특성'
           href: ../lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md
@@ -4822,17 +4822,17 @@
               href: ../lync-server-2013-schema-changes-in-lync-server-2013.md
             - name: 스키마 클래스 및 설명
               href: ../lync-server-2013-schema-classes-and-descriptions.md
-            - name: 클래스별 스키마 특성
+            - name: 클래스 별 스키마 특성
               href: ../lync-server-2013-schema-attributes-by-class.md
-            - name: 스키마 특성 및 설명
+            - name: 스키마 속성 및 설명
               href: ../lync-server-2013-schema-attributes-and-descriptions.md
-            - name: 포리스트 준비로 인 한 변경
+            - name: 포리스트 준비로 변경한 내용
               href: ../lync-server-2013-changes-made-by-forest-preparation.md
-            - name: 도메인 준비로 인 한 변경
+            - name: 도메인 준비로 변경한 내용
               href: ../lync-server-2013-changes-made-by-domain-preparation.md
-            - name: 부여-CsSetupPermission에서 변경한 내용
+            - name: Grant-CsSetupPermission에서 변경한 내용
               href: 'https://technet.microsoft.com/library/Gg398569(v=OCS.15)'
-            - name: CsOUPermission에서 변경한 내용
+            - name: Grant-CsOUPermission에서 변경한 내용
               href: 'https://technet.microsoft.com/library/Gg425739(v=OCS.15)'
     - name: Communications Server 관리 셸
       href: ../lync-server-2013-lync-server-management-shell.md

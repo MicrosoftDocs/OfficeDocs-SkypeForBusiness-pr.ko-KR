@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 설치 권한 위임'
+description: 'Lync Server 2013: 설치 권한을 위임 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 453da166895c79cafe9f9637163e93a63ebccd75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a7038cf729bad459dbcd2a84a308b14aa56b68dd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504285"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545344"
 ---
 # <a name="delegate-setup-permissions-in-lync-server-2013"></a>Lync Server 2013에서 설치 권한 위임
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013:2 단계 인증 구성
+description: Lync Server 2013:2 단계 인증을 구성 하는 중입니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed219dcc90ffb6527a25a39af9fcb8c4ba172d75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c473ff7fec37840a76f3156b0e38c61bfa9f7ab6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517325"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544134"
 ---
 # <a name="configuring-two-factor-authentication-in-lync-server-2013"></a>Lync Server 2013에서 2 단계 인증 구성
 

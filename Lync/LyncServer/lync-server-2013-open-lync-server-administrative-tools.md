@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server 관리 도구 열기'
+description: 'Lync Server 2013: Lync Server 관리 도구를 엽니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c3b8ae0dd21221700101d1c94e1a72a4e987de5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 01cf0dc0c17686e2b1c7bee17bdc383ab6247909
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531765"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544764"
 ---
 # <a name="open-lync-server-2013-administrative-tools"></a>Lync Server 2013 관리 도구 열기
 

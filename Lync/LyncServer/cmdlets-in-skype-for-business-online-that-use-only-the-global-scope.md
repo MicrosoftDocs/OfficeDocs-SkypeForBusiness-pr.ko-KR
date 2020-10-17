@@ -1,5 +1,6 @@
 ---
 title: 전역 범위만 사용 하는 비즈니스용 Skype Online의 cmdlet
+description: 전역 범위만 사용 하는 비즈니스용 Skype Online의 cmdlet입니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b97f3c8d9ca7dda0b96db211192350184cbf27b1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a2f59806128ceea825a4cdd966e85852b98079b0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755100"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545604"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>전역 범위만 사용 하는 비즈니스용 Skype Online의 cmdlet
 
@@ -86,7 +87,7 @@ Identity 매개 변수를 포함 하지 않으면 기본적으로 Windows PowerS
 <td><p>기본값</p></td>
 </tr>
 <tr class="even">
-<td><p>참</p></td>
+<td><p>True</p></td>
 <td><p>글로벌 정책이 수정 된 후</p></td>
 </tr>
 <tr class="odd">

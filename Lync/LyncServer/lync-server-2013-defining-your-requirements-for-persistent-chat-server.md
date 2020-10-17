@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 영구 채팅 서버에 대 한 요구 사항 정의'
+description: 'Lync Server 2013: 영구 채팅 서버에 대 한 요구 사항 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e63e7af0dca758f6ac543bb0373d2cbb0d953ba0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6af3fab1d91b78a5993f723b8fc6b375e4ab7cee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504305"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545354"
 ---
 # <a name="defining-your-organizations-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 조직의 요구 사항 정의
 

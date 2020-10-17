@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: MSPL (Microsoft SIP Processing Language) 서버 응용 프로그램을 사용 하거나 사용 하지 않도록 설정'
+description: 'Lync Server 2013: Microsoft MSPL (SIP Processing Language) 서버 응용 프로그램을 사용 하거나 사용 하지 않도록 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185145
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98dce0363a031a2d56c7d8a7cc479452f4fb0382
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8f919599d6c6a39fea73424f4e287f00636c0982
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528635"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544784"
 ---
 # <a name="enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application-in-lync-server-2013"></a>Lync Server 2013에서 MSPL (Microsoft SIP Processing Language) 서버 응용 프로그램을 사용 하거나 사용 하지 않도록 설정
 

@@ -1,5 +1,6 @@
 ---
 title: 전역 범위 및 태그 범위를 사용 하는 비즈니스용 Skype Online의 cmdlet
+description: 전역 범위와 태그 범위를 사용 하는 비즈니스용 Skype Online의 cmdlet입니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8063334f2cea6fcca768754197bacbd30869461
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ba89ebe7322159027c5de765117afd366cb3dc23
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755078"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545624"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>전역 범위 및 태그 범위를 사용 하는 비즈니스용 Skype Online의 cmdlet
 
@@ -39,7 +40,7 @@ Id가 "RedmondAccessPolicy" 인 사용자별 정책을 반환 하려면 다음 �
 
 
 > [!NOTE]  
-> 사용자별 정책을 참조 하는 경우 태그 <STRONG>접두사</STRONG> 는 선택 사항입니다. 접두사를 포함 하는이 구문도 사용할 수 있습니다.<BR>Get-csexternalaccesspolicy – Identity "tag: RedmondAccessPolicy"
+> 사용자별 정책을 참조 하는 경우 태그 <STRONG>접두사</STRONG> 는 선택 사항입니다. 접두사를 포함 하는이 구문도 사용할 수 있습니다.<BR>Get-CsExternalAccessPolicy-Identity "tag: RedmondAccessPolicy"
 
 
 

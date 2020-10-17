@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 모니터링에 대 한 요구 사항 정의'
+description: 'Lync Server 2013: 모니터링에 대 한 요구 사항 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f116fec331c252934c42e624c36813218d8f9ca
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: df121fd0cb5e7c0d39676f83ba2ea628d2e5587e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504325"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545384"
 ---
 # <a name="defining-your-requirements-for-monitoring-in-lync-server-2013"></a>Lync Server 2013에서 모니터링에 대 한 요구 사항 정의
 
