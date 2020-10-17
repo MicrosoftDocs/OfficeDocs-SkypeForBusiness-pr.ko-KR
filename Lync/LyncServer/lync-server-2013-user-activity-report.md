@@ -12,20 +12,22 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50ac61976923bac8bff0162a61e5496df6181127
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36001aaf38dc39d0bb4eb7524e41c616b0a1c160
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192991"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530235"
 ---
+# <a name="user-activity-report-in-lync-server-2013"></a>Lync Server 2013의 사용자 활동 보고서
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-activity-report-in-lync-server-2013"></a>Lync Server 2013의 사용자 활동 보고서
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**마지막으로 수정 된 항목:** 2015-02-27_
 
   - **Ken**nedy@litwareinc.com
 
-Ken Myer에 대 한 정보만 반환 되도록 하려면 검색 상자에 전체 URI (Ken.Myer@litwareinc.com)를 입력 하 고, 조직의 다른 사용자 로부터 고유 하 게 구별할 수 있도록 Ken의 URI 형식을 충분히 입력 합니다. 예:
+Ken Myer에 대 한 정보만 반환 되도록 하려면 검색 상자에 전체 URI (Ken.Myer@litwareinc.com)를 입력 하 고, 조직의 다른 사용자 로부터 고유 하 게 구별할 수 있도록 Ken의 URI 형식을 충분히 입력 합니다. 예제:
 
 Ken.my
 
@@ -148,7 +150,7 @@ Ken.my
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>From</strong></p></td>
+<td><p><strong>시작</strong></p></td>
 <td><p>시간 범위의 시작 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜 및 시간을 입력합니다.</p>
 <p>2012/7/17 오후 1:00</p>
 <p>시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</p>
@@ -173,7 +175,7 @@ Ken.my
 <ul>
 <li><p>모든</p></li>
 <li><p>피어-투-피어</p></li>
-<li><p>전화</p></li>
+<li><p>회의</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -190,7 +192,7 @@ Ken.my
 <li><p>예상 오류</p></li>
 <li><p>예기치 않은 오류</p></li>
 </ul>
-<p>&quot;예상 되는&quot; 실패는 예상 되는 오류 이며, 그렇지 않으면 오류가 발생 합니다. 예를 들어 사용자가 자신의 상태를 방해 금지로 설정 하면 해당 사용자에 게 전화를 걸 수 있습니다. &quot;예기치 않은 오류가&quot; 발생 하는 것은 정상적인 시스템이 아닌 것 처럼 보이는 오류입니다. 예를 들어 발신자가 보류 상태일 때는 통화가 종료되지 않아야 합니다. 하지만 통화가 종료되면 바로 예기치 않은 오류로 플래그 지정됩니다.</p></td>
+<p>예상 되는 &quot; 오류는 발생할 것으로 예상 되는 오류입니다 &quot; . 예를 들어 사용자가 자신의 상태를 방해 금지로 설정 하면 해당 사용자에 게 전화를 걸 수 있습니다. 예기치 않은 오류가 발생 하는 것 &quot; &quot; 은 정상적인 시스템이 아닌 것 처럼 보이는 오류입니다. 예를 들어 발신자가 보류 상태일 때는 통화가 종료되지 않아야 합니다. 하지만 통화가 종료되면 바로 예기치 않은 오류로 플래그 지정됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>사용자 URI 접두사</strong></p></td>
@@ -226,7 +228,7 @@ Ken.my
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>사항은</strong></p></td>
+<td><p><strong>자세한 정보</strong></p></td>
 <td><p>아니요</p></td>
 <td><p>이 항목을 클릭하면 보고서에 선택한 세션에 대한 피어 투 피어 세션 세부 정보 보고서가 표시됩니다.</p></td>
 </tr>
@@ -253,7 +255,7 @@ Ken.my
 <tr class="even">
 <td><p><strong>응답 시간</strong></p></td>
 <td><p>예</p></td>
-<td><p>사용자가 세션 초대를 &quot;수락한 날짜 및 시간입니다.&quot;</p></td>
+<td><p>&quot; &quot; 사용자가 세션 초대를 수락한 날짜 및 시간입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>종료 시간</strong></p></td>
@@ -296,7 +298,7 @@ Ken.my
 <tr class="odd">
 <td><p><strong>전화 회의 URI</strong></p></td>
 <td><p>예</p></td>
-<td><p>고유한 회의 식별자입니다. 이 항목을 클릭하면 보고서에 선택한 세션에 대한 회의 세부 정보 보고서가 표시됩니다. 이 항목을 확장하면 보고서에 회의 참가자에 대한 정보가 표시됩니다. 자세한 내용은이 항목 뒷부분 &quot;에 나오는 회의 참가자&quot; 를 위한 메트릭 섹션을 참조 하십시오.</p></td>
+<td><p>고유한 회의 식별자입니다. 이 항목을 클릭하면 보고서에 선택한 세션에 대한 회의 세부 정보 보고서가 표시됩니다. 이 항목을 확장하면 보고서에 회의 참가자에 대한 정보가 표시됩니다. 자세한 내용은 &quot; 이 항목 뒷부분에 나오는 회의 참가자를 위한 메트릭 섹션을 참조 하십시오 &quot; .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>구성 도우미</strong></p></td>
@@ -304,7 +306,7 @@ Ken.my
 <td><p>회의를 구성한 사용자의 SIP 주소입니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>그룹</strong></p></td>
+<td><p><strong>풀</strong></p></td>
 <td><p>예</p></td>
 <td><p>회의에 사용된 에지 서버(있는 경우)의 이름입니다.</p></td>
 </tr>
@@ -359,7 +361,7 @@ Ken.my
 <tr class="odd">
 <td><p><strong>연결</strong></p></td>
 <td><p>아니요</p></td>
-<td><p>네트워크 연결 유형입니다. 예를 &quot;들어 내부&quot; 연결의 경우 또는 &quot;전화 접속&quot; 사용자에 대해 PSTN을 사용 하는 경우를 예로 들 수 있습니다.</p></td>
+<td><p>네트워크 연결 유형입니다. 예를 들어 내부 연결의 경우 &quot; &quot; 또는 &quot; &quot; 전화 접속 사용자에 대해 PSTN을 사용 하는 경우를 예로 들 수 있습니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>참가 시간</strong></p></td>

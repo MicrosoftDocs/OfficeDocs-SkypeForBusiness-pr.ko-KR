@@ -12,20 +12,22 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0acdf50ac515810b2813a98e9dc1f289e327eba
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 62a557d8b5a0f2a3e1e0f248b01795e75c02b3a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755732"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529805"
 ---
+# <a name="standard-migration-scenario---high-level"></a>표준 마이그레이션 시나리오-높은 수준
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="standard-migration-scenario---high-level"></a>표준 마이그레이션 시나리오-높은 수준
+
 
 </div>
 

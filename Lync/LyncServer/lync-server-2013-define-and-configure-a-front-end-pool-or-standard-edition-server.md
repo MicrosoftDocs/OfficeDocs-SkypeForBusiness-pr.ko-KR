@@ -12,20 +12,22 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfd8cc2b12032e1283c10e26d4a9fa879621233f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 847aeda66657b2bd665964d6fec3276dc22807ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209173"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531515"
 ---
+# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Lync Server 2013에서 프런트 엔드 풀 또는 Standard Edition 서버 정의 및 구성
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Lync Server 2013에서 프런트 엔드 풀 또는 Standard Edition 서버 정의 및 구성
+
 
 </div>
 
@@ -56,7 +58,7 @@ _**마지막으로 수정 된 항목:** 2013-03-08_
 <tbody>
 <tr class="odd">
 <td><p>1-2</p></td>
-<td><p>개</p></td>
+<td><p>1 </p></td>
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>
@@ -68,11 +70,11 @@ _**마지막으로 수정 된 항목:** 2013-03-08_
 </tr>
 <tr class="even">
 <td><p>7-8</p></td>
-<td><p>1-4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>9-10</p></td>
-<td><p>2-5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>11-12</p></td>
@@ -119,7 +121,7 @@ _**마지막으로 수정 된 항목:** 2013-03-08_
 
 4.  **기능 선택** 페이지에서 이 프런트 엔드 풀에 필요한 기능의 확인란을 선택합니다. 예를 들어 IM (인스턴트 메시징) 및 현재 상태 기능만 배포 하는 경우에는 음성, 비디오 및 공동 작업 회의 기능을 나타내기 때문에 단체 IM을 허용 하 고 **전화 접속 (PSTN) 회의**, **Enterprise Voice**또는 **통화 허용 제어** 확인란이 선택 되지 않도록 **회의** 확인란을 선택 합니다.
     
-      - **회의**   이 항목을 선택 하면 다음을 비롯 한 다양 한 기능을 사용할 수 있습니다.
+      - **회의**     이 옵션을 선택 하면 다음을 비롯 한 다양 한 기능을 사용할 수 있습니다.
         
           - IM 세션에서 둘 이상의 사용자를 포함하는 IM
         
@@ -127,15 +129,15 @@ _**마지막으로 수정 된 항목:** 2013-03-08_
         
           - A/V 회의-사용자가 Live Meeting 서비스나 타사 오디오 브리지 등의 외부 서비스 없이도 실시간 전화 회의를 할 수 있도록 합니다.
     
-      - **전화 접속 (pstn) 회의**   를 통해 사용자는 오디오 회의 공급자 없이도 공중 전화망 (pstn) 전화를 사용 하 여 Lync Server 2013 회의의 오디오 부분에 참가할 수 있습니다.
+      - **전화 접속 (PSTN) 회의**     사용자가 오디오 회의 공급자 없이도 공중 전화망 (PSTN) 전화를 사용 하 여 Lync Server 2013 회의의 오디오 부분에 참가할 수 있도록 허용 합니다.
     
-      - **Enterprise voice**   enterprise voice는 Lync Server 2013의 VoIP (Voice over IP) 솔루션으로, 사용자가 전화를 걸고 받을 수 있습니다. 음성 통화, 음성 메일 및 하드웨어 장치 또는 소프트웨어 클라이언트를 사용 하는 기타 기능에 Lync Server 2013을 사용 하려면이 기능을 배포 합니다.
+      - **Enterprise Voice**     Enterprise Voice는 Lync Server 2013의 VoIP (Voice over IP) 솔루션으로, 사용자가 전화를 걸고 받을 수 있습니다. 음성 통화, 음성 메일 및 하드웨어 장치 또는 소프트웨어 클라이언트를 사용 하는 기타 기능에 Lync Server 2013을 사용 하려면이 기능을 배포 합니다.
     
-      - **Cac (통화 허용 제어)**   cac는 사용 가능한 네트워크 대역폭을 기반으로 음성 또는 비디오 통화와 같은 실시간 통신 세션을 설정할지 여부를 결정 합니다. IM과 현재 상태만 배포한 경우에는 두 기능 모두 CAC를 사용하지 않으므로 CAC가 필요하지 않습니다.
+      - **CAC (통화 허용 제어 서비스)**     CAC는 사용 가능한 네트워크 대역폭을 기반으로 음성 또는 비디오 통화와 같은 실시간 통신 세션을 설정할 수 있는지 여부를 결정 합니다. IM과 현재 상태만 배포한 경우에는 두 기능 모두 CAC를 사용하지 않으므로 CAC가 필요하지 않습니다.
     
-      - **보관**   보관은 Lync Server 2013를 통해 전송 되는 IM 콘텐츠, 회의 (모임) 콘텐츠 또는 둘 다를 보관할 수 있는 방법을 제공 합니다.
+      - **보관**     보관은 Lync Server 2013를 통해 전송 되는 IM 콘텐츠, 회의 (모임) 콘텐츠 또는 둘 다를 보관할 수 있는 방법을 제공 합니다.
     
-      - **모니터링 모니터링 서버**   를 사용 하면 네트워크 및 끝점의 미디어 품질, VoIP 통화, IM 메시지, A/V 대화, 모임, 응용 프로그램 공유, 파일 전송, 실패 한 통화에 대 한 통화 오류 및 문제 해결 정보를 설명 하는 수치 데이터를 수집할 수 있습니다.
+      - **모니터링**     모니터링 서버를 사용 하면 네트워크 및 끝점의 미디어 품질, VoIP 통화, IM 메시지, A/V 대화, 모임, 응용 프로그램 공유, 파일 전송, 실패 한 통화에 대 한 통화 오류 및 문제 해결 정보를 설명 하는 수치 데이터를 수집할 수 있습니다.
     
     <div>
     
@@ -160,7 +162,7 @@ _**마지막으로 수정 된 항목:** 2013-03-08_
     <thead>
     <tr class="header">
     <th></th>
-    <th>전화</th>
+    <th>회의</th>
     <th>전화 접속 회의</th>
     <th>Enterprise Voice</th>
     <th>통화 허용 제어</th>
@@ -175,7 +177,7 @@ _**마지막으로 수정 된 항목:** 2013-03-08_
     <td></td>
     </tr>
     <tr class="even">
-    <td><p>전화</p></td>
+    <td><p>회의</p></td>
     <td><p>X</p></td>
     <td><p>X</p></td>
     <td></td>
@@ -218,7 +220,7 @@ _**마지막으로 수정 된 항목:** 2013-03-08_
 
 6.  서버 **역할을이 프런트 엔드 풀과 연결** 페이지를 사용 하 여 서버 역할을 정의 하 고 프런트 엔드 풀과 연결할 수 있습니다. 사용할 수 있는 역할은 다음과 같습니다.
     
-    **에 지 풀**   사용 단일에 지 서버 또는에 지 서버 풀을 정의 하 고 연결 합니다. 에 지 서버는 페더레이션 사용자를 포함 하 여 조직 외부의 사용자와 조직과의 공동 작업을 용이 하 게 합니다.
+    **에 지 풀 사용**     단일에 지 서버 또는에 지 서버 풀을 정의 하 고 연결 합니다. 에 지 서버는 페더레이션 사용자를 포함 하 여 조직 외부의 사용자와 조직과의 공동 작업을 용이 하 게 합니다.
     
     서버 역할을 배포하고 연결하는 데 사용할 수 있는 두 가지 가능한 시나리오가 있습니다.
     
@@ -265,7 +267,7 @@ _**마지막으로 수정 된 항목:** 2013-03-08_
     
 
     > [!IMPORTANT]
-    > 기본 URL은 URL에서 https://를 생략한 웹 서비스 ID입니다. 예를 들어 풀의 웹 서비스에 대 한 전체 URL이 인 https://pool01.contoso.net경우 기본 URL은 pool01.contoso.net입니다.
+    > 기본 URL은 URL에서 https://를 생략한 웹 서비스 ID입니다. 예를 들어 풀의 웹 서비스에 대 한 전체 URL이 인 경우 https://pool01.contoso.net 기본 URL은 pool01.contoso.net입니다.
 
     
     </div>
@@ -279,7 +281,7 @@ _**마지막으로 수정 된 항목:** 2013-03-08_
     
     </div>
     
-    1.  DNS 부하 분산을 구성 하는 경우 내부 **웹 서비스 풀 Fqdn 다시 정의** 확인란을 선택 하 고, 내부 기본 url (예: 내부-\<기본 Url\>)을 **내부 기본 url**에 입력 합니다.
+    1.  DNS 부하 분산을 구성 하는 경우 내부 **웹 서비스 풀 Fqdn 다시 정의** 확인란을 선택 하 고 내부 기본 url (풀 fqdn과는 다르며 \<your base URL\> **내부 기본 url**에 내부)을 입력 합니다.
         
         <div>
         

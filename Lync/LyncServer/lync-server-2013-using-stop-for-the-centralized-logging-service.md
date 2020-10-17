@@ -12,20 +12,22 @@ ms:contentKeyID: 49733549
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f764bbc93ae327e30fa6ac9daf3128963856460
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ed971c014eb62f539dcb6551a78066a3462688ac
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212694"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529965"
 ---
+# <a name="using-stop-for-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013에서 중앙화 된 로깅 서비스에 대해 Stop 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-stop-for-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013에서 중앙화 된 로깅 서비스에 대해 Stop 사용
+
 
 </div>
 
@@ -49,11 +51,11 @@ Stop-CsClsLogging cmdlet을 사용하여 현재 실행 중인 로깅 세션을 �
 
 </div>
 
-Lync Server 관리 셸을 사용 하 여 중앙화 된 로깅 서비스 기능을 제어 하려면 CsAdministrator 또는 CsServerAdministrator의 RBAC (역할 기반 액세스 제어) 보안 그룹 또는이를 포함 하는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 두 그룹 중 하나 직접 만든 사용자 지정 RBAC 역할을 포함 하 여이 cmdlet이 할당 된 모든 RBAC 역할의 목록을 반환 하려면 Lync Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
+Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 제어 하려면 CsAdministrator 또는 CsServerAdministrator의 RBAC (역할 기반 액세스 제어) 보안 그룹 또는 이러한 두 그룹 중 하나를 포함 하는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 직접 만든 사용자 지정 RBAC 역할을 포함 하 여이 cmdlet이 할당 된 모든 RBAC 역할의 목록을 반환 하려면 Lync Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
-예:
+예제:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
@@ -67,7 +69,7 @@ Lync Server 관리 셸을 사용 하 여 중앙화 된 로깅 서비스 기능�
     
         Show-CsClsLogging
     
-    ![Show-CsCl을 호출한 후의 Windows PowerShell 콘솔](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Show-CsCl을 호출한 후의 Windows PowerShell 콘솔")
+    ![Show-CsCl을 호출한 후의 Windows PowerShell 콘솔](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Show-CsCl를 호출한 후의 Windows PowerShell 콘솔")
     
     Show-CsClsLogging의 결과는 실행 중인 시나리오 및 시나리오가 실행되는 범위의 요약입니다. 자세한 내용은 [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/Show-CsClsLogging)을 참조하십시오.
 

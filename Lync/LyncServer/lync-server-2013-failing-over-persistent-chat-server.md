@@ -12,20 +12,22 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 570ed42bb2ff1d5b1f4ab58e9bbd9aad9159bef3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ede95ad504244fc5a97d62a074192a5270fbcdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214404"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530945"
 ---
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버 장애 조치 (failover)
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버 장애 조치 (failover)
+
 
 </div>
 
@@ -69,15 +71,15 @@ _**마지막으로 수정 된 항목:** 2014-02-05_
 
 2.  복사되지 않은 백업 파일을 백업 공유에서 백업 서버의 복사 대상 폴더로 복사합니다.
 
-3.  시퀀스에서 적용되지 않은 트랜잭션 로그 백업을 보조 데이터베이스에 적용합니다. 자세한 내용은 "How to: Transaction Log Backup (Transact-sql) 적용"을 참조 하십시오 https://go.microsoft.com/fwlink/p/?linkid=247428.
+3.  시퀀스에서 적용되지 않은 트랜잭션 로그 백업을 보조 데이터베이스에 적용합니다. 자세한 내용은 "How to: Transaction Log Backup (Transact-sql) 적용"을 참조 하십시오 https://go.microsoft.com/fwlink/p/?linkid=247428 .
 
 4.  백업 mgc 데이터베이스를 온라인 상태로 설정합니다. 1b단계에서 연 쿼리 창을 사용하여 다음을 수행합니다.
     
     1.  mgc 데이터베이스에 대한 연결이 있는 경우 모두 종료합니다.
         
-        1.  **exec sp\_who2** -mgc 데이터베이스에 대 한 연결을 식별 합니다.
+        1.  **exec sp \_ who2** -mgc 데이터베이스에 대 한 연결을 식별 합니다.
         
-        2.  ** \<spid\> 를 중단** 하 여 이러한 연결을 종료 합니다.
+        2.  **kill \<spid\> ** 연결을 종료 합니다.
     
     2.  데이터베이스를 온라인 상태로 설정합니다.
         

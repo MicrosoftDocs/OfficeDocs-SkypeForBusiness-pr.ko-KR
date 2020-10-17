@@ -12,20 +12,22 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ced7b5262880b23540bf3465f787f6512781f2e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ebb3dd9fbeeaed69951ac11ee780bbe8d371a86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213974"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531365"
 ---
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Lync Server 2013을 사용 하 여 Sba (survivable 분기 어플라이언스 또는 서버 배포-중앙 사이트 작업
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Lync Server 2013을 사용 하 여 Sba (survivable 분기 어플라이언스 또는 서버 배포-중앙 사이트 작업
+
 
 </div>
 

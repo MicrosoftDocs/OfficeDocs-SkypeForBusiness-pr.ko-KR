@@ -12,20 +12,22 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80c58b532c36e74aecd4d7ecb758afee1e2c2bdd
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 15d0bffd92c4c2e2448938c467eec73c9bab1a94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604285"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531415"
 ---
+# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Lync Server 2013에 공유 선 모양 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Lync Server 2013에 공유 선 모양 배포
+
 
 </div>
 
@@ -83,7 +85,7 @@ SLA (공유 선 모양)는 Lync Server 2013, 누적 업데이트 4 월 2016의 �
                 <BusyOnBusy|Voicemail|Forward> [-Target
                 <TargetUserOrPhoneNumber>]
     ```
-    CsSlaConfiguration cmdlet은 Enterprise Voice 계정 SLAGroup1를 SLA 엔터티로 표시 하 고 SLAGroup1의 수는 SLA 그룹의 숫자가 됩니다. SLAGroup1에 대 한 모든 호출이 전체 SLA 그룹에 연결 됩니다.
+    Set-CsSlaConfiguration cmdlet은 Enterprise Voice 계정 SLAGroup1를 SLA 엔터티로 표시 하 고 SLAGroup1의 수가 SLA 그룹의 숫자가 됩니다. SLAGroup1에 대 한 모든 호출이 전체 SLA 그룹에 연결 됩니다.
     
     다음은 기존 Enterprise Voice 사용자에 대 한 SLA 그룹을 만들고 SLAGroup1에 SLAGroup1에 대해 지정 된 번호를 SLA의 중요 번호로 사용 하는 예입니다.
     
@@ -92,13 +94,13 @@ SLA (공유 선 모양)는 Lync Server 2013, 누적 업데이트 4 월 2016의 �
     Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
                 -BusyOption BusyOnBusy
     ```
-    CsSlaConfiguration을 사용 하 여 새 SLA 그룹을 만들거나 기존 항목을 수정할 수 있습니다.
+    Set-CsSlaConfiguration을 사용 하 여 새 SLA 그룹을 만들거나 기존 항목을 수정할 수 있습니다.
     
     <div>
     
 
     > [!NOTE]  
-    > 지정 하는 항목은 유효한 <CODE>-Identity</CODE> 기존 Enterprise Voice 사용 가능 사용자 계정 이어야 합니다.
+    > 지정 하는 항목은 <CODE>-Identity</CODE> 유효한 기존 Enterprise Voice 사용 가능 사용자 계정 이어야 합니다.
 
     
     </div>
@@ -126,7 +128,7 @@ SLA (공유 선 모양)는 Lync Server 2013, 누적 업데이트 4 월 2016의 �
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
               -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
     ```
-    다음 예에서는 전화 번호 202-555-1234으로 전달 되는 최대 동시 통화 수를 초과 하는 통화를 설정 합니다. 대상은 전화 번호 대신 조직의 사용자 일 수 있습니다. 이 경우 착신 전환 된 전화를 받는 사람에 대 한 구문은 대리인을 지정할 때와 같습니다 `sip:<NameofDelegate@domain>`. 그 밖의 `BusyOption` 가능한 매개 변수 `Voicemail`는 다음과 같습니다.
+    다음 예에서는 전화 번호 202-555-1234으로 전달 되는 최대 동시 통화 수를 초과 하는 통화를 설정 합니다. 대상은 전화 번호 대신 조직의 사용자 일 수 있습니다. 이 경우 착신 전환 된 전화를 받는 사람에 대 한 구문은 대리인을 지정할 때와 같습니다 `sip:<NameofDelegate@domain>` . 그 밖의 가능한 매개 변수는 `BusyOption` `Voicemail` 다음과 같습니다.
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
               -Target tel:+2025551234]
@@ -143,7 +145,7 @@ SLA (공유 선 모양)는 Lync Server 2013, 누적 업데이트 4 월 2016의 �
               -MissedCallOption <Option> -MissedCallForwardTarget
               <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     ```
-    다음 예에서는 부재 중 전화가 라는 `sla_forward_number`사용자에 게 착신 전환 되도록 지정 합니다. `-MissedCallOption` 매개 변수에 사용할 수 `Forward`있는 옵션은, `BusySignal`또는 `Disconnect`입니다. 을 선택 `Forward`하는 경우에는 다음과 같이 `-MissedCallForwardTarget` 사용자 또는 전화 번호를 대상으로 매개 변수도 포함 해야 합니다.
+    다음 예에서는 부재 중 전화가 라는 사용자에 게 착신 전환 되도록 지정 합니다 `sla_forward_number` . `-MissedCallOption`매개 변수에 사용할 수 있는 옵션은 `Forward` , `BusySignal` 또는 `Disconnect` 입니다. 을 선택 하는 경우에는 `Forward` `-MissedCallForwardTarget` 다음과 같이 사용자 또는 전화 번호를 대상으로 매개 변수도 포함 해야 합니다.
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
               Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
@@ -160,7 +162,7 @@ SLA (공유 선 모양)는 Lync Server 2013, 누적 업데이트 4 월 2016의 �
     Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
               <NameOfDelegate@domain>
     ```
-    예를 들면 다음과 같습니다.
+    예제:
     ```powershell
     Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
               sip:SLA_Delegate3@contoso.com

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183432
 ms.date: 10/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93f6aadd6cde7f09d7c6bdde118055cde8a56de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1bf54f1949627c39291388be248e0029077e9278
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204271"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530965"
 ---
+# <a name="failing-over-a-pool-in-lync-server-2013"></a>Lync Server 2013에서 풀 장애 조치 (failover)
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-a-pool-in-lync-server-2013"></a>Lync Server 2013에서 풀 장애 조치 (failover)
+
 
 </div>
 
@@ -63,33 +65,33 @@ _**마지막으로 수정 된 항목:** 2014-10-10_
     
         Invoke-CsManagementServerFailover -Whatif
     
-    이 cmdlet의 결과는 현재 중앙 관리 서버를 호스트 하는 풀을 보여 줍니다. 이 절차의 나머지 부분에서이 풀을 CMS\_풀 이라고 합니다.
+    이 cmdlet의 결과는 현재 중앙 관리 서버를 호스트 하는 풀을 보여 줍니다. 이 절차의 나머지 부분에서이 풀을 CMS 풀 이라고 합니다 \_ .
 
-2.  토폴로지 작성기를 사용 하 여 CMS\_풀에서 실행 되는 Lync Server의 버전을 찾습니다. Lync Server 2013를 실행 하는 경우 다음 cmdlet을 사용 하 여 풀 1의 백업 풀을 찾습니다.
+2.  토폴로지 작성기를 사용 하 여 CMS 풀에서 실행 되는 Lync Server의 버전을 찾습니다 \_ . Lync Server 2013를 실행 하는 경우 다음 cmdlet을 사용 하 여 풀 1의 백업 풀을 찾습니다.
     
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     
-    \_백업 풀을 백업 풀로 사용 합니다.
+    백업 풀 \_ 을 백업 풀로 사용 합니다.
 
 3.  다음 cmdlet을 사용 하 여 중앙 관리 저장소의 상태를 확인 합니다.
     
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
     
-    이 cmdlet은 ActiveMasterFQDN 및 Activefiletransferagents가 둘 다 CMS\_풀의 FQDN을 가리키고 있음을 보여 줍니다. 비어 있는 경우에는 중앙 관리 서버를 사용할 수 없으며 장애 조치 (failover)를 수행 해야 합니다.
+    이 cmdlet은 ActiveMasterFQDN 및 Activefiletransferagents가 둘 다 CMS 풀의 FQDN을 가리키고 있음을 보여 줍니다 \_ . 비어 있는 경우에는 중앙 관리 서버를 사용할 수 없으며 장애 조치 (failover)를 수행 해야 합니다.
 
 4.  중앙 관리 저장소를 사용할 수 없거나 중앙 관리 저장소가 Pool1) (즉, 오류가 발생 한 풀)에서 실행 되 고 있는 경우에는 해당 풀을 장애 조치 (failover) 하기 전에 중앙 관리 서버를 장애 조치 (failover) 해야 합니다. Lync Server 2013을 실행 하는 풀에 호스트 된 중앙 관리 서버를 장애 조치 (failover) 해야 하는 경우에는이 절차의 5 단계에서 cmdlet을 사용 합니다. Lync Server 2010을 실행 하는 풀에 호스트 된 중앙 관리 서버를 장애 조치 (failover) 해야 하는 경우이 절차의 6 단계에 나오는 cmdlet을 사용 합니다. 중앙 관리 서버를 장애 조치할 필요가 없으면이 절차의 7 단계로 건너뜁니다.
 
 5.  Lync Server 2013을 실행 하는 풀에서 중앙 관리 저장소를 장애 조치 (failover) 하려면 다음을 수행 합니다.
     
-      - 먼저 다음을 입력 하 여 백업\_풀의 백 엔드 서버가 중앙 관리 저장소의 보안 주체 인스턴스를 실행 하는지 확인 합니다.
+      - 먼저 \_ 다음을 입력 하 여 백업 풀의 백 엔드 서버가 중앙 관리 저장소의 보안 주체 인스턴스를 실행 하는지 확인 합니다.
         
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - 백업\_풀의 주 백 엔드 서버가 주 서버인 경우 다음을 입력 합니다.
+      - 백업 풀의 주 백 엔드 서버가 주 서버인 경우 \_ 다음을 입력 합니다.
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        백업\_풀의 미러 백 엔드 서버가 보안 주체 인 경우 다음을 입력 합니다.
+        백업 풀의 미러 백 엔드 서버가 \_ 보안 주체 인 경우 다음을 입력 합니다.
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
@@ -97,7 +99,7 @@ _**마지막으로 수정 된 항목:** 2014-10-10_
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        ActiveMasterFQDN 및 Activefiletransferagents가 모두 백업\_풀의 FQDN을 가리키는지 확인 합니다.
+        ActiveMasterFQDN 및 Activefiletransferagents가 모두 백업 풀의 FQDN을 가리키는지 확인 \_ 합니다.
     
       - 마지막으로 다음을 입력 하 여 모든 프런트 엔드 서버의 복제 상태를 확인 합니다.
         
@@ -107,7 +109,7 @@ _**마지막으로 수정 된 항목:** 2014-10-10_
         
         이 절차의 7단계로 건너뜁니다.
 
-6.  백업\_풀의 백 엔드 서버에 중앙 관리 저장소를 설치 합니다.
+6.  백업 풀의 백 엔드 서버에 중앙 관리 저장소를 설치 \_ 합니다.
     
       - 먼저 다음 명령을 실행합니다.
         
@@ -115,7 +117,7 @@ _**마지막으로 수정 된 항목:** 2014-10-10_
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - 백업\_풀의 프런트 엔드 서버 중 하나에서 다음 명령을 실행 하 여 중앙 관리 저장소를 강제로 이동 합니다.
+      - 백업 풀의 프런트 엔드 서버 중 하나에서 다음 명령을 실행 \_ 하 여 중앙 관리 저장소를 강제로 이동 합니다.
         
             Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
     
@@ -123,7 +125,7 @@ _**마지막으로 수정 된 항목:** 2014-10-10_
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        ActiveMasterFQDN 및 Activefiletransferagents가 모두 백업\_풀의 FQDN을 가리키는지 확인 합니다.
+        ActiveMasterFQDN 및 Activefiletransferagents가 모두 백업 풀의 FQDN을 가리키는지 확인 \_ 합니다.
     
       - 다음을 입력하여 모든 프런트 엔드 서버의 복제 상태를 확인합니다.
         
@@ -131,7 +133,7 @@ _**마지막으로 수정 된 항목:** 2014-10-10_
         
         모든 복제본의 값이 True인지 확인합니다.
     
-      - 백업\_풀의 나머지 프런트 엔드 서버에 중앙 관리 서버 서비스를 설치 합니다. 이렇게 하려면이 절차의 앞부분에서 중앙 관리 저장소를 이동할 때 사용한 것을 제외 하 고 모든 프런트 엔드 서버에서 다음 명령을 실행 합니다.
+      - 백업 풀의 나머지 프런트 엔드 서버에 중앙 관리 서버 서비스를 설치 \_ 합니다. 이렇게 하려면이 절차의 앞부분에서 중앙 관리 저장소를 이동할 때 사용한 것을 제외 하 고 모든 프런트 엔드 서버에서 다음 명령을 실행 합니다.
         
             Bootstrapper /Setup 
 

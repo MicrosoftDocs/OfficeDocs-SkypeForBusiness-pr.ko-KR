@@ -12,20 +12,22 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 688cf48c7f716047f0d7412c34ce84006a5a9348
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05cde2a845dd6314d8822e6b58445eed5c6a1d19
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213785"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531075"
 ---
+# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice에 대 한 배포 지침
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice에 대 한 배포 지침
+
 
 </div>
 
@@ -59,7 +61,7 @@ Enterprise Voice를 배포할 때 최적의 환경을 유지 하려면 IT 인프
     
 
     > [!NOTE]  
-    > Lync Server에서는 E. 164 개의 번호와 직접 연결 되지 않은 (연결 되지 않은) 번호를 지원 합니다. 비가상 번호는 <STRONG> &lt;E. 164&gt;&lt;; ext = extension&gt; </STRONG> 형식으로 표현 될 수도 있고, 개인 내선 번호가 엔터프라이즈 전체에서 고유 해야 한다는 요구 사항을 충족 하는 숫자의 문자열입니다. 예를 들어 전용 번호 1001는 <STRONG>+ 1425550100, ext = 1001</STRONG>또는 <STRONG>1001</STRONG>로 나타낼 수 있습니다. <STRONG>1001</STRONG>로 표시 된 경우이 전용 번호는 기업 전체에서 고유 합니다.
+    > Lync Server에서는 E. 164 개의 번호와 직접 연결 되지 않은 (연결 되지 않은) 번호를 지원 합니다. 비가상 번호는 <STRONG> &lt; E. 164 &gt; ; ext = &lt; extension &gt; </STRONG> 형식으로 표현 될 수도 있고, 개인 내선 번호가 엔터프라이즈 전체에서 고유 해야 한다는 요구 사항을 충족 하는 숫자의 문자열입니다. 예를 들어 전용 번호 1001는 <STRONG>+ 1425550100, ext = 1001</STRONG>또는 <STRONG>1001</STRONG>로 나타낼 수 있습니다. <STRONG>1001</STRONG>로 표시 된 경우이 전용 번호는 기업 전체에서 고유 합니다.
 
     
     </div>
@@ -106,7 +108,7 @@ Lync Server를 사용한 음성 통신은 서버 소프트웨어의 가용성, �
 
 ## <a name="alternative-means-of-accessing-emergency-services"></a>긴급 서비스에 액세스하기 위한 대체 수단
 
-음성 클라이언트 (예: Lync 클라이언트나 Lync Phone Edition 장치를 실행 하는 PC)를 설치 하는 해당 위치에 대해 정전 인 경우 사용자가 응급 서비스 (예: 911 또는 999)를 호출 하는 백업 옵션을 유지 관리 하는 것이 좋습니다. , 네트워크 연결 저하, 전화 서비스 중단 또는 Lync Phone Edition 장치의 작동을 방해할 수 있는 기타 문제 이러한 대체 옵션은 표준 PSTN(공중 전화망) 회선이나 휴대폰에 연결된 전화기를 포함할 수 있습니다.
+음성 클라이언트 (예: Lync 클라이언트나 Lync Phone Edition 장치를 실행 하는 PC)를 설치 하는 경우에는 사용자가 전원 오류, 네트워크 연결 저하, 전화 서비스 중단 또는 Lync Server의 작동을 방해할 수 있는 기타 문제가 발생 하는 경우 응급 서비스를 호출 하는 백업 옵션 (예: 911 또는 999)을 유지 하는 것이 좋습니다. , Lync 또는 Lync Phone Edition 장치 이러한 대체 옵션은 표준 PSTN(공중 전화망) 회선이나 휴대폰에 연결된 전화기를 포함할 수 있습니다.
 
 </div>
 

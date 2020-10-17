@@ -12,20 +12,22 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00038dce85a7461be37456d9dee263a71f60c113
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5a4e548f68f68a65ac4ecfb2e4ddc532b5f337c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529715"
 ---
+# <a name="active-directory-domain-services-for-lync-server-2013"></a>Lync Server 2013에 대 한 Active Directory 도메인 서비스
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-for-lync-server-2013"></a>Lync Server 2013에 대 한 Active Directory 도메인 서비스
+
 
 </div>
 
@@ -71,7 +73,7 @@ Active Directory의 인프라 요구 사항은 다음과 같습니다.
 
 
 > [!NOTE]  
-> 시스템 컨테이너 대신 구성 컨테이너에 전역 설정을 배포하는 것이 좋습니다. 이렇게 하면 보안이 향상되지 않지만 일부 Active Directory 도메인 서비스 토폴로지에 대한 확장성이 향상될 수 있습니다. Microsoft Office Communications Server 2007에서 마이그레이션하고 System 컨테이너를 사용 하지만 구성 컨테이너를 사용 하려는 경우에는 업그레이드 준비를 수행 하기 전에 시스템 컨테이너에서 설정을 이동 해야 합니다. 구성 컨테이너로 시스템 컨테이너 설정을 마이그레이션하려면 Office Communications Server 2007 전역 설정 마이그레이션 도구를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>.
+> 시스템 컨테이너 대신 구성 컨테이너에 전역 설정을 배포하는 것이 좋습니다. 이렇게 하면 보안이 향상되지 않지만 일부 Active Directory 도메인 서비스 토폴로지에 대한 확장성이 향상될 수 있습니다. Microsoft Office Communications Server 2007에서 마이그레이션하고 System 컨테이너를 사용 하지만 구성 컨테이너를 사용 하려는 경우에는 업그레이드 준비를 수행 하기 전에 시스템 컨테이너에서 설정을 이동 해야 합니다. 구성 컨테이너로 시스템 컨테이너 설정을 마이그레이션하려면 Office Communications Server 2007 전역 설정 마이그레이션 도구를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A> .
 
 
 
@@ -119,7 +121,7 @@ Lync Server에 대 한 AD를 준비할 때 만들어지는 특정 유니버설 �
 
 ## <a name="role-based-access-control"></a>역할 기반 액세스 제어
 
-유니버설 서비스 및 관리 그룹을 만들고 해당 유니버설 그룹에 서비스 및 관리 그룹을 추가 하는 것 외에도 포리스트 준비에서는 RBAC (역할 기반 액세스 제어) 그룹을 만듭니다. 포리스트 준비로 만든 특정 RBAC 그룹에 대 한 자세한 내용은 배포 설명서에서 [Lync Server 2013의 포리스트 준비에서 수행한 변경 사항을](lync-server-2013-changes-made-by-forest-preparation.md) 참조 하세요. RBAC 그룹에 대 한 자세한 내용은 [rbac (역할 기반 액세스 제어)에 대 한 Lync Server 2013](lync-server-2013-role-based-access-control-rbac.md)을 참조 하십시오.
+유니버설 서비스 및 관리 그룹을 만들고 해당 유니버설 그룹에 서비스 및 관리 그룹을 추가 하는 것 외에도 포리스트 준비에서는 RBAC (Role-Based 액세스 제어) 그룹을 만듭니다. 포리스트 준비로 만든 특정 RBAC 그룹에 대 한 자세한 내용은 배포 설명서에서 [Lync Server 2013의 포리스트 준비에서 수행한 변경 사항을](lync-server-2013-changes-made-by-forest-preparation.md) 참조 하세요. RBAC 그룹에 대 한 자세한 내용은 [rbac (역할 기반 액세스 제어)에 대 한 Lync Server 2013](lync-server-2013-role-based-access-control-rbac.md)을 참조 하십시오.
 
 </div>
 
@@ -179,7 +181,7 @@ Lync Server 2013에서 트러스트 된 서버는 토폴로지 작성기를 실�
 
 이러한 기준 중 하나라도 맞지 않으면 서버가 트러스트되지 않고 서버와의 연결이 거부됩니다. 이러한 이중 요구 사항을 통해 Rogue 서버가 유효한 서버 FQDN을 획득하려고 하는 공격을 방지할 수 있습니다.
 
-또한 Microsoft Office Communications Server 2007 R2 및 Microsoft Office Communications Server 2007 배포가 Lync Server 2013 서버와 통신 하도록 하기 위해 Lync Server 2013은 포리스트 준비 중에 컨테이너를 만듭니다. 목록 보관 이전 릴리스에 대 한 신뢰할 수 있는 서버 다음 표에서는 이전 배포와의 호환성을 위해 만드는 컨테이너에 대해 설명합니다.
+또한 Microsoft Office Communications Server 2007 R2 및 Microsoft Office Communications Server 2007 배포가 Lync Server 2013 서버와 통신 하도록 하기 위해 Lync Server 2013은 이전 릴리스에 대 한 신뢰할 수 있는 서버 목록을 보관 하기 위해 포리스트 준비 중에 컨테이너를 만듭니다. 다음 표에서는 이전 배포와의 호환성을 위해 만드는 컨테이너에 대해 설명합니다.
 
 ### <a name="trusted-server-lists-and-their-active-directory-containers-for-compatibility-with-previous-releases"></a>트러스트된 서버 목록 및 이전 릴리스와의 호환성을 위한 해당 Active Directory 컨테이너
 
@@ -219,7 +221,7 @@ Lync Server 2013에서 트러스트 된 서버는 토폴로지 작성기를 실�
 </table>
 
 
-이전 릴리스의 신뢰할 수 있는 서버를 지원 하려면 모범 사례 분석기 도구를 실행 해야 합니다. 모범 사례 분석기를 실행 하는 방법에 대 [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)한 자세한 내용은를 참조 하세요.
+이전 릴리스의 신뢰할 수 있는 서버를 지원 하려면 모범 사례 분석기 도구를 실행 해야 합니다. 모범 사례 분석기를 실행 하는 방법에 대 한 자세한 내용은를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633) .
 
 </div>
 

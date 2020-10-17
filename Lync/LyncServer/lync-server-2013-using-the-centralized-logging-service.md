@@ -12,20 +12,22 @@ ms:contentKeyID: 49733700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a5aa8e93bed162219da1ad522483d61b003a603
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 276cc87d6ec943332fc30dc21c0906a03703382d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212684"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529955"
 ---
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013에서 중앙 로깅 서비스 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013에서 중앙 로깅 서비스 사용
+
 
 </div>
 
@@ -64,7 +66,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
     
       - **사이트**(해당 사이트의 컴퓨터에서만 로깅 캡처 실행) 또는 **전역**(배포에 포함된 모든 컴퓨터에서 로깅 캡처 실행) 옵션 중에서 로깅 세션의 범위를 정의합니다.
 
-중앙 로깅 서비스는 매우 강력 하며, 문제 해결을 위해 거의 모든 요구 사항을 충족할 수 있습니다 (대규모 또는 소규모). 근본 원인 분석을 통해 성능 문제가 발생 하는 경우 중앙 로깅 서비스는 모든 관리자에 게 중요 한 도구가 될 수 있습니다. 모든 예는 Lync Server 관리 셸을 사용 하 여 표시 됩니다. **Clscontroller .exe**라는 중앙 로깅 서비스에 대 한 명령줄 구성 요소가 있습니다. 도움말은 도구 자체를 통해 명령줄 도구로 제공됩니다. 하지만 명령줄에서 실행할 수 있는 기능은 제한적으로 제공됩니다. Lync Server 관리 셸을 사용 하면 훨씬 더 크고 광범위 하 게 구성 가능한 기능 집합에 액세스할 수 있습니다. 중앙 로깅 서비스를 사용 하는 경우에는 항상 Lync Server 관리 셸을 첫 번째 및 가장 방법으로 고려 해야 합니다.
+중앙 로깅 서비스는 매우 강력 하며, 문제 해결을 위해 거의 모든 요구 사항을 충족할 수 있습니다 (대규모 또는 소규모). 근본 원인 분석을 통해 성능 문제가 발생 하는 경우 중앙 로깅 서비스는 모든 관리자에 게 중요 한 도구가 될 수 있습니다. 모든 예는 Lync Server 관리 셸을 사용 하 여 표시 됩니다. 중앙 로깅 서비스에는 **CLSController.exe**라는 명령줄 구성 요소가 있습니다. 도움말은 도구 자체를 통해 명령줄 도구로 제공됩니다. 하지만 명령줄에서 실행할 수 있는 기능은 제한적으로 제공됩니다. Lync Server 관리 셸을 사용 하면 훨씬 더 크고 광범위 하 게 구성 가능한 기능 집합에 액세스할 수 있습니다. 중앙 로깅 서비스를 사용 하는 경우에는 항상 Lync Server 관리 셸을 첫 번째 및 가장 방법으로 고려 해야 합니다.
 
 이 섹션의 항목에서는 중앙 로깅 서비스를 사용 하는 방법과 다양 한 기능을 사용 하는 방법의 예를 설명 합니다.
 

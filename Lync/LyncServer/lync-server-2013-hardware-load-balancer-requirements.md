@@ -12,20 +12,22 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb8c3ff97930411cb8d679054015ffc18ab3ce2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c4aac657dd1e472068474a3a70d17f1a2a38c63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191691"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530875"
 ---
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 하드웨어 부하 분산 장치 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 하드웨어 부하 분산 장치 요구 사항
+
 
 </div>
 
@@ -75,7 +77,7 @@ Lync Server 2013 확장 통합에 지 토폴로지는 기본적으로 Lync Serve
 
 </div>
 
-하드웨어 부하 분산 장치에서 Lync Server 2013에 필요한 필요한 기능을 지원 하는지 여부를 확인 하려면 "Lync Server 2010 부하 분산 장치 파트너 [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)"를 참조 하십시오.
+하드웨어 부하 분산 장치에서 Lync Server 2013에 필요한 필요한 기능을 지원 하는지 여부를 확인 하려면 "Lync Server 2010 부하 분산 장치 파트너"를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) .
 
 <div>
 
@@ -143,7 +145,7 @@ Lync Server 2013 확장 통합에 지 토폴로지는 기본적으로 Lync Serve
 
 
 > [!WARNING]  
-> F5 하드웨어 부하 분산 장치에는 TCP 연결 내의 각 요청이 개별적으로 부하 분산되도록 하는 OneConnect라는 기능이 있습니다. 모바일 장치를 배포하는 경우 하드웨어 부하 분산 장치 공급업체에서 이와 동일한 기능을 지원하는지 확인하십시오. 최신 Apple iOS 모바일 앱의 경우 TLS(전송 계층 보안) 버전 1.2가 필요합니다. F5는 이 버전을 위한 특정 설정을 제공합니다.<BR>타사 하드웨어 부하 분산 장치에 대 한 자세한 내용은<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> F5 하드웨어 부하 분산 장치에는 TCP 연결 내의 각 요청이 개별적으로 부하 분산되도록 하는 OneConnect라는 기능이 있습니다. 모바일 장치를 배포하는 경우 하드웨어 부하 분산 장치 공급업체에서 이와 동일한 기능을 지원하는지 확인하십시오. 최신 Apple iOS 모바일 앱의 경우 TLS(전송 계층 보안) 버전 1.2가 필요합니다. F5는 이 버전을 위한 특정 설정을 제공합니다.<BR>타사 하드웨어 부하 분산 장치에 대 한 자세한 내용은 <A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -151,7 +153,7 @@ Lync Server 2013 확장 통합에 지 토폴로지는 기본적으로 Lync Serve
 
 다음은 디렉터 및 프런트 엔드 풀 웹 서비스에 대한 하드웨어 부하 분산 장치 요구 사항입니다.
 
-  - 내부 웹 서비스 Vip의 경우 하드웨어 부하\_분산 장치에서 원본 주소 지 속성 (내부 포트 80, 443)을 설정 합니다. Lync Server 2013의 경우 원본\_주소 지 속성은 단일 IP 주소에서 들어오는 여러 연결이 세션 상태를 유지 하기 위해 항상 하나의 서버로 전송 되는 것을 의미 합니다.
+  - 내부 웹 서비스 Vip의 경우 \_ 하드웨어 부하 분산 장치에서 원본 주소 지 속성 (내부 포트 80, 443)을 설정 합니다. Lync Server 2013의 경우 원본 \_ 주소 지 속성은 단일 IP 주소에서 들어오는 여러 연결이 세션 상태를 유지 하기 위해 항상 하나의 서버로 전송 되는 것을 의미 합니다.
 
   - 1800초의 TCP 유휴 시간 제한을 사용합니다.
 
@@ -234,12 +236,12 @@ Lync Server 2013 확장 통합에 지 토폴로지는 기본적으로 Lync Serve
 <th>노드 포트</th>
 <th>노드 컴퓨터/모니터</th>
 <th>지속성 프로필</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;풀&gt;웹-int_mco_443_vs</p>
+<td><p>&lt;풀 &gt; 웹-int_mco_443_vs</p>
 <p>443</p></td>
 <td><p>443</p></td>
 <td><p>프런트 엔드</p>
@@ -248,7 +250,7 @@ Lync Server 2013 확장 통합에 지 토폴로지는 기본적으로 Lync Serve
 <td><p>H</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;풀&gt;웹-int_mco_80_vs</p>
+<td><p>&lt;풀 &gt; 웹-int_mco_80_vs</p>
 <p>80</p></td>
 <td><p>80</p></td>
 <td><p>프런트 엔드</p>
@@ -276,12 +278,12 @@ Lync Server 2013 확장 통합에 지 토폴로지는 기본적으로 Lync Serve
 <th>노드 포트</th>
 <th>노드 컴퓨터/모니터</th>
 <th>지속성 프로필</th>
-<th>Notes</th>
+<th>참고</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;풀&gt;web_mco_443_vs</p>
+<td><p>&lt;풀 &gt; web_mco_443_vs</p>
 <p>443</p></td>
 <td><p>4443</p></td>
 <td><p>프런트 엔드</p>
@@ -290,7 +292,7 @@ Lync Server 2013 확장 통합에 지 토폴로지는 기본적으로 Lync Serve
 <td><p>H</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;풀&gt;web_mco_80_vs</p>
+<td><p>&lt;풀 &gt; web_mco_80_vs</p>
 <p>80</p></td>
 <td><p>8080</p></td>
 <td><p>프런트 엔드</p>

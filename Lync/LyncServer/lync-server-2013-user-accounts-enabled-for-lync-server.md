@@ -12,20 +12,22 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccef1e811d4ccd6b54350d6678a6b089eb4caafd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c7133ee4f1753d5178bd1ac41e3483dfe61a9e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193031"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530275"
 ---
+# <a name="user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013에 사용할 수 있는 사용자 계정
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013에 사용할 수 있는 사용자 계정
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**마지막으로 수정 된 항목:** 2014-04-18_
 
 </div>
 
-사용자를 검색 하거나 사용자 검색 결과를 필터링 하는 모든 Lync Server 2013 관리 작업을 수행 하는 경우 Active Directory 도메인 서비스에서 특성으로 존재 하지만 글로벌 카탈로그로 복제 되지 않는 일부 사용자 속성이 있습니다. Microsoft Exchange Server를 배포할 때까지 Lync Server가 아닌 Microsoft Exchange에서는 다음 특성을 설치할 때 글로벌 카탈로그로 복제를 표시 합니다.
+사용자를 검색 하거나 사용자 검색 결과를 필터링 하는 Lync Server 2013 관리 작업을 수행 하는 경우 Active Directory 도메인 서비스에서 특성으로 존재 하지만 Microsoft Exchange Server가 배포 될 때까지 글로벌 카탈로그로 복제 되지 않는 몇 가지 사용자 속성이 있습니다. Lync Server가 아닌 Microsoft Exchange에서는 다음 특성을 설치할 때 글로벌 카탈로그로 복제를 표시 합니다.
 
 
 <table>
@@ -72,7 +74,7 @@ _**마지막으로 수정 된 항목:** 2014-04-18_
 <p>국가/지역</p>
 <p>호출기</p>
 <p>팩스</p>
-<p>모바일</p></td>
+<p>Mobile</p></td>
 <td><p>제목</p>
 <p>Company</p>
 <p>부서</p>

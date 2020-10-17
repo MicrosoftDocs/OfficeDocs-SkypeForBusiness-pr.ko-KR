@@ -12,20 +12,22 @@ ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63e3379e2c703df1d4ce66eda0942befb1569c7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 258f53cf16287b29c739c5a232376fa629b401f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531355"
 ---
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Lync Server 2013을 사용 하 여 Sba (survivable 분기 어플라이언스 또는 서버 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Lync Server 2013을 사용 하 여 Sba (survivable 분기 어플라이언스 또는 서버 배포
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2014-12-10_
 
 복구 가능한 Enterprise Voice는 중앙 사이트에 대 한 링크를 사용할 수 없는 경우 분기 사이트의 복구 기능을 제공 하는 지속적인 엔터프라이즈 음성 서비스를 분기할 수 있음을 의미 합니다.
 
-중소 규모의 분기 사이트 (25 ~ 1000 명의 사용자가 포함 된 분기 사이트)의 경우 기본 제공 PSTN 게이트웨이를 사용 하 여 PSTN (공중 전화망) 통화를 종료 하는 Sba (survivable Branch 기기를 배포 하는 것이 좋습니다. 서비스 공급자입니다. Sba (survivable 분기 기기는 Windows Server 2008 R2 운영 체제, Lync Server 2013 등록자, 중재 서버 소프트웨어 및 PSTN 게이트웨이를 단일 기기 섀시에 실행 하는 블레이드 서버가 포함 된 타사 장치입니다.
+중소 규모의 분기 사이트 (25 ~ 1000 명의 사용자가 있는 분기 사이트)의 경우 기본 제공 PSTN 게이트웨이 또는 SIP 트렁크를 전화 서비스 공급자에 게 사용 하 여 PSTN (공중 전화망) 통화를 종료 하는 Sba (survivable Branch 기기를 배포 하는 것이 좋습니다. Sba (survivable 분기 기기는 Windows Server 2008 R2 운영 체제, Lync Server 2013 등록자, 중재 서버 소프트웨어 및 PSTN 게이트웨이를 단일 기기 섀시에 실행 하는 블레이드 서버가 포함 된 타사 장치입니다.
 
 5000 사용자에 게 1000이 고 복구 가능한 WAN이 없는 분기 사이트의 경우에는 Sba (survivable 분기 서버를 PSTN 게이트웨이 또는 SIP 트렁크에 연결 하 여 전화 서비스 공급자에 게 제공 하는 것이 좋습니다. Sba (survivable 분기 서버는 등록자 및 중재 서버 소프트웨어가 설치 되어 있는 Windows Server 기반 컴퓨터입니다.
 

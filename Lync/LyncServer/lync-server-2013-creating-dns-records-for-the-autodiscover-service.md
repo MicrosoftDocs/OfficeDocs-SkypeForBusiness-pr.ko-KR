@@ -12,20 +12,22 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 921db63f02be50866e6d26cb33007ac8ddbb32eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 928de572305cdbe19f5222f34e6616a8022e37b3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198751"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531545"
 ---
+# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Lync Server 2013의 자동 검색 서비스에 대 한 DNS 레코드 만들기
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Lync Server 2013의 자동 검색 서비스에 대 한 DNS 레코드 만들기
+
 
 </div>
 
@@ -59,7 +61,7 @@ Lync Mobile 사용자는 자동 검색을 사용 하도록 설정 하 고 일부
 
 4.  확인 및 내부 DNS 레코드에 대 한 디렉터 풀에 대 한 호스트 A (AAAA for i p a p) 레코드가 있는 경우 디렉터 풀의 내부 웹 서비스 FQDN (정규화 된 도메인 이름)에 대 한 호스트 A 레코드가 있어야 합니다 (예:: lyncwebdir01.contoso.local). 여기에 없는 경우 디렉터 풀을 사용 하지 않고 프런트 엔드 풀 또는 단일 서버 FQDN (설치 인 경우)에 FQDN을 사용 해야 할 수 있습니다.
 
-5.  이러한 점을 염두에 두고 내부 DNS 레코드에 대 한 프런트 엔드 풀에 대해 호스트 a (AAAA for IPv6) 레코드가 있는지 확인 하 고, 프런트 엔드 풀의 내부 웹 서비스 FQDN에 대해 호스트 A (또는 AAAA) 레코드를 만들어야 합니다 (예: ,: lyncwebpool01.contoso.local) 그렇지 않은 경우에는 프런트 엔드 서버 또는 Standard Edition Server에 대 한 FQDN을 기록해 야 합니다.
+5.  이 점에 유의 하 고, 내부 DNS 레코드에 대 한 프런트 엔드 풀에 대해 호스트 a (AAAA for IPv6) 레코드가 있는지 확인 한 후 프런트 엔드 풀의 내부 웹 서비스 FQDN (예:: lyncwebpool01.contoso.local)에 대해 호스트 A (또는 AAAA) 레코드가 있어야 합니다. 그렇지 않은 경우에는 프런트 엔드 서버 또는 Standard Edition Server에 대 한 FQDN을 기록해 야 합니다.
 
 6.  호스트 A (또는 AAAA) 레코드가 있는지 확인 한 다음 DNS 서버의 콘솔 트리에서 SIP 도메인 (예: contoso.com)에 대 한 **정방향 조회 영역** 을 확장 합니다.
 
@@ -83,7 +85,7 @@ Lync Mobile 사용자는 자동 검색을 사용 하도록 설정 하 고 일부
 
 3.  이 환경에 대 한 SIP 도메인이 이미 만들어져 있어야 합니다. 이 SIP 도메인에 대 한 **정방향 조회 영역** 을 확장 하거나 사용 중인 외부 DNS 인터페이스에 따라이를 선택 합니다.
 
-4.  디렉터 풀 (예: lyncwebexdir01.contoso.com)에 대 한 호스트 A (AAAA for IPv6) 레코드가 이미 표시 되어 있는지 확인 해야 합니다. 그렇지 않은 경우에는 디렉터 풀을 사용 하지 않는 것일 수 있습니다. 이 경우 프런트 엔드 풀의 FQDN을 사용 하거나 프런트 엔드 서버 또는 Standard Edition 서버에 대해 단일 서버에 대해이 작업을 수행 해야 합니다.
+4.  디렉터 풀 (예: lyncwebexdir01.contoso.com)에 대 한 호스트 A (AAAA for IPv6) 레코드가 이미 표시 되어 있는지 확인 해야 합니다. 그렇지 않은 경우에는 디렉터 풀을 사용 하지 않는 것일 수 있습니다. 이 경우 프런트 엔드 풀의 FQDN을 사용 하거나, Front-End 서버 또는 Standard Edition server에 대 한 단일 서버에 대해이 작업을 수행 해야 합니다.
 
 5.  프런트 엔드 풀의 외부 웹 서비스 FQDN (정규화 된 도메인 이름) (예: lyncwebextpool01.contoso.com) 또는 프런트 엔드 풀이 없는 경우 단일 서버 FQDN에 대 한 FQDN에 대해 호스트 A (AAAA for IPv6) 레코드가 있는지도 확인 해야 합니다. 이전 단계에서 설명한 것 처럼 디렉터 풀이 없는 경우 아래와 같은 사항이 필요 합니다.
 
@@ -109,7 +111,7 @@ Lync Mobile 사용자는 자동 검색을 사용 하도록 설정 하 고 일부
 
 4.  확인 및 내부 DNS 레코드에 대 한 디렉터 풀에 대 한 호스트 A (AAAA for i p a p) 레코드가 있는 경우 디렉터 풀의 내부 웹 서비스 FQDN (정규화 된 도메인 이름)에 대 한 호스트 A 레코드가 있어야 합니다 (예:: lyncwebdir01.contoso.local). 여기에 없는 경우 디렉터 풀을 사용 하지 않고 프런트 엔드 풀 또는 단일 서버 IP 주소 (설치 인 경우)에 대해 IP 주소를 사용 해야 할 수 있습니다.
 
-5.  이러한 점을 염두에 두고 내부 DNS 레코드에 대 한 프런트 엔드 풀에 대해 호스트 a (AAAA for IPv6) 레코드가 있는지 확인 하 고, 프런트 엔드 풀의 내부 웹 서비스 FQDN에 대해 호스트 A (또는 AAAA) 레코드를 만들어야 합니다 (예: ,: lyncwebpool01.contoso.local) 그렇지 않으면 프런트 엔드 서버 또는 Standard Edition 서버에 대 한 IP 주소를 기록해 야 합니다.
+5.  이 점에 유의 하 고, 내부 DNS 레코드에 대 한 프런트 엔드 풀에 대해 호스트 a (AAAA for IPv6) 레코드가 있는지 확인 한 후 프런트 엔드 풀의 내부 웹 서비스 FQDN (예:: lyncwebpool01.contoso.local)에 대해 호스트 A (또는 AAAA) 레코드가 있어야 합니다. 그렇지 않으면 프런트 엔드 서버 또는 Standard Edition 서버에 대 한 IP 주소를 기록해 야 합니다.
 
 6.  호스트 A (또는 AAAA) 레코드가 있는지 확인 한 다음 DNS 서버의 콘솔 트리에서 SIP 도메인 (예: contoso.com)에 대 한 **정방향 조회 영역** 을 확장 합니다.
 
@@ -137,9 +139,9 @@ Lync Mobile 사용자는 자동 검색을 사용 하도록 설정 하 고 일부
 
 3.  외부 DNS 레코드의 경우 DNS 서버의 콘솔 트리에서 SIP 도메인(예: contoso.com)의 **정방향 조회 영역**을 확장합니다. 외부 DNS 레코드의 경우 DNS 서버의 콘솔 트리에서 SIP 도메인(예: contoso.com)의 **정방향 조회 영역**을 확장합니다.
 
-4.  디렉터 풀 (예: lyncwebexdir01.contoso.com)에 대 한 호스트 A (AAAA for IPv6) 레코드가 이미 표시 되어 있는지와 IP 주소가 있는지 확인 해야 합니다. 그렇지 않은 경우에는 디렉터 풀을 사용 하지 않는 것일 수 있습니다. 이 경우 프런트 엔드 풀의 IP 주소를 사용 하거나 프런트 엔드 서버 또는 Standard Edition 서버에 대해 단일 서버에 대해이 작업을 수행 해야 합니다. 서버가 부하 분산 장치 또는 역방향 프록시를 사용 하는 중일 수도 있습니다. 아래 단계를 수행 하는 경우에도 IP 주소를 기록해 둡니다.
+4.  디렉터 풀 (예: lyncwebexdir01.contoso.com)에 대 한 호스트 A (AAAA for IPv6) 레코드가 이미 표시 되어 있는지와 IP 주소가 있는지 확인 해야 합니다. 그렇지 않은 경우에는 디렉터 풀을 사용 하지 않는 것일 수 있습니다. 이 경우 프런트 엔드 풀의 IP 주소를 사용 하거나, Front-End 서버 또는 Standard Edition server에 대 한 단일 서버에 대해이 작업을 수행 해야 합니다. 서버가 부하 분산 장치 또는 역방향 프록시를 사용 하는 중일 수도 있습니다. 아래 단계를 수행 하는 경우에도 IP 주소를 기록해 둡니다.
 
-5.  또한 프런트 엔드 풀에 대 한 외부 웹 서비스 FQDN (정규화 된 도메인 이름) (예: lyncwebextpool01.contoso.com) 또는 단일 서버 Lync 설치용 IP 주소에 대 한 호스트 A (AAAA for IPv6) 레코드가 있는지 확인 해야 합니다. 프런트 엔드 풀이 없습니다. 이전 단계에서 설명한 것 처럼 디렉터 풀이 없는 경우 아래와 같은 사항이 필요 합니다.
+5.  프런트 엔드 풀의 외부 웹 서비스 FQDN (정규화 된 도메인 이름) (예: lyncwebextpool01.contoso.com) 또는 프런트 엔드 풀이 없는 경우 단일 서버 Lync 설치의 IP 주소에 대해 호스트 A (AAAA for IPv6) 레코드가 있는지도 확인 해야 합니다. 이전 단계에서 설명한 것 처럼 디렉터 풀이 없는 경우 아래와 같은 사항이 필요 합니다.
 
 6.  이제 외부 DNS 공급자에 적합 한 형식으로 **새 호스트 a 또는 AAAA** 를 만드는 옵션 (DNS 공급자의 형식에 따라 메뉴 옵션 또는 링크 일 수 있음)을 선택 합니다.
 

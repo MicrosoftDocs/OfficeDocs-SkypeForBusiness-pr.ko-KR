@@ -12,20 +12,22 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04614e970064f765e24b86b6e875d1fb284b3fbc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f43a2c86dcbd88f8e9af4ae54f302b4abc943fc0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529975"
 ---
+# <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>중앙 로깅 서비스에 시작을 사용 하 여 Lync Server 2013에서 로그 캡처
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>중앙 로깅 서비스에 시작을 사용 하 여 Lync Server 2013에서 로그 캡처
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 
 > [!NOTE]
-> 명령줄에서 사용할 수 있는 제한 된 명령 집합을 사용 하려는 경우에는 CLSController .exe와 함께 입력 <CODE>ClsController.exe</CODE>하 여 도움을 받을 수 있습니다. 기본적으로 <STRONG>Clscontroller</STRONG> 는 디렉터리 C:\Program Files\Microsoft Lync Server 2013 \ clscontroller에 설치 됩니다.
+> 명령줄에서 사용할 수 있는 제한 된 명령 집합을 사용 하려는 경우에는 입력 하 여 CLSController.exe에 대 한 지원을 받을 수 있습니다 <CODE>ClsController.exe</CODE> . 기본적으로 <STRONG>ClsController.exe</STRONG> 는 C:\Program Files\Microsoft Lync Server 2013 \ clsagent 디렉터리에 설치 됩니다.
 
 
 
@@ -57,7 +59,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 <div>
 
-## <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>기본 명령을 사용 하 여 Windows PowerShell을 사용 하 여 CsClsLogging을 실행 하려면
+## <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>기본 명령을 사용 하 여 Windows PowerShell을 사용 하 여 Start-CsClsLogging를 실행 하려면
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
@@ -108,7 +110,7 @@ _**마지막으로 수정 된 항목:** 2013-02-21_
 
 <div>
 
-## <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>고급 명령을 사용 하 여 Windows PowerShell을 통해 시작 CsClsLogging을 실행 하려면
+## <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>고급 명령을 사용 하 여 Windows PowerShell에서 Start-CsClsLogging를 실행 하려면
 
 1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 

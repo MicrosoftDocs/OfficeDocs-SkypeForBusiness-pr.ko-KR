@@ -12,20 +12,22 @@ ms:contentKeyID: 48185394
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2daba0f4e37a07065edf6a9c80955047a7d26b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7294c70a0ebfd49f954bbe911d2fccb81d79fa54
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212954"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530105"
 ---
+# <a name="useragentdef-table-qoe-in-lync-server-2013"></a>Lync Server 2013의 UserAgentDef 테이블 (QoE)
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="useragentdef-table-qoe-in-lync-server-2013"></a>Lync Server 2013의 UserAgentDef 테이블 (QoE)
+
 
 </div>
 
@@ -55,7 +57,7 @@ UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 �
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>개</p></td>
+<td><p>1 </p></td>
 <td><p>MediationServer</p></td>
 <td><p>MediationServer</p></td>
 </tr>
@@ -65,7 +67,7 @@ UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 �
 <td><p>AV-MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>1-4</p></td>
+<td><p>4 </p></td>
 <td><p>NM-OC-14-2ND</p></td>
 <td><p>NM-OC-14-2ND</p></td>
 </tr>
@@ -96,8 +98,8 @@ UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 �
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>교환</p></td>
-<td><p>교환</p></td>
+<td><p>도우미</p></td>
+<td><p>도우미</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>

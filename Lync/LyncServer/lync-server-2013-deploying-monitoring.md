@@ -12,20 +12,22 @@ ms:contentKeyID: 48183442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 49d62537f91145803f60f51c18b86816a0af657f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6fd56d0c06c9c81eda8cd1d7ef64b57da3219f3e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195261"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531175"
 ---
+# <a name="deploying-monitoring-in-lync-server-2013"></a>Lync Server 2013에서 모니터링 배포
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-monitoring-in-lync-server-2013"></a>Lync Server 2013에서 모니터링 배포
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**마지막으로 수정 된 항목:** 2013-12-17_
 
 
 > [!NOTE]  
-> 풀에 대해 모니터링을 사용 하도록 설정한 경우에는 토폴로지를 변경 하지 않고 모니터링 데이터를 수집 하는 프로세스를 사용 하지 않도록 설정할 수 있습니다. Lync Server 관리 셸을 사용 하지 않도록 설정 하는 방법을 제공 합니다. (QoE) 데이터 수집 (환경) 자세한 내용은이 문서의 통화 정보 기록 및 품질 설정 구성 섹션을 참조 하세요.
+> 풀에 대해 모니터링을 사용 하도록 설정 된 경우에는 토폴로지를 변경 하지 않고 모니터링 데이터를 수집 하는 프로세스를 사용 하지 않도록 설정할 수 있습니다. Lync Server 관리 셸을 사용 하 여 나중에 CDR (통화 정보 기록) 또는 QoE (체감 품질) 데이터 수집을 해제 합니다. 자세한 내용은이 문서의 통화 정보 기록 및 품질 설정 구성 섹션을 참조 하세요.
 
 
 
@@ -77,7 +79,7 @@ Lync Server 2013의 모니터링에 대 한 또 다른 중요 한 향상 된 기
 
 
 > [!NOTE]  
-> SQL Server 에이전트 서비스 시작 유형이 자동이 고 모니터링 데이터베이스를 보유 하 고 있는 SQL 인스턴스에 대해 SQL Server 에이전트 서비스가 실행 되 고 있는지 확인 하 여 기본 모니터링 SQL Server 유지 관리 작업을 예약 된 시간에 실행할 수 있도록 합니다. SQL Server 에이전트 서비스의 제어 합니다.
+> Sql Server 에이전트 서비스 시작 유형이 자동이 고 sql server 에이전트 서비스가 모니터링 데이터베이스를 보유 하 고 있는 SQL 인스턴스에 대해 실행 되 고 있는지 확인 하 여 SQL server 에이전트 서비스의 제어 하에서 기본 모니터링 SQL Server 유지 관리 작업을 예약 된 방식으로 실행할 수 있도록 합니다.
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d950bd62b2db91f60dd5828f79977472a9c5d573
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 677fdd070994c8cc1f63f775ffb2569642768f0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212674"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529945"
 ---
+# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Lync Server 2013에서 Lync 대화방 시스템 관리 웹 포털 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Lync Server 2013에서 Lync 대화방 시스템 관리 웹 포털 사용
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2014-11-10_
 
 1.  다음 URL로 이동 합니다.
     
-    https://\<fe-server\>/lrs
+    https:// \<fe-server\> /lrs
 
 2.  LRSSupportAdminGroup 보안 그룹에 추가 된 LRSSupport 계정 또는 계정에 대 한 자격 증명을 입력 합니다.
 
@@ -59,15 +61,15 @@ _**마지막으로 수정 된 항목:** 2014-11-10_
 
 요약 페이지에서는 서버에 배포 된 모든 LRS에 대해 다음 정보를 제공 합니다.
 
-  - ****   관리자가 대화방에 제공 하는 사용자 지정 이름에 태그를 적용 합니다. 룸 이름을 클릭 하 여 포털에서 태그를 설정할 수 있습니다.
+  - **태그**     관리자가 대화방에 제공 하는 사용자 지정 이름입니다. 룸 이름을 클릭 하 여 포털에서 태그를 설정할 수 있습니다.
 
-  - **Health**   대화방의 상태 (대화방 설정 페이지의 상태 섹션 아래에 표시 되는 대화방의 집계 상태에서 파생 됨)에 대 한 상태입니다.
+  - **상태**     대화방의 상태 (대화방 설정 페이지의 상태 섹션 아래에 표시 됨)의 집계 상태를 통해 파생 됩니다.
 
-  - **다음 모임**   다음 모임이 예약 된 날짜와 시간입니다.
+  - **다음 모임**     다음 모임이 예약 된 날짜 및 시간입니다.
 
-  - **LRS 버전, 제조업체, 모델**   이러한 값은 LRS에서 미리 설정 되어 있습니다. 제조업체에 따라 이러한 필드는 비어 있을 수 있습니다.
+  - **LRS 버전, 제조업체, 모델**     이러한 값은 LRS에서 미리 설정 됩니다. 제조업체에 따라 이러한 필드는 비어 있을 수 있습니다.
 
-  - **마지막 새로 고침**   웹 페이지를 마지막으로 새로 고친 시간을 표시 합니다.
+  - **마지막 새로 고침**     웹 페이지를 마지막으로 새로 고친 시간을 표시 합니다.
 
 ![Lync 대화방 시스템 관리 포털 요약 보기](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Lync 대화방 시스템 관리 포털 요약 보기")
 
@@ -145,13 +147,13 @@ Health (상태) 섹션에는 Lync Server 연결, 오디오 장치, 비디오 장
 
 <div>
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>FAQ
 
 <div>
 
 ## <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>관리 웹 포털에 로그인 할 수 없는 이유는 무엇 인가요?
 
-  - 을 (를 https://localhost/lrs) 열면 로그인 페이지를 볼 수 있지만 자격 증명에 입력 하는 경우 로그인 할 수 없습니다. 이 경우에는를 열고 https://FQDNofFEserver/lrs 관리 웹 포털에 로그인 합니다.
+  - https://localhost/lrs을 (를) 열면 로그인 페이지를 볼 수 있지만 자격 증명에 입력 하는 경우 로그인 할 수 없습니다. 이 경우에는를 열고 https://FQDNofFEserver/lrs 관리 웹 포털에 로그인 합니다.
 
   - 관리 웹 포털에 액세스 하는 컴퓨터가 작업 그룹에 있는 경우에는 "http://"이 작동 하지 않습니다. 대신 "https"를 사용 합니다.
 
@@ -173,7 +175,7 @@ Health (상태) 섹션에는 Lync Server 연결, 오디오 장치, 비디오 장
 
   - LRSApp 사용자 계정이 SIP를 사용할 수 있도록 설정 되어 있는지 확인 합니다.
 
-  - 여전히 문제가 있는 경우 D:\\Tracing\\LRSAdminLogs\\의 LRS 시스템에서 **추적** 파일을 수집한 다음 LRS 지원 담당자에 게 보냅니다.
+  - 여전히 문제가 있는 경우 D: Tracing LRSAdminLogs의 LRS 시스템에서 **추적** 파일을 수집한 \\ \\ \\ 다음 LRS 지원 담당자에 게 보냅니다.
 
 </div>
 

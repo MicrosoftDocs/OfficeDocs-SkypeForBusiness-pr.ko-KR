@@ -12,20 +12,22 @@ ms:contentKeyID: 48184878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54d3825891fe6934699e310073825e50a4aee731
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c20bd593e11f032ba0a0ed852a50b6d417fa604
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213781"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531095"
 ---
+# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Lync Server 2013의 웹 회의에 대 한 배포 검사 목록
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Lync Server 2013의 웹 회의에 대 한 배포 검사 목록
+
 
 </div>
 
@@ -105,7 +107,7 @@ _**마지막으로 수정 된 항목:** 2012-09-30_
 
 Lync Server 2013에는 모임 중에 업로드할 수 있는 파일의 크기를 제한 하는 **MaxUploadFileSizeMb** 설정이 포함 되어 있습니다. 이 설정의 기본값은 500MB입니다. **Set-CsConferencingConfiguration** cmdlet을 사용하여 **MaxUploadFileSizeMb**를 조정할 수 있습니다.
 
-**MaxUploadFileSizeMb** 에서는 Lync Web App에 대 한 파일 업로드 설정이 제한 되지 않습니다. Lync Web App에 대 한 파일 크기 업로드 제한은 대략 30MB로 설정 되어 있으며 IIS web.config 파일:/DataCollabWeb/Int\[Ext\]/Handler/web.config. 의해 제어 됩니다. Lync Web App에 대 한 파일 크기 업로드 제한을 구성 하려면 아래 `maxRequestLength` 와 `maxAllowedContentLength` 같이 web.config 파일을 업데이트 합니다.
+**MaxUploadFileSizeMb** 에서는 Lync Web App에 대 한 파일 업로드 설정이 제한 되지 않습니다. Lync Web App에 대 한 파일 크기 업로드 제한은 대략 30MB으로 설정 되며 IIS web.config file:/Datacol Web/int \[ Ext \] /Handler/web.config에 의해 제어 됩니다. Lync Web App에 대 한 파일 크기 업로드 제한을 구성 하려면 `maxRequestLength` 아래에 `maxAllowedContentLength` 나와 있는 대로 web.config 파일을 업데이트 하십시오.
 
     <system.web>
         <!-- 
@@ -125,7 +127,7 @@ Lync Server 2013에는 모임 중에 업로드할 수 있는 파일의 크기를
                     </requestFiltering>
                     </security>
 
-각 프런트 엔드 서버에 대해 web.config 파일을 업데이트 해야 합니다.
+각 프런트 엔드 서버에 대 한 web.config 파일을 업데이트 해야 합니다.
 
 </div>
 

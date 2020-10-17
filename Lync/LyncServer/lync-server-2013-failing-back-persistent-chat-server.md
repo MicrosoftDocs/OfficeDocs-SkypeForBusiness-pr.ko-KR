@@ -12,20 +12,22 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1da806e476635543e0afeafee8b7c195cf21cfc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2132af73fec67ace0bffd6db1836071cb8fc2d06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202294"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531005"
 ---
+# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013에서 영구 채팅 서버 장애 복구 (failback)
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013에서 영구 채팅 서버 장애 복구 (failback)
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**마지막으로 수정 된 항목:** 2014-02-05_
 
 ## <a name="to-fail-back-persistent-chat-server"></a>영구 채팅 서버를 장애 복구 하려면
 
-1.  Lync Server 관리 셸에서 `Set-CsPersistentChatActiveServer` cmdlet을 사용 하 여 영구 채팅 서버 활성 서버 목록에서 모든 서버를 지웁니다. 이 작업을 수행 하면 장애 복구 중에 모든 영구 채팅 서버가 mgc 데이터베이스 및 mgccomp 데이터베이스에 연결 하지 못합니다.
+1.  Lync Server 관리 셸에서 cmdlet을 사용 하 여 영구 채팅 서버 활성 서버 목록에서 모든 서버를 지웁니다 `Set-CsPersistentChatActiveServer` . 이 작업을 수행 하면 장애 복구 중에 모든 영구 채팅 서버가 mgc 데이터베이스 및 mgccomp 데이터베이스에 연결 하지 못합니다.
     
     <div>
     
@@ -91,7 +93,7 @@ _**마지막으로 수정 된 항목:** 2014-02-05_
     
     5.  **이름**에 제안된 기본 백업 집합 이름을 사용하거나 백업 집합에 대해 다른 이름을 입력합니다.
     
-    6.  * \<선택\> 사항* **설명**에 백업 집합에 대 한 설명을 입력 합니다.
+    6.  *\<Optional\>***설명**에 백업 집합에 대 한 설명을 입력 합니다.
     
     7.  대상 목록에서 기본 백업 위치를 제거합니다.
     

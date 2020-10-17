@@ -12,20 +12,22 @@ ms:contentKeyID: 48184674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 037625d0efea2ae53cd4923a0a7cccce4a890098
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b5dac5c800f2e11829940445f9ebfe28c1a95c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204548"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531695"
 ---
+# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>Lync Server 2013의 알림 구성 선행 조건 및 역할
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>Lync Server 2013의 알림 구성 선행 조건 및 역할
+
 
 </div>
 
@@ -69,13 +71,13 @@ _**마지막으로 수정 된 항목:** 2013-02-25_
 
 알림 응용 프로그램을 구성 하려면 다음 관리 역할 중 하나가 필요 합니다.
 
-  - **CsVoiceAdministrator**   이 관리자 역할은 알림 설정을 비롯 한 모든 음성 관련 설정 및 정책을 만들고 구성 하 고 관리할 수 있습니다.
+  - **CsVoiceAdministrator**     이 관리자 역할은 알림 설정을 비롯 하 여 모든 음성 관련 설정 및 정책을 만들고 구성 하 고 관리할 수 있습니다.
 
-  - **Csserveradministrator**   이 관리자 역할은 서버 및 서비스를 관리 및 모니터링 하 고 문제를 해결 하 고 모든 알림 설정을 구성할 수 있습니다.
+  - **Csserveradministrator**     이 관리자 역할은 서버 및 서비스를 관리 및 모니터링 하 고 문제를 해결 하 고 모든 알림 설정을 구성할 수 있습니다.
 
-  - **Csadministrator**   이 관리자 역할은 모든 관리 작업을 수행 하 고 모든 설정을 수정할 수 있습니다.
+  - **Csadministrator**     이 관리자 역할은 모든 관리 작업을 수행 하 고 모든 설정을 수정할 수 있습니다.
 
-  - **Csviewonly 관리자**   이 관리자 역할은 배포를 보고 배포 상태를 모니터링할 수 있습니다.
+  - **Csviewonly 관리자**     이 관리자 역할은 배포를 보고 배포 상태를 모니터링할 수 있습니다.
 
 <div>
 

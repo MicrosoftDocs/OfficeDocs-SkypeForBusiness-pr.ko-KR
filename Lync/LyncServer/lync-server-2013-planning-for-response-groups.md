@@ -12,20 +12,22 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ec702870cffcd6801cf125d2cc130dbe15b9481
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a4be9b6d89f58be67eb341d051d025b795f7feb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184081"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530565"
 ---
+# <a name="planning-for-response-groups-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹 계획
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-response-groups-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹 계획
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42184081"
 
 _**마지막으로 수정 된 항목:** 2012-06-19_
 
-조직에 고객 서비스, 내부 지원 센터 또는 부서에 대 한 일반 전화 지원과 같이 특정 유형의 통화를 응답 하 고 관리 하는 사용자 그룹이 있는 경우 Lync Server 응답 그룹 응용 프로그램을 배포 하 여 이러한 유형을 관리할 수 있습니다. 입니다. 응답 그룹 응용 프로그램은 지정 된 사람에 게 에이전트로 알려진 수신 전화를 라우팅하고 큐에 대기 시킵니다. 응답 그룹을 사용하여 전화 지원 서비스 사용을 늘리고 이러한 서비스를 실행하는 오버헤드를 줄일 수 있습니다. 이 섹션에서는 응답 그룹에 대 한 계획 고려 사항을 설명 합니다.
+조직에 고객 서비스, 내부 지원 센터 또는 부서에 대 한 일반 전화 지원과 같은 특정 유형의 통화를 응답 하 고 관리 하는 사용자 그룹이 있는 경우 Lync Server 응답 그룹 응용 프로그램을 배포 하 여 이러한 유형의 호출을 관리할 수 있습니다. 응답 그룹 응용 프로그램은 지정 된 사람에 게 에이전트로 알려진 수신 전화를 라우팅하고 큐에 대기 시킵니다. 응답 그룹을 사용하여 전화 지원 서비스 사용을 늘리고 이러한 서비스를 실행하는 오버헤드를 줄일 수 있습니다. 이 섹션에서는 응답 그룹에 대 한 계획 고려 사항을 설명 합니다.
 
 <div>
 

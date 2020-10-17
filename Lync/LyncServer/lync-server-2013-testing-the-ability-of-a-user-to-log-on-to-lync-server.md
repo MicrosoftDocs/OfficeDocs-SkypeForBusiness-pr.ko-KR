@@ -12,20 +12,22 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541870c2dc9bf5fde0ce2a339b07b894feb83082
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ac7f02d18f1b270b3a58a7ece84cb3a859b32b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193851"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530475"
 ---
+# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Lync Server 2013에 로그온 하는 사용자 기능 테스트
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Lync Server 2013에 로그온 하는 사용자 기능 테스트
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 <tr class="odd">
 <td><p>필요한 권한</p></td>
 <td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우, 사용자에 게는 CsRegistration cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 받아야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 사용자에 게 Test-CsRegistration cmdlet을 실행 하는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsRegistration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="description"></a>설명
 
-테스트-CsRegistration cmdlet을 사용 하 여 조직의 사용자가 Lync Server에 로그온 할 수 있는지 확인 합니다. 테스트-CsRegistration을 실행할 때 cmdlet은 테스트 사용자에 게 Lync Server에 로그인을 시도 하 고 성공한 경우 시스템에서 해당 테스트 사용자의 연결을 끊습니다. 이 작업은 모두 사용자 상호 작용 없이, 실제 사용자에게 영향을 미치지 않고 수행됩니다. 예를 들어 테스트 계정 sip:kenmyer@litwareinc.com 실제 Lync Server 계정을 가진 실제 사용자에 해당 한다고 가정 합니다. 이 경우 실제 Ken Myer를 방해하지 않고 테스트가 수행됩니다. Ken Myer 테스트 계정이 시스템에서 로그오프해도 사람 Ken Myer는 계속 로그온 상태로 남아 있게 됩니다.
+Test-CsRegistration cmdlet을 사용 하 여 조직의 사용자가 Lync Server에 로그온 할 수 있는지 확인 합니다. 테스트-CsRegistration을 실행할 때 cmdlet은 테스트 사용자에 게 Lync Server에 로그인을 시도 하 고 성공한 경우 시스템에서 해당 테스트 사용자의 연결을 끊습니다. 이 작업은 모두 사용자 상호 작용 없이, 실제 사용자에게 영향을 미치지 않고 수행됩니다. 예를 들어 테스트 계정 sip:kenmyer@litwareinc.com 실제 Lync Server 계정을 가진 실제 사용자에 해당 한다고 가정 합니다. 이 경우 실제 Ken Myer를 방해하지 않고 테스트가 수행됩니다. Ken Myer 테스트 계정이 시스템에서 로그오프해도 사람 Ken Myer는 계속 로그온 상태로 남아 있게 됩니다.
 
 </div>
 
@@ -74,7 +76,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
 
 ## <a name="running-the-test"></a>테스트 실행
 
-테스트-CsRegistration cmdlet은 미리 구성 된 테스트 계정 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 등록자 풀의 FQDN만 지정 하면 됩니다. 예:
+Test-CsRegistration cmdlet은 미리 구성 된 테스트 계정 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 등록자 풀의 FQDN만 지정 하면 됩니다. 예제:
 
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -123,11 +125,11 @@ Microsoft DiagnosticHeader
 
     Get-CsUser "sip:kenmyer@litwareinc.com"
 
-테스트-CsRegistration이 실패 하는 경우 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
+Test-CsRegistration 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose 매개 변수가 포함 된 경우 테스트-CsRegistration은 지정 된 사용자가 Lync Server에 로그온 할 수 있는지 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예:
+Verbose 매개 변수를 포함 하면 Test-CsRegistration는 지정 된 사용자가 Lync Server에 로그온 할 수 있는지 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다. 예제:
 
 VERBOSE: ' 등록 ' 활동이 시작 되었습니다.
 
@@ -151,7 +153,7 @@ VERBOSE: ' 등록 ' 활동이 시작 되었습니다.
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-테스트-CsRegistration이 실패할 수 있는 일반적인 이유는 다음과 같습니다.
+Test-CsRegistration 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.
 
   - 잘못 된 사용자 계정을 지정 했습니다. 다음과 같은 명령을 실행 하 여 사용자 계정이 있는지 확인할 수 있습니다.
     

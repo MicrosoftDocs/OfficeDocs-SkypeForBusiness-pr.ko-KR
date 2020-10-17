@@ -12,20 +12,22 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffc2aed62b9ad26fd1498787ecd3d58144a005b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bb614726458f2cf9c77bdfe740ddb13d99d54f2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212644"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529925"
 ---
+# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>공존 시나리오에서 Lync Server 2010 관리 팩 사용
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>공존 시나리오에서 Lync Server 2010 관리 팩 사용
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2012-10-22_
 
 Lync Server 2010에서는 중앙 관리 저장소와 함께 저장 된 토폴로지 문서를 통해 Lync Server 컴퓨터를 검색 했습니다. 이 구성에서는 단일 컴퓨터에서 다른 모든 Lync Server 컴퓨터가 있는지 여부를 보고 합니다.
 
-Lync Server 2013의 관리 팩은 이제 Lync Server 2010에서 사용 된 중앙 검색 메커니즘 대신 컴퓨터 수준 검색을 사용 합니다. 즉, 각 System Center 에이전트가 자신의 상태를 검색해서 이를 System Center Operations Manager에 보고합니다. 컴퓨터 수준 검색을 사용 하면 시스템 센터 인프라를 간편 하 게 관리할 수 있으며 lync server 관리 팩의 다양 한 버전 (예: lync server 2010 및 Lync Server 2013 용 관리 팩)을 사용 하도록 설정할 수도 있습니다. 보다 쉽게 사용할 수 있습니다.
+Lync Server 2013의 관리 팩은 이제 Lync Server 2010에서 사용 된 중앙 검색 메커니즘 대신 컴퓨터 수준 검색을 사용 합니다. 즉, 각 System Center 에이전트가 자신의 상태를 검색해서 이를 System Center Operations Manager에 보고합니다. 컴퓨터 수준 검색을 사용 하면 시스템 센터 인프라를 간편 하 게 관리할 수 있으며 lync server 관리 팩 (예: lync server 2010 및 Lync Server 2013 용 관리 팩)의 다양 한 버전을 보다 편리 하 게 사용 하도록 설정할 수도 있습니다.
 
 이 마이그레이션을 지원 하려면 먼저 기존 Lync Server 2010 모니터링을 업그레이드 하 여 범위에 대 한 차이를 방지 해야 합니다. 이렇게 하려면 중앙 관리 저장소를 Lync Server 2013로 업그레이드 하기 전에 Lync Server 2010에 대 한 중앙 검색 스크립트를 서비스 하기 위해 기존 Lync Server 2010 컴퓨터를 선택 합니다. 이 프로세스는 다음 4단계로 구성됩니다.
 
@@ -59,7 +61,7 @@ Lync Server 2013의 관리 팩은 이제 Lync Server 2010에서 사용 된 중�
 
 중앙 검색을 처리 하기 위해 중앙 집중식 관리 저장소 컴퓨터 (예: Lync Server 프런트 엔드) 서버를 위한 비 중앙 관리 저장소 서버에 다음과 같은 레지스트리 키를 만들어야 합니다.
 
-HKLM\\Software\\Microsoft\\실시간 통신\\상태\\만들어졌으면 centraldiscoverycandidate
+HKLM \\ Software \\ Microsoft \\ 실시간 통신 \\ 상태 \\ 만들어졌으면 centraldiscoverycandidate
 
 이 레지스트리 키는 다음 절차에 따라 만들 수 있습니다.
 
@@ -67,7 +69,7 @@ HKLM\\Software\\Microsoft\\실시간 통신\\상태\\만들어졌으면 centrald
 
 2.  **실행** 대화 상자에 **regedit**를 입력한 다음 Enter 키를 누릅니다.
 
-3.  레지스트리 편집기에서 **\_HKEY 로컬\_컴퓨터**를 확장 하 고 **소프트웨어**, **Microsoft**를 차례로 확장 한 다음 **실시간 통신**을 확장 합니다.
+3.  레지스트리 편집기에서 **HKEY \_ 로컬 \_ 컴퓨터**를 확장 하 고 **소프트웨어**, **Microsoft**를 차례로 확장 한 다음 **실시간 통신**을 확장 합니다.
 
 4.  **Health**를 마우스 오른쪽 단추로 클릭하고, **새로 만들기**를 클릭한 후 **키**를 클릭합니다. **Health** 키가 없으면 **Real-Time Communications**를 마우스 오른쪽 단추로 클릭하고 **새로 만들기**를 가리킨 후 **키**를 클릭합니다. 새 키가 만들어졌으면 Health를 입력한 후 Enter 키를 누릅니다.
     

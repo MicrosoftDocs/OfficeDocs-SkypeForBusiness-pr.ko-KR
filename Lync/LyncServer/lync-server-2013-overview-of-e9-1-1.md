@@ -12,20 +12,22 @@ ms:contentKeyID: 48185290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345116ebdd353fccf85f05a4a3f3ffc82fab6de2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ce1c97914abf8e5db393cd932c0a453885e86a5c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530625"
 ---
+# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Lync Server 2013의 E9-1-1 개요
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Lync Server 2013의 E9-1-1 개요
+
 
 </div>
 
@@ -58,9 +60,9 @@ ELIN 게이트웨이를 사용 하는 경우에도 위치 정보 서비스 데�
 > Lync 연결 아날로그 장치는 위치 정보 서비스에서 위치 정보를 수신 하거나 E9-1-1 서비스 공급자로 전송 위치를 수신할 수 없습니다. SIP 트렁크 E9-1-1 서비스 공급자 옵션을 사용하며 아날로그 전화에서 E9-1-1을 지원해야 하는 경우에는 두 가지 옵션이 있습니다. 
 > <UL>
 > <LI>
-> <P><STRONG>전통적인 p-ALI 옵션</STRONG>&nbsp;&nbsp;&nbsp;아날로그 전화가 배포 되는 각 사이트에 로컬 PSTN 게이트웨이가 있는 경우에는 개인 스위치/자동 위치 식별 (PS-ALI) 서비스 공급자를 사용 하 여 직접 아날로그 장치의 위치를 프로 비전 할 수 있습니다. 이 경우 이러한 전화로부터 걸려온 E9-1-1 통화를 E9-1-1 서비스 공급자 SIP 트렁크로 라우팅하는 대신 통화가 로컬 게이트웨이를 통해 사이트에 서비스를 제공하는 PSTN 공급자로 직접 라우팅되도록 특수하게 만들어진 Lync 음성 정책을 구성하여 아날로그 장치 연락처 개체에 할당할 수 있습니다. 긴급 통화가 걸려오면 PSTN 트렁크와 연결된 PS-ALI 공급자의 데이터베이스가 각 아날로그 전화의 DID를 실제 위치에 매핑하고 이 위치를 PSAP에 제공합니다. 전화가 다른 ERL로 이동될 때마다 PS-ALI 서비스 공급자에서 이러한 레코드가 업데이트되어야 합니다.</P>
+> <P><STRONG>기존 p-ALI 옵션</STRONG> &nbsp; &nbsp; &nbsp; 아날로그 전화가 배포 되는 각 사이트에 로컬 PSTN 게이트웨이가 있고 각 아날로그 전화에가 있는 경우에는 개인 스위치/자동 위치 식별 (ALI) 서비스 공급자를 사용 하 여 직접 아날로그 장치의 위치를 프로 비전 할 수 있습니다. 이 경우 이러한 전화로부터 걸려온 E9-1-1 통화를 E9-1-1 서비스 공급자 SIP 트렁크로 라우팅하는 대신 통화가 로컬 게이트웨이를 통해 사이트에 서비스를 제공하는 PSTN 공급자로 직접 라우팅되도록 특수하게 만들어진 Lync 음성 정책을 구성하여 아날로그 장치 연락처 개체에 할당할 수 있습니다. 긴급 통화가 걸려오면 PSTN 트렁크와 연결된 PS-ALI 공급자의 데이터베이스가 각 아날로그 전화의 DID를 실제 위치에 매핑하고 이 위치를 PSAP에 제공합니다. 전화가 다른 ERL로 이동될 때마다 PS-ALI 서비스 공급자에서 이러한 레코드가 업데이트되어야 합니다.</P>
 > <LI>
-> <P><STRONG>E9-1-1 서비스 공급자 옵션</STRONG>&nbsp;&nbsp;&nbsp;E9-1-1 서비스 공급자가 지원 하는 경우 E9-1-1 서비스 공급자에 아날로그 전화 dids 및 해당 erls를 등록할 수 있습니다. 공급자가 PIDF-로 데이터를 포함 하지 않는 Lync Server의 호출을 수신 하는 경우 공급자는 통화 당사자의 번호에 일치 하는 데이터베이스가 있는지 여부를 확인할 수 있습니다. 공급자는 데이터베이스에서 검색 된 ERL를 사용 하 여 올바른 PSAP로 긴급 통화를 자동으로 라우트할 수 있으며, PSAP는 발송자가 발신자의 위치를 조회할 수 있도록 하는 아날로그 장치 및 ESQK 레코드를 수신 합니다.</P></LI></UL>ELIN 게이트웨이 옵션을 사용하며 아날로그 장치에서 E9-1-1을 지원해야 하는 경우에는 위의 첫 번째 옵션에 설명되어 있는 것처럼 PS-ALI 서비스 공급자를 통해 직접 아날로그 장치의 위치를 프로비전할 수 있습니다.</div>
+> <P><STRONG>E9-1-1 서비스 공급자 옵션</STRONG> &nbsp; &nbsp; &nbsp; E9-1-1 서비스 공급자가 지 원하는 경우 아날로그 전화 DIDs 및 해당 ERLs를 E9-1-1 서비스 공급자에 등록할 수 있습니다. 공급자가 PIDF-로 데이터를 포함 하지 않는 Lync Server의 호출을 수신 하는 경우 공급자는 통화 당사자의 번호에 일치 하는 데이터베이스가 있는지 여부를 확인할 수 있습니다. 공급자는 데이터베이스에서 검색 된 ERL를 사용 하 여 올바른 PSAP로 긴급 통화를 자동으로 라우트할 수 있으며, PSAP는 발송자가 발신자의 위치를 조회할 수 있도록 하는 아날로그 장치 및 ESQK 레코드를 수신 합니다.</P></LI></UL>ELIN 게이트웨이 옵션을 사용하며 아날로그 장치에서 E9-1-1을 지원해야 하는 경우에는 위의 첫 번째 옵션에 설명되어 있는 것처럼 PS-ALI 서비스 공급자를 통해 직접 아날로그 장치의 위치를 프로비전할 수 있습니다.</div>
 
 Lync Server 측면에서 E9-1-1 프로세스를 두 단계로 분리할 수 있습니다.
 

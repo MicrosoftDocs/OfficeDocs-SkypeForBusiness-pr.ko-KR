@@ -12,20 +12,22 @@ ms:contentKeyID: 48184450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24aa85ea7dfdd76b20af30954ea2480fba2f21f5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 853dfdd6786b4e30513cb57be219edff8d8c1b9b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204284"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530975"
 ---
+# <a name="failing-over-a-mirrored-database-in-lync-server-2013"></a>Lync Server 2013에서 미러된 데이터베이스 장애 조치 (failover)
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-a-mirrored-database-in-lync-server-2013"></a>Lync Server 2013에서 미러된 데이터베이스 장애 조치 (failover)
+
 
 </div>
 
