@@ -15,7 +15,7 @@
 ### [토폴로지 기본 사항](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [참조 토폴로지](../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### 요구 사항 
-####[시스템 요구 사항](../plan/system-requirements.md)
+#### [시스템 요구 사항](../plan/system-requirements.md)
 #### [부하 분산 요구 사항](../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [네트워크 요구 사항](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [IPv6](../../SfbServer/plan-your-deployment/network-requirements/ipv6.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -97,7 +97,7 @@
 #### [회사번호로 전화](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [원격 통화 컨트롤](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### 클라우드 음성 메일
-#####[클라우드 음성 메일 계획](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+##### [클라우드 음성 메일 계획](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [클라우드 음성 메일 설정](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### 클라우드 자동 전화 교환
 ##### [클라우드 자동 전화 교환 계획](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)

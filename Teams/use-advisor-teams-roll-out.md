@@ -17,14 +17,15 @@ appliesto:
 localization_priority: Priority
 f1.keywords:
 - CSH
-ms.custom: ''
+ms.custom:
+- ms.teamsadmincenter.deploymentadvisor.overview
 description: 'Advisor for Teams로 Microsoft Teams 사용을 계획하고 성공적으로 배포하세요.  '
-ms.openlocfilehash: 4315ab438131e6b7e119a3e0dc48fee661190552
-ms.sourcegitcommit: 272995feb5661712668404ba57ce7afdf3b848be
+ms.openlocfilehash: 00ec8303c73df100b93808f5fdc1e775f80ec289
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2020
-ms.locfileid: "47474647"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503425"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
