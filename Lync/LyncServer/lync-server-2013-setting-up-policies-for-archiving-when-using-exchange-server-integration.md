@@ -1,5 +1,6 @@
 ---
 title: Exchange Server 통합을 사용할 때 보관용 정책 설정
+description: Exchange Server 통합을 사용할 때 보관 정책 설정
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a63392507579a64aede11adb2bf327d0d6d56aa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8281d27101c049b1029a2005ed062a934438afc5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521865"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579464"
 ---
 # <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a>Exchange Server 통합을 사용 하는 경우 Lync Server 2013에서 보관용 정책 설정
 

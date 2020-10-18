@@ -1,5 +1,6 @@
 ---
 title: 역방향 HTTP 프록시에 대 한 인증서 요청 및 구성
+description: 역방향 HTTP 프록시에 대 한 인증서를 요청 하 고 구성 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7651e3da61e5ca197d36ca59ad8216af4c0188af
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bdeaa080e3ccb6a9895e18a6ac02084e99a1e33e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511985"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579044"
 ---
 # <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Lync Server 2013에서 역방향 HTTP 프록시에 대 한 인증서 요청 및 구성
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 운영 종속성'
+description: 'Lync Server 2013: 작동 종속성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969597
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e506fbbe204b7248396c25c3728556c61681cbf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4e240981f5dfded7c27f123c8483794ea3ffedff
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526575"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579194"
 ---
 # <a name="operational-dependencies-in-lync-server-2013"></a>Lync Server 2013의 작동 종속성
 

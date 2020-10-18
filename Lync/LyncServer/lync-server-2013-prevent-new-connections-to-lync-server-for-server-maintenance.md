@@ -1,5 +1,6 @@
 ---
 title: 서버 유지 관리를 위한 Lync Server의 새 연결 금지
+description: 서버 유지 관리를 위해 Lync Server에 대 한 새 연결을 차단 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd1881050e5226df9c36d3b92194e27e1123df13
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fd676467cdd6b5bb430f972e48c2f3a53f3f6f14
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513265"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579834"
 ---
 # <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>서버 유지 관리를 위해 Lync Server 2013에 대 한 새 연결 차단
 

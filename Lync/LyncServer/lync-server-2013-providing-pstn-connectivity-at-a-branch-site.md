@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 분기 사이트에서 PSTN 연결 제공'
+description: 'Lync Server 2013: 분기 사이트에 PSTN 연결을 제공 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38c76d378db31cb8a6619a18072ec0218260843e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 63cbc03f78a27bda14c2906e31cc68bed5870878
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513175"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579704"
 ---
 # <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Lync Server 2013의 분기 사이트에서 PSTN 연결 제공
 

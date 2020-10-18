@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 서버 소프트웨어 및 인프라 지원'
+description: 'Lync Server 2013: 서버 소프트웨어 및 인프라 지원'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7906d381c49fe3514683989fd725d9d29802f81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4a141f40b3ebee84fade10dfbfb8c8b96ef67434
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510245"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580154"
 ---
 # <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013의 서버 소프트웨어 및 인프라 지원
 

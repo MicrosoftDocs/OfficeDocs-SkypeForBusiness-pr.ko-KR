@@ -1,6 +1,6 @@
 ---
 title: Microsoft 팀의 정책 호출
-author: LolaJacobsen
+author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
 ms.topic: conceptual
@@ -10,21 +10,22 @@ audience: admin
 search.appverid: MET150
 description: Microsoft 팀의 사용자 지정 통화 정책에 대 한 사용자를 만들고, 수정 하 고, 추가 하는 방법을 알아보고, 다양 한 통화 정책 설정을 확인 합니다.
 localization_priority: Normal
-ms.custom:
-- ms.teamsadmincenter.callingpolicies.overview
-- seo-marvel-apr2020
 ms.collection:
 - M365-voice
 f1.keywords:
 - CSH
+ms.custom:
+- ms.teamsadmincenter.callingpolicies.overview
+- seo-marvel-apr2020
+- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 030be626574e7acd3aa2116595acaba757eaa5af
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 03ec48de66bc5b179b3a1d8cfe006b1789d09a33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44942043"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48581079"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft 팀의 정책 호출
 ===================================
@@ -107,7 +108,7 @@ Microsoft 팀에서 호출 정책은 사용자가 사용할 수 있는 통화 �
 
 이 설정을 사용 하면 PSTN 호출자가 보류 상태일 때 보류 중인 음악을 켜거나 끌 수 있습니다. 기본적으로 설정 되어 있습니다. 이 설정은 통화 공원 및 상사 대리인 기능에는 적용 되지 않으며 현재 PowerShell을 통해서만 사용할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 

@@ -1,5 +1,6 @@
 ---
 title: 백 엔드 서버 또는 Standard Edition Server 업그레이드 또는 업데이트
+description: 백 엔드 서버 또는 Standard Edition Server 업그레이드 또는 업데이트
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3afeee91457b2d10f506be81a146643a4598c9f6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c529546bdcf88ada6fd82399d3b65b46b4312db0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506645"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580434"
 ---
 # <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Lync Server 2013에서 백 엔드 서버 또는 Standard Edition 서버 업그레이드 또는 업데이트
 

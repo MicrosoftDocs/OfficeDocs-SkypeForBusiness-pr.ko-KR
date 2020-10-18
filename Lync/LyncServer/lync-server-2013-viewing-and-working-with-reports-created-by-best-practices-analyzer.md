@@ -1,5 +1,6 @@
 ---
 title: 모범 사례 분석기에서 만든 보고서 보기 및 작업
+description: 모범 사례 분석기에서 만든 보고서 보기 및 사용
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d2c28c28830b23eb41218848485dbf1f21d022e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1d6e970d0993864cba627fe1ab6835b87c057335
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523565"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580054"
 ---
 # <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013에서 모범 사례 분석기에서 만든 보고서 보기 및 작업
 

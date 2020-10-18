@@ -1,5 +1,6 @@
 ---
 title: 통화 대기 응용 프로그램 설정 마이그레이션
+description: 통화 대기 응용 프로그램 설정을 마이그레이션합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f63b91c6a742310d14031bdadc28cbc6ca57e115
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: da90ca4ee4dd53451c29b8c39861dc76a17ca3c7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503565"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579414"
 ---
 # <a name="migrate-call-park-application-settings"></a>통화 대기 응용 프로그램 설정 마이그레이션
 

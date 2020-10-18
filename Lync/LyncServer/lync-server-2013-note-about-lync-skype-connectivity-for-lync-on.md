@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync 온 Lync-Skype 연결에 대 한 참고 사항'
+description: 'Lync Server 2013: Lync On에 대 한 Lync-Skype 연결 정보를 확인 하세요.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 57793359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59fae4389400042f5ca99f56113fbfbff4941ce6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3f7d9758f277f2f987677c2c0ffa0a4447ba31d1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522228"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579204"
 ---
 # <a name="note-about-lync-skype-connectivity-in-lync-server-2013-for-lync-online-customers"></a>Lync Online 고객에 대 한 Lync Server 2013의 Lync-Skype 연결에 대 한 참고 사항
 

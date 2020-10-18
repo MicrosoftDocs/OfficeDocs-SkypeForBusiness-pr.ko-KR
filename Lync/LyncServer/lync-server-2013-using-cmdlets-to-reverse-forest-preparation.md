@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlet을 사용 하 여 포리스트 준비를 되돌리는 중'
+description: 'Lync Server 2013: cmdlet을 사용 하 여 포리스트 준비를 취소 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e3104f07934e590dc22ac9f5000601bc8166b6b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: acac87bdaeb7e730f93401fa62ea2678a713bb8f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535795"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580394"
 ---
 # <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>Cmdlet을 사용 하 여 Lync Server 2013에 대 한 포리스트 준비 되돌리기
 

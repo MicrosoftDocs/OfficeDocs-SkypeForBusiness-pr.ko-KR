@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 인프라 및 시스템 준비'
+description: 'Lync Server 2013: 인프라 및 시스템 준비'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1391d57232d261edcdfcdd7c4668ee025b1420b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bfabdda9d117af1534578c8543f9ce72808d5a53
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506845"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579994"
 ---
 # <a name="preparing-the-infrastructure-and-systems-for-lync-server-2013"></a>Lync Server 2013의 인프라 및 시스템 준비
 

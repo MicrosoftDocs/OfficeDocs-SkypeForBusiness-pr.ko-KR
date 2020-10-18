@@ -1,5 +1,6 @@
 ---
 title: 공통 영역 전화 마이그레이션
+description: 공통 영역 전화를 마이그레이션합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733604
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af08e6de9b832289e898fd27003b896dd40fa81c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b8df4d94a3db3274df7e4e82ed2185c3626de12
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503575"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579354"
 ---
 # <a name="migrate-common-area-phones"></a>공통 영역 전화 마이그레이션
 

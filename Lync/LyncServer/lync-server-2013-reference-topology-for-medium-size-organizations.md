@@ -1,5 +1,6 @@
 ---
 title: 중간 규모 조직에 대 한 Lync Server 2013 참조 토폴로지
+description: 중간 규모 조직에 대 한 Lync Server 2013 참조 토폴로지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184026
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2549acbf8b5eac2ac909eb213d6d73e8233b0a2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3b9e6ef467506865193dc26887e802198b16f42f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536705"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578614"
 ---
 # <a name="reference-topology-for-lync-server-2013-in-medium-size-organizations"></a>중간 규모 조직의 Lync Server 2013에 대 한 참조 토폴로지
 

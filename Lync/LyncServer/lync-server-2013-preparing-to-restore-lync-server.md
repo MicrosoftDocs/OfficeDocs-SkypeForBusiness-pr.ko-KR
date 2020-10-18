@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server 복원 준비'
+description: 'Lync Server 2013: Lync Server 복원을 준비 하 고 있습니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f31354ee87cdf7df5efdb6c4e2accf3758829c1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1875a691cfb70a6a824ab19bfde3dee4d699e48a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506835"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579954"
 ---
 # <a name="preparing-to-restore-lync-server-2013"></a>Lync Server 2013 복원 준비
 
