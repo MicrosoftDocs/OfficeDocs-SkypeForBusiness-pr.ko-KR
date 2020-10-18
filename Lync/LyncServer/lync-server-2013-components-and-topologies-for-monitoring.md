@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 모니터링을 위한 구성 요소 및 토폴로지'
+description: 'Lync Server 2013: 모니터링을 위한 구성 요소 및 토폴로지'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf9724089eeed36d48cbce8e1872078e3940beae
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8767a7eb16ca85e9606838606a6e86ee1296fc0e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502525"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576844"
 ---
 # <a name="components-and-topologies-for-monitoring-in-lync-server-2013"></a>Lync Server 2013의 모니터링에 대 한 구성 요소 및 토폴로지
 

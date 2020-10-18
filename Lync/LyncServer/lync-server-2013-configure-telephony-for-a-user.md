@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자에 대 한 전화 통신 구성'
+description: 'Lync Server 2013: 사용자에 대해 전화 통신을 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86eade8f7a2ac1db627668ca78b8fb7869e6da71
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b82cecb67ea11928d187bd2a4a00625fbca7b23e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520375"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576654"
 ---
 # <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Lync Server 2013에서 사용자에 대 한 전화 통신 구성
 

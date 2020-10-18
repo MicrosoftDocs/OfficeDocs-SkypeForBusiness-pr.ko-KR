@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 온-프레미스 통합 메시징 통합을 위한 지침'
+description: 'Lync Server 2013: 온-프레미스 통합 메시징의 통합을 위한 지침입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44f032f7dd7d11d70ac912b2005f3ad9f7ddad69
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 814c927aa36199737712328d3b92c64a8e967a55
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536925"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576644"
 ---
 # <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>온-프레미스 통합 메시징과 Lync Server 2013의 통합 지침
 

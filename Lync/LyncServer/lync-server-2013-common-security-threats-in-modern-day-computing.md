@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 현대의 일상적인 컴퓨팅의 일반적인 보안 위협'
+description: 'Lync Server 2013: 현대의 일상적인 컴퓨팅에는 일반적인 보안 위협이 있습니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60197a65bb0362b1bbdcf3fee779ed503af00eb6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 47284d91ea9f14e3bafadb1a285f6e98d9ea7ded
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526135"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576994"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>현대의 일상적인 컴퓨팅의 일반적인 보안 위협
 

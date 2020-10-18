@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 통화 대기에 사용 되는 구성 요소'
+description: 'Lync Server 2013: 통화 대기에 사용 되는 구성 요소입니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185374
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21335597f0910e18a5afe36898c7d0eff6c1a338
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 285af316fa2d49e8bebf68e11de6d9526e12ae29
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502395"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576774"
 ---
 # <a name="components-used-by-call-park-in-lync-server-2013"></a>Lync Server 2013의 통화 대기에 사용 되는 구성 요소
 

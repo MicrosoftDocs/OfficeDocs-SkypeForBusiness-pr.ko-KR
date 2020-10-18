@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 관리자 보고서 검토'
+description: 'Lync Server 2013: 관리자 보고서를 검토 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 569da6b0f5d34cd595e374493ac253a8d6bd9522
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a792b46099172f3ca6205d3b2eb4d8e3004fd173
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511365"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578514"
 ---
 # <a name="reviewing-the-administrator-reports-in-lync-server-2013"></a>Lync Server 2013의 관리자 보고서 검토
 

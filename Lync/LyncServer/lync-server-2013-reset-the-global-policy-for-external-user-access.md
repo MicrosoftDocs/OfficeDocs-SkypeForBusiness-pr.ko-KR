@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 외부 사용자 액세스에 대 한 전역 정책 다시 설정'
+description: 'Lync Server 2013: 외부 사용자 액세스에 대 한 전역 정책을 다시 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72c025c15841e55462a5bab4f269e2fc4ed5f49a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 061f86fd454cea851a8e8cfbd4f40921daeecd98
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511795"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577834"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013에서 외부 사용자 액세스에 대 한 전역 정책 다시 설정
 
