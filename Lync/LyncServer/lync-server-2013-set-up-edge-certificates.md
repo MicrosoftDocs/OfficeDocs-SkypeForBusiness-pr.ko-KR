@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013:에 지 인증서 설정
+description: Lync Server 2013:에 지 인증서를 설정 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e7ff0b4d5e7dd9ac01671ec8fc68a8d63dff460
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 252b28d8e20f75aa2aede08eaeeb4b5b6e507a50
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509855"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575334"
 ---
-# <a name="set-up-edge-certificates-for-lync-server-2013"></a><span data-ttu-id="8434c-102">Lync Server 2013에 대 한에 지 인증서 설정</span><span class="sxs-lookup"><span data-stu-id="8434c-102">Set up Edge certificates for Lync Server 2013</span></span>
+# <a name="set-up-edge-certificates-for-lync-server-2013"></a><span data-ttu-id="2637b-103">Lync Server 2013에 대 한에 지 인증서 설정</span><span class="sxs-lookup"><span data-stu-id="2637b-103">Set up Edge certificates for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48509855"
 
 <span> </span>
 
-<span data-ttu-id="8434c-103">_**마지막으로 수정 된 항목:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="8434c-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="2637b-104">_**마지막으로 수정 된 항목:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="2637b-104">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="8434c-104">에지 서버를 설치하려면 내부 및 외부 인터페이스에 대해 필요한 인증서를 요청, 설치 및 지정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8434c-104">When you install an Edge Server, you need to request, install, and assign the required certificates for the internal and external interfaces.</span></span>
+<span data-ttu-id="2637b-105">에지 서버를 설치하려면 내부 및 외부 인터페이스에 대해 필요한 인증서를 요청, 설치 및 지정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2637b-105">When you install an Edge Server, you need to request, install, and assign the required certificates for the internal and external interfaces.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8434c-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="8434c-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2637b-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="2637b-106">In This Section</span></span>
 
-  - [<span data-ttu-id="8434c-106">Lync Server 2013의 외부 사용자 액세스에 대 한 인증서 요구 사항</span><span class="sxs-lookup"><span data-stu-id="8434c-106">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - [<span data-ttu-id="2637b-107">Lync Server 2013의 외부 사용자 액세스에 대 한 인증서 요구 사항</span><span class="sxs-lookup"><span data-stu-id="2637b-107">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
-  - [<span data-ttu-id="8434c-107">Lync Server 2013에서 내부에 지 인터페이스에 대 한 인증서 설정</span><span class="sxs-lookup"><span data-stu-id="8434c-107">Set up certificates for the internal edge interface in Lync Server 2013</span></span>](lync-server-2013-set-up-certificates-for-the-internal-edge-interface.md)
+  - [<span data-ttu-id="2637b-108">Lync Server 2013에서 내부에 지 인터페이스에 대 한 인증서 설정</span><span class="sxs-lookup"><span data-stu-id="2637b-108">Set up certificates for the internal edge interface in Lync Server 2013</span></span>](lync-server-2013-set-up-certificates-for-the-internal-edge-interface.md)
 
-  - [<span data-ttu-id="8434c-108">Lync Server 2013의 외부에 지 인터페이스에 대 한 인증서 설정</span><span class="sxs-lookup"><span data-stu-id="8434c-108">Set up certificates for the external edge interface for Lync Server 2013</span></span>](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)
+  - [<span data-ttu-id="2637b-109">Lync Server 2013의 외부에 지 인터페이스에 대 한 인증서 설정</span><span class="sxs-lookup"><span data-stu-id="2637b-109">Set up certificates for the external edge interface for Lync Server 2013</span></span>](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)
 
-  - [<span data-ttu-id="8434c-109">Lync Server 2013에서 역방향 프록시에 대 한 인증서 설정</span><span class="sxs-lookup"><span data-stu-id="8434c-109">Set up certificates for the reverse proxy in Lync Server 2013</span></span>](lync-server-2013-set-up-certificates-for-the-reverse-proxy.md)
+  - [<span data-ttu-id="2637b-110">Lync Server 2013에서 역방향 프록시에 대 한 인증서 설정</span><span class="sxs-lookup"><span data-stu-id="2637b-110">Set up certificates for the reverse proxy in Lync Server 2013</span></span>](lync-server-2013-set-up-certificates-for-the-reverse-proxy.md)
 
 </div>
 

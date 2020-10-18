@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 장치 하드웨어 지원
+description: Lync Server 2013 장치 하드웨어 지원
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c802141adfecf53b70709ad90cc098004eacda1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cd03936d35fbc3a639a3ba4596a4357e8e379719
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522465"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575664"
 ---
-# <a name="device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="6f7ea-102">Lync Server 2013의 장치 하드웨어 지원</span><span class="sxs-lookup"><span data-stu-id="6f7ea-102">Device hardware support in Lync Server 2013</span></span>
+# <a name="device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="5e12a-103">Lync Server 2013의 장치 하드웨어 지원</span><span class="sxs-lookup"><span data-stu-id="5e12a-103">Device hardware support in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,31 +38,31 @@ ms.locfileid: "48522465"
 
 <span> </span>
 
-<span data-ttu-id="6f7ea-103">_**마지막으로 수정 된 항목:** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="6f7ea-103">_**Topic Last Modified:** 2012-12-14_</span></span>
+<span data-ttu-id="5e12a-104">_**마지막으로 수정 된 항목:** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="5e12a-104">_**Topic Last Modified:** 2012-12-14_</span></span>
 
-<span data-ttu-id="6f7ea-104">IP 전화와 아날로그 장치를 배포하려면 특정 하드웨어 구성을 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f7ea-104">Specific hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
+<span data-ttu-id="5e12a-105">IP 전화와 아날로그 장치를 배포하려면 특정 하드웨어 구성을 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e12a-105">Specific hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
 
-<span data-ttu-id="6f7ea-105">Lync Phone Edition을 실행 하는 IP 전화는 링크 계층 검색 Protocol-Media Endpoint Discovery (LLDP) 및 Power over Ethernet (PoE)을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f7ea-105">IP phones running Lync Phone Edition support Link Layer Discovery Protocol-Media Endpoint Discovery (LLDP-MED) and Power over Ethernet (PoE).</span></span><span data-ttu-id="6f7ea-106">LLDP-MED를 활용하려면 스위치가 IEEE802.1AB 및 ANSI/TIA-1057을 지원해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f7ea-106"> To take advantage of LLDP-MED, the switch must support IEEE802.1AB and ANSI/TIA-1057.</span></span> <span data-ttu-id="6f7ea-107">PoE를 활용하려면 스위치가 PoE802.3AF 또는 802.3at를 지원해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f7ea-107">To take advantage of PoE, the switch must support PoE802.3AF or 802.3at.</span></span>
+<span data-ttu-id="5e12a-106">Lync Phone Edition을 실행 하는 IP 전화는 링크 계층 검색 Protocol-Media Endpoint Discovery (LLDP) 및 Power over Ethernet (PoE)을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e12a-106">IP phones running Lync Phone Edition support Link Layer Discovery Protocol-Media Endpoint Discovery (LLDP-MED) and Power over Ethernet (PoE).</span></span><span data-ttu-id="5e12a-107">LLDP-MED를 활용하려면 스위치가 IEEE802.1AB 및 ANSI/TIA-1057을 지원해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e12a-107"> To take advantage of LLDP-MED, the switch must support IEEE802.1AB and ANSI/TIA-1057.</span></span> <span data-ttu-id="5e12a-108">PoE를 활용하려면 스위치가 PoE802.3AF 또는 802.3at를 지원해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e12a-108">To take advantage of PoE, the switch must support PoE802.3AF or 802.3at.</span></span>
 
-<span data-ttu-id="6f7ea-108">LLDP-MED를 사용하도록 설정하려면 관리자가 스위치 콘솔 창을 사용하여 LLDP를 사용하도록 설정하고 올바른 음성 VLAN ID를 사용하여 LLDP-MED 네트워크 정책을 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f7ea-108">To enable LLDP-MED, the administrator must enable LLDP by using the switch console window and set the LLDP-MED network policy with the correct voice VLAN ID.</span></span>
+<span data-ttu-id="5e12a-109">LLDP-MED를 사용하도록 설정하려면 관리자가 스위치 콘솔 창을 사용하여 LLDP를 사용하도록 설정하고 올바른 음성 VLAN ID를 사용하여 LLDP-MED 네트워크 정책을 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e12a-109">To enable LLDP-MED, the administrator must enable LLDP by using the switch console window and set the LLDP-MED network policy with the correct voice VLAN ID.</span></span>
 
-<span data-ttu-id="6f7ea-109">또한 배포에 아날로그 장치가 포함 된 경우 Lync Server를 사용 하도록 아날로그 게이트웨이를 구성 해야 하며 게이트웨이는 다음 중 하나 여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f7ea-109">In addition, if your deployment includes analog devices, you must configure the analog gateway to use Lync Server, and the gateway must be one of the following:</span></span>
+<span data-ttu-id="5e12a-110">또한 배포에 아날로그 장치가 포함 된 경우 Lync Server를 사용 하도록 아날로그 게이트웨이를 구성 해야 하며 게이트웨이는 다음 중 하나 여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e12a-110">In addition, if your deployment includes analog devices, you must configure the analog gateway to use Lync Server, and the gateway must be one of the following:</span></span>
 
-  - <span data-ttu-id="6f7ea-110">ATA(Analog Telephone Adapter)</span><span class="sxs-lookup"><span data-stu-id="6f7ea-110">An analog telephone adapter (ATA)</span></span>
+  - <span data-ttu-id="5e12a-111">ATA(Analog Telephone Adapter)</span><span class="sxs-lookup"><span data-stu-id="5e12a-111">An analog telephone adapter (ATA)</span></span>
 
-  - <span data-ttu-id="6f7ea-111">PSTN 아날로그 게이트웨이</span><span class="sxs-lookup"><span data-stu-id="6f7ea-111">A PSTN analog gateway</span></span>
+  - <span data-ttu-id="5e12a-112">PSTN 아날로그 게이트웨이</span><span class="sxs-lookup"><span data-stu-id="5e12a-112">A PSTN analog gateway</span></span>
 
-  - <span data-ttu-id="6f7ea-112">PSTN 아날로그 게이트웨이가 포함된 SBA(Survivable Branch Appliance)</span><span class="sxs-lookup"><span data-stu-id="6f7ea-112">A Survivable Branch Appliance that includes a PSTN analog gateway</span></span>
+  - <span data-ttu-id="5e12a-113">PSTN 아날로그 게이트웨이가 포함된 SBA(Survivable Branch Appliance)</span><span class="sxs-lookup"><span data-stu-id="5e12a-113">A Survivable Branch Appliance that includes a PSTN analog gateway</span></span>
 
-  - <span data-ttu-id="6f7ea-113">ATA를 사용하여 통신하는 PSTN 아날로그 게이트웨이가 포함된 SBA(Survivable Branch Appliance)</span><span class="sxs-lookup"><span data-stu-id="6f7ea-113">A Survivable Branch Appliance that includes a PSTN gateway that communicates with an ATA</span></span>
+  - <span data-ttu-id="5e12a-114">ATA를 사용하여 통신하는 PSTN 아날로그 게이트웨이가 포함된 SBA(Survivable Branch Appliance)</span><span class="sxs-lookup"><span data-stu-id="5e12a-114">A Survivable Branch Appliance that includes a PSTN gateway that communicates with an ATA</span></span>
 
-<span data-ttu-id="6f7ea-114">아날로그 게이트웨이를 구성 하는 방법에 대 한 자세한 내용은 [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) Lync Server 2010 TechNet 라이브러리의 "아날로그 장치 배포 계획"을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="6f7ea-114">To learn how to configure an analog gateway, see "Planning to Deploy Analog Devices" at [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) in the Lync Server 2010 TechNet Library.</span></span> <span data-ttu-id="6f7ea-115">(아날로그 장치는 lync Server 2010에서와 동일한 방식으로 Lync Server 2013에서 동일 하 게 작동 합니다.)</span><span class="sxs-lookup"><span data-stu-id="6f7ea-115">(Analog devices work the same way in Lync Server 2013 as they do in Lync Server 2010.)</span></span>
+<span data-ttu-id="5e12a-115">아날로그 게이트웨이를 구성 하는 방법에 대 한 자세한 내용은 [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) Lync Server 2010 TechNet 라이브러리의 "아날로그 장치 배포 계획"을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="5e12a-115">To learn how to configure an analog gateway, see "Planning to Deploy Analog Devices" at [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) in the Lync Server 2010 TechNet Library.</span></span> <span data-ttu-id="5e12a-116">(아날로그 장치는 lync Server 2010에서와 동일한 방식으로 Lync Server 2013에서 동일 하 게 작동 합니다.)</span><span class="sxs-lookup"><span data-stu-id="5e12a-116">(Analog devices work the same way in Lync Server 2013 as they do in Lync Server 2010.)</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="6f7ea-116">스위치에서 지원하는 경우 E9-1-1(Enhanced 9-1-1)을 사용하도록 스위치를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6f7ea-116">You can configure the switch for Enhanced 9-1-1 (E9-1-1), if the switch supports this.</span></span>
+> <span data-ttu-id="5e12a-117">스위치에서 지원하는 경우 E9-1-1(Enhanced 9-1-1)을 사용하도록 스위치를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e12a-117">You can configure the switch for Enhanced 9-1-1 (E9-1-1), if the switch supports this.</span></span>
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 응답 그룹 설정 복원'
+description: 'Lync Server 2013: 응답 그룹 설정을 복원 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d2b257fe2a77faacca588f2df5632d6476c673b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bffec18507d43287e2b56c8f518e93aff602a908
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511411"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575474"
 ---
-# <a name="restoring-response-group-settings-in-lync-server-2013"></a><span data-ttu-id="5904b-102">Lync Server 2013에서 응답 그룹 설정 복원</span><span class="sxs-lookup"><span data-stu-id="5904b-102">Restoring Response Group settings in Lync Server 2013</span></span>
+# <a name="restoring-response-group-settings-in-lync-server-2013"></a><span data-ttu-id="14a16-103">Lync Server 2013에서 응답 그룹 설정 복원</span><span class="sxs-lookup"><span data-stu-id="14a16-103">Restoring Response Group settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48511411"
 
 <span> </span>
 
-<span data-ttu-id="5904b-103">_**마지막으로 수정 된 항목:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="5904b-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="14a16-104">_**마지막으로 수정 된 항목:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="14a16-104">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="5904b-104">응답 그룹 응용 프로그램을 배포한 경우 백 엔드 서버 또는 Standard Edition 서버를 복원 해야 하는 경우에도 응답 그룹 구성 설정을 복원 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5904b-104">If you deployed the Response Group application and you need to restore a Back End Server or a Standard Edition server, you also need to restore the Response Group configuration settings.</span></span>
+<span data-ttu-id="14a16-105">응답 그룹 응용 프로그램을 배포한 경우 백 엔드 서버 또는 Standard Edition 서버를 복원 해야 하는 경우에도 응답 그룹 구성 설정을 복원 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="14a16-105">If you deployed the Response Group application and you need to restore a Back End Server or a Standard Edition server, you also need to restore the Response Group configuration settings.</span></span>
 
 <div>
 
-## <a name="to-restore-response-group-configuration-settings"></a><span data-ttu-id="5904b-105">응답 그룹 구성 설정을 복원하려면</span><span class="sxs-lookup"><span data-stu-id="5904b-105">To restore Response Group configuration settings</span></span>
+## <a name="to-restore-response-group-configuration-settings"></a><span data-ttu-id="14a16-106">응답 그룹 구성 설정을 복원하려면</span><span class="sxs-lookup"><span data-stu-id="14a16-106">To restore Response Group configuration settings</span></span>
 
-1.  <span data-ttu-id="5904b-106">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="5904b-106">At the command line, type:</span></span>
+1.  <span data-ttu-id="14a16-107">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="14a16-107">At the command line, type:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<pool FQDN>" -OverwriteOwner -FileName "<path and file name of the backed up file at $Backup>"
     
-    <span data-ttu-id="5904b-107">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="5904b-107">For example:</span></span>
+    <span data-ttu-id="14a16-108">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="14a16-108">For example:</span></span>
     
         Import-CsRgsConfiguration -Destination "service: ApplicationServer:pool01.contoso.com" -OverwriteOwner -FileName "C:\RgsConfiguration.zip"
 

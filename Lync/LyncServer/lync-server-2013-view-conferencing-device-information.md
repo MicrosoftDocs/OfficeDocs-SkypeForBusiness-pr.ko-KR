@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 회의 장치 정보 보기'
+description: 'Lync Server 2013: 회의 장치 정보를 확인 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89744ec28a0c6c65615f41706b16d7053415723a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9bbbdcecbc15ef59b2b9e22ffd2b28ff745d67a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506535"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574774"
 ---
-# <a name="view-conferencing-device-information-in-lync-server-2013"></a><span data-ttu-id="2bfce-102">Lync Server 2013에서 회의 장치 정보 보기</span><span class="sxs-lookup"><span data-stu-id="2bfce-102">View conferencing device information in Lync Server 2013</span></span>
+# <a name="view-conferencing-device-information-in-lync-server-2013"></a><span data-ttu-id="d2612-103">Lync Server 2013에서 회의 장치 정보 보기</span><span class="sxs-lookup"><span data-stu-id="d2612-103">View conferencing device information in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,34 +38,34 @@ ms.locfileid: "48506535"
 
 <span> </span>
 
-<span data-ttu-id="2bfce-103">_**마지막으로 수정 된 항목:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="2bfce-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="d2612-104">_**마지막으로 수정 된 항목:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="d2612-104">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="2bfce-104">Windows PowerShell 및 **enable-csmeetingroom** cmdlet을 사용 하 여 조직에서 사용 하도록 구성 된 회의 장치에 대 한 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2bfce-104">You can view information about the conferencing devices configured for use in your organization by using Windows PowerShell and the **Get-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="2bfce-105">Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 **enable-csmeetingroom** cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bfce-105">Run the **Get-CsMeetingRoom** cmdlet from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="d2612-105">Windows PowerShell 및 **enable-csmeetingroom** cmdlet을 사용 하 여 조직에서 사용 하도록 구성 된 회의 장치에 대 한 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d2612-105">You can view information about the conferencing devices configured for use in your organization by using Windows PowerShell and the **Get-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="d2612-106">Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 **enable-csmeetingroom** cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d2612-106">Run the **Get-CsMeetingRoom** cmdlet from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2bfce-106">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 하세요.</span><span class="sxs-lookup"><span data-stu-id="2bfce-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="d2612-107">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 사용 하 여 Microsoft Lync Server 2010 관리"를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 하세요.</span><span class="sxs-lookup"><span data-stu-id="d2612-107">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2bfce-107">**Enable-csmeetingroom** cmdlet을 매개 변수 없이 사용 하는 경우에는 모든 회의 장치에 대 한 정보를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bfce-107">If you use the **Get-CsMeetingRoom** cmdlet without any parameters, it returns information about all your conferencing devices.</span></span> <span data-ttu-id="2bfce-108">선택적 매개 변수를 통해 정보를 필터링 하는 다양 한 방법을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2bfce-108">Optional parameters provide different ways for you to filter information.</span></span> <span data-ttu-id="2bfce-109">자세한 내용은 [Get-enable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom)의 Parameters 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2bfce-109">For details, see the Parameters section of [Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom).</span></span>
+<span data-ttu-id="d2612-108">**Enable-csmeetingroom** cmdlet을 매개 변수 없이 사용 하는 경우에는 모든 회의 장치에 대 한 정보를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="d2612-108">If you use the **Get-CsMeetingRoom** cmdlet without any parameters, it returns information about all your conferencing devices.</span></span> <span data-ttu-id="d2612-109">선택적 매개 변수를 통해 정보를 필터링 하는 다양 한 방법을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d2612-109">Optional parameters provide different ways for you to filter information.</span></span> <span data-ttu-id="d2612-110">자세한 내용은 [Get-enable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom)의 Parameters 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d2612-110">For details, see the Parameters section of [Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom).</span></span>
 
 <div>
 
 
 <div>
 
-## <a name="viewing-information-about-all-your-conferencing-devices"></a><span data-ttu-id="2bfce-110">모든 회의 장치에 대 한 정보 보기</span><span class="sxs-lookup"><span data-stu-id="2bfce-110">Viewing Information about All Your Conferencing Devices</span></span>
+## <a name="viewing-information-about-all-your-conferencing-devices"></a><span data-ttu-id="d2612-111">모든 회의 장치에 대 한 정보 보기</span><span class="sxs-lookup"><span data-stu-id="d2612-111">Viewing Information about All Your Conferencing Devices</span></span>
 
-  - <span data-ttu-id="2bfce-111">모든 회의 장치에 대 한 세부 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="2bfce-111">To view details about all your conferencing devices, type the following command in the Lync Server Management Shell, and then press Enter:</span></span>
+  - <span data-ttu-id="d2612-112">모든 회의 장치에 대 한 세부 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="d2612-112">To view details about all your conferencing devices, type the following command in the Lync Server Management Shell, and then press Enter:</span></span>
     
         Get-CsMeetingRoom
     
-    <span data-ttu-id="2bfce-112">이 cmdlet은 각 회의 장치에 대해 다음과 같은 정보를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bfce-112">This cmdlet returns information similar to the following for each conferencing device.</span></span> <span data-ttu-id="2bfce-113">이 예에서는이 cmdlet을 실행할 때 볼 수 있는 몇 가지 정보만 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bfce-113">Note that this example shows only some of the information that you’ll see when you run this cmdlet:</span></span>
+    <span data-ttu-id="d2612-113">이 cmdlet은 각 회의 장치에 대해 다음과 같은 정보를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="d2612-113">This cmdlet returns information similar to the following for each conferencing device.</span></span> <span data-ttu-id="d2612-114">이 예에서는이 cmdlet을 실행할 때 볼 수 있는 몇 가지 정보만 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="d2612-114">Note that this example shows only some of the information that you’ll see when you run this cmdlet:</span></span>
     
         ContactOptionFlags                : 64
         OwnerUrn                          : urn:device:roomsystem
@@ -88,15 +89,15 @@ ms.locfileid: "48506535"
 
 <div>
 
-## <a name="viewing-information-about-a-specific-conferencing-device"></a><span data-ttu-id="2bfce-114">특정 회의 장치에 대 한 정보 보기</span><span class="sxs-lookup"><span data-stu-id="2bfce-114">Viewing Information about a Specific Conferencing Device</span></span>
+## <a name="viewing-information-about-a-specific-conferencing-device"></a><span data-ttu-id="d2612-115">특정 회의 장치에 대 한 정보 보기</span><span class="sxs-lookup"><span data-stu-id="d2612-115">Viewing Information about a Specific Conferencing Device</span></span>
 
-  - <span data-ttu-id="2bfce-115">특정 회의 장치에 대 한 정보를 보려면 Identity 매개 변수 다음에 회의 장치 id (일반적으로 Active Directory 표시 이름)를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bfce-115">To view information for a specific conferencing device, include the Identity parameter followed by the conferencing device identity (typically, the Active Directory display name).</span></span> <span data-ttu-id="2bfce-116">예제:</span><span class="sxs-lookup"><span data-stu-id="2bfce-116">For example:</span></span>
+  - <span data-ttu-id="d2612-116">특정 회의 장치에 대 한 정보를 보려면 Identity 매개 변수 다음에 회의 장치 id (일반적으로 Active Directory 표시 이름)를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="d2612-116">To view information for a specific conferencing device, include the Identity parameter followed by the conferencing device identity (typically, the Active Directory display name).</span></span> <span data-ttu-id="d2612-117">예제:</span><span class="sxs-lookup"><span data-stu-id="d2612-117">For example:</span></span>
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
 </div>
 
-<span data-ttu-id="2bfce-117">자세한 내용은 [enable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) cmdlet에 대 한 도움말 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2bfce-117">For details, see the Help topic for the [Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) cmdlet.</span></span>
+<span data-ttu-id="d2612-118">자세한 내용은 [enable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) cmdlet에 대 한 도움말 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d2612-118">For details, see the Help topic for the [Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) cmdlet.</span></span>
 
 </div>
 

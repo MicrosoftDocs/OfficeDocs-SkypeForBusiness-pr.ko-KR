@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 중앙 관리 저장소를 호스트 하는 서버 복원'
+description: 'Lync Server 2013: 중앙 관리 저장소를 호스트 하는 서버를 복원 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3912402b48ce8aede4a53efea208c96bff825
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c0c07e4c6722695b2bfb4cb478a1f3eefa86b4eb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511395"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575454"
 ---
-# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a><span data-ttu-id="d6580-102">Lync Server 2013에서 중앙 관리 저장소를 호스트 하는 서버 복원</span><span class="sxs-lookup"><span data-stu-id="d6580-102">Restoring the server hosting the Central Management store in Lync Server 2013</span></span>
+# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a><span data-ttu-id="93e2c-103">Lync Server 2013에서 중앙 관리 저장소를 호스트 하는 서버 복원</span><span class="sxs-lookup"><span data-stu-id="93e2c-103">Restoring the server hosting the Central Management store in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48511395"
 
 <span> </span>
 
-<span data-ttu-id="d6580-103">_**마지막으로 수정 된 항목:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="d6580-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="93e2c-104">_**마지막으로 수정 된 항목:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="93e2c-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="d6580-104">Lync Server 배포에는 Lync Server 서버 역할을 실행 하는 각 서버로 복제 되는 복사본 인 단일 중앙 관리 저장소가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-104">A Lync Server deployment has a single Central Management store, a copy of which is replicated to each server running a Lync Server server role.</span></span> <span data-ttu-id="d6580-105">이 항목에서는 중앙 관리 저장소를 호스팅하는 백 엔드 서버 또는 Standard Edition Server를 복원 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-105">This topic describes how to restore a Back End Server or Standard Edition server that hosts the Central Management store.</span></span>
+<span data-ttu-id="93e2c-105">Lync Server 배포에는 Lync Server 서버 역할을 실행 하는 각 서버로 복제 되는 복사본 인 단일 중앙 관리 저장소가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-105">A Lync Server deployment has a single Central Management store, a copy of which is replicated to each server running a Lync Server server role.</span></span> <span data-ttu-id="93e2c-106">이 항목에서는 중앙 관리 저장소를 호스팅하는 백 엔드 서버 또는 Standard Edition Server를 복원 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-106">This topic describes how to restore a Back End Server or Standard Edition server that hosts the Central Management store.</span></span>
 
-<span data-ttu-id="d6580-106">중앙 관리 서버가 있는 풀을 찾으려면 토폴로지 작성기를 열고 **Lync Server**를 클릭 하 고 **중앙 관리 서버**아래의 오른쪽 창에서 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-106">To find the pool where the Central Management Server is located, open Topology Builder, click **Lync Server**, and look in the right pane under **Central Management Server**.</span></span>
+<span data-ttu-id="93e2c-107">중앙 관리 서버가 있는 풀을 찾으려면 토폴로지 작성기를 열고 **Lync Server**를 클릭 하 고 **중앙 관리 서버**아래의 오른쪽 창에서 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-107">To find the pool where the Central Management Server is located, open Topology Builder, click **Lync Server**, and look in the right pane under **Central Management Server**.</span></span>
 
-<span data-ttu-id="d6580-107">중앙 관리 저장소를 호스팅하는 백 엔드 서버가 미러링된 설정에 있고 미러 데이터베이스가 계속 작동 하는 경우에는이 미러를 백업 하 고,이 백업을 사용 하 여 기본 데이터베이스 및 미러 데이터베이스 모두에서 다음 복원 절차에 따라 전체 복원을 수행 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-107">If the Back End Server that hosts the Central Management store is in a mirrored setup and the mirror database is still functional, we recommend that you make a backup of this still-functioning mirror, and then perform a full restore on both the primary database and the mirror database, using this backup, by following the restoration procedure below.</span></span> <span data-ttu-id="d6580-108">백 엔드 복원에는 토폴로지를 수정 및 게시 해야 하므로이 작업을 수행할 수 있으며, 기본 데이터베이스에서 CMS를 호스트 하는 경우에만이 작업이 수행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-108">This is necessary because Back End restore requires modifying and publishing the topology, and this can be done only if the primary database hosting CMS is operational.</span></span> <span data-ttu-id="d6580-109">또한 토폴로지를 게시할 수 없는 경우에는 기본 및 미러 데이터베이스 역할을 서로 연결할 수 없다는 점에 유의 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d6580-109">Also note that the primary and mirror database roles cannot be interchanged if the topology cannot be published.</span></span>
+<span data-ttu-id="93e2c-108">중앙 관리 저장소를 호스팅하는 백 엔드 서버가 미러링된 설정에 있고 미러 데이터베이스가 계속 작동 하는 경우에는이 미러를 백업 하 고,이 백업을 사용 하 여 기본 데이터베이스 및 미러 데이터베이스 모두에서 다음 복원 절차에 따라 전체 복원을 수행 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-108">If the Back End Server that hosts the Central Management store is in a mirrored setup and the mirror database is still functional, we recommend that you make a backup of this still-functioning mirror, and then perform a full restore on both the primary database and the mirror database, using this backup, by following the restoration procedure below.</span></span> <span data-ttu-id="93e2c-109">백 엔드 복원에는 토폴로지를 수정 및 게시 해야 하므로이 작업을 수행할 수 있으며, 기본 데이터베이스에서 CMS를 호스트 하는 경우에만이 작업이 수행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-109">This is necessary because Back End restore requires modifying and publishing the topology, and this can be done only if the primary database hosting CMS is operational.</span></span> <span data-ttu-id="93e2c-110">또한 토폴로지를 게시할 수 없는 경우에는 기본 및 미러 데이터베이스 역할을 서로 연결할 수 없다는 점에 유의 하십시오.</span><span class="sxs-lookup"><span data-stu-id="93e2c-110">Also note that the primary and mirror database roles cannot be interchanged if the topology cannot be published.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d6580-110">중앙 관리 저장소를 호스팅하지 않는 백 엔드 서버 또는 Standard Edition 서버에 오류가 발생 한 경우 <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Lync server 2013에서 Enterprise Edition 백 엔드 서버 복원을</A> 참조 하거나 <A href="lync-server-2013-restoring-a-standard-edition-server.md">lync Server 2013에서 Standard Edition Server를 복원</A>합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-110">If a Back End Server or Standard Edition server that does not host the Central Management store failed, see <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restoring an Enterprise Edition Back End Server in Lync Server 2013</A> or <A href="lync-server-2013-restoring-a-standard-edition-server.md">Restoring a Standard Edition server in Lync Server 2013</A>.</span></span> <span data-ttu-id="d6580-111">중앙 관리 저장소를 호스팅하는 백 엔드 서버가 미러된 구성에 있고 미러만 실패 한 경우 <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Lync server 2013-mirror에서 미러된 Enterprise Edition 백 엔드 서버 복원을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="d6580-111">If a Back End Server that hosts the Central Management store is in a mirrored configuration and only the mirror failed, see <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - mirror</A>.</span></span> <span data-ttu-id="d6580-112">다른 서버에 오류가 발생 한 경우 <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">에는 Lync server 2013에서 Enterprise Edition 구성원 서버 복원을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="d6580-112">If any other server failed, see <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restoring an Enterprise Edition member server in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="93e2c-111">중앙 관리 저장소를 호스팅하지 않는 백 엔드 서버 또는 Standard Edition 서버에 오류가 발생 한 경우 <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Lync server 2013에서 Enterprise Edition 백 엔드 서버 복원을</A> 참조 하거나 <A href="lync-server-2013-restoring-a-standard-edition-server.md">lync Server 2013에서 Standard Edition Server를 복원</A>합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-111">If a Back End Server or Standard Edition server that does not host the Central Management store failed, see <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restoring an Enterprise Edition Back End Server in Lync Server 2013</A> or <A href="lync-server-2013-restoring-a-standard-edition-server.md">Restoring a Standard Edition server in Lync Server 2013</A>.</span></span> <span data-ttu-id="93e2c-112">중앙 관리 저장소를 호스팅하는 백 엔드 서버가 미러된 구성에 있고 미러만 실패 한 경우 <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Lync server 2013-mirror에서 미러된 Enterprise Edition 백 엔드 서버 복원을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="93e2c-112">If a Back End Server that hosts the Central Management store is in a mirrored configuration and only the mirror failed, see <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - mirror</A>.</span></span> <span data-ttu-id="93e2c-113">다른 서버에 오류가 발생 한 경우 <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">에는 Lync server 2013에서 Enterprise Edition 구성원 서버 복원을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="93e2c-113">If any other server failed, see <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restoring an Enterprise Edition member server in Lync Server 2013</A>.</span></span>
 
 
 
@@ -59,7 +60,7 @@ ms.locfileid: "48511395"
 
 
 > [!TIP]  
-> <span data-ttu-id="d6580-113">복원을 시작 하기 전에 시스템의 이미지 복사본을 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-113">We recommend that you take an image copy of the system before you start restoration.</span></span> <span data-ttu-id="d6580-114">복원 중에 문제가 발생 하는 경우를 대비 하 여이 이미지를 롤백 지점으로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-114">You can use this image as a rollback point, in case something goes wrong during restoration.</span></span> <span data-ttu-id="d6580-115">운영 체제 및 SQL Server를 설치 하 고 인증서를 복원 하거나 reenroll 후 이미지 복사본을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-115">You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.</span></span>
+> <span data-ttu-id="93e2c-114">복원을 시작 하기 전에 시스템의 이미지 복사본을 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-114">We recommend that you take an image copy of the system before you start restoration.</span></span> <span data-ttu-id="93e2c-115">복원 중에 문제가 발생 하는 경우를 대비 하 여이 이미지를 롤백 지점으로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-115">You can use this image as a rollback point, in case something goes wrong during restoration.</span></span> <span data-ttu-id="93e2c-116">운영 체제 및 SQL Server를 설치 하 고 인증서를 복원 하거나 reenroll 후 이미지 복사본을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-116">You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.</span></span>
 
 
 
@@ -67,62 +68,62 @@ ms.locfileid: "48511395"
 
 <div>
 
-## <a name="to-restore-the-central-management-store"></a><span data-ttu-id="d6580-116">중앙 관리 저장소를 복원하려면</span><span class="sxs-lookup"><span data-stu-id="d6580-116">To restore the Central Management store</span></span>
+## <a name="to-restore-the-central-management-store"></a><span data-ttu-id="93e2c-117">중앙 관리 저장소를 복원하려면</span><span class="sxs-lookup"><span data-stu-id="93e2c-117">To restore the Central Management store</span></span>
 
-1.  <span data-ttu-id="d6580-117">오류가 발생 한 컴퓨터와 FQDN (정규화 된 도메인 이름)이 동일한 깨끗 한 서버 또는 새 서버로 시작 하 고, 운영 체제를 설치한 후 인증서를 복원 하거나 reenroll 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-117">Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed computer, install the operating system, and then restore or reenroll the certificates.</span></span>
+1.  <span data-ttu-id="93e2c-118">오류가 발생 한 컴퓨터와 FQDN (정규화 된 도메인 이름)이 동일한 깨끗 한 서버 또는 새 서버로 시작 하 고, 운영 체제를 설치한 후 인증서를 복원 하거나 reenroll 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-118">Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed computer, install the operating system, and then restore or reenroll the certificates.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="d6580-118">조직의 서버 배포 절차에 따라 이 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-118">Follow your organization's server deployment procedures to perform this step.</span></span>
+    > <span data-ttu-id="93e2c-119">조직의 서버 배포 절차에 따라 이 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-119">Follow your organization's server deployment procedures to perform this step.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="d6580-119">RTCUniversalServerAdmins 그룹 및 로컬 Administrators 그룹의 구성원 인 사용자 계정에서 복원 중인 서버에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-119">From a user account that is a member of the RTCUniversalServerAdmins group and the Local Administrators group, log on to the server that you are restoring.</span></span>
+2.  <span data-ttu-id="93e2c-120">RTCUniversalServerAdmins 그룹 및 로컬 Administrators 그룹의 구성원 인 사용자 계정에서 복원 중인 서버에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-120">From a user account that is a member of the RTCUniversalServerAdmins group and the Local Administrators group, log on to the server that you are restoring.</span></span>
 
-3.  <span data-ttu-id="d6580-120">Standard Edition server를 복원 하는 경우 $Backup에서 해당 파일 저장소를 서버의 파일 저장소 위치로 복사한 다음 해당 폴더를 공유 하 여 파일 저장소를 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-120">If you are restoring a Standard Edition server, restore the File Store by copying the appropriate File Store from $Backup to the File Store location on the server, and then share the folder.</span></span>
+3.  <span data-ttu-id="93e2c-121">Standard Edition server를 복원 하는 경우 $Backup에서 해당 파일 저장소를 서버의 파일 저장소 위치로 복사한 다음 해당 폴더를 공유 하 여 파일 저장소를 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-121">If you are restoring a Standard Edition server, restore the File Store by copying the appropriate File Store from $Backup to the File Store location on the server, and then share the folder.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="d6580-121">복원 된 파일 저장소의 경로와 파일 이름은 백업한 파일 저장소와 정확히 동일 해야 파일을 사용 하는 구성 요소에서 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-121">The path and file name for the restored File Store should be exactly the same as the backed up File Store so that components that use the files can access them.</span></span>
+    > <span data-ttu-id="93e2c-122">복원 된 파일 저장소의 경로와 파일 이름은 백업한 파일 저장소와 정확히 동일 해야 파일을 사용 하는 구성 요소에서 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-122">The path and file name for the restored File Store should be exactly the same as the backed up File Store so that components that use the files can access them.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="d6580-122">다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-122">Do one of the following:</span></span>
+4.  <span data-ttu-id="93e2c-123">다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-123">Do one of the following:</span></span>
     
-      - <span data-ttu-id="d6580-123">Standard Edition server를 설치 하는 경우 Lync Server 설치 폴더 또는 미디어로 이동한 후 \\ 설치 amd64Setup.exe에서 Lync Server 배포 마법사를 시작 합니다 \\ \\ .</span><span class="sxs-lookup"><span data-stu-id="d6580-123">If you are installing a Standard Edition server, browse to the Lync Server installation folder or media, and then start the Lync Server Deployment Wizard located at \\setup\\amd64\\Setup.exe.</span></span> <span data-ttu-id="d6580-124">배포 마법사에서 **첫 번째 Standard Edition Server 준비** 를 클릭 하 고 마법사의 지시에 따라 중앙 관리 저장소를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-124">In the Deployment Wizard, click **Prepare first Standard Edition server** and follow the wizard to install the Central Management store.</span></span>
+      - <span data-ttu-id="93e2c-124">Standard Edition server를 설치 하는 경우 Lync Server 설치 폴더 또는 미디어로 이동한 후 \\ 설치 amd64Setup.exe에서 Lync Server 배포 마법사를 시작 합니다 \\ \\ .</span><span class="sxs-lookup"><span data-stu-id="93e2c-124">If you are installing a Standard Edition server, browse to the Lync Server installation folder or media, and then start the Lync Server Deployment Wizard located at \\setup\\amd64\\Setup.exe.</span></span> <span data-ttu-id="93e2c-125">배포 마법사에서 **첫 번째 Standard Edition Server 준비** 를 클릭 하 고 마법사의 지시에 따라 중앙 관리 저장소를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-125">In the Deployment Wizard, click **Prepare first Standard Edition server** and follow the wizard to install the Central Management store.</span></span>
     
-      - <span data-ttu-id="d6580-125">엔터프라이즈 백 엔드 서버를 설치 하는 경우 SQL Server 2012 또는 SQL Server 2008 R2를 설치 하 고 인스턴스 이름을 오류 이전과 동일 하 게 유지 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-125">If you are installing an Enterprise Back End Server, install SQL Server 2012 or SQL Server 2008 R2, keeping the instance names the same as before the failure.</span></span>
+      - <span data-ttu-id="93e2c-126">엔터프라이즈 백 엔드 서버를 설치 하는 경우 SQL Server 2012 또는 SQL Server 2008 R2를 설치 하 고 인스턴스 이름을 오류 이전과 동일 하 게 유지 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-126">If you are installing an Enterprise Back End Server, install SQL Server 2012 or SQL Server 2008 R2, keeping the instance names the same as before the failure.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="d6580-126">복원 중인 서버와 배포에 따라 서버에 여러 배치 된 또는 별도의 데이터베이스가 포함 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-126">Depending on the server that you are restoring and on your deployment, the server might include multiple collocated or separate databases.</span></span> <span data-ttu-id="d6580-127">SQL Server 권한 및 로그인을 포함하여 원래 서버를 배포할 때 사용한 동일한 절차에 따라 SQL Server를 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-127">Follow the same procedure to install SQL Server that you used originally to deploy the server, including SQL Server permissions and logins.</span></span>
+        > <span data-ttu-id="93e2c-127">복원 중인 서버와 배포에 따라 서버에 여러 배치 된 또는 별도의 데이터베이스가 포함 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-127">Depending on the server that you are restoring and on your deployment, the server might include multiple collocated or separate databases.</span></span> <span data-ttu-id="93e2c-128">SQL Server 권한 및 로그인을 포함하여 원래 서버를 배포할 때 사용한 동일한 절차에 따라 SQL Server를 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-128">Follow the same procedure to install SQL Server that you used originally to deploy the server, including SQL Server permissions and logins.</span></span>
 
         
         </div>
 
-5.  <span data-ttu-id="d6580-128">프런트 엔드 서버에서 Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **lync server 관리 셸을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-128">From a Front End Server, Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+5.  <span data-ttu-id="93e2c-129">프런트 엔드 서버에서 Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **lync server 관리 셸을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-129">From a Front End Server, Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-6.  <span data-ttu-id="d6580-129">중앙 관리 저장소를 다시 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-129">Re-create the Central Management store.</span></span> <span data-ttu-id="d6580-130">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-130">At the command line, type:</span></span>
+6.  <span data-ttu-id="93e2c-130">중앙 관리 저장소를 다시 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-130">Re-create the Central Management store.</span></span> <span data-ttu-id="93e2c-131">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-131">At the command line, type:</span></span>
     
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <FQDN> -SqlInstanceName <instance name> -Verbose
     
-    <span data-ttu-id="d6580-131">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-131">For example:</span></span>
+    <span data-ttu-id="93e2c-132">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-132">For example:</span></span>
     
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
 
-7.  <span data-ttu-id="d6580-132">중앙 관리 저장소에 대 한 Active Directory 도메인 서비스 제어 지점을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-132">Set the Active Directory Domain Services control point for the Central Management store.</span></span> <span data-ttu-id="d6580-133">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-133">At the command line, type:</span></span>
+7.  <span data-ttu-id="93e2c-133">중앙 관리 저장소에 대 한 Active Directory 도메인 서비스 제어 지점을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-133">Set the Active Directory Domain Services control point for the Central Management store.</span></span> <span data-ttu-id="93e2c-134">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-134">At the command line, type:</span></span>
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn <FQDN> -SqlInstanceName <instance name> -Verbose
     
-    <span data-ttu-id="d6580-134">예:</span><span class="sxs-lookup"><span data-stu-id="d6580-134">For example:</span></span>
+    <span data-ttu-id="93e2c-135">예:</span><span class="sxs-lookup"><span data-stu-id="93e2c-135">For example:</span></span>
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
@@ -130,20 +131,20 @@ ms.locfileid: "48511395"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="d6580-135">서비스 연결 지점이 손실될 경우 이 cmdlet을 다시 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-135">If you lose the connection point, you can rerun this cmdlet.</span></span>
+    > <span data-ttu-id="93e2c-136">서비스 연결 지점이 손실될 경우 이 cmdlet을 다시 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-136">If you lose the connection point, you can rerun this cmdlet.</span></span>
 
     
     </div>
 
-8.  <span data-ttu-id="d6580-136">$Backup에서 중앙 관리 저장소 데이터를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-136">Import the Central Management store data from $Backup.</span></span> <span data-ttu-id="d6580-137">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-137">At the command line, type:</span></span>
+8.  <span data-ttu-id="93e2c-137">$Backup에서 중앙 관리 저장소 데이터를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-137">Import the Central Management store data from $Backup.</span></span> <span data-ttu-id="93e2c-138">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-138">At the command line, type:</span></span>
     
         Import-CsConfiguration -FileName <CMS backup file name>
     
-    <span data-ttu-id="d6580-138">예:</span><span class="sxs-lookup"><span data-stu-id="d6580-138">For example:</span></span>
+    <span data-ttu-id="93e2c-139">예:</span><span class="sxs-lookup"><span data-stu-id="93e2c-139">For example:</span></span>
     
         Import-CsConfiguration -FileName "C:\Config.zip"
 
-9.  <span data-ttu-id="d6580-p110">변경한 내용을 사용하도록 설정합니다. 명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-p110">Enable the changes you have just made. At the command line, type:</span></span>
+9.  <span data-ttu-id="93e2c-p110">변경한 내용을 사용하도록 설정합니다. 명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-p110">Enable the changes you have just made. At the command line, type:</span></span>
     
         Enable-CsTopology
     
@@ -151,90 +152,90 @@ ms.locfileid: "48511395"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="d6580-141">토폴로지를 사용하도록 설정한 후에는 데이터베이스에서 토폴로지 문서를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-141">After you enable the topology, you can find the topology document in the database.</span></span>
+    > <span data-ttu-id="93e2c-142">토폴로지를 사용하도록 설정한 후에는 데이터베이스에서 토폴로지 문서를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-142">After you enable the topology, you can find the topology document in the database.</span></span>
 
     
     </div>
 
-10. <span data-ttu-id="d6580-142">CMS를 호스트 하는 Enterprise Edition 백 엔드 서버를 복원 하는 경우 또는 CMS의 미러를 다시 만들어야 하는 경우이 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-142">If you are restoring an Enterprise Edition Back End Server that also hosted the CMS, or if you need to re-create a mirror of the CMS, then follow this step.</span></span> <span data-ttu-id="d6580-143">그렇지 않으면 11 단계로 건너뜁니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-143">Otherwise, skip to step 11.</span></span>
+10. <span data-ttu-id="93e2c-143">CMS를 호스트 하는 Enterprise Edition 백 엔드 서버를 복원 하는 경우 또는 CMS의 미러를 다시 만들어야 하는 경우이 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-143">If you are restoring an Enterprise Edition Back End Server that also hosted the CMS, or if you need to re-create a mirror of the CMS, then follow this step.</span></span> <span data-ttu-id="93e2c-144">그렇지 않으면 11 단계로 건너뜁니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-144">Otherwise, skip to step 11.</span></span>
     
-    <span data-ttu-id="d6580-144">다음을 수행 하 여 독립 실행형 데이터베이스를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-144">Install the stand-alone databases by doing the following:</span></span>
+    <span data-ttu-id="93e2c-145">다음을 수행 하 여 독립 실행형 데이터베이스를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-145">Install the stand-alone databases by doing the following:</span></span>
     
-    1.  <span data-ttu-id="d6580-145">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-145">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+    1.  <span data-ttu-id="93e2c-146">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-146">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
     
-    2.  <span data-ttu-id="d6580-146">**기존 배포에서 토폴로지 다운로드**를 클릭한 후 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-146">Click **Download Topology from existing deployment**, and then click **OK**.</span></span>
+    2.  <span data-ttu-id="93e2c-147">**기존 배포에서 토폴로지 다운로드**를 클릭한 후 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-147">Click **Download Topology from existing deployment**, and then click **OK**.</span></span>
     
-    3.  <span data-ttu-id="d6580-p112">토폴로지를 선택한 후 **저장**을 클릭합니다. **예**를 클릭하여 선택을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-p112">Select the topology, and then click **Save**. Click **Yes** to confirm your selection.</span></span>
+    3.  <span data-ttu-id="93e2c-p112">토폴로지를 선택한 후 **저장**을 클릭합니다. **예**를 클릭하여 선택을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-p112">Select the topology, and then click **Save**. Click **Yes** to confirm your selection.</span></span>
     
-    4.  <span data-ttu-id="d6580-149">**Lync Server 2013** 노드를 마우스 오른쪽 단추로 클릭 한 다음 **데이터베이스 설치**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-149">Right-click the **Lync Server 2013** node, and then click **Install Database**.</span></span>
+    4.  <span data-ttu-id="93e2c-150">**Lync Server 2013** 노드를 마우스 오른쪽 단추로 클릭 한 다음 **데이터베이스 설치**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-150">Right-click the **Lync Server 2013** node, and then click **Install Database**.</span></span>
     
-    5.  <span data-ttu-id="d6580-150">**데이터베이스 설치** 마법사를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-150">Follow the **Install Database** wizard.</span></span> <span data-ttu-id="d6580-151">이 서버의 중앙 관리 저장소 이외의 데이터베이스를 복원 하는 경우에는 **데이터베이스 만들기** 페이지에서 다시 만들려는 데이터베이스를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-151">If you are restoring a database other than the Central Management store on this server, on the **Create databases** page, select the databases you want to recreate.</span></span>
+    5.  <span data-ttu-id="93e2c-151">**데이터베이스 설치** 마법사를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-151">Follow the **Install Database** wizard.</span></span> <span data-ttu-id="93e2c-152">이 서버의 중앙 관리 저장소 이외의 데이터베이스를 복원 하는 경우에는 **데이터베이스 만들기** 페이지에서 다시 만들려는 데이터베이스를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-152">If you are restoring a database other than the Central Management store on this server, on the **Create databases** page, select the databases you want to recreate.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="d6580-152">독립 실행형 데이터베이스만 <STRONG>데이터베이스 만들기</STRONG> 페이지에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-152">Only stand-alone databases are displayed on the <STRONG>Create databases</STRONG> page.</span></span> <span data-ttu-id="d6580-153">배치 된 데이터베이스는 Lync Server 배포 마법사를 실행할 때 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-153">Collocated databases are created when you run the Lync Server Deployment Wizard.</span></span>
+        > <span data-ttu-id="93e2c-153">독립 실행형 데이터베이스만 <STRONG>데이터베이스 만들기</STRONG> 페이지에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-153">Only stand-alone databases are displayed on the <STRONG>Create databases</STRONG> page.</span></span> <span data-ttu-id="93e2c-154">배치 된 데이터베이스는 Lync Server 배포 마법사를 실행할 때 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-154">Collocated databases are created when you run the Lync Server Deployment Wizard.</span></span>
 
         
         </div>
     
-    6.  <span data-ttu-id="d6580-154">미러된 백 엔드 서버를 복원 하는 경우에는 미러 데이터베이스 만들기 메시지가 표시 될 때까지 마법사의 나머지 단계를 계속 진행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-154">If you are restoring a mirrored Back End Server, continue to follow the rest of the wizard until you come to a prompt of Create Mirror Database.</span></span> <span data-ttu-id="d6580-155">설치 하려는 데이터베이스를 선택 하 고 프로세스를 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-155">Select the database you want to install, and complete the process.</span></span>
+    6.  <span data-ttu-id="93e2c-155">미러된 백 엔드 서버를 복원 하는 경우에는 미러 데이터베이스 만들기 메시지가 표시 될 때까지 마법사의 나머지 단계를 계속 진행 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-155">If you are restoring a mirrored Back End Server, continue to follow the rest of the wizard until you come to a prompt of Create Mirror Database.</span></span> <span data-ttu-id="93e2c-156">설치 하려는 데이터베이스를 선택 하 고 프로세스를 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-156">Select the database you want to install, and complete the process.</span></span>
     
-    7.  <span data-ttu-id="d6580-156">나머지 마법사의 단계를 따른 후 **마침**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-156">Follow the rest of the wizard, and then click **Finish**.</span></span>
+    7.  <span data-ttu-id="93e2c-157">나머지 마법사의 단계를 따른 후 **마침**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-157">Follow the rest of the wizard, and then click **Finish**.</span></span>
     
     <div>
     
 
     > [!TIP]  
-    > <span data-ttu-id="d6580-157">토폴로지 작성기를 실행 하는 대신 <STRONG>설치-CsDatabase</STRONG> cmdlet을 사용 하 여 각 데이터베이스를 만들고 <STRONG>CsMirrorDatabase</STRONG> cmdlet을 통해 미러링을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-157">Instead of running Topology Builder, you can use the <STRONG>Install-CsDatabase</STRONG> cmdlet to create each database, and the <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet to configure mirroring.</span></span> <span data-ttu-id="d6580-158">자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsDatabase">install-CsDatabase</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d6580-158">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>.</span></span>
+    > <span data-ttu-id="93e2c-158">토폴로지 작성기를 실행 하는 대신 <STRONG>설치-CsDatabase</STRONG> cmdlet을 사용 하 여 각 데이터베이스를 만들고 <STRONG>CsMirrorDatabase</STRONG> cmdlet을 통해 미러링을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-158">Instead of running Topology Builder, you can use the <STRONG>Install-CsDatabase</STRONG> cmdlet to create each database, and the <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet to configure mirroring.</span></span> <span data-ttu-id="93e2c-159">자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsDatabase">install-CsDatabase</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="93e2c-159">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>.</span></span>
 
     
     </div>
 
-11. <span data-ttu-id="d6580-159">Standard Edition server를 복원 하는 경우 Lync Server 설치 폴더 또는 미디어로 이동 하 여 \\ setup amd64Setup.exe에 있는 Lync Server 배포 마법사를 시작 \\ 합니다 \\ .</span><span class="sxs-lookup"><span data-stu-id="d6580-159">If you are restoring a Standard Edition server, browse to the Lync Server installation folder or media, and start the Lync Server Deployment Wizard located at \\setup\\amd64\\Setup.exe.</span></span> <span data-ttu-id="d6580-160">Lync Server 배포 마법사를 사용 하 여 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-160">Use the Lync Server Deployment Wizard to do the following:</span></span>
+11. <span data-ttu-id="93e2c-160">Standard Edition server를 복원 하는 경우 Lync Server 설치 폴더 또는 미디어로 이동 하 여 \\ setup amd64Setup.exe에 있는 Lync Server 배포 마법사를 시작 \\ 합니다 \\ .</span><span class="sxs-lookup"><span data-stu-id="93e2c-160">If you are restoring a Standard Edition server, browse to the Lync Server installation folder or media, and start the Lync Server Deployment Wizard located at \\setup\\amd64\\Setup.exe.</span></span> <span data-ttu-id="93e2c-161">Lync Server 배포 마법사를 사용 하 여 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-161">Use the Lync Server Deployment Wizard to do the following:</span></span>
     
-    1.  <span data-ttu-id="d6580-161">**1단계: 로컬 구성 저장소 설치**를 실행하여 로컬 구성 파일을 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-161">Run **Step 1: Install Local Configuration Store** to install the local configuration files.</span></span>
+    1.  <span data-ttu-id="93e2c-162">**1단계: 로컬 구성 저장소 설치**를 실행하여 로컬 구성 파일을 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-162">Run **Step 1: Install Local Configuration Store** to install the local configuration files.</span></span>
     
-    2.  <span data-ttu-id="d6580-162">**2 단계: lync Server 구성 요소 설치 또는 제거** 를 실행 하 여 lync server 서버 역할을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-162">Run **Step 2: Setup or Remove Lync Server Components** to install the Lync Server server roles.</span></span>
+    2.  <span data-ttu-id="93e2c-163">**2 단계: lync Server 구성 요소 설치 또는 제거** 를 실행 하 여 lync server 서버 역할을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-163">Run **Step 2: Setup or Remove Lync Server Components** to install the Lync Server server roles.</span></span>
     
-    3.  <span data-ttu-id="d6580-163">**3단계: 인증서 요청, 설치 또는 지정**을 실행하여 인증서를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-163">Run **Step 3: Request, Install or Assign Certificates** to assign the certificates.</span></span>
+    3.  <span data-ttu-id="93e2c-164">**3단계: 인증서 요청, 설치 또는 지정**을 실행하여 인증서를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-164">Run **Step 3: Request, Install or Assign Certificates** to assign the certificates.</span></span>
     
-    4.  <span data-ttu-id="d6580-164">**4단계: 서비스 시작**을 실행하여 서버에서 서비스를 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-164">Run **Step 4: Start Services** to start services on the server.</span></span>
+    4.  <span data-ttu-id="93e2c-165">**4단계: 서비스 시작**을 실행하여 서버에서 서비스를 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-165">Run **Step 4: Start Services** to start services on the server.</span></span>
     
-    <span data-ttu-id="d6580-165">배포 마법사를 실행 하는 방법에 대 한 자세한 내용은 복원 중인 서버 역할에 대 한 배포 설명서를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d6580-165">For details about running the Deployment Wizard, see the Deployment documentation for the server role that you are restoring.</span></span>
+    <span data-ttu-id="93e2c-166">배포 마법사를 실행 하는 방법에 대 한 자세한 내용은 복원 중인 서버 역할에 대 한 배포 설명서를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="93e2c-166">For details about running the Deployment Wizard, see the Deployment documentation for the server role that you are restoring.</span></span>
 
-12. <span data-ttu-id="d6580-166">다음을 수행하여 사용자 데이터를 복원합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-166">Restore user data by performing the following:</span></span>
+12. <span data-ttu-id="93e2c-167">다음을 수행하여 사용자 데이터를 복원합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-167">Restore user data by performing the following:</span></span>
     
-    1.  <span data-ttu-id="d6580-167">$Backup에서 \\ 로컬 디렉터리로 ExportedUserData.zip를 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-167">Copy ExportedUserData.zip from $Backup\\ to a local directory.</span></span>
+    1.  <span data-ttu-id="93e2c-168">$Backup에서 \\ 로컬 디렉터리로 ExportedUserData.zip를 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-168">Copy ExportedUserData.zip from $Backup\\ to a local directory.</span></span>
     
-    2.  <span data-ttu-id="d6580-168">사용자 데이터를 복원 하기 전에 Lync services를 중지 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-168">Before you restore the user data, you must stop Lync services.</span></span> <span data-ttu-id="d6580-169">이렇게 하려면 다음을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-169">To do so, type:</span></span>
+    2.  <span data-ttu-id="93e2c-169">사용자 데이터를 복원 하기 전에 Lync services를 중지 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-169">Before you restore the user data, you must stop Lync services.</span></span> <span data-ttu-id="93e2c-170">이렇게 하려면 다음을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-170">To do so, type:</span></span>
         
             Stop-CsWindowsService
     
-    3.  <span data-ttu-id="d6580-170">사용자 데이터를 복원하려면 명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-170">To restore the user data, at the command line, type:</span></span>
+    3.  <span data-ttu-id="93e2c-171">사용자 데이터를 복원하려면 명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-171">To restore the user data, at the command line, type:</span></span>
         
             Import-CsUserData -PoolFqdn <Fqdn> -FileName <String>
         
-        <span data-ttu-id="d6580-171">예:</span><span class="sxs-lookup"><span data-stu-id="d6580-171">For example:</span></span>
+        <span data-ttu-id="93e2c-172">예:</span><span class="sxs-lookup"><span data-stu-id="93e2c-172">For example:</span></span>
         
             Import-CsUserData -PoolFqdn "atl0cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserDatal.zip"
     
-    4.  <span data-ttu-id="d6580-172">다음을 입력 하 여 Lync services를 다시 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-172">Restart Lync services by typing:</span></span>
+    4.  <span data-ttu-id="93e2c-173">다음을 입력 하 여 Lync services를 다시 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-173">Restart Lync services by typing:</span></span>
         
             Start-CsWindowsService
 
-13. <span data-ttu-id="d6580-173">위치 정보 데이터를 중앙 관리 저장소로 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-173">Restore Location Information data to the Central Management store.</span></span> <span data-ttu-id="d6580-174">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-174">At the command line, type:</span></span>
+13. <span data-ttu-id="93e2c-174">위치 정보 데이터를 중앙 관리 저장소로 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-174">Restore Location Information data to the Central Management store.</span></span> <span data-ttu-id="93e2c-175">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-175">At the command line, type:</span></span>
     
         Import-CsLisConfiguration -FileName <LIS backup file name>
     
-    <span data-ttu-id="d6580-175">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-175">For example:</span></span>
+    <span data-ttu-id="93e2c-176">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-176">For example:</span></span>
     
         Import-CsLisConfiguration -FileName "D:\E911Config.zip"
 
-14. <span data-ttu-id="d6580-176">이 풀 또는 Standard Edition 서버에 응답 그룹을 배포한 경우 응답 그룹 구성 데이터를 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-176">If you deployed Response Group on this pool or Standard Edition server, restore the Response Group configuration data.</span></span> <span data-ttu-id="d6580-177">자세한 내용은 [Lync Server 2013에서 응답 그룹 설정 복원을](lync-server-2013-restoring-response-group-settings.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d6580-177">For details, see [Restoring Response Group settings in Lync Server 2013](lync-server-2013-restoring-response-group-settings.md).</span></span>
+14. <span data-ttu-id="93e2c-177">이 풀 또는 Standard Edition 서버에 응답 그룹을 배포한 경우 응답 그룹 구성 데이터를 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-177">If you deployed Response Group on this pool or Standard Edition server, restore the Response Group configuration data.</span></span> <span data-ttu-id="93e2c-178">자세한 내용은 [Lync Server 2013에서 응답 그룹 설정 복원을](lync-server-2013-restoring-response-group-settings.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="93e2c-178">For details, see [Restoring Response Group settings in Lync Server 2013](lync-server-2013-restoring-response-group-settings.md).</span></span>
 
-15. <span data-ttu-id="d6580-178">보관 또는 모니터링 데이터베이스가 포함 된 백 엔드 서버를 복원 하는 경우 SQL Server Management Studio와 같은 SQL Server 관리 도구를 사용 하 여 보관 또는 모니터링 데이터를 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6580-178">If you are restoring a Back End Server that includes Archiving or Monitoring databases, restore the Archiving or Monitoring data by using a SQL Server management tool, such as SQL Server Management Studio.</span></span> <span data-ttu-id="d6580-179">자세한 내용은 [Lync Server 2013에서 모니터링 또는 보관 데이터 복원을](lync-server-2013-restoring-monitoring-or-archiving-data.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="d6580-179">For details, see [Restoring monitoring or archiving data in Lync Server 2013](lync-server-2013-restoring-monitoring-or-archiving-data.md).</span></span>
+15. <span data-ttu-id="93e2c-179">보관 또는 모니터링 데이터베이스가 포함 된 백 엔드 서버를 복원 하는 경우 SQL Server Management Studio와 같은 SQL Server 관리 도구를 사용 하 여 보관 또는 모니터링 데이터를 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="93e2c-179">If you are restoring a Back End Server that includes Archiving or Monitoring databases, restore the Archiving or Monitoring data by using a SQL Server management tool, such as SQL Server Management Studio.</span></span> <span data-ttu-id="93e2c-180">자세한 내용은 [Lync Server 2013에서 모니터링 또는 보관 데이터 복원을](lync-server-2013-restoring-monitoring-or-archiving-data.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="93e2c-180">For details, see [Restoring monitoring or archiving data in Lync Server 2013](lync-server-2013-restoring-monitoring-or-archiving-data.md).</span></span>
 
 </div>
 

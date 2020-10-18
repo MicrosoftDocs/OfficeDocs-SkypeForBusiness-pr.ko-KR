@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 복제 cmdlet'
+description: 'Lync Server 2013: 복제 cmdlet'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8f5caecd5d80836f5abb5a4fef6ee4cf8a06494
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b253176101de61a07630ec141a318dd114776392
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536345"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576114"
 ---
-# <a name="replication-cmdlets-in-lync-server-2013"></a><span data-ttu-id="372fd-102">Lync Server 2013의 복제 cmdlet</span><span class="sxs-lookup"><span data-stu-id="372fd-102">Replication cmdlets in Lync Server 2013</span></span>
+# <a name="replication-cmdlets-in-lync-server-2013"></a><span data-ttu-id="1ac4a-103">Lync Server 2013의 복제 cmdlet</span><span class="sxs-lookup"><span data-stu-id="1ac4a-103">Replication cmdlets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,61 +38,61 @@ ms.locfileid: "48536345"
 
 <span> </span>
 
-<span data-ttu-id="372fd-103">_**마지막으로 수정 된 항목:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="372fd-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="1ac4a-104">_**마지막으로 수정 된 항목:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="1ac4a-104">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="372fd-104">복제 cmdlet은 Lync Server 복제를 모니터링 및 관리할 수 있는 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="372fd-104">The replication cmdlets provide a way for you to both monitor and manage Lync Server replication.</span></span> <span data-ttu-id="372fd-105">이러한 cmdlet를 사용하여 복제 설정을 구성하고 복제 진행 상태를 모니터링하며 서버에서 복제를 수동으로 수행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="372fd-105">You can use these cmdlets to configure replication settings; to monitor replication progress; and to manually force replication on a server.</span></span>
+<span data-ttu-id="1ac4a-105">복제 cmdlet은 Lync Server 복제를 모니터링 및 관리할 수 있는 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="1ac4a-105">The replication cmdlets provide a way for you to both monitor and manage Lync Server replication.</span></span> <span data-ttu-id="1ac4a-106">이러한 cmdlet를 사용하여 복제 설정을 구성하고 복제 진행 상태를 모니터링하며 서버에서 복제를 수동으로 수행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1ac4a-106">You can use these cmdlets to configure replication settings; to monitor replication progress; and to manually force replication on a server.</span></span>
 
 <div>
 
-## <a name="replication-cmdlets"></a><span data-ttu-id="372fd-106">복제 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="372fd-106">Replication Cmdlets</span></span>
+## <a name="replication-cmdlets"></a><span data-ttu-id="1ac4a-107">복제 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="1ac4a-107">Replication Cmdlets</span></span>
 
-<span data-ttu-id="372fd-107">다음은 복제 관리와 직접 관련된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="372fd-107">The following is a list of cmdlets that relate directly to managing replication:</span></span>
+<span data-ttu-id="1ac4a-108">다음은 복제 관리와 직접 관련된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="1ac4a-108">The following is a list of cmdlets that relate directly to managing replication:</span></span>
 
-<span data-ttu-id="372fd-108">**복제**</span><span class="sxs-lookup"><span data-stu-id="372fd-108">**Replication**</span></span>
+<span data-ttu-id="1ac4a-109">**복제**</span><span class="sxs-lookup"><span data-stu-id="1ac4a-109">**Replication**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="372fd-109">[디버그-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="372fd-109">[Debug-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))</span></span>
+    <span data-ttu-id="1ac4a-110">[디버그-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1ac4a-110">[Debug-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="372fd-110">[Invoke-csmanagementstorereplication-를 호출 합니다.](https://technet.microsoft.com/library/Gg413060(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="372fd-110">[Invoke-CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))</span></span>
+    <span data-ttu-id="1ac4a-111">[Invoke-csmanagementstorereplication-를 호출 합니다.](https://technet.microsoft.com/library/Gg413060(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1ac4a-111">[Invoke-CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="372fd-111">[Get-csmanagementstorereplicationstatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="372fd-111">[Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))</span></span>
+    <span data-ttu-id="1ac4a-112">[Get-csmanagementstorereplicationstatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1ac4a-112">[Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="372fd-112">[사용-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="372fd-112">[Enable-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))</span></span>
+    <span data-ttu-id="1ac4a-113">[사용-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1ac4a-113">[Enable-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="372fd-113">[테스트-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="372fd-113">[Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))</span></span>
+    <span data-ttu-id="1ac4a-114">[테스트-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1ac4a-114">[Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="372fd-114">[Get-csuserreplicatorconfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="372fd-114">[Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))</span></span>
+    <span data-ttu-id="1ac4a-115">[Get-csuserreplicatorconfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1ac4a-115">[Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="372fd-115">[Get-csuserreplicatorconfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="372fd-115">[New-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))</span></span>
+    <span data-ttu-id="1ac4a-116">[Get-csuserreplicatorconfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1ac4a-116">[New-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="372fd-116">[Get-csuserreplicatorconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg425738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="372fd-116">[Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))</span></span>
+    <span data-ttu-id="1ac4a-117">[Get-csuserreplicatorconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg425738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1ac4a-117">[Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="372fd-117">[Get-csuserreplicatorconfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="372fd-117">[Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))</span></span>
+    <span data-ttu-id="1ac4a-118">[Get-csuserreplicatorconfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1ac4a-118">[Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="372fd-118">참고 항목</span><span class="sxs-lookup"><span data-stu-id="372fd-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1ac4a-119">참고 항목</span><span class="sxs-lookup"><span data-stu-id="1ac4a-119">See Also</span></span>
 
 
-[<span data-ttu-id="372fd-119">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="372fd-119">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="1ac4a-120">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="1ac4a-120">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

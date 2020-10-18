@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자 지정 된 영구 채팅 서버 준수 어댑터로 XmlAdapter 교체'
+description: 'Lync Server 2013: 사용자 지정 된 영구 채팅 서버 준수 어댑터로 XmlAdapter를 교체 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49558152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c90452edc96a424111fcaa8c99dcf60e55e0109
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3a90b4df7df42ffdc6c55e9b551b0eb53d07ab1c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536355"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576144"
 ---
-# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a><span data-ttu-id="57994-102">Lync Server 2013에서 XmlAdapter를 사용자 지정 된 영구 채팅 서버 준수 어댑터로 바꾸기</span><span class="sxs-lookup"><span data-stu-id="57994-102">Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter in Lync Server 2013</span></span>
+# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a><span data-ttu-id="289bf-103">Lync Server 2013에서 XmlAdapter를 사용자 지정 된 영구 채팅 서버 준수 어댑터로 바꾸기</span><span class="sxs-lookup"><span data-stu-id="289bf-103">Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48536355"
 
 <span> </span>
 
-<span data-ttu-id="57994-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="57994-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="289bf-104">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="289bf-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="57994-104">영구 채팅 서버와 함께 설치 되는 XmlAdapter를 사용 하는 대신 사용자 지정 어댑터를 작성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="57994-104">You can write a custom adapter instead of using the XmlAdapter that is installed with Persistent Chat Server.</span></span> <span data-ttu-id="57994-105">이렇게 하려면 **IComplianceAdapter** 인터페이스를 구현하는 공용 클래스가 포함된 .NET Framework 어셈블리를 제공해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="57994-105">To accomplish this, you must provide a .NET Framework assembly that contains a public class that implements the **IComplianceAdapter** interface.</span></span> <span data-ttu-id="57994-106">영구 채팅 서버 풀에 있는 각 서버의 영구 채팅 서버 설치 폴더에이 어셈블리를 배치 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="57994-106">You must place this assembly in the Persistent Chat Server installation folder of each server in your Persistent Chat Server pool.</span></span> <span data-ttu-id="57994-107">준수 서버 중 하나가 어댑터에 준수 데이터를 제공할 수 있지만, 준수 서버가 여러 어댑터 인스턴스에 대해 중복 준수 데이터를 제공하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="57994-107">Any one of the Compliance servers can provide compliance data to your adapter, but the compliance servers will not provide duplicate compliance data to multiple instances of your adapter.</span></span>
+<span data-ttu-id="289bf-105">영구 채팅 서버와 함께 설치 되는 XmlAdapter를 사용 하는 대신 사용자 지정 어댑터를 작성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="289bf-105">You can write a custom adapter instead of using the XmlAdapter that is installed with Persistent Chat Server.</span></span> <span data-ttu-id="289bf-106">이렇게 하려면 **IComplianceAdapter** 인터페이스를 구현하는 공용 클래스가 포함된 .NET Framework 어셈블리를 제공해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="289bf-106">To accomplish this, you must provide a .NET Framework assembly that contains a public class that implements the **IComplianceAdapter** interface.</span></span> <span data-ttu-id="289bf-107">영구 채팅 서버 풀에 있는 각 서버의 영구 채팅 서버 설치 폴더에이 어셈블리를 배치 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="289bf-107">You must place this assembly in the Persistent Chat Server installation folder of each server in your Persistent Chat Server pool.</span></span> <span data-ttu-id="289bf-108">준수 서버 중 하나가 어댑터에 준수 데이터를 제공할 수 있지만, 준수 서버가 여러 어댑터 인스턴스에 대해 중복 준수 데이터를 제공하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="289bf-108">Any one of the Compliance servers can provide compliance data to your adapter, but the compliance servers will not provide duplicate compliance data to multiple instances of your adapter.</span></span>
 
 <div>
 
-## <a name="implementing-the-icomplianceadapter-interface"></a><span data-ttu-id="57994-108">IComplianceAdapter 인터페이스 구현</span><span class="sxs-lookup"><span data-stu-id="57994-108">Implementing the IComplianceAdapter interface</span></span>
+## <a name="implementing-the-icomplianceadapter-interface"></a><span data-ttu-id="289bf-109">IComplianceAdapter 인터페이스 구현</span><span class="sxs-lookup"><span data-stu-id="289bf-109">Implementing the IComplianceAdapter interface</span></span>
 
-<span data-ttu-id="57994-109">인터페이스는 네임 스페이스의 Compliance.dll 어셈블리에 정의 됩니다 `Microsoft.Rtc.Internal.Chat.Server.Compliance` .</span><span class="sxs-lookup"><span data-stu-id="57994-109">The interface is defined in the Compliance.dll assembly in the namespace `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span></span> <span data-ttu-id="57994-110">이 인터페이스는 사용자 지정 어댑터가 구현해야 하는 두 개의 메서드를 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="57994-110">The interface defines two methods that your custom adapter must implement.</span></span>
+<span data-ttu-id="289bf-110">인터페이스는 네임 스페이스의 Compliance.dll 어셈블리에 정의 됩니다 `Microsoft.Rtc.Internal.Chat.Server.Compliance` .</span><span class="sxs-lookup"><span data-stu-id="289bf-110">The interface is defined in the Compliance.dll assembly in the namespace `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span></span> <span data-ttu-id="289bf-111">이 인터페이스는 사용자 지정 어댑터가 구현해야 하는 두 개의 메서드를 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="289bf-111">The interface defines two methods that your custom adapter must implement.</span></span>
 
     void SetConfig(AdapterConfig config)
 
-<span data-ttu-id="57994-111">영구 채팅 준수 서버는 어댑터가 처음 로드 될 때이 메서드를 호출 합니다.</span><span class="sxs-lookup"><span data-stu-id="57994-111">The Persistent Chat Compliance server will call this method when the adapter first loads.</span></span> <span data-ttu-id="57994-112">에는 `AdapterConfig` 준수 어댑터와 관련 된 영구 채팅 준수 구성이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="57994-112">The `AdapterConfig` contains the Persistent Chat compliance configuration that is relevant to the compliance adapter.</span></span>
+<span data-ttu-id="289bf-112">영구 채팅 준수 서버는 어댑터가 처음 로드 될 때이 메서드를 호출 합니다.</span><span class="sxs-lookup"><span data-stu-id="289bf-112">The Persistent Chat Compliance server will call this method when the adapter first loads.</span></span> <span data-ttu-id="289bf-113">에는 `AdapterConfig` 준수 어댑터와 관련 된 영구 채팅 준수 구성이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="289bf-113">The `AdapterConfig` contains the Persistent Chat compliance configuration that is relevant to the compliance adapter.</span></span>
 
     void Translate(ConversationCollection conversations)
 
-<span data-ttu-id="57994-113">영구적 채팅 준수 서버는 변환할 새 데이터가 있는 동안 주기적으로이 메서드를 호출 합니다.</span><span class="sxs-lookup"><span data-stu-id="57994-113">The Persistent Chat Compliance server calls this method at periodic intervals as long as there is new data to translate.</span></span> <span data-ttu-id="57994-114">이 시간 간격은 `RunInterval` 영구 채팅 준수 구성에서 설정 하는 것과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="57994-114">This time interval is equal to the `RunInterval` as set in the Persistent Chat Compliance configuration.</span></span>
+<span data-ttu-id="289bf-114">영구적 채팅 준수 서버는 변환할 새 데이터가 있는 동안 주기적으로이 메서드를 호출 합니다.</span><span class="sxs-lookup"><span data-stu-id="289bf-114">The Persistent Chat Compliance server calls this method at periodic intervals as long as there is new data to translate.</span></span> <span data-ttu-id="289bf-115">이 시간 간격은 `RunInterval` 영구 채팅 준수 구성에서 설정 하는 것과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="289bf-115">This time interval is equal to the `RunInterval` as set in the Persistent Chat Compliance configuration.</span></span>
 
-<span data-ttu-id="57994-115">에는 `ConversationCollection` 이 메서드를 마지막으로 호출한 시간에서 수집 된 대화 정보가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="57994-115">The `ConversationCollection` contains the conversation information that was collected from the last time this method was called.</span></span>
+<span data-ttu-id="289bf-116">에는 `ConversationCollection` 이 메서드를 마지막으로 호출한 시간에서 수집 된 대화 정보가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="289bf-116">The `ConversationCollection` contains the conversation information that was collected from the last time this method was called.</span></span>
 
 </div>
 
