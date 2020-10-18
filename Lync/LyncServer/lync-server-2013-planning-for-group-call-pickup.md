@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 그룹 통화 픽업 계획'
+description: 'Lync Server 2013: 그룹 통화 픽업 계획'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b3cf5c8e340b552a2e0915575293d63e902e66f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ddf2c2da1d150ad1e69f5271fa09d6c25dc08e19
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522135"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578734"
 ---
-# <a name="planning-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="cb6a7-102">Lync Server 2013의 그룹 통화 픽업 계획</span><span class="sxs-lookup"><span data-stu-id="cb6a7-102">Planning for Group Call Pickup in Lync Server 2013</span></span>
+# <a name="planning-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="2a952-103">Lync Server 2013의 그룹 통화 픽업 계획</span><span class="sxs-lookup"><span data-stu-id="2a952-103">Planning for Group Call Pickup in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48522135"
 
 <span> </span>
 
-<span data-ttu-id="cb6a7-103">_**마지막으로 수정 된 항목:** 2013-02-01_</span><span class="sxs-lookup"><span data-stu-id="cb6a7-103">_**Topic Last Modified:** 2013-02-01_</span></span>
+<span data-ttu-id="2a952-104">_**마지막으로 수정 된 항목:** 2013-02-01_</span><span class="sxs-lookup"><span data-stu-id="2a952-104">_**Topic Last Modified:** 2013-02-01_</span></span>
 
-<span data-ttu-id="cb6a7-104">Lync Server에 대 한 누적 업데이트 2013:2 월 2013 그룹 통화 픽업을 새 Enterprise Voice 기능으로 도입 합니다.</span><span class="sxs-lookup"><span data-stu-id="cb6a7-104">Cumulative update for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="cb6a7-105">그룹 통화 픽업 사용자는 통화 픽업 그룹 번호를 사용 하 여 다른 사용자에 게 신호를 거는 통화를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cb6a7-105">Group Call Pickup lets users pick up calls that are ringing for another user by dialing a call pickup group number.</span></span> <span data-ttu-id="cb6a7-106">이 섹션에는 그룹 통화 픽업에 해당 하는 계획 정보에 대 한 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cb6a7-106">This section includes planning information that is specific to Group Call Pickup.</span></span>
+<span data-ttu-id="2a952-105">Lync Server에 대 한 누적 업데이트 2013:2 월 2013 그룹 통화 픽업을 새 Enterprise Voice 기능으로 도입 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a952-105">Cumulative update for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="2a952-106">그룹 통화 픽업 사용자는 통화 픽업 그룹 번호를 사용 하 여 다른 사용자에 게 신호를 거는 통화를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a952-106">Group Call Pickup lets users pick up calls that are ringing for another user by dialing a call pickup group number.</span></span> <span data-ttu-id="2a952-107">이 섹션에는 그룹 통화 픽업에 해당 하는 계획 정보에 대 한 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a952-107">This section includes planning information that is specific to Group Call Pickup.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cb6a7-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="cb6a7-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2a952-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="2a952-108">In This Section</span></span>
 
-  - [<span data-ttu-id="cb6a7-108">Lync Server 2013의 그룹 통화 픽업 개요</span><span class="sxs-lookup"><span data-stu-id="cb6a7-108">Overview of Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-overview-of-group-call-pickup.md)
+  - [<span data-ttu-id="2a952-109">Lync Server 2013의 그룹 통화 픽업 개요</span><span class="sxs-lookup"><span data-stu-id="2a952-109">Overview of Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-overview-of-group-call-pickup.md)
 
-  - [<span data-ttu-id="cb6a7-109">Lync Server 2013의 그룹 통화 픽업에서 사용 되는 구성 요소</span><span class="sxs-lookup"><span data-stu-id="cb6a7-109">Components used by Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-components-used-by-group-call-pickup.md)
+  - [<span data-ttu-id="2a952-110">Lync Server 2013의 그룹 통화 픽업에서 사용 되는 구성 요소</span><span class="sxs-lookup"><span data-stu-id="2a952-110">Components used by Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-components-used-by-group-call-pickup.md)
 
-  - [<span data-ttu-id="cb6a7-110">Lync Server 2013의 그룹 통화 픽업에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="cb6a7-110">Technical requirements for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-group-call-pickup.md)
+  - [<span data-ttu-id="2a952-111">Lync Server 2013의 그룹 통화 픽업에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="2a952-111">Technical requirements for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-group-call-pickup.md)
 
-  - [<span data-ttu-id="cb6a7-111">Lync Server 2013의 그룹 통화 픽업에 대해 지원 되는 클라이언트</span><span class="sxs-lookup"><span data-stu-id="cb6a7-111">Clients supported for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-group-call-pickup.md)
+  - [<span data-ttu-id="2a952-112">Lync Server 2013의 그룹 통화 픽업에 대해 지원 되는 클라이언트</span><span class="sxs-lookup"><span data-stu-id="2a952-112">Clients supported for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-group-call-pickup.md)
 
-  - [<span data-ttu-id="cb6a7-112">Lync Server 2013의 그룹 통화 픽업 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="cb6a7-112">Deployment process for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-group-call-pickup.md)
+  - [<span data-ttu-id="2a952-113">Lync Server 2013의 그룹 통화 픽업 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="2a952-113">Deployment process for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-group-call-pickup.md)
 
 </div>
 
