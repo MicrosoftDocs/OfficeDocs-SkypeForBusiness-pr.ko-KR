@@ -1,5 +1,6 @@
 ---
 title: DNS 요약-SIP, XMPP 페더레이션 및 공용 인스턴트 메시징
+description: DNS 요약-SIP, XMPP 페더레이션 및 공용 인스턴트 메시징입니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8c7b36448f2aa8eb895aebeeaddc6187c1831ca
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f40013b8346cc049f844a827b21bef81a66f6950
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501195"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572764"
 ---
 # <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>DNS 요약-SIP, XMPP 페더레이션 및 Lync Server 2013의 공용 인스턴트 메시징
 

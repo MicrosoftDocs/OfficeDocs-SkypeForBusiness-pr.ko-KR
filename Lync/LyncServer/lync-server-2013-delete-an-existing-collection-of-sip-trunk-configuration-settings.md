@@ -1,5 +1,6 @@
 ---
 title: SIP 트렁크 구성 설정의 기존 컬렉션 삭제
+description: SIP 트렁크 구성 설정의 기존 컬렉션을 삭제 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733614
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bd2dd62116f0d48a2a3169c91d8d04486c86418
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 98acede458d34eb30202d898414b2e17076d32d2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514675"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572824"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 SIP 트렁크 구성 설정의 기존 컬렉션 삭제
 

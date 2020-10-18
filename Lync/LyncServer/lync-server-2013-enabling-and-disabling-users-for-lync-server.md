@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server에 대해 사용자 사용 및 사용 안 함'
+description: 'Lync Server 2013: Lync Server에 대해 사용자를 사용 하도록 설정 하 고 사용 하지 않도록 설정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96dd52b546029c04e25c4c20f31e921ed7b1f766
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 48c2d2f58b25b69e0a06276addad3cf47fe7d886
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532015"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572664"
 ---
 # <a name="enabling-and-disabling-users-for-lync-server-2013"></a>Lync Server 2013에 대 한 사용자 사용 및 사용 안 함
 

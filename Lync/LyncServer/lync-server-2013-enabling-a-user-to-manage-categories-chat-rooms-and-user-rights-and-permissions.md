@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자가 범주, 대화방, 사용자 권한 및 사용 권한을 관리할 수 있도록 설정'
+description: 'Lync Server 2013: 사용자가 범주, 대화방, 사용자 권한 및 사용 권한을 관리할 수 있도록 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48706002
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0fab4c354be95a5cb5864944412c973030b7e6f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 09b41947164a86dffd8ed2edbaccc297cf3cfca4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522421"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572694"
 ---
 # <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a>Lync Server 2013에서 사용자가 범주, 대화방, 사용자 권한 및 사용 권한을 관리할 수 있도록 설정
 

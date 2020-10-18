@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013:에 지 토폴로지 정의
+description: Lync Server 2013:에 지 토폴로지를 정의 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ceba1f397493ac0ef6961099877643f802c11d93
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bd4aa16ca23d24f0edd92189216030ef926fc841
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504565"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572944"
 ---
 # <a name="define-your-edge-topology-in-lync-server-2013"></a>Lync Server 2013에서에 지 토폴로지 정의
 

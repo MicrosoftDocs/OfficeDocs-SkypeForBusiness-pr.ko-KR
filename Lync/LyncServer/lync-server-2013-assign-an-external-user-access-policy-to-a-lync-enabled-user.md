@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync 사용이 가능한 사용자에 게 외부 사용자 액세스 정책 할당'
+description: 'Lync Server 2013: Lync 사용이 가능한 사용자에 게 외부 사용자 액세스 정책을 할당 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d7b1f9436695c5bd455c376d9c75add996be28f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2be3ea52e6e44400b3967d7c3346da2297220675
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508945"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573464"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-lync-enabled-user-in-lync-server-2013"></a>Lync Server 2013의 Lync 사용 가능 사용자에 게 외부 사용자 액세스 정책 할당
 

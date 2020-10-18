@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 프런트 엔드 풀에 대 한 DNS 요구 사항'
+description: 'Lync Server 2013: 프런트 엔드 풀에 대 한 DNS 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1808e4b65e900b5a38de1d76e7da17fe055d270
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8c0369e82bd8ed2ea63e2156728b41f9942b0148
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526835"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574324"
 ---
 # <a name="dns-requirements-for-front-end-pools-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 풀에 대 한 DNS 요구 사항
 

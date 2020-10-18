@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Active Directory 도메인 서비스 준비'
+description: 'Lync Server 2013: Active Directory 도메인 서비스 준비'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc8b5f4a5efc60456d874276b025ff7ca9806028
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d6ecfcffd55739bc6d1bf1b83a701a0fd515ec56
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513315"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572542"
 ---
 # <a name="preparing-active-directory-domain-services-for-lync-server-2013"></a>Lync Server 2013에 대한 Active Directory 도메인 서비스 준비
 
@@ -51,7 +52,7 @@ Lync Server 2013를 배포 하 고 작동 하기 전에 스키마를 확장 하 
 
   - [Lync Server 2013의 Active Directory 도메인 서비스 준비 개요](lync-server-2013-overview-of-active-directory-domain-services-preparation.md)
 
-  - [Lync Server 2013에서 Active Directory 도메인 서비스 준비](lync-server-2013-preparing-active-directory-domain-services_1.md)
+  - [Lync Server 2013에서 Active Directory 도메인 서비스 준비](lync-server-2013-preparing-active-directory-domain-services.md)
 
   - [Lync Server 2013에서 잠긴 Active Directory 도메인 서비스 준비](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)
 

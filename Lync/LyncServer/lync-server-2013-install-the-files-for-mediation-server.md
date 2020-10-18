@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 중재 서버용 파일 설치'
+description: 'Lync Server 2013: 중재 서버용 파일을 설치 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc7fd5613b39fd17724c9b62152f9d9401fbc072
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ea1fc20fb91328d116a4aee62b96b95aa3e270eb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498595"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574074"
 ---
 # <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013에서 중재 서버용 파일 설치
 

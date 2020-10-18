@@ -1,5 +1,6 @@
 ---
 title: 서버에 운영 체제 및 필수 구성 요소 소프트웨어 설치
+description: 서버에 운영 체제 및 필수 구성 요소 소프트웨어를 설치 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183288
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37cfbf02d379a3003338d4eabc7a5ca3c4b49f15
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2bae9e57db9c2f1d3f3bde7ce9cc7071b73aa01d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498695"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574134"
 ---
 # <a name="install-operating-systems-and-prerequisite-software-on-servers-for-lync-server-2013"></a>Lync Server 2013의 서버에 운영 체제 및 필수 구성 요소 소프트웨어 설치
 

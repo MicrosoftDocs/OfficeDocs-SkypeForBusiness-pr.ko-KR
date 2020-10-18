@@ -1,5 +1,6 @@
 ---
 title: Lync Phone Edition 구성 설정의 기존 컬렉션 삭제
+description: Lync Phone Edition 구성 설정의 기존 컬렉션을 삭제 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce796b13ea69296fa72799a13d35cb2046a643b0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5137590a37b8bbb47f7445d20639157953597ca6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514635"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572864"
 ---
 # <a name="delete-an-existing-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 Lync Phone Edition 구성 설정의 기존 컬렉션 삭제
 

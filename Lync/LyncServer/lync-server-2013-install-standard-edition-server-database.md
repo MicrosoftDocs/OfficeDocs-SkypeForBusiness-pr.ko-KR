@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Standard Edition Server 데이터베이스 설치'
+description: 'Lync Server 2013: Standard Edition Server 데이터베이스를 설치 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d4027c02a866769c5b9866f6d315d31c6dcf80c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0a20d2c01de94ad88960555db78c57c6b79d92f7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498665"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574084"
 ---
 # <a name="install-standard-edition-server-database-for-lync-server-2013"></a>Lync Server 2013에 대 한 Standard Edition server 데이터베이스 설치
 

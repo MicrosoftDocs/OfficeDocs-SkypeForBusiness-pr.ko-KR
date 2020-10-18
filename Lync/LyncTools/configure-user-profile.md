@@ -1,5 +1,6 @@
 ---
 title: 사용자 프로필 구성
+description: 사용자 프로필을 구성 합니다.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63e00301a01920cc836ccc4d227952de4e9a4c78
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 682297da43797dd2d774094e85e8688ef3c64d98
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505265"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573094"
 ---
 # <a name="configure-user-profile"></a>사용자 프로필 구성
 

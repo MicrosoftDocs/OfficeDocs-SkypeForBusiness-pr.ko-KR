@@ -1,5 +1,6 @@
 ---
 title: 공용 인스턴트 메신저 연결에 대 한 Lync Server 2013 지원
+description: Lync Server 2013 공용 인스턴트 메신저 연결을 지원 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ad9f5083d336fdf90e415d627fe448d02e4db29
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d4a58d71eb23012da960cf4505f1a55fd08df32c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519425"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573254"
 ---
 # <a name="support-for-public-instant-messenger-connectivity-in-lync-server-2013"></a>Lync Server 2013의 공용 인스턴트 메신저 연결 지원
 

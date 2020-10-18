@@ -1,5 +1,6 @@
 ---
 title: 기존 Lync Server 2013 배포에 보관 데이터베이스 추가
+description: 기존 Lync Server 2013 배포에 보관 데이터베이스 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e98a21b8d19a93d50b06fdc1c9c0034b5fada062
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 03a9e7c2ea60ff1e1ad0bc647c903665f934ca77
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521405"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573064"
 ---
 # <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a>기존 Lync Server 2013 배포에 보관 데이터베이스 추가
 

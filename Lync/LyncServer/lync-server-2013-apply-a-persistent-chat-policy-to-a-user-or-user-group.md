@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자 또는 사용자 그룹에 영구 채팅 정책 적용'
+description: 'Lync Server 2013: 사용자 또는 사용자 그룹에 영구 채팅 정책을 적용 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184652
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af7eeba1070f0bef199ea18112eea3b84414bd42
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 168fa795303bbcf3f3eef4bfc817aa98d763d1ea
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504945"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573484"
 ---
 # <a name="apply-a-persistent-chat-policy-to-a-user-or-user-group-in-lync-server-2013"></a>Lync Server 2013의 사용자 또는 사용자 그룹에 영구 채팅 정책 적용
 
