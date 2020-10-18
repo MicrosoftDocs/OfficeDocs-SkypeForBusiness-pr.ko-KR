@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 샘플 영구 채팅 데이터베이스 쿼리'
+description: 'Lync Server 2013: 샘플 영구 채팅 데이터베이스 쿼리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184133
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfbe31844e0ca78a3f9b133bde96f2a6f625f759
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5e1cb49e944dbbd3e22c1b944b4c8495c6ff9b54
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511035"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574914"
 ---
 # <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>Lync Server 2013에 대 한 샘플 영구 채팅 데이터베이스 쿼리
 

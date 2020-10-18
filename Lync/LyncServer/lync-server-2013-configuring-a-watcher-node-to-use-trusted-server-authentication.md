@@ -1,5 +1,6 @@
 ---
 title: 신뢰할 수 있는 서버 인증을 사용 하도록 감시자 노드 구성
+description: 신뢰할 수 있는 서버 인증을 사용 하도록 감시자 노드 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1478e2b2153c1b6834629ab41ccd6cde5b272430
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 247d628f936808a01780c7adc497342baedbbecb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517705"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576314"
 ---
 # <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>신뢰할 수 있는 서버 인증을 사용 하도록 Lync Server 2013에서 감시자 노드 구성
 

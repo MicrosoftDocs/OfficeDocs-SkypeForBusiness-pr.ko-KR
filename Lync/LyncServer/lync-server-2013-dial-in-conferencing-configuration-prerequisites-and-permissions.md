@@ -1,5 +1,6 @@
 ---
 title: 전화 접속 회의 구성 선행 조건 및 사용 권한
+description: 전화 접속 회의 구성 필요 조건 및 사용 권한
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6c394d3535acb9b1842ac49f13eda1459d68c95
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: eced67f33e35c711c4fcd31120480b6d5c2e41ce
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514515"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576174"
 ---
 # <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Lync Server 2013의 전화 접속 회의 구성 필수 구성 요소 및 사용 권한
 

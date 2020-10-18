@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 중앙 관리 저장소를 호스트 하는 서버 복원'
+description: 'Lync Server 2013: 중앙 관리 저장소를 호스트 하는 서버를 복원 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3912402b48ce8aede4a53efea208c96bff825
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c0c07e4c6722695b2bfb4cb478a1f3eefa86b4eb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511395"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575454"
 ---
 # <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Lync Server 2013에서 중앙 관리 저장소를 호스트 하는 서버 복원
 

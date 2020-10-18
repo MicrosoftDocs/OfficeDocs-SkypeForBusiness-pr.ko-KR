@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 백업 서비스 구성 및 모니터링'
+description: 'Lync Server 2013: 백업 서비스 구성 및 모니터링'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3df8f2208566ed89feda0a06c4cce8f699d130d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 35302aeb430e8591babd88969d4c5c158c1ac0bf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517565"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574644"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>Lync Server 2013에서 백업 서비스 구성 및 모니터링
 

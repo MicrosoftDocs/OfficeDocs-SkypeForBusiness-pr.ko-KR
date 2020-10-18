@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 메시지 삭제 또는 오래 된 메시지 제거'
+description: 'Lync Server 2013: 메시지를 삭제 하거나 사용 하지 않는 메시지를 제거 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48706000
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db44ca77d217c1b7bc0bc4d05c56cb9b6ff99ea4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 928e34d2ab52b02155568c7da96e4ac1d8154b7a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525455"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575824"
 ---
 # <a name="deleting-a-message-or-purging-obsolete-messages-in-lync-server-2013"></a>Lync Server 2013에서 메시지 삭제 또는 오래 된 메시지 제거
 

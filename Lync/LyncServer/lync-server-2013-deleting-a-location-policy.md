@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 위치 정책 삭제'
+description: 'Lync Server 2013: 위치 정책을 삭제 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d046b344c294475dffcc0a10ee8972475f7e903
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 88935c00a60de377c9812a4d119708fd610338ab
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525465"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575844"
 ---
 # <a name="deleting-a-location-policy-in-lync-server-2013"></a>Lync Server 2013에서 위치 정책 삭제
 

@@ -1,5 +1,6 @@
 ---
 title: Enterprise Edition 프런트 엔드 풀 배포의 Lync server 2013 Server 배치
+description: Lync Server 2013 Server 배치 Edition 프런트 엔드 풀 배포의 위치입니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0162a4338a1504ed425015e5b9391fca9903d4ab
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1a937cd2d58e41d56fec3c7898ebcf6725086d51
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510285"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576554"
 ---
 # <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>Lync Server 2013에 대 한 Enterprise Edition 프런트 엔드 풀 배포의 서버 배치
 

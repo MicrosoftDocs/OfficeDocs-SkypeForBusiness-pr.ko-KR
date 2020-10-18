@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 새 클라이언트 버전 정책 규칙 만들기 또는 수정'
+description: 'Lync Server 2013: 새 클라이언트 버전 정책 규칙을 만들거나 수정 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50873758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 732113537b79ad2ac767f64b861f296be508899c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 11ebcf17d5cb14fd519fba8ad36be10894fabdb9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512725"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574624"
 ---
 # <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>Lync Server 2013에서 새 클라이언트 버전 정책 규칙 만들기 또는 수정
 

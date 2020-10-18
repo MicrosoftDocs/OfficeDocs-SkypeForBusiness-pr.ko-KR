@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server 2013에 대 한 페더레이션 및 외부 액세스 관리'
+description: 'Lync Server 2013: Lync Server 2013에 대 한 페더레이션 및 외부 액세스를 관리 하는 방법을 사용할 수 있습니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5853578ed55f5a5461b5fbb8c1ce3c2dda8b0e5e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d1d389c7490fd1884631ed2fc184d590eb42141b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505755"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574924"
 ---
 # <a name="managing-federation-and-external-access-to-lync-server-2013"></a>Lync Server 2013에 대 한 페더레이션 및 외부 액세스 관리
 

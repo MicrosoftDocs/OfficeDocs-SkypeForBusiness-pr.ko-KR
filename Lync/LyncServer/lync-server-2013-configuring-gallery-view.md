@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 갤러리 보기 구성'
+description: 'Lync Server 2013: 갤러리 보기를 구성 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fd9823ca211242e0fd317e8a62ea118ed91a82f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2aec2f1e3c7bff9a3736f40584a29880978b9daa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517465"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575924"
 ---
 # <a name="configuring-gallery-view-in-lync-server-2013"></a>Lync Server 2013에서 갤러리 보기 구성
 
