@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: CAC의 구성 요소 및 토폴로지'
+description: 'Lync Server 2013: CAC의 구성 요소 및 토폴로지'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d77913a9817c114153f8da87c04430c36b2ad595
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d4ec83dd46595ff1cf176afd617e8f4d5fa3099c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502595"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576914"
 ---
-# <a name="components-and-topologies-for-cac-in-lync-server-2013"></a><span data-ttu-id="1f7d2-102">Lync Server 2013의 CAC에 대 한 구성 요소 및 토폴로지</span><span class="sxs-lookup"><span data-stu-id="1f7d2-102">Components and topologies for CAC in Lync Server 2013</span></span>
+# <a name="components-and-topologies-for-cac-in-lync-server-2013"></a><span data-ttu-id="35de9-103">Lync Server 2013의 CAC에 대 한 구성 요소 및 토폴로지</span><span class="sxs-lookup"><span data-stu-id="35de9-103">Components and topologies for CAC in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48502595"
 
 <span> </span>
 
-<span data-ttu-id="1f7d2-103">_**마지막으로 수정 된 항목:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="1f7d2-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="35de9-104">_**마지막으로 수정 된 항목:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="35de9-104">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="1f7d2-104">이 섹션의 항목에서는 다양한 네트워크 토폴로지 유형으로 CAC(통화 허용 제어)를 배포할 때의 특별 고려 사항에 대한 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="1f7d2-104">The topics in this section provide information about special considerations for deploying call admission control (CAC) with various types of network topologies.</span></span>
+<span data-ttu-id="35de9-105">이 섹션의 항목에서는 다양한 네트워크 토폴로지 유형으로 CAC(통화 허용 제어)를 배포할 때의 특별 고려 사항에 대한 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="35de9-105">The topics in this section provide information about special considerations for deploying call admission control (CAC) with various types of network topologies.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1f7d2-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="1f7d2-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="35de9-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="35de9-106">In This Section</span></span>
 
-  - [<span data-ttu-id="1f7d2-106">Lync Server 2013를 사용 하는 MPLS 네트워크의 통화 허용 제어</span><span class="sxs-lookup"><span data-stu-id="1f7d2-106">Call admission control on an MPLS network with Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-an-mpls-network.md)
+  - [<span data-ttu-id="35de9-107">Lync Server 2013를 사용 하는 MPLS 네트워크의 통화 허용 제어</span><span class="sxs-lookup"><span data-stu-id="35de9-107">Call admission control on an MPLS network with Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-an-mpls-network.md)
 
-  - [<span data-ttu-id="1f7d2-107">Lync Server 2013의 SIP 트렁크에 대 한 통화 허용 제어</span><span class="sxs-lookup"><span data-stu-id="1f7d2-107">Call admission control on a SIP trunk in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
+  - [<span data-ttu-id="35de9-108">Lync Server 2013의 SIP 트렁크에 대 한 통화 허용 제어</span><span class="sxs-lookup"><span data-stu-id="35de9-108">Call admission control on a SIP trunk in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
 
-  - [<span data-ttu-id="1f7d2-108">타사 PSTN 게이트웨이 또는 PBX가 있는 Lync Server 2013의 통화 허용 제어</span><span class="sxs-lookup"><span data-stu-id="1f7d2-108">Call admission control in Lync Server 2013 with a third-party PSTN gateway or PBX</span></span>](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
+  - [<span data-ttu-id="35de9-109">타사 PSTN 게이트웨이 또는 PBX가 있는 Lync Server 2013의 통화 허용 제어</span><span class="sxs-lookup"><span data-stu-id="35de9-109">Call admission control in Lync Server 2013 with a third-party PSTN gateway or PBX</span></span>](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
 
 </div>
 

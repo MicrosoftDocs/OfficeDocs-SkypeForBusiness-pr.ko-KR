@@ -1,5 +1,6 @@
 ---
 title: Lync Online 고객과의 페더레이션을 위한 사용자 액세스 구성
+description: Lync Online 고객과의 페더레이션을 위한 사용자 액세스를 구성 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f5b6c162cd80d8ed1273e83da4abc300eeb9985
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 663cdeb1576f07e2650453afdf52f0c43507a100
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520215"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578034"
 ---
-# <a name="configure-user-access-for-federation-with-a-lync-online-customer-in-lync-server-2013"></a><span data-ttu-id="59876-102">Lync Server 2013에서 Lync Online 고객과의 페더레이션을 위한 사용자 액세스 구성</span><span class="sxs-lookup"><span data-stu-id="59876-102">Configure user access for federation with a Lync Online customer in Lync Server 2013</span></span>
+# <a name="configure-user-access-for-federation-with-a-lync-online-customer-in-lync-server-2013"></a><span data-ttu-id="f7625-103">Lync Server 2013에서 Lync Online 고객과의 페더레이션을 위한 사용자 액세스 구성</span><span class="sxs-lookup"><span data-stu-id="f7625-103">Configure user access for federation with a Lync Online customer in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48520215"
 
 <span> </span>
 
-<span data-ttu-id="59876-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="59876-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="f7625-104">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f7625-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="59876-104">조직의 모든 사용자에 대한 사용자 계정이 페더레이션된 파트너와 통신할 수 있도록 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="59876-104">You must configure the user accounts of all the users in your organization in order for them be allowed to communicate with federated partners.</span></span> <span data-ttu-id="59876-105">이 구성은 페더레이션을 지 원하는 Microsoft Lync Online 2010 고객 도메인을 포함 하 여 모든 페더레이션 파트너에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="59876-105">This configuration is applied for all federated partners, including any Microsoft Lync Online 2010 customer domains with which you support federation.</span></span> <span data-ttu-id="59876-106">사용자 계정에 대 한 페더레이션 지원 구성에 대 한 자세한 내용은 작업 설명서에서 lync server [2013의 페더레이션 사용자 액세스를 제어 하도록 정책 구성을](lync-server-2013-configure-policies-to-control-federated-user-access.md) 참조 하 고, lync [Server 2013의 lync 사용 가능 사용자에 게 외부 사용자 액세스 정책을 할당](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) 합니다.</span><span class="sxs-lookup"><span data-stu-id="59876-106">For details about configuring federation support for user accounts, see [Configure policies to control federated user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) and [Assign an external user access policy to a Lync enabled user in Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) in the Operations documentation.</span></span>
+<span data-ttu-id="f7625-105">조직의 모든 사용자에 대한 사용자 계정이 페더레이션된 파트너와 통신할 수 있도록 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7625-105">You must configure the user accounts of all the users in your organization in order for them be allowed to communicate with federated partners.</span></span> <span data-ttu-id="f7625-106">이 구성은 페더레이션을 지 원하는 Microsoft Lync Online 2010 고객 도메인을 포함 하 여 모든 페더레이션 파트너에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7625-106">This configuration is applied for all federated partners, including any Microsoft Lync Online 2010 customer domains with which you support federation.</span></span> <span data-ttu-id="f7625-107">사용자 계정에 대 한 페더레이션 지원 구성에 대 한 자세한 내용은 작업 설명서에서 lync server [2013의 페더레이션 사용자 액세스를 제어 하도록 정책 구성을](lync-server-2013-configure-policies-to-control-federated-user-access.md) 참조 하 고, lync [Server 2013의 lync 사용 가능 사용자에 게 외부 사용자 액세스 정책을 할당](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7625-107">For details about configuring federation support for user accounts, see [Configure policies to control federated user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) and [Assign an external user access policy to a Lync enabled user in Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) in the Operations documentation.</span></span>
 
 </div>
 

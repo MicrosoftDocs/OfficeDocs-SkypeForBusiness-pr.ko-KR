@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 사용자에 게 그룹 통화 픽업 할당 정보 교환'
+description: 'Lync Server 2013: 사용자에 게 그룹 통화 픽업 할당을 전달 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e45ff57a20a4b0455b534d69f35c1f6b7f9b2bcd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dccae137db34fe63a8b06feccfa8ca2589864f99
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526065"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576974"
 ---
-# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a><span data-ttu-id="8a561-102">Lync Server 2013의 사용자에 게 그룹 통화 픽업 할당 전달</span><span class="sxs-lookup"><span data-stu-id="8a561-102">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>
+# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a><span data-ttu-id="bad14-103">Lync Server 2013의 사용자에 게 그룹 통화 픽업 할당 전달</span><span class="sxs-lookup"><span data-stu-id="bad14-103">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48526065"
 
 <span> </span>
 
-<span data-ttu-id="8a561-103">_**마지막으로 수정 된 항목:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="8a561-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="bad14-104">_**마지막으로 수정 된 항목:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="bad14-104">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="8a561-104">사용자에 대해 그룹 통화 픽업을 사용 하도록 설정한 후에는 전자 메일 또는 기타 메커니즘을 사용 하 여 사용자에 게 통화 픽업 그룹 번호를 알릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8a561-104">After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number.</span></span> <span data-ttu-id="8a561-105">사용자에 게 모니터링 하려는 모든 그룹에 대 한 통화 픽업 그룹 번호를 알립니다.</span><span class="sxs-lookup"><span data-stu-id="8a561-105">Notify users of the call pickup group number for any group that they might want to monitor.</span></span> <span data-ttu-id="8a561-106">사용자는 다른 사용자의 통화를 검색할 수 있으므로 같은 그룹에 있지 않은 경우에도 사용자는 여러 그룹에 대 한 통화 픽업 그룹 번호를 필요로 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8a561-106">Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.</span></span>
+<span data-ttu-id="bad14-105">사용자에 대해 그룹 통화 픽업을 사용 하도록 설정한 후에는 전자 메일 또는 기타 메커니즘을 사용 하 여 사용자에 게 통화 픽업 그룹 번호를 알릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bad14-105">After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number.</span></span> <span data-ttu-id="bad14-106">사용자에 게 모니터링 하려는 모든 그룹에 대 한 통화 픽업 그룹 번호를 알립니다.</span><span class="sxs-lookup"><span data-stu-id="bad14-106">Notify users of the call pickup group number for any group that they might want to monitor.</span></span> <span data-ttu-id="bad14-107">사용자는 다른 사용자의 통화를 검색할 수 있으므로 같은 그룹에 있지 않은 경우에도 사용자는 여러 그룹에 대 한 통화 픽업 그룹 번호를 필요로 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bad14-107">Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.</span></span>
 
 </div>
 
