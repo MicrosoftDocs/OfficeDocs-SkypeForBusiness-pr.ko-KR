@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblPrincipalRole'
+description: 'Lync Server 2013: tblPrincipalRole'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76dda06baa4e5fab51ca44586f7f8fce00860695
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f58ffda3136c254ee77f14d33dcb42af5d172c4a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523615"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573634"
 ---
-# <a name="tblprincipalrole-in-lync-server-2013"></a><span data-ttu-id="401dc-102">Lync Server 2013의 tblPrincipalRole</span><span class="sxs-lookup"><span data-stu-id="401dc-102">tblPrincipalRole in Lync Server 2013</span></span>
+# <a name="tblprincipalrole-in-lync-server-2013"></a><span data-ttu-id="fcb14-103">Lync Server 2013의 tblPrincipalRole</span><span class="sxs-lookup"><span data-stu-id="fcb14-103">tblPrincipalRole in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48523615"
 
 <span> </span>
 
-<span data-ttu-id="401dc-103">_**마지막으로 수정 된 항목:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="401dc-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="fcb14-104">_**마지막으로 수정 된 항목:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="fcb14-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="401dc-104">tblPrincipalRole 테이블에는 노드에 할당된 명시적 역할이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="401dc-104">tblPrincipalRole contains explicit roles assigned to nodes.</span></span>
+<span data-ttu-id="fcb14-105">tblPrincipalRole 테이블에는 노드에 할당된 명시적 역할이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="fcb14-105">tblPrincipalRole contains explicit roles assigned to nodes.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="401dc-105">단</span><span class="sxs-lookup"><span data-stu-id="401dc-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="fcb14-106">단</span><span class="sxs-lookup"><span data-stu-id="fcb14-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,37 +52,37 @@ ms.locfileid: "48523615"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="401dc-106">열</span><span class="sxs-lookup"><span data-stu-id="401dc-106">Column</span></span></th>
-<th><span data-ttu-id="401dc-107">유형</span><span class="sxs-lookup"><span data-stu-id="401dc-107">Type</span></span></th>
-<th><span data-ttu-id="401dc-108">설명</span><span class="sxs-lookup"><span data-stu-id="401dc-108">Description</span></span></th>
+<th><span data-ttu-id="fcb14-107">열</span><span class="sxs-lookup"><span data-stu-id="fcb14-107">Column</span></span></th>
+<th><span data-ttu-id="fcb14-108">유형</span><span class="sxs-lookup"><span data-stu-id="fcb14-108">Type</span></span></th>
+<th><span data-ttu-id="fcb14-109">설명</span><span class="sxs-lookup"><span data-stu-id="fcb14-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="401dc-109">Principalrole.prinrolenodeid</span><span class="sxs-lookup"><span data-stu-id="401dc-109">prinRoleNodeID</span></span></p></td>
-<td><p><span data-ttu-id="401dc-110">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="401dc-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="401dc-111">해당 역할이 적용되는 노드 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="401dc-111">Node ID that the role applies to.</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-110">Principalrole.prinrolenodeid</span><span class="sxs-lookup"><span data-stu-id="fcb14-110">prinRoleNodeID</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-111">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="fcb14-111">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-112">해당 역할이 적용되는 노드 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="fcb14-112">Node ID that the role applies to.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="401dc-112">Principalrole.prinroleprinid</span><span class="sxs-lookup"><span data-stu-id="401dc-112">prinRolePrinID</span></span></p></td>
-<td><p><span data-ttu-id="401dc-113">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="401dc-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="401dc-114">사용자 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="401dc-114">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-113">Principalrole.prinroleprinid</span><span class="sxs-lookup"><span data-stu-id="fcb14-113">prinRolePrinID</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-114">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="fcb14-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-115">사용자 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="fcb14-115">Principal ID.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="401dc-115">Principalrole.prinroletypeid</span><span class="sxs-lookup"><span data-stu-id="401dc-115">prinRoleTypeID</span></span></p></td>
-<td><p><span data-ttu-id="401dc-116">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="401dc-116">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="401dc-117">역할 유형 ID(tblRoleType)입니다.</span><span class="sxs-lookup"><span data-stu-id="401dc-117">Role type ID (from tblRoleType).</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-116">Principalrole.prinroletypeid</span><span class="sxs-lookup"><span data-stu-id="fcb14-116">prinRoleTypeID</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-117">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="fcb14-117">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-118">역할 유형 ID(tblRoleType)입니다.</span><span class="sxs-lookup"><span data-stu-id="fcb14-118">Role type ID (from tblRoleType).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="401dc-118">prinRoleUpdatedBy</span><span class="sxs-lookup"><span data-stu-id="401dc-118">prinRoleUpdatedBy</span></span></p></td>
-<td><p><span data-ttu-id="401dc-119">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="401dc-119">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="401dc-120">이 항목을 마지막으로 업데이트한 사용자의 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="401dc-120">ID of the principal that last updated this entry.</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-119">prinRoleUpdatedBy</span><span class="sxs-lookup"><span data-stu-id="fcb14-119">prinRoleUpdatedBy</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-120">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="fcb14-120">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-121">이 항목을 마지막으로 업데이트한 사용자의 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="fcb14-121">ID of the principal that last updated this entry.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="401dc-121">키</span><span class="sxs-lookup"><span data-stu-id="401dc-121">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="fcb14-122">키</span><span class="sxs-lookup"><span data-stu-id="fcb14-122">Keys</span></span>
 
 <table>
 <colgroup>
@@ -90,26 +91,26 @@ ms.locfileid: "48523615"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="401dc-122">열</span><span class="sxs-lookup"><span data-stu-id="401dc-122">Column</span></span></th>
-<th><span data-ttu-id="401dc-123">설명</span><span class="sxs-lookup"><span data-stu-id="401dc-123">Description</span></span></th>
+<th><span data-ttu-id="fcb14-123">열</span><span class="sxs-lookup"><span data-stu-id="fcb14-123">Column</span></span></th>
+<th><span data-ttu-id="fcb14-124">설명</span><span class="sxs-lookup"><span data-stu-id="fcb14-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="401dc-124">&lt;Principalrole.prinrolenodeid, Principalrole.prinroleprinid, Principalrole.prinroletypeid&gt;</span><span class="sxs-lookup"><span data-stu-id="401dc-124">&lt;prinRoleNodeID, prinRolePrinID, prinRoleTypeID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="401dc-125">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="401dc-125">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-125">&lt;Principalrole.prinrolenodeid, Principalrole.prinroleprinid, Principalrole.prinroletypeid&gt;</span><span class="sxs-lookup"><span data-stu-id="fcb14-125">&lt;prinRoleNodeID, prinRolePrinID, prinRoleTypeID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-126">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="fcb14-126">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="401dc-126">Principalrole.prinrolenodeid</span><span class="sxs-lookup"><span data-stu-id="401dc-126">prinRoleNodeID</span></span></p></td>
-<td><p><span data-ttu-id="401dc-127">tblNode.nodeID 테이블에서 조회 기능이 있는 외래 키입니다.</span><span class="sxs-lookup"><span data-stu-id="401dc-127">Foreign key with lookup in tblNode.nodeID table.</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-127">Principalrole.prinrolenodeid</span><span class="sxs-lookup"><span data-stu-id="fcb14-127">prinRoleNodeID</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-128">tblNode.nodeID 테이블에서 조회 기능이 있는 외래 키입니다.</span><span class="sxs-lookup"><span data-stu-id="fcb14-128">Foreign key with lookup in tblNode.nodeID table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="401dc-128">Principalrole.prinroleprinid</span><span class="sxs-lookup"><span data-stu-id="401dc-128">prinRolePrinID</span></span></p></td>
-<td><p><span data-ttu-id="401dc-129">tblPrincipal.prinID 테이블에서 조회 기능이 있는 외래 키입니다.</span><span class="sxs-lookup"><span data-stu-id="401dc-129">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-129">Principalrole.prinroleprinid</span><span class="sxs-lookup"><span data-stu-id="fcb14-129">prinRolePrinID</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-130">tblPrincipal.prinID 테이블에서 조회 기능이 있는 외래 키입니다.</span><span class="sxs-lookup"><span data-stu-id="fcb14-130">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="401dc-130">Principalrole.prinroletypeid</span><span class="sxs-lookup"><span data-stu-id="401dc-130">prinRoleTypeID</span></span></p></td>
-<td><p><span data-ttu-id="401dc-131">tblRoleType.rtypeID 테이블에서 조회 기능이 있는 외래 키입니다.</span><span class="sxs-lookup"><span data-stu-id="401dc-131">Foreign key with lookup in tblRoleType.rtypeID table.</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-131">Principalrole.prinroletypeid</span><span class="sxs-lookup"><span data-stu-id="fcb14-131">prinRoleTypeID</span></span></p></td>
+<td><p><span data-ttu-id="fcb14-132">tblRoleType.rtypeID 테이블에서 조회 기능이 있는 외래 키입니다.</span><span class="sxs-lookup"><span data-stu-id="fcb14-132">Foreign key with lookup in tblRoleType.rtypeID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

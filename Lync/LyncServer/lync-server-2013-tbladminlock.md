@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblAdminLock'
+description: 'Lync Server 2013: tblAdminLock'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 608dcc5d8044b5e1dd62166bfd13124013b3979f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c3313826b2c0d578c515fb25f83e713b8978ae63
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509525"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573714"
 ---
-# <a name="tbladminlock-in-lync-server-2013"></a><span data-ttu-id="84eed-102">Lync Server 2013의 tblAdminLock</span><span class="sxs-lookup"><span data-stu-id="84eed-102">tblAdminLock in Lync Server 2013</span></span>
+# <a name="tbladminlock-in-lync-server-2013"></a><span data-ttu-id="260fc-103">Lync Server 2013의 tblAdminLock</span><span class="sxs-lookup"><span data-stu-id="260fc-103">tblAdminLock in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48509525"
 
 <span> </span>
 
-<span data-ttu-id="84eed-103">_**마지막으로 수정 된 항목:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="84eed-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="260fc-104">_**마지막으로 수정 된 항목:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="260fc-104">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="84eed-104">tblAdminLock은 일부 관리자 명령을 실행하는 데 필요한 관리자 잠금을 포함합니다.</span><span class="sxs-lookup"><span data-stu-id="84eed-104">tblAdminLock contains the administrator lock that is needed to run some administrator commands.</span></span>
+<span data-ttu-id="260fc-105">tblAdminLock은 일부 관리자 명령을 실행하는 데 필요한 관리자 잠금을 포함합니다.</span><span class="sxs-lookup"><span data-stu-id="260fc-105">tblAdminLock contains the administrator lock that is needed to run some administrator commands.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="84eed-105">단</span><span class="sxs-lookup"><span data-stu-id="84eed-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="260fc-106">단</span><span class="sxs-lookup"><span data-stu-id="260fc-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,26 +52,26 @@ ms.locfileid: "48509525"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="84eed-106">열</span><span class="sxs-lookup"><span data-stu-id="84eed-106">Column</span></span></th>
-<th><span data-ttu-id="84eed-107">유형</span><span class="sxs-lookup"><span data-stu-id="84eed-107">Type</span></span></th>
-<th><span data-ttu-id="84eed-108">설명</span><span class="sxs-lookup"><span data-stu-id="84eed-108">Description</span></span></th>
+<th><span data-ttu-id="260fc-107">열</span><span class="sxs-lookup"><span data-stu-id="260fc-107">Column</span></span></th>
+<th><span data-ttu-id="260fc-108">유형</span><span class="sxs-lookup"><span data-stu-id="260fc-108">Type</span></span></th>
+<th><span data-ttu-id="260fc-109">설명</span><span class="sxs-lookup"><span data-stu-id="260fc-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="84eed-109">lockExpiresTime</span><span class="sxs-lookup"><span data-stu-id="84eed-109">lockExpiresTime</span></span></p></td>
-<td><p><span data-ttu-id="84eed-110">datetime, null이 아님</span><span class="sxs-lookup"><span data-stu-id="84eed-110">datetime, not null</span></span></p></td>
-<td><p><span data-ttu-id="84eed-p101">잠금 만료 날짜 및 시간입니다. 소유자는 이 값을 주기적으로 연장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84eed-p101">Lock expiration date and time. The owner can extend this value periodically.</span></span></p></td>
+<td><p><span data-ttu-id="260fc-110">lockExpiresTime</span><span class="sxs-lookup"><span data-stu-id="260fc-110">lockExpiresTime</span></span></p></td>
+<td><p><span data-ttu-id="260fc-111">datetime, null이 아님</span><span class="sxs-lookup"><span data-stu-id="260fc-111">datetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="260fc-p101">잠금 만료 날짜 및 시간입니다. 소유자는 이 값을 주기적으로 연장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="260fc-p101">Lock expiration date and time. The owner can extend this value periodically.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="84eed-113">lockServerID</span><span class="sxs-lookup"><span data-stu-id="84eed-113">lockServerID</span></span></p></td>
-<td><p><span data-ttu-id="84eed-114">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="84eed-114">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="84eed-115">잠금을 소유하는 서버의 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="84eed-115">ID of the server that owns the lock.</span></span></p></td>
+<td><p><span data-ttu-id="260fc-114">lockServerID</span><span class="sxs-lookup"><span data-stu-id="260fc-114">lockServerID</span></span></p></td>
+<td><p><span data-ttu-id="260fc-115">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="260fc-115">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="260fc-116">잠금을 소유하는 서버의 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="260fc-116">ID of the server that owns the lock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="84eed-116">lockActorID</span><span class="sxs-lookup"><span data-stu-id="84eed-116">lockActorID</span></span></p></td>
-<td><p><span data-ttu-id="84eed-117">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="84eed-117">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="84eed-118">잠금을 소유하는 사용자의 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="84eed-118">ID of the principal that owns the lock.</span></span></p></td>
+<td><p><span data-ttu-id="260fc-117">lockActorID</span><span class="sxs-lookup"><span data-stu-id="260fc-117">lockActorID</span></span></p></td>
+<td><p><span data-ttu-id="260fc-118">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="260fc-118">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="260fc-119">잠금을 소유하는 사용자의 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="260fc-119">ID of the principal that owns the lock.</span></span></p></td>
 </tr>
 </tbody>
 </table>

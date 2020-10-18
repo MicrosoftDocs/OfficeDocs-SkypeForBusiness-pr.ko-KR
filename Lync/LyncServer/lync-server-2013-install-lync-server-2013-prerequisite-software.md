@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server 2013 필수 구성 요소 소프트웨어 설치'
+description: 'Lync Server 2013: Lync Server 2013 필수 구성 요소 소프트웨어를 설치 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dea60cb716d02ad20173826bb0b31d044a6c820a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 23f4a7572666db3b20ea336646c2f5840416c052
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498755"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574224"
 ---
-# <a name="install-lync-server-2013-prerequisite-software"></a><span data-ttu-id="89ca5-102">Lync Server 2013 필수 구성 요소 소프트웨어 설치</span><span class="sxs-lookup"><span data-stu-id="89ca5-102">Install Lync Server 2013 prerequisite software</span></span>
+# <a name="install-lync-server-2013-prerequisite-software"></a><span data-ttu-id="a7668-103">Lync Server 2013 필수 구성 요소 소프트웨어 설치</span><span class="sxs-lookup"><span data-stu-id="a7668-103">Install Lync Server 2013 prerequisite software</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,22 +38,22 @@ ms.locfileid: "48498755"
 
 <span> </span>
 
-<span data-ttu-id="89ca5-103">_**마지막으로 수정 된 항목:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="89ca5-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="a7668-104">_**마지막으로 수정 된 항목:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="a7668-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="89ca5-104">영구 채팅 서버용 필수 구성 요소 소프트웨어는 Lync Server 2013 프런트 엔드 서버 및 영구 채팅 서버 기능이 설치 된 Lync Server 2013 Standard Edition 서버에 대 한 필수 구성 요소 소프트웨어와 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="89ca5-104">The prerequisite software for Persistent Chat Server is the same as the prerequisite software for the Lync Server 2013 Front End Servers and the Lync Server 2013 Standard Edition server on which Persistent Chat Server features are installed.</span></span>
+<span data-ttu-id="a7668-105">영구 채팅 서버용 필수 구성 요소 소프트웨어는 Lync Server 2013 프런트 엔드 서버 및 영구 채팅 서버 기능이 설치 된 Lync Server 2013 Standard Edition 서버에 대 한 필수 구성 요소 소프트웨어와 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7668-105">The prerequisite software for Persistent Chat Server is the same as the prerequisite software for the Lync Server 2013 Front End Servers and the Lync Server 2013 Standard Edition server on which Persistent Chat Server features are installed.</span></span>
 
-<span data-ttu-id="89ca5-105">영구 채팅 서버 파일 저장소에 필요한 필수 소프트웨어는 Lync Server 2013의 경우와 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="89ca5-105">The prerequisite software required for the Persistent Chat Server file store is the same as that for Lync Server 2013.</span></span>
+<span data-ttu-id="a7668-106">영구 채팅 서버 파일 저장소에 필요한 필수 소프트웨어는 Lync Server 2013의 경우와 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7668-106">The prerequisite software required for the Persistent Chat Server file store is the same as that for Lync Server 2013.</span></span>
 
-<span data-ttu-id="89ca5-106">영구 채팅 서버 콘텐츠 및 규정 준수를 위한 SQL Server 데이터베이스용 필수 구성 요소 소프트웨어도 Lync Server 2013의 경우와 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="89ca5-106">The prerequisite software for the SQL Server databases for Persistent Chat Server content and compliance is also the same as that for Lync Server 2013.</span></span>
+<span data-ttu-id="a7668-107">영구 채팅 서버 콘텐츠 및 규정 준수를 위한 SQL Server 데이터베이스용 필수 구성 요소 소프트웨어도 Lync Server 2013의 경우와 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7668-107">The prerequisite software for the SQL Server databases for Persistent Chat Server content and compliance is also the same as that for Lync Server 2013.</span></span>
 
-<span data-ttu-id="89ca5-107">Lync Server 2013 서버에 대 한 모든 소프트웨어 요구 사항에 대 한 자세한 내용은 지원 가능성 설명서에서 [Lync server 2013의 추가 서버 지원 및 요구 사항을](lync-server-2013-additional-server-support-and-requirements.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="89ca5-107">For details about all the software requirements for Lync Server 2013 servers, see [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="a7668-108">Lync Server 2013 서버에 대 한 모든 소프트웨어 요구 사항에 대 한 자세한 내용은 지원 가능성 설명서에서 [Lync server 2013의 추가 서버 지원 및 요구 사항을](lync-server-2013-additional-server-support-and-requirements.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a7668-108">For details about all the software requirements for Lync Server 2013 servers, see [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md) in the Supportability documentation.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="89ca5-108">참고 항목</span><span class="sxs-lookup"><span data-stu-id="89ca5-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a7668-109">참고 항목</span><span class="sxs-lookup"><span data-stu-id="a7668-109">See Also</span></span>
 
 
-[<span data-ttu-id="89ca5-109">Lync Server 2013의 추가 서버 지원 및 요구 사항</span><span class="sxs-lookup"><span data-stu-id="89ca5-109">Additional server support and requirements in Lync Server 2013</span></span>](lync-server-2013-additional-server-support-and-requirements.md)  
+[<span data-ttu-id="a7668-110">Lync Server 2013의 추가 서버 지원 및 요구 사항</span><span class="sxs-lookup"><span data-stu-id="a7668-110">Additional server support and requirements in Lync Server 2013</span></span>](lync-server-2013-additional-server-support-and-requirements.md)  
   
 
 </div>

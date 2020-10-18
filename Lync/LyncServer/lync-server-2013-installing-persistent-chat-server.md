@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 영구 채팅 서버 설치'
+description: 'Lync Server 2013: 영구 채팅 서버를 설치 합니다.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a744841983e5670f1dcd095ed82204b57dd8fcb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 533591c55fcccf8c9a0dc84e1192d987e5263fad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514165"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573904"
 ---
-# <a name="installing-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="9999d-102">Lync Server 2013에 영구 채팅 서버 설치</span><span class="sxs-lookup"><span data-stu-id="9999d-102">Installing Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="installing-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="d09a7-103">Lync Server 2013에 영구 채팅 서버 설치</span><span class="sxs-lookup"><span data-stu-id="d09a7-103">Installing Persistent Chat Server in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48514165"
 
 <span> </span>
 
-<span data-ttu-id="9999d-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="9999d-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="d09a7-104">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="d09a7-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="9999d-104">영구 채팅 서버 설치는 Lync Server 2013 설치 프로그램에 통합 되며 Lync Server 2013에서 설치에 사용 하는 것과 동일한 부트스트래퍼를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9999d-104">Installing Persistent Chat Server is integrated into Lync Server 2013 setup and uses the same Bootstrapper that Lync Server 2013 uses for installation.</span></span> <span data-ttu-id="9999d-105">설치 지침에 대한 자세한 내용은 배포 설명서에서 [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="9999d-105">For installation instructions, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="d09a7-105">영구 채팅 서버 설치는 Lync Server 2013 설치 프로그램에 통합 되며 Lync Server 2013에서 설치에 사용 하는 것과 동일한 부트스트래퍼를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="d09a7-105">Installing Persistent Chat Server is integrated into Lync Server 2013 setup and uses the same Bootstrapper that Lync Server 2013 uses for installation.</span></span> <span data-ttu-id="d09a7-106">설치 지침에 대한 자세한 내용은 배포 설명서에서 [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="d09a7-106">For installation instructions, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
 
 </div>
 

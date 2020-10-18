@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013:에 지 서버 및 기능에 대 한 DNS 요구 사항
+description: Lync Server 2013:에 지 서버 및 기능에 대 한 DNS 요구 사항
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50fa44f943e362f83f57eb8ee00c35dd7b3acea4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9bcfd00080e765924eecc3138bc3d552ce331b63
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528845"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574394"
 ---
-# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a><span data-ttu-id="9201e-102">Lync Server 2013의에 지 서버 및 기능에 대 한 DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="9201e-102">DNS requirements for Edge Servers and features in Lync Server 2013</span></span>
+# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a><span data-ttu-id="c9415-103">Lync Server 2013의에 지 서버 및 기능에 대 한 DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="c9415-103">DNS requirements for Edge Servers and features in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,29 +38,29 @@ ms.locfileid: "48528845"
 
 <span> </span>
 
-<span data-ttu-id="9201e-103">_**마지막으로 수정 된 항목:** 2014-04-08_</span><span class="sxs-lookup"><span data-stu-id="9201e-103">_**Topic Last Modified:** 2014-04-08_</span></span>
+<span data-ttu-id="c9415-104">_**마지막으로 수정 된 항목:** 2014-04-08_</span><span class="sxs-lookup"><span data-stu-id="c9415-104">_**Topic Last Modified:** 2014-04-08_</span></span>
 
-<span data-ttu-id="9201e-104">Lync Server 2013 Edge 서버,에 지 풀 및 역방향 프록시에는 DNS (Domain Name System) 레코드에 대 한 특정 요구 사항이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9201e-104">Lync Server 2013 Edge Servers, Edge pools, and reverse proxies have specific requirements for Domain Name System (DNS) records.</span></span> <span data-ttu-id="9201e-105">Lync Server 2013에서 IPv4 및 IPv6을 사용 중인 경우 호스트 A 및 AAAA 레코드를 모두 계획 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9201e-105">In Lync Server 2013 when IPv4 and IPv6 are in use, you must plan for both host A and AAAA records.</span></span>
+<span data-ttu-id="c9415-105">Lync Server 2013 Edge 서버,에 지 풀 및 역방향 프록시에는 DNS (Domain Name System) 레코드에 대 한 특정 요구 사항이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9415-105">Lync Server 2013 Edge Servers, Edge pools, and reverse proxies have specific requirements for Domain Name System (DNS) records.</span></span> <span data-ttu-id="c9415-106">Lync Server 2013에서 IPv4 및 IPv6을 사용 중인 경우 호스트 A 및 AAAA 레코드를 모두 계획 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9415-106">In Lync Server 2013 when IPv4 and IPv6 are in use, you must plan for both host A and AAAA records.</span></span>
 
-<span data-ttu-id="9201e-106">다음에 나열된 항목에서는 배포 계획 시 DNS 레코드 사용을 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="9201e-106">The topics listed below define the use of DNS records for your deployment planning:</span></span>
+<span data-ttu-id="c9415-107">다음에 나열된 항목에서는 배포 계획 시 DNS 레코드 사용을 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="c9415-107">The topics listed below define the use of DNS records for your deployment planning:</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9201e-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9201e-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c9415-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="c9415-108">In This Section</span></span>
 
-  - [<span data-ttu-id="9201e-108">Lync Server 2013의 DNS 요약-NAT를 사용 하는 개인 IP 주소의 단일 통합에 지</span><span class="sxs-lookup"><span data-stu-id="9201e-108">DNS summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+  - [<span data-ttu-id="c9415-109">Lync Server 2013의 DNS 요약-NAT를 사용 하는 개인 IP 주소의 단일 통합에 지</span><span class="sxs-lookup"><span data-stu-id="c9415-109">DNS summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [<span data-ttu-id="9201e-109">Lync Server 2013의 DNS 요약-공용 IP 주소를 포함 하는 단일 통합에 지</span><span class="sxs-lookup"><span data-stu-id="9201e-109">DNS summary - Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [<span data-ttu-id="c9415-110">Lync Server 2013의 DNS 요약-공용 IP 주소를 포함 하는 단일 통합에 지</span><span class="sxs-lookup"><span data-stu-id="c9415-110">DNS summary - Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="9201e-110">Lync Server 2013의 DNS 요약-조정 된 통합에 지, NAT 사용 개인 IP 주소의 DNS 부하 분산</span><span class="sxs-lookup"><span data-stu-id="9201e-110">DNS summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [<span data-ttu-id="c9415-111">Lync Server 2013의 DNS 요약-조정 된 통합에 지, NAT 사용 개인 IP 주소의 DNS 부하 분산</span><span class="sxs-lookup"><span data-stu-id="c9415-111">DNS summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [<span data-ttu-id="9201e-111">DNS 요약-조정 된 통합에 지, Lync Server 2013의 공용 IP 주소를 사용한 DNS 부하 분산</span><span class="sxs-lookup"><span data-stu-id="9201e-111">DNS summary - Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [<span data-ttu-id="c9415-112">DNS 요약-조정 된 통합에 지, Lync Server 2013의 공용 IP 주소를 사용한 DNS 부하 분산</span><span class="sxs-lookup"><span data-stu-id="c9415-112">DNS summary - Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="9201e-112">Lync Server 2013의 DNS 요약-하드웨어 부하 분산 장치로 확장 된 통합에 지</span><span class="sxs-lookup"><span data-stu-id="9201e-112">DNS summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-dns-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [<span data-ttu-id="c9415-113">Lync Server 2013의 DNS 요약-하드웨어 부하 분산 장치로 확장 된 통합에 지</span><span class="sxs-lookup"><span data-stu-id="c9415-113">DNS summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-dns-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [<span data-ttu-id="9201e-113">Lync Server 2013의 DNS 요약-역방향 프록시</span><span class="sxs-lookup"><span data-stu-id="9201e-113">DNS summary - Reverse proxy in Lync Server 2013</span></span>](lync-server-2013-dns-summary-reverse-proxy.md)
+  - [<span data-ttu-id="c9415-114">Lync Server 2013의 DNS 요약-역방향 프록시</span><span class="sxs-lookup"><span data-stu-id="c9415-114">DNS summary - Reverse proxy in Lync Server 2013</span></span>](lync-server-2013-dns-summary-reverse-proxy.md)
 
-  - [<span data-ttu-id="9201e-114">DNS 요약-SIP, XMPP 페더레이션 및 Lync Server 2013의 공용 인스턴트 메시징</span><span class="sxs-lookup"><span data-stu-id="9201e-114">DNS summary - SIP, XMPP federation, and public instant messaging in Lync Server 2013</span></span>](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [<span data-ttu-id="c9415-115">DNS 요약-SIP, XMPP 페더레이션 및 Lync Server 2013의 공용 인스턴트 메시징</span><span class="sxs-lookup"><span data-stu-id="c9415-115">DNS summary - SIP, XMPP federation, and public instant messaging in Lync Server 2013</span></span>](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 </div>
 
