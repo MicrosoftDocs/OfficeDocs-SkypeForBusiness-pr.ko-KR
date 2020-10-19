@@ -678,7 +678,6 @@
 ### [Teams 서식 파일 시작](get-started-with-teams-templates.md)
 ### [Teams의 교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Teams에서 조직의 교대 근무 앱 관리](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
 ## 의료용 Teams
 ### [의료 조직을 위한 Teams 시작](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [예약 앱 및 가상 방문](bookings-app-admin.md)
@@ -720,6 +719,7 @@
 ## 일선 직원용 Teams
 ### [일선 직원용 빠른 시작](firstline-workers-quickstart.yml)
 ### [일선 직원 스크립팅된 배포](flw-scripted-deployment.md)
+### [FirstLine Worker에 대한 shift 기반 액세스 관리](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)
 ### [Microsoft Teams용 RealWear](flw-realwear.md)
 ### [Walkie Talkie](walkie-talkie.md)
 ### [SPO 사이트 또는 페이지에서 Teams 인트라넷 포털 앱 만들기](teams-standalone-static-tabs-using-spo-sites.md)
