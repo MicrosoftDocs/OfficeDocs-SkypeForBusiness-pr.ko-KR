@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '휴대폰을 사용 하 여 모임에 전화 해야 하는 사용자를 위해 중소기업에서 오디오 회의를 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 13dd6812d6eaf51d2f88ac6d8831552cb63d5a9d
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: b692654a0a874ea0c07f074daefe203aef2f80bc
+ms.sourcegitcommit: 764605e226bc7d9cf45e9833c758d30da29132c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389946"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594649"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>중소 기업에 맞게 오디오 회의 설정
 
@@ -86,7 +86,7 @@ ms.locfileid: "48389946"
 
 ## <a name="audio-conferencing-phone-numbers"></a>오디오 회의 전화 번호
 
-회의 브리지에 사용할 수 있는 두 가지 유형의 숫자가 있습니다. 이 문서의 앞부분에서 설명한 **공유 번호** 또는 **전용 번호**를 사용할 수 있습니다. 각에 대 한 자세한 내용은 다음과 같습니다.
+회의 브리지에 사용할 수 있는 두 가지 유형의 숫자가 있습니다. **공유 번호** (이 문서 앞부분의 [오디오 회의 섹션 설정](#set-up-audio-conferencing) ) 또는 **전용 번호**를 사용할 수 있습니다. 각에 대 한 자세한 내용은 다음과 같습니다.
 
 ### <a name="shared-numbers"></a>공유 번호
 

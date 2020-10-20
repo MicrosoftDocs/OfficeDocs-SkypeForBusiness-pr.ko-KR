@@ -15,11 +15,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: '요약: 비즈니스용 Skype 서버 가상 트랜잭션에 대 한 감시자 노드를 설치 및 구성 합니다.'
 ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640951"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48599920"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>감시자 노드 설치 및 구성
  
@@ -27,9 +27,9 @@ ms.locfileid: "46640951"
   
 감시자 노드는 비즈니스용 Skype 서버 가상 트랜잭션을 주기적으로 실행 하는 컴퓨터입니다. 가상 트랜잭션은 로그인 또는 exchange 인스턴트 메시지와 같은 주요 사용자 시나리오가 예상 대로 작동 하는지 확인 하는 Windows PowerShell cmdlet입니다. 비즈니스용 Skype 서버 2015의 경우 System Center Operations Manager는 세 가지 가상 트랜잭션 유형이 포함 된 다음 표에 표시 된 가상 트랜잭션을 실행할 수 있습니다.
   
-- **기본** 감시자 노드가 기본적으로 실행 하는 가상 트랜잭션입니다. 새 감시자 노드를 만들 때 해당 노드가 실행 될 가상 트랜잭션을 지정할 수 있습니다. 이는 Get-cswatchernodeconfiguration cmdlet에서 사용 되는 테스트 매개 변수의 용도입니다. 감시자 노드를 만들 때 테스트 매개 변수를 사용 하지 않으면 기본 가상 트랜잭션이 모두 자동으로 실행 되며 비기본 가상 트랜잭션이 실행 되지 않습니다. 예를 들어, 감시자 노드가 테스트-CsAddressBookService 테스트를 실행 하도록 구성 되지만 Test-csexumconnectivity 테스트는 실행 하도록 구성 되지 않습니다.
+- **기본** 감시자 노드가 기본적으로 실행 하는 가상 트랜잭션입니다. 새 감시자 노드를 만들 때 해당 노드가 실행 될 가상 트랜잭션을 지정할 수 있습니다. 이는 New-CsWatcherNodeConfiguration cmdlet에서 사용 되는 테스트 매개 변수의 용도입니다. 감시자 노드를 만들 때 테스트 매개 변수를 사용 하지 않으면 기본 가상 트랜잭션이 모두 자동으로 실행 되며 비기본 가상 트랜잭션이 실행 되지 않습니다. 예를 들어 감시자 노드가 Test-CsAddressBookService 테스트를 실행 하도록 구성 되지만 Test-CsExumConnectivity 테스트를 실행 하도록 구성 되지는 않습니다.
     
-- **비기본** 감시자 노드가 기본적으로 실행 되지 않도록 테스트 합니다. 자세한 내용은 기본 유형의 설명을 참조 하십시오. 그러나 기본이 아닌 가상 트랜잭션을 실행 하도록 감시자 노드를 사용 하도록 설정할 수 있습니다. Get-cswatchernodeconfiguration cmdlet을 사용 하 여 감시자 노드를 만들거나, 감시자 노드를 만든 후에는 언제 든 지이 작업을 수행할 수 있습니다. 대부분의 비기본 가상 트랜잭션에는 추가 설정 단계가 필요 합니다. 이러한 단계에 대 한 자세한 내용은 [가상 트랜잭션에 대 한 특별 설치 지침](test-users-and-settings.md#special_synthetictrans)을 참조 하십시오.
+- **비기본** 감시자 노드가 기본적으로 실행 되지 않도록 테스트 합니다. 자세한 내용은 기본 유형의 설명을 참조 하십시오. 그러나 기본이 아닌 가상 트랜잭션을 실행 하도록 감시자 노드를 사용 하도록 설정할 수 있습니다. New-CsWatcherNodeConfiguration cmdlet을 사용 하 여 감시자 노드를 만들거나, 감시자 노드를 만든 후에는 언제 든 지이 작업을 수행할 수 있습니다. 대부분의 비기본 가상 트랜잭션에는 추가 설정 단계가 필요 합니다. 이러한 단계에 대 한 자세한 내용은 [가상 트랜잭션에 대 한 특별 설치 지침](test-users-and-settings.md#special_synthetictrans)을 참조 하십시오.
     
 - **확장** 기본이 아닌 특별 한 가상 트랜잭션 유형 다른 가상 트랜잭션과 달리 확장 테스트는 한 번의 테스트 과정 중에 여러 번 실행할 수 있습니다. 이 기능은 풀에 대 한 여러 개의 PSTN (공중 전화망) 음성 경로와 같은 동작을 확인할 때 유용 합니다. 확장 테스트의 여러 인스턴스를 감시자 노드에 추가 하기만 하면이를 구성할 수 있습니다.
     
@@ -41,26 +41,26 @@ ms.locfileid: "46640951"
 |:-----|:-----|
 |Test-CsAddressBookService(ABS)  <br/> |사용자가 대화 상대 목록에 없는 사용자를 조회할 수 있는지 확인 합니다.  <br/> |
 |Test-CsAddressBookWebQuery(ABWQ)  <br/> |사용자가 HTTP를 통해 대화 상대 목록에 없는 사용자를 조회할 수 있는지 확인 합니다.  <br/> |
-|테스트-CsAVConference (AvConference)  <br/> |사용자가 오디오/비디오 회의를 만들고 참가할 수 있는지 확인합니다.  <br/> |
-|테스트-CsGroupIM (IM 회의)  <br/> |사용자가 회의 중 인스턴트 메시지를 보내고 3명 이상의 사용자가 포함된 인스턴트 메시지 대화에 참가할 수 있는지 확인합니다.  <br/> |
-|테스트용-CsIM (P2P IM)  <br/> |사용자가 피어 투 피어 인스턴트 메시지를 보낼 수 있는지 확인합니다.  <br/> |
-|Test-csp2pav (P2PAV)  <br/> |사용자가 피어 투 피어 음성 통화를 걸 수 있는지 확인합니다(신호만).  <br/> |
+|Test-CsAVConference (AvConference)  <br/> |사용자가 오디오/비디오 회의를 만들고 참가할 수 있는지 확인합니다.  <br/> |
+|Test-CsGroupIM (IM 회의)  <br/> |사용자가 회의 중 인스턴트 메시지를 보내고 3명 이상의 사용자가 포함된 인스턴트 메시지 대화에 참가할 수 있는지 확인합니다.  <br/> |
+|Test-CsIM (P2P IM)  <br/> |사용자가 피어 투 피어 인스턴트 메시지를 보낼 수 있는지 확인합니다.  <br/> |
+|Test-CsP2PAV (P2PAV)  <br/> |사용자가 피어 투 피어 음성 통화를 걸 수 있는지 확인합니다(신호만).  <br/> |
 |Test-CsPresence(Presence)  <br/> |사용자가 다른 사용자의 현재 상태를 볼 수 있는지 확인 합니다.  <br/> |
 |Test-CsRegistration(Registration)  <br/> |사용자가 비즈니스용 Skype에 로그인 할 수 있는지 확인 합니다.  <br/> |
 |Test-CsPstnPeerToPeerCall(PSTN)  <br/> |사용자가 기업 외부에 있는 사용자와 통화를 걸거나 받을 수 있는지 확인합니다(PSTN 번호).  <br/> |
-|테스트-CsASConference (As컨퍼런스)  <br/> |사용자가 응용 프로그램 공유 회의를 만들고 참가할 수 있는지 확인 합니다.  <br/> |
-|Test-csavedgeconnectivity (AVEdgeConnectivity)  <br/> |오디오 비디오에 지 서버가 피어 투 피어 통화 및 전화 회의 통화에 대 한 연결을 허용할 수 있는지 확인 합니다.  <br/> |
-|Test-csdataconference (DataConference)  <br/> |사용자가 데이터 공동 작업 회의 (예: 화이트 보드 및 설문 조사와 같은 활동을 포함 하는 온라인 모임)에 참가할 수 있는지 확인 합니다.  <br/> |
-|Test-csdialinconferencing (DialinConferencing)  <br/> |사용자가 전화 회의에 참석할 수 있는 번호로 전화를 걸 수도 있는지 확인 합니다.  <br/> |
-|Test-csdialinconferencing (DialinConferencing)  <br/> |사용자가 전화 회의에 참석할 수 있는 번호로 전화를 걸 수도 있는지 확인 합니다.  <br/> |
-|Test-csexumconnectivity (ExumConnectivity)  <br/> |사용자가 Exchange UM (통합 메시징)에 연결할 수 있는지 확인 합니다.  <br/> |
-|테스트-CsGroupIM-TestJoinLauncher 관리자 (Join시작 관리자)  <br/> |사용자가 웹 주소 링크를 통해 예약 된 모임을 만들고 참가할 수 있는지 확인 합니다.  <br/> |
-|Test-csmcxp2pim (MCXP2PIM)  <br/> |모바일 장치 사용자가 등록하고 인스턴트 메시지를 보낼 수 있는지 확인합니다.  <br/> |
-|CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |비디오 Interop 서버가 작동 하 고 비디오 SIP 트렁크를 통해 들어오는 연결을 처리할 수 있는지 확인 합니다.  <br/> **참고:** 이전 모바일 클라이언트에 대 한 MCX 지원은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. |
-|Test-cspersistentchatmessage (PersistentChatMessage)  <br/> |사용자가 영구 채팅 서비스를 사용 하 여 메시지를 교환할 수 있는지 확인 합니다.  <br/> |
-|Test-csucwaconference (UcwaConference)  <br/> |사용자가 웹을 통해 회의에 참가할 수 있는지 확인 합니다.  <br/> |
-|Test-csunifiedcontactstore (UnifiedContactStore)  <br/> |통합 연락처 저장소를 사용해서 사용자의 연락처에 액세스할 수 있는지 확인합니다. 통합 연락처 저장소는 비즈니스용 Skype 서버 2015, Outlook 메시징 및 공동 작업 클라이언트 및/또는 Outlook Web Access를 사용 하 여 액세스할 수 있는 단일 연락처 집합을 유지 관리 하는 방법을 제공 합니다.  <br/> |
-|테스트-CsXmppIM (XmppIM)  <br/> |XMPP (Extensible Messaging and 거점 Protocol) 게이트웨이를 통해 인스턴트 메시지를 보낼 수 있는지 확인 합니다.  <br/> XMPP 게이트웨이 및 프록시는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서는 더 이상 지원 되지 않습니다.  |
+|Test-CsASConference (ASConference)  <br/> |사용자가 응용 프로그램 공유 회의를 만들고 참가할 수 있는지 확인 합니다.  <br/> |
+|Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |오디오 비디오에 지 서버가 피어 투 피어 통화 및 전화 회의 통화에 대 한 연결을 허용할 수 있는지 확인 합니다.  <br/> |
+|Test-CsDataConference (DataConference)  <br/> |사용자가 데이터 공동 작업 회의 (예: 화이트 보드 및 설문 조사와 같은 활동을 포함 하는 온라인 모임)에 참가할 수 있는지 확인 합니다.  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)  <br/> |사용자가 전화 회의에 참석할 수 있는 번호로 전화를 걸 수도 있는지 확인 합니다.  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)  <br/> |사용자가 전화 회의에 참석할 수 있는 번호로 전화를 걸 수도 있는지 확인 합니다.  <br/> |
+|Test-CsExumConnectivity (ExumConnectivity)  <br/> |사용자가 Exchange UM (통합 메시징)에 연결할 수 있는지 확인 합니다.  <br/> |
+|Test-CsGroupIM-TestJoinLauncher 관리자 (Join시작 관리자)  <br/> |사용자가 웹 주소 링크를 통해 예약 된 모임을 만들고 참가할 수 있는지 확인 합니다.  <br/> |
+|Test-CsMCXP2PIM (MCXP2PIM)  <br/> |모바일 장치 사용자가 등록하고 인스턴트 메시지를 보낼 수 있는지 확인합니다.  <br/> |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |비디오 Interop 서버가 작동 하 고 비디오 SIP 트렁크를 통해 들어오는 연결을 처리할 수 있는지 확인 합니다.  <br/> **참고:** 이전 모바일 클라이언트에 대 한 MCX 지원은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. |
+|Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |사용자가 영구 채팅 서비스를 사용 하 여 메시지를 교환할 수 있는지 확인 합니다.  <br/> |
+|Test-CsUcwaConference (UcwaConference)  <br/> |사용자가 웹을 통해 회의에 참가할 수 있는지 확인 합니다.  <br/> |
+|Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |통합 연락처 저장소를 사용해서 사용자의 연락처에 액세스할 수 있는지 확인합니다. 통합 연락처 저장소는 비즈니스용 Skype 서버 2015, Outlook 메시징 및 공동 작업 클라이언트 및/또는 Outlook Web Access를 사용 하 여 액세스할 수 있는 단일 연락처 집합을 유지 관리 하는 방법을 제공 합니다.  <br/> |
+|Test-CsXmppIM (XmppIM)  <br/> |XMPP (Extensible Messaging and 거점 Protocol) 게이트웨이를 통해 인스턴트 메시지를 보낼 수 있는지 확인 합니다.  <br/> XMPP 게이트웨이 및 프록시는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서는 더 이상 지원 되지 않습니다.  |
 
 System Center Operations Manager를 사용 하기 위해 감시자 노드를 설치할 필요가 없습니다. 이러한 노드를 설치 하지 않은 경우에도 문제가 발생할 때마다 비즈니스용 Skype 서버 2015 구성 요소에서 실시간 알림을 받을 수 있습니다. (구성 요소 및 사용자 관리 팩은 감시자 노드를 사용 하지 않습니다.) 그러나 활성 모니터링 관리 팩을 사용 하 여 종단 간 시나리오를 모니터링 하려는 경우에는 감시자 노드가 필요 합니다.
   
@@ -123,7 +123,7 @@ Get-CsWatcherNodeConfiguration
   
 감시자 노드 컴퓨터가 경계 네트워크 내에 있는 경우 다음 명령을 실행 하 여 비즈니스용 Skype 서버 2015의 설치를 확인할 수 있습니다.
   
-CsPinPolicyYou는 조직에서 사용 하도록 구성 된 PIN 정책의 수에 따라 다음과 같은 정보를 수신 합니다.
+Get-CsPinPolicyYou에서는 조직에서 사용 하도록 구성 된 PIN 정책의 수에 따라 다음과 같은 정보가 수신 됩니다.
   
 Id: Global
   
@@ -254,7 +254,7 @@ C:\Tools\Watchernode.msi authentication=trustedserver
 
 감시자 노드 컴퓨터가 경계 네트워크 외부에 있는 경우 가상 트랜잭션을 실행 하도록 감시자 노드를 구성 하기 위해 약간 다른 절차를 따라야 합니다. 특히, 신뢰할 수 있는 응용 프로그램 풀이나 신뢰할 수 있는 응용 프로그램은 만들지 않아야 합니다. 즉, 다음 두 작업을 완료 해야 합니다.
   
-### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>RTC 로컬 읽기 전용 Administrators 그룹의 구성원 업데이트
+### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>RTC Local Read-Only Administrators 그룹의 구성원 자격 업데이트
 
 감시자 노드가 경계 네트워크 외부에 있는 경우 감시자 노드에서 다음 절차를 완료 하 여 감시자 노드 컴퓨터의 RTC 로컬 읽기 전용 Administrators 그룹에 네트워크 서비스 계정을 추가 해야 합니다.
   

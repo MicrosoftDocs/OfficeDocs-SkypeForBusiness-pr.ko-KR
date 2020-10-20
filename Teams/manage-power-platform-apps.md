@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀 관리 센터에서 Power Platform 앱에 대 한 액세스를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 74bfabaff0ec7ed5f27c08ac86b325164d9dad10
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171465"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599553"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 전원 플랫폼 앱 관리
 
@@ -78,6 +78,13 @@ Power Apps 및 Power Virtual Agent에서 만든 모든 앱에 대 한 액세스�
 예를 들어 Power Apps에서 만든 앱에 특정 사용자가 액세스 하는 것을 차단 하려면 **공유 Power 앱**을 차단 하는 사용자 지정 앱 권한 정책을 만든 다음 해당 사용자에 게 정책을 할당 합니다.
 
 :::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="공유 Power Apps가 차단 된 사용자 지정 앱 권한 정책 예제 스크린샷":::
+
+### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>감사 로그를 사용 하 여 전원 플랫폼 설치 활동 조사
+
+팀에 대 한 감사 로그를 사용 하 여 사용자가 팀의 앱 페이지에서 **기본으로 제공** 되는 동료 섹션의 전원 플랫폼 앱을 설치한 이벤트를 조사할 수 있습니다. 이렇게 하려면 지정 된 사용자 또는 사용자 집합에 대해 **설치 된 앱** 팀 이벤트 ( **appinstalled** 작업 아래)에 대 한 [감사 로그를 검색 합니다](https://docs.microsoft.com/microsoftteams/audit-log-events) . **동료를 기준으로** 하 여 설치 된 앱을 찾으려면 지정 된 레코드의 세부 정보에서 **AppDistributionMode** 속성 아래에 있는 **TemplatedInstance** 값을 찾습니다. 
+
+> [!NOTE]
+> 감사 레코드를 CSV 형식으로 내보내 필터링을 쉽게 수행할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

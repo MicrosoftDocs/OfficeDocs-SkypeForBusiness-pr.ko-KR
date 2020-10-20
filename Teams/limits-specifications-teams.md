@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae0583225de5eabfd6cad77895859f9c7159276f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b0d3e656ae8d102199e0dcb7ebd61a4d5d15c2f
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508085"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599473"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -35,7 +35,7 @@ ms.locfileid: "48508085"
 |-----------|---------------|
 |사용자가 만들 수 있는 팀의 수 | 250개체 제한 적용&sup1;         |
 |사용자가 구성원이 될 수 있는 그룹 수|1,000&sup2;|
-|팀의 구성원 수 | 10,000       |
+|팀의 구성원 수 | 10,000<sup>5</sup>     |
 |팀당 소유자 수 | 100   |
 |테넌트에 허용되는 조직 전체 팀 수 | 5     |
 |[조직 전체 팀](create-an-org-wide-team.md)의 구성원 수 | 5,000       |
@@ -44,17 +44,18 @@ ms.locfileid: "48508085"
 |팀당 채널 수    | 200(삭제된 채널 포함)&sup3;         |
 |팀당 비공개 채널 수    |30| (삭제된 채널 포함)&sup3;
 |비공개 채널 회원수    |250|
-|Office 365 그룹에서 팀으로 전환할 수 있는 최대 구성원 수    |10,000|
+|Office 365 그룹에서 팀으로 전환할 수 있는 최대 구성원 수    |10,000<sup>5</sup>     |
 |채널 대화 게시 크기 | 게시물당 28 KB<sup>4</sup> |
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> This limit includes archived teams. To go beyond the maximum limit, you must contact Microsoft support.
+<sup>2</sup> 이 제한에는 보관된 팀이 포함됩니다.
 
 <sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
 <sup>4</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 수, 반응이 포함되기 때문에 대략적인 한도입니다.
 
+<sup>5</sup> GCC Teams에서는 5,000명만 수용할 수 있고 GCCH/DoD Teams에서는 2,500명만 수용할 수 있습니다.
 ## <a name="messaging"></a>메시징
 
 ### <a name="chat"></a>채팅

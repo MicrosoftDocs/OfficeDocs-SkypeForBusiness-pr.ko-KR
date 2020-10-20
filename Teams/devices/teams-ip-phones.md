@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft 팀이 가장 좋은 결과를 얻을 수 있도록 인증 된 책상 및 전화 회의를 알아봅니다.
-ms.openlocfilehash: 922ca79f5f3083dd57dc1bae6941a1d4dff0e2ad
-ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
+ms.openlocfilehash: b598e55ec130876b0b3ae8d52f1283fa596b2ebc
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48552734"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599543"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -97,9 +97,9 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 | 오디오 코드 C448HD   | C450HD_TEAMS_1 7.9   | 업데이트 #6                |
 | 오디오 코드 C450HD   | C450HD_TEAMS_1 7.9   | 업데이트 #6                |
 |Lenovo ThinkSmart View|CD-18781Y 200922.098 | 업데이트 #6                |
-| Poly CCX400         | 6.2.21.1198          | 업데이트 #5                |
-| Poly CCX500/CCX600  | 6.2.21.1198          | 업데이트 #5                |
-| Poly Trio C60       | 5.9.5.2686           | 업데이트 #5                |
+| Poly CCX400         | 6.2.22.0185          | 업데이트 #6                |
+| Poly CCX500/CCX600  | 6.2.22.0185          | 업데이트 #6                |
+| Poly Trio C60       | 5.9.5.2983           | 업데이트 #6                |
 | 옛 alink T55/T56/T58 | 58.15.0.116          | 업데이트 #6                |
 | 옛 alink MP56        | 122.15.0.23          | 업데이트 #6                |
 | 옛 alink VP59        | 91.15.0.48           | 업데이트 #6                |
