@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 microsoft 팀 대화방에 대 한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 7c8f81988525431615f83576f30b6ad809f08806
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361498"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625124"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -29,6 +29,7 @@ ms.locfileid: "48361498"
 
 |제품 |게시 대상 <br/> Microsoft Store |
 |--- |--- |
+|4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
@@ -67,6 +68,11 @@ ms.locfileid: "48361498"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 팀 대화방 기능 소개 및 문제 해결
+
+### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
+
+이 업데이트에 도입 된 내용:
+- 팀 모임에서 화상 키보드를 호출할 때 흰색 1/2 화면의 수정
 
 ### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
 
@@ -346,7 +352,7 @@ Introduced in this update:
 
 이 업데이트에 도입 된 내용:
 
-- 듀얼 화면 지원 (레거시 시스템 패리티 용)
+- Dual-Screen 지원 (레거시 시스템 패리티 용)
 - 테마 (기본 제공 테마와 사용자 지정 테마를 설정 하는 기능)
 - 공개 빌드에 대 한 피드백을 제공 하는 기능
 - 모임 참가 안정성 관련 원격 분석 개선

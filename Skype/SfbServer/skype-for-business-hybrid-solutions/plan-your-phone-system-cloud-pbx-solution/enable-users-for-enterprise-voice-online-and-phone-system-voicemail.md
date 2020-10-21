@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 비즈니스용 Skype 사용자에 대해 전화 시스템 음성 서비스를 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359184"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625114"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>사용자가 전화 시스템 음성 사서함과 온라인으로 Enterprise Voice를 사용하도록 설정
  
@@ -41,14 +41,18 @@ ms.locfileid: "47359184"
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>사용자가 전화 시스템 음성 및 음성 메일을 사용할 수 있도록 설정 하려면
 
-1. 시작 하기 전에 비즈니스용 Skype Online 커넥터 (Windows PowerShell 모듈)가 프런트 엔드 서버에 배포 되었는지 확인 합니다. 그렇지 않은 경우 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=39366)에서 다운로드할 수 있습니다. 이 모듈을 사용 하는 방법에 대 한 자세한 내용은 [비즈니스용 Skype Online 관리를 위한 컴퓨터 구성](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)에서 확인할 수 있습니다.
+> [!NOTE]
+> 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈에 포함 되어 있습니다.
+> 최신 [팀 PowerShell 공용 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/)를 사용 하는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
+
+1. 시작 하기 전에 팀 PowerShell 모듈이 프런트 엔드 서버에 설치 되어 있는지 확인 합니다. 그렇지 않은 경우에는 [팀 PowerShell 모듈 설치](https://docs.microsoft.com/microsoftteams/teams-powershell-install)의 지침을 사용 하 여 설치 하세요.
     
 2. 관리자 권한으로 Windows PowerShell을 시작 합니다.
     
 3. 다음을 입력 하 고 enter 키를 누릅니다.
     
    ```powershell
-   Import-Module skypeonlineconnector
+   Import-Module MicrosoftTeams
    ```
 
 4. 다음을 입력 하 고 enter 키를 누릅니다.
@@ -75,13 +79,13 @@ ms.locfileid: "47359184"
 
     비즈니스용 Skype 서버에서 PowerShell을 실행할 때 PowerShell을 열면 로컬 비즈니스용 Skype cmdlet이 이미 로드 된 것입니다. 온라인 cmdlet이 온-프레미스 cmdlet을 같은 이름으로 덮어쓰도록 허용 하려면-AllowClobber 매개 변수를 지정 해야 합니다.
     
-8. $EnterpriseVoiceEnabled 및 $HostedVoiceMail 속성을 다음과 같이 사용자에 게 할당 하려면 CsUser cmdlet을 사용 합니다.
+8. Set-CsUser cmdlet을 사용 하 여 $EnterpriseVoiceEnabled 및 $HostedVoiceMail 속성을 다음과 같이 사용자에 게 할당할 수 있습니다.
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    예를 들어,
+    예시:
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -172,7 +176,7 @@ Windows PowerShell 및 [부여-CsDialPlan 플랜](https://docs.microsoft.com/pow
   
 ### <a name="to-unassign-a-per-user-voice-routing-policy"></a>사용자별 음성 라우팅 정책을 할당 해제 하려면
 
-- Get-csvoiceroutingpolicy를 사용 하 여 이전에 Ken Myer에 할당 된 사용자별 음성 라우팅 정책을 할당 해제 합니다. 사용자별 음성 라우팅 정책이 할당 해제 되 면 Ken Myer는 전역 음성 라우팅 정책을 사용 하 여 자동으로 관리 됩니다.
+- Grant-CsVoiceRoutingPolicy를 사용 하 여 이전에 Ken Myer에 할당 된 사용자별 음성 라우팅 정책을 할당 해제 합니다. 사용자별 음성 라우팅 정책이 할당 해제 되 면 Ken Myer는 전역 음성 라우팅 정책을 사용 하 여 자동으로 관리 됩니다.
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
