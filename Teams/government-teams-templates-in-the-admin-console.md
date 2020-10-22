@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 993cabc7139edeb971f60f1cdf44428fb4083db9
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424718"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655515"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>관리 센터에서 팀 정부 서식 파일 사용
 
@@ -44,7 +44,7 @@ ms.locfileid: "48424718"
 
 위기 관리 또는 사고 대응 팀에 대 한 커뮤니케이션 및 중요 리소스를 중앙 집중화 합니다. 이 팀 내에는 모든 문서에 대 한 중앙 위치를 만드는 데 도움이 되는 다양 한 형식의 파일을 포함할 수 있습니다. 온라인 모임을 사용 하 여 정보 흐름 및 따른 단기 인식을 개선 하세요.
 
-| 기본 서식 파일 형식 | | 이 기본 서식 파일에 포함 된 속성 |
-| ------------------|-- |----------------------------------------------------- |
+| 기본 서식 파일 형식 |baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
+|-------------------|-------|---------------------------------------------------------------------------|
 |조정 사고 대응|`com.microsoft.teams.template.CoordinateIncidentResponse` |채널 <ul><li>일반<li>알림에서</li><li>물류</li><li>계획</li><li>복구</li><li>받기</li></ul> 들 <ul><li>키</li><li>0:excel}</li><li>만들어졌으므로</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||

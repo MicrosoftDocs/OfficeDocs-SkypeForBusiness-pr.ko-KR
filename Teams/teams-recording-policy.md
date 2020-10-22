@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db0c7b0d151a12852adffafeda9d84475b82e055
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: af369a04836fd12c032f468324bbaf920417878d
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320793"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650971"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>팀 소개 정책 기반 & 모임 기록
 
@@ -114,7 +114,7 @@ ms.locfileid: "48320793"
 준수 기록 솔루션의 핵심 구성 요소는 레코더입니다.
 레코더는 microsoft [<span class="underline">의 통신 플랫폼을 활용</span>](https://docs.microsoft.com/graph/cloud-communications-concept-overview) 하 고 microsoft Graph를 사용 하 여 응용 프로그램으로 등록 하는 확장 가능한 Azure 기반 서비스 (bot)로 작성 되었습니다. 레코더는 팀 호출 및 모임 [<span class="underline">통신 플랫폼 api</span>](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 와 직접 상호 작용을 제공 하 고 미디어 수집을 위한 끝점을 제공 합니다.
 
-봇을 구성 하 고, 앱 인스턴스를 만들고, 준수 정책을 할당 하는 방법을 보여 주는 [<span class="underline">샘플 준수 기록 응용 프로그램을 사용할 수 있습니다</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) . 또한 샘플에는 [<span class="underline">들어오는 호출</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)   라우팅 처리, [<span class="underline">기록 상태 변경</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138), 그리고 [<span class="underline">기록 중인 사용자 제거</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)와 같은 특정 조작을 기록 하는 API 사용에 대 한 예제가 포함 되어 있습니다.
+봇을 구성 하 고, 앱 인스턴스를 만들고, 준수 정책을 할당 하는 방법을 보여 주는 [<span class="underline">샘플 준수 기록 응용 프로그램을 사용할 수 있습니다</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) . 또한 샘플에는 [<span class="underline">들어오는 호출</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) 라우팅 처리, [<span class="underline">기록 상태 변경</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138), 그리고 [<span class="underline">기록 중인 사용자 제거</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)와 같은 특정 조작을 기록 하는 API 사용에 대 한 예제가 포함 되어 있습니다.
 특정 Api에 대 한 그래프 문서는 [<span class="underline">updateRecordingStatus</span>](https://docs.microsoft.com/graph/api/call-updaterecordingstatus?view=graph-rest-1.0&tabs=http) 및 [<span class="underline">incomingContext</span>](https://docs.microsoft.com/graph/api/resources/incomingcontext?view=graph-rest-1.0)에 대해 찾을 수 있습니다.
 
 레코더 서비스의 정확한 구현은 파트너 마다 다르며, 팀의 대기 시간을 기록으로 줄이기 위해 배포의 고가용성 및 지리적 배포를 달성 하기 위해 여러 레코더를 지원 하도록 디자인 되어야 합니다. 또한, 복원성과 중복성을 고려 하 여 레코더 자체를 디자인 해야 합니다.
@@ -206,15 +206,19 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당 하 여 기록 �
 
 파트너가 팀을 통해 CCaaS 개발 및 통합할 수 있도록 공개적으로 사용할 수 있는 Api를 게시 하는 것 외에, Microsoft 팀에서 각 파트너의 솔루션이 테스트를 수행 하 고 Microsoft 솔루션에서 기대 하는 품질, 호환성 및 안정성을 제공 하도록 확인 하는 것을 고객에 게 제공 하는 인증 프로그램에 대 한 준수 기록을 개발 했습니다.  
 
-다음 파트너는 Microsoft 팀의 솔루션을 인증 하는 과정을 진행 중입니다.  
+다음 파트너는 Microsoft 팀의 솔루션을 인증 하는 과정을 진행 중입니다.
 
 |Partner|솔루션 웹 사이트 |
 |:--|:--|
 |ASC 기술 |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 |오디오 코드 |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
+|Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
+|Landis 기술 |[https://landistechnologies.com/](https://landistechnologies.com/) |
+|Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |좋지 |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
+|오크 혁신 |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |빨간색 상자 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 

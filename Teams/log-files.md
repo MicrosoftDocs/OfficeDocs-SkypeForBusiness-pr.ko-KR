@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 생성 하는 디버그, 미디어, 데스크톱 로그, 찾을 수 있는 위치, 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766762"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650831"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft 팀 문제 해결에서 로그 파일 사용
 =================================================
@@ -90,11 +90,11 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 <a name="media-logs"></a>미디어 로그
 ---------------------------
 
-미디어 로그에는 팀 모임에서 오디오, 비디오, 화면 공유에 대 한 진단 데이터가 포함 됩니다. 요청 시에만 지원 서비스 케이스에 필요 하며 Microsoft만 검사할 수 있습니다. 
+미디어 로그에는 팀 모임에서 오디오, 비디오, 화면 공유에 대 한 진단 데이터가 포함 됩니다. 통화 관련 문제에 연결 된 지원 사례에 필요 합니다.
 
-미디어 로깅은 기본적으로 꺼져 있습니다. 팀 모임에 대 한 진단 데이터를 기록 하려면 사용자가 팀 클라이언트에서 옵션을 설정 해야 합니다. **설정**일반으로 이동 하 고  >  **General**, **모임 진단에 대 한 로깅 사용 (팀 재시작 필요**) 확인란을 선택한 다음 팀을 다시 시작 합니다.
+미디어 로깅은 기본적으로 꺼져 있습니다. 팀 모임에 대 한 진단 데이터를 기록 하려면 사용자가 팀 클라이언트에서 옵션을 설정 해야 합니다. **설정**  >  **일반**으로 이동 하 여 **모임 진단 로깅 사용 (팀 다시 시작 필요**) 확인란을 선택한 다음 팀을 다시 시작 하 고 문제를 재현해 보세요. 
 
-다음 표에서는 로그 위치에 대해 간략하게 설명 합니다.
+다음 표에서는 미디어 로그 위치에 대해 간략하게 설명 합니다. Microsoft 지원에 로그 파일을 보낼 때 로그 파일의 타임 스탬프를 확인 하 여 문제를 재현할 때 로그가 시간 프레임을 포함 하는지 확인 하십시오.
 
 |클라이언트 |위치 |
 |---------|---------|
@@ -143,4 +143,3 @@ Linux
 ## <a name="related-topics"></a>관련 항목
 
 [Teams 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
-

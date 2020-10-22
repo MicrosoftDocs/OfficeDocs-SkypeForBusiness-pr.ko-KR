@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: 동적 지원 구조 및 해당 단계를 포함 하 여 Microsoft 팀 대화방에 대 한 수명 주기 지원에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd4640df6b4512b5f5b4707a1423c78ae6deea49
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 17e1dcd3c473b31754ac29d98db04747798d581f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336987"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650921"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 팀 대화방 앱 버전 지원
  
@@ -38,7 +38,7 @@ Microsoft 팀 대화방 앱은 1 년에 여러 번 업데이트를 받습니다.
 
 ## <a name="windows-10-release-support"></a>Windows 10 릴리스 지원
 
-Microsoft 팀 대화방에는 반기 채널 서비스 옵션에서 Windows 10 IoT Enterprise 또는 Windows 10 Enterprise Sku가 필요 합니다. 다음 Windows 10 버전은 지원 되지 않습니다.
+Microsoft 팀 대화방에는 Semi-Annual 채널 서비스 옵션에 따라 Windows 10 IoT Enterprise 또는 Windows 10 Enterprise Sku가 필요 합니다. 다음 Windows 10 버전은 지원 되지 않습니다.
 
 - Windows 10 Enterprise 장기 서비스 분기 (LTSB)/장기 서비스 채널 (LTSC) 버전
 - Windows 10의 인터넷 (IoT) Enterprise LTSB/LTSC edition
@@ -53,7 +53,8 @@ Windows 10 기능 업데이트가 Microsoft 팀 대화방 장치에서 즉시 �
 
 |버전  |사용 가능 날짜   |Microsoft 팀 대화방 지원 상태   |Microsoft 팀 대화방 최소 응용 프로그램 버전 | 권장 OS 빌드  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 2004 |2020-05-27 |유효성 검사에서 <br/>권장 되지 않음|&#x2014; |19041.264 |
+| 20H2 |2020-10-20 |유효성 검사에서 <br/>아직 지원 되지 않음|&#x2014; |19042.572 |
+| 2004 |2020-05-27 |건너뛰면 <br/> 권장 되지 않음|&#x2014; |19041.264 |
 | 1909 |2019-11-12 |지원 <br/>권장 |4.5.33.0 |18363.418  |
 | 1903 |2019-05-21 |지원  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |지원 되지 않음 <br/>알려진 호환성 문제 &#x2780;|&#x2014; |&#x2014; |

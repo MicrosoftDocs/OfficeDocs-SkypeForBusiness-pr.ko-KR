@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbb03fc030361419e5f42b2e792e752f2007e6d2
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 026b7f238b059b4e310fa2216b482c68f2528780
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333494"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650981"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft 팀에서 콘텐츠 내보내기 Api 내보내기
 
-팀 내보내기 Api를 사용 하 여 Microsoft 팀 으로부터 1:1 및 그룹 채팅 메시지를 내보낼 수 있습니다. 조직에서 Microsoft 팀 메시지를 내보내야 하는 경우 팀 내보내기 Api를 사용 하 여 파일을 추출할 수 있습니다. *채팅 메시지* 는 [채널](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 또는 [채팅](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)내의 개별 채팅 메시지를 나타냅니다. 채팅 메시지는 루트 채팅 메시지 이거나 채팅 메시지의 **replyToId** 속성으로 정의 된 회신 스레드의 일부일 수 있습니다.
+팀 내보내기 Api를 사용 하 여 Microsoft 팀 으로부터 1:1 및 그룹 채팅 메시지를 내보낼 수 있습니다. 조직에서 Microsoft 팀 메시지를 내보내야 하는 경우에는 팀 내보내기 Api를 사용 하 여 추출할 수 있습니다. *채팅 메시지* 는 [채널](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 또는 [채팅](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)내의 개별 채팅 메시지를 나타냅니다. 채팅 메시지는 루트 채팅 메시지 이거나 채팅 메시지의 **replyToId** 속성으로 정의 된 회신 스레드의 일부일 수 있습니다.
 
 다음은 이러한 내보내기 Api를 사용할 수 있는 방법에 대 한 몇 가지 예입니다.
 

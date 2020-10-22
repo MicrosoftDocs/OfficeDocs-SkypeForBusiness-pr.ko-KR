@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 사용자의 Microsoft 전화 시스템 다이렉트 라우팅을 사용 하도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5739797649c639e3259c6972da665ae0ced4b4bf
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814547"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655485"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>사용자가 직접 라우팅, 음성, 보이스 메일을 사용할 수 있도록 설정
 
@@ -91,7 +91,7 @@ Microsoft 365 또는 Office 365에서 새 사용자를 만드는 두 가지 옵�
 2. 다음 명령을 실행 합니다. 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     
     예를 들어 사용자 "Spencer Low"에 대 한 전화 번호를 추가 하려면 다음을 입력 합니다. 
@@ -99,9 +99,18 @@ Microsoft 365 또는 Office 365에서 새 사용자를 만드는 두 가지 옵�
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
+    "Spencer Low" 및 "Stacy Quinn" 사용자가 고유한 확장명을 가진 동일한 기준 번호를 공유 하는 경우 다음을 입력 합니다.
+    
+    ```PowerShell
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-    사용 된 전화 번호는 국가 코드를 사용 하 여 전체 전자 164 자로 구성 되어야 합니다. 
-
+    필요한 것은 아니지만, 사용 하는 전화 번호가 국가 코드와 함께 전체 E의 164 자로 구성 되어 있는 것이 좋습니다. 기준 번호를 조회할 때 두 개 이상의 결과를 반환 하는 경우 사용자를 조회 하는 데 사용 되는 확장명을 사용 하 여 전화 번호를 구성 하는 것이 지원 됩니다. 이를 통해 회사는 기본 번호와 고유 확장명을 사용 하 여 전화 번호를 구성할 수 있습니다. 조회에 성공 하려면 다음과 같이 초대에 확장명이 있는 전체 번호를 포함 해야 합니다.
+    ```PowerShell
+    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    ```
+    
     > [!NOTE]
     > 사용자의 전화 번호가 온-프레미스에서 관리 되는 경우 온-프레미스 Skype for Business 관리 셸 또는 제어판을 사용 하 여 사용자의 전화 번호를 구성 합니다. 
 

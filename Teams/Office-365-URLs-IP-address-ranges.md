@@ -20,17 +20,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94fd32cb4f68d636a6ff49ecf3b9c19689542142
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1ad3ffdfd47b67ce21fb7f47a911afa67159f3e7
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582125"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650821"
 ---
 <a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 및 Office 365 Url 및 IP 주소 범위
 =======================================================
 
-[Microsoft 365 및 Office 365 url 및 ip 주소 범위로](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 이동 하 여 팀에 맞게 올바르게 구성 해야 하는 URL, IP 주소, 포트 및 프로토콜에 대 한 상세 및 최신 목록을 표시 합니다. Microsoft는 계속해서 Microsoft 365 및 Office 365 서비스를 개선하고 새 기능을 추가하고 있으며 이는 필수 포트, URL, IP 주소가 시간이 지나면서 변경됨을 의미합니다. 이 정보를 업데이트 하거나 변경할 때 알림을 받으려면 [RSS를 통해 구독](https://go.microsoft.com/fwlink/p/?linkid=236301) 하는 것이 좋습니다.
+[Microsoft 365 및 Office 365 url 및 ip 주소 범위로](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 이동 하 여 팀에 맞게 올바르게 구성 해야 하는 URL, IP 주소, 포트 및 프로토콜에 대 한 상세 및 최신 목록을 표시 합니다. Microsoft는 계속해서 Microsoft 365 및 Office 365 서비스를 개선하고 새 기능을 추가하고 있으며 이는 필수 포트, URL, IP 주소가 시간이 지나면서 변경됨을 의미합니다. 이 정보를 업데이트 하거나 변경할 때 알림을 받으려면 [RSS를 통해 구독](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 하는 것이 좋습니다.
 
 팀 통화 및 모임 환경은 Skype 및 비즈니스용 Skype에서 함께 사용 되는 차세대 클라우드 기반 인프라에 기반을 둔 것입니다. 이러한 기술 투자에는 미디어 처리 및 신호, SILK 및 Opus audio 코덱, 네트워크 탄력성, 원격 분석, 품질 진단 등을 위한 Azure 기반 클라우드 서비스가 포함 됩니다. 따라서 Skype와 비즈니스용 Skype 모두에 연결 될 수 있는 Url과 Ip가 필요 합니다.
 
