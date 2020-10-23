@@ -15,12 +15,12 @@ description: 주요 관련자, 비즈니스 결과, 성공 측정값 및 캠페�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 15bf9c37dd205cb95133f157a6b9fe9cc2549f2a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a65e60923414618fc19f43e81fb2b2a085b0978b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581789"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739096"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft 팀에 대 한 변경 관리 전략 만들기
 =======================================================
@@ -40,7 +40,7 @@ ms.locfileid: "46581789"
     a.  포스터, 디지털 signage 및 이벤트와 같은 내부 인식 재료
 
     b.  단일 위치의 자가 진단 및 교육 정보
-    
+
     c.  정의 된 피드백 메커니즘
 
     a.  미리 정의 된 성공 측정값 (솔루션 채택, 주요 자료 보기, 교육 과정의 참석자)
@@ -58,7 +58,7 @@ ms.locfileid: "46581789"
 
 성공적인 도입의 첫 번째 규칙은 주요 관련자로 구성 된 동적 팀과 다른 사용자의 드라이브와 효과를 변경할 수 있는 적절 한 사용자를 만드는 것입니다. 성공적인 채택 전략은 조직의 교차 섹션을 나타내는 커밋된 사용자 팀으로 시작 됩니다. 주요 투자자 역할에는 임원진, 서비스 소유자, IT 전문가, 챔피언 포함 됩니다.
 
-|  |  |
+|아이콘인  |설명  |
 |---------|---------|
 |![임원 스폰서 아이콘.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**임원진 스폰서** 는 조직 내의 주요 리더 이며 직원 도입을 추진 하는 데 필수적입니다. 회사 문화에 가장 큰 영향을 주고 새로운 기술 및 방법의 가치와 혜택을 적극적으로 통신할 수 있습니다.         |
 |![서비스 소유자 아이콘.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**서비스 소유자** 는 다른 사용자가 서비스를 사용 하 고 그에서 가치를 얻을 수 있는지 확인 해야 합니다. 조직 내에서 서비스 소유자를 설정 하는 것이 Microsoft 365 또는 Office 365에 대해 설정 된 비즈니스 목표가 실현 되었는지 확인 하는 것이 중요 합니다.         |

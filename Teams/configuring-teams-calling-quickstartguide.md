@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: eed9ec99445c2f632f1443343b7076aadfbb70a8
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689654"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739046"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft 팀에서 통화 계획 구성
 ==============================================================
@@ -71,8 +71,9 @@ TeamsUpgradePolicy의 기본 구성은 팀을 배포 하는 동안 기존 비즈
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>팀에서 모든 수신 VOIP 및 PSTN 통화를 받도록 사용자를 구성 하는 방법
 사용자가 팀에서 모든 수신 VOIP 및 PSTN 통화를 받을 수 있도록 하려면 사용자의 공존 모드를 Microsoft 팀 관리 센터 에서만 TeamsOnly로 설정 하거나 비즈니스용 Skype 원격 Windows PowerShell 세션을 사용 하 여 다음과 같이 TeamsUpgradePolicy를 업데이트 합니다.
 
-    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
-
+```powershell
+Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
+```
 
 ## <a name="see-also"></a>참고 항목
 [통화 플랜 설정](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)

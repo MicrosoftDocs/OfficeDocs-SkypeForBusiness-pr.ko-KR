@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Microsoft 팀에서 Microsoft 365 또는 Office 365 통화 요금제 및 Office 365 오디오 회의에 대 한 무료 전화 접속 기간에 대해 알아보세요.
-ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 842e496b242237bfc67b1adead73afd0a3653ddd
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690894"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739256"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>오디오 회의 무료 전화 걸기 기간
 
@@ -68,7 +68,7 @@ Microsoft 365 또는 Office 365 오디오 회의 서비스를 채택 하는 고�
 
 **국가 및 지역 영역**
 
-|    |
+|명칭    |
 |-----|
 |오스트레일리아  <br/> |
 |오스트리아  <br/> |
@@ -116,4 +116,4 @@ Microsoft 365 또는 Office 365 오디오 회의 서비스를 채택 하는 고�
 |미국  <br/> |
      
 ## <a name="related-topics"></a>관련 항목
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

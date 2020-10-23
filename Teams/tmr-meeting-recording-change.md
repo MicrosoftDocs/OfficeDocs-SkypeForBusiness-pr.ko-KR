@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc024491ee289717b9028969544ae179a72e3d0e
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: ce6c5cc546c3c2e8b8369247de38e0f734b9b467
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599563"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739226"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
@@ -66,6 +66,9 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>비즈니스용 OneDrive 및 SharePoint에 대 한 모임 녹음/녹화 옵션 설정
+
+> [!Note]
+> 모임 기록 옵션은 팀 정책 수준의 설정입니다. 다음 예제에서는 전역 정책을 설정 하는 방법을 보여 줍니다. 사용자에 게 할당 한 정책이 나 정책에 대 한 모임 기록 옵션을 설정 했는지 확인 합니다. 팀 정책 변경 사항은 전파 하는 데 시간이 걸립니다. 설정한 시간 후 다시 확인 한 후 로그 아웃 하 고 다시 로그인 합니다.
 
 1. 비즈니스용 Skype Online PowerShell을 설치 합니다. 
 **참고**: 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다. 최신 팀 PowerShell 공용 릴리스를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다. [PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)를 참조 하세요.

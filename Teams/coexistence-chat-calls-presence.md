@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: 팀 간의 공존 동작 (라우팅 매개 변수, 채팅 & 전화 접속 &, 착신 전환, 기존 스레드, & 현재 상태를 포함 하 여 Skype for Business &)
-ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9dd2baa717466b0f414168356256b6d78ce33f6a
+ms.sourcegitcommit: e5e60079cf9d62627de6b26dd4badd353bcc190c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757239"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48661350"
 ---
 # <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 동시 사용
 
@@ -70,7 +70,7 @@ ms.locfileid: "44757239"
 아래 표에는 지정 된 모드의 클라이언트가 보낸 사람 모드, 클라이언트 선택, Skype for Business 클라이언트가 설정 된 위치 (프레미스 또는 온라인)에 따라 송신자 로부터 전화를 받을 수 있는 클라이언트 (3 개의 맨 왼쪽 열)가 나와 있습니다.
 
 다음 표에서는 다음을 수행 합니다. 
-- **SfB \* ** *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*모드 중 하나를 나타냅니다.
+- **SfB \* * _는 _SfBOnly *, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*모드 중 하나를 나타냅니다.
 
 - *기울임꼴 텍스트* 는 interop 대화를 강조 합니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "44757239"
 
 **표 1a: 테 넌 트 내 새 채팅 또는 통화를 아일랜드 모드 받는 사람에 게 라우팅**
 
-| <br/><br/> 모드 | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB &nbsp; 홈 | | 게 <br/><br/> 아일랜드  |
+| <br/><br/> 모드 | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB &nbsp; 홈 |<br/><br/>경로-->| 게 <br/><br/> 아일랜드  |
 |--- |--- |--- |--- |--- |
 | 아일랜드 | Teams <br/> 비즈니스용 Skype<br/> Teams<br/> 비즈니스용 Skype| 온라인<br/> 온라인<br/> 온-프레미스<br/>온-프레미스| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> 비즈니스용 Skype<br/> Teams<br/> 비즈니스용 Skype|
 |SfB\* <br/> | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> |&boxv;<br/>&boxv;|비즈니스용 Skype<br/>비즈니스용 Skype<br/>|
@@ -87,7 +87,7 @@ ms.locfileid: "44757239"
 
 **표 1b: SfB 모드로 보낸 테 넌 트의 새 채팅 또는 통화 라우팅 \***
 
-| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB &nbsp; 홈 | |   게 <br/><br/> SfB\*   |
+| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB &nbsp; 홈 |<br/><br/>경로--> |   게 <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
 | 아일랜드 |Teams<br/>비즈니스용 Skype<br/>Teams <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype<br/> **불가능** <br/>비즈니스용 Skype<br/> |
 |SfB\* <br/> | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> |&boxv;<br/>&boxv; |  비즈니스용 Skype<br/>비즈니스용 Skype<br/> |
@@ -96,7 +96,7 @@ ms.locfileid: "44757239"
 
 **표 1c: 팀 전용 모드 받는 사람에 대 한 테 넌 트의 새 채팅 또는 통화 라우팅**
 
-| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB &nbsp; 홈 | |   게 <br/><br/> TeamsOnly  |
+| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB &nbsp; 홈 |<br/><br/>경로-->|   게 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
 | 아일랜드   |Teams<br/>비즈니스용 Skype<br/>Teams <br/>비즈니스용 Skype<br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |SfB\*  | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
@@ -118,7 +118,7 @@ ms.locfileid: "44757239"
 
 **표 2a: 새 채팅 또는 통화를 아일랜드 받는 사람에 게 라우팅**
 
-| <br/><br/>모드   | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| | 게<br/><br/> 아일랜드 |
+| <br/><br/>모드   | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈|<br/><br/>경로--> | 게<br/><br/> 아일랜드 |
 |--- |--- |--- |--- |--- |
 | 아일랜드 |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype <br/> **불가능**   <br/> 비즈니스용 Skype |
 | SfB\* |비즈니스용 Skype <br/>비즈니스용 Skype |온라인<br/> 온-프레미스<br/> | &boxv;<br/>&boxv;|비즈니스용 Skype <br/>비즈니스용 Skype |
@@ -127,7 +127,7 @@ ms.locfileid: "44757239"
 
 **표 2b: SfB 모드로 받는 사람에 게 새로 연결 된 채팅 또는 통화 라우팅 \***
 
-| <br/><br/>모드   | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| |  게<br/><br/> SfB\* |  
+| <br/><br/>모드   | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈|<br/><br/>경로-->|  게<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
 | 아일랜드 |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype <br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype <br/> **불가능** <br/>비즈니스용 Skype <br/> |  
 | SfB\* |비즈니스용 Skype <br/>비즈니스용 Skype  |온라인<br/> 온-프레미스<br/>  |&boxv;<br/>&boxv; | 비즈니스용 Skype <br/>비즈니스용 Skype  |
@@ -136,7 +136,7 @@ ms.locfileid: "44757239"
 
 **표 2c: 팀 전용 모드 받는 사람에 게 새로 연결 된 대화 또는 통화 라우팅**
 
-| <br/><br/>모드 | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| |  게<br/>  <br/> TeamsOnly  |
+| <br/><br/>모드 | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈|<br/><br/>경로-->|  게<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
 | 아일랜드  |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype <br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**불가능** <br/>*Teams* |
 | SfB\* |비즈니스용 Skype <br/>비즈니스용 Skype  | 온라인<br/> 온-프레미스| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
@@ -189,7 +189,7 @@ ms.locfileid: "44757239"
 
 **표 3: 테 넌 트 현재 상태 (새 스레드)**
 
-|상대가 <br/><br/>클라이언트| |<br/><br/>아일랜드 |Publisher <br/><br/>SfB\* |<br/>팀만|
+|상대가 <br/><br/>클라이언트|<br/><br/>경로--> |<br/><br/>아일랜드 |Publisher <br/><br/>SfB\* |<br/>팀만|
 |--- |--- |--- |--- |---|
 |비즈니스용 Skype |&boxv;|비즈니스용 Skype | 비즈니스용 Skype | Teams|
 |Teams |&boxv; |Teams |비즈니스용 Skype |Teams |
@@ -203,7 +203,7 @@ ms.locfileid: "44757239"
 
 **표 4: 페더레이션된 현재 상태 (새 스레드)**
 
-|상대가 <br/><br/> 클라이언트 | |<br/><br/> 아일랜드  |Publisher <br/><br/> SfB\* |<br/><br/> 팀만 |
+|상대가 <br/><br/> 클라이언트 |<br/><br/>경로-->|<br/><br/> 아일랜드  |Publisher <br/><br/> SfB\* |<br/><br/> 팀만 |
 |--- |--- |--- |--- |---|
 |비즈니스용 Skype |&boxv; |비즈니스용 Skype  | 비즈니스용 Skype  | Teams  |
 |Teams | &boxv;|비즈니스용 Skype |비즈니스용 Skype |Teams|

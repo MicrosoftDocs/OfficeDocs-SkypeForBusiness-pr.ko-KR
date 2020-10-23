@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
-ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
+ms.openlocfilehash: 295bee65120e3c349efe1aa5fbc1e7b42c8da87a
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429370"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739386"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 팀 앱 사용 권한 및 고려 사항
 
@@ -40,7 +40,7 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 아래에 나열 된 사용 권한 (예: RECEIVE_MESSAGE 및 REPLYTO_MESSAGE)은 [Microsoft 팀 개발자 설명서](https://aka.ms/teamsdevdocs) 의 모든 위치나 [microsoft Graph에 대 한 사용 권한](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)으로 표시 되지 않습니다. 단지이 기사의 목적에 대해 설명 하는 간단한 방법입니다.
 
 
-|    |     |
+| 제목   | 설명    |
 |-----------|------------|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>아래 표를 참조 하 여 조사 중인 앱에서 요청 하는 사용 권한을 파악 합니다.</li></ul> |
 | ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>앱 또는 서비스 자체를 조사 하 여 조직 내에서 해당 사용자에 게 액세스를 허용 하려는 지 여부를 결정 합니다. 예를 들어, 인공 지능은 사용자 로부터 메시지를 보내고 받으며 엔터프라이즈 사용자 지정 인공 지능을 제외 하 고 규정 준수 경계 외부에 위치 합니다. 따라서 봇이 포함 된 앱에는 해당 권한이 필요 하며 최소한 위험 프로필을 보유 하 고 있는 것입니다. </li></ul>|

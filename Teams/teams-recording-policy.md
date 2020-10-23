@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af369a04836fd12c032f468324bbaf920417878d
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650971"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739336"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>팀 소개 정책 기반 & 모임 기록
 
@@ -50,7 +50,7 @@ ms.locfileid: "48650971"
 
 각 범주는 녹음/녹화를 시작 하는 방법, 기록 되는 내용, 녹음/녹화의 위치, 알림 메시지, 액세스를 제어 하는 사용자, 보존이 처리 되는 방식에 대 한 요구 사항이 서로 다릅니다.
 
-|                        | 방법일        | 작동         | 조직-일반      | 조직 규정 | 합법적 가로채기   |
+| 유형                   | 방법일        | 작동         | 조직-일반      | 조직 규정 | 합법적 가로채기   |
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | 사람              | 사용자               | 앱/솔루션       | 관리자 (시스템)     | 관리자 (시스템)  | LEA                |
 | 대상                 | 통화 당/회의 | 통화 당/회의 | 통화 당/회의 | 사용자별        | 끝점 단위/ |

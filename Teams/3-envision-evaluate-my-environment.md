@@ -19,18 +19,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 350af8c004f44205c6228b0dc734da25602062d0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610060"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739326"
 ---
 # <a name="evaluate-my-environment"></a>내 환경 평가
 
 이 문서에서는 클라우드 음성 서비스 사용에 대 한 현재 환경을 적절 하 게 평가 하는 데 필요한 요구 사항에 대해 간략하게 설명 합니다. 환경을 평가 하 여 전체 클라우드 음성 배포에 영향을 주는 위험과 요구 사항을 식별 합니다. 이러한 항목을 미리 확인 하 여 성공에 대 한 계획을 조정할 수 있습니다.
 
-## <a name="introduction-to-evaluating-your-environment"></a>환경 평가 소개 
+## <a name="introduction-to-evaluating-your-environment"></a>환경 평가 소개
 
 목표 키 결과 (OKRs)를 달성 하기 위해 이전에는 키 서비스 결정을 했습니다. 다음 단계는 환경 검색을 수행 하 여 IT 및 전화 통신 인프라, 네트워킹 및 작업과 관련 된 모든 측면을 평가 하 여 조직이 솔루션을 구현할 준비가 되었는지 확인 하는 것입니다.
 
@@ -49,13 +49,14 @@ ms.locfileid: "44610060"
 이를 파악 하면 조직에서 프로젝트 계획을 적절 하 게 조정 하 여 번호 포팅에 필요한 정보를 준비할 수 있습니다. 환경 검색을 수행 하기 위해 [Microsoft 팀의 환경 검색 출시](environmental-discovery-for-microsoft-teams-rollout.md) 를 사용할 수 있습니다.
 
 <table>
+<tr><td>제목</td><td>설명</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>환경 평가를 완료 해야 하는 사람은 누구 인가요?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>환경 평가의 결과를 문서화 합니다.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="adoption-and-change-management-assessment-capabilities"></a>채택 및 변경 관리 평가 기능 
+## <a name="adoption-and-change-management-assessment-capabilities"></a>채택 및 변경 관리 평가 기능
 
 구축은 사용자의 간편 하 게 새로운 기술을 도입 하지만, 비즈니스 결과는 사용자가 솔루션을 직접 사용 하는 경우에만 실현 됩니다. 새 솔루션을 지속적으로 채택 하는 데 도움이 되도록 사용자는 작업에 집중 하 고 변경 관리를 수행 해야 합니다. 최상의 결과를 위해 사용자 준비 계획을 기술 준비 활동에 대 한 병렬 작업 흐름으로 실시 하 고 다음 활동을 통합 합니다.
 
@@ -66,6 +67,7 @@ ms.locfileid: "44610060"
 조직의 준비를 평가 하 여 사용자 변경 관리를 처리 하는 경우 다음 고려 사항을 따르십시오.
 
 <table>
+<tr><td>제목</td><td>설명</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>본 소프트웨어 또는 서비스의 사용자 채택을 이전에 성공적으로 완료 했습니까?</li><li>사용 현황을 추적할 수 있나요?</li><li>초기 및 진행 중인 채택 캠페인을 디자인 하 고 관리 하는 리소스를 보유 하 고 &mdash; &mdash; 있는지 여부 (인식, 교육 및 지원)?</li><li>전용 사용자 채택/변경 관리 팀이 있거나 비즈니스 결과를 확인 하기 위해 해당 리소스에 투자할 수 있습니까?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>&quot; &quot; 위의 모든 사용자에 게 예를 답변 한 경우 적절 한 사용자 변경 관리 관계자를 식별 하 고 사용자 준비 계획을 시작 합니다.</li><li>&quot; &quot; 위의 일부 또는 모두에 게 답변 하지 않은 경우에는 조직에 대 한 변경 관리 및 채택 관련 활동을 제공 하기 위해 외부 리소스를 사용 하는 것이 좋습니다.</li></ol></td></tr>
 </table>
@@ -128,17 +130,17 @@ Vpn은 여러 조직에 게 귀중 한 서비스를 제공 합니다. 불행 하
 
 분할 터널을 구현 하려면 VPN 공급 업체에 구성 세부 정보를 문의 하세요.
 
-### <a name="wi-fi"></a>Wi-fi
+### <a name="wi-fi"></a>Wi-Fi
 
-VPN과 마찬가지로 Wi-fi 네트워크는 실시간 미디어를 지원 하도록 설계 또는 구성 되지 않습니다. 팀을 지원 하기 위해 Wi-fi 네트워크를 계획 하거나 최적화 하는 것은 고품질 배포를 위한 중요 한 고려 사항입니다.
+VPN과 마찬가지로, Wi-Fi 네트워크는 반드시 실시간 미디어를 지원 하도록 설계 또는 구성 되지 않습니다. 팀을 지원 하기 위해 Wi-Fi 네트워크를 계획 하거나 최적화 하는 것은 고품질 배포를 위한 중요 한 고려 사항입니다.
 
-Wi-fi 네트워크를 최적화 하기 위해 다음과 같은 몇 가지 요소를 재생할 수 있습니다.
+Wi-Fi 네트워크를 최적화 하기 위해 다음과 같은 몇 가지 요소를 실행할 수 있습니다.
 
--   미디어 소통량이 Wi-fi 네트워크를 통해 우선 순위를 유지 하도록 QoS 또는 Wi-fi 멀티미디어 (WMM)를 구현 합니다.
+-   QoS 또는 Wi-Fi 멀티미디어 (WMM)를 구현 하 여 미디어 트래픽이 Wi-Fi 네트워크에 따라 우선 순위를 유지 하도록 합니다.
 
--   Wi-fi 밴드 및 액세스 지점의 위치를 계획 하 고 최적화 합니다. 2.4 GHz 범위는 액세스 지점 배치에 따라 적절 한 환경을 제공할 수 있지만 액세스 지점은 해당 범위에서 작동 하는 다른 소비자 장치에 영향을 받는 경우가 많습니다. 5ghz 범위는 해당 집적형 범위로 인해 실시간 미디어에 더 적합 하지만, 충분 한 서비스를 얻으려면 더 많은 액세스 포인트가 필요 합니다. 또한 끝점은 해당 범위를 지원 하 고 그에 따라 이러한 대역을 활용 하도록 구성 해야 합니다.
+-   Wi-Fi 밴드 및 액세스 지점의 위치를 계획 하 고 최적화 합니다. 2.4 GHz 범위는 액세스 지점 배치에 따라 적절 한 환경을 제공할 수 있지만 액세스 지점은 해당 범위에서 작동 하는 다른 소비자 장치에 영향을 받는 경우가 많습니다. 5ghz 범위는 해당 집적형 범위로 인해 실시간 미디어에 더 적합 하지만, 충분 한 서비스를 얻으려면 더 많은 액세스 포인트가 필요 합니다. 또한 끝점은 해당 범위를 지원 하 고 그에 따라 이러한 대역을 활용 하도록 구성 해야 합니다.
 
--   듀얼 밴드 Wi-fi 네트워크를 배포 하는 경우에는 밴드 조절을 구현 하는 것이 좋습니다. 밴드 조종은 듀얼 밴드 클라이언트에 게 5ghz 범위를 사용 하는 데 영향을 주는 Wi-fi 공급 업체에서 구현한 기술입니다.
+-   이중 밴드 Wi-Fi 네트워크가 배포 된 경우 밴드 조절을 구현 하는 것이 좋습니다. 밴드 조종은 듀얼 밴드 클라이언트에 게 5ghz 범위를 사용 하는 데 영향을 주는 Wi-Fi 공급 업체에서 구현한 기술입니다.
 
 -   같은 채널의 액세스 지점이 너무 가까이 있으면 신호가 겹치고 실수로 인해 경합 하 여 사용자에 게 좋지 않은 환경이 생성 될 수 있습니다. 서로 인접 한 연결점이 겹치지 않는 채널에 있는지 확인 합니다.
 
@@ -166,14 +168,14 @@ Microsoft 팀은 Microsoft 온라인 서비스에 연결 되며 인터넷에 연
 
 [비즈니스용 Skype 네트워크 평가 도구](https://www.microsoft.com/download/details.aspx?id=53885) 를 다운로드 하 여 네트워크가 팀을 위한 준비가 되었는지 테스트할 수 있습니다. 이 도구는 모든 올바른 포트가 열려 있는지 여부를 테스트 하 고 네트워크 장애를 테스트할 수 있는 듀얼 기능을 제공 합니다.
 
-도구를 다운로드 하 여 설치한 후에는 C: \\ 프로그램 파일 \\ Microsoft 비즈니스용 Skype 네트워크 평가 도구를 찾을 수 있습니다. 이 도구를 사용 하는 방법에 대 한 자세한 안내서는 해당 디렉토리에 포함 되어 있습니다.
+도구를 다운로드 하 여 설치한 후에는 C: \\ 프로그램 파일 \\ Microsoft 비즈니스용 Skype 네트워크 평가 도구를 찾을 수 있습니다. Usage.docx 도구를 사용 하는 방법에 대 한 자세한 가이드는 해당 디렉터리에 포함 되어 있습니다.
 
 ### <a name="test-for-opened-ports"></a>열린 포트 테스트
 
-명령 프롬프트 창을 열고 cd C: 프로그램 파일을 입력 하 여 네트워크 평가 도구 디렉터리로 이동 합니다. ** \\ \\ Microsoft 비즈니스용 Skype 네트워크 평가 도구**. 명령 프롬프트에서 networkassessmenttool를 입력 하 여 열려 있는 포트 테스트를 시작 합니다 **/connectivitycheck**
+명령 프롬프트 창을 열고 cd C: 프로그램 파일을 입력 하 여 네트워크 평가 도구 디렉터리로 이동 합니다. ** \\ \\ Microsoft 비즈니스용 Skype 네트워크 평가 도구**. 명령 프롬프트에서 **networkassessmenttool.exe/connectivitycheck** 을 입력 하 여 열린 포트 테스트를 시작 합니다.
 
 검사를 실행 한 후에는 도구가 "확인 완료 됨" 메시지를 표시 하거나 차단 된 포트에 대 한 보고를 받습니다.
-또한 도구의 출력을 포함 하는 appdata Connectivity_results 라는 파일을 생성 하 고이 를% userprofile%, \\ \\ \\ 비즈니스용 로컬 microsoft 비즈니스용 skype 네트워크 평가 도구 디렉터리에 저장 \\ 합니다.
+또한 도구의 출력을 포함 하는 Connectivity_results.txt 라는 파일을 생성 하 고% \\ appdata \\ 로컬 \\ microsoft 비즈니스용 skype 네트워크 평가 도구 디렉터리에 저장 \\ 합니다.
 
 연결 검사를 정기적으로 실행 하 여 포트가 열려 있고 올바르게 작동 하는지 확인 하는 것이 좋습니다.
 
@@ -196,7 +198,7 @@ Microsoft 팀은 Microsoft 온라인 서비스에 연결 되며 인터넷에 연
 
 -   *클라이언트 세그먼트* 는 클라이언트가 상주 하는 논리적 네트워크 세그먼트입니다.
 
-네트워크 평가 도구를 사용 하 여 두 세그먼트를 모두 테스트 해야 합니다. 세그먼트를 테스트 하려면 디렉터리로 이동 하 고 명령 프롬프트에 **networkassessmenttool** 를 입력 합니다. 결과는 tsv 이라는 파일에 기록 되므로 각 세그먼트에 대 한 [요구 사항과](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) 비교할 수 있습니다.
+네트워크 평가 도구를 사용 하 여 두 세그먼트를 모두 테스트 해야 합니다. 세그먼트를 테스트 하려면 디렉터리로 이동한 다음 명령 프롬프트에서 **networkassessmenttool.exe** 를 입력 합니다. 결과는 tsv 이라는 파일에 기록 되므로 각 세그먼트에 대 한 [요구 사항과](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) 비교할 수 있습니다.
 
 두 세그먼트가 고품질 배포에 대 한 요구 사항을 충족 해야 한다는 점에 유의 하세요. 한 시간에 여러 번 도구를 실행 하 여 네트워크 성능을 올바르게 표시 하는 것이 좋습니다.
 
@@ -220,6 +222,7 @@ QoS (서비스 품질)를 사용 하 여 트래픽 우선 순위를 매기기 �
 
 
 <table>
+<tr><td>제목</td><td>설명</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>모든 네트워크 세그먼트와 조직 위치에서 적절 한 네트워크 평가를 완료 해야 하는 사람은 누구 입니까?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>네트워크를 Microsoft 팀 배포에 사용할 수 있도록 자세한 네트워크 평가를 수행할 수도 있습니다.</li><li>모든 네트워크 세그먼트에 대 한 평가 결과에 따라 네트워크 수정을 수행 합니다.</li></ol></td></tr>
 </table>
