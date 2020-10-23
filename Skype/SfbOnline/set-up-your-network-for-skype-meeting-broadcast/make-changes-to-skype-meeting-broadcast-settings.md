@@ -20,14 +20,17 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Skype 모임 브로드캐스트를 사용 하도록 설정 하 고 해당 모임에 대 한 설정 및 정책을 변경할 수 있습니다.
-ms.openlocfilehash: c1831afd3a8c15f4635f5c09359fc7393b1fdae5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f57f8db1200a23247d9f1a1a08182c6fa7c678fb
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769481"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739066"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>조직의 Skype 모임 브로드캐스트 설정을 변경할 수 있습니다.
+
+> [!IMPORTANT]
+> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
 
 Skype 모임 브로드캐스트를 사용 하도록 설정 하 고 해당 모임에 대 한 설정 및 정책을 변경할 수 있습니다.
   

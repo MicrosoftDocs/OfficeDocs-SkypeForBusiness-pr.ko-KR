@@ -20,14 +20,17 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: 사용자가 수신, 음성 메일 및 부재 중 인스턴트 메시지에 대 한 알림을 받을 수 있도록 휴대폰 알림을 설정 하거나 해제 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8e209637ffe4c4053adc6dea44fb574257c330c3
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: f508c106d2ce2e95d8c7763e3360960beccfc958
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164117"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739216"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>휴대폰 알림 설정 또는 해제
+
+> [!IMPORTANT]
+> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
 
 조직의 비즈니스용 **[Microsoft 365 앱에서 관리자 역할을 지정](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 하면 비즈니스용 Skype 사용자가 휴대폰 이나 태블릿에 있을 때 들어오고 받지 못한 인스턴트 메시지에 대 한 알림을 받을 지 여부를 선택할 수 있습니다.
   
@@ -42,7 +45,7 @@ Android 및 Windows phone에서 비즈니스용 Skype 알림은 실시간으로 
     
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
     
-3. **조직** > **일반**으로 이동 합니다. 
+3. **조직**  >  **일반**으로 이동 합니다. 
     
 4. **휴대폰 알림에서**사용 하지 않도록 설정할 알림 서비스 옆의 확인란을 선택 취소 한 다음 **저장**을 클릭 합니다.
     

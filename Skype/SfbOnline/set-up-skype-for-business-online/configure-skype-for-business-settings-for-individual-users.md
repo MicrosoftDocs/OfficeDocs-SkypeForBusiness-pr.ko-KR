@@ -23,14 +23,17 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: '오디오 및 비디오 회의, 통화 기록, 모임 기록과 같은 개별 사용자의 비즈니스용 Skype 설정을 변경 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 5247d814429d8d1f62fe9ea963aa76b7aafe40df
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 546e693dd1fb6e9becf7119c35d7b00875eda99a
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776323"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739176"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>관리자: 개별 사용자에 대해 비즈니스용 Skype 설정을 구성 합니다.
+
+> [!IMPORTANT]
+> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
 
 이 문서에서는 관리자가 소수의 사용자에 대해 비즈니스용 Skype를 구성 하는 방법을 설명 합니다. 이러한 단계를 대량으로 수행 하기 위해 사용할 수 있는 Windows PowerShell cmdlet에 대 한 링크를 포함 했습니다.
   
@@ -49,7 +52,7 @@ ms.locfileid: "43776323"
   
 1. 회사 또는 학교 계정으로 로그인 합니다.
     
-2. **관리 센터** > **비즈니스용 Skype를**선택 합니다.
+2. **관리 센터**  >  **비즈니스용 Skype를**선택 합니다.
     
 3. **사용자**를 선택 합니다.
     
@@ -76,7 +79,7 @@ ms.locfileid: "43776323"
 
 [비즈니스용 skype 사용자가](let-skype-for-business-users-add-skype-contacts.md) 회사의 모든 사용자에 게 skype 연락처를 추가 하도록 하면 이러한 단계를 사용 하 여 특정 개인에 대 한 외부 통신을 선택적으로 차단할 수 있습니다.
   
-1. **사용자**를 선택 하 고 설정을 사용 하지 않도록 설정할 사용자를 선택한 다음 ![](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) **편집 편집을 선택 합니다** .
+1. **사용자**를 선택 하 고 설정을 사용 하지 않도록 설정할 사용자를 선택한 다음 편집 편집 **을 선택** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 합니다.
     
 2. **외부 통신**을 선택 하 고 필요에 따라 옵션의 선택을 취소 합니다.
     
@@ -91,7 +94,7 @@ ms.locfileid: "43776323"
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>한 명의 사용자에 대 한 오디오 회의 설정 편집
 <a name="__toc314837483"> </a>
 
-1. **사용자**를 선택 하 고, wan을 사용 하 여 편집할 사용자를 선택 하 고 ![편집](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)을 **선택 합니다** .
+1. **사용자**를 선택 하 고, wan을 사용 하 여 편집할 사용자를 선택 하 고 편집을 **선택** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 합니다.
     
 2. **오디오 회의**를 선택 하 고 오디오 회의 공급자를 선택 하 고 요청 된 정보를 입력 하거나 변경한 다음 **저장**을 클릭 합니다.
     

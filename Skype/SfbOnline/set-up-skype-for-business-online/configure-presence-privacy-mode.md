@@ -20,14 +20,17 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: '사용자의 사용 가능 시간을 보다 효율적으로 제어할 수 있도록 사용자에 대 한 개인 정보 모드를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 6ad7485d24854bfdb9aef9244164bf5180e8c7d2
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f0f9237f701be219a9cbce9a44704cbb582f48d4
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769721"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739186"
 ---
 # <a name="configure-presence-privacy-mode"></a>현재 상태 개인 정보 모드 구성
+
+> [!IMPORTANT]
+> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
 
 비즈니스용 Skype Online 현재 상태 설정을 사용 하면 사용자가 대화 상대를 볼 수 있는지, 모임 중이 든, 부재 중에 대 한 제어권이 제공 됩니다. 비즈니스용 Skype 현재 상태 및 개인 정보 설정에 대 한 자세한 내용은 [비즈니스용 Skype Online에서 현재 상태 구성을](configure-presence-in-skype-for-business-online.md)참조 하세요. 
   
@@ -43,7 +46,7 @@ ms.locfileid: "41769721"
 |**자동으로 현재 상태 정보 표시** <br/> |**외부** 대화 상대 또는 **차단** 된 개인 정보 그룹에 속하지 않는 비즈니스용 Skype 사용자 <br/> |
 |**사용자의 대화 상대 에게만 현재 상태 정보 표시** <br/> |**외부** 또는 **차단** 된 개인 정보 그룹에 속하지 않는 사용자의 연락처 목록에 있는 모든 사람 <br/> 개인 사용자는 비즈니스용 Skype **옵션** 대화 상자에서이 설정을 변경할 수 있습니다. <br/> |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

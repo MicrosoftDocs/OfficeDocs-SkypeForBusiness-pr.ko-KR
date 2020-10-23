@@ -19,14 +19,17 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 조직의 사용자가 Skype 모임 브로드캐스트를 사용 하기 전에 먼저 사용 하도록 설정 해야 합니다. 이렇게 하려면 Windows PowerShell을 사용 하는 방법을 알고 있어야 합니다. Windows PowerShell을 모르는 경우 Microsoft 파트너를 고용 하 여이 단계를 수행 하는 것이 좋습니다.
-ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 601cef096b032dd387de6d84bb7e676dc08054ec
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778123"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739056"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트 사용
+
+> [!IMPORTANT]
+> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
 
 조직의 사용자가 Skype 모임 브로드캐스트를 사용 하기 전에 먼저 사용 하도록 설정 해야 합니다. 이렇게 하려면 Windows PowerShell을 사용 하는 방법을 알고 있어야 합니다. Windows PowerShell을 모르는 경우 [Microsoft 파트너](https://go.microsoft.com/fwlink/?linkid=391089) 를 고용 하 여이 단계를 수행 하는 것이 좋습니다.
 
@@ -35,17 +38,17 @@ ms.locfileid: "43778123"
 
 ![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
 
-1. 전역 관리자 계정 또는에서 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)비즈니스용 Skype 관리자 계정을 사용 하 여 로그인 합니다.
+1. 전역 관리자 계정 또는에서 비즈니스용 Skype 관리자 계정을 사용 하 여 로그인 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 합니다.
     
-2. 관리 센터에서 **관리 센터** > **팀**으로 이동 합니다.
+2. 관리 센터에서 **관리 센터**  >  **팀**으로 이동 합니다.
     
-3. **팀 관리 센터**에서 **기존 포털** > **온라인 모임** > **브로드캐스트 모임**으로 이동한 다음 **Skype 모임 브로드캐스트 사용**을 선택 합니다.
+3. **팀 관리 센터**에서 **기존 포털**  >  **온라인 모임**  >  **브로드캐스트 모임**으로 이동한 다음 **Skype 모임 브로드캐스트 사용**을 선택 합니다.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>PowerShell을 사용 하 여 Skype 모임 브로드캐스트 사용
 
 1. Windows PowerShell 버전 3.0 이상을 실행 하 고 있는지 확인 합니다.
     
-2. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴** > 에서**Windows PowerShell**을 수행 합니다.
+2. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴**에서  >  **Windows PowerShell**을 수행 합니다.
     
 3. **Windows PowerShell** 창에서 _Get-Host_ 를 입력 하 여 버전을 확인 합니다.
     
@@ -69,7 +72,7 @@ ms.locfileid: "43778123"
    Get-CsBroadcastMeetingConfiguration
    ```
 
-    매개 변수 _EnableBroadcastMeeting_ 가로 `False`설정 되어 있는지 확인 합니다.
+    매개 변수  _EnableBroadcastMeeting_ 가로 설정 되어 있는지 확인 `False` 합니다.
     
      ![Skype 모임 브로드캐스트 조직 cmdlet을 사용 하도록 설정 합니다.](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
@@ -79,7 +82,7 @@ ms.locfileid: "43778123"
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
-    다시 실행 `Get-CsBroadcastMeetingConfiguration` 하 여 설정을 사용 하도록 설정 했는지 확인할 수 있습니다.
+    다시 실행 하 여 설정을 사용 하도록 설정 했는지 확인할 수 있습니다  `Get-CsBroadcastMeetingConfiguration` .
     
      ![Skype 모임 브로드캐스트 조직 Cmdlet을 사용 하도록 설정 합니다.](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   
