@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀 관리 센터의 비즈니스용 Skype 기능에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7248d57c5a2efb49714bf9e43c4e367ef454bfd0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 18f1de99964a36485e69a210c71b6350313aa1cb
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739236"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753563"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리
 
@@ -37,10 +37,12 @@ ms.locfileid: "48739236"
 
 Microsoft 팀 관리 센터에서 관리자는 조직의 비즈니스용 skype 사용자에 대 한 비즈니스용 Skype 기능을 관리할 수 있습니다. 비즈니스용 **skype** 페이지에서 [조직의](#manage-skype-for-business-settings-for-your-organization) 설정을 관리 하 고 사용자 세부 정보 페이지의 **비즈니스용 skype** 탭에서 [개별 사용자에](#manage-skype-for-business-settings-for-individual-users) 대 한 설정을 관리할 수 있습니다.
 
-조직의 공존 모드가 **팀 으로만**설정 되어 있지 않은 경우 Microsoft 팀 관리 센터에 **비즈니스용 Skype** 페이지만 표시 됩니다. 마찬가지로 사용자의 공존 모드가 **팀 전용**인 경우 사용자에 대 한 **비즈니스용 Skype** 탭만 표시 됩니다. 공존 모드에 대 한 자세한 내용은 [비즈니스용 Skype 공존 및 상호 운용성에 대 한 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md) 를 참조 하 고 [공존 및 업그레이드 설정을 설정](setting-your-coexistence-and-upgrade-settings.md)하는 방법에 대해 알아보세요.
+조직의 공존 모드가 **팀 으로만**설정 되어 있지 않은 경우 **비즈니스용 Skype** 페이지만 볼 수 있습니다. 마찬가지로 사용자의 공존 모드가 **팀 전용**인 경우 사용자에 대 한 **비즈니스용 Skype** 탭만 표시 됩니다. 공존 모드에 대 한 자세한 내용은 [비즈니스용 Skype 공존 및 상호 운용성에 대 한 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md) 를 참조 하 고 [공존 및 업그레이드 설정을 설정](setting-your-coexistence-and-upgrade-settings.md)하는 방법에 대해 알아보세요.
 
 > [!NOTE]
 > 이전에는 Microsoft 팀 관리 센터의 **레거시 포털** 에 비즈니스용 Skype 설정이 있습니다. 레거시 포털을 사용 하지 않는 경우에는 비즈니스용 Skype 관리 센터의 팀 관리 센터에서 이러한 새로운 위치로 설정을 마이그레이션 했습니다.
+
+Microsoft 팀 관리 센터에서 비즈니스용 Skype 기능을 관리 하려면 전역 관리자 또는 비즈니스용 Skype 관리자의 [AZURE AD 관리자 역할이](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) 할당 되어야 합니다.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>조직의 비즈니스용 Skype 설정을 관리 합니다.
 

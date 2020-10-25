@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57c54fcd90787048cc357a71296f942cacdef43
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583447"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739246"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 
@@ -97,6 +97,10 @@ Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 
 - 학교에서 교사와 학생 간의 채팅을 제한하려고 하는 경우 
 
 범위 디렉터리 검색을 설정하려면 이 설정을 **켬**으로 전환합니다.
+
+### <a name="skype-for-business"></a>비즈니스용 Skype
+
+이 페이지를 사용하여 조직에서 비즈니스용 Skype 사용자를 위해 비즈니스용 Skype 기능을 관리할 수 있습니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 비즈니스용 Skype 설정 관리](skype-for-business-settings.md)를 참조하세요.
 
 ### <a name="teams-upgrade"></a>Teams 업그레이드
 

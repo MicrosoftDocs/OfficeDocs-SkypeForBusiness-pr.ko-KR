@@ -20,17 +20,17 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Skype 모임 브로드캐스트를 사용 하도록 설정 하 고 해당 모임에 대 한 설정 및 정책을 변경할 수 있습니다.
-ms.openlocfilehash: f57f8db1200a23247d9f1a1a08182c6fa7c678fb
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 88f074838ff1d03153441beb624bc5d9b7ad157c
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739066"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753413"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>조직의 Skype 모임 브로드캐스트 설정을 변경할 수 있습니다.
 
 > [!IMPORTANT]
-> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
+> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 팀 관리 센터에서 비즈니스용 Skype 기능을 관리 하려면 전역 관리자 또는 비즈니스용 Skype 관리자의 [AZURE AD 관리자 역할이](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) 할당 되어야 합니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
 
 Skype 모임 브로드캐스트를 사용 하도록 설정 하 고 해당 모임에 대 한 설정 및 정책을 변경할 수 있습니다.
   

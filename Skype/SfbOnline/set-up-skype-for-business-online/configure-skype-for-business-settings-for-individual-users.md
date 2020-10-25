@@ -23,17 +23,17 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: '오디오 및 비디오 회의, 통화 기록, 모임 기록과 같은 개별 사용자의 비즈니스용 Skype 설정을 변경 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 546e693dd1fb6e9becf7119c35d7b00875eda99a
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: cf54637bda51a7994121035b3db1585213c56c00
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739176"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753423"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>관리자: 개별 사용자에 대해 비즈니스용 Skype 설정을 구성 합니다.
 
 > [!IMPORTANT]
-> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
+> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 팀 관리 센터에서 비즈니스용 Skype 기능을 관리 하려면 전역 관리자 또는 비즈니스용 Skype 관리자의 [AZURE AD 관리자 역할이](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) 할당 되어야 합니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
 
 이 문서에서는 관리자가 소수의 사용자에 대해 비즈니스용 Skype를 구성 하는 방법을 설명 합니다. 이러한 단계를 대량으로 수행 하기 위해 사용할 수 있는 Windows PowerShell cmdlet에 대 한 링크를 포함 했습니다.
   

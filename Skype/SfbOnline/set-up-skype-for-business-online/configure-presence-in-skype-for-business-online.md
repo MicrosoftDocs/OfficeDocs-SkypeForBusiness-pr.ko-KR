@@ -20,17 +20,17 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: '동료의 가용성을 확인할 수 있도록 비즈니스용 Skype를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: b06139d3614335505c7f8682700aa3d7d6fb5df8
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: f2b149a2b6277d356fe4478ee6de12ec6b078f48
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739196"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753453"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 현재 상태 구성
 
 > [!IMPORTANT]
-> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
+> Microsoft 팀 관리 센터에서 비즈니스용 Skype 관리 센터 (레거시 포털)를 대체 했습니다. 비즈니스용 Skype 관리에 대 한 모든 설정이 이제 팀 관리 센터에 있습니다. 팀 관리 센터에서 비즈니스용 Skype 기능을 관리 하려면 전역 관리자 또는 비즈니스용 Skype 관리자의 [AZURE AD 관리자 역할이](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) 할당 되어야 합니다. 자세히 알아보려면 [Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)를 참조 하세요.
 
 기본적으로 비즈니스용 Skype를 사용 하 여 조직 내 사용자 중 하 나와 통신할 수 있는 사람은 누구 든 지 온라인 상태 인지 확인할 수도 있습니다. 비즈니스용 Skype에서 온라인, 모임, 오프 라인 또는 다른 표시기를 볼 수 있는지 여부를 표시 합니다.
 

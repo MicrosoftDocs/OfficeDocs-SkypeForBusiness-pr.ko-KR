@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 전화 교환 및 통화 대기열과 전화를 사용 하 여 조직의 사용자 또는 부서에 도달 하기 위해 호출자가 메뉴 시스템을 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3e1a7fe6b5f059236e0fafd64dbf87b7cebbeecf
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: ece138b3e3513273b57d980442f46f683aaddda4
+ms.sourcegitcommit: 5a013b4c0a8d23d33ab9e9147991f2b3b7247693
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48210011"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48748900"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>팀 자동 전화 교환 및 통화 대기열에 대 한 계획
 
@@ -136,13 +136,13 @@ ms.locfileid: "48210011"
 > [!NOTE]
 > 단일 자동 전화 교환은 단일 "전화 걸기" 메서드만 지원할 수 있습니다.  발신자가 이름 및 번호로 전화를 걸 수 있도록 허용 하려면 이름으로 전화 걸기 옵션을 사용 하는 자동 전화 교환 및 다른 사용자의 전화 걸기를 확장명으로 만들어야 합니다.  이러한 각 옵션은 이러한 "전화 걸기" 시나리오에 대해 구성 된 별도의 자동 attenants으로 라우팅됩니다. 
 
-자동 전화 교환으로 통화가 리디렉션되는 경우 다음 호출 라우팅 대상 중에서 선택할 수 있습니다.
+자동 전화 교환 또는 통화 대기열에 의해 호출이 리디렉션되는 경우 다음 호출 라우팅 대상 중에서 선택할 수 있습니다.
 
 - **조직 내 사람** -음성 통화를 받을 수 있는 조직의 사람입니다. 이는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스 사용자 또는 온라인 사용자 일 수 있습니다.
 - **음성 앱** -다른 자동 전화 교환 또는 통화 대기열. 대상과 연결 된 리소스 계정을 선택 합니다.
 - **외부 전화 번호** -전화 번호입니다. ( [외부 이전 기술 정보](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)를 참조 하세요.)
 - 보이스 **메일** -사용자가 지정 하는 Microsoft 365 그룹과 연결 된 음성 사서함입니다.
-- **Operator** -자동 전화 교환에 대해 정의 된 연산자입니다. 연산자 정의는 선택 사항입니다. 연산자는이 목록의 다른 대상 중 하나가 될 수 있습니다.
+- **연산자** (자동 전화 교환만 해당)-자동 전화 교환에 대해 정의 된 연산자입니다. 연산자 정의는 선택 사항입니다. 연산자는이 목록의 다른 대상 중 하나가 될 수 있습니다.
 
 자동 전화 교환에서는 업무 시간 및 공휴일 외부에서 받은 통화에 대해 별도의 통화 라우팅 옵션이 제공 됩니다. 근무 시간 후에는 위에 나열 된 모든 옵션을 사용할 수 있는 반면, 명절 통화 라우팅에서는 전화를 리디렉션하거나 연결을 끊을 수 있지만 다이얼 키 옵션은 없습니다.
 
@@ -222,6 +222,6 @@ ms.locfileid: "48210011"
 
 [직접 라우팅 계획](direct-routing-plan.md)
 
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [소규모 기업 예제 - 자동 전화 교환 설정](/microsoftteams/tutorial-org-aa)
