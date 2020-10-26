@@ -235,9 +235,10 @@
 ### [통신 크레딧이란?](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+### [Microsoft Teams 관리 센터에서 비즈니스용 Skype 설정 관리](/microsoftteams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [비즈니스용 Skype Online에서 현재 상태 구성](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [현재 상태 개인 정보 모드 구성](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)
+### [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [개별 사용자에 대해 비즈니스용 Skype 설정 구성](../set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
 ### [모임 초대의 사용자 지정](../set-up-skype-for-business-online/customize-meeting-invitations.md)
 ### [비즈니스용 Skype 클라이언트 배포](../set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
