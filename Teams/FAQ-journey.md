@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320903"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766591"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 
@@ -68,7 +68,7 @@ Microsoft는 또한 업그레이드 계획 및 구현을 시작하기 위해 설
 
 **사용자가 업그레이드된 후에는 어떻게 되나요?**<br>
 
-사용자를 Teams로 업그레이드한 후(**Teams 전용** 모드):
+사용자를 Teams로 업그레이드한 후( **Teams 전용** 모드):
 
 - 사용자의 모든 채팅 및 통화가 Teams로 이동하여 비즈니스용 Skype 클라이언트를 사용할 수 없게 됩니다. 이 클라이언트는 이전에 예약된 비즈니스용 Skype 모임에 계속 사용됩니다. 이 데스크톱 클라이언트를 제거하면 사용자는 비즈니스용 Skype 웹 앱을 통해 이전에 예약된 비즈니스용 Skype 모임에 액세스하도록 리디렉션됩니다.
 
@@ -114,7 +114,7 @@ Teams는 대역폭 사용이 효율적이고 확장성이 뛰어난 마이크로
 
 
 
-## <a name="calling-capabiities"></a>통화 기능
+## <a name="calling-capabilities"></a>통화 기능
 
 **Microsoft의 온라인 음성 기능에 대해서는 어떠한 플랜이 있나요?**<br>
 음성 솔루션의 핵심은 현재 사용할 수 있는 Phone System입니다. 고객은 Microsoft 365에서 바로 번호를 획득 및 부여하는 기능을 포함하여 통화를 완벽하게 지원하는 Microsoft 통화 플랜을 추가할 수 있습니다. 텔레콤 전화 회선을 유지하려는 고객은 Phone System의 일부로서 포함된 다이렉트 Direct Routing을 사용할 수 있습니다. 조직의 요구 사항에 적합한 완벽한 음성 솔루션을 위해 두 가지 항목 모두를 함께 결합하여 사용하십시오. 

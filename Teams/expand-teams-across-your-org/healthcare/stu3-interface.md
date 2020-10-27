@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱 및 STU3 인터페이스 사양에 전자 상태 레코드를 통합 하는 방법에 대해 자세히 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 177d8d9bb1a05e7fc871b8c11771708099347914
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 9282d6b6245b92a675c69ba1fcbf4ad726cdff62
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367648"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766901"
 ---
 # <a name="stu3-interface-specification"></a>STU3 인터페이스 사양
 
@@ -32,7 +32,7 @@ ms.locfileid: "48367648"
 >
 >환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱이 종료 되 면 관련 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 현재 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
 >
->[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 목록에서 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져오면 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
+>[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 상태 팀은 목록을 사용 하 여 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져와 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -56,12 +56,14 @@ Microsoft 팀 환자 앱을 사용 하도록 FTO r 서버를 설정 또는 재�
 
 최소 필수 필드는 다음과 같습니다.
 
-1. 받침대
-   1. 모드
-   2. 개입
-   3. 자원: 종류
-   4. 보안: [OAuth uri 용 확장](https://hl7.org/fhir/extension-oauth-uris.html)
-2. Fto Rversion (코드에는 어떤 버전을 피벗할 것인지 이해 하기 위해 필요 합니다.)
+ - 받침대
+
+    - 모드
+    - 개입
+    - 자원: 종류
+    - 보안: [OAuth uri 용 확장](https://hl7.org/fhir/extension-oauth-uris.html)
+    
+ - Fto Rversion (코드에는 어떤 버전을 피벗할 것인지 이해 하기 위해 필요 합니다.)
 
 [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
 
@@ -69,27 +71,27 @@ Microsoft 팀 환자 앱을 사용 하도록 FTO r 서버를 설정 또는 재�
 
 다음은 Argonaut 환자 프로필 필드의 하위 집합인 최소 필수 필드입니다.
 
-1. Name. 지정 된
-2. 패밀리 이름
-3. 성별을
-4. 생년월일
-5. MRN (Identifier)
+ - Name. 지정 된
+ - 패밀리 이름
+ - 성별을
+ - 생년월일
+ - MRN (Identifier)
 
 [Argonaut 필드](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)외에도 멋진 사용자 환경을 위해 환자 앱에서는 다음 필드도 읽을 수 있습니다.
 
-1. 이름을 사용 합니다.
-2. Name. 접두사
-3. [GeneralPractitioner]-GeneralPractitioner 참조는 환자 리소스 (표시 필드에만 해당)에 포함 되어야 합니다.
+ - 이름을 사용 합니다.
+ - Name. 접두사
+ - [GeneralPractitioner]-GeneralPractitioner 참조는 환자 리소스 (표시 필드에만 해당)에 포함 되어야 합니다.
 
 리소스 검색에서는/Patient/_search 및 다음 매개 변수에 POST 메서드를 사용 합니다.
 
-1. i
-2. family = (가족 이름에 값이 포함 되어 있는 모든 환자 검색)
-3. 지정 =\<substring>
-4. 생년월일 = (정확한 일치)
-5. 성별 = (관리자 성별 중 하나에 해당 하는 값)
-6. \_count (반환 해야 하는 최대 결과 수) <br> 응답에는 검색 결과에 따라 반환 되는 레코드의 총 개수가 포함 되어야 하며 \_ 반환 되는 레코드 수를 제한 하기 위해 PatientsApp에서 사용 됩니다.
-7. identifier =\<mrn>
+ - i
+ - family = (가족 이름에 값이 포함 되어 있는 모든 환자 검색)
+ - 지정 =\<substring>
+ - 생년월일 = (정확한 일치)
+ - 성별 = (관리자 성별 중 하나에 해당 하는 값)
+ - \_count (반환 해야 하는 최대 결과 수) <br> 응답에는 검색 결과에 따라 반환 되는 레코드의 총 개수가 포함 되어야 하며 \_ 반환 되는 레코드 수를 제한 하기 위해 PatientsApp에서 사용 됩니다.
+ - identifier =\<mrn>
 
 목표는 다음을 수행 하 여 환자를 검색 하 고 필터링 할 수 있다는 것입니다.
 
@@ -100,54 +102,215 @@ Microsoft 팀 환자 앱을 사용 하도록 FTO r 서버를 설정 또는 재�
 
 통화에 대 한 다음 예제를 참조 하세요.
 
-* * *
+```
+Request:
+POST <fhir-server>/Patient/_search
+Request Body:
+given=ruth&family=black
 
-    요청: POST <fa r-서버>/Patient/_search 요청 본문: 지정 = ruth&family = black
-    
-    응답: {"resourceType": "번들", "id": "<번들 id>", "meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "type": "searchset", "/Patient/", "total": "" 링크 ": [{" relation ":" self "," url ":" "항목": _search><[{"fullUrl": <fa r-server>/Patient/<환자> "," resource ": {" resourceType ":" 환자 "," id ":" <환자 id> "," meta ": {" 37.000 ":" 1 "," lastUpdated ":" 2017-10-18T18:32: + 00:00 "}," 텍스트 ": {" status ":" 생성 됨 "," div ":"<div>\n        <p>Ruth 블랙</p>\n      </div>"}," 식별자 ": [{" 사용 ":" 일반 "," 유형 ": {" 코딩 ": [{" 시스템 ":" https://hl7.org/fhir/v2/0203 "," 코드 ":" MR "," 표시 ":" 의료 레코드 번호 "," userSelected ": false}]," text ":" 의료 레코드 번호 "}," 시스템 ":" http://hospital.smarthealthit.org "," system "을" 1234567 ")]," 활성 ": true," name ": [{" 사용 ":" 공식 "," 가족 ":" Black "," 제공 됨 ": [" Ruth "," C "
-    ]}], "텔레콤": [{"시스템": "전화", "값": "800-599-2739", "사용": "home"}, {"system": "phone", "값": "800-808-7785", "사용": "모바일"}, {"시스템": "전자 메일", "값": "ruth.black@example.com"}], "성별": "여성", "생년월일": "1951-08-23", "주소": [{"사용": "집", "줄": ["26 남 RdApt 22"], "도시": "Sapulpa" "state": "OK", "postalCode": "74066", "국가": "USA"}]}, "검색": {"mode": "match"}}]}
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "meta": {
+    "lastUpdated": "2019-01-14T23:44:45.052+00:00"
+  },
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": <fhir-server>/Patient/_search"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": <fhir-server>/Patient/<patient-id>",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "<patient-id>",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2017-10-18T18:32:37.000+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div>\n        <p>Ruth Black</p>\n      </div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://hl7.org/fhir/v2/0203",
+                  "code": "MR",
+                  "display": "Medical record number",
+                  "userSelected": false
+                }
+              ],
+              "text": "Medical record number"
+            },
+            "system": "http://hospital.smarthealthit.org",
+            "value": "1234567"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Black",
+            "given": [
+              "Ruth",
+              "C."
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "800-599-2739",
+            "use": "home"
+          },
+          {
+            "system": "phone",
+            "value": "800-808-7785",
+            "use": "mobile"
+          },
+          {
+            "system": "email",
+            "value": "ruth.black@example.com"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1951-08-23",
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "26 South RdApt 22"
+            ],
+            "city": "Sapulpa",
+            "state": "OK",
+            "postalCode": "74066",
+            "country": "USA"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
+```
 
-* * *
+```
+Request:
+GET <fhir-server>/Patient/<patient-id>
 
-    요청: <fa r-server>/Patient/<환자 번호>
-    
-    응답: {"resourceType": "환자", "id": "<환자 id>", "식별자": [{"사용": "일반", "유형": {"코딩": [{"시스템": " https://hl7.org/fhir/v2/0203 ", "코드": "MR",}], "text": "의료 레코드 번호"}, "값": "1234567"}], "family": "씨", "다니엘", "지정 된 이름", "X": " ]}], "성별": "남성", "생년월일": "1925-12-23",}
-
-* * *
+Response:
+{
+  "resourceType": "Patient",
+  "id": "<patient-id>",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "https://hl7.org/fhir/v2/0203",
+            "code": "MR",
+          }
+        ],
+        "text": "Medical record number"
+      },
+      "value": "1234567"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Adams",
+      "given": [ "Daniel", "X." ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1925-12-23",
+}
+```
 
 [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
 
 ## <a name="observation"></a>탑
 
-다음은 Argonaut 필수 입력 [프로필](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)의 하위 집합인 필요한 최소 필드입니다.
+[Argonaut Vital-Signs 프로필](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)의 하위 집합인 최소 필수 필드입니다.
 
-1. 유효 (날짜 시간 또는 기간)
-2. 코드. 코딩 코드
-3. 값
+ - 유효 (날짜 시간 또는 기간)
+ - 코드. 코딩 코드
+ - 값
 
 Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 다음 필드도 읽을 수 있습니다.
 
-1. 코드. 표시
-2. 단위
+ - 코드. 표시
+ - 단위
 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
-1. 환자 =\<patient id>
-2. _sort =-날짜
-3. 범주 ("category = 필수-서명")에서 중요 한 서명 목록을 검색 하는 방법을 쿼리 합니다.
+ - 환자 =\<patient id>
+ - _sort =-날짜
+ - 범주 ("category = 필수-서명")에서 중요 한 서명 목록을 검색 하는 방법을 쿼리 합니다.
 
 통화에 대 한 다음 예제를 참조 하세요.
 
-* * *
+```
+Request:
+GET <fhir-server>/Observation?patient=<patient-id>&category=vital-signs
 
-    요청: <fa r-서버>/관찰? 환자 =<환자 번호>&category = 필수-기호
-    
-    응답: {"resourceType": "번들", "id": "<번들 id>", "유형": "searchset", "total": 20, "진입": {"리소스": "resourceType": "관찰" "이" <"-id": ": 리소스 id>", "category": "" 시스템 ":" https://hl7.org/fhir/observation-category "," 코드 ":" 필수-기호 "}],}]," code ": {" 코딩 ": [{" 시스템 ":" http://loinc.org "," 코드 ":" 8867-4 "," display ":" heart_rate "}]}," effectiveDateTime ":" 2009-04-08T00:00:00-06:00 ","/분 ": {" 값 ": 72.0," 단위 ":" {티 티} "," system ":" http://unitsofmeasure.org ",}}},.
-        .
-        .
-      ] }
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 20,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "<resource-id>",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ],
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "heart_rate"
+            }
+          ]
+        },
+        "effectiveDateTime": "2009-04-08T00:00:00-06:00",
+        "valueQuantity": {
+          "value": 72.0,
+          "unit": "{beats}/min",
+          "system": "http://unitsofmeasure.org",
+        }
+      }
+    },
+    .
+    .
+    .
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
 
@@ -155,49 +318,82 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 
 다음은 [Argonaut condition 프로필](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)의 하위 집합인 필요한 최소 필드입니다.
 
-1. 코드. 코딩 [0]. 표시
+ - 코드. 코딩 [0]. 표시
 
 Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 다음 필드도 읽을 수 있습니다.
 
-1. AssertedDate
-2. 문제의
+ - AssertedDate
+ - 문제의
 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
-1. 환자 =\<patient id>
-2. _count =\<max results>
+ - 환자 =\<patient id>
+ - _count =\<max results>
 
 이 통화의 다음 예제를 참조 하세요.
 
-* * *
+```
+Request:
+GET <fhir-server>/Condition?patient=<patient-id>&_count=10
 
-    요청: <fa r-server>/Condition? 환자 =<환자-id>&_count = 10
-    
-    응답: {"resourceType": "번들", "id": "<번들 id>", "유형": "searchset", "total": "#" resourceType ":" Condition "," id ":" <리소스 id> "," 코드 ": {" 코딩 ": [{" 시스템 ":" " http://snomed.info/sct ," 코드 ":" 185903001 "," display ":"에는 influenza immunization ",}]}," 심각도 ": {" 코딩 ": [{" 시스템 ":" "", "display": "" assertedDate http://snomed.info/sct ":" 2018-04-04 "}},. 24484000
-        .
-        .
-      ] }
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 2,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "<resource-id>",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "185903001",
+              "display": "Needs influenza immunization",
+            }
+          ]
+        },
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ]
+        },
+        "assertedDate": "2018-04-04"
+      }
+    },
+    .
+    .
+    .
+  ]
+}
+```
 
-* * *
 [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
 
 ## <a name="encounter"></a>문제가
 
 [미국 핵심 발생 프로필](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) 의 하위 집합인 최소 필수 필드는 "필드에" 필드가 있어야 합니다. "
 
-1. 상태
-2. [0]을 입력 합니다. 코딩 [0]. 표시
+ - 상태
+ - [0]을 입력 합니다. 코딩 [0]. 표시
 
 또한 미국 Core 발생 프로필의 "지원 해야 하는" 필드에는 다음과 같은 필드가 있습니다.
 
-1. 기간. 시작
-2. 위치 [0]. 위치. 표시
+ - 기간. 시작
+ - 위치 [0]. 위치. 표시
 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
-1. 환자 =\<patient id>
-2. _sort: desc =\<field ex. date>
-3. _count =\<max results>
+ - 환자 =\<patient id>
+ - _sort: desc =\<field ex. date>
+ - _count =\<max results>
 
 목표는 환자 마지막으로 알려진 위치를 검색할 수 있다는 것입니다. 각 발생은 위치 리소스를 참조 합니다. 또한 참조에는 위치의 표시 필드도 포함 됩니다.
 
@@ -207,31 +403,73 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 
 다음은 [Argonaut AllergyIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) 프로필의 하위 집합인 최소 필수 필드입니다.
 
-1. 코드. 텍스트
-2. 코드. 코딩 [0]. 표시
-3. ClinicalStatus/VerificationStatus (두 가지 모두 읽었습니다)
+ - 코드. 텍스트
+ - 코드. 코딩 [0]. 표시
+ - ClinicalStatus/VerificationStatus (두 가지 모두 읽었습니다)
 
 Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서 다음 필드도 읽을 수 있습니다.
 
-1. AssertedDate
-2. 참고. 텍스트
-3. 반응은
-    1. 물질 (1 개의 코딩 요소)
-    2. Manifestation (1 코딩 요소)
+ - AssertedDate
+ - 참고. 텍스트
+ - 반응은
+    - 물질 (1 개의 코딩 요소)
+    - Manifestation (1 코딩 요소)
 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
-1. 환자 =  \<patient id>
+ - 환자 =  \<patient id>
 
 통화에 대 한 다음 예제를 참조 하세요. 
 
-* * *
+```
+Request:
+GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
 
-    요청: <fa r-server>/AllergyIntolerance? 환자 =<환자 id>
-    
-    응답: {"resourceType": "번들", "id": "<번들 id>", "type": "searchset", "total": 1, "entry": [{"리소스": {"resourceType": "AllergyIntolerance", "id": "리소스 id>", "clinicalStatus": "active", "verificationStatus": "확인 됨", "코드": "" " http://rxnav.nlm.nih.gov/REST/Ndfrt ," <"" "," 코드 ":" N0000175503 "," display ":" sulfonamide antibacterial ",}]," text ":" sulfonamide antibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:800 "," 반응 ": [{" manifestation ": [{" 코딩 ": [{" 시스템 ":" http://snomed.info/sct "," 코드 ":" 271807003 "," display ":" skin rash ",}]," 텍스트 ":" 스킨 rash "}]}
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "<resource-id>",
+        "clinicalStatus": "active",
+        "verificationStatus": "confirmed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://rxnav.nlm.nih.gov/REST/Ndfrt",
+              "code": "N0000175503",
+              "display": "sulfonamide antibacterial",
+            }
+          ],
+          "text": "sulfonamide antibacterial"
+        },
+        "assertedDate": "2018-01-01T00:00:00-07:00",
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "271807003",
+                    "display": "skin rash",
+                  }
+                ],
+                "text": "skin rash"
+              }
+            ],
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
 
@@ -239,20 +477,20 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서 다
 
 [미국 Core 투약 요청 프로필](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html)의 하위 집합인 최소 필수 필드는 다음과 같습니다.
 
-1. 투약. 표시 (참조 하는 경우)
-2. 투약 (if CodableConcept)
-3. 기관 Edon
-4. 요청자. 에이전트 디스플레이
+ - 투약. 표시 (참조 하는 경우)
+ - 투약 (if CodableConcept)
+ - 기관 Edon
+ - 요청자. 에이전트 디스플레이
 
 멋진 사용자 환경을 위해 미국 Core 필드 외에도 환자 앱에서 다음 필드를 읽을 수 있습니다.
 
-1. DosageInstruction[..]. 본문
-2. 본문
+ - DosageInstruction[..]. 본문
+ - 본문
 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
-1. 환자 =\<patient id>
-2. _count =\<max results>
+ - 환자 =\<patient id>
+ - _count =\<max results>
 
 [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
 
@@ -260,14 +498,14 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서 다
 
 미국 Core 또는 Argonaut 프로필에서 다루지 않는 최소 필수 필드는 다음과 같습니다.
 
-1. 그룹화에서 하나 이상의 요소를 사용 하 여
-    1. GroupDisplay
-    2. 계획 표시
-2. 안에
-3. SubscriberId
+ - 그룹화에서 하나 이상의 요소를 사용 하 여
+    - GroupDisplay
+    - 계획 표시
+ - 안에
+ - SubscriberId
 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
-1. 환자 = \<patient id>
+ - 환자 = \<patient id>
 
 [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
