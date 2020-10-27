@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 관리 센터에서 Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 서식 파일, 채널 및 앱 템플릿을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d030d19cbd3c11283649ffb7fa02124854bfce23
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5d20006645caede9d780bbcb9b462d71e396a205
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424738"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766711"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>관리 센터에서 팀 의료 템플릿 사용
 

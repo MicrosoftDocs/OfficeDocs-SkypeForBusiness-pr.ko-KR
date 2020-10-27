@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b10127dd403059d21e8ab54c1267b85d77bf29f8
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: d8225198a3d56c731193d72e98d4ebebe2954a2f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469564"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766738"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 목록 앱 관리
 
@@ -44,7 +44,7 @@ Microsoft 팀의 목록 앱은 조직의 사용자가 정보를 추적 하 고, 
 
 - 문제를 추적 하 고 문제 추적기 서식 파일을 사용 하 여 클로저로 전환 합니다.
 - 이벤트 여행 서식 파일을 사용 하 여 모든 이벤트 세부 정보를 구성 합니다.
-- 환자 서식 파일을 사용 하 여 의료 기관에 팀의 요구 사항과 상태를 기록 하 여 주의를 모니터링 하 고 조정 합니다.
+- 환자 서식 파일을 사용 하 여 의료 기관에서 상태 팀의 요구 사항과 상태를 기록 하 여 주의를 모니터링 하 고 조정 합니다.
 - 대출금 서식 파일을 사용 하 여 대출 응용 프로그램의 상태를 추적 합니다.
 
 ## <a name="example-scenario"></a>예제 시나리오
@@ -88,11 +88,11 @@ SharePoint에 설정 된 사용 권한은 목록 앱에서 만든 목록에 적�
 
 목록은 조직의 모든 팀 사용자에 대해 기본적으로 사용 하도록 설정 됩니다. Microsoft 팀 관리 센터에서 [앱 관리](manage-apps.md) 페이지의 조직 수준에서 앱을 끄거나 켤 수 있습니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**으로  >  **앱 관리** 로 이동 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱** 으로  >  **앱 관리** 로 이동 합니다.
 2. 다음 중 하나를 수행합니다.
 
-    - 조직의 목록을 끄려면 목록 앱을 검색 하 여 선택한 다음 **차단을**클릭 합니다.
-    - 조직에 대 한 목록을 설정 하려면 목록 앱을 검색 하 여 선택한 다음 **허용**을 클릭 합니다.
+    - 조직의 목록을 끄려면 목록 앱을 검색 하 여 선택한 다음 **차단을** 클릭 합니다.
+    - 조직에 대 한 목록을 설정 하려면 목록 앱을 검색 하 여 선택한 다음 **허용** 을 클릭 합니다.
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대해 목록 사용 또는 사용 안 함
 
@@ -112,7 +112,7 @@ SharePoint에 설정 된 사용 권한은 목록 앱에서 만든 목록에 적�
 
 ## <a name="give-feedback-or-report-an-issue"></a>피드백 제공 또는 문제 보고
   
-의견을 보내거나 문제를 신고 하려면 팀에서 왼쪽 탐색의 아래쪽에 있는 **도움말** 을 클릭 한 다음 **문제 보고**를 선택 합니다. **목록을**선택 하 고 발생 한 문제에 대 한 피드백 또는 세부 정보를 입력 합니다.
+의견을 보내거나 문제를 신고 하려면 팀에서 왼쪽 탐색의 아래쪽에 있는 **도움말** 을 클릭 한 다음 **문제 보고** 를 선택 합니다. **목록을** 선택 하 고 발생 한 문제에 대 한 피드백 또는 세부 정보를 입력 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

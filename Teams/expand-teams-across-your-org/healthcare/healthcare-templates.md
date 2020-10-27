@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 설정 서식 파일, 채널 및 앱을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
+description: Microsoft Graph에서 Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 서식 파일 (설정, 채널 및 앱)을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 63376c68d8267aaa49b4bdf4033d5ebfaa0a446f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294443"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766701"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>Microsoft Graph를 사용 하는 건강 보험 조직의 팀 서식 파일 시작
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직의 팀 템플릿 시작 하기
 
 Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 
@@ -35,7 +35,7 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 ## <a name="ward-template"></a>서식 파일
 
-통합 서식 파일은 통합, pod 또는 부서 내에서 통신 및 공동 작업을 위해 고안 되었습니다. 이 서식 파일을 사용 하 여 환자 관리를 비롯 하 여 한 가지 작업에 대 한 운영 요구를 활용할 수 있습니다. 예를 들어, *팀*알림은 *공지 사항* 채널에 게시 될 수 있으며, 교대 근무를 관리할 수 있습니다. 팔 로우 작업을 합리화 하려는 경우이 서식 파일을 사용할 수 있습니다.
+통합 서식 파일은 통합, pod 또는 부서 내에서 통신 및 공동 작업을 위해 고안 되었습니다. 이 서식 파일을 사용 하 여 환자 관리를 비롯 하 여 한 가지 작업에 대 한 운영 요구를 활용할 수 있습니다. 예를 들어, *팀* 알림은 *공지 사항* 채널에 게시 될 수 있으며, 교대 근무를 관리할 수 있습니다. 팔 로우 작업을 합리화 하려는 경우이 서식 파일을 사용할 수 있습니다.
 
 |기본 서식 파일 형식 |baseTemplateId |기준 서식 파일 채널|
 |:--- |:---|:---|
@@ -46,7 +46,7 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 ## <a name="hospital-template"></a>병원 서식 파일
 
-병원 서식 파일은 병원의 여러 wards, pods, 부서 간의 통신과 공동 작업을 위한 것입니다. 이 서식 파일에는 *공지 사항*, *Custodial*, *Pharmacy*를 포함 하 여 여러 가지 작동 채널이 포함 되어 있으며,이를 통해 서식 파일을 다양 한 추가 부서나 특별 중심 채널을 통해 확장 하 여 원하는 대로 추가, 삭제 또는 편집할 수 있는 스크립트를 제공 하기도 합니다. 예를 들어 *Endocrinology* 부서가 있지만 *Ophthalmology*에 대 한 채널이 필요 하지 않은 경우 *Endocrinology* 채널을 포함 하 여 *Ophthalmology* 채널을 제거 하도록 스크립트를 적용할 수 있습니다. 이러한 특수 또는 즐겨찾기에 모델 채널은 알림 채도를 방지 하기 위해 자동으로 하지 않는 것이 좋습니다. 일반적으로 사용자는 관련 된 채널을 즐겨 찾는 것입니다.
+병원 서식 파일은 병원의 여러 wards, pods, 부서 간의 통신과 공동 작업을 위한 것입니다. 이 서식 파일에는 *공지 사항* , *Custodial* , *Pharmacy* 를 포함 하 여 여러 가지 작동 채널이 포함 되어 있으며,이를 통해 서식 파일을 다양 한 추가 부서나 특별 중심 채널을 통해 확장 하 여 원하는 대로 추가, 삭제 또는 편집할 수 있는 스크립트를 제공 하기도 합니다. 예를 들어 *Endocrinology* 부서가 있지만 *Ophthalmology* 에 대 한 채널이 필요 하지 않은 경우 *Endocrinology* 채널을 포함 하 여 *Ophthalmology* 채널을 제거 하도록 스크립트를 적용할 수 있습니다. 이러한 특수 또는 즐겨찾기에 모델 채널은 알림 채도를 방지 하기 위해 자동으로 하지 않는 것이 좋습니다. 일반적으로 사용자는 관련 된 채널을 즐겨 찾는 것입니다.
 
 |기본 서식 파일 형식 |baseTemplateId |기준 서식 파일 채널|
 |:--- |:---|:---|

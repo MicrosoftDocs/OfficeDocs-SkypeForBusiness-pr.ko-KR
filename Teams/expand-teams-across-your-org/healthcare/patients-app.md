@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱에 전자 의료 기록 통합에 대 한 자세한 내용을 보려면 Api를 사용 하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa8978596a8d386e2ec615a4eb84bab49edb3249
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: ad490820ac764e70f5dbdf17c2cfe5dffaea7ac8
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367688"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766951"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Microsoft Teams에 전자 의료 레코드 통합
 
@@ -32,13 +32,14 @@ ms.locfileid: "48367688"
 >
 >환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱이 종료 되 면 관련 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 현재 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
 >
->[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 목록에서 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져오면 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
+>[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 상태 팀은 목록을 사용 하 여 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져와 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 이 문서는 Microsoft 팀에 연결 하기 위해 의료 정보 시스템의 맨 위에 FA r Api를 사용 하는 데 관심이 있는 일반 의료 IT 개발자를 대상으로 합니다. 이는 의료 조직의 요구 사항에 맞는 의료 조정 시나리오를 사용 합니다.
 
 연결 된 문서 Microsoft 팀 환자 앱에 대 한 f r 인터페이스 사양을 문서화 하 고, 다음 섹션에서는 f r 서버를 설정 하 고 개발 환경 또는 테 넌 트에서 환자 앱에 연결 하는 데 필요한 사항에 대해 설명 합니다. 또한 지원 되는 옵션 중 하나 여야 하는 선택한 FE r server의 설명서에 대해 잘 알고 있어야 합니다.
+
 - Datica ( [CMI](https://datica.com/compliant-managed-integration/) 제공)
 - Cloverleaf ( [INFOR FA r 브리지](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)를 통해)
 - Redox ( [r ^ FA r 서버](https://www.redoxengine.com/fhir/)통과)
@@ -75,31 +76,69 @@ ms.locfileid: "48367688"
 OAuth 2.0 [클라이언트 자격 증명 흐름](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)을 통해 서비스에 대 한 서비스 인증을 수행 해야 합니다. 파트너 서비스는 다음을 제공 해야 합니다.
 
 1. 파트너 서비스를 사용 하면 환자 앱이 파트너와 계정을 만들 수 있으므로 환자 앱에서 파트너의 인증 서버에 있는 Auth registration portal을 통해 관리 되는 client_id 및 client_secret를 생성 하 고 소유할 수 있습니다.
+
 2. 파트너 서비스는 제공 된 클라이언트 자격 증명을 허용 하 고 확인 (인증) 하는 인증/인증 시스템을 소유 하 고 아래 설명 된 대로 범위에서 테 넌 트 힌트를 사용 하 여 액세스 토큰을 다시 제공 합니다.
+
 3. 보안상의 이유로 또는 비밀 침해의 경우, 환자 앱이 비밀을 다시 생성 하 고, 이전 비밀을 무효로 만들거나 삭제할 수 있습니다 (예를 들어 Azure Portal-AAD 앱 등록에서 사용할 수 있음).
+
 4. 준수 문을 호스트 하는 메타 데이터 끝점은 인증 되지 않은 토큰 없이 액세스할 수 있어야 합니다.
-5. 파트너 서비스는 환자 앱에 대 한 토큰 끝점을 제공 하 여 클라이언트 자격 증명 흐름을 사용 하 여 액세스 토큰을 요청 합니다. 권한 부여 서버에 대 한 토큰 url은 다음 예제와 같이 FTO r 서버의 메타 데이터에서 가져온 FE r 준수 (기능) 문의 일부 여야 합니다.
 
-* * *
-    {"resourceType": "CapabilityStatement",.
+5. 파트너 서비스는 환자 앱에 대 한 토큰 끝점을 제공 하 여 클라이언트 자격 증명 흐름을 사용 하 여 액세스 토큰을 요청 합니다. 권한 부여 서버에 대 한 토큰 URL은 다음 예제와 같이 FTO r 서버의 메타 데이터에서 가져온 FE r 준수 (기능) 문의 일부 여야 합니다.
+
+    ```
+    {
+        "resourceType": "CapabilityStatement",
         .
         .
-        "rest": [{"모드": "서버", "보안": {"확장명": [{"확장명": [{"url": "token", "valueUri": " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token "}, {"url": "권한 부여", "valueUri": ""} "," " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris 서비스": [{"코딩": [{"시스템": "", "코드": " https://hl7.org/fhir/ValueSet/restful-security-service OAuth"}]}]},.
+        .
+        "rest": [
+            {
+                "mode": "server",
+                "security": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "token",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"
+                                },
+                                {
+                                    "url": "authorize",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"
+                                }
+                            ],
+                            "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"
+                        }
+                    ],
+                    "service": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "https://hl7.org/fhir/ValueSet/restful-security-service",
+                                    "code": "OAuth"
+                                }
+                            ]
+                        }
+                    ]
+                },
                 .
                 .
-            } ] }
-
-* * *
+                .
+            }
+        ]
+    }
+    ```
 
 액세스 토큰에 대 한 요청은 다음 매개 변수로 구성 됩니다.
 
-* * *
+```http
+POST /token HTTP/1.1
+Host: authorization-server.com
 
-    게시/토큰 HTTP/1.1 호스트: authorization-server.com
-
-    grant-type = client_credentials &client_id = xxxxxxxxxx &client_secret = xxxxxxxxxx
-
-* * *
+grant-type=client_credentials
+&client_id=xxxxxxxxxx
+&client_secret=xxxxxxxxxx
+```
 
 파트너 서비스는 파트너 측의 Auth registration 포털을 통해 관리 되는 환자 앱에 대 한 client_id 및 client_secret를 제공 합니다. 파트너 서비스는 끝점을 제공 하 여 클라이언트 자격 증명 흐름을 사용 하 여 액세스 토큰을 요청 합니다. 성공적인 응답에는 token_type, access_token expires_in 매개 변수가 포함 되어야 합니다.
 
@@ -115,21 +154,27 @@ AAD 테 넌 트를 공급자 끝점에 매핑하면 AAD 테 넌 트 ID (GUID)가
 
 1. 보내는 방법으로 앱 액세스 토큰 요청:
  
-        {   grant_type: client_credentials,
-            client_id: xxxxxx, 
-            client_secret: xxxxxx,
-            scope: {Provider Identifier, Ex: tenant ID}
-        }
+    ```
+    {   grant_type: client_credentials,
+        client_id: xxxxxx, 
+        client_secret: xxxxxx,
+        scope: {Provider Identifier, Ex: tenant ID}
+    }
+    ```
 
 2. 앱 토큰을 사용 하 여 회신:
 
-        {  access_token: {JWT, with scope: tenant ID},
-           expires_in: 156678,
-           token_type: "Bearer",
-        }
+    ```
+    {  access_token: {JWT, with scope: tenant ID},
+       expires_in: 156678,
+       token_type: "Bearer",
+    }
+    ```
 
 3. 액세스 토큰을 사용 하 여 보호 된 데이터를 요청 합니다.
+
 4. 인증 메시지: 범위에서 테 넌 트 ID에서 라우팅할 적절 한 FA r 서버를 선택 합니다.
+
 5. 앱 토큰을 사용 하 여 인증 한 후 권한 있는 FA r 서버에서 보호 된 데이터를 앱에서 보냅니다.
 
 ## <a name="interfaces"></a>인터페이스

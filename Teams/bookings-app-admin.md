@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀의 예약 앱 및 가상 방문
+title: Microsoft 팀 및 예약 앱을 사용한 가상 방문
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: ''
 ms.reviewer: ''
 description: 예약 앱을 사용 하 여 Microsoft 팀 및 가상 방문
-ms.openlocfilehash: c60993b57233c0c526e1770c1d3d414a73fcc42a
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 0c88feec8a90b2794e93fb9c51bffafabf942748
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427683"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766961"
 ---
-# <a name="bookings-app-and-virtual-visits-in-microsoft-teams"></a>Microsoft 팀의 예약 앱 및 가상 방문
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft 팀 및 예약 앱을 사용한 가상 방문
 
 Microsoft 팀의 예약 앱은 의료 방문, 재무 consultations, 인터뷰, 고객 지원팀, 교육 office 시간 등의 사용자 및 가상 약속을 간단히 예약할 수 있는 방법을 제공 합니다.
 
@@ -51,13 +51,13 @@ Microsoft 팀의 예약 앱은 의료 방문, 재무 consultations, 인터뷰, �
 
 ## <a name="recommended-meeting-policy-settings"></a>권장 되는 모임 정책 설정
 
-예약에 대 한 최상의 환경을 사용 하려면 **조직 내 모든 사용자**를 자동으로 허용 하는 교직원 용 모임 정책을 만듭니다. 이렇게 하면 직원이 자동으로 약속에 참가 하 고 외부 참석자에 대해 로비 환경을 사용할 수 있습니다. [사람들에 게 모임에 자동으로 admitting](meeting-policies-in-teams.md#automatically-admit-people)에 대해 자세히 알아볼 수 있습니다.
+예약에 대 한 최상의 환경을 사용 하려면 **조직 내 모든 사용자** 를 자동으로 허용 하는 교직원 용 모임 정책을 만듭니다. 이렇게 하면 직원이 자동으로 약속에 참가 하 고 외부 참석자에 대해 로비 환경을 사용할 수 있습니다. [사람들에 게 모임에 자동으로 admitting](meeting-policies-in-teams.md#automatically-admit-people)에 대해 자세히 알아볼 수 있습니다.
 
 ### <a name="optional-staff-approvals-setting"></a>교직원 승인 설정 (선택 사항)
 
 추가 개인 정보 설정으로, 일정 사용 가능 시간이 예약을 통해 공유 되 고 약속에 대해 예약할 수 있으려면 먼저 직원이 옵트인 하도록 선택할 수 있습니다.  
 
-이 설정을 사용 하려면 **Microsoft 365 관리 센터** \> **설정** \> **설정**으로 이동한 다음 **예약**을 선택 합니다.
+이 설정을 사용 하려면 **Microsoft 365 관리 센터** \> **설정** \> **설정** 으로 이동한 다음 **예약** 을 선택 합니다.
 
 이 설정을 켠 상태에서 교직원은 예약 일정에 대 한 회원 가입을 승인 하 라는 전자 메일을 받게 됩니다.  
 

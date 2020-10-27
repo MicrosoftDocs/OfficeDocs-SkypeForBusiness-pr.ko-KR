@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f7818102426f38279caac5c4532a22e53f1673e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514945"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766771"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020의 팀 세션
 
@@ -96,7 +96,7 @@ ms.locfileid: "48514945"
 | 제목 | 이론적인            | 평준화| 강연자 |
 |---|----------|---|---|---|
 |[교육용 팀의 배포 및 관리](https://aka.ms/PR103) |교육 기관의 전체적인 관리에 대해 알아야 할 모든 것을 이해 하세요. 이 세션에서는 채팅 정책, 모임 정책, 앱 정책, 그룹을 통한 과제, 학생 안전을 구성 하는 방법, 팀 클래스 만들기를 자동화 하는 방법 등에 대해 다룹니다. |300|Jethro Se...|
-|[의료에서 Microsoft 팀과의 가상 상태 및 공동 작업](https://aka.ms/PR116)|건강 관리 팀이 Microsoft 팀에 가장 적합 한 문제를 제공 하는 데 도움이 되는 의료 조직에 대해 알아봅니다. 이 세션은 의료, 가상 방문, 고객 사례 등의 팀에 대 한 최신 공지 사항와 같은 가상 상태 및 의료 팀 공동 작업에 중점을 dives. 또한 Microsoft 팀을 플랫폼으로 사용 하 여 다양 한 최신 의료 시나리오를 처리 하는 방법을 알아봅니다.|200|Westenberger, 톰 McGuinness, Kristina Behr, 다니엘 Canning|
+|[의료에서 Microsoft 팀과의 가상 상태 및 공동 작업](https://aka.ms/PR116)|건강 관리 조직이 Microsoft 팀에 가장 적합 한 문제를 제공 하기 위해 상태 팀을 강화 하는 방법에 대해 알아봅니다. 이 세션은 가상 상태 및 상태 팀 공동 작업 및 dives을 건강 보험, 가상 방문, 고객 사례 등의 팀에 대 한 최신 알림과 같은 영역으로 이동 합니다. 또한 Microsoft 팀을 플랫폼으로 사용 하 여 다양 한 최신 의료 시나리오를 처리 하는 방법을 알아봅니다.|200|Westenberger, 톰 McGuinness, Kristina Behr, 다니엘 Canning|
 |[산업에 맞게 Microsoft 팀 맞춤](https://aka.ms/PR117)|이 세션에서는 업계 갤러리를 통해 서식 파일을 사용 하 여 공동 작업 환경을 부트스트랩 하는 방법에 대 한 세부 정보를 조직에 맞게 사용자 지정 하 고 조직의 다양 한 부분에 배포 하 고 정책 패키지를 통해 관리 하는 방법을 알아봅니다.|200|프레미스 Kuchi, 정영일 Glick|
 |[정부에서 Microsoft 팀을 사용 하 여 공동 작업 및 의사 소통](https://aka.ms/PR118) |지역 및 연방 기관에서는 Microsoft 팀을 활용 하 여 사용자의 응답 시간과 시민 계약의 공동 작업 및 개선 능력을 증대 시킵니다.  기존 기능 사용을 최대한 활용 하는 방법, 정부의 Microsoft 팀에 대 한 다음 진행 및 향후 비전의 개선 사항에 대해 알아보세요. |200|Rima Reyes, Karuana Gatimu, Roxy Ndebumadu, 유나 Gilbert|
 |[교육 앱 플랫폼용 Microsoft 팀과 통합](https://aka.ms/PR120)|팀은 교육 기관에서 앱을 통합 하 고 사용자 지정 워크플로를 만드는 데 사용할 수 있는 개방형 플랫폼입니다.  이 세션에서는 IT 지원 데스크와 통합 하기 위해 강의실 교육에서 팀 앱 스토어를 사용 하는 방법에 대해 설명 합니다. 타사 앱 관리, 오픈 원본 앱 서식 파일, 앱 Studio의 실습 예제를 통해 여러분의 기관에 대 한 빠른 사용자 지정 웹 사이트 앱을 만들어 보세요.|300|Dominic Williamson|

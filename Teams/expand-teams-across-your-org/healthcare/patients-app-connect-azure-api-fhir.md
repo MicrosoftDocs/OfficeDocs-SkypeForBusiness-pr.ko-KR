@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 팀의 환자 앱을 Azure API에 연결 하는 방법 (신속한 의료 상호 운용성 리소스)에 대해 알아보세요.
-ms.openlocfilehash: 3bd6cdc694eb197c1e8fd45d7e133576732cdc22
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 1f137f7cbe90304620bb0fc5c919c0861fca9d7e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367618"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766991"
 ---
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>환자 앱을 FHIR용 Azure API에 연결
 
@@ -31,7 +31,7 @@ ms.locfileid: "48367618"
 >
 >환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱이 종료 되 면 관련 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 현재 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
 >
->[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 목록에서 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져오면 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
+>[목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 상태 팀은 목록을 사용 하 여 기본 제공 환자 서식 파일을 사용 하거나, 처음부터 또는 Excel로 데이터를 가져와 환자 목록을 만들 수 있습니다. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 다음 단계에 따라 Microsoft 팀의 환자 앱이 FTO r 인스턴스에 대 한 Azure API에 액세스할 수 있도록 허용 합니다. 이 문서에서는 테 넌 트에 [FTO r 인스턴스를](https://azure.microsoft.com/services/azure-api-for-fhir/) 설정 하 고 구성 하는 Azure API를 사용 하 고 있다고 가정 합니다.  테 넌 트에 FTO r 인스턴스에 대 한 Azure API를 아직 만들지 않은 경우 [빠른 시작: azure 포털을 사용 하 여 AZURE Api 배포](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart)를 참조 하세요.
 
@@ -43,24 +43,30 @@ ms.locfileid: "48367618"
     수락한 후 창을 닫습니다. 다음과 같은 페이지를 볼 수 있습니다. 페이지에서 오류 메시지를 무시할 수 있습니다. 이는 무해 하며 동의가 부여 되었음을 의미 합니다. (이 URL에 대해 사용자에 게 친숙 한 페이지를 사용 하는 것입니다. 계속 조정!)
 
     ![환자 앱에 대 한 사용 권한 요청 스크린샷](../../media/patients-app-permissions-request-granted.png)
+    
 2. 관리자 자격 증명을 사용 하 여 [Azure 포털](https://portal.azure.com) 에 로그인 합니다.
-3. 왼쪽 탐색 창에서 **Azure Active Directory**를 선택한 다음 **엔터프라이즈 응용 프로그램**을 선택 합니다.
+
+3. 왼쪽 탐색 창에서 **Azure Active Directory** 를 선택한 다음 **엔터프라이즈 응용 프로그램** 을 선택 합니다.
+
     **환자 (dev)** 라는 행을 찾은 다음 **개체 ID** 열의 값을 클립보드에 복사 합니다.
+    
     ![Azure 포털의 환자 (dev) 행 스크린샷](../../media/patients-app-azure-portal-object-id.png)
+    
 4. 환자 app을 검색 하거나 리소스를 탐색 하 여 연결 하려는 FTO r 리소스 인스턴스로 이동 하 여 해당 인스턴스에 대 한 설정을 엽니다 (선택 사항).
 
     ![Azure 포털의 FTO r 인스턴스 설정에 대 한 Azure API 스크린샷](../../media/patients-app-azure-portal-instance-settings.png)
 
-5. **인증**을 클릭 한 다음 3 단계에서 복사한 개체 Id를 **허용 된 개체 id** 상자에 붙여 넣습니다. 이렇게 하면 환자 앱이 FTO r 서버에 액세스할 수 있습니다. 개체 ID를 붙여 넣으면 Azure Active Directory에서 유효성을 검사 하 고 녹색 확인 표시가 그 옆에 나타납니다.
+5. **인증** 을 클릭 한 다음 3 단계에서 복사한 개체 Id를 **허용 된 개체 id** 상자에 붙여 넣습니다. 이렇게 하면 환자 앱이 FTO r 서버에 액세스할 수 있습니다. 개체 ID를 붙여 넣으면 Azure Active Directory에서 유효성을 검사 하 고 녹색 확인 표시가 그 옆에 나타납니다.
 
     ![Azure 포털의 인증 설정 스크린샷](../../media/patients-app-azure-portal-authentication.png)
 
-6. **저장**을 클릭합니다. 이렇게 하면 인스턴스가 다시 배포 되 고 몇 분 정도 걸릴 수 있습니다.
-7. **개요**를 클릭 한 다음 **fa r 메타 데이터 끝점**에서 URL을 복사 합니다. 메타 데이터 태그를 제거 하 여 FA r 서버 URL을 가져옵니다. 예를 들어 https://test02-teamshealth.azurehealthcareapis.com/ . 
+6. **저장** 을 클릭합니다. 이렇게 하면 인스턴스가 다시 배포 되 고 몇 분 정도 걸릴 수 있습니다.
+
+7. **개요** 를 클릭 한 다음 **fa r 메타 데이터 끝점** 에서 URL을 복사 합니다. 메타 데이터 태그를 제거 하 여 FA r 서버 URL을 가져옵니다. 예를 들어 https://test02-teamshealth.azurehealthcareapis.com/ . 
 
     ![Azure 포털의 메타 데이터 끝점 스크린샷](../../media/patients-app-azure-portal-metadata-endpoint.png)
 
-8. 팀에서 팀에 로드 된 환자 app 인스턴스로 이동 하 고 **설정을**클릭 한 다음 **링크** 상자에 fgo r 서버 끝점 URL을 입력 합니다. 그런 다음 연결 **을 클릭 하 여 연결** 을 설정 하 고 검색 하 여 목록에 환자 추가 합니다.  
+8. 팀에서 팀에 로드 된 환자 app 인스턴스로 이동 하 고 **설정을** 클릭 한 다음 **링크** 상자에 fgo r 서버 끝점 URL을 입력 합니다. 그런 다음 연결 **을 클릭 하 여 연결** 을 설정 하 고 검색 하 여 목록에 환자 추가 합니다.  
 
     ![팀의 환자 앱 설정 스크린샷](../../media/patients-app-teams.png)
     
