@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6245c78b66bde710ea6c03839cc98de8ec8f3f
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753553"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778861"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
@@ -34,7 +34,6 @@ ms.locfileid: "48753553"
 |초기 Q4 CY20|**비즈니스용 OneDrive 및 SharePoint에 대 한 팀 모임 녹음/녹화를 옵트인 또는 옵트아웃 (opt out) 할 수 있습니다.**<br> 테 넌 트 관리자가 비즈니스용 OneDrive 및 SharePoint에서 옵트인 또는 선택 취소 하 여 PowerShell에서 팀 정책 설정|
 |중급 Q4 CY20|**비즈니스용 OneDrive 및 SharePoint에서 팀 모임 녹음/녹화를 옵트아웃 하지 않은 테 넌 트에 대 한 기본값으로 설정**<br> 이는 대부분의 고객에 게 권장 되는 경로입니다.|
 |Q1 CY21|**더 이상 허용 되지 않는 클래식 스트림으로 팀 모임 기록 저장**<br>모든 테 넌 트가 비즈니스용 OneDrive 및 SharePoint에 팀 모임 기록을 저장 합니다.|
-
 
 Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 있습니다. 이 방법은 기존 Microsoft Stream에서 [새 스트림으로](https://docs.microsoft.com/stream/streamnew/new-stream)전환 하는 첫 번째 단계로, microsoft 365의 비즈니스용 Microsoft 비즈니스용 OneDrive 및 SharePoint에 기록을 저장 하 고 다양 한 혜택을 제공 합니다.
 
@@ -68,12 +67,13 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>비즈니스용 OneDrive 및 SharePoint에 대 한 모임 녹음/녹화 옵션 설정
 
 > [!Note]
-> 모임 기록 옵션은 팀 정책 수준의 설정입니다. 다음 예제에서는 전역 정책을 설정 하는 방법을 보여 줍니다. 사용자에 게 할당 한 정책이 나 정책에 대 한 모임 기록 옵션을 설정 했는지 확인 합니다. 팀 정책 변경 사항은 전파 하는 데 시간이 걸립니다. 설정한 시간 후 다시 확인 한 후 로그 아웃 하 고 다시 로그인 합니다.
+> 모임 기록 옵션은 팀 정책 수준의 설정입니다. 다음 예제에서는 전역 정책을 설정 하는 방법을 보여 줍니다. 사용자에 게 할당 한 정책이 나 정책에 대 한 모임 기록 옵션을 설정 했는지 확인 합니다.
+> 팀 정책 변경 사항은 전파 하는 데 시간이 걸립니다. 설정한 시간 후 다시 확인 한 후 로그 아웃 하 고 다시 로그인 합니다.
 
-1. 비즈니스용 Skype Online PowerShell을 설치 합니다. 
-**참고**: 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다. 최신 팀 PowerShell 공용 릴리스를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다. [PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)를 참조 하세요.
+1. 비즈니스용 Skype Online PowerShell을 설치 합니다.
+**참고** : 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다. 최신 팀 PowerShell 공용 릴리스를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다. [PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)를 참조 하세요.
 
-    a. [비즈니스용 Skype Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)을 다운로드 하세요. 
+    a. [비즈니스용 Skype Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)을 다운로드 하세요.
 
     b. 화면의 지시에 따라 설치 합니다.
 
@@ -97,14 +97,13 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>비즈니스용 OneDrive 및 SharePoint에서 스트림을 사용 하 여 계속 합니다.
 
-정책이 **Stream**으로 설정 되어 있는 경우에도 설정 되지 않았을 수 있습니다. 일반적으로 정책이 설정 되어 있지 않으면 기본 설정은 **스트림**입니다. 그러나이 새로운 변경으로 인해 SharePoint 또는 OneDrive 사용을 옵트아웃 하려면 정책을 **스트림으로** 다시 설정 하 여 해당 설정이 기본값 인지 확인 해야 합니다.
+정책이 **Stream** 으로 설정 되어 있는 경우에도 설정 되지 않았을 수 있습니다. 일반적으로 정책이 설정 되어 있지 않으면 기본 설정은 **스트림** 입니다. 그러나이 새로운 변경으로 인해 SharePoint 또는 비즈니스용 OneDrive를 사용 하지 않으려는 경우에는 정책을 **스트림으로** 다시 설정 하 여 해당 설정이 기본값 인지 확인 해야 합니다.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
 ## <a name="permissions-or-role-based-access"></a>사용 권한 또는 역할 기반 액세스
-
 
 |모임 유형                               | 누가 레코드를 클릭 했습니까?| 녹화가 어디에 있나요?                               |누가 액세스 권한이 있나요? R/W, R 또는 공유                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -128,7 +127,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
   <i>레코더의 비즈니스용 OneDrive</i> / **기록**
 
-- 채널 모임의 **경우 기록은 기록 이라는 폴더**의 팀 사이트 문서 라이브러리에 저장 됩니다. 예
+- 채널 모임의 **경우 기록은 기록 이라는 폴더** 의 팀 사이트 문서 라이브러리에 저장 됩니다. 예
 
   <i>팀 이름-채널 이름</i> / **문서** / **기록**
 
@@ -152,7 +151,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 폐쇄 캡션은 모임이 기록 될 때 60 일간의 팀 모임 기록에 대해 지원 됩니다.
 
-팀 모임 녹화가 OneDrive 또는 SharePoint의 원래 위치에서 이동 또는 복사 되는 경우 선택 캡션이 완전히 지원 되지 않습니다.
+팀 모임 녹화가 비즈니스용 OneDrive 또는 SharePoint의 원래 위치에서 이동 하거나 복사 되는 경우 선택 캡션이 완전히 지원 되지 않습니다.
 
 **내 저장소 할당량에 영향을 주는 방법**
 
@@ -164,4 +163,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **Deprecating 추가를 계획 하는 경우 기존 비디오는 그대로 유지 되 고 얼마 동안 지속 되나요?**
 
-플랫폼으로 스트림은 가까운 장래에 더 이상 사용 되지 않습니다. 현재 스트림에 살고 있는 비디오는 마이그레이션을 시작할 때까지 유지 됩니다. 마이그레이션에 따라 이러한 비디오는 ODSP로도 마이그레이션됩니다. 자세한 내용은 [여기](https://docs.microsoft.com/stream/streamnew/classic-migration) 를 참조 하세요.
+플랫폼으로 스트림은 가까운 장래에 더 이상 사용 되지 않습니다. 현재 스트림에 살고 있는 비디오는 마이그레이션을 시작할 때까지 유지 됩니다. 이 비디오는 마이그레이션에 따라 비즈니스용 OneDrive 또는 SharePoint로도 마이그레이션됩니다. 자세한 내용은 [여기](https://docs.microsoft.com/stream/streamnew/classic-migration) 를 참조 하세요.
+
+**보존 레이블을 적용 하려면 어떻게 하나요?**
+
+[보존 레이블을 자동으로 적용 하는 방법을](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)참조 하세요.

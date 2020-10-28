@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618c1a2949dc00e1257e3fef56c41b3bf2be567c
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5b17ae74c03cd6e74f08cddede6757d1937464cc
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424658"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772229"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>관리 센터에서 팀 서식 파일 시작
 
@@ -68,7 +68,7 @@ ms.locfileid: "48424658"
 > Microsoft 팀에서 제공 하는 미리 정의 된 기본 서식 파일은 복제만 가능 하 고 편집할 수는 없습니다.
 
 | 기본 서식 파일 형식 | baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
-| ------------------ |----|----------------------------------------------------- |
+| ------------------ | -------------- | ----------------------------------------------------- |
 | Office 365 도입 |`com.microsoft.teams.template.AdoptOffice365`|  채널 <ul><li>일반</li> <li>알림에서</li> <li>챔피언 모서리</li> <li>팀 양식</li></ul> 들 <ul><li>키</li>  <li>일정</li> |
 | 프로젝트 관리 |`com.microsoft.teams.template.ManageAProject`| 채널 <ul><li>일반</li> <li>알림에서</li> <li>리소스도</li> <li>계획</li></ul> 들<ul><li>키</li><li>만들어졌으므로</li></ul> |
 | 이벤트 관리|`com.microsoft.teams.template.ManageAnEvent` | 채널 <ul><li>일반</li> <li>알림에서</li> <li>예산</li> <li>콘텐트가</li><li>물류</li> <li>계획</li> <li> 마케팅 및 홍보</li></ul> 들<ul><li>키</li><li>웹 사이트</li> <li>YouTube</li> <li>Planner</li> <li>만들어졌으므로</li></ul> |

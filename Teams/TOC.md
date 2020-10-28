@@ -678,28 +678,24 @@
 ### [Teams 서식 파일 시작](get-started-with-teams-templates.md)
 ### [Teams의 교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Teams에서 조직의 교대 근무 앱 관리](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
 ## 의료용 Teams
-### [의료 조직을 위한 Teams 시작](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [예약 앱 및 가상 방문](bookings-app-admin.md)
-### [의료용 Teams 정책 패키지](policy-packages-healthcare.md)
-### 메시지 정책 보안
-#### [의료 조직을 위한 메시지 보안](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [의료용 Teams 시작](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### 가상 방문
+#### [Teams를 사용하여 가상 방문 - EHR에 통합](expand-teams-across-your-org/healthcare/ehr-admin.md)
+#### [예약 및 Teams를 통한 가상 방문](bookings-app-admin.md)
+### [Teams 정책 패키지 만들기](policy-packages-healthcare.md)
+### 보안 메시징
+#### [보안 메시징](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [메시지 위임](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### 의료 조직을 위한 Teams 서식 파일
-#### [관리 센터에서 Teams 의료 서비스 서식 파일 사용](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-#### [의료 조직을 위한 Teams 서식 파일 시작](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### Teams 서식 파일
+#### [Teams 의료 서식 파일 사용](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [의료용 Teams 서식 파일](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [목록 앱 관리](manage-lists-app.md)
+### [작업 앱 관리](manage-tasks-app.md)
 ### Teams의 교대 근무
 #### [Teams의 교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [교대 근무 앱 관리](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-### 환자 앱
-#### [환자 앱 개요](expand-teams-across-your-org/healthcare/patients-app-overview.md)
-#### 전자 의료 기록을 환자 앱에 통합
-##### [FHIR API를 사용하여 전자 의료 기록을 환자 앱에 통합](expand-teams-across-your-org/healthcare/patients-app.md)
-##### [환자 앱용 DSTU2 인터페이스 사양](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-##### [환자 앱용 STU3 인터페이스 사양](expand-teams-across-your-org/healthcare/stu3-interface.md)
-##### [환자 앱을 FHIR용 Azure API에 연결](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
-#### [환자 앱에 대한 감사 로그](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [교육용 Teams](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [빠른 시작 - 교육용 Teams 관리](teams-quick-start-edu.yml)

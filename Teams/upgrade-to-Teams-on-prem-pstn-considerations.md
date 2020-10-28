@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b27694c476fc1ab571716939ad57cc3f2dae20e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ee76c4955ba1eaaef3ff5c31b925d133b22a5365
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533555"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772219"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>IT 관리자를 위해 팀으로 업그레이드할 때 PSTN 고려 사항 &mdash;
 
@@ -45,7 +45,7 @@ ms.locfileid: "48533555"
 
  > [!NOTE]
  > - 팀과 함께 전화 시스템을 사용 하는 것은 사용자가 TeamsOnly 모드에 있는 경우에만 지원 됩니다.  사용자가 군도 모드에 있는 경우, 전화 시스템은 비즈니스용 Skype 에서만 지원 됩니다. 
- > - Skype for Business의 착신 전환 및 위임 설정은 마이그레이션되지 않으며 팀에 맞게 다시 만들어야 합니다.
+ > - Skype for Business의 착신 전환, 팀 호출 그룹 및 위임 설정은 마이그레이션되지 않으며 팀에 맞게 다시 만들어야 합니다.
 
 
 ## <a name="pstn-calling-scenarios"></a>PSTN 통화 시나리오

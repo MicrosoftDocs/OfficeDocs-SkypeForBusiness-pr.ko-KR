@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Microsoft 팀을 사용 하 여 가상 방문 시스템 설정
-ms.openlocfilehash: dcf852486d6a7fbace23bea5fb8610c62bdc7e4f
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 3d5d68e7c4ba3cc203df33604a7210e67b402938
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766721"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778891"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>팀에 대 한 가상 방문-EHR에 통합
 
@@ -35,6 +35,10 @@ Microsoft 팀 EHR (전자적 상태 레코드) 커넥터를 사용 하면 clinic
 - 연결 및 연결 끊기 이벤트의 EHR 메타 데이터에 다시 기록 하 여 자동 감사 및 기록 유지 기능을 사용 하도록 설정 합니다.
 
 - Microsoft 팀을 사용 하도록 허용 하는 동안 기존 clinician 및 환자 워크플로를 통합 합니다.
+
+  EHR 포털에서 가상 방문을 관리 하는 방법에 대 한 비디오를 시청 하세요.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## <a name="before-you-begin"></a>시작 하기 전에
 

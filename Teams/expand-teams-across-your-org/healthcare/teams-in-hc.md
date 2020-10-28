@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 주의 조정, 보안 메시지, 가상 방문, EHR 통합,에서 일선 worker 시스템 통합을 포함 하는 상태 관리 기능에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab34d5da83a189c3d135c330bbe2fe015d248349
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766850"
+ms.locfileid: "48772299"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>건강 조직의 팀 시작 하기
 
@@ -94,6 +94,9 @@ Microsoft 팀은 의사, clinicians, nurses, 기타 직원이 Microsoft 팀의 �
 - 교대 근무 앱을 사용 하 여 일정 만들기, 관리 및 공유
 
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>목록을 공유 하 고 목록 앱을 사용 하 여 정보 추적
+
+> [!NOTE]
+> 2020 년 10 월 30 일에 효력을 환자 앱이 회수 되 고 팀의 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 으로 대체 됩니다. 목록을 사용 하는 경우 의료 기관에서 팀은 팀 모임에서 일반 환자 모니터링과의 interdisciplinary에 이르기까지 시나리오에 대 한 환자 목록을 만들 수 있습니다.
 
 팀의 목록 앱은 팀에서 정보를 추적 하 고 작업을 구성 하는 데 도움이 됩니다. 앱은 모든 팀 사용자를 위해 사전 설치 되어 있으며 모든 팀과 채널에서 탭으로 사용할 수 있습니다. 목록은 미리 정의 된 서식 파일에서 만들거나 Excel로 데이터를 가져와 처음부터 만들 수 있습니다.
 
