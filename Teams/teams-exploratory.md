@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ebe9f93321b67806b9fd777aba948f83954c04
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: a266d9d3ea8fd572cca171768174d86094a8c945
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753583"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766971"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================
@@ -67,9 +67,8 @@ Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active 
 
 다음과 같은 경우 사용자는 기준에 맞지 않습니다.
 
-- Teams 라이선스가 있거나 이전에 유료 Teams 라이선스가 있어야 합니다.
-- 평가판 또는 COVID 평가판을 사용하고 있습니다.
-- 최소 하나의 특별 COVID 평가판 플랜을 보유한 테넌트에 있습니다.
+- 현재 또는 이전에 유료, 미결제 또는 평가판 라이선스에서 Teams를 보유하고 있습니다. 
+- 하나 이상의 특별 COVID 제안을 사용하거나 받은 테넌트에 있습니다.
 
 사용자가 Syndication 파트너 고객이거나 GCC, GCC High, DoD 또는 EDU 고객인 경우 사용자의 조직은 이 서비스를 사용할 수 없습니다.
 
