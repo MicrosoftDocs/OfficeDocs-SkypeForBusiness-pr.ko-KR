@@ -7,20 +7,24 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 audience: admin
 description: 조직의 사용자에 대 한 작업 앱을 관리 하는 방법을 알아봅니다.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d06c42691874b8defa86e993727bc1fe38ee67b3
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: c1372dd4e997d2ebc263afdb2b4b692e9b9deb8c
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331663"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790450"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 작업 앱 관리
 
@@ -29,7 +33,7 @@ ms.locfileid: "47331663"
 Tasks 앱은 microsoft 팀에 게 긴밀 한 작업 관리 경험을 제공 하 여 Microsoft가 제공 하는 개별 작업과 Planner에서 제공 [하](https://todo.microsoft.com/tasks/) 는 팀 작업을 한 곳에 통합 합니다. 사용자는 팀의 왼쪽에 있는 앱으로 작업에 액세스 하 고 개별 팀 내에서 채널의 탭으로 액세스할 수 있습니다. 작업의 **내 작업** 및 **공유 계획** 을 통해 사용자가 모든 개인 및 팀 작업을 보고 관리 하 고 작업의 우선 순위를 정할 수 있습니다. 작업은 팀 데스크톱, 웹, 모바일 클라이언트에서 사용할 수 있습니다. 
 
 > [!NOTE]
-> 팀 데스크톱 클라이언트에 작업 환경을 배포 하면 앱 이름이 처음에는 사용자에 게 **Planner** 로 표시 됩니다. 그러면 이름이 **Planner에 의해 작업**으로 일시적으로 변경 되 고, 나중에 **는 작업으로 이름이 바뀝니다.** 팀 모바일 클라이언트에서는 사용자가 항상 앱 이름을 **작업**으로 보게 됩니다. 데스크톱 경험을 사용할 수 있게 되 면 모바일 환경의 가용성에 약간의 시간이 걸릴 수 있습니다.
+> 팀 데스크톱 클라이언트에 작업 환경을 배포 하면 앱 이름이 처음에는 사용자에 게 **Planner** 로 표시 됩니다. 그러면 이름이 **Planner에 의해 작업** 으로 일시적으로 변경 되 고, 나중에 **는 작업으로 이름이 바뀝니다.** 팀 모바일 클라이언트에서는 사용자가 항상 앱 이름을 **작업** 으로 보게 됩니다. 데스크톱 경험을 사용할 수 있게 되 면 모바일 환경의 가용성에 약간의 시간이 걸릴 수 있습니다.
 
    ![팀 목록에 있는 작업 목록 보기 스크린샷](media/manage-tasks-app-tasks.png)
 
@@ -56,11 +60,11 @@ Firstline Worker에 대 한 작업 관리를 합리화 하려는 조직의 경�
 
 작업은 조직의 모든 팀 사용자에 대해 기본적으로 사용 하도록 설정 됩니다. Microsoft 팀 관리 센터에서 [앱 관리](manage-apps.md) 페이지의 조직 수준에서 앱을 끄거나 켤 수 있습니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**으로  >  **앱 관리** 로 이동 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱** 으로  >  **앱 관리** 로 이동 합니다.
 2. 앱 목록에서 다음 중 하나를 수행 합니다.
 
-    - 조직에 대 한 작업을 해제 하려면 작업 앱을 검색 하 고 선택한 다음 **차단을**클릭 합니다.
-    - 조직에 대 한 작업을 설정 하려면 작업 앱을 검색 하 여 선택한 다음 **허용**을 클릭 합니다.
+    - 조직에 대 한 작업을 해제 하려면 작업 앱을 검색 하 고 선택한 다음 **차단을** 클릭 합니다.
+    - 조직에 대 한 작업을 설정 하려면 작업 앱을 검색 하 여 선택한 다음 **허용** 을 클릭 합니다.
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대 한 작업 사용 또는 사용 안 함
 
@@ -74,7 +78,7 @@ Firstline Worker에 대 한 작업 관리를 합리화 하려는 조직의 경�
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>사용자가 Exchange Online에 대 한 사용이 허가 된 경우 사용자의 내 작업이 표시 됨
 
-사용자에 게 **내 작업**을 표시 하지 않으려면 숨길 수 있습니다. 이렇게 하려면 [사용자의 Exchange Online 라이선스를 제거](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)합니다. Exchange Online 라이선스를 제거한 후에는 사용자가 더 이상 해당 사서함에 액세스할 수 없다는 것을 알아야 합니다.  사서함 데이터는 30 일간 보유 되며, 그 이후에는 사서함이 원본 [위치 유지 또는 소송 유지](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)에 배치 되지 않은 경우에는 데이터를 제거 하 고 복구할 수 없게 됩니다.
+사용자에 게 **내 작업** 을 표시 하지 않으려면 숨길 수 있습니다. 이렇게 하려면 [사용자의 Exchange Online 라이선스를 제거](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)합니다. Exchange Online 라이선스를 제거한 후에는 사용자가 더 이상 해당 사서함에 액세스할 수 없다는 것을 알아야 합니다.  사서함 데이터는 30 일간 보유 되며, 그 이후에는 사서함이 원본 [위치 유지 또는 소송 유지](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)에 배치 되지 않은 경우에는 데이터를 제거 하 고 복구할 수 없게 됩니다.
 
 정보 근로자에 게는이 방법을 권장 하지 않지만, 전자 메일을 이용 하지 않는 Firstline Worker 등의 몇 가지 시나리오가 적용 될 수 있습니다.
 

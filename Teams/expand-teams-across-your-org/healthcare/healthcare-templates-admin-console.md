@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 관리 센터에서 Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 서식 파일, 채널 및 앱 템플릿을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5d20006645caede9d780bbcb9b462d71e396a205
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 102c9db47ba9a79acf64338d2fab0cb1ddc49392
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766711"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790430"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>관리 센터에서 팀 의료 템플릿 사용
 

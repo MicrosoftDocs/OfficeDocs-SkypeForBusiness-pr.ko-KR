@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀에 대해 인증 되는 전화 목록과 Microsoft 팀을 위해 인증 된 전화에서 지원 되는 기능에 대해 설명 합니다.
-ms.openlocfilehash: cd38586b67f728febb4a43d3f018875b378cffd8
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: a4fc3a6516881d6f865b22cbf92d85af6859cb14
+ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962849"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787032"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft 팀 용 전화
 
@@ -33,6 +33,7 @@ Microsoft 팀은 일반 전화 환경을 필요로 하는 사용자를 위한 �
 휴대폰을 관리 하기 위해서는 전역 관리자, 팀 서비스 관리자 또는 팀 장치 관리자 여야 합니다. 관리자 역할에 대 한 자세한 내용은 [Microsoft 팀 관리자 역할을 사용 하 여 팀 관리](../using-admin-roles.md)를 참조 하세요.
 
 ## <a name="features-supported-by-teams-phones"></a>팀 전화에서 지원 되는 기능
+
 팀 인증 전화는 사용자가 작업을 수행 하는 데 도움이 되는 광범위 한 기능을가지고 있으며, 사용을 관리 하는 데 도움을 줍니다. 팀 인증 전화에서 사용할 수 있는 기능에 대 한 요약은 다음과 같습니다.
 
 - **인증** 전화는 로그인을 단순화 하 고 보안을 강화 하기 위해 최신 인증을 사용 합니다. 사용자는 휴대폰에 사용자 이름 및 암호를 입력 하거나 PC/스마트폰 같은 다른 장치에서 로그인 하 여 로그인 할 수 있습니다.
@@ -52,38 +53,27 @@ Microsoft 팀은 일반 전화 환경을 필요로 하는 사용자를 위한 �
 
 ## <a name="required-licenses"></a>필수 라이선스
 
-Microsoft 팀 라이선스는 [microsoft 365 및 Office 365 구독의](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)일부로 구매할 수 있습니다. 휴대폰에서 Microsoft 팀을 사용 하는 데 필요한 라이선스에 대해 자세히 알아보려면 사용 가능한 [전화 시스템 라이선스](https://products.office.com/microsoft-teams/voice-calling)를 참조 하세요.
+팀 라이선스는 [Microsoft 365 및 Office 365 구독의](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)일부로 구매할 수 있습니다. 휴대폰에서 팀을 사용 하는 데 필요한 라이선스에 대해 자세히 알아보려면 사용 가능한 [전화 시스템 라이선스](https://products.office.com/microsoft-teams/voice-calling)를 참조 하세요.
 
 팀을 가져오는 방법에 대 한 자세한 내용은 [Microsoft 팀에 대 한 액세스 권한을 얻는 방법](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 확인을 참조 하세요.
 
-## <a name="deploy-your-phones-via-intune"></a>Intune을 통해 휴대폰 배포
+## <a name="deploy-your-phones-using-intune"></a>Intune을 사용 하 여 전화 배포
 
-### <a name="conditional-access"></a>조건부 액세스
-
-조건부 액세스는 Office 365 리소스에 액세스 하는 디바이스가 제대로 관리 되 고 안전한 지 확인 하는 데 도움이 되는 Azure Active Directory 기능입니다.  팀 서비스에 조건부 액세스 정책을 적용 한 경우에는 팀에 액세스 하는 Android 장치 (팀 전화 포함)가 Intune에 등록 되어 있어야 하 고 해당 설정이 정책을 준수 해야 합니다.  장치가 Intune에 등록 되지 않았거나 등록 되어 있지만 해당 설정이 정책에 맞지 않는 경우에는 조건부 액세스를 통해 사용자가 장치에서 팀 앱을 로그인 하거나 사용할 수 없습니다.
-
-일반적으로 Intune 내에서 정의 된 규정 준수 정책은 사용자 그룹에 게 할당 됩니다.  즉, Android 준수 정책을 user@contoso.com에 할당 하면 해당 정책은 Android smartphone 및 user@contoso.com 로그인 하는 모든 Android 기반 팀 장치에 동일 하 게 적용 됩니다.
-
-사용자의 조직에 Intune 등록이 적용 되어야 하는 조건부 액세스를 사용 하는 경우에는 성공적으로 Intune을 등록할 수 있도록 설정 해야 하는 몇 가지 사항이 있습니다.
-
-- **Intune 라이선스** Microsoft 팀 전화에 로그인 하는 사용자는 Intune에 대 한 사용 권한이 있어야 합니다.  Microsoft 팀 전화가 유효한 Intune 라이선스가 있는 사용자 계정에 로그인 한 경우 로그인 프로세스의 일부로 자동으로 Microsoft Intune에 전화가 등록 됩니다.
-- **Intune 구성** Android 장치 관리자 등록에 대해 올바르게 구성 된 Intune 테 넌 트가 설정 되어 있어야 합니다.
-
-### <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Intune에서 팀으로 등록 Android 기반 장치 구성
-
-팀 Android 기반 장치는 DA (Android 장치 관리자) 관리를 통해 Intune에서 관리 합니다. Intune에 장치를 등록할 수 있으려면 먼저 몇 가지 기본 단계를 수행 해야 합니다.  현재 Intune을 사용 하 여 이미 장치를 관리 하 고 있는 경우 이러한 모든 작업을 이미 수행 했을 수 있습니다.  그렇지 않은 경우 수행할 작업은 다음과 같습니다.
-
-1. Intune MDM (모바일 디바이스 관리) 인증 기관 설정.  아직 Intune을 사용 하지 않은 경우 디바이스를 등록 하기 전에 MDM 기관을 설정 해야 합니다. 자세한 내용은 [모바일 장치 관리 기관 설정을](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set)참조 하세요.  이것은 새 Intune 테 넌 트를 만들 때 수행 해야 하는 일회성 단계입니다.
-2. Android 장치 관리자 등록을 사용 하도록 설정 합니다. Android 기반 팀 디바이스는 Intune을 사용 하 여 디바이스 관리자 장치로 관리 됩니다.  새로 만든 테 넌 트에 대 한 장치 관리자 등록은 기본적으로 해제 되어 있습니다.  자세한 내용은 [Android 장치 관리자 등록](https://docs.microsoft.com/intune/enrollment/android-enroll-device-administrator)을 참조 하세요.
-3. 사용자에 게 라이선스를 할당 합니다. Intune을 등록 하는 팀 디바이스의 사용자에 게 유효한 Intune 라이선스를 할당 해야 합니다. 자세한 내용은 [Intune에서 장치를 등록할 수 있도록 사용자에 게 라이선스 할당](https://docs.microsoft.com/intune/fundamentals/licenses-assign)을 참조 하세요.
-4. 장치 관리자 준수 정책을 할당 합니다.  Android 장치 관리자 준수 정책을 만들고 팀 디바이스에 로그인 할 사용자가 포함 된 Azure Active Directory 그룹에 할당 합니다. 자세한 내용은 [준수 정책을 사용 하 여 Intune을 사용 하 여 관리 하는 장치에 대 한 규칙 설정](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started)을 참조 하세요.
+Intune을 사용 하 여 팀 표시를 배포 하는 방법에 대 한 자세한 내용은 [팀 전화 및 팀 표시 배포](phones-displays-deploy.md)를 참조 하세요.
 
 ## <a name="manage-your-phones"></a>휴대폰 관리
 
-테 넌 트 관리자는 팀 관리 센터를 통해 모든 팀 디바이스를 최신 상태로 관리할 수 있습니다. 자세한 내용은 [Microsoft 팀에서 장치 관리](https://docs.microsoft.com/microsoftteams/devices/device-management)를 참조 하세요. 
+Microsoft 팀 관리 센터를 사용 하 여 팀 전화를 최신 상태로 유지 관리 합니다. 자세한 내용은 [팀에서 장치 관리](device-management.md)를 참조 하세요.
+
+## <a name="upgrade-your-phones-to-teams-displays"></a>휴대폰을 팀으로 업그레이드 표시
+
+[Microsoft 팀 표시](teams-displays.md) 는 앰비언트 터치 스크린이 기능 하 고 Cortana가 제공 하는 핸 즈 프리 환경을 제공 하는 올인원 전용 팀 디바이스 범주입니다. 팀 디스플레이를 통해 사용자는 마이크, 카메라, 스피커 (또는 블루투스 헤드셋)를 사용 하 여 안정적인 통화 및 모임 경험을 즐길 수 있습니다. 팀은 사용자의 Windows Pc와 통합 되어 원활한 교차 장치 상호 작용을 가능 하 게 하는 도우미 환경을 제공 합니다.
+
+조직의 팀 전화를 팀으로 업그레이드 하 여 Microsoft 팀 관리 센터에 표시할 수 있습니다. 이 옵션은 팀으로 업그레이드를 지 원하는 전화기 에서만 사용할 수 있습니다. 자세한 내용은 팀과 팀 [전화 업그레이드 표시](upgrade-phones-to-displays.md)를 참조 하세요.
 
 ## <a name="see-also"></a>참고 항목
 
 [팀 마켓플레이스](https://office.com/teamsdevices)
 
-[Microsoft 팀에 대해 인증 된 IP 전화](teams-ip-phones.md)
+[Microsoft Teams에서 인증 받은 IP 휴대폰](teams-ip-phones.md)
+

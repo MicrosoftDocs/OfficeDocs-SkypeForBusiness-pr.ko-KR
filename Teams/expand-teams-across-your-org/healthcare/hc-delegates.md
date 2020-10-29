@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: 자리 비움 상태 또는 방해 금지 상태의 사용자가 상태 메시지의 대리인으로 다른 사용자를 명시적으로 설정할 수 있는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904740"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790470"
 ---
 # <a name="message-delegation"></a>메시지 위임
 
@@ -45,7 +49,7 @@ ms.locfileid: "43904740"
 
 관리자는 상태 메모와 위임 멘 션 동작은 부분적으로 사용자의 공동 존재 모드에 따라 달라 지는 것을 인식 해야 합니다. 이 행렬은 다음의 가능성을 보여줍니다.
 
-|동시 존재 모드 | 예상 되는 동작|
+|Co-Existence 모드 | 예상 되는 동작|
 |---|---|
 |TeamsOnly |사용자는 팀에서 메모를 설정할 수 있습니다. <br> 팀 & SfB에서 사용자의 팀 메모를 볼 수 있습니다. |
 |아일랜드 | 팀에서 설정한 사용자의 메모는 팀 에서만 표시 됩니다. <br> SfB에서 설정한 사용자의 메모는 SfB에만 표시 됩니다. |

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 미디어 트래픽 경로를 줄이고 성능을 향상 시킬 수 있는 휴대폰 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 계획 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabbfd62ecc1a86d6e893d8d26ecdbe6cbbe7dbb
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: efd6d4275d1e83df7821f178ddac8027039b6fce
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469584"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790660"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -42,11 +42,11 @@ ms.locfileid: "48469584"
 
 사용자가 SBC와 같은 건물이 나 네트워크상에 있다고 가정 합니다. 예를 들어 Frankfurt에서 빌드하는 사용자가 PSTN 사용자에 게 전화를 거는 것으로 가정 합니다. 
 
-- **미디어를 우회 하지 않으면**미디어는 암스테르담 또는 더블린 (Microsoft 데이터 센터가 배포 된 위치)를 통해 FRANKFURT의 SBC로 다시 흐릅니다. 
+- **미디어를 우회 하지 않으면** 미디어는 암스테르담 또는 더블린 (Microsoft 데이터 센터가 배포 된 위치)를 통해 FRANKFURT의 SBC로 다시 흐릅니다. 
 
   이 SBC는 유럽에 있으며, Microsoft는 SBC에 가장 가까운 데이터 센터를 사용 하므로 유럽의 데이터 센터가 선택 됩니다. 이 접근 방식은 대부분의 지역에서 Microsoft 네트워크 내의 트래픽 흐름 최적화로 인해 통화 품질에 영향을 주지는 않지만 소통량이 불필요 한 루프를가지고 있습니다.     
 
-- **미디어 바이패스를 사용**하는 경우 미디어는 다음 다이어그램에 표시 된 대로 팀 사용자와 SBC 간에 직접 유지 됩니다.
+- **미디어 바이패스를 사용** 하는 경우 미디어는 다음 다이어그램에 표시 된 대로 팀 사용자와 SBC 간에 직접 유지 됩니다.
 
   > [!div class="mx-imgBorder"]
   > ![미디어 우회를 사용 하 여 신호 및 미디어 흐름 표시](media/direct-routing-media-bypass-2.png)
@@ -193,7 +193,7 @@ SIP 신호를 위해 FQDN 및 방화벽 요구 사항은 무시할 수 없는 �
 - 일시적인 문제가 발생 하는 데이터 센터에 SBC의 연결이 설정 된 경우 장애 조치를 제공 합니다. 자세한 내용은 아래의 장애 조치 메커니즘을 참조 하세요.
 
 
-Fqdn **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**및 **sip3.pstnhub.microsoft.com** 는 다음 IP 주소 중 하나로 확인 됩니다.
+Fqdn **sip.pstnhub.microsoft.com** , **sip2.pstnhub.microsoft.com** 및 **sip3.pstnhub.microsoft.com** 는 다음 IP 주소 중 하나로 확인 됩니다.
 - 52.114.148.0
 - 52.114.132.46
 - 52.114.16.74
@@ -352,7 +352,7 @@ UDP/SRTP | 미디어 프로세서 | 하더라도 | 3478, 3479, 49 152-53 247    
 비 미디어 우회 트렁크를 사용 하는 사용자 | 980 | sbc1.contoso.com:5060 | false
 미디어를 우회 하는 사용자 | 명 | sbc2.contoso.com:5061 | 해제 | 
 
-두 trunks 모두 동일한 공용 IP 주소를 사용 하 여 동일한 SBC를 가리킬 수 있습니다. SBC의 TLS 신호 포트는 다음 다이어그램에 표시 된 것과 같이 달라 야 합니다. 참고 인증서가 두 trunks를 모두 지원 하는지 확인 해야 합니다. SAN에는 두 개의 이름 (**sbc1.contoso.com** 및 **sbc2.contoso.com**)이 있거나 와일드 카드 인증서가 있어야 합니다.
+두 trunks 모두 동일한 공용 IP 주소를 사용 하 여 동일한 SBC를 가리킬 수 있습니다. SBC의 TLS 신호 포트는 다음 다이어그램에 표시 된 것과 같이 달라 야 합니다. 참고 인증서가 두 trunks를 모두 지원 하는지 확인 해야 합니다. SAN에는 두 개의 이름 ( **sbc1.contoso.com** 및 **sbc2.contoso.com** )이 있거나 와일드 카드 인증서가 있어야 합니다.
 
 > [!div class="mx-imgBorder"]
 > ![두 trunks 모두 동일한 공용 IP를 사용 하 여 동일한 SBC를 가리킬 수 있는지 표시 합니다.](media/direct-routing-media-bypass-7.png)
@@ -366,9 +366,9 @@ UDP/SRTP | 미디어 프로세서 | 하더라도 | 3478, 3479, 49 152-53 247    
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>미디어 바이패스에서 지원 되는 클라이언트 끝점
 
-미디어 바이패스는 모든 팀 데스크톱 클라이언트 및 팀 전화 장치에서 지원 됩니다. 
+미디어 바이패스는 모든 독립 실행형 팀 데스크톱 클라이언트, Android 및 iOS 클라이언트 및 팀 전화 장치에서 지원 됩니다. 
 
-미디어 바이패스를 지원 하지 않는 다른 모든 끝점의 경우 건너뛰기 호출로 시작 된 경우에도 통화가 비 바이패스로 변환 됩니다. 이는 자동으로 수행 되며 관리자의 작업이 필요 하지 않습니다. 여기에는 비즈니스용 Skype 3PIP 휴대폰 및 다이렉트 라우팅 통화를 지 원하는 팀 웹 클라이언트 (Chromium, Google Chrome을 기반으로 하는 새로운 Microsoft Edge)가 포함 됩니다. 
+미디어 바이패스를 지원 하지 않는 다른 모든 끝점의 경우 건너뛰기 호출로 시작 된 경우에도 통화가 비 바이패스로 변환 됩니다. 이는 자동으로 수행 되며 관리자의 작업이 필요 하지 않습니다. 여기에는 비즈니스용 Skype 3PIP 휴대폰 및 다이렉트 라우팅 호출을 지 원하는 팀 웹 클라이언트 (Microsoft Edge, Google Chrome에서 실행 되는 WebRTC 기반 클라이언트)가 포함 됩니다. 
  
 ## <a name="see-also"></a>참고 항목
 

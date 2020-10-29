@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: dd1a94ab587b21fce5a455300826632ffd508042
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ee63c3d49a8c4b4bf047f0df3910bec39a4d5541
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581539"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790420"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 ======================================================
@@ -34,7 +34,7 @@ ms.locfileid: "46581539"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>새로운 Microsoft 팀 관리 센터 소개  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>새로운 Microsoft 팀 관리 센터 소개  
 
 새로운 관리 센터 환경은 팀과 비즈니스용 Skype를 모두 관리할 수 있는 통일 된 환경을 제공 합니다. 추가 기능, 종단 간 insights, 사용자 수준에서 팀 설정을 관리 하는 기능을 제공 하는 것입니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "46581539"
 |전자 메일 통합     |보낸 사람 목록 허용         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |테 넌 트         |
 |사용자 지정 클라우드 저장소     |확인란이         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자 지정 클라우드 저장소     |상자        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
-|사용자 지정 클라우드 저장소     |Egnyte (출시 예정)        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
+|사용자 지정 클라우드 저장소     |Egnyte        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자 지정 클라우드 저장소     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자 지정 클라우드 저장소     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자/라이선스 유형별 설정     |모든 사용자에 대해 Microsoft 팀 설정 또는 해제          |사용 되지 않음<sup>1</sup>        |         |

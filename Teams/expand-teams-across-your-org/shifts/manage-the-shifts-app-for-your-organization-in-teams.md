@@ -8,6 +8,9 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 description: 조직의 Firstline Worker 용 팀에서 교대 근무 앱을 설정 하 고 관리 하는 방법에 대해 알아봅니다.
 f1.keywords:
 - NOCSH
@@ -15,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 405c918dfe71fce02ab19f3ccf49cc124877da41
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: d89ca8938c80b2afb8c1b32a395ab4a984327dcc
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820472"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790510"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 교대 근무 앱 관리
 
@@ -56,11 +60,11 @@ Microsoft 팀의 교대 근무 앱은 Firstline Worker를 연결 된 상태로 �
 
 이동은 조직의 모든 팀 사용자에 대해 기본적으로 사용 하도록 설정 됩니다. Microsoft 팀 관리 센터에서 [앱 관리](../../manage-apps.md) 페이지의 조직 수준에서 앱을 끄거나 켤 수 있습니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱**으로  >  **앱 관리** 로 이동 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱** 으로  >  **앱 관리** 로 이동 합니다.
 2. 앱 목록에서 다음 중 하나를 수행 합니다.
 
-    - 조직의 이동 기능을 해제 하려면 교대 앱을 검색 하 여 선택한 다음 **차단을**클릭 합니다.
-    - 조직의 교대 근무를 설정 하려면 교대 앱을 검색 하 여 선택한 다음 **허용**을 클릭 합니다.
+    - 조직의 이동 기능을 해제 하려면 교대 앱을 검색 하 여 선택한 다음 **차단을** 클릭 합니다.
+    - 조직의 교대 근무를 설정 하려면 교대 앱을 검색 하 여 선택한 다음 **허용** 을 클릭 합니다.
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대 한 교대 근무 설정 또는 해제
 
@@ -72,7 +76,7 @@ Microsoft 팀의 교대 근무 앱은 Firstline Worker를 연결 된 상태로 �
  
 팀에는 조직의 Firstline Worker에 할당할 수 있는 기본 제공 FirstlineWorker 앱 설정 정책이 포함 됩니다. 기본적으로 정책에는 활동, 교대, 채팅 및 통화 앱이 포함 됩니다. 
 
-Firstlineworker 정책을 보려면 Microsoft 팀 관리 센터의 왼쪽 탐색에서 **팀 앱**  >  **앱 설치 정책**으로 이동 합니다.
+Firstlineworker 정책을 보려면 Microsoft 팀 관리 센터의 왼쪽 탐색에서 **팀 앱**  >  **앱 설치 정책** 으로 이동 합니다.
 
 ![FirstlineWorker 앱 설정 정책의 스크린샷](../../media/firstline-worker-app-setup-policy.png "Microsoft 팀 관리 센터의 FirstlineWorker 앱 설치 정책 스크린샷")
 

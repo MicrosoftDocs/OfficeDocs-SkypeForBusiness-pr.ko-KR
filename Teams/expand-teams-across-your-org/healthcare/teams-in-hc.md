@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 주의 조정, 보안 메시지, 가상 방문, EHR 통합,에서 일선 worker 시스템 통합을 포함 하는 상태 관리 기능에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772299"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790640"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>건강 조직의 팀 시작 하기
 
@@ -35,7 +39,14 @@ Microsoft 팀은 다음을 포함 하 여 병원 및 기타 의료 기관에 유
 - 팀 서식 파일
 - 세심 한 조정 및 공동 작업
 
-이 섹션의 콘텐츠는 조직에 이미 팀을 배포한 것으로 가정 합니다. 아직 팀을 롤아웃하기 않은 경우 먼저 [Microsoft 팀을 배포 하는 방법을](../../How-to-roll-out-teams.md)읽어 보세요.
+이 기능은 의료에 대 한 Microsoft 클라우드의 일부입니다. 이 솔루션을 사용 하 여 Azure, Dynamics 365, [의료의 Microsoft 클라우드에서](https://docs.microsoft.com/industry/healthcare)microsoft 365의 기능을 함께 제공 하는 방법에 대해 자세히 알아보세요.
+
+Microsoft 팀의 상태 팀 공동 작업을 향상 시키기 위해 의료 컬렉션을 사용 하는 방법에 대해 자세히 알아보려면 다음 비디오를 시청 하세요.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
+
+> [!NOTE]
+> 이 섹션의 콘텐츠는 조직에 이미 팀을 배포한 것으로 가정 합니다. 아직 팀을 롤아웃하기 않은 경우 먼저 [Microsoft 팀을 배포 하는 방법을](../../How-to-roll-out-teams.md)읽어 보세요.
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>가상 방문 및 전자 의료 기록 (EHR) 통합
 
@@ -65,13 +76,13 @@ Microsoft 팀의 complete meeting platform을 사용 하 여 환자으로 가상
 
 이러한 기능을 함께 사용 하면 긴급 메시지를 더욱 쉽게 확인 하 고 메시지를 받아서 읽음을 확신할 수 있습니다. 이러한 기능을 사용 하는 새로운 상태 팀은 환자 단위로 만들 수 있습니다. 이러한 기능은 정책 기반 이며, 개인 또는 전체 팀에 게 할당 될 수 있습니다.
 
-자세한 내용은 [의료 기관에 대 한 보안 메시징 정책 시작](messaging-policies-hc.md) 을 참조 하세요.
+자세한 내용은 [의료 기관에 대 한 보안 메시징 정책 시작](messaging-policies-hc.md)을 참조 하세요.
 
 보안 메시징과 관련 하 여 의료 기관에서 다른 테 넌 트를 페더레이션 하 여 더 다양 한 테 넌 트 간 통신을 허용 하는 기능도 있습니다. ( [Microsoft 팀에서 외부 액세스 (페더레이션) 관리](../../manage-external-access.md)를 참조 하세요.)
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>건강 보험 조직을 위한 팀 템플릿
 
-팀을 만들기 위한 새 템플릿이 병원 설정에 적용 되도록 개발 되었고 더 많은 내용이 곧 제공 될 예정입니다. 이를 통해 의료 근로자가 다양 한 부서나 wards의 환자을 조정 하는 데 사용 하는 팀을 쉽게 만들 수 있습니다. [의료 조직의 팀 서식 파일 시작을](healthcare-templates.md)참조 하세요. 팀은 cardiology 등의 내부 부서를 위해 시작 하거나 주의를 wards 하 고 더 많은 서식 파일을 개발할 수 있습니다.
+팀을 만들기 위한 새 템플릿이 병원 설정에 적용 되도록 개발 되었고 더 많은 내용이 곧 제공 될 예정입니다. 이를 통해 의료 근로자가 다양 한 부서나 wards의 환자을 조정 하는 데 사용 하는 팀을 쉽게 만들 수 있습니다. 자세한 내용은 [의료 조직의 팀 서식 파일 시작](healthcare-templates.md)을 참조 하세요. 팀은 cardiology 등의 내부 부서를 위해 시작 하거나 주의를 wards 하 고 더 많은 서식 파일을 개발할 수 있습니다.
 
 ## <a name="care-coordination-and-collaboration"></a>세심 한 조정 및 공동 작업
 

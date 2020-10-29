@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft 팀 분필 통신
-summary: IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에서 가장 인기 있고 멋진 시나리오를 중심으로 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 제공 합니다. 등록할 워크숍 타이틀을 클릭 합니다.
+summary: IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에서 가장 인기 있고 멋진 시나리오를 중심으로 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 제공 합니다.
 brand: teams
 metadata:
   title: Microsoft 팀 분필 통신
-  description: IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에서 가장 인기 있고 멋진 시나리오를 중심으로 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 제공 합니다. 이러한 온라인 대화형 워크샵은 실무 전문가의 촉진를 통해 팀 구현을 개선 하 고 최종 사용자에 게 추가 가치를 제공할 수 있는 정보를 제공 합니다. 사용 가능한 날짜와 시간을 보려면 아래 워크숍 제목을 클릭 하 고 지금 등록 하세요! 등록할 워크숍 타이틀을 클릭 합니다.
+  description: IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에서 가장 인기 있고 멋진 시나리오를 중심으로 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 제공 합니다. 이러한 온라인 대화형 워크샵은 실무 전문가의 촉진를 통해 팀 구현을 개선 하 고 최종 사용자에 게 추가 가치를 제공할 수 있는 정보를 제공 합니다. 사용 가능한 날짜와 시간을 보려면 아래 워크숍 제목을 클릭 하 고 지금 등록 하세요!
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,18 +25,15 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
+  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583467"
+  ms.lasthandoff: 10/28/2020
+  ms.locfileid: "48790600"
 productDirectory:
+  summary: 등록할 워크숍 타이틀을 클릭 합니다.
   items:
-  - title: 팀에 게 가져오기--프로덕션에서의 제로
-    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
-    summary: 개봉박두! 공동 작업, 채팅, 모임에 대 한 팀 구현을 시작 합니다. 여기서는 주요 구성, 고려 사항, 모범 사례, 리소스를 공유 하 여 사용자 들이 신속 하 게 실행 되도록 합니다.
-    url: http://aka.ms/ChalkTalkGTT
   - title: 따라서 팀과 통화를 하 고 싶으신가요?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
     summary: 팀 배포에 PSTN 통화 기능을 추가 하는 방법에 대 한 자세한 내용을 확인 하세요. 여기서는 통화 용어, 주요 개념, 구성을 차례로 살펴보겠습니다.
@@ -45,18 +42,14 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
     summary: 사용자가 모임 및 음성 기능을 사용 하 여 최적의 환경을 유지 하 고 싶으십니까? 서비스 품질을 관리 하는 데 도움이 되는 도구, 보고 및 모범 사례에 대해 설명 하 고 일반적인 문제 해결을 위한 사전 대처 전략을 세울 수 있습니다.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: 팀에서 앱을 사용 하 여 더 많은 작업 수행
+  - title: 팀 기본의 앱
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
     summary: 이 기본 세션은 앱 관리 및 보안을 비롯 한 기본적인 기능을 다룹니다. 매일 사용 하는 워크플로, 생산성 앱 및 서비스를 하나의 통일 된 환경에 통합 하는 방법에 대해 알아봅니다.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: 팀을 사용 하 여 IT 워크플로 자동화
+  - title: 팀에서 앱을 사용 하 여 주요 워크플로 재미 있는
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: 개봉박두! 팀에서 사용할 수 있는 앱을 사용 하 여 IT 프로세스를 자동화 합니다. 팀에서 시간을 절약 하 고 중요 한 사항에 집중할 수 있도록 헬프데스크 및 지식 공유와 같은 일반적인 시나리오에 대해 설명 합니다.
-    url: https://aka.ms/ChalkTalkAutoIT
-  - title: 팀에서 Firstline Worker 참여를 사용 하도록 설정 하는 방법
-    imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
-    summary: Firstline 인력의 디지털 작업 영역 사용을 시작할 준비가 되셨습니까? 또한 커뮤니케이션, 직원 참여, 생산성 향상을 위한 파일럿 시작을 위한 모범 사례에 대해 설명 합니다.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+    summary: 시스템을 연결 하 고 자동화를 높이고 조직에서 팀에 의존 하는 앱을 가져와 사용자에 게 향상 된 환경을 제공 합니다.
+    url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:

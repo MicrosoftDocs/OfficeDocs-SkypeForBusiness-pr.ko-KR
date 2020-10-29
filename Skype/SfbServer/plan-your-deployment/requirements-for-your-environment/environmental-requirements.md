@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '요약: 비즈니스용 Skype 서버 2015에 대 한 서버가 아닌 요구 사항을 구성 합니다. Active Directory, DNS, 인증서 및 Fileshares를 포함 하 여 배포를 수행 하기 전에 구성 해야 할 여러 가지 사항이 있습니다.'
-ms.openlocfilehash: d552c0c2c6b9f129b6dcf08e927634c6e3bdde6e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 00b7828cfc06dd9d0ea1d7097580c9c25317e95a
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220878"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790290"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 대 한 환경 요구 사항
  
 **요약:** 비즈니스용 Skype 서버 2015에 대 한 비 서버 요구 사항을 구성 합니다. Active Directory, DNS, 인증서 및 Fileshares를 포함 하 여 배포를 수행 하기 전에 구성 해야 할 여러 가지 사항이 있습니다.
   
-비즈니스용 Skype 서버 2015에 대 한 환경 요구 사항은 무엇 인가요? 이 항목에 직접적으로 서버와 관련 되지 않은 모든 항목을 직접 입력 해야 하므로 클릭을 많이 할 필요가 없습니다. 서버 필수 구성 요소를 찾고 있다면 [비즈니스용 Skype 서버 2015 문서에 대 한 서버 요구 사항을](server-requirements.md) 확인할 수[있습니다.](../../plan-your-deployment/network-requirements/network-requirements.md) 그렇지 않으면이 문서에서 설명 하는 내용입니다.
+비즈니스용 Skype 서버 2015에 대 한 환경 요구 사항은 무엇 인가요? 이 항목에 직접적으로 서버와 관련 되지 않은 모든 항목을 직접 입력 해야 하므로 클릭을 많이 할 필요가 없습니다. 서버 필수 구성 요소를 찾고 있다면 [비즈니스용 Skype 서버 2015 문서에 대 한 서버 요구 사항을](server-requirements.md) 확인할 수 [있습니다.](../../plan-your-deployment/network-requirements/network-requirements.md) 그렇지 않으면이 문서에서 설명 하는 내용입니다.
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -225,7 +225,7 @@ Single sign-on 인증은 사용자 포리스트에 있는 Active Directory Feder
     
 - 서버 간의 MTLS 연결
     
-- 파트너의 자동 DNS 검색에서의 페더레이션 us
+- 파트너의 자동 DNS 검색을 사용한 페더레이션
     
 - IM(인스턴트 메시징)에 대한 원격 사용자 액세스
     
@@ -282,11 +282,11 @@ Standard Edition 서버에 대 한 인증서:
   
 |**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
-|기본  <br/> |풀의 FQDN  <br/> |풀의 FQDN 및 서버의 FQDN  <br/> SIP 도메인이 여러 개 있고 자동 클라이언트 구성을 활성화한 경우 인증서 마법사는 지원되는 각 SIP 도메인 FQDN을 검색하고 추가합니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS(Domain Name System) 일치가 필요한 경우에는 각 SIP 도메인에 sip.sipdomain에 대한 항목도 필요합니다.  <br/> |SN = se01; SAN = se01  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |Standard Edition servers Standard Edition server에서는 서버 FQDN이 풀 FQDN과 동일 합니다.  <br/> 이 마법사는 설치 시 지정한 SIP 도메인을 검색한 다음 주체 대체 이름에 자동으로 추가합니다.  <br/> 서버 간 인증에도이 인증서를 사용할 수 있습니다.  <br/> |
+|기본  <br/> |풀의 FQDN  <br/> |풀의 FQDN 및 서버의 FQDN  <br/> SIP 도메인이 여러 개 있고 자동 클라이언트 구성을 활성화한 경우 인증서 마법사는 지원되는 각 SIP 도메인 FQDN을 검색하고 추가합니다.  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS(Domain Name System) 일치가 필요한 경우에는 각 SIP 도메인에 sip.sipdomain에 대한 항목도 필요합니다.  <br/> |SN = se01; SAN = se01  <br/> 이 풀이 클라이언트의 자동 로그온 서버이고 그룹 정책에 엄격한 DNS 일치가 필요한 경우 SAN=sip.contoso.com, SAN=sip.fabrikam.com도 필요합니다.  <br/> |Standard Edition Server에서는 서버 FQDN이 풀 FQDN과 같습니다.  <br/> 마법사는 설치 시 지정한 SIP 도메인을 검색 하 고 주체 대체 이름으로 자동 추가 합니다.  <br/> 서버 간 인증에도이 인증서를 사용할 수 있습니다.  <br/> |
 |웹 내부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 내부 웹 FQDN (서버의 FQDN과 같음)  <br/> 그리고  <br/> • 단순 Url 충족  <br/> • 전화 접속 단순 URL  <br/> • 관리자 단순 URL  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = se01; SAN = se01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 .com; SAN = 관리자. contoso.  <br/> 와일드카드 인증서 사용:  <br/> SN = se01; SAN = se01; SAN = \* contoso.com  <br/> |토폴로지 작성기에서는 내부 웹 FQDN을 재정의할 수 없습니다.  <br/> 여러 개의 모임 단순 Url이 있는 경우 모든 작업을 San으로 포함 해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
 |웹 외부  <br/> |서버의 FQDN  <br/> |각각 다음과 같습니다.  <br/> • 외부 웹 FQDN  <br/> 그리고  <br/> • 전화 접속 단순 URL  <br/> • SIP 도메인당 단순 Url을 만족 합니다.  <br/> 또는  <br/> • 단순 Url에 대 한 와일드 카드 항목  <br/> |SN = se01; SAN = webcon01; SAN = contoso. SAN = fabrikam에 해당 합니다. SAN = 전화 접속 contoso .com  <br/> 와일드카드 인증서 사용:  <br/> SN = se01; SAN = webcon01; SAN = \* contoso.com  <br/> |여러 개의 모임 단순 Url이 있는 경우 모든 항목을 주체 대체 이름으로 포함 해야 합니다.  <br/> 와일드카드 항목은 단순 URL 항목에 대해 지원됩니다.  <br/> |
    
-프런트 엔드 풀의 프런트 엔드 서버에 대 한 인증서:
+Enterprise Edition 프런트 엔드 풀의 프런트 엔드 서버에 대 한 인증서:
   
 |**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -312,7 +312,7 @@ Sba (survivable Branch 기기에 대 한 인증서:
   
 |**인증서**|**주체 이름/일반 이름**|**주체 대체 이름**|**예**|
 |:-----|:-----|:-----|:-----|
-|기본  <br/> |SBA의 FQDN  <br/> |SIP. \< microsoft.rtc.management.xds.sipdomain object \> (SIP 도메인 당 항목이 하나만 필요 합니다.)  <br/> |SN = sba01; SAN = sip .com; SAN = sip. p m c  <br/> |
+|기본  <br/> |SBA의 FQDN  <br/> |호흡.\<sipdomain\> (SIP 도메인 당 항목이 하나만 필요 합니다.)  <br/> |SN = sba01; SAN = sip .com; SAN = sip. p m c  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>영구 채팅 서버용 인증서
 
@@ -338,7 +338,7 @@ Sba (survivable Branch 기기에 대 한 인증서:
     
 아래 표에는 구체적인 정보가 나와 있습니다.
   
-이제는 약간의 사전 계획이 양호 하지만, 모바일 기능을 배포 하기 위한 의도 없이 비즈니스용 Skype 서버 2015을 배포 했 고, 환경에 이미 인증서가 있는 경우 해당 줄을 아래쪽에 배치 했을 수도 있습니다. 내부 CA를 통해이를 다시 발급 하는 것은 일반적으로 아주 간단 하지만 공용 CA의 공용 인증서를 사용 하는 경우에는 좀 더 pricy 될 수 있습니다.
+이제는 약간의 사전 계획이 양호 하지만, 모바일 기능을 배포 하기 위한 의도 없이 비즈니스용 Skype 서버 2015을 배포 했 고, 환경에 이미 인증서가 있는 경우 해당 줄을 아래쪽에 배치 했을 수도 있습니다. 내부 CA를 통해이를 다시 발급 하는 것은 일반적으로 아주 간단 하지만 공용 CA의 공용 인증서를 사용 하는 것이 훨씬 더 저렴 합니다.
   
 이 작업의 결과를 확인 하 고 있으며 SAN을 더 많이 추가 하는 SIP 도메인이 많은 경우에는 HTTPS (기본 구성)를 사용 하는 대신 초기 자동 검색 서비스 요청에 대해 HTTP를 사용 하도록 역방향 프록시를 구성할 수 있습니다. 모바일 기능 계획 항목에는이에 대 한 자세한 정보가 포함 되어 있습니다.
   
@@ -346,16 +346,16 @@ Sba (survivable Branch 기기에 대 한 인증서:
   
 |**설명**|**SAN 항목**|
 |:-----|:-----|
-|내부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscoverinternal. \< microsoft.rtc.management.xds.sipdomain object\>  <br/> |
-|외부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscover \< microsoft.rtc.management.xds.sipdomain object\>  <br/> |
+|내부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscoverinternal.\<sipdomain\>  <br/> |
+|외부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscover\<sipdomain\>  <br/> |
    
-또는 SAN =를 사용할 수 있습니다 \* . \< microsoft.rtc.management.xds.sipdomain object\>
+또는 SAN =를 사용할 수 있습니다 \* .\<sipdomain\>
   
 역방향 프록시 (공용 CA) 인증서 요구 사항:
   
 |**설명**|**SAN 항목**|
 |:-----|:-----|
-|외부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscover \< microsoft.rtc.management.xds.sipdomain object\>  <br/> |
+|외부 자동 검색 서비스 URL  <br/> |SAN = lyncdiscover\<sipdomain\>  <br/> |
    
 이 SAN은 역방향 프록시의 SSL 수신기에 할당 된 인증서에 할당 해야 합니다.
   
