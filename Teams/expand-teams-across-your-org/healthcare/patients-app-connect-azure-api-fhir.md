@@ -18,17 +18,19 @@ appliesto:
 ms.reviewer: anach
 description: Microsoft 팀의 환자 앱을 Azure API에 연결 하는 방법 (신속한 의료 상호 운용성 리소스)에 대해 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e3ff2f42953d59d1eecbc96179759f2ad9024f82
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: 29447791a8ba169bfc50173b249b3f8b987c7a17
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772259"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803556"
 ---
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>환자 앱을 FHIR용 Azure API에 연결
 
 > [!NOTE]
-> 2020 년 10 월 30 일에 효력을 환자 앱이 만료 되어 팀의 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 으로 대체 되었습니다. 목록을 사용 하는 경우 의료 기관에서 팀은 팀 모임에서 일반 환자 모니터링과의 interdisciplinary에 이르기까지 시나리오에 대 한 환자 목록을 만들 수 있습니다. 목록에서 환자 서식 파일을 확인 하 여 시작 하세요. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 관리 앱](../../manage-lists-app.md) 을 참조 하세요.
+> 2020 년 10 월 30 일에 효력을 환자 앱이 만료 되어 팀의 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 으로 대체 되었습니다. 환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱과 연결 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
+>
+>목록을 사용 하는 경우 의료 기관에서 팀은 팀 모임에서 일반 환자 모니터링과의 interdisciplinary에 이르기까지 시나리오에 대 한 환자 목록을 만들 수 있습니다. 목록에서 환자 서식 파일을 확인 하 여 시작 하세요. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 다음 단계에 따라 Microsoft 팀의 환자 앱이 FTO r 인스턴스에 대 한 Azure API에 액세스할 수 있도록 허용 합니다. 이 문서에서는 테 넌 트에 [FTO r 인스턴스를](https://azure.microsoft.com/services/azure-api-for-fhir/) 설정 하 고 구성 하는 Azure API를 사용 하 고 있다고 가정 합니다.  테 넌 트에 FTO r 인스턴스에 대 한 Azure API를 아직 만들지 않은 경우 [빠른 시작: azure 포털을 사용 하 여 AZURE Api 배포](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart)를 참조 하세요.
 

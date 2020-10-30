@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 6c84caf7bd2307d290887ef9206f16625a25c996
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1a78acd180527f87eaa4647f722a827c62077a4a
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506325"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803472"
 ---
 # <a name="teams-for-education"></a>교육용 Teams
 
@@ -35,6 +35,7 @@ ms.locfileid: "48506325"
 | ------------- | ------------- |
 | ![화살표-오른쪽-2-팀](../media/arrow-right-2-teams.svg)  |  [빠른 시작 - 교육용 Teams 관리](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
 | ![팀 등록](../media/sign-up-teams.svg) | [교육용 Teams의 과제](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
+| ![정보 활용-팀](../media/insights-teams.svg) | [교육용 팀의 통찰](https://docs.microsoft.com/microsoftteams/class-insights) |
 | ![toolbox](../media/toolbox.svg)  |  [교육 관리자 용 팀 리소스](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
 | ![작업-검사 목록-계획-팀](../media/task-checklist-planning-teams.svg)  |  [교육 관리자 용 팀에 대 한 관리 FAQ](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
 

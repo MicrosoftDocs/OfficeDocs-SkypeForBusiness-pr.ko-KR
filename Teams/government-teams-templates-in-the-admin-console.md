@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 993cabc7139edeb971f60f1cdf44428fb4083db9
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 513b83fdab26d73b42bed692b5ea887629fc1851
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655515"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800631"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>관리 센터에서 팀 정부 서식 파일 사용
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 

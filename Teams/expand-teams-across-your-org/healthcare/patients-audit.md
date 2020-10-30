@@ -16,17 +16,19 @@ ms.collection:
 ms.reviewer: anach
 description: 팀 용 환자 앱 감사에 대 한 자세한 정보 관리자
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 042d3308e70f2b6275360dfd0137bdc9ed94b7c8
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: ce1851b6d424203f6a4aed8a871209e3a65ce5f8
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772279"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803516"
 ---
 # <a name="audit-logs-for-patients-app"></a>환자 앱에 대한 감사 로그
 
 > [!NOTE]
-> 2020 년 10 월 30 일에 효력을 환자 앱이 만료 되어 팀의 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 으로 대체 되었습니다. 목록을 사용 하는 경우 의료 기관에서 팀은 팀 모임에서 일반 환자 모니터링과의 interdisciplinary에 이르기까지 시나리오에 대 한 환자 목록을 만들 수 있습니다. 목록에서 환자 서식 파일을 확인 하 여 시작 하세요. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
+> 2020 년 10 월 30 일에 효력을 환자 앱이 만료 되어 팀의 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 으로 대체 되었습니다. 환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱과 연결 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
+>
+>목록을 사용 하는 경우 의료 기관에서 팀은 팀 모임에서 일반 환자 모니터링과의 interdisciplinary에 이르기까지 시나리오에 대 한 환자 목록을 만들 수 있습니다. 목록에서 환자 서식 파일을 확인 하 여 시작 하세요. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
 
 환자 앱에 대 한 감사 로그 작업은 사고에 대 한 응답 팀이 환자의 전자식 의료 기록 (EMR) 또는 환자 보험 정보 (화이)에 대 한 변경 내용을 검토 하 고 생산성 도구에서 사용 하지 않는 경우에 대 한 정책 또는 절차의 변경 또는 개선 사항이 필요한 지 여부를 결정할 수 있도록 합니다. 감사 로그 이벤트는 환자 앱 사용자 인터페이스를 통해 수행 되는 작업을 다룹니다.
 

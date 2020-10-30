@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea0e8e517a63fb23cecca71230174bd55ff328ee
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 9013bda2f83a63776dfbf9110a0863dcf68c0ddb
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424618"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800601"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>관리 센터에서 팀 제조 서식 파일 사용
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 

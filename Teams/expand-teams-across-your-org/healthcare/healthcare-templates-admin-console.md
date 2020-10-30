@@ -22,22 +22,20 @@ appliesto:
 ms.reviewer: ''
 description: 관리 센터에서 Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 서식 파일, 채널 및 앱 템플릿을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 102c9db47ba9a79acf64338d2fab0cb1ddc49392
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790430"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800671"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>관리 센터에서 팀 의료 템플릿 사용
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 
 건강 보험 조직의 경우, 사용자가 팀을 효과적으로 활용 하는 방법에 대 한 구조를 제공 하는 것 처럼 서식 파일을 사용 하는 것이 특히 좋을 수 있습니다. 또한 서식 파일을 사용 하면 관리자가 조직 간에 일관 된 팀을 배포할 수 있습니다. 이 문서는 의료 기관에서 여러 팀을 계획, 배포 및 관리 해야 하는 경우에 적합 합니다.
 
-현재 다양 한 상황에 활용할 수 있는 제 1 자 건강 보험 템플릿을 제공 합니다. 팀 서식 파일에 대 한 일반적인 내용은 [관리 센터에서 팀 서식 파일 시작](../../get-started-with-teams-templates-in-the-admin-console.md)을 참조 하세요.
+현재 다양 한 상황에 사용할 수 있는 제 2 자 건강 보험 템플릿을 제공 합니다. 팀 서식 파일에 대 한 일반적인 내용은 [관리 센터에서 팀 서식 파일 시작](../../get-started-with-teams-templates-in-the-admin-console.md)을 참조 하세요.
 
 ## <a name="collaborate-on-patient-care"></a>환자 관리에 대 한 공동 작업
 
