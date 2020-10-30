@@ -19,22 +19,23 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 6c84caf7bd2307d290887ef9206f16625a25c996
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1a78acd180527f87eaa4647f722a827c62077a4a
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506325"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803472"
 ---
-# <a name="teams-for-education"></a><span data-ttu-id="6898c-103">교육용 Teams</span><span class="sxs-lookup"><span data-stu-id="6898c-103">Teams for Education</span></span>
+# <a name="teams-for-education"></a><span data-ttu-id="dae99-103">교육용 Teams</span><span class="sxs-lookup"><span data-stu-id="dae99-103">Teams for Education</span></span>
 
-<span data-ttu-id="6898c-104">팀에서 교사와 교직원은 공동 강의실을 만들고, 전문 학습 커뮤니티에서 연결 하 고, 학생 및 교육자와 통신할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6898c-104">With Teams, educators and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and educators.</span></span> <span data-ttu-id="6898c-105">여기에서 관리 리소스를 사용 하 여 학교 또는 기관에서 팀을 성공적으로 배포, 채택 및 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6898c-105">Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution.</span></span> 
+<span data-ttu-id="dae99-104">팀에서 교사와 교직원은 공동 강의실을 만들고, 전문 학습 커뮤니티에서 연결 하 고, 학생 및 교육자와 통신할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dae99-104">With Teams, educators and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and educators.</span></span> <span data-ttu-id="dae99-105">여기에서 관리 리소스를 사용 하 여 학교 또는 기관에서 팀을 성공적으로 배포, 채택 및 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dae99-105">Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution.</span></span> 
 
 
 |               |               |
 | ------------- | ------------- |
-| ![화살표-오른쪽-2-팀](../media/arrow-right-2-teams.svg)  |  [<span data-ttu-id="6898c-107">빠른 시작 - 교육용 Teams 관리</span><span class="sxs-lookup"><span data-stu-id="6898c-107">Quick start - Teams for Education admins</span></span>](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
-| ![팀 등록](../media/sign-up-teams.svg) | [<span data-ttu-id="6898c-109">교육용 Teams의 과제</span><span class="sxs-lookup"><span data-stu-id="6898c-109">Assignments in Teams for Education</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
-| ![toolbox](../media/toolbox.svg)  |  [<span data-ttu-id="6898c-111">교육 관리자 용 팀 리소스</span><span class="sxs-lookup"><span data-stu-id="6898c-111">Resources for Teams for Education admins</span></span>](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
-| ![작업-검사 목록-계획-팀](../media/task-checklist-planning-teams.svg)  |  [<span data-ttu-id="6898c-113">교육 관리자 용 팀에 대 한 관리 FAQ</span><span class="sxs-lookup"><span data-stu-id="6898c-113">Governance FAQ for Teams for Education admins</span></span>](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
+| ![화살표-오른쪽-2-팀](../media/arrow-right-2-teams.svg)  |  [<span data-ttu-id="dae99-107">빠른 시작 - 교육용 Teams 관리</span><span class="sxs-lookup"><span data-stu-id="dae99-107">Quick start - Teams for Education admins</span></span>](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
+| ![팀 등록](../media/sign-up-teams.svg) | [<span data-ttu-id="dae99-109">교육용 Teams의 과제</span><span class="sxs-lookup"><span data-stu-id="dae99-109">Assignments in Teams for Education</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
+| ![정보 활용-팀](../media/insights-teams.svg) | [<span data-ttu-id="dae99-111">교육용 팀의 통찰</span><span class="sxs-lookup"><span data-stu-id="dae99-111">Insights in Teams for Education</span></span>](https://docs.microsoft.com/microsoftteams/class-insights) |
+| ![toolbox](../media/toolbox.svg)  |  [<span data-ttu-id="dae99-113">교육 관리자 용 팀 리소스</span><span class="sxs-lookup"><span data-stu-id="dae99-113">Resources for Teams for Education admins</span></span>](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
+| ![작업-검사 목록-계획-팀](../media/task-checklist-planning-teams.svg)  |  [<span data-ttu-id="dae99-115">교육 관리자 용 팀에 대 한 관리 FAQ</span><span class="sxs-lookup"><span data-stu-id="dae99-115">Governance FAQ for Teams for Education admins</span></span>](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
 
