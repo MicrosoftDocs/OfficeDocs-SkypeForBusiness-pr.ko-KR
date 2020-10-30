@@ -21,43 +21,43 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: d2e334269dd31b876dd18b62a9b61ae1b583c504
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739246"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790530"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 
 ## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 Teams 앱 설정
 
-[Microsoft Teams 관리 센터](https://admin.teams.microsoft.com)의 **Teams 앱**에서 조직의 앱을 관리합니다. 예를 들어, 조직 전체 또는 특정 Teams 사용자에게 사용할 수 있는 앱을 제어하는 정책을 설정하고, 사용자에게 가장 중요한 앱을 고정하여 Teams를 사용자 지정할 수 있습니다.
+[Microsoft Teams 관리 센터](https://admin.teams.microsoft.com)의 **Teams 앱** 에서 조직의 앱을 관리합니다. 예를 들어, 조직 전체 또는 특정 Teams 사용자에게 사용할 수 있는 앱을 제어하는 정책을 설정하고, 사용자에게 가장 중요한 앱을 고정하여 Teams를 사용자 지정할 수 있습니다.
 
 자세한 내용은 [Team에서 앱에 대한 관리 설정](admin-settings.md)을 참조하세요.  
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 Teams 조직 전체 설정
 
-Microsoft Teams 관리 센터에서 조직 전체 사용자 설정을 제어할 수 있습니다. 조직 전체 설정을 편집하려면 Microsoft Teams 관리 센터로 이동한 후 **조직 전체 설정**을 선택합니다. 다음과 같은 설정을 구성할 수 있습니다.
+Microsoft Teams 관리 센터에서 조직 전체 사용자 설정을 제어할 수 있습니다. 조직 전체 설정을 편집하려면 Microsoft Teams 관리 센터로 이동한 후 **조직 전체 설정** 을 선택합니다. 다음과 같은 설정을 구성할 수 있습니다.
 
 ### <a name="external-access"></a>외부 액세스
 
-**외부 액세스**를 사용하면 Teams와 비즈니스용 Skype 사용자가 조직 또는 도메인 외부의 사용자와 통신할 수 있습니다. 외부 액세스를 구성하려면 [Teams 사용자가 다른 Teams 조직의 사용자와 채팅하고 커뮤니케이션하도록 허용](let-your-teams-users-communicate-with-other-people.md)으로 이동합니다.
+**외부 액세스** 를 사용하면 Teams와 비즈니스용 Skype 사용자가 조직 또는 도메인 외부의 사용자와 통신할 수 있습니다. 외부 액세스를 구성하려면 [Teams 사용자가 다른 Teams 조직의 사용자와 채팅하고 커뮤니케이션하도록 허용](let-your-teams-users-communicate-with-other-people.md)으로 이동합니다.
 
 도메인을 추가하거나 차단하려면 다음을 수행합니다.
 
-1. **도메인 추가**를 선택합니다.
+1. **도메인 추가** 를 선택합니다.
 2. 도메인 추가 창에서 도메인 이름을 입력하고 스페이스바를 클릭하여 이름을 저장합니다.
-3. **허용됨** 또는 **차단됨**을 선택합니다.
-4. **완료**를 선택하여 변경 내용을 저장합니다. 
+3. **허용됨** 또는 **차단됨** 을 선택합니다.
+4. **완료** 를 선택하여 변경 내용을 저장합니다. 
 
 ### <a name="guest-access"></a>게스트 액세스
 
-Microsoft Teams의 **게스트 액세스**를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다. 비즈니스 또는 소비자 전자 메일 계정(Outlook, Gmail 등)이 있는 사용자는 팀 채팅, 모임 및 파일에 대한 모든 액세스 권한을 부여받아 Teams에서 게스트로 참여할 수 있습니다. 자세한 내용은 [Microsoft Team의 게스트 액세스](guest-access.md)를 참조하세요.
+Microsoft Teams의 **게스트 액세스** 를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다. 비즈니스 또는 소비자 전자 메일 계정(Outlook, Gmail 등)이 있는 사용자는 팀 채팅, 모임 및 파일에 대한 모든 액세스 권한을 부여받아 Teams에서 게스트로 참여할 수 있습니다. 자세한 내용은 [Microsoft Team의 게스트 액세스](guest-access.md)를 참조하세요.
 
 ### <a name="teams-settings"></a>Teams 설정
 
-**Teams 설정**에서 알림과 피드, 전자 메일 통합, 클라우드 저장소 옵션 및 디바이스를 포함하는 Teams의 기능을 설정할 수 있습니다.
+**Teams 설정** 에서 알림과 피드, 전자 메일 통합, 클라우드 저장소 옵션 및 디바이스를 포함하는 Teams의 기능을 설정할 수 있습니다.
 
 #### <a name="notifications-and-feeds"></a>알림 및 피드
 
@@ -69,13 +69,13 @@ Teams의 사용자 활동 피드에 제안된 피드를 표시할지 여부를 �
 
 #### <a name="email-integration"></a>전자 메일 통합
 
-사용자가 채널 전자 메일 주소를 사용하여 Teams의 채널에 전자 메일을 보낼 수 있도록 하려면 이 기능을 켭니다. 사용자는 자신이 소유한 팀에 속한 모든 채널에 대해 이 작업을 수행할 수 있습니다. 사용자는 Teams 구성원을 위해 커넥터 추가를 설정한 팀의 모든 채널로 전자 메일을 보낼 수도 있습니다. 전자 메일 통합을 설정하려면 **사용자가 채널 전자 메일 주소에 전자 메일을 보낼 수 있도록 허용**이 **켬**인지 확인합니다.
+사용자가 채널 전자 메일 주소를 사용하여 Teams의 채널에 전자 메일을 보낼 수 있도록 하려면 이 기능을 켭니다. 사용자는 자신이 소유한 팀에 속한 모든 채널에 대해 이 작업을 수행할 수 있습니다. 사용자는 Teams 구성원을 위해 커넥터 추가를 설정한 팀의 모든 채널로 전자 메일을 보낼 수도 있습니다. 전자 메일 통합을 설정하려면 **사용자가 채널 전자 메일 주소에 전자 메일을 보낼 수 있도록 허용** 이 **켬** 인지 확인합니다.
 
 #### <a name="files"></a>파일
 
 여기서 파일 공유 및 클라우드 파일 저장소 옵션을 켜거나 끌 수 있습니다.
 
-사용자는 Teams 채널과 채팅의 클라우드 저장소 서비스에서 파일을 업로드하고 공유할 수 있습니다. Teams의 클라우드 저장소 옵션에는 현재 Dropbox, Box, ShareFile, Google Drive및 Egnyte(곧 지원됨)가 포함됩니다. 조직에서 사용하려는 클라우드 저장소 공급자에 대한 스위치를 켭니다.
+사용자는 Teams 채널과 채팅의 클라우드 저장소 서비스에서 파일을 업로드하고 공유할 수 있습니다. Teams의 클라우드 저장소 옵션에는 현재 Dropbox, Box, ShareFile, Google Drive및 Egnyte가 포함됩니다. 조직에서 사용하려는 클라우드 저장소 공급자에 대한 스위치를 켭니다.
 
 #### <a name="organization"></a>조직
 
@@ -87,7 +87,7 @@ Teams의 사용자 활동 피드에 제안된 피드를 표시할지 여부를 �
 
 - **모임 콘텐츠에 액세스하기 위해 보조 인증 형식을 요구합니다.** - 콘텐츠 PIN을 입력할 때의 사용자의 액세스 수준을 선택합니다.
 - **콘텐츠 PIN 설정** – 사용자는 문서에 대한 무단 액세스를 방지하기 위해 이 PIN을 입력해야 합니다. 이렇게 하면 권한이 없는 사용자는 예정된 모임에 참석하거나 첨부 파일을 검색할 수 없습니다.
-- **리소스 계정은 메시지를 보낼 수 있습니다.** - Surface Hub 리소스 계정에서 메시지를 보낼 수 있도록 하려면 이 설정을 **켬**으로 지정합니다.
+- **리소스 계정은 메시지를 보낼 수 있습니다.** - Surface Hub 리소스 계정에서 메시지를 보낼 수 있도록 하려면 이 설정을 **켬** 으로 지정합니다.
 
 #### <a name="search-by-name"></a>이름으로 검색
 
@@ -96,7 +96,7 @@ Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 
 - 조직의 테넌트 내에 별도로 유지하려는 여러 회사가 있는 경우 
 - 학교에서 교사와 학생 간의 채팅을 제한하려고 하는 경우 
 
-범위 디렉터리 검색을 설정하려면 이 설정을 **켬**으로 전환합니다.
+범위 디렉터리 검색을 설정하려면 이 설정을 **켬** 으로 전환합니다.
 
 ### <a name="skype-for-business"></a>비즈니스용 Skype
 
@@ -110,10 +110,10 @@ Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 
 다음과 같은 공존 모드를 지정할 수 있습니다. 
 
 - **Teams 전용**
-- **Islands**(Teams와 비즈니스용 Skype의 공존)
+- **Islands** (Teams와 비즈니스용 Skype의 공존)
 - **비즈니스용 Skype 전용**
-- **Teams 공동 작업이 포함된 비즈니스용 Skype**(사용자는 비즈니스용 Skype로 채팅 및 통화를 받고 모임을 예약하지만 그룹 공동 작업을 위해 Teams를 사용함)
-- **Teams 공동 작업 및 모임이 포함된 비즈니스용 Skype**(사용자는 비즈니스용 Skype로 채팅 및 통화를 받지만, 그룹 공동 작업 및 모임 예약을 위해 Teams를 사용함)
+- **Teams 공동 작업이 포함된 비즈니스용 Skype** (사용자는 비즈니스용 Skype로 채팅 및 통화를 받고 모임을 예약하지만 그룹 공동 작업을 위해 Teams를 사용함)
+- **Teams 공동 작업 및 모임이 포함된 비즈니스용 Skype** (사용자는 비즈니스용 Skype로 채팅 및 통화를 받지만, 그룹 공동 작업 및 모임 예약을 위해 Teams를 사용함)
 
 선택하는 공존 모드는 수신 통화 및 채팅의 라우팅과 사용자가 채팅 및 통화를 시작하거나 모임을 예약하는 데 사용하는 앱을 결정합니다. 공존 모드에 대한 자세한 내용은 [Microsoft Teams와 비즈니스용 Skype의 공존 및 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md)로 이동하세요.
 
