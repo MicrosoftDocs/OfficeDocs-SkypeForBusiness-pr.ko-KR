@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 오스트레일리아에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: 5bfca9b286a264177437ca36569b943f945b6693
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8bb5d0cffc5cef59dd6a62f81973e6e96dae9fa9
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230646"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818768"
 ---
 # <a name="availability-in-australia"></a>오스트레일리아의 가용성
 
@@ -44,15 +44,15 @@ ms.locfileid: "44230646"
 |:-----|:-----|
 |음성 회의를 구매할 수 있나요?  <br/> |예  <br/> |
 |전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |아니요. [저희에 게 문의 하세요](mailto:ptnapac@microsoft.com). <br/> |
-|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |대화 가능  <br/> |
+|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |사용 가능  <br/> |
 
 ## <a name="phone-system"></a>전화 시스템
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |전화 시스템을 구매할 수 있나요?  <br/> |예  <br/> |
-|자동 전화 교환 <br/> |대화 가능  <br/> |
-|통화 큐  <br/> |대화 가능  <br/> |
+|자동 전화 교환 <br/> |사용 가능  <br/> |
+|통화 큐  <br/> |사용 가능  <br/> |
 |음성 메일  <br/> |사용 가능  <br/> |
 
 ## <a name="calling-plans"></a>통화 플랜
@@ -72,7 +72,7 @@ ms.locfileid: "44230646"
 
 2019 년 9 월 1 일부 터 테 넌 트가 오스트레일리아 외부에 있는 경우에는 오스트레일리아에 거주 하는 사용자에 대 한 통화 요금제를 구매할 수 있습니다. 이 기능은 다음 국가 및 지역에서 사용할 수 있습니다.
 
-|||
+|**기능**|**세부 정보**|
 |---------|---------|
 |아메리카    |미국 소수 외부 제도      |
 |APAC     |방글라데시, 부탄, 브루나이, 캄보디아, 홍콩, 인도네시아, Laos, 마카오, 말레이시아, 몰디브, 미얀마, 네팔, 필리핀, 싱가포르, 스리랑카, 태국, 동티모르-동티모르, 베트남|

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 팀 전화를 팀으로 업그레이드 하는 방법에 대 한 자세한 내용은 Microsoft 팀 관리 센터를 참고 하세요.
-ms.openlocfilehash: b1cb1e94092d833cdf80c3fa9b73e5180b66d063
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: e741374ceb377dfec2f7b8a78f0d67b8e5a70bd1
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787629"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816118"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>팀 전화를 팀에 게 업그레이드 표시
 
@@ -70,7 +70,13 @@ Lenovo ThinkSmart View 장치를 팀 표시로 업그레이드할 수 있습니�
 
 ## <a name="known-issues"></a>알려진 문제
 
-팀 디스플레이에 대 한 어두운 테마 지원은 향후 업데이트에서 사용할 수 있게 됩니다. 어두운 테마를 사용 하는 팀 전화는 업그레이드 후 기본 테마를 받습니다.
+### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>팀 표시에 어두운 테마 대신 기본 테마가 있습니다.
+
+팀 디스플레이에 대 한 어두운 테마 지원은 향후 업데이트에서 사용할 수 있게 됩니다. 어두운 테마를 사용 하는 팀 전화는 팀으로 업그레이드 한 후 기본 테마를 받게 됩니다.
+
+### <a name="some-apps-are-missing-from-the-home-screen"></a>홈 화면에 일부 앱이 없는 경우
+
+업그레이드 후 홈 화면에 특정 앱이 없는 경우 로그 아웃 하 고 다시 로그인 합니다. 이 문제에 대 한 픽스는 향후 업데이트에서 제공 됩니다.
 
 ## <a name="see-also"></a>참고 항목
 

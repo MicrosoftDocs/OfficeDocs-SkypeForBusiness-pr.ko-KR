@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd066fe06126043475a7264b3b2c4501c7ac3ae
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650951"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818838"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
@@ -47,7 +47,7 @@ ms.locfileid: "48650951"
 | ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png) 자리 비움| ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png) 자리 비움|
 || ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png)자리 비움 마지막 접속 *시간*|
 |![노란색 시계 아이콘, 자리 비움, 곧 돌아오겠음 표시](media/Presence_Away.png) 곧 돌아오겠음| |
-|![X가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프 라인으로 표시 됩니다. 팀에서 곧 제공 될 예정입니다.|![X가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 이거나.  사용자가 몇 분 동안 장치에 로그인 하지 않으면 오프 라인으로 표시 됩니다. | |
+|![X가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프 라인으로 표시|![X가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 이거나.  사용자가 몇 분 동안 장치에 로그인 하지 않으면 오프 라인으로 표시 됩니다. | |
 || ![빈 회색 원, 상태 알 수 없음 표시](media/Presence_Unknown.png) 상태 알 수 없음|
 || ![화살표가 있는 자주색 원, 부재 중 표시](media/Presence_OOF.png) 부재 중. 자동 회신이 설정 된 경우 부재 중 Office가 사용 됩니다. (Outlook 에서만 사용할 수 있습니다.) |
 |||
@@ -60,7 +60,7 @@ ms.locfileid: "48650951"
 
 사용자는 수신 전화를 음성 메일로 이동 하는 방해 금지를 제외한 모든 현재 상태에서 전화를 받습니다. 받는 사람이 발신자를 차단하는 경우 전화가 전달되지 않으며 받는 사람의 현재 상태가 발신자에 오프라인으로 표시됩니다.
 
-사용자는 Teams에서 **설정** > **개인 정보**로 이동하여 특정 사용자를 우선 순위 액세스 목록에 추가할 수 있습니다. 우선 순위가 높은 권한이 있는 사용자는 사용자의 상태가 방해 금지로 설정 된 경우에도 사용자에 게 연락할 수 있습니다.
+사용자는 Teams에서 **설정** > **개인 정보** 로 이동하여 특정 사용자를 우선 순위 액세스 목록에 추가할 수 있습니다. 우선 순위가 높은 권한이 있는 사용자는 사용자의 상태가 방해 금지로 설정 된 경우에도 사용자에 게 연락할 수 있습니다.
 
 ### <a name="dual-presence"></a>이중 현재 상태
 

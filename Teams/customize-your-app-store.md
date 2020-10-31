@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀의 사용자 지정 앱 스토어에 대해 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f02346321002f90e9a92bc0db033a3b4437bea18
-ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
+ms.openlocfilehash: da1f2fc30157588df034aa5d3da44eae14fc2f2a
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456152"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818821"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 팀의 사용자 지정 앱 스토어
 
@@ -34,6 +34,12 @@ ms.locfileid: "48456152"
 
 > [!Note]
 > 브랜딩을 변경 하려면 24 시간이 소요 됩니다.
+
+관리 센터에서 **팀 앱**  >  **저장소 사용자 지정** 을 선택 하 여 사용자 지정 저장소에 액세스할 수 있습니다.
+
+  ![관리 콘솔 사용자 지정 저장소 기능 강조 됨](media/customize-app-store.png)
+
+이 문서에서는 사용자 지정 앱 저장소 기능과이 기능을 사용 하는 방법에 대해 설명 합니다.
 
 ## <a name="customize-your-organization-logo"></a>조직 로고 사용자 지정
 
@@ -57,7 +63,7 @@ ms.locfileid: "48456152"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-조직이 lovemark 또는 작은 로고는 조직 브랜드를 나타내고 회사 이름을 포함 하지 않는 이미지나 기호입니다. Logomark는 팀 구성원이 앱 스토어를 식별 하는 데 도움이 됩니다. 선택한 로고가 팀 클라이언트의 앱 페이지에 표시 됩니다.
+조직 logomark 또는 작은 로고는 조직 브랜드를 나타내는 이미지 또는 기호 이며 회사 이름을 포함 하지 않습니다. Lovemark는 팀 구성원이 앱 스토어를 식별 하는 데 도움이 됩니다. 선택한 로고가 팀 클라이언트의 앱 페이지에 표시 됩니다.
 
 **그림 선택** 옵션을 선택 하면 선택한 파일을 업로드할 수 있습니다. Logomark는 32x32 픽셀 이어야 하며 크기에 맞게 크기가 조정 됩니다. 5mb 보다 크지 않아야 합니다. 지원 되는 형식은 다음과 같습니다.
 
@@ -73,7 +79,7 @@ ms.locfileid: "48456152"
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-배경은 텍스트에 대 한 대비가 충분 하므로 사용자가 텍스트를 명확 하 게 읽을 수 있습니다. 백그라운드는 **Apps**  >  **테 넌 트 헤더로 빌드된** 앱의 팀 클라이언트에 표시 됩니다.
+사용자가 텍스트를 명확 하 게 읽을 수 있도록 배경과 텍스트의 대비가 충분히 맞는지 확인 합니다. 백그라운드는 **Apps**  >  **테 넌 트 헤더로 빌드된** 앱의 팀 클라이언트에 표시 됩니다.
 
 옵션은 다음과 같습니다.
 
@@ -82,7 +88,7 @@ ms.locfileid: "48456152"
   - . svg
   - .png
   - .jpg
-- 사용자 지정 배경을 선택 합니다. **사용자 지정 색**선택을 선택 하면 색 선택이 열립니다. 색 선택기의 배율을 조정 하 여 원하는 색을 선택 합니다.
+- 사용자 지정 배경을 선택 합니다. **사용자 지정 색** 선택을 선택 하면 색 선택이 열립니다. 색 선택기의 배율을 조정 하 여 원하는 색을 선택 합니다.
 
 백그라운드 이미지 또는 색은 팀 테 넌 트 앱 카탈로그의 위쪽 배너에 대 한 배경으로 사용 됩니다.
 
@@ -92,9 +98,9 @@ ms.locfileid: "48456152"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-텍스트 색은 사용자가 조직의 이름을 명확 하 게 읽을 수 있는 배경과의 대비가 충분 해야 합니다. 해당 텍스트는 **Apps**  >  **테 넌 트 헤더로 빌드된** 앱의 팀 클라이언트에 표시 됩니다.
+사용자가 조직의 이름을 명확 하 게 읽을 수 있도록 텍스트 색이 배경과 충분히 대비 되는지 확인 합니다. 해당 텍스트는 **Apps**  >  **테 넌 트 헤더로 빌드된** 앱의 팀 클라이언트에 표시 됩니다.
 
-**사용자 지정 색**선택을 선택 하면 색 선택이 열립니다. 색 선택기의 배율을 조정 하 여 원하는 색을 선택 합니다.
+**사용자 지정 색** 선택을 선택 하면 색 선택이 열립니다. 색 선택기의 배율을 조정 하 여 원하는 색을 선택 합니다.
 
  ![색 선택의 이미지](media/choose-a-custom-color.png)
 

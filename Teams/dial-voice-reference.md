@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 팀의 자동 전화 교환 및 전화 대기열 전화 걸기와 음성 인식 옵션에 대해 알아봅니다.
-ms.openlocfilehash: bf520fa4dffe258da523c8815449f1e71279d7f2
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800571"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818808"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>자동 전화 교환 및 통화 대기열 전화 걸기와 음성 인식 참조
 
@@ -100,7 +100,7 @@ ms.locfileid: "48800571"
 
 다음 언어는 발신 프롬프트에 사용 되는 텍스트 읽어주기에 사용할 수 있습니다.
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |아랍어 (예:)  |영어 (NZ)  |한국어 (KO-KR)  |
 |중국어 (HK)  |영어 (영국) |노르웨이어 (NO)  |
@@ -114,7 +114,7 @@ ms.locfileid: "48800571"
 
 자동 전화 교환에 대 한 음성 인식 입력은 다음 언어로 제공 됩니다.
   
-|||
+|-|-|
 |:-----|:-----|
 |중국어 (ZH-CN)  |프랑스어 (FR)  |
 |영어 (AU)  |독일어 (DE)  |
