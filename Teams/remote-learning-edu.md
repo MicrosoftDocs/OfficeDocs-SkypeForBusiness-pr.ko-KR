@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a79e123ca25715fdc33456fa5d566f5a3e8c3e99
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171112"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800621"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -94,14 +94,14 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 > [!IMPORTANT]
 > 당사의 학생과 교사를 위한 최신 정책 지침은[교육용 Teams 정책 및 정책 패키지](policy-packages-edu.md)에서 확인할 수 있습니다.
 
-**고등 교육 담당자, 교육자 및 학생**은 기본(전역) 정책에 포함된 기능을 활용할 수 있습니다. 몇 가지 추가 정책 설정을 사용하여 Teams에 더 많은 기능을 추가할 수 있습니다. [메시징 정책에서 번역 기능을 사용하도록 설정하고](messaging-policies-in-teams.md#messaging-policy-settings)고 [자동 모임 전사를 허용하여 필사를 허용하여 ](meeting-policies-in-teams.md#allow-transcription)에서 자동 모임 전사를 추가할 수 있습니다.
+**고등 교육 담당자, 교육자 및 학생** 은 기본(전역) 정책에 포함된 기능을 활용할 수 있습니다. 몇 가지 추가 정책 설정을 사용하여 Teams에 더 많은 기능을 추가할 수 있습니다. [메시징 정책에서 번역 기능을 사용하도록 설정하고](messaging-policies-in-teams.md#messaging-policy-settings)고 [자동 모임 전사를 허용하여 필사를 허용하여 ](meeting-policies-in-teams.md#allow-transcription)에서 자동 모임 전사를 추가할 수 있습니다.
 
-**초등 및 중학교 학생**은 학생에게 제공된 제한된 기능이 필요할 수 있습니다. 정책은 학생이 할 수 있는 작업에 대한 경계를 설정합니다. 학생 인구는 일반적으로 종종 가장 큰 사용자 집합으로, 가장 제한적인 설정이 적용되므로, ‘전역(조직 전체 기본값)’ 정책에서 학생 정책을 변경하는 것이 좋습니다.
+**초등 및 중학교 학생** 은 학생에게 제공된 제한된 기능이 필요할 수 있습니다. 정책은 학생이 할 수 있는 작업에 대한 경계를 설정합니다. 학생 인구는 일반적으로 종종 가장 큰 사용자 집합으로, 가장 제한적인 설정이 적용되므로, ‘전역(조직 전체 기본값)’ 정책에서 학생 정책을 변경하는 것이 좋습니다.
 
 > [!IMPORTANT]
 > 모든 사용자에게 할당된 모임 정책의 경우 "자동으로 사용자 관리" 설정을 "조직의 모든 사람"으로 설정하는 것이 좋습니다. 이 설정은 인증되지 않은 사용자가 Teams 회의에 참여하기 전에 로비에서 입장을 허가 받도록 합니다. 자세한 내용은 [Teams에서 회의 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)를 참조하세요.
 
-**초등학교 교직원 및 교사**는 학생에게 제한될 수 있는 핵심 기능을 허용하는 정책이 할당되어야 합니다. 비공개 채팅 및 모임 예약(새 정책의 기본 설정)을 허용하는 새 정책을 만듭니다. [직원과 교육자에게 이 정책을 대량으로 할당합니다](batch-group-policy-assignment-edu.md).
+**초등학교 교직원 및 교사** 는 학생에게 제한될 수 있는 핵심 기능을 허용하는 정책이 할당되어야 합니다. 비공개 채팅 및 모임 예약(새 정책의 기본 설정)을 허용하는 새 정책을 만듭니다. [직원과 교육자에게 이 정책을 대량으로 할당합니다](batch-group-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Teams 사용 시작
 
@@ -113,6 +113,7 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 - 성적
 - OneNote 교실 전자 필기장  
 - 학생을 위한 읽기 전용 콘텐츠를 보호하기 위한 [수업 자료 폴더](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) 
+- [Insights](https://docs.microsoft.com/microsoftteams/class-insights)에서는 학생의 참여, 과제 및 각 교실의 복지에 대한 실시간 데이터를 제공합니다. 
 - 학생이 추가되기 전에 수업을 설정하기 위한 [사전 강사 액세스](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)  
 - 방해가 되는 학생 음소거 기능 및 기타 특정 권한  
 

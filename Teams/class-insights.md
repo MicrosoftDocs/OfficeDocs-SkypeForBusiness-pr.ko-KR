@@ -16,34 +16,47 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e00bfc5606e23460255e3ee4748010843415eb1b
-ms.sourcegitcommit: 92fdfad4564eb27190cd88f109bded2b95d473ee
+ms.openlocfilehash: b63ea1a1a09a55d9a51fb2a110c024960f23f6f4
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47408234"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803526"
 ---
 # <a name="it-admin-guide-to-insights-in-teams-for-education"></a>교육용 Teams의 인사이트에 대한 IT 관리자 가이드
 
-교육용 Microsoft Teams의 인사이트를 통해 교육자와 리더는 디지털 참여, 할당 작업량, 등급, 커뮤니케이션 등에 대한 분석 데이터에 액세스할 수 있습니다.
+교육용 Microsoft Teams의 인사이트를 통해 교육자와 리더는 디지털 참여, 할당 작업량, 등급, 커뮤니케이션 등에 대한 분석 데이터에 액세스할 수 있습니다. Insights는 교육자와 학생을 가장 중시하고, 개인 정보 표준을 충족하며, 교육 기관의 지속적인 규정 준수를 보장하는 윤리적 원칙에 따라 작동됩니다.
 
-Office 365 Education SKUs A1, A3, A5에서 통찰력이 활발합니다.
+Insights는 Office 365 Education SKUs A1, A3, A5에서 활발합니다.
 
 > [!NOTE]
-> 교육자 여러분, 인사이트를 사용하는 방법을 [여기](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181)에서 배워보세요.
+> 교육자는 다음에서 Insights 사용 방법을 학습할 수 있습니다. [Microsoft Teams의 Insights에 대한 강사용 가이드](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181).
 
-## <a name="permissions"></a>사용 권한
+## <a name="use-insights"></a>인사이트 사용
 
 ### <a name="user-types"></a>사용자 유형
-- **학생**은 라이선스로 식별되며 Insights 탭에 액세스 _할 수 없습니다_(팀 소유자인 경우에도). 
-- **강사**는 교직원용 라이선스로 식별됩니다. 강사는 데이타를 추가하여 인사이트 탭에 표시하려면 교직원용 라이선스가 있어야 하며 수업 팀 소유자여야 합니다. 
-- **리더**는 교직원용 라이선스로 식별되지만, Insights 앱에서 보고서를 보려면 추가로 IT 글로벌 관리자로부터 명시적인 권한을 받아야 합니다.
-- 게스트 계정은 Insights에 액세스_할 수 없습니다_.
+- **학생** 은 라이선스로 식별되며 Insights 탭에 액세스  _할 수 없습니다_ (팀 소유자인 경우에도). 
+- **강사** 는 교직원용 라이선스로 식별됩니다. 강사는 데이타를 추가하여 인사이트 탭에 표시하려면 교직원용 라이선스가 있어야 하며 수업 팀 소유자여야 합니다. 
+- **리더** 는 교직원용 라이선스로 식별되지만, Insights 앱에서 보고서를 보려면 추가로 IT 글로벌 관리자로부터 명시적인 권한을 받아야 합니다.
+- 게스트 계정은 Insights에 액세스 _할 수 없습니다_ .
 
-### <a name="permission-levels"></a>권한 수준
-강사와 리더는 다양한 사용 권한 수준 및 논리를 포함합니다.
-- **강사**는 Teams 앱 모음의 앱으로 이동하여 Insights를 검색하여 수업 팀 내의 공개 채널에 Insights 앱을 추가할 수 있습니다. 탭에는 소유자가 아닌 수업 팀의 모든 사람(팀의 소유자가 아닌 강사 포함)의 활동이 반영됩니다. 
-- **리더**는 Teams 앱 모음에서 앱으로 이동하여 Insights를 검색하여 Insights 앱을 개인 앱으로 추가할 수 있습니다(Teams 왼쪽 메뉴에 표시됨). 
+### <a name="entry-points"></a>시작점
+교육자와 리더는 정보를 검색하고 사용할 수 있는 시작점이 다를 수 있습니다.
+
+**교육자** 는 다음과 같은 두 가지 시작점을 사용할 수 있습니다.
+- [탭](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) - 해당하는 각 클래스의 인사이트를 상위 탐색 메뉴로부터 추가된 탭에서 사용할 수 있습니다. Insights에서 수업 팀에서 모든 채널의 활동 데이터를 나타내지만, 공개 채널에 탭으로만 추가할 수 있습니다. 탭에는 소유자가 아닌 수업 팀의 모든 사람(팀의 소유자가 아닌 강사 포함)의 활동이 반영됩니다.
+- [개인용 앱](https://support.microsoft.com/article/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - 왼쪽 Teams 앱 표시줄에서 모든 활성 클래스의 개요를 볼 수 있습니다.
+
+**리더** 는 Insights를 [개인용 앱](https://support.microsoft.com/article/8738d1b1-4e1c-49bd-9e8d-b5292474c347)사용할 수 있습니다.
+
+### <a name="manage-setup-policy"></a>설정 정책 관리
+관리자는 [앱 설정 정책](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)을 사용하여 Teams를 시작할 때 교육자와 리더용 Insights를 기본적으로 설치할 수 있습니다.
+이 정책을 사용하면 Teams를 사용자 지정하여 Insights를 강조 표시하고 앱 모음에서 해당 항목을 고정할 수 있습니다.
+
+> [!TIP]
+> 교육용 Teams 정책 및 정책 패키지에 대한 정보를 보려면 [교육용 Teams 정책 및 정책 패키지](https://docs.microsoft.com/microsoftteams/policy-packages-edu)를 참조하세요.
+
+
 
 ## <a name="compliance"></a>규정 준수
 
@@ -61,7 +74,7 @@ Microsoft의 목표는 강사가 참여를 이해하고 학생 교육 과정을 
 ## <a name="data-collection"></a>데이터 수집
 
 - 테넌트에 대해 교육 분석을 설정하면 인사이트에 대한 데이터를 수집합니다. 데이터는 교육 및 학습에 대한 실행 가능한 정보를 표시하기 위해 Teams 활동에서 수집됩니다.
-- 게스트 데이터는 수집되지 _않습니다_.
+- 게스트 데이터는 수집되지 _않습니다_ .
 - 기본적으로 Education Analytics는 **켜져** 있습니다.
 
 현재 이 데이터는 다음과 같은 수업 팀의 학생과 강사 활동 영역에서 가져옵니다.
@@ -84,7 +97,7 @@ Microsoft의 목표는 강사가 참여를 이해하고 학생 교육 과정을 
 데이터 수집 프로세스는 팀에 인사이트 탭 설치와 관계없이 별도의 서버에서 이루어집니다. 인사이트 탭 또는 개인 앱은 나머지 Teams 기능을 사용하는 교육자와 학생의 응용 프로그램 성능 또는 네트워크 대역폭에 영향을 미치지 않습니다.
 
 > [!TIP]
-> [여기](edu-remote-low-bandwidth.md)에서 대역폭이 낮으면 교육용 Teams를 사용하는 방법에 대해 읽어보세요.
+> 대역폭이 낮은 교육용 Teams 사용에 대한 정보를 보려면 [교육용 Teams의 낮은 대역폭 상황에 대한 도움말](edu-remote-low-bandwidth.md)을 참조하세요.
 
 ## <a name="how-to-delete-your-data"></a>데이터 삭제 방법
 
@@ -93,7 +106,7 @@ Microsoft의 목표는 강사가 참여를 이해하고 학생 교육 과정을 
 > [!NOTE]
 > 데이터를 삭제하면 시간이 지남에 따라 수업 팀 참여를 분석하는 Insights의 기능에 부정적인 영향을 미칩니다.
 
-- [여기](https://edusupport.microsoft.com/support)에서 지원 티켓을 공개합니다. 지원 티켓은 GDPR 삭제 DSR 작업 요청을 명확하게 명시해야 하며 삭제할 개체 ID를 포함해야 합니다. 삭제의 데이터 집합 또는 시간 창을 제한할 수 없습니다.
+- [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support)에서 지원 티켓을 엽니다. 지원 티켓은 GDPR 삭제 DSR 작업 요청을 명확하게 명시해야 하며 삭제할 개체 ID를 포함해야 합니다. 삭제의 데이터 집합 또는 시간 창을 제한할 수 없습니다.
 - 일단 제출되면 지원 티켓은 규정 준수 최소 보존 정책을 충족하기 위해 일주일 동안 큐에서 대기합니다. 이 기간에는 작업을 취소할 수 있습니다.
 - 일주일 후에는 Education Analytics 팀에서 사용자 ID와 관련된 모든 데이터를 서비스에서 삭제하는 조치를 취합니다. Microsoft 지원에서는 ICM 티켓을 모니터링하여 삭제 프로세스가 완료되면 28일 이내에 공지합니다.
 
@@ -101,10 +114,11 @@ Microsoft의 목표는 강사가 참여를 이해하고 학생 교육 과정을 
 
 SDS(학교 데이터 동기화)는 SIS(학생 정보 시스템) 데이터를 가져오고 Office 365와 동기화하는 프로세스를 자동화하는 데 도움이 됩니다.
 
-인사이트를 사용하기 위해서는 SDS를 사용할 필요가 없습니다. 그러나 **설정** > **Education Analytics 관리**의 SDS 관리 센터에서 토글을 꺼서 언제든지 Education Analytics를 옵트아웃할 수 있습니다.
+인사이트를 사용하기 위해서는 SDS를 사용할 필요가 없습니다. 그러나 **설정** > **Education Analytics 관리** 의 SDS 관리 센터에서 토글을 꺼서 언제든지 Education Analytics를 옵트아웃할 수 있습니다.
 
 :::image type="content" source="media/class-insights-on-off.png" alt-text="인사이트를 사용하거나 사용하지 않도록 설정하는 켜기-끄기 스위치입니다.":::
 
 기본적으로 교육 분석, 즉 정보 활용이 설정되어 있습니다. 분석에서 손을 떼면 인사이트 탭에 대해 수집된 모든 데이터가 삭제됩니다. 분석을 다시 설정하면 데이터를 다시 활성화할 때부터 수집하기 시작합니다.
 
-자세한 정보: [인사이트에 대한 강사의 가이드](https://support.microsoft.com/ko-KR/office/educator-s-guide-to-insights-in-microsoft-teams-27b56255-90c0-47aa-bac3-1c9f50157181)
+## <a name="additional-resources"></a>추가 리소스
+- [Insights에 대한 교육자 가이드](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181)
