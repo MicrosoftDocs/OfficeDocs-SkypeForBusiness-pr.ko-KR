@@ -40,7 +40,6 @@
 ## [사용자 관리자 팀 만들기](create-manager-directs-teams.md)
 ## [팀 및 채널 정책 관리](teams-policies.md)
 ## [Teams의 민감도 레이블](sensitivity-labels.md)
-## [Teams에서 비공개 팀의 검색 관리](manage-discovery-of-private-teams.md)
 ## [Teams에서 채널 중재 설정](manage-channel-moderation-in-teams.md)
 ## [Teams에서 파일 공유](sharing-files-in-teams.md)
 ## [Teams 및 Outlook 전자 메일 통합](teams-outlook-email-integration.md)
@@ -1015,3 +1014,4 @@
 ## [업그레이드 검색 질문](upgrade-plan-journey-discovery-questionnaire.md)
 ## [Microsoft Teams 내보내기 API를 사용하여 콘텐츠 내보내기](export-teams-content.md)
 ## [Teams 관리자 기능 릴리즈 노트](release-notes/release-notes.md)
+## [Microsoft Teams의 공개 미리 보기](public-preview-doc-updates.md)
