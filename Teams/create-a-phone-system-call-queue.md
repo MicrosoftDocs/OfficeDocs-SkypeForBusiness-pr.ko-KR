@@ -1,5 +1,5 @@
 ---
-title: 통화 대기열 만들기
+title: Microsoft 팀에서 통화 대기열 만들기
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 보관, 착신 전환, 기타 기능을 제공 하는 Microsoft 팀과 통화 큐에 대 한 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 31826d1090835a073551e3639cb6105feb16d650
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793537"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820021"
 ---
 # <a name="create-a-call-queue"></a>통화 대기열 만들기
 
@@ -50,7 +50,7 @@ ms.locfileid: "48793537"
 
 ## <a name="resource-account-and-language"></a>리소스 계정 및 언어
 
-![](media/call-queue-name-language.png)
+![리소스 계정 및 언어 설정 스크린샷](media/call-queue-name-language.png)
 
 1. 통화 대기열의 이름을 입력 합니다. 상담원은 대기열에서 수신 전화를 받을 때이 이름을 볼 수 있습니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "48793537"
 - 온-프레미스 비즈니스용 Skype 서버 사용자
 - 상담원은 통화 대기열 통화를 위해 Microsoft 팀 앱을 사용 하 고 있는 경우에는 TeamsOnly 모드에 있어야 합니다.
 
-![](media/call-queue-users-groups.png)
+![통화 대기열의 사용자 및 그룹 설정 스크린샷](media/call-queue-users-groups.png)
 
 최대 20 명의 에이전트를 개별적으로 추가 하거나 그룹을 통해 최대 200 에이전트를 추가할 수 있습니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "48793537"
 
 ## <a name="call-routing"></a>통화 라우팅
 
-![](media/call-queue-conference-mode-routing-method.png)
+![회의 모드 및 라우팅 방법 설정 스크린샷](media/call-queue-conference-mode-routing-method.png)
 
 **회의 모드** 는 에이전트가 통화를 수락 한 후 호출자가 에이전트에 연결 하는 데 걸리는 시간을 크게 줄여줍니다. 회의 모드가 작동 하려면 통화 큐의 상담원은 다음 클라이언트 중 하나를 사용 해야 합니다.
 
@@ -112,7 +112,7 @@ ms.locfileid: "48793537"
 
 - **가장 긴 유휴** 시간은 오랫동안 유휴 상태에 있는 에이전트로 각 호출을 라우팅합니다. 현재 상태를 사용할 수 있거나 해당 사용자의 현재 상태가 10 분 미만으로 떨어져 있는 경우 에이전트가 유휴 상태인 것으로 간주 됩니다. 현재 상태가 10 분 이상인 에이전트는 유휴 상태로 간주 되지 않으며 현재 상태를 사용할 수 있는 것으로 변경 될 때까지 통화를 받을 수 없게 됩니다. 
 
-![](media/call-queue-presence-agents-time.png)
+![라우팅, 옵트아웃, 알림 시간 설정 스크린샷](media/call-queue-presence-agents-time.png)
 
 
 **현재 상태 기반 라우팅은** 통화 에이전트의 가용성 상태를 사용 하 여 선택한 라우팅 메서드의 호출 라우팅 목록에 에이전트가 포함 되어야 하는지 여부를 결정 합니다. 가용성 상태가 **사용 가능** 으로 설정 된 통화 에이전트는 통화 라우팅 목록에 포함 되며 전화를 받을 수 있습니다. 가용성 상태가 다른 상태로 설정 된 에이전트는 통화 라우팅 목록에서 제외 되며, 해당 사용 가능 상태가 다시 **사용 가능** 으로 변경 될 때까지 통화를 수신 하지 않습니다. 
@@ -135,18 +135,18 @@ ms.locfileid: "48793537"
 
 ## <a name="call-overflow-handling"></a>통화 오버플로 처리
 
-![](media/call-queue-overflow-handling.png)
+![통화 오버플로 설정 스크린샷](media/call-queue-overflow-handling.png)
 
 **큐의 최대 통화** 는 주어진 시간에 큐에서 대기할 수 있는 최대 호출 수를 지정 합니다. 기본값은 50 이지만, 0에서 200 까지의 범위에 있을 수 있습니다. 이 제한에 도달 하면 **최대 통화 수** 설정에 도달 하는 경우에 지정 된 대로 통화가 처리 됩니다.
 
-통화 연결을 끊거나 통화 라우팅 대상 중 하나로 리디렉션하도록 선택할 수 있습니다. 예를 들어 호출자가 큐의 에이전트에 대 한 보이스 메일을 남길 수 있습니다.
+통화 연결을 끊거나 교환원을 제외한 모든 [통화 라우팅 대상](create-a-phone-system-auto-attendant.md#call-routing-options) 에 대 한 리디렉션을 선택할 수 있습니다. 예를 들어 호출자가 큐의 에이전트에 대 한 보이스 메일을 남길 수 있습니다. (외부 번호로 전송 하는 경우 [이 세부 정보](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) 를 참고 하세요.)
 
 > [!NOTE]
 > 최대 통화 수가 0으로 설정 되 면 인사말 메시지가 재생 되지 않습니다.
 
 ## <a name="call-timeout-handling"></a>통화 시간 제한 처리
 
-![](media/call-queue-timeout-handling.png)
+![통화 시간 제한 설정 스크린샷](media/call-queue-timeout-handling.png)
 
 **통화 시간 제한: 최대 대기 시간은** 대기 또는 연결 해제 하기 전에 큐에서 통화 대기를 대기할 수 있는 최대 시간을 지정 합니다. 15 초에서 45 분 까지의 값을 지정할 수 있습니다.
 
@@ -181,13 +181,13 @@ ms.locfileid: "48793537"
 
 또한 Windows PowerShell을 사용 하 여 통화 대기열을 만들고 설정할 수 있습니다. 다음은 통화 대기열을 관리 하는 데 사용 하는 cmdlet입니다.
 
-- [새로운 CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
+- [새로운 CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
 
-- [제거-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
+- [제거-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>관련 항목
 
@@ -197,6 +197,6 @@ ms.locfileid: "48793537"
 
 [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[새로운 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[새로운 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Windows PowerShell 및 Lync Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

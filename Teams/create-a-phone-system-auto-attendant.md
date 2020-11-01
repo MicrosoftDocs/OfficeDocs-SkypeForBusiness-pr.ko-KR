@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 513950c51035496ec1691fd9ac584467fe734827
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803795"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820023"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -48,7 +48,7 @@ ms.locfileid: "48803795"
 
 ## <a name="general-info"></a>일반 정보
 
-![](media/auto-attendant-general-info-page-new.png)
+![이름, 운영자, 표준 시간대, 언어 및 음성 입력에 대 한 자동 전화 교환 설정 스크린샷](media/auto-attendant-general-info-page-new.png)
 
 1. 맨 위의 상자에 자동 전화 교환 이름을 입력 합니다.
 
@@ -64,7 +64,7 @@ ms.locfileid: "48803795"
 
 ## <a name="call-flow"></a>통화 흐름
 
-![](media/auto-attendant-call-flow-greeting-message.png)
+![인사말 메시지 설정 스크린샷](media/auto-attendant-call-flow-greeting-message.png)
 
 자동 전화 교환에서 전화를 걸 때 인사말을 재생할 것인지 선택 합니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "48803795"
 
 **인사말 메시지 입력** 을 선택 하면 시스템에서 자동 전화 교환이 전화를 받을 때 입력 한 텍스트 (최대 1000 자) 텍스트를 읽습니다.
 
-![](media/auto-attendant-call-flow-route-call-message.png)
+![통화 라우팅 설정 스크린샷](media/auto-attendant-call-flow-route-call-message.png)
 
 통화를 회람할 방법을 선택 합니다.
 
@@ -84,7 +84,7 @@ ms.locfileid: "48803795"
 
 ### <a name="menu-options"></a>메뉴 옵션
 
-![](media/auto-attendant-call-flow-menu-options-complete.png)
+![전화 걸기 키 옵션 스크린샷](media/auto-attendant-call-flow-menu-options-complete.png)
 
 전화 걸기 옵션의 경우 전화 키패드의 0-9 키를 호출 라우팅 대상 중 하나에 할당할 수 있습니다. (키 \* (Repeat) \# 는 시스템에 의해 예약 되며 다시 할당할 수 없습니다.
 
@@ -129,7 +129,7 @@ ms.locfileid: "48803795"
 
 ## <a name="call-flow-for-after-hours"></a>이후 시간에 대 한 통화 흐름
 
-![](media/auto-attendant-business-hours.png)
+![시간 및 시간 설정 후의 스크린샷](media/auto-attendant-business-hours.png)
 
 각 자동 전화 교환에 대해 업무 시간을 설정할 수 있습니다. 비즈니스 시간이 설정 되어 있지 않으면 24/7 일정이 기본적으로 설정 되어 있으므로 일의 모든 일과 모든 시간이 시간으로 간주 됩니다. 업무 시간에는 하루에 휴식 시간을 설정할 수 있으며 업무 시간으로 설정 되지 않은 모든 시간은 근무 시간 이후로 간주 됩니다. 한 시간 내에 다른 수신 통화 처리 옵션과 인사말을 설정할 수 있습니다.
 
@@ -143,7 +143,7 @@ ms.locfileid: "48803795"
 
 ## <a name="call-flows-during-holidays"></a>휴일 중 통화 흐름
 
-![](media/auto-attendant-holiday-greeting.png)
+![명절 및 명절 인사말 설정 스크린샷](media/auto-attendant-holiday-greeting.png)
 
 자동 전화 교환에는 [설정한 각 휴일](set-up-holidays-in-teams.md)에 대 한 통화 흐름이 있을 수 있습니다. 각 자동 전화 교환에 최대 20 개의 예정 휴일을 추가할 수 있습니다.
 
@@ -155,7 +155,7 @@ ms.locfileid: "48803795"
 
 4. 사용할 인사말 유형을 선택 합니다.
 
-    ![](media/auto-attendant-holiday-actions.png)
+    ![명절 통화 동작 설정 스크린샷](media/auto-attendant-holiday-actions.png)
 
 5. **연결을 끊거나** 통화를 **리디렉션할지** 여부를 선택 합니다.
 
@@ -163,7 +163,7 @@ ms.locfileid: "48803795"
 
 7. **저장** 을 클릭합니다.
 
-![](media/auto-attendant-holiday-call-settings.png)
+![공휴일이 나열 된 휴일 설정 스크린샷](media/auto-attendant-holiday-call-settings.png)
 
 각 휴일에 대해 필요에 따라이 절차를 반복 합니다.
 
@@ -171,7 +171,7 @@ ms.locfileid: "48803795"
 
 ## <a name="dial-scope"></a>전화 걸기 범위
 
-![](media/auto-attendant-dial-scope.png)
+![다이얼 범위 스크린샷 포함 및 제외 옵션](media/auto-attendant-dial-scope.png)
 
 *전화 걸기 범위* 는 발신자가 이름 또는 내선 번호를 사용 하 여 전화를 걸 때 디렉터리에서 사용할 수 있는 사용자를 정의 합니다. **모든 온라인 사용자** 의 기본값에는 비즈니스용 Skype 서버를 사용 하 여 온라인 사용자가 전화 시스템 라이선스 또는 온-프레미스에 호스팅되는 조직의 모든 사용자가 포함 됩니다.
 
@@ -186,11 +186,11 @@ ms.locfileid: "48803795"
 
 모든 자동 전화 교환에는 연결 된 리소스 계정이 있어야 합니다.  첫 번째 수준 자동 전화 교환에는 연결 된 서비스 번호가 있는 리소스 계정이 하나 이상 필요 합니다. 원하는 경우 자동 전화 교환에 여러 개의 리소스 계정을 할당할 수 있으며, 각각 별도의 서비스 번호를 갖습니다.
 
-![](media/auto-attendant-add-resource-account.png)
+![리소스 계정, 계정 추가 패널 스크린샷](media/auto-attendant-add-resource-account.png)
 
 리소스 계정을 추가 하려면 **계정 추가** 를 클릭 하 고 추가 하려는 계정을 검색 합니다. **추가** 를 클릭 한 다음 **추가** 를 클릭 합니다.
 
-![](media/auto-attendant-resource-account-assigned.png)
+![배정 된 서비스 번호가 있는 자원 계정이 표시 된 자원 계정 목록의 스크린샷](media/auto-attendant-resource-account-assigned.png)
 
 서비스 계정 추가를 마쳤으면 **제출을** 클릭 합니다. 자동 전화 교환 구성이 완료 됩니다.
 
@@ -216,23 +216,23 @@ ms.locfileid: "48803795"
 
 PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 있습니다. 자동 전화 교환을 관리 하는 데 필요한 cmdlet은 다음과 같습니다.
 
-- [신규-CsAutoAttendant 전화 교환](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant 전화 교환](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendant 전화 교환](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
-- [-CsAutoAttendant 전화 교환 제거](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
-- [새로운 CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
-- [새로운 CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
-- [새로운 CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
-- [새로운 CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
-- [새로운 CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
-- [새로운 CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
-- [새로운 CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [가져오기-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
-- [새로운 CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
+- [신규-CsAutoAttendant 전화 교환](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
+- [Set-CsAutoAttendant 전화 교환](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
+- [Get-CsAutoAttendant 전화 교환](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
+- [-CsAutoAttendant 전화 교환 제거](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
+- [새로운 CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
+- [새로운 CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
+- [새로운 CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [새로운 CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
+- [새로운 CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
+- [새로운 CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [새로운 CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [가져오기-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
+- [새로운 CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 
 ## <a name="related-topics"></a>관련 항목
