@@ -3,6 +3,105 @@
 
 
 
+## <a name="week-of-october-26-2020"></a>7 월 26 일 (2020 주)
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 10/26/2020 | [팀 자동 전화 교환 및 통화 대기열에 대 한 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 으 |
+| 10/26/2020 | [비즈니스용 Skype에서 Teams로 업그레이드 FAQ](/MicrosoftTeams/faq-journey) | 으 |
+| 10/26/2020 | [Microsoft 팀에서 서비스 품질 구현](/MicrosoftTeams/qos-in-teams) | 으 |
+| 10/26/2020 | [Microsoft 팀 및 예약 앱을 사용한 가상 방문](/MicrosoftTeams/bookings-app-admin) | 으 |
+| 10/26/2020 | [환자 App 및 EHR integration DSTU2 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 으 |
+| 10/26/2020 | [관리 센터에서 팀 의료 템플릿 사용](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 으 |
+| 10/26/2020 | [건강 보험 조직의 서식 파일](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 으 |
+| 10/26/2020 | [Microsoft 팀을 사용 하는 의료 단체에 대 한 보안 메시지](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 으 |
+| 10/26/2020 | [환자 앱을 FHIR용 Azure API에 연결](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 으 |
+| 10/26/2020 | [팀 용 환자 앱 관리자 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 으 |
+| 10/26/2020 | [환자 앱 개요](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 으 |
+| 10/26/2020 | [팀 IT 및 규정 준수 관리자를 위한 환자 앱 감사 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 으 |
+| 10/26/2020 | [환자 App 및 EHR integration STU3 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 으 |
+| 10/26/2020 | [건강 조직의 팀 시작 하기](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 으 |
+| 10/26/2020 | [의료용 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-healthcare-landing-page) | 으 |
+| 10/26/2020 | [Microsoft Teams의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으 |
+| 10/26/2020 | [Ignite 2020의 팀 세션](/MicrosoftTeams/ignite-2020-landing-page) | 으 |
+| 10/26/2020 | [조직의 목록 앱 관리](/MicrosoftTeams/manage-lists-app) | 으 |
+| 10/26/2020 | [Microsoft Teams 예비 환경 관리](/MicrosoftTeams/teams-exploratory) | 으 |
+| 10/27/2020 | [비즈니스용 Skype Online 및 Microsoft Teams용 접근성 솔루션](/MicrosoftTeams/accessibility-solutions-in-france) | 으 |
+| 10/27/2020 | [환자 App 및 EHR integration DSTU2 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 으 |
+| 10/27/2020 | [환자 앱을 FHIR용 Azure API에 연결](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 으 |
+| 10/27/2020 | [팀 용 환자 앱 관리자 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 으 |
+| 10/27/2020 | [환자 앱 개요](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 으 |
+| 10/27/2020 | [팀 IT 및 규정 준수 관리자를 위한 환자 앱 감사 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 으 |
+| 10/27/2020 | [환자 App 및 EHR integration STU3 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 으 |
+| 10/27/2020 | [건강 조직의 팀 시작 하기](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 으 |
+| 10/27/2020 | [팀 서식 파일을 사용 하 여 새 팀 만들기](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 으 |
+| 10/27/2020 | [Microsoft Graph를 사용 하 여 팀 서식 파일 시작](/MicrosoftTeams/get-started-with-teams-templates) | 으 |
+| 10/27/2020 | [팀 메시지의 우선 순위 알림](/MicrosoftTeams/teams-add-on-licensing/pri-message) | 으 |
+| 10/27/2020 | [비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드-Microsoft 팀](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | 으 |
+| 10/27/2020 | [팀 용 전화 및 장치](/MicrosoftTeams/devices/teams-ip-phones) | 으 |
+| 10/27/2020 | [직접 라우팅에 대해 인증 된 세션 경계 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 으 |
+| 10/27/2020 | [가상 방문 팀](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 으 |
+| 10/27/2020 | [Microsoft Endpoint Configuration Manager를 사용 하 여 팀 설치](/MicrosoftTeams/msi-deployment) | 으 |
+| 10/27/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 10/27/2020 | [모임 녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 으 |
+| 10/28/2020 | [Microsoft 팀의 Cortana 음성 지원](/MicrosoftTeams/cortana-in-teams) | 으 |
+| 10/28/2020 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
+| 10/28/2020 | [Microsoft 팀에서 장치 관리](/MicrosoftTeams/devices/device-management) | 으 |
+| 10/28/2020 | [Microsoft 팀 용 전화](/MicrosoftTeams/devices/phones-for-teams) | 으 |
+| 10/28/2020 | [건강 조직의 팀 시작 하기](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 으 |
+| 10/28/2020 | [의료에 대 한 팀 정책 패키지](/MicrosoftTeams/policy-packages-healthcare) | 으 |
+| 10/28/2020 | [환경 호환성-Microsoft 팀](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | 으 |
+| 10/28/2020 | [Microsoft 팀 및 예약 앱을 사용한 가상 방문](/MicrosoftTeams/bookings-app-admin) | 으 |
+| 10/28/2020 | [Microsoft 팀 분필 통신](/MicrosoftTeams/chalk-talks-landing-page) | 으 |
+| 10/28/2020 | [직접 라우팅을 위한 미디어 바이패스 계획](/MicrosoftTeams/direct-routing-plan-media-bypass) | 으 |
+| 10/28/2020 | [조직에 대한 설정 관리](/MicrosoftTeams/enable-features-office-365) | 으 |
+| 10/28/2020 | [가상 방문 팀](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 으 |
+| 10/28/2020 | [메시지 위임](/MicrosoftTeams/expand-teams-across-your-org/healthcare/hc-delegates) | 으 |
+| 10/28/2020 | [관리 센터에서 팀 의료 템플릿 사용](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 으 |
+| 10/28/2020 | [건강 보험 조직의 서식 파일](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 으 |
+| 10/28/2020 | [Microsoft 팀을 사용 하는 의료 단체에 대 한 보안 메시지](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 으 |
+| 10/28/2020 | [Teams의 교대 근무](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 으 |
+| 10/28/2020 | [조직의 교대 근무 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 으 |
+| 10/28/2020 | [조직의 목록 앱 관리](/MicrosoftTeams/manage-lists-app) | 으 |
+| 10/28/2020 | [Microsoft 팀에서 조직의 작업 앱 관리](/MicrosoftTeams/manage-tasks-app) | 으 |
+| 10/28/2020 | [새 팀 관리 센터로 팀 전환](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 으 |
+| 10/28/2020 | [Microsoft 팀 업그레이드 \| 환경 평가, 검색 질문](/MicrosoftTeams/upgrade-plan-journey-discovery-questionnaire) | 으 |
+| 10/29/2020 | [교육용 Teams의 인사이트에 대한 IT 관리자 가이드](/MicrosoftTeams/class-insights) | 으 |
+| 10/29/2020 | [Microsoft 팀에서 사용자 지정 팀 서식 파일 만들기](/MicrosoftTeams/create-a-team-template) | 으 |
+| 10/29/2020 | [Microsoft 팀의 기존 팀 서식 파일에서 새 서식 파일 만들기](/MicrosoftTeams/create-template-from-existing-template) | 으 |
+| 10/29/2020 | [자동 전화 교환 및 통화 대기열 전화 걸기와 음성 인식 참조](/MicrosoftTeams/dial-voice-reference) | 으 |
+| 10/29/2020 | [관리 센터에서 팀 의료 템플릿 사용](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 으 |
+| 10/29/2020 | [교육용 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | 으 |
+| 10/29/2020 | [팀 서식 파일을 사용 하 여 새 팀 만들기](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 으 |
+| 10/29/2020 | [관리 센터에서 팀 정부 서식 파일 사용](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | 으 |
+| 10/29/2020 | [관리 센터에서 팀 제조 템플릿을 시작 하세요.](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 으 |
+| 10/29/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
+| 10/29/2020 | [관리 센터에서 팀 소매 서식 파일 사용](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | 으 |
+| 10/29/2020 | [Microsoft 팀 live 이벤트는 무엇 인가요?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 으 |
+| 10/29/2020 | [Microsoft 팀에서 이벤트 감사 로그 검색](/MicrosoftTeams/audit-log-events) | 으 |
+| 10/29/2020 | [Microsoft 팀에 대 한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
+| 10/29/2020 | [환자 App 및 EHR integration DSTU2 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 으 |
+| 10/29/2020 | [환자 앱을 FHIR용 Azure API에 연결](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 으 |
+| 10/29/2020 | [팀 용 환자 앱 관리자 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 으 |
+| 10/29/2020 | [환자 앱 개요](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 으 |
+| 10/29/2020 | [팀 IT 및 규정 준수 관리자를 위한 환자 앱 감사 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 으 |
+| 10/29/2020 | [환자 App 및 EHR integration STU3 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 으 |
+| 10/29/2020 | [건강 조직의 팀 시작 하기](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 으 |
+| 10/30/2020 | [Microsoft 팀 채택](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 으 |
+| 10/30/2020 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
+| 10/30/2020 | [팀 전화를 팀에 게 업그레이드 표시](/MicrosoftTeams/devices/upgrade-phones-to-displays) | 으 |
+| 10/30/2020 | [Microsoft 팀의 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 으 |
+| 10/30/2020 | [오스트레일리아의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | 으 |
+| 10/30/2020 | [국가/지역 사용 가능-오디오 회의, 통화 플랜](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 으 |
+| 10/30/2020 | [Microsoft 팀에 대 한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
+| 10/30/2020 | [Microsoft 팀에서 통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
+| 10/30/2020 | [사용자 지정 앱 스토어](/MicrosoftTeams/customize-your-app-store) | 으 |
+| 10/30/2020 | [자동 전화 교환 및 통화 대기열 전화 걸기와 음성 인식 참조](/MicrosoftTeams/dial-voice-reference) | 으 |
+| 10/30/2020 | Microsoft 팀에서 비공개 팀의 검색 관리 | 제거할 |
+| 10/30/2020 | [Teams에서 사용자 현재 상태 확인](/MicrosoftTeams/presence-admins) | 으 |
+
+
 ## <a name="week-of-october-19-2020"></a>10 월 19 일 주 2020
 
 
@@ -313,70 +412,3 @@
 | 10/2/2020 | [모임 녹음/녹화에 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 으 |
 | 10/2/2020 | [Microsoft Teams의 게스트 액세스에 대한 문제 해결](/MicrosoftTeams/troubleshoot-guest-access) | 으 |
 | 10/2/2020 | [팀에서 게스트 사용자 보기](/MicrosoftTeams/view-guests) | 으 |
-
-
-## <a name="week-of-september-21-2020"></a>1 월 21 일 (2020)
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 9/21/2020 | [관리 교육 리소스-Microsoft 팀](/MicrosoftTeams/itadmin-readiness) | 으 |
-| 9/21/2020 | [관리 콘솔에서 팀 의료 템플릿 사용](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 으 |
-| 9/21/2020 | [관리 콘솔에서 일반 팀 서식 파일 사용](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | 으 |
-| 9/21/2020 | [팀 서식 파일을 사용 하 여 새 팀 만들기](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 으 |
-| 9/21/2020 | [관리 콘솔에서 팀 제조 템플릿을 시작 하세요.](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 으 |
-| 9/21/2020 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 으 |
-| 9/21/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
-| 9/21/2020 | [관리 콘솔에서 팀 소매 서식 파일 사용](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | 으 |
-| 9/21/2020 | [Exchange 및 Microsoft 팀의 상호 작용 방식](/MicrosoftTeams/exchange-teams-interact) | 으 |
-| 9/21/2020 | [Microsoft 팀을 위한 클라우드 비디오 Interop](/MicrosoftTeams/cloud-video-interop) | 으 |
-| 9/21/2020 | [알려진 문제](/MicrosoftTeams/rooms/known-issues) | 으 |
-| 9/21/2020 | [팀 연락처 센터](/MicrosoftTeams/teams-contact-center) | 으 |
-| 9/21/2020 | [Microsoft 365 및 사용자 지정 커넥터 사용](/MicrosoftTeams/office-365-custom-connectors) | 으 |
-| 9/21/2020 | [Microsoft 팀의 앱, 인공 & 커넥터](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으 |
-| 9/21/2020 | [오디오 회의 설정 구성 - Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 으 |
-| 9/21/2020 | [Microsoft Teams용 클라이언트 다운로드](/MicrosoftTeams/get-clients) | 으 |
-| 9/21/2020 | [Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으 |
-| 9/22/2020 | [특정 사용자에게 SharePoint 엑세스 차단하기](/MicrosoftTeams/block-access-sharepoint) | 으 |
-| 9/22/2020 | [Microsoft 팀에서 기본 제공 및 사용자 지정 탭 사용](/MicrosoftTeams/built-in-custom-tabs) | 으 |
-| 9/22/2020 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 으 |
-| 9/22/2020 | [Microsoft Teams에서의 모임 및 회의](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 으 |
-| 9/22/2020 | [Microsoft 팀 관리 문서 # < 60 문자](/MicrosoftTeams/index) | 으 |
-| 9/22/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 9/22/2020 | [Microsoft 팀을 위한 고급 통신 추가 기능](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 으 |
-| 9/22/2020 | [Microsoft Teams 예비 환경 관리](/MicrosoftTeams/teams-exploratory) | 으 |
-| 9/22/2020 | [Microsoft 팀에서 실시간 이벤트 설정 구성](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 으 |
-| 9/22/2020 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 으 |
-| 9/22/2020 | [Microsoft Teams에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 으 |
-| 9/22/2020 | [Microsoft 팀 live 이벤트는 무엇 인가요?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 으 |
-| 9/22/2020 | [빠른 시작-Microsoft 교육 관리자 용 팀](/MicrosoftTeams/teams-quick-start-edu) | 으 |
-| 9/22/2020 | [Microsoft 팀에 대 한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
-| 9/22/2020 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
-| 9/22/2020 | [Ignite 2020의 팀 세션](/MicrosoftTeams/ignite-2020-landing-page) | 으 |
-| 9/22/2020 | [클라우드 자동 전화 교환이란?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 으 |
-| 9/23/2020 | [Microsoft 팀에서 콘텐츠 내보내기 Api 내보내기](/MicrosoftTeams/export-teams-content) | 으 |
-| 9/23/2020 | [오디오 회의 일반적인 질문](/MicrosoftTeams/audio-conferencing-common-questions) | 으 |
-| 9/23/2020 | [Microsoft 팀의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 으 |
-| 9/23/2020 | [관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트](/MicrosoftTeams/quick-start-meetings-live-events) | 으 |
-| 9/23/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
-| 9/23/2020 | [최신 인증을 사용하여 Teams에 로그인](/MicrosoftTeams/sign-in-teams) | 으 |
-| 9/24/2020 | [Microsoft 365 그룹 및 Microsoft 팀](/MicrosoftTeams/office-365-groups) | 으 |
-| 9/24/2020 | [직접 라우팅이 있는 오디오 회의, GCCH 및 DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | 으 |
-| 9/24/2020 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 으 |
-| 9/24/2020 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 으 |
-| 9/24/2020 | [RealWear 클라이언트용 Microsoft Teams에 대한 IT 관리자 정보(미리보기)](/MicrosoftTeams/flw-realwear) | 으 |
-| 9/24/2020 | [EDU 관리자용 Microsoft Teams 정책 및 정책 패키지](/MicrosoftTeams/policy-packages-edu) | 으 |
-| 9/24/2020 | [Microsoft 팀 대화방 계정 구성](/MicrosoftTeams/rooms/rooms-configure-accounts) | 으 |
-| 9/24/2020 | [Microsoft 팀의 Walkie Talkie 응용 프로그램](/MicrosoftTeams/walkie-talkie) | 으 |
-| 9/24/2020 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 으 |
-| 9/24/2020 | [모임 녹음/녹화에 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 으 |
-| 9/25/2020 | [환자 App 및 EHR integration DSTU2 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 으 |
-| 9/25/2020 | [환자 앱을 FHIR용 Azure API에 연결](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 으 |
-| 9/25/2020 | [팀 용 환자 앱 관리자 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 으 |
-| 9/25/2020 | [환자 앱 개요](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 으 |
-| 9/25/2020 | [팀 IT 및 규정 준수 관리자를 위한 환자 앱 감사 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 으 |
-| 9/25/2020 | [환자 App 및 EHR integration STU3 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 으 |
-| 9/25/2020 | [의료 조직을 위한 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 으 |
-| 9/25/2020 | [Microsoft 팀의 id 모델 및 인증](/MicrosoftTeams/identify-models-authentication) | 으 |
-| 9/25/2020 | [조직의 목록 앱 관리](/MicrosoftTeams/manage-lists-app) | 으 |
-| 9/25/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |

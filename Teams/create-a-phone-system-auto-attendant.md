@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48820023"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48840418"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -199,7 +199,10 @@ ms.locfileid: "48820023"
 외부 전화 번호로 통화를 전송할 때 자동 전화 교환 또는 통화 대기열과 연결 된 리소스 계정에는 전화 번호와 Microsoft 365 전화 시스템-가상 사용자 라이선스가 있어야 합니다. 업데이트로
 
 - 통화 요금제 번호가 있는 자원 계정의 경우, [통화 요금제](calling-plans-for-office-365.md) 라이선스를 할당 합니다.
+  - 외부 전송 전화 번호는 E-164 형식으로 입력 해야 합니다 (+ CC + phone_number).
+
 - 직접 라우팅 번호가 있는 리소스 계정의 경우 [온라인 음성 라우팅 정책을](manage-voice-routing-policies.md)할당 합니다.
+  - 외부 전송 전화 번호 형식은 [SBC (세션 경계 컨트롤러)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) 설정에 따라 달라 집니다.
 
 표시 되는 아웃 바운드 전화 번호는 다음과 같이 결정 됩니다.
 

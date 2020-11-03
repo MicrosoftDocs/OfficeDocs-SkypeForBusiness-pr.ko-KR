@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft 팀을 위한 서비스 (CCaaS) 솔루션의 통합 된 연락처 센터 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f0989c8fade3461418e86713dfb758bc7dfbbcc
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 0fb65edc260c5a91ee51a32c6c3796e2773ba179
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424628"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827742"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 팀에 대 한 연락처 센터 통합
 
@@ -54,6 +54,7 @@ Api를 통해 파트너는 팀의 솔루션으로 CCaaS 개발 하 고 통합할
 | Landis 기술 | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | 멋진 연락처 | https://www.niceincontact.com/microsoft-teams                                                            |
+| Novomind | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 이 목록은 더 많은 파트너가 참가 하 고 인증 기준을 충족 하면 업데이트 됩니다.
@@ -90,19 +91,19 @@ Microsoft 팀은 다음을 포함 하 여 타사 음성 솔루션의 개발을 �
 
 다음은이 통합 모델의 기능 기능에 대 한 포괄적인 목록이 아니지만 포커스 영역은 다음과 같습니다.
 
-  - 에이전트가 통합 CCaaS 클라이언트로 Microsoft 테 넌 트에 연결할 수 있도록 하는 Office 365 authN 
+  - 에이전트가 통합 CCaaS 클라이언트로 Microsoft 테 넌 트에 연결할 수 있도록 하는 Office 365 authN 
 
-  - 팀 사용자의 현재 상태 표시 
+  - 팀 사용자의 현재 상태 표시 
 
-  - 직접 라우팅을 통한 통화 흐름 (테스트 계획에 표시 됨) 
+  - 직접 라우팅을 통한 통화 흐름 (테스트 계획에 표시 됨) 
 
-  - 팀 사용자와의 전송 및 그룹 통화 지원 
+  - 팀 사용자와의 전송 및 그룹 통화 지원 
 
-  - 팀과 통합할 Api 및 클라우드 통신 Api를 그래프로 그래프 
+  - 팀과 통합할 Api 및 클라우드 통신 Api를 그래프로 그래프 
 
-  - 파트너의 SBC에서 여러 고객을 지원 하기 위해 다중 테 넌 트 SIP 트렁크 지원할 수 있습니다.  
+  - 파트너의 SBC에서 여러 고객을 지원 하기 위해 다중 테 넌 트 SIP 트렁크 지원할 수 있습니다.  
 
-  - [ <span class="underline">MICROSOFT의 SBC (인증 된 세션 경계 컨트롤러)</span> 를 구현 하는 파트너](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - [ <span class="underline">MICROSOFT의 SBC (인증 된 세션 경계 컨트롤러)</span> 를 구현 하는 파트너](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>연결 및 확장
 
@@ -116,11 +117,11 @@ Microsoft 팀은 다음을 포함 하 여 타사 음성 솔루션의 개발을 �
 
 다음은이 통합 모델의 기능 기능에 대 한 포괄적인 목록이 아니지만 주요 포커스 영역을 강조 표시 합니다.
 
-  - 팀과 통합할 Api 및 클라우드 통신 Api를 그래프로 그래프 
+  - 팀과 통합할 Api 및 클라우드 통신 Api를 그래프로 그래프 
 
-  - 팀 기반 에이전트 환경에 대 한 앱 
+  - 팀 기반 에이전트 환경에 대 한 앱 
 
-  - 팀의 에이전트에 대 한 기본 호출 끝점 
+  - 팀의 에이전트에 대 한 기본 호출 끝점 
 
   - 모든 통화 컨트롤에 대 한 팀 클라이언트 통화
 
@@ -128,9 +129,9 @@ Microsoft 팀은 다음을 포함 하 여 타사 음성 솔루션의 개발을 �
 
   - 팀 내의 CCaaS 앱 내 에이전트에 대 한 분석, 워크플로 관리, 역할 기반 환경
 
-  - 팀 클라이언트와 통합 된 채팅 및 공동 작업 환경 
+  - 팀 클라이언트와 통합 된 채팅 및 공동 작업 환경 
 
-  - 모든 앱에서 팀의 성능 및 품질 클라이언트 환경 유지  
+  - 모든 앱에서 팀의 성능 및 품질 클라이언트 환경 유지  
 
 ### <a name="extend-and-power"></a>확장 및 전원
 
@@ -144,13 +145,13 @@ Azure에서 직접 빌드를 수행 하면 파트너는 모든 팀 지역 및 �
 
 다음은이 통합 모델에 대 한 기능 기능을 포괄적으로 나열 하는 것이 아니지만, 이러한 강조 영역은 연결 및 확장 모델에서 제공 하는 영역과 함께 표시 됩니다.
 
-  - 팀 SDK를 통한 omni 채널 통신에 기본적으로 사용 되는 공식적인 에이전트 환경 
+  - 팀 SDK를 통한 omni 채널 통신에 기본적으로 사용 되는 공식적인 에이전트 환경 
 
-  - 팀 공동 작업 서비스를 활용 하 여 에이전트 공동 작업 및 고객 상호 작용  
+  - 팀 공동 작업 서비스를 활용 하 여 에이전트 공동 작업 및 고객 상호 작용  
 
-  - 클라우드 서비스의 신속한 프로비저닝, 어디서 나 배포 
+  - 클라우드 서비스의 신속한 프로비저닝, 어디서 나 배포 
 
-  - 팀 대화 중에 사용자와 직접 대화 제어 및 조작 
+  - 팀 대화 중에 사용자와 직접 대화 제어 및 조작 
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>연결 된 연락처 센터 통합 모델 비교
 
@@ -160,10 +161,10 @@ Microsoft 팀이 지 원하는 통합 모델에 대 한 개요는 아래 표를 
 <thead>
 <tr class="header">
 <th></th>
-<th><strong>팀 음성 앱</strong></th>
-<th><strong>연결은</strong></th>
-<th><strong>연결 + 확장</strong></th>
-<th><strong>확장 + 전원</strong></th>
+<th>팀 음성 앱</th>
+<th>연결은</th>
+<th>늘리려면</th>
+<th>켜십시오</th>
 </tr>
 </thead>
 <tbody>
@@ -210,7 +211,8 @@ Microsoft 팀이 지 원하는 통합 모델에 대 한 개요는 아래 표를 
 <td>플랫폼<br />
 (통화 계획 + DR)</td>
 <td>직접 라우팅</td>
-<td>직접 라우팅</td>
+<td>플랫폼<br />
+(통화 계획 + DR)</td>
 <td>플랫폼<br />
 (통화 계획 + DR)</td>
 </tr>

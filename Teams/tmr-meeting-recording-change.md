@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778861"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827752"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
@@ -110,7 +110,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |내부 파티와의 1:1 통화             |호출인                 |발신자의 비즈니스용 OneDrive 계정                        |호출자가 소유자이 고 모든 권한이 있습니다. <br /><br />호출 수신자 (같은 테 넌 트에 있는 경우)에 읽기 전용 권한이 있고, 공유 액세스 권한이 없음 <br /><br /> 호출 수신자 (다른 테 넌 트에 있는 경우)는 액세스 권한이 없습니다. 호출자는이를 피호출자와 공유 해야 합니다.|
 |내부 파티와의 1:1 통화             |피호출자                 |피호출자의 비즈니스용 OneDrive 계정                        |피호출자가 소유자이 고 모든 권한이 있습니다. <br /><br />발신자 (동일한 테 넌 트에 읽기 전용 액세스 권한이 있는 경우 공유 액세스 없음 <br /><br />발신자 (다른 테 넌 트에 있는 경우)는 액세스 권한이 없습니다. 피호출자가이를 피호출자와 공유 해야 합니다.|
 |1:1 통화 (외부 통화 포함)             |호출인                 |발신자의 비즈니스용 OneDrive 계정                        |호출자가 소유자이 고 모든 권한이 있습니다.<br /> <br />피호출자는 액세스 권한이 없습니다. 호출자는이를 피호출자와 공유 해야 합니다.|
-|1:1 통화 (외부 통화 포함)             |피호출자                 |발신자의 비즈니스용 OneDrive 계정                        | 피호출자가 소유자이 고 모든 권한이 있습니다.<br /><br />발신자에 대 한 액세스 권한이 없습니다. 피호출자가이를 호출자에 게 공유 해야 합니다.|
+|1:1 통화 (외부 통화 포함)             |피호출자                 |피호출자의 비즈니스용 OneDrive 계정                        | 피호출자가 소유자이 고 모든 권한이 있습니다.<br /><br />발신자에 대 한 액세스 권한이 없습니다. 피호출자가이를 호출자에 게 공유 해야 합니다.|
 |그룹 통화                                 |통화의 모든 구성원 |Record의 비즈니스용 OneDrive 계정에서 클릭 한 구성원  |레코드를 클릭 한 구성원에 게 모든 권한이 있음 <br /><br /> 같은 테 넌 트의 다른 구성원에 게 읽기 권한이 있음 <br /><br /> 다른 테 넌 트의 다른 멤버에 대 한 권한은 없습니다.|
 |임시/예약 된 모임                    |구성 도우미              |조직자의 비즈니스용 OneDrive 계정                     | 이끌이는 녹음/녹화에 대 한 모든 권한을 가집니다. <br /><br /> 모임의 다른 모든 구성원은 읽기 권한을 가집니다.|
 |임시/예약 된 모임                    |다른 모임 구성원   |레코드를 클릭 한 구성원                                  | 레코드를 클릭 한 구성원에 게는 기록에 대 한 모든 권한이 있습니다. <br />이끌이는 편집 권한을 가지 며 공유할 수 있습니다. <br /><br /> 다른 모든 구성원은 읽기 권한이 있습니다.|
