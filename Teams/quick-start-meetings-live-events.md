@@ -1,7 +1,7 @@
 ---
 title: 관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트
 ms.reviewer: ''
-description: Microsoft Teams의 모임 및 라이브 이벤트를 빠르게 시작해 보세요.
+description: Microsoft Teams에서 온라인 모임 및 라이브 이벤트에 대한 라이선스를 받고, 배포 및 구성할 수 있는 관리자를 위한 빠른 시작 가이드입니다.
 ms.topic: article
 author: SerdarSoysal
 ms.author: serdars
@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 4a825518748ec4c755b966f43a27027779bc69ea
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739396"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878662"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트
 
@@ -31,9 +31,9 @@ Microsoft Teams 모임의 두 가지 방법 - 모임 및 라이브 이벤트 해
 > [!Note]
 > 여러 플랫폼에서 Teams 모임 및 이벤트를 신속하게 구성에 대한 자세한 내용은 [플랫폼별 Teams 기능을 참조](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)하세요.
 
- - Teams의 **모임**에는 최대 300명의 사용자를 위한 음성, 영상 및 화면 공유 기능이 포함됩니다. Teams에서 공동 작업하는 주요 방법 중 하나입니다. 조직의 구성원이나 심지어 Teams 계정이 없어도 Teams 모임에 참여할 수 있습니다. 참여에 대한 지침은 초대를 참조하세요.
+ - Teams의 **모임** 에는 최대 300명의 사용자를 위한 음성, 영상 및 화면 공유 기능이 포함됩니다. Teams에서 공동 작업하는 주요 방법 중 하나입니다. 조직의 구성원이나 심지어 Teams 계정이 없어도 Teams 모임에 참여할 수 있습니다. 참여에 대한 지침은 초대를 참조하세요.
 
- - **라이브 이벤트**는 대규모 온라인 사용자(최대 10,000명)에게 스트리밍되는 이벤트를 예약하고 생성할 수 있게 해 주는 Teams 모임의 확장입니다. 300명 이상의 사용자를 위한 모임을 필요로 하는 경우에는 라이브 이벤트를 사용하세요.
+ - **라이브 이벤트** 는 대규모 온라인 사용자(최대 10,000명)에게 스트리밍되는 이벤트를 예약하고 생성할 수 있게 해 주는 Teams 모임의 확장입니다. 300명 이상의 사용자를 위한 모임을 필요로 하는 경우에는 라이브 이벤트를 사용하세요.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>모임 및 라이브 이벤트에 대한 라이선스 받기
 
@@ -51,7 +51,7 @@ Microsoft Teams 모임의 두 가지 방법 - 모임 및 라이브 이벤트 해
 
 ## <a name="make-sure-your-networks-ready"></a>네트워크 준비 상태를 확인하세요.
 
-Microsoft 365 또는 Office 365를 배포할 때 네트워크가 이미 준비된 경우 모두 설정되어 있을 수 있습니다. 경우에 따라 특히 **원격 작업자**를 지원하기 위해 첫 Office 365 워크로드로서 Teams를 빠르게 배포하는 경우 준비를 확실히 하려면 [Teams에 대해 조직 네트워크 준비](prepare-network.md)를 참조하세요.
+Microsoft 365 또는 Office 365를 배포할 때 네트워크가 이미 준비된 경우 모두 설정되어 있을 수 있습니다. 경우에 따라 특히 **원격 작업자** 를 지원하기 위해 첫 Office 365 워크로드로서 Teams를 빠르게 배포하는 경우 준비를 확실히 하려면 [Teams에 대해 조직 네트워크 준비](prepare-network.md)를 참조하세요.
 
 ## <a name="meetings-and-conferencing"></a>모임 및 모임
 

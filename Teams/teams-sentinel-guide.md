@@ -19,16 +19,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 310105abaa5a5c545bdb85963bb14796c630bf66
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 6aa8e733aeb3828bb1815001ba0299a9ee1aaf78
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121628"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852149"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 및 Microsoft Teams
 
-Teams는 Microsoft 365 클라우드의 커뮤니케이션 및 데이터 공유 모두에서 중심 역할을 수행합니다. Teams 서비스는 클라우드에서 많은 기반 기술을 사용하므로 *로그에서 헌팅*을 하는 경우 외에 *모임의 실시간 모니터링*에도 사용자와 자동화된 분석을 활용할 수 있습니다. Azure Sentinel은 관리자에게 이러한 솔루션을 제공합니다.
+Teams는 Microsoft 365 클라우드의 커뮤니케이션 및 데이터 공유 모두에서 중심 역할을 수행합니다. Teams 서비스는 클라우드에서 많은 기반 기술을 사용하므로 *로그에서 헌팅* 을 하는 경우 외에 *모임의 실시간 모니터링* 에도 사용자와 자동화된 분석을 활용할 수 있습니다. Azure Sentinel은 관리자에게 이러한 솔루션을 제공합니다.
 
 > [!NOTE]
 > Azure Sentinel에 대한 복습이 필요한가요? [이 문서](https://docs.microsoft.com/azure/sentinel/overview)를 참고하시면 됩니다.
@@ -44,41 +44,41 @@ Teams는 Microsoft 365 클라우드의 커뮤니케이션 및 데이터 공유 �
 
 이 섹션에는 세 가지 부분이 있습니다.
 
-1. **Microsoft 365**(M365)에서 감사 로그를 사용합니다.
-2. **Microsoft Azure**에서 앱을 등록하여 로그 수집에 대한 인증 및 권한을 허용합니다. 
-3. **PowerShell**을 통해 M365 API를 통해 로그 수집을 허용하는 API 구독을 등록합니다.
+1. **Microsoft 365** (M365)에서 감사 로그를 사용합니다.
+2. **Microsoft Azure** 에서 앱을 등록하여 로그 수집에 대한 인증 및 권한을 허용합니다. 
+3. **PowerShell** 을 통해 M365 API를 통해 로그 수집을 허용하는 API 구독을 등록합니다.
 
 ### <a name="enable-audit-logs-in-m365"></a>M365에서 감사 로그 사용
 
-Teams가 M365를 통해 활동을 기록하기 때문에 감사 로그가 기본적으로 수집되지 않습니다. [이러한 단계](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)를 통해 이 기능을 설정합니다. Teams 데이터는 *Audit.General*의 M365 감사에서 수집됩니다.
+Teams가 M365를 통해 활동을 기록하기 때문에 감사 로그가 기본적으로 수집되지 않습니다. [이러한 단계](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)를 통해 이 기능을 설정합니다. Teams 데이터는 *Audit.General* 의 M365 감사에서 수집됩니다.
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>M로그 수집을 위해 Microsoft Azure에서 앱 등록
 
 > [!TIP]
-> 시작하기 전에 **응용 프로그램 ID/클라이언트 ID**와 **테넌트 ID**를 나중에 사용할 수 있도록 기록해야 합니다. 아래에서 앱 등록 단계를 안내하는 단계를 수행하면서 이러한 정보를 반드시 캡처하세요. 두 ID가 모두 표시됩니다.
+> 시작하기 전에 **응용 프로그램 ID/클라이언트 ID** 와 **테넌트 ID** 를 나중에 사용할 수 있도록 기록해야 합니다. 아래에서 앱 등록 단계를 안내하는 단계를 수행하면서 이러한 정보를 반드시 캡처하세요. 두 ID가 모두 표시됩니다.
 >- 앱을 만든 후 빠른 실행 사이드바에서 앱 등록 > 새 앱의 표시 이름 찾기 > 응용 프로그램(클라이언트) ID 복사를 클릭합니다.
 >- 빠른 실행 사이드바에서 개요 > 디렉터리(테넌트) ID 복사를 클릭합니다.
 
 API에서 로그 데이터를 수집하기 위해 Azure AD(Active Directory) 앱을 인증하고 권한을 부여합니다.
 
 1. Azure Portal에서 *Azure AD* 블레이드로 이동합니다.
-2. 빠른 실행 사이드바에서 *앱 등록*을 클릭합니다.
-3. *새 등록*을 선택합니다.
-4. Teams 로그 수집 앱 이름을 지정하고 *등록*을 클릭합니다.
-5. 다음 경로를 클릭합니다. *API 사용 권한* > *사용 권한 추가* > *Office 365 관리 API* > *응용 프로그램 사용 권한*을 클릭합니다.
-6. 활동 피드를 확장하고 *ActivityFeed.Read*를 확인합니다.
-7. 여기서 *그랜드 관리자 동의*를 선택합니다. 정말로 선택하기를 원하는지 묻는 메시지가 나타나면 예를 클릭합니다.
+2. 빠른 실행 사이드바에서 *앱 등록* 을 클릭합니다.
+3. *새 등록* 을 선택합니다.
+4. Teams 로그 수집 앱 이름을 지정하고 *등록* 을 클릭합니다.
+5. 다음 경로를 클릭합니다. *API 사용 권한* > *사용 권한 추가* > *Office 365 관리 API* > *응용 프로그램 사용 권한* 을 클릭합니다.
+6. 활동 피드를 확장하고 *ActivityFeed.Read* 를 확인합니다.
+7. 여기서 *그랜드 관리자 동의* 를 선택합니다. 정말로 선택하기를 원하는지 묻는 메시지가 나타나면 예를 클릭합니다.
 8. 사이드바에서 *인증서와 암호* > *새 클라이언트 암호* 단추를 클릭합니다.
-9. 새 클라이언트 암호 창에서 새 클라이언트 암호에 대한 설명을 입력하고, 만료는 '안 함'을 선택하고 *추가*를 클릭합니다.
+9. 새 클라이언트 암호 창에서 새 클라이언트 암호에 대한 설명을 입력하고, 만료는 '안 함'을 선택하고 *추가* 를 클릭합니다.
 
 > [!IMPORTANT]
-> 새 클라이언트 암호를 새로 만든 앱의 이름 아래에 있는 암호 관리자 항목에 복사하는 것은 매우 **중요**합니다. Azure 블레이드를 닫은 후에는(*블레이드*는 창에 대한 Azure 용어) 이 암호를 확인하러 돌아갈 수 없습니다. 
+> 새 클라이언트 암호를 새로 만든 앱의 이름 아래에 있는 암호 관리자 항목에 복사하는 것은 매우 **중요** 합니다. Azure 블레이드를 닫은 후에는( *블레이드* 는 창에 대한 Azure 용어) 이 암호를 확인하러 돌아갈 수 없습니다. 
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>Teams 로그 수집을 위해 PowerShell에 API 등록
 
 설치의 마지막 단계는 로그 데이터를 수집할 수 있도록 API 구독을 수집하고 등록하는 것입니다. M365 관리 활동 API에 대한 PowerShell REST 호출을 통해 이 작업을 수행할 수 있습니다.
 
-아래 PowerShell cmdlet에서 **응용 프로그램(클라이언트) ID**, 새 **클라이언트 암호**, **M365에 다한 URL 도메인**, 그리고 **디렉터리(테넌트) ID** 값을 제공할 준비를 합니다.
+아래 PowerShell cmdlet에서 **응용 프로그램(클라이언트) ID** , 새 **클라이언트 암호** , **M365에 다한 URL 도메인** , 그리고 **디렉터리(테넌트) ID** 값을 제공할 준비를 합니다.
 
 ```PowerShell
 $ClientID = "<Application (client) ID>"  
@@ -148,7 +148,7 @@ Azure Sentinel 플레이북(논리 앱이라고도 함)은 Azure을 통해 수�
   </details>
 
 > [!TIP]
-> 이러한 로그를 수집하기 위해 대신 *Azure 함수*를 사용하도록 선택할 수 있고, 선택하는 경우의 배포 방법에 대한 정보는 기본 설정에 따라 [여기](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20Data) 혹은 [여기](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20DataCSharp)에 있습니다.
+> 이러한 로그를 수집하기 위해 대신 *Azure 함수* 를 사용하도록 선택할 수 있고, 선택하는 경우의 배포 방법에 대한 정보는 기본 설정에 따라 [여기](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20Data) 혹은 [여기](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20DataCSharp)에 있습니다.
 
 (사용자가 위에서 선택한 옵션에 상관없이) 커넥터를 실행하는 경우, Azure Sentinel 작업 영역에 O365API_CL이라는 사용자 지정 표가 표시됩니다. 여기에 Teams 로그가 보관됩니다.
 
@@ -165,7 +165,7 @@ Microsoft Teams와 관련된 공격, 데이터에 대한 위협과 관련하여,
 > [!NOTE]
 > KQL 함수는 '함수'라는 데이터 형식으로 저장된 KQL 쿼리입니다. KQL 함수는 Sentinel의 쿼리 상자에 입력하여 쿼리를 신속하게 다시 실행할 수 있는 별칭이 있습니다. KQL 함수 및 파서 함수를 빌드하는 방법에 대한 자세한 내용은 [이 기술 커뮤니티 문서](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381)를 읽어보세요.
  
- 아래 파서는 *Teams*와 관련된 Office 365 관리 API 필드의 하위 집합을 선택할 목적의 사용자 지정이 가능한 예시입니다. 또한 제안된 파서 [GitHub](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt)가 있지만 아래의 파서는 다양 한 요구 사항 및 기본 설정에 맞게 수정할 수 있습니다.
+ 아래 파서는 *Teams* 와 관련된 Office 365 관리 API 필드의 하위 집합을 선택할 목적의 사용자 지정이 가능한 예시입니다. 또한 제안된 파서 [GitHub](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt)가 있지만 아래의 파서는 다양 한 요구 사항 및 기본 설정에 맞게 수정할 수 있습니다.
 
 ```kusto
 O365API_CL
@@ -182,7 +182,7 @@ O365API_CL
 ```
  TeamsData의 별칭을 사용하여 이 파서를 KQL 함수로 저장합니다. 따를 쿼리에 사용됩니다. KQL 함수를 구문으로 구성하고 사용하는 방법에 대한 자세한 내용은 이 [기술 커뮤니티 문서](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381)를 참조하세요.
 
-## <a name="helfpul-hunting-kql-queries"></a>유용한 헌팅 KQL 쿼리
+## <a name="helpful-hunting-kql-queries"></a>유용한 헌팅 KQL 쿼리
 
 이 쿼리를 사용하여 Teams 데이터와 Teams 환경에 익숙해지도록 합니다. 환경의 모양과 작동 방식을 아는 것은 의심스러운 활동을 인식하는 데 바람직한 첫 단계입니다. 여기서 위협 헌팅으로 분기할 수 있습니다.
 

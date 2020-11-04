@@ -14,15 +14,16 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Microsoft 365 Business Voice의 개요 및 중소기업이 보다 효과적으로 통신을 하는 데 도움을 주는 방법.
+description: Microsoft 365 Business Voice는 중소 기업이 더욱 효과적으로 커뮤니케이션하는 데 사용할 수 있는 저렴한 음성 통화 옵션입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0c05df37c54fb63b885c4e67fda36a1f000b92f
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: d94af2d1e02f7d0443436189466fdb4976f912a2
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170617"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878602"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice란 무엇인가요?
 
@@ -71,7 +72,7 @@ Business Voice를 구입하면 다음과 같은 기능 등을 사용할 수 있�
         </td>
     </tr>
     <tr>
-        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">음성 회의</a></b>
+        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">오디오 회의</a></b>
         </td>
         <td>음성 회의를 사용하면 Teams를 가지고 있지 않거나 인터넷에 연결되어 있지 않은 사용자와도 음성 회의를 주최할 수 있습니다.
         </td>
@@ -79,3 +80,4 @@ Business Voice를 구입하면 다음과 같은 기능 등을 사용할 수 있�
 </table>
 
 [Microsoft 365 Business Voice 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)을 방문하여 Business Voice에 포함된 모든 기능을 확인할 수 있습니다.
+

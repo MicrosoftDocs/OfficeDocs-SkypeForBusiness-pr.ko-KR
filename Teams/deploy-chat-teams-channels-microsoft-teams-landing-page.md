@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서의 채팅, 팀, 채널 & 앱
+title: Microsoft Teams에서의 채팅, 팀, 채널 및 앱
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 조직의 프로필 및 비즈니스 요구 사항에 따라 Microsoft Teams에서 채팅, 팀, 채널 및 앱을 롤아웃하기 위한 단계별 지침.
+description: Microsoft Teams의 채팅, 팀, 앱 및 채널에 대한 Teams 설정을 구성하기 위한 단계별 지침이 포함되어 있습니다.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -19,14 +19,15 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+- seo-marvel-may2020
+ms.openlocfilehash: ac9c1d78c7960ebadfc590b87a6007286bc43209
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820512"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878532"
 ---
-# <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
+# <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 및 앱
 
 Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경을 제공하고 대부분의 조직에 그 기본 설정이 적합합니다. 이 문서에서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 설정을 변경할지 여부를 결정 하는데 도움을 주고 각 변경 내용에 대해 설명을 합니다. 당사는 사용자가 [변경할 가능성이 큰](#core-deployment-decisions) 변경 내용의 핵심 집합에서 시작하여 설정을 두 그룹으로 나누었습니다. 두 번째 그룹은 조직의 요구 사항에 따라 구성하고자 하는 [추가 설정](#additional-deployment-decisions)을 포함합니다.
 
@@ -80,7 +81,7 @@ Teams는 조직의 팀을 관리하는데 사용할 수 있는 사용자 지정 
 
 ### <a name="messaging-policies"></a>메시징 정책
 
-메시징 정책은 Teams에서 사용자에게 제공되는 채팅 및 채널 메시징 기능을 제어합니다. 예를 들어 보낸 메시지를 편집하고 삭제할 수 있는 사용자, 채팅을 사용할 수 있는 사용자, 대화에서 밈를 사용할 수 있는 사용자 등이 있습니다. 기본적으로 사용자에게는 전역 메시징 정책이 할당되고 모든 기능은 **켜짐**으로 되어있습니다. 조직의 사용자에게 기본 전역 정책을 사용하거나 하나 혹은 이상의 사용자 지정 메시징 정책을 만들 수 있습니다. 
+메시징 정책은 Teams에서 사용자에게 제공되는 채팅 및 채널 메시징 기능을 제어합니다. 예를 들어 보낸 메시지를 편집하고 삭제할 수 있는 사용자, 채팅을 사용할 수 있는 사용자, 대화에서 밈를 사용할 수 있는 사용자 등이 있습니다. 기본적으로 사용자에게는 전역 메시징 정책이 할당되고 모든 기능은 **켜짐** 으로 되어있습니다. 조직의 사용자에게 기본 전역 정책을 사용하거나 하나 혹은 이상의 사용자 지정 메시징 정책을 만들 수 있습니다. 
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -91,7 +92,7 @@ Teams는 조직의 팀을 관리하는데 사용할 수 있는 사용자 지정 
 
 ### <a name="external-access"></a>외부 액세스
 
-외부 액세스 (이전에는 페더레이션으로 알려짐)를 사용하면 Teams와 비즈니스용 Skype 사용자가 조직 외부의 사용자와 통신할 수 있습니다. 이 기능을 켜고 허용 목록에 도메인을 추가하면 사용자가 다른 도메인 및 조직의 사용자와 통신할 수 있습니다.외부 액세스는 개인이 아니라 전체 도메인에 대 한 액세스 권한이 부여된다는 점에서 게스트 액세스와는 다릅니다. 외부 액세스 기능은 기본적으로 꺼져있습니다.
+외부 액세스 (이전에는 페더레이션으로 알려짐)를 사용하면 Teams와 비즈니스용 Skype 사용자가 조직 외부의 사용자와 통신할 수 있습니다. 이 기능을 켜고 허용 목록에 도메인을 추가하면 사용자가 다른 도메인 및 조직의 사용자와 통신할 수 있습니다. 외부 액세스는 개인이 아니라 전체 도메인에 대한 액세스 권한이 부여된다는 점에서 게스트 액세스와는 다릅니다. 외부 액세스 기능은 기본적으로 꺼져있습니다.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -114,7 +115,7 @@ Teams에서 게스트 액세스를 사용하여 조직 외부의 개인 사용�
 
 ### <a name="teams-settings"></a>Teams 설정
 
-Teams 설정을 사용하여 팀에 전자 메일의 통합, 클라우드 저장소 옵션, 조직 탭, 회의실 장치 설정 및 검색 범위와 같은 기능을 설정할 수 있습니다. 이러한 설정을 변경하면 변경 사항은 조직의 모든 팀에 적용됩니다.자세히 알아보려면 [Teams 설정](enable-features-office-365.md#teams-settings)을 참조하세요.
+Teams 설정을 사용하여 팀에 전자 메일의 통합, 클라우드 저장소 옵션, 조직 탭, 회의실 장치 설정 및 검색 범위와 같은 기능을 설정할 수 있습니다. 이러한 설정을 변경하면 변경 사항은 조직의 모든 팀에 적용됩니다. 자세히 알아보려면 [Teams 설정](enable-features-office-365.md#teams-settings)을 참조하세요.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -123,7 +124,7 @@ Teams 설정을 사용하여 팀에 전자 메일의 통합, 클라우드 저장
 
 ### <a name="teams-clients"></a>Teams 클라이언트
 
-Teams는 웹에서 데스크톱 그리고 모바일까지 여러 클라이언트를 지원하고, 그 기본 구성은 사용자가 원하는 클라이언트를 선택할 수 있도록 해줍니다.자세한 내용은 [Teams용 클라이언트 가져오기](get-clients.md)를 참조하세요.
+Teams는 웹에서 데스크톱 그리고 모바일까지 여러 클라이언트를 지원하고, 그 기본 구성은 사용자가 원하는 클라이언트를 선택할 수 있도록 해줍니다. 자세한 내용은 [Teams용 클라이언트 가져오기](get-clients.md)를 참조하세요.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -209,7 +210,7 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 
 ### <a name="archiving-and-compliance"></a>보관 및 규정 준수 
 
-조직에서 사용자에게 팀을 보관하는 방법과 특정 유형의 팀에 보유되는 데이터 유형에 대한 제어를 수행하도록 요구할 수도 있습니다. [Teams에서의 보안 및 규정 준수 개요](security-compliance-overview.md)를 참조하여 기본적으로 켜지는 설정에 대해 알아보세요.
+조직에서 사용자에게 팀을 보관하는 방법과 특정 유형의 팀에 보유되는 데이터 유형에 대한 제어를 수행하도록 요구할 수도 있습니다. [Teams에서의 보안 및 규정 준수 개요](security-compliance-overview.md)를 참조하여 기본적으로 켜지는 Teams 설정에 대해 알아보세요.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 관리자 교육
 ms.reviewer: ''
-description: 이 최종 사용자, 관리자 및 강사 주도 교육 리소스를 활용하여 조직에서 Microsoft Teams를 최대한 활용하는 데 도움을 받을 수 있습니다.
+description: 이 최종 사용자, 관리자, 강사 주도 교육 리소스 및 튜토리얼 비디오를 활용하여 조직에서 Microsoft Teams를 최대한 활용하는 데 도움을 받을 수 있습니다.
 ms.topic: overview
 author: msdmaguire
 ms.author: dmaguire
@@ -18,12 +18,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: f1215838081d6cab919999b7ccd91d061ce87321
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336977"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878352"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 교육
 
