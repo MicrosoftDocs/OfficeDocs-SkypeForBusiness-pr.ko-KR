@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
 audience: admin
-description: 감사 및 보고, 준수 콘텐츠 검색, eDiscovery 등의 Microsoft 팀의 보안 및 규정 준수 기능에 대해 간략하게 설명 합니다.
+description: 개인 정보 취급 방침, 암호화, 감사 및 보고 등 Microsoft 팀 보안 및 규정 준수 기능에 대해 간략하게 설명 합니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,19 +18,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 - seo-marvel-apr2020
+- seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c4e8905eaa3f77dd3c92ac26411bf5e5ebd05bf
-ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
+ms.openlocfilehash: 29b01d7418a194233f3205502134645526351dc4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429354"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878492"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
 > [!IMPORTANT]
-> **모든 사람이 공동으로 작업 하는 동안 보안**을 유지 하는 가장 좋은 방법을 알아보려면 다음 문서를 참조 하세요.
+> **모든 사람이 공동으로 작업 하는 동안 보안** 을 유지 하는 가장 좋은 방법을 알아보려면 다음 문서를 참조 하세요.
 >  - [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 >  - [VPN 분할 터널링을 사용하여 원격 사용자를 위해 Microsoft 365 혹은 Office 365 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - 업데이트 됨 2020 년 4 월 2 일: [팀 보안 가이드](teams-security-guide.md)
@@ -122,20 +123,20 @@ Microsoft 팀의 DLP (데이터 손실 방지)는 물론 Microsoft 365 또는 Of
 
 | |eDiscovery  |고급 eDiscovery  |
 |---------|---------|---------|
-|사례 관리     |X        |X         |
-|액세스 제어  |X         |X         |
-|콘텐츠 검색     |X         | X        |
-|보류 (s)   |X         | X        |
-|내보내기     |X         |X         |
-|중복 검색     |-         |X         |
-|기계 학습으로 관련성 검색    |-         |X         |
-|비구조적 데이터 분석      |-         |X         |
+|사례 관리     |축        |축         |
+|액세스 제어  |축         |축         |
+|콘텐츠 검색     |축         | 축        |
+|보류 (s)   |축         | 축        |
+|내보내기     |축         |축         |
+|중복 검색     |-         |축         |
+|기계 학습으로 관련성 검색    |-         |축         |
+|비구조적 데이터 분석      |-         |축         |
 
 ### <a name="legal-hold"></a>법률 보류
 
 소송 중에는 사용자에 연결 된 모든 데이터 (custodian) 또는 팀을 변경 되지 않은 상태로 유지 하 여 대/소문자에 대 한 증거로 사용할 수 있어야 할 수 있습니다. 이 작업은 사용자 (사용자 사서함) 또는 법률에 따라 팀 구성원을 배치 하 여 수행할 수 있습니다. 팀 법률을 유지 하기 위해 팀의 사서함을 다음 보류에 추가할 수 있습니다.
 
-- 원본 위치 유지 (대상 쿼리 또는 필터링 된 콘텐츠를 통한 사서함 또는 사이트 모음의 하위 집합은 보류 중) 또는
+- In-Place 보류 (대상 쿼리 또는 필터링 된 콘텐츠를 통한 사서함 또는 사이트 모음의 하위 집합은 보류 중) 또는
 - 소송 보존 (전체 사서함 또는 사이트 모음이 보류 상태에 배치 됨)
 
 두 경우 모두 보류를 설정한 후 최종 사용자가 그룹 사서함에 있는 채널 메시지를 삭제 하거나 편집 하더라도 해당 콘텐츠의 변경 되지 않은 복사본이 eDiscovery 검색을 통해 유지 관리 되 고 사용할 수 있도록 보장 합니다. 법률 보존은 일반적으로 eDiscovery 사례의 컨텍스트 내에서 적용 됩니다.
@@ -157,7 +158,11 @@ Microsoft 365 규정 준수 센터의 보존 및 유지에 대 한 자세한 내
 
 ## <a name="privacy"></a>개인 정보
 
-Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니다. 개인정보 보호 정책에 대 한 자세한 내용은 [Microsoft에서 개인정보 보호](https://www.microsoft.com/trust-center/privacy)정책을 참조 하세요.
+Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니다. 개인 정보 취급 방침에 대 한 자세한 내용은 다음을 참고 하세요.  
+
+- [Microsoft의 개인 정보](https://www.microsoft.com/trust-center/privacy)
+- [Microsoft 팀의 개인 정보 및 보안에 대 한 약정](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
+- [IT 전문가를 위한 IT: Microsoft 팀의 개인 정보 및 보안](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
 
 ## <a name="information-protection-architecture"></a>정보 보호 아키텍처
 
@@ -183,9 +188,9 @@ Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니
 
 ## <a name="location-of-data-in-teams"></a>Teams의 데이터 위치
 
-팀의 데이터는 Microsoft 365 또는 Office 365 조직과 연결 된 지리적 영역에 위치 합니다. 현재 지원 되는 영역을 확인 하려면 [Microsoft 팀에서 데이터의 위치](location-of-data-in-teams.md)를 검토 하세요.
+Teams의 데이터는 Microsoft 365 또는 Office 365 조직과 연결된 지리적 영역에 위치합니다. 현재 지원 되는 영역을 확인 하려면 [Microsoft 팀에서 데이터의 위치](location-of-data-in-teams.md)를 검토 하세요.
 
-테 넌 트에 대 한 데이터가 들어 있는 영역을 확인 해야 하는 경우 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)  >  **설정**  >  **조직 프로필로**이동 합니다. 아래로 스크롤하여 **데이터 위치로**이동 합니다.
+테 넌 트에 대 한 데이터가 들어 있는 영역을 확인 해야 하는 경우 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)  >  **설정**  >  **조직 프로필로** 이동 합니다. **데이터 위치** 로 스크롤 합니다.
 
 ![관리 센터의 팀을 비롯 한 데이터 위치 표 스크린샷](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

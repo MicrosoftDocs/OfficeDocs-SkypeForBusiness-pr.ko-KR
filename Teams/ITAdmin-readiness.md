@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft 팀을 계획, 배포 및 실행 하는 방법을 설명 하는 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: d6aee7356a682dcef8d052d450e6ae8809b4b20f
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48426933"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878372"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육 시작
 
@@ -33,7 +33,7 @@ ms.locfileid: "48426933"
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
 | ![손 모양 및 위쪽 화살표를 보여 주는 아이콘](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [몇 개의 팀과 채널을 사용 하 여 빠르게 시작 하세요.](/MicrosoftTeams/get-started-with-teams-quick-start) | ![두 사용자를 보여 주는 아이콘](https://docs.microsoft.com/office/media/icons/users-people.png) | [사용자를 위한 교육 받기](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![확인 표시 아이콘](https://docs.microsoft.com/office/media/icons/success-teams.png) | [YouTube의 클라우드 채널에서 커피에 대 한 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![작업 클립보드 기호](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30 개 팀: IT 관리자 및 변경 관리 팀장을 위한 교육 시리즈로 30 일간 팀을 구현](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+| ![확인 표시 아이콘](https://docs.microsoft.com/office/media/icons/success-teams.png) | [YouTube의 클라우드 채널에서 커피에 대 한 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![작업 클립보드 기호](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [팀 분필 통신: 인기 팀에 대 한 모범 사례 및 실제적인 지침 배우기 시나리오 살펴보기](https://aka.ms/TeamsChalkTalks) |
 
 <h2>기술 교육</h2>
 

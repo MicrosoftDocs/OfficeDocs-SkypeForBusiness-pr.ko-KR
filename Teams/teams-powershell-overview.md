@@ -13,16 +13,16 @@ ms.collection:
 description: PowerShell 컨트롤을 사용 하 여 Microsoft 팀을 관리 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5986a730ed678d45360d89efbd35693134c2a6a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 12360110df90fb5de2e3e4547534c8569cc5537a
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814367"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852159"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft 팀 PowerShell 개요
 
-Microsoft 팀 PowerShell은 PowerShell 명령줄에서 직접 팀을 관리 하는 cmdlet 집합입니다. .NET Standard로 작성 된 팀 PowerShell은 Azure Shell을 포함 하 여 모든 플랫폼에서 Windows, PowerShell 6. x 및 그 이상의 PowerShell 5.1에서 작동 합니다.
+Microsoft 팀 PowerShell은 PowerShell 명령줄에서 직접 팀을 관리 하는 cmdlet 집합입니다. .NET Standard로 작성 된 팀 PowerShell은 Azure 클라우드 Shell을 포함 하 여 모든 플랫폼에서 Windows, PowerShell 6.x 이상에서 PowerShell 5.1에서 작동 합니다.
 
 PowerShell 사용을 시작 하려면 먼저 [설치](teams-powershell-install.md)해야 합니다. 
 
@@ -34,9 +34,9 @@ PowerShell 사용을 시작 하려면 먼저 [설치](teams-powershell-install.m
 
 두 릴리스 유형의 [Powershell 갤러리](https://www.powershellgallery.com/packages/MicrosoftTeams) 에서 팀 powershell을 사용할 수 있습니다.
 
-- **일반 가용성 (GA)**: 프로덕션에서 사용할 수 있는 cmdlet, 업데이트 된 월간.
+- **일반 가용성 (GA)** : 프로덕션에서 사용할 수 있는 cmdlet, 업데이트 된 월간.
 
-- **공개 미리 보기**: 기능에 대 한 조기 액세스입니다. GA 보다 자주 업데이트 될 수 있습니다.
+- **공개 미리 보기** : 기능에 대 한 조기 액세스입니다. GA 보다 자주 업데이트 될 수 있습니다.
 
 두 릴리스 모두의 기능 추가 및 개선 사항에 대 한 자세한 내용은 [팀 PowerShell 릴리스 정보](teams-powershell-release-notes.md)를 참조 하세요.
 

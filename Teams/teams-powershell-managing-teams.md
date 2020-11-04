@@ -13,12 +13,12 @@ ms.collection:
 description: 팀 PowerShell을 사용 하 여 Microsoft 팀을 관리 하는 방법을 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c217cea4a9ad800c1f31f8dcfae9c88ee281188c
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 09d11b2c697ba57ea161d0ce961cf5ba73794617
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944125"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852179"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Microsoft 팀 PowerShell을 사용 하 여 팀 관리
 
@@ -30,10 +30,10 @@ ms.locfileid: "44944125"
 
 팀을 만들고 관리 하는 cmdlet은 [Microsoft 팀 PowerShell 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams/)에서 사용할 수 있습니다.
 
-팀은 Office 365 그룹에서 지원 되므로 팀을 만들 때 그룹을 만듭니다. 핵심 팀과 해당 설정 (,,)에 대 한 작동을 위해 제공 되는 cmdlet 집합과 ``new-team`` ``get-team`` ``set-team`` 팀 사용자 관리 (( ``add-teamuser`` ) ``remove-teamuser`` ) 뿐만 아니라 팀 (,) 채널을 관리 ``new-teamchannel`` ``remove-teamchannel`` 하는 cmdlet도 포함 되어 있습니다. 이러한 모든 cmdlet은 최종 사용자로 실행할 수 있지만 사용자가 소유 하거나 구성원 인 팀 에서만 작동 합니다. 전역 관리자 또는 팀 서비스 관리자는 조직의 모든 팀에 대해 작업을 수행할 수 있습니다.
+팀은 Office 365 그룹에서 지원 되므로 팀을 만들 때 그룹을 만듭니다. 핵심 팀과 해당 설정 (,,)에 대 한 작동을 위해 제공 되는 cmdlet 집합과 ``new-team`` ``get-team``  ``set-team`` 팀 사용자 관리 (( ``add-teamuser`` ) ``remove-teamuser`` ) 뿐만 아니라 팀 (,) 채널을 관리 ``new-teamchannel`` ``remove-teamchannel`` 하는 cmdlet도 포함 되어 있습니다. 이러한 모든 cmdlet은 최종 사용자로 실행할 수 있지만 사용자가 소유 하거나 구성원 인 팀 에서만 작동 합니다. 전역 관리자 또는 팀 서비스 관리자는 조직의 모든 팀에 대해 작업을 수행할 수 있습니다.
 
 ```powershell
-New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department
+New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
 > Microsoft 팀 PowerShell 모듈 cmdlet에 사용 되는 **GroupId** 는 Exchange powershell 모듈에서 반환 되는 **Identity** 속성과 같습니다 ``Get-UnifiedGroup`` .
@@ -68,7 +68,7 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 공통 매개 변수:
 
-- **Id**:, ``Get-`` , ``Set-`` ``New-`` , 및 ``Remove-`` 에서 **id** 매개 변수는 항상 특정 정책 인스턴스를 참조 합니다. 의 ``Grant`` 경우 **Identity** 매개 변수는 정책이 적용 되는 특정 사용자 개체를 참조 합니다.
+- **Id** :, ``Get-`` , ``Set-`` ``New-`` , 및 ``Remove-`` 에서 **id** 매개 변수는 항상 특정 정책 인스턴스를 참조 합니다. 의 ``Grant`` 경우 **Identity** 매개 변수는 정책이 적용 되는 특정 사용자 개체를 참조 합니다.
 
 ## <a name="manage-configurations-via-powershell"></a>PowerShell을 통해 구성 관리
 
@@ -76,10 +76,10 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 구성은 사용자 수준에서 지정할 수 없는 서비스에서 유지 관리 되는 설정의 버킷을 말합니다. 설정은 항상 전체 조직에서 적용 됩니다. 글로벌 구성은 조직의 유일한 유효 구성입니다. 각 구성 유형에는 두 가지 기본 cmdlet이 포함 됩니다.
 
-- ``Get-Cs<ConfigurationName>``(예를 들어 ``Get-CsTeamsClientConfiguration`` ) 다음을 수행 합니다.
+- ``Get-Cs<ConfigurationName>`` (예를 들어 ``Get-CsTeamsClientConfiguration`` ) 다음을 수행 합니다.
 
 - 명령 (예:)을 설정 합니다. ``Set-CsTeamsClientConfiguration`` 해당 형식의 구성에서 속성을 설정 합니다. 수정 하려는 매개 변수를 지정 합니다.
-   > **Id 전역**을 지정 하거나를 실행 하 여 두 가지 방법 중 하나로 수정 하는 구성을 참조할 수 있습니다 ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
+   > **Id 전역** 을 지정 하거나를 실행 하 여 두 가지 방법 중 하나로 수정 하는 구성을 참조할 수 있습니다 ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
 
 ## <a name="what-can-each-admin-role-do"></a>각 관리자 역할이 수행할 수 있는 작업
 

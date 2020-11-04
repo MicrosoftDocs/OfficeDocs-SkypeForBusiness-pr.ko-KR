@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Microsoft 전화 통신 솔루션에 대해 설명 합니다.
-ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: Microsoft의 전화 통신 솔루션에 대 한 자세한 내용은 전화 시스템 (사설 Branch Exchange-PBX) 및 PSTN 연결 옵션 (통화 계획 및 직접 라우팅)을 참고 하십시오.
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 3f5e4f0cf0cb027ed0c18b98c85b123634687a77
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359104"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878542"
 ---
 # <a name="microsoft-telephony-solutions"></a>Microsoft 전화 통신 솔루션
 
-Microsoft는 Microsoft 클라우드에서 팀으로 여행을 시작할 때 여러 가지 옵션을 지원 합니다. 이 문서에서는 조직의 사용자에 게 적합 한 Microsoft 전화 통신 솔루션 (클라우드 또는 Enterprise Voice 온-프레미스 전화 시스템)과 조직이 PSTN (공중 전화망)에 연결 하는 방법을 결정 하는 데 도움이 되는 정보를 제공 합니다. 
+Microsoft는 Microsoft 클라우드에서 팀으로 여행을 시작할 때 여러 가지 옵션을 지원 합니다. 이 문서에서는 조직의 사용자에 게 적합 한 Microsoft 전화 통신 솔루션 (클라우드 또는 Enterprise Voice 온-프레미스 전화 시스템)과 조직이 PSTN (공중 전화망)에 연결 하는 방법을 결정 하는 데 도움이 되는 정보를 제공 합니다.
 
 이 문서와 관련 기술 다이어그램을 함께 사용 하 여 조직에 적합 한 의사 결정을 내리는 데 도움이 되는 시각적 지원을 제공 해야 합니다.
 
@@ -42,7 +43,7 @@ Microsoft는 Microsoft 클라우드에서 팀으로 여행을 시작할 때 여�
 
 ### <a name="phone-system-microsoft-365-or-office-365"></a>전화 시스템 (Microsoft 365 또는 Office 365)
   
-전화 시스템은 microsoft 팀 및/또는 비즈니스용 Skype Online을 사용 하 여 Microsoft 365 또는 Office 365 클라우드에서 통화 제어 및 PBX (Private Branch Exchange) 기능을 사용 하도록 설정 하기 위한 Microsoft의 기술입니다. 
+전화 시스템은 microsoft 팀 및/또는 비즈니스용 Skype Online을 사용 하 여 Microsoft 365 또는 Office 365 클라우드에서 통화 제어 및 PBX (Private Branch Exchange) 기능을 사용 하도록 설정 하기 위한 Microsoft의 기술입니다.
 
 전화 시스템은 팀 이나 비즈니스용 Skype Online 클라이언트 및 인증 된 장치와 함께 작동 합니다. 전화 시스템을 사용 하면 기존 PBX 시스템을 Microsoft 365 또는 Office 365에서 직접 배달 된 기능 집합으로 대체 하 고 회사의 클라우드 생산성 환경에 긴밀 하 게 통합할 수 있습니다. 전화 시스템을 PSTN (공중 전화망)에 연결 하려면 Microsoft의 통화 요금제 또는 자체 전화 통신 회사를 선택 하면 됩니다.
 
@@ -50,7 +51,7 @@ Microsoft는 Microsoft 클라우드에서 팀으로 여행을 시작할 때 여�
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Enterprise Voice (비즈니스용 Skype 서버)
 
-Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 제어 및 PBX (Private Branch Exchange) 기능을 사용 하도록 설정 하기 위한 Microsoft의 기술입니다. 이 옵션은 전화 통신 통신 회사를 통해서만 공용 전환 전화 네트워크에 연결할 수 있습니다. 
+Enterprise Voice는 온-프레미스 비즈니스용 Skype 서버에서 통화 제어 및 PBX (Private Branch Exchange) 기능을 사용 하도록 설정 하기 위한 Microsoft의 기술입니다. 이 비즈니스용 Skype 옵션은 자체 전화 통신 회사를 사용 하 여 공용 전환 된 전화 네트워크에만 연결할 수 있습니다.
 
 자세한 내용은 [비즈니스용 Skype 서버의 Enterprise Voice 계획](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)을 참조 하십시오.
 

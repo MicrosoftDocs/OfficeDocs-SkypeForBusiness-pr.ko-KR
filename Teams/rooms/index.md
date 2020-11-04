@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 룸
+title: Microsoft 팀 가상 회의실
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,13 +12,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Microsoft 팀 공간을 배포 하기 위한 적절 한 계획 고려 사항과 시스템을 배포 하 고 관리 하는 방법을 설명 합니다.
-ms.openlocfilehash: 4474d5f7c5e273fccc52e077907017c073e3a7b5
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+description: 적절 한 가상 회의실을 만들기 위한 시스템 계획, 배포 및 관리를 비롯 한 Microsoft 팀 대화방을 설정 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: 3f2aba78baf1933f2f0104a8cadd568b685964fd
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405805"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878682"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 

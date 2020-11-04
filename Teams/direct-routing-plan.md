@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: ea971cb4cacf51c5970b0a89c43d4e88949dc9f0
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262535"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852199"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -189,7 +189,7 @@ CSR (인증 서명 요청)을 생성 하 여 SBC에 대 한 인증서를 요청 
 - T-시스템 국제 GmbH (Deutsche Telekom)
 - QuoVadis
 
-Office 365 GCC DoD 환경에서의 직접적인 라우팅에는 다음 루트 인증 기관 중 하나에서 인증서를 생성 해야 합니다.
+Office 365 GCCH 및 DoD 환경에서의 직접적인 라우팅에는 다음 루트 인증 기관 중 하나에서 인증서를 생성 해야 합니다.
 - DigiCert 전역 루트 CA
 - DigiCert High 보증할 EV 루트 CA
 
@@ -235,7 +235,7 @@ Fqdn – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.
 수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지 원하는 경우 FQDN **sip-all.pstnhub.microsoft.com** 이러한 모든 IP 주소를 확인 합니다. 
 
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
+### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH 및 DoD 환경
 
 직접 라우팅의 연결 지점은 다음 FQDN입니다.
 
@@ -299,7 +299,7 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
 - 52.112.0.0/14 (IP 주소는 52.112.0.1에서 52.115.255.254)입니다.
 - 52.120.0.0/14 (IP 주소는 52.120.0.1에서 52.123.255.254)입니다.
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
+### <a name="office-365-dod-environment"></a>Office 365 DoD 환경
 
 - 52.127.64.0/21
 

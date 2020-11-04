@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
-description: Microsoft 팀에서 시스템 메모리를 사용 하는 방법과 데스크톱 응용 프로그램과 웹 응용 프로그램 간에 메모리 사용이 동일한 이유를 설명 합니다.
+description: Microsoft 팀 시스템 메모리 사용량 및 데스크톱 응용 프로그램과 웹 응용 프로그램 간에 메모리 사용이 동일한 이유를 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59940eafcdb6f86961b3cd6805cb9c5bb40f9fb2
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: d218c71a0e3ecdde40559d67e1ad3a408d65a5d9
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033402"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878722"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams에서 메모리를 사용하는 방법
 
@@ -35,7 +36,7 @@ ms.locfileid: "43033402"
 
 다음 이미지는 Windows 용 팀 데스크톱 앱 및 팀 웹 앱 (이 예제에서는 Google Chrome에서 실행 됨)의 병렬 메모리 사용을 보여 줍니다.
 
-![팀 데스크톱 앱 및 웹 앱 메모리 사용](media/teams-memory-clientweb.png)
+![데스크톱 앱 및 웹 앱에 대 한 팀 메모리 사용](media/teams-memory-clientweb.png)
 
 ## <a name="memory-usage-in-teams"></a>팀의 메모리 사용
 

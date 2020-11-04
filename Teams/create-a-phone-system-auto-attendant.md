@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48840418"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48878176"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -213,7 +213,7 @@ ms.locfileid: "48840418"
 
 통화 요금제 trunks와 다이렉트 라우팅 trunks 간에 전송이 지원 되지 않습니다.
 
-하이브리드 환경에서 비즈니스용 Skype PSTN 통합을 통해 PSTN으로 자동 전화 교환 통화를 전송 하려면 통화 전달을 PSTN 번호로 설정한 상태로 새 온-프레미스 사용자를 만듭니다. 사용자가 엔터프라이즈 음성을 사용할 수 있도록 설정 하 고 음성 정책을 할당 해야 합니다. 자세한 내용은 [PSTN으로 자동 전화 교환 통화 전송을](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)참조 하세요.
+비즈니스용 Skype 하이브리드 환경에서 PSTN으로 자동 전화 교환 전화를 전환 하려면 통화 전달을 PSTN 번호로 설정한 상태로 새 온-프레미스 사용자를 만듭니다. 사용자가 엔터프라이즈 음성을 사용할 수 있도록 설정 하 고 음성 정책을 할당 해야 합니다. 자세한 내용은 [PSTN으로 자동 전화 교환 통화 전송을](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)참조 하세요.
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>PowerShell을 사용 하 여 자동 전화 교환 만들기
 

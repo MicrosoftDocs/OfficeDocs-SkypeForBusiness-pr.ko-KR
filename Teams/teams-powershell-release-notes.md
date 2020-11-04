@@ -13,12 +13,12 @@ ms.collection:
 description: 팀 PowerShell의 최신 변경 사항에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b5120ad981ba695f02f7c6403c9254e266501
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814417"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852169"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 팀 PowerShell 릴리스 정보
 
@@ -31,14 +31,15 @@ ms.locfileid: "47814417"
 
 | 시작일 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2020 년 11 월 | [1.1.7-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>인증 & 승인에 MSAL 사용</li><li>정책 패키지 cmdlet을 리팩터링 하 고 그룹 패키지 할당을 추가 합니다.</li><li>비동기 모델을 사용 하도록 대상 계층 구조 업로드 명령 리팩터링</li> |
 | 2020 년 9 월 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>비즈니스용 Skype Online 커넥터 통합</li> |
 | 2020 년 9 월 | [1.1.5-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>비즈니스용 Skype Online 커넥터 통합</li> |
 | 2020 년 7 월 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>[그룹 정책 할당 cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group) 이 추가 됨</li> |
-| 2020 년 6 월 | [1.1.3-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>비즈니스용 Skype Online 커넥터 통합<li>가져오기-팀 최적화<li>향상 된 안정성</li> |
+| 2020 년 6 월 | [1.1.3-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>비즈니스용 Skype Online 커넥터 통합<li>Get-Team 최적화<li>향상 된 안정성</li> |
 | 2020 년 6 월 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Cmdlet 미리 로드 추가 됨<li>.Net Framework 최적화</li>   |
-| 2020 년 4 월 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode 및 어셈블리 서명<li>CsPolicyPackage 추가 됨<li>CsUserPolicyPackage 추가 됨<li>CsUserPolicyPackageRecommendation 추가 됨<li>추가 된 권한 부여-CsUserPolicyPackage<li>새 CsBatchPolicyPackageAssignmentOperation 추가 됨<li>추가 된 Set-TeamArchivedState<li>부가 집합-팀 사진<li>제거 된 가져오기-팀 도움말</li>  |
-| 2020 년 3 월 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>새 CsBatchPolicyAssignmentOperation 추가 됨</li> |
-| 2020 년 2 월 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>가져오기-팀 최적화</li>  |
+| 2020 년 4 월 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode 및 어셈블리 서명<li>Get-CsPolicyPackage 추가 됨<li>Get-CsUserPolicyPackage 추가 됨<li>Get-CsUserPolicyPackageRecommendation 추가 됨<li>Grant-CsUserPolicyPackage 추가 됨<li>New-CsBatchPolicyPackageAssignmentOperation 추가 됨<li>Set-TeamArchivedState 추가 됨<li>Set-TeamPicture 추가 됨<li>Get-TeamHelp 제거 됨</li>  |
+| 2020 년 3 월 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>New-CsBatchPolicyAssignmentOperation 추가 됨</li> |
+| 2020 년 2 월 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team 최적화</li>  |
 
 ### <a name="cmdlet-availability"></a>Cmdlet 가용성
 

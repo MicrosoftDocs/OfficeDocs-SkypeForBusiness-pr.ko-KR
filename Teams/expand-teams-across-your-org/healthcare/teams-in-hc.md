@@ -20,18 +20,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 주의 조정, 보안 메시지, 가상 방문, EHR 통합,에서 일선 worker 시스템 통합을 포함 하는 상태 관리 기능에 대해 알아보세요.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+description: Microsoft 팀 telehealth, EHR 통합,에서 일선 worker 시스템 통합, 환자 앱 등의 상태 관리 기능에 대해 알아봅니다.
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803536"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878712"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>건강 조직의 팀 시작 하기
 
-Microsoft 팀은 다음을 포함 하 여 병원 및 기타 의료 기관에 유용한 여러 기능을 제공 합니다.
+Microsoft 팀은 병원 및 기타 의료 기관에 유용 하 게 사용할 수 있는 여러 개의 통신 기능을 제공 합니다. 팀 기능은 다음을 지원 하기 위해 개발 중에 병원.
 
 - 가상 방문 및 전자 의료 기록 (EHR) 통합
 - 팀 정책 패키지

@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 의료 조직의 팀 정책 패키지를 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6c14cc82a7e2e16780eb50c04064955aad4e4eb7
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 28db6a594fd8ea579623975c20e96a2ce0189885
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790650"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852209"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>의료에 대 한 팀 정책 패키지
 
@@ -60,7 +60,7 @@ Microsoft 팀의 [정책 패키지](manage-policy-packages.md) 는 조직에서 
 
 ## <a name="get-started-with-policy-packages"></a>정책 패키지 시작
 
-의료 정책 패키지를 시작 하려면 Microsoft 관리 센터 온 보 hub 허브에서 **건강 관리 기본 사항을** 선택한 다음 **역할별로 정책 설정 할당** 을 선택 합니다. 시작할 준비가 되 면 조직의 사용자를 지정할 정책 패키지를 결정 합니다.
+의료 정책 패키지를 시작 하려면 Microsoft 관리 센터 온 보 hub 허브에서 **건강** 관리를 선택한 다음 **역할별로 정책 설정 할당** 을 선택 합니다. 시작할 준비가 되 면 조직의 사용자를 지정할 정책 패키지를 결정 합니다.
 
 패키지의 특정 정책 및 해당 설정에 대해 자세히 알아보려면 **정책 세부 정보 보기** 를 선택 합니다. 팀 관리 센터에서 과제를 할당 한 후에 [사용자 지정할 수 있습니다](manage-policy-packages.md#customize-policies-in-a-policy-package) .
 

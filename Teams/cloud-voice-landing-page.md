@@ -16,16 +16,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 - seo-marvel-apr2020
+- seo-marvel-may2020
 search.appverid: MET150
-description: Microsoft 전화 시스템 및 PSTN 연결 옵션 (예를 들어, 호출 계획 및 직접 라우팅 포함)에 대해 자세히 알아보세요.
+description: Microsoft 팀 클라우드 음성 기능 및 조직에 대해 결정할 배포 결정에 대해 자세히 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513525448112fbb9b2b0bf4beacfec46bfb1d76a
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 243c4d9f7cc2987fa796b7d21a5a37a49d4db7ec
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308362"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878562"
 ---
 # <a name="plan-your-teams-voice-solution"></a>팀 음성 솔루션 계획 
 
@@ -57,7 +58,7 @@ ms.locfileid: "48308362"
 | [**전화 시스템**](#phone-system) | Microsoft 팀에서 microsoft 365 클라우드의 통화 제어 및 PBX (개인 브랜치 교환) 기능을 사용 하도록 설정 하기 위한 microsoft의 기술입니다. |
 | [**PSTN (공개 통신 네트워크) 연결 옵션**](#public-switched-telephone-network-connectivity-options) | 전화 통신 회사로 Microsoft를 사용 하거나 직접 라우팅을 사용 하 여 Microsoft 팀에 고유한 전화 통신 회사를 연결 하는 것 중에서 선택 합니다. 휴대폰 시스템과 결합 하 여 PSTN 연결 옵션을 통해 사용자는 전세계의 전화 통화를 할 수 있습니다.|
 
-**요구 사항에 따라** 이 문서의 일부 섹션은 기존 배포 및 요구 사항에 따라 관련이 있습니다. 예를 들어 위치 기반 라우팅은 유료 바이패스를 허용 하지 않는 지리적 위치에서 직접 라우팅 고객에 게 필요 합니다.
+**요구 사항에 따라** 이 문서의 일부 섹션은 기존 배포 및 요구 사항에 따라 관련이 있습니다. 예를 들어 Location-Based 라우팅은 수신자 부담을 허용 하지 않는 지리적 위치에서 직접 라우팅 고객에 게만 필요 합니다.
 
 
 | 요구 사항에 따라 | 설명 |
@@ -65,8 +66,8 @@ ms.locfileid: "48308362"
 | [**Microsoft의 전화 번호**](#phone-numbers-from-microsoft) | Microsoft에서 전화 번호를 가져오고 관리 하는 방법과 기존 번호를 Microsoft로 전송 하는 방법을 설명 합니다. Microsoft 통화 요금제에 대 한 전화 번호를 얻고, 기존 번호를 전송 하 고, 서비스 번호를 얻어야 하는 등의 방법을 읽어 보세요. |
 | [**다이얼 플랜 및 통화 회람**](#dial-plans-and-call-routing) | 전화 접속 전화 번호를 대체 형식 (일반적으로 E. \ 164 형식)으로 변환 하는 다이얼 플랜을 구성 하 고 관리 하 여 통화 승인 및 통화 라우팅을 할 수 있습니다. 다이얼 플랜을 파악 하 고 조직의 다이얼 플랜을 지정 해야 하는지 여부를 확인 하려면 다음을 읽어 보세요.|
 | [**비상 전화**](#emergency-calling) | PSTN 연결 옵션에 따라 응급 통화를 관리 하 고 구성 하는 방법을 설명 &mdash; 합니다. Microsoft 통화 계획 또는 직접 라우팅을 사용 중이 고 조직의 긴급 통화를 관리 하는 방법을 이해 해야 하는 경우이 섹션을 읽어 보세요. |
-| [**직접 라우팅에 대 한 위치 기반 라우팅**](#location-based-routing-for-direct-routing) |LBR (위치 기반 라우팅)를 사용 하 여 Microsoft 팀 사용자가 지리적 위치를 기준으로 하는 유료 바이패스를 제한 하는 방법을 설명 합니다. 조직에서 수신자 부담을 허용 하지 않는 위치에서 직접 라우팅을 사용 하는 경우이 섹션을 읽으십시오.
-| [**클라우드 음성 기능에 대 한 네트워크 토폴로지**](#network-topology-for-voice-features) | 조직에서 직접 라우팅 또는 동적 비상 전화에 대 한 LBR (위치 기반 라우팅)를 배포 하는 경우 Microsoft 팀에서 이러한 기능을 사용할 수 있도록 네트워크 설정을 구성 해야 합니다. 직접 라우팅에 대 한 LBR을 구현 하는 경우 또는 호출 계획 또는 직접 라우팅과 함께 동적 비상 전화를 구현 하는 경우이 섹션을 참조 하세요. |
+| [**직접 라우팅에 대 한 위치 기반 라우팅**](#location-based-routing-for-direct-routing) |Location-Based 라우팅 (LBR)을 사용 하 여 Microsoft 팀 사용자가 자신의 지리적 위치를 기반으로 하는 유료 바이패스를 제한 하는 방법을 설명 합니다. 조직에서 수신자 부담을 허용 하지 않는 위치에서 직접 라우팅을 사용 하는 경우이 섹션을 읽으십시오.
+| [**클라우드 음성 기능에 대 한 네트워크 토폴로지**](#network-topology-for-voice-features) | 조직에서 직접 라우팅 또는 동적 비상 전화를 위해 LBR (Location-Based Routing)를 배포 하는 경우 Microsoft 팀에서 이러한 기능에 사용할 수 있도록 네트워크 설정을 구성 해야 합니다. 직접 라우팅에 대 한 LBR을 구현 하는 경우 또는 호출 계획 또는 직접 라우팅과 함께 동적 비상 전화를 구현 하는 경우이 섹션을 참조 하세요. |
 | [**기존 음성 솔루션 마이그레이션**](#migrate-your-existing-voice-solution-to-teams) | 음성 솔루션을 팀으로 마이그레이션할 때 고려해 야 할 사항  기존 음성 솔루션에서 팀으로 마이그레이션하는 경우이 섹션을 참조 하세요. 
 
 
@@ -253,19 +254,19 @@ Microsoft에는 두 가지 유형의 전화 번호, 즉 조직의 사용자에 �
 - [Contoso 사례 연구: 비상 전화](voice-case-study-emergency-calling.md)<br>
   가상의 여러 국립 기업, Contoso, 조직에 대 한 긴급 통화 구현 방법에 대해 설명 합니다.
 
-## <a name="location-based-routing-for-direct-routing"></a>직접 라우팅에 대 한 위치 기반 라우팅
+## <a name="location-based-routing-for-direct-routing"></a>직접 라우팅에 대 한 Location-Based 라우팅
 
-일부 국가 및 지역에서는 PSTN (공개 전환 전화 네트워크) 공급자를 우회 하 여 시외 통화 비용을 줄일 수 없습니다. 직접 라우팅을 위한 위치 기반 라우팅을 사용 하면 Microsoft 팀 사용자의 지리적 위치를 기반으로 하는 무료 바이패스를 제한할 수 있습니다. LBR (위치 기반 라우팅)를 계획 하 고 구성 하는 방법에 대 한 자세한 내용은 다음 문서를 참조 하세요.
+일부 국가 및 지역에서는 PSTN (공개 전환 전화 네트워크) 공급자를 우회 하 여 시외 통화 비용을 줄일 수 없습니다. 다이렉트 라우팅에 대 한 Location-Based 라우팅은 사용자의 지리적 위치를 기반으로 하는 Microsoft 팀원의 유료 바이패스를 제한할 수 있습니다. LBR (Location-Based 라우팅)를 계획 하 고 구성 하는 방법에 대 한 자세한 내용은 다음 문서를 참조 하세요.
 
 - [직접 라우팅으로 전달되는 위치 기반 라우팅 계획](location-based-routing-plan.md)
 - [위치 기반 라우팅의 네트워크 설정 구성](location-based-routing-configure-network-settings.md)
 - [직접 라우팅에 위치 기반 라우팅 사용](location-based-routing-enable.md)
-- [Contoso 사례 연구: 위치 기반 라우팅](voice-case-study-location-based-routing.md)<br>
-  조직의 여러 국내 기업, Contoso, 구현 된 위치 기반 라우팅에 대해 설명 합니다.
+- [Contoso 사례 연구: Location-Based 라우팅](voice-case-study-location-based-routing.md)<br>
+  조직의 다양 한 국립 기업, Contoso, 구현 Location-Based를 조직에 대 한 라우팅 하는 방법에 대해 설명 합니다.
 
 ## <a name="network-topology-for-voice-features"></a>음성 기능에 대 한 네트워크 토폴로지
 
-직접 라우팅에 대 한 동적 긴급 통화 또는 위치 기반 라우팅을 배포 하는 경우 Microsoft 팀에서 이러한 기능을 사용할 수 있도록 네트워크 설정을 구성 해야 합니다. 네트워크 지역, 네트워크 사이트, 네트워크 서브넷 및 신뢰할 수 있는 IP 주소에 대 한 네트워크 설정을 구성 하는 방법을 알아보려면 다음 문서를 참조 하세요.
+직접 라우팅에 대 한 동적 긴급 통화 또는 Location-Based 라우팅을 배포 하는 경우 Microsoft 팀에서 이러한 기능을 사용할 수 있도록 네트워크 설정을 구성 해야 합니다. 네트워크 지역, 네트워크 사이트, 네트워크 서브넷 및 신뢰할 수 있는 IP 주소에 대 한 네트워크 설정을 구성 하는 방법을 알아보려면 다음 문서를 참조 하세요.
 
 - [Microsoft 팀의 클라우드 음성 기능에 대 한 네트워크 설정-개념 및 용어](cloud-voice-network-settings.md)
 - [Microsoft 팀의 클라우드 음성 기능에 대 한 네트워크 토폴로지 관리](manage-your-network-topology.md)
@@ -282,11 +283,11 @@ Microsoft에는 두 가지 유형의 전화 번호, 즉 조직의 사용자에 �
 
 - [**Microsoft 전화 요금제를 사용 하 여 비즈니스용 Skype Online의 사용자**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)입니다. 업그레이드 되 면이 사용자는 계속 Microsoft 통화 요금제를 보유 하 게 됩니다.
 
-- 비즈니스용 skype **Online의 skype For business for 온 [-프레미스 음성 기능을 사용 하는 사용자](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) ** 팀으로의 사용자 업그레이드는 사용자가 자신에 게 PSTN 기능을가지고 있는지를 확인 하기 위해 자신을 마이그레이션하도록 조정 해야 합니다.
+- 비즈니스용 skype **Online의 skype For business for 온 [-프레미스 음성 기능을 사용 하는 사용자](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)** 팀으로의 사용자 업그레이드는 사용자가 자신에 게 PSTN 기능을가지고 있는지를 확인 하기 위해 자신을 마이그레이션하도록 조정 해야 합니다.
 
-- ** [비즈니스용 Skype 온-프레미스에서 엔터프라이즈 음성을 사용 하 여](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)온라인으로 전환 하 고 온-프레미스 PSTN 연결을 유지 하는 사용자**입니다. 이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 사용자의 직접 라우팅에 맞게 이동 하도록 조정 해야 합니다. 
+- **[비즈니스용 Skype 온-프레미스에서 엔터프라이즈 음성을 사용 하 여](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)온라인으로 전환 하 고 온-프레미스 PSTN 연결을 유지 하는 사용자** 입니다. 이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 사용자의 직접 라우팅에 맞게 이동 하도록 조정 해야 합니다. 
 
-- Enterprise Voice를 사용 하는 ** [비즈니스용 Skype 온-프레미스 사용자](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)로 서, 온라인으로 이동 하 고 Microsoft의 통화 요금제를 사용 하 게 됩니다**.  이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 해당 사용자의 전화 번호를 Microsoft 통화 요금제 또는 B로 이동 하 여 사용 가능한 지역에서 새 구독자 번호를 할당 해야 합니다.
+- Enterprise Voice를 사용 하는 **[비즈니스용 Skype 온-프레미스 사용자](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)로 서, 온라인으로 이동 하 고 Microsoft의 통화 요금제를 사용 하 게 됩니다**.  이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 해당 사용자의 전화 번호를 Microsoft 통화 요금제 또는 B로 이동 하 여 사용 가능한 지역에서 새 구독자 번호를 할당 해야 합니다.
 
 &mdash;하이브리드 연결 설정에 대 한 정보, 직접 라우팅에 대 한 온-프레미스 음성 기능을 사용 하 여 사용자를 마이그레이션하는 방법에 대 한 정보가 포함 된 각 시나리오에 대해 음성 마이그레이션을 구현 하는 방법에 대 한 자세한 내용은 &mdash; 다음 문서를 참조 하세요.
 
