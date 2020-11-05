@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 테 넌 트를 업로드 하 고 CQD (통화 품질 대시보드에서) 데이터를 작성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 37499cf2715a3cabb05ab5039a19190190253b07
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897838"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908697"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>테 넌 트 업로드 및 통화 품질 대시보드에서 데이터 빌드 (CQD)
 
@@ -49,7 +49,7 @@ Cqd 요약 보고서 대시보드의 CQD **설정** 메뉴에서 **테 넌 트 �
 
 4. 데이터 파일을 선택한 후 **시작 날짜** 를 지정 하 고 필요에 따라 끝 날짜를 지정 합니다.
 
-5. **시작 날짜**를 선택한 후 **업로드** 를 선택 하 여 파일을 cqd에 업로드 합니다. <br><br>파일을 업로드 하기 전에 유효성을 검사 합니다. 유효성 검사에 실패 하면 파일을 수정 하 라는 오류 메시지가 표시 됩니다. 다음 그림에서는 데이터 파일의 열 수가 올바르지 않은 경우 발생 하는 오류를 보여 줍니다.
+5. **시작 날짜** 를 선택한 후 **업로드** 를 선택 하 여 파일을 cqd에 업로드 합니다. <br><br>파일을 업로드 하기 전에 유효성을 검사 합니다. 유효성 검사에 실패 하면 파일을 수정 하 라는 오류 메시지가 표시 됩니다. 다음 그림에서는 데이터 파일의 열 수가 올바르지 않은 경우 발생 하는 오류를 보여 줍니다.
 
    ![건물 데이터 업로드 오류를 표시 하는 대화 상자 예](media/qerguide-image-buildingdatauploaderror.png)
  
@@ -75,7 +75,7 @@ CQD에 있는 테 넌 트 데이터 파일의 첫 번째 유형은 **빌드** �
 
   **데이터 파일 형식 빌드**
   
-  | 열 이름        | 데이터 형식 | 예                   | 지침              |
+  | 열 이름        | 데이터 형식 | 예제                   | 지침              |
   |--------------------|-----------|---------------------------|-----------------------|
   | 네트워크 Ip          | 문자열    | 192.168.1.0               | 필수              |
   | NetworkName        | 문자열    | 미국/시애틀/시애틀-해상-1 | 필수<sup>1</sup>  |
@@ -88,7 +88,7 @@ CQD에 있는 테 넌 트 데이터 파일의 첫 번째 유형은 **빌드** �
   | ZipCode            | 문자열    | 98001                     | 권장           |
   | 명칭            | 문자열    | 보세요                        | 권장           |
   | 상태              | 문자열    | WA                        | 권장           |
-  | 지역             | 문자열    | MSUS                      | 권장           |
+  | 영역인             | 문자열    | MSUS                      | 권장           |
   | InsideCorp<sup>2</sup>         | 부울      | 1             | 필수              |
   | Express 경로<sup>3</sup>       | 부울      | 0             | 필수              |
   | VPN                | 부울      | 0                         | 선택              |
@@ -111,7 +111,7 @@ CQD에 있는 테 넌 트 데이터 파일의 첫 번째 유형은 **빌드** �
 
 ### <a name="supernetting"></a>Supernetting
 
-각 서브넷을 정의 하는 대신, 일반적으로 클래스 간 라우팅 (CIDR) 이라고 하는 supernetting를 사용할 수 있습니다. *수퍼 네트* 는 단일 라우팅 접두사를 공유 하는 여러 서브넷의 조합입니다. 각 서브넷에 대 한 항목을 추가 하는 대신 수퍼 네트 주소를 사용할 수 있습니다. Supernetting 지원 되지만이를 사용 하지 않는 것이 좋습니다.
+각 서브넷을 정의 하는 대신, 일반적으로 클래스 없는 Inter-Domain Routing (CIDR) 이라고 하는 supernetting를 사용할 수 있습니다. *수퍼 네트* 는 단일 라우팅 접두사를 공유 하는 여러 서브넷의 조합입니다. 각 서브넷에 대 한 항목을 추가 하는 대신 수퍼 네트 주소를 사용할 수 있습니다. Supernetting 지원 되지만이를 사용 하지 않는 것이 좋습니다.
 
 예를 들어 Contoso의 마케팅 문서는 다음 서브넷으로 구성 됩니다.
 
@@ -161,7 +161,7 @@ Supernetting를 구현 하기 전에 다음과 같은 몇 가지 사항을 고�
 
 - 데이터 파일의 내용에 표 머리글이 포함 되어 있지 않습니다. 데이터 파일의 첫 줄은 "EndpointName"와 같은 머리글 레이블이 아닌 실제 데이터 여야 합니다.
 
-- 모든 6 개의 열에는 String 데이터 형식만 사용 됩니다. 허용 되는 최대 길이는 64 자입니다.
+- 모든 일곱 개의 열에는 String 데이터 형식만 사용 됩니다. 허용 되는 최대 길이는 64 자입니다.
 
 - 데이터 필드는 비어 있을 수 있지만 여전히 탭 또는 쉼표로 구분 해야 합니다. 빈 데이터 필드는 빈 문자열 값만 할당 합니다.
 
@@ -169,15 +169,15 @@ Supernetting를 구현 하기 전에 다음과 같은 몇 가지 사항을 고�
 
 - EndpointLabel1, EndpointLabel2 및 EndpointLabel3는 사용자 지정이 가능한 레이블입니다. "IT 부서가 2018 노트북" 또는 "자산 태그 5678"와 같은 빈 문자열 또는 값 일 수 있습니다.
 
-- 각 행에는 6 개의 열이 있어야 하 고 열 순서는 다음과 같아야 합니다.
+- 각 행에 대해 일곱 개의 열이 있어야 하 고 열 순서는 다음과 같아야 합니다.
 
   **필드 순서:**
 
-  EndpointName, EndpointModel, Endpointmodel, EndpointLabel1, EndpointLabel2, EndpointLabel3
+  EndpointName, EndpointMake, Endpointmake, Endpointmake, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **예제 행:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
 
 ## <a name="update-a-building-file"></a>문서 파일 업데이트
@@ -220,7 +220,7 @@ Supernetting를 구현 하기 전에 다음과 같은 몇 가지 사항을 고�
 > 조직의 테 넌 트 데이터만 표시 하도록 보고서를 필터링 하려면이 보고서에 대 한 **두 번째 테** 넌 트 id에 대 한 쿼리 필터로 테 넌 트 id를 추가 해야 합니다. 그렇지 않으면 보고서에 페더레이션된 서브넷이 표시 됩니다.
 
 > [!NOTE] 
-> 이번 달에 대 한 월 연도 보고서 필터를 조정 해야 합니다. **편집**을 선택 하 고 **월 연도** 보고서 필터를 조정 하 여 새 기본 달을 저장 합니다.
+> 이번 달에 대 한 월 연도 보고서 필터를 조정 해야 합니다. **편집** 을 선택 하 고 **월 연도** 보고서 필터를 조정 하 여 새 기본 달을 저장 합니다.
 
 
 ## <a name="related-topics"></a>관련 항목

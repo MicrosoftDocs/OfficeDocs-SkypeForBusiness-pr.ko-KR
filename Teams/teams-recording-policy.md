@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739336"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908577"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>팀 소개 정책 기반 & 모임 기록
 
@@ -39,6 +39,8 @@ ms.locfileid: "48739336"
 - 팀 사용자 간 상호 작용 캡처 지원 및 지원 되는 호출 끝점 (팀, 팀 모바일, 비즈니스용 Skype, PSTN)
 
 - 기존 팀 관리 통화, 모임 도구 및 정책과의 통합을 포함 하 여 규정 준수 기록에 대 한 새로운 관리 정책
+
+Microsoft 365 A3/A5/r e m/E5 및 Office 365 A3/A5/e 5 사용자의 경우 준수 기록을 사용할 수 있습니다. 
 
 준수 기록 [<span class="underline">및 Microsoft 팀 세션</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)의 Ignite 2019 에서도 문제 해결 기록 솔루션 통합 기능을 검토 했습니다.
 
@@ -206,6 +208,13 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당 하 여 기록 �
 
 파트너가 팀을 통해 CCaaS 개발 및 통합할 수 있도록 공개적으로 사용할 수 있는 Api를 게시 하는 것 외에, Microsoft 팀에서 각 파트너의 솔루션이 테스트를 수행 하 고 Microsoft 솔루션에서 기대 하는 품질, 호환성 및 안정성을 제공 하도록 확인 하는 것을 고객에 게 제공 하는 인증 프로그램에 대 한 준수 기록을 개발 했습니다.  
 
+다음 파트너는 Microsoft 팀에 대 한 솔루션을 인증 했습니다.
+
+|Partner|솔루션 웹 사이트 |
+|:--|:--|
+|좋지 |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+
+
 다음 파트너는 Microsoft 팀의 솔루션을 인증 하는 과정을 진행 중입니다.
 
 |Partner|솔루션 웹 사이트 |
@@ -216,7 +225,6 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당 하 여 기록 �
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Landis 기술 |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|좋지 |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |오크 혁신 |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |빨간색 상자 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |

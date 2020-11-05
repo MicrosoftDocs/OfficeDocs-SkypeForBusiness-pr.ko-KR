@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터를 분석 하세요.
-ms.openlocfilehash: 5ce4aa58033555551c2fa75f3c3eb93068c59601
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 256b2264cef4b84dc4f9d9881c960d357cee28e5
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584047"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908647"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터 분석
 
@@ -35,6 +35,7 @@ Power BI 보고서에 액세스 하는 데 올바른 [Cqd 액세스 역할이](h
 
 |  |  |
 |---------|---------|
+|<strong>(신규!)</strong> CQD 팀 자동 전화 교환 & 통화 대기열 히스토리 보고서. pbit     |  이 서식 파일은 다음 세 가지 보고서를 제공 합니다.</p><li>자동 전화 교환-자동 전화 교환으로 들어오는 통화에 대 한 분석을 표시 합니다.</li><li>통화 대기열 – 통화 대기열로 들어오는 통화에 대 한 분석을 표시 합니다.</li><li>에이전트 시간 표시 막대-통화 대기열 호출에서 활성 상태인 에이전트의 시간 표시 막대 보기를 표시 합니다.</li><br>자세한 내용은 [CQD POWER BI 보고서를 참조 하 여 자동 전화 교환 & 통화 대기열 기록 보고서를 확인](CQD-teams-aa-cq-historical-report.md)하세요.        |
 |CQD 헬프데스크 보고서. pbit     |빌드 및 EUII 데이터 통합이 보고서는 단일 사용자에 게 드릴 다운 하 여 해당 사용자에 대 한 잘못 된 통화 품질의 업스트림 근본 원인을 찾을 수 있도록 설계 되었습니다 (예: 사용자가 네트워크 문제가 발생 하는 건물에 있는 경우).         |
 |CQD 위치 향상 보고서. pbit     | CQD SPD 위치 보고서를 다시 구상. 건물 또는 사용자를 기준으로 추가 드릴 thrus와의 통화 음질, WiFi 빌드, 안정성, 내 통화 속도 (RMC) 정보를 제공 하는 9 개의 보고서가 포함 되어 있습니다.  보고 환경을 최대화 하려면 빌드 데이터를 업로드 해야 합니다.        |
 |CQD 모바일 장치 보고서. pbit     | 통화 음질, 안정성, 내 통화 요금을 비롯 한 모바일 장치 사용자에 게 구체적으로 조정 되는 정보를 제공 합니다. 모바일 네트워크, WiFi 네트워크, 모바일 운영 체제 보고서 (Android, iOS)를 봅니다.        |

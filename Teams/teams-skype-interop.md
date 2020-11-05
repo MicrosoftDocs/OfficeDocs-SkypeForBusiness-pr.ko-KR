@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 팀 사용자와 Skype (소비자) 사용자 간의 상호 운용성 기능에 대해 알아봅니다.
 localization_priority: Normal
-ms.openlocfilehash: b05724f7ddb860d4b135fad5834ea851403c1490
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766902"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919040"
 ---
 # <a name="teams-and-skype-interoperability"></a>팀 및 Skype 상호 운용성
 
@@ -47,9 +47,9 @@ Skype 사용자가 검색 결과에 표시 하지 않도록 선택할 수 있습
 
 Skype 사용자는 전자 메일 주소를 사용 하 여 팀 사용자와 채팅을 검색 하 고 시작할 수 있습니다. 팀 사용자에 게는 Skype 사용자가 보낸 새 메시지가 있고 먼저 메시지를 수락 하 고 회신할 수 있다는 알림이 표시 됩니다.
 
-- 팀 사용자가 **수락**을 선택 하면 대화가 수락 되 고 두 사용자 모두 서로 채팅 하 고 통화할 수 있습니다.
-- 팀 사용자가 **블록**을 선택 하면 대화가 차단 되 고 이후 해당 Skype 사용자의 후속 메시지와 통화가 차단 됩니다.
-- 팀 사용자가 **메시지 보기**를 선택 하면 해당 메시지가 팀에 표시 되므로 사용자는 대화를 수락 하거나 차단할지 여부를 결정할 수 있습니다.
+- 팀 사용자가 **수락** 을 선택 하면 대화가 수락 되 고 두 사용자 모두 서로 채팅 하 고 통화할 수 있습니다.
+- 팀 사용자가 **블록** 을 선택 하면 대화가 차단 되 고 이후 해당 Skype 사용자의 후속 메시지와 통화가 차단 됩니다.
+- 팀 사용자가 **메시지 보기** 를 선택 하면 해당 메시지가 팀에 표시 되므로 사용자는 대화를 수락 하거나 차단할지 여부를 결정할 수 있습니다.
 
 > [!NOTE]
 > 비즈니스용 Skype에서 팀으로 업그레이드 한 경우 사용자가 팀 전용 모드 이면 Skype 사용자와의 채팅 및 통화가 팀에 게 전달 됩니다. 사용자가 군도 모드에 있는 경우 Skype 사용자에 대 한 채팅 및 전화 통화는 비즈니스용 Skype로 전달 됩니다.
@@ -73,13 +73,20 @@ Skype 사용자는 전자 메일 주소를 사용 하 여 팀 사용자와 채�
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>팀 사용자가 Skype 사용자와 통신할 수 있는지 여부 설정
 
-관리자는 Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 조직의 사용자가 Skype 사용자와 통신할 수 있는지 여부를 제어 하는 외부 액세스 설정을 설정 합니다. 기본적으로이 접근 권한 값은 새 테 넌 트에 대해 설정 되어 있습니다.
+관리자는 Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 조직의 사용자가 Skype 사용자와 통신할 수 있는지 여부를 제어 하는 외부 액세스 설정을 설정 합니다. 기본적으로이 접근 권한 값은 새 테 넌 트에 대해 설정 되어 있습니다. 그러나 다음과 같이 도메인에 대해 아직 사용할 수 없는 경우에는 IT 관리자가 다음 DNS SRV 레코드를 구성 해야 한다는 전제 조건이 있습니다 _sipfederationtls.  
+
+**서비스** : sipfederationtls<br/>
+**프로토콜** : TCP<br/>
+**우선 순위** : 100<br/>
+**중량** : 1<br/>
+**포트** : 5061<br/>
+**대상** : sipfed.online.lync.com
 
 비즈니스용 Skype에서 팀으로 업그레이드 한 경우 비즈니스용 Skype 관리 센터에서 구성한 외부 통신 설정이 팀으로 마이그레이션됩니다.
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서
 
-Microsoft 팀 관리 센터에서 **조직 전체 설정**  >  **외부 액세스**로 이동한 다음 **사용자가 Skype 사용자와 통신할 수**있도록 설정 합니다. 이 및 다른 외부 액세스 설정을 구성 하는 방법에 대 한 단계별 지침은 [팀에서 외부 액세스 관리](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)를 참조 하세요.
+Microsoft 팀 관리 센터에서 **조직 전체 설정**  >  **외부 액세스** 로 이동한 다음 **사용자가 Skype 사용자와 통신할 수** 있도록 설정 합니다. 이 및 다른 외부 액세스 설정을 구성 하는 방법에 대 한 단계별 지침은 [팀에서 외부 액세스 관리](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)를 참조 하세요.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
