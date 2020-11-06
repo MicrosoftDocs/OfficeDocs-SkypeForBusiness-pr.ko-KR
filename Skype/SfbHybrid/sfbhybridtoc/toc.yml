@@ -1,0 +1,35 @@
+- name: Teams 및 비즈니스용 Skype를 위한 하이브리드 솔루션
+  items:
+    - name: 하이브리드 연결 계획
+      href: ../hybrid/plan-hybrid-connectivity.md
+    - name: 하이브리드 연결 구성
+      href: ../hybrid/configure-hybrid-connectivity.md
+      items:
+        - name: 하이브리드 환경에 맞게 Azure AD Connect 구성하기
+          href: ../hybrid/configure-azure-ad-connect.md
+        - name: 비즈니스용 Skype 하이브리드 구성하기
+          href: ../hybrid/configure-federation-with-skype-for-business-online.md
+    - name: 온-프레미스와 클라우드 간에 사용자 이동
+      href: ../hybrid/move-users-between-on-premises-and-cloud.md
+      items:
+        - name: 사용자를 온-프레미스에서 Teams로 이동
+          href: ../hybrid/move-users-from-on-premises-to-teams.md
+        - name: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
+          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
+        - name: 사용자를 클라우드에서 온-프레미스로 이동
+          href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
+        - name: 모임 마이그레이션 관리
+          href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
+    - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
+      href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+    - name: 리소스 포리스트 토폴로지 배포
+      href: ../hybrid/configure-a-multi-forest-environment-for-hybrid.md
+    - name: Teams과 비즈니스용 Skype를 위한 클라우드 통합
+      href: ../hybrid/cloud-consolidation.md
+      items:
+        - name: 에지 인증서 업데이트
+          href: ../hybrid/cloud-consolidation-edge-certificates.md
+        - name: 여러 포리스트를 포함하도록 AAD Connect를 업데이트
+          href: ../hybrid/cloud-consolidation-aad-connect.md
+    - name: Exchange 및 Sharepoint와의 통합
+      href: ../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md
