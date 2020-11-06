@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 팀 사용자와 Skype (소비자) 사용자 간의 상호 운용성 기능에 대해 알아봅니다.
 localization_priority: Normal
-ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 18031f9d1f4ae9a4e42525f8c722259590349c24
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919040"
+ms.locfileid: "48925430"
 ---
 # <a name="teams-and-skype-interoperability"></a>팀 및 Skype 상호 운용성
 
@@ -90,7 +90,10 @@ Microsoft 팀 관리 센터에서 **조직 전체 설정**  >  **외부 액세�
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-[Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet을 매개 변수와 함께 사용 ```EnablePublicCloudAccess``` 하 여 팀 사용자가 Skype 사용자와 통신할 수 있는지 여부를 제어 합니다. ```true```팀 사용자가 Skype 사용자와 통신할 수 있도록 매개 변수를 설정 합니다. 이 ```EnablePublicCloudAudioVideoAccess``` 매개 변수를 사용 하 여 오디오/비디오 통화를 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
+다음을 수행합니다. 
+1. [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet을 매개 변수와 함께 사용 ```EnablePublicCloudAccess``` 하 여 팀 사용자가 Skype 사용자와 통신할 수 있는지 여부를 제어 합니다. ```true```팀 사용자가 Skype 사용자와 통신할 수 있도록 매개 변수를 설정 합니다. 이 ```EnablePublicCloudAudioVideoAccess``` 매개 변수를 사용 하 여 오디오/비디오 통화를 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
+
+2. 팀 사용자가 Skype 사용자와 통신할 수 있도록 [set-Csten앤틸리스 Publicprovider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) cmdlet을 ```Provider``` 매개 변수 집합과 함께 사용 합니다 ```"WindowsLive"``` .
 
 ## <a name="related-topics"></a>관련 항목
 

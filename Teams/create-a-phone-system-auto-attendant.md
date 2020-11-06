@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48878176"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48922439"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -118,7 +118,7 @@ ms.locfileid: "48878176"
 - TelephoneNumber/PhoneNumber
 - 기타 전화
 
-사용자 전화 번호 필드에 확장명을 입력 하는 데 필요한 형식은 *+ <phone number> ext = <extension>* 또는 *+ <phone number> x <extension>* 입니다.
+사용자 전화 번호 필드에 확장명을 입력 하는 데 필요한 형식은 *+ \<phone number> ext = \<extension>* 또는 *+ \<phone number> x \<extension>* 입니다.
 
 [Microsoft 365 관리 센터](https://admin.microsoft.com/) 또는 [Azure Active Directory 관리 센터](https://aad.portal.azure.com)에서 확장을 설정할 수 있습니다. 자동 전화 교환 및 통화 대기열에서 변경 사항을 사용할 수 있으려면 최대 12 시간까지 걸릴 수 있습니다.
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51b3333723624dc0c250ce3e4de9a3af88ad84f1
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 28d5c9b318c2ce098d1f361f8af4b074260aaf98
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778901"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48925470"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -229,7 +229,6 @@ Enterprise 용 microsoft 365 앱에 대 한 자세한 내용은 [엔터프라이
 
 Vdi의 비즈니스용 Skype에서 vdi의 팀으로 마이그레이션하는 경우, 두 응용 프로그램 간의 차이 외에 VDI도 구현 된 경우 몇 가지 차이점이 있습니다. 비즈니스용 Skype VDI에 있는 팀 VDI에서 현재 지원 되지 않는 일부 기능은 다음과 같습니다.
 
-- 미디어 비트 전송률 제한 정책으로 VDI 호출 환경 제어
 - VDI에서 일부 AV 기능을 사용 하지 않도록 설정 하는 플랫폼 단위 정책
 - 앱 공유 시기 지정 및 관리
 - 오디오 없이 채팅에서 화면 공유
