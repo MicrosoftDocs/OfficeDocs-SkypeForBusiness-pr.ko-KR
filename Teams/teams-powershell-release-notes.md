@@ -13,12 +13,12 @@ ms.collection:
 description: 팀 PowerShell의 최신 변경 사항에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 41aa6cdf05901756bb2bcd13dbb8b9ad2cedabf6
+ms.sourcegitcommit: a6c7a0cdbedf6cf32213d7636da52db71b4bac3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852169"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48937747"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 팀 PowerShell 릴리스 정보
 
@@ -31,7 +31,7 @@ ms.locfileid: "48852169"
 
 | 시작일 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
-| 2020 년 11 월 | [1.1.7-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>인증 & 승인에 MSAL 사용</li><li>정책 패키지 cmdlet을 리팩터링 하 고 그룹 패키지 할당을 추가 합니다.</li><li>비동기 모델을 사용 하도록 대상 계층 구조 업로드 명령 리팩터링</li> |
+| 2020 년 11 월 | [1.1.7-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>인증 & 승인에 MSAL 사용</li><li>정책 패키지 cmdlet을 리팩터링 하 고 그룹 패키지 할당을 추가 합니다.</li><li>비동기 모델을 사용 하도록 대상 계층 구조 업로드 명령 리팩터링</li> <li>사용자는-credential 매개 변수를 사용 하지 않을 때 초기 인증 중에 두 번 메시지가 표시 됩니다. 사용자는-credential 매개 변수를 사용 하 여 자격 증명을 전달 하 여 중복 메시지를 피할 수 있습니다. 이 동작은 다음 릴리스에서 해결 될 것입니다.</li> |
 | 2020 년 9 월 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>비즈니스용 Skype Online 커넥터 통합</li> |
 | 2020 년 9 월 | [1.1.5-미리 보기](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>비즈니스용 Skype Online 커넥터 통합</li> |
 | 2020 년 7 월 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>[그룹 정책 할당 cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group) 이 추가 됨</li> |
