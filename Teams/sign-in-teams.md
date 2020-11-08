@@ -17,25 +17,26 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02c5889752ca730de84f8ca7bbaf240d30df63a2
-ms.sourcegitcommit: 70ceb3a3c3483234ec9f3fed6117144abf59ca75
+ms.openlocfilehash: 2d931c41fb3da345be124ddef570e0f4bda53474
+ms.sourcegitcommit: 98c5bcfad4ded89ac7b3604367e43a28663828bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48246135"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48944192"
 ---
-<a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용하여 Microsoft Teams에 로그인
+<a name="sign-in-to-microsoft-teams"></a>Microsoft Teams에 로그인
 ==========================
 
-조직에서 하이브리드 도메인 조인이나 Azure AD 조인을 구성할 때는 최신 버전의 Windows 10을 사용하는 것이 좋습니다. 최신 버전을 사용하면 사용자 계정이 Windows 웹 계정 관리자에서 준비되므로 결국 Teams 및 다른 Microsoft 응용 프로그램에 대한 SSO(Single Sign-On)가 가능해집니다. Single sign-on을 사용하면 사용자 환경(자동 로그인) 및 보안 상태가 개선됩니다.
+## <a name="windows-users"></a>Windows 사용자
+조직에서 하이브리드 도메인 조인이나 Azure AD 조인을 구성할 때는 최신 버전의 Windows 10을 사용하는 것이 좋습니다. 최신 버전을 사용하면 사용자 계정이 Windows 웹 계정 관리자에서 준비되므로 결국 Teams 및 다른 Microsoft 응용 프로그램에 대한 SSO(Single Sign-On)가 가능해집니다. Single Sign-On을 사용하면 사용자 환경(자동 로그인) 및 보안 상태가 개선됩니다.
 
 Microsoft Teams는 최신 인증을 사용하여 로그인 환경을 간편하고 안전하게 유지합니다. 사용자가 Teams에 로그인하는 방법을 보려면 [Teams 로그인](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)을 참조하세요.
 
-## <a name="how-modern-authentication-works"></a>최신 인증이 작동하는 방식
+### <a name="how-modern-authentication-works"></a>최신 인증이 작동하는 방식
 
 최신 인증은 Teams에 사용자가 이미 사용자의 자격 증명(예: 직장 전자 메일 및 암호)을 다른 곳에 이미 입력했음을 알리고 앱을 시작하기 위해 다시 입력하지 않아도 되는 프로세스입니다. 사용자가 Windows 또는 Mac에서 작업하는 경우와 같이 몇 가지 요인에 따라 환경이 다를 수 있습니다. 또한 조직에서 단일 요인 인증 또는 다중 요인 인증을 사용하도록 설정했는지 여부에 따라 달라집니다. 다단계 인증에는 일반적으로 전화기를 통해 자격 증명을 확인하거나 고유 코드를 제공하거나 PIN을 입력하거나 지문을 표시하는 작업이 포함됩니다. 다음은 최신 인증 시나리오에 대한 개요입니다.
 
-### <a name="windows-users"></a>Windows 사용자
+Teams를 사용하는 모든 조직에서 최신 인증을 사용할 수 있습니다. 사용자가 프로세스를 완료할 수 없다면 조직의 Microsoft Azure AD 구성에 기본 문제가 있을 것입니다. 자세한 내용은 [왜 Microsoft Teams에 로그인하는 데 문제가 있나요?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)를 참조하세요.
 
 - 사용자가 회사 또는 학교 계정을 사용하여 Windows 또는 다른 Office 앱에 이미 로그인한 경우 Teams를 시작할 때 앱으로 바로 이동하게 됩니다. 사용자가 추가로 자격 증명을 입력할 필요가 없습니다.
 
@@ -54,11 +55,19 @@ Microsoft Teams는 최신 인증을 사용하여 로그인 환경을 간편하�
     > [!NOTE]
     > ".local" 또는 ".corp"로 끝나는 사용자 이름에 대한 사용자 이름 미리 채우기를 건너뛰거나 무시하는 것이 기본적으로 설정되어 있으므로 이를 끄려고 레지스트리 키를 설정하지 않아도 됩니다.
 
-### <a name="mac-users"></a>Mac 사용자
+### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>최신 인증을 완료한 후 Teams에서 로그아웃
+
+Teams에서 로그아웃하려면 사용자가 앱 맨 위에 있는 프로필 사진을 클릭한 다음 **로그아웃** 을 선택하면 됩니다. 작업 표시줄에서 앱 아이콘을 마우스 오른쪽 단추로 클릭한 다음 **로그아웃** 을 선택할 수도 있습니다. Teams에서 로그아웃한 후에는 해당 사용자의 자격 증명을 다시 입력하여 앱을 시작해야 합니다.
+
+### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>도메인에 연결된 컴퓨터에서 다른 계정에 로그인
+
+도메인에 연결된 컴퓨터에서 사용자는 동일한 Active Directory 도메인에 있는 다른 계정으로 Teams에 로그인할 수 없을 수도 있습니다.
+
+## <a name="macos-users"></a>MacOS 사용자
 
 MacOS의 경우 Teams에서 사용자 이름 및 자격 증명을 입력하라는 메시지가 표시되고 조직의 설정에 따라 다단계 인증 관련 메시지가 표시될 수 있습니다. 사용자가 자격 증명을 입력한 후에는 다시 제공할 필요가 없습니다. 이때부터 Teams가 같은 컴퓨터에서 작업하는 경우 자동으로 시작됩니다.
 
-## <a name="teams-for-ios-and-android-users"></a>iOS 및 Android 사용자용 Teams
+## <a name="teams-on-ios-and-android-users"></a>Teams iOS 및 Android 사용자
 
 로그인하면 모바일 사용자에게 현재 장치에서 로그인했거나 이전에 로그인 한 모든 Microsoft 365 계정 목록이 표시됩니다. 사용자는 로그인할 계정을 누를 수 있습니다. 모바일 로그인에는 다음과 같은 두 가지 시나리오가 있습니다.
 
@@ -69,15 +78,21 @@ MacOS의 경우 Teams에서 사용자 이름 및 자격 증명을 입력하라�
 > [!NOTE]
 > 사용자가 이 섹션에서 설명한 대로 로그온 환경을 경험하려면 해당 기기에서 Teams for iOS 버전 2.0.13 이상(빌드 2020061704) 또는 Teams for Android 버전 1416/1.0.0.2020061702 이상을 실행해야 합니다..
 
-### <a name="adding-multiple-accounts-to-teams"></a>Teams에 여러 계정 추가
+## <a name="using-teams-with-multiple-accounts"></a>여러 계정으로 Teams 사용
 
-iOS 및 Android용 Teams는 단일 장치에서 Teams로의 여러 계정의 추가를 지원합니다. 다음 이미지는 사용자가 Teams에서 계정을 여러 개 추가하는 방법을 보여줍니다.
+iOS 및 Android용 Teams는 여러 직장이나 학교 계정 및 여러 개인 계정을 함께 사용할 수 있도록 지원합니다. 2020년 12월에 Teams 데스크톱 응용 프로그램은 하나의 직장/학교 계정 및 개인 계정을 우선 지원할 예정이며 이후에 여러 직장/학교 계정에 대해 지원할 예정입니다.
+
+다음 이미지는 사용자가 모바일 Teams 응용 프로그램에 여러 계정을 추가할 수 있는 방법을 보여 줍니다.
 
 :::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Teams에 여러 계정 추가":::
 
-### <a name="use-enterprise-mobility-management-to-control-which-accounts-can-sign-in-to-teams"></a>엔터프라이즈 이동성 관리를 사용하여 Teams에 로그인할 수 있는 계정 제어
+## <a name="restrict-sign-in-to-teams"></a>Teams에 로그인 제한
 
-iOS 및 Android용 Teams는 IT 관리자에게 계정 구성을 Microsoft 365 계정으로 푸시할 수 있는 기능을 제공합니다. 이 기능은 iOS용  [관리 앱 구성](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) 채널을 혹은 Android용  [Android Enterprise](https://developer.android.com/work/managed-configurations) 채널을 사용하는 모든 MDM(모바일 장치 관리) 공급자와 작동합니다.
+조직에서는 사용하는 다른 조직의 학생이나 직원의 데이터 액세스 권한을 제한하거나 개인 시나리오에 대한 회사 승인 앱 사용을 제한하여 회사 승인 앱을 사용하는 방법을 제한할 수 있습니다. 이러한 제한은 Teams 응용 프로그램에서 인식하는 장치 정책을 설정하여 적용될 수 있습니다.   
+
+### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>모바일 장치에서 로그인을 제한하는 방법
+
+iOS 및 Android용 Teams는 IT 관리자에게 계정 구성을 Microsoft 365 계정으로 푸시할 수 있는 기능을 제공합니다. 이 기능은 Android용 [Android 엔터프라이즈](https://developer.android.com/work/managed-configurations) 채널이나 iOS용 [관리되는 앱 구성](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) 채널을 사용하는 MDM(모바일 장치 관리) 공급자와 작동합니다.
 
 Microsoft Intune에 등록된 사용자의 경우, Azure Portal에서 Intune을 사용하여 계정 구성 설정을 배포할 수 있습니다.
 
@@ -87,32 +102,53 @@ MDM 공급자에 계정 설정 구성이 설정되고 사용자가 장치를 등
 
 |플랫폼 |키  |값  |
 |---------|---------|---------|
-|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **사용**: IntuneMAMUPN 키로 정의된 관리되는 사용자 계정만 허용됩니다.<br> **사용 안 함** (또는 대/소문자 구분이 없이 **사용**에 일치하지 않는 모든 값): 모든 계정이 허용됩니다.        |
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **사용** : IntuneMAMUPN 키로 정의된 관리되는 사용자 계정만 허용됩니다.<br> **사용 안 함** (또는 대/소문자 구분이 없이 **사용** 에 일치하지 않는 모든 값): 모든 계정이 허용됩니다.        |
 |iOS     |   **IntuneMAMUPN**      |   Teams 로그인하도록 허용된 계정의 UPN입니다.<br> Intune에서 등록된 장치의 경우 {{userprincipalname}} 토큰을 사용하여 등록된 사용자 계정을 나타낼 수 있습니다.       |
-|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    이 키로 정의된 관리되는 사용자 계정만 허용됩니다.<br> 하나 이상의 세미 콜론 [;] - 구분된 UPN입니다.<br> Intune에서 등록된 장치의 경우 {{userprincipalname}} 토큰을 사용하여 등록된 사용자 계정을 나타낼 수 있습니다.
+|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    이 키로 정의된 관리되는 사용자 계정만 허용됩니다.<br> 하나 이상의 세미 콜론;]- 구분된 UPN.<br> Intune에서 등록된 장치의 경우 {{userprincipalname}} 토큰을 사용하여 등록된 사용자 계정을 나타낼 수 있습니다.
 
 계정 설정 구성을 설정하면, Teams에서 로그인하는 기능을 제한하여 등록된 장치에서 허용되는 계정만 액세스 권한을 부여 받도록 합니다.
 
-관리 iOS/iPadOS 장치에 대한 앱 구성 정책을 만들려면  [관리 iOS/iPadOS 장치에 대한 앱 구성 정책 추가](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)를 참조하세요.
+관리 iOS/iPadOS 장치에 대한 앱 구성 정책을 만들려면 [관리 iOS/iPadOS 장치에 대한 앱 구성 정책 추가](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)를 참조하세요.
 
-관리 Android 장치에 대한 앱 구성 정책을 만들려면  [관리 Android 장치에 대한 앱 구성 정책 추가](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)를 참조하세요.
+관리 Android 장치에 대한 앱 구성 정책을 만들려면 [관리 Android 장치에 대한 앱 구성 정책 추가](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)를 참조하세요.
 
-## <a name="switching-accounts-after-completing-modern-authentication"></a>최신 인증을 완료한 후 계정 전환
+### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>데스크톱 장치에서 로그인을 제한하는 방법
+Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한하는 장치 정책에 대한 지원을 받을 수 있습니다. 이 정책은 MDM(모바일 장치 관리)나 GPO(그룹 정책 개체)와 같은 일반적인 장치 관리 솔루션을 통해 설정될 수 있습니다. 
 
-사용자가 도메인에 가입된 컴퓨터에서 작업하는 경우(예: 테넌트에 Kerberos가 설정된 경우) 최신 인증을 완료한 후에는 사용자 계정을 전환할 수 없습니다. 도메인에 가입된 컴퓨터에서 사용자가 작업하지 않는 경우 계정을 전환할 수 있습니다.
+이 정책이 장치에서 구성되면 사용자는 정책에 정의된 “테넌트 허용 목록”에 포함된 Azure AD 테넌트에 있는 계정으로만 로그인할 수 있습니다. 정책은 첫 계정과 추가 계정을 포함하여 모든 로그인에 적용됩니다. 조직이 여러 Azure Active Directory 테넌트에 걸친 경우, 허용 모록에 여러 테넌트 ID를 포함할 수 있습니다. 다른 계정에 추가하는 링크는 Teams에 계속 표시될 수 있지만, 작동되지 않습니다.
 
-## <a name="signing-out-of-teams-after-completing-modern-authentication"></a>최신 인증을 완료한 후 Teams에서 로그아웃
+> [!NOTE]
+>1. 정책은 로그인만 제한합니다. 다른 Azure AD에서 게스트로 초대된 사용자나 다른 테넌트에서 전환한 사용자에 대한 기능을 제한하지 않습니다.
+>2. 이 정책은 Windows용 Teams 버전 1.3.00.30866 이상과 MacOS용 Teams 버전 1.3.00.30882(2020년 11월 중반에 릴리스됨)가 필요합니다.
 
-Teams에서 로그아웃하려면 사용자가 앱 맨 위에 있는 프로필 사진을 클릭한 다음 **로그아웃**을 선택하면 됩니다. 작업 표시줄에서 앱 아이콘을 마우스 오른쪽 단추로 클릭한 다음 **로그아웃**을 선택할 수도 있습니다. Teams에서 로그아웃한 후에는 해당 사용자의 자격 증명을 다시 입력하여 앱을 시작해야 합니다.
+**Windows용 정책** Windows 레지스트리에서 수동으로 키를 설정할 수 있습니다.
+- 값 이름: RestrictTeamsSignInToAccountsFromTenantList
+- 값 형식: 문자열
+- 값 데이터: 테넌트 ID 또는 쉼표로 구분된 테넌트 ID 목록
+- 경로: 다음 중 하나를 사용
 
-### <a name="signing-out-of-teams-for-ios-and-android"></a>iOS 및 Android용 Teams에서 로그아웃
+ Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Cloud\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Teams
 
-모바일 사용자는 메뉴로 이동하고 **더보기** 메뉴를 선택한 다음, **로그아웃**을 선택하여 Teams에서 로그아웃할 수 있습니다. 로그아웃한 후 사용자가 다음에 앱을 시작할 때는 자격 증명을 다시 입력해야 합니다.
+예: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 또는 SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 1,Tenant ID 2,Tenant ID 3
+
+이 문서는 관리 템플릿 서식 파일(ADMX/ADML) 사용에 대한 세부 정보와 함께 며칠 후에 업데이트할 예정입니다.
+
+**MacOS 정책** MacOS 관리되는 디바이스의 경우, .plist를 사용하여 로그인 제한을 배포합니다. 구성 프로필은 키로 식별된 항목으로 구성된 .plist 파일(기본 설정의 이름을 나타냄)이며 뒤에 기본 설정의 성격에 따라 값이 표시됩니다. 값은 단순한 기본 설정 목록과 같이 값(예: 숫자 값) 또는 복합일 수 있습니다.
+
+- 도메인: com.microsoft.teams
+- 키: RestrictTeamsSignInToAccountsFromTenantList
+- 데이터 형식: 문자열
+- 메모: 쉼표로 구분된 Azure AD 테넌트 ID 목록 입력
+
+
+## <a name="sign-out-on-mobile-devices"></a>모바일 장치에서 로그아웃
+
+모바일 사용자는 메뉴로 이동하고 **더보기** 메뉴를 선택한 다음, **로그아웃** 을 선택하여 Teams에서 로그아웃할 수 있습니다. 로그아웃한 후 사용자가 다음에 앱을 시작할 때는 자격 증명을 다시 입력해야 합니다.
 
 > [!NOTE]
 > Android용 Teams는 SSO(Single Sign-On)을 사용하여 로그인 환경을 단순화합니다. 사용자는 Android 플랫폼에서 완전히 로그아웃하려면 Teams 외에도 **모든** Microsoft 앱에서 반드시 로그아웃해야 합니다.
 
-## <a name="global-sign-in-and-sign-out"></a>전역 로그인 및 로그아웃
+### <a name="global-sign-in-and-sign-out"></a>전역 로그인 및 로그아웃
 
 Teams Android 앱은 이제 전역 로그인 및 로그아웃을 지원하여 실무를 담당하는 작업자에게 번거로움이 없는 로그인 및 로그아웃 환경을 제공합니다. 직원들은 공유 장치 풀에서 기기를 선택하고 근무 시간 동안 단일 로그인을 통해 "내 것으로 만들기"를 수행할 수 있습니다. 교대 근무가 끝나면 장치에서 전역 로그아웃을 수행할 수 있습니다. 이렇게 하면 장치에서 장치의 개인 정보 및 회사 정보를 모두 제거하여 장치 풀에 장치를 반환할 수 있습니다. 이 기능을 사용하려면 장치가 공유 모드에 있어야 합니다. 공유 디바이스 설정 방법에 대한 자세한 내용은 [Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)에서 공유 디바이스 모드를 사용하는 방법을 참조하세요.
 
@@ -126,12 +162,6 @@ Teams를 사용하려면 인터넷에 연결되어 있어야 합니다. Office 3
 
 > [!IMPORTANT]
 > 현재 Teams는 모든 사용자에 대해 Google ssl.gstatic.com 서비스에 대한 액세스(TCP 포트 443)가 필요합니다(모든 사용자를 위한 <https://ssl.gstatic.com)>. Gstatic을 사용하지 않는 경우에도 마찬가지입니다). Teams에서 이 요구 사항은 곧 제거됩니다(2020 초). 이 문서를 해당 시점에 업데이트하겠습니다.
-
-## <a name="troubleshooting-modern-authentication"></a>최신 인증 문제 해결
-
-Teams을 사용하는 모든 조직에서 최신 인증을 사용할 수 있습니다. 사용자가 프로세스를 완료할 수 없는 경우 도메인 또는 조직의 Microsoft 회사 또는 학교 계정에 문제가 있을 수 있습니다.
-
-자세한 내용은 [왜 Microsoft Teams에 로그인하는 데 문제가 있나요?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
