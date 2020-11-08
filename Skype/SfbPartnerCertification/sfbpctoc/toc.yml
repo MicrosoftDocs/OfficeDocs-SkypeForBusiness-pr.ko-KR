@@ -1,0 +1,138 @@
+- name: 비즈니스용 Skype 및 Teams 인증 프로그램
+  href: ../certification/overview.md
+  items:
+    - name: 참가 하는 방법
+      href: ../certification/how-to-join.md
+    - name: Skype 및 Lync 테스트 사양
+      href: ../certification/test-spec.md
+    - name: 휴대폰 및 디바이스
+      items:
+        - name: 비즈니스용 Skype IP 범위
+          href: ../certification/devices-ip-phones.md
+        - name: Teams IP 휴대폰
+          href: /microsoftteams/teams-ip-phones
+        - name: USB 오디오 및 비디오 디바이스
+          href: ../certification/devices-usb-devices.md
+        - name: PC
+          href: ../certification/devices-pcs.md
+        - name: 회의실 디바이스 및 솔루션
+          href: ../certification/devices-meeting-rooms.md
+    - name: 인프라
+      items:
+        - name: 게이트웨이
+          href: ../certification/infra-gateways.md
+        - name: IP PBX
+          href: ../certification/infra-ip-pbxs.md
+        - name: SBA(Survivable Branch Appliance)
+          href: ../certification/infra-sba.md
+        - name: SBC(Session Border Controller)
+          href: ../certification/infra-sbc.md
+        - name: 역방향 프록시
+          href: ../certification/infra-rev-proxy.md
+        - name: 부하 분산 장치
+          href: ../certification/infra-load-balancers.md
+    - name: 네트워킹
+      items:
+        - name: 비즈니스용 Skype를 위한 Wi-Fi
+          href: ../certification/networking-wifi.md
+          items:
+            - name: Wi-Fi 계획
+              href: ../certification/plan-wifi.md
+        - name: 비즈니스용 Skype를 위한 유선 네트워크
+          href: ../certification/networking-wired.md
+        - name: 비즈니스용 Skype를 위한 SDN
+          href: ../certification/networking-sdn.md
+    - name: 서비스
+      items:
+        - name: SIP 트렁킹 서비스
+          href: ../certification/services-sip-trunking.md
+        - name: E-911 서비스 공급자
+          href: ../certification/services-e911.md
+        - name: 오디오 회의 공급자
+          href: ../certification/services-acps.md
+        - name: 통합 커뮤니케이션 인증 파트너
+          href: ../certification/services-ssl.md
+    - name: IT 전문가
+      href: ../certification/it-pro-tools.md
+      items:
+        - name: 네트워크 사전 평가
+          href: ../certification/it-pro-tools-pre-assessment.md
+        - name: 마이그레이션
+          href: ../certification/it-pro-tools-migration.md
+        - name: 사용자 및 정책 프로비전
+          href: ../certification/it-pro-tools-user-policy.md
+        - name: 모니터링 및 문제 해결
+          href: ../certification/it-pro-tools-monitor-troubleshoot.md
+        - name: 보고
+          href: ../certification/it-pro-tools-reporting.md
+    - name: 비디오
+      href: ../certification/video.md
+    - name: ISV
+      href: ../certification/isv-overview.md
+    - name: Lync 파트너 자격
+      href: ../lync-cert/partner-qualification.md
+      items:
+        - name: 응용 프로그램
+          href: ../lync-cert/qualified-lync-apps.md
+          items:
+            - name: Lync ISV 자격 프로그램 참여
+              href: ../lync-cert/participation.md
+            - name: 수행자 콘솔 응용 프로그램
+              href: ../lync-cert/attendant-console-apps.md
+            - name: 청구 및 고급 보고 응용 프로그램
+              href: ../lync-cert/billing-reporting-apps.md
+            - name: 연락 센터 응용 프로그램
+              href: ../lync-cert/contact-center-apps.md
+            - name: Lync 확장성 응용 프로그램
+              href: ../lync-cert/lync-extensibility-apps.md
+            - name: 영구 채팅 응용 프로그램
+              href: ../lync-cert/persistent-chat-apps.md
+            - name: 응용 프로그램 레코딩
+              href: ../lync-cert/recording-apps.md
+            - name: 소프트웨어 정의 네트워킹 응용 프로그램
+              href: ../lync-cert/software-defined-network-apps.md
+            - name: 유효한 Lync 응용 프로그램
+              href: ../lync-cert/validated-lync-apps.md
+        - name: 디바이스
+          items:
+            - name: Lync용으로 인증된 휴대폰과 디바이스
+              href: ../lync-cert/ip-phones.md
+            - name: USB 오디오 및 비디오 디바이스
+              href: ../lync-cert/usb-and-video.md
+            - name: Lync 채팅방 시스템
+              href: ../lync-cert/room-systems.md
+            - name: 회의실 디바이스 및 솔루션
+              href: ../lync-cert/meeting-room-devices.md
+            - name: PC
+              href: ../lync-cert/pcs-optimized-for-lync.md
+        - name: 인프라
+          href: ../lync-cert/infrastructure-qualified-node.md
+          items:
+            - name: IP PBX 및 게이트웨이
+              href: ../lync-cert/qualified-ip-pbx-gateway.md
+            - name: 지원되는 IP PBX
+              href: ../lync-cert/supported-ip-pbxs.md
+            - name: SBA(Survivable Branch Appliance)
+              href: ../lync-cert/survivable-branch-appliances.md
+            - name: SBC(Session Border Controller)
+              href: ../lync-cert/sbcs-lync-server.md
+            - name: 네트워킹
+              href: ../lync-cert/networking-lync-server-2010-2013.md
+            - name: 부하 분산 장치
+              href: ../lync-cert/hardware-load-balancers.md
+            - name: 역방향 프록시
+              href: ../lync-cert/reverse-proxies.md
+            - name: 가상 데스크톱 인프라
+              href: ../lync-cert/virtual-desktop-lync-server.md
+        - name: 서비스
+          href: ../lync-cert/sip-trunking-services.md
+          items:
+            - name: E-911 서비스
+              href: ../lync-cert/e-911-service-providers.md
+            - name: Lync Online 전용
+              href: ../lync-cert/online-dedicated.md
+        - name: 비디오
+          href: ../lync-cert/video-solutions-qualified.md
+          items:
+            - name: 회의실 디바이스 및 솔루션
+              href: ../lync-cert/meeting-room-devices.md
