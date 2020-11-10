@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft 팀을 위한 서비스 (CCaaS) 솔루션의 통합 된 연락처 센터 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fb65edc260c5a91ee51a32c6c3796e2773ba179
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: 59c763139a7ccadbf855bb766a05092a98ed03b0
+ms.sourcegitcommit: 339e36d24e5ef9940b7fcf43dcf6f31acf22dd69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827742"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948239"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 팀에 대 한 연락처 센터 통합
 
@@ -44,18 +44,19 @@ Api를 통해 파트너는 팀의 솔루션으로 CCaaS 개발 하 고 통합할
 
 |  Partner                                                                                                                               |  솔루션 웹 사이트                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
-| Competella | https://www.competella.com/microsoft-teams-skype-for-business                                  |
-| ComputerTalk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
-| ContactCenter4All | www.contactcenter4all.com |
-| Enghouse 대화형 | http://www.enghouseteams.com/                                                       |
-| Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
-| Genes | https://www.genesys.com/microsoft                                                                                   |
-| Landis 기술 | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
-| Luware | https://luware.com/en/solutions/                                                                                       |
-| 멋진 연락처 | https://www.niceincontact.com/microsoft-teams                                                            |
-| Novomind | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| Tendfor | https://www.tendfor.com/en/                                                                                     |
+| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
+| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `ContactCenter4All` | www.contactcenter4all.com |
+| `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
+| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
+| `Genesys` | https://www.genesys.com/microsoft                                                                                   |
+| `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
+| `Luware` | https://luware.com/en/solutions/                                                                                       |
+| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+| `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `Tendfor` | https://www.tendfor.com/en/                                                                                     |
+
 
 이 목록은 더 많은 파트너가 참가 하 고 인증 기준을 충족 하면 업데이트 됩니다.
 

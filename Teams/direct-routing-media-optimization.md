@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅에 대 한 로컬 미디어 최적화
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 060b6f0fdf92969894cad98178073a4288eb2325
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: ebf6ca7b8b3c1bd18ffb5c00f124d90f973c4b46
+ms.sourcegitcommit: aec9fcc178c227d9cfe3e2bf57d0f3bf4c318d49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43158096"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48950792"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>직접 라우팅에 대 한 로컬 미디어 최적화
 
@@ -49,25 +49,25 @@ PSTN (공개 통신 네트워크) 음성은 음성 품질에 대 한 높은 기�
 
 이 논의에 대 한 자세한 내용은 Contoso가 다음과 같이 전세계에 여러 기업을 실행 한다고 가정 합시다. (유럽 및 APAC 지역은 예일 때에만 사용 됨에 유의 하세요. 회사에는 비슷한 요구 사항이 있는 다양 한 지역이 있을 수 있습니다.
  
-- **유럽에서**Contoso는 약 30 개국에 지사를 보유 하 고 있습니다. 각 office에는 고유한 PBX (개인 분기 교환)가 있습니다. 
+- **유럽에서** Contoso는 약 30 개국에 지사를 보유 하 고 있습니다. 각 office에는 고유한 PBX (개인 분기 교환)가 있습니다. 
 
   Contoso는 모든 30 유럽 사무소에 대해 trunks를 한 위치에서--암스테르담로 중앙 집중화 하는 옵션을 제공 했습니다. Contoso는 암스테르담에서 SBC를 배포 하 고 중앙 위치를 통해 통화를 실행 하는 데 충분 한 대역폭을 제공 하 고 중앙 SIP 트렁크를 중앙 위치로 연결 하 고 암스테르담의 모든 유럽 위치를 서비스 시작 합니다. 
 
-- E a e e e e e e e- **ac 지역에**는 Contoso에 여러 국가의 사무실이 있습니다. 
+- E a e e e e e e e- **ac 지역에** 는 Contoso에 여러 국가의 사무실이 있습니다. 
 
   대부분의 국가에서 회사에는 여전히 지역 지사에 TDM (시간 구분) trunks 있습니다. TDM trunks의 중앙 집중화는 APAC 지역에서는 옵션이 아니므로 SIP로 전환 하는 것은 불가능 합니다. 여러 개의 SBCs (수의 게이트웨이)를 사용 하는 APAC 지역에 50 Contoso 지사 이외의 지점이 있다고 가정 합니다. 이 시나리오에서는 공용 IP 주소 및/또는 로컬 인터넷 연결 끊김 때문에 모든 게이트웨이를 직접 라우팅 인터페이스에 연결할 수 없습니다. 또한 일부 국가에서는 현지 PSTN 네트워크 연결 없이도 규정 요구 조건을 충족 시킬 수 없습니다.
 
 비즈니스 요구 사항에 따라 Contoso는 직접 라우팅에 대 한 로컬 미디어 최적화를 사용 하 여 두 개의 솔루션을 구현 했습니다.
 
-- **유럽에서**모든 trunks 사용자 위치를 기반으로 중앙 SBC와 사용자 간의 중앙 집중화 되 고 미디어 흐름입니다. 
+- **유럽에서** 모든 trunks 사용자 위치를 기반으로 중앙 SBC와 사용자 간의 중앙 집중화 되 고 미디어 흐름입니다. 
 
   - 사용자가 회사 네트워크의 로컬 서브넷 (즉, 내부 사용자)에 연결 된 경우 중앙 SBC의 내부 IP와 사용자의 팀 클라이언트 간 미디어 흐름을 진행 합니다. 
   
   - 사용자가 회사 네트워크의 경계를 벗어난 경우 (예: 사용자가 공용 무선 인터넷 연결을 사용 하는 경우) 사용자가 외부로 간주 됩니다. 이 경우 미디어는 중앙 SBC의 외부 IP와 팀 클라이언트 간에 흐릅니다.
 
-- **APAC 지역에서**중앙 집중화 된 프록시 SBC는 로컬 지사에서 직접 라우팅 인터페이스와 다운스트림 SBCs 간에 미디어를 전달 하는 Microsoft 직접 라우팅과 쌍을 이룹니다. 
+- **APAC 지역에서** 중앙 집중화 된 프록시 SBC는 로컬 지사에서 직접 라우팅 인터페이스와 다운스트림 SBCs 간에 미디어를 전달 하는 Microsoft 직접 라우팅과 쌍을 이룹니다. 
 
-  로컬 지점에 있는 다운스트림 SBCs는 APAC의 직접적인 라우팅에 직접 표시 되지 않지만, CSOnlinePSTNGateway cmdlet을 사용 하 여 Microsoft 전화 시스템 내에서 가상 네트워크 토폴로지를 만드는 방법으로 쌍을 이룹니다. 가능 하면 미디어가 항상 로컬에 유지 됩니다. 외부 사용자는 팀 클라이언트와 프록시 SBC의 공용 IP 간에 미디어 흐름이 있습니다.
+  로컬 지점에 있는 다운스트림 SBCs는 APAC의 직접적인 라우팅에 직접 표시 되지 않지만, Set-CSOnlinePSTNGateway cmdlet을 사용 하 여 Microsoft 전화 시스템 내에서 가상 네트워크 토폴로지를 만드는 방법으로 쌍을 이룹니다. 가능 하면 미디어가 항상 로컬에 유지 됩니다. 외부 사용자는 팀 클라이언트와 프록시 SBC의 공용 IP 간에 미디어 흐름이 있습니다.
 
 
 ## <a name="central-sbc-with-centralized-trunks"></a>중앙 trunks 중앙 SBC
@@ -182,11 +182,11 @@ TDM trunks 중앙 집중화 된 모든 지역 지사에서 PSTN 서비스를 제
 
 로컬 미디어 최적화는 두 가지 모드를 지원 합니다.
 
-- **모드 1: 항상 무시**합니다. 이 경우 사용자가 internal 인 경우 미디어는 내부 사용자의 실제 위치에 관계 없이 로컬 다운스트림 SBC의 내부 IP 주소를 통해 전달 됩니다. 예를 들어, 다운스트림 SBC이 있거나 다른 지점에 있는 동일한 지점 내에 있습니다.
+- **모드 1: 항상 무시** 합니다. 이 경우 사용자가 internal 인 경우 미디어는 내부 사용자의 실제 위치에 관계 없이 로컬 다운스트림 SBC의 내부 IP 주소를 통해 전달 됩니다. 예를 들어, 다운스트림 SBC이 있거나 다른 지점에 있는 동일한 지점 내에 있습니다.
 
-- **모드 2: 로컬 사용자에만**해당 됩니다. 이 모드에서 미디어는 내부 사용자가 다운스트림 SBC와 동일한 지점에 위치 하 여 생성 된 경우에만 로컬 다운스트림 SBC의 내부 IP 주소로 흐릅니다. 
+- **모드 2: 로컬 사용자에만** 해당 됩니다. 이 모드에서 미디어는 내부 사용자가 다운스트림 SBC와 동일한 지점에 위치 하 여 생성 된 경우에만 로컬 다운스트림 SBC의 내부 IP 주소로 흐릅니다. 
 
-로컬 미디어 최적화 모드를 구분 하기 위해 테 넌 트 관리자는 CSonlinePSTNGateway cmdlet을 사용 하 여 모든 SBC에 대해-BypassMode 매개 변수를 ' 항상 ' 또는 ' 전용 Forlocalusers ' 중 하나로 설정 해야 합니다. 자세한 내용은 [로컬 미디어 최적화 구성을](direct-routing-media-optimization-configure.md)참조 하세요.  
+로컬 미디어 최적화 모드를 구분 하려면 테 넌 트 관리자가 Set-CSonlinePSTNGateway cmdlet을 사용 하 여 모든 SBC에 대해-BypassMode 매개 변수를 ' 항상 ' 또는 ' 전용 Forlocalusers ' 중 하나로 설정 해야 합니다. 자세한 내용은 [로컬 미디어 최적화 구성을](direct-routing-media-optimization-configure.md)참조 하세요.  
 
 ### <a name="mode-1-always-bypass"></a>모드 1: 항상 무시
 
@@ -210,7 +210,7 @@ TDM trunks 중앙 집중화 된 모든 지역 지사에서 PSTN 서비스를 제
 
 | 사용자의 실제 위치 | 사용자가 번호로 전화를 걸고 있습니다. | 온라인 음성 라우팅 정책 | SBC에 대해 구성 된 모드 | 미디어 흐름 | 
 |:------------|:-------|:-------|:-------|:-------|
-| 독일 | + 49 1 437 2800 | 우선 순위 1:\+^ 49 ({8}\d) $-DEsbc.contoso.com<br>우선 순위 2:. *-proxysbc.contoso.com| DEsbc.contoso.com – 항상 무시 <br>proxysbc.contoso.com – 항상 무시 | 팀 사용자 < – > DEsbc.contoso.com |
+| 독일 | + 49 1 437 2800 | 우선 순위 1: ^ \+ 49 (\d {8} ) $-DEsbc.contoso.com<br>우선 순위 2:. *-proxysbc.contoso.com| DEsbc.contoso.com – 항상 무시 <br>proxysbc.contoso.com – 항상 무시 | 팀 사용자 < – > DEsbc.contoso.com |
 
 아래 다이어그램은 독일에서 팀을 통해 직접 라우팅 전화를 사용 하 여 독일의 내부 사용자에 대 한 상위 수준 트래픽 흐름을 보여 줍니다. 
 
@@ -238,7 +238,7 @@ TDM trunks 중앙 집중화 된 모든 지역 지사에서 PSTN 서비스를 제
 
 | 사용자의 실제 위치 | 사용자가 번호로 전화를 걸고 있습니다. | 온라인 음성 라우팅 정책 | SBC에 대해 구성 된 모드 | 미디어 흐름 | 
 |:------------|:-------|:-------|:-------|:-------|
-| 프랑스 | + 49 1 437 2800 | 우선 순위 1:\+^ 49 ({8}\d) $-DEsbc.contoso.com <br>우선 순위 2:. *-proxysbc.contoso.com |  DEsbc.contoso.com – 항상 proxysbc.contoso.com – 항상 무시 | 팀 사용자 < – > DEsbc.contoso.com  |
+| 프랑스 | + 49 1 437 2800 | 우선 순위 1: ^ \+ 49 (\d {8} ) $-DEsbc.contoso.com <br>우선 순위 2:. *-proxysbc.contoso.com |  DEsbc.contoso.com – 항상 proxysbc.contoso.com – 항상 무시 | 팀 사용자 < – > DEsbc.contoso.com  |
 
 다음 다이어그램은 프랑스에 거주 하는 내부 독일 사용자가 팀을 통해 독일의 번호로 직접 라우팅 전화를 거는 경우의 상위 수준 트래픽 흐름을 보여 줍니다. 
 
@@ -274,7 +274,7 @@ TDM trunks의 중앙 집중화 된 모든 지역 지사에서 PSTN 서비스를 
 
 | 사용자의 실제 위치 | 사용자가 번호로 전화를 걸고 있습니다. | 온라인 음성 라우팅 정책 | SBC에 대해 구성 된 모드 | 미디어 흐름 | 
 |:------------|:-------|:-------|:-------|:-------|
-| 베트남 | + 84 4 3926 3000 | 우선 순위 1:\+^ 84 ({9}\d) $-VNsbc.contoso.com <br>우선 순위 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – 로컬 사용자에 대해서만 <br> proxysbc.contoso.com – 항상 무시 | 팀 사용자 < – > VNsbc.contoso.com |
+| 베트남 | + 84 4 3926 3000 | 우선 순위 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br>우선 순위 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – 로컬 사용자에 대해서만 <br> proxysbc.contoso.com – 항상 무시 | 팀 사용자 < – > VNsbc.contoso.com |
 
 다음 다이어그램에서 베트남의 지역 지사에 할당 된 사용자는 온-프레미스에서 팀을 통해 다이렉트 라우팅 전화 호출을 수행 합니다. 
 
@@ -295,13 +295,13 @@ TDM trunks의 중앙 집중화 된 모든 지역 지사에서 PSTN 서비스를 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>시나리오 2. 사용자와 게이트웨이가 서로 다른 사이트에 있습니다.
 
-싱가포르의 SBC이 베트남 및 인도네시아의 로컬 다운스트림 SBCs에 대 한 프록시 SBC로 구성 되었다고 가정 합니다. 로컬 지사에 위치한 인도네시아의 내부 사용자는 베트남로 직접 라우팅 호출을 합니다. 온라인 음성 라우팅 정책은 베트남 (지역 번호 + 84)에 대 한 호출이 베트남의 지역 SBC에 라우팅되도록 지정 합니다. 다른 모든 통화--그리고, 베트남의 SBC에 오류가 발생 하는 경우, 베트남에 대 한 호출은 싱가포르의 프록시 SBC에 라우팅해야 합니다. 싱가포르의 프록시 SBC는 ' Always Byass ' 모드로 설정 되 고, 베트남의 지역 SBC는 ' 로컬 사용자 전용 ' 모드로 설정 됩니다. 다음 표에서는 예제 구성을 간략하게 보여 줍니다. 
+싱가포르의 SBC이 베트남 및 인도네시아의 로컬 다운스트림 SBCs에 대 한 프록시 SBC로 구성 되었다고 가정 합니다. 로컬 지사에 위치한 인도네시아의 내부 사용자는 베트남로 직접 라우팅 호출을 합니다. 온라인 음성 라우팅 정책은 베트남 (지역 번호 + 84)에 대 한 호출이 베트남의 지역 SBC에 라우팅되도록 지정 합니다. 다른 모든 통화--그리고, 베트남의 SBC에 오류가 발생 하는 경우, 베트남에 대 한 호출은 싱가포르의 프록시 SBC에 라우팅해야 합니다. 싱가포르의 프록시 SBC는 ' 항상 무시 ' 모드로 설정 되 고, 베트남의 지역 SBC는 ' 로컬 사용자 전용 ' 모드로 설정 됩니다. 다음 표에서는 예제 구성을 간략하게 보여 줍니다. 
 
 표 6 사용자 구성
 
 | 사용자의 실제 위치 | 사용자가 번호로 전화를 걸고 있습니다. | 온라인 음성 라우팅 정책 | SBC에 대해 구성 된 모드 | 미디어 흐름 | 
 |:------------|:-------|:-------|:-------|:-------|
-| 인도네시아 | + 84 4 3926 3000 | 우선 순위 1:\+^ 84 ({9}\d) $-VNsbc.contoso.com <br> 우선 순위 2:. *-proxysbc.contoso.com |VNsbc.contoso.com – 로컬 사용자에 대해서만 <br> proxysbc.contoso.com – 항상 무시 | 팀 사용자 < – > proxysbc.contoso.com <-> VNsbc.contoso.com |
+| 인도네시아 | + 84 4 3926 3000 | 우선 순위 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br> 우선 순위 2:. *-proxysbc.contoso.com |VNsbc.contoso.com – 로컬 사용자에 대해서만 <br> proxysbc.contoso.com – 항상 무시 | 팀 사용자 < – > proxysbc.contoso.com <-> VNsbc.contoso.com |
 
 
 다음 다이어그램에서 인도네시아어 지사에서 온-프레미스에 있는 내부 사용자는 팀을 통해 베트남의 번호로 직접 라우팅 전화를 겁니다. 
@@ -321,5 +321,14 @@ TDM trunks의 중앙 집중화 된 모든 지역 지사에서 PSTN 서비스를 
 다이어그램 8.  "로컬 사용자 용 으로만" 모드와 사용자가 "홈" 사이트에 없지만 내부 네트워크에 있는 트래픽 흐름
 
 ![로컬 미디어 최적화를 보여 주는 트래픽 흐름 다이어그램](media/direct-routing-media-op-8.png ""로컬 사용자 용 으로만" 모드를 사용 하는 트래픽 흐름은 사용자가 "홈" 사이트에 없지만 내부 네트워크에 있습니다.")
+
+## <a name="known-issues"></a>알려진 문제
+
+다음은 현재 로컬 미디어 최적화에 있는 알려진 문제 목록입니다. Microsoft는 이러한 문제를 해결 하기 위해 노력 하 고 있습니다.
+
+| 문제 | 방법을 |
+| :--- | :--- |
+| 팀 클라이언트 공용 IP가 고객의 신뢰할 수 있는 IP 목록과 일치 하는 경우 팀 클라이언트는 **internal** 로 식별 되지 않습니다. | 로컬 미디어 최적화에서는 팀 클라이언트 서브넷이 테 넌 트 구성 [네트워크 서브넷](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) 과 일치 해야 합니다.|
+| 통화 에스컬레이션은 팀 클라이언트가 내부용으로 식별 되는 경우 호출을 삭제 합니다.| 다이렉트 라우팅 SBC에서 로컬 미디어 최적화를 사용 하지 않도록 설정 합니다.|
 
 
