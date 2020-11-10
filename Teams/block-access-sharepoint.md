@@ -1,5 +1,5 @@
 ---
-title: 특정 사용자에게 SharePoint 엑세스 차단하기
+title: 특정 사용자의 SharePoint 액세스 차단하기
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 특정 사용자에게 SharePoint 엑세스를 차단하는 방법 알아보기
+description: 특정 사용자의 SharePoint 액세스를 차단하는 방법 알아보기
 ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
 ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
@@ -25,12 +25,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48203841"
 ---
-# <a name="block-access-to-sharepoint-for-specific-users"></a>특정 사용자에게 SharePoint 엑세스 차단하기
+# <a name="block-access-to-sharepoint-for-specific-users"></a>특정 사용자의 SharePoint 액세스 차단하기
 
-Microsoft 365의 SharePoint에 모든 조건부 액세스(CA) 정책을 적용하는 것이 Teams에서도 적용됩니다. 그러나 일부 조직의 경우 SharePoint 파일 액세스를 차단(업로드, 다운로드, 보기, 편집, 만들기)하는 반면 직원들이 관리되지 않은 장치에서 Teams 데스크톱, 모바일 및 웹 클라이언트를 사용할 수 있도록 허용합니다. CA 정책 아래 Sharepoint를 차단하면 Teams도 차단됩니다. 이 문서에서는 어떻게 이 한계를 피하고, SharePoint에 저장된 파일 액세스를 완전히 차단하지만 직원들이 Teams를 계속 사용할 수 있도록 허용 하는 방법에 대해 설명합니다.
+Microsoft 365의 SharePoint에 모든 조건부 액세스(CA) 정책을 적용하는 것이 Teams에서도 적용됩니다. 그러나 일부 조직의 경우, SharePoint 파일 액세스(업로드, 다운로드, 보기, 편집, 만들기)를 차단하면서도 직원들이 관리되지 않는 장치에서 Teams 데스크톱, 모바일 및 웹 클라이언트를 사용할 수 있도록 허용하고자 할 수 있습니다. CA 정책 하에서 Sharepoint를 차단하면 Teams도 차단됩니다. 이 문서에서는 어떻게 이 한계를 피하고, SharePoint에 저장된 파일 액세스를 완전히 차단하면서도 직원들이 Teams를 계속 사용할 수 있도록 허용할 수 있는지에 대해 설명합니다.
 
 > [!Note]
-> 관리되지 않은 장치에서 액세스를 차단하거나 제한하는 기능은 Azure AD 조건부 액세스 정책을 따르고 있습니다. [Azure AD 라이선싱](https://azure.microsoft.com/pricing/details/active-directory/)에 대해 알아보세요. Azure AD의 조건부 액세스에 대한 개요는 [Azure Active Directory의 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조하세요. 권장하는 SharePoint Online 액세스 정책에 대한 자세한 내용은 [SharePoint 사이트 및 파일 보호를 위한 정책 권장 사항](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)을 참조하세요. 관리 되지 않은 장치에서 액세스를 제한하는 경우 관리 장치의 사용자는 [지원되는 OS 및 브라우저 조합](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition) 중 하나를 사용해야 합니다. 그렇지 않으면 액세스가 제한될 수 있습니다.
+> 관리되지 않는 장치에서 액세스를 차단하거나 제한하는 기능은 Azure AD 조건부 액세스 정책을 따르고 있습니다. [Azure AD 라이선싱](https://azure.microsoft.com/pricing/details/active-directory/)에 대해 알아보세요. Azure AD의 조건부 액세스에 대한 개요는 [Azure Active Directory의 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조하세요. 권장하는 SharePoint Online 액세스 정책에 대한 자세한 내용은 [SharePoint 사이트 및 파일 보호를 위한 정책 권장 사항](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)을 참조하세요. 관리되지 않는 장치에서 액세스를 제한하는 경우, 관리되는 장치의 사용자는 [지원되는 OS 및 브라우저 조합](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition) 중 하나를 사용해야 합니다. 그렇지 않으면 액세스가 제한될 수 있습니다.
 
 다음의 경우 액세스를 차단하거나 제한할 수 있습니다.
 
@@ -42,13 +42,13 @@ Microsoft 365의 SharePoint에 모든 조건부 액세스(CA) 정책을 적용�
 
 1. SharePoint 관리 센터를 엽니다.
 
-2. **정책** > **엑세스 정책**을 확장합니다.
+2. **정책** > **액세스 정책** 을 확장합니다.
 
-3. **관리 되지 않은 장치** 구역에서 **엑세스 차단**을 선택하고 **저장**을 선택합니다.
+3. **관리 되지 않은 장치** 구역에서 **액세스 차단** 을 선택하고 **저장** 을 선택합니다.
 
    ![정책에 대한 관리 되지 않은 장치 섹션](media/no-sharepoint-access1.png)
 
-4. [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) 포털을 열고 **조건부 액세스 정책**을 탐색합니다.
+4. [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) 포털을 열고 **조건부 액세스 정책** 을 탐색합니다.
 
     SharePoint에서 다음 예와 유사한 새 정책이 생성된 것을 볼 수 있습니다.
 
@@ -65,17 +65,17 @@ Microsoft 365의 SharePoint에 모든 조건부 액세스(CA) 정책을 적용�
 
     ![Sharepoint가 대상 앱으로 선택되었습니다.](media/no-sharepoint-access3.png)
 
-7. 데스크톱 클라이언트 또한 포함하도록 **조건**을 업데이트합니다.
+7. 데스크톱 클라이언트 또한 포함하도록 **조건** 을 업데이트합니다.
 
     ![강조 표시된 데스크톱 및 모바일 앱](media/no-sharepoint-access4.png)
 
-8. **엑세스 허가**가 설정되어 있는지 확인합니다.
+8. **액세스 권한 부여** 가 설정되어 있는지 확인합니다.
 
-    ![엑세스 허가가 설정되었습니다.](media/no-sharepoint-access5.png)
+    ![액세스 권한 부여가 설정되었습니다.](media/no-sharepoint-access5.png)
 
-9. **앱 적용 제한 사용**이 설정되어 있는지 확인합니다.
+9. **앱 적용 제한 사용** 이 설정되어 있는지 확인합니다.
 
-10. 정책 사용을 설정하고 **저장**을 선택합니다.
+10. 정책 사용을 설정하고 **저장** 을 선택합니다.
 
     ![앱 적용 제한 사용이 설정되었습니다.](media/no-sharepoint-access6.png)
 
