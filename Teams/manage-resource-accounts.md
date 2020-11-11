@@ -20,277 +20,139 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 팀에서 자원 계정을 만들고, 편집 하 고, 관리 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 90e8ab26782424c6cc341936f185a253c6d1fbe6
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: 7ccc7a26c83357d68147381101ef8a97184f03f4
+ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672859"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993520"
 ---
-# <a name="manage-resource-accounts-in-microsoft-teams"></a><span data-ttu-id="9d897-103">Microsoft Teams에서 리소스 계정 관리</span><span class="sxs-lookup"><span data-stu-id="9d897-103">Manage resource accounts in Microsoft Teams</span></span>
+# <a name="manage-resource-accounts-in-microsoft-teams"></a><span data-ttu-id="a4acb-103">Microsoft Teams에서 리소스 계정 관리</span><span class="sxs-lookup"><span data-stu-id="a4acb-103">Manage resource accounts in Microsoft Teams</span></span>
 
-<span data-ttu-id="9d897-104">리소스 계정은 Azure AD의 *비활성 사용자 개체* 라고도 하며 일반적인 리소스를 나타내는 데 사용 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-104">A resource account is also known as a *disabled user object* in Azure AD, and can be used to represent resources in general.</span></span> <span data-ttu-id="9d897-105">Exchange에서 회의실을 나타내는 데 사용 될 수 있으며, 예를 들어 전화 번호를 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-105">In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number.</span></span> <span data-ttu-id="9d897-106">Microsoft 365 또는 구내에서 비즈니스용 Skype Server 2019를 사용 하 여 리소스 계정을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-106">A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.</span></span>
+<span data-ttu-id="a4acb-104">리소스 계정은 Azure AD의 비활성 사용자 개체 이며 일반적인 리소스를 나타내는 데 사용 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-104">A resource account is a disabled user object in Azure AD, and can be used to represent resources in general.</span></span> <span data-ttu-id="a4acb-105">예를 들어 Exchange에서 리소스 계정을 사용 하 여 회의실을 나타내고 전화 번호와 일정을 가질 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-105">For example, a resource account may be used in Exchange to represent conference rooms and allow them to have a phone number and calendar.</span></span> <span data-ttu-id="a4acb-106">Microsoft 365 또는 구내에서 비즈니스용 Skype Server 2019를 사용 하 여 리소스 계정을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-106">A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.</span></span>
 
-<span data-ttu-id="9d897-107">Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 계정이 하나 이상 있어야 하는 각 전화 시스템 통화 큐 또는 자동 전화 교환이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-107">In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have at least one associated resource account.</span></span> <span data-ttu-id="9d897-108">자원 계정이 지정 된 전화 번호에 필요한 지 여부는 다음 다이어그램에 표시 된 것 처럼 관련 통화 대기열 또는 자동 전화 교환의 용도에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-108">Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram.</span></span> <span data-ttu-id="9d897-109">전화 번호를 리소스 계정에 할당 하기 전에이 문서의 맨 아래에 연결 된 통화 대기열 및 자동 전화 교환 문서를 참조할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-109">You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.</span></span>
+<span data-ttu-id="a4acb-107">Microsoft 팀에서는 각 자동 전화 교환 또는 통화 대기열에 대해 리소스 계정이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-107">In Microsoft Teams, a resource account is required for each auto attendant or call queue.</span></span> <span data-ttu-id="a4acb-108">또한 리소스 계정에는 서비스 전화 번호를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-108">Resource accounts may also be assigned service telephone numbers.</span></span> <span data-ttu-id="a4acb-109">전화 번호를 자동 전화 교환에 할당 하 고 외부 팀의 호출자가 자동 전화 교환 또는 통화 대기열에 도달할 수 있도록 하는 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-109">This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.</span></span>
 
-![리소스 계정 및 사용자 라이선스의 예](media/resource-account.png)
+<span data-ttu-id="a4acb-110">이 문서에서는 자동 전화 교환 및 통화 대기열에 사용할 수 있도록 리소스 계정을 만들고 준비 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-110">This article covers how to create resource accounts and ready them for use with auto attendants and call queues.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="9d897-111">이 문서는 Microsoft 팀과 비즈니스용 Skype Online에 모두 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-111">This article applies to both Microsoft Teams and Skype for Business Online.</span></span> <span data-ttu-id="9d897-112">비즈니스용 Skype 서버 2019에 홈으로 표시 되는 리소스 계정의 경우 [리소스 계정 구성을](/SkypeForBusiness/hybrid/configure-onprem-ra)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-112">For resource accounts homed on Skype for Business Server 2019, see [Configure resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra).</span></span>
+<span data-ttu-id="a4acb-111">이 문서의 절차를 시작 하기 전에 다음을 완료 했는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-111">Before you start the procedures in this article, ensure you've done the following:</span></span>
 
-## <a name="assign-a-phone-number-to-a-phone-system-call-queue"></a><span data-ttu-id="9d897-113">전화 시스템 통화 대기열에 전화 번호 지정</span><span class="sxs-lookup"><span data-stu-id="9d897-113">Assign a phone number to a Phone System call queue</span></span>
+- [<span data-ttu-id="a4acb-112">가상 사용자 라이선스 획득</span><span class="sxs-lookup"><span data-stu-id="a4acb-112">Obtain virtual user licenses</span></span>](#obtain-virtual-user-licenses)
+- [<span data-ttu-id="a4acb-113">서비스 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="a4acb-113">Obtain service numbers</span></span>](#obtain-service-numbers)
 
-<span data-ttu-id="9d897-114">조직에서 이미 하나 이상의 전화 시스템 라이선스를 사용 하 고 있는 경우 전화 시스템 통화 대기열에 전화 번호를 지정 하는 절차는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-114">If your organization is already using at least one Phone System license, to assign a phone number to a Phone System call queue the process is:</span></span>
+### <a name="obtain-virtual-user-licenses"></a><span data-ttu-id="a4acb-114">가상 사용자 라이선스 획득</span><span class="sxs-lookup"><span data-stu-id="a4acb-114">Obtain virtual user licenses</span></span>
 
-1. <span data-ttu-id="9d897-115">서비스 번호를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-115">Obtain a service number.</span></span>
-2. <span data-ttu-id="9d897-116">무료 전화 시스템- [가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md) 또는 리소스 계정이 나 전화 시스템 라이선스와 함께 사용 하는 유료 전화 시스템 라이선스를 취득 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-116">Obtain a free Phone System - [Virtual User license](teams-add-on-licensing/virtual-user.md) or a paid Phone System license to use with the resource account or a Phone System license.</span></span>
-3. <span data-ttu-id="9d897-117">자원 계정을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-117">Create the resource account.</span></span> <span data-ttu-id="9d897-118">연결 된 리소스 계정이 있는 경우 자동 전화 교환 또는 통화 대기열이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-118">An auto attendant or call queue is required to have an associated resource account.</span></span>
-4. <span data-ttu-id="9d897-119">전화 시스템 또는 전화 시스템-가상 사용자 라이선스를 리소스 계정에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-119">Assign the Phone System or a Phone System - Virtual user license to the resource account.</span></span>
-5. <span data-ttu-id="9d897-120">방금 라이선스를 할당 한 리소스 계정에 서비스 전화 번호를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-120">Assign a service phone number to the resource account you just assigned licenses to.</span></span>
-6. <span data-ttu-id="9d897-121">전화 시스템 통화 대기열 또는 자동 전화 교환 만들기</span><span class="sxs-lookup"><span data-stu-id="9d897-121">Create a Phone System call queue or auto attendant</span></span>
-7. <span data-ttu-id="9d897-122">통화 대기열 또는 자동 전화 교환과 함께 리소스 계정을 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-122">Link the resource account with a call queue or auto attendant.</span></span>
+<span data-ttu-id="a4acb-115">자동 전화 교환 및 통화 대기열 작업을 위해서는 각 리소스 계정에 라이선스가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-115">Each resource account requires a license in order to work with auto attendants and call queues.</span></span> <span data-ttu-id="a4acb-116">무료 *Microsoft 365 전화 시스템-가상 사용자* 라이선스를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-116">You can use a free *Microsoft 365 Phone System - Virtual User* license.</span></span> <span data-ttu-id="a4acb-117">이러한 라이선스를 얻으려면 [가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a4acb-117">To obtain these licenses, see [Virtual User license](teams-add-on-licensing/virtual-user.md).</span></span>
 
-<!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
+<span data-ttu-id="a4acb-118">이 문서의 뒷부분에 나오는 리소스 계정에 라이선스를 할당 하는 방법을 다룹니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-118">We cover how to assign the license to a resource account later in this article.</span></span>
 
-<span data-ttu-id="9d897-123">자동 전화 교환 또는 통화 대기열이 최상위 자동 전화 교환 아래에 중첩 되는 경우 연결 된 리소스 계정은 자동 전화 교환 및 통화 대기열의 구조에 여러 항목을 입력 하려는 경우에만 전화 번호를 필요로 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-123">If the auto attendant or call queue is nested under a top-level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.</span></span>
+<span data-ttu-id="a4acb-119">가상 사용자 라이선스를 얻으려면 Microsoft 365 관리 센터에서 **청구**  >  **구입 서비스**  >  **추가 기능 구독** 으로 이동 하 여 끝으로 스크롤합니다. 그러면 *전화 시스템-가상 사용자* 라이선스가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-119">To get the Virtual User license, in the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see *Phone System - Virtual User* license.</span></span> <span data-ttu-id="a4acb-120">**지금 구입** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-120">Select **Buy now**.</span></span> <span data-ttu-id="a4acb-121">비용이 0 인 경우에도 다음 단계를 따라 라이선스를 취득 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-121">There is a zero cost, but you still need to follow these steps to acquire the license.</span></span>
 
-<span data-ttu-id="9d897-124">온라인에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하 고 Enterprise Voice를 사용 하도록 설정 하거나 Microsoft 365 또는 Office 365 통화 계획을 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-124">To redirect calls to people in your organization who are homed Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Microsoft 365 or Office 365 Calling Plans.</span></span> <span data-ttu-id="9d897-125">[Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-125">See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).</span></span> <span data-ttu-id="9d897-126">엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-126">To enable them for Enterprise Voice, you can use Windows PowerShell.</span></span> <span data-ttu-id="9d897-127">예를 들어 다음을 실행 합니다. `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span><span class="sxs-lookup"><span data-stu-id="9d897-127">For example run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span></span>
+### <a name="obtain-service-numbers"></a><span data-ttu-id="a4acb-122">서비스 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="a4acb-122">Obtain service numbers</span></span>
+
+<span data-ttu-id="a4acb-123">서비스 번호는 자동 전화 교환 및 통화 대기열에 대 한 선택 사항 이지만, 발신자가 자동 전화 교환 및 통화 대기열 구성에 도달 하려면 적어도 하나 이상의 서비스 번호가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-123">Service numbers are optional for auto attendants and call queues, however you will need at least one service number in order for callers to reach your auto attendant and call queue configuration.</span></span> <span data-ttu-id="a4acb-124">서비스 번호로 직접 연결할 수 있는 자동 전화 교환 또는 통화 대기열에 대해 연결 된 서비스 번호가 있는 리소스 계정이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-124">For any auto attendant or call queue that you want to be reachable directly by a service number, you must have a resource account with an associated service number.</span></span>
+
+<span data-ttu-id="a4acb-125">리소스 계정은 유료 또는 무료 서비스 번호 중 하나를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-125">Resource accounts can use either toll or toll-free service numbers.</span></span> <span data-ttu-id="a4acb-126">다른 통신 업체에서 새 번호를 요청 하거나 기존 번호를 포트 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-126">You can request new numbers or port existing numbers from another carrier.</span></span>
+
+<span data-ttu-id="a4acb-127">새로운 서비스 번호를 얻으려면 [서비스 전화 번호 받기를](getting-service-phone-numbers.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a4acb-127">To get new service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).</span></span>
+
+<span data-ttu-id="a4acb-128">다른 통신 회사의 번호를 이식 하려면 [팀에 전화 번호 전송을](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a4acb-128">To port a number from another carrier, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>
+
+## <a name="create-a-resource-account"></a><span data-ttu-id="a4acb-129">자원 계정 만들기</span><span class="sxs-lookup"><span data-stu-id="a4acb-129">Create a resource account</span></span>
+
+<span data-ttu-id="a4acb-130">팀 관리 센터에서 자원 계정을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-130">You can create a resource account in the Teams admin center.</span></span>
+
+![리소스 계정 추가 사용자 인터페이스의 스크린샷](media/resource-account-add.png)
+
+1. <span data-ttu-id="a4acb-132">팀 관리 센터에서 **조직 전체 설정을** 확장 한 다음 **리소스 계정을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-132">In the Teams admin center, expand **Org-wide settings** , and then click **Resource accounts**.</span></span>
+
+2. <span data-ttu-id="a4acb-133">**추가** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-133">Click **Add**.</span></span>
+
+3. <span data-ttu-id="a4acb-134">**리소스 계정 추가** 창에서 **표시 이름** , **사용자 이름** , **리소스 계정 유형을** 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-134">In the **Add resource account** pane, fill out **Display name** , **Username** , and the **Resource account type**.</span></span> <span data-ttu-id="a4acb-135">리소스 계정 유형은이 리소스 계정의 사용 방법에 따라 **자동 전화 교환** 또는 **통화 대기열** 중 하나가 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-135">The resource account type can be either **Auto attendant** or **Call queue** , depending how you intend to use this resource account.</span></span>
+
+4. <span data-ttu-id="a4acb-136">**저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-136">Click **Save**.</span></span>
+
+![자원 계정 목록 스크린샷](media/resource-accounts-page.png)
+
+## <a name="assign-a-license"></a><span data-ttu-id="a4acb-138">라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="a4acb-138">Assign a license</span></span>
+
+<span data-ttu-id="a4acb-139">각 자원 계정에 대해 *Microsoft 365 전화 시스템-가상 사용자* 라이선스 또는 *전화 시스템* 라이선스를 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-139">For each resource account, you must assign a *Microsoft 365 Phone System - Virtual User* license or *Phone System* license.</span></span>
+
+![Microsoft 365 관리 센터의 라이선스 할당 사용자 인터페이스 스크린샷](media/resource-account-assign-virtual-user-license.png)
+
+1. <span data-ttu-id="a4acb-141">Microsoft 365 관리 센터에서 라이선스를 할당 하려는 리소스 계정을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-141">In the Microsoft 365 admin center, click the resource account to which you want to assign a license.</span></span>
+
+2. <span data-ttu-id="a4acb-142">**라이선스 및 앱** 탭의 **라이선스** 에서 **Microsoft 365 전화 시스템-가상 사용자** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-142">On the **Licenses and Apps** tab, under **Licenses** , select **Microsoft 365 Phone System - Virtual User**.</span></span>
+
+3. <span data-ttu-id="a4acb-143">**변경 내용 저장** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-143">Click **Save changes**.</span></span>
+
+## <a name="assign-a-service-number"></a><span data-ttu-id="a4acb-144">서비스 번호 할당</span><span class="sxs-lookup"><span data-stu-id="a4acb-144">Assign a service number</span></span>
+
+<span data-ttu-id="a4acb-145">서비스 번호가 필요한 자동 전화 교환 또는 통화 대기열에 리소스 계정을 사용 하려는 경우 리소스 계정에 번호를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-145">If you're planning to use the resource account with an auto attendant or call queue that requires a service number, assign a number to the resource account.</span></span>
+
+![서비스 번호 지정 사용자 인터페이스 스크린샷](media/resource-account-assign-phone-number.png)
+
+1. <span data-ttu-id="a4acb-147">팀 관리 센터의 **리소스 계정** 페이지에서 서비스 번호를 할당 하려는 리소스 계정을 선택한 다음 **할당/할당** 취소를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-147">In the Teams admin center, on the **Resource accounts** page, select the resource account to which you want to assign a service number, and then click **Assign/unassign**.</span></span>
+
+2. <span data-ttu-id="a4acb-148">**전화 번호 형식** 드롭다운에서 사용할 번호 유형을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-148">In the **Phone number type** dropdown, choose the type of number that you want to use.</span></span>
+
+3. <span data-ttu-id="a4acb-149">지정 된 **전화 번호** 상자에서 사용 하려는 번호를 검색 하 고 **추가** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-149">In the **Assigned phone number** box, search for the number you want to use and click **Add**.</span></span>
+
+4. <span data-ttu-id="a4acb-150">**저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-150">Click **Save**.</span></span>
+
+
+<span data-ttu-id="a4acb-151">리소스 계정에 직접 라우팅 또는 하이브리드 번호를 할당 하려면 PowerShell을 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-151">To assign a direct routing or hybrid number to a resource account you need to use PowerShell:</span></span>
+
+`Set-CsOnlineApplicationInstance -Identity aa-contoso_main@contoso64.net -OnpremPhoneNumber +19295550150`
+
+## <a name="next-steps"></a><span data-ttu-id="a4acb-152">다음 단계</span><span class="sxs-lookup"><span data-stu-id="a4acb-152">Next steps</span></span>
+
+<span data-ttu-id="a4acb-153">리소스 계정 설정을 완료 하 고 필요한 경우 서비스 번호를 할당 하면 자동 전화 교환 또는 통화 대기열에 리소스 계정을 사용할 준비가 된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-153">Once you've completed the resource account setup and assigning a service number if needed, you're ready to use the resource account with an auto attendant or call queue.</span></span>
+
+<span data-ttu-id="a4acb-154">다음 참조를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a4acb-154">See the following references:</span></span>
+
+ - [<span data-ttu-id="a4acb-155">클라우드 자동 전화 교환</span><span class="sxs-lookup"><span data-stu-id="a4acb-155">Cloud auto attendant</span></span>](create-a-phone-system-auto-attendant.md)
+
+ - [<span data-ttu-id="a4acb-156">클라우드 통화 대기열</span><span class="sxs-lookup"><span data-stu-id="a4acb-156">Cloud call queue</span></span>](create-a-phone-system-call-queue.md)
+
+<span data-ttu-id="a4acb-157">**편집** 옵션을 사용 하 여 리소스 계정 **표시 이름** 및 **리소스 계정** 유형을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-157">You can edit the resource account **Display name** and **Resource account** type using the **Edit** option.</span></span> <span data-ttu-id="a4acb-158">완료 되 면 **저장** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-158">Click **Save** when you are done.</span></span>
+
+## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a><span data-ttu-id="a4acb-159">가상 사용자 라이선스를 사용 하도록 기존 리소스 계정 변경</span><span class="sxs-lookup"><span data-stu-id="a4acb-159">Change an existing resource account to use a Virtual User license</span></span>
+
+<span data-ttu-id="a4acb-160">기존 리소스 계정의 라이선스를 **전화 시스템** 라이선스에서 가상 사용자 라이선스로 전환 하려는 경우 무료 가상 사용자 라이선스를 취득 한 다음 Microsoft 365 관리 센터의 단계를 따라 [사용자를 다른 구독으로 이동](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-160">If you decide to switch the licenses on your existing resource account from a **Phone System** license to a Virtual User license, you'll need to acquire the free Virtual User license, and then follow the steps in the Microsoft 365 admin center to [Move users to a different subscription](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).</span></span>
 
 > [!WARNING]
-> <span data-ttu-id="9d897-128">자원 계정 관련 문제가 발생 하지 않도록 하려면 다음 단계를 순서 대로 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-128">In order to avoid problems with the resource account, follow these steps in this order.</span></span>
+> <span data-ttu-id="a4acb-161">항상 전체 전화 시스템 라이선스를 제거 하 고 동일한 라이선스 활동에 가상 사용자 라이선스를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-161">Always remove a full Phone System License and assign the Virtual User license in the same license activity.</span></span> <span data-ttu-id="a4acb-162">이전 라이선스를 제거 하 고, 계정 변경 내용을 저장 하 고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장 하면 리소스 계정이 더 이상 예상 대로 작동 하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-162">If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected.</span></span> <span data-ttu-id="a4acb-163">이 문제가 발생 하는 경우 가상 사용자 라이선스에 대 한 새 리소스 계정을 만들고 끊어진 리소스 계정을 제거 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-163">If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account.</span></span>
 
-<span data-ttu-id="9d897-129">생성 하는 전화 시스템 통화 대기열 또는 자동 전화 교환이 중첩 되 고 전화 번호가 필요 하지 않은 경우 프로세스는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-129">If the Phone System call queue or auto attendant you're creating will be nested and won't need a phone number, the process is:</span></span>
+## <a name="skype-for-business-server-2019"></a><span data-ttu-id="a4acb-164">비즈니스용 Skype 서버 2019</span><span class="sxs-lookup"><span data-stu-id="a4acb-164">Skype For Business Server 2019</span></span>
 
-1. <span data-ttu-id="9d897-130">자원 계정 만들기</span><span class="sxs-lookup"><span data-stu-id="9d897-130">Create the resource account</span></span>
-2. <span data-ttu-id="9d897-131">전화 시스템 통화 대기열 또는 자동 전화 교환 만들기</span><span class="sxs-lookup"><span data-stu-id="9d897-131">Create a Phone System call queue or auto attendant</span></span>
-3. <span data-ttu-id="9d897-132">전화 시스템에 리소스 계정 연결 통화 대기열 또는 자동 전화 교환</span><span class="sxs-lookup"><span data-stu-id="9d897-132">Associate the resource account with a Phone System call queue or auto attendant</span></span>
+<span data-ttu-id="a4acb-165">클라우드 통화 대기열 및 클라우드 자동 전화 교환에 사용할 수 있는 비즈니스용 Skype Server 2019에 있는 리소스 계정의 경우 [클라우드 통화 대기열 계획](/SkypeforBusiness/hybrid/plan-call-queue) 또는 [클라우드 자동 전화 교환 계획](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a4acb-165">For resource accounts homed on Skype For Business Server 2019 that can be used with cloud call queues and cloud auto attendants, see [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant).</span></span> <span data-ttu-id="a4acb-166">하이브리드 구현 (직접 라우팅에 있는 숫자)은 온-프레미스 비즈니스용 Skype Server 2019 서버에서 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet을 사용 하 여 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-166">Hybrid implementations (numbers homed on Direct Routing) are configured using the [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet on an on-premises Skype for Business Server 2019 server.</span></span>
 
-### <a name="create-a-resource-account-with-a-phone-number"></a><span data-ttu-id="9d897-133">전화 번호를 사용 하 여 자원 계정 만들기</span><span class="sxs-lookup"><span data-stu-id="9d897-133">Create a resource account with a phone number</span></span>
+<span data-ttu-id="a4acb-167">응용 프로그램 인스턴스를 만들 때 사용 해야 하는 응용 프로그램 Id는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-167">The application IDs that you need to use while creating the application instances are:</span></span>
 
-<span data-ttu-id="9d897-134"><a name="phonenumber"> </a></span><span class="sxs-lookup"><span data-stu-id="9d897-134"><a name="phonenumber"> </a></span></span>
+- <span data-ttu-id="a4acb-168">**자동 전화 교환:** ce933385-9390-45d1-9512-c8d228074e07</span><span class="sxs-lookup"><span data-stu-id="a4acb-168">**Auto Attendant:** ce933385-9390-45d1-9512-c8d228074e07</span></span>
+- <span data-ttu-id="a4acb-169">**통화 대기열:** 11cd3e2e-fccb-42ad-ad00-878b93575e07</span><span class="sxs-lookup"><span data-stu-id="a4acb-169">**Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="9d897-135">전화 번호는 자동 전화 교환 또는 통화 대기열에 직접 할당 되지 않고 자동 전화 교환 또는 통화 대기열에 연결 된 리소스 계정으로 지정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-135">A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.</span></span>
+> [!NOTE]
+> <span data-ttu-id="a4acb-170">Skype For Business Server 2019 사용자가 통화 대기열 또는 자동 전화 교환을 검색 가능 하 게 하려면 온라인 리소스 계정이 Active Directory로 동기화 되지 않으므로 비즈니스용 Skype Server 2019에서 리소스 계정을 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-170">If you want the call queue or auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory.</span></span> <span data-ttu-id="a4acb-171">Sipfederationtls에 대 한 DNS SRV 레코드가 비즈니스용 Skype 서버 2019를 해결 하는 경우 SfB Management shell을 사용 하 여 비즈니스용 Skype Server 2019에 리소스 계정을 만들고 Azure AD와 동기화 **해야 합니다** .</span><span class="sxs-lookup"><span data-stu-id="a4acb-171">When DNS SRV records for sipfederationtls resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to Azure AD.</span></span>
 
-<span data-ttu-id="9d897-136">최상위 자동 전화 교환 또는 통화 대기열이 있으면 전화 번호를 자동 전화 교환에 연결 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-136">A top-level auto attendant or call queue will require a phone number be linked to its auto attendant.</span></span> <span data-ttu-id="9d897-137">전화 번호를 사용 하는 리소스 계정을 만들기 위해 프로세스는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-137">To create a resource account that uses a phone number, the process is:</span></span>
+<span data-ttu-id="a4acb-172">비즈니스용 Skype 서버와 혼성으로 구현 하는 경우:</span><span class="sxs-lookup"><span data-stu-id="a4acb-172">For implementations that are hybrid with Skype for Business Server:</span></span>
 
-1. <span data-ttu-id="9d897-138">무료 또는 유료 서비스 번호를 사용 하거나 포트를 구입 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-138">Port or get a toll or toll-free service number.</span></span> <span data-ttu-id="9d897-139">다른 음성 서비스나 리소스 계정에 번호를 배정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-139">The number can't be assigned to any other voice services or resource accounts.</span></span>
-
-   <span data-ttu-id="9d897-140">리소스 계정에 전화 번호를 지정 하기 전에 기존의 유료 또는 무료 서비스 번호를 가져오거나 이식 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-140">Before you assign a phone number to a resource account, you need to get or port your existing toll or toll-free service numbers.</span></span> <span data-ttu-id="9d897-141">무료 또는 무료 서비스 전화 번호를 얻은 후에는 **Microsoft 팀 관리 센터**  >  **음성**  >  **전화 번호로**표시 되며, **번호 유형이** 서비스로 나열 됩니다 ( **무료)**.</span><span class="sxs-lookup"><span data-stu-id="9d897-141">After you get the toll or toll-free service phone numbers, they show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type**  will be listed as **Service - Toll-Free**.</span></span> <span data-ttu-id="9d897-142">서비스 번호를 얻으려면 [서비스 전화 번호 가져오기를](getting-service-phone-numbers.md) 참조 하거나 기존 서비스 번호를 전송 하려는 경우 [전화 번호를 팀에 게 양도](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-142">To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>
-
-   <span data-ttu-id="9d897-143">리소스 계정에 전화 번호를 지정 하는 경우, 이제 비용 무료 전화 시스템 가상 사용자 라이선스를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-143">If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license.</span></span> <span data-ttu-id="9d897-144">이렇게 하면 조직 수준에서 전화 시스템 기능을 전화 번호에 제공 하 고 자동 전화 교환 및 통화 대기열 기능을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-144">This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.</span></span>
-
-2. <span data-ttu-id="9d897-145">전화 시스템 가상 사용자 라이선스 또는 일반 전화 시스템 라이선스를 얻습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-145">Obtain a Phone System Virtual User license or a regular Phone System license.</span></span>
-
-   <span data-ttu-id="9d897-146">가상 사용자 라이선스를 얻으려면 Microsoft 365 관리 센터에서 **청구**  >  **구입 서비스**  >  **추가 기능 구독** 으로 이동 하 여 끝으로 스크롤합니다. "전화 시스템-가상 사용자" 라이선스가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-146">To get the Virtual User license, in the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see "Phone System - Virtual User" license.</span></span> <span data-ttu-id="9d897-147">**지금 구입**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-147">Select **Buy now**.</span></span> <span data-ttu-id="9d897-148">비용이 0 인 경우에도 다음 단계를 따라 라이선스를 취득 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-148">There is a zero cost, but you still need to follow these steps to acquire the license.</span></span>
-3. <span data-ttu-id="9d897-149">새 자원 계정을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-149">Create a new resource account.</span></span> <span data-ttu-id="9d897-150">[Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-the-microsoft-teams-admin-center) 또는 [PowerShell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-150">See [Create a resource account in the Microsoft Teams admin center](#create-a-resource-account-in-the-microsoft-teams-admin-center) or [Create a resource account in PowerShell](#create-a-resource-account-in-powershell).</span></span>
-4. <span data-ttu-id="9d897-151">전화 시스템- [가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md) 또는 전화 시스템 라이선스를 리소스 계정에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-151">Assign a Phone System - [Virtual User license](teams-add-on-licensing/virtual-user.md) or Phone System License to the resource account.</span></span> <span data-ttu-id="9d897-152">[Microsoft 팀 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md) 및 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-152">See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md) and [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).</span></span>
-5. <span data-ttu-id="9d897-153">서비스 번호를 리소스 계정에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-153">Assign the service number to the resource account.</span></span> <span data-ttu-id="9d897-154">[전화 번호 및 서비스 할당/할당 취소를](#assignunassign-phone-numbers-and-services)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-154">See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).</span></span>
-6. <span data-ttu-id="9d897-155">다음 중 하나를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-155">Set up one of the following:</span></span>
-   - [<span data-ttu-id="9d897-156">클라우드 자동 전화 교환</span><span class="sxs-lookup"><span data-stu-id="9d897-156">Cloud auto attendant</span></span>](create-a-phone-system-auto-attendant.md)
-   - [<span data-ttu-id="9d897-157">클라우드 통화 대기열</span><span class="sxs-lookup"><span data-stu-id="9d897-157">Cloud call queue</span></span>](create-a-phone-system-call-queue.md)
-7. <span data-ttu-id="9d897-158">자동 전화 교환 또는 통화 대기열에 리소스 계정을 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-158">Link the resource account to the auto attendant or call queue.</span></span> <span data-ttu-id="9d897-159">[전화 번호 및 서비스 할당/할당 취소를](#assignunassign-phone-numbers-and-services) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-159">See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services)</span></span>
-
-<span data-ttu-id="9d897-160">자동 전화 교환을 만드는 동안 리소스 계정을 만들면 라이선스가 자동으로 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-160">When you create a resource account while creating an auto attendant, the licenses are applied automatically.</span></span>
-
-### <a name="create-a-resource-account-without-a-phone-number"></a><span data-ttu-id="9d897-161">전화 번호 없이 자원 계정 만들기</span><span class="sxs-lookup"><span data-stu-id="9d897-161">Create a resource account without a phone number</span></span>
-
-<span data-ttu-id="9d897-162">중첩 된 자동 전화 교환 또는 통화 대기열에는 리소스 계정이 필요 하지만 대부분의 경우 해당 리소스 계정은 전화 번호와 전화 번호를 지 원하는 데 필요한 라이선스가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-162">A nested auto attendant or call queue will require a resource account, but in many cases the corresponding resource account will not need a phone number and the licensing required to support a phone number.</span></span> <span data-ttu-id="9d897-163">전화 번호가 필요 하지 않은 리소스 계정을 만들려면 다음 작업을 순서 대로 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-163">Creating a resource account that does not need a phone number would require performing the following tasks in the following order:</span></span>
-
-1. <span data-ttu-id="9d897-164">새 자원 계정을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-164">Create a new resource account.</span></span> <span data-ttu-id="9d897-165">[Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-the-microsoft-teams-admin-center) 또는 [PowerShell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-165">See [Create a resource account in Microsoft Teams admin center](#create-a-resource-account-in-the-microsoft-teams-admin-center) or [Create a resource account in PowerShell](#create-a-resource-account-in-powershell).</span></span>
-
-2. <span data-ttu-id="9d897-166">다음 중 하나를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-166">Set up one of the following:</span></span>
-   - [<span data-ttu-id="9d897-167">클라우드 자동 전화 교환</span><span class="sxs-lookup"><span data-stu-id="9d897-167">Cloud auto attendant</span></span>](create-a-phone-system-auto-attendant.md)
-   - [<span data-ttu-id="9d897-168">클라우드 통화 대기열</span><span class="sxs-lookup"><span data-stu-id="9d897-168">Cloud call queue</span></span>](create-a-phone-system-call-queue.md)
+   [<span data-ttu-id="a4acb-173">클라우드 자동 전화 교환 계획</span><span class="sxs-lookup"><span data-stu-id="a4acb-173">Plan Cloud auto attendants</span></span>](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+  
+   [<span data-ttu-id="a4acb-174">클라우드 통화 큐 계획</span><span class="sxs-lookup"><span data-stu-id="a4acb-174">Plan Cloud call queues</span></span>](/SkypeforBusiness/hybrid/plan-call-queue)
    
-3. <span data-ttu-id="9d897-169">통화 대기열 또는 자동 전화 교환에 리소스 계정을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-169">Assign the resource account to the call queue or auto attendant.</span></span> <span data-ttu-id="9d897-170">[전화 번호 및 서비스 할당/할당 취소를](#assignunassign-phone-numbers-and-services)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-170">See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).</span></span>
+   [<span data-ttu-id="a4acb-175">프레미스 리소스 계정 구성</span><span class="sxs-lookup"><span data-stu-id="a4acb-175">Configure on-prem resource accounts</span></span>](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
-## <a name="create-a-resource-account-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="9d897-171">Microsoft 팀 관리 센터에서 자원 계정 만들기</span><span class="sxs-lookup"><span data-stu-id="9d897-171">Create a resource account in the Microsoft Teams admin center</span></span>
+## <a name="delete-a-resource-account"></a><span data-ttu-id="a4acb-176">자원 계정 삭제</span><span class="sxs-lookup"><span data-stu-id="a4acb-176">Delete a resource account</span></span>
 
-<span data-ttu-id="9d897-172">전화 시스템 라이선스를 구입한 후 Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **조직 전체 설정**  >  **리소스 계정**으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-172">After you've bought a Phone System license, in the left navigation of the Microsoft Teams admin center, go to **Org-wide settings** > **Resource accounts**.</span></span>
+<span data-ttu-id="a4acb-177">서비스 번호가 보류 모드에서 중지 되지 않도록 하려면 먼저 리소스 계정에서 전화 번호를 분리 하 여 삭제 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-177">Make sure you dissociate the telephone number from the resource account before deleting it, to avoid getting your service number stuck in pending mode.</span></span>
 
-![자원 계정 페이지 스크린샷](media/r-a-master.png)
+<span data-ttu-id="a4acb-178">이 작업을 수행한 후에는 Microsoft 365 관리 센터의 사용자 탭에서 리소스 계정을 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-178">After you do that, you can delete the resource account in the Microsoft 365 admin center, under the Users tab.</span></span>
 
-![이전 스크린샷의 설명선을 참조 하는 숫자 1의 아이콘](media/teamscallout1.png)
-
-<span data-ttu-id="9d897-175">새 리소스 계정을 만들려면 **추가**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-175">To create a new resource account, click **Add**.</span></span> <span data-ttu-id="9d897-176">**리소스 계정 추가** 창에서 **표시 이름**, **사용자 이름** (도메인 이름, 자동으로 채워야 함), 리소스 계정의 **리소스 계정 유형을** 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-176">In the **Add resource account** pane, fill out **Display name**, **Username** (the domain name should populate automatically), and **Resource account type** for the resource account.</span></span> <span data-ttu-id="9d897-177">리소스 계정 유형은 리소스 계정에 연결 하려는 앱에 따라 **자동 전화 교환** 또는 **통화 대기열**이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-177">The resource account type can be either **Auto attendant** or **Call queue**, depending on the app you intend to associate to the resource account.</span></span> <span data-ttu-id="9d897-178">준비가 완료 되 면 **저장**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-178">When you're ready, click **Save**.</span></span>
-
-![새 자원 계정 옵션 스크린샷](media/res-acct.png)
-
-<span data-ttu-id="9d897-180">다음으로 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)에 설명 된 대로 Microsoft 365 관리 센터의 자원 계정에 라이선스를 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-180">Next, apply a license to the resource account in the Microsoft 365 Admin center, as described in [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).</span></span>
-
-### <a name="edit-resource-account"></a><span data-ttu-id="9d897-181">자원 계정 편집</span><span class="sxs-lookup"><span data-stu-id="9d897-181">Edit resource account</span></span> 
-
-<span data-ttu-id="9d897-182">![이전 스크린샷의 설명선을 참조 하는 숫자 2의 아이콘 ](media/teamscallout2.png) **편집** 옵션을 사용 하 여 리소스 계정 **표시 이름** 및 **리소스 계정** 유형을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-182">![Icon of the number 2, referencing a callout in the previous screenshot](media/teamscallout2.png) You can edit the resource account **Display name** and **Resource account** type using the **Edit** option.</span></span> <span data-ttu-id="9d897-183">완료 되 면 **저장** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-183">Click **Save** when you are done.</span></span>
-
-![자원 계정 편집 옵션 스크린샷](media/r-a-edit.png)
-
-<span data-ttu-id="9d897-185"><a name="phonenumber"> </a></span><span class="sxs-lookup"><span data-stu-id="9d897-185"><a name="phonenumber"> </a></span></span>
-
-### <a name="assignunassign-phone-numbers-and-services"></a><span data-ttu-id="9d897-186">전화 번호 및 서비스 할당/할당 취소</span><span class="sxs-lookup"><span data-stu-id="9d897-186">Assign/unassign phone numbers and services</span></span>
-
-<span data-ttu-id="9d897-187">![숫자 3의 아이콘, 이전 스크린샷에서 설명선 참조, 라이선스를 ](media/teamscallout3.png) 할당 한 후 **할당/할당** 취소를 클릭 하 여 리소스 계정에 서비스 번호를 할당 하거나, 전화 번호 유형을 설정 하거나, 이미 존재 하는 특정 자동 전화 교환 또는 통화 대기열에 리소스 계정을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-187">![Icon of the number 3, referencing a callout in the previous screenshot](media/teamscallout3.png) After you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, set the phone number type, or assign the resource account to a specific auto attendant or call queue that already exists.</span></span> <span data-ttu-id="9d897-188">직접 라우팅 번호 지정은 Cmdlet을 사용 하 여 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-188">Assigning a direct routing number can be done using Cmdlets only.</span></span> <span data-ttu-id="9d897-189">리소스 계정에 연결할 통화 대기열 또는 자동 전화 교환을 아직 만들지 않은 경우에는 해당 필드를 비워 둡니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-189">If you haven't yet created the  call queue or auto attendant you will associate to the resource account, leave that field blank.</span></span> <span data-ttu-id="9d897-190">생성 하는 동안 리소스 계정을 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-190">You can link the resource account while you create it.</span></span> <span data-ttu-id="9d897-191">완료 되 면 **저장** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-191">Click **Save** when you are done.</span></span>
-
-<span data-ttu-id="9d897-192">**전화 번호 형식** 에 대 한 옵션은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-192">Options for the **Phone number type** are:</span></span>
-
-- <span data-ttu-id="9d897-193">없음</span><span class="sxs-lookup"><span data-stu-id="9d897-193">None</span></span>
-- <span data-ttu-id="9d897-194">온라인</span><span class="sxs-lookup"><span data-stu-id="9d897-194">Online</span></span>
-- <span data-ttu-id="9d897-195">무료</span><span class="sxs-lookup"><span data-stu-id="9d897-195">Toll-free</span></span>
-- <span data-ttu-id="9d897-196">온-프레미스</span><span class="sxs-lookup"><span data-stu-id="9d897-196">On-premises</span></span>
-
-![할당/할당 취소 옵션 스크린샷](media/r-a-assign.png)
-
-<span data-ttu-id="9d897-198">리소스 계정에 직접 라우팅 또는 하이브리드 번호를 할당 하려면 PowerShell을 사용 해야 합니다. 다음 섹션을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-198">To assign a direct routing or hybrid number to a resource account you will need to use PowerShell, see the following section.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="9d897-199">리소스 계정에 유효한 라이선스가 없는 경우 리소스 계정에 전화 번호를 할당 하려고 하면 내부 검사에서 오류가 발생 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-199">If your resource account doesn't have a valid license, an internal check will cause a failure when you try to assign the phone number to the resource account.</span></span> <span data-ttu-id="9d897-200">번호를 할당 하거나 리소스 계정을 통화 대기열 또는 자동 전화 교환에 연결할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-200">You won't be able to assign the number or associate the resource account with a call queue or auto attendant.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="9d897-201">전화 번호는 자동 전화 교환 또는 통화 대기열에 직접 할당 되지 않고 자동 전화 교환 또는 통화 대기열에 연결 된 리소스 계정으로 지정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-201">A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.</span></span>
-
-
-
-## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a><span data-ttu-id="9d897-202">가상 사용자 라이선스를 사용 하도록 기존 리소스 계정 변경</span><span class="sxs-lookup"><span data-stu-id="9d897-202">Change an existing resource account to use a Virtual User license</span></span>
-
-<span data-ttu-id="9d897-203">기존 리소스 계정의 라이선스를 전화 시스템 라이선스에서 가상 사용자 라이선스로 전환 하려는 경우 무료 가상 사용자 라이선스를 취득 한 다음 Microsoft 365 관리 센터의 단계를 따라 [사용자를 다른 구독으로 이동](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-203">If you decide to switch the licenses on your existing resource account from a Phone System license to a Virtual User license, you'll need to acquire the free Virtual User license, and then follow the steps in the Microsoft 365 admin center to [Move users to a different subscription](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).</span></span>
-
-> [!WARNING]
-> <span data-ttu-id="9d897-204">항상 전체 전화 시스템 라이선스를 제거 하 고 동일한 라이선스 활동에 가상 사용자 라이선스를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-204">Always remove a full Phone System License and assign the Virtual User license in the same license activity.</span></span> <span data-ttu-id="9d897-205">이전 라이선스를 제거 하 고, 계정 변경 내용을 저장 하 고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장 하면 리소스 계정이 더 이상 예상 대로 작동 하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-205">If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected.</span></span> <span data-ttu-id="9d897-206">이 문제가 발생 하는 경우 가상 사용자 라이선스에 대 한 새 리소스 계정을 만들고 끊어진 리소스 계정을 제거 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-206">If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account.</span></span>
-
-## <a name="create-a-resource-account-in-powershell"></a><span data-ttu-id="9d897-207">PowerShell에서 리소스 계정 만들기</span><span class="sxs-lookup"><span data-stu-id="9d897-207">Create a resource account in PowerShell</span></span>
-
-<span data-ttu-id="9d897-208">리소스 계정이 온라인 상태 인지 또는 비즈니스용 Skype Server 2019에 따라 관리자 권한을 사용 하 여 적절 한 PowerShell 프롬프트에 연결 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-208">Depending on whether your resource account is located online or on Skype for Business Server 2019, you would need to connect to the appropriate PowerShell prompt with Admin privileges.</span></span>
-
-- <span data-ttu-id="9d897-209">다음 PowerShell cmdlet 예제에서는 [새 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)를 사용 하 여 온라인으로 리소스 계정을 만드는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-209">The following PowerShell cmdlet examples show creating a resource account homed online using [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps).</span></span> 
-
-- <span data-ttu-id="9d897-210">클라우드 통화 대기열 및 클라우드 자동 전화 교환에 사용할 수 있는 비즈니스용 Skype Server 2019에 있는 리소스 계정의 경우 [클라우드 통화 대기열 계획](/SkypeforBusiness/hybrid/plan-call-queue) 또는 [클라우드 자동 전화 교환 계획](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-210">For resource accounts homed on Skype For Business Server 2019 that can be used with Cloud Call Queues and Cloud Auto Attendants, see [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant).</span></span> <span data-ttu-id="9d897-211">하이브리드 구현 (직접 라우팅에 있는 숫자)은 온-프레미스 비즈니스용 Skype Server 2019 서버에서 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) cmdlet을 사용 하 여 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-211">Hybrid implementations (numbers homed on Direct Routing) are configured using the [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) cmdlet on an on-premises Skype for Business Server 2019 server.</span></span>
-
-<span data-ttu-id="9d897-212">응용 프로그램 인스턴스를 만들 때 사용 해야 하는 응용 프로그램 ID는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-212">The application ID's that you need to use while creating the application instances are:</span></span>
-
-- <span data-ttu-id="9d897-213">**자동 전화 교환:** ce933385-9390-45d1-9512-c8d228074e07</span><span class="sxs-lookup"><span data-stu-id="9d897-213">**Auto Attendant:** ce933385-9390-45d1-9512-c8d228074e07</span></span>
-- <span data-ttu-id="9d897-214">**통화 대기열:** 11cd3e2e-fccb-42ad-ad00-878b93575e07</span><span class="sxs-lookup"><span data-stu-id="9d897-214">**Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="9d897-215">Skype For Business Server 2019 사용자가 통화 대기열 또는 자동 전화 교환을 검색 가능 하 게 하려면 온라인 리소스 계정이 Active Directory로 동기화 되지 않으므로 비즈니스용 Skype Server 2019에서 리소스 계정을 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-215">If you want the call queue or auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory.</span></span> <span data-ttu-id="9d897-216">Sipfederationtls 용 DNS SRV 레코드가 비즈니스용 Skype Server 2019에서 해결 되 면 SfB Management shell을 사용 하 여 비즈니스용 Skype Server 2019에서 리소스 계정을 만들고 온라인 Azure AD와 동기화 **해야 합니다** .</span><span class="sxs-lookup"><span data-stu-id="9d897-216">When DNS SRV records for sipfederationtls resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to online Azure AD.</span></span>
-
- 
-
-1. <span data-ttu-id="9d897-217">자동 전화 교환에 사용할 리소스 계정을 온라인으로 만들려면 다음 명령을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-217">To create a resource account online for use with an auto attendant, use the following command:</span></span>
-
-    ```powershell
-    New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
-    ```
-
-2. <span data-ttu-id="9d897-218">라이선스를 적용 하기 전에는 리소스 계정을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-218">You will not be able to use the resource account until you apply a license to it.</span></span> <span data-ttu-id="9d897-219">Microsoft 365 관리 센터의 계정에 라이선스를 적용 하는 방법에 대 한 자세한 내용은[사용자에](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 게 라이선스 할당 및 [비즈니스용 Skype 라이선스 할당](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-219">To learn how to apply a license to an account in the Microsoft 365 admin center, see[Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) as well as [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).</span></span>
-
-3. <span data-ttu-id="9d897-220">) 자원 계정에 올바른 라이선스를 적용 한 후에는 다음과 같이 리소스 계정에 전화 번호를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-220">(Optional) After the correct license is applied to the resource account, you can assign a phone number to the resource account as shown below.</span></span> <span data-ttu-id="9d897-221">일부 자원 계정에는 전화 번호가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-221">Not all resource accounts will require a phone number.</span></span> <span data-ttu-id="9d897-222">자원 계정에 라이선스를 적용 하지 않은 경우에는 전화 번호 할당이 실패 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-222">If you didn't apply a license to the resource account, the phone number assignment will fail.</span></span>
-
-   ```powershell
-   Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
-   Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
-   ```
-
-   <span data-ttu-id="9d897-223">이 명령에 대 한 자세한 내용은 [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-223">See [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) for more details on this command.</span></span>
-
-   > [!NOTE]
-   > <span data-ttu-id="9d897-224">앞에서 설명한 대로 Microsoft 팀 관리 센터를 사용 하 여 온라인 전화 번호를 설정 하는 것이 가장 쉽습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-224">It's easiest to set the online phone number using the Microsoft Teams admin center, as described previously.</span></span>
-
-   <span data-ttu-id="9d897-225">Microsoft 팀 또는 비즈니스용 Skype Server 2019에 있는 리소스 계정에 직접 라우팅 전화 번호를 할당 하려면 비즈니스용 Skype Online PowerShell에 다음 cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-225">To assign a direct routing phone number to a resource account (homed either in Microsoft Teams or Skype For Business Server 2019), use the following cmdlet for Skype for Business Online PowerShell:</span></span>
-
-   ```powershell
-   Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
-   ```
-
-## <a name="manage-resource-account-settings-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="9d897-226">Microsoft 팀 관리 센터에서 자원 계정 설정 관리</span><span class="sxs-lookup"><span data-stu-id="9d897-226">Manage resource account settings in the Microsoft Teams admin center</span></span>
-
-<span data-ttu-id="9d897-227">Microsoft 팀 관리 센터에서 자원 계정 설정을 관리 하려면 **조직 전체 설정**  >  **리소스 계정**으로 이동 하 여 설정을 변경 하는 데 필요한 자원 계정을 선택한 다음 **편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-227">To manage resource account settings in Microsoft Teams admin center, go to **Org-wide settings** > **Resource accounts**, select the resource account you need to change settings for, and then click **Edit**.</span></span> <span data-ttu-id="9d897-228">**리소스 계정 편집** 창에서 다음 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-228">On the **Edit resource account** pane, you can change these settings:</span></span>
-
-- <span data-ttu-id="9d897-229">계정의 **표시 이름**</span><span class="sxs-lookup"><span data-stu-id="9d897-229">**Display name** for the account</span></span>
-- <span data-ttu-id="9d897-230">계정을 사용 하는 통화 대기열 또는 자동 전화 교환</span><span class="sxs-lookup"><span data-stu-id="9d897-230">Call queue or auto attendant that uses the account</span></span>
-- <span data-ttu-id="9d897-231">계정에 할당 된 전화 번호</span><span class="sxs-lookup"><span data-stu-id="9d897-231">Phone number assigned to the account</span></span>
-
-<span data-ttu-id="9d897-232">완료 되 면 **저장**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-232">When finished, click **Save**.</span></span>
-
-## <a name="delete-a-resource-account"></a><span data-ttu-id="9d897-233">자원 계정 삭제</span><span class="sxs-lookup"><span data-stu-id="9d897-233">Delete a resource account</span></span>
-
-<span data-ttu-id="9d897-234">서비스 번호가 보류 모드에서 중지 되지 않도록 하려면 먼저 리소스 계정에서 전화 번호를 분리 하 여 삭제 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-234">Make sure you dissociate the telephone number from the resource account before deleting it, to avoid getting your service number stuck in pending mode.</span></span> <span data-ttu-id="9d897-235">다음 cmdlet을 사용 하 여이 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-235">You can do that using the following cmdlet:</span></span>
-
-```powershell
-Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
-```
-
-<span data-ttu-id="9d897-236">이 작업을 수행한 후에는 Microsoft 365 관리 센터의 사용자 탭에서 리소스 계정을 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-236">After you do that, you can delete the resource account in the Microsoft 365 admin center, under the Users tab.</span></span>
-
-<span data-ttu-id="9d897-237">리소스 계정에서 직접 라우팅 전화 번호의 연관을 해제 하려면 다음 cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-237">To disassociate a direct routing telephone number from the resource account, use the following cmdlet:</span></span>
+<span data-ttu-id="a4acb-179">리소스 계정에서 직접 라우팅 전화 번호의 연관을 해제 하려면 다음 cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4acb-179">To disassociate a direct routing telephone number from the resource account, use the following cmdlet:</span></span>
 
 ```powershell
 Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
 ```
-
-## <a name="troubleshooting"></a><span data-ttu-id="9d897-238">문제 해결</span><span class="sxs-lookup"><span data-stu-id="9d897-238">Troubleshooting</span></span>
-
-### <a name="you-dont-see-the-phone-number-assigned-to-the-resource-account-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="9d897-239">Microsoft 팀 관리 센터에서 자원 계정에 할당 된 전화 번호가 표시 되지 않는 경우</span><span class="sxs-lookup"><span data-stu-id="9d897-239">You don't see the phone number assigned to the resource account in the Microsoft Teams admin center</span></span>
-
-<span data-ttu-id="9d897-240">Microsoft 팀 관리 센터에서 자원 계정에 할당 된 전화 번호가 표시 되지 않고 해당 번호를 할당할 수 없는 경우 다음을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-240">If you don't see the phone number assigned to the resource account in the Microsoft Teams admin center and you are unable to assign the number from there, check the following:</span></span>
-
-```powershell
-Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
-```
-
-<span data-ttu-id="9d897-241">부서 특성에 비즈니스용 Skype 응용 프로그램 종점이 표시 되는 경우 아래에서 cmdlet을 실행 하세요.</span><span class="sxs-lookup"><span data-stu-id="9d897-241">If the department attribute displays Skype for Business Application Endpoint please run the cmdlet below:</span></span>
-
-```powershell
-Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance"
-```
-
-> [!NOTE]
-> <span data-ttu-id="9d897-242">Cmldet을 실행 한 후 팀 관리 센터 웹 페이지를 새로 고치면 번호를 올바르게 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-242">Refresh the Teams Admin center webpage after running the cmldet, and you should be able to assign the number correctly.</span></span>
-
-### <a name="you-get-a-we-cant-use-this-resource-account-for-services-error-message"></a><span data-ttu-id="9d897-243">"서비스에이 리소스 계정을 사용할 수 없습니다." 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-243">You get a "We can't use this resource account for services."</span></span> <span data-ttu-id="9d897-244">오류 메시지</span><span class="sxs-lookup"><span data-stu-id="9d897-244">error message</span></span>
-
-<span data-ttu-id="9d897-245"><a name="blocksignin"> </a></span><span class="sxs-lookup"><span data-stu-id="9d897-245"><a name="blocksignin"> </a></span></span>
-
-<span data-ttu-id="9d897-246">리소스 계정을 사용 하려고 하면 다음과 같은 오류 메시지가 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-246">You get the following error message when you try to use a resource account:</span></span>
-
-<span data-ttu-id="9d897-247">"서비스에 대해이 리소스 계정을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-247">"We can't use this resource account for services.</span></span> <span data-ttu-id="9d897-248">리소스 계정은 사용 하지 않도록 설정 하 고 로그인을 차단 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-248">The resource account must be DISABLED and BLOCKED from signing in.</span></span> <span data-ttu-id="9d897-249">Microsoft 365 관리 센터의 사용자 페이지에서이 자원 계정에 대 한 로그인을 차단 해야 합니다. "</span><span class="sxs-lookup"><span data-stu-id="9d897-249">You must BLOCK sign-ins for this resource account on the Users page in the Microsoft 365 admin center."</span></span>
-
-<span data-ttu-id="9d897-250">기본적으로 리소스 계정을 만들면 사용할 수 없도록 설정 되 고 계정에 대 한 로그인이 차단 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-250">When you create a resource account, by default, it's disabled and sign in is blocked for the account.</span></span> <span data-ttu-id="9d897-251">이러한 설정은 변경 하지 않아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-251">These settings shouldn't be changed.</span></span> <span data-ttu-id="9d897-252">이 오류 메시지를 해결 하려면 리소스 계정이 로그인 되지 않도록 차단 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-252">To resolve this error message, block the resource account from signing in.</span></span> <span data-ttu-id="9d897-253">실행할 작업:</span><span class="sxs-lookup"><span data-stu-id="9d897-253">To do this:</span></span>
-
-1. <span data-ttu-id="9d897-254">Microsoft 365 관리 센터에서 **사용자**로 이동 하 여을 검색 한 다음 리소스 계정을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-254">In the Microsoft 365 admin center, go to **Users**, search for, and then select the resource account.</span></span>
-2. <span data-ttu-id="9d897-255">창의 맨 위에서 표시 이름 아래에서 **이 사용자 차단을 클릭 하세요?** 에서 **이 사용자에 게 로그인을 차단** 확인란을 선택 하 고 **변경 내용 저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-255">At the top of the pane under the display name, click **Block this user?**, select the **Block this user from signing in** check box, and then select **Save changes**.</span></span>
-
-   ![이 사용자 차단 옵션 스크린샷](media/res-acct-block.png)
-
-    <span data-ttu-id="9d897-257">이렇게 하면 표시 이름 아래에 "로그인이 차단 됨"이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d897-257">After you do this, you'll see "Sign in blocked" under the display name.</span></span>
-
-      ![로그인 차단 된 메시지 스크린샷](media/res-acct-sign-in-blocked.png)
-
-## <a name="related-information"></a><span data-ttu-id="9d897-259">관련 정보</span><span class="sxs-lookup"><span data-stu-id="9d897-259">Related Information</span></span>
-
-<span data-ttu-id="9d897-260">비즈니스용 Skype 서버와 혼성으로 구현 하는 경우:</span><span class="sxs-lookup"><span data-stu-id="9d897-260">For implementations that are hybrid with Skype for Business Server:</span></span>
-
-   [<span data-ttu-id="9d897-261">클라우드 자동 전화 교환 계획</span><span class="sxs-lookup"><span data-stu-id="9d897-261">Plan Cloud auto attendants</span></span>](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
-  
-   [<span data-ttu-id="9d897-262">클라우드 통화 큐 계획</span><span class="sxs-lookup"><span data-stu-id="9d897-262">Plan Cloud call queues</span></span>](/SkypeforBusiness/hybrid/plan-call-queue)
-   
-   [<span data-ttu-id="9d897-263">프레미스 리소스 계정 구성</span><span class="sxs-lookup"><span data-stu-id="9d897-263">Configure on-prem resource accounts</span></span>](/SkypeForBusiness/hybrid/configure-onprem-ra)
-
-
-<span data-ttu-id="9d897-264">팀 또는 비즈니스용 Skype Online에서의 구현:</span><span class="sxs-lookup"><span data-stu-id="9d897-264">For implementations in Teams or Skype for Business Online:</span></span>
-
-   [<span data-ttu-id="9d897-265">클라우드 자동 전화 교환이란?</span><span class="sxs-lookup"><span data-stu-id="9d897-265">What are Cloud auto attendants?</span></span>](what-are-phone-system-auto-attendants.md)
-
-   [<span data-ttu-id="9d897-266">클라우드 자동 전화 교환 설정</span><span class="sxs-lookup"><span data-stu-id="9d897-266">Set up a Cloud auto attendant</span></span>](/microsoftteams/create-a-phone-system-auto-attendant)
-
-   [<span data-ttu-id="9d897-267">소규모 기업 예제 - 자동 전화 교환 설정</span><span class="sxs-lookup"><span data-stu-id="9d897-267">Small business example - Set up an auto attendant</span></span>](/microsoftteams/tutorial-org-aa)
-
-   [<span data-ttu-id="9d897-268">클라우드 통화 큐 만들기</span><span class="sxs-lookup"><span data-stu-id="9d897-268">Create a Cloud call queue</span></span>](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
-
-[<span data-ttu-id="9d897-269">새로운 CsHybridApplicationEndpoint</span><span class="sxs-lookup"><span data-stu-id="9d897-269">New-CsHybridApplicationEndpoint</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
-
-[<span data-ttu-id="9d897-270">새로운 CsOnlineApplicationInstance</span><span class="sxs-lookup"><span data-stu-id="9d897-270">New-CsOnlineApplicationInstance</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
-
-[<span data-ttu-id="9d897-271">새로운 CsOnlineApplicationInstanceAssociation</span><span class="sxs-lookup"><span data-stu-id="9d897-271">New-CsOnlineApplicationInstanceAssociation</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstanceassociation?view=skype-ps)
-
-[<span data-ttu-id="9d897-272">전화 시스템-가상 사용자 라이선스</span><span class="sxs-lookup"><span data-stu-id="9d897-272">Phone System - Virtual User license</span></span>](teams-add-on-licensing/virtual-user.md)
