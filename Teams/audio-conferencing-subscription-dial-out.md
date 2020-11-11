@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 전화를 걸고 통화를 하는 것은 시간 혜택입니다. 12 월 1 2019 일 기준으로 각 오디오 회의 플랜은 국가를 표준 시간대에 대 한 사용자 당 60 분을 제공 합니다.
-ms.openlocfilehash: a7834b279b5e4246d3233405c1ab0a87df21ff8f
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 0f5b4ea3dd59e4a6a9c957f4ec397c9ceb5cc660
+ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908497"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993464"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>오디오 회의 구독 "전화 걸기"/"나에 게 전화 하세요" 통화 혜택
 
@@ -67,10 +67,27 @@ ms.locfileid: "48908497"
 - 1 개월 마다 6900 분을 초과 하는 모든 전화 접속 통화는 게시 된 요금에 대 한 커뮤니케이션 크레딧을 사용 하 여 분당 청구 됩니다. (참고: 고객은 [통신 크레딧을](what-are-communications-credits.md) 설정 하 고 모임 이끌이에게 통신 크레딧 라이선스를 할당 해야 합니다.)
 - 지역에 없는 대상에 대 한 모든 전화 접속 통화는 해당 대상에 게 게시 된 요금에 [대 한 커뮤니케이션](audio-conferencing-zones.md) 크레딧을 사용 하 여 분당 청구 됩니다 (고객이 커뮤니케이션 크레딧을 설정 하 고 모임 이끌이에게 통신 크레딧 라이선스를 할당 한 경우).
 
-## <a name="how-can-i-monitor-minute-pool-usage"></a>분 단위 사용량을 어떻게 모니터링할 수 있나요?
+## <a name="how-can-i-monitor-minute-my-pool-usage"></a>제 1 풀 사용량을 어떻게 모니터링할 수 있나요?
 
-- "레거시" 비즈니스용 Skype 관리 센터에서 전화 걸기 분 풀에 대 한 사용량을 모니터링할 수 있습니다. Microsoft 팀 관리 센터에서 **구형 포털**  >  **보고서** 로 이동  >  **PSTN Minute Pools** 합니다. 전화 걸기 분 단위는 보고서에 "국가를 시간대에 대 한 아웃 바운드 통화"로 지정 됩니다.
-- 테 넌 트의 전화 접속 시간 풀 사용률이 80% 및 100%에 도달 하면 지정 된 고객의 모든 테 넌 트 관리자에 게 전자 메일 알림이 전송 됩니다.
+- Microsoft 팀 관리 센터의 전화 걸기 지연 풀에 대 한 사용 현황을 모니터링할 수 있습니다. 왼쪽 탐색 창에서 **분석 & 보고서**  >  **사용 현황 보고서** 로 이동한 다음 **PSTN 분 풀** 을 선택 합니다. 전화 걸기 분 단위는 보고서에 "국가를 시간대에 대 한 아웃 바운드 통화"로 지정 됩니다.
+- 조직의 전화 접속 시간 풀 사용률이 80% 및 100%에 도달 하면 전자 메일 알림이 다음 관리자에 게 전송 됩니다.
+
+  - 대금 청구 관리자
+  - 비즈니스용 Skype 관리자
+  - 회사 관리자
+  - 사용자 계정 관리자
+  - 헬프데스크 관리자
+  - 서비스 지원 관리자
+  - 장치 관리자
+  - 응용 프로그램 관리자
+  - 라이선스 관리자
+  - 클라우드 장치 관리자
+  - 인증 관리자
+  - 권한 있는 인증 관리자
+  - Teams 커뮤니케이션 관리자
+  - Teams 커뮤니케이션 지원 엔지니어
+  - 팀 의사 소통 지원 전문가
+  - Teams 서비스 관리자
 
 통신 크레딧을 추가 하는 방법에 대 한 자세한 내용은 [통신 제작진](what-are-communications-credits.md)을 참조 하세요.
 

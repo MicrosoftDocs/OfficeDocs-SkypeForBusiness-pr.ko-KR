@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀의 정보 장벽에 대해 설명
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 519e216a8736ca214f65f11ca5b3509541c09860
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
+ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508355"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988325"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
@@ -44,7 +44,7 @@ IB (정보 장벽)은 관리자가 개인 또는 그룹이 서로 통신 하는 
 - 교육: 한 학교에 있는 학생 들은 다른 학교 학생의 연락처 세부 정보를 찾을 수 없습니다.
 - 법률: 한 클라이언트의 변호사에서 얻은 데이터의 기밀성을 다른 클라이언트를 나타내는 동일한 회사의 변호사에서 액세스 하지 못하도록 유지 관리 합니다.
 - 정부: 부서와 그룹 간에 정보 액세스 및 제어가 제한 됩니다.
-- 전문 서비스: 회사의 사용자 그룹은 고객 참여 중에 페더레이션 또는 게스트 액세스를 통해 클라이언트나 특정 고객에 게 채팅할 수만 있습니다.
+- 전문 서비스: 회사의 사용자 그룹은 고객 참여 중 게스트 액세스를 통해 클라이언트 또는 특정 고객과 채팅을 할 수만 있습니다.
 
 예를 들어 Enrico는 은행 부문 세그먼트에 속하고 재무 관리자 세그먼트에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신과 공동 작업을 차단 하기 때문에, Pradeep는 서로 통신할 수 없습니다. 그러나 Pradeep는 HR에 정영일와 통신할 수 있습니다.
 
@@ -169,7 +169,7 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
 
 팀을 만들 때 SharePoint 사이트를 프로 비전 하 고 파일 환경을 위해 Microsoft 팀과 연결 합니다. 기본적으로이 SharePoint 사이트 및 파일에는 정보 장벽 정책이 적용 되지 않습니다. 정보 장벽 정책을 사용 하도록 설정 하려면 관리자가 SharePoint 및 OneDrive에서 IB 정책을 사용 하도록 요청 하는 양식을 이미 작성 했습니다 ( [정보 장벽](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)의 *필수 구성 요소* 섹션 참조). SharePoint 및 OneDrive에서 정보 장벽 정책이 설정 되어 있는 경우 팀이 Microsoft 팀을 사용 하 여 만들어질 때 IB 정책이 프로 비전 된 SharePoint 사이트에서 작동 됩니다.
 
-**팀의 SharePoint 사이트에 대 한 IB 정책의 예**: Contoso 은행에서 사용자 ' Sesha@contosobank.onmicrosoft.com '이 (가) 투자 은행 부문에 속하고 사용자 ' Nikita@contosobank.onmicrosoft.com '이 (가) segment advise에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신과 공동 작업을 차단 합니다.
+**팀의 SharePoint 사이트에 대 한 IB 정책의 예** : Contoso 은행에서 사용자 ' Sesha@contosobank.onmicrosoft.com '이 (가) 투자 은행 부문에 속하고 사용자 ' Nikita@contosobank.onmicrosoft.com '이 (가) segment advise에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신과 공동 작업을 차단 합니다.
 사용자가 투자 은행 부문에 대 한 팀을 만드는 경우 팀과이를 지 원하는 SharePoint 사이트는 투자 은행 부문 사용자만 액세스할 수 있습니다. 사이트 링크를가지고 있는 경우에도 사용자 Nikita 해당 사이트에 액세스할 수 없습니다.
 
 자세한 내용은 [정보 장벽](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) 문서를 참조 하세요.
@@ -179,7 +179,9 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
 계획 및 가격을 비롯 한 자세한 내용은 [라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조 하세요.
 
 ## <a name="known-issues"></a>알려진 문제점
-- **사용자가 모임에 참가할 수 없음**: 모임 명단 크기가 [모임 참석 한도](limits-specifications-teams.md)를 초과 하는 경우 사용자가 모임에 참가할 수 없는 경우 IB 정책을 사용 하도록 설정 합니다. 근본 원인으로 인해 IB 검사는 사용자가 모임 채팅 명단에 추가 될 수 있는지 여부에 따라 사용자가 모임에 참가 하도록 허용 하는 신호를 받습니다. 모임에 한 번 참가 하면 해당 사용자가 명단에 추가 되므로 되풀이 모임에서는 명단이 빠르게 채워집니다. [모임 참석 제한](limits-specifications-teams.md)에 도달 하면 추가 사용자가 모임 채팅 명단에 추가 될 수 없습니다. IB가 사용 하도록 설정 되어 있는 경우 사용자는 모임에 참가할 수 없지만, IB를 사용 하도록 설정 하지 않으면 사용자가 모임에 참가할 수 있지만 모임 채팅 명단에 추가 되지는 않습니다. 단기 솔루션은 모임 채팅 명단에서 비활성 구성원을 제거 하 여 새 사용자를 위한 공간을 확보 하는 것입니다. 그러나 나중에 모임 채팅 rosters의 크기를 늘리는 것이 좋습니다.
+- **사용자가 임시 모임에 참가할 수 없음** : 모임 명단 크기가 [모임 참석 한도](limits-specifications-teams.md)를 초과 하는 경우 사용자가 모임에 참가할 수 IB. 근본 원인으로 인해 IB 검사는 사용자가 모임 채팅 명단에 추가 될 수 있는지 여부에 따라 사용자가 모임에 참가 하도록 허용 하는 신호를 받습니다. 모임에 한 번 참가 하면 해당 사용자가 명단에 추가 되므로 되풀이 모임에서는 명단이 빠르게 채워집니다. [모임 참석 제한](limits-specifications-teams.md)에 도달 하면 추가 사용자가 모임 채팅 명단에 추가 될 수 없습니다. 테 넌 트에 대해 IB을 사용할 수 있고 채팅 명단이 모임에 대해 꽉 찬 경우, 새 사용자 (명단에 아직 있지 않은)는 모임에 참가할 수 없습니다. 그러나 테 넌 트에 대해 IB가 설정 되어 있지 않고 모임 채팅 명단이 가득 찬 경우 모임에 채팅 옵션이 표시 되지 않지만 새 사용자 (명단에 아직 있지 않은)는 모임에 참가할 수 있습니다. 단기 솔루션은 모임 채팅 명단에서 비활성 구성원을 제거 하 여 새 사용자를 위한 공간을 확보 하는 것입니다. 그러나 나중에 모임 채팅 rosters의 크기를 늘리는 것이 좋습니다.
+
+- **사용자가 채널 모임에 참가할 수 없는** 경우 IB 정책을 사용 하는 경우 사용자는 팀 구성원이 아닌 경우 채널 모임에 참가할 수 없습니다. 근본 원인으로 인해 IB 검사는 사용자가 모임 채팅 명단에 추가 될 수 있는지 여부에 따라 사용자가 모임에 참가 하도록 허용 하는 신호를 받습니다. 채널 모임에서 채팅 스레드는 팀/채널 구성원만 사용할 수 있으며, 비 구성원은 채팅 스레드를 보고 액세스할 수 없습니다. 테 넌 트에 대해 IB가 사용 되 고 팀 구성원이 채널 모임에 참가 하려고 하면 사용자가 모임에 참가할 수 없습니다. 그러나 테 넌 트에 대해 IB가 설정 되지 않고 팀 구성원이 채널 모임에 참가 하려고 하면 사용자가 모임에 참가할 수 있지만 모임에 채팅 옵션이 표시 되지 않습니다.
 
 ## <a name="more-information"></a>추가 정보
 
