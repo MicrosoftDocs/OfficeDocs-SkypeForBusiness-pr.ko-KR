@@ -16,12 +16,12 @@ description: 이 문서에서는 Microsoft 팀의 정보 장벽에 대해 설명
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
-ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
+ms.openlocfilehash: c545b6289cd1a40fdf9ca967ebd44cd2d781605d
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988325"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48996019"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
@@ -29,7 +29,7 @@ IB (정보 장벽)은 관리자가 개인 또는 그룹이 서로 통신 하는 
 
 > [!NOTE]
 > - 테 넌 트 간에 정보 장벽 그룹을 만들 수 없습니다.
-> - 봇을 사용 하 여 사용자를 추가 하는 것은 버전 1에서 지원 되지 않습니다.
+> - 인공 지능, AAD 앱 및 사용자를 추가 하기 위해 일부 Api를 사용 하는 것은 버전 1에서 지원 되지 않습니다.
 > - 개인 채널은 사용자가 구성한 정보 장벽 정책에 따릅니다.
 > - 신규: 팀에 연결 된 SharePoint 사이트에 대 한 장벽 지원에 대 한 자세한 내용을 보려면 [여기](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)를 클릭 하세요.
 

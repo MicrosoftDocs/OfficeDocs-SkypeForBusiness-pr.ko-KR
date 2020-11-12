@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 00cf80578564db122d4eaf206456b465a21668af
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48922439"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48999215"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -196,13 +196,11 @@ ms.locfileid: "48922439"
 
 ## <a name="external-phone-number-transfers---technical-details"></a>외부 전화 번호 전송-기술 세부 정보
 
-외부 전화 번호로 통화를 전송할 때 자동 전화 교환 또는 통화 대기열과 연결 된 리소스 계정에는 전화 번호와 Microsoft 365 전화 시스템-가상 사용자 라이선스가 있어야 합니다. 업데이트로
+자동 전화 교환이 외부로 전화를 이전할 수 있으려면 [필수 조건을](plan-auto-attendant-call-queue.md#prerequisites) 참조 하세요.  또한:
 
-- 통화 요금제 번호가 있는 자원 계정의 경우, [통화 요금제](calling-plans-for-office-365.md) 라이선스를 할당 합니다.
-  - 외부 전송 전화 번호는 E-164 형식으로 입력 해야 합니다 (+ CC + phone_number).
+- [통화 요금제](calling-plans-for-office-365.md) 번호를 사용 하는 자원 계정의 경우, 외부 전송 전화 번호를 E-164 형식으로 입력 해야 합니다 (+ [국가 코드] [지역 번호] [전화번호]).
 
-- 직접 라우팅 번호가 있는 리소스 계정의 경우 [온라인 음성 라우팅 정책을](manage-voice-routing-policies.md)할당 합니다.
-  - 외부 전송 전화 번호 형식은 [SBC (세션 경계 컨트롤러)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) 설정에 따라 달라 집니다.
+- 직접 라우팅 번호가 있는 리소스 계정의 경우 외부 전송 전화 번호 형식은 [SBC (세션 경계 컨트롤러)](direct-routing-connect-the-sbc.md) 설정에 따라 달라 집니다.
 
 표시 되는 아웃 바운드 전화 번호는 다음과 같이 결정 됩니다.
 
@@ -210,8 +208,6 @@ ms.locfileid: "48922439"
   - 직접 라우팅 번호의 경우 전송 되는 숫자는 다음과 같이 SBC에 대 한 P-어설션된-Identity (PAI) 설정을 기반으로 합니다.
     - 사용 안 함으로 설정 하면 최초 발신자의 전화 번호가 표시 됩니다. 이 설정이 기본값 이며 권장 되는 설정입니다.
     - 사용으로 설정 하면 리소스 계정 전화 번호가 표시 됩니다.
-
-통화 요금제 trunks와 다이렉트 라우팅 trunks 간에 전송이 지원 되지 않습니다.
 
 비즈니스용 Skype 하이브리드 환경에서 PSTN으로 자동 전화 교환 전화를 전환 하려면 통화 전달을 PSTN 번호로 설정한 상태로 새 온-프레미스 사용자를 만듭니다. 사용자가 엔터프라이즈 음성을 사용할 수 있도록 설정 하 고 음성 정책을 할당 해야 합니다. 자세한 내용은 [PSTN으로 자동 전화 교환 통화 전송을](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)참조 하세요.
 
@@ -238,7 +234,7 @@ PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 
 - [새로운 CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [다음은 전화 시스템 기능입니다.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증 된 SBCs (세션 경계 컨트롤러)에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45695462228ad675add26eeb9cad74dfed72f616
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 0d5671740e5ecf64bb676f222625c2ee42e78347
+ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778871"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999252"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -79,6 +79,7 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                 |     1000 시리즈 집계 서비스 라우터의 Cisco 통합 Border 요소 (큐브)      |     &#10004;   |  |      IOS XE 암스테르담 17.2.1 r      |    <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado (긴급 라우팅 서비스)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 긴급 게이트웨이 (()](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya (ASBCE)의 세션 경계 컨트롤러    |     &#10004;     |           |       릴리스 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 세션 경계 컨트롤러    |     &#10004;     |           |       19.5 (1908)       |     |    | 
+|                     [Italtel](https://www.italtel.com/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
 
 <br/>
 <br/>
