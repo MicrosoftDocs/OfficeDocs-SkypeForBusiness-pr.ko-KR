@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,19 +27,19 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 조직의 Microsoft 팀에 대 한 사용자 (구독자) 및 서비스 (유료 및 무료) 전화 번호를 받고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f4c9c7a20d5aa20f72f5854e9766f1955c5e4911
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 7d72bdd8f688d079ce3627935d837d94d9b1d5f6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320823"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031754"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>조직의 전화 번호 관리
 
 조직의 사용자 (구독자) 및 서비스 (유료 및 무료 무료) 전화 번호는 다음 네 가지 방법으로 얻을 수 있습니다.
 - [Microsoft 팀 관리 센터에서 새 사용자 전화 번호 가져오기](https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users#get-new-phone-numbers-for-your-users)
 - [Microsoft 팀 관리 센터에서 새 서비스 전화 번호 받기](https://docs.microsoft.com/microsoftteams/getting-service-phone-numbers#get-new-service-numbers)
-- [기존 전화 번호를 미국으로 전송 하거나 _이식_ ](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams)합니다.
+- [기존 전화 번호를 미국으로 전송 하거나 _이식_](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams)합니다.
 - Microsoft 팀 관리 센터에 나열 되지 않은 새 전화 번호에 대해 요청 양식을 사용 합니다.
 
 > [!IMPORTANT]
@@ -67,7 +68,7 @@ ms.locfileid: "48320823"
 > - [영국](phone-number-management-for-the-u-k.md)
 > - [미국 & 푸에르토리코](phone-number-management-for-the-u-s.md)
 
-***
+**_
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>이러한 번호 요청 양식에 대 한 자세한 내용은 다음과 같습니다.
 
 ### <a name="request-forms-for-new-phone-numbers"></a>새 전화 번호에 대 한 양식 요청
@@ -82,10 +83,10 @@ ms.locfileid: "48320823"
 
 기존 전화 번호를 전송/이식 해야 하는 경우에는 사용자 대신 다른 서비스 공급자의 기존 번호를 요청 하 고 전송할 수 있는 권한 (LOA)을 다운로드 하 고 입력 해야 합니다.
 
-현재 다른 통신 회사를 사용 하 고 있는 경우 **LOA** 을 보내 주세요.
+현재 다른 통신 회사를 사용 하 고 있는 경우에는 _ *LOA* *를 보내 주세요.
 - 사용자 (구독자) 번호.
 - 오디오 회의 브리지, 자동 전화 교환 또는 통화 대기열에 대 한 서비스 (유료) 번호.
-- 무료 전화 번호.
+- 전화 번호를 Toll-Free 합니다.
 - 999 개 이상의 사용자 전화 번호를 사용 해야 하지만, 포트를 이전 하 고 있으 나, Microsoft 팀 관리 센터에서는 로컬 번호 포팅 마법사를 사용해 받을 수 없습니다.
 
 **읽고 서명** 된 LOA를 받은 후에는 [PSTN 서비스 데스크에 연락](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) 하 여 도움을 요청 하세요.
@@ -100,7 +101,7 @@ ms.locfileid: "48320823"
 - 올바른 형식의 전화 번호를 선택 하는 데 도움이 되도록 전화 [요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)를 읽어 보세요.
 - 조직의 전화 번호를 설정 하는 방법에 대 한 도움말을 얻으려면 읽기: [비즈니스 제품에 대 한 지원 연락처-관리 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)을 참조 하세요.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 

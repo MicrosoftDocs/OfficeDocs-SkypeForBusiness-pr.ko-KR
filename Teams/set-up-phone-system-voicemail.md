@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '사용자를 위해 클라우드 보이스 메일을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 62729794ff1e23ce29b3e3aad86fa09b63a428e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691054"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031074"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 메일 설정
 
@@ -66,11 +67,11 @@ ms.locfileid: "44691054"
 보호 된 보이스 메일을 설정 하려면 다음을 수행 합니다.
 
 1. https://admin.microsoft.com전역 관리자 권한이 있는 계정을 사용 하 여 이동 하 고 로그인 합니다.
-2. **모두 표시** 를 선택 하 고 **관리 센터**  >  **Exchange**로 이동 합니다.
-3. Exchange 관리 센터에서 **메일 흐름**  >  **규칙**을 선택 합니다.
-4. **+** **추가**를 선택한 다음 **Office 365 메시지 암호화 및 권한 보호를 메시지에 적용을**선택 합니다.
-5. 새 메일 흐름 규칙의 이름을 입력 하 고 다음 **규칙 적용**에서 **메시지 속성**을 선택 합니다  >  **Include the message type**  >  .**음성 메일**메시지를 포함 합니다. **확인을**선택 합니다.
-6. **다음 작업 수행**에서 **메시지에 Office 365 메시지 암호화 및 권한 보호 적용** 을 선택한 다음, **하나 선택을**선택 합니다. **RMS 템플릿에서** **전달 안 함**을 선택 합니다. **확인** 을 선택한 다음 **저장**을 선택 합니다.
+2. **모두 표시** 를 선택 하 고 **관리 센터**  >  **Exchange** 로 이동 합니다.
+3. Exchange 관리 센터에서 **메일 흐름**  >  **규칙** 을 선택 합니다.
+4. **+** **추가** 를 선택한 다음 **Office 365 메시지 암호화 및 권한 보호를 메시지에 적용을** 선택 합니다.
+5. 새 메일 흐름 규칙의 이름을 입력 하 고 다음 **규칙 적용** 에서 **메시지 속성** 을 선택 합니다  >  **Include the message type**  >  . **음성 메일** 메시지를 포함 합니다. **확인을** 선택 합니다.
+6. **다음 작업 수행** 에서 **메시지에 Office 365 메시지 암호화 및 권한 보호 적용** 을 선택한 다음, **하나 선택을** 선택 합니다. **RMS 템플릿에서** **전달 안 함** 을 선택 합니다. **확인** 을 선택한 다음 **저장** 을 선택 합니다.
     > [!NOTE]
     > **RMS 서식 파일** 목록이 비어 있으면 메시지 암호화를 설정 해야 합니다. 메시지 암호화 설정에 대 한 자세한 내용은 다음 문서를 참조 하세요.
     > - [새 메시지 암호화 기능 설정](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
@@ -84,7 +85,7 @@ ms.locfileid: "44691054"
 
 보이스 메일은 기본적으로 사용 하도록 설정 되어 있으며, 모든 조직 및 사용자에 대해 기본적으로 기록 불경 마스크를 사용할 수 없습니다. 그러나 [CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 및 [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet을 사용 하 여 컨트롤을 제어할 수 있습니다.
 
-조직의 사용자가 받은 보이스 메일 메시지는 Microsoft 365 또는 Office 365 조직이 호스팅되는 지역에 transcribed 됩니다. 테 넌 트가 호스팅되는 영역은 보이스 메일 메시지를 받는 사용자가 있는 지역과 다를 수 있습니다. 테 넌 트가 호스팅되는 지역을 보려면 [조직 프로필](https://go.microsoft.com/fwlink/p/?linkid=2067339) 페이지로 이동한 다음 **데이터 위치**옆에 있는 **세부 정보 보기** 를 클릭 합니다.
+조직의 사용자가 받은 보이스 메일 메시지는 Microsoft 365 또는 Office 365 조직이 호스팅되는 지역에 transcribed 됩니다. 테 넌 트가 호스팅되는 영역은 보이스 메일 메시지를 받는 사용자가 있는 지역과 다를 수 있습니다. 테 넌 트가 호스팅되는 지역을 보려면 [조직 프로필](https://go.microsoft.com/fwlink/p/?linkid=2067339) 페이지로 이동한 다음 **데이터 위치** 옆에 있는 **세부 정보 보기** 를 클릭 합니다.
 
 > [!IMPORTANT]
 > **새 CsOnlineVoiceMailPolicy** cmdlet을 사용 하 여 기록 및 기록 불경 표시 해제에 대 한 새 정책 인스턴스를 만들 수 없으며, **CsOnlineVoiceMailPolicy** cmdlet을 사용 하 여 기존 정책 인스턴스를 제거할 수 없습니다.
@@ -93,7 +94,7 @@ ms.locfileid: "44691054"
 
  **PS C: \\> CsOnlineVoicemailPolicy**
   
-![CsOnlineVoiceMailPolicy 결과 창입니다.](media/6cea8310-2d71-4b95-8d36-688472845727.png)
+![Get-CsOnlineVoiceMailPolicy 결과 창](media/6cea8310-2d71-4b95-8d36-688472845727.png)
   
 ### <a name="turning-off-transcription-for-your-organization"></a>조직의 기록을 끄는 중
 
@@ -148,7 +149,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 - [비즈니스용 Skype 2016 교육](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [다음은 전화 시스템 기능입니다.](here-s-what-you-get-with-phone-system.md)

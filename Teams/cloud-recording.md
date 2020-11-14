@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +18,12 @@ description: 팀에서 클라우드 음성 기능을 배포 하 여 오디오, �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0030cdc3a7e4929435127f9c4fbe549c7a6bf20
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2942de5e824d0553ba9d92f445d3635d73f0fe83
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503465"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031034"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -131,7 +132,7 @@ Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRe
 
 모임 녹음/녹화를 아직 설정하지 않은 신규 및 기존 테넌트의 경우 Microsoft Stream이 국내 데이터 보존 지역에서 제공된 이후 새 녹음/녹화는 국내에 저장됩니다. 그러나 microsoft Stream을 국가 내 데이터 영주권 지역에서 사용할 수 있도록 설정 하는 테 넌 트는 Microsoft Stream을 국가별 데이터 영주권 지역에서 사용할 수 있게 된 후에도 기존 및 새 녹화에 대해 Microsoft 스트림 저장소를 계속 사용 하 게 됩니다.
 
-Microsoft Stream 데이터가 저장된 지역을 찾으려면 Microsoft Stream에서 오른쪽 상단 모서리의 **?** 를 클릭하고 **Microsoft Stream 정보**를 클릭한 다음 **사용자 데이터 저장 위치**를 클릭합니다.  Microsoft Stream이 데이터를 저장하는 지역에 대한 자세한 내용은 [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)를 참조하세요.
+Microsoft Stream 데이터가 저장된 지역을 찾으려면 Microsoft Stream에서 오른쪽 상단 모서리의 **?** 를 클릭하고 **Microsoft Stream 정보** 를 클릭한 다음 **사용자 데이터 저장 위치** 를 클릭합니다.  Microsoft Stream이 데이터를 저장하는 지역에 대한 자세한 내용은 [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)를 참조하세요.
 
 Microsoft 365 또는 Office 365의 서비스에서 데이터가 저장 되는 위치에 대 한 자세한 내용은 [데이터](https://products.office.com/where-is-your-data-located?rtc=1) 위치
 

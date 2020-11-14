@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d596bb890ad2976ec16179f845397df5e27bc38
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 591ab2f93212e518c89b3cbacda82332b4c4957d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321661"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031214"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft 팀을 위한 고급 통신 추가 기능
 
@@ -33,9 +34,9 @@ ms.locfileid: "48321661"
 
 고급 통신은 다음을 포함 하 여 통신 요구의 스펙트럼을 처리 하는 향상 된 통화 및 모임 기능을 제공 합니다.
 
-- **더 많은 대상 그룹**에 게 연락: 사용자가 보기 전용 모임 환경에서 최대 2만 명의 참가자와 대화형 1000 모임에 대 한 실시간 이벤트 및 2만 참가자를 사용 하는 기능을 유지 하는 데 도움이 됩니다.
-- 사용자 지정 브랜드 모임 로비와 같은 기능을 사용 하 여 내부 및 사용자 지정 시나리오를 위해 모임에서 표준화 하 고 연결 하는 방법에 **맞게 모임**을 조정 합니다. 조직의 부서에 걸친 유연성을 구현 합니다. 
-- **조직 통신 관리**: 사용자 및 장치의 데이터를 모니터링, 추적 및 분석 하 여 원활한 환경을 보장 합니다.
+- **더 많은 대상 그룹** 에 게 연락: 사용자가 보기 전용 모임 환경에서 최대 2만 명의 참가자와 대화형 1000 모임에 대 한 실시간 이벤트 및 2만 참가자를 사용 하는 기능을 유지 하는 데 도움이 됩니다.
+- 사용자 지정 브랜드 모임 로비와 같은 기능을 사용 하 여 내부 및 사용자 지정 시나리오를 위해 모임에서 표준화 하 고 연결 하는 방법에 **맞게 모임** 을 조정 합니다. 조직의 부서에 걸친 유연성을 구현 합니다. 
+- **조직 통신 관리** : 사용자 및 장치의 데이터를 모니터링, 추적 및 분석 하 여 원활한 환경을 보장 합니다.
 
 모든 Microsoft 365 지역에서 유료 Microsoft 365 또는 Office 365 구독에 대 한 추가 기능으로 고급 통신을 사용할 수 있습니다. 고급 통신에 포함 된 기능은 다른 Microsoft 365 또는 Office 365 계획에 추가 되지 않으며 별도로 구매할 수 없습니다. 기능을 얻으려면 추가 기능을 구입 해야 합니다.
 
@@ -76,6 +77,6 @@ ms.locfileid: "48321661"
 > [!NOTE]
 > 엔터프라이즈 및 교육 Sku는 최대 2만 참석자에 대 한 실시간 이벤트, 브로드캐스트의 이벤트 기간 16 시간 50, 테 넌 트 내의 동시 이벤트 (2020:10 월 1 일)를 일시적으로 보관할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 및 모임에 대 한 팀 정책 기반 기록](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy)

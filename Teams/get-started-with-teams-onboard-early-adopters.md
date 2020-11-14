@@ -7,7 +7,7 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj
+ms.reviewer: serdars
 description: Microsoft Teams에서 만든 팀과 채널의 첫 번째 집합에 얼리 어답터를 등록하는 방법을 알아보세요.
 localization_priority: Priority
 search.appverid: MET150
@@ -16,14 +16,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - seo-marvel-apr2020
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75df0cb2212aa4efd826865ce1fe403b6d366342
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 149619e9ac0cbc0f0b12311c4e1f9ebb47d08c10
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904643"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030474"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Microsoft Teams에 얼리 어답터 등록
 

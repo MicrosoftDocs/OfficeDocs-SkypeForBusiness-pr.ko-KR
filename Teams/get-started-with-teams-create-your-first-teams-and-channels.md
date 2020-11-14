@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
+ms.reviewer: serdars
 description: Microsoft Teams 클라이언트 또는 Microsoft Teams 관리 센터에서 첫 번째 팀과 채널 세트를 작성하는 방법에 대해 알아봅니다.
 localization_priority: Priority
 search.appverid: MET150
@@ -14,15 +14,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1387d81c8ed54868f83f2439ec8f4db91505b3be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 63b612431e716bdba5d27e43e2756a56ec30e9dc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904653"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031584"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams에서 첫 번째 팀과 채널 만들기
 
@@ -60,17 +61,17 @@ ms.locfileid: "43904653"
 
 ### <a name="create-a-team"></a>팀 만들기
 
-Teams의 왼쪽에서 **Teams**를 클릭하고 팀 목록 아래에서 **팀 참가 또는 만들기**를 클릭한 다음 **새 팀 만들기**를 클릭합니다.
+Teams의 왼쪽에서 **Teams** 를 클릭하고 팀 목록 아래에서 **팀 참가 또는 만들기** 를 클릭한 다음 **새 팀 만들기** 를 클릭합니다.
 
 팀을 만든 후에는 참여하도록 사용자를 초대합니다. 개인 사용자, 그룹 및 전체 연락처 그룹 (이전에는 "메일 그룹"이라고 함)을 추가할 수 있습니다. 
 
 ![팀 이름과 설명을 보여주는 팀 예제 스크린샷](media/get-started-with-teams-create-team.png "팀 이름과 설명을 보여주는 Teams 살펴보기 팀 예제 스크린샷") 
 
 ### <a name="add-a-team-owner"></a>팀 소유자 추가
-만든 팀을 찾은 다음 **추가 옵션 ˙˙˙** > **팀 관리**를 클릭합니다. 그런 다음 **구성원** 탭으로 이동합니다. 팀 소유자로 지정하려는 사용자를 찾습니다. **역할**에서 **소유자**을 클릭합니다.
+만든 팀을 찾은 다음 **추가 옵션 ˙˙˙** > **팀 관리** 를 클릭합니다. 그런 다음 **구성원** 탭으로 이동합니다. 팀 소유자로 지정하려는 사용자를 찾습니다. **역할** 에서 **소유자** 을 클릭합니다.
 
 ### <a name="create-a-channel-in-a-team"></a>팀에서 채널 만들기
-만든 팀을 찾은 다음 **추가 옵션 ...** > **채널 추가**를 클릭합니다. **팀 관리**를 클릭하고 **채널** 탭에서 채널을 추가할 수도 있습니다. 
+만든 팀을 찾은 다음 **추가 옵션 ...** > **채널 추가** 를 클릭합니다. **팀 관리** 를 클릭하고 **채널** 탭에서 채널을 추가할 수도 있습니다. 
 
 ![추가 옵션을 클릭할 때 사용할 수 있는 옵션의 스크린샷](media/get-started-with-teams-add-channel.png "채널 추가 옵션, 팀 관리 옵션 및 팀에서 추가 옵션을 클릭할 때 사용할 수 있는 기타 옵션의 스크린 샷") 
 

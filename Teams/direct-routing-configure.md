@@ -11,18 +11,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
 description: 온-프레미스 전화 통신 인프라를 Microsoft 팀에 연결 하기 위해 Microsoft 전화 시스템 직접 라우팅을 구성 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f12eb67fd63a3d1bbed3ddcd0c4fadce16529083
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e1c19bfcd4c220ff6b6c53d8731149eaa8b6b4b1
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904830"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031774"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
@@ -55,7 +56,7 @@ Microsoft 전화 시스템을 구성 하 고 사용자가 직접 라우팅을 �
 여러 테 넌 트에 대 한 SBC를 구성 하는 경우에는 [여러 테 넌 트에 대 한 Sbc 구성을](direct-routing-sbc-multiple-tenants.md)읽어 볼 수도 있습니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
 

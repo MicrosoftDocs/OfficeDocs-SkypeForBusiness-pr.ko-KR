@@ -8,27 +8,28 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 직접 라우팅 및 향상 된 응급 서비스에 대 한 위치 기반 라우팅에 대해 구성 해야 하는 네트워크 설정에 대해 알아봅니다.
+description: 직접 라우팅 및 향상 된 응급 서비스를 위해 Location-Based 라우팅에 대해 구성 해야 하는 네트워크 설정에 대해 알아봅니다.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bc2694760e93579a78cb849cc054d70a65431724
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a01f80e00be75600fdd93f9758a1974b57954e87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139067"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031834"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성 기능에 대 한 네트워크 설정
 
 네트워크 지역, 네트워크 사이트, 네트워크 서브넷 및 신뢰할 수 있는 IP 주소에 대해 알아봅니다. 이 조항 및 개념은 직접 라우팅과 [동적인 비상 전화](configure-dynamic-emergency-calling.md) [를 위한 위치 기반 라우팅](location-based-routing-plan.md) 에 대 한 클라우드 음성 설명서 전체에 사용 됩니다. 조직에 이러한 클라우드 기능을 배포 하는 경우 Microsoft 팀에서 이러한 기능을 사용할 수 있도록 네트워크 설정을 구성 해야 합니다.
 
-이 문서에서는 위치 기반 라우팅과 동적 비상 전화에 공통적인 네트워크 설정에 대 한 개요를 제공 합니다. 배포 하는 클라우드 음성 기능 및 기능에 따라 이러한 설정을 일부 또는 모두 구성 합니다. 이러한 설정을 구성 하는 방법에 대 한 단계는 [팀에서 클라우드 기능에 대 한 네트워크 토폴로지 관리](manage-your-network-topology.md)를 참조 하세요.
+이 문서에서는 Location-Based 라우팅과 동적 비상 전화에 공통적인 네트워크 설정에 대 한 개요를 제공 합니다. 배포 하는 클라우드 음성 기능 및 기능에 따라 이러한 설정을 일부 또는 모두 구성 합니다. 이러한 설정을 구성 하는 방법에 대 한 단계는 [팀에서 클라우드 기능에 대 한 네트워크 토폴로지 관리](manage-your-network-topology.md)를 참조 하세요.
 
 > [!NOTE]
 > 네트워크 설정에 대 한 기능별 요구 사항은 해당 기능에 대 한 구성 항목에 설명 되어 있습니다.
@@ -37,7 +38,7 @@ ms.locfileid: "43139067"
 
 네트워크 지역에는 네트워크 사이트 컬렉션이 포함 됩니다. 여러 지리적 영역에 걸친 네트워크의 다양 한 부분을 상호 구성 합니다. 예를 들어 조직에 인도에 있는 사이트가 여러 개 있는 경우 "인도"를 네트워크 지역으로 지정 하도록 선택할 수 있습니다. 각 네트워크 사이트는 네트워크 지역과 연결 되어 있어야 합니다.
 
-직접적인 라우팅과 향상 된 응급 서비스에 대 한 위치 기반 라우팅과 동일한 네트워크 지역을 공유 합니다. 이미 하나의 기능에 대 한 네트워크 지역을 만든 경우에는 다른 기능에 대 한 새 네트워크 지역을 만들 필요가 없습니다.
+직접적인 라우팅과 향상 된 응급 서비스를 위해 Location-Based 라우팅이 같은 네트워크 지역을 공유 하 고 있습니다. 이미 하나의 기능에 대 한 네트워크 지역을 만든 경우에는 다른 기능에 대 한 새 네트워크 지역을 만들 필요가 없습니다.
 
 ## <a name="network-site"></a>네트워크 사이트
 

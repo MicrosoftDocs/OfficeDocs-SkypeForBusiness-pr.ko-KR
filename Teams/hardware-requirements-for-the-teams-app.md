@@ -9,6 +9,7 @@ ms.topic: reference
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 localization_priority: Normal
 search.appverid: MET150
 description: 이 문서에서는 Microsoft 팀을 설치 하 고 실행 하는 데 필요한 하드웨어 요구 사항에 대해 알아봅니다.
@@ -19,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5aeeee4bf16a05b24056a6602f008b5ecaee12bb
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 90d59bb7753cfd26cf6d0b90835cf8cf27661641
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766761"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030274"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 

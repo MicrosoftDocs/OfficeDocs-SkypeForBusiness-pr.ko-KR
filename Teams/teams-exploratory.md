@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a266d9d3ea8fd572cca171768174d86094a8c945
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: f27dc7e8772e25b6dcc91622cabec421e058af7b
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766971"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031484"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================

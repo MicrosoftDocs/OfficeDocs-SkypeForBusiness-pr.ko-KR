@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스에 대 한 Microsoft 전화 시스템을 계획 하 고 설정 하는 방법, 사용 가능성, 기능에 대해 알아보세요. '
-ms.openlocfilehash: 32c094860ee5ff102a541062616e038cf2f37be6
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b3a3da0a2cfd8038b3af84352c754c9014a1ad6c
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820572"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030404"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>다음은 전화 시스템 기능입니다.
 
@@ -82,7 +83,7 @@ GCC High 및 DoD 클라우드에서는 다음 기능을 아직 사용할 수 없
 - 대기 중인 음악
 - Azure AD 역방향 번호 조회
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [전화 시스템이란?](what-is-phone-system-in-office-365.md)
 - [Microsoft Teams의 클라우드 음성](cloud-voice-landing-page.md)

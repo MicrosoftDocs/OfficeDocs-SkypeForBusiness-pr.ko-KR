@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 172253f0c1fe99043a21bf70309d81f71e392d4c
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 1c5120f60778879be0978cb80c56daf99e5b5a38
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878522"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031824"
 ---
 # <a name="phone-system-direct-routing"></a>전화 시스템 직접 라우팅
 

@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.networktopology.overview
@@ -18,12 +19,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 클라우드 음성 기능에 대 한 네트워크 설정을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 21d47b5b2fae0b22ea585168acdce4a5e25af2ea
-ms.sourcegitcommit: 7631af666ae439cc85f1dae8955653a67170cf20
+ms.openlocfilehash: 2414010a6e7098a18954067dad659cb8c9912736
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304582"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031104"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성 기능에 대 한 네트워크 토폴로지 관리
 
@@ -39,25 +40,25 @@ Microsoft 팀 관리 센터의 **네트워크 토폴로지** 페이지에서 또
 
 #### <a name="add-and-configure-a-network-site"></a>네트워크 사이트 추가 및 구성
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로**이동한 다음 **네트워크 사이트** 탭을 클릭 합니다.
-2. **추가**를 클릭 한 다음 사이트의 이름과 설명을 입력 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로** 이동한 다음 **네트워크 사이트** 탭을 클릭 합니다.
+2. **추가** 를 클릭 한 다음 사이트의 이름과 설명을 입력 합니다.
 
     ![네트워크 사이트 추가 페이지의 스크린샷](media/manage-network-topology-add-site.png)
 
-3. 사이트를 네트워크 지역에 연결 하려면 **네트워크 지역 추가**를 클릭 하 고 기존 지역을 선택 하거나 **추가** 를 클릭 하 여 지역을 추가한 다음 **링크**를 클릭 합니다.  
-4. 사이트의 위치 기반 라우팅을 사용 하려면 **위치 기반 라우팅을**설정 합니다.
+3. 사이트를 네트워크 지역에 연결 하려면 **네트워크 지역 추가** 를 클릭 하 고 기존 지역을 선택 하거나 **추가** 를 클릭 하 여 지역을 추가한 다음 **링크** 를 클릭 합니다.  
+4. 사이트에 대 한 Location-Based 라우팅을 사용 하도록 설정 하려면 **위치 기반 라우팅을** 설정 합니다.
 5. 사이트에 응급 서비스 정책을 할당 하려면 다음 중 하나 또는 모두를 수행 합니다.
 
-    - 조직에서 통화 계획 또는 배포 된 전화 시스템 직접 라우팅을 사용 하는 경우 **비상 전화 정책**에서 원하는 정책을 선택 합니다.
-    - 조직에서 전화 시스템 직접 라우팅을 배포한 경우 **비상 전화 라우팅 정책**에서 원하는 정책을 선택 합니다.
+    - 조직에서 통화 계획 또는 배포 된 전화 시스템 직접 라우팅을 사용 하는 경우 **비상 전화 정책** 에서 원하는 정책을 선택 합니다.
+    - 조직에서 전화 시스템 직접 라우팅을 배포한 경우 **비상 전화 라우팅 정책** 에서 원하는 정책을 선택 합니다.
 
-6. 서브넷을 사이트에 연결 하려면 **서브넷**에서 **서브넷 추가**를 클릭 합니다. IP 버전, IP 주소, 네트워크 범위, 설명 추가를 지정 하 고 **적용**을 클릭 합니다. 각 서브넷은 특정 사이트와 연결 되어야 합니다.
-7. **저장**을 클릭합니다.
+6. 서브넷을 사이트에 연결 하려면 **서브넷** 에서 **서브넷 추가** 를 클릭 합니다. IP 버전, IP 주소, 네트워크 범위, 설명 추가를 지정 하 고 **적용** 을 클릭 합니다. 각 서브넷은 특정 사이트와 연결 되어야 합니다.
+7. **저장** 을 클릭합니다.
 
 #### <a name="modify-a-network-site"></a>네트워크 사이트 수정
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로**이동한 다음 **네트워크 사이트** 탭을 클릭 합니다.
-2. 사이트 이름 왼쪽에 있는을 클릭 하 여 사이트를 선택 하 고 **편집**을 클릭 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로** 이동한 다음 **네트워크 사이트** 탭을 클릭 합니다.
+2. 사이트 이름 왼쪽에 있는을 클릭 하 여 사이트를 선택 하 고 **편집** 을 클릭 합니다.
 3. 원하는 변경 작업을 수행한 다음 저장을 클릭 **합니다.**
 
 ### <a name="manage-external-trusted-ip-addresses"></a>신뢰할 수 있는 외부 IP 주소 관리
@@ -66,17 +67,17 @@ Microsoft 팀 관리 센터의 **네트워크 토폴로지** 페이지에서 **�
 
 #### <a name="add-a-trusted-ip-address"></a>신뢰할 수 있는 IP 주소 추가
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로**이동한 다음 **신뢰할 수 있는 ip** 탭을 클릭 합니다.
-2. **새로 만들기**를 클릭 합니다.
-3. **신뢰할 수 있는 ip 주소 추가** 창에서 ip 버전, ip 주소, 네트워크 범위, 설명 추가를 지정 하 고 **적용**을 클릭 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로** 이동한 다음 **신뢰할 수 있는 ip** 탭을 클릭 합니다.
+2. **새로 만들기** 를 클릭 합니다.
+3. **신뢰할 수 있는 ip 주소 추가** 창에서 ip 버전, ip 주소, 네트워크 범위, 설명 추가를 지정 하 고 **적용** 을 클릭 합니다.
 
     ![신뢰할 수 있는 IP 주소 추가 창 스크린샷](media/manage-network-topology-add-trusted-ip.png)
 
 #### <a name="edit-a-trusted-ip-address"></a>신뢰할 수 있는 IP 주소 편집
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로**이동한 다음 **신뢰할 수 있는 ip** 탭을 클릭 합니다.
-2. 왼쪽을 클릭 하 여 IP 주소를 선택 하 고 **편집**을 클릭 합니다.
-3. **신뢰할 수 있는 IP 주소 편집** 창에서 원하는 변경 작업을 수행 하 고 **적용**을 클릭 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **위치**  >  **네트워크 토폴로지로** 이동한 다음 **신뢰할 수 있는 ip** 탭을 클릭 합니다.
+2. 왼쪽을 클릭 하 여 IP 주소를 선택 하 고 **편집** 을 클릭 합니다.
+3. **신뢰할 수 있는 IP 주소 편집** 창에서 원하는 변경 작업을 수행 하 고 **적용** 을 클릭 합니다.
 
 ## <a name="configure-network-settings-using-powershell"></a>PowerShell을 사용 하 여 네트워크 설정 구성
 
@@ -178,6 +179,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress)를 참조 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [팀의 클라우드 음성 기능에 대 한 네트워크 설정](cloud-voice-network-settings.md)

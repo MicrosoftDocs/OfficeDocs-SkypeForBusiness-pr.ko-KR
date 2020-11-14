@@ -8,16 +8,17 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 팀 사용자와 Skype (소비자) 사용자 간의 상호 운용성 기능에 대해 알아봅니다.
 localization_priority: Normal
-ms.openlocfilehash: 18031f9d1f4ae9a4e42525f8c722259590349c24
-ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
+ms.openlocfilehash: 9bb38fa33e7ef3692f5946fef4769bb45f782f1a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48925430"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030974"
 ---
 # <a name="teams-and-skype-interoperability"></a>팀 및 Skype 상호 운용성
 
@@ -95,7 +96,7 @@ Microsoft 팀 관리 센터에서 **조직 전체 설정**  >  **외부 액세�
 
 2. 팀 사용자가 Skype 사용자와 통신할 수 있도록 [set-Csten앤틸리스 Publicprovider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) cmdlet을 ```Provider``` 매개 변수 집합과 함께 사용 합니다 ```"WindowsLive"``` .
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [팀에서 외부 액세스 관리](manage-external-access.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

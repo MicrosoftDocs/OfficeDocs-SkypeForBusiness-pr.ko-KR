@@ -9,6 +9,7 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +20,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40ddf36c27a8fbc3aadfddaddee886d1906bab82
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: d6996b0980ae7305a7517a71645ba823a588e2f8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793536"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49033010"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Microsoft 팀에서 장치 관리
 
@@ -54,7 +55,7 @@ Microsoft 팀 관리 센터에서 조직의 Microsoft 팀에 사용 되는 디�
 
 팀 관리 센터를 사용 하 여 조직 전체의 팀 대화방 장치를 보고 원격 관리할 수 있습니다. 팀 관리 센터를 통해 쉽게 확인 하 고 주의 해야 하는 디바이스와 특정 장치에 집중 하 여 디바이스 상태, 모임 성과, 통화 품질 및 주변 장치에 대 한 자세한 정보를 확인할 수 있습니다. 
 
-팀 대화방 장치를 관리 하기 위해 수행할 수 있는 작업은 다음과 같습니다. 팀 대화방 디바이스는 **장치** 팀 대화방 아래에 있는 [Microsoft 팀 관리 센터](https://admin.teams.microsoft.com) 에서 찾을 수 있습니다  >  **Teams Rooms** .
+팀 대화방 장치를 관리 하기 위해 수행할 수 있는 작업은 다음과 같습니다. 팀 대화방 디바이스는 **장치** 팀 대화방 아래에 있는 [Microsoft 팀 관리 센터](https://admin.teams.microsoft.com) 에서 찾을 수 있습니다  >  **Teams Rooms**.
 
 팀 회의실 장치를 관리 하는 방법에 대 한 자세한 내용은 [Microsoft 팀 대화방 관리](../rooms/rooms-manage.md)를 참조 하세요.
 

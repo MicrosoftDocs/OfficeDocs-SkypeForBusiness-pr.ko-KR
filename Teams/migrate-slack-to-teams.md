@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Slack에서 Microsoft Teams로 마이그레이션하기 위한 완전한 가이드
-ms.openlocfilehash: 142a573acaaf9b2d7da50ec2516fbc6c30f4ed2b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8b4fc90cde4bb438eee421459cf2c26672555b09
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581439"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030644"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack에서 Microsoft Teams로 마이그레이션
 
@@ -54,7 +55,7 @@ Slack 내보내기 옵션에 대한 자세한 내용을 알아보려면 Slack �
 ### <a name="assess-your-slack-workspaces"></a>Slack 워크스페이스 평가
 조직의 마이그레이션 계획을 계획하기 전에 사용자의 Slack 워크스페이스에 대한 정보를 수집해야 합니다. 사용자가 Slack 워크스페이스를 어떻게 사용하는지 이해하면 마이그레이션 범위를 결정하는 데 도움이 됩니다. 예를 들어 옮기는 워크스페이스가 몇 개나 있나요? 특정 부서에서 사용되나요, 아니면 전체 조직에서 사용하나요?
 
-마이그레이션할 Slack 워크스페이스의 구성원인 경우 *<your Slack workspace>slack.com/stats*으로 이동하여 직접 사용 현황을 분석할 수 있습니다. 채널 및 구성원 탭을 검토하여 사용 패턴을 찾습니다. 마이그레이션할 워크스페이스(및 어느 것을 남길 것인지)를 결정합니다. 
+마이그레이션할 Slack 워크스페이스의 구성원인 경우 *<your Slack workspace>slack.com/stats* 으로 이동하여 직접 사용 현황을 분석할 수 있습니다. 채널 및 구성원 탭을 검토하여 사용 패턴을 찾습니다. 마이그레이션할 워크스페이스(및 어느 것을 남길 것인지)를 결정합니다. 
 
 > [!NOTE]
 > 통계 페이지에 액세스할 수 없는 경우, 사용자는 관리자 또는 소유자가 아닙니다. 
@@ -86,7 +87,7 @@ Slack 내 앱은 Teams의 앱과 유사합니다. 워크스페이스에 앱과 �
 ### <a name="users"></a>사용자
 Slack에서 사용한 ID 체계가 Microsoft 365 또는 Office 365에 직접 매핑되지 않을 수 있습니다. 예를 들어, Slack 사용자의 전자 메일 주소는 Microsoft 365 또는 Office 365 회사 또는 학교 계정으로 매핑되지 않을 수 있습니다. Teams 롤아웃 계획을 시작하기 전에 사용자 ID 맵을 만들어야 합니다.
 
-유료 Slack 서비스 플랜을 사용하는 경우 *<your Slack workspace>.slack.com/admin/stats#members*로 이동하여 각 사용자의 전자 메일 주소와 계정 유형 같은 구성원 세부 정보를 확인할 수 있습니다. (예: 싱글 및 멀티 채널 게스트).
+유료 Slack 서비스 플랜을 사용하는 경우 *<your Slack workspace>.slack.com/admin/stats#members* 로 이동하여 각 사용자의 전자 메일 주소와 계정 유형 같은 구성원 세부 정보를 확인할 수 있습니다. (예: 싱글 및 멀티 채널 게스트).
 
 다음은 이름을 명확하게 하기 위해 전자 메일 주소를 Slack 내보내기에서 Azure AD와 비교하는 데 사용할 수 있는 스크립트입니다. 또한 사용자가 Teams 사용할 수 있는지 보고합니다. PowerShell에 관한 도움이 필요한 경우 [Azure PowerShell 시작](https://docs.microsoft.com/powershell/azure/get-started-azureps)을 읽어보세요.
 

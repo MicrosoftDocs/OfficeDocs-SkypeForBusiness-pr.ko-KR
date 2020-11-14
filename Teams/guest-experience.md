@@ -14,16 +14,17 @@ localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 게스트 사용자가 사용할 수 있는 Microsoft 팀 기능에 대해 설명 합니다.
-ms.openlocfilehash: 95d0fec7a1af8f735c66cc76fc27ecd3cf8bf956
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346209"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030294"
 ---
 # <a name="guest-experience-in-teams"></a>팀의 게스트 환경
 
@@ -106,6 +107,6 @@ ms.locfileid: "48346209"
 >
 >자세한 내용은 [Azure Active Directory의 기본 사용자 권한](https://go.microsoft.com/fwlink/?linkid=2135493)을 참조하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [게스트 사용자로 조직 나가기](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

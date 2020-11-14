@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +18,12 @@ description: Microsoft 통화 계획 및 전화 시스템을 구성 하는 방�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 06153eccd343ef8731af38ff4e3b45cea334fcb2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269652"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031014"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -147,9 +148,9 @@ Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 네트워�
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. 왼쪽 탐색 창에서 **지역**  >  **네트워크 & 위치로**이동 합니다.
-2. 추가 하려는 네트워크 식별자를 나타내는 탭을 클릭 합니다. 예를 들어 **서브넷**, **wi-fi 액세스 지점**, **스위치**또는 **포트**를 클릭 합니다. 그런 다음 **추가**를 클릭 합니다.
-3. 필드를 완성 하 고 긴급 위치를 추가한 다음 **적용**을 클릭 합니다.
+1. 왼쪽 탐색 창에서 **지역**  >  **네트워크 & 위치로** 이동 합니다.
+2. 추가 하려는 네트워크 식별자를 나타내는 탭을 클릭 합니다. 예를 들어 **서브넷** , **wi-fi 액세스 지점** , **스위치** 또는 **포트** 를 클릭 합니다. 그런 다음 **추가** 를 클릭 합니다.
+3. 필드를 완성 하 고 긴급 위치를 추가한 다음 **적용** 을 클릭 합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
@@ -216,7 +217,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - **직접 라우팅 미국 내 고객은** 테스트 서비스를 위해 해당 ersp와 조화 되어야 합니다.
 
- ## <a name="related-topics"></a>관련 항목
+ ## <a name="related-topics"></a>관련 주제
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [긴급 전화 정책 관리](manage-emergency-calling-policies.md)

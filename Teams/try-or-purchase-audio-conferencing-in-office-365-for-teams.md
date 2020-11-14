@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 또는 Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: a1492d7adc67be8fcac100f179514a1e9a2c948a
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 8f2aa7d8fdbf6c3088c483e4d5f941625e2a8da8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788442"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031274"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 팀을 위해 Microsoft 365에서 오디오 회의 체험 또는 구매
 
@@ -50,7 +51,7 @@ ms.locfileid: "46788442"
 
    - 구입 하기 전에 **시도해 보세요** : 오디오 회의를 포함 하는 Office 365 Enterprise E5 무료 평가판에 등록할 수 있습니다. [Office 365 Enterprise E5 평가판](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)을 참조 하세요.
 
-   - **구입**: [Microsoft 팀 추가 기능 https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 라이선스]를 참조 하세요.
+   - **구입** : [Microsoft 팀 추가 기능 https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 라이선스]를 참조 하세요.
 
 3. 조직의 [사용자에 게 라이선스를 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 하 여 모임을 예약 하거나 잠재 고객으로 이동할 수 있습니다.
 
@@ -82,7 +83,7 @@ ms.locfileid: "46788442"
 
 ## <a name="step-3-other-admin-tasks"></a>3 단계: 기타 관리 작업
 
-다음 단계는 **선택 사항**이지만, 다음과 같은 관리자가 많습니다.
+다음 단계는 **선택 사항** 이지만, 다음과 같은 관리자가 많습니다.
 
 1. [모임 초대를 사용자 지정](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)합니다. 사용자에 대해 설정 된 전화 접속 번호가 참석자에 게 전송 되는 모임 초대에 자동으로 추가 됩니다. 그러나 고유한 도움말 및 법률 링크, 문자 메시지 및 작은 회사 그래픽을 추가할 수 있습니다.
 
@@ -95,7 +96,7 @@ ms.locfileid: "46788442"
 > [!NOTE]
 > 중국에서 21Vianet이 운영 하는 Office 365를 사용 하는 고객은이 기능을 아직 사용할 수 없습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에 대 한](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)자세한 내용을 알아보세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [조직에서 팀 사용](office-365-set-up.md)
 

@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 search.appverid: MET150
 ms.reviewer: rafarhi
 f1.keywords:
@@ -18,12 +19,12 @@ ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
 description: 관리자는 Microsoft Teams 데스크톱 및 웹 클라이언트와 Azure Active Directory B2B 공동 작업 포털의 조직에 새 게스트 사용자를 추가하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: e74819ba46af8a9f6bcf3b2198f78354bf7bfb79
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 21f8e733a87474888f2b33f8a23a063fa00b4b11
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346179"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030814"
 ---
 # <a name="add-a-guest-to-a-team"></a>팀에 게스트 추가
 
@@ -47,7 +48,7 @@ Azure AD B2B, Microsoft 365 그룹 또는 SharePoint를 통해 이미 추가한 
 Azure AD 또는 Microsoft 365 보안 센터에서 게스트 추가를 추적할 수 있습니다. Microsoft Teams에서 게스트 추가가 감사되고 Azure AD 그룹 관리 작업 “그룹에 구성원이 추가됨”으로 기록됩니다. 자세한 내용은 [B2B 공동 작업 사용자 감사 및 보고](https://docs.microsoft.com/azure/active-directory/external-identities/auditing-and-reporting) 및 [준수 센터에서 감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조 하세요.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams에서 게스트 액세스 권한 부여](teams-dependencies.md)
 

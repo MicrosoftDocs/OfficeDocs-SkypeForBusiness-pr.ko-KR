@@ -12,6 +12,7 @@ search.appverid: MET150
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 description: 조직에 보유 된 팀의 live 이벤트에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
 f1.keywords:
 - CSH
@@ -19,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0e949b2773baa2cc819629133396020dee7d7d7
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: afbcd90db9a17f509076bae1271bf541dfb93fd4
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203951"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030894"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정 구성
 
 팀 라이브 이벤트 설정을 사용 하 여 조직에 보유 된 라이브 이벤트에 대 한 설정을 구성할 수 있습니다. 지원 URL을 설정 하 고 타사 영상 배포 공급자를 구성할 수 있습니다. 이러한 설정은 조직에서 만든 모든 라이브 이벤트에 적용 됩니다.
 
-Microsoft 팀 관리 센터에서 이러한 설정을 쉽게 관리할 수 있습니다. 왼쪽 탐색 창에서 **모임**  >  **라이브 이벤트 설정**으로 이동 합니다.
+Microsoft 팀 관리 센터에서 이러한 설정을 쉽게 관리할 수 있습니다. 왼쪽 탐색 창에서 **모임**  >  **라이브 이벤트 설정** 으로 이동 합니다.
 
 ![팀의 라이브 이벤트 설정 스크린샷](../media/teams-live-events-settings.png "Microsoft 팀 관리 센터에서 구성할 수 있는 팀 live 이벤트 설정 스크린샷")
 
@@ -40,8 +41,8 @@ Microsoft 팀 관리 센터에서 이러한 설정을 쉽게 관리할 수 있�
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams 로고를 보여주는 아이콘](../media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
 
-1. 왼쪽 탐색 창에서 **모임**  >  **라이브 이벤트 설정**으로 이동 합니다.
-2. **지원 url**에서 조직의 지원 url을 입력 합니다.
+1. 왼쪽 탐색 창에서 **모임**  >  **라이브 이벤트 설정** 으로 이동 합니다.
+2. **지원 url** 에서 조직의 지원 url을 입력 합니다.
 
     ![관리 센터에서 라이브 이벤트에 대 한 URL 설정 지원](../media/teams-live-events-settings-supporturl.png "팀 라이브 이벤트에 대 한 지원 URL 설정 스크린샷")
 
@@ -59,8 +60,8 @@ Microsoft 비디오 배달 파트너를 통해 SDN (소프트웨어 정의 네�
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams 로고를 보여주는 아이콘](../media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
 
-1. 왼쪽 탐색 창에서 **모임**  >  **라이브 이벤트 설정**으로 이동 합니다.
-2. **타사 비디오 배포 공급자**아래에서 다음을 수행 합니다. 
+1. 왼쪽 탐색 창에서 **모임**  >  **라이브 이벤트 설정** 으로 이동 합니다.
+2. **타사 비디오 배포 공급자** 아래에서 다음을 수행 합니다. 
 
     ![관리 센터의 타사 영상 배포 공급자 설정](../media/teams-live-events-settings-distribution-provider.png "라이브 이벤트의 타사 비디오 배포 공급자 설정 스크린샷")
 
@@ -91,7 +92,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > 외부 앱 또는 장치를 사용 하 여 라이브 이벤트를 만들려는 경우 Microsoft Stream을 사용 하 여 [eCDN 공급자도 구성](https://docs.microsoft.com/stream/network-caching)해야 합니다. 
 
 >[!Note]
-> Microsoft Stream을 [비즈니스용 OneDrive 및 SharePoint for 모임 녹화](../tmr-meeting-recording-change.md) 에서 변경 하는 것은 단계적인 방법입니다. 시작 시에는이 환경을 옵트인 할 수 있으며 11 월에는 스트림을 계속 사용 하기 위해 옵트아웃 하 고, 몇 차례 2021 일찍 비즈니스용 OneDrive 및 SharePoint를 사용 하 여 새 모임 녹화가 필요 합니다.
+> Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](../tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 새 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
 
 ### <a name="related-topics"></a>관련 항목
 - [Teams 라이브 이벤트란?](what-are-teams-live-events.md)

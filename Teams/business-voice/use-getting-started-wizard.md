@@ -13,16 +13,17 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: 53636ada916fec05bf75ef8947cdab44e38644e2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412625"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030614"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>시작 마법사를 사용하여 Business Voice 설정하기
 
@@ -33,7 +34,7 @@ ms.locfileid: "44412625"
 
 Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams에서 전화를 걸고 받도록 빠르게 설정할 수 있습니다. 갓 시작한 중소기업에서는 마법사를 사용해 몇 분 안에 전화번호, 통화 메뉴, 인사말 등을 사용할 수 있습니다. 전화 통신 솔루션을 구축한 대기업의 경우 모든 사용자를 위해 Business Service를 설정하기 전에 마법사를 통해 파일럿을 설정하여 일부 사용자가 먼저 사용해 볼 수 있습니다. 두 경우 모두 마법사가 완료되면 Business Voice 사용을 시작할 수 있습니다.
 
-마법사를 시작하기 전에 이 문서를 읽는 것이 좋습니다. 마법사를 실행할 준비가 되면 [Microsoft 365 Business Voice 시작](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) 페이지에서 **시작**을 선택합니다. 구독을 만들 때 사용한 계정 또는 전역 관리자인 다른 계정을 사용하여 로그인합니다.
+마법사를 시작하기 전에 이 문서를 읽는 것이 좋습니다. 마법사를 실행할 준비가 되면 [Microsoft 365 Business Voice 시작](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) 페이지에서 **시작** 을 선택합니다. 구독을 만들 때 사용한 계정 또는 전역 관리자인 다른 계정을 사용하여 로그인합니다.
 
 > [!IMPORTANT]
 > Microsoft Teams와 Business Voice는 사용자의 사서함이 Microsoft 365에 있는 경우에만 사용할 수 있습니다.  온-프레미스 Exchange 서버의 사서함은 지원하지 않습니다.

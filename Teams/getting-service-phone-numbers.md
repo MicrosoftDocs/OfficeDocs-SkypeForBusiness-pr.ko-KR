@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 오디오 회의, 자동 전화 교환, 팀에 대 한 전화 대기열 (서비스 번호)에 대 한 새로운 전화 번호 및 포트를 확인 하거나 기존 번호를 전송 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
-ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
+ms.openlocfilehash: adca7b31b59a88d16eefcd8f45a4c896a5c3de3f
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44021990"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030444"
 ---
 # <a name="getting-service-phone-numbers"></a>서비스 전화 번호 가져오기
 
@@ -50,16 +51,16 @@ ms.locfileid: "44021990"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색 창에서 **음성** > **전화 번호로**이동한 다음 **추가**를 클릭 합니다.
+1. 왼쪽 탐색 창에서 **음성**  >  **전화 번호로** 이동한 다음 **추가** 를 클릭 합니다.
 2. 주문의 이름을 입력 하 고 설명을 추가 합니다.
 3. 위치 및 수량 페이지에서 다음을 수행 합니다.
-    1. **국가 또는 지역**에서 국가 또는 지역을 선택 합니다.
-    1. **숫자 형식**에서 원하는 서비스 번호 유형을 선택 합니다.
-    1. **위치**에서 위치를 선택 합니다. 새 위치를 만들어야 할 경우 **위치 추가**를 클릭 합니다.
-    1. **지역 번호**에서 지역 번호를 선택 합니다. 
-    2. **수량**에서 조직에 사용할 숫자의 개수를 입력 하 고 **다음** 을 클릭 하 여 번호를 선택 합니다.
+    1. **국가 또는 지역** 에서 국가 또는 지역을 선택 합니다.
+    1. **숫자 형식** 에서 원하는 서비스 번호 유형을 선택 합니다.
+    1. **위치** 에서 위치를 선택 합니다. 새 위치를 만들어야 할 경우 **위치 추가** 를 클릭 합니다.
+    1. **지역 번호** 에서 지역 번호를 선택 합니다. 
+    2. **수량** 에서 조직에 사용할 숫자의 개수를 입력 하 고 **다음** 을 클릭 하 여 번호를 선택 합니다.
 4. 원하는 숫자를 선택 합니다. 전화 번호를 선택 하 고 주문을 하는 데 10 분이 걸립니다. 10 분 이상 소요 되는 경우 전화 번호는 숫자의 풀로 반환 됩니다.
-5. 주문을 추가할 준비가 되 면 **주문을**클릭 합니다.
+5. 주문을 추가할 준비가 되 면 **주문을** 클릭 합니다.
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>기존 서비스 번호 포트 또는 전송
 
@@ -74,7 +75,7 @@ ms.locfileid: "44021990"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용** 
 
-왼쪽 탐색 창에서 **음성** > **전화 번호로** 이동 하 여 위치, 번호 형식, 상태 정보를 비롯 한 조직의 번호를 확인 합니다.
+왼쪽 탐색 창에서 **음성**  >  **전화 번호로** 이동 하 여 위치, 번호 형식, 상태 정보를 비롯 한 조직의 번호를 확인 합니다.
 
 ## <a name="assign-service-phone-numbers"></a>서비스 전화 번호 할당
 
@@ -90,4 +91,4 @@ ms.locfileid: "44021990"
 
 [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)

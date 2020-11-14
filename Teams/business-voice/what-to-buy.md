@@ -13,6 +13,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: ''
 appliesto:
@@ -24,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 13c2e6dcb2f3f26fc016a96d9acabba4029d91ae
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: e80c54ef46c72769e7a3b0d4e6e696fba1202e70
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096833"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030794"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>Microsoft 365 Business Voice를 사용하려면 무엇을 구입해야 하나요?
 
@@ -56,9 +57,9 @@ Business Voice 기능에 대한 자세한 내용은 [Microsoft 365 Business Voic
 
 ## <a name="business-voice-with-calling-plan"></a>통화 플랜이 있는 Business Voice
 
-통화 플랜이 있는 Business Voice에는 국내 통화 플랜이 포함되어 있으며, 이를 사용하여 매월 일정 시간 국가 내 또는 지역 내에서 전화를 걸 수 있습니다. 다른 국가나 지역으로 전화를 걸려면 국제 통화 플랜을 구입할 수 있습니다. *통신 크레딧*으로 국제 통화 플랜, 국내 통화 플랜 월 추가 시간, 무료 전화 번호의 결제를 할 수 있습니다. 이 문서의 뒷부분에서 통화 플랜 및 통신 크레딧에 관한 자세한 내용을 볼 수 있습니다.
+통화 플랜이 있는 Business Voice에는 국내 통화 플랜이 포함되어 있으며, 이를 사용하여 매월 일정 시간 국가 내 또는 지역 내에서 전화를 걸 수 있습니다. 다른 국가나 지역으로 전화를 걸려면 국제 통화 플랜을 구입할 수 있습니다. *통신 크레딧* 으로 국제 통화 플랜, 국내 통화 플랜 월 추가 시간, 무료 전화 번호의 결제를 할 수 있습니다. 이 문서의 뒷부분에서 통화 플랜 및 통신 크레딧에 관한 자세한 내용을 볼 수 있습니다.
 
-통화 플랜이 있는 Microsoft 365 Business Voice 라이선스를 구입하려면 [관리 센터](https://admin.microsoft.com/Adminportal/Home#/homepage)에 로그인하고 **청구** > **서비스 구입**으로 이동합니다.
+통화 플랜이 있는 Microsoft 365 Business Voice 라이선스를 구입하려면 [관리 센터](https://admin.microsoft.com/Adminportal/Home#/homepage)에 로그인하고 **청구** > **서비스 구입** 으로 이동합니다.
 
 ### <a name="calling-plans"></a>통화 플랜
 

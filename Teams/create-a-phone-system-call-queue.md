@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 보관, 착신 전환, 기타 기능을 제공 하는 Microsoft 팀과 통화 큐에 대 한 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: b9c611a31550be8dbae541ef24c63c746d5edb86
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48820021"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49032997"
 ---
 # <a name="create-a-call-queue"></a>통화 대기열 만들기
 
@@ -189,7 +190,7 @@ ms.locfileid: "48820021"
 
 - [제거-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [다음은 전화 시스템 기능입니다.](here-s-what-you-get-with-phone-system.md)
 

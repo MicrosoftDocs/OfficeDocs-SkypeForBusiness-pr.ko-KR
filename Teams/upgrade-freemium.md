@@ -17,14 +17,15 @@ ms.custom:
 - seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1bc33f681ce23eb98306e4bf8e375847f816e4e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 78fe1c8ad5da4203e5b04330c94c6cdb9914eedc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583717"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031004"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Microsoft 팀에서 무료 구독 버전으로 업그레이드
 

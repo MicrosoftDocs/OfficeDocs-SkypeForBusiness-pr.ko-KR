@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -24,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 긴급 주소, 긴급 통화 라우팅, 동적 비상 전화에 대 한 정보를 포함 하 여 비상 전화에 대해 알아봅니다.
-ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 4f2ef86d05537a147a459fd6bc121f0680b534bd
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665160"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031604"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -37,7 +38,7 @@ ms.locfileid: "44665160"
 
 - **긴급 주소** -도심 주소는 &mdash; 조직의 비즈니스 장소에 대 한 실제 또는 주소입니다.
 
-  예를 들어 주소 *12345 북쪽 주 주소, Redmond, WA 98052* 을 사용 하 여 긴급 통화를 적절 한 디스패치 기관으로 라우팅하고 긴급 전화 발신자를 찾을 수 있습니다.
+  예를 들어 주소  *12345 북쪽 주 주소, Redmond, WA 98052* 을 사용 하 여 긴급 통화를 적절 한 디스패치 기관으로 라우팅하고 긴급 전화 발신자를 찾을 수 있습니다.
 
 - **장소** -일반적으로 바닥, 건물, 윙 또는 사무실 번호입니다. 위치는 비상 주소와 연결 되어 건물 내에서 더 정확한 위치를 제공 합니다. 비상 주소와 연결 된 장소를 무제한으로 사용할 수 있습니다. 예를 들어 조직에 여러 건물을 보유 하 고 있는 경우 각 건물에 각 건물에 대 한 배치 정보를 포함할 수 있습니다.  
 
@@ -117,15 +118,15 @@ Microsoft 호출 요금제에 대 한 동적 비상 통화는 팀 클라이언�
 
   - 응급 발신자가 비상 위치를 차단 센터로 업데이트할 수 없는 경우 통화는 등록 된 주소를 처리 하는 PSAP로 전송 됩니다.
 
-  **캐나다, 아일랜드, 영국에**는 통화를 적절 한 디스패치 센터에 연결 하기 전에 사용자의 현재 위치를 확인 하기 위해 먼저 긴급 통화가 차단 되었습니다. 
+  **캐나다, 아일랜드, 영국에** 는 통화를 적절 한 디스패치 센터에 연결 하기 전에 사용자의 현재 위치를 확인 하기 위해 먼저 긴급 통화가 차단 되었습니다. 
 
-  **프랑스, 독일, 스페인에서**비상 전화는 호출자의 위치에 관계 없이 해당 번호와 연결 된 비상 주소로 서비스를 제공 하는 psap로 직접 라우팅됩니다.
+  **프랑스, 독일, 스페인에서** 비상 전화는 호출자의 위치에 관계 없이 해당 번호와 연결 된 비상 주소로 서비스를 제공 하는 psap로 직접 라우팅됩니다.
 
-  **네덜란드에서**비상 전화는 호출자의 위치에 관계 없이 해당 번호의 지역 코드에 대 한 psap로 직접 라우팅됩니다.
+  **네덜란드에서** 비상 전화는 호출자의 위치에 관계 없이 해당 번호의 지역 코드에 대 한 psap로 직접 라우팅됩니다.
 
-  **오스트레일리아에서는**통신 회사 파트너가 긴급 주소를 구성 하 고 라우트 합니다.
+  **오스트레일리아에서는** 통신 회사 파트너가 긴급 주소를 구성 하 고 라우트 합니다.
 
-  **일본에서는**비상 통화가 지원 되지 않습니다.
+  **일본에서는** 비상 통화가 지원 되지 않습니다.
 
 
 자세한 내용은 다음을 참조 하세요.
@@ -211,10 +212,10 @@ Microsoft 통화 요금제와 전화 시스템 직접 라우팅 모두에서 보
 비상 전화 시, 보안 데스크는 통화에 conferenced, 보안 데스크 사용자의 경험은 팀의 비상 전화 정책에 따라 제어 됩니다. 그룹 채팅은 각 보안 데스크 구성원에 게 시작 되며, 긴급 전화 발신자의 위치는 중요 한 메시지 알림을 통해 공유 됩니다.  회의 옵션이 정책의 일부로 구성 되어 있으면 각 보안 데스크 사용자가 회의의 일부로 추가로 호출 됩니다.
 
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [긴급 전화 정책 관리](manage-emergency-calling-policies.md)
-- [긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)
+- [긴급 통화 라우팅 정책 관리 ](manage-emergency-call-routing-policies.md)
 - [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
 - [사용자의 긴급 위치 지정 또는 변경](assign-change-emergency-location-user.md)
 - [동적인 긴급 전화 계획 및 구성](configure-dynamic-emergency-calling.md)

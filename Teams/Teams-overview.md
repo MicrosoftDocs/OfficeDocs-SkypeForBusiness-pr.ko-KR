@@ -6,24 +6,25 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: LolaJ
+ms.reviewer: serdars
 description: 조직에서 Microsoft Teams를 배포하기 위한 올바른 경로를 찾습니다. Teams 인프라 및 Microsoft 365 혹은 Office 365를 통한 Teams의 사용에 대해 알아보세요.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11fe80ef9ee96b0eb1c4c9f4ebc1613549efc059
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582465"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030984"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되면 [Teams 배포 방법](How-to-roll-out-teams.md)과 함께 시작해보겠습니다.
@@ -34,7 +35,7 @@ Teams 관리자를 위한 Teams에 오신 것을 환영합니다 비디오를 �
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-최종 사용자 Teams 도움말을 찾고 있는 경우 앱의 왼쪽에 있는 **도움말**을 클릭하거나 [Microsoft Teams 도움말 센터](https://support.office.com/teams)로 이동합니다. 교육을 받으려면 [Microsoft Teams 교육](training-microsoft-teams-landing-page.md)으로 이동합니다. 
+최종 사용자 Teams 도움말을 찾고 있는 경우 앱의 왼쪽에 있는 **도움말** 을 클릭하거나 [Microsoft Teams 도움말 센터](https://support.office.com/teams)로 이동합니다. 교육을 받으려면 [Microsoft Teams 교육](training-microsoft-teams-landing-page.md)으로 이동합니다. 
 
 ## <a name="teams-architecture"></a>Teams 아키텍처
 
@@ -82,7 +83,7 @@ Teams는 Microsoft 365 및 Office 365에서의 지능형 커뮤니케이션을 �
 
 사용할 Microsoft 365 혹은 Office 365 앱과 서비스를 결정할 때는 조직에서 수행하는 작업 및 팀에서 필요한 대화의 유형에 대해서 고려합니다. 
 
-- 팀워크의 허브로서 **Teams**는 조직 외부의 사용자를 포함하여 사용자들이 활발하게 실시간으로 연결하고 공동 작업을 하여 업무를 수행할 수 있는 곳입니다. 문서를 공동 작성하거나, 모임을 진행하고 있거나 혹은 다른 앱 및 서비스에서 함께 작업을 하던지에 상관없이 작업이 진행 중인 곳에서 바로 대화를 나누어보세요. Teams는 비공식적인 채팅을 하고, 프로젝트에서 신속히 반복 적용을 하고, 팀 파일을 사용하여 작업을 하고, 공유 결과물을 가지고 공동 작업을 할 수 있는 곳입니다. 
+- 팀워크의 허브로서 **Teams** 는 조직 외부의 사용자를 포함하여 사용자들이 활발하게 실시간으로 연결하고 공동 작업을 하여 업무를 수행할 수 있는 곳입니다. 문서를 공동 작성하거나, 모임을 진행하고 있거나 혹은 다른 앱 및 서비스에서 함께 작업을 하던지에 상관없이 작업이 진행 중인 곳에서 바로 대화를 나누어보세요. Teams는 비공식적인 채팅을 하고, 프로젝트에서 신속히 반복 적용을 하고, 팀 파일을 사용하여 작업을 하고, 공유 결과물을 가지고 공동 작업을 할 수 있는 곳입니다. 
 
 - 친숙한 전자 메일 환경에서 더욱 공식적이고 구조적인 방식으로 공동 작업을 하거나 대상이 지정되고 및 직접 통신이 필요한 경우에 공동 작업을 하기 위한 **Outlook**.
 
@@ -92,7 +93,7 @@ Teams는 Microsoft 365 및 Office 365에서의 지능형 커뮤니케이션을 �
 
 - 조직 전체에서 사용자를 연결할 수 있는 **Yammer**. 회사 전체의 이니셔티브를 주도하고 모범 사례를 공유하며 관심있는 공통 주제 혹은 업무 분야에 대한 커뮤니티를 구축하세요. 아이디어를 크라우드 소싱하여 회사 전체 사용자들과의 공개 토론을 촉진하세요.
 
-- **Office 앱**은 Word, Excel, PowerPoint 및 OneNote를 비롯하여 사용자가 알고 정기적으로 사용하는 모든 친숙한 도구입니다. 
+- **Office 앱** 은 Word, Excel, PowerPoint 및 OneNote를 비롯하여 사용자가 알고 정기적으로 사용하는 모든 친숙한 도구입니다. 
 
 ## <a name="teams-content-updates"></a>Teams 콘텐츠 업데이트
 

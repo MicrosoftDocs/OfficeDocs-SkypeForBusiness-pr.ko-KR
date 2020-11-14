@@ -10,18 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀 대화방 관리 서비스에 대해 알아보세요.
 f1keywords: ''
-ms.openlocfilehash: c7331b40f9aaf5b039da4bf76ae707734f885a82
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 73c23ec114044a1af212cf0ce7a7077531c566c0
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788332"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031404"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft 팀 대화방 관리 서비스
 
@@ -140,6 +141,6 @@ Microsoft 팀 회의실 관리 서비스는 장치를 모니터링 하 고 장�
 
 수집 된 데이터는 개인 사용자가 아니라 룸 계정에만 해당 됩니다. 개별 사용자에 대 한 부수적 참조는 장치를 사용 하는 동안 활동 로그에 있을 수 있습니다. 수집 된 데이터는 [Microsoft 개인 정보 취급](https://aka.ms/privacy)방침에 따라 처리 됩니다.  
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Microsoft 팀 대화방 관리 서비스](https://rooms.microsoft.com)

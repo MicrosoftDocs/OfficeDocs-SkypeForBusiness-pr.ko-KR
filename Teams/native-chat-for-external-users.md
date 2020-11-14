@@ -9,17 +9,18 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 모든 사용자가 팀 전용 업그레이드 모드에 있는 외부 사용자 간에 사용할 수 있는 Microsoft 팀의 외부 액세스 (페더레이션된) 사용자를 위한 기본 팀 채팅 환경에 대해 알아봅니다.
-ms.openlocfilehash: 1274e71f5854e05049c8d766bd3456a0792b1032
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d3ff414420f8d1d68965307e9303aed4b5cf00ff
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583847"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030604"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft 팀의 외부 (페더레이션된) 사용자를 위한 기본 채팅 환경
 ======================================
@@ -47,6 +48,6 @@ Microsoft 팀 사용자가 외부 (페더레이션된) 사용자와 채팅을 �
 팀이이 외부 사용자와 함께 오래 된 텍스트 전용 채팅을 발견 하면 해당 채팅을 회복 됩니다. 그렇지 않으면 팀이 새로운 텍스트 전용 채팅을 만듭니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [팀에서 외부 액세스 관리](manage-external-access.md)

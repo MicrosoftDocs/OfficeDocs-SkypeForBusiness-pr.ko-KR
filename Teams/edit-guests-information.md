@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
@@ -19,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: a53bf13747a34ccf8c8af29794a21c8f603cab9c
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: e7036a8ba15719df50d609e7b1ca499cf5edf328
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346159"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030594"
 ---
 # <a name="edit-guest-user-information"></a>게스트 사용자 정보 편집
 
@@ -32,17 +33,17 @@ Microsoft 365 관리 센터 또는 Azure 디렉터리 포털에서 게스트 정
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Microsoft 365 관리자의 게스트 사용자
 
-1. [Microsoft 365 관리 센터](https://admin.microsoft.com)에서 게스트 정보를 편집 하려면 **사용자**  >  **게스트 사용자**를 선택 합니다.
+1. [Microsoft 365 관리 센터](https://admin.microsoft.com)에서 게스트 정보를 편집 하려면 **사용자**  >  **게스트 사용자** 를 선택 합니다.
 
    ![편집 중인 게스트 사용자 정보](media/access-guest-user.png)
 
-2. **게스트 사용자**가 사용자를 선택 합니다.
+2. **게스트 사용자** 가 사용자를 선택 합니다.
 
-3. 게스트 사용자 정보에서 **연락처 정보 관리**를 선택 합니다.
+3. 게스트 사용자 정보에서 **연락처 정보 관리** 를 선택 합니다.
 
    ![연락처 정보 관리 ](media/guest-user-data1.png)
 
-4. **연락처 정보 관리**의 **표시 이름을** 제외 하 고 선택한 필드를 편집 하 고 **변경 내용 저장**을 선택 합니다.
+4. **연락처 정보 관리** 의 **표시 이름을** 제외 하 고 선택한 필드를 편집 하 고 **변경 내용 저장** 을 선택 합니다.
 
    ![게스트 사용자 연락처 정보 편집](media/manage-guest-contact.png)
 

@@ -10,6 +10,8 @@ audience: admin
 ms.collection:
 - M365-collaboration
 - M365-voice
+- m365initiative-voice
+- m365solution-voice
 ms.reviewer: crowe
 f1.keywords:
 - CSH
@@ -21,12 +23,12 @@ search.appverid: MET150
 description: Microsoft 팀 클라우드 음성 기능 및 조직에 대해 결정할 배포 결정에 대해 자세히 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 243c4d9f7cc2987fa796b7d21a5a37a49d4db7ec
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 464f3591d86879db5830ca0abbea1bfbff538cec
+ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878562"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071769"
 ---
 # <a name="plan-your-teams-voice-solution"></a>팀 음성 솔루션 계획 
 

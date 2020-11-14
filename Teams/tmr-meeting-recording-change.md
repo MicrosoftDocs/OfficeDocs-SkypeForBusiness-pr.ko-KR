@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: 631adf514044f67db5691513d231af28cc817d90
+ms.sourcegitcommit: f378b07dd9e57454d8614fcb529d364e9269c375
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827752"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021145"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
@@ -30,10 +30,14 @@ ms.locfileid: "48827752"
 
 
 |시작일|이벤트|
-|---|-----------------|
-|초기 Q4 CY20|**비즈니스용 OneDrive 및 SharePoint에 대 한 팀 모임 녹음/녹화를 옵트인 또는 옵트아웃 (opt out) 할 수 있습니다.**<br> 테 넌 트 관리자가 비즈니스용 OneDrive 및 SharePoint에서 옵트인 또는 선택 취소 하 여 PowerShell에서 팀 정책 설정|
-|중급 Q4 CY20|**비즈니스용 OneDrive 및 SharePoint에서 팀 모임 녹음/녹화를 옵트아웃 하지 않은 테 넌 트에 대 한 기본값으로 설정**<br> 이는 대부분의 고객에 게 권장 되는 경로입니다.|
-|Q1 CY21|**더 이상 허용 되지 않는 클래식 스트림으로 팀 모임 기록 저장**<br>모든 테 넌 트가 비즈니스용 OneDrive 및 SharePoint에 팀 모임 기록을 저장 합니다.|
+|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+|2020 년 10 월 5 일| Microsoft Stream이 아닌 비즈니스용 OneDrive 및 SharePoint에 모임 기록을 저장 하도록 팀 모임 정책을 활성화할 수 있습니다 (클래식).|
+|2021 년 1 월 11 일 시작|조직의 팀 모임 정책을 수정 하 고이를 **스트리밍할** 수 있도록 명시적으로 설정 하 여이 변경 내용을 연기 하지 않는 한 모든 새 팀의 모임이 비즈니스용 OneDrive 및 SharePoint에 저장 됩니다. 스트림으로 정책 보고를 보는 것 만으로는 충분 하지 않습니다. 정책 값을 **스트림할** 수 있도록 명시적으로 설정 해야 합니다.|
+|2021 년 3 월 1 일부터 배포|**Enterprise 고객**<br>Microsoft Stream (클래식)에 새 모임 녹음/녹화를 저장할 수 없습니다. 모든 고객은 팀 모임 정책이 **스트림으로** 변경 된 경우에도 비즈니스용 OneDrive 및 SharePoint에 모임 기록을 자동으로 저장 합니다. 이 날짜 이전에이 기능을 배포 하 여 릴리스 타이밍을 제어할 수 있도록 하는 것이 좋습니다. |
+|2021 년 7 월 7 일부터 롤아웃|**교육 고객**<br>Microsoft Stream (클래식)에 새 모임 녹음/녹화를 저장할 수 없습니다. 모든 고객은 팀 모임 정책이 **스트림으로** 변경 된 경우에도 비즈니스용 OneDrive 및 SharePoint에 모임 기록을 자동으로 저장 합니다. 이 날짜 이전에이 기능을 배포 하 여 릴리스 타이밍을 제어할 수 있도록 하는 것이 좋습니다. 이 일정을 업데이트 하 여 교육 고객에 게 진행 중인 semesters을 완료 하는 기능을 제공 합니다. |
+
+> [!Note]
+> 조직의 변화를 보다 효과적으로 제어 하 고 변경 내용이 발생할 때까지 대기 하는 것이 아니라 언제 든 지 사용 하는 것이 좋습니다. 
 
 Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 있습니다. 이 방법은 기존 Microsoft Stream에서 [새 스트림으로](https://docs.microsoft.com/stream/streamnew/new-stream)전환 하는 첫 번째 단계로, microsoft 365의 비즈니스용 Microsoft 비즈니스용 OneDrive 및 SharePoint에 기록을 저장 하 고 다양 한 혜택을 제공 합니다.
 

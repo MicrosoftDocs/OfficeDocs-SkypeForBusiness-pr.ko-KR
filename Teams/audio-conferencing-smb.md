@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '휴대폰을 사용 하 여 모임에 전화 해야 하는 사용자를 위해 중소기업에서 오디오 회의를 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: b692654a0a874ea0c07f074daefe203aef2f80bc
-ms.sourcegitcommit: 764605e226bc7d9cf45e9833c758d30da29132c1
+ms.openlocfilehash: 4c0d47246f8a321a91ea175e06279bfe147a634a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "48594649"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031184"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>중소 기업에 맞게 오디오 회의 설정
 
@@ -51,14 +52,14 @@ ms.locfileid: "48594649"
 
 모임을 담당할 각 사용자에 대 한 오디오 회의 라이선스를 하나 가져옵니다. Microsoft 365 관리 센터를 사용 하 여이 작업을 수행 합니다.
 
-1. Microsoft 365 관리 센터에서 **청구**  >  **구매 서비스로**이동한 다음 페이지 맨 아래에 있는 **추가 기능**을 선택 합니다.
-2. **Microsoft 365 오디오 회의 채택 프로 모션**  >  **정보**를 선택한 다음 **지금 가져오기를**선택 합니다.
+1. Microsoft 365 관리 센터에서 **청구**  >  **구매 서비스로** 이동한 다음 페이지 맨 아래에 있는 **추가 기능** 을 선택 합니다.
+2. **Microsoft 365 오디오 회의 채택 프로 모션**  >  **정보** 를 선택한 다음 **지금 가져오기를** 선택 합니다.
 3. 모임 이끌이에게 필요한 라이선스 수를 입력 하 고 주문을 완료 합니다.
 
     :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="오디오 회의 채택 프로 모션 라이선스 스크린샷":::
 
     > [!NOTE]
-    > 이 라이선스가 없는 모든 사용자에 게 자동으로 오디오 회의 라이선스를 할당할지 여부에 따라 **라이선스가 없는 모든 사용자에 게 자동으로 할당**을 취소 하거나 선택 합니다.
+    > 이 라이선스가 없는 모든 사용자에 게 자동으로 오디오 회의 라이선스를 할당할지 여부에 따라 **라이선스가 없는 모든 사용자에 게 자동으로 할당** 을 취소 하거나 선택 합니다.
 
 ### <a name="step-2-assign-an-audio-conferencing-license-to-users-who-lead-meetings"></a>2 단계: 모임 리더를 담당할 사용자에 게 오디오 회의 라이선스 할당
 
@@ -66,33 +67,33 @@ ms.locfileid: "48594649"
 
 #### <a name="assign-a-license-to-one-user"></a>한 명의 사용자에 게 라이선스 할당
 
-1. Microsoft 365 관리 센터에서 **사용자**  >  **활성 사용자**로 이동 합니다.  
-2. 라이선스를 할당 하려는 사용자의 행을 선택 하 고 창에서 **라이선스 및 앱**을 선택 합니다.
-3. **Microsoft 365 오디오 회의** 확인란을 선택 하 고 **변경 내용 저장**을 선택 합니다.
+1. Microsoft 365 관리 센터에서 **사용자**  >  **활성 사용자** 로 이동 합니다.  
+2. 라이선스를 할당 하려는 사용자의 행을 선택 하 고 창에서 **라이선스 및 앱** 을 선택 합니다.
+3. **Microsoft 365 오디오 회의** 확인란을 선택 하 고 **변경 내용 저장** 을 선택 합니다.
 
 #### <a name="assign-a-license-to-multiple-users"></a>여러 사용자에 게 라이선스 할당
 
-1. Microsoft 365 관리 센터에서 **사용자**  >  **활성 사용자**로 이동 합니다.  
-2. 라이선스를 할당 하려는 사용자 옆에 있는 원을 선택한 다음 **제품 라이선스 관리**를 선택 합니다.
-3. **제품 라이선스 관리** 창에서 **추가 할당**을 선택 합니다.
-4. **Microsoft 365 오디오 회의** 확인란을 선택 하 고 **변경 내용 저장**을 선택 합니다.  
+1. Microsoft 365 관리 센터에서 **사용자**  >  **활성 사용자** 로 이동 합니다.  
+2. 라이선스를 할당 하려는 사용자 옆에 있는 원을 선택한 다음 **제품 라이선스 관리** 를 선택 합니다.
+3. **제품 라이선스 관리** 창에서 **추가 할당** 을 선택 합니다.
+4. **Microsoft 365 오디오 회의** 확인란을 선택 하 고 **변경 내용 저장** 을 선택 합니다.  
 
 ## <a name="schedule-teams-meetings-in-outlook"></a>Outlook에서 팀 모임 예약
 
-이제 모임 이끌이가 Outlook에서 모임을 예약할 수 있습니다. Outlook에서 **일정**으로 이동한 다음 **새 팀 모임** 단추를 선택 합니다. 모임 전화 접속 번호와 전화 회의 ID가 모임 참석자에 게 전송 되는 모임 초대에 자동으로 추가 됩니다. 자세한 내용은 [Outlook에서 팀 모임 예약](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)을 참고 하세요.
+이제 모임 이끌이가 Outlook에서 모임을 예약할 수 있습니다. Outlook에서 **일정** 으로 이동한 다음 **새 팀 모임** 단추를 선택 합니다. 모임 전화 접속 번호와 전화 회의 ID가 모임 참석자에 게 전송 되는 모임 초대에 자동으로 추가 됩니다. 자세한 내용은 [Outlook에서 팀 모임 예약](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)을 참고 하세요.
 
 > [!NOTE]
 > 원하는 경우, 모임 초대를 사용자 지정 하 여 회사 로고, 지원 웹사이트에 대 한 링크, 법적 고 지 사항, 텍스트 전용 바닥글을 추가할 수 있습니다. 자세히 알아보려면 [모임 초대 사용자 지정](meeting-settings-in-teams.md#customize-meeting-invitations)을 참조 하세요.
 
 ## <a name="audio-conferencing-phone-numbers"></a>오디오 회의 전화 번호
 
-회의 브리지에 사용할 수 있는 두 가지 유형의 숫자가 있습니다. **공유 번호** (이 문서 앞부분의 [오디오 회의 섹션 설정](#set-up-audio-conferencing) ) 또는 **전용 번호**를 사용할 수 있습니다. 각에 대 한 자세한 내용은 다음과 같습니다.
+회의 브리지에 사용할 수 있는 두 가지 유형의 숫자가 있습니다. **공유 번호** (이 문서 앞부분의 [오디오 회의 섹션 설정](#set-up-audio-conferencing) ) 또는 **전용 번호** 를 사용할 수 있습니다. 각에 대 한 자세한 내용은 다음과 같습니다.
 
 ### <a name="shared-numbers"></a>공유 번호
 
 공유 번호는 모든 조직에서 공유 하는 숫자입니다. 공유 번호는 유료 번호로, 오디오 회의를 설정할 때 자동으로 지정 됩니다.
 
-회의 브리지에 할당 된 기본 번호를 보려면 Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **모임**  >  **회의 브리지로**이동한 다음 가장 가까운 위치에 대 한 번호를 찾습니다.
+회의 브리지에 할당 된 기본 번호를 보려면 Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **모임**  >  **회의 브리지로** 이동한 다음 가장 가까운 위치에 대 한 번호를 찾습니다.
 
 ### <a name="dedicated-numbers"></a>전용 번호
 
@@ -104,16 +105,16 @@ ms.locfileid: "48594649"
 
 번호를 받은 후에는 회의 브리지에 할당 합니다. Microsoft 팀 관리 센터를 사용 하 여이 작업을 수행 합니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **모임**  >  **회의 브리지로**이동 합니다.
-2. **추가**를 선택한 다음 **유료 번호** 또는 무료 **전화 번호**를 선택 합니다.
-3. **전화 번호 추가** 창에서 번호를 선택 하 고 **적용**을 선택 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **모임**  >  **회의 브리지로** 이동 합니다.
+2. **추가** 를 선택한 다음 **유료 번호** 또는 무료 **전화 번호** 를 선택 합니다.
+3. **전화 번호 추가** 창에서 번호를 선택 하 고 **적용** 을 선택 합니다.
 
 그런 다음 모임을 담당할 각 사용자에 게 번호를 할당 합니다. Microsoft 팀 관리 센터를 사용 하 여이 작업을 수행 합니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창 **에서 사용자를 선택 하**고 사용자의 표시 이름을 클릭 한 다음 **편집**을 선택 합니다.
-2. 오디오 회의 옆에 있는 **편집**을 선택   하 고 **Audio Conferencing** **오디오 회의**   창의 **유료 전화 번호**또는 무료 전화 번호 목록에서 숫자를 선택한    **Toll-free**   다음 **적용**을 선택 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창 **에서 사용자를 선택 하** 고 사용자의 표시 이름을 클릭 한 다음 **편집** 을 선택 합니다.
+2. **오디오 회의** 옆에 있는 **편집** 을 선택 하 고 **오디오 회의** 창의 **유료 전화 번호** 또는 무료 **전화** 번호 목록에서 숫자를 선택한 다음 **적용** 을 선택 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [오디오 회의](audio-conferencing-in-office-365.md)
 - [팀에 대 한 오디오 회의 설정](set-up-audio-conferencing-in-teams.md)

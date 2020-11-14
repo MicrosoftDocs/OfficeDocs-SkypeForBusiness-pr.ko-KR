@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 9212c096323eb57754e0a8a47b61649bec42de87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177557"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49033017"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams에 대한 조직의 네트워크 준비 
 
@@ -59,9 +60,9 @@ ms.locfileid: "48177557"
 이러한 네트워크 요구 사항을 충족 하는 것으로 확인 되 면 [팀을 롤아웃할](How-to-roll-out-teams.md)준비가 되었을 수 있습니다. 다국적 대기업 이거나 몇 가지 네트워크 제한 사항이 있는 경우에는 팀을 위해 네트워크를 평가 하 고 최적화 하는 방법에 대해 알아보세요.
 
 > [!IMPORTANT]
-> **교육 기관**: 조직이 교육 기관 이거나 SIS (학생 정보 시스템)를 사용 하는 경우 팀을 롤아웃하기 전에 [School Data Sync를 배포](https://docs.microsoft.com/schooldatasync/) 해야 합니다.
+> **교육 기관** : 조직이 교육 기관 이거나 SIS (학생 정보 시스템)를 사용 하는 경우 팀을 롤아웃하기 전에 [School Data Sync를 배포](https://docs.microsoft.com/schooldatasync/) 해야 합니다.
 >  
-> 온 **-프레미스 비즈니스용 Skype server**: 조직이 온-프레미스 비즈니스용 skype server (또는 Lync Server)를 실행 하는 경우 [Azure AD Connect를 구성](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) 하 여 온-프레미스 디렉터리를 Microsoft 365 또는 Office 365와 동기화 해야 합니다.
+> 온 **-프레미스 비즈니스용 Skype server** : 조직이 온-프레미스 비즈니스용 skype server (또는 Lync Server)를 실행 하는 경우 [Azure AD Connect를 구성](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) 하 여 온-프레미스 디렉터리를 Microsoft 365 또는 Office 365와 동기화 해야 합니다.
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>모범 사례: CQD 및 call analytics을 사용 하 여 네트워크 모니터링 
 

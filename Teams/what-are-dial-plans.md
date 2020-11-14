@@ -10,6 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '팀에서 사용할 수 있는 다이얼 통화 계획의 종류 (PSTN 통화 다이얼 플랜) 및 조직에 대해 하나를 선택 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: ddd2de412d0ddd00135f9b095eb2d14c8fc4c922
-ms.sourcegitcommit: 91f6db3cdb4f2b7761d2b21f0f4eef405edacd5f
+ms.openlocfilehash: 932440e0d94072da7ce3ef304438400963e17d2d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45153580"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031374"
 ---
 # <a name="what-are-dial-plans"></a>다이얼 플랜이 무엇인가요?
 
@@ -123,7 +124,7 @@ ms.locfileid: "45153580"
 <a name="regularexpression"> </a> 
  **.Net Framework 정규식을 사용 하는 정규화 규칙**
 
-| 규칙 이름<br/> | 설명<br/> | 번호 패턴<br/> | 변환용<br/> | 예<br/> |
+| 규칙 이름<br/> | 설명<br/> | 번호 패턴<br/> | 변환용<br/> | 예제<br/> |
 |:-----|:-----|:-----|:-----|:-----|
 |4digitExtension  <br/> |4 자리 확장명을 변환 합니다.  <br/> |^ ( \\ d {4} ) $  <br/> |+ 1425555 $1  <br/> |0100는 + 14255550100로 변환 됩니다.  <br/> |
 |5digitExtension  <br/> |다섯 자리 확장명을 변환 합니다.  <br/> |^ 5 ( \\ d {4} ) $  <br/> |+ 1425555 $1  <br/> |50100는 + 14255550100로 변환 됩니다.  <br/> |
@@ -148,7 +149,7 @@ ms.locfileid: "45153580"
 > [!NOTE]
 > 앞 표에 표시 된 정규화 규칙 이름에는 공백이 포함 되지 않지만, 선택 하는 것이 중요 합니다. 예를 들어 표의 이름에는 "5 자리 내선" 또는 "5 자리 내선 번호"가 기록 되 고 여전히 유효 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [다이얼 플랜 만들기 및 관리](create-and-manage-dial-plans.md)
 

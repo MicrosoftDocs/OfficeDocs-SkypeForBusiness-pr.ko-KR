@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviwer: rafarhi
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +22,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 description: 이 문서에서는 관리자가 Microsoft 팀의 게스트 사용자에 대 한 정보를 보는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 215ee111f0b56e0e9b5c2b377d17012a5ee632c6
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 6e079a142fa6b3efcace3d4b246dbbbd16e736dd
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346349"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031044"
 ---
 # <a name="view-guest-users-in-a-team"></a>팀에서 게스트 사용자 보기
 
@@ -35,7 +36,7 @@ ms.locfileid: "48346349"
 게스트 사용자를 확인 하려면 다음을 수행 합니다.
 
 1.  [Microsoft 365 관리 센터](https://admin.microsoft.com)에 로그인 합니다.
-2.  **관리 센터**  >  **팀**을 선택 합니다.
-3.  팀 관리 센터에서 **사용자**를 선택 합니다. 게스트 사용자의 표시 이름에 **게스트** 를 추가 하는 것을 볼 수 있습니다.
+2.  **관리 센터**  >  **팀** 을 선택 합니다.
+3.  팀 관리 센터에서 **사용자** 를 선택 합니다. 게스트 사용자의 표시 이름에 **게스트** 를 추가 하는 것을 볼 수 있습니다.
   
 소유 하 고 있는 팀 내에서 게스트 사용자를 식별할 수도 있습니다.  

@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 전화 교환 및 통화 대기열과 전화를 사용 하 여 조직의 사용자 또는 부서에 도달 하기 위해 호출자가 메뉴 시스템을 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4eaad11841007176a1840ea0d789fa1496f10df4
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908607"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031564"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>팀 자동 전화 교환 및 통화 대기열에 대 한 계획
 
@@ -216,7 +217,7 @@ ms.locfileid: "48908607"
 - [자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)
 - [통화 대기열 만들기](create-a-phone-system-call-queue.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [직접 라우팅 계획](direct-routing-plan.md)
 

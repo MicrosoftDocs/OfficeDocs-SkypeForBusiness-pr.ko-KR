@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
@@ -18,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a70986ad8329d9f90485f59aeac1f61d3309fd31
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 4b873c7f6f2b53ee0111ee628851050092467b28
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800659"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031454"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀의 라이브 이벤트는 무엇 인가요?
 
@@ -103,7 +104,7 @@ ECDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 
 
 [팀 라이브 이벤트 계획](plan-for-teams-live-events.md)으로 이동 합니다.
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 
 - [Yammer, Microsoft 팀, Microsoft Stream의 Microsoft 365에서 발생 하는 라이브 이벤트](https://docs.microsoft.com/stream/live-event-m365)
 - [Microsoft Teams 라이브 이벤트 시작하기](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)

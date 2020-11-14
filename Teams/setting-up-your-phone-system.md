@@ -10,6 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Microsoft 365 또는 Office 365에서 조직의 전화 시스템 (클라우드 PBX)을 설정 하는 방법을 설명 하는 단계별 가이드입니다.
-ms.openlocfilehash: c1ced5aa9a6fdbfeb5cb02948607c7be7df7fbd8
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 14a2fa971d32aeb7c0dca8200a72ad4895be4d44
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691034"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031384"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
@@ -35,7 +36,7 @@ ms.locfileid: "44691034"
 ## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>1 단계: 전화 시스템을 해당 국가 또는 지역에서 사용할 수 있는지 확인
 
 1.    먼저 [오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)으로 이동 하 고 페이지 위쪽에 있는 목록에서 국가 또는 지역을 선택 합니다. 
-2.    **전화 시스템**에서 기능 목록과 세부 정보를 검토 합니다. 
+2.    **전화 시스템** 에서 기능 목록과 세부 정보를 검토 합니다. 
 3.    전화 시스템을 사용할 수 있는 경우 2 단계로 이동 합니다. 
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>2 단계: 전화 시스템 및 통화 계획 라이선스 구입 및 할당
@@ -59,9 +60,9 @@ ms.locfileid: "44691034"
 
 1. 회사 또는 학교 계정으로 Microsoft 365에 로그인 합니다.
 
-2. **팀 관리 센터로**이동 합니다.
+2. **팀 관리 센터로** 이동 합니다.
     
-3. 왼쪽 탐색 창에서 **음성**  >  **전화 번호로**이동한 다음 **추가**를 클릭 하 고 화면의 지시를 따릅니다.
+3. 왼쪽 탐색 창에서 **음성**  >  **전화 번호로** 이동한 다음 **추가** 를 클릭 하 고 화면의 지시를 따릅니다.
     
 ### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>팀 관리 센터에서 사용할 수 없는 새 번호 가져오기
   
@@ -84,12 +85,12 @@ Microsoft 365 또는 Office 365에서 사용자의 전화 번호를 가져올 �
 
 1. 회사 또는 학교 계정으로 로그인 합니다.
 
-2. **팀 관리 센터로**이동 합니다.
+2. **팀 관리 센터로** 이동 합니다.
 
-3. 왼쪽 탐색 창에서 **음성**  >  **전화 번호로**이동한  >  다음**새 번호를 추가**하 고 **새 서비스 번호**를 클릭 합니다.
+3. 왼쪽 탐색 창에서 **음성**  >  **전화 번호로** 이동한  >  다음 **새 번호를 추가** 하 고 **새 서비스 번호** 를 클릭 합니다.
 
     > [!IMPORTANT]
-    > 팀 관리 센터의 왼쪽 탐색 창에서 **음성** 옵션을 보려면 먼저 하나 이상의 **Enterprise E5 라이선스**, 하나의 **전화 시스템** 추가 기능 라이선스 또는 하나의 **오디오 회의** 추가 기능 라이선스를 구입 해야 합니다.
+    > 팀 관리 센터의 왼쪽 탐색 창에서 **음성** 옵션을 보려면 먼저 하나 이상의 **Enterprise E5 라이선스** , 하나의 **전화 시스템** 추가 기능 라이선스 또는 하나의 **오디오 회의** 추가 기능 라이선스를 구입 해야 합니다.
 
 ### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>팀 관리 센터에서 사용할 수 없는 새 번호 가져오기
   
@@ -97,7 +98,7 @@ Microsoft 365 또는 Office 365에서 사용자의 전화 번호를 가져올 �
 
 ### <a name="port-or-transfer-existing-service-numbers"></a>기존 서비스 번호 포트 또는 전송
 
-현재 서비스 공급자 또는 통신 회사에서 서비스 번호를 전송 하려면 Microsoft에 수동으로 포트 순서를 제출 해야 합니다. 각 서비스 번호 유형 (유료 및 무료)에 대해 별도의 포트 주문을 제출 하 여 승인 문자 (LOA)를 사용 하 여 전송 해야 합니다. 인증 문자 (LOA)에서 올바른 서비스 번호 유형을 선택 해야 합니다. Microsoft 지원에 문의 하는 경우*사용자 또는 구독자 번호가 아닌*서비스 번호를 전송 하도록 지정 하거나 동시 통화 용량이 통화 볼륨을 처리 하는 데 충분 하지 않을 수 있습니다. 전화 번호를 전송 하거나 전화 번호를 사용 하 여 다른 작업을 수행 하려는 경우 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.
+현재 서비스 공급자 또는 통신 회사에서 서비스 번호를 전송 하려면 Microsoft에 수동으로 포트 순서를 제출 해야 합니다. 각 서비스 번호 유형 (유료 및 무료)에 대해 별도의 포트 주문을 제출 하 여 승인 문자 (LOA)를 사용 하 여 전송 해야 합니다. 인증 문자 (LOA)에서 올바른 서비스 번호 유형을 선택 해야 합니다. Microsoft 지원에 문의 하는 경우 *사용자 또는 구독자 번호가 아닌* 서비스 번호를 전송 하도록 지정 하거나 동시 통화 용량이 통화 볼륨을 처리 하는 데 충분 하지 않을 수 있습니다. 전화 번호를 전송 하거나 전화 번호를 사용 하 여 다른 작업을 수행 하려는 경우 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.
 
 ## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>5 단계: 통화 계획을 설정 하려는 경우
 
@@ -124,9 +125,9 @@ Microsoft 365 또는 Office 365에서 사용자의 전화 번호를 가져올 �
 
 ## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>9 단계: 서비스 전화 번호 지정 (오디오 회의, 통화 대기열, 자동 전화 교환)
 
-**위의 4 단계**에서 서비스 번호를 찾았으면 원하는 각 서비스 유형에 할당 해야 합니다. 예를 들어 유료 또는 무료 서비스 전화 번호를 원할 경우 회의 브리지에 해당 번호를 할당 해야 합니다.
+**위의 4 단계** 에서 서비스 번호를 찾았으면 원하는 각 서비스 유형에 할당 해야 합니다. 예를 들어 유료 또는 무료 서비스 전화 번호를 원할 경우 회의 브리지에 해당 번호를 할당 해야 합니다.
 
-- 오디오 회의의 경우 **팀 관리 센터**  >  **모임**발송 브리지로 연결 하  >  고 화면의 지시에 따라**전화** 회의 브리지에 전용 번호를 할당할 수 있습니다.  자세한 내용은 [오디오 회의 브리지의 유료 또는 무료 전화 번호 변경을](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)참조 하세요.
+- 오디오 회의의 경우 **팀 관리 센터**  >  **모임** 발송 브리지로 연결 하  >  고 화면의 지시에 따라 **전화** 회의 브리지에 전용 번호를 할당할 수 있습니다.  자세한 내용은  [오디오 회의 브리지의 유료 또는 무료 전화 번호 변경을](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)참조 하세요.
 
 - 자동 전화 교환의 경우 **팀 관리 센터**  >  **음성**  >  **자동 전화 교환** 으로 이동 하 여 메시지에 따라 전용 번호를 자동 전화 교환에 할당할 수 있습니다.  자세한 내용은 [클라우드 자동 전화 교환 설정을](create-a-phone-system-auto-attendant.md)참조 하세요.
 
@@ -141,7 +142,7 @@ Microsoft 팀에 무료 전화 번호를 사용 하려면 통신 크레딧을 �
 통신 크레딧 청구를 설정 하지 않고 사용자에 게 **통신 크레딧** 라이선스를 할당 하지 않으면 해당 국가/지역의 통화 요금제 또는 오디오 회의 요금제에 따라 해당 사용자가 오디오 회의 모임에서 통화 하거나 전화를 걸 수 없습니다. 권장 자금 액수를 포함 하 여 자세한 내용은 [통신 크레딧을 소개](what-are-communications-credits.md) 하 고 [조직의 통신 크레딧을 설정](set-up-communications-credits-for-your-organization.md)하세요.
   
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [Microsoft 365 또는 Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
