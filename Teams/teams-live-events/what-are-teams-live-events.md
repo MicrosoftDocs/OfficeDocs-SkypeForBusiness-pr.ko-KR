@@ -19,18 +19,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b873c7f6f2b53ee0111ee628851050092467b28
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031454"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085562"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀의 라이브 이벤트는 무엇 인가요?
 
 ## <a name="overview"></a>개요
 
-팀에서 이벤트를 사용 하는 경우 조직의 사용자는 비디오 및 모임 콘텐츠를 대규모 온라인 청중에 게 브로드캐스트할 수 있습니다.
+팀 live 이벤트를 통해 조직의 사용자는 대규모 온라인 청중에 게 비디오 및 모임 콘텐츠를 브로드캐스트할 수 있습니다.
 
 Microsoft 365 라이브 이벤트는 라이브 비디오 스트리밍을 새 수준으로 전환 합니다. 라이브 이벤트는 라이브 이벤트 전후의 참석자와 전체 계약 수명 주기에 걸쳐 연결을 장려 합니다. 대상 그룹, 팀 또는 커뮤니티에서 Microsoft Stream, 팀 또는 Yammer를 사용 하 여 라이브 이벤트를 만들 수 있습니다.  
 
@@ -48,7 +48,7 @@ Microsoft 365 라이브 이벤트는 라이브 비디오 스트리밍을 새 수
 
 ## <a name="key-components"></a>주요 구성 요소
 
-위의 그림에서 팀의 라이브 이벤트와 함께 사용 되는 4 가지 주요 구성 요소를 확인할 수 있습니다.
+위의 그림에서 팀의 라이브 이벤트와 함께 사용 되는 5 가지 주요 구성 요소를 확인할 수 있습니다.
 
 > [!NOTE]
 > 라이브 이벤트와 참석자 환경을 설정 하는 방법에 대 한 개요는이 짧은 [비디오](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)를 확인 하세요.
@@ -63,11 +63,11 @@ Microsoft 365 라이브 이벤트는 라이브 비디오 스트리밍을 새 수
 
 비디오 입력은 라이브 이벤트의 기반 이므로 단일 웹캠에서 멀티 카메라 프로페셔널 비디오 제작에 이르기까지 다양 하 게 사용할 수 있습니다. Microsoft 365의 라이브 이벤트는 프로덕션 시나리오의 스펙트럼을 지원 하며 웹캠 또는 외부 앱 또는 장치에서 생성 된 이벤트를 사용 하는 팀에서 생성 된 이벤트를 포함 합니다. 프로젝트 요구 사항 및 예산에 따라 이러한 옵션을 선택할 수 있습니다. 이벤트를 생성 하는 방법에는 두 가지가 있습니다.
 
-- **팀** :이 프로덕션 방법을 사용 하면 사용자가 웹캠 또는 팀 대화방 시스템의 A/V 입력을 사용 하 여 팀에서 실시간 이벤트를 생성할 수 있습니다. 이 옵션은 PC에 연결 된 오디오 및 비디오 장치를 사용 하거나 원격 발표자가 이벤트에 참가 하도록 초대 하는 경우 가장 쉽고 빠르게 실행할 수 있는 옵션입니다. 이 옵션을 사용 하면 사용자가 웹캠을 쉽게 사용 하 고 화면을 이벤트에 입력으로 공유할 수 있습니다.
+- **팀**:이 프로덕션 방법을 사용 하면 사용자가 웹캠 또는 팀 대화방 시스템의 A/V 입력을 사용 하 여 팀에서 실시간 이벤트를 생성할 수 있습니다. 이 옵션은 PC에 연결 된 오디오 및 비디오 장치를 사용 하거나 원격 발표자가 이벤트에 참가 하도록 초대 하는 경우 가장 쉽고 빠르게 실행할 수 있는 옵션입니다. 이 옵션을 사용 하면 사용자가 웹캠을 쉽게 사용 하 고 화면을 이벤트에 입력으로 공유할 수 있습니다.
 
     ![빠른 시작 방법을 사용 하 여 생성 된 라이브 이벤트](../media/teams-live-events-quick-start.png "빠른 시작 프로덕션 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷")
 
-- **외부 앱 또는 장치** : 외부 인코더는 사용자가 [스트림을](https://stream.microsoft.com)사용 하는 외부 하드웨어 또는 소프트웨어 기반 인코더에서 직접 라이브 이벤트를 생성할 수 있도록 합니다. 이 옵션은 mixers (실시간 메시징 프로토콜) 서비스에 대 한 스트리밍을 지 원하는 스튜디오 음질 장비 (예: 미디어)를 사용 하는 경우 가장 적합 합니다. 이 유형의 프로덕션은 일반적으로 executive 마을 halls 같은 대규모 이벤트에 사용 되며 미디어 믹서의 단일 스트림이 청중에 게 브로드캐스트 됩니다.
+- **외부 앱 또는 장치**: 외부 인코더는 사용자가 [스트림을](https://stream.microsoft.com)사용 하는 외부 하드웨어 또는 소프트웨어 기반 인코더에서 직접 라이브 이벤트를 생성할 수 있도록 합니다. 이 옵션은 mixers (실시간 메시징 프로토콜) 서비스에 대 한 스트리밍을 지 원하는 스튜디오 음질 장비 (예: 미디어)를 사용 하는 경우 가장 적합 합니다. 이 유형의 프로덕션은 일반적으로 executive 마을 halls 같은 대규모 이벤트에 사용 되며 미디어 믹서의 단일 스트림이 청중에 게 브로드캐스트 됩니다.
 
     ![외부 앱 또는 장치를 사용 하 여 생성 된 라이브 이벤트](../media/teams-live-events-external-encoder.png "외부 앱 또는 디바이스 제작 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷")
 
@@ -78,8 +78,8 @@ Microsoft 365 라이브 이벤트는 라이브 비디오 스트리밍을 새 수
 
 라이브 이벤트 스트리밍 플랫폼은 다음 부분으로 구성 됩니다.
 
-- **Azure 미디어 서비스** :  [azure media 서비스](https://docs.microsoft.com/azure/media-services/previous/) 는 현재 인기 있는 모바일 장치에서 더 큰 사용자를 대상으로 하는 브로드캐스트 품질 영상 스트리밍 서비스를 제공 합니다. 미디어 서비스는 접근성, 배포 및 확장성을 강화 하 고 콘텐츠를 보호 하는 동안 로컬 또는 전세계 대상 그룹에 콘텐츠를 쉽게 스트리밍할 수 있도록 합니다.
-- **AZURE cdn (콘텐츠 배달 네트워크)** : 스트림이 실시간으로 이동 하면 [Azure Cdn (콘텐츠 배달 네트워크)](https://docs.microsoft.com/azure/cdn/)을 통해 제공 됩니다. Azure 미디어 서비스는 스트리밍 끝점에 대 한 통합 CDN을 제공 합니다. 이를 통해 스트림을 버퍼링 없이 전세계에 볼 수 있습니다.
+- **Azure 미디어 서비스**:  [azure media 서비스](https://docs.microsoft.com/azure/media-services/previous/) 는 현재 인기 있는 모바일 장치에서 더 큰 사용자를 대상으로 하는 브로드캐스트 품질 영상 스트리밍 서비스를 제공 합니다. 미디어 서비스는 접근성, 배포 및 확장성을 강화 하 고 콘텐츠를 보호 하는 동안 로컬 또는 전세계 대상 그룹에 콘텐츠를 쉽게 스트리밍할 수 있도록 합니다.
+- **AZURE cdn (콘텐츠 배달 네트워크)**: 스트림이 실시간으로 이동 하면 [Azure Cdn (콘텐츠 배달 네트워크)](https://docs.microsoft.com/azure/cdn/)을 통해 제공 됩니다. Azure 미디어 서비스는 스트리밍 끝점에 대 한 통합 CDN을 제공 합니다. 이를 통해 스트림을 버퍼링 없이 전세계에 볼 수 있습니다.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>ECDN (Enterprise 콘텐츠 배달 네트워크)
 
@@ -104,7 +104,7 @@ ECDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 
 
 [팀 라이브 이벤트 계획](plan-for-teams-live-events.md)으로 이동 합니다.
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 
 - [Yammer, Microsoft 팀, Microsoft Stream의 Microsoft 365에서 발생 하는 라이브 이벤트](https://docs.microsoft.com/stream/live-event-m365)
 - [Microsoft Teams 라이브 이벤트 시작하기](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)

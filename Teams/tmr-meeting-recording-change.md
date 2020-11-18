@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f11a5e01105cde728c0efbda46a38c4643a332bf
-ms.sourcegitcommit: 803a7acf628819e4edd95bd7a67867bb9ebdd344
+ms.openlocfilehash: 0e9fcc4475b7f06b427dbc73de4b00b09b08755a
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073159"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085552"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
@@ -37,7 +37,7 @@ ms.locfileid: "49073159"
 |2021 년 7 월 7 일부터 롤아웃 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**교육 고객**<br>Microsoft Stream (클래식)에 새 모임 녹음/녹화를 저장할 수 없습니다. 모든 고객은 팀 모임 정책이 **스트림으로** 변경 된 경우에도 비즈니스용 OneDrive 및 SharePoint에 모임 기록을 자동으로 저장 합니다. 이 날짜 이전에이 기능을 배포 하 여 릴리스 타이밍을 제어할 수 있도록 하는 것이 좋습니다. 이 일정을 업데이트 하 여 교육 고객에 게 진행 중인 semesters을 완료 하는 기능을 제공 합니다. |
 
 > [!Note]
-> 조직의 변화를 보다 효과적으로 제어 하 고 변경 내용이 발생할 때까지 대기 하는 것이 아니라 언제 든 지 사용 하는 것이 좋습니다. 
+> 조직의 변화를 보다 효과적으로 제어 하 고 변경 내용이 발생할 때까지 대기 하는 것이 아니라 언제 든 지 사용 하는 것이 좋습니다.
 
 Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 있습니다. 이 방법은 기존 Microsoft Stream에서 [새 스트림으로](https://docs.microsoft.com/stream/streamnew/new-stream)전환 하는 첫 번째 단계로, microsoft 365의 비즈니스용 Microsoft 비즈니스용 OneDrive 및 SharePoint에 기록을 저장 하 고 다양 한 혜택을 제공 합니다.
 
@@ -75,7 +75,7 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
 > 팀 정책 변경 사항은 전파 하는 데 시간이 걸립니다. 설정한 시간 후 다시 확인 한 후 로그 아웃 하 고 다시 로그인 합니다.
 
 1. 비즈니스용 Skype Online PowerShell을 설치 합니다.
-**참고** : 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다. 최신 팀 PowerShell 공용 릴리스를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다. [PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)를 참조 하세요.
+**참고**: 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다. 최신 팀 PowerShell 공용 릴리스를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다. [PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)를 참조 하세요.
 
     a. [비즈니스용 Skype Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)을 다운로드 하세요.
 
@@ -85,7 +85,7 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
 
 2. 관리자로 PowerShell 시작
 
-3. SkypeOnline 커넥터를 가져오고 팀 관리자로 로그인 합니다.
+3. SkypeOnline 커넥터를 가져오고 팀 관리자 계정으로 로그인 합니다.
 
    ```powershell
    Import-Module SkypeOnlineConnector
@@ -156,9 +156,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 팀 모임 녹화가 비즈니스용 OneDrive 또는 SharePoint의 원래 위치에서 이동 하거나 복사 되는 경우 선택 캡션이 완전히 지원 되지 않습니다.
 
-**내 저장소 할당량에 영향을 주는 방법**
+**저장소 할당량에 어떤 영향이 있나요?**
 
-비즈니스용 OneDrive 및 SharePoint에 파일을 기록 하는 팀 모임에는 해당 서비스의 할당량에 포함 되어 있습니다. [SharePoint 할당량](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) 및 [비즈니스용 OneDrive 할당량] ()을 참조 하세요 https://docs.microsoft.com/onedrive/set-default-storage-space) .
+비즈니스용 OneDrive 및 SharePoint에 파일을 기록 하는 팀 모임에는 해당 서비스의 할당량에 포함 되어 있습니다. [SharePoint 할당량](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) 및 [비즈니스용 OneDrive 할당량](https://docs.microsoft.com/onedrive/set-default-storage-space)을 참조 하세요.
+
+[비즈니스용 OneDrive](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) 를 사용 하 여 더 많은 저장소를 사용할 수 있으며, 스트리밍 및 SharePoint를 사용 하는 fungible 더 많은 저장소가 제공 됩니다.
 
 **팀 모임 녹음/녹화를 재생 하려면 어떻게 하나요?**
 

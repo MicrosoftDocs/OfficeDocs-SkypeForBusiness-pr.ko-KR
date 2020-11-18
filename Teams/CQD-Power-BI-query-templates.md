@@ -16,22 +16,22 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터를 분석 하세요.
-ms.openlocfilehash: 256b2264cef4b84dc4f9d9881c960d357cee28e5
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908647"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085572"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터 분석
 
-T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)합니다. CQD 데이터를 분석 하 고 보고 하는 데 사용할 수 있는 사용자 지정 가능한 Power BI 서식 파일입니다.
+T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운로드](https://www.microsoft.com/download/details.aspx?id=102291)합니다. CQD 데이터를 분석 하 고 보고 하는 데 사용할 수 있는 사용자 지정 가능한 Power BI 서식 파일입니다.
 
 팀의 CQD (통화 품질 대시보드) 보고서에서 Power BI를 사용 하 여 데이터를 쿼리하고 보고 하려면 CQD Power BI 서식 파일을 다운로드 합니다. Power BI에서 서식 파일을 열면 CQD 관리자 자격 증명을 사용 하 여 로그인 하 라는 메시지가 표시 됩니다. 이러한 쿼리 서식 파일을 사용자 지정 하 고 Power BI 라이선스 및 CQD 관리자 권한이 있는 조직의 모든 사용자에 게 배포할 수 있습니다.
 
-이러한 PBIT 파일을 사용 하려면 [다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)에 포함 된 *MicrosoftCallQuality* 파일을 사용 하 여 [Microsoft CQD 용 Power BI Connector를 설치](CQD-Power-BI-connector.md) 해야 합니다. 
+이러한 PBIT 파일을 사용 하려면 [다운로드](https://www.microsoft.com/download/details.aspx?id=102291)에 포함 된 *MicrosoftCallQuality* 파일을 사용 하 여 [Microsoft CQD 용 Power BI Connector를 설치](CQD-Power-BI-connector.md) 해야 합니다. 
 
-Power BI 보고서에 액세스 하는 데 올바른 [Cqd 액세스 역할이](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) 있는지 확인 합니다. 
+Power BI 보고서에 액세스 하는 데 올바른 [Cqd 액세스 역할이](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 있는지 확인 합니다. 
 
 |  |  |
 |---------|---------|

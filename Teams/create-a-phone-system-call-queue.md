@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 보관, 착신 전환, 기타 기능을 제공 하는 Microsoft 팀과 통화 큐에 대 한 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b9c611a31550be8dbae541ef24c63c746d5edb86
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49032997"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49089330"
 ---
 # <a name="create-a-call-queue"></a>통화 대기열 만들기
 
@@ -59,7 +59,7 @@ ms.locfileid: "49032997"
 
 3. 언어를 선택 합니다. 이 언어는 시스템에서 생성 하는 음성 메시지 및 음성 메일에 사용 됩니다 (사용 하도록 설정한 경우).
 
-## <a name="greetings-and-hold-music"></a>인사말 및 음악 보류
+## <a name="greetings-and-music-on-hold-in-queue"></a>큐에 대기 중인 인사말 및 음악
 
 큐에 도착할 때 전화를 받을 때 인사말을 재생할지 여부를 지정 합니다. 재생 하려는 인사말이 포함 된 MP3, WAV 또는 WMA 파일을 업로드 해야 합니다.
 
@@ -71,18 +71,13 @@ ms.locfileid: "49032997"
 
 ## <a name="call-agents"></a>통화 에이전트
 
-선택한 통화 에이전트는 다음 중 하나 여야 합니다. 
-
-- 전화 시스템 라이선스 및 Enterprise Voice가 설정 된 온라인 사용자
-- 통화 요금제를 사용 하는 온라인 사용자
-- 온-프레미스 비즈니스용 Skype 서버 사용자
-- 상담원은 통화 대기열 통화를 위해 Microsoft 팀 앱을 사용 하 고 있는 경우에는 TeamsOnly 모드에 있어야 합니다.
+통화 대기열에 에이전트를 추가할 수 있으려면 [필수 조건을](plan-auto-attendant-call-queue.md#prerequisites) 참조 하세요.
 
 ![통화 대기열의 사용자 및 그룹 설정 스크린샷](media/call-queue-users-groups.png)
 
 최대 20 명의 에이전트를 개별적으로 추가 하거나 그룹을 통해 최대 200 에이전트를 추가할 수 있습니다.
 
-큐에 사용자를 추가 하려면 사용자 **추가** , 사용자 검색을 차례로 클릭 하 고 **추가** 를 클릭 한 다음 **추가** 를 클릭 합니다.
+큐에 사용자를 추가 하려면 사용자 **추가**, 사용자 검색을 차례로 클릭 하 고 **추가** 를 클릭 한 다음 **추가** 를 클릭 합니다.
 
 큐에 그룹을 추가 하려면 그룹 **추가** 를 클릭 하 고 그룹을 검색 한 다음 **추가** 를 클릭 하 고 **추가** 를 클릭 합니다. 배포 목록, 보안 그룹, Microsoft 365 그룹 또는 Microsoft 팀 팀을 사용할 수 있습니다.
 
@@ -140,7 +135,7 @@ ms.locfileid: "49032997"
 
 **큐의 최대 통화** 는 주어진 시간에 큐에서 대기할 수 있는 최대 호출 수를 지정 합니다. 기본값은 50 이지만, 0에서 200 까지의 범위에 있을 수 있습니다. 이 제한에 도달 하면 **최대 통화 수** 설정에 도달 하는 경우에 지정 된 대로 통화가 처리 됩니다.
 
-통화 연결을 끊거나 교환원을 제외한 모든 [통화 라우팅 대상](create-a-phone-system-auto-attendant.md#call-routing-options) 에 대 한 리디렉션을 선택할 수 있습니다. 예를 들어 호출자가 큐의 에이전트에 대 한 보이스 메일을 남길 수 있습니다. (외부 번호로 전송 하는 경우 [이 세부 정보](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) 를 참고 하세요.)
+통화 연결을 끊거나 통화 라우팅 대상 중 하나로 리디렉션하도록 선택할 수 있습니다. 예를 들어 호출자가 큐의 에이전트에 대 한 보이스 메일을 남길 수 있습니다. 외부 전송의 경우 [필수 구성 요소](plan-auto-attendant-call-queue.md#prerequisites) 및 [외부 전화 번호 전송-](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 숫자 서식에 대 한 기술 세부 정보를 참조 하세요.
 
 > [!NOTE]
 > 최대 통화 수가 0으로 설정 되 면 인사말 메시지가 재생 되지 않습니다.
@@ -149,9 +144,9 @@ ms.locfileid: "49032997"
 
 ![통화 시간 제한 설정 스크린샷](media/call-queue-timeout-handling.png)
 
-**통화 시간 제한: 최대 대기 시간은** 대기 또는 연결 해제 하기 전에 큐에서 통화 대기를 대기할 수 있는 최대 시간을 지정 합니다. 15 초에서 45 분 까지의 값을 지정할 수 있습니다.
+**통화 시간 제한: 최대 대기 시간은** 대기 또는 연결 해제 하기 전에 큐에서 통화 대기를 대기할 수 있는 최대 시간을 지정 합니다. 0 초와 45 분 사이의 값을 지정할 수 있습니다.
 
-통화 연결을 끊거나 통화 라우팅 대상 중 하나로 리디렉션하도록 선택할 수 있습니다. 예를 들어 호출자가 큐의 에이전트에 대 한 보이스 메일을 남길 수 있습니다.
+통화 연결을 끊거나 통화 라우팅 대상 중 하나로 리디렉션하도록 선택할 수 있습니다. 예를 들어 호출자가 큐의 에이전트에 대 한 보이스 메일을 남길 수 있습니다. 외부 전송의 경우 [필수 구성 요소](plan-auto-attendant-call-queue.md#prerequisites) 및 [외부 전화 번호 전송-](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 숫자 서식에 대 한 기술 세부 정보를 참조 하세요.
 
 전화 걸기 제한 옵션을 선택한 후 **저장** 을 클릭 합니다.
 
@@ -190,7 +185,7 @@ ms.locfileid: "49032997"
 
 - [제거-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [다음은 전화 시스템 기능입니다.](here-s-what-you-get-with-phone-system.md)
 

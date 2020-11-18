@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft 팀을 위한 서비스 (CCaaS) 솔루션의 통합 된 연락처 센터 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee029be0d3d908820a4bf9f7cdabdb03c9e6ec83
-ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
+ms.openlocfilehash: c9f8b331161ed4886f5e811fe7ed985af4cf12df
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988305"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085688"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 팀에 대 한 연락처 센터 통합
 
@@ -48,6 +48,7 @@ Api를 통해 파트너는 팀의 솔루션으로 CCaaS 개발 하 고 통합할
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `ContactCenter4All` | www.contactcenter4all.com |
+| ' Content 전문가 rick ' | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
