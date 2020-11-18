@@ -504,6 +504,8 @@
               href: aa-cq-cqd-historical-reports.md
             - name: 다이얼 및 음성 참조
               href: dial-voice-reference.md
+            - name: 보고
+              href: aa-cq-cqd-historical-reports.md
         - name: 들어오는 호출 차단
           href: block-inbound-calls.md
         - name: 통화 대기 및 검색
