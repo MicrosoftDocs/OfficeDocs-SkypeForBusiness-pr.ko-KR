@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: Teams를 배포하는 방법
   href: How-to-roll-out-teams.md
-- name: 시작하기
+- name: 시작
   items:
     - name: 개요
       href: get-started-with-teams-quick-start.md
@@ -490,10 +490,6 @@
               href: create-a-phone-system-auto-attendant.md
             - name: 통화 큐 설정
               href: create-a-phone-system-call-queue.md
-            - name: 소규모 기업 예제 - 자동 전화 교환 설정
-              href: tutorial-org-aa.yml
-            - name: 소규모 기업 예제 - 전화 큐 설정
-              href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
             - name: Teams 자원 계정 관리
               href: manage-resource-accounts.md
             - name: 휴일 설정
@@ -877,7 +873,7 @@
   items:
     - name: 개요
       href: adopt-microsoft-teams-landing-page.md
-    - name: 시작하기
+    - name: 시작
       href: teams-adoption-get-started.md
     - name: 1단계 - 시작
       items:
@@ -917,7 +913,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: Teams로 업그레이드
   items:
-    - name: 시작하기
+    - name: 시작
       href: upgrade-start-here.md
     - name: 업그레이드 프레임워크 정보
       href: upgrade-framework.md
@@ -1063,16 +1059,20 @@
           href: business-voice/customize-business-voice.md
         - name: 전화번호 이식
           href: business-voice/port-phone-numbers.md
-        - name: 자동 전화 교환 설정
-          href: business-voice/set-up-auto-attendants.md
         - name: 통화 정책 설정
           href: business-voice/set-up-policies.md
         - name: 정책 패키지 관리
           href: business-voice/policy-packages.md
         - name: 추가 사용자 만들기
           href: business-voice/create-users.md
+        - name: 예-통화 큐 설정
+          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 통화 큐 설정
           href: business-voice/set-up-call-queues.md
+        - name: 예-자동 전화 교환 설정
+          href: tutorial-org-aa.yml
+        - name: 자동 전화 교환 설정
+          href: business-voice/set-up-auto-attendants.md
     - name: 설정 관리
       items:
         - name: 한 명 이상의 사용자를 생성합니다
