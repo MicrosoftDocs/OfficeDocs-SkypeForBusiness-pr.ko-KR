@@ -14,16 +14,17 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- enabler-strategic
 description: 네트워크 설정, 라이선스 할당, 라이브 이벤트 기능 사용, 예약, 동영상 배포 솔루션을 비롯 한 팀에서 실시간 이벤트를 설정 합니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0125f3772b9cf2f090df3adee18124b4293f59b1
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: f12bc54fc4a2ad0e486ee141495f39e804838406
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030914"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130609"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams에서 실시간 이벤트 설정
 
@@ -80,10 +81,10 @@ Windows PowerShell을 사용하여 이 작업을 수행할 수도 있습니다. 
 
 1. 조직의 사용자에 대해 Microsoft Stream을 활성화하세요. 스트림은 적격 Microsoft 365 또는 Office 365 구독 또는 독립 실행형 서비스의 일부로 사용할 수 있습니다. 스트림은 Business Essentials 또는 Business Premium 요금제에 포함되지 않습니다. 자세한 내용은 [Stream 라이센싱 개요](https://docs.microsoft.com/stream/license-overview)를 참조하세요.
 
->[!Note]
-> Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](../tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 새 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다. 사용자가 스트림에 액세스할 수 있도록 [**라이선스를 사용자에 게 할당할**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 수 있는 방법에 대해 자세히 알아보세요. [**이 문서**](https://docs.microsoft.com/stream/disable-user-organization)에 정의 된 사용자에 대해 스트림이 차단 되지 않았는지 확인 합니다.
+   >[!Note]
+   > Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](../tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 새 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다. 사용자가 스트림에 액세스할 수 있도록 [**라이선스를 사용자에 게 할당할**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 수 있는 방법에 대해 자세히 알아보세요. [**이 문서**](https://docs.microsoft.com/stream/disable-user-organization)에 정의 된 사용자에 대해 스트림이 차단 되지 않았는지 확인 합니다.
 
-2. 사용자에게 Stream의 실시간 이벤트 생성 권한이 있는지 확인하세요. 기본적으로 관리자는 외부 앱 또는 장치로 이벤트를 만들 수 있습니다. Stream 관리자는 [추가 사용자를 사용하여 스트림에서 실시간 이벤트를 만들](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) 수 있습니다.  
+2. 사용자에게 Stream의 실시간 이벤트 생성 권한이 있는지 확인하세요. 기본적으로 관리자는 외부 앱 또는 장치로 이벤트를 만들 수 있습니다. Stream 관리자는 [추가 사용자를 사용하여 스트림에서 실시간 이벤트를 만들](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) 수 있습니다.
 
 3. 실시간 이벤트 주최자가 Stream 관리자가 설정한 회사 정책에 동의했는지 확인하십시오. Stream 관리자가 [회사 가이드라인 정책을 설정](https://docs.microsoft.com/stream/company-policy-and-consent)하고 직원이 콘텐츠를 저장하기 전에이 정책을 수락하도록 요구하는 경우 사용자는 팀에서 실시간 이벤트(외부 앱 또는 장치 사용)를 만들기 전에 이 작업을 수행해야 합니다. 조직에서 실시간 이벤트 기능을 출시하기 전에 이러한 실시간 이벤트를 만들 사용자가 정책에 동의했는지 확인하세요.
 

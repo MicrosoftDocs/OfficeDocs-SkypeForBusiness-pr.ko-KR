@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 통화 품질 대시보드 Power BI 보고서를 사용 하 여 자동 전화 교환 및 통화 대기열 기록 데이터를 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 16f8682e8f1bc444e2694a0586ff21cf442288cd
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085582"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130429"
 ---
 # <a name="what-are-the-requirements"></a>요구 사항은 무엇 인가요? 
 Power BI Desktop이 설치 되어 있어야 합니다. [Microsoft Windows 스토어](https://aka.ms/pbidesktopstore)에서 설치할 수 있습니다.
@@ -43,21 +43,27 @@ AA & CQ 분석 기록 보고서를 보는 데 사용 하는 계정에는 CQD 데
 
 다음 단계를 수행 하세요.
 - [Cqd 팀 자동 전화 교환 & 통화 대기열 히스토리 보고서 서식 파일](https://aka.ms/TAPAACQAnalytics) 을 다운로드 하 고 컴퓨터의 디렉터리에 저장 합니다.
+
 - 서식 파일을 두 번 클릭 하 고 Power BI Desktop을 실행 해야 합니다.
+
 - CQD 데이터 파이프라인 영역을 선택 하 라는 메시지가 표시 됩니다. 테 넌 트가 있는 지역을 선택 합니다.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="팀 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="팀 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
 
  - 비즈니스용 Skype Online PS cmdlet (CsTenant)을 사용 하 여 지역을 볼 수 있습니다. ServiceInstance 출력. 
- 이 예제에서 국가는/like 다음에 표시 됩니다. microsoftcommunicationsonline/noam-4a-s7는 지역을 noam 이라고 합니다.
+ 이 영역은/like 다음에 표시 됩니다 (예:). 
+ 
+   microsoftcommunicationsonline/noam-4a-지역이 noam 인 s7.
+   
  - 보고서가 예제 데이터로 실행 됩니다.
+ 
  - 자신의 데이터를 보려면 Power BI Desktop의 쿼리 아래에 있는 홈 탭에서 **새로 고침** 을 클릭 하세요.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="팀 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="팀 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
 
 - 로그인 하 라는 메시지가 표시 됩니다. **조직 계정을** 선택한 다음 **로그인** 을 선택 합니다.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="팀 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="팀 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
 
 - **연결** 을 선택 하 고 데이터 새로 고침을 시청 합니다.
 
@@ -77,11 +83,11 @@ AA & CQ 분석 기록 보고서를 보는 데 사용 하는 계정에는 CQD 데
 다음 단계를 수행 하세요.
 - 리본 메뉴에서 **보기 탭** 을 선택 합니다.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="팀 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="팀 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
 
 - 드롭다운 목록에서 색 스키마를 선택 합니다.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="팀 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="팀 관리 센터의 통화 품질 대시보드 단추 스크린샷":::
 
 
 ## <a name="cqd-fields-description"></a>CQD 필드 설명
@@ -176,4 +182,5 @@ AA & CQ 분석 기록 보고서를 보는 데 사용 하는 계정에는 CQD 데
 
 ## <a name="known-issues"></a>알려진 문제점
 - 현재 통화 대기열 및 자동 전화 교환은 통화 대기열/자동 전화 교환 이름 대신 리소스 계정 Id를 표시 합니다.  자동 전화 교환 또는 통화 대기열에 대 한 모든 트래픽을 표시 하려면 자동 전화 교환 또는 통화 대기열에 할당 된 모든 리소스 계정을 선택 해야 합니다.
+
 - 현재, 사용자는 통화 대기열/자동 전화 교환 데이터를 사용 하는 것으로 간주 되는 것 처럼 대시보드에서 28 일간의 기록도 사용할 수 있습니다 데이터 개인 정보 보존 정책에 영향을 받습니다.

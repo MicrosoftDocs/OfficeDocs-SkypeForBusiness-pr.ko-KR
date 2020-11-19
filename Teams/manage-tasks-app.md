@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1372dd4e997d2ebc263afdb2b4b692e9b9deb8c
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 18af74a2a62f8282ee9b39c998db803235cc4ff0
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790450"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130499"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 작업 앱 관리
 
@@ -65,6 +65,9 @@ Firstline Worker에 대 한 작업 관리를 합리화 하려는 조직의 경�
 
     - 조직에 대 한 작업을 해제 하려면 작업 앱을 검색 하 고 선택한 다음 **차단을** 클릭 합니다.
     - 조직에 대 한 작업을 설정 하려면 작업 앱을 검색 하 여 선택한 다음 **허용** 을 클릭 합니다.
+
+> [!NOTE]
+> 작업 앱을 찾을 수 없는 경우이 문서의 첫 번째 노트에서 이름을 검색 합니다. 이 앱은 여전히 이름을 바꾸는 동안에도 발생할 수 있습니다.
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대 한 작업 사용 또는 사용 안 함
 

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 이 표를 사용 하 여 미국 (푸에르토리코 포함)에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 0a12073e47e2ed90c8001fc16140082186a8530b
-ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
+ms.openlocfilehash: 9e86f6d067fbd8235e8a25fc184f043115accc27
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48929509"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130469"
 ---
 # <a name="phone-number-management-for-the-united-states"></a>미국에 대 한 전화 번호 관리
 
@@ -39,8 +39,8 @@ ms.locfileid: "48929509"
 |:-----|:-----|
 |Microsoft 팀 관리 센터에 나열 되지 않은 새 사용자 또는 서비스 전화 번호를 가져옵니다.  <br/> |이 양식을 다운로드 합니다.<br/>  [미국 (v. 미국)에 대 한 새 전화 번호 요청 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> 기입 하 여 보내 [주십시오](mailto:gcstnmsd@microsoft.com). |
 |전화 번호를 귀하에 게 전송 하세요.  <br/> | 다음 양식 중 하나를 다운로드 합니다. <br/> [미국 (사용자 및 서비스 번호) (LOA) (en-us) (ko-kr)에 대 한 인증의 문자 (미국과 us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/>[미국 (LOA)에 대 한 승인 된 문자 (무료 번호) (v.-us) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**참고** 999 개 이상의 구독자 또는 사용자 전화 번호를 사용 하려는 경우 승인 문자 (LOA)를 입력 하 고이에 게 보내야 합니다. 자세한 내용은 [팀에 전화 번호 전송을](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 참조 하세요.          <br/>  <br/>   기입 하 여 보내 [주십시오](mailto:ptn@microsoft.com).  <br/> |
-|사용자의 번호를 서비스 번호 또는 서비스 번호로 사용자 번호로 변경  <br/> |PIN과 변환할 숫자 목록을 [보내 주십시오](mailto:ptn@microsoft.com) . PIN을 설정 하려면 [조직의 전화 번호 관리](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)를 참조 하세요.  <br/> |
-|특정 Microsoft 365 또는 Office 365에서 다른 컴퓨터로 번호를 전송 합니다.  <br/> |해당 번호를 전송할 원본 조직의 핀과 함께 전송 하려는 사용자 (구독자) 전화 번호 목록을 [보내 주십시오](mailto:ptn@microsoft.com) . PIN을 설정 하려면 [조직의 전화 번호 관리](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)를 참조 하세요.  <br/> |
+|사용자의 번호를 서비스 번호 또는 서비스 번호로 사용자 번호로 변경  <br/> |PIN과 변환할 숫자 목록을 [보내 주십시오](mailto:ptn@microsoft.com) . PIN을 설정 하려면 [여기](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)를 참조 하세요.  <br/> |
+|특정 Microsoft 365 또는 Office 365에서 다른 컴퓨터로 번호를 전송 합니다.  <br/> |해당 번호를 전송할 원본 조직의 핀과 함께 전송 하려는 사용자 (구독자) 전화 번호 목록을 [보내 주십시오](mailto:ptn@microsoft.com) . PIN을 설정 하려면 [여기](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)를 참조 하세요.  <br/> |
 |전화 대기열 또는 자동 전화 교환 번호에 대 한 디렉터리 서비스 업데이트 만들기|통화 대기열 또는 자동 전화 교환 번호를 추가 하거나 변경 하려면 [PSTN 서비스 데스크](contact-pstn-service-desk.md)에 문의 하세요. |
    
 ## <a name="related-topics"></a>관련 항목 

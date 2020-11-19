@@ -1,31 +1,16 @@
 ---
-title: Microsoft 팀 live 이벤트는 무엇 인가요?
-author: lanachin
-ms.author: v-lanac
-manager: serdars
-ms.topic: conceptual
-ms.service: msteams
-ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-ms.reviewer: sonua
-audience: admin
-search.appverid: MET150
-description: Live 이벤트를 통해 사용자가 팀, Yammer, 스트림에서 비디오 및 콘텐츠를 대규모 온라인 청중에 게 브로드캐스트할 수 있는 방법을 알아봅니다.
-f1.keywords:
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
-appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085562"
+제목: Microsoft 팀의 라이브 이벤트는 무엇 인가요? 작성자: lanachin: v-lanac manager: serdars ms. 항목: 개념 ms. 서비스: msteams. 컬렉션: 
+  - M365-공동 작업
+  - m365initiative-모임
+  - m365solution-sp주석 s
+- m365solution-시나리오 ms. 검토자: sonua 대상 그룹: 관리자 검색. appverid: MET150 설명: 사용자가 팀, Yammer, 스트림에서 비디오 및 콘텐츠를 대규모 온라인 청중에 게 브로드캐스트하는 방법을 알아봅니다.
+f1. 키워드: 
+- CSH ms. 사용자 지정:
+  - liveevents/. a sadmin.
+  - liveevents. 정책 appliesto: 
+  - Microsoft Teams
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀의 라이브 이벤트는 무엇 인가요?
 
 ## <a name="overview"></a>개요
@@ -72,7 +57,7 @@ Microsoft 365 라이브 이벤트는 라이브 비디오 스트리밍을 새 수
     ![외부 앱 또는 장치를 사용 하 여 생성 된 라이브 이벤트](../media/teams-live-events-external-encoder.png "외부 앱 또는 디바이스 제작 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷")
 
 >[!Note]
-> Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](../tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 새 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
+> Microsoft Stream의 사용에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](../tmr-meeting-recording-change.md)로의 변경은 단계별 접근 방식을 사용합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우, 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
 
 ### <a name="streaming-platform"></a>스트리밍 플랫폼
 

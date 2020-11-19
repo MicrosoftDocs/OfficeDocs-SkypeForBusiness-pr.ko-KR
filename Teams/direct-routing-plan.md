@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: 59fecbdc741cdbc104e41883423165000ff1b327
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030704"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130639"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -235,6 +235,8 @@ Fqdn – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.
 
 수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지 원하는 경우 FQDN **sip-all.pstnhub.microsoft.com** 이러한 모든 IP 주소를 확인 합니다. 
 
+> [!IMPORTANT]
+>  팀의 직접적인 라우팅 확장 및 서비스 개선을 통해 오스트레일리아에 직접 라우팅 인프라의 새 인스턴스를 배포 했습니다. 이것은 오스트레일리아 고객 – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com에 대해 다음 Fqdn이 확인 되는 두 개의 추가 IP 주소 (52.114.16.74 및 52.114.20.29)에 반영 됩니다. 이러한 두 IP 주소 (52.114.16.74 및 52.114.20.29)를 IP Acl (액세스 제어 목록)에 추가 하 고 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어 들어오고 나가는 트래픽을 signalling의 주소와 주고 받는 것을 허용 해야 합니다.
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH 및 DoD 환경
 

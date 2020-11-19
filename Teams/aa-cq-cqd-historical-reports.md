@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 통화 품질 대시보드 Power BI 보고서를 사용 하 여 자동 전화 교환 및 통화 대기열 기록 데이터를 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 23d9f9db7668195bba4e964e8c5ac5607038f197
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: c74e7fed254dda24ec404cbebfa0702498f46f21
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085719"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130409"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 통화 대기열 히스토리 보고서
 
@@ -54,23 +54,31 @@ AA & CQ 분석 기록 보고서를 보는 데 사용 하는 계정에는 CQD 데
 다음 단계에서는 컴퓨터에 Power BI Desktop이 이미 설치 되어 있고 사용자 계정에 CQD 데이터 파이프라인에 액세스 하는 데 필요한 권한이 있다고 가정 합니다.
 
 다음 단계를 수행 하세요.
+
 - [Cqd POWER BI 쿼리 서식 파일](https://www.microsoft.com/download/details.aspx?id=102291) 을 다운로드 하 고 컴퓨터의 디렉터리에 zip 파일을 저장 합니다.
+
 - Zip 파일을 두 번 클릭 하 여 엽니다.
+
 - "CQ 및 AA 총 분석 20201105. pbit" 서식 파일을 두 번 클릭 하 고 Power BI Desktop을 실행 해야 합니다.
+
 - CQD 데이터 파이프라인 영역을 선택 하 라는 메시지가 표시 됩니다. 테 넌 트가 있는 지역을 선택 합니다.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="CQD 데이터 파이프라인 영역을 선택 하는 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="CQD 데이터 파이프라인 영역을 선택 하는 스크린샷":::
 
- - 비즈니스용 Skype Online PS cmdlet (CsTenant)을 사용 하 여 지역을 볼 수 있습니다. ServiceInstance 출력. 
- 이 예제에서 국가는/like 다음에 표시 됩니다. microsoftcommunicationsonline/noam-4a-s7는 지역을 noam 이라고 합니다.
+ - 비즈니스용 Skype Online PowerShell cmdlet (CsTenant)을 사용 하 여 지역을 볼 수 있습니다. ServiceInstance 출력. 
+ 이 영역은/like 다음에 표시 됩니다 (예:).
+
+   microsoftcommunicationsonline/noam-4a-지역이 noam 인 s7.
+ 
  - 보고서가 예제 데이터로 실행 됩니다.
+ 
  - 자신의 데이터를 보려면 Power BI Desktop의 쿼리 아래에 있는 홈 탭에서 **새로 고침** 을 클릭 하세요.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="새로 고침 옵션 선택 스크린샷":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="새로 고침 옵션 선택 스크린샷":::
 
 - 로그인 하 라는 메시지가 표시 됩니다. **조직 계정을** 선택한 다음 **로그인** 을 선택 합니다.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="로그인을 보여 주는 스크린샷":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="로그인을 보여 주는 스크린샷":::
 
 - **연결** 을 선택 하 고 데이터 새로 고침을 시청 합니다.
 
@@ -93,9 +101,11 @@ AA & CQ 분석 기록 보고서를 보는 데 사용 하는 계정에는 CQD 데
 다음 단계를 수행 하세요.
 - 리본 메뉴에서 **보기 탭** 을 선택 합니다.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="스크린샷 색 구성표를 변경 하려면 보기 탭을 선택 합니다.":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="스크린샷 색 구성표를 변경 하려면 보기 탭을 선택 합니다.":::
 
 - 드롭다운 목록에서 색 스키마를 선택 합니다.
+
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="다양 한 색 구성표를 보여 주는 스크린샷":::
 
 ## <a name="cqd-fields-description"></a>CQD 필드 설명
 
@@ -121,11 +131,11 @@ AA & CQ 분석 기록 보고서를 보는 데 사용 하는 계정에는 CQD 데
 |통화 대기열이 포함 된 경우                  |부울                  |통화 대기열이이 통화와 동일 하 게 연결 되는 경우 1 |
 
 
-### <a name="powerbi-data-model-dimensions"></a>PowerBI 데이터 모델 크기
+### <a name="power-bi-data-model-dimensions"></a>Power BI 데이터 모델 차원
 
 |이름                                    |데이터 형식                |설명                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA 이름                                   |이름                   |자동 전화 교환 Id (리소스 계정 Id) |
+|AA 이름                                   |이름                   |자동 전화 교환 ID (리소스 계정 ID) |
 |AACallFlow                              |이름                   |자동 전화 교환 통화의 여러 상태를 캡슐화 합니다.<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 공지 사항 |
 |AACallResult                            |이름                   |자동 전화 교환 통화 결과:<br>§ 알 수 없음<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – AA 구성 오류<br>§ service_terminated – 내부 AA 오류<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
 |AAChainDuration                         |이름                   |자동 전화 교환 통화의 기간 (초)  |
@@ -189,5 +199,6 @@ AA & CQ 분석 기록 보고서를 보는 데 사용 하는 계정에는 CQD 데
 
 ## <a name="known-issues"></a>알려진 문제점
 
-- 현재 통화 대기열 및 자동 전화 교환은 통화 대기열/자동 전화 교환 이름 대신 리소스 계정 Id를 표시 합니다.  자동 전화 교환 또는 통화 대기열에 대 한 모든 트래픽을 표시 하려면 자동 전화 교환 또는 통화 대기열에 할당 된 모든 리소스 계정을 선택 해야 합니다.
+- 현재 통화 대기열 및 자동 전화 교환은 통화 대기열/자동 전화 교환 이름 대신 리소스 계정의 ID를 표시 합니다.  자동 전화 교환 또는 통화 대기열에 대 한 모든 트래픽을 표시 하려면 자동 전화 교환 또는 통화 대기열에 할당 된 모든 리소스 계정을 선택 해야 합니다.
+
 - 현재, 사용자는 통화 대기열/자동 전화 교환 데이터를 사용 하는 것으로 간주 되는 것 처럼 대시보드에서 28 일간의 기록도 사용할 수 있습니다 데이터 개인 정보 보존 정책에 영향을 받습니다.

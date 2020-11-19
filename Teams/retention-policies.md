@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b5ebfc4c626cac14439ef98420e219dd0d93df8
-ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
+ms.openlocfilehash: 3b7854af353b9619a1e668006c4e143ac8d37e77
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999262"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130659"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
@@ -43,8 +43,8 @@ Microsoft 365 또는 Office 365의 보존 정책에 대해 자세히 알아보�
 
 Teams 또는 다른 작업에 대한 보존 정책을 설정할 때 다음과 같이 설정할 수 있습니다.
 
-- **데이터 보존** : 사용자 앱에서 일어나는 일과 관계없이 보존 정책을 사용하여 일정 기간 데이터를 보존합니다. 데이터는 규정 준수를 위해 보존되며 보존 기간이 만료될 때까지 eDiscovery에서 사용할 수 있으며, 이후 정책에 따라 아무런 작업도 수행하지 않을지 또는 데이터를 삭제할 것인지가 표시됩니다. 예를 들어, 채널 메시지를 7년간 보존하는 Teams 보존 정책을 만드는 경우 사용자가 Teams에서 메시지를 삭제하더라도 7년 동안 eDiscovery를 위해 메시지가 보존됩니다.
-- **데이터 삭제** : 보존 정책을 사용하여 데이터를 삭제하고, 조직의 책임을 해소합니다. Teams 보존 정책을 통해 데이터를 삭제하면 Teams 서비스의 모든 저장 위치에서 영구적으로 삭제됩니다.
+- **데이터 보존**: 사용자 앱에서 일어나는 일과 관계없이 보존 정책을 사용하여 일정 기간 데이터를 보존합니다. 데이터는 규정 준수를 위해 보존되며 보존 기간이 만료될 때까지 eDiscovery에서 사용할 수 있으며, 이후 정책에 따라 아무런 작업도 수행하지 않을지 또는 데이터를 삭제할 것인지가 표시됩니다. 예를 들어, 채널 메시지를 7년간 보존하는 Teams 보존 정책을 만드는 경우 사용자가 Teams에서 메시지를 삭제하더라도 7년 동안 eDiscovery를 위해 메시지가 보존됩니다.
+- **데이터 삭제**: 보존 정책을 사용하여 데이터를 삭제하고, 조직의 책임을 해소합니다. Teams 보존 정책을 통해 데이터를 삭제하면 Teams 서비스의 모든 저장 위치에서 영구적으로 삭제됩니다.
 
 Teams 보존 정책을 통해 다음을 수행할 수 있습니다.
 
@@ -167,7 +167,7 @@ Teams 보존 정책을 삭제하려면 다음을 수행합니다.
 
 ### <a name="end-user-experience"></a>최종 사용자 환경
 
-개인 채팅 (1:1 채팅) 또는 그룹 채팅의 경우, 최종 사용자는 보존 정책 구성 보다 오래 된 채팅을 삭제 하 고 "조직의 보존 정책에 따라 오래 된 messaged를 삭제 했습니다." 라는 제어 메시지가 아직 삭제 되지 않은 메시지의 맨 위에 표시 됨을 확인할 수 있습니다.
+개인 채팅 (1:1 채팅) 또는 그룹 채팅의 경우, 최종 사용자는 보존 정책 구성 보다 오래 된 채팅을 삭제 하 고 "조직의 보존 정책에 따라 오래 된 메시지를 삭제 했습니다." 라는 제어 메시지가 아직 삭제 되지 않은 메시지의 맨 위에 표시 되는 것을 볼 수 있습니다.
 :::image type="content" source="media/retention-policies-image1.png" alt-text="채팅 보존 스크린샷":::
 
 

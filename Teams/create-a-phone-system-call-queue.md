@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지, 음악 보관, 착신 전환, 기타 기능을 제공 하는 Microsoft 팀과 통화 큐에 대 한 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49089330"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135936"
 ---
 # <a name="create-a-call-queue"></a>통화 대기열 만들기
 
@@ -156,7 +156,7 @@ ms.locfileid: "49089330"
 
 ## <a name="supported-clients"></a>지원 되는 클라이언트
 
-- 통화 대기열의 통화 에이전트에 대해 다음 클라이언트가 지원 됩니다.
+통화 대기열의 통화 에이전트에 대해 다음 클라이언트가 지원 됩니다.
 
   - 비즈니스용 Skype 데스크톱 클라이언트 2016 (32 비트 및 64 비트 버전)
   - Lync 데스크톱 클라이언트 2013 (32 비트 및 64 비트 버전)

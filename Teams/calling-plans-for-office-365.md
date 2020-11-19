@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Skype for business 옵션에 대 한 통화 요금제 (PSTN 통화 요금제)와 조직의 라이선스를 얻는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: d71f97655d86a7d7a97d6f2097f05c86d4bc9b1d
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 5d7a998619eb54e5c53b3c03fcaf0889ee2f328c
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908687"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130419"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365에 대 한 통화 요금제
 
@@ -39,9 +39,9 @@ ms.locfileid: "48908687"
   
 통화 요금제 옵션은 다음과 같습니다.
   
-- **국내 통화 요금제** : 라이선스 사용자는 Microsoft 365 또는 Office 365에서 할당 된 국가/지역에 있는 번호로 전화를 걸 수 있습니다.
+- **국내 통화 요금제**: 라이선스 사용자는 Microsoft 365 또는 Office 365에서 할당 된 국가/지역에 있는 번호로 전화를 걸 수 있습니다.
     
-- **국내 및 국제 통화 요금제** : 라이선스가 있는 사용자는 사용자의 위치 및 [196 국가/지역의](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)국제 전화 번호에 따라 Microsoft 365 또는 Office 365 라이선스가 사용자에 게 할당 되는 국가/지역에 있는 번호로 통화할 수 있습니다.
+- **국내 및 국제 통화 요금제**: 라이선스가 있는 사용자는 사용자의 위치 및 [196 국가/지역의](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)국제 전화 번호에 따라 Microsoft 365 또는 Office 365 라이선스가 사용자에 게 할당 되는 국가/지역에 있는 번호로 통화할 수 있습니다.
 
 동일한 국가/지역에 있는 모든 사용자 (Microsoft 365 관리 센터의 라이선스 영역에 정의 된 사용자 국가 위치)를 사용 하 여 동일한 통화 계획을 몇 분 단위로 공유할 수 있습니다. 예를 들어 100 사용자가 동일한 국가/지역에 거주 하는 경우 120 분 국내 통화 요금제가 지정 되어 있는 경우,이는 12000 분의 풀을 공유 합니다. 이 분을 초과 하는 모든 통화에는 분당 청구 됩니다.
     
@@ -76,11 +76,9 @@ ms.locfileid: "48908687"
   
 ## <a name="pricing-information"></a>가격 정보
 
-- [통화 요금제 가격](https://go.microsoft.com/fwlink/?LinkId=799761)
+- [통화 요금제 및 전화 시스템의 가격 책정](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
     
-- [전화 시스템 가격](https://go.microsoft.com/fwlink/?linkid=799763)
-    
-- [오디오 회의 가격](https://go.microsoft.com/fwlink/?linkid=799762)
+- [오디오 회의 가격](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meetings)
     
 ## <a name="for-more-information"></a>자세한 내용은
 
