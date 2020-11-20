@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Microsoft 팀을 사용 하 여 가상 방문 시스템 설정
-ms.openlocfilehash: ed952f678fb353ae623a0020ac565ee4e8288445
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 808d957cd86273852e7c2c98ec223b1988e5bd0d
+ms.sourcegitcommit: cbf87fc914a19088af8ec08fb0976db9f838a45d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790460"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49355968"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>팀에 대 한 가상 방문-EHR에 통합
 
@@ -91,7 +91,7 @@ Microsoft 팀으로 가상 방문을 시작 하도록 건강 관리 조직을 �
 
 이 단계를 완료 하려면 Microsoft 365 관리자가 Microsoft 365 관리자의 유효한 빠른 상태 상호 운용성 리소스 (FA r) 기본 URL과 구성을 승인 하는 대규모 사용자의 이름을 받아야 합니다. Microsoft 365 관리자는 커넥터 구성 페이지를 실행 하 고 Microsoft 자격 증명을 사용 하 여 로그인 해야 구성 프로세스를 시작할 수 있습니다.
 
-- FTO r 기본 URL은 서버 FA r API 끝점에 해당 하는 정적 주소입니다. URL 예제는 [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST) 입니다.
+- FTO r 기본 URL은 서버 FA r API 끝점에 해당 하는 정적 주소입니다. URL 예제는 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` 입니다.
 
 - 구성 승인자 이름은 구성 승인을 담당 하는 대규모 사용자 시스템 관리자의 이름입니다.
 
