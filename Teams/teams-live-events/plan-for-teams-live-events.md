@@ -20,12 +20,12 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1be13bb3e92a7ccd927696061ba20d3e4513080
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 45f7d629b53a8f20ed9fb072d5dc8812a680d0c4
+ms.sourcegitcommit: 25d14b501c0d62b8b77bbf03dac490f5bc1969bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130589"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49372252"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -143,7 +143,7 @@ Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하�
 |대상 그룹 감정 분석 – 실시간 투표 및 설문 조사 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
 <sup>1</sup> 설정된 제한이 변경되었을 수 있습니다. [Teams의 제한과 사양](../limits-specifications-teams.md)을 확인하세요.<br/>
-<sup>2</sup> 라이브 이벤트에는 최대 250명의 발표자와 프로듀서가 있을 수 있지만, 마지막 10명만 목록에 나타납니다.
+<sup>2</sup> 라이브 이벤트에는 최대 100명의 발표자와 프로듀서가 있을 수 있지만, 마지막 10명만 목록에 나타납니다.
 
 ## <a name="regional-availability"></a>국가별 가용성
 

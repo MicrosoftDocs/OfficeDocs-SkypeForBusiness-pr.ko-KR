@@ -17,17 +17,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
-ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
+ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
+ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350570"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376021"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams에 로그인
 ==========================
 
 ## <a name="windows-users"></a>Windows 사용자
+
 조직에서 하이브리드 도메인 조인이나 Azure AD 조인을 구성할 때는 최신 버전의 Windows 10을 사용하는 것이 좋습니다. 최신 버전을 사용하면 사용자 계정이 Windows 웹 계정 관리자에서 준비되므로 결국 Teams 및 다른 Microsoft 응용 프로그램에 대한 SSO(Single Sign-On)가 가능해집니다. Single Sign-On을 사용하면 사용자 환경(자동 로그인) 및 보안 상태가 개선됩니다.
 
 Microsoft Teams는 최신 인증을 사용하여 로그인 환경을 간편하고 안전하게 유지합니다. 사용자가 Teams에 로그인하는 방법을 보려면 [Teams 로그인](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)을 참조하세요.
@@ -121,7 +122,8 @@ Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한�
 >1. 정책은 로그인만 제한합니다. 다른 Azure AD에서 게스트로 초대된 사용자나 다른 테넌트에서 전환한 사용자에 대한 기능을 제한하지 않습니다.
 >2. 이 정책은 Windows용 Teams 버전 1.3.00.30866 이상과 MacOS용 Teams 버전 1.3.00.30882(2020년 11월 중반에 릴리스됨)가 필요합니다.
 
-**Windows용 정책** Windows 레지스트리에서 수동으로 키를 설정할 수 있습니다.
+**Windows용 정책** 관리 템플릿 파일(ADMX/ADML)은 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=49030)에서 사용할 수 있습니다. 또한 Windows 레지스트리에서 키를 수동으로 설정할 수 있습니다.
+
 - 값 이름: RestrictTeamsSignInToAccountsFromTenantList
 - 값 형식: 문자열
 - 값 데이터: 테넌트 ID 또는 쉼표로 구분된 테넌트 ID 목록
@@ -130,8 +132,6 @@ Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한�
  Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Cloud\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Teams
 
 예: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 또는 SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 1,Tenant ID 2,Tenant ID 3
-
-이 문서는 관리 템플릿 서식 파일(ADMX/ADML) 사용에 대한 세부 정보와 함께 며칠 후에 업데이트할 예정입니다.
 
 **MacOS 정책** MacOS 관리되는 디바이스의 경우, .plist를 사용하여 로그인 제한을 배포합니다. 구성 프로필은 키로 식별된 항목으로 구성된 .plist 파일(기본 설정의 이름을 나타냄)이며 뒤에 기본 설정의 성격에 따라 값이 표시됩니다. 값은 단순한 기본 설정 목록과 같이 값(예: 숫자 값) 또는 복합일 수 있습니다.
 
