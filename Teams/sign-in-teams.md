@@ -1,5 +1,5 @@
 ---
-title: 최신 인증을 사용하여 Teams에 로그인
+title: Microsoft Teams에 로그인
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d931c41fb3da345be124ddef570e0f4bda53474
-ms.sourcegitcommit: 98c5bcfad4ded89ac7b3604367e43a28663828bb
+ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944192"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350570"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams에 로그인
 ==========================
@@ -102,7 +102,7 @@ MDM 공급자에 계정 설정 구성이 설정되고 사용자가 장치를 등
 
 |플랫폼 |키  |값  |
 |---------|---------|---------|
-|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **사용** : IntuneMAMUPN 키로 정의된 관리되는 사용자 계정만 허용됩니다.<br> **사용 안 함** (또는 대/소문자 구분이 없이 **사용** 에 일치하지 않는 모든 값): 모든 계정이 허용됩니다.        |
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **사용**: IntuneMAMUPN 키로 정의된 관리되는 사용자 계정만 허용됩니다.<br> **사용 안 함** (또는 대/소문자 구분이 없이 **사용** 에 일치하지 않는 모든 값): 모든 계정이 허용됩니다.        |
 |iOS     |   **IntuneMAMUPN**      |   Teams 로그인하도록 허용된 계정의 UPN입니다.<br> Intune에서 등록된 장치의 경우 {{userprincipalname}} 토큰을 사용하여 등록된 사용자 계정을 나타낼 수 있습니다.       |
 |Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    이 키로 정의된 관리되는 사용자 계정만 허용됩니다.<br> 하나 이상의 세미 콜론;]- 구분된 UPN.<br> Intune에서 등록된 장치의 경우 {{userprincipalname}} 토큰을 사용하여 등록된 사용자 계정을 나타낼 수 있습니다.
 

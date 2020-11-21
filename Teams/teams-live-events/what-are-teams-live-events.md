@@ -1,16 +1,33 @@
 ---
-제목: Microsoft 팀의 라이브 이벤트는 무엇 인가요? 작성자: lanachin: v-lanac manager: serdars ms. 항목: 개념 ms. 서비스: msteams. 컬렉션: 
-  - M365-공동 작업
-  - m365initiative-모임
-  - m365solution-sp주석 s
-- m365solution-시나리오 ms. 검토자: sonua 대상 그룹: 관리자 검색. appverid: MET150 설명: 사용자가 팀, Yammer, 스트림에서 비디오 및 콘텐츠를 대규모 온라인 청중에 게 브로드캐스트하는 방법을 알아봅니다.
-f1. 키워드: 
-- CSH ms. 사용자 지정:
-  - liveevents/. a sadmin.
-  - liveevents. 정책 appliesto: 
-  - Microsoft Teams
+title: Microsoft 팀 live 이벤트는 무엇 인가요?
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+ms.collection:
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
+ms.reviewer: sonua
+audience: admin
+search.appverid: MET150
+description: Live 이벤트를 통해 사용자가 팀, Yammer, 스트림에서 비디오 및 콘텐츠를 대규모 온라인 청중에 게 브로드캐스트할 수 있는 방법을 알아봅니다.
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373474"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀의 라이브 이벤트는 무엇 인가요?
 
 ## <a name="overview"></a>개요
@@ -49,8 +66,6 @@ Microsoft 365 라이브 이벤트는 라이브 비디오 스트리밍을 새 수
 비디오 입력은 라이브 이벤트의 기반 이므로 단일 웹캠에서 멀티 카메라 프로페셔널 비디오 제작에 이르기까지 다양 하 게 사용할 수 있습니다. Microsoft 365의 라이브 이벤트는 프로덕션 시나리오의 스펙트럼을 지원 하며 웹캠 또는 외부 앱 또는 장치에서 생성 된 이벤트를 사용 하는 팀에서 생성 된 이벤트를 포함 합니다. 프로젝트 요구 사항 및 예산에 따라 이러한 옵션을 선택할 수 있습니다. 이벤트를 생성 하는 방법에는 두 가지가 있습니다.
 
 - **팀**:이 프로덕션 방법을 사용 하면 사용자가 웹캠 또는 팀 대화방 시스템의 A/V 입력을 사용 하 여 팀에서 실시간 이벤트를 생성할 수 있습니다. 이 옵션은 PC에 연결 된 오디오 및 비디오 장치를 사용 하거나 원격 발표자가 이벤트에 참가 하도록 초대 하는 경우 가장 쉽고 빠르게 실행할 수 있는 옵션입니다. 이 옵션을 사용 하면 사용자가 웹캠을 쉽게 사용 하 고 화면을 이벤트에 입력으로 공유할 수 있습니다.
-
-    ![빠른 시작 방법을 사용 하 여 생성 된 라이브 이벤트](../media/teams-live-events-quick-start.png "빠른 시작 프로덕션 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷")
 
 - **외부 앱 또는 장치**: 외부 인코더는 사용자가 [스트림을](https://stream.microsoft.com)사용 하는 외부 하드웨어 또는 소프트웨어 기반 인코더에서 직접 라이브 이벤트를 생성할 수 있도록 합니다. 이 옵션은 mixers (실시간 메시징 프로토콜) 서비스에 대 한 스트리밍을 지 원하는 스튜디오 음질 장비 (예: 미디어)를 사용 하는 경우 가장 적합 합니다. 이 유형의 프로덕션은 일반적으로 executive 마을 halls 같은 대규모 이벤트에 사용 되며 미디어 믹서의 단일 스트림이 청중에 게 브로드캐스트 됩니다.
 

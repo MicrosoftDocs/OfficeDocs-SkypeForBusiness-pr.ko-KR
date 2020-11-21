@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aded7fefd977d3f3437f15a97296be083d43359
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
+ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085472"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349114"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -68,7 +68,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 |기능  | 최대 한도  |
 |---------|---------|
-|비공개 채팅에 참가 중인 사용자 수<sup>1</sup>  | 350 |
+|비공개 채팅에 참가 중인 사용자 수<sup>1</sup>  | 250 |
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
 |첨부 파일 수<sup>2</sup>  |10     |
 |채팅 크기 | 게시물당 28 KB<sup>3</sup> |
@@ -191,9 +191,9 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 |------------------------|---------|---------|---------|---------|---------|---------|
 |저장소                 |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB 및 구매한 라이선스당 10GB   |조직당 1TB 및 구매한 라이선스당 10GB |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB           |
 |Teams 파일용 저장소 |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |
-|파일 업로드 제한(파일당)    |100GB    |100GB    |100GB    |100GB    |100GB    |100GB    |
+|파일 업로드 제한(파일당)    |2GB    |2GB    |2GB    |2GB    |2GB    |2GB    |
 
-채널은 팀을 위해 만든 SharePoint Online 사이트 모음의 폴더에 의해 지원되므로 채널 내의 파일 탭은 속해 있는 팀의 저장소 용량 한도를 공유 합니다.
+채널은 팀에 대해 생성된 SharePoint Online 사이트 모음 내의 폴더로 백업되므로 채널 내의 파일 탭은 자신이 속한 팀의 저장소 제한을 공유합니다.
 
 자세한 내용은 [SharePoint Online 제한](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)을 참조하세요.
 
