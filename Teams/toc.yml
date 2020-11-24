@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: Teams를 배포하는 방법
   href: How-to-roll-out-teams.md
-- name: 시작
+- name: 시작하기
   items:
     - name: 개요
       href: get-started-with-teams-quick-start.md
@@ -348,6 +348,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Teams에서 화이트보드 관리
       href: manage-whiteboard.md
+    - name: Google Workspace에 대 한 팀 모임 추가 기능 설정
+      href: add-gsuite-thru-aad.md
     - name: 오디오 회의
       items:
         - name: 배포 계획
@@ -873,7 +875,7 @@
   items:
     - name: 개요
       href: adopt-microsoft-teams-landing-page.md
-    - name: 시작
+    - name: 시작하기
       href: teams-adoption-get-started.md
     - name: 1단계 - 시작
       items:
@@ -913,7 +915,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: Teams로 업그레이드
   items:
-    - name: 시작
+    - name: 시작하기
       href: upgrade-start-here.md
     - name: 업그레이드 프레임워크 정보
       href: upgrade-framework.md
@@ -1098,7 +1100,7 @@
           items:
             - name: Teams에서 조직의 교대 근무 앱 관리
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 의료용 Teams
+    - name: 의료 산업용 Teams
       items:
         - name: 의료용 Teams 시작
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
@@ -1285,7 +1287,7 @@
               href: CQD-data-and-reports.md
             - name: CQD를 사용하여 통화 및 모임 품질 관리
               href: quality-of-experience-review-guide.md
-            - name: 자주 묻는 질문
+            - name: 질문과 대답
               href: CQD-frequently-asked-questions.md
             - name: CQD에서 사용할 수 있는 차원 및 측정값
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
