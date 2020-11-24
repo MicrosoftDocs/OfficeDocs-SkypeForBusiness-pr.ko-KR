@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818838"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385645"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 

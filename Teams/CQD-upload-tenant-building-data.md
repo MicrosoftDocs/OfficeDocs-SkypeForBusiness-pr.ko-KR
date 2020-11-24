@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 테 넌 트를 업로드 하 고 CQD (통화 품질 대시보드에서) 데이터를 작성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 1ee722e63a8699e1447ffc0c2bc859a6a080d220
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908697"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385635"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>테 넌 트 업로드 및 통화 품질 대시보드에서 데이터 빌드 (CQD)
 
@@ -71,7 +71,7 @@ CQD에 있는 테 넌 트 데이터 파일의 첫 번째 유형은 **빌드** �
 
 - 열에 문자열 데이터 형식이 사용 되는 경우 데이터 필드는 비어 있을 수 있지만 여전히 탭 또는 쉼표로 구분 되어야 합니다. 빈 데이터 필드는 빈 문자열 값만 할당 합니다.
 
-- 각 행에는 14 개의 열이 있고, 각 열에는 적절 한 데이터 형식이 있어야 하며, 열은 다음 표에 나열 된 순서 (쉼표 또는 탭으로 구분)에 있어야 합니다.
+- 각 행에는 15 개의 열이 있고, 각 열에는 적절 한 데이터 형식이 있어야 하며, 열은 다음 표에 나열 된 순서 (쉼표 또는 탭으로 구분)에 있어야 합니다.
 
   **데이터 파일 형식 빌드**
   
