@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec1500d9e7d5896d1b4cd2414355602d7400591a
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.openlocfilehash: 26738002ab333d2490ef0dac5674a1f7cdc19efd
+ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405785"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49420958"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>직접 라우팅에 대 한 Ringback 봇 설정
 
 이 문서에서는 통화를 설정 하는 데 시간이 오래 걸릴 때 발생할 수 있는 예기치 않은 silences을 방지 하는 데 사용할 수 있는 Ringback bot에 대해 설명 합니다. Ringback 봇은 비 미디어 우회 모드의 직접 라우팅에 사용할 수 있습니다.
 
-때로는 PSTN (공개 통신 네트워크)에서 팀 클라이언트로 들어오는 인바운드 호출이 예상 보다 오래 걸릴 수 있습니다. 이 문제는 다양 한 이유로 발생할 수 있습니다. 이 문제가 발생 하는 경우 발신자는 어떤 작업도 들리지 않으며, 팀 클라이언트가 전화를 걸지 않으며, 통신 공급자가 통화를 취소 했을 수 있습니다.
+때로는 PSTN (공개 통신 네트워크)에서 팀 클라이언트로 들어오는 인바운드 호출이 예상 보다 오래 걸릴 수 있습니다. 이 문제는 다양 한 이유로 발생할 수 있습니다. 이 문제가 발생 하는 경우 발신자는 어떤 작업도 들리지 않으며, 팀 클라이언트가 전화를 걸지 않으며, 일부 통신 공급자가 통화를 취소할 수 있습니다.
 
 Ringback bot는이 시나리오에서 발생할 수 있는 예기치 않은 silences을 방지 하는 데 도움이 됩니다. PSTN에서 팀 클라이언트로의 인바운드 호출에 대해 Ringback bot는 호출자에 게 고유한 오디오 신호를 재생 하 여 팀이 통화를 설정 하는 과정에서 진행 중임을 나타냅니다.
 
@@ -36,11 +36,11 @@ Ringback bot는이 시나리오에서 발생할 수 있는 예기치 않은 sile
 
 ## <a name="configure-the-ringback-bot"></a>Ringback 봇 구성
 
-[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) 및 [CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet을 **GenerateRingingWhileLocatingUser** 매개 변수와 함께 사용 하 여 Ringback bot을 구성 합니다.
+[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlet을 사용 하 여 이전에 정의 된 세션 경계 컨트롤러 (sbc) 구성을 수정 하거나 **GenerateRingingWhileLocatingUser** 매개 변수와 함께 Ringback bot을 구성 하는 [새로운](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) sbc 구성을 만듭니다.
 
-Ringback bot를 설정 하려면 **GenerateRingingWhileLocatingUser** 매개 변수를 **$True**으로 설정 합니다. 기본값입니다. 
+- Ringback bot를 설정 하려면 **GenerateRingingWhileLocatingUser** 매개 변수를 **$True** 으로 설정 합니다. 기본값입니다. 
 
-Ringback bot를 끄려면 **GenerateRingingWhileLocatingUser** 매개 변수를 **$False**으로 설정 합니다. 
+- Ringback bot를 끄려면 **GenerateRingingWhileLocatingUser** 매개 변수를 **$False** 으로 설정 합니다. 
 
 ## <a name="related-topics"></a>관련 항목
 
