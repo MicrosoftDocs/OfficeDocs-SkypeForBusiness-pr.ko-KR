@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
-ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
+ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
+ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349114"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49420928"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -50,9 +50,9 @@ ms.locfileid: "49349114"
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> 이 제한에는 보관된 팀이 포함됩니다.
+<sup>2</sup> 이 제한에는 보관된 팀이 포함됩니다. Microsoft 365 또는 Office 365 조직에 포함할 수 있는 최대 팀 수를 초과하려면 Microsoft 지원팀에 문의해야 합니다.
 
-<sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
+<sup>3</sup> 삭제된 채널은 30일 이내에 복원할 수 있습니다. 30일 동안에는 삭제된 채널이 계속해서 팀당 200개 채널이나 30개의 개인 채널에 포함됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널은 더 이상 팀당 한도에 포함되지 않습니다.
 
 <sup>4</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 수, 반응이 포함되기 때문에 대략적인 한도입니다.
 
