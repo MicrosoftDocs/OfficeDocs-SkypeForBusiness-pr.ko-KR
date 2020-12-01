@@ -16,16 +16,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 팀 관리 기능에 대 한 릴리스 정보입니다.
-ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816108"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477037"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 팀 관리 기능에 대 한 릴리스 정보
 
 이 릴리스 정보는 Microsoft 팀의 새로운 관리 기능에 대 한 정보를 제공 합니다.
+
+## <a name="november-25-2020"></a>2020 년 11 월 25 일
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google 용 Microsoft 팀 모임 추가 기능 설정 작업 영역
+
+Microsoft 팀 모임 추가 기능을 사용 하면 Google 일정 사용자가 Google Workspace에서 직접 Microsoft 팀 모임을 예약 하 고 참가할 수 있습니다. 사용자는 비디오 및 오디오 회의, 화면 공유, 모임 채팅, 디지털 화이트 보드 등을 비롯 한 팀 모임 기능을 이용할 수 있습니다. 업무, 학교, 생활을 통해 더 많은 작업을 수행할 수 있도록 연결 및 구성을 유지 하세요.
+
+테 넌 트 사용자가 앱에 액세스할 수 있으려면 먼저 팀 관리자가 Google 용 Microsoft 팀 모임 추가 기능을 사용 하도록 설정 해야 합니다. [자세한 정보](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad)를 확인합니다.
 
 ## <a name="october-28-2020"></a>2020 년 10 월 28 일
 
@@ -67,7 +75,7 @@ Microsoft 팀 관리 센터에서 조직의 비즈니스용 Skype 사용자에 �
 
 ### <a name="custom-policy-packages"></a>사용자 지정 정책 패키지
 
-*이 기능은 비공개 미리 보기에 있습니다.*
+*이 기능은 비공개 리미 보기에 있습니다.*
 
 사용자 지정 정책 패키지를 사용 하 여 조직에서 비슷한 역할을 갖는 사용자에 대해 자신만의 정책 집합을 번들로 만들 수 있습니다. 필요한 정책 유형 및 정책을 추가 하 여 고유한 정책 패키지를 만듭니다. [자세한 정보](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages)를 확인합니다.
 

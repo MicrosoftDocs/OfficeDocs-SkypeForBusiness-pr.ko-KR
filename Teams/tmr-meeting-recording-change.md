@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385625"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477047"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 스트림 사용
 
@@ -94,11 +94,14 @@ Microsoft 팀에는 모임 녹음/녹화를 저장 하는 새로운 방법이 �
    Import-PSSession $sfbSession
    ```
 
-4. [Set-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps&preserve-view=true) 를 사용 하 여 스트림 저장소에서 비즈니스용 OneDrive 및 SharePoint로 전환 하도록 팀 모임 정책을 설정 합니다.
+4. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 를 사용 하 여 스트림 저장소에서 비즈니스용 OneDrive 및 SharePoint로 전환 하도록 팀 모임 정책을 설정 합니다.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
+   
+> [!Note]
+> 일부 사용자가 이끌이 또는 사용자 단위 정책을 할당 한 경우이 정책에이 설정을 사용 하 여 비즈니스용 OneDrive 및 SharePoint에 모임 녹음/녹화가 저장 되도록 해야 합니다. 자세한 내용은 [팀에서 모임 정책 관리](meeting-policies-in-teams.md)를 참조 하세요.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>비즈니스용 OneDrive 및 SharePoint에서 스트림을 사용 하 여 계속 합니다.
 

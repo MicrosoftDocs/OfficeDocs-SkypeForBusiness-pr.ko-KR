@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams의 게스트 액세스를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다.
-ms.openlocfilehash: cab51fd9cf0a81c849a0baf379150ccb2e08d818
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 266830f29f98d517450f4062ff23de9a7582a24f
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030284"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49476997"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 
@@ -32,12 +32,14 @@ ms.locfileid: "49030284"
 
 게스트는 직원, 학생 또는 조직의 구성원이 아닌 사용자입니다. 조직에 학교 또는 직장 계정을 가지고 있지 않아야 합니다. 예를 들어, 게스트에는 파트너, 공급 업체, 공급자 또는 컨설턴트 등이 포함될 수 있습니다. 조직에 속하지 않은 사용자를 Teams에서 게스트로 추가할 수 있습니다. 즉, 비즈니스 계정 (즉, Azure Active Directory 계정) 또는 소비자 전자 메일 계정 (Outlook.com, Gmail.com 등)을 사용 하는 모든 사용자가 팀에서 게스트로 참여할 수 있으며,이에 따라 팀과 채널 환경에 대 한 액세스 권한이 있습니다.
 
-팀 관리자는 [게스트가 팀에 사용할 수 있는 기능을 제어](manage-guests.md)합니다. 팀의 게스트는 Microsoft 365의 나머지와 동일한 준수 및 감사 보호를 통해 다루고 있으며, Azure AD 내에서 관리할 수 있습니다. 게스트 액세스에는 Azure AD 및 Microsoft 365 또는 Office 365 서비스 제한이 적용됩니다.
+팀의 게스트는 Microsoft 365의 나머지와 동일한 준수 및 감사 보호를 통해 다루고 있으며, Azure AD 내에서 관리할 수 있습니다. 게스트 액세스에는 Azure AD 및 Microsoft 365 또는 Office 365 서비스 제한이 적용됩니다.
 
 게스트 환경에는 디자인별로 제약 사항이 있습니다. 게스트가 팀에서 수행할 수 있는 작업에 대 한 전체 목록은 [팀 구성원 및 게스트 기능 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조 하세요.
 
 > [!IMPORTANT]
 > 게스트 사용자는 동시 업그레이드 모드를 위해 Temas 조직 전체 설정을 따릅니다. 변경할 수 없습니다.
+
+게스트 액세스를 설정 하려면 [팀에서 게스트 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 참조 하세요. 
 
 외부 액세스 (페더레이션)와 게스트 액세스를 비교하려면 (어느 것을 사용할 지 결정하려면) [Teams의 다른 조직의 사용자와 커뮤니케이션](communicate-with-users-from-other-organizations.md)을 참조하세요.
 
@@ -78,7 +80,7 @@ Azure AD를 사용 하 여 그룹 구성원 또는 응용 프로그램에 할당
 
 게스트 액세스 검토를 수행 하거나, 게스트에 게 자신의 구성원을 검토 하도록 요청 하거나, 응용 프로그램 소유자나 비즈니스 의사 결정권자에 게 액세스 검토를 수행 하도록 요청 합니다. Azure 포털을 사용 하 여 게스트 액세스 검토를 수행 합니다. 자세한 내용은 [AZURE AD access 리뷰를 사용 하 여 게스트 액세스 관리](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)를 참조 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직 외부의 사용자와 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
