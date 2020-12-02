@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1d19483fe458c38d01a9c46c982101eeab6546c2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
+ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49033005"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49530561"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
-자동 전화 교환을 통해 사용자는 조직에 게 전화를 걸고 메뉴 시스템을 탐색 하 여 올바른 부서, 통화 대기열, 사람 또는 교환원에 게 말할 수 있습니다. Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 조직에 대 한 자동 전화 교환을 만들 수 있습니다. 
+자동 전화 교환을 통해 사용자는 조직에 게 전화를 걸고 메뉴 시스템을 탐색 하 여 올바른 부서, 통화 대기열, 사람 또는 교환원에 게 말할 수 있습니다. Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 조직에 대 한 자동 전화 교환을 만들 수 있습니다.
 
 이 문서의 절차를 따르기 전에 [팀 자동 전화 교환 및 통화 대기열에 대 한 요금제](plan-auto-attendant-call-queue.md) 를 확인 하 고 [시작 단계](plan-auto-attendant-call-queue.md#getting-started) 를 팔 로우 해야 합니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "49033005"
 
 키 매핑은 연속적으로 사용할 필요가 없습니다. 예를 들어 옵션에 매핑된 키가 0, 1, 3 인 메뉴를 만들 수 있지만, 2 개의 키는 사용 되지 않습니다.
 
-1을 구성한 경우 연산자에 0 키를 매핑하는 것이 좋습니다. 연산자가 아무 키로도 설정 되지 않은 경우 음성 명령 "연산자"를 사용할 수 없습니다. 
+1을 구성한 경우 연산자에 0 키를 매핑하는 것이 좋습니다. 연산자가 아무 키로도 설정 되지 않은 경우 음성 명령 "연산자"를 사용할 수 없습니다.
 
 각 메뉴 옵션에 대해 다음을 지정 합니다.
 
@@ -119,7 +119,8 @@ ms.locfileid: "49033005"
 - TelephoneNumber/PhoneNumber
 - 기타 전화
 
-사용자 전화 번호 필드에 확장명을 입력 하는 데 필요한 형식은 *+ \<phone number> ext = \<extension>* 또는 *+ \<phone number> x \<extension>* 입니다.
+사용자 전화 번호 필드에 확장명을 입력 하는 데 필요한 형식은 *+ \<phone number> , ext = \<extension>* 또는 *+ \<phone number> ; x \<extension>* 입니다.
+예: Set-MsolUser-UserPrincipalName usern@domain.com-Phonenumber "+ 15555555678; ext = 5678".
 
 [Microsoft 365 관리 센터](https://admin.microsoft.com/) 또는 [Azure Active Directory 관리 센터](https://aad.portal.azure.com)에서 확장을 설정할 수 있습니다. 자동 전화 교환 및 통화 대기열에서 변경 사항을 사용할 수 있으려면 최대 12 시간까지 걸릴 수 있습니다.
 
@@ -234,8 +235,7 @@ PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 
 - [가져오기-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
 - [새로운 CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [다음은 전화 시스템 기능입니다.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
@@ -243,6 +243,6 @@ PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 
 
 [오디오 회의 및 통화 요금제 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[Small business 예 — 자동 전화 교환 설정](/microsoftteams/tutorial-org-aa) 
+[Small business 예 — 자동 전화 교환 설정](/microsoftteams/tutorial-org-aa)
 
 [Windows PowerShell 및 Lync Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

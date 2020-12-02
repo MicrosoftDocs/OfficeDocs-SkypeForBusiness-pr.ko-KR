@@ -18,7 +18,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 벨리즈
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 보스니아 헤르체고비나
+        - name: 보스니아 & 헤르체고비나
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 브라질
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -58,7 +58,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 프랑스
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 그루지야
+        - name: 그루지아
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 독일
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -164,7 +164,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 우크라이나
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 미국 아랍에미리트 (UAE)
+        - name: 아랍에미리트(UAE)
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 영국
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -254,7 +254,7 @@
           href: /microsoftteams/set-the-caller-id-for-a-user?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 통화 플랜 설정
           href: /microsoftteams/set-up-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 들어오는 통화 차단
+        - name: 들어오는 호출 차단
           href: ../what-is-phone-system-in-office-365/block-inbound-calls.md
         - name: 무료 전화 번호 제한 및 제한 사항
           href: /microsoftteams/toll-free-dialing-limitations-and-restrictions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -267,7 +267,7 @@
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: 벨리즈
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 보스니아 헤르체고비나
+            - name: 보스니아 & 헤르체고비나
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: 브라질
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -371,7 +371,7 @@
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: 터키
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 미국 아랍에미리트 (UAE)
+            - name: 아랍에미리트(UAE)
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: 영국
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -410,16 +410,12 @@
           items:
             - name: 클라우드 자동 전화 교환 설정
               href: /microsoftteams/create-a-phone-system-auto-attendant?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 소규모 기업 예제 - 자동 전화 교환 설정
-              href: /microsoftteams/tutorial-org-aa?toc=/SkypeForBusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 소규모 기업 예제 - 전화 큐 설정
-              href: ../what-is-phone-system-in-office-365/tutorial-cq.yml?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 클라우드 통화 큐 만들기
           href: /microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
     - name: Skype 모임 브로드캐스트의 네트워크 설정
       href: ../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md
       items:
-        - name: Skype 모임 브로드캐스트 란?
+        - name: Skype 모임 브로드캐스트란?
           href: 'https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d'
         - name: Skype 모임 브로드캐스트의 차단된 사용자 라이선스
           href: ../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md
@@ -434,7 +430,7 @@
           items:
             - name: Microsoft 365 Business Standard
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md
-            - name: 'Microsoft 365 비즈니스 표준, 엔터프라이즈 용 Microsoft 365 앱 또는 비즈니스용 Skype Online 계획 2'
+            - name: 'Microsoft 365 Business Standard, Microsoft Office 365 ProPlus 또는 비즈니스용 Skype Online 요금제 2'
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md
             - name: 'Office 365 Enterprise E1, E3 및 E4'
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md
@@ -446,7 +442,7 @@
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md
             - name: 비즈니스용 Skype Online 플랜 1 단종
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
-        - name: 자금 추가 및 커뮤니케이션 크레딧 관리
+        - name: 자금 추가 및 통신 크레딧 관리
           href: /microsoftteams/add-funds-and-manage-communications-credits?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 비즈니스용 Skype 라이선스 할당
           href: ../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md
@@ -458,7 +454,7 @@
           href: /microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 통신 크레딧이란?
           href: /microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-    - name: 비즈니스용 Skype 온라인 설정
+    - name: 비즈니스용 Skype Online 설정
       href: ../set-up-skype-for-business-online/set-up-skype-for-business-online.md
       items:
         - name: Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리
@@ -471,7 +467,7 @@
           href: ../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md
         - name: 개별 사용자에 대해 비즈니스용 Skype 설정 구성
           href: ../set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md
-        - name: 모임 초대장의 사용자 지정
+        - name: 모임 초대의 사용자 지정
           href: ../set-up-skype-for-business-online/customize-meeting-invitations.md
         - name: 비즈니스용 Skype 클라이언트 배포
           href: ../set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md
@@ -505,7 +501,7 @@
           href: ../set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md
     - name: 조직에 대한 정책 설정
       items:
-        - name: 조직에서 정책을 설정 합니다. 개요
+        - name: '조직에서 정책 설정: 개요'
           href: ../set-up-policies-in-your-organization/set-up-policies-in-your-organization.md
         - name: 점 대 점 파일 전송 차단
           href: ../set-up-policies-in-your-organization/block-point-to-point-file-transfers.md
@@ -539,7 +535,7 @@
           href: /microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 통화 품질 대시보드 켜기 및 사용
           href: /microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 통화 분석을 사용하여 통화 품질 저하 문제 해결
+        - name: 통화 분석을 사용 하 여 통화 품질이 낮은 문제 해결
           href: /microsoftteams/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 통화 품질 대시보드의 분류 간소화
           href: /microsoftteams/stream-classification-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -575,7 +571,7 @@
           href: ../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md
         - name: Exchange 통합 메시징 및 호스트형 음성 사서함 관리
           href: ../set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md
-        - name: 사용자 계정 관리
+        - name: "\t사용자 계정 관리"
           href: ../set-up-your-computer-for-windows-powershell/manage-user-accounts.md
         - name: 비즈니스용 Skype Online 커넥터를 사용하여 조직 관리
           href: ../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md
