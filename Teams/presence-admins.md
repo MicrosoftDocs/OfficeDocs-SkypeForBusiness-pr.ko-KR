@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385645"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557952"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
@@ -78,6 +78,9 @@ ms.locfileid: "49385645"
 | 방해 금지|1 일|
 | 타인|7 일|
 |||
+
+> [!NOTE]
+> 또한 사용자는 수동으로 현재 상태에 대 한 기간을 구성할 수 있습니다. 예를 들어 사용자는 내일 아침까지 오프 라인으로 표시 되도록 설정할 수 있습니다.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Teams의 관리자 설정을 비즈니스용 Skype와 비교
 

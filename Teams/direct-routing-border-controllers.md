@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증 된 SBCs (세션 경계 컨트롤러)에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c092df13f2bde66286f9971ff9969e10cc198271
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 1637d71269cdacc4e48de98f210a4c6ce4c56c13
+ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130449"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561044"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -38,7 +38,7 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 
 
   > [!NOTE]
-  > Microsoft는 인증 된 장치 또는 장치가 직접 라우팅을 통해 연결 되어 있는 경우에만 전화 시스템을 지원 합니다. Microsoft는 인증 되지 않은 장치가 직접 라우팅을 통해 전화 시스템에 연결 된 지원 사례를 거부할 권한을 갖습니다. 
+  > Microsoft는 인증 된 장치 또는 장치가 직접 라우팅을 통해 연결 되어 있는 경우에만 전화 시스템을 지원 합니다. Microsoft는 인증 되지 않은 장치가 직접 라우팅을 통해 전화 시스템에 연결 된 지원 사례를 거부할 권한을 갖습니다. Microsoft에서 고객의 직접 라우팅 문제가 공급 업체의 SBC 장치에 해당 하는 것으로 판단 되는 경우 고객이 지원 하기 위해 SBC 공급 업체에 참여 해야 합니다.
 
 아래 표에는 직접 라우팅에 대해 인증 된 장치가 나와 있습니다. (지역 미디어 최적화를 지 원하는 SBC 공급 업체에 대 한 자세한 내용은 [직접 라우팅에 대 한 로컬 미디어 최적화 구성을](direct-routing-media-optimization-configure.md)참조 하세요.)
 
