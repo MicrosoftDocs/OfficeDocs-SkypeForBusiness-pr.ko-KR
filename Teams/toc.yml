@@ -80,7 +80,7 @@
       href: migrate-slack-to-teams.md
     - name: Teams 서식 파일 작업
       items:
-        - name: 관리 센터에서 팀 서식 파일 사용
+        - name: 관리 센터에서 Teams 템플릿 사용
           href: get-started-with-teams-templates-in-the-admin-console.md
         - name: 중소기업을 위한 기본 제공 Teams 서식 파일 그래프
           href: smb-templates.md
@@ -348,7 +348,7 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Teams에서 화이트보드 관리
       href: manage-whiteboard.md
-    - name: Google Workspace에 대 한 팀 모임 추가 기능 설정
+    - name: Google Workspace용 Teams 모임 추가 기능 설정
       href: add-gsuite-thru-aad.md
     - name: 오디오 회의
       items:
@@ -436,7 +436,7 @@
               href: audio-conferencing-supported-languages.md
             - name: 오디오 회의의 전화 번호
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: 오디오 회의를 위한 국가 및 지역 영역
+            - name: 오디오 회의의 국가 및 지역 영역
               href: audio-conferencing-zones.md
             - name: 비디오 - Teams의 오디오 회의
               href: audio-conferencing-videos.md
@@ -1053,7 +1053,7 @@
           href: business-voice/prepare-users.md
     - name: 시작 마법사의 실행
       href: business-voice/use-getting-started-wizard.md
-    - name: 시도할 작업
+    - name: 시도할 것
       href: business-voice/things-to-try.md
     - name: 설정 사용자 지정하기
       items:
@@ -1067,11 +1067,11 @@
           href: business-voice/policy-packages.md
         - name: 추가 사용자 만들기
           href: business-voice/create-users.md
-        - name: 예-통화 큐 설정
+        - name: 예 - 통화 큐 설정
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 통화 큐 설정
           href: business-voice/set-up-call-queues.md
-        - name: 예-자동 전화 교환 설정
+        - name: 예 - 자동 회의 설정
           href: tutorial-org-aa.yml
         - name: 자동 전화 교환 설정
           href: business-voice/set-up-auto-attendants.md
@@ -1102,13 +1102,13 @@
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 의료용 Teams
       items:
-        - name: 의료 기관에 대 한 팀 시작
+        - name: 의료 조직을 위한 Teams 시작
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: 가상 방문
           items:
-            - name: 팀에 대 한 가상 방문-EHR에 통합
+            - name: Teams를 통해 가상 방문 - EHR에 통합
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: 예약 및 팀을 사용한 가상 방문
+            - name: Bookings 및 Teams를 통해 가상 방문
               href: bookings-app-admin.md
         - name: 정책 패키지 보기 및 할당
           href: policy-packages-healthcare.md
@@ -1118,11 +1118,11 @@
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: 메시지 위임
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: 팀 템플릿
+        - name: Teams 서식 파일
           items:
-            - name: 팀 의료 템플릿 사용
+            - name: Teams 의료 템플릿 사용
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 의료 팀 템플릿
+            - name: 의료용 Teams 템플릿
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
         - name: 목록 앱 관리
           href: manage-lists-app.md
@@ -1132,7 +1132,7 @@
           items:
             - name: Teams의 교대 근무
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: 교대 근무 앱 관리
+            - name: Shifts 앱 관리
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 교육용 Teams
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1169,7 +1169,7 @@
           href: firstline-workers-quickstart.yml
         - name: 일선 직원 스크립팅된 배포
           href: flw-scripted-deployment.md
-        - name: FirstLine 작업자에 대 한 이동 기반 액세스 관리
+        - name: FirstLine 작업자에 대한 교대 근무 기반 액세스 관리
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: Microsoft Teams용 RealWear
           href: flw-realwear.md
@@ -1180,7 +1180,7 @@
     - name: 소매용 Teams
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: 관리 센터에서 일반 정품 팀 서식 파일 시작 하기
+        - name: 관리 센터에서 소매 Teams 템플릿 시작
           href: retail-teams-templates-in-the-admin-console.md
         - name: 소매 Teams 서식 파일 시작
           href: get-started-with-retail-teams-templates.md
@@ -1215,7 +1215,7 @@
           href: teams-sentinel-guide.md
         - name: ID 모델 및 인증
           href: identify-models-authentication.md
-        - name: Microsoft 팀에 로그인
+        - name: Microsoft Teams에 로그인
           href: sign-in-teams.md
         - name: Teams의 안전한 링크
           href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
@@ -1231,22 +1231,18 @@
           href: retention-policies.md
         - name: 커뮤니케이션 규정 준수
           href: communication-compliance.md
-        - name: Callings & 모임에 대 한 정책 기반 녹음
+        - name: 통화 및 모임에 대한 정책 기반 & 기록
           href: teams-recording-policy.md
         - name: 데이터 손실 방지
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: eDiscovery
-          items:
-            - name: 콘텐츠에 대한 eDiscovery 조사 수행
-              href: ediscovery-investigation.md
-            - name: Teams 사용자 또는 팀을 법률 보존 상태로 배치
-              href: legal-hold.md
+          href: ediscovery-investigation.md
+        - name: 법적 보유
+          href: legal-hold.md
         - name: 콘텐츠 검색
-          items:
-            - name: 콘텐츠 검색 사용
-              href: content-search.md
-            - name: 감사 로그에서 이벤트 검색
-              href: audit-log-events.md
+          href: content-search.md
+        - name: 감사
+          href: audit-log-events.md
     - name: 개인 정보
       items:
         - name: 개인 정보 보호 및 Microsoft Teams
@@ -1434,11 +1430,11 @@
           href: devices/manage-device-tags.md
         - name: Teams용 전화
           href: devices/phones-for-teams.md
-        - name: 팀 표시
+        - name: Teams 표시
           href: devices/teams-displays.md
-        - name: 팀 전화를 팀으로 업그레이드 표시
+        - name: Teams 휴대폰을 Teams 표시로 업그레이드
           href: devices/upgrade-phones-to-displays.md
-        - name: Intune을 사용 하 여 팀 전화 및 팀을 배포 합니다.
+        - name: Intune을 사용하여 Teams 휴대폰 및 Teams 표시 배포
           href: devices/phones-displays-deploy.md
         - name: USB 오디오 및 비디오 디바이스
           href: devices/usb-devices.md
@@ -1460,7 +1456,7 @@
           href: teams-powershell-managing-teams.md
         - name: Teams PowerShell 릴리스 노트
           href: teams-powershell-release-notes.md
-        - name: 비즈니스용 Skype Online 커넥터에서 팀 PowerShell 모듈로 이동
+        - name: 비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 이동
           href: teams-powershell-move-from-sfbo.md
         - name: Teams용 Cmdlet 참조
           href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
@@ -1678,7 +1674,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
         - name: 태국
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: 트리니다드 & 토바고
+        - name: 트리나드 & 토바고
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
         - name: 튀니지
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
@@ -1720,5 +1716,5 @@
       href: export-teams-content.md
     - name: Teams 관리자 기능 릴리즈 노트
       href: release-notes/release-notes.md
-    - name: Microsoft 팀의 공개 미리 보기
+    - name: Microsoft Teams의 공개 미리 보기
       href: public-preview-doc-updates.md
