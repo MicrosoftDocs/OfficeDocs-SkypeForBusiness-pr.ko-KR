@@ -1,13 +1,13 @@
 ---
-title: Microsoft 팀 업그레이드 | 환경 평가, 검색 질문
-author: lanachin
-ms.author: v-lanac
+title: Teams로 업그레이드하기 전에 환경 평가
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 이 지침을 사용 하 여 팀으로 업그레이드 하기 위한 현재 환경을 적절 하 게 평가 하는 요구 사항에 대해 알아보세요.
+description: Teams로 업그레이드하기 위한 현재 환경을 제대로 평가하기 위한 요구 사항에 대해 자세히 배워야 합니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,55 +18,55 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 799d348f05c8fece6684d01768934faedcb7603f
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: c783934128e2c1d3f971948c41e3481839ff0aa1
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158746"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578241"
 ---
-# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>팀으로 업그레이드 하기 전에 환경 평가
+# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Teams로 업그레이드하기 전에 환경 평가
 
-![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
+![기술 준비 단계 강조를 표시하는 업그레이드 여정 다이어그램](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 강조를 두는 업그레이드 단계")
 
-이 문서는 사용자 준비 단계와 병행 하 여 완료 한 활동 인 업그레이드 여행에 대 한 기술 준비 단계의 일부입니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
+이 문서는 사용자 준비 단계와 병렬로 완료하는 작업인 업그레이드 여정의 기술 준비 단계의 일부입니다. 계속하기 전에 이전 단계에서 이러한 활동을 완료해야 합니다.
 
-- [프로젝트 이해 관계자 참여](upgrade-enlist-stakeholders.md)
+- [프로젝트 관련자에 참여](upgrade-enlist-stakeholders.md)
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
-- [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
-- [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [비즈니스용 Skype 및 Teams의 공존 및 상호 연동성 이해](https://aka.ms/SkypeToTeams-Coexist)
+- [업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-이 문서에서는 운영 팀의 현재 환경을 적절 하 게 평가 하기 위한 요구 사항을 간략하게 설명 합니다. 환경을 평가 하 여 전체 배포에 영향을 주는 위험 및 요구 사항을 식별 합니다. 이러한 항목을 미리 확인 하 여 성공에 대 한 계획을 조정할 수 있습니다.
+이 문서에서는 Teams 운영을 위해 현재 환경을 제대로 평가하기 위한 요구 사항에 대해 간략하게 소개합니다. 환경을 평가하여 전체 배포에 영향을 주는 위험 및 요구 사항을 식별합니다. 이러한 항목을 먼저 식별하여 계획을 조정하여 성공을 주도할 수 있습니다.
 
-## <a name="introduction-to-the-discovery-questionnaire"></a>검색 질문에 대 한 소개
+## <a name="introduction-to-the-discovery-questionnaire"></a>검색 설문지 소개
 
-목표 키 결과 (OKRs)를 달성 하기 위해 이전에는 키 서비스 결정을 했습니다. 다음 단계는 환경 검색을 수행 하 여 IT 인프라, 네트워킹 및 작업 관련 모든 측면을 평가 하 여 조직이 솔루션을 구현할 준비가 되었는지 확인 하는 것입니다. 검색은 팀에 대 한 여행 계획을 수립할 때 가장 먼저 수행 하는 주요 단계 중 하나입니다. 환경 검색에는 네트워크가 팀으로 업그레이드를 지원할 수 있도록 네트워크 준비 평가가 포함 되어야 합니다. 자신의 환경에 대 한 상세한 검색을 수행 하 여 현재 상태를 파악 하 고, 문제가 있거나 팀의 출시에 대 한 가능한 차단 가능성을 더욱 중요 하 게 합니다.
+목표 주요 결과(OKRS)를 달성하기 위해 이전에 주요 서비스 결정을 내렸다. 다음 단계는 환경 검색을 수행하여 IT 인프라, 네트워킹 및 운영과 관련된 모든 측면을 평가하여 조직이 솔루션을 구현할 준비가 됐는지 확인하는 것입니다. 검색은 Teams로의 여정을 계획할 때 취하는 첫 번째 주요 단계 중 하나입니다. 환경 검색에는 네트워크가 Teams로 업그레이드를 지원할 수 있도록 네트워크 준비 평가가 포함되어야 합니다. 환경의 세부 검색을 수행하여 현재 상태를 더 잘 이해하고, Teams 롤아웃 실행을 차단할 수 있는 모든 어려움 또는 더 중요한 것을 알 수 있습니다.
 
-환경 평가 및 채택 준비 평가의 일부로 기술 위험을 식별 하 고 식별 된 각 위험에 대 한 완화 계획을 개발 합니다. 이 정보는 위험 등록기에 통합 해야 합니다.
+환경 평가 및 채택 준비 평가의 일부로 기술 위험을 식별하고 식별된 각 위험에 대한 완화 계획을 개발합니다. 이 정보를 위험 레지스터에 통합해야 합니다.
 
-기존 공동 작업 인프라와 Microsoft 365 또는 Office 365 조 직, 네트워킹, 끝점, 운영, 채택 및 준비와 관련 된 모든 문제가 환경 검색 질문의 일부로 포함 됩니다. 프로젝트 팀과 협력 하 여 필요한 정보를 최대한 자세하게 제공 하 여 계획 활동을 촉진 하세요.
+기존 공동 작업 인프라 및 Microsoft 365 또는 Office 365 조직, 네트워킹, 엔드포인트, 운영 및 채택 및 준비와 관련된 모든 문제는 환경 검색 설문지의 일부로 포함됩니다. 프로젝트 팀과 의하면 요청된 정보를 최대한 세부 정보로 제공하여 계획 활동을 용이하게 할 수 있습니다.
 
-이 [질문](upgrade-plan-journey-discovery-questionnaire.md) 서에는 다음 섹션으로 나뉘어 조직에서 팀의 여러 주요 영역에 대 한 준비가 되었는지 확인 합니다.
+[설문지가](upgrade-plan-journey-discovery-questionnaire.md) 다음 섹션으로 나뉘어 여러 주요 영역에서 Teams 배포에 대한 조직의 준비를 확인할 수 있습니다.
 
 - Microsoft 365 또는 Office 365 조직 세부 정보
 - 기존 공동 작업 플랫폼 요약
 - 공동 작업 플랫폼 배포 세부 정보
-- 네트워킹 및 Microsoft 365 또는 Office 365 서비스에 대 한 액세스
-- 끝점
+- Microsoft 365 또는 Office 365 서비스에 대한 네트워킹 및 액세스
+- 엔드포인트
 - 운영
 - 채택 및 준비
 
 > [!TIP]
-> Microsoft Word 문서로 질문을 복사 하 여 시작할 수 있습니다. 모든 질문에 답을 하 고 이동할 때 모든 세부 정보를 수집 해 보세요.
+> 먼저 Microsoft Word 문서에 설문지 복사를 할 수 있습니다. 모든 질문에 답변하고 이동할 때 모든 세부 정보를 캡처해 하세요.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>판단 요점</td><td><ul><li>환경 평가를 완료 해야 하는 사람은 누구 인가요?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>다음 단계</td><td><ul><li>환경 평가의 결과를 문서화 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>의사 결정 지점</td><td><ul><li>환경 평가를 완료할 책임이 있는 사람이 누구인가요?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>다음 단계</td><td><ul><li>환경 평가 결과를 문서화합니다.</li></ul></td></tr>
 </table>
 
 
 ## <a name="project-team"></a>프로젝트 팀
 
-프로젝트 팀에 게 적합 한 사람을 참여 했는지 확인 합니다. [프로젝트 이해 관계자 참여](upgrade-enlist-stakeholders.md)에서 완료 한 단계를 확인 합니다.
+프로젝트 팀에 적합한 인원이 참여하도록 합니다. 프로젝트 관련자에 대한 참여에서 [완료한 단계를 확인 합니다.](upgrade-enlist-stakeholders.md)
 
-환경을 평가한 후에는 다음 단계를 진행 하세요 ( [서비스 준비](upgrade-prepare-environment-prepare-service.md)).
+환경을 평가한 후 다음 단계인 서비스 [준비를 진행합니다.](upgrade-prepare-environment-prepare-service.md)

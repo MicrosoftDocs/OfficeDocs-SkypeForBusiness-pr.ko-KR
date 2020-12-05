@@ -1,13 +1,13 @@
 ---
-title: 비즈니스용 Skype를 Microsoft 팀으로 업그레이드 | 채택 프레임 워크
-author: lanachin
-ms.author: v-lanac
+title: 비즈니스용 Skype에서 Microsoft Teams로 업그레이드 계획
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 관련자를 먼저 참여 한 다음 프로젝트의 범위를 지정 하 여 업그레이드를 계획 하는 방법을 알아보세요.
+description: 이해 관계자를 모집한 다음 프로젝트를 확인하여 업그레이드를 계획하는 방법에 대해 자세히 배워야 합니다.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,28 +20,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 76bf5c09a90bc426db2eaa85918fd7e711f5b13d
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868455"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578441"
 ---
 # <a name="plan-for-your-upgrade"></a>업그레이드 계획
 
-![팀 업그레이드 여행 다이어그램](media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀의 성공을 위해 설정 되어 있는지 확인 합니다. 프로젝트 범위, 목표 및 시간 표시 막대를 정의 합니다. 기술 및 사용자 준비 모두를 확인 합니다. 롤아웃 계획을 실행 합니다. 통해 계속 앞서 유지 하 여 결과를 최대화 합니다.")
+![Teams 업그레이드 여정 다이어그램](media/upgrade-banner-main.png "올바른 프로젝트 팀과의 성공을 위해 프로젝트를 설정해야 합니다. 프로젝트 범위, 목표 및 타임라인을 정의합니다. 기술 및 사용자 준비를 모두 확인 합니다. 롤아웃 계획을 실행합니다. 모멘텀을 유지하여 결과를 최대화합니다.")
 
-정상 기술 환경, 지속적인 사용자 채택, 비즈니스 목표의 실현은 모두 적절 한 계획으로 시작 됩니다. 견고한 계획은 업그레이드 프로젝트에 대 한 프레임 워크를 제공 하 고 모든 관계자가 동일한 목표로 작업 하는지 확인 합니다. 성공 여부를 올바르게 정의 하는 데 시간을 두어 배포 진행 과정에 따라 결과를 측정 하 고 원하는 결과를 얻을 수 있는지 확인 하세요. 여행 계획에는 다음이 포함 됩니다.
+건전한 기술 환경, 지속적인 사용자 채택 및 비즈니스 목표의 달성은 모두 적절한 계획에서 시작됩니다. 견고한 계획은 업그레이드 프로젝트에 대한 프레임워크를 제공하며 모든 이해 관계자가 동일한 목표를 위해 작업하도록 보장합니다. 성공을 올바르게 정의하는 데 시간을 내어 배포를 진행할 때 결과를 측정하고 원하는 결과를 달성하고 있는지 확인할 수 있습니다. 여정 계획에는 다음이 포함됩니다.
 
-- [프로젝트 관련자 참여](upgrade-enlist-stakeholders.md)
-- [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
-- [비즈니스용 Skype 및 팀의 공존 및 상호 운용성 이해](https://aka.ms/SkypeToTeams-Coexist)
-- [비즈니스 요구 사항에 따라 업그레이드의 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [프로젝트 이해 관계자에 참여](upgrade-enlist-stakeholders.md)
+- [프로젝트의 범위 정의](https://aka.ms/SkypetoTeams-Scope)
+- [비즈니스용 Skype 및 Teams의 공존성 및 상호 연동성 이해](https://aka.ms/SkypeToTeams-Coexist)
+- [비즈니스 요구에 따라 업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [사용자 파일럿 계획](pilot-essentials.md)
 
-여행 계획을 준비한 후에는 [업그레이드를 구현](upgrade-to-teams.md)하기 전에 [환경 준비](upgrade-prepare-environment.md) 및 [조직 준비](upgrade-prepare-organization.md) 에 대 한 항목을 읽어 보세요.  
+여정을 계획한 후 업그레이드를 구현하기 [preparing your environment](upgrade-prepare-environment.md) 전에 환경을 준비하고 조직을 준비하는 데 관한 항목을 [읽습니다.](upgrade-to-teams.md) [preparing your organization](upgrade-prepare-organization.md)  
 
 > [!TIP]
-> 업그레이드 계획 및 구현을 시작 하기 위해 디자인 된 지침, 모범 사례 및 리소스를 공유 하는 실시간 대화형 워크샵에 참여해 주시기 바랍니다.
+> 업그레이드 계획 및 구현을 시작하도록 설계된 지침, 모범 사례 및 리소스를 공유하는 라이브 대화형 워크샵에 참여하세요.
 >
-> 먼저 [업그레이드 세션 계획](https://aka.ms/SkypeToTeamsPlanning) 에 참가 하 여 시작 하세요.
+> 먼저 [업그레이드 세션 계획에](https://aka.ms/SkypeToTeamsPlanning) 참가하여 시작할 수 있습니다.

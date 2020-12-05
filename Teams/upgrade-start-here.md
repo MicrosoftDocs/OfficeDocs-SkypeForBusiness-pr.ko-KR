@@ -1,13 +1,13 @@
 ---
-title: 비즈니스용 Skype를 팀으로 업그레이드-Microsoft 팀
-author: lanachin
-ms.author: v-lanac
+title: 비즈니스용 Skype를 Teams로 업그레이드 시작
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 이 문서는 비즈니스용 Skype에서 Microsoft 팀으로 업그레이드를 시작 하는 데 도움이 될 것입니다.
+description: 이 문서는 비즈니스용 Skype에서 Microsoft Teams로 업그레이드하는 데 도움이 됩니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom:
@@ -30,14 +30,14 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 384897b7496a1617b2b6617aece31b677535dc81
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: ed91a5bc6df8836e19f602facccce704cad65876
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878502"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578181"
 ---
-# <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>비즈니스용 Skype에서 Microsoft 팀으로 업그레이드를 시작 하세요.
+# <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>비즈니스용 Skype에서 Microsoft Teams로 업그레이드 시작
 
 비즈니스용 Skype에서 Microsoft Teams로 보류 중인 업그레이드를 축하드립니다. Teams를 이제 시작했거나, 비즈니스용 Skype와 함께 이미 Teams를 사용하고 있거나, 혹은 업그레이드할 준비가 되었는지에 관계없이 당사는 귀하가 Teams로의 성공적인 여정을 탐색하는 데 필요한 모든 사항을 갖추고 있는지 확인하고자 합니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "48878502"
 
 Microsoft Teams는 채팅, 모임, 통화, 공동 작업, 앱 통합 및 파일 저장소를 단일 인터페이스에 모아 비즈니스용 Skype의 기능을 확장합니다. 팀워크에 대한 이 새로운 중앙 허브는 사용자가 작업을 수행하는 방법을 단순화하고 사용자 만족도를 개선하고 비즈니스 결과를 높이는 데 도움이 됩니다. Microsoft는 Teams의 기능을 지속적으로 확장하여 사용자가 새 방식으로 통신 및 협업하고, 조직 및 지리적 장애를 무너뜨리고, 프로세스 및 의사 결정의 효율성을 높일 수 있도록 합니다. Forrester 보고서:[ Microsoft Teams의 총체적인 경제적 영향](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf)에서 Teams로 업그레이드하는 이점에 대해 자세히 알아보세요.  
 
-## <a name="when-should-my-organization-migrate-to-teams"></a>조직에서 팀으로 마이그레이션해야 하는 경우
+## <a name="when-should-my-organization-migrate-to-teams"></a>조직이 Teams로 언제 마이그레이션해야 하나요?
 
 비즈니스용 Skype Online은 2021년 7월 31일에 서비스가 종료되며 이후에는 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 비즈니스용 Skype Online 서비스는 2021년 7월 31일까지 완전한 기능을 제공하지만, Microsoft는 고객이 지금 업그레이드를 시작하여 종료 기간 전에 업그레이드를 완료할 충분한 시간을 갖도록 권장합니다.  [단종 공고](https://aka.ms/sfboannounce)를 읽어 자세히 알아보세요.
 
@@ -55,15 +55,15 @@ Microsoft Teams는 채팅, 모임, 통화, 공동 작업, 앱 통합 및 파일 
 
 예. Microsoft는 비즈니스용 Skype 온라인과 Teams를 함께 실행하기 위한 몇 가지 옵션을 제공합니다. 이러한 공존 모드를 통해 사용자는 지금의 Teams에 익숙해지는 동시에 Teams 전용으로의 업그레이드를 가속화할 수 있습니다. 자세한 내용은 [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist)을(를) 참조하세요.
 
-## <a name="is-phone-system-available-for-teams-users"></a>팀 사용자는 전화 시스템을 사용할 수 있나요?
+## <a name="is-phone-system-available-for-teams-users"></a>Teams 사용자가 전화 시스템을 사용할 수 있나요?
 
-예. 전화 시스템은 팀의 유일한 모드로 이동한 후 모든 팀원에 게 제공 됩니다.  또한, Microsoft는 사용자가 전세계 어디에서 든 전화를 걸 수 있도록 PSTN (공개 통신 네트워크)에 연결 하는 옵션을 제공 합니다. 자세한 내용은 [음성 전화 시스템 및 PSTN 연결](cloud-voice-landing-page.md)을 참조 하세요.
+예. 전화 시스템은 TeamsOnly 모드로 이동한 후 모든 Teams 사용자가 사용할 수 있습니다.  또한 Microsoft는 사용자가 전 세계 어디에서나 전화를 걸 수 있도록 PSTN(Public Switched Telephone Network)에 연결하는 옵션을 제공합니다. 자세한 내용은 음성 - 전화 시스템 및 [PSTN 연결을 참조하세요.](cloud-voice-landing-page.md)
 
-## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>온-프레미스 전화 통신 인프라를 계속 사용할 수 있나요?
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>계속해서 이 인프라를 사용할 수 있나요?
 
-예. 전화 시스템 다이렉트 라우팅을 사용 하 여 거의 모든 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다. 직접 라우팅이 있으면 자체의 SBC (세션 경계 컨트롤러)을 전화 시스템에 직접 연결 합니다. 자세한 내용은 [전화 시스템 직접 라우팅을](direct-routing-landing-page.md)참조 하세요.
+예. 전화 시스템 직접 라우팅을 사용하면 거의 모든 전화 통신 사업자에 전화 시스템을 사용할 수 있습니다. 직접 라우팅을 사용하면 휴대폰 시스템에 직접 SBC(세션 테두리 컨트롤러)를 연결합니다. 자세한 내용은 전화 시스템 직접 [라우팅을 참조하세요.](direct-routing-landing-page.md)
  
-## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Microsoft는 고객에 게 팀으로 마이그레이션을 돕는 방법 
+## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Microsoft는 고객이 Teams로 마이그레이션할 수 있도록 어떻게 지원하나요? 
 
 Microsoft는 비즈니스용 Skype에서 Teams로의 전환이 성공하는 데 도움이 되도록 노력하고 있습니다. Microsoft는 Teams로 업그레이드를 계획하고 실행하는 데 도움을 주기 위해 설계된 검증된 엔드투엔드 업그레이드 성공 프레임워크를 기반으로 강력한 지침을 제공합니다. 당사의 지침은 계획을 막 시작했는지, 비즈니스용 Skype와 함께 Teams를 이미 실행하고 있는지, Teams로의 업그레이드 준비가 되었는지에 관계없이 업그레이드 과정의 모든 단계에 맞게 설계되었습니다.
 
