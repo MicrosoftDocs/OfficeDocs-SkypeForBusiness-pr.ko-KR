@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype에서 Teams로 업그레이드 FAQ
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 77233c2678b8349d416a28e7a62525897f9d3f9f
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766591"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578371"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 
@@ -68,7 +68,7 @@ Microsoft는 또한 업그레이드 계획 및 구현을 시작하기 위해 설
 
 **사용자가 업그레이드된 후에는 어떻게 되나요?**<br>
 
-사용자를 Teams로 업그레이드한 후( **Teams 전용** 모드):
+사용자를 Teams로 업그레이드한 후(**Teams 전용** 모드):
 
 - 사용자의 모든 채팅 및 통화가 Teams로 이동하여 비즈니스용 Skype 클라이언트를 사용할 수 없게 됩니다. 이 클라이언트는 이전에 예약된 비즈니스용 Skype 모임에 계속 사용됩니다. 이 데스크톱 클라이언트를 제거하면 사용자는 비즈니스용 Skype 웹 앱을 통해 이전에 예약된 비즈니스용 Skype 모임에 액세스하도록 리디렉션됩니다.
 
