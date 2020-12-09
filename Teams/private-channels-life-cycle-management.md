@@ -1,7 +1,7 @@
 ---
-title: Microsoft 팀의 개인 채널 수명 주기 관리
-author: lanachin
-ms.author: v-lanac
+title: Microsoft Teams에서 개인 채널의 수명 주기 관리
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: suchakr, phlouie
 ms.topic: article
@@ -17,26 +17,26 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+description: 조직에서 개인 채널의 수명 주기를 관리하는 방법을 배워야 합니다.
+ms.openlocfilehash: 336d97071c30bca145d26f4c853d5bb30265721f
+ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012294"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49601663"
 ---
-# <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
+# <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams에서 개인 채널의 수명 주기 관리
 
-여기에서 조직의 [개인 채널](private-channels.md) 수명 주기를 관리 하는 데 필요한 지침을 확인할 수 있습니다.
+조직에서 개인 채널의 수명 주기를 관리하는 데 필요한 [지침을](private-channels.md) 찾을 수 있습니다.
 
 > [!IMPORTANT]
-> 이 문서의 PowerShell 단계를 사용 하 여 개인 채널을 관리 하는 경우에는 [Powershell 갤러리](https://www.powershellgallery.com/packages/MicrosoftTeams/)에서 팀 powershell 공용 preview 모듈을 설치 하 고 사용 해야 합니다. 모듈을 설치 하는 방법에 대 한 단계는 [Microsoft 팀 PowerShell 설치](teams-powershell-install.md)를 참조 하세요. 최신 일반 가용성 팀 PowerShell 모듈은 개인 채널 관리를 지원 하지 않습니다.
+> 이 문서의 PowerShell 단계를 사용하여 개인 채널을 관리하는 경우 PowerShell 갤러리에서 Teams PowerShell 공개 미리 보기 모듈을 설치하고 [사용해야 합니다.](https://www.powershellgallery.com/packages/MicrosoftTeams/) 모듈을 설치하는 방법에 대한 단계는 [Microsoft Teams PowerShell 설치를 참조하세요.](teams-powershell-install.md) 최신 일반 공급 Teams PowerShell 모듈은 개인 채널 관리를 지원하지 않습니다.
 
-## <a name="set-whether-team-members-can-create-private-channels"></a>팀 구성원이 개인 채널을 만들 수 있는지 여부 설정
+## <a name="set-whether-team-members-can-create-private-channels"></a>팀 구성원이 비공개 채널을 만들 수 있는지 여부 설정
 
-팀 소유자는 멤버가 팀 설정에서 비공개 채널을 만들 수 있도록 설정 하거나 해제할 수 있습니다. 이렇게 하려면 팀의 **설정** 탭에서 **구성원에 게 개인 채널을 만들도록 허용**을 설정 하거나 해제 합니다.
+팀 소유자는 구성원이 팀 설정에서 비공개 채널을 만들 수 있는 기능을 끄거나 끄면 됩니다. 이렇게하려면 팀의 **Settings** 설정 탭에서 구성원이 비공개 채널을 만들 수 있도록 허용을 **끄거나 니다.**
 
-관리자는 Graph API를 사용 하 여 구성원이 특정 팀에서 개인 채널을 만들 수 있는지 여부를 제어할 수 있습니다. 예제는 다음과 같습니다.
+관리자는 Graph API를 사용하여 구성원이 특정 팀에서 비공개 채널을 만들 수 있는지 여부를 제어할 수 있습니다. 예제는 다음과 같습니다.
 
 ```Graph API
 PATCH /teams/<team_id>
@@ -49,21 +49,21 @@ PATCH /teams/<team_id>
 
 ## <a name="set-whether-users-in-your-organization-can-create-private-channels"></a>조직의 사용자가 개인 채널을 만들 수 있는지 여부 설정
 
-관리자는 Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 조직에서 개인 채널을 만들 수 있는 사용자를 제어 하는 정책을 설정할 수 있습니다.
+관리자는 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 개인 채널을 만들 수 있는 조직의 사용자를 제어할 수 있습니다.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-팀 정책을 사용 하 여 조직에서 개인 채널을 만들 수 있는 사용자를 설정 합니다. 자세히 알아보려면 [팀에서 팀 정책 관리](teams-policies.md)를 참조 하세요.
+팀 정책을 사용하여 개인 채널을 만들 수 있는 조직의 사용자를 설정할 수 있습니다. 자세한 내용은 [Teams에서 팀 정책 관리를 참조합니다.](teams-policies.md)
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-**CsTeamsChannelsPolicy** 를 사용 하 여 조직에서 개인 채널을 만들 수 있는 사용자를 설정 합니다. **AllowPrivateChannelCreation** 매개 변수를 **true** 로 설정 하 여 정책을 할당 한 사용자가 개인 채널을 만들 수 있도록 합니다. 매개 변수를 **false** 로 설정 하면 정책이 할당 된 사용자에 대해 개인 채널을 만드는 기능이 꺼집니다.
+**CsTeamsChannelsPolicy를** 사용하여 개인 채널을 만들 수 있는 조직의 사용자를 설정할 수 있습니다. 정책이 할당된 사용자가 개인 채널을 만들 수 있도록 **AllowPrivateChannelCreation** 매개 변수를 **true로** 설정하세요. 매개 변수를 **false로** 설정하면 정책이 할당된 사용자에 대한 개인 채널을 만드는 기능을 해제합니다.
 
-자세한 내용은 [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)를 참조 하세요.
+자세한 내용은 [New-CsTeamsChannelsPolicy를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
 
-## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>팀 소유자 대신 개인 채널 만들기
+## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>팀 소유자를 대신하여 비공개 채널 만들기
 
-관리자는 PowerShell 또는 Graph API를 사용 하 여 팀 소유자 대신 개인 채널을 만들 수 있습니다. 예를 들어 조직에서 개인 채널을 중앙에서 만들려면이 작업을 수행 해야 할 수 있습니다.
+관리자는 PowerShell 또는 Graph API를 사용하여 팀 소유자를 대신하여 개인 채널을 만들 수 있습니다. 예를 들어 조직에서 개인 채널을 중앙 집중화하려는 경우 이 작업을 원할 수 있습니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
@@ -71,7 +71,7 @@ PATCH /teams/<team_id>
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
 ```
 
-### <a name="using-graph-api"></a>그래프 API 사용
+### <a name="using-graph-api"></a>Graph API 사용
 
 ```Graph API
 POST /teams/{id}/channels
@@ -84,25 +84,25 @@ POST /teams/{id}/channels
             }]
 ```
 
-## <a name="get-a-list-of-all-private-channel-messages"></a>모든 개인 채널 메시지 목록 가져오기
+## <a name="get-a-list-of-all-private-channel-messages"></a>모든 개인 채널 메시지 목록을 찾습니다.
 
-보관 및 감사 목적으로 개인 채널에 게시 된 모든 메시지 및 응답의 목록을 가져올 수 있습니다.  그래프 API를 사용 하 여이 작업을 수행 하는 방법은 다음과 같습니다.
+보관 및 감사를 위해 개인 채널에 게시된 모든 메시지 및 응답 목록을 얻을 수 있습니다.  Graph API를 사용하여 이 작업을 하는 방법에는 다음과 같은 것이 있습니다.
 
 ```Graph API
 GET /teams/{id}/channels/{id}/messages
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
 
-## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>팀의 모든 개인 채널에 대 한 SharePoint Url 찾기
+## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>팀의 모든 비공개 채널에 대한 SharePoint URL 찾기
 
-개인 채널의 파일에 대해 eDiscovery 또는 보관을 수행 하려는 경우 또는 특정 개인 채널에 파일을 배치 하는 사용자 지정 앱을 빌드 하려는 경우 각 개인 채널에 대해 생성 되는 고유한 SharePoint 사이트 모음을 쿼리 하는 방법을 원하는 경우를 원할 것입니다.
+개인 채널의 파일에 대한 eDiscovery 또는 법적 보류를 수행하려는 경우 또는 특정 개인 채널에 파일을 저장하는 사용자 지정 앱을 빌드하려는 경우 각 개인 채널에 대해 생성된 고유한 SharePoint 사이트 모음을 쿼리하는 방법을 원할 것입니다.
 
-관리자는 PowerShell 또는 Graph Api 명령을 사용 하 여 이러한 Url을 쿼리할 수 있습니다.
+관리자는 PowerShell 또는 Graph API 명령을 사용하여 이러한 URL을 쿼리할 수 있습니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-1. 관리자 계정을 사용 하 여 [SharePoint Online 관리 셸에](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) 설치 하 고 연결 합니다.
-2. &lt;팀의 그룹 id 인 group_id 다음을 실행 합니다 &gt; . (팀에 대 한 링크에서 그룹 ID를 쉽게 찾을 수 있습니다.)
+1. 관리자 계정으로 [SharePoint Online 관리](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) 셸을 설치하고 연결합니다.
+2. 다음을 실행합니다. 여기서 group_id &lt; &gt; 팀의 그룹 ID입니다. (팀 링크에서 그룹 ID를 쉽게 찾을 수 있습니다.)
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -112,13 +112,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     {$x.RelatedGroupId;$x.url}}
     ```
 
-### <a name="using-graph-api"></a>그래프 API 사용
+### <a name="using-graph-api"></a>Graph API 사용
 
-[그래프 탐색기](https://developer.microsoft.com/graph/graph-explorer)를 통해 이러한 명령을 수행해 볼 수 있습니다.
+Graph Explorer를 통해 이러한 명령을 [시도할 수 있습니다.](https://developer.microsoft.com/graph/graph-explorer)
 
-1. 다음을 사용 하 여 지정 된 팀의 개인 채널 Id 목록을 가져올 수 있으며, 여기에서 <group_id> 팀의 그룹 ID입니다. 이후 통화에 필요 합니다. (팀에 대 한 링크에서 그룹 ID를 쉽게 찾을 수 있습니다.)
+1. 다음을 사용하여 팀의 그룹 ID인 경우, <group_id> 팀의 개인 채널 ID 목록을 얻습니다. 후속 호출에서 필요합니다. (팀 링크에서 그룹 ID를 쉽게 찾을 수 있습니다.)
 
-    **요청당**
+    **요청**
 
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
@@ -146,9 +146,9 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-2. SharePoint URL을 가져오려는 각 개인 채널에 대해 다음 요청을 수행 합니다 ( &lt; channel_id &gt; 는 채널 id).
+2. SharePoint URL을 사용하려는 각 개인 채널에 대해 다음을 요청합니다. 여기서 channel_id &lt; &gt; ID입니다.
 
-    **요청당**
+    **요청**
 
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
@@ -176,37 +176,37 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-## <a name="list-and-update-roles-of-owners-and-members-in-a-private-channel"></a>개인 채널의 소유자 및 구성원의 역할 나열 및 업데이트
+## <a name="list-and-update-roles-of-owners-and-members-in-a-private-channel"></a>개인 채널에서 소유자 및 구성원의 역할 나열 및 업데이트
 
-개인 채널의 특정 구성원을 소유자로 승격 해야 하는지 여부를 결정 하려면 개인 채널의 소유자와 구성원을 나열 하 고 싶을 수 있습니다. 이 문제는 조직을 남겨진 개인 채널의 소유자가 있고 개인 채널에서 채널의 소유권을 요구 하는 관리자 도움말이 필요한 경우에 발생할 수 있습니다.
+개인 채널의 소유자 및 구성원을 나열하여 개인 채널의 특정 멤버를 소유자로 승격해야 하는지 여부를 결정할 수 있습니다. 이 경우 조직을 떠날 개인 채널의 소유자가 있으며 개인 채널에 채널 소유권을 요구하는 관리자의 도움이 필요한 경우 이 문제를 발생될 수 있습니다.
 
-관리자는 Microsoft 팀 관리 센터, PowerShell 또는 그래프 API를 사용 하 여 이러한 작업을 수행할 수 있습니다.
+관리자는 Microsoft Teams 관리 센터, PowerShell 또는 Graph API를 사용하여 이러한 작업을 수행할 수 있습니다.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-Microsoft 팀 관리 센터를 사용 하 여 팀 구성원을 관리 하는 방법을 알아보려면 [Microsoft 팀 관리 센터에서 팀 관리](manage-teams-in-modern-portal.md)를 참조 하세요.
+Microsoft Teams 관리 센터를 사용하여 팀 구성원을 관리하는 방법에 대한 자세한 내용은 Microsoft Teams 관리 센터에서 팀 [관리를 참조하세요.](manage-teams-in-modern-portal.md)
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-1. 다음을 실행 합니다 (여기서 &lt; group_id &gt; 는 팀의 그룹 id이 고 &lt; channel_name는 &gt; 채널 이름입니다.
+1. 다음을 실행합니다. 여기서 group_id ID는 팀의 그룹 &lt; &gt; ID이고 channel_name &lt; &gt; 이름입니다.
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
     ```
 
-2. 구성원을 소유자로 승격 합니다.
+2. 구성원을 소유자로 승격합니다.
 
     ```PowerShell
     Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
-### <a name="using-graph-api"></a>그래프 API 사용
+### <a name="using-graph-api"></a>Graph API 사용
 
-[그래프 탐색기](https://developer.microsoft.com/graph/graph-explorer)를 통해 이러한 명령을 수행해 볼 수 있습니다.
+Graph Explorer를 통해 이러한 명령을 [시도할 수 있습니다.](https://developer.microsoft.com/graph/graph-explorer)
 
-1. &lt; &gt; 팀의 그룹 id이 고 &lt; channel_id &gt; 채널 id 인 경우에는 다음을 사용 group_id.
+1. 다음을 사용하세요. 여기서 group_id 팀의 그룹 ID이고 channel_id &lt; &gt; &lt; &gt; ID입니다.
 
-    **요청당**
+    **요청**
 
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
@@ -240,9 +240,9 @@ Microsoft 팀 관리 센터를 사용 하 여 팀 구성원을 관리 하는 방
           ]
     }
     ```    
-2. 다음을 사용 하 여 구성원을 소유자로 승격 합니다 ( &lt; group_id &gt; , &lt; channel_id &gt; , &lt; id &gt; 는 이전 호출에서 반환 됩니다. &lt; &gt; &lt; 이전 호출에서 반환 된 id와 userId는 &gt; 같지 않으며 호환 되지 않습니다. Id를 사용 하 고 있는지 확인 &lt; &gt; 합니다.
+2. 다음을 사용하여 멤버를 소유자로 승격합니다. 여기서 group_id, channel_id 및 ID가 이전 호출에서 &lt; &gt; &lt; &gt; &lt; &gt; 반환됩니다. 이전 호출에서 반환된 ID와 userId는 동일하지 않습니다. 서로 &lt; &gt; &lt; &gt; 교환할 수 없습니다. ID를 &lt; 사용하는지 확인 &gt;
 
-    **요청당**
+    **요청**
 
     ```Graph API
     PATCH 
@@ -275,8 +275,8 @@ Microsoft 팀 관리 센터를 사용 하 여 팀 구성원을 관리 하는 방
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [Microsoft Graph API를 사용하여 Teams에서 작업](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
-    - [목록 채널](https://docs.microsoft.com/graph/api/channel-list)
+    - [채널 나열](https://docs.microsoft.com/graph/api/channel-list)
     - [채널 만들기](https://docs.microsoft.com/graph/api/channel-post)
     - [채널에 구성원 추가](https://docs.microsoft.com/graph/api/conversationmember-add)
-    - [채널의 구성원 업데이트](https://docs.microsoft.com/graph/api/conversationmember-update)
+    - [채널에서 구성원 업데이트](https://docs.microsoft.com/graph/api/conversationmember-update)
     - [채널에서 구성원 제거](https://docs.microsoft.com/graph/api/conversationmember-delete)
