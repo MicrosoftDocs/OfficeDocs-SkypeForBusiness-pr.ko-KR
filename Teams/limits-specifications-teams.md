@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420928"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611472"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -36,7 +36,7 @@ ms.locfileid: "49420928"
 |-----------|---------------|
 |사용자가 만들 수 있는 팀의 수 | 250개체 제한 적용&sup1;         |
 |사용자가 구성원이 될 수 있는 그룹 수|1,000&sup2;|
-|팀의 구성원 수 | 10,000<sup>5</sup>     |
+|팀 구성원 수  | 10,000<sup>5</sup>     |
 |팀당 소유자 수 | 100   |
 |테넌트에 허용되는 조직 전체 팀 수 | 5     |
 |[조직 전체 팀](create-an-org-wide-team.md)의 구성원 수 | 5,000       |
@@ -45,10 +45,11 @@ ms.locfileid: "49420928"
 |팀당 채널 수    | 200(삭제된 채널 포함)&sup3;         |
 |팀당 비공개 채널 수    |30| (삭제된 채널 포함)&sup3;
 |비공개 채널 회원수    |250|
+|팀으로 가져올 수 있는 전자 메일 그룹, 보안 그룹 또는 Office 365 그룹의 최대 크기입니다.    |3,500|
 |Office 365 그룹에서 팀으로 전환할 수 있는 최대 구성원 수    |10,000<sup>5</sup>     |
 |채널 대화 게시 크기 | 게시물당 28 KB<sup>4</sup> |
 
-<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> Azure Active Directory의 모든 디렉터리 개체는 이 제한에 포함됩니다. 전역 관리자는 [응용 프로그램 사용 권한](https://docs.microsoft.com/graph/permissions-reference)을 사용하여 Microsoft Graph를 호출하는 앱과 마찬가지로 이 제한에서 제외됩니다.
 
 <sup>2</sup> 이 제한에는 보관된 팀이 포함됩니다. Microsoft 365 또는 Office 365 조직에 포함할 수 있는 최대 팀 수를 초과하려면 Microsoft 지원팀에 문의해야 합니다.
 
@@ -62,7 +63,7 @@ ms.locfileid: "49420928"
 
 ### <a name="chat"></a>채팅
 
-Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
+Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리자가 채팅 대화를 검색할 수 있도록 Exchange Online(클라우드 기반) 사서함이 있어야 합니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장되기기 때문입니다. 채팅 참가자에게 Exchange Online 사서함이 없는 경우 관리자는 채팅 대화에 대한 보류 또는 저장을 수행할 수 없습니다. 예를 들어 Exchange 하이브리드 배포에서는 온-프레미스 사서함이 있는 사용자가 Teams 채팅 목록에 포함된 대화에 참여할 수 있습니다. 하지만 이 경우에는 사용자에게 클라우드 기반 사서함이 없으므로 이 대화의 콘텐츠를 검색할 수 없고 보류 상태로 둘 수 없습니다. (자세한 내용은 [Exchange와 Microsoft Teams의 상호 작용 방식](exchange-teams-interact.md)을 참조하세요.)
 
 Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메시징 제한은 Teams 내의 채팅 기능에 적용됩니다.
 
@@ -73,7 +74,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |첨부 파일 수<sup>2</sup>  |10     |
 |채팅 크기 | 게시물당 28 KB<sup>3</sup> |
 
-<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
+<sup>1</sup>채팅에 20명 이상의 사용자가 있는 경우 다음과 같은 채팅 기능이 꺼집니다. Outlook 자동 회신 및 Teams 상태 메시지, 입력 표시기, 비디오 및 오디오 통화, 공유, 읽음 확인. 개인 그룹 채팅에 20명 이상의 구성원이 포함 된 경우에도 "배달 옵션 설정" 단추 (!)가 제거 됩니다.
 
 <sup>2</sup>첨부 파일 수가 이 제한을 초과하는 경우 오류 메시지가 표시됩니다.
 
@@ -81,7 +82,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 ### <a name="emailing-a-channel"></a>채널 전자 메일 보내기 
 
- If users want to send an email to a channel in Teams, they use the channel email address. When an email is part of a channel, anyone can reply to it to start a conversation. Here are some of the applicable limits for sending email to a channel.
+ 사용자가 Teams의 채널에 전자 메일을 보내려면 채널 전자 메일 주소를 사용합니다. 전자 메일이 채널의 일부인 경우 누구나 답장을 보내 대화를 시작할 수 있습니다. 다음은 채널에 전자 메일을 보낼 때 적용되는 몇 가지 제한 사항입니다.
 
 |기능  | 최대 한도  |
 |---------|---------|
@@ -97,7 +98,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 자세한 내용은 [Exchange Online 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)을 참조하세요.
 
 > [!NOTE]
-> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
+> 모든 Microsoft 365 및 Office 365 라이선스 간에 메시지 크기, 첨부 파일 및 인라인 이미지 제한이 동일합니다. Teams에서 Office GCC/GCCH/DOD 조직에 대해 전자 메일로 채널을 보내기는 사용할 수 없습니다.
 
 ## <a name="channel-names"></a>채널 이름
 
@@ -127,7 +128,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |기능     | 최대 한도 |
 |------------|---------------|
 |모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 350 |
-|채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
+|채팅 탭에서 시작된 비디오 또는 오디오 통화의 사용자 수 | 20 |
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않는 [모임 녹음/녹화](cloud-recording.md)를 보관하여 로컬로 다운로드할 수 있습니다. | 20일 |
 
@@ -179,7 +180,7 @@ Outlook에서의 Teams 현재 상태는 Outlook 2013 데스크톱 앱 이상에�
 Microsoft Teams의 각 팀은 SharePoint Online에 팀 사이트가 있으며, 팀의 각 채널은 기본 팀 사이트 문서 라이브러리 내에 폴더가 있습니다. 대화 내에서 공유된 파일은 문서 라이브러리에 자동으로 추가되고, SharePoint에서 설정된 사용 권한 및 파일 보안 옵션은 Teams 내에서 자동으로 반영됩니다.
 
 > [!NOTE]
-> 각 [개인 채널](https://docs.microsoft.com/microsoftteams/private-channels)에는 고유한 SharePoint 사이트 모음이 있습니다.
+> 각 [개인 채널](https://docs.microsoft.com/microsoftteams/private-channels)에는 고유한 SharePoint 사이트 모음(이전에 “사이트 모음”이라 불림)이 있습니다.
 
 테넌트에서 SharePoint Online을 사용하도록 설정하지 않은 경우, Microsoft Teams 사용자는 팀에서 파일을 항상 공유할 수 없습니다. 비즈니스용 OneDrive(SharePoint 라이선스에 연결됨)가 해당 기능에 필요하므로 개인 채팅 사용자도 파일을 공유할 수 없습니다.
 
@@ -190,10 +191,10 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 |기능                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |저장소                 |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB 및 구매한 라이선스당 10GB   |조직당 1TB 및 구매한 라이선스당 10GB |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB           |
-|Teams 파일용 저장소 |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |사이트 모음 또는 그룹당 최대 25TB |
+|Teams 파일용 저장소 |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |
 |파일 업로드 제한(파일당)    |2GB    |2GB    |2GB    |2GB    |2GB    |2GB    |
 
-채널은 팀에 대해 생성된 SharePoint Online 사이트 모음 내의 폴더로 백업되므로 채널 내의 파일 탭은 자신이 속한 팀의 저장소 제한을 공유합니다.
+채널은 팀에 대해 생성된 SharePoint Online 사이트 모음(이전에 “사이트 모음”이라 불림) 내의 폴더로 백업되므로 채널 내의 파일 탭은 자신이 속한 팀의 저장소 제한을 공유합니다.
 
 자세한 내용은 [SharePoint Online 제한](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)을 참조하세요.
 

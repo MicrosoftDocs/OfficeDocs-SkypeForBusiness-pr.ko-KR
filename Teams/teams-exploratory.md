@@ -18,15 +18,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f27dc7e8772e25b6dcc91622cabec421e058af7b
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: df06c03ab37a98c5ea4404d8dbd12703b07ad3ee
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031484"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611812"
 ---
-<a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
-=======================================================
+# <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 
 Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams 예비 환경으로 대체되었습니다.
 
@@ -68,14 +67,14 @@ Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active 
 
 다음과 같은 경우 사용자는 기준에 맞지 않습니다.
 
-- 현재 또는 이전에 유료, 미결제 또는 평가판 라이선스에서 Teams를 보유하고 있습니다. 
+- 현재 또는 이전에 유료, 미결제 또는 평가판 라이선스에서 Teams를 보유하고 있습니다.
 - 하나 이상의 특별 COVID 제안을 사용하거나 받은 테넌트에 있습니다.
 
 사용자가 Syndication 파트너 고객이거나 GCC, GCC High, DoD 또는 EDU 고객인 경우 사용자의 조직은 이 서비스를 사용할 수 없습니다.
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>Teams 예비 환경에 등록하는 방법
 
-적격 사용자는 Teams에 로그인하여 Teams 예비 환경에 등록할 수 있습니다([teams.microsoft.com](https://teams.microsoft.com)). 적격 사용자에게는 자동으로 라이선스가 할당 되고 조직 내 사용자가 Teams 예비 환경을 처음 시작할 때 테넌트 관리자가 전자 메일 알림을 받게 됩니다.
+적격 사용자는 데스크톱 또는 웹 Teams에 로그인하여 Teams 예비 환경에 등록할 수 있습니다([teams.microsoft.com](https://teams.microsoft.com)). 현재 모바일을 통한 탐색 기능은 지원되지 않습니다. 로그인 시, 자동으로 라이선스가 할당 되고 조직 내 사용자가 Teams 예비 환경을 처음 시작할 때 테넌트 관리자가 전자 메일 알림을 받게 됩니다.
 
 ## <a name="manage-the-teams-exploratory-experience"></a>Teams 예비 환경 관리
 
@@ -170,7 +169,7 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 환경은 얼마나 오래 지속되나요?
 
-Microsoft Teams의 예비 환경은 다음 엔터프라이즈 **계약 기념일** 또는 2021년 1월 이후에 **갱신** 될 때까지 추가 비용 없이 사용할 수 있습니다. 이 경우 Microsoft 예비 환경 라이선스의 최종 사용자는 Teams가 포함된 유료 라이선스로 전환해야 합니다. 그 이후에 시작된 모든 Microsoft 예비 환경 라이선스는 다음 **기념일** 또는 **갱신** 주기까지 추가 비용 없이 계속 사용할 수 있습니다.
+Microsoft Teams Exploratory 체험은 초기 사용자 등록 후 12개월 동안 추가 비용 없이 30일 간의 추가 유예 기간을 제공합니다. 이 경우 Microsoft 예비 환경 라이선스의 최종 사용자는 Teams가 포함된 유료 라이선스로 전환해야 합니다. 동일한 테넌트의 모든 사용자에게 동일한 종료 날짜가 적용되며, 첫 번째 사용자의 구독 날짜부터 12개월 기간이 시작됩니다.
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>최종 사용자가 기념일 또는 갱신 날짜 직전에 Microsoft Teams Exploratory 환경을 시작하는 경우 어떻게 되나요?
 
