@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9e64dc908bafdd63b17e22716e76c4f04df1409
-ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
+ms.openlocfilehash: 5b30f8a435f256edc816ebeea075425fddeaf8bb
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588606"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611792"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing---public-preview"></a>직접 라우팅에 대한 SBA(남은 분기 어플라이언스) - 공개 미리 보기
 
@@ -34,7 +34,7 @@ ms.locfileid: "49588606"
 > [!NOTE]
 > 공개 미리 보기 릴리스입니다.
 
-경우에 따라 직접 라우팅을 사용하여 Microsoft Phone System에 연결하는 고객 사이트에 인터넷 정전이 있을 수 있습니다.
+경우에 따라 직접 라우팅을 사용하여 Microsoft Phone System에 연결하는 고객 사이트에서 인터넷이 정전될 수 있습니다.
 
 분기라고 하는 고객 사이트는 직접 라우팅을 통해 일시적으로 Microsoft 클라우드에 연결할 수 없다고 가정합니다. 그러나 분기 내 인트라넷은 여전히 완벽하게 작동하며 사용자는 PSTN 연결을 제공하는 SBC(세션 테두리 컨트롤러)에 연결할 수 있습니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "49588606"
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-SBA는 SBC 공급업체에 제공된 배포 가능한 코드로, SBC의 펌웨어에 코드를 넣습니다. 
+SBA는 SBC 공급업체에 Microsoft가 제공한 배포 가능한 코드로, 해당 SBC의 펌웨어에 코드를 넣습니다. 
 
 포함된 남은 분기 어플라이언스를 사용하여 최신 세션 테두리 컨트롤러 펌웨어를 얻습니다. SBC 공급업체에 문의합니다. 또한 다음이 필요합니다.
 
@@ -66,7 +66,7 @@ Microsoft Teams 클라이언트가 오프라인 모드인 경우 다음과 같�
 
 - SBC를 통해 흐르는 미디어를 통해 로컬 SBA/SBC를 통해 PSTN 호출을 합니다.
 
-- SBC를 통해 흐르는 미디어를 통해 로컬 SBA/SBC를 통해 PSTN 호출 수신. 
+- SBC를 통해 흐르는 미디어를 통해 로컬 SBA/SBC를 통해 PSTN 호출 수신 
 
 - PSTN 호출의 보류 및 이력서입니다.
 
@@ -75,7 +75,7 @@ Microsoft Teams 클라이언트가 오프라인 모드인 경우 다음과 같�
 SBA 기능이 작동하기 위해 Teams 클라이언트는 각 분기 사이트에서 사용할 수 있는 SBA와 해당 사이트의 사용자에게 할당된 SBA를 알아야 합니다. 구성 단계는 다음과 같습니다.
 
 1. SB를 생성합니다.
-2. Teams 분기 지속성 정책을 작성합니다.
+2. Teams 분기 지속성 정책을 만들 수 있습니다.
 3. 사용자에게 정책을 할당합니다.
 4. Azure Active Directory에 SBA에 대한 애플리케이션을 등록합니다.
 
@@ -89,7 +89,7 @@ SB를 만들 때 New-CsTeamsSurvivableBranchAppliance cmdlet을 사용하게 될
 
 | 매개 변수| 설명 |
 | :------------|:-------|
-| Identity  | SBA의 FQDN  |
+| Identity  | SBA의 ID  |
 | Fqdn | SBA의 FQDN |
 | 사이트 | SBA가 있는 TenantNetworkSite |
 | 설명 | 자유 형식 텍스트 |
@@ -98,7 +98,7 @@ SB를 만들 때 New-CsTeamsSurvivableBranchAppliance cmdlet을 사용하게 될
 예를 들면 다음과 같습니다.
 
 ``` powershell
-C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.dk -Description "SBA 1" 
+C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.com -Description "SBA 1" 
 Identity    : sba1.contoso.com 
 Fqdn        : sba1.contoso.com 
 Site        : 
@@ -120,7 +120,7 @@ Description : SBA 1
 ``` powershell
 C:\> new-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns "sba1.contoso.com","sba2.contoso.com" 
 Identity             : Tag:CPH 
-BranchApplianceFqdns : {sba1.contoso.dk, sba2.contoso.com} 
+BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
 Set-CsTeamsSurvivableBranchAppliancePolicy cmdlet을 사용하여 정책에서 SB를 추가하거나 제거할 수 있습니다. 예를 들면 다음과 같습니다. 
@@ -172,7 +172,7 @@ SBA 등록의 경우 등록에서 만든 다음 값이 필요합니다.
 SBA 애플리케이션의 경우 다음에 유의해야 합니다. 
 
 - 이름은 원하는 것이 될 수 있습니다.  
-- 지원되는 계정 유형 = 이 조직 디렉터리의 계정만 해당됩니다. 
+- 지원되는 계정 유형 = 이 조직 디렉터리의 계정만 해당합니다. 
 - 웹 리디렉션 Uri = https://login.microsoftonline.com/common/oauth2/nativeclient .
 - 암시적 권한 부여 토큰 = 액세스 토큰 및 ID 토큰입니다. 
 - API 권한 = Skype 및 Teams 테넌트 관리자 액세스 -> 애플리케이션 권한 -> application_access_custom_sba_appliance.
