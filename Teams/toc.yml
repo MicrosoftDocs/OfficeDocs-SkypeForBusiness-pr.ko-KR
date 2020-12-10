@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: Teams를 배포하는 방법
   href: How-to-roll-out-teams.md
-- name: 시작
+- name: 시작하기
   items:
     - name: 개요
       href: get-started-with-teams-quick-start.md
@@ -210,6 +210,8 @@
           href: manage-power-platform-apps.md
         - name: 앱 패키지를 업로드하여 사용자 지정 앱 게시
           href: upload-custom-apps.md
+        - name: 사용자 지정 앱 스토어
+          href: customize-your-app-store.md
     - name: 앱 인증
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 부여
@@ -348,8 +350,6 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Teams에서 화이트보드 관리
       href: manage-whiteboard.md
-    - name: Google Workspace용 Teams 모임 추가 기능 설정
-      href: add-gsuite-thru-aad.md
     - name: 오디오 회의
       items:
         - name: 배포 계획
@@ -877,7 +877,7 @@
   items:
     - name: 개요
       href: adopt-microsoft-teams-landing-page.md
-    - name: 시작
+    - name: 시작하기
       href: teams-adoption-get-started.md
     - name: 1단계 - 시작
       items:
@@ -917,7 +917,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: Teams로 업그레이드
   items:
-    - name: 시작
+    - name: 시작하기
       href: upgrade-start-here.md
     - name: 업그레이드 프레임워크 정보
       href: upgrade-framework.md
@@ -1102,7 +1102,7 @@
           items:
             - name: Teams에서 조직의 교대 근무 앱 관리
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 의료용 Teams
+    - name: 의료 산업용 Teams
       items:
         - name: 의료 조직을 위한 Teams 시작
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
