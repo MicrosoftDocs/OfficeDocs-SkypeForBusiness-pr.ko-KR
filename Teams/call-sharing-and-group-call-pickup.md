@@ -22,43 +22,43 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
 - seo-marvel-mar2020
-description: 통화 공유 및 그룹 통화 픽업 사용자는 사용자를 사용할 수 없는 경우 전화를 통해 들어오는 전화를 동료와 공유할 수 있습니다.
-ms.openlocfilehash: 6c97c2710e7dd5e9be896e0c79db786f3a4d81b2
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+description: 통화 공유 및 그룹 통화 픽업을 통해 사용자가 수신 전화를 동료와 공유할 수 있으므로 사용자를 사용할 수 없는 경우 통화를 캡처할 수 있습니다.
+ms.openlocfilehash: 825e174a6b6f68adcc7b5aade212689b01309c24
+ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582645"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620729"
 ---
-# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft 팀에서 공유 및 그룹 통화 걸기
+# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams에서 통화 공유 및 그룹 통화 픽업
 
-Microsoft 팀의 통화 공유 및 그룹 통화 픽업 기능을 통해 사용자가 사용자를 사용할 수 없는 동안 발생 하는 전화를 받을 수 있도록 동료와의 수신 전화를 공유할 수가 있습니다.
+Microsoft Teams의 통화 공유 및 그룹 통화 픽업 기능을 통해 사용자가 수신 전화를 동료와 공유할 수 있으므로 사용자가 전화를 사용할 수 없는 동안 동료가 발생하는 통화에 응답할 수 있습니다.
 
-다른 통화 공유 (예: 착신 전환 또는 동시 연결)는 사용자가 들어오는 공유 통화에 대 한 알림을 받는 방법 (팀 앱에서 오디오 및 시각적 알림, visual only 또는 배너를 통해)을 구성할 수 있으며, 해당 통화에 대 한 응답 여부를 결정할 수 있기 때문에 메시지 전달 픽업에 대 한 더 적은 생각입니다.
+그룹 통화 선택은 다른 형태의 통화 공유(예: 통화 전달 또는 동시 연결)보다 받는 사람에게 덜 방해가 됩니다. 사용자가 수신 공유 통화에 대한 알림을 받는 방법을 구성할 수 있으며(Teams 앱에서 오디오 및 시각적 알림, 시각적 전용 또는 배너를 통해) 응답할지 여부를 결정할 수 있기 때문에 수신자에게 덜 방해가 됩니다.
 
-다른 사용자와 통화를 공유 하려면 통화 그룹을 만들고 통화를 공유 하려는 사용자를 추가 합니다. 그런 다음 동시 링 또는 전달 설정을 선택 합니다. 자세한 내용은 [팀의 착신 전환 및 동시](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) 연결을 참조 하세요.
+다른 사용자와 통화를 공유하기 위해 사용자는 통화 그룹을 만들고 통화를 공유하려는 사용자를 추가합니다. 그런 다음 동시 링 또는 앞으로 설정을 선택 합니다. 자세한 [내용은 Teams에서](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) 통화 전달 및 동시 링을 참조합니다. 모바일 디바이스는 배너 및 벨소리가 설정된 경우 알림을 받을 수 있습니다.
 
 > [!IMPORTANT]
-> 통화 그룹 소유자 및 통화 그룹의 구성원은 팀 전용 배포 모드 여야 합니다. 팀 배포 모드에 대 한 자세한 내용은 [Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md) 를 참조 하세요.
+> 사용자, 통화 그룹 소유자 및 통화 그룹의 구성원은 Teams 전용 배포 모드에 있어야 합니다. Teams 배포 모드에 대한 자세한 내용은 Microsoft Teams 및 비즈니스용 Skype 공존 및 상호 연동성 [이해를 참조하세요.](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>라이선스 필요
 
-통화 공유 및 그룹 통화 픽업 설정 및 사용을 위해서는 사용자가 엔터프라이즈 음성 기능을 사용 하도록 설정 되어 있어야 합니다. 라이선스 모델에 대 한 자세한 내용은 [Microsoft 팀 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)참조 하세요.
+사용자는 통화 Enterprise Voice 및 그룹 통화 픽업을 설정하고 사용할 수 있도록 설정되어 있어야 합니다. 라이선스 모델에 대한 자세한 내용은 Microsoft Teams 서비스 [설명을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
-## <a name="configure-group-call-pickup"></a>그룹 통화 픽업 구성
+## <a name="configure-group-call-pickup"></a>그룹 호출 픽업 구성
 
-그룹 통화 픽업을 설정 하려면 사용자가 먼저 통화 그룹 (보안 그룹 또는 Microsoft 365 그룹과 동일 하지 않음)을 구성한 다음 통화를 공유 하려는 사용자를 추가 합니다. 그런 다음 동시 링 또는 통화 전달 설정을 선택 합니다. 자세한 내용 및 단계별 절차는 [팀의 착신 전환 및 동시](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)연결을 참조 하세요.
+그룹 통화 픽업을 설정하기 위해 사용자는 먼저 통화 그룹을 구성한 다음(보안 그룹 또는 Microsoft 365 그룹과는 다를 수) 통화를 공유하려는 사용자를 추가합니다. 그런 다음 동시 링 또는 전달 설정을 선택 합니다. 자세한 정보 및 단계별 절차는 Teams에서 통화 전달 및 동시 링을 [참조하세요.](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
 
-통화 그룹 만들기 및 알림 기본 설정은 사용자 구동 기능입니다. 관리자는 사용자를 위해 이러한 기능을 구성할 필요가 없습니다. 보안 그룹 또는 Microsoft 365 그룹에서 통화 그룹을 만들 수 없습니다. 팀에서 만들어야 합니다.
+호출 그룹 만들기 및 알림 기본 설정은 사용자 기반 기능입니다. 관리자는 사용자에 대해 이러한 기능을 구성할 수 없습니다. 통화 그룹은 보안 그룹 또는 Microsoft 365 그룹에서 만들 수 없습니다. Teams에서 만들어야 합니다.
 
-관리자는 사용자에 대 한 **Teamscallingpolicy AllowCallGroups** 설정을 통해 통화 그룹을 사용 하도록 설정 해야 합니다. 관리자는 또한 팀 관리자 포털을 통해이를 활성화할 수 있습니다.  또한 구성 된 사용자는 클라이언트를 통해 직접 호출 그룹을 구성할 수 있습니다. 관리자 또는 최종 사용자는 서로에 대 한 구성을 차단할 수 없지만, 팀 관리자 포털 및 팀 클라이언트는이 관계를 두 위치에 정확 하 게 표시 해야 합니다. 
+관리자는 사용자의 **TeamsCallingPolicy AllowCallGroups** 설정을 통해 통화 그룹을 사용하도록 설정해야 합니다. 관리자는 Teams 관리 포털을 통해 이를 사용하도록 설정할 수도 있습니다.  또한 구성된 사용자는 클라이언트를 통해 직접 호출 그룹을 구성할 수도 있습니다. 관리자 또는 최종 사용자는 서로 구성을 차단할 수 없지만 Teams 관리 포털 및 Teams 클라이언트는 두 위치 모두에서 이 관계를 정확하게 표시해야 합니다. 
 
-중요: 관리자가 사용자에 대 한 통화 그룹을 끄면 (켜져 있고, 통화 그룹 관계가 구성 된 후) 관리자는 팀 관리 센터의 사용자에 대 한 통화 그룹 관계를 정리 하 여 잘못 된 통화 라우팅이 발생 하지 않도록 해야 합니다. 
+중요: 관리자가 사용자에 대한 통화 그룹을 끄면(통화 그룹 관계가 설정되고 통화 그룹 관계가 구성된 후) 관리자는 Teams 관리 센터에서 사용자의 통화 그룹 관계를 정리하여 잘못된 통화 라우팅을 방지해야 합니다. 
 
-## <a name="limitations"></a>따릅니다
+## <a name="limitations"></a>제한 사항
 
-테 넌 트에는 최대 32768 개의 통화 그룹이 포함 될 수 있습니다. 각 통화 그룹에 최대 25 명의 사용자가 있을 수 있습니다. 
+테넌트에는 최대 32,768개 호출 그룹이 포함될 수 있습니다. 각 통화 그룹에는 최대 25명까지 사용자가 있을 수 있습니다. 
 
 ## <a name="more-information"></a>추가 정보
 
-[팀의 착신 전환 및 동시 연결](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+[Teams에서 통화 전달 및 동시 링](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
