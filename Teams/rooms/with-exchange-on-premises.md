@@ -1,7 +1,7 @@
 ---
-title: Exchange 온-프레미스를 사용 하 여 Microsoft 팀 대화방 배포
-ms.author: v-lanac
-author: lanachin
+title: Exchange On-premises를 통해 Microsoft Teams 회의실 배포
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -16,109 +16,109 @@ ms.custom:
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
-description: Exchange 온-프레미스를 사용 하는 하이브리드 환경에서 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 71b1ab2ba641b25764f5c546343a3c7a597f121a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+description: Exchange를 통해 하이브리드 환경에서 Microsoft Teams 회의실을 배포하는 방법에 대한 자세한 내용은 이 항목을 참조하세요.
+ms.openlocfilehash: f9f80f5b993b9be95e35c8178d996973558e2512
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814537"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662323"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a><span data-ttu-id="e478c-103">Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)</span><span class="sxs-lookup"><span data-stu-id="e478c-103">Deploy Microsoft Teams Rooms with Exchange on premises</span></span>
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a><span data-ttu-id="d51ae-103">Exchange를 통해 Microsoft Teams 회의실 배포</span><span class="sxs-lookup"><span data-stu-id="d51ae-103">Deploy Microsoft Teams Rooms with Exchange on premises</span></span>
 
-<span data-ttu-id="e478c-104">온-프레미스와 Microsoft 팀 또는 비즈니스용 Skype Online을 사용 하는 하이브리드 환경에서 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e478c-104">Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on premises and Microsoft Teams or Skype for Business Online.</span></span>
+<span data-ttu-id="d51ae-104">Exchange On-Premises 및 Microsoft Teams 또는 비즈니스용 Skype Online을 통해 하이브리드 환경에서 Microsoft Teams 회의실을 배포하는 방법에 대한 자세한 내용은 이 항목을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d51ae-104">Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on premises and Microsoft Teams or Skype for Business Online.</span></span>
   
-<span data-ttu-id="e478c-105">조직에서 서비스를 혼합 하 여 온-프레미스 호스트와 일부 온라인 상태를 갖춘 경우 각 서비스가 호스팅되는 위치에 따라 구성이 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-105">If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted.</span></span> <span data-ttu-id="e478c-106">이 항목에서는 구내에 호스팅되는 Exchange를 사용 하 여 Microsoft 팀 회의실을 위한 하이브리드 배포에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-106">This topic covers hybrid deployments for Microsoft Teams Rooms with Exchange hosted on premises.</span></span> <span data-ttu-id="e478c-107">이러한 유형의 배포에는 다양 한 변형이 있기 때문에 모든 방법에 대 한 자세한 지침을 제공 하는 것은 불가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-107">Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them.</span></span> <span data-ttu-id="e478c-108">다음 프로세스는 여러 구성에서 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-108">The following process will work for many configurations.</span></span> <span data-ttu-id="e478c-109">프로세스가 설정에 적합 하지 않은 경우에는 Windows PowerShell을 사용 하 여 여기에 명시 된 것과 다른 배포 옵션에 대 한 동일한 최종 결과를 얻을 것을 권장 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-109">If the process isn't right for your setup, we recommend that you use Windows PowerShell to achieve the same end result as documented here, and for other deployment options.</span></span>
+<span data-ttu-id="d51ae-105">조직에 일부 호스팅된 서비스와 온라인에서 호스팅되는 서비스가 혼합되어 있는 경우 구성은 각 서비스가 호스트되는 위치에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-105">If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted.</span></span> <span data-ttu-id="d51ae-106">이 항목에서는 Exchange가 호스트된 Microsoft Teams Rooms의 하이브리드 배포에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-106">This topic covers hybrid deployments for Microsoft Teams Rooms with Exchange hosted on premises.</span></span> <span data-ttu-id="d51ae-107">이 유형의 배포에는 다양한 변형이 있으므로 모든 배포에 대한 자세한 지침을 제공할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-107">Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them.</span></span> <span data-ttu-id="d51ae-108">다음 프로세스는 많은 구성에 대해 작동됩니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-108">The following process will work for many configurations.</span></span> <span data-ttu-id="d51ae-109">프로세스가 설정에 맞지 않는 경우 여기에서 설명한 Windows PowerShell 다른 배포 옵션에 대해 동일한 최종 결과를 달성하기 위해 이 프로세스를 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-109">If the process isn't right for your setup, we recommend that you use Windows PowerShell to achieve the same end result as documented here, and for other deployment options.</span></span>
 
-<span data-ttu-id="e478c-110">Microsoft는 새 사용자 계정을 만드는 데 도움이 되는 스크립트 또는 호환 되는 Microsoft 팀 대화방 사용자 계정으로 전환 하는 데 도움을 주는 기존 리소스 계정이 유효한 지 확인 하는 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-110">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms user accounts.</span></span> <span data-ttu-id="e478c-111">원하는 경우 아래 단계에 따라 Microsoft 팀 대화방 장치에서 사용할 계정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-111">If you prefer, you can follow the steps below to configure accounts your Microsoft Teams Rooms device will use.</span></span>
+<span data-ttu-id="d51ae-110">Microsoft는 [ ](https://go.microsoft.com/fwlink/?linkid=870105)SkypeRoomProvisioningScript.ps1계정을 만들거나 호환되는 Microsoft Teams Rooms 사용자 계정으로 전환할 수 있도록 기존 리소스 계정의 유효성을 검사하는 데 도움이 되는 스크립트인 스크립트를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-110">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms user accounts.</span></span> <span data-ttu-id="d51ae-111">원하는 경우 아래 단계에 따라 Microsoft Teams 회의실 장치에서 사용할 계정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-111">If you prefer, you can follow the steps below to configure accounts your Microsoft Teams Rooms device will use.</span></span>
   
-## <a name="requirements"></a><span data-ttu-id="e478c-112">요구 사항</span><span class="sxs-lookup"><span data-stu-id="e478c-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="d51ae-112">요구 사항</span><span class="sxs-lookup"><span data-stu-id="d51ae-112">Requirements</span></span>
 
-<span data-ttu-id="e478c-113">Exchange와 함께 Microsoft 팀 대화방을 구내에 배포 하기 전에 요구 사항을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-113">Before you deploy Microsoft Teams Rooms with Exchange on premises, be sure you have met the requirements.</span></span> <span data-ttu-id="e478c-114">자세한 내용은 [Microsoft 팀 공간 요구 사항을](requirements.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e478c-114">For more information, see [Microsoft Teams Rooms requirements](requirements.md).</span></span>
+<span data-ttu-id="d51ae-113">Exchange를 통해 Microsoft Teams Rooms를 배포하기 전에 요구 사항을 충족해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-113">Before you deploy Microsoft Teams Rooms with Exchange on premises, be sure you have met the requirements.</span></span> <span data-ttu-id="d51ae-114">자세한 내용은 [Microsoft Teams 회의실 요구 사항을 참조하세요.](requirements.md)</span><span class="sxs-lookup"><span data-stu-id="d51ae-114">For more information, see [Microsoft Teams Rooms requirements](requirements.md).</span></span>
   
-<span data-ttu-id="e478c-115">Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 경우 Active Directory 관리 도구를 사용 하 여 온-프레미스 도메인 계정의 전자 메일 주소를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-115">If you are deploying Microsoft Teams Rooms with Exchange on premises, you will be using Active Directory administrative tools to add an email address for your on-premises domain account.</span></span> <span data-ttu-id="e478c-116">이 계정은 Microsoft 365 또는 Office 365와 동기화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-116">This account will be synced to Microsoft 365 or Office 365.</span></span> <span data-ttu-id="e478c-117">다음을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-117">You will need to:</span></span>
+<span data-ttu-id="d51ae-115">Exchange가 있는 Microsoft Teams Rooms를 프레미스에 배포하는 경우 Active Directory 관리 도구를 사용하여 전자 메일 주소를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-115">If you are deploying Microsoft Teams Rooms with Exchange on premises, you will be using Active Directory administrative tools to add an email address for your on-premises domain account.</span></span> <span data-ttu-id="d51ae-116">이 계정은 Microsoft 365 또는 Office 365와 동기화됩니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-116">This account will be synced to Microsoft 365 or Office 365.</span></span> <span data-ttu-id="d51ae-117">다음이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-117">You will need to:</span></span>
   
-- <span data-ttu-id="e478c-118">계정을 만들고 Active Directory와 계정을 동기화 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-118">Create an account and synchronize the account with Active Directory.</span></span>
+- <span data-ttu-id="d51ae-118">계정을 만들고 Active Directory와 계정을 동기화합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-118">Create an account and synchronize the account with Active Directory.</span></span>
 
-- <span data-ttu-id="e478c-119">원격 사서함을 사용 하도록 설정 하 고 속성을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-119">Enable the remote mailbox and set properties.</span></span>
+- <span data-ttu-id="d51ae-119">원격 사서함을 사용하도록 설정하고 속성을 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-119">Enable the remote mailbox and set properties.</span></span>
 
-- <span data-ttu-id="e478c-120">Microsoft 365 또는 Office 365 라이선스를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-120">Assign an Microsoft 365 or Office 365 license.</span></span>
+- <span data-ttu-id="d51ae-120">Microsoft 365 또는 Office 365 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-120">Assign an Microsoft 365 or Office 365 license.</span></span>
 
-- <span data-ttu-id="e478c-121">비즈니스용 Skype 서버에서 디바이스 계정을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-121">Enable the device account with Skype for Business Server.</span></span> <span data-ttu-id="e478c-122">디바이스 계정을 사용 하도록 설정 하려면 환경이 다음 선행 조건을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-122">To enable the device account your environment will need to meet the following prerequisites:</span></span>
+- <span data-ttu-id="d51ae-121">비즈니스용 Skype Server에서 장치 계정을 사용하도록 설정</span><span class="sxs-lookup"><span data-stu-id="d51ae-121">Enable the device account with Skype for Business Server.</span></span> <span data-ttu-id="d51ae-122">디바이스 계정을 사용하도록 설정하려면 환경이 다음 요구 사항을 충족해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-122">To enable the device account your environment will need to meet the following prerequisites:</span></span>
 
-  - <span data-ttu-id="e478c-123">Microsoft 365 또는 Office 365 요금제에 비즈니스용 Skype Online (요금제 2) 이상을 설치 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-123">You'll need to have Skype for Business Online (Plan 2) or higher in your Microsoft 365 or Office 365 plan.</span></span> <span data-ttu-id="e478c-124">요금제는 회의 기능을 지원 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-124">The plan needs to support conferencing capability.</span></span>
+  - <span data-ttu-id="d51ae-123">비즈니스용 Skype Online(계획 2) 이상이 Microsoft 365 또는 Office 365 요금제에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-123">You'll need to have Skype for Business Online (Plan 2) or higher in your Microsoft 365 or Office 365 plan.</span></span> <span data-ttu-id="d51ae-124">계획은 회의 기능을 지원해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-124">The plan needs to support conferencing capability.</span></span>
   
-  - <span data-ttu-id="e478c-125">Microsoft 팀 대화방에 대 한 전화 통신 서비스 공급자를 사용 하 여 엔터프라이즈 음성 (PSTN 전화 통신)이 필요한 경우 비즈니스용 Skype Online이 필요 합니다 (계획 3).</span><span class="sxs-lookup"><span data-stu-id="e478c-125">If you need Enterprise Voice (PSTN telephony) using telephony service providers for Microsoft Teams Rooms you need Skype for Business Online (Plan 3).</span></span>
+  - <span data-ttu-id="d51ae-125">Microsoft Teams Enterprise Voice 전화 통신 서비스 공급자를 사용하여 PSTN 전화 통신(PSTN 전화 통신)이 필요한 경우 비즈니스용 Skype Online(계획 3)이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-125">If you need Enterprise Voice (PSTN telephony) using telephony service providers for Microsoft Teams Rooms you need Skype for Business Online (Plan 3).</span></span>
   
-  - <span data-ttu-id="e478c-126">테 넌 트 사용자에 게 Exchange 사서함이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-126">Your tenant users must have Exchange mailboxes.</span></span>
+  - <span data-ttu-id="d51ae-126">테넌트 사용자에게 Exchange 사서함이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-126">Your tenant users must have Exchange mailboxes.</span></span>
   
-  - <span data-ttu-id="e478c-127">Microsoft 팀 대화방 계정에는 비즈니스용 Skype Online (계획 2) 또는 비즈니스용 Skype Online (계획 3) 라이선스가 필요 하지만 Exchange Online 라이선스는 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-127">Your Microsoft Teams Rooms account does require a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license, but it does not require an Exchange Online license.</span></span>
+  - <span data-ttu-id="d51ae-127">Microsoft Teams 회의실 계정에는 비즈니스용 Skype Online(계획 2) 또는 비즈니스용 Skype Online(계획 3) 라이선스가 필요하지만 Exchange Online 라이선스가 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-127">Your Microsoft Teams Rooms account does require a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license, but it does not require an Exchange Online license.</span></span>
 
-- <span data-ttu-id="e478c-128">Microsoft 팀 대화방 계정에 비즈니스용 Skype 서버 라이선스를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-128">Assign a Skype for Business Server license to your Microsoft Teams Rooms account.</span></span>
+- <span data-ttu-id="d51ae-128">Microsoft Teams 회의실 계정에 비즈니스용 Skype Server 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-128">Assign a Skype for Business Server license to your Microsoft Teams Rooms account.</span></span>
 
-### <a name="create-an-account-and-synchronize-with-active-directory"></a><span data-ttu-id="e478c-129">계정 만들기 및 Active Directory와 동기화</span><span class="sxs-lookup"><span data-stu-id="e478c-129">Create an account and synchronize with Active Directory</span></span>
+### <a name="create-an-account-and-synchronize-with-active-directory"></a><span data-ttu-id="d51ae-129">계정 만들기 및 Active Directory와 동기화</span><span class="sxs-lookup"><span data-stu-id="d51ae-129">Create an account and synchronize with Active Directory</span></span>
 
-1. <span data-ttu-id="e478c-130">**Active Directory 사용자 및 컴퓨터** 도구에서 Microsoft 팀 대화방 계정이 생성 될 폴더 또는 조직 구성 단위를 마우스 오른쪽 단추로 클릭 하 고 **새로 만들기**를 클릭 한 다음 **사용자**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-130">In the **Active Directory Users and Computers** tool, right-click on the folder or Organizational Unit that your Microsoft Teams Rooms accounts will be created in, click **New**, and then click **User**.</span></span>
+1. <span data-ttu-id="d51ae-130">Active **Directory** 사용자 및 컴퓨터 도구에서 Microsoft Teams 회의실 계정을 만들 폴더 또는 조직 구성 단위를 마우스 오른쪽 단추로 클릭하고 새로 고치기 및 **사용자 클릭**</span><span class="sxs-lookup"><span data-stu-id="d51ae-130">In the **Active Directory Users and Computers** tool, right-click on the folder or Organizational Unit that your Microsoft Teams Rooms accounts will be created in, click **New**, and then click **User**.</span></span>
 
-2. <span data-ttu-id="e478c-131">이전 cmdlet의 표시 이름을 **전체 이름** 상자에 입력 하 고 별칭을 **사용자 로그온 이름** 상자에 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-131">Type the display name from the previous cmdlet into the **Full name** box, and the alias into the **User logon name** box.</span></span> <span data-ttu-id="e478c-132">**다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-132">Click **Next**.</span></span>
+2. <span data-ttu-id="d51ae-131">이전 cmdlet의 표시 이름을 전체  이름 상자에 입력하고 사용자 로그온 이름 상자에 **별칭을 입력합니다.**</span><span class="sxs-lookup"><span data-stu-id="d51ae-131">Type the display name from the previous cmdlet into the **Full name** box, and the alias into the **User logon name** box.</span></span> <span data-ttu-id="d51ae-132">다음을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="d51ae-132">Click **Next**.</span></span>
 
-3. <span data-ttu-id="e478c-133">이 계정에 대 한 암호를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-133">Type the password for this account.</span></span> <span data-ttu-id="e478c-134">확인을 위해 암호를 다시 입력 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-134">You'll need to retype it for verification.</span></span> <span data-ttu-id="e478c-135">**암호 사용 기간 제한 없음** 확인란이 선택 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-135">Make sure the **Password never expires** checkbox is the only option selected.</span></span>
+3. <span data-ttu-id="d51ae-133">이 계정의 암호를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-133">Type the password for this account.</span></span> <span data-ttu-id="d51ae-134">확인을 위해 다시 추가해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-134">You'll need to retype it for verification.</span></span> <span data-ttu-id="d51ae-135">암호가 **만료되지** 않는지 확인란이 선택된 유일한 옵션입니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-135">Make sure the **Password never expires** checkbox is the only option selected.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="e478c-136">**암호 사용 기간 제한 없음** 선택은 Microsoft 팀 대화방의 비즈니스용 Skype 서버에 대 한 요구 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-136">Selecting **Password never expires** is a requirement for Skype for Business Server on Microsoft Teams Rooms.</span></span> <span data-ttu-id="e478c-137">도메인 규칙에 따라 만료 되지 않는 암호가 금지 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-137">Your domain rules may prohibit passwords that don't expire.</span></span> <span data-ttu-id="e478c-138">그렇다면 각 Microsoft 팀 공간 디바이스 계정에 대 한 예외를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-138">If so, you'll need to create an exception for each Microsoft Teams Rooms device account.</span></span>
+    > <span data-ttu-id="d51ae-136">암호 **선택은** Microsoft Teams 회의실의 비즈니스용 Skype Server에 대한 요구 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-136">Selecting **Password never expires** is a requirement for Skype for Business Server on Microsoft Teams Rooms.</span></span> <span data-ttu-id="d51ae-137">도메인 규칙이 만료되지 않는 암호를 금지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-137">Your domain rules may prohibit passwords that don't expire.</span></span> <span data-ttu-id="d51ae-138">그렇다면 각 Microsoft Teams Rooms 장치 계정에 대한 예외를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-138">If so, you'll need to create an exception for each Microsoft Teams Rooms device account.</span></span>
   
-4. <span data-ttu-id="e478c-139">계정을 만든 후 디렉터리 동기화를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-139">After you've created the account, run a directory synchronization.</span></span> <span data-ttu-id="e478c-140">완료 되 면 Microsoft 365 관리 센터의 사용자 페이지로 이동 하 여 이전 단계에서 만든 계정이 온라인에 병합 되었는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-140">When it's complete, go to the users page in your Microsoft 365 admin center and verify that the account created in the previous steps has merged to online.</span></span>
+4. <span data-ttu-id="d51ae-139">계정을 만든 후 디렉터리 동기화를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-139">After you've created the account, run a directory synchronization.</span></span> <span data-ttu-id="d51ae-140">완료되면 Microsoft 365 관리 센터의 사용자 페이지로 이동하여 이전 단계에서 만든 계정이 온라인에 병합된지 확인하십시오.</span><span class="sxs-lookup"><span data-stu-id="d51ae-140">When it's complete, go to the users page in your Microsoft 365 admin center and verify that the account created in the previous steps has merged to online.</span></span>
 
-### <a name="enable-the-remote-mailbox-and-set-properties"></a><span data-ttu-id="e478c-141">원격 사서함을 사용 하도록 설정 하 고 속성 설정</span><span class="sxs-lookup"><span data-stu-id="e478c-141">Enable the remote mailbox and set properties</span></span>
+### <a name="enable-the-remote-mailbox-and-set-properties"></a><span data-ttu-id="d51ae-141">원격 사서함 사용 및 속성 설정</span><span class="sxs-lookup"><span data-stu-id="d51ae-141">Enable the remote mailbox and set properties</span></span>
 
-1. <span data-ttu-id="e478c-142">[Exchange 관리 셸을 열거나](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) [원격 PowerShell을 사용 하 여 exchange 서버에 연결](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-142">[Open the Exchange Management Shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) or [connect to your Exchange server using remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).</span></span>
+1. <span data-ttu-id="d51ae-142">[Exchange 관리 셸을 열거나](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) [원격 PowerShell을 사용하여 Exchange 서버에 연결합니다.](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)</span><span class="sxs-lookup"><span data-stu-id="d51ae-142">[Open the Exchange Management Shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) or [connect to your Exchange server using remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).</span></span>
 
-2. <span data-ttu-id="e478c-143">Exchange PowerShell에서 다음 명령을 실행 하 여 계정의 사서함 (사서함 사용이 허용 되는 계정)을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-143">In Exchange PowerShell, create a mailbox for the account (mailbox-enable the account) by running the following command:</span></span>
+2. <span data-ttu-id="d51ae-143">Exchange PowerShell에서 다음 명령을 실행하여 계정에 대한 사서함(사서함 사용 계정)을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-143">In Exchange PowerShell, create a mailbox for the account (mailbox-enable the account) by running the following command:</span></span>
 
    ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-   <span data-ttu-id="e478c-144">자세한 구문 및 매개 변수 정보는 [사서함 사용](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e478c-144">For detailed syntax and parameter information, see [Enable-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox).</span></span>
+   <span data-ttu-id="d51ae-144">자세한 구문 및 매개 변수 정보는 [사용-사서함을 참조하세요.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox)</span><span class="sxs-lookup"><span data-stu-id="d51ae-144">For detailed syntax and parameter information, see [Enable-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox).</span></span>
 
-3. <span data-ttu-id="e478c-145">Exchange PowerShell에서 회의실 사서함에 다음 설정을 구성 하 여 모임 환경을 개선 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-145">In Exchange PowerShell, configure the following settings on the room mailbox to improve the meeting experience:</span></span>
+3. <span data-ttu-id="d51ae-145">Exchange PowerShell에서 회의실 사서함에서 다음 설정을 구성하여 모임 환경을 개선합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-145">In Exchange PowerShell, configure the following settings on the room mailbox to improve the meeting experience:</span></span>
 
-   - <span data-ttu-id="e478c-146">AutomateProcessing: AutoAccept (모임 이끌이는 사용자 간섭 없이 직접 회의실 예약 결정을 받습니다: 무료 = 수락; 사용 중 = 거절).</span><span class="sxs-lookup"><span data-stu-id="e478c-146">AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)</span></span>
+   - <span data-ttu-id="d51ae-146">AutomateProcessing: AutoAccept(모임 이끌이는 사용자 개입 없이 바로 회의실 예약 결정을 수신합니다. 무료 = 수락, 사용 중 = 거절).</span><span class="sxs-lookup"><span data-stu-id="d51ae-146">AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)</span></span>
 
-   - <span data-ttu-id="e478c-147">AddOrganizerToSubject: $false (모임 이끌이는 모임 요청의 제목에 추가 되지 않습니다.)</span><span class="sxs-lookup"><span data-stu-id="e478c-147">AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)</span></span>
+   - <span data-ttu-id="d51ae-147">AddOrganizerToSubject: $false(모임 이끌이는 모임 요청의 제목에 추가되지 않습니다.)</span><span class="sxs-lookup"><span data-stu-id="d51ae-147">AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)</span></span>
 
-   - <span data-ttu-id="e478c-148">Deletecomdea: $false (받는 모임 요청의 메시지 본문에 있는 텍스트는 유지 합니다.)</span><span class="sxs-lookup"><span data-stu-id="e478c-148">DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)</span></span>
+   - <span data-ttu-id="d51ae-148">DeleteComments: $false(들어오는 모임 요청의 메시지 본문에 텍스트를 보관합니다.)</span><span class="sxs-lookup"><span data-stu-id="d51ae-148">DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)</span></span>
 
-   - <span data-ttu-id="e478c-149">DeleteSubject: $false (들어오는 모임 요청의 주제를 보관 합니다.)</span><span class="sxs-lookup"><span data-stu-id="e478c-149">DeleteSubject: $false (Keep the subject of incoming meeting requests.)</span></span>
+   - <span data-ttu-id="d51ae-149">DeleteSubject: $false(들어오는 모임 요청의 제목 유지)</span><span class="sxs-lookup"><span data-stu-id="d51ae-149">DeleteSubject: $false (Keep the subject of incoming meeting requests.)</span></span>
 
-   - <span data-ttu-id="e478c-150">RemovePrivateProperty: $false (원래 모임 이끌이가 보낸 개인 플래그가 지정 된 대로 유지 되도록 합니다.)</span><span class="sxs-lookup"><span data-stu-id="e478c-150">RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)</span></span>
+   - <span data-ttu-id="d51ae-150">RemovePrivateProperty: $false(원래 모임 요청에서 모임 이끌이가 보낸 개인 플래그가 지정된 상태로 유지되도록 합니다.)</span><span class="sxs-lookup"><span data-stu-id="d51ae-150">RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)</span></span>
 
-   - <span data-ttu-id="e478c-151">AddAdditionalResponse: $true (AdditionalResponse 매개 변수에서 지정한 텍스트가 모임 요청에 추가 됩니다.)</span><span class="sxs-lookup"><span data-stu-id="e478c-151">AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)</span></span>
+   - <span data-ttu-id="d51ae-151">AddAdditionalResponse: $true(AdditionalResponse 매개 변수로 지정된 텍스트가 모임 요청에 추가됩니다.)</span><span class="sxs-lookup"><span data-stu-id="d51ae-151">AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)</span></span>
 
-   - <span data-ttu-id="e478c-152">AdditionalResponse: "Skype 회의실입니다!"</span><span class="sxs-lookup"><span data-stu-id="e478c-152">AdditionalResponse: "This is a Skype Meeting room!"</span></span> <span data-ttu-id="e478c-153">(모임 요청에 추가 하는 추가 텍스트입니다.)</span><span class="sxs-lookup"><span data-stu-id="e478c-153">(The additional text to add to the meeting request.)</span></span>
+   - <span data-ttu-id="d51ae-152">AdditionalResponse: "Skype 회의실입니다!"</span><span class="sxs-lookup"><span data-stu-id="d51ae-152">AdditionalResponse: "This is a Skype Meeting room!"</span></span> <span data-ttu-id="d51ae-153">(모임 요청에 추가할 추가 텍스트입니다.)</span><span class="sxs-lookup"><span data-stu-id="d51ae-153">(The additional text to add to the meeting request.)</span></span>
 
-   <span data-ttu-id="e478c-154">이 예제에서는 Rigel-01 이라는 대화방 사서함에서 이러한 설정을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-154">This example configures these settings on the room mailbox named Project-Rigel-01.</span></span>
+   <span data-ttu-id="d51ae-154">이 예제에서는 Project-Rigel-01이라는 방 사서함에서 이러한 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-154">This example configures these settings on the room mailbox named Project-Rigel-01.</span></span>
 
    ```PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   <span data-ttu-id="e478c-155">자세한 구문 및 매개 변수 정보는 [설정-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e478c-155">For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).</span></span>
+   <span data-ttu-id="d51ae-155">자세한 구문 및 매개 변수 정보는 [Set-CalendarProcessing을 참조하세요.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)</span><span class="sxs-lookup"><span data-stu-id="d51ae-155">For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).</span></span>
 
-### <a name="assign-a-microsoft-365-or-office-365-license"></a><span data-ttu-id="e478c-156">Microsoft 365 또는 Office 365 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="e478c-156">Assign a Microsoft 365 or Office 365 license</span></span>
+### <a name="assign-a-microsoft-365-or-office-365-license"></a><span data-ttu-id="d51ae-156">Microsoft 365 또는 Office 365 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="d51ae-156">Assign a Microsoft 365 or Office 365 license</span></span>
 
-1. <span data-ttu-id="e478c-157">Azure Active Directory에 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-157">Connect to Azure Active Directory.</span></span> <span data-ttu-id="e478c-158">Active Directory에 대 한 자세한 내용은 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e478c-158">For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).</span></span> 
+1. <span data-ttu-id="d51ae-157">Azure Active Directory에 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-157">Connect to Azure Active Directory.</span></span> <span data-ttu-id="d51ae-158">Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0을 참조하세요.](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)</span><span class="sxs-lookup"><span data-stu-id="d51ae-158">For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).</span></span> 
 
    > [!NOTE]
-   > <span data-ttu-id="e478c-159">[Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 는 지원 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-159">[Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported.</span></span> 
+   > <span data-ttu-id="d51ae-159">[Azure Active Directory PowerShell 2.0은](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-159">[Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported.</span></span> 
 
-2. <span data-ttu-id="e478c-160">장치 계정에 유효한 Microsoft 365 또는 Office 365 라이선스가 필요 하거나 Exchange 및 Microsoft 팀이 작동 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-160">The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams will not work.</span></span> <span data-ttu-id="e478c-161">라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-161">If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.</span></span> <span data-ttu-id="e478c-162">사용할 수 있는 `Get-MsolAccountSku`</span><span class="sxs-lookup"><span data-stu-id="e478c-162">You can use `Get-MsolAccountSku`</span></span> <!-- Get-AzureADSubscribedSku --> <span data-ttu-id="e478c-163">사용 가능한 Sku 목록을 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-163">to retrieve a list of available SKUs.</span></span>
+2. <span data-ttu-id="d51ae-160">장치 계정에 유효한 Microsoft 365 또는 Office 365 라이선스가 있어야 합니다. 또는 Exchange 및 Microsoft Teams가 작동하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-160">The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams will not work.</span></span> <span data-ttu-id="d51ae-161">라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-161">If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.</span></span> <span data-ttu-id="d51ae-162">다음을 사용할 수 있습니다. `Get-MsolAccountSku`</span><span class="sxs-lookup"><span data-stu-id="d51ae-162">You can use `Get-MsolAccountSku`</span></span> <!-- Get-AzureADSubscribedSku --> <span data-ttu-id="d51ae-163">를 사용하여 사용 가능한 SKUS 목록을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-163">to retrieve a list of available SKUs.</span></span>
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ``` -->
 
-3. <span data-ttu-id="e478c-164">다음으로, 다음을 사용 하 여 라이선스를 추가할 수 있습니다. `Set-MsolUserLicense`</span><span class="sxs-lookup"><span data-stu-id="e478c-164">Next, you can add a license using the `Set-MsolUserLicense`</span></span> <!-- Set-AzureADUserLicense --> <span data-ttu-id="e478c-165">은.</span><span class="sxs-lookup"><span data-stu-id="e478c-165">cmdlet.</span></span> <span data-ttu-id="e478c-166">이 경우 $strLicense는 사용자에 게 표시 되는 SKU 코드입니다 (예: contoso: STANDARDPACK).</span><span class="sxs-lookup"><span data-stu-id="e478c-166">In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).</span></span>
+3. <span data-ttu-id="d51ae-164">다음으로, `Set-MsolUserLicense`</span><span class="sxs-lookup"><span data-stu-id="d51ae-164">Next, you can add a license using the `Set-MsolUserLicense`</span></span> <!-- Set-AzureADUserLicense --> <span data-ttu-id="d51ae-165">cmdlet.</span><span class="sxs-lookup"><span data-stu-id="d51ae-165">cmdlet.</span></span> <span data-ttu-id="d51ae-166">이 경우 $strLicense SKU 코드입니다(예: contoso:STANDARDPACK).</span><span class="sxs-lookup"><span data-stu-id="d51ae-166">In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).</span></span>
 
   ``` PowerShell
   Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
@@ -132,17 +132,17 @@ ms.locfileid: "47814537"
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   <span data-ttu-id="e478c-167">자세한 지침은 [Office 365 PowerShell을 사용 하 여 사용자 계정에 라이선스 할당](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e478c-167">For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
+   <span data-ttu-id="d51ae-167">자세한 지침은 [Office 365 PowerShell을](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)통해 사용자 계정에 라이선스 할당을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d51ae-167">For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
 
-### <a name="enable-the-device-account"></a><span data-ttu-id="e478c-168">디바이스 계정 사용</span><span class="sxs-lookup"><span data-stu-id="e478c-168">Enable the device account</span></span>
+### <a name="enable-the-device-account"></a><span data-ttu-id="d51ae-168">디바이스 계정 사용</span><span class="sxs-lookup"><span data-stu-id="d51ae-168">Enable the device account</span></span>
 
-<span data-ttu-id="e478c-169">비즈니스용 skype Online PowerShell은 Microsoft 팀과 비즈니스용 Skype Online에 대 한 서비스를 관리 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-169">Skype for Business Online PowerShell is used to manage services for both Microsoft Teams and Skype for Business Online.</span></span>
+<span data-ttu-id="d51ae-169">비즈니스용 Skype Online PowerShell은 Microsoft Teams와 비즈니스용 Skype Online 모두에 대한 서비스를 관리하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-169">Skype for Business Online PowerShell is used to manage services for both Microsoft Teams and Skype for Business Online.</span></span>
 
-1. <span data-ttu-id="e478c-170">PC에서 원격 Windows PowerShell 세션을 다음과 같이 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-170">Create a remote Windows PowerShell session from a PC as follows:</span></span>
+1. <span data-ttu-id="d51ae-170">다음과 같이 PC에서 Windows PowerShell 세션을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-170">Create a remote Windows PowerShell session from a PC as follows:</span></span>
 > [!NOTE]
-> <span data-ttu-id="e478c-171">비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-171">Skype for Business Online Connector is currently part of the latest Teams PowerShell module.</span></span>
+> <span data-ttu-id="d51ae-171">비즈니스용 Skype Online 커넥터는 현재 최신 Teams PowerShell 모듈의 일부입니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-171">Skype for Business Online Connector is currently part of the latest Teams PowerShell module.</span></span>
 >
-> <span data-ttu-id="e478c-172">최신 [팀 PowerShell 공용 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/)를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-172">If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.</span></span>
+> <span data-ttu-id="d51ae-172">최신 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 릴리스를 사용하는 경우 비즈니스용 Skype Online Connector를 설치할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-172">If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.</span></span>
 
    ``` Powershell
    Import-Module -Name MicrosoftTeams  
@@ -150,43 +150,43 @@ ms.locfileid: "47814537"
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. <span data-ttu-id="e478c-173">계정의 SIP 주소 받기:</span><span class="sxs-lookup"><span data-stu-id="e478c-173">Obtain SIP address of the account:</span></span>
+2. <span data-ttu-id="d51ae-173">계정의 SIP 주소를 구합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-173">Obtain SIP address of the account:</span></span>
 
    ``` Powershell
     $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
     ```
 
-3. <span data-ttu-id="e478c-174">Microsoft 팀 대화방 계정을 사용 하도록 설정 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-174">To enable your Microsoft Teams Rooms account, run this command:</span></span>
+3. <span data-ttu-id="d51ae-174">Microsoft Teams Rooms 계정을 사용하도록 설정하려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-174">To enable your Microsoft Teams Rooms account, run this command:</span></span>
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-   <span data-ttu-id="e478c-175">환경에서 RegistrarPool 매개 변수에 어떤 값을 사용 해야 하는지 확실 하지 않은 경우이 명령을 사용 하 여 기존 사용자의 값을 가져올 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-175">If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing user using this command:</span></span>
+   <span data-ttu-id="d51ae-175">사용자 환경에서 RegistrarPool 매개 변수에 사용할 값을 확실하지 않은 경우 다음 명령을 사용하여 기존 사용자로부터 값을 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-175">If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing user using this command:</span></span>
 
    ``` Powershell
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a><span data-ttu-id="e478c-176">Microsoft 팀원에 게 라이선스 할당 공간 계정</span><span class="sxs-lookup"><span data-stu-id="e478c-176">Assign a license to your Microsoft Teams Rooms account</span></span>
+### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a><span data-ttu-id="d51ae-176">Microsoft Teams 회의실 계정에 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="d51ae-176">Assign a license to your Microsoft Teams Rooms account</span></span>
 
-1. <span data-ttu-id="e478c-177">테 넌 트 관리자로 로그인 하 고 Microsoft 365 관리 센터를 연 다음 관리 앱을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-177">Log in as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.</span></span>
-2. <span data-ttu-id="e478c-178">**사용자 및 그룹** 을 클릭 한 다음 **사용자 추가, 암호 다시 설정**등을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-178">Click on **Users and Groups** and then click **Add users, reset passwords, and more**.</span></span>
-3. <span data-ttu-id="e478c-179">Microsoft 팀 대화방 계정을 클릭 한 다음 펜 아이콘을 클릭 하 여 계정 정보를 편집 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-179">Click the Microsoft Teams Rooms account, and then click the pen icon to edit the account information.</span></span>
-4. <span data-ttu-id="e478c-180">**라이선스**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-180">Click **Licenses**.</span></span>
-5. <span data-ttu-id="e478c-181">라이선스 **할당**에서 라이선스 및 엔터프라이즈 음성 요구 사항에 따라 비즈니스용 Skype (계획 2) 또는 비즈니스용 Skype (계획 3)를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-181">In **Assign licenses**, select Skype for Business (Plan 2) or Skype for Business (Plan 3), depending on your licensing and Enterprise Voice requirements.</span></span> <span data-ttu-id="e478c-182">Microsoft 팀 방에 Enterprise Voice를 사용 하려면 요금제 3 라이선스를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-182">You'll have to use a Plan 3 license if you want to use Enterprise Voice on your Microsoft Teams Rooms.</span></span>
-6. <span data-ttu-id="e478c-183">**저장**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-183">Click **Save**.</span></span>
+1. <span data-ttu-id="d51ae-177">테넌트 관리자로 로그인하고 Microsoft 365 관리 센터를 열고 관리 앱을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-177">Log in as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.</span></span>
+2. <span data-ttu-id="d51ae-178">사용자 및 **그룹을 클릭한** 다음 사용자 추가, 암호 재설정을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="d51ae-178">Click on **Users and Groups** and then click **Add users, reset passwords, and more**.</span></span>
+3. <span data-ttu-id="d51ae-179">Microsoft Teams 회의실 계정을 클릭한 다음 펜 아이콘을 클릭하여 계정 정보를 편집합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-179">Click the Microsoft Teams Rooms account, and then click the pen icon to edit the account information.</span></span>
+4. <span data-ttu-id="d51ae-180">라이선스를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="d51ae-180">Click **Licenses**.</span></span>
+5. <span data-ttu-id="d51ae-181">라이선스 **할당에서** 라이선스 및 라이선스 요구 사항에 따라 비즈니스용 Skype(계획 2) 또는 비즈니스용 Skype(계획 3)를 Enterprise Voice 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-181">In **Assign licenses**, select Skype for Business (Plan 2) or Skype for Business (Plan 3), depending on your licensing and Enterprise Voice requirements.</span></span> <span data-ttu-id="d51ae-182">Microsoft Teams 회의실에서 요금제 3 라이선스를 Enterprise Voice 합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-182">You'll have to use a Plan 3 license if you want to use Enterprise Voice on your Microsoft Teams Rooms.</span></span>
+6. <span data-ttu-id="d51ae-183">**저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-183">Click **Save**.</span></span>
 
-<span data-ttu-id="e478c-184">유효성 검사를 위해 모든 클라이언트를 사용 하 여이 계정에 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e478c-184">For validation, you should be able to use any client to log in to this account.</span></span>
+<span data-ttu-id="d51ae-184">유효성 검사를 위해 모든 클라이언트를 사용하여 이 계정에 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d51ae-184">For validation, you should be able to use any client to log in to this account.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="e478c-185">관련 항목</span><span class="sxs-lookup"><span data-stu-id="e478c-185">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d51ae-185">관련 항목</span><span class="sxs-lookup"><span data-stu-id="d51ae-185">Related topics</span></span>
 
-[<span data-ttu-id="e478c-186">Microsoft 팀 대화방 계정 구성</span><span class="sxs-lookup"><span data-stu-id="e478c-186">Configure accounts for Microsoft Teams Rooms</span></span>](rooms-configure-accounts.md)
+[<span data-ttu-id="d51ae-186">Microsoft Teams 회의실에 대한 계정 구성</span><span class="sxs-lookup"><span data-stu-id="d51ae-186">Configure accounts for Microsoft Teams Rooms</span></span>](rooms-configure-accounts.md)
 
-[<span data-ttu-id="e478c-187">Microsoft Teams 룸 계획</span><span class="sxs-lookup"><span data-stu-id="e478c-187">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
+[<span data-ttu-id="d51ae-187">Microsoft Teams 룸 계획</span><span class="sxs-lookup"><span data-stu-id="d51ae-187">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
   
-[<span data-ttu-id="e478c-188">Microsoft Teams 룸 배포</span><span class="sxs-lookup"><span data-stu-id="e478c-188">Deploy Microsoft Teams Rooms</span></span>](rooms-deploy.md)
+[<span data-ttu-id="d51ae-188">Microsoft Teams 룸 배포</span><span class="sxs-lookup"><span data-stu-id="d51ae-188">Deploy Microsoft Teams Rooms</span></span>](rooms-deploy.md)
   
-[<span data-ttu-id="e478c-189">Microsoft Teams 룸 콘솔 구성</span><span class="sxs-lookup"><span data-stu-id="e478c-189">Configure a Microsoft Teams Rooms console</span></span>](console.md)
+[<span data-ttu-id="d51ae-189">Microsoft Teams 룸 콘솔 구성</span><span class="sxs-lookup"><span data-stu-id="d51ae-189">Configure a Microsoft Teams Rooms console</span></span>](console.md)
   
-[<span data-ttu-id="e478c-190">Microsoft Teams 룸 관리</span><span class="sxs-lookup"><span data-stu-id="e478c-190">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
+[<span data-ttu-id="d51ae-190">Microsoft Teams 룸 관리</span><span class="sxs-lookup"><span data-stu-id="d51ae-190">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
