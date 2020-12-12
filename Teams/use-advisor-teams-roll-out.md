@@ -2,7 +2,7 @@
 title: Advisor for Teams를 사용하여 Microsoft Teams 배포
 author: SerdarSoysal
 ms.author: serdars
-ms.reviewer: brandber
+ms.reviewer: pkrebs
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 'Advisor for Teams로 Microsoft Teams 사용을 계획하고 성공적으로 배포하세요.  '
-ms.openlocfilehash: afc3524466b9078b0050b23b59d45d049d11793b
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030824"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616932"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -72,12 +72,13 @@ Advisor for Teams는 현재 다음 계획을 제공합니다.
     - Teams용 어드바이저 봇
     - 현재 비즈니스용 Skype Online 또는 비즈니스용 Skype 온-프레미스 환경을 사용하고 있는 고객을 위해 설계된 비즈니스용 Skype 업그레이드 플랜을 사용하면 더 이상 업그레이드를 진행하는 동안 어림짐작으로 수행을 하지 않아도 될 수 있게 도움을 받을 수 있습니다. 변화를 구현하는 데 입증된 성공 프레임워크를 활용하여 이 플랜은 사용자가 Teams를 이제 시작하고 있거나, 이미 비즈니스용 Skype와 함께 사용하고 있거나 혹은 업그레이드할 준비가 되었는지에 상관없이 단계별 프로세스를 안내합니다. 이 플랜은 또한 사용자를 [온라인 지침과 모범 사례](https://aka.ms/SkypeToTeams), [다운로드 가능한 자산](https://aka.ms/UpgradeSuccessKit), [라이브 1: 많은 계획 워크숍](https://aka.ms/UpgradeWorkshops) 그리고 성공을 지원하기 위한 추가 리소스로 연결시켜줄 것입니다.
 
-채팅, 팀, 채널 및 앱 플랜부터 시작하는 것이 좋습니다. 해당 워크로드 배포가 완료되면 Teams용 어드바이저로 돌아가 **채널 추가** 를 클릭하여 다음 작업을 시작합니다.
+채팅, 팀, 채널 및 앱 플랜부터 시작하는 것이 좋습니다. 해당 워크로드 배포가 완료되면 Teams용 어드바이저로 돌아가 **채널 추가** 를 선택하여 다음 작업을 시작하세요.
 
 ## <a name="tenant-assessment"></a>테넌트 평가
-각 플랜에는 Teams를 배포하기 전에 개선이 필요할 수 있는 환경의 모든 측면을 신속히 확인하는 데 사용할 수 있는 테넌트 준비 상태 평가가 포함되어 있습니다. 평가는 필수 구성 요소와 모범 사례를 포함합니다. 각 평가 테스트에는 녹색 확인 표시 또는 주황색 경고 삼각형이 있습니다. 
 
-- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>녹색 확인 표시는 테넌트가 특정 테스트를 통과 했다는 의미입니다. 
+각 플랜에는 Teams를 배포하기 전에 개선이 필요할 수 있는 환경의 모든 측면을 신속히 확인하는 데 사용할 수 있는 테넌트 준비 상태 평가가 포함되어 있습니다. 평가는 필수 구성 요소와 모범 사례를 포함합니다. 각 평가 테스트에는 녹색 확인 표시 또는 주황색 경고 삼각형이 있습니다.
+
+- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>녹색 확인 표시는 테넌트가 특정 테스트를 통과 했다는 의미입니다.
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>주황색 경고 삼각형은 조치가 필요한지의 여부를 판단하기 위해 후속 조치를 취할 것을 제안한다는 의미입니다(예: Microsoft 365 그룹 만료 정책 사용을 권장하지만 필수는 아님).
 
 > [!IMPORTANT]
@@ -115,6 +116,7 @@ Advisor for Teams는 현재 다음 계획을 제공합니다.
 |Stream 라이선스     |Microsoft Stream 라이선스가 포함된 활성 구독이 있는지 여부 이는 모임 녹화를 설정하려면 필수 구성 요소입니다. Microsoft Graph를 쿼리하여 Microsoft Stream 라이선스가 있는지 확인합니다(적어도 하나의 할당할 수 있는 라이선스). Stream에 대한 자세한 내용과 설정 방법은 [Teams 클라우드 모임 녹화](cloud-recording.md)를 참조하세요.
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>비즈니스용 Skype 업그레이드 평가
+
 [모든 작업에 대한 평가 테스트](#assessment-tests-for-all-workloads) 외에 비즈니스용 Skype 업그레이드는 모임 및 회의 계획에 사용되는 평가도 포함합니다.
 
 ### <a name="advisor-for-teams-bot"></a>Teams용 어드바이저 봇
@@ -124,11 +126,12 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 >**Microsoft Teams의 배포 팀에 오신 것을 환영합니다!**
 >  
 >이 팀의 목적은 필요한 모든 리소스를 제공하고 프로젝트 팀을 위한 공동 작업 공간을 제공하여 조직의 Teams 롤아웃 과정을 안내하는 것입니다. Advisor for Teams를 사용하여 만든 각 채널에는 단계별 Planner 플랜 및 롤아웃 전체에서 사용할 수 있는 Forms 사용자 설문 조사 등 기타 리소스가 포함됩니다. 언제든지 Teams 관리 센터를 사용하여 테넌트 준비 상태 평가로 돌아가 검토하거나 추가 워크로드 플랜을 추가할 수 있습니다.
-> 
->**조치 사항** 
->- Teams 또는 Planner를 처음 사용할 경우 [Teams 안내](https://teamsdemo.office.com/)를 확인하고 [Planner 빠른 시작 비디오](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)를 시청하십시오. 
+>
+>**조치 사항**
+>
+>- Teams 또는 Planner를 처음 사용할 경우 [Teams 안내](https://teamsdemo.office.com/)를 확인하고 [Planner 빠른 시작 비디오](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)를 시청하십시오.
 >- Teams의 배포 팀에 문의하십시오. 워크로드 채널(예: 채팅, 팀, 채널 및 앱)을 선택하고 **Planner** 탭을 선택하여 시작합니다.
-> 
+>
 >Advisor for Teams에 대해 자세히 알아보려면 [Advisor for Teams를 사용하여 Microsoft Teams 배포](use-advisor-teams-roll-out.md)를 참조하십시오.
 >
 
@@ -138,44 +141,134 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 > [!IMPORTANT]
 > Teams용 어드바이저 봇은 기본적으로 사용하도록 설정되어 있습니다. Teams용 어드바이저를 사용할 계획인 경우 사용을 해제하지 않습니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
-### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Advisor for Teams에 대한 라이선스 요구 사항은 무엇인가요?
+## <a name="advisor-for-teams-and-microsoft-365-learning-pathways"></a>Teams용 어드바이저 및 Microsoft 365 학습 경로
+
+[Microsoft 365 학습 경로](https://docs.microsoft.com/office365/customlearning/)는 사용자를 교육하도록 사용자 지정할 수 있는 주문형 학습 솔루션으로, 조직 내 Teams 사용 및 채택률을 높일 수 있습니다. Teams용 어드바이저와 학습 경로를 사용하여 사용자를 신속하게 시작하고 채택을 유도할 수 있습니다.
+
+학습 경로를 통해 SharePoint Online 사이트 서식 파일과 사용자를 위한 학습 사이트를 쉽게 구축할 수 있습니다. 학습 경로 교육 포털을 사용자 정의하여 사용자의 필요에 맞는 교육 및 지원 콘텐츠를 포함할 수 있습니다. Microsoft 온라인 카탈로그의 Teams 재생 목록을 사용하고 재생 목록을 추가할 수 있습니다.
+
+학습 경로에 학습 사이트를 만든 다음 팀의 채널에 탭으로 추가하여 사용자가 빠르고 쉽게 액세스할 수 있습니다.
+
+예를 들어 Teams용 어드바이저를 학습 경로와 함께 사용하여 지원 센터 및 챔피언을 교육한 다음 학습 경로가 최종 사용자 교육을 지원하게 할 수 있습니다. 지원 센터 및 챔피언을 Teams로 온보드를 지원하는 학습 사이트를 만든 다음 롤아웃 중인 각 워크로드 채널에 탭으로 추가합니다. 그런 다음 지원 센터 및 챔피언은 학습 경로 교육 포털에 링크와 사용자 지정 재생 목록이 포함된 지원 페이지를 만들어 Teams의 사용자를 지원할 수 있습니다. 이 지원 페이지를 모든 팀의 채널에 추가하여 최종 사용자를 교육할 수 있습니다.
+
+다음은 Teams용 어드바이저를 학습 경로와 함께 사용하는 방법에 대한 개요입니다.
+
+### <a name="get-started-in-learning-pathways"></a>학습 경로에서 시작
+
+학습 경로를 시작하려면[학습 경로를 사용하여 시작](https://docs.microsoft.com/office365/customlearning/)을 참조하세요.
+
+환경에서 새 학습 경로 솔루션을 설정하려면 [새 학습 경로 솔루션 프로비저닝](https://docs.microsoft.com/office365/customlearning/custom_provision)을 참조하세요.
+
+### <a name="create-a-learning-plan"></a>학습 계획 만들기
+
+#### <a name="plan-your-learning-content"></a>학습 콘텐츠 계획
+
+학습 경로에서 사이트를 구축하기 전에 시간을 내어 사용 가능한 학습 리소스 및 기능을 검토하고 수집하세요. 학습 경로를 통해 Microsoft 365 교육 페이지의 콘텐츠를 사용하고 사용자가 만든 콘텐츠를 추가하여 사이트를 고유한 요구에 맞게 조정할 수 있습니다.
+
+자세한 내용은 [교육 경로 콘텐츠 계획](https://docs.microsoft.com/office365/customlearning/custom_plancontent) 및 [원격 인력 지원 리소스](https://docs.microsoft.com/office365/customlearning/custom_plancontent_remoteresources)를 참조하세요.
+
+#### <a name="explore-teams-content-in-learning-pathways"></a>학습 경로에서 Teams 콘텐츠 살펴보기
+
+학습 경로는 온라인 카탈로그에 연결된 웹 파트를 사용하여 SharePoint 사이트를 제공합니다. 웹 파트를 호스트하는 Microsoft 365 교육 페이지에는 학습 경로에서 사용할 수 있는 모든 교육 과정이 표시됩니다. 사용 가능한 기능과 콘텐츠를 구성하는 방법에 대해 자세히 알아보세요.
+
+[학습 경로 사이트로 이동하고](https://docs.microsoft.com/office365/customlearning/custom_goto) **Microsoft 365 교육** 을 선택한 다음 **Microsoft Teams** 를 선택하여 온라인 카탈로그의 모든 Teams 교육 재생 목록을 표시하세요. 재생 목록을 선택하고 **다음** 및 **이전** 단추를 선택하여 탐색합니다. 아래쪽 화살표를 클릭하여 재생 목록의 내용을 보고 특정 항목으로 이동할 수도 있습니다.
+
+#### <a name="take-an-inventory-of-teams-learning-resources-in-your-organization"></a>조직 내 팀 학습 리소스 인벤토리 수집
+
+조직에서 이미 사용할 수 있는 Teams 학습 콘텐츠를 검토하세요. 예를 들어 Teams에 대해 사용자 지정 온보딩, 교육 또는 지원 콘텐츠를 이미 개발했을 수 있습니다. 기존 SharePoint 자산은 재생 목록에서 Microsoft 콘텐츠와 섞여 조직에 맞는 대상 재생 목록을 만들 수 있습니다.
+
+#### <a name="build-your-site-in-learning-pathways"></a>학습 경로에서 사이트 작성
+
+[관리자 성공 센터](https://docs.microsoft.com/office365/customlearning/custom_successcenter) 교육 경로에서는 조직에서 학습 경로를 계획하고 사용자 지정하는 데 도움이 되는 지침과 리소스를 제공합니다. [사이트 사용자 지정 방법](https://docs.microsoft.com/office365/customlearning/custom_overview), 콘텐츠 표시 및 숨기기, 사용자 지정 재생 목록 작성 등에 대해 알아보세요.
+
+관리 성공 센터에 액세스하려면 학습 경로 홈페이지에서 **관리자 성공 센터** 를 선택합니다.
+
+#### <a name="add-your-site-to-teams"></a>Teams에 사이트 추가
+
+사이트가 준비되면 모든 팀의 채널에 쉽고 빠르게 액세스할 수 있도록 추가합니다.
+
+1. Teams에서 팀으로 이동하고 채널을 선택합니다.
+2. 채널 페이지의 맨 위에서 **+** (**탭 추가**)를 선택합니다.
+3. **SharePoint 페이지** 를 선택하고 **모든 SharePoint 사이트에서 페이지 추가** 를 선택합니다.
+4. 학습용 경로 사이트 URL을 붙여넣고 **저장** 을 선택합니다.
+
+자세한 내용은 [Teams 채널에 SharePoint 페이지 또는 목록 추가](https://support.microsoft.com/office/add-a-sharepoint-page-or-list-to-a-channel-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)를 참조하세요.
+
+### <a name="train-your-support-team"></a>지원 팀 교육
+
+학습 경로 사이트의 리소스를 사용하여 지원 센터와 챔피언을 Teams에 온보드할 수 있습니다. Teams 사용자를 지원하는 데 필요한 도구와 정보를 준비하세요.
+
+Teams 지원 센터 및 챔피언을 준비하는 방법에 대한 지침 및 리소스는 [조직 교육](https://adoption.microsoft.com/microsoft-teams/#train-your-org) 및 [챔피언 빌드](https://adoption.microsoft.com/microsoft-teams/#build-champions)를 참조하세요.
+
+사용자의 "방법" 질문에 대한 연락 담당자로서 지원 센터와 챔피언은 학습 경로 사이트를 사용하여 사용자를 교육하고 지원 티켓을 만드는 대안으로 사용할 수 있습니다. 교육 및 지원 페이지를 작성하여 [학습 경로 사이트를 사용자 지정](https://docs.microsoft.comoffice365/customlearning/custom_overview)하도록 지원 센터와 챔피언에게 권장한 다음 사용자가 자체 서비스할 수 있도록 팀의 [채널에 탭으로 추가](#add-your-site-to-teams)합니다.
+
+### <a name="drive-adoption"></a>도입 주도
+
+사이트를 사용자 지정하고 학습 계획을 종합한 다음 사용자가 학습 경로를 통해 지속적인 학습을 하도록 장려할 수 있는 방법을 생각해 보세요.
+
+소통 채널을 사용하여 사이트를 홍보하고 인지도를 올리세요. 예를 들어, 사용자와 소통할 때 "Teams로 생산성을 높이는 방법에 대한 교육 및 지원 사이트를 확인"과 같은 표준 태그 라인을 포함하세요.
+
+팀별로 공동 작업할 수 있는 방법을 강조 표시하여 사용자를 참여시키고 학습 경로 사이트로 안내하여 학습 방법을 학습할 수 있습니다.
+
+성공적인 롤아웃 및 도입 계획을 구현하는 데 도움이 되는 지침, 도입 키트, 모범 사례 등이 포함된 리소스를 확인하세요.  
+
+- [학습용 경로 도입 구동](https://docs.microsoft.com/office365/customlearning/driveadoption)
+- [Teams 채택](adopt-microsoft-teams-landing-page.md)
+- [Teams 채택 리소스](https://adoption.microsoft.com/microsoft-teams/)
+
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
+
+### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Teams용 어드바이저에 대한 라이선스 요구 사항
+
 적어도 Microsoft 365 Business Basics가 있어야 하며 이를 통해 Teams용 어드바이저의 양식 및 플래너와의 통합을 활용할 수 있습니다.
 
 ### <a name="can-i-delete-the-deployment-team"></a>배포 팀을 삭제할 수 있나요?
+
 Advisor for Teams에서 배포 팀을 만든 이후 삭제 기능을 포함해 다른 모든 팀과 같이 팀을 관리하십시오. Teams 관리 센터를 사용하여 팀을 삭제하지 않는 경우 Teams 관리 센터는 팀이 존재하는 것으로 표시합니다.
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>배포 팀에서 채널을 추가하거나 제거할 수 있나요?
+
 예. 배포 팀이 만들어졌으면 다른 모든 팀과 동일한 방식으로 채널을 관리하게 됩니다.
 
 ### <a name="can-i-add-or-remove-project-team-members-in-the-deployment-team"></a>배포 팀에서 프로젝트 팀 구성원을 추가하거나 제거할 수 있나요?
+
 예. 배포 팀이 만들어지고 나면 다른 모든 팀과 동일한 방식으로 관리하게 됩니다.
 
 ### <a name="can-i-modify-the-planner-plans"></a>Planner 플랜을 수정할 수 있나요?
+
 예, Advisor for Teams에서 배포 팀을 만든 후에는 Teams 배포를 최상으로 지원하도록 Planner 플랜을 업데이트해야 합니다. 버킷, 작업, 작업 세부 정보 등 다른 Planner 플랜처럼 모든 요소를 수정할 수 있습니다.
 
 ### <a name="can-i-modify-the-forms-survey"></a>Forms 설문 조사를 수정할 수 있나요?
-예, Advisor for Teams에서 배포 팀을 만든 후에는 필요에 따라 Forms 설문 조사를 수정할 수 있습니다.
+
+예, Teams용 어드바이저에서 배포 팀을 만든 후에는 필요에 따라 Forms 설문 조사를 수정할 수 있습니다.
 
 ### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>GCC에서 Teams의 관리자들 사이에 차이가 있나요?
+
 예. 현재 GCC에서는 Teams Forms 앱을 사용할 수 없으므로 사용자 설문 조사 양식이 생성은 되지만 계획 채널에 고정되어 있지 않습니다.
 
-### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>내 조직에 대해 Advisor for Teams에서 어떤 정보를 수집하나요?
+### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>내 조직에 대해 Teams용 어드바이저에서 어떤 정보를 수집하나요?
+
 Advisor for Teams에서는 EUII(최종 사용자 식별 정보) 이외의 정보를 수집하는 데 사용자의 동의를 요청합니다. 수집된 정보는 Advisor for Teams에서 어떻게 효과적으로 성공적인 결과를 유도하고 있는지, 그리고 향상해야 할 부분은 무엇인지에 대해 Microsoft에 피드백을 제공하는 원격 분석 양식에 있습니다. 이와 같은 데이터는 Microsoft가 배포를 지원하기 위한 노력의 일환으로 사용자의 조직에 적극적으로 관여할 기회를 식별하는 데 사용됩니다.
 
-### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Advisor for Teams를 FastTrack과 사용할 수 있나요?
+### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Teams용 어드바이저를 FastTrack과 사용할 수 있나요?
+
 예, FastTrack에서는 Teams을 배포하려는 모든 고객을 위해 Advisor for Teams를 활용합니다. Advisor for Teams(필요할 경우)를 사용하여 배포 팀 초기 설정을 지원하고 Teams 롤아웃 중 특정 주제에 대해 필요할 경우 지원을 제공할 수도 있습니다.
 
-### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Advisor for Teams를 파트너와 함께 사용할 수 있나요?
+### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Teams용 어드바이저를 파트너와 함께 사용할 수 있나요?
+
 예, Teams 배포를 위해 배포 파트너를 사용하는 중에도 Advisor for Teams를 사용할 수 있습니다. 파트너가 CSP이고 사용자의 테넌트를 대신 관리할 경우 Advisor for Teams를 사용하여 배포 팀을 만들고 전체 프로젝트 이행을 지원할 수 있습니다. 또한 배포 팀에서 해당 사용자를 게스트로 추가하여 모든 파트너와 함께 작업하여 전체 프로젝트 팀원으로서 참여하게 할 수 있습니다.
 
-### <a name="how-do-i-use-planner"></a>Planner를 사용하려면 어떻게 해야 합니까?
-[Microsoft Planner 도움말](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) 및 [Planner 빠른 시작 비디오](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)를 확인하십시오. 
+### <a name="how-do-i-use-planner"></a>Planner를 사용하려면 어떻게 해야 하나요?
 
-### <a name="how-do-i-use-forms"></a>Forms를 사용하려면 어떻게 해야 합니까?
+[Microsoft Planner 도움말](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) 및 [Planner 빠른 시작 비디오](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)를 확인하십시오.
+
+### <a name="how-do-i-use-forms"></a>Forms를 사용하려면 어떻게 해야 하나요?
+
 [Forms 도움말 센터](https://support.office.com/forms)로 이동하십시오.
 
 ## <a name="related-topics"></a>관련 항목
+
+[Teams 관리자 사용자 지정](https://docs.microsoft.com/office365/customlearning/custom_teamsadvisor)
 
 [Teams를 배포하는 방법](How-to-roll-out-teams.md)
 
