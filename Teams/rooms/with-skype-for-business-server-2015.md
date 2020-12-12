@@ -1,7 +1,7 @@
 ---
-title: 비즈니스용 Skype 서버를 사용 하 여 Microsoft 팀 회의실 배포
-ms.author: v-lanac
-author: lanachin
+title: 비즈니스용 Skype Server를 통해 Microsoft Teams 회의실 배포
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -13,23 +13,23 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: 비즈니스용 Skype 서버를 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
+description: 비즈니스용 Skype Server를 통해 Microsoft Teams 회의실을 배포하는 방법에 대한 자세한 내용은 이 항목을 참조하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9e827f4d1fc020160b59f26dffde960394c3a69e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9ee33ec1ded7e8461f629c4552236ee60828a168
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905270"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662263"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>비즈니스용 Skype 서버를 사용 하 여 Microsoft 팀 회의실 배포
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>비즈니스용 Skype Server를 통해 Microsoft Teams 회의실 배포
   
-이 항목에서는 단일 포리스트, 온-프레미스 배포를 사용 하는 경우 Microsoft 팀 대화방에 대 한 디바이스 계정을 추가 하는 방법에 대해 설명 합니다.
+이 항목에서는 단일 포리스트, 프레미스 배포가 있는 경우 Microsoft Teams 회의실에 대한 디바이스 계정을 추가하는 방법을 설명합니다.
   
-Exchange 2013 SP1 이상 및 비즈니스용 Skype Server 2015 이상에서 단일 포리스트, 온-프레미스 배포를 사용 하는 경우 제공 된 Windows PowerShell 스크립트를 사용 하 여 디바이스 계정을 만들 수 있습니다. 다중 포리스트 배포를 사용 하는 경우 동일한 결과를 생성 하는 동일한 cmdlet을 사용할 수 있습니다. 이 섹션에서는 이러한 cmdlet에 대해 설명 합니다.
+Exchange 2013 SP1 이상 및 비즈니스용 Skype Server 2015 이상을 사용하는 단일 포리스트, 프레미스 배포가 있는 경우 제공된 Windows PowerShell 스크립트를 사용하여 장치 계정을 만들 수 있습니다. 다중 포리스트 배포를 사용하는 경우 동일한 결과를 생성하는 동등한 cmdlet을 사용할 수 있습니다. 이러한 cmdlet은 이 섹션에 설명되어 있습니다.
 
   
-Microsoft 팀 회의실 배포를 시작 하기 전에 연결 된 cmdlet을 실행할 수 있는 권한이 있는지 확인 합니다.
+Microsoft Teams 회의실 배포를 시작하기 전에 연결된 cmdlet을 실행할 수 있는 올바른 권한이 있는지 확인해야 합니다.
   
 
    ``` Powershell
@@ -43,11 +43,11 @@ Microsoft 팀 회의실 배포를 시작 하기 전에 연결 된 cmdlet을 실�
    Import-PSSession $sessLync
    ```
 
-   $StrExchangeServer는 Exchange server의 FQDN (정규화 된 도메인 이름)이 고 $strLyncFQDN는 비즈니스용 Skype 서버 배포의 FQDN입니다.
+   이 $strExchangeServer Exchange 서버의 FQDN(FQDN)으로, $strLyncFQDN 비즈니스용 Skype 서버 배포의 FQDN입니다.
 
-2. 세션을 설정한 후 새 사서함을 만들고이를 RoomMailboxAccount 사용 하도록 설정 하거나 기존 회의실 사서함에 대 한 설정을 변경할 수 있습니다. 이렇게 하면 계정이 Microsoft 팀 방에 대 한 인증을 받을 수 있습니다.
+2. 세션을 설정한 후 새 사서함을 만들고 RoomMailboxAccount로 사용하도록 설정하거나 기존 방 사서함의 설정을 변경합니다. 이렇게 하면 계정이 Microsoft Teams 회의실에 인증할 수 있습니다.
 
-    기존 리소스 사서함을 변경 하려면 다음을 수행 합니다.
+    기존 리소스 사서함을 변경하는 경우:
 
    ``` Powershell
    Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
@@ -61,7 +61,7 @@ Microsoft 팀 회의실 배포를 시작 하기 전에 연결 된 cmdlet을 실�
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. 디바이스 계정에서 다양 한 Exchange 속성을 설정 하 여 사용자의 모임 환경을 향상 시킬 수 있습니다. Exchange 속성 섹션에서 설정 해야 하는 속성을 확인할 수 있습니다.
+3. 디바이스 계정에 다양한 Exchange 속성을 설정하여 사용자에 대한 모임 환경을 개선할 수 있습니다. Exchange 속성 섹션에서 설정해야 하는 속성을 볼 수 있습니다.
 
    ``` Powershell
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -69,28 +69,28 @@ Microsoft 팀 회의실 배포를 시작 하기 전에 연결 된 cmdlet을 실�
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. 암호가 만료 되지 않도록 결정 한 경우에는 Windows PowerShell cmdlet을 사용 하 여 설정할 수 있습니다. 자세한 내용은 암호 관리를 참조 하세요.
+4. 암호가 만료되지 않는 경우 cmdlet을 사용하여 Windows PowerShell 수 있습니다. 자세한 내용은 암호 관리를 참조하세요.
 
    ``` Powershell
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. Active Directory에서 계정을 사용 하도록 설정 하 여 Microsoft 팀 대화방에 인증 합니다.
+5. Active Directory에서 계정을 사용하도록 설정하여 Microsoft Teams 회의실에 인증합니다.
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. 비즈니스용 Skype 서버 풀에서 Microsoft 팀 회의실 Active Directory 계정을 사용 하도록 설정 하 여 비즈니스용 Skype 서버에서 디바이스 계정을 사용 하도록 설정 합니다.
+6. 비즈니스용 Skype 서버 풀에서 Microsoft Teams Rooms Active Directory 계정을 사용하도록 설정하여 비즈니스용 Skype Server에서 장치 계정을 사용하도록 설정:
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
    ```
 
-    프로젝트에 대 한 SIP (세션 시작 프로토콜) 주소 및 도메인 컨트롤러를 사용 해야 합니다.
+    프로젝트에 대해 SIP(세션 시작 프로토콜) 주소 및 도메인 컨트롤러를 사용해야 합니다.
 
-7. **).** 또한 Microsoft 팀 대화방에서 계정에 엔터프라이즈 음성을 사용 하도록 설정 하 여 일반 PSTN (교환 전화 네트워크) 전화를 걸고 받을 수 있습니다. 엔터프라이즈 음성은 Microsoft 팀 방에 대 한 요구 사항이 아니지만 Microsoft 팀원에 게 PSTN 전화 접속 기능을 설정 하려면 다음 방법을 사용 하세요.
+7. **선택 사항입니다.** 또한 Microsoft Teams 회의실에서 계정에 대해 PSTN(공용 전화망) 전화 통화를 걸고 받을 Enterprise Voice 수 있습니다. Enterprise Voice Microsoft Teams 회의실에 대한 요구 사항은 없지만 Microsoft Teams Rooms 클라이언트에 PSTN 전화 걸기 기능을 사용하려면 다음 방법을 사용하세요.
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -99,9 +99,9 @@ Microsoft 팀 회의실 배포를 시작 하기 전에 연결 된 cmdlet을 실�
    Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
    ```
 
-   또한 제공 된 도메인 컨트롤러 및 전화 번호 예제를 자신의 정보로 바꿔야 합니다. 매개 변수 값 $true 동일 하 게 유지 됩니다.
+   다시, 제공된 도메인 컨트롤러 및 전화 번호 예제를 사용자 자신의 정보로 대체해야 합니다. 매개 변수 $true 동일하게 유지됩니다.
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>샘플: Exchange 및 비즈니스용 Skype Server (온-프레미스)의 채팅방 계정 설정
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>샘플: Exchange 및 비즈니스용 Skype 서버의 채팅방 계정 설정
 
 ``` Powershell
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
@@ -119,7 +119,7 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 팀 대화방 계정 구성](rooms-configure-accounts.md)
+[Microsoft Teams 회의실에 대한 계정 구성](rooms-configure-accounts.md)
 
 [Microsoft Teams 룸 계획](rooms-plan.md)
   

@@ -1,5 +1,5 @@
 ---
-title: 관리 센터를 사용 하 여 팀 재무 서식 파일 시작
+title: 관리 센터를 사용하여 Teams 재무 서식 파일 시작
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 사용 방법에 대해 알아보세요. 관리 센터를 사용 하 여 미리 정의 된 설정, 채널 및 사전 설치 앱을 제공 하 여 재무 요구 사항에 맞게 설계한 팀 구조를 만들기 위한 팀 서식 파일
+description: 사용 방법을 배워야 합니다. 관리 센터를 사용하여 미리 정의한 설정, 채널 및 미리 설치된 앱을 제공하여 재무 요구를 위해 설계된 팀 구조를 만드는 Teams 템플릿입니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,40 +19,40 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 34a462a38581eec8720bd2184749b842aaa6d06f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424608"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662513"
 ---
-# <a name="use-teams-financial-templates-in-the-admin-center"></a>관리 센터에서 팀 재무 서식 파일 사용
+# <a name="use-teams-financial-templates-in-the-admin-center"></a>관리 센터에서 Teams 재무 서식 파일 사용
 
-팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
+Teams 서식 파일을 사용하면 설정, 채널 및 미리 설치된 앱의 미리 정의된 서식 파일을 제공하여 빠르고 쉽게 팀을 만들 수 있습니다.
 
-팀 템플릿에는 재무 요구에 따라 디자인 된 팀 구조 정의가 미리 작성 되어 있습니다. 팀 템플릿을 확장 하 여 특정 조직의 요구 사항에 맞게 조정 된 팀을 만들 수도 있습니다.
+Teams 템플릿에는 재무 요구 사항을 중심으로 설계된 팀 구조에 대한 미리 작성된 정의가 있습니다. Teams 서식 파일을 확장하여 특정 조직 요구에 맞는 팀을 만들 수도 있습니다.
 
-이 문서에서는 각 팀 템플릿을 소개 하 고 사용 방법을 추천 합니다.
+이 문서에서는 각 Teams 서식 파일을 소개하고 이를 사용하는 방법을 추천합니다.
 
-이 문서에서는 재무 조직에서 여러 팀을 계획, 배포 및 관리 하는 책임이 있습니다. 조직에 이미 팀 서비스를 배포 했습니다. 아직 팀을 롤아웃하기 않은 경우 먼저 [Microsoft 팀을 배포 하는 방법을](How-to-roll-out-teams.md)읽어 보세요.
+이 문서는 재무 조직에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다. 조직에 Teams 서비스를 이미 배포했습니다. 아직 Teams를 롤아웃하지 않은 경우 먼저 Microsoft Teams를 롤아웃하는 [방법을 읽어 읽습니다.](How-to-roll-out-teams.md)
 
-일반적으로 팀 서식 파일에 대 한 자세한 내용은 [팀 서식 파일 시작](get-started-with-teams-templates-in-the-admin-console.md)을 참조 하세요.
+일반적으로 팀 서식 파일에 대한 자세한 내용은 Teams 서식 파일 [시작을 참조합니다.](get-started-with-teams-templates-in-the-admin-console.md)
 
-## <a name="global-crisis-or-event"></a>전역 위기 또는 이벤트
+## <a name="global-crisis-or-event"></a>글로벌 위기 또는 이벤트
 
-비즈니스 단위에서 위기 팀을 위한 공동 작업을 수행 하 고, 비즈니스 연속성 계획을 만들고, 원격 작업 팁을 공유 하 고, 고객 통신을 추적 하 고, 모든 사용자에 게 공지 사항 및 뉴스를 유지 하는 데
+사업부 전반에 걸쳐 위기 팀에 대한 공동 작업을 중앙 집중화하고 비즈니스 연속성 계획을 만들고, 원격 작업 팁을 공유하고, 고객 통신을 추적하고, 공지와 뉴스를 통해 모든 사람을 계속 진행할 수 있습니다.
 
-| 기본 서식 파일 형식|baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
+| 기본 템플릿 형식|baseTemplateId | 이 기본 템플릿과 함께 사용할 속성 |
 | ------------------|-- |----------------------------------------------------- |
-| 전역 위기 또는 이벤트에 대 한 공동 작업|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |채널 <ul><li>일반<li>알림에서</li><li>월드 뉴스</li><li>비즈니스 연속성</li><li>원격 작업</li><li>내부 주석 s</li><li>외부 대화 s</li><li>고객 불만</li><li>보너스</li><li>임원 업데이트</li></ul>들 <ul><li>칭찬</li><li>키</li><li>웹 사이트</li></ul>|
+| 글로벌 위기 또는 이벤트에 대한 공동 작업|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |채널: <ul><li>일반<li>공지</li><li>세계 뉴스</li><li>비즈니스 연속성</li><li>원격 작업</li><li>내부 COMM</li><li>외부 커미스</li><li>승인 요청</li><li>고객 불만</li><li>Kudos</li><li>경영진 업데이트</li></ul>앱: <ul><li>칭찬</li><li>Wiki</li><li>웹 사이트</li><li>Planner</li></ul>|
 ||||
 
-## <a name="collaborate-within-a-bank-branch"></a>은행 지사 내에서 공동 작업
+## <a name="collaborate-within-a-bank-branch"></a>은행 지점 내에서 공동 작업
 
-은행에 대 한 공동 작업은 Huddles, 고객 모임, 담보 대출 공동 작업 등의 비즈니스 프로세스를 통해 직원 들에 게 집중 하 고 모든 사용자에 게 공지 및 Kudos를 포함 하도록 유지 합니다.
+Huddles, 고객 모임, 대출 공동 작업과 같은 비즈니스 프로세스에 걸쳐 은행 지점 직원을 위한 공동 작업을 중앙 집중화하고 모든 사람을 공지 및 Kudos로 계속 관리합니다.
 
-| 기본 서식 파일 형식 |baseTemplateId| 이 기본 서식 파일에 포함 된 속성 |
+| 기본 템플릿 형식 |baseTemplateId| 이 기본 템플릿과 함께 사용할 속성 |
 | ------------------ |--|----------------------------------------------------- |
-|은행 지사 내에서 공동 작업|`com.microsoft.teams.template.CollaborateWithinABankBranch` |채널 <ul><li>일반<li>알림에서</li><li>Huddles</li><li>고객 모임</li><li>코칭</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만</li><li>보너스</li><li>재미 있는 내용</li><li>규정 준수</li></ul>|
+|은행 지점 내에서 공동 작업|`com.microsoft.teams.template.CollaborateWithinABankBranch` |채널: <ul><li>일반<li>공지</li><li>Huddles</li><li>고객 모임</li><li>승인 요청</li><li>코치</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만</li><li>Kudos</li><li>재미있는 것</li><li>규정 준수</li></ul>앱:<ul><li>칭찬</li></ul>|
 ||||
 

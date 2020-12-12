@@ -1,5 +1,5 @@
 ---
-title: 관리 센터에서 팀 의료 템플릿 사용
+title: 관리 센터에서 Teams 의료 서식 파일 사용
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,39 +20,39 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 관리 센터에서 Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 서식 파일, 채널 및 앱 템플릿을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
+description: 관리 센터에서 Microsoft Teams 서식 파일을 사용하여 설정, 채널 및 앱의 미리 정의된 서식 파일을 제공하여 빠르고 쉽게 팀을 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 9c5ee54f9cbade8132d31d8f984c1d85fd8252b3
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800671"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662233"
 ---
-# <a name="use-teams-healthcare-templates-in-the-admin-center"></a>관리 센터에서 팀 의료 템플릿 사용
+# <a name="use-teams-healthcare-templates-in-the-admin-center"></a>관리 센터에서 Teams 의료 서식 파일 사용
 
-Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
+Microsoft Teams 서식 파일을 사용하면 설정, 채널 및 미리 설치된 앱의 미리 정의된 서식 파일을 제공하여 빠르고 쉽게 팀을 만들 수 있습니다.
 
-건강 보험 조직의 경우, 사용자가 팀을 효과적으로 활용 하는 방법에 대 한 구조를 제공 하는 것 처럼 서식 파일을 사용 하는 것이 특히 좋을 수 있습니다. 또한 서식 파일을 사용 하면 관리자가 조직 간에 일관 된 팀을 배포할 수 있습니다. 이 문서는 의료 기관에서 여러 팀을 계획, 배포 및 관리 해야 하는 경우에 적합 합니다.
+의료 조직의 경우 템플릿은 사용자가 Teams를 효과적으로 활용하는 방법을 주도할 수 있는 구조를 제공하기에 특히 강력할 수 있습니다. 또한 템플릿을 사용하면 관리자가 조직 전체에서 일관된 팀을 배포할 수 있습니다. 이 문서는 의료 조직 전체에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다.
 
-현재 다양 한 상황에 사용할 수 있는 제 2 자 건강 보험 템플릿을 제공 합니다. 팀 서식 파일에 대 한 일반적인 내용은 [관리 센터에서 팀 서식 파일 시작](../../get-started-with-teams-templates-in-the-admin-console.md)을 참조 하세요.
+현재 다양한 상황에 사용할 수 있는 두 개의 첫 번째 의료 템플릿을 제공합니다. 일반적으로 팀 서식 파일에 대한 자세한 내용은 관리 센터에서 Teams 서식 [파일 시작을 참조하세요.](../../get-started-with-teams-templates-in-the-admin-console.md)
 
-## <a name="collaborate-on-patient-care"></a>환자 관리에 대 한 공동 작업
+## <a name="collaborate-on-patient-care"></a>환자 관리에 대한 공동 작업
 
- 통합, pod 또는 부서 내에서 건강 보험 통신과 공동 작업을 합리화 하세요. 서식 파일을 사용 하 여 환자 관리 및 운영 요구를 활용할 수 있습니다.
+ 구, Pod 또는 부서 내에서 의료 통신 및 공동 작업을 간소화합니다. 이 템플릿은 환자 관리 및 구의 운영 요구를 용이하게 하는 데 사용할 수 있습니다.
 
-| 기본 서식 파일 형식 |baseTemplateId| 이 기본 서식 파일에 포함 된 속성 |
+| 기본 템플릿 형식 |baseTemplateId| 이 기본 템플릿과 함께 사용할 속성 |
 | ------------------ |---|----------------------------------------------------- |
-| 환자 관리에 대 한 공동 작업 |`healthcareWard` | 채널<ul><li>일반</li><li>알림에서</li><li>Huddles</li><li>소수</li><li>자원</li><li>교육</li></ul> 들 <ul><li>키</li>|
+| 환자 관리에 대한 공동 작업 |`healthcareWard` | 채널:<ul><li>일반</li><li>공지</li><li>Huddles</li><li>반올라</li><li>직원</li><li>교육</li></ul> 앱: <ul><li>Wiki</li><li>목록</li></ul>|
 ||||
 
 ## <a name="hospital"></a>병원
 
-병원에서 여러 wards, pods, 부서 간의 의사 소통 및 공동 작업을 간소화 합니다. 이 서식 파일에는 병원 작업을 위한 기본 채널 집합이 포함 되며, 자격증, ad-hoc을 포함 하도록 자체 확장할 수 있습니다.
+여러 구, Pod 및 병원 내의 부서 간 통신 및 공동 작업을 간소화합니다. 이 템플릿은 병원 운영을 위한 기본 채널 집합을 포함하며, 전문성, 애드워크를 포함하기 위해 자체 확장될 수 있습니다.
 
-| 기본 서식 파일 형식 |baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
+| 기본 템플릿 형식 |baseTemplateId | 이 기본 템플릿과 함께 사용할 속성 |
 | ------------------|-- |----------------------------------------------------- |
-|병원|`healthcareHospital`|채널 <ul><li>일반<li>알림에서</li><li>규정 준수</li><li>Custodial</li><li>인적 자원</li><li>Pharmacy</li></ul> 들 <ul><li>키</li></ul>|
+|병원|`healthcareHospital`|채널: <ul><li>일반</li><li>공지</li><li>규정 준수</li><li>양도</li><li>인적 자원</li><li>약국</li></ul> 앱: <ul><li>Wiki</li><li>목록 </li></ul>|
 ||||
 
 ## <a name="related-topics"></a>관련 항목

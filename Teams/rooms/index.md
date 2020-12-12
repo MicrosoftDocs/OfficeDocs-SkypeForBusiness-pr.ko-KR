@@ -1,8 +1,8 @@
 ---
-title: Microsoft 팀 가상 회의실
+title: Microsoft Teams 가상 회의실
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ localization_priority: Normal
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: 적절 한 가상 회의실을 만들기 위한 시스템 계획, 배포 및 관리를 비롯 한 Microsoft 팀 대화방을 설정 하는 방법에 대해 알아봅니다.
+description: 이상적인 가상 회의실을 만들기 위해 시스템 계획, 배포 및 관리를 포함하여 Microsoft Teams 회의실을 설정하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 12a6fadbf320768aca4ce2f5af314f13d22b8c9d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 85c3da4b1c39c60454c4530a7e45ca0695eb70b5
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031414"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662033"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
 :::row:::
     :::column span="2":::
-       적은 규모의 공동 작업 팀이 사용 하 고, 배포 하 고 관리 하는 것이 간편한 대규모 huddle 영역에 이르기까지 모임 공간을 다양 하 게 변환할 수 있습니다. <br> 
-       원터치 참가를 사용 하 여 한 번에 모임을 시작 하 고, 룸에 표시 되는 즉시 프로젝트를 진행 하 고 원격 참가자와 공유 합니다.<br> 
-       (옛 Alink, Logitech, Crestron, Polycom, Lenovo, HP 등 파트너 중 하나에서 올바른 시스템 및 오디오 영상 주변 장치를 선택 합니다.
+       사용하기, 배포 및 관리가 간편한 풍부한 공동 작업 Teams 환경을 사용하여 소규모 Huddle 영역에서 대규모 회의실으로 모임 공간을 변환합니다. <br> 
+       원터치 참가를 사용하여 제시간에 모임을 시작한 다음 즉시 회의실의 디스플레이에 투영하고 원격 참가자와 공유합니다.<br> 
+       파트너 중 하나인 Yealink, Logitech, Crestron, Polycom, Lenovo 및 HP 중 하나에서 올바른 시스템 및 오디오 비디오 주변 장치를 선택합니다.
     :::column-end:::
     :::column:::
-       ![Microsoft 팀 회의실 장비를 사용 하는 컨퍼런스 표](../media/srs-room.jpg)
+       ![Microsoft Teams 회의실 장비가 있는 회의 테이블](../media/srs-room.jpg)
     :::column-end:::
 :::row-end:::
 
@@ -43,9 +43,9 @@ ms.locfileid: "49031414"
 <br>
 
 > [!NOTE]
-> Microsoft 팀 대화방은 Microsoft 팀, 비즈니스용 Skype Online, 비즈니스용 skype 서버 2019 또는 비즈니스용 Skype Server 2015에 사용 하기 위한 것입니다.  <br><br>Lync Server 2013와 같은 이전 플랫폼은 Microsoft 팀 대화방에서 작동 하지 않을 것으로 예상 되지 않습니다.
+> Microsoft Teams 회의실은 Microsoft Teams, 비즈니스용 Skype Online, 비즈니스용 Skype Server 2019 또는 비즈니스용 Skype Server 2015에서 사용할 수 있습니다.  <br><br>Lync Server 2013과 같은 이전 플랫폼은 Microsoft Teams 회의실에서 사용할 수 없습니다.
 
-이러한 문서는 시스템 사용자가 아닌 이러한 장치를 계획, 배포 및 관리 하는 사용자를 대상으로 합니다. 사용자는 Microsoft 팀 대화방 [온라인 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)에 더 관심이 있습니다.
+이러한 문서는 시스템 사용자가 아닌 이러한 디바이스를 계획, 배포 및 관리하는 작업을 맡은 사용자를 위한 것입니다. 사용자는 Microsoft Teams Rooms 온라인 도움말에 [더 관심이 있습니다.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 > [!NOTE]
-> [Skype 실 시스템](../rooms/lrs-migration.md) (이전의 Lync 실 시스템)과 Microsoft 팀 공간은 서로 다른 종속성 및 배포 절차를 사용 하는 다른 제품입니다.
+> [Skype 회의실](../rooms/lrs-migration.md) 시스템(이전의 Lync 채팅방 시스템)과 Microsoft Teams 회의실은 종속성 및 배포 절차가 서로 다른 제품입니다.

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams의 게스트 액세스를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다.
-ms.openlocfilehash: 266830f29f98d517450f4062ff23de9a7582a24f
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: 09090cc2061c3d138af2b3092e987293255a1134
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49476997"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662043"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 
@@ -37,7 +37,7 @@ Teams의 게스트는 Microsoft 365의 나머지 부분과 동일한 규정 준�
 게스트 환경에는 디자인별로 제약 사항이 있습니다. 게스트가 Teams에서 수행할 수 있는 작업에 대한 전체 목록을 보려면 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요.
 
 > [!IMPORTANT]
-> 게스트 사용자는 동시 업그레이드 모드를 위해 Temas 조직 전체 설정을 따릅니다. 변경할 수 없습니다.
+> 게스트는 공존 업그레이드 모드에 대한 Teams 전체 설정을 따르고 있습니다. 변경할 수 없습니다.
 
 게스트 액세스를 설정하려면 [팀에서 게스트와 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 참조하세요. 
 
@@ -57,10 +57,10 @@ Teams에서 게스트 액세스는 기본적으로 비활성화된 조직 전체
 1. 팀 소유자나 Microsoft 365 관리자가 [팀에 게스트를 추가](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)합니다.
 2. 게스트는 팀에 대한 정보와 구성원이 되었으므로 기대할 수 있는 내용이 포함된 팀 소유자의 환영 전자 메일을 받게 됩니다. 
 3. 게스트가 초대를 수락합니다.
-  Azure Active Directory에 회사 또는 학교 계정이 있는 게스트 사용자는 초대를 수락하고 직접 인증할 수 있습니다. 다른 사용자에게는 ID를 확인할 수 있는 일회용 코드([일회용 암호 인증](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) 필수)가 전송됩니다.
+  Azure Active Directory에 직장 또는 학교 계정이 있는 게스트는 초대를 수락하고 직접 인증할 수 있습니다. 다른 사용자에게는 ID를 확인할 수 있는 일회용 코드([일회용 암호 인증](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) 필수)가 전송됩니다.
 4. 초대를 수락하면 게스트는 [팀과 채널에 참여](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), 채널 메시지 받기 및 응답, [채널에서 파일에 액세스](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), 채팅에 참여, 모임에 참여, 문서 공동 작업 등을 할 수 있습니다. 
 
-Teams에서는 게스트를 명확하게 식별합니다. 게스트 사용자 이름에는 레이블 **(게스트)** 이 포함되고, 채널에는 팀에 게스트가 있음을 나타내는 아이콘이 포함됩니다. 자세한 내용은 [게스트 환경의 모습](guest-experience.md)을 참조하세요.
+Teams에서는 게스트를 명확하게 식별합니다. 게스트 이름은 레이블(게스트)을 포함하며 **채널에는** 팀에 게스트가 있는 것을 나타내는 아이콘이 포함되어 있습니다. 자세한 내용은 [게스트 환경의 모습](guest-experience.md)을 참조하세요.
   
 게스트는 Teams 내에서 언제든지 팀을 떠날 수 있습니다. 자세한 내용은 [팀에서 나가는 방법](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)을 참조하세요.
 
@@ -84,7 +84,7 @@ Azure Active Directory를 사용하여 응용 프로그램에 할당된 그룹 �
 
 [조직 외부 사용자와 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[특정 Microsoft 365 그룹이나 Microsoft Teams 팀에서 게스트 사용자 차단](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[특정 Microsoft 365 그룹 또는 Microsoft Teams 팀에서 게스트 차단](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [보안 게스트 공유 환경 만들기](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
