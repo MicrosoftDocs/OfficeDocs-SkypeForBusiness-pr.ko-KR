@@ -40,7 +40,7 @@ Teams에서는 조직의 공동 작업 수명 주기 관리 프로세스를 구�
 
 **Teams**
 
-_팀_은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉션입니다. 팀은 구성원을 정의하고 해당 구성원에게 적용되는 사용 권한 및 정책을 정의합니다. Teams는 Microsoft 365 그룹을 기반으로 하므로 Microsoft 365 그룹 구성원 변경 사항이 팀에 동기화됩니다. 다른 Microsoft 365 그룹과 마찬가지로 Teams는 Exchange 사서함, SharePoint 사이트, OneNote 노트북 및 Microsoft 365 혹은 Office 365 내의 다른 자산으로 자동 프로 비전을 제공합니다. [Microsoft 365 그룹에 대해 자세히 알아보기.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+_팀_ 은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉션입니다. 팀은 구성원을 정의하고 해당 구성원에게 적용되는 사용 권한 및 정책을 정의합니다. Teams는 Microsoft 365 그룹을 기반으로 하므로 Microsoft 365 그룹 구성원 변경 사항이 팀에 동기화됩니다. 다른 Microsoft 365 그룹과 마찬가지로 Teams는 Exchange 사서함, SharePoint 사이트, OneNote 노트북 및 Microsoft 365 혹은 Office 365 내의 다른 자산으로 자동 프로 비전을 제공합니다. [Microsoft 365 그룹에 대해 자세히 알아보기.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 **채널**
 
@@ -57,10 +57,10 @@ _팀_은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉
 
 팀 사용자 유형은 팀 구성원이 가진 제어 수준을 결정합니다.
 
--   *팀 생성자*는 디렉터리에서 그룹 또는 팀을 만들 수 있는 권한을 가집니다. 관리자는 이 사용자 유형을 관리자 또는 사용자의 하위 집합으로 제한할 수 있습니다. 자세한 내용은 [Microsoft 365 그룹을 만들 수 있는 사용자 관리](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조하세요. 팀 생성자는 자동으로 팀의 소유자가 됩니다.
--   *팀 소유자*는 팀에 대한 멤버 자격과 설정을 관리합니다. 팀마다 최대 100명의 팀 소유자가 있을 수 있습니다.
--   *팀 구성원*은 팀에 참가하는 조직의 구성원입니다.
--   *게스트*는 조직 외부의 사용자입니다. 조직에서 [게스트 액세스](guest-access.md)를 사용하도록 설정한 경우 전자 메일 주소를 가진 모든 사용자를 게스트로 초대할 수 있습니다.
+-   *팀 생성자* 는 디렉터리에서 그룹 또는 팀을 만들 수 있는 권한을 가집니다. 관리자는 이 사용자 유형을 관리자 또는 사용자의 하위 집합으로 제한할 수 있습니다. 자세한 내용은 [Microsoft 365 그룹 생성 가능 사용자 관리](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조하세요. 팀 생성자는 자동으로 팀의 소유자가 됩니다.
+-   *팀 소유자* 는 팀에 대한 멤버 자격과 설정을 관리합니다. 팀마다 최대 100명의 팀 소유자가 있을 수 있습니다.
+-   *팀 구성원* 은 팀에 참가하는 조직의 구성원입니다.
+-   *게스트* 는 조직 외부의 사용자입니다. 조직에서 [게스트 액세스](guest-access.md)를 사용하도록 설정한 경우 전자 메일 주소를 가진 모든 사용자를 게스트로 초대할 수 있습니다.
 
 > [!Note]
 > [Microsoft Teams에서 역할 및 사용 권한 할당](assign-roles-permissions.md) 문서에서 팀 소유자와 팀 구성원 기능에 대한 자세한 내용을 확인할 수 있습니다.
