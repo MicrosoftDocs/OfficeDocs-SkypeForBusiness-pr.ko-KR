@@ -232,6 +232,8 @@
       href: manage-praise-app.md
     - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: Teams 승인 앱 가용성
+      href: approval-admin.md
 - name: 모 및 회의
   items:
     - name: 빠른 시작 - 모임 및 라이브 이벤트
