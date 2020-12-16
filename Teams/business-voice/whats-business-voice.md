@@ -32,7 +32,7 @@ Microsoft 365 Business Voice는 중소기업이 Microsoft Teams를 더욱 강력
 
 Business Voice는 Microsoft 365 전화 시스템 기능을 간단하고 관리하기 쉬운 묶음으로 모아서 이 모든 기능을 제공합니다. 올바른 계획이나 기능의 선택에 대해 걱정할 필요가 없습니다. 모두가 포함되고 설정되어 있습니다. 전화 시스템은 Teams의 일부이므로 사용자는 PC, Mac 또는 모바일 장치를 Business Voice 전화 번호를 사용할 수 있는 전화로 변환할 수 있습니다.
 
-Business Voice의 개요를 설명하는 짧은 동영상(2분 13초)입니다.
+Business Voice의 개요를 설명하는 짧은 영상(2분 13초)입니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M]
 
@@ -72,7 +72,7 @@ Business Voice를 구입하면 다음과 같은 기능 등을 사용할 수 있�
         <td>사용자의 국가나 지역 내의 전화는 무료입니다. 국제 플랜과 무료 전화 걸기를 사용할 수도 있습니다.</td>
     </tr>
     <tr>
-        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">오디오 회의</a></b>
+        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">음성 회의</a></b>
         </td>
         <td>음성 회의를 사용하면 Teams를 가지고 있지 않거나 인터넷에 연결되어 있지 않은 사용자와도 음성 회의를 주최할 수 있습니다.
         </td>

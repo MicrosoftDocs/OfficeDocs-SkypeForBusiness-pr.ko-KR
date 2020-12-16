@@ -31,7 +31,7 @@ ms.locfileid: "49130629"
 Microsoft Teams에서는 2개의 방법(모임 및 라이브 이벤트)을 통해 모임을 가질 수 있습니다. 이 문서를 사용하여 조직의 모임 및 라이브 이벤트를 빠르게 배포하고 구성할 수 있습니다.
 
 > [!Note]
-> 다양한 플랫폼에서 Teams 모임 및 이벤트를 신속하게 구성하는 방법에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
+> 여러 플랫폼에서 Teams 모임 및 이벤트를 신속하게 구성에 대한 자세한 내용은 [플랫폼별 Teams 기능을 참조](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)하세요.
 
  - Teams의 **모임** 에는 최대 300명의 사용자를 위한 음성, 영상 및 화면 공유 기능이 포함됩니다. 이러한 기능은 Teams에서 공동 작업하는 주요 방법 중 하나입니다. 조직의 구성원이 아니거나(심지어 Teams 계정이 없어도) Teams 모임에 참여할 수 있습니다. 전화 걸기에 대한 지침은 초대를 참조하세요.
 

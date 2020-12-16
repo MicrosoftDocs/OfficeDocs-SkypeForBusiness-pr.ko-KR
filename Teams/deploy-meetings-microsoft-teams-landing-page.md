@@ -41,9 +41,9 @@ ms.locfileid: "49030804"
 사용자들의 모임 경험에 대해 자세히 알아보려면 [모임 및 통화](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)를 참조하세요. 
 
 
-*2020년 4월의 새로운 기능* : 모음 이끌이는 모임 내 모임 컨트롤에서 **모임 종료** 를 클릭하여 Teams에서 모든 모임 참가자를 위해 모임을 종료할 수 있습니다.  
+*2020년 4월의 새로운 기능*: 모음 이끌이는 모임 내 모임 컨트롤에서 **모임 종료** 를 클릭하여 Teams에서 모든 모임 참가자를 위해 모임을 종료할 수 있습니다.  
 
-*2019년 11월의 새로운 기능* : 이제 [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams를 배포하는 데 도움을 받을 수 있습니다](use-advisor-teams-roll-out.md). Advisor for Teams(미리 보기)는 모임 및 회의를 포함하여 Teams의 배포 과정을 안내합니다. Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams에서 모임 및 회의를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
+*2019년 11월의 새로운 기능*: 이제 [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams를 배포하는 데 도움을 받을 수 있습니다](use-advisor-teams-roll-out.md). Advisor for Teams(미리 보기)는 모임 및 회의를 포함하여 Teams의 배포 과정을 안내합니다. Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams에서 모임 및 회의를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
 
  > [!Note]
 > 여러 플랫폼에서의 Teams 모임 및 회의에 대한 자세한 내용은 [플랫폼별 Teams 기능을 참조](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)하세요.
@@ -78,7 +78,7 @@ Teams에서 최상의 경험을 얻으려면 조직이 *Exchange Online 및 Shar
 
 ### <a name="teams-administrators"></a>Teams 관리자
 
-Teams는 조직의 팀을 관리하는데 사용할 수 있는 사용자 지정 관리자 역할의 집합을 제공합니다. 역할은 관리자에게 다양한 기능을 제공합니다. 
+Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용자 지정 관리자 역할을 제공합니다. 역할은 관리자에게 다양한 기능을 제공합니다. 
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
@@ -151,7 +151,7 @@ Teams에서 최적의 모임 경험을 위해 회의실 시스템, 전화, 헤�
 사용자는 자신의 모임 및 그룹 통화를 녹음/녹화하여 오디오, 비디오, 화면 공유 활동을 캡처할 수 있습니다. 사용자가 선택 캡션을 사용하여 모임을 녹음/녹화한 것을 재생하고 대화 내용에서 중요한 토론 항목을 검색할 수 있도록 녹음/녹화를 위한 자동 기록 옵션도 있습니다. 녹음/녹화는 클라우드에서 이루어지고 Microsoft Stream에 저장되므로 사용자는 조직 전체에서 안전하게 공유할 수 있습니다. 모임 녹음/녹화를 찾으려면 모임 대화로 이동합니다.
 
 >[!Note]
-> Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 새 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
+> Microsoft Stream의 사용에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](tmr-meeting-recording-change.md)로의 변경은 단계별 접근 방식을 사용합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우, 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
 
 자세한 내용은 [Teams 클라우드 모임 녹음/녹화](cloud-recording.md)를 참조하세요.
 

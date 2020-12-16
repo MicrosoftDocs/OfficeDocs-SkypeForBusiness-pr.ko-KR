@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서의 채팅, 팀, 채널 및 앱
+title: Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -28,7 +28,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031234"
 ---
-# <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 및 앱
+# <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
 Teams는 조직에 즉시 사용할 수 있는 우수한 협업 환경을 제공하며, 대부분의 조직에서는 기본 설정이 사용된다는 사실을 알게 됩니다. 이 자료에서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 설정을 변경할지 여부를 결정하는 데 도움이 되며, 각 변경 사항을 안내합니다. Microsoft는 설정을 두 그룹으로 나누었고, 첫 번째 그룹은 [사용자가 수행할 가능성이 더 높은 변경사항](#core-deployment-decisions)의 핵심 세트부터 시작합니다. 두 번째 그룹에는 조직의 필요에 따라 구성할 수 있는 [추가 설정](#additional-deployment-decisions)이 포함됩니다.
 
@@ -188,7 +188,7 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 | 사용자가 Teams를 사용할 수 있도록 하려면 인터넷 액세스 규칙이 필요한가요 혹은 필요한 최소 포트를 여는 것으로 충분하나요? | 자세한 내용은 [URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)를 참조하세요.|
 |||
 
-### <a name="governance-naming-conventions-who-can-create-teams"></a>거버넌스(팀을 만들 수 있는 사용자 명명 규칙)
+### <a name="governance-naming-conventions-who-can-create-teams"></a>거버넌스 (팀을 만들 수 있는 사용자 명명 규칙)
 
 조직에서는 팀 이름 지정 및 분류 방법, 팀 생성 및 팀 만료, 보존 및 아카이빙에 대한 제어를 구현해야 할 수 있습니다. 이를 거버넌스라고 합니다. Azure AD(Azure Active Directory)를 사용하여 이러한 각 영역을 구성할 수 있습니다.
 
@@ -251,7 +251,7 @@ Teams는 회의, 일정, 상호 대화, 파일 공유 등 핵심 생산성 시�
 |||
 
 ## <a name="next-steps"></a>다음 단계
-- 채팅, Teams, 채널 & 앱의 [도입을 진행합니다](adopt-microsoft-teams-landing-page.md).
+- 채팅, 팀, 채널 & 앱의 [도입을 진행합니다](adopt-microsoft-teams-landing-page.md).
 - 초기 Teams 배포에 플래너와 같은 응용프로그램을 포함합니다. Teams 도입을 추진할 때 다른 [개의 애플리케이션, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.
 - [모임 및 회의 출시](deploy-meetings-microsoft-teams-landing-page.md)
 - [클라우드 음성 출시](cloud-voice-landing-page.md)
