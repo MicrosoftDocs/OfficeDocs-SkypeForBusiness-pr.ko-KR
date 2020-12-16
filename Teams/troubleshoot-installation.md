@@ -18,7 +18,7 @@ search.appverid: MET150
 description: Windows에서 Teams 데스크톱 클라이언트 앱의 설치 및 문제를 해결하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
 ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/28/2020
 ms.locfileid: "47300282"
@@ -31,8 +31,8 @@ ms.locfileid: "47300282"
 
 다음 단계에 따라 Teams 업데이트가 설치되었는지 확인합니다.
 
-1. Teams에서 프로필 그림을 선택한 다음  > **버전**에 대한 **정보**를 클릭합니다.
-2. 같은 메뉴에서 **업데이트 확인**을 클릭합니다.
+1. Teams에서 프로필 그림을 선택한 다음  > **버전** 에 대한 **정보** 를 클릭합니다.
+2. 같은 메뉴에서 **업데이트 확인** 을 클릭합니다.
 3. 앱 상단에 있는 배너가 Teams에 "새로 고침"이 필요함을 나타낼 때까지 기다립니다. 이 프로세스는 새 버전의 Teams를 다운로드하므로 링크가 약 1분 후에 표시됩니다. 또한 최신 버전을 이미 실행 중인지 여부를 배너를 통해 알 수 있으며, 이 경우 업데이트할 필요가 없습니다.
 4. 배너에서 [새로 고침] 링크를 클릭합니다.
 5. Teams가 다시 시작될 때까지 기다렸다가 1단계를 반복하여 앱이 업데이트되었는지 확인합니다.
@@ -49,14 +49,14 @@ SquirelSetup.log에서 원인을 표시하지 않거나 문제를 해결하는 �
 
 ### <a name="troubleshoot-update-issues"></a>업데이트 문제 해결
 
-팀이 성공적으로 설치 되 면 로그 위치가%LocalAppData%\SquirrelTemp 에서%LocalAppData%\Microsoft\Teams.로 전환 됩니다. 이 위치에는 SquirrelSetup.log 및 logs.txt라는 두 로그 파일이 있습니다.
+Teams가 성공적으로 설치되면 로그 위치가 %LocalAppData%\SquirrelTemp to %LocalAppData%\Microsoft\Teams로 전환됩니다. 이 위치에는 SquirrelSetup.log 및 logs.txt라는 두 로그 파일이 있습니다.
 
 - 이 위치의 SquirrelSetup.log 파일은 Teams 앱을 서비스하는 실행 파일인 Update.exe에 의해 작성됩니다.
 - Logs.txt 파일은 Teams 앱(특히 Teams.exe)에서 중요한 응용 프로그램 이벤트를 기록하는 데 사용됩니다. 오류 정보는 포함 될 수 있습니다.
 
 이러한 로그 파일에는 PII(개인 식별 가능 정보)가 포함되어 있으므로 Microsoft로 전송되지 않습니다.
 
-Teams는 정책에 따라 자동으로 업데이트 프로세스를 시작하거나 사용자가 프로파일 그림 > **업데이트 확인**으로 이동하여 업데이트를 수동으로 확인할 수 있습니다. 두 방법 모두 다음 이벤트 순서를 사용합니다.
+Teams는 정책에 따라 자동으로 업데이트 프로세스를 시작하거나 사용자가 프로파일 그림 > **업데이트 확인** 으로 이동하여 업데이트를 수동으로 확인할 수 있습니다. 두 방법 모두 다음 이벤트 순서를 사용합니다.
 
 1. **업데이트 확인**. Teams는 웹 요청을 하고 현재 앱 버전 및 배포 링 정보를 포함합니다. 이 단계의 목표는 다운로드 링크를 가져오는 것입니다. 이 단계에서 오류가 로그에 기록됩니다.
 2. **업데이트를 다운로드합니다**. Teams는 1단계에서 얻은 다운로드 링크를 사용하여 업데이트를 다운로드합니다. 다운로드가 완료되면 Teams는 Update.exe를 호출하여 다운로드를 준비합니다. 또한 다운로드 오류가 로그에 기록됩니다.
@@ -120,7 +120,7 @@ Teams를 스스로 최신 버전으로 업데이트해야 한다고 판단함에
 
 문제 해결 팁:
 
-- 겪고 있는 문제가 이에 해당되는지 확인하려면, Teams를 종료합니다(작업 표시 줄에서 Teams를 마우스 오른쪽 단추로 클릭한 후 **종료**를 클릭합니다). 그런 다음 Windows에서 [작업 관리자]를 열어 Teams 인스턴스가 아직 실행 중인지 확인합니다.  
+- 겪고 있는 문제가 이에 해당되는지 확인하려면, Teams를 종료합니다(작업 표시 줄에서 Teams를 마우스 오른쪽 단추로 클릭한 후 **종료** 를 클릭합니다). 그런 다음 Windows에서 [작업 관리자]를 열어 Teams 인스턴스가 아직 실행 중인지 확인합니다.  
 - 이 문제가 있는 컴퓨터에 있지 않은 경우 이 문제가 발생한 컴퓨터에서 수집한 SquirrelTemp.log를 검사하고 "프로그램 : 로그에서 프로세스를 종료할 수 없음"항목을 찾습니다.
 - Teams.exe가 종료할 수 없는 원인을 확인하려면 Dlls.txt 및 Handles.txt 로그를 확인합니다. 이는 Teams를 종료할 수 없는 프로세스를 알려줍니다.
 - Teams를 종료하지 못하게 할 수 있는 또 다른 원인은 커널 모드 파일 시스템 필터 드라이버입니다. SysInternals 도구 [ ProcDump ](https://docs.microsoft.com/sysinternals/downloads/procdump)를 사용하여 ```procdump -mk <pid>```을 실행하여 커널 모드 프로세스 덤프를 수집합니다. 여기서 <pid>는 작업 관리자에서 얻은 프로세스 ID입니다. Driverquery.txt 로그 파일을 검사하여 Teams를 방해할 수 있는 활성 필터 드라이버를 확인할 수도 있습니다.

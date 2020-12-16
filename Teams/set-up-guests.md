@@ -21,26 +21,26 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-description: Office 365 관리자로 Microsoft 팀에서 게스트 액세스 기능을 설정 하거나 해제 하는 방법에 대해 알아봅니다.
+description: Office 365 관리자로서 Microsoft Teams에서 게스트 액세스 기능을 설정하거나 해제하는 방법을 알아보세요.
 ms.openlocfilehash: 0920e9d8b8184f7f7ca83a71f0bd97d3a4d78470
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031194"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기
 
-기본적으로 게스트 액세스 기능은 꺼져있습니다. 관리자 또는 팀 소유자가 게스트를 추가할 수 있으려면 먼저 팀에 대 한 게스트 액세스를 설정 해야 합니다.
+기본적으로 게스트 액세스 기능은 꺼져있습니다. Teams에 대한 게스트 액세스를 켜야만 관리자 또는 팀 소유자가 게스트를 추가할 수 있습니다.
 
-게스트 액세스를 설정한 후 변경 내용이 적용 되는 데 몇 시간이 걸릴 수 있습니다. 사용자가 팀에 게스트를 추가하려고 할 때 "관리자에게 문의하세요."라는 메시지가 표시되면 게스트 액세스가 켜지지 않았거나 설정이 아직 적용되지 않았을 가능성이 큽니다.
+게스트 액세스를 켠 후에는 변경 내용이 적용되는 데 몇 시간이 걸립니다. 사용자가 팀에 게스트를 추가하려고 할 때 "관리자에게 문의하세요."라는 메시지가 표시되면 게스트 액세스가 켜지지 않았거나 설정이 아직 적용되지 않았을 가능성이 큽니다.
 
 > [!IMPORTANT]
-> 게스트 액세스를 설정 하는 것은 Azure Active Directory, Microsoft 365, SharePoint, 팀의 설정에 따라 달라 집니다. 자세한 내용은 [팀에서 게스트 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 참조 하세요.
+> 게스트 액세스를 설정하는 것은 Azure Active Directory, Microsoft 365, SharePoint 및 Teams의 설정에 따라 달라집니다. 자세한 내용은 [팀에서 게스트와 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 참조하세요.
 
-## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 관리 센터에서 게스트 액세스 구성하기
+## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 관리 센터에서 게스트 액세스 구성
 
-1. [Microsoft 팀 관리 센터](https://admin.teams.microsoft.com/)에 로그인 합니다.
+1. [Microsoft Teams 관리 센터](https://admin.teams.microsoft.com/)에 로그인합니다.
 
 2. **조직 전체 설정** > **게스트 액세스** 를 선택합니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "49031194"
 
     ![게스트 액세스 허용 스위치를 켜기로 설정하기 ](media/set-up-guests-image1.png)
 
-4. **통화** , **모임** , **메시징** 에서 게스트 사용자에게 허용할 항목에 따라 각 기능에 대한 **켬** 또는 **끔** 를 선택합니다.
+4. **통화**, **모임**, **메시징** 에서 게스트 사용자에게 허용할 항목에 따라 각 기능에 대한 **켬** 또는 **끔** 를 선택합니다.
 
       - **개인 전화 걸기** – 게스트가 피어 투 피어 전화를 걸 수 있도록 허용하려면 이를 **켬** 으로 설정합니다.
       - **IP 비디오 허용** - 게스트가 통화 및 모임에서 비디오를 사용하도록 허용하려면 이를 **켬** 으로 설정합니다.
@@ -68,18 +68,18 @@ ms.locfileid: "49031194"
       - **대화에서 밈 사용** - 게스트가 대화에서 밈을 사용할 수 있도록 허용하려면 이를 **켬** 으로 설정합니다.
       - **대화에서 스티커 사용** – 게스트가 대화에서 스티커를 사용할 수 있도록 허용하려면 이를 **켬** 으로 설정합니다. 
 
-    ![팀의 게스트 사용 권한 설정](media/manage-guest-access-image1.png)
+    ![Teams의 게스트 사용 권한 설정](media/manage-guest-access-image1.png)
 
 5. **저장** 을 클릭합니다.
 
-## <a name="external-access-federation-vs-guest-access"></a>외부 액세스 (페더레이션) 및 게스트 액세스
+## <a name="external-access-federation-vs-guest-access"></a>외부 액세스(페더레이션) 대 게스트 액세스
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365를 사용 하 여 보안 공동 작업 설정](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+[Microsoft 365를 사용하여 안전한 공동 작업 설정](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
-[특정 팀의 게스트 사용자 차단](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[특정 팀에서 게스트 사용자 차단](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)
