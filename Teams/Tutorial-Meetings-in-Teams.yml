@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: Microsoft 팀의 모임
+title: Microsoft Teams에서의 모임
 metadata:
-  title: Microsoft 팀의 모임
-  description: 이 대화형 자습서를 사용 하 여 Microsoft 팀의 형식, 계획 단계, 모임 보고 등을 알아보세요.
+  title: Microsoft Teams에서의 모임
+  description: 이 대화형 자습서를 사용하여 Microsoft Teams 모임에 대한 유형, 계획 단계 및 보고에 대해 배울 수 있습니다.
   ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
@@ -22,79 +22,79 @@ metadata:
   - Microsoft Teams
   ms.openlocfilehash: b23b4eaa363a0a2d43c911fd0909c99d77a2cd35
   ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 08/06/2020
   ms.locfileid: "46582455"
 items:
 - durationInMinutes: 1
   content: >
-    이 교육에서는 Microsoft 팀에서 모임을 소개 합니다. 팀에 대 한 요구 사항 및 계획 고려 사항 외에도 팀에서 모임의 기능을 다루도록 하겠습니다.
+    이 교육에서는 Microsoft Teams 회의를 소개합니다.다. Teams별 모임 기능과Teams별 요구사항 및 계획 고려사항에 대해 설명합니다.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
 
 
-    이 교육 과정은 다음과 같은 경우에 유용 합니다.
+    다음과 같은 경우에는이 교육 방법을 사용할 수 있습니다.
 
     -   IT 전문가
 
-    -   팀 계획, 배포 또는 관리 책임
+    -   Teams 계획, 배포 또는 관리 담당
 
-    -   팀의 모임에 관심이 있는 경우
+    -   Teams 모임에 관심이 있는 경우
 
 
-    여기서는 다음 섹션을 다룹니다.
+    다음 섹션에 대해 설명합니다.
 
-    -   팀의 모임 및 모임 유형
+    -   Teams에서 모임 및 모임 유형
 
     -   모임 요구 사항
 
     -   보고
 
 
-    다음 정보가 범위를 벗어났습니다.
+    다음 정보는 범위를 벗어납니다.
 
-    -   모임에는 참가자가 일반 전화선에서 모임에 참가할 수 있는 기능이 포함 될 수 있습니다. 오디오 회의 라고 하는이 기능은 교육의 범위를 벗어났습니다.
+    -   모임에는 참가자가 일반 전화선에서 모임에 참가할 수 있는 기능이 포함될 수 있습니다. 오디오 회의라고 하는 이 기능은 교육 범위는 아닙니다.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
 
 
-    본 교육에 대 한 질문이 나 의견이 있는 경우 다음을 수행 하세요.
+    본 교육에 대한 질문이나 피드백이 있을 경우 다음을 수행하세요.
 
 
-    -   이 자습서의 "다음 단계" 페이지 아래쪽에 있는 메모 섹션에 게시 합니다.
+    -   이 자습서의 "다음 단계" 페이지 하단에 있는 설명 섹션에 게시합니다.
 
 
-    새 기능에 대 한 아이디어 등 팀에 대 한 제품 피드백을 제공 하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문 하세요.
-- title: 팀의 모임
+    새 기능에 대한 아이디어와 같은 Teams에 대한 제품 피드백을 제공하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문하세요.
+- title: Teams에서 모임
   durationInMinutes: 16
-  content: "\n팀에서 모임을 이해 하려면 다음을 참조 하세요.\n-   [모임 및 통화](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) 에 \"모임 참석\" (예상 읽기 시간 6 분)\n\n-   [모임 시작](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) 비디오 (1:45 분)\n\n-   [예정 된 모임](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) 비디오 (1:45 분)\n\n-   Microsoft 팀과 모임 로비에 대해 자세히 알아보고 모임에 익명으로 참가 하는 방법 [에 대 한 9 가지 팁](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (예상 읽기 시간 6 분)\n"
-- title: 시나리오 모임 형식
+  content: "\nTeams 모임을 이해하려면 다음을 참조하세요.\n-   [모임 및 호출](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)의 “모임 갖기”(예상 소요 시간: 6분)\n\n-   [지금 모임](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) 비디오(1:45분)\n\n-   [예약된 모임](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) 비디오(1:45분)\n\n-   모임 로비, 익명으로 모임 참여 등에 대한 자세한 내용은 [Microsoft Teams 모임 9가지 팁](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)(예상 소요 시간: 6분)\n"
+- title: 시나리오 - 모임 유형
   durationInMinutes: 1
-  content: "\n진영는 여러 사무실이 있는 Contoso에 대해 작동 합니다. 진영는 정기적으로 다른 office 위치에 있는 사용자에 게 연결 해야 합니다.\n\n-  프로젝트 팀은 1 시간 동안 매주 월요일에 도달 합니다. Microsoft 팀에는 해당 프로젝트에 대 한 전용 채널이 이미 있기 때문에 진영는이 일반 동기화를 위해 \"채널 모임\"을 예약 합니다. 이는 진영 및 해당 팀의 여러 가지 이점을 제공 합니다.\n   -   팀의 모든 구성원이 자동으로 초대 됩니다.\n   -   모임에 대 한 모임 관련 토론은 모두 채널 토론의 일부입니다.\n   -   모임 및 토론은 팀 구성원 인 모든 사용자가 볼 수 있습니다.\n   -   모임과 라이브 이벤트에 대한 실시간 캡션을 켭니다. 또한 라이브 이벤트에서 자막이 설정 됩니다. 이러한 기능은 포용력, 생산성 및 이해력을 높여줍니다.\n-   진영 또한 개인 사람들과 동기화 해야 하지만 이러한 모임이 다른 사람에 게 표시 되지 않도록 할 수는 없습니다. 이러한 목적을 위해 진영는 \"비공개 모임\"을 예약 합니다.\n    비공개 모임을 사용 하면 모임이 시작 되기 전에 진영에서 채팅을 시작할 수 있습니다. 이 프리 모임 환경은 진영에서 재료를 미리 공유 하거나 주요 팀 구성원과 안건에 대해 토론할 수 있으므로 모임을 보다 효과적으로 만드는 데 도움이 됩니다. 노트 캡처 모임 중에도 동일한 채팅을 사용할 수 있으며, 나중에 모든 후속 작업을 사용 하는 것이 가능 합니다.\n-   팀이 채널에서 토론을 활발 하는 경우가 있으며, 진영에서는 빠른 의사 결정이 필요 합니다. 모든 사람이 입력 하는 동안 영상 통화가 효과적으로 통신 하는 방법을 결정 합니다. 이 상황에서 진영는 현재 대화에서 **모임** 시작을 선택 하 여 임시 모임을 예약 합니다.\n\n팀에서 모임 이끌이는 모든 모임 참가자를 위해 모임을 종료할 수 있습니다. 이는 다음과 같은 시나리오에서 유용 합니다.\n\n-   교사는 수업을 완료 한 후 학생 들이 모임 unsupervised에 유지 되지 않도록 할 수 있습니다.\n-   모임 이끌이는 웹 세미나 진행 등의 기록 중인 모임에 대해 모임이 종료 되 면 녹화가 종료 되도록 할 수 있습니다.\n\n예를 들어 모임이 완료 되 면 팀의 모임에서 **모임 종료** 를 클릭 하 여 모임을 종료 하 고 해당 참석자의 모든 참가자를 제거할 수 진영.\n"
+  content: "\nGarth는 여러 사무실이 있는 회사인 Contoso에서 일합니다. Garth는 정기적으로 다른 사무실 위치에 있는 사람들에게 연결해야 합니다.\n\n-  그의 프로젝트 팀은 매주 월요일 한 시간 동안 모임을 갖습니다. Microsoft Teams 프로젝트를 위한 전용 채널이 이미 있기 때문에 Garth는 이 정기 동기화를 위해 \"채널 모임\"을 예약합니다. Garth와 Garth 팀이 누릴 수 있는 이점은 다음과 같습니다.\n   -   팀의 모든 구성원이 자동으로 초대됩니다.\n   -   모임 중이나 모임 전후의 모든 모임 관련 토론은 채널 토론의 일부입니다.\n   -   미팅과 토론은 팀 구성원 모두가 볼 수 있습니다.\n   -   모임과 라이브 이벤트에 대한 실시간 캡션을 켭니다. 또한 라이브 이벤트에서 자막을 켭니다. 이러한 기능은 포용력, 생산성 및 이해력을 높여줍니다.\n-   Garth는 또한 개별 사용자와 동기화해야 하지만 이러한 모임이 다른 사용자에게 표시되는 것을 원하지 않습니다. 이러한 목적을 위해 Garth는 \"개인 모임\"을 예약합니다.\n    개인 모임을 통해 Garth는 모임이 시작되기 전에 대화를 시작할 수 있습니다. 이러한 사전 모임 횐경은 Garth가 사전에 자료를 공유하거나 주요 팀 구성원과 의제를 논의할 수 있기 때문에 모임의 효율성을 높이는 데 도움이 됩니다. 또한 모임 중에 노트를 캡처할 수 있는 동일한 대화를 사용할 수 있으며 나중에 모든 후속 작업에 사용할 수 있습니다.\n-   팀은 채널에서 활발한 토론을 하고, Garth는 그들이 빠른 결정을 내릴 필요가 있습니다. 그는 모든 사람이 타이핑을 하는 동안 화상 통화를 하는 것이 더 효과적인 의사소통 방법일 수 있다고 생각합니다. 이 경우 Garth는 현재 대화에서 **지금 모임 시작** 을 선택하여 임시 모임을 예약합니다.\n\nTeams에서 모임 조직자는 모든 모임 참여자에 대한 모임을 종료할 수 있습니다. 이 기능은 다음과 같은 시나리오에서 유용합니다.\n\n-   교육자들은 학생들이 수업이 끝난 후 관리감독 없이 남겨지지 않도록 확인할 수 있습니다.\n-   웹 세미나처럼 녹음/녹화 중인 모임의 경우, 모임 주최자는 모임이 종료될 때 녹음/녹화가 종료되도록 할 수 있습니다.\n\n예를 들어, 미팅이 완료되면 Garth는 팀 내 모임에서 **모임 종료** 를 눌러 모임을 종료하고 모든 참가자를 모임에서 제거할 수 있습니다.\n"
 - title: 모임 클라이언트
   durationInMinutes: 5
-  content: "\n다양 한 클라이언트에서 모임에 참가할 수 있습니다. 사용할 수 있는 플랫폼 팀을 파악 하기 위해 Microsoft 팀 (예상 읽기 시간 3 분) [에 대 한 클라이언트 가져오기를](https://docs.microsoft.com/MicrosoftTeams/get-clients) 검토 합니다.\n\n또한 참가자는 오디오 회의를 사용 하 여 일반 전화기에서 모임에 전화를 걸고 모임에서 전화를 거는 방법으로 모임에 참석할 수 있습니다.\n오디오 회의에 대 한 자세한 내용은 전용 교육을 통해 다룹니다.\n\nWindows 용 Outlook에서 추가 기능을 사용 하 여 일정에서 직접 모임을 예약할 수 있습니다. [Outlook에서 팀 모임 추가 기능 사용](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook) (예상 읽기 시간 2 분)을 검토 합니다.\n"
-- title: 모임 요구 사항 및 고려 사항
+  content: "\n다양한 고객으로부터 모임에 참여할 수 있습니다. [클라이언트용 Microsoft Teams 받기](https://docs.microsoft.com/MicrosoftTeams/get-clients)(예상 소요 시간: 3분)을 검토하고 Teams를 사용할 수 있는 플랫폼을 파악하세요.\n\n또한 오디오 회의를 사용하여 참가자는 모임에 전화 걸거나 모임에서 전화 걸기를 통해 일반 전화에서 모임에 참석할 수 있습니다.\n오디오 회의에 대한 자세한 내용은 전용 교육을 참조하세요.\n\nWindows용 Outlook에서 추가 기능을 사용하여 일정에서 직접 모임을 예약할 수 있습니다. [Outlook에서 Teams모임 추가 기능 사용](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook)(예상 소요 시간: 2분)을 참조하세요.\n"
+- title: 모임 요구 사항과 고려 사항
   durationInMinutes: 4
-  content: "\n### <a name=\"licensing\"></a>라이선싱\n추가 라이선스 없이 모임을 저장할 수 있지만, Microsoft 팀에 대 한 라이선스만 필요 하기는 하지만, 일부 시나리오에는 추가 라이선스가 필요 합니다.\n\n참가자가 일반 전화기에서 팀 모임에 참가할 수 있도록 하는 오디오 회의는 추가 라이선스가 필요 합니다. 이 문제는 오디오 회의를 위한 전용 교육에서 처리 됩니다.\n\n자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요.\n\n### <a name=\"bandwidth-and-media-flow\"></a>대역폭과 미디어 흐름\n팀에는 실시간 통신을 시작 하는 두 가지 방법이 있습니다.\n-   사용자가 직접 다른 사용자에 게 전화를 걸 수 있습니다.\n-   사용자는 통화, 미디어 (오디오, 비디오 또는 데스크톱 또는 응용 프로그램 공유)에 대 한 모임을 최대한 빨리 여행으로 만들 수 있습니다. 예를 들어 두 사용자 (예: 같은 네트워크 내에 있는 둘 다에 앉아 있음) 사이에 방화벽이 없는 경우 미디어 트래픽이 한 사용자에 게 직접 이동 합니다. 방화벽이 사용자 간의 직접 트래픽을 차단 하는 경우 트래픽은 릴레이를 통해 전송 됩니다.\n\n모임의 경우 모든 트래픽은 먼저 Office 365에서 홈 회의 서비스에 전송 됩니다. 오디오 트래픽을 다시 전송 하기 전에이를 수집 하 고 혼합 합니다. 비디오 트래픽 및 응용 프로그램 또는 데스크톱 공유를 받아서 참석자에 게 배포 합니다.\n\n<strong>점을!</strong>\nCOVID-19 발생 기간에는 PSTN 회의 번호 또는 <strong>전화 번호</strong>를 사용해 전화를 거는 대신 <strong>Teams 모임 참가</strong> 버튼을 눌러 모임에 참석하는 것이 좋습니다. 이는 주로 COVID-19의 영향을 받는 국가의 전화 통신 인프라의 혼잡 때문입니다. PSTN 통화를 방지 하 여 더 나은 음질을 경험할 수 있습니다. \n\n대역폭 계획은 본 교육에서 다루지 않지만 사용자 환경에 중요 한 역할을 합니다.\n\n자세한 내용은 [팀에 대 한 조직의 네트워크 준비](https://docs.microsoft.com/microsoftteams/prepare-network)를 참조 하세요.\n\n### <a name=\"exchange-dependencies\"></a>Exchange 종속성\n\nExchange Server 온-프레미스를 사용 하는 고객의 경우 (Exchange Server 버전에 따라) 팀 클라이언트에서 모임을 만들고 보는 경우와 규정을 준수 하는 경우에도 제한 사항이 있을 수 있습니다.\n잠재적인 제한 사항에 대 한 이해를 돕기 위해 [Exchange 및 Microsoft 팀의 상호 작용](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) (예상 읽기 시간 3 분)을 검토 합니다.\n\n### <a name=\"end-meetings-for-all-participants\"></a>모든 참가자를 위한 모임 종료\n\n모임 이끌이는 모임 내에서 **모임 종료** 를 클릭 하 여 모든 참가자에 대 한 모임을 종료할 수 있습니다. 이는 다음과 같은 시나리오에서 유용 합니다.\n-   교사는 수업을 완료 한 후 학생 들이 모임 unsupervised에 유지 되지 않도록 할 수 있습니다.\n-   모임 이끌이는 웹 세미나 진행 등의 기록 중인 모임에 대해 모임이 종료 되 면 녹화가 종료 되도록 할 수 있습니다.  \n\n자세한 내용은 [참석자의 모든 사용자에 게 팀 모임 끝내기](https://support.office.com/article/end-a-teams-meeting-for-everyone-in-attendance-5051fa72-8470-4a38-99e4-014535208971)를 참조 하세요.\n\n### <a name=\"change-participant-settings-for-a-meeting\"></a>모임 참가자 설정 변경\n\n모임 이끌이는 **모임 옵션**에서 특정 모임에 대 한 기본 참가자 설정을 변경할 수 있습니다. 다음과 같은 세 가지 방법으로 액세스할 수 있습니다.\n-   팀의 일정으로 이동 하 여 모임을 선택한 다음 **모임 옵션**을 선택 합니다. \n-   모임 초대에서 **모임 옵션**을 선택 합니다.\n-   **참가자 표시** 를 선택 하 여 **인물 정보** 창을 열고 **사용 권한 관리**를 선택 합니다. \n\n자세히 알아보려면 [팀 모임에 대 한 참가자 설정 변경을](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)참조 하세요.\n"
+  content: "\n### <a name=\"licensing\"></a>라이선싱\nMicrosoft Teams용 라이선스만 있으면 추가 라이선스 없이 미팅을 열 수 있지만, 일부 시나리오에서는 추가 라이선스가 필요합니다.\n\n참가자가 일반 전화기로 Teams 모임에 참석할 수 있도록 하는 오디오 회의에는 추가 라이선스가 필요합니다. 오디오 회의 전용 교육에서 다룰 예정입니다.\n\n자세한 내용은 [Microsoft Teams 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)을 참조하세요.\n\n### <a name=\"bandwidth-and-media-flow\"></a>대역폭과 미디어 흐름\nTeams에는 실시간 통신을 시작하는 두 가지 방법이 있습니다.\n-   사용자가 다른 사용자를 직접 호출할 수 있습니다.\n-   사용자는 회의(특별 또는 예약)를 작성할 수 있습니다. 통화의 경우 미디어(오디오, 비디오 또는 데스크톱 또는 애플리케이션 공유) 이동은 가능한 한 직접적으로 가능합니다. 예를 들어 두 사용자 사이에 방화벽이 없는 경우(예: 두 사용자 모두 동일한 네트워크 내에 있음) 미디어 트래픽이 한 사용자 간에 직접 이동합니다. 방화벽이 사용자 간의 직접 트래픽을 차단하는 경우 트래픽은 릴레이를 통해 전송됩니다.\n\n모임의 경우, 모든 트래픽이 Office 365에 있는 모임 서비스로 먼저 전송됩니다. 오디오 트래픽이 수집되어 전송되기 전에 혼합됩니다. 비디오 트래픽과 응용 프로그램 또는 데스크톱 공유가 수신되어 참석자에게 배포됩니다.\n\n<strong>중요!</strong>\nCOVID-19 발생 기간에는 PSTN 회의 번호 또는 <strong>전화 번호</strong>를 사용해 전화를 거는 대신 <strong>Teams 모임 참가</strong> 버튼을 눌러 모임에 참석하는 것이 좋습니다. 이는 주로 COVID-19의 영향을 받는 국가의 전화 통신 인프라의 혼잡 때문입니다. PSTN 통화를 피하면 오디오 품질이 향상될 수 있습니다. \n\n이 교육에서는 대역폭 계획에 대해 다루지 않지만 사용자 경험에 있어 매우 중요합니다.\n\n자세한 내용은 [Teams용 조직의 조직 네트워크](https://docs.microsoft.com/microsoftteams/prepare-network)준비를 참조하세요.\n\n### <a name=\"exchange-dependencies\"></a>Exchange 종속성\n\n사내 Server 온-프레미스 서버를 사용하는 고객의 경우 Teams 클라이언트의 모임 생성 및 보기와 관련하여 Exchange 서버 버전에 따라 몇 가지 제한 사항이 있을 수 있지만 규정 준수에 대해서도 제한이 있을 수 있습니다.\n잠재 제한에 대한 내용은 [Exchange 및 Microsoft Teams 상호작용 방법](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)(예상 소요 시간: 3분)을 참조하세요.\n\n### <a name=\"end-meetings-for-all-participants\"></a>모든 참가자에 대한 모임 종료\n\n모임 주최자는 미팅 내에서 **모임 종료** 를 눌러 모든 참가자에 대한 모임을 종료할 수 있습니다. 이는 다음과 같은 시나리오에서 유용합니다.\n-   교육자들은 학생들이 수업이 끝난 후 관리감독 없이 남겨지지 않도록 확인할 수 있습니다.\n-   웹 세미나처럼 녹음/녹화 중인 모임의 경우, 모임 주최자는 모임이 종료될 때 녹음/녹화가 종료되도록 할 수 있습니다.  \n\n자세한 내용은 [모든 참석자를 위해 Teams 종료](https://support.office.com/article/end-a-teams-meeting-for-everyone-in-attendance-5051fa72-8470-4a38-99e4-014535208971)를 참조하세요.\n\n### <a name=\"change-participant-settings-for-a-meeting\"></a>모임 참가자 설정 변경\n\n모임 이끌이는 **모임 옵션** 에서 특정 모임의 기본 참가자 설정을 변경할 수 있습니다. 변경 방법에는 세 가지가 있습니다.\n-   팀의 일정으로 이동하여 회의를 선택한 다음 **모임 옵션** 을 선택하세요. \n-   모임 초대에서 **모임 옵션** 을 선택합니다.\n-   **참가자 표시** 를 선택하여 **사용자** 창을 열고 **권한 관리** 를 선택합니다. \n\n자세한 내용은 [Teams 모임의 참가자 설정 변경](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)을 참조하세요.\n"
 - title: 모임 구성 옵션
   durationInMinutes: 20
-  content: "\nIT 관리자는 모임 정책 및 설정을 설정 하 여 모임 환경을 정의할 수 있습니다.\n\n### <a name=\"meeting-policies\"></a>모임 정책\n\n팀 모임 정책을 사용 하 여 조직의 사용자가 예약한 모임에 대해 모임 참가자가 사용할 수 있는 기능을 제어 합니다. 자세한 내용은 [팀에서 모임 정책 관리](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams) (예상 읽기 시간 16 분)을 참조 하세요. \n\n### <a name=\"meeting-settings\"></a>모임 설정\n\n팀 모임 설정을 사용 하 여 익명 사용자가 팀 모임에 참가 하 고, 모임 초대를 사용자 지정 하 고, QoS (서비스 품질)를 사용할 수 있는지 여부를 제어 하 고, 실시간 트래픽에 대 한 포트 범위를 설정 합니다. 이 설정은 사용자가 조직에서 예약하는 모든 Teams 모임에 적용됩니다. 자세히 알아보려면 [팀에서 모임 설정 관리](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)를 참고 하세요.\n(예상 시간 읽기 시간 4 분).\n"
-- title: 실습-모임 구성
+  content: "\nIT 관리자는 모임 환경을 정의하기 위한 모임 정책 및 설정을 설정할 수 있습니다.\n\n### <a name=\"meeting-policies\"></a>모임 정책\n\nTeams 모임 정책을 사용하여 조직의 사용자가 예약한 모임의 참가자를 만날 수 있는 기능을 제어합니다. 자세한 내용은 [Teams에서 모임 정책 관리](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams)(예상 소요 시간: 16분)을 참조하세요. \n\n### <a name=\"meeting-settings\"></a>모임 설정\n\nTeams 모임 설정을 사용하여 익명 사용자가 Teams 모임에 참석하고, 모임 초대를 사용자 정의할 수 있는지 제어하고, QoS(서비스 품질)를 사용 가능으로 설정하려면 실시간 트래픽에 대한 포트 범위를 설정합니다. 이 설정은 사용자가 조직에서 예약하는 모든 Teams 모임에 적용됩니다. 자세한 내용은 [Teams에서 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)를 참조하세요.\n(예상 소요 시간: 4분).\n"
+- title: 실습 - 모임 구성
   durationInMinutes: 20
-  content: "\n이 연습에서는 팀에서 모임을 테스트할 기회가 있습니다. 모든 작업을 수행 하는 방법을 설명 하는 것은 아니지만 몇 가지 시나리오를 사용해 보세요.\n\n### <a name=\"requirements\"></a>요구 사항\n-   팀을 사용할 수 있는 적절 한 라이선스가 있는 Office 365 조직\n    -   전용 테스트 테 넌 트를 사용 하는 것이 좋습니다.\n    -   테스트 테 넌 트가 없는 경우 [Office 365 Enterprise E5 평가판](https://go.microsoft.com/fwlink/p/?LinkID=698279)에서 평가판 테 넌 트에 등록할 수 있습니다.\n    -   프로덕션 환경에서 테스트를 실행 하지 마세요. 설정 또는 정책 변경은 모든 사용자에 게 부정적인 영향을 미칠 수 있으며, 사용자 환경에 영향을 줄 수 있습니다.\n-   두 개 이상의 끝점\n   -   이것은 두 대의 Pc 일 수 있지만, 휴대 전화에서 클라이언트를 사용할 수도 있습니다.\n\n### <a name=\"suggested-scenarios-to-test\"></a>테스트 해야 할 제안 시나리오\n-   팀 클라이언트 내에서 다양 한 모임 유형을 예약 합니다 (채널 모임, 임시 모임, 비공개 모임).\n-   [Outlook 추가 기능](https://docs.microsoft.com/MicrosoftTeams/Teams-add-in-for-Outlook)을 사용 하 여 모임을 예약 합니다.\n-   예약 된 모임의 경우 회의가 시작 되기 전에 채팅을 시작 합니다 (예: 안건에 대 한 논의).\n-   모임에 참가 하 고 다양 한 시나리오와 작업을 테스트 합니다 (예: 오디오만, 영상, 데스크톱 공유).\n-   테 넌 트에 로그인 하지 않고 브라우저에서 모임 참가 (\"InPrivate\" 검색 기능을 사용 하 여 모임에 익명으로 참가할 수 있음)을 확인 합니다.\n-   Microsoft 팀 관리 센터에 로그인 하 여 모임에 대 한 일부 설정을 변경 합니다 (예: 비공개 모임에 대 한 예약 사용 안 함). 이 방법이 사용자 환경에 어떤 영향을 줍니까?\n-   모임 이끌이는 모든 참가자에 대 한 모임을 종료 합니다.    \n"
+  content: "\n이 연습에서는 Teams 회의를 테스트할 수 있습니다. 모든 작업을 수행하는 방법을 설명하지는 않지만 몇 가지 시나리오를 시도해 보는 것이 좋습니다.\n\n### <a name=\"requirements\"></a>요구 사항\n-   Teams를 사용할 수 있는 적절한 라이선스를 보유하고 있는 Office 365 조직\n    -   전용 테스트 테넌트를 사용하는 것이 좋습니다.\n    -   테스트 테넌트가 없는 경우[Office 365 Enterprise E5 평가판](https://go.microsoft.com/fwlink/p/?LinkID=698279)에서 평가판 테넌트를 등록할 수 있습니다.\n    -   운영 환경에서 테스트를 실행하지 마세요. 설정 또는 정책을 변경하면 모든 사용자에게 부정적인 영향을 미칠 수 있으며 사용자 환경에 영향을 줄 수 있습니다.\n-   두 개 이상의 끝점\n   -   두 대의 PC일 수도 있지만 휴대폰에서 클라이언트를 사용할 수도 있습니다.\n\n### <a name=\"suggested-scenarios-to-test\"></a>테스트 시나리오 제안\n-   팀 클라이언트 내에서 다양한 회의 유형을 예약합니다. 채널 모임, 임시 모임, 개인 모임 등이 있습니다.\n-   [Outlook 추가 기능](https://docs.microsoft.com/MicrosoftTeams/Teams-add-in-for-Outlook)을 사용하여 모임을 예약합니다.\n-   예약된 모임의 경우, 모임팅이 시작되기 전에 대화를 시작합니다(예: 의제 토론).\n-   미팅에 참여하고 다양한 시나리오와 워크로드를 테스트합니다(예: 오디오 전용, 비디오, 데스크톱 공유).\n-   테넌트에 로그인하지 않고 브라우저에서 모임에 참가하여(\"InPrivate\" 브라우징을 사용할 수도 있음) 익명으로 모임에 참여하는 방법을 볼 수 있습니다.\n-   Microsoft Teams 관리 센터에 로그인하고 일부 모임 설정을 변경합니다(예: 개인 모임 예약 사용 해제). 사용자 환경에 어떤 영향이 있나요?\n-   모임 이끌이로서, 모든 참가자에 대한 모임을 종료합니다.    \n"
 - title: 보고
   durationInMinutes: 2
-  content: "\n보고 관점에서 보면 다음 두 영역이 표시 됩니다.\n-   사용법: 발생 한 모임 수\n-   품질: 모임의 품질은 무엇 인가요?\n\n두 영역을 주의 깊게 모니터링 해야 합니다.\n-   낮은 사용량은 사용자가 한 가지 이유 또는 다른 이유로 해당 제품을 사용 하 고 있지 않음을 의미 합니다. 추가 조사를 수행 하 여 이유를 확인할 수 있습니다. 이유는 모임이 사용자 요구 사항, 인식 부족 또는 교육 등의 품질 문제를 발생 시키는 인식의 범위를 다양 하 게 할 수 있습니다.\n-   반면에 저품질는 사용자와 Office 365 간의 연결에 문제가 있음을 의미 합니다. 품질이 낮으면 잘못 된 사용자 환경과 사용량을 줄일 수 있습니다.\n    사용 현황 보고서에 대 한 자세한 내용은 [관리 센터-Microsoft 팀 사용자 활동](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (예상 읽기 시간 5 분)의 Microsoft 365 보고서를 참조 하세요.\n\n품질 관리는 본 교육의 범위를 벗어나므로 여기서는 다루지 않지만 다음 교육 자료를 참조 하세요.\n\n-   품질 챔피언의 역할에 대 한 자세한 내용은 [품질 챔피언 역할](https://docs.microsoft.com/microsoftteams/prepare-network)을 참조 하세요.\n-   통화 품질 대시보드에 대 한 자세한 내용은 [CQD를 사용 하 여 미디어 품질 조사](https://aka.ms/sof-cqd)를 참조 하세요.\n"
+  content: "\n보고 측면에서는 다음 두 가지 영역을 살펴볼 수 있습니다.\n-   사용법: 몇 개의 모임이 생성되나요?\n-   품질: 모임의 품질은 어떤가요?\n\n두 영역을 모두 주의 깊게 모니터링해야 합니다.\n-   사용량이 적다는 것은 여러 가지 이유로 인해 사용자가 제품을 사용하지 않는다는 것을 의미합니다. 추가 조사를 통해서만 원인을 파악할 수 있습니다. 모임이 사용자 요구 사항에 미치지 못한다는 인식에서 인지 또는 교육 부족, 품질 문제에 이르기까지 그 원인이 다양할 수 있습니다.\n-   낮은 품질은 사용자 및 Office 365 간 연결에 문제가 있음을 의미합니다. 품질이 낮으면 사용자 경험 악화 및 사용량 감소로 이어질 수 있습니다.\n    사용 현황 보고서에 대한 자세한 내용은 [관리자 센터의 Microsoft 365 보고서 - Microsoft Teams 사용자 활동](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)(예상 소요 시간: 5분)을 참조하세요.\n\n품질 관리는 본 교육의 범위를 벗어나지만 다음 교육 자료를 참조하세요.\n\n-   품질 챔피언의 역할에 대한 자세한 내용은 [품질 챔피언](https://docs.microsoft.com/microsoftteams/prepare-network)역할을 참조하세요.\n-   통화 품질 대시보드에 대한 자세한 내용은 [CQD를 사용하여 미디어 품질 검사](https://aka.ms/sof-cqd)를 참조하세요.\n"
 - title: 다음 단계
   durationInMinutes: 1
   content: >-
-    본 교육에서 다음의 주요 학습이을 다룹니다.
+    이 교육에서는 다음과 같은 주요 학습 내용을 다룹니다.
 
-    -   팀의 모임 및 모임 유형
+    -   Teams에서 모임 및 모임 유형
 
     -   모임 요구 사항
 
@@ -104,13 +104,13 @@ items:
     ### <a name="next-steps"></a>다음 단계
 
 
-    1.  팀에서 모임 사용을 시작 합니다.
+    1.  Teams에서 모임 사용을 시작합니다.
 
-    2.  저희 의견 보내기:
-        - 이 페이지 아래쪽에 있는 메모 섹션에 게시 합니다.
-        - 팀 제품 피드백을 제공 하거나 새 기능을 요청 하려면 [팀 UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)로 이동 하세요.
-    3.  최신 상태 유지:
-        - [팀 블로그](https://aka.ms/teamsblog)를 팔 로우 합니다.
-        - [팀 로드맵을](https://aka.ms/O365Roadmap)읽어 보세요.
-        - [릴리스 노트](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de) 의 최신 릴리스 기능에 대 한 자세한 정보
-    4.  [더 많은 교육 및 자습서를](https://aka.ms/Teamsacademy)탐색 하세요.
+    2.  의견 보내기:
+        - 이 페이지 하단의 메모 섹션에 게시합니다.
+        - Teams 제품에 대한 피드백을 제공하거나 새로운 기능을 요청하려면 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)로 이동하세요.
+    3.  최신 상태로 유지:
+        - [Teams 블로그](https://aka.ms/teamsblog)를 팔로우하세요.
+        - [Teams 로드맵](https://aka.ms/O365Roadmap)읽어 보세요.
+        - [릴리스 정보](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)의 최근 릴리스된 기능에 대한 자세한 정보
+    4.  [추가 교육 및 자습서](https://aka.ms/Teamsacademy)를 살펴보세요.
