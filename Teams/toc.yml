@@ -935,8 +935,8 @@
               href: upgrade-define-project-scope.md
             - name: 공존 및 상호 운용성 이해
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: 전화 시스템 및 PSTN 연결 옵션 이해
-              href: cloud-voice-landing-page.md
+            - name: PSTN 고려 사항
+              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: 업그레이드 여정 선택
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
             - name: 사용자 파일럿 계획
@@ -991,8 +991,6 @@
               href: upgrade-to-teams-on-prem-implement.md
             - name: Teams와 비즈니스용 Skype의 공존
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: PSTN 고려 사항
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: 공존 모드-참조
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Teams 클라이언트 환경 및 공존 모드 준수
@@ -1287,7 +1285,7 @@
               href: CQD-data-and-reports.md
             - name: CQD를 사용하여 통화 및 모임 품질 관리
               href: quality-of-experience-review-guide.md
-            - name: 자주 묻는 질문
+            - name: 질문과 대답
               href: CQD-frequently-asked-questions.md
             - name: CQD에서 사용할 수 있는 차원 및 측정값
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
