@@ -12,51 +12,53 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- m365solution-voice
+- m365solution-scenario
 appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 온-프레미스 전화 통신 인프라를 Microsoft 팀에 연결 하기 위해 Microsoft 전화 시스템 직접 라우팅을 구성 하는 방법에 대해 알아봅니다.
+description: Microsoft Phone System Direct Routing을 구성하여 Microsoft Teams에 프레미스 전화 통신 인프라를 연결하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1c19bfcd4c220ff6b6c53d8731149eaa8b6b4b1
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 5388c93e741323d3dc9eda0fc51968b8b344d2cb
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031774"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701296"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
-Microsoft 전화 시스템 다이렉트 라우팅을 사용 하 여 온-프레미스 전화 통신 인프라를 Microsoft 팀에 연결할 수 있습니다. 이 문서에는 지원 되는 온-프레미스 세션 경계 컨트롤러 (SBC)를 다이렉트 라우팅과 연결 하는 데 필요한 상위 단계와 팀 사용자가 PSTN (공개 통신 네트워크)에 연결 하기 위해 직접 라우팅을 사용 하도록 구성 하는 방법에 대 한 개요가 나와 있습니다. 이 문서는 관련 문서에 대 한 자세한 내용 링크를 제공 합니다.  
+Microsoft Phone System 직접 라우팅을 사용하면 Microsoft Teams에온-프레미스 전화 통신 인프라를 연결할 수 있습니다. 이 문서에는 지원되는 SBC(On-프레미스 세션 테두리 컨트롤러)를 직접 라우팅에 연결하는 데 필요한 고급 단계 및 직접 라우팅을 사용하여 PSTN(공용 전화망)에 연결하도록 Teams 사용자를 구성하는 방법을 나열합니다. 이 문서는 관련 문서에 연결하여 자세한 내용을 제공합니다.  
 
-직접 라우팅이 조직에 적합 한 솔루션 인지 여부에 대 한 자세한 내용은 [전화 시스템 직접 라우팅을](direct-routing-landing-page.md)참조 하세요. 필수 구성 요소 및 배포 계획에 대 한 자세한 내용은 [직접 라우팅 계획](direct-routing-plan.md)을 참조 하세요.
+직접 라우팅이 조직에 적합한 솔루션인지 여부에 대한 자세한 내용은 전화 시스템 직접 [라우팅을 참조하세요.](direct-routing-landing-page.md) 전제 구성 및 배포 계획에 대한 자세한 내용은 직접 라우팅 계획 [을 참조하세요.](direct-routing-plan.md)
 
 > [!Tip]
-> 또한 다음 세션을 시청 하 여 다이렉트 라우팅의 이점과이를 위해 계획 하는 방법, 그리고 배포 하는 방법에 대해 알아볼 수 있습니다. [Microsoft 팀의 직접적인 라우팅](https://aka.ms/teams-direct-routing).
+> 또한 다음 세션에서 직접 라우팅의 이점, 계획 방법 및 배포 방법, Microsoft Teams의 직접 라우팅에 대해 자세히 알 [수 있습니다.](https://aka.ms/teams-direct-routing)
 
-이 문서에서 설명 하는 단계를 완료 하려면 관리자가 PowerShell cmdlet에 대해 잘 알고 있어야 합니다. PowerShell을 사용 하는 방법에 대 한 자세한 내용은 [Windows PowerShell 용 컴퓨터 설정을](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)참조 하세요. 
+이 문서에 설명된 단계를 완료하려면 관리자가 PowerShell cmdlet에 대해 잘 알고 있는 것이 필요합니다. PowerShell 사용에 대한 자세한 내용은 다음을 위해 컴퓨터 [Windows PowerShell.](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
 
-이 문서의 단계를 수행 하기 전에 sbc 공급 업체에서 권장 하는 것으로 SBC가 이미 구성 되어 있는지 확인 하는 것이 좋습니다. 
+이 문서의 단계를 수행하기 전에 SBC 공급업체에서 권장하는 SBC가 이미 구성되어 있는지 확인하는 것이 좋습니다. 
 
-- [오디오 코드 배포 설명서](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [Oracle 배포 문서](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
-- [리본 커뮤니케이션 배포 문서](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [TE-시스템 (anynode) 배포 문서](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [AudioCodes 배포 설명서](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle 배포 설명서](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [리본 메뉴 통신 배포 설명서](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [TE-Systems(anynode) 배포 설명서](https://www.anynode.de/anynode-and-microsoft-teams/)
 - [Metaswitch 배포 설명서](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
-지원 되는 SBCs의 전체 목록은 [직접 라우팅으로 인증 된 세션 경계 컨트롤러 목록을](direct-routing-border-controllers.md)참조 하세요.
+지원되는 SBC의 전체 목록은 직접 라우팅에 대해 인증된 세션 테두리 컨트롤러 목록을 [참조하세요.](direct-routing-border-controllers.md)
 
-Microsoft 전화 시스템을 구성 하 고 사용자가 직접 라우팅을 사용할 수 있도록 설정 하려면 다음 단계를 따릅니다. 
+Microsoft Phone System을 구성하고 사용자가 직접 라우팅을 사용할 수 있도록 설정하려면 다음 단계를 수행합니다. 
 
-- **1 단계.** [Microsoft 전화 시스템을 사용 하 여 SBC 연결 및 연결 확인](direct-routing-connect-the-sbc.md)
-- **2 단계.** [사용자가 직접 라우팅, 음성, 보이스 메일을 사용할 수 있도록 설정](direct-routing-enable-users.md)
-- **3 단계.** [음성 라우팅 구성](direct-routing-voice-routing.md)
-- **4 단계.** [숫자를 대체 형식으로 번역](direct-routing-translate-numbers.md) 
+- **1단계.** [Microsoft Phone System에 SBC 연결 및 연결 유효성 검사](direct-routing-connect-the-sbc.md)
+- **2단계.** [직접 라우팅, 음성 및 음성메일에 대해 사용자 사용](direct-routing-enable-users.md)
+- **3단계.** [음성 라우팅 구성](direct-routing-voice-routing.md)
+- **4단계.** [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md) 
 
-여러 테 넌 트에 대 한 SBC를 구성 하는 경우에는 [여러 테 넌 트에 대 한 Sbc 구성을](direct-routing-sbc-multiple-tenants.md)읽어 볼 수도 있습니다.
+여러 테넌트에 대해 SBC를 구성하는 경우 여러 테넌트에 대한 SBC 구성을 [읽어야 합니다.](direct-routing-sbc-multiple-tenants.md)
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
 
