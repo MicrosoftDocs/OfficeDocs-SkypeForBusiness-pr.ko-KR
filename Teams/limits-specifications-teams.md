@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 786ec8d911ae21f3cb379eceefb1b7c202890a3d
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611472"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682357"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -117,13 +117,13 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 > [!IMPORTANT]
 > **Microsoft 365 라이브 이벤트 한도가 늘어납니다**
 >
-> **고객 지원을 돕기 위해 2021년 1월 1일까지 Teams, Stream 및 Yammer에서 주최하는 라이브 이벤트에 대해 임시 제한 증가를 연장합니다.**
+> **고객의 요구를 계속해서 지원하기 위해 2021년 6월 30일까지 다음을 포함하여 라이브 이벤트에 대한 임시 제한 증가 기간을 연장할 것입니다.**:
 >
->- 이벤트당 최대 20,000명의 참석자가 참석합니다.
->- Teams 테넌트당 최대 50개의 동시 이벤트입니다.
->- 브로드캐스트당 최대 16시간
+>- 최대 20,000명의 참석자를 위한 이벤트 지원
+>- 한 테넌트에 걸쳐 동시에 50개의 이벤트가 호스트될 수 있습니다.
+>- 브로드캐스트당 16시간의 이벤트 시간
 >
-> 추가로 참가자 최대 100,000명의 라이브 이벤트는 Microsoft 365 지원 프로그램을 통해 계획할 수 있습니다. 팀에서 각 요청을 평가하고 사용자와 작업을 수행하여 사용 가능한 옵션을 결정합니다. [자세히 알아보세요](https://aka.ms/Stream/Blog/LiveEventOptions). **2021년 1월 1일 이후 이 한도 증가를 피요로 하는 고객은 [고급 통신 추가 항목](teams-add-on-licensing/advanced-communications.md)을 구매해야 합니다.**
+> 또한 최대 100,000 참석자가 포함된 라이브 이벤트는 Microsoft 365 지원 프로그램을 통해 계획될 수 있습니다. 팀에서 각 요청을 평가하고 사용자와 작업을 수행하여 사용 가능한 옵션을 결정합니다. [자세한 정보](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 |기능     | 최대 한도 |
 |------------|---------------|
@@ -163,13 +163,13 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 > [!IMPORTANT]
 > **Microsoft 365 라이브 이벤트 한도 증가**
 >
-> **고객 지원을 돕기 위해 2021년 1월 1일까지 Teams, Stream 및 Yammer에서 주최하는 라이브 이벤트에 대해 임시 제한 증가를 연장합니다.**
+> **고객의 요구를 계속해서 지원하기 위해 2021년 6월 30일까지 다음을 포함하여 라이브 이벤트에 대한 임시 제한 증가 기간을 연장할 것입니다.**:
 >
-> - 이벤트당 최대 20,000명의 참석자가 참석합니다.
-> - Teams 테넌트당 최대 50개의 동시 이벤트입니다.
-> - 브로드캐스트당 최대 16시간
+>- 최대 20,000명의 참석자를 위한 이벤트 지원
+>- 한 테넌트에 걸쳐 동시에 50개의 이벤트가 호스트될 수 있습니다.
+>- 브로드캐스트당 16시간의 이벤트 시간
 >
-> 추가로 참가자 최대 100,000명의 라이브 이벤트는 Microsoft 365 지원 프로그램을 통해 계획할 수 있습니다. 팀에서 각 요청을 평가하고 사용자와 작업을 수행하여 사용 가능한 옵션을 결정합니다. [자세히 알아보세요](https://aka.ms/Stream/Blog/LiveEventOptions). **2021년 1월 1일 이후 이 한도 증가를 피요로 하는 고객은 [고급 통신 추가 항목](teams-add-on-licensing/advanced-communications.md)을 구매해야 합니다.**
+> 추가로 참가자 최대 100,000명의 라이브 이벤트는 Microsoft 365 지원 프로그램을 통해 계획할 수 있습니다. 팀에서 각 요청을 평가하고 사용자와 작업을 수행하여 사용 가능한 옵션을 결정합니다. [자세한 정보](https://aka.ms/Stream/Blog/LiveEventOptions)를 확인합니다. 
 
 ## <a name="presence-in-outlook"></a>Outlook에서의 현재 상태
 
@@ -192,7 +192,7 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 |------------------------|---------|---------|---------|---------|---------|---------|
 |저장소                 |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB 및 구매한 라이선스당 10GB   |조직당 1TB 및 구매한 라이선스당 10GB |조직당 1TB 및 구매한 라이선스당 10GB  |조직당 1TB           |
 |Teams 파일용 저장소 |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |사이트 또는 그룹당 최대 25TB |
-|파일 업로드 제한(파일당)    |2GB    |2GB    |2GB    |2GB    |2GB    |2GB    |
+|파일 업로드 제한(파일당)    |100GB    |100GB    |100GB    |100GB    |100GB    |100GB    |
 
 채널은 팀에 대해 생성된 SharePoint Online 사이트 모음(이전에 “사이트 모음”이라 불림) 내의 폴더로 백업되므로 채널 내의 파일 탭은 자신이 속한 팀의 저장소 제한을 공유합니다.
 
