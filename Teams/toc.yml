@@ -252,7 +252,7 @@
               href: rooms/rooms-lifecycle-support.md
             - name: 릴리스 정보
               href: rooms/rooms-release-note.md
-            - name: 작업 환경 준비
+            - name: 환경 준비
               href: rooms/rooms-prep.md
             - name: 요구 사항
               href: rooms/requirements.md
@@ -742,7 +742,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
             - name: 벨리즈
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: 보스니아 & 헤르체고비나
+            - name: 보스니아 헤르체고비나
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
             - name: 브라질
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
@@ -974,7 +974,7 @@
     - name: 비즈니스용 Skype Online 단종
       href: skype-for-business-online-retirement.md
     - name: FAQ
-      href: FAQ-journey.md
+      href: FAQ-journey.yml
     - name: 기술 라이브러리
       items:
         - name: IT 관리자를 위한 지침 업그레이드
@@ -1504,7 +1504,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
         - name: 버뮤다
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: 보스니아 & 헤르체고비나
+        - name: 보스니아 헤르체고비나
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
         - name: 브라질
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
@@ -1552,7 +1552,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md
         - name: 프랑스
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md
-        - name: 그루지아
+        - name: 조지아
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md
         - name: 독일
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md
@@ -1676,7 +1676,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
         - name: 태국
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: 트리나드 & 토바고
+        - name: 트리니다드 토바고
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
         - name: 튀니지
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
