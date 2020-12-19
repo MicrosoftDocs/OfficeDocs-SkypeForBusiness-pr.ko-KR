@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams에서 최상의 결과를 내기 위해 인증된 책상 및 회의 전화기에 대해 알아보십시오.
-ms.openlocfilehash: f638e1fc92383a366f5957c66a7e3bae0dc58807
-ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
+ms.openlocfilehash: 05598dfa351e62674c3ff9a9498672614f41a5d1
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570897"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718602"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams에 대해 인증된 IP 전화기
 
@@ -57,6 +57,7 @@ IP 전화 인증 프로그램은 인증된 표준 전화기 및 전화 회의 �
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020년 1월                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019년 12월                |
 | Poly Trio 8500/8800(공유 모드만 해당) | 5.9.0.10869                                                                                                                                                                                                                                | 2019년 6월                    |
+| Yealink MP58 | 122.15.0.27| 2020년 12월 |
 | Yealink MP54 | 122.15.0.27| 2020년 11월 |
 | Yealink MP56 | 122.15.0.6 | 2020년 3월    |
 | Yealink VP59 | 91.15.0.16 | 2019년 6월     |
@@ -90,6 +91,7 @@ IP 전화 인증 프로그램은 인증된 표준 전화기 및 전화 회의 �
 
 | 제품 릴리스 | 릴리스 날짜  | Microsoft Teams 앱 버전 | 회사 포털 버전 | 관리 에이전트 버전 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 업데이트 #7  | 2020년 12월 8일  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product(.223) |
 | 업데이트 #6  | 2020년 10월 12일  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
 | 업데이트 #5  | 2020년 8월 31일 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
 | 업데이트 #4  | 2020년 6월 30일 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
@@ -101,16 +103,16 @@ IP 전화 인증 프로그램은 인증된 표준 전화기 및 전화 회의 �
 
 | 디바이스 모델        | 펌웨어 버전     | 연도/포함된 제품 릴리스  |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1.7.9   | 2020, 업데이트 #6           |
-| AudioCodes C450HD   | C450HD_TEAMS_1.7.9   | 2020, 업데이트 #6           |
-|Lenovo ThinkSmart 보기|CD-18781Y.200922.098 | 2020, 업데이트 #6           |
-| Poly CCX400         | 6.2.22.0185          | 2020, 업데이트 #6           |
-| Poly CCX500/CCX600  | 6.2.22.0185          | 2020, 업데이트 #6           |
-| Poly Trio C60       | 5.9.5.2983           | 2020, 업데이트 #6           |
-| Yealink T55/T56/T58 | 58.15.0.116          | 2020, 업데이트 #6           |
-| Yealink MP56        | 122.15.0.23          | 2020, 업데이트 #6           |
-| Yealink VP59        | 91.15.0.48           | 2020, 업데이트 #6           |
-| Yealink CP960       | 73.15.0.109          | 2020, 업데이트 #6           |
+| AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 업데이트 #7           |
+| AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 업데이트 #7           |
+| Lenovo ThinkSmart 보기|CD-18781Y.200922.098 | 2020 업데이트 #6           |
+| Poly CCX400         | 6.2.23.0202         | 2020 업데이트 #7           |
+| Poly CCX500/CCX600  | 6.2.23.0202         | 2020 업데이트 #7          |
+| Poly Trio C60       | 6.2.23.0202          | 2020 업데이트 #7          |
+| Yealink T55/T56/T58 | 58.15.0.118         | 2020 업데이트 #7           |
+| Yealink MP56        | 122.15.0.27          | 2020 업데이트 #7           |
+| Yealink VP59        | 91.15.0.50          | 2020 업데이트 #7           |
+| Yealink CP960       | 73.15.0.111       | 2020 업데이트 #7           |
 
 ### <a name="product-release-information-for-collaboration-bars"></a>공동 작업 막대에 대한 제품 릴리스 정보
 
@@ -162,7 +164,7 @@ Teams를 다운로드하는 방법에 대한 자세한 내용은 Microsoft Teams
 
 * * *
 
-인증 프로그램에 참여하기를 원하는 공급업체인 경우 [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 요구 사항 및 사용 가능한 프로그램에 가입하는 방법을 참조하세요.
+인증 프로그램에 참여하고자 하는 공급업체인 경우 [](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 요구 사항 및 사용 가능한 프로그램에 가입하는 방법을 참조하세요.
 
 ## <a name="additional-resources"></a>추가 리소스
 
