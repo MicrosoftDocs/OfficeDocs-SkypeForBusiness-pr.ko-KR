@@ -1,4 +1,4 @@
-- name: 비즈니스용 Skype 서버 2019
+- name: Business Server 2019용 Skype
   href: ../skype-for-business-server-2019.yml
   items:
     - name: 새로운 기능
