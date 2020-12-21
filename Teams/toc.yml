@@ -1,8 +1,8 @@
 - name: Teams에 오신 것을 환영합니다
   href: teams-overview.md
-- name: 아키텍처 & 전화 통신 솔루션 포스터
+- name: 아키텍처 및 전화 통신 솔루션 포스터
   href: teams-architecture-solutions-posters.md
-- name: 지원 원격 작업자 (WFH)
+- name: 원격 작업자(WFH) 지원
   href: support-remote-work-with-teams.md
 - name: 교육
   items:
@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: Teams를 배포하는 방법
   href: How-to-roll-out-teams.md
-- name: 시작하기
+- name: 시작
   items:
     - name: 개요
       href: get-started-with-teams-quick-start.md
@@ -66,7 +66,7 @@
       href: teams-outlook-email-integration.md
     - name: 메시징 정책 관리
       href: messaging-policies-in-teams.md
-    - name: Teams에서 사용자 현재 상태 확인
+    - name: Teams에서의 사용자 현재 상태
       href: presence-admins.md
     - name: Teams에서 태그 관리
       href: manage-tags.md
@@ -80,7 +80,7 @@
       href: migrate-slack-to-teams.md
     - name: Teams 서식 파일 작업
       items:
-        - name: 관리 센터에서 Teams 템플릿 사용
+        - name: 관리 콘솔에서 Teams 서식 파일 사용
           href: get-started-with-teams-templates-in-the-admin-console.md
         - name: 중소기업을 위한 기본 제공 Teams 서식 파일 그래프
           href: smb-templates.md
@@ -198,7 +198,7 @@
       href: admin-settings.md
     - name: 기본 제공 및 사용자 지정 탭 사용
       href: built-in-custom-tabs.md
-    - name: 'Microsoft 365 또는 Office 365, 그리고 사용자 지정 커넥터 사용'
+    - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
       href: Office-365-custom-connectors.md
     - name: 리소스별 승인
       href: resource-specific-consent.md
@@ -234,7 +234,7 @@
       href: configure-skype-meetings-app-to-work-with-teams.md
     - name: Teams 승인 앱 가용성
       href: approval-admin.md
-- name: 모 및 회의
+- name: 모임 및 회의
   items:
     - name: 빠른 시작 - 모임 및 라이브 이벤트
       href: quick-start-meetings-live-events.md
@@ -258,7 +258,7 @@
               href: rooms/requirements.md
             - name: 온라인 라이선싱
               href: rooms/rooms-licensing.md
-            - name: Azure 모니터를 이용한 계획 관리
+            - name: Azure 모니터를 사용한 계획 관리
               href: rooms/azure-monitor-plan.md
             - name: Microsoft Teams 룸 관리 서비스
               items:
@@ -282,9 +282,9 @@
               href: rooms/with-office-365.md
             - name: 비즈니스용 Skype 서버를 사용하면
               href: rooms/with-skype-for-business-server-2015.md
-            - name: Exchange Online (하이브리드)를 사용하면
+            - name: Exchange Online(하이브리드)를 사용하면
               href: rooms/with-exchange-online.md
-            - name: Exchange 온-프레미스 (하이브리드)를 사용 하면
+            - name: Exchange 온-프레미스(하이브리드)를 사용하면
               href: rooms/with-exchange-on-premises.md
             - name: 콘솔 구성
               href: rooms/console.md
@@ -294,7 +294,7 @@
               href: rooms/third-party-join.md
             - name: Microsoft Endpoint Configuration Manager 사용
               href: rooms/rooms-scale.md
-            - name: Azure Monitor를 이용한 관리
+            - name: Azure Monitor를 사용한 관리
               href: rooms/azure-monitor-deploy.md
             - name: SRS v1 또는 LRS 마이그레이션
               href: rooms/lrs-migration.md
@@ -308,7 +308,7 @@
               href: rooms/rooms-operations.md
             - name: 조직에서 Teams 지원
               href: rooms/known-issues.md
-            - name: Azure 모니터를 이용하는 장치
+            - name: Azure 모니터를 사용하는 장치
               href: rooms/azure-monitor-manage.md
             - name: XML파일을 사용하여 설정
               href: rooms/xml-config-file.md
@@ -318,7 +318,7 @@
       href: Tutorial-Meetings-in-Teams.yml
     - name: 모임 정책 관리
       href: meeting-policies-in-teams.md
-    - name: 사용자에서 RestrictedAnonymousAccess 모임 정책 제거
+    - name: 사용자의 RestrictedAnonymousAccess 모임 정책 제거
       href: meeting-policies-restricted-anonymous-access.md
     - name: 모임 설정 관리
       href: meeting-settings-in-teams.md
@@ -330,9 +330,9 @@
       href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
     - name: Teams에서 NDI® 기술 사용
       href: use-NDI-in-meetings.md
-    - name: 팀 모임에서 손 올리기 옵션
+    - name: Teams 모임에서 손 올리기 옵션
       href: raise-hand-meetings.md
-    - name: 지원 되지 않는 브라우저에서 Teams 모임
+    - name: 지원되지 않는 브라우저에서 Teams 모임
       href: unsupported-browsers.md
     - name: Teams에서 데스크톱 공유 구성
       href: configure-desktop-sharing.md
@@ -370,11 +370,11 @@
           href: dial-out-minutes-canada-us.md
         - name: 오디오 회의 무료 전화 걸기 기간
           href: complimentary-dial-out-period.md
-        - name: 오디오 회의 구독 "전화 걸기"/"전화 받기" 혜택
+        - name: 오디오 회의 구독 ‘전화 걸기’/’전화 받기’ 혜택
           href: audio-conferencing-subscription-dial-out.md
         - name: 오디오 회의 설정
           href: set-up-audio-conferencing-in-teams.md
-        - name: 오디오 회의 설정-중소기업을 위한 빠른 시작
+        - name: 오디오 회의 설정 - 중소기업을 위한 빠른 시작
           href: audio-conferencing-smb.md
         - name: Microsoft를 오디오 회의 공급자로 지정
           href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
@@ -438,7 +438,7 @@
               href: audio-conferencing-supported-languages.md
             - name: 오디오 회의의 전화 번호
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: 오디오 회의의 국가 및 지역 영역
+            - name: 오디오 회의의 국가 및 지역 가용성
               href: audio-conferencing-zones.md
             - name: 비디오 - Teams의 오디오 회의
               href: audio-conferencing-videos.md
@@ -506,7 +506,7 @@
               href: aa-cq-cqd-historical-reports.md
             - name: 다이얼 및 음성 참조
               href: dial-voice-reference.md
-            - name: Reporting
+            - name: 보고
               href: aa-cq-cqd-historical-reports.md
         - name: 들어오는 호출 차단
           href: block-inbound-calls.md
@@ -606,7 +606,7 @@
                   href: direct-routing-protocols-media.md
             - name: 음성 라우팅 정책 관리
               href: manage-voice-routing-policies.md
-            - name: 직접 라우팅 Survivable Branch Appliance
+            - name: SBA(Survivable Branch Appliance) 직접 라우팅
               href: direct-routing-survivable-branch-appliance.md
     - name: 전화 번호
       items:
@@ -692,21 +692,21 @@
       items:
         - name: 국가 전화 번호 관리
           items:
-            - name: 오스트레일리아의 전화 번호 관리
+            - name: 오스트레일리아 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
             - name: 오스트리아 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
-            - name: 벨기에의 전화 번호 관리
+            - name: 벨기에 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
-            - name: 캐나다의 전화 번호 관리
+            - name: 캐나다 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
             - name: 덴마크 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
-            - name: 프랑스의 전화 번호 관리
+            - name: 프랑스 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
-            - name: 독일의 전화 번호 관리
+            - name: 독일 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
-            - name: 아일랜드의 전화 번호 관리
+            - name: 아일랜드 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
             - name: 이탈리아 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
@@ -716,7 +716,7 @@
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
             - name: 스페인의 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
-            - name: 네덜란드의 전화 번호 관리
+            - name: 네덜란드 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
             - name: 스웨덴 전화 번호 관리
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
@@ -879,7 +879,7 @@
   items:
     - name: 개요
       href: adopt-microsoft-teams-landing-page.md
-    - name: 시작하기
+    - name: 시작
       href: teams-adoption-get-started.md
     - name: 1단계 - 시작
       items:
@@ -907,7 +907,7 @@
           href: teams-adoption-onboard-support.md
     - name: 3단계 - 배율
       items:
-        - name: 배율
+        - name: 확장
           href: teams-adoption-phase3-enable.md
         - name: 결과 및 성공 정의
           href: teams-adoption-define-outcomes.md
@@ -919,7 +919,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: Teams로 업그레이드
   items:
-    - name: 시작하기
+    - name: 시작
       href: upgrade-start-here.md
     - name: 업그레이드 프레임워크 정보
       href: upgrade-framework.md
@@ -1055,7 +1055,7 @@
           href: business-voice/prepare-users.md
     - name: 시작 마법사의 실행
       href: business-voice/use-getting-started-wizard.md
-    - name: 시도할 것
+    - name: 시도할 수 있는 사항
       href: business-voice/things-to-try.md
     - name: 설정 사용자 지정하기
       items:
@@ -1069,11 +1069,11 @@
           href: business-voice/policy-packages.md
         - name: 추가 사용자 만들기
           href: business-voice/create-users.md
-        - name: 예 - 통화 큐 설정
+        - name: 예제 - 통화 큐 설정
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 통화 큐 설정
           href: business-voice/set-up-call-queues.md
-        - name: 예 - 자동 회의 설정
+        - name: 예제 - 자동 전화 교환 설정
           href: tutorial-org-aa.yml
         - name: 자동 전화 교환 설정
           href: business-voice/set-up-auto-attendants.md
@@ -1102,15 +1102,15 @@
           items:
             - name: Teams에서 조직의 교대 근무 앱 관리
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 의료 산업용 Teams
+    - name: 의료용 Teams
       items:
         - name: 의료 조직을 위한 Teams 시작
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: 가상 방문
           items:
-            - name: Teams를 통해 가상 방문 - EHR에 통합
+            - name: Teams를 사용하여 가상 방문 - EHR에 통
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: Bookings 및 Teams를 통해 가상 방문
+            - name: 예약 및 Teams를 통한 가상 방문
               href: bookings-app-admin.md
         - name: 정책 패키지 보기 및 할당
           href: policy-packages-healthcare.md
@@ -1122,19 +1122,19 @@
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
         - name: Teams 서식 파일
           items:
-            - name: Teams 의료 템플릿 사용
+            - name: 관리 콘솔에서 Teams 서식 파일 사용
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 의료용 Teams 템플릿
+            - name: 의료용 Teams 서식 파일
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: 목록 앱 관리
+        - name: Teams에서 조직의 목록 앱 관리
           href: manage-lists-app.md
-        - name: 작업 앱 관리
+        - name: 조직에 대한 작업 앱 관리
           href: manage-tasks-app.md
         - name: Teams의 교대 근무
           items:
             - name: Teams의 교대 근무
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Shifts 앱 관리
+            - name: Teams에서 조직의 교대 근무 앱 관리
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 교육용 Teams
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1155,7 +1155,7 @@
           href: class-insights.md
         - name: 교육용 Teams의 과제
           href: expand-teams-across-your-org/assignments-in-teams.md
-        - name: 교육용 Teams 리소스 관리
+        - name: 교육 관리자용 Teams 리소스
           href: resources-teams-edu.md
         - name: 관리자용 Microsoft 교육 거버넌스 FAQ
           href: plan-teams-governance-edu.md
@@ -1171,9 +1171,9 @@
           href: firstline-workers-quickstart.yml
         - name: 일선 직원 스크립팅된 배포
           href: flw-scripted-deployment.md
-        - name: FirstLine 작업자에 대한 교대 근무 기반 액세스 관리
+        - name: FirstLine Worker에 대한 shift 기반 액세스 관리
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-        - name: Microsoft Teams용 RealWear
+        - name: 'Microsoft Teams를 위한 RealWear '
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
@@ -1182,14 +1182,14 @@
     - name: 소매용 Teams
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: 관리 센터에서 소매 Teams 템플릿 시작
+        - name: 관리 콘솔에서 소매용 Teams 서식 파일 시작
           href: retail-teams-templates-in-the-admin-console.md
         - name: 소매 Teams 서식 파일 시작
           href: get-started-with-retail-teams-templates.md
     - name: 정부 기관용 Teams
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items:
-        - name: 지원 원격 작업자 (WFH)
+        - name: 원격 작업자(WFH) 지원
           href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
         - name: 정부 기관용 Teams 서식 파일 시작
           href: government-teams-templates-in-the-admin-console.md
@@ -1233,13 +1233,13 @@
           href: retention-policies.md
         - name: 커뮤니케이션 규정 준수
           href: communication-compliance.md
-        - name: 통화 및 모임에 대한 정책 기반 & 기록
+        - name: 통화 및 모임에 대한 정책 기반 녹음
           href: teams-recording-policy.md
         - name: 데이터 손실 방지
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: eDiscovery
           href: ediscovery-investigation.md
-        - name: 법적 보유
+        - name: 법적 보존
           href: legal-hold.md
         - name: 콘텐츠 검색
           href: content-search.md
@@ -1273,7 +1273,7 @@
       items:
         - name: 통화 품질 모니터링 및 향상
           href: monitor-call-quality-qos.md
-        - name: 통화 품질 대시보드(CQD)
+        - name: CQD(통화 품질 대시보드)
           items:
             - name: CQD 정의
               href: CQD-what-is-call-quality-dashboard.md
@@ -1285,7 +1285,7 @@
               href: CQD-data-and-reports.md
             - name: CQD를 사용하여 통화 및 모임 품질 관리
               href: quality-of-experience-review-guide.md
-            - name: 질문과 대답
+            - name: 자주 묻는 질문
               href: CQD-frequently-asked-questions.md
             - name: CQD에서 사용할 수 있는 차원 및 측정값
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
@@ -1345,7 +1345,7 @@
           href: network-planner.md
         - name: Network Planner 연습
           href: tutorial-network-planner-example.yml
-        - name: Teams 또는 비즈니스용 Skype Online 용 프록시 서버
+        - name: Teams 또는 비즈니스용 Skype Online용 프록시 서버
           href: proxy-servers-for-skype-for-business-online.md
         - name: Teams에서 팀을 만들 때 Microsoft 365 그룹에 대한 계획
           href: plan-office-365-groups.md
@@ -1432,11 +1432,11 @@
           href: devices/manage-device-tags.md
         - name: Teams용 전화
           href: devices/phones-for-teams.md
-        - name: Teams 표시
+        - name: Teams 디스플레이
           href: devices/teams-displays.md
-        - name: Teams 휴대폰을 Teams 표시로 업그레이드
+        - name: Teams 디스플레이에 Teams 휴대폰 업그레이드
           href: devices/upgrade-phones-to-displays.md
-        - name: Intune을 사용하여 Teams 휴대폰 및 Teams 표시 배포
+        - name: Intune을 사용하여 Teams 휴대폰 및 Teams 디스플레이 배포
           href: devices/phones-displays-deploy.md
         - name: USB 오디오 및 비디오 디바이스
           href: devices/usb-devices.md
