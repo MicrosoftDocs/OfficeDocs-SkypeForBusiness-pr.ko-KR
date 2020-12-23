@@ -636,6 +636,8 @@
               href: phone-number-calling-plans/manually-submit-port-order.md
             - name: 포트 주문의 상태 확인
               href: phone-number-calling-plans/port-order-status.md
+        - name: 지원 평가 센터 및 적용 범위
+          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
     - name: 통화 라우팅
       items:
         - name: 다이얼 플랜이 무엇인가요?
