@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 'Advisor for Teams로 Microsoft Teams 사용을 계획하고 성공적으로 배포하세요.  '
-ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616932"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731136"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -200,7 +200,7 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 
 Teams 지원 센터 및 챔피언을 준비하는 방법에 대한 지침 및 리소스는 [조직 교육](https://adoption.microsoft.com/microsoft-teams/#train-your-org) 및 [챔피언 빌드](https://adoption.microsoft.com/microsoft-teams/#build-champions)를 참조하세요.
 
-사용자의 "방법" 질문에 대한 연락 담당자로서 지원 센터와 챔피언은 학습 경로 사이트를 사용하여 사용자를 교육하고 지원 티켓을 만드는 대안으로 사용할 수 있습니다. 교육 및 지원 페이지를 작성하여 [학습 경로 사이트를 사용자 지정](https://docs.microsoft.comoffice365/customlearning/custom_overview)하도록 지원 센터와 챔피언에게 권장한 다음 사용자가 자체 서비스할 수 있도록 팀의 [채널에 탭으로 추가](#add-your-site-to-teams)합니다.
+사용자의 "방법" 질문에 대한 연락 담당자로서 지원 센터와 챔피언은 학습 경로 사이트를 사용하여 사용자를 교육하고 지원 티켓을 만드는 대안으로 사용할 수 있습니다. 교육 및 지원 페이지를 작성하여 [학습 경로 사이트를 사용자 지정](https://docs.microsoft.com/office365/customlearning/)하도록 지원 센터와 챔피언에게 권장한 다음 사용자가 자체 서비스할 수 있도록 팀의 [채널에 탭으로 추가](#add-your-site-to-teams)합니다.
 
 ### <a name="drive-adoption"></a>도입 주도
 
