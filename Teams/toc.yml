@@ -288,6 +288,8 @@
               href: rooms/with-exchange-on-premises.md
             - name: 콘솔 구성
               href: rooms/console.md
+            - name: 수동으로 장치 업데이트
+              href: rooms/manual-update.md
             - name: 인증 구성
               href: rooms/rooms-authentication.md
             - name: 타사 모임 참가
