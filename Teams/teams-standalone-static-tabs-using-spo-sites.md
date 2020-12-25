@@ -1,6 +1,6 @@
 ---
 title: SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기
-author: LanaChin
+author: cichur
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -14,18 +14,18 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 기존 SharePoint Online 사이트 또는 페이지를 이용해 조직의 인트라넷 포털로 사용할 수 있는 독립 실행형 정적 탭을 만듭니다.
 localization_priority: Priority
-ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083168"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731116"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기
 
 이 문서의 단계를 사용하여 Teams 안에 조직의 인트라넷 사이트로 연결되는 독립 실행형 정적 앱을 만듭니다.
 
-SharePoint 인트라넷 사이트의 *Teams 개인 앱*이 만들어져 Teams 내에서 탭으로 표시됩니다. 이 탭에는 모든 Teams 사용자에게 중요한 정보를 포함할 수 있습니다. 이런 식으로 Teams 사용자는 단지 탭을 클릭하여 빠르고 간편하게 업데이트에 액세스합니다.
+SharePoint 인트라넷 사이트의 *Teams 개인 앱* 이 만들어져 Teams 내에서 탭으로 표시됩니다. 이 탭에는 모든 Teams 사용자에게 중요한 정보를 포함할 수 있습니다. 이런 식으로 Teams 사용자는 단지 탭을 클릭하여 빠르고 간편하게 업데이트에 액세스합니다.
 
 표시된 프로세스가 제대로 작동하려면 *최신* SharePoint 사이트 또는 페이지를 **사용해야** 합니다. 이 프로세스는 *대표* 사이트나 페이지에서는 사용할 수 없습니다.
 
@@ -41,8 +41,9 @@ SharePoint 인트라넷 사이트의 *Teams 개인 앱*이 만들어져 Teams �
 
 2. 테넌트의 하위 도메인을 알아야 하며, **{{subdomain}}** 자리 표시자에 사용됩니다.
 
-3. 이 문서에서는 **{{siteUrl}}** 을(를) 사용자가 선택한 사이트 또는 페이지의 *URL*에 대한 자리 표시자로 사용합니다.
-    - *URL* 예:   https://contoso.sharepoint.com/teams/Contoso   *또는* https://contoso.sharepoint.com/sites/Contoso
+3. 이 문서에서는 **{{siteUrl}}** 을(를) 사용자가 선택한 사이트 또는 페이지의 *URL* 에 대한 자리 표시자로 사용합니다.
+    - *URL* 예: `https://contoso.sharepoint.com/teams/Contoso`
+        *또는* `https://contoso.sharepoint.com/sites/Contoso`
 4. 또한, **{{sitePath}}** 는 URL의 *경로*(예: /teams/Contoso)를 표시하는 데 사용됩니다.
     - *경로* 예:   /teams/Contoso   *또는* /sites/Contoso
 
@@ -52,30 +53,30 @@ SharePoint 인트라넷 사이트의 *Teams 개인 앱*이 만들어져 Teams �
 
 2. App Studio를 설치하거나 엽니다.
 
-3. 앱 옵션 옆의 **열기**를 클릭합니다.
+3. 앱 옵션 옆의 **열기** 를 클릭합니다.
 
-4. App Studio를 연 상태에서 **매니페스트 편집기**를 클릭합니다.
+4. App Studio를 연 상태에서 **매니페스트 편집기** 를 클릭합니다.
 
 5. **새 앱을 만듭니다**.
 
-6. **앱 세부 정보**를 모두 기입합니다.
+6. **앱 세부 정보** 를 모두 기입합니다.
 
-7. 기능의 **탭**을 클릭합니다.
+7. 기능의 **탭** 을 클릭합니다.
 
-8. 개인 탭에서 **추가**를 클릭합니다.
+8. 개인 탭에서 **추가** 를 클릭합니다.
 
-9. **이름**을 입력하고 **새 고유 엔터티 ID**를 선택합니다.
+9. **이름** 을 입력하고 **새 고유 엔터티 ID** 를 선택합니다.
 
-10. **contentURL 및 웹 사이트 URL**을 입력합니다.
+10. **contentURL 및 웹 사이트 URL** 을 입력합니다.
 
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
 - **websiteUrl**: {{siteUrl}}
 
-    **contentURL** 예: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+    **contentURL** 예: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
-11. **도메인 및 사용 권한**으로 이동합니다. 유효한 도메인 섹션에 SharePoint Online 도메인 이름이 있는지 확인합니다.
+11. **도메인 및 사용 권한** 으로 이동합니다. 유효한 도메인 섹션에 SharePoint Online 도메인 이름이 있는지 확인합니다.
 
-    예: contoso.sharepoint.com
+    예: `contoso.sharepoint.com`
 
 12. 다음 웹 앱 **single sign-on** 속성을 추가합니다.
 
@@ -83,7 +84,7 @@ SharePoint 인트라넷 사이트의 *Teams 개인 앱*이 만들어져 Teams �
 
     ![ID와 URL을 사용한 웹 앱 single sign-on입니다.](media/personal-app.png)
 
-13. 이러한 속성을 **저장**한 다음 **테스트 및 배포**로 이동합니다.
+13. 이러한 속성을 **저장** 한 다음 **테스트 및 배포** 로 이동합니다.
 
 14. 앱을 설치하여 응용 프로그램을 개인적으로 테스트합니다.
 
