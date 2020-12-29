@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-december-21-2020"></a>2020년 12월 21일 주
+
+
+| 게시일 |주제 제목 | 변경 |
+|------|------------|--------|
+| 12/22/2020 | [Microsoft Teams 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 수정 |
+| 12/22/2020 | [Teams에서 회의실 사용](/MicrosoftTeams/using-breakout-rooms) | 수정 |
+| 12/23/2020 | [환자 앱을 FHIR용 Azure API에 연결](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 수정 |
+| 12/23/2020 | [조직의 목록 앱 관리](/MicrosoftTeams/manage-lists-app) | 수정 |
+| 12/23/2020 | [온보드 검사 목록 - 클라우드 음성 워크로드 구성 - Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | 수정 |
+| 12/23/2020 | [Teams 앱 제출 API를 사용하여 사용자 지정 앱 제출 및 승인](/MicrosoftTeams/submit-approve-custom-apps) | 수정 |
+| 12/23/2020 | [Microsoft Teams 추가 기능 라이선스](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 수정 |
+| 12/23/2020 | [SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 수정 |
+| 12/23/2020 | [Microsoft Teams 서비스 \| 관리 \| 품질 운영](/MicrosoftTeams/upgrade-operate-my-service) | 수정 |
+| 12/23/2020 | [Advisor for Teams를 사용하여 Microsoft Teams 배포](/MicrosoftTeams/use-advisor-teams-roll-out) | 수정 |
+
+
 ## <a name="week-of-december-14-2020"></a>2020년 12월 14일 주
 
 
@@ -102,48 +119,3 @@
 | 11/25/2020 | [직접 라우팅에 대한 벨소리 봇 설정](/MicrosoftTeams/direct-routing-ringback-bot) | 수정 |
 | 11/25/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
 | 11/25/2020 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 수정 |
-
-
-## <a name="week-of-november-16-2020"></a>2020년 11월 16일 주
-
-
-| 게시일 |주제 제목 | 변경 |
-|------|------------|--------|
-| 11/16/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
-| 11/16/2020 | [Teams 연락처 센터](/MicrosoftTeams/teams-contact-center) | 수정 |
-| 11/16/2020 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
-| 11/16/2020 | [Power BI를 사용하여 Microsoft Teams에 대한 CQD 데이터 분석](/MicrosoftTeams/cqd-power-bi-query-templates) | 수정 |
-| 11/16/2020 | [CQD Power BI 보고서를 사용하여 호출 자동 전화 교환 & 기록 보고서 보기](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | 수정 |
-| 11/16/2020 | [Microsoft Teams에서 사용자에게 정책 할당](/MicrosoftTeams/assign-policies) | 수정 |
-| 11/16/2020 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정 |
-| 11/16/2020 | [Microsoft 365 Government - GCC 배포](/MicrosoftTeams/plan-for-government-gcc) | 수정 |
-| 11/16/2020 | [Microsoft Teams 라이브 이벤트란?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 수정 |
-| 11/16/2020 | [Microsoft Power Platform과 Teams 통합](/MicrosoftTeams/teams-power-platfom-integration) | 수정 |
-| 11/17/2020 | [CQD Power BI 보고서를 사용하여 호출 자동 전화 교환 & 기록 보고서 보기](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | 수정 |
-| 11/17/2020 | [자동 전화 교환 & 기록 보고서 호출](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 수정 |
-| 11/17/2020 | [Microsoft 365용 통화 계획](/MicrosoftTeams/calling-plans-for-office-365) | 수정 |
-| 11/17/2020 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정 |
-| 11/17/2020 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
-| 11/17/2020 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정 |
-| 11/17/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
-| 11/17/2020 | [캐나다의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 수정 |
-| 11/17/2020 | [미국 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 수정 |
-| 11/17/2020 | [Microsoft Teams에서 조직의 작업 앱 관리](/MicrosoftTeams/manage-tasks-app) | 수정 |
-| 11/17/2020 | [관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트](/MicrosoftTeams/quick-start-meetings-live-events) | 수정 |
-| 11/17/2020 | [Microsoft Teams의 보존 정책](/MicrosoftTeams/retention-policies) | 수정 |
-| 11/17/2020 | [Microsoft Teams용 고급 통신 추가 기능](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 수정 |
-| 11/17/2020 | [Microsoft Teams 모임 참석자 보고서](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | 수정 |
-| 11/17/2020 | [Microsoft Teams에서 라이브 이벤트 설정 구성](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 수정 |
-| 11/17/2020 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 수정 |
-| 11/17/2020 | [Microsoft Teams에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 수정 |
-| 11/17/2020 | [Microsoft Teams 라이브 이벤트란?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 수정 |
-| 11/17/2020 | [이집트의 무료 전화 걸기 제한](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | 수정 |
-| 11/18/2020 | [과테말라의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala) | 수정 |
-| 11/18/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
-| 11/18/2020 | [가상 방문을 위한 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 수정 |
-| 11/18/2020 | [Microsoft Teams에 로그인](/MicrosoftTeams/sign-in-teams) | 수정 |
-| 11/18/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정 |
-| 11/19/2020 | [가상 방문을 위한 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 수정 |
-| 11/19/2020 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
-| 11/20/2020 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 수정 |
-| 11/20/2020 | [Microsoft Teams에 로그인](/MicrosoftTeams/sign-in-teams) | 수정 |
