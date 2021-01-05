@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증된 SBC(세션 테두리 컨트롤러)에 대해 자세히 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef74ecae93602939e0cdd902b1599ef79c5303c9
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 1422722cd55337cb5bf7dd9a534d3099b9999776
+ms.sourcegitcommit: 11e0b8bfb960fb726880c80ce9339e864bcb074a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712296"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750578"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -33,20 +33,20 @@ Microsoft는 각 공급업체와 협력하여
 
 - SIP 상호 연결 프로토콜에서 공동으로 작업합니다.
 - 타사 랩을 사용하여 강력한 테스트를 수행합니다. 테스트를 통과하는 디바이스만 인증됩니다. 
-- 프로덕션 및 사전 프로덕션 환경에서 모든 인증된 디바이스를 통해 매일 테스트를 실행합니다. 프로덕션 전 환경에서 디바이스의 유효성을 검사하면 클라우드의 새 버전의 직접 라우팅 코드가 인증된 SBC와 함께 작동하게 됩니다. 
+- 프로덕션 및 사전 프로덕션 환경에서 모든 인증된 디바이스를 통해 매일 테스트를 실행합니다. 프로덕션 전 환경에서 디바이스의 유효성을 검사하면 클라우드의 새 버전의 직접 라우팅 코드가 인증된 SBC에서 작동할 수 있습니다. 
 - SBC 공급업체와 공동 지원 프로세스를 수립합니다.
 
 
   > [!NOTE]
-  > Microsoft는 인증된 디바이스 또는 디바이스가 직접 라우팅을 통해 연결된 경우 전화 시스템만 지원합니다. Microsoft는 직접 라우팅을 통해 인증되지 않은 디바이스가 전화 시스템에 연결된 지원 사례를 거부할 수 있는 권리가 있습니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 디바이스와 관련이 있는 것으로 판단되는 경우 고객은 SBC 공급업체에 지원을 요청해야 합니다.
+  > Microsoft는 인증된 디바이스 또는 디바이스가 직접 라우팅을 통해 연결된 경우 전화 시스템만 지원합니다. Microsoft는 인증되지 않은 디바이스가 직접 라우팅을 통해 전화 시스템에 연결된 지원 사례를 거부할 수 있는 권리가 있습니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 디바이스와 관련이 있는 것으로 판단되는 경우 고객은 SBC 공급업체에 지원을 요청해야 합니다.
 
-아래 표에는 직접 라우팅에 대해 인증된 디바이스가 나열됩니다. (로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 직접 라우팅에 대한 로컬 미디어 최적화 [구성을 참조하세요.)](direct-routing-media-optimization-configure.md)
+아래 표에는 직접 라우팅에 대해 인증된 디바이스가 나열됩니다. (로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 직접 라우팅을 위한 로컬 미디어 최적화 [구성을 참조하세요.)](direct-routing-media-optimization-configure.md)
 
 [직접 라우팅에 대해 자세히 배워야 합니다.](https://aka.ms/dr) 직접 라우팅에 대한 SBC 인증 프로그램에 대한 질문이 있는 경우 drsbccertification@microsoft.com.
 <br/>
 <br/>
 
-|                                                       공급업체                                                        |       제품       | 비 미디어 우회 | 미디어 바이패스 | 소프트웨어 버전 | E911 공급자로 유효성 검사 | ELIN 지원
+|                                                       공급업체                                                        |       제품       | 비미디어 우회 | 미디어 바이패스 | 소프트웨어 버전 | E911 공급자를 사용하여 유효성 검사 | ELIN 지원
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [오디오 코드](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.250(권장 7.20A.258)   | <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul> |  &#10004;  |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258)   | <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |
@@ -82,6 +82,7 @@ Microsoft는 각 공급업체와 협력하여
 |                     [Italtel](https://www.italtel.com/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [카탈로냐어](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    | 
+|                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
 
 <br/>
 <br/>
