@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 통화 대기열 만들기
+title: Microsoft Teams에서 통화 큐 만들기
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -23,167 +23,167 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: 인사말 메시지, 음악 보관, 착신 전환, 기타 기능을 제공 하는 Microsoft 팀과 통화 큐에 대 한 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: 인사말 메시지를 제공하고, 음악, 통화 리디렉션 및 기타 기능을 제공하는 Microsoft Teams를 사용하여 통화 큐에 전화 시스템을 설정하는 방법을 배워야 합니다.
+ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49135936"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49765412"
 ---
-# <a name="create-a-call-queue"></a>통화 대기열 만들기
+# <a name="create-a-call-queue"></a>통화 큐 만들기
 
-통화 큐는 특정 문제 또는 질문에 대 한 도움을 얻을 수 있는 조직의 사용자에 게 발신자를 라우팅하는 방법을 제공 합니다. 통화는 큐에 있는 사람에 게 한 번에 하나씩 분배 됩니다 ( *상담원* 이라고 함). 
+통화 큐는 특정 문제 또는 질문에 도움을 줄 수 있는 조직의 사용자에게 발신자 라우팅 방법을 제공합니다. 호출은 큐에 있는 사람(에이전트라고도 하는)에게 한 번씩 *배포됩니다.* 
 
-통화 대기열은 다음을 제공 합니다.
+호출 큐는 다음을 제공합니다.
 
 - 인사말 메시지입니다.
 
-- 대기열에 대기 중인 동안에는 음악을 들을 수 있습니다.
+- 음악 대기 중인 동안 대기합니다.
 
-- 전화 접속 *-선입 선출 (FIFO* ) 주문부터 상담원을 연결 합니다.
+- 호출 라우팅(FIFO(First *In, First Out)* 순서로 에이전트에 라우팅합니다.
 
-- 큐 오버플로 및 시간 초과에 대 한 처리 옵션입니다.
+- 큐 오버플로 및 시간 제한에 대한 처리 옵션입니다.
 
-이 문서의 절차를 따르기 전에 [팀 자동 전화 교환 및 통화 대기열에 대 한 요금제](plan-auto-attendant-call-queue.md) 를 확인 하 고 [시작 단계](plan-auto-attendant-call-queue.md#getting-started) 를 팔 로우 해야 합니다.
+이 문서의 절차를 수행하기 전에 [Teams](plan-auto-attendant-call-queue.md) 자동 전화 회의 [](plan-auto-attendant-call-queue.md#getting-started) 및 통화 큐에 대한 계획을 읽고 시작 단계를 수행해야 합니다.
 
-통화 대기열을 설정 하려면 팀 관리 센터에서 **음성을** 확장 하 고 **통화 대기열** 을 클릭 한 다음 **추가** 를 클릭 합니다.
+통화 큐를 설정하려면 Teams 관리 센터에서 음성을 확장하고 **통화** 큐를 클릭한 다음 추가를 **클릭합니다.**
 
 ## <a name="resource-account-and-language"></a>리소스 계정 및 언어
 
 ![리소스 계정 및 언어 설정 스크린샷](media/call-queue-name-language.png)
 
-1. 통화 대기열의 이름을 입력 합니다. 상담원은 대기열에서 수신 전화를 받을 때이 이름을 볼 수 있습니다.
+1. 호출 큐의 이름을 입력합니다. 에이전트는 큐에서 들어오는 호출을 받으면 이 이름을 볼 수 있습니다.
 
-2. **계정 추가** 를 클릭 하 고이 통화 큐와 함께 사용 하려는 리소스 계정을 검색 한 다음 **추가** 를 클릭 하 고 **추가** 를 클릭 합니다.
+2. 계정 **추가를** 클릭하고 이 호출 큐에 사용할 리소스 계정을 검색한 다음 추가를 클릭한 다음 추가를 **클릭합니다.**
 
-3. 언어를 선택 합니다. 이 언어는 시스템에서 생성 하는 음성 메시지 및 음성 메일에 사용 됩니다 (사용 하도록 설정한 경우).
+3. 언어를 선택 합니다. 이 언어는 시스템 생성 음성 프롬프트 및 음성메일 전사(사용하도록 설정한 경우)에 사용됩니다.
 
-## <a name="greetings-and-music-on-hold-in-queue"></a>큐에 대기 중인 인사말 및 음악
+## <a name="greetings-and-music-on-hold-in-queue"></a>대기 중인 큐에서 인사말 및 음악
 
-큐에 도착할 때 전화를 받을 때 인사말을 재생할지 여부를 지정 합니다. 재생 하려는 인사말이 포함 된 MP3, WAV 또는 WMA 파일을 업로드 해야 합니다.
+발신자들에게 큐에 도착할 때 인사말을 재생할지 지정합니다. 재생하려는 인사말이 포함된 MP3, WAV 또는 WMA 파일을 업로드해야 합니다.
 
-팀은 호출자에 게 기본 음악을 제공 하며, 큐에는 대기 상태가 유지 됩니다. 특정 오디오 파일을 재생 하려면 **오디오 파일 재생** 을 선택 하 고 MP3, WAV 또는 WMA 파일을 업로드 합니다.
-
-> [!NOTE]
-> 업로드 된 기록은 5mb 보다 클 수 없습니다.
-> 팀 통화 대기열에 제공 되는 기본 음악은 귀하의 조직에의 한 모든 royalties 매입금입니다. 
-
-## <a name="call-agents"></a>통화 에이전트
-
-통화 대기열에 에이전트를 추가할 수 있으려면 [필수 조건을](plan-auto-attendant-call-queue.md#prerequisites) 참조 하세요.
-
-![통화 대기열의 사용자 및 그룹 설정 스크린샷](media/call-queue-users-groups.png)
-
-최대 20 명의 에이전트를 개별적으로 추가 하거나 그룹을 통해 최대 200 에이전트를 추가할 수 있습니다.
-
-큐에 사용자를 추가 하려면 사용자 **추가**, 사용자 검색을 차례로 클릭 하 고 **추가** 를 클릭 한 다음 **추가** 를 클릭 합니다.
-
-큐에 그룹을 추가 하려면 그룹 **추가** 를 클릭 하 고 그룹을 검색 한 다음 **추가** 를 클릭 하 고 **추가** 를 클릭 합니다. 배포 목록, 보안 그룹, Microsoft 365 그룹 또는 Microsoft 팀 팀을 사용할 수 있습니다.
+Teams는 발신자에 큐에 대기 중인 동안 발신자에 기본 음악을 제공 합니다. 특정 오디오 파일을 재생하려면 오디오 파일 재생을 **선택하고** MP3, WAV 또는 WMA 파일을 업로드합니다.
 
 > [!NOTE]
-> 그룹에 추가 된 새 사용자는 첫 번째 통화가 도착 하는 데 8 시간까지 걸릴 수 있습니다.
+> 업로드된 기록은 5MB를 넘지 않습니다.
+> Teams 통화 큐에 제공되는 기본 음악은 조직에서 지불하는 로열티가 없습니다. 
+
+## <a name="call-agents"></a>에이전트 호출
+
+호출 [큐에](plan-auto-attendant-call-queue.md#prerequisites) 에이전트를 추가할 수 있는 경우 전제적 준비를 참조합니다.
+
+![통화 큐에 대한 사용자 및 그룹 설정 스크린샷](media/call-queue-users-groups.png)
+
+그룹을 통해 최대 20개 에이전트를 개별적으로 최대 200개까지 추가할 수 있습니다.
+
+사용자를 큐에 추가하려면 **사용자** 추가를 클릭하고 사용자를 검색하고 추가를 클릭한 다음 추가를 **클릭합니다.**
+
+큐에 그룹을 추가하려면 그룹 추가를 클릭하고 **그룹을** 검색한 다음 추가를 클릭한 다음 추가를 **클릭합니다.** 메일 그룹, 보안 그룹 및 Microsoft 365 그룹 또는 Microsoft Teams 팀을 사용할 수 있습니다.
+
+> [!NOTE]
+> 그룹에 추가된 새 사용자는 첫 번째 호출이 도착하는 데 최대 8시간이 걸릴 수 있습니다.
 
 ## <a name="call-routing"></a>통화 라우팅
 
 ![회의 모드 및 라우팅 방법 설정 스크린샷](media/call-queue-conference-mode-routing-method.png)
 
-**회의 모드** 는 에이전트가 통화를 수락 한 후 호출자가 에이전트에 연결 하는 데 걸리는 시간을 크게 줄여줍니다. 회의 모드가 작동 하려면 통화 큐의 상담원은 다음 클라이언트 중 하나를 사용 해야 합니다.
+**전화 회의 모드는** 에이전트가 통화를 수락한 후 발신자에 연결되는 데 걸리는 시간을 크게 줄입니다. 전화 회의 모드가 작동하려면 통화 큐의 에이전트가 다음 클라이언트 중 하나를 사용해야 합니다.
 
-  - 최신 버전의 Microsoft 팀 데스크톱 클라이언트, Android 앱 또는 iOS 앱
-  - Microsoft 팀 전화 버전 1449/1.0.94.2020051601 이상
+  - 최신 버전의 Microsoft Teams 데스크톱 클라이언트, Android 앱 또는 iOS 앱
+  - Microsoft Teams 휴대폰 버전 1449/1.0.94.2020051601 이상
   
-에이전트 팀 계정은 팀 전용 모드로 설정 해야 합니다. 요구 사항에 맞지 않는 상담원은 통화 라우팅 목록에 포함 되어 있지 않습니다. 에이전트가 호환 되는 클라이언트를 사용 하는 경우에는 통화 큐에 대해 회의 모드를 사용 하도록 설정 하는 것이 좋습니다.
+에이전트의 Teams 계정을 Teams 전용 모드로 설정해야 합니다. 요구 사항을 충족하지 않는 에이전트는 통화 라우팅 목록에 포함되지 않습니다. 에이전트가 호환되는 클라이언트를 모두 사용하는 경우 통화 큐에 전화 회의 모드를 사용하는 것이 좋습니다.
 
 > [!NOTE]
-> 다른 용무 중 통화 모드는 지원 되지 않습니다. 현재 상태 기반 라우팅이 활성화 되어 있지 않은 경우 통화 대기열 호출이 계속 표시 될 수 있습니다.
+> 사용 중이면 회의 모드에서는 지원되지 않습니다. 현재 상태 기반 라우팅을 사용하도록 설정하지 않은 경우 비 호출 큐 호출의 에이전트는 호출 큐 호출과 함께 계속 표시됩니다.
 
-**라우팅 메서드** 는 에이전트가 대기열에서 전화를 받는 순서를 결정 합니다. 다음 옵션 중에서 선택 합니다.
+**라우팅 메서드는** 에이전트가 큐에서 호출을 수신하는 순서를 결정합니다. 다음 옵션에서 선택합니다.
 
-- **수행자 라우팅은** 동시에 대기열의 모든 에이전트를 울릴 것입니다. 통화를 선택 하는 첫 번째 호출 에이전트에서 통화를 받습니다.
+- **참석자 라우팅은** 큐에 있는 모든 에이전트를 동시에 링합니다. 호출을 픽업하는 첫 번째 호출 에이전트가 호출을 얻습니다.
 
-- **Serial 라우팅은** 모든 통화 에이전트를 **통화 에이전트** 목록에 지정 된 순서 대로 하나씩 연결 합니다. 에이전트가 전화를 걸거나 받지 못하는 경우 통화는 다음 에이전트로 연결 되며, 모든 에이전트가 선택 되거나 시간 초과 될 때까지 시도 하 게 됩니다.
+- **직렬 라우팅은** 호출 에이전트 목록에 지정된 순서대로 모든 호출 에이전트를 하나씩 **링합니다.** 에이전트가 통화를 기각하거나 선택하지 않는 경우 호출은 다음 에이전트에 벨을 울리며, 에이전트가 선택되거나 시간 외 시간 외로 호출될 때까지 모든 에이전트를 시도합니다.
 
-- **라운드 로빈** 에서는 각 호출 에이전트가 대기열에서 같은 수의 호출을 받을 수 있도록 들어오는 호출의 라우팅을 분산 시킵니다. 이는 모든 통화 에이전트 간에 동일한 기회를 보장 하기 위해 인바운드 영업 환경에서 바람직 할 수 있습니다.
+- **라운드 로빈은** 들어오는 호출의 라우팅을 균형 조정하여 각 호출 에이전트가 큐에서 동일한 호출 수를 얻습니다. 인바운드 판매 환경에서는 모든 호출 에이전트가 동일한 기회를 보장하는 것이 바람직할 수 있습니다.
 
-- **가장 긴 유휴** 시간은 오랫동안 유휴 상태에 있는 에이전트로 각 호출을 라우팅합니다. 현재 상태를 사용할 수 있거나 해당 사용자의 현재 상태가 10 분 미만으로 떨어져 있는 경우 에이전트가 유휴 상태인 것으로 간주 됩니다. 현재 상태가 10 분 이상인 에이전트는 유휴 상태로 간주 되지 않으며 현재 상태를 사용할 수 있는 것으로 변경 될 때까지 통화를 받을 수 없게 됩니다. 
+- **가장 긴 유휴** 시간은 각 호출을 유휴 시간이 가장 긴 에이전트로 라우팅합니다. 에이전트는 현재 상태를 사용할 수 있는 경우 또는 현재 상태가 10분 미만 동안 비어 있는 경우 유휴 상태로 간주됩니다. 현재 상태가 10분 넘게 부재 중 상태인 에이전트는 유휴 상태로 간주되지 않습니다. 현재 상태를 사용 가능으로 변경할 때까지 통화를 받을 자격이 없습니다. 
 
-![라우팅, 옵트아웃, 알림 시간 설정 스크린샷](media/call-queue-presence-agents-time.png)
+![라우팅, 옵트아웃 및 경고 시간 설정 스크린샷](media/call-queue-presence-agents-time.png)
 
 
-**현재 상태 기반 라우팅은** 통화 에이전트의 가용성 상태를 사용 하 여 선택한 라우팅 메서드의 호출 라우팅 목록에 에이전트가 포함 되어야 하는지 여부를 결정 합니다. 가용성 상태가 **사용 가능** 으로 설정 된 통화 에이전트는 통화 라우팅 목록에 포함 되며 전화를 받을 수 있습니다. 가용성 상태가 다른 상태로 설정 된 에이전트는 통화 라우팅 목록에서 제외 되며, 해당 사용 가능 상태가 다시 **사용 가능** 으로 변경 될 때까지 통화를 수신 하지 않습니다. 
+**현재 상태 기반 라우팅은** 호출 에이전트의 가용성 상태를 사용하여 선택한 라우팅 방법에 대한 호출 라우팅 목록에 에이전트를 포함해야 하는지 여부를 판단합니다. 가용성 상태가 사용 가능으로  설정된 호출 에이전트는 통화 라우팅 목록에 포함되어 있으며 통화를 받을 수 있습니다. 가용성 상태가 다른 상태로 설정된 에이전트는 통화 라우팅 목록에서 제외되어 가용성 상태가 사용 가능으로 다시 변경될 때까지 통화를 받지 **못합니다.** 
 
-라우팅 메서드를 사용 하 여 현재 상태 기반 통화 라우팅을 사용 하도록 설정할 수 있습니다.
+라우팅 방법 중 원하는 방법으로 현재 상태 기반 호출 라우팅을 사용하도록 설정할 수 있습니다.
 
-에이전트가 전화를 opts 경우 사용 가능한 상태에 관계 없이 통화 라우팅 목록에 포함 되지 않습니다. 
-
-> [!NOTE]
-> 현재 상태 기반 라우팅이 사용 되는 경우 비즈니스용 Skype 클라이언트를 사용 하는 에이전트가 통화 라우팅 목록에 포함 되지 않습니다. 비즈니스용 Skype를 사용 하는 에이전트가 있는 경우 현재 상태 기반 통화 회람을 사용 하지 마세요.
-
-**에이전트 알림 시간** 대기열이 다음 에이전트로 호출을 리디렉션하는 동안 에이전트의 전화가 연결 되는 시간을 지정 합니다.
-
-대용량 큐의 경우 다음 설정을 권장 합니다.
-
-- **자동** **전화 회의 모드**
-- **전화 교환 라우팅** **메서드** 라우팅
-- **현재 상태 기반 라우팅** **On**
-- **에이전트 알림 시간:** **20 초**
-
-## <a name="call-overflow-handling"></a>통화 오버플로 처리
-
-![통화 오버플로 설정 스크린샷](media/call-queue-overflow-handling.png)
-
-**큐의 최대 통화** 는 주어진 시간에 큐에서 대기할 수 있는 최대 호출 수를 지정 합니다. 기본값은 50 이지만, 0에서 200 까지의 범위에 있을 수 있습니다. 이 제한에 도달 하면 **최대 통화 수** 설정에 도달 하는 경우에 지정 된 대로 통화가 처리 됩니다.
-
-통화 연결을 끊거나 통화 라우팅 대상 중 하나로 리디렉션하도록 선택할 수 있습니다. 예를 들어 호출자가 큐의 에이전트에 대 한 보이스 메일을 남길 수 있습니다. 외부 전송의 경우 [필수 구성 요소](plan-auto-attendant-call-queue.md#prerequisites) 및 [외부 전화 번호 전송-](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 숫자 서식에 대 한 기술 세부 정보를 참조 하세요.
+에이전트가 통화 수신을 옵트아웃하면 해당 가용성 상태가 설정되어 있는 항목과 관계없이 통화 라우팅 목록에 포함되지 않습니다. 
 
 > [!NOTE]
-> 최대 통화 수가 0으로 설정 되 면 인사말 메시지가 재생 되지 않습니다.
+> 비즈니스용 Skype 클라이언트를 사용하는 에이전트는 현재 상태 기반 라우팅을 사용하도록 설정한 경우 통화 라우팅 목록에 포함되지 않습니다. 비즈니스용 Skype를 사용하는 에이전트가 있는 경우 현재 상태 기반 통화 라우팅을 사용하지 않습니다.
 
-## <a name="call-timeout-handling"></a>통화 시간 제한 처리
+**에이전트 경고 시간은** 큐가 다음 에이전트로 호출을 리디렉션하기 전에 에이전트의 전화가 울리는 기간을 지정합니다.
+
+볼륨이 큰 큐의 경우 다음 설정이 권장됩니다.
+
+- **회의 모드에서** **자동으로**
+- **Attendant 라우팅에** 라우팅 **방법**
+- **에 대한** 현재 상태 기반 **라우팅**
+- **에이전트 경고 시간:** **20초**
+
+## <a name="call-overflow-handling"></a>호출 오버플로 처리
+
+![호출 오버플로 설정 스크린샷](media/call-queue-overflow-handling.png)
+
+**큐의 최대 호출은** 주어진 시간 동안 큐에서 대기할 수 있는 최대 호출 수를 지정합니다. 기본값은 50이지만 0~200 범위일 수 있습니다. 이 제한에 도달하면 최대 호출 수에 도달한 경우 설정에 따라 호출이 **처리됩니다.**
+
+통화 연결을 끊거나 통화 라우팅 대상 중 하나에 리디렉션할 수 있습니다. 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다. 외부 전송의 경우 번호 [](plan-auto-attendant-call-queue.md#prerequisites) 서식에 대한 기술 [](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 세부 정보인 전제 사항 및 외부 전화 번호 전송을 참조합니다.
+
+> [!NOTE]
+> 최대 호출 수를 0으로 설정하면 인사말 메시지가 재생되지 않습니다.
+
+## <a name="call-timeout-handling"></a>호출 시간 제한 처리
 
 ![통화 시간 제한 설정 스크린샷](media/call-queue-timeout-handling.png)
 
-**통화 시간 제한: 최대 대기 시간은** 대기 또는 연결 해제 하기 전에 큐에서 통화 대기를 대기할 수 있는 최대 시간을 지정 합니다. 0 초와 45 분 사이의 값을 지정할 수 있습니다.
+**호출 시간 제한: 최대** 대기 시간은 리디렉션되거나 연결이 끊기기 전에 큐에 통화가 대기할 수 있는 최대 시간을 지정합니다. 0초에서 45분까지 값을 지정할 수 있습니다.
 
-통화 연결을 끊거나 통화 라우팅 대상 중 하나로 리디렉션하도록 선택할 수 있습니다. 예를 들어 호출자가 큐의 에이전트에 대 한 보이스 메일을 남길 수 있습니다. 외부 전송의 경우 [필수 구성 요소](plan-auto-attendant-call-queue.md#prerequisites) 및 [외부 전화 번호 전송-](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 숫자 서식에 대 한 기술 세부 정보를 참조 하세요.
+통화 연결을 끊거나 통화 라우팅 대상 중 하나에 리디렉션할 수 있습니다. 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다. 외부 전송의 경우 번호 [](plan-auto-attendant-call-queue.md#prerequisites) 서식에 대한 기술 [](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 세부 정보인 전제 사항 및 외부 전화 번호 전송을 참조합니다.
 
-전화 걸기 제한 옵션을 선택한 후 **저장** 을 클릭 합니다.
+통화 시간 제한 옵션을 선택한 경우 저장을 **클릭합니다.**
 
-## <a name="caller-id-for-outbound-calls"></a>발신 전화의 발신자 ID
+## <a name="caller-id-for-outbound-calls"></a>아웃바운드 호출에 대한 호출자 ID
 
-통화 대기열의 상담원은 고객 전화를 반환 하기 위해 전화를 걸 수 있으므로, 통화 대기열의 구성원에 대 한 발신자 ID를 적절 한 자동 전화 교환의 서비스 번호로 설정 하는 것이 좋습니다. 자세한 내용은 [Microsoft 팀의 발신자 ID 정책 관리](caller-id-policies.md) 를 참조 하세요.
+호출 큐의 에이전트가 고객 호출을 반환하기 위해 전화를 걸 수 있는 경우 통화 큐의 구성원에 대한 발신자 ID를 적절한 자동 전화 연결의 서비스 번호로 설정하는 것이 고려됩니다. 자세한 [내용은 Microsoft Teams에서 발신자 ID](caller-id-policies.md) 정책 관리를 참조하세요.
 
-## <a name="supported-clients"></a>지원 되는 클라이언트
+## <a name="supported-clients"></a>지원되는 클라이언트
 
-통화 대기열의 통화 에이전트에 대해 다음 클라이언트가 지원 됩니다.
+다음 클라이언트는 호출 큐의 호출 에이전트에 대해 지원됩니다.
 
-  - 비즈니스용 Skype 데스크톱 클라이언트 2016 (32 비트 및 64 비트 버전)
-  - Lync 데스크톱 클라이언트 2013 (32 비트 및 64 비트 버전)
-  - Microsoft 팀에서 지원 되는 모든 IP 전화 모델 [비즈니스용 Skype Online 전화 받기를](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)참조 하세요.
-  - Mac 비즈니스용 Skype 클라이언트 (버전 16.8.196 이상)
-  - Android 비즈니스용 Skype 클라이언트 (버전 6.16.0.9 이상)
-  - iPhone 비즈니스용 Skype 클라이언트 (버전 6.16.0 이상)
-  - iPad 용 비즈니스용 Skype 클라이언트 (버전 6.16.0 이상)
-  - Microsoft 팀 Windows 클라이언트 (32 비트 및 64 비트 버전)
-  - Microsoft 팀 Mac 클라이언트
-  - Microsoft 팀 iPhone 앱
-  - Microsoft 팀 Android 앱
+  - 비즈니스용 Skype 데스크톱 클라이언트 2016(32비트 및 64비트 버전)
+  - Lync 데스크톱 클라이언트 2013(32비트 및 64비트 버전)
+  - Microsoft Teams에서 지원되는 모든 IP 전화 모델입니다. 비즈니스용 [Skype Online용 전화기 보기를 참조하세요.](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
+  - Mac 비즈니스용 Skype 클라이언트(버전 16.8.196 이상)
+  - Android 비즈니스용 Skype 클라이언트(버전 6.16.0.9 이상)
+  - iPhone 비즈니스용 Skype 클라이언트(버전 6.16.0 이상)
+  - iPad 비즈니스용 Skype 클라이언트(버전 6.16.0 이상)
+  - Microsoft Teams Windows 클라이언트(32비트 및 64비트 버전)
+  - Microsoft Teams Mac 클라이언트
+  - Microsoft Teams iPhone 앱
+  - Microsoft Teams Android 앱
 
     > [!NOTE]
-    > 직접 라우팅 번호로 지정 된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 전화를 에이전트로 지원 하지 않습니다.
+    > 직접 라우팅 번호가 할당된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 전화를 에이전트로 지원하지 않습니다.
 
-## <a name="call-queue-cmdlets"></a>통화 대기열 cmdlet
+## <a name="call-queue-cmdlets"></a>큐 cmdlet 호출
 
-또한 Windows PowerShell을 사용 하 여 통화 대기열을 만들고 설정할 수 있습니다. 다음은 통화 대기열을 관리 하는 데 사용 하는 cmdlet입니다.
+또한 큐를 사용하여 Windows PowerShell 큐를 만들고 설정할 수 있습니다. 다음은 호출 큐를 관리하는 데 사용하는 cmdlet입니다.
 
-- [새로운 CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
+- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 
 - [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
 
 - [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
 
-- [제거-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>관련 항목
 
@@ -193,6 +193,6 @@ ms.locfileid: "49135936"
 
 [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[새로운 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
+[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Windows PowerShell 및 Lync Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
