@@ -20,12 +20,12 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1cfcf52531e5a3a0cecafe5310304a299bf04c5
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682407"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757763"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -91,12 +91,12 @@ Teams 라이브 이벤트를 만들거나 발표 하는 데 할당되어야 하�
 | 참석자 표시 유형 | Teams 프로덕션 | 외부 앱 또는 장치 프로덕션 |
 |------------------------------|-----------------|----------------------|
 |공개(익명 사용자)      |  예            |  아니요                  |
-|게스트 사용자                   |  예            |  아니요                  |
+|게스트 사용자                   |  예<sup>1</sup>            |  아니요                  |
 |외부 액세스(페더레이션) 회사의 모든 사용자 |  예<sup>1</sup>|  아니요                  |
 |회사의 모든 사용자           |  예            |  예                 |
 |특정 그룹/사용자      |  예            |  예                 |
 
-<sup>1</sup> 외부 액세스(페더레이션) 참석자는 사용자 및 그룹을 통해서만 초대받을 수 있습니다. <br>
+<sup>1</sup> 사용자 및 그룹을 통해서만 초대받을 수 있습니다. <br>
 
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 라이브 이벤트 및 Skype 모임 브로드캐스트
 
