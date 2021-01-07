@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 팀 정책 관리
+title: Microsoft Teams에서 팀 정책 관리
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,7 +14,6 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 조직에서 팀 정책을 사용 하 고 관리 하 여 팀과 채널에서 사용자가 수행할 수 있는 작업을 제어 하는 방법에 대해 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,46 +23,49 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: ad7dadc60b1fb53a518ec5cab340739a89f6b044
-ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
+description: 조직에서 팀 정책을 사용 및 관리하여 사용자가 팀 및 채널에서 할 수 있는 작업을 제어하는 방법을 배워야 합니다.
+ms.openlocfilehash: 0b4664c36f24a057a7c8237823b7eafaad8ea6ba
+ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48297380"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772032"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft 팀에서 팀 정책 관리
+# <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams에서 팀 정책 관리
 
-관리자는 Microsoft 팀에서 팀 정책을 사용 하 여 팀과 채널에서 조직의 사용자가 수행할 수 있는 작업을 제어할 수 있습니다. 예를 들어 사용자가 개인 채널을 만들 수 있도록 허용할지 여부를 설정할 수 있습니다.
+관리자는 Microsoft Teams의 팀 정책을 사용하여 조직의 사용자가 팀 및 채널에서 할 수 있는 작업을 제어할 수 있습니다. 예를 들어 사용자가 개인 채널을 만들 수 있는지 여부를 설정할 수 있습니다.
 
-**Teams**  >  Microsoft 팀 관리 센터에서 팀**팀 정책** 으로 이동해 서 팀 정책을 관리할 수 있습니다. 전역 (조직 차원의 기본) 정책을 사용 하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다.
+Microsoft Teams 관리 센터에서 **Teams** Teams 정책으로 진행하여 팀  >   정책을 관리합니다. 전역(전체 기본) 정책을 사용하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다.
 
-전역 정책을 편집 하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 전역 정책을 편집 하거나 정책을 할당 한 후 변경 내용을 적용 하는 데 몇 시간이 걸릴 수 있습니다.
+전역 정책을 편집하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 전역 정책을 편집하거나 정책을 할당한 후 변경 내용을 적용하는 데 몇 시간이 걸릴 수 있습니다.
 
 ## <a name="create-a-custom-teams-policy"></a>사용자 지정 팀 정책 만들기
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀**  >  **팀 정책**으로 이동 합니다.
-2. **추가**를 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **Teams Teams**  >  **정책으로 이동하세요.**
+2. 추가를 **클릭합니다.**
 3. 정책의 이름과 설명을 입력합니다.
 
     ![팀 정책 설정 스크린샷](media/teams-policies.png)
-4. 사용자가 개인 채널을 만들 수 있도록 허용할지 <a name="createchannels"> </a> 여부에 따라 **개인 채널 만들기**를 켜거나 끕니다.
+4. 사용자가 비공개 채널을  <a name="createchannels"></a> 만들 수 있도록 허용할지 여부에 따라 비공개 채널 만들기를 설정하거나 해제합니다.
 
-5. **저장**을 클릭합니다.
+5. **저장** 을 클릭합니다.
 
 ## <a name="edit-a-teams-policy"></a>팀 정책 편집
 
-만든 전역 정책 또는 사용자 지정 정책을 편집할 수 있습니다.
+전역 정책 또는 만든 모든 사용자 지정 정책을 편집할 수 있습니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀**  >  **팀 정책**으로 이동 합니다.
-2. 정책 이름 왼쪽을 클릭 하 여 정책을 선택한 다음 **편집**을 클릭 합니다.
-3. 원하는 설정을 켜거나 끈 다음 **저장**을 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **Teams Teams**  >  **정책으로 이동하세요.**
+2. 정책 이름 왼쪽을 클릭하여 정책을 선택한 다음 편집을 **클릭합니다.**
+3. 원하는 설정을 켜거나 끄고 저장을 **클릭합니다.**
 
-## <a name="assign-a-custom-teams-policy-to-users"></a>사용자에 게 사용자 지정 팀 정책 할당
+## <a name="assign-a-custom-teams-policy-to-users"></a>사용자에게 사용자 지정 팀 정책 할당
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>관련 항목
 
-[팀의 비공개 채널](private-channels.md)
+[Teams의 비공개 채널](private-channels.md)
 
-[팀에서 사용자에 게 정책 할당](assign-policies.md)
+[Teams에서 사용자에게 정책 할당](assign-policies.md)
+
+[New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
