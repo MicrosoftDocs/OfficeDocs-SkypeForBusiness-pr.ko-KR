@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증된 SBC(세션 테두리 컨트롤러)에 대해 자세히 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1c9a7a9c174c634ef03ef8f18800a8d2d452f5e
-ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
+ms.openlocfilehash: 256451e778ed0e5864a7144003d44eb7ffc28767
+ms.sourcegitcommit: b8e697d52dcedace66cec2a06a5bd9889a780623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49776899"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49782541"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -38,9 +38,9 @@ Microsoft는 각 공급업체와 협력하여
 
 
   > [!NOTE]
-  > Microsoft는 인증된 디바이스 또는 디바이스가 직접 라우팅을 통해 연결된 경우 전화 시스템만 지원합니다. Microsoft는 인증되지 않은 디바이스가 직접 라우팅을 통해 전화 시스템에 연결된 지원 사례를 거부할 수 있는 권리가 있습니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 디바이스에 있는 것으로 판단되는 경우 고객은 SBC 공급업체에 지원을 요청해야 합니다.
+  > Microsoft는 인증된 디바이스 또는 디바이스가 직접 라우팅을 통해 연결된 경우 전화 시스템만 지원합니다. Microsoft는 인증되지 않은 디바이스가 직접 라우팅을 통해 전화 시스템에 연결된 지원 사례를 거부할 수 있는 권리가 있습니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 디바이스와 관련이 있는 것으로 판단되는 경우 고객은 SBC 공급업체에 지원을 요청해야 합니다.
 
-아래 표에는 직접 라우팅에 대해 인증된 디바이스가 나열됩니다. (로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 직접 라우팅을 위한 로컬 미디어 최적화 [구성을 참조하세요.)](direct-routing-media-optimization-configure.md)
+아래 표에는 직접 라우팅에 대해 인증된 디바이스가 나열됩니다. (로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 직접 라우팅에 대한 로컬 미디어 최적화 [구성을 참조하세요.)](direct-routing-media-optimization-configure.md)
 
 [직접 라우팅에 대해 자세히 배워야 합니다.](https://aka.ms/dr) 직접 라우팅에 대한 SBC 인증 프로그램에 대한 질문이 있는 경우 drsbccertification@microsoft.com.
 <br/>
@@ -79,7 +79,7 @@ Microsoft는 각 공급업체와 협력하여
 |                                 |     1000 시리즈 집계 서비스 라우터용 Cisco CUBE(통합 테두리 요소)      |     &#10004;   |  |      IOS XE 암스테르담 17.2.1r      |    <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    엔터프라이즈용 Avaya 세션 테두리 컨트롤러(ASBCE)    |     &#10004;     |           |       릴리스 8.1.1       |     |    | 
 |                     [노키아](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 세션 테두리 컨트롤러    |     &#10004;     |           |       19.5 (1908)       |     |    | 
-|                     [Italtel](https://www.italtel.com/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [카탈로냐어](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
