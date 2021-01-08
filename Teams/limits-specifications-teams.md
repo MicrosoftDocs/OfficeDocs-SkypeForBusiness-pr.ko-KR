@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: siunies
 description: 이 문서에서는 Microsoft Teams에 적용되는 몇 가지 제한 사항, 사양 및 기타 요구 사항에 대해 설명합니다.
 localization_priority: Priority
 f1.keywords:
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 786ec8d911ae21f3cb379eceefb1b7c202890a3d
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: b64042a318e6967523e80e62d1cca429bc7f7e88
+ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682357"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49776849"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -69,16 +69,18 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 |기능  | 최대 한도  |
 |---------|---------|
-|비공개 채팅에 참가 중인 사용자 수<sup>1</sup>  | 250 |
+|비공개 채팅에 참가 중인 사용자 수<sup>1</sup>  | 250<sup>2</sup> |
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
-|첨부 파일 수<sup>2</sup>  |10     |
-|채팅 크기 | 게시물당 28 KB<sup>3</sup> |
+|첨부 파일 수<sup>3</sup>  |10     |
+|채팅 크기 | 게시물당 약 28KB<sup>4</sup> |
 
 <sup>1</sup>채팅에 20명 이상의 사용자가 있는 경우 다음과 같은 채팅 기능이 꺼집니다. Outlook 자동 회신 및 Teams 상태 메시지, 입력 표시기, 비디오 및 오디오 통화, 공유, 읽음 확인. 개인 그룹 채팅에 20명 이상의 구성원이 포함 된 경우에도 "배달 옵션 설정" 단추 (!)가 제거 됩니다.
 
-<sup>2</sup>첨부 파일 수가 이 제한을 초과하는 경우 오류 메시지가 표시됩니다.
+<sup>2</sup> 한 번에 200명의 구성원만 그룹 채팅에 추가할 수 있습니다. [자세한 내용은 이 문서를 참조하세요](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
-<sup>3</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 반응이 포함되기 때문에 대략적인 한도입니다.
+<sup>3</sup> 첨부 파일 수가 이 제한을 초과하는 경우 오류 메시지가 표시됩니다.
+
+<sup>4</sup> 28KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션 그리고 반응을 포함하기 때문에 대략적인 한도입니다.
 
 ### <a name="emailing-a-channel"></a>채널 전자 메일 보내기 
 
@@ -127,7 +129,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 |기능     | 최대 한도 |
 |------------|---------------|
-|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 350 |
+|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 300 |
 |채팅 탭에서 시작된 비디오 또는 오디오 통화의 사용자 수 | 20 |
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않는 [모임 녹음/녹화](cloud-recording.md)를 보관하여 로컬로 다운로드할 수 있습니다. | 20일 |
@@ -169,7 +171,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 >- 한 테넌트에 걸쳐 동시에 50개의 이벤트가 호스트될 수 있습니다.
 >- 브로드캐스트당 16시간의 이벤트 시간
 >
-> 추가로 참가자 최대 100,000명의 라이브 이벤트는 Microsoft 365 지원 프로그램을 통해 계획할 수 있습니다. 팀에서 각 요청을 평가하고 사용자와 작업을 수행하여 사용 가능한 옵션을 결정합니다. [자세한 정보](https://aka.ms/Stream/Blog/LiveEventOptions)를 확인합니다. 
+> 또한 최대 100,000 참석자가 포함된 라이브 이벤트는 Microsoft 365 지원 프로그램을 통해 계획될 수 있습니다. 팀에서 각 요청을 평가하고 사용자와 작업을 수행하여 사용 가능한 옵션을 결정합니다. [자세한 정보](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 ## <a name="presence-in-outlook"></a>Outlook에서의 현재 상태
 
