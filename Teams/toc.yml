@@ -1155,6 +1155,8 @@
           href: scripts/powershell-script-security-groups-edu.md
         - name: 교육 관리자용 낮은 대역폭 지침
           href: edu-remote-low-bandwidth.md
+        - name: 교육용 Teams 정책 마법사
+          href: easy-policy-setup-edu.md
         - name: 인사이트 시작하기
           href: class-insights.md
         - name: 교육용 Teams의 과제
