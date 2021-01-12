@@ -3,6 +3,35 @@
 
 
 
+## <a name="week-of-january-04-2021"></a>2021년 1월 4일 주
+
+
+| 게시일 |주제 제목 | 변경 |
+|------|------------|--------|
+| 1/4/2021 | [Microsoft Teams에 대한 자동 참석자 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 수정 |
+| 1/4/2021 | [자동 전화 걸기 및 통화 큐 전화 걸기 및 음성 인식 참조](/MicrosoftTeams/dial-voice-reference) | 수정 |
+| 1/4/2021 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
+| 1/4/2021 | [세션 테두리 컨트롤러 구성 - 여러 테넌트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 수정 |
+| 1/5/2021 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정 |
+| 1/5/2021 | [기존 Microsoft 365 그룹 향상](/MicrosoftTeams/enhance-office-365-groups) | 수정 |
+| 1/5/2021 | [SharePoint Online 및 비즈니스용 OneDrive가 Microsoft Teams와 상호 작용하는 방법](/MicrosoftTeams/sharepoint-onedrive-interact) | 수정 |
+| 1/5/2021 | [Microsoft 365 다중 지역 사용 환경의 Teams 환경](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 수정 |
+| 1/5/2021 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 수정 |
+| 1/5/2021 | [통화 및 모임에 대한 Teams 정책 기반 기록 & 소개](/MicrosoftTeams/teams-recording-policy) | 수정 |
+| 1/5/2021 | [Microsoft Teams 문제 해결에 로그 파일 사용](/MicrosoftTeams/log-files) | 수정 |
+| 1/6/2021 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
+| 1/6/2021 | [Graph API를 사용하여 Microsoft Teams에서 개인 채널 관리](/MicrosoftTeams/private-channels-life-cycle-management) | 수정 |
+| 1/6/2021 | [Microsoft Teams에서 팀 정책 관리](/MicrosoftTeams/teams-policies) | 수정 |
+| 1/6/2021 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
+| 1/6/2021 | [Teams 앱 제출 API를 사용하여 사용자 지정 앱 제출 및 승인](/MicrosoftTeams/submit-approve-custom-apps) | 수정 |
+| 1/7/2021 | [Microsoft Teams 범위 디렉터리 검색 사용](/MicrosoftTeams/teams-scoped-directory-search) | 수정 |
+| 1/7/2021 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
+| 1/8/2021 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
+| 1/8/2021 | [Microsoft Teams의 보존 정책](/MicrosoftTeams/retention-policies) | 수정 |
+| 1/8/2021 | [Microsoft Teams에 대한 게스트 액세스 켜기 또는 끄기](/MicrosoftTeams/set-up-guests) | 수정 |
+| 1/8/2021 | [안전한 학습을 위한 정책을 쉽게 적용하기 위한 교육용 Teams 정책 마법사](/MicrosoftTeams/easy-policy-setup-edu) | 수정 |
+
+
 ## <a name="week-of-december-21-2020"></a>2020년 12월 21일 주
 
 
@@ -54,68 +83,3 @@
 | 12/18/2020 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 수정 |
 | 12/18/2020 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정 |
 | 12/18/2020 | [다이얼 플랜이 무엇인가요?](/MicrosoftTeams/what-are-dial-plans) | 수정 |
-
-
-## <a name="week-of-november-30-2020"></a>2020년 11월 30일 주
-
-
-| 게시일 |주제 제목 | 변경 |
-|------|------------|--------|
-| 11/30/2020 | [Microsoft Teams의 게스트 액세스](/MicrosoftTeams/guest-access) | 수정 |
-| 11/30/2020 | [Microsoft Teams 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 수정 |
-| 11/30/2020 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
-| 11/30/2020 | [Teams용 전화 및 장치](/MicrosoftTeams/devices/teams-ip-phones) | 수정 |
-| 12/1/2020 | [Microsoft Teams에 대한 자동 참석자 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 수정 |
-| 12/1/2020 | [Microsoft Teams의 데이터 위치](/MicrosoftTeams/location-of-data-in-teams) | 수정 |
-| 12/1/2020 | [직접 라우팅에 대한 음성 라우팅 구성](/MicrosoftTeams/direct-routing-voice-routing) | 수정 |
-| 12/1/2020 | [Microsoft Teams의 공개 미리 보기](/MicrosoftTeams/public-preview-doc-updates) | 수정 |
-| 12/1/2020 | [Microsoft Teams 보안 가이드](/MicrosoftTeams/teams-security-guide) | 수정 |
-| 12/2/2020 | [Teams에 대한 과제](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | 수정 |
-| 12/2/2020 | [Teams에서 사용자 현재 상태 확인](/MicrosoftTeams/presence-admins) | 수정 |
-| 12/2/2020 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정 |
-| 12/2/2020 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
-| 12/2/2020 | [빠른 시작 - 교육용 Microsoft Teams 관리자](/MicrosoftTeams/teams-quick-start-edu) | 수정 |
-| 12/2/2020 | [학교에서 대규모 사용자 집합에 정책 할당](/MicrosoftTeams/batch-group-policy-assignment-edu) | 수정 |
-| 12/2/2020 | [EDU 관리자용 Microsoft Teams 정책 및 정책 패키지](/MicrosoftTeams/policy-packages-edu) | 수정 |
-| 12/2/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 수정 |
-| 12/3/2020 | [이탈리아의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | 수정 |
-| 12/3/2020 | [Teams용 전화 및 장치](/MicrosoftTeams/devices/teams-ip-phones) | 수정 |
-| 12/3/2020 | [콘텐츠에 대한 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 수정 |
-| 12/3/2020 | [Microsoft Teams 사용자 또는 팀에 법적 보류](/MicrosoftTeams/legal-hold) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype에서 Teams로 업그레이드 FAQ](/MicrosoftTeams/faq-journey) | 수정 |
-| 12/4/2020 | [Microsoft Teams를 효과적으로 사용하는 방법](/MicrosoftTeams/continue-journey) | 수정 |
-| 12/4/2020 | [사용자 파일럿을 수행하여 Microsoft Teams가 조직에서 어떻게 작동할지 평가하고 테스트합니다.](/MicrosoftTeams/pilot-essentials) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype와 Microsoft Teams 간의 상호 연동성](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 수정 |
-| 12/4/2020 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype에서 Microsoft Teams로의 업그레이드 여정 선택](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype에서 Microsoft Teams로 업그레이드하기 위한 프로젝트 범위 정의](/MicrosoftTeams/upgrade-define-project-scope) | 수정 |
-| 12/4/2020 | [관계자 \| Skype를 Teams로 업그레이드 계획에 참여](/MicrosoftTeams/upgrade-enlist-stakeholders) | 수정 |
-| 12/4/2020 | [업그레이드 프레임워크에 대한 - 비즈니스용 Skype에서 Teams로](/MicrosoftTeams/upgrade-framework) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype에서 Teams로 업그레이드하기 위한 조직 변경 준비 평가](/MicrosoftTeams/upgrade-org-change-readiness) | 수정 |
-| 12/4/2020 | [Teams로 업그레이드하기 전에 환경 평가](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | 수정 |
-| 12/4/2020 | [Teams로 업그레이드하기 위한 전제 구성성 및 환경 종속성](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype에서 Microsoft Teams로 업그레이드 계획](/MicrosoftTeams/upgrade-plan-journey) | 수정 |
-| 12/4/2020 | [Microsoft Teams를 위한 IT 직원 준비](/MicrosoftTeams/upgrade-prepare-it-pros) | 수정 |
-| 12/4/2020 | [Microsoft Teams로 업그레이드하기 위한 서비스 준비](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | 수정 |
-| 12/4/2020 | [Teams로 업그레이드하기 위한 환경 준비](/MicrosoftTeams/upgrade-prepare-environment) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype에서 Teams로의 업그레이드를 위한 조직 준비](/MicrosoftTeams/upgrade-prepare-organization) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype를 Teams로 업그레이드 시작](/MicrosoftTeams/upgrade-start-here) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype-프레미스를 Microsoft Teams로 업그레이드](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype Online에서 Microsoft Teams로 업그레이드](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype-프레미스 배포에서 Teams로 업그레이드 - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 수정 |
-| 12/4/2020 | [Microsoft Teams로 업그레이드 구현 개요](/MicrosoftTeams/upgrade-to-teams) | 수정 |
-| 12/4/2020 | [비즈니스용 Skype에서 Teams로 업그레이드하기 위한 사용자 준비 계획 준비](/MicrosoftTeams/upgrade-user-readiness) | 수정 |
-
-
-## <a name="week-of-november-23-2020"></a>2020년 11월 23일 주
-
-
-| 게시일 |주제 제목 | 변경 |
-|------|------------|--------|
-| 11/23/2020 | [CQD(통화 품질 대시보드)에서 테넌트 업로드 및 데이터 구축](/MicrosoftTeams/cqd-upload-tenant-building-data) | 수정 |
-| 11/23/2020 | [Teams에서 사용자 현재 상태 확인](/MicrosoftTeams/presence-admins) | 수정 |
-| 11/23/2020 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
-| 11/25/2020 | [직접 라우팅에 대한 벨소리 봇 설정](/MicrosoftTeams/direct-routing-ringback-bot) | 수정 |
-| 11/25/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
-| 11/25/2020 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 수정 |
