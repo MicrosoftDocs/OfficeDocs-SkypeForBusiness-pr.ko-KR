@@ -1,13 +1,13 @@
 ---
-title: PowerShell 스크립트 샘플-학교에서 교사 및 학생에 대 한 보안 그룹 만들기
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell 스크립트 샘플 - 학교의 강사 및 학생을 위한 보안 그룹 만들기
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용 하 여 학교와 학생에 대 한 팀 정책을 관리 하는 데 필요한 보안 그룹을 만듭니다.
+description: 이 PowerShell 스크립트를 사용하여 학교의 강사 및 학생을 위한 Teams 정책을 관리하는 데 필요한 보안 그룹을 만들 수 있습니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,38 +17,38 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b468ae05139571f395962b96f2963c7bb77b2e6
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 4eb7e482552b5013b6b220c4244ee4ecf114780c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534123"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809468"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a><span data-ttu-id="1a3de-103">PowerShell 스크립트 샘플-학교에서 교사 및 학생에 대 한 보안 그룹 만들기</span><span class="sxs-lookup"><span data-stu-id="1a3de-103">PowerShell script sample - Create security groups for educators and students in your school</span></span>
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a><span data-ttu-id="52bbe-103">PowerShell 스크립트 샘플 - 학교의 강사 및 학생을 위한 보안 그룹 만들기</span><span class="sxs-lookup"><span data-stu-id="52bbe-103">PowerShell script sample - Create security groups for educators and students in your school</span></span>
 
-<span data-ttu-id="1a3de-104">이 PowerShell 스크립트를 사용 하 여 학교에서 Microsoft 팀 정책을 관리 하는 데 필요한 보안 그룹을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-104">Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school.</span></span> <span data-ttu-id="1a3de-105">팀의 [그룹에 정책 할당](../assign-policies.md#assign-a-policy-to-a-group) 기능을 사용 하 여 보안 그룹과 같은 사용자 그룹에 정책을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-105">The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group.</span></span> <span data-ttu-id="1a3de-106">정책 할당은 선행 규칙에 따라 그룹의 구성원에 게 전파 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-106">The policy assignment is propagated to members of the group according to precedence rules.</span></span> <span data-ttu-id="1a3de-107">그룹에서 구성원이 추가 되거나 제거 되 면 그에 따라 상속 된 정책 할당이 업데이트 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-107">As members are added to or removed from a group, their inherited policy assignments are updated accordingly.</span></span>
+<span data-ttu-id="52bbe-104">이 PowerShell 스크립트를 사용하여 학교에서 Microsoft Teams 정책을 관리하는 데 필요한 보안 그룹을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-104">Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school.</span></span> <span data-ttu-id="52bbe-105">Teams의 [그룹 기능에 대한](../assign-policies.md#assign-a-policy-to-a-group) 정책 할당을 사용하면 보안 그룹과 같은 사용자 그룹에 정책을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-105">The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group.</span></span> <span data-ttu-id="52bbe-106">정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-106">The policy assignment is propagated to members of the group according to precedence rules.</span></span> <span data-ttu-id="52bbe-107">그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-107">As members are added to or removed from a group, their inherited policy assignments are updated accordingly.</span></span>
 
-<span data-ttu-id="1a3de-108">이 PowerShell 스크립트는 라이선스 유형을 기반으로 교직원 및 교육자 용으로 하나씩 두 개의 보안 그룹을 만들고 학교 학생을 위해 다른 하나를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-108">This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type.</span></span> <span data-ttu-id="1a3de-109">그런 다음 만든 보안 그룹에 정책을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-109">You can then assign policies to the security groups that you created.</span></span> <span data-ttu-id="1a3de-110">이 스크립트를 사용 하는 방법에 대 한 자세한 내용은 [학교에서 대규모 사용자 집합에 정책 할당](../batch-group-policy-assignment-edu.md)을 참고 하세요.</span><span class="sxs-lookup"><span data-stu-id="1a3de-110">For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).</span></span>
+<span data-ttu-id="52bbe-108">이 PowerShell 스크립트는 라이선스 유형에 따라 교직원 및 강사용, 학교의 학생용 보안 그룹 등 두 개의 보안 그룹을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-108">This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type.</span></span> <span data-ttu-id="52bbe-109">그런 다음 만든 보안 그룹에 정책을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-109">You can then assign policies to the security groups that you created.</span></span> <span data-ttu-id="52bbe-110">이 스크립트 사용에 대한 자세한 내용은 학교에서 대규모 사용자 집합에 정책 [할당을 참조하세요.](../batch-group-policy-assignment-edu.md)</span><span class="sxs-lookup"><span data-stu-id="52bbe-110">For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).</span></span>
 
-<span data-ttu-id="1a3de-111">이 스크립트는 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-111">This script does the following:</span></span>
+<span data-ttu-id="52bbe-111">이 스크립트는 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-111">This script does the following:</span></span>
 
-- <span data-ttu-id="1a3de-112">교직원 SKU를 할당 받은 직원과 강사를 식별 하 고, 보안 그룹을 만든 다음, 교직원 및 교사를 그룹에 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-112">Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.</span></span>
-- <span data-ttu-id="1a3de-113">학생 SKU를 할당 받은 학생을 식별 하 고 보안 그룹을 만든 다음 학생을 그룹에 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-113">Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.</span></span>
-- <span data-ttu-id="1a3de-114">각 보안 그룹의 구성원 자격을 업데이트 하 여 라이선스를 보유 하 고 있는지 여부에 따라 교직원, 교사 및 학생을 추가 하거나 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-114">Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.</span></span>
+- <span data-ttu-id="52bbe-112">교직원 SKU가 할당된 교직원 및 강사들을 식별하고, 보안 그룹을 만든 다음, 그룹에 교직원 및 강사들을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-112">Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.</span></span>
+- <span data-ttu-id="52bbe-113">학생 SKU가 할당된 학생을 식별하고 보안 그룹을 만든 다음 그룹에 학생을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-113">Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.</span></span>
+- <span data-ttu-id="52bbe-114">각 보안 그룹의 멤버 자격을 업데이트하여 라이선스가 있는지 여부에 따라 교직원, 강사 및 학생을 추가하거나 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-114">Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.</span></span>
 
-<span data-ttu-id="1a3de-115">보안 그룹을 최신 상태로 유지 하려면이 스크립트를 정기적으로 실행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-115">You'll need to run this script regularly to keep the security groups fresh and up to date.</span></span>
+<span data-ttu-id="52bbe-115">보안 그룹을 최신으로 최신으로 유지하려면 이 스크립트를 정기적으로 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-115">You'll need to run this script regularly to keep the security groups fresh and up to date.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="1a3de-116">그룹에 정책을 할당할 때 [선행 규칙](../assign-policies.md#precedence-rules) 및 [그룹 할당 순위](../assign-policies.md#group-assignment-ranking) 를 이해 하는 것이 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-116">It's important to understand [precedence rules](../assign-policies.md#precedence-rules) and [group assignment ranking](../assign-policies.md#group-assignment-ranking) when assigning policies to groups.</span></span> <span data-ttu-id="1a3de-117">[그룹에 대 한 정책 할당에 대해 알아야 할](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)개념을 읽고 이해 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-117">Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span></span>
+> <span data-ttu-id="52bbe-116">그룹에 정책을 할당할 [](../assign-policies.md#precedence-rules) 때 우선 [](../assign-policies.md#group-assignment-ranking) 순위 규칙 및 그룹 할당 순위를 이해하는 것이 중요합니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-116">It's important to understand [precedence rules](../assign-policies.md#precedence-rules) and [group assignment ranking](../assign-policies.md#group-assignment-ranking) when assigning policies to groups.</span></span> <span data-ttu-id="52bbe-117">그룹에 정책 할당에 대해 알아야 할 개념을 읽고 [이해해야 합니다.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)</span><span class="sxs-lookup"><span data-stu-id="52bbe-117">Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span></span>
 
-## <a name="before-you-start"></a><span data-ttu-id="1a3de-118">시작 하기 전에</span><span class="sxs-lookup"><span data-stu-id="1a3de-118">Before you start</span></span>
+## <a name="before-you-start"></a><span data-ttu-id="52bbe-118">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="52bbe-118">Before you start</span></span>
 
-<span data-ttu-id="1a3de-119">[비즈니스용 Skype Online PowerShell 모듈](https://www.microsoft.com/download/details.aspx?id=39366)을 다운로드 하 여 설치한 다음 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="1a3de-119">Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.</span></span>
+<span data-ttu-id="52bbe-119">비즈니스용 [Skype Online PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)모듈을 다운로드하여 설치한 다음 메시지가 표시될 경우 컴퓨터를 다시 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="52bbe-119">Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.</span></span>
 
-<span data-ttu-id="1a3de-120">자세한 내용은 Office 365 PowerShell 및 [팀 PowerShell 개요](../teams-powershell-overview.md)를 [사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="1a3de-120">To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).</span></span>
+<span data-ttu-id="52bbe-120">자세한 내용은 [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 및 Teams PowerShell을 사용하여 비즈니스용 Skype Online 관리 [개요를 참조하세요.](../teams-powershell-overview.md)</span><span class="sxs-lookup"><span data-stu-id="52bbe-120">To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="1a3de-121">예제 스크립트</span><span class="sxs-lookup"><span data-stu-id="1a3de-121">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="52bbe-121">샘플 스크립트</span><span class="sxs-lookup"><span data-stu-id="52bbe-121">Sample script</span></span>
 
 ```powershell
 <#
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="1a3de-122">관련 항목</span><span class="sxs-lookup"><span data-stu-id="1a3de-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="52bbe-122">관련 항목</span><span class="sxs-lookup"><span data-stu-id="52bbe-122">Related topics</span></span>
 
-[<span data-ttu-id="1a3de-123">팀에서 사용자에 게 정책 할당</span><span class="sxs-lookup"><span data-stu-id="1a3de-123">Assign policies to your users in Teams</span></span>](../assign-policies.md)
+[<span data-ttu-id="52bbe-123">Teams에서 사용자에게 정책 할당</span><span class="sxs-lookup"><span data-stu-id="52bbe-123">Assign policies to your users in Teams</span></span>](../assign-policies.md)

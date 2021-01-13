@@ -1,13 +1,13 @@
 ---
-title: PowerShell 스크립트 샘플-팀 배포 정리
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell 스크립트 샘플 - Teams 배포 정리
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용 하 여 팀을 제거 하 고 사용자 용 팀 폴더를 제거 합니다.
+description: 이 PowerShell 스크립트를 사용하여 Teams를 제거하고 사용자의 Teams 폴더를 제거합니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,19 +17,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7245e3cfee88beb51389f20bc99bbcc312f55b0
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: f4b0bac09e18a9c6378623066889d6b1a891a4a2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778918"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809488"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="7720e-103">PowerShell 스크립트 샘플-팀 배포 정리</span><span class="sxs-lookup"><span data-stu-id="7720e-103">PowerShell script sample - Teams deployment clean up</span></span>
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="58137-103">PowerShell 스크립트 샘플 - Teams 배포 정리</span><span class="sxs-lookup"><span data-stu-id="58137-103">PowerShell script sample - Teams deployment clean up</span></span>
 
-<span data-ttu-id="7720e-104">이 스크립트를 사용 하 여 팀을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="7720e-104">Use this script to remove Teams.</span></span> <span data-ttu-id="7720e-105">이 스크립트는 팀을 제거 하 고 사용자에 대 한 팀 폴더를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="7720e-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="7720e-106">팀이 컴퓨터에 설치 되어 있는 각 사용자 프로필에 대해이 스크립트를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="7720e-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
+<span data-ttu-id="58137-104">이 스크립트를 사용하여 Teams를 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="58137-104">Use this script to remove Teams.</span></span> <span data-ttu-id="58137-105">이 스크립트는 Teams를 제거하고 사용자의 Teams 폴더를 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="58137-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="58137-106">컴퓨터에 Teams가 설치된 각 사용자 프로필에 대해 이 스크립트를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="58137-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="7720e-107">예제 스크립트</span><span class="sxs-lookup"><span data-stu-id="7720e-107">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="58137-107">샘플 스크립트</span><span class="sxs-lookup"><span data-stu-id="58137-107">Sample script</span></span>
 
 ````powershell
 <#
@@ -62,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="7720e-108">관련 항목</span><span class="sxs-lookup"><span data-stu-id="7720e-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="58137-108">관련 항목</span><span class="sxs-lookup"><span data-stu-id="58137-108">Related topics</span></span>
 
-- [<span data-ttu-id="7720e-109">Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치</span><span class="sxs-lookup"><span data-stu-id="7720e-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="7720e-110">Microsoft 365 앱을 사용 하 여 팀 배포</span><span class="sxs-lookup"><span data-stu-id="7720e-110">Deploy Teams with Microsoft 365 Apps</span></span>](https://docs.microsoft.com/deployoffice/teams-install)
+- [<span data-ttu-id="58137-109">Microsoft Endpoint Configuration Manager를 사용하여 Microsoft Teams 설치</span><span class="sxs-lookup"><span data-stu-id="58137-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="58137-110">Microsoft 365 앱을 사용하여 Teams 배포</span><span class="sxs-lookup"><span data-stu-id="58137-110">Deploy Teams with Microsoft 365 Apps</span></span>](https://docs.microsoft.com/deployoffice/teams-install)

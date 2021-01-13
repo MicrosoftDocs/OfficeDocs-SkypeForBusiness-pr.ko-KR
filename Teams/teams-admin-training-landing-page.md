@@ -1,8 +1,8 @@
 ---
-title: Microsoft 팀의 관리 교육
+title: Microsoft Teams에 대한 관리자 교육
 ms.reviewer: ''
-description: 조직에서 Microsoft 팀을 관리 하는 데 필요한 관리자 교육 및 지원을 받으세요.
-author: lanachin
+description: 조직에서 Microsoft Teams를 관리하는 데 필요한 관리자 교육 및 지원을 받을 수 있습니다.
+author: cichur
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: v-lanac
-ms.openlocfilehash: 8fac3f019a4fb5379e11c6afd09c51363f598ad7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.author: v-cichur
+ms.openlocfilehash: 5e4c866935fe9ddb15f598ba6540fe8ed266f447
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535181"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822718"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육
+# <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams에 대한 관리자 교육
 
-조직의 팀을 관리 하는 방법에 대해 알아봅니다.
+조직의 Teams를 관리하는 방법을 배워야 합니다.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "48535181"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>신규: 팀에 대 한 강사 진행 교육</h3>
+                        <h3>신규: Teams에 대한 강사 주도 교육</h3>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ ms.locfileid: "48535181"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>저희에 게 도움을 주세요.</h3>
+                        <h3>도움이 됐습니다.</h3>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@ ms.locfileid: "48535181"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>비즈니스용 Skype에 로그인 하는 데 도움이 필요 하세요?</h3>
+                        <h3>비즈니스용 Skype에 로그인하는 데 도움이 필요하세요?</h3>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ ms.locfileid: "48535181"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>비즈니스용 Skype에서 팀으로의 여행</h3>
+                        <h3>비즈니스용 Skype에서 Teams로의 여정</h3>
                     </div>
                 </div>
             </div>
@@ -139,10 +139,10 @@ ms.locfileid: "48535181"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>아티클</h3>
+                        <h3>문서</h3>
                         <p><a 
                         href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">조직에서 전화 시스템 설정</a></p>
-                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">오디오 회의를 이용한 타사 통합</a></p>
+                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">오디오 회의와 타사 통합</a></p>
                     </div>
                 </div>
             </div>
@@ -159,8 +159,8 @@ ms.locfileid: "48535181"
                     </div>
                     <div class="cardText">
                         <h3>새로운 기능</h3>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">캐나다의 통화 플랜 (일반 가용성)</a></p>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">오스트레일리아의 통화 요금제 (미리 보기에만 해당)</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">캐나다 통화 플랜(일반 공급)</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">오스트레일리아 통화 플랜(미리 보기 전용)</a></p>
                     </div>
                 </div>
             </div>

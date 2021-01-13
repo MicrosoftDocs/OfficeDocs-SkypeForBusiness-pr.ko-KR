@@ -1,8 +1,8 @@
 ---
-title: 새 전화 번호 번역 규칙
+title: 새 호출 번호 변환 규칙
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 새로운 트렁크 구성을 사용할 수 있습니다. 새 전화 번호 번역 규칙으로 새 번역 규칙을 만듭니다. 변환 규칙에 대한 자세한 내용은 다음 항목을 참조하세요.
-ms.openlocfilehash: c2cc638d38f25bc12537d560373c35535206a505
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '새 트렁크 구성: 새 호출 번호 변환 규칙을 사용하여 새 변환 규칙을 만들 수 있습니다. 변환 규칙에 대한 자세한 내용은 다음 항목을 참조하십시오.'
+ms.openlocfilehash: 54115bf9ea3164a82bb7a609362b975d30224ac6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795569"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819908"
 ---
-# <a name="new-calling-number-translation-rule"></a><span data-ttu-id="b79db-104">새 전화 번호 번역 규칙</span><span class="sxs-lookup"><span data-stu-id="b79db-104">New Calling Number Translation Rule</span></span>
+# <a name="new-calling-number-translation-rule"></a><span data-ttu-id="088ac-104">새 호출 번호 변환 규칙</span><span class="sxs-lookup"><span data-stu-id="088ac-104">New Calling Number Translation Rule</span></span>
 
-<span data-ttu-id="b79db-105">새로운 **트렁크 구성을**사용할 수 있습니다. 새 **전화 번호 번역 규칙** 으로 새 번역 규칙을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b79db-105">You can use the **New Trunk Configuration**: **New Calling Number Translation Rule** to create a new translation rule.</span></span> <span data-ttu-id="b79db-106">변환 규칙에 대한 자세한 내용은 다음 항목을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="b79db-106">For details about translation rules, see the following topics:</span></span>
+<span data-ttu-id="088ac-p102">**새 트렁크 구성**: **새 호출 번호 변환 규칙** 을 사용하여 새 변환 규칙을 만들 수 있습니다. 변환 규칙에 대한 자세한 내용은 다음 항목을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="088ac-p102">You can use the **New Trunk Configuration**: **New Calling Number Translation Rule** to create a new translation rule. For details about translation rules, see the following topics:</span></span>
 
-1. [<span data-ttu-id="b79db-107">비즈니스용 Skype 서버에서 호출 된 ID 프레젠테이션에 대 한 번역 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="b79db-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+1. [<span data-ttu-id="088ac-107">비즈니스용 Skype 서버에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="088ac-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-2. [<span data-ttu-id="b79db-108">Trunk Configuration and Translation Rules</span><span class="sxs-lookup"><span data-stu-id="b79db-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+2. [<span data-ttu-id="088ac-108">트렁크 구성 및 변환 규칙</span><span class="sxs-lookup"><span data-stu-id="088ac-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
 
-3. [<span data-ttu-id="b79db-109">번역 규칙 정의</span><span class="sxs-lookup"><span data-stu-id="b79db-109">Defining Translation Rules</span></span>](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
+3. [<span data-ttu-id="088ac-109">변환 규칙 정의</span><span class="sxs-lookup"><span data-stu-id="088ac-109">Defining Translation Rules</span></span>](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
 
 

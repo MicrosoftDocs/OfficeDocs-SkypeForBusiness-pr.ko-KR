@@ -1,8 +1,8 @@
 ---
-title: 인증서 할당(인보크)
+title: 인증서 할당(호출)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 명령 실행 페이지에는 서버에 인증서를 할당 하는 작업이 수행 되는 작업이 표시 됩니다. 작업이 완료 되 면 인증서 할당 프로세스를 자세히 설명 하는 로그를 볼 수 있습니다. 로그 파일을 보려면 로그 보기를 클릭합니다.
-ms.openlocfilehash: b4e31eefc09039b0250c68595b401edd3ad604e4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 명령 실행 페이지에 인증서를 서버에 할당하기 위한 작업에서 수행한 작업이 표시됩니다. 작업이 완료되면 인증서 할당 프로세스를 자세히 설명하는 로그를 볼 수 있습니다. 로그 파일을 보려면 로그 보기를 클릭합니다.
+ms.openlocfilehash: cb9857162541c10d941b2539b99d855ff34ba7d7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796889"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820438"
 ---
-# <a name="certificate-assignment-invoke"></a><span data-ttu-id="284e6-105">인증서 할당(인보크)</span><span class="sxs-lookup"><span data-stu-id="284e6-105">Certificate Assignment (Invoke)</span></span>
+# <a name="certificate-assignment-invoke"></a><span data-ttu-id="d4ead-105">인증서 할당(호출)</span><span class="sxs-lookup"><span data-stu-id="d4ead-105">Certificate Assignment (Invoke)</span></span>
  
-<span data-ttu-id="284e6-106">**명령 실행** 페이지에는 서버에 인증서를 할당 하는 작업이 수행 되는 작업이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="284e6-106">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server.</span></span> <span data-ttu-id="284e6-107">작업이 완료 되 면 인증서 할당 프로세스를 자세히 설명 하는 로그를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="284e6-107">When the tasks are complete, you can view the log that details the certificate assignment process.</span></span> <span data-ttu-id="284e6-108">로그 파일을 보려면 **로그 보기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="284e6-108">To view the log file, click **View Log**.</span></span>
+<span data-ttu-id="d4ead-p102">**명령 실행** 페이지에 인증서를 서버에 할당하기 위한 작업에서 수행한 작업이 표시됩니다. 작업이 완료되면 인증서 할당 프로세스를 자세히 설명하는 로그를 볼 수 있습니다. 로그 파일을 보려면 **로그 보기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d4ead-p102">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.</span></span>
   
 

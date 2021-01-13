@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 및 Office 365에서 Skype 대화방 시스템 계정 프로 비전
-ms.author: v-lanac
-author: lanachin
+title: Microsoft 365 및 Office 365에서 Skype 룸 시스템 계정 프로비전
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,67 +11,67 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: Microsoft 365 또는 Office 365에서 Skype 대화방 시스템 계정을 프로 비전 하는 방법에 대 한 자세한 내용을 보려면이 항목을 읽어 보십시오.
-ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: 이 항목을 읽고 Microsoft 365 또는 Office 365에서 Skype 채팅방 시스템 계정을 프로비전하는 방법을 배워 읽습니다.
+ms.openlocfilehash: 115dd83751e0da837d9d88351d57a769b7e313da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221852"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820848"
 ---
-# <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a><span data-ttu-id="976e5-103">Microsoft 365 및 Office 365에서 Skype 대화방 시스템 계정 프로 비전</span><span class="sxs-lookup"><span data-stu-id="976e5-103">Provisioning Skype Room System accounts in Microsoft 365 and Office 365</span></span>
+# <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a><span data-ttu-id="f122b-103">Microsoft 365 및 Office 365에서 Skype 룸 시스템 계정 프로비전</span><span class="sxs-lookup"><span data-stu-id="f122b-103">Provisioning Skype Room System accounts in Microsoft 365 and Office 365</span></span>
  
-<span data-ttu-id="976e5-104">Microsoft 365 또는 Office 365에서 Skype 대화방 시스템 계정을 프로 비전 하는 방법에 대 한 자세한 내용을 보려면이 항목을 읽어 보십시오.</span><span class="sxs-lookup"><span data-stu-id="976e5-104">Read this topic to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365.</span></span>
+<span data-ttu-id="f122b-104">이 항목을 읽고 Microsoft 365 또는 Office 365에서 Skype 채팅방 시스템 계정을 프로비전하는 방법을 배워 읽습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-104">Read this topic to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365.</span></span>
   
-<span data-ttu-id="976e5-105">다음 섹션에서는 Skype 대화방 시스템 계정 프로 비전에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-105">The following section covers Skype Room System account provisioning.</span></span>
+<span data-ttu-id="f122b-105">다음 섹션에서는 Skype 룸 시스템 계정 프로비전에 대한 설명을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-105">The following section covers Skype Room System account provisioning.</span></span>
   
-## <a name="microsoft-365-and-office-365-prerequisites"></a><span data-ttu-id="976e5-106">Microsoft 365 및 Office 365 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="976e5-106">Microsoft 365 and Office 365 prerequisites</span></span>
+## <a name="microsoft-365-and-office-365-prerequisites"></a><span data-ttu-id="f122b-106">Microsoft 365 및 Office 365의 선행 준비</span><span class="sxs-lookup"><span data-stu-id="f122b-106">Microsoft 365 and Office 365 prerequisites</span></span>
 
-<span data-ttu-id="976e5-107">온라인 테 넌 트가 다음 요구 사항을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-107">Your online tenant must meet the following requirements:</span></span>
+<span data-ttu-id="f122b-107">온라인 테넌트는 다음 요구 사항을 충족해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-107">Your online tenant must meet the following requirements:</span></span>
   
-- <span data-ttu-id="976e5-108">Microsoft 365 또는 Office 365 요금제에는 비즈니스용 Skype Online 계획 2 또는 Office 365 E1, E3 또는 E5가 포함 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-108">The Microsoft 365 or Office 365 plan must include Skype for Business Online Plan 2, or Office 365 E1, E3 or E5.</span></span> <br/><span data-ttu-id="976e5-109">비즈니스용 Skype Online 계획에 대 한 자세한 내용은 [비즈니스용 Skype Online 서비스 설명을](https://technet.microsoft.com/library/jj822172.aspx)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="976e5-109">For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).</span></span>
+- <span data-ttu-id="f122b-108">Microsoft 365 또는 Office 365 요금제에는 비즈니스용 Skype Online 계획 2 또는 Office 365 E1, E3 또는 E5가 포함되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-108">The Microsoft 365 or Office 365 plan must include Skype for Business Online Plan 2, or Office 365 E1, E3 or E5.</span></span> <br/><span data-ttu-id="f122b-109">비즈니스용 Skype Online 계획에 대한 자세한 내용은 비즈니스용 [Skype Online 서비스 설명을 참조하세요.](https://technet.microsoft.com/library/jj822172.aspx)</span><span class="sxs-lookup"><span data-stu-id="f122b-109">For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).</span></span>
     
-- <span data-ttu-id="976e5-110">테 넌 트에 비즈니스용 Skype의 회의 기능이 사용 하도록 설정 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-110">Your tenant must have the conferencing capability of Skype for Business enabled.</span></span>
+- <span data-ttu-id="f122b-110">테넌트에 비즈니스용 Skype의 회의 기능이 활성화되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-110">Your tenant must have the conferencing capability of Skype for Business enabled.</span></span>
     
-- <span data-ttu-id="976e5-111">테 넌 트에서 Exchange Online을 사용 하도록 설정 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-111">Your tenant must have Exchange Online enabled.</span></span> 
+- <span data-ttu-id="f122b-111">테넌트에서 Exchange Online을 사용하도록 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-111">Your tenant must have Exchange Online enabled.</span></span> 
     
-- <span data-ttu-id="976e5-112">테 넌 트 원격 관리자에 게는 다음 PowerShell 액세스 권한이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-112">Your tenant remote administrator must have the following PowerShell access:</span></span>
+- <span data-ttu-id="f122b-112">테넌트 원격 관리자에게는 다음 PowerShell 액세스 권한이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-112">Your tenant remote administrator must have the following PowerShell access:</span></span>
     
-  - <span data-ttu-id="976e5-113">Exchange 원격 PowerShell 액세스</span><span class="sxs-lookup"><span data-stu-id="976e5-113">Exchange Remote PowerShell access</span></span>
+  - <span data-ttu-id="f122b-113">Exchange 원격 PowerShell 액세스</span><span class="sxs-lookup"><span data-stu-id="f122b-113">Exchange Remote PowerShell access</span></span>
     
-  - <span data-ttu-id="976e5-114">비즈니스용 Skype Online 원격 PowerShell 액세스</span><span class="sxs-lookup"><span data-stu-id="976e5-114">Skype for Business Online Remote PowerShell access</span></span>
+  - <span data-ttu-id="f122b-114">비즈니스용 Skype Online 원격 PowerShell 액세스</span><span class="sxs-lookup"><span data-stu-id="f122b-114">Skype for Business Online Remote PowerShell access</span></span>
     
-  - <span data-ttu-id="976e5-115">Microsoft 365 또는 Office 365 디렉터리 액세스에 액세스 하기 위한 windows PowerShell 용 windows Azure Active Directory 모듈</span><span class="sxs-lookup"><span data-stu-id="976e5-115">Windows Azure Active Directory Module for Windows PowerShell to access Microsoft 365 or Office 365 directory access</span></span>
+  - <span data-ttu-id="f122b-115">Windows Azure Microsoft 365 또는 Office 365 디렉터리 Windows PowerShell 액세스하기 위한 Active Directory 모듈 구성</span><span class="sxs-lookup"><span data-stu-id="f122b-115">Windows Azure Active Directory Module for Windows PowerShell to access Microsoft 365 or Office 365 directory access</span></span>
     
-<span data-ttu-id="976e5-116">Skype 대화방 계정의 경우 다음 라이선스가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-116">For the Skype Room account, the following licensing is required:</span></span>
+<span data-ttu-id="f122b-116">Skype 룸 계정의 경우 다음 라이선스가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-116">For the Skype Room account, the following licensing is required:</span></span>
   
-- <span data-ttu-id="976e5-117">Skype 모임을 사용 하도록 설정 하려면 비즈니스용 Skype Online 계획 2 또는 Office 365 E1 또는 E3 라이선스가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-117">A Skype for Business Online Plan 2 or Office 365 E1 or E3 license is required to enable Skype Meetings.</span></span>
+- <span data-ttu-id="f122b-117">Skype 모임을 사용하도록 설정하려면 비즈니스용 Skype Online 계획 2 또는 Office 365 E1 또는 E3 라이선스가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-117">A Skype for Business Online Plan 2 or Office 365 E1 or E3 license is required to enable Skype Meetings.</span></span>
     
-- <span data-ttu-id="976e5-118">전화 번호를 사용 하 여 대화방을 사용할 수 있도록 Enterprise Voice 기능을 사용 하 여 대화방을 entitle 전화 시스템 라이선스 또는 Office 365 E5가 있는 비즈니스용 Skype Online 계획 2가 필요 합니다 (1).</span><span class="sxs-lookup"><span data-stu-id="976e5-118">To entitle the room with the Enterprise Voice capability so the room can be enabled with a phone number, a Skype for Business Online Plan 2 with the Phone System license or Office 365 E5 is required (1).</span></span>
+- <span data-ttu-id="f122b-118">전화 번호로 채팅방을 사용할 수 있도록 Enterprise Voice 기능을 사용하여 방에 권한을 부여하려면 전화 시스템 라이선스가 있는 비즈니스용 Skype Online 계획 2 또는 Office 365 E5가 필요합니다(1).</span><span class="sxs-lookup"><span data-stu-id="f122b-118">To entitle the room with the Enterprise Voice capability so the room can be enabled with a phone number, a Skype for Business Online Plan 2 with the Phone System license or Office 365 E5 is required (1).</span></span>
     
-- <span data-ttu-id="976e5-119">모임에서 전화 접속 기능을 사용 해야 하는 경우에는 오디오 회의 및 전화 시스템 라이선스가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-119">If you need dial-in capabilities from a meeting, you will need an audio conferencing and Phone System license.</span></span>  <span data-ttu-id="976e5-120">모임에서 전화 걸기 기능이 필요한 경우 국내 또는 국내 및 국제 통화 요금제가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-120">If you need dial-out capabilities from a meeting, you will need a domestic or domestic and international Calling Plan.</span></span> 
+- <span data-ttu-id="f122b-119">모임에서 전화 접속 기능이 필요한 경우 오디오 회의 및 전화 시스템 라이선스가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-119">If you need dial-in capabilities from a meeting, you will need an audio conferencing and Phone System license.</span></span>  <span data-ttu-id="f122b-120">모임에서 전화 접속 기능이 필요한 경우 국내 또는 국내 및 국제 통화 플랜이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-120">If you need dial-out capabilities from a meeting, you will need a domestic or domestic and international Calling Plan.</span></span> 
     
-- <span data-ttu-id="976e5-121">계정을 리소스 사서함 계정으로 구성 해야 하므로 Skype 대화방 계정에 Exchange Online 라이선스가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-121">An Exchange Online license is not required for the Skype Room account because the account should be configured as a resource mailbox account.</span></span>
+- <span data-ttu-id="f122b-121">계정을 리소스 사서함 계정으로 구성해야 한다고 하여 Skype 룸 계정에는 Exchange Online 라이선스가 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-121">An Exchange Online license is not required for the Skype Room account because the account should be configured as a resource mailbox account.</span></span>
     
-## <a name="provisioning-overview"></a><span data-ttu-id="976e5-122">프로 비전 개요</span><span class="sxs-lookup"><span data-stu-id="976e5-122">Provisioning overview</span></span>
+## <a name="provisioning-overview"></a><span data-ttu-id="f122b-122">프로비저닝 개요</span><span class="sxs-lookup"><span data-stu-id="f122b-122">Provisioning overview</span></span>
 
-<span data-ttu-id="976e5-123">다음 다이어그램은 Skype 대화방 시스템 계정 프로 비전 흐름에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-123">The following diagram provides an overview of the Skype Room System account provisioning flow.</span></span>
+<span data-ttu-id="f122b-123">다음 다이어그램에서는 Skype 룸 시스템 계정 프로비전 흐름에 대한 개요를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-123">The following diagram provides an overview of the Skype Room System account provisioning flow.</span></span>
   
-![Skype 대화방 시스템 프로 비전 단계](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype 룸 시스템 프로비전 단계](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
-## <a name="identify-a-new-conference-room"></a><span data-ttu-id="976e5-125">새 회의실 확인</span><span class="sxs-lookup"><span data-stu-id="976e5-125">Identify a new conference room</span></span>
+## <a name="identify-a-new-conference-room"></a><span data-ttu-id="f122b-125">새 회의실 식별</span><span class="sxs-lookup"><span data-stu-id="f122b-125">Identify a new conference room</span></span>
 
-<span data-ttu-id="976e5-126">Exchange에 일정 기능을 제공 하는 리소스 대화방 사서함이 이미 있거나 Skype 대화방 시스템 배포를 촉진 하기 위해 처음으로 리소스 사서함을 만드는 것일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-126">You may already have a resource room mailbox in Exchange that provides the scheduling feature, or you may be creating a resource mailbox for the first time to facilitate Skype Room System deployment.</span></span> <span data-ttu-id="976e5-127">모든 경우에는 테 넌 트에서 사용할 대화방 계정을 식별 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-127">In any case, you must identify a room account to be used in your tenant.</span></span> <span data-ttu-id="976e5-128">Exchange Online 프로 비전 및 비즈니스용 Skype 프로 비전 섹션에서는 두 가지 계정 유형에 대 한 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-128">The Exchange Online Provision and Skype for Business Provision sections provide guidance for both kinds of accounts.</span></span> <span data-ttu-id="976e5-129">예를 들어 다음과 같은 두 개의 대화방을 사용 하 고 있으며 두 채팅방을 모두에 대해 Skype 대화방 시스템을 배포 하려는 경우를 가정해 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-129">For example, let's say you have the following two rooms, and you would like to deploy Skype Room System for both of them:</span></span>
+<span data-ttu-id="f122b-126">Exchange에 이미 예정 기능을 제공하는 리소스 공간 사서함이 있을 수 있습니다. 또는 Skype 룸 시스템 배포를 용이하게 하기 위해 리소스 사서함을 처음으로 만들 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-126">You may already have a resource room mailbox in Exchange that provides the scheduling feature, or you may be creating a resource mailbox for the first time to facilitate Skype Room System deployment.</span></span> <span data-ttu-id="f122b-127">어떤 경우든 테넌트에서 사용할 방 계정을 식별해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-127">In any case, you must identify a room account to be used in your tenant.</span></span> <span data-ttu-id="f122b-128">Exchange Online 프로비전 및 비즈니스용 Skype 프로비전 섹션에서는 두 종류의 계정에 대한 지침을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-128">The Exchange Online Provision and Skype for Business Provision sections provide guidance for both kinds of accounts.</span></span> <span data-ttu-id="f122b-129">예를 들어 다음 두 방이 있으며 이 두 방 모두에 대해 Skype 룸 시스템을 배포하고자 하는 경우를 예로 들어 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-129">For example, let's say you have the following two rooms, and you would like to deploy Skype Room System for both of them:</span></span>
   
-- <span data-ttu-id="976e5-130">기존 리소스 사서함 계정: confrm1@contoso.onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="976e5-130">Existing Resource Mailbox Account: confrm1@contoso.onmicrosoft.com</span></span>
+- <span data-ttu-id="f122b-130">기존 리소스 사서함 계정: confrm1@contoso.onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="f122b-130">Existing Resource Mailbox Account: confrm1@contoso.onmicrosoft.com</span></span>
     
-- <span data-ttu-id="976e5-131">새 리소스 사서함 계정: confrm2@contoso.onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="976e5-131">New Resource Mailbox Account: confrm2@contoso.onmicrosoft.com</span></span>
+- <span data-ttu-id="f122b-131">새 리소스 사서함 계정: confrm2@contoso.onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="f122b-131">New Resource Mailbox Account: confrm2@contoso.onmicrosoft.com</span></span>
     
-## <a name="exchange-online-provisioning"></a><span data-ttu-id="976e5-132">Exchange Online 구축</span><span class="sxs-lookup"><span data-stu-id="976e5-132">Exchange Online provisioning</span></span>
+## <a name="exchange-online-provisioning"></a><span data-ttu-id="f122b-132">Exchange Online 프로비전</span><span class="sxs-lookup"><span data-stu-id="f122b-132">Exchange Online provisioning</span></span>
 
-<span data-ttu-id="976e5-133">먼저, [Exchange Online powershell에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)항목의 지침에 따라 Exchange online powershell에 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-133">First, connect to Exchange Online PowerShell by following the instructions in the topic, [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).</span></span>
+<span data-ttu-id="f122b-133">먼저 Exchange Online PowerShell에 연결 항목의 지침에 따라 [Exchange Online PowerShell에 연결합니다.](https://go.microsoft.com/fwlink/p/?LinkId=396554)</span><span class="sxs-lookup"><span data-stu-id="f122b-133">First, connect to Exchange Online PowerShell by following the instructions in the topic, [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).</span></span>
   
-<span data-ttu-id="976e5-134">Skype 대화방 시스템에 대 한 기존 리소스 대화방 사서함 계정을 설정 하려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-134">To set an existing resource room mailbox account for Skype Room System, run the following commands in Exchange Online PowerShell:</span></span>
+<span data-ttu-id="f122b-134">Skype 룸 시스템에 대한 기존 리소스 공간 사서함 계정을 설정하려면 Exchange Online PowerShell에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-134">To set an existing resource room mailbox account for Skype Room System, run the following commands in Exchange Online PowerShell:</span></span>
   
 ```powershell
 $rm="confrm1@contoso.onmicrosoft.com"
@@ -79,7 +79,7 @@ $newpass='pass@word1'
 Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
 ```
 
-<span data-ttu-id="976e5-135">Skype 대화방 시스템에 대 한 새 Exchange 리소스 사서함 계정을 만들려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-135">To create a new Exchange resource mailbox account for Skype Room System, run the following commands in Exchange Online PowerShell:</span></span>
+<span data-ttu-id="f122b-135">Skype 룸 시스템에 대한 새 Exchange 리소스 사서함 계정을 만들하려면 Exchange Online PowerShell에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-135">To create a new Exchange resource mailbox account for Skype Room System, run the following commands in Exchange Online PowerShell:</span></span>
   
 ```powershell
 $rm="confrm2@contoso.onmicrosoft.com"
@@ -87,21 +87,21 @@ $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
 ```
 
-<span data-ttu-id="976e5-136">이전 명령은 계정을 사용 하 여 Skype 대화방 시스템 사용에 대 한 새 Exchange 리소스 사서함 계정을 설정 하거나 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-136">The previous commands set up or create a new Exchange resource mailbox account for Skype Room System usage by enabling the account.</span></span>
+<span data-ttu-id="f122b-136">이전 명령은 계정을 사용하도록 설정하여 Skype 룸 시스템 사용에 대한 새 Exchange 리소스 사서함 계정을 설정하거나 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-136">The previous commands set up or create a new Exchange resource mailbox account for Skype Room System usage by enabling the account.</span></span>
   
-<span data-ttu-id="976e5-137">사서함을 만든 후에 Exchange Online PowerShell에서 설정-CalendarProcessing cmdlet을 사용 하 여 사서함을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-137">After creating the mailbox, you can use the Set-CalendarProcessing cmdlet in Exchange Online PowerShell to configure the mailbox.</span></span> <span data-ttu-id="976e5-138">자세한 내용은 단일 포리스트 온-프레미스 배포의 3 ~ 6 단계를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="976e5-138">Refer to steps 3 through 6 under Single forest on-premises deployments for more details</span></span>
+<span data-ttu-id="f122b-137">사서함을 만들고 나면 Exchange Online PowerShell의 Set-CalendarProcessing cmdlet을 사용하여 사서함을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-137">After creating the mailbox, you can use the Set-CalendarProcessing cmdlet in Exchange Online PowerShell to configure the mailbox.</span></span> <span data-ttu-id="f122b-138">자세한 내용은 단일 포리스트의 단일 포리스트 배포에서 3-6단계를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f122b-138">Refer to steps 3 through 6 under Single forest on-premises deployments for more details</span></span>
 
-## <a name="assigning-a-skype-for-business-online-license"></a><span data-ttu-id="976e5-139">비즈니스용 Skype 온라인 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="976e5-139">Assigning a Skype for Business Online license</span></span>
+## <a name="assigning-a-skype-for-business-online-license"></a><span data-ttu-id="f122b-139">비즈니스용 Skype Online 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="f122b-139">Assigning a Skype for Business Online license</span></span>
 
-<span data-ttu-id="976e5-140">이제 비즈니스용 Skype Online (요금제 2) 또는 비즈니스용 skype Online (요금제 3)에 설명 된 대로 microsoft 365 관리 포털을 사용 하 여 비즈니스에 대 한 microsoft [365의 라이선스 할당 또는 제거 (for](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) 비즈니스용 [skype 추가 기능 라이선스](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7))를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-140">Now you can assign a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license by using the Microsoft 365 administrative portal as described in [Assign or remove licenses for Microsoft 365 for business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) or in [Skype for Business add-on licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).</span></span> 
+<span data-ttu-id="f122b-140">이제 비즈니스용 Microsoft 365 또는 비즈니스용 Skype 추가 기능 라이선스 할당 또는 제거에 설명된 바와 같이 [Microsoft 365](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) 관리 포털을 사용하여 비즈니스용 Skype Online(계획 2) 또는 비즈니스용 [Skype](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)Online(계획 3) 라이선스를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-140">Now you can assign a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license by using the Microsoft 365 administrative portal as described in [Assign or remove licenses for Microsoft 365 for business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) or in [Skype for Business add-on licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).</span></span> 
   
-<span data-ttu-id="976e5-141">비즈니스용 Skype Online에 대 한 라이선스를 할당 하면 로그인 하 여 비즈니스용 Skype 클라이언트를 사용 하 여 계정이 활성 상태 인지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-141">After you assign a license for Skype for Business Online, you will be able to log in and validate that the account is active using any Skype for Business client.</span></span>
+<span data-ttu-id="f122b-141">비즈니스용 Skype Online에 대한 라이선스를 할당한 후 로그인하고 비즈니스용 Skype 클라이언트를 사용하여 계정이 활성 상태임이 확인될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-141">After you assign a license for Skype for Business Online, you will be able to log in and validate that the account is active using any Skype for Business client.</span></span>
   
-## <a name="skype-for-business-online-provisioning"></a><span data-ttu-id="976e5-142">비즈니스용 Skype Online 프로 비전</span><span class="sxs-lookup"><span data-stu-id="976e5-142">Skype for Business Online provisioning</span></span>
+## <a name="skype-for-business-online-provisioning"></a><span data-ttu-id="f122b-142">비즈니스용 Skype Online 프로비전</span><span class="sxs-lookup"><span data-stu-id="f122b-142">Skype for Business Online provisioning</span></span>
 
-<span data-ttu-id="976e5-143">리소스 대화방 사서함 계정을 만들어 이전에 표시 된 대로 사용 하도록 설정 했으며 비즈니스용 Skype 온라인에 대 한 계정을 사용 하도록 허가 받은 사용자는 Windows Azure Active Directory 포리스트를 통해 Exchange Online 포리스트와 비즈니스용 Skype Online 포리스트와 계정을 동기화 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-143">After a resource room mailbox account has been created and enabled as shown previously, and you have licensed the account for Skype For Business Online the account will synchronize from the Exchange Online forest to Skype for Business Online forest by using the Windows Azure Active Directory forest.</span></span> <span data-ttu-id="976e5-144">비즈니스용 Skype Online 풀에서 Skype 대화방 시스템 계정을 구축 하려면 다음 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-144">The following steps are required to provision the Skype Room System account in the Skype for Business Online pool.</span></span> <span data-ttu-id="976e5-145">이러한 단계는 Exchange Online에서 사용 하도록 설정 된 경우 동일한 방식으로 비즈니스용 Skype Online에 동기화 되는 기존 리소스 사서함 계정 또는 새로 만든 계정 (confrm1 또는 confrm2)에 대해 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-145">These steps are the same for both an existing resource mailbox account or a newly created account (confrm1 or confrm2), because once they are enabled in Exchange Online, both of these accounts will be synchronized to Skype for Business Online in the same way:</span></span>
+<span data-ttu-id="f122b-143">리소스 공간 사서함 계정을 생성하고 사용하도록 설정한 후 비즈니스용 Skype Online에 대한 계정에 라이선스를 부여한 후 계정이 Exchange Online 포리스트에서 비즈니스용 Skype Online 포리스트로 동기화될 Windows Azure Active Directory 포리스트를 사용하여 동기화합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-143">After a resource room mailbox account has been created and enabled as shown previously, and you have licensed the account for Skype For Business Online the account will synchronize from the Exchange Online forest to Skype for Business Online forest by using the Windows Azure Active Directory forest.</span></span> <span data-ttu-id="f122b-144">비즈니스용 Skype Online 풀에서 Skype 룸 시스템 계정을 프로비전하려면 다음 단계가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-144">The following steps are required to provision the Skype Room System account in the Skype for Business Online pool.</span></span> <span data-ttu-id="f122b-145">이러한 단계는 기존 리소스 사서함 계정 또는 새로 만든 계정(confrm1 또는 confrm2)에 대해 동일합니다. Exchange Online에서 사용하도록 설정하면 두 계정이 동일한 방식으로 비즈니스용 Skype Online과 동기화됩니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-145">These steps are the same for both an existing resource mailbox account or a newly created account (confrm1 or confrm2), because once they are enabled in Exchange Online, both of these accounts will be synchronized to Skype for Business Online in the same way:</span></span>
   
-1. <span data-ttu-id="976e5-146">원격 PowerShell 세션을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-146">Create a Remote PowerShell session.</span></span> <span data-ttu-id="976e5-147">비즈니스용 Skype 온라인 커넥터 모듈 및 Microsoft Online Services 로그인 도우미를 다운로드 하 고 컴퓨터가 구성 되어 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-147">Note that you will need to download Skype for Business Online Connector Module and Microsoft Online Services Sign-In Assistant and make sure that your computer is configured.</span></span> <span data-ttu-id="976e5-148">자세한 내용은 [Windows PowerShell을 사용할 컴퓨터 설정을](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="976e5-148">For more information, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+1. <span data-ttu-id="f122b-146">원격 PowerShell 세션을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-146">Create a Remote PowerShell session.</span></span> <span data-ttu-id="f122b-147">비즈니스용 Skype Online 커넥터 모듈 및 Microsoft Online Services Sign-In 도우미를 다운로드하고 컴퓨터가 구성되어 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-147">Note that you will need to download Skype for Business Online Connector Module and Microsoft Online Services Sign-In Assistant and make sure that your computer is configured.</span></span> <span data-ttu-id="f122b-148">자세한 내용은 [다음을 위해](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)컴퓨터 Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f122b-148">For more information, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
     
    ```powershell
    Import-Module LyncOnlineConnector
@@ -109,41 +109,41 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. <span data-ttu-id="976e5-149">비즈니스용 Skype에 대해 Skype 대화방 시스템 계정을 사용 하도록 설정 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-149">To enable an Skype Room System account for Skype for Business, run the following command:</span></span>
+2. <span data-ttu-id="f122b-149">비즈니스용 Skype에 대해 Skype 룸 시스템 계정을 사용하도록 설정하려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-149">To enable an Skype Room System account for Skype for Business, run the following command:</span></span>
     
    ```powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    <span data-ttu-id="976e5-150">다음 명령을 사용 하 여이 속성을 반환 하 여 비즈니스용 Skype 사용자가 속해 있는 RegistrarPool 주소를 기존 계정 중 하나로 가져올 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-150">You can obtain the RegistrarPool address where your Skype for Business users are homed from one of your existing accounts by using the following command to returns this property:</span></span>
+    <span data-ttu-id="f122b-150">다음 명령을 사용하여 이 속성을 반환하면 비즈니스용 Skype 사용자가 있는 등록자 주소를 기존 계정 중 하나에서 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-150">You can obtain the RegistrarPool address where your Skype for Business users are homed from one of your existing accounts by using the following command to returns this property:</span></span>
     
    ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
 >[!NOTE] 
-><span data-ttu-id="976e5-151">Skype 대화방 시스템 계정에 대해서는 MFA (multi-factor Authentication)가 지원 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-151">Multi-Factor Authentication (MFA) isn't supported for Skype Room System accounts.</span></span> 
+><span data-ttu-id="f122b-151">Skype 룸 시스템 계정에는 MFA(Multi-Factor Authentication)가 지원되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-151">Multi-Factor Authentication (MFA) isn't supported for Skype Room System accounts.</span></span> 
 
-## <a name="password-expiration"></a><span data-ttu-id="976e5-152">암호 만료</span><span class="sxs-lookup"><span data-stu-id="976e5-152">Password expiration</span></span>
+## <a name="password-expiration"></a><span data-ttu-id="f122b-152">암호 만료</span><span class="sxs-lookup"><span data-stu-id="f122b-152">Password expiration</span></span>
 
-<span data-ttu-id="976e5-153">Microsoft 365 또는 Office 365에서는 다른 암호 만료 정책을 구성 하지 않는 한 모든 사용자 계정에 대 한 기본 암호 만료 정책이 90 일입니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-153">In Microsoft 365 or Office 365, the default password expiration policy for all of your user accounts is 90 days unless you configure a different password expiration policy.</span></span> <span data-ttu-id="976e5-154">Skype 대화방 시스템 계정에 대해 다음 단계를 수행 하 여 암호 사용 기간 제한 없음 설정을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-154">For Skype Room System accounts, you can select the Password never expires setting with the following steps.</span></span>
+<span data-ttu-id="f122b-153">Microsoft 365 또는 Office 365에서 다른 암호 만료 정책을 구성하지 않는 한 모든 사용자 계정에 대한 기본 암호 만료 정책은 90일입니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-153">In Microsoft 365 or Office 365, the default password expiration policy for all of your user accounts is 90 days unless you configure a different password expiration policy.</span></span> <span data-ttu-id="f122b-154">Skype 채팅방 시스템 계정의 경우 다음 단계에 따라 암호 사용 기간이 만료되지 않는 설정을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-154">For Skype Room System accounts, you can select the Password never expires setting with the following steps.</span></span>
   
-1. <span data-ttu-id="976e5-155">테 넌 트 전역 관리자 자격 증명을 사용 하 여 Windows Azure Active Directory 세션을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-155">Create a Windows Azure Active Directory session by using your tenant global administrator credentials.</span></span>
+1. <span data-ttu-id="f122b-155">테넌트 Windows Azure 관리자 자격 증명을 사용하여 Active Directory 세션을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-155">Create a Windows Azure Active Directory session by using your tenant global administrator credentials.</span></span>
     
     ```powershell
     $cred=Get-Credential admin@$org
     Connect-MsolService -Credential $cred
     ```
 
-2. <span data-ttu-id="976e5-156">다음 명령을 사용 하 여 이전에 만든 Skype 대화방 시스템 대화방 계정의 암호 사용 기간 제한 없음 설정을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-156">Set the Password never expires setting for the Skype Room System room account created previously by using the following command:</span></span>
+2. <span data-ttu-id="f122b-156">다음 명령을 사용하여 이전에 만든 Skype 채팅방 계정의 암호 사용 기간이 만료되지 않는 설정 설정</span><span class="sxs-lookup"><span data-stu-id="f122b-156">Set the Password never expires setting for the Skype Room System room account created previously by using the following command:</span></span>
     
    ```powershell
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-<span data-ttu-id="976e5-157">자세한 내용은 [Windows PowerShell을 사용할 컴퓨터 설정을](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="976e5-157">For more information, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+<span data-ttu-id="f122b-157">자세한 내용은 [다음을 위해](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)컴퓨터 Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f122b-157">For more information, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
   
-## <a name="validate"></a><span data-ttu-id="976e5-158">유효성 검사</span><span class="sxs-lookup"><span data-stu-id="976e5-158">Validate</span></span>
+## <a name="validate"></a><span data-ttu-id="f122b-158">유효성 검사</span><span class="sxs-lookup"><span data-stu-id="f122b-158">Validate</span></span>
 
-<span data-ttu-id="976e5-159">유효성 검사를 위해 비즈니스용 Skype 클라이언트를 사용 하 여 만든 계정에 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="976e5-159">For validation, you should be able to use any Skype for Business client to sign in to the account you created.</span></span>
+<span data-ttu-id="f122b-159">유효성 검사를 위해 비즈니스용 Skype 클라이언트를 사용하여 만든 계정에 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f122b-159">For validation, you should be able to use any Skype for Business client to sign in to the account you created.</span></span>
 

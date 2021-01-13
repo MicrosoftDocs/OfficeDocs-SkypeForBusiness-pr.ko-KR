@@ -1,8 +1,8 @@
 ---
 title: 등록자 설정 확장기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,29 +14,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
-description: 탄력성은 레지스트라 풀에 대 한 고가용성 및 재해 복구를 제공 합니다. 기본 등록 기관에 장애가 발생 했을 때 백업 등록 기관을 제공 하 여, 백업 등록 자가 실패 등록자에 대해 조치를 취하여 사용자가 로그온 하 고 통신할 수 있도록 합니다. 사용자는 기본 등록 기관에서 실패 한 시스템에 따라 기능을 저하 시킬 수 있습니다.
-ms.openlocfilehash: b6dd5fac05b4692e8f30f1063ab71b1bad02d810
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 탄성은 등록자 풀에 대해 고가용성 및 재해 복구를 제공합니다. 백업 등록자를 제공하는 경우 기본 등록자에 오류가 발생하면 백업 등록자가 실패한 등록자 대신 작업을 수행하므로 사용자가 로그온 및 통신할 수 있습니다. 기본 등록자와 함께 실패한 시스템에 따라 잠재적으로 사용할 수 있는 기능이 축소될 수 있습니다.
+ms.openlocfilehash: cb7a5204b3b282c73f9440e61267b723b112b735
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797239"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822118"
 ---
-# <a name="registrar-settings-expander"></a><span data-ttu-id="8a8c8-105">등록자 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="8a8c8-105">Registrar Settings Expander</span></span>
+# <a name="registrar-settings-expander"></a><span data-ttu-id="78843-105">등록자 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="78843-105">Registrar Settings Expander</span></span>
  
-<span data-ttu-id="8a8c8-106">탄력성은 레지스트라 풀에 대 한 고가용성 및 재해 복구를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-106">Resiliency provides high availability and disaster recovery for the Registrar pool.</span></span> <span data-ttu-id="8a8c8-107">기본 등록 기관에 장애가 발생 했을 때 백업 등록 기관을 제공 하 여, 백업 등록 자가 실패 등록자에 대해 조치를 취하여 사용자가 로그온 하 고 통신할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-107">By providing a backup Registrar in the event of failure of the primary Registrar, the backup Registrar can take over for the failed Registrar, allowing users to log on and communicate.</span></span> <span data-ttu-id="8a8c8-108">사용자는 기본 등록 기관에서 실패 한 시스템에 따라 기능을 저하 시킬 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-108">Users can potentially experience reduced functionality, depending on which systems have failed with the primary Registrar.</span></span>
+<span data-ttu-id="78843-p102">탄성은 등록자 풀에 대해 고가용성 및 재해 복구를 제공합니다. 백업 등록자를 제공하는 경우 기본 등록자에 오류가 발생하면 백업 등록자가 실패한 등록자 대신 작업을 수행하므로 사용자가 로그온 및 통신할 수 있습니다. 기본 등록자와 함께 실패한 시스템에 따라 잠재적으로 사용할 수 있는 기능이 축소될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="78843-p102">Resiliency provides high availability and disaster recovery for the Registrar pool. By providing a backup Registrar in the event of failure of the primary Registrar, the backup Registrar can take over for the failed Registrar, allowing users to log on and communicate. Users can potentially experience reduced functionality, depending on which systems have failed with the primary Registrar.</span></span>
   
-<span data-ttu-id="8a8c8-109">Survivable Branch 기기 또는 Survivable Branch 서버에 대 한 **속성 편집** 대화 상자의 **복원** 구역에서 다음 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-109">In the **Resiliency** section of the **Edit Properties** dialog box for your Survivable Branch Appliance or Survivable Branch Server, you can change the following settings:</span></span>
+<span data-ttu-id="78843-109">SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버의 **속성 편집** 대화 상자에 있는 **복구** 섹션에서 다음 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="78843-109">In the **Resiliency** section of the **Edit Properties** dialog box for your Survivable Branch Appliance or Survivable Branch Server, you can change the following settings:</span></span>
   
-- <span data-ttu-id="8a8c8-110">**연결 된 사용자 서비스 및 백업 등록자 풀** 드롭다운 목록에서 Survivable Branch 기기 또는 Survivable Branch 서버에 대 한 백업 등록 기관 역할을 하는 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-110">**Associated User service and backup Registrar pool** In the drop-down list, select the Enterprise Edition Front End pool or Standard Edition Front End Server that is to act as the backup Registrar for the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+- <span data-ttu-id="78843-110">**연결된 사용자 서비스 및 백업 등록자 풀** 드롭다운 목록에서 Survivable Branch Appliance 또는 Survivable Branch Server의 백업 등록자 역할을 할 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="78843-110">**Associated User service and backup Registrar pool** In the drop-down list, select the Enterprise Edition Front End pool or Standard Edition Front End Server that is to act as the backup Registrar for the Survivable Branch Appliance or Survivable Branch Server.</span></span>
     
-- <span data-ttu-id="8a8c8-111">**장애 조치와 장애 복구 사용** 이 설정을 선택 하면 실패 한 등록자를 자동으로 검색 하 고, 기본 등록 기관에서 백업 하 고 등록자 프로세스를 다시 시작할 준비가 되었다는 자동 결정을 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-111">**Enable Failover and Failback** Select this setting to allow for the automatic detection of a failed Registrar and the automatic determination that the primary Registrar is back up and ready to resume the Registrar process.</span></span>
+- <span data-ttu-id="78843-111">**장애 조치(Failover) 및 장애 조치(Failback) 사용** 실패한 등록자 자동 검색 및 기본 등록자가 백업되어 등록자 프로세스를 다시 시작할 준비가 됐다는 자동 확인을 허용하려면 이 설정을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="78843-111">**Enable Failover and Failback** Select this setting to allow for the automatic detection of a failed Registrar and the automatic determination that the primary Registrar is back up and ready to resume the Registrar process.</span></span>
     
-- <span data-ttu-id="8a8c8-112">**실패 검색 간격 (초)** 기본 등록 기관에 오류가 발생 하는 것으로 확인 되기까지 경과 되는 시간을 초 단위로 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-112">**Failure detection interval (sec)** Type the number of seconds that should elapse before it is determined that the primary Registrar has failed.</span></span> <span data-ttu-id="8a8c8-113">기본값은 120 초입니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-113">The default value is 120 seconds.</span></span> <span data-ttu-id="8a8c8-114">**장애 조치 및 장애 복구 사용**을 선택 하는 경우이 필드가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-114">This field is required if you select **Enable Failover and Failback**.</span></span>
+- <span data-ttu-id="78843-112">**오류 검색 간격(초)** 기본 등록자가 실패한 것으로 결정되기 전에 경과해야 하는 시간(초)을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="78843-112">**Failure detection interval (sec)** Type the number of seconds that should elapse before it is determined that the primary Registrar has failed.</span></span> <span data-ttu-id="78843-113">기본값은 120초입니다.</span><span class="sxs-lookup"><span data-stu-id="78843-113">The default value is 120 seconds.</span></span> <span data-ttu-id="78843-114">장애 조치(failover) 및 장애 **조치(Failback) 사용(Failback)을** 선택하는 경우 이 필드가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="78843-114">This field is required if you select **Enable Failover and Failback**.</span></span>
     
-- <span data-ttu-id="8a8c8-115">**대체 검색 간격 (초)** 기본 등록자를 백업 하는 것으로 확인 되기까지 경과 되는 시간을 초 단위로 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-115">**Fallback detection interval (sec)** Type the number of seconds that should elapse before it is determined that the primary Registrar is backed up.</span></span> <span data-ttu-id="8a8c8-116">기본값은 240 초입니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-116">The default value is 240 seconds.</span></span> <span data-ttu-id="8a8c8-117">**장애 조치 및 대체 사용을**선택 하는 경우이 필드가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-117">This field is required if you select **Enable Failover and Fallback**.</span></span>
+- <span data-ttu-id="78843-115">**폴백 검색 간격(초)** 기본 등록자가 백업된 것으로 결정되기 전에 경과해야 하는 시간(초)을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="78843-115">**Fallback detection interval (sec)** Type the number of seconds that should elapse before it is determined that the primary Registrar is backed up.</span></span> <span data-ttu-id="78843-116">기본값은 240초입니다.</span><span class="sxs-lookup"><span data-stu-id="78843-116">The default value is 240 seconds.</span></span> <span data-ttu-id="78843-117">장애 조치(Failover) 및 Fallback 사용(Fallback)을 선택하는 경우 이 **필드가 필요합니다.**</span><span class="sxs-lookup"><span data-stu-id="78843-117">This field is required if you select **Enable Failover and Fallback**.</span></span>
     
 > [!IMPORTANT]
-> <span data-ttu-id="8a8c8-118">실패 검색 간격과 대체 검색 간격을 정의 하는 경우, 등록 자가 짧은 시간 동안 응답 하지 못하는 경우 장애 조치 및 fallback이 발생 하는 간격을 입력 하지 않도록 주의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-118">When you define the failure detection interval and the fallback detection interval, be careful not to enter an interval that will cause the failover and fallback to occur if the Registrar fails to respond for a short period of time.</span></span> <span data-ttu-id="8a8c8-119">기본 등록 자가 풀 또는 서버의 로드에 따라 짧은 시간 동안 응답 하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8a8c8-119">It is possible that the primary Registrar may not respond for short periods of time based on the loading of the pool or servers.</span></span> 
+> <span data-ttu-id="78843-p105">실패 검색 및 대체 검색 간격을 정의할 경우, 등록자가 잠깐 동안 응답하지 않을 때 장애 조치(failover) 및 대체가 발생하지 않도록 충분한 간격을 입력해야 합니다. 풀이나 서버를 로드하는 시간에 따라 기본 등록자가 잠깐 동안 응답하지 않을 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="78843-p105">When you define the failure detection interval and the fallback detection interval, be careful not to enter an interval that will cause the failover and fallback to occur if the Registrar fails to respond for a short period of time. It is possible that the primary Registrar may not respond for short periods of time based on the loading of the pool or servers.</span></span> 
   
 
