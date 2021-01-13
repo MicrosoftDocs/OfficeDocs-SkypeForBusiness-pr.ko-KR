@@ -1,8 +1,8 @@
 ---
 title: 레거시 병합 확장된 에지 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
-description: 비즈니스용 Skype 서버에서는 레거시 Office Communications Server 2007 R2 확장에 지 서버 구성의 병합을 지원 하지 않습니다. 에지 서버 정보를 병합하기 전에 먼저 확장 에지 서버를 통합 에지 서버 구성으로 변환해야 합니다.
-ms.openlocfilehash: d827bb766b139e420bfea933dbb1721d38a04e4d
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 비즈니스용 Skype 서버는 레거시 Office Communications Server 2007 R2 확장 에지 서버 구성의 전달을 지원하지 않습니다. 에지 서버 정보를 병합하기 전에 먼저 확장 에지 서버를 통합 에지 서버 구성으로 변환해야 합니다.
+ms.openlocfilehash: 48f42fd211e190791027322b688bfde19d35a94e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215319"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806888"
 ---
-# <a name="legacy-merge-add-expanded-edge"></a><span data-ttu-id="90cd9-104">레거시 병합 확장된 에지 추가</span><span class="sxs-lookup"><span data-stu-id="90cd9-104">Legacy Merge Add Expanded Edge</span></span>
+# <a name="legacy-merge-add-expanded-edge"></a><span data-ttu-id="2550e-104">레거시 병합 확장된 에지 추가</span><span class="sxs-lookup"><span data-stu-id="2550e-104">Legacy Merge Add Expanded Edge</span></span>
  
-<span data-ttu-id="90cd9-105">비즈니스용 Skype 서버에서는 레거시 Office Communications Server 2007 R2 확장에 지 서버 구성의 병합을 지원 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="90cd9-105">Skype for Business Server does not support merging a legacy Office Communications Server 2007 R2 expanded Edge Server configuration.</span></span> <span data-ttu-id="90cd9-106">에지 서버 정보를 병합하기 전에 먼저 확장 에지 서버를 통합 에지 서버 구성으로 변환해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="90cd9-106">The expanded Edge Server must first be converted to a consolidated Edge Server configuration prior to merging the Edge Server information.</span></span> 
+<span data-ttu-id="2550e-105">비즈니스용 Skype 서버는 레거시 Office Communications Server 2007 R2 확장 에지 서버 구성의 전달을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="2550e-105">Skype for Business Server does not support merging a legacy Office Communications Server 2007 R2 expanded Edge Server configuration.</span></span> <span data-ttu-id="2550e-106">에지 서버 정보를 병합하기 전에 먼저 확장 에지 서버를 통합 에지 서버 구성으로 변환해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2550e-106">The expanded Edge Server must first be converted to a consolidated Edge Server configuration prior to merging the Edge Server information.</span></span> 
   
 

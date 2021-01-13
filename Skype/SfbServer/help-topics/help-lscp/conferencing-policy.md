@@ -1,8 +1,8 @@
 ---
 title: 회의 정책
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,69 +14,69 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
-description: 회의 정책은 회의 중에 사용자가 사용할 수 있는 기능 (모임이 라고도 함)을 정의 합니다.
-ms.openlocfilehash: 7ff058057300dfa21013f3f6bf3784ab64d5032f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 회의 정책은 사용자가 회의(모임이라고도 함) 중에 사용할 수 있는 기능을 정의합니다.
+ms.openlocfilehash: a7b85fc8aa4365f3431e9aa3a7a9849c5d9e22c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823031"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807398"
 ---
-# <a name="conferencing-policy"></a><span data-ttu-id="4a6dc-103">회의 정책</span><span class="sxs-lookup"><span data-stu-id="4a6dc-103">Conferencing Policy</span></span>
+# <a name="conferencing-policy"></a><span data-ttu-id="58d05-103">회의 정책</span><span class="sxs-lookup"><span data-stu-id="58d05-103">Conferencing Policy</span></span>
 
-<span data-ttu-id="4a6dc-104">회의 정책은 회의 중에 사용자가 사용할 수 있는 기능 (모임이 라고도 함)을 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-104">Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting).</span></span>
+<span data-ttu-id="58d05-104">회의 정책은 사용자가 회의(모임이라고도 함) 중에 사용할 수 있는 기능을 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-104">Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting).</span></span>
 
-<span data-ttu-id="4a6dc-105">회의 정책에는 전역 정책, 선택적으로 하나 이상의 사이트 및 사용자 정책이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-105">Conferencing policies include the global policy and, optionally, one or more site and user policies:</span></span>
+<span data-ttu-id="58d05-105">회의 정책에는 전역 정책과 하나 이상의 사이트 및 사용자 정책(선택 사항)이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-105">Conferencing policies include the global policy and, optionally, one or more site and user policies:</span></span>
 
-- <span data-ttu-id="4a6dc-106">**글로벌 정책:** 전역 정책은 기본적으로 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-106">**Global policy:** The global policy is created by default.</span></span> <span data-ttu-id="4a6dc-107">전역 정책을 편집할 수는 있지만 삭제할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-107">You can edit the global policy, but you cannot delete it.</span></span> <span data-ttu-id="4a6dc-108">전역 정책을 제거하려고 하면 모든 설정이 기본값으로 다시 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-108">If you try to remove the global policy, all the settings are reset to the default values.</span></span>
+- <span data-ttu-id="58d05-106">**글로벌 정책:** 전역 정책은 기본적으로 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-106">**Global policy:** The global policy is created by default.</span></span> <span data-ttu-id="58d05-107">글로벌 정책을 편집할 수는 있지만 삭제할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-107">You can edit the global policy, but you cannot delete it.</span></span> <span data-ttu-id="58d05-108">글로벌 정책을 제거하려고 하면 모든 설정이 기본값으로 다시 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-108">If you try to remove the global policy, all the settings are reset to the default values.</span></span>
 
-- <span data-ttu-id="4a6dc-109">**사이트 정책 (선택 사항):** 특정 사이트에 적용 되는 하나 이상의 사이트 회의 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-109">**Site policies (optional):** You can create one or more site conferencing policies, each of which applies to a specific site.</span></span> <span data-ttu-id="4a6dc-110">사이트 정책은 전역 정책에 우선합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-110">Site policies override the global policy.</span></span>
+- <span data-ttu-id="58d05-109">**사이트 정책(선택 사항):** 하나 이상의 사이트 회의 정책을 만들 수 있습니다. 각 정책은 특정 사이트에 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-109">**Site policies (optional):** You can create one or more site conferencing policies, each of which applies to a specific site.</span></span> <span data-ttu-id="58d05-110">사이트 정책은 글로벌 정책을 재정의합니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-110">Site policies override the global policy.</span></span>
 
-- <span data-ttu-id="4a6dc-111">**사용자 정책 (선택 사항):** 특정 사용자 또는 사용자 그룹에 적용 되는 하나 이상의 사용자 회의 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-111">**User policies (optional):** You can create one or more user conferencing policies, each of which applies to a specific user or group of users.</span></span> <span data-ttu-id="4a6dc-112">사용자 정책은 전역 정책 및 사이트 정책에 우선합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-112">User policies override the global policy and site policies.</span></span>
+- <span data-ttu-id="58d05-111">**사용자 정책(선택 사항):** 하나 이상의 사용자 회의 정책을 만들 수 있습니다. 각 정책은 특정 사용자 또는 사용자 그룹에 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-111">**User policies (optional):** You can create one or more user conferencing policies, each of which applies to a specific user or group of users.</span></span> <span data-ttu-id="58d05-112">사용자 정책은 글로벌 정책 및 사이트 정책을 재정의합니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-112">User policies override the global policy and site policies.</span></span>
 
-<span data-ttu-id="4a6dc-113">**회의 정책** 페이지에는 조직에 대해 정의 된 모든 회의 정책의 목록이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-113">The **Conferencing Policy** page displays a list of all the conferencing policies that are defined for your organization.</span></span>
+<span data-ttu-id="58d05-113">회의 **정책 페이지에는** 조직에 대해 정의된 모든 회의 정책 목록이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-113">The **Conferencing Policy** page displays a list of all the conferencing policies that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="4a6dc-114">수행할 수 있는 작업</span><span class="sxs-lookup"><span data-stu-id="4a6dc-114">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="58d05-114">수행할 수 있는 작업</span><span class="sxs-lookup"><span data-stu-id="58d05-114">Tasks you can perform</span></span>
 
-<span data-ttu-id="4a6dc-115">**위치 정책** 페이지에서는 다음 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-115">You can perform the following tasks from the **Location Policy** page:</span></span>
+<span data-ttu-id="58d05-115">**위치 정책** 페이지에서는 다음 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-115">You can perform the following tasks from the **Location Policy** page:</span></span>
 
-- <span data-ttu-id="4a6dc-116">새 사이트 회의 정책 또는 사용자 회의 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="4a6dc-116">Create a new site conferencing policy or user conferencing policy</span></span>
+- <span data-ttu-id="58d05-116">새 사이트 회의 정책 또는 사용자 회의 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="58d05-116">Create a new site conferencing policy or user conferencing policy</span></span>
 
-- <span data-ttu-id="4a6dc-117">전역 정책 또는 기존 사이트 정책/사용자 정책 변경</span><span class="sxs-lookup"><span data-stu-id="4a6dc-117">Change the global policy or an existing site policy or user policy</span></span>
+- <span data-ttu-id="58d05-117">글로벌 정책 또는 기존 사이트 정책/사용자 정책 변경</span><span class="sxs-lookup"><span data-stu-id="58d05-117">Change the global policy or an existing site policy or user policy</span></span>
 
-- <span data-ttu-id="4a6dc-118">사이트 정책 또는 사용자 정책 삭제</span><span class="sxs-lookup"><span data-stu-id="4a6dc-118">Delete a site policy or user policy</span></span>
+- <span data-ttu-id="58d05-118">사이트 정책 또는 사용자 정책 삭제</span><span class="sxs-lookup"><span data-stu-id="58d05-118">Delete a site policy or user policy</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="4a6dc-119">UI 참조</span><span class="sxs-lookup"><span data-stu-id="4a6dc-119">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="58d05-119">UI 참조</span><span class="sxs-lookup"><span data-stu-id="58d05-119">UI Reference</span></span>
 
-<span data-ttu-id="4a6dc-120">다음 목록에서는 페이지의 명령에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-120">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="58d05-120">다음 목록에서는 페이지의 명령에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-120">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="4a6dc-121">**새로운** 새 사이트 회의 정책 또는 사용자 회의 정책을 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-121">**New** Starts a new site conferencing policy or user conferencing policy.</span></span>
+- <span data-ttu-id="58d05-121">**신규** 새 사이트 회의 정책 또는 사용자 회의 정책을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-121">**New** Starts a new site conferencing policy or user conferencing policy.</span></span>
 
-- <span data-ttu-id="4a6dc-122">**편집** 선택한 회의 정책을 열어 편집 하거나 목록에서 모든 회의 정책을 선택 하거나 선택한 사이트 정책 또는 사용자 정책을 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-122">**Edit** Opens the selected conferencing policy to edit it, selects all conferencing policies in the list, or deletes the selected site policy or user policy.</span></span>
+- <span data-ttu-id="58d05-122">**편집** 선택한 회의 정책을 열어 편집하거나, 목록의 모든 회의 정책을 선택하거나, 선택한 사이트 정책 또는 사용자 정책을 삭제합니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-122">**Edit** Opens the selected conferencing policy to edit it, selects all conferencing policies in the list, or deletes the selected site policy or user policy.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="4a6dc-123">전역 정책의 경우 **삭제**를 클릭하면 설정이 기본값으로 다시 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-123">For the global policy, **Delete** resets the settings to the default values.</span></span>
+    > <span data-ttu-id="58d05-123">글로벌 정책의 경우 **삭제** 를 클릭하면 설정이 기본값으로 다시 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-123">For the global policy, **Delete** resets the settings to the default values.</span></span>
 
-- <span data-ttu-id="4a6dc-124">**새로 고침** 회의 정책 목록을 새로 고칩니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-124">**Refresh** Refreshes the list of conferencing policies.</span></span>
+- <span data-ttu-id="58d05-124">**새로 고침** 회의 정책 목록을 새로 고침합니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-124">**Refresh** Refreshes the list of conferencing policies.</span></span>
 
-<span data-ttu-id="4a6dc-125">다음 목록에서는 페이지의 필드에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-125">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="58d05-125">다음 목록에서는 페이지의 필드에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-125">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="4a6dc-126">**이름** 회의 정책을 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-126">**Name** Identifies the conferencing policy.</span></span>
+- <span data-ttu-id="58d05-126">**이름** 회의 정책을 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-126">**Name** Identifies the conferencing policy.</span></span>
 
-- <span data-ttu-id="4a6dc-127">**범위** 회의 정책의 범위 (전역, 사이트 또는 사용자)를 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-127">**Scope** Identifies the scope of the conferencing policy: global, site, or user.</span></span>
+- <span data-ttu-id="58d05-127">**범위** 회의 정책의 범위(전역, 사이트 또는 사용자)를 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-127">**Scope** Identifies the scope of the conferencing policy: global, site, or user.</span></span>
 
-- <span data-ttu-id="4a6dc-128">**데이터 공동 작업** 회의 정책이 회의에 데이터 공동 작업을 허용 하도록 지정 되었는지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-128">**Data collaboration** Checked if the conferencing policy specifies that data collaboration is allowed in conferences.</span></span>
+- <span data-ttu-id="58d05-128">**데이터 공동 작업** 회의 정책이 회의에서 데이터 공동 작업을 허용하도록 지정하는지 확인됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-128">**Data collaboration** Checked if the conferencing policy specifies that data collaboration is allowed in conferences.</span></span>
 
-- <span data-ttu-id="4a6dc-129">**응용 프로그램 공유** 회의 정책에 의해 회의에 응용 프로그램 공유가 허용 되는지 여부를 확인 했습니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-129">**Application sharing** Checked if the conferencing policy specifies that application sharing is allowed in conferences.</span></span>
+- <span data-ttu-id="58d05-129">**응용 프로그램 공유** 회의 정책이 회의에서 응용 프로그램 공유를 허용하도록 지정하는지 확인됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-129">**Application sharing** Checked if the conferencing policy specifies that application sharing is allowed in conferences.</span></span>
 
-- <span data-ttu-id="4a6dc-130">**오디오** 회의 정책이 오디오 회의에 허용 되는 것으로 지정 되었는지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-130">**Audio** Checked if the conferencing policy specifies that audio is allowed in conferences.</span></span>
+- <span data-ttu-id="58d05-130">**오디오** 회의 정책이 회의에서 오디오를 허용하도록 지정하는지 확인됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-130">**Audio** Checked if the conferencing policy specifies that audio is allowed in conferences.</span></span>
 
-- <span data-ttu-id="4a6dc-131">**영상** 회의 정책이 회의에서 비디오를 허용 하도록 지정 되었는지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-131">**Video** Checked if the conferencing policy specifies that video is allowed in conferences.</span></span>
+- <span data-ttu-id="58d05-131">**비디오** 회의 정책이 회의에서 비디오를 허용하도록 지정하는지 확인됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-131">**Video** Checked if the conferencing policy specifies that video is allowed in conferences.</span></span>
 
-- <span data-ttu-id="4a6dc-132">**PSTN** 회의 정책에서 PSTN 전화 접속 회의를 허용 하는지 여부를 확인 했습니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-132">**PSTN** Checked if the conferencing policy specifies that PSTN dial-in conferencing is allowed.</span></span>
+- <span data-ttu-id="58d05-132">**PSTN** 회의 정책이 PSTN 전화 접속 회의를 허용하도록 지정하는지 확인됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-132">**PSTN** Checked if the conferencing policy specifies that PSTN dial-in conferencing is allowed.</span></span>
 
-- <span data-ttu-id="4a6dc-133">**기록** 중 회의 정책에서 녹음/녹화가 회의에 허용 되는 것으로 지정 되는지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-133">**Recording** Checked if the conferencing policy specifies that recording is allowed in conferences.</span></span>
+- <span data-ttu-id="58d05-133">**기록** 회의 정책이 회의에서 녹음/녹화를 허용하도록 지정하는지 확인됩니다.</span><span class="sxs-lookup"><span data-stu-id="58d05-133">**Recording** Checked if the conferencing policy specifies that recording is allowed in conferences.</span></span>
 
-<span data-ttu-id="4a6dc-p104">회의 기능에 대한 자세한 내용은 계획 설명서의 [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx)를 참조하세요. 회의 정책 사용에 대한 자세한 내용은 작업 설명서의 [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="4a6dc-p104">For details about conferencing features and capabilities, see [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) in the Planning documentation. For details about working with conferencing policies, see [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="58d05-134">회의 기능에 대한 자세한 내용은 계획 설명서에서 회의 [개요를](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="58d05-134">For details about conferencing features and capabilities, see [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) in the Planning documentation.</span></span> <span data-ttu-id="58d05-135">회의 정책 작업에 대한 자세한 내용은 작업 설명서에서 [회의](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) 정책을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="58d05-135">For details about working with conferencing policies, see [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) in the Operations documentation.</span></span>
 
 
