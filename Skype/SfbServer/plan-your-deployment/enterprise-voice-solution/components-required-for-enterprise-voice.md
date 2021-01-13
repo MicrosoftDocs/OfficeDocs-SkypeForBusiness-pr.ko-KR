@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버에서 엔터프라이즈 음성에 필요한 구성 요소
+title: 비즈니스용 Skype Enterprise Voice 구성 요소
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,32 +15,32 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
-description: 비즈니스용 Skype 서버의 엔터프라이즈 음성 구성 요소 요약
-ms.openlocfilehash: a2e32e2301a404afd06038d438fbb62a13235d65
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 비즈니스용 Skype Enterprise Voice 구성 요소에 대한 요약입니다.
+ms.openlocfilehash: 1a7f13cc171af44ecbd0f48706ec12d882e50b33
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803108"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825828"
 ---
-# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 엔터프라이즈 음성에 필요한 구성 요소
+# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>비즈니스용 Skype Enterprise Voice 구성 요소
  
-비즈니스용 Skype 서버의 엔터프라이즈 음성 구성 요소 요약
+비즈니스용 Skype Enterprise Voice 구성 요소에 대한 요약입니다.
   
-엔터프라이즈 음성을 배포 하려면 토폴로지에 다음 구성 요소가 필요 합니다. 
+토폴로지에서 Enterprise Voice 구성 요소를 배포하려면 다음 구성 요소가 필요합니다. 
   
-- 신호를 변환 하는 하나 이상의 중재 서버, 일부 구성에서 내부 비즈니스용 Skype 서버 간 미디어, 엔터프라이즈 음성 인프라 및 PSTN (공개 교환 전화 네트워크) 게이트웨이 또는 세션 초기화 프로토콜 (SIP) 트렁크. 중재 서버는 엔터프라이즈 음성 배포에서 가장 중요 한 구성 요소입니다. 자세한 내용은 [비즈니스용 Skype 서버에서 중재 서버 구성 요소](mediation-server.md)조정을 참조 하세요.
+- 신호 및 일부 구성에서 내부 비즈니스용 Skype 서버, Enterprise Voice 인프라 및 PSTN(Public Switched Telephone Network) 게이트웨이 또는 SIP(Session Initiation Protocol) 트렁크 간의 미디어를 변환하는 하나 이상의 중재 서버. 중재 서버는 배포에서 가장 Enterprise Voice 구성 요소입니다. 자세한 내용은 비즈니스용 Skype 서버의 중재 서버 구성 요소를 [참조하세요.](mediation-server.md)
     
-    중재 서버는 프런트 엔드 서버와 collocated 또는 독립 실행형 서버로 설치 될 수 있습니다.
+    중재 서버는 프런트 엔드 서버와 함께 함께 설치하거나 독립 실행형 서버로 설치할 수 있습니다.
     
-- PSTN 연결 구성 요소-SIP trunks 또는 PSTN 게이트웨이를 포함할 수 있습니다. 자세한 내용은 [비즈니스용 Skype 서버의 PSTN 연결 구성 요소](pstn-connectivity.md)를 참조 하세요.
+- SIP 트렁크 또는 PSTN 게이트웨이를 포함할 수 있는 PSTN 연결 구성 요소 자세한 내용은 비즈니스용 [Skype 서버의 PSTN 연결 구성 요소를 참조하세요.](pstn-connectivity.md)
     
-- Edge 서버-사용자가 조직의 방화벽 외부에 있을 때 Enterprise Voice 기능을 사용할 수 있도록 합니다. 
+- 에지 서버 - 사용자가 조직의 방화벽 외부에 있는 Enterprise Voice 기능을 사용할 수 있도록 합니다. 
     
-    액세스에 지 서비스는 조직의 방화벽 외부에 있는 비즈니스용 Skype 사용자의 통화에 대 한 SIP 신호를 제공 합니다. A/V Edge 서비스는 NAT와 방화벽의 미디어 이동을 사용 하도록 설정 합니다. 회사 방화벽 외부에서 통합 커뮤니케이션 (UC) 클라이언트를 사용 하는 발신자는 개인 및 전화 회의 둘 다에 대 한 A/V에 지 서비스에 의존 합니다.
+    액세스 에지 서비스는 조직의 방화벽 외부에 있는 비즈니스용 Skype 사용자의 통화에 대한 SIP 신호를 제공합니다. A/V 에지 서비스를 사용하면 미디어가 NAT 및 방화벽을 트래버스할 수 있습니다. 회사 방화벽 외부에서 UC(통합 통신) 클라이언트를 사용하는 발신자는 개인적인 통화와 전화 회의 모두에 A/V 에지 서비스를 사용합니다.
     
-    A/V 인증 서비스는 A/v에 대 한 인증 서비스를 제공 하는 collocated와 함께 지원 됩니다. A/V Edge 서비스에 연결 하려고 하는 외부 사용자는 해당 통화를 통과할 수 있도록 A/V 인증 서비스에서 제공 하는 인증 토큰이 필요 합니다.
+    A/V 에지 서비스와 함께 A/V 인증 서비스가 배치되어 인증 서비스를 제공합니다. A/V 에지 서비스에 연결하려는 외부 사용자는 A/V 인증 서비스에서 제공한 인증 토큰이 있어야 통화할 수 있습니다.
     
-- 또한 일부 엔터프라이즈 음성 구성 요소는 프런트 엔드 서버에서 실행 됩니다. 이러한 구성 요소에 대 한 자세한 내용은 [비즈니스용 Skype 서버에 대 한 프런트 엔드 서버 VoIP 구성 요소](front-end-server-voip.md) 를 참조 하세요.
+- 또한 일부 Enterprise Voice 구성 요소는 프런트 엔드 서버에서 실행됩니다. 이러한 구성 요소에 대한 자세한 내용은 비즈니스용 Skype 서버의 프런트 엔드 서버 VoIP 구성 요소를 [참조하세요.](front-end-server-voip.md)
     
 

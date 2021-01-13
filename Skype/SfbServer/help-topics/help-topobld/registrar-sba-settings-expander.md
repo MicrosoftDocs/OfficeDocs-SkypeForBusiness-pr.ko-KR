@@ -1,8 +1,8 @@
 ---
 title: 등록자 SBA 설정 확장기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 탄성에 대한 설정을 편집하고 다음 속성을 구성합니다.
-ms.openlocfilehash: 6424b43ea7c56760bb8d58ee35d9804c49c435dd
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e85bc8fd1ff3beb745fa494db6e77b5ca6d407a5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217219"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823578"
 ---
 # <a name="registrar-sba-settings-expander"></a>등록자 SBA 설정 확장기
 
-**탄성**에 대한 설정을 편집하고 다음 속성을 구성합니다.
+**탄성** 에 대한 설정을 편집하고 다음 속성을 구성합니다.
 
-- 목록에서 **연결 된 사용자 서비스 및 백업 등록자 풀** 을 선택 합니다.
+- 목록에서 연결된 사용자 서비스 및 **백업 등록자 풀을** 선택합니다.
 
     원하는 경우 **자동 음성 장애 조치(failover) 및 장애 복구(failback)** 확인란을 선택합니다.
 

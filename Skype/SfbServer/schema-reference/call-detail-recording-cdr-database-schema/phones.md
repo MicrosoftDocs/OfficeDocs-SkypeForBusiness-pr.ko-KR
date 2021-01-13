@@ -1,8 +1,8 @@
 ---
 title: Phones 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
-description: 전화 테이블은 지원 테이블입니다. 표의 각 레코드에는 데이터베이스의 레코드를 포함 하는 VoIP 통화와 관련 된 하나의 전화 번호에 대 한 정보가 저장 됩니다.
-ms.openlocfilehash: 3a78d2aba302041ce7db6e904e20f18fe71aa631
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Phones 테이블은 지원 테이블입니다. 테이블의 각 레코드에는 데이터베이스에 레코드가 있는 VoIP 호출에 관련된 하나의 전화 번호에 대한 정보가 저장됩니다.
+ms.openlocfilehash: 12825423b9a03bff93e0d70705a4083bb8c881c9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815006"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823268"
 ---
 # <a name="phones-table"></a>Phones 테이블
  
-전화 테이블은 지원 테이블입니다. 표의 각 레코드에는 데이터베이스의 레코드를 포함 하는 VoIP 통화와 관련 된 하나의 전화 번호에 대 한 정보가 저장 됩니다.
+Phones 테이블은 지원 테이블입니다. 테이블의 각 레코드에는 데이터베이스에 레코드가 있는 VoIP 호출에 관련된 하나의 전화 번호에 대한 정보가 저장됩니다.
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**PhoneId** <br/> |int  <br/> |주요한  <br/> |이 전화를 식별 하는 고유 번호입니다.  <br/> |
-|**PhoneUri** <br/> |nvarchar (450)  <br/> | <br/> |전화 번호입니다.  <br/> |
-|**NextUpdateTS** <br/> |Dmtf  <br/> ||타임 스탬프 (내부용).  <br/> 이 필드는 Microsoft Lync Server 2013에서 도입 되었습니다.  <br/> |
+|**PhoneId** <br/> |int  <br/> |Primary  <br/> |이 전화를 식별하는 고유 번호입니다.  <br/> |
+|**PhoneUri** <br/> |nvarchar(450)  <br/> | <br/> |전화 번호입니다.  <br/> |
+|**NextUpdateTS** <br/> |dateTime  <br/> ||타임스탬프(내부 전용)  <br/> 이 필드는 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
    
 

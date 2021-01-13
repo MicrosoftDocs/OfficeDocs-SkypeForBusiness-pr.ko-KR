@@ -1,8 +1,8 @@
 ---
 title: Office Communications 서버 범위 노드
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
-description: 이 내용은 예비 설명서 이며 변경 될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
-ms.openlocfilehash: feed152cb42bece0abffd62d781a10836109475e
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 이 문서는 초안 설명서로 제공될 수 있으며 변경될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
+ms.openlocfilehash: 3b3d25559e280187a2b6931323434485436abaa0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215579"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823918"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications 서버 범위 노드
 
-이 내용은 예비 설명서 이며 변경 될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
+이 문서는 초안 설명서로 제공될 수 있으며 변경될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
 
-**Office Communications Server 2007 R2** 를 클릭 하 여 노드 아래의 섹션을 확장 하거나, 마우스 오른쪽 단추를 클릭 하 여 **토폴로지** 옵션에 액세스 하거나,이 **도움말** 페이지에 액세스 합니다.
+Office **Communications Server 2007 R2를** 클릭하여 노드 아래의 섹션을 확장하거나  마우스 오른쪽 단추를 클릭하여 토폴로지 옵션에 액세스하거나 이 도움말 페이지에 **액세스합니다.**
 
 ## <a name="see-also"></a>참고 항목
 

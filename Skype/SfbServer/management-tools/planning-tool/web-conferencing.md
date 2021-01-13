@@ -1,8 +1,8 @@
 ---
-title: 웹 회의 (계획 도구)
+title: 웹 회의(계획 도구)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -13,26 +13,26 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-description: 비즈니스용 Skype 서버 2015 웹 회의에는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유가 포함 되어 있습니다.
-ms.openlocfilehash: 714a2462cc722ef4e90aea1772cd0bd3ffe3894b
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 비즈니스용 Skype 서버 2015 웹 회의에는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유가 포함됩니다.
+ms.openlocfilehash: d763f8319b7fc1e30bfc9860da1f451ca668248d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216689"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823258"
 ---
-# <a name="web-conferencing-planning-tool"></a>웹 회의 (계획 도구)
+# <a name="web-conferencing-planning-tool"></a>웹 회의(계획 도구)
  
-비즈니스용 Skype 서버 2015 웹 회의에는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유가 포함 되어 있습니다.
+비즈니스용 Skype 서버 2015 웹 회의에는 문서 공동 작업, 응용 프로그램 공유 및 데스크톱 공유가 포함됩니다.
   
 > [!NOTE]
-> 비즈니스용 Skype 서버 2015 Office Web Apps 및 Office Web Apps 서버를 사용 하 여 PowerPoint 프레젠테이션의 공유 및 렌더링을 처리 합니다. 웹 회의 기능은 Microsoft Lync 2013에서와 동일 하 게 작동 합니다. Office Web Apps 서버를 설치 및 구성 하는 방법에 대 한 자세한 내용은 [Office Web Apps 서버 및 Lync server 2013의 통합 구성을](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx)참조 하세요. 
+> 비즈니스용 Skype 서버 2015에서는 Office Web Apps 및 Office Web Apps 서버를 사용하여 PowerPoint 프레젠테이션의 공유 및 렌더링을 처리합니다. 웹 회의 기능은 Microsoft Lync 2013에서와 정확히 동일하게 기능합니다. Office Web Apps 서버 설치 및 구성에 대한 자세한 내용은 Office Web Apps 서버 및 [Lync Server 2013과의](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx)통합 구성을 참조하세요. 
   
-조직에서 웹 회의를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 다음 항목을 참조 하십시오. 
+조직에서 웹 회의를 사용하도록 설정하는 방법을 계획하는 자세한 내용은 다음 항목을 참조하십시오. 
   
 - [비즈니스용 Skype 서버 2015의 회의 계획](../../plan-your-deployment/conferencing/conferencing.md)
     
-- [비즈니스용 Skype 서버 2015의 회의에 대 한 하드웨어 및 소프트웨어 요구 사항](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [비즈니스용 Skype 서버 2015의 회의에 대한 하드웨어 및 소프트웨어 요구 사항](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
 - [비즈니스용 Skype 서버 2015의 전화 접속 회의 계획](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     

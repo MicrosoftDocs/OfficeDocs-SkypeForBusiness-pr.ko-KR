@@ -1,8 +1,8 @@
 ---
 title: PSTN 게이트웨이 설정 확장기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: 공중 전화망(PSTN) 게이트웨이의 설정을 편집하거나 수정하려면 다음 필드를 수정합니다.
-ms.openlocfilehash: 10669d4355acc8d2ea1a8546275116660c1ac7a7
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 56f26a4113841b7563e42180aa51a80eedb2f859
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216589"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823728"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN 게이트웨이 설정 확장기
  
@@ -32,6 +32,6 @@ SIP 전송 프로토콜은 TCP(Transmission Control Protocol) 또는 TLS(전송 
   
 게이트웨이에 대해 IPv4 및 IPv6을 사용하도록 설정할지를 선택합니다.
   
-**대체 미디어 IP 주소**는 배포된 PSTN 게이트웨이에서 일반적으로 SIP 트래픽 전용인 기본값으로 구성된 IP 주소와 다른 IP 주소를 미디어 트래픽에 사용하는 중재 서버에 대한 정의입니다. 이 매개 변수를 정의하면 PSTN 게이트웨이에서 미디어에 대해 다른 네트워크 인터페이스 또는 경로를 지원합니다. 이 주소를 비워 두면 PSTN 게이트웨이에서 미디어에 대해 대체 경로를 지원하지 않습니다.
+**대체 미디어 IP 주소** 는 배포된 PSTN 게이트웨이에서 일반적으로 SIP 트래픽 전용인 기본값으로 구성된 IP 주소와 다른 IP 주소를 미디어 트래픽에 사용하는 중재 서버에 대한 정의입니다. 이 매개 변수를 정의하면 PSTN 게이트웨이에서 미디어에 대해 다른 네트워크 인터페이스 또는 경로를 지원합니다. 이 주소를 비워 두면 PSTN 게이트웨이에서 미디어에 대해 대체 경로를 지원하지 않습니다.
   
 

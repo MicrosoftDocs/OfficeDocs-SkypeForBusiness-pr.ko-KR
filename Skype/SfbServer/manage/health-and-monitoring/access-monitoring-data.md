@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버의 데이터 모니터링에 액세스
+title: 비즈니스용 Skype 서버에서 모니터링 데이터에 액세스
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,24 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
-description: '요약: 비즈니스용 Skype 서버에서 사용 되는 모니터링 데이터에 대해 알아봅니다.'
-ms.openlocfilehash: b4eca36a09c4aa56b7216b476e0f0c5fa06d7a45
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 비즈니스용 Skype 서버에서 사용되는 모니터링 데이터에 대해 자세히 알아보습니다.'
+ms.openlocfilehash: deff5dc5c21437cd89282578d2bf3f546f444f94
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818189"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826548"
 ---
-# <a name="access-monitoring-data-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 데이터 모니터링에 액세스
+# <a name="access-monitoring-data-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모니터링 데이터에 액세스
  
-**요약:** 비즈니스용 Skype 서버에서 사용 되는 모니터링 데이터에 대해 알아봅니다.
+**요약:** 비즈니스용 Skype 서버에서 사용되는 모니터링 데이터에 대해 자세히 알아보습니다.
   
-모니터링 데이터는 SQL Server 데이터베이스 쌍 (LcsCdr)에 저장 되며, 통화 세부 정보를 기록 하 고 QoEMetrics 데이터에 대 한 품질을 제공할 수 있습니다. 이러한 두 데이터베이스에 대 한 특별 한 것이 없습니다. 즉, SQL Server 데이터에 액세스 하 고 분석 하는 데 일반적으로 사용 하는 도구를 사용 하 여 해당 데이터베이스에 저장 된 데이터에 액세스할 수 있습니다.
+모니터링 데이터는 SQL Server 데이터베이스 쌍에 저장됩니다. 이러한 데이터베이스 쌍은 통화 정보 기록 데이터를 위한 LcsCdr과 체감 품질 데이터를 위한 QoEMetrics입니다. 이러한 두 데이터베이스는 특별한 사항이 없습니다. 즉, 이러한 데이터베이스에 저장되는 데이터는 일반적으로 SQL Server 데이터를 액세스하고 분석하는 데 사용되는 도구를 통해 액세스할 수 있습니다.
   
-모니터링 데이터에 액세스 하 고 분석 하기 위해 고려해 야 할 도구 중 하나는 비즈니스용 Skype 서버 모니터링 보고서입니다. 모니터링 보고서는 Microsoft SQL Server Reporting 서비스에 의해 게시 되는 표준 보고서 집합입니다. 웹 브라우저를 사용 하 여 액세스할 수 있는 이러한 보고서에는 CDR 및 체감 품질 데이터베이스에 저장 된 CDR (통화 정보 기록) 및 체감 품질 (사용 품질) 레코드를 기준으로 하는 사용량, 호출 진단 정보 및 미디어 품질 정보가 제공 됩니다. 모니터링 보고서는 비즈니스용 skype 서버와 함께 제공 되며, 비즈니스용 skype server를 설치 하 고 모니터링을 구성한 후 비즈니스용 Skype 서버 배포 마법사에서 설치할 수 있습니다.
+모니터링 데이터에 액세스하고 분석할 때 고려해야 하는 도구 중 하나는 비즈니스용 Skype 서버 모니터링 보고서입니다. 모니터링 보고서는 Microsoft SQL Server Reporting Services에서 게시되는 표준 보고서 집합입니다. 웹 브라우저를 통해 액세스할 수 있는 이러한 보고서는 모두 CDR 및 QoE 데이터베이스에 저장된 CDR(통화 정보 기록) 및 QoE(체감 품질) 레코드를 기반으로 사용, 통화 진단 정보 및 미디어 품질 정보를 제공합니다. 모니터링 보고서는 비즈니스용 Skype 서버와 함께 발송되고 비즈니스용 Skype 서버가 설치되고 모니터링이 구성된 후 비즈니스용 Skype 서버 배포 마법사에서 설치할 수 있습니다.
   
-참고로, 모니터링 보고서에는 SQL Server Reporting Service를 사용 해야 합니다. Sql server Reporting Service는 sql Server를 설치할 때와 동시에 설치 하거나 SQL Server 자체 설치 후 언제 든 설치할 수 있습니다.
+위에서 설명한 것처럼 모니터링 보고서를 위해서는 SQL Server Reporting Services를 사용해야 합니다. SQL Server Reporting Services는 SQL Server를 설치할 때 동시에 설치하거나 SQL Server 자체를 설치한 후 언제라도 설치할 수 있습니다.
   
-자세한 내용은 [비즈니스용 Skype 서버의 모니터링 보고서 설치](../../deploy/deploy-monitoring/install-monitoring-reports.md)항목을 참조 하세요.
+자세한 내용은 비즈니스용 [Skype 서버에서 모니터링 보고서 설치 항목을 참조하세요.](../../deploy/deploy-monitoring/install-monitoring-reports.md)
   
 

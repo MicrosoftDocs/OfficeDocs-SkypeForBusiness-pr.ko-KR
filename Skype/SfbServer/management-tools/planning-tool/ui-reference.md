@@ -1,8 +1,8 @@
 ---
 title: 계획 도구 UI 참조
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -12,67 +12,67 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 65d76c522b028900bbfe6fb92c574330dfab15e1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: ed304be8ea6f46d3bcbd16537da9b23c84227f9b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816287"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823309"
 ---
 # <a name="planning-tool-ui-reference"></a>계획 도구 UI 참조
  
-## <a name="in-this-section"></a>이 섹션의
+## <a name="in-this-section"></a>이 섹션의 내용
 
-이 항목에서는 [Microsoft 다운로드 센터](https://go.microsoft.com/fwlink/p/?LinkID=282725)에서 제공 하는 계획 도구의 인터페이스에 대해 설명 합니다. 
+이러한 항목에서는 Microsoft 다운로드 센터에서 사용할 수 있는 계획 도구의 [인터페이스를 문서화합니다.](https://go.microsoft.com/fwlink/p/?LinkID=282725) 
   
-- [오디오 영상 회의 (계획 도구)](../../help-topics/help-planning/audio-video-conferencing.md)
+- [오디오 비디오 회의(계획 도구)](../../help-topics/help-planning/audio-video-conferencing.md)
     
-- [전화 접속 회의 (계획 도구)](../../help-topics/help-planning/dial-in-conferencing.md)
+- [전화 접속 회의(계획 도구)](../../help-topics/help-planning/dial-in-conferencing.md)
     
-- [웹 회의 (계획 도구)](../../help-topics/help-planning/web-conferencing.md)
+- [웹 회의(계획 도구)](../../help-topics/help-planning/web-conferencing.md)
     
-- [엔터프라이즈 음성 (계획 도구)](../../help-topics/help-planning/enterprise-voice.md)
+- [Enterprise Voice(계획 도구)](../../help-topics/help-planning/enterprise-voice.md)
     
-- [Exchange 통합 메시징 설정 (계획 도구)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
+- [Exchange 통합 메시징 설정(계획 도구)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     
-- [통화 허용 제어 (계획 도구)](../../help-topics/help-planning/call-admission-control.md)
+- [통화 입장 제어(계획 도구)](../../help-topics/help-planning/call-admission-control.md)
     
-- [모니터링 (계획 도구)](../../help-topics/help-planning/monitoring.md)
+- [모니터링(계획 도구)](../../help-topics/help-planning/monitoring.md)
     
-- [영구 채팅 (계획 도구)](../../help-topics/help-planning/persistent-chat.md)
+- [영구 채팅(계획 도구)](../../help-topics/help-planning/persistent-chat.md)
     
-- [이동성 (계획 도구)](../../help-topics/help-planning/mobility.md)
+- [모바일(계획 도구)](../../help-topics/help-planning/mobility.md)
     
-- [페더레이션 (계획 도구)](../../help-topics/help-planning/federation.md)
+- [페더링(계획 도구)](../../help-topics/help-planning/federation.md)
     
-- [고가용성 (계획 도구)](../../help-topics/help-planning/high-availability.md)
+- [고가용성(계획 도구)](../../help-topics/help-planning/high-availability.md)
     
-- [IP 버전 (계획 도구)](../../help-topics/help-planning/ip-version.md)
+- [IP 버전(계획 도구)](../../help-topics/help-planning/ip-version.md)
     
-- [재난 복구 (계획 도구)](../../help-topics/help-planning/disaster-recovery.md)
+- [재해 복구(계획 도구)](../../help-topics/help-planning/disaster-recovery.md)
     
-- [기능 개요 (계획 도구)](../../help-topics/help-planning/feature-overview.md)
+- [기능 개요(계획 도구)](../../help-topics/help-planning/feature-overview.md)
     
-- [Exchange 통합 메시징 (계획 도구)](../../help-topics/help-planning/exchange-unified-messaging.md)
+- [Exchange 통합 메시징(계획 도구)](../../help-topics/help-planning/exchange-unified-messaging.md)
     
-- [부하 분산 장치 (계획 도구)](../../help-topics/help-planning/load-balancer.md)
+- [부하 균형 조정(계획 도구)](../../help-topics/help-planning/load-balancer.md)
     
-- [이사 (계획 도구)](../../help-topics/help-planning/director.md)
+- [Director(계획 도구)](../../help-topics/help-planning/director.md)
     
-- [클라이언트 설정 (계획 도구)](../../help-topics/help-planning/client-settings.md)
+- [클라이언트 설정(계획 도구)](../../help-topics/help-planning/client-settings.md)
     
-- [중재 위치 (계획 도구)](../../help-topics/help-planning/mediation-collocation.md)
+- [중재설명(계획 도구)](../../help-topics/help-planning/mediation-collocation.md)
     
-- [보관 (계획 도구)](../../help-topics/help-planning/archiving.md)
+- [보관(계획 도구)](../../help-topics/help-planning/archiving.md)
     
-- [분기 사이트 (계획 도구)](../../help-topics/help-planning/branch-sites.md)
+- [분기 사이트(계획 도구)](../../help-topics/help-planning/branch-sites.md)
     
-- [Edge 네트워크 (계획 도구)](../../help-topics/help-planning/edge-network.md)
+- [에지 네트워크(계획 도구)](../../help-topics/help-planning/edge-network.md)
     
-- [미디어 바이패스 (계획 도구)](../../help-topics/help-planning/media-bypass.md)
+- [미디어 우회(계획 도구)](../../help-topics/help-planning/media-bypass.md)
     
-- [음성 인프라 (계획 도구)](../../help-topics/help-planning/voice-infrastructure.md)
+- [음성 인프라(계획 도구)](../../help-topics/help-planning/voice-infrastructure.md)
     
-- [음성 트래픽 (계획 도구)](../../help-topics/help-planning/voice-traffic.md)
+- [음성 트래픽(계획 도구)](../../help-topics/help-planning/voice-traffic.md)
     
 

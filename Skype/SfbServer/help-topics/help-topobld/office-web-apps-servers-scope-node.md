@@ -1,8 +1,8 @@
 ---
 title: Office Web Apps Server 범위 노드
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Office Web Apps 서버를 마우스 오른쪽 단추로 클릭 하 고 새 Office Web Apps Server를 선택 하 여 마법사를 엽니다.
-ms.openlocfilehash: 6cc31249f2ac7245fd279dc562f61ac5ad24cd1a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Office Web Apps 서버를 마우스 오른쪽 단추로 클릭하고 새 Office Web Apps 서버를 선택하여 마법사를 열 수 있습니다.
+ms.openlocfilehash: c070432d5cc9136293c3e6c454275b6d632ee9bc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216099"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823898"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 범위 노드
 
-**Office Web Apps 서버** 를 마우스 오른쪽 단추로 클릭 하 고 **새 Office web apps Server** 를 선택 하 여 마법사를 엽니다.
+Office Web Apps 서버를 마우스 **오른쪽 단추로** 클릭하고 **새 Office Web Apps 서버를** 선택하여 마법사를 열 수 있습니다.
 
-![OfficeWebApps Servers 범위 노드](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![OfficeWebApps 서버 범위 노드](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
-- **토폴로지**. 이 옵션을 사용 하 여 새 토폴로지를 정의 하 고, 기존 토폴로지를 열고, 토폴로지 복사본을 저장 하 고, 토폴로지에 게시 하거나, 데이터베이스를 설치 하거나, 이전 버전의 구성 요소를 병합 하거나, 배포를 제거할 수 있습니다.
+- **토폴로지.** 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 이전 버전의 구성 요소 병합 또는 배포 제거에 사용할 수 있습니다.
 
-- **도움말을 참조**하세요. 이 옵션을 사용하여 활성 노드에 대한 도움말에 액세스할 수 있습니다.
+- **도움말.** 이 옵션을 사용하여 활성 노드에 대한 도움말에 액세스할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

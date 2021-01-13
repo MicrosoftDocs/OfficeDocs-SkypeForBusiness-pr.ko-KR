@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버에서 TLS 1.0/1.1을 사용하지 않도록 설정
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '요약: 환경에서 TLS 1.0 및 1.1을 사용할 수 있도록 설정하는 방법을 준비하고 구현합니다.'
-ms.openlocfilehash: 06ebc3f5821e8daa1c80633b25140a852f72097d
-ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
+ms.openlocfilehash: da76280540f9d18435ed929aace6cf6fc439a4cf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734296"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826398"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버에서 TLS 1.0/1.1을 사용하지 않도록 설정
 
@@ -43,8 +43,8 @@ Microsoft는 여기에서 사용할 수 있는 [](https://cloudblogs.microsoft.c
 
 - 비즈니스용 Skype 서버 2019 CU1 17.0.2046.123(2019년 6월) 이상
 - 비즈니스용 Skype 서버 2015 CU9 6.0.9319.548(2019년 5월) 이상(KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) 또는 Windows Server 2012 업데이트 사용), 2012 R2 또는 2016.
-- Windows Server 2008 R2, 2012(KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) 이상) 또는 2012 R2에서 CU9 6.0.9319.548(2019년 5월) 이상이 있는 업그레이드된 비즈니스용 Skype 서버 2015
-- Exchange Connectivity and Outlook Web App with Exchange Server 2010 SP3 RU19 or higher, guidance [here](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
+- Windows Server 2008 R2, 2012(KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) 이상) 또는 2012 R2에서 CU9 6.0.9319.548(2019년 5월) 이상인 업그레이드된 비즈니스용 Skype 서버 2015
+- Exchange 연결 및 Outlook Web App Exchange Server 2010 SP3 RU19 이상을 사용할 수 있는 지침은 [다음과 같은 지침을 제공합니다.](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
 - 비즈니스용 Skype 서버 2015 CU6 HF2 이상이 있는 SBA(Survivable Branch Appliance)(공급업체에 적절한 업데이트를 패키지로 만들었다고 공급업체에 확인)
 - 비즈니스용 Skype 서버 2015 CU6 HF2 이상이 있는 SBS(Survivable Branch Server)
 - Lync Server 2013 에지 역할만, 에지 역할은 Windows Fabric 1.0에 종속되지 않습니다.
@@ -64,7 +64,7 @@ Microsoft는 여기에서 사용할 수 있는 [](https://cloudblogs.microsoft.c
 
 ### <a name="currently-being-investigated"></a>현재 조사 중입니다.
 
-- 통화 품질 대시보드(TLS 1.0, 1.1을 사용하지 않도록 설정한 후 새 설치, 아래 참조)*
+- 통화 품질 대시보드(TLS 1.0, 1.1이 비활성화된 후 새 설치, 아래 참조)*
  
 ### <a name="out-of-scope"></a>범위를 벗어남
 
@@ -91,7 +91,7 @@ Lync Server 2013은 Windows Fabric 버전 1.0에 종속됩니다.  Lync Server 2
 
 안타깝게도 Windows Fabric 1.0은 **TLS 1.2를 지원하지 않습니다.  그러나 TLS 1.2와 함께 작동하기 위해 Lync Server 2013을 업데이트할 것입니다.** 이 업데이트는 Lync Server 2013의 다음 누적 업데이트에 추가될 것입니다.  공동, 마이그레이션, 페더전 및 하이브리드 시나리오를 사용할 수 있도록 TLS 1.2 지원을 제공합니다.
 
-조직에서 TLS 1.0 및 1.1을 사용하지 않도록 설정해야 하는 경우 현재 Lync Server 2013을 사용하는 경우 현재 업그레이드 또는 함께 마이그레이션(새 풀, 사용자 이동)을 비즈니스용 Skype 서버 2015 이상으로 마이그레이션해야 할 가능성이 있는 계획 프로세스를 시작하는 것이 좋습니다.  또는 비즈니스용 Skype Online으로의 마이그레이션을 가속화할 수 있습니다.
+조직에서 TLS 1.0 및 1.1을 사용하지 않도록 설정해야 하는 경우 현재 Lync Server 2013을 사용하는 경우 현재 업그레이드 또는 나란히 마이그레이션(새 풀, 사용자 이동)을 비즈니스용 Skype 서버 2015 이상으로 마이그레이션해야 할 가능성이 있는 계획 프로세스를 시작하는 것이 좋습니다.  또는 비즈니스용 Skype Online으로의 마이그레이션을 가속화할 수 있습니다.
 
 #### <a name="call-quality-dashboard"></a>통화 품질 대시보드
 
@@ -121,9 +121,9 @@ PIC(공용 IM 연결) - Skype 소비자 서비스에 대한 연결: Skype 연결
 
 위에서 설명한 경우를 제외하고 TLS 1.0 및 1.1이 범위를 벗어났을 때 서버의 작동이 더 길어지거나 제대로 작동하지 않습니다. 이는 Microsoft의 업데이트된 지침을 일시 중지하고 기다려야 하다는 의미일 수 있습니다. 모든 요구 사항을 충족하고 격차를 해결하기 위한 계획을 세우면 계속 진행합니다.
 
-비즈니스용 Skype 서버 2019는 설치 시 절차를 완료할 수 있는 반면, 비즈니스용 Skype 서버 2015는 CU9를 설치하고, .NET 및 SQL에 선행 요구 업데이트를 적용하고, 선행 레지스트리 키를 배포하고, 마지막으로 별도의 OS 구성 업데이트 라운드(즉, 레지스트리 파일 가져오기에서 TLS 1.0 및 1.1을 사용 안 하도록 설정)하도록 요구합니다. 환경의 모든 서버에서 TLS 1.0 및 1.1을 사용 하지 않는 경우 비즈니스용 Skype 서버 2015 CU6 HF2를 포함하여 모든 선행 구성 요소의 설치를 완료하는 것이 매우 중요합니다. Edge 역할 및 SQL Backends를 비롯한 모든 비즈니스용 Skype 서버에는 업데이트가 필요합니다. 또한 지원되는(범위 내) 클라이언트가 필요한 최소 버전으로 업데이트되어 있도록 합니다. 관리 작업의 업데이트도 잊지 마세요.
+비즈니스용 Skype 서버 2019는 설치 시 절차를 완료할 수 있는 반면, 비즈니스용 Skype 서버 2015는 CU9를 설치하고, .NET 및 SQL에 선행 요구 업데이트를 적용하고, 선행 레지스트리 키를 배포하고, 마지막으로 별도의 OS 구성 업데이트 라운드(즉, 레지스트리 파일 가져오기에서 TLS 1.0 및 1.1을 사용 안 하도록 설정)하도록 요구합니다. 환경의 모든 서버에서 TLS 1.0 및 1.1을 사용 하지 않는 경우 먼저 비즈니스용 Skype 서버 2015 CU6 HF2를 포함하여 모든 선행 구성 요소의 설치를 완료하는 것이 매우 중요합니다. Edge 역할 및 SQL Backends를 비롯한 모든 비즈니스용 Skype 서버에는 업데이트가 필요합니다. 또한 지원되는(범위 내) 클라이언트가 필요한 최소 버전으로 업데이트되어 있도록 합니다. 관리 작업의 업데이트도 잊지 마세요.
 
-비즈니스용 Skype 서버를 업그레이드하기 위한 "내부" 작업의 일반적인 순서를 따르고자 합니다. 일반적으로와 동일한 방식으로 Director 풀, 영구 채팅 및 페어링된 풀을 처리합니다. 업그레이드 순서 및 방법은 [여기와](topology.md) [여기에서 다를 수 있습니다.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
+비즈니스용 Skype 서버를 업그레이드하기 위한 "내부" 작업의 일반적인 순서를 따르고자 합니다. 일반적으로와 동일한 방식으로 Director 풀, 영구 채팅 및 페어링된 풀을 처리합니다. 업그레이드 순서 및 방법은 [여기와 여기에서](topology.md) [다를 수 있습니다.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
 
 ### <a name="high-level-process"></a>개성 있는 프로세스
 
@@ -132,20 +132,20 @@ PIC(공용 IM 연결) - Skype 소비자 서비스에 대한 연결: Skype 연결
 3. 모든 비즈니스용 Skype 2015 서버를 CU9 이상으로 업그레이드합니다. 비즈니스용 Skype 서버 2019의 경우 CU1 이상으로 업그레이드합니다.
 4. 모든 서버에 모든 선행 준비를 설치합니다.
 5. 선행 레지스트리 키를 배포합니다.
-6. 범위 내 클라이언트가 모두 업데이트되도록 합니다.
-7. 레지스트리 가져오기 기능을 통해 TLS 1.0 및 1.1을 사용하지 않도록 설정합니다.
+6. 범위 내 클라이언트가 모두 업데이트되어 있도록 합니다.
+7. 레지스트리 가져오기에서 TLS 1.0 및 1.1을 사용하지 않도록 설정
 8. 워크로드가 예상대로 작동하고 있는지 유효성을 검사합니다.
     - 문제가 발생하면 문제를 해결하거나 해결하거나
     - 2단계에서 레지스트리를 복원하여 TLS 1.0 및 1.1을 다시 사용하도록 설정
 9. TLS 1.2만 사용 중이지 않은지 검사합니다.
 
-### <a name="install-prerequisites-to-all-servers"></a>모든 서버에 필요한 설치
+### <a name="install-prerequisites-to-all-servers"></a>모든 서버에 사전 준비 설치
 
 비즈니스용 Skype 서버 2015 배포의 운영 체제 수준에서 TLS 1.0 및 1.1을 사용하지 않도록 설정하기 전에 광범위한 종속성 업데이트가 필요합니다. TLS 1.2를 지원할 수 있는 최소 버전은 다음과 같습니다. TLS 1.0 및 1.1을 사용할 수 없는 경우를 시작하기 전에 환경의 모든 비즈니스용 Skype 서버에 모든 선행적 업데이트를 배포합니다.
 
 - 비즈니스용 Skype 서버 2015 CU9 6.0.9319.548(2019년 5월) 이상
 - 레지스트리에서 SchUseStrongCrypto를 사용하도록 설정된 [.NET Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167) 이상(아래 제공)
-- SQL 비즈니스용 Skype 2015 서버 및 백end에서 업데이트해야 합니다. Enterprise Edition 풀을 업데이트하고 SQL 먼저 백ends를 업데이트한 다음 해당 FES를 업데이트합니다. 
+- SQL 비즈니스용 Skype 2015 서버 및 백end에서 업데이트해야 합니다. Enterprise Edition 풀을 SQL 먼저 백ends를 업데이트한 다음 해당 FES를 업데이트합니다. 
     - [SQL Server 2014 SP1 + CU5](https://support.microsoft.com/help/3130926)이상/SQL Server 2012 SP2 + CU16 이상/SQL Server [2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)이상/SQL Server 2014 SP2
      - [SQL Server 2012용 SQL Server Native Client](https://www.microsoft.com/download/details.aspx?id=50402)
      - [Microsoft ODBC Driver 11 for SQL Server](https://www.microsoft.com/download/details.aspx?id=36434)이상
@@ -443,7 +443,7 @@ Windows Registry Editor Version 5.00
 
 TLS 1.0 및 1.1을 사용하지 않도록 설정할 각 서버에서 .reg 파일을 가져오면 됩니다. 서버를 다시 부팅합니다. 서비스가 다시 온라인으로 돌아오면 다음 서버로 이동하십시오. Enterprise Edition 풀에 대한 접근 방식은 모든 OS 업데이트에 대해 취할 수 있는 방식과 동일합니다.
 
-여기에서 TLS 1.0 및 1.1을 사용 안 하는 것 이상으로 많은 작업을 수행하고 있는 것을 알 수 있습니다. 당사는 위에 표시된 대로 암호 제품군 재순환 및 일부 오래된 약한 암호의 장애를 지원하고 있습니다. 비즈니스용 Skype 서버에서 SCHANNEL 및 Crypto API에 대한 이러한 변경 내용을 공식적으로 지원한 것은 이번이 처음입니다. 이 변경 내용은 현재 지원하며 테스트한 유일한 변경 내용입니다. 향후 추가 구성을 고려할 수 있지만 지금은 구현에서 레지스트리 가져오기 파일을 수정하지 않습니다.
+여기에서 TLS 1.0 및 1.1을 사용 안 하게 하는 것 이상으로 많은 작업을 수행하고 있는 것을 알 수 있습니다. 당사는 위에 표시된 대로 암호 제품군 재순환 및 일부 이전 약한 암호의 장애를 지원하고 있습니다. 비즈니스용 Skype 서버에서 SCHANNEL 및 Crypto API에 대한 이러한 변경 내용을 공식적으로 지원한 것은 이번이 처음입니다. 이 변경 내용은 현재 지원하며 테스트한 유일한 변경 내용입니다. 향후 추가 구성을 고려할 수 있지만 지금은 구현에서 레지스트리 가져오기 파일을 수정하지 않습니다.
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>워크로드가 예상대로 작동하고 있는지 확인
 
@@ -478,7 +478,7 @@ TLS 1.0 및 1.1을 사용하지 않도록 설정할 각 서버에서 .reg 파일
 
 1. FE의 로컬 폴더에 SQL Express 2014 SP2(SQLEXPR_x64.exe)를 다운로드하여 복사합니다. 폴더 경로 <SQL_FOLDER_PATH>.
 2. PowerShell 또는 명령 프롬프트를 시작하고 <SQL_FOLDER_PATH>.
-3. 아래 명령을 실행하여 RTCLOCAL SQL 인스턴스를 만드세요. 다음을 계속하기 SQLEXPR_x64.exe 완료될 때까지 기다렸다가 다음을 진행합니다.
+3. 아래 명령을 실행하여 RTCLOCAL SQL 인스턴스를 만들 수 있습니다. 다음을 계속하기 SQLEXPR_x64.exe 완료될 때까지 기다렸다가 다음을 진행합니다.
 
     SQLEXPR_x64.exe /Q /IACCEPTSQLSERVERLICENSETERMS /UPDATEENABLED=0 /HIDECONSOLE /ACTION=Install /FEATURES=SQLEngine,Tools /INSTANCENAME=RTCLOCAL /TCPENABLED=1 /SQLSVCACCOUNT="NT AUTHORITY\NetworkService" /SQLSYSADMINACCOUNTS="Builtin\Administrators" /BROWSERSVCSTARTUPTYPE="Automatic" /AGTSVCACCOUNT="NTAUTHORITY\NetworkService" /SQLSVCSTARTUPTYPE=Automati
 1. 아래 명령을 실행하여 LYNCLOCAL SQL 인스턴스를 만들 수 있습니다. 다음 단계를 SQLEXPR_x64.exe 완료될 때까지 기다렸다가 다음 단계를 진행합니다.
@@ -487,7 +487,7 @@ TLS 1.0 및 1.1을 사용하지 않도록 설정할 각 서버에서 .reg 파일
 1. 비즈니스용 Skype 서버 2015 RTM 설치를 실행합니다.
 2. 위의 선행 구성자 섹션에서 남은 단계를 따릅니다.
 
-**옵션 3:** 다음과 같이 로컬 설치 미디어 디렉터리의 이진 파일을 수동으로 바꿀 수도 있습니다.
+**옵션 3:** 로컬 설치 미디어 디렉터리의 이진 파일을 다음과 같이 수동으로 바꿀 수도 있습니다.
 
 1. [비즈니스용 Skype 서버의 사전 준비 설치](../../deploy/install/install-prerequisites.md)  
 2. .NET 4.7을 설치합니다. 
@@ -509,7 +509,7 @@ TLS 1.0 및 1.1을 사용하지 않도록 설정할 각 서버에서 .reg 파일
         - **참고:** 설치 미디어의 Setup/amd64/ 폴더에 있는 기존 파일을 대체합니다.
     - SQL CLR 형식: https://www.microsoft.com/download/details.aspx?id=53164 
         - **참고:** 기능 팩에는 다운로드할 수 있는 많은 항목이 있습니다. 다운로드만 CQLSysClrTypes.msi 선택
-        - **참고:** 설치 미디어의 Setup/amd64/ 폴더에 있는 기존 파일을 대체합니다.
+        - **참고:** 설치 미디어의 Setup/amd64/ 폴더에 있는 기존 파일을 교체합니다.
 5. 핵심 구성 요소를 설치합니다. 
     - 설치 Setup.exe/amd64/ 폴더에서 설치 미디어를 실행합니다. 지침에 따라 핵심 구성 요소 설치
     - 핵심 구성 요소를 닫습니다.
@@ -519,7 +519,7 @@ TLS 1.0 및 1.1을 사용하지 않도록 설정할 각 서버에서 .reg 파일
     - **참고:** CU6HF2 릴리스에서 자동 업데이트 기능은 현재 CU6까지만 설치됩니다. 따라서 핵심 구성 요소를 6.0.9319.516으로 업데이트하려면 업데이트 업데이트를 별도로 실행해야 합니다.
     - 참조: https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015
 7. 관리 도구 설치(선택 사항): 
-    - 이렇게 하면 업데이트된 파일을 사용하여 Microsoft SQL Server 2012 Native Client, SQL Server 2014 Management Objects(x64) 및 SQL Server 2014(x64)에 대한 Microsoft System CLR 형식이 설치됩니다. 또한 비즈니스용 Skype 서버 2015 토폴로지 작성기 및 제어판이 로컬 컴퓨터로 제공됩니다.
+    - 이렇게 하면 업데이트된 파일을 사용하여 Microsoft SQL Server 2012 Native Client, SQL Server 2014 Management Objects(x64) 및 SQL Server 2014용 Microsoft System CLR 형식(x64)이 설치됩니다. 또한 비즈니스용 Skype 서버 2015 토폴로지 작성기 및 제어판을 로컬 컴퓨터로 사용할 수 있습니다.
 8. 로컬 구성 저장소 설치(1단계): 
      - 배포 마법사를 열고 비즈니스용 Skype 서버 시스템 설치  또는 업데이트를 클릭한 다음 1단계: 로컬 구성 저장소 설치에서 실행을 클릭합니다.
      - 로컬 **구성 저장소** 설치 대화 **상자에서** 다음을 클릭합니다.

@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버에서 프런트 엔드 서버 관리
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,66 +11,66 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: '요약: 비즈니스용 Skype 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트 하는 방법을 알아봅니다.'
-ms.openlocfilehash: 3d2298711e707ed897b26939fd383dbedcfb3957
-ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
+description: '요약: 비즈니스용 Skype 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트하는 방법을 설명하는 정보를 제공합니다.'
+ms.openlocfilehash: 16af245b3c49b21309edd3ee2843f2585814ce9e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45098416"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826328"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 프런트 엔드 서버 관리
  
-이 문서에서는 프런트 엔드 서버를 추가 또는 제거 하는 방법과 프런트 엔드 서버에 업그레이드 또는 패치를 적용 하는 방법에 대해 설명 합니다.
+이 문서에서는 프런트 엔드 서버를 추가 또는 제거하는 방법과 프런트 엔드 서버에 업그레이드 또는 패치를 적용하는 방법에 대해 설명합니다.
 
   > [!NOTE]
-> 비즈니스용 Skype 서버 2019에서는 프런트 엔드 서버가 두 대 인 Enterprise Edition 프런트 엔드 풀을 지원 하지 않으며,이 시나리오에서 토폴로지를 게시할 수 없습니다.
+> 비즈니스용 Skype 서버 2019는 프런트 엔드 서버가 두 대인 Enterprise Edition 프런트 엔드 풀을 지원하지 않습니다. 이 시나리오에서는 토폴로지가 게시될 수 없습니다.
 
 ## <a name="add-or-remove-front-end-servers"></a>프런트 엔드 서버 추가 또는 제거
   
-프런트 엔드 서버를 풀에 추가 하거나 풀에서 프런트 엔드 서버를 제거 하는 경우에는 풀을 다시 시작 해야 합니다. 
+풀에 프런트 엔드 서버를 추가하거나 풀에서 프런트 엔드 서버를 제거할 때 풀을 다시 시작해야 합니다. 
   
 > [!IMPORTANT]
-> 토폴로지의 풀에 서버를 추가 하거나 제거한 다음 업데이트 된 토폴로지를 게시 하면 풀에 있는 모든 서버가 동시에 다시 시작 됩니다. 서버를 다시 시작 하는 동안에는 해당 풀에 연결 된 사용자에 대 한 서비스를 중단 하는 서버가 오프 라인 상태가 됩니다. 사용자에 대 한 서비스가 중단 되지 않도록 하려면 업무 외 시간에 새 서버를 사용 하 여 토폴로지를 해당 풀에 게시 하도록 계획 합니다. 
+> 토폴로지의 풀에 서버를 추가하거나 제거한 다음 업데이트된 토폴로지 게시하면 풀의 모든 서버가 동시에 다시 시작됩니다. 서버가 풀을 다시 시작하는 동안에는 풀이 오프라인 상태이면 해당 풀에 연결된 사용자의 서비스가 중단됩니다. 사용자에게 서비스가 중단되지 않도록 방지하기 위해 업무 시간 이외 시간에 풀에 새 서버와 함께 토폴로지 게시를 계획합니다. 
   
-프런트 엔드 서버를 추가 또는 제거할 때 다음 절차를 사용할 수 있습니다.
+프런트 엔드 서버를 추가하거나 제거할 때 다음 절차를 사용할 수 있습니다.
   
 > [!NOTE]
-> 풀에 새 서버를 추가 하는 경우 새 풀 서버를 풀의 기존 서버와 동일한 누적 업데이트 수준으로 업데이트 합니다. 
+> 풀에 새 서버를 추가하는 경우 새 풀 서버를 풀의 기존 서버와 동일한 누적 업데이트 수준으로 업데이트합니다. 
   
-### <a name="to-add-or-remove-front-end-servers"></a>프런트 엔드 서버를 추가 하거나 제거 하려면
+### <a name="to-add-or-remove-front-end-servers"></a>프런트 엔드 서버를 추가하거나 제거하려면
 
-1. 프런트 엔드 서버를 제거 하는 경우 먼저 해당 서버에 대 한 새 연결을 중지 합니다. 이렇게 하려면 다음 cmdlet을 사용할 수 있습니다.
+1. 프런트 엔드 서버를 제거하는 경우 먼저 해당 서버에 대한 새 연결을 중지합니다. 이렇게 하여 다음 cmdlet을 사용할 수 있습니다.
     
    ```PowerShell
    Stop-CsWindowsService -Graceful
    ```
 
-2. 토폴로지 작성기를 열고 필요한 서버를 추가 또는 제거 합니다. 
+2. 토폴로지 작성기를 열고 필요한 서버를 추가하거나 제거합니다. 
     
 3. 토폴로지를 게시합니다.
     
     > [!IMPORTANT]
-    > 토폴로지의 풀에 서버를 추가 하거나 제거한 다음 업데이트 된 토폴로지를 게시 하면 풀에 있는 모든 서버가 동시에 다시 시작 됩니다. 서버를 다시 시작 하는 동안에는 해당 풀에 연결 된 사용자에 대 한 서비스를 중단 하는 서버가 오프 라인 상태가 됩니다. 사용자에 대 한 서비스가 중단 되지 않도록 하려면 업무 외 시간에 새 서버를 사용 하 여 토폴로지를 해당 풀에 게시 하도록 계획 합니다. 
+    > 토폴로지의 풀에 서버를 추가하거나 제거한 다음 업데이트된 토폴로지 게시하면 풀의 모든 서버가 동시에 다시 시작됩니다. 서버가 풀을 다시 시작하는 동안에는 풀이 오프라인 상태이면 해당 풀에 연결된 사용자의 서비스가 중단됩니다. 사용자에게 서비스가 중단되지 않도록 방지하기 위해 업무 시간 이외 시간에 풀에 새 서버와 함께 토폴로지 게시를 계획합니다. 
   
   > [!NOTE]
-> 또한 풀에 서버를 추가 하거나 제거 하는 경우 추가 하거나 제거한 각 컴퓨터에서 비즈니스용 Skype 서버 배포 마법사를 실행 해야 합니다. 자세한 내용은 [토폴로지의 서버에 비즈니스용 Skype 서버 설치](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server) 를 참조 하세요.
+> 또한 풀에 서버를 추가하거나 제거할 때 추가되거나 제거된 각 컴퓨터에서 비즈니스용 Skype 서버 배포 마법사를 실행해야 합니다. 자세한 내용은 토폴로지의 서버에 [비즈니스용 Skype 서버 설치를 참조하세요.](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
-4. 프런트 엔드 풀의 서버 수를 다음과 같은 방식으로 변경한 경우 다음 cmdlet을 입력 하 여 풀을 다시 설정 합니다. Reset-cspoolregistrarstate-ResetType FullReset-PoolFqdn 
+4. 다음과 같은 방법으로 프런트 엔드 풀의 서버 수를 변경한 경우 -ResetType FullReset -PoolFqdn과 같은 cmdlet을 입력하여 Reset-CsPoolRegistrarState 풀을 다시 설정하십시오. 
     
    ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
-     - 2 ~ any
+     - 2에서 모든
     
-     - 모두 2
+     - 2개까지
     
-     - 3 ~ any
+     - 3 ~ 모든
     
-     - 모두 3
+     - 3개까지
     
-5. 다음 cmdlet을 입력 하 여 풀을 다시 시작 합니다.
+5. 다음 cmdlet을 입력하여 풀 다시 시작
     
    ```PowerShell
    Start-CsPool
@@ -78,39 +78,39 @@ ms.locfileid: "45098416"
 
 ## <a name="patch-or-update-front-end-servers"></a>프런트 엔드 서버 패치 또는 업데이트
 
-프런트 엔드 풀에 서버를 패치 하는 경우 한 번에 하나의 서버를 사용할 수 있습니다. 
+프런트 엔드 풀에서 서버를 패치할 때 한 서버에 한 번씩 패치를 적용합니다. 
   
-### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>풀의 프런트 엔드 서버에 업그레이드를 적용 하려면
+### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>풀의 프런트 엔드 서버에 업그레이드를 적용하려면
 
-1. 다음 cmdlet을 입력 합니다.
+1. 다음 cmdlet을 입력합니다.
     
    ```PowerShell
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
-     이 cmdlet이 누락 된 복제본을 표시 하는 경우 패치를 적용 하기 전에 다음 cmdlet을 실행 하 여 풀을 복구 합니다.
+     이 cmdlet에 누락된 복제본이 표시될 경우 패치를 적용하기 전에 다음 cmdlet을 실행하여 풀을 복구합니다.
     
    ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
    ```
 
-2. 패치를 적용할 첫 번째 서버에서 다음 cmdlet을 실행 합니다.
+2. 패치할 첫 번째 서버에서 다음 cmdlet을 실행합니다.
     
    ```PowerShell
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
-    이 cmdlet은 모든 서비스를 풀의 다른 프런트 엔드 서버로 이동 하 고이 서버를 오프 라인으로 전환 합니다.
+    이 cmdlet은 모든 서비스를 풀의 다른 프런트 엔드 서버로 이동하고 이 서버를 오프라인으로 전환합니다.
     
-3. 이 서버에 업그레이드 또는 패치를 적용 합니다.
+3. 이 서버에 업그레이드 또는 패치를 적용합니다.
     
-4. 업그레이드 된 서버에서 다음 cmdlet을 실행 합니다.
+4. 업그레이드된 서버에서 다음 cmdlet을 실행합니다.
     
    ```PowerShell
    Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
    ```
 
-    서버가 서비스에 반환 됩니다.
+    서버가 서비스로 반환됩니다.
     
-5. 업그레이드 해야 하는 각 서버에 대해 2-4 단계를 반복 합니다.
+5. 업그레이드해야 하는 각 서버에 대해 2-4단계를 반복합니다.
     

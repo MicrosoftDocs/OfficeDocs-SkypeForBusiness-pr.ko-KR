@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버의 작업을 통해 통화 배포
+title: 비즈니스용 Skype 서버에서 직장을 통한 통화 배포
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,85 +14,85 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: '요약: 비즈니스용 Skype 서버에서 일부 또는 모든 사용자에 대해 작업을 통해 통화를 배포 하는 방법을 알아봅니다.'
-ms.openlocfilehash: 9b77207d6618e4a869ae369697bc8395aba81673
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '요약: 일부 또는 전체 사용자에 대해 비즈니스용 Skype 서버에서 직장 전화 서비스를 배포하는 방법을 설명하는 정보를 제공합니다.'
+ms.openlocfilehash: 41a0ae8462b12cabf735a2501e5b22eac64abe42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41791086"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825008"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 작업을 통해 통화 배포
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 직장을 통한 통화 배포
  
-**요약:** 비즈니스용 Skype 서버의 작업을 통해 일부 또는 모든 사용자의 통화를 배포 하는 방법에 대해 알아봅니다.
+**요약:** 일부 또는 모든 사용자를 위해 비즈니스용 Skype 서버에서 직장에서 전화를 통해 통화를 배포하는 방법을 배워야 합니다.
   
-이 단계를 사용 하 여 사용자에 대 한 작업을 통해 전화를 배포 합니다. 계획 고려 사항에 대 한 자세한 내용은 비즈니스용 [Skype 서버의 작업을 통한 통화 계획](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)을 참조 하세요. 이전 버전의 Lync Server 원격 통화 제어는 Lync Server를 사용 하 여 사용자가 PBX 전화를 제어할 수 있도록 하는 기능 이었습니다. 비즈니스용 Skype Server에서이 기능은 업무에의 한 통화를 통해 대체 되었습니다. 
+다음 단계에 따라 사용자를 위해 직장 전화 기능을 배포합니다. 계획 고려 사항은 비즈니스용 Skype 서버의 직장을 통해 [전화하기 계획에 설명됩니다.](../plan-your-deployment/enterprise-voice-solution/call-via-work.md) 이전 버전의 Lync Server 원격 통화 제어는 사용자가 Lync Server를 사용하여 PBX 전화를 제어할 수 있는 기능입니다. 비즈니스용 Skype 서버에서는 이 기능이 직장 전화로 대체됩니다. 
   
-## <a name="prerequisites-for-call-via-work"></a>작업을 통한 통화를 위한 필수 조건
+## <a name="prerequisites-for-call-via-work"></a>업무를 통한 전화에 대한 선행 작업
 
-직장을 통한 통화는 모든 비즈니스용 Skype Server 프런트 엔드 서버에 자동으로 설치 되는 통합 커뮤니케이션 웹 API (c)를 사용 합니다. 작업을 통해 사용자에 게 전화를 걸 수 있도록 설정 하려면 다음과 같은 필수 구성 요소도 준비 되어 있어야 합니다. 
+UCWA(Unified Communications Web API)를 사용하여 모든 비즈니스용 Skype 서버 프런트 엔드 서버에 자동으로 설치됩니다. 사용자가 직장을 통해 전화를 걸 수 있도록 설정하려면 다음과 같은 선행 사항도 준비되어 있어야 합니다. 
   
-- 프런트 엔드 서버의 일부로 또는 독립 실행형 역할로 중재 서버를 배포 해야 합니다. 또한 IP PBX 게이트웨이를 배포 해야 합니다.
+- 중재 서버는 프런트 엔드 서버의 일부로 또는 독립 실행형 역할로 배포해야 합니다. IP-PBX 게이트웨이도 배포해야 합니다.
     
-- 작업을 통해 전화를 받을 수 있는 모든 사용자에 게는 PBX 전화 시스템의 직접적인 안쪽 전화 접속 ()이 있어야 합니다. 
+- 업무를 통해 전화 기능을 사용할 수 있는 모든 사용자는 PBX 전화 시스템에서 DID(Direct Inward Dialing)가 있어야 합니다. 
     
-- Enterprise Voice에 대 한 회사 사용자를 통해 모든 통화를 사용 하도록 설정 해야 합니다. 이 작업을 수행 하는 경우 각 사용자에 대 한 비즈니스용 Skype의 번호를 해당 PBX 전화 시스템의 해당 하는 번호를 사용 하 여 구성 해야 합니다. 
+- 사용자에 대해 모든 업무용 통화 사용자를 사용하도록 설정해야 Enterprise Voice. 이렇게 하는 경우 각 사용자에 대한 비즈니스용 Skype DID 번호를 해당 PBX 전화 시스템에 대한 해당 DID 번호로 구성해야 합니다. 
     
-- 업무를 통해 전화를 사용 하는 모든 사용자에 게는 비즈니스용 Skype 클라이언트의 **고급 연결** 옵션에서 **자동 구성이** 선택 되어 있어야 합니다. 이렇게 하면 클라이언트가 cowa Url을 검색할 수 있습니다. **자동 구성은** 기본적으로 선택 되어 있습니다.
+- 업무를 통해 전화를 사용할 모든  사용자는 비즈니스용  Skype 클라이언트의 고급 연결 옵션에서 자동 구성을 선택해야 합니다. 이렇게 하면 클라이언트가 UCWA URL을 검색할 수 있습니다. **자동 구성이** 기본 선택입니다.
     
-- 작업 사용자를 통한 각 통화에 대해 착신 전환 및 동시 연결을 사용 하도록 설정 합니다. 
+- 각 업무용 전화 사용자에 대해 통화 전달 및 동시 전화 울림을 사용하도록 설정합니다. 
     
-- 작업 사용자를 통한 각 통화에 대해 전화 접속 회의 및 회의 전화 걸기를 사용할 수 있는지 확인 합니다. 이를 통해 이러한 사용자는 비즈니스용 Skype 회의를 시작 하거나 축소할 수 있습니다.
+- 각 업무용 전화 사용자에 대해 전화 접속 회의 및 회의 전화 접속이 사용하도록 설정되어 있는지 확인합니다. 이렇게 하면 이러한 사용자가 비즈니스용 Skype 회의에 들어와서 회의에서 에서 나서야 할 수 있습니다.
     
-- 업무 사용자를 통한 모든 통화에 대해 위임, 팀 통화 및 응답 그룹을 사용 하지 않도록 설정 해야 합니다.
+- 모든 통화 사용자에 대해 위임, 팀 통화 및 응답 그룹을 사용하지 않도록 설정해야 합니다.
     
 ## <a name="deploy-call-via-work"></a>회사번호로 전화
 
-필수 구성 요소를 입력 한 후 다음을 수행 합니다.
+선행 작업을 준비한 후 다음을 합니다.
   
-- 배포에 대 한 전역 전화 번호를 만듭니다. 비즈니스용 Skype에서 회사 전화를 통해 전화를 걸고 있는 사용자의 PBX 발신자 ID에 표시 됩니다. 
+- 업무번호로 전화 걸기 전화를 걸고 있는 사용자의 PBX 발신자 번호에 비즈니스용 Skype가 표시하는 배포용 전역 전화 번호를 생성합니다. 
     
-- 회사 정책을 통해 하나 이상의 통화 만들기
+- 하나 이상의 업무로 전화 정책 만들기
     
-- 작업 정책을 통해 전화를 통해 전화를 받을 수 있는 각 사용자에 게 통화를 할당 합니다.
+- 직장에서 전화 기능을 사용할 각 사용자에게 직장 전화 정책 할당
     
-### <a name="create-the-call-via-work-global-phone-number"></a>회사 전역 전화 번호를 통해 통화 만들기
+### <a name="create-the-call-via-work-global-phone-number"></a>직장번호로 전화 걸기 전역 전화 번호 만들기
 
-- 다음 cmdlet을 입력 합니다.
+- 다음 cmdlet을 입력합니다.
     
   ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
-    예를 들어 다음 cmdlet은 전역 전화 번호를 1-555-123-4567으로 설정 합니다.
+    예를 들어 다음 cmdlet은 전역 전화 번호를 1-555-123-4567로 설정합니다.
     
   ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
-### <a name="create-a-call-via-work-policy"></a>회사 정책을 통해 통화 만들기
+### <a name="create-a-call-via-work-policy"></a>직장 전화 정책 만들기
 
-- 다음 cmdlet을 입력 합니다.
+- 다음 cmdlet을 입력합니다.
     
   ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
-    예를 들어 다음 cmdlet은 ContosoUser1CvWP 이라는 작업 정책을 통해 전화를 만들고, 사용자가 관리 콜백 번호를 사용 해야 하며, 해당 콜백 번호를 1-555-789-1234로 설정 합니다.
+    예를 들어 다음 cmdlet은 ContosoUser1CvWP라는 업무용 통화 정책을 만들고, 사용자가 관리자 콜백 번호를 사용하도록 요구하고, 해당 콜백 번호를 1-555-789-1234로 설정합니다.
     
   ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
-### <a name="assign-a-call-via-work-policy-to-a-user"></a>회사 정책을 통해 사용자에 게 전화 할당
+### <a name="assign-a-call-via-work-policy-to-a-user"></a>사용자에게 직장 전화 정책 할당
 
-- 다음 cmdlet을 입력 합니다.
+- 다음 cmdlet을 입력합니다.
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    예를 들어 다음 cmdlet은 작업 정책 "ContosoUser1CvWP"를 통해 호출을 **ContosoUser1**라는 사용자에 게 할당 합니다.
+    예를 들어 다음 cmdlet은 ContosoUser1이라는 사용자에게 업무 시간 전화 정책 "ContosoUser1CvWP"를 **할당합니다.**
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
@@ -100,5 +100,5 @@ ms.locfileid: "41791086"
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버의 작업을 통한 통화 계획](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[비즈니스용 Skype 서버에서 직장을 통한 통화 계획](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

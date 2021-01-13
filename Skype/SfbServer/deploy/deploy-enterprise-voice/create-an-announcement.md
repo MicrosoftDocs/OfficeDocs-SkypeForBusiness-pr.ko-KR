@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버에서 공지 사항 만들기 또는 삭제
+title: 비즈니스용 Skype 서버에서 공지 만들기 또는 삭제
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,62 +15,62 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: 비즈니스용 Skype Server Enterprise Voice에서 알림 신청에 대 한 공지 사항을 만들거나 삭제 합니다. 이는 할당 되지 않은 번호로의 호출이 처리 되는 방식에 영향을 줍니다.
-ms.openlocfilehash: 7cde8c268c66d19e6806a4b6c3e585a7271ef2ff
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 비즈니스용 Skype 서버 2016에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
+ms.openlocfilehash: 9f2b4fcda8e98d4b939b6b443da875dbe153546c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767961"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824908"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 공지 사항 만들기 또는 삭제
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 공지 만들기 또는 삭제
 
-비즈니스용 Skype Server Enterprise Voice에서 알림 신청에 대 한 공지 사항을 만들거나 삭제 합니다. 이는 할당 되지 않은 번호로의 호출이 처리 되는 방식에 영향을 줍니다.
+비즈니스용 Skype 서버 2016에서 공지사항 응용 프로그램에 대한 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
 
-알림을 구성 하는 경우에는 할당 되지 않은 번호로 전화를 처리 하는 방법을 실제로 구성 하는 것입니다. 오디오 파일이 나 텍스트 음성 변환 (TTS) 파일이 될 수 있는 프롬프트를 재생 하거나, 프롬프트를 재생 하지 않고 지정 된 대상으로 통화를 전송할 수 있습니다.
+공지 사항을 구성할 때 실제로는 미지정 번호에 대한 통화를 처리할 방법을 구성합니다. 오디오 파일이나 TTS(텍스트 음성 음성) 파일일 수 있는 프롬프트를 재생하거나 프롬프트를 재생하지 않고 통화를 지정된 대상으로 전송할 수 있습니다.
 
-할당 되지 않은 번호 표를 정의 하기 전에 공지 사항을 만들어야 합니다. 오디오 프롬프트, TTS 프롬프트 또는 메시지 표시 안 함을 사용 하는 모든 공지 사항에 대해이 단계를 수행 해야 합니다.
+미지정 번호 테이블을 정의하기 전에 공지 사항을 만들어야 합니다. 오디오 프롬프트, TTS 프롬프트 또는 프롬프트가 없는 모든 공지에 대해 이 단계를 수행해야 합니다.
 
-이 항목에서는 알림을 가져오고 만드는 방법에 대해 설명 합니다. 지정 되지 않은 번호 테이블에 공지 사항을 할당 하는 방법에 대 한 자세한 내용은 지정 하지 [않은 번호 표 구성을](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)참조 하세요.
+이 항목에서는 알림을 가져오고 만드는 방법에 대해 설명합니다. 할당되지 않은 번호 테이블에서 알림을 할당하는 방법에 대한 자세한 내용은 [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)을 참조하십시오.
 
-## <a name="create-a-new-announcement-for-unassigned-numbers"></a>할당 되지 않은 번호에 대 한 새 공지 사항 만들기
+## <a name="create-a-new-announcement-for-unassigned-numbers"></a>미지정 번호에 대한 새 공지 만들기
 
-새 알림을 만들려면 다음 단계를 수행 해야 합니다.
+새 알림을 만들려면 다음 단계를 수행해야 합니다.
 
-1. 오디오 메시지가 표시 되는 경우 좋아하는 오디오 녹음 응용 프로그램을 사용 하 여 오디오 파일을 녹음 합니다.
+1. 오디오 음성 안내의 경우 자주 사용하는 오디오 녹음 응용 프로그램을 사용하여 오디오 파일을 녹음합니다.
 
-2. 오디오 프롬프트의 경우 **CsAnnouncementFile** cmdlet을 실행 하 여 오디오 파일의 콘텐츠를 파일 저장소로 가져옵니다.
+2. 오디오 음성 안내의 경우 **Import-CsAnnouncementFile** cmdlet을 실행하여 오디오 파일의 내용을 파일 저장소로 가져옵니다.
 
-3. **새 csannouncement** cmdlet을 실행 하 여 알림을 만들고 이름을 만듭니다. 오디오 프롬프트, 텍스트 음성 변환 (TTS) 프롬프트 또는 메시지가 표시 되지 않는 알림을 만들려면이 단계를 수행 합니다.
+3. **New-CsAnnouncement** cmdlet을 실행하여 알림을 만들고 알림의 이름을 지정합니다. 오디오 음성 안내나 TTS(텍스트 음성 변환) 음성 안내를 사용하거나 또는 음성 안내를 사용하지 않고 알림을 만들려면 이 단계를 수행합니다.
 
     > [!TIP]
-    > 메시지를 재생 하지 않고 특정 대상에 전화를 거는 등의 메시지가 표시 되지 않은 상태에서 알림을 만들어야 할 수 있습니다.
+    > 음성 안내를 사용하지 않고 알림을 만들어야 하는 경우도 있습니다(예를 들어 메시지를 재생하지 않고 특정 대상에게 통화를 전송할 경우).
 
-4. 지정 하지 않은 번호 표의 번호 범위에 새 공지 사항을 할당 합니다.
+4. 새 알림을 할당되지 않은 번호 테이블의 번호 범위에 할당합니다.
 
 ### <a name="to-create-a-new-announcement"></a>새 알림을 만들려면
 
-1. 오디오 메시지가 표시 되는 경우 오디오 파일을 만듭니다.
+1. 오디오 음성 안내의 경우 오디오 파일을 만듭니다.
 
-2. 비즈니스용 Skype 서버 관리 셸이 설치 되어 있는 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 **대리인 설정 권한에**설명 된 대로 필요한 사용자 권한으로 로그온 합니다.
+2. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 위임 설치 권한에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 로그온합니다. 
 
-3. 비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.
+3. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
 
-4. 오디오 프롬프트에 대해 다음을 실행 합니다.
+4. 오디오 음성 안내의 경우 다음을 실행합니다.
 
    ```powershell
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. 런
+5. 을 실행합니다.
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
-    음성 메일로 통화를 전송 하는 경우 sip: username@domainname, 불투명 = 앱: 음성 메일 (예: sip: bob@contoso, 불투명 = app) 형식으로 SIPAddress를 입력 합니다. 전화 번호로 통화를 전송 하는 경우 sip: number@domainname, user = phone 형식으로 SIPAddress를 입력 합니다 (예: sip: + 14255550121@contoso 사용자 = 휴대폰).
+    통화를 음성 메일로 전송하려면 SIPAddress를 sip:username@domainname;opaque=app:voicemail 형식으로 입력합니다(예: sip:bob@contoso.com;opaque=app:voicemail). 통화를 전화 번호로 전송할 경우에는 SIPAddress를 sip:number@domainname;user=phone 형식으로 입력합니다(예: sip:+ 14255550121@contoso.com;user=phone).
 
-    예를 들어 오디오 프롬프트를 지정 하려면 다음을 실행 합니다.
+    예: 오디오 음성 안내 지정
 
    ```powershell
    $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
@@ -78,52 +78,52 @@ ms.locfileid: "41767961"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
    ```
 
-    예를 들어 TTS 프롬프트를 지정 하려면 다음을 실행 합니다.
+    예: TTS 음성 안내 지정
 
    ```powershell
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   이러한 cmdlet에 대 한 자세한 내용 및 **TextToSpeechPrompt** 매개 변수에 사용할 언어 코드 목록을 보려면 [새 csannouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)를 참조 하세요.
+   이러한 cmdlet에 대한 자세한 내용과 **TextToSpeechPrompt** 매개 변수에서 사용할 언어 코드 목록을 확인하면 [New-CsAnnouncement를](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)참조하세요.
 
-## <a name="delete-an-announcement-for-unassigned-numbers"></a>할당 되지 않은 번호에 대 한 공지 사항 삭제
+## <a name="delete-an-announcement-for-unassigned-numbers"></a>미지정 번호에 대한 공지 삭제
 
-### <a name="to-delete-an-announcement"></a>공지 사항을 삭제 하려면
+### <a name="to-delete-an-announcement"></a>공지 사항을 삭제하려면
 
-1. 비즈니스용 Skype 서버 관리 셸이 설치 되어 있는 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 **대리인 설정 권한에**설명 된 대로 필요한 사용자 권한으로 로그온 합니다.
+1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 위임 설치 권한에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 로그온합니다. 
 
-2. 비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.
+2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
 
-3. 조직의 모든 공지 사항을 나열 합니다. 명령줄에서 다음을 실행 합니다.
+3. 조직의 모든 공지 사항을 나열합니다. 명령줄에서 다음을 실행합니다.
 
    ```powershell
    Get-CsAnnouncement
    ```
 
-4. 결과 목록에서 삭제 하려는 공지 사항을 찾아 GUID를 복사 합니다. 그런 다음 명령줄에서 다음을 실행 합니다.
+4. 결과 목록에서 삭제할 공지 사항을 찾은 다음 GUID를 복사합니다. 그런 다음 명령줄에서 다음을 실행합니다.
 
    ```powershell
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
-    예를 들면 다음과 같습니다.
+    예제:
 
    ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
    ```
 
     > [!NOTE]
-    > 추가 옵션에 대 한 자세한 내용은 [Csannouncement 가져오기](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) 및 [-csannouncement 제거](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)를 참조 하세요.
+    > 추가 옵션에 대한 자세한 내용은 [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) 및 [Remove-CsAnnouncement를 참조하세요.](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 공지 사항 만들기 또는 삭제](create-an-announcement.md)
+[비즈니스용 Skype 서버에서 공지 만들기 또는 삭제](create-an-announcement.md)
 
-[가져오기-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
+[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[새 CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 
-[CsAnnouncement 제거](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
+[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
-[다운로드-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
+[Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
 

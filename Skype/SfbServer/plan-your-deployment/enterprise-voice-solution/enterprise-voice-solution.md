@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버에서 Enterprise Voice 솔루션 계획
+title: 비즈니스용 Skype Enterprise Voice 솔루션 계획
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,41 +15,41 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
-description: '요약: 비즈니스용 Skype 서버에서 통합 음성 및 통신 솔루션을 계획 하기 위한 옵션에 대해 알아봅니다.'
-ms.openlocfilehash: 2f3b66815a5d49fcd770f85b7641d0a6c4dff7d8
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: '요약: 비즈니스용 Skype 서버에서 통합 음성 및 통신 솔루션을 계획하기 위한 옵션에 대해 자세히 알아보십시오.'
+ms.openlocfilehash: 7f335fd3fe954e7a0e66381da9dad0748ee02905
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359124"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825728"
 ---
-# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 Enterprise Voice 솔루션 계획
+# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>비즈니스용 Skype Enterprise Voice 솔루션 계획
  
-**요약:** 비즈니스용 Skype 서버에서 통합 음성 및 통신 솔루션을 계획 하기 위한 옵션에 대해 알아봅니다.
+**요약:** 비즈니스용 Skype 서버에서 통합 음성 및 통신 솔루션을 계획하기 위한 옵션에 대해 자세히 알아보십시오.
   
-비즈니스용 skype 서버는 비즈니스용 Skype 서버 배포와 조직의 전화 시스템을 통합 하 여 진정한 통합 커뮤니케이션 솔루션을 제공 하는 두 개의 온-프레미스 Enterprise 음성 옵션 (회사 음성 및 회사 전화 통화)을 지원 합니다. 두 옵션을 사용 하면 사용자가 비즈니스용 Skype 클라이언트를 사용 하 여 조직 내부 및 외부의 다른 사용자와 음성 통화를 시작할 수 있습니다.
+비즈니스용 Skype 서버는 조직의 전화 시스템을 비즈니스용 Skype 서버 배포와 통합하여 진정한 통합 통신 솔루션을 만들 수 있도록 조직의 전화 시스템을 통합할 수 있도록 Enterprise Voice 및 회사를 통해 전화 걸기 등 두 가지의 프레미스 Enterprise Voice 옵션을 제공합니다. 두 옵션 모두 사용자가 비즈니스용 Skype 클라이언트를 사용하여 조직 내부 및 외부의 다른 사용자와 음성 통화를 시작할 수 있도록 합니다.
   
-회사 음성과 통화를 함께 사용할 수도 있습니다.
+또한 사용자와 함께 전화 Enterprise Voice 사용할 수 있습니다.
   
-- Enterprise Voice는 가장 완벽 한 음성 제공입니다. 이 기능은 Outlook 및 Exchange와의 풍부한 통합, 응답 그룹, 통화 대기, 팀 통화, 그룹 통화 픽업 및 향상 된 긴급 E9-1-1 지원과 같은 다양 한 강력한 기능을 포함 하 여 매우 다양 한 기능을 제공 하는 소프트웨어 기반 VoIP (Voice over IP) 솔루션입니다. Enterprise Voice를 사용 하는 경우 사용자는 기존 PSTN 또는 PBX 전화가 아닌 음성 장치 (예: 컴퓨터와 헤드셋, VoIP 사용 가능 전화기)를 사용할 수 있습니다.
+- Enterprise Voice 가장 완벽한 음성 서비스입니다. 이 기능은 VoIP(Software-powered Voice over IP) 솔루션으로, Outlook 및 Exchange와의 풍부한 통합을 비롯한 다양한 기능 집합과 응답 그룹, 통화 파킹, 팀 통화, 그룹 통화 선택 및 향상된 긴급 E9-1-1 지원과 같은 다양한 기능을 제공합니다. 이 Enterprise Voice 사용하면 기존 PSTN 또는 PBX 전화 대신 컴퓨터의 헤드셋 또는 VoIP 사용 가능 전화와 같은 오디오 장치를 사용합니다.
     
-- 회사 전화를 통한 통화는 비즈니스용 Skype 솔루션을 기존 PBX 전화 시스템과 통합할 수 있는 방법을 제공 합니다. 회사를 통한 통화에 사용 하도록 설정 된 사용자는 배포 또는 외부 사용자 내에서 비즈니스용 Skype를 클릭 하 여 다른 사용자에 게 전화를 걸 수 있습니다. 전화가 사용자의 PBX 전화를 사용 하 여 완료 됩니다. 또한 이러한 사용자는 비즈니스용 Skype를 클릭 하 여 회의에 참가할 수 있습니다.
+- Work를 통해 전화 기능을 사용하면 비즈니스용 Skype 솔루션을 기존 PBX 전화 시스템과 통합할 수 있습니다. 직장에서 전화 기능을 사용하도록 설정된 사용자는 비즈니스용 Skype를 클릭하여 배포 내에서 또는 외부 사용자 내에서 다른 사용자에게 전화를 걸 수 있습니다. 사용자의 PBX 전화를 사용하여 통화가 완료됩니다. 또한 이러한 사용자는 비즈니스용 Skype를 클릭하여 전화 회의에 참가할 수 있습니다.
     
-    회사 전화를 통해 전화를 배포 하는 것은 여전히 PBX 전화가 있지만 Enterprise Voice로 전환 중인 사용자는 휴대폰 통화를 제어 하는 데 해당 사용자의 비즈니스용 Skype 클라이언트를 사용 하는 경우에도 이점이 있습니다.
+    또한 PBX 전화를 사용하지만 비즈니스용 Skype 클라이언트를 사용하여 통화를 제어할 수 있도록 하는 Enterprise Voice PBX 전화가 있는 사용자에게도 도움이 됩니다.
     
-     회사 번호로 전화를 통해 음성 기능 thanEnterprise이 제한 됩니다. 예를 들어 위임, 팀 호출, 응답 그룹 또는 향상 된 E9-1-1을 지원 하지 않습니다.
+     Work를 통한 통화는Enterprise Voice보다 더 제한된 음성 기능 집합을 제공합니다. 예를 들어 위임, 팀 통화, 응답 그룹 또는 고급 E9-1-1을 지원하지 않습니다.
     
-물론 다른 사용자가 PBX 전화를 사용 하는 동안 일부 사용자가 Enterprise Voice를 사용 하도록 설정할 수 있습니다. 또한 전체 Enterprise Voice 솔루션으로 전환 하는 동안 엔터프라이즈 음성에 대 한 PBX 전화가 여전히 있는 사용자를 사용 하도록 설정할 수 있습니다. 이러한 사용자는 책상에서 PBX 전화를 사용할 수 있으며, Enterprise Voice를 사용 하 여 다른 위치에 있는 동안 VoIP 장치를 사용 하 여 전화를 걸거나 받을 수도 있습니다. 이러한 사용자는 직장을 통해 전화를 걸 수 있도록 설정 된 경우 비즈니스용 Skype 클라이언트를 사용 하 여 책상에서 자신의 PBX 전화를 제어할 수도 있습니다.
+물론 다른 사용자가 PBX 전화를 사용하는 동안 Enterprise Voice 사용하도록 설정한 사용자도 있습니다. 또한 전체 Enterprise Voice 솔루션으로 전환하는 동안 여전히 PBX 휴대폰을 사용할 수 있도록 설정할 수 Enterprise Voice. 이러한 사용자는 책상에 있는 동안 PBX 전화를 사용할 수 있으며, 다른 위치에 있는 Enterprise Voice VoIP 장치를 사용하여 전화를 걸거나 받을 수도 있습니다. 이러한 사용자가 업무상 전화 기능을 사용할 수 있는 경우 비즈니스용 Skype 클라이언트를 사용하여 책상에서 PBX 전화를 제어할 수 있습니다.
   
 > [!NOTE]
-> 원격 통화 제어는 이전 버전의 Lync Server에서 제공 되는 기능으로, 사용자가 자신의 Skype 클라이언트를 사용 하 여 PBX 휴대폰에서 전화를 걸고 받을 수 있습니다. 비즈니스용 Skype 서버 서버에 있는 사용자는 원격 통화 제어를 지원 하지 않지만 Lync Server 2013을 실행 중인 서버에 여전히 있는 비즈니스용 Skype 클라이언트를 사용 하는 사용자에 게는 지원 됩니다. 
+> 원격 통화 제어는 이전 버전의 Lync Server에서 제공된 기능으로, 사용자가 자신의 비즈니스용 Skype 클라이언트를 사용하여 PBX 전화로 전화를 걸고 받을 수 있도록 합니다. 원격 통화 제어는 비즈니스용 Skype 서버에 있는 사용자에 대해 지원되지 않지만 Lync Server 2013을 실행하는 서버에 계속 있는 비즈니스용 Skype 클라이언트가 있는 사용자에 대해 지원됩니다. 
   
 ## <a name="see-also"></a>참고 항목
 
 
-[비즈니스용 Skype 서버의 Enterprise Voice 계획](enterprise-voice.md)
+[비즈니스용 Skype Enterprise Voice 계획](enterprise-voice.md)
   
-[비즈니스용 Skype 서버의 직장을 통한 통화 계획](call-via-work.md)
+[비즈니스용 Skype 서버의 직장 전화 계획](call-via-work.md)
   
-[비즈니스용 Skype에서 원격 통화 제어 계획](remote-call-control.md)
+[비즈니스용 Skype의 원격 통화 제어 계획](remote-call-control.md)
 
