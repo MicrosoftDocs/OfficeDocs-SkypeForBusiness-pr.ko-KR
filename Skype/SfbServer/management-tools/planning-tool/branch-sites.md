@@ -1,27 +1,28 @@
 ---
-title: 분기 사이트 (계획 도구)
+title: 분기 사이트(계획 도구)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.BranchOffice
+- ms.lync.plan.BranchOffice
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
-description: 지점 사이트 복구에 대 한 자세한 내용은 지점 간 음성 복구 계획 수립을 참조 하세요.
-ms.openlocfilehash: f8c65309ad04eac4367f3d17957a548bdb7e4757
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 분기 사이트 탄력성에 대한 자세한 내용은 음성 Branch-Site 계획을 참조하세요.
+ms.openlocfilehash: 602277a1006bd10d8f851e90cd38af7c78d56b9a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816517"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835028"
 ---
-# <a name="branch-sites-planning-tool"></a>분기 사이트 (계획 도구)
+# <a name="branch-sites-planning-tool"></a>분기 사이트(계획 도구)
 
-지점 사이트 복구에 대 한 자세한 내용은 [지점 간 음성 복구 계획 수립](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)을 참조 하세요.
+분기 사이트 탄력성에 대한 자세한 내용은 음성 탄력성 Branch-Site [참조하세요.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)
 
 

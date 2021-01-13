@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 2015의 중앙 로깅 서비스에서 만든 캡처 로그 검색
+title: 비즈니스용 Skype 서버의 중앙 로깅 서비스에서 만든 캡처 로그 검색
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -13,33 +13,33 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
-description: '요약: 비즈니스용 Skype 서버 2015에서 중앙 집중화 된 로깅 서비스 캡처 로그를 검색 하 고 읽는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 234bcdcda4fbf4a0fa7cec364b9a8dbb7b757dc7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 비즈니스용 Skype 서버 2015에서 중앙 로깅 서비스 캡처 로그를 검색하고 읽는 방법을 설명하는 문서를 제공합니다.'
+ms.openlocfilehash: 1a030e18f9e59fa26c4bd51aa8c6e69dd96004ba
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816577"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835128"
 ---
-# <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>비즈니스용 Skype 2015의 중앙 로깅 서비스에서 만든 캡처 로그 검색
+# <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 중앙 로깅 서비스에서 만든 캡처 로그 검색
  
-**요약:** 비즈니스용 Skype 서버 2015에서 중앙 로깅 서비스 캡처 로그를 검색 하 고 읽는 방법에 대해 알아봅니다.
+**요약:** 비즈니스용 Skype 서버 2015에서 중앙 로깅 서비스 캡처 로그를 검색하고 읽는 방법을 학습합니다.
   
-중앙 로깅 서비스의 검색 기능은 다음과 같은 이유로 유용 하 고 강력 합니다. 
+중앙 로깅 서비스의 검색 기능은 다음과 같은 이유로 유용하고 강력합니다. 
   
-- 검색 및 결과는 정의한 기준에 따라 단일 컴퓨터, 풀, 사이트 또는 전역 범위에서 실행 됩니다.
+- 검색과 결과가 정의하는 조건을 기준으로 단일 컴퓨터, 풀, 사이트 또는 전역 범위에서 실행됩니다.
     
-- 검색은 초기에 광범위 하 게 사용할 수 있으며 시간, 구성 요소 또는 컴퓨터와 같은 더 많은 대상 기준으로 축소 됩니다. 동일한 로그를 검색 하는 경우 검색 조건이 변경 되 면 로깅 세션을 다시 실행할 필요가 없습니다.
+- 처음에는 검색 범위를 넓게 지정했다가 나중에 시간, 구성 요소, 컴퓨터 등 보다 구체적인 대상이 지정된 조건으로 좁힐 수 있습니다. 동일한 로그를 검색하며 검색 조건이 변경될 때 로깅 세션을 다시 실행할 필요가 없습니다.
     
-- 검색 결과는 범위 내 모든 컴퓨터와 풀에서 수집 되며 검색 조건의 모든 결과를 나타내는 단일 출력 파일로 수집 되 고 집계 됩니다 (실행 중인 시나리오와 시스템에서 캡처한 데이터에 따라 제한 됨). 시나리오). **Snooper** 또는 **메모장** 등의 익숙한 도구를 사용 하 여 배포에서 출력 파일 및 추적 메시지를 읽을 수 있습니다.
+- 범위에 속하는 모든 컴퓨터 및 풀에서 검색 결과를 모은 다음 검색 조건의 모든 결과를 나타내는 단일 출력 파일에 수집 및 집계합니다(검색 시 실행 중이었던 시나리오 및 해당 시나리오에 의해 캡처된 데이터로 제한됨). **Snooper**, **메모장** 등의 익숙한 도구를 사용하여 배포 전체의 출력 파일 및 추적 메시지를 읽습니다.
     
-각 개별 컴퓨터의 CLSAgent는 시나리오 또는 시나리오를 기반으로 로그를 만듭니다 (컴퓨터당 두 가지 시나리오는 주어진 시간에 실행 될 수 있음). 로그 및 관련 인덱스 및 캐시 파일은 CLSAgent에서 관리 합니다. 검색을 정의 하 고 실행할 때 검색 명령은 검색할 정보에 대해 CLSAgent에 지시 합니다. CLSAgent는 로그 파일, 캐시 파일, 인덱스 파일에 대해 쿼리를 실행 하 고 검색 결과를 CLSContoller에 반환 합니다. CLSController는 검색 범위에 있는 모든 컴퓨터 및 풀에서 검색 결과를 받습니다. 그런 다음 CLSController는 로그를 집계 (결합) 하 고, 오래 된 항목에 먼저 입력 하 고, 최근 항목에 마지막으로 시간을 붙여 넣습니다.
+개별 컴퓨터의 CLSAgent가 하나 이상의 시나리오(지정된 시간에 컴퓨터당 두 개의 시나리오를 실행할 수 있음)를 기준으로 로그를 만듭니다. 로그 및 로그에 연결된 인덱스와 캐시 파일은 CLSAgent를 통해 관리됩니다. 검색을 정의하고 실행하면 검색 명령은 검색할 정보를 CLSAgent에 지시합니다. 그러면 CLSAgent는 로그 파일, 캐시 파일 및 인덱스 파일에 대해 쿼리를 실행하고 검색 결과를 CLSController로 반환합니다. CLSController는 검색 범위 내의 모든 컴퓨터와 풀에서 검색 결과를 받습니다. 그런 다음 CLSController는 로그를 집계(결합)하여 시간 간격순으로 배치합니다(가장 오래된 항목부터 시간상 가장 최근 항목순).
   
-각 검색 후에 **동기화-CsClsLogging** cmdlet이 실행 되 고, 검색에 사용 되는 캐시를 플러시합니다 (clsagent에서 유지 관리 하는 캐시 파일과 혼동 하지 않음). 캐시를 플러시하 면 다음 검색 작업을 위해 CLSController에 정리 된 로그 및 추적 파일 캡처 버퍼가 있는지 확인 하는 데 도움이 됩니다.
+각 검색 후 **Sync-CsClsLogging** cmdlet이 실행되며, 이 cmdlet은 검색에 사용된 캐시를 플러시합니다(CLSAgent가 유지 관리하는 캐시 파일이 아님). 캐시를 플러시하면 CLSController에 다음 검색 작업을 위한 새 로그 및 추적 파일 캡처 버퍼가 생성됩니다.
   
-중앙 로깅 서비스의 이점을 최대한 활용 하려면 검색을 구성 하 여 리서치 하려는 문제와 관련 된 컴퓨터 및 풀 로그의 추적 메시지만 반환 하는 방법에 대해 잘 알고 있어야 합니다. 사항
+중앙 로깅 서비스를 가장 잘 이용하려면 검색할 문제와 관련된 컴퓨터 및 풀 로그에서 추적 메시지만 반환하도록 검색을 구성하는 방법을 잘 이해해야 합니다. issues
   
-비즈니스용 Skype Server Management Shell을 사용 하 여 중앙 집중식 로깅 서비스 검색 기능을 실행 하려면 CsAdministrator 또는 CsServerAdministrator 역할 기반 액세스 제어 (RBAC) 보안 그룹 또는 사용자 지정 RBAC 역할 중 하나의 구성원 이어야 합니다. 이러한 두 그룹 중 하나가 포함 되어 있습니다. 이 cmdlet이 할당 된 모든 RBAC 역할 목록 (직접 만든 사용자 지정 RBAC 역할 포함)을 반환 하려면 비즈니스용 Skype Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
+비즈니스용 Skype 서버 관리 셸을 사용하여 중앙 로깅 서비스 검색 기능을 실행하려면 CsAdministrator 또는 CsServerAdministrator RBAC(역할 기반 액세스 제어) 보안 그룹의 구성원 또는 이러한 두 그룹 중 하나를 포함하는 사용자 지정 RBAC 역할의 구성원이 되어야 합니다. 직접 만든 사용자 지정 RBAC 역할을 포함하여 이 cmdlet이 할당된 모든 RBAC 역할의 목록을 반환하기 위해 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행합니다.
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -51,20 +51,20 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 201
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-이 항목의 나머지 부분에서는 문제 해결을 최적화 하기 위해 검색을 정의 하는 방법에 대해 중점적으로 설명 합니다.
+이 항목의 나머지 부분에서는 문제 해결 과정을 최적화하기 위해 검색을 정의하는 방법에 대해 중점적으로 설명합니다.
   
-### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>중앙 로깅 서비스를 사용 하 여 기본 검색을 실행 하려면
+### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>중앙 로깅 서비스를 사용하여 기본 검색을 실행하기 위해
 
-1. 비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
-2. 전역 범위에서 배포에 AlwaysOn 시나리오가 실행 되 고 있는지 확인 한 다음 명령 프롬프트에서 다음을 입력 합니다.
+2. 배포의 전역 범위에서 AlwaysOn 시나리오가 실행 중인지 확인한 후 명령 프롬프트에 다음을 입력합니다.
     
    ```PowerShell
    Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
    ```
 
 > [!NOTE]
-> 기본적으로 검색-CsClsLogging은 검색 결과를 콘솔에 보냅니다. 검색 결과를 파일에 저장 하려는 경우-outputfilepath _ \<문자열 정식 파일 경로\>_ 를 사용 합니다. -OutputFilePath 매개 변수를 정의 하려면 따옴표로 묶인 문자열 형식으로 경로와 파일 이름을 매개 변수의 일부로 제공 합니다 (예: C:\LogFiles\SearchOutput.txt). 이 예제에서는 디렉터리 c 로그 파일이 존재 하 고 폴더에 대 한 읽기 및 쓰기 권한 (NTFS 사용 권한 수정)이 있는지 확인 해야 합니다. 출력이 추가 되 고 덮어쓰여지지 않습니다. 별도의 파일이 필요한 경우 각 검색에 대해 고유한 파일 이름을 정의 합니다. 
+> 기본적으로 Search-CsClsLogging은 검색 결과를 콘솔로 보냅니다. 검색 결과를 파일에 저장하려는 경우 -OutputFilePath를 사용  _\<string fully qualified file path\>_ 합니다. -OutputFilePath 매개 변수를 정의하기 위해 매개 변수의 일부로 경로와 파일 이름을 인용 부호(예: C:\LogFiles\SearchOutput.txt)로 묶은 문자열 형식으로 제공합니다. 이 예제에서는 C:\LogFiles 디렉터리가 있으며 해당 폴더에서 파일 읽기 및 쓰기 권한(수정 NTFS 권한)이 있는지 확인해야 합니다. 출력은 추가되며 기존 로그를 덮어쓰지 않습니다. 별도의 파일이 필요하면 각 검색에 대해 고유한 파일 이름을 정의합니다. 
   
 예를 들면 다음과 같습니다.
     
@@ -72,9 +72,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
   ```
 
-### <a name="to-run-a-basic-search-on-a-pool-or-computer-by-using-the-centralized-logging-service"></a>중앙 로깅 서비스를 사용 하 여 풀이나 컴퓨터에서 기본 검색을 실행 하려면
+### <a name="to-run-a-basic-search-on-a-pool-or-computer-by-using-the-centralized-logging-service"></a>중앙 로깅 서비스를 사용하여 풀 또는 컴퓨터에서 기본 검색을 실행하려면
 
-1. 특정 풀이나 컴퓨터로 검색을 제한 하려면-Computers 매개 변수를 컴퓨터의 정규화 된 이름으로 정의한 컴퓨터와 함께 사용 하 고, 다음과 같이 따옴표로 묶이고 쉼표로 구분 합니다.
+1. 검색을 특정 풀 또는 컴퓨터로 제한하려면 컴퓨터의 정식 이름으로 정의된 컴퓨터와 함께 -Computers 매개 변수를 사용합니다. 인용 부호로 묶고 다음과 같이 COMMA로 구분합니다.
     
    ```PowerShell
    Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
@@ -86,21 +86,21 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
   ```
 
-2. 두 대 이상의 컴퓨터를 검색 하려면 다음과 같이 따옴표로 묶여 여러 컴퓨터 이름을 입력 하 고 쉼표로 구분 합니다.
+2. 둘 이상의 컴퓨터를 검색하려면 다음과 같이 여러 컴퓨터 이름을 따옴표로 묶고 쉼표로 구분합니다.
     
    ```PowerShell
    Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
    ```
 
-3. 단일 컴퓨터 대신 전체 풀을 검색 해야 하는 경우-Computers 매개 변수를-풀링합니다으로 변경 하 고 컴퓨터 이름을 제거한 다음 쉼표로 구분 된 풀 또는 풀로 바꿉니다.
+3. 단일 컴퓨터 대신 전체 풀을 검색해야 하는 경우 -Computers 매개 변수를 -Pools로 변경하고 컴퓨터 이름을 제거한 다음 0.0으로 구분된 따량 표시의 풀 또는 풀로 바꿔야 합니다.
     
-    예를 들면 다음과 같습니다.
+    예제:
     
    ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-4. 검색 명령을 사용 하는 경우에는 배포의 풀 (예: 프런트 엔드 풀, Edge 풀, 영구 채팅 서버 풀 등)과 배포에서 풀로 정의 된 사용자 중 풀이 될 수 있습니다.
+4. 검색 명령을 사용하는 경우 풀은 배포의 모든 풀(예: 프런트 엔드 풀, 에지 풀, 영구 채팅 서버 풀 또는 배포에서 풀로 정의된 다른 풀)일 수 있습니다.
     
     예를 들면 다음과 같습니다.
     
@@ -108,22 +108,22 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-### <a name="to-run-a-search-by-using-time-parameters"></a>시간 매개 변수를 사용 하 여 검색을 실행 하려면
+### <a name="to-run-a-search-by-using-time-parameters"></a>시간 매개 변수를 사용하여 검색을 실행하려면
 
-1. 비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
-2. 기본적으로 검색의 시간 관련 매개 변수에 대 한 시작 시간은 검색 시작 후 5 분 전의 25 분입니다. 즉, 4:00:00 PM에서 검색 하는 경우 검색 시작 시간은 3:35:00 PM으로 4:05:00 PM으로 표시 됩니다. 현재 시간 전에 60 분 또는 3 시간 전에 검색 해야 하는 경우-StartTime 매개 변수를 사용 하 고 날짜 및 시간 문자열을 설정 하 여 검색을 시작할 시간을 표시 합니다. 
+2. 기본적으로 검색의 시간별 매개 변수의 시작 시간은 검색을 시작한 후 5분 전인 25분입니다. 즉, 오후 4:00:00에 검색하는 경우 검색 시작 시간은 오후 3:35:00에서 오후 4:05:00까지로 표시 됩니다. 현재 시간 60분 또는 3시간 전에 검색해야 하는 경우 -StartTime 매개 변수를 사용하여 날짜 및 시간 문자열을 설정하여 검색을 시작할 시간을 나타냅니다. 
     
-    예를 들어-StartTime 및-EndTime을 사용 하 여 시간 및 날짜 범위를 정의 하면 풀의 11/20/2012에 오전 8 시와 9 시 사이의 검색을 정의할 수 있습니다. 다음과 같이 c:\logfile.txt 이라는 파일에 결과를 기록 하도록 출력 경로를 설정할 수 있습니다.
+    예를 들어 -StartTime 및 -EndTime을 사용하여 시간 및 날짜 범위를 정의하면 풀에서 2012년 11월 20일 오전 8시부터 오전 9시 사이에 검색을 정의할 수 있습니다. 그리고 다음과 같이 결과를 c:\logfile.txt라는 파일에 쓰도록 출력 경로를 설정할 수 있습니다.
     
    ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 > [!NOTE]
-> 지정 하는 시간 및 날짜 문자열은 "날짜 시간" 또는 "시간 날짜" 일 수 있습니다. "명령은 문자열을 구문 분석 하 고, cmdlet을 실행 하는 컴퓨터의 로캘 및 culture 설정 및 날짜 및 시간에 적절 한 값을 사용 합니다. 
+> 지정하는 시간 및 날짜 문자열은 "날짜 시간" 또는 "시간 날짜"일 수 있습니다. "이 명령은 문자열을 구문 분석하고 날짜 및 시간 및 cmdlet을 실행하는 컴퓨터의 로컬 및 문화권 설정에 적절한 값을 사용합니다. 
   
-3. 11:00:00 오전 11/20/2012에 시작 되는 로그를 검색 하려면-StartTime을 정의 합니다. 특정 EndTime을 정의 하지 않는 한 검색의 기본 시간 범위는 30 분입니다. 결과 검색은 정의 된 컴퓨터 또는 풀의 로그를 오전 11:00:00에서 11:30:00 AM으로 반환 합니다.
+3. 2012년 11월 20일 오전 11시부터 로그를 검색하려면 -StartTime을 정의합니다. 특정 -EndTime을 정의하지 않는 한 검색의 기본 시간 범위는 30분입니다. 이 경우 수행되는 검색은 정의된 컴퓨터에서 오전 11시에서 11시 30분 사이의 로그를 반환합니다.
     
 예를 들면 다음과 같습니다.
     
@@ -131,7 +131,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
-4. 특정 기간 내에 로그 검색을 수행 하려면-StartTime 및-EndTime을 정의 합니다. 컴퓨터 edge01.contoso.net 1 PM부터 2:45 PM 까지의 로그가 필요 합니다. 
+4. 특정 기간 내에 로그 검색을 수행하려면 -StartTime 및 -EndTime을 정의합니다. edge01.contoso.net 컴퓨터에서 오후 1시~2시 45분의 로그를 검색해야 한다고 가정해 보겠습니다. 
     
 예를 들면 다음과 같습니다.
     
@@ -139,11 +139,11 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   Search-CsClsLogging -Computers "edge01.contoso.net" -StartTime "11/20/2012 1:00:00 PM" -EndTime "11/20/2012 2:45:00 PM" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
-### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>다른 조건과 일치 옵션을 사용 하 여 고급 검색을 실행 하려면
+### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>다른 조건 및 일치 옵션을 사용하여 고급 검색을 실행하려면
 
-1. 비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
-2. 특정 구성 요소에 대 한 추적을 수집 하는 명령을 실행 하려면 다음을 입력 합니다.
+2. 명령을 실행하여 특정 구성 요소의 추적을 수집하려면 다음을 입력합니다.
     
    ```PowerShell
    Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
@@ -155,21 +155,21 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
-결과 검색은 지난 30 분 동안 배포의 모든 컴퓨터와 풀에 대 한 SIPStack, S4 및 UserServices에 대 한 추적 구성 요소가 있는 모든 로그 항목을 반환 합니다.
+이 경우 실행되는 검색은 배포의 모든 컴퓨터 및 풀에서 지난 30분 동안의 SIPStack, S4 및 UserServices에 대한 추적 구성 요소를 포함하는 모든 로그 항목을 반환합니다.
     
-3. Pool01.contoso.net 라는 프런트 엔드 풀에 대해서도 동일한 구성 요소로 검색을 제한 하려면 다음을 입력 합니다.
+3. 동일한 구성 요소로 검색을 이름 있는 프런트 엔드 풀로만 제한하고 pool01.contoso.net 입력합니다.
     
    ```PowerShell
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-4. 여러 매개 변수가 있는 명령에 대 한 기본 검색 논리는 정의 된 각 매개 변수와 논리 OR를 사용 하는 것입니다. **-Matchall** 매개 변수를 지정 하 여이 동작을 변경할 수 있습니다. 이렇게 하려면 다음을 입력 합니다.
+4. 매개 변수가 여러 개인 경우 명령에 사용되는 기본 검색 논리는 정의된 각 매개 변수에 대해 논리 OR을 사용하는 것입니다. **-MatchAll** 매개 변수를 지정하여 이 동작을 변경할 수 있습니다. 이렇게 하려면 다음을 입력합니다.
     
    ```PowerShell
    Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-5. 시나리오가 AlwaysOn과 같이 지속적으로 실행 되도록 설정 되어 있거나 장기 실행 시나리오 로그가 사용자가 로컬 컴퓨터를 파일 공유로 롤백할 수 있습니다. 새 구성을 만들거나 Set-CsClsConfiguration을 사용 하 여 기존 구성을 수정 하기 위해 새로운 CsClsConfiguration을 사용 하 여 CacheFileNetworkFolder 매개 변수를 사용 하 여 파일 공유를 정의 합니다. 검색할 로그 모음에 파일 공유를 포함 하지 않으려면 다음과 같이 SkipNetworkLogs 매개 변수를 사용 합니다.
+5. AlwaysOn과 같이 시나리오가 지속적으로 실행되도록 설정되어 있거나 장기 실행 시나리오를 정의한 경우에는 로그가 로컬 컴퓨터에서 파일 공유로 이동될 수 있습니다. 이 경우 New-CsClsConfiguration을 사용하여 새 구성을 만들거나 Set-CsClsConfiguration을 사용하여 기존 구성을 수정하는 방법으로 CacheFileNetworkFolder 매개 변수를 사용해 파일 공유를 정의합니다. 검색에서 검색할 로그 모음에 파일 공유를 포함하지 않으려면 다음과 같이 SkipNetworkLogs 매개 변수를 사용합니다.
     
    ```PowerShell
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -177,32 +177,32 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>중앙 로깅 서비스에서 캡처 로그 읽기
 
-검색을 실행 한 후 보고 된 문제를 추적 하는 데 사용할 수 있는 파일을가지고 있는 경우 중앙 로깅 서비스의 실질적인 이점을 얻게 됩니다. 파일을 읽을 수 있는 방법에는 여러 가지가 있습니다. 출력 파일은 표준 텍스트 형식으로 되어 있으며, Notepad.exe 또는 텍스트 파일을 열고 읽는 데 사용할 수 있는 다른 프로그램을 사용 하면 됩니다. 대용량 파일과 복잡 한 문제가 발생 하는 경우 중앙 로깅 서비스에서 로깅 출력을 읽고 구문 분석 하도록 디자인 된 Snooper 같은 도구를 사용할 수 있습니다. Snooper는 별도의 다운로드로 제공 되는 디버그 도구에 포함 되어 있습니다. 디버그 도구는 다음과 같이 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257)다운로드할 수 있습니다. 디버그 도구를 설치 하면 짧은 컷 및 메뉴 항목이 만들어지지 않습니다. 디버그 도구를 설치한 후 Windows 탐색기, 명령줄 창 또는 비즈니스용 Skype Server Management Shell을 열고 Business Server 2015 용 C:\Program Files\Skype 디렉터리 (기본 위치)로 이동 하 여 디버깅 도구를 만듭니다. Snooper를 두 번 클릭 하거나 Snooper를 입력 한 다음 명령줄 또는 비즈니스용 Skype Server Management Shell을 사용 하는 경우 enter 키를 누릅니다.
+검색을 실행하고 보고된 문제를 추적하는 데 사용할 수 있는 파일이 있는 경우 중앙 로깅 서비스의 실제 이점을 실현할 수 있습니다. 파일을 읽을 수 있는 방법은 여러 가지가 있습니다. 출력 파일이 표준 텍스트 형식이면 Notepad.exe 또는 텍스트 파일을 열고 읽을 수 있는 기타 프로그램을 사용할 수 있습니다. 파일 크기가 크고 더 복잡한 문제의 경우 중앙 로깅 서비스에서 로깅 출력을 읽고 구문 분석하도록 디자인된 Snooper.exe 도구와 같은 도구를 사용할 수 있습니다. Snooper는 별도의 다운로드로 사용할 수 있는 디버그 도구에 포함되어 있습니다. 다음에서 디버그 도구를 다운로드할 수 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) 있습니다. 디버그 도구를 설치하면 짧은 잘라 내기 및 메뉴 항목이 만들어지지 않습니다. 디버그 도구를 설치한 후 Windows 탐색기, 명령줄 창 또는 비즈니스용 Skype 서버 관리 셸을 열고 디렉터리(기본 위치) C:\Program Files\Skype for Business Server 2015\디버깅 도구로 이동하십시오. 명령줄이나 Snooper.exe 셸을 사용하려면 Snooper.exe 입력한 다음 Enter를 클릭합니다.
   
 > [!IMPORTANT]
-> 이 항목의 목적은 문제 해결 기법을 자세히 설명 하 고 논의 하는 것이 아닙니다. 문제 해결 및 관련 프로세스는 복잡 한 주제입니다. 해결 방법에 대 한 자세한 내용과 특정 작업 부하 문제 해결에 대 한 자세한 내용은의 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003)Microsoft Lync Server 2010 Resource Kit 책을 참조 하세요. 프로세스와 절차는 계속 해 서 비즈니스용 Skype 서버 2015에 적용 됩니다. 
+> 이 문서에서는 문제 해결 기술에 대해 자세히 설명하거나 논의하지 않습니다. 문제 해결 및 관련 프로세스는 복잡한 주제입니다. 기본 사항 문제 해결 및 특정 작업 문제 해결에 대한 자세한 내용은 Microsoft Lync Server 2010 Resource Kit book(Microsoft Lync Server 2010 Resource Kit)을 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) 참조합니다. 프로세스 및 절차는 비즈니스용 Skype 서버 2015에도 계속 적용됩니다. 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>Snooper에서 로그 파일을 열려면
 
-1. Snooper를 사용 하 고 로그 파일을 열려면 로그 파일에 대 한 읽기 권한이 필요 합니다. Snooper를 사용 하 고 로그 파일에 액세스 하려면 CsAdministrator의 구성원 이거나,이 두 그룹 중 하나를 포함 하는 CsServerAdministrator 역할 기반 액세스 컨트롤 (RBAC) 보안 그룹 또는 사용자 지정 RBAC 역할 이어야 합니다. 
+1. Snooper를 사용하여 로그 파일을 열려면 로그 파일에 대한 읽기 액세스 권한이 있어야 합니다. Snooper를 사용하여 로그 파일에 액세스하려면 CsAdministrator 또는 CsServerAdministrator RBAC(역할 기반 액세스 제어) 보안 그룹의 구성원이거나 이들 두 그룹 중 하나를 포함하는 사용자 지정 RBAC 역할의 구성원이어야 합니다. 
     
-2. 디버깅 도구 (LSnooper Cdebugtools)를 설치한 후 Windows 탐색기 또는 명령줄을 사용 하 여 디렉터리를 위치로 변경 합니다. 기본적으로 디버깅 도구는 Business Server 2015 \ 디버깅 도구에 대 한 C:\Program Files\Skype에 있습니다. Snooper를 두 번 클릭 하거나 실행 합니다.
+2. 디버깅 도구(LyncDebugTools.msi)를 설치한 후 디렉터리를 Windows 탐색기 또는 명령줄에서 Snooper.exe 위치로 변경합니다. 기본적으로 디버깅 도구는 C:\Program Files\Skype for Business Server 2015\Debugging Tools에 있습니다. Snooper.exe를 두 번 클릭하거나 실행합니다.
     
-3. Snooper가 열리면 **파일**을 마우스 오른쪽 단추로 클릭 하 고 **OpenFile**을 클릭 하 고 로그 파일을 찾은 다음 **열기** 대화 상자에서 파일을 선택 하 고 **열기**를 클릭 합니다.
+3. Snooper가 열리면 **File(파일)** 을 클릭하고 **OpenFile** 을 클릭한 다음 **Open(열기)** 대화 상자에서 로그 파일을 찾아 선택한 후 **Open(열기)** 을 클릭합니다.
     
-4. **추적** 탭에 로그 파일의 **추적** 메시지가 표시 됩니다. 수집 된 추적의 메시지 내용을 보려면 **메시지** 탭을 클릭 합니다.
+4. 로그 파일의 **추적** 메시지가 추적 **탭에** 표시됩니다. 메시지 **탭을 클릭하여** 수집된 추적의 메시지 내용을 볼 수 있습니다.
     
-### <a name="to-display-a-call-flow-diagram"></a>통화 흐름 다이어그램을 표시 하려면
+### <a name="to-display-a-call-flow-diagram"></a>통화 흐름 다이어그램을 표시하려면
 
-1. Snooper를 사용 하 고 로그 파일을 열려면 로그 파일에 대 한 읽기 권한이 필요 합니다. Snooper를 사용 하 고 로그 파일에 액세스 하려면 CsAdministrator의 구성원 이거나,이 두 그룹 중 하나를 포함 하는 CsServerAdministrator 역할 기반 액세스 컨트롤 (RBAC) 보안 그룹 또는 사용자 지정 RBAC 역할을 만들어야 합니다.
+1. Snooper를 사용하여 로그 파일을 열려면 로그 파일에 대한 읽기 액세스 권한이 있어야 합니다. Snooper를 사용하여 로그 파일에 액세스하려면 CsAdministrator 또는 CsServerAdministrator RBAC(역할 기반 액세스 제어) 보안 그룹의 구성원이거나 이들 두 그룹 중 하나를 포함하는 사용자 지정 RBAC 역할의 구성원이어야 합니다.
     
-2. 로그 파일을 열고 **메시지** 탭을 클릭 하 고 메시지 보기에서 대화를 선택 하거나 **추적** 탭에서 추적 구성 요소를 선택 합니다.
+2. 로그 파일을 열고 **Messages(메시지)** 탭을 클릭한 다음 메시지 보기에서 대화를 선택하거나, **Trace(추적)** 탭에서 추적 구성 요소를 선택합니다.
     
-3. **통화 흐름**을 클릭 합니다.
+3. **Call Flow(통화 흐름)** 을 클릭합니다.
     
 > [!NOTE]
-> 호출 흐름의 일부가 아닌 메시지 또는 추적을 클릭 하면 다이어그램이 나타나지 않으며 "이 메시지는 callSnooper에 적합 하지 않습니다." 라는 상태 메시지가 표시 됩니다. 다른 메시지 또는 추적을 선택 하면 메시지 또는 추적이 호출 흐름의 일부인 경우 호출 흐름이 표시 됩니다. 
+> 통화 흐름에 속하지 않는 메시지나 추적을 클릭하면 다이어그램이 나타나지 않습니다. 그러면 Snooper 아래쪽에 "이 메시지는 콜오프할 수 없습니다."라는 상태 메시지가 나타납니다. 통화 흐름의 일부인 다른 메시지나 추적을 선택하면 통화 흐름이 나타납니다. 
   
-4. 메시지 또는 추적 선을 이동 하 고 새 다이어그램을 표시 하기 위해 호출 흐름 다이어그램이 업데이트 또는 변경 되는지 확인 합니다.
+4. 메시지 또는 추적 줄 간을 이동하여 통화 흐름 다이어그램이 새로운 다이어그램을 표시하도록 업데이트 또는 변경되는지 확인합니다.
     
-5. 요소 위에 커서를 올리면 호출 메시지, 끝점 및 기타 구성 요소에 대 한 정보를 얻을 수 있습니다.
+5. 통화 메시지, 끝점, 기타 구성 요소에 대한 정보를 확인하려면 요소 위에 마우스 커서를 놓습니다.
