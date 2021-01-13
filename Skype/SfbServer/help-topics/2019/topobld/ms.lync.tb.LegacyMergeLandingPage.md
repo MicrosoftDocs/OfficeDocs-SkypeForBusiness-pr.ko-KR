@@ -1,8 +1,8 @@
 ---
 title: 레거시 병합 Landing
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6dd2227a-1fbd-4133-b27f-227b0fe47805
 ROBOTS: NOINDEX, NOFOLLOW
-description: Edge 설정 지정 페이지에서는 레거시 Edge 서버 정보를 구성할 수 있습니다. 추가를 클릭 하 여 Office Communications Server 배포의 레거시 Edge Server 버전을 지정 합니다. 레거시 환경에 Edge 서버가 없으면 다음을 클릭 하 여 계속 합니다.
-ms.openlocfilehash: 7203a6377cbda49fb4d1b51751df274487a5a3ba
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 에지 설정 지정 페이지에서 레거시 에지 서버 정보를 구성할 수 있습니다. Office Communications Server 배포의 레거시 에지 서버 버전을 지정하려면 추가를 클릭합니다. 레거시 환경에 에지 서버가 없는 경우 계속하려면 다음을 클릭합니다.
+ms.openlocfilehash: b87f43d2d6fae24a86ff8846d2159755c9a67bb8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796297"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827438"
 ---
 # <a name="legacy-merge-landing"></a>레거시 병합 Landing
  
-**Edge 설정 지정** 페이지에서는 레거시 edge 서버 정보를 구성할 수 있습니다. **추가** 를 클릭 하 여 Office Communications server 배포의 레거시 Edge server 버전을 지정 합니다. 레거시 환경에 Edge 서버가 없으면 **다음** 을 클릭 하 여 계속 합니다.
+**에지 설정 지정 페이지에서** 레거시 에지 서버 정보를 구성할 수 있습니다. Office Communications Server 배포의 레거시 에지 서버 버전을 지정하려면 **추가** 를 클릭합니다. 레거시 환경에 에지 서버가 없는 경우 계속하려면 **다음** 을 클릭합니다.
   
 

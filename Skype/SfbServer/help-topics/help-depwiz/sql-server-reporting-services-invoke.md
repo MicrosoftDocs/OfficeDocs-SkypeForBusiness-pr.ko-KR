@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services(호출)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
-description: Microsoft SQL Server 2008 R2 또는 Microsoft SQL Server 2012 보고서 서비스에 모니터링 서버를 배포 하는 데 필요한 정보를 제공 하면 페이지 실행 명령이 다음을 설치 하기 위해 실행 되는 명령의 요약을 표시 합니다. SQL Server Reporting Services에 대 한 보고서입니다.
-ms.openlocfilehash: ba0b1b70d3dc1d0dbcc68931fc8bf601b7693efd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Microsoft SQL Server 2008 R2 또는 Microsoft SQL Server 2012 Report Services에 모니터링 서버 보고서를 배포하는 데 필요한 정보를 제공하면 명령 실행 페이지에 SQL Server Reporting Services에 보고서를 설치하기 위해 실행되는 명령 요약이 표시됩니다.
+ms.openlocfilehash: eac8b7884859c0b5b14218471054533eedb6d481
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823342"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829538"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services(호출)
  
-Microsoft SQL Server 2008 R2 또는 Microsoft SQL Server 2012 보고서 서비스에 모니터링 서버를 배포 하는 데 필요한 정보를 제공 하면 페이지 실행 명령이 다음을 설치 하기 위해 실행 되는 명령의 요약을 표시 합니다. SQL Server Reporting Services에 대 한 보고서입니다.
+Microsoft SQL Server 2008 R2 또는 Microsoft SQL Server 2012 Report Services에 모니터링 서버 보고서를 배포하는 데 필요한 정보를 제공하면 명령 실행 페이지에 SQL Server Reporting Services에 보고서를 설치하기 위해 실행되는 명령 요약이 표시됩니다.
   
-명령 요약을 검토하고 명령에서 표시된 오류나 경고 메시지가 있는지 확인합니다. 로그 파일이 생성된 경우 요약 창의 드롭다운 목록에서 로그 파일을 선택하고 **로그 보기**를 클릭하여 로그 파일을 표시합니다.
+명령 요약을 검토하고 명령에서 표시된 오류나 경고 메시지가 있는지 확인합니다. 로그 파일이 생성된 경우 요약 창의 드롭다운 목록에서 로그 파일을 선택하고 **로그 보기** 를 클릭하여 로그 파일을 표시합니다.
   
 > [!IMPORTANT]
-> Reporting Services 보고서를 성공적으로 배포 하 고 배포 완료 후에 보고서에 액세스 하려면 TCP/IP 포트 80 (필요에 따라 SSL에 대 한 TCP 포트 443 (Reporting Services에 인증서를 할당 하는 경우)이 Windows 방화벽에서 SQL Server에 고급 보안이 설정 된 상태로 열려 있어야 합니다. 자세한 내용은 Microsoft SQL Server 2008 R2에 대 한 [SQL Server 액세스를 허용 하도록 Windows 방화벽 구성을](https://go.microsoft.com/fwlink/p/?linkId=218031) 참조 하세요.
+> Reporting Services 보고서를 성공적으로 배포하고 배포가 완료된 후 보고서에 액세스하려면 TCP/IP 포트 80(그리고 Reporting Services에 인증서를 할당하는 경우 SSL용 TCP 포트 443)이 보고서의 고급 보안이 있는 Windows 방화벽에 열려 있어야 SQL Server. 자세한 내용은 [Windows](https://go.microsoft.com/fwlink/p/?linkId=218031) 방화벽을 구성하여 SQL Server 2008 R2에 대한 Microsoft SQL Server 참조합니다.
   
-요약을 검토 한 후 **마침을** 클릭 하 여 SQL Server Reporting Services에 대 한 보고서 설치를 완료 합니다.
+요약을 검토한 후 **마친** 후 Reporting Services에 대한 보고서 설치를 SQL Server 클릭합니다.
   
 

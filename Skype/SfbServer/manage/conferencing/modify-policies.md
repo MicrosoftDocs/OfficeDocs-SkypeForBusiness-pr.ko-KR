@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버에서 회의 정책 수정
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,44 +11,44 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
-description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 수정 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 4f78a956754e4375ac1dfa7460222b1fb1bbf9ef
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 수정하는 방법을 설명하는 정보를 제공합니다.'
+ms.openlocfilehash: eafeb56dd9b0c36afffab07830a9efb71bde18fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818509"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828008"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 정책 수정
  
-**요약:** 비즈니스용 Skype 서버에서 회의 정책을 수정 하는 방법에 대해 알아봅니다.
+**요약:** 비즈니스용 Skype 서버에서 회의 정책을 수정하는 방법에 대해 자세히 알아보습니다.
   
-Skype for Business Server 제어판을 사용 하거나 비즈니스용 Skype 서버 관리 셸을 사용 하 여 회의 정책을 수정할 수 있습니다.
+비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책을 수정할 수 있습니다.
   
-## <a name="modify-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype Server 제어판을 사용 하 여 회의 정책 수정
+## <a name="modify-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 회의 정책 수정
 
-1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 합니다.
+1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
     
-2.  비즈니스용 Skype Server 제어판을 엽니다.
+2.  비즈니스용 Skype 서버 제어판을 니다.
     
-3. 왼쪽 탐색 모음에서 **회의**를 클릭 한 다음 **회의 정책을**클릭 합니다.
+3. 왼쪽 탐색 모음에서 회의를 클릭한 다음 회의 **정책을 클릭합니다.**
     
-4. 회의 정책 목록에서 변경 하려는 정책을 클릭 하 고 **편집**을 클릭 한 다음 **세부 정보 표시**를 클릭 합니다.
+4. 회의 정책 목록에서 변경할 정책을 클릭하고 **편집** 을 클릭한 다음 **자세한 정보 표시** 를 클릭합니다.
     
-5. **회의 편집 정책**에서 수정할 수 없는 정책 이름을 제외한 모든 정책 설정을 수정 합니다.
+5. **회의 정책 편집** 에서 수정이 불가능한 정책 이름을 제외한 정책 설정을 수정합니다.
     
-6. **커밋**을 클릭합니다.
+6. **커밋** 을 클릭합니다.
     
-## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype Server Management Shell을 사용 하 여 회의 정책 수정
+## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책 수정
 
-회의 정책을 수정 하려면 **Set-CsConferencingPolicy** cmdlet을 사용 합니다.
+회의 정책을 수정하려면 **Set-CsConferencingPolicy** cmdlet을 사용 합니다.
   
-다음 예제에서는 회의 정책 SalesConferencingPolicy의 속성 값을 수정 합니다. 명령에서 AllowConferenceRecording 속성 값을 False로 설정 합니다.
+다음 예에서는 회의 정책 SalesConferencingPolicy의 속성 값을 수정합니다. 이 명령은 AllowConferenceRecording 속성의 값을 False로 설정합니다.
   
 ```PowerShell
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 
-전체 구문 및 매개 변수 목록을 비롯 한 자세한 내용은 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)를 참조 하세요.
+전체 구문과 매개 변수 목록을 비롯한 자세한 내용은 [Set-CsConferencingPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
   
 

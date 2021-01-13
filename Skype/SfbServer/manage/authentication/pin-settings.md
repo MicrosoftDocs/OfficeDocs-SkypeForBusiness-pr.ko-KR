@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버의 PIN 설정 관리
+title: 비즈니스용 Skype 서버에서 PIN 설정 관리
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,21 +12,21 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
-description: '요약: 비즈니스용 Skype 서버에서 PIN 설정을 관리 합니다.'
-ms.openlocfilehash: cea16a42459f15a3d87df7e2b78779e67c4502bc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 비즈니스용 Skype 서버에서 PIN 설정을 관리합니다.'
+ms.openlocfilehash: 499e18b3c4b44e6a5a5cf481ae7b6c0391de6042
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818770"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828338"
 ---
-# <a name="manage-pin-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 PIN 설정 관리
+# <a name="manage-pin-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 PIN 설정 관리
  
-**요약:** 비즈니스용 Skype 서버의 PIN 설정 관리
+**요약:** 비즈니스용 Skype 서버에서 PIN 설정을 관리합니다.
   
-비즈니스용 Skype 서버에서 핀을 관리 하려면 다음 섹션의 절차를 사용 하세요.
+다음 섹션의 절차에 따라 비즈니스용 Skype 서버에서 PINS를 관리합니다.
   
-비즈니스용 skype server 제어판 또는 비즈니스용 skype 서버 관리 셸에서 비즈니스용 Skype Server PIN 정책을 관리할 수 있습니다. 조직의 PIN 정책을 구성 하려면 다음 절차를 사용 합니다.
+비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸에서 비즈니스용 Skype 서버 PIN을 관리할 수 있습니다. 조직의 PIN 정책을 구성하려면 다음 절차를 따르십시오.
   
 - [비즈니스용 Skype 서버에서 PIN 정책 정보 보기](view-pin-policy-information.md)
     
@@ -34,11 +34,11 @@ ms.locfileid: "41818770"
     
 - [비즈니스용 Skype 서버에서 기존 PIN 정책 수정](modify-an-existing-pin-policy.md)
     
-- [비즈니스용 Skype 서버에서 핀 정책 삭제](delete-a-pin-policy.md)
+- [비즈니스용 Skype 서버에서 PIN 정책 삭제](delete-a-pin-policy.md)
     
-- [비즈니스용 Skype 서버에서 사용자 단위 PIN 정책 할당](assign-a-per-user-pin-policy.md)
+- [비즈니스용 Skype 서버에서 사용자당 PIN 정책 할당](assign-a-per-user-pin-policy.md)
     
-비즈니스용 Skype Server 제어판의 **사용자** 섹션에서 사용자의 전화 접속 회의 pin을 관리 하려면 다음 절차를 사용 합니다.
+다음 절차에 따라 비즈니스용 Skype 서버 제어판의 사용자  섹션에서 사용자의 전화 접속 회의 PI를 관리합니다.
   
 - [비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정](set-a-user-s-dial-in-conferencing-pin.md)
     

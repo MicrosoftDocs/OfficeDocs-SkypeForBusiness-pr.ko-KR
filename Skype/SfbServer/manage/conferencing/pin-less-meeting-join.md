@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버에서 핀 덜 모임 참가 구성
+title: 비즈니스용 Skype 서버에서 PIN이 지원되지 않은 모임 참가 구성
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,58 +11,58 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: '요약: 비즈니스용 Skype 서버에서 핀 없는 모임 참가 옵션을 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: a52738f2ca679838ab7687cde2c017e3364542a7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 비즈니스용 Skype 서버에서 PIN이 적은 모임 참가 옵션을 구성하는 방법을 설명하는 정보를 제공합니다.'
+ms.openlocfilehash: 794bf13d92857a18254f903a1c5dcca98d0a1ec0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818489"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827988"
 ---
-# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 핀 덜 모임 참가 구성
+# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 PIN이 지원되지 않은 모임 참가 구성
  
-**요약:** 비즈니스용 Skype 서버에서 핀 없는 모임 참가 옵션을 구성 하는 방법에 대해 알아봅니다.
+**요약:** 비즈니스용 Skype 서버에서 PIN이 지원되지 않은 모임 참가 옵션을 구성하는 방법을 배워야 합니다.
   
-전화 접속 발신자가 모임에 참가 하려고 시도 하는 경우, 컨퍼런스 자동 전화 교환 (CAA) 서비스는 해당 발신자가 아직 통화 중이 아니고 전화 접속 발신자가 지시선 핀을 입력 하지 않은 경우에는 대기실와는 다른 대기 &#x2014;을 놓습니다. 고정 없는 모임 참가 옵션을 사용 하면 전화 접속 발신자가 통화 중에 첫 번째 사용자 인 경우에도 지시선 PIN을 입력 하지 않고도 모임에 참가할 수 있습니다. 
+전화 접속 발신자는 모임에 참가하려고 시도할 때 CAA(Conference 자동 전화 교환) 서비스는 발표자에 통화가 아직 연결되지 않은 경우 대기실과 다른 보류 펜에 발신기를 배치합니다&#x2014; 전화 접속 발신자는 리더 PIN을 입력하지 않은 것입니다. PIN 없는 모임 참가 옵션을 사용하면 전화 접속 발신자는 통화의 첫 번째 사람인 경우에도 리더 PIN을 입력하지 않고도 모임에 참가할 수 있습니다. 
   
-이 기능을 구성할 때 다음 사항에 유의 하세요.
+이 기능을 구성할 때 다음에 유의하십시오.
   
-- 비공개 모임에만 적용 됩니다.
+- 비공개 모임에만 적용됩니다.
     
-- PSTN 호출자가 인증 된 사용자 없이 비공개 모임에 유지할 수 있도록 합니다.
+- PSTN 발신자는 인증된 사용자가 없는 비공개 모임에 계속 참석할 수 있습니다.
     
-- 설정이 변경 되 면 기존 및 새 비공개 모임 모두에 적용 됩니다.
+- 설정이 변경된 후 기존의 모든 비공개 모임과 새 비공개 모임에 적용됩니다.
     
-- 이끌이 사이트 또는 전역 수준에서 사용 하도록 설정할 수 있습니다.
+- 이끌이의 사이트 또는 전역 수준에서 사용하도록 설정될 수 있습니다.
     
-- 대기실를 우회할 수 있는 사용자에 대 한 옵션은 다음 중 하나에 대해 설정할 수 있습니다. 
+- 대기실을 무시할 수 있는 사용자에 대한 옵션은 다음 중 하나에 대해 설정할 수 있습니다. 
     
-  - **호출자가 있는 조직의 모든 사용자에 게 직접 액세스**
+  - **발신자에 대한 조직 내 모든 사용자에 직접 연결**
     
-  - **모든 사람이 (제한 없음) 호출자를 직접 가져옵니다** (이는 기본 설정).
+  - **발신자에** 대한 모든 사용자(제한 없음)가 직접 연결됩니다(기본 설정입니다.)
     
-- 핀이 없는 참가를 사용 하도록 구성 된 경우 CAA 서비스는 여전히 리더 PIN을 묻는 메시지를 표시 합니다. 사용자는 PIN이 입력 되었는지 여부에 상관 없이 모임에 참가할 수 있습니다. 그러나, 지시선 PIN을 입력 하는 기능을 통해 전화 접속 발신자가 리더를 인증 하 고 필요한 경우 모임을 관리할 수 있습니다.
+- PIN이 연결되지 않은 가입을 사용하도록 구성된 경우 CAA 서비스는 여전히 리더 PIN을 묻는 메시지를 제공합니다. 사용자는 PIN 입력 여부에 따라 모임에 참가할 수 있습니다. 그러나 리더 PIN을 입력할 수 있는 기능을 유지하면 전화 접속 발신자에서 리더로 인증하고 필요한 경우 모임을 관리할 수 있습니다.
     
-## <a name="configure-pin-less-meeting-join"></a>핀 더 적은 모임 참가 구성
+## <a name="configure-pin-less-meeting-join"></a>PIN이 적은 모임 참가 구성
 
-사용자에 대 한 핀 없는 모임 참가를 사용 하도록 설정 하려면 다음과 같이 AllowAnonymousPstnActivation 매개 변수와 함께 [CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet을 사용 합니다.
+사용자에 대해 PIN이 아닌 모임 참가를 사용하도록 설정하려면 다음과 같이 AllowAnonymousPstnActivation 매개 변수와 함께 [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet을 사용합니다.
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
 ```
 
-예를 들어 다음 명령을 사용 하 여 사이트 Redmond에 대 한 핀 덜 모임 참가를 허용 합니다.
+예를 들어 다음 명령은 Redmond 사이트에 PIN이 적은 모임 참가를 사용할 수 있습니다.
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
-고정이 아닌 모임 참가 연결이 설정 되어 있는 경우, ConferencingPolicy가 다음과 같이 설정 되도록 하 여 익명 사용자가 전화 걸기를 할 수 없도록 제한 하는 것이 좋습니다.
+보안을 위해 PIN이 덜 모임 참가가 설정된 경우 ConferencingPolicy를 다음과 같이 설정하여 익명 사용자가 전화를 걸지 못하도록 제한할 수 있습니다.
   
 ```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-자세한 내용은 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)을 참조 하세요.
+자세한 내용은 [Set-CsConferencingPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
   
 

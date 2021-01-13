@@ -1,13 +1,13 @@
 ---
-title: PowerShell 스크립트 샘플-팀에서 자동 시작 설정을 다시 설정 합니다.
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell 스크립트 샘플 - Teams에서 자동 시작 설정 다시 설정
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용 하 여 사용자 기준으로 팀에서 자동 시작 설정을 다시 설정 합니다.
+description: 이 PowerShell 스크립트를 사용하여 사용자 기준으로 Teams의 자동 시작 설정을 다시 설정합니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,22 +16,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be1073d628f137b4c2063849bcdab413ce0d2b87
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 02f21fcc642f33b17efa6ef44878bce567695b4d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951043"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827508"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 스크립트 샘플-팀에서 자동 시작 설정을 다시 설정 합니다.
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 스크립트 샘플 - Teams에서 자동 시작 설정 다시 설정
 
-이 스크립트를 사용 하 여 각 사용자 기준으로 팀 자동 시작 설정을 다시 설정 합니다. 여기에는 사용자 또는 팀 앱에서 설정한 값이 포함 됩니다. 기본적으로 사용자가 설치 된 후 컴퓨터에 로그인 하면 팀이 자동으로 시작 됩니다.
+이 스크립트를 사용하여 사용자 기준으로 Teams 자동 시작 설정을 다시 설정할 수 있습니다. 여기에는 사용자 또는 Teams 앱에서 설정한 모든 값이 포함됩니다. 기본적으로 Teams는 사용자가 설치된 후 컴퓨터에 로그인할 때 자동으로 시작됩니다.
 
-이미 팀을 배포한 경우 [Microsoft 팀이 자동으로 시작 되지 않도록 설정 다음 그룹 정책 설정이](../msi-deployment.md#use-group-policy-recommended) 팀 자동 설치를 해제 하도록 하려면 먼저 그룹 정책 설정을 원하는 값으로 설정한 다음이 스크립트를 실행 해야 합니다.
+Teams를 이미 배포하고 설치 후 [Microsoft Teams가](../msi-deployment.md#use-group-policy-recommended) 자동으로 시작되지 않도록 그룹 정책 설정을 설정하여 Teams 자동 시작을 사용하지 않도록 설정하려는 경우 먼저 그룹 정책 설정을 원하는 값으로 설정한 다음 이 스크립트를 실행해야 합니다.
 
-사용자에 대해 팀이 시작 된 후에는 그룹 정책을 사용 하 여 자동 시작 설정을 사용 하지 않도록 설정할 수 없습니다.
+사용자에 대해 Teams가 시작된 후 그룹 정책을 사용하여 자동 시작 설정을 사용하지 않도록 설정할 수 없습니다.
 
-## <a name="sample-script"></a>예제 스크립트
+## <a name="sample-script"></a>샘플 스크립트
 
 ````powershell
 <#
@@ -147,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [MSI를 사용하여 Teams 설치](../msi-deployment.md)
-- [엔터프라이즈 용 Microsoft 365 앱을 사용 하 여 팀 배포](https://docs.microsoft.com/deployoffice/teams-install)
+- [엔터프라이즈용 Microsoft 365 앱을 사용하여 Teams 배포](https://docs.microsoft.com/deployoffice/teams-install)

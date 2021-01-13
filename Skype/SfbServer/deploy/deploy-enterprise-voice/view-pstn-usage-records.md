@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype에서 PSTN 사용 레코드 보기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,40 +15,40 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: '요약: 비즈니스용 Skype Server 제어판 또는 비즈니스용 Skype Server Management Shell을 사용 하 여 PSTN 사용 레코드를 보는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 1f6cbd5bb013cd57f9304c3b0eb0c64ac7dabcff
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '요약: 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 PSTN 사용 레코드를 보는 방법을 설명하는 방법을 설명하는 문서입니다.'
+ms.openlocfilehash: abf9f3ec9ce1e2801de2c6017d12fd64df0c8954
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766921"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830538"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>비즈니스용 Skype에서 PSTN 사용 레코드 보기
 
-**요약:** 비즈니스용 Skype Server 제어판 또는 비즈니스용 Skype Server Management Shell을 사용 하 여 PSTN 사용 레코드를 보는 방법에 대해 알아봅니다.
+**요약:** 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 PSTN 사용 레코드를 보는 방법을 학습합니다.
 
-PSTN (공개 통신 네트워크) 사용 레코드는 조직의 여러 사용자 또는 사용자 그룹에 의해 이루어질 수 있는 통화 클래스 (예: 내부, 지역 또는 시외)를 지정 합니다. 자세한 내용은 계획 설명서의 [PSTN 사용 레코드](https://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx) 를 참조 하세요.
+PSTN(Public Switched Telephone Network) 사용 레코드는 조직의 여러 사용자 또는 사용자 그룹이 만들 수 있는 통화 클래스(내부, 로컬 또는 시거리)를 지정합니다. 자세한 내용은 계획 설명서에서 [PSTN Usage Records](https://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx)를 참조하십시오.
 
-### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype Server 제어판을 사용 하 여 PSTN 사용 레코드를 보려면
+### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 PSTN 사용 레코드를 확인
 
-1. 비즈니스용 Skype Server 제어판을 엽니다.
+1. 비즈니스용 Skype 서버 제어판을 니다.
 
-2. 왼쪽 탐색 모음에서 **음성 라우팅을** 클릭 한 다음 **PSTN 사용**을 클릭 합니다.
+2. 왼쪽 탐색 모음에서 **음성 라우팅** 을 클릭하고 **PSTN 사용** 을 클릭합니다.
 
-3. **Pstn 사용** 페이지에서 보려는 PSTN 사용 레코드를 강조 표시 하 고 **편집** 을 클릭 한 다음 **세부 정보 표시**를 클릭 합니다.
+3. **PSTN 사용** 페이지에서 보려는 PSTN 사용 레코드를 강조 표시하고 **편집** 을 클릭한 후에 **세부 정보 표시** 를 클릭합니다.
 
     > [!NOTE]
-    > 선택한 PSTN 사용 레코드의 읽기 전용 페이지에 연결 된 경로와 관련 음성 정책이 표시 됩니다.
+    > 선택한 PSTN 사용 레코드의 읽기 전용 페이지에 연결된 경로 및 음성 정책이 표시됩니다.
 
-### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>비즈니스용 Skype 서버 관리 셸 cmdlet을 사용 하 여 PSTN 사용 정보를 보려면
+### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>비즈니스용 Skype 서버 관리 셸 cmdlet을 사용하여 PSTN 사용 정보를 확인
 
-- 모든 PSTN 용도에 대 한 정보를 보려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
+- 모든 PSTN 사용에 대한 정보를 보시다시피 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력하고 Enter를 누르고 있습니다.
 
   ```powershell
   Get-CsPstnUsage
   ```
 
-    이 명령은 다음과 같은 정보를 반환 합니다.
+    이 명령은 다음과 비슷한 정보를 반환합니다.
 
 <pre>
   Identity : Global
@@ -57,5 +57,5 @@ PSTN (공개 통신 네트워크) 사용 레코드는 조직의 여러 사용자
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype에서 음성 정책 만들기 또는 수정 및 PSTN 사용 레코드 구성](voice-policy-and-pstn-usage-records.md)
+[음성 정책 만들기 또는 수정 및 비즈니스용 Skype에서 PSTN 사용 레코드 구성](voice-policy-and-pstn-usage-records.md)
 

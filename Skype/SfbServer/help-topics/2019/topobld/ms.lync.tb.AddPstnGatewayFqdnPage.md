@@ -1,8 +1,8 @@
 ---
 title: PSTN 게이트웨이 FQDN 정의
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
-description: PSTN 또는 개인 분기 교환 (PBX)에 엔터프라이즈 음성 구성 요소를 연결 하는 PSTN (공개 전화망 network) 게이트웨이의 FQDN (정규화 된 도메인 이름)을 지정 합니다.
-ms.openlocfilehash: a6c67586112a15f857f3f82050ea0b55e006bd8a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: PSTN(Public Switched Telephone Network) 게이트웨이의 FQDN(FQDN)을 지정하여 Enterprise Voice 구성 요소를 PSTN 또는 PBX(Private Branch Exchange)에 연결할 수 있습니다.
+ms.openlocfilehash: c4046499f251421b9158c3932d0bf8de4c52c462
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794367"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830088"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>PSTN 게이트웨이 FQDN 정의
 
-PSTN 또는 개인 분기 교환 (PBX)에 엔터프라이즈 음성 구성 요소를 연결 하는 PSTN (공개 전화망 network) 게이트웨이의 FQDN (정규화 된 도메인 이름)을 지정 합니다.
+PSTN(Public Switched Telephone Network) 게이트웨이의 FQDN(FQDN)을 지정하여 Enterprise Voice 구성 요소를 PSTN 또는 PBX(Private Branch Exchange)에 연결할 수 있습니다.
 
-자세한 내용은 [비즈니스용 Skype 서버의 PSTN 연결 구성 요소](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md) 를 참조 하세요.
+자세한 내용은 비즈니스용 [Skype 서버의 PSTN 연결 구성 요소를 참조하세요.](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>참고 항목
 
