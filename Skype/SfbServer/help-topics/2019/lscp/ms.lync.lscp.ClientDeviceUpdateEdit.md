@@ -1,8 +1,8 @@
 ---
 title: 장치 로그 구성 편집
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,45 +14,45 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
-description: 최대 로그 캐시 크기, 최대 로그 파일 크기 또는 로그 파일을 제거 하기 전에 보관 되는 시간을 결정 하는 로그 설정 편집 페이지에 장치 로그 구성을 추가할 수 있습니다. 조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다.
-ms.openlocfilehash: f2c169038b69fbbb3e68838827a9a77d472c87e4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 최대 로그 캐시 크기, 최대 로그 파일 크기 또는 로그 파일이 삭제되기 전까지 보관되는 기간을 결정하는 로그 설정 편집 페이지에 장치 로그 구성을 추가할 수 있습니다. 조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다.
+ms.openlocfilehash: ac6c341460d0e196548a86620d89f67bc51d7b4d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794527"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830298"
 ---
-# <a name="device-log-configuration-edit"></a><span data-ttu-id="9ab7a-104">장치 로그 구성: 편집</span><span class="sxs-lookup"><span data-stu-id="9ab7a-104">Device Log Configuration: Edit</span></span>
+# <a name="device-log-configuration-edit"></a><span data-ttu-id="a1876-104">장치 로그 구성: 편집</span><span class="sxs-lookup"><span data-stu-id="a1876-104">Device Log Configuration: Edit</span></span>
  
-<span data-ttu-id="9ab7a-105">최대 로그 캐시 크기, 최대 로그 파일 크기 또는 로그 파일을 제거 하기 전에 보관 되는 시간을 결정 하는 **로그 설정 편집** 페이지에 장치 로그 구성을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-105">You can add a device log configuration to the **Edit Log Setting** page that determines the maximum log cache size, maximum log file size, or length of time a log file is kept before it is purged.</span></span> <span data-ttu-id="9ab7a-106">조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-106">You can change these settings according to your organization's requirements.</span></span>
+<span data-ttu-id="a1876-105">로그 캐시의 최대 크기,  최대 로그 파일 크기 또는 로그 파일이 삭제되기 전까지 보관되는 기간을 결정하는 로그 설정 편집 페이지에 장치 로그 구성을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-105">You can add a device log configuration to the **Edit Log Setting** page that determines the maximum log cache size, maximum log file size, or length of time a log file is kept before it is purged.</span></span> <span data-ttu-id="a1876-106">조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-106">You can change these settings according to your organization's requirements.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="9ab7a-p103">파일을 삭제하면 파일 시스템에서 영구 제거됩니다. 따라서 파일을 삭제한 후 복구할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-p103">Purging files permanently removes them from the file system. After you purge a file, it cannot be recovered.</span></span> 
+> <span data-ttu-id="a1876-p103">파일을 삭제하면 파일 시스템에서 영구 제거됩니다. 따라서 파일을 삭제한 후 복구할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-p103">Purging files permanently removes them from the file system. After you purge a file, it cannot be recovered.</span></span> 
   
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="9ab7a-109">수행할 수 있는 작업</span><span class="sxs-lookup"><span data-stu-id="9ab7a-109">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="a1876-109">수행할 수 있는 작업</span><span class="sxs-lookup"><span data-stu-id="a1876-109">Tasks you can perform</span></span>
 
-<span data-ttu-id="9ab7a-110">**로그 설정 편집** 페이지에서 다음 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-110">You can perform the following tasks on the **Edit Log Setting** page:</span></span>
+<span data-ttu-id="a1876-110">로그 설정 편집 페이지에서는 다음 **작업을 수행할 수** 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-110">You can perform the following tasks on the **Edit Log Setting** page:</span></span>
   
-- <span data-ttu-id="9ab7a-111">전역 또는 특정 사이트에 대 한 디바이스 로그 구성을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-111">Add a device log configuration globally or for a particular site.</span></span>
+- <span data-ttu-id="a1876-111">장치 로그 구성을 전역적으로 또는 특정 사이트에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-111">Add a device log configuration globally or for a particular site.</span></span>
     
-- <span data-ttu-id="9ab7a-112">기존 장치 로그 구성에 대한 옵션 수정</span><span class="sxs-lookup"><span data-stu-id="9ab7a-112">Modify the options for an existing device log configuration.</span></span>
+- <span data-ttu-id="a1876-112">기존 장치 로그 구성에 대한 옵션 수정</span><span class="sxs-lookup"><span data-stu-id="a1876-112">Modify the options for an existing device log configuration.</span></span>
     
-## <a name="ui-reference"></a><span data-ttu-id="9ab7a-113">UI 참조</span><span class="sxs-lookup"><span data-stu-id="9ab7a-113">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="a1876-113">UI 참조</span><span class="sxs-lookup"><span data-stu-id="a1876-113">UI Reference</span></span>
 
-<span data-ttu-id="9ab7a-114">다음 목록에서는 페이지의 메뉴, 명령, 필드, 속성에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-114">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="a1876-114">다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-114">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
   
-- <span data-ttu-id="9ab7a-115">**범위** 장치 로그 구성의 범위 (전역 또는 사이트)를 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-115">**Scope** Identifies the scope (Global or Site) of the device log configuration.</span></span>
+- <span data-ttu-id="a1876-115">**범위** 장치 로그 구성의 범위(전역 또는 사이트)를 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-115">**Scope** Identifies the scope (Global or Site) of the device log configuration.</span></span>
     
-- <span data-ttu-id="9ab7a-116">**이름** 장치 로그 구성의 이름을 추가 하거나 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-116">**Name** You can add or modify the name of the device log configuration.</span></span>
+- <span data-ttu-id="a1876-116">**이름** 장치 로그 구성의 이름을 추가하거나 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-116">**Name** You can add or modify the name of the device log configuration.</span></span>
     
-- <span data-ttu-id="9ab7a-117">**최대 파일 크기 (바이트)** 로그 파일을 제거 하기 전에 사용할 수 있는 최대 크기를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-117">**Maximum file size (bytes)** You can specify the maximum size a log file can become before it is purged.</span></span> <span data-ttu-id="9ab7a-118">기본값은 1024000 바이트 (1 MB)입니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-118">The default is 1,024,000 bytes (1 MB).</span></span>
+- <span data-ttu-id="a1876-117">**최대 파일 크기(byte)입니다.** 로그 파일을 제거하기 전에 커질 수 있는 최대 크기를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-117">**Maximum file size (bytes)** You can specify the maximum size a log file can become before it is purged.</span></span> <span data-ttu-id="a1876-118">기본값은 1,024,000비트(1MB)입니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-118">The default is 1,024,000 bytes (1 MB).</span></span>
     
-- <span data-ttu-id="9ab7a-119">**최대 캐시 크기 (바이트)** 캐시를 삭제 하 고 데이터를 로그 파일에 기록 하기 전에 로그 파일 캐시에 보유할 수 있는 최대 정보 양 (바이트)을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-119">**Maximum cache size (bytes)** You can specify the maximum amount of information (in bytes) that can be held in the log file cache before that cache must be cleared and the data is written to a log file.</span></span> <span data-ttu-id="9ab7a-120">기본값은 512000 바이트 (0.5 MB)입니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-120">The default is 512,000 bytes (0.5 MB).</span></span>
+- <span data-ttu-id="a1876-119">**최대 캐시 크기(byte)입니다.** 캐시를 지우고 데이터가 로그 파일에 기록되기 전에 로그 파일 캐시에 저장될 수 있는 최대 정보의 양(bytes)을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-119">**Maximum cache size (bytes)** You can specify the maximum amount of information (in bytes) that can be held in the log file cache before that cache must be cleared and the data is written to a log file.</span></span> <span data-ttu-id="a1876-120">기본값은 512,000비트(0.5MB)입니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-120">The default is 512,000 bytes (0.5 MB).</span></span>
     
-- <span data-ttu-id="9ab7a-121">**캐시 플러시 시간 (분) (1-60)** 로그 파일 캐시에 저장 되는 정보가 실제 로그 파일에 기록 되는 빈도를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-121">**Minutes to flush cache (1-60)** You can specify how often information stored in the log file cache is written to the actual log file.</span></span> <span data-ttu-id="9ab7a-122">데이터가 기록 된 후 캐시가 지워집니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-122">After the data is logged, the cache is cleared.</span></span> <span data-ttu-id="9ab7a-123">기본값은 5 분입니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-123">The default is five minutes.</span></span>
+- <span data-ttu-id="a1876-121">**캐시 플러시 시간(1~60분)** 로그 파일 캐시에 저장된 정보가 실제 로그 파일에 기록되는 시간을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-121">**Minutes to flush cache (1-60)** You can specify how often information stored in the log file cache is written to the actual log file.</span></span> <span data-ttu-id="a1876-122">데이터가 기록된 후 캐시가 지워지게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-122">After the data is logged, the cache is cleared.</span></span> <span data-ttu-id="a1876-123">기본값은 5분입니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-123">The default is five minutes.</span></span>
     
-- <span data-ttu-id="9ab7a-124">**로그 파일 유지 일 수 (1-365)** 로그 파일을 삭제 하기 전에 보관 하는 일 수를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-124">**Days to keep log files (1-365)** You can specify the number of days the log files are kept before they are purged.</span></span> <span data-ttu-id="9ab7a-125">기본값은 10 일입니다.</span><span class="sxs-lookup"><span data-stu-id="9ab7a-125">The default is 10 days.</span></span>
+- <span data-ttu-id="a1876-124">**로그 파일을 보관할 일 수(1-365)** 로그 파일을 삭제하기 전까지 보관할 일 수를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-124">**Days to keep log files (1-365)** You can specify the number of days the log files are kept before they are purged.</span></span> <span data-ttu-id="a1876-125">기본값은 10일입니다.</span><span class="sxs-lookup"><span data-stu-id="a1876-125">The default is 10 days.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="9ab7a-126">참고 항목</span><span class="sxs-lookup"><span data-stu-id="9ab7a-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a1876-126">참고 항목</span><span class="sxs-lookup"><span data-stu-id="a1876-126">See also</span></span>
 
-[<span data-ttu-id="9ab7a-127">장치 로그 구성</span><span class="sxs-lookup"><span data-stu-id="9ab7a-127">Device Log Configuration</span></span>](ms.lync.lscp.ClientDeviceCfgMain.md)
+[<span data-ttu-id="a1876-127">장치 로그 구성</span><span class="sxs-lookup"><span data-stu-id="a1876-127">Device Log Configuration</span></span>](ms.lync.lscp.ClientDeviceCfgMain.md)

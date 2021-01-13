@@ -1,8 +1,8 @@
 ---
 title: 디렉터 모니터링 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,37 +15,37 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 다음 속성을 구성하여 모니터링 SQL Server 저장소 정의를 수행할 수 있습니다.
-ms.openlocfilehash: 48a626483da0dd69f46eca9740b0a9b224218f4d
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 100142faf2f9e552e5ad289fde6df0607669a09d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215499"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828918"
 ---
-# <a name="add-director-monitoring"></a><span data-ttu-id="b0653-103">디렉터 모니터링 추가</span><span class="sxs-lookup"><span data-stu-id="b0653-103">Add Director Monitoring</span></span>
+# <a name="add-director-monitoring"></a><span data-ttu-id="09c34-103">디렉터 모니터링 추가</span><span class="sxs-lookup"><span data-stu-id="09c34-103">Add Director Monitoring</span></span>
  
-<span data-ttu-id="b0653-104">다음 속성을 구성하여 **모니터링 SQL Server 저장소 정의**를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-104">You can **Define the Monitoring SQL Server store** by configuring the following properties:</span></span>
+<span data-ttu-id="09c34-104">다음 속성을 구성하여 **모니터링 SQL Server 저장소 정의** 를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-104">You can **Define the Monitoring SQL Server store** by configuring the following properties:</span></span>
   
-- <span data-ttu-id="b0653-105">**모니터링 SQL server 저장소**: 목록에서 SQL server FQDN (정규화 된 도메인 이름) 및 (선택 사항에 해당 하는 sql Server 인스턴스)을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-105">**Monitoring SQL Server store**: Select a SQL Server fully qualified domain name (FQDN) (and, optionally, a named SQL Server instance) from the list.</span></span>
+- <span data-ttu-id="09c34-105">**모니터링 SQL Server** 저장소: 목록에서 SQL Server FQDN(FQDN)(및 명명된 SQL Server 인스턴스)을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-105">**Monitoring SQL Server store**: Select a SQL Server fully qualified domain name (FQDN) (and, optionally, a named SQL Server instance) from the list.</span></span>
     
-    <span data-ttu-id="b0653-106">**새로** 만들기를 클릭 하 여 새 SQL Server FQDN 정의를 만들고, 선택적으로 모니터링 서버 저장소의 인스턴스 이름을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-106">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the Monitoring Server store.</span></span>
+    <span data-ttu-id="09c34-106">새로 **만들기를** 클릭하여 새 FQDN SQL Server 만들고 모니터링 서버 저장소의 인스턴스 이름을 선택적으로 만드려면 새로 만들기를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-106">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the Monitoring Server store.</span></span>
     
-- <span data-ttu-id="b0653-107">모니터링 서버에 대 한 데이터베이스 미러링을 추가 하려면 **SQL Server 저장소 미러링 사용** 확인란을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-107">Select the **Enable SQL Server store mirroring** check box if you want to add database mirroring for the Monitoring Server.</span></span>
+- <span data-ttu-id="09c34-107">모니터링 서버에 **SQL Server** 미러링을 추가하려면 저장소 미러링 사용 확인란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-107">Select the **Enable SQL Server store mirroring** check box if you want to add database mirroring for the Monitoring Server.</span></span>
     
-    <span data-ttu-id="b0653-108">목록에서 기존 **모니터링 SQL Server 저장소 미러**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-108">Select an existing **Monitoring SQL Server store mirror** from the list.</span></span>
+    <span data-ttu-id="09c34-108">목록에서 기존 **모니터링 SQL Server 저장소 미러** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-108">Select an existing **Monitoring SQL Server store mirror** from the list.</span></span>
     
-    <span data-ttu-id="b0653-109">**새로** 만들기를 클릭 하 여 새 SQL Server FQDN 정의를 만들고 원하는 경우 미러 저장소의 인스턴스 이름을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-109">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirror store.</span></span>
+    <span data-ttu-id="09c34-109">새로 **만들기를** 클릭하여 새 SQL Server FQDN 정의를 만들고 원하는 경우 미러 저장소의 인스턴스 이름을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-109">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirror store.</span></span>
     
-- <span data-ttu-id="b0653-110">**Sql server 저장소 미러링 사용**을 선택한 경우 필요에 따라 **sql Server 미러링 모니터 서버를 사용 하 여 자동 장애 조치 (failover)** 가 목록에서 sql server 미러링 모니터 저장소를 선택 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-110">If you selected **Enable SQL Server store mirroring**, optionally select **Use SQL Server mirroring witness to enable automatic failover** to select a SQL Server mirroring witness store from the list.</span></span>
+- <span data-ttu-id="09c34-110">저장소 미러링 SQL Server 사용하도록 설정한 경우 선택적으로 SQL Server 미러링 미러링을 사용하여 자동 장애 조치(failover)를 사용하도록 설정하여 목록에서 SQL Server 미러링된 미러링 SQL Server 선택합니다.  </span><span class="sxs-lookup"><span data-stu-id="09c34-110">If you selected **Enable SQL Server store mirroring**, optionally select **Use SQL Server mirroring witness to enable automatic failover** to select a SQL Server mirroring witness store from the list.</span></span>
     
-    <span data-ttu-id="b0653-111">**새로** 만들기를 클릭 하 여 새 SQL Server FQDN 정의를 만들고 원하는 경우 미러링 모니터 서버 저장소의 인스턴스 이름을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-111">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirroring witness store.</span></span>
+    <span data-ttu-id="09c34-111">새로 **만들기를** 클릭하여 새 FQDN SQL Server 미러링된 미러링된 저장소의 인스턴스 이름을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-111">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirroring witness store.</span></span>
     
-<span data-ttu-id="b0653-112">이전 풀 정의 대화 상자로 돌아가려면 **뒤로**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-112">Click **Back** to go back to the previous pool definition dialog.</span></span>
+<span data-ttu-id="09c34-112">이전 풀 정의 대화 상자로 돌아가려면 **뒤로** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-112">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="b0653-113">이 대화 상자의 옵션을 모두 입력한 후 구성을 계속하려면 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-113">Click **Next** after you have finished entering the options for this dialog to proceed with the configuration.</span></span>
+<span data-ttu-id="09c34-113">이 대화 상자의 옵션을 모두 입력한 후 구성을 계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-113">Click **Next** after you have finished entering the options for this dialog to proceed with the configuration.</span></span>
   
-<span data-ttu-id="b0653-114">모든 변경 내용을 취소하고 마법사를 종료하려면 **취소**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-114">Click **Cancel** to discard all changes and end the wizard.</span></span>
+<span data-ttu-id="09c34-114">모든 변경 내용을 취소하고 마법사를 종료하려면 **취소** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-114">Click **Cancel** to discard all changes and end the wizard.</span></span>
   
-<span data-ttu-id="b0653-115">이 페이지와 같은 상황에 맞는 도움말에 액세스하려면 **도움말**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0653-115">Click **Help** to access context-sensitive help, such as this page.</span></span>
+<span data-ttu-id="09c34-115">이 페이지와 같은 상황에 맞는 도움말에 액세스하려면 **도움말** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="09c34-115">Click **Help** to access context-sensitive help, such as this page.</span></span>
   
 

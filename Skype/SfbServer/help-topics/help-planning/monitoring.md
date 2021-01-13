@@ -1,8 +1,8 @@
 ---
-title: 모니터링 (계획 도구)
+title: 모니터링(계획 도구)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: 비즈니스용 Skype 서버 2015에서는 모니터링을 사용 하 여 사용자가 관여 하는 통신 세션에 대 한 사용 정보 및 경력 (체감 품질) 데이터를 수집 합니다.
-ms.openlocfilehash: baf24091cb2c50914eb413dde142c92fb5d1d20e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 비즈니스용 Skype 서버 2015에서 모니터링은 사용자가 관련된 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집하는 데 사용됩니다.
+ms.openlocfilehash: 85398b80d982fdd443e920af9c50b212afe4cb90
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821390"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828938"
 ---
-# <a name="monitoring-planning-tool"></a><span data-ttu-id="809be-103">모니터링 (계획 도구)</span><span class="sxs-lookup"><span data-stu-id="809be-103">Monitoring (Planning Tool)</span></span>
+# <a name="monitoring-planning-tool"></a><span data-ttu-id="4c293-103">모니터링(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="4c293-103">Monitoring (Planning Tool)</span></span>
 
-<span data-ttu-id="809be-104">비즈니스용 Skype 서버 2015에서는 모니터링을 사용 하 여 사용자가 관여 하는 통신 세션에 대 한 사용 정보 및 경력 (체감 품질) 데이터를 수집 합니다.</span><span class="sxs-lookup"><span data-stu-id="809be-104">In Skype for Business Server 2015, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
+<span data-ttu-id="4c293-104">비즈니스용 Skype 서버 2015에서 모니터링은 사용자가 관련된 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="4c293-104">In Skype for Business Server 2015, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
 
-<span data-ttu-id="809be-105">모니터링 서버 계획에 대 한 자세한 내용은 [모니터링 계획 수립](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="809be-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
+<span data-ttu-id="4c293-105">모니터링 서버 계획에 대한 자세한 내용은 [모니터링 계획 을 참조합니다.](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)</span><span class="sxs-lookup"><span data-stu-id="4c293-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
 
 

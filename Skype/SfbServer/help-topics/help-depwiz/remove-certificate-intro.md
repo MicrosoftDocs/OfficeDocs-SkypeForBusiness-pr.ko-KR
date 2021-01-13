@@ -1,8 +1,8 @@
 ---
 title: 인증서 제거(소개)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
-description: 인증서 소개 제거 페이지에서 인증서 제거의 의미에 대 한 정보를 주의깊게 읽으십시오. 이 정보를 읽은 후 다음을 클릭 하 여 계속 합니다.
-ms.openlocfilehash: 8f0c334198a723cb333287fd421e11cf907da432
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 인증서 제거 소개 페이지에서 인증서 제거의 영향에 대한 정보를 신중하게 읽습니다. 이 정보를 읽은 후 계속하려면 다음을 클릭합니다.
+ms.openlocfilehash: 1c62971c765593c630eda0f38239a0fdd35049f9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823432"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829738"
 ---
-# <a name="remove-certificate-intro"></a><span data-ttu-id="35c0e-104">인증서 제거(소개)</span><span class="sxs-lookup"><span data-stu-id="35c0e-104">Remove Certificate (Intro)</span></span>
+# <a name="remove-certificate-intro"></a><span data-ttu-id="5488f-104">인증서 제거(소개)</span><span class="sxs-lookup"><span data-stu-id="5488f-104">Remove Certificate (Intro)</span></span>
  
-<span data-ttu-id="35c0e-105">인증서 소개 **제거** 페이지에서 인증서 제거의 의미에 대 한 정보를 주의깊게 읽으십시오.</span><span class="sxs-lookup"><span data-stu-id="35c0e-105">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate.</span></span> <span data-ttu-id="35c0e-106">이 정보를 읽은 후 **다음** 을 클릭 하 여 계속 합니다.</span><span class="sxs-lookup"><span data-stu-id="35c0e-106">After you have read this information, click **Next** to continue.</span></span>
+<span data-ttu-id="5488f-p102">**인증서 제거** 소개 페이지에서 인증서 제거의 영향에 대한 정보를 신중하게 읽습니다. 이 정보를 읽은 후 계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="5488f-p102">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.</span></span>
   
 
