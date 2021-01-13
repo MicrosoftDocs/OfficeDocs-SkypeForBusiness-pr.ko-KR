@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버에 보안 데스크 포함
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,29 +15,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-description: 비즈니스용 Skype Server Enterprise Voice의 E9-1 배포에 조직의 보안 데스크를 포함 하는 방법을 계획 합니다.
-ms.openlocfilehash: 19fc8a01fcb51be3ce36435a5a657c3253716b2c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: E9-1-1 배포에 조직의 보안 데스크를 포함 하는 방법을 계획 하는 비즈니스용 Skype 서버 Enterprise Voice.
+ms.openlocfilehash: 756af940eb327bc4744454e9ed9ef7a7fbfd517d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802458"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813408"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server"></a><span data-ttu-id="e62c6-103">비즈니스용 Skype 서버에 보안 데스크 포함</span><span class="sxs-lookup"><span data-stu-id="e62c6-103">Include the security desk in Skype for Business Server</span></span>
+# <a name="include-the-security-desk-in-skype-for-business-server"></a><span data-ttu-id="146ed-103">비즈니스용 Skype 서버에 보안 데스크 포함</span><span class="sxs-lookup"><span data-stu-id="146ed-103">Include the security desk in Skype for Business Server</span></span>
  
-<span data-ttu-id="e62c6-104">비즈니스용 Skype Server Enterprise Voice의 E9-1 배포에 조직의 보안 데스크를 포함 하는 방법을 계획 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-104">Planning how to include your organization's security desk in an E9-1-1 deployment, in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="146ed-104">비즈니스용 Skype 서버의 E9-1-1 배포에 조직의 보안 데스크를 포함하는 방법을 Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="146ed-104">Planning how to include your organization's security desk in an E9-1-1 deployment, in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="e62c6-105">회사에서 긴급 통화에 참여 하려면 보안 지원팀이 필요할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-105">Your company may require the security desk to become involved in an emergency call.</span></span> <span data-ttu-id="e62c6-106">E9에서 보안 데스크를 통합 하는 방법을 결정 하려면-1-1 배포를 선택 하는 방법에 대 한 자세한 내용은 다음 질문에 대답 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-106">To help decide how to integrate the Security Desk into you E9-1-1 deployment, you should answer the following questions.</span></span>
+<span data-ttu-id="146ed-p101">회사에서 긴급 통화를 처리하기 위한 보안 데스크가 필요한 경우가 있습니다. E9-1-1 배포에 보안 데스크를 통합하는 방법을 결정하려면 다음과 같은 사항을 고려해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="146ed-p101">Your company may require the security desk to become involved in an emergency call. To help decide how to integrate the Security Desk into you E9-1-1 deployment, you should answer the following questions.</span></span>
   
-<span data-ttu-id="e62c6-107">**긴급 통화 시 보안 지원팀에 알림을 받도록 하 고 싶으신가요?**</span><span class="sxs-lookup"><span data-stu-id="e62c6-107">**Do you want the security desk to be notified when there is an emergency call?**</span></span>
+<span data-ttu-id="146ed-107">**긴급 통화가 있는 경우 보안 데스크에 알림을 보낼지 여부**</span><span class="sxs-lookup"><span data-stu-id="146ed-107">**Do you want the security desk to be notified when there is an emergency call?**</span></span>
   
-<span data-ttu-id="e62c6-108">비즈니스용 Skype 서버에서 하나 이상의 보안 사용자의 비즈니스용 Skype SIP 주소로 IM (인스턴트 메시징) 알림을 보내도록 위치 정책을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-108">You can configure the location policy so that Skype for Business Server sends instant messaging (IM) alerts to the Skype for Business SIP addresses of one or more security personnel.</span></span> <span data-ttu-id="e62c6-109">이러한 경고에는 비상 전화를 걸고 있는 사람의 이름, 번호, 위치가 포함 되며, 긴급 상황에 대 한 지원으로 보안 인력이 이용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-109">These alerts contain the name, number, and location of the person placing the emergency call, and facilitate security personnel in assisting with the emergency situation.</span></span>
+<span data-ttu-id="146ed-108">비즈니스용 Skype 서버가 하나 이상의 보안 담당자의 비즈니스용 Skype SIP 주소에 IM(인스턴트 메시징) 알림을 보내도록 위치 정책을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="146ed-108">You can configure the location policy so that Skype for Business Server sends instant messaging (IM) alerts to the Skype for Business SIP addresses of one or more security personnel.</span></span> <span data-ttu-id="146ed-109">이러한 경고는 긴급 통화를 거는 사용자의 이름, 번호 및 위치를 포함하며 보안 담당자가 긴급 상황을 지원하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="146ed-109">These alerts contain the name, number, and location of the person placing the emergency call, and facilitate security personnel in assisting with the emergency situation.</span></span>
     
-<span data-ttu-id="e62c6-110">**각 비상 전화를 통해 보안 지원팀에 회의를 하 고 싶으신가요?**</span><span class="sxs-lookup"><span data-stu-id="e62c6-110">**Do you want to conference the security desk in on each emergency call?**</span></span>
+<span data-ttu-id="146ed-110">**각 긴급 통화에 대해 보안 데스크와 전화 회의를 할지 여부**</span><span class="sxs-lookup"><span data-stu-id="146ed-110">**Do you want to conference the security desk in on each emergency call?**</span></span>
   
-<span data-ttu-id="e62c6-111">비상 서비스 서비스 제공 업체에서 지원 되는 경우, 각 비상 전화에 콜백 번호를 포함 하도록 위치 정책을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-111">If supported by the emergency services service provider, you can configure the location policy to include a callback number with each emergency call.</span></span> <span data-ttu-id="e62c6-112">공급자는이 번호를 사용 하 여 조직의 보안 담당자에 게 긴급 통화로 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-112">This number is then used by the provider to conference your organization's security personnel into emergency calls.</span></span> <span data-ttu-id="e62c6-113">이 회의는 위치 정책에서 단방향 (수신 전용) 또는 양방향 (양방향)으로 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-113">This conferencing can be configured in the location policy to be one-way (listen-only) or two-way (bidirectional).</span></span>
+<span data-ttu-id="146ed-p103">긴급 서비스 공급자에서 지원되는 경우 각 긴급 통화에 콜백 번호를 포함하도록 위치 정책을 구성할 수 있습니다. 이 번호는 공급자가 조직의 보안 담당자를 긴급 통화에 참조로 포함하는 데 사용됩니다. 이러한 참조는 위치 정책에서 단방향(듣기만) 또는 양방향으로 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="146ed-p103">If supported by the emergency services service provider, you can configure the location policy to include a callback number with each emergency call. This number is then used by the provider to conference your organization's security personnel into emergency calls. This conferencing can be configured in the location policy to be one-way (listen-only) or two-way (bidirectional).</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="e62c6-114">원하는 경우 각 위치 정책에 대해 서로 다른 응급 인력을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-114">If desired, you can configure different emergency personnel for each location policy.</span></span> <span data-ttu-id="e62c6-115">이렇게 하면 회사 내의 다른 영역에 대 한 응답을 사용자 지정 하거나 네트워크 외부가 아닌 내부에서 시작 된 비상 전화에 대해 다른 동작을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-115">This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network.</span></span> <span data-ttu-id="e62c6-116">메일 그룹을 사용 하 여 알림을 받을 사람을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e62c6-116">You can use distribution groups to specify the personnel you want to notify.</span></span> 
+> <span data-ttu-id="146ed-p104">필요에 따라 각 위치 정책에 대해 서로 다른 긴급 담당자를 구성할 수 있습니다. 이렇게 하면 회사 내 여러 영역에 대한 응답성을 사용자 지정하거나, 내부의 긴급 통화와 네트워크 외부의 긴급 통화에 대해 서로 다른 동작을 만들 수 있습니다. 메일 그룹을 사용해서 알림을 제공할 담당자를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="146ed-p104">If desired, you can configure different emergency personnel for each location policy. This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network. You can use distribution groups to specify the personnel you want to notify.</span></span> 
   
 
