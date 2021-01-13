@@ -1,8 +1,8 @@
 ---
 title: Device 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
-description: 장치 테이블은 다양 한 캡처 또는 렌더링 장치에 대 한 정보를 저장 하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 장치를 나타냅니다.
-ms.openlocfilehash: 93e6b2215fa1e20b930d678c45f10e26feffd351
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Device 테이블은 여러 캡처 또는 렌더링 장치에 대한 정보를 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 장치를 나타냅니다.
+ms.openlocfilehash: 818458e41c71398f3df11ac9a47eeee0841c6dca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41810156"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814748"
 ---
 # <a name="device-table"></a>Device 테이블
  
-장치 테이블은 다양 한 캡처 또는 렌더링 장치에 대 한 정보를 저장 하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 장치를 나타냅니다.
+Device 테이블은 여러 캡처 또는 렌더링 장치에 대한 정보를 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 장치를 나타냅니다.
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**DeviceKey** <br/> |int  <br/> |주요한  <br/> |이 장치를 식별 하는 고유 번호입니다.  <br/> |
-|**이름** <br/> |nvarchar (256)  <br/> |장치 이름 + DeviceType는 고유 합니다.  <br/> |장치 이름입니다.  <br/> |
-|**DeviceType** <br/> |다소  <br/> |장치 이름 + DeviceType는 고유 합니다.  <br/> |장치 유형. 1은 캡처 장치이 고 0은 렌더링 장치입니다.  <br/> |
+|**DeviceKey** <br/> |int  <br/> |Primary  <br/> |이 장치를 식별하는 고유 번호입니다.  <br/> |
+|**장치 이름** <br/> |nvarchar(256)  <br/> |DeviceName + DeviceType은 고유합니다.  <br/> |장치 이름입니다.  <br/> |
+|**DeviceType** <br/> |bit  <br/> |DeviceName + DeviceType은 고유합니다.  <br/> |장치 유형입니다. 1은 캡처 장치이고 0은 렌더링 장치입니다.  <br/> |
    
 

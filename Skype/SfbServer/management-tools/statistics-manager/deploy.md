@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버 통계 관리자 배포
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,165 +12,165 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: '요약: 비즈니스용 Skype 서버용 통계 관리자를 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 008e9d56dd4c795f7e524ac927402d99261f3e75
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: '요약: 이 항목을 읽고 비즈니스용 Skype 서버 통계 관리자를 배포하는 방법을 배워 읽습니다.'
+ms.openlocfilehash: 79e07c29a5df4a5da239687708a9bb52e995d191
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888427"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814818"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 배포
  
-**요약:** 비즈니스용 Skype 서버용 통계 관리자를 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
+**요약:** 이 항목을 읽고 비즈니스용 Skype 서버 통계 관리자를 배포하는 방법을 배워 읽습니다.
   
- 비즈니스용 Skype Server의 통계 관리자는 비즈니스용 Skype 서버 상태 및 성능 데이터를 실시간으로 볼 수 있는 강력한 도구입니다. 여러 서버에서 성능 데이터를 몇 초 마다 폴링하거나 통계 관리자 웹 사이트에서 즉시 결과를 볼 수 있습니다.
+ 비즈니스용 Skype 서버 통계 관리자는 비즈니스용 Skype 서버 상태 및 성능 데이터를 실시간으로 볼 수 있는 강력한 도구입니다. 몇 초마다 수백 대의 서버로 성능 데이터를 폴링하고 통계 관리자 웹 사이트에서 결과를 즉시 확인할 수 있습니다.
   
-통계 관리자를 설치 하려고 하기 전에 소프트웨어, 네트워킹 및 하드웨어 요구 사항에 대해 잘 알고 있어야 합니다. 자세한 내용은 [비즈니스용 Skype 서버에 대 한 통계 관리자 계획](plan.md)을 참조 하세요.
-  
-> [!NOTE]
-> 이전 버전의 통계 관리자에서 업그레이드 하는 경우 [비즈니스용 Skype 서버용 업데이트 통계 관리자](upgrade.md)를 참조 하세요. 
+Statistics Manager를 설치하기 전에 소프트웨어, 네트워킹 및 하드웨어 요구 사항에 익숙해야 합니다. 자세한 내용은 비즈니스용 Skype 서버 통계 [관리자 계획(Plan for Statistics Manager)을 참조하세요.](plan.md)
   
 > [!NOTE]
-> 통계 관리자 웹 사이트는 Internet Explorer 11 이상, Edge 20.10240 +, Chrome 46 + (현재 11 번째 버전)에서 테스트 되어 올바르게 작동 합니다. 
+> 이전 버전의 통계 관리자에서 업그레이드하는 경우 비즈니스용 Skype 서버의 업그레이드 통계 관리자를 [참조하세요.](upgrade.md) 
   
-에서 [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload)다운로드 가능한 통계 관리자를 찾을 수 있습니다. 
+> [!NOTE]
+> Statistics Manager 웹 사이트가 테스트되어 Internet Explorer 11+, Edge 20.10240+ 및 Chrome 46+(현재 버전)에서 올바르게 작동합니다. 
   
-이 항목에서는 다음 섹션을 다룹니다.
+통계 관리자는 에서 다운로드할 수 [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) 있습니다. 
+  
+이 항목에는 다음 섹션이 포함되어 있습니다.
   
 - [통계 관리자 배포](deploy.md#BKMK_Deploy)
     
 - [배포 문제 해결](deploy.md#BKMK_Troubleshoot)
     
-- [자체 서명 된 인증서 만들기](deploy.md#BKMK_SelfCert)
+- [자체 서명된 인증서 만들기](deploy.md#BKMK_SelfCert)
     
 ## <a name="deploy-statistics-manager"></a>통계 관리자 배포
 <a name="BKMK_Deploy"> </a>
 
-통계 관리자를 배포 하려면 다음 단계를 따릅니다.
+통계 관리자를 배포하기 위해 다음 단계를 수행합니다.
   
-1. Redis 메모리 내 캐싱 시스템을 설치 하 고 적절 한 인증서가 설치 되었는지 확인 하 여 수신기 호스트 컴퓨터를 준비 합니다.
+1. Redis 인 메모리 캐싱 시스템을 설치하고 적절한 인증서를 설치하여 수신기 호스트 시스템을 준비합니다.
     
-2. 호스트 컴퓨터에 수신기 서비스를 설치 합니다. 
+2. 호스트 컴퓨터에 수신기 서비스를 설치합니다. 
     
-3. 호스트 컴퓨터에 웹 사이트를 설치 합니다.
+3. 호스트 컴퓨터에 웹 사이트를 설치합니다.
     
-4. 모니터링할 각 비즈니스용 Skype 서버 컴퓨터에 에이전트를 설치 합니다.
+4. 모니터링할 각 비즈니스용 Skype 서버 컴퓨터에 에이전트를 설치합니다.
     
-5. 모니터링 하는 서버에 대 한 토폴로지를 가져옵니다.
+5. 모니터링할 서버의 토폴로지 가져오기
     
 > [!NOTE]
-> Redis, 수신기 서비스 및 웹 사이트가 모두 동일한 호스트 컴퓨터에 설치 되어 있어야 합니다. 호스트 컴퓨터에 비즈니스용 Skype 서버가 설치 되어 있지 않은지 확인 합니다. 
+> Redis, 수신기 서비스 및 웹 사이트를 모두 동일한 호스트 컴퓨터에 설치해야 합니다. 호스트 컴퓨터에 비즈니스용 Skype 서버가 설치되어 있지 않은지 확인합니다. 
   
 ### <a name="prepare-the-listener-host-machine"></a>수신기 호스트 컴퓨터 준비
 
-호스트 컴퓨터를 준비 하려면 Redis 메모리 내 캐싱 시스템을 설치 하 고 올바른 인증서가 컴퓨터에 있는지 확인 해야 합니다. Microsoft는 Redis 3.0의 최신 안정적인 빌드를 설치 하는 것이 좋습니다. 통계 관리자 버전 2.0 Redis 3.2.100에서 테스트를 거쳤습니다. 
+호스트 시스템을 준비하려면 Redis 인 메모리 내 캐싱 시스템을 설치하고 컴퓨터에 유효한 인증서가 있어야 합니다. Redis 3.0의 최신 안정 빌드를 설치하는 것이 좋습니다. Statistics Manager 버전 2.0은 Redis 3.2.100으로 테스트되었습니다. 
   
-1. 다음 사이트에서 Redis을 다운로드 합니다 [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
+1. 다음 사이트에서 Redis를 [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) 다운로드합니다. 
     
-    서명 되지 않은 설치 관리자는 다음에서 다운로드할 수 있습니다.[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
+    부호 없는 설치 관리자를 다운로드할 수 있습니다. [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    필요한 경우 인기 있는 패키지 관리자: [Nuget](https://www.nuget.org/packages/Redis-64/) 및 [Choclatey](https://chocolatey.org/packages/redis-64)에서 서명 된 이진 파일을 사용할 수 있습니다.
+    필요한 경우 인기 있는 패키지 관리자 [Nuget](https://www.nuget.org/packages/Redis-64/) 및 [Choclatey를](https://chocolatey.org/packages/redis-64)통해 서명된 이진을 사용할 수 있습니다.
     
-   - 제공 된 msi를 실행 하 고 화면의 지시를 따릅니다.
+   - 제공된 msi를 실행하고 프롬프트를 따르습니다.
     
-   - 방화벽 규칙 추가 확인란을 선택 하지 마세요.
+   - 방화벽 규칙을 추가하기 위해 확인란을 선택하지 않습니다.
     
-2. 수신기 서비스에는 인증서가 필요 합니다. Microsoft는 신뢰할 수 있는 인증 기관에서 서명한 인증서를 사용 하는 것이 좋습니다. 
+2. 수신기 서비스에 인증서가 필요합니다. 신뢰할 수 있는 인증 기관에서 서명한 인증서가 있는 것이 좋습니다. 
     
-    랩에서 테스트 목적으로 자체 서명 된 인증서를 사용 하려는 경우 (예: [자체 서명 된 인증서 만들기](deploy.md#BKMK_SelfCert))를 참조 하세요.
+    랩에서 자체 서명된 인증서를 사용하려는 경우(예: 자체 서명된 인증서 만들기 [참조).](deploy.md#BKMK_SelfCert)
     
-    에이전트는 체인 확인 대신 인증서 지문 확인을 사용 합니다. 자체 서명 된 인증서를 사용할 수 있기 때문에 전체 인증서 유효성 검사를 수행 하지 않습니다.
+    에이전트는 체인 확인 대신 인증서 지문 확인을 사용합니다. 자체 서명된 인증서를 사용할 수 있기 때문에 전체 인증서 유효성 검사를 하지 않습니다.
     
 ### <a name="install-the-listener-service"></a>수신기 서비스 설치
 
-Stats마나트 Cpagentlistener를 실행 하 고 다음을 지정 하 여 호스트 컴퓨터에 수신기 서비스를 설치 합니다.
+수신기 서비스를 실행하고 다음을 지정하여 StatsManPerfAgentListener.msi 수신기 서비스를 설치합니다.
   
-1. 사용권 계약을 검토 하 고 동의할 경우 **사용권 계약에 동의 함을**선택 하 고 **다음**을 클릭 합니다. 
+1. 사용권 계약을 검토하고 동의하는 경우 사용권 계약에 동의한 후 다음을 **클릭합니다.** 
     
-2. 다음 페이지에서 다음 정보를 지정 합니다.
+2. 다음 페이지에서 다음 정보를 지정합니다.
     
-   - **서비스 비밀 번호:** 원격 에이전트가 수신기 서비스에 인증 하는 데 사용할 암호입니다.
+   - **서비스 암호:** 원격 에이전트가 수신기 서비스에 인증하는 데 사용하는 암호입니다.
     
-   - **서비스 포트:** 이는 수신기가 에이전트와 통신 하는 데 사용할 HTTPS 포트 번호입니다. 설치 중에이 포트는 로컬 방화벽을 통해 허용 되 고, URL ACL이 만들어지고, SSL 인증서가이 포트에 바인딩됩니다. 기본값은 8443입니다.
+   - **서비스 포트:** 수신기에서 에이전트와 통신하는 데 사용할 HTTPS 포트 번호입니다. 설치하는 동안 이 포트는 로컬 방화벽을 통해 허용됩니다. URL ACL이 만들어지며 SSL 인증이 이 포트에 바인딩됩니다. 기본값은 8443입니다.
     
-   - **인증서 지문:** 이는 수신기가 HTTPS 프로토콜을 암호화 하는 데 사용할 인증서 지문입니다. 네트워크 서비스에는 개인 키에 대 한 읽기 권한이 있어야 합니다.
+   - **인증서 지문:** 수신기에서 HTTPS 프로토콜을 암호화하는 데 사용할 인증서 지문입니다. 네트워크 서비스에는 개인 키에 대한 읽기 권한이 있어야 합니다.
     
-     **선택 ...** 단추를 클릭 하 여 지문을 선택 합니다.
+     선택... **단추를** 클릭하여 지문을 선택합니다.
     
-     인증서 관리자를 사용 하거나 다음 PowerShell 명령을 사용 하 여 인증서 지문을 찾을 수 있습니다.
+     인증서 관리자 또는 다음 PowerShell 명령을 사용하여 인증서 지문을 찾을 수 있습니다.
     
        ```PowerShell
        Get-ChildItem -path cert:\LocalMachine\My
        ```
 
-   - **설치 디렉터리:** 바이너리가 설치 될 디렉터리입니다. **찾아보기를** 클릭 하 여 기본값을 변경할 수 있습니다.
+   - **Dir 설치:** 이 디렉터리는 이진을 설치할 디렉터리입니다. 찾아보기 단추를 사용하여 기본값에서 변경할 **수** 있습니다.
     
-   - **AppData Dir:** 로그 폴더와 다른 데이터가 저장 되는 디렉터리입니다. 기본값에서 변경할 수 있습니다. 제거 시에 삭제 되지 않습니다.
+   - **AppData Dir:** Logs 폴더 및 기타 데이터가 저장되는 디렉터리입니다. 기본값에서 변경할 수 있습니다. 제거 시에는 삭제되지 않습니다.
     
-3. **설치**를 클릭 합니다.
+3. **설치** 를 클릭합니다.
     
-설치의 유효성을 검사 하려면 다음 단계를 수행 합니다.
+설치의 유효성을 검사하기 위해 다음 단계를 수행합니다.
   
-1. 브라우저를 열고 다음으로 이동 합니다.https://localhost:\<service-port\>/healthcheck/
+1. 브라우저를 열고 https://localhost: \<service-port\> /healthcheck/
     
-    기본적으로 서비스 포트는 8443입니다 (다른 포트를 지정 하지 않는 경우).
+    기본적으로 서비스 포트는 8443입니다(다른 포트를 지정하지 않은 경우).
     
-2. 수신기가 제대로 설치 되었는지 확인 하려면 다음을 확인 합니다.
+2. 수신기에서 제대로 설치되었는지 확인하려면 다음을 확인합니다.
     
-   - Healthcheck 페이지가 표시 되 면 수신기가 성공적으로 설치 된 것입니다.
+   - 상태 확인 페이지가 표시된 경우 수신기 설치가 성공한 것입니다.
     
-   - KnownServerCount가 1 이상인 경우 Redis에 대 한 연결이 설정 됩니다.
+   - KnownServerCount가 1 이상이면 Redis에 대한 연결이 설정됩니다.
     
-   - 몇 분 정도 기다렸다가 하나 이상의 에이전트가 설치 된 후에는 Value쓰여진 카운터가 증가 하 고 있는지 확인 합니다.
+   - 몇 분 정도 기다렸다가 하나 이상의 에이전트가 설치된 후 ValuesWritten 카운터가 증분하는지 확인합니다.
     
 ### <a name="install-the-website"></a>웹 사이트 설치
 
-[비즈니스용 Skype Server, 실시간 통계 관리자 (64 비트)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)) 및 다음을 지정 하 여 Stats마나트 웹 사이트 (msi)를 실행 하 여 호스트 컴퓨터에 웹 사이트를 설치 합니다.
+웹 사이트를 실행하고(비즈니스용 Skype StatsManWebSite.msi 통계 [관리자(64비트) 포함)를](https://www.microsoft.com/en-in/download/details.aspx?id=57518)실행하고 다음을 지정하여 호스트 Real-Time 컴퓨터에 웹 사이트를 설치합니다.
   
-1. 사용권 계약을 검토 하 고 동의할 경우 **사용권 계약에 동의 함을**선택 하 고 **다음**을 클릭 합니다. 
+1. 사용권 계약을 검토하고 동의하는 경우 사용권 계약에 동의한 후 다음을 **클릭합니다.** 
     
-2. 다음 페이지에서 다음 정보를 지정 합니다.
+2. 다음 페이지에서 다음 정보를 지정합니다.
     
-   - **서비스 포트:** 웹 사이트가 수신 대기 하는 포트 번호입니다. 나중에 IIS 관리자 바인딩을 사용 하 여 변경할 수 있습니다. 설치 중에이 포트는 로컬 방화벽을 통해 허용 됩니다.
+   - **서비스 포트:** 웹 사이트에서 수신할 포트 번호입니다. 나중에 IIS 관리자 바인딩을 사용하여 변경할 수 있습니다. 설치하는 동안 이 포트는 로컬 방화벽을 통해 허용됩니다.
     
-   - **설치 디렉터리:** 바이너리가 설치 되는 디렉터리입니다. **찾아보기를** 클릭 하 여 기본값을 변경할 수 있습니다.
+   - **Dir 설치:** 이 디렉터리는 이진을 설치할 디렉터리입니다. 찾아보기 단추를 사용하여 기본값에서 변경할 **수** 있습니다.
     
-   - **AppData Dir:** 로그 폴더와 다른 데이터가 저장 되는 디렉터리입니다. 기본값에서 변경할 수 있습니다. 제거 시에 삭제 되지 않습니다.
+   - **AppData Dir:** Logs 폴더 및 기타 데이터가 저장되는 디렉터리입니다. 기본값에서 변경할 수 있습니다. 제거 시에는 삭제되지 않습니다.
     
-3. **설치**를 클릭 합니다.
+3. **설치** 를 클릭합니다.
     
-웹 사이트를 보려면 브라우저를 열고 http://localhost,, webport\>/.를 탐색 합니다.
+웹 사이트를 보고 브라우저를 열고 http://localhost 다음으로 이동합니다. ,webport \> /.
   
-상태 정보만 보려면 브라우저를 열고 다음 http://localhost:\<webport\>/healthcheck/으로 이동 합니다.
+상태 정보만 보기 위해 브라우저를 열고 http://localhost: \<webport\> /healthcheck/로 이동합니다.
   
-기본적으로 웹 포트 번호는 8080입니다. IIS 관리자를 사용 하 여 웹 사이트의 포트 바인딩을 변경할 수 있습니다.
+기본적으로 웹 포트 번호는 8080입니다. IIS 관리자를 사용하여 웹 사이트의 포트 바인딩을 변경할 수 있습니다.
   
-웹 설치 관리자가 StatsManWebSiteUsers 이라는 로컬 보안 그룹을 추가 합니다. 이 보안 그룹에 계정을 추가 하 여 웹 사이트에 대 한 액세스 권한을 부여할 수 있습니다. 
+웹 설치 관리자에서 StatsManWebSiteUsers라는 로컬 보안 그룹을 추가합니다. 이 보안 그룹에 계정을 추가하여 웹 사이트에 대한 액세스 권한을 부여할 수 있습니다. 
   
 ### <a name="install-the-agents"></a>에이전트 설치
 
-Stats Perfagent를 실행 하 고 다음을 지정 하 여 모니터링할 각 비즈니스용 Skype 서버에 에이전트를 설치 합니다.
+관리자를 실행하고 다음을 지정하여 모니터링할 각 비즈니스용 Skype StatsManPerfAgent.msi 설치합니다.
   
-1. 사용권 계약을 검토 하 고 동의할 경우 **사용권 계약에 동의 함을**선택 하 고 **다음**을 클릭 합니다. 
+1. 사용권 계약을 검토하고 동의하는 경우 사용권 계약에 동의한 후 다음을 **클릭합니다.** 
     
-2. 다음 페이지에서 다음 정보를 지정 합니다.
+2. 다음 페이지에서 다음 정보를 지정합니다.
     
-   - **서비스 비밀 번호:** 원격 에이전트가 수신기 서비스에 인증 하는 데 사용할 암호입니다.
+   - **서비스 암호:** 원격 에이전트가 수신기 서비스에 인증하는 데 사용할 암호입니다.
     
-   - **서비스 URI:** 수신기가 상주 하는 URI입니다. https://name:port 형식을 사용 해야 합니다.
+   - **서비스 URI:** 수신기 위치는 URI입니다. 형식을 사용해야 https://name:port 합니다.
     
-     NETBIOS 이름 또는 FQDN을 사용할 수 있습니다. 수신기 서비스에서 인증서의 **주체 또는** **주체의 대체 이름** 으로도 지정 된 이름을 사용할 수 있지만, 반드시 그럴 필요는 없습니다.
+     NETBIOS 이름 또는 FQDN을 사용할 수 있습니다. 수신기 서비스에서 인증서의 주체  또는  주체 대체 이름으로도 지정된 이름을 사용할 수 있지만 이 이름은 필수 사항이 아닙니다.
     
-   - **서비스 지문:** 수신기가 사용 하는 SSL 인증서의 지문입니다. 에이전트는이 지문을 사용 하 여 수신기를 인증 합니다. (자체 서명 된 인증서를 사용할 수 있기 때문에 전체 인증서 유효성 검사를 수행 하지 않습니다.)
+   - **서비스 지문:** 수신기에서 사용하는 SSL 인증서의 지문입니다. 에이전트는 이 지문을 사용하여 수신기 인증을 합니다. 자체 서명된 인증서를 사용할 수 있기 때문에 전체 인증서 유효성 검사를 하지 않습니다.
     
-   - **설치 디렉터리:** 바이너리가 설치 될 디렉터리입니다. **찾아보기를** 클릭 하 여 기본값을 변경할 수 있습니다.
+   - **Dir 설치:** 이 디렉터리는 이진을 설치할 디렉터리입니다. 찾아보기 단추를 사용하여 기본값에서 변경할 **수** 있습니다.
     
-   - **AppData Dir:** 로그 폴더와 암호화 된 암호 .txt 파일이 저장 되는 디렉터리입니다. 기본값에서 변경할 수 있습니다. 제거 시에 삭제 되지 않습니다.
+   - **AppData Dir:** 이 디렉터리는 Logs 폴더 및 암호화된 password.txt 저장할 디렉터리입니다. 기본값에서 변경하면 감사할 수 있습니다. 제거 시에는 삭제되지 않습니다.
     
-3. **설치**를 클릭 합니다.
+3. **설치** 를 클릭합니다.
     
-여러 컴퓨터에 에이전트를 설치 하는 경우 무인 모드에서이 작업을 수행 하는 것이 좋습니다. 예를 들면 다음과 같습니다. 
+많은 컴퓨터에 에이전트를 설치하는 경우 무인 모드에서 이 작업을 할 수 있습니다. 예제: 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
@@ -179,56 +179,56 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>토폴로지 가져오기
 <a name="BKMK_ImportTopology"> </a>
 
-통계 관리자를 설치 하 고 실행 한 후에는 통계 관리자가 각 서버의 사이트, 풀 및 역할을 인식할 수 있도록 비즈니스용 Skype 서버 토폴로지를 가져와야 합니다. 비즈니스용 Skype 서버 토폴로지를 가져오려면 [Get-CsPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) cmdlet을 사용 하 여 조직에서 사용 중인 각 풀에 대 한 정보를 검색 한 다음이 정보를 통계 관리자로 가져옵니다.
+Statistics Manager를 설치하고 실행한 후 통계 관리자가 각 서버의 사이트, 풀 및 역할을 알 수 있도록 비즈니스용 Skype 서버 토폴로지로 가져와야 합니다. 비즈니스용 Skype 서버 토폴로지 가져오기 위해 [Get-CsPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) cmdlet을 사용하여 조직에서 사용 중인 각 풀에 대한 정보를 검색한 다음 이 정보를 통계 관리자로 가져올 수 있습니다.
   
-비즈니스용 Skype 서버 토폴로지를 가져오려면 다음 단계를 따르세요.
+비즈니스용 Skype 서버 토폴로지 가져오기에는 다음 단계를 수행합니다.
   
-1. 비즈니스용 Skype Server PowerShell cmdlet이 있는 호스트에서 다음을 수행 합니다.
+1. 비즈니스용 Skype 서버 PowerShell cmdlet이 있는 호스트에서 다음을 실행합니다.
     
-    에서. 다음 명령을 실행 합니다. 
+    a. 다음 명령을 실행합니다. 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
-    b. "Mypoolinfo" 파일을 수신기를 실행 하는 서버에 복사 합니다.
+    b. "mypoolinfo.xml" 파일을 수신기 실행 서버에 복사합니다.
     
-2. 수신기를 실행 하는 호스트에서 다음을 수행 합니다.
+2. 수신기 실행 호스트에서 다음을 실행합니다.
     
-   에서. PowerShell을 실행 합니다.
+   a. PowerShell을 실행합니다.
     
-   b. 수신기가 설치 된 디렉터리로 이동 합니다. 기본값은 다음과 같습니다. 
+   b. 수신기 설치 디렉터리로 이동합니다. 기본값은 다음입니다. 
     
    ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-3. 추가 되 고 업데이트 되는 서버를 확인 하려면 다음 명령을 실행 합니다.
+3. 추가 및 업데이트되는 서버를 확인하기 위해 다음 명령을 실행합니다.
     
    ```console
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
-다음 명령을 사용 하 여 모든 옵션을 볼 수 있습니다.
+다음 명령을 사용하면 모든 옵션을 볼 수 있습니다.
   
 ```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-현재 가져온 서버 정보를 보려면 다음 스크립트를 실행 합니다. 
+현재 가져온 서버 정보를 확인한 후 다음 스크립트를 실행합니다. 
   
 ```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
-비즈니스용 Skype 서버 토폴로지에 없는 서버 (예: Exchange 서버)를 모니터링 하려는 경우 수신기를 실행 하는 호스트에서 단일 서버 가져오기를 수행할 수 있습니다. 단일 서버 가져오기를 수행 하려면 다음 단계를 따릅니다.
+비즈니스용 Skype 서버 토폴로지(예: Exchange Server)에 없는 서버를 모니터링할 경우 수신기 실행 호스트에서 단일 서버 가져오기 작업을 할 수 있습니다. 단일 서버 가져오기 작업을 수행하기 위해 다음 단계를 수행합니다.
   
-1. 수신기가 설치 된 디렉터리로 이동 합니다. 기본값은 다음과 같습니다. 
+1. 수신기 설치 디렉터리로 이동합니다. 기본값은 다음입니다. 
     
    ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-2. 다음 명령을 실행 합니다.
+2. 다음 명령을 실행합니다.
     
    ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
@@ -237,72 +237,72 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
 ## <a name="troubleshoot-your-deployment"></a>배포 문제 해결
 <a name="BKMK_Troubleshoot"> </a>
 
-에이전트가 시작 되지 않으면 다음을 확인 합니다. 
+에이전트를 시작하지 못하면 다음을 검사합니다. 
   
-- 에이전트가 통계 관리자에 등록 되어 있습니까?
+- 에이전트가 통계 관리자에 등록되어 있나요?
     
-    1. 토폴로지 가져오기에 대 한 지침을 따랐는지 확인 합니다. [토폴로지 가져오기를](deploy.md#BKMK_ImportTopology)참조 하세요.
+    1. 토폴로지 가져오기 지침을 따라야 합니다. [토폴로지 가져오기](deploy.md#BKMK_ImportTopology)
         
-    2. 에이전트가 토폴로지에 나열 되지 않은 서버 (예: SQL AlwaysOn 클러스터의 노드)에 있는 경우 [토폴로지 가져오기](deploy.md#BKMK_ImportTopology)의 지침에 따라 에이전트를 수동으로 추가 해야 합니다.
+    2. 에이전트가 토폴로지에 나열되지 않은 서버(예: SQL AlwaysOn 클러스터의 노드)에 있는 경우 토폴로지 가져오기 지침에 따라 에이전트를 수동으로 [추가해야 합니다.](deploy.md#BKMK_ImportTopology)
     
-- 에이전트가 수신기에 연결할 수 있습니까?
+- 에이전트가 수신기에 연락할 수 있나요?
     
-    1. 수신기 서비스가 실행 중인지 확인 합니다. 
+    1. 수신기 서비스가 실행되고 있는지 확인 
         
-        실행 중이지 않은 경우 Redis가 실행 중인지 확인 한 다음 수신기를 다시 시작 해 봅니다.
+        실행되고 있지 않은 경우 Redis가 실행되고 있는지 확인한 다음 수신기 다시 시작을 시도합니다.
         
-    2. 포트가 수신기 서비스에 열려 있고 에이전트 컴퓨터가 포트와 통신할 수 있는지 확인 합니다.
+    2. 수신기 서비스에 포트가 열려 있는지, 에이전트 컴퓨터가 포트와 통신할 수 있는지 확인합니다.
     
-- 통계 관리자가 데이터를 수집 하 고 있는지 확인 하려면 다음과 같이 CSV 파일을 확인 하면 됩니다. 
+- 통계 관리자가 데이터를 수집하는지 확인하기 위해 다음과 같이 CSV 파일을 확인할 수 있습니다. 
     
-    다음 명령은 카운터 저장소 이름을 검색 합니다. 
+    다음 명령은 카운터 저장소 이름을 검색합니다. 
     
   ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
   ```
 
-    다음 명령은 지정 된 카운터의 값을 검색 합니다. 
+    다음 명령은 지정된 카운터의 값을 검색합니다. 
     
   ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-응용 프로그램 이벤트 로그에 표시 될 수 있는 모든 이벤트에 대 한 자세한 내용은 비즈니스용 [Skype 서버에 대 한 통계 관리자 문제 해결](troubleshoot.md)을 참조 하세요.
+응용 프로그램 이벤트 로그에 표시될 수 있는 모든 이벤트에 대한 자세한 내용은 비즈니스용 Skype 서버 통계 관리자 문제 [해결을 참조하세요.](troubleshoot.md)
   
-## <a name="create-a-self-signed-certificate"></a>자체 서명 된 인증서 만들기
+## <a name="create-a-self-signed-certificate"></a>자체 서명된 인증서 만들기
 <a name="BKMK_SelfCert"> </a>
 
-Microsoft는 신뢰할 수 있는 인증 기관에서 서명한 인증서를 사용 하는 것이 좋습니다. 그러나 테스트 목적으로 자체 서명 된 인증서를 사용 하려는 경우에는 다음을 수행 합니다. 
+신뢰할 수 있는 인증 기관에서 서명한 인증서를 사용하는 것이 좋습니다. 그러나 테스트 목적으로 자체 서명된 인증서를 사용하려는 경우 다음을 수행하십시오. 
   
-1. 관리자로 로그온 한 상태에서 PowerShell 콘솔에서 다음을 입력 합니다.
+1. 관리자로 로그온한 동안 PowerShell 콘솔에서 다음을 입력합니다.
     
    ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
-2. 형식을 `certlm.msc`입력 합니다. 로컬 컴퓨터의 인증서 관리자가 열립니다.
+2. 를  `certlm.msc` 입력합니다. 그러면 로컬 컴퓨터의 인증서 관리자가 열립니다.
     
-3. **개인**으로 이동한 다음 **인증서**를 엽니다.
+3. 개인 **인증서로** 이동한 다음 **인증서를 여는 중입니다.**
     
-4. **Stats마나트 수신기\>-모든 작업-\>개인 키 관리 ...** 를 마우스 오른쪽 단추로 클릭 합니다.
+4. **StatsManListener - 모든 작업 - 개인 키 \> \> 관리...**
     
-5. **추가**를 클릭 합니다.
+5. **추가** 를 클릭합니다.
     
-6. **선택할 개체 이름 입력** 상자에 다음을 입력 합니다. 네트워크 서비스
+6. 선택할 개체 **이름** 입력 상자에 Network Service를 입력합니다.
     
-7. **확인**을 클릭합니다.
+7. **확인** 을 클릭합니다.
     
-8. **모든 권한**에서 **허용** 확인란의 선택을 취소 합니다. (읽기 액세스만 필요 합니다.)
+8. 모든 **제어 아래에서** 허용 확인란을  선택하지 않습니다. 읽기 전용입니다.
     
-9. **확인**을 클릭합니다.
+9. **확인** 을 클릭합니다.
     
-## <a name="for-more-information"></a>자세한 내용은
+## <a name="for-more-information"></a>자세한 내용
 <a name="BKMK_SelfCert"> </a>
 
-자세한 내용은 다음을 참조 하세요.
+자세한 내용은 다음 항목을 참조하세요.
   
 - [비즈니스용 Skype 서버 통계 관리자에 대한 계획](plan.md)
     
 - [비즈니스용 Skype 서버 통계 관리자 업그레이드](upgrade.md)
     
-- [비즈니스용 Skype Server ß의 통계 관리자 문제 해결](troubleshoot.md)
+- [비즈니스용 Skype 서버 통계 관리자](troubleshoot.md) 문제 해결

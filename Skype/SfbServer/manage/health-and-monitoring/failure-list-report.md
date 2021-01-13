@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버의 오류 목록 보고서
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,56 +11,56 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: '요약: 비즈니스용 Skype 서버의 오류 목록 보고서에 대해 자세히 알아보세요.'
-ms.openlocfilehash: 8d0ca503f1a7883ab9ec1dd4ded8556b2ee3ab0f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 비즈니스용 Skype 서버의 오류 목록 보고서에 대해 자세히 알아보습니다.'
+ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817948"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816848"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 오류 목록 보고서 
  
-**요약:** 비즈니스용 Skype 서버의 오류 목록 보고서에 대해 자세히 알아보세요.
+**요약:** 비즈니스용 Skype 서버의 오류 목록 보고서에 대해 자세히 알아보습니다.
   
-실패 목록 보고서는 실패 한 피어 투 피어 또는 회의 세션에서 참여 한 개별 참가자에 대 한 정보를 제공 합니다. 이 정보에는 문제가 발생 한 사용자의 URI와 실패와 연결 된 SIP 응답 코드 및 진단 ID가 포함 됩니다.
+오류 목록 보고서에서는 실패한 피어 투 피어 또는 회의 세션에 참가한 개별 참가자에 대한 정보를 제공합니다. 이 정보에는 문제를 경험한 사용자의 URI와 실패와 관련된 SIP 응답 코드 및 진단 ID가 포함됩니다.
   
-## <a name="accessing-the-failure-list-report"></a>실패 목록 보고서에 액세스
+## <a name="accessing-the-failure-list-report"></a>오류 목록 보고서 액세스
 
-실패 목록 보고서는 [비즈니스용 Skype 서버의 실패 한 배포 보고서](failure-distribution-report.md)에서 다음 메트릭 중 하나를 클릭 하 여 액세스할 수 있습니다.
+오류 목록 보고서는 비즈니스용 Skype 서버의 실패 분포 보고서에서 다음 메트릭 중 원하는 항목 중 한 가지를 클릭하여 [액세스합니다.](failure-distribution-report.md)
   
-- 주요 진단 이유 (세션)
+- 상위 진단 이유(세션)
     
-- 최상위 형식을 (세션)
+- 상위 형식(세션)
     
-- 상위 풀 (세션)
+- 상위 풀(세션)
     
-- 상위 원본 (세션)
+- 상위 원본(세션)
     
-- 상위 구성 요소 (세션)
+- 상위 구성 요소(세션)
     
-- 사용자 (세션)의 상위
+- 상위 출처 사용자(세션)
     
-- 상위 사용자 (세션)
+- 상위 대상 사용자(세션)
     
-- 사용자 에이전트 (세션)에서 맨 위로
+- 상위 출처 사용자 에이전트(세션)
     
-실패 목록 보고서에서 피어 투 피어 세션에 대 한 세션 세부 정보 메트릭을 클릭 하 여 비즈니스용 [Skype 서버의 피어 투 피어 세션 세부 정보 보고서](peer-to-peer-session-detail-report.md) 에 액세스할 수 있습니다. 회의에 대 한 회의 메트릭을 클릭 하 여 회의 세부 정보 보고서에 액세스할 수도 있습니다.
+오류 목록 보고서에서 피어 투 피어 세션에 대한 세션 세부 정보 메트릭을 클릭하여 비즈니스용 [Skype](peer-to-peer-session-detail-report.md) 서버의 피어 투 피어 세션 세부 정보 보고서에 액세스할 수 있습니다. 또한 전화 회의에 대한 전화 회의 메트릭을 클릭하여 전화 회의 정보 보고서에 액세스할 수 있습니다.
   
-## <a name="making-the-best-use-of-the-failure-list-report"></a>실패 목록 보고서를 최대한 활용 하기
+## <a name="making-the-best-use-of-the-failure-list-report"></a>오류 목록 보고서의 효과적인 활용
 
-실패 목록 보고서에서 해당 값 위에 마우스를 놓으면 각 응답 코드 또는 각 진단 ID에 대 한 설명을 볼 수 있습니다. 예를 들어 마우스를 진단 ID 7025에 포함 하면 도구 설명에 다음이 표시 됩니다.
+오류 목록 보고서에서는 각 응답 코드 또는 각 진단 ID 위에 마우스를 놓기만 하면 해당 값에 대한 설명을 볼 수 있습니다. 예를 들어 진단 ID 7025 위에 마우스를 놓으면 도구 설명에 다음이 표시됩니다.
   
-사용자의 미디어를 만드는 동안 내부 서버 오류가 발생 했습니다.
+사용자를 위한 미디어를 만드는 동안 내부 서버 오류가 발생했습니다.
   
-실패 목록 보고서에는 실패 한 하나 이상의 세션에 참가 한 모든 사용자의 목록을 직접 검색 하는 간단한 방법이 나와 있지 않으며, 실패 한 사용자에 게 가장 자주 관여 하는 사람을 확인 하는 방법이 제공 되지 않는다는 점에 유의 해야 합니다. 세션만. 한 가지 방법으로 실패 목록 보고서에는 필터링 기능이 없습니다. 그러나 데이터를 내보낸 다음 쉼표로 구분 된 값 파일로 변환 하는 경우 Windows PowerShell을 사용 하 여 이와 같은 질문에 대 한 답변을 찾을 수 있습니다. 예를 들어 데이터를에 저장 한다고 가정 합니다. CSV 파일 이름 \ Failure_List. 이 명령은 해당 파일에 저장 된 데이터를 기반으로 하나 이상의 실패 한 세션에 참가 한 모든 사용자를 나열 합니다. 
+오류 목록 보고서는 하나 이상의 실패한 세션에 참가한 모든 사용자의 목록을 직접 검색하는 간편한 방법이나 실패한 세션에서 가장 자주 참여한 사용자를 파악하는 방법을 제공하지 않습니다. 우선 한 가지 이유는 오류 목록 보고서에 필터링 기능이 없기 때문입니다. 그러나 데이터를 내보낸 후에 쉼표로 구분된 값 파일로 변환할 경우 Windows PowerShell을 사용하여 이러한 사항을 찾을 수 있습니다. 예를 들어 데이터를 C:\Data\Failure_List.csv라는 이름의 .CSV 파일로 저장한 경우 다음 명령을 사용하면 이 파일에 저장된 데이터를 기반으로 하나 이상의 실패한 세션에 참여한 모든 사용자가 나열됩니다. 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
 
-이 명령은 다음과 같은 목록을 반환 합니다.
+그러면 다음과 같은 목록이 반환됩니다.
   
 <pre>
     From user
@@ -72,14 +72,14 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
     Ken.Myer@litwareinc.com
 </pre>
 
-다음 두 명령은 각 사용자가 참여 한 실패 한 총 세션 수를 보고 합니다.
+다음 두 명령은 각 사용자가 참가한 실패한 총 세션 수를 보고합니다.
   
 ```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
 $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 ```
 
-이는 다음과 같은 데이터를 반환 합니다.
+그러면 다음과 같은 데이터가 반환됩니다.
   
 <pre>
 Count    Name
@@ -91,25 +91,25 @@ Count    Name
     14    Henrik.Jensen@litwareinc.com
 </pre>
 
-## <a name="filters"></a>필터가
+## <a name="filters"></a>필터
 
-없음. 실패 목록 보고서는 필터링 할 수 없습니다.
+없음. 오류 목록 보고서는 필터링할 수 없습니다.
   
-## <a name="metrics"></a>매트릭스
+## <a name="metrics"></a>메트릭
 
-다음 표에는 실패 목록 보고서에 제공 된 각 통화에 대 한 정보가 나와 있습니다.
+다음 표에서는 각 실패한 통화에 대해 오류 목록 보고서에 제공된 정보를 보여 줍니다.
   
-**실패 목록 보고서 메트릭**
+**오류 목록 보고서 메트릭**
 
-|**이름**|**이 항목을 정렬할 수 있나요?**|**설명**|
+|**이름**|**이 항목에 대한 정렬 가능 여부**|**설명**|
 |:-----|:-----|:-----|
-|**보고 시간** <br/> |아니요  <br/> |보고서가 기록 된 날짜 및 시간입니다.  <br/> |
-|**요청당** <br/> |아니요  <br/> |실패 한 SIP 요청 유형입니다. 예를 들어 초대 또는 BYE.  <br/> |
-|**응답 코드** <br/> |아니요  <br/> |회의에 실패 한 경우 SIP 응답 코드가 전송 됩니다.  <br/> |
-|**진단 ID** <br/> |아니요  <br/> |오류 문제 해결에 유용한 정보를 자주 제공 하는 SIP 메시지에 첨부 된 고유 식별자 (ms-진단 헤더 형식)입니다.  <br/> |
-|**참가 비용 시간 (밀리초)** <br/> |아니요  <br/> |사용자가 회의에 참가 하는 데 필요한 시간 (밀리초 단위)입니다.  <br/> |
-|**사용자의** <br/> |아니요  <br/> |통화를 시작한 사용자의 SIP 주소입니다.  <br/> |
-|**사용자 에이전트에서** <br/> |아니요  <br/> |통화를 시작한 사용자의 끝점에서 사용 하는 소프트웨어입니다.  <br/> |
-|**사용자에 게** <br/> |아니요  <br/> |호출 되는 사용자의 SIP 주소입니다.  <br/> |
+|**보고된 시간** <br/> |아니요  <br/> |보고서가 기록된 날짜 및 시간입니다.  <br/> |
+|**요청** <br/> |아니요  <br/> |실패한 SIP 요청 유형입니다. 예: INVITE 또는 BYE  <br/> |
+|**응답 코드** <br/> |아니요  <br/> |회의가 실패했을 때 전송된 SIP 응답 코드입니다.  <br/> |
+|**진단 ID** <br/> |아니요  <br/> |오류 문제를 해결할 때 종종 유용한 정보를 제공하는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)입니다.  <br/> |
+|**참가 소요 시간(밀리초)** <br/> |아니요  <br/> |사용자가 전화 회의에 참가하기까지 소요된 시간(밀리초)입니다.  <br/> |
+|**시작 사용자** <br/> |아니요  <br/> |통화를 시작한 사용자의 SIP 주소입니다.  <br/> |
+|**출처 사용자 에이전트** <br/> |아니요  <br/> |통화를 시작한 사용자의 끝점에 사용된 소프트웨어입니다.  <br/> |
+|**대상 사용자** <br/> |아니요  <br/> |통화를 받고 있는 사용자의 SIP 주소입니다.  <br/> |
    
 

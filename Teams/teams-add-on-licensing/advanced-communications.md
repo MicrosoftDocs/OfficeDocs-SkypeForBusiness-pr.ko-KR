@@ -1,7 +1,7 @@
 ---
-title: Microsoft 팀을 위한 고급 통신 추가 기능
-author: LanaChin
-ms.author: v-lanac
+title: Microsoft Teams용 고급 통신 추가 기능
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -9,7 +9,7 @@ ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft 팀의 고급 통신 추가 기능 SKU에 대해 알아보세요.
+description: Microsoft Teams용 Advanced Communications 추가 기능 SKU에 대해 자세히 배워야 합니다.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,66 +17,66 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6502f73d39c61eaa933d126cebb71f3123bdd541
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: e3de3ea38f326917232fce41ade78a59ef6da7fc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130389"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809358"
 ---
-# <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft 팀을 위한 고급 통신 추가 기능
+# <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft Teams용 고급 통신 추가 기능
 
-2020 년 8 월 1 일, 고급 통신을 Microsoft 팀 추가 기능으로 유료 Microsoft 365 또는 Office 365 구독에 사용할 수 있습니다.
+Advanced Communications는 2020년 8월 1일부로 유료 Microsoft 365 또는 Office 365 구독에 Microsoft Teams 추가 기능 SKU로 제공됩니다.
 
-조직이 통신 환경을 더욱 개선 하 고 있다면 대규모 모임, 모임 사용자 지정, 도구를 포함 하 여 조직의 통신 정책을 관리 하는 데 도움이 되는 통화 및 모임 능력에 대 한 고급 통신을 이용할 수 있습니다.
+조직에서 커뮤니케이션 환경을 더욱 개선하기 위해 대규모 모임, 모임 사용자 지정 및 조직의 통신 정책을 관리하는 도구가 포함된 통화 및 모임 기능을 위한 고급 통신을 얻습니다.
 
-## <a name="what-is-advanced-communications"></a>고급 통신 이란?
+## <a name="what-is-advanced-communications"></a>Advanced Communications란?
 
-고급 통신은 다음을 포함 하 여 통신 요구의 스펙트럼을 처리 하는 향상 된 통화 및 모임 기능을 제공 합니다.
+Advanced Communications는 다음을 포함하여 다양한 통신 요구 사항을 충족하는 향상된 통화 및 모임 기능을 제공합니다.
 
-- **더 많은 대상 그룹** 에 게 연락: 사용자가 보기 전용 모임 환경에서 최대 2만 명의 참가자와 대화형 1000 모임에 대 한 실시간 이벤트 및 2만 참가자를 사용 하는 기능을 유지 하는 데 도움이 됩니다.
-- 사용자 지정 브랜드 모임 로비와 같은 기능을 사용 하 여 내부 및 사용자 지정 시나리오를 위해 모임에서 표준화 하 고 연결 하는 방법에 **맞게 모임** 을 조정 합니다. 조직의 부서에 걸친 유연성을 구현 합니다. 
-- **조직 통신 관리**: 사용자 및 장치의 데이터를 모니터링, 추적 및 분석 하 여 원활한 환경을 보장 합니다.
+- 더 **많은** 대상에 도달: 사용자가 최대 20,000명까지 라이브 이벤트에 연결되고 1,000명에 대한 대화형 모임을 통해 보기 전용 모임 환경의 최대 20,000명까지 참가할 수 있습니다.
+- **모임 조정 및 사용자** 지정: 사용자 지정 브랜드 모임 로비와 같은 기능을 사용하여 내부 및 사용자 지정 시나리오에 맞게 모임 전반에 걸쳐 표준화를 주도합니다. 조직의 부서에서 유연성을 통해 구현합니다. 
+- **조직 통신 관리:** 사용자 및 디바이스에서 데이터를 모니터링, 추적 및 분석하여 원활한 환경을 보장합니다.
 
-모든 Microsoft 365 지역에서 유료 Microsoft 365 또는 Office 365 구독에 대 한 추가 기능으로 고급 통신을 사용할 수 있습니다. 고급 통신에 포함 된 기능은 다른 Microsoft 365 또는 Office 365 계획에 추가 되지 않으며 별도로 구매할 수 없습니다. 기능을 얻으려면 추가 기능을 구입 해야 합니다.
+Advanced Communications는 모든 Microsoft 365 시장에서 유료 Microsoft 365 또는 Office 365 구독에 대한 추가 기능으로 사용할 수 있습니다. Advanced Communications에 포함된 기능은 다른 Microsoft 365 또는 Office 365 요금제에 추가되지 않습니다. 별도로 구입할 수 없습니다. 기능을 사용하려면 추가 기능을 구입해야 합니다.
 
 > [!NOTE]
-> Microsoft 365 정부 커뮤니티 클라우드 (GCC), GCC 높음 또는 보호 (DoD) 환경에서는 아직 고급 통신을 사용할 수 없습니다. 나중에 사용할 수 있도록 계획 하 고 있습니다.
+> Advanced Communications는 Microsoft 365 GCC(Government Community Cloud), GCC High 또는 DoD(국방부) 환경에서는 아직 사용할 수 없습니다. 나중에 사용할 수 있도록 준비 중입니다.
 
 ## <a name="feature-availability"></a>기능 가용성
 
-릴리스할 때 2020 년 8 월 1 일에 다음 기능을 사용할 수 있습니다.
+2020년 8월 1일 릴리스에서는 다음과 같은 기능을 사용할 수 있습니다.
 
-- 실시간 이벤트 지원 최대 2만 참가자, 50 동시 이벤트, 브로드캐스트 당 16 시간 이벤트 기간
+- 최대 20,000명 참가자, 50개 동시 이벤트, 브로드캐스트당 16시간의 이벤트 기간에 대한 라이브 이벤트 지원
 
-올해 후반에는 다음 기능을 사용할 수 있습니다.
+다음 기능은 올해 말에 사용할 수 있습니다.
 
-- 최대 1000 참가자를 위한 대화형 팀 모임
-- 보기 전용 모임 환경에서 최대 2만을 사용 하는 기능이 있는 1000 참가자를 위한 대화형 팀 모임
+- 최대 1,000명까지 참여할 수 있는 대화형 Teams 모임
+- 보기 전용 모임 환경의 최대 20,000명까지 사용할 수 있는 기능이 있는 1,000명을 위한 대화형 Teams 모임
 - 사용자 지정 브랜드 모임 로비
 
-향후 몇 개월 동안 사용자 지정, 도구 및 통신 향상 기능을 추가 하 게 될 것입니다. 
+앞으로 몇 개월 동안 더 많은 사용자 지정, 도구 및 통신 개선을 추가할 것입니다. 
 
-고급 통신에는 통신 준수 및 DLP (데이터 손실 방지)가 포함 되지 않는다는 점에 유의 하세요.
+Advanced Communications에는 통신 규정 준수 및 통신 DLP(데이터 손실 방지)가 포함되어 없습니다.
 
-## <a name="pricing"></a>고정
+## <a name="pricing"></a>가격 책정
 
-고급 통신은 사용자/월 $12입니다. 모임 이끌이만 라이선스를 필요로 한다는 점에 유의 하세요. 모임 참석자에 게 라이선스가 필요 하지 않습니다.
+Advanced Communications는 사용자/월당 $12입니다. 모임 이끌이만 라이선스가 필요합니다. 모임 참석자에는 라이선스가 필요하지 않습니다.
 
-## <a name="trial-offer"></a>평가판 제안
+## <a name="trial-offer"></a>평가판 제품
 
-2020 년 8 월 4 일부 터 60 일 평가판을 구할 수 있습니다. Microsoft 365 관리 센터를 통해 평가판을 받을 수 있습니다.
+60일 평가판은 2020년 8월 4일부터 사용할 수 있습니다. Microsoft 365 관리 센터를 통해 평가판을 얻을 수 있습니다.
 
 ## <a name="difference-between-overflow-meetings-and-live-events"></a>오버플로 모임과 라이브 이벤트의 차이
 
-고급 통신을 사용 하면 300 참석자가 넘는 모든 모임에서 대화형 환경을 제공 하는 최대 1000 명의 참가자와 보기 전용 환경에서 모임에 참가 하는 최대 2만 참가자를 위한 방법을 제공할 수 있습니다. 라이브 이벤트를 통해 추가 기능을 사용할 수 있습니다. 라이브 이벤트에서 2만 참석자는 브로드캐스트를 시청 하 고, Q&A 팀, Yammer의 대화 또는 Microsoft Stream의 보기 전용으로 상호 작용할 수 있습니다. 또한 live 이벤트의 길이를 4 시간에서 16 시간으로 늘리고, 테 넌 트 당 최대 50 개의 동시 라이브 이벤트를 사용 하도록 설정 하는 것입니다. 
+Advanced Communications를 통해 참석자가 300명 이상인 모든 모임에서는 최대 1,000명까지 대화형 환경을 사용할 수 있으며, 최대 20,000명까지 보기 전용 환경으로 모임에 참가할 수 있습니다. 라이브 이벤트는 추가 기능을 가능하게 합니다. 라이브 이벤트에서 20,000명이 브로드캐스트를 시청하고 Teams의 Q&A, Microsoft Stream의 Yammer 대화 또는 보기 전용과 상호 작용할 수 있습니다. 또한 라이브 이벤트의 길이를 4시간에서 16시간으로 늘리고 테넌트당 최대 50개 동시 라이브 이벤트를 사용하도록 설정하고 있습니다. 
 
 >[!Note]
 > Microsoft Stream의 사용에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](../tmr-meeting-recording-change.md)로의 변경은 단계별 접근 방식을 사용합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우, 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
 
 > [!NOTE]
-> 엔터프라이즈 및 교육 Sku는 최대 2만 참석자에 대 한 실시간 이벤트, 브로드캐스트의 이벤트 기간 16 시간, 테 넌 트 내의 10 월 2021 1 일에 대 한 50 동시 이벤트를 일시으로 유지할 수 있습니다.
+> 엔터프라이즈 및 교육 SKUS는 최대 20,000명 참석자에 대한 라이브 이벤트를 일시적으로 보류할 수 있으며, 브로드캐스트당 이벤트 기간은 16시간, 테넌트 내의 동시 이벤트는 2021년 1월 1일까지 50개입니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-[통화 및 모임에 대 한 팀 정책 기반 기록](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy)
+[통화 및 모임에 대한 Teams 정책 기반 녹음/녹화](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy)

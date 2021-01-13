@@ -1,8 +1,8 @@
 ---
-title: Edge 서버 NAT IP 추가
+title: 에지 서버 NAT IP 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: 공용 IP 주소는 NAT(Network Address Translation)에서 사용되는 IP 주소입니다. IP 주소는 공개적으로 라우팅 가능해야 합니다. 이러한 이유는 이 마법사의 기능 선택 페이지에서 이 에지 풀의 외부 IP 주소가 NAT에 의해 변환됩니다 옵션을 선택했기 때문입니다.
-ms.openlocfilehash: 12749d3bcaec2478481fc1a4bc5597fb9693c5c4
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 42972caf9254eb4a7382b6f7066d2c781403616f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216549"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815218"
 ---
-# <a name="add-edge-server-nat-ip"></a>Edge 서버 NAT IP 추가
+# <a name="add-edge-server-nat-ip"></a>에지 서버 NAT IP 추가
 
 공용 IP 주소는 NAT(Network Address Translation)에서 사용되는 IP 주소입니다. IP 주소는 공개적으로 라우팅 가능해야 합니다. 이러한 이유는 이 마법사의 **기능 선택** 페이지에서 **이 에지 풀의 외부 IP 주소가 NAT에 의해 변환됩니다** 옵션을 선택했기 때문입니다.
 

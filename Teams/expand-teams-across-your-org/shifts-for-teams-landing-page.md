@@ -1,9 +1,9 @@
 ---
 title: Teams의 교대 근무
-description: 팀에서 일정 관리 도구인 교대 근무를 설정 하 고 관리 하는 데 필요한 관리자 지침을 확인 하세요.
+description: Teams에서 Shifts(일정 관리 도구)를 설정하고 관리하는 데 필요한 관리자 지침을 얻습니다.
 ms.topic: conceptual
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 f1.keywords:
@@ -21,33 +21,33 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: eea5b36e9941872b5a0dbc4ce34d03b39b850dd3
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 71238c4ec0ae2e413732bd289bbb868bedd573b7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878732"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815738"
 ---
 # <a name="shifts-for-teams"></a>Teams의 교대 근무
 
-팀은 조직의 Firstline Worker를 효과적으로 통신 하 고 공동 작업 하는 데 필요한 도구를 제공 합니다. 팀에서 일정 관리 도구인 교대 근무를 설정 하 고 관리 하는 데 필요한 관리자 지침을 확인할 수 있습니다.
+Teams는 조직 내 일선 근로자가 효과적으로 의사 소통하고 공동 작업하고 최상의 작업을 하는 데 필요한 도구를 제공합니다. Teams에서 Shifts를 설정하고 관리하는 데 필요한 관리 지침인 일정 관리 도구가 있습니다.
 
-### <a name="set-up-and-manage-shifts-for-your-organization"></a>조직의 교대 근무 설정 및 관리
+### <a name="set-up-and-manage-shifts-for-your-organization"></a>조직의 Shifts 설정 및 관리
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![작업-검사 목록-계획-팀](../media/task-checklist-planning-teams-small.svg) | **[조직의 교대 근무 관리](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![디자인](../media/Help-small.svg)  | **[Firstline Worker에 대 한 도움말 이동](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[조직의 Shifts 관리](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![디자인](../media/Help-small.svg)  | **[일선 작업자를 위한 교대 근무 도움말](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
-### <a name="shifts-extensions"></a>확장 이동
+### <a name="shifts-extensions"></a>Shifts 확장
 
 |               |               |
 | ------------- | ------------- |
-| ![api-version](../media/api-small.svg) | **[Shift + Graph api](/graph/api/resources/shift?view=graph-rest-1.0)** Graph Api를 이동 하면 데이터를 외부 인력 관리 시스템으로 통합할 수 있으므로, 사용자에 게 팀에서 풍부한 프런트 엔드 환경을 제공 하면서 백 엔드에서 사용자 지정 이동 환경을 만들 수 있는 유연성을 제공 합니다.             |
-| ![api-version](../media/api-small.svg) | **[인적 자원 관리 통합](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 다른 공급 업체의 직원 관리 시스템 (예: 크로노스 및 JDA)을 예약, 시간, 참석자 등으로 사용 하는 경우에는 오픈 원본 통합을 사용 하 여 그래프 Api 및 SDK 교대 근무를 통해 직접 통합할 수 있습니다. |
-| ![api-version](../media/process-flow-teams-small.svg) | **[이동 + 파워 자동화](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** 이동 + Power 자동화를 사용 하면 정보를 다른 앱과 함께 이동 하 고 사용자 지정 워크플로를 만들고 확장 하 여 작업을 수행할 수 있습니다. 코드를 거의 사용 하지 않고 키 프로세스를 자동화 합니다. 트리거와 서식 파일은 관리자의 승인이 필요 하지 않을 때 이동 요청에 대 한 자동 승인 사용과 같은 다양 한 시나리오를 지원 합니다. |
+| ![api](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph API를 사용하면 Shifts 데이터를 외부 인력 관리 시스템과 통합하여 백 엔드에서 사용자 지정 Shifts 환경을 빌드할 수 있는 유연성을 제공하면서 사용자에게 Teams에서 풍부한 프런트 엔드 환경을 제공합니다.             |
+| ![api](../media/api-small.svg) | **[Workforce 관리 통합](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Kronos 및 JDA와 같은 타사 인력 관리 시스템을 사용하여 예정, 시간 및 참석을 위해 작업하는 경우 Shifts Graph API 및 SDK를 통해 오픈 소스 통합을 통해 Shifts와 직접 통합할 수 있습니다. |
+| ![api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate를 사용하면 Shifts에서 정보를 받아 다른 앱으로 사용자 지정 워크플로를 만들고 대규모 작업을 수행할 수 있습니다. 코드가 거의 없는 키 프로세스를 자동화합니다. 트리거 및 템플릿은 관리자의 승인이 필요하지 않은 경우 교대 근무 요청에 대한 자동 승인을 사용하도록 설정하는 등의 다양한 시나리오를 지원합니다. |
 
-## <a name="featured-training"></a>특집 교육
+## <a name="featured-training"></a>추천 교육
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![화살표-오른쪽-2-팀](../media/arrow-right-2-teams-small.svg)  |  [비디오: 교대 하는 항목](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |![시계-팀](../media/clock-teams-small.svg)  |  [비디오: 교대 하는 항목](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |![블록-팀](../media/blocks-teams-small.svg)  |  [비디오: 교대 근무 일정 관리](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
+| ![화살표 오른쪽 2-teams](../media/arrow-right-2-teams-small.svg)  |  [비디오: Shifts란?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |![clock-teams](../media/clock-teams-small.svg)  |  [비디오: Shifts란?](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |![blocks-teams](../media/blocks-teams-small.svg)  |  [비디오: Shifts 일정 관리](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |

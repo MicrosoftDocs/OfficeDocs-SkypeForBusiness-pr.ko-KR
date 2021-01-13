@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버 2015의 DeRegisterType 테이블
+title: 비즈니스용 Skype 서버의 DeRegisterType 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
-description: DeRegisterType 테이블은 ' 클라이언트 시작 ', ' 등록 만료 ' 또는 ' 클라이언트가 응답을 중지 했습니다. ' 등 사용 가능한 사용자의 등록 취소 형식 목록을 저장 하는 정적 테이블입니다.
-ms.openlocfilehash: ae9afafe91336b1e5c74fd0a854e2975a3b4ba8e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: DeRegisterType 테이블은 'client initiated', 'registration expired' 또는 'client stopped responding'(클라이언트가 응답하지 않은 경우)을 등록을 끊을 수 있는 사용자 유형 목록을 저장하는 정적 테이블입니다.
+ms.openlocfilehash: 388aebc1ac180e1298addd54859cff6759b28be0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815296"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816078"
 ---
-# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 DeRegisterType 테이블
+# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 DeRegisterType 테이블
  
-DeRegisterType 테이블은 ' 클라이언트 시작 ', ' 등록 만료 ' 또는 ' 클라이언트가 응답을 중지 했습니다. ' 등 사용 가능한 사용자의 등록 취소 형식 목록을 저장 하는 정적 테이블입니다.
+DeRegisterType 테이블은 'client initiated', 'registration expired' 또는 'client stopped responding'(클라이언트가 응답하지 않은 경우)을 등록을 끊을 수 있는 사용자 유형 목록을 저장하는 정적 테이블입니다.
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**DeRegisterTypeId** <br/> |tinyint  <br/> |주요한  <br/> ||
-|**DeRegisterReason** <br/> |nvarchar (256)  <br/> || 허용 되는 값: <br/>  0--알 수 없음 <br/>  1--클라이언트에서 초기화 된 등록 취소 <br/>  2--등록이 만료 됨 <br/>  3-클라이언트가 충돌 합니다. <br/>  4--사용자 특성이 변경 됨 <br/>  5-기본 등록 기관 변경 <br/>  6--생존 모드의 레거시 클라이언트 <br/> |
+|**DeRegisterTypeId** <br/> |tinyint  <br/> |Primary  <br/> ||
+|**DeRegisterReason** <br/> |nvarchar(256)  <br/> || 허용되는 값은 다음과 같습니다. <br/>  0 - 알 수 없음 <br/>  1 -- 클라이언트가 등록 취소 시작 <br/>  2 -- 등록 만료 <br/>  3 - 클라이언트 충돌 <br/>  4 -- 사용자 특성 변경 <br/>  5 - 기본 설정 등록자 변경 <br/>  6 -- 레거시 클라이언트가 서바이벌 모드임 <br/> |
    
 

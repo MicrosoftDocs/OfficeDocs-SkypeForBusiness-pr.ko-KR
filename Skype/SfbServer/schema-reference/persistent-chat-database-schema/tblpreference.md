@@ -1,8 +1,8 @@
 ---
 title: tblPreference
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,27 +12,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-description: tblPreference 설정 사용자의 클라이언트 기본 설정을 포함 합니다. 이는 일반적으로 Lync 2013 이전 클라이언트에서 사용 합니다.
-ms.openlocfilehash: 426a9f6aebe6cc6e510e2a75093b9210d3a0ba46
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPreference에는 사용자의 클라이언트 기본 설정이 포함되어 있습니다. 일반적으로 Lync 2013 이전의 클라이언트에서 사용됩니다.
+ms.openlocfilehash: 96cd017dd67a05f3240269f5bdcbd23f30fffd28
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814556"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815908"
 ---
 # <a name="tblpreference"></a>tblPreference
 
-tblPreference 설정 사용자의 클라이언트 기본 설정을 포함 합니다. 이는 일반적으로 Lync 2013 이전 클라이언트에서 사용 합니다.
+tblPreference에는 사용자의 클라이언트 기본 설정이 포함되어 있습니다. 일반적으로 Lync 2013 이전의 클라이언트에서 사용됩니다.
 
 **열**
 
 
 | **열**            | **유형**                        | **설명**                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
-| prefLabel  <br/>      | nvarchar (255), null 아님  <br/> | 레이블이 다음과 같은 형식으로 지정 된 \<레이블: 사용자 sip uri\>                   |
-| prefSeqID  <br/>      | int, null 아님  <br/>            | 버전 관리 목적에 대 한 순차 번호 (레이블 당).  <br/> |
-| prefContent  <br/>    | nvarchar (max)  <br/>           | 인코딩된 콘텐츠  <br/>                                         |
-| lastModifiedBy  <br/> | int, null 아님  <br/>            | 기본 설정을 업데이트 한 사용자의 ID입니다.  <br/>         |
+| prefLabel  <br/>      | nvarchar(255), null이 아님  <br/> | 형식이 같은 레이블: \<user sip uri\>                   |
+| prefSeqID  <br/>      | int, null이 아님  <br/>            | 버전 관리 목적의 일련 번호(레이블당)입니다.  <br/> |
+| prefContent  <br/>    | nvarchar(max)  <br/>           | 인코딩된 콘텐츠입니다.  <br/>                                         |
+| lastModifiedBy  <br/> | int, null이 아님  <br/>            | 기본 설정을 업데이트한 사용자의 ID입니다.  <br/>         |
 
 **키**
 

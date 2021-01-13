@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버의 진단 보고서
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: '요약: 비즈니스용 Skype 서버의 진단 보고서에 대해 알아봅니다.'
-ms.openlocfilehash: f1a8d9a0c027019708f2be75fec14634197c4e2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: '요약: 비즈니스용 Skype 서버의 진단 보고서에 대해 자세히 알아보습니다.'
+ms.openlocfilehash: 89639c0c00081fa4dd01211cc33074585061ff57
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041995"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816898"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 진단 보고서
  
-**요약:** 비즈니스용 Skype 서버의 진단 보고서에 대해 알아봅니다.
+**요약:** 비즈니스용 Skype 서버의 진단 보고서에 대해 자세히 알아보습니다.
   
 진단 보고서에서는 실패한 세션에 대한 진단 및 문제 해결 정보를 제공합니다. 이 정보에는 세션이 실패할 때 보고된 진단 ID와 진단 헤더가 모두 포함됩니다. 진단 ID는 SIP 메시지에 연결된 고유 식별자(ms-diagnostics 헤더 형식)이며, 진단 헤더는 진단 ID에 대해 함께 표시할 설명을 제공합니다. 또한 이 보고서에는 보고 구성 요소에서 인식된 유용한 문제 해결 정보가 포함될 수 있습니다. 예를 들면 다음과 같습니다.
   
@@ -33,13 +33,13 @@ ms.locfileid: "42041995"
     
 ## <a name="accessing-the-diagnostic-report"></a>진단 보고서 액세스
 
-[비즈니스용 Skype 서버의 피어 투 피어 세션 정보 보고서](peer-to-peer-session-detail-report.md) 또는 전화 회의 정보 보고서에서 진단 보고서 (세부 정보) 메트릭을 클릭 하 여 진단 보고서에 액세스할 수 있습니다.
+진단 보고서는 비즈니스용 [Skype](peer-to-peer-session-detail-report.md) 서버의 피어 투 피어 세션 세부 정보 보고서 또는 전화 회의 정보 보고서에서 진단 보고서(세부 정보) 메트릭을 클릭하여 액세스할 수 있습니다.
   
 ## <a name="filters"></a>필터
 
 없음. 진단 보고서는 필터링할 수 없습니다.
   
-## <a name="metrics"></a>선별한
+## <a name="metrics"></a>메트릭
 
 다음 표에서는 각 세션에 대해 진단 보고서에 제공된 정보를 보여 줍니다.
   
@@ -60,6 +60,6 @@ ms.locfileid: "42041995"
 |**전화 회의 참가 시간(밀리초)** <br/> |아니요  <br/> |사용자가 전화 회의에 참가하기까지 소요된 시간(밀리초)입니다.  <br/> |
 |**진단 헤더** <br/> |아니요  <br/> |진단 ID 설명입니다.  <br/> |
    
-진단 오류 목록은 [Ms-진단 헤더 페이지](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)에서 찾을 수 있습니다.
+진단 오류 목록은 [Ms-Diagnostics 헤더](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)페이지에서 찾을 수 있습니다.
   
 

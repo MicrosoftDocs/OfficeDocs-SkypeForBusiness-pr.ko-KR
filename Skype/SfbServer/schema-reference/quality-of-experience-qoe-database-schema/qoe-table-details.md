@@ -1,8 +1,8 @@
 ---
 title: QoE 테이블 세부 정보
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: 이 섹션에서는 각 체감 품질 (환경 품질) 데이터베이스 스키마 테이블의 열에 대해 자세히 설명 합니다.
-ms.openlocfilehash: a09e39bc0e942b68a0b53d6c8718ab8973d7ba7f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 섹션에서는 각 QoE(QoE) 데이터베이스 schema 테이블의 열에 대해 자세히 설명합니다.
+ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807196"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815758"
 ---
 # <a name="qoe-table-details"></a>QoE 테이블 세부 정보
  
-이 섹션에서는 각 체감 품질 (환경 품질) 데이터베이스 스키마 테이블의 열에 대해 자세히 설명 합니다.
+이 섹션에서는 각 QoE(QoE) 데이터베이스 schema 테이블의 열에 대해 자세히 설명합니다.
   
 - [AppliedBandwidthSource 테이블](appliedbandwidthsource.md)
     
@@ -46,7 +46,7 @@ ms.locfileid: "41807196"
     
 - [Dialog 테이블](dialog.md)
     
-- [Endpoint 테이블](endpoint.md)
+- [끝점 테이블](endpoint.md)
     
 - [EndpointSubnet 테이블](endpointsubnet.md)
     
@@ -66,7 +66,7 @@ ms.locfileid: "41807196"
     
 - [Pool 테이블](pool.md)
     
-- [PurgeSettings 테이블 (체감 품질)](purgesettings-qoe.md)
+- [PurgeSettings 테이블(QoE)](purgesettings-qoe.md)
     
 - [Region 테이블](region.md)
     
@@ -76,7 +76,7 @@ ms.locfileid: "41807196"
     
 - [SessionCorrelation 테이블](sessioncorrelation.md)
     
-- [Subnet 테이블](subnet.md)
+- [서브넷 테이블](subnet.md)
     
 - [TraceRoute 테이블](traceroute.md)
     
@@ -84,7 +84,7 @@ ms.locfileid: "41807196"
     
 - [UserAgent 테이블](useragent.md)
     
-- [UserAgentDef 테이블 (체감 품질)](useragentdef-qoe.md)
+- [UserAgentDef 테이블(QoE)](useragentdef-qoe.md)
     
 - [UserSite 테이블](usersite.md)
     
