@@ -1,8 +1,8 @@
 ---
 title: 토폴로지 신뢰할 수 있는 응용 프로그램
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 8af50537563c9c3ca613c041b66d8e11eddf1094
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: cf15b313ab0b9b62a2666616252c3713fe33e842
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822000"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818978"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="3a716-104">토폴로지: 신뢰할 수 있는 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="3a716-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="9bcf8-104">토폴로지: 신뢰할 수 있는 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="9bcf8-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="3a716-105">무슨 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="3a716-105">What do you want to do?</span></span> <span data-ttu-id="3a716-106">수행 하려는 작업에 대 한 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="3a716-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="9bcf8-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="9bcf8-105">What do you want to do?</span></span> <span data-ttu-id="9bcf8-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9bcf8-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="3a716-107">신뢰할 수 있는 응용 프로그램 목록 보기</span><span class="sxs-lookup"><span data-stu-id="3a716-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="9bcf8-107">신뢰할 수 있는 응용 프로그램 목록 보기</span><span class="sxs-lookup"><span data-stu-id="9bcf8-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
-<span data-ttu-id="3a716-108">비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3a716-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="9bcf8-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="9bcf8-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

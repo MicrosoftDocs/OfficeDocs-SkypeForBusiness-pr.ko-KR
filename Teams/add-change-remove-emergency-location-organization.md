@@ -1,7 +1,7 @@
 ---
 title: 긴급 위치 추가, 변경, 제거
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,74 +16,74 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 'Microsoft 팀 관리 센터에서 조직의 긴급 위치를 추가, 변경 또는 제거 하는 방법에 대해 알아봅니다. '
+description: 'Microsoft Teams 관리 센터에서 조직의 긴급 위치를 추가, 변경 또는 제거하는 방법을 배워야 합니다. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 762246630d245acf92c16aff8df2c9392a307b07
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: a470a75d367bc47d4063a2a99171a4a09e052fca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788572"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799948"
 ---
-# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="b229a-103">조직의 응급 위치 추가, 변경 또는 제거</span><span class="sxs-lookup"><span data-stu-id="b229a-103">Add, change, or remove an emergency location for your organization</span></span>
+# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="3fe04-103">조직의 응급 위치 추가, 변경 또는 제거</span><span class="sxs-lookup"><span data-stu-id="3fe04-103">Add, change, or remove an emergency location for your organization</span></span>
 
-<span data-ttu-id="b229a-104">비상 위치는 전화 번호와 연결 되어야 하지만,이 문제가 발생 하는 경우 국가와 지역에 따라 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-104">An emergency location must be associated with a phone number, but when this happens can vary between countries and regions.</span></span> <span data-ttu-id="b229a-105">예를 들어 미국에서 사용자에 게 전화 번호를 할당할 때 비상 위치를 연결 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-105">For example, in the United States, you need to associate an emergency location when you assign the phone number to the user.</span></span> <span data-ttu-id="b229a-106">영국에서는 Microsoft 365 또는 Office 365에서 전화 번호를 받을 때와 현재 서비스 공급자 로부터 전화 번호를 전송 하는 경우 긴급 위치를 전화 번호에 연결 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-106">In the United Kingdom, you need to associate an emergency location to the phone number when you get the phone numbers from Microsoft 365 or Office 365 or transfer phone numbers from your current service provider.</span></span>
+<span data-ttu-id="3fe04-104">긴급 위치는 전화 번호와 연결되어야 하지만 이 경우 국가와 지역마다 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-104">An emergency location must be associated with a phone number, but when this happens can vary between countries and regions.</span></span> <span data-ttu-id="3fe04-105">예를 들어 미국의 경우 사용자에게 전화 번호를 할당할 때 긴급 위치를 연결해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-105">For example, in the United States, you need to associate an emergency location when you assign the phone number to the user.</span></span> <span data-ttu-id="3fe04-106">영국에서는 Microsoft 365 또는 Office 365에서 전화 번호를 옮기거나 현재 서비스 공급자로부터 전화 번호를 이전할 때 긴급 위치를 전화 번호에 연결해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-106">In the United Kingdom, you need to associate an emergency location to the phone number when you get the phone numbers from Microsoft 365 or Office 365 or transfer phone numbers from your current service provider.</span></span>
 
-<span data-ttu-id="b229a-107">거주 국가 또는 지역에 관계 없이 긴급 위치에 위치 또는 위치를 추가 하 고 긴급 위치를 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-107">No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location.</span></span> <span data-ttu-id="b229a-108">조직의 실제 위치 수에 따라 빌딩, 바닥, 사무실 등의 위치를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-108">Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices.</span></span> <span data-ttu-id="b229a-109">[비상 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b229a-109">See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).</span></span>
+<span data-ttu-id="3fe04-107">현재 국가 또는 지역에 상관없이 긴급 위치에 장소 또는 장소를 추가하고 긴급 위치를 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-107">No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location.</span></span> <span data-ttu-id="3fe04-108">조직의 물리적 위치 수에 따라 건물, 층 및 사무실을 위한 장소를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-108">Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices.</span></span> <span data-ttu-id="3fe04-109">긴급 [통화 관리를 참조합니다.](what-are-emergency-locations-addresses-and-call-routing.md)</span><span class="sxs-lookup"><span data-stu-id="3fe04-109">See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).</span></span>
   
-<span data-ttu-id="b229a-110">통화 요금제와 비용을 가져오는 방법을 알아보려면 [팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b229a-110">To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).</span></span>
+<span data-ttu-id="3fe04-110">통화 요금제와 비용에 대한 자세한 내용은 Teams 추가 기능 [라이선스를 참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)</span><span class="sxs-lookup"><span data-stu-id="3fe04-110">To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).</span></span>
 
-<span data-ttu-id="b229a-111">Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 조직의 긴급 위치를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-111">You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.</span></span>
+<span data-ttu-id="3fe04-111">Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 조직의 긴급 위치를 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-111">You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.</span></span>
   
-## <a name="add-an-emergency-location"></a><span data-ttu-id="b229a-112">긴급 위치 추가</span><span class="sxs-lookup"><span data-stu-id="b229a-112">Add an emergency location</span></span>
+## <a name="add-an-emergency-location"></a><span data-ttu-id="3fe04-112">긴급 위치 추가</span><span class="sxs-lookup"><span data-stu-id="3fe04-112">Add an emergency location</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="b229a-113">Microsoft Teams 관리 센터 사용</span><span class="sxs-lookup"><span data-stu-id="b229a-113">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="3fe04-113">Microsoft Teams 관리 센터 사용</span><span class="sxs-lookup"><span data-stu-id="3fe04-113">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="b229a-114">Microsoft 팀 관리 센터의 왼쪽 탐색에서 **위치**  >  **긴급 주소**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-114">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
-2. <span data-ttu-id="b229a-115">**추가**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-115">Click **Add**.</span></span>
-3. <span data-ttu-id="b229a-116">위치에 대 한 이름과 설명을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-116">Enter a name and description for the location.</span></span>
-4. <span data-ttu-id="b229a-117">국가 또는 지역을 선택한 다음 주소를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-117">Select the country or region, and then enter the address.</span></span>
+1. <span data-ttu-id="3fe04-114">Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 위치 긴급  >  **주소를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="3fe04-114">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
+2. <span data-ttu-id="3fe04-115">추가를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="3fe04-115">Click **Add**.</span></span>
+3. <span data-ttu-id="3fe04-116">위치에 대한 이름 및 설명을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-116">Enter a name and description for the location.</span></span>
+4. <span data-ttu-id="3fe04-117">국가 또는 지역을 선택한 다음 주소를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-117">Select the country or region, and then enter the address.</span></span>
 
    > [!NOTE]
-   > <span data-ttu-id="b229a-118">벨기에, 프랑스, 독일, 아일랜드, 네덜란드, 스페인에서는 Microsoft 365 또는 Office 365에서 전화 번호를 성공적으로 활성화 하는 것을 이해 하는 것이 중요 하며, 해당 번호를 구하는 데 사용 되는 비상 위치에 설정 된 주소는 전화 번호의 지역 번호와 일치 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-118">In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that to successfully activate a phone number in Microsoft 365 or Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.</span></span>
+   > <span data-ttu-id="3fe04-118">벨기에, 프랑스, 독일, 아일랜드, 네덜란드 및 스페인에서는 Microsoft 365 또는 Office 365에서 전화 번호를 성공적으로 활성화하려면 전화 번호를 획득하는 데 사용되는 긴급 위치에 설정된 주소가 전화 번호의 지역 번호와 일치해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-118">In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that to successfully activate a phone number in Microsoft 365 or Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.</span></span>
 
-5. <span data-ttu-id="b229a-119">주소를 찾을 수 없는 경우 수동으로 주소를 편집 하려면 **수동으로 주소 편집**을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-119">If the address isn't found and you want to manually edit the address, turn on **Edit the address manually**.</span></span>
-6. <span data-ttu-id="b229a-120">**저장**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-120">Click **Save**.</span></span>
+5. <span data-ttu-id="3fe04-119">주소를 찾을 수 없는 경우 주소를 수동으로 편집하려면 수동으로 주소 **편집을 켜야 합니다.**</span><span class="sxs-lookup"><span data-stu-id="3fe04-119">If the address isn't found and you want to manually edit the address, turn on **Edit the address manually**.</span></span>
+6. <span data-ttu-id="3fe04-120">**저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-120">Click **Save**.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="b229a-121">PowerShell 사용</span><span class="sxs-lookup"><span data-stu-id="b229a-121">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="3fe04-121">PowerShell 사용</span><span class="sxs-lookup"><span data-stu-id="3fe04-121">Using PowerShell</span></span>
 
-<span data-ttu-id="b229a-122">[새로운 CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b229a-122">See [New-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress).</span></span>
+<span data-ttu-id="3fe04-122">[New-CsOnlineLisCivicAddress를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress)</span><span class="sxs-lookup"><span data-stu-id="3fe04-122">See [New-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress).</span></span>
     
-## <a name="change-an-emergency-location"></a><span data-ttu-id="b229a-123">긴급 위치 변경</span><span class="sxs-lookup"><span data-stu-id="b229a-123">Change an emergency location</span></span>
+## <a name="change-an-emergency-location"></a><span data-ttu-id="3fe04-123">긴급 위치 변경</span><span class="sxs-lookup"><span data-stu-id="3fe04-123">Change an emergency location</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="b229a-124">Microsoft Teams 관리 센터 사용</span><span class="sxs-lookup"><span data-stu-id="b229a-124">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="3fe04-124">Microsoft Teams 관리 센터 사용</span><span class="sxs-lookup"><span data-stu-id="3fe04-124">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="b229a-125">Microsoft 팀 관리 센터의 왼쪽 탐색에서 **위치**  >  **긴급 주소**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-125">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
-2. <span data-ttu-id="b229a-126">목록에서 변경 하려는 위치를 선택 하 고 **편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-126">In the list, select the location that you want to change, and then click **Edit**.</span></span>
-3. <span data-ttu-id="b229a-127">원하는 변경 작업을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-127">Make the changes you want.</span></span>
-4. <span data-ttu-id="b229a-128">**저장**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-128">Click **Save**.</span></span>
+1. <span data-ttu-id="3fe04-125">Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 위치 긴급  >  **주소를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="3fe04-125">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
+2. <span data-ttu-id="3fe04-126">목록에서 변경할 위치를 선택한 다음 편집을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="3fe04-126">In the list, select the location that you want to change, and then click **Edit**.</span></span>
+3. <span data-ttu-id="3fe04-127">원하는 내용을 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-127">Make the changes you want.</span></span>
+4. <span data-ttu-id="3fe04-128">**저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-128">Click **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b229a-129">주소의 유효성을 검사 하지 않은 경우에만 위치에 대 한 주소 정보를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-129">You can change the address information for a location only if the address isn't validated.</span></span> <span data-ttu-id="b229a-130">주소가 이미 확인 되었고 주소를 변경 해야 하는 경우 위치를 삭제 하 고 올바른 주소로 새 위치를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-130">If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.</span></span>
+> <span data-ttu-id="3fe04-129">주소의 유효성이 검사되지 않은 경우 위치에 대한 주소 정보를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-129">You can change the address information for a location only if the address isn't validated.</span></span> <span data-ttu-id="3fe04-130">주소의 유효성이 이미 검사된 경우 주소를 변경하고 위치를 삭제한 다음 올바른 주소로 새 위치를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3fe04-130">If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="b229a-131">PowerShell 사용</span><span class="sxs-lookup"><span data-stu-id="b229a-131">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="3fe04-131">PowerShell 사용</span><span class="sxs-lookup"><span data-stu-id="3fe04-131">Using PowerShell</span></span>
 
-<span data-ttu-id="b229a-132">[Set-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b229a-132">See [Set-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress).</span></span>
+<span data-ttu-id="3fe04-132">[Set-CsOnlineLisCivicAddress를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress)</span><span class="sxs-lookup"><span data-stu-id="3fe04-132">See [Set-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress).</span></span>
     
-## <a name="remove-an-emergency-location"></a><span data-ttu-id="b229a-133">긴급 위치 제거</span><span class="sxs-lookup"><span data-stu-id="b229a-133">Remove an emergency location</span></span>
+## <a name="remove-an-emergency-location"></a><span data-ttu-id="3fe04-133">긴급 위치 제거</span><span class="sxs-lookup"><span data-stu-id="3fe04-133">Remove an emergency location</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="b229a-134">Microsoft Teams 관리 센터 사용</span><span class="sxs-lookup"><span data-stu-id="b229a-134">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="3fe04-134">Microsoft Teams 관리 센터 사용</span><span class="sxs-lookup"><span data-stu-id="3fe04-134">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="b229a-135">Microsoft 팀 관리 센터의 왼쪽 탐색에서 **위치**  >  **긴급 주소**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-135">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
-2. <span data-ttu-id="b229a-136">목록에서 제거 하려는 위치를 선택 하 고 **삭제**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="b229a-136">In the list, select the location that you want to remove, and then click **Delete**.</span></span>
+1. <span data-ttu-id="3fe04-135">Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 위치 긴급  >  **주소를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="3fe04-135">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
+2. <span data-ttu-id="3fe04-136">목록에서 제거할 위치를 선택한 다음 삭제를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="3fe04-136">In the list, select the location that you want to remove, and then click **Delete**.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="b229a-137">PowerShell 사용</span><span class="sxs-lookup"><span data-stu-id="b229a-137">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="3fe04-137">PowerShell 사용</span><span class="sxs-lookup"><span data-stu-id="3fe04-137">Using PowerShell</span></span>
 
-<span data-ttu-id="b229a-138">[제거-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b229a-138">See [Remove-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress).</span></span>
+<span data-ttu-id="3fe04-138">[Remove-CsOnlineLisCivicAddress를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress)</span><span class="sxs-lookup"><span data-stu-id="3fe04-138">See [Remove-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="b229a-139">관련 항목</span><span class="sxs-lookup"><span data-stu-id="b229a-139">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3fe04-139">관련 항목</span><span class="sxs-lookup"><span data-stu-id="3fe04-139">Related topics</span></span>
 
-- [<span data-ttu-id="b229a-140">긴급 통화 관리</span><span class="sxs-lookup"><span data-stu-id="b229a-140">Manage emergency calling</span></span>](what-are-emergency-locations-addresses-and-call-routing.md)
-- [<span data-ttu-id="b229a-141">조직의 응급 위치에 대한 장소 추가, 변경 또는 제거</span><span class="sxs-lookup"><span data-stu-id="b229a-141">Add, change, or remove a place for an emergency location in your organization</span></span>](add-change-remove-emergency-place-organization.md)
-- [<span data-ttu-id="b229a-142">조직의 전화 번호 관리</span><span class="sxs-lookup"><span data-stu-id="b229a-142">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [<span data-ttu-id="b229a-143">긴급 통화 사용 약관</span><span class="sxs-lookup"><span data-stu-id="b229a-143">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+- [<span data-ttu-id="3fe04-140">긴급 통화 관리</span><span class="sxs-lookup"><span data-stu-id="3fe04-140">Manage emergency calling</span></span>](what-are-emergency-locations-addresses-and-call-routing.md)
+- [<span data-ttu-id="3fe04-141">조직의 응급 위치에 대한 장소 추가, 변경 또는 제거</span><span class="sxs-lookup"><span data-stu-id="3fe04-141">Add, change, or remove a place for an emergency location in your organization</span></span>](add-change-remove-emergency-place-organization.md)
+- [<span data-ttu-id="3fe04-142">조직의 전화 번호 관리</span><span class="sxs-lookup"><span data-stu-id="3fe04-142">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+- [<span data-ttu-id="3fe04-143">긴급 통화 사용 약관</span><span class="sxs-lookup"><span data-stu-id="3fe04-143">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)

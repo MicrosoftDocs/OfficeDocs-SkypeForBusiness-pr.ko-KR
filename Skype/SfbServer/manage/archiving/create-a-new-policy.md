@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버에서 새 보관 정책 만들기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,82 +11,82 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: '요약: 비즈니스용 Skype 서버에 대 한 새 보관 정책을 만드는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 4d6590ffdb2263783e89d842acf4ba5460259a35
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 비즈니스용 Skype 서버에 대한 새 보관 정책을 만드는 방법을 설명하는 정보를 제공합니다.'
+ms.openlocfilehash: 3e1f538aba26025f5868a09babd3b67df36f9a3f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819050"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817648"
 ---
-# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a><span data-ttu-id="bb075-103">비즈니스용 Skype 서버에서 새 보관 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="bb075-103">Create a new archiving policy in Skype for Business Server</span></span>
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a><span data-ttu-id="1d7ac-103">비즈니스용 Skype 서버에서 새 보관 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="1d7ac-103">Create a new archiving policy in Skype for Business Server</span></span>
 
-<span data-ttu-id="bb075-104">**요약:** 비즈니스용 Skype 서버에 대 한 새 보관 정책을 만드는 방법에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-104">**Summary:** Learn how to create a new archiving policy for Skype for Business Server.</span></span>
+<span data-ttu-id="1d7ac-104">**요약:** 비즈니스용 Skype 서버에 대한 새 보관 정책을 만드는 방법을 자세히 알아보고</span><span class="sxs-lookup"><span data-stu-id="1d7ac-104">**Summary:** Learn how to create a new archiving policy for Skype for Business Server.</span></span>
   
-<span data-ttu-id="bb075-105">제어판을 사용 하거나 Windows PowerShell cmdlet을 사용 하 여 새 보관 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-105">You can create new archiving policies by using the Control Panel or by using Windows PowerShell cmdlets.</span></span>
+<span data-ttu-id="1d7ac-105">제어판을 사용하거나 cmdlet을 사용하여 새 보관 정책을 Windows PowerShell 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-105">You can create new archiving policies by using the Control Panel or by using Windows PowerShell cmdlets.</span></span>
   
-## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a><span data-ttu-id="bb075-106">제어판을 사용 하 여 새 보관 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="bb075-106">Create a new archiving policy by using the Control Panel</span></span>
+## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a><span data-ttu-id="1d7ac-106">제어판을 사용하여 새 보관 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="1d7ac-106">Create a new archiving policy by using the Control Panel</span></span>
 
-<span data-ttu-id="bb075-107">제어판을 사용 하 여 새 보관 정책을 만들려면 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-107">To create a new archiving policy by using the Control Panel:</span></span>
+<span data-ttu-id="1d7ac-107">제어판을 사용하여 새 보관 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-107">To create a new archiving policy by using the Control Panel:</span></span>
   
-1. <span data-ttu-id="bb075-108">CsArchivingAdministrator 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-108">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span> 
+1. <span data-ttu-id="1d7ac-108">CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-108">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span> 
     
-2. <span data-ttu-id="bb075-109">브라우저 창을 열고 관리자 URL을 입력 하 여 비즈니스용 Skype 서버 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-109">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2. <span data-ttu-id="1d7ac-109">브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-109">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
     
-3. <span data-ttu-id="bb075-110">왼쪽 탐색 모음에서 **모니터링 및 보관**을 클릭 한 다음 **보관 정책을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-110">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
+3. <span data-ttu-id="1d7ac-110">왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 정책** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-110">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
     
-4. <span data-ttu-id="bb075-111">**새로 만들기**를 클릭 하 고 다음 중 하나를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-111">Click **New**, and then do one of the following:</span></span> 
+4. <span data-ttu-id="1d7ac-111">**다음** 을 클릭하고 다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-111">Click **New**, and then do one of the following:</span></span> 
     
-   - <span data-ttu-id="bb075-112">사이트 수준 보관 정책을 만들려면 **사이트 정책을**클릭 한 다음 **사이트 선택**에서 정책을 적용 하려는 사이트를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-112">To create a site-level archiving policy, click **Site policy**, and then, in **Select a site**, click the site to which the policy is to be applied.</span></span>
+   - <span data-ttu-id="1d7ac-112">사이트 수준 보관 정책을 만들려면 사이트 정책을 클릭한 다음 사이트 선택에서 정책을 적용할 사이트를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-112">To create a site-level archiving policy, click **Site policy**, and then, in **Select a site**, click the site to which the policy is to be applied.</span></span>
     
-   - <span data-ttu-id="bb075-113">사용자 수준 보관 정책을 만들려면 **사용자 정책을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-113">To create a user-level archiving policy, click **User policy**.</span></span>
+   - <span data-ttu-id="1d7ac-113">사용자 수준의 보관 정책을 만들려면 **사용자 정책** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-113">To create a user-level archiving policy, click **User policy**.</span></span>
     
-5. <span data-ttu-id="bb075-114">**새 보관 정책**에서 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-114">In **New Archiving Policy**, do the following:</span></span>
+5. <span data-ttu-id="1d7ac-114">**새 보관 정책** 에서 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-114">In **New Archiving Policy**, do the following:</span></span>
     
-   - <span data-ttu-id="bb075-115">**이름**에 새 정책의 이름 (예: externalcontoso)을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-115">In **Name**, specify a name for the new policy (for example, externalContoso).</span></span>
+   - <span data-ttu-id="1d7ac-115">**이름** 에 새 정책의 이름을 지정합니다(예: externalContoso).</span><span class="sxs-lookup"><span data-stu-id="1d7ac-115">In **Name**, specify a name for the new policy (for example, externalContoso).</span></span>
     
-   - <span data-ttu-id="bb075-116">**설명**에서 정책에 대 한 세부 정보를 제공 합니다 (예: Contoso에 대 한 외부 사용자 보관 정책).</span><span class="sxs-lookup"><span data-stu-id="bb075-116">In **Description**, provide details about what the policy is (for example, External user archiving policy for Contoso).</span></span>
+   - <span data-ttu-id="1d7ac-116">**설명** 에 정책에 대한 자세한 설명을 입력합니다(예: Contoso용 외부 사용자 보관 정책).</span><span class="sxs-lookup"><span data-stu-id="1d7ac-116">In **Description**, provide details about what the policy is (for example, External user archiving policy for Contoso).</span></span>
     
-   - <span data-ttu-id="bb075-117">내부 사용자와의 통신 보관을 제어 하려면 **내부 통신 보관** 확인란을 선택 하거나 선택을 취소 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-117">To control archiving of communications with internal users, select or clear the **Archive internal communications** check box.</span></span>
+   - <span data-ttu-id="1d7ac-117">내부 사용자와의 통신 내용의 보관을 제어하려면 **내부 통신 보관** 확인란을 선택하거나 선택을 취소합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-117">To control archiving of communications with internal users, select or clear the **Archive internal communications** check box.</span></span>
     
-   - <span data-ttu-id="bb075-118">외부 사용자와의 통신 보관을 제어 하려면 **외부 통신 보관** 확인란을 선택 하거나 선택을 취소 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-118">To control archiving of communications with external users, select or clear the **Archive external communications** check box.</span></span>
+   - <span data-ttu-id="1d7ac-118">외부 사용자와의 통신 내용의 보관을 제어하려면 **외부 통신 보관** 확인란을 선택하거나 선택을 취소합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-118">To control archiving of communications with external users, select or clear the **Archive external communications** check box.</span></span>
     
-6. <span data-ttu-id="bb075-119">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-119">Click **Commit**.</span></span>
+6. <span data-ttu-id="1d7ac-119">**커밋** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-119">Click **Commit**.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="bb075-120">사용자 정책 설정은 정책을 적용 하는 특정 사용자 및 사용자 그룹에만 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-120">The settings of a user policy only apply to the specific users and user groups to which you apply the policy.</span></span> <span data-ttu-id="bb075-121">자세한 내용은 [비즈니스용 Skype 서버에서 사용자에 게 보관 정책 적용](apply-a-policy-to-users.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bb075-121">For details, see [Apply an archiving policy to users in Skype for Business Server](apply-a-policy-to-users.md).</span></span> 
+    > <span data-ttu-id="1d7ac-120">사용자 정책 설정은 관리자가 정책을 적용한 특정 사용자 및 사용자 그룹에만 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-120">The settings of a user policy only apply to the specific users and user groups to which you apply the policy.</span></span> <span data-ttu-id="1d7ac-121">자세한 내용은 비즈니스용 Skype 서버의 사용자에게 보관 정책 [적용을 참조하세요.](apply-a-policy-to-users.md)</span><span class="sxs-lookup"><span data-stu-id="1d7ac-121">For details, see [Apply an archiving policy to users in Skype for Business Server](apply-a-policy-to-users.md).</span></span> 
   
-## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a><span data-ttu-id="bb075-122">Windows PowerShell을 사용 하 여 새 보관 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="bb075-122">Create a new archiving policy by using Windows PowerShell</span></span>
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a><span data-ttu-id="1d7ac-122">보관 정책을 사용하여 새 보관 정책을 Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="1d7ac-122">Create a new archiving policy by using Windows PowerShell</span></span>
 
-<span data-ttu-id="bb075-123">Windows PowerShell **New CsArchivingPolicy** cmdlet을 사용 하 여 새 보관 정책을 만들 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-123">You can also create new archiving policies by using the Windows PowerShell **New-CsArchivingPolicy** cmdlet.</span></span> <span data-ttu-id="bb075-124">자세한 내용은 [새 CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet에 대 한 도움말 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bb075-124">For more information, see the help topic for the [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet.</span></span>
+<span data-ttu-id="1d7ac-123">**New-CsArchivingPolicy** cmdlet을 사용하여 새 보관 정책을 Windows PowerShell 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-123">You can also create new archiving policies by using the Windows PowerShell **New-CsArchivingPolicy** cmdlet.</span></span> <span data-ttu-id="1d7ac-124">자세한 내용은 [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-124">For more information, see the help topic for the [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet.</span></span>
   
-### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a><span data-ttu-id="bb075-125">사이트 수준에서 새 보관 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="bb075-125">To create a new archiving policy at the site level</span></span>
+### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a><span data-ttu-id="1d7ac-125">사이트 수준에서 새 보관 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-125">To create a new archiving policy at the site level</span></span>
 
-<span data-ttu-id="bb075-126">이 명령은 Redmond 사이트에 대 한 새 보관 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-126">This command creates a new archiving policy for the Redmond site:</span></span>
+<span data-ttu-id="1d7ac-126">이 명령은 Redmond 사이트에 대한 새로운 보관 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-126">This command creates a new archiving policy for the Redmond site:</span></span>
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond"
 ```
 
-### <a name="to-create-a-new-archiving-policy-at-the-per-user-level"></a><span data-ttu-id="bb075-127">사용자별 수준에서 새 보관 정책을 만들려면</span><span class="sxs-lookup"><span data-stu-id="bb075-127">To create a new archiving policy at the per-user level</span></span>
+### <a name="to-create-a-new-archiving-policy-at-the-per-user-level"></a><span data-ttu-id="1d7ac-127">사용자 수준에서 새 보관 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-127">To create a new archiving policy at the per-user level</span></span>
 
-<span data-ttu-id="bb075-128">사용자 당 수준에서 새 보관 정책을 만들려면 정책을 만들 때 고유한 Id를 지정 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-128">To create a new archiving policy at the per-user level, simply specify a unique Identity when creating the policy:</span></span>
+<span data-ttu-id="1d7ac-128">사용자 수준에서 새 보관 정책을 만들 경우 정책을 만들 때 고유 ID를 지정하기만하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-128">To create a new archiving policy at the per-user level, simply specify a unique Identity when creating the policy:</span></span>
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a><span data-ttu-id="bb075-129">내부 통신 세션 보관을 가능 하 게 하는 새 보관 정책을 만들려면</span><span class="sxs-lookup"><span data-stu-id="bb075-129">To create a new archiving policy that enables archiving of internal communication sessions</span></span>
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a><span data-ttu-id="1d7ac-129">내부 통신 세션의 보관을 사용할 수 있는 새 보관 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-129">To create a new archiving policy that enables archiving of internal communication sessions</span></span>
 
-<span data-ttu-id="bb075-130">앞의 명령에 필수 Id 매개 변수 이외의 매개 변수를 지정 하지 않았기 때문에 새 정책은 해당 속성에 대 한 기본값을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-130">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding commands, the new policies will use the default values for all their properties.</span></span> <span data-ttu-id="bb075-131">다른 속성 값을 사용 하는 정책을 만들려면 적절 한 매개 변수와 매개 변수 값을 포함 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-131">To create policies that use different property values, simply include the appropriate parameter and parameter value.</span></span> <span data-ttu-id="bb075-132">예를 들어 다음 명령은 내부 인스턴트 메시징 세션 보관을 허용 하는 보관 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-132">For example, the following command creates an archiving policy that permits archiving of internal instant messaging sessions:</span></span> 
+<span data-ttu-id="1d7ac-130">이전 명령에서는 필수 Identity 매개 변수를 제외하고 어떤 매개 변수도 지정되지 않았기 때문에 새로운 정책이 모든 속성에 대해 기본값을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-130">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding commands, the new policies will use the default values for all their properties.</span></span> <span data-ttu-id="1d7ac-131">다른 속성 값을 사용하는 정책을 만들려면 적합한 매개 변수 및 매개 변수 값을 포함하기만 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-131">To create policies that use different property values, simply include the appropriate parameter and parameter value.</span></span> <span data-ttu-id="1d7ac-132">예를 들어 다음 명령은 내부 인스턴트 메시징 세션의 보관을 허용하는 보관 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-132">For example, the following command creates an archiving policy that permits archiving of internal instant messaging sessions:</span></span> 
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a><span data-ttu-id="bb075-133">내부 및 외부 통신 세션의 보관을 가능 하 게 하는 새 보관 정책을 만들려면</span><span class="sxs-lookup"><span data-stu-id="bb075-133">To create a new archiving policy that enables archiving of both internal and external communication sessions</span></span>
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a><span data-ttu-id="1d7ac-133">내부 및 외부 통신 세션 모두의 보관을 사용할 수 있는 새 보관 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-133">To create a new archiving policy that enables archiving of both internal and external communication sessions</span></span>
 
-<span data-ttu-id="bb075-134">여러 매개 변수를 포함 하 여 여러 속성 값을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-134">Multiple property values can be modified by including multiple parameters.</span></span> <span data-ttu-id="bb075-135">예를 들어이 명령은 내부 및 외부 인스턴트 메시징 세션을 모두 보관 하도록 새 정책을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb075-135">For example, this command configures the new policy to archive both internal and external instant messaging sessions:</span></span>
+<span data-ttu-id="1d7ac-134">여러 매개 변수를 포함하여 여러 속성 값을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-134">Multiple property values can be modified by including multiple parameters.</span></span> <span data-ttu-id="1d7ac-135">예를 들어 다음 명령은 내부 및 외부 인스턴트 메시징 세션을 모두 보관하도록 새 정책을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="1d7ac-135">For example, this command configures the new policy to archive both internal and external instant messaging sessions:</span></span>
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True

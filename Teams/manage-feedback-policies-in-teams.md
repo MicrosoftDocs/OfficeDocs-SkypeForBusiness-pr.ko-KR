@@ -1,7 +1,7 @@
 ---
-title: Microsoft 팀에서 피드백 정책 관리
-author: lanachin
-ms.author: v-lanac
+title: Microsoft Teams에서 피드백 정책 관리
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: msedliak
 ms.topic: article
@@ -16,69 +16,69 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 조직의 팀 사용자가 Microsoft에 팀에 대 한 피드백을 제출할 수 있는지 여부를 제어 하는 데 피드백 정책을 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0bece4515825a0d7ddf7e547f1607fbd6cf205cc
-ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
+description: 피드백 정책을 사용하여 조직의 Teams 사용자가 Teams에 대한 피드백을 Microsoft에 제출할 수 있는지 여부를 제어하는 방법을 배워야 합니다.
+ms.openlocfilehash: e2415204650ce47f875e432f062fd4a5e0438cd6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48433041"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804698"
 ---
-# <a name="manage-feedback-policies-in-microsoft-teams"></a><span data-ttu-id="840b8-103">Microsoft 팀에서 피드백 정책 관리</span><span class="sxs-lookup"><span data-stu-id="840b8-103">Manage feedback policies in Microsoft Teams</span></span>
+# <a name="manage-feedback-policies-in-microsoft-teams"></a><span data-ttu-id="7787a-103">Microsoft Teams에서 피드백 정책 관리</span><span class="sxs-lookup"><span data-stu-id="7787a-103">Manage feedback policies in Microsoft Teams</span></span>
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-<span data-ttu-id="840b8-104">조직의 사용자는 팀에 대 한 피드백을 Microsoft에 보내 팀 데스크톱 및 웹 클라이언트 내에서 바로 수행 하는 방법을 알 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-104">Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams desktop and web clients.</span></span> <span data-ttu-id="840b8-105">팀 경험을 지속적으로 개선 하 고 있으며,이 피드백을 사용 하 여 팀을 개선할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-105">We're continually improving the Teams experience and we use this feedback to make Teams better.</span></span>
+<span data-ttu-id="7787a-104">조직의 사용자는 Teams 데스크톱 및 웹 클라이언트 내에서 직접 Teams에 대한 피드백을 Microsoft에 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-104">Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams desktop and web clients.</span></span> <span data-ttu-id="7787a-105">Teams 환경을 지속적으로 개선하고 있으며, 이 피드백을 사용하여 Teams를 개선하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-105">We're continually improving the Teams experience and we use this feedback to make Teams better.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="840b8-106">GCC, GCC 높음 또는 DOD 배포에서는 피드백 정책을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-106">Feedback policies aren't available in GCC, GCC High, or DOD deployments.</span></span>
+> <span data-ttu-id="7787a-106">피드백 정책은 GCC, GCC High 또는 DOD 배포에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-106">Feedback policies aren't available in GCC, GCC High, or DOD deployments.</span></span>
 
-<span data-ttu-id="840b8-107">**피드백 제공 기능**</span><span class="sxs-lookup"><span data-stu-id="840b8-107">**The Give feedback feature**</span></span>
+<span data-ttu-id="7787a-107">**피드백 제공 기능**</span><span class="sxs-lookup"><span data-stu-id="7787a-107">**The Give feedback feature**</span></span>
 
-<span data-ttu-id="840b8-108">팀에 의견 **을**  >  **제공** 하기 위해 팀에 대 한 의견 및 제안을 사용자에 게 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-108">Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams.</span></span> <span data-ttu-id="840b8-109">**의견 제공** 을 통해 전송 되는 데이터는 "고객 데이터" 또는 "개인 데이터"로 간주 되는 정보를 포함 하 여 Microsoft 365 또는 Office 365 규약에 "지원 데이터"로 간주 됩니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-109">Data sent through **Give feedback** is considered as "Support Data" under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".</span></span>
+<span data-ttu-id="7787a-108">사용자는 Teams에서 피드백을 제공하면 Teams에 대한 의견과 제안을 **보낼**  >   수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-108">Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams.</span></span> <span data-ttu-id="7787a-109">피드백 **제공을** 통해 전송된 데이터는 Microsoft 365 또는 Office 365 계약에 따라 "지원 데이터"로 간주됩니다. 이 경우 "고객 데이터" 또는 "개인 데이터"로 간주되는 정보가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-109">Data sent through **Give feedback** is considered as "Support Data" under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".</span></span>
 
-![팀의 피드백 제공 옵션 스크린샷](media/manage-feedback-policies-in-teams-give-feedback.png)
+![Teams의 피드백 제공 옵션 스크린샷](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-<span data-ttu-id="840b8-111">**조사**</span><span class="sxs-lookup"><span data-stu-id="840b8-111">**Surveys**</span></span>
+<span data-ttu-id="7787a-111">**설문 조사**</span><span class="sxs-lookup"><span data-stu-id="7787a-111">**Surveys**</span></span>
 
-<span data-ttu-id="840b8-112">또한 사용자는 팀과 함께 경험을 평가 하 고 제공 된 등급에 대 한 세부 정보를 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-112">Users can also rate their experience with Teams and send us details about the rating they give.</span></span> <span data-ttu-id="840b8-113">이 팝업 설문 조사는 팀의 시간을 사용자에 게 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-113">This pop-up survey is displayed to users from time-to-time in Teams.</span></span> <span data-ttu-id="840b8-114">사용자가 알림에서 **피드백 제공** 을 클릭 하면 설문 조사가 완료 될 때까지 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-114">When a user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.</span></span>
+<span data-ttu-id="7787a-112">또한 사용자는 Teams에 대한 경험을 평가하고 제공한 등급에 대한 세부 정보를 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-112">Users can also rate their experience with Teams and send us details about the rating they give.</span></span> <span data-ttu-id="7787a-113">이 팝업 설문 조사는 Teams에서 수시로 사용자에게 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-113">This pop-up survey is displayed to users from time-to-time in Teams.</span></span> <span data-ttu-id="7787a-114">사용자가 알림에서 피드백 제공을 **클릭하면** 해당 사용자가 완료할 수 있는 설문 조사가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-114">When a user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.</span></span>
 
-![팀의 설문 조사 알림 및 양식 스크린샷](media/manage-feedback-policies-in-teams-survey.png)
+![Teams의 설문 조사 알림 및 양식 스크린샷](media/manage-feedback-policies-in-teams-survey.png)
 
-## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a><span data-ttu-id="840b8-116">사용자가 Microsoft에 팀에 대 한 피드백을 보낼 수 있는지 여부 설정</span><span class="sxs-lookup"><span data-stu-id="840b8-116">Set whether users can send feedback about Teams to Microsoft</span></span>
+## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a><span data-ttu-id="7787a-116">사용자가 Teams에 대한 피드백을 Microsoft에 보낼 수 있는지 여부 설정</span><span class="sxs-lookup"><span data-stu-id="7787a-116">Set whether users can send feedback about Teams to Microsoft</span></span>
 
-<span data-ttu-id="840b8-117">관리자는 조직의 사용자가 **피드백을 제공** 하 고 설문 조사를 받을지 여부를 통해 Microsoft에 팀에 대 한 피드백을 보낼 수 있는지 여부를 제어할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-117">As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft through **Give feedback** and whether they receive the survey.</span></span> <span data-ttu-id="840b8-118">기본적으로 조직의 모든 사용자에 게 전역 (조직 전체 기본값) 정책이 자동으로 할당 되며 **사용자 의견 제공** 기능 및 설문 조사가 정책에 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-118">By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the **Give feedback** feature and survey are enabled in the policy.</span></span> <span data-ttu-id="840b8-119">예외는 교사를 위해 기능을 사용 하도록 설정 하 고 학생 들이 사용할 수 없도록 하는 교육용 팀입니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-119">The exception is Teams for Education, where the features are enabled for teachers and disabled for students.</span></span>
+<span data-ttu-id="7787a-117">관리자는 피드백 제공을 통해 조직의 사용자가 Teams에 대한 피드백을  Microsoft에 보낼 수 있는지 여부와 설문 조사를 받을지 여부를 제어할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-117">As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft through **Give feedback** and whether they receive the survey.</span></span> <span data-ttu-id="7787a-118">기본적으로 조직의 모든 사용자에게는 전역(조직 전체 기본값) 정책이 자동으로  할당되며, 사용자 의견 보내기 기능 및 설문 조사는 정책에서 사용하도록 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-118">By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the **Give feedback** feature and survey are enabled in the policy.</span></span> <span data-ttu-id="7787a-119">단, 교사가 기능을 사용하도록 설정하고 학생이 사용할 수 없는 교육용 Teams는 예외입니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-119">The exception is Teams for Education, where the features are enabled for teachers and disabled for students.</span></span>
 
-<span data-ttu-id="840b8-120">전역 정책을 편집 하거나 사용자 지정 정책을 만들고 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-120">You can edit the global policy or create and assign a custom policy.</span></span> <span data-ttu-id="840b8-121">전역 정책을 편집 하거나 사용자 지정 정책을 할당 한 후 변경 내용을 적용 하는 데 몇 시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-121">After you edit the global policy or assign a custom policy, it can take a few hours for changes to take effect.</span></span>
+<span data-ttu-id="7787a-120">전역 정책을 편집하거나 사용자 지정 정책을 만들고 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-120">You can edit the global policy or create and assign a custom policy.</span></span> <span data-ttu-id="7787a-121">전역 정책을 편집하거나 사용자 지정 정책을 할당한 후 변경 내용을 적용하는 데 몇 시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-121">After you edit the global policy or assign a custom policy, it can take a few hours for changes to take effect.</span></span>
 
-<span data-ttu-id="840b8-122">예를 들어 조직의 모든 사용자가 교육에 대 한 새로운 채용을 제외 하 고 **피드백을 제공** 하 고 설문 조사를 통해 피드백을 보낼 수 있도록 하려는 경우를 예로 들어 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-122">Say, for example, you want to allow all users in your organization to send feedback through **Give feedback** and receive surveys except for new hires in training.</span></span> <span data-ttu-id="840b8-123">이 시나리오에서는 두 기능을 해제 하 고 새 고용에 할당 하는 사용자 지정 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-123">In this scenario, you create a custom policy to turn off both features and assign it to new hires.</span></span> <span data-ttu-id="840b8-124">조직의 다른 모든 사용자는 기능이 설정 된 전역 정책을 받습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-124">All other users in your organization get the global policy with the features turned on.</span></span>  
+<span data-ttu-id="7787a-122">예를 들어 조직의 모든 사용자가 피드백 제공을 통해 피드백을 보내고 교육에 참여하는 신입 직원을 제외한 설문 조사를 받을 수 있도록 허용하려는 경우를 예로 들 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="7787a-122">Say, for example, you want to allow all users in your organization to send feedback through **Give feedback** and receive surveys except for new hires in training.</span></span> <span data-ttu-id="7787a-123">이 시나리오에서는 두 기능을 모두 해제하고 신규 채용자에 할당하는 사용자 지정 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-123">In this scenario, you create a custom policy to turn off both features and assign it to new hires.</span></span> <span data-ttu-id="7787a-124">조직의 다른 모든 사용자는 기능이 켜져 있는 전역 정책을 얻습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-124">All other users in your organization get the global policy with the features turned on.</span></span>  
 
-<span data-ttu-id="840b8-125">PowerShell을 사용 하 여 피드백 정책을 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-125">You manage feedback policies by using PowerShell.</span></span> <span data-ttu-id="840b8-126">\* [여기서 찾을](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)수 있는\* **New CsTeamsFeedbackPolicy** cmdlet을 사용 하 여 사용자 지정 정책 및 **허용-CsTeamsFeedbackPolicy** cmdlet을 만들어 보안 그룹 또는 메일 그룹과 같은 하나 이상의 사용자 또는 사용자 그룹에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-126">Use the **New-CsTeamsFeedbackPolicy** cmdlet, *which can be [found here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group.</span></span>
+<span data-ttu-id="7787a-125">PowerShell을 사용하여 피드백 정책을 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-125">You manage feedback policies by using PowerShell.</span></span> <span data-ttu-id="7787a-126">여기서 찾을 수 있는 **New-CsTeamsFeedbackPolicy** cmdlet을 사용하여 사용자 지정 정책을 만들고 **Grant-CsTeamsFeedbackPolicy** cmdlet을 사용하여 하나 이상의 사용자 또는 사용자 그룹(예: 보안 그룹 또는 메일 그룹)에 할당합니다. *[](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*</span><span class="sxs-lookup"><span data-stu-id="7787a-126">Use the **New-CsTeamsFeedbackPolicy** cmdlet, *which can be [found here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group.</span></span>
 
-<span data-ttu-id="840b8-127">기능을 끄고 켜려면 다음 매개 변수를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-127">To turn off and turn on the features, set the following parameters:</span></span>
+<span data-ttu-id="7787a-127">기능을 끄고 켜기 위해 다음 매개 변수를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-127">To turn off and turn on the features, set the following parameters:</span></span>
 
- - <span data-ttu-id="840b8-128">**의견 제공**: **userInitiatedMode** 매개 변수를 **enabled** 로 설정 하 여 정책을 할당 한 사용자가 피드백을 제공 하도록 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-128">**Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback.</span></span> <span data-ttu-id="840b8-129">매개 변수를 **disabled** 로 설정 하면 기능이 해제 되 고 정책에 할당 된 사용자에 게 피드백을 제공 하는 옵션이 없습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-129">Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.</span></span>
- - <span data-ttu-id="840b8-130">**설문 조사**: **receiveSurveysMode** 매개 변수를 **enabled** 로 설정 하면 정책에 할당 된 사용자가 설문 조사를 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-130">**Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey.</span></span> <span data-ttu-id="840b8-131">사용자가 설문 조사를 받아 옵트아웃 하도록 허용 하려면 매개 변수를 **enabledUserOverride**로 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-131">To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**.</span></span> <span data-ttu-id="840b8-132">팀에서는 사용자가 **설정**  >  **개인 정보** 로 이동 하 여 설문 조사 참여 여부를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-132">In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys.</span></span> <span data-ttu-id="840b8-133">매개 변수를 **disabled** 로 설정 하면 기능이 해제 되 고 정책에 할당 된 사용자는 설문 조사가 수신 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-133">Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.</span></span>
+ - <span data-ttu-id="7787a-128">**피드백 제공:** 정책이 할당된 사용자가 피드백을 제공하도록 **userInitiatedMode** 매개 변수를 사용하도록 설정합니다. </span><span class="sxs-lookup"><span data-stu-id="7787a-128">**Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback.</span></span> <span data-ttu-id="7787a-129">매개 변수를 **비활성화로** 설정하면 기능이 해제되어 정책이 할당된 사용자에게는 피드백을 줄 수 있는 옵션이 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-129">Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.</span></span>
+ - <span data-ttu-id="7787a-130">**설문 조사:** 정책이 할당된 사용자가 설문  조사를 받을 수 있도록 **receiveSurveysMode** 매개 변수를 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-130">**Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey.</span></span> <span data-ttu-id="7787a-131">사용자가 설문 조사를 받고 옵트아웃할 수 있도록 허용하도록 매개 변수를 **enabledUserOverride로 설정합니다.**</span><span class="sxs-lookup"><span data-stu-id="7787a-131">To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**.</span></span> <span data-ttu-id="7787a-132">Teams에서 사용자는 설정 개인 정보로 이동하여 설문 조사에  >   참여할지 여부를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-132">In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys.</span></span> <span data-ttu-id="7787a-133">매개 변수를 **비활성화로 설정하면** 기능이 해제되어 정책이 할당된 사용자는 설문 조사를 받지 못합니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-133">Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.</span></span>
 
-## <a name="create-a-custom-feedback-policy"></a><span data-ttu-id="840b8-134">사용자 지정 피드백 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="840b8-134">Create a custom feedback policy</span></span>
+## <a name="create-a-custom-feedback-policy"></a><span data-ttu-id="7787a-134">사용자 지정 피드백 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="7787a-134">Create a custom feedback policy</span></span>
 
-<span data-ttu-id="840b8-135">이 예제에서는 새 고용 피드백 정책 이라고 하는 피드백 정책을 만들고 피드백 및 설문 조사 **를 통해 피드백** 을 제공 하는 기능을 해제 합니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-135">In this example, we create a feedback policy called New Hire Feedback Policy and we turn off the ability to give feedback through **Give feedback** and the survey.</span></span>
+<span data-ttu-id="7787a-135">이 예제에서는 신규 채용 피드백 정책이라는 피드백 정책을 만들고 피드백 및 설문  조사를 통해 피드백을 제공하는 기능을 해제합니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-135">In this example, we create a feedback policy called New Hire Feedback Policy and we turn off the ability to give feedback through **Give feedback** and the survey.</span></span>
 
 ```PowerShell
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
-## <a name="assign-a-custom-feedback-policy-to-users"></a><span data-ttu-id="840b8-136">사용자에 게 사용자 지정 피드백 정책 할당</span><span class="sxs-lookup"><span data-stu-id="840b8-136">Assign a custom feedback policy to users</span></span>
+## <a name="assign-a-custom-feedback-policy-to-users"></a><span data-ttu-id="7787a-136">사용자에게 사용자 지정 피드백 정책 할당</span><span class="sxs-lookup"><span data-stu-id="7787a-136">Assign a custom feedback policy to users</span></span>
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-<span data-ttu-id="840b8-137">이 예제에서는 user1 이라는 사용자에 게 새 채용 사용자 의견 정책 이라는 사용자 지정 정책을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="840b8-137">In this example, we assign a custom policy named New Hire Feedback Policy to a user named user1.</span></span>
+<span data-ttu-id="7787a-137">이 예제에서는 user1이라는 사용자에게 신규 채용 피드백 정책이라는 사용자 지정 정책을 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="7787a-137">In this example, we assign a custom policy named New Hire Feedback Policy to a user named user1.</span></span>
 
 ```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="840b8-138">관련 항목</span><span class="sxs-lookup"><span data-stu-id="840b8-138">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7787a-138">관련 항목</span><span class="sxs-lookup"><span data-stu-id="7787a-138">Related topics</span></span>
 
-- [<span data-ttu-id="840b8-139">팀 PowerShell 개요</span><span class="sxs-lookup"><span data-stu-id="840b8-139">Teams PowerShell Overview</span></span>](teams-powershell-overview.md)
-- [<span data-ttu-id="840b8-140">팀에서 사용자에 게 정책 할당</span><span class="sxs-lookup"><span data-stu-id="840b8-140">Assign policies to your users in Teams</span></span>](assign-policies.md)
+- [<span data-ttu-id="7787a-139">Teams PowerShell 개요</span><span class="sxs-lookup"><span data-stu-id="7787a-139">Teams PowerShell Overview</span></span>](teams-powershell-overview.md)
+- [<span data-ttu-id="7787a-140">Teams에서 사용자에게 정책 할당</span><span class="sxs-lookup"><span data-stu-id="7787a-140">Assign policies to your users in Teams</span></span>](assign-policies.md)

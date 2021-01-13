@@ -1,8 +1,8 @@
 ---
-title: 토폴로지 보기 간단한 URL
+title: 토폴로지 보기 단순 URL
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 43e73e27bce1ecbca35cd4cd910a45c3787f50b4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: b5719fcff3a02bd2f150e33eaec5c41311144ed1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821960"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818878"
 ---
-# <a name="topology-view-simple-url"></a><span data-ttu-id="f2e8f-104">토폴로지: 간단한 URL 보기</span><span class="sxs-lookup"><span data-stu-id="f2e8f-104">Topology: View Simple URL</span></span>
+# <a name="topology-view-simple-url"></a><span data-ttu-id="ad72b-104">토폴로지: 단순 URL 보기</span><span class="sxs-lookup"><span data-stu-id="ad72b-104">Topology: View Simple URL</span></span>
 
-<span data-ttu-id="f2e8f-105">무슨 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="f2e8f-105">What do you want to do?</span></span> <span data-ttu-id="f2e8f-106">수행 하려는 작업에 대 한 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="f2e8f-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ad72b-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="ad72b-105">What do you want to do?</span></span> <span data-ttu-id="ad72b-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="ad72b-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="f2e8f-107">간단한 Url 편집 또는 구성</span><span class="sxs-lookup"><span data-stu-id="f2e8f-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+- [<span data-ttu-id="ad72b-107">단순 URL 편집 또는 구성</span><span class="sxs-lookup"><span data-stu-id="ad72b-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
 
-- [<span data-ttu-id="f2e8f-108">간단한 Url 관리</span><span class="sxs-lookup"><span data-stu-id="f2e8f-108">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
+- [<span data-ttu-id="ad72b-108">단순 URL 관리</span><span class="sxs-lookup"><span data-stu-id="ad72b-108">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
 
-<span data-ttu-id="f2e8f-109">비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f2e8f-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="ad72b-109">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="ad72b-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

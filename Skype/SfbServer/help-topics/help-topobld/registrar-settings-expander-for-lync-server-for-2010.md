@@ -1,8 +1,8 @@
 ---
 title: 2010용 Lync Server에 대한 등록자 설정 확장기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,30 +15,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 탄성에 대한 설정을 편집하고 다음 속성을 구성합니다.
-ms.openlocfilehash: 4271203bf9f737034796cc3b74c95836480df521
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 92df9deeba1287dab4dc7d84b089fa81ca2e51ca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217179"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818328"
 ---
-# <a name="registrar-settings-expander-for-lync-server-for-2010"></a><span data-ttu-id="8d8fa-103">2010용 Lync Server에 대한 등록자 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="8d8fa-103">Registrar Settings Expander for Lync Server for 2010</span></span>
+# <a name="registrar-settings-expander-for-lync-server-for-2010"></a><span data-ttu-id="410a1-103">2010용 Lync Server에 대한 등록자 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="410a1-103">Registrar Settings Expander for Lync Server for 2010</span></span>
  
-<span data-ttu-id="8d8fa-104">**탄성**에 대한 설정을 편집하고 다음 속성을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
+<span data-ttu-id="410a1-104">**탄성** 에 대한 설정을 편집하고 다음 속성을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="410a1-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
   
-- <span data-ttu-id="8d8fa-105">목록에서 **연결된 백업 등록자 풀**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-105">Select **Associated backup Registrar pool** from the list.</span></span>
+- <span data-ttu-id="410a1-105">목록에서 **연결된 백업 등록자 풀** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="410a1-105">Select **Associated backup Registrar pool** from the list.</span></span>
     
-    <span data-ttu-id="8d8fa-106">원하는 경우 **자동 음성 장애 조치(failover) 및 장애 복구(failback)** 확인란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
+    <span data-ttu-id="410a1-106">원하는 경우 **자동 음성 장애 조치(failover) 및 장애 복구(failback)** 확인란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="410a1-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
     
-    <span data-ttu-id="8d8fa-p101">**음성 실패 검색 간격(초)** 및 **음성 장애 복구(failback) 간격(초)** 을 구성합니다. 기본적으로 음성 실패 검색 간격은 120초이고 음성 장애 복구(failback) 간격은 240초입니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-p101">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**. By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
+    <span data-ttu-id="410a1-p101">**음성 실패 검색 간격(초)** 및 **음성 장애 복구(failback) 간격(초)** 을 구성합니다. 기본적으로 음성 실패 검색 간격은 120초이고 음성 장애 복구(failback) 간격은 240초입니다.</span><span class="sxs-lookup"><span data-stu-id="410a1-p101">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**. By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
     
     > [!CAUTION]
-    > <span data-ttu-id="8d8fa-p102">장애 조치(failover) 및 장애 복구(failback) 간격에 대해 정의하는 시간(초)은 면밀하게 테스트하여 탄성이 예상대로 작동하는지를 확인해야 합니다. 간격을 낮게(120초 미만으로) 설정하거나 장애 조치(failover) 및 장애 복구(failback)를 너무 가깝게 설정하면 실제 장애 조치(failover) 및 장애 복구(failback)가 예상대로 작동하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-p102">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected. Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
+    > <span data-ttu-id="410a1-p102">장애 조치(failover) 및 장애 복구(failback) 간격에 대해 정의하는 시간(초)은 면밀하게 테스트하여 탄성이 예상대로 작동하는지를 확인해야 합니다. 간격을 낮게(120초 미만으로) 설정하거나 장애 조치(failover) 및 장애 복구(failback)를 너무 가깝게 설정하면 실제 장애 조치(failover) 및 장애 복구(failback)가 예상대로 작동하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="410a1-p102">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected. Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
   
-  <span data-ttu-id="8d8fa-111">**확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-111">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="410a1-111">**확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.</span><span class="sxs-lookup"><span data-stu-id="410a1-111">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="8d8fa-112">**취소**: 변경 내용을 취소하고 대화 상자를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-112">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="410a1-112">**취소**: 변경 내용을 취소하고 대화 상자를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="410a1-112">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="8d8fa-113">**도움말**: 이 도움말 화면을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="8d8fa-113">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="410a1-113">**도움말**: 이 도움말 화면을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="410a1-113">**Help** Displays this help screen.</span></span>
   
 
