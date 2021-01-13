@@ -1,8 +1,8 @@
 ---
 title: 페더레이션 도메인
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 43c9c557194c353c744e50bce524b45f75ffa2ba
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: 9788dec579359c28ea7f44b684995cd3c439e1ab
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822801"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815368"
 ---
-# <a name="federated-domains"></a><span data-ttu-id="d16f0-104">페더레이션 도메인</span><span class="sxs-lookup"><span data-stu-id="d16f0-104">Federated Domains</span></span>
+# <a name="federated-domains"></a><span data-ttu-id="56622-104">페더레이션 도메인</span><span class="sxs-lookup"><span data-stu-id="56622-104">Federated Domains</span></span>
 
-<span data-ttu-id="d16f0-105">무슨 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="d16f0-105">What do you want to do?</span></span> <span data-ttu-id="d16f0-106">수행 하려는 작업에 대 한 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d16f0-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="56622-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="56622-105">What do you want to do?</span></span> <span data-ttu-id="56622-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="56622-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d16f0-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="d16f0-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="56622-107">페더타 파트너에 대한 액세스 구성</span><span class="sxs-lookup"><span data-stu-id="56622-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="d16f0-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="d16f0-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="56622-108">페더타 파트너 액세스 모니터링 및 제어</span><span class="sxs-lookup"><span data-stu-id="56622-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 

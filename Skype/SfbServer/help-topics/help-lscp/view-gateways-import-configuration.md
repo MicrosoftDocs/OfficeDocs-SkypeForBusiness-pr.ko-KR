@@ -1,8 +1,8 @@
 ---
-title: 게이트웨이 보기(가져오기 구성)
+title: 게이트웨이 보기(구성 가져오기)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
-description: 배포 된 게이트웨이에서 선택한 음성 구성 파일을 가져올 게이트웨이를 클릭 합니다.
-ms.openlocfilehash: 1ee381a30970c2e690f3d027ad046520756e90bc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 배포된 게이트웨이에서 선택한 음성 구성 파일을 가져올 게이트웨이를 클릭합니다.
+ms.openlocfilehash: 5b265bb4158d71ff2ff41320ee285019386173e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821690"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814528"
 ---
-# <a name="view-gateways-import-configuration"></a><span data-ttu-id="2020c-103">게이트웨이 보기(가져오기 구성)</span><span class="sxs-lookup"><span data-stu-id="2020c-103">View Gateways (Import Configuration)</span></span>
+# <a name="view-gateways-import-configuration"></a><span data-ttu-id="8b7a7-103">게이트웨이 보기(구성 가져오기)</span><span class="sxs-lookup"><span data-stu-id="8b7a7-103">View Gateways (Import Configuration)</span></span>
  
-<span data-ttu-id="2020c-104">**배포 된 게이트웨이에서**선택한 음성 구성 파일을 가져올 게이트웨이를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2020c-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
+<span data-ttu-id="8b7a7-104">**배포된 게이트웨이** 에서 선택한 음성 구성 파일을 가져올 게이트웨이를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8b7a7-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
   
-<span data-ttu-id="2020c-105">비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2020c-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="8b7a7-105">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="8b7a7-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

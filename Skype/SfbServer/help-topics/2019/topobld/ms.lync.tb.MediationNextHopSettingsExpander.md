@@ -1,8 +1,8 @@
 ---
 title: 중재 다음 홉 설정 확장기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 드롭다운 목록에서 정의 된 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택 하 여 다음 홉을 조정 서버 풀 또는 중재 서버로 지정 합니다. 디렉터 또는 디렉터 풀은 중재 서버 풀 또는 중재 서버 다음 홉에 대해 유효한 선택이 아니므로 목록에 표시 되지 않습니다. 확인을 클릭 하 여 변경 내용을 적용 하 고 저장 합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 취소를 클릭합니다.
-ms.openlocfilehash: da8c5b3ffd3fe96f770539207595e28b52fa51aa
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 드롭다운 목록에서 정의된 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택하여 중재 서버 풀 또는 중재 서버 다음 홉을 지정합니다. 디렉터 또는 디렉터 풀은 중재 서버 풀 또는 중재 서버 다음 홉에 대한 올바른 선택이 아니며 목록에 표시되지 않습니다. 확인을 클릭하여 변경 내용을 수락하고 저장합니다. 변경 내용을 취소하고 속성 페이지를 끝내려면 취소를 클릭합니다.
+ms.openlocfilehash: 4b6a219249ec8bea82a82999cc3cf14ce7f27d83
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796237"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815468"
 ---
-# <a name="mediation-next-hop-settings-expander"></a><span data-ttu-id="72c1b-106">중재 다음 홉 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="72c1b-106">Mediation Next Hop Settings Expander</span></span>
+# <a name="mediation-next-hop-settings-expander"></a><span data-ttu-id="c34ff-106">중재 다음 홉 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="c34ff-106">Mediation Next Hop Settings Expander</span></span>
  
-<span data-ttu-id="72c1b-107">드롭다운 목록에서 정의 된 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택 하 여 다음 홉을 조정 서버 풀 또는 중재 서버로 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="72c1b-107">You specify the Mediation Server pool or Mediation Server next hop by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="72c1b-108">디렉터 또는 디렉터 풀은 중재 서버 풀 또는 중재 서버 다음 홉에 대해 유효한 선택이 아니므로 목록에 표시 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="72c1b-108">A Director or Director pool is not a valid selection for a Mediation Server pool or Mediation Server next hop, and will not appear in the list.</span></span> <span data-ttu-id="72c1b-109">**확인** 을 클릭 하 여 변경 내용을 적용 하 고 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="72c1b-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="72c1b-110">변경 내용을 취소하고 속성 페이지를 끝내려면 **취소**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="72c1b-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
+<span data-ttu-id="c34ff-107">드롭다운 목록에서 정의된 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택하여 중재 서버 풀 또는 중재 서버 다음 홉을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c34ff-107">You specify the Mediation Server pool or Mediation Server next hop by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="c34ff-108">디렉터 또는 디렉터 풀은 중재 서버 풀 또는 중재 서버 다음 홉에 대한 올바른 선택이 아니며 목록에 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c34ff-108">A Director or Director pool is not a valid selection for a Mediation Server pool or Mediation Server next hop, and will not appear in the list.</span></span> <span data-ttu-id="c34ff-109">확인을 **클릭하여** 변경 내용을 수락하고 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="c34ff-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="c34ff-110">변경 내용을 취소하고 속성 페이지를 끝내려면 **취소** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c34ff-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
   
-<span data-ttu-id="72c1b-111">중재 서버 풀 또는 중재 서버의 설정에 대 한 자세한 내용은 배포 설명서의 비즈니스용 [Skype 서버에서 토폴로지 작성기에 중재 서버 배포](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="72c1b-111">For details about the settings for the Mediation Server pool or Mediation Server, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="c34ff-111">중재 서버 풀 또는 중재 서버의 설정에 대한 자세한 내용은 배포 설명서에서 비즈니스용 [Skype 서버의](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) 토폴로지 작성기에서 중재 서버 배포를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="c34ff-111">For details about the settings for the Mediation Server pool or Mediation Server, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in the Deployment documentation.</span></span>
   
 

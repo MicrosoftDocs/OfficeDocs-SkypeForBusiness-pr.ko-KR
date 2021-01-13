@@ -1,8 +1,8 @@
 ---
 title: 의료용 Teams
-description: 조직의 의료 팀에 대 한 팀을 관리 하는 데 사용할 수 있는 관리자 리소스에 대해 알아봅니다.
-author: lanachin
-ms.author: v-lanac
+description: 조직에서 의료 팀용 Teams를 관리하는 데 사용할 수 있는 관리 리소스에 대해 자세히 배워야 합니다.
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:
@@ -16,19 +16,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e77bd388dd2d852c23fb05e6e54f265065fc1a1a
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 8e7de4f3a91375aee8d58d2a5164f995fee54f22
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766871"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815708"
 ---
-# <a name="teams-for-healthcare"></a><span data-ttu-id="57514-103">의료용 Teams</span><span class="sxs-lookup"><span data-stu-id="57514-103">Teams for Healthcare</span></span>
+# <a name="teams-for-healthcare"></a><span data-ttu-id="2ec2a-103">의료용 Teams</span><span class="sxs-lookup"><span data-stu-id="2ec2a-103">Teams for Healthcare</span></span>
 
-<span data-ttu-id="57514-104">팀은 상태 팀과 의료 전문가에 게 통신 하 고, 환자를 처리 하 고, 운영 효율성을 개선 하는 안전한 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="57514-104">Teams gives health teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies.</span></span> <span data-ttu-id="57514-105">여기서는 조직의 의료 팀을 위해 팀을 관리 하는 데 필요한 관리 리소스를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="57514-105">Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.</span></span>
+<span data-ttu-id="2ec2a-104">Teams는 의료 팀과 의료 전문가가 의사 소통하고, 환자 진료를 조정하고, 운영 효율성을 개선할 수 있는 안전한 방법을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="2ec2a-104">Teams gives health teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies.</span></span> <span data-ttu-id="2ec2a-105">여기서는 조직의 의료 팀에 대한 Teams를 관리하는 데 필요한 관리자 리소스를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ec2a-105">Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.</span></span>
 
 |               |               |
 | ------------- | ------------- |
-| ![가져오기-시작-팀](../media/get-started-teams.svg)  |  [<span data-ttu-id="57514-107">의료 조직을 위한 Teams 시작</span><span class="sxs-lookup"><span data-stu-id="57514-107">Get started with Teams for Healthcare organizations</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
-| ![연습-지도-팀](../media/walkthrough-map-teams.svg) | [<span data-ttu-id="57514-109">의료 조직을 위한 Teams 서식 파일 시작</span><span class="sxs-lookup"><span data-stu-id="57514-109">Get started with Teams templates for Healthcare organizations</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
-| ![채트](../media/chat.svg)  |  [<span data-ttu-id="57514-111">의료 조직을 위한 보안 메시징 시작</span><span class="sxs-lookup"><span data-stu-id="57514-111">Get started with Secure Messaging for Healthcare organizations</span></span>](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |
+| ![get-started-teams](../media/get-started-teams.svg)  |  [<span data-ttu-id="2ec2a-107">의료 조직을 위한 Teams 시작</span><span class="sxs-lookup"><span data-stu-id="2ec2a-107">Get started with Teams for Healthcare organizations</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams.svg) | [<span data-ttu-id="2ec2a-109">의료 조직을 위한 Teams 서식 파일 시작</span><span class="sxs-lookup"><span data-stu-id="2ec2a-109">Get started with Teams templates for Healthcare organizations</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
+| ![채팅](../media/chat.svg)  |  [<span data-ttu-id="2ec2a-111">의료 조직을 위한 보안 메시징 시작</span><span class="sxs-lookup"><span data-stu-id="2ec2a-111">Get started with Secure Messaging for Healthcare organizations</span></span>](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |
