@@ -1,8 +1,8 @@
 ---
-title: 사용자가 핀 정책 보기 또는 구성
+title: 사용자 PIN 정책 보기 또는 구성
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: dfc8226b4c85f7c30960a66de95b13f147554450
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: 5268d6fbbb34f45a3bab8cebc97e2ffcc0a25728
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821730"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810758"
 ---
 # <a name="users-view-or-configure-pin-policy"></a>사용자: PIN 정책 보기 또는 구성
  
-무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
   
-- [Lync Server 2013에서 사용자의 전화 접속 회의 PIN 설정](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
-비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)
 

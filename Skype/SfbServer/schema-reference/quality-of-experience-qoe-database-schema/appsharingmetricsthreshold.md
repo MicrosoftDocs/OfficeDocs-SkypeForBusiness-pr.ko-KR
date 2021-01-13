@@ -1,8 +1,8 @@
 ---
 title: AppSharingMetricsThreshold 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,36 +12,36 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
-description: AppSharingMetricsThreshold 테이블에는 응용 프로그램 공유에 사용 되는 경험 메트릭의 품질 기준에 적합 한 값이 포함 되어 있습니다. 이러한 임계값은 응용 프로그램 공유 환경을 불량으로 분류 해야 하는지 결정 하는 데 사용 됩니다.
-ms.openlocfilehash: 3639d9f2783b6433353f23d15e6ce063fb8ec49f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: AppSharingMetricsThreshold 테이블에는 응용 프로그램 공유에 사용되는 QoE(체감 품질) 메트릭에 대한 최적값 및 허용 가능한 값이 포함되어 있습니다. 이러한 임계값은 응용 프로그램 공유 환경을 불량으로 분류해야 하는지 여부를 확인하는 데 사용됩니다.
+ms.openlocfilehash: 747497affbf561976bc6dd626bdce060efc1eca8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41811386"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809698"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>AppSharingMetricsThreshold 테이블
  
-AppSharingMetricsThreshold 테이블에는 응용 프로그램 공유에 사용 되는 경험 메트릭의 품질 기준에 적합 한 값이 포함 되어 있습니다. 이러한 임계값은 응용 프로그램 공유 환경을 불량으로 분류 해야 하는지 결정 하는 데 사용 됩니다.
+AppSharingMetricsThreshold 테이블에는 응용 프로그램 공유에 사용되는 QoE(체감 품질) 메트릭에 대한 최적값 및 허용 가능한 값이 포함되어 있습니다. 이러한 임계값은 응용 프로그램 공유 환경을 불량으로 분류해야 하는지 여부를 확인하는 데 사용됩니다.
   
-이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.
+이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**CallType** <br/> |int  <br/> |주요한  <br/> |배치 된 통화 유형입니다.  <br/> |
-|**AppliedBandwidthLimitOptimal** <br/> |int  <br/> ||응용 프로그램 공유에 대 한 최적의 대역폭 제한. 기본값은 100만입니다.  <br/> |
-|**AppliedBandwidthLimitAcceptable** <br/> |int  <br/> ||응용 프로그램 공유에 허용 되는 대역폭 제한. 기본값은 50만입니다.  <br/> |
-|**SpoiledTilePercentTotalOptimal** <br/> |10 진수 (5, 2)  <br/> ||응용 프로그램 공유 품질을 분류 하기 위해 "spoiled" 타일에 대 한 최적 백분율 비율입니다. 이 값은 보기에 도달 하지 않은 공유자 콘텐츠의 백분율입니다. 공유자에서 그래픽 원본의 타일을 포기 하거나 ASMCU 타일이 공유자의 타일을 각각 삭제 하는 경우 콘텐츠가 취소 (또는 spoiled) 될 수 있습니다. 기본 값은 11%입니다.  <br/> |
-|**SpoiledTilePercentTotalAcceptable** <br/> |10 진수 (5, 2)  <br/> ||응용 프로그램 공유 품질을 분류 하는 "spoiled" 타일에 허용 되는 백분율 비율입니다. 이 값은 보기에 도달 하지 않은 공유자 콘텐츠의 백분율입니다. 공유자에서 그래픽 원본의 타일을 포기 하거나 ASMCU 타일이 공유자의 타일을 각각 삭제 하는 경우 콘텐츠가 취소 (또는 spoiled) 될 수 있습니다. 기본값은 36%입니다.  <br/> |
-|**JitterInterArrivalOptimal** <br/> |int  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용 되지 않습니다.  <br/> |
-|**JitterInterArrivalAcceptable** <br/> |int  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용 되지 않습니다.  <br/> |
-|**RelativeOneWayBurstDensityOptimal** <br/> |o  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용 되지 않습니다.  <br/> |
-|**RelativeOneWayBurstDensityAcceptable** <br/> |o  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용 되지 않습니다.  <br/> |
-|**RDPTileProcessingLatencyBurstDensityOptimal** <br/> |o  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용 되지 않습니다.  <br/> |
-|**RDPTileProcessingLatencyBurstDensityAcceptable** <br/> |o  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용 되지 않습니다.  <br/> |
-|**RelativeOneWayAverageOptimal** <br/> |o  <br/> ||응용 프로그램 공유에 포함 된 두 미디어 끝점 간의 상대적 단방향 지연에 대 한 최적의 값입니다. 이것은 단일 홉 대기 시간 측정입니다. 기본값은 1.0 초입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입 되었습니다.  <br/> |
-|**RelativeOneWayAverageAcceptable** <br/> |o  <br/> ||응용 프로그램 공유에 포함 된 두 미디어 끝점 간의 상대적 단방향 지연에 대 한 최적의 값입니다. 이것은 단일 홉 대기 시간 측정입니다. 기본값은 1.75 초입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입 되었습니다.  <br/> |
-|**RDPTileProcessingLatencyAverageOptimal** <br/> |o  <br/> ||보기 세션 중에 회의 서버의 평균 RDP 타일 처리 대기 시간에 대 한 최적의 값입니다. 대기 시간은 서버 (공유자 또는 해당 시나리오에 따라)에서 시작 프레임을 인코딩한 시간과 동일한 시작 프레임을 뷰어에 디코딩할 때의 차이입니다.  <br/> 평균 높음은 보기 환경에서 더 오래 지연 됩니다. 오버 로드 된 회의 서버는 평균 지연 시간을 겪을 수 있습니다. 기본값은 200ms입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입 되었습니다.  <br/> |
-|**RDPTileProcessingLatencyAverageAcceptable** <br/> |o  <br/> ||보기 세션 중에 회의 서버의 평균 RDP 타일 처리 대기 시간을 허용 하는 값입니다. 대기 시간은 서버 (공유자 또는 해당 시나리오에 따라)에서 시작 프레임을 인코딩한 시간과 동일한 시작 프레임을 뷰어에 디코딩할 때의 차이입니다.  <br/> 평균 높음은 보기 환경에서 더 오래 지연 됩니다. 오버 로드 된 회의 서버는 평균 지연 시간을 겪을 수 있습니다. 기본값은 200ms입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입 되었습니다.  <br/> |
+|**CallType** <br/> |int  <br/> |Primary  <br/> |수행된 통화 유형입니다.  <br/> |
+|**AppliedBandwidthLimitOptimal** <br/> |int  <br/> ||응용 프로그램 공유에 대한 최적의 대역폭 제한입니다. 기본값은 1000000입니다.  <br/> |
+|**AppliedBandwidthLimitAcceptable** <br/> |int  <br/> ||응용 프로그램 공유에 대한 허용 가능한 대역폭 제한입니다. 기본값은 500000입니다.  <br/> |
+|**SpoiledTilePercentTotalOptimal** <br/> |decimal(5,2)  <br/> ||응용 프로그램 공유 품질을 분류하기 위한 "부실" 타일에 대한 최적 비율입니다. 이 값은 공유자의 콘텐츠 중 뷰어에 도달하지 못한 비율입니다. 공유자가 그래픽 원본에서 타일을 삭제하거나 ASMCU 타일이 각각의 공유자에서 타일을 삭제하면 콘텐츠가 삭제(또는 잘못됨)될 수 있습니다. 기본값은 11%입니다.  <br/> |
+|**SpoiledTilePercentTotalAcceptable** <br/> |decimal(5,2)  <br/> ||응용 프로그램 공유 품질을 분류하기 위한 "부실" 타일에 대한 허용 가능한 비율입니다. 이 값은 공유자의 콘텐츠 중 뷰어에 도달하지 못한 비율입니다. 공유자가 그래픽 원본에서 타일을 삭제하거나 ASMCU 타일이 각각의 공유자에서 타일을 삭제하면 콘텐츠가 삭제(또는 잘못됨)될 수 있습니다. 기본값은 36%입니다.  <br/> |
+|**JitterInterArrivalOptimal** <br/> |int  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용되지 않습니다.  <br/> |
+|**JitterInterArrivalAcceptable** <br/> |int  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용되지 않습니다.  <br/> |
+|**RelativeOneWayBurstDensityOptimal** <br/> |float  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용되지 않습니다.  <br/> |
+|**RelativeOneWayBurstDensityAcceptable** <br/> |float  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용되지 않습니다.  <br/> |
+|**RDPTileProcessingLatencyBurstDensityOptimal** <br/> |float  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용되지 않습니다.  <br/> |
+|**RDPTileProcessingLatencyBurstDensityAcceptable** <br/> |float  <br/> ||이 열은 Microsoft Lync Server 2013에서 사용되지 않습니다.  <br/> |
+|**RelativeOneWayAverageOptimal** <br/> |float  <br/> ||응용 프로그램 공유에 포함된 두 개의 미디어 끝점 사이의 상대적 단방향 지연 시간에 대한 최적 값입니다. 이 값은 단일 홉 지연 시간 측정값입니다. 기본값은 1.0초입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
+|**RelativeOneWayAverageAcceptable** <br/> |float  <br/> ||응용 프로그램 공유에 포함된 두 개의 미디어 끝점 사이의 상대적 단방향 지연 시간에 대한 최적 값입니다. 이 값은 단일 홉 지연 시간 측정값입니다. 기본값은 1.75초입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
+|**RDPTileProcessingLatencyAverageOptimal** <br/> |float  <br/> ||보기 세션 기간 중 AS 회의 서버의 평균 RDP 타일 처리 지연 시간에 대한 최적 값입니다. 대기 시간은 시작 프레임이 서버에 인코딩되는 시간 차이(시나리오에 따라 공유자 또는 MCU)와 동일한 시작 프레임이 뷰어에서 디코딩되는 시간 차이입니다.  <br/> 평균 값이 높으면 보기 환경의 지연 시간이 길다는 것을 나타냅니다. 부하가 높은 회의 서버는 평균 대기 시간이 높을 수 있습니다. 기본값은 200ms입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
+|**RDPTileProcessingLatencyAverageAcceptable** <br/> |float  <br/> ||보기 세션 기간 중 AS 회의 서버의 평균 RDP 타일 처리 지연 시간에 대한 허용 가능한 값입니다. 대기 시간은 시작 프레임이 서버에 인코딩되는 시간 차이(시나리오에 따라 공유자 또는 MCU)와 동일한 시작 프레임이 뷰어에서 디코딩되는 시간 차이입니다.  <br/> 평균 값이 높으면 보기 환경의 지연 시간이 길다는 것을 나타냅니다. 부하가 높은 회의 서버는 평균 대기 시간이 높을 수 있습니다. 기본값은 200ms입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
    
 

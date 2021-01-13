@@ -1,8 +1,8 @@
 ---
 title: A/V MCU 풀 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Collocated A/V 회의 서비스를 보유 하 고 있지 않은 중앙 사이트의 모든 Enterprise Edition 프런트 엔드 서버는 동일한 독립 실행형 A/V 회의 풀을 사용할 수 있습니다. 각 A/V 회의 풀에 대해 풀의 FQDN (정규화 된 도메인 이름)을 지정 하 고 단일 A/V 회의 서버 또는 부하 분산 된 여러 A/V 회의 서버를 포함 해야 합니다.
-ms.openlocfilehash: b2fd57f0a6c9f39638f62a9bae7c9ed29a73a779
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 배치된 A/V 회의 서비스가 없는 중앙 사이트의 모든 Enterprise Edition 프런트 엔드 서버에서는 동일한 독립 실행형 A/V 회의 풀을 사용할 수 있습니다. 각 A/V 회의 풀에 대해 풀의 FQDN(정규화된 도메인 이름) 및 해당 풀에 단일 A/V 회의 서버만 있는지 아니면 다중 부하 분산 A/V 회의 서버가 있는지를 지정해야 합니다.
+ms.openlocfilehash: f0bfa6155320a23467545be19de290a3f1df19dd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794837"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812028"
 ---
 # <a name="add-av-mcu-pool"></a>A/V MCU 풀 추가
  
-Collocated A/V 회의 서비스를 보유 하 고 있지 않은 중앙 사이트의 모든 Enterprise Edition 프런트 엔드 서버는 동일한 독립 실행형 A/V 회의 풀을 사용할 수 있습니다. 각 A/V 회의 풀에 대해 풀의 FQDN (정규화 된 도메인 이름)을 지정 하 고 단일 A/V 회의 서버 또는 부하 분산 된 여러 A/V 회의 서버를 포함 해야 합니다.
+배치된 A/V 회의 서비스가 없는 중앙 사이트의 모든 Enterprise Edition 프런트 엔드 서버에서는 동일한 독립 실행형 A/V 회의 풀을 사용할 수 있습니다. 각 A/V 회의 풀에 대해 풀의 FQDN(정규화된 도메인 이름) 및 해당 풀에 단일 A/V 회의 서버만 있는지 아니면 다중 부하 분산 A/V 회의 서버가 있는지를 지정해야 합니다.
   
 > [!IMPORTANT]
-> 단일 서버 풀을 다중 서버 풀로 변환할 수 없습니다. 나중에 조직에 다중 서버 풀이 필요한 경우 단일 서버 풀을 삭제 한 다음 다중 서버 풀을 추가 해야 합니다. 
+> 단일 서버 풀을 다중 서버 풀로 전환할 수는 없습니다. 나중에 조직에 다중 서버 풀이 필요하다고 판단하는 경우 단일 서버 풀을 삭제한 다음 다중 서버 풀을 추가해야 합니다. 
   
 > [!TIP]
-> 미래에 A/V 회의 풀을 구현 하려는 경우 **여러 컴퓨터 풀**을 선택 합니다. 풀이 부하 분산된 둘 이상의 컴퓨터로 정의되었더라도 단일 컴퓨터 풀을 만들고 단일 컴퓨터에 대한 풀 FQDN을 만들 수 있습니다. 나중에 풀에 컴퓨터를 추가할 준비가 되 면 토폴로지 작성기를 다시 시작 하 여 새 풀 구성원을 정의 하 고 새 토폴로지를 게시 한 다음 비즈니스용 Skype 서버 배포 마법사를 통해 새 A/V 회의 풀 구성원을 설정 해야 합니다. A/V 회의 서버 풀은 풀을 만들 수 있는 부하 분산 장치가 필요 없다는 점에서 고유 합니다. A/V 회의 풀은 내부적으로 로드 균형을 유지 하며 추가 하드웨어는 필요 하지 않습니다. 
+> 나중에 A/V 회의 풀을 구현하려는 경우 **다중 컴퓨터 풀** 을 선택합니다. 풀이 부하 분산된 둘 이상의 컴퓨터로 정의되었더라도 단일 컴퓨터 풀을 만들고 단일 컴퓨터에 대한 풀 FQDN을 만들 수 있습니다. 나중에 풀에 컴퓨터를 더 추가할 준비가 된 경우 토폴로지 작성기에서 새 풀 구성원을 정의하고 새 토폴로지 게시한 다음 비즈니스용 Skype 서버 배포 마법사를 통해 새 A/V 회의 풀 구성원을 설정해야 합니다. A/V 회의 서버 풀은 풀을 만들기 위해 부하 분산 장치가 필요하지 않다는 점에서 고유합니다. A/V 회의 풀은 내부적으로 부하 분산을 수행하며 추가 하드웨어가 필요하지 않습니다. 
   
 

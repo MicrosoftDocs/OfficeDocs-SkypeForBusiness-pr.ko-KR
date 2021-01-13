@@ -1,8 +1,8 @@
 ---
 title: tblChat
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,34 +12,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
-description: tblChat에는 모든 채팅 메시지가 포함 됩니다.
-ms.openlocfilehash: 7221136c435c1d4af836174ddfde5cbd02f4c5f6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblChat에는 모든 채팅 메시지가 포함됩니다.
+ms.openlocfilehash: b375c8c5dcd626a02f59aa9a916d3ca883e4767d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814676"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809898"
 ---
 # <a name="tblchat"></a>tblChat
  
-tblChat에는 모든 채팅 메시지가 포함 됩니다.
+tblChat에는 모든 채팅 메시지가 포함됩니다.
   
 **열**
 
 |**열**|**유형**|**설명**|
 |:-----|:-----|:-----|
-|channelId  <br/> |int, null 아님  <br/> |노드 ID입니다.  <br/> |
-|chatId  <br/> |bigint, null이 아님  <br/> |TblLastChatId 테이블에서 생성 된 채팅방 순서를 정의 하는 고유 순차 번호 (노드 ID 당)입니다.  <br/> |
-|로이 날짜  <br/> |bigint, null이 아님  <br/> |채팅 메시지에 대 한 타임 스탬프입니다.  <br/> |
-|userId  <br/> |int, null 아님  <br/> |포스터의 사용자 ID입니다.  <br/> |
-|isAlert  <br/> |bit, null이 아님  <br/> |메시지가 알림 메시지 이면 True를 지정 합니다. 그렇지 않으면 False입니다.  <br/> |
-|콘텐트가  <br/> |nvarchar (max), null 아님  <br/> | 채팅 콘텐츠 (일반 텍스트 버전). 일반적으로 콘텐츠는 다음과 같은 예외를 포함 하는 일반 텍스트로 되어 있습니다. <br/>  파일은 ma-filelink: 링크로 표시 됩니다. <br/>  링크는 HTML 요소로 표시 됩니다 (콘텐츠 형식을 HTML로 간주할 수 없음). <br/>  스토리는 "[스토리] ..."와 같은 형식으로 인코딩됩니다. <br/> |
-|서식  <br/> |varchar (max)  <br/> |채팅 콘텐츠 (RTF 버전). 클라이언트가 제공 하지 않는 경우 Null 일 수 있습니다.  <br/> |
+|channelId  <br/> |int, null이 아님  <br/> |노드 ID입니다.  <br/> |
+|chatId  <br/> |bigint, null이 아님  <br/> |tblLastChatId 테이블에서 생성된 대화방 순서를 정의하는 고유한 일련 번호(노드 ID당)입니다.  <br/> |
+|chatDate  <br/> |bigint, null이 아님  <br/> |채팅 메시지의 타임스탬프입니다.  <br/> |
+|userId  <br/> |int, null이 아님  <br/> |게시자의 사용자 ID입니다.  <br/> |
+|isAlert  <br/> |bit, null이 아님  <br/> |메시지가 경고 메시지인 경우 True입니다. 그렇지 않으면 False입니다.  <br/> |
+|콘텐츠  <br/> |nvarchar(max), null이 아님  <br/> | 채팅 콘텐츠(일반 텍스트 버전)입니다. 콘텐츠는 일반적으로 일반 텍스트이지만 다음과 같은 예외가 있습니다. <br/>  파일이 ma-filelink: 링크로 표시됩니다. <br/>  링크는 HTML 요소로 표시됩니다(콘텐츠 형식은 HTML로 간주 할 수 없음). <br/>  스토리는 "[STORY]...." 형식으로 인코딩됩니다. <br/> |
+|rtf  <br/> |varchar(max)  <br/> |채팅 콘텐츠(RTF 버전)입니다. 클라이언트에서 제공하지 않는 경우 Null일 수 있습니다.  <br/> |
    
 **키**
 
 |**열**|**설명**|
 |:-----|:-----|
-|\<channelID,로 d\>  <br/> |기본 키입니다.  <br/> |
+|\<channelID, chatD\>  <br/> |기본 키입니다.  <br/> |
    
 

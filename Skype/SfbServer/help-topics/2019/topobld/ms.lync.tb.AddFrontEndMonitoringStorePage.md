@@ -1,8 +1,8 @@
 ---
-title: 프론트 엔드 모니터링 저장소 페이지 추가
+title: 프런트 엔드 모니터링 저장소 추가 페이지
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,40 +14,40 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 다음 속성을 구성 하 여 모니터링 SQL Server 저장소를 정의 합니다.
-ms.openlocfilehash: 1d6e9d4bbc795707105a6282ac004dde5c264171
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 다음 속성을 구성하여 모니터링 SQL Server 저장소 정의를 수행합니다.
+ms.openlocfilehash: e867ec998e1380e70125d0ad743f83b06737758e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798535"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811668"
 ---
-# <a name="add-front-end-monitoring-store-page"></a>프론트 엔드 모니터링 저장소 페이지 추가
+# <a name="add-front-end-monitoring-store-page"></a>프런트 엔드 모니터링 저장소 추가 페이지
  
-다음 속성을 구성 하 여 **모니터링 SQL Server 저장소를 정의 합니다** .
+다음 속성을 구성하여 **모니터링 SQL Server 저장소 정의** 를 수행합니다.
   
-- **Sql server 스토어 모니터링**: 목록에서 sql server의 정규화 된 도메인 이름 (및 선택적으로 인스턴스)을 선택 합니다.
+- **저장소 SQL Server** 모니터링: 목록에서 SQL Server 도메인 이름 및 인스턴스(선택 사항)를 선택합니다.
     
-    **새로** 만들기를 클릭 하 여 SQL Server의 새 FQDN 정의 및 선택적으로 모니터링 서버 저장소에 대 한 인스턴스 이름을 만듭니다.
+    새  FQDN 정의를 SQL Server 모니터링 서버 저장소의 인스턴스 이름을 선택적으로 만들려면 새로 만들기를 클릭합니다.
     
-- 모니터링 서버에 대 한 데이터베이스 미러링을 추가 하려면 **SQL Server 스토어 미러링 사용** 확인란을 선택 합니다.
+- 모니터링 서버에 **SQL Server** 미러링을 추가하려면 저장소 미러링 사용 확인란을 선택합니다.
     
-    목록에서 기존 **모니터링 SQL Server 저장소 미러** 를 선택 합니다.
+    목록에서 기존 **모니터링 SQL Server 저장소 미러** 를 선택합니다.
     
-    **새로** 만들기를 클릭 하 여 새 SQL Server FQDN 정의를 만들고 선택적으로 미러 저장소의 인스턴스 이름을 만듭니다.
+    새  FQDN 정의를 SQL Server 미러 저장소의 인스턴스 이름을 선택적으로 만들려면 새로 만들기를 클릭합니다.
     
-- **Sql server store 미러링 사용**을 선택한 경우 선택적으로 **sql server 미러링 미러링 모니터 사용** 을 선택 하 여 자동 장애 조치를 사용 하도록 설정 하 여 목록에서 sql server 미러링 감시 저장소를 선택 합니다.
+- 저장소 미러링 SQL Server 사용하도록 설정한 경우 선택적으로 SQL Server 미러링 미러링을 사용하여 자동 장애 조치(failover)를 사용하도록 설정하여 목록에서 SQL Server 미러링된 미러링 SQL Server 선택합니다.  
     
-    **새로** 만들기를 클릭 하 여 새 SQL Server FQDN 정의를 만들고 선택적으로 미러링 감시 저장소에 대 한 인스턴스 이름을 만듭니다.
+    새로 **만들기를** 클릭하여 새 FQDN SQL Server 미러링된 미러링된 저장소의 인스턴스 이름을 만들 수 있습니다.
     
-이전 풀 정의 대화 상자로 돌아가려면 **뒤로**를 클릭합니다.
+이전 풀 정의 대화 상자로 돌아가려면 **뒤로** 를 클릭합니다.
   
-이 대화 상자에 대 한 옵션을 모두 입력 하 고 구성을 진행 하는 과정을 완료 한 후 **다음** 을 클릭 합니다.
+이 대화 상자의 옵션을 모두 입력한 후 구성을 계속하려면 **다음** 을 클릭합니다.
   
-모든 변경 내용을 취소 하 고 마법사를 종료 하려면 **취소** 를 클릭 합니다.
+모든 변경 내용을 취소하고 마법사를 종료하려면 **취소** 를 클릭합니다.
   
-이 페이지와 같은 상황에 맞는 도움말에 액세스하려면 **도움말**을 클릭합니다.
+이 페이지와 같은 상황에 맞는 도움말에 액세스하려면 **도움말** 을 클릭합니다.
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버의 프런트 엔드 풀에 모니터링 저장소 연결](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[비즈니스용 Skype 서버에서 모니터링 저장소를 프런트 엔드 풀과 연결](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

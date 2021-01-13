@@ -1,8 +1,8 @@
 ---
 title: 모든 사용자 이동
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
-description: 사용자 이동 대화 상자에서 배포의 다른 풀로 사용자 계정을 이동할 원본 및 대상 풀을 선택할 수 있습니다.
-ms.openlocfilehash: 0801ae8abefab3479b166e9b9f9c0680eb0b3d07
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 사용자 이동 대화 상자에서 배포의 풀 간에 사용자 계정을 이동하기 위한 원본 풀과 대상 풀을 선택할 수 있습니다.
+ms.openlocfilehash: fe2d0f31ec7377d5b435937539b31f3bbd3b1fd9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822651"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810858"
 ---
 # <a name="move-all-users"></a>모든 사용자 이동
 
-**사용자 이동** 대화 상자에서 배포의 다른 풀로 사용자 계정을 이동할 원본 및 대상 풀을 선택할 수 있습니다.
+**사용자 이동** 대화 상자에서 배포의 풀 간에 사용자 계정을 이동하기 위한 원본 풀과 대상 풀을 선택할 수 있습니다.
 
-사용자 이동에 대한 자세한 내용은 [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx)을 참조하세요.
+사용자를 이동하는 방법에 대한 자세한 내용은 [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx)을 참조하십시오.
 
 

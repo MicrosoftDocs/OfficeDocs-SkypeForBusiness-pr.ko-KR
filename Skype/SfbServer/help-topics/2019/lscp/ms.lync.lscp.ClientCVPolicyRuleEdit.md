@@ -1,8 +1,8 @@
 ---
 title: 클라이언트 버전 규칙
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
-description: 클라이언트 버전 정책은 클라이언트 버전 규칙 집합으로 구성됩니다. 이러한 규칙은 사용자가 특정 클라이언트 및 클라이언트 버전을 사용하여 로그온을 시도할 때 수행할 동작을 정의합니다.
-ms.openlocfilehash: a4d8cb38f30e8c332a9cec0ea90e27c012187d47
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 클라이언트 버전 정책은 클라이언트 버전 규칙 집합으로 구성됩니다. 이러한 규칙은 사용자가 특정 클라이언트 및 클라이언트 버전으로 로그온을 시도할 때 수행해야 하는 작업을 정의합니다.
+ms.openlocfilehash: 26f37c77886ac9f9fe7fb8d8680fb0dad642a9cf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794597"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812378"
 ---
 # <a name="client-version-rule"></a>클라이언트 버전 규칙
 
-클라이언트 버전 정책은 클라이언트 버전 규칙 집합으로 구성됩니다. 이러한 규칙은 사용자가 특정 클라이언트 및 클라이언트 버전을 사용하여 로그온을 시도할 때 수행할 동작을 정의합니다.
+클라이언트 버전 정책은 클라이언트 버전 규칙 집합으로 구성됩니다. 이러한 규칙은 사용자가 특정 클라이언트 및 클라이언트 버전으로 로그온을 시도할 때 수행해야 하는 작업을 정의합니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
 **새 클라이언트 버전 구성** 또는 **클라이언트 버전 구성 편집** 페이지에서 다음 작업을 수행할 수 있습니다.
 
-- 클라이언트 버전 정책에 새 규칙 추가
+- 클라이언트 버전 정책에 새 규칙을 추가합니다.
 
 - 기존 클라이언트 버전 정책을 구성하는 규칙 수정
 
@@ -38,67 +38,67 @@ ms.locfileid: "41794597"
 
 다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.
 
-- **사용자 에이전트** 목록에서 클라이언트 유형을 선택할 수 있습니다. 다음 표에서는 사용자 에이전트 코드를 정의 합니다. 이 목록에는 레거시 클라이언트 유형이 포함 되며, 일부는 더 이상 지원 되지 않습니다.
+- **사용자 에이전트** 목록에서 클라이언트 유형을 선택할 수 있습니다. 다음 표에서는 사용자 에이전트 코드를 정의합니다. 이 목록에는 레거시 클라이언트 유형이 포함되는 중 일부는 더 이상 지원되지 않습니다.
 
 |**클라이언트 이름**|**사용자 에이전트**|
 |:-----|:-----|
 |Lync 2013, Lync 2010, Office Communicator  <br/> |OC  <br/> |
 |Lync Web App, Communicator Web Access  <br/> |CWA  <br/> |
-|Lync Phone Edition, Office Communicator 휴대폰  <br/> |OCPhone  <br/> |
+|Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
 |Communicator Phone Edition 플랫폼  <br/> |CPE  <br/> |
 |통합 통신 플랫폼  <br/> |UCCP  <br/> |
-|Lync 2010 참석자  <br/> |AOC  <br/> |
-|Live Meeting 추가 기능  <br/> |LiveMeetingAddins  <br/> |
+|Lync 2010 Attendee  <br/> |AOC  <br/> |
+|Live Meeting Add-In  <br/> |LiveMeetingAddins  <br/> |
 |Office Live Meeting  <br/> |LMC  <br/> |
 |Windows Messenger  <br/> |WM  <br/> |
 |실시간 통신 클라이언트  <br/> |RTC  <br/> |
-|IPad 용 Lync 2010  <br/> |iPadLync  <br/> |
-|IPhone 용 Lync 2010  <br/> |iPhoneLync  <br/> |
-|Windows Phone 용 Lync 2010  <br/> |WPLync  <br/> |
-|Nokia 용 Lync 2010  <br/> |NokiaLync  <br/> |
-|Android 용 Lync 2010  <br/> |AndroidLync  <br/> |
-|모바일 서비스  <br/> |McxService  <br/> |
+|Lync 2010 for iPad  <br/> |iPadLync  <br/> |
+|Lync 2010 for iPhone  <br/> |iPhoneLync  <br/> |
+|Lync 2010 for Windows Phone  <br/> |WPLync  <br/> |
+|Nokia용 Lync 2010  <br/> |NokiaLync  <br/> |
+|Lync 2010 for Android  <br/> |AndroidLync  <br/> |
+|Mobility Service  <br/> |McxService  <br/> |
 
-- **버전 번호** 다음 필드에 대 한 버전 번호를 지정 하거나 와일드 카드를 사용 하 여 클라이언트 버전 번호를 표시할 수 있습니다.
+- **버전 번호** 다음 필드의 버전 번호를 지정하거나 와일드카드를 사용하여 클라이언트 버전 번호를 나타낼 수 있습니다.
 
-  - **주 버전** 클라이언트의 주요 릴리스에 해당 하는 번호를 지정 합니다.
+  - **주 버전** 클라이언트의 주 릴리스에 해당하는 번호를 지정합니다.
 
-  - **부 버전** 클라이언트의 부 릴리스에 해당 하는 번호를 지정 합니다.
+  - **부 버전** 클라이언트의 부 릴리스에 해당하는 번호를 지정합니다.
 
-  - **빌드** 클라이언트의 주 및 부 릴리스에 해당 하는 빌드 번호를 지정 합니다.
+  - **빌드** 클라이언트의 주 릴리스 및 부 릴리스에 해당하는 빌드 번호를 지정합니다.
 
-  - **업데이트** 업데이트 된 클라이언트의 릴리스에 해당 하는 번호를 지정 합니다.
+  - **업데이트** 클라이언트의 업데이트된 릴리스에 해당하는 번호를 지정합니다.
 
-- **비교 연산** 앞 단계에서 지정한 클라이언트 버전에 대 한 일치 작업을 지정할 수 있습니다. 다음과 같은 작업을 사용할 수 있습니다.
+- **비교 작업** 이전 단계에서 지정한 클라이언트 버전에 대해 일치하는 작업을 지정할 수 있습니다. 다음 작업을 사용할 수 있습니다.
 
-  - **같음**
+  - **같아야 합니다.**
 
-  - **일치하지 않음**
+  - **아닌**
 
-  - **보다 최근임**
+  - **보다 새로 추가**
 
-  - **보다 최근이거나 같음**
+  - **보다 이상 또는 같아야 합니다.**
 
-  - **보다 오래됨**
+  - **이전 버전**
 
-  - **보다 오래되거나 같음**
+  - **보다 오래되거나 같아야 합니다.**
 
-- **작업** 앞 단계의 조건이 충족 되는 경우 수행할 작업을 지정할 수 있습니다. 사용할 수 있는 작업은 다음과 같습니다.
+- **작업** 이전 단계의 조건이 충족될 때 수행할 작업을 지정할 수 있습니다. 다음 작업을 사용할 수 있습니다.
 
-  - **허용** 클라이언트가 로그온 할 수 있도록 합니다.
+  - **허용** 클라이언트가 로그온할 수 있습니다.
 
-  - **허용 및 업그레이드** 클라이언트가 Windows Server Update 서비스 또는 Microsoft Update에서 로그온 하 고 업데이트를 받을 수 있도록 합니다. 이 작업은 사용자 에이전트 **OC** 를 선택한 경우에만 사용할 수 있습니다.
+  - **허용 및 업그레이드** 클라이언트가 로그온하여 Windows Server Update Service 또는 Microsoft Update에서 업데이트를 받을 수 있습니다. 이 작업은 사용자 에이전트 **OC를** 선택한 경우만 사용할 수 있습니다.
 
     > [!NOTE]
-    > 이 작업을 선택 하면 다음에 사용자가 비즈니스용 Skype에 로그인 할 때 알림이 표시 됩니다. 알림에는 Windows Server Update Service 또는 Microsoft Update에 업데이트가 아직 게시되지 않았더라도 사용할 수 있는 업데이트가 표시됩니다. 혼란을 방지하기 위해서는 업데이트를 사용할 수 있는 경우에만 이 작업을 선택해야 합니다.
+    > 이 작업을 선택하면 사용자가 다음에 비즈니스용 Skype에 로그인할 때 알림이 표시됩니다. 알림에는 Windows Server Update Service 또는 Microsoft Update에 업데이트가 아직 게시되지 않았더라도 사용할 수 있는 업데이트가 표시됩니다. 혼란을 방지하기 위해서는 업데이트를 사용할 수 있게 된 뒤에만 이 작업을 선택해야 합니다.
 
-  - **URL에 허용** 클라이언트가 로그온 하도록 허용 하 고 다른 클라이언트 버전을 다운로드할 위치에 대 한 메시지를 표시 합니다. **URL** 필드에서 URL을 지정합니다.
+  - **URL로 허용** 클라이언트가 로그온할 수 있으며 다른 클라이언트 버전을 다운로드할 위치와 관련한 메시지를 표시합니다. URL 필드에 URL을 **지정합니다.**
 
-  - **차단** 클라이언트가 로그온 할 수 없도록 합니다.
+  - **Block** 클라이언트가 로그온하지 못하게 합니다.
 
-  - **차단 및 업그레이드** 클라이언트가 로그온 할 수 없고 클라이언트가 Windows Server Update 서비스 또는 Microsoft 업데이트에서 업데이트를 받을 수 있도록 합니다. 이 작업은 사용자 에이전트 **OC** 를 선택한 경우에만 사용할 수 있습니다.
+  - **차단 및 업그레이드** 클라이언트 로그온을 방지하고 클라이언트가 Windows Server Update Service 또는 Microsoft Update에서 업데이트를 받을 수 있도록 허용합니다. 이 작업은 사용자 에이전트 **OC를** 선택한 경우만 사용할 수 있습니다.
 
-  - **URL로 차단**을 선택하면 클라이언트가 로그온할 수 없도록 차단하고 다른 클라이언트 버전을 다운로드할 위치에 대한 메시지를 표시합니다. **URL** 필드에서 URL을 지정합니다.
+  - **URL을 사용하여** 차단하면 클라이언트가 로그온할 수 있으며 다른 클라이언트 버전을 다운로드할 위치와 관련한 메시지가 표시됩니다. URL 필드에 URL을 **지정합니다.**
 
-클라이언트와 클라이언트 버전 간의 상호 운용성에 대 한 자세한 내용은 계획 설명서의 [클라이언트 상호 운용성](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) 을 참조 하세요. 클라이언트 버전 구성을 사용하는 방법에 대한 자세한 내용은 작업 설명서의 [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)을 참조하세요.
+클라이언트와 클라이언트 버전 간 상호 가능성에 대한 자세한 내용은 계획 설명서에서 클라이언트 상호 [실행을](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) 참조하십시오. 클라이언트 버전 구성을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)을 참조하십시오.
 
