@@ -1,8 +1,8 @@
 ---
 title: 에지 서버 연결 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: 이 페이지에서는 A/V 트래픽에 이 에지 풀을 사용할 프런트 엔드 풀 또는 Standard Edition Server를 선택할 수 있습니다.
-ms.openlocfilehash: aede7eed913eefb778920061554b56dd0e2ef9fb
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: eea5cf4893b3ed7000a406b2a307e123b2bbb7f8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219299"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800218"
 ---
-# <a name="add-edge-server-associations"></a><span data-ttu-id="054b2-103">에지 서버 연결 추가</span><span class="sxs-lookup"><span data-stu-id="054b2-103">Add Edge Server Associations</span></span>
+# <a name="add-edge-server-associations"></a><span data-ttu-id="b4187-103">에지 서버 연결 추가</span><span class="sxs-lookup"><span data-stu-id="b4187-103">Add Edge Server Associations</span></span>
  
-<span data-ttu-id="054b2-104">이 페이지에서는 A/V 트래픽에 이 에지 풀을 사용할 프런트 엔드 풀 또는 Standard Edition Server를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="054b2-104">Use this page to select which Front End pools and Standard Edition servers will use this Edge pool for A/V traffic.</span></span> 
+<span data-ttu-id="b4187-104">이 페이지에서는 A/V 트래픽에 이 에지 풀을 사용할 프런트 엔드 풀 또는 Standard Edition Server를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b4187-104">Use this page to select which Front End pools and Standard Edition servers will use this Edge pool for A/V traffic.</span></span> 
   
-<span data-ttu-id="054b2-p101">각 프런트 엔드 풀은 하나의 에지 풀에만 연결할 수 있습니다. 다른 에지 풀과 이미 연결된 풀을 선택하면 이전 에지 풀에서 연결이 변경됩니다.</span><span class="sxs-lookup"><span data-stu-id="054b2-p101">Each Front End pool can be associated with only one Edge pool. If you select a pool that is already associated with another Edge pool, it will change the association away from the previous Edge pool.</span></span>
+<span data-ttu-id="b4187-p101">각 프런트 엔드 풀은 하나의 에지 풀에만 연결할 수 있습니다. 다른 에지 풀과 이미 연결된 풀을 선택하면 이전 에지 풀에서 연결이 변경됩니다.</span><span class="sxs-lookup"><span data-stu-id="b4187-p101">Each Front End pool can be associated with only one Edge pool. If you select a pool that is already associated with another Edge pool, it will change the association away from the previous Edge pool.</span></span>
   
-<span data-ttu-id="054b2-107">또한이에 지 서버 또는에 지 풀을 중재 서버 또는 중재 서버 풀과 연결 하 여 외부 사용자에 대 한 Enterprise Voice를 구성 하 고 사용 하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="054b2-107">You can also choose to associate this Edge Server or Edge pool with Mediation Servers or Mediation Server pools to configure and enable Enterprise Voice for external users.</span></span>
+<span data-ttu-id="b4187-107">또한 이 에지 서버 또는 에지 풀을 중재 서버 또는 중재 서버 풀과 연결하여 외부 사용자에 대해 이 Enterprise Voice 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b4187-107">You can also choose to associate this Edge Server or Edge pool with Mediation Servers or Mediation Server pools to configure and enable Enterprise Voice for external users.</span></span>
   
 

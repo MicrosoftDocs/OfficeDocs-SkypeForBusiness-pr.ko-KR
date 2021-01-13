@@ -1,8 +1,8 @@
 ---
 title: 파일 형식 확장명 선택
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
-description: 파일 확장명 선택 대화 상자를 사용 하 여 파일 형식 확장명 아래에 있는 확장명 옆에 있는 확인란을 선택 (차단) 하거나 선택 취소 (허용) 하 여 차단 하거나 허용 하려는 파일 형식 확장명을 선택할 수 있습니다. 화살표를 클릭 하 여 범주를 확장 하 고 해당 범주에 대 한 모든 파일 형식 확장명을 봅니다. 범주에 대 한 모든 파일 형식 확장명을 선택 하려면 범주 이름을 선택 합니다.
-ms.openlocfilehash: 4b15ddf1ed4786ae279d36848398b82814f153f8
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 파일 형식 확장명 선택 대화 상자를 사용하여 파일 형식 확장명 아래의 확장명 옆에 있는 확인란을 선택(차단) 또는 선택 취소(허용)하여 차단하거나 허용할 파일 형식 확장명을 선택합니다. 화살표를 클릭하여 범주를 확장하고 해당 범주에 대한 모든 파일 형식 확장명을 표시합니다. 범주의 모든 파일 형식 확장명을 선택하려면 범주 이름을 선택합니다.
+ms.openlocfilehash: 08709a2ff2504081ccf0172d3c6d559d6e2693b8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796447"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801488"
 ---
-# <a name="select-file-type-extensions"></a><span data-ttu-id="fa3a3-105">파일 형식 확장명 선택</span><span class="sxs-lookup"><span data-stu-id="fa3a3-105">Select File Type Extensions</span></span>
+# <a name="select-file-type-extensions"></a><span data-ttu-id="b0f3f-105">파일 형식 확장명 선택</span><span class="sxs-lookup"><span data-stu-id="b0f3f-105">Select File Type Extensions</span></span>
  
-<span data-ttu-id="fa3a3-106">파일 확장명 **선택** 대화 상자를 사용 하 여 **파일 형식 확장명**아래에 있는 확장명 옆에 있는 확인란을 선택 (차단) 하거나 선택 취소 (허용) 하 여 차단 하거나 허용 하려는 파일 형식 확장명을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fa3a3-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="fa3a3-107">화살표를 클릭 하 여 범주를 확장 하 고 해당 범주에 대 한 모든 파일 형식 확장명을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="fa3a3-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="fa3a3-108">범주에 대 한 모든 파일 형식 확장명을 선택 하려면 범주 이름을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="fa3a3-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
+<span data-ttu-id="b0f3f-p102">**파일 형식 확장명 선택** 대화 상자를 사용하여 **파일 형식 확장명** 아래의 확장명 옆에 있는 확인란을 선택(차단) 또는 선택 취소(허용)하여 차단하거나 허용할 파일 형식 확장명을 선택합니다. 화살표를 클릭하여 범주를 확장하고 해당 범주에 대한 모든 파일 형식 확장명을 표시합니다. 범주의 모든 파일 형식 확장명을 선택하려면 범주 이름을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b0f3f-p102">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**. Click the arrow to expand a category and view all of the file type extensions for that category. If you want to select all of the file type extensions for a category, select the category name.</span></span> 
   
-<span data-ttu-id="fa3a3-109">**파일 형식 확장명**에 선택 하려는 파일 형식에 대 한 확장명이 표시 되지 않으면 **목록에 새 파일 확장명 추가**아래에 있는 텍스트 상자에 확장명을 입력 한 다음 **추가**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="fa3a3-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="b0f3f-109">선택할 파일 형식 확장명이 **파일 형식 확장명** 에 나열되어 있지 않은 경우 **목록에 새 파일 확장명 추가** 아래의 텍스트 상자에 확장명을 입력한 다음 **추가** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0f3f-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="fa3a3-110">**선택한 파일 형식 확장명** 목록에 원하는 확장명을 모두 추가 했으면 **확인**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="fa3a3-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
+<span data-ttu-id="b0f3f-110">**파일 형식 확장명 선택** 목록에 표시할 모든 파일 형식 확장명을 추가한 후 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0f3f-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
   
  
   

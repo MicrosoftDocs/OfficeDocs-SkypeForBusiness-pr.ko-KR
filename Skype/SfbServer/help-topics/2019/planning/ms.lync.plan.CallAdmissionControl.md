@@ -1,8 +1,8 @@
 ---
-title: 통화 허용 제어 (계획 도구)
+title: 통화 요금제(계획 도구)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
-description: CAC (호출 허용 제어)는 음성 또는 영상 통화 등의 실시간 통신 세션을 설정할 수 있는 사용 가능한 네트워크 대역폭을 기준으로 결정 됩니다.
-ms.openlocfilehash: ed1086ff22c28a5b0ccc5638b5171e344828d260
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: CAC(통화 허용 제어)는 사용 가능한 네트워크 대역폭에 따라 음성 또는 화상 통화와 같은 실시간 통신 세션을 설정하도록 허용할지 여부를 결정합니다.
+ms.openlocfilehash: 36d221b787dfa7ed3846b72b19f9dc5474c08eb2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797369"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801138"
 ---
-# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="2b1c4-103">통화 허용 제어 (계획 도구)</span><span class="sxs-lookup"><span data-stu-id="2b1c4-103">Call Admission Control (Planning Tool)</span></span>
+# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="cf15e-103">통화 요금제(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="cf15e-103">Call Admission Control (Planning Tool)</span></span>
  
-<span data-ttu-id="2b1c4-104">CAC (호출 허용 제어)는 음성 또는 영상 통화 등의 실시간 통신 세션을 설정할 수 있는 사용 가능한 네트워크 대역폭을 기준으로 결정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2b1c4-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
+<span data-ttu-id="cf15e-104">CAC(통화 허용 제어)는 사용 가능한 네트워크 대역폭에 따라 음성 또는 화상 통화와 같은 실시간 통신 세션을 설정하도록 허용할지 여부를 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15e-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
   
-<span data-ttu-id="2b1c4-105">통화 허용 제어 계획에 대 한 자세한 내용은 비즈니스용 [Skype 서버의 통화 허용 제어 계획](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2b1c4-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
+<span data-ttu-id="cf15e-105">통화 제어를 계획하는 데 대한 자세한 내용은 비즈니스용 Skype 서버의 통화 [요금제 요금제(Plan for call admission control)를 참조하세요.](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)</span><span class="sxs-lookup"><span data-stu-id="cf15e-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
   
 

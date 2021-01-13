@@ -1,8 +1,8 @@
 ---
 title: 사용자 이동
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
-description: 사용자 이동 대화 상자에서 선택한 사용자를 이동할 대상 풀을 선택할 수 있습니다.
-ms.openlocfilehash: f9705a971affbf97e8fb2a3844078db050b43390
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 사용자 이동 페이지에서 선택한 사용자를 이동할 대상 풀을 선택할 수 있습니다.
+ms.openlocfilehash: 9b7577f2c4636384cfaf6eae43dc8b7101e84a62
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822641"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803928"
 ---
-# <a name="move-user"></a><span data-ttu-id="bb845-103">사용자 이동</span><span class="sxs-lookup"><span data-stu-id="bb845-103">Move User</span></span>
+# <a name="move-user"></a><span data-ttu-id="b3fb8-103">사용자 이동</span><span class="sxs-lookup"><span data-stu-id="b3fb8-103">Move User</span></span>
 
-<span data-ttu-id="bb845-104">**사용자 이동** 대화 상자에서 선택한 사용자를 이동할 대상 풀을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb845-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
+<span data-ttu-id="b3fb8-104">사용자 **이동 페이지에서** 선택한 사용자를 이동할 대상 풀을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b3fb8-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
 
-<span data-ttu-id="bb845-105">사용자 이동에 대한 자세한 내용은 [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="bb845-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
+<span data-ttu-id="b3fb8-105">사용자를 이동하는 방법에 대한 자세한 내용은 [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="b3fb8-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
 
 

@@ -1,8 +1,8 @@
 ---
 title: 서비스 시작
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
-description: '배포 된 서버 역할에서 서비스를 시작 하려면 4 단계: 서비스 시작에서 실행을 클릭 합니다. 로컬 관리자 그룹 또는 동등한 사용자의 구성원으로 로그온 해야 합니다.'
-ms.openlocfilehash: 4d08684b121e387c6db42a614a18957392e74fa5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '배포된 서버 역할에서 서비스를 시작하려면 4단계: 서비스 시작을 클릭합니다. 로컬 Administrators 그룹의 구성원 또는 이에 상응하는 그룹으로 로그온해야 합니다.'
+ms.openlocfilehash: ed9783aa7ec23ea5d0de5e6760dac900ec493aa8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823312"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800678"
 ---
-# <a name="start-services"></a><span data-ttu-id="22ec3-104">서비스 시작</span><span class="sxs-lookup"><span data-stu-id="22ec3-104">Start Services</span></span>
+# <a name="start-services"></a><span data-ttu-id="c03c5-104">서비스 시작</span><span class="sxs-lookup"><span data-stu-id="c03c5-104">Start Services</span></span>
  
-<span data-ttu-id="22ec3-105">배포 된 서버 역할에서 서비스를 시작 하려면 **4 단계: 서비스 시작**에서 **실행** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="22ec3-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="22ec3-106">로컬 관리자 그룹 또는 동등한 사용자의 구성원으로 로그온 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22ec3-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
+<span data-ttu-id="c03c5-105">배포된 서버 역할에서 서비스를 시작하려면  **4단계: 서비스 시작을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="c03c5-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="c03c5-106">로컬 Administrators 그룹의 구성원 또는 이에 상응하는 그룹으로 로그온해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c03c5-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="22ec3-107">**서비스 시작** 을 실행 한 경우 **다시 실행**을 클릭 하 여 명령을 다시 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22ec3-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
+> <span data-ttu-id="c03c5-107">**Start Services가** 실행된 경우 다시 실행을 클릭하여 명령을 다시 **실행할 수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="c03c5-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
   
 
