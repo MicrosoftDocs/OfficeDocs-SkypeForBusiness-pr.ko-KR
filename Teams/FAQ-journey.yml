@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 35f947233e9b6cdc713b05e6bc9ebe78d404e1a4
-  ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
+  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 12/18/2020
-  ms.locfileid: "49712630"
+  ms.lasthandoff: 01/13/2021
+  ms.locfileid: "49841479"
 title: FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 summary: ''
 sections:
@@ -35,6 +35,8 @@ sections:
   - question: 고객을 비즈니스용 Skype Online에서 Teams로 이동해야 하는 확정 마감일이 있나요?
     answer: >
       예. [비즈니스용 Skype Online은](skype-for-business-online-retirement.md) 2021년 7월 31일에 서비스가 만료되며 해당 시점부로 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 비즈니스용 Skype Online 고객이 지금 Teams를 사용하고 업그레이드를 계획하기 시작하여 만료일 이전에 업그레이드를 완료할 충분한 시간을 확보할 것을 권장합니다.
+  - question: 비즈니스용 Skype Online과 동시에 Skype 모임 브로드캐스트가 사용 중지하나요?
+    answer: "예. Teams 라이브 이벤트는 Skype 모임 브로드캐스트의 후속 솔루션입니다.    \n"
   - question: 조직을 Teams로 업그레이드하는 데 시간이 얼마나 걸리나요?
     answer: >
       조직에서 비즈니스용 Skype에서 Teams로의 이동동 과정은 사용자가 정의할 수 있습니다. 계획을 수립하고 실행하는 데 도움을 주기 위해 사용자가 변경 내용의 기술적 요소와 조직적 요소를 탐색하는 데 도움이 되도록 설계된 입증된 구조를 기반으로 하는 종합 업그레이드 지침을 개발했습니다 당사의 [업그레이드 성공 구조](upgrade-framework.md) 및 비즈니스용 Skype에서 Teams로의 이동 과정을 탐색하는 데 초석의 역할을 하는 관련 리소스를 숙지하면서 시작하세요.

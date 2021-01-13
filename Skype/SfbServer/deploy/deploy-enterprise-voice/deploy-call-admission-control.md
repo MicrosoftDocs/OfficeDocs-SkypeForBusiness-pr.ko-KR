@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버에서 통화 허용 제어 배포
+title: 비즈니스용 Skype 서버에서 통화 제어 배포
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,34 +15,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
-description: CAC (통화 허용 제어)는 사용 가능한 대역폭을 기준으로 실시간 세션을 설정할 수 있는지를 결정 하는 솔루션으로, 혼잡 네트워크 사용자에 게 좋지 않은 오디오/비디오 품질을 방지 하는 데 도움이 됩니다.
-ms.openlocfilehash: 2e41d5a26e99c482041fb29e204f777a6c1a7cd7
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: CAC(통화 가능 제어)는 사용 가능한 대역폭을 기반으로 실시간 세션을 설정하여 정체된 네트워크의 사용자에 대한 오디오/비디오 품질을 저해할 수 있는지 여부를 결정하는 솔루션입니다.
+ms.openlocfilehash: af08afe02b1dc138aa38ded654d567aed6a09247
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767671"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836888"
 ---
-# <a name="deploy-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 허용 제어 배포
+# <a name="deploy-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 제어 배포
  
-CAC (통화 허용 제어)는 사용 가능한 대역폭을 기준으로 실시간 세션을 설정할 수 있는지를 결정 하는 솔루션으로, 혼잡 네트워크 사용자에 게 좋지 않은 오디오/비디오 품질을 방지 하는 데 도움이 됩니다. 자세한 내용은 비즈니스용 [Skype 서버의 통화 허용 제어 계획](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)을 참조 하세요.
+CAC(통화 가능 제어)는 사용 가능한 대역폭을 기반으로 실시간 세션을 설정하여 정체된 네트워크의 사용자에 대한 오디오/비디오 품질을 저해할 수 있는지 여부를 결정하는 솔루션입니다. 자세한 내용은 비즈니스용 [Skype 서버의 통화 요금제 요금제(요금제)를 참조하세요.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
   
-### <a name="to-deploy-call-admission-control"></a>통화 허용 제어 배포
+### <a name="to-deploy-call-admission-control"></a>통화 수당 제어를 배포합니다.
 
-1.  [예를 들어 비즈니스용 Skype 서버에서 통화 허용 제어에 대 한 요구 사항 수집](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)을 참조 하 여 엔터프라이즈 네트워크 토폴로지에 필요한 모든 정보를 수집 합니다.
+1.  예제: 비즈니스용 Skype 서버에서 통화 제어에 대한 요구 사항 수집에 설명된 엔터프라이즈 네트워크 토폴로지에 필요한 모든 [정보를 수집합니다.](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)
     
-2. 아직 수행 하지 않은 경우 네트워크 지역과 사이트를 정의 하 고 서브넷을 네트워크 사이트와 연결 해야 합니다. 자세한 내용은 [비즈니스용 Skype에서 네트워크 지역, 사이트 및 서브넷 배포](deploy-network.md)를 참조 하세요.
+2. 아직 수행하지 않은 경우 네트워크 지역 및 사이트를 정의하고 서브넷을 네트워크 사이트에 연결해야 합니다. 자세한 내용은 비즈니스용 Skype에서 네트워크 지역, 사이트 및 [서브넷 배포를 참조하세요.](deploy-network.md)
     
-3. [비즈니스용 Skype 서버에서 대역폭 정책 프로필 만들기](create-bandwidth-policy-profiles.md) 에 자세히 설명 된 대로 대역폭 정책 프로필 만들기
+3. 비즈니스용 Skype 서버에서 대역폭 정책 프로필 만들기에 자세히 설명된 대역폭 정책 프로필 [만들기](create-bandwidth-policy-profiles.md)
     
-4. [비즈니스용 Skype 서버의 네트워크 지역 링크 만들기](create-network-region-links.md)에 자세히 설명 된 대로 네트워크 지역 링크를 만듭니다.
+4. 비즈니스용 Skype 서버에서 네트워크 지역 링크 만들기에 자세히 설명된 네트워크 지역 링크를 [만드시다.](create-network-region-links.md)
     
-5. [비즈니스용 Skype 서버의 네트워크 간 경로 만들기](create-network-interregional-routes.md)에 자세히 설명 된 대로 네트워크 교차 영역 경로를 만듭니다.
+5. 비즈니스용 Skype 서버에서 네트워크 지역 간 경로 만들기에 자세히 설명된 네트워크 지역 [간 경로를 만드시다.](create-network-interregional-routes.md)
     
-6. [비즈니스용 Skype 서버의 네트워크 사이트 간 정책 만들기](create-network-intersite-policies.md)에 자세히 설명 된 대로 네트워크 사이트 간 정책을 만듭니다.
+6. 비즈니스용 Skype 서버에서 네트워크 교차 정책 만들기에 자세히 설명된 네트워크 교차 [정책을 만드시다.](create-network-intersite-policies.md)
     
-7. [비즈니스용 Skype 서버에서 통화 허용 제어 사용](enable-call-admission-control.md)에 자세히 설명 된 대로 통화 허용 제어 기능을 사용 하도록 설정 합니다.
+7. 비즈니스용 Skype 서버에서 통화 입력 제어를 사용하도록 설정하는 데 자세히 설명된 통화 입력 [제어를 사용하도록 설정하십시오.](enable-call-admission-control.md)
     
-8. 일부 최종 설정을 확인 하 여 모든 항목이 올바르게 설정 되어 있는지 확인 합니다. 자세한 내용은 [통화 허용 제어 배포: 비즈니스용 Skype 서버에 대 한 최종 검사 목록](final-checklist.md)입니다.
+8. 몇 가지 최종 설정을 확인하여 모든 설정이 올바르게 설정되어 있는지 확인합니다. 자세한 내용은 통화 제어 배포: 비즈니스용 Skype 서버의 최종 검사 [목록을 참조하세요.](final-checklist.md)
     
 

@@ -1,8 +1,8 @@
 ---
-title: PIN 정책 새로 만들기 또는 기존 편집
+title: PIN 정책 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,29 +14,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 95459ed516095b00aeb620abc65f93a4557b79b6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: abfdafb3d51a2ecbfff542e5e0476fc2730dc01c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797509"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836498"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN 정책: 새로 만들기 또는 기존 항목 편집
 
-무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
 - [비즈니스용 Skype 서버에서 새 PIN 정책 만들기](../../../manage/authentication/create-a-new-pin-policy.md)
 
 - [비즈니스용 Skype 서버에서 기존 PIN 정책 수정](../../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [비즈니스용 Skype 서버에서 핀 정책 삭제](../../../manage/authentication/delete-a-pin-policy.md)
+- [비즈니스용 Skype 서버에서 PIN 정책 삭제](../../../manage/authentication/delete-a-pin-policy.md)
 
-- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [사이트 또는 사용자 그룹에 대한 전화 접속 회의 PIN 설정 만들기 또는 수정](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [기본 전화 접속 회의 PIN 설정 수정](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [사이트 또는 사용자 그룹에 대한 전화 접속 회의 PIN 설정 삭제](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
 
 

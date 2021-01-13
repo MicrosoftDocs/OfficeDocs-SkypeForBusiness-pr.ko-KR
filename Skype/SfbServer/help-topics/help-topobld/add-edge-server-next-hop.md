@@ -1,8 +1,8 @@
 ---
 title: 에지 서버 다음 홉 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: 에지 풀에 대한 다음 홉은 프런트 엔드 풀(엔터프라이즈 풀 또는 Standard Edition 서버일 수 있음)이거나 배포에 디렉터가 포함된 경우 다음 홉은 디렉터입니다.
-ms.openlocfilehash: 9f26f0dfdc730219192ba51d6aed7e1e2c259454
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 13c4109e879530651df87988600c758f0a248fd1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216339"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835528"
 ---
 # <a name="add-edge-server-next-hop"></a>에지 서버 다음 홉 추가
 

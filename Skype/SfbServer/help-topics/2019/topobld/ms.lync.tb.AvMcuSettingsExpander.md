@@ -1,8 +1,8 @@
 ---
 title: AV MCU 설정 확장기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 이미 정의한 A/V 회의 서버 풀의 속성을 편집 하려면 다음을 수행 합니다.
-ms.openlocfilehash: ce06468396ed936ffe47fa5848f6c3128ce390b6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 이미 정의한 A/V 회의 서버 풀의 속성을 편집하려면 다음을 실행합니다.
+ms.openlocfilehash: d3e725b1905726272df515ee93a402cb488a6652
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793916"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835778"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 설정 확장기
  
-이미 정의한 A/V 회의 서버 풀의 속성을 편집 하려면 다음을 수행 합니다.
+이미 정의한 A/V 회의 서버 풀의 속성을 편집하려면 다음을 실행합니다.
   
 ## <a name="general-settings"></a>일반 설정
 
-A/V 회의 서버 풀의 FQDN (정규화 된 도메인 이름)을 업데이트 하려면 DNS (Domain Name System)에 정의 된 대로 풀의 이름을 입력 합니다. A/V 회의 서버 풀 이름에 해당 하는 DNS 호스트 (A) 레코드가 있어야 합니다.
+A/V 회의 서버 풀의 FQDN(FQDN)을 업데이트하려면 DNS(Domain Name System)에 정의된 풀 이름을 입력합니다. A/V 회의 서버 풀 이름과 일치하는 DNS 호스트(A) 레코드가 있어야 합니다.
   
 ## <a name="av-conferencing-service"></a>A/V 회의 서비스
 
-A/V 회의 서버 풀을 연결 하려면 A/V 회의 서버 풀과 연결 해야 하는 프런트 엔드 풀 또는 풀을 선택 합니다.
+A/V 회의 서버 풀을 연결하려면 A/V 회의 서버 풀과 연결해야 할 프런트 엔드 풀(하나 또는 여러 개)을 선택합니다.
   
 > [!NOTE]
-> **이 a/v 회의 풀에 연결할 프런트** 엔드 풀을 선택 하세요 창이 표시 되지 않는 경우 프런트 엔드 풀을 사용 하 여 a/v 회의 서버를 collocated 프런트 엔드 풀 속성의 **기능 및** 기능 섹션에서 회의를 추가 하지 않도록 선택 하지 않은 것입니다.
+> **이 A/V** 회의 풀과 연결될 프런트 엔드 풀 선택 창에 프런트 엔드 풀이 표시되지 않는 경우 A/V 회의 서버를 프런트 엔드 풀과 함께 함께 설치했거나 프런트 엔드 풀 속성의  기능 섹션에 회의를 추가하지 않았습니다.
   
 
-완료 되 면 **확인** 을 클릭 하 여 A/V 회의 서버 풀 설정 편집을 완료 합니다. 변경 내용을 취소하려면 **취소**를 클릭합니다.
+작업을 마쳤으면 **확인** 을 클릭하여 A/V 회의 서버 풀 설정 편집을 완료합니다. 변경 내용을 취소하려면 **취소** 를 클릭합니다.
   
 

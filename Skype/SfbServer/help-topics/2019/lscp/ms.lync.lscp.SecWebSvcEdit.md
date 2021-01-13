@@ -1,8 +1,8 @@
 ---
-title: 웹 서비스 보안 설정 새로 만들기 또는 기존 수정
+title: 웹 서비스 보안 설정 새로 만들기 또는 기존 정보 수정
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 520128af33f50ce169c6348151adf133cddb9d47
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: d2623c7110addff21f4567f346ffd90134b80438
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797489"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836388"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>웹 서비스 보안 설정: 새로 만들기 또는 기존 항목 편집
 
-무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
 - [비즈니스용 Skype 서버에서 웹 서비스 구성 설정 관리](../../../manage/authentication/web-service-configuration-settings.md)
 
