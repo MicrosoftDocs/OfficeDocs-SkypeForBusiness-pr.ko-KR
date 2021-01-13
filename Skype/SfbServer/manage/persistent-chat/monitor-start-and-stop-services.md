@@ -1,8 +1,8 @@
 ---
-title: 영구 채팅 서비스 모니터링, 시작, 중지
+title: 비즈니스용 Skype 서버 2015에서 영구 채팅 서비스 모니터링, 시작 및 중지
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
-description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서비스를 시작, 중지 및 모니터링 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 846d7376e1a3e9bd06ae74c20ee0812c8c78bbeb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서비스를 시작, 중지 및 모니터링하는 방법을 설명하는 문서입니다.'
+ms.openlocfilehash: 31285fe5f7eefaa6579f2891a4b29111324de22d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817477"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814138"
 ---
-# <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>영구 채팅 서비스 모니터링, 시작, 중지
+# <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 서비스 모니터링, 시작 및 중지
  
-**요약:** 비즈니스용 Skype 서버 2015에서 영구 채팅 서비스를 시작, 중지 및 모니터링 하는 방법에 대해 알아봅니다.
+**요약:** 비즈니스용 Skype 서버 2015에서 영구 채팅 서비스를 시작, 중지 및 모니터링하는 방법을 학습합니다.
   
-영구 채팅 서비스 및 영구 채팅 준수 서비스는 비즈니스용 Skype 서버 토폴로지에 포함 되어 있으므로 다음 cmdlet을 사용 하 여 모니터링, 중지 및 시작이 가능 합니다.
+영구 채팅 서비스 및 영구 채팅 준수 서비스는 비즈니스용 Skype 서버 토폴로지의 일부로, 다음 cmdlet을 사용하여 모니터링, 중지 및 시작할 수 있습니다.
   
 |||
 |:-----|:-----|
-|get-CsWindowsService  <br/> |Windows 서비스로 실행 되는 비즈니스용 Skype 서버 2015 구성 요소에 대 한 자세한 정보를 반환 합니다.  <br/> |
-|시작-CsWindowsService  <br/> |서비스를 시작 합니다.  <br/> |
-|CsWindowsService 중지  <br/> |서비스를 중지 합니다.  <br/> |
+|get-CsWindowsService  <br/> |Windows 서비스로 실행되는 비즈니스용 Skype 서버 2015 구성 요소에 대한 자세한 정보를 반환합니다.  <br/> |
+|start-CsWindowsService  <br/> |서비스를 시작합니다.  <br/> |
+|stop-CsWindowsService  <br/> |서비스를 중지합니다.  <br/> |
    
 > [!NOTE]
-> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만, 비즈니스용 Skype Server 2019에서는 더 이상 지원 되지 않습니다. 팀 에서도 동일한 기능을 사용할 수 있습니다. 자세한 내용은 [Microsoft 팀 업그레이드 시작](/microsoftteams/upgrade-start-here)을 참고 하세요. 영구 채팅을 사용 해야 하는 경우에는이 기능이 필요한 사용자를 팀에 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용 하는 것이 선택 되어 있습니다. 
+> 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. Teams에서 동일한 기능을 사용할 수 있습니다. 자세한 내용은 Microsoft Teams 업그레이드 시작을 [참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용하려면 이 기능이 필요한 사용자를 Teams로 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
 
-Cmdlet을 사용 하는 방법에 대 한 자세한 내용은 비즈니스용 [Skype Server 2015 관리 셸을](../management-shell.md)참조 하세요.
+cmdlet 사용 방법에 대한 자세한 내용은 [비즈니스용 Skype 서버 2015 관리 셸을 참조하세요.](../management-shell.md)
   
 

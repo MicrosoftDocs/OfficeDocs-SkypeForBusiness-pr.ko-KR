@@ -1,8 +1,8 @@
 ---
 title: Conference 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
-description: 회의 테이블은 지원 테이블입니다. 각 레코드는 하나의 회의 또는 피어 투 피어 세션을 나타냅니다.
-ms.openlocfilehash: 95e08861adaca2e76144f35037626e7b03afd962
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Conference 테이블은 지원 테이블입니다. 각 레코드는 하나의 회의 또는 피어-투-피어 세션을 나타냅니다.
+ms.openlocfilehash: 3840ad9bb4f9b0ff0aea5068c73d307d5bd0cf5e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41810306"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802788"
 ---
 # <a name="conference-table"></a>Conference 테이블
  
-회의 테이블은 지원 테이블입니다. 각 레코드는 하나의 회의 또는 피어 투 피어 세션을 나타냅니다.
+Conference 테이블은 지원 테이블입니다. 각 레코드는 하나의 회의 또는 피어-투-피어 세션을 나타냅니다.
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceKey** <br/> |int  <br/> |주요한  <br/> |이 회의 레코드를 식별 하는 고유 번호입니다.  <br/> |
-|**ConfURI** <br/> |nvarchar (450)  <br/> |독특한  <br/> |회의가 면 회의 URI이 고 피어 투 피어 세션 인 경우 DialogID입니다.  <br/> |
-|**검사** <br/> |int  <br/> |색인  <br/> |회의 URI의 체크섬입니다. 이는 내부적으로 사용 됩니다.  <br/> |
-|**NextUpdateTS** <br/> |dmtf  <br/> ||내부용 으로만 사용 됩니다.  <br/> |
+|**ConferenceKey** <br/> |int  <br/> |Primary  <br/> |이 회의 레코드를 식별하는 고유 번호입니다.  <br/> |
+|**ConfURI** <br/> |nvarchar(450)  <br/> |unique  <br/> |항목이 회의인 경우 회의 URI이고 피어 투 피어 세션인 경우에는 DialogID입니다.  <br/> |
+|**체크 um** <br/> |int  <br/> |index  <br/> |회의 URI의 체크섬입니다. 내부적으로 사용됩니다.  <br/> |
+|**NextUpdateTS** <br/> |datetime  <br/> ||내부 용도로만 사용됩니다.  <br/> |
    
 

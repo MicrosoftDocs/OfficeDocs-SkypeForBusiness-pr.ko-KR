@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버에서 서버 메모리 용량 한도 모니터링
+title: 비즈니스용 Skype 서버에서 서버 메모리 용량 제한 모니터링
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,45 +11,45 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
-description: '요약: 비즈니스용 Skype 서버에서 서버 메모리 용량 한도를 모니터링 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 4f56fec8f3ed6900f4c4f1a97286dc14b66bb7c8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 비즈니스용 Skype 서버에서 서버 메모리 용량 제한을 모니터링하는 방법을 설명하는 정보를 제공합니다.'
+ms.openlocfilehash: f1423d840fdf690332081a8083617c3a072b373c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817707"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814298"
 ---
-# <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 서버 메모리 용량 한도 모니터링
+# <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 서버 메모리 용량 제한 모니터링
  
-**요약:** 비즈니스용 Skype 서버에서 서버 메모리 용량 한도를 모니터링 하는 방법에 대해 알아봅니다.
+**요약:** 비즈니스용 Skype 서버에서 서버 메모리 용량 제한을 모니터링하는 방법에 대해 자세히 알아보습니다.
   
 > [!CAUTION]
-> 용량 계획을 지칭 하는이 항목의 정보는 Lync 2010 모바일 클라이언트 및 모바일 서비스 (Mcx)에만 해당 됩니다. Lync 2013 모바일 클라이언트에서 사용 하는 통합 커뮤니케이션 웹 API (c)에 대 한 용량 계획은 Lync Server 2013, 계획 도구에서 제공 합니다. 
+> 용량 계획을 참조하는 이 항목의 정보는 Lync 2010 Mobile 클라이언트 및 Mobility Service(Mcx)에만 해당합니다. Lync 2013 Mobile 클라이언트에서 사용하는 UCWA(Unified Communications Web API)에 대한 용량 계획은 Lync Server 2013 계획 도구에서 제공합니다. 
 
 > [!NOTE]
-> 이전 모바일 클라이언트에 대 한 MCX (Mobility Service) 지원은 더 이상 비즈니스용 Skype 서버 2019에서 사용할 수 없습니다. 현재 모든 비즈니스용 Skype 모바일 클라이언트는 이미 통합 커뮤니케이션 웹 API (인스턴트 메시징 (IM), 현재 상태, 대화 상대 지원)를 사용 합니다. MCX를 사용 하는 레거시 클라이언트가 있는 사용자는 현재 클라이언트로 업그레이드 해야 합니다.
+> 레거시 모바일 클라이언트에 대한 MCX(Mobility Service) 지원은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. 모든 현재 비즈니스용 Skype 모바일 클라이언트는 이미 UCWA(Unified Communications Web API)를 사용하여 IM(인스턴트 메시징), 현재 상태 및 연락처를 지원하고 있습니다. MCX를 사용하는 레거시 클라이언트를 사용하는 사용자는 현재 클라이언트로 업그레이드해야 합니다.
   
-두 가지 이동성 성능 카운터를 사용 하 여 현재 사용량을 확인 하 고 비즈니스용 Skype Server Mobility Service (Mcx)의 용량을 계획 하는 데 도움이 되 고, 다른 작업의 메모리 사용량을 모니터링할 수 있습니다. A 3-카운터 범주는 **웹 작업** 모바일 서비스 (Mcx)의 경우 카운터는 **웹-모바일 통신 서비스**범주 아래에 있습니다. 모니터링할 카운터는 다음과 같습니다.
+두 모바일 성능 카운터를 사용하면 현재 사용량을 파악하고 비즈니스용 Skype 서버 모바일 서비스(Mcx)의 용량을 계획하고 UCWA의 메모리 사용량을 모니터링하는 데 도움이 됩니다. UCWA의 경우 카운터 범주는 **LS:WEB - UCWA입니다.** Mcx(Mobility Service)의 경우 카운터는 **LS:WEB - Mobile Communication Service 범주에 속합니다.** 모니터링할 카운터는 다음입니다.
   
-- **활성 현재 상태 구독이 포함 된 현재 활성 상태인 세션 수**입니다 .이는 현재 현재 상태 구독이 있는 모바일 서비스 (mcx) 또는 (항상 연결 된 모바일 사용자의 수)입니다.
+- **현재 활성** 상태 구독이 있는 활성 세션 수입니다. 이는 활성 현재 상태 구독이 있는 UCWA 또는 Mcx(Mobility Service)를 통해 등록된 현재 끝점 수(항상 연결된 모바일 사용자 수)입니다.
     
-- 현재 **활성화 된 세션 수**, 즉,이 수는 인천 Wa 또는 모바일 서비스를 통해 등록 된 현재 종점입니다.
+- **현재 활성 세션** 수로, UCWA 또는 Mobility Service를 통해 등록된 현재 끝점 수입니다.
     
-활성 현재 상태 구독이 있고 **현재 활성 세션 수가** **있는 현재 활성 세션 수** 의 차이가 적은 시간에 해당 하는 경우, 대부분의 모바일 장치 사용자는 Android 또는 Nokia 모바일 장치와 같이 항상 연결 된 장치를 사용 하는 것을 의미 합니다 (mcx에만 해당). 연결 된 장치에는 항상 Lync 2013 모바일 클라이언트를 실행 하는 Apple 및 Android 장치가 포함 되어 있습니다. 현재 활성 상태인 **세션 수가** **활성 현재 상태 구독을 사용 하는 현재 활성 세션**수보다 훨씬 높은 경우이는 더 많은 사용자가 Mcx에서 Apple IOS 장치 또는 Windows Phone과 같은 백그라운드 끝점 장치를 사용 하 고 있음을 나타냅니다. (Windows Phone은이를 등록 하는 유일한 Lync 2013 모바일 클라이언트입니다.)
+시간이 지날  때 현재 활성 세션 수와  현재 활성 세션 수의 차이가 작은 경우 이는 대부분의 모바일 장치 사용자에게 Android 또는 Nokia 모바일 장치와 같은 항상 연결된 장치가 있는 것입니다(Mcx에만 해당). UCWA 항상 연결된 장치에는 Lync 2013 Mobile 클라이언트를 실행하는 Apple 및 Android 장치가 포함됩니다. 현재 **활성 세션** 수가 현재 **활성** 상태 구독이 있는 활성 세션 수보다 훨씬 높은 경우 Mcx에서 Apple iOS 장치 또는 Windows Phone과 같은 백그라운드 끝점 장치를 사용하는 사용자가 더 많음을 나타냅니다. (Windows Phone은 이 클라이언트로 등록하는 유일한 Lync 2013 Mobile 클라이언트입니다.)
   
-현재 활성 **상태인 세션 수** 에 대 한 제한을 설정 하 고 예상 사용량, 용량 계획 결과, 이동성 서비스 및 기타 프런트 엔드 서버 카운터에 대 한 지속적인 모니터링을 기준으로 현재 활성 세션 **수** 성능 카운터를 지정 해야 합니다. 용량을 초과한 경우 서버 용량을 평가 하 고 경고를 발생 시킬 수 있는 제한을 설정 해야 합니다.
+**예상되는** 사용 현황, 용량 계획 결과 및 Mobility  Service 및 기타 프런트 엔드 서버 카운터의 지속적인 모니터링에 따라 활성 현재 상태 구독 및 현재 활성 세션 수 성능 카운터를 통해 현재 활성 세션 수에 대한 제한을 설정해야 합니다. 설정한 제한을 통해 서버 용량을 평가하고 용량이 초과된 경우 경고를 발생하도록 할 수 있습니다.
   
-적절 한 제한을 결정 하려면 먼저 모바일 서비스에 대 한 프런트 엔드 서버에서 사용할 수 있는 메모리 크기를 결정 해야 합니다. 카운터를 모니터링 하 여 다음 수식에 따라 추가 용량을 계획 해야 하는 시기를 결정 합니다.
+적절한 제한을 결정하려면 먼저 Mobility Service용 프런트 엔드 서버에서 사용할 수 있는 메모리의 수를 결정해야 합니다. 카운터를 모니터링하여 다음 수식에 따라 추가 용량을 계획해야 하는 경우를 파악합니다.
   
-Mcx Mobility Service (MB) = 164 + (400 + 134)/1024 * 현재 활성 **상태인 세션 수에 활성 현재 상태 구독이** + 400/1024 * ( **현재** - 활성 상태인 세션이 현재 활성 상태인 세션 수 인 활성 상태의**구독이**있음)이 사용 된 총 메모리
+Mcx Mobility Service(MB) = 164 + (400 + 134) / 1024 * **현재 활성** 상태 구독이 있는 활성 세션 수 + 400 /1024 * **(현재** 활성 세션 수 현재 활성 세션 수(현재 활성 상태 구독의 활성 세션  -  수)
   
 > [!IMPORTANT]
-> Microsoft Lync Server 2010 용량 계산기는 계획자를 사용 하 여 CPU, 메모리, 하드 드라이브 등 비즈니스용 Skype 서버에 대 한 요구 사항을 결정할 수 있는 모든 수식으로 미리 채워져 있는 스프레드시트입니다. [스프레드시트 및 관련 문서를 다운로드할](https://go.microsoft.com/fwlink/p/?LinkID=212657)수 있습니다. 
+> Microsoft Lync Server 2010 용량 계산기는 플래너가 CPU, 메모리 및 하드 드라이브를 포함하여 비즈니스용 Skype 서버의 요구 사항을 결정할 수 있도록 하는 모든 수식이 미리 채운 스프레드시트입니다. 스프레드시트와 관련 [문서를 다운로드할 수 있습니다.](https://go.microsoft.com/fwlink/p/?LinkID=212657) 
   
-프런트 엔드 서버는 장애 조치 상황에서 모바일 서비스를 지원 하기에 충분 한 사용 가능한 메모리가 필요 합니다. 모바일 서비스에서 사용 하는 것으로 예상 되는 메모리 양을 계획 하거나 **** 앞에서 설명한 공식을 사용 하 여 프런트 엔드 서버에서 현재 사용 가능한 메모리를 모니터링할 수 있습니다.
+프런트 엔드 서버에는 장애 조치(failover) 상황에서 Mobility Service를 지원하기에 충분한 사용 가능한 메모리가 필요합니다. **Memory\Available Mbytes** 카운터를 사용하여 프런트 엔드 서버에서 현재 사용 가능한 메모리를 모니터링하거나 앞에서 설명한 수식을 사용하여 Mobility Service에서 사용할 것으로 예상되는 메모리 양을 계획할 수 있습니다.
   
-프런트 엔드 서버에서 사용할 수 있는 메모리 양이 1500 MB 미만이 면 예상 이동성 사용자 수를 계획 하는 경우 모바일 서비스를 지원 하기 위해 더 많은 하드웨어를 추가 해야 합니다. 자세한 내용은 운영 설명서의 [비즈니스용 Skype 서버에서 성능에 대 한 이동성 모니터링](monitor-mobility-performance.md) 을 참조 하세요.
+예상 모바일 사용자 수를 계획할 때 프런트 엔드 서버에서 사용할 수 있는 메모리 양이 1,500MB보다 낮을 경우 Mobility Service를 지원하기 위해 하드웨어를 더 추가해야 합니다. 자세한 내용은 작업 설명서에서 비즈니스용 [Skype 서버의](monitor-mobility-performance.md) 성능에 대한 모바일 모니터링을 참조하십시오.
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 성능에 대 한 이동성 모니터링](monitor-mobility-performance.md)
+[비즈니스용 Skype 서버의 모바일 성능 모니터링](monitor-mobility-performance.md)

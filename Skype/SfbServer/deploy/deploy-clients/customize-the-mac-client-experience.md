@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype에서 Mac 클라이언트 환경 사용자 지정
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
@@ -11,57 +11,57 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: 이 문서에서는 Mac 클라이언트의 비즈니스용 Skype에서 사용할 수 있는 클라이언트 기본 설정 및 기본값과 앱 외부에서이를 편집 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 796ccdc7d876547e38482a853dc9f89c38bcf53d
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 이 문서에서는 Mac의 비즈니스용 Skype 클라이언트에 사용할 수 있는 클라이언트 기본 설정 및 기본값과 앱 외부에서 이를 편집하는 방법을 설명합니다.
+ms.openlocfilehash: cdbd1c109fffddf6d922657285f60d9b4f06924a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768831"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805758"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>비즈니스용 Skype에서 Mac 클라이언트 환경 사용자 지정
  
-이 문서에서는 Mac 클라이언트의 비즈니스용 Skype에서 사용할 수 있는 클라이언트 기본 설정 및 기본값과 앱 외부에서이를 편집 하는 방법에 대해 설명 합니다.
+이 문서에서는 Mac의 비즈니스용 Skype 클라이언트에 사용할 수 있는 클라이언트 기본 설정 및 기본값과 앱 외부에서 이를 편집하는 방법을 설명합니다.
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac 용 비즈니스용 Skype 클라이언트 기본 설정
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac의 비즈니스용 Skype 클라이언트 기본 설정
 
-Mac 클라이언트의 비즈니스용 Skype에서 사용할 수 있는 특정 기능 및 동작은 클라이언트의 기본 설정에 따라 결정 됩니다. Mac의 비즈니스용 Skype 기본 설정은 다음 경로에 있는 비즈니스용 Skype 클라이언트를 설치한 Mac에 있는 파일에 있습니다. 
+Mac용 비즈니스용 Skype 클라이언트에서 사용할 수 있는 특정 기능 및 동작은 클라이언트의 기본 설정에 따라 결정됩니다. Mac의 비즈니스용 Skype 기본 설정은 다음 경로에 있는 비즈니스용 Skype 클라이언트를 설치한 Mac에 있는 파일에서 찾을 수 있습니다. 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-이러한 기본 설정을 지정 하려면, 필요한 경우 클라이언트의 Mac에서 터미널 프롬프트로 이동 하 고, 다음 표에 설명 된 기본 설정 키를 사용 하 여 입력 키 명령을 입력 합니다.
+이러한 기본 설정을 설정하려면 클라이언트의 Mac에서 터미널 프롬프트로 이동하고 필요한 경우 다음 표에 설명된 기본 설정 키를 사용하여 기본값 쓰기 com.microsoft.SkypeForBusiness 키 명령을 입력합니다.
   
 **클라이언트 기본 설정 키**
 
 
 | 키 | 유형 | 값 | 설명 |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |부울    |0 = 수동 서버 구성  <br/> 1 = 자동 서버 검색 (기본값)    |비즈니스용 Skype에서 로그인 중에 사용할 전송 및 서버를 식별 하는 방법을 지정 합니다. 이 정책 설정을 사용 하도록 설정 하는 경우 **internalautodiscoveryurl** 및 **externalautodiscoveryurl**을 지정 해야 합니다.   |
-|internalAutoDiscoveryURL    |문자열    |전체 자동 검색 URL    |내부 자동 검색 URL    |
-|externalAutoDiscoveryURL    |문자열    |전체 자동 검색 URL    |외부 자동 검색 URL    |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = 수동 서버 구성  <br/> 1 = 자동 서버 검색(기본값)    |비즈니스용 Skype에서 로그인 중에 전송 및 서버를 식별하는 방법을 지정합니다. 이 정책 설정을 사용하면 **internalAutoDiscoveryURL** 및 **externalAutoDiscoveryURL을 지정해야 합니다.**   |
+|internalAutoDiscoveryURL    |문자열    |전체 자동iscover URL    |내부 자동iscover URL    |
+|externalAutoDiscoveryURL    |문자열    |전체 자동iscover URL    |외부 자동iscover URL    |
 |httpProxyDomain    |문자열    ||HTTP 프록시 도메인    |
 |httpProxyUserName    |문자열    ||HTTP 프록시 사용자 이름    |
 |httpProxyPassword    |문자열    ||HTTP 프록시 암호    |
-|(도메인) 주소록    |배열의    ||HTTP 리디렉션에 대 한 신뢰할 수 있는 도메인 목록입니다.    |
-|autoAcceptTimeout    |숫자로    |300 (기본값)    |서버 쪽 대화 기록이 없는 사용자에 대 한 자동 수락 시간 제한을 허용 합니다.    |
-|warnWhenUnknownLocationForE911    |부울    |0 = 사용 안 함  <br/> 1 = 사용    |알 수 없는 위치에서 비상 번호로 전화를 걸 때 사용자에 게 경고를 표시 합니다.    |
-|sipAddress    |문자열    ||비즈니스용 Skype에 로그인 하는 데 사용 되는 SIP 주소 (전자 메일)입니다.    |
-|사용자    |문자열    ||비즈니스용 Skype에 로그인 하는 데 사용 되는 UPN (사용자 이름)입니다.    |
-|userNameInAdvancedOnly    |부울    |0 = 기본 로그인 화면 및 고급 속성 대화 상자에서 사용자 이름 필드 표시  <br/> 1 = 고급 속성 대화 상자에만 사용자 이름 필드 표시 (기본값)    |로그인 중에 사용자 이름 필드가 표시 되는 위치를 지정 합니다.    |
+|trustedDomainList    |배열    ||HTTP 리디렉션을 위한 신뢰할 수 있는 도메인 목록입니다.    |
+|autoAcceptTimeout    |숫자    |300(기본값)    |서버 쪽 대화 기록이 없는 사용자의 자동 수락 시간 제한입니다.    |
+|warnWhenUnknownLocationForE911    |Bool    |0 = 사용 안  <br/> 1 = 사용    |알 수 없는 위치에서 긴급 번호로 전화를 걸 때 사용자에게 경고합니다.    |
+|sipAddress    |문자열    ||비즈니스용 Skype에 로그인하는 데 사용되는 SIP 주소(전자 메일)입니다.    |
+|userName    |문자열    ||비즈니스용 Skype에 로그인하는 데 사용되는 UPN(UserName)입니다.    |
+|userNameInAdvancedOnly    |Bool    |0 = 기본 로그인 화면 및 고급 속성 대화 상자에 사용자 이름 필드 표시  <br/> 1 = 고급 속성 대화 상자에만 사용자 이름 필드 표시(기본값)    |로그인하는 동안 사용자 이름 필드가 표시되는 위치를 지정합니다.    |
    
 ### <a name="usage-examples"></a>사용 예제
 
-신뢰할 수 있는 도메인 목록에 단일 도메인 (Contoso.com)을 추가 하려면 다음과 같이 트러스트 된 Domainlist 키를 사용 합니다.
+신뢰할 수 있는 도메인 목록에 단일 도메인(Contoso.com)을 추가하려면 다음과 같이 trustedDomainList 키를 사용하게 됩니다.
   
-기본값은 com을 작성 합니다. 입력 Contoso.com Domainlist-array-""를 추가 합니다.
+defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   
-신뢰할 수 있는 도메인 목록에 여러 도메인을 추가 하려면 다음과 같이 트러스트 된 Domainlist 키를 사용 합니다.
+신뢰할 수 있는 도메인 목록에 여러 도메인을 추가하려면 다음과 같이 trustedDomainList 키를 사용하게 됩니다.
   
-기본값으로 com을 작성 합니다. 입력 sfb.com "" "" abc.com "" test.org "를 추가 합니다.
+defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
-### <a name="sample-unedited-settings"></a>샘플 편집 안 한 설정
+### <a name="sample-unedited-settings"></a>샘플의 기본 설정
 
-참조용으로 기본 설정만 사용 하는 샘플 설정 파일은 다음과 같습니다. 
+참조를 위해 다음은 기본 설정만 사용하는 샘플 설정 파일입니다. 
   
 ```console
 {

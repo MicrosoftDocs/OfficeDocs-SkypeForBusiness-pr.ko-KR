@@ -1,27 +1,28 @@
 ---
-title: 이동성 (계획 도구)
+title: 모바일(계획 도구)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.Mobility
+- ms.lync.plan.Mobility
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
-description: 비즈니스용 Skype 서버 2015의 이동성 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원 합니다.
-ms.openlocfilehash: 4bc873f881694323c5f158b6de37beba9a5990b7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 비즈니스용 Skype 서버 2015의 모바일 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원합니다.
+ms.openlocfilehash: 8b1459b88b8163a0c8c2b2a56f8052e5d95527fc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816347"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802958"
 ---
-# <a name="mobility-planning-tool"></a>이동성 (계획 도구)
+# <a name="mobility-planning-tool"></a>모바일(계획 도구)
  
-비즈니스용 Skype 서버 2015의 이동성 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원 합니다.
+비즈니스용 Skype 서버 2015의 모바일 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원합니다.
   
-이동성 기능은 Lync Server 2013와 동일 합니다. 이동성을 위한 환경을 준비 하는 방법에 대 한 자세한 내용은 비즈니스용 [Skype 서버에 대 한 이동성 계획](../../plan-your-deployment/mobility.md)을 참조 하세요.
+모바일 기능은 Lync Server 2013과 동일합니다. 모바일을 위한 환경 준비에 대한 자세한 내용은 비즈니스용 Skype 서버 모바일 [계획(Plan for Mobility for Business Server)을 참조하세요.](../../plan-your-deployment/mobility.md)

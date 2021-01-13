@@ -1,8 +1,8 @@
 ---
 title: 영구 채팅 데이터베이스 스키마
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,34 +12,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: 이 문서는 비즈니스용 Skype 서버의 영구 채팅 데이터베이스 스키마를 설명 합니다.
-ms.openlocfilehash: b042f4490648760f4750e45fa1e35e032a8bf8b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 이 문서에서는 비즈니스용 Skype 서버의 영구 채팅 데이터베이스의 스마마를 문서화합니다.
+ms.openlocfilehash: ba50f4391ce35d8a938318e96e1483bbfe0e3dfa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814746"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809878"
 ---
 # <a name="persistent-chat-database-schema"></a>영구 채팅 데이터베이스 스키마
  
-이 문서는 비즈니스용 Skype 서버의 영구 채팅 데이터베이스 스키마를 설명 합니다.
+이 문서에서는 비즈니스용 Skype 서버의 영구 채팅 데이터베이스의 스마마를 문서화합니다.
   
-영구 채팅 데이터베이스는 비즈니스용 Skype Server 백 엔드 서버 역할 **PersistentChatStore** (mgc 데이터베이스에 해당) 및 **PersistentChatComplianceStore** (mgccomp 데이터베이스에 해당)에 해당 하는 데이터베이스를 참조 합니다. 이 스키마를 게시 하는 목적은 쿼리를 작성 하 고 채팅 사용, 활성 회의실, 인기 포스터 등의 유용한 보고를 작성 하는 데 필요한 정보를 얻을 수 있도록 하는 것입니다.
+영구 채팅 데이터베이스는 비즈니스용 Skype 서버 백 엔드 서버 역할 **PersistentChatStore(mgc** 데이터베이스에 해당) 및 **PersistentChatComplianceStore(mgccomp** 데이터베이스에 해당)에 해당하는 데이터베이스를 참조합니다. 이 스키마를 게시하는 목적은 사용자가 쿼리를 작성하고 채팅 사용, 활성 방, 최상위 게시자 등에 대한 유용한 보고서를 작성할 수 있는 몇 가지 통찰력을 얻을 수 있도록 지원하기 위한 것입니다.
   
 > [!IMPORTANT]
-> 이 스키마를 발전시키는 권한을 예약 합니다. Microsoft는이 게시 된 스키마와의 완전 한 이전 호환성을 유지 하기 위해 어떠한 보증도 하지 않습니다. 
+> Microsoft는 이 스키마를 개선시킬 수 있는 권한을 보유하며, 이 게시된 스키마의 이전 버전과의 호환성을 유지 관리하는 데 대해 어떠한 보장도 하지 않습니다. 
   
-다음 모범 사례를 따르세요.
+다음과 같은 모범 사례를 따르십시오.
   
-- SELECT\* //는 열 목록이 커질 수 있으므로 지원 되지 않습니다.
+- 열 목록이 커질 수 있기 때문에 SELECT \* //는 지원되지 않습니다.
     
-- 사용자가 생성 한 스키마 수정은 지원 되지 않습니다.
+- 사용자가 생성한 스키마 수정은 지원되지 않습니다.
     
-- 쓰기 작업은 지원 되지 않습니다.
+- 쓰기 작업은 지원되지 않습니다.
     
-- Representatively 크기의 데이터베이스에서 작성 하는 모든 쿼리를 테스트 하 여 쿼리가 필요에 맞게 수준에서 수행 될 수 있는지 확인 합니다.
+- 쿼리가 사용자의 요구 사항을 충족할 수 있는 수준으로 수행될 수 있는지 확인하기 위해 대표적인 크기의 데이터베이스에서 작성하는 모든 쿼리를 테스트합니다.
     
-## <a name="in-this-section"></a>이 섹션의
+## <a name="in-this-section"></a>이 섹션의 내용
 
 - [영구적 채팅 서버 테이블 목록](list-of-persistent-chat-server-tables.md)
     

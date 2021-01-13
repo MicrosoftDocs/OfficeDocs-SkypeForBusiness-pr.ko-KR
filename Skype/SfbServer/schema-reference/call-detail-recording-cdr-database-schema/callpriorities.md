@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버 2015의 CallPriorities 순위 표
+title: 비즈니스용 Skype 서버의 CallPriorities 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
-description: CallPriorities 순위 테이블은 "비상 ', ' 긴급 ' 또는 ' normal ' 등의 가능한 통화 우선 순위 목록을 저장 하는 정적 테이블입니다.
-ms.openlocfilehash: 57ab4c2b190b14d26a7f8be1791eb70473f1eb3c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: CallPriorities 테이블은 'emergency', 'urgent' 또는 'normal'처럼 가능한 통화 우선 순위 목록을 저장하는 정적 테이블입니다.
+ms.openlocfilehash: 54fdd70dcd939cfeb227862d6152577c4c91d3b3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815446"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813438"
 ---
-# <a name="callpriorities-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 CallPriorities 순위 표
+# <a name="callpriorities-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 CallPriorities 테이블
  
-CallPriorities 순위 테이블은 "비상 ', ' 긴급 ' 또는 ' normal ' 등의 가능한 통화 우선 순위 목록을 저장 하는 정적 테이블입니다.
+CallPriorities 테이블은 'emergency', 'urgent' 또는 'normal'처럼 가능한 통화 우선 순위 목록을 저장하는 정적 테이블입니다.
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**PriorityId** <br/> |tinyint  <br/> |주요한  <br/> ||
-|**중요도** <br/> |nvarchar (256)  <br/> || 허용 되는 값: <br/>  0-알 수 없음 <br/>  1-비 긴급 <br/>  2-보통 <br/>  3-긴급 <br/>  4-긴급 <br/> |
+|**PriorityId** <br/> |tinyint  <br/> |Primary  <br/> ||
+|**우선 순위** <br/> |nvarchar(256)  <br/> || 허용되는 값 <br/>  0 - 알 수 없음 <br/>  1 - 긴급이 아닌 경우 <br/>  2 - 보통 <br/>  3 - 긴급 <br/>  4 - 응급 <br/> |
    
 

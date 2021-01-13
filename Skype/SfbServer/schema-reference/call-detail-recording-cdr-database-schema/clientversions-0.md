@@ -1,8 +1,8 @@
 ---
 title: ClientVersions 보기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,26 +12,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
-description: ClientVersions view는 다양 한 클라이언트 유형 및 데이터베이스에 기록 된 세션에 참가 한 버전에 대 한 정보를 저장 합니다. 뷰의 각 레코드는 하나의 클라이언트 버전을 나타냅니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: d37e2a1599eaf8906d11fdb8faf545aa3447f00f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ClientVersions 보기에는 데이터베이스에 기록되는 세션에 참여한 다양한 클라이언트 유형 및 버전 정보가 저장되어 있습니다. 보기의 각 레코드는 하나의 클라이언트 버전을 나타냅니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
+ms.openlocfilehash: b38e00c0a860b94b72c7d0dc396ff44357c2741f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815416"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813358"
 ---
 # <a name="clientversions-view"></a>ClientVersions 보기
  
-ClientVersions view는 다양 한 클라이언트 유형 및 데이터베이스에 기록 된 세션에 참가 한 버전에 대 한 정보를 저장 합니다. 뷰의 각 레코드는 하나의 클라이언트 버전을 나타냅니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
+ClientVersions 보기에는 데이터베이스에 기록되는 세션에 참여한 다양한 클라이언트 유형 및 버전 정보가 저장되어 있습니다. 보기의 각 레코드는 하나의 클라이언트 버전을 나타냅니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
   
 > [!NOTE]
 > 특정 열에 여러 레코드가 있을 수 있습니다. 
   
-|**열**|**데이터 형식**|**세부적인**|
+|**열**|**데이터 형식**|**세부 정보**|
 |:-----|:-----|:-----|
-|**#** <br/> |int  <br/> |이 클라이언트 유형 및 버전을 식별 하는 고유 번호입니다.  <br/> |
-|**버전** <br/> |nvarchar (256)  <br/> |사용자 에이전트를 나타냅니다.  <br/> |
-|**ClientType** <br/> |int  <br/> |클라이언트의 유형입니다.  <br/> |
-|**ClientCategory** <br/> |nvarchar (64)  <br/> |클라이언트가 속한 범주 예를 들어 클라이언트 Conferencing_Attendant_1 .0는 ClientCategory CA에 속합니다.  <br/> |
+|**VersionId** <br/> |int  <br/> |이 클라이언트 유형 및 버전을 식별하는 고유 번호입니다.  <br/> |
+|**버전** <br/> |nvarchar(256)  <br/> |사용자 에이전트를 나타냅니다.  <br/> |
+|**ClientType** <br/> |int  <br/> |클라이언트 유형입니다  <br/> |
+|**ClientCategory** <br/> |nvarchar(64)  <br/> |클라이언트가 속한 범주입니다. 예를 들어 Conferencing_Attendant_1.0 클라이언트는 ClientCategory CAA에 속합니다.  <br/> |
    
 

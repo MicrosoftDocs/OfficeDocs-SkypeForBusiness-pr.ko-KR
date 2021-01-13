@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버에서 여러 응급 번호 계획
+title: 비즈니스용 Skype 서버에서 여러 긴급 번호 계획
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,98 +15,98 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: 비즈니스용 Skype 서버에서 여러 응급 번호를 계획 하는 방법을 알아보려면이 항목을 읽어 보십시오.
-ms.openlocfilehash: 10b6d02391fbf1ac7af1ae5233261c36fd2fd6ab
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 이 항목을 읽고 비즈니스용 Skype 서버에서 여러 긴급 번호를 계획하는 방법을 배워야 합니다.
+ms.openlocfilehash: eb5fbc55bc7f2e783fbfa98c7bc7fb6db67ff748
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983023"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813868"
 ---
-# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 여러 응급 번호 계획
+# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 여러 긴급 번호 계획
  
-비즈니스용 Skype 서버에서 여러 응급 번호를 계획 하는 방법을 알아보려면이 항목을 읽어 보십시오.
+이 항목을 읽고 비즈니스용 Skype 서버에서 여러 긴급 번호를 계획하는 방법을 배워야 합니다.
   
-비즈니스용 Skype 서버는 이제 클라이언트에 대해 여러 응급 번호 구성을 지원 합니다. 여러 응급 번호는 6 월 2016 누적 업데이트에 도입 된 새로운 기능입니다. 미국의 비상 번호가 하나인 911 경우에는 많은 나라에서 여러 응급 번호를 지원 합니다. 예를 들어 영국은 영국에 해당 하는 999, 112, 유럽 연합의 비상 번호를 모두 지원 합니다. 
+비즈니스용 Skype 서버는 이제 클라이언트에 대해 여러 긴급 번호 구성을 지원합니다. 여러 긴급 번호는 2016년 6월 누적 업데이트에 도입된 새로운 기능입니다. 미국은 하나의 긴급 번호인 911을 보유하고 있는 동안 많은 국가가 여러 긴급 번호를 지원합니다. 예를 들어 영국은 영국의 긴급 번호인 999와 유럽 연합의 긴급 번호 112를 둘 다 지원합니다. 
   
-이 기능은 미국 내의 의료 보험 공급자에 게 여러 코드 파란색 비상 전화에 대 한 로밍 지원을 원하는 경우에도 유용 합니다.
+이 기능은 여러 코드 파란색 긴급 번호에 대한 로밍 지원을 원하는 미국 내 의료 서비스 공급자에게도 유용합니다.
   
-## <a name="multiple-emergency-numbers-and-location-policies"></a>여러 응급 번호 및 위치 정책
+## <a name="multiple-emergency-numbers-and-location-policies"></a>여러 긴급 번호 및 위치 정책
 
-응급 통화를 구현 하는 방법을 정의 하는 위치 정책을 만들어 응급 통화를 구성 합니다. 위치 정책을 사용 하 여 미국에서 911와 같이 긴급 통화를 구성 하는 번호를 정의 합니다. 영국에 999 및 112가 있습니다. 위치 정책은 사용자가 응급 통화를 사용할 수 있는지 여부를 결정 하 고, 그렇다면 비상 전화의 동작을 확인 합니다. 또한 회사 보안에서 자동으로 알릴지 여부와 통화를 라우팅하는 방법을 정의할 수 있습니다.
+긴급 통화를 구현하는 방법을 정의하는 위치 정책을 만들어 긴급 통화를 구성합니다. 위치 정책을 사용하여 긴급 통화를 구성하는 번호(예: 미국의 911)를 정의합니다. 영국의 999 및 112 위치 정책은 사용자가 긴급 통화를 사용할 수 있는지 여부와 긴급 통화의 동작이 어떤 것인지를 확인합니다. 회사 보안에 자동으로 알림을 할지 여부와 통화를 라우팅할 방법을 정의할 수도 있습니다.
   
-위치 정책을 정의 하 고 수정 하는 방법에 대 한 자세한 내용은 비즈니스용 skype [서버의 계획 위치 정책](location-policies.md) 및 [Create Location Policy for business server](../../deploy/deploy-enterprise-voice/create-location-policies.md)을 참조 하십시오. 다음 항목에서는 위치 정책에 대 한 개념에 대해 설명 합니다. 그러나 [비즈니스용 Skype에서 여러 응급 번호 구성](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 의 지침에 따라 여러 응급 전화 번호를 구성 해야 합니다.
+위치 정책을 정의 및 수정하는 데 대한 자세한 내용은 비즈니스용 [Skype 서버의](location-policies.md) 위치 정책 계획 및 비즈니스용 Skype 서버에서 위치 정책 [만들기를 참조하세요.](../../deploy/deploy-enterprise-voice/create-location-policies.md) 이러한 항목에서는 위치 정책에 대한 개념을 설명합니다. 그러나 여러 긴급 번호를 구성하려면 비즈니스용 [Skype에서](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 여러 긴급 번호를 구성하는 지침에 따라야 합니다.
   
-여러 응급 번호를 계획할 때는 다음 사항을 염두에 두어야 합니다.
+여러 긴급 번호를 계획할 때 다음에 유의하십시오.
   
-- 6 월 2016 누적 업데이트를 사용 하 여 지정 된 위치 정책에 대해 최대 5 개의 비상 번호를 정의할 수 있습니다. 11 월 2016 누적 업데이트를 사용 하는 경우이 번호는 100로 증가 합니다.
+- 2016년 6월 누적 업데이트를 사용하면 특정 위치 정책에 대해 최대 5개 긴급 번호를 정의할 수 있습니다. 2016년 11월 누적 업데이트를 적용하면 이 수치가 100으로 늘어납니다.
     
     > [!NOTE]
-    > 11 월 2016 누적 업데이트를 아직 업그레이드 하지 않은 경우 [비즈니스용 Skype 서버 2015 업데이트](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)를 참조 하세요. 
+    > 아직 2016년 11월 누적 업데이트로 업그레이드하지 않은 경우 비즈니스용 [Skype 서버 2015에](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)대한 업데이트를 참조하세요. 
   
-- 각 비상 전화 번호에 대해 지정 된 위치 정책에 고유한 비상 다이얼 마스크를 0 개 이상 지정할 수 있습니다.
+- 각 긴급 번호에 대해 0개 이상의 긴급 다이얼 마스크를 지정할 수 있습니다. 이는 해당 위치 정책에 고유한 것입니다.
     
-    다이얼 마스크는 전화를 걸 때 비상 전화 걸기 번호 값의 값으로 변환 하려는 숫자입니다. 예를 들어이 필드에 212 값을 입력 하 고 응급 전화 걸기 번호 필드에 911 값이 있는 경우를 가정해 보겠습니다. 사용자가 212에 전화를 걸면 번호가 911로 변환 됩니다. 이를 통해 대체 응급 번호에 전화를 걸 수 있으며, 다른 비상 번호로 전화를 걸 수 있는 국가 또는 지역 사용자가 해당 국가나 지역 번호를 사용 하 여 통화를 시도 하는 경우 (예: 현재 거주 하는 국가 또는 지역입니다. 예를 들어 응급 번호가 다른 국가의 사용자가 외국에서 그 나라의 번호 대신 자신의 국가에서 사용되는 번호로 전화를 거는 경우에 유용합니다. 예: 212; 414 다이얼 마스크의 문자열 제한은 100 자입니다. 각 문자는 0부터 9까지의 숫자여야 합니다.
+    다이얼 마스크는 전화를 걸 때 긴급 전화 번호 값의 값으로 변환하려는 번호입니다. 예를 들어 이 필드에 값 212를 입력하고 긴급 전화 번호 필드의 값이 911인 경우를 가정해 보겠습니다. 사용자가 212로 전화를 걸면 번호가 911로 변환됩니다. 이렇게 하면 대체 긴급 번호로 전화를 걸 수 있으며 통화가 긴급 서비스에 연결될 수 있습니다(예: 다른 긴급 번호가 있는 국가나 지역의 누군가가 현재 있는 국가나 지역의 번호가 아닌 해당 국가나 지역의 번호로 전화를 걸려 하는 경우). 예를 들어 응급 번호가 다른 국가의 사용자가 외국에서 그 나라의 번호 대신 자신의 국가에서 사용되는 번호로 전화를 거는 경우에 유용합니다. 예를 들어 212;414입니다. 다이얼 마스크의 문자열 제한은 100자입니다. 각 문자는 0부터 9까지의 숫자여야 합니다.
     
-- 각 위치 정책에는이 정책을 사용 하 여 클라이언트 로부터 긴급 통화를 라우팅하는 데 사용 되는 음성 경로를 결정 하는 데 사용 되는 단일 PSTN (공중 전화망) 사용이 있습니다. 사용에는 비상 번호로 고유한 경로를 사용할 수 있습니다.
+- 각 위치 정책에는 이 정책을 사용하여 클라이언트의 긴급 통화를 라우팅하는 데 사용되는 음성 경로를 결정하는 데 사용되는 단일 PSTN(공용 전화망) 사용이 있습니다. 사용 현황은 긴급 번호당 고유한 경로를 사용할 수 있습니다.
     
-- 위치 정책에 EmergencyNumbers 및 DialString 매개 변수가 모두 정의 되어 있고 클라이언트가 여러 응급 번호를 지 원하는 경우 응급 번호가 우선 합니다. 클라이언트에서 여러 응급 수치를 지원 하지 않는 경우 비상 다이얼 문자열이 사용 됩니다.
+- 위치 정책에 EmergencyNumbers 및 DialString 매개 변수가 모두 정의되어 있으며 클라이언트가 여러 긴급 번호를 지원하는 경우 긴급 번호가 우선합니다. 클라이언트가 여러 긴급 번호를 지원하지 않는 경우 긴급 전화 문자열이 사용됩니다.
     
-- 비즈니스용 Skype 및 Lync 클라이언트에서 여러 응급 번호, 다이얼 마스크 및 PSTN (공중 전화망) 사용을 지 원하는 방법에 대 한 자세한 내용은 [클라이언트 지원](multiple-emergency-numbers.md#BKMK_Clients)을 참조 하십시오.
+- 여러 긴급 번호, 전화 마스크 및 PSTN(Public Switched Telephone Network) 사용에 대한 수신을 지원하는 비즈니스용 Skype 및 Lync 클라이언트에 대한 자세한 내용은 [클라이언트 지원을 참조하세요.](multiple-emergency-numbers.md#BKMK_Clients)
     
 > [!NOTE]
-> 비즈니스용 Skype 제어판을 사용 하 여 여러 응급 전화 번호를 구성할 수는 없습니다. 여러 응급 전화 번호를 구성 하려면 PowerShell을 사용 해야 합니다. 
+> 비즈니스용 Skype 제어판을 사용하여 여러 긴급 번호를 구성할 수는 없습니다. PowerShell을 사용하여 여러 긴급 번호를 구성해야 합니다. 
   
-여러 응급 번호를 구성 하기 전에 다음 사항을 염두에 두십시오.
+여러 긴급 번호를 구성하기 전에 다음에 유의해야 합니다.
   
-- 여러 응급 번호를 구성 하려면 CsEmergencyNumber cmdlet을 사용 해야 하 고, EmergencyNumbers 매개 변수를 [새-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) 및 [Set-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) cmdlet과 함께 지정 하 여 두 개 이상의 비상 번호를 지 원하는 위치 정책을 정의 해야 합니다.
+- 여러 긴급 번호를 구성하려면 New-CsEmergencyNumber cmdlet을 사용하여 [New-CsLocationPolicy 및 Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet을 사용하여 EmergencyNumbers [](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) 매개 변수를 지정하여 두 개 이상의 긴급 번호를 지원하는 위치 정책을 정의해야 합니다.
     
-- EmergencyDialString 및 EmergencyDialMask 매개 변수를 사용 하 여 CsLocationPolicy 또는 새-CsLocationPolicy cmdlet을 사용 하 여 정의 된 기존 번호가 있는 경우 EmergencyNumbers 매개 변수에 지정 된 값이 이전 항목 보다 우선적으로 적용 됩니다. 값. 즉, EmergencyDialString 및 EmergencyDialMask 매개 변수의 값이 무시 됩니다.
+- EmergencyDialString 및 EmergencyDialMask 매개 변수와 함께 Set-CsLocationPolicy 또는 New-CsLocationPolicy cmdlet을 사용하여 정의된 기존 번호가 있는 경우 EmergencyNumbers 매개 변수로 지정된 값이 이전 값보다 우선합니다. 즉, EmergencyDialString 및 EmergencyDialMask 매개 변수의 값은 무시됩니다.
     
-- EmergencyDialString 및 EmergencyDialMask 매개 변수와 함께 CsLocationPolicy 또는 새 CsLocationPolicy cmdlet을 사용 하 여 정의 된 기존 번호가 있고 *새 응급 번호를 구성 하지* 않은 경우에는 기존 번호가 계속 사용 됩니다.
+- emergencyDialString 및 EmergencyDialMask 매개 변수를 사용하여 Set-CsLocationPolicy 또는 New-CsLocationPolicy cmdlet을 사용하여  기존 번호를 정의한 경우 새 긴급 번호를 구성하지 않은 경우 기존 번호가 계속 사용됩니다.
     
-- 여러 응급 번호 기능이 작동 하려면 실행 중인 클라이언트 버전에서 새 기능을 지원할 수 있어야 합니다. 오래 된 클라이언트는 EmergencyDialString 및 EmergencyDialMask 매개 변수와 함께 CsLocationPolicy 또는 새 CsLocationPolicy cmdlet으로 지정 된 이전 값을 계속 사용 합니다. 
+- 여러 긴급 번호 기능이 작동하려면 실행 중인 클라이언트 버전이 새 기능을 지원할 수 있어야 합니다. 이전 클라이언트는 EmergencyDialString 및 EmergencyDialMask 매개 변수와 함께 Set-CsLocationPolicy 또는 New-CsLocationPolicy cmdlet에 지정된 이전 값을 계속 사용합니다. 
     
-- 사용자가 다이얼 문자열과 일치 하는 번호로 전화를 걸려면 다이얼 마스크가 필요 하지 않습니다. 예를 들어 사용자가 전화를 거는 번호가 911 이면 다이얼 문자열이 911이 고 마스크는 필요 하지 않습니다. 
+- 사용자가 전화 문자열과 일치하는 번호로 전화를 걸 경우 다이얼 마스크가 필요하지 않습니다. 예를 들어 사용자가 전화를 걸 수 있는 번호가 911이면 전화 걸기 문자열은 911이고 마스크는 필요하지 않습니다. 
     
-여러 응급 번호를 구성 하는 방법에 대 한 자세한 내용은 [비즈니스용 Skype에서 여러 응급 번호 구성](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)를 참조 하세요.
+여러 긴급 번호를 구성하는 데 대한 자세한 내용은 비즈니스용 Skype에서 여러 긴급 번호 [구성을 참조하세요.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
   
-다음 표에서는 예제 위치 정책 (예: 일부 특성이 표시 되지 않음)을 보여 줍니다.
+다음 표에서는 예제 위치 정책을 보여 주며, 모든 특성이 표시되는 것은 아니라는 것입니다.
   
 
-|**위치 정책 이름**|**E911 사용**|**비상 다이얼 문자열**|**다이얼 마스크**|**비상 번호**|**PSTN 사용**|**위치 필요**|
+|**위치 정책 이름**|**E911 사용**|**긴급 전화 문자열**|**다이얼 마스크**|**긴급 번호**|**PSTN 사용**|**필요한 위치**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|NZRatingAO  <br/> |예  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |예  <br/> |
-|미국-병원  <br/> |예  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |예  <br/> |
-|인  <br/> |예  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911; 117; 118  <br/> |GBEmergency  <br/> |아니요  <br/> |
+|미국  <br/> |예  <br/> |911  <br/> | 112;999 <br/> ||USEmergency  <br/> |예  <br/> |
+|US-Hospital  <br/> |예  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |예  <br/> |
+|런던  <br/> |예  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911;117;118  <br/> |GBEmergency  <br/> |아니요  <br/> |
 |인도  <br/> |예  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |아니요  <br/> |
    
- **미국** -여러 응급 전화 번호에 대 한 요구 사항은 없습니다. 미국의 경우 이전 응급 전화 걸기 문자열 및 다이얼 마스크 구성을 사용 합니다.
+ **미국** -여러 긴급 번호에 대한 요구 사항은 없습니다. 미국에서는 이전 긴급 전화 문자열 및 전화 걸기 마스크 구성을 사용하게 됩니다.
   
- **미국-병원** -"450"을 마스킹할 필요는 없습니다. 여러 응급 수치를 지원 하지 않는 클라이언트의 경우 이전 응급 전화 걸기 문자열 및 다이얼 마스크 구성을 사용할 수 있습니다. 여러 응급 번호를 지 원하는 클라이언트의 경우 마스킹 450 대신 "911" 및 "450"에 대해 비상 번호를 정의할 수 있습니다.
+ **US-Hospital** —"450"을(를) 마스킹하지 않는 요구 사항이 있습니다. 아직 여러 긴급 번호를 지원하지 않는 클라이언트의 경우 이전 긴급 전화 문자열 및 전화 걸기 마스크 구성을 사용할 수 있습니다. 여러 긴급 번호를 지원하는 클라이언트의 경우 450을 마스킹하는 대신 "911" 및 "450"에 대해 긴급 번호를 정의할 수 있습니다.
   
- **런던** -여러 응급 전화 번호를 지원 하지 않는 클라이언트의 경우에는 오래 된 비상 다이얼 문자열 및 다이얼 마스크 구성을 사용할 수 있습니다. 여러 응급 번호를 지 원하는 클라이언트의 경우 각각에 대해 "999" 및 "112" 둘 다에 대해 비상 번호를 정의할 수 있습니다.
+ **London** — 아직 여러 긴급 번호를 지원하지 않는 클라이언트의 경우 이전 긴급 전화 문자열 및 전화 걸기 마스크 구성을 사용할 수 있습니다. 여러 긴급 번호를 지원하는 클라이언트의 경우 각각에 대해 마스크가 있는 "999" 및 "112"에 대해 긴급 번호를 정의할 수 있습니다.
   
- **인도** -배포 된 모든 클라이언트에서 여러 응급 전화 번호를 지원 합니다. 인도에서는 여러 비상 번호를 구성 하기만 하면 됩니다.
+ **인도** - 배포된 모든 클라이언트는 여러 긴급 번호를 지원합니다. 인도에서는 여러 긴급 번호만 구성하면 됩니다.
   
 ## <a name="client-support"></a>클라이언트 지원
 <a name="BKMK_Clients"> </a>
 
-다음 표에는 여러 응급 번호에 대 한 클라이언트 지원이 나와 있습니다. Microsoft는 계속 해 서 추가 클라이언트에 대 한 지원을 테스트 하 고 릴리스 합니다. 종종 확인하십시오.
+다음 표에는 여러 긴급 번호에 대한 클라이언트 지원이 표시됩니다. Microsoft는 추가 클라이언트에 대한 지원을 계속 테스트하고 릴리스합니다. 종종 확인하십시오.
 
 |**Windows**|**버전**|
 |:-----|:-----|
-|**간편 실행** <br/> |5 월 10 일에 릴리스된 CC (현재 채널) 2016-버전 1604 (빌드 6868.2062)  <br/> |
-||FRDC (첫 번째 릴리스 현재 채널)가 6 월 14 일에 출시 되었습니다. 2016-버전 1605 (빌드 6965.2058)  <br/> |
-||10 월 11 일에 릴리스된 DC (지연 된 채널) 2016-버전 1605 (빌드 6965.2092)  <br/> |
-|**MSI** <br/> |6 월 7 일 업데이트-[https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
+|**간편 실행** <br/> |CC(현재 채널) 2016년 5월 10일 - 버전 1604(빌드 6868.2062)  <br/> |
+||FRDC(2016년 6월 14일 - 버전 1605에 릴리스된 FRDC(첫 번째 릴리스 현재 채널) (빌드 6965.2058)  <br/> |
+||2016년 10월 11일 - 버전 1605에 릴리스된 DC(지연 채널) (빌드 6965.2092)  <br/> |
+|**MSI** <br/> |6월 7일 업데이트 - [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac 및 iOS** <br/> |**버전** <br/> |
 ||비즈니스용 Skype Mac 클라이언트 버전 16.9  <br/> 비즈니스용 Skype iOS 클라이언트 버전 6.16  <br/> |
 |**Android** <br/> |**버전** <br/> |
 ||비즈니스용 Skype Android 클라이언트 버전 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**버전** <br/> |
-|| Aastra 6721ip 및 Aastra 6721ip 전화-9 월 2016 누적 업데이트 (빌드 7577.4512)-[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
-|| HP 4110 및 HP 4120 전화-09-9 2016 월 누적 업데이트 (빌드 7577.4512)-[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
-||Polycom CX500, Polycom CX600 및 Polycom CX3000 전화-9 월 2016 누적 업데이트 (빌드 7577.4512)-[https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
+|| Aastra 6721ip 및 Aastra 6725ip 전화 - 2016년 9월 누적 업데이트(빌드 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
+|| HP 4110 및 HP 4120 전화 - 2016년 9월 누적 업데이트(빌드 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
+||Polycom CX500, Polycom CX600 및 Polycom CX3000 전화 - 2016년 9월 누적 업데이트(빌드 7577.4512) - [https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
    
 

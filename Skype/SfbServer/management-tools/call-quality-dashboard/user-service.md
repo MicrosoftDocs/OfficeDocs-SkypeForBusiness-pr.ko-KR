@@ -1,8 +1,8 @@
 ---
-title: CQD에 대 한 사용자 서비스
+title: CQD용 사용자 서비스
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,46 +12,46 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
-description: '요약: 통화 품질 대시보드의 리포지토리 API의 일부인 사용자 서비스에 대해 알아봅니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 439df99c1c9d66547e681fdea90b33c6295344db
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 통화 품질 대시보드에 대한 리포지토리 API의 일부인 사용자 서비스에 대해 자세히 알아보습니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
+ms.openlocfilehash: d9f4b771a1bf5efeece4f8fb87195d8567f0426e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816657"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803078"
 ---
-# <a name="user-service-for-cqd"></a>CQD에 대 한 사용자 서비스
+# <a name="user-service-for-cqd"></a>CQD용 사용자 서비스
  
-**요약:** 통화 품질 대시보드의 리포지토리 API의 일부인 사용자 서비스에 대해 알아봅니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
+**요약:** 통화 품질 대시보드에 대한 리포지토리 API의 일부인 사용자 서비스에 대해 자세히 알아보습니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
   
-사용자 서비스는 통화 품질 대시보드의 리포지토리 API의 일부입니다.
+사용자 서비스는 통화 품질 대시보드에 대한 리포지토리 API의 일부입니다.
   
 ## <a name="user-service"></a>사용자 서비스
 
-리포지토리 API는 사용자가 프로 비전 (새 사용자 계정 만들기)이 자동으로 암시적이 고 암시적인 간단한 사용자 관리 모델을 제공 합니다. 사용자가 처음으로 리포지토리 API에 대 한 요청을 하면 리포지토리가 새 사용자 레코드를 만듭니다. 
+리포지토리 API는 사용자 프로비전(새 사용자 계정 만들기)이 자동으로 암시적으로 수행되는 간소화된 사용자 관리 모델을 제공합니다. 사용자가 리포지토리 API에 대해 처음으로 요청을 하면 리포지토리에서 새 사용자 레코드를 만듭니다. 
   
-또한 통화 품질 대시보드는 새 사용자에 대 한 사용자 전용 항목을 자동으로 만듭니다. 새 사용자 전용 항목이 시스템 사용자 항목의 전체 복제본입니다. 이렇게 하면 사용자가 즉시 사용자 지정을 시작할 수 있는 고유한 보고서 복사본과 쿼리를 사용 하 여 시작 됩니다. 
+통화 품질 대시보드에서는 새 사용자에 대한 사용자 전용 항목도 자동으로 만듭니다. 새 사용자 전용 항목은 시스템 사용자 항목의 완전한 복제본입니다. 이렇게 하면 사용자가 직접 사용자 지정을 시작할 수 있는 보고서 및 쿼리의 복사본으로 시작할 수 있습니다. 
   
 > [!NOTE]
-> 통화 품질 대시보드를 사용 하 여 사용자는 언제 든 지 전용 항목을 다시 설정할 수 있습니다. 
+> 통화 품질 대시보드를 사용하여 사용자는 언제든지 전용 항목을 다시 설정할 수 있습니다. 
   
- **특수 사용자 Id**
+ **특수 사용자 ID**
   
-리포지토리 API에는 정수 값이 특정 사용자를 지정 하는 데 필요한 REST API Uri가 포함 되어 있습니다. 예: `https://<portal>/QoERepositoryService/repository/user/{userId}`. 여기에서 {userId}는 0, 1 등의 정수 값으로 바꿔야 합니다.
+리포지토리 API에는 특정 사용자를 지정하는 정수 값이 필요한 REST API URIS가 포함되어 있습니다. 예:  `https://<portal>/QoERepositoryService/repository/user/{userId}` . 여기서 {userId}는 0, 1 등의 정수 값으로 대체해야 합니다.
   
-또한 리포지토리 API는 Uri의 {userId}에서 두 가지 특별 한 사용자 Id를 받아들입니다.
+또한 리포지토리 API는 URIS의 {userId}에 두 개의 특수 사용자 ID를 허용합니다.
   
--  *default* -현재 API와 상호 작용 하 고 있는 사용자를 나타냅니다. 이렇게 하면 실제 사용자 ID 값을 추적 하지 않고 응용 프로그램이 현재 사용자의 콘텐츠에 액세스할 수 있습니다. 예: `https://<portal>/QoERepositoryService/repository/user/default`.
+-  *default*  - 현재 API와 상호 작용하고 있는 사용자를 나타내는 경우 이렇게 하면 응용 프로그램에서 실제 사용자 ID 값을 추적하지 않고 현재 사용자의 콘텐츠에 액세스할 수 있습니다. 예: `https://<portal>/QoERepositoryService/repository/user/default` .
     
--  *시스템* -시스템 사용자를 나타냅니다. 이렇게 하면 응용 프로그램에서 실제 사용자 ID 값을 몰라도 시스템 사용자의 콘텐츠에 액세스할 수 있습니다. 예: `https://<portal>/QoERepositoryService/repository/user/system`.
+-  *system*  - 시스템 사용자를 나타 내는 것입니다. 이렇게 하면 응용 프로그램에서 실제 사용자 ID 값을 모르고 시스템 사용자 콘텐츠에 액세스할 수 있습니다. 예: `https://<portal>/QoERepositoryService/repository/user/system` .
     
-다른 언급이 없는 한, Uri의 {userId}에서 특수 사용자 Id를 사용할 수 있습니다. 
+달리 명시되지 않은 경우 URIS의 {userId}에서 특수 사용자 ID를 사용할 수 있습니다. 
   
-미삭 작업은 다음 표에 나와 있습니다.
+REST 작업은 다음 표에 포함되어 있습니다.
   
 |**작업**|**설명**|
 |:-----|:-----|
-|[사용자 가져오기](get-users.md) <br/> |저장소의 사용자 목록을 반환 합니다.  <br/> |
-|[사용자 가져오기](get-user.md) <br/> |사용자 레코드를 반환 합니다.  <br/> |
+|[사용자 가져오기](get-users.md) <br/> |리포지토리에 있는 사용자 목록을 반환합니다.  <br/> |
+|[사용자 가져오기](get-user.md) <br/> |사용자 레코드를 반환합니다.  <br/> |
    
 
