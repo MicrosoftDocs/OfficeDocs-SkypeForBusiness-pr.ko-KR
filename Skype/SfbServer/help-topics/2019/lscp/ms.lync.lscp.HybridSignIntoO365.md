@@ -1,8 +1,8 @@
 ---
-title: Hybrid wizard Microsoft 365 또는 Office 365에 로그인 합니다.
+title: Microsoft 365 또는 Office 365에 하이브리드 마법사 로그인
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -18,22 +18,22 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 비즈니스용 skype Online에 대 한 하이브리드 환경을 구성 하는 데 도움이 되는 Business Server Hybrid 관리성 wizard를 사용 합니다.
-ms.openlocfilehash: 57b9a19fb66a11bec527083bf107e4f967b867e8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 비즈니스용 Skype 서버 하이브리드 관리 마법사를 사용하여 비즈니스용 Skype Online을 사용하여 하이브리드 환경을 구성할 수 있습니다.
+ms.openlocfilehash: 4646754d5893f2509645443342b2cface0d7ce67
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779845"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801498"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>하이브리드 마법사: Microsoft 365 또는 Office 365에 로그인
 
-비즈니스용 skype Online에 대 한 하이브리드 환경을 구성 하는 데 도움이 되는 Business Server Hybrid 관리성 wizard를 사용 합니다.
+비즈니스용 Skype 서버 하이브리드 관리 마법사를 사용하여 비즈니스용 Skype Online을 사용하여 하이브리드 환경을 구성할 수 있습니다.
 
-## <a name="sign-in-to-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365에 로그인 합니다.
+## <a name="sign-in-to-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365에 로그인
 
-Microsoft 365 또는 Office 365 조 직에 대 한 사용자 이름과 암호를 입력 하 여 Microsoft 365 또는 Office 365 조직에 로그인 하 고 온-프레미스 배포를 연결 합니다. Microsoft 365 또는 Office 365 (예: admin@contoso.onmicrosoft.com)에 등록할 때 onmicrosoft 도메인에 대해 만들어진 관리자 계정을 사용 해야 합니다.
+Microsoft 365 또는 Office 365 조직의 사용자 이름과 암호를 입력하여 Microsoft 365 또는 Office 365 조직에 로그인하고 이 배포를 연결합니다. Microsoft 365 또는 Office 365에 등록할 때 onmicrosoft 도메인에 대해 만든 관리자 계정을 사용해야 admin@contoso.onmicrosoft.com.
 
-하이브리드 환경을 구성 하는 방법에 대 한 자세한 내용은 Overview to [hybrid 배포](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)를 참조 하세요.
+하이브리드 환경을 구성하는 방법에 대한 자세한 내용은 하이브리드 배포 [개요를 참조하세요.](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)
 
 

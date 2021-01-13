@@ -1,8 +1,8 @@
 ---
 title: 포리스트 준비 복제 확인
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,27 +14,27 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
-description: 포리스트 준비 중에 글로벌 카탈로그의 복제 및 개체 만들기가 성공 했는지 확인 하려면 다음을 수행 합니다.
-ms.openlocfilehash: 5f02707b8a98ec9869aa2b2b4d867bb45351371b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 포리스트 준비 중 개체 만들기 및 전역 카탈로그 복제가 정상적으로 수행되었는지 확인하려면 다음을 수행합니다.
+ms.openlocfilehash: 010cf3fbadf8e07b4ccb80c33c34057024dde896
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823282"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800558"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>포리스트 준비 복제 확인
  
-포리스트 준비 중에 글로벌 카탈로그의 복제 및 개체 만들기가 성공 했는지 확인 하려면 다음을 수행 합니다.
+포리스트 준비 중 개체 만들기 및 전역 카탈로그 복제가 정상적으로 수행되었는지 확인하려면 다음을 수행합니다.
   
-1. 도메인 컨트롤러 (다른 도메인 컨트롤러의 원격 사이트에 있는 경우)에서 포리스트 준비가 실행 되는 포리스트의 **Active Directory 사용자 및 컴퓨터**를 엽니다.
+1. 포리스트 준비가 실행된 포리스트의 도메인 컨트롤러(가급적이면 다른 도메인 컨트롤러의 원격 사이트)에서 **Active Directory 사용자 및 컴퓨터** 를 엽니다.
     
-2. **Active Directory 사용자 및 컴퓨터**에서 포리스트 또는 자식 도메인의 도메인 이름을 확장 합니다.
+2. **Active Directory 사용자 및 컴퓨터** 에서 포리스트 또는 자식 도메인의 도메인 이름을 확장합니다.
     
-3. 왼쪽 창에서 **사용자** 컨테이너를 클릭 하 고 오른쪽 창에서 유니버설 그룹 csadministrator를 찾습니다. CsAdministrator (Cs로 시작 하는 8 개의 새로운 유니버설 그룹)가 있는 경우 포리스트 준비의 복제에 성공 했습니다.
+3. 왼쪽 창에서 **Users** 컨테이너를 클릭하고 오른쪽 창에서 유니버설 그룹 CsAdministrator를 검색합니다. Cs로 시작하는 다른 여덟 가지 새 유니버설 그룹 중 CsAdministrator가 있는 경우 포리스트 준비 복제가 성공한 것입니다.
     
-4. 그룹이 아직 표시 되지 않으면 복제를 강제로 수행 하거나 15 분 동안 기다렸다가 오른쪽 창을 새로 고칠 수 있습니다. 그룹이 있으면 복제가 완료 된 것입니다.
+4. 그룹이 아직 없으면 복제를 적용하거나 15분간 기다린 후 오른쪽 창을 새로 고칠 수 있습니다. 그룹이 나타나면 복제가 완료된 것입니다.
     
 > [!TIP]
-> 비즈니스용 Skype 서버 배포 마법사에서 만든 로그 파일을 검토 하려는 경우 배포 마법사가 실행 된 컴퓨터에서 해당 단계를 실행 하는 Active Directory 도메인 서비스 사용자의 사용자 디렉터리에서 찾을 수 있습니다. 예를 들어 사용자가 도메인 Contoso.net의 도메인 관리자로 로그인 한 경우 로그 파일은 C:\Users\Administrator.Contoso\AppData\Local\Temp에 위치 합니다. 
+> 비즈니스용 Skype 서버 배포 마법사에서 만든 로그 파일을 검토하려면 배포 마법사를 실행한 컴퓨터의 해당 단계를 실행한 Active Directory 도메인 서비스 사용자의 Users 디렉터리에서 로그 파일을 찾을 수 있습니다. 예를 들어 사용자가 도메인 Contoso.net 도메인 관리자로 로그인한 경우 로그 파일은 C:\Users\Administrator.Contoso\AppData\Local\Temp에 있습니다. 
   
 

@@ -1,8 +1,8 @@
 ---
-title: 정규화 규칙 정규식을 입력 합니다.
+title: 정규화 규칙 형식 정규식
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
-description: .NET Framework 정규식을 입력 하 여 경로가 적용 되는 대상 전화 번호의 일치 패턴을 지정 합니다.
-ms.openlocfilehash: 51cd5d648a32286030711e3ddb7601ce256225c7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 경로가 적용되는 대상 전화 번호에 대한 일치 패턴을 지정하는 .NET Framework 정규식을 입력합니다.
+ms.openlocfilehash: 4cfee85b29f2cc9fe9f899aaed2e9f6ce40f0921
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822591"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803858"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a>정규화 규칙: 정규식을 입력
+# <a name="normalization-rule-type-a-regular-expression"></a>정규화 규칙: 정규식 입력
  
-.NET Framework 정규식을 입력 하 여 경로가 적용 되는 대상 전화 번호의 일치 패턴을 지정 합니다. 
+경로가 적용되는 대상 전화 번호에 대한 일치 패턴을 지정하는 .NET Framework 정규식을 입력합니다. 
   
-비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)
   
 

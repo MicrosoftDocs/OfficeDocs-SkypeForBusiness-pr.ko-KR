@@ -1,8 +1,8 @@
 ---
 title: 인증서 요청(조직 정보)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
-description: 조직 정보 창에서 조직의 이름과 인증서를 요청 하는 OU (조직 구성 단위) (일반적으로 부서 또는 부서)를 지정할 수 있습니다. 조직에 입력 하는 정보 및 조직 구성 단위 텍스트 상자는 인증서에 표시 되며, 인증서를 요청한 사람을 식별 하는 데 사용 됩니다.
-ms.openlocfilehash: 4df368d7138a4613ebb7a6032103b714bc6f9b86
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 조직 정보 창에서 인증서를 요청하는 조직의 이름 및 OU(조직 구성 단위)(대개 사업부 또는 부서)를 지정할 수 있습니다. 조직 및 조직 구성 단위 텍스트 상자에 입력하는 정보는 인증서에 표시되며 다른 사용자가 인증서를 볼 때 인증서를 요청한 사용자를 식별하는 데 사용됩니다.
+ms.openlocfilehash: 8156466c46affff59d07f4418eb2af11676a820f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823822"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805158"
 ---
 # <a name="certificate-request-organization-information"></a>인증서 요청(조직 정보)
  
-**조직 정보** 창에서 조직의 이름과 인증서를 요청 하는 OU (조직 구성 단위) (일반적으로 부서 또는 부서)를 지정할 수 있습니다. **조직** 에 입력 하는 정보 및 **조직 구성 단위** 텍스트 상자는 인증서에 표시 되며, 인증서를 요청한 사람을 식별 하는 데 사용 됩니다.
+**조직 정보** 창에서 인증서를 요청하는 조직의 이름 및 OU(조직 구성 단위)(대개 사업부 또는 부서)를 지정할 수 있습니다. **조직** 및 **조직 구성 단위** 텍스트 상자에 입력하는 정보는 인증서에 표시되며 다른 사용자가 인증서를 볼 때 인증서를 요청한 사용자를 식별하는 데 사용됩니다.
   
 > [!NOTE]
-> 인증서의 OU 이름이 Active Directory 도메인 서비스의 OU와 동일할 필요는 없습니다. Active Directory를 구성한 방법에 따라 사용 하는 이름이 같을 수도 있고 다를 수도 있습니다. 
+> 인증서의 OU 이름이 Active Directory 도메인 서비스의 OU와 다를 수도 있습니다. Active Directory를 구성한 방법에 따라 사용하는 이름이 다를 수도 있습니다. 
   
 

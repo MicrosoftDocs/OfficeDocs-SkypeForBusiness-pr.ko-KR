@@ -1,8 +1,8 @@
 ---
 title: 사이트 세부 정보 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c34def73-c5a1-4e89-80c2-f2c6cd654924
 ROBOTS: NOINDEX, NOFOLLOW
-description: 구/군/시, 시/도 또는 국가/지역 번호를 포함 하 여 사이트에 대 한 위치 세부 정보를 지정할 수 있습니다. 이러한 위치 세부 정보는 모두 선택 사항입니다.
-ms.openlocfilehash: ed6f09358fa988fab7e989b33f0f29e7436d72de
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 구/군/시, 시/도 또는 국가/지역 코드를 비롯한 사이트의 위치 정보를 지정할 수 있습니다. 이러한 모든 위치 정보는 선택 사항입니다.
+ms.openlocfilehash: 1c6025108361c4b77067541b2ff608a28b1d8d82
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794337"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800908"
 ---
 # <a name="add-site-details"></a>사이트 세부 정보 추가
  
-구/군/시, 시/도 또는 국가/지역 번호를 포함 하 여 사이트에 대 한 위치 세부 정보를 지정할 수 있습니다. 이러한 위치 세부 정보는 모두 선택 사항입니다.
+구/군/시, 시/도 또는 국가/지역 코드를 비롯한 사이트의 위치 정보를 지정할 수 있습니다. 이러한 모든 위치 정보는 선택 사항입니다.
   
 

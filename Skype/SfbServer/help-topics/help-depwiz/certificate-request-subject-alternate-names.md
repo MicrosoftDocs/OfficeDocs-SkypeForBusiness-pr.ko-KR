@@ -1,8 +1,8 @@
 ---
-title: 인증서 요청(주체의 대체 이름)
+title: 인증서 요청(주체 대체 이름)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
-description: 주체 이름/제목 대체 이름 페이지에는 인증서를 채우는 주체 이름 및 모든 주체의 대체 이름이 요약 되어 표시 됩니다. 주체 이름 및 제목 대체 이름에 대해 제공 되는 이름은 토폴로지 작성기에서 배포를 정의할 때 생성 된 것 처럼 정의 문서에서 수집 됩니다.
-ms.openlocfilehash: ff4bc38391704a3faaa9673908b6c1fef5bd65e8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 주체 이름/주체 대체 이름 페이지에 인증서를 채울 주체 이름 및 모든 주체 대체 이름의 요약이 표시됩니다. 주체 이름 및 주체 대체 이름에 대해 제시된 이름은 토폴로지 작성기에서 배포를 정의할 때 만들어진 정의 문서에서 수집됩니다.
+ms.openlocfilehash: 9fa55e73c75c1f4eb58d158eea26404bddd84d7f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823782"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805108"
 ---
-# <a name="certificate-request-subject-alternate-names"></a>인증서 요청(주체의 대체 이름)
+# <a name="certificate-request-subject-alternate-names"></a>인증서 요청(주체 대체 이름)
  
-주체 **이름/제목 대체 이름** 페이지에는 인증서를 채우는 주체 이름 및 모든 주체의 대체 이름이 요약 되어 표시 됩니다. 주체 이름 및 제목 대체 이름에 대해 제공 되는 이름은 토폴로지 작성기에서 배포를 정의할 때 생성 된 것 처럼 정의 문서에서 수집 됩니다.
+**주체 이름/주체 대체 이름** 페이지에 인증서를 채울 주체 이름 및 모든 주체 대체 이름의 요약이 표시됩니다. 주체 이름 및 주체 대체 이름에 대해 제시된 이름은 토폴로지 작성기에서 배포를 정의할 때 만들어진 정의 문서에서 수집됩니다.
   
-주체 이름 또는 주체 대체 이름을 변경 해야 하는 경우 **취소** 를 클릭 하 여 인증서 요청 마법사를 종료 하 고 토폴로지 작성기를 다시 실행 합니다. 그런 다음 올바르게 정의 된 제목 및 주제 대체 이름을 사용 하 여 새 구성을 다시 게시 합니다.
+주체 이름 또는 주체 대체 이름을 변경해야 하는  경우 취소를 클릭하여 인증서 요청 마법사를 종료하고 토폴로지 작성기 다시 실행합니다. 그런 후에 올바르게 정의된 주체 및 주체 대체 이름이 포함된 새 구성을 다시 게시합니다.
   
 

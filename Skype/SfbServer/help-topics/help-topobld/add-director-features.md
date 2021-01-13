@@ -1,8 +1,8 @@
 ---
 title: 디렉터 기능 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
-description: 디렉터 풀에 모니터링 서버가 포함 되도록 하려면 모니터링 (CDR 및 QoE 메트릭스)을 선택 합니다.
-ms.openlocfilehash: c03536edfac8173efdc708f3ea4bb341eeee1b6a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 모니터링 서버를 포함하려면 모니터링(CDR 및 QoE 메트릭)을 선택합니다.
+ms.openlocfilehash: e154e0c7603b414d023a8c5f0b7afcda7acff94a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217319"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804888"
 ---
 # <a name="add-director-features"></a>디렉터 기능 추가
 
-디렉터 풀에 모니터링 서버가 포함 되도록 하려면 **모니터링 (CDR 및 QoE 메트릭스)** 을 선택 합니다.
+모니터링 서버를 포함하려면 모니터링(CDR 및 **QoE 메트릭)을 선택합니다.**
 
-디렉터 풀을 추가 하는 방법에 대 한 자세한 내용은 [디렉터에 대 한 시나리오](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) 및 디렉터 [설정](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)를 참조 하세요.
+Director 풀을 추가하는 데 대한 [](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) 자세한 내용은 Director에 대한 시나리오 및 Director [설정(Setting Up the Director)을 참조합니다.](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)
 
 

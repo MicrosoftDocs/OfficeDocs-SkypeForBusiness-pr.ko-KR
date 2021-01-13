@@ -1,8 +1,8 @@
 ---
 title: 지역 선택
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
-description: 지역 선택 대화 상자를 사용하여 사용자의 환경에서 사용 가능한 지역을 찾습니다. 기존 지역을 사용하려면 목록에서 지역을 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: 461209812d626494f2de3bfa1cf48ba0c7a5d956
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 지역 선택 대화 상자를 사용하여 환경에서 사용 가능한 지역을 찾을 수 있습니다. 기존 지역을 사용하려면 목록에서 지역을 클릭한 다음 확인을 클릭합니다.
+ms.openlocfilehash: 06f9bf98110ba08362c16315d7439dddd12040bc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822141"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803728"
 ---
 # <a name="select-regions"></a>지역 선택
  
-**지역 선택** 대화 상자를 사용하여 사용자의 환경에서 사용 가능한 지역을 찾습니다. 기존 지역을 사용하려면 목록에서 지역을 클릭한 다음 **확인**을 클릭합니다.
+지역 **선택 대화** 상자를 사용하여 환경에서 사용 가능한 지역을 찾을 수 있습니다. 기존 지역을 사용하려면 목록에서 지역을 클릭한 다음 **확인** 을 클릭합니다.
   
 > [!NOTE]
 > 사용 가능한 모든 지역을 검색하려면 검색 상자에 아무런 내용을 입력하지 않고 검색 아이콘을 클릭합니다. 

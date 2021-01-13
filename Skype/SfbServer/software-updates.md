@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 다운로드 및 업데이트
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 07/23/2018
 audience: ITPro
@@ -12,45 +12,45 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 비즈니스용 Skype Server 또는 Lync 2013에 대 한 업데이트를 찾고 관리 합니다. 링크를 사용 하 여 자세한 정보를 확인 한 다음 업데이트를 다운로드 하세요.
-ms.openlocfilehash: 1cae70bec8e6bdae88e945e035844ce1186c6454
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 비즈니스용 Skype 서버 또는 Lync 2013에 대한 업데이트를 찾고 관리합니다. 링크를 사용하여 자세한 정보를 확인한 다음 업데이트를 다운로드합니다.
+ms.openlocfilehash: 9a3b2cb94c74e5f33a3643f3490a1d09014f4175
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824092"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806288"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>비즈니스용 Skype 다운로드 및 업데이트
 
-Technet에서 한 번의 _비즈니스용 Skype 다운로드 및 업데이트_ 웹 페이지가 만료 되었습니다. 콘텐츠를 클라이언트 및 서버 페이지로 재구성 했습니다. 필요한 콘텐츠에 대 한 링크를 팔 로우 합니다.
+비즈니스용 _Skype는_ Technet에서 한 번 사용 중지된 웹 페이지를 다운로드하고 업데이트합니다. 콘텐츠가 클라이언트 및 서버 페이지로 다시 구성됩니다. 다음 링크를 따라 필요한 콘텐츠에 연결합니다.
 
-- 섹션이 포함 된 [비즈니스용 Skype 클라이언트 업데이트](sfb-client-updates.md) :
+- [섹션이 포함된 비즈니스용 Skype](sfb-client-updates.md) 클라이언트에 대한 업데이트:
     - [비즈니스용 Skype 2016 클라이언트 업데이트](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [비즈니스용 Skype 2015 클라이언트 업데이트](sfb-client-updates.md#skype-for-business-2015-client-updates)
-    - [Mac 클라이언트 업데이트의 비즈니스용 Skype](sfb-client-updates.md)
+    - [Mac의 비즈니스용 Skype 클라이언트 업데이트](sfb-client-updates.md)
     - [Lync 2013 클라이언트 업데이트](sfb-client-updates.md)
         - [Lync Phone Edition 업데이트](sfb-client-updates.md#lync-phone-edition-updates)
         - [다운로드 센터의 Lync Phone Edition 클라이언트](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
         - [Lync Basic 2013 평가판 소프트웨어](sfb-client-updates.md)
-    - [Mac 용 Lync 2011 클라이언트 업데이트](sfb-client-updates.md#lync-for-mac-2011-client-updates)
+    - [Lync for Mac 2011 클라이언트 업데이트](sfb-client-updates.md#lync-for-mac-2011-client-updates)
     - [Lync 2010 클라이언트 업데이트](sfb-client-updates.md#lync-2010-client-updates)
-        - [Lync 2010 수행자 업데이트](sfb-client-updates.md#lync-2010-attendant-updates)
-        - [Lync 2010 참석자 업데이트](sfb-client-updates.md#lync-2010-attendee-updates)
+        - [Lync 2010 Attendant 업데이트](sfb-client-updates.md#lync-2010-attendant-updates)
+        - [Lync 2010 Attendee 업데이트](sfb-client-updates.md#lync-2010-attendee-updates)
 
-- 섹션이 포함 된 [비즈니스용 Skype 서버 업데이트](sfb-server-updates.md) :
+- [다음 섹션이](sfb-server-updates.md) 포함된 비즈니스용 Skype 서버 업데이트:
     - [비즈니스용 Skype 서버 2019 업데이트 기록](sfb-server-updates.md#skype-for-business-server-2019-update-history)
     - [비즈니스용 Skype 서버 2015 업데이트 기록](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Lync Server 2013 업데이트 기록](sfb-server-updates.md#lync-server-2013-update-history)
         - [Lync Server 2013 개발자 도구](sfb-server-updates.md#lync-server-2013-dev-tools)
-        - [미리 구성 된 Vhd](sfb-server-updates.md#pre-configured-vhds)
+        - [미리 구성된 VHD](sfb-server-updates.md#pre-configured-vhds)
         - [Lync 2013 도구](sfb-server-updates.md#lync-2013-tools)
-        - [Lync 2013 다운로드할 수 있는 설명서](sfb-server-updates.md#lync-2013-downloadable-documentation)
+        - [Lync 2013 다운로드 가능한 설명서](sfb-server-updates.md#lync-2013-downloadable-documentation)
     - [Lync Server 2010 업데이트 기록](sfb-server-updates.md#lync-server-2010-update-history)
         - [그룹 채팅 2010 업데이트](sfb-server-updates.md#group-chat-2010-updates)
         - [Lync 2010 개발자 도구](sfb-server-updates.md#lync-2010-dev-tools)
         - [Lync 2010 도구](sfb-server-updates.md#lync-2010-tools)
-        - [Lync 2010 다운로드할 수 있는 설명서](sfb-server-updates.md#lync-2010-downloadable-documentation)
-        - [Resource kit (기술 참조)](sfb-server-updates.md#resource-kit-technical-reference)
+        - [Lync 2010 다운로드 가능 설명서](sfb-server-updates.md#lync-2010-downloadable-documentation)
+        - [리소스 키트(기술 참조)](sfb-server-updates.md#resource-kit-technical-reference)
         - [그룹 채팅](sfb-server-updates.md#group-chat)
         - [평가판 소프트웨어](sfb-server-updates.md#trial-software)
     - [추가 정보](sfb-server-updates.md#additional-information)

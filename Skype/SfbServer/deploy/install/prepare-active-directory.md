@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버에 대 한 Active Directory 준비
+title: 비즈니스용 Skype 서버용 Active Directory 준비
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -16,122 +16,122 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: '요약: 비즈니스용 Skype 서버 설치를 위해 Active Directory 도메인을 준비 하는 방법을 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 하세요. https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server'
-ms.openlocfilehash: 9a17ae327322b364935d0b965676d26fdce2cffb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: '요약: 비즈니스용 Skype 서버 설치를 위해 Active Directory 도메인을 준비하는 방법을 알아보십시오. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 무료 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
+ms.openlocfilehash: 6196855ffeaf33fbea11c47d56c620e3df9195ee
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018179"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801678"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 Active Directory 준비
+# <a name="prepare-active-directory-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 Active Directory 준비
  
-**요약:** 비즈니스용 Skype 서버 설치를 위해 Active Directory 도메인을 준비 하는 방법을 알아봅니다. [Microsoft 평가 센터](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 합니다.
+**요약:** 비즈니스용 Skype 서버 설치를 위해 Active Directory 도메인을 준비하는 방법을 알아보십시오. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 무료 [평가판을 다운로드합니다.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
-비즈니스용 Skype 서버가 Active Directory와 긴밀 하 게 작동 합니다. 비즈니스용 Skype 서버에서 작동 하도록 Active Directory 도메인을 준비 해야 합니다. 이 프로세스는 배포 마법사에서 수행 되며 도메인에 대해 한 번만 수행 됩니다. 이 프로세스는 그룹을 만들고 도메인을 수정 하며 한 번만 수행 하면 되기 때문입니다. 순서에 관계 없이 1 ~ 5 단계를 수행할 수 있습니다. 그러나 다이어그램에 나와 있는 것 처럼, 1 ~ 5 단계를 순서 대로 수행 해야 합니다. Active Directory를 준비 하는 과정은 4 단계입니다. Active Directory 계획에 대 한 자세한 내용은 비즈니스용 [Skype 서버에 대 한 환경 요구 사항](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 또는 [비즈니스용 skype 서버 2019에 대 한 서버 요구 사항을](../../../SfBServer2019/plan/system-requirements.md)참조 하세요.
+비즈니스용 Skype 서버는 Active Directory와 밀접하게 작동합니다. 비즈니스용 Skype 서버에서 작동하려면 Active Directory 도메인을 준비해야 합니다. 이 프로세스는 배포 마법사에서 수행하며 도메인에 대해 한 번만 수행됩니다. 이는 프로세스에서 그룹을 만들고 도메인을 수정하기 때문에 이 작업을 한 번만 완료하면 됩니다. 1~5단계는 순서에 따라 할 수 있습니다. 그러나 다이어그램에 설명된대로 1~5단계를 순서대로, 6, 7, 8단계를 순서대로 수행해야 합니다. Active Directory 준비는 8단계 중 4단계입니다. Active Directory 계획에 대한 자세한 내용은 비즈니스용 [Skype 서버](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 또는 비즈니스용 Skype 서버 [2019의](../../../SfBServer2019/plan/system-requirements.md)서버 요구 사항에 대한 환경 요구 사항을 참조하세요.
   
 ![개요 다이어그램](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>Active Directory 준비
 
-비즈니스용 Skype 서버가 AD DS (Active Directory 도메인 서비스)와 긴밀 하 게 통합 되어 있습니다. 비즈니스용 Skype 서버를 처음 설치 하기 전에 Active Directory를 준비 해야 합니다. **Active Directory 준비** 라는 배포 마법사 섹션에서는 비즈니스용 Skype 서버에서 사용할 active directory 환경을 준비 합니다.
+비즈니스용 Skype 서버는 AD DS(Active Directory 도메인 서비스)와 긴밀하게 통합되어 있습니다. 비즈니스용 Skype 서버를 처음으로 설치하려면 Active Directory를 준비해야 합니다. Active Directory 준비 배포 마법사의 섹션에서는 비즈니스용 Skype 서버에서 사용할 Active **Directory** 환경을 준비합니다.
   
 > [!NOTE]
-> 비즈니스용 Skype 서버 사용 (AD DS)을 통해 토폴로지의 모든 서버를 추적 하 고 통신할 수 있습니다. 비즈니스용 Skype 서버가 올바르게 작동할 수 있도록 이러한 서버의 대부분이 도메인에 가입 되어 있어야 합니다. Edge 및 역방향 프록시와 같은 서버는 도메인에 가입 해서는 안 됩니다.
+> 비즈니스용 Skype 서버는 AD DS(비즈니스용 Skype)를 사용하여 토폴로지의 모든 서버를 추적하고 통신합니다. 이러한 서버는 대부분 비즈니스용 Skype 서버가 제대로 작동할 수 있도록 도메인에 가입해야 합니다. Edge 및 역방향 프록시와 같은 서버는 도메인에 가입되어 있지 않습니다.
   
 > [!IMPORTANT]
-> Active Directory 준비 절차는 배포의 각 도메인에 대해 한 번만 실행 해야 합니다. 
+> Active Directory 준비 절차는 배포의 각 도메인에 대해 한 번만 실행해야 합니다. 
   
-**Active Directory를 준비**하기 위한 비디오 단계를 시청 하세요.
+Active Directory 준비를 위한 **비디오 단계를 시청하세요.**
   
 > [!video https://www.microsoft.com/videoplayer/embed/RE1Ybuk]
   
 ### <a name="prepare-active-directory-from-the-deployment-wizard"></a>배포 마법사에서 Active Directory 준비
 
-1. Active Directory 도메인에 대 한 스키마 관리자 자격 증명을 사용 하 여 사용자로 로그온 합니다.
+1. Active Directory 도메인에 대한 Schema Admins 자격 증명을 사용하여 사용자로 로그온합니다.
     
-2. 비즈니스용 Skype 서버 배포 마법사를 엽니다.
+2. 비즈니스용 Skype 서버 배포 마법사를 니다.
     
     > [!TIP]
-    > 비즈니스용 Skype 서버 배포 마법사에서 만든 로그 파일을 검토 하려면 배포 마법사가 실행 된 컴퓨터에서 해당 단계를 실행 한 AD DS 사용자의 사용자 디렉터리에서 찾을 수 있습니다. 예를 들어 사용자가 도메인의 도메인 관리자로 로그온 한 경우 로그 파일의 위치는 C:\Users\Administrator.Contoso\AppData\Local\Temp.입니다. 
+    > 비즈니스용 Skype 서버 배포 마법사에서 만든 로그 파일을 검토하려면 배포 마법사를 실행한 컴퓨터의 해당 단계를 실행한 AD DS 사용자의 Users 디렉터리에서 로그 파일을 찾을 수 있습니다. 예를 들어 사용자가 도메인의 도메인 관리자로 로그온한 경우 로그 파일은 C:\Users\Administrator.Contoso\AppData\Local\Temp에 있습니다. 
   
-3. **Active Directory 준비** 링크를 클릭 합니다.
+3. Active **Directory 준비 링크를** 클릭합니다.
     
-4. **1 단계: 스키마 준비**
+4. **1단계: 스마마 준비**
     
-    a. 1 단계 제목 아래의 드롭다운을 클릭 하 여 액세스할 수 있는 1 단계에 대 한 필수 구성 요소 정보를 검토 합니다.
+    a. 1단계 제목 아래의 드롭다운을 클릭하여 액세스할 수 있는 1단계의 선행 준비 정보를 검토합니다.
     
-    b. 1 단계에서 **실행** 을 클릭 하 여 스키마 준비 마법사를 시작 합니다.
+    b. **1단계에서** 실행을 클릭하여 Schema 준비 마법사를 실행합니다.
     
-    c. 각 배포에 대해이 절차를 한 번만 실행 하 고 **Next (다음**)를 클릭 합니다.
+    c. 이 절차는 각 배포에 대해 한 번만 실행하고 **다음을** 클릭합니다.
     
-    d. 스키마가 준비 되 면 **로그 보기**를 클릭 하 여 로그를 볼 수 있습니다. 
+    d. 스마마가 준비된 후 로그 보기를 클릭하여 로그를 볼 **수 있습니다.** 
     
-    e. **마침을** 클릭 하 여 스키마 준비 마법사를 닫고 Active Directory 준비 단계로 돌아갑니다.
+    e. **Finish를** 클릭하여 Schema 준비 마법사를 닫고 Active Directory 준비 단계로 돌아온다.
     
-5. **2 단계: 스키마 파티션 복제 확인**
+5. **2단계: Schema 파티션 복제 확인**
     
-    a. 도메인에 대 한 도메인 컨트롤러에 로그온 합니다.
+    a. 도메인의 도메인 컨트롤러에 로그온합니다.
     
-    b. **서버 관리자**의 **도구** 드롭다운 메뉴에서 **ADSI 편집** 을 엽니다.
+    b. 서버 **관리자의** 도구  드롭다운 메뉴에서 ADSI 편집을 열 **수 있습니다.**
     
-    c. **동작** 메뉴에서 **연결**을 클릭합니다.
+    c. **동작** 메뉴에서 **연결** 을 클릭합니다.
     
-    d. **잘 알려진 명명 컨텍스트를 선택합니다** 아래에 있는 **연결 설정** 대화 상자에서 **스키마**를 선택한 다음 **확인**을 클릭합니다.
+    d. **잘 알려진 명명 컨텍스트를 선택합니다** 아래에 있는 **연결 설정** 대화 상자에서 **스키마** 를 선택한 다음 **확인** 을 클릭합니다.
     
-    e. 스키마 컨테이너 아래에서 **CN = ms-RTC-SIP-SchemaVersion**을 검색 합니다. 이 개체가 존재 하 고, 범위의 **upper** 특성 값이 1150이 고, 범위의 **하위** 특성 값이 3 이면 스키마가 성공적으로 업데이트 되 고 복제 된 것입니다. 이 개체가 없거나 **Range upper** 및가 중 **하위** 특성의 값이 지정 되지 않은 경우 스키마가 수정 되지 않았거나 복제 되지 않은 것입니다.
+    e. Schema 컨테이너 아래에서 **CN=ms-RTC-SIP-SchemaVersion을 검색합니다.** 이 개체가 존재하고 **rangeUpper** 특성의 값이 1150이고 **rangeLower** 특성 값이 3이면 Schema가 성공적으로 업데이트 및 복제되었습니다. 이 개체가 존재하지 않는 경우 또는 **rangeUpper** 및 **rangeLower** 특성의 값이 지정되지 않은 경우 해당 스마마가 수정되지 않은 것이거나 복제되지 않은 것입니다.
     
-6. **3 단계: 현재 포리스트 준비**
+6. **3단계: 현재 포리스트 준비**
     
-    a. 3 단계 제목 아래의 드롭다운을 클릭 하 여 액세스할 수 있는 3 단계에 대 한 필수 구성 요소 정보를 검토 합니다.
+    a. 3단계 제목 아래의 드롭다운을 클릭하여 액세스할 수 있는 3단계의 선행 준비 정보를 검토합니다.
     
-    b. 3 단계에서 **실행** 을 클릭 하 여 현재 포리스트 준비 마법사를 시작 합니다.
+    b. **3단계에서** 실행을 클릭하여 현재 포리스트 준비 마법사를 실행합니다.
     
-    c. 이 절차는 배포 당 한 번만 실행 해야 하며, **다음**을 클릭 합니다.
+    c. 이 절차는 배포당 한 번만 실행하고 다음을 **클릭해야 합니다.**
     
-    d. 유니버설 그룹을 만들 도메인을 지정 합니다. 서버가 도메인의 일부인 경우 **로컬 도메인**을 선택 하 고 **다음**을 클릭할 수 있습니다.
+    d. 유니버설 그룹을 만들 도메인을 지정합니다. 서버가 도메인의 일부인 경우 로컬 도메인을 선택하고 다음을 클릭할 **수 있습니다.**
     
-    e. 포리스트가 준비 되 면 **로그 보기**를 클릭 하 여 로그를 볼 수 있습니다. 
+    e. 포리스트가 준비된 후 로그 보기를 클릭하여 **로그를 볼 수 있습니다.** 
     
-    f. **마침을** 클릭 하 여 현재 포리스트 준비 마법사를 닫고 Active Directory 준비 단계로 돌아갑니다.
+    f. **Finish를** 클릭하여 현재 포리스트 준비 마법사를 닫고 Active Directory 준비 단계로 돌아온다.
     
-    g. **앱** 페이지에서 **비즈니스용 Skype 서버 관리 셸을** 클릭 하 여 PowerShell을 시작 합니다.
+    g. 앱 **페이지에서 비즈니스용 Skype 서버 관리** 셸을 클릭하여 PowerShell을 실행합니다. 
     
-    도움말. Get-CsAdForest **명령을 입력 하 고 enter 키를**누릅니다.
+    h. Get-CsAdForest 명령을 입력하고 **Enter를 누르고 있습니다.**
     
-    때. 결과가 **LC_FORESTSETTINGS_STATE_READY**이면 그림과 같이 포리스트가 성공적으로 준비 된 것입니다.
+    i. 결과가 LC_FORESTSETTINGS_STATE_READY 그림과 같이 포리스트가 준비된 것입니다.
     
-     ![포리스트 복제를 확인 합니다.](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
+     ![포리스트 복제를 검증합니다.](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
-7. **4 단계: 글로벌 카탈로그 복제 확인**
+7. **4단계: 글로벌 카탈로그 복제 확인**
     
-    a. 포리스트 준비가 실행된 포리스트의 도메인 컨트롤러(가급적이면 다른 도메인 컨트롤러의 원격 사이트)에서 **Active Directory 사용자 및 컴퓨터**를 엽니다.
+    a. 포리스트 준비가 실행된 포리스트의 도메인 컨트롤러(가급적이면 다른 도메인 컨트롤러의 원격 사이트)에서 **Active Directory 사용자 및 컴퓨터** 를 엽니다.
     
-    b. **Active Directory 사용자 및 컴퓨터**에서 포리스트 또는 자식 도메인의 도메인 이름을 확장합니다.
+    b. **Active Directory 사용자 및 컴퓨터** 에서 포리스트 또는 자식 도메인의 도메인 이름을 확장합니다.
     
-    c. 왼쪽 창에서 **사용자** 컨테이너를 클릭 하 고 오른쪽 창에서 유니버설 그룹 **csadministrator** 를 찾습니다. CsAdministrator (Cs로 시작 하는 다른 새 유니버설 그룹 중 하나)가 있는 경우 Active Directory 복제가 정상적으로 수행 된 것입니다.
+    c. 왼쪽 창에서 **Users** 컨테이너를 클릭하고 오른쪽 창에서 유니버설 그룹 **CsAdministrator를** 검색합니다. Cs로 시작하는 다른 새 유니버설 그룹 중 CsAdministrator가 있는 경우 Active Directory 복제가 성공한 것입니다.
     
-    d. 그룹이 아직 없으면 복제를 강제로 수행 하거나, 15 분 동안 기다렸다가 오른쪽 창을 새로 고칠 수 있습니다. 그룹이 나타나면 복제가 완료된 것입니다.
+    d. 그룹이 아직 없는 경우 복제를 강제로 진행하거나 15분간 기다렸다가 오른쪽 창을 새로 고칠 수 있습니다. 그룹이 나타나면 복제가 완료된 것입니다.
     
-8. **5 단계: 현재 도메인 준비**
+8. **5단계: 현재 도메인 준비**
     
-    a. 5 단계에 대 한 필수 구성 요소 정보를 검토 합니다.
+    a. 5단계의 선행 준비 정보를 검토합니다.
     
-    b. 5 단계에서 **실행** 을 클릭 하 여 현재 도메인 준비 마법사를 시작 합니다.
+    b. **5단계에서** 실행을 클릭하여 현재 도메인 준비 마법사를 실행합니다.
     
-    c. 배포의 각 도메인에 대해이 절차를 한 번만 실행 하 고 **다음**을 클릭 합니다.
+    c. 이 절차는 배포의 각 도메인에 대해 한 번만 실행하고 다음을 **클릭해야 합니다.**
     
-    d. 도메인 준비가 완료 되 면 **로그 보기**를 클릭 하 여 로그를 볼 수 있습니다. 
+    d. 도메인이 준비된 후 로그 보기를 클릭하여 **로그를 볼 수 있습니다.** 
     
-    e. **마침을** 클릭 하 여 현재 도메인 준비 마법사를 닫고 Active Directory 준비 단계로 돌아갑니다.
+    e. **Finish를** 클릭하여 현재 도메인 준비 마법사를 닫고 Active Directory 준비 단계로 돌아온다.
     
-    이 단계는 비즈니스용 Skype 서버 개체가 있는 모든 도메인에서 완료 해야 하며, 그렇지 않으면 서비스가 시작 되지 않을 수 있습니다. 여기에는 사용자, 연락처 개체, 관리 그룹 또는 기타 개체 형식과 같은 모든 유형의 Active Directory 개체가 포함 됩니다. 필요한 경우 Get-csuserreplicatorconfiguration-ADDomainNamingContextList를 사용 하 여 비즈니스용 Skype 서버 개체가 있는 도메인만 추가할 수 있습니다.
+    이러한 단계는 비즈니스용 Skype 서버 개체가 발견되는 모든 도메인에서 완료해야 합니다. 그렇지 않으면 서비스가 시작되지 않을 수 있습니다. 여기에는 사용자, 연락처 개체, 관리 그룹 또는 다른 유형의 개체와 같은 모든 유형의 Active Directory 개체가 포함됩니다. 필요한 경우 Set-CsUserReplicatorConfiguration -ADDomainNamingContextList를 사용하여 비즈니스용 Skype 서버 개체가 있는 도메인만 추가할 수 있습니다.
     
-9. **6 단계: 도메인에서 복제 확인**
+9. **6단계: 도메인에서 복제 확인**
     
-    a. **앱** 페이지에서 **비즈니스용 Skype 서버 관리 셸을** 클릭 하 여 PowerShell을 시작 합니다.
+    a. 앱 페이지에서 **비즈니스용 Skype** 서버  관리 셸을 클릭하여 PowerShell을 실행합니다.
     
-    b. Get-CsAdDomain 명령을 사용 하 여 도메인 내에서 복제를 확인 합니다.
+    b. 명령 Get-CsAdDomain 사용하여 도메인 내에서 복제를 확인할 수 있습니다.
     
    ```powershell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
@@ -140,42 +140,42 @@ ms.locfileid: "42018179"
     > [!NOTE]
     > Domain 매개 변수를 지정하지 않으면 값이 로컬 도메인으로 설정됩니다. 
   
-    Contoso 도메인에 대 한 명령을 실행 하는 예입니다.
+    contoso.local 도메인에 대한 명령을 실행하는 예:
     
    ```powershell
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
    ```
 
     > [!NOTE]
-    > GlobalSettingsDomainController 매개 변수를 사용 하 여 전역 설정이 저장 되는 위치를 나타낼 수 있습니다. 설정이 시스템 컨테이너에 저장 된 경우 (구성 컨테이너로 전역 설정이 마이그레이션되지 않은 업그레이드 배포의 경우) AD DS 포리스트의 루트에 도메인 컨트롤러를 정의 합니다. 전역 설정이 구성 컨테이너에 있는 경우(설정이 구성 컨테이너로 마이그레이션된 업그레이드 배포 또는 새 배포에서 일반적임) 포리스트에서 도메인 컨트롤러를 정의합니다. 이 매개 변수를 지정 하지 않으면 cmdlet은 설정이 구성 컨테이너에 저장 된 것으로 가정 하 고 Active Directory의 모든 도메인 컨트롤러를 참조 합니다. 
+    > GlobalSettingsDomainController 매개 변수를 사용하여 전역 설정이 저장되는 위치를 나타낼 수 있습니다. 설정이 시스템 컨테이너에 저장되어 있는 경우(전역 설정이 구성 컨테이너로 마이그레이션되지 않은 업그레이드 배포에서 일반적) AD DS 포리스트의 루트에 도메인 컨트롤러를 정의합니다. 전역 설정이 구성 컨테이너에 있는 경우(설정이 구성 컨테이너로 마이그레이션된 업그레이드 배포 또는 새 배포에서 일반적임) 포리스트에서 도메인 컨트롤러를 정의합니다. 이 매개 변수를 지정하지 않으면 cmdlet은 설정이 구성 컨테이너에 저장되어 있으며 Active Directory의 도메인 컨트롤러를 참조하는 것으로 가정합니다. 
   
-    c. 결과가 **LC_DOMAINSETTINGS_STATE_READY**이면 도메인은 성공적으로 복제 된 것입니다.
+    c. 결과가 LC_DOMAINSETTINGS_STATE_READY 도메인이 복제된 것입니다.
     
-10. **7 단계: 비즈니스용 Skype 서버 제어판에 대 한 관리 액세스를 제공 하는 사용자 추가**
+10. **7단계: 사용자를 추가하여 비즈니스용 Skype 서버 제어판에 대한 관리 액세스 권한 제공**
     
     a. Domain Admins 그룹 또는 RTCUniversalServerAdmins 그룹의 구성원으로 로그온합니다.
     
-    b. **Active Directory 사용자 및 컴퓨터**를 열고 도메인을 확장 한 다음 **사용자** 컨테이너를 클릭 하 고 csadministrator를 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 선택 합니다.
+    b. **Active Directory 사용자 및** 컴퓨터를 열고, 도메인을 확장하고, **Users** 컨테이너를 클릭하고, CSAdministrator를 마우스 오른쪽 단추로 클릭하고, 속성을 **선택하십시오.**
     
-    c. **CSAdministrator 속성**에서 **구성원** 탭을 클릭합니다.
+    c. **CSAdministrator 속성** 에서 **구성원** 탭을 클릭합니다.
     
-    d. **구성원** 탭에서 **추가**를 클릭합니다. **사용자, 연락처, 컴퓨터, 서비스 계정 또는 그룹 선택**에서 **선택할 개체 이름을 입력**합니다 .를 클릭 합니다. CSAdministrators 그룹에 추가할 사용자 이름 또는 그룹 이름을 입력합니다. **확인**을 클릭합니다.
+    d. **구성원** 탭에서 **추가** 를 클릭합니다. 사용자, **연락처, 컴퓨터, 서비스 계정** 또는 그룹 선택에서 선택할 개체 이름 입력을 **찾습니다.** CSAdministrators 그룹에 추가할 사용자 이름 또는 그룹 이름을 입력합니다. **확인** 을 클릭합니다.
     
-    e. **구성원** 탭에서 선택한 사용자 또는 그룹이 있는지 확인 합니다. **확인**을 클릭합니다.
+    e. 구성원 **탭에서** 선택한 사용자 또는 그룹이 존재 하는지 확인 합니다. **확인** 을 클릭합니다.
     
     > [!CAUTION]
-    > 비즈니스용 Skype 서버 제어판은 역할 기반 액세스 제어 도구입니다. CsAdministrator 그룹의 구성원 자격은 비즈니스용 Skype 서버 제어판을 사용 하는 사용자에 게 모든 구성 기능을 사용할 수 있는 모든 권한을 부여 합니다. 특정 기능에 대해 디자인된 사용 가능한 다른 역할도 있습니다. 사용 가능한 역할에 대 한 자세한 내용은 비즈니스용 [Skype 서버에 대 한 환경 요구 사항](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 또는 [비즈니스용 skype 서버 2019에 대 한 서버 요구 사항을](../../../SfBServer2019/plan/system-requirements.md)참조 하세요. 사용자가 관리 그룹의 구성원으로 만들려면 비즈니스용 Skype 서버를 사용 하도록 설정할 필요가 없습니다. 
+    > 비즈니스용 Skype 서버 제어판은 역할 기반 액세스 제어 도구입니다. CsAdministrator 그룹의 구성원 자격은 비즈니스용 Skype 서버 제어판을 사용하는 사용자에게 사용 가능한 모든 구성 기능에 대한 모든 제어를 제공합니다. 특정 기능에 대해 디자인된 사용 가능한 다른 역할도 있습니다. 사용 가능한 역할에 대한 자세한 내용은 비즈니스용 [Skype 서버](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 또는 비즈니스용 Skype 서버 [2019의](../../../SfBServer2019/plan/system-requirements.md)서버 요구 사항에 대한 환경 요구 사항을 참조하세요. 관리 그룹의 구성원으로 설정하기 위해 사용자가 비즈니스용 Skype 서버에 대해 사용하도록 설정되어 있지는 않습니다. 
   
     > [!CAUTION]
-    > 보안 및 역할 기반 액세스 제어 무결성을 유지 하기 위해 비즈니스용 Skype 서버 배포 관리에서 사용자가 수행 하는 역할을 정의 하는 그룹에 사용자를 추가 합니다. 
+    > 보안 및 역할 기반 액세스 제어 무결성을 유지 관리하기 위해 사용자가 비즈니스용 Skype 서버 배포 관리에서 수행하는 역할을 정의하는 그룹에 사용자를 추가합니다. 
   
-11. 로그 오프 한 다음 Windows에 다시 로그온 하 여 보안 토큰이 새로운 비즈니스용 Skype 서버 보안 그룹으로 업데이트 된 다음 배포 마법사를 다시 엽니다.
+11. 로그오프한 다음 Windows에 다시 로그온하여 보안 토큰이 새 비즈니스용 Skype 서버 보안 그룹으로 업데이트된 다음 배포 마법사를 다시 니다.
     
-12. 그림에 표시 된 것 처럼 성공적인 확인을 위해 **Active Directory 준비** 옆에 녹색 체크 표시가 나타나는지 확인 합니다.
+12. 그림과 같이 **Active Directory** 준비 옆에 성공 여부를 확인하는 녹색 확인 표시가 표시되는지 확인합니다.
     
-     ![Active Directory 준비 완료](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
+     ![완료된 Active Directory 준비](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
 ## <a name="see-also"></a>참고 항목
  
-[비즈니스용 Skype 서버 2015에 대 한 Active Directory 도메인 서비스](../../plan-your-deployment/security/active-directory-domain-services.md)
+[비즈니스용 Skype 서버용 Active Directory 도메인 서비스](../../plan-your-deployment/security/active-directory-domain-services.md)

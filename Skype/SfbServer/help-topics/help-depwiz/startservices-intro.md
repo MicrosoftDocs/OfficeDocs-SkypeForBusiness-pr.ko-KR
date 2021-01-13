@@ -1,8 +1,8 @@
 ---
 title: 서비스 시작(소개)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
-description: 배포 하는 비즈니스용 Skype 서버 2015 역할 서버에서 서비스를 시작 하려면 소개 화면을 검토 합니다. 비즈니스용 Skype 서버를 시작 하는 데 실행 되는 명령은 서비스가 시작 될 때까지 대기 하지 않는다는 점에 유의 하세요. 이는 서비스를 시작하기 위한 최상의 작업이며, 사용자는 Windows 서비스 MMC(Microsoft Management Console)를 사용하여 서비스의 실제 상태를 모니터링해야 합니다. 서비스 시작 작업을 시작하려면 다음을 클릭합니다.
-ms.openlocfilehash: fec6fd5ed6212e6c0cb71ca606ff8ddc4e561036
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 배포할 비즈니스용 Skype 서버 2015 역할 서버에서 서비스를 시작하고 소개 화면을 검토합니다. 비즈니스용 Skype 서버를 시작하기 위해 실행된 명령은 서비스가 시작될 때까지 기다리지 않습니다. 이는 서비스를 시작하기 위한 최상의 작업이며, 사용자는 Windows 서비스 MMC(Microsoft Management Console)를 사용하여 서비스의 실제 상태를 모니터링해야 합니다. 서비스 시작 작업을 시작하려면 다음을 클릭합니다.
+ms.openlocfilehash: ce23db017922b2c12384172f07bb13b5113c9e59
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823302"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800658"
 ---
 # <a name="startservices-intro"></a>서비스 시작(소개)
  
-배포 하는 비즈니스용 Skype 서버 2015 역할 서버에서 서비스를 시작 하려면 소개 화면을 검토 합니다. 비즈니스용 Skype 서버를 시작 하는 데 실행 되는 명령은 서비스가 시작 될 때까지 대기 하지 않는다는 점에 유의 하세요. 이는 서비스를 시작하기 위한 최상의 작업이며, 사용자는 Windows 서비스 MMC(Microsoft Management Console)를 사용하여 서비스의 실제 상태를 모니터링해야 합니다. **서비스 시작** 작업을 시작하려면 **다음**을 클릭합니다.
+배포할 비즈니스용 Skype 서버 2015 역할 서버에서 서비스를 시작하고 소개 화면을 검토합니다. 비즈니스용 Skype 서버를 시작하기 위해 실행된 명령은 서비스가 시작될 때까지 기다리지 않습니다. 이는 서비스를 시작하기 위한 최상의 작업이며, 사용자는 Windows 서비스 MMC(Microsoft Management Console)를 사용하여 서비스의 실제 상태를 모니터링해야 합니다. **서비스 시작** 작업을 시작하려면 **다음** 을 클릭합니다.
   
 

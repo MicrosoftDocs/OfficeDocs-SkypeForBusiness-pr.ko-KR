@@ -1,8 +1,8 @@
 ---
 title: 음성 사용 정책
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
 ROBOTS: NOINDEX, NOFOLLOW
-description: 비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 Skype 서버 관리를 참조 하세요.
-ms.openlocfilehash: 075068b924c009df1d142c4c16253d38826f974a
-ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+description: 비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 Skype 서버 관리를 참조하세요.
+ms.openlocfilehash: df247a40669eb02a4ff151c792e641ca12875dce
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45189200"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801288"
 ---
 # <a name="voice-usage-policy"></a>음성 사용 정책
  
-비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 [비즈니스용 Skype 서버 2019](../../../../SfBServer2019/skype-for-business-server-2019.yml)에서 문서 관리를 참조 하십시오.
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2019의](../../../../SfBServer2019/skype-for-business-server-2019.yml)관리 문서를 참조하세요.
   
 

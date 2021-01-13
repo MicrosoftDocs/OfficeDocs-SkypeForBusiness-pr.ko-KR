@@ -1,8 +1,8 @@
 ---
-title: 스키마 파티션 복제 확인
+title: 스키마 파티션의 복제 확인
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,34 +14,34 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
-description: 스키마 확장이 Active Directory 도메인 서비스 포리스트에 성공적으로 복제 되었는지 확인 하려면 다음을 수행 합니다.
-ms.openlocfilehash: f2e8c181f01e841ebc6b251d8215a8d448db0b04
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Active Directory 도메인 서비스 포리스트에 해당 확장이 복제된 것을 확인하려면 다음을 완료합니다.
+ms.openlocfilehash: db30087e6b996b70fe97e3249c1bf2eaa97a694c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823272"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800548"
 ---
-# <a name="verify-replication-of-schema-partition"></a>스키마 파티션 복제 확인
+# <a name="verify-replication-of-schema-partition"></a>스키마 파티션의 복제 확인
  
-스키마 확장이 Active Directory 도메인 서비스 포리스트에 성공적으로 복제 되었는지 확인 하려면 다음을 수행 합니다.
+Active Directory 도메인 서비스 포리스트에 해당 확장이 복제된 것을 확인하려면 다음을 완료합니다.
   
-1. 스키마 확장이 엔터프라이즈 관리자 그룹의 구성원으로 적용 된 Active Directory 도메인 서비스 포리스트에서 도메인 컨트롤러 (스키마 마스터 역할을 보유 하는 도메인 컨트롤러 제외)에 로그온 합니다.
+1. Enterprise Admins 그룹의 구성원으로 적용된 Active Directory 도메인 서비스 포리스트에서 도메인 컨트롤러(스마마 마스터 역할을 보유하는 도메인 컨트롤러가 아님)에 로그온합니다.
     
-2. ADSI 편집 열기: **시작**을 클릭 하 고 **관리 도구**를 클릭 한 다음 **adsi 편집**을 클릭 합니다.
+2. **시작**, **관리 도구** 를 차례로 클릭한 다음 **ADSI 편집** 을 클릭하여 ADSI 편집을 엽니다.
     
     > [!TIP]
-    > 또는 **시작**을 클릭 하 고 **실행**을 클릭 한 다음 **ADSIEDIT** 를 입력 하 여 ADSI 편집을 시작 합니다.
+    > 또는 **시작**, **실행** 을 차례로 클릭한 다음 **adsiedit.msc** 를 입력하여 ADSI 편집을 시작합니다.
   
-3. MMC (Microsoft Management Console) 트리에서 아직 선택 하지 않은 경우 ADSI 편집을 클릭 합니다.
+3. MMC(Microsoft Management Console) 트리에서 아직 선택되어 있지 않으면 ADSI 편집을 클릭합니다.
     
-4. **작업** 메뉴에서 **연결 대상**을 클릭 합니다.
+4. **동작** 메뉴에서 **연결** 을 클릭합니다.
     
-5. **연결 설정** 대화 상자의 **잘 알려진 명명 컨텍스트 선택**에서 **스키마**를 선택한 다음 **확인**을 클릭 합니다.
+5. **잘 알려진 명명 컨텍스트를 선택합니다.** 아래에 있는 **연결 설정** 대화 상자에서 **스키마** 를 선택한 다음 **확인** 을 클릭합니다.
     
-6. 스키마 컨테이너 아래에서 CN = ms-RTC-SIP-SchemaVersion을 검색 합니다. 이 개체가 존재 하 고, **Range upper** 특성의 값이 1150이 고, **range lower** 특성의 값이 3 이면 스키마가 성공적으로 업데이트 되 고 복제 된 것입니다. 이 개체가 존재 하지 않거나, **Range upper** 및- **lower** 특성 값이 지정 되지 않은 경우 스키마는 수정 되거나 복제 되지 않은 것입니다.
+6. 스키마 컨테이너 아래에서 CN=ms-RTC-SIP-SchemaVersion을 검색합니다. 이 개체가 있고 **rangeUpper** 특성 값이 1150이고 **rangeLower** 특성 값이 3이면 스키마가 업데이트 및 복제된 것입니다. 이 개체가 없거나 **rangeUpper** 및 **rangeLower** 특성 값이 지정된 대로가 아니면 스키마가 수정되지 않았거나 복제되지 않은 것입니다.
     
 > [!NOTE]
-> 스키마 복제 검사에서 아직 복제에 실패 한 경우 약 15 분 후에 다시 확인 합니다. Active Directory 복제는 일관성을 유지 하는 모델을 기반으로 하며, 서버와 인프라의 여러 요인에 따라 일부 복제 대기 시간이 발생할 수 있습니다. 
+> 스키마 복제 확인 시 아직 복제에 성공했음이 표시되지 않으면 약 15분간 기다린 다음 다시 확인하십시오. Active Directory 복제는 느슨한 일관성 모델을 기반으로 하여 서버 및 인프라의 여러 요인에 따라 일부 복제 대기 시간이 발생할 수 있습니다. 
   
 
