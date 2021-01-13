@@ -1,8 +1,8 @@
 ---
-title: 번역 규칙 새로 만들기 또는 기존 편집
+title: 변환 규칙 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: ea8445ec6512a8a9f04e6fd967c67bca370d8866
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: 3e516775ea9b8d0feaf35b32e84d6656aab59a2f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821950"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818868"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a>번역 규칙: 새로 만들기 또는 기존 항목 편집
+# <a name="translation-rule-create-new-or-edit-existing"></a>변환 규칙: 새로 만들기 또는 기존 항목 편집
 
-무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [비즈니스용 Skype 서버 2015에서 호출 된 ID 프레젠테이션에 대 한 번역 규칙 만들기 또는 수정](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [비즈니스용 Skype 서버 2015에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [수동으로 번역 규칙 만들기 또는 수정](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [수동으로 변환 규칙 만들기 또는 수정](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
-비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)
 

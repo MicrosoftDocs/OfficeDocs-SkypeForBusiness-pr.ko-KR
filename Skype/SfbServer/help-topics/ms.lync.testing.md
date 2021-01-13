@@ -1,8 +1,8 @@
 ---
 title: test
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 1/1/2010
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ''
-description: 여기에 소개를 삽입 합니다.
-ms.openlocfilehash: f98e0c40a9c0d3f9a2f087bd1dc3a214a8895bfb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 여기에 소개를 넣습니다.
+ms.openlocfilehash: afc20fda33d92ac58ae77154d6890d7354dfbed6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819020"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817798"
 ---
 # <a name="testing-sfb-csh"></a>SfB CSH 테스트
 
-이것은 검색에서 숨겨진 CSH 주제입니다.
+이 항목은 검색에서 숨겨져 있는 CSH 항목입니다.
 
 

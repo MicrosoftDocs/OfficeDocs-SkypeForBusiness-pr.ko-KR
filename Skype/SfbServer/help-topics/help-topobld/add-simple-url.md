@@ -1,8 +1,8 @@
 ---
 title: 단순 URL 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,25 +14,25 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
-description: 배포 정의에 다른 단순 Url을 추가 하려면 새 단순 URL의 URL을 지정 합니다.
-ms.openlocfilehash: 243dae47571286e60deb4ecdfc61beb7f175eb95
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 배포 정의에 단순 URL을 더 추가하기 위해 새 단순 URL의 URL을 지정합니다.
+ms.openlocfilehash: e4a0cf920a56658755da541eaaa22e178571c5e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216389"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818618"
 ---
 # <a name="add-simple-url"></a>단순 URL 추가
  
-배포 정의에 다른 단순 Url을 추가 하려면 새 단순 URL의 URL을 지정 합니다. URL의 형식은 _http://입니다 \<simple URL type\> . \<domain name\> _ 다음은 단순 URL 유형이 다음 중 하나에 해당 하는 _http:// \<domain name\> / \<simple URL type\> _입니다.
+배포 정의에 단순 URL을 더 추가하기 위해 새 단순 URL의 URL을 지정합니다. URL의 형식은 _\<simple URL type\> http://. \<domain name\>_ 또는 _http:// \<domain name\> / \<simple URL type\>_ URL 형식이 다음 중 하나인 경우
   
-- 조건
+- Meet
     
 - 전화 접속
     
 > [!IMPORTANT]
-> 한 번에 하나의 전화 걸기가 단순 URL에 연결 되 고 한 회의에 대 한 단순 URL 하나가 활성화 될 수 있습니다. 새 단순 URL을 추가하고 해당 URL을 활성 URL로 설정하면 이후의 모든 요청이 새 단순 URL을 사용하도록 설정됩니다. 이전 단순 URL이 활성 상태일 때 작성 된 회의 및 기타 요청을 처리 하기 위해 nonactive 단순 URL을 유지 합니다. 
+> 전화 걸기 단순 URL과 한 번의 Meet 단순 URL을 동시에 활성화할 수 있습니다. 새 단순 URL을 추가하고 해당 URL을 활성 URL로 설정하면 이후의 모든 요청이 새 단순 URL을 사용하도록 설정됩니다. 비활성 단순 URL을 그대로 두어 이전 단순 URL이 활성 상태일 때 만들어진 회의 및 기타 요청을 처리합니다. 
   
-단순 URL을 추가 하는 방법에 대 한 자세한 내용은 [비즈니스용 Skype 서버 2015의 단순 url에 대 한 DNS 요구 사항을](../../plan-your-deployment/network-requirements/simple-urls.md)참조 하세요.
+단순 URL을 추가하는 데 대한 자세한 내용은 비즈니스용 Skype 서버 [2015에서](../../plan-your-deployment/network-requirements/simple-urls.md)단순 URL에 대한 DNS 요구 사항을 참조하세요.
   
 

@@ -1,7 +1,7 @@
 ---
 title: 포트 순서
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -17,164 +17,164 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
-description: 포트 주문에 대 한 개요와 서비스 공급자 로부터 팀으로 전화 번호를 전송 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ecc14566573cf90d24323e65491851be86252b1a
-ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
+description: 포트 주문의 개요와 서비스 공급자에서 Teams로 전화 번호를 전송하는 방법에 대해 간략하게 소개합니다.
+ms.openlocfilehash: 4f1f8ca843db8c2b27eaa467b0014befe6f2b519
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399523"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802508"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 
-현재 전화 서비스 공급자 또는 통신 회사를 보유 하 고 있고 사용자 또는 서비스에 대 한 전화 번호가 이미 있는 경우 "*포트 순서*"를 만들어 해당 전화 번호를 Microsoft 팀으로 전송 해야 합니다. 번호를 받으면 오디오 회의 (회의 브리지 용), 자동 전화 교환, 통화 대기열 등의 사용자 및 서비스에 해당 전화 번호를 할당할 수 있습니다.
+현재 전화 서비스 공급자 또는 통신 사업자가 있으며 사용자 또는 서비스에 대한 전화 번호가 이미 있는 경우 해당 전화 번호를 Microsoft Teams로 전송하려면 *"포트* 주문"을 만들어야 합니다. 번호가 포터링된 경우 해당 전화 번호를 사용자 및 서비스에 할당할 수 있습니다(전화 회의용 전화 회의용), 자동 전화 참석자, 통화 큐.
   
-전화 번호를 팀으로 이식 하면 Microsoft에서 서비스 공급자가 되어 이전 서비스 공급자 또는 통신 회사와 서비스의 연결을 끊을 수 있습니다.
+전화 번호를 Teams로 포식하면 Microsoft가 서비스 공급자가 되거나 이전 서비스 공급자 또는 통신사와의 서비스 연결을 끊을 수 있습니다.
 
-이 문서에 나와 있는 정보를 검토 하 여 번호 포팅에 대해 알아 보세요. 그 후에는 포트 주문을 만들어 전화 번호를 전송할 준비가 되어 있어야 합니다. 단계별 지침은 [팀에 전화 번호 전송을](transfer-phone-numbers-to-teams.md) 참조 하세요.
+번호 포터링에 익숙해지기 위해 이 문서의 정보를 검토하세요. 그런 다음 포트 주문을 만들고 전화 번호를 전송할 준비가 된 것입니다. 단계별 [지침은 Teams로](transfer-phone-numbers-to-teams.md) 전화 번호 이전을 참조하세요.
   
-## <a name="what-countries-or-regions-support-number-porting"></a>번호 포팅에 지원 되는 국가 또는 지역
+## <a name="what-countries-or-regions-support-number-porting"></a>번호 포터링을 지원하는 국가 또는 지역은 무엇입니까?
 
-지원 되는 모든 국가 또는 지역에서 전화 번호를 이식 하거나 양도할 수 있지만, 포트 주문 요청을 제출 하는 방법은 전화 번호가 도착 하는 국가 또는 지역에 따라 달라 집니다. 번호 포팅을 지 원하는 국가 및 지역 목록은 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.  
+지원되는 모든 국가 또는 지역에서 전화 번호를 포트 또는 이전할 수 있지만, 포트 주문 요청을 제출하는 방법은 전화 번호가 들어오는 국가 또는 지역에 따라 다를 수 있습니다. 번호 포터링을 지원하는 국가 및 지역 목록은 조직의 전화 번호 [관리를 참조하세요.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)  
 
-현재 Microsoft 팀 관리 센터의 [포팅 마법사는](transfer-phone-numbers-to-teams.md) 영국, 미국 및 캐나다의 전화 번호를 얻을 수 있도록 지원 합니다. 다른 국가 및 지역에 대 한 전화 번호를 얻으려면 [포트 주문을 수동으로 제출할](manually-submit-port-order.md)수 있습니다.
+현재 Microsoft [](transfer-phone-numbers-to-teams.md) Teams 관리 센터의 포터링 마법사는 영국, 미국 및 캐나다의 전화 번호 구하기를 지원하고 있습니다. 다른 국가 및 지역의 전화 번호를 얻습니다. 포트 주문을 수동으로 [제출하면 됩니다.](manually-submit-port-order.md)
   
-## <a name="what-numbers-can-be-transferred"></a>전송할 수 있는 번호는 무엇 인가요?
+## <a name="what-numbers-can-be-transferred"></a>어떤 숫자를 전송할 수 있나요?
 
  **전송할 수 있습니다.**
   
-일반적으로 다음을 포함 하 여 지원 되는 공급자의 전화 번호를 전송할 수 있습니다.
+일반적으로 다음을 포함하여 지원되는 공급자로부터 전화 번호를 전송할 수 있습니다.
   
-- 지역 전화 번호입니다.
+- 유선 전화 번호입니다.
 
-- 휴대폰 및 태블릿에 사용 되는 모바일 장치 전화 번호입니다.
+- 휴대폰 및 태블릿에 사용되는 휴대폰 번호와 같은 모바일 장치 전화 번호입니다.
 
     > [!NOTE]
-    > 휴대폰 번호 전송은 미국 및 푸에르토리코 에서만 사용할 수 있습니다.
+    > 휴대폰 번호 이전은 미국 및 푸에르토리코에서만 사용할 수 있습니다.
   
-- 유료 전화 번호.
+- 전화 번호
 
-- 무료 전화 번호.
+- 무료 전화 번호입니다.
 
     > [!NOTE]
-    > UIFN (Universal Freephone Number)을 미국에 양도할 수 없습니다. 
+    > UIFN(유니버설 국제 무료 전화 번호)은 이체할 수 없습니다. 
   
-- 전화 회의 브리지, 자동 전화 교환 등에 사용 되는 서비스 전화 번호입니다.
+- 전화 회의 브리지, 자동 전화 회의 등에 사용되는 서비스 전화 번호
 
-- 팩스 전화 번호를 사용할 수는 없지만 팩스에는 사용 될 수 없습니다. 사용자에 게 할당 해야 합니다.
+- 팩스 전화 번호이지만 팩스에 사용할 수 없습니다. 사용자에게 할당해야 합니다.
 
-- Vonage 또는 RingCentral와 같은 휴대폰 공급자의 VoIP 전화 번호입니다.
+- Vonage 또는 RingCentral과 같은 전화 공급자의 VoIP 전화 번호입니다.
 
-- 비즈니스용 Skype 하이브리드 전화 번호. 이러한 번호를 전송 하려면에 전자 메일을 보내 주십시오 <ptn@microsoft.com> .
+- 비즈니스용 Skype 하이브리드 전화 번호입니다. 이러한 번호를 전송하려는 경우 전자 메일을 보내 주시기 <ptn@microsoft.com> 바랍니다.
 
-  **다음을 전송할 수 없습니다.**
+  **전송할 수 없습니다.**
   
     > [!NOTE]
-    > 현재는 VoIP 전화 공급자의 전화 번호를 포함 하 여 지원 되는 국가나 지역 이외의 전화 번호나 번호를 양도할 수 없습니다. 지원 되는 국가/지역 목록은 [오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 을 참조 하세요.
+    > 현재 VoIP 전화 공급자의 전화 번호를 포함하여 지원되는 국가 또는 지역에서 전송되지 않는 전화 번호 또는 번호를 이전할 수 없습니다. 지원되는 국가/지역 목록은 오디오 회의 및 통화 요금제에 대한 국가 및 지역 가용성을 [참조하세요.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
-- DSL 회선 또는 광대역 인터넷 연결과 같은 데이터 연결에 사용 되는 전화 번호입니다.
+- DSL 줄 또는 광대역 인터넷 연결과 같은 데이터 연결에 사용되는 전화 번호입니다.
 
 - 팩스 전용 전화 번호입니다.
 
-    팩스에 사용 되는 기존 전용 전화 번호가 있는 경우 이러한 번호를 팀으로 전송할  *수*  있지만, 팩스 서비스는 예상 대로 작동 하지 않습니다. 전화 시스템, 국내 통화 요금제 또는 국제 통화 요금제에 대 한 라이선스를 보유 하 고 있는 경우에도 팀 고객은 팩스 서비스를 사용할 수 없습니다.
+    팩스에 사용되는 기존 전용 전화 번호가 있는  경우 이러한 번호를 Teams로 이전할 수 있지만 팩스 서비스는 예상대로 작동하지 않습니다. 전화 시스템, 국내 통화 요금제 또는 국제 통화 요금제에 대한 라이선스가 있는 경우에도 Teams 고객은 팩스 서비스를 사용할 수 없습니다.
 
-    전화 번호를 팀으로 이식 하는 경우 팩스를 사용 하는 대신 조직의 사용자에 게이 전화 번호를 할당할 수 있습니다.
+    전화 번호를 Teams로 포터링하는 경우 팩스에 전화 번호를 사용하는 대신 조직의 사용자에게 이 전화 번호를 할당할 수 있습니다.
 
     > [!NOTE]
-    > 영국의 경우 현재 지역 코드 0843, 0844, 0845, 0870, 0871, 0872의 공유 비용 번호를 포함 하 여 영국에 거주 하지 않는 번호의 양도 지원 하지 않습니다.
+    > 현재 영국에서는 지역 번호 0843, 0844, 0845, 0870, 0871, 0872에 대한 공유 비용 번호를 포함하여 영국 비지리적 번호 이전을 지원하지 않습니다.
   
-## <a name="what-information-do-i-need-to-provide"></a>어떤 정보를 제공 해야 하나요?
+## <a name="what-information-do-i-need-to-provide"></a>어떤 정보를 제공해야 하나요?
 
-현재 통신 업체에 대 한 모든 계정 정보가 필요 합니다. 포트 주문에 입력 하는 정보는 대부분 현재 서비스 공급자의 최신 청구서 또는 송장에 나와 있습니다. 계정에 해당 하는 이름 및 포트를 원하는 번호를 알아야 할 수도 있습니다.
+현재 통신 사업자에 대한 모든 계정 정보가 필요합니다. 포트 주문에 입력하는 정보는 대부분 현재 서비스 공급자의 가장 최근 청구서 또는 송장에 있습니다. 계정의 이름과 포터를 지정하려는 번호도 알아야 합니다.
   
-## <a name="what-are-full-port-and-partial-port-transfers"></a>전체 포트 및 부분 포트 전송 이란?
+## <a name="what-are-full-port-and-partial-port-transfers"></a>전체 포트 및 부분 포트 전송이란?
 
-전화 번호를 팀으로 포팅 하는 경우 모든 번호 또는 일부를 이전 하는 옵션이 있습니다.
+전화 번호를 Teams로 포터링할 때 모든 번호 또는 일부 번호를 이전할 수 있습니다.
   
-- **전체 포트** 이는 모든 번호를 현재 서비스 공급자에서 팀으로 전송 하는 경우입니다. 전송할 전화 번호를 묻는 메시지가 표시 되 면 계정에 있는 다른 모든 전화 번호와 함께 BTN (대금 청구 전화 번호)를 *포함 해야 합니다* .
+- **전체 포트** 현재 서비스 공급자에서 Teams로 모든 번호를 이전하는 경우입니다. 이전할 전화 번호를 묻는 경우 계정에 있는  다른 모든 전화 번호와 함께 BTN(청구 전화 번호)을 포함해야 합니다.
 
-    예를 들어 BTN가  *+ 1 425-555-1234*  이 고 모든 25 개의 전화 번호 (*+ 1 425-555-1235 ~ 1259*)를 이식 하려고 한다고 가정해 보겠습니다. 다음 지침에 따라 번호를 전송 하면 **+ 14255551234-+ 14255551259**을 입력 합니다.
+    예를 들어 BTN이  *+1 425-555-1234이고*  25개 전화 *번호(+1 425-555-1235~1259)를* 모두 포터를 사용하려는 경우를 예로 들어 보겠습니다. 아래 지침에 따라 번호를 이전하면 **+14255551234 - +14255551259를** 입력합니다.
 
-- **부분 포트** 현재 서비스 공급자의 일부 전화 번호만 팀으로 전송 하는 경우입니다. 같은 BTN에 연결 된 일부 전화 번호를 이식 하려는 경우 * *는 귀하의 계정에 있는 다른 모든 전화번호와 함께 * * BTN를 *포함 하지 않아야 합니다* .
+- **부분 포트** 현재 서비스 공급자에서 Teams로 전화 번호 중 일부만 이전하는 경우입니다. 동일한 BTN에 연결한 전화 번호 중 일부를 포팅하려는 경우 **** 계정에 있는 다른 모든 전화 번호와 함께 ** BTN을 포함하면 안 됩니다.
 
-    예를 들어, BTN가  *+ 1 425-555-1234*  이 고 25 개의 전화 번호를 5 개 (*+ 1 425-555-1235 ~ 1259*)로만 이식 하려고 한다고 가정해 보겠습니다. 다음 지침에 따라 번호를 전송 하면 **+ 1 425 555 1235-+ 1 425 555 1239**을 입력 합니다.
+    예를 들어 BTN이  *+1 425-555-1234인*  경우 25개 전화 *번호(+1 425-555-1235~1259)의* 5개만 포터를 사용하려는 경우를 예로 들어 보겠습니다. 아래 지침에 따라 번호를 전송하면 **+1 425 555 1235 - +1 425 555 1239를** 입력합니다.
     
-## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>한 번에 모든 번호에 대 한 단일 번호 포팅 요청을 제출할 수 있나요?
+## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>모든 번호에 대해 한 번의 번호 포식 요청을 한 번 제출할 수 있나요?
 <a name="bkmk_type_1"> </a>
 
-이식 하는 각 통신 업체와 번호 유형에 고유한 요청이 필요 합니다.
+이식되는 각 운송업체 및 번호 유형에 대해 고유한 요청이 필요합니다.
   
-예를 들어 다음의 각 숫자 형식에 대해 고유한 번호 포팅 요청을 제출 해야 합니다.
+예를 들어 다음 유형의 숫자 각각에 대해 고유한 번호 포터링 요청을 제출해야 합니다.
   
-- 로컬 유료 전화 번호 (가입자 번호 또는 지리 번호 라고도 함)
+- 구독자 번호 또는 지리적 번호라고도 하는 로컬 전화 번호
 
-- 800, 844, 855, 866, 877, 888 등의 지역 번호를 사용 하 여 무료 통화를 받으세요.
+- 지역 번호가 있는 무료 번호(예: 800, 844, 855, 866, 877 및 888)
 
 - 휴대폰 번호
 
-- Microsoft 365 또는 Office 365에서 오디오 회의에 사용할 수 있는 서비스 번호입니다.
+- Microsoft 365 또는 Office 365의 오디오 회의에 사용할 수 있는 서비스 번호입니다.
 
-각 숫자 형식에 대해 번호 포팅 요청을 제출 하는 방법에 대 한 자세한 내용은 다음을 참조 하세요.
+이러한 숫자 유형 각각에 대한 번호 포식 요청을 제출하는 방법에 대한 자세한 내용은 다음과 같습니다.
   
-- 다른 통신 업체에서 제공 하는 **전화 번호** 를 사용 하려면 각 반송파와 함께 숫자에 대 한 고유한 포팅 요청이 필요 합니다.
+- **서로 다른 통신** 사업자에서 제공하는 전화 번호에는 각 통신 사업자 번호에 대한 고유한 포터링 요청이 있습니다.
 
-- 800, 844, 855, 866, 877, 888 등의 지역 코드를 사용 하는 무료 **번호** 는 다른 유형의 번호를 사용 하는 번호 포팅 요청에 포함 될 수 없습니다. 이러한 무료 전화 번호를 이식 하려면 [포트 순서를 수동으로 제출](manually-submit-port-order.md)해야 합니다. Microsoft 팀 관리 센터에서 이러한 번호를 이식 할 수 없습니다. 자세한 내용은 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.
+-  지역 번호가 있는 무료 번호(예: 800, 844, 855, 866, 877 및 888)는 다른 유형의 숫자로 번호 포식 요청에 포함될 수 없습니다. 이러한 무료 번호로 이식하려면 포트 주문을 수동으로 [제출해야 합니다.](manually-submit-port-order.md) Microsoft Teams 관리 센터에서는 이러한 번호를 포터를 사용할 수 없습니다. 자세한 내용은 조직의 전화 [번호 관리를 참조하세요.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-    사용 하는 국가 및 전화 번호 형식에 대 한 올바른 인증 문자 (LOA)와 포트를 지정할 수 있는 것이 중요 합니다. [필요한 LOA를 다운로드할](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)수 있습니다.
+    포트하려는 국가 및 전화 번호 유형에 대해 올바른 LOA(승인 서신)를 사용하는 것이 중요합니다. 여기에서 [필요한 LOA를 다운로드할 수 있습니다.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-- 전송에 권한을 부여 하려면 **휴대폰 번호** 에 PIN 코드가 필요 합니다. 따라서 별도의 번호 포팅 요청이 필요 합니다.
+- **휴대폰 번호에는** 전송 권한을 승인하기 위해 PIN 코드가 필요 합니다. 따라서 별도의 번호 포식 요청이 필요합니다.
 
-- **서비스 번호** 포팅 요청이 자체적으로 제출 되어야 합니다. 다른 유형의 번호로 제출할 수 없습니다.
+- **서비스 번호** 포식 요청은 자체적으로 제출해야 합니다. 다른 유형의 숫자와 함께 제출할 수 없습니다.
 
-## <a name="how-long-does-it-take-to-port-numbers"></a>포트 번호로 걸리는 시간은 얼마나 되나요?
+## <a name="how-long-does-it-take-to-port-numbers"></a>포트 번호에 얼마나 오래 걸릴까요?
 <a name="bkmk_type_1"> </a>
 
-포트 주문 요청을 완료 한 후에는 7-14 일이 처리 되어야 합니다. 그러나 서비스 공급자에 따라 최대 30 일이 걸릴 수 있습니다. 전화 번호가 전달 된 후에는 전자 메일을 받게 되며,이를 통해 연락이 완료 됩니다.
+포트 주문 요청을 완료한 후 처리하는 데 7-14일이 걸립니다. 그러나 서비스 공급자에 따라 최대 30일이 걸릴 수 있습니다. 전화 번호가 포식된 후 전자 메일을 통해 연락을 받을 수 있습니다.
   
-포트 순서의 상태를 확인 하려면 Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **전화 번호로**이동한 다음 **주문 기록을**클릭 합니다. 각 포트 주문 상태가 **상태** 열에 나열 됩니다.
+포트 주문 상태를 확인하려면 Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **음성** 전화 번호로 이동한 다음 주문  >   **기록을 클릭합니다.** 각 포트 주문 상태가 상태 **열에 나열됩니다.**
   
-## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>사용자 (구독자) 전화 번호를 서비스 번호로 변환할 수 있나요?
+## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>사용자(구독자) 전화 번호를 서비스 번호로 변환할 수 있나요?
 <a name="bkmk_type_1"> </a>
 
-예를 들어, 조직의 테 넌 트 GUID와 변환할 전화 번호를 포함 하는 서비스 요청을 제출 하기만 하면 됩니다. 이렇게 하려면 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.
+예, 할 수 있습니다. 조직의 테넌트 GUID 및 변환할 전화 번호를 포함하는 서비스 요청을 제출하기만하면 됩니다. 이를 위해 조직의 전화 [번호 관리를 참조합니다.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>팀에서 다른 전화 서비스 공급자 또는 통신 회사로 번호를 아웃할 수 있나요?
+## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>내 번호를 Teams에서 다른 전화 서비스 공급자 또는 통신사로 포터 아웃할 수 있나요?
 
-팀에서 다른 통신 회사로 번호를 이식 하려면 새 매체를 사용 하 여 요청을 제출 해야 합니다. 또한 Microsoft 팀 관리 센터에서 포팅 PIN을 설정 해야 합니다.
+Teams에서 다른 통신사로 번호를 포스아웃하려면 새 통신 사업자에 요청을 제출해야 합니다. 또한 Microsoft Teams 관리 센터에서 포터링 PIN을 설정해야 합니다.
 
-포팅 pin을 정의 하려면 Microsoft 팀 관리 센터의 왼쪽 탐색에서 **음성**  >  **전화 번호로**이동 하 여 페이지 오른쪽 위 모서리에서 **포팅 pin 관리**를 선택한 다음 10 자리 pin을 입력 합니다.
+포터링 PIN을 정의하려면 Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 페이지의 오른쪽 위 모서리에 있는 음성 전화 번호로 이동하고 포링 PIN 관리를 선택한 다음  >  10자리 PIN을 입력합니다. 
 
-새 캐리어가 포팅 요청에 대해 연락 하는 경우, 사용자가 정의한 PIN을 제공 하도록 요청 합니다.
+새 통신 사업자에서 포터링 요청을 통해 연락하면 사용자가 정의한 PIN을 제공해야 합니다.
 
-## <a name="common-mistakes-to-watch-out-for"></a>조사에 대 한 일반적인 실수
+## <a name="common-mistakes-to-watch-out-for"></a>유의해야 하는 일반적인 실수
 <a name="bkmk_type_1"> </a>
 
-번호 포팅 작업은 쉽습니다. 고객님의 주문은 messed을 받을 수 있지만, 휴대폰 서비스 공급자에 문제가 있는 경우 주문이 불완전 하 고 정보가 누락 되었거나 오타가 있습니다.
+숫자 포터링은 쉽게 할 수 있습니다. 하지만 전화 서비스 공급자에 문제가 있는 경우 주문이 불완전하고 정보가 누락되거나 오타가 있는 경우 주문이 까다로워지지만
   
-다음은 고객이 번호를 입력 했을 때 표시 되는 가장 일반적인 실수입니다. 고객 지원에 대 한 통화를 직접 저장 하 고 이러한 오류를 한 번 더 확인 합니다.
+다음은 고객이 포트 번호에서 저지르는 가장 일반적인 실수입니다. 고객 지원에 대한 통화를 저장하고 이러한 오류를 다시 검사합니다.
   
-- 제공 하는 계정 정보가 전화 통신 회사에서 기록 하는 내용과 정확히 일치 하는지 확인 합니다. 일치 하지 않는 정보는 오류의 가장 일반적인 원인이 며 포트 순서를 지연 합니다. 다음이 참인 지 확인 합니다.
+- 제공한 계정 정보가 통신사에 기록된 정보와 정확히 일치하는지 확인 불일치 정보는 오류의 가장 일반적인 원인으로, 포트 순서가 지연됩니다. 다음이 true인지 확인
 
-  - 계정 변경 권한이 있는 이름이 나 사람이 올바른지 확인 합니다.
+  - 계정을 변경할 권한이 있는 이름 또는 사용자가 올바른지 확인합니다.
 
-  - 주소가 올바릅니다.
+  - 주소가 올바른지 확인합니다.
 
-  - 계정 번호가 올바릅니다.
+  - 계정 번호가 올바른지 확인합니다.
 
-  - BTN가 올바릅니다.
+  - BTN이 올바른지 확인합니다.
 
-- 이러한 전화 번호에 사용 되는 통화 헌트, 특수 링 등의 고급 통화 제어 기능은 없는지 확인 합니다.
+- 이러한 전화 번호에서 사용할 수 있는 고급 통화 제어 기능(예: 통화 헌트, 링 링)이 없는지 확인합니다.
 
-- 새로운 서비스를 주문 하거나 현재 서비스 공급자와의 연결을 해제 하지 않았는지 확인 합니다.
+- 현재 서비스 공급자와의 연결 끊기 또는 새 서비스 주문이 없는지 확인하십시오.
 
-- 모든 숫자가 같은 통신 회사 및 동일한 계정에서 사용 중인지 확인 합니다.
+- 모든 번호가 동일한 통신 사업자 및 동일한 계정에서 만들어야 합니다.
 
-- 서비스가 활성 상태 인지 확인 합니다. 계정을 고정 시키면 계정에 있는 캐리어가 변경 되지 않습니다. 계정을 변경할 권한이 있는 사람은 현재 통신 업체에 주문을 제출 해야 고정을 제거할 수 있습니다. 이 프로세스는 캐리어에 따라 1 ~ 3 주가 걸릴 수 있습니다.
+- 서비스가 활성 상태인지 확인 계정을 동결하면 계정에서 운송업체가 변경되지 않습니다. 계정을 변경할 권한이 있는 사람은 현재 통신 회사에 주문을 제출하여 동결을 제거해야 합니다. 이 프로세스는 통신 사업자에 따라 1~3주가 걸릴 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
 - [포트 주문의 상태 확인](port-order-status.md)
-- [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [통화 요금제에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
-- [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [긴급 통화 고지 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

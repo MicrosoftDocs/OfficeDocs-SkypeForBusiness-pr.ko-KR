@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서 팀 정책 관리
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -24,18 +24,18 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: 조직에서 팀 정책을 사용 및 관리하여 사용자가 팀 및 채널에서 할 수 있는 작업을 제어하는 방법을 배워야 합니다.
-ms.openlocfilehash: 0b4664c36f24a057a7c8237823b7eafaad8ea6ba
-ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
+ms.openlocfilehash: a05aaf65418e46f7b631bac6f7d88d8bbdf4c806
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772032"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802368"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams에서 팀 정책 관리
 
 관리자는 Microsoft Teams의 팀 정책을 사용하여 조직의 사용자가 팀 및 채널에서 할 수 있는 작업을 제어할 수 있습니다. 예를 들어 사용자가 개인 채널을 만들 수 있는지 여부를 설정할 수 있습니다.
 
-Microsoft Teams 관리 센터에서 **Teams** Teams 정책으로 진행하여 팀  >   정책을 관리합니다. 전역(전체 기본) 정책을 사용하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다.
+Microsoft Teams 관리 센터에서 **Teams** Teams 정책으로 진행하여  >   팀 정책을 관리합니다. 전역(전체 기본) 정책을 사용하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다.
 
 전역 정책을 편집하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 전역 정책을 편집하거나 정책을 할당한 후 변경 내용을 적용하는 데 몇 시간이 걸릴 수 있습니다.
 

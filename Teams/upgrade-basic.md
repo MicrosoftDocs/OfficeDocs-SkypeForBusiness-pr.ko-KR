@@ -1,13 +1,13 @@
 ---
-title: 업그레이드 검사 목록 | Skype 비즈니스에서 팀으로 업그레이드 | 기본 단계
-author: lanachin
-ms.author: v-lanac
+title: 업그레이드 검사 목록 | Skype에서 Teams로 업그레이드 | 기본 단계
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 이 가속화 된 10 단계 작업 계획을 따라 Microsoft 팀 설정의 기본 비즈니스용 Skype 설정으로 전환 합니다.
+description: 이 가속화된 10단계 실행 계획을 따라 기본 비즈니스용 Skype 설정에서 Microsoft Teams 설정으로 전환합니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -23,202 +23,202 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef27d9faac30003edbb4c21ee7d9060d41ea454b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 37cc9f3940eb08a4df092042c016b194b01c64e6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666230"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809088"
 ---
-# <a name="upgrade-basic"></a>업그레이드 기본
+# <a name="upgrade-basic"></a>기본 업그레이드
 
 <a name="about-upgrade-basic"></a>
 
-소규모 조직 또는 비즈니스용 Skype Online for IM (채팅) 및 모임만을 사용 하도록 디자인 됨, 업그레이드 기본 검사 목록은 비즈니스를 위해 비즈니스용 Skype에서 팀으로 성공적으로 이동 하는 데 필요한 핵심, 추천 활동 및 관련 리소스를 포함 하는 가속화 된 동작 계획입니다.
+소규모 조직이나 IM(채팅) 및 모임용으로만 비즈니스용 Skype Online을 사용하는 사용자용으로 설계된 업그레이드 기본 검사 목록은 비즈니스용 Skype에서 Teams로의 성공적인 이동을 구현하기 위한 핵심, 권장 활동 및 관련 리소스를 포함하는 가속화된 작업 계획입니다.
 
-이 10 가지 간단한 단계는 성공적인 업그레이드를 위해 필요한 모든 것을 제공 합니다. 약 30 ~ 45 일 동안 완료 되도록 설계 되었지만 조직의 업그레이드 일정에 따라 작업 완료 날짜를 조정 해야 합니다.
+이 10단계는 성공적인 업그레이드에 필요한 모든 것을 제공하는 단계입니다. 약 30~45일 후 완료하도록 설계되지만 조직의 업그레이드 일정에 따라 작업 완료 날짜를 조정해야 합니다.
 
 > [!IMPORTANT]
-> 비즈니스용 Skype Online은 2021 년 7 월 31 일에 만료 됩니다. 그 후에는 비즈니스용 Skype Online 서비스에 더 이상 액세스할 수 없거나 지원 되지 않습니다. 조직의 혜택 실현을 최대화 하 고 업그레이드를 구현 하는 데 적절 한 시간을 확보 하려면 지금 Microsoft 팀으로 여행을 시작 하는 것이 좋습니다.
+> 비즈니스용 Skype Online은 2021년 7월 31일 사용이 중지됩니다. 그 이후에는 비즈니스용 Skype Online 서비스에 더 이상 액세스하거나 지원되지 않습니다. 혜택 구현을 극대화하고 조직이 업그레이드를 구현할 수 있는 적절한 시간을 확보하려면 지금 Microsoft Teams로의 여정을 시작하는 것이 권장됩니다.
 
-업그레이드 후 비즈니스용 Skype는 어떻게 되나요? 사용자가 팀으로 업그레이드 한 후 (**팀 전용** 모드):
+업그레이드 후 비즈니스용 Skype는 어떻게 하나요? 사용자를 Teams로 업그레이드한 후(**Teams 전용** 모드):
 
-- 비즈니스용 Skype 클라이언트를 사용할 수 없으며 모든 채팅 및 통화가 팀으로 이동 합니다. 이것은 데스크톱에서 클라이언트를 제거 하지 않는 것을 참고 하세요.
-- 업그레이드 전에 예정 된 모든 비즈니스용 Skype 모임이 설계 된 대로 작동 하지만 모든 새 모임이 팀에 예정 되어 있습니다. Outlook에서 더 이상 비즈니스용 Skype 플러그 인을 사용할 수 없습니다. 
-- 사용자가 비즈니스용 Skype에 로그인을 시도 하면 해당 클라이언트에서 팀으로 업그레이드 한 알림을 받게 됩니다.
-- 사용자는 모바일 장치에서 비즈니스용 Skype 클라이언트를 수동으로 제거 해야 합니다.
+- 비즈니스용 Skype 클라이언트가 비활성화되어 있으며 모든 채팅 및 통화가 Teams로 이동됩니다. 이 경우 데스크톱에서 클라이언트가 제거되지 않습니다.
+- 업그레이드가 계획된 것으로 작동하기 전에 예약된 비즈니스용 Skype 모임이지만 모든 새 모임은 Teams에서 예약됩니다. 비즈니스용 Skype 플러그 인은 Outlook에서 더 이상 사용할 수 없습니다. 
+- 사용자가 비즈니스용 Skype에 로그인하려고 시도하면 클라이언트로부터 Teams로 업그레이드했다는 알림이 표시됩니다.
+- 사용자는 모바일 장치에서 비즈니스용 Skype 클라이언트를 수동으로 제거해야 합니다.
 
-업그레이드에 대 한 추가 질문이 필요한 경우 [FAQ](https://aka.ms/SkypeToTeams-FAQ) 를 참조 하세요.
+업그레이드에 [대한 추가 질문은 FAQ를](https://aka.ms/SkypeToTeams-FAQ) 참조하세요.
 
-팀에 익숙하지 않습니까? Microsoft 365 및 Office 365에서 팀이 대화, 모임, 파일, Office 앱, 타사 통합 (팀워크 용 단일 허브 제공)을 함께 가져오는 [방법을](https://products.office.com/microsoft-teams/group-chat-software) 알아보세요.
+Teams에 익숙하지 않은가요? [Teams가](https://products.office.com/microsoft-teams/group-chat-software) Microsoft 365 및 Office 365에서 팀워크를 위한 단일 허브를 제공하는 대화, 모임, 파일, Office 앱 및 타사 통합을 통합하는 방법을 읽어 읽습니다.
 
 <!--ENDOFSECTION-->
 
 <a name="step-1"></a>
 
-## <a name="step-1-notify-your-key-stakeholders"></a>1 단계. 주요 관련자에 게 알림
+## <a name="step-1-notify-your-key-stakeholders"></a>1단계. 주요 이해 관계자에게 알림
 
-*(업그레이드 전 4 ~ 6 주)*
+*(업그레이드하기 약 4~6주 전)*
 
-선임 리더는 회사 성공에 대해 책임을 지 고 있습니다. 기술 변경 사항에 대해 알고 있어야 합니다. 모든 사람이 업그레이드 자격에 대 한 알림을 받거나 읽지 않을 수 있으므로 업그레이드 계획을 시작 하기 전에 관계자에 게 관련자 (예: CEO, IT 전문가, 마케팅, 헬프데스크 책임자)에 게 알려야 합니다.
+선임 책임자에는 회사 성공에 대한 책임이 있습니다. 기술 변경에 대한 정보를 계속 유지해야 합니다. 모든 사람이 업그레이드 자격 알림을 받거나 읽지 않을 수 있기 때문에 업그레이드 계획을 시작하기 전에 이해 관계자(예: CEO, IT pros, Marketing 및 helpdesk 리드)에게 알려야 합니다.
 
-**리소스도**
+**리소스:**
 
-- [샘플 전자 메일: 관련자 통신](upgrade-emails-surveys.md#step-1-email)
+- [샘플 전자 메일: 이해 관계자 통신](upgrade-emails-surveys.md#step-1-email)
 
-[맨 위로 이동](#about-upgrade-basic)
+[맨 위로 돌아가기](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>2 단계. Teams를 사용하도록 조직 준비
+## <a name="step-2-prepare-your-organization-for-teams"></a>2단계. Teams를 사용하도록 조직 준비
 
-*(업그레이드 전 4 ~ 6 주)*
+*(업그레이드하기 약 4~6주 전)*
 
-팀은 IM (채팅), 모임 등의 비즈니스용 Skype 기능을 제공 하지만 훨씬 더 많은 작업을 수행할 수도 있습니다. 팀워크의 진정한 허브 인 팀은 작업 그룹에서 프로젝트, 파일, 대화 및 앱을 모두 한 곳에서 관리할 수 있도록 합니다. 기본적으로 모든 조직에 Teams가 설정되어 있습니다. 조직에서 팀을 사용 하는 방법을 결정 하 고 성공을 위해 환경을 구성 합니다. 
+Teams는 IM(채팅) 및 모임과 같은 호환 가능한 비즈니스용 Skype 기능을 제공하지만 훨씬 더 많은 기능을 사용할 수 있습니다. 팀워크를 위한 진정한 허브인 Teams를 사용하면 프로젝트, 파일, 대화 및 앱을 한 위치에서 모두 관리할 수 있습니다. 기본적으로 모든 조직에 Teams가 설정되어 있습니다. 조직에서 Teams를 사용하는 방법을 결정하고 성공을 위해 환경을 구성합니다. 
 
 > [!Note]
-> 기존 비즈니스용 Skype 고객 인 경우 현재 네트워크 인프라는 이미 팀에 대해 구성 되었을 수 있습니다. 이를 확인 하기 위해 아래에 연결 된 "전체 기술 계획" 지침을 팔 로우 할 수 있습니다 (선택 사항).
+> 기존 비즈니스용 Skype 고객은 현재 네트워크 인프라가 Teams에 대해 이미 구성되어 있을 수 있습니다. 이를 확인하기 위해 아래와 연결된 "전체 기술 계획" 지침을 따를 수 있습니다(선택 사항).
 
-**리소스도**
+**리소스:**
 
-- [팀 개요](Teams-overview.md)
+- [Teams 개요](Teams-overview.md)
 - [Microsoft Teams 시작하기](get-started-with-teams-quick-start.md)
 
-[맨 위로 이동](#about-upgrade-basic)
+[맨 위로 돌아가기](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-3"></a>
 
-## <a name="step-3-know-your-skype-for-business-users"></a>3 단계. 비즈니스용 Skype 사용자 알아보기
+## <a name="step-3-know-your-skype-for-business-users"></a>3단계. 비즈니스용 Skype 사용자 확인
 
-*(업그레이드 전 4 주)*
+*(업그레이드 약 4주 전)*
 
-비즈니스용 Skype에서 밀접 하 게 채택 된 사용자는 팀으로 전환 하는 데 약간의 시간이 소요 되거나 지원이 필요할 수 있습니다. 현재 비즈니스용 Skype 사용 현황을 검토 하 여 추가 지원을 필요로 하는 상위 사용자를 식별 하 고 업그레이드 후 번호를 추적할 수 있는 사용량 기준을 설정 합니다.
+비즈니스용 Skype에 깊이 채택된 사용자는 Teams로 전환하는 데 약간의 시간이나 지원이 필요할 수 있습니다. 현재 비즈니스용 Skype 사용량을 검토하여 추가 지원이 필요한 상위 사용자를 식별하고 업그레이드 후 번호에 대해 추적할 수 있는 사용 기준을 설정하세요.
 
-**리소스도**
+**리소스:**
 
 - [관리 센터의 Microsoft 365 보고서](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
 
-[맨 위로 이동](#about-upgrade-basic)
+[맨 위로 돌아가기](#about-upgrade-basic)
 
 <a name="step-4"></a>
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>4 단계. 비즈니스용 Skype에서 팀으로 업그레이드 한다는 것을 사용자에 게 알립니다.
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>4단계. 사용자에게 비즈니스용 Skype에서 Teams로 업그레이드된다고 알릴 수 있습니다.
 
-*(업그레이드 전 2 ~ 3 주)*
+*(업그레이드하기 약 2~3주 전)*
 
-사용자에 게 충분 한 알림을 제공 하면 생산성에 부정적인 영향을 주지 않고 팀에 익숙해질 수 있는 시간을 부여 하 여 보다 긍정적인 사용자 환경이 가능 합니다. 변경 내용, 변경 이유,이를 위해 준비 하는 방법 등을 알리기 위해 통신을 보낼 수 있습니다.
+사용자에게 알기 좋은 공지를 제공하면 생산성에 부정적인 영향을 주지 않고 Teams에 익숙해지면서 더 긍정적인 사용자 환경을 얻을 수 있습니다. 통신을 보내 변경된 변경, 변경 이유 및 준비 방법을 알 수 있습니다.
 
 > [!Note]
-> 필요한 경우 현재 Microsoft 365 관리 센터를 통해 사용자의 팀을 사용 하도록 설정할 수 있습니다.
+> 필요한 경우 현재 Microsoft 365 관리 센터를 통해 사용자에 대해 Teams를 사용하도록 설정할 수 있습니다.
 
-**리소스도**
+**리소스:**
 
 - [조직에서 Microsoft Teams 설정 관리](enable-features-office-365.md)
-- [샘플 전자 메일: 비즈니스용 Skype에 대 한 사용자에 게 알림](upgrade-emails-surveys.md#step-4-email)
+- [샘플 전자 메일: 사용자에게 비즈니스용 Skype에 대한 알림](upgrade-emails-surveys.md#step-4-email)
 
-[맨 위로 이동](#about-upgrade-basic)
+[맨 위로 돌아가기](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-5"></a>
 
-## <a name="step-5-activate-the-user-upgrade-notification"></a>5 단계. 사용자 업그레이드 알림 활성화
+## <a name="step-5-activate-the-user-upgrade-notification"></a>5단계. 사용자 업그레이드 알림 활성화
 
-*(업그레이드 전 1 주)*
+*(업그레이드 약 1주 전)*
 
-사용자가 비즈니스용 Skype에서 팀으로 업그레이드 하는 비즈니스용 Skype 클라이언트에 시각적 알림을 제공 하 여 관리 포털을 통해 사용자 업그레이드 알림을 통해 계속 앞서 하 여 업그레이드를 유지 합니다.
+관리 포털을 통해 사용자 업그레이드 알림을 사용하도록 설정하여 비즈니스용 Skype 클라이언트에서 사용자가 비즈니스용 Skype에서 Teams로 업그레이드되고 있는 시각적 알림을 제공하여 업그레이드 모멘텀을 유지하세요.
 
-**리소스도**
+**리소스:**
 
 - [공존 및 업그레이드 설정 설정](setting-your-coexistence-and-upgrade-settings.md)
 
-[맨 위로 이동](#about-upgrade-basic)
+[맨 위로 돌아가기](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-6"></a>
 
-## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>6 단계. 비즈니스용 Skype에서 팀으로 업그레이드할 사용자에 게 미리 알림
+## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>6단계. 사용자에게 비즈니스용 Skype에서 Teams로 업그레이드할 것 을 미리 알림
 
-*(업그레이드 되기까지 5 일 정도)*
+*(업그레이드 약 5일 전)*
 
-사용자가 일상 업무를 진행 중입니다. 보류 중인 업그레이드를 상기 시키는 경우 팀을 준비 하는 데 필요한 단계를 수행 하는 데 도움이 됩니다. 이는 사용자에 게 사용할 수 있는 교육 및 팀 시작 방법을 알려 주는 가장 좋은 시간입니다.
+사용자는 일상적인 책임으로 바쁘게 일하고 있습니다. 보류 중인 업그레이드를 상기하면 Teams를 준비하는 데 필요한 단계를 기억하는 데 도움이 됩니다. 사용 가능한 교육 및 Teams를 시작하는 방법을 사용자에게 알리는 완벽한 시간입니다.
 
-**리소스도**
+**리소스:**
 
-- [예제 전자 메일: 팀 시작을 위해 사용자에 게 미리 알림](upgrade-emails-surveys.md#step-6-email)
+- [샘플 전자 메일: 사용자에게 Teams 시작 미리 알림](upgrade-emails-surveys.md#step-6-email)
 
-[맨 위로 이동](#about-upgrade-basic)
+[맨 위로 돌아가기](#about-upgrade-basic)
 
 <a name="step-7"></a>
 
 <!--ENDOFSECTION-->
 
-## <a name="step-7-upgrade-users-to-teams"></a>7 단계. 사용자를 팀으로 업그레이드!
+## <a name="step-7-upgrade-users-to-teams"></a>7단계. 사용자를 Teams로 업그레이드하세요!
 
 *(업그레이드 일)*
 
-현재 조직에서 통신 및 공동 작업 솔루션으로 팀으로 공식적으로 업그레이드 하는 날짜입니다. Microsoft 팀 관리 센터에서 공존 모드를 **팀 으로만**설정 하 여 업그레이드 스위치를 활성화 합니다. (관리 센터에서 **조직 전체 설정**  >  으로 이동 합니다. **팀 업그레이드**.) 사용자가 비즈니스용 Skype 클라이언트에서 팀으로 업그레이드 한 알림을 받게 됩니다.
+오늘은 조직이 커뮤니케이션 및 공동 작업 솔루션으로 Teams로 공식적으로 업그레이드하는 날입니다. Microsoft Teams 관리 센터에서 공존 모드를 Teams 전용으로 설정하여 업그레이드 스위치를 **활성화합니다.** (관리 센터에서 전체 **설정으로 이동**  >  **Teams 업그레이드.)** 사용자는 비즈니스용 Skype 클라이언트에서 Teams로 업그레이드했다는 알림을 받게 됩니다.
 
-모든 사용자가 업그레이드 된 후 팀에 환영 전자 메일을 보낼 것을 권장 합니다.
+모든 사람이 업그레이드된 후 Teams에 환영 전자 메일을 보내는 것이 좋습니다.
 
-**리소스도**
+**리소스:**
 
 - [공존 및 업그레이드 설정 지정](setting-your-coexistence-and-upgrade-settings.md)
-- [샘플 전자 메일: 팀에 대 한 사용자 시작](upgrade-emails-surveys.md#step-7-email)
+- [샘플 전자 메일: Teams에 대한 사용자 환영](upgrade-emails-surveys.md#step-7-email)
 
-[맨 위로 이동](#about-upgrade-basic)
+[맨 위로 돌아가기](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-8"></a>
 
-## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>8 단계. 기준에 맞게 팀 사용량 모니터링
+## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>8단계. 기준에 대한 Teams 사용량 모니터링
 
-*(업그레이드 후 1 ~ 2 주)*
+*(업그레이드 후 약 1~2주 후)*
 
-새로운 기술로 조정 하는 데 시간이 걸릴 수 있습니다. 사용 현황을 확인 하 여 사용자가 비즈니스용 Skype에서와 동일한 수준 이상의 팀을 사용 하 고 있는지 확인 합니다. 예상 수준에서 팀을 사용 하지 않는 사용자와 체크 인 합니다.
+새 기술에 맞게 조정하는 데 다소 시간이 걸릴 수 있습니다. 사용량을 확인하여 사용자가 비즈니스용 Skype와 동일한 수준 또는 그 이상으로 Teams를 사용하고 있는지를 확인할 수 있습니다. 예상된 수준에서 Teams를 사용하지 않는 사용자로 체크 인합니다.
 
-**리소스도**
+**리소스:**
 
 - [사용 현황 데이터 보기](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
-[맨 위로 이동](#about-upgrade-basic)
+[맨 위로 돌아가기](#about-upgrade-basic)
 
 <a name="step-9"></a>
 
 <!--ENDOFSECTION-->
 
-## <a name="step-9-measure-user-satisfaction"></a>9 단계. 사용자 만족도 측정
+## <a name="step-9-measure-user-satisfaction"></a>9단계. 사용자 만족도 측정
 
-*(업그레이드 후 1 ~ 2 주)*
+*(업그레이드 후 약 1~2주 후)*
 
-직원 만족도는 생산성, 보존, 궁극적으로 비즈니스 결과물에 영향을 줄 수 있습니다. 사용자에 게 연락 하 여 업그레이드와 팀의 만족도에 대 한 정서을 평가 하세요.
+직원 만족도는 생산성, 보존 및 궁극적으로 비즈니스 결과에 영향을 줄 수 있습니다. 사용자에게 도달하여 업그레이드에 대한 사용자 감정과 Teams에 대한 만족도를 측정합니다.
 
-**리소스도**
+**리소스:**
 
-- [예제 전자 메일: 사용자와](upgrade-emails-surveys.md#step-9-email) [사용자 설문 조사](upgrade-emails-surveys.md#step-9-surveys) 에 모두 체크 인
+- [샘플 전자 메일: 사용자 및](upgrade-emails-surveys.md#step-9-email)사용자 설문 조사 [체크](upgrade-emails-surveys.md#step-9-surveys) 인
 
-[맨 위로 이동](#about-upgrade-basic)
+[맨 위로 돌아가기](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a>10 단계. 팀으로 ROI 극대화
+## <a name="step-10-maximize-your-roi-with-teams"></a>10단계. Teams를 통해 ROI 최대화
 
-*지속*
+*(진행 중)*
 
-사용자가 팀에서 IM (채팅) 및 모임을 사용 하는 데 익숙한 경우 팀 공동 작업 및 앱 통합을 통해 사용 사례를 확장 하 고, 자신의 새 솔루션을 최적화 하 고, 투자 수익률을 극대화할 수 있도록 합니다.
+사용자가 Teams에서 IM(채팅) 및 모임에 익숙해진 후 Teams 공동 작업 및 앱 통합을 사용하여 사용 사례를 확장하고 새 솔루션을 진정으로 최적화하고 투자 수익률을 극대화하도록 장려합니다.
 
-**리소스도**
+**리소스:**
 
-- [샘플 전자 메일: 사용자가 더 많은 팀을 탐색 하도록 권유](upgrade-emails-surveys.md#step-10-email)
+- [샘플 전자 메일: 사용자가 Teams를 더 탐색하도록 장려](upgrade-emails-surveys.md#step-10-email)
 
-[맨 위로 이동](#about-upgrade-basic)
+[맨 위로 돌아가기](#about-upgrade-basic)

@@ -1,8 +1,8 @@
 ---
 title: 2010용 Lync Server에 대한 등록자 설정 확장기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 탄성에 대한 설정을 편집하고 다음 속성을 구성합니다.
-ms.openlocfilehash: 4271203bf9f737034796cc3b74c95836480df521
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 92df9deeba1287dab4dc7d84b089fa81ca2e51ca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217179"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818328"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>2010용 Lync Server에 대한 등록자 설정 확장기
  
-**탄성**에 대한 설정을 편집하고 다음 속성을 구성합니다.
+**탄성** 에 대한 설정을 편집하고 다음 속성을 구성합니다.
   
-- 목록에서 **연결된 백업 등록자 풀**을 선택합니다.
+- 목록에서 **연결된 백업 등록자 풀** 을 선택합니다.
     
     원하는 경우 **자동 음성 장애 조치(failover) 및 장애 복구(failback)** 확인란을 선택합니다.
     

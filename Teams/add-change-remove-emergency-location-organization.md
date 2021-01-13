@@ -1,7 +1,7 @@
 ---
 title: 긴급 위치 추가, 변경, 제거
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,70 +16,70 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 'Microsoft 팀 관리 센터에서 조직의 긴급 위치를 추가, 변경 또는 제거 하는 방법에 대해 알아봅니다. '
+description: 'Microsoft Teams 관리 센터에서 조직의 긴급 위치를 추가, 변경 또는 제거하는 방법을 배워야 합니다. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 762246630d245acf92c16aff8df2c9392a307b07
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: a470a75d367bc47d4063a2a99171a4a09e052fca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788572"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799948"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>조직의 응급 위치 추가, 변경 또는 제거
 
-비상 위치는 전화 번호와 연결 되어야 하지만,이 문제가 발생 하는 경우 국가와 지역에 따라 다를 수 있습니다. 예를 들어 미국에서 사용자에 게 전화 번호를 할당할 때 비상 위치를 연결 해야 합니다. 영국에서는 Microsoft 365 또는 Office 365에서 전화 번호를 받을 때와 현재 서비스 공급자 로부터 전화 번호를 전송 하는 경우 긴급 위치를 전화 번호에 연결 해야 합니다.
+긴급 위치는 전화 번호와 연결되어야 하지만 이 경우 국가와 지역마다 다를 수 있습니다. 예를 들어 미국의 경우 사용자에게 전화 번호를 할당할 때 긴급 위치를 연결해야 합니다. 영국에서는 Microsoft 365 또는 Office 365에서 전화 번호를 옮기거나 현재 서비스 공급자로부터 전화 번호를 이전할 때 긴급 위치를 전화 번호에 연결해야 합니다.
 
-거주 국가 또는 지역에 관계 없이 긴급 위치에 위치 또는 위치를 추가 하 고 긴급 위치를 제거할 수 있습니다. 조직의 실제 위치 수에 따라 빌딩, 바닥, 사무실 등의 위치를 만들 수 있습니다. [비상 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)를 참조 하세요.
+현재 국가 또는 지역에 상관없이 긴급 위치에 장소 또는 장소를 추가하고 긴급 위치를 제거할 수 있습니다. 조직의 물리적 위치 수에 따라 건물, 층 및 사무실을 위한 장소를 만들 수 있습니다. 긴급 [통화 관리를 참조합니다.](what-are-emergency-locations-addresses-and-call-routing.md)
   
-통화 요금제와 비용을 가져오는 방법을 알아보려면 [팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
+통화 요금제와 비용에 대한 자세한 내용은 Teams 추가 기능 [라이선스를 참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
-Microsoft 팀 관리 센터에서 또는 PowerShell을 사용 하 여 조직의 긴급 위치를 관리할 수 있습니다.
+Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 조직의 긴급 위치를 관리합니다.
   
 ## <a name="add-an-emergency-location"></a>긴급 위치 추가
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색에서 **위치**  >  **긴급 주소**를 클릭 합니다.
-2. **추가**를 클릭 합니다.
-3. 위치에 대 한 이름과 설명을 입력 합니다.
-4. 국가 또는 지역을 선택한 다음 주소를 입력 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 위치 긴급  >  **주소를 클릭합니다.**
+2. 추가를 **클릭합니다.**
+3. 위치에 대한 이름 및 설명을 입력합니다.
+4. 국가 또는 지역을 선택한 다음 주소를 입력합니다.
 
    > [!NOTE]
-   > 벨기에, 프랑스, 독일, 아일랜드, 네덜란드, 스페인에서는 Microsoft 365 또는 Office 365에서 전화 번호를 성공적으로 활성화 하는 것을 이해 하는 것이 중요 하며, 해당 번호를 구하는 데 사용 되는 비상 위치에 설정 된 주소는 전화 번호의 지역 번호와 일치 해야 합니다.
+   > 벨기에, 프랑스, 독일, 아일랜드, 네덜란드 및 스페인에서는 Microsoft 365 또는 Office 365에서 전화 번호를 성공적으로 활성화하려면 전화 번호를 획득하는 데 사용되는 긴급 위치에 설정된 주소가 전화 번호의 지역 번호와 일치해야 합니다.
 
-5. 주소를 찾을 수 없는 경우 수동으로 주소를 편집 하려면 **수동으로 주소 편집**을 설정 합니다.
-6. **저장**을 클릭합니다.
+5. 주소를 찾을 수 없는 경우 주소를 수동으로 편집하려면 수동으로 주소 **편집을 켜야 합니다.**
+6. **저장** 을 클릭합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-[새로운 CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress)을 참조 하세요.
+[New-CsOnlineLisCivicAddress를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress)
     
 ## <a name="change-an-emergency-location"></a>긴급 위치 변경
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색에서 **위치**  >  **긴급 주소**를 클릭 합니다.
-2. 목록에서 변경 하려는 위치를 선택 하 고 **편집**을 클릭 합니다.
-3. 원하는 변경 작업을 수행 합니다.
-4. **저장**을 클릭합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 위치 긴급  >  **주소를 클릭합니다.**
+2. 목록에서 변경할 위치를 선택한 다음 편집을 **클릭합니다.**
+3. 원하는 내용을 변경합니다.
+4. **저장** 을 클릭합니다.
 
 > [!NOTE]
-> 주소의 유효성을 검사 하지 않은 경우에만 위치에 대 한 주소 정보를 변경할 수 있습니다. 주소가 이미 확인 되었고 주소를 변경 해야 하는 경우 위치를 삭제 하 고 올바른 주소로 새 위치를 만듭니다.
+> 주소의 유효성이 검사되지 않은 경우 위치에 대한 주소 정보를 변경할 수 있습니다. 주소의 유효성이 이미 검사된 경우 주소를 변경하고 위치를 삭제한 다음 올바른 주소로 새 위치를 만들어야 합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-[Set-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress)를 참조 하세요.
+[Set-CsOnlineLisCivicAddress를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress)
     
 ## <a name="remove-an-emergency-location"></a>긴급 위치 제거
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색에서 **위치**  >  **긴급 주소**를 클릭 합니다.
-2. 목록에서 제거 하려는 위치를 선택 하 고 **삭제**를 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 위치 긴급  >  **주소를 클릭합니다.**
+2. 목록에서 제거할 위치를 선택한 다음 삭제를 **클릭합니다.**
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-[제거-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress)을 참조 하세요.
+[Remove-CsOnlineLisCivicAddress를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress)
 
 ## <a name="related-topics"></a>관련 항목
 

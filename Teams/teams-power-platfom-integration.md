@@ -1,7 +1,7 @@
 ---
-title: Microsoft 파워 플랫폼과의 팀 통합
-author: lanachin
-ms.author: v-lanac
+title: Microsoft Power Platform과 Teams 통합
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: kvivek
 ms.topic: article
@@ -16,41 +16,41 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: Power BI, Power apps, power 자동화 및 파워 가상 에이전트를 포함 하 여 Microsoft 파워 플랫폼 도구와의 통합에 대해 알아보세요.
-ms.openlocfilehash: 81d673069e972f4627a8bfab18095e81803dd4b1
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+description: Power BI, Power Apps, Power Automate 및 Power Virtual Agents를 비롯한 Microsoft Power Platform 도구와 Teams 통합에 대해 자세히 배워야 합니다.
+ms.openlocfilehash: 0fb05596fb5fa87ab4e209325cc35b7a3eae56d9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085686"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804568"
 ---
-# <a name="teams-integration-with-microsoft-power-platform"></a>Microsoft 파워 플랫폼과의 팀 통합
+# <a name="teams-integration-with-microsoft-power-platform"></a>Microsoft Power Platform과 Teams 통합
 
-Microsoft 파워 플랫폼은 사용자가 **POWER BI** 를 사용 하 여 데이터를 분석 하 고, power **app** 을 사용한 사용자 지정 앱을 작성 하 고, 파워 **자동화** 를 사용 하 여 프로세스를 자동화 하 고, **power Virtual agent** 를 사용 하 여 지능형 인공 지능 생성을 더욱 빠르게 할 수 있는 Shift + remote 및 하이브리드 작업을 사용 하면 Microsoft 팀이 전세계 사용자가 계속 해 서 만들고, 공동 작업 하 고, 통신할 수 있습니다. 일일 활성 사용자가 7500만 명 이상인 팀은 사람들이 작업을 수행 하는 방법입니다.
+Microsoft Power Platform을 사용하면 사용자가 Power **BI를** 사용하여 데이터를 분석하고, **Power Apps를** 사용하여 사용자 지정 앱을 빌드하고, **Power Automate를** 사용하여 프로세스를 자동화하고, **Power Virtual Agent를** 사용하여 지능형 봇을 더욱 빠르게 만들 수 있는 낮은 코드 도구를 사용하여 개발을 가속화할 수 있습니다. 원격 및 하이브리드 작업으로 전환하여 Microsoft Teams는 전 세계 사람들이 계속해서 만들고, 공동 작업하고, 커뮤니케이션할 수 있도록 지원했습니다. 매일 7,500만 명 이상의 활성 사용자가 있는 Teams는 사람들이 작업을 완료하는 방식입니다.
 
-:::image type="content" source="media/teams-power-platform-integration.png" alt-text="팀 및 Microsoft Power Platform의 이미지 요약":::
+:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Teams 및 Microsoft Power Platform을 요약한 이미지":::
 
-Microsoft Power Platform은 팀에 **POWER BI** 보고서를 포함 하 고, **power** app을 사용 하 여 만든 앱을 탭 또는 개인 앱으로 포함 하 고, 모든 메시지에서 **전원 자동화** 흐름을 트리거하거나, 향상 된 카드를 사용 하 여 조직의 다른 구성원을 위해 **팀에 직접** 만든 인공 지능을 추가할 수 있는 다양 한 통합 기능을 제공 합니다.
+Microsoft Power Platform은 Teams 작업 영역의 Power **BI** 보고서를, **Power Apps를** 탭 또는 개인 앱으로 사용하여 만든 앱을 에디션하고, 메시지에서 **Power Automate** 흐름을 트리거하거나,  적응형 카드를 사용하여 만든 봇을 Teams에 추가하여 조직의 다른 구성원이 상호 작용할 수 있도록 Teams와 다양한 통합 기능을 제공합니다.
 
-2020 년 9 월부터 *팀 인터페이스를 종료 하지 않고도* 사용자가 다음을 수행할 수 있도록 Microsoft Power Platform 통합이 개선 되었습니다.
+2020년 9월부터 사용자가 Teams 인터페이스를 종료하지 않고 다음을 할 수 있도록 Microsoft Power Platform과의 *통합이 향상되었습니다.*
 
-- **POWER BI** 를 사용 하 여 대시보드, 보고서, 앱을 만들고 공유 하 여 데이터 기반 결정을 내립니다.
-- 새로운 기본 데이터 플랫폼 (팀의 경우 Microsoft Dataverse), Microsoft 365 또는 커넥터를 통해 다른 데이터 원본에 저장 된 비즈니스 데이터에 연결 하 여 통합 된 **앱** studio를 사용 하 여 낮은 코드, 용도의 앱을 만들고 공유 합니다.
-- 파일을 동기화 하 고, 알림을 받고, 데이터를 수집 하 고, **강력한 자동화** 를 사용 하 여 앱과 서비스 간에 자동화 된 워크플로를 만듭니다.
-- **파워 가상 에이전트** 를 사용 하 여 간편 하 고 비 코드 그래픽 인터페이스를 사용 하 여 팀 내에서 쉽게 디지털 도우미를 만들고 동료 들이 함께 채팅할 수 있도록 하 여 인공 지능을 만듭니다.
+- **Power BI를** 사용하여 대시보드, 보고서 및 앱을 만들고 공유하여 데이터 기반 의사 결정을 내릴 수 있습니다.
+- 새 기본 데이터 플랫폼(Teams용 Microsoft Dataverse), Microsoft 365 또는 커넥터를 통해 다른 데이터 원본에 저장된 비즈니스 데이터에 연결하여 통합 **Power Apps** Studio를 사용하여 저 코드의 용도에 따라 작성된 앱을 만들고 공유합니다.
+- Power Automate를 사용하여 파일을 동기화하고, 알림을 받고, 데이터를 수집하는 등 앱과 서비스 간에 자동화된 **워크플로를 만들 수 있습니다.**
+- **Power Virtual Agents를** 사용하여 안내된 코드 없는 그래픽 인터페이스를 사용하여 봇을 빌드하여 Teams 내에서 디지털 도우미를 쉽게 만들고 동료가 채팅할 수 있도록 합니다.
 
-앱, 인공 코드 및 워크플로를 만드는 새로운 기능은 관계형 데이터 저장소, 풍부한 데이터 형식, enterprise 등급 관리 및 한 번의 클릭 솔루션 배포를 제공 하는 팀의 [Dataverse 메시지](https://go.microsoft.com/fwlink/?linkid=2143541), 팀에 대 한 새 기본 제공 데이터 플랫폼에서 지원 됩니다. 팀의 dataverse는 [Microsoft dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)위에 빌드됩니다. 팀에 대 한 Dataverse를 사용 하는 경우 팀 사용자는 업계에서 일반적인 시나리오를 소개 하는 팀 앱 스토어에서 사용자 지정 하 여 사용할 수 있는 솔루션을 찾아 설치 합니다. 조직의 브랜딩 및 요구 사항에 맞게 이러한 사용자 지정 솔루션을 사용자 지정 하 고 확장할 수 있습니다.
+앱, 봇 및 워크플로를 만드는 새로운 기능은 Teams용 기본 제공 저 코드 데이터 플랫폼, [Teams용](https://go.microsoft.com/fwlink/?linkid=2143541)데이터버스를 통해 지원됩니다. 이 플랫폼은 관계형 데이터 저장소, 풍부한 데이터 형식, 엔터프라이즈급 거버넌스 및 원 클릭 솔루션 배포를 제공합니다. Teams용 데이터버스는 Microsoft [Dataverse를 토대하여 구축됩니다.](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) Teams용 데이터버스를 사용하여 Teams 사용자는 Teams 앱 스토어에서 산업 전반에 걸쳐 일반적인 시나리오를 소개하는 사용자 지정 즉시 사용할 수 있는 솔루션을 찾아 설치할 수 있습니다. 조직의 브랜드 및 요구 사항에 맞게 이러한 사용자 지정 솔루션을 사용자 지정하고 확장할 수 있습니다.
 
 ## <a name="licensing"></a>라이선싱
 
-새로운 기능은 Microsoft 365 선택 구독에서 사용할 수 있습니다.
+선택된 Microsoft 365 구독에서 새 기능을 사용할 수 있습니다.
 
-- 팀의 power App, Power 자동화, 파워 가상 에이전트 및 Dataverse에 대 한 라이선스 요구 사항에 대 한 자세한 내용은 [라이선스](https://go.microsoft.com/fwlink/?linkid=2143647)를 참조 하세요.
-- Power BI에 대 한 라이선스 요구 사항에 대 한 자세한 내용은 [요구 사항을](https://go.microsoft.com/fwlink/?linkid=2143490)참조 하세요.
+- Power Apps, Power Automate, Power Virtual Agents 및 Teams용 데이터버스에 대한 라이선스 요구 사항에 대한 자세한 내용은 [라이선스를 참조하세요.](https://go.microsoft.com/fwlink/?linkid=2143647)
+- Power BI의 라이선스 요구 사항에 대한 자세한 내용은 요구 사항을 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=2143490)
  
-## <a name="how-do-i-get-started"></a>시작 하려면 어떻게 하나요?
+## <a name="how-do-i-get-started"></a>어떻게 시작하나요?
 
-- [Power BI 및 팀](https://aka.ms/pbi-teams-docs)
-- [Power Apps 및 팀](https://aka.ms/pa-teams-docs)
-- [파워 자동화 및 팀](https://aka.ms/pauto-teams-docs)
-- [파워 가상 에이전트 및 팀](https://aka.ms/pva-teams-docs)
+- [Power BI 및 Teams](https://aka.ms/pbi-teams-docs)
+- [Power Apps 및 Teams](https://aka.ms/pa-teams-docs)
+- [Power Automate 및 Teams](https://aka.ms/pauto-teams-docs)
+- [Power Virtual Agent 및 Teams](https://aka.ms/pva-teams-docs)
