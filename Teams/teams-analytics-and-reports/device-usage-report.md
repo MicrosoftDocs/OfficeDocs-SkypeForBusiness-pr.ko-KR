@@ -26,18 +26,18 @@ ms.locfileid: "49815648"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams 장치 사용 현황 보고서
 
-Microsoft Teams 관리 센터의 Teams 장치 사용 현황 보고서는 사용자가 Teams에 연결하는 방법에 대한 정보를 제공합니다. 이동 중 모바일 장치에서 Teams를 사용하는 수를 포함하여 보고서를 사용하여 조직 전체에서 사용되는 장치를 볼 수 있습니다.  
+Microsoft Teams 관리 센터의 Teams 장치 사용 현황 보고서는 사용자가 Teams에 연결하는 방법에 대한 정보를 제공합니다. 보고서를 사용하여 이동 중 모바일 장치에서 Teams를 사용하는 수를 포함하여 조직 전체에서 사용되는 장치를 볼 수 있습니다.  
 
 ## <a name="view-the-device-usage-report"></a>디바이스 사용 보고서 보기
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 Analytics & **보고서를**  >  **클릭합니다.** 보고서 보기 **탭의** **보고서에서** Teams 장치 **사용 현황을 선택합니다.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 Analytics & **보고서를**  >  **클릭합니다.** 보고서 **보기 탭의** **보고서에서** Teams 장치 **사용 현황을 선택합니다.**
 2. 날짜 **범위에서** 범위를 선택한 다음 보고서 **실행을 클릭합니다.**
 
     ![설명선이 있는 Teams 관리 센터의 Teams 장치 사용 현황 보고서 스크린샷](../media/teams-reports-device-usage-with-callouts.png "설명선이 있는 Teams 관리 센터의 Teams 장치 사용 현황 보고서 스크린샷")
 
 ## <a name="interpret-the-report"></a>보고서 해석
 
-|Callout |설명  |
+|콜아웃 |설명  |
 |--------|-------------|
 |**1**   |Teams 장치 사용 현황 보고서에서 지난 7일 또는 30일간의 추세를 볼 수 있습니다.  |
 |**2**   |각 보고서에는 보고서가 생성된 날짜가 있습니다. 보고서는 일반적으로 활동 시간으로부터 24시간의 대기 시간을 반영합니다. |

@@ -30,7 +30,7 @@ ms.locfileid: "49815738"
 ---
 # <a name="shifts-for-teams"></a>Teams의 교대 근무
 
-Teams는 조직 내 일선 근로자가 효과적으로 의사 소통하고 공동 작업하고 최상의 작업을 하는 데 필요한 도구를 제공합니다. Teams에서 Shifts를 설정하고 관리하는 데 필요한 관리 지침인 일정 관리 도구가 있습니다.
+Teams는 조직 내 일선 근로자가 효과적으로 의사 소통하고 공동 작업하고 최상의 작업을 하는 데 필요한 도구를 제공합니다. Teams에서 Shifts, 일정 관리 도구를 설정하고 관리하는 데 필요한 관리자 지침을 찾을 수 있습니다.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>조직의 Shifts 설정 및 관리
 

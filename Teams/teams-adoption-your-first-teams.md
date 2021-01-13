@@ -59,7 +59,7 @@ Microsoft Teams 내에서 [](https://docs.microsoft.com/microsoftteams/platform/
 | 일반 | 프로그램 공지에 사용 <br/> 고정 챔피언 프로그램 개요 |
 | 모범 사례 | 팀, 채널 및 채팅 PowerPoint에 대한 모범 사례 <br/> 팀 수명 주기 |
 | 챔피언 코너 | 모임 노트 및 프레젠테이션 |
-| 소셜 허브 | RSS 커넥터: Teams 블로그 및 채택 블로그 구동 |
+| 소셜 허브 | RSS 커넥터: Teams 블로그 및 채택 구동 블로그 |
 | 교육 및 방법 | 교육 포털 링크 |
 
 ## <a name="making-the-switch-to-microsoft-teams"></a>Microsoft Teams로 전환

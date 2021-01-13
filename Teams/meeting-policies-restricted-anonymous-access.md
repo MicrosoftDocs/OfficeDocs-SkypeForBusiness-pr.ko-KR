@@ -53,7 +53,7 @@ Count  Name                               Group
 2      RestrictedAnonymousAccess          {@{ObjectId=38b35ebf-cc8b-4b61-a2db-f6e67c3f614b; TeamsMeetingPolicy=RestrictedAnonymousAccess...
 ```
 
-## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>사용자로부터 RestrictedAnonymous 모임 정책의 재할당을 확정합니다.
+## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>사용자로부터 RestrictedAnonymous 모임 정책의 사용 안 을(를)
 
 사용자로부터 RestrictedAnonymous 모임 정책을 제거하려면 적은 수의 사용자(예: 100명 미만)가 있는 경우 [Grant-CSTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet을 사용할 수 있습니다. 많은 수의 사용자(예: 100명 이상)가 있는 경우  [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet을 사용하여 일괄 처리 작업을 제출하는 것이 더 효율적입니다.
 
@@ -84,7 +84,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 #### <a name="get-the-status-of-the-batch-assignment"></a>일괄 처리 할당의 상태 확인
 
-각 일괄 처리 할당은 작업 ID를 반환합니다. 이 ID는 할당의 진행률 및 상태를 추적하고 발생할 수 있는 모든 실패를 식별하는 데 사용할 수 있습니다. 예를 들어 다음을 실행합니다.
+각 일괄 처리 할당은 작업 ID를 반환합니다. 작업 ID는 할당의 진행률 및 상태를 추적하고 발생할 수 있는 모든 실패를 식별하는 데 사용할 수 있습니다. 예를 들어 다음을 실행합니다.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454ed6115

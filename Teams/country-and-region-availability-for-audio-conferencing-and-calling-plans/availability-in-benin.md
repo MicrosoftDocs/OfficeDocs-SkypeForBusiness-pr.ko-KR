@@ -72,7 +72,7 @@ Benin에 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Micro
 |유료 번호를 사용할 수 있나요?  <br/> |예 <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
- 오디오 회의, 자동 전화 회의 및 통화 큐에 대한 무료 및 무료 전화 번호를 사용하려는 경우 비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 보기를 [참조하세요.](/microsoftteams/getting-service-phone-numbers)
+ 오디오 회의, 자동 전화 회의 및 통화 큐에 대한 무료 및 무료 전화 번호를 사용하려는 경우 비즈니스용 Skype 및 Microsoft Teams에 대한 서비스 전화 번호 보기를 [참조하세요.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>통신 크레딧
 

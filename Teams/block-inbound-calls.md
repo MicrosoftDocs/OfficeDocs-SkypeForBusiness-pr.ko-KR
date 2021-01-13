@@ -23,7 +23,7 @@ ms.locfileid: "49799908"
 ---
 # <a name="block-inbound-calls"></a>인바운드 호출 차단
 
-전화 시스템 직접 라우팅 및 통화 요금제는 PSTN(공용 전환 전화 네트워크)에서 인바운드 통화를 차단할 수 있습니다. 이 기능을 사용하면 테넌트에 들어오는 모든 PSTN 호출의 호출자 ID가 일치하는지 목록에 대해 확인할 수 있도록 테넌트 전역 번호 패턴 목록을 정의할 수 있습니다. 일치하는 경우 들어오는 호출이 거부됩니다.
+전화 시스템 직접 라우팅 및 통화 요금제는 PSTN(공용 전환 전화 네트워크)의 인바운드 통화 차단을 지원 합니다. 이 기능을 사용하면 테넌트에 들어오는 모든 PSTN 호출의 호출자 ID가 일치하는지 목록에 대해 확인할 수 있도록 테넌트 전역 번호 패턴 목록을 정의할 수 있습니다. 일치하는 경우 들어오는 호출이 거부됩니다.
 
 이 인바운드 호출 차단 기능은 PSTN에서 시작하여 테넌트 전역 기준으로만 작동하는 인바운드 호출에서만 작동합니다. 사용자 기준으로 사용할 수 없습니다.  
 
@@ -32,7 +32,7 @@ ms.locfileid: "49799908"
 
 ## <a name="call-blocking-admin-controls-and-information"></a>통화 차단 관리자 컨트롤 및 정보
 
-숫자 차단에 대한 관리자 컨트롤은 PowerShell만 사용하여 제공됩니다. 숫자 블록 패턴은 정규식 패턴으로 정의됩니다. 식의 순서는 불확실합니다. 목록에서 첫 번째 패턴이 일치하여 호출이 차단됩니다. 차단된 호출자 목록에서 추가되거나 제거된 새 번호 또는 패턴은 패턴이 활성화되는 데 최대 24시간이 걸릴 수 있습니다.
+숫자 차단에 대한 관리자 컨트롤은 PowerShell만 사용하여 제공됩니다. 숫자 블록 패턴은 정규식 패턴으로 정의됩니다. 식의 순서는 불확실합니다. 목록에서 첫 번째 패턴이 일치하여 호출이 차단됩니다. 차단된 호출자 목록에서 추가 또는 제거된 새 번호 또는 패턴은 패턴이 활성화되는 데 최대 24시간이 걸릴 수 있습니다.
 
 ## <a name="call-blocking-powershell-commands"></a>통화 차단 PowerShell 명령
 
@@ -99,7 +99,7 @@ New,  **Get,** **Set,** **Remove**  - **CsTenantBlockNumberExceptionPattern** cm
 
 #### <a name="add-a-number-exception"></a>숫자 예외 추가
 
-이 예제에서는 새 숫자 예외 패턴이 만들어지며 기본적으로 패턴을 사용하도록 설정됩니다. **Enabled 및** Description 매개 **변수는** 선택 사항입니다.
+이 예제에서는 새 숫자 예외 패턴이 만들어지며 기본적으로 패턴을 사용하도록 설정됩니다. Enabled **및** Description 매개 **변수는** 선택 사항입니다.
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>
@@ -149,7 +149,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 **Test-CsInboundBlockedNumberPattern** cmdlet을 사용하여 테넌트에서 숫자가 차단되는지 여부를 확인할 수 있습니다.
  
-이 예제에서는 **PhoneNumber** 및 **테넌트** 매개 변수가 필요합니다. **PhoneNumber** 매개 변수는 + 또는 -와 같은 추가 문자가 없는 숫자 문자열입니다. TRPS에서 **테넌트** 매개 변수는 선택 사항입니다. 결과 **isNumberBlocked** 매개 변수는 숫자가 테넌트에서 차단된 경우 True 값을 반환하고, 차단되지 않은 경우 False를 반환합니다.
+이 예제에서는 **PhoneNumber** 및 **테넌트** 매개 변수가 필요합니다. **PhoneNumber** 매개 변수는 + 또는 -와 같은 추가 문자가 없는 숫자 문자열입니다. TRPS에서 **테넌트** 매개 변수는 선택 사항입니다. 결과 **isNumberBlocked** 매개 변수는 테넌트에서 숫자가 차단된 경우 True 값을 반환하고, 차단되지 않은 경우 False를 반환합니다.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>

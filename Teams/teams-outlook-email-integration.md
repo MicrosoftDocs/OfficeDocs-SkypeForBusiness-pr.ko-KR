@@ -31,7 +31,7 @@ Microsoft Teams에는 조직의 사용자가 Outlook의 전자 메일과 Teams�
 
 ![Teams에서 Outlook에 공유 기능을 보여주는 스크린샷](media/share-to-outlook.png)
 
-이 기능을 사용하려면 사용자에 대해 웹용 Outlook이 켜져 있어야 합니다. 웹용 Outlook이 꺼져 있는 경우 사용자의 Teams에 **Outlook에** 공유 옵션이 표시되지 않습니다. 웹용 Outlook을 설정하고 해제하는 방법에 대한 단계는 사서함에 대해 웹용 Outlook 사용 또는 사용 안 [을 참조하세요.](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
+이 기능을 사용하려면 웹용 Outlook이 사용자에 대해 켜져 있어야 합니다. 웹용 Outlook이 꺼져 있는 경우 사용자의 Teams에 **Outlook에** 공유 옵션이 표시되지 않습니다. 웹용 Outlook을 설정하고 해제하는 방법에 대한 단계는 사서함에 대해 웹용 Outlook 사용 또는 사용 안 [을 참조하세요.](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
 ## <a name="actionable-activity-emails"></a>실행 가능한 활동 전자 메일
 

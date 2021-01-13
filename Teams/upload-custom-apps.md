@@ -49,7 +49,7 @@ Microsoft는 이러한 <a href="https://docs.microsoft.com/microsoftteams/platfo
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>신뢰할 수 있는 사용자가 사용자 지정 앱을 업로드하도록 허용
 
-앱이 프로덕션 테넌트에서 올바르게 작동하고 있는지 확인하려면 자신 및/또는 신뢰할 수 있는 사용자가 프로덕션 테넌트에 사용자 지정 앱을 업로드하도록 허용해야 합니다. 앱 설정 <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">정책을 사용하여</a> 이 작업을 실행합니다.
+앱이 프로덕션 테넌트에서 올바르게 작동하고 있는지 확인하려면 자신 및/또는 신뢰할 수 있는 사용자가 프로덕션 테넌트에 사용자 지정 앱을 업로드하도록 허용해야 합니다. 앱 설치 <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">정책을 사용하여</a> 이 작업을 실행합니다.
 
 > [!NOTE]
 > 자신이나 신뢰할 수 있는 사용자라도 유효성 검사를 위해 앱을 프로덕션 테넌트에 업로드하는 것이 불편한 경우 이 [](#upload) 단계를 [](#set-up-and-manage) 건너뛰고 업로드 및 설정 및 관리 섹션의 단계에 따라 확인되지 않은 앱을 조직의 앱 스토어에 게시할 수 있습니다. 그런 다음, 자신과 신뢰하는 사용자로만 해당 앱에 대한 액세스를 제한합니다. 이러한 사용자는 조직의 앱 스토어에서 앱을 다운로드하여 유효성 검사를 수행할 수 있습니다. 앱의 유효성이 검사된 후 동일한 권한 정책을 사용하여 액세스를 열고 프로덕션 사용을 위해 앱을 롤아웃합니다.
@@ -74,7 +74,7 @@ Microsoft는 이러한 <a href="https://docs.microsoft.com/microsoftteams/platfo
 
 조직의 앱 스토어에서 사용자가 앱을 사용할 수 있도록 설정하려면 앱을 업로드합니다. Microsoft Teams 관리 <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> 센터의 앱 관리 페이지에서 이 작업을 할 수 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 Teams 앱 **관리**  >  **앱으로 이동하세요.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **Teams 앱 관리**  >  **앱으로 이동하세요.**
 2. **업로드를** 클릭하고 **파일** 선택을 클릭한 다음 개발자로부터 받은 앱 패키지를 선택합니다.
 
    ![관리 센터에서 앱 업로드 스크린샷](media/manage-your-lob-apps-upload-new-app.png) 
@@ -111,12 +111,12 @@ Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱을 업데이트�
 
 ### <a name="end-user-update-experience"></a>최종 사용자 업데이트 환경
 
-대부분의 경우 앱 업데이트를 완료하면 최종 사용자에 대해 새 버전이 자동으로 나타납니다. 그러나 완료하려면 사용자 동의가 필요한 <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams</a> 매니페스트에 대한 몇 가지 업데이트가 있습니다.
+대부분의 경우 앱 업데이트를 완료한 후 최종 사용자에 대해 새 버전이 자동으로 나타납니다. 그러나 완료하려면 사용자 동의가 필요한 <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams</a> 매니페스트에 대한 몇 가지 업데이트가 있습니다.
 
 * 봇이 추가 또는 제거되었습니다.
 * 기존 봇의 "botId" 속성이 변경
 * 기존 봇의 "isNotificationOnly" 속성이 변경
-* 봇의 "supportsFiles" 속성이 변경
+* 봇의 "supportsFiles" 속성 변경
 * 메시징 확장이 추가 또는 제거되었습니다.
 * 새 커넥터가 추가되었습니다.
 * 새 정적 탭이 추가되었습니다.

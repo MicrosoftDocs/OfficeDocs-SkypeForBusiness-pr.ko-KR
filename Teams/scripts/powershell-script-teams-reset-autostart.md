@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용하여 사용자 기준으로 Teams의 자동 시작 설정을 다시 설정합니다.
+description: 이 PowerShell 스크립트를 사용하여 사용자 기준으로 Teams의 자동 시작 설정을 다시 설정할 수 있습니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal

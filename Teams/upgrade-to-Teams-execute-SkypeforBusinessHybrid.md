@@ -33,9 +33,9 @@ ms.locfileid: "49802348"
 
 이 문서는 업그레이드 여정의 배포 및 구현 단계의 일부입니다. 계속하기 전에 다음 활동을 완료해야 합니다.
 
-- [프로젝트 관련자에 참여](upgrade-enlist-stakeholders.md)
+- [프로젝트 이해 관계자에 참여](upgrade-enlist-stakeholders.md)
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
-- [비즈니스용 Skype 및 Teams의 공존 및 상호 연동성 이해](https://aka.ms/SkypeToTeams-Coexist)
+- [비즈니스용 Skype 및 Teams의 공존성 및 상호 연동성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [환경 준비](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
@@ -52,7 +52,7 @@ ms.locfileid: "49802348"
 
 ## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>2단계: 공존 및 업그레이드 모드 할당
 
-사용자를 비즈니스용 Skype Online으로 이동한 후 조직에서 선택한 업그레이드 여정에 따라 적절한 공존 모드를 할당할 수 있습니다. 자세한 내용은 마이그레이션 [](https://aka.ms/SkypeToTeams-SetCoexistence) 및 공존 관리와 같은 공존 및 업그레이드 설정 및 [TeamsUpgradePolicy 설정을 참조하세요.](upgrade-to-teams-on-prem-tools.md)
+사용자를 비즈니스용 Skype Online으로 이동한 후 조직에서 선택한 업그레이드 여정에 따라 적절한 공존 모드를 할당할 수 있습니다. 자세한 내용은 마이그레이션 [](https://aka.ms/SkypeToTeams-SetCoexistence) 및 공존 관리와 같은 공존 및 업그레이드 설정 [및 TeamsUpgradePolicy 설정을 참조하세요.](upgrade-to-teams-on-prem-tools.md)
 
 > [!NOTE]
 > 비즈니스용 Skype Server 2019 및 향후 비즈니스용 Skype Server 2015 누적 업데이트를 사용하면 1단계(사용자를 비즈니스용 Skype Online으로 이동) 및 2단계(사용자를 Teams로 업그레이드)를 한 단계로 수행할 수 있습니다. 비즈니스용 Skype Server 2019가 출시된 후 자세한 정보가 제공됩니다.
@@ -61,4 +61,4 @@ ms.locfileid: "49802348"
 
 비즈니스용 Skype 하이브리드 배포를 통화 요금제로 전화 시스템으로 전환하고 Microsoft는 PSTN(공용 전화망) 공급자가 되며 전화 번호 포터링을 완료했다고 생각하면 사용자를 Teams로 업그레이드하면 자동으로 인바운드 PSTN 통화가 Teams로 전환됩니다.
 
-통화 계획을 사용할 수 없는 경우 또는 기존 PSTN 연결 공급자를 사용하려는 경우 엔터프라이즈 음성 배포 또는 기존 On-프레미스 배포 또는 Cloud Connector Edition을 사용하는 하이브리드 음성 배포를 Microsoft Phone System 직접 라우팅으로 전환해야 합니다. 사용자를 Teams로 업그레이드하려면 전화 시스템 직접 라우팅에 대한 추가 고려 [사항을 참조합니다.](2-envision-make-my-service-decisions-direct-routing.md)
+통화 계획을 사용할 수 없는 경우 또는 기존 PSTN 연결 공급자를 사용하려는 경우 엔터프라이즈 음성 배포 또는 기존 On-프레미스 배포 또는 Cloud Connector Edition을 사용하는 하이브리드 음성 배포를 Microsoft Phone System 직접 라우팅으로 전환해야 합니다. 사용자를 Teams로 업그레이드하려면 전화 시스템 직접 라우팅에 대한 추가 [고려 사항을 참조합니다.](2-envision-make-my-service-decisions-direct-routing.md)

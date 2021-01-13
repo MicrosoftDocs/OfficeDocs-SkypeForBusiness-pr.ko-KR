@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 이 문서에서는 조직의 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법을 배웠습니다.
+description: 이 문서에서는 조직의 사용자에 대한 긴급 위치의 위치를 할당하거나 변경하는 방법을 배웠습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 385855c456d3a4e5c2de53fb2605e4d5d30d84a4
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
