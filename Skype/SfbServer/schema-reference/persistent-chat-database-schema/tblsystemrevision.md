@@ -1,8 +1,8 @@
 ---
 title: tblSystemRevision
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
-description: tblSystemRevision 여러 관리자 클라이언트 간에 일관성을 얻기 위해 Tblsystemrevision 테이블에 사용 되는 수정 번호를 포함 합니다.
-ms.openlocfilehash: f08c8c98e9e4dd78e394268859032a4fe598b361
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblSystemRevision에는 여러 관리자 클라이언트 간에 일관성을 유지하기 위해서 tblAdminLock 테이블에서 사용되는 수정 버전 번호가 포함됩니다.
+ms.openlocfilehash: 5bbcf547d6e6f31cc3e9d71415fed6f351c82910
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41811906"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831418"
 ---
-# <a name="tblsystemrevision"></a><span data-ttu-id="22e17-103">tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="22e17-103">tblSystemRevision</span></span>
+# <a name="tblsystemrevision"></a><span data-ttu-id="57985-103">tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="57985-103">tblSystemRevision</span></span>
  
-<span data-ttu-id="22e17-104">tblSystemRevision 여러 관리자 클라이언트 간에 일관성을 얻기 위해 Tblsystemrevision 테이블에 사용 되는 수정 번호를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="22e17-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
+<span data-ttu-id="57985-104">tblSystemRevision에는 여러 관리자 클라이언트 간에 일관성을 유지하기 위해서 tblAdminLock 테이블에서 사용되는 수정 버전 번호가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="57985-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
   
-<span data-ttu-id="22e17-105">**열**</span><span class="sxs-lookup"><span data-stu-id="22e17-105">**Columns**</span></span>
+<span data-ttu-id="57985-105">**열**</span><span class="sxs-lookup"><span data-stu-id="57985-105">**Columns**</span></span>
 
-|<span data-ttu-id="22e17-106">**열**</span><span class="sxs-lookup"><span data-stu-id="22e17-106">**Column**</span></span>|<span data-ttu-id="22e17-107">**유형**</span><span class="sxs-lookup"><span data-stu-id="22e17-107">**Type**</span></span>|<span data-ttu-id="22e17-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="22e17-108">**Description**</span></span>|
+|<span data-ttu-id="57985-106">**열**</span><span class="sxs-lookup"><span data-stu-id="57985-106">**Column**</span></span>|<span data-ttu-id="57985-107">**유형**</span><span class="sxs-lookup"><span data-stu-id="57985-107">**Type**</span></span>|<span data-ttu-id="57985-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="57985-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="22e17-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="22e17-109">sysRevision</span></span>  <br/> |<span data-ttu-id="22e17-110">bigint, null이 아님</span><span class="sxs-lookup"><span data-stu-id="22e17-110">bigint, not null</span></span>  <br/> |<span data-ttu-id="22e17-111">수정 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="22e17-111">Revision number.</span></span>  <br/> |
+|<span data-ttu-id="57985-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="57985-109">sysRevision</span></span>  <br/> |<span data-ttu-id="57985-110">bigint, null이 아님</span><span class="sxs-lookup"><span data-stu-id="57985-110">bigint, not null</span></span>  <br/> |<span data-ttu-id="57985-111">수정 버전 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="57985-111">Revision number.</span></span>  <br/> |
    
 

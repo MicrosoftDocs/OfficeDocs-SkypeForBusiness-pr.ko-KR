@@ -1,8 +1,8 @@
 ---
 title: Syndicators 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
-description: SyndicatorsTable는 내부용 으로만 사용 됩니다. 이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: 907af7bbc7563a8867fa0a2380df255b8aad2b47
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: SyndicatorsTable은 내부 용도로만 사용됩니다. 이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.
+ms.openlocfilehash: c1aaadba404a1f3a82ef5a4e7b4b0108697ef79a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814886"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831798"
 ---
-# <a name="syndicators-table"></a><span data-ttu-id="2dc64-104">Syndicators 테이블</span><span class="sxs-lookup"><span data-stu-id="2dc64-104">Syndicators table</span></span>
+# <a name="syndicators-table"></a><span data-ttu-id="de382-104">Syndicators 테이블</span><span class="sxs-lookup"><span data-stu-id="de382-104">Syndicators table</span></span>
  
-<span data-ttu-id="2dc64-105">SyndicatorsTable는 내부용 으로만 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2dc64-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="2dc64-106">이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="2dc64-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="de382-105">SyndicatorsTable은 내부 용도로만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="de382-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="de382-106">이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="de382-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

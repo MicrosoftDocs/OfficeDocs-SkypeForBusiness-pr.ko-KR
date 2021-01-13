@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype에서 정규화 규칙 만들기 또는 수정
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,99 +15,99 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: '요약: 비즈니스용 Skype 서버에서 정규화 규칙을 정의 하 고, 만들고, 수정 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: c206bd20c02053f4e3775f32b1ba61000bb59a63
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '요약: 비즈니스용 Skype 서버에서 정규화 규칙을 정의, 생성 및 수정하는 방법을 설명하는 정보를 제공합니다.'
+ms.openlocfilehash: 6f8619304e9d3d801dfa430e6addb5105a2b82a2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767091"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830768"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a><span data-ttu-id="41490-103">비즈니스용 Skype에서 정규화 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="41490-103">Create or modify a normalization rule in Skype for Business</span></span>
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a><span data-ttu-id="bee67-103">비즈니스용 Skype에서 정규화 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="bee67-103">Create or modify a normalization rule in Skype for Business</span></span>
 
-<span data-ttu-id="41490-104">**요약:** 비즈니스용 Skype 서버에서 정규화 규칙을 정의 하 고, 만들고, 수정 하는 방법에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="41490-104">**Summary:** Learn how to define, create, and modify a normalization rule in Skype for Business Server.</span></span>
+<span data-ttu-id="bee67-104">**요약:** 비즈니스용 Skype 서버에서 정규화 규칙을 정의, 생성 및 수정하는 방법을 자세히 알아보습니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-104">**Summary:** Learn how to define, create, and modify a normalization rule in Skype for Business Server.</span></span>
 
-<span data-ttu-id="41490-105">비즈니스용 Skype 서버에서 정규화 규칙을 정의, 만들기, 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-105">Define, create, and modify normalization rules in Skype for Business Server.</span></span>
+<span data-ttu-id="bee67-105">비즈니스용 Skype 서버에서 정규화 규칙을 정의, 생성 및 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-105">Define, create, and modify normalization rules in Skype for Business Server.</span></span>
 
-### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a><span data-ttu-id="41490-106">정규화 규칙 빌드를 사용 하 여 정규화 규칙을 정의 하려면</span><span class="sxs-lookup"><span data-stu-id="41490-106">To define a normalization rule by using Build a Normalization Rule</span></span>
+### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a><span data-ttu-id="bee67-106">정규화 규칙 작성을 사용하여 정규화 규칙을 정의</span><span class="sxs-lookup"><span data-stu-id="bee67-106">To define a normalization rule by using Build a Normalization Rule</span></span>
 
-1. <span data-ttu-id="41490-107">비즈니스용 Skype Server 제어판 열기</span><span class="sxs-lookup"><span data-stu-id="41490-107">Open Skype for Business Server Control Panel</span></span>
+1. <span data-ttu-id="bee67-107">비즈니스용 Skype 서버 제어판 열기</span><span class="sxs-lookup"><span data-stu-id="bee67-107">Open Skype for Business Server Control Panel</span></span>
 
-2. <span data-ttu-id="41490-108">) [비즈니스용 Skype Server에서 다이얼 플랜 만들기 또는 수정](dial-plans.md) 의 단계를 따라 11 단계 또는 10 단계를 통해 [다이얼 플랜 수정을 수정](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-108">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) through step 11 or [Modify a Dial Plan](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) through step 10.</span></span>
+2. <span data-ttu-id="bee67-108">(선택 사항) 11단계를 통해 비즈니스용 [Skype](dial-plans.md) 서버에서 다이얼 플랜 만들기 [](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) 또는 수정 또는 10단계를 통해 다이얼 플랜 수정의 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-108">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) through step 11 or [Modify a Dial Plan](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) through step 10.</span></span>
 
-3. <span data-ttu-id="41490-109">**새 정규화 규칙** 또는 **정규화 규칙 편집**에서 **이름** 에 정규화 되는 번호 패턴을 설명 하는 이름 (예: 5DigitExtension)을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-109">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example,5DigitExtension).</span></span>
+3. <span data-ttu-id="bee67-109">**새 정규화** 규칙 또는 정규화 규칙 편집에서 **Name에서** 정규화되는 숫자 패턴을 설명하는 이름을 입력합니다(예: 5DigitExtension).</span><span class="sxs-lookup"><span data-stu-id="bee67-109">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example,5DigitExtension).</span></span>
 
-4. <span data-ttu-id="41490-110">) **설명**에 정규화 규칙에 대 한 설명을 입력 합니다 (예: "5 자리 확장명 변환").</span><span class="sxs-lookup"><span data-stu-id="41490-110">(Optional) In **Description**, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
+4. <span data-ttu-id="bee67-110">(선택 사항) **설명에서** 정규화 규칙에 대한 설명을 입력합니다(예: "5자리 내선 번호 변환").</span><span class="sxs-lookup"><span data-stu-id="bee67-110">(Optional) In **Description**, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
 
-5. <span data-ttu-id="41490-111">**정규화 규칙 작성**에서 다음 필드에 값을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-111">In **Build a Normalization Rule**, enter values in the following fields:</span></span>
+5. <span data-ttu-id="bee67-111">정규화 **규칙 작성에서** 다음 필드에 값을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-111">In **Build a Normalization Rule**, enter values in the following fields:</span></span>
 
-   - <span data-ttu-id="41490-112">**시작** 번호 (선택 사항) 패턴을 일치 시킬 전화 거는 번호의 선행 자릿수를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-112">**Starting digits** (Optional) Specify the leading digits of dialed numbers you want the pattern to match.</span></span> <span data-ttu-id="41490-113">예를 들어 패턴을 425으로 시작 하는 전화 번호와 일치 시 키 려 고 type425 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-113">For example, type425 if you want the pattern to match dialed numbers beginning with 425.</span></span>
+   - <span data-ttu-id="bee67-112">**시작 숫자(선택** 사항) 패턴이 일치할 전화 걸기 번호의 앞 자리 숫자를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-112">**Starting digits** (Optional) Specify the leading digits of dialed numbers you want the pattern to match.</span></span> <span data-ttu-id="bee67-113">예를 들어 패턴이 425로 시작되는 전화 걸기 번호와 일치하게 하려는 경우 type425를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-113">For example, type425 if you want the pattern to match dialed numbers beginning with 425.</span></span>
 
-   - <span data-ttu-id="41490-114">**길이가** 일치 하는 패턴의 자릿수를 지정 하 고 해당 패턴이이 길이에 정확 하 게 일치 하도록 할지, 적어도이 길이의 전화 접속 번호와 일치 하거나, 원하는 길이의 전화 접속 번호와 일치 시킬 것인지를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-114">**Length** Specify the number of digits in the matching pattern and select whether you want the pattern to match this length exactly, match dialed numbers that are at least this length, or match dialed numbers of any length.</span></span>
+   - <span data-ttu-id="bee67-114">**Length** 일치하는 패턴의 자릿수와 패턴이 이 길이와 정확히 일치할지, 적어도 이 길이의 전화 걸기 번호를 일치할지 또는 모든 길이의 전화 걸기 번호를 일치할지 여부를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-114">**Length** Specify the number of digits in the matching pattern and select whether you want the pattern to match this length exactly, match dialed numbers that are at least this length, or match dialed numbers of any length.</span></span>
 
-   - <span data-ttu-id="41490-115">**제거할 자릿수** (선택 사항) 패턴을 일치 시킬 전화 번호에서 제거할 시작 자릿수를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-115">**Digits to remove** (Optional) Specify the number of starting digits to be removed from dialed numbers you want the pattern to match.</span></span>
+   - <span data-ttu-id="bee67-115">**제거할 숫자(선택** 사항) 패턴이 일치할 전화 걸기 번호에서 제거할 시작 자릿수를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-115">**Digits to remove** (Optional) Specify the number of starting digits to be removed from dialed numbers you want the pattern to match.</span></span>
 
-   - <span data-ttu-id="41490-116">**더할 자릿수** (선택 사항) 패턴을 일치 시킬 전화 번호에 추가할 숫자를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-116">**Digits to add** (Optional) Specify digits to be added to dialed numbers you want the pattern to match.</span></span>
+   - <span data-ttu-id="bee67-116">**추가할 숫자(선택** 사항) 패턴을 일치할 전화 걸기 번호에 추가할 숫자를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-116">**Digits to add** (Optional) Specify digits to be added to dialed numbers you want the pattern to match.</span></span>
 
-     <span data-ttu-id="41490-117">이러한 필드에 입력 하는 값은 일치 및 **번역 규칙** **에 따라 패턴** 에 반영 됩니다.</span><span class="sxs-lookup"><span data-stu-id="41490-117">The values you enter in these fields are reflected in **Pattern to match** and **Translation rule**.</span></span> <span data-ttu-id="41490-118">예를 들어 **시작 자릿수** 를 비워 두면 **Length** 필드에 type7 **를 선택 하 고,** **제거할 자리**에 0을 지정 하 고 **일치 시킬 패턴** 의 정규식은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="41490-118">For example, if you leave **Starting digits** empty, type7 into the **Length** field and select **Exactly**, and specify 0 in **Digits to remove**, the resulting regular expression in the **Pattern to match** is:</span></span>
+     <span data-ttu-id="bee67-117">이러한 필드에 입력하는 값은 일치 및 변환 **규칙에 따라 패턴에** **반영됩니다.**</span><span class="sxs-lookup"><span data-stu-id="bee67-117">The values you enter in these fields are reflected in **Pattern to match** and **Translation rule**.</span></span> <span data-ttu-id="bee67-118">예를 들어 시작  숫자를 비워 두면 **Length** 필드에 type7을 입력하고 정확하게 선택하고 제거할 **숫자에** 0을 지정하면 **일치할 패턴의** 결과 정규식은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-118">For example, if you leave **Starting digits** empty, type7 into the **Length** field and select **Exactly**, and specify 0 in **Digits to remove**, the resulting regular expression in the **Pattern to match** is:</span></span>
 
-     <span data-ttu-id="41490-119">^ (\d{7}) $</span><span class="sxs-lookup"><span data-stu-id="41490-119">^(\d{7})$</span></span>
+     <span data-ttu-id="bee67-119">^(\d {7} )$</span><span class="sxs-lookup"><span data-stu-id="bee67-119">^(\d{7})$</span></span>
 
-6. <span data-ttu-id="41490-120">**번역 규칙**에서 다음과 같이 변환 된 전자 164 전화번호의 형식에 대 한 패턴을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-120">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers as follows:</span></span>
+6. <span data-ttu-id="bee67-120">변환 **규칙에서** 변환된 E.164 전화 번호 형식에 대한 패턴을 다음과 같이 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-120">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers as follows:</span></span>
 
-   - <span data-ttu-id="41490-121">일치 패턴에 지정 된 자릿수를 나타내는 값입니다.</span><span class="sxs-lookup"><span data-stu-id="41490-121">A value that represents the number of digits specified in the matching pattern.</span></span> <span data-ttu-id="41490-122">예를 들어 일치 하는 패턴이 ^ (\d{7}) $ 이면 번역 규칙에서 $1이 7 자리 번호 매기기 번호를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="41490-122">For example, if the matching pattern is ^(\d{7})$ then$1 in the translation rule represents 7-digit dialed numbers.</span></span>
+   - <span data-ttu-id="bee67-121">일치 패턴에 지정된 자릿수의 수를 나타내는 값입니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-121">A value that represents the number of digits specified in the matching pattern.</span></span> <span data-ttu-id="bee67-122">예를 들어 일치하는 패턴이 ^(\d )$이면 변환 규칙의 {7} $1은 7자리 전화 걸기 번호를 나타냈습니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-122">For example, if the matching pattern is ^(\d{7})$ then$1 in the translation rule represents 7-digit dialed numbers.</span></span>
 
-   - <span data-ttu-id="41490-123">) 숫자를 **추가할** 숫자 필드에 값을 입력 하 여 앞으로 변환할 숫자를 지정 합니다 (예: + 1425).</span><span class="sxs-lookup"><span data-stu-id="41490-123">(Optional) Type a value into the **Digits to add** field to specify digits to be prepended to the translated number (for example,+1425).</span></span>
+   - <span data-ttu-id="bee67-123">(선택 사항) 숫자에 값을 **입력하여** 변환된 번호(예: +1425)에 추가할 숫자를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-123">(Optional) Type a value into the **Digits to add** field to specify digits to be prepended to the translated number (for example,+1425).</span></span>
 
-     <span data-ttu-id="41490-124">예를 들어 **일치 하는 패턴** 에 ^ (\d{7}) $가 있는 경우, 전화를 걸고 **있는 번호** 의 패턴으로 + 1425 $1이 포함 된 경우이 규칙은 5550100에서 + 14255550100로 정규화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="41490-124">For example, if **Pattern to match** contains^(\d{7})$ as the pattern for dialed numbers and **Translation rule** contains+1425$1 as the pattern for E.164 phone numbers, the rule normalizes 5550100 to +14255550100.</span></span>
+     <span data-ttu-id="bee67-124">예를 들어  일치시키면 패턴에 전화 걸기 번호의 패턴으로^(\d )$가 포함되어 있으며 변환 규칙에 E.164 전화 번호의 패턴으로 {7} +1425$1이 포함되어 있는 경우 규칙은 5550100을 +14255550100으로 정규화합니다. </span><span class="sxs-lookup"><span data-stu-id="bee67-124">For example, if **Pattern to match** contains^(\d{7})$ as the pattern for dialed numbers and **Translation rule** contains+1425$1 as the pattern for E.164 phone numbers, the rule normalizes 5550100 to +14255550100.</span></span>
 
-7. <span data-ttu-id="41490-125">) 정규화 규칙이 조직 내부의 전화 번호를 반환 하는 경우 **내부 확장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-125">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
+7. <span data-ttu-id="bee67-125">(선택 사항) 정규화 규칙의 결과가 조직 내부의 전화 번호가 되는 경우 **내부 확장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-125">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
 
-8. <span data-ttu-id="41490-126">) 번호를 입력 하 여 정규화 규칙을 테스트 한 다음 **이동을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-126">(Optional) Enter a number to test the normalization rule, and then click **Go**.</span></span> <span data-ttu-id="41490-127">테스트 결과가 **테스트에 대 한 숫자 입력**아래에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="41490-127">The test results are displayed under **Enter a number to test**.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="41490-128">아직 테스트를 통과 하지 않은 정규화 규칙을 저장 한 다음 나중에 다시 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="41490-128">You can save a normalization rule that does not yet pass the test and then reconfigure it later.</span></span> <span data-ttu-id="41490-129">자세한 내용은 [음성 라우팅 테스트](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="41490-129">For details, see [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span></span>
-
-9. <span data-ttu-id="41490-130">**확인** 을 클릭 하 여 정규화 규칙을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-130">Click **OK** to save the normalization rule.</span></span>
-
-10. <span data-ttu-id="41490-131">**확인** 을 클릭 하 여 다이얼 플랜을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-131">Click **OK** to save the dial plan.</span></span>
-
-11. <span data-ttu-id="41490-132">**다이얼 플랜** 페이지에서 **커밋을**클릭 한 다음 **모두 커밋을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-132">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+8. <span data-ttu-id="bee67-126">(선택 사항) 정규화 규칙을 테스트할 번호를 입력한 다음 이동을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="bee67-126">(Optional) Enter a number to test the normalization rule, and then click **Go**.</span></span> <span data-ttu-id="bee67-127">테스트 결과가 **테스트할 번호 입력** 아래에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-127">The test results are displayed under **Enter a number to test**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="41490-133">정규화 규칙을 만들거나 변경할 때마다 **모두 커밋** 명령을 실행 하 여 구성 변경 내용을 게시 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-133">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="41490-134">자세한 내용은 운영 설명서의 비즈니스용 [Skype에서 음성 라우팅 구성에 보류 중인 변경 내용 게시](voice-route-config-changes.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="41490-134">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+    > <span data-ttu-id="bee67-128">아직 테스트를 통과하지 않는 정규화 규칙을 저장한 다음 나중에 다시 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-128">You can save a normalization rule that does not yet pass the test and then reconfigure it later.</span></span> <span data-ttu-id="bee67-129">자세한 내용은 [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="bee67-129">For details, see [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span></span>
 
-### <a name="to-define-a-normalization-rule-manually"></a><span data-ttu-id="41490-135">정규화 규칙을 수동으로 정의 하려면</span><span class="sxs-lookup"><span data-stu-id="41490-135">To define a normalization rule manually</span></span>
+9. <span data-ttu-id="bee67-130">정규화 규칙을 저장하려면 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-130">Click **OK** to save the normalization rule.</span></span>
 
-1. <span data-ttu-id="41490-136">비즈니스용 Skype Server 제어판 열기</span><span class="sxs-lookup"><span data-stu-id="41490-136">Open Skype for Business Server Control Panel</span></span>
+10. <span data-ttu-id="bee67-131">다이얼 플랜을 저장하려면 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-131">Click **OK** to save the dial plan.</span></span>
 
-2. <span data-ttu-id="41490-137">) [비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 수정](dial-plans.md)의 단계를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="41490-137">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md).</span></span>
-
-3. <span data-ttu-id="41490-138">**새 정규화 규칙** 또는 **정규화 규칙 편집**에서 **이름** 에 정규화 되는 번호 패턴을 설명 하는 이름 (예: 정규화 rule5DigitExtension의 이름)을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-138">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, name the normalization rule5DigitExtension).</span></span>
-
-4. <span data-ttu-id="41490-139">) **설명** 필드에 정규화 규칙에 대 한 설명을 입력 합니다 (예: "5 자리 확장명 변환").</span><span class="sxs-lookup"><span data-stu-id="41490-139">(Optional) In **Description** field, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
-
-5. <span data-ttu-id="41490-140">**정규화 규칙 작성**에서 **편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-140">In **Build a Normalization Rule**, click **Edit**.</span></span>
-
-6. <span data-ttu-id="41490-141">**정규식 입력**에 다음을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-141">Enter the following in **Type a Regular Expression**:</span></span>
-
-   - <span data-ttu-id="41490-142">**이 패턴과 일치**하는 경우 전화를 거는 전화 번호와 일치 하는 데 사용할 패턴을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-142">In **Match this pattern**, specify the pattern that you want to use to match the dialed phone number.</span></span>
-
-   - <span data-ttu-id="41490-143">**번역 규칙**에서 번역 된 전자 전화번호의 형식에 대 한 패턴을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-143">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers.</span></span>
-
-     <span data-ttu-id="41490-144">예를 들어 **이 패턴과 일치** 하는 ^{7}(\d) $를 입력 하 고 **번역 규칙**에 + 1425 $1을 입력할 경우 규칙은 5550100에서 + 14255550100로 정규화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="41490-144">For example, if you enter ^(\d{7})$ in **Match this pattern** and+1425$1 in **Translation rule**, the rule normalizes 5550100 to +14255550100.</span></span>
-
-7. <span data-ttu-id="41490-145">) 정규화 규칙이 조직 내부의 전화 번호를 반환 하는 경우 **내부 확장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-145">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
-
-8. <span data-ttu-id="41490-146">) 번호를 입력 하 여 정규화 규칙을 테스트 한 다음 **이동을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-146">(Optional) Enter a number to test the normalization rule and then click **Go**.</span></span> <span data-ttu-id="41490-147">테스트 결과가 **테스트에 대 한 숫자 입력**아래에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="41490-147">The test results are displayed under **Enter a number to test**.</span></span>
-
-9. <span data-ttu-id="41490-148">**확인** 을 클릭 하 여 정규화 규칙을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-148">Click **OK** to save the normalization rule.</span></span>
-
-10. <span data-ttu-id="41490-149">**확인** 을 클릭 하 여 다이얼 플랜을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-149">Click **OK** to save the dial plan.</span></span>
-
-11. <span data-ttu-id="41490-150">**다이얼 플랜** 페이지에서 **커밋을**클릭 한 다음 **모두 커밋을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-150">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+11. <span data-ttu-id="bee67-132">**다이얼 플랜** 페이지에서 **커밋** 을 클릭한 다음 **모두 커밋** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-132">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="41490-151">정규화 규칙을 만들거나 변경할 때마다 **모두 커밋** 명령을 실행 하 여 구성 변경 내용을 게시 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="41490-151">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="41490-152">자세한 내용은 운영 설명서의 비즈니스용 [Skype에서 음성 라우팅 구성에 보류 중인 변경 내용 게시](voice-route-config-changes.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="41490-152">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+    > <span data-ttu-id="bee67-133">정규화 규칙을 만들거나 변경할 때마다 **모두 커밋** 명령을 실행하여 구성 변경 내용을 게시해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-133">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="bee67-134">자세한 내용은 작업 설명서에서 비즈니스용 [Skype의](voice-route-config-changes.md) 음성 라우팅 구성에 보류 중인 변경 내용 게시를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="bee67-134">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+
+### <a name="to-define-a-normalization-rule-manually"></a><span data-ttu-id="bee67-135">정규화 규칙을 수동으로 정의하려면</span><span class="sxs-lookup"><span data-stu-id="bee67-135">To define a normalization rule manually</span></span>
+
+1. <span data-ttu-id="bee67-136">비즈니스용 Skype 서버 제어판 열기</span><span class="sxs-lookup"><span data-stu-id="bee67-136">Open Skype for Business Server Control Panel</span></span>
+
+2. <span data-ttu-id="bee67-137">(선택 사항) 비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 [수정의 단계를 따릅니다.](dial-plans.md)</span><span class="sxs-lookup"><span data-stu-id="bee67-137">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md).</span></span>
+
+3. <span data-ttu-id="bee67-138">**새 정규화** 규칙 또는 정규화 규칙 편집에서 **Name으로** 정규화되는 숫자 패턴을 설명하는 이름을 입력합니다.(예: 정규화 규칙5DigitExtension의 이름).</span><span class="sxs-lookup"><span data-stu-id="bee67-138">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, name the normalization rule5DigitExtension).</span></span>
+
+4. <span data-ttu-id="bee67-139">(선택 사항) **설명** 필드에 정규화 규칙에 대한 설명을 입력합니다(예: "Translates 5-digit extensions").</span><span class="sxs-lookup"><span data-stu-id="bee67-139">(Optional) In **Description** field, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
+
+5. <span data-ttu-id="bee67-140">**정규화 규칙 작성** 에서 **편집** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-140">In **Build a Normalization Rule**, click **Edit**.</span></span>
+
+6. <span data-ttu-id="bee67-141">**정규식 입력** 에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-141">Enter the following in **Type a Regular Expression**:</span></span>
+
+   - <span data-ttu-id="bee67-142">**다음 패턴과 일치시킴** 에서 전화 건 전화 번호와 일치시키는 데 사용할 패턴을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-142">In **Match this pattern**, specify the pattern that you want to use to match the dialed phone number.</span></span>
+
+   - <span data-ttu-id="bee67-143">**변환 규칙** 에서 변환된 E.164 전화 번호 형식에 대한 패턴을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-143">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers.</span></span>
+
+     <span data-ttu-id="bee67-144">예를 들어 이 패턴 일치에 ^(\d )$를 입력하고 변환 규칙에서 {7} +1425$1을 입력하면 규칙이 5550100에서 +14255550100으로 정규화됩니다.  </span><span class="sxs-lookup"><span data-stu-id="bee67-144">For example, if you enter ^(\d{7})$ in **Match this pattern** and+1425$1 in **Translation rule**, the rule normalizes 5550100 to +14255550100.</span></span>
+
+7. <span data-ttu-id="bee67-145">(선택 사항) 정규화 규칙의 결과가 조직 내부의 전화 번호가 되는 경우 **내부 확장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-145">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
+
+8. <span data-ttu-id="bee67-p107">(선택 사항) 정규화 규칙을 테스트할 번호를 입력한 다음 **이동** 을 클릭합니다. 테스트 결과가 **테스트할 번호 입력** 아래에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-p107">(Optional) Enter a number to test the normalization rule and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
+
+9. <span data-ttu-id="bee67-148">정규화 규칙을 저장하려면 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-148">Click **OK** to save the normalization rule.</span></span>
+
+10. <span data-ttu-id="bee67-149">다이얼 플랜을 저장하려면 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-149">Click **OK** to save the dial plan.</span></span>
+
+11. <span data-ttu-id="bee67-150">**다이얼 플랜** 페이지에서 **커밋** 을 클릭한 다음 **모두 커밋** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-150">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="bee67-151">정규화 규칙을 만들거나 변경할 때마다 **모두 커밋** 명령을 실행하여 구성 변경 내용을 게시해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bee67-151">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="bee67-152">자세한 내용은 작업 설명서에서 비즈니스용 [Skype의](voice-route-config-changes.md) 음성 라우팅 구성에 보류 중인 변경 내용 게시를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="bee67-152">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
 
 

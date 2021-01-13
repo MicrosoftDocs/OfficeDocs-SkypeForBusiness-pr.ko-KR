@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버에서 보조 위치 정보 서비스 구성
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,31 +15,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
-description: 비즈니스용 Skype Server Enterprise Voice에서 E9-1에 대 한 SLS (보조 위치 원본) 데이터베이스를 구성 합니다.
-ms.openlocfilehash: 28168bb10017ccc1e56ce26bb5a88629f19aff41
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 비즈니스용 Skype 서버에서 E9-1-1에 대해 SLS(보조 위치 원본) 데이터베이스를 Enterprise Voice.
+ms.openlocfilehash: fd70957526d193951b56211c0d5a6623a26419e2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767081"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830648"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a><span data-ttu-id="d1bcb-103">비즈니스용 Skype 서버에서 보조 위치 정보 서비스 구성</span><span class="sxs-lookup"><span data-stu-id="d1bcb-103">Configure a secondary Location Information service in Skype for Business Server</span></span>
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a><span data-ttu-id="c025a-103">비즈니스용 Skype 서버에서 보조 위치 정보 서비스 구성</span><span class="sxs-lookup"><span data-stu-id="c025a-103">Configure a secondary Location Information service in Skype for Business Server</span></span>
  
-<span data-ttu-id="d1bcb-104">비즈니스용 Skype Server Enterprise Voice에서 E9-1에 대 한 SLS (보조 위치 원본) 데이터베이스를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="d1bcb-104">Configure a secondary location source (SLS) database for E9-1-1 in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="c025a-104">비즈니스용 Skype 서버에서 E9-1-1에 대해 SLS(보조 위치 원본) 데이터베이스를 Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="c025a-104">Configure a secondary location source (SLS) database for E9-1-1 in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="d1bcb-105">비즈니스용 Skype Server는 위치 정보 서비스를 보조 위치 원본 (SLS) 데이터베이스에 가리키는 데 사용할 수 있는 웹 서비스 인터페이스를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="d1bcb-105">Skype for Business Server provides a web service interface that you can use to point the Location Information service to a Secondary Location Source (SLS) database.</span></span> <span data-ttu-id="d1bcb-106">SLS 데이터베이스에 연결 하는 웹 서비스 인터페이스는 위치 정보 서비스 WSDL을 준수 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d1bcb-106">The web service interface that connects to the SLS database must conform to Location Information service WSDL.</span></span> <span data-ttu-id="d1bcb-107">위치 데이터베이스와 보조 위치 데이터베이스가 모두 구성 되어 있는 경우 위치 정보 서비스는 위치 데이터베이스에 먼저 쿼리 하 고 일치 하는 항목이 없으면 클라이언트의 위치 요청을 SLS 데이터베이스에 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="d1bcb-107">If both a location database and secondary location database are configured, the Location Information service first queries the location database, and if no match is found, sends the location request from the client to the SLS database.</span></span> <span data-ttu-id="d1bcb-108">위치가 SLS에 있는 경우에는 위치 정보 서비스에서 해당 위치를 다시 클라이언트로 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="d1bcb-108">If the location exists in the SLS, the Location Information service then sends the location back to the client.</span></span> 
+<span data-ttu-id="c025a-105">비즈니스용 Skype 서버는 SLS(보조 위치 원본) 데이터베이스를 안내하는 데 사용할 수 있는 웹 서비스 인터페이스를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="c025a-105">Skype for Business Server provides a web service interface that you can use to point the Location Information service to a Secondary Location Source (SLS) database.</span></span> <span data-ttu-id="c025a-106">SLS 데이터베이스에 연결하는 웹 서비스 인터페이스는 위치 정보 서비스 WSDL을 준수해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c025a-106">The web service interface that connects to the SLS database must conform to Location Information service WSDL.</span></span> <span data-ttu-id="c025a-107">위치 데이터베이스와 보조 위치 데이터베이스가 모두 구성된 경우 위치 정보 서비스는 먼저 위치 데이터베이스를 쿼리하고 일치하는 위치가 없는 경우 클라이언트에서 SLS 데이터베이스로 위치 요청을 전송합니다.</span><span class="sxs-lookup"><span data-stu-id="c025a-107">If both a location database and secondary location database are configured, the Location Information service first queries the location database, and if no match is found, sends the location request from the client to the SLS database.</span></span> <span data-ttu-id="c025a-108">SLS에 위치가 있는 경우 위치 정보 서비스는 해당 위치를 클라이언트로 다시 전송합니다.</span><span class="sxs-lookup"><span data-stu-id="c025a-108">If the location exists in the SLS, the Location Information service then sends the location back to the client.</span></span> 
   
-### <a name="to-configure-a-secondary-location-database"></a><span data-ttu-id="d1bcb-109">보조 위치 데이터베이스를 구성 하려면</span><span class="sxs-lookup"><span data-stu-id="d1bcb-109">To configure a Secondary Location database</span></span>
+### <a name="to-configure-a-secondary-location-database"></a><span data-ttu-id="c025a-109">보조 위치 데이터베이스를 구성하려면</span><span class="sxs-lookup"><span data-stu-id="c025a-109">To configure a Secondary Location database</span></span>
 
-1. <span data-ttu-id="d1bcb-110">비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d1bcb-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="c025a-110">비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="c025a-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="d1bcb-111">다음 cmdlet을 실행 하 여 보조 위치 데이터베이스의 위치에 대 한 URL을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="d1bcb-111">Run the following cmdlet to configure the URL for the location of the secondary location database.</span></span> 
+2. <span data-ttu-id="c025a-111">다음 cmdlet을 실행하여 보조 위치 데이터베이스의 위치에 대해 URL을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="c025a-111">Run the following cmdlet to configure the URL for the location of the secondary location database.</span></span> 
     
    ```powershell
    Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
    ```
 
-## <a name="see-also"></a><span data-ttu-id="d1bcb-112">참고 항목</span><span class="sxs-lookup"><span data-stu-id="d1bcb-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c025a-112">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c025a-112">See also</span></span>
 
-[<span data-ttu-id="d1bcb-113">Set-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="d1bcb-113">Set-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[<span data-ttu-id="c025a-113">Set-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="c025a-113">Set-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 
