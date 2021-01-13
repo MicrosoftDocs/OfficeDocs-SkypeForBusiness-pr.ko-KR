@@ -1,7 +1,7 @@
 ---
-title: 바하마의 사용 가능 여부
-author: LanaChin
-ms.author: v-lanac
+title: 바하마의 가용성
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,35 +23,35 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 Microsoft 365 및 Office 365 서비스에 대 한 비즈니스용 Skype 및 Microsoft 팀을 바하마에 제공 하는 것입니다.
-ms.openlocfilehash: d051b9e7148225b9745db3784ec00ac69cc93350
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: 다음은 Bahamas에 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: f04d92fc66bed6be30d23171a765511023d7b3c8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230756"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831323"
 ---
-# <a name="availability-in-the-bahamas"></a>바하마의 사용 가능 여부
+# <a name="availability-in-the-bahamas"></a>바하마의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 Microsoft 365 및 Office 365 서비스에 대 한 비즈니스용 Skype 및 Microsoft 팀을 바하마에 제공 하는 것입니다.
+다음은 Bahamas에 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|음성 회의를 구매할 수 있나요?  <br/> |예, [분당 요금이](../audio-conferencing-pay-per-minute.md) 부과 됩니다.  <br/> |
+|음성 회의를 구매할 수 있나요?  <br/> |예, [분당 지불만](../audio-conferencing-pay-per-minute.md) 해당  <br/> |
 |전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> | 아니요 |
-|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> | 통신 크레딧이 필요 합니다. <br/> |
+|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> | 통신 크레딧 필요 <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |전화 시스템을 구매할 수 있나요?  <br/> |예  <br/> |
-|자동 전화 교환 <br/> |대화 가능  <br/> |
-|통화 큐  <br/> |대화 가능  <br/> |
+|자동 전화 교환 <br/> |사용 가능  <br/> |
+|통화 큐  <br/> |사용 가능  <br/> |
 |음성 메일  <br/> |사용 가능  <br/> |
    
 ## <a name="calling-plans"></a>통화 플랜
@@ -62,9 +62,9 @@ ms.locfileid: "44230756"
 |통화 플랜에서 사용 가능한 시간(분)  <br/> |해당 사항 없음  <br/> |
 |아웃바운드 통화를 할 수 있나요?  <br/> |해당 사항 없음  <br/> |
 
-전화 플랜을 구매할 수 없는 경우 [직접 라우팅을](../direct-routing-landing-page.md)사용 하는 것이 좋습니다. 직접 라우팅을 사용하면 거의 모든 전화 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다.
+통화 요금제 구매를 사용할 수 없는 경우 직접 [라우팅을 사용하는 것이 있습니다.](../direct-routing-landing-page.md) 직접 라우팅을 사용하면 거의 모든 전화 통신 사업자와 함께 전화 시스템을 사용할 수 있습니다.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>서비스의 유료 및 무료 전화 번호
+## <a name="toll-and-toll-free-numbers-for-services"></a>서비스에 대한 무료 및 무료 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
@@ -72,7 +72,7 @@ ms.locfileid: "44230756"
 |유료 번호를 사용할 수 있나요?  <br/> |아니요 <br/> |
 |무료 번호를 사용할 수 있나요? <br/> | 예  <br/> |
    
- 오디오 회의, 자동 전화 교환 및 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 받기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
+ 오디오 회의, 자동 전화 회의 및 통화 큐에 대한 무료 및 무료 전화 번호를 사용하려는 경우 비즈니스용 Skype 및 Microsoft Teams에 대한 서비스 전화 번호 보기를 [참조하세요.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>통신 크레딧
 
