@@ -1,8 +1,8 @@
 ---
 title: 레거시 병합 시작
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,14 +14,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
-description: 비즈니스용 Skype 서버 2015에서 레거시 배포를 병합 하기 시작 하려면 다음을 클릭 합니다.
-ms.openlocfilehash: d9ee69bb3616447fb0e3883c278701834a0a3f07
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 레거시 배포와 비즈니스용 Skype 서버 2015의 Merging을 시작하려면 다음을 클릭합니다.
+ms.openlocfilehash: 004eb9f8fdfef25c5af8514b5f4dc1ff7a088d2c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218049"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806758"
 ---
 # <a name="legacy-merge-start"></a>레거시 병합 시작
  
-비즈니스용 Skype 서버 2015에서 레거시 배포를 병합 하기 시작 하려면 **다음**을 클릭 합니다. 
+레거시 배포와 비즈니스용 Skype 서버 2015를 함께 사용하려면 다음을 **클릭합니다.** 

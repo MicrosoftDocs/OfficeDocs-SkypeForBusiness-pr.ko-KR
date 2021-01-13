@@ -1,8 +1,8 @@
 ---
 title: 장치 구성
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: 장치 구성은 전역 또는 사이트 내에서 비즈니스용 Skype Phone Edition 장치를 관리 하는 데 사용 되는 설정 모음입니다. 이러한 설정을 사용하면 필수 보안 모드, 장치 로깅 수준, 음성 QoS(서비스 품질) 설정, 그리고 지정된 기간 동안 활동이 없으면 전화를 자동으로 잠글지 여부 등의 옵션을 구성할 수 있습니다.
-ms.openlocfilehash: b0db53217c16997fe0390d0f382d78d8a77a02a5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 장치 구성은 전역적으로 또는 사이트 내에서 비즈니스용 Skype Phone Edition 장치를 관리하는 데 사용되는 설정 모음입니다. 이러한 설정을 사용하면 필수 보안 모드, 장치 로깅 수준, 음성 QoS(서비스 품질) 설정, 그리고 지정된 기간 동안 활동이 없으면 전화를 자동으로 잠글지 여부 등의 옵션을 구성할 수 있습니다.
+ms.openlocfilehash: 4c5ce8858e957d84215f4e62f1571a8455b7ebdc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822921"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807328"
 ---
 # <a name="device-configuration"></a>장치 구성
  
-장치 구성은 전역 또는 사이트 내에서 비즈니스용 Skype Phone Edition 장치를 관리 하는 데 사용 되는 설정 모음입니다. 이러한 설정을 사용하면 필수 보안 모드, 장치 로깅 수준, 음성 QoS(서비스 품질) 설정, 그리고 지정된 기간 동안 활동이 없으면 전화를 자동으로 잠글지 여부 등의 옵션을 구성할 수 있습니다. 
+장치 구성은 전역적으로 또는 사이트 내에서 비즈니스용 Skype Phone Edition 장치를 관리하는 데 사용되는 설정 모음입니다. 이러한 설정을 사용하면 필수 보안 모드, 장치 로깅 수준, 음성 QoS(서비스 품질) 설정, 그리고 지정된 기간 동안 활동이 없으면 전화를 자동으로 잠글지 여부 등의 옵션을 구성할 수 있습니다. 
   
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
@@ -36,23 +36,23 @@ ms.locfileid: "41822921"
     
 ## <a name="ui-reference"></a>UI 참조
 
-다음 목록에서는 페이지의 메뉴, 명령, 필드, 속성에 대해 설명합니다.
+다음 목록에서는 페이지의 메뉴, 명령, 필드 및 속성에 대해 설명합니다.
   
-- **새로운** 다음 범위를 사용 하 여 새 장치 구성을 추가할 수 있습니다.
+- **신규** 다음 범위를 사용하여 새 장치 구성을 추가할 수 있습니다.
     
   - 전역
     
   - 사이트
     
-- **편집** 목록에서 장치 구성의 옵션을 변경할 수 있습니다. 이 옵션을 사용 하 여 다음을 수행할 수 있습니다.
+- **편집** 목록에서 장치 구성의 옵션을 변경할 수 있습니다. 이 옵션을 사용하여 다음을 할 수 있습니다.
     
-  - **세부 정보 표시** 이 옵션은 장치 구성에 대 한 옵션을 변경할 수 있는 대화 상자를 엽니다.
+  - **세부 정보 표시** 이 옵션을 선택하면 장치 구성에 대한 옵션을 변경할 수 있는 대화 상자가 열립니다.
     
-  - **모두 선택** 이 옵션은 목록의 모든 장치 구성을 선택 합니다.
+  - **모두 선택** 이 옵션은 목록의 모든 장치 구성을 선택합니다.
     
-  - **삭제** 이 옵션은 선택한 모든 장치 구성을 삭제 합니다.
+  - **삭제** 이 옵션은 선택한 모든 장치 구성을 삭제합니다.
     
-- **새로 고침** 장치 구성 목록을 새로 고쳐서 모든 장치 구성의 옵션 상태를 확인할 수 있습니다.
+- **새로 고침** 장치 구성 목록을 새로 고쳐 모든 장치 구성의 옵션 상태를 확인할 수 있습니다.
     
 ## <a name="see-also"></a>참고 항목
 

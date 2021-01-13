@@ -1,8 +1,8 @@
 ---
-title: 음성 경로 지정 테스트 케이스 정보 저장
+title: 음성 라우팅 테스트 사례 정보 저장
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
-description: 음성 라우팅 테스트 케이스 정보 저장 대화 상자를 사용 하 여 임시 음성 라우팅 테스트 사례를 저장할 수 있습니다. 음성 라우팅 테스트 사례 정보 저장에서이 테스트 사례의 이름에 지정할 이름을 입력 한 다음 확인을 클릭 합니다.
-ms.openlocfilehash: 46c70c426a27b598c3048543cfb6e7a9f764dd01
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 음성 라우팅 테스트 사례 정보 저장 대화 상자를 사용하여 임시 음성 라우팅 테스트 사례를 저장할 수 있습니다. 음성 라우팅 테스트 사례 정보 저장에서 이 테스트 사례에 지정할 이름을 이름에 입력한 다음 확인을 클릭합니다.
+ms.openlocfilehash: 428b1f761b3918968ee40877bd201114a0c4d174
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797885"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807958"
 ---
-# <a name="save-voice-routing-test-case-information"></a>음성 경로 지정 테스트 케이스 정보 저장
+# <a name="save-voice-routing-test-case-information"></a>음성 라우팅 테스트 사례 정보 저장
  
-**음성 라우팅 테스트 케이스 정보 저장** 대화 상자를 사용 하 여 atemporary 음성 라우팅 테스트 사례를 저장할 수 있습니다. **음성 라우팅 테스트 사례 정보 저장**에서이 테스트 사례의 **이름** 에 지정할 이름을 입력 한 다음 **확인**을 클릭 합니다. 
+음성 라우팅  테스트 사례 정보 저장 대화 상자를 사용하여 서비스 음성 라우팅 테스트 사례를 저장할 수 있습니다. **음성 라우팅 테스트 사례 정보 저장** 에서 이 테스트 사례에 지정할 이름을 **이름** 에 입력한 다음 **확인** 을 클릭합니다. 
   
 > [!NOTE]
-> 임시 테스트 사례를 저장 하는 경우 중앙 관리 저장소에 저장 하지 않습니다. 대신 **음성 라우팅** 페이지의 **음성 라우팅 테스트** 탭에서 테스트 사례를 사용할 수 있도록 합니다. 테스트 사례가 **커밋되지**않은 상태로 표시 됩니다. 중앙 관리 저장소에 테스트 사례를 저장 하려면 **음성 라우팅** 페이지 내의 **동작** 메뉴에서 **모두 커밋을** 클릭 하 여 음성 구성을 커밋해야 합니다.
+> 임시 테스트 사례를 저장할 때 중앙 관리 저장소에 저장하지 않습니다. 대신 **음성 라우팅** 페이지의 **음성 라우팅 테스트** 탭에서 테스트 사례를 사용할 수 있게 됩니다. 테스트 사례는 **커밋되지 않음** 상태로 표시됩니다. 테스트 사례를 중앙 관리 저장소에 저장하려면 음성 라우팅 페이지  내의 모든 작업  메뉴에서 모두 커밋을 클릭하여 음성 구성을 **커밋해야** 합니다.
   
  
   

@@ -1,8 +1,8 @@
 ---
 title: 응답 그룹 그룹
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
-description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성 됩니다. 에이전트 그룹은 응답 그룹 통화에 응답 하도록 지정 된 사용자 그룹입니다.
-ms.openlocfilehash: 1c42f34028d944a7390925df6157c8ef8fd0509d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 에이전트 그룹은 응답 그룹 통화에 응답할 수 있는 것으로 지정된 사람 그룹입니다.
+ms.openlocfilehash: 687263d9d5778239c78038b39edc3da59f444a5a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797519"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808258"
 ---
 # <a name="response-groups-group"></a>응답 그룹: 그룹
 
-응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성 됩니다. 에이전트 그룹은 응답 그룹 통화에 응답 하도록 지정 된 사용자 그룹입니다.
+응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 에이전트 그룹은 응답 그룹 통화에 응답할 수 있는 것으로 지정된 사람 그룹입니다.
 
-**응답 그룹** - **그룹** 페이지에는 조직에 대해 정의 된 모든 에이전트 그룹의 목록이 표시 됩니다.
+응답 **그룹 그룹** 페이지에는 조직에 대해 정의된 모든 에이전트 그룹  -   목록이 표시됩니다.
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
-**응답 그룹** - **그룹** 페이지에서 다음 작업을 수행할 수 있습니다.
+응답 그룹 그룹 페이지에서 다음 **작업을 수행할**  -  **수** 있습니다.
 
 - 새 에이전트 그룹 만들기
 
@@ -42,20 +42,20 @@ ms.locfileid: "41797519"
 
 다음 목록에서는 페이지의 명령에 대해 설명합니다.
 
-- **새로운** 새 에이전트 그룹을 시작 합니다.
+- **신규** 새 에이전트 그룹을 시작합니다.
 
-- **편집** 선택한 에이전트 그룹을 열어 편집 하거나 목록에서 모든 에이전트 그룹을 선택 하거나 선택한 에이전트 그룹을 삭제 합니다.
+- **편집** 선택한 에이전트 그룹을 열어 편집하거나, 목록의 모든 에이전트 그룹을 선택하거나, 선택한 에이전트 그룹을 삭제합니다.
 
-- **새로 고침** 에이전트 그룹 목록을 새로 고칩니다.
+- **새로 고침** 에이전트 그룹 목록을 새로 고침합니다.
 
 다음 목록에서는 페이지의 필드에 대해 설명합니다.
 
-- **이름** 에이전트 그룹을 식별 하는 고유 이름입니다.
+- **이름** 에이전트 그룹을 식별하는 고유 이름입니다.
 
-- **서비스** 에이전트 그룹을 호스트 하는 **Applicationserver** 서비스입니다.
+- **서비스** 에이전트 **그룹을 호스팅하는 ApplicationServer** 서비스입니다.
 
-- **설명** 에이전트 그룹에 대 한 설명입니다.
+- **설명** 에이전트 그룹에 대한 설명입니다.
 
-응답 그룹 기능 및 기능에 대 한 자세한 내용은 계획 설명서의 [비즈니스용 Skype 서버에서 응답 그룹 응용 프로그램 계획](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 을 참조 하세요. 에이전트 그룹 사용에 대한 자세한 내용은 작업 설명서의 [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)를 참조하세요.
+응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 비즈니스용 [Skype 서버의](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 응답 그룹 응용 프로그램 계획을 참조하십시오. 에이전트 그룹을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)를 참조하십시오.
 
 

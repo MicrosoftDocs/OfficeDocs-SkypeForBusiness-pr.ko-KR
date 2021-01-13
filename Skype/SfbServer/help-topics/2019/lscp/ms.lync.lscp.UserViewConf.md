@@ -1,8 +1,8 @@
 ---
-title: 사용자가 회의 정책 보기 또는 구성
+title: 사용자 회의 정책 보기 또는 구성
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 ROBOTS: NOINDEX, NOFOLLOW
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 5a3bcd693115fcb5fa7fb63f0f1afe508de714a4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: c3a6567dd922c9b24cad2e47e9e74e859e3c9e4c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797975"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808148"
 ---
 # <a name="users-view-or-configure-conferencing-policy"></a>사용자: 회의 정책 보기 또는 구성
 
-무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [회의 정책을 할당 하 여 사용자의 기본 모임 환경 수정](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [사용자의 기본 모임 환경을 수정하기 위해 회의 정책 할당](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
 
 

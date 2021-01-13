@@ -1,8 +1,8 @@
 ---
 title: 음성 정책
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: d4e8006a5ba0efa0f9fd8f911525d6bb2ea1f844
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: f937d708e507155a32338eea27b7532b14f6f101
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821660"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807258"
 ---
 # <a name="voice-policy"></a>음성 정책
 
-무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [비즈니스용 Skype 2015에서 음성 정책 만들기 또는 수정 및 PSTN 사용 레코드 구성](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [음성 정책 만들기 또는 수정 및 비즈니스용 Skype 2015에서 PSTN 사용 레코드 구성](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
 - [음성 정책 수정 및 PSTN 사용 레코드 구성](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
-비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.
+비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)
 

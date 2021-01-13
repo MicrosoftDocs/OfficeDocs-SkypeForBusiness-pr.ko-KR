@@ -1,8 +1,8 @@
 ---
 title: tblEnumAttribute
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
-description: tblEnumAttribute는 노드 테이블에 사용 되는 Visibility 및 Behavior 특성을 포함 하는 하드 코드 된 테이블입니다.
-ms.openlocfilehash: 8244e2fb6ace6c4ed73f017f52df0c85d1f02315
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblEnumAttribute는 Node 테이블에 사용된 Visibility 및 Behavior 특성이 들어 있는 하드코드된 테이블입니다.
+ms.openlocfilehash: 698eda1e6e815ad4de4042312be1738a3a41d1f2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814616"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809718"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
-tblEnumAttribute는 노드 테이블에 사용 되는 Visibility 및 Behavior 특성을 포함 하는 하드 코드 된 테이블입니다.
+tblEnumAttribute는 Node 테이블에 사용된 Visibility 및 Behavior 특성이 들어 있는 하드코드된 테이블입니다.
   
 **열**
 
 |**열**|**유형**|**설명**|
 |:-----|:-----|:-----|
 |attributeID  <br/> |smallint, null이 아님  <br/> |특성의 ID입니다.  <br/> |
-|attributeName  <br/> |nvarchar (256), null 아님  <br/> |특성의 이름입니다.  <br/> |
+|attributeName  <br/> |nvarchar(256), null이 아님  <br/> |특성의 이름입니다.  <br/> |
    
 **키**
 
@@ -41,8 +41,8 @@ tblEnumAttribute는 노드 테이블에 사용 되는 Visibility 및 Behavior �
 
 |**attributeID**|**attributeName**|
 |:-----|:-----|
-|1  <br/> |시도가.  <br/> |
-|2  <br/> |결과가.  <br/> |
+|1   <br/> |가시성.  <br/> |
+|2   <br/> |동작.  <br/> |
    
 ## <a name="see-also"></a>참고 항목
 

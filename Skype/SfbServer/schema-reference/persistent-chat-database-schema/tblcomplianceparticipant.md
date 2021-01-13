@@ -1,8 +1,8 @@
 ---
 title: tblComplianceParticipant
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
-description: tblComplianceParticipant에는 채널당 현재 참가자와 서버 별로 포함 됩니다.
-ms.openlocfilehash: 8f4b90cd7e8949451c2b6c1b9bc3cfabbab826e9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblComplianceParticipant에는 채널 및 서버별 현재 참가자가 포함됩니다.
+ms.openlocfilehash: c6aae3c1e7b13456708034512c6b68d67d6d1f92
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814646"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809748"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  
-tblComplianceParticipant에는 채널당 현재 참가자와 서버 별로 포함 됩니다.
+tblComplianceParticipant에는 채널 및 서버별 현재 참가자가 포함됩니다.
   
 **열**
 
 |**열**|**유형**|**설명**|
 |:-----|:-----|:-----|
-|channelUri  <br/> |nvarchar (255), null 아님  <br/> |채널 URI (Uniform Resource Identifier)입니다.  <br/> |
-|userId  <br/> |int, null 아님  <br/> |참가자의 사용자 ID (tblPrincipal 테이블에 해당)  <br/> |
-|에서 joinedAt  <br/> |bigint, null이 아님  <br/> |참가 이벤트의 타임 스탬프입니다.  <br/> |
-|partedAt  <br/> |bigint  <br/> |참가자가 아직 참가 한 경우 Null입니다. Null이 아닌 경우 이벤트를 종료 하는 채널의 타임 스탬프입니다.  <br/> 이러한 항목은 모든 번역기가 이벤트를 처리할 때 결국 제거 됩니다.  <br/> |
-|userUri  <br/> |nvarchar (255), null 아님  <br/> |사용자 URI입니다.  <br/> |
-|serverID  <br/> |int  <br/> |서버 id (tblServerIdentity 테이블에 해당)  <br/> |
-|Session  <br/> |bigint  <br/> |서버 세션. 채팅 서비스를 시작할 때마다 생성 되는 난수입니다. 고아 참가자를 식별 하기 위해 세션을 구분 하는 데 사용 됩니다.  <br/> |
+|channelUri  <br/> |nvarchar(255), null이 아님  <br/> |채널 URI(Uniform Resource Identifier)입니다.  <br/> |
+|userId  <br/> |int, null이 아님  <br/> |참가자의 계정 ID(tblPrincipal.prinID 테이블에 해당됨)입니다.  <br/> |
+|joinedAt  <br/> |bigint, null이 아님  <br/> |참가 이벤트의 타임스탬프입니다.  <br/> |
+|partedAt  <br/> |bigint  <br/> |참가자가 아직 참가된 상태이면 Null입니다. Null이 아닌 경우 채널 나가기 이벤트의 타임스탬프입니다.  <br/> 모든 변환기에서 이벤트를 처리하면 이러한 항목이 결국 제거됩니다.  <br/> |
+|userUri  <br/> |nvarchar(255), null이 아님  <br/> |사용자 URI입니다.  <br/> |
+|serverID  <br/> |int  <br/> |서버 ID(tblServerIdentity.serverID 테이블에 해당됨)입니다.  <br/> |
+|sessionId  <br/> |bigint  <br/> |서버 세션입니다. 이 값은 채팅 서비스가 시작할 때마다 생성되는 임의의 숫자입니다. 고립된 참가자를 식별하기 위한 목적으로 세션을 구분하기 위해 사용됩니다.  <br/> |
    
 **키**
 
