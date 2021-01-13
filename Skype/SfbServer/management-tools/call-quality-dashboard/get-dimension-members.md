@@ -1,8 +1,8 @@
 ---
 title: 차원 구성원 가져오기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: '요약: 차원 구성원 가져오기 작업에 대해 알아보세요. 차원 구성원 가져오기 작업은 통화 품질 대시보드의 데이터 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 40e5ac8b95c24c3a8cb759da99f7d7aeaa391576
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: '요약: 차원 구성원 Get 작업에 대해 자세히 알아보습니다. 차원 구성원 보기 작업은 통화 품질 대시보드에 대한 데이터 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
+ms.openlocfilehash: ffec3b02a3c876a003adb679a28b0e8f2edb91c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888817"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832638"
 ---
 # <a name="get-dimension-members"></a>차원 구성원 가져오기
  
-**요약:** 차원 구성원 가져오기 작업에 대해 알아보세요. 차원 구성원 가져오기 작업은 통화 품질 대시보드의 데이터 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
+**요약:** 차원 구성원 Get 작업에 대해 자세히 알아보습니다. 차원 구성원 보기 작업은 통화 품질 대시보드에 대한 데이터 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
   
-차원 구성원 가져오기 작업은 통화 품질 대시보드의 데이터 API의 일부입니다.
+차원 구성원 보기 작업은 통화 품질 대시보드에 대한 데이터 API의 일부입니다.
   
 ## <a name="get-dimension-members"></a>차원 구성원 가져오기
 
-차원 구성원 가져오기 작업은 특정 차원의 구성원 목록을 반환 합니다. 또한 구성원 목록을 필터링 하 고 하위 집합을 가져오는 기능을 제공 하 여 회선 전송 비용을 줄입니다.
+차원 구성원 작업에서 특정 차원의 구성원 목록을 반환합니다. 또한 구성원 목록을 필터링하고 하위 집합을 얻을 수 있는 기능을 제공하여 전신 전송 비용을 줄일 수 있습니다.
   
 
-|**메서드와**|**요청 URI**|**HTTP 버전**|
+|**방법**|**요청 URI**|**HTTP 버전**|
 |:-----|:-----|:-----|
-|올리기  <br/> |https://\<포털\>/Qoedataservice/dimensionmembers  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |https:// \<portal\> /QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
    
- **URI 매개 변수** -없음
+ **URI 매개 변수** - 없음.
   
- **헤더 요청** -추가 헤더가 없습니다.
+ **요청 헤더** - 추가 헤더가 없습니다.
   
- **요청 본문** -구성원이 원하는 차원의 이름을 포함 합니다. 또한 반환 되는 구성원의 최대 개수를 지정 하 여 반환 된 구성원을 제한 하는 필터링을 지정할 수 있습니다.
+ **요청 본문** - 구성원이 원하는 차원의 이름이 포함되어 있습니다. 반환되는 구성원의 최대 수도 지정할 수 있습니다. 또한 일부 필터링을 지정하여 반환된 구성원을 제한할 수 있습니다.
   
 ```json
 {
@@ -52,16 +52,16 @@ ms.locfileid: "41888817"
 }
 ```
 
- **응답** -응답에는 HTTP 상태 코드 및 응답 헤더 집합이 포함 됩니다.
+ **응답** - 응답에는 HTTP 상태 코드와 응답 헤더 집합이 포함됩니다.
   
- **상태 코드** -성공 작업에서 상태 코드 200 (OK)을 반환 합니다.
+ **상태 코드** - 성공적인 작업이 상태 코드 200(확인)을 반환합니다.
   
- **응답 헤더** -추가 헤더가 없습니다.
+ **응답 헤더** - 추가 헤더가 없음.
   
- **응답 본문** -다음은 "[시작 됨]에 대 한 요청에 대 한 응답으로 JSON의 샘플 응답 페이로드입니다. [Month] "차원.
+ **응답 본문** - 다음은 "[StartDate]에 대한 요청에 대한 응답으로 JSON의 샘플 응답 페이로드입니다. [Month]" 차원입니다.
   
 > [!NOTE]
-> 목록은 목록의 일부분만 표시 합니다. 
+> 목록에는 목록의 일부만 표시됩니다. 
   
 ```json
 {

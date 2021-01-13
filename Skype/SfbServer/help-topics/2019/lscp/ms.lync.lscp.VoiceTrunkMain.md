@@ -1,8 +1,8 @@
 ---
 title: 트렁크 구성
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 ROBOTS: NOINDEX, NOFOLLOW
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 04040c333e7e0bcb9aa7f7c62b92c706bb5916d1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: 98580f52fa87fb9381409b0a97b4d84efc17b222
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795167"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833558"
 ---
 # <a name="trunk-configuration"></a>트렁크 구성
 
-무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [비즈니스용 Skype 서버에서 미디어 바이패스를 사용 하 여 트렁크 구성](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [비즈니스용 Skype 서버에서 미디어 우회를 통해 트렁크 구성](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [비즈니스용 Skype 서버에서 미디어 바이패스 없이 트렁크 구성](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [비즈니스용 Skype 서버에서 미디어 우회 없이 트렁크 구성](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [비즈니스용 Skype 서버에서 호출 된 ID 프레젠테이션에 대 한 번역 규칙 만들기 또는 수정](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [비즈니스용 Skype 서버에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [수동으로 번역 규칙 만들기 또는 수정](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [수동으로 변환 규칙 만들기 또는 수정](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

@@ -1,8 +1,8 @@
 ---
 title: UriTypes 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
-description: UriTypes 테이블에는 비즈니스용 Skype 서버 2015에서 모니터링 하는 다양 한 URI (Uniform resource identifier) 형식이 포함 되어 있습니다.
-ms.openlocfilehash: 81cd00503f88eac03f952b63ef7a3bd9464c1f51
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: UriTypes 테이블에는 비즈니스용 Skype 서버 2015에서 모니터링되는 다른 URI(Uniform Resource Identifier) 유형이 포함되어 있습니다.
+ms.openlocfilehash: 622384086dbd1031633b70758cdcea600ad31d43
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814846"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831688"
 ---
 # <a name="uritypes-table"></a>UriTypes 테이블
  
-UriTypes 테이블에는 비즈니스용 Skype 서버 2015에서 모니터링 하는 다양 한 URI (Uniform resource identifier) 형식이 포함 되어 있습니다.
+UriTypes 테이블에는 비즈니스용 Skype 서버 2015에서 모니터링되는 다른 URI(Uniform Resource Identifier) 유형이 포함되어 있습니다.
 
-CDR DB가 만들어지면 PhoneUri 및 UserUri를 나타내는 두 개의 레코드가 만들어지고 그 후에 생성 된 레코드가 UriTypeId에 동적으로 지정 됩니다. 
+CDR DB를 만들면 PhoneUri 및 UserUri를 나타내는 두 개의 레코드가 만들어지며 그 이후에 만들어진 레코드에는 동적으로 할당된 UriTypeId가 만들어집니다. 
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**UriTypeId** <br/> |tinyint  <br/> |주요한  <br/> |URI 형식에 할당 된 고유 식별자입니다.  <br/> 사용할 수 있는 값-0 ~ 255 |
-|**UriType** <br/> |nvarchar (256)  <br/> || 다양 한 URI 형식에 대 한 설명입니다. 미리 지정 된 값은 다음과 같습니다. <br/>  1-전화 Uri <br/>  0-사용자 Uri <br/> <br/>  다른 종류의 유형은 다음과 같습니다. <br/>회의: applicationsharing <br/> 회의: 오디오-영상<br/> 회의: 채팅<br/>    회의: 포커스<br/>   mras<br/>
+|**UriTypeId** <br/> |tinyint  <br/> |Primary  <br/> |URI 유형에 지정된 고유 식별자입니다.  <br/> 가능한 값 - 0 ~255 |
+|**UriType** <br/> |nvarchar(256)  <br/> || 다른 URI 유형에 대한 설명입니다. 다음 값은 미리 할당됩니다. <br/>  1 - 전화 Uri <br/>  0 - 사용자 Uri <br/> <br/>  기타 가능한 유형은 다음과 같습니다. <br/>conf:applicationsharing <br/> conf:audio-video<br/> conf:chat<br/>    conf:focus<br/>   mras<br/>

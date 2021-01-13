@@ -1,8 +1,8 @@
 ---
 title: Lync Server 사이트 설정 확장기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 기존 사이트의 속성을 편집하려면 다음을 수행합니다.
-ms.openlocfilehash: 69555a04be4125e213ba2eca7afd7255100c0444
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: acfd7e312dbde97e847a9b97d9730a6d0b3488da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217569"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832918"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 사이트 설정 확장기
 
@@ -38,7 +38,7 @@ ms.locfileid: "48217569"
 
 사이트 페더레이션 경로 할당을 설정하려면 먼저 에지 서버 또는 에지 서버 풀에서 페더레이션을 사용하도록 설정해야 합니다. 에지 서버 또는 풀에서 페더레이션을 사용하도록 설정하지 않은 경우 사이트의 페더레이션 경로 할당 설정을 수정할 수 없습니다.
 
-에지 서버 또는 풀에서 페더레이션 설정을 구성한 경우 사이트 수준에서 **사용**을 선택합니다. 그런 다음 드롭다운 목록에서 페더레이션 경로로 설정할 에지 또는 디렉터를 선택합니다.
+에지 서버 또는 풀에서 페더레이션 설정을 구성한 경우 사이트 수준에서 **사용** 을 선택합니다. 그런 다음 드롭다운 목록에서 페더레이션 경로로 설정할 에지 또는 디렉터를 선택합니다.
 
 > [!CAUTION]
 > 이 설정은 모든 사이트에 영향을 미칩니다. 이 사이트에서 구성하는 설정이 모든 사이트에 대해 적합해야 합니다.

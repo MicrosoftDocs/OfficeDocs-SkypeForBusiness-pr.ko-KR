@@ -1,8 +1,8 @@
 ---
 title: Users 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
-description: 사용자 테이블은 지원 테이블입니다. 테이블의 각 레코드에는 데이터베이스의 레코드를 포함 하는 호출 또는 세션과 관련 된 한 사용자에 대 한 정보가 저장 됩니다.
-ms.openlocfilehash: 21d03dc2214ac74188094c10a7b53ec84b8a51a9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Users 테이블은 지원 테이블입니다. 테이블의 각 레코드에는 데이터베이스에 레코드가 있는 통화 또는 세션에 관련된 한 사용자에 대한 정보가 저장됩니다.
+ms.openlocfilehash: 1905efa9b87b0b94c55e3a72e8be86e9ab191661
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814806"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831618"
 ---
 # <a name="users-table"></a>Users 테이블
  
-사용자 테이블은 지원 테이블입니다. 테이블의 각 레코드에는 데이터베이스의 레코드를 포함 하는 호출 또는 세션과 관련 된 한 사용자에 대 한 정보가 저장 됩니다.
+Users 테이블은 지원 테이블입니다. 테이블의 각 레코드에는 데이터베이스에 레코드가 있는 통화 또는 세션에 관련된 한 사용자에 대한 정보가 저장됩니다.
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**NextUpdateTS** <br/> |dmtf  <br/> ||내부 사용을 위한 타임 스탬프입니다.  <br/> |
-|**UserId** <br/> |int  <br/> |주요한  <br/> |이 사용자를 식별 하는 고유 번호입니다.  <br/> |
-|**UserUri** <br/> |nvarchar (450)  <br/> | <br/> |사용자 URI입니다.  <br/> |
-|**TenantId** <br/> |int  <br/> |외부  <br/> |이 사용자의 테 넌 트 ID입니다. 자세한 내용은 [테 넌 트 테이블](tenants.md) 을 참조 하세요. <br/> |
-|**UriTypeId** <br/> |int  <br/> |외부  <br/> |이 사용자의 URI 형식입니다. 자세한 내용은 [UriTypes 테이블](uritypes.md) 을 참조 하세요. <br/> |
+|**NextUpdateTS** <br/> |datetime  <br/> ||내부용 타임스탬프입니다.  <br/> |
+|**UserId** <br/> |int  <br/> |Primary  <br/> |이 사용자를 식별하는 고유 번호입니다.  <br/> |
+|**UserUri** <br/> |nvarchar(450)  <br/> | <br/> |사용자 URI입니다.  <br/> |
+|**TenantId** <br/> |int  <br/> |외계인  <br/> |이 사용자의 테넌트 ID입니다. 자세한 내용은 [Tenants 테이블을](tenants.md) 참조하세요. <br/> |
+|**UriTypeId** <br/> |int  <br/> |외계인  <br/> |이 사용자의 URI 형식입니다. 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하세요. <br/> |
    
 

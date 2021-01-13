@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버 2015에 대 한 스키마 참조
+title: 비즈니스용 Skype 서버의 Schema reference for Skype server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms.openlocfilehash: b8db1363cdfa2c2e2559c69ad06d79f92c5af782
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 34d4e2dc5783b1455ef482af4a9daed44a025fd3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804138"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834318"
 ---
-# <a name="schema-reference-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 대 한 스키마 참조
+# <a name="schema-reference-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 Schema reference for Skype server 2015
  
 
-## <a name="in-this-section"></a>이 섹션의
+## <a name="in-this-section"></a>이 섹션의 내용
 
-- [비즈니스용 Skype Server 2015의 CDR (통화 정보 기록) 데이터베이스 스키마](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
+- [비즈니스용 Skype 서버의 CDR(통화 정보 기록) 데이터베이스 schema](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
     
 - [체감 품질(QoE) 데이터베이스 스키마](quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md)
     

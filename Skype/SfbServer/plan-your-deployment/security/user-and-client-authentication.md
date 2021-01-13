@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버에 대 한 사용자 및 클라이언트 인증
+title: 비즈니스용 Skype 서버에 대한 사용자 및 클라이언트 인증
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,48 +11,48 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: 신뢰할 수 있는 사용자는 비즈니스용 Skype 서버의 신뢰할 수 있는 서버에서 자격 증명을 인증 한 것입니다. 이 서버는 일반적으로 스탠더드 버전 서버, Enterprise Edition 프런트 엔드 서버 또는 디렉터입니다. 비즈니스용 Skype Server는 Active Directory 도메인 서비스를 사용자 자격 증명의 단일 신뢰할 수 있는 백 엔드 리포지토리로 사용 합니다.
-ms.openlocfilehash: 2ffabce6546bf8b542503f8c80fe5cb2b952c568
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 신뢰할 수 있는 사용자는 비즈니스용 Skype 서버에서 신뢰할 수 있는 서버에서 자격 증명을 인증한 사용자입니다. 이 서버는 일반적으로 Standard Edition 서버, Enterprise Edition 프런트 엔드 서버 또는 디렉터입니다. 비즈니스용 Skype 서버는 Active Directory 도메인 서비스를 사용자 자격 증명의 신뢰할 수 있는 단일 백 엔드 리포지토리로 이용합니다.
+ms.openlocfilehash: bf0bde8478cd6c4e2eb068ffade7fba7fac14d56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815586"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832008"
 ---
-# <a name="user-and-client-authentication-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 사용자 및 클라이언트 인증
+# <a name="user-and-client-authentication-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대한 사용자 및 클라이언트 인증
  
-신뢰할 수 있는 사용자는 비즈니스용 Skype 서버의 신뢰할 수 있는 서버에서 자격 증명을 인증 한 것입니다. 이 서버는 일반적으로 스탠더드 버전 서버, Enterprise Edition 프런트 엔드 서버 또는 디렉터입니다. 비즈니스용 Skype Server는 Active Directory 도메인 서비스를 사용자 자격 증명의 단일 신뢰할 수 있는 백 엔드 리포지토리로 사용 합니다.
+신뢰할 수 있는 사용자는 비즈니스용 Skype 서버에서 신뢰할 수 있는 서버에서 자격 증명을 인증한 사용자입니다. 이 서버는 일반적으로 Standard Edition 서버, Enterprise Edition 프런트 엔드 서버 또는 디렉터입니다. 비즈니스용 Skype 서버는 Active Directory 도메인 서비스를 사용자 자격 증명의 신뢰할 수 있는 단일 백 엔드 리포지토리로 이용합니다.
   
-인증은 신뢰할 수 있는 서버에 대 한 사용자 자격 증명을 제공 하는 것입니다. 비즈니스용 Skype 서버는 사용자의 상태와 위치에 따라 다음 인증 프로토콜을 사용 합니다.
+인증은 트러스트된 서버에 대한 사용자 자격 증명을 제공하는 과정입니다. 비즈니스용 Skype 서버는 사용자의 상태 및 위치에 따라 다음 인증 프로토콜을 사용합니다.
   
-- Active Directory 자격 증명을 사용 하는 내부 사용자 용 **MIT Kerberos 버전 5 보안 프로토콜** 입니다. Kerberos에는 Active Directory 도메인 서비스에 대 한 클라이언트 연결이 필요 하며,이 때문에 회사 방화벽 외부에서 클라이언트를 인증 하는 데 사용할 수 없습니다.
+- Active Directory 자격 증명이 있는 내부 사용자를 위한 **MIT Kerberos 버전 5 보안 프로토콜**. Kerberos를 사용하려면 클라이언트가 Active Directory 도메인 서비스에 연결해야 하므로, 회사 방화벽 외부의 클라이언트를 인증하는 데는 Kerberos를 사용할 수 없습니다.
     
-- 회사 방화벽 외부의 끝점에서 연결 하는 Active Directory 자격 증명이 있는 사용자에 대 한 **NTLM 프로토콜** 입니다. 액세스에 지 서비스가 로그인 요청을 디렉터 (있는 경우) 또는 프런트 엔드 서버 (인증)에 게 전달 합니다. 액세스에 지 서비스 자체는 인증을 수행 하지 않습니다.
+- 회사 방화벽 외부의 끝점에서 연결하며 Active Directory 자격 증명이 있는 사용자를 위한 **NTLM 프로토콜**. 액세스 에지 서비스는 인증을 위해 로그온 요청을 디렉터(있는 경우) 또는 프런트 엔드 서버로 전달합니다. 액세스 에지 서비스 자체는 인증을 수행하지 않습니다.
     
     > [!NOTE]
-    > NTLM 프로토콜은 Kerberos 보다 약한 공격 보호 기능을 제공 하므로 일부 조직에서는 NTLM의 사용을 최소화 합니다. 따라서 비즈니스용 Skype 서버에 대 한 액세스가 VPN 또는 DirectAccess 연결을 통해 연결 된 내부 또는 클라이언트로 제한 될 수 있습니다. 
+    > NTLM 프로토콜은 Kerberos보다 공격 보호 수준이 낮으므로 일부 조직에서는 NTLM 사용을 최소화합니다. 따라서 비즈니스용 Skype 서버에 대한 액세스는 VPN 또는 DirectAccess 연결을 통해 연결된 내부 또는 클라이언트로 제한될 수 있습니다. 
   
-- 익명 사용자 라고 불리는 **다이제스트 프로토콜** 입니다. 익명 사용자는 Active Directory 자격 증명을 인식할 수 없지만 온-프레미스 회의에 초대 하 고 유효한 컨퍼런스 키를 소유 하는 사용자 외부입니다. 다이제스트 인증은 다른 클라이언트 조작에는 사용 되지 않습니다.
+- 익명 사용자를 위한 **다이제스트 프로토콜**. 익명 사용자는 인식할 수 있는 Active Directory 자격 증명을 가지고 있지는 않지만 온-프레미스 전화 회의에 초대를 받았으며 유효한 전화 회의 키를 소유한 외부 사용자입니다. 다른 클라이언트 상호 작용에는 다이제스트 인증이 사용되지 않습니다.
     
-비즈니스용 Skype 서버 인증은 다음 두 단계로 구성 됩니다.
+비즈니스용 Skype 서버 인증은 다음 두 단계로 구성됩니다.
   
-1. 클라이언트와 서버 간에 보안 연결이 설정 됩니다.
+1. 클라이언트와 서버 사이에 보안 연결이 설정됩니다.
     
-2. 클라이언트와 서버는 기존 보안 연결을 사용 하 여 보내는 메시지에 서명 하 고 자신이 받은 메시지를 확인 합니다. 서버에서 인증을 사용 하도록 설정 되어 있는 경우에는 클라이언트의 인증 되지 않은 메시지가 수락 되지 않습니다.
+2. 클라이언트 및 서버가 기존 보안 연결을 사용하여 보내는 메시지에 서명하고 받는 메시지를 확인합니다. 서버에서 인증이 활성화된 경우 클라이언트에서 보낸 인증되지 않은 메시지는 허용되지 않습니다.
     
-사용자 신뢰는 사용자 id 자체가 아니라 사용자 로부터 들어오는 각 메시지에 연결 됩니다. 서버가 각 메시지에 유효한 사용자 자격 증명을 검사 합니다. 사용자 자격 증명이 유효 하 게 표시 되는 경우에는 해당 메시지가 첫 번째 서버 에서만 수신 되 고 신뢰 된 서버 클라우드의 다른 모든 서버에서 unchallenged 됩니다.
+사용자 트러스트는 사용자 ID가 아니라 사용자가 생성한 각 메시지에 첨부됩니다. 서버에서는 각 메시지에 올바른 사용자 자격 증명이 있는지 확인합니다. 사용자 자격 증명이 유효하면 메시지를 받는 첫 번째 서버뿐만 아니라 트러스트된 서버 집단의 다른 모든 서버에서도 메시지가 바로 전달됩니다.
   
-페더레이션 파트너가 발급 하는 유효한 자격 증명을 사용 하는 사용자는 신뢰할 수 있지만 필요에 따라 추가 제약 조건에서 내부 사용자에 게 적용 되는 모든 범위의 권한을 제공 하지 못하게 됩니다.
+페더레이션 파트너에서 발급한 유효한 자격 증명이 있는 사용자는 트러스트되지만, 필요한 경우에는 추가적인 제한이 적용되므로 내부 사용자에게 제공되는 전체 권한을 사용할 수 없습니다.
   
-또한 얼음 및 선반 가공 프로토콜은 IETF RFC에서 설명한 대로 다이제스트 챌린지를 사용 합니다.
+ICE 및 TURN 프로토콜 역시 IETF TURN RFC에 설명되어 있는 것처럼 다이제스트 방식을 사용합니다.
   
-클라이언트 인증서는 비즈니스용 Skype 서버에서 사용자를 인증 하는 대체 방법을 제공 합니다. 사용자 이름 및 암호를 제공 하는 대신, 사용자는 인증서와 암호화 챌린지를 해결 하는 데 필요한 인증서에 해당 하는 개인 키를가지고 있습니다. (이 인증서에는 사용자를 식별 하는 주체 이름 또는 주체 대체 이름이 있어야 하며, 비즈니스용 Skype Server를 실행 하는 서버에서 신뢰 하는 루트 CA가 발급 해야 하며, 인증서의 유효 기간 내에 있어야 하며, 해지 되지 않았습니다.) 인증을 받기 위해 사용자는 PIN (개인 식별 번호)을 입력 하기만 하면 됩니다. 인증서는 사용자 이름 및 암호를 입력 하는 것이 어려운 전화, 휴대 전화 및 기타 장치에 특히 유용 합니다.
+클라이언트 인증서는 사용자를 비즈니스용 Skype 서버에서 인증할 수 있는 대체 방법을 제공합니다. 사용자 이름 및 암호를 제공하는 대신 사용자가 암호화 시도를 확인하는 데 필요한 인증서 및 해당 인증서에 따른 개인 키를 사용할 수 있습니다. (이 인증서에는 사용자를 식별하는 주체 이름 또는 주체 대체 이름이 있어야 합니다. 비즈니스용 Skype 서버를 실행하는 서버에서 신뢰하는 루트 CA에서 발급해야 하며 인증서의 유효 기간 내에 있으며 해지되지 않은 것입니다.) 인증을 위해 사용자는 PIN(개인 식별 번호)만 입력하면 됩니다. 인증서는 전화, 휴대폰 및 사용자 이름과 암호를 입력하기 어려운 기타 장치에 특히 유용합니다.
   
-### <a name="cryptographic-requirements-due-to-asp-net-45"></a>ASP .NET 4.5으로 인 한 암호화 요구 사항 
+### <a name="cryptographic-requirements-due-to-asp-net-45"></a>ASP .NET 4.5로 인한 암호화 요구 사항 
 
-비즈니스용 Skype Server 2015 CU5의 경우 ASP.NET 4.6에는 AES가 지원 되지 않으며,이로 인해 Skype 모임 앱이 시작 되지 않을 수 있습니다. 클라이언트가 컴퓨터 키 유효성 검사 값으로 AES를 사용 하는 경우에는 IIS의 Skype Meeting App site level에서 컴퓨터 키 값을 SHA-1 또는 다른 지원 되는 알고리즘으로 다시 설정 해야 합니다. 필요한 경우 [IIS 8.0 ASP.NET 구성 관리](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) 에 대 한 지침을 참조 하세요.
+비즈니스용 Skype 서버 2015 CU5부터는 ASP.NET 4.6에 대해 AES가 지원되지 않습니다. 이로 인해 Skype 모임 앱이 시작되지 않을 수 있습니다. 클라이언트가 AES를 컴퓨터 키 유효성 검사 값으로 사용하는 경우 IIS의 Skype 모임 앱 사이트 수준에서 컴퓨터 키 값을 SHA-1 또는 다른 지원 알고리즘으로 다시 설정해야 합니다. 필요한 경우 [IIS 8.0](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) ASP.NET 구성 관리를 참조하세요.
   
-기타 지원 되는 값은 다음과 같습니다.
+지원되는 다른 값은 같습니다.
   
 - HMACSHA256
     
@@ -60,5 +60,5 @@ ms.locfileid: "41815586"
     
 - HMACSHA512
     
-  AES, 3DES 및 MD5 값은 ASP.NET 4에 비해 더 이상 사용할 수 없습니다. [ASP.NET 4.5, pt. 2의 암호화 개선](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) 사항에 대 한 세부 정보가 더 있습니다.
+  AES, 3DES 및 MD5 값은 한 번은 4번에 ASP.NET 허용되지 않습니다. [ASP.NET 4.5, pt. 2의](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) 암호화 개선 사항은 더 자세히 설명되어 있습니다.
   

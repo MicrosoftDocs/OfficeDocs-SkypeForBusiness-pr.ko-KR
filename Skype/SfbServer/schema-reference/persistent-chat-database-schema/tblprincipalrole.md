@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalRole
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,34 +12,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
-description: tblPrincipalRole에는 노드에 할당 된 명시적 역할이 포함 됩니다.
-ms.openlocfilehash: 1cc606ec3825bb664d4123154e97fabb15678cfd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalRole 테이블에는 노드에 할당된 명시적 역할이 포함됩니다.
+ms.openlocfilehash: 13c9c25db9ba1dbe281947468bbd834e80417899
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813366"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831558"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
-tblPrincipalRole에는 노드에 할당 된 명시적 역할이 포함 됩니다.
+tblPrincipalRole 테이블에는 노드에 할당된 명시적 역할이 포함됩니다.
   
 **열**
 
 |**열**|**유형**|**설명**|
 |:-----|:-----|:-----|
-|prinRoleNodeID  <br/> |int, null 아님  <br/> |역할이 적용 되는 노드 ID입니다.  <br/> |
-|prinRolePrinID  <br/> |int, null 아님  <br/> |Principal ID.  <br/> |
-|prinRoleTypeID  <br/> |int, null 아님  <br/> |역할 유형 ID (tblRoleType)입니다.  <br/> |
-|prinRoleUpdatedBy  <br/> |int, null 아님  <br/> |이 항목을 마지막으로 업데이트 한 사용자의 ID입니다.  <br/> |
+|prinRoleNodeID  <br/> |int, null이 아님  <br/> |해당 역할이 적용되는 노드 ID입니다.  <br/> |
+|prinRolePrinID  <br/> |int, null이 아님  <br/> |사용자 ID입니다.  <br/> |
+|prinRoleTypeID  <br/> |int, null이 아님  <br/> |역할 유형 ID(tblRoleType)입니다.  <br/> |
+|prinRoleUpdatedBy  <br/> |int, null이 아님  <br/> |이 항목을 마지막으로 업데이트한 사용자의 ID입니다.  <br/> |
    
-**핵심**
+**키**
 
 |**열**|**설명**|
 |:-----|:-----|
 |\<prinRoleNodeID, prinRolePrinID, prinRoleTypeID\>  <br/> |기본 키입니다.  <br/> |
-|prinRoleNodeID  <br/> |NodeID 테이블에 조회를 포함 하는 외래 키입니다.  <br/> |
-|prinRolePrinID  <br/> |TblPrincipal 테이블에 조회를 포함 하는 외래 키입니다.  <br/> |
-|prinRoleTypeID  <br/> |TblRoleType의 조회를 포함 하는 외래 키입니다.  <br/> |
+|prinRoleNodeID  <br/> |tblNode.nodeID 테이블에서 조회 기능이 있는 외래 키입니다.  <br/> |
+|prinRolePrinID  <br/> |tblPrincipal.prinID 테이블에서 조회 기능이 있는 외래 키입니다.  <br/> |
+|prinRoleTypeID  <br/> |tblRoleType.rtypeID 테이블에서 조회 기능이 있는 외래 키입니다.  <br/> |
    
 

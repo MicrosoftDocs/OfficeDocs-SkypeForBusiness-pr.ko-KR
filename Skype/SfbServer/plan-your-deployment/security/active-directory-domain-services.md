@@ -1,8 +1,8 @@
 ---
 title: 비즈니스용 Skype 서버용 Active Directory 도메인 서비스
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,108 +12,108 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
-description: Active Directory 도메인 서비스는 Windows Server 2003, Windows Server 2008, Windows Server 2012 및 Windows Server 2012 R2 네트워크에 대 한 디렉터리 서비스로 작동 합니다. Active Directory 도메인 서비스는 또한 비즈니스용 Skype 서버 보안 인프라의 기반이 되는 토대 역할을 합니다. 이 섹션에서는 비즈니스용 Skype 서버에서 Active Directory 도메인 서비스를 사용 하 여 IM, 웹 회의, 미디어, 음성에 대 한 신뢰할 수 있는 환경을 만드는 방법을 설명 합니다. Active Directory 도메인 서비스의 환경을 준비 하는 방법에 대 한 자세한 내용은 배포 설명서에 비즈니스용 Skype 서버 설치를 참조 하세요. Windows Server 네트워크용 Active Directory 도메인 서비스의 역할에 대 한 자세한 내용은 사용 중인 운영 체제 버전에 대 한 설명서를 참조 하세요.
-ms.openlocfilehash: ec3a09e2203b6f862d87403818b43ab6daae33ed
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Active Directory 도메인 서비스는 Windows Server 2003, Windows Server 2008, Windows Server 2012 및 R2 네트워크용 디렉터리 Windows Server 2012 기능합니다. Active Directory 도메인 서비스는 비즈니스용 Skype 서버 보안 인프라가 구축되는 토대 역할을 합니다. 이 섹션에서는 비즈니스용 Skype 서버에서 Active Directory 도메인 서비스를 사용하여 IM, 웹 회의, 미디어 및 음성에 대한 신뢰할 수 있는 환경을 만드는 방법을 설명합니다. Active Directory 도메인 서비스를 위한 환경을 준비하는 데 대한 자세한 내용은 배포 설명서에서 비즈니스용 Skype 서버 설치를 참조하십시오. Windows Server 네트워크에서 Active Directory 도메인 서비스의 역할에 대한 자세한 내용은 사용 중인 운영 체제의 버전에 대한 설명서를 참조하십시오.
+ms.openlocfilehash: c4fea392fbabafa0852c21aa5b15118f2427319a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815716"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832328"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 Active Directory 도메인 서비스
  
-Active Directory 도메인 서비스는 Windows Server 2003, Windows Server 2008, Windows Server 2012 및 Windows Server 2012 R2 네트워크에 대 한 디렉터리 서비스로 작동 합니다. Active Directory 도메인 서비스는 또한 비즈니스용 Skype 서버 보안 인프라의 기반이 되는 토대 역할을 합니다. 이 섹션에서는 비즈니스용 Skype 서버에서 Active Directory 도메인 서비스를 사용 하 여 IM, 웹 회의, 미디어, 음성에 대 한 신뢰할 수 있는 환경을 만드는 방법을 설명 합니다. Active Directory 도메인 서비스의 환경을 준비 하는 방법에 대 한 자세한 내용은 배포 설명서에 [비즈니스용 Skype 서버 설치](../../deploy/install/install.md) 를 참조 하세요. Windows Server 네트워크용 Active Directory 도메인 서비스의 역할에 대 한 자세한 내용은 사용 중인 운영 체제 버전에 대 한 설명서를 참조 하세요.
+Active Directory 도메인 서비스는 Windows Server 2003, Windows Server 2008, Windows Server 2012 및 R2 네트워크용 디렉터리 Windows Server 2012 기능합니다. Active Directory 도메인 서비스는 비즈니스용 Skype 서버 보안 인프라가 구축되는 토대 역할을 합니다. 이 섹션에서는 비즈니스용 Skype 서버에서 Active Directory 도메인 서비스를 사용하여 IM, 웹 회의, 미디어 및 음성에 대한 신뢰할 수 있는 환경을 만드는 방법을 설명합니다. Active Directory 도메인 서비스를 위한 환경을 준비하는 데 대한 자세한 내용은 배포 설명서에서 [비즈니스용 Skype 서버](../../deploy/install/install.md) 설치를 참조하십시오. Windows Server 네트워크에서 Active Directory 도메인 서비스의 역할에 대한 자세한 내용은 사용 중인 운영 체제의 버전에 대한 설명서를 참조하십시오.
   
-비즈니스용 Skype Server는 Active Directory 도메인 서비스를 사용 하 여 다음을 저장 합니다.
+비즈니스용 Skype 서버는 Active Directory 도메인 서비스를 사용하여 다음을 저장합니다.
   
-- 포리스트에서 비즈니스용 Skype 서버를 실행 하는 모든 서버에 게 필요한 전역 설정입니다.
+- 포리스트에서 비즈니스용 Skype 서버를 실행하는 모든 서버에 필요한 전역 설정
     
-- 포리스트에서 비즈니스용 Skype 서버를 실행 하는 모든 서버의 역할을 식별 하는 서비스 정보입니다.
+- 포리스트에서 비즈니스용 Skype 서버를 실행하는 모든 서버의 역할을 식별하는 서비스 정보입니다.
     
 - 일부 사용자 설정
     
 ## <a name="active-directory-infrastructure"></a>Active Directory 인프라
 
-Active Directory의 인프라 요구 사항에는 다음이 포함 됩니다.
+Active Directory의 인프라 요구 사항은 다음과 같습니다.
   
-- 도메인 컨트롤러에 대 한 운영 체제 요구 사항
+- 도메인 컨트롤러에 대한 운영 체제 요구 사항
     
 - 도메인 및 포리스트 기능 수준 요구 사항
     
 - 글로벌 카탈로그 도메인 요구 사항
     
-자세한 내용은 비즈니스용 [Skype server 2015의 환경 요구 사항](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 또는 비즈니스용 [skype server 2019에 대 한 서버 요구](../../../SfBServer2019/plan/system-requirements.md)사항을 참조 하세요.
+자세한 내용은 비즈니스용 [Skype 서버 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 또는 비즈니스용 Skype 서버 [2019의](../../../SfBServer2019/plan/system-requirements.md)서버 요구 사항에 대한 환경 요구 사항을 참조하세요.
   
 ## <a name="universal-groups"></a>유니버설 그룹
 
-포리스트를 준비 하는 동안 비즈니스용 Skype Server는 Active Directory 도메인 서비스 내에서 전역 설정 및 서비스에 액세스 하 고 관리 하는 데 필요한 권한이 있는 다양 한 유니버설 그룹을 만듭니다. 이러한 유니버설 그룹에는 다음이 포함 됩니다.
+포리스트를 준비하는 동안 비즈니스용 Skype 서버는 전역 설정 및 서비스에 액세스하고 관리할 수 있는 권한이 있는 Active Directory 도메인 서비스 내에 다양한 유니버설 그룹을 만듭니다. 이러한 유니버설 그룹은 다음과 같습니다.
   
-- **관리 그룹**. 이 그룹은 비즈니스용 Skype Server 네트워크의 기본 관리자 역할을 정의 합니다. 포리스트를 준비 하는 동안 이러한 관리자 그룹은 비즈니스용 Skype 서버 인프라 그룹에 추가 됩니다.
+- **관리 그룹**. 이러한 그룹은 비즈니스용 Skype 서버 네트워크에 대한 기본 관리자 역할을 정의합니다. 포리스트를 준비하는 동안 이러한 관리자 그룹은 비즈니스용 Skype 서버 인프라 그룹에 추가됩니다.
     
-- **서비스 그룹**. 이러한 그룹은 비즈니스용 Skype 서버에서 제공 하는 다양 한 서비스에 액세스 하는 데 필요한 서비스 계정입니다.
+- **서비스 그룹**. 이러한 그룹은 비즈니스용 Skype 서버에서 제공하는 다양한 서비스에 액세스하는 데 필요한 서비스 계정입니다.
     
-- **인프라 그룹** 이러한 그룹은 비즈니스용 Skype 서버 인프라의 특정 영역에 액세스할 수 있는 권한을 제공 합니다. 관리 그룹의 구성 요소로 작동 하므로이를 수정 하거나 직접 사용자를 추가 해서는 안 됩니다. 포리스트를 준비 하는 동안 특정 서비스 및 관리 그룹이 해당 인프라 그룹에 추가 됩니다.
+- **인프라 그룹**. 이러한 그룹은 비즈니스용 Skype 서버 인프라의 특정 영역에 액세스할 수 있는 권한을 제공합니다. 이 그룹은 관리 그룹의 구성 요소로 작동하므로 이 그룹을 수정하거나 이 그룹에 사용자를 직접 추가해서는 안 됩니다. 포리스트를 준비하는 동안 특정 서비스 및 관리 그룹이 적절한 인프라 그룹에 추가됩니다.
     
-비즈니스용 Skype Server에 대 한 광고를 준비할 때 생성 되는 특정 유니버설 그룹 및 인프라 그룹에 추가 되는 서비스 및 관리 그룹에 대 한 자세한 내용은 배포 설명서의 [비즈니스용 Skype 서버에서 포리스트 준비에의 한 변경 내용을](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 참조 하세요.
+비즈니스용 Skype 서버용 AD를 준비할 때 생성되는 특정 유니버설 그룹과 인프라 그룹에 추가되는 서비스 및 관리 그룹에 대한 자세한 내용은 배포 설명서에서 비즈니스용 [Skype 서버의](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 포리스트 준비에서 변경한 내용을 참조하십시오.
   
 > [!NOTE]
-> 비즈니스용 Skype 서버는 Windows Server 2012의 유니버설 그룹과 도메인 컨트롤러용 Windows Server 2003 운영 체제를 지원 합니다. 유니버설 그룹의 구성원은 도메인 트리나 포리스트에 있는 모든 도메인의 다른 그룹 및 계정을 포함할 수 있으며, 도메인 트리나 포리스트의 모든 도메인에서 사용 권한을 할당할 수 있습니다. 관리자 위임과 통합 된 유니버설 그룹 지원으로 인해 비즈니스용 Skype 서버 배포 관리가 간단해 집니다. 예를 들어 관리자가 둘 다 관리할 수 있도록 한 도메인을 다른 도메인에 추가할 필요는 없습니다. 
+> 비즈니스용 Skype 서버는 도메인 컨트롤러에 Windows Server 2012 Windows Server 2003 운영 체제를 지원합니다. 유니버설 그룹의 구성원은 도메인 트리 또는 포리스트에 있는 도메인의 다른 그룹 및 계정을 포함할 수 있고 도메인 트리 또는 포리스트에 있는 도메인의 사용 권한이 할당될 수 있습니다. 유니버설 그룹 지원은 관리자 위임과 결합되어 비즈니스용 Skype 서버 배포 관리를 간소화합니다. 예를 들어 한 도메인을 다른 도메인에 추가하지 않아도 관리자가 둘 다 관리할 수 있습니다. 
   
 ## <a name="role-based-access-control"></a>역할 기반 액세스 제어
 
-유니버설 서비스 및 관리 그룹을 만들고 서비스 및 관리 그룹을 적절 한 유니버설 그룹에 추가 하는 것 외에도 포리스트 준비는 RBAC (역할 기반 액세스 제어) 그룹을 만듭니다. 포리스트 준비로 만든 특정 RBAC 그룹에 대 한 자세한 내용은 배포 설명서의 [비즈니스용 Skype 서버에서 포리스트 준비에의 한 변경 내용을](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 참조 하세요. RBAC 그룹에 대 한 자세한 내용은 [비즈니스용 Skype 서버용 RBAC (역할 기반 액세스 제어](role-based-access-control-rbac.md))를 참조 하세요.
+유니버설 서비스 및 관리 그룹을 만들고 서비스 및 관리 그룹을 적절한 유니버설 그룹에 추가하는 것 외에도 포리스트 준비에서는 RBAC(액세스 제어) Role-Based 만듭니다. 포리스트 준비로 만든 특정 RBAC 그룹에 대한 자세한 내용은 배포 설명서에서 비즈니스용 [Skype 서버의](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 포리스트 준비에서 변경한 내용을 참조하십시오. RBAC 그룹에 대한 자세한 내용은 비즈니스용 Skype 서버의 RBAC(역할 기반 액세스 [제어)를 참조하세요.](role-based-access-control-rbac.md)
   
-## <a name="access-control-entries-aces-and-inheritance"></a>Ace (액세스 제어 항목) 및 상속
+## <a name="access-control-entries-aces-and-inheritance"></a>ACE(액세스 제어 항목) 및 상속성
 
-포리스트 준비는 개인 Ace를 만들고 자신이 만든 유니버설 그룹에 Ace를 추가 합니다. 비즈니스용 Skype 서버에서 사용 하는 전역 설정 컨테이너에 특정 개인 Ace를 만듭니다. 이 컨테이너는 비즈니스용 Skype Server 에서만 사용 되며, 전역 설정을 저장 하는 위치에 따라 루트 도메인의 구성 컨테이너 또는 시스템 컨테이너에 위치 합니다.
+포리스트 준비 중에는 개인 및 공용 ACE를 모두 만들어서 만들어진 유니버설 그룹에 ACE를 추가합니다. 비즈니스용 Skype 서버에서 사용하는 전역 설정 컨테이너에 특정 개인 AES를 만듭니다. 이 컨테이너는 비즈니스용 Skype 서버에서만 사용하며 전역 설정을 저장하는 위치에 따라 루트 도메인의 구성 컨테이너 또는 시스템 컨테이너에 있습니다.
   
-도메인 준비 단계에서는 도메인 내에서 사용자를 호스트 하 고 관리할 수 있는 권한을 부여 하는 유니버설 그룹에 필요한 Ace (액세스 제어 항목)를 추가 합니다. 도메인 준비는 도메인 루트 및 세 가지 기본 제공 컨테이너 (사용자, 컴퓨터 및 도메인 컨트롤러)에 Ace를 만듭니다.
+도메인 준비 단계에서는 호스트에 권한을 부여하고 도메인 내의 사용자를 관리하는 유니버설 그룹에 필요한 ACE(액세스 제어 항목)를 추가합니다. 도메인 준비는 도메인 루트와 세 개의 기본 제공 컨테이너인 사용자, 컴퓨터 및 도메인 컨트롤러에 ACE를 만듭니다.
   
-포리스트 준비 및 도메인 준비에 의해 만들어지고 추가 되는 공개 Ace에 대 한 자세한 내용은 비즈니스용 [Skype 서버의 포리스트 준비](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 에서 변경한 내용 및 배포 설명서의 비즈니스용 [skype 서버에서 도메인 준비](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) 에의 한 변경 사항에 대해 알아보세요.
+포리스트 준비 및 도메인 준비를 통해 만들어 추가한 공용 AES에 대한 자세한 내용은 비즈니스용 [Skype](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 서버의 포리스트 준비로 변경한 내용 및 비즈니스용 [Skype 서버의](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) 도메인 준비에 의해 변경된 내용을 배포 설명서에서 참조하십시오.
   
-조직에서 보안 위험을 줄일 수 있도록 AD DS (Active Directory 도메인 서비스)를 잠그는 경우가 많습니다. 그러나 잠겨 있는 Active Directory 환경은 비즈니스용 Skype 서버에 필요한 권한을 제한할 수 있습니다. 여기에는 컨테이너 및 Ou에서 Ace를 제거 하 고 사용자, 연락처, InetOrgPerson 또는 컴퓨터 개체에 대 한 사용 권한 상속을 사용 하지 않도록 설정할 수 있습니다. Active Directory 환경 잠겨 있는 경우에는 컨테이너 및이를 필요로 하는 Ou에 대 한 사용 권한을 수동으로 설정 해야 합니다.
+조직에서는 보안 위험을 줄이기 위해 AD DS(Active Directory 도메인 서비스)를 잠그는 경우가 자주 있습니다. 그러나 잠긴 Active Directory 환경은 비즈니스용 Skype 서버에 필요한 사용 권한을 제한할 수 있습니다. 여기에는 컨테이너 및 OU에서 ACE 제거, User, Contact, InetOrgPerson 또는 Computer 개체에 대한 권한 상속 비활성화가 포함됩니다. 잠겨 있는 Active Directory 환경에서는 권한이 필요한 컨테이너 및 OU에서 권한을 수동으로 설정해야 합니다.
   
 ## <a name="server-information"></a>서버 정보
 
-정품 인증 하는 동안 비즈니스용 Skype Server는 Active Directory 도메인 서비스의 다음 세 위치에 서버 정보를 게시 합니다.
+정품 인증 중에 비즈니스용 Skype 서버는 Active Directory 도메인 서비스의 다음 세 위치에 서버 정보를 게시합니다.
   
-- 비즈니스용 Skype 서버가 설치 되어 있는 물리적 컴퓨터에 해당 하는 각 Active Directory 컴퓨터 개체의 SCP (서비스 연결 지점)입니다.
+- 비즈니스용 Skype 서버가 설치된 실제 컴퓨터에 해당하는 각 Active Directory 컴퓨터 개체의 SCP(서비스 연결 지점)입니다.
     
-- **MsRTCSIP** 클래스의 컨테이너에서 만들어진 서버 개체
+- **msRTCSIP-Pools** 클래스의 컨테이너에 만든 서버 개체
     
-- 토폴로지 작성기에 지정 된 신뢰할 수 있는 서버
+- 토폴로지 작성기에서 지정한 신뢰할 수 있는 서버
     
 ## <a name="service-connection-points"></a>서비스 연결 지점
 
-Active Directory 도메인 서비스의 각 비즈니스용 Skype Server 개체에는 RTC Services 라는 SCP가 있으며, 여기에는 각 컴퓨터를 식별 하 고 제공 하는 서비스를 지정 하는 여러 특성이 포함 됩니다. 중요 한 SCP 특성 중에는 *serviceDNSName* , *serviceDNSNameType* , *serviceClassname* 및 *serviceBindingInformation* 가 있습니다. 타사 자산 관리 응용 프로그램은 이러한 특성과 다른 SCP 특성에 대해 쿼리 하 여 배포에서 서버 정보를 검색할 수 있습니다.
+Active Directory 도메인 서비스의 각 비즈니스용 Skype 서버 개체에는 RTC Services라는 SCP가 있으며, 이 SCP에는 각 컴퓨터를 식별하고 해당 컴퓨터가 제공하는 서비스를 지정하는 여러 특성이 포함됩니다. 더 중요한 SCP 특성 *중에는 serviceDNSName,* *serviceDNSNameType,* *serviceClassname* 및 *serviceBindingInformation이 있습니다.* 타사 자산 관리 응용 프로그램은 이러한 특성 및 기타 SCP 특성을 쿼리하여 배포 전체에서 서버 정보를 검색할 수 있습니다.
   
 ## <a name="active-directory-server-objects"></a>Active Directory 서버 개체
 
-각 비즈니스용 Skype Server 서버 역할에는 해당 특성이 해당 역할에서 제공 하는 서비스를 정의 하는 해당 Active Directory 개체가 있습니다. 또한 Standard Edition 서버를 정품 인증 하거나 Enterprise Edition 풀을 만들 때 비즈니스용 Skype 서버에서 **MsRTCSIP 풀** 컨테이너에 새 **msRTCSIP 풀** 개체를 만듭니다. **MsRTCSIP** 클래스는 풀의 FQDN (정규화 된 도메인 이름)을 풀의 프런트 엔드 및 백 엔드 구성 요소 간 연결과 함께 지정 합니다. (스탠더드 버전 서버는 한 컴퓨터에서 앞 및 뒤 끝을 collocated 논리적 풀로 간주 됩니다.)
+각 비즈니스용 Skype 서버 서버 역할에는 해당 역할에서 제공하는 서비스를 정의하는 특성이 있는 해당 Active Directory 개체가 있습니다. 또한 Standard Edition 서버가 활성화되거나 Enterprise Edition 풀이 만들어지면 비즈니스용 Skype 서버가 **msRTCSIP-Pools** 컨테이너에 새 **msRTCSIP-Pool 개체를** 만듭니다. **msRTCSIP-Pool** 클래스는 풀의 FQDN(정규화된 도메인 이름) 및 풀의 프런트 엔드와 백 엔드 구성 요소 간 연결을 지정합니다. Standard Edition 서버는 프런트 엔드 및 백 엔드가 같은 컴퓨터에 배치되는 논리적 풀로 간주됩니다.
   
-## <a name="trusted-servers"></a>신뢰할 수 있는 서버
+## <a name="trusted-servers"></a>트러스트된 서버
 
-비즈니스용 Skype 서버에서 신뢰 하는 서버는 토폴로지 작성기를 실행 하 고 토폴로지를 게시할 때 지정 합니다. 모든 서버 정보를 포함 하 여 게시 된 토폴로지가 중앙 관리 저장소에 저장 됩니다. 중앙 관리 저장소에 정의 된 서버만 신뢰할 수 있습니다. 비즈니스용 Skype 서버에서 신뢰할 수 있는 서버는 다음 조건을 충족 하는 것입니다.
+비즈니스용 Skype 서버에서 신뢰할 수 있는 서버는 토폴로지 작성기 실행 및 토폴로지 게시 시 지정된 서버입니다. 모든 서버 정보를 포함하여 게시된 토폴로지는 중앙 관리 저장소에 저장됩니다. 중앙 관리 저장소에 정의된 서버만 트러스트됩니다. 비즈니스용 Skype 서버에서 신뢰할 수 있는 서버는 다음 기준을 충족하는 서버입니다.
   
-- 중앙 관리 저장소에 저장 된 토폴로지에서 서버의 FQDN이 발생 합니다.
+- 서버의 FQDN은 중앙 관리 저장소에 저장된 토폴로지에 발생합니다.
     
-- 서버는 신뢰할 수 있는 CA에서 유효한 인증서를 제공 합니다. 자세한 내용은 비즈니스용 Skype Server 2015 또는 비즈니스용 [Skype server 2019의 시스템 요구](../../../SfBServer2019/plan/system-requirements.md)사항에 [대 한 환경 요구 사항을](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 참조 하세요.
+- 서버는 트러스트된 CA에서 적합한 인증서를 제공합니다. 자세한 내용은 비즈니스용 [Skype 서버 2015의](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 환경 요구 사항 또는 비즈니스용 [Skype 서버 2019의](../../../SfBServer2019/plan/system-requirements.md)시스템 요구 사항을 참조하세요.
     
-이러한 조건 중 하나라도 없으면 서버를 신뢰할 수 없고 연결이 거부 됩니다. 이 double 요구 사항은 rogue 서버에서 유효한 서버의 FQDN을 사용 하려고 시도 하는 공격 가능성을 방지 합니다.
+이러한 기준 중 하나라도 맞지 않으면 서버가 트러스트되지 않고 서버와의 연결이 거부됩니다. 이 이중 요구 사항은 가능성이 낮을 경우 Rogue 서버가 유효한 서버의 FQDN을 인계하려고 시도하는 공격을 방지합니다.
   
-또한 Microsoft Office Communications Server 2007 R2 및 Microsoft Office Communications Server 2007 배포를 사용 하 여 비즈니스용 Skype 서버 서버와 통신 하기 위해 비즈니스용 Skype Server는 포리스트를 준비 하는 동안 컨테이너를 만듭니다. 이전 릴리스에 대해 신뢰할 수 있는 서버 목록을 보관 합니다. 다음 표에서는 이전 배포와의 호환성을 사용 하도록 만들어진 컨테이너에 대해 설명 합니다.
+또한 Microsoft Office Communications Server 2007 R2 및 Microsoft Office Communications Server 2007 배포에서 비즈니스용 Skype 서버와 통신할 수 있도록 하기 위해 비즈니스용 Skype 서버는 이전 릴리스에 대한 신뢰할 수 있는 서버 목록을 보관하기 위한 포리스트 준비 중에 컨테이너를 만듭니다. 다음 표에서는 이전 배포와의 호환성을 위해 만드는 컨테이너에 대해 설명합니다.
   
-**이전 릴리스와의 호환성을 위해 신뢰할 수 있는 서버 목록과 해당 Active Directory 컨테이너**
+**트러스트된 서버 목록 및 이전 릴리스와의 호환성을 위한 해당 Active Directory 컨테이너**
 
-|**신뢰 된 서버 목록**|**Active Directory 컨테이너**|
+|**트러스트된 서버 목록**|**Active Directory 컨테이너**|
 |:-----|:-----|
-|스탠더드 버전 서버 및 엔터프라이즈 풀 프런트 엔드 서버  <br/> |RTC 서비스/전역 설정  <br/> |
-|회의 서버  <br/> |RTC 서비스/신뢰할 수 있는 MCUs  <br/> |
+|Standard Edition 서버 및 엔터프라이즈 풀 프런트 엔드 서버  <br/> |RTC 서비스/전역 설정  <br/> |
+|회의 서버  <br/> |RTC 서비스/트러스트된 MCU  <br/> |
 |웹 구성 요소 서버  <br/> |RTC 서비스/TrustedWebComponentsServers  <br/> |
-|중재 서버 및 Communicator Web Access 서버, 응용 프로그램 서버, 체감 품질를 사용 하는 등록 기관, A/V 회의 서비스 (타사 SIP 서버 이기도)  <br/> |RTC 서비스/신뢰할 수 있는 서비스  <br/> |
-|프록시 서버  <br/> |비즈니스용 Skype 서버는 프록시 서버에 대 한 이전 버전과의 호환성을 지원 하지 않습니다.  <br/> |
+|중재 서버 및 Communicator Web Access 서버, 응용 프로그램 서버, QoE 등록자, A/V 회의 서비스(타사 SIP 서버도 포함)  <br/> |RTC 서비스/트러스트된 서비스  <br/> |
+|프록시 서버  <br/> |비즈니스용 Skype 서버는 프록시 서버에 대한 역호원 호환성을 지원하지 않습니다.  <br/> |
    
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에 대 한 Active Directory 준비](../../deploy/install/prepare-active-directory.md)
+[비즈니스용 Skype 서버용 Active Directory 준비](../../deploy/install/prepare-active-directory.md)

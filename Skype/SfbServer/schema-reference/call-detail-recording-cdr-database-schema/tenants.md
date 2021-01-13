@@ -1,8 +1,8 @@
 ---
 title: Tenants 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
-description: 테 넌 트 테이블은 다양 한 테 넌 트 목록을 저장 하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 테 넌 트를 나타냅니다.
-ms.openlocfilehash: ecc83a429cb2e95426b289216f69d3a14e1826d8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Tenants 테이블은 다양한 테넌트 목록이 저장된 지원 테이블입니다. 테이블의 각 레코드는 하나의 테넌트를 나타냅니다.
+ms.openlocfilehash: f22837f21bd431c83848d3b055a36930c9db2fd5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814856"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831718"
 ---
 # <a name="tenants-table"></a>Tenants 테이블
  
-테 넌 트 테이블은 다양 한 테 넌 트 목록을 저장 하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 테 넌 트를 나타냅니다.
+Tenants 테이블은 다양한 테넌트 목록이 저장된 지원 테이블입니다. 테이블의 각 레코드는 하나의 테넌트를 나타냅니다.
   
 > [!NOTE]
-> 온-프레미스 배포에서 CDR는 빌드에 테 넌 트 ID를 사용 하 여 공용 IM 연결, 페더레이션 및 익명 등의 다른 인증 유형을 나타냅니다. 
+> 온-프레미스 배포의 경우 CDR은 기본 제공되는 테넌트 ID를 사용하여 공용 IM 연결, 페더레이션 및 익명과 같은 서로 다른 인증 유형을 나타냅니다. 
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**TenantId** <br/> |int  <br/> |주요한  <br/> |이 테 넌 트 ID를 식별 하는 고유 번호입니다.  <br/> |
-|**TenantKey** <br/> |nvarchar (256)  <br/> || 허용 되는 값: <br/>  00000000-0000-0000-0000-000000000000-엔터프라이즈 <br/>  00000000-0000-0000-0000-000000000001-페더레이션 <br/>  00000000-0000-0000-0000-000000000002-익명 <br/>  00000000-0000-0000-0000-000000000003-공용 메신저 연결 <br/> |
+|**TenantId** <br/> |int  <br/> |Primary  <br/> |이 테넌트 ID를 식별하는 고유 번호입니다.  <br/> |
+|**TenantKey** <br/> |nvarchar(256)  <br/> || 허용되는 값은 다음과 같습니다. <br/>  000000000-0000-0000-0000-00000000000 - Enterprise <br/>  000000000-0000-0000-0000-000000000001 - 페더화 <br/>  000000000-0000-0000-0000-000000000002 - 익명 <br/>  000000000-0000-0000-0000-000000000003 - 공용 IM 연결 <br/> |
    
 

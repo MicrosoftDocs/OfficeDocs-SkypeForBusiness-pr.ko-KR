@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 환경의 요구 사항
+title: 비즈니스용 Skype 환경에 대한 요구 사항
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -16,30 +16,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: '요약: 비즈니스용 Skype Server 2015의 시스템 요구 사항 및 네트워크 또는 인프라 요구 사항에 대 한 항목의 개요입니다. 비즈니스용 Skype 서버 2015을 설치 하 고 배포 하기 위한 필수 구성 요소로 설치 하거나 구성 해야 하는 경우 여기에 표시 됩니다.'
-ms.openlocfilehash: 7c05420a8cf863a8ef6623a5750a46589145e44c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 비즈니스용 Skype 서버 2015의 시스템 요구 사항 및 네트워크 또는 인프라 요구 사항에 대한 항목의 개요입니다. 비즈니스용 Skype 서버 2015를 설치 및 배포하기 위한 모든 것을 설치 또는 구성해야 하는 경우 여기에 있습니다.'
+ms.openlocfilehash: 5ba72c27695a7cac84b48e92296c06fe14c8f352
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801898"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832088"
 ---
-# <a name="requirements-for-your-skype-for-business-2015-environment"></a>비즈니스용 Skype 2015 환경에 대 한 요구 사항
+# <a name="requirements-for-your-skype-for-business-2015-environment"></a>비즈니스용 Skype 2015 환경에 대한 요구 사항
  
-**요약:** 비즈니스용 Skype Server 2015의 시스템 요구 사항 및 네트워크 또는 인프라 요구 사항에 대 한 항목의 개요입니다. 비즈니스용 Skype 서버 2015을 설치 하 고 배포 하기 위한 필수 구성 요소로 설치 하거나 구성 해야 하는 경우 여기에 표시 됩니다.
+**요약:** 비즈니스용 Skype 서버 2015의 시스템 요구 사항 및 네트워크 또는 인프라 요구 사항에 대한 항목의 개요입니다. 비즈니스용 Skype 서버 2015를 설치 및 배포하기 위한 모든 것을 설치 또는 구성해야 하는 경우 여기에 있습니다.
   
-이는 비즈니스용 Skype 서버 2015 배포의 요구 사항에 대 한 문서의 랜딩 페이지입니다. 여기에는 사용자의 도메인 및 네트워킹 구조, 인증서 등 서버 요구 사항과 준비 해야 할 일반적인 사항이 모두 포함 됩니다.
+이 페이지는 비즈니스용 Skype 서버 2015 배포와 관련한 요구 사항에 대한 문서를 제공합니다. 여기에는 서버 요구 사항과 도메인 및 네트워킹 구조, 인증서 등 준비해야 할 일반적인 사항이 모두 포함됩니다.
   
-## <a name="whats-in-this-topic"></a>이 항목의 내용
+## <a name="whats-in-this-topic"></a>이 항목의 항목
 
-조직의 서버 환경에서 비즈니스용 Skype 서버 2015를 성공적으로 배포 또는 업그레이드 하기 전에 사용자 환경에 대 한 요구 사항 섹션의 두 문서에는 어떤 것이 있는지, 또는 구성 해야 할 항목이 나와 있습니다.
+환경 섹션의 요구 사항에서 설명하는 두 문서에서는 조직의 서버 환경에서 비즈니스용 Skype 서버 2015를 배포하거나 업그레이드하기 전에 필요한 사항 및/또는 구성해야 하는 사항을 간략하게 설명합니다.
   
 ### <a name="server-requirements"></a>서버 요구 사항
 
-[비즈니스용 Skype server 2015에 대 한 서버 요구 사항은](server-requirements.md) 배포에 사용 하려는 개별 서버에 대해 준비 하는 데 필요한 사항입니다.
+[비즈니스용 Skype 서버 2015의](server-requirements.md) 서버 요구 사항은 배포에서 사용하려는 개별 서버에서 준비해야 하는 사항입니다.
   
 ### <a name="environmental-requirements"></a>환경 요구 사항
 
-비즈니스용 [Skype server 2015의 환경 요구 사항은](environmental-requirements.md) 비즈니스용 skype server 2015를 배포 하기 전에 인프라에서 준비 해야 하는 다양 한 작업입니다.
+[비즈니스용 Skype 서버 2015에](environmental-requirements.md) 대한 환경 요구 사항은 비즈니스용 Skype Server 2015를 배포하기 전에 인프라에 준비해야 하는 광범위한 요구 사항입니다.
   
 

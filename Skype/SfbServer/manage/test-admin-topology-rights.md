@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버에서 관리 토폴로지 권한 테스트
+title: 비즈니스용 Skype 서버에서 관리자 토폴로지 권한 테스트
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,59 +10,59 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 비즈니스용 Skype 서버에서 토폴로지 권한을 테스트 하는 방법
-ms.openlocfilehash: de2f5752bdcd9096a47595fd7ffd10a3ab799d9c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 비즈니스용 Skype 서버에서 토폴로지 권한을 테스트하는 방법
+ms.openlocfilehash: a6bbebd44387911fdb69679a16ab052c673f0b10
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030151"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832848"
 ---
-# <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 관리 토폴로지 권한 테스트
+# <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 관리자 토폴로지 권한 테스트
 
 | | |
 |--|--|
-|확인 일정|초기 비즈니스용 Skype 서버 배포 후 사용 권한 관련 문제가 발생 하는 경우 필요에 따라|
+|확인 일정|초기 비즈니스용 Skype 서버 배포 후. 권한 관련 문제가 발생하는 경우 필요한 경우|
 |테스트 도구|Windows PowerShell|
-|필요한 권한|비즈니스용 Skype 서버 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.<br/><br/>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우에는 사용자에 게 테스트-CsSetupPermission cmdlet을 실행할 수 있는 권한이 있는 RBAC 역할을 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.<br/><br/>Get-CsAdminRole \| (Where-개체 {$ _) Cmdlet-일치 "테스트-CsSetupPermission"}|
+|필요한 권한|비즈니스용 Skype 서버 관리 셸을 사용하여 로컬로 실행할 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원이 되어야 합니다.<br/><br/>원격 응용 Windows PowerShell 사용하여 실행할 경우 사용자에게 Test-CsSetupPermission cmdlet을 실행할 수 있는 권한이 있는 RBAC 역할을 할당해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 표시하기 위해 다음 명령 프롬프트에서 Windows PowerShell 실행합니다.<br/><br/>Get-CsAdminRole Where-Object \| {$_를 사용합니다. Cmdlets -match "Test-CsSetupPermission"}|
 |||
 
 ## <a name="description"></a>설명
 
-기본적으로 도메인 관리자만 비즈니스용 skype 서버 토폴로지를 사용 하도록 설정 하 고 비즈니스용 Skype 서버 인프라를 크게 변경할 수 있습니다. 도메인 관리자와 비즈니스용 Skype 서버 관리자가 일대일로도 동일한 경우에는이 문제가 발생 하지 않습니다. 대부분의 조직에서 비즈니스용 Skype 서버 관리자는 전체 도메인에 대 한 관리 권한을 보유 하지 않습니다. 기본적으로이는 RTCUniversalServerAdmins 그룹의 구성원으로 정의 된 이러한 관리자가 비즈니스용 Skype 서버 토폴로지를 변경할 수 없음을 의미 합니다. RTCUniversalServerAdmins 그룹의 구성원에 게 토폴로지를 변경할 수 있는 권한을 부여 하려면 [Grant-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission) cmdlet을 사용 하 여 필요한 Active Directory 권한을 할당 해야 합니다.
+기본적으로 도메인 관리자만 비즈니스용 Skype 서버 토폴로지와 비즈니스용 Skype 서버 인프라를 크게 변경할 수 있습니다. 도메인 관리자와 비즈니스용 Skype 서버 관리자가 하나인 경우 이 문제는 아닙니다. 대부분의 조직에서 비즈니스용 Skype 서버 관리자는 전체 도메인에 대한 관리 권한을 보유하지 않습니다. 기본적으로 이러한 관리자(RTCUniversalServerAdmins 그룹의 구성원으로 정의)는 비즈니스용 Skype 서버 토폴로지 변경을 할 수 없습니다. RTCUniversalServerAdmins 그룹의 구성원에게 토폴로지 변경 권한을 부여하려면 [Grant-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission) cmdlet을 사용하여 필요한 Active Directory 권한을 할당해야 합니다.
  
-테스트-CsSetupPermission cmdlet은 비즈니스용 Skype 서버 또는 해당 구성 요소 중 하나를 지정 된 Active Directory 컨테이너에 구성 하는 데 필요한 권한이 있는지 확인 합니다. 사용 권한이 할당 되지 않은 경우에는 RTCUniversalServerAdmins 그룹의 구성원에 게 비즈니스용 Skype 서버를 설치 하 고 사용할 수 있는 권한을 부여할 수 있는 권한을 부여 합니다.
+이 Test-CsSetupPermission cmdlet은 비즈니스용 Skype 서버 또는 해당 구성 요소 중 하나를 설치하는 데 필요한 사용 권한이 지정된 Active Directory 컨테이너에 구성되어 있는지 확인합니다. 사용 권한이 할당되지 않은 경우 Grant-CsSetupPermission cmdlet을 실행하여 RTCUniversalServerAdmins 그룹의 구성원에게 비즈니스용 Skype 서버를 설치하고 사용하도록 설정할 수 있는 권한을 부여할 수 있습니다.
 
 ## <a name="running-the-test"></a>테스트 실행
 
-Active Directory 컨테이너에 대해 설치 권한이 할당 되었는지 확인 하려면 테스트-CsSetupPermission cmdlet을 호출 합니다. 확인할 컨테이너의 고유 이름을 지정 합니다. 예를 들어이 명령은 컨테이너 ou = CsServers, dc = litwareinc, dc = com에 대 한 설치 권한을 확인 합니다.
+Active Directory 컨테이너에 대한 설치 권한이 할당되어 있는지 확인하려면 Test-CsSetupPermission cmdlet을 호출합니다. 확인할 컨테이너의 고유 이름을 지정합니다. 예를 들어 다음 명령은 컨테이너 ou=CsServers,dc=litwareinc,dc=com에 대한 설치 권한을 검증합니다.
 
 `Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"`
 
-자세한 내용은 [테스트-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) cmdlet에 대 한 도움말 항목을 참조 하십시오.
+자세한 내용은 [Test-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) cmdlet에 대한 도움말 항목을 참조하십시오.
 
-## <a name="determining-success-or-failure"></a>성공 또는 실패 확인
+## <a name="determining-success-or-failure"></a>성공 또는 실패 결정
 
-테스트-CsSetupPermission에서 필요한 사용 권한이 Active Directory 컨테이너에 이미 설정 된 것으로 확인 되 면 cmdlet은 True 값을 반환 합니다.
+Active Directory Test-CsSetupPermission 필요한 권한이 이미 설정되어 있는지 확인하면 cmdlet은 True 값을 반환합니다.
 
-참 
+True 
 
-사용 권한을 설정 하지 않으면 테스트-CsSetupPermission에서 False 값을 반환 합니다. 일반적으로이 값은 많은 경고 메시지에 포함 됩니다. 예:
+권한이 설정되지 않은 경우 Test-CsSetupPermission False 값을 반환합니다. 이 값은 일반적으로 많은 경고 메시지로 묶입니다. 예제:
 
-경고: ACE (액세스 제어 항목) atl-cs-001\RTCUniversalServerAdmins; 통해 ExtendedRight; None None 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
+경고: ACE(액세스 제어 항목) atl-cs-001\RTCUniversalServerAdmins; 허용; ExtendedRight; 없음; 없음; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
-경고: "CN = Computers, DC = litwareinc, DC = com" 개체의 Ace (액세스 제어 항목)가 준비 되지 않았습니다. 
+경고: "CN=Computers,DC=litwareinc,DC=com" 개체의 A AC(액세스 제어 항목)가 준비되지 않습니다. 
 
 False 
 
-경고: "테스트-CsSetupPermission" 처리가 경고와 함께 완료 되었습니다. 이 실행 중에 경고 "2"가 기록 되었습니다. 
+경고: "Test-CsSetupPermission" 처리가 경고로 완료되었습니다. 이 실행 중에 "2" 경고가 기록됩니다. 
 
 경고: 자세한 결과는 "C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html"에서 찾을 수 있습니다. 
 
-## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
+## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패한 이유
 
-드문 경우는 아니지만, 일반적으로 테스트-CsSetupPermission에 오류가 발생 하 여 지정 된 Active Directory 컨테이너에 대해 설치 권한이 할당 되지 않은 것입니다. 이러한 사용 권한은 부여-CsSetupPermission cmdlet을 사용 하 여 할당할 수 있습니다. 예를 들어이 명령은 litwareinc.com 도메인의 컴퓨터 컨테이너에 설치 권한을 부여 합니다.
+예외는 드물지만 예외가 Test-CsSetupPermission 오류가 발생하면 일반적으로 지정된 Active Directory 컨테이너에 대해 설치 권한이 할당되지 않습니다. 이러한 사용 권한은 이 cmdlet을 사용하여 할당할 Grant-CsSetupPermission 있습니다. 예를 들어 다음 명령은 도메인의 Computers 컨테이너에 설치 권한을 litwareinc.com.
 
 `Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"`
 
-자세한 내용은 [테스트-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) cmdlet에 대 한 도움말 항목을 참조 하십시오.
+자세한 내용은 [Test-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) cmdlet에 대한 도움말 항목을 참조하십시오.

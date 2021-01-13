@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalMeta
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,35 +12,35 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
-description: tblPrincipalMeta에는 Active Directory 도메인 서비스에서 새로 고쳐야 하는 사용자가 포함 되어 있습니다.
-ms.openlocfilehash: c76f4a74b3f627d360a2d745e46b6f2dac26bff0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalMeta에는 Active Directory 도메인 서비스에서 새로 고쳐야 하는 계정이 포함되어 있습니다.
+ms.openlocfilehash: e10b56a8a3a1c25f73cd1a07f4fdcde18c6f1215
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813576"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831548"
 ---
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  
-tblPrincipalMeta에는 Active Directory 도메인 서비스에서 새로 고쳐야 하는 사용자가 포함 되어 있습니다.
+tblPrincipalMeta에는 Active Directory 도메인 서비스에서 새로 고쳐야 하는 계정이 포함되어 있습니다.
   
 **열**
 
 |**열**|**유형**|**설명**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int, null 아님  <br/> |Principal ID.  <br/> |
-|prinAffiliationsDirty  <br/> |bit, null이 아님  <br/> |Principal 소속을 새로 고쳐야 하는 경우 True입니다.  <br/> |
-|prinAttributesDirty  <br/> |bit, null이 아님  <br/> |Principal 특성을 새로 고쳐야 하는 경우 True입니다.  <br/> |
-|prinDeleted  <br/> |bit, null이 아님  <br/> |보안 주체가 삭제 된 경우 True입니다.  <br/> |
-|tryCount  <br/> |int  <br/> |지금까지 발생 한 AD DS에서 보안 주체의 새로 고침 시도 횟수입니다.  <br/> |
-|lastTry  <br/> |dmtf  <br/> |주 사용자를 새로 고치기 위한 최신 시도의 타임 스탬프입니다. 아직 새로 고침이 시도 되지 않은 경우 null이 될 수 있습니다.  <br/> |
-|nextTry  <br/> |dmtf  <br/> |예정 된 다음 새로 고침에 대 한 타임 스탬프입니다. 추가 새로 고침이 예약 되지 않은 경우 null이 될 수 있습니다.  <br/> |
+|prinID  <br/> |int, null이 아님  <br/> |사용자 ID입니다.  <br/> |
+|prinAffiliationsDirty  <br/> |bit, null이 아님  <br/> |사용자 회원 정보를 새로 고쳐야 하는 경우 True입니다.  <br/> |
+|prinAttributesDirty  <br/> |bit, null이 아님  <br/> |사용자 특성을 새로 고쳐야 하는 경우 True입니다.  <br/> |
+|prinDeleted  <br/> |bit, null이 아님  <br/> |사용자가 삭제된 경우 True입니다.  <br/> |
+|tryCount  <br/> |int  <br/> |지금까지 AD DS에서 사용자를 새로 고치려는 시도가 발생한 횟수입니다.  <br/> |
+|lastTry  <br/> |datetime  <br/> |사용자를 새로 고치려는 가장 최근 시도의 타임스탬프입니다. 새로 고침이 아직 시도되지 않은 경우 Null일 수 있습니다.  <br/> |
+|nextTry  <br/> |datetime  <br/> |다음 예약된 새로 고침의 타임스탬프입니다. 이후 새로 고침이 예약되지 않은 경우 Null일 수 있습니다.  <br/> |
    
-**핵심**
+**키**
 
 |**열**|**설명**|
 |:-----|:-----|
 |prinID  <br/> |기본 키입니다.  <br/> |
-|prinID  <br/> |TblPrincipal 테이블에 조회를 포함 하는 외래 키입니다.  <br/> |
+|prinID  <br/> |tblPrincipal.prinID 테이블에서 조회 기능이 있는 외래 키입니다.  <br/> |
    
 

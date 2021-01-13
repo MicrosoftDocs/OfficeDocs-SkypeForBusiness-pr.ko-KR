@@ -1,8 +1,8 @@
 ---
 title: 서비스 시작
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 ROBOTS: NOINDEX, NOFOLLOW
-description: '배포 된 서버 역할에서 서비스를 시작 하려면 4 단계: 서비스 시작에서 실행을 클릭 합니다. 로컬 관리자 그룹 또는 동등한 사용자의 구성원으로 로그온 해야 합니다.'
-ms.openlocfilehash: 2f80e613d79613fb3e03837a9059306196638b84
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '배포된 서버 역할에서 서비스를 시작하려면 4단계: 서비스 시작을 클릭합니다. 로컬 Administrators 그룹의 구성원 또는 이에 상응하는 구성원으로 로그온해야 합니다.'
+ms.openlocfilehash: 73dd906ff5cc86a5c3606d82ca665bb6c689a928
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794787"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833768"
 ---
 # <a name="start-services"></a>서비스 시작
  
-배포 된 서버 역할에서 서비스를 시작 하려면 **4 단계: 서비스 시작**에서 **실행** 을 클릭 합니다. 로컬 관리자 그룹 또는 동등한 사용자의 구성원으로 로그온 해야 합니다. 
+배포된 서버 역할에서 서비스를 시작하려면  **4단계: 서비스 시작을 클릭합니다.** 로컬 Administrators 그룹의 구성원 또는 이에 상응하는 구성원으로 로그온해야 합니다. 
   
 > [!NOTE]
-> **서비스 시작** 을 실행 한 경우 **다시 실행**을 클릭 하 여 명령을 다시 실행할 수 있습니다. 
+> **Start Services가** 실행된 경우 다시 실행을 클릭하여 명령을 다시 **실행할 수 있습니다.** 
   
 

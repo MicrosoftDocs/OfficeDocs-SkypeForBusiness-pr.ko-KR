@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype Online 및 Exchange server의 통합
+title: 비즈니스용 Skype Online과 Exchange 서버 간의 통합
 ms.reviewer: cbland
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
@@ -13,55 +13,55 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
-description: 온-프레미스 Exchange와 비즈니스용 Skype Online 간에 OAuth 인증을 구성 하면 기능 지원에서 설명 하는 비즈니스용 Skype 및 Exchange 통합 기능을 사용할 수 있습니다.
-ms.openlocfilehash: b673332ea4c4428e68d6434c4638cbc78aa0ba7d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Exchange온-프레미스와 비즈니스용 Skype Online 간에 OAuth 인증을 구성하면 기능 지원에 설명된 비즈니스용 Skype 및 Exchange 통합 기능을 사용할 수 있습니다.
+ms.openlocfilehash: ac8bfe2f30e813e47a0256a68e4e81852d5bae68
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797049"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833978"
 ---
-# <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>비즈니스용 Skype Online 및 Exchange Server 간 통합 및 OAuth 구성 
+# <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>비즈니스용 Skype Online과 비즈니스용 Skype 간의 통합 및 OAuth Exchange Server 
 
-Exchange server와 비즈니스용 Skype Online의 통합을 구성 하면 [기능 지원](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)에서 설명 하는 비즈니스용 Skype 및 Exchange 통합 기능을 사용할 수 있습니다.
+Exchange 서버와 비즈니스용 Skype Online 간의 통합을 구성하면 기능 지원에 설명된 비즈니스용 Skype 및 Exchange 통합 [기능을 사용할 수 있습니다.](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)
 
-이 항목은 Exchange Server 2013 ~ 2019과의 통합에 적용 됩니다.
+이 항목은 2013~2019년 Exchange Server 통합에 적용됩니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작 하기 전에 알아야 할 사항
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 이 작업을 완료 하는 데 예상 되는 시간: 15 분
+- 이 작업의 예상 완료 시간: 15분
 
--  이 절차 또는 절차를 수행 하기 전에 사용 권한을 할당 받아야 합니다. 필요한 사용 권한을 확인 하려면 [Exchange 및 셸 인프라 사용 권한](https://go.microsoft.com/fwlink/p/?LinkId=746511) 항목을 참조 하세요.
+-  이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 표시하려면 Exchange 및 셸 인프라 [사용 권한 항목을 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=746511)
 
-- 이 항목의 절차에 적용 될 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange 관리 센터의 바로 가기 키]( https://go.microsoft.com/fwlink/p/?LinkId=746512)를 참조 하세요.
+- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 [Exchange 관리 센터의 바로 가기 키]( https://go.microsoft.com/fwlink/p/?LinkId=746512)을 참조하세요.
 
-- 호환성에 대 한 자세한 내용은 [Office 앱과 비즈니스용 Skype 호환성](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office)을 참조 하세요.
+- 호환성에 대한 자세한 내용은 [Office 앱과의 비즈니스용 Skype 호환성을 참조하세요.](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office)
 
-## <a name="configure-integration-between-exchange-server-and-o365"></a>Exchange Server와 O365 간 통합 구성
+## <a name="configure-integration-between-exchange-server-and-o365"></a>O365와 O365 Exchange Server 통합 구성
 
-### <a name="step-1-configure-oauth-authentication-between-exchange-server-and-o365"></a>1 단계: Exchange Server와 O365 간의 OAuth 인증 구성
+### <a name="step-1-configure-oauth-authentication-between-exchange-server-and-o365"></a>1단계: OAuth 인증과 O365 Exchange Server 구성
 
-다음 문서의 단계를 수행 합니다.
+다음 문서의 단계를 수행합니다.
 
-[Exchange 및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Exchange 및 Exchange Online 조직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
-### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>2 단계: 비즈니스용 Skype Online 파트너 응용 프로그램에 대 한 새 메일 사용자 계정 만들기
+### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>2단계: 비즈니스용 Skype Online 파트너 응용 프로그램에 대한 새 메일 사용자 계정 만들기
 
-이 단계는 Exchange 서버에서 수행 됩니다. 이를 통해 메일 사용자를 만들고 적절 한 관리 역할 권한을 할당 합니다. 이 계정은 다음 단계에서 사용 됩니다.
+이 단계는 Exchange 서버에서 수행됩니다. 메일 사용자를 만들고 적절한 관리 역할 권한을 할당합니다. 이 계정은 다음 단계에서 사용됩니다.
 
-Exchange 조직의 확인 된 도메인을 지정 합니다. 이 도메인은 온-프레미스 Exchange 계정에 사용 되는 기본 SMTP 도메인에 사용 되는 도메인과 동일 해야 합니다. 이 도메인을 확인 된 \<도메인\> 이라고 하는 절차는 다음과 같습니다. 또한 domaincontrollerfqdn \<\> 은 도메인 컨트롤러의 FQDN 이어야 합니다.
+Exchange 조직에 대해 확인된 도메인을 지정합니다. 이 도메인은 기본 SMTP 도메인으로 사용되는 도메인과 동일해야 합니다. 이 도메인은 다음 \<your Verified Domain\> 절차에서 참조됩니다. 또한 도메인 \<DomainControllerFQDN\> 컨트롤러의 FQDN을 지정해야 합니다.
 
 ```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
 ```
 
-이 명령을 사용 하면 주소 목록에서 새 메일 사용자를 숨길 수 있습니다.
+이 명령은 새 메일 사용자를 주소 목록에서 숨길 것입니다.
 
 ```powershell
 Set-MailUser -Identity $user.Identity -HiddenFromAddressListsEnabled $True -DomainController <DomainControllerFQDN>
 ```
 
-다음 두 명령에서는 UserApplication 및 ArchiveApplication 관리 역할을이 새 계정에 할당 합니다.
+다음 두 명령은 UserApplication 및 ArchiveApplication 관리 역할을 이 새 계정에 할당합니다.
 
 ```powershell
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN>
@@ -71,19 +71,19 @@ New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainC
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-### <a name="step-3-create-and-enable-a-partner-application-for-skype-for-business-online"></a>3 단계: 비즈니스용 Skype Online 용 파트너 응용 프로그램 만들기 및 사용 
+### <a name="step-3-create-and-enable-a-partner-application-for-skype-for-business-online"></a>3단계: 비즈니스용 Skype Online에 대한 파트너 응용 프로그램 만들기 및 사용 
 
-새 파트너 응용 프로그램을 만들고 방금 만든 계정을 사용 하 게 됩니다. 온-프레미스 Exchange 조직의 Exchange PowerShell에서 다음 명령을 실행 합니다.
+새 파트너 응용 프로그램을 만들고 방금 만든 계정을 사용하게 됩니다. 온-프레미스 Exchange 조직의 Exchange PowerShell에서 다음 명령을 실행합니다.
 
 ```powershell
 New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1-ce00-000000000000 -Enabled $True -LinkedAccount $user.Identity
 ```
 
-### <a name="step-4-export-the-on-premises-authorization-certificate"></a>4 단계: 온-프레미스 인증 인증서 내보내기
+### <a name="step-4-export-the-on-premises-authorization-certificate"></a>4단계: 프레미스 인증 인증서 내보내기
 
-PowerShell 스크립트를 실행 하 여 다음 단계에서 비즈니스용 Skype Online 조 직에 가져올 온-프레미스 인증 인증서를 내보냅니다.
+PowerShell 스크립트를 실행하여 다음 단계에서 비즈니스용 Skype Online 조직으로 가져오는 인증 인증서를 내보낼 수 있습니다.
 
-다음 텍스트를 명명 된 PowerShell 스크립트 파일 (예: ExportAuthCert. ps1)에 저장 합니다.
+ExportAuthCert.ps1과 같이 이름을 지정한 PowerShell 스크립트 파일에 다음 텍스트를 저장합니다.
 
 ```powershell
 $thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
@@ -99,15 +99,15 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 [System.IO.File]::WriteAllBytes($CertFile, $certBytes)
 ```
 
-온-프레미스 Exchange 조직의 Exchange PowerShell에서 방금 만든 PowerShell 스크립트를 실행 합니다. 예: .\ExportAuthCert.ps1
+On-premises Exchange 조직의 Exchange PowerShell에서 방금 만든 PowerShell 스크립트를 실행합니다. 예: .\ExportAuthCert.ps1
 
-### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>5 단계: Azure Active Directory ACS에 온-프레미스 인증 인증서 업로드
+### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>5단계: Azure Active Directory ACS에 On-premises 권한 부여 인증서 업로드
 
-다음으로, Windows PowerShell을 사용 하 여 이전 단계에서 내보낸 온-프레미스 인증 인증서를 Azure Active Directory ACS (Access Control Services)에 업로드 합니다. 이렇게 하려면 Windows PowerShell cmdlet 용 Azure Active Directory 모듈이 이미 설치 되어 있어야 합니다. 설치 되어 있지 않은 경우에 [https://aka.ms/aadposh](https://aka.ms/aadposh) 는 Windows PowerShell 용 Azure Active Directory 모듈 설치로 이동 합니다. Windows PowerShell 용 Azure Active Directory 모듈을 설치한 후 다음 단계를 완료 합니다.
+다음으로, Windows PowerShell 사용하여 이전 단계에서 내보냈던 인증 인증서를 Azure Active Directory ACS(액세스 제어 서비스)에 업로드합니다. 이렇게하려면 cmdlet에 대한 Azure Active Directory Windows PowerShell 이미 설치되어 있어야 합니다. 설치되지 않은 경우 Azure Active Directory 모듈을 설치하는 [https://aka.ms/aadposh](https://aka.ms/aadposh) Windows PowerShell. Azure Active Directory 모듈 for Windows PowerShell 완료합니다.
 
-1. **Windows powershell 용 Azure Active Directory 모듈** 바로 가기를 클릭 하 여 azure AD cmdlet이 설치 되어 있는 windows powershell 작업 영역을 엽니다. 이 단계의 모든 명령은 Azure Active Directory 콘솔용 Windows PowerShell을 사용 하 여 실행 됩니다.
+1. Azure **AD** cmdlet이 Windows PowerShell 응용 프로그램 Windows PowerShell 열려면 Azure Active Directory 모듈을 클릭합니다. 이 단계의 모든 명령은 Azure Active Directory 콘솔용 Windows PowerShell 사용하여 실행됩니다.
 
-2. 예를 들어, 다음과 같이 명명 된 PowerShell 스크립트 파일에 다음 텍스트 `UploadAuthCert.ps1`를 저장 합니다.
+2. 다음 텍스트를 이름이 지정한 PowerShell 스크립트 파일에  `UploadAuthCert.ps1` 저장합니다.
 
    ```powershell
    Connect-MsolService;
@@ -124,34 +124,34 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
    New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```
 
-3. 이전 단계에서 만든 PowerShell 스크립트를 실행 합니다. 예를 들어:`.\UploadAuthCert.ps1`
+3. 이전 단계에서 만든 PowerShell 스크립트를 실행합니다. 예를 들면 다음과 같습니다.
 
-4. 스크립트를 시작 하면 자격 증명 대화 상자가 표시 됩니다. Microsoft Online Azure AD 조직의 테 넌 트 관리자 계정에 대 한 자격 증명을 입력 합니다. 스크립트를 실행 한 후 Azure AD 세션 용 Windows PowerShell을 열어 둡니다. 이는 다음 단계에서 PowerShell 스크립트를 실행 하는 데 사용 됩니다.
+4. 스크립트를 시작하면 자격 증명 대화 상자가 표시됩니다. Microsoft Online Azure AD 조직의 테넌트 관리자 계정에 대한 자격 증명을 입력합니다. 스크립트를 실행한 후 Azure AD 세션에 대한 Windows PowerShell 열어 두면 됩니다. 이 세션을 사용하여 다음 단계에서 PowerShell 스크립트를 실행합니다.
 
-### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>6 단계: 인증서가 비즈니스용 Skype 서비스 사용자에 게 업로드 되었는지 확인
-1. Azure Active Directory로 열리고 인증 된 PowerShell에서 다음을 실행 합니다.
+### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>6단계: 인증서가 비즈니스용 Skype 서비스 사용자에 업로드 났는지 확인
+1. Azure Active Directory에서 열고 인증된 PowerShell에서 다음을 실행합니다.
 ```powershell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
-2. ReturnKeyValues에 대 한 메시지가 나타나면 enter 키를 누릅니다.
-3. Exchange Oauth 인증서 시작 및 종료 날짜와 일치 하는 시작 날짜 및 끝 데이터가 나열 된 키가 표시 되는지 확인 합니다.
+2. ReturnKeyValues를 입력하라는 메시지가 표시될 때 Enter 키 누르기
+3. Exchange Oauth 인증서 시작 및 종료 날짜와 일치하는 시작 날짜 및 종료 데이터가 나열된 키가 표시되어 있는지 확인
 
-### <a name="verify-your-success"></a>성공 여부 확인
+### <a name="verify-your-success"></a>성공 확인
 
-일부 기능이 제대로 작동 하는지 확인 하 여 구성이 올바른지 확인 합니다. 
+일부 기능이 성공적으로 작동하고 있는지 확인하여 구성이 올바른지 확인합니다. 
 
-1. 하이브리드 Exchange Server 구성을 사용 하는 조직에서 비즈니스용 Skype 사용자가 클라우드 보이스 메일 서비스를 사용 하는 경우 보이스 메일 인사말을 변경할 수 있는지 확인 합니다.
+1. Hybrid Exchange Server 구성의 조직에서 Cloud Voicemail 서비스가 있는 비즈니스용 Skype 사용자가 음성 Exchange Server 성공적으로 변경할 수 있도록 합니다.
 
-2. 모바일 클라이언트에 대 한 대화 내용 확인은 Outlook 대화 내용 폴더에 표시 됩니다.
+2. 모바일 클라이언트의 대화 기록이 Outlook 대화 기록 폴더에 표시되는지 확인합니다.
 
-3. 저장 된 채팅 메시지가 사용자의 온-프레미스 사서함에 [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)를 사용 하 여 제거 폴더에 보관 되어 있는지 확인 합니다.
+3. 보관된 채팅 메시지가 [EWSEditor를](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)사용하여 제거 폴더의 사용자 사서함에 보관되어 있는지 확인합니다.
 
-또는 트래픽을 살펴봅니다. OAuth 핸드셰이크의 트래픽 (기본 인증과 유사 하지는 않음), 특히 아래와 같은 발급자 트래픽 (예: @ 기호 앞/뒤에 0000000)이 전달 되는 토큰에 표시 되는 것을 알 수 있는 것은 사실입니다. OAuth의 지점인 사용자 이름 또는 암호는 표시 되지 않습니다. 그러나 ' Office ' 발급자가 표시 되는 경우 (이 경우 ' 4 '는 비즈니스용 Skype 이며 구독 영역입니다.)
+또는 트래픽을 봐야 합니다. OAuth 핸드세이크의 트래픽은 실제로는 뚜렷하며 기본 인증처럼 보이지 않습니다. 특히, 전달되는 토큰에서 00000004-0000-0ff1-ce00-000000000000@(@기호 앞에 / 포함)과 같은 발급자 트래픽이 표시되기 시작할 것입니다. OAuth의 지점인 사용자 이름이나 암호가 표시되지 않습니다. 하지만 'Office' 발급자( 이 경우 '4'는 비즈니스용 Skype 및 구독의 전제가 됩니다.)가 표시될 것입니다.
 
-OAuth를 사용 하 여 성공적으로 진행 되 고 있는지 확인 하려면 예상 되는 내용과 트래픽 형태를 알아야 합니다. 이 [에](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)대 한 자세한 내용은 [Microsoft 응용 프로그램의 OAuth 트래픽](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (토큰 새로 고침을 사용 하지 않는 경우 읽기)에 대 한 일반적인 예가 있으며 Oauth JWT (JSON 웹 토큰)를 살펴볼 수 있는 Fiddler 확장이 있습니다.
+OAuth를 성공적으로 사용하고 있는지 확인하려는 경우 예상할 예상과 트래픽의 모양을 알아야 합니다. 다음은 [](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)Microsoft 응용 프로그램의 [OAuth](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) 트래픽을 예로 들어 보겠습니다(새로 고침 토큰을 사용하지 않는 경우 읽기에 매우 유용), OAuth JWT(JSON 웹 토큰)를 살펴 볼 수 있는 Fiddler 확장이 있습니다.
 
-다음은 [설정의 예](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)입니다. 하지만 원하는 모든 네트워크 추적 도구를 사용 하 여이 프로세스를 실행할 수 있습니다.
+다음은 하나를 [설정하는](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)예이지만 이 프로세스를 진행하는 데 원하는 네트워크 추적 도구를 사용할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-[Exchange 및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Exchange 및 Exchange Online 조직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

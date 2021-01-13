@@ -1,7 +1,7 @@
 ---
-title: Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리
-author: lanachin
-ms.author: v-lanac
+title: Microsoft Teams 관리 센터에서 비즈니스용 Skype 설정 관리
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -21,32 +21,32 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft 팀 관리 센터의 비즈니스용 Skype 기능에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0a74b2586fa706dc8fe9db73c58b7d938eae59ee
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+description: Microsoft Teams 관리 센터에서 비즈니스용 Skype 기능에 대한 설정을 관리하는 방법을 배워야 합니다.
+ms.openlocfilehash: 944a5f8101b8355f4a2cc3e18966e5eb01b94be9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827762"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834218"
 ---
-# <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 비즈니스용 Skype 설정 관리
+# <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 비즈니스용 Skype 설정 관리
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="sfb-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Microsoft 팀 관리 센터에서 관리자는 조직의 비즈니스용 skype 사용자에 대 한 비즈니스용 Skype 기능을 관리할 수 있습니다. 비즈니스용 **skype** 페이지에서 [조직의](#manage-skype-for-business-settings-for-your-organization) 설정을 관리 하 고 사용자 세부 정보 페이지의 **비즈니스용 skype** 탭에서 [개별 사용자에](#manage-skype-for-business-settings-for-individual-users) 대 한 설정을 관리할 수 있습니다.
+관리자인 Microsoft Teams 관리 센터는 조직의 비즈니스용 Skype 사용자를 위한 비즈니스용 Skype 기능을 관리하는 위치입니다. 비즈니스용 **Skype** 페이지에서 조직의 설정과 사용자 세부 [](#manage-skype-for-business-settings-for-individual-users) 정보 페이지의 비즈니스용 Skype 탭에 **있는** 개별 사용자에 대한 설정을 관리할 수 있습니다. [](#manage-skype-for-business-settings-for-your-organization)
 
-조직의 공존 모드가 **팀 으로만** 설정 되어 있지 않은 경우 **비즈니스용 Skype** 페이지만 볼 수 있습니다. 마찬가지로 사용자의 공존 모드가 **팀 전용** 인 경우 사용자에 대 한 **비즈니스용 Skype** 탭만 표시 됩니다. 공존 모드에 대 한 자세한 내용은 [비즈니스용 Skype 공존 및 상호 운용성에 대 한 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md) 를 참조 하 고 [공존 및 업그레이드 설정을 설정](setting-your-coexistence-and-upgrade-settings.md)하는 방법에 대해 알아보세요.
+조직의 공존 모드가 **Teams로만** 설정되어 있지 않은 경우 비즈니스용 Skype 페이지만 **표시됩니다.** 마찬가지로 사용자의 공존 모드가 **Teams만이** 아닌 경우 사용자의 비즈니스용 Skype 탭만 **표시됩니다.** 공존 모드에 대한 자세한 내용은 [Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md) 및 비즈니스용 Skype 공존 및 상호 운영성 이해 및 공존 및 업그레이드 설정을 [참조하세요.](setting-your-coexistence-and-upgrade-settings.md)
 
 > [!NOTE]
-> 이전에는 Microsoft 팀 관리 센터의 **레거시 포털** 에 비즈니스용 Skype 설정이 있습니다. 레거시 포털을 사용 하지 않는 경우에는 비즈니스용 Skype 관리 센터의 팀 관리 센터에서 이러한 새로운 위치로 설정을 마이그레이션 했습니다.
+> 비즈니스용 Skype 설정은 이전에 Microsoft Teams 관리 센터의 레거시 **포털에** 있습니다. 레거시 포털이 사용 중지된 후 비즈니스용 Skype 관리용 Teams 관리 센터에서 이러한 새 위치로 설정을 마이그레이션했습니다.
 
-Microsoft 팀 관리 센터에서 비즈니스용 Skype 기능을 관리 하려면 전역 관리자 또는 비즈니스용 Skype 관리자의 [AZURE AD 관리자 역할이](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) 할당 되어야 합니다.
+Microsoft Teams 관리 센터에서 비즈니스용 Skype 기능을 관리하려면 전역 관리자 또는 비즈니스용 Skype 관리자의 [Azure AD](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) 관리자 역할이 할당되어야 합니다.
 
-## <a name="manage-skype-for-business-settings-for-your-organization"></a>조직의 비즈니스용 Skype 설정을 관리 합니다.
+## <a name="manage-skype-for-business-settings-for-your-organization"></a>조직의 비즈니스용 Skype 설정 관리
 
-Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **조직 전체**  >  **비즈니스용 Skype** 설정으로 이동 합니다. 여기서는 조직의 모든 비즈니스용 Skype 사용자에 대 한 Skype 모임 브로드캐스트, 현재 상태 프라이버시 및 모바일 장치 알림을 구성 하 고 관리할 수 있습니다.
+Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 비즈니스용 Skype의 **전체**  >  **설정으로 이동합니다.** 여기에서 조직의 모든 비즈니스용 Skype 사용자에 대한 Skype 모임 브로드캐스트, 현재 상태 개인 정보 보호 및 모바일 장치 알림을 구성하고 관리할 수 있습니다.
 
 ### <a name="skype-meeting-broadcast"></a>Skype 모임 브로드캐스트
 
@@ -54,15 +54,15 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **조직 전체**  >  **�
 <a name="sfb-org-wide-broadcast"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-다음 설정을 사용 하 여 조직에서 [Skype 모임 브로드캐스트](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) 를 관리할 수 있습니다.
+조직에서 [Skype 모임 브로드캐스트를 관리하려면](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) 다음 설정을 사용합니다.
 
 :::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="관리 센터의 Skype 모임 브로드캐스트 설정 스크린샷":::
 
-- **Skype 모임 브로드캐스트** : 조직에 대해 Skype 모임 브로드캐스트를 사용 하도록 설정 합니다. 이 기능을 사용 하도록 설정한 후에 [는 Skype 모임 브로드캐스트에 대 한 네트워크를 설정](https://docs.microsoft.com/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast)해야 합니다.
-- **미리 보기 기능** : 새로운 기능에 빠르게 액세스 하려면이 옵션을 설정 하세요.
-- **이끌이는 익명 모임을 예약할 수** 있습니다. 이끌이가 로그인 할 필요 없이 조직 외부의 모든 사용자에 게 참가할 수 있도록 하는 브로드캐스트 이벤트를 만들도록 하려면이 옵션을 설정 합니다. 
-- **Skype 모임 브로드캐스트 모임 기록** : 이끌이 및 발표자가 모임을 녹음/녹화할 수 있도록 설정 합니다.  
-- **참석자를 위한 헬프 데스크 지원 url** : 모임 참석자가 모임을 진행 하는 동안 도움이 필요한 경우 조직에서 사용할 수 있는 조직의 지원 url을 입력 합니다.
+- **Skype 모임 브로드캐스트:** 조직에서 Skype 모임 브로드캐스트를 사용하도록 설정하려면 이 기능을 끄면 됩니다. 이 기능을 사용하도록 설정한 후 Skype 모임 브로드캐스트에 대한 [네트워크를 설정해야 합니다.](https://docs.microsoft.com/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast)
+- **미리 보기 기능 참조:** 이 기능을 켜서 새 기능에 대한 초기 액세스 권한을 얻습니다.
+- **이끌이는** 익명 모임을 예약할 수 있습니다. 이끌이가 조직 외부의 모든 사용자가 로그인할 필요 없이 참가할 수 있는 브로드캐스트 이벤트를 만들 수 있도록 허용하려는 경우 이 기능을 켰습니다. 
+- **Skype 모임 브로드캐스트 모임** 녹화: 이끌이와 발표자가 모임을 녹음/녹화할 수 있도록 설정하세요.  
+- **참석자에** 대한 기술 지원 URL: 모임 참석자들이 모임 중에 도움이 필요한 경우 사용할 수 있는 조직의 지원 URL을 입력합니다.
 
 ### <a name="presence-and-mobile-notifications"></a>현재 상태 및 모바일 알림
 
@@ -71,57 +71,57 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **조직 전체**  >  **�
 <!-- Do not remove the bookmark link above. -->
 
 
-조직의 비즈니스용 Skype 현재 상태 개인 정보 및 모바일 알림을 관리 하려면 다음 설정을 사용 합니다.
+다음 설정을 사용하여 조직의 비즈니스용 Skype 현재 상태 개인 정보 보호 및 모바일 알림을 관리합니다.
 
 :::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="관리 센터의 현재 상태 설정 스크린샷":::
 
 #### <a name="presence"></a>현재 상태
 
-기본적으로 조직의 비즈니스용 Skype 사용자는 다른 비즈니스용 Skype 사용자의 현재 상태를 볼 수 있습니다 (예: 사용 중, 약속 있음 또는 자리 비움). 다음 중 하나를 선택 하 여 비즈니스용 Skype 사용자의 현재 상태를 볼 수 있는 사용자를 설정 합니다.
+기본적으로 조직의 비즈니스용 Skype 사용자는 다른 비즈니스용 Skype 사용자의 현재 상태(예: 사용 가능, 바쁘게 또는 부재 중)를 볼 수 있습니다. 비즈니스용 Skype 사용자의 현재 상태 표시를 볼 수 있는 사용자를 설정하기 위해 다음 중 하나를 선택하세요.
 
-- **현재 상태 정보 표시** : 사용자의 **외부** 또는 **차단** 목록에 추가 되지 않은 조직의 모든 비즈니스용 Skype 사용자는 해당 사용자의 현재 상태를 볼 수 있습니다.
-- **사용자의 대화 상대 에게만 현재 상태 정보 표시** : 사용자의 대화 **상대 목록에** 추가 되지 않은 모든 비즈니스용 Skype 사용자의 현재 상태 **External** 를 볼 수 있습니다. 사용자는 **설정**  >  **도구**  >  **옵션** 으로 이동해 서 비즈니스용 Skype에서이 설정을 무시할 수 있습니다.
+- **현재 상태 정보** 자동 표시: 사용자의 외부 또는 차단 목록에 추가되지 않은  조직의  비즈니스용 Skype 사용자는 해당 사용자의 현재 상태 정보를 볼 수 있습니다.
+- **사용자의** 연락처에만 현재 상태 정보 표시: 사용자의 연락처 목록에 외부 또는 차단 목록에 추가되지 않은  비즈니스용 Skype 사용자는 해당 사용자의 현재 상태만 볼 수 있습니다.  사용자는 설정 도구 옵션으로 이동하여 비즈니스용 Skype에서 이 설정을 오버라이드할  >  **수**  >  **있습니다.**
 
 #### <a name="mobile-notifications"></a>모바일 알림
 
-비즈니스용 Skype mobile 사용자가 푸시 알림 서비스를 통해 들어오고 부재 중 메신저 대화, 보이스 메일 메시지, 부재 중 통화에 대 한 알림을 받을 지 여부를 설정할 수 있습니다. 조직에서 사용 하는 모바일 장치에 따라 **Microsoft 푸시 알림 서비스** , **Apple 푸시 알림 서비스** 또는 둘 다를 사용할 수 있습니다.
+비즈니스용 Skype 모바일 사용자가 푸시 알림 서비스를 통해 수신 및 부재 중 인스턴트 메시지, 음성 메일 메시지 및 부재 중 전화에 대한 알림을 받을지 여부를 설정할 수 있습니다. 조직에서 사용되는 모바일 디바이스에 따라 **Microsoft 푸시** 알림 서비스, **Apple 푸시** 알림 서비스 또는 둘 다를 사용할 수 있습니다.
 
-다음 사항에 유의 하세요.
+다음에 유의해야 합니다.
 
-- 푸시 알림을 끄면 사용자가 다음에 모바일 장치에서 비즈니스용 Skype를 시작할 때 모든 알림을 받게 됩니다.
-- 기본적으로 푸시 알림은 켜져 있습니다. 개별 사용자는 모바일 장치에서 비즈니스용 Skype를 통해 기능을 해제할 수 있습니다.
-- 푸시 알림을 해제 하면 사용자가 다시 설정할 수 없습니다. 
+- 푸시 알림을 끄면 다음에 모바일 장치에서 비즈니스용 Skype를 시작할 때 모든 경고가 표시됩니다.
+- 기본적으로 푸시 알림은 켜져 있습니다. 개별 사용자는 모바일 장치에서 비즈니스용 Skype에서 해제할 수 있습니다.
+- 푸시 알림을 해제하면 사용자가 푸시 알림을 다시 끄지 못합니다. 
 
 > [!IMPORTANT]
-> Microsoft는 다른 회사를 사용 하 여 Windows Phone, iPhone 및 iPad 사용자에 게 비즈니스용 Skype 모바일 알림을 제공 합니다. 본 [개인 정보 취급 방침](https://go.microsoft.com/fwlink/p/?linkid=247732)을 참조 하세요.
+> Microsoft는 다른 회사를 사용하여 Windows Phone, iPhone 및 iPad 사용자에게 비즈니스용 Skype 모바일 알림을 실시간으로 제공합니다. 본 개인 정보 [취급 방침을 참조합니다.](https://go.microsoft.com/fwlink/p/?linkid=247732)
 
-## <a name="manage-skype-for-business-settings-for-individual-users"></a>개별 사용자에 대 한 비즈니스용 Skype 설정 관리
+## <a name="manage-skype-for-business-settings-for-individual-users"></a>개별 사용자의 비즈니스용 Skype 설정 관리
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="sfb-user-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-개별 사용자의 비즈니스용 Skype 설정을 관리 하려면 팀 관리 센터의 왼쪽 탐색 **에서 사용자의** 표시 이름을 클릭 하 여 사용자 세부 정보 페이지를 연 다음 비즈니스용 **Skype 설정** 탭을 선택 합니다. 여기에서 사용자에 대 한 외부 액세스 및 모임 설정을 구성할 수 있습니다.
+개별 사용자의 비즈니스용 Skype 설정을 관리하려면 Teams 관리 센터의 왼쪽 탐색 창에서 사용자로 이동하고 **사용자의** 표시 이름을 클릭하여 사용자 세부 정보 페이지를 연 다음 비즈니스용 **Skype** 설정 탭을 선택합니다. 여기에서 사용자에 대한 외부 액세스 및 모임 설정을 구성할 수 있습니다.
 
 :::image type="content" source="media/skype-for-business-settings-user.png" alt-text="사용자 세부 정보 페이지의 비즈니스용 Skype 탭 스크린샷":::
 
 ### <a name="external-access-settings"></a>외부 액세스 설정
 
-사용자가 조직 외부 사용자와 통신할 수 있는지 여부를 선택적으로 허용 하거나 차단할 수 있습니다.
+사용자가 조직 외부의 사용자와 통신할 수 있는지 여부를 선택적으로 허용하거나 차단할 수 있습니다.
 
-- **외부 비즈니스용 skype 사용자** : 페더레이션 도메인에서 사용자가 비즈니스용 skype 사용자와 통신할 수 있도록 하려면이 옵션을 켭니다.
-- **외부 skype 사용자** : 사용자가 Skype 사용자와 통신할 수 있도록 허용 하려면이 옵션을 켭니다. 
+- **외부 비즈니스용 Skype 사용자:** 사용자가 페더맹된 도메인에서 비즈니스용 Skype 사용자와 통신할 수 있도록 허용하려면 이 기능을 켜야 합니다.
+- **외부 Skype 사용자:** 사용자가 Skype 사용자와 통신할 수 있도록 허용하려는 경우 이 기능을 켜야 합니다. 
 
 ### <a name="meeting-settings"></a>모임 설정
 
 사용자에 대해 다음 모임 설정을 구성할 수 있습니다.
 
-- **오디오 & 비디오** : 다음 오디오 및 비디오 설정 중 하나를 선택 합니다.
+- **오디오 & 비디오:** 다음 오디오 및 비디오 설정 중 하나를 선택합니다.
 
-    - **없음** : 사용자가 오디오 또는 비디오를 사용할 수 없습니다.
-    - **오디오만** : 사용자가 오디오는 사용할 수 있지만 비디오는 아닙니다.
-    - **오디오 및 비디오** : 사용자는 오디오 및 비디오를 사용할 수 있습니다.
-    - **오디오 및 비디오 (HD)** : 사용자는 오디오 및 고화질 비디오를 사용할 수 있습니다.
+    - **없음:** 사용자가 오디오 또는 비디오를 사용할 수 없습니다.
+    - **오디오만:** 사용자는 오디오를 사용할 수 있지만 비디오는 사용할 수 없습니다.
+    - **오디오 및 비디오:** 사용자가 오디오 및 비디오를 사용할 수 있습니다.
+    - **오디오 및 비디오(HD)**: 사용자가 오디오 및 고화질 비디오를 사용할 수 있습니다.
     
-- **모임 & 기록** : 사용자가 대화 및 모임을 녹화할 수 있도록이 기능을 켭니다.
-- **준수** : 전자적으로 저장 된 정보를 유지 해야 하는 경우이 기능을 켭니다. 
+- **모임에서 &** 기록: 사용자가 대화 및 모임을 녹음/녹화할 수 있도록 이 기능을 켜야 합니다.
+- **규정** 준수: 전자적으로 저장된 정보를 법적으로 보존해야 하는 경우 이 기능을 켜야 합니다. 
