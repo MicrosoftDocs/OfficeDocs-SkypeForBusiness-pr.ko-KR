@@ -1,8 +1,8 @@
 ---
-title: 간단한 URL 추가
+title: 단순 URL 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,24 +14,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
-description: 배포 정의에 다른 간단한 Url을 추가 하려면 새 단순 URL의 URL을 지정 합니다.
-ms.openlocfilehash: 13c77fb7fc0745865be99aaf165c13040204ffcc
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 배포 정의에 단순 URL을 더 추가하기 위해 새 단순 URL의 URL을 지정합니다.
+ms.openlocfilehash: 41cd5c4698157a9dde2d8c357a5b8aba753495f3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794347"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835838"
 ---
-# <a name="add-simple-url"></a><span data-ttu-id="bb765-103">간단한 URL 추가</span><span class="sxs-lookup"><span data-stu-id="bb765-103">Add Simple URL</span></span>
+# <a name="add-simple-url"></a><span data-ttu-id="f6210-103">단순 URL 추가</span><span class="sxs-lookup"><span data-stu-id="f6210-103">Add Simple URL</span></span>
  
-<span data-ttu-id="bb765-104">배포 정의에 다른 간단한 Url을 추가 하려면 새 단순 URL의 URL을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb765-104">To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL.</span></span> <span data-ttu-id="bb765-105">URL 형식은 _http://\<단순 url 형식\>입니다.\< \> _ 간단한 url 형식이 다음 중 하나인 경우 도메인 이름 또는 _http://\<도메인 이름\>/\<단순 url\>형식_.</span><span class="sxs-lookup"><span data-stu-id="bb765-105">The format of the URL is  _http://\<simple URL type\>.\<domain name\>_ or _http://\<domain name\>/\<simple URL type\>_, where the simple URL type is one of the following:</span></span>
+<span data-ttu-id="f6210-104">배포 정의에 단순 URL을 더 추가하기 위해 새 단순 URL의 URL을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="f6210-104">To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL.</span></span> <span data-ttu-id="f6210-105">URL의 형식은 _\<simple URL type\> http://. \<domain name\>_</span><span class="sxs-lookup"><span data-stu-id="f6210-105">The format of the URL is  _http://\<simple URL type\>.\<domain name\>_</span></span> <span data-ttu-id="f6210-106">또는 _http:// \<domain name\> / \<simple URL type\>_ URL 형식이 다음 중 하나인 경우</span><span class="sxs-lookup"><span data-stu-id="f6210-106">or _http://\<domain name\>/\<simple URL type\>_, where the simple URL type is one of the following:</span></span>
   
-- <span data-ttu-id="bb765-106">시켜</span><span class="sxs-lookup"><span data-stu-id="bb765-106">Meet</span></span>
+- <span data-ttu-id="f6210-107">Meet</span><span class="sxs-lookup"><span data-stu-id="f6210-107">Meet</span></span>
     
-- <span data-ttu-id="bb765-107">전화 걸기</span><span class="sxs-lookup"><span data-stu-id="bb765-107">Dial in</span></span>
+- <span data-ttu-id="f6210-108">전화 접속</span><span class="sxs-lookup"><span data-stu-id="f6210-108">Dial in</span></span>
     
 > [!IMPORTANT]
-> <span data-ttu-id="bb765-108">간단한 URL에 하나의 다이얼을 사용할 수 있으며, 한 번에 한 개의 단순 URL만 활성화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bb765-108">You can have one Dial in simple URL and one Meet simple URL active at any time.</span></span> <span data-ttu-id="bb765-109">새 단순 URL을 추가 하 고 활성 URL로 만들면 이후 모든 요청이 새 단순 URL을 사용 하도록 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bb765-109">Adding a new simple URL and making it the active URL will set all future requests to use the new simple URL.</span></span> <span data-ttu-id="bb765-110">이전 간단한 URL이 활성 상태일 때 만든 컨퍼런스 및 기타 요청을 처리 하려면 nonactive simple URL을 남겨 둡니다.</span><span class="sxs-lookup"><span data-stu-id="bb765-110">You leave the nonactive simple URL to handle conferences and other requests that were made when the older simple URL was active.</span></span> 
+> <span data-ttu-id="f6210-109">전화 걸기 단순 URL과 한 번의 Meet 단순 URL을 동시에 활성화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f6210-109">You can have one Dial in simple URL and one Meet simple URL active at any time.</span></span> <span data-ttu-id="f6210-110">새 단순 URL을 추가하고 해당 URL을 활성 URL로 설정하면 이후의 모든 요청이 새 단순 URL을 사용하도록 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="f6210-110">Adding a new simple URL and making it the active URL will set all future requests to use the new simple URL.</span></span> <span data-ttu-id="f6210-111">비활성 단순 URL을 그대로 두어 이전 단순 URL이 활성 상태일 때 만들어진 회의 및 기타 요청을 처리합니다.</span><span class="sxs-lookup"><span data-stu-id="f6210-111">You leave the nonactive simple URL to handle conferences and other requests that were made when the older simple URL was active.</span></span> 
   
 
 

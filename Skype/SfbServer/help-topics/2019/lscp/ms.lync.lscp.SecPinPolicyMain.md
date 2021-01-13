@@ -1,8 +1,8 @@
 ---
 title: PIN 정책
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,31 +14,31 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: aef3362d66eaf4fedd4c8c9d4f6d1b9c2557f714
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: 3942ec5874fae8e67f7042d57e70224bf3640738
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793436"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836478"
 ---
-# <a name="pin-policy"></a><span data-ttu-id="9af70-104">PIN 정책</span><span class="sxs-lookup"><span data-stu-id="9af70-104">PIN Policy</span></span>
+# <a name="pin-policy"></a><span data-ttu-id="1c4f4-104">PIN 정책</span><span class="sxs-lookup"><span data-stu-id="1c4f4-104">PIN Policy</span></span>
 
-<span data-ttu-id="9af70-105">무슨 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="9af70-105">What do you want to do?</span></span> <span data-ttu-id="9af70-106">수행 하려는 작업에 대 한 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9af70-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="1c4f4-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="1c4f4-105">What do you want to do?</span></span> <span data-ttu-id="1c4f4-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="1c4f4-106">Click the link to the task that you want to perform.</span></span>
 
- <span data-ttu-id="9af70-107">**IP 휴대폰용 PIN 정책 사용** 이 PIN (개인 식별 번호) 정책은 IP 휴대폰을 사용 하 여 비즈니스용 Skype 서버에 연결 하는 사용자에 대 한 인증을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="9af70-107">**Work with PIN policy for IP phones**This personal identification number (PIN) policy supports authentication for users who connect to Skype for Business Server by using an IP phone.</span></span>
-- [<span data-ttu-id="9af70-108">비즈니스용 Skype 서버에서 새 PIN 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="9af70-108">Create a new PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/create-a-new-pin-policy.md)
+ <span data-ttu-id="1c4f4-107">**IP 전화에 대한 PIN 정책 사용** 이 PIN(개인 식별 번호) 정책은 IP 전화를 사용하여 비즈니스용 Skype 서버에 연결하는 사용자에 대한 인증을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="1c4f4-107">**Work with PIN policy for IP phones** This personal identification number (PIN) policy supports authentication for users who connect to Skype for Business Server by using an IP phone.</span></span>
+- [<span data-ttu-id="1c4f4-108">비즈니스용 Skype 서버에서 새 PIN 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="1c4f4-108">Create a new PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/create-a-new-pin-policy.md)
 
-- [<span data-ttu-id="9af70-109">비즈니스용 Skype 서버에서 기존 PIN 정책 수정</span><span class="sxs-lookup"><span data-stu-id="9af70-109">Modify an existing PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/modify-an-existing-pin-policy.md)
+- [<span data-ttu-id="1c4f4-109">비즈니스용 Skype 서버에서 기존 PIN 정책 수정</span><span class="sxs-lookup"><span data-stu-id="1c4f4-109">Modify an existing PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [<span data-ttu-id="9af70-110">비즈니스용 Skype 서버에서 핀 정책 삭제</span><span class="sxs-lookup"><span data-stu-id="9af70-110">Delete a PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/delete-a-pin-policy.md)
+- [<span data-ttu-id="1c4f4-110">비즈니스용 Skype 서버에서 PIN 정책 삭제</span><span class="sxs-lookup"><span data-stu-id="1c4f4-110">Delete a PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/delete-a-pin-policy.md)
 
-  <span data-ttu-id="9af70-111">**전화 접속 회의에 대 한 PIN 정책 사용** 이 PIN 정책은 조직에서 Active Directory 도메인 서비스 자격 증명을 가진 사용자가 PIN을 입력 하 여 인증 된 사용자로 전화 접속 회의에 참가할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="9af70-111">**Work with PIN policy for dial-in conferencing**This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.</span></span>
-- [<span data-ttu-id="9af70-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span><span class="sxs-lookup"><span data-stu-id="9af70-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+  <span data-ttu-id="1c4f4-111">**전화 접속 회의에 PIN** 정책 사용 이 PIN 정책을 사용하면 조직에서 Active Directory 도메인 서비스 자격 증명이 있는 사용자가 PIN을 입력하여 인증된 사용자로 전화 접속 회의에 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1c4f4-111">**Work with PIN policy for dial-in conferencing** This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.</span></span>
+- [<span data-ttu-id="1c4f4-112">사이트 또는 사용자 그룹에 대한 전화 접속 회의 PIN 설정 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="1c4f4-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [<span data-ttu-id="9af70-113">Modify the Default Dial-in Conferencing PIN Settings</span><span class="sxs-lookup"><span data-stu-id="9af70-113">Modify the Default Dial-in Conferencing PIN Settings</span></span>](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [<span data-ttu-id="1c4f4-113">기본 전화 접속 회의 PIN 설정 수정</span><span class="sxs-lookup"><span data-stu-id="1c4f4-113">Modify the Default Dial-in Conferencing PIN Settings</span></span>](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [<span data-ttu-id="9af70-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span><span class="sxs-lookup"><span data-stu-id="9af70-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [<span data-ttu-id="1c4f4-114">사이트 또는 사용자 그룹에 대한 전화 접속 회의 PIN 설정 삭제</span><span class="sxs-lookup"><span data-stu-id="1c4f4-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
 
 
