@@ -1,8 +1,8 @@
 ---
 title: Server 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
-description: 서버 테이블은 지원 테이블입니다. 각 레코드는 하나의 서버를 나타냅니다.
-ms.openlocfilehash: e57bb96fd715d67a5b6676a2399dc520f08bac96
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Server 테이블은 지원 테이블입니다. 각 레코드는 하나의 서버를 나타냅니다.
+ms.openlocfilehash: 7f26ed9053c65acb8cfd2e586edbd77fdfa7472b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806136"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802708"
 ---
-# <a name="server-table"></a><span data-ttu-id="a005f-104">Server 테이블</span><span class="sxs-lookup"><span data-stu-id="a005f-104">Server table</span></span>
+# <a name="server-table"></a><span data-ttu-id="1d3e7-104">Server 테이블</span><span class="sxs-lookup"><span data-stu-id="1d3e7-104">Server table</span></span>
  
-<span data-ttu-id="a005f-105">서버 테이블은 지원 테이블입니다.</span><span class="sxs-lookup"><span data-stu-id="a005f-105">The Server table is a supporting table.</span></span> <span data-ttu-id="a005f-106">각 레코드는 하나의 서버를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="a005f-106">Each record represents one server.</span></span> 
+<span data-ttu-id="1d3e7-p102">Server 테이블은 지원 테이블입니다. 각 레코드는 하나의 서버를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="1d3e7-p102">The Server table is a supporting table. Each record represents one server.</span></span> 
   
-|<span data-ttu-id="a005f-107">**열**</span><span class="sxs-lookup"><span data-stu-id="a005f-107">**Column**</span></span>|<span data-ttu-id="a005f-108">**데이터 형식**</span><span class="sxs-lookup"><span data-stu-id="a005f-108">**Data Type**</span></span>|<span data-ttu-id="a005f-109">**키/인덱스**</span><span class="sxs-lookup"><span data-stu-id="a005f-109">**Key/Index**</span></span>|<span data-ttu-id="a005f-110">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="a005f-110">**Details**</span></span>|
+|<span data-ttu-id="1d3e7-107">**열**</span><span class="sxs-lookup"><span data-stu-id="1d3e7-107">**Column**</span></span>|<span data-ttu-id="1d3e7-108">**데이터 형식**</span><span class="sxs-lookup"><span data-stu-id="1d3e7-108">**Data Type**</span></span>|<span data-ttu-id="1d3e7-109">**키/인덱스**</span><span class="sxs-lookup"><span data-stu-id="1d3e7-109">**Key/Index**</span></span>|<span data-ttu-id="1d3e7-110">**세부 정보**</span><span class="sxs-lookup"><span data-stu-id="1d3e7-110">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="a005f-111">**ServerKey**</span><span class="sxs-lookup"><span data-stu-id="a005f-111">**ServerKey**</span></span> <br/> |<span data-ttu-id="a005f-112">int</span><span class="sxs-lookup"><span data-stu-id="a005f-112">int</span></span>  <br/> |<span data-ttu-id="a005f-113">주요한</span><span class="sxs-lookup"><span data-stu-id="a005f-113">Primary</span></span>  <br/> |<span data-ttu-id="a005f-114">서버를 식별 하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="a005f-114">Unique number identifying the server.</span></span>  <br/> |
-|<span data-ttu-id="a005f-115">**FQDNOrIP**</span><span class="sxs-lookup"><span data-stu-id="a005f-115">**FQDNOrIP**</span></span> <br/> |<span data-ttu-id="a005f-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="a005f-116">nvarchar(256)</span></span>  <br/> |<span data-ttu-id="a005f-117">색인</span><span class="sxs-lookup"><span data-stu-id="a005f-117">index</span></span>  <br/> |<span data-ttu-id="a005f-118">MAC 주소 문자열입니다.</span><span class="sxs-lookup"><span data-stu-id="a005f-118">MAC address string.</span></span>  <br/> |
-|<span data-ttu-id="a005f-119">**ServerType**</span><span class="sxs-lookup"><span data-stu-id="a005f-119">**ServerType**</span></span> <br/> |<span data-ttu-id="a005f-120">int</span><span class="sxs-lookup"><span data-stu-id="a005f-120">int</span></span>  <br/> |<span data-ttu-id="a005f-121">외부</span><span class="sxs-lookup"><span data-stu-id="a005f-121">Foreign</span></span>  <br/> |<span data-ttu-id="a005f-122">1: 중재 서버</span><span class="sxs-lookup"><span data-stu-id="a005f-122">1: Mediation Server</span></span>  <br/> <span data-ttu-id="a005f-123">2: a/V 회의 Server16394: A/v Edge service32769: Gateway</span><span class="sxs-lookup"><span data-stu-id="a005f-123">2: A/V Conferencing Server16394: A/V Edge service32769: Gateway</span></span>  <br/> |
-|<span data-ttu-id="a005f-124">**PoolName**</span><span class="sxs-lookup"><span data-stu-id="a005f-124">**PoolName**</span></span> <br/> |<span data-ttu-id="a005f-125">nvarchar (512)</span><span class="sxs-lookup"><span data-stu-id="a005f-125">nvarchar(512)</span></span>  <br/> ||<span data-ttu-id="a005f-126">서버가 속한 풀.</span><span class="sxs-lookup"><span data-stu-id="a005f-126">Pool the server belongs to.</span></span> <span data-ttu-id="a005f-127">A/V 회의 서버에만 해당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a005f-127">Only applicable for the A/V Conferencing Server.</span></span>  <br/> |
-|<span data-ttu-id="a005f-128">**NextUpdateTS**</span><span class="sxs-lookup"><span data-stu-id="a005f-128">**NextUpdateTS**</span></span> <br/> |<span data-ttu-id="a005f-129">dmtf</span><span class="sxs-lookup"><span data-stu-id="a005f-129">datetime</span></span>  <br/> ||<span data-ttu-id="a005f-130">내부용 으로만 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a005f-130">For internal use only.</span></span>  <br/> |
+|<span data-ttu-id="1d3e7-111">**ServerKey**</span><span class="sxs-lookup"><span data-stu-id="1d3e7-111">**ServerKey**</span></span> <br/> |<span data-ttu-id="1d3e7-112">int</span><span class="sxs-lookup"><span data-stu-id="1d3e7-112">int</span></span>  <br/> |<span data-ttu-id="1d3e7-113">Primary</span><span class="sxs-lookup"><span data-stu-id="1d3e7-113">Primary</span></span>  <br/> |<span data-ttu-id="1d3e7-114">이 서버를 식별하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="1d3e7-114">Unique number identifying the server.</span></span>  <br/> |
+|<span data-ttu-id="1d3e7-115">**FQDNOrIP**</span><span class="sxs-lookup"><span data-stu-id="1d3e7-115">**FQDNOrIP**</span></span> <br/> |<span data-ttu-id="1d3e7-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="1d3e7-116">nvarchar(256)</span></span>  <br/> |<span data-ttu-id="1d3e7-117">index</span><span class="sxs-lookup"><span data-stu-id="1d3e7-117">index</span></span>  <br/> |<span data-ttu-id="1d3e7-118">MAC 주소 문자열입니다.</span><span class="sxs-lookup"><span data-stu-id="1d3e7-118">MAC address string.</span></span>  <br/> |
+|<span data-ttu-id="1d3e7-119">**ServerType**</span><span class="sxs-lookup"><span data-stu-id="1d3e7-119">**ServerType**</span></span> <br/> |<span data-ttu-id="1d3e7-120">int</span><span class="sxs-lookup"><span data-stu-id="1d3e7-120">int</span></span>  <br/> |<span data-ttu-id="1d3e7-121">외계인</span><span class="sxs-lookup"><span data-stu-id="1d3e7-121">Foreign</span></span>  <br/> |<span data-ttu-id="1d3e7-122">1: 중재 서버</span><span class="sxs-lookup"><span data-stu-id="1d3e7-122">1: Mediation Server</span></span>  <br/> <span data-ttu-id="1d3e7-123">2: A/V 회의 서버 16394: A/V 에지 서버 32769: 게이트웨이</span><span class="sxs-lookup"><span data-stu-id="1d3e7-123">2: A/V Conferencing Server16394: A/V Edge service32769: Gateway</span></span>  <br/> |
+|<span data-ttu-id="1d3e7-124">**PoolName**</span><span class="sxs-lookup"><span data-stu-id="1d3e7-124">**PoolName**</span></span> <br/> |<span data-ttu-id="1d3e7-125">nvarchar(512)</span><span class="sxs-lookup"><span data-stu-id="1d3e7-125">nvarchar(512)</span></span>  <br/> ||<span data-ttu-id="1d3e7-p103">서버가 속하는 풀입니다. A/V 회의 서버에만 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1d3e7-p103">Pool the server belongs to. Only applicable for the A/V Conferencing Server.</span></span>  <br/> |
+|<span data-ttu-id="1d3e7-128">**NextUpdateTS**</span><span class="sxs-lookup"><span data-stu-id="1d3e7-128">**NextUpdateTS**</span></span> <br/> |<span data-ttu-id="1d3e7-129">datetime</span><span class="sxs-lookup"><span data-stu-id="1d3e7-129">datetime</span></span>  <br/> ||<span data-ttu-id="1d3e7-130">내부 용도로만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="1d3e7-130">For internal use only.</span></span>  <br/> |
    
 

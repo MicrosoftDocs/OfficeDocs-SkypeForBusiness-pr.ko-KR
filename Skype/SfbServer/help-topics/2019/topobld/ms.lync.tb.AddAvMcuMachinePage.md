@@ -1,8 +1,8 @@
 ---
 title: A/V MCU 컴퓨터 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56f6f46e-7482-45dc-87dc-c2b30e3ec67f
 ROBOTS: NOINDEX, NOFOLLOW
-description: 이 A/V 회의 풀에 A/V 회의 서버로 추가 하려는 각 컴퓨터의 FQDN (정규화 된 도메인 이름)을 지정 합니다. 목록에 컴퓨터를 추가한 후에는 토폴로지를 게시하기 전에 언제든지 컴퓨터의 FQDN을 업데이트하거나 풀에서 제거할 수 있습니다. 토폴로지를 게시 한 후 FQDN을 변경 하려면 토폴로지 작성기에서 서버를 삭제 한 다음 새 FQDN을 사용 하 여 풀에 새 서버를 추가 해야 합니다.
-ms.openlocfilehash: ccda614f2c1bd622314a880a930f37426ac90d1d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 이 A/V 회의 풀에 A/V 회의 서버로 추가할 각 컴퓨터의 FQDN(정규화된 도메인 이름)을 지정합니다. 목록에 컴퓨터를 추가한 후에는 토폴로지를 게시하기 전에 언제든지 컴퓨터의 FQDN을 업데이트하거나 풀에서 제거할 수 있습니다. 토폴로지를 게시한 후 FQDN을 변경하려면 토폴로지 작성기에서 서버를 삭제한 다음 풀에 새 FQDN으로 새 서버를 추가해야 합니다.
+ms.openlocfilehash: 455421309971f28c943cd48a5a3cdb519c96ea97
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794847"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812058"
 ---
-# <a name="add-av-mcu-machine"></a><span data-ttu-id="b1b2f-105">A/V MCU 컴퓨터 추가</span><span class="sxs-lookup"><span data-stu-id="b1b2f-105">Add A/V MCU Machine</span></span>
+# <a name="add-av-mcu-machine"></a><span data-ttu-id="b60c8-105">A/V MCU 컴퓨터 추가</span><span class="sxs-lookup"><span data-stu-id="b60c8-105">Add A/V MCU Machine</span></span>
  
-<span data-ttu-id="b1b2f-106">이 A/V 회의 풀에 A/V 회의 서버로 추가 하려는 각 컴퓨터의 FQDN (정규화 된 도메인 이름)을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="b1b2f-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as an A/V Conferencing Server in this A/V Conferencing pool.</span></span> <span data-ttu-id="b1b2f-107">목록에 컴퓨터를 추가한 후에는 토폴로지를 게시하기 전에 언제든지 컴퓨터의 FQDN을 업데이트하거나 풀에서 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b1b2f-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="b1b2f-108">토폴로지를 게시 한 후 FQDN을 변경 하려면 토폴로지 작성기에서 서버를 삭제 한 다음 새 FQDN을 사용 하 여 풀에 새 서버를 추가 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b1b2f-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
+<span data-ttu-id="b60c8-p102">이 A/V 회의 풀에 A/V 회의 서버로 추가할 각 컴퓨터의 FQDN(정규화된 도메인 이름)을 지정합니다. 목록에 컴퓨터를 추가한 후에는 토폴로지를 게시하기 전에 언제든지 컴퓨터의 FQDN을 업데이트하거나 풀에서 제거할 수 있습니다. 토폴로지를 게시한 후 FQDN을 변경하려면 토폴로지 작성기에서 서버를 삭제한 다음 풀에 새 FQDN으로 새 서버를 추가해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b60c8-p102">Specify the fully qualified domain name (FQDN) of each computer that you want to add as an A/V Conferencing Server in this A/V Conferencing pool. After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology. After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
   
 

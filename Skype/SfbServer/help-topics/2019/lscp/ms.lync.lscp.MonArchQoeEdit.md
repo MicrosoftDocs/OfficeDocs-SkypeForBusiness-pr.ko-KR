@@ -1,8 +1,8 @@
 ---
-title: 환경 품질 (체감 품질) 데이터 새로 만들기 또는 기존 편집
+title: QoE(QoE) 데이터 새로 만들기 또는 기존 데이터 편집
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
-description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 3b7656b02c1b322fe1c8d8a11e01a371b71954ac
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
+ms.openlocfilehash: bcda542dce245b0a69e6b751790befe8a67f5518
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795047"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812298"
 ---
-# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a><span data-ttu-id="f773f-104">체감 품질(QoE) 데이터: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="f773f-104">Quality of Experience (QoE) Data: Create New or Edit Existing</span></span>
+# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a><span data-ttu-id="49b36-104">QoE(체감 품질) 데이터: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="49b36-104">Quality of Experience (QoE) Data: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="f773f-105">무슨 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="f773f-105">What do you want to do?</span></span> <span data-ttu-id="f773f-106">수행 하려는 작업에 대 한 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="f773f-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="49b36-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="49b36-105">What do you want to do?</span></span> <span data-ttu-id="49b36-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="49b36-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="f773f-107">비즈니스용 Skype 서버에서 환경 품질 사용</span><span class="sxs-lookup"><span data-stu-id="f773f-107">Enable Quality of Experience in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-qoe.md)
+- [<span data-ttu-id="49b36-107">비즈니스용 Skype 서버에서 환경 품질 사용</span><span class="sxs-lookup"><span data-stu-id="49b36-107">Enable Quality of Experience in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-qoe.md)
     
-- [<span data-ttu-id="f773f-108">비즈니스용 Skype 서버의 경험 치 설정 수정</span><span class="sxs-lookup"><span data-stu-id="f773f-108">Modify Quality of Experience settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [<span data-ttu-id="49b36-108">비즈니스용 Skype 서버에서 환경 품질 설정 수정</span><span class="sxs-lookup"><span data-stu-id="49b36-108">Modify Quality of Experience settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [<span data-ttu-id="f773f-109">비즈니스용 Skype 서버에서 환경 품질 구성 설정 만들기</span><span class="sxs-lookup"><span data-stu-id="f773f-109">Create Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [<span data-ttu-id="49b36-109">비즈니스용 Skype 서버에서 환경 품질 구성 설정 만들기</span><span class="sxs-lookup"><span data-stu-id="49b36-109">Create Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-- [<span data-ttu-id="f773f-110">비즈니스용 Skype 서버에서 환경 품질 구성 설정 삭제</span><span class="sxs-lookup"><span data-stu-id="f773f-110">Delete Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
+- [<span data-ttu-id="49b36-110">비즈니스용 Skype 서버에서 환경 품질 구성 설정 삭제</span><span class="sxs-lookup"><span data-stu-id="49b36-110">Delete Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
  
 
