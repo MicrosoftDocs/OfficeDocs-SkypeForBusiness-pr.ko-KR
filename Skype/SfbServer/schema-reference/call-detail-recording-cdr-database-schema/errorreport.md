@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버 2015의 ErrorReport 테이블
+title: 비즈니스용 Skype 서버의 ErrorReport 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -12,38 +12,38 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
-description: ErrorReport 테이블에는 발생 한 오류에 대 한 정보가 저장 됩니다. 각 레코드는 오류 발생 중 하나입니다. 이 오류는 프런트 엔드 서버에서 실행 되는 CDR 에이전트에서 또는 클라이언트에서 전송 된에 의해 캡처됩니다.
-ms.openlocfilehash: de103c61f74b50297f9c012ae7f4c6e1586e87d7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ErrorReport 테이블에는 발생한 오류에 대한 정보가 저장됩니다. 각 레코드는 발생한 한 가지 오류를 나타냅니다. 오류는 프런트 엔드 서버에서 실행하는 CDR 에이전트로 캡처되거나 클라이언트로 전송됩니다.
+ms.openlocfilehash: b2f81df1134294185124d78b90c2e4f639575ded
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815226"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821678"
 ---
-# <a name="errorreport-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 ErrorReport 테이블
+# <a name="errorreport-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 ErrorReport 테이블
  
-ErrorReport 테이블에는 발생 한 오류에 대 한 정보가 저장 됩니다. 각 레코드는 오류 발생 중 하나입니다. 이 오류는 프런트 엔드 서버에서 실행 되는 CDR 에이전트에서 또는 클라이언트에서 전송 된에 의해 캡처됩니다.
+ErrorReport 테이블에는 발생한 오류에 대한 정보가 저장됩니다. 각 레코드는 발생한 한 가지 오류를 나타냅니다. 오류는 프런트 엔드 서버에서 실행하는 CDR 에이전트로 캡처되거나 클라이언트로 전송됩니다.
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**ErrorTime** <br/> |dmtf  <br/> |주요한  <br/> |오류가 발생 한 날짜 및 시간입니다.  <br/> |
-|**ErrorReportSeq** <br/> |int  <br/> |주요한  <br/> |오류 보고서를 식별 하는 ID 번호입니다. 오류 보고서를 고유 하 게 식별 하는 **Errortime** 과 함께 사용 됩니다. <br/> |
-|**ErrorId** <br/> |int  <br/> |외부  <br/> |오류 유형의 고유 ID입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Errordef 테이블](errordef.md) 을 참조 하세요. <br/> |
-|**FromUserId** <br/> |int  <br/> |외부  <br/> |오류를 일으킨 요청을 시작한 사용자입니다. 자세한 내용은 [사용자 테이블](users.md) 을 참조 하세요. <br/> |
-|**ToUserId** <br/> |int  <br/> |외부  <br/> |오류가 발생 한 요청의 대상 사용자입니다. 자세한 내용은 [사용자 테이블](users.md) 을 참조 하세요. <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |외부  <br/> |오류와 관련 된 컨퍼런스 URI입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015에서 ConferenceUris 테이블](conferenceuris.md) 을 참조 하세요. 일반적으로 ConferenceUriId가 null이 아닌 경우 FromUserId 또는 ToUserId는 null입니다. <br/> |
-|**SessionIdTime** <br/> |dmtf  <br/> |외부  <br/> |세션을 고유 하 게 식별 하는 **Sessionidseq** 와 함께 사용 됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 대화 상자 표](dialogs.md) 를 참조 하세요. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |외부  <br/> |세션을 식별 하는 ID 번호입니다. 세션을 고유 하 게 식별 하는 **Sessionidtime** 과 함께 사용 됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 대화 상자 표](dialogs.md) 를 참조 하세요. <br/> |
-|**SourceId** <br/> |int  <br/> |외부  <br/> |오류 보고서를 보낸 서버 (보고서가 서버 구성 요소에서 전송 되는 경우) 자세한 내용은 [서버 테이블](servers.md) 을 참조 하세요. <br/> 이 필드는 Microsoft Lync Server 2013에서 도입 되었습니다.  <br/> |
-|**ApplicationId** <br/> |int  <br/> |외부  <br/> |오류 보고서를 보낸 서버 (보고서가 서버 구성 요소에서 전송 되는 경우) 자세한 내용은 [비즈니스용 Skype 서버 2015의 응용 프로그램 테이블](application.md) 을 참조 하세요. <br/> 이 필드는 Microsoft Lync Server 2013에서 도입 되었습니다.  <br/> |
-|**MsDiagHeader** <br/> |이미지  <br/> | <br/> |오류에 대 한 추가 정보입니다.  <br/> 이 구문을 사용 하 여이 데이터를 텍스트 형식으로 변환할 수 있습니다.  <br/>  `cast(cast(Detail as varbinary(max)) as varchar(max))` <br/> |
-|**ClientVersionId** <br/> |int  <br/> |외부  <br/> |오류 보고서를 보내는 끝점의 클라이언트 버전입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Clientversions 테이블](clientversions.md) 을 참조 하세요. <br/> |
-|**IsCapturedByServer** <br/> |다소  <br/> ||프런트 엔드 서버에서 실행 중이거나 클라이언트가 보낸 CDR 에이전트에서 캡처한 오류 보고서입니다.  <br/> |
-|**플래그** <br/> |smallint  <br/> ||나중에 사용 하기 위해 예약 되어 있습니다.  <br/> |
-|**TelemetryId** <br/> |uniqueIdentifier  <br/> ||고유한 식별자는 회의에 관련 된 다양 한 구성 요소에 대 한 조인 시간 정보를 연결 합니다.  <br/> 이 필드는 Microsoft Lync Server 2013에서 도입 되었습니다.  <br/> |
-|**SessionSetupTime 시간** <br/> |int  <br/> ||특정 구성 요소가 컨퍼런스에 참가 하는 데 필요한 시간 (밀리초 단위)입니다.  <br/> 이 필드는 Microsoft Lync Server 2013에서 도입 되었습니다.  <br/> |
-|**ServerId** <br/> |int  <br/> |외부  <br/> |오류 보고서를 생성 한 서버의 정규화 된 도메인 이름을 나타냅니다.  <br/> |
-|**PoolId** <br/> |int  <br/> |외부  <br/> |오류 보고서가 생성 된 풀의 정규화 된 도메인 이름을 나타냅니다.  <br/> |
-|**LastModifiedTime** <br/> |Dmtf  <br/> ||모니터링 서비스에 내부적으로 사용 합니다.  <br/> 이 필드는 비즈니스용 Skype 서버 2015에서 도입 되었습니다.  <br/> |
+|**ErrorTime** <br/> |datetime  <br/> |Primary  <br/> |오류가 발생한 날짜 및 시간입니다.  <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |Primary  <br/> |오류 보고서를 식별하기 위한 ID 번호입니다. **ErrorTime과** 함께 오류 보고서를 고유하게 식별하는 데 사용됩니다. <br/> |
+|**ErrorId** <br/> |int  <br/> |외계인  <br/> |오류 유형의 고유 ID입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 ErrorDef](errordef.md) 테이블을 참조하세요. <br/> |
+|**FromUserId** <br/> |int  <br/> |외계인  <br/> |오류가 발생하는 요청을 시작한 사용자입니다. 자세한 내용은 [Users 테이블을](users.md) 참조하십시오. <br/> |
+|**ToUserId** <br/> |int  <br/> |외계인  <br/> |오류를 유발한 요청의 대상 사용자입니다. 자세한 내용은 [Users 테이블을](users.md) 참조하십시오. <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |외계인  <br/> |오류와 관련된 회의 URI입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 ConferenceUris](conferenceuris.md) 테이블을 참조하세요. 일반적으로 ConferenceUriId가 null이 아닌 경우 FromUserId 또는 ToUserId는 null이 됩니다. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |외계인  <br/> |**SessionIdSeq** 와 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하세요. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |외계인  <br/> |세션을 식별하기 위한 ID 번호입니다. **SessionIdTime** 과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하세요. <br/> |
+|**SourceId** <br/> |int  <br/> |외계인  <br/> |오류 보고서를 보낸 서버입니다(보고서가 서버 구성 요소에서 전송되는 경우). 자세한 내용은 [Servers 테이블을](servers.md) 참조하세요. <br/> 이 필드는 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
+|**ApplicationId** <br/> |int  <br/> |외계인  <br/> |오류 보고서를 보낸 서버입니다(보고서가 서버 구성 요소에서 전송되는 경우). 자세한 내용은 [비즈니스용 Skype 서버 2015의 Application](application.md) 테이블을 참조하세요. <br/> 이 필드는 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
+|**MsDiagHeader** <br/> |이미지  <br/> | <br/> |오류에 대한 자세한 정보입니다.  <br/> 이 데이터는 다음 구문을 사용하여 텍스트 형식으로 변환할 수 있습니다.  <br/>  `cast(cast(Detail as varbinary(max)) as varchar(max))` <br/> |
+|**ClientVersionId** <br/> |int  <br/> |외계인  <br/> |오류 보고서를 보내는 끝점의 클라이언트 버전입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 ClientVersions](clientversions.md) 테이블을 참조하세요. <br/> |
+|**IsCapturedByServer** <br/> |bit  <br/> ||프런트 엔드 서버에서 실행되는 CDR 에이전트에 의해 캡처되거나 클라이언트가 전송한 오류 보고서입니다.  <br/> |
+|**플래그** <br/> |smallint  <br/> ||나중에 사용하도록 예약됩니다.  <br/> |
+|**TelemetryId** <br/> |uniqueIdentifier  <br/> ||회의에 포함된 서로 다른 구성 요소의 참가 시간 정보와 연결된 고유 ID입니다.  <br/> 이 필드는 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
+|**SessionSetupTime** <br/> |int  <br/> ||회의에 참가하는 특정 구성 요소에 필요한 시간(밀리초)입니다.  <br/> 이 필드는 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
+|**ServerId** <br/> |int  <br/> |외계인  <br/> |오류 보고서를 생성한 서버의 정식 도메인 이름을 지정합니다.  <br/> |
+|**PoolId** <br/> |int  <br/> |외계인  <br/> |오류 보고서가 생성된 풀의 정식 도메인 이름을 지정합니다.  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||모니터링 서비스의 내부 사용 용도  <br/> 이 필드는 비즈니스용 Skype 서버 2015에서 도입했습니다.  <br/> |
    
 

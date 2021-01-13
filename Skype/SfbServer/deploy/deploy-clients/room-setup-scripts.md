@@ -1,7 +1,7 @@
 ---
-title: Skype 채팅방 시스템 룸 설정 스크립트
-ms.author: v-lanac
-author: lanachin
+title: Skype 룸 시스템 방 설정 스크립트
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: 이 항목에서는 Skype 대화방 시스템 계정을 프로 비전 하는 샘플 스크립트를 찾을 수 있습니다.
-ms.openlocfilehash: a24de087eeeb20c8093101c23ffd20dec19f25e3
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 이 항목을 읽고 Skype 룸 시스템 계정을 프로비전하기 위한 샘플 스크립트를 찾아 읽습니다.
+ms.openlocfilehash: 0ea4466787099bfe24e6ddf53fac40073892aea8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768711"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820828"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype 채팅방 시스템 룸 설정 스크립트
+# <a name="skype-room-system-room-setup-scripts"></a>Skype 룸 시스템 방 설정 스크립트
  
-이 항목에서는 Skype 대화방 시스템 계정을 프로 비전 하는 샘플 스크립트를 찾을 수 있습니다.
+이 항목을 읽고 Skype 룸 시스템 계정을 프로비전하기 위한 샘플 스크립트를 찾아 읽습니다.
   
-이 섹션에서는 Skype 대화방 시스템 계정을 구축 하는 데 사용할 수 있는 샘플 스크립트를 설명 합니다. 이 스크립트는 설명을 위한 용도로만 사용 되며 IT 전문가 또는 도메인 관리자와 상담 해야만 사용할 수 있습니다.
+이 섹션에서는 Skype 채팅방 시스템 계정을 프로비전하는 데 사용할 수 있는 샘플 스크립트를 설명합니다. 이러한 스크립트는 설명적인 용도로만 사용하며 IT 전문가 또는 도메인 관리자와 상의한 후에만 사용해야 합니다.
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>설치 스크립트 예: 비즈니스용 Skype 및 Exchange Server (온-프레미스)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>예제 설치 스크립트: 비즈니스용 Skype 및 Exchange Server(On Premises)
 
 ```powershell
 # On Exchange 
@@ -39,17 +39,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>설치 스크립트 예: 비즈니스용 Skype 및 Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>예제 설치 스크립트: 비즈니스용 Skype 및 Exchange Server Online
 
-스크립트를 실행 하기 전에 다음 필수 구성 요소를 검토 했는지 확인 합니다.
+스크립트를 실행하기 전에 다음 선행 작업을 검토해야 합니다.
   
-- IT 전문가를 위한 Microsoft Online Services 로그인 도우미 베타
+- Microsoft Online Services Sign-In 전문가용 도우미 BETA
     
-- Windows PowerShell 용 windows Azure Active Directory 모듈 (64 비트 버전) 또는 (32 비트 버전)
+- Windows Azure(64비트 Windows PowerShell) 또는 (32비트 버전용 Active Directory 모듈)
     
-- Lync Online 용 Windows PowerShell 모듈
+- Windows PowerShell Online용 모듈
     
-- 필요한 경우 재부팅
+- 필요한 경우 다시부팅
     
 ```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment

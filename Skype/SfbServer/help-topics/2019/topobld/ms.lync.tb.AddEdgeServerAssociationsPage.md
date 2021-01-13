@@ -1,8 +1,8 @@
 ---
-title: Edge 서버 연결 추가
+title: 에지 서버 연결 추가
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
-description: 이 페이지를 사용 하 여 A/V 트래픽에이 Edge 풀을 사용 하는 프런트 엔드 풀 및 Standard Edition 서버를 선택 합니다.
-ms.openlocfilehash: 5a67829de4cc56cf8512513e040b5427b676ca8a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 이 페이지에서는 A/V 트래픽에 이 에지 풀을 사용할 프런트 엔드 풀 또는 Standard Edition Server를 선택할 수 있습니다.
+ms.openlocfilehash: 6e2274b706df06bb82ff1d96ccf30a000725003d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794076"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819498"
 ---
-# <a name="add-edge-server-associations"></a>Edge 서버 연결 추가
+# <a name="add-edge-server-associations"></a>에지 서버 연결 추가
  
-이 페이지를 사용 하 여 A/V 트래픽에이 Edge 풀을 사용 하는 프런트 엔드 풀 및 Standard Edition 서버를 선택 합니다. 
+이 페이지에서는 A/V 트래픽에 이 에지 풀을 사용할 프런트 엔드 풀 또는 Standard Edition Server를 선택할 수 있습니다. 
   
-각 프런트 엔드 풀은 한 개의 Edge 풀에만 연결 될 수 있습니다. 다른 Edge 풀에 이미 연결 된 풀을 선택 하면 이전 Edge 풀에서 연결이 변경 됩니다.
+각 프런트 엔드 풀은 하나의 에지 풀에만 연결할 수 있습니다. 다른 에지 풀과 이미 연결된 풀을 선택하면 이전 에지 풀에서 연결이 변경됩니다.
   
-또한이 Edge 서버나 Edge 풀을 중재 서버에 연결 하거나, 외부 사용자를 위해 엔터프라이즈 음성을 구성 하 고 사용 하도록 설정할 수 있습니다.
+또한 이 에지 서버 또는 에지 풀을 중재 서버 또는 중재 서버 풀과 연결하여 외부 사용자에 대해 이 Enterprise Voice 수 있습니다.
   
 

@@ -1,8 +1,8 @@
 ---
-title: 정규화 규칙 정규식을 입력 합니다.
+title: 정규화 규칙 형식 정규식
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 ROBOTS: NOINDEX, NOFOLLOW
-description: .NET Framework 정규식을 입력 하 여 경로가 적용 되는 대상 전화 번호의 일치 패턴을 지정 합니다.
-ms.openlocfilehash: 4afcf766fd6229cecd010d93f05346dec053bf25
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 경로가 적용되는 대상 전화 번호에 대한 일치 패턴을 지정하는 .NET Framework 정규식을 입력합니다.
+ms.openlocfilehash: fd66e36018276ac1373c2b5392c44f6052fdd458
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793536"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819998"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a>정규화 규칙: 정규식을 입력
+# <a name="normalization-rule-type-a-regular-expression"></a>정규화 규칙: 정규식 입력
  
-.NET Framework 정규식을 입력 하 여 경로가 적용 되는 대상 전화 번호의 일치 패턴을 지정 합니다. 
+경로가 적용되는 대상 전화 번호에 대한 일치 패턴을 지정하는 .NET Framework 정규식을 입력합니다. 
   
  
   

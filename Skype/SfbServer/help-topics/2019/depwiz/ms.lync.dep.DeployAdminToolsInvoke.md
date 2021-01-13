@@ -1,8 +1,8 @@
 ---
-title: 관리 도구를 사용 하는 배포 마법사
+title: 관리 도구를 사용하는 배포 마법사
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 배포 마법사를 사용 하 여 비즈니스용 Skype 서버를 설치 하는 방법에 대 한 자세한 내용은 비즈니스용 Skype 서버 설치를 참조 하세요.
-ms.openlocfilehash: d10e5898744e08d70e532fc17924c17830b7bd3a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 배포 마법사를 사용하여 비즈니스용 Skype 서버를 설치하는 자세한 내용은 비즈니스용 Skype 서버 설치를 참조하세요.
+ms.openlocfilehash: 406a28868ceb7eb38b68dd282d94b27df9014c1b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796949"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820558"
 ---
 # <a name="deployment-wizard-using-the-admin-tools"></a>배포 마법사: 관리 도구 사용
  
-배포 마법사를 사용 하 여 비즈니스용 Skype 서버를 설치 하는 방법에 대 한 자세한 내용은 비즈니스용 [Skype 서버 설치](../../../deploy/install/install.md)를 참조 하세요.
+배포 마법사를 사용하여 비즈니스용 Skype 서버를 설치하는 데 대한 자세한 내용은 비즈니스용 Skype 서버 [설치를 참조하세요.](../../../deploy/install/install.md)
   
 

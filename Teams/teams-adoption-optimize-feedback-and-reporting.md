@@ -1,7 +1,7 @@
 ---
-title: Microsoft 팀 채택을 위한 피드백 및 신고 최적화
-author: lanachin
-ms.author: v-lanac
+title: Microsoft Teams 채택을 위한 피드백 및 보고 최적화
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 팀 채택을 통해 사용자 의견을 얻고 서비스 상태 보고를 사용 하는 방법에 대해 알아보세요.
+description: Teams 채택에서 사용자 피드백을 획득하고 서비스 상태 보고를 사용하는 방법을 배워야 합니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,43 +21,43 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e883a71d22a8af6c2af6eee8cdbd30e5b618f4dc
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0f8c929eefb8aad83ee4a838b51cb39da6749221
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868645"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821068"
 ---
-# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft 팀 채택을 위한 피드백 및 신고 최적화
+# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams 채택을 위한 피드백 및 보고 최적화
 
-사용자 의견 및 서비스 상태 보고에 대 한 모범 사례에 따라 서비스 및 직원 으로부터 신호를 받을 수 있는지 확인 합니다.  경우에 따라 특정 서비스 사용 및 상태 보고서에 액세스 하는 데 관리자 권한이 필요할 수 있습니다. 조직의 Microsoft 365 또는 Office 365 관리자가 아닌 경우 해당 개인에 게 작업을 수행 하 여 Microsoft 365 관리 센터에서 보고서 구독자 역할을 부여 하 여이 데이터 중 일부에 액세스할 수 있습니다.
+사용자 피드백 및 서비스 상태 보고에 대한 모범 사례를 따라 서비스 및 직원으로부터 신호를 다시 수신하도록 합니다.  경우에 따라 특정 서비스 사용 현황 및 상태 보고서에 액세스하려면 관리자 권한이 필요할 수 있습니다. 조직의 Microsoft 365 또는 Office 365 관리자가 아닌 경우 해당 개인에게 Microsoft 365 관리 센터의 보고서 읽기 권한자 역할을 부여하여 이 데이터 중 일부에 액세스합니다.
 
 ## <a name="incorporating-feedback"></a>피드백 통합 
 
-실험 단계 전체에서 사용자가 제품을 사용 하는 방법과 해당 환경을 경험 하는 방법에 대 한 정보를 수집 하 게 됩니다. 이 정보를 사용 하 여 비즈니스 단위에서 사용을 확장 하기 위해 계획 하는 동안 인식 및 교육 프로그램을 조정할 수 있습니다. 몇 가지 일반적인 예제 질문은 다음과 같습니다.
+실험 단계 전반에 걸쳐 사람들이 제품 및 해당 환경을 사용한 방법에 대한 정보를 캡처하게 됩니다. 이제 이 정보를 사용하여 사업부 전체에서 해당 사용을 확장할 계획인 인식 및 교육 프로그램을 조정합니다. 몇 가지 일반적인 예제 질문은 다음과 같습니다.
 
-- 기존 기술과 함께이 새로운 도구를 사용 하는 경우는 언제 인가요?
-- 내게이 도구를 사용할 수 있도록 승인 된 사람은 누구 인가요?
-- 고도로 기밀 정보를 안전 하 게 사용할 수 있나요? 
-- Microsoft 팀에 대해 자세히 알아보려면 누가 누구에 게 문의 하나요?
-- 무언가가 작동 하지 않습니다. 도움말을 보려면 어떻게 하나요?
+- 내 기존 기술과 함께 이 새 도구를 언제 사용하나요?
+- 이 도구를 함께 사용할 수 있는 승인을 받은 사람
+- 기밀 정보가 안전한가요? 
+- Microsoft Teams에 대해 자세히 알아보기 위해 누구와 이야기해야 하나요?
+- 작동하지 않습니다. 어떻게 도움을 받을 수 있나요?
 
 ## <a name="invest-in-your-champions"></a>챔피언에 투자
 
-Microsoft 팀의 사용 현황을 확대할 준비가 되 면 확장 하는 각 비즈니스 단위 또는 그룹에 추가 챔피언을 채용 하세요. 이러한 enthusiastic 사람들을 서비스 교육 프로그램에 등록 하 고이를 사용 하는 방법과 모임에 대 한 정보를 표준화 하세요.
+Microsoft Teams 사용량을 조정하기 위해 준비할 때 확장하는 각 사업부 또는 그룹에서 추가 챔피언을 모집합니다. 이러한 열정적인 사람들이 서비스 교육 프로그램에 등록하고, 이들을 만나는 방법과 때를 표준화합니다.
  
-챔피언 프로그램에서 직원 들에 게 어떤 것이 있는지 디자인 하 고 챔피언 되는 경우에는 어떻게 되는지 확인 하세요. 일반적인 프로그램 요구 사항은 예약 된 office 시간, 월간 커뮤니티 통화 참여, 내부 온라인 커뮤니티에 참가 하 여 이러한 새로운 환경으로의 전환을 지원 합니다.  
+챔피언 프로그램에서 직원이 얻을 수 있는 것 및 그들이 챔피언이 될 경우 제공해야 하는 것을 디자인합니다. 일반적인 프로그램 요구 사항은 예정된 사무실 시간, 월간 커뮤니티 통화 참여, 이러한 새로운 환경으로 전환을 지원하기 위한 내부 온라인 커뮤니티 참여입니다.  
 
-모범 사례: 내부 챔피언 월간 팀 회의를 개최 하세요. 직원 들을 위한 셀프 서비스 도구를 제공 하 고 의견을 반영 하 여 새 기능을 교육 하는 방법으로 안건에 대해 설명 합니다.
+모범 사례: 내부 챔피언을 위한 월간 Teams 모임을 개최합니다. 새 기능 교육, 피드백 해결 및 직원 커뮤니티를 위한 셀프 서비스 도구 제공 간에 안건을 분할합니다.
 
-모범 사례: 내부 지원 부서의 대표자 또는 IT 헬프데스크에 챔피언 커뮤니티에 가입 하 여 팀 사용에 대 한 새로운 정보를 최신 상태로 유지 하세요. 
+모범 사례: 내부 지원 부서 또는 IT 기술 지원팀의 담당자가 챔피언 커뮤니티에 참여하여 Teams 사용에 대한 새로운 정보를 최신으로 유지하세요. 
 
 ## <a name="service-reporting"></a>서비스 보고
 
-Microsoft 팀을 배포 하 고 채택할 때 검토 해야 하는 세 가지 보고 유형은 다음과 같습니다.
+Microsoft Teams를 배포하고 채택할 때 검토해야 하는 보고에는 세 가지 유형이 있습니다.
 
-- [서비스 상태](https://status.office365.com/) -Microsoft 365, Office 365, 내부 IT 지원 부서에서 제공 합니다.
-- [관리 센터의 microsoft 365 보고서](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) -microsoft 365 또는 Office 365 [관리 센터-microsoft 팀 사용자 활동에 microsoft 365 보고서](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)를 표시 합니다. 조직 내 다른 시스템의 정보를 사용할 수도 있습니다.
-- 서비스 만족도 – 특정 환경에 대 한 내부 커뮤니티 포럼 및 설문 조사에서 수집
+- [서비스 상태](https://status.office365.com/) – Microsoft 365, Office 365 및 내부 IT 지원 부서에서
+- [관리 센터의 Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) 보고서 - 관리 센터의 Microsoft 365 또는 Office 365 보기 [Microsoft 365 보고서 - Microsoft Teams](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)사용자 활동. 조직 내의 다른 시스템의 정보를 사용할 수도 있습니다.
+- 서비스 만족도 - 내부 커뮤니티 포럼 및 특정 경험에 대한 설문 조사에서 수집
 
-![다음 단계를 나타내는 아이콘 ](media/teams-adoption-next-icon.png) (다음: [드라이브 인식 및 교육 구현](teams-adoption-drive-awareness.md) )
+![다음 단계를 나타내는 아이콘: 인식을 높이고 학습 ](media/teams-adoption-next-icon.png) [구현](teams-adoption-drive-awareness.md)

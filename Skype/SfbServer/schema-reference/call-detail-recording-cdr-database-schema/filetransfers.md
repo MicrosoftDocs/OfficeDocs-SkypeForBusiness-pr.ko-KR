@@ -1,8 +1,8 @@
 ---
 title: FileTransfers 보기
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,28 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: FileTransfer 보기는 피어 투 피어 파일 전송 세션에 대 한 정보를 저장 합니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: d650c04b8dada5828eed5d7bc3039cb77570ce2b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: FileTransfer 보기에는 피어 투 피어 파일 전송 세션에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
+ms.openlocfilehash: 8b3c2db012b8969bd4b5b75ca19ed090f8227c53
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815206"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821688"
 ---
 # <a name="filetransfers-view"></a>FileTransfers 보기
  
-FileTransfer 보기는 피어 투 피어 파일 전송 세션에 대 한 정보를 저장 합니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
+FileTransfer 보기에는 피어 투 피어 파일 전송 세션에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입했습니다.
   
 > [!NOTE]
-> FileTransfers 보기에는 [Sessiondetails 보기](sessiondetails-0.md) 의 모든 열과 아래에 나열 된 열이 포함 됩니다.
+> FileTransfers 보기에는 [SessionDetails](sessiondetails-0.md) 보기의 모든 열과 아래에 나열된 열이 포함되어 있습니다.
   
-|**열**|**데이터 형식**|**세부적인**|
+|**열**|**데이터 형식**|**세부 정보**|
 |:-----|:-----|:-----|
-|**이름이** <br/> |nvarchar (256)  <br/> |전송 된 파일의 이름입니다.  <br/> |
-|**쿠키란** <br/> |name  <br/> |모든 추가 작업 메시지를이 항목에 연결 된 것으로 식별 하는 데 사용 됩니다.  <br/> |
-|**FileIdentity** <br/> |uniqueidentifier  <br/> |동일한 파일 이름을 포함 하는 파일 전송을 구분 하는 고유 식별자입니다.  <br/> |
-|**사항** <br/> |다소  <br/> |TRUE 또는 NULL 일 수 있습니다. TRUE 인 경우 거부 및 취소는 NULL입니다.  <br/> |
-|**거부** <br/> |다소  <br/> |TRUE 또는 NULL 일 수 있습니다. TRUE 이면 Accept와 Cancel은 NULL입니다.  <br/> |
-|**취소** <br/> |다소  <br/> |TRUE 또는 NULL 일 수 있습니다. TRUE 이면 Accept 및 Reject는 NULL입니다.  <br/> |
+|**FileName** <br/> |nvarchar(256)  <br/> |전송된 파일의 이름입니다.  <br/> |
+|**쿠키** <br/> |nvarchar(128)  <br/> |이 항목과 연결 중인 모든 후속 작업 메시지를 식별하기 위해 사용됩니다.  <br/> |
+|**FileIdentity** <br/> |uniqueidentifier  <br/> |동일한 파일 이름을 포함하는 각 전송 작업을 구분하기 위한 고유 식별자입니다.  <br/> |
+|**수락** <br/> |bit  <br/> |TRUE 또는 NULL일 수 있습니다. TRUE인 경우 Reject 및 Cancel이 NULL이 됩니다.  <br/> |
+|**거부** <br/> |bit  <br/> |TRUE 또는 NULL일 수 있습니다. TRUE인 경우 Accept 및 Cancel이 NULL이 됩니다.  <br/> |
+|**취소** <br/> |bit  <br/> |TRUE 또는 NULL일 수 있습니다. TRUE인 경우 Accept 및 Reject가 NULL이 됩니다.  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: 디렉터 범위 노드
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 디렉터 풀 노드에 토폴로지의 디렉터 풀이 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: e1275b3cf6862fc9d065d992f953c383a843fd78
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 86a52e6016d6449e49eb067fe9ad9c3e51be896d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793826"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822618"
 ---
 # <a name="directors-scope-node"></a>디렉터 범위 노드
  
@@ -30,7 +30,7 @@ ms.locfileid: "41793826"
     
 디렉터 풀 옵션 외에 다음과 같은 일반적인 작업을 수행할 수 있습니다.
   
-- **토폴로지**. 이 옵션을 사용하여 새 토폴로지를 정의하거나, 기존 토폴로지를 열거나, 현재 토폴로지를 다운로드하거나, 토폴로지 복사본을 저장하거나, 토폴로지를 게시하거나, 데이터베이스를 설치하거나, 이전 버전의 구성 요소를 병합하거나 배포를 제거할 수 있습니다.
+- **토폴로지.** 이 옵션을 사용하여 새 토폴로지 정의, 기존 토폴로지 열기, 현재 토폴로지 다운로드, 토폴로지 복사본 저장, 토폴로지 게시, 데이터베이스 설치, 이전 버전의 구성 요소 병합 또는 배포 제거에 사용할 수 있습니다.
     
 - **보기**. 이 옵션을 사용하여 콘솔 트리 보기에 표시할 항목과 숨길 항목을 선택하여 토폴로지 작성기 보기를 사용자 지정할 수 있습니다.
     

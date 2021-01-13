@@ -1,8 +1,8 @@
 ---
-title: 게이트웨이 보기(가져오기 구성)
+title: 게이트웨이 보기(구성 가져오기)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 배포 된 게이트웨이에서 선택한 음성 구성 파일을 가져올 게이트웨이를 클릭 합니다.
-ms.openlocfilehash: 4d667ab0b22e8aa63f6f88dd2aa3f56ce87ee35f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 배포된 게이트웨이에서 선택한 음성 구성 파일을 가져올 게이트웨이를 클릭합니다.
+ms.openlocfilehash: fa62448fa1e4a718989128702fb010515e36cf18
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41792146"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820088"
 ---
-# <a name="view-gateways-import-configuration"></a>게이트웨이 보기(가져오기 구성)
+# <a name="view-gateways-import-configuration"></a>게이트웨이 보기(구성 가져오기)
  
-**배포 된 게이트웨이에서**선택한 음성 구성 파일을 가져올 게이트웨이를 클릭 합니다.
+**배포된 게이트웨이** 에서 선택한 음성 구성 파일을 가져올 게이트웨이를 클릭합니다.
   
  
   

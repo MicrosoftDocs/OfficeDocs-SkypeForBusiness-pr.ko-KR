@@ -1,14 +1,14 @@
 ---
-title: 온라인 전화 시스템 출시에 대 한 사용자 알림 전자 메일 서식 파일
-author: lanachin
-ms.author: v-lanac
+title: 온라인 전화 시스템 롤아웃을 위한 사용자 알림 전자 메일 템플릿
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 팀 또는 비즈니스용 Skype에서 클라우드 음성 기능을 구현할 때 서식 파일을 사용 하 여 전자 메일을 사용자에 게 보냅니다.
+description: Teams 또는 비즈니스용 Skype에서 클라우드 음성 기능을 구현할 때 서식 파일을 사용하여 사용자에게 전자 메일을 보낼 수 있습니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,20 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0382f8033d9faf925d5d5cd4023bf43e543b7b86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e224f12a2c2aa7f41ee772980ffea24a907197c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137518"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812648"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>새 온라인 휴대폰 시스템의 사용자 채택을 활용 하세요.
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>새 온라인 전화 시스템의 사용자 채택 용이성
 
-전화는 사용자의 수명선 일 수 있습니다. 기존 전화 시스템에서 온라인 전화기 시스템으로 전환 하는 것은 사용자의 업무 방식에 상당한 변화가 있으므로 생산성에 부정적인 영향을 미칠 수 있습니다. 이러한 변화를 통해 사용자에 게 알려주기, 가이드, 지원 등의 작업을 수행 하면 사용자 환경을 개선 하 고 투자 수익률을 최대화할 수 있습니다.
+휴대폰은 사용자의 수명선일 수 있습니다. 기존 전화 시스템에서 온라인 전화 시스템으로 전환하면 사용자가 작업하는 방식이 크게 달라지며 생산성에 부정적인 영향을 줄 수 있습니다. 이 변경을 통해 사용자에게 알리고, 안내하고, 지원할 시간을 확보하면 긍정적인 사용자 환경을 보장하고 투자 수익률을 최대화할 수 있습니다.
 
-이 문서에는 사용자에 게 새 전화 시스템에 대해 알려줄 수 있는 사용자 지정 가능한 전자 메일 서식 파일이 포함 되어 있습니다 적절 한 전자 메일을 사용자 지정 하 여 특정 음성 배포에 맞게 보냅니다. 간단한 개인 설정을 위해 섹션을 표시 하는 대괄호를 사용 했지만 사용자에 게 가장 적합 한 알림을 만들려면 조직 관련 메시징을 추가 하는 것이 좋습니다. 배포에 해당 되는 경우 "팀"에 대 한 모든 참조를 "비즈니스용 Skype"로 바꿉니다.
+이 문서에는 사용자에게 새 전화 시스템에 대해 알리는 데 도움이 되는 사용자 지정 가능한 전자 메일 서식 파일이 포함되어 있습니다. 특정 음성 배포에 맞게 적절한 전자 메일을 사용자 지정하고 전송합니다. 쉽게 개인 설정하기 위한 섹션을 나타내기 위해 대괄호를 사용했지만, 공지 사항을 사용자에게 가장 관련성이 높은 조직별 메시징을 추가하는 것이 좋습니다. 배포에 해당하는 경우 "Teams"에 대한 모든 참조를 "비즈니스용 Skype"로 바하세요.
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>전자 메일 번호 1: 시작 하기 전에 3 주가 보냄
+## <a name="email-number-1-send-three-weeks-before-launch"></a>전자 메일 번호 1: 시작 3주 전에 보내기
 
 제목 줄:
 
@@ -37,7 +37,7 @@ ms.locfileid: "43137518"
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-전자 메일의 본문:
+전자 메일 본문:
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,7 +94,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>전자 메일 번호 2: 시작 하기 전에 1 주 동안 보내기
+## <a name="email-number-2-send-one-week-before-launch"></a>전자 메일 번호 2: 시작 1주 전 보내기
 
 제목 줄:
 
@@ -102,7 +102,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-전자 메일의 본문:
+전자 메일 본문:
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>전자 메일 번호 3: 시작 시 보내기
+## <a name="email-number-3-send-on-launch-day"></a>전자 메일 번호 3: 시작일 보내기
 
 제목 줄:
 
@@ -146,7 +146,7 @@ Regards,
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-전자 메일의 본문:
+전자 메일 본문:
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,7 +175,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>전자 메일 번호 4: 시작 후 2 주 동안 보내기
+## <a name="email-number-4-send-two-weeks-after-launch"></a>전자 메일 번호 4: 시작 후 2주 보내기
 
 제목 줄:
 
@@ -183,7 +183,7 @@ Regards,
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-전자 메일의 본문:
+전자 메일 본문:
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

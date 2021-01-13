@@ -1,8 +1,8 @@
 ---
 title: 토폴로지 게시 다음 단계
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 토폴로지 게시가 완료 되 면 게시 마법사 완료 페이지가 표시 됩니다.
-ms.openlocfilehash: 0e837b2962446ce2d80e5589db737018f6a4cf1e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 토폴로지 게시를 완료하면 게시 마법사 완료 페이지가 표시됩니다.
+ms.openlocfilehash: 6fd650f5020507f3739576e7ef0db346c71aa739
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795439"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822228"
 ---
 # <a name="publish-topology-next-step"></a>토폴로지 게시 다음 단계
 
-토폴로지 게시가 완료 되 면 **게시 마법사 완료** 페이지가 표시 됩니다.
+토폴로지 게시를 완료하면 **게시 마법사 완료** 페이지가 표시됩니다.
 
-토폴로지 게시 프로세스 중에 단계를 완료 하면 수행 된 작업에 대 한 정보가 포함 된 로그가 만들어집니다. 지정 된 단계와 관련 된 로그 파일을 보려면 로그 파일을 검토 하는 데 필요한 단계를 선택한 다음 **로그 보기**를 클릭 합니다.
+토폴로지 게시 프로세스의 단계를 마침에 따라 수행된 작업에 대한 정보가 포함된 로그가 만들어집니다. 해당 단계에 관련된 로그 파일을 보려면 로그 파일을 검토해야 할 단계를 선택한 다음 **로그 보기** 를 클릭합니다.
 
 > [!NOTE]
-> 토폴로지 게시 프로세스 중 일부 단계에는 연결 된 로그 파일이 포함 되지 않습니다. 단계를 선택 하 고 **보기 로그** 를 사용할 수 있는 경우이 단계에서는 로그 파일을 만들었습니다. **로그 보기** 단추를 사용할 수 없는 경우 (회색으로 표시)이 단계에 대해 로그 파일이 만들어지지 않은 것입니다.
+> 토폴로지 게시 프로세스의 모든 단계에 관련된 로그 파일이 있는 것은 아닙니다. 단계를 선택하고 **로그 보기** 를 사용할 수 있는 경우 이 단계에서는 로그 파일이 만들어진 것입니다. **로그 보기** 단추를 사용할 수 없는 경우(회색으로 표시됨) 이 단계에 대해 만들어진 로그 파일이 없는 것입니다.
 
-토폴로지를 완료 하기 위해 제안 하는 다음 단계를 검토 하려면 **여기를 클릭 하 여 할 일 목록 열기**링크를 클릭 합니다. 이 링크를 클릭 하 여 연 텍스트 파일은 로컬 설정을 실행 하는 데 필요한 서버와 배포를 완료 하기 위해 수행 해야 하는 추가 단계를 나타냅니다. 나열 된 각 작업에 대해 배포 설명서의 해당 섹션을 참조 하세요.
+토폴로지 완료에 대해 제안된 다음 단계를 검토하려면 **할 일 목록을 열려면 여기를 클릭하십시오** 링크를 클릭합니다. 이 링크를 클릭하여 연 텍스트 파일에는 로컬 설치 프로그램을 실행해야 할 서버와 배포를 완료하기 위해 수행해야 할 추가 단계가 나와 있습니다. 나열된 각 작업에 대해서는 배포 설명서에서 적절한 섹션을 참조하십시오.
 
-**완료** 클릭
+**마침** 을 클릭합니다.
 
-자세한 내용은 [토폴로지 게시](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx)를 참조 하세요.
+자세한 내용은 [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx)를 참조하십시오.
 
 

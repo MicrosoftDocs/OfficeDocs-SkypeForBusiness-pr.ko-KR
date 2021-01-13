@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype 서버 2015의 제조업체 테이블
+title: 비즈니스용 Skype 서버의 Manufacturers 테이블
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
-description: 제조업체 테이블은 지원 테이블입니다. 각 레코드는 한 장치 (일반 전화기) 제조업체에 대 한 정보를 저장 합니다.
-ms.openlocfilehash: 9d7c23db061e5c307340c9a2d93a53d715de3b2e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Manufacturers 테이블은 지원 테이블입니다. 각 레코드에는 한 장치(책상 전화) 제조업체에 대한 정보가 저장됩니다.
+ms.openlocfilehash: f3cdd6e33732eb226cc2d99ff403495ac19f5567
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815106"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821488"
 ---
-# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 제조업체 테이블
+# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 Manufacturers 테이블
  
-제조업체 테이블은 지원 테이블입니다. 각 레코드는 한 장치 (일반 전화기) 제조업체에 대 한 정보를 저장 합니다.
+Manufacturers 테이블은 지원 테이블입니다. 각 레코드에는 한 장치(책상 전화) 제조업체에 대한 정보가 저장됩니다.
   
-|**열**|**데이터 형식**|**키/인덱스**|**세부적인**|
+|**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
-|**ManufacturerId** <br/> |int  <br/> |주요한  <br/> |이 제조업체를 식별 하는 고유 번호입니다.  <br/> |
-|**제조업체** <br/> |nvarchar (256)  <br/> | <br/> |제조업체 이름입니다.  <br/> |
+|**ManufacturerId** <br/> |int  <br/> |Primary  <br/> |이 제조업체를 식별하는 고유 번호입니다.  <br/> |
+|**제조업체** <br/> |nvarchar(256)  <br/> | <br/> |제조업체 이름입니다.  <br/> |
    
 

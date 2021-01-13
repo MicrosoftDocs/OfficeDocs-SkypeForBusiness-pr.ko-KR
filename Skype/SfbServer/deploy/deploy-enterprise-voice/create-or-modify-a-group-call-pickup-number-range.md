@@ -1,8 +1,8 @@
 ---
-title: 비즈니스용 Skype에서 그룹 통화 픽업 번호 범위 만들기 또는 수정
+title: 비즈니스용 Skype에서 그룹 통화 선택 번호 범위 만들기 또는 수정
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,48 +15,48 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-description: 비즈니스용 Skype Server Enterprise Voice에서 그룹 통화 픽업 번호 범위를 만들거나 수정 합니다.
-ms.openlocfilehash: 98fc59f12165e6299fafc5ed79797e6d25d151e3
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 비즈니스용 Skype 서버에서 그룹 통화 선택 번호 범위를 만들거나 Enterprise Voice.
+ms.openlocfilehash: f487c277b8eaa03a5b31ce0dc9696b0efe712340
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767881"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822408"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>비즈니스용 Skype에서 그룹 통화 픽업 번호 범위 만들기 또는 수정
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>비즈니스용 Skype에서 그룹 통화 선택 번호 범위 만들기 또는 수정
 
-비즈니스용 Skype Server Enterprise Voice에서 그룹 통화 픽업 번호 범위를 만들거나 수정 합니다.
+비즈니스용 Skype 서버에서 그룹 통화 선택 번호 범위를 만들거나 Enterprise Voice.
 
-그룹 통화 픽업는 통화 공원 응용 프로그램을 기반으로 합니다. 그룹 통화 픽업을 배포 하는 경우 통화 픽업 그룹 번호로 지정 된 전화 번호 범위를 사용 하 여 통화 공원 궤도 테이블을 구성 해야 합니다. 이러한 그룹 번호는 다른 사용자에 게 연결 되는 통화를 선택 하기 위해 사용자가 전화를 거는 번호입니다.
+그룹 통화 Pickup은 통화 파크 응용 프로그램을 기반으로 합니다. 그룹 통화 선택을 배포할 때 통화 Pickup 그룹 번호로 지정된 전화 번호 범위로 통화 파크 파선 번호 테이블을 구성해야 합니다. 이러한 그룹 번호는 사용자가 다른 사용자를 위해 울리는 전화를 걸기 위해 전화를 걸 수 있는 번호입니다.
 
-통화 공원 번호와 같은 통화 픽업 그룹 번호는 사용자 또는 전화가 할당 되지 않은 가상 확장명 이어야 합니다. 그룹 통화 픽업을 배포 하는 각 프런트 엔드 풀에는 하나 이상의 통화 픽업 그룹 번호 범위가 포함 될 수 있습니다. 그룹 번호 범위는 배포에서 전역적으로 고유 해야 하며 **Grouppickup** 유형으로 할당 해야 합니다.
+통화 걸기 그룹 번호와 마찬가지로, 통화 선택 그룹 번호는 사용자에게 할당된 사용자나 전화가 없는 가상 내선 번호가 아니어도 됩니다. 그룹 통화 선택을 배포하는 각 프런트 엔드 풀에는 하나 이상의 통화 선택 그룹 번호 범위가 있습니다. 그룹 번호 범위는 배포에서 전역적으로 고유해야 하며 **GroupPickup** 유형으로 할당해야 합니다.
 
-통화 공원 표에서 통화 픽업 그룹 번호 범위를 만들거나 수정 하려면 다음 절차를 사용 합니다.
+다음 절차에 따라 통화 파크 궤도 테이블에서 통화 선택 그룹 번호 범위를 만들거나 수정합니다.
 
 > [!NOTE]
-> 통화 공원 궤도 테이블에서 그룹 통화 픽업 번호 범위를 만들고, 수정 하 고, 제거 하 고, 표시 하려면 비즈니스용 Skype Server Management Shell을 사용 해야 합니다. 비즈니스용 Skype Server 제어판에서는 그룹 통화 픽업 번호 범위를 사용할 수 없습니다.
+> 비즈니스용 Skype 서버 관리 셸을 사용하여 통화 파크 파운데이트 테이블에서 그룹 통화 선택 번호 범위를 만들고, 수정하고, 제거하고, 보아야 합니다. 그룹 통화 선택 번호 범위는 비즈니스용 Skype 서버 제어판에서 사용할 수 없습니다.
 
-통화 픽업 그룹 번호 범위는 다음 규칙을 준수 해야 합니다.
+통화 선택 그룹 번호 범위는 다음 규칙을 준수해야 합니다.
 
 - 범위의 시작 번호는 범위의 마지막 번호보다 작거나 같아야 합니다.
 
 - 범위의 시작 번호 값 길이는 범위의 마지막 번호 길이와 같아야 합니다.
 
-- 번호 범위는 고유해야 합니다. 범위가 다른 범위와 겹쳐서는 안 됩니다.
+- 번호 범위는 고유해야 합니다. 이 범위는 다른 범위와 겹칠 수 없습니다.
 
-- 숫자 범위가 문자로 \* 시작 하는 경우 범위는 100 보다 커야 합니다.
+- 번호 범위가 문자나 #으로 시작하는 경우 범위는 \* 100보다 커야 합니다.
 
-- 유효한 값: 정규식 문자열과 일치 해야 합니다 ([\\* | #]? [ 1-9] \d{0,7}) | ([1-9] \d{0,8}). 즉, value는 문자 \* 또는 숫자 1부터 9까지 (첫 문자는 0이 될 수 없음)로 시작 하는 문자열 이어야 합니다. 첫 번째 문자가 \* or # 이면 다음 문자는 1부터 9 까지의 숫자 (0이 될 수 없음) 여야 합니다. 이후 문자는 0 ~ 9 개 까지의 추가 문자 (예: "#6000", "\*92000", "\*95551212", "915551212") 일 수 있습니다. 첫 문자 \* 를 입력 하는 경우 첫 번째 문자는 1 ~ 9 (0이 될 수 없음) 다음에 최대 8 자, 즉 각각 0 ~ 9 (예: "915551212", "41212", "300") 여야 합니다.
+- 유효한 값: 정규식 문자열과 일치해야 합니다([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d). {0,8} 즉, 값은 문자나 #으로 시작되는 문자열 또는 1에서 9까지의 숫자가 되어야 합니다. 첫 번째 문자는 \* 0이 될 수 없습니다. 첫 번째 문자가 #이면 다음 문자는 1에서 9까지의 숫자가 되어야 합니다. 이 문자는 \* 0이 될 수 없습니다. 이후 문자는 "#6000", \* "92000", \* "95551212" 및 "915551212"과 같은 최대 7자까지의 숫자를 사용할 수 있습니다. 첫 문자가 #이 아니거나 #이면 첫 번째 문자는 1에서 9까지의 숫자가 되어야 합니다(0일 수 없습니다). 그 다음에 0에서 9까지의 숫자를 입력할 수 있습니다(예: \* "915551212", "41212", "300").
 
-### <a name="to-create-or-modify-a-call-pickup-group-range"></a>통화 픽업 그룹 범위를 만들거나 수정 하려면
+### <a name="to-create-or-modify-a-call-pickup-group-range"></a>통화 선택 그룹 범위를 만들거나 수정하려면
 
-1. 비즈니스용 Skype 서버 관리 셸이 설치 되어 있는 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 **대리인 설정 권한에**설명 된 대로 필요한 사용자 권한으로 로그온 합니다.
+1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 위임 설치 권한에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 로그온합니다. 
 
-2. 비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.
+2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
 
-3. **New-CsCallParkOrbit** 를 사용 하 여 통화 픽업 그룹 번호의 새 범위를 만듭니다. **Set-CsCallParkOrbit** 를 사용 하 여 기존 통화 픽업 번호 범위를 수정 합니다.
+3. **New-CsCallParkOrbit를** 사용하여 새 통화 선택 그룹 번호를 만들 수 있습니다. **Set-CsCallParkOrbit를** 사용하여 기존 통화 선택 번호 범위를 수정합니다.
 
-    명령줄에서 다음을 실행 합니다.
+    명령줄에서 다음을 실행합니다.
 
    ```powershell
    New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup
@@ -68,19 +68,19 @@ ms.locfileid: "41767881"
    New-CsCallParkOrbit -Identity "Redmond call pickup" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1 -Type GroupPickup
    ```
 
-    다음 예제에서는 통화 공원 orbits에서 pickup 그룹으로 숫자 범위를 변경 하는 방법을 보여 줍니다.
+    다음 예에서는 통화 파크 궤도에서 Pickup 그룹으로 번호 범위를 변경하는 방법을 보여줍니다.
 
    ```powershell
    Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
    ```
 
     > [!IMPORTANT]
-    > 이 cmdlet을 사용 하 여 처음에 잘못 된 유형을 지정 하 고 그룹 범위가 아직 사용 되지 않은 경우에만 숫자 범위에 할당 된 유형을 변경할 수 있습니다. 번호 범위를 CallPark에서 GroupPickup으로 변경 하거나 그 반대의 경우 또는 그 반대로, 그리고 해당 번호 범위를 이미 사용 중인 경우에는 통화 공원 또는 그룹 통화 픽업이 해당 번호 범위에 대해 작동을 중지 합니다. 예를 들어, 번호 범위를 CallPark에서 GroupPick로 변경 하면 통화 공원 응용 프로그램이 더 이상 통화를 파킹 하기 위해 해당 orbits 범위를 사용할 수 없습니다.
+    > 이 cmdlet을 사용하여 처음에 잘못된 형식을 지정하고 그룹 범위가 아직 사용되지 않은 경우 번호 범위에 할당된 형식을 변경합니다. 번호 범위를 CallPark에서 GroupPickup으로 변경하거나 그 반대로 변경하고 번호 범위가 이미 사용 중이면 통화 파킹 또는 그룹 통화 선택이 해당 번호 범위에 대해 작동하지 않습니다. 예를 들어 번호 범위를 CallPark에서 GroupPick으로 변경하는 경우 통화 파킹된 응용 프로그램은 더 이상 해당 파킹된 통화 번호 범위를 사용하여 통화를 파킹할 수 없습니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[새로운 CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
 [Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[통화 공원 궤도 범위 삭제](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[통화 대기 파킹된 통화 번호 범위 삭제](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
