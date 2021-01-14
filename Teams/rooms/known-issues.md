@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 업데이트, 사용자 인터페이스, 하드웨어 및 제한 사항 및 예상 동작을 포함하여 Microsoft Teams 회의실에 대한 알려진 문제 목록에 대해 알 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c32e35f0ea95d81fcb597c18a12a8f48fe4c7b2
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: afa1bf4a2a4fdd36bd45d8b237998ec461dcc1f4
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662633"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865242"
 ---
 # <a name="known-issues"></a>알려진 문제 
  
@@ -35,6 +35,7 @@ ms.locfileid: "49662633"
 |  SfB 모임 콘텐츠 공유에 전체 화면이 표시되지 않습니다.         |    비즈니스용 Skype 모임에서 높은 DPI 설정을 사용하여 회의실 앞에 회의실이 표시될 경우 모임에 공유된 콘텐츠가 회의실 디스플레이 전면에 전체 화면이 표시되지 않는 문제가 있을 수 있습니다. 이는 Windows 10 RDP(원격 데스크톱 프로토콜) API의 기반 문제로 인해 발생했습니다. | `<WinRTRdpEnabled>`XML 설정을 사용하여 Windows 10 RDP API를 사용하지 않도록 설정하여 이 문제를 해결합니다. 사용하지 않도록 설정하려면 값을 으로 지정해야 `false` 합니다. 자세한 내용은 XML 구성 파일을 사용하여 콘솔 설정 [관리를 참조하세요.](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file) | 없음 |
 |  앱의 기간이 지난 경우         |    Microsoft Teams 회의실 콘솔에 "시스템 구성이 최신이 아니다." 오류가 표시됩니다.                |   [Microsoft Teams 회의실 복구 도구 사용](recovery-tool.md)             |  없음 |
 |  지원되지 않는 Windows 10 버전으로 디바이스 업데이트   |    Windows 10 디바이스가 버전 1803에서 버전 1809로 업데이트되었습니다. 이 디바이스는 지원되지 않습니다. 지원되는 버전은 1903입니다. |   지정된 일 수 동안 기능 업데이트를 연기할 수 있는 [DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) 설정에 대한 그룹 정책 또는 MDM 설정이 최대 365일로 설정되어 있는 경우 이 문제가 발생될 수 있습니다. <br><br> Windows 10 버전 1809는 Microsoft Teams 회의실에서 지원되지 않는 반면 버전 1903은 지원됩니다. 그러나 2020년 3월 27일을 현재 버전 1809는 365일이 넘습니다. 이 설정을 변경하지 않는 경우 Windows는 버전 1809를 설치하려고 시도하여 Microsoft Teams 회의실에 문제가 발생할 수 있습니다.<br><br>이 상황을 방지하려면 **업데이트** 연기에 대한 그룹 정책 또는 MDM 설정을 제거합니다. 이렇게 하면 Windows에서 지원되는 최신 OS 버전으로 업데이트할 수 있습니다. <br><br>**중요** 그룹 정책 또는 MDM  설정을 제거해야 합니다(구성되지 않은 왼쪽), **0으로 설정하지 않습니다.** 정책이 0으로 설정된 경우 Windows는 지원되지 않을 수 있는 사용 가능한 최신 버전을 사용하게 됩니다. |  없음 |
+|  Teams 모임에 참가할 수 없는 Cisco Room 장치   |    Cisco Room 장치에서 직접 게스트 조인을 사용하여 Teams 모임에 참가하는 데 실패하고 사용자가 참가를 선택하면 통화가 **종료됩니다.** |  Cisco Room 장치가 Teams 모임에 참가할 수 있는 Teams 웹 클라이언트의 변경으로 인해 이러한 회귀가 발생했습니다. 2020년 1월 15일까지 모든 테넌트에 배포될 이 문제의 픽스를 공개하고 있습니다. Cisco와 Microsoft는 향후 유사한 문제를 방지하기 위해 함께 작업하고 있습니다.   |  없음 |
 
 
 <a name="OS-conflicts"> </a>  
