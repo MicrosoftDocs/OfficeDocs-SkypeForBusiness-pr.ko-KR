@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams에서 정책 패키지를 사용 및 관리하여 사용자 그룹에 대한 정책을 관리할 때 일관성을 단순화하고, 간소화하고, 일관성을 제공하는 방법을 배워야 합니다.
-ms.openlocfilehash: 62250644d29f65a9c650db0e80477eec6baf4f3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9718751ea1d34692718b63cbe90ee6e694577c21
+ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49839455"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49862587"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams에서 정책 패키지 관리
 
@@ -64,8 +64,8 @@ Teams에는 현재 다음과 같은 정책 패키지가 포함되어 있습니�
 |교육(교사)    |교사에게 적용되는 정책 및 정책 설정 집합을 만듭니다.      |
 |교육(원격 학습을 사용하는 초등학교 교사)    |초등학교 교사에게 적용되는 정책 집합을 만들어 원격 학습을 사용할 때 학생의 보안 및 공동 작업을 극대화합니다.      |
 |교육(원격 학습을 사용하는 초등학교 학생)    |초등학교 학생에게 적용되는 정책 집합을 만들어 원격 학습을 사용할 때 학생의 보안 및 공동 작업을 극대화합니다.      |
-|일선 관리자 |정책 집합을 만들고 해당 설정을 조직의 일선 관리자에게 적용합니다. |
-|일선 작업자 |정책 집합을 만들고 조직의 일선 작업자에게 해당 설정을 적용합니다. |
+|프런트라인 관리자 |정책 집합을 만들고 조직의 Fronttline 관리자에게 해당 설정을 적용합니다. |
+|Fronttline Worker |정책 집합을 만들고 조직의 프런트라인 작업자에게 해당 설정을 적용합니다. |
 |의료 의료 의료진  |등록된 간호사, 간호사, 의사, 사회복지사와 같은 의료 근로자가 채팅, 통화, 교대 근무 관리 및 모임에 대한 모든 권한을 부여하는 정책 및 정책 설정 집합을 만듭니다. |
 |의료 정보 작업자  |IT 직원, 정보 보호 담당자, 재무 담당자 및 규정 준수 담당자와 같은 정보 근로자들에게 채팅, 통화 및 모임에 대한 모든 권한을 부여하는 정책 및 정책 설정 집합을 만듭니다.|
 |의료 환자실  |의료 조직의 환자 방에 적용되는 정책 및 정책 설정 집합을 만듭니다.|
