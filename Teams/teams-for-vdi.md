@@ -1,7 +1,7 @@
 ---
 title: VDI(Virtualized Desktop Infrastructure)용 Teams
-author: cichur
-ms.author: v-cichur
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687726febc81a727c4f6da4824487672c602809e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 52c3a4fd1f8ce3871874468590662f223520dc07
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820988"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868353"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -120,10 +120,12 @@ VDI 환경에서 Teams AV 최적화가 제대로 작동하려면 씬 클라이�
 
 비영구적 설치의 경우 Teams 데스크톱 앱이 골든 이미지에 컴퓨터당 설치되어야 합니다. (자세한 내용은 [VDI에서 Teams](#install-or-update-the-teams-desktop-app-on-vdi) 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.) 이렇게 하면 사용자 세션 중에 Teams 앱을 효율적으로 실행합니다.
 
-비영구적 설정으로 Teams를 사용하려면 효율적인 Teams 런타임 데이터 동기화를 위해 프로필 캐싱 관리자도 필요합니다. 이렇게 하면 사용자 세션 중에 적절한 사용자별 정보(예: 사용자 데이터, 프로필 및 설정)가 캐시됩니다. 이러한 두 폴더의 데이터가 동기화된지 확인합니다.  
-
+비영구 설정에서 Teams를 사용하려면 효율적인 Teams 런타임 데이터 동기화를 위해 프로필 캐싱 관리자도 필요합니다. 효율적인 데이터 동기화는 사용자의 세션 중에 적절한 사용자별 정보(예: 사용자의 데이터, 프로필 또는 설정)가 캐시되도록 합니다. 다음 두 폴더의 데이터가 동기화된지 확인합니다.<br>
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache(%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
+
+> [!NOTE]
+> 로밍 폴더(또는 폴더 리디렉션을 사용하는 경우 캐싱 관리자)는 Teams 앱에 애플리케이션을 실행하는 데 필요한 런타임 데이터 및 파일이 있도록 하는 데 필요합니다. 이는 네트워크 대기 시간 문제 또는 네트워크 오류를 완화하는 데 필요하며, 그렇지 않으면 애플리케이션 오류가 발생하고 사용할 수 없는 데이터 및 파일로 인해 환경이 느려질 수 있습니다.
 
 다양한 캐싱 관리자 솔루션을 사용할 수 있습니다. 예를 들어 [FSLogix입니다.](https://docs.microsoft.com/fslogix/overview) 특정 구성 지침은 캐싱 관리자 공급자에게 문의하세요.
 

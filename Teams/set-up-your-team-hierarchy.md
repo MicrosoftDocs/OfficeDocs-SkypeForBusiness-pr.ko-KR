@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06244553c051677533d275ad6cd47052775d01f7
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 0c5a0fcdce1218bc32eac8b28e7a8c1f41e87cb0
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865252"
+ms.locfileid: "49868343"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 계층 구조 설정
 
-팀 대상 계층 구조를 설정하면 조직에서 대규모 팀 집합에 콘텐츠를 게시할 수 있습니다. 팀 대상 계층 구조는 계층 구조의 모든 팀이 서로 관련되는 방식, 사용자가 작업을 게시할 수 있는 사용자 및 게시 권한이 있는 팀을 정의합니다. 게시 기능은 조직에 대해 팀 대상 계층 구조를 설정하지 않는 한 모든 사용자에 대해 비활성화됩니다. 계층 구조를 대상으로 하는 팀을 설정하려면 계층 구조를 정의하는 파일을 만든 다음 Teams에 업로드하여 조직에 적용해야 합니다. 스마마가 업로드된 후 Teams 내의 앱에서 사용할 수 있습니다. 여기서 스크립트를 사용하여 계층 구조를 설정하고 Teams 테넌트에 업로드하는 연습을 할 수 [있습니다.](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#Create-a-sample-hierarchy)
+팀 대상 계층 구조를 설정하면 조직에서 대규모 팀 집합에 콘텐츠를 게시할 수 있습니다. 팀 대상 계층 구조는 계층 구조의 모든 팀이 서로 관련되는 방식, 사용자가 작업을 게시할 수 있는 사용자 및 게시 권한이 있는 팀을 정의합니다. 게시 기능은 조직에 대해 팀 대상 계층 구조를 설정하지 않는 한 모든 사용자에 대해 비활성화됩니다. 계층 구조를 대상으로 하는 팀을 설정하려면 계층 구조를 정의하는 파일을 만든 다음 Teams에 업로드하여 조직에 적용해야 합니다. 스마마가 업로드된 후 Teams 내의 앱에서 사용할 수 있습니다.
 
 > [!IMPORTANT]
 > 초기 릴리스의 경우 작업 앱만 계층적 팀을 지원합니다.  조직에 팀 대상 계층 구조를 적용하면 작업 앱에서 작업을 [게시할](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 수 있습니다. Microsoft Teams의 다른 영역에는 팀 계층 구조가 없습니다.

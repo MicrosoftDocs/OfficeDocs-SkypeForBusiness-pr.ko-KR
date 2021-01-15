@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: francoid
+ms.reviewer: lsomi
 description: 사용자가 Teams에서 모임을 만들 수 있는 모임 우선에 대해 알아보고 채팅, 통화, 현재 상태 등 비즈니스용 Skype를 계속 사용할 수 있습니다.
 localization_priority: Normal
 search.appverid: MET150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34b32a1d421941e4e9c3bd743c5db1026d88a2ac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c4e4eba45e7f6719b1fb3427ebd169b69a1e86c9
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809508"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871079"
 ---
 # <a name="meetings-first"></a>무엇보다도 모임을 우선으로
 
@@ -32,7 +32,7 @@ ms.locfileid: "49809508"
 
 ## <a name="what-is-meetings-first"></a>모임 우선이란?
 
-모임 우선은 **SfBWithTeamsCollabAndMeetings** 공존 모드를 기반으로 합니다. 모임 우선은 제품이나 기능이 아니며, Teams 및 비즈니스용 Skype의 기능과 기능을 활용하여 고유한 맞춤형 공존 환경을 제공하는 구성입니다.
+모임 우선은 **SfBWithTeamsCollabAndMeetings** 공존 모드를 기반으로 합니다. 모임 우선은 제품이나 기능이 아니며, Teams 및 비즈니스용 Skype의 기능 및 기능을 사용하여 고유한 맞춤형 공존 환경을 제공하는 구성입니다.
 
 모임 우선에서 사용자는 Teams에서 모임을 만들고 채팅, 통화, 현재 상태 등 비즈니스용 Skype를 계속 사용할 수 있습니다. Teams와 비즈니스용 Skype 간에는 겹치는 겹치지 않습니다. 채팅, 통화, 현재 상태는 비즈니스용 Skype 및 Teams에서 해제됩니다. 이를 통해 비즈니스용 Skype와 Teams 간에 고유한 "더 나은" 시나리오를 사용할 수 있으며, 이 시나리오는 Teams만 사용자와의 상호 연동성 시나리오뿐만 아니라 공존하는 동안 사용자의 경험을 향상할 **수 있습니다.**
 
