@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e334269dd31b876dd18b62a9b61ae1b583c504
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: a5eb43301dc86fce6ef4e1f383c54d5c6902e871
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790530"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871089"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 
@@ -69,7 +69,7 @@ Teams의 사용자 활동 피드에 제안된 피드를 표시할지 여부를 �
 
 #### <a name="email-integration"></a>전자 메일 통합
 
-사용자가 채널 전자 메일 주소를 사용하여 Teams의 채널에 전자 메일을 보낼 수 있도록 하려면 이 기능을 켭니다. 사용자는 자신이 소유한 팀에 속한 모든 채널에 대해 이 작업을 수행할 수 있습니다. 사용자는 Teams 구성원을 위해 커넥터 추가를 설정한 팀의 모든 채널로 전자 메일을 보낼 수도 있습니다. 전자 메일 통합을 설정하려면 **사용자가 채널 전자 메일 주소에 전자 메일을 보낼 수 있도록 허용** 이 **켬** 인지 확인합니다.
+사용자가 채널 전자 메일 주소를 사용하여 Teams의 채널에 전자 메일을 보낼 수 있도록 하려면 이 기능을 켭니다. 사용자는 자신이 소유한 팀에 속한 모든 채널에 대해 이 작업을 수행할 수 있습니다. 사용자는 Teams 구성원을 위해 커넥터 추가를 설정한 팀의 모든 채널로 전자 메일을 보낼 수도 있습니다. 전자 메일 통합을 설정하려면 **사용자가 채널 전자 메일 주소에 전자 메일을 보낼 수 있도록 허용** 이 **켬** 인지 확인합니다. 그런 다음 Teams 관리 센터> 조직 전체 설정> 팀 설정> 전자 메일 통합> **이러한 SMTP 도메인의 채널 전자 메일 수락** 에서 보낸 사람의 전자 메일 주소에 대한 도메인이 차단되지 않았는지 확인합니다. 비어 있거나 전자 메일을 받을 것으로 예상되는 모든 도메인을 포함해야 합니다. 다음으로 [Teams 채널 전자 메일 주소에 대한 전자 메일이 차단되지 않도록](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies) 하는 데 필요한 규칙이 있는지 확인해야 합니다.
 
 #### <a name="files"></a>파일
 
@@ -110,10 +110,10 @@ Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 
 다음과 같은 공존 모드를 지정할 수 있습니다. 
 
 - **Teams 전용**
-- **Islands** (Teams와 비즈니스용 Skype의 공존)
+- **Islands**(Teams와 비즈니스용 Skype의 공존)
 - **비즈니스용 Skype 전용**
-- **Teams 공동 작업이 포함된 비즈니스용 Skype** (사용자는 비즈니스용 Skype로 채팅 및 통화를 받고 모임을 예약하지만 그룹 공동 작업을 위해 Teams를 사용함)
-- **Teams 공동 작업 및 모임이 포함된 비즈니스용 Skype** (사용자는 비즈니스용 Skype로 채팅 및 통화를 받지만, 그룹 공동 작업 및 모임 예약을 위해 Teams를 사용함)
+- **Teams 공동 작업이 포함된 비즈니스용 Skype**(사용자는 비즈니스용 Skype로 채팅 및 통화를 받고 모임을 예약하지만 그룹 공동 작업을 위해 Teams를 사용함)
+- **Teams 공동 작업 및 모임이 포함된 비즈니스용 Skype**(사용자는 비즈니스용 Skype로 채팅 및 통화를 받지만, 그룹 공동 작업 및 모임 예약을 위해 Teams를 사용함)
 
 선택하는 공존 모드는 수신 통화 및 채팅의 라우팅과 사용자가 채팅 및 통화를 시작하거나 모임을 예약하는 데 사용하는 앱을 결정합니다. 공존 모드에 대한 자세한 내용은 [Microsoft Teams와 비즈니스용 Skype의 공존 및 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md)로 이동하세요.
 
