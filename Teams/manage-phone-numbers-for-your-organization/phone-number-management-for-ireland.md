@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 Microsoft Teams용 아일랜드에서 전화 번호를 받고 관리하는 방법을 찾을 수 있습니다.
-ms.openlocfilehash: 8795dd57e165f354318d780da1ccee4d87cff9a4
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+ms.openlocfilehash: 0526bd1827f838298a86498d93c3e24acb0e38be
+ms.sourcegitcommit: 8703d668949ae2004f8a9e576f5ffc9e3158db0e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868293"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876712"
 ---
 # <a name="phone-number-management-for-ireland"></a>아일랜드의 전화 번호 관리
 
-이 표를 사용하여 Microsoft Teams용 아일랜드에서 전화 번호를 받고 관리하는 방법을 찾을 수 있습니다. 
+이 표를 사용하여 Microsoft Teams용 아일랜드에서 전화 번호를 받고 관리하는 방법을 찾을 수 있습니다.
   
 자세한 내용은 조직의 전화 [번호 관리를 참조하세요.](manage-phone-numbers-for-your-organization.md)
   
