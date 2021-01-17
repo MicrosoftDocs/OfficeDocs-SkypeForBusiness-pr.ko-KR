@@ -256,6 +256,8 @@
               href: rooms/rooms-prep.md
             - name: 요구 사항
               href: rooms/requirements.md
+            - name: 보안
+              href: rooms/security.md
             - name: 온라인 라이선싱
               href: rooms/rooms-licensing.md
             - name: Azure 모니터를 사용한 계획 관리
@@ -354,6 +356,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Teams에서 화이트보드 관리
       href: manage-whiteboard.md
+    - name: Google Workspace용 Teams 모임 추가 기능 설정
+      href: google-workspace-addon-teams.md
     - name: 오디오 회의
       items:
         - name: 배포 계획
