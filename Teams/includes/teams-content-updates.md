@@ -3,6 +3,38 @@
 
 
 
+## <a name="week-of-january-11-2021"></a>2021년 1월 11일 주
+
+
+| 게시일 |주제 제목 | 변경 |
+|------|------------|--------|
+| 1/11/2021 | [Microsoft Teams의 민감도 레이블](/MicrosoftTeams/sensitivity-labels) | 수정 |
+| 1/11/2021 | [Microsoft Teams에서 파일 및 폴더 공유](/MicrosoftTeams/sharing-files-in-teams) | 수정 |
+| 1/12/2021 | [Microsoft Teams용 전화 및 장치](/MicrosoftTeams/devices/usb-devices) | 수정 |
+| 1/12/2021 | [Teams 연락처 센터](/MicrosoftTeams/teams-contact-center) | 수정 |
+| 1/12/2021 | [비즈니스용 Skype에서 Teams로 업그레이드 FAQ](/MicrosoftTeams/faq-journey) | 수정 |
+| 1/12/2021 | [직접 라우팅 - 아날로그 디바이스 연결](/MicrosoftTeams/direct-routing-analog-devices) | 수정 |
+| 1/12/2021 | [Microsoft Teams 서비스 \| 관리 \| 품질 운영](/MicrosoftTeams/upgrade-operate-my-service) | 수정 |
+| 1/13/2021 | [정책을 사용하여 팀 관리](/MicrosoftTeams/manage-teams-with-policies) | 추가 |
+| 1/13/2021 | [Microsoft Teams 룸 관리](/MicrosoftTeams/rooms/rooms-manage) | 수정 |
+| 1/13/2021 | [팀 대상 계층 구조 설정](/MicrosoftTeams/set-up-your-team-hierarchy) | 수정 |
+| 1/13/2021 | [통신 크레딧이란?](/MicrosoftTeams/what-are-communications-credits) | 수정 |
+| 1/13/2021 | [알려진 문제](/MicrosoftTeams/rooms/known-issues) | 수정 |
+| 1/13/2021 | [Microsoft Teams의 Teams 및 채널 개요](/MicrosoftTeams/teams-channels-overview) | 수정 |
+| 1/14/2021 | [아일랜드의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 수정 |
+| 1/14/2021 | [이탈리아의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | 수정 |
+| 1/14/2021 | [영국의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 수정 |
+| 1/14/2021 | [팀 대상 계층 구조 설정](/MicrosoftTeams/set-up-your-team-hierarchy) | 수정 |
+| 1/14/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정 |
+| 1/14/2021 | [조직에 대한 설정 관리](/MicrosoftTeams/enable-features-office-365) | 수정 |
+| 1/14/2021 | [모임 우선 - Microsoft Teams](/MicrosoftTeams/meetings-first) | 수정 |
+| 1/14/2021 | [Microsoft Teams에 대한 사용자 액세스 관리](/MicrosoftTeams/user-access) | 수정 |
+| 1/15/2021 | [아일랜드의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 수정 |
+| 1/15/2021 | [네덜란드의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 수정 |
+| 1/15/2021 | [Google Workspace용 Microsoft Teams 모임 추가 기능 설정](/MicrosoftTeams/google-workspace-addon-teams) | 추가 |
+| 1/15/2021 | [Microsoft Teams 회의실 보안](/MicrosoftTeams/rooms/security) | 추가 |
+
+
 ## <a name="week-of-january-04-2021"></a>2021년 1월 4일 주
 
 
@@ -32,14 +64,23 @@
 | 1/8/2021 | [안전한 학습을 위한 정책을 쉽게 적용하기 위한 교육용 Teams 정책 마법사](/MicrosoftTeams/easy-policy-setup-edu) | 수정 |
 
 
+## <a name="week-of-december-28-2020"></a>2020년 12월 28일 주
+
+
+| 게시일 |주제 제목 | 변경 |
+|------|------------|--------|
+| 12/28/2020 | [게스트 사용자 정보 편집](/MicrosoftTeams/edit-guests-information) | 수정 |
+
+
 ## <a name="week-of-december-21-2020"></a>2020년 12월 21일 주
 
 
 | 게시일 |주제 제목 | 변경 |
 |------|------------|--------|
+| 12/21/2020 | [통화 요금제에 대해 지원되는 요금 센터 및 적용 범위](/MicrosoftTeams/phone-number-calling-plans/supported-rate-centers-coverage-matrix) | 추가 |
 | 12/22/2020 | [Microsoft Teams 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 수정 |
 | 12/22/2020 | [Teams에서 회의실 사용](/MicrosoftTeams/using-breakout-rooms) | 수정 |
-| 12/23/2020 | [환자 앱을 FHIR용 Azure API에 연결](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 수정 |
+| 12/23/2020 | [Microsoft Teams 회의실 장치를 수동으로 업데이트](/MicrosoftTeams/rooms/manual-update) | 추가 |
 | 12/23/2020 | [조직의 목록 앱 관리](/MicrosoftTeams/manage-lists-app) | 수정 |
 | 12/23/2020 | [온보드 검사 목록 - 클라우드 음성 워크로드 구성 - Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | 수정 |
 | 12/23/2020 | [Teams 앱 제출 API를 사용하여 사용자 지정 앱 제출 및 승인](/MicrosoftTeams/submit-approve-custom-apps) | 수정 |
@@ -47,39 +88,3 @@
 | 12/23/2020 | [SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 수정 |
 | 12/23/2020 | [Microsoft Teams 서비스 \| 관리 \| 품질 운영](/MicrosoftTeams/upgrade-operate-my-service) | 수정 |
 | 12/23/2020 | [Advisor for Teams를 사용하여 Microsoft Teams 배포](/MicrosoftTeams/use-advisor-teams-roll-out) | 수정 |
-
-
-## <a name="week-of-december-14-2020"></a>2020년 12월 14일 주
-
-
-| 게시일 |주제 제목 | 변경 |
-|------|------------|--------|
-| 12/15/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
-| 12/15/2020 | [Teams 회의실 장치가 타사 모임에 참가할 수 있도록 설정](/MicrosoftTeams/rooms/third-party-join) | 수정 |
-| 12/15/2020 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 수정 |
-| 12/15/2020 | [Microsoft Teams에서 음성 솔루션 계획](/MicrosoftTeams/cloud-voice-landing-page) | 수정 |
-| 12/15/2020 | [Microsoft Teams의 Cortana 음성 지원](/MicrosoftTeams/cortana-in-teams) | 수정 |
-| 12/15/2020 | [직접 라우팅 로컬 미디어 최적화](/MicrosoftTeams/direct-routing-media-optimization) | 수정 |
-| 12/15/2020 | [비즈니스용 Skype-프레미스 배포에서 Teams로 업그레이드할 때 PSTN 고려 사항](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | 수정 |
-| 12/16/2020 | [Teams 자동 전화 회의 및 통화 큐 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 수정 |
-| 12/16/2020 | [Microsoft Teams에서 음성 솔루션 계획](/MicrosoftTeams/cloud-voice-landing-page) | 수정 |
-| 12/16/2020 | [차원 및 측정 - CQD(통화 품질 대시보드)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정 |
-| 12/16/2020 | [직접 라우팅 구성](/MicrosoftTeams/direct-routing-configure) | 수정 |
-| 12/16/2020 | [Microsoft Teams 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 수정 |
-| 12/16/2020 | [통화 플랜 설정](/MicrosoftTeams/set-up-calling-plans) | 수정 |
-| 12/16/2020 | [조직에서 전화 시스템 설정](/MicrosoftTeams/setting-up-your-phone-system) | 수정 |
-| 12/16/2020 | [Azure Sentinel 및 Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | 수정 |
-| 12/16/2020 | [Teams용 Microsoft 365에서 오디오 회의 시도 또는 구매](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 수정 |
-| 12/16/2020 | [Teams 음성 Contoso 사례 연구](/MicrosoftTeams/voice-case-study-overview) | 수정 |
-| 12/17/2020 | 비즈니스용 Skype에서 Teams로 업그레이드 FAQ | 제거됨 |
-| 12/17/2020 | [Microsoft Teams용 전화 및 장치](/MicrosoftTeams/devices/usb-devices) | 수정 |
-| 12/17/2020 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
-| 12/17/2020 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정 |
-| 12/17/2020 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 수정 |
-| 12/18/2020 | [Teams 연락처 센터](/MicrosoftTeams/teams-contact-center) | 수정 |
-| 12/18/2020 | [Teams용 전화 및 장치](/MicrosoftTeams/devices/teams-ip-phones) | 수정 |
-| 12/18/2020 | [Microsoft Teams용 전화 및 장치](/MicrosoftTeams/devices/usb-devices) | 수정 |
-| 12/18/2020 | [안전한 학습을 위한 정책을 쉽게 적용하기 위한 교육용 Teams 정책 마법사](/MicrosoftTeams/easy-policy-setup-edu) | 수정 |
-| 12/18/2020 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 수정 |
-| 12/18/2020 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정 |
-| 12/18/2020 | [다이얼 플랜이 무엇인가요?](/MicrosoftTeams/what-are-dial-plans) | 수정 |
