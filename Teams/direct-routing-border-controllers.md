@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 관리자는 직접 라우팅에 대해 인증된 SBC(세션 테두리 컨트롤러)에 대해 자세히 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 256451e778ed0e5864a7144003d44eb7ffc28767
-ms.sourcegitcommit: b8e697d52dcedace66cec2a06a5bd9889a780623
+ms.openlocfilehash: 8d5d94a2e15ea9e792cd9c8efbfacc53b9f47f92
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49782541"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909542"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -33,12 +33,12 @@ Microsoft는 각 공급업체와 협력하여
 
 - SIP 상호 연결 프로토콜에서 공동으로 작업합니다.
 - 타사 랩을 사용하여 강력한 테스트를 수행합니다. 테스트를 통과하는 디바이스만 인증됩니다. 
-- 프로덕션 및 사전 프로덕션 환경에서 모든 인증된 디바이스를 통해 매일 테스트를 실행합니다. 프로덕션 전 환경에서 디바이스의 유효성을 검사하면 클라우드의 새 버전의 직접 라우팅 코드가 인증된 SBC와 함께 작동하게 됩니다. 
+- 프로덕션 및 사전 프로덕션 환경에서 모든 인증된 디바이스를 통해 매일 테스트를 실행합니다. 프로덕션 전 환경에서 디바이스의 유효성을 검사하면 클라우드의 새 버전의 직접 라우팅 코드가 인증된 SBC에서 작동할 수 있습니다. 
 - SBC 공급업체와 공동 지원 프로세스를 수립합니다.
 
 
   > [!NOTE]
-  > Microsoft는 인증된 디바이스 또는 디바이스가 직접 라우팅을 통해 연결된 경우 전화 시스템만 지원합니다. Microsoft는 인증되지 않은 디바이스가 직접 라우팅을 통해 전화 시스템에 연결된 지원 사례를 거부할 수 있는 권리가 있습니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 디바이스와 관련이 있는 것으로 판단되는 경우 고객은 SBC 공급업체에 지원을 요청해야 합니다.
+  > Microsoft는 인증된 디바이스 또는 디바이스가 직접 라우팅을 통해 연결된 경우 전화 시스템만 지원합니다. Microsoft는 인증되지 않은 디바이스가 직접 라우팅을 통해 전화 시스템에 연결된 지원 사례를 거부할 수 있는 권리가 있습니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 디바이스에 있는 것으로 판단되는 경우 고객은 SBC 공급업체에 지원을 요청해야 합니다.
 
 아래 표에는 직접 라우팅에 대해 인증된 디바이스가 나열됩니다. (로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 직접 라우팅에 대한 로컬 미디어 최적화 [구성을 참조하세요.)](direct-routing-media-optimization-configure.md)
 
@@ -46,7 +46,7 @@ Microsoft는 각 공급업체와 협력하여
 <br/>
 <br/>
 
-|                                                       공급업체                                                        |       제품       | 비 미디어 우회 | 미디어 바이패스 | 소프트웨어 버전 | E911 공급자로 유효성 검사 | ELIN 지원
+|                                                       공급업체                                                        |       제품       | 비미디어 우회 | 미디어 바이패스 | 소프트웨어 버전 | E911 공급자를 사용하여 유효성 검사 | ELIN 지원
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [오디오 코드](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  지원되는 7.20A.250(권장 7.20A.258)   | <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul> |  &#10004;  |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  지원되는 7.20A.250(권장 7.20A.258)   | <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |
@@ -71,7 +71,7 @@ Microsoft는 각 공급업체와 협력하여
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>   |  &#10004;  |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      지원되는 3.20(권장 4.0)        |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>   |    |    
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      지원되는 3.20(권장 4.0)        |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>   |  &#10004;   |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 시리즈 통합 서비스 라우터용 Cisco CUBE(통합 테두리 요소)        |     &#10004;   |  |      IOS XE 암스테르담 17.2.1r      |    <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
 |                                   |     4000 시리즈 통합 서비스 라우터용 Cisco CUBE(통합 테두리 요소)        |     &#10004;   |  |      IOS XE 암스테르담 17.2.1r      |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS(Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[인트라도 응급 게이트웨이(EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  

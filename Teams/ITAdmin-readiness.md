@@ -19,16 +19,16 @@ ms.custom:
 description: 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 기타 리소스입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b3aac3aa5678608a4020b603026401d8cf8e6b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 33519f6873d2c2479f01dc6a408f279e47e35718
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809388"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49908932"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams에 대한 관리자 교육 시작
 
-교육 리소스를 사용하여 Teams에 대해 교육하거나 다른 사용자들에게 교육하거나 워크샵을 운영할 수 있습니다. 새 콘텐츠는 여기를 자주 다시 확인해 세요.
+교육 리소스를 사용하여 Teams에 대해 교육하거나 다른 사용자들에게 교육하거나 워크샵을 운영할 수 있습니다. 새 콘텐츠는 자주 여기에서 다시 확인해 세요.
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
@@ -72,19 +72,19 @@ ms.locfileid: "49809388"
 
 <h2>대화형 가이드</h2>
 
-| 제목                                                                       | 요약                                                                                                                                                                                                               |  가이드에 대한 링크                             |
+| 제목                                                                       | 요약                                                                                                                                                                                                               |  가이드에 연결                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Teams용 ID, 액세스 & 위협 방지                   | Microsoft 관리 센터 및 PowerShell을 사용하여 액세스 및 ID 정책을 구성하고 Teams에 Office 365 Advanced Threat Protection을 사용하도록 설정하는 방법을 배우기                                                            | [Teams 보안 가이드](https://aka.ms/teamsesecurityinteractiveguide)         |
 | Teams에서 규정 준수 관리                                                | Microsoft 365 보안, Microsoft 365 규정 준수 및 Microsoft Teams 관리 센터를 Windows PowerShell Office 365 조직의 Microsoft Teams 정책 및 설정을 관리하고 구성할 수 있습니다. | [Teams의 규정 준수 관리 가이드](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Advisor: Microsoft Teams에서 채팅, 팀, 채널 및 앱 배포 | Teams 고문을 활용하여 환경을 평가하고 채팅, 팀, 채널 및 앱을 배포하기 위한 계획을 작성하는 방법에 대해 배워야 합니다.                                                                                         |  [Teams Advisor 가이드](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell 및 동적 그룹을 통해 Teams 관리 간소화        | Office 365 그룹을 정적 멤버 자격에서 동적 멤버 자격으로 변환하고 Windows PowerShell 새 앱 사용 권한 정책을 모든 구성원에게 할당합니다.                                                                         |  [Teams 관리 가이드 간소화](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Microsoft Teams 관리 센터에서 Teams 및 게스트 액세스 관리         | 조직의 Microsoft Teams 및 게스트 액세스를 구성하고 관리하는 방법을 배워야 합니다.                                                                                                                              | [Teams 및 게스트 액세스 가이드 관리](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
-| Teams 전화 시스템 구성: 자동 전화 교환 & 큐 구성                   | 통화 큐를 만들고 배포하는 프로세스를 단계적으로 자동 전화 교환 Microsoft Teams 관리 센터를 사용하여 Microsoft Teams 통화의 일부로 추가합니다.                                                          |  [Teams 전화 시스템 가이드 구성](https://aka.ms/TeamsPhoneInteractiveGuide)             |
+| Teams 전화 시스템 구성: 자동 전화 교환 & 큐 구성                   | 통화 큐를 만들고 배포하는 프로세스를 단계적으로 자동 전화 교환 Microsoft Teams 관리 센터를 사용하여 Microsoft Teams 통화의 일부로 사용할 수 있습니다.                                                          |  [Teams 전화 시스템 가이드 구성](https://aka.ms/TeamsPhoneInteractiveGuide)             |
 | 직접 라우팅 구성: SBC 및 음성 라우팅 연결                 | Microsoft Teams 전화 시스템 직접 라우팅을 사용하여 기존 전화 통신 인프라와 통합합니다.                                                                                                              | [직접 라우팅 가이드 구성](https://aka.ms/DirectRoutingInteractiveGuide)          |
-| Microsoft Teams에서 거버넌스 구성                                     | 조직에 대한 Teams 메시징 보존 정책을 만드는 방법 및 개별 Teams를 보관, 삭제 및 복원하는 방법에 대해 자세히 알아보기                                                                                   |  [Microsoft Teams에서 거버넌스 구성 가이드](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
+| Microsoft Teams에서 거버넌스 구성                                     | 조직에 대한 Teams 메시징 보존 정책을 만드는 방법 및 개별 Teams를 보관, 삭제 및 복원하는 방법을 배워야 합니다.                                                                                   |  [Microsoft Teams에서 거버넌스 구성 가이드](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Microsoft Teams 모임 구성 및 배포                          | Microsoft Teams에 대한 모임 워크로드를 배포하는 프로세스를 단계적으로 진행합니다.                                                                                                                                       |  [Microsoft Teams 모임 구성 및 배포 가이드](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Microsoft Teams에 대한 오디오 회의 구성                            | Teams의 오디오 회의 기능을 알아보고 전화 회의 브리지 및 전화 접속 전화 번호를 할당하는 방법을 배워보는 방법을 배워보는 것이 가장 능동적입니다.                                                                                          |  [Microsoft Teams용 오디오 회의 구성 가이드](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| 일선 작업자를 위한 Microsoft Teams 구성                           | Firstline Workforce에 적합한 Microsoft Teams 환경을 구성하고 배포하는 방법을 배워야 합니다.                                                                                                                  | [일선 작업자를 위한 Microsoft Teams 구성 가이드](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 일선 작업자를 위한 Microsoft Teams 구성                           | Frontline Workforce에 적합한 Microsoft Teams 환경을 구성하고 배포하는 방법을 배워야 합니다.                                                                                                                  | [일선 작업자를 위한 Microsoft Teams 구성 가이드](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>빠른 시작 가이드</h2>
 

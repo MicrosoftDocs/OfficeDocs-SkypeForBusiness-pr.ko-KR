@@ -18,16 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4326408b7e27aa19af8e6c404d7275d26ba90969
-ms.sourcegitcommit: d73d732591944b899a9366f79b4ea97f4a7f2260
+ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49675196"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909522"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 승인 앱은 모든 Microsoft Teams 사용자의 개인 앱으로 사용할 수 있습니다.
 승인 앱은 Teams에서 구조적 및 비구조적 승인에 감사, 규정 준수, 책임 및 워크플로를 가져오는 간단한 방법을 제공합니다.
@@ -54,9 +52,9 @@ ms.locfileid: "49675196"
 
 - [Power Automate,](https://docs.microsoft.com/power-automate/get-started-approvals)Office 365 또는 Dynamics 365에 대한 라이선스입니다.
 
-## <a name="storage-with-cds"></a>CDS가 있는 저장소
+## <a name="storage-with-cds"></a>CDS를 사용하여 저장소
 
-CDM(일반 데이터 모델)은 CDS의 비즈니스 및 분석 애플리케이션에서 사용하는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된, 그리고 애플리케이션 및 비즈니스 프로세스에서 데이터와 그 의미의 일관성을 가능하게 하는 집합으로 구성됩니다. Microsoft Power [Platform의 일반](https://docs.microsoft.com/power-automate/get-started-approvals)데이터 모델에 대해 자세히 알아보고
+CDM(공통 데이터 모델)은 CDS의 비즈니스 및 분석 애플리케이션에서 사용하는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된, 전개할 수 있는 데이터 스마마 집합으로 구성됩니다. 이 집합은 애플리케이션 및 비즈니스 프로세스에서 데이터의 일관성과 의미를 사용할 수 있도록 합니다. Microsoft Power [Platform의 일반](https://docs.microsoft.com/power-automate/get-started-approvals)데이터 모델에 대해 자세히 알아보고
 
 승인 워크플로에 [대해 자세히 배워야 합니다.](https://docs.microsoft.com/power-automate/modern-approvals)
 
@@ -109,7 +107,7 @@ CDM(일반 데이터 모델)은 CDS의 비즈니스 및 분석 애플리케이�
 
 승인 앱은 Microsoft 365 보안 및 규정 준수 센터 내에서 감사 이벤트를 기록합니다. 감사 로그를 볼 수 있습니다.
 
-1. M365 준수 사이트로 이동
+1. Microsoft 365 규정 준수 사이트로 이동하세요.
 
 2. 감사 **섹션을** 선택합니다.
 
@@ -139,7 +137,7 @@ Flow 내에서 더 많은 감사 승인에 액세스하려면 기본 승인 엔�
 
 [Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)보안 및 규정 준수 센터에서 감사를 추가로 사용자 지정할 수 있습니다.
 
-1. 미리 구성한 보고서를 사용 중이면 Office 365 보안 및 규정 준수에 로그인합니다.
+1. 미리 구성한 보고서를 사용 하도록 Microsoft 365 보안 및 규정 준수에 로그인합니다.
 
 2. 검색 **& 선택합니다.**
 

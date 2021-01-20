@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42bb303a42ce2f532e5790e642f86b78ce12a7e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1d91792eeda482ff396791325ee902ee54a59847
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825298"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909512"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub가 사용 중지
 
 2020년 6월 30일부로 Microsoft StaffHub가 사용 중지됩니다. Microsoft Teams에 StaffHub 기능을 구축하고 있습니다. 현재 Teams에는 일정 관리를 위한 Shifts 앱이 포함되어 있으며 시간이 지날 때 추가 기능이 출시됩니다.
 
-이러한 변경은 모든 직원이 Microsoft 365를 사용할 수 있는 권한을 부여하기 위한 Microsoft의 지속적 노력의 일부입니다. 현재 Teams에서 일선 직원의 기능을 통해 조직의 모든 직원은 Teams를 사용하여 업무를 간소화하고, 동료와 공동 작업하고, 정보 및 전문 지식에 액세스하여 최상의 업무를 할 수 있습니다.
+이러한 변경은 모든 직원이 Microsoft 365를 사용할 수 있는 권한을 부여하기 위해 지속적으로 노력하는 중 일부입니다. 현재 Teams에서 일선 직원을 위한 기능을 사용하면 조직의 모든 직원이 Teams를 사용하여 업무를 간소화하고, 동료와 공동 작업하고, 정보 및 전문 지식에 액세스하여 최상의 업무를 할 수 있습니다.
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
@@ -73,7 +73,7 @@ Shifts는 Teams를 사용할 수 있는 모든 Enterprise SKUS에서 사용할 �
 
 Shifts가 포함된 계획에 이미 있는 경우 Teams의 일부로 Shifts를 사용할 수 있습니다. [Shifts 시작을 체크 아웃합니다.](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)
 
-#### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Shifts를 사용할 수 있는 디바이스 또는 플랫폼은 무엇입니까?
+#### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Shifts를 사용할 수 있는 장치 또는 플랫폼은 무엇입니까?
 
 Shifts는 Teams 웹 클라이언트, Teams 데스크톱 클라이언트 및 Teams 모바일 클라이언트(iOS 및 Android)에서 사용할 수 있습니다.
  
@@ -110,7 +110,7 @@ Shifts 데이터는 북아메리카 및 서유럽의 데이터 센터에 Azure�
 
 관리자 지침은 [Teams에서 조직의 Shifts](manage-the-shifts-app-for-your-organization-in-teams.md) 앱 관리 참조
 
-최종 사용자 도움말은 [일선 작업자에 대한 Shifts 도움말로 이동](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+최종 사용자 도움말은 [Frontline Workers에 대한 Shifts 도움말로 이동](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>Teams에 필요한 라이선스는 무엇입니까?
 
@@ -140,7 +140,7 @@ Shifts 데스크톱 및 웹 앱에서 교대 근무 일정 정보를 Excel 파�
 
 관리자가 팀 구성원에게 파일을 배포하는 기능인 파일 공유 기능은 SharePoint Online의 백 엔드에서 지원됩니다. 팀이 만들어지면 백그라운드에서 해당 팀에 대해 Microsoft 365 그룹이 자동으로 프로비전됩니다.
 
-자세한 내용은 SharePoint Online 및 [비즈니스용 OneDrive가](../../SharePoint-OneDrive-interact.md)Teams와 상호 작용하는 방법을 참조하세요.
+자세한 내용은 SharePoint Online 및 [비즈니스용 OneDrive가 Teams와 상호 작용하는 방법을 참조하세요.](../../SharePoint-OneDrive-interact.md)
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts와 Outlook 일정 간에 통합이 있나요? 일정으로 일정을 내보낼 수 있나요?
  
@@ -148,7 +148,7 @@ Shifts 데스크톱 및 웹 앱에서 교대 근무 일정 정보를 Excel 파�
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>조직의 사용자가 Shifts를 사용할 수 있는지 여부를 관리하는 데 사용할 수 있는 관리 컨트롤은 무엇입니까?  
   
-조직의 모든 사용자에 대해 Shifts 조직 전체를 설정하거나 해제할 수 있습니다. Microsoft Teams 관리 센터에서 일선 직원 앱 설정 정책을 사용하여 일선 직원용 Teams를 사용자 지정할 수도 있습니다. 정책은 활동, Shifts, 채팅 및 호출 앱으로 구성됩니다. 정책을 할당하면 사용자가 쉽고 빠르게 액세스할 수 있도록 Teams의 앱 바에 이러한 앱이 고정됩니다. 
+조직의 모든 사용자에 대해 Shifts 조직 전체를 설정하거나 해제할 수 있습니다. Microsoft Teams 관리 센터에서 Frontline Worker 앱 설정 정책을 사용하여 프런트라인 Workforce용 Teams를 사용자 지정할 수도 있습니다. 정책은 활동, Shifts, 채팅 및 호출 앱으로 구성됩니다. 정책을 할당하면 사용자가 쉽고 빠르게 액세스할 수 있도록 Teams의 앱 바에 이러한 앱이 고정됩니다. 
 
 자세한 내용은 [Teams에서 조직의 Shifts 앱 관리를 참조하세요.](manage-the-shifts-app-for-your-organization-in-teams.md)
 

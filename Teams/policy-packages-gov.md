@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 정부 조직의 Teams 정책 패키지를 사용 및 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 19e2c692f2b5109e3ef0915ced9fd2b68c56e482
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812888"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909082"
 ---
 # <a name="teams-policy-packages-for-government"></a>정부용 Teams 정책 패키지
 
@@ -31,7 +31,7 @@ ms.locfileid: "49812888"
 
 ## <a name="overview"></a>개요
 
-Microsoft [Teams의](manage-policy-packages.md) 정책 패키지는 조직에서 비슷한 역할이 있는 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 모음입니다. 정책 패키지는 정책 관리 시 이를 단순화 및 간소화하고 일관성을 제공하도록 돕습니다. 사용자의 요구에 맞게 패키지의 정책 설정을 사용자 지정할 수 있습니다. 정책 패키지에서 정책 설정을 변경하면 해당 패키지에 할당된 모든 사용자가 업데이트된 설정을 얻게 됩니다. Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 정책 패키지를 관리할 수 있습니다.
+Microsoft [Teams의](manage-policy-packages.md) 정책 패키지는 조직에서 비슷한 역할이 있는 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 모음입니다. 정책 패키지는 정책 관리 시 이를 단순화 및 간소화하고 일관성을 제공하도록 돕습니다. 사용자의 요구에 맞게 패키지의 정책 설정을 사용자 지정할 수 있습니다. 정책 패키지에서 정책 설정을 변경하면 해당 패키지에 할당된 모든 사용자가 업데이트된 설정을 얻습니다. Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 정책 패키지를 관리할 수 있습니다.
 
 정책 패키지는 패키지에 따라 다음에 대한 정책을 미리 정의합니다.
 
@@ -46,12 +46,12 @@ Teams에는 현재 정부에 대한 다음 정책 패키지가 포함되어 있�
 |Microsoft Teams 관리 센터의 패키지 이름|최적 용도|설명 |
 |---------|---------|---------|
 |공공 안전 책임자  |정부 조직의 공공 안전 책임자  |조직의 공공 안전 책임자에 적용되는 정책 및 정책 설정 집합을 만듭니다. |
-|일선 관리자  |정부 조직의 일선 관리자 |정책 집합을 만들고 해당 설정을 조직의 일선 관리자에게 적용합니다.|
+|프런트라인 관리자  |정부 조직의 프런트라인 관리자 |정책 집합을 만들고 해당 설정을 조직의 Frontline Manager에 적용합니다.|
 |일선 작업자  |정부 조직의 일선 근로자 |정책 집합을 만들고 조직의 일선 작업자에게 해당 설정을 적용합니다.|
 
 ![의료 정책 패키지 스크린샷](media/policy-packages-gov.png)
 
-각 개별 정책에는 정책 패키지의 이름이 지정되어 정책 패키지에 연결된 정책을 쉽게 식별할 수 있습니다. 예를 들어 조직의 사용자에게 공용 안전 책임자 정책 패키지를 할당하면 패키지의 각 정책에 PublicSafety_Officer 정책이 만들어집니다.
+각 개별 정책에는 정책 패키지의 이름이 지정되어 정책 패키지에 연결된 정책을 쉽게 식별할 수 있습니다. 예를 들어 조직의 사용자에게 공용 안전 책임자 정책 패키지를 할당하면 패키지의 각 정책에 대해 PublicSafety_Officer 정책이 만들어집니다.
 
 ![의료 의료 의료진 패키지의 정책 스크린샷](media/policy-packages-public-safety-officer.png)
 

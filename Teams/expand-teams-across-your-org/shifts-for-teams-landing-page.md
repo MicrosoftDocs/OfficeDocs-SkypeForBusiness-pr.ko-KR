@@ -21,16 +21,16 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 71238c4ec0ae2e413732bd289bbb868bedd573b7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f699b60bddba6bcf5ffa884760540e5c20378f81
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815738"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909222"
 ---
 # <a name="shifts-for-teams"></a>Teams의 교대 근무
 
-Teams는 조직 내 일선 근로자가 효과적으로 의사 소통하고 공동 작업하고 최상의 작업을 하는 데 필요한 도구를 제공합니다. Teams에서 Shifts, 일정 관리 도구를 설정하고 관리하는 데 필요한 관리자 지침을 찾을 수 있습니다.
+Teams는 조직 내 일선 근로자가 효과적으로 통신하고 공동 작업하는 데 필요한 도구를 제공합니다. 이 문서에서는 설정 및 관리 방법을 보여줍니다. Teams에서 일정 관리 도구를 교대하고 사용합니다.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>조직의 Shifts 설정 및 관리
 
@@ -42,8 +42,8 @@ Teams는 조직 내 일선 근로자가 효과적으로 의사 소통하고 공�
 
 |               |               |
 | ------------- | ------------- |
-| ![api](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph API를 사용하면 Shifts 데이터를 외부 인력 관리 시스템과 통합하여 백 엔드에서 사용자 지정 Shifts 환경을 빌드할 수 있는 유연성을 제공하면서 사용자에게 Teams에서 풍부한 프런트 엔드 환경을 제공합니다.             |
-| ![api](../media/api-small.svg) | **[Workforce 관리 통합](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Kronos 및 JDA와 같은 타사 인력 관리 시스템을 사용하여 예정, 시간 및 참석을 위해 작업하는 경우 Shifts Graph API 및 SDK를 통해 오픈 소스 통합을 통해 Shifts와 직접 통합할 수 있습니다. |
+| ![api](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph API를 사용하면 Shifts 데이터를 외부 인력 관리 시스템과 통합할 수 있습니다. 사용자는 Teams에서 풍부한 프런트 엔드 환경을 제공하면서 백 엔드에서 사용자 지정 Shifts 환경을 유연하게 구축할 수 있습니다.             |
+| ![api](../media/api-small.svg) | **[Workforce 관리 통합](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Kronos 및 JDA와 같은 타사 인력 관리 시스템을 사용하여 예정, 시간 및 참석을 위해 사용하는 경우 Shifts Graph API 및 SDK를 통해 오픈 소스 통합을 통해 Shifts와 직접 통합할 수 있습니다. |
 | ![api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate를 사용하면 Shifts에서 정보를 받아 다른 앱으로 사용자 지정 워크플로를 만들고 대규모 작업을 수행할 수 있습니다. 코드가 거의 없는 키 프로세스를 자동화합니다. 트리거 및 템플릿은 관리자의 승인이 필요하지 않은 경우 교대 근무 요청에 대한 자동 승인을 사용하도록 설정하는 등의 다양한 시나리오를 지원합니다. |
 
 ## <a name="featured-training"></a>추천 교육
