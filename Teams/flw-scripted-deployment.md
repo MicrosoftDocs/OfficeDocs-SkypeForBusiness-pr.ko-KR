@@ -1,5 +1,5 @@
 ---
-title: 일선 직원을 위한 대규모 Microsoft Teams 프로비저닝
+title: 최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: keschm
-description: 스크립트를 사용하여 일선 직원을 위한 Microsoft Teams를 배포 또는 프로비저닝하는 방법에 대한 지침입니다.
+description: 스크립트를 사용하여 최전방 직원을 위한 Microsoft Teams를 배포 또는 프로비저닝하는 방법에 대한 지침입니다.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028174"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909372"
 ---
-# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>일선 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
+# <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
 다수의 사용자를 Microsoft Teams에 빠르게 등록하고 이들을 위한 능률적인 환경을 구성해야 하나요? 다음 지침을 통해 ID를 빠르게 프로비저닝하고 팀을 프로비저닝하며 모든 관련 정책을 할당하여 최종 사용자 환경을 제어할 수 있습니다.
 
@@ -105,9 +105,9 @@ ms.locfileid: "45028174"
 > [!IMPORTANT]
 > 이러한 스크립트에서 자격 증명을 관리하는 방법은 사용에 적합하지 않을 수 있으며 요구 사항에 맞게 쉽게 변경할 수 있습니다. 항상 서비스 계정 및 관리 ID를 보호하기 위한 회사의 표준 및 관행을 따르세요.
 
-스크립트는 $ENV:LOCALAPPDATA\keys, 즉 AppData\Local 폴더에 XML 파일로 저장된 자격 증명을 사용합니다. 이러한 스크립트를 실행하는 데 사용되는 자격 증명을 설정하려면 **BulkAddFunctions.psm1** 모듈의 도우미 함수 **Set-Creds**를 호출해야합니다. 이 기술을 사용하면 로컬 저장소에서 자격 증명을 유지하면서 다양한 서비스 끝점을 모두 인증할 필요가 없습니다. 각 스크립트 내에서 **Get-Creds** 도우미 함수를 사용하여 적절한 자격 증명을 읽고 해당 자격 증명을 사용하여 다양한 서비스에 연결합니다.
+스크립트는 $ENV:LOCALAPPDATA\keys, 즉 AppData\Local 폴더에 XML 파일로 저장된 자격 증명을 사용합니다. 이러한 스크립트를 실행하는 데 사용되는 자격 증명을 설정하려면 **BulkAddFunctions.psm1** 모듈의 도우미 함수 **Set-Creds** 를 호출해야합니다. 이 기술을 사용하면 로컬 저장소에서 자격 증명을 유지하면서 다양한 서비스 끝점을 모두 인증할 필요가 없습니다. 각 스크립트 내에서 **Get-Creds** 도우미 함수를 사용하여 적절한 자격 증명을 읽고 해당 자격 증명을 사용하여 다양한 서비스에 연결합니다.
 
-**Set-Creds**를 호출하면 $ENV:LOCALAPPDATA\keys에 기록될 XML 파일 이름을 제공하라는 메시지가 표시됩니다. 서비스마다 다른 자격 증명이 있을 수 있습니다. 예를 들어 MicrosoftTeams, AzureAD 및 MSonline에 대해 서로 다른 자격 증명이 있을 수 있습니다. 이 경우 **Set-Creds**를 두 번 이상 실행하여 각 자격 증명 파일을 고유한 의미있는 이름으로 저장할 수 있습니다.
+**Set-Creds** 를 호출하면 $ENV:LOCALAPPDATA\keys에 기록될 XML 파일 이름을 제공하라는 메시지가 표시됩니다. 서비스마다 다른 자격 증명이 있을 수 있습니다. 예를 들어 MicrosoftTeams, AzureAD 및 MSonline에 대해 서로 다른 자격 증명이 있을 수 있습니다. 이 경우 **Set-Creds** 를 두 번 이상 실행하여 각 자격 증명 파일을 고유한 의미있는 이름으로 저장할 수 있습니다.
 
 예: Set-Creds msol-cred.xml Set-Creds azuread-cred.xml Set-Creds teams-cred.xml
 
@@ -128,16 +128,16 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 Azure AD, MSAL, MSCloudUtils 및 MicrosoftTeams를 비롯한 여러 PowerShell 모듈을 설치하고 연결해야 합니다.
 
-1. 리포지토리의 스크립트 폴더에서 **ConfigurePowerShellModules.ps1**을 찾습니다.
+1. 리포지토리의 스크립트 폴더에서 **ConfigurePowerShellModules.ps1** 을 찾습니다.
 1. PowerShell에서 **ConfigurePowerShellModules.ps1** 스크립트를 실행합니다.
 
 ## <a name="create-and-set-up-teams"></a>Teams 만들기 및 설정
 
-일선 직원과 의사 소통하고 공동 작업하려면 먼저 일련의 Teams를 구성하고 해당 팀에 표준 채널을 추가해야 합니다.
+최전방 직원과 커뮤니케이션하고 공동 작업하려면 먼저 일련의 Teams를 구성하고 해당 팀에 표준 채널을 추가해야 합니다.
 
 ### <a name="create-teams"></a>팀 만들기
 
-Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부분의 일선 직원 중심 조직의 경우 물리적 위치 주변에 팀을 배치하는 것이 가장 좋습니다. 예를 들어 다음과 같은 팀이 있습니다.
+Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부분의 최전방 직원 중심 조직의 경우 물리적 위치 주변에 팀을 배치하는 것이 가장 좋습니다. 예를 들어 다음과 같은 팀이 있습니다.
 
 - 스토어
 - 유통 센터
@@ -180,13 +180,13 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 관리자는 Microsoft Teams의 팀 정책을 사용하여 조직의 사용자가 확인하고 수행할 수 있는 것을 제어할 수 있습니다. 예를 들어, 다수의 사용자를 등록할 때 최종 사용자 경험을 단순화하기 위해 데스크톱 또는 웹 브라우저의 왼쪽 레일에 고정할 응용 프로그램 또는 모바일 장치의 하단 표시줄을 제어할 수 있습니다. 이러한 정책의 일부는 PowerShell을 사용하여 만들 수 있으며, 일부는 Teams 관리 콘솔에서 수동으로 만들어야 합니다.
 
-*모범 사례 토론*: 다음 각 정책에 대해 실제로 일선 직원과 일선 관리자에 대한 두 가지 정책을 작성하기로 합니다. 원하는 만큼 많이 또는 적게 만들 수 있습니다. 대부분의 고객은 처음에 각 그룹에 동일한 설정을 지정하더라도 두 그룹으로 시작하는 것이 좋습니다. Teams에 대한 경험이 커짐에 따라 경험을 더욱 차별화할 수 있고, 두 개의 별도 정책을 이미 만들어 둔 것이 이 작업을 더 간단하게 만들 수 있습니다.
+*모범 사례 토론*: 다음 각 정책에 대해 실제로 최전방 직원과 최전방 관리자에 대한 두 가지 정책을 작성하기로 합니다. 원하는 만큼 많이 또는 적게 만들 수 있습니다. 대부분의 고객은 처음에 각 그룹에 동일한 설정을 지정하더라도 두 그룹으로 시작하는 것이 좋습니다. Teams에 대한 경험이 커짐에 따라 경험을 더욱 차별화할 수 있고, 두 개의 별도 정책을 이미 만들어 둔 것이 이 작업을 더 간단하게 만들 수 있습니다.
 
 ### <a name="create-teams-message-policies"></a>Teams 메시지 정책 만들기
 
 메시징 정책은 Microsoft Teams에서 사용자에게 제공되는 채팅 및 채널 메시징 기능을 제어하기 위해 사용됩니다.
 
-*모범 사례 토론*: 자동으로 생성된 기본 전역 정책을 사용할 수 있지만, 아래 단계에 따라 사용자 지정 정책을 생성하여 일선 관리자와 직원에게 보다 폐쇄적이고 단순하며 차별화된 경험을 제공합니다.
+*모범 사례 토론*: 자동으로 생성된 기본 전역 정책을 사용할 수 있지만, 아래 단계에 따라 사용자 지정 정책을 생성하여 최전방 관리자와 직원에게 보다 폐쇄적이고 단순하며 차별화된 경험을 제공합니다.
 
 #### <a name="steps-to-create-teams-message-policies"></a>Teams 메시지 정책을 만드는 단계
 
@@ -208,50 +208,50 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 |---------|---------|---------|
 |![앱이 *앱* 표시줄에 고정된 Teams 데스크톱 클라이언트의 스크린샷](media/FLW-Teams-Desktop-Client.png)         |         |![앱이 *하단* 표시줄에 고정된 Teams 데스크톱 클라이언트의 스크린샷](media/FLW-Teams-Mobile-Client.png) |
 
-*모범 사례 토론*: Microsoft Teams 관리 센터에서 앱 설정 정책을 관리합니다. PowerShell을 사용하여 만들 수 없습니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 할당됩니다. 우리의 목적에 맞게 다수의 사용자를 동시에 등록할 수 있도록 보다 단순하고 능률적인 환경을 제공하기 위해 일선 직원과 관리자에 대해 두 가지 새로운 정책을 만듭니다. 비즈니스 요구에 따라 환경을 사용자 지정할 수 있습니다.
+*모범 사례 토론*: Microsoft Teams 관리 센터에서 앱 설정 정책을 관리합니다. PowerShell을 사용하여 만들 수 없습니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 할당됩니다. 우리의 목적에 맞게 다수의 사용자를 동시에 등록할 수 있도록 보다 단순하고 능률적인 환경을 제공하기 위해 최전방 직원과 관리자에 대해 두 가지 새로운 정책을 만듭니다. 비즈니스 요구에 따라 환경을 사용자 지정할 수 있습니다.
 
-#### <a name="create-the-firstline-manager-app-setup-policy"></a>일선 관리자 앱 설정 정책 만들기
+#### <a name="create-the-frontline-manager-app-setup-policy"></a>최전방 관리자 앱 설정 정책 만들기
 
 비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있도록 하기 위해 권장 옵션을 선택했습니다. 자세한 내용은 [여기](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)를 클릭하세요.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정**으로 이동합니다.
-2.  **추가**를 클릭합니다.  
-3. 정책의 이름과 설명을 입력합니다. 예: **일선 관리자 앱 설정 정책**
-![일선 관리자 앱 설정 정책 이미지](media/FLW-FLM-App-Setup-Policy.png)
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정** 으로 이동합니다.
+2.  **추가** 를 클릭합니다.  
+3. 정책의 이름과 설명을 입력합니다. 예: **최전방 관리자 앱 설정 정책**
+![최전방 관리자 앱 설정 정책 이미지](media/FLW-FLM-App-Setup-Policy.png)
 
-4. **사용자 지정 앱 업로드**를 해제합니다.
-5. **사용자 고정 허용**을 해제합니다.
+4. **사용자 지정 앱 업로드** 를 해제합니다.
+5. **사용자 고정 허용** 을 해제합니다.
 ![사용자 고정 허용 스위치 이미지](media/FLW-Allow-User-Pinning.png)
 
-6. 아직 목록에 없는 경우 **Shifts** 앱을 추가합니다. **Shifts**에 대한 자세한 내용을 보려면 [여기](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)를 클릭합니다.
+6. 아직 목록에 없는 경우 **Shifts** 앱을 추가합니다. **Shifts** 에 대한 자세한 내용을 보려면 [여기](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)를 클릭합니다.
 ![추가 단추 옆에 Shifts 앱이 표시된 고정 앱 추가 화면](media/FLW-Add-Pinned-Apps.png)
 
 7. 통화가 표시되는 경우 제거합니다. 참고: 이 기능을 제거해도 사용자에게는 기능이 비활성화되지 않지만 최종 사용자 경험을 단순화하기 위해 앱 표시줄에 기능이 나타나지 않습니다.
-8. 다음 순서대로 앱을 정렬하여 Teams 앱 표시줄에서 순서를 지정한 다음  **저장**을 클릭합니다.
+8. 다음 순서대로 앱을 정렬하여 Teams 앱 표시줄에서 순서를 지정한 다음  **저장** 을 클릭합니다.
     1. 활동
     1. 채팅
     1. Teams
     1. 일정
     1. Shifts ![관리자 앱 목록의 스크린샷](media/FLW-Manager-Pinned-Apps.png)
 
-#### <a name="create-the-firstline-worker-app-setup-policy"></a>일선 직원 앱 설정 정책 만들기
+#### <a name="create-the-frontline-worker-app-setup-policy"></a>최전방 직원 앱 설정 정책 만들기
 
 비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있도록 하기 위해 권장 옵션을 선택했습니다. 자세한 내용은 [여기](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)를 클릭하세요.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정**으로 이동합니다.
-2.  **추가**를 클릭합니다.
-3. 정책의 이름과 설명을 입력합니다. 예: **일선 직원 앱 설정 정책**
-![일선 직원 앱 설정 정책 이미지](media/FLW-FLW-App-Setup-Policy.png)
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정** 으로 이동합니다.
+2.  **추가** 를 클릭합니다.
+3. 정책의 이름과 설명을 입력합니다. 예: **최전방 직원 앱 설정 정책**
+![최전방 직원 앱 설정 정책 이미지](media/FLW-FLW-App-Setup-Policy.png)
 
-4. **사용자 지정 앱 업로드**를 해제합니다.
-5. **사용자 고정 허용**을 해제합니다.
+4. **사용자 지정 앱 업로드** 를 해제합니다.
+5. **사용자 고정 허용** 을 해제합니다.
 ![사용자 고정 허용 스위치 이미지](media/FLW-Allow-User-Pinning.png)
 
-6. 아직 목록에 없는 경우 **Shifts** 앱을 추가합니다. **Shifts**에 대한 자세한 내용을 보려면 여기를 클릭합니다.
+6. 아직 목록에 없는 경우 **Shifts** 앱을 추가합니다. **Shifts** 에 대한 자세한 내용을 보려면 여기를 클릭합니다.
 ![추가 단추 옆에 Shifts 앱이 표시된 고정 앱 추가 화면](media/FLW-Add-Pinned-Apps.png)
 
 7. 모임 및 통화가 표시되는 경우 제거합니다. 참고: 이 기능을 제거해도 사용자에게는 기능이 비활성화되지 않지만 최종 사용자 경험을 단순화하기 위해 앱 표시줄에 기능이 나타나지 않습니다.
-8. 다음 순서대로 앱을 정렬하여 Teams 앱 표시줄에서 순서를 지정한 다음  **저장**을 클릭합니다.
+8. 다음 순서대로 앱을 정렬하여 Teams 앱 표시줄에서 순서를 지정한 다음  **저장** 을 클릭합니다.
     1. 활동
     1. 채팅
     1. Teams
@@ -261,35 +261,35 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 관리자는 앱 권한 정책을 사용하여 조직의 Microsoft Teams 사용자가 사용할 수있는 앱을 제어할 수 있습니다. 모든 앱 또는 Microsoft, 타사 및 조직에서 게시한 특정 앱을 허용하거나 차단할 수 있습니다. 앱을 차단하면 정책이 있는 사용자는 Teams 앱 스토어에서 goekd 앱을 설치할 수 없습니다. 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
 
-*모범 사례 토론*: Microsoft Teams 관리 센터에서 앱 설정 정책을 관리합니다. PowerShell을 사용하여 만들 수 없습니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다. 우리의 목적에 맞게 다수의 사용자를 동시에 등록할 수 있도록 보다 안전하고 능률적인 환경을 제공하기 위해 일선 직원과 관리자에 대해 두 가지 새로운 정책을 만듭니다. 물론 비즈니스 요구에 따라 환경을 사용자 지정할 수 있습니다.
+*모범 사례 토론*: Microsoft Teams 관리 센터에서 앱 설정 정책을 관리합니다. PowerShell을 사용하여 만들 수 없습니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다. 우리의 목적에 맞게 다수의 사용자를 동시에 등록할 수 있도록 보다 안전하고 능률적인 환경을 제공하기 위해 최전방 직원과 관리자에 대해 두 가지 새로운 정책을 만듭니다. 물론 비즈니스 요구에 따라 환경을 사용자 지정할 수 있습니다.
 
-#### <a name="create-the-firstline-manager-app-permission-policy"></a>일선 관리자 앱 권한 정책 만들기
-
-비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 다음은 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있는 권장 옵션입니다. 자세한 내용은 [여기](teams-app-permission-policies.md)를 클릭하세요.
-
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **권한 정책**으로 이동합니다.
-2.  **추가**를 클릭합니다.
-![Microsoft, 타사 및 테넌트 앱에 대한 섹션이 포함된 앱 권한 정책 추가 페이지를 표시합니다.](media/FLW-add-app-permission-policy.png)
-
-3. 정책의 이름과 설명을 입력합니다. 예: 일선 관리자 앱 권한 정책
-4. Microsoft 앱에서 **모든 앱 허용**을 선택합니다.
-5. 타사 앱에서 **모든 앱 허용**을 선택합니다.
-6. 테넌트 앱에서 **모든 앱 허용**을 선택합니다.
-7.  **저장**을 클릭합니다.
-
-#### <a name="create-the-firstline-worker-app-permission-policy"></a>일선 직원 앱 권한 정책 만들기
+#### <a name="create-the-frontline-manager-app-permission-policy"></a>최전방 관리자 앱 권한 정책 만들기
 
 비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 다음은 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있는 권장 옵션입니다. 자세한 내용은 [여기](teams-app-permission-policies.md)를 클릭하세요.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **권한 정책**으로 이동합니다.
-2.  **추가**를 클릭합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **권한 정책** 으로 이동합니다.
+2.  **추가** 를 클릭합니다.
 ![Microsoft, 타사 및 테넌트 앱에 대한 섹션이 포함된 앱 권한 정책 추가 페이지를 표시합니다.](media/FLW-add-app-permission-policy.png)
 
-3. 정책의 이름과 설명을 입력합니다. 예: 일선 직원 앱 권한 정책
-4. Microsoft 앱에서 **모든 앱 허용**을 선택합니다.
-5. 타사 앱에서 **모든 앱 차단**을 선택합니다.
-6. 테넌트 앱에서 **모든 앱 허용**을 선택합니다.
-7.  **저장**을 클릭합니다.
+3. 정책의 이름과 설명을 입력합니다. 예: 최전방 관리자 앱 권한 정책
+4. Microsoft 앱에서 **모든 앱 허용** 을 선택합니다.
+5. 타사 앱에서 **모든 앱 허용** 을 선택합니다.
+6. 테넌트 앱에서 **모든 앱 허용** 을 선택합니다.
+7.  **저장** 을 클릭합니다.
+
+#### <a name="create-the-frontline-worker-app-permission-policy"></a>최전방 직원 앱 권한 정책 만들기
+
+비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 다음은 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있는 권장 옵션입니다. 자세한 내용은 [여기](teams-app-permission-policies.md)를 클릭하세요.
+
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **권한 정책** 으로 이동합니다.
+2.  **추가** 를 클릭합니다.
+![Microsoft, 타사 및 테넌트 앱에 대한 섹션이 포함된 앱 권한 정책 추가 페이지를 표시합니다.](media/FLW-add-app-permission-policy.png)
+
+3. 정책의 이름과 설명을 입력합니다. 예: 최전방 직원 앱 권한 정책
+4. Microsoft 앱에서 **모든 앱 허용** 을 선택합니다.
+5. 타사 앱에서 **모든 앱 차단** 을 선택합니다.
+6. 테넌트 앱에서 **모든 앱 허용** 을 선택합니다.
+7.  **저장** 을 클릭합니다.
 
 ## <a name="users-and-security-groups"></a>사용자 및 보안 그룹
 
@@ -302,7 +302,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
   - Workday - [자습서: 자동 사용자 프로비저닝을 위한 Workday 구성](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial).
 - 다른 시스템에 사용자 정보가 있는 경우 다음 단계를 진행합니다.
 
-이러한 사용자를 대규모로 보다 효과적으로 관리하려면 일선 직원과 일선 관리자에 대해 두 개의 보안 그룹을 만들고 다음 단계에 따라 해당 사용자를 보안 그룹에 직접 프로비전해야 합니다.
+이러한 사용자를 대규모로 보다 효과적으로 관리하려면 최전방 직원과 최전방 관리자에 대해 두 개의 보안 그룹을 만들고 다음 단계에 따라 해당 사용자를 보안 그룹에 직접 프로비전해야 합니다.
 
 1. 리포지토리의 스크립트 폴더에서 **Users.csv** 파일을 찾습니다.
 1. 조직의 특정 정보로 **Users.csv** 파일을 업데이트합니다.
@@ -364,7 +364,7 @@ Azure AD P1 이상에 대해 라이선스를 부여하면 할당된 구성원 �
 1. 사용자가 올바른 팀에 있는지 확인합니다. 그렇지 않은 경우 **사용자 만들기 및 설정** 및 **Teams에 사용자 할당** 섹션을 검토합니다.
 
 > [!NOTE]
-> 일선 직원 프로비저닝이 ID 및 액세스 관리 팀을 통해 관리되는 경우 직원에게 자격 증명을 제공하기 위한 프로세스를 따라야 합니다.
+> 최전방 직원 프로비저닝이 ID 및 액세스 관리 팀을 통해 관리되는 경우 직원에게 자격 증명을 제공하기 위한 프로세스를 따라야 합니다.
 
 ### <a name="check-for-errors"></a>오류 확인
 

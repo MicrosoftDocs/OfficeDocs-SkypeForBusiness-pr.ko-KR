@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d72007a4bde0db2890a889580ee92c8dab72ad1e
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: 67f595e6b037eb6091d3b4e03e3258a13e12a4d1
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262515"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909392"
 ---
 # <a name="microsoft-teams-for-realwear"></a>RealWear용 Microsoft Teams
 
-이 문서는 RealWear head wearables용 Microsoft Teams 클라이언트에 대해 설명합니다. RealWear HMT-1 및 HMT-1Z1을 사용하는 FirstLine 작업자는 이제 팀에서 화상 통화를 사용하여 원격 전문가와 협력할 수 있습니다. RealWear용 Teams는 음성으로 제어되는 사용자 인터페이스를 통해 현장 작업자가 100 % 핸즈프리 상태를 유지하면서 크고 위험한 환경에서 상황 인식을 유지합니다. 필드 직원은 실시간으로 해당 사용자에게 표시되는 내용을 표시하여 문제를 해결하는 시간을 단축하고 비싼 가동 중지 시간의 위험을 줄일 수 있습니다.
+이 문서는 RealWear head wearables용 Microsoft Teams 클라이언트에 대해 설명합니다. RealWear HMT-1 및 HMT-1Z1을 사용하는 최전방 작업자는 이제 팀에서 화상 통화를 사용하여 원격 전문가와 협력할 수 있습니다. RealWear용 Teams는 음성으로 제어되는 사용자 인터페이스를 통해 현장 작업자가 100 % 핸즈프리 상태를 유지하면서 크고 위험한 환경에서 상황 인식을 유지합니다. 필드 직원은 실시간으로 해당 사용자에게 표시되는 내용을 표시하여 문제를 해결하는 시간을 단축하고 비싼 가동 중지 시간의 위험을 줄일 수 있습니다.
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>RealWear용 Microsoft Teams를 배포하는 방법
 

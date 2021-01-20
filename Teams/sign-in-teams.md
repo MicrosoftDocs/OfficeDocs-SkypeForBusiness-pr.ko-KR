@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
-ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
+ms.openlocfilehash: f6183471d8266ff004e1028ec3102e21f73fff77
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376021"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909122"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams에 로그인
 ==========================
@@ -150,7 +150,7 @@ Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한�
 
 ### <a name="global-sign-in-and-sign-out"></a>전역 로그인 및 로그아웃
 
-Teams Android 앱은 이제 전역 로그인 및 로그아웃을 지원하여 실무를 담당하는 작업자에게 번거로움이 없는 로그인 및 로그아웃 환경을 제공합니다. 직원들은 공유 장치 풀에서 기기를 선택하고 근무 시간 동안 단일 로그인을 통해 "내 것으로 만들기"를 수행할 수 있습니다. 교대 근무가 끝나면 장치에서 전역 로그아웃을 수행할 수 있습니다. 이렇게 하면 장치에서 장치의 개인 정보 및 회사 정보를 모두 제거하여 장치 풀에 장치를 반환할 수 있습니다. 이 기능을 사용하려면 장치가 공유 모드에 있어야 합니다. 공유 디바이스 설정 방법에 대한 자세한 내용은 [Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)에서 공유 디바이스 모드를 사용하는 방법을 참조하세요.
+Teams Android 앱은 이제 전역 로그인 및 로그아웃을 지원하여 최전방 직원에게 번거로움이 없는 로그인 및 로그아웃 환경을 제공합니다. 직원들은 공유 장치 풀에서 기기를 선택하고 근무 시간 동안 단일 로그인을 통해 "내 것으로 만들기"를 수행할 수 있습니다. 교대 근무가 끝나면 장치에서 전역 로그아웃을 수행할 수 있습니다. 이렇게 하면 장치에서 장치의 개인 정보 및 회사 정보를 모두 제거하여 장치 풀에 장치를 반환할 수 있습니다. 이 기능을 사용하려면 장치가 공유 모드에 있어야 합니다. 공유 디바이스 설정 방법에 대한 자세한 내용은 [Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)에서 공유 디바이스 모드를 사용하는 방법을 참조하세요.
 
 로그인 경험은 Microsoft의 표준 Teams 서명 경험과 유사하지만, 로그아웃 경험은 다음 두 가지 이미지와 비슷합니다.
 
