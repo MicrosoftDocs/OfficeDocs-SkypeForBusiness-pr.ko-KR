@@ -1077,14 +1077,10 @@
           href: business-voice/policy-packages.md
         - name: 추가 사용자 만들기
           href: business-voice/create-users.md
-        - name: 예제 - 통화 큐 설정
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 통화 큐 설정
-          href: business-voice/set-up-call-queues.md
-        - name: 예제 - 자동 전화 교환 설정
-          href: tutorial-org-aa.yml
+          href: business-voice/create-a-phone-system-call-queue-smb.md
         - name: 자동 전화 교환 설정
-          href: business-voice/set-up-auto-attendants.md
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
     - name: 설정 관리
       items:
         - name: 한 명 이상의 사용자를 생성합니다
@@ -1175,13 +1171,13 @@
           href: teams-edu-licensing.md
         - name: 교육 SKU 참조
           href: sku-reference-edu.md
-    - name: 일선 직원용 Teams
+    - name: 실무 직원용 Teams
       items:
-        - name: 일선 직원용 빠른 시작
-          href: firstline-workers-quickstart.yml
-        - name: 일선 직원 스크립팅된 배포
+        - name: 실무 직원용 빠른 시작
+          href: flw-quickstart.yml
+        - name: 실무 직원 스크립팅된 배포
           href: flw-scripted-deployment.md
-        - name: FirstLine Worker에 대한 shift 기반 액세스 관리
+        - name: 실무 직원에 대한 교대 기반 액세스 관리
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: 'Microsoft Teams를 위한 RealWear '
           href: flw-realwear.md
