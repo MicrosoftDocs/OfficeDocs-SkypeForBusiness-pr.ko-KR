@@ -25,11 +25,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 인사말 메시지를 제공하고, 음악, 통화 리디렉션 및 기타 기능을 제공하는 Microsoft Teams를 사용하여 통화 큐에 전화 시스템을 설정하는 방법을 배워야 합니다.
 ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49765412"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49919034"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -115,7 +115,7 @@ Teams는 발신자에 큐에 대기 중인 동안 발신자에 기본 음악을 
 
 라우팅 방법 중 원하는 방법으로 현재 상태 기반 호출 라우팅을 사용하도록 설정할 수 있습니다.
 
-에이전트가 통화 수신을 옵트아웃하면 해당 가용성 상태가 설정되어 있는 항목과 관계없이 통화 라우팅 목록에 포함되지 않습니다. 
+에이전트가 통화 수신을 옵트아웃하면 해당 가용성 상태가 설정되어 있는지와 관계없이 통화 라우팅 목록에 포함되지 않습니다. 
 
 > [!NOTE]
 > 비즈니스용 Skype 클라이언트를 사용하는 에이전트는 현재 상태 기반 라우팅을 사용하도록 설정한 경우 통화 라우팅 목록에 포함되지 않습니다. 비즈니스용 Skype를 사용하는 에이전트가 있는 경우 현재 상태 기반 통화 라우팅을 사용하지 않습니다.
@@ -171,11 +171,11 @@ Teams는 발신자에 큐에 대기 중인 동안 발신자에 기본 음악을 
   - Microsoft Teams Android 앱
 
     > [!NOTE]
-    > 직접 라우팅 번호가 할당된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 전화를 에이전트로 지원하지 않습니다.
+    > 직접 라우팅 번호가 할당된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 전화기에서 에이전트로 지원되지 않습니다.
 
 ## <a name="call-queue-cmdlets"></a>큐 cmdlet 호출
 
-또한 큐를 사용하여 Windows PowerShell 큐를 만들고 설정할 수 있습니다. 다음은 호출 큐를 관리하는 데 사용하는 cmdlet입니다.
+또한 이 기능을 사용하여 Windows PowerShell 큐를 만들고 설정할 수 있습니다. 다음은 호출 큐를 관리하는 데 사용하는 cmdlet입니다.
 
 - [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 

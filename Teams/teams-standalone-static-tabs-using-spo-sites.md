@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 기존 SharePoint Online 사이트 또는 페이지를 이용해 조직의 인트라넷 포털로 사용할 수 있는 독립 실행형 정적 탭을 만듭니다.
 localization_priority: Priority
-ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731116"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923810"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기
 
@@ -100,9 +100,6 @@ Teams 데스크톱에서 새 탭을 보려면 앱 표시줄 왼쪽에 있는 줄
 새 앱을 왼쪽 메뉴의 더 높은 위치에서 표시되도록 하려면 이에 대한 앱 정책 설정을 사용해야 합니다. 이 설정은 Teams 관리 섹션 > 앱 정책 > 고정 응용 프로그램 추가에 있습니다. 테스트용으로 사용자에게 정책을 할당하면 변경 내용이 몇 시간 후에 나타납니다. 이 점을 염두에 두고 앱이 지연되는 것을 방지하도록 사용자의 편의를 위해 가능한 빨리 앱이 표시되어야 하는 위치를 결정합니다.
 
 모바일 장치에서 새 앱을 보고 테스트하려면 화면 아래쪽 근처에 있는 탭 모음 위에 있는 갈매기형 수장(**^**)을 탭하여 앱 서랍을 엽니다. 모바일 장치에서 앱을 찾아 해당 앱으로 이동합니다.
-
-> [!CAUTION]
-> 모바일 지원은 현재 개발자 미리 보기에 있습니다. 개발자 미리 보기를 사용하도록 설정하려면 설정 > 정보로 이동한 다음 개발자 미리 보기 모드를 사용하도록 설정합니다.
 
 ## <a name="a-sample-manifestjson-file"></a>샘플 Manifest.JSON 파일
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자에 대해 여러 테넌트에 서비스를 제공하도록 SBC(세션 테두리 컨트롤러)를 구성하는 방법에 대해 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb7e89bab49bf92f505c2ca50950e78492186c24
-ms.sourcegitcommit: 11e0b8bfb960fb726880c80ce9339e864bcb074a
+ms.openlocfilehash: 343e2d1aedefd34de452df8da6ce9a5ad1a726ba
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49750588"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923850"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -47,7 +47,7 @@ Microsoft는 통신업체를 관리하지 않습니다. Microsoft는 PBX(Microso
 2. 통신 사업자 테넌트에 기본 도메인 이름을 등록하고 와일드카드 인증서를 요청합니다.
 3. 기본 도메인의 일부인 모든 고객에 대해 하위 도메인을 등록합니다.
 
-**고객 전역 관리자를 통해 통신 사업자:**
+**고객 전역 관리자를 통해 운송업체:**
 1. 고객 테넌트에 하위omain 이름을 추가합니다.
 2. 하위omain 이름을 활성화합니다.
 3. 통신 사업자에서 고객 테넌트로 트렁크를 구성하고 사용자를 프로비전합니다.
@@ -83,17 +83,17 @@ Microsoft 365 또는 Office 365 직접 라우팅 인터페이스에 호출이 �
 
 *Microsoft  [365 또는 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 조직에서 도메인 이름을 만드는 데 대한 자세한 내용은 Office 365 도메인에 대한 도움말을 검토하세요.*
 
-다음 다이어그램에서는 기본 도메인, 하위 도메인 및 연락처 헤더에 대한 요구 사항을 요약합니다.
+다음 다이어그램에서는 기본 도메인, 하위 도메인 및 Contact 헤더에 대한 요구 사항을 요약합니다.
 
 ![도메인 및 연락처 헤더에 대한 요구 사항을 보여주는 다이어그램](media/direct-routing-1-sbc-requirements.png)
 
-SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅 시나리오의 경우 통신 사업자는 SAN .base_domain *\* 인증서(예: \* .customers.adatum.biz)를 요청해야 합니다.* 이 인증서를 사용하여 단일 SBC에서 제공된 여러 테넌트에 대한 연결을 인증할 수 있습니다.
+SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅 시나리오의 경우 통신 사업자는 CN 및/또는 SAN .base_domain(예: *\* \* .customers.adatum.biz)를 요청해야 합니다.* 이 인증서를 사용하여 단일 SBC에서 제공된 여러 테넌트에 대한 연결을 인증할 수 있습니다.
 
 
 다음 표는 하나의 구성의 예입니다.
 
 
-|새 도메인 이름 |유형|등록  |SBC용 인증서 SAN  |예제의 테넌트 기본 도메인  |사용자에게 전화를 보낼 때 SBC가 연락처 헤더에 있어야 하는 FQDN 이름|
+|새 도메인 이름 |유형|등록  |SBC용 인증서 CN/SAN  |예제의 테넌트 기본 도메인  |사용자에게 전화를 보낼 때 SBC가 연락처 헤더에 있어야 하는 FQDN 이름|
 |---------|---------|---------|---------|---------|---------|
 |customers.adatum.biz|    기본     |     운송업체 테넌트에서  |    \*.customers.adatum.biz  |   adatum.biz      |NA, 서비스 테넌트입니다. 사용자 없음 |
 |sbc1.customers.adatum.biz|    하위omain  |    고객 테넌트에서  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
@@ -126,7 +126,7 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
     ![도메인 추가 페이지를 보여주는 스크린샷](media/direct-routing-2-sbc-add-domain.png)
 
 3. 다음을 **클릭합니다.**
-4. 이 예제에서 테넌트는 이미 확인된 adatum.biz 이름입니다. 마법사는 이미 등록된 이름의 하위 customers.adatum.biz 추가 확인을 요청하지 않습니다. 그러나 전에 확인되지 않은 FQDN을 추가하는 경우 확인 프로세스를 진행해야 합니다. 확인 프로세스는 [아래에 설명되어 있습니다.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
+4. 이 예제에서 테넌트는 이미 확인된 도메인 adatum.biz 이름입니다. 마법사는 이미 등록된 이름의 하위 customers.adatum.biz 추가 확인을 요청하지 않습니다. 그러나 전에 확인되지 않은 FQDN을 추가하는 경우 확인 프로세스를 진행해야 합니다. 확인 프로세스는 [아래에 설명되어 있습니다.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
 
     ![확인된 도메인 이름 확인을 보여주는 스크린샷](media/direct-routing-3-sbc-verify-domain.png)
 
@@ -138,6 +138,9 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
 ### <a name="activate-the-domain-name"></a>도메인 이름 활성화
 
 도메인 이름을 등록한 후 하나 이상의 E1, E3 또는 E5 라이선스 사용자를 추가하고 만든 기본 도메인과 일치하는 SIP 주소의 FQDN 부분으로 SIP 주소를 할당하여 활성화해야 합니다. 도메인 활성화 후 라이선스를 해지할 수 있습니다(최대 24시간이 걸릴 수 있습니다).
+
+> [!NOTE]
+> 통신사 테넌트는 비즈니스용 Skype 구성을 제거하지 않도록 테넌트에 할당된 하나 이상의 E1/E3/E5/M365 Business 라이선스를 유지해야 합니다. 
 
 *Microsoft [365 또는 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 조직에서 사용자 추가에 대한 자세한 내용은 Microsoft 365 또는 Office 365 도메인에 대한 도움말을 검토하세요.*
 
@@ -198,7 +201,7 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
     ![설치 완료 상태를 보여주는 페이지의 스크린샷](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
-> 직접 경로 트렁크를 추가할 수 있도록 개별 클라이언트의 기본 URL 및 하위 도마인이 동일한 테넌트에 _있을_ 수 있습니다.
+> 직접 경로 트렁크를 추가할 수 있도록 개별 클라이언트에 대한 기본 URL 및 하위 도마인이 동일한 테넌트에 _있을_ 수 있습니다.
 
 ### <a name="activate-the-subdomain-name"></a>하위omain 이름 활성화
 
@@ -236,14 +239,14 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
 -    Sbc1.customers.adatum.biz - PowerShell에서 만들 필요가 없는 고객 테넌트의 파생 트렁크입니다.  온라인 음성 라우팅 정책의 고객 테넌트에서 파생 트렁크의 이름을 만들지 않고 간단히 추가할 수 있습니다.
 -   운송업체는 파생 트렁크 FQDN을 운송업체 SBC IP 주소로 확인하여 DNS 레코드를 설정해야 합니다.
 
--    운송업체 트렁크(운송업체 테넌트)에 대한 변경 내용은 파생 트렁크에 자동으로 적용됩니다. 예를 들어 운송업체는 운송업체 트렁크에서 SIP 포트를 변경할 수 있으며, 이 변경 사항은 파생된 모든 트렁크에 적용됩니다. 트렁크를 구성하는 새 논리는 모든 테넌트로 이동하여 모든 트렁크에서 매개 변수를 변경할 필요가 없는 관리를 간소화합니다.
+-    운송업체 트렁크(운송업체 테넌트)에 대한 변경 내용은 파생 트렁크에 자동으로 적용됩니다. 예를 들어 운송업체는 운송업체 트렁크에서 SIP 포트를 변경할 수 있으며, 이 변경은 파생된 모든 트렁크에 적용됩니다. 트렁크를 구성하는 새 논리는 모든 테넌트로 이동하고 모든 트렁크에서 매개 변수를 변경할 필요가 없는 관리를 간소화합니다.
 -    옵션은 운송업체 트렁크 FQDN으로만 전송됩니다. 운송업체 트렁크의 상태는 파생된 모든 트렁크에 적용되고 라우팅 결정에 사용됩니다. 직접 라우팅 [옵션에](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)대해 더 많은 정보를 찾아 보십시오.
 -    운송업체는 운송업체 트렁크를 드레인할 수 있으며 파생된 모든 트렁크도 드레인됩니다. 
  
 
 **이전 모델에서 운송업체 트렁크로 마이그레이션**
  
-통신 사업자 호스팅 모델의 현재 구현에서 새 모델로 마이그레이션하려면 통신 사업자는 고객 테넌트에 대한 트렁크를 다시 구성해야 합니다. 고객 테넌트에서 트렁크를 제거합니다(Remove-CSOnlinePSTNGateway 테넌트에 트렁크 남기기).
+통신 사업자 호스팅 모델의 현재 구현에서 새 모델로 마이그레이션하려면 통신 사업자는 고객 테넌트에 대한 트렁크를 다시 구성해야 합니다. (통신 사업자 테넌트에 트렁크를 Remove-CSOnlinePSTNGateway)를 사용하여 고객 테넌트에서 트렁크를 제거합니다.
 
 운송업체 및 파생 트렁크 모델을 사용하여 모니터링 및 프로비전을 향상하는 최대한 빨리 새 솔루션으로 마이그레이션하는 것이 좋습니다.
  

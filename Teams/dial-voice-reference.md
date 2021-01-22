@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Teams의 자동 전화 걸기 및 통화 큐 전화 걸기 및 음성 인식 옵션에 대해 자세히 배워 보십시오.
-ms.openlocfilehash: 4ff2e60a1d785a035ee20c6547108f1b8916bcfb
-ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
+ms.openlocfilehash: 1cb8da2d2e6625de5a1471d1051c1ca51f11bbae
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749447"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918964"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>자동 전화 걸기 및 통화 큐 전화 걸기 및 음성 인식 참조
 
@@ -35,9 +35,9 @@ ms.locfileid: "49749447"
 
 ## <a name="searching-for-users"></a>사용자 검색
 
-전화 번호로 전화 걸기를 사용하여 연결하고 싶은 사용자는 전화 번호가 필요하거나 통화 요금제가 할당되어 있지는 않지만 비즈니스용 Skype Server Enterprise Voice 사용하도록 설정되어 있어야 **합니다.** 이름별로 전화를 걸면 여러 국가 또는 지역에서 다국적 조직에 호스트된 Microsoft Teams 사용자에게 전화를 찾아 전송할 수도 있습니다. 관련 구성이 필요한 경우 자동 전화 접속에서 Dial by Name을 명시적으로 사용하도록 설정해야 합니다.
+전화 번호를 사용하여 연결하고 싶은 사용자는 전화 번호가 필요하거나 통화 요금제가 할당되어 있지는 않지만 비즈니스용 Skype 서버 Enterprise Voice 사용하도록 설정되어 있어야 **합니다.** 이름별로 전화를 걸면 여러 국가 또는 지역에서 다국적 조직에 호스트된 Microsoft Teams 사용자에게 전화를 찾아 전송할 수도 있습니다. 관련 구성이 필요한 경우 자동 전화 접속에서 Dial by Name을 명시적으로 사용하도록 설정해야 합니다.
 
-내선 번호로 전화 걸기 기능은 디렉터리 검색의 일부인 자동 전화 접속 기능입니다. 이를 통해 자동 전화 회의에 전화를 걸면 음성(음성 인식) 또는 DTMF(전화 키패드) 응답을 사용하여 전화를 걸고자 하는 사용자의 내선 번호를 입력한 다음 해당 사용자에게 전화를 전송할 수 있습니다. 내선 번호로 전화 걸기를 사용하여 연결하고 싶은 사용자는 전화 번호가 필요하거나 통화 요금제가 할당되어 있지는 않지만 비즈니스용 Skype Server Enterprise Voice 사용하도록 설정되어 있어야 **합니다.** 또한 사용자에 대해 적절하게 구성된 다이얼 플랜이 필요합니다. 내선 번호로 전화를 걸면 여러 국가 또는 지역에서 다국적 조직에 호스트된 Microsoft Teams 사용자에게 전화를 찾아 전송할 수도 있습니다. 관련 구성이 필요한 경우 자동 전화 접속에서 내선 번호로 전화 걸기를 명시적으로 사용하도록 설정해야 합니다.
+내선 번호로 전화 걸기 기능은 디렉터리 검색의 일부인 자동 전화 접속 기능입니다. 이 기능을 사용하면 자동 전화 번호로 전화를 걸 때 음성(음성 인식) 또는 DTMF(전화 키패드) 응답을 사용하여 전화를 걸고자 하는 사용자의 내선 번호를 입력한 다음 해당 사용자에게 전화를 전송할 수 있습니다. 내선 번호로 전화 걸기를 사용하여 연결하고 싶은 사용자는 전화 번호가 필요하거나 통화 요금제가 할당되어 있지는 않지만 비즈니스용 Skype Enterprise Voice 사용하도록 설정되어 있어야 **합니다.** 또한 사용자에 대해 적절하게 구성된 다이얼 플랜이 필요합니다. 내선 번호로 전화를 걸면 여러 국가 또는 지역에서 다국적 조직에 호스트된 Microsoft Teams 사용자에게 전화를 찾아 전송할 수도 있습니다. 관련 구성이 필요한 경우 자동 전화 접속에서 내선 번호로 전화 걸기를 명시적으로 사용하도록 설정해야 합니다.
 
 ### <a name="maximum-directory-size"></a>최대 디렉터리 크기
 
@@ -63,7 +63,7 @@ ms.locfileid: "49749447"
 |FirstName + LastName |Full  |Amos0Marble # |Amos Marble |
 |LastName + FirstName |Full |Marble0Amos #  |Amos Marble |
 |FirstName  |Full   |Amos #   |Amos Marble의 경우 1을 누르기  <br/> Amos Marcus의 경우 2를 누르기 |
-|LastName |Full |Marble #  |Amos Marble의 경우 1을 누르기  <br/> Mary Marble에 대해 2를 누르기 |
+|LastName |Full |Marble #  |Amos Marble의 경우 1을 누르기  <br/> Mary Marble용 2 누르기 |
 |FirstName 또는 LastName |부분 |3월 # |Mary Marble에 대해 1을 누르기  <br/> Mary Jones용 2를 누르기  <br/> Amos Marcus의 경우 3을 누르기 |
 |FirsName + LastName |부분 |Amos0Mar # |Amos Marble의 경우 1을 누르기  <br/> Amos Marcus의 경우 2를 누르기 |
 |LastName + FirstName |부분 |Mar0Am # |Amos Marble의 경우 1을 누르기  <br/> Amos Marcus의 경우 2를 누르기 |
@@ -144,8 +144,8 @@ ms.locfileid: "49749447"
 |Five | 5를 누르고 있습니다. |
 |6  | 6을 누르고 있습니다. |
 |7 | 7을 누르고 있습니다.|
-|8 |8을 누르고|
-|Nine  |9를 누르고 있습니다.|
+|8 |8을 누르고 있습니다.|
+|Nine  |9를 누를 수 있습니다.|
 
 ## <a name="related-topics"></a>관련 항목
 
@@ -154,5 +154,3 @@ ms.locfileid: "49749447"
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)
 
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[소규모 기업 예제 - 자동 전화 교환 설정](/microsoftteams/tutorial-org-aa)

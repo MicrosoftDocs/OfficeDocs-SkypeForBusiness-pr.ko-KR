@@ -1,5 +1,5 @@
 ---
-title: 클라우드 자동 전화 교환 계획
+title: 클라우드 자동 회의 계획
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,32 +11,32 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: 비즈니스용 Skype 서버 2019에서 클라우드 자동 전화 교환 사용 개요
-ms.openlocfilehash: f6a1b8959bb5411909f8627c5d02a6cdc1935b20
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: 비즈니스용 Skype 서버 2019에서 클라우드 자동 전화 전송 사용 개요
+ms.openlocfilehash: 50cd9bb8b20e44d750dab68ec6fecb30bd02e203
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359084"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918694"
 ---
 # <a name="plan-cloud-auto-attendants"></a>클라우드 자동 전화 교환 계획
 
-Exchange 통합 메시징에 사용 되는 자동 전화 교환 (exchange Server 2013 또는 Exchange Server 2016)은 Exchange Server 2019 또는 Exchange Online에서 더 이상 사용할 수 없습니다. 비즈니스용 Skype 서버 2019이 이러한 Exchange 버전 중 하 나와 통합 된 경우 전화 시스템과 관련 된 온라인 클라우드 음성 기능을 사용 해야 합니다. Exchange server 2013 및 2016의 exchange UM 서비스를 클라우드로 이동 하는 방법에 대 한 자세한 내용은 [비즈니스용 Skype 서버 및 Exchange server 마이그레이션 계획](plan-um-migration.md) 을 참조 하십시오.
+Exchange 통합 메시징(Exchange Server 2013 또는 Exchange Server 2016)과 함께 사용되는 자동 전화 교환은 Exchange Server 2019 또는 Exchange Online에서 더 이상 사용할 수 없습니다. 비즈니스용 Skype 서버 2019 구현이 이러한 Exchange 버전 중 하나와 통합되는 경우 전화 시스템과 연결된 온라인 클라우드 음성 기능을 사용해야 합니다. Exchange server 2013 및 2016에 있는 Exchange UM 서비스를 클라우드로 이동하는 Exchange Server 대한 자세한 내용은 비즈니스용 Skype 서버 및 비즈니스용 [Skype](plan-um-migration.md) 서버 마이그레이션 계획을 참조하세요.
 
-이 사실은 자동 전화 교환과 같은 통합 메시징 기능을 사용 하려는 경우 비즈니스용 Skype 서버 2019을 하이브리드 방식으로 구현 하는 것을 의미 합니다. 자세한 내용은 [Skype For Business Server 및 Microsoft 365 또는 Office 365 간의 하이브리드 연결 구성을](configure-hybrid-connectivity.md) 참조 하세요.
+이는 자동 전화 연결과 같은 통합 메시징 기능을 사용하길 원할 경우 비즈니스용 Skype 서버 2019의 하이브리드 구현을 사용하게 다는 의미입니다. 자세한 내용은 비즈니스용 Skype 서버와 [Microsoft 365 또는 Office 365](configure-hybrid-connectivity.md) 간에 하이브리드 연결 구성을 참조하세요.
 
-자동 전화 교환은 고객 통화를 허용 하 고 인사말을 재생 하 고, 메뉴 옵션을 제공 하며, 음성 또는 다이얼 패드를 사용 하는 발신자와 상호 작용 하 여 호출을 올바른 대상으로 라우팅하는 클라우드 서비스입니다. 각 자동 전화 교환에는 Microsoft 팀 관리 센터의 자동 전화 교환에 직접 연결 될 비즈니스용 Skype 서버 2019 시스템에서 *리소스 계정* ( [구성 리소스 계정](configure-onprem-ra.md)참조)이 할당 됩니다. 자동 전화 교환에 대 한 자세한 내용 및 자동 전화 교환에 대 한 옵션 및 기능은 [클라우드 자동 전화 교환 란?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) 를 참조 하세요.
+자동 전화 건은 고객 통화를 수락하고 인사말을 재생하고, 메뉴 옵션을 제공하며, 음성 또는 다이얼 패드를 사용하여 발신자들과 상호 작용하여 통화를 올바른 대상로 라우팅하는 클라우드 서비스입니다. 각 자동 전화 연결에는 Microsoft [](configure-onprem-ra.md)Teams 관리 센터의 자동 전화 연결에 직접 연결될 비즈니스용 Skype 서버 2019 시스템에서 리소스 계정(리소스 계정 구성 참조)이 할당됩니다.  클라우드 [자동 Attendants란?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) 자동 회의란 무엇일지, 그리고 자동 회의에 대해 존재하는 옵션 및 기능에 대한 자세한 내용을 참조하세요.
 
 > [!NOTE]
-> 자동 전화 교환에 여러 Microsoft 서비스 번호, 직접 라우팅 번호 또는 하이브리드 번호를 할당할 수 있습니다.
+> 자동 전화 회의에 여러 Microsoft 서비스 번호, 직접 라우팅 번호 또는 하이브리드 번호를 할당할 수 있습니다.
 
-클라우드 자동 전화 교환에 대 한 수신 전화는 다음과 같이 여러 경로 중 하나를 사용할 수 있습니다.
+클라우드 자동 전화 응답에 대한 수신 전화는 다음과 같이 여러 경로 중 하나를 사용할 수 있습니다.
 
-![자동 전화 교환에 대 한 다이어그램](../../SfBServer2019/media/AA-plan-concept.png)
+![자동 자동 회의에 대한 다이어그램](../../SfBServer2019/media/AA-plan-concept.png)
 
-1. 비즈니스용 Skype 서버 2019
-2. [세션 경계 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers.md) 및 [직접 라우팅](/MicrosoftTeams/direct-routing-plan.md) 통해
-3. Microsoft 365 또는 Office 365의 온라인 홈 번호를 통해
+1. 비즈니스용 Skype 서버 2019를 통해
+2. 세션 경계 [컨트롤러 및](/MicrosoftTeams/direct-routing-border-controllers.md) [직접 라우팅을 통해](/MicrosoftTeams/direct-routing-plan.md)
+3. Microsoft 365 또는 Office 365에 온라인에 있는 번호를 통해
 
 참고:
 
@@ -45,60 +45,56 @@ Exchange 통합 메시징에 사용 되는 자동 전화 교환 (exchange Server
 
 ## <a name="requirements"></a>요구 사항
 
-다음 요구 사항에 따라 지원 되는 토폴로지에 비즈니스용 Skype 서버 2019이 이미 배포 되어 있다고 가정 합니다.  요구 사항은 시나리오에 따라 달라 집니다.
+다음 요구 사항은 지원되는 토폴로지에서 비즈니스용 Skype 서버 2019를 이미 배포했다고 가정합니다.  요구 사항은 시나리오에 따라 다릅니다.
 
-- 이미 Exchange UM online 또는 온-프레미스를 사용 중이 고 비즈니스용 Skype 2019로 업그레이드 하는 경우 자동 전화 교환의 구조를 캡처하여 클라우드 자동 전화 교환을 사용 하 여 클라우드에서 다시 만들어야 합니다. 자세한 내용은 [EXCHANGE UM 자동 전화 교환 또는 통화 큐를 전화 시스템으로 이동을](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system)참조 하세요.
+- 이미 Exchange UM 온라인 또는 프레미스를 사용하고 있으며 비즈니스용 Skype 2019로 업그레이드하는 경우 자동 전화 교환의 구조를 캡처하고 클라우드 자동 전화 교환을 사용하여 클라우드에서 다시 만들어야 합니다. 자세한 내용은 Exchange UM 자동 전화 교환 또는 통화 큐를 [전화 시스템으로 이동을 참조하십시오.](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system)
 
-- 클라우드 자동 전화 교환에 대 한 새 구성을 보려면  [Configure resource accounts](configure-onprem-ra.md)에 설명 되어 있는 단계를 따르세요.
+- 클라우드 자동 회의의 새 구성을 위해 리소스 계정 구성에 설명된 [단계를 따르세요.](configure-onprem-ra.md)
 
-위의 요구 사항 외에도 다음 요구 사항을 Microsoft 클라우드 자동 전화 교환 서비스에 연결 하도록 구성 해야 합니다.
+위의 요구 사항 외에도 Microsoft 클라우드 자동 전화 접속 서비스에 연결하도록 아래 요구 사항을 구성해야 합니다.
 
-- 하이브리드 연결 비즈니스용 Skype 서버를 이미 배포 했으며 온-프레미스 사용자에 대해 클라우드 자동 전화 교환을 사용 하도록 설정 하려면 온-프레미스 환경과 온라인 환경 간에 하이브리드 연결이 설정 되어 있는지 확인 해야 합니다. 이를 분할 도메인 구성 이라고 합니다.
+- 하이브리드 연결. 비즈니스용 Skype 서버가 이미 배포되어 있으며, 비즈니스용 Skype 사용자에 대해 클라우드 자동 전화 접속을 사용하도록 설정하려는 경우, 하이브리드 연결이 온라인 환경과 온라인 환경 간에 설정되어 있는지를 확인해야 합니다. 이를 분할 도메인 구성이라고도 합니다.
 
-   자세한 내용은 비즈니스용 [Skype 서버 및 microsoft 365 또는 office 365 간의 하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [비즈니스용 Skype 서버와 Microsoft 365 또는 office 365 간의 하이브리드 연결 구성](configure-hybrid-connectivity.md)를 참조 하세요.
+   자세한 내용은 비즈니스용 Skype 서버와 [Microsoft 365 또는 Office 365](plan-hybrid-connectivity.md) 간의 하이브리드 연결 계획과 비즈니스용 [Skype 서버와 Microsoft 365 또는 Office 365](configure-hybrid-connectivity.md)간의 하이브리드 연결 구성을 참조하세요.
 
-- 자동 전화 교환에 전화 번호를 할당 하는 경우에는 [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) 라이선스가 필요 합니다.
-- 각 자동 전화 교환에 대 한 온라인 [리소스 계정](/MicrosoftTeams/manage-resource-accounts.md) 또는 온-프레미스 [리소스 계정을](configure-onprem-ra.md) 만들고 전화 번호 및 라이선스를 할당 합니다. 
+- 자동 전화 번호에 전화 번호를 할당하는 경우 [Office 365 Enterprise E5 라이선스가](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) 필요합니다.
+- 각 자동 [](/MicrosoftTeams/manage-resource-accounts.md) 전화 회의에 대해 [](configure-onprem-ra.md) 온라인 리소스 계정 또는온-프레미스 리소스 계정을 만들고 전화 번호와 라이선스를 할당합니다. 
 
-## <a name="migration-and-interoperability"></a>마이그레이션 및 상호 운용성
+## <a name="migration-and-interoperability"></a>마이그레이션 및 상호 실행성
 
-비즈니스용 Skype 서버 2019 및/또는 Exchange Server 2019을 배포 하려는 경우에는 자동 전화 교환에 대 한 지속적인 지원을 위해 마이그레이션을 신중 하 게 계획 해야 합니다. 다음 사항에 유의해야 합니다.
+비즈니스용 Skype 서버 2019 및/또는 Exchange Server 2019를 배포하려는 경우 자동 전화 회의에 대한 지원을 계속할 수 있도록 마이그레이션을 신중하게 계획해야 합니다. 다음 사항에 유의해야 합니다.
 
-- Exchange 서버 2019에서 더 이상 Exchange UM 기능을 제공 하지 않음
-- Exchange 통합 메시징이 만료 모드에 있습니다.
-- 비즈니스용 Skype 서버 2019이 더 이상 Exchange Online UM에 통합 되지 않음
+- Exchange Server 2019에서 더 이상 Exchange UM 기능을 제공하지 않습니다.
+- Exchange 통합 메시징이 사용 중지 모드에 있습니다.
+- 비즈니스용 Skype 서버 2019가 더 이상 Exchange Online UM과 통합되지 않습니다.
 
-클라우드 자동 전화 교환은 비즈니스용 Skype 서버 2019, 2015 및 2013을 사용 하 여 구성할 수 있습니다.
+클라우드 자동 전화 연결은 비즈니스용 Skype 서버 2019, 2015 및 2013을 사용하여 구성할 수 있습니다.
 
-Microsoft는 다음과 같은 마이그레이션 경로를 권장 합니다.
+Microsoft는 다음과 같은 마이그레이션 경로를 권장합니다.
 
-- 비즈니스용 Skype 서버 2019로 업그레이드 하는 경우 exchange Server 2013 또는 2016에서 Exchange UM을 사용할 수 있지만 Exchange Server 2019을 사용 하는 경우에는 클라우드 자동 전화 교환으로 업그레이드 해야 합니다.
+- 비즈니스용 Skype 서버 2019로 업그레이드하는 경우 Exchange Server 2013 또는 2016에서 Exchange UM을 사용할 수 있지만 Exchange Server 2019를 사용하는 경우 클라우드 자동 전화 교환으로 업그레이드해야 합니다.
 
-- Exchange Server 2019로 업그레이드 하는 경우 비즈니스용 Skype 서버 음성 메시징의 이전 버전의 Exchange Server UM을 사용 하는 경우에는 사서함 업그레이드 전에 비즈니스용 Skype 서버 2019로 업그레이드 하는 것이 좋습니다.  그렇지 않으면 음성 메시징 기능을 잃게 됩니다.
+- Exchange Server 2019로 업그레이드하는 경우 이전 버전의 Exchange Server UM for Business Server 음성 메시징을 사용하는 경우 사서함 업그레이드 전에 비즈니스용 Skype 서버 2019로 업그레이드하는 것이 좋습니다.  그렇지 않으면 음성 메시징 기능이 손실됩니다.
 
-마이그레이션 계획에 대 한 자세한 내용은 [비즈니스용 Skype 서버 및 Exchange server 마이그레이션을 계획](plan-um-migration.md)합니다 .를 참조 하세요.
+마이그레이션 계획에 대한 자세한 내용은 비즈니스용 Skype 서버 계획 및 마이그레이션 [Exchange Server 참조하세요.](plan-um-migration.md)
 
-### <a name="migrating-a-previously-implemented-exchange-um-auto-attendant-system"></a>이전에 구현 된 Exchange UM 자동 전화 교환 시스템 마이그레이션
+### <a name="migrating-a-previously-implemented-exchange-um-auto-attendant-system"></a>이전에 구현한 Exchange UM 자동 교환 시스템 마이그레이션
 
-현재 Exchange 2013 또는 2016에서 만든 UM 자동 전화 교환 시스템의 클라우드로의 자동화 된 마이그레이션을 지원 하지 않습니다. 자동 전화 교환 시스템을 수동으로 다시 만들려면 다음을 수행 해야 합니다.
+현재 Exchange 2013 또는 2016에서 만든 UM 자동 교환 시스템의 클라우드로의 자동 마이그레이션은 지원되지 않습니다. 자동 자동 수행 시스템을 수동으로 다시 만들하려면 다음을 수행해야 합니다.
 
-1. Exchange 관리 powershell 명령을 사용 하 여 중첩 된 자동 전화 교환 및 통화 큐를 포함 하 여 이전 자동 전화 교환 시스템의 구조를 검토 합니다.  
-2. 각 UM 자동 전화 교환 노드와 연결 되는 텍스트 음성 변환 스크립트 또는 녹음 된 메시지의 복사본을 만듭니다.
-3. 테스트 전화 번호 및 개체에 대 한 라이선스 할당을 포함 하 여 각 자동 전화 교환 노드의 온-프레미스 끝점을 만듭니다. 이제 전화 시스템과 같은 온라인 서비스에서 사용 하는 온-프레미스 전화 번호 라이선스를 할당할 수 있습니다.
-4. Microsoft 팀 및 전화 시스템을 사용 하 여 새 클라우드 자동 전화 교환 서비스를 구현 합니다. 구현에 대 한 자세한 내용은 [리소스 계정 구성을](configure-onprem-ra.md) 참조 하십시오. 이 작업을 수행 하는 동안 각 UM 자동 전화 교환 노드와 연결 된 텍스트 음성 변환 스크립트 또는 기록 된 메시지를 업로드 합니다.
-5. 클라우드 자동 전화 교환 기능을 테스트 합니다.
-6. 이전 Exchange UM 자동 전화 교환에 할당 된 전화 번호를 새로 만든 주 클라우드 자동 전화 교환에 다시 할당 합니다.
+1. Exchange 관리자 PowerShell 명령을 사용하여 중첩된 자동 전화 교환 및 통화 큐를 포함하여 이전 자동 전화 교환 시스템의 구조를 검토합니다.  
+2. 텍스트 음성 음성 스크립트 또는 각 UM 자동 전화 통신 노드와 연결된 기록된 메시지의 복사본을 생성합니다.
+3. 개체에 테스트 전화 번호 및 라이선스를 할당하는 등 각 자동 전화 회의 노드에 대한 프레미스 끝점을 만들 수 있습니다. 이제 전화 시스템과 같은 온라인 서비스에서 사용하는온-프레미스 전화 번호 라이선스를 할당할 수 있습니다.
+4. Microsoft Teams 및 전화 시스템을 통해 새 클라우드 자동 전화 회의 서비스를 구현합니다. 구현 [세부 정보는 리소스 계정](configure-onprem-ra.md) 구성을 참조합니다. 이렇게 하는 경우 텍스트 음성 음성 스크립트 또는 각 UM 자동 전화 통신 노드와 연결된 녹음된 메시지를 업로드합니다.
+5. 클라우드 자동 회의의 기능을 테스트합니다.
+6. 이전 Exchange UM 자동 전화 교환에 할당된 전화 번호를 새로 만든 기본 클라우드 자동 전화 교환에 다시 할당합니다.
 
-이러한 단계에 대 한 자세한 내용은 [EXCHANGE UM 자동 전화 교환 또는 통화 큐를 전화 시스템으로 이동을](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) 참조 하십시오.
+이러한 단계에 대한 자세한 내용은 [Exchange UM 자동](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) 전화 교환 또는 통화 큐를 전화 시스템으로 이동을 참조하세요.
 
-## <a name="additional-planning-resources"></a>추가 계획 리소스
-
-[Small business 예-Set up a auto attendant](/microsoftteams/tutorial-org-aa) 는 사용자 요구 사항에 대 한 정보를 수집 하 고, 자동 전화 교환 및 사용자의 구조를 계획 하 고, 메뉴 음성 안내를 작성 하 고, 해당 계획을 팀 관리 센터에서 구현 하는 프로세스를 통해 진행 됩니다. 자습서를 검토 하 고 연습을 사용 하 여 계획을 만듭니다.
-
-사용자의 요구에 맞는 견고한 구조와 고객을 효율적으로 안내 하는 스크립트를 만들려면 [리소스 계정 구성을](configure-onprem-ra.md)계속 진행 합니다.
+요구 사항을 충족하는 견고한 구조와 고객을 효율적으로 안내하는 스크립트가 있는 경우 리소스 계정 [구성을 진행합니다.](configure-onprem-ra.md)
 
 > [!CAUTION]
-> [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)에서 설명한 것 처럼 서버 2015에서 만든 Exchange UM 자동 전화 교환을 서버 2019을 실행 하는 서버로 이동 하지 않는 것이 좋습니다. 시간에 coexistance 모드에서 실행 되는 비즈니스용 Skype 서버 2015 풀에 해당 기간을 보관 해야 합니다.
+> [KB4480742에서](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)설명한 것 처럼 Server 2015에서 만든 Exchange UM 자동 교환을 Server 2019를 실행하는 서버로 이동하는 것은 금지됩니다. 당분간은 동시 사용 모드로 실행되는 비즈니스용 Skype 서버 2015 풀에 유지해야 합니다.
 
 ## <a name="see-also"></a>참고 항목
 
@@ -114,8 +110,8 @@ Microsoft는 다음과 같은 마이그레이션 경로를 권장 합니다.
 
 Exchange UM: [수신 전화 자동 응답 및 라우팅](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365의 하이브리드 연결 계획](plan-hybrid-connectivity.md)
+[비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간의 하이브리드 연결 계획](plan-hybrid-connectivity.md)
 
 [비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간의 하이브리드 연결 구성](configure-hybrid-connectivity.md)
 
-[KB4480742: 대화 상대 개체를 비즈니스용 Skype 서버 2019로 이동한 후 구독자 액세스 또는 자동 전화 교환에 대 한 통화가 빠른 사용 및 "500 서버 내부" 오류와 함께 실패 합니다.](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)
+[KB4480742: 연락처 개체를 비즈니스용 Skype 서버 2019로 이동한 후 빠른 통화가 발생하고 "500 서버 내부" 오류와 함께 구독자 액세스 또는 자동 전화 접속에 실패](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

@@ -21,18 +21,19 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7133c5a1a0cf9fd67ec23b51f8e177aeb80532fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+localization_priority: Normal
+ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802428"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918994"
 ---
-# <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 라이브 이벤트
+# <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 라이브 이벤트는 어떻게 하나요
 
 ## <a name="overview"></a>개요
 
-Teams 라이브 이벤트를 통해 조직의 사용자는 대규모 온라인 대상에게 비디오 및 모임 콘텐츠를 브로드캐스트할 수 있습니다.
+Teams 라이브 이벤트를 통해 조직의 사용자는 비디오 및 모임 콘텐츠를 대규모 온라인 청중에게 브로드캐스트할 수 있습니다.
 
 Microsoft 365 라이브 이벤트는 라이브 비디오 스트리밍을 새로운 수준으로 제공합니다. 라이브 이벤트는 라이브 이벤트 전후에 참석자와의 전체 참여 수명 주기 동안 연결을 장려합니다. Microsoft Stream, Teams 또는 커뮤니티를 사용하여 대상, 팀 또는 커뮤니티가 상주하는 모든 곳에서 라이브 이벤트를 만들 수 Yammer.  
 
@@ -61,11 +62,14 @@ Teams는 이끌이가 적절한 참석자 권한이 있는 이벤트를 만들�
 
 ![새 라이브 이벤트 화면](../media/teams-live-events-schedule.png "새 라이브 이벤트를 만들고 예약하는 새 라이브 이벤트 화면을 보여주는 스크린샷")
 
+> [!IMPORTANT]
+> Teams는 사용자가 오프라인 상태이거나 대역폭이 제한된 상태로 실행되는 경우 모임 또는 라이브 이벤트를 예약할 수 없습니다.
+
 ### <a name="production"></a>프로덕션
 
 비디오 입력은 라이브 이벤트의 기초로, 단일 웹캠에서 다중 카메라 전문 비디오 프로덕션까지 다양할 수 있습니다. Microsoft 365의 라이브 이벤트는 웹캠을 사용하여 Teams에서 생성되는 이벤트 또는 외부 앱 또는 장치에서 생성되는 이벤트를 포함해 다양한 프로덕션 시나리오를 지원합니다. 프로젝트 요구 사항 및 예산에 따라 이러한 옵션을 선택할 수 있습니다. 이벤트를 생성하는 방법에는 두 가지가 있습니다.
 
-- **Teams: 이** 프로덕션 방법을 사용하면 사용자가 웹캠을 사용하거나 Teams 방 시스템의 A/V 입력을 사용하여 Teams에서 라이브 이벤트를 만들 수 있습니다. 이 옵션은 PC에 연결된 오디오 및 비디오 장치를 사용하려는 경우 또는 이벤트에 참여하기 위해 원격 발표자에 참여하는 경우 가장 빠르고 빠른 옵션입니다. 이 옵션을 사용하면 사용자가 웹캠을 쉽게 사용하여 이벤트의 입력으로 화면을 공유할 수 있습니다.
+- **Teams: 이** 프로덕션 방법을 사용하면 사용자가 웹캠을 사용하여 Teams에서 라이브 이벤트를 생성하거나 Teams 방 시스템의 A/V 입력을 사용할 수 있습니다. 이 옵션은 PC에 연결된 오디오 및 비디오 장치를 사용하려는 경우 또는 이벤트에 참여하기 위해 원격 발표자에 참여하는 경우 가장 빠르고 빠른 옵션입니다. 이 옵션을 사용하면 사용자가 웹캠을 쉽게 사용하여 이벤트의 입력으로 화면을 공유할 수 있습니다.
 
 - **외부 앱 또는 디바이스:** 외부 인코더를 사용하면 사용자가 Stream을 사용하여 외부 하드웨어 또는 소프트웨어 기반 인코더에서 직접 라이브 이벤트를 생성하도록 [허용합니다.](https://stream.microsoft.com) 이 옵션은 RTMP(실시간 메시징 프로토콜) 서비스로의 스트리밍을 지원하는 스튜디오 품질 장비(예: 미디어 믹서)가 이미 있는 경우 가장 좋습니다. 이 유형의 프로덕션은 일반적으로 미디어 믹서의 단일 스트림이 청중에게 브로드캐스트되는 경영진 타운 홀과 같은 대규모 이벤트에서 사용됩니다.
 
@@ -76,7 +80,7 @@ Teams는 이끌이가 적절한 참석자 권한이 있는 이벤트를 만들�
 
 ### <a name="streaming-platform"></a>스트리밍 플랫폼
 
-라이브 이벤트 스트리밍 플랫폼은 다음으로 나타 입니다.
+라이브 이벤트 스트리밍 플랫폼은 다음과 같은 조각으로 만들어 졌다.
 
 - **Azure Media Services:**  [Azure Media Services는](https://docs.microsoft.com/azure/media-services/previous/) 오늘날 가장 인기 있는 모바일 디바이스에서 더 많은 대상에게 도달할 수 있는 브로드캐스트 품질 비디오 스트리밍 서비스를 제공합니다. Media Services는 접근성, 배포 및 확장성을 향상하고, 콘텐츠를 보호하면서 로컬 또는 전 세계 대상에게 콘텐츠를 쉽고 비용 효율적인 스트리밍할 수 있도록 합니다.
 - **Azure CDN(Content Delivery Network)**: 스트림이 라이브로 전송된 후 [Azure CDN(Content Delivery Network)을 통해 전달됩니다.](https://docs.microsoft.com/azure/cdn/) Azure Media Services는 스트리밍 엔드포인트에 대한 통합 CDN을 제공합니다. 이렇게 하면 버퍼링이 없는 전 세계에 스트림을 볼 수 있습니다.
