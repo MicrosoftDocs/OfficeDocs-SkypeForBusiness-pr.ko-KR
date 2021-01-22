@@ -14,99 +14,96 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 기존 SharePoint Online 사이트 또는 페이지를 이용해 조직의 인트라넷 포털로 사용할 수 있는 독립 실행형 정적 탭을 만듭니다.
 localization_priority: Priority
-ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731116"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923810"
 ---
-# <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a><span data-ttu-id="28d96-103">SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기</span><span class="sxs-lookup"><span data-stu-id="28d96-103">Create a Teams 'Intranet Portal app' from a SharePoint Online site or page</span></span>
+# <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a><span data-ttu-id="3778b-103">SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기</span><span class="sxs-lookup"><span data-stu-id="3778b-103">Create a Teams 'Intranet Portal app' from a SharePoint Online site or page</span></span>
 
-<span data-ttu-id="28d96-104">이 문서의 단계를 사용하여 Teams 안에 조직의 인트라넷 사이트로 연결되는 독립 실행형 정적 앱을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-104">Use the steps in this article to create a standalone and static app inside of Teams that links to the intranet site for your org.</span></span>
+<span data-ttu-id="3778b-104">이 문서의 단계를 사용하여 Teams 안에 조직의 인트라넷 사이트로 연결되는 독립 실행형 정적 앱을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-104">Use the steps in this article to create a standalone and static app inside of Teams that links to the intranet site for your org.</span></span>
 
-<span data-ttu-id="28d96-105">SharePoint 인트라넷 사이트의 *Teams 개인 앱* 이 만들어져 Teams 내에서 탭으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-105">A *Teams Personal App* of your SharePoint intranet site is created, and will appear as a tab inside of Teams.</span></span> <span data-ttu-id="28d96-106">이 탭에는 모든 Teams 사용자에게 중요한 정보를 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-106">This tab can contain information important to all your Teams users.</span></span> <span data-ttu-id="28d96-107">이런 식으로 Teams 사용자는 단지 탭을 클릭하여 빠르고 간편하게 업데이트에 액세스합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-107">It is a quick and convenient way for Teams users to access updates just a tab click away.</span></span>
+<span data-ttu-id="3778b-105">SharePoint 인트라넷 사이트의 *Teams 개인 앱* 이 만들어져 Teams 내에서 탭으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-105">A *Teams Personal App* of your SharePoint intranet site is created, and will appear as a tab inside of Teams.</span></span> <span data-ttu-id="3778b-106">이 탭에는 모든 Teams 사용자에게 중요한 정보를 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-106">This tab can contain information important to all your Teams users.</span></span> <span data-ttu-id="3778b-107">이런 식으로 Teams 사용자는 단지 탭을 클릭하여 빠르고 간편하게 업데이트에 액세스합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-107">It is a quick and convenient way for Teams users to access updates just a tab click away.</span></span>
 
-<span data-ttu-id="28d96-108">표시된 프로세스가 제대로 작동하려면 *최신* SharePoint 사이트 또는 페이지를 **사용해야** 합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-108">Be aware that the process shown **must use** a *modern* SharePoint site or page to work.</span></span> <span data-ttu-id="28d96-109">이 프로세스는 *대표* 사이트나 페이지에서는 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-109">This process is not available for *classical* sites or pages.</span></span>
+<span data-ttu-id="3778b-108">표시된 프로세스가 제대로 작동하려면 *최신* SharePoint 사이트 또는 페이지를 **사용해야** 합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-108">Be aware that the process shown **must use** a *modern* SharePoint site or page to work.</span></span> <span data-ttu-id="3778b-109">이 프로세스는 *대표* 사이트나 페이지에서는 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-109">This process is not available for *classical* sites or pages.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="28d96-110">테넌트에 Teams 앱의 테스트용 로드가 사용 설정되어 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-110">Make certain that side-loading of Teams apps is enabled for your tenant.</span></span> <span data-ttu-id="28d96-111">Teams 관리 포털의 마이그레이션 프로세스 내 현재 단계를 기준으로 Teams > 관리자, 또는 이전 버전의 포털에서는 관리자 > 설정 > 서비스 및 추가 기능 > Microsoft Teams > 앱 > 외부 앱에서 이 기능을 사용하도록 설정할 필요가 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-111">Depending on where you are in the migration process of the Teams Admin portal, you might need to enable it either under Teams > Admin, or under Admin > Settings > Services and Add-ins > Microsoft Teams > Apps > External Apps, in the previous version of the portal!</span></span>
+> <span data-ttu-id="3778b-110">테넌트에 Teams 앱의 테스트용 로드가 사용 설정되어 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-110">Make certain that side-loading of Teams apps is enabled for your tenant.</span></span> <span data-ttu-id="3778b-111">Teams 관리 포털의 마이그레이션 프로세스 내 현재 단계를 기준으로 Teams > 관리자, 또는 이전 버전의 포털에서는 관리자 > 설정 > 서비스 및 추가 기능 > Microsoft Teams > 앱 > 외부 앱에서 이 기능을 사용하도록 설정할 필요가 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-111">Depending on where you are in the migration process of the Teams Admin portal, you might need to enable it either under Teams > Admin, or under Admin > Settings > Services and Add-ins > Microsoft Teams > Apps > External Apps, in the previous version of the portal!</span></span>
 
-## <a name="use-app-studio-to-create-your-standalone-sharepoint-online-app"></a><span data-ttu-id="28d96-112">App Studio를 사용해 독립 실행형 SharePoint Online 앱 만들기</span><span class="sxs-lookup"><span data-stu-id="28d96-112">Use App Studio to create your standalone SharePoint Online app</span></span>
+## <a name="use-app-studio-to-create-your-standalone-sharepoint-online-app"></a><span data-ttu-id="3778b-112">App Studio를 사용해 독립 실행형 SharePoint Online 앱 만들기</span><span class="sxs-lookup"><span data-stu-id="3778b-112">Use App Studio to create your standalone SharePoint Online app</span></span>
 
-<span data-ttu-id="28d96-113">시작하기 전에 다음을 수행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-113">Before you begin:</span></span>
+<span data-ttu-id="3778b-113">시작하기 전에 다음을 수행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-113">Before you begin:</span></span>
 
-1. <span data-ttu-id="28d96-114">SharePoint Online의 최신 커뮤니케이션이나 Team 사이트 또는 페이지의 URL을 알아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-114">You'll need to know the URL of a SharePoint Online modern Communication or Team site, or page.</span></span>
-    - <span data-ttu-id="28d96-115">이런 사이트의 경로에는 항상 */teams/* 또는 */sites/* 가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-115">These sites will always have either */teams/* or */sites/* in their paths.</span></span>
+1. <span data-ttu-id="3778b-114">SharePoint Online의 최신 커뮤니케이션이나 Team 사이트 또는 페이지의 URL을 알아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-114">You'll need to know the URL of a SharePoint Online modern Communication or Team site, or page.</span></span>
+    - <span data-ttu-id="3778b-115">이런 사이트의 경로에는 항상 */teams/* 또는 */sites/* 가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-115">These sites will always have either */teams/* or */sites/* in their paths.</span></span>
 
-2. <span data-ttu-id="28d96-116">테넌트의 하위 도메인을 알아야 하며, **{{subdomain}}** 자리 표시자에 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-116">You'll need to know your tenant's subdomain, which will be used in the placeholder **{{subdomain}}**.</span></span>
+2. <span data-ttu-id="3778b-116">테넌트의 하위 도메인을 알아야 하며, **{{subdomain}}** 자리 표시자에 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-116">You'll need to know your tenant's subdomain, which will be used in the placeholder **{{subdomain}}**.</span></span>
 
-3. <span data-ttu-id="28d96-117">이 문서에서는 **{{siteUrl}}** 을(를) 사용자가 선택한 사이트 또는 페이지의 *URL* 에 대한 자리 표시자로 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-117">This article will use **{{siteUrl}}** as a placeholder for the *URL* of the site or page you chose.</span></span>
-    - <span data-ttu-id="28d96-118">*URL* 예: `https://contoso.sharepoint.com/teams/Contoso`</span><span class="sxs-lookup"><span data-stu-id="28d96-118">Example *URLs*: `https://contoso.sharepoint.com/teams/Contoso`</span></span>
-        <span data-ttu-id="28d96-119">*또는* `https://contoso.sharepoint.com/sites/Contoso`</span><span class="sxs-lookup"><span data-stu-id="28d96-119">*or* `https://contoso.sharepoint.com/sites/Contoso`</span></span>
-4. <span data-ttu-id="28d96-120">또한, **{{sitePath}}** 는 URL의 *경로*(예: /teams/Contoso)를 표시하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-120">Also, **{{sitePath}}** will be used to denote the *path* of the URL (ex: /teams/Contoso).</span></span>
-    - <span data-ttu-id="28d96-121">*경로* 예:   /teams/Contoso   *또는* /sites/Contoso</span><span class="sxs-lookup"><span data-stu-id="28d96-121">Example *paths*:   /teams/Contoso   *or* /sites/Contoso</span></span>
+3. <span data-ttu-id="3778b-117">이 문서에서는 **{{siteUrl}}** 을(를) 사용자가 선택한 사이트 또는 페이지의 *URL* 에 대한 자리 표시자로 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-117">This article will use **{{siteUrl}}** as a placeholder for the *URL* of the site or page you chose.</span></span>
+    - <span data-ttu-id="3778b-118">*URL* 예: `https://contoso.sharepoint.com/teams/Contoso`</span><span class="sxs-lookup"><span data-stu-id="3778b-118">Example *URLs*: `https://contoso.sharepoint.com/teams/Contoso`</span></span>
+        <span data-ttu-id="3778b-119">*또는* `https://contoso.sharepoint.com/sites/Contoso`</span><span class="sxs-lookup"><span data-stu-id="3778b-119">*or* `https://contoso.sharepoint.com/sites/Contoso`</span></span>
+4. <span data-ttu-id="3778b-120">또한, **{{sitePath}}** 는 URL의 *경로*(예: /teams/Contoso)를 표시하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-120">Also, **{{sitePath}}** will be used to denote the *path* of the URL (ex: /teams/Contoso).</span></span>
+    - <span data-ttu-id="3778b-121">*경로* 예:   /teams/Contoso   *또는* /sites/Contoso</span><span class="sxs-lookup"><span data-stu-id="3778b-121">Example *paths*:   /teams/Contoso   *or* /sites/Contoso</span></span>
 
-<span data-ttu-id="28d96-122">아래 단계에 따라 시작하세요.</span><span class="sxs-lookup"><span data-stu-id="28d96-122">Begin by following the steps below:</span></span>
+<span data-ttu-id="3778b-122">아래 단계에 따라 시작하세요.</span><span class="sxs-lookup"><span data-stu-id="3778b-122">Begin by following the steps below:</span></span>
 
-1. <span data-ttu-id="28d96-123">Teams 스토어로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-123">Go to the Teams Store.</span></span>
+1. <span data-ttu-id="3778b-123">Teams 스토어로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-123">Go to the Teams Store.</span></span>
 
-2. <span data-ttu-id="28d96-124">App Studio를 설치하거나 엽니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-124">Install or open App Studio.</span></span>
+2. <span data-ttu-id="3778b-124">App Studio를 설치하거나 엽니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-124">Install or open App Studio.</span></span>
 
-3. <span data-ttu-id="28d96-125">앱 옵션 옆의 **열기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-125">Click **Open**, next to the App option.</span></span>
+3. <span data-ttu-id="3778b-125">앱 옵션 옆의 **열기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-125">Click **Open**, next to the App option.</span></span>
 
-4. <span data-ttu-id="28d96-126">App Studio를 연 상태에서 **매니페스트 편집기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-126">With App Studio open, click on **Manifest Editor**.</span></span>
+4. <span data-ttu-id="3778b-126">App Studio를 연 상태에서 **매니페스트 편집기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-126">With App Studio open, click on **Manifest Editor**.</span></span>
 
-5. <span data-ttu-id="28d96-127">**새 앱을 만듭니다**.</span><span class="sxs-lookup"><span data-stu-id="28d96-127">**Create a new app**.</span></span>
+5. <span data-ttu-id="3778b-127">**새 앱을 만듭니다**.</span><span class="sxs-lookup"><span data-stu-id="3778b-127">**Create a new app**.</span></span>
 
-6. <span data-ttu-id="28d96-128">**앱 세부 정보** 를 모두 기입합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-128">Fill in all **App Details**.</span></span>
+6. <span data-ttu-id="3778b-128">**앱 세부 정보** 를 모두 기입합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-128">Fill in all **App Details**.</span></span>
 
-7. <span data-ttu-id="28d96-129">기능의 **탭** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-129">Click on **Tabs** under Capabilities.</span></span>
+7. <span data-ttu-id="3778b-129">기능의 **탭** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-129">Click on **Tabs** under Capabilities.</span></span>
 
-8. <span data-ttu-id="28d96-130">개인 탭에서 **추가** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-130">Click **Add** under Personal Tab.</span></span>
+8. <span data-ttu-id="3778b-130">개인 탭에서 **추가** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-130">Click **Add** under Personal Tab.</span></span>
 
-9. <span data-ttu-id="28d96-131">**이름** 을 입력하고 **새 고유 엔터티 ID** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-131">Fill in the **Name** and choose **a new unique Entity ID**.</span></span>
+9. <span data-ttu-id="3778b-131">**이름** 을 입력하고 **새 고유 엔터티 ID** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-131">Fill in the **Name** and choose **a new unique Entity ID**.</span></span>
 
-10. <span data-ttu-id="28d96-132">**contentURL 및 웹 사이트 URL** 을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-132">Fill in the **contentURL and Website URL**.</span></span>
+10. <span data-ttu-id="3778b-132">**contentURL 및 웹 사이트 URL** 을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-132">Fill in the **contentURL and Website URL**.</span></span>
 
-- <span data-ttu-id="28d96-133">**contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}</span><span class="sxs-lookup"><span data-stu-id="28d96-133">**contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}</span></span>  
-- <span data-ttu-id="28d96-134">**websiteUrl**: {{siteUrl}}</span><span class="sxs-lookup"><span data-stu-id="28d96-134">**websiteUrl**: {{siteUrl}}</span></span>
+- <span data-ttu-id="3778b-133">**contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}</span><span class="sxs-lookup"><span data-stu-id="3778b-133">**contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}</span></span>  
+- <span data-ttu-id="3778b-134">**websiteUrl**: {{siteUrl}}</span><span class="sxs-lookup"><span data-stu-id="3778b-134">**websiteUrl**: {{siteUrl}}</span></span>
 
-    <span data-ttu-id="28d96-135">**contentURL** 예: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`</span><span class="sxs-lookup"><span data-stu-id="28d96-135">Example **contentURL**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`</span></span>
+    <span data-ttu-id="3778b-135">**contentURL** 예: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`</span><span class="sxs-lookup"><span data-stu-id="3778b-135">Example **contentURL**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`</span></span>
 
-11. <span data-ttu-id="28d96-136">**도메인 및 사용 권한** 으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-136">Navigate to **Domains and Permissions**.</span></span> <span data-ttu-id="28d96-137">유효한 도메인 섹션에 SharePoint Online 도메인 이름이 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-137">Make sure the valid domains section contains your SharePoint online domain name.</span></span>
+11. <span data-ttu-id="3778b-136">**도메인 및 사용 권한** 으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-136">Navigate to **Domains and Permissions**.</span></span> <span data-ttu-id="3778b-137">유효한 도메인 섹션에 SharePoint Online 도메인 이름이 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-137">Make sure the valid domains section contains your SharePoint online domain name.</span></span>
 
-    <span data-ttu-id="28d96-138">예: `contoso.sharepoint.com`</span><span class="sxs-lookup"><span data-stu-id="28d96-138">Example: `contoso.sharepoint.com`</span></span>
+    <span data-ttu-id="3778b-138">예: `contoso.sharepoint.com`</span><span class="sxs-lookup"><span data-stu-id="3778b-138">Example: `contoso.sharepoint.com`</span></span>
 
-12. <span data-ttu-id="28d96-139">다음 웹 앱 **single sign-on** 속성을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-139">Add the following web app **single sign-on** properties:</span></span>
+12. <span data-ttu-id="3778b-139">다음 웹 앱 **single sign-on** 속성을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-139">Add the following web app **single sign-on** properties:</span></span>
 
-     <span data-ttu-id="28d96-140">예: **AAD 응용 프로그램 ID**: 00000003-0000-0ff1-ce00-000000000000  **리소스 Url**: {{subdomain}}.sharepoint.com</span><span class="sxs-lookup"><span data-stu-id="28d96-140">Example:  **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000  **Resource Url**: {{subdomain}}.sharepoint.com</span></span>
+     <span data-ttu-id="3778b-140">예: **AAD 응용 프로그램 ID**: 00000003-0000-0ff1-ce00-000000000000  **리소스 Url**: {{subdomain}}.sharepoint.com</span><span class="sxs-lookup"><span data-stu-id="3778b-140">Example:  **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000  **Resource Url**: {{subdomain}}.sharepoint.com</span></span>
 
     ![ID와 URL을 사용한 웹 앱 single sign-on입니다.](media/personal-app.png)
 
-13. <span data-ttu-id="28d96-142">이러한 속성을 **저장** 한 다음 **테스트 및 배포** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-142">**Save** these properties and then navigate to **Test and distribute**.</span></span>
+13. <span data-ttu-id="3778b-142">이러한 속성을 **저장** 한 다음 **테스트 및 배포** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-142">**Save** these properties and then navigate to **Test and distribute**.</span></span>
 
-14. <span data-ttu-id="28d96-143">앱을 설치하여 응용 프로그램을 개인적으로 테스트합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-143">Install the app to test the application personally.</span></span>
+14. <span data-ttu-id="3778b-143">앱을 설치하여 응용 프로그램을 개인적으로 테스트합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-143">Install the app to test the application personally.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="28d96-144">Teams App Studio를 사용하고 있지 않은 경우에는 방금 만든 manifest.JSON 파일을 .zip으로 압축하고, Teams에서 앱 스토어로 이동해 앱 스토어의 오른쪽 아래에 있는 **사용자 지정 앱 업로드** 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-144">If you aren't using Teams App Studio, you will have to .zip the manifest.JSON file you just created, navigate to the App Store in Teams, and click  **upload custom app** link (at the bottom right of the App Store).</span></span> <span data-ttu-id="28d96-145">이러면 앱을 사용할 수 있게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-145">This will make the app available to you.</span></span>
+> <span data-ttu-id="3778b-144">Teams App Studio를 사용하고 있지 않은 경우에는 방금 만든 manifest.JSON 파일을 .zip으로 압축하고, Teams에서 앱 스토어로 이동해 앱 스토어의 오른쪽 아래에 있는 **사용자 지정 앱 업로드** 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-144">If you aren't using Teams App Studio, you will have to .zip the manifest.JSON file you just created, navigate to the App Store in Teams, and click  **upload custom app** link (at the bottom right of the App Store).</span></span> <span data-ttu-id="3778b-145">이러면 앱을 사용할 수 있게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-145">This will make the app available to you.</span></span>
 
-15. <span data-ttu-id="28d96-146">이제 Teams에서 앱을 로드하여 정적 탭으로 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-146">Now the app is available as a static tab for you to load and view in Teams.</span></span>
+15. <span data-ttu-id="3778b-146">이제 Teams에서 앱을 로드하여 정적 탭으로 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-146">Now the app is available as a static tab for you to load and view in Teams.</span></span>
 
-## <a name="test-and-view-your-new-static-tab"></a><span data-ttu-id="28d96-147">새 정적 탭 테스트 및 보기</span><span class="sxs-lookup"><span data-stu-id="28d96-147">Test and view your new static tab</span></span>
+## <a name="test-and-view-your-new-static-tab"></a><span data-ttu-id="3778b-147">새 정적 탭 테스트 및 보기</span><span class="sxs-lookup"><span data-stu-id="3778b-147">Test and view your new static tab</span></span>
 
-<span data-ttu-id="28d96-148">Teams 데스크톱에서 새 탭을 보려면 앱 표시줄 왼쪽에 있는 줄임표(**...**)로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-148">To view the new tab on the Teams desktop, navigate to the ellipses (**…**) in the left-hand side of your app bar.</span></span> <span data-ttu-id="28d96-149">Teams에서 새 앱을 찾아 로드하고 독립 실행형 응용 프로그램을 테스트합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-149">Find your new app, load it, and test your standalone application in Teams.</span></span>
+<span data-ttu-id="3778b-148">Teams 데스크톱에서 새 탭을 보려면 앱 표시줄 왼쪽에 있는 줄임표(**...**)로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-148">To view the new tab on the Teams desktop, navigate to the ellipses (**…**) in the left-hand side of your app bar.</span></span> <span data-ttu-id="3778b-149">Teams에서 새 앱을 찾아 로드하고 독립 실행형 응용 프로그램을 테스트합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-149">Find your new app, load it, and test your standalone application in Teams.</span></span>
 
-<span data-ttu-id="28d96-150">새 앱을 왼쪽 메뉴의 더 높은 위치에서 표시되도록 하려면 이에 대한 앱 정책 설정을 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-150">If you want to make the new app available in the left menu at a higher position, you must use an app policy setting for this.</span></span> <span data-ttu-id="28d96-151">이 설정은 Teams 관리 섹션 > 앱 정책 > 고정 응용 프로그램 추가에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-151">This setting can be found under the Team admin section > app policy > add a pinned application.</span></span> <span data-ttu-id="28d96-152">테스트용으로 사용자에게 정책을 할당하면 변경 내용이 몇 시간 후에 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-152">When you assign the policy to a user for testing, the change will appear a few hours later.</span></span> <span data-ttu-id="28d96-153">이 점을 염두에 두고 앱이 지연되는 것을 방지하도록 사용자의 편의를 위해 가능한 빨리 앱이 표시되어야 하는 위치를 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-153">With this in mind, please decide where the app should appear at your earliest convenience to help avoid delays.</span></span>
+<span data-ttu-id="3778b-150">새 앱을 왼쪽 메뉴의 더 높은 위치에서 표시되도록 하려면 이에 대한 앱 정책 설정을 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-150">If you want to make the new app available in the left menu at a higher position, you must use an app policy setting for this.</span></span> <span data-ttu-id="3778b-151">이 설정은 Teams 관리 섹션 > 앱 정책 > 고정 응용 프로그램 추가에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-151">This setting can be found under the Team admin section > app policy > add a pinned application.</span></span> <span data-ttu-id="3778b-152">테스트용으로 사용자에게 정책을 할당하면 변경 내용이 몇 시간 후에 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-152">When you assign the policy to a user for testing, the change will appear a few hours later.</span></span> <span data-ttu-id="3778b-153">이 점을 염두에 두고 앱이 지연되는 것을 방지하도록 사용자의 편의를 위해 가능한 빨리 앱이 표시되어야 하는 위치를 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-153">With this in mind, please decide where the app should appear at your earliest convenience to help avoid delays.</span></span>
 
-<span data-ttu-id="28d96-154">모바일 장치에서 새 앱을 보고 테스트하려면 화면 아래쪽 근처에 있는 탭 모음 위에 있는 갈매기형 수장(**^**)을 탭하여 앱 서랍을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-154">To view and test the new app on a mobile device, open the app drawer by tapping on the chevron (**^**) above the tab bar near the bottom of your screen.</span></span> <span data-ttu-id="28d96-155">모바일 장치에서 앱을 찾아 해당 앱으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-155">Find your app and navigate to it on your mobile device.</span></span>
+<span data-ttu-id="3778b-154">모바일 장치에서 새 앱을 보고 테스트하려면 화면 아래쪽 근처에 있는 탭 모음 위에 있는 갈매기형 수장(**^**)을 탭하여 앱 서랍을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-154">To view and test the new app on a mobile device, open the app drawer by tapping on the chevron (**^**) above the tab bar near the bottom of your screen.</span></span> <span data-ttu-id="3778b-155">모바일 장치에서 앱을 찾아 해당 앱으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-155">Find your app and navigate to it on your mobile device.</span></span>
 
-> [!CAUTION]
-> <span data-ttu-id="28d96-156">모바일 지원은 현재 개발자 미리 보기에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-156">Mobile support is currently in Developer Preview.</span></span> <span data-ttu-id="28d96-157">개발자 미리 보기를 사용하도록 설정하려면 설정 > 정보로 이동한 다음 개발자 미리 보기 모드를 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-157">To enable Developer Preview, navigate to Settings > About and then enable Developer Preview mode.</span></span>
+## <a name="a-sample-manifestjson-file"></a><span data-ttu-id="3778b-156">샘플 Manifest.JSON 파일</span><span class="sxs-lookup"><span data-stu-id="3778b-156">A Sample Manifest.JSON file</span></span>
 
-## <a name="a-sample-manifestjson-file"></a><span data-ttu-id="28d96-158">샘플 Manifest.JSON 파일</span><span class="sxs-lookup"><span data-stu-id="28d96-158">A Sample Manifest.JSON file</span></span>
-
-<span data-ttu-id="28d96-159">사용자가 생성하는 JSON 파일이 아래와 같이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="28d96-159">The JSON file you generate will look something like the one below.</span></span>
+<span data-ttu-id="3778b-157">사용자가 생성하는 JSON 파일이 아래와 같이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="3778b-157">The JSON file you generate will look something like the one below.</span></span>
 
 ```JSON'
 {
