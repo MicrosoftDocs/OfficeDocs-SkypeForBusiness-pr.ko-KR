@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c6019c72d54ad48406060178389a66f8cdd9cee7
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030804"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918684"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 모임 및 회의
 
@@ -56,7 +56,7 @@ Teams는 조직을 위해 즉시 사용 가능한 뛰어난 경험을 제공하�
 > 모임에 대한 자세한 내용은 다음 세션을 참고 하세요. [IT 전문가를 위한 Microsoft Teams의 모임 소개](https://aka.ms/teams-meetings-intro)
 
 
-## <a name="meetings-and-conferencing-prerequisites"></a>모임 및 회의 필수 구성 요소 
+## <a name="meetings-and-conferencing-prerequisites"></a>모임 및 회의 필수 구성 요소
 
 조직 전체에서 모임 배포를 확장하기 전에 시간을 내어 사용자에게 최상의 경험을 제공할 준비가 되었는지 검토하고 확인합니다. 다음의 정보를 검토하고 필요에 따라 환경을 변경합니다.
 
@@ -139,7 +139,10 @@ Teams에서 최적의 모임 경험을 위해 회의실 시스템, 전화, 헤�
 
 ### <a name="bandwidth-planning"></a>대역폭 계획 
 
-대역폭 계획을 통해 조직은 광역 네트워크와 인터넷 링크에서 모임을 지원하는 데 필요한 대역폭을 예측하여 네트워크를 올바르게 프로비전하여 확장된 모임 서비스를 지원할 수 있는지 확인할 수 있습니다. 
+대역폭 계획을 통해 조직은 광역 네트워크와 인터넷 링크에서 모임을 지원하는 데 필요한 대역폭을 예측하여 네트워크를 올바르게 프로비전하여 확장된 모임 서비스를 지원할 수 있는지 확인할 수 있습니다.
+
+> [!IMPORTANT]
+> Teams는 사용자가 오프라인 상태이거나 제한된 대역폭으로 실행되는 경우 회의 또는 라이브 이벤트를 예약하지 못하도록 합니다. 
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
@@ -157,7 +160,7 @@ Teams에서 최적의 모임 경험을 위해 회의실 시스템, 전화, 헤�
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-| 모임 기록 서비스를 켜나요?|[녹음/녹화 기록 설정 또는 해제](cloud-recording.md#turn-on-or-turn-off-recording-transcription)를 참조하세요.|
+| 모임 기록 서비스를 켜나요?|[녹음/녹화 기록 설정 또는 해제](cloud-recording.md#turn-on-or-turn-off-cloud-recording)를 참조하세요.|
 |||
 
 
