@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 896e60e8de6e01208a07c40e757a79a12192383a
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: f4ea2d747d40c221d9e99b51fc7b15da8e2cdd12
+ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611822"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49944603"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams 내보내기 API를 통해 콘텐츠 내보내기
 
-Teams 내보내기 API를 사용하면 Microsoft Teams에서 1:1 및 그룹 채팅 메시지를 내보낼 수 있습니다. 조직에서 Microsoft Teams 메시지를 내보내야 하는 경우 Teams 내보내기 API를 사용하여 메시지를 추출할 수 있습니다. *채팅 메시지는* 채널 또는 채팅 내의 개별 [채팅](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 메시지를 [나타 내는 것입니다.](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta) 채팅 메시지는 루트 채팅 메시지 또는 채팅 메시지의 **replyToId** 속성에 의해 정의된 회신 스레드의 일부일 수 있습니다.
+Teams 내보내기 API를 사용하면 Microsoft Teams에서 1:1, 그룹 채팅 및 채널 메시지를 내보낼 수 있습니다. 조직에서 Microsoft Teams 메시지를 내보내야 하는 경우 Teams 내보내기 API를 사용하여 메시지를 추출할 수 있습니다. *채팅 메시지는* 채널 또는 채팅 내의 개별 [채팅](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 메시지를 [나타 내는 것입니다.](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta) 채팅 메시지는 루트 채팅 메시지 또는 채팅 메시지의 **replyToId** 속성에 의해 정의된 회신 스레드의 일부일 수 있습니다.
 
 이러한 내보내기 API를 사용하는 방법에 대한 몇 가지 예는 다음과 같습니다.
 
-- **예제 1:** 조직에서 Microsoft Teams를 사용하도록 설정하고 특정 사용자의 날짜 범위를 전달하여 모든 Microsoft Teams 메시지를 프로그래밍으로 최신으로 내보내고 싶은 경우
-- **예제 2:** 날짜 범위를 제공하여 매일 모든 사용자 메시지를 프로그래밍으로 내보내는 경우 API 내보내기에서는 지정한 날짜 범위 동안 생성되거나 업데이트된 모든 메시지를 검색할 수 있습니다.
+- **예제 1:** 조직에서 Microsoft Teams를 사용하도록 설정하고 특정 사용자 또는 팀의 날짜 범위를 전달하여 모든 Microsoft Teams 메시지를 프로그래밍으로 최신으로 내보내고 싶은 경우
+- **예제 2:** 날짜 범위를 제공하여 매일 모든 사용자 또는 팀 메시지를 프로그래밍으로 내보내는 경우 API 내보내기에서는 지정한 날짜 범위 동안 생성되거나 업데이트된 모든 메시지를 검색할 수 있습니다.
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>Teams 내보내기 API에서 지원되는 것은 무엇입니까?
 
@@ -47,35 +47,40 @@ Teams 내보내기 API를 사용하면 Microsoft Teams에서 1:1 및 그룹 채�
 
 ## <a name="how-to-access-teams-export-apis"></a>Teams 내보내기 API에 액세스하는 방법
 
-- **예제 1은** 필터 없이 사용자의 모든 메시지를 검색하는 간단한 쿼리입니다.
+- **예제 1은** 필터 없이 사용자 또는 팀의 모든 메시지를 검색하는 간단한 쿼리입니다.
 
     ```HTTP
     GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
     ```
+     ```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages
+    ```
 
-- **예제 2는** 날짜 시간 필터 및 상위 50개 메시지를 지정하여 사용자의 모든 메시지를 검색하는 샘플 쿼리입니다.
+- **예제 2는** 날짜 시간 필터 및 상위 50개 메시지를 지정하여 사용자 또는 팀의 모든 메시지를 검색하는 샘플 쿼리입니다.
 
     ```HTTP
     GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
-
+```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    ```
 >[!NOTE]
->API는 여러 결과의 경우 다음 페이지 링크가 있는 응답을 반환합니다. 다음 결과 집합을 얻습니다. @odata.nextlink의 URL에서 GET을 호출하면 됩니다. @odata.nextlink가 존재하지 않는 경우 또는 null이면 모든 메시지가 검색됩니다.
+>The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
 
-## <a name="prerequisites-to-access-teams-export-apis"></a>Teams 내보내기 API에 액세스하기 위한 전제적 요구 
+## Prerequisites to access Teams Export APIs 
 
-- Teams 내보내기 API는 현재 미리 보기로 제공됩니다. API에 필요한 라이선스가 있는 사용자 및 [](https://aka.ms/teams-changenotification-licenses) 테넌트만 사용할 수 있습니다. 향후 Microsoft는 사용자 또는 고객이 API를 통해 액세스하는 데이터의 양에 따라 추가 요금을 지불해야 할 수 있습니다.
-- 중요한 데이터에 액세스하는 Microsoft Graph의 Microsoft Teams API는 보호된 API로 간주됩니다. API 내보내기 기능을 사용하려면 사용 권한 및 동의 이외에 추가 유효성 검사가 필요합니다. 이러한 보호된 API에 대한 액세스를 요청하기 위해 요청 양식을 [작성합니다.](https://aka.ms/teamsgraph/requestaccess)
-- 애플리케이션 권한은 로그인한 사용자가 없는 실행 앱에서 사용됩니다. 애플리케이션 권한은 관리자만 동의할 수 있습니다. 다음 권한이 필요합니다.
+- Teams Export APIs are currently in preview. It will only be available to users and tenants that have the [required licenses](https://aka.ms/teams-changenotification-licenses) for APIs. In the future, Microsoft may require you or your customers to pay additional fees based on the amount of data accessed through the API.
+- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
+- Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
 
-    - *Chat.Read.All:* 모든 1:1 및 그룹 채팅 메시지에 액세스할 수 있습니다. 
-    - *User.Read.All:* 테넌트에 대한 사용자 목록에 액세스할 수 있습니다. 
+    - *Chat.Read.All*: enables access to all 1:1 and Group chat messages 
+    - *User.Read.All*: enables access to the list of users for a tenant 
 
-## <a name="json-representation"></a>JSON 표현
+## JSON representation
 
-다음 예제는 리소스의 JSON 표현입니다.
+The following example is a JSON representation of the resource:
 
-네임스페이스: microsoft.graph
+Namespace: microsoft.graph
 
 ```JSON
 {

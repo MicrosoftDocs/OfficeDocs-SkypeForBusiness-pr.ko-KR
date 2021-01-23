@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17bf12a929f03ae766c57bb7f32da4e62f5a950
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a9ee7d3d4cd7d877925b649bb3f3b6a8da72ddf0
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662503"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49937440"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams의 보안 및 규정 준수
 
@@ -50,7 +50,7 @@ Microsoft Teams는 Microsoft 365 및 Office 365 대규모 엔터프라이즈급 
 
 ## <a name="security"></a>보안
 
-Teams는 팀 전체 및 조직 전체의 2단계 인증, Active Directory를 통한 Single Sign-On, 전송 중 및 미사용 데이터 암호화를 적용합니다. 파일은 SharePoint에 저장되고 SharePoint 암호화를 통해 백업됩니다. 노트는 OneNote에 저장되고 OneNote 암호화를 통해 백업됩니다. OneNote 데이터는 팀 SharePoint 사이트에 저장됩니다. 위키 탭은 노트를 찍는 데도 사용할 수 있으며 해당 콘텐츠는 팀 SharePoint 사이트 내에 저장됩니다.
+Teams는 팀 전체 및 조직 전체의 2단계 인증, Active Directory를 통한 Single Sign-On, 전송 중 및 미사용 데이터 암호화를 적용합니다. 파일은 SharePoint에 저장되고 SharePoint 암호화를 통해 백업됩니다. 노트는 OneNote에 저장되고 OneNote 암호화를 통해 백업됩니다. OneNote 데이터는 팀 SharePoint 사이트에 저장됩니다. 위키 탭은 노트를 찍는 데도 사용할 수 있으며, 해당 콘텐츠는 팀 SharePoint 사이트 내에 저장됩니다.
 
 ID [모델 및 인증을](identify-models-authentication.md) 읽고 인증 및 [](sign-in-teams.md) Teams에 대한 자세한 정보를 얻을 수 있으며 최신 인증이 작동하는 방식은 특히 최신 인증에 도움이 됩니다.
 
@@ -67,11 +67,11 @@ ATP(Advanced Threat Protection)는 콘텐츠 관리를 위해 Teams와 통합되
 
 ### <a name="safe-links"></a>안전 링크
 
-현재 Microsoft Teams에서는 ATP(Advanced Threat Protection) 안전 링크를 사용할 수 없는 [](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) 반면, 현재는 TAP(기술 채택 프로그램)를 통해 공개 미리 보기로 제공되어 있으며 일반 공급에 대한 릴리스 날짜가 설정되지 않은 경우 해당 시간이 도착하면 이 문서를 업데이트할 것입니다. 그 동안 Microsoft 365 또는 Office 365 안전 링크에 대한 자세한 내용은 ATP 안전 링크를 [검토하세요.](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) ATP 안전 링크는 [ATP 계획 1 및 ATP 계획 2에서 사용할 수 있습니다.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
+현재 Microsoft Teams에서는 ATP(Advanced Threat Protection) 안전 링크를 사용할 수 없는 [](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) 반면, 이제는 TAP(기술 채택 프로그램)을 통해 공개 미리 보기로 제공되어 있으며 일반 공급에 대한 릴리스 날짜가 설정되지 않은 경우 해당 시간이 도착하면 이 문서를 업데이트할 것입니다. 그 동안 Microsoft 365 또는 Office 365 안전 링크에 대한 자세한 내용은 ATP 안전 링크를 [검토하세요.](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) ATP 안전 링크는 [ATP 계획 1 및 ATP 계획 2에서 사용할 수 있습니다.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
 
 ### <a name="safe-attachments"></a>안전한 첨부 파일
 
-안전한 첨부 파일은 악의적인 첨부 파일을 확인하고 검색하여 사용자 보안을 강화하도록 설계된 기능입니다. 전역 또는 보안 관리자는 [](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) 이러한 의심되는 악성 첨부 파일을 처리하여 사용자에게 전송, 클릭 및 작업하지 못하게 하는 정책을 만들 수 있습니다. 안전한 첨부 파일 보호는 SharePoint, OneDrive 및 Microsoft Teams에서 사용할 수 있으며 Microsoft 365 또는 Office 365 Advanced Threat Protection 계획 1 및 [2에는](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 이 기능이 있습니다. 안전한 첨부 파일 및 안전한 첨부 파일에 대한 자세한 내용은 여기에서 조직을 보호하는 방법을 [읽어보세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
+안전한 첨부 파일은 악의적인 첨부 파일을 확인하고 검색하여 사용자 보안을 강화하도록 설계된 기능입니다. 전역 또는 보안 관리자는 [](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) 이러한 의심되는 악성 첨부 파일을 처리하여 사용자에게 전송, 클릭 및 작업하지 못하게 하는 정책을 만들 수 있습니다. 안전한 첨부 파일 보호는 SharePoint, OneDrive 및 Microsoft Teams에서 사용할 수 있으며, Microsoft 365 또는 Office 365 Advanced Threat Protection 계획 [1과 2에는](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 이 기능이 있습니다. 안전한 첨부 파일에 대한 자세한 정보 및 여기에서 조직을 보호하는 방법에 대해 [자세히 읽어보세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>Teams의 조건부 액세스 정책 작동 방식
 
@@ -100,6 +100,10 @@ Microsoft 365의 통신 규정 준수를 사용하면 Microsoft Teams 통신에�
 ### <a name="retention-policies"></a>보존 정책
 
 Microsoft Teams의 보존 정책을 사용하면 규정, 법률, 비즈니스 또는 기타 이유로 조직이 유지해야 하는 중요한 데이터를 보존하고 보존되지 않은 콘텐츠 및 통신을 제거할 수 있습니다. 보존 정책을 사용하여 데이터를 특정 기간 동안 보관한 다음 삭제할 수도 있습니다. 자세한 내용은 Microsoft [Teams 문서의 보존 정책을 검토하세요.](retention-policies.md)
+
+## <a name="sensitivity-labels"></a>민감도 레이블
+
+민감도 [레이블을 적용하여](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 팀 내에서 공동 작업하는 동안 생성된 중요한 조직 콘텐츠에 대한 액세스를 보호하고 규제합니다. 예를 들어 팀의 개인 정보(공개 또는 비공개)를 구성하고, 게스트 액세스 및 외부 공유를 제어하고, 관리되지 않는 디바이스의 액세스를 관리하는 레이블을 적용합니다. 자세한 내용은 Microsoft Teams 문서의 [민감도 레이블을 검토하세요.](sensitivity-labels.md)
 
 ### <a name="data-loss-prevention-dlp"></a>DLP(데이터 손실 방지)
 
@@ -134,7 +138,7 @@ Teams의 데이터 손실 방지에 대한 자세한 내용은 [Microsoft Teams�
 
 ### <a name="legal-hold"></a>법적 보류
 
-소송 중에는 사용자(보존자) 또는 팀과 연결된 모든 데이터를 변경 불가능한 것으로 보존해야 사례에 대한 증거로 사용될 수 있습니다. 사용자(사용자 사서함) 또는 팀을 법적 보류로 배치하여 이 작업을 할 수 있습니다. 팀 법적 보류의 경우 팀의 사서함은 다음 보류에 넣을 수 있습니다.
+소송 중에는 사용자(보존자) 또는 팀과 연결된 모든 데이터를 변경 불가능한 것으로 보존해야 사례에 대한 증거로 사용할 수 있습니다. 사용자(사용자 사서함) 또는 팀을 법적 보류에 배치하여 이 작업을 할 수 있습니다. 팀 법적 보류의 경우 팀의 사서함은 다음 보류에 넣을 수 있습니다.
 
 - In-Place 보류(대상 쿼리 또는 필터링된 콘텐츠를 통한 사서함 또는 사이트 모음의 하위 집합이 보류) 또는
 - 소송 보류(전체 사서함 또는 사이트 모음이 보류된 경우)
@@ -166,7 +170,7 @@ Microsoft에서 데이터를 보호하는 것이 최우선 순위입니다. 개�
 
 ## <a name="information-protection-architecture"></a>정보 보호 아키텍처
 
-다음 그림은 Teams 파일 및 메시지용 Exchange 및 SharePoint에 Teams 데이터의 수집 흐름을 나타냅니다.
+다음 그림은 Teams 파일 및 메시지에 대한 Exchange 및 SharePoint에 Teams 데이터의 수집 흐름을 나타냅니다.
 
 ![Exchange 및 SharePoint에 대한 Teams 데이터의 워크플로 다이어그램](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
