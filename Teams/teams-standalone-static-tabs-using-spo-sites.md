@@ -12,14 +12,14 @@ ms.collection:
 - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: 기존 SharePoint Online 사이트 또는 페이지를 이용해 조직의 인트라넷 포털로 사용할 수 있는 독립 실행형 정적 탭을 만듭니다.
+description: 기존 SharePoint Online 사이트 또는 페이지를 이용해 조직의 인트라넷 포털로 사용할 수 있는 독립 실행형 개인 탭을 만듭니다.
 localization_priority: Priority
-ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 7989478bf7fb81abdbd6ad9e553845302953c8cd
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923810"
+ms.locfileid: "49937510"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기
 
@@ -37,15 +37,26 @@ SharePoint 인트라넷 사이트의 *Teams 개인 앱* 이 만들어져 Teams �
 시작하기 전에 다음을 수행해야 합니다.
 
 1. SharePoint Online의 최신 커뮤니케이션이나 Team 사이트 또는 페이지의 URL을 알아야 합니다.
-    - 이런 사이트의 경로에는 항상 */teams/* 또는 */sites/* 가 있습니다.
+
+   이런 사이트의 경로에는 항상 */teams/* 또는 */sites/* 가 있습니다.
 
 2. 테넌트의 하위 도메인을 알아야 하며, **{{subdomain}}** 자리 표시자에 사용됩니다.
 
 3. 이 문서에서는 **{{siteUrl}}** 을(를) 사용자가 선택한 사이트 또는 페이지의 *URL* 에 대한 자리 표시자로 사용합니다.
-    - *URL* 예: `https://contoso.sharepoint.com/teams/Contoso`
-        *또는* `https://contoso.sharepoint.com/sites/Contoso`
+
+   *URL* 예:
+   
+   - `https://contoso.sharepoint.com/teams/Contoso`
+      <br/>*또는*
+   - `https://contoso.sharepoint.com/sites/Contoso`
+        
 4. 또한, **{{sitePath}}** 는 URL의 *경로*(예: /teams/Contoso)를 표시하는 데 사용됩니다.
-    - *경로* 예:   /teams/Contoso   *또는* /sites/Contoso
+
+   *경로* 예:
+   
+   - /teams/Contoso
+     <br/>*또는*
+   - /sites/Contoso
 
 아래 단계에 따라 시작하세요.
 
@@ -69,10 +80,13 @@ SharePoint 인트라넷 사이트의 *Teams 개인 앱* 이 만들어져 Teams �
 
 10. **contentURL 및 웹 사이트 URL** 을 입력합니다.
 
-- **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
-- **websiteUrl**: {{siteUrl}}
+    - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
+    
+    - **websiteUrl**: {{siteUrl}}
 
-    **contentURL** 예: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
+      **contentURL** 예: 
+      
+      `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. **도메인 및 사용 권한** 으로 이동합니다. 유효한 도메인 섹션에 SharePoint Online 도메인 이름이 있는지 확인합니다.
 
@@ -80,20 +94,24 @@ SharePoint 인트라넷 사이트의 *Teams 개인 앱* 이 만들어져 Teams �
 
 12. 다음 웹 앱 **single sign-on** 속성을 추가합니다.
 
-     예: **AAD 응용 프로그램 ID**: 00000003-0000-0ff1-ce00-000000000000  **리소스 Url**: {{subdomain}}.sharepoint.com
+    예제:
+    
+    - **AAD 응용 프로그램 ID**: 00000003-0000-0ff1-ce00-000000000000
+    
+    - **리소스 URL**: {{subdomain}}.sharepoint.com
 
-    ![ID와 URL을 사용한 웹 앱 single sign-on입니다.](media/personal-app.png)
+      ![ID와 URL을 사용한 웹 앱 single sign-on입니다.](media/personal-app.png)
 
 13. 이러한 속성을 **저장** 한 다음 **테스트 및 배포** 로 이동합니다.
 
 14. 앱을 설치하여 응용 프로그램을 개인적으로 테스트합니다.
 
-> [!IMPORTANT]
-> Teams App Studio를 사용하고 있지 않은 경우에는 방금 만든 manifest.JSON 파일을 .zip으로 압축하고, Teams에서 앱 스토어로 이동해 앱 스토어의 오른쪽 아래에 있는 **사용자 지정 앱 업로드** 링크를 클릭합니다. 이러면 앱을 사용할 수 있게 됩니다.
+    > [!IMPORTANT]
+    > Teams App Studio를 사용하고 있지 않은 경우에는 방금 만든 manifest.JSON 파일을 .zip으로 압축하고, Teams에서 앱 스토어로 이동해 앱 스토어의 오른쪽 아래에 있는 **사용자 지정 앱 업로드** 링크를 클릭합니다. 이러면 앱을 사용할 수 있게 됩니다.
 
-15. 이제 Teams에서 앱을 로드하여 정적 탭으로 볼 수 있습니다.
+15. 이제 Teams에서 앱을 로드하여 개인 사용할 수 있습니다.
 
-## <a name="test-and-view-your-new-static-tab"></a>새 정적 탭 테스트 및 보기
+## <a name="test-and-view-your-new-personal-tab"></a>새 개인 탭 테스트 및 보기
 
 Teams 데스크톱에서 새 탭을 보려면 앱 표시줄 왼쪽에 있는 줄임표(**...**)로 이동합니다. Teams에서 새 앱을 찾아 로드하고 독립 실행형 응용 프로그램을 테스트합니다.
 
@@ -105,7 +123,7 @@ Teams 데스크톱에서 새 탭을 보려면 앱 표시줄 왼쪽에 있는 줄
 
 사용자가 생성하는 JSON 파일이 아래와 같이 표시됩니다.
 
-```JSON'
+```json
 {
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
