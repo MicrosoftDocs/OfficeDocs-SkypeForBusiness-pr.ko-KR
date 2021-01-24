@@ -56,8 +56,6 @@
       href: create-manager-directs-teams.md
     - name: 팀 및 채널 정책 관리
       href: teams-policies.md
-    - name: Teams의 민감도 레이블
-      href: sensitivity-labels.md
     - name: Teams에서 채널 중재 설정
       href: manage-channel-moderation-in-teams.md
     - name: Teams에서 파일 공유
@@ -1241,6 +1239,8 @@
           href: communication-compliance.md
         - name: 통화 및 모임에 대한 정책 기반 녹음
           href: teams-recording-policy.md
+        - name: 민감도 레이블
+          href: sensitivity-labels.md
         - name: 데이터 손실 방지
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: eDiscovery
