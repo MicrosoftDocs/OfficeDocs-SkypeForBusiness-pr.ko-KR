@@ -17,12 +17,12 @@ description: 법적 절차를 위해 전자적으로 저장된 모든 정보를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 25729dea68d2d8ea75fae894387316dfbcd1975a
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: aa6b1212fda3983cc612885e41aa1131bb6f496d
+ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661913"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980462"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 수행
 
@@ -34,25 +34,27 @@ ms.locfileid: "49661913"
 
 개인 채널의 메시지 및 파일의 [](private-channels.md) eDiscovery는 표준 채널과 다르게 작동합니다. 자세한 내용은 개인 [채널의 eDiscovery를 참조하세요.](#ediscovery-of-private-channels)
 
-모든 Teams 콘텐츠는 eDiscoverable일 수 없습니다. 다음 표에서는 eDiscovery를 통해 위치할 수 있는 콘텐츠 형식을 보여줍니다.
+모든 Teams 콘텐츠는 eDiscoverable일 수 없습니다. 다음 표에서는 Microsoft eDiscovery 도구를 사용하여 검색할 수 있는 콘텐츠 형식을 보여줍니다.
 
 | 콘텐츠 형식 | eDiscoverable | 참고 |
-|:--- | --- |:--- |
-| Teams 채팅 메시지 | 예 |  |
-| 개인 채널 메시지 | 예 | |
-| 채널 이름 | 아니요 | |
-| 모임 IM 대화 | 예 | |
-| 모임 메타데이터<sup>1</sup> | 예 |  |
-| 편집된 메시지 | 예 | 사용자가 보류 중이면 편집된 이전 버전의 메시지가 유지됩니다. |
-| 이모지, GIF, 스티커 | 예 | |
-| 코드 코드시트 | 아니요 | |
-| 채팅 링크 | 예 | |
-| 반응(좋아, 하트 등) | 아니요 | |
-| 인라인 이미지 | 예 | |
-| 테이블 | 예 | |
-| 제목 | 예 | |
-| 따옴표 | 예 | 따옴표가 추가된 콘텐츠를 검색할 수 있습니다. 그러나 검색 결과에는 내용이 인용된 것으로 표시되지 않습니다. |
-| 오디오 녹음 | 아니요 | |
+|:--- | :--- |:--- |
+|오디오 녹음 | 아니요 | |
+|카드 콘텐츠|예|자세한 [내용은 카드 콘텐츠 검색을](#search-for-card-content) 참조하세요.|
+|채팅 링크 | 예 | |
+|채팅 메시지 | 예 |여기에는 Teams 채널의 콘텐츠, 1:1 채팅, 1:N 그룹 채팅, 게스트 사용자 참가자와의 채팅이 포함됩니다.  |
+|코드 코드시트 | 아니요 | |
+|편집된 메시지 | 예 | 사용자가 보류 중이면 편집된 이전 버전의 메시지도 유지됩니다. |
+|이모지, GIF 및 스티커 | 예 | |
+|인라인 이미지 | 예 | |
+|모임 IM 대화 | 예 | |
+|모임 메타데이터<sup>1</sup> | 예 |  |
+|채널 이름 | 아니요 | |
+|개인 채널 메시지 | 예 | |
+|따옴표 | 예 | 따옴표가 추가된 콘텐츠를 검색할 수 있습니다. 그러나 검색 결과에는 내용이 인용된 것으로 표시되지 않습니다. |
+|반응(예: 좋아, 하트 및 기타 반응) | 아니요 | |
+|제목 | 예 | |
+|테이블 | 예 | |
+|||
 
 <sup>1개</sup> 모임(및 통화) 메타데이터에는 다음이 포함됩니다.
 
@@ -63,10 +65,10 @@ ms.locfileid: "49661913"
 - 페더리된 사용자 조인
 - 게스트 사용자 조인
 
-이미지는 메타데이터의 예를 보여줍니다.
+  이 이미지는 모임 메타데이터의 예를 보여줍니다.
 
-> [!div class="mx-imgBorder"]
-> ![이미지는 CVR 레코드 모임 메타데이터입니다.](media/conversationOption3.png)
+  > [!div class="mx-imgBorder"]
+  > ![이미지는 CVR 레코드 모임 메타데이터입니다.](media/conversationOption3.png)
 
 다음은 모임 중에 참가자 간의 IM 대화 예제입니다.
 
@@ -77,7 +79,7 @@ ms.locfileid: "49661913"
 
 eDiscovery 조사 수행에 대한 자세한 내용은 [Core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)시작을 참조하세요.
 
-Microsoft Teams 데이터는 Excel eDiscovery 내보내기 출력에 IM 또는 대화로 표시됩니다. Outlook에서 파일을 열어 내보낼 때 해당 `.pst` 메시지를 볼 수 있습니다.
+Microsoft Teams 데이터는 Excel eDiscovery 내보내기 출력에 IM 또는 대화로 표시됩니다. Outlook에서 파일을 열어 내보낼 때 해당 메시지를 `.pst` 볼 수 있습니다.
 
 팀의 .pst 파일을 볼 때 모든 대화는 대화 기록 아래에 있는 팀 채팅 폴더에 보관됩니다. 메시지의 제목에는 팀 이름과 채널 이름이 포함되어 있습니다. 예를 들어 아래 이미지는 제조 사양 팀의 Project 7 표준 채널에 메시지를 보낸 Bob의 메시지를 보여줍니다.
 
@@ -189,9 +191,30 @@ eDiscovery 도구를 사용하여 조직의 게스트 사용자와 관련된 Tea
 
    - 내보내기 **결과를 클릭하여** 검색 결과를 내보내고 다운로드합니다.
 
+## <a name="search-for-card-content"></a>카드 콘텐츠 검색
+
+Teams 채널의 앱에서 생성한 카드 콘텐츠, 1:1 채팅 및 1xN 채팅은 사서함에 저장되고 검색할 수 있습니다. *카드는* 짧은 콘텐츠의 UI 컨테이너입니다. 카드에는 여러 속성과 첨부 파일이 있을 수 있으며 카드 작업을 트리거할 수 있는 단추를 포함할 수 있습니다. 자세한 내용은 카드를 [참조하세요.](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+
+다른 Teams 콘텐츠와 마찬가지로 카드 콘텐츠가 저장되는 위치는 카드가 사용된 위치를 기반으로 합니다. Teams 채널에 사용되는 카드의 콘텐츠는 Teams 그룹 사서함에 저장됩니다. 1:1 및 1xN 채팅의 카드 콘텐츠는 채팅 참가자의 사서함에 저장됩니다.
+
+카드 콘텐츠를 검색하기 위해 조건 또는 검색 `kind:microsoftteams` 조건을 `itemclass:IPM.SkypeTeams.Message` 사용할 수 있습니다. 검색 결과를 검토할 때 Teams 채널의 봇에서 생성된 카드 콘텐츠에는 보낸 **사람/작성자** 전자 메일 속성이 있습니다. 여기서 카드 콘텐츠를 생성한 앱의 `<appname>@teams.microsoft.com` `appname` 이름입니다. 사용자가 카드 콘텐츠를 생성한 경우 보낸 **사람/작성자의 값이** 사용자를 식별합니다.
+
+콘텐츠 검색 결과에서 카드 콘텐츠를 볼 때 콘텐츠는 메시지에 첨부 파일로 표시됩니다. 첨부 파일 이름은 카드 콘텐츠를 생성한 앱의 `appname.html` `appname` 이름입니다. 다음 스크린샷은 Teams 및 검색 결과에 카드 콘텐츠(Asana라는 앱의 경우)가 나타나는 방법을 보여 주며,
+
+**Teams의 카드 콘텐츠**
+
+![Teams 채널 메시지의 카드 콘텐츠](media/CardContentTeams.png)
+
+**검색 결과의 카드 콘텐츠**
+  
+![콘텐츠 검색 결과의 동일한 카드 콘텐츠](media/CardContentEdiscoverySearchResults.png)
+
+> [!NOTE]
+> 현재 카드 콘텐츠의 이미지를 검색 결과에 표시(예: 이전 스크린샷의 확인 표시)에 표시하기 위해 검색 결과를 보는 데 사용하는 동일한 브라우저 세션의 다른 탭에 있는 Teams에 https://teams.microsoft.com) 로그인해야 합니다. 그렇지 않으면 이미지 자리 표시자도 표시됩니다.
+
 ## <a name="advanced-ediscovery"></a>고급 eDiscovery
 
-고급 [eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20)워크플로를 사용하여 일부 Microsoft Teams 콘텐츠를 검색하고 보존할 수도 있습니다. eDiscovery는 다양한 검색, 보류 및 내보내기 기능을 제공하면서 고급 eDiscovery는 규정 준수 관리자에게 데이터 원본을 식별하고 해당 콘텐츠를 분석하는 더 많은 도구를 제공합니다.
+고급 [eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20)워크플로를 사용하여 일부 Microsoft Teams 콘텐츠를 검색하고 보존할 수도 있습니다. eDiscovery는 다양한 검색, 보류 및 내보내기 기능을 제공하는 반면 고급 eDiscovery는 규정 준수 관리자에게 데이터 원본을 식별하고 해당 콘텐츠를 분석하는 더 많은 도구를 제공합니다.
 
 ### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Teams 콘텐츠에 대한 고급 eDiscovery 관리 워크플로
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9ee7d3d4cd7d877925b649bb3f3b6a8da72ddf0
-ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
+ms.openlocfilehash: cfbf0ededcb1a5f3037bfb896242902daaa2a79b
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937440"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973082"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams의 보안 및 규정 준수
 
@@ -37,7 +37,7 @@ ms.locfileid: "49937440"
 >  - 2020년 4월 2일 업데이트: [Teams 보안 가이드](teams-security-guide.md)
 
 
-Microsoft Teams는 Microsoft 365 및 Office 365 대규모 엔터프라이즈급 클라우드를 구축하여 고객이 기대하는 고급 보안 및 규정 준수 기능을 제공합니다. Microsoft 365 또는 Office 365의 보안 계획에 대한 자세한 내용은 보안 로드맵을 시작하는 것이 좋습니다. [](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) Microsoft 365 또는 Office 365의 규정 준수 계획에 대한 자세한 내용은 보안 및 규정 준수 계획 문서에서 시작할 [수](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) 있습니다.
+Microsoft Teams는 Microsoft 365 및 Office 365 대규모 엔터프라이즈급 클라우드를 구축하여 고객이 기대하는 고급 보안 및 규정 준수 기능을 제공합니다. Microsoft 365 또는 Office 365의 보안 계획에 대한 자세한 내용은 보안 로드맵을 시작하는 것이 좋습니다. [](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) Microsoft 365 또는 Office 365의 규정 준수 계획에 대한 자세한 내용은 보안 및 규정 준수 [계획부터 & 있습니다.](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)
 
 
 이 문서에서는 Teams 관련 보안 및 규정 준수에 대한 추가 정보를 제공합니다. 보안 및 규정 준수에 대한 다음 Microsoft 역학 비디오를 놓치지 마세요.
@@ -50,7 +50,7 @@ Microsoft Teams는 Microsoft 365 및 Office 365 대규모 엔터프라이즈급 
 
 ## <a name="security"></a>보안
 
-Teams는 팀 전체 및 조직 전체의 2단계 인증, Active Directory를 통한 Single Sign-On, 전송 중 및 미사용 데이터 암호화를 적용합니다. 파일은 SharePoint에 저장되고 SharePoint 암호화를 통해 백업됩니다. 노트는 OneNote에 저장되고 OneNote 암호화를 통해 백업됩니다. OneNote 데이터는 팀 SharePoint 사이트에 저장됩니다. 위키 탭은 노트를 찍는 데도 사용할 수 있으며, 해당 콘텐츠는 팀 SharePoint 사이트 내에 저장됩니다.
+Teams는 팀 전체 및 조직 전체의 2단계 인증, Active Directory를 통한 Single Sign-On, 전송 중 및 미사용 데이터 암호화를 적용합니다. 파일은 SharePoint에 저장되고 SharePoint 암호화를 통해 백업됩니다. 노트는 OneNote에 저장되고 OneNote 암호화를 통해 백업됩니다. OneNote 데이터는 팀 SharePoint 사이트에 저장됩니다. 위키 탭은 노트를 찍는 데도 사용할 수 있으며 해당 콘텐츠는 팀 SharePoint 사이트 내에 저장됩니다.
 
 ID [모델 및 인증을](identify-models-authentication.md) 읽고 인증 및 [](sign-in-teams.md) Teams에 대한 자세한 정보를 얻을 수 있으며 최신 인증이 작동하는 방식은 특히 최신 인증에 도움이 됩니다.
 
@@ -63,21 +63,31 @@ Teams는 SharePoint, OneNote, Exchange 등에서 작동하기 때문에 Microsof
 
 ATP(Advanced Threat Protection)는 콘텐츠 관리를 위해 Teams와 통합되는 SharePoint 및 OneDrive 응용 프로그램과 함께 Microsoft Teams에서 사용할 수 있습니다. ATP를 사용하면 이러한 애플리케이션의 콘텐츠가 본질적으로 악의적인지 판단하고 사용자 액세스로부터 이 콘텐츠를 차단할 수 있습니다.
 
-감지 후 영향을 받는 콘텐츠를 관리하는 방식은 Microsoft 365 또는 Office 365에서 선택한 설정에 따라 다를 수 있습니다. ATP 구성과 관련한 모든 응용 프로그램을 고려하는 것이 좋습니다. 자세한 내용을 읽으 위해 [SharePoint, OneDrive 및 Microsoft Teams용 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) 문서에는 시작하는 방법에 대한 자세한 정보가 있습니다.
+감지 후 영향을 받는 콘텐츠를 관리하는 방식은 Microsoft 365 또는 Office 365에서 선택한 설정에 따라 다를 수 있습니다. ATP 구성과 관련한 모든 응용 프로그램을 고려하는 것이 좋습니다. 자세한 내용을 읽으면 [SharePoint, OneDrive 및 Microsoft Teams용 ATP에서](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) 시작하는 방법에 대한 자세한 정보가 있습니다.
 
 ### <a name="safe-links"></a>안전 링크
 
-현재 Microsoft Teams에서는 ATP(Advanced Threat Protection) 안전 링크를 사용할 수 없는 [](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) 반면, 이제는 TAP(기술 채택 프로그램)을 통해 공개 미리 보기로 제공되어 있으며 일반 공급에 대한 릴리스 날짜가 설정되지 않은 경우 해당 시간이 도착하면 이 문서를 업데이트할 것입니다. 그 동안 Microsoft 365 또는 Office 365 안전 링크에 대한 자세한 내용은 ATP 안전 링크를 [검토하세요.](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) ATP 안전 링크는 [ATP 계획 1 및 ATP 계획 2에서 사용할 수 있습니다.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
+현재 Microsoft Teams에서는 ATP(Advanced Threat Protection) 안전 링크를 사용할 수 없는 [](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) 반면, 현재는 TAP(기술 채택 프로그램)를 통해 공개 미리 보기로 제공되어 있으며 일반 공급에 대한 릴리스 날짜가 설정되지 않은 경우 해당 시간이 도착하면 이 문서를 업데이트할 것입니다. 그 동안 Microsoft 365 또는 Office 365 안전 링크에 대한 자세한 내용은 ATP 안전 링크를 [검토하세요.](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) ATP 안전 링크는 [ATP 계획 1 및 ATP 계획 2에서 사용할 수 있습니다.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
 
 ### <a name="safe-attachments"></a>안전한 첨부 파일
 
-안전한 첨부 파일은 악의적인 첨부 파일을 확인하고 검색하여 사용자 보안을 강화하도록 설계된 기능입니다. 전역 또는 보안 관리자는 [](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) 이러한 의심되는 악성 첨부 파일을 처리하여 사용자에게 전송, 클릭 및 작업하지 못하게 하는 정책을 만들 수 있습니다. 안전한 첨부 파일 보호는 SharePoint, OneDrive 및 Microsoft Teams에서 사용할 수 있으며, Microsoft 365 또는 Office 365 Advanced Threat Protection 계획 [1과 2에는](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 이 기능이 있습니다. 안전한 첨부 파일에 대한 자세한 정보 및 여기에서 조직을 보호하는 방법에 대해 [자세히 읽어보세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
+안전한 첨부 파일은 악의적인 첨부 파일을 확인하고 검색하여 사용자 보안을 강화하도록 설계된 기능입니다. 전역 또는 보안 관리자는 [](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) 이러한 의심되는 악성 첨부 파일을 처리하여 사용자에게 전송, 클릭 및 작업하지 못하게 하는 정책을 만들 수 있습니다. 안전한 첨부 파일 보호는 SharePoint, OneDrive 및 Microsoft Teams에서 사용할 수 있으며 Microsoft 365 또는 Office 365 Advanced Threat Protection 계획 1 및 [2에는](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 이 기능이 있습니다. 안전한 첨부 파일 및 [Office 365용 Microsoft Defender의](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)안전한 첨부 파일에서 조직을 보호하는 방법에 대해 자세히 읽어 읽습니다.
+
+### <a name="secure-score"></a>보안 점수
+
+Microsoft 보안 점수는 더 많은 개선 조치가 수행되었음을 나타내는 더 높은 수를 통해 조직의 보안 자세를 측정한 것입니다. [Microsoft 365 보안](https://security.microsoft.com/securescore)센터에서 찾을 수 있습니다. 보안 점수 권장 사항을 따라 조직을 위협으로부터 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드에서 조직은 Microsoft 365 ID, 앱 및 디바이스의 보안을 모니터링하고 작업할 수 있습니다. 이제 Microsoft Teams는 보안 점수에 대한 권장 사항을 제공하며 관리자는 플랫폼에서 보안 스위스를 모니터링하는 것이 권장됩니다.
+
+보안 점수는 조직에 도움이 됩니다.
+- 조직의 보안 상태의 현재 상태를 보고합니다.
+- 검색 가능성, 가시성, 지침 및 제어 기능을 제공하여 보안 상태 개선
+- 벤치마크와 비교하고 KPIS(핵심 성과 지표)를 설정합니다.
+
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>Teams의 조건부 액세스 정책 작동 방식
 
 Microsoft Teams는 모임, 일정, 상호 채팅, 파일 공유와 같은 핵심 생산성 시나리오를 위해 Exchange Online, SharePoint 및 비즈니스용 Skype Online에 크게 의존합니다. 이러한 클라우드 앱에 대해 설정된 조건부 액세스 정책은 사용자가 모든 클라이언트에서 Microsoft Teams에 직접 로그인할 때 Microsoft Teams에 적용됩니다.
 
-Microsoft Teams는 Azure Active Directory 조건부 액세스 정책에서 클라우드 앱으로 별도로 지원됩니다. Microsoft Teams 클라우드 앱에 대해 설정된 조건부 액세스 정책은 사용자가 로그인할 때 Microsoft Teams에 적용됩니다. 그러나 Exchange Online 및 SharePoint와 같은 다른 앱에서 올바른 정책이 없는 경우 사용자는 해당 리소스에 직접 액세스할 수 있습니다. Azure Portal에서 조건부 액세스 정책을 설정하는 자세한 내용은 Azure Active Directory 빠른 [시작으로 이동하세요.](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)
+Microsoft Teams는 Azure Active Directory 조건부 액세스 정책에서 클라우드 앱으로 별도로 지원됩니다. Microsoft Teams 클라우드 앱에 대해 설정된 조건부 액세스 정책은 사용자가 로그인할 때 Microsoft Teams에 적용됩니다. 그러나 Exchange Online 및 SharePoint와 같은 다른 앱에서 올바른 정책이 없는 경우 사용자는 해당 리소스에 직접 액세스할 수 있습니다. Azure Portal에서 조건부 액세스 정책 설정에 대한 자세한 내용은 [Azure Active Directory 빠른 시작을 참조하세요.](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)
 
 Windows 및 Mac용 Microsoft Teams 데스크톱 클라이언트는 최신 인증을 지원합니다. 최신 인증을 통해 Azure ADAL(Active Directory 인증 라이브러리)을 기반으로 로그인하여 플랫폼에서 Microsoft Office 애플리케이션을 만들 수 있습니다.
 
@@ -99,11 +109,11 @@ Microsoft 365의 통신 규정 준수를 사용하면 Microsoft Teams 통신에�
 
 ### <a name="retention-policies"></a>보존 정책
 
-Microsoft Teams의 보존 정책을 사용하면 규정, 법률, 비즈니스 또는 기타 이유로 조직이 유지해야 하는 중요한 데이터를 보존하고 보존되지 않은 콘텐츠 및 통신을 제거할 수 있습니다. 보존 정책을 사용하여 데이터를 특정 기간 동안 보관한 다음 삭제할 수도 있습니다. 자세한 내용은 Microsoft [Teams 문서의 보존 정책을 검토하세요.](retention-policies.md)
+Microsoft Teams의 보존 정책을 사용하면 규정, 법률, 비즈니스 또는 기타 이유로 조직이 유지해야 하는 중요한 데이터를 보존하고 보존되지 않은 콘텐츠 및 통신을 제거할 수 있습니다. 보존 정책을 사용하여 데이터를 특정 기간 동안 보관한 다음 삭제할 수도 있습니다. 자세한 내용은 [Microsoft Teams의 보존 정책을 검토하세요.](retention-policies.md)
 
 ## <a name="sensitivity-labels"></a>민감도 레이블
 
-민감도 [레이블을 적용하여](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 팀 내에서 공동 작업하는 동안 생성된 중요한 조직 콘텐츠에 대한 액세스를 보호하고 규제합니다. 예를 들어 팀의 개인 정보(공개 또는 비공개)를 구성하고, 게스트 액세스 및 외부 공유를 제어하고, 관리되지 않는 디바이스의 액세스를 관리하는 레이블을 적용합니다. 자세한 내용은 Microsoft Teams 문서의 [민감도 레이블을 검토하세요.](sensitivity-labels.md)
+민감도 [레이블을 적용하여](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 팀 내에서 공동 작업하는 동안 생성된 중요한 조직 콘텐츠에 대한 액세스를 보호하고 규제합니다. 예를 들어 팀의 개인 정보(공개 또는 비공개)를 구성하고, 게스트 액세스 및 외부 공유를 제어하고, 관리되지 않는 디바이스의 액세스를 관리하는 레이블을 적용합니다. 자세한 내용은 [Microsoft Teams에서 민감도 레이블을 검토하세요.](sensitivity-labels.md)
 
 ### <a name="data-loss-prevention-dlp"></a>DLP(데이터 손실 방지)
 
@@ -117,9 +127,9 @@ Teams의 데이터 손실 방지에 대한 자세한 내용은 [Microsoft Teams�
 
 보안 센터 및 규정 준수 센터에서 Microsoft 365 또는 Office 365 eDiscovery를 실행하고 Teams 콘텐츠에 대한 규정 준수 콘텐츠 검색을 실행하는 방법에 대한 자세한 내용은 아래 링크로 이동하세요.
 
-[eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
+ - [eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
 
-[콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)
+ - [콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)
 
 게스트-게스트 [채팅의 eDiscovery에](eDiscovery-investigation.md)대한 자세한 내용은 Teams 관련 문서를 제공합니다.
 
@@ -138,27 +148,27 @@ Teams의 데이터 손실 방지에 대한 자세한 내용은 [Microsoft Teams�
 
 ### <a name="legal-hold"></a>법적 보류
 
-소송 중에는 사용자(보존자) 또는 팀과 연결된 모든 데이터를 변경 불가능한 것으로 보존해야 사례에 대한 증거로 사용할 수 있습니다. 사용자(사용자 사서함) 또는 팀을 법적 보류에 배치하여 이 작업을 할 수 있습니다. 팀 법적 보류의 경우 팀의 사서함은 다음 보류에 넣을 수 있습니다.
+소송 중에는 사용자(보존자) 또는 팀과 연결된 모든 데이터를 변경 불가능한 것으로 보존해야 사례에 대한 증거로 사용될 수 있습니다. 사용자(사용자 사서함) 또는 팀을 법적 보류로 배치하여 이 작업을 할 수 있습니다. 팀 법적 보류의 경우 팀의 사서함은 다음 보류에 넣을 수 있습니다.
 
 - In-Place 보류(대상 쿼리 또는 필터링된 콘텐츠를 통한 사서함 또는 사이트 모음의 하위 집합이 보류) 또는
 - 소송 보류(전체 사서함 또는 사이트 모음이 보류된 경우)
 
 두 경우 모두 보류가 설정되면 최종 사용자가 그룹 사서함에 있는 채널 메시지를 삭제하거나 편집하는 경우에도 해당 콘텐츠의 변경 불가능한 복사본이 eDiscovery 검색을 통해 유지 관리되고 사용할 수 있습니다. 법적 보유는 일반적으로 eDiscovery 사례의 컨텍스트 내에서 적용됩니다.
 
-Microsoft 365 준수 [센터의](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 보존 및 보존에 대한 자세한 내용은 보존 정책 개요 문서를 참조하세요. 법적 보유에 대한 Teams 관련 정보를 더 자세히 알아보기 위해 [Microsoft Teams](legal-hold.md) 사용자 또는 팀을 법적 보류 문서에 추가합니다.
+Microsoft [](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 365 준수 센터에서 보존 및 보존에 대한 자세한 내용은 보존 정책 개요를 참조하세요. 법적 보류에 대한 Teams 관련 정보를 더 자세히 알아보기 위해 [Microsoft Teams](legal-hold.md) 사용자 또는 팀을 법적 보류에 추가합니다.
 
 ### <a name="compliance-content-search"></a>규정 준수 콘텐츠 검색
 
-콘텐츠 검색은 풍부한 필터링 기능을 통해 모든 Teams 데이터를 검색하는 데 사용할 수 있습니다. 결과 데이터는 규정 준수 및 소송 지원을 위해 특정 컨테이너로 내보낼 수 있습니다. eDiscovery 사례를 사용 또는 하지 않고 수행될 수 있습니다. 이를 통해 규정 준수 관리자는 모든 사용자에 걸쳐 Teams 데이터를 수집하고, 추가 처리를 위해 검토 및 내보낼 수 있습니다. Microsoft 365 준수 센터에서 Microsoft Teams 및 기타 Microsoft 365 또는 Office 365 콘텐츠에 대한 규정 준수 콘텐츠 검색을 수행 하는 방법에 대한 자세한 내용은 이 콘텐츠 검색 문서를 참조하세요. [](https://docs.microsoft.com/microsoft-365/compliance/content-search)
+콘텐츠 검색은 풍부한 필터링 기능을 통해 모든 Teams 데이터를 검색하는 데 사용할 수 있습니다. 결과 데이터는 규정 준수 및 소송 지원을 위해 특정 컨테이너로 내보낼 수 있습니다. eDiscovery 사례를 사용 또는 하지 않고 수행될 수 있습니다. 이를 통해 규정 준수 관리자는 모든 사용자에 걸쳐 Teams 데이터를 수집하고, 추가 처리를 위해 검토 및 내보낼 수 있습니다. Microsoft 365 규정 준수 센터에서 Microsoft Teams 및 기타 Microsoft 365 또는 Office 365 콘텐츠에 대한 규정 준수 콘텐츠 검색을 수행 하는 방법에 대한 자세한 내용은 콘텐츠 검색을 참조하세요. [](https://docs.microsoft.com/microsoft-365/compliance/content-search)
 
 > [!TIP]
 > 콘텐츠 검색을 사용하면 필요한 경우 채팅 및 채널 메시지, 모임, 통화와 같은 Microsoft Teams 콘텐츠만 필터링할 수 있습니다.
 
-콘텐츠 검색 구성에 대한 Teams 관련 추가 정보를 원하는 경우 Microsoft Teams 문서의 콘텐츠 검색을 [검토하세요.](content-search.md)
+콘텐츠 검색 구성에 대한 Teams 관련 추가 정보를 원하는 경우 Microsoft Teams에서 콘텐츠 [검색을 검토하세요.](content-search.md)
 
 ### <a name="auditing-and-reporting"></a>감사 및 보고
 
-감사 로그 검색은 Microsoft 365 준수 센터에 바로 연결하며, 무제한 감사 타임라인에서 관리자 사용 및 조사를 위해 워크로드 특정 또는 일반 이벤트 집합을 내보내고 감사 이벤트에 대한 보고뿐만 아니라 경고를 설정하는 기능을 제공합니다. Microsoft 365 준수 센터 내의 모든 감사 로그 데이터에 대한 경고를 설정하고 추가 분석을 위해 이 데이터를 필터링 및 내보낼 수 있습니다. Microsoft 365 또는 Office 365에 대한 감사 로그 검색을 수행 하는 방법에 대한 자세한 내용은 감사 로그 검색 문서를 참조하세요. [](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) Microsoft 365 준수 센터에서 Microsoft Teams 이벤트를 검색하는 방법을 자세히 알아보기 위해 [검토할](audit-log-events.md) 수 있도록 Teams 문서에서 감사 켜기 기능을 제공합니다.
+감사 로그 검색은 Microsoft 365 준수 센터에 바로 연결하며, 무제한 감사 타임라인에서 관리자 사용 및 조사를 위해 워크로드 특정 또는 일반 이벤트 집합을 내보내고 감사 이벤트에 대한 보고뿐만 아니라 경고를 설정하는 기능을 제공합니다. Microsoft 365 준수 센터 내의 모든 감사 로그 데이터에 대한 경고를 설정하고 추가 분석을 위해 이 데이터를 필터링 및 내보낼 수 있습니다. Microsoft 365 또는 Office 365에 대한 감사 로그 검색을 수행 하는 방법에 대한 자세한 내용은 감사 로그 검색을 참조합니다. [](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) Microsoft 365 준수 센터에서 Microsoft Teams 이벤트를 검색하는 방법을 자세히 알아보기 위해 [검토할 수](audit-log-events.md) 있도록 Teams에서 감사 켜기 기능을 제공합니다.
 
 ## <a name="privacy"></a>개인 정보
 
@@ -170,13 +180,15 @@ Microsoft에서 데이터를 보호하는 것이 최우선 순위입니다. 개�
 
 ## <a name="information-protection-architecture"></a>정보 보호 아키텍처
 
-다음 그림은 Teams 파일 및 메시지에 대한 Exchange 및 SharePoint에 Teams 데이터의 수집 흐름을 나타냅니다.
+다음 그림은 Teams 파일 및 메시지용 Exchange 및 SharePoint에 Teams 데이터의 수집 흐름을 나타냅니다.
 
-![Exchange 및 SharePoint에 대한 Teams 데이터의 워크플로 다이어그램](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+> [!div class="mx-imgBorder"]
+> ![Exchange 및 SharePoint에 대한 Teams 데이터의 워크플로 다이어그램](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 다음 그림은 Teams 모임의 수집 흐름과 Exchange에 데이터를 호출하는 흐름을 나타냅니다.
 
-![Teams 모임 및 Exchange에 데이터 호출 워크플로 다이어그램](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+> [!div class="mx-imgBorder"]
+> ![Teams 모임 및 Exchange에 데이터 호출 워크플로 다이어그램](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
 > Teams 콘텐츠를 검색하는 데 최대 24시간이 지연될 수 있습니다.
@@ -186,6 +198,7 @@ Microsoft에서 데이터를 보호하는 것이 최우선 순위입니다. 개�
 정보 보호 기능의 경우 Microsoft 365 구독, Office 365 구독 및 연결된 독립 실행형 라이선스에 따라 사용 가능한 기능 집합이 결정됩니다.
 
 보안 및 규정 준수를 위한 기능을 구현해야 하는 라이선스를 결정하는 데 필요한 정보는 보안 및 규정 준수 기능에 대한 라이선스 요구 사항을 검토하세요. [](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+
 > [!NOTE]
 > Content Search 및 eDiscovery는 Security & 준수 센터에서 사용할 필요가 없습니다.
 
@@ -195,7 +208,8 @@ Teams의 데이터는 Microsoft 365 또는 Office 365 조직과 연결된 지리
 
 테넌트에 대한 데이터를 저장하는 지역을 확인하려면 [Microsoft 365](https://portal.office.com/adminportal/home)관리 센터 설정  >    >  **조직 프로필로 이동합니다.** **데이터 위치** 로 스크롤 합니다.
 
-![관리 센터의 Teams를 포함한 데이터 위치 테이블의 스크린샷](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+> [!div class="mx-imgBorder"]
+> ![관리 센터의 Teams를 포함한 데이터 위치 테이블의 스크린샷](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 ## <a name="compliance-standards"></a>규정 준수 표준
 
