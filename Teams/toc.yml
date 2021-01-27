@@ -1155,8 +1155,12 @@
           href: edu-remote-low-bandwidth.md
         - name: 교육용 Teams 정책 마법사
           href: easy-policy-setup-edu.md
-        - name: 인사이트 시작하기
-          href: class-insights.md
+        - name: Insights 교육
+          items:
+            - name: Insights 시작하기
+              href: class-insights.md
+            - name: SIS 데이터 Insights와 동기화하기
+              href: education-insights-sis-data-sync.md
         - name: 교육용 Teams의 과제
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: 교육 관리자용 Teams 리소스
