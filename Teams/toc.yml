@@ -1255,6 +1255,8 @@
           href: content-search.md
         - name: 감사
           href: audit-log-events.md
+        - name: Microsoft Teams 내보내기 API를 사용하여 콘텐츠 내보내기
+          href: export-teams-content.md
         - name: Teams에 대한 테넌트 수준의 고객 키
           href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
     - name: 개인 정보
@@ -1726,8 +1728,6 @@
           href: emergency-calling-terms-and-conditions.md
     - name: 업그레이드 검색 질문
       href: upgrade-plan-journey-discovery-questionnaire.md
-    - name: Microsoft Teams 내보내기 API를 사용하여 콘텐츠 내보내기
-      href: export-teams-content.md
     - name: Teams 관리자 기능 릴리즈 노트
       href: release-notes/release-notes.md
     - name: Microsoft Teams의 공개 미리 보기
