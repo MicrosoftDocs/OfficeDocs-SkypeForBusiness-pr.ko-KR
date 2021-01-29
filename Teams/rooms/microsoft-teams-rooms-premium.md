@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams 회의실 관리 서비스에 대해 자세히 배워야 합니다.
 f1keywords: ''
-ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a70a07d4f17e4eb956c005ff4296a8f1b69f4d37
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662663"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043952"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 회의실 관리 서비스
 
@@ -42,9 +42,9 @@ Microsoft Teams Rooms 관리 서비스는 엔드포인트, 기계 학습 및 지
 |**모니터링 및 문제 해결**  |방 시스템 및 주변 장치와의 문제를 감지하고 Microsoft에서 구동하는 사전 인시던트 관리 대응을 제공하는 방 상태 모니터링입니다.         |
 |**업데이트 관리**    |Microsoft에서 수행한 방 시스템 및 주변 장치용 애플리케이션 및 펌웨어 업데이트의 관리 및 배달.         |
 |**인사이트 및 권장 사항**     |고객 상태, 사용량, 사용률 및 장비 안정성에 대한 인사이트입니다.         |
-|**규정 준수 및 인증**   |해당되는 모든 표준을 Microsoft Online Services.         |
+|**규정 준수 및 인증**   |사용 가능한 모든 표준을 Microsoft Online Services.         |
 |**고객 지원**   |전용 Microsoft Teams Rooms SOC(관리 서비스 운영 센터)를 통한 24x7x365 티켓 지원 해당하는 경우 다른 주 공급 업체에 대신 에스컬레이터를 설치합니다. 자세한 내용은 고객 지원을 [참조합니다.](#customer-support)|
-|**지원되는 장치**    |인증된 Microsoft Teams 회의실 시스템 및 주변 장치.         |
+|**지원되는 장치**    |인증된 Microsoft Teams 회의실 시스템 및 주변 장치<br>*2021년 하반기 출시 예정인 Surface Hub 지원*        |
 |**지원되는 지역**    |지원되는 [지역을 참조합니다.](#supported-regions)        |
 |**통합**    |고객 호스팅 서비스 지금과 사용 가능한 통합         |
 
@@ -66,7 +66,7 @@ Microsoft Teams Rooms 관리 서비스는 엔드포인트, 기계 학습 및 지
 
 Microsoft Teams 회의실 관리 서비스에서 서비스 품질을 유지하려면 등록된 회의실이 [Microsoft Teams 회의실](requirements.md#hardware-requirements)지원 장치로 설정되어야 합니다. 회의실 장치에서 허용하고 연결 가능한 모든 필수 Office [365 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 및 IP 주소 범위를 사용하여 환경을 준비해야 합니다. 자세한 내용은 Microsoft Teams 회의실 [설명서에서](rooms-prep.md) 환경 준비를 참조하세요.
 
-관리되는 서비스의 공급자인 Microsoft는 조직의 회의실에 대한 책임 있는 이해 관계자와 협의하여 회의실을 정상으로 유지하고 문제를 복구해야 합니다. 귀하는 회의실, 타사 또는 사용자 지정 소프트웨어에 사용되는 인증되지 않은 디바이스를 회의실 장치에 배포하고 Microsoft에서 권장하는 변경 관리 사례를 고수할 책임이 있습니다.
+관리되는 서비스의 공급자인 Microsoft는 조직의 회의실에 대한 책임 있는 이해 관계자와 협의하여 회의실을 정상으로 유지하고 문제를 복구해야 합니다. 회의실, 타사 또는 사용자 지정 소프트웨어에 사용되는 인증되지 않은 디바이스를 회의실 장치에 배포하고 Microsoft에서 권장하는 변경 관리 사례를 고수할 책임이 있습니다.
 
 조직 또는 조직에서 계약한 파트너는 서비스에서 검색된 마지막 마일 문제를 수정하기 위해 준비해야 합니다.
 
@@ -79,7 +79,7 @@ Microsoft Teams Rooms 관리 서비스는 전용 Microsoft Teams Rooms 관리 �
 |**범위**   |회의실 앱, 회의실 장치 및 주변 장치와 관련된 인시던트는 Microsoft Teams 회의실 관리 서비스 지원에 포함됩니다.|
 |**대상**  |IT 운영만 해당         |
 |**지원되는 언어**    |영어         |
-|**포털을 통한 지원 가용성**   | 24X7      |
+|**포털을 통한 가용성 지원**   | 24X7      |
 |**Microsoft Teams Rooms 관리 서비스 SOC에 대한 초기 응답 시간**   |  4시간       |
 |**고객 비활성의 경우 티켓 자동 폐쇄**    |고객이 시작한 티켓: 영업일 3일<br>시스템 시작 티켓: 영업일 15일</li>   </ul>      |
 |**광범위한 Microsoft 지원으로 리디렉션**   |Microsoft Teams 회의실 관리 서비스의 범위를 벗어날 경우 다른 Microsoft 제품과 관련된 문제는 적절한 지원 팀으로 연결됩니다.         |
@@ -91,29 +91,86 @@ Microsoft Teams Rooms 관리 서비스 지원 범위에 대한 자세한 내용�
 
 ## <a name="supported-regions"></a>지원되는 지역
 
-Microsoft Teams 회의실 관리 서비스는 다음 국가 및 지역에서 사용할 수 있습니다.
+Microsoft Teams 회의실 관리 서비스는 다음 국가 및 지역에서 사용할 수 있습니다. 
 
+- 안도라
 - 오스트레일리아
 - 오스트리아
 - 벨기에
-- 캐나다(퀘벡 제외)
+- 부베 섬
+- 브라질
+- 불가리아
+- 캐나다
+- 크리스마스 섬
+- 코코스(켈링) 제도
+- 쿡 제도
+- 크로아티아
+- 키프로스
+- 체코 공화국
 - 덴마크
-- 핀란드
+- 에스토니아
+- 페로 제도
+- 피지
+- 프랑스
 - 독일
+- 지브할타르
 - 그리스
+- 그린란드
+- 하드 섬 및 맥도널드 제도
+- 홍콩 특별 행정구
+- 헝가리
+- 아이슬란드
+- 인도
 - 아일랜드
 - 이탈리아
+- 일본
+- 키리바시
+- 라트비아
+- 레소토
+- 리히텐슈타인
+- 리투아니아
 - 룩셈부르크
+- 마카오 SAR
+- 몰타
+- 마셜 제도
+- 멕시코
+- 미크로네시아
 - 모나코
+- 나우루
 - 네덜란드
 - 뉴질랜드
+- 니우에
+- 노폴크 섬
+- 북마리아나 제도
 - 노르웨이
+- 팔라우
+- 파푸아뉴기니
+- 피테언 제도
+- 폴란드
 - 포르투갈
+- 루마니아
+- 러시아
+- 생피에르 미케론
+- 사모아
+- 산마리노
+- 싱가포르
+- 슬로바키아
+- 슬로베니아
+- 솔로몬 제도
+- 남아프리카 공화국
 - 스페인
+- 스와질란드
 - 스웨덴
 - 스위스
+- 대만
+- 토켈라우
+- Tonga
+- 투발루
 - 영국
 - 미국
+- 바누아투
+- 바티얀어시티
+- Wallis and Futuna
 
 ## <a name="support-inclusions-and-exclusions"></a>포함 및 제외 지원
 
@@ -121,11 +178,11 @@ Microsoft Teams 회의실 관리 서비스는 다음 국가 및 지역에서 사
 |포함된 것 |제외되는 대상 |제외된 항목에 대한 지원 채널  |
 |---------|---------|---------|
 |**서비스 구성**   |         |         |
-|Microsoft Teams Rooms Windows 구성에 대한 조사 및 지침(Microsoft Teams Rooms 앱 설정, 파티 네트워크 구성, 첫 번째 소프트웨어 설정 및 권장 전원 설정 및 구성 포함).     |Microsoft Teams Room 앱에 직접 참여하지 않는 모든 타사 소프트웨어 구성 및 조사입니다. 또한, Microsoft Teams Room 앱 설정 또는 Microsoft Teams Room 앱 설정 외부에서 구성이 필요한 OEM 관련 구성도 있습니다.         |타사 표준 지원 채널         |
+|Microsoft Teams Rooms Windows 구성에 대한 조사 및 지침(Microsoft Teams Rooms 앱 설정, 파티 네트워크 구성, 첫 번째 소프트웨어 설정 및 권장 전원 설정 및 구성 포함).     |Microsoft Teams Room 앱에 직접 참여하지 않는 모든 타사 소프트웨어 구성 및 조사입니다. 또한, Microsoft Teams Room 앱 설정 외부의 구성이 필요한 OEM 관련 구성도 있습니다.         |타사 표준 지원 채널         |
 |**방 계정 설정**    |         |         |
 |요청 시 방 계정 설정에 사용할 수 있는 설명서에 대한 방향입니다. 로그인 또는 계정 구성 문제의 경우 초기 조사가 수행됩니다.     |권장되는 수정 또는 권장되는 수정 실행, 타사 인증 공급자의 구성 및 개별 계정 기능 구성과 관련한 문제의 실행.        |Microsoft 기본 지원 및 타사 인증 공급자 지원         |
 |**주변 장치 지원**    |         |         |
-|카메라, 마이크 및 스피커와 같은 인증된 주변 장치에 대한 초기 조사가 수행됩니다.    |표준 구성을 적용하여 해결되지 않는 문제 또는 타사 애플리케이션 관련 문제.         |OEM 지원         |
+|카메라, 마이크 및 스피커와 같은 인증된 주변 장치에 대한 초기 조사가 수행됩니다.    |표준 구성을 적용하여 해결되지 않는 문제 또는 타사 애플리케이션 관련 문제         |OEM 지원         |
 |**RMA 및 디바이스 교체**   |         |         |
 |카메라, 마이크 및 스피커와 같은 인증된 주변 장치에 대한 초기 조사가 수행됩니다. OEM에 대한 지원은 OEM이 교체 또는 보증 요청을 이행하기 위해 수행됩니다.    |교체를 조달, 배송 또는 설치합니다.         |OEM 지원         |
 |**근본 원인 분석**     |         |         |

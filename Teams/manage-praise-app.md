@@ -3,24 +3,25 @@ title: Teams 관리 센터에서 칭찬 앱 관리
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.reviewer: adotey
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Microsoft Teams 관리 센터의 칭찬 앱의 관리자 설정에 대해 자세히 알아보기
-ms.openlocfilehash: 122e7f0ffad914e62ede56ebd1811d1504f3fcd7
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: acb9d000aeec61daa35421c5ded389888032873f
+ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909192"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50037854"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 칭찬 앱 관리
 
 > [!NOTE]
 > 관리자는 이 기능에 액세스하려면 Teams 라이선스가 있어야 합니다. Teams 라이선스 없이 이 기능에 액세스하려고 시도하면 오류 메시지가 표시됩니다.
 
-Microsoft Teams의 칭찬 앱은 사용자가 조직 또는 교실 구성원에게 감사를 표시하는 데 도움이 됩니다. 선택할 수 있는 배지 집합과 나만의 배지를 만들 수 있는 옵션을 사용하여 칭찬은 Teams 사용자가 강사부터 일선 작업자까지 다양한 작업 범위로 들어가는 노력을 인식할 수 있도록 디자인됩니다. 자세한 내용은 다른 사용자에 대한 [칭찬 보내기를 체크 아웃합니다.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
+Microsoft Teams의 칭찬 앱은 사용자가 조직 또는 교실 구성원에게 감사를 표시하는 데 도움이 됩니다. 선택할 수 있는 배지 집합과 나만의 배지를 만들 수 있는 옵션을 사용하여 칭찬은 Teams 사용자가 강사부터 일선 근로자까지 Teams 사용자가 하는 광범위한 작업으로 들어가는 노력을 인식할 수 있도록 디자인됩니다. 자세한 내용은 다른 사용자에 대한 [칭찬 보내기를 확인해 보아야 합니다.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
 
 관리자는 Microsoft Teams 관리 센터에서 조직에서 사용할 수 있는 배지를 제어할 수 있습니다. 왼쪽 탐색 모음에서 Teams 앱으로 이동하여 **> 관리합니다.** 앱 목록에서 칭찬을 클릭한 다음 설정을 **선택합니다.**   여기에서 기본 및 기본 제공 배지 집합을 사용하도록 설정하고 사용자 지정 배지를 만들 수 있습니다.
 
@@ -82,7 +83,7 @@ Microsoft Teams의 칭찬 앱은 사용자가 조직 또는 교실 구성원에�
 
 ## <a name="specify-colors-with-hex-values"></a>16진수 값을 사용하여 색 지정
 
-16진수 색 값은 666진수의 문자열로, 00에서 FF까지의 특정 색으로 RR(RR), 녹색(GG) 및 파란색(BB)의 강도를 나타냅니다. 세 가지 색의 값을 모두 합치면 16진수 값이 #RRGGBB
+16진수 색 값은 666진수의 문자열로, 00~FF 배율의 특정 색으로 RR(RR), 녹색(GG) 및 파란색(BB)의 강도를 나타냅니다. 세 가지 색의 값을 모두 합치면 16진수 값이 #RRGGBB
 
 예를 들어 빨간색의 16진수 값은 #FF0000 가장 높은 값, FF 및 녹색 및 파란색으로 설정되어 있기 때문에 빨간색의 16진수 값은 각각 가장 낮은 값인 00으로 설정됩니다.
 
@@ -147,7 +148,7 @@ Microsoft Teams의 칭찬 앱은 사용자가 조직 또는 교실 구성원에�
 |통신     |[통신 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/communication-badge.png)|#FFFFFF    |#173B65|
 |비판적 사고 |[비판적 사고 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/critical-thinking-badge.png)|#FFFFFF    |#084D26|
 |호기심         |[호기심 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/curiosity-badge.png)|#FFFFFF    |#008078|
-|Empathy           |[Empathy PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png)|#FFFFFF    |#650B35|
+|공감           |[Empathy PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png)|#FFFFFF    |#650B35|
 |목표 달성      |[목표 달성 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit-badge.png)|#FFFFFF    |#006F95|
 |동기        |[동기 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/motivation-badge.png)|#FFFFFF    |#C52127|
 |지속성       |[지속성 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png)|#FFFFFF    |#167D3E|
