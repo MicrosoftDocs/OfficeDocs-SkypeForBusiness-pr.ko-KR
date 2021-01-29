@@ -18,23 +18,25 @@ description: Microsoft Teams의 공개 미리 보기에 대해 자세히 알아�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: ab48796f877f6af33b8a3c1b2bc5a3cc56e7bd1e
-ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
+ms.openlocfilehash: 6a8d677b4acd56e6de5681d40a1e1aa69008a1ad
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49530985"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043962"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 공개 미리 보기
 
 > [!NOTE]
 > 미리 보기에 포함된 기능은 완전하지 않을 수 있으며, 일반에 정식으로 공개되기 전에 변경될 수 있습니다. 단지 평가 및 탐색 용도로만 제공됩니다.
 
-Microsoft Teams의 공개 미리 보기는 Teams에서 릴리스되지 않은 기능에 대한 조기 액세스를 제공합니다. 미리 보기를 사용하여 예정된 기능을 탐색하고 테스트할 수 있습니다. 당사는 또한 공개 미리 보기의 모든 기능에 대한 피드백을 환영합니다. 모든 Teams 사용자에 대해 공개 미리 보기를 사용하도록 설정했으므로 전체 조직에 영향을 미칠 걱정을 할 필요가 없습니다.
+Microsoft Teams의 공개 미리 보기는 Teams에서 릴리스되지 않은 기능에 대한 조기 액세스를 제공합니다. 미리 보기를 사용하여 예정된 기능을 탐색하고 테스트할 수 있습니다. 당사는 또한 공개 미리 보기의 모든 기능에 대한 피드백을 환영합니다. Teams 사용자별로 공개 미리 보기를 사용하도록 설정했으므로 전체 조직에 영향을 미칠 걱정을 할 필요가 없습니다.
+
+Teams 공개 미리 보기에서 사용할 수 있는 항목의 목록은 [Office 현재 채널(미리 보기) 릴리스 정보](https://docs.microsoft.com/officeupdates/current-channel-preview)를 참조하세요.
 
 ## <a name="set-the-update-policy"></a>업데이트 정책 설정
 
- 각 사용자에 대해 공개 미리 보기를 사용하도록 설정하였고 공개 미리 보기를 설정하는 옵션은 관리자 정책에서 제어합니다. 업데이트 정책은 Teams 앱의 시험판 또는 미리 보기 기능을 볼 수 있는 Teams 및 Office 미리 보기 사용자를 관리하는 데 사용됩니다. 전역(조직 전체의 기본값) 정책을 사용하고 사용자 지정하거나 특정 지역 사용자를 위한 맞춤 정책을 하나 이상 만들 수 있습니다. 정책은 전역 정책을 덮어쓰지 않으므로 특정 사용자에게 할당되어야 합니다.
+사용자별로 공개 미리 보기를 사용하도록 설정하였고 공개 미리 보기를 설정하는 옵션은 관리자 정책에서 제어합니다. 업데이트 정책은 Teams 앱의 시험판 또는 미리 보기 기능을 볼 수 있는 Teams 및 Office 미리 보기 사용자를 관리하는 데 사용됩니다. 전역(조직 전체의 기본값) 정책을 사용하고 사용자 지정하거나 특정 지역 사용자를 위한 맞춤 정책을 하나 이상 만들 수 있습니다. 정책은 전역 정책을 덮어쓰지 않으므로 특정 사용자에게 할당되어야 합니다.
 
 1. 관리 센터에 로그인합니다.
 2. **Teams**>**업데이트 정책** 을 선택합니다.
@@ -57,3 +59,4 @@ Microsoft Teams의 공개 미리 보기는 Teams에서 릴리스되지 않은 �
 ## <a name="related-topics"></a>관련 항목
 
 [공개 개발자 미리 보기](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
+
