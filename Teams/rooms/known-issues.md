@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 업데이트, 사용자 인터페이스, 하드웨어 및 제한 사항 및 예상 동작을 포함하여 Microsoft Teams 회의실에 대한 알려진 문제 목록에 대해 알 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: afa1bf4a2a4fdd36bd45d8b237998ec461dcc1f4
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 63a646fa6fb404cb46de889c318181146cb44b2a
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865242"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055740"
 ---
 # <a name="known-issues"></a>알려진 문제 
  
@@ -32,10 +32,10 @@ ms.locfileid: "49865242"
 | 문제 제목 |  동작 \/ 증상 | 알려진 해결 방법 | KB 문서 |
 |  ---        |      ---             |   ---            | --- |
 | 애플리케이션이 시작되지 않는 경우 |  애플리케이션 버전 4.4.41.0으로 업데이트한 후 시스템이 검은색 화면으로 부팅되거나 몇 분 후에 로그온 화면으로 이동됩니다. | 이 문제를 해결하기 위해 [버전 4.4.41.0으로](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) 업데이트한 후 Microsoft Teams Rooms 애플리케이션의 단계에 따라 시작되지 않습니다.  | 없음 |
-|  SfB 모임 콘텐츠 공유에 전체 화면이 표시되지 않습니다.         |    비즈니스용 Skype 모임에서 높은 DPI 설정을 사용하여 회의실 앞에 회의실이 표시될 경우 모임에 공유된 콘텐츠가 회의실 디스플레이 전면에 전체 화면이 표시되지 않는 문제가 있을 수 있습니다. 이는 Windows 10 RDP(원격 데스크톱 프로토콜) API의 기반 문제로 인해 발생했습니다. | `<WinRTRdpEnabled>`XML 설정을 사용하여 Windows 10 RDP API를 사용하지 않도록 설정하여 이 문제를 해결합니다. 사용하지 않도록 설정하려면 값을 으로 지정해야 `false` 합니다. 자세한 내용은 XML 구성 파일을 사용하여 콘솔 설정 [관리를 참조하세요.](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file) | 없음 |
+|  SfB 모임 콘텐츠 공유에 전체 화면이 표시되지 않습니다.         |    비즈니스용 Skype 모임에서 높은 DPI 설정을 사용하는 회의실이 표시될 경우 모임에 공유된 콘텐츠가 회의실 디스플레이 전면에 전체 화면이 표시되지 않는 문제가 있을 수 있습니다. 이는 Windows 10 RDP(원격 데스크톱 프로토콜) API의 기반 문제로 인해 발생했습니다. | `<WinRTRdpEnabled>`XML 설정을 사용하여 Windows 10 RDP API를 사용하지 않도록 설정하여 이 문제를 해결합니다. 사용하지 않도록 설정하려면 값을 으로 지정해야 `false` 합니다. 자세한 내용은 XML 구성 파일을 사용하여 콘솔 [설정 관리를 참조하세요.](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file) | 없음 |
 |  앱의 기간이 지난 경우         |    Microsoft Teams 회의실 콘솔에 "시스템 구성이 최신이 아니다." 오류가 표시됩니다.                |   [Microsoft Teams 회의실 복구 도구 사용](recovery-tool.md)             |  없음 |
-|  지원되지 않는 Windows 10 버전으로 디바이스 업데이트   |    Windows 10 디바이스가 버전 1803에서 버전 1809로 업데이트되었습니다. 이 디바이스는 지원되지 않습니다. 지원되는 버전은 1903입니다. |   지정된 일 수 동안 기능 업데이트를 연기할 수 있는 [DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) 설정에 대한 그룹 정책 또는 MDM 설정이 최대 365일로 설정되어 있는 경우 이 문제가 발생될 수 있습니다. <br><br> Windows 10 버전 1809는 Microsoft Teams 회의실에서 지원되지 않는 반면 버전 1903은 지원됩니다. 그러나 2020년 3월 27일을 현재 버전 1809는 365일이 넘습니다. 이 설정을 변경하지 않는 경우 Windows는 버전 1809를 설치하려고 시도하여 Microsoft Teams 회의실에 문제가 발생할 수 있습니다.<br><br>이 상황을 방지하려면 **업데이트** 연기에 대한 그룹 정책 또는 MDM 설정을 제거합니다. 이렇게 하면 Windows에서 지원되는 최신 OS 버전으로 업데이트할 수 있습니다. <br><br>**중요** 그룹 정책 또는 MDM  설정을 제거해야 합니다(구성되지 않은 왼쪽), **0으로 설정하지 않습니다.** 정책이 0으로 설정된 경우 Windows는 지원되지 않을 수 있는 사용 가능한 최신 버전을 사용하게 됩니다. |  없음 |
-|  Teams 모임에 참가할 수 없는 Cisco Room 장치   |    Cisco Room 장치에서 직접 게스트 조인을 사용하여 Teams 모임에 참가하는 데 실패하고 사용자가 참가를 선택하면 통화가 **종료됩니다.** |  Cisco Room 장치가 Teams 모임에 참가할 수 있는 Teams 웹 클라이언트의 변경으로 인해 이러한 회귀가 발생했습니다. 2020년 1월 15일까지 모든 테넌트에 배포될 이 문제의 픽스를 공개하고 있습니다. Cisco와 Microsoft는 향후 유사한 문제를 방지하기 위해 함께 작업하고 있습니다.   |  없음 |
+|  지원되지 않는 Windows 10 버전으로 디바이스 업데이트   |    Windows 10 디바이스가 버전 1803에서 버전 1809로 업데이트되었습니다. 이 디바이스는 지원되지 않습니다. 지원되는 버전은 1903입니다. |   지정된 일 수 동안 기능 업데이트를 연기할 수 있는 [DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) 설정에 대한 그룹 정책 또는 MDM 설정이 최대 365일로 설정되어 있는 경우 이 문제가 발생될 수 있습니다. <br><br> Windows 10 버전 1809는 Microsoft Teams 회의실에서 지원되지 않는 반면 버전 1903은 지원됩니다. 그러나 2020년 3월 27일을 현재 버전 1809는 365일이 넘습니다. 이 설정을 변경하지 않은 경우 Windows는 버전 1809를 설치하려고 시도하여 Microsoft Teams 회의실에 문제가 발생할 수 있습니다.<br><br>이 상황을 방지하려면 **업데이트** 연기에 대한 그룹 정책 또는 MDM 설정을 제거합니다. 이렇게 하면 Windows가 지원되는 최신 OS 버전으로 업데이트할 수 있습니다. <br><br>**중요** 그룹 정책 또는 MDM  설정을 제거하고(구성되지 않은 왼쪽) **0으로 설정하지 말아야 합니다.** 정책이 0으로 설정된 경우 Windows는 지원되지 않을 수 있는 사용 가능한 최신 버전을 사용하게 됩니다. |  없음 |
+
 
 
 <a name="OS-conflicts"> </a>  
@@ -70,7 +70,7 @@ _*_
 _*_
 
 Microsoft Teams Rooms 장치가 도메인과 신뢰를 잃는 경우 디바이스에 인증하고 설정을 열 수 없습니다. 예를 들어 도메인에 가입된 후 도메인에서 Microsoft Teams 회의실을 제거하면 신뢰가 손실됩니다. 해결 해결은 로컬 관리자 계정으로 로그인하는 것입니다. 
-_*_ Microsoft Teams 회의실은 다중 창 응용 프로그램으로, 앱이 제대로 작동하려면 장치의 HDMI 포트에 회의실 디스플레이를 연결해야 합니다. HDMI 디스플레이가 연결되어 있는지 확인하거나 테스트 중일 때 아직 디스플레이를 구입하지 않은 경우 더미 HDMI 플러그를 사용해야 합니다.
+_*_ Microsoft Teams 회의실은 다중 창 애플리케이션으로, 앱이 올바르게 작동하려면 장치의 HDMI 포트에 회의실 디스플레이 전면을 연결해야 합니다. HDMI 디스플레이가 연결되어 있는지 확인하거나 테스트 중일 때 아직 디스플레이를 구입하지 않은 경우 더미 HDMI 플러그를 사용해야 합니다.
 _** <a name="See"> </a>  
 ## <a name="see-also"></a>참고 항목
 

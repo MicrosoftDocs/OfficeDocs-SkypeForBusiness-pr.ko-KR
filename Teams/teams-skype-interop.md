@@ -1,7 +1,7 @@
 ---
 title: Teams 및 Skype 상호 연동성
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,16 +13,16 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 Teams 사용자와 Skype(소비자) 사용자 간의 상호 연동성 기능에 대해 자세히 배워야 합니다.
 localization_priority: Normal
-ms.openlocfilehash: 9063fc0f13bab9d0168296f9e77c5136e760b7a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8bb6a83eddc60ff680d1a08c7266e082dd8b0188
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802358"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055650"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams 및 Skype 상호 연동성
 
-이 문서에서는 Microsoft Teams와 Skype(소비자) 간의 상호 연동성 기능에 대한 개요를 제공합니다. Teams 사용자와 Skype 사용자가 채팅 및 통화 및 적용되는 관리 컨트롤을 통해 통신하는 방법을 배워보아야 합니다.
+이 문서에서는 Microsoft Teams와 Skype(소비자) 간의 상호 연동성 기능에 대한 개요를 제공합니다. Teams 사용자와 Skype 사용자가 채팅 및 통화 및 적용되는 관리 컨트롤을 통해 통신하는 방법을 배워보는 방법을 배워야 합니다.
 
 조직의 Teams 사용자는 전자 메일 주소를 사용하여 Skype 사용자와 채팅하고 전화를 걸 수 있으며 그 반대의 경우도 마찬가지입니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "49802358"
 
 ### <a name="teams-user-starts-a-chat-or-call-with-a-skype-user"></a>Teams 사용자가 Skype 사용자와 채팅 또는 통화를 시작합니다.
 
-Teams 사용자는 새 채팅 또는 검색 표시줄에 전자 메일 주소를 입력하여 Skype 사용자를 검색할 수 있습니다.  Teams 사용자는 검색 결과에서 Skype 사용자를 선택하여 채팅을 시작하거나 사용자와 통화할 수 있습니다.
+Teams 사용자는 새 채팅 또는 검색 표시줄에 전자 메일 주소를 입력하여 Skype 사용자를 검색할 수 있습니다.  그러면 Teams 사용자는 검색 결과에서 Skype 사용자를 선택하여 채팅을 시작하거나 해당 사용자와 통화할 수 있습니다.
 
 Skype 사용자는 검색 결과에 나타나지 않을 수 있습니다. 이 경우 Teams의 검색 결과에는 표시되지 않습니다. Teams 사용자는 검색 결과를 찾을 수 없습니다.
 
@@ -48,7 +48,7 @@ Skype 사용자는 검색 결과에 나타나지 않을 수 있습니다. 이 �
 
 Skype 사용자는 전자 메일 주소를 사용하여 Teams 사용자와 채팅을 검색하고 시작할 수 있습니다. Teams 사용자는 Skype 사용자의 새 메시지가 표시되고, 먼저 메시지를 수락해야 회신할 수 있습니다.
 
-- Teams 사용자가 수락을 선택하면 대화가 수락된 다음 두 사용자가 서로 채팅하고 전화를 걸 수 있습니다. 
+- Teams 사용자가 수락을 선택하면 대화가 수락됩니다. 두 사용자가 서로 채팅하고 통화할 수 있습니다. 
 - Teams 사용자가 차단을 선택하면 대화가 차단된 후 해당 Skype 사용자의 후속 메시지와 통화가 차단됩니다.
 - Teams 사용자가 메시지 보기를 선택하면 메시지가 Teams에 표시되어 사용자가 대화를 수락하거나 차단할지 여부를 결정하는 데 도움이 됩니다.
 
