@@ -18,12 +18,12 @@ description: Teams에서 클라우드 음성 기능을 배포하여 Teams 모임
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 40fad38d8c77d8194d2bf24a451fb9438f10c586
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 5fb43635d8155d6fe98f02e561ea843ca8c74a4e
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918974"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055640"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -35,7 +35,7 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 > Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
 
 > [!NOTE]
-> Teams 모임에서 역할을 사용하는 방법 및 사용자의 역할을 변경하는 방법에 대한 자세한 내용은 Teams 모임의 역할을 [참조하세요.](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)
+> Teams 모임에서 역할을 사용하는 방법과 사용자의 역할을 변경하는 방법에 대한 자세한 내용은 Teams 모임의 역할을 [참조하세요.](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화 필수 구성 요소
 
@@ -45,7 +45,7 @@ Teams 사용자의 모임을 기록하려면 테넌트에 대해 Microsoft Strea
 - 관리자가 설정한 경우 사용자는 회사 지침을 동의합니다.
 - 사용자는 Microsoft Stream의 저장 공간이 충분하여 녹음/녹화를 저장할 수 있습니다.
 - 사용자에게 모임 및 그룹 통화를 기록하기 위해 CsTeamsMeetingPolicy -AllowCloudRecording 설정이 true로 설정되어 있습니다.
-- 사용자에게 1:1 호출을 기록하기 위해 CsTeamsCallingPolicy -AllowCloudRecordingForCalls 설정이 true로 설정되어 있습니다.
+- 1:1 호출을 기록하기 위해 사용자에게 CsTeamsCallingPolicy -AllowCloudRecordingForCalls 설정이 true로 설정되어 있습니다.
 - 사용자는 모임에서 익명, 게스트 또는 페더레이션 사용자가 아닙니다.
 - 사용자의 모임 전사가 가능하도록 설정하려면 할당된 Teams 모임 정책에 -AllowTranscription 설정이 true로 설정되어 있어야 합니다.
 
@@ -108,11 +108,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                    회사의 모든 사용자가 모임을 녹음/녹화할 수 있게 하려고 합니다.                                    |                                                                     <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = True인지 확인<li>모든 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나가 있습니다. </ol>                                                                     |
 | 대부분의 사용자가 모임을 녹음/녹화할 수 있게하고 녹음/녹화를 허용하지 않는 특정 사용자를 선택적으로 해제하려고 합니다. |        <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = True인지 확인<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나가 있습니다.<li>다른 모든 사용자에게 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.</ol>         |
 |                                                   녹음/녹화를 100% 사용하지 않도록 설정하려고 합니다.                                                   |                                                                <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인<li>모든 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.                                                                 |
-|      대부분의 사용자에 대해 녹음/녹화를 해제하고 선택적으로 녹음할 수 있는 특정 사용자를 사용하도록 설정하려는 경우       | <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.<li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <ol> |
+|      대부분의 사용자에 대해 녹음/녹화를 해제하고 선택적으로 녹화할 수 있는 특정 사용자를 사용하도록 설정하려는 경우       | <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.<li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>모임 녹음/녹화가 저장된 위치
 
-모임 녹음/녹화는 Microsoft Stream 클라우드 저장소에 저장됩니다. Microsoft Stream이 데이터가 저장된 국내 데이터 보존 지역에서 제공되지 않는 경우 Teams 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 현재 설정되어 있습니다. Microsoft Stream을 국가 내 데이터 레지던시 지역에서 사용할 수 없는 경우에도 데이터가 국가에 저장되어 있어야 하는 고객에 대해 모임 녹음/녹화 기능을 사용할 수 있습니다. 녹음/녹화를 Microsoft Stream에 가장 가까운 지리적 지역에 저장할 수 있도록 하여 이 일을 할 수 있습니다. 
+모임 녹음/녹화는 Microsoft Stream 클라우드 저장소에 저장됩니다. Microsoft Stream이 데이터가 저장된 국내 데이터 보존 지역에서 제공되지 않는 경우 Teams 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 현재 설정되어 있습니다. Microsoft Stream을 국가 내 데이터 레지던시 지역에서 사용할 수 없는 경우에도 데이터가 국가에 저장되어 있어야 하는 고객에 대해 모임 녹화 기능을 사용할 수 있습니다. Microsoft Stream에 가장 가까운 지리적 지역에 기록을 저장할 수 있도록 하여 이 일을 할 수 있습니다. 
 
 Teams 데이터가 국내에 저장되어 있고 모임 녹음/녹화를 국내에 저장하기를 선호하는 경우 기능을 해제하고 Microsoft Stream이 국내 데이터 보존 지역에 배포된 이후 설정하는 것이 좋습니다. 조직의 모든 사용자에 대한 기능을 해제하려면 Microsoft  Teams 관리 센터에 있는 글로벌 Teams 모임 정책에서 클라우드 녹화 허용 설정을 해제합니다. 그러나 여전히 기록을 Microsoft Stream에 가장 가까운 지리적 지역에 저장할 수 있도록 설정하려면 이  변경이  진행되기 전에 클라우드 기록 허용 및 지역 외부 저장소 허용을 모두 설정해야 합니다.
 
@@ -120,36 +120,37 @@ Teams 데이터가 국내에 저장되어 있고 모임 녹음/녹화를 국내�
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
 
-Here's a summary of what happens when you turn on meeting recording when this change takes effect:
+다음은 해당 변경 내용이 적용될 때 모임 녹음/녹화를 설정하는 경우의 결과에 대한 요약입니다.
 
-|If you turn on meeting recordings...|Meeting recordings are stored... |
+|모임 녹음/녹화를 켜는 경우...|모임 녹음/녹화는 저장됩니다... |
 |---|---|
-|Before Microsoft Stream is available in your in-country data residency region |In the nearest Microsoft Stream region|
-|After Microsoft Stream is available in your in-country data residency region |In your in-country data residency region|
+|Microsoft Stream을 내 국가 데이터 레지전시 지역에서 사용할 수 있도록 하기 전에 |가장 가까운 Microsoft Stream 지역에서|
+|Microsoft Stream을 내 국가 데이터 레지전시 지역에서 사용할 수 있습니다. |내 국가 데이터 레지전시 지역에서|
 
-For new and existing tenants that haven't yet turned on meeting recording, new recordings are stored in-country after Microsoft Stream is available in the in-country data residency region. However, any tenant that enables meeting recording before Microsoft Stream is available in the in-country data residency region will continue to use the Microsoft Stream storage for existing and new recordings, even after Microsoft Stream is available in the in-country data residency region.
+모임 녹음/녹화를 아직 설정하지 않은 신규 및 기존 테넌트의 경우 Microsoft Stream이 국내 데이터 보존 지역에서 제공된 이후 새 녹음/녹화는 국내에 저장됩니다. 그러나 Microsoft Stream을 국가 내 데이터 레지던시 지역에서 사용할 수 있도록 하기 전에 모임 기록을 가능하게 하는 모든 테넌트는 Microsoft Stream을 내 국가 데이터 레지던시 지역에서 사용할 수 있는 후에도 기존 및 새 기록에 Microsoft Stream 저장소를 계속 사용할 수 있습니다.
 
-To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+Microsoft Stream 데이터가 저장된 지역을 찾으려면 Microsoft Stream에서 오른쪽 상단 모서리의 **?** 를 클릭하고 **Microsoft Stream 정보** 를 클릭한 다음 **사용자 데이터 저장 위치** 를 클릭합니다.  Microsoft Stream이 데이터를 저장하는 지역에 대한 자세한 내용은 [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)를 참조하세요.
 
-To learn more about where data is stored across services in Microsoft 365 or Office 365, see [Where is your data located?](https://products.office.com/where-is-your-data-located?rtc=1)
+Microsoft 365 또는 Office 365의 서비스에서 데이터가 저장되는 위치에 대한 자세한 내용은 데이터가 어디에 [있나요?](https://products.office.com/where-is-your-data-located?rtc=1)
 
-### Turn on or turn off recording transcription
+### <a name="turn-on-or-turn-off-recording-transcription"></a>녹음/녹화 기록 설정 또는 해제
 
-This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
+이 설정은 모임 녹화를 재생하는 동안 캡션 및 전사 기능을 사용할 수 있는지 여부를 제어합니다. 이 기능을 해제하면  모임 녹화를 재생하는 동안 검색 및 **CC** 옵션을 사용할 수 없습니다. 기록을 시작한 사람은 기록도 포함하기 위해 이 설정을 켜야 합니다.
 
 > [!NOTE]
-> That transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting. They are stored together with the meeting recordings in Microsoft Stream cloud storage.
+> 기록된 모임에 대한 기록은 현재 Teams의 언어가 영어로 설정된 사용자와 모임에서 영어가 음성으로 설정되어 있는 사용자만 지원됩니다. Microsoft Stream 클라우드 저장소에 모임 녹음/녹화와 함께 저장됩니다.
 
-You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
+Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 녹음/녹화 개시자에게 모임 녹음/녹화를 기록할 수 있는 선택권이 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 
-In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md#allow-transcription).
+Microsoft Teams 관리 센터에서 모임 정책의 **기록 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 [Teams에서 모임 정책 관리](meeting-policies-in-teams.md#allow-transcription)를 참조하세요.
 
-Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowTranscription 설정을 구성할 수 있습니다. 자세한 내용은 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)를 참조하세요.
 
-Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowTranscription disabled by default.
+사용자에게 사용자 지정 정책을 할당하지 않은 경우 사용자는 기본적으로 AllowTranscription을 해제한 전역 정책을 받게됩니다.
 
-For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
+사용자에 대한 전역 정책으로 변경하기 위해 다음과 같은 cmdlet를 사용하여 사용자에 대한 특정 정책 과제를 제거합니다.
 
 ```powershell
 Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
