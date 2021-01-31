@@ -1,1734 +1,1735 @@
-- name: Teams에 오신 것을 환영합니다
-  href: teams-overview.md
-- name: 아키텍처 및 전화 통신 솔루션 포스터
-  href: teams-architecture-solutions-posters.md
-- name: 원격 작업자(WFH) 지원
-  href: support-remote-work-with-teams.md
-- name: 교육
-  items:
-    - name: 개요
-      href: training-microsoft-teams-landing-page.md
-    - name: Teams에 대한 관리자 교육
-      href: itadmin-readiness.md
-    - name: Ignite 2020의 Teams 세션
-      href: ignite-2020-landing-page.md
-    - name: Teams 라이브 교육
-      href: instructor-led-training-teams-landing-page.yml
-    - name: Teams 온라인 교육
-      href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
-- name: Teams를 배포하는 방법
-  href: How-to-roll-out-teams.md
-- name: 시작
-  items:
-    - name: 개요
-      href: get-started-with-teams-quick-start.md
-    - name: '1단계: 첫 번째 팀과 채널 만들기'
-      href: get-started-with-teams-create-your-first-teams-and-channels.md
-    - name: '2단계: 얼리어답터 온보딩'
-      href: get-started-with-teams-onboard-early-adopters.md
-    - name: '3단계: 사용 현황 및 피드백 모니터링'
-      href: get-started-with-teams-monitor-usage-and-feedback.md
-    - name: '4단계: 조직 전체 출시 계획'
-      href: get-started-with-teams-resources-for-org-wide-rollout.md
-- name: '채팅, 팀 및 채널'
-  items:
-    - name: 배포 계획
-      href: deploy-chat-teams-channels-microsoft-teams-landing-page.md
-    - name: Teams용 관리자를 사용하여 Teams 배포
-      href: use-advisor-teams-roll-out.md
-    - name: 팀 및 채널 개요
-      href: teams-channels-overview.md
-    - name: 개인 채널 개요
-      href: private-channels.md
-    - name: 개인 채널의 수명 주기 관리
-      href: private-channels-life-cycle-management.md
-    - name: Teams에서 팀 소유자와 팀 구성원 할당
-      href: assign-roles-permissions.md
-    - name: 팀의 동적 구성원 개요
-      href: dynamic-memberships.md
-    - name: Teams에서 팀을 구성하는 방법에 대한 모범 사례
-      href: best-practices-organizing.md
-    - name: 대규모 팀 관리
-      href: best-practices-large-groups.md
-    - name: Teams에서 조직 전체 팀 만들기
-      href: create-an-org-wide-team.md
-    - name: 사용자 관리자 팀 만들기
-      href: create-manager-directs-teams.md
-    - name: 팀 및 채널 정책 관리
-      href: teams-policies.md
-    - name: Teams에서 채널 중재 설정
-      href: manage-channel-moderation-in-teams.md
-    - name: Teams에서 파일 공유
-      href: sharing-files-in-teams.md
-    - name: Teams 및 Outlook 전자 메일 통합
-      href: teams-outlook-email-integration.md
-    - name: 메시징 정책 관리
-      href: messaging-policies-in-teams.md
-    - name: Teams에서의 사용자 현재 상태
-      href: presence-admins.md
-    - name: Teams에서 태그 관리
-      href: manage-tags.md
-    - name: Teams에서 분석 보기
-      href: teams-analytics-and-reports/view-analytics.md
-    - name: 팀 만료 및 갱신
-      href: team-expiration-renewal.md
-    - name: 팀 보관 또는 삭제
-      href: archive-or-delete-a-team.md
-    - name: Slack에서 Teams로 마이그레이션
-      href: migrate-slack-to-teams.md
-    - name: Teams 서식 파일 작업
-      items:
-        - name: 관리 콘솔에서 Teams 서식 파일 사용
-          href: get-started-with-teams-templates-in-the-admin-console.md
-        - name: 중소기업을 위한 기본 제공 Teams 서식 파일 그래프
-          href: smb-templates.md
-        - name: 사용자 지정 Teams 서식 파일 만들기
-          href: create-a-team-template.md
-        - name: 기존 팀에서 서식 파일 만들기
-          href: create-template-from-existing-team.md
-        - name: 기존 서식 파일에서 서식 파일 작성
-          href: create-template-from-existing-template.md
-        - name: 금융 범주 Teams 서식 파일
-          href: financial-teams-templates-in-the-admin-console.md
-        - name: 일반 범주 Teams 서식 파일
-          href: general-teams-templates-in-the-admin-console.md
-        - name: 제조 범주 Teams 서식 파일
-          href: manufacturing-teams-templates-in-the-admin-console.md
-    - name: 외부 사용자와 의사 소통
-      items:
-        - name: 다른 조직의 사용자와 의사 소통
-          href: communicate-with-users-from-other-organizations.md
-        - name: 외부 액세스(페더레이션)
-          items:
-            - name: 외부 액세스 관리
-              href: manage-external-access.md
-            - name: 외부 사용자용 기본 Teams 채팅
-              href: native-chat-for-external-users.md
-            - name: Teams 및 Skype 상호 운용성
-              href: teams-skype-interop.md
-        - name: 게스트 액세스
-          items:
-            - name: 게스트 액세스 정보
-              href: guest-access.md
-            - name: 게스트 액세스 검사 목록
-              href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
-            - name: 게스트 경험
-              href: guest-experience.md
-            - name: 게스트 액세스 권한 부여
-              href: teams-dependencies.md
-            - name: 게스트 액세스 설정 또는 해제
-              href: set-up-guests.md
-            - name: 팀에 게스트 추가
-              href: add-guests.md
-            - name: 팀에서 게스트 사용자 보기
-              href: view-guests.md
-            - name: 게스트 사용자 정보 편집
-              href: edit-guests-information.md
-            - name: 게스트 액세스 문제 해결
-              href: troubleshoot-guest-access.md
-    - name: Teams의 Cortana
-      href: cortana-in-teams.md
-    - name: Teams 관리
-      items:
-        - name: 관리자 역할
-          href: using-admin-roles.md
-        - name: 조직의 Teams 설정 관리
-          href: enable-features-office-365.md
-        - name: 새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
-          href: manage-teams-skypeforbusiness-admin-center.md
-        - name: Microsoft Teams 관리 센터에서 Teams 관리
-          href: manage-teams-in-modern-portal.md
-        - name: Teams에서 팀 소유자와 팀 구성원 할당
-          href: assign-roles-permissions.md
-        - name: 사용자에게 정책 할당
-          href: assign-policies.md
-        - name: 활동 로그에서 정책 과제 보기
-          href: activity-log.md
-        - name: Teams에서 앱 사용 권한 정책 관리
-          href: teams-app-permission-policies.md
-        - name: Teams에서 앱 설정 정책 관리
-          href: teams-app-setup-policies.md
-        - name: Teams에서 사용자 지정 앱 정책 및 설정 관리
-          href: teams-custom-app-policies-and-settings.md
-        - name: Teams에서 피드백 정책 관리
-          href: manage-feedback-policies-in-teams.md
-        - name: Teams에서 정책 패키지 관리
-          href: manage-policy-packages.md
-        - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
-          href: configure-skype-meetings-app-to-work-with-teams.md
-        - name: 외부 액세스 관리
-          href: manage-external-access.md
-        - name: 인라인 메시지 번역 사용
-          href: inline-message-translation-teams.md
-        - name: Microsoft Teams 범위 디렉터리 검색 사용
-          href: teams-scoped-directory-search.md
-        - name: Teams 관리 센터의 분석 및 보고서
-          items:
-            - name: 개요
-              href: teams-analytics-and-reports/teams-reporting-reference.md
-            - name: Teams 사용 현황 보고서
-              href: teams-analytics-and-reports/teams-usage-report.md
-            - name: Teams 사용자 작업 보고서
-              href: teams-analytics-and-reports/user-activity-report.md
-            - name: Teams 앱 사용 현황 보고서
-              href: teams-analytics-and-reports/app-usage-report.md
-            - name: Teams 장치 사용 현황 보고서
-              href: teams-analytics-and-reports/device-usage-report.md
-            - name: PSTN으로 차단된 사용자 보고서
-              href: teams-analytics-and-reports/pstn-blocked-users-report.md
-            - name: PSTN 통화 시간 풀(분) 보고서
-              href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: PSTN 사용 현황 보고서
-              href: teams-analytics-and-reports/pstn-usage-report.md
-            - name: Teams 라이브 이벤트 사용 현황 보고서
-              href: teams-analytics-and-reports/teams-live-event-usage-report.md
-        - name: Microsoft 365 관리 센터의 Teams 활동 보고서
-          href: teams-activity-reports.md
-- name: '앱, 인공 지능 및 커넥터'
-  items:
-    - name: 개요
-      href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Power Platform과 통합
-      href: teams-power-platfom-integration.md
-    - name: Teams용 앱 관리
-      href: manage-apps.md
-    - name: Team에서 앱의 관리 설정
-      href: admin-settings.md
-    - name: 기본 제공 및 사용자 지정 탭 사용
-      href: built-in-custom-tabs.md
-    - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
-      href: Office-365-custom-connectors.md
-    - name: 리소스별 승인
-      href: resource-specific-consent.md
-    - name: 사용자 지정 앱
-      items:
-        - name: Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시
-          href: submit-approve-custom-apps.md
-        - name: Microsoft Teams 관리 센터에서 Power Platform 관리
-          href: manage-power-platform-apps.md
-        - name: 앱 패키지를 업로드하여 사용자 지정 앱 게시
-          href: upload-custom-apps.md
-        - name: 사용자 지정 앱 스토어
-          href: customize-your-app-store.md
-    - name: 앱 인증
-      href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 부여
-      href: app-permissions-admin-center.md
-    - name: 앱 사용 권한 및 고려 사항
-      href: app-permissions.md
-    - name: Teams 3자 앱 구매 서비스
-      href: purchase-third-party-apps.md
-    - name: Teams용 앱 서식 파일
-      href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-    - name: Teams에서 조직의 목록 앱 관리
-      href: manage-lists-app.md
-    - name: 조직에 대한 작업 앱 관리
-      href: manage-tasks-app.md
-    - name: 팀 대상 계층 구조 설정
-      href: set-up-your-team-hierarchy.md
-    - name: Teams 관리 센터에서 칭찬 앱 관리
-      href: manage-praise-app.md
-    - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
-      href: configure-skype-meetings-app-to-work-with-teams.md
-    - name: Teams 승인 앱 가용성
-      href: approval-admin.md
-- name: 모임 및 회의
-  items:
-    - name: 빠른 시작 - 모임 및 라이브 이벤트
-      href: quick-start-meetings-live-events.md
-    - name: 배포 계획
-      href: deploy-meetings-microsoft-teams-landing-page.md
-    - name: Microsoft Teams 룸
-      items:
-        - name: 개요
-          href: rooms/index.md
-        - name: 계획
-          items:
-            - name: Microsoft Teams 룸 계획의 개요
-              href: rooms/rooms-plan.md
-            - name: 버전 지원
-              href: rooms/rooms-lifecycle-support.md
-            - name: 릴리스 정보
-              href: rooms/rooms-release-note.md
-            - name: 환경 준비
-              href: rooms/rooms-prep.md
-            - name: 요구 사항
-              href: rooms/requirements.md
-            - name: 보안
-              href: rooms/security.md
-            - name: 온라인 라이선싱
-              href: rooms/rooms-licensing.md
-            - name: Azure 모니터를 사용한 계획 관리
-              href: rooms/azure-monitor-plan.md
-            - name: Microsoft Teams 룸 관리 서비스
-              items:
-                - name: Microsoft Teams 룸 관리 서비스를 사용한 계획 관리
-                  href: rooms/microsoft-teams-rooms-premium.md
-                - name: Microsoft Teams 룸 관리 서비스를 사용한 역할 기반 액세스 제어
-                  href: rooms/microsoft-teams-rooms-premium-rbac.md
-        - name: 배포
-          items:
-            - name: 배포 개요
-              href: rooms/rooms-deploy.md
-            - name: 계정 구성
-              href: rooms/rooms-configure-accounts.md
-            - name: Surface Hub
-              items:
-                - name: 조정된 모임 설정
-                  href: rooms/coordinated-meetings.md
-                - name: Microsoft Teams 설정 관리
-                  href: rooms/surface-hub-manage-config.md
-            - name: Office 365를 사용하면
-              href: rooms/with-office-365.md
-            - name: 비즈니스용 Skype 서버를 사용하면
-              href: rooms/with-skype-for-business-server-2015.md
-            - name: Exchange Online(하이브리드)를 사용하면
-              href: rooms/with-exchange-online.md
-            - name: Exchange 온-프레미스(하이브리드)를 사용하면
-              href: rooms/with-exchange-on-premises.md
-            - name: 콘솔 구성
-              href: rooms/console.md
-            - name: 수동으로 장치 업데이트
-              href: rooms/manual-update.md
-            - name: 인증 구성
-              href: rooms/rooms-authentication.md
-            - name: 타사 모임 참가
-              href: rooms/third-party-join.md
-            - name: Microsoft Endpoint Configuration Manager 사용
-              href: rooms/rooms-scale.md
-            - name: Azure Monitor를 사용한 관리
-              href: rooms/azure-monitor-deploy.md
-            - name: SRS v1 또는 LRS 마이그레이션
-              href: rooms/lrs-migration.md
-            - name: 콘텐츠 카메라
-              href: rooms/content-camera.md
-        - name: 관리
-          items:
-            - name: 관리 개요
-              href: rooms/rooms-manage.md
-            - name: 유지 관리 및 운영
-              href: rooms/rooms-operations.md
-            - name: 조직에서 Teams 지원
-              href: rooms/known-issues.md
-            - name: Azure 모니터를 사용하는 장치
-              href: rooms/azure-monitor-manage.md
-            - name: XML파일을 사용하여 설정
-              href: rooms/xml-config-file.md
-            - name: 복구 도구 사용
-              href: rooms/recovery-tool.md
-    - name: '자습서: Teams에서의 모임'
-      href: Tutorial-Meetings-in-Teams.yml
-    - name: 모임 정책 관리
-      href: meeting-policies-in-teams.md
-    - name: 사용자의 RestrictedAnonymousAccess 모임 정책 제거
-      href: meeting-policies-restricted-anonymous-access.md
-    - name: 모임 설정 관리
-      href: meeting-settings-in-teams.md
-    - name: 설정이 변경되면 사용자에게 전송되는 전자 메일
-      href: emails-sent-to-users-when-their-settings-change-in-teams.md
-    - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
-      href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-    - name: 모임의 시작 및 종료 알림 설정 또는 해제
-      href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-    - name: Teams에서 NDI® 기술 사용
-      href: use-NDI-in-meetings.md
-    - name: Teams 모임에서 손 올리기 옵션
-      href: raise-hand-meetings.md
-    - name: 지원되지 않는 브라우저에서 Teams 모임
-      href: unsupported-browsers.md
-    - name: Teams에서 데스크톱 공유 구성
-      href: configure-desktop-sharing.md
-    - name: Teams 클라우드 모임 녹음/녹화
-      href: cloud-recording.md
-    - name: 모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
-      href: tmr-meeting-recording-change.md
-    - name: 연락 센터 통합
-      href: teams-contact-center.md
-    - name: Outlook에서 Teams 모임 추가 기능 사용
-      href: teams-add-in-for-outlook.md
-    - name: 사용자의 전화 받기 기능 설정
-      href: set-up-the-call-me-feature-for-your-users.md
-    - name: 모임 참석 보고서 받기
-      href: teams-analytics-and-reports/meeting-attendance-report.md
-    - name: MMS(Meeting Migration Service) 설정
-      href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: Teams에서 화이트보드 관리
-      href: manage-whiteboard.md
-    - name: Google Workspace용 Teams 모임 추가 기능 설정
-      href: google-workspace-addon-teams.md
-    - name: 오디오 회의
-      items:
-        - name: 배포 계획
-          href: deploy-audio-conferencing-teams-landing-page.md
-        - name: Microsoft 365의 오디오 회의
-          href: audio-conferencing-in-office-365.md
-        - name: '미리 보기 열기: 오디오 회의에 대한 네트워크 회의'
-          href: audio-conferencing-on-network.md
-        - name: 오디오 회의 일반적인 질문
-          href: audio-conferencing-common-questions.md
-        - name: '자습서: Teams의 오디오 회의'
-          href: Tutorial-Audio-Conferencing.yml
-        - name: Microsoft 365에서 오디오 회의 체험 또는 구매
-          href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
-        - name: 미국 및 캐나다에 대한 확장 된 전화 접속 시간
-          href: dial-out-minutes-canada-us.md
-        - name: 오디오 회의 무료 전화 걸기 기간
-          href: complimentary-dial-out-period.md
-        - name: 오디오 회의 구독 ‘전화 걸기’/’전화 받기’ 혜택
-          href: audio-conferencing-subscription-dial-out.md
-        - name: 오디오 회의 설정
-          href: set-up-audio-conferencing-in-teams.md
-        - name: 오디오 회의 설정 - 중소기업을 위한 빠른 시작
-          href: audio-conferencing-smb.md
-        - name: Microsoft를 오디오 회의 공급자로 지정
-          href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: 오디오 회의 브리지 관리
-          items:
-            - name: 오디오 회의 브리지에서 전화 번호 변경
-              href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
-            - name: 오디오 회의 브리지의 설정 변경
-              href: change-the-settings-for-an-audio-conferencing-bridge.md
-            - name: 오디오 회의 번호 목록 보기
-              href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-            - name: 오디오 회의의 자동 전화 교환 언어 설정
-              href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-            - name: 사용자에 대한 모임 전화 접속 확인 설정
-              href: set-up-meeting-dial-out-confirmation.md
-        - name: 조직의 오디오 회의 설정 관리
-          href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
-        - name: 오디오 회의 분당 요금
-          href: audio-conferencing-pay-per-minute.md
-        - name: 사용자의 오디오 회의 설정 관리
-          items:
-            - name: 개요
-              href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
-            - name: 오디오 회의에 사용되는 사용자 목록 보기
-              href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
-            - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
-              href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-            - name: 사용자의 회의 ID 다시 설정
-              href: reset-a-conference-id-for-a-user-in-teams.md
-            - name: 사용자의 오디오 회의 PIN 재설정
-              href: reset-the-audio-conferencing-pin-in-teams.md
-            - name: 설정이 변경되면 자동으로 사용자에게 전송되는 전자 메일
-              href: emails-sent-to-users-when-their-settings-change-in-teams.md
-            - name: 오디오 회의 설정이 변경되면 전자 메일 보내기 사용 또는 사용 안 함
-              href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
-            - name: 특정 사용자의 무료 전화 번호 사용 안 함
-              href: disabling-toll-free-numbers-for-specific-teams-users.md
-            - name: 오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
-              href: outbound-calling-restriction-policies.md
-            - name: 사용자에게 할당된 회의 ID 보기 및 재설정
-              href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
-            - name: 오디오 회의 정보를 사용하여 사용자에게 전자 메일 보내기
-              href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-        - name: 오디오 회의용 모임 설정 관리
-          items:
-            - name: 다른 사람이 참여할 수 있도록 모임에서 전화 걸기
-              href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
-            - name: 모임의 시작 및 종료 알림 설정 또는 해제
-              href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-            - name: 오디오 회의 모임의 PIN 길이 설정
-              href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
-            - name: 초대에 포함할 전화 번호 설정
-              href: set-the-phone-numbers-included-on-invites-in-teams.md
-            - name: 휴대폰에서 PIN 없이 오디오 회의 시작
-              href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
-        - name: 오디오 회의의 국가 및 지역 가용성
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: 참조
-          items:
-            - name: 오디오 회의 지원되는 언어
-              href: audio-conferencing-supported-languages.md
-            - name: 오디오 회의의 전화 번호
-              href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: 오디오 회의의 국가 및 지역 가용성
-              href: audio-conferencing-zones.md
-            - name: 비디오 - Teams의 오디오 회의
-              href: audio-conferencing-videos.md
-    - name: 클라우드 비디오 Interop
-      href: cloud-video-interop.md
-    - name: 라이브 이벤트
-      items:
-        - name: Teams 라이브 이벤트란?
-          href: teams-live-events/what-are-teams-live-events.md
-        - name: Teams 라이브 이벤트 계획
-          href: teams-live-events/plan-for-teams-live-events.md
-        - name: Teams 라이브 이벤트 설정
-          href: teams-live-events/set-up-for-teams-live-events.md
-        - name: PowerShell을 사용하여 Teams 라이브 이벤트 정책 설정
-          href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-        - name: Teams 라이브 이벤트 설정 구성
-          href: teams-live-events/configure-teams-live-events.md
-- name: 음성 - 전화 시스템 및 PSTN 연결
-  items:
-    - name: Teams 음성 솔루션
-      href: cloud-voice-landing-page.md
-    - name: 전화 시스템
-      items:
-        - name: 전화 시스템이란?
-          href: what-is-phone-system-in-office-365.md
-        - name: 다음은 전화 시스템 기능입니다.
-          href: here-s-what-you-get-with-phone-system.md
-        - name: 전화 시스템 설정
-          href: setting-up-your-phone-system.md
-        - name: 공통 지역 전화 설정
-          href: set-up-common-area-phones.md
-        - name: 음성 메일
-          items:
-            - name: 클라우드 음성 메일 설정
-              href: set-up-phone-system-voicemail.md
-            - name: 음성 메일의 기본 언어 변경
-              href: change-the-default-language-for-greetings-and-emails.md
-            - name: 음성 메일 인사말 및 메시지 언어
-              href: languages-for-voicemail-greetings-and-messages.md
-        - name: 발신자 ID
-          items:
-            - name: 조직에서 발신자 ID를 사용하는 방법
-              href: how-can-caller-id-be-used-in-your-organization.md
-            - name: 발신자 ID 정책 관리
-              href: caller-id-policies.md
-            - name: 사용자의 발신자 ID 설정
-              href: set-the-caller-id-for-a-user.md
-            - name: 전화 회선 ID 및 발신자 이름에 대한 자세한 정보
-              href: more-about-calling-line-id-and-calling-party-name.md
-        - name: 자동 전화 교환 및 통화 큐
-          items:
-            - name: 계획
-              href: plan-auto-attendant-call-queue.md
-            - name: 자동 전화 교환 설정
-              href: create-a-phone-system-auto-attendant.md
-            - name: 통화 큐 설정
-              href: create-a-phone-system-call-queue.md
-            - name: Teams 자원 계정 관리
-              href: manage-resource-accounts.md
-            - name: 휴일 설정
-              href: set-up-holidays-in-teams.md
-            - name: 자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
-              href: answer-auto-attendant-and-call-queue-calls.md
-            - name: 보고서
-              href: aa-cq-cqd-historical-reports.md
-            - name: 다이얼 및 음성 참조
-              href: dial-voice-reference.md
-            - name: 보고
-              href: aa-cq-cqd-historical-reports.md
-        - name: 들어오는 호출 차단
-          href: block-inbound-calls.md
-        - name: 통화 대기 및 검색
-          href: call-park-and-retrieve.md
-        - name: 통화 공유 및 그룹 전화 받기
-          href: call-sharing-and-group-call-pickup.md
-        - name: 통화 정책
-          href: teams-calling-policy.md
-        - name: 회선 공유 기능
-          href: shared-line-appearance.md
-        - name: 다이얼 패드 구성
-          href: dial-pad-configuration.md
-    - name: 통화 플랜
-      items:
-        - name: 사용자에게 적합한 통화 플랜은 무엇인가요?
-          href: calling-plan-landing-page.md
-        - name: 통화 플랜을 구입하는 방법
-          href: calling-plans-for-office-365.md
-        - name: 조직의 통화 플랜 설정
-          href: set-up-calling-plans.md
-        - name: '빠른 시작 가이드: 통화 플랜 구성'
-          href: configuring-teams-calling-quickstartguide.md
-        - name: 통화 플랜의 국가 및 지역 가용성
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-    - name: 전화 시스템 직접 라우팅
-      items:
-        - name: 개요
-          href: direct-routing-landing-page.md
-        - name: 직접 라우팅 계획
-          href: direct-routing-plan.md
-        - name: 직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
-          href: direct-routing-border-controllers.md
-        - name: 직접 라우팅 구성
-          items:
-            - name: 개요
-              href: direct-routing-configure.md
-            - name: '1단계: SBC 연결'
-              href: direct-routing-connect-the-sbc.md
-            - name: '2단계: 사용자 활성화'
-              href: direct-routing-enable-users.md
-            - name: '3단계: 음성 라우팅 구성'
-              href: direct-routing-voice-routing.md
-            - name: '4단계: 전화 번호 번역'
-              href: direct-routing-translate-numbers.md
-            - name: 여러 테넌트에 대해 SBC 구성
-              href: direct-routing-sbc-multiple-tenants.md
-            - name: 직접 라우팅이 있는 아날로그 장치를 사용 하는 방법
-              href: direct-routing-analog-devices.md
-        - name: 위치 기반 라우팅
-          items:
-            - name: 직접 라우팅으로 전달되는 위치 기반 라우팅 계획
-              href: location-based-routing-plan.md
-            - name: 위치 기반 라우팅의 네트워크 설정 구성
-              href: location-based-routing-configure-network-settings.md
-            - name: 직접 라우팅에 위치 기반 라우팅 사용
-              href: location-based-routing-enable.md
-        - name: 직접 라우팅을 위한 미디어 바이패스
-          items:
-            - name: 직접 라우팅을 위한 미디어 바이패스 계획
-              href: direct-routing-plan-media-bypass.md
-            - name: 직접 라우팅을 위한 미디어 바이패스 구성
-              href: direct-routing-configure-media-bypass.md
-        - name: 직접 라우팅을 위한 로컬 미디어 최적화
-          items:
-            - name: 로컬 미디어 최적화 계획
-              href: direct-routing-media-optimization.md
-            - name: 로컬 미디어 최적화 구성
-              href: direct-routing-media-optimization-configure.md
-        - name: PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
-          href: direct-routing-user-accounts-in-a-hybrid-environment.md
-        - name: 직접 라우팅으로 마이그레이션
-          href: direct-routing-migrating.md
-        - name: 직접 라우팅 모니터링 및 문제 해결
-          items:
-            - name: 개요
-              href: direct-routing-monitor-and-troubleshoot.md
-            - name: 상태 대시보드
-              href: direct-routing-health-dashboard.md
-        - name: 직접 라우팅의 기술 참조
-          items:
-            - name: 발신 전화에 대한 트렁크 장애 조치
-              href: direct-routing-trunk-failover-on-outbound-call.md
-            - name: 미디어 경로 국가 코드
-              href: direct-routing-country-codes.md
-            - name: SBC(Session Border Controller) 연결을 테스트하기 위한 PowerShell 스크립트
-              href: sip-tester-powershell-script.md
-            - name: 통화 알림 관리
-              href: direct-routing-call-notifications.md
-            - name: 프로토콜
-              items:
-                - name: 정의 및 RFC 표준
-                  href: direct-routing-protocols.md
-                - name: SIP 프로토콜
-                  href: direct-routing-protocols-SIP.md
-                - name: 미디어 프로토콜
-                  href: direct-routing-protocols-media.md
-            - name: 음성 라우팅 정책 관리
-              href: manage-voice-routing-policies.md
-            - name: SBA(Survivable Branch Appliance) 직접 라우팅
-              href: direct-routing-survivable-branch-appliance.md
-    - name: 전화 번호
-      items:
-        - name: 조직의 전화 번호 관리
-          href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-        - name: 통화 플랜에 사용된 전화 번호 유형
-          href: different-kinds-of-phone-numbers-used-for-calling-plans.md
-        - name: 사용자의 전화 번호 가져오기
-          href: getting-phone-numbers-for-your-users.md
-        - name: 몇 개의 전화 번호를 받을 수 있나요?
-          href: how-many-phone-numbers-can-you-get.md
-        - name: 사용자의 전화 번호 검색
-          href: search-for-phone-numbers-for-users.md
-        - name: 조직의 전화 번호 목록 보기
-          href: see-a-list-of-phone-numbers-in-your-organization.md
-        - name: '사용자의 전화 번호 할당, 변경 또는 제거'
-          href: assign-change-or-remove-a-phone-number-for-a-user.md
-        - name: 서비스 전화 번호 가져오기
-          href: getting-service-phone-numbers.md
-        - name: 전화 번호 전송
-          items:
-            - name: 포트 순서
-              href: phone-number-calling-plans/port-order-overview.md
-            - name: Teams로 전화 번호 전송
-              href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-            - name: 포트 주문 수동 제출
-              href: phone-number-calling-plans/manually-submit-port-order.md
-            - name: 포트 주문의 상태 확인
-              href: phone-number-calling-plans/port-order-status.md
-        - name: 지원 평가 센터 및 적용 범위
-          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
-    - name: 통화 라우팅
-      items:
-        - name: 다이얼 플랜이 무엇인가요?
-          href: what-are-dial-plans.md
-        - name: 다이얼 플랜 만들기 및 관리
-          href: create-and-manage-dial-plans.md
-        - name: 보고 레이블 추가 및 업데이트
-          href: learn-more-about-site-upload.md
-    - name: 네트워크 설정 및 토폴로지
-      items:
-        - name: 클라우드 음성 기능에 대한 네트워크 설정
-          href: cloud-voice-network-settings.md
-        - name: 클라우드 음성 기능에 대한 네트워크 토폴로지 관리
-          href: manage-your-network-topology.md
-    - name: 비상 전화
-      items:
-        - name: 개요
-          href: what-are-emergency-locations-addresses-and-call-routing.md
-        - name: 동적인 긴급 전화 구성
-          href: configure-dynamic-emergency-calling.md
-        - name: 긴급 주소 관리
-          items:
-            - name: '조직의 응급 위치 추가, 변경 또는 제거'
-              href: add-change-remove-emergency-location-organization.md
-            - name: '조직의 응급 위치에 대한 장소 추가, 변경 또는 제거'
-              href: add-change-remove-emergency-place-organization.md
-            - name: 사용자의 응급 위치 할당 또는 변경
-              href: assign-change-emergency-location-user.md
-            - name: 사용자에게 응급 위치의 장소 할당 또는 변경
-              href: assign-change-emergency-place-user.md
-            - name: 긴급 전화 레이블
-              href: emergency-calling-labels.md
-        - name: 긴급 전화 정책 관리
-          href: manage-emergency-calling-policies.md
-        - name: 긴급 전화 라우팅 정책 관리
-          href: manage-emergency-call-routing-policies.md
-    - name: Contoso 음성 마이그레이션 사례 연구
-      items:
-        - name: 개요
-          href: voice-case-study-overview.md
-        - name: Teams 업그레이드 계획
-          href: voice-case-study-migration-plan.md
-        - name: 전화 시스템
-          href: voice-case-study-phone-system.md
-        - name: 위치 기반 라우팅
-          href: voice-case-study-location-based-routing.md
-        - name: 비상 전화
-          href: voice-case-study-emergency-calling.md
-        - name: 오디오 회의
-          href: voice-case-study-audio-conferencing.md
-        - name: 자동 전화 교환 및 통화 큐
-          href: voice-case-study-call-queues.md
-    - name: 참조
-      items:
-        - name: 국가 전화 번호 관리
-          items:
-            - name: 오스트레일리아 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
-            - name: 오스트리아 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
-            - name: 벨기에 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
-            - name: 캐나다 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
-            - name: 덴마크 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
-            - name: 프랑스 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
-            - name: 독일 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
-            - name: 아일랜드 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
-            - name: 이탈리아 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
-            - name: 일본 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
-            - name: 포르투갈 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
-            - name: 스페인의 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
-            - name: 네덜란드 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
-            - name: 스웨덴 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
-            - name: 스위스 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
-            - name: 영국 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
-            - name: 미국 전화 번호 관리
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
-        - name: 무료 전화 걸기 제한 사항
-          items:
-            - name: 개요
-              href: toll-free-dialing-limitations-and-restrictions.md
-            - name: 아르헨티나
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
-            - name: 오스트레일리아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
-            - name: 오스트리아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
-            - name: 벨로루시
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
-            - name: 벨기에
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
-            - name: 벨리즈
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: 보스니아 헤르체고비나
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
-            - name: 브라질
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
-            - name: 브루나이
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
-            - name: 불가리아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-            - name: 칠레
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
-            - name: 중국(북부)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
-            - name: 중국(남부)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
-            - name: 콜롬비아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
-            - name: 크로아티아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md
-            - name: 키프로스
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md
-            - name: 덴마크
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md
-            - name: 에콰도르
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md
-            - name: 이집트
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md
-            - name: 에스토니아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md
-            - name: 핀란드
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md
-            - name: 프랑스
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md
-            - name: 독일
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
-            - name: 온두라스
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: 홍콩
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
-            - name: 헝가리
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
-            - name: 인도
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
-            - name: 인도네시아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
-            - name: 아일랜드
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
-            - name: 이스라엘
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
-            - name: 이탈리아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
-            - name: 일본
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
-            - name: 케냐
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md
-            - name: 룩셈부르크
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md
-            - name: 말레이시아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
-            - name: 멕시코
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
-            - name: 몰도바
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
-            - name: 모나코
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
-            - name: 네덜란드
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md
-            - name: 파나마
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md
-            - name: 파라과이
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md
-            - name: 페루
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
-            - name: 필리핀
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
-            - name: 폴란드
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
-            - name: 포르투갈
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
-            - name: 카타르
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
-            - name: 루마니아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
-            - name: 사우디아라비아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md
-            - name: 세르비아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
-            - name: 싱가포르
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
-            - name: 슬로바키아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
-            - name: 슬로베니아
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
-            - name: 남아프리카 공화국
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
-            - name: 대한민국
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
-            - name: 스페인
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
-            - name: 스웨덴
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
-            - name: 스위스
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
-            - name: 대만
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
-            - name: 태국
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
-            - name: 터키
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
-            - name: 아랍에미리트(UAE)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
-            - name: 영국
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
-            - name: 우루과이
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
-            - name: 베네수엘라
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
-            - name: 베트남
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
-        - name: 통신 크레딧 관리
-          items:
-            - name: 통신 크레딧이란?
-              href: what-are-communications-credits.md
-            - name: 조직에 사용할 통신 크레딧 설정
-              href: set-up-communications-credits-for-your-organization.md
-            - name: 자금 추가 및 통신 크레딧 관리
-              href: add-funds-and-manage-communications-credits.md
-        - name: Microsoft Teams 통화 흐름
-          href: microsoft-teams-online-call-flows.md
-        - name: '자습서: Teams의 통화'
-          href: Tutorial-calling-in-teams.yml
-          items:
-            - name: 사용자 환경 계획
-              href: 5-envision-plan-my-users-experience.md
-- name: 도입
-  items:
-    - name: 개요
-      href: adopt-microsoft-teams-landing-page.md
-    - name: 시작
-      href: teams-adoption-get-started.md
-    - name: 1단계 - 시작
-      items:
-        - name: 시작
-          href: teams-adoption-phase1.md
-        - name: 팀과 채널 이해
-          href: teams-adoption-understand-teams-and-channels.md
-        - name: 첫 번째 팀 만들기
-          href: teams-adoption-your-first-teams.md
-        - name: 조직에서 Teams를 사용하기 위한 준비가 어느 정도인가요?
-          href: teams-adoption-assess-readiness.md
-    - name: 2단계 - 실험
-      items:
-        - name: 실험
-          href: teams-adoption-phase2-experiment.md
-        - name: 챔피언 프로그램 만들기
-          href: teams-adoption-create-champions-program.md
-        - name: 거버넌스 빠른 시작
-          href: teams-adoption-governance-quick-start.md
-        - name: 사용 시나리오 정의
-          href: teams-adoption-define-usage-scenarios.md
-        - name: 얼리어답터 온보딩 및 피드백 수집
-          href: teams-adoption-onboard-early-adopters.md
-        - name: 온보딩 지원
-          href: teams-adoption-onboard-support.md
-    - name: 3단계 - 배율
-      items:
-        - name: 확장
-          href: teams-adoption-phase3-enable.md
-        - name: 결과 및 성공 정의
-          href: teams-adoption-define-outcomes.md
-        - name: 피드백 및 보고 최적화
-          href: teams-adoption-optimize-feedback-and-reporting.md
-        - name: 인식 주도 및 교육 구현
-          href: teams-adoption-drive-awareness.md
-        - name: 서비스 상태 검토 예약
-          href: teams-adoption-schedule-service-health-reviews.md
-- name: Teams로 업그레이드
-  items:
-    - name: 시작
-      href: upgrade-start-here.md
-    - name: 업그레이드 프레임워크 정보
-      href: upgrade-framework.md
-    - name: 업그레이드 여정 계획
-      items:
-        - name: 프로젝트 및 요구 사항 계획
-          items:
-            - name: 개요
-              href: upgrade-plan-journey.md
-            - name: 프로젝트 관련자 참여
-              href: upgrade-enlist-stakeholders.md
-            - name: 프로젝트 범위 정의
-              href: upgrade-define-project-scope.md
-            - name: 공존 및 상호 운용성 이해
-              href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: PSTN 고려 사항
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
-            - name: 업그레이드 여정 선택
-              href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-            - name: 사용자 파일럿 계획
-              href: pilot-essentials.md
-        - name: Teams용 환경 준비
-          items:
-            - name: 기술 준비 개요
-              href: upgrade-prepare-environment.md
-            - name: Teams를 사용하도록 IT 직원 준비
-              href: upgrade-prepare-IT-pros.md
-            - name: 필수 구성 요소
-              href: upgrade-plan-journey-prerequisites.md
-            - name: 환경 평가
-              href: upgrade-plan-journey-evaluate-environment.md
-            - name: 서비스 준비
-              href: upgrade-prepare-environment-prepare-service.md
-        - name: Teams를 사용하도록 조직 준비
-          items:
-            - name: 조직 준비 개요
-              href: upgrade-prepare-organization.md
-            - name: 조직의 변경 준비 상태 평가
-              href: upgrade-org-change-readiness.md
-            - name: 사용자 준비 계획 준비
-              href: upgrade-user-readiness.md
-    - name: 업그레이드 수행
-      items:
-        - name: 개요
-          href: upgrade-to-Teams.md
-        - name: 비즈니스용 Skype Online을 Teams로 업그레이드
-          href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
-        - name: 비즈니스용 Skype 온-프레미스를 Teams로 업그레이드
-          href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
-    - name: '운영, 채택 및 최적화'
-      href: continue-journey.md
-    - name: 비즈니스용 Skype Online 단종
-      href: skype-for-business-online-retirement.md
-    - name: FAQ
-      href: FAQ-journey.yml
-    - name: 기술 라이브러리
-      items:
-        - name: IT 관리자를 위한 지침 업그레이드
-          items:
-            - name: 개요
-              href: upgrade-to-teams-on-prem-overview.md
-            - name: 업그레이드 방법
-              href: upgrade-to-teams-on-prem-upgrade-methods.md
-            - name: 업그레이드 관리 도구
-              href: upgrade-to-teams-on-prem-tools.md
-            - name: 온-프레미스 비즈니스용 Skype를 사용하는 조직에 대한 고려 사항
-              href: upgrade-to-teams-on-prem-considerations.md
-            - name: 업그레이드 수행
-              href: upgrade-to-teams-on-prem-implement.md
-            - name: Teams와 비즈니스용 Skype의 공존
-              href: upgrade-to-teams-on-prem-coexistence.md
-            - name: 공존 모드-참조
-              href: migration-interop-guidance-for-teams-with-skype.md
-            - name: Teams 클라이언트 환경 및 공존 모드 준수
-              href: teams-client-experience-and-conformance-to-coexistence-modes.md
-        - name: 공존 및 업그레이드 설정 지정
-          href: setting-your-coexistence-and-upgrade-settings.md
-        - name: 무엇보다도 모임을 우선으로
-          href: meetings-first.md
-- name: 하이브리드 연결
-  items:
-    - name: 하이브리드 연결 계획
-      href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-    - name: 하이브리드 연결 구성
-      items:
-        - name: 개요
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-        - name: 하이브리드 환경에 맞게 Azure AD Connect 구성하기
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-        - name: 비즈니스용 Skype 하이브리드 구성하기
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-    - name: 온-프레미스와 클라우드 간에 사용자 이동
-      items:
-        - name: 개요
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-        - name: 사용자를 온-프레미스에서 Teams로 이동
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-        - name: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-        - name: 사용자를 클라우드에서 온-프레미스로 이동
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-        - name: 모임 마이그레이션 관리
-          href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-    - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
-      href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-    - name: 리소스 포리스트 토폴로지 배포
-      href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-    - name: Teams 및 비즈니스용 Skype Online을 위한 클라우드 통합
-      items:
-        - name: 개요
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-        - name: 에지 인증서 업데이트
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-        - name: 여러 포리스트를 포함하도록 AAD Connect를 업데이트
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-    - name: Exchange 및 Sharepoint와의 통합
-      href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
-- name: Microsoft 365 Business Voice
-  items:
-    - name: Microsoft 365 Business Voice란 무엇인가요?
-      href: business-voice/whats-business-voice.md
-    - name: 국가 및 지역 가용성
-      href: business-voice/country-region-availability.md
-    - name: 구매 전에 알아야 할 사항
-      items:
-        - name: Business Voice를 사용하기 위해 구입해야 하는 것
-          href: business-voice/what-to-buy.md
-        - name: r리셀러 또는 파트너로부터 도움 받기
-          href: business-voice/reseller-partner-support.md
-        - name: 인터넷 연결 확인
-          href: business-voice/get-ready-internet.md
-        - name: 사용자 준비시키기
-          href: business-voice/prepare-users.md
-    - name: 시작 마법사의 실행
-      href: business-voice/use-getting-started-wizard.md
-    - name: 시도할 수 있는 사항
-      href: business-voice/things-to-try.md
-    - name: 설정 사용자 지정하기
-      items:
-        - name: 사용자 지정 옵션
-          href: business-voice/customize-business-voice.md
-        - name: 전화번호 이식
-          href: business-voice/port-phone-numbers.md
-        - name: 통화 정책 설정
-          href: business-voice/set-up-policies.md
-        - name: 정책 패키지 관리
-          href: business-voice/policy-packages.md
-        - name: 추가 사용자 만들기
-          href: business-voice/create-users.md
-        - name: 통화 큐 설정
-          href: business-voice/create-a-phone-system-call-queue-smb.md
-        - name: 자동 전화 교환 설정
-          href: business-voice/create-a-phone-system-auto-attendant-smb.md
-    - name: 설정 관리
-      items:
-        - name: 한 명 이상의 사용자를 생성합니다
-          href: business-voice/create-users.md
-        - name: 장치 관리
-          href: business-voice/manage-devices.md
-        - name: 통화 품질 모니터링
-          href: business-voice/monitor-quality.md
-        - name: 통화 품질 대시보드
-          href: business-voice/analytics-dashboard.md
-    - name: 파트너 리소스
-      href: business-voice/partner-resources.md
-- name: 산업 및 정부 지침
-  items:
-    - name: 개요
-      href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
-    - name: 모든 산업
-      items:
-        - name: Teams 서식 파일 시작
-          href: get-started-with-teams-templates.md
-        - name: Teams의 교대 근무
-          href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-          items:
-            - name: Teams에서 조직의 교대 근무 앱 관리
-              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 의료용 Teams
-      items:
-        - name: 의료 조직을 위한 Teams 시작
-          href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: 가상 방문
-          items:
-            - name: Teams를 사용하여 가상 방문 - EHR에 통
-              href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: 예약 및 Teams를 통한 가상 방문
-              href: bookings-app-admin.md
-        - name: 정책 패키지 보기 및 할당
-          href: policy-packages-healthcare.md
-        - name: 보안 메시징
-          items:
-            - name: 보안 메시징
-              href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
-            - name: 메시지 위임
-              href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Teams 서식 파일
-          items:
-            - name: 관리 콘솔에서 Teams 서식 파일 사용
-              href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 의료용 Teams 서식 파일
-              href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: Teams에서 조직의 목록 앱 관리
-          href: manage-lists-app.md
-        - name: 조직에 대한 작업 앱 관리
-          href: manage-tasks-app.md
-        - name: Teams의 교대 근무
-          items:
-            - name: Teams의 교대 근무
-              href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Teams에서 조직의 교대 근무 앱 관리
-              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 교육용 Teams
-      href: expand-teams-across-your-org/teams-for-education-landing-page.md
-      items:
-        - name: 빠른 시작 - 교육용 Teams 관리
-          href: teams-quick-start-edu.yml
-        - name: 원격 학습 시작
-          href: remote-learning-edu.md
-        - name: Teams EDU 정책 및 정책 패키지
-          href: policy-packages-edu.md
-        - name: 다수의 사용자에 정책 할당하기
-          href: batch-group-policy-assignment-edu.md
-        - name: 교사 및 학생을 위한 보안 그룹 생성을 위한 PowerShell 스크립트
-          href: scripts/powershell-script-security-groups-edu.md
-        - name: 교육 관리자용 낮은 대역폭 지침
-          href: edu-remote-low-bandwidth.md
-        - name: 교육용 Teams 정책 마법사
-          href: easy-policy-setup-edu.md
-        - name: Insights 교육
-          items:
-            - name: Insights 시작하기
-              href: class-insights.md
-            - name: SIS 데이터 Insights와 동기화하기
-              href: education-insights-sis-data-sync.md
-        - name: 교육용 Teams의 과제
-          href: expand-teams-across-your-org/assignments-in-teams.md
-        - name: 교육 관리자용 Teams 리소스
-          href: resources-teams-edu.md
-        - name: 관리자용 Microsoft 교육 거버넌스 FAQ
-          href: plan-teams-governance-edu.md
-        - name: Moodle 통합 설치
-          href: install-moodle-integration.md
-        - name: 교육용 Teams 라이선싱
-          href: teams-edu-licensing.md
-        - name: 교육 SKU 참조
-          href: sku-reference-edu.md
-    - name: 실무 직원용 Teams
-      items:
-        - name: 실무 직원용 빠른 시작
-          href: flw-quickstart.yml
-        - name: 실무 직원 스크립팅된 배포
-          href: flw-scripted-deployment.md
-        - name: 실무 직원에 대한 교대 기반 액세스 관리
-          href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-        - name: 'Microsoft Teams를 위한 RealWear '
-          href: flw-realwear.md
-        - name: Walkie Talkie
-          href: walkie-talkie.md
-        - name: SPO 사이트 또는 페이지에서 Teams 인트라넷 포털 앱 만들기
-          href: teams-standalone-static-tabs-using-spo-sites.md
-    - name: 소매용 Teams
-      href: expand-teams-across-your-org/teams-for-retail-landing-page.md
-      items:
-        - name: 관리 콘솔에서 소매용 Teams 서식 파일 시작
-          href: retail-teams-templates-in-the-admin-console.md
-        - name: 소매 Teams 서식 파일 시작
-          href: get-started-with-retail-teams-templates.md
-    - name: 정부 기관용 Teams
-      href: expand-teams-across-your-org/teams-for-government-landing-page.md
-      items:
-        - name: 원격 작업자(WFH) 지원
-          href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-        - name: 정부 기관용 Teams 서식 파일 시작
-          href: government-teams-templates-in-the-admin-console.md
-        - name: Office 365 G1 평가판 서비스 관리
-          href: g1-trial-license.md
-        - name: Microsoft 365 정부 - GCC 계획
-          href: plan-for-government-gcc.md
-        - name: ' Microsoft 365 정부 - GCC High 계획'
-          href: plan-for-government-gcc-high.md
-        - name: Microsoft 365 정부 - DoD 계획
-          href: plan-for-government-dod.md
-        - name: GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
-          href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
-        - name: 정부 기관용 팀 정책 패키지
-          href: policy-packages-gov.md
-- name: '보안, 개인 정보 보호, 규정 준수'
-  items:
-    - name: 개요
-      href: security-compliance-overview.md
-    - name: 보안
-      items:
-        - name: 보안 가이드
-          href: teams-security-guide.md
-        - name: Azure Sentinel 및 팀
-          href: teams-sentinel-guide.md
-        - name: ID 모델 및 인증
-          href: identify-models-authentication.md
-        - name: Microsoft Teams에 로그인
-          href: sign-in-teams.md
-        - name: Teams의 안전한 링크
-          href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-        - name: AppLocker 응용 프로그램 제어 정책
-          href: applocker-in-teams.md
-        - name: Sharepoint에 대한 액세스 차단
-          href: block-access-sharepoint.md
-    - name: 규정 준수
-      items:
-        - name: 정보 장벽
-          href: information-barriers-in-teams.md
-        - name: 보존 정책
-          href: retention-policies.md
-        - name: 커뮤니케이션 규정 준수
-          href: communication-compliance.md
-        - name: 통화 및 모임에 대한 정책 기반 녹음
-          href: teams-recording-policy.md
-        - name: 민감도 레이블
-          href: sensitivity-labels.md
-        - name: 데이터 손실 방지
-          href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-        - name: eDiscovery
-          href: ediscovery-investigation.md
-        - name: 법적 보존
-          href: legal-hold.md
-        - name: 콘텐츠 검색
-          href: content-search.md
-        - name: 감사
-          href: audit-log-events.md
-        - name: Microsoft Teams 내보내기 API를 사용하여 콘텐츠 내보내기
-          href: export-teams-content.md
-        - name: Teams에 대한 테넌트 수준의 고객 키
-          href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-    - name: 개인 정보
-      items:
-        - name: 개인 정보 보호 및 Microsoft Teams
-          href: teams-privacy.md
-        - name: 데이터 수집 사례
-          href: data-collection-practices.md
-        - name: Teams의 데이터 위치
-          href: location-of-data-in-teams.md
-        - name: 특정 사용자에 대해 Sharepoint Online에 대한 액세스 차단
-          href: block-access-sharepoint.md
-        - name: 정책 컨트롤 개요
-          href: policy-control-overview.md
-        - name: 모바일 진단 데이터
-          href: policy-control-diagnostic-data-mobile.md
-        - name: 데스크톱 클라이언트 진단 데이터
-          href: policy-control-diagnostic-data-desktop.md
-        - name: 선택적 연결된 환경
-          href: teams-privacy-oce-overview.md
-- name: '모니터링, 유지 관리 및 문제 해결'
-  items:
-    - name: 서비스 운영
-      href: upgrade-operate-my-service.md
-    - name: 서비스 향상
-      href: upgrade-enhance-my-service.md
-    - name: 통화 품질 모니터링 및 관리
-      items:
-        - name: 통화 품질 모니터링 및 향상
-          href: monitor-call-quality-qos.md
-        - name: CQD(통화 품질 대시보드)
-          items:
-            - name: CQD 정의
-              href: CQD-what-is-call-quality-dashboard.md
-            - name: CQD 설정
-              href: turning-on-and-using-call-quality-dashboard.md
-            - name: 테넌트 업로드 및 데이터 빌드
-              href: CQD-upload-tenant-building-data.md
-            - name: CQD 데이터 및 보고서
-              href: CQD-data-and-reports.md
-            - name: CQD를 사용하여 통화 및 모임 품질 관리
-              href: quality-of-experience-review-guide.md
-            - name: 자주 묻는 질문
-              href: CQD-frequently-asked-questions.md
-            - name: CQD에서 사용할 수 있는 차원 및 측정값
-              href: dimensions-and-measures-available-in-call-quality-dashboard.md
-            - name: CQD의 스트림 분류
-              href: stream-classification-in-call-quality-dashboard.md
-            - name: 건물 지도 만들기
-              href: CQD-building-mapping.md
-            - name: Power BI를 사용하여 CQD 데이터 분석
-              items:
-                - name: Power BI를 사용하여 CQD 데이터 분석
-                  href: CQD-Power-BI-query-templates.md
-                - name: CQD 쿼리 서식 파일을 사용하기 위해 Power BI 커넥터 설치
-                  href: CQD-Power-BI-connector.md
-                - name: Teams 사용률에 대한 CQD 데이터 가져오기
-                  href: CQD-teams-utilization-report.md
-                - name: CQD PSTN 직접 라우팅 보고서 사용
-                  href: CQD-PSTN-report.md
-        - name: 통화 분석
-          items:
-            - name: 통화 분석 설정
-              href: set-up-call-analytics.md
-            - name: 통화 분석을 사용하여 통화 품질 저하 문제 해결
-              href: use-call-analytics-to-troubleshoot-poor-call-quality.md
-        - name: QoS(서비스 품질)
-          items:
-            - name: Teams에 QoS 설정
-              href: QoS-in-Teams.md
-            - name: Windows 클라이언트에 QoS 설정
-              href: QoS-in-Teams-clients.md
-    - name: Teams 문제 해결
-      href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
-    - name: 설치 및 업데이트 문제 해결
-      href: troubleshoot-installation.md
-    - name: Teams 클라이언트의 연결 문제 해결
-      href: connectivity-issues.md
-    - name: 기존 시스템에서 메시지와 통화 수신 문제
-      href: legacy-login-issues.md
-    - name: Teams 문제 해결에 로그 파일 사용
-      href: log-files.md
-    - name: 자주 묻는 질문(FAQ) - 원격 작업자 지원
-      href: FAQ-support-remote-workforce.md
-    - name: Teams의 서비스 상태 확인
-      href: service-health.md
-    - name: 비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
-      href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: 참조
-  items:
-    - name: Teams의 제한과 사양
-      href: limits-specifications-teams.md
-    - name: Teams 배포 준비
-      items:
-        - name: Teams에 대한 조직의 네트워크 준비
-          href: prepare-network.md
-        - name: Teams용 관리자를 사용하여 Teams 배포
-          href: use-advisor-teams-roll-out.md
-        - name: Teams에 Network Planner 사용
-          href: network-planner.md
-        - name: Network Planner 연습
-          href: tutorial-network-planner-example.yml
-        - name: Teams 또는 비즈니스용 Skype Online용 프록시 서버
-          href: proxy-servers-for-skype-for-business-online.md
-        - name: Teams에서 팀을 만들 때 Microsoft 365 그룹에 대한 계획
-          href: plan-office-365-groups.md
-        - name: Teams에서 수명 주기 관리 계획
-          href: plan-teams-lifecycle.md
-        - name: Teams에서 거버넌스 계획
-          href: plan-teams-governance.md
-    - name: Teams 설치
-      items:
-        - name: Teams용 클라이언트 가져오기
-          href: get-clients.md
-        - name: 중국 Android용 Teams 가져오기
-          href: get-teams-android-in-china.md
-        - name: Teams 앱의 하드웨어 요구 사항
-          href: hardware-requirements-for-the-teams-app.md
-        - name: 하드웨어 디코더와 인코더 드라이버 권장 사항
-          href: hardware-decoders-and-encoders.md
-        - name: MSI를 사용하여 Teams 설치
-          href: msi-deployment.md
-        - name: 조직에서 Teams 설정
-          href: Office-365-set-up.md
-        - name: Microsoft Teams에서 메모리를 사용하는 방법
-          href: teams-memory-usage-perf.md
-        - name: Microsoft 365 및 Office 365 URL과 IP 주소 범위
-          href: office-365-urls-ip-address-ranges.md
-        - name: VDI(Virtualized Desktop Infrastructure)용 Teams
-          href: teams-for-vdi.md
-        - name: Surface Hub용 Teams 배포
-          href: teams-surface-hub.md
-        - name: Teams 클라이언트 업데이트
-          href: teams-client-update.md
-        - name: 설치 및 업데이트 문제 해결
-          href: troubleshoot-installation.md
-    - name: 라이선싱
-      items:
-        - name: Teams에 대한 사용자 액세스 관리
-          href: user-access.md
-        - name: Teams 추가 기능 라이선스 옵션
-          href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
-        - name: Teams 추가 기능 라이선스 할당하기
-          href: teams-add-on-licensing/assign-teams-add-on-licenses.md
-        - name: Office 365 E1 평가판 서비스 관리
-          href: e1-trial-license.md
-        - name: Office 365 G1 평가판 서비스 관리
-          href: g1-trial-license.md
-        - name: Teams 예비 환경 관리
-          href: teams-exploratory.md
-        - name: 무료 버전의 팀 관리
-          href: manage-freemium.md
-        - name: Teams를 구독 버전으로 무료 업그레이드
-          href: upgrade-freemium.md
-        - name: 고급 커뮤니케이션
-          href: teams-add-on-licensing/advanced-communications.md
-        - name: 메시징 정책 라이선스
-          href: teams-add-on-licensing/pri-message.md
-        - name: Microsoft 365 전화 시스템 - 가상 사용자 라이선스
-          href: teams-add-on-licensing/virtual-user.md
-    - name: Microsoft 365 및 Office 365와의 상호 운용성
-      items:
-        - name: Microsoft 365 그룹 및 Microsoft Teams
-          href: office-365-groups.md
-        - name: Microsoft 365 관리 센터를 사용하여 Microsoft 365 리소스 계정 만들기
-          href: devices/resource-account-ui.md
-        - name: Teams와 기존 Microsoft 365 그룹 향상
-          href: enhance-office-365-groups.md
-        - name: Exchange와 Teams의 상호 작용 방법
-          href: exchange-teams-interact.md
-          items:
-            - name: Teams와 사용할 Exchange 하이브리드 조직 구성
-              href: exchange-hybrid-organization.md
-            - name: Exchange에서 메일 흐름 규칙 사용
-              href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
-        - name: SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법
-          href: sharepoint-onedrive-interact.md
-        - name: Microsoft 365 또는 Office 365의 다중 지역 지원 테넌시의 Teams 환경
-          href: teams-experience-o365odb-spo-multi-geo.md
-    - name: 지원되는 장치
-      items:
-        - name: Teams에서 디바이스 관리
-          href: devices/device-management.md
-        - name: 원격으로 장치 업데이트
-          href: devices/remote-update.md
-        - name: Teams 디바이스 태그 관리
-          href: devices/manage-device-tags.md
-        - name: Teams용 전화
-          href: devices/phones-for-teams.md
-        - name: Teams 디스플레이
-          href: devices/teams-displays.md
-        - name: Teams 디스플레이에 Teams 휴대폰 업그레이드
-          href: devices/upgrade-phones-to-displays.md
-        - name: Intune을 사용하여 Teams 휴대폰 및 Teams 디스플레이 배포
-          href: devices/phones-displays-deploy.md
-        - name: USB 오디오 및 비디오 디바이스
-          href: devices/usb-devices.md
-        - name: Microsoft Teams용 공동 작업 모음 배포
-          href: devices/collab-bar-deploy.md
-        - name: 회의실 디바이스 및 솔루션
-          href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Microsoft Teams에서 인증 받은 IP 휴대폰
-          href: devices/teams-ip-phones.md
-        - name: 비즈니스용 Skype Online용 휴대폰
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: Teams PowerShell
-      items:
-        - name: 개요
-          href: teams-powershell-overview.md
-        - name: Teams PowerShell 설치
-          href: teams-powershell-install.md
-        - name: Teams PowerShell을 사용하여 Teams 관리
-          href: teams-powershell-managing-teams.md
-        - name: Teams PowerShell 릴리스 노트
-          href: teams-powershell-release-notes.md
-        - name: 비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 이동
-          href: teams-powershell-move-from-sfbo.md
-        - name: Teams용 Cmdlet 참조
-          href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
-    - name: Teams용 개발자 문서
-      href: 'https://docs.microsoft.com/microsoftteams/platform'
-    - name: Teams에서 도움말 보기
-      href: get-help-in-microsoft-teams.md
-    - name: Teams 콘텐츠 업데이트
-      href: teams-updates.md
-    - name: 지원 PIN을 찾는 방법
-      href: support-pin.md
-    - name: 오디오 회의 및 통화 플랜의 국가 및 지역 가용성
-      items:
-        - name: 개요
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: 알바니아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
-        - name: 알제리
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md
-        - name: 앤티가 바부다
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md
-        - name: 아르헨티나
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md
-        - name: 오스트레일리아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md
-        - name: 오스트리아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md
-        - name: 바하마
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md
-        - name: 바레인
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md
-        - name: 방글라데시
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md
-        - name: 바베이도스
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md
-        - name: 벨로루시
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md
-        - name: 벨기에
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md
-        - name: 벨리즈
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md
-        - name: 베냉
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
-        - name: 버뮤다
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: 보스니아 헤르체고비나
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
-        - name: 브라질
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
-        - name: 브루나이
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md
-        - name: 불가리아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md
-        - name: 캄보디아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md
-        - name: 카메룬
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md
-        - name: 캐나다
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md
-        - name: 케이맨 제도
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md
-        - name: 칠레
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md
-        - name: 중국
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md
-        - name: 콜롬비아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md
-        - name: 코스타리카
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md
-        - name: 크로아티아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md
-        - name: 키프로스
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md
-        - name: 체코 공화국
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md
-        - name: 덴마크
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md
-        - name: 도미니카
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-dominica.md
-        - name: 도미니카 공화국
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md
-        - name: 에콰도르
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md
-        - name: 이집트
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md
-        - name: 엘살바도르
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md
-        - name: 에스토니아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md
-        - name: 핀란드
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md
-        - name: 프랑스
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md
-        - name: 조지아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md
-        - name: 독일
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md
-        - name: 가나
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md
-        - name: 그리스
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md
-        - name: 그레나다
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md
-        - name: 괌
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md
-        - name: 과테말라
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
-        - name: 온두라스
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
-        - name: 홍콩
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
-        - name: 헝가리
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
-        - name: 인도
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md
-        - name: 인도네시아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md
-        - name: 아일랜드
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md
-        - name: 이스라엘
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md
-        - name: 이탈리아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md
-        - name: 자메이카
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jamaica.md
-        - name: 일본
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md
-        - name: 요르단
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md
-        - name: 케냐
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md
-        - name: 쿠웨이트
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md
-        - name: 라트비아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md
-        - name: 리투아니아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md
-        - name: 룩셈부르크
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md
-        - name: 마케도니아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md
-        - name: 말레이시아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md
-        - name: 몰타
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md
-        - name: 멕시코
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md
-        - name: 몰도바
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md
-        - name: 모나코
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md
-        - name: 모로코
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md
-        - name: 네덜란드
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md
-        - name: 뉴질랜드
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md
-        - name: 니카라과
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md
-        - name: 나이지리아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md
-        - name: 북마리아나 제도
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md
-        - name: 노르웨이
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md
-        - name: 파키스탄
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md
-        - name: 파나마
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md
-        - name: 파라과이
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md
-        - name: 페루
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md
-        - name: 필리핀
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md
-        - name: 폴란드
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md
-        - name: 포르투갈
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md
-        - name: 푸에르토리코
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md
-        - name: 카타르
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md
-        - name: 루마니아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md
-        - name: 러시아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md
-        - name: 세인트 크리스토퍼 니비스
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-kitts-and-nevis.md
-        - name: 세인트 루시아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-lucia.md
-        - name: 사우디아라비아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md
-        - name: 세르비아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md
-        - name: 싱가포르
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md
-        - name: 슬로바키아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md
-        - name: 슬로베니아
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md
-        - name: 남아프리카 공화국
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md
-        - name: 대한민국
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md
-        - name: 스페인
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md
-        - name: 스리랑카
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md
-        - name: 스웨덴
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md
-        - name: 스위스
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md
-        - name: 대만
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
-        - name: 태국
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: 트리니다드 토바고
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
-        - name: 튀니지
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
-        - name: 터키
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md
-        - name: 터크스 케이커스 제도
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md
-        - name: 우간다
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md
-        - name: 우크라이나
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md
-        - name: 아랍에미리트(UAE)
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md
-        - name: 영국
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md
-        - name: 미국
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md
-        - name: 우루과이
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md
-        - name: 베네수엘라
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md
-        - name: 베트남
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
-    - name: 접근성 및 규정 준수
-      items:
-        - name: Microsoft Teams에서 프랑스의 규정 준수에 대한 접근성 선언
-          href: accessibility-declaration-of-conformance-in-france-for-teams.md
-        - name: 비즈니스용 Skype Online 및 Microsoft Teams용 접근성 솔루션
-          href: accessibility-solutions-in-france.md
-        - name: Microsoft 365의 통화 플랜 - 영국의 직업 규약
-          href: code-of-practice-for-the-united-kingdom-u-k.md
-        - name: Microsoft 365의 통화 플랜 - 영국의 코드 호환 처리
-          href: complaint-handling-code-for-the-united-kingdom-u-k.md
-        - name: 긴급 통화 사용 약관
-          href: emergency-calling-terms-and-conditions.md
-    - name: 업그레이드 검색 질문
-      href: upgrade-plan-journey-discovery-questionnaire.md
-    - name: Teams 관리자 기능 릴리즈 노트
-      href: release-notes/release-notes.md
-    - name: Microsoft Teams의 공개 미리 보기
-      href: public-preview-doc-updates.md
+items:
+  - name: Teams에 오신 것을 환영합니다
+    href: teams-overview.md
+  - name: 아키텍처 및 전화 통신 솔루션 포스터
+    href: teams-architecture-solutions-posters.md
+  - name: 원격 작업자(WFH) 지원
+    href: support-remote-work-with-teams.md
+  - name: 교육
+    items:
+      - name: 개요
+        href: training-microsoft-teams-landing-page.md
+      - name: Teams에 대한 관리자 교육
+        href: itadmin-readiness.md
+      - name: Ignite 2020의 Teams 세션
+        href: ignite-2020-landing-page.md
+      - name: Teams 라이브 교육
+        href: instructor-led-training-teams-landing-page.yml
+      - name: Teams 온라인 교육
+        href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+  - name: Teams를 배포하는 방법
+    href: How-to-roll-out-teams.md
+  - name: 시작
+    items:
+      - name: 개요
+        href: get-started-with-teams-quick-start.md
+      - name: '1단계: 첫 번째 팀과 채널 만들기'
+        href: get-started-with-teams-create-your-first-teams-and-channels.md
+      - name: '2단계: 얼리어답터 온보딩'
+        href: get-started-with-teams-onboard-early-adopters.md
+      - name: '3단계: 사용 현황 및 피드백 모니터링'
+        href: get-started-with-teams-monitor-usage-and-feedback.md
+      - name: '4단계: 조직 전체 출시 계획'
+        href: get-started-with-teams-resources-for-org-wide-rollout.md
+  - name: '채팅, 팀 및 채널'
+    items:
+      - name: 배포 계획
+        href: deploy-chat-teams-channels-microsoft-teams-landing-page.md
+      - name: Teams용 관리자를 사용하여 Teams 배포
+        href: use-advisor-teams-roll-out.md
+      - name: 팀 및 채널 개요
+        href: teams-channels-overview.md
+      - name: 개인 채널 개요
+        href: private-channels.md
+      - name: 개인 채널의 수명 주기 관리
+        href: private-channels-life-cycle-management.md
+      - name: Teams에서 팀 소유자와 팀 구성원 할당
+        href: assign-roles-permissions.md
+      - name: 팀의 동적 구성원 개요
+        href: dynamic-memberships.md
+      - name: Teams에서 팀을 구성하는 방법에 대한 모범 사례
+        href: best-practices-organizing.md
+      - name: 대규모 팀 관리
+        href: best-practices-large-groups.md
+      - name: Teams에서 조직 전체 팀 만들기
+        href: create-an-org-wide-team.md
+      - name: 사용자 관리자 팀 만들기
+        href: create-manager-directs-teams.md
+      - name: 팀 및 채널 정책 관리
+        href: teams-policies.md
+      - name: Teams에서 채널 중재 설정
+        href: manage-channel-moderation-in-teams.md
+      - name: Teams에서 파일 공유
+        href: sharing-files-in-teams.md
+      - name: Teams 및 Outlook 전자 메일 통합
+        href: teams-outlook-email-integration.md
+      - name: 메시징 정책 관리
+        href: messaging-policies-in-teams.md
+      - name: Teams에서의 사용자 현재 상태
+        href: presence-admins.md
+      - name: Teams에서 태그 관리
+        href: manage-tags.md
+      - name: Teams에서 분석 보기
+        href: teams-analytics-and-reports/view-analytics.md
+      - name: 팀 만료 및 갱신
+        href: team-expiration-renewal.md
+      - name: 팀 보관 또는 삭제
+        href: archive-or-delete-a-team.md
+      - name: Slack에서 Teams로 마이그레이션
+        href: migrate-slack-to-teams.md
+      - name: Teams 서식 파일 작업
+        items:
+          - name: 관리 콘솔에서 Teams 서식 파일 사용
+            href: get-started-with-teams-templates-in-the-admin-console.md
+          - name: 중소기업을 위한 기본 제공 Teams 서식 파일 그래프
+            href: smb-templates.md
+          - name: 사용자 지정 Teams 서식 파일 만들기
+            href: create-a-team-template.md
+          - name: 기존 팀에서 서식 파일 만들기
+            href: create-template-from-existing-team.md
+          - name: 기존 서식 파일에서 서식 파일 작성
+            href: create-template-from-existing-template.md
+          - name: 금융 범주 Teams 서식 파일
+            href: financial-teams-templates-in-the-admin-console.md
+          - name: 일반 범주 Teams 서식 파일
+            href: general-teams-templates-in-the-admin-console.md
+          - name: 제조 범주 Teams 서식 파일
+            href: manufacturing-teams-templates-in-the-admin-console.md
+      - name: 외부 사용자와 의사 소통
+        items:
+          - name: 다른 조직의 사용자와 의사 소통
+            href: communicate-with-users-from-other-organizations.md
+          - name: 외부 액세스(페더레이션)
+            items:
+              - name: 외부 액세스 관리
+                href: manage-external-access.md
+              - name: 외부 사용자용 기본 Teams 채팅
+                href: native-chat-for-external-users.md
+              - name: Teams 및 Skype 상호 운용성
+                href: teams-skype-interop.md
+          - name: 게스트 액세스
+            items:
+              - name: 게스트 액세스 정보
+                href: guest-access.md
+              - name: 게스트 액세스 검사 목록
+                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+              - name: 게스트 경험
+                href: guest-experience.md
+              - name: 게스트 액세스 권한 부여
+                href: teams-dependencies.md
+              - name: 게스트 액세스 설정 또는 해제
+                href: set-up-guests.md
+              - name: 팀에 게스트 추가
+                href: add-guests.md
+              - name: 팀에서 게스트 사용자 보기
+                href: view-guests.md
+              - name: 게스트 사용자 정보 편집
+                href: edit-guests-information.md
+              - name: 게스트 액세스 문제 해결
+                href: troubleshoot-guest-access.md
+      - name: Teams의 Cortana
+        href: cortana-in-teams.md
+      - name: Teams 관리
+        items:
+          - name: 관리자 역할
+            href: using-admin-roles.md
+          - name: 조직의 Teams 설정 관리
+            href: enable-features-office-365.md
+          - name: 새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
+            href: manage-teams-skypeforbusiness-admin-center.md
+          - name: Microsoft Teams 관리 센터에서 Teams 관리
+            href: manage-teams-in-modern-portal.md
+          - name: Teams에서 팀 소유자와 팀 구성원 할당
+            href: assign-roles-permissions.md
+          - name: 사용자에게 정책 할당
+            href: assign-policies.md
+          - name: 활동 로그에서 정책 과제 보기
+            href: activity-log.md
+          - name: Teams에서 앱 사용 권한 정책 관리
+            href: teams-app-permission-policies.md
+          - name: Teams에서 앱 설정 정책 관리
+            href: teams-app-setup-policies.md
+          - name: Teams에서 사용자 지정 앱 정책 및 설정 관리
+            href: teams-custom-app-policies-and-settings.md
+          - name: Teams에서 피드백 정책 관리
+            href: manage-feedback-policies-in-teams.md
+          - name: Teams에서 정책 패키지 관리
+            href: manage-policy-packages.md
+          - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: 외부 액세스 관리
+            href: manage-external-access.md
+          - name: 인라인 메시지 번역 사용
+            href: inline-message-translation-teams.md
+          - name: Microsoft Teams 범위 디렉터리 검색 사용
+            href: teams-scoped-directory-search.md
+          - name: Teams 관리 센터의 분석 및 보고서
+            items:
+              - name: 개요
+                href: teams-analytics-and-reports/teams-reporting-reference.md
+              - name: Teams 사용 현황 보고서
+                href: teams-analytics-and-reports/teams-usage-report.md
+              - name: Teams 사용자 작업 보고서
+                href: teams-analytics-and-reports/user-activity-report.md
+              - name: Teams 앱 사용 현황 보고서
+                href: teams-analytics-and-reports/app-usage-report.md
+              - name: Teams 장치 사용 현황 보고서
+                href: teams-analytics-and-reports/device-usage-report.md
+              - name: PSTN으로 차단된 사용자 보고서
+                href: teams-analytics-and-reports/pstn-blocked-users-report.md
+              - name: PSTN 통화 시간 풀(분) 보고서
+                href: teams-analytics-and-reports/pstn-minute-pools-report.md
+              - name: PSTN 사용 현황 보고서
+                href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Teams 라이브 이벤트 사용 현황 보고서
+                href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          - name: Microsoft 365 관리 센터의 Teams 활동 보고서
+            href: teams-activity-reports.md
+  - name: '앱, 인공 지능 및 커넥터'
+    items:
+      - name: 개요
+        href: deploy-apps-microsoft-teams-landing-page.md
+      - name: Power Platform과 통합
+        href: teams-power-platfom-integration.md
+      - name: Teams용 앱 관리
+        href: manage-apps.md
+      - name: Team에서 앱의 관리 설정
+        href: admin-settings.md
+      - name: 기본 제공 및 사용자 지정 탭 사용
+        href: built-in-custom-tabs.md
+      - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
+        href: Office-365-custom-connectors.md
+      - name: 리소스별 승인
+        href: resource-specific-consent.md
+      - name: 사용자 지정 앱
+        items:
+          - name: Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시
+            href: submit-approve-custom-apps.md
+          - name: Microsoft Teams 관리 센터에서 Power Platform 관리
+            href: manage-power-platform-apps.md
+          - name: 앱 패키지를 업로드하여 사용자 지정 앱 게시
+            href: upload-custom-apps.md
+          - name: 사용자 지정 앱 스토어
+            href: customize-your-app-store.md
+      - name: 앱 인증
+        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 부여
+        href: app-permissions-admin-center.md
+      - name: 앱 사용 권한 및 고려 사항
+        href: app-permissions.md
+      - name: Teams 3자 앱 구매 서비스
+        href: purchase-third-party-apps.md
+      - name: Teams용 앱 서식 파일
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: Teams에서 조직의 목록 앱 관리
+        href: manage-lists-app.md
+      - name: 조직에 대한 작업 앱 관리
+        href: manage-tasks-app.md
+      - name: 팀 대상 계층 구조 설정
+        href: set-up-your-team-hierarchy.md
+      - name: Teams 관리 센터에서 칭찬 앱 관리
+        href: manage-praise-app.md
+      - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
+        href: configure-skype-meetings-app-to-work-with-teams.md
+      - name: Teams 승인 앱 가용성
+        href: approval-admin.md
+  - name: 모임 및 회의
+    items:
+      - name: 빠른 시작 - 모임 및 라이브 이벤트
+        href: quick-start-meetings-live-events.md
+      - name: 배포 계획
+        href: deploy-meetings-microsoft-teams-landing-page.md
+      - name: Microsoft Teams 룸
+        items:
+          - name: 개요
+            href: rooms/index.md
+          - name: 계획
+            items:
+              - name: Microsoft Teams 룸 계획의 개요
+                href: rooms/rooms-plan.md
+              - name: 버전 지원
+                href: rooms/rooms-lifecycle-support.md
+              - name: 릴리스 정보
+                href: rooms/rooms-release-note.md
+              - name: 환경 준비
+                href: rooms/rooms-prep.md
+              - name: 요구 사항
+                href: rooms/requirements.md
+              - name: 보안
+                href: rooms/security.md
+              - name: 온라인 라이선싱
+                href: rooms/rooms-licensing.md
+              - name: Azure 모니터를 사용한 계획 관리
+                href: rooms/azure-monitor-plan.md
+              - name: Microsoft Teams 룸 관리 서비스
+                items:
+                  - name: Microsoft Teams 룸 관리 서비스를 사용한 계획 관리
+                    href: rooms/microsoft-teams-rooms-premium.md
+                  - name: Microsoft Teams 룸 관리 서비스를 사용한 역할 기반 액세스 제어
+                    href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: 배포
+            items:
+              - name: 배포 개요
+                href: rooms/rooms-deploy.md
+              - name: 계정 구성
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: 조정된 모임 설정
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 설정 관리
+                    href: rooms/surface-hub-manage-config.md
+              - name: Office 365를 사용하면
+                href: rooms/with-office-365.md
+              - name: 비즈니스용 Skype 서버를 사용하면
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: Exchange Online(하이브리드)를 사용하면
+                href: rooms/with-exchange-online.md
+              - name: Exchange 온-프레미스(하이브리드)를 사용하면
+                href: rooms/with-exchange-on-premises.md
+              - name: 콘솔 구성
+                href: rooms/console.md
+              - name: 수동으로 장치 업데이트
+                href: rooms/manual-update.md
+              - name: 인증 구성
+                href: rooms/rooms-authentication.md
+              - name: 타사 모임 참가
+                href: rooms/third-party-join.md
+              - name: Microsoft Endpoint Configuration Manager 사용
+                href: rooms/rooms-scale.md
+              - name: Azure Monitor를 사용한 관리
+                href: rooms/azure-monitor-deploy.md
+              - name: SRS v1 또는 LRS 마이그레이션
+                href: rooms/lrs-migration.md
+              - name: 콘텐츠 카메라
+                href: rooms/content-camera.md
+          - name: 관리
+            items:
+              - name: 관리 개요
+                href: rooms/rooms-manage.md
+              - name: 유지 관리 및 운영
+                href: rooms/rooms-operations.md
+              - name: 조직에서 Teams 지원
+                href: rooms/known-issues.md
+              - name: Azure 모니터를 사용하는 장치
+                href: rooms/azure-monitor-manage.md
+              - name: XML파일을 사용하여 설정
+                href: rooms/xml-config-file.md
+              - name: 복구 도구 사용
+                href: rooms/recovery-tool.md
+      - name: '자습서: Teams에서의 모임'
+        href: Tutorial-Meetings-in-Teams.yml
+      - name: 모임 정책 관리
+        href: meeting-policies-in-teams.md
+      - name: 사용자의 RestrictedAnonymousAccess 모임 정책 제거
+        href: meeting-policies-restricted-anonymous-access.md
+      - name: 모임 설정 관리
+        href: meeting-settings-in-teams.md
+      - name: 설정이 변경되면 사용자에게 전송되는 전자 메일
+        href: emails-sent-to-users-when-their-settings-change-in-teams.md
+      - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
+        href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+      - name: 모임의 시작 및 종료 알림 설정 또는 해제
+        href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+      - name: Teams에서 NDI® 기술 사용
+        href: use-NDI-in-meetings.md
+      - name: Teams 모임에서 손 올리기 옵션
+        href: raise-hand-meetings.md
+      - name: 지원되지 않는 브라우저에서 Teams 모임
+        href: unsupported-browsers.md
+      - name: Teams에서 데스크톱 공유 구성
+        href: configure-desktop-sharing.md
+      - name: Teams 클라우드 모임 녹음/녹화
+        href: cloud-recording.md
+      - name: 모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
+        href: tmr-meeting-recording-change.md
+      - name: 연락 센터 통합
+        href: teams-contact-center.md
+      - name: Outlook에서 Teams 모임 추가 기능 사용
+        href: teams-add-in-for-outlook.md
+      - name: 사용자의 전화 받기 기능 설정
+        href: set-up-the-call-me-feature-for-your-users.md
+      - name: 모임 참석 보고서 받기
+        href: teams-analytics-and-reports/meeting-attendance-report.md
+      - name: MMS(Meeting Migration Service) 설정
+        href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: Teams에서 화이트보드 관리
+        href: manage-whiteboard.md
+      - name: Google Workspace용 Teams 모임 추가 기능 설정
+        href: google-workspace-addon-teams.md
+      - name: 오디오 회의
+        items:
+          - name: 배포 계획
+            href: deploy-audio-conferencing-teams-landing-page.md
+          - name: Microsoft 365의 오디오 회의
+            href: audio-conferencing-in-office-365.md
+          - name: '미리 보기 열기: 오디오 회의에 대한 네트워크 회의'
+            href: audio-conferencing-on-network.md
+          - name: 오디오 회의 일반적인 질문
+            href: audio-conferencing-common-questions.md
+          - name: '자습서: Teams의 오디오 회의'
+            href: Tutorial-Audio-Conferencing.yml
+          - name: Microsoft 365에서 오디오 회의 체험 또는 구매
+            href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 미국 및 캐나다에 대한 확장 된 전화 접속 시간
+            href: dial-out-minutes-canada-us.md
+          - name: 오디오 회의 무료 전화 걸기 기간
+            href: complimentary-dial-out-period.md
+          - name: 오디오 회의 구독 ‘전화 걸기’/’전화 받기’ 혜택
+            href: audio-conferencing-subscription-dial-out.md
+          - name: 오디오 회의 설정
+            href: set-up-audio-conferencing-in-teams.md
+          - name: 오디오 회의 설정 - 중소기업을 위한 빠른 시작
+            href: audio-conferencing-smb.md
+          - name: Microsoft를 오디오 회의 공급자로 지정
+            href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: 오디오 회의 브리지 관리
+            items:
+              - name: 오디오 회의 브리지에서 전화 번호 변경
+                href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
+              - name: 오디오 회의 브리지의 설정 변경
+                href: change-the-settings-for-an-audio-conferencing-bridge.md
+              - name: 오디오 회의 번호 목록 보기
+                href: see-a-list-of-audio-conferencing-numbers-in-teams.md
+              - name: 오디오 회의의 자동 전화 교환 언어 설정
+                href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
+              - name: 사용자에 대한 모임 전화 접속 확인 설정
+                href: set-up-meeting-dial-out-confirmation.md
+          - name: 조직의 오디오 회의 설정 관리
+            href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
+          - name: 오디오 회의 분당 요금
+            href: audio-conferencing-pay-per-minute.md
+          - name: 사용자의 오디오 회의 설정 관리
+            items:
+              - name: 개요
+                href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
+              - name: 오디오 회의에 사용되는 사용자 목록 보기
+                href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
+              - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
+                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+              - name: 사용자의 회의 ID 다시 설정
+                href: reset-a-conference-id-for-a-user-in-teams.md
+              - name: 사용자의 오디오 회의 PIN 재설정
+                href: reset-the-audio-conferencing-pin-in-teams.md
+              - name: 설정이 변경되면 자동으로 사용자에게 전송되는 전자 메일
+                href: emails-sent-to-users-when-their-settings-change-in-teams.md
+              - name: 오디오 회의 설정이 변경되면 전자 메일 보내기 사용 또는 사용 안 함
+                href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
+              - name: 특정 사용자의 무료 전화 번호 사용 안 함
+                href: disabling-toll-free-numbers-for-specific-teams-users.md
+              - name: 오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
+                href: outbound-calling-restriction-policies.md
+              - name: 사용자에게 할당된 회의 ID 보기 및 재설정
+                href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
+              - name: 오디오 회의 정보를 사용하여 사용자에게 전자 메일 보내기
+                href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
+          - name: 오디오 회의용 모임 설정 관리
+            items:
+              - name: 다른 사람이 참여할 수 있도록 모임에서 전화 걸기
+                href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
+              - name: 모임의 시작 및 종료 알림 설정 또는 해제
+                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+              - name: 오디오 회의 모임의 PIN 길이 설정
+                href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
+              - name: 초대에 포함할 전화 번호 설정
+                href: set-the-phone-numbers-included-on-invites-in-teams.md
+              - name: 휴대폰에서 PIN 없이 오디오 회의 시작
+                href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+          - name: 오디오 회의의 국가 및 지역 가용성
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: 참조
+            items:
+              - name: 오디오 회의 지원되는 언어
+                href: audio-conferencing-supported-languages.md
+              - name: 오디오 회의의 전화 번호
+                href: phone-numbers-for-audio-conferencing-in-teams.md
+              - name: 오디오 회의의 국가 및 지역 가용성
+                href: audio-conferencing-zones.md
+              - name: 비디오 - Teams의 오디오 회의
+                href: audio-conferencing-videos.md
+      - name: 클라우드 비디오 Interop
+        href: cloud-video-interop.md
+      - name: 라이브 이벤트
+        items:
+          - name: Teams 라이브 이벤트란?
+            href: teams-live-events/what-are-teams-live-events.md
+          - name: Teams 라이브 이벤트 계획
+            href: teams-live-events/plan-for-teams-live-events.md
+          - name: Teams 라이브 이벤트 설정
+            href: teams-live-events/set-up-for-teams-live-events.md
+          - name: PowerShell을 사용하여 Teams 라이브 이벤트 정책 설정
+            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+          - name: Teams 라이브 이벤트 설정 구성
+            href: teams-live-events/configure-teams-live-events.md
+  - name: 음성 - 전화 시스템 및 PSTN 연결
+    items:
+      - name: Teams 음성 솔루션
+        href: cloud-voice-landing-page.md
+      - name: 전화 시스템
+        items:
+          - name: 전화 시스템이란?
+            href: what-is-phone-system-in-office-365.md
+          - name: 다음은 전화 시스템 기능입니다.
+            href: here-s-what-you-get-with-phone-system.md
+          - name: 전화 시스템 설정
+            href: setting-up-your-phone-system.md
+          - name: 공통 지역 전화 설정
+            href: set-up-common-area-phones.md
+          - name: 음성 메일
+            items:
+              - name: 클라우드 음성 메일 설정
+                href: set-up-phone-system-voicemail.md
+              - name: 음성 메일의 기본 언어 변경
+                href: change-the-default-language-for-greetings-and-emails.md
+              - name: 음성 메일 인사말 및 메시지 언어
+                href: languages-for-voicemail-greetings-and-messages.md
+          - name: 발신자 ID
+            items:
+              - name: 조직에서 발신자 ID를 사용하는 방법
+                href: how-can-caller-id-be-used-in-your-organization.md
+              - name: 발신자 ID 정책 관리
+                href: caller-id-policies.md
+              - name: 사용자의 발신자 ID 설정
+                href: set-the-caller-id-for-a-user.md
+              - name: 전화 회선 ID 및 발신자 이름에 대한 자세한 정보
+                href: more-about-calling-line-id-and-calling-party-name.md
+          - name: 자동 전화 교환 및 통화 큐
+            items:
+              - name: 계획
+                href: plan-auto-attendant-call-queue.md
+              - name: 자동 전화 교환 설정
+                href: create-a-phone-system-auto-attendant.md
+              - name: 통화 큐 설정
+                href: create-a-phone-system-call-queue.md
+              - name: Teams 자원 계정 관리
+                href: manage-resource-accounts.md
+              - name: 휴일 설정
+                href: set-up-holidays-in-teams.md
+              - name: 자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
+                href: answer-auto-attendant-and-call-queue-calls.md
+              - name: 보고서
+                href: aa-cq-cqd-historical-reports.md
+              - name: 다이얼 및 음성 참조
+                href: dial-voice-reference.md
+              - name: 보고
+                href: aa-cq-cqd-historical-reports.md
+          - name: 들어오는 호출 차단
+            href: block-inbound-calls.md
+          - name: 통화 대기 및 검색
+            href: call-park-and-retrieve.md
+          - name: 통화 공유 및 그룹 전화 받기
+            href: call-sharing-and-group-call-pickup.md
+          - name: 통화 정책
+            href: teams-calling-policy.md
+          - name: 회선 공유 기능
+            href: shared-line-appearance.md
+          - name: 다이얼 패드 구성
+            href: dial-pad-configuration.md
+      - name: 통화 플랜
+        items:
+          - name: 사용자에게 적합한 통화 플랜은 무엇인가요?
+            href: calling-plan-landing-page.md
+          - name: 통화 플랜을 구입하는 방법
+            href: calling-plans-for-office-365.md
+          - name: 조직의 통화 플랜 설정
+            href: set-up-calling-plans.md
+          - name: '빠른 시작 가이드: 통화 플랜 구성'
+            href: configuring-teams-calling-quickstartguide.md
+          - name: 통화 플랜의 국가 및 지역 가용성
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+      - name: 전화 시스템 직접 라우팅
+        items:
+          - name: 개요
+            href: direct-routing-landing-page.md
+          - name: 직접 라우팅 계획
+            href: direct-routing-plan.md
+          - name: 직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
+            href: direct-routing-border-controllers.md
+          - name: 직접 라우팅 구성
+            items:
+              - name: 개요
+                href: direct-routing-configure.md
+              - name: '1단계: SBC 연결'
+                href: direct-routing-connect-the-sbc.md
+              - name: '2단계: 사용자 활성화'
+                href: direct-routing-enable-users.md
+              - name: '3단계: 음성 라우팅 구성'
+                href: direct-routing-voice-routing.md
+              - name: '4단계: 전화 번호 번역'
+                href: direct-routing-translate-numbers.md
+              - name: 여러 테넌트에 대해 SBC 구성
+                href: direct-routing-sbc-multiple-tenants.md
+              - name: 직접 라우팅이 있는 아날로그 장치를 사용 하는 방법
+                href: direct-routing-analog-devices.md
+          - name: 위치 기반 라우팅
+            items:
+              - name: 직접 라우팅으로 전달되는 위치 기반 라우팅 계획
+                href: location-based-routing-plan.md
+              - name: 위치 기반 라우팅의 네트워크 설정 구성
+                href: location-based-routing-configure-network-settings.md
+              - name: 직접 라우팅에 위치 기반 라우팅 사용
+                href: location-based-routing-enable.md
+          - name: 직접 라우팅을 위한 미디어 바이패스
+            items:
+              - name: 직접 라우팅을 위한 미디어 바이패스 계획
+                href: direct-routing-plan-media-bypass.md
+              - name: 직접 라우팅을 위한 미디어 바이패스 구성
+                href: direct-routing-configure-media-bypass.md
+          - name: 직접 라우팅을 위한 로컬 미디어 최적화
+            items:
+              - name: 로컬 미디어 최적화 계획
+                href: direct-routing-media-optimization.md
+              - name: 로컬 미디어 최적화 구성
+                href: direct-routing-media-optimization-configure.md
+          - name: PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
+            href: direct-routing-user-accounts-in-a-hybrid-environment.md
+          - name: 직접 라우팅으로 마이그레이션
+            href: direct-routing-migrating.md
+          - name: 직접 라우팅 모니터링 및 문제 해결
+            items:
+              - name: 개요
+                href: direct-routing-monitor-and-troubleshoot.md
+              - name: 상태 대시보드
+                href: direct-routing-health-dashboard.md
+          - name: 직접 라우팅의 기술 참조
+            items:
+              - name: 발신 전화에 대한 트렁크 장애 조치
+                href: direct-routing-trunk-failover-on-outbound-call.md
+              - name: 미디어 경로 국가 코드
+                href: direct-routing-country-codes.md
+              - name: SBC(Session Border Controller) 연결을 테스트하기 위한 PowerShell 스크립트
+                href: sip-tester-powershell-script.md
+              - name: 통화 알림 관리
+                href: direct-routing-call-notifications.md
+              - name: 프로토콜
+                items:
+                  - name: 정의 및 RFC 표준
+                    href: direct-routing-protocols.md
+                  - name: SIP 프로토콜
+                    href: direct-routing-protocols-SIP.md
+                  - name: 미디어 프로토콜
+                    href: direct-routing-protocols-media.md
+              - name: 음성 라우팅 정책 관리
+                href: manage-voice-routing-policies.md
+              - name: SBA(Survivable Branch Appliance) 직접 라우팅
+                href: direct-routing-survivable-branch-appliance.md
+      - name: 전화 번호
+        items:
+          - name: 조직의 전화 번호 관리
+            href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
+          - name: 통화 플랜에 사용된 전화 번호 유형
+            href: different-kinds-of-phone-numbers-used-for-calling-plans.md
+          - name: 사용자의 전화 번호 가져오기
+            href: getting-phone-numbers-for-your-users.md
+          - name: 몇 개의 전화 번호를 받을 수 있나요?
+            href: how-many-phone-numbers-can-you-get.md
+          - name: 사용자의 전화 번호 검색
+            href: search-for-phone-numbers-for-users.md
+          - name: 조직의 전화 번호 목록 보기
+            href: see-a-list-of-phone-numbers-in-your-organization.md
+          - name: '사용자의 전화 번호 할당, 변경 또는 제거'
+            href: assign-change-or-remove-a-phone-number-for-a-user.md
+          - name: 서비스 전화 번호 가져오기
+            href: getting-service-phone-numbers.md
+          - name: 전화 번호 전송
+            items:
+              - name: 포트 순서
+                href: phone-number-calling-plans/port-order-overview.md
+              - name: Teams로 전화 번호 전송
+                href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+              - name: 포트 주문 수동 제출
+                href: phone-number-calling-plans/manually-submit-port-order.md
+              - name: 포트 주문의 상태 확인
+                href: phone-number-calling-plans/port-order-status.md
+          - name: 지원 평가 센터 및 적용 범위
+            href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+      - name: 통화 라우팅
+        items:
+          - name: 다이얼 플랜이 무엇인가요?
+            href: what-are-dial-plans.md
+          - name: 다이얼 플랜 만들기 및 관리
+            href: create-and-manage-dial-plans.md
+          - name: 보고 레이블 추가 및 업데이트
+            href: learn-more-about-site-upload.md
+      - name: 네트워크 설정 및 토폴로지
+        items:
+          - name: 클라우드 음성 기능에 대한 네트워크 설정
+            href: cloud-voice-network-settings.md
+          - name: 클라우드 음성 기능에 대한 네트워크 토폴로지 관리
+            href: manage-your-network-topology.md
+      - name: 비상 전화
+        items:
+          - name: 개요
+            href: what-are-emergency-locations-addresses-and-call-routing.md
+          - name: 동적인 긴급 전화 구성
+            href: configure-dynamic-emergency-calling.md
+          - name: 긴급 주소 관리
+            items:
+              - name: '조직의 응급 위치 추가, 변경 또는 제거'
+                href: add-change-remove-emergency-location-organization.md
+              - name: '조직의 응급 위치에 대한 장소 추가, 변경 또는 제거'
+                href: add-change-remove-emergency-place-organization.md
+              - name: 사용자의 응급 위치 할당 또는 변경
+                href: assign-change-emergency-location-user.md
+              - name: 사용자에게 응급 위치의 장소 할당 또는 변경
+                href: assign-change-emergency-place-user.md
+              - name: 긴급 전화 레이블
+                href: emergency-calling-labels.md
+          - name: 긴급 전화 정책 관리
+            href: manage-emergency-calling-policies.md
+          - name: 긴급 전화 라우팅 정책 관리
+            href: manage-emergency-call-routing-policies.md
+      - name: Contoso 음성 마이그레이션 사례 연구
+        items:
+          - name: 개요
+            href: voice-case-study-overview.md
+          - name: Teams 업그레이드 계획
+            href: voice-case-study-migration-plan.md
+          - name: 전화 시스템
+            href: voice-case-study-phone-system.md
+          - name: 위치 기반 라우팅
+            href: voice-case-study-location-based-routing.md
+          - name: 비상 전화
+            href: voice-case-study-emergency-calling.md
+          - name: 오디오 회의
+            href: voice-case-study-audio-conferencing.md
+          - name: 자동 전화 교환 및 통화 큐
+            href: voice-case-study-call-queues.md
+      - name: 참조
+        items:
+          - name: 국가 전화 번호 관리
+            items:
+              - name: 오스트레일리아 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
+              - name: 오스트리아 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
+              - name: 벨기에 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
+              - name: 캐나다 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+              - name: 덴마크 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: 프랑스 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
+              - name: 독일 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+              - name: 아일랜드 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
+              - name: 이탈리아 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
+              - name: 일본 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+              - name: 포르투갈 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+              - name: 스페인의 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
+              - name: 네덜란드 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
+              - name: 스웨덴 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
+              - name: 스위스 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
+              - name: 영국 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
+              - name: 미국 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
+          - name: 무료 전화 걸기 제한 사항
+            items:
+              - name: 개요
+                href: toll-free-dialing-limitations-and-restrictions.md
+              - name: 아르헨티나
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
+              - name: 오스트레일리아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
+              - name: 오스트리아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
+              - name: 벨로루시
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
+              - name: 벨기에
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
+              - name: 벨리즈
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
+              - name: 보스니아 헤르체고비나
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
+              - name: 브라질
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
+              - name: 브루나이
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
+              - name: 불가리아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
+              - name: 칠레
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
+              - name: 중국(북부)
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
+              - name: 중국(남부)
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
+              - name: 콜롬비아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
+              - name: 크로아티아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md
+              - name: 키프로스
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md
+              - name: 덴마크
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md
+              - name: 에콰도르
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md
+              - name: 이집트
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md
+              - name: 에스토니아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md
+              - name: 핀란드
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md
+              - name: 프랑스
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md
+              - name: 독일
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
+              - name: 온두라스
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
+              - name: 홍콩
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
+              - name: 헝가리
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
+              - name: 인도
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
+              - name: 인도네시아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
+              - name: 아일랜드
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
+              - name: 이스라엘
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
+              - name: 이탈리아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
+              - name: 일본
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
+              - name: 케냐
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md
+              - name: 룩셈부르크
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md
+              - name: 말레이시아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
+              - name: 멕시코
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
+              - name: 몰도바
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
+              - name: 모나코
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
+              - name: 네덜란드
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md
+              - name: 파나마
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md
+              - name: 파라과이
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md
+              - name: 페루
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
+              - name: 필리핀
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
+              - name: 폴란드
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
+              - name: 포르투갈
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
+              - name: 카타르
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
+              - name: 루마니아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
+              - name: 사우디아라비아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md
+              - name: 세르비아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
+              - name: 싱가포르
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
+              - name: 슬로바키아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
+              - name: 슬로베니아
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
+              - name: 남아프리카 공화국
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
+              - name: 대한민국
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
+              - name: 스페인
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
+              - name: 스웨덴
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
+              - name: 스위스
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
+              - name: 대만
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
+              - name: 태국
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
+              - name: 터키
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
+              - name: 아랍에미리트(UAE)
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
+              - name: 영국
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
+              - name: 우루과이
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
+              - name: 베네수엘라
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
+              - name: 베트남
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
+          - name: 통신 크레딧 관리
+            items:
+              - name: 통신 크레딧이란?
+                href: what-are-communications-credits.md
+              - name: 조직에 사용할 통신 크레딧 설정
+                href: set-up-communications-credits-for-your-organization.md
+              - name: 자금 추가 및 통신 크레딧 관리
+                href: add-funds-and-manage-communications-credits.md
+          - name: Microsoft Teams 통화 흐름
+            href: microsoft-teams-online-call-flows.md
+          - name: '자습서: Teams의 통화'
+            href: Tutorial-calling-in-teams.yml
+            items:
+              - name: 사용자 환경 계획
+                href: 5-envision-plan-my-users-experience.md
+  - name: 도입
+    items:
+      - name: 개요
+        href: adopt-microsoft-teams-landing-page.md
+      - name: 시작
+        href: teams-adoption-get-started.md
+      - name: 1단계 - 시작
+        items:
+          - name: 시작
+            href: teams-adoption-phase1.md
+          - name: 팀과 채널 이해
+            href: teams-adoption-understand-teams-and-channels.md
+          - name: 첫 번째 팀 만들기
+            href: teams-adoption-your-first-teams.md
+          - name: 조직에서 Teams를 사용하기 위한 준비가 어느 정도인가요?
+            href: teams-adoption-assess-readiness.md
+      - name: 2단계 - 실험
+        items:
+          - name: 실험
+            href: teams-adoption-phase2-experiment.md
+          - name: 챔피언 프로그램 만들기
+            href: teams-adoption-create-champions-program.md
+          - name: 거버넌스 빠른 시작
+            href: teams-adoption-governance-quick-start.md
+          - name: 사용 시나리오 정의
+            href: teams-adoption-define-usage-scenarios.md
+          - name: 얼리어답터 온보딩 및 피드백 수집
+            href: teams-adoption-onboard-early-adopters.md
+          - name: 온보딩 지원
+            href: teams-adoption-onboard-support.md
+      - name: 3단계 - 배율
+        items:
+          - name: 확장
+            href: teams-adoption-phase3-enable.md
+          - name: 결과 및 성공 정의
+            href: teams-adoption-define-outcomes.md
+          - name: 피드백 및 보고 최적화
+            href: teams-adoption-optimize-feedback-and-reporting.md
+          - name: 인식 주도 및 교육 구현
+            href: teams-adoption-drive-awareness.md
+          - name: 서비스 상태 검토 예약
+            href: teams-adoption-schedule-service-health-reviews.md
+  - name: Teams로 업그레이드
+    items:
+      - name: 시작
+        href: upgrade-start-here.md
+      - name: 업그레이드 프레임워크 정보
+        href: upgrade-framework.md
+      - name: 업그레이드 여정 계획
+        items:
+          - name: 프로젝트 및 요구 사항 계획
+            items:
+              - name: 개요
+                href: upgrade-plan-journey.md
+              - name: 프로젝트 관련자 참여
+                href: upgrade-enlist-stakeholders.md
+              - name: 프로젝트 범위 정의
+                href: upgrade-define-project-scope.md
+              - name: 공존 및 상호 운용성 이해
+                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
+              - name: PSTN 고려 사항
+                href: upgrade-to-teams-on-prem-pstn-considerations.md
+              - name: 업그레이드 여정 선택
+                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
+              - name: 사용자 파일럿 계획
+                href: pilot-essentials.md
+          - name: Teams용 환경 준비
+            items:
+              - name: 기술 준비 개요
+                href: upgrade-prepare-environment.md
+              - name: Teams를 사용하도록 IT 직원 준비
+                href: upgrade-prepare-IT-pros.md
+              - name: 필수 구성 요소
+                href: upgrade-plan-journey-prerequisites.md
+              - name: 환경 평가
+                href: upgrade-plan-journey-evaluate-environment.md
+              - name: 서비스 준비
+                href: upgrade-prepare-environment-prepare-service.md
+          - name: Teams를 사용하도록 조직 준비
+            items:
+              - name: 조직 준비 개요
+                href: upgrade-prepare-organization.md
+              - name: 조직의 변경 준비 상태 평가
+                href: upgrade-org-change-readiness.md
+              - name: 사용자 준비 계획 준비
+                href: upgrade-user-readiness.md
+      - name: 업그레이드 수행
+        items:
+          - name: 개요
+            href: upgrade-to-Teams.md
+          - name: 비즈니스용 Skype Online을 Teams로 업그레이드
+            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
+          - name: 비즈니스용 Skype 온-프레미스를 Teams로 업그레이드
+            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+      - name: '운영, 채택 및 최적화'
+        href: continue-journey.md
+      - name: 비즈니스용 Skype Online 단종
+        href: skype-for-business-online-retirement.md
+      - name: FAQ
+        href: FAQ-journey.yml
+      - name: 기술 라이브러리
+        items:
+          - name: IT 관리자를 위한 지침 업그레이드
+            items:
+              - name: 개요
+                href: upgrade-to-teams-on-prem-overview.md
+              - name: 업그레이드 방법
+                href: upgrade-to-teams-on-prem-upgrade-methods.md
+              - name: 업그레이드 관리 도구
+                href: upgrade-to-teams-on-prem-tools.md
+              - name: 온-프레미스 비즈니스용 Skype를 사용하는 조직에 대한 고려 사항
+                href: upgrade-to-teams-on-prem-considerations.md
+              - name: 업그레이드 수행
+                href: upgrade-to-teams-on-prem-implement.md
+              - name: Teams와 비즈니스용 Skype의 공존
+                href: upgrade-to-teams-on-prem-coexistence.md
+              - name: 공존 모드-참조
+                href: migration-interop-guidance-for-teams-with-skype.md
+              - name: Teams 클라이언트 환경 및 공존 모드 준수
+                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: 공존 및 업그레이드 설정 지정
+            href: setting-your-coexistence-and-upgrade-settings.md
+          - name: 무엇보다도 모임을 우선으로
+            href: meetings-first.md
+  - name: 하이브리드 연결
+    items:
+      - name: 하이브리드 연결 계획
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+      - name: 하이브리드 연결 구성
+        items:
+          - name: 개요
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+          - name: 하이브리드 환경에 맞게 Azure AD Connect 구성하기
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+          - name: 비즈니스용 Skype 하이브리드 구성하기
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+      - name: 온-프레미스와 클라우드 간에 사용자 이동
+        items:
+          - name: 개요
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+          - name: 사용자를 온-프레미스에서 Teams로 이동
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+          - name: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+          - name: 사용자를 클라우드에서 온-프레미스로 이동
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+          - name: 모임 마이그레이션 관리
+            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+      - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+      - name: 리소스 포리스트 토폴로지 배포
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+      - name: Teams 및 비즈니스용 Skype Online을 위한 클라우드 통합
+        items:
+          - name: 개요
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+          - name: 에지 인증서 업데이트
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+          - name: 여러 포리스트를 포함하도록 AAD Connect를 업데이트
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+      - name: Exchange 및 Sharepoint와의 통합
+        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+  - name: Microsoft 365 Business Voice
+    items:
+      - name: Microsoft 365 Business Voice란 무엇인가요?
+        href: business-voice/whats-business-voice.md
+      - name: 국가 및 지역 가용성
+        href: business-voice/country-region-availability.md
+      - name: 구매 전에 알아야 할 사항
+        items:
+          - name: Business Voice를 사용하기 위해 구입해야 하는 것
+            href: business-voice/what-to-buy.md
+          - name: r리셀러 또는 파트너로부터 도움 받기
+            href: business-voice/reseller-partner-support.md
+          - name: 인터넷 연결 확인
+            href: business-voice/get-ready-internet.md
+          - name: 사용자 준비시키기
+            href: business-voice/prepare-users.md
+      - name: 시작 마법사의 실행
+        href: business-voice/use-getting-started-wizard.md
+      - name: 시도할 수 있는 사항
+        href: business-voice/things-to-try.md
+      - name: 설정 사용자 지정하기
+        items:
+          - name: 사용자 지정 옵션
+            href: business-voice/customize-business-voice.md
+          - name: 전화번호 이식
+            href: business-voice/port-phone-numbers.md
+          - name: 통화 정책 설정
+            href: business-voice/set-up-policies.md
+          - name: 정책 패키지 관리
+            href: business-voice/policy-packages.md
+          - name: 추가 사용자 만들기
+            href: business-voice/create-users.md
+          - name: 통화 큐 설정
+            href: business-voice/create-a-phone-system-call-queue-smb.md
+          - name: 자동 전화 교환 설정
+            href: business-voice/create-a-phone-system-auto-attendant-smb.md
+      - name: 설정 관리
+        items:
+          - name: 한 명 이상의 사용자를 생성합니다
+            href: business-voice/create-users.md
+          - name: 장치 관리
+            href: business-voice/manage-devices.md
+          - name: 통화 품질 모니터링
+            href: business-voice/monitor-quality.md
+          - name: 통화 품질 대시보드
+            href: business-voice/analytics-dashboard.md
+      - name: 파트너 리소스
+        href: business-voice/partner-resources.md
+  - name: 산업 및 정부 지침
+    items:
+      - name: 개요
+        href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
+      - name: 모든 산업
+        items:
+          - name: Teams 서식 파일 시작
+            href: get-started-with-teams-templates.md
+          - name: Teams의 교대 근무
+            href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+            items:
+              - name: Teams에서 조직의 교대 근무 앱 관리
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: 의료용 Teams
+        items:
+          - name: 의료 조직을 위한 Teams 시작
+            href: expand-teams-across-your-org/healthcare/teams-in-hc.md
+          - name: 가상 방문
+            items:
+              - name: Teams를 사용하여 가상 방문 - EHR에 통
+                href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: 예약 및 Teams를 통한 가상 방문
+                href: bookings-app-admin.md
+          - name: 정책 패키지 보기 및 할당
+            href: policy-packages-healthcare.md
+          - name: 보안 메시징
+            items:
+              - name: 보안 메시징
+                href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
+              - name: 메시지 위임
+                href: expand-teams-across-your-org/healthcare/hc-delegates.md
+          - name: Teams 서식 파일
+            items:
+              - name: 관리 콘솔에서 Teams 서식 파일 사용
+                href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
+              - name: 의료용 Teams 서식 파일
+                href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+          - name: Teams에서 조직의 목록 앱 관리
+            href: manage-lists-app.md
+          - name: 조직에 대한 작업 앱 관리
+            href: manage-tasks-app.md
+          - name: Teams의 교대 근무
+            items:
+              - name: Teams의 교대 근무
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+              - name: Teams에서 조직의 교대 근무 앱 관리
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: 교육용 Teams
+        href: expand-teams-across-your-org/teams-for-education-landing-page.md
+        items:
+          - name: 빠른 시작 - 교육용 Teams 관리
+            href: teams-quick-start-edu.yml
+          - name: 원격 학습 시작
+            href: remote-learning-edu.md
+          - name: Teams EDU 정책 및 정책 패키지
+            href: policy-packages-edu.md
+          - name: 다수의 사용자에 정책 할당하기
+            href: batch-group-policy-assignment-edu.md
+          - name: 교사 및 학생을 위한 보안 그룹 생성을 위한 PowerShell 스크립트
+            href: scripts/powershell-script-security-groups-edu.md
+          - name: 교육 관리자용 낮은 대역폭 지침
+            href: edu-remote-low-bandwidth.md
+          - name: 교육용 Teams 정책 마법사
+            href: easy-policy-setup-edu.md
+          - name: Insights 교육
+            items:
+              - name: Insights 시작하기
+                href: class-insights.md
+              - name: SIS 데이터 Insights와 동기화하기
+                href: education-insights-sis-data-sync.md
+          - name: 교육용 Teams의 과제
+            href: expand-teams-across-your-org/assignments-in-teams.md
+          - name: 교육 관리자용 Teams 리소스
+            href: resources-teams-edu.md
+          - name: 관리자용 Microsoft 교육 거버넌스 FAQ
+            href: plan-teams-governance-edu.md
+          - name: Moodle 통합 설치
+            href: install-moodle-integration.md
+          - name: 교육용 Teams 라이선싱
+            href: teams-edu-licensing.md
+          - name: 교육 SKU 참조
+            href: sku-reference-edu.md
+      - name: 실무 직원용 Teams
+        items:
+          - name: 실무 직원용 빠른 시작
+            href: flw-quickstart.yml
+          - name: 실무 직원 스크립팅된 배포
+            href: flw-scripted-deployment.md
+          - name: 실무 직원에 대한 교대 기반 액세스 관리
+            href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: 'Microsoft Teams를 위한 RealWear '
+            href: flw-realwear.md
+          - name: Walkie Talkie
+            href: walkie-talkie.md
+          - name: SPO 사이트 또는 페이지에서 Teams 인트라넷 포털 앱 만들기
+            href: teams-standalone-static-tabs-using-spo-sites.md
+      - name: 소매용 Teams
+        href: expand-teams-across-your-org/teams-for-retail-landing-page.md
+        items:
+          - name: 관리 콘솔에서 소매용 Teams 서식 파일 시작
+            href: retail-teams-templates-in-the-admin-console.md
+          - name: 소매 Teams 서식 파일 시작
+            href: get-started-with-retail-teams-templates.md
+      - name: 정부 기관용 Teams
+        href: expand-teams-across-your-org/teams-for-government-landing-page.md
+        items:
+          - name: 원격 작업자(WFH) 지원
+            href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
+          - name: 정부 기관용 Teams 서식 파일 시작
+            href: government-teams-templates-in-the-admin-console.md
+          - name: Office 365 G1 평가판 서비스 관리
+            href: g1-trial-license.md
+          - name: Microsoft 365 정부 - GCC 계획
+            href: plan-for-government-gcc.md
+          - name: ' Microsoft 365 정부 - GCC High 계획'
+            href: plan-for-government-gcc-high.md
+          - name: Microsoft 365 정부 - DoD 계획
+            href: plan-for-government-dod.md
+          - name: GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
+            href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
+          - name: 정부 기관용 팀 정책 패키지
+            href: policy-packages-gov.md
+  - name: '보안, 개인 정보 보호, 규정 준수'
+    items:
+      - name: 개요
+        href: security-compliance-overview.md
+      - name: 보안
+        items:
+          - name: 보안 가이드
+            href: teams-security-guide.md
+          - name: Azure Sentinel 및 팀
+            href: teams-sentinel-guide.md
+          - name: ID 모델 및 인증
+            href: identify-models-authentication.md
+          - name: Microsoft Teams에 로그인
+            href: sign-in-teams.md
+          - name: Teams의 안전한 링크
+            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: AppLocker 응용 프로그램 제어 정책
+            href: applocker-in-teams.md
+          - name: Sharepoint에 대한 액세스 차단
+            href: block-access-sharepoint.md
+      - name: 규정 준수
+        items:
+          - name: 정보 장벽
+            href: information-barriers-in-teams.md
+          - name: 보존 정책
+            href: retention-policies.md
+          - name: 커뮤니케이션 규정 준수
+            href: communication-compliance.md
+          - name: 통화 및 모임에 대한 정책 기반 녹음
+            href: teams-recording-policy.md
+          - name: 민감도 레이블
+            href: sensitivity-labels.md
+          - name: 데이터 손실 방지
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: eDiscovery
+            href: ediscovery-investigation.md
+          - name: 법적 보존
+            href: legal-hold.md
+          - name: 콘텐츠 검색
+            href: content-search.md
+          - name: 감사
+            href: audit-log-events.md
+          - name: Microsoft Teams 내보내기 API를 사용하여 콘텐츠 내보내기
+            href: export-teams-content.md
+          - name: Teams에 대한 테넌트 수준의 고객 키
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: 개인 정보
+        items:
+          - name: 개인 정보 보호 및 Microsoft Teams
+            href: teams-privacy.md
+          - name: 데이터 수집 사례
+            href: data-collection-practices.md
+          - name: Teams의 데이터 위치
+            href: location-of-data-in-teams.md
+          - name: 특정 사용자에 대해 Sharepoint Online에 대한 액세스 차단
+            href: block-access-sharepoint.md
+          - name: 정책 컨트롤 개요
+            href: policy-control-overview.md
+          - name: 모바일 진단 데이터
+            href: policy-control-diagnostic-data-mobile.md
+          - name: 데스크톱 클라이언트 진단 데이터
+            href: policy-control-diagnostic-data-desktop.md
+          - name: 선택적 연결된 환경
+            href: teams-privacy-oce-overview.md
+  - name: '모니터링, 유지 관리 및 문제 해결'
+    items:
+      - name: 서비스 운영
+        href: upgrade-operate-my-service.md
+      - name: 서비스 향상
+        href: upgrade-enhance-my-service.md
+      - name: 통화 품질 모니터링 및 관리
+        items:
+          - name: 통화 품질 모니터링 및 향상
+            href: monitor-call-quality-qos.md
+          - name: CQD(통화 품질 대시보드)
+            items:
+              - name: CQD 정의
+                href: CQD-what-is-call-quality-dashboard.md
+              - name: CQD 설정
+                href: turning-on-and-using-call-quality-dashboard.md
+              - name: 테넌트 업로드 및 데이터 빌드
+                href: CQD-upload-tenant-building-data.md
+              - name: CQD 데이터 및 보고서
+                href: CQD-data-and-reports.md
+              - name: CQD를 사용하여 통화 및 모임 품질 관리
+                href: quality-of-experience-review-guide.md
+              - name: 자주 묻는 질문
+                href: CQD-frequently-asked-questions.md
+              - name: CQD에서 사용할 수 있는 차원 및 측정값
+                href: dimensions-and-measures-available-in-call-quality-dashboard.md
+              - name: CQD의 스트림 분류
+                href: stream-classification-in-call-quality-dashboard.md
+              - name: 건물 지도 만들기
+                href: CQD-building-mapping.md
+              - name: Power BI를 사용하여 CQD 데이터 분석
+                items:
+                  - name: Power BI를 사용하여 CQD 데이터 분석
+                    href: CQD-Power-BI-query-templates.md
+                  - name: CQD 쿼리 서식 파일을 사용하기 위해 Power BI 커넥터 설치
+                    href: CQD-Power-BI-connector.md
+                  - name: Teams 사용률에 대한 CQD 데이터 가져오기
+                    href: CQD-teams-utilization-report.md
+                  - name: CQD PSTN 직접 라우팅 보고서 사용
+                    href: CQD-PSTN-report.md
+          - name: 통화 분석
+            items:
+              - name: 통화 분석 설정
+                href: set-up-call-analytics.md
+              - name: 통화 분석을 사용하여 통화 품질 저하 문제 해결
+                href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+          - name: QoS(서비스 품질)
+            items:
+              - name: Teams에 QoS 설정
+                href: QoS-in-Teams.md
+              - name: Windows 클라이언트에 QoS 설정
+                href: QoS-in-Teams-clients.md
+      - name: Teams 문제 해결
+        href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
+      - name: 설치 및 업데이트 문제 해결
+        href: troubleshoot-installation.md
+      - name: Teams 클라이언트의 연결 문제 해결
+        href: connectivity-issues.md
+      - name: 기존 시스템에서 메시지와 통화 수신 문제
+        href: legacy-login-issues.md
+      - name: Teams 문제 해결에 로그 파일 사용
+        href: log-files.md
+      - name: 자주 묻는 질문(FAQ) - 원격 작업자 지원
+        href: FAQ-support-remote-workforce.md
+      - name: Teams의 서비스 상태 확인
+        href: service-health.md
+      - name: 비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
+        href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
+  - name: 참조
+    items:
+      - name: Teams의 제한과 사양
+        href: limits-specifications-teams.md
+      - name: Teams 배포 준비
+        items:
+          - name: Teams에 대한 조직의 네트워크 준비
+            href: prepare-network.md
+          - name: Teams용 관리자를 사용하여 Teams 배포
+            href: use-advisor-teams-roll-out.md
+          - name: Teams에 Network Planner 사용
+            href: network-planner.md
+          - name: Network Planner 연습
+            href: tutorial-network-planner-example.yml
+          - name: Teams 또는 비즈니스용 Skype Online용 프록시 서버
+            href: proxy-servers-for-skype-for-business-online.md
+          - name: Teams에서 팀을 만들 때 Microsoft 365 그룹에 대한 계획
+            href: plan-office-365-groups.md
+          - name: Teams에서 수명 주기 관리 계획
+            href: plan-teams-lifecycle.md
+          - name: Teams에서 거버넌스 계획
+            href: plan-teams-governance.md
+      - name: Teams 설치
+        items:
+          - name: Teams용 클라이언트 가져오기
+            href: get-clients.md
+          - name: 중국 Android용 Teams 가져오기
+            href: get-teams-android-in-china.md
+          - name: Teams 앱의 하드웨어 요구 사항
+            href: hardware-requirements-for-the-teams-app.md
+          - name: 하드웨어 디코더와 인코더 드라이버 권장 사항
+            href: hardware-decoders-and-encoders.md
+          - name: MSI를 사용하여 Teams 설치
+            href: msi-deployment.md
+          - name: 조직에서 Teams 설정
+            href: Office-365-set-up.md
+          - name: Microsoft Teams에서 메모리를 사용하는 방법
+            href: teams-memory-usage-perf.md
+          - name: Microsoft 365 및 Office 365 URL과 IP 주소 범위
+            href: office-365-urls-ip-address-ranges.md
+          - name: VDI(Virtualized Desktop Infrastructure)용 Teams
+            href: teams-for-vdi.md
+          - name: Surface Hub용 Teams 배포
+            href: teams-surface-hub.md
+          - name: Teams 클라이언트 업데이트
+            href: teams-client-update.md
+          - name: 설치 및 업데이트 문제 해결
+            href: troubleshoot-installation.md
+      - name: 라이선싱
+        items:
+          - name: Teams에 대한 사용자 액세스 관리
+            href: user-access.md
+          - name: Teams 추가 기능 라이선스 옵션
+            href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
+          - name: Teams 추가 기능 라이선스 할당하기
+            href: teams-add-on-licensing/assign-teams-add-on-licenses.md
+          - name: Office 365 E1 평가판 서비스 관리
+            href: e1-trial-license.md
+          - name: Office 365 G1 평가판 서비스 관리
+            href: g1-trial-license.md
+          - name: Teams 예비 환경 관리
+            href: teams-exploratory.md
+          - name: 무료 버전의 팀 관리
+            href: manage-freemium.md
+          - name: Teams를 구독 버전으로 무료 업그레이드
+            href: upgrade-freemium.md
+          - name: 고급 커뮤니케이션
+            href: teams-add-on-licensing/advanced-communications.md
+          - name: 메시징 정책 라이선스
+            href: teams-add-on-licensing/pri-message.md
+          - name: Microsoft 365 전화 시스템 - 가상 사용자 라이선스
+            href: teams-add-on-licensing/virtual-user.md
+      - name: Microsoft 365 및 Office 365와의 상호 운용성
+        items:
+          - name: Microsoft 365 그룹 및 Microsoft Teams
+            href: office-365-groups.md
+          - name: Microsoft 365 관리 센터를 사용하여 Microsoft 365 리소스 계정 만들기
+            href: devices/resource-account-ui.md
+          - name: Teams와 기존 Microsoft 365 그룹 향상
+            href: enhance-office-365-groups.md
+          - name: Exchange와 Teams의 상호 작용 방법
+            href: exchange-teams-interact.md
+            items:
+              - name: Teams와 사용할 Exchange 하이브리드 조직 구성
+                href: exchange-hybrid-organization.md
+              - name: Exchange에서 메일 흐름 규칙 사용
+                href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
+          - name: SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법
+            href: sharepoint-onedrive-interact.md
+          - name: Microsoft 365 또는 Office 365의 다중 지역 지원 테넌시의 Teams 환경
+            href: teams-experience-o365odb-spo-multi-geo.md
+      - name: 지원되는 장치
+        items:
+          - name: Teams에서 디바이스 관리
+            href: devices/device-management.md
+          - name: 원격으로 장치 업데이트
+            href: devices/remote-update.md
+          - name: Teams 디바이스 태그 관리
+            href: devices/manage-device-tags.md
+          - name: Teams용 전화
+            href: devices/phones-for-teams.md
+          - name: Teams 디스플레이
+            href: devices/teams-displays.md
+          - name: Teams 디스플레이에 Teams 휴대폰 업그레이드
+            href: devices/upgrade-phones-to-displays.md
+          - name: Intune을 사용하여 Teams 휴대폰 및 Teams 디스플레이 배포
+            href: devices/phones-displays-deploy.md
+          - name: USB 오디오 및 비디오 디바이스
+            href: devices/usb-devices.md
+          - name: Microsoft Teams용 공동 작업 모음 배포
+            href: devices/collab-bar-deploy.md
+          - name: 회의실 디바이스 및 솔루션
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Microsoft Teams에서 인증 받은 IP 휴대폰
+            href: devices/teams-ip-phones.md
+          - name: 비즈니스용 Skype Online용 휴대폰
+            href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: Teams PowerShell
+        items:
+          - name: 개요
+            href: teams-powershell-overview.md
+          - name: Teams PowerShell 설치
+            href: teams-powershell-install.md
+          - name: Teams PowerShell을 사용하여 Teams 관리
+            href: teams-powershell-managing-teams.md
+          - name: Teams PowerShell 릴리스 노트
+            href: teams-powershell-release-notes.md
+          - name: 비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 이동
+            href: teams-powershell-move-from-sfbo.md
+          - name: Teams용 Cmdlet 참조
+            href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
+      - name: Teams용 개발자 문서
+        href: 'https://docs.microsoft.com/microsoftteams/platform'
+      - name: Teams에서 도움말 보기
+        href: get-help-in-microsoft-teams.md
+      - name: Teams 콘텐츠 업데이트
+        href: teams-updates.md
+      - name: 지원 PIN을 찾는 방법
+        href: support-pin.md
+      - name: 오디오 회의 및 통화 플랜의 국가 및 지역 가용성
+        items:
+          - name: 개요
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: 알바니아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
+          - name: 알제리
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md
+          - name: 앤티가 바부다
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md
+          - name: 아르헨티나
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md
+          - name: 오스트레일리아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md
+          - name: 오스트리아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md
+          - name: 바하마
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md
+          - name: 바레인
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md
+          - name: 방글라데시
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md
+          - name: 바베이도스
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md
+          - name: 벨로루시
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md
+          - name: 벨기에
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md
+          - name: 벨리즈
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md
+          - name: 베냉
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
+          - name: 버뮤다
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
+          - name: 보스니아 헤르체고비나
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
+          - name: 브라질
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
+          - name: 브루나이
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md
+          - name: 불가리아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md
+          - name: 캄보디아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md
+          - name: 카메룬
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md
+          - name: 캐나다
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md
+          - name: 케이맨 제도
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md
+          - name: 칠레
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md
+          - name: 중국
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md
+          - name: 콜롬비아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md
+          - name: 코스타리카
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md
+          - name: 크로아티아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md
+          - name: 키프로스
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md
+          - name: 체코 공화국
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md
+          - name: 덴마크
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md
+          - name: 도미니카
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-dominica.md
+          - name: 도미니카 공화국
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md
+          - name: 에콰도르
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md
+          - name: 이집트
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md
+          - name: 엘살바도르
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md
+          - name: 에스토니아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md
+          - name: 핀란드
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md
+          - name: 프랑스
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md
+          - name: 조지아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md
+          - name: 독일
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md
+          - name: 가나
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md
+          - name: 그리스
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md
+          - name: 그레나다
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md
+          - name: 괌
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md
+          - name: 과테말라
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
+          - name: 온두라스
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
+          - name: 홍콩
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
+          - name: 헝가리
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
+          - name: 인도
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md
+          - name: 인도네시아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md
+          - name: 아일랜드
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md
+          - name: 이스라엘
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md
+          - name: 이탈리아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md
+          - name: 자메이카
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jamaica.md
+          - name: 일본
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md
+          - name: 요르단
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md
+          - name: 케냐
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md
+          - name: 쿠웨이트
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md
+          - name: 라트비아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md
+          - name: 리투아니아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md
+          - name: 룩셈부르크
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md
+          - name: 마케도니아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md
+          - name: 말레이시아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md
+          - name: 몰타
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md
+          - name: 멕시코
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md
+          - name: 몰도바
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md
+          - name: 모나코
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md
+          - name: 모로코
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md
+          - name: 네덜란드
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md
+          - name: 뉴질랜드
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md
+          - name: 니카라과
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md
+          - name: 나이지리아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md
+          - name: 북마리아나 제도
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md
+          - name: 노르웨이
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md
+          - name: 파키스탄
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md
+          - name: 파나마
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md
+          - name: 파라과이
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md
+          - name: 페루
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md
+          - name: 필리핀
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md
+          - name: 폴란드
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md
+          - name: 포르투갈
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md
+          - name: 푸에르토리코
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md
+          - name: 카타르
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md
+          - name: 루마니아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md
+          - name: 러시아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md
+          - name: 세인트 크리스토퍼 니비스
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-kitts-and-nevis.md
+          - name: 세인트 루시아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-lucia.md
+          - name: 사우디아라비아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md
+          - name: 세르비아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md
+          - name: 싱가포르
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md
+          - name: 슬로바키아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md
+          - name: 슬로베니아
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md
+          - name: 남아프리카 공화국
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md
+          - name: 대한민국
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md
+          - name: 스페인
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md
+          - name: 스리랑카
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md
+          - name: 스웨덴
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md
+          - name: 스위스
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md
+          - name: 대만
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
+          - name: 태국
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
+          - name: 트리니다드 토바고
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
+          - name: 튀니지
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
+          - name: 터키
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md
+          - name: 터크스 케이커스 제도
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md
+          - name: 우간다
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md
+          - name: 우크라이나
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md
+          - name: 아랍에미리트(UAE)
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md
+          - name: 영국
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md
+          - name: 미국
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md
+          - name: 우루과이
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md
+          - name: 베네수엘라
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md
+          - name: 베트남
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
+      - name: 접근성 및 규정 준수
+        items:
+          - name: Microsoft Teams에서 프랑스의 규정 준수에 대한 접근성 선언
+            href: accessibility-declaration-of-conformance-in-france-for-teams.md
+          - name: 비즈니스용 Skype Online 및 Microsoft Teams용 접근성 솔루션
+            href: accessibility-solutions-in-france.md
+          - name: Microsoft 365의 통화 플랜 - 영국의 직업 규약
+            href: code-of-practice-for-the-united-kingdom-u-k.md
+          - name: Microsoft 365의 통화 플랜 - 영국의 코드 호환 처리
+            href: complaint-handling-code-for-the-united-kingdom-u-k.md
+          - name: 긴급 통화 사용 약관
+            href: emergency-calling-terms-and-conditions.md
+      - name: 업그레이드 검색 질문
+        href: upgrade-plan-journey-discovery-questionnaire.md
+      - name: Teams 관리자 기능 릴리즈 노트
+        href: release-notes/release-notes.md
+      - name: Microsoft Teams의 공개 미리 보기
+        href: public-preview-doc-updates.md
