@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7570368a6b9bd889bc5ed632cd1d057d70ae791a
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986431"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067123"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>SIS(학생 정보 시스템) 데이터와 Education Insights 동기화
 더 많은 데이터가 [Education Insights](class-insights.md)에 제공될수록 교육자는 학생을 더 잘 지원할 수 있으며 교육 리더는 교육자를 더 잘 지원할 수 있습니다.
@@ -37,7 +37,7 @@ Insights는 [SDS V2 파일 형식](https://docs.microsoft.com/schooldatasync/sds
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>SDS V1과 V2 파일 형식의 차이점
 
-| 데이터 형식 |   V1 | V2(권장) |
+| 데이터 형식 |   V1 | V2(신규 고객에게 권장) |
 |:--- |:--- |:--- |
 | **사용자** | V1 형식에는 **교육자만** 포함되어 있으므로 교육 리더에 대한 조직 수준 권한을 설정하려면 교육 리더를 검색하고 각각의 권한을 수동으로 정의해야 합니다. | V2 형식에는 역할 기반 권한을 할당할 수 있도록 **모든 역할** 이 포함되어 있습니다. |
 | **조직** | V1 형식에는 **학교만** 포함되어 있으므로 한 집계 수준(모든 학교)만 표시됩니다. 플랫 목록을 사용하여 특정 학교를 확대할 수 있지만, 이 목록에는 많은 학교나 비교하기 어려운 여러 유형의 학교(예: 초/중/고/과학/예술 학교)가 있을 수 있습니다.<br/><br/> 계층 구조가 있는 경우 과학 또는 예술 부서와 같이 의미 있는 수준을 만들 수 있습니다.| V2 형식은 대학, 학부, 캠퍼스, 지역, 프로그램 등 **학군 또는 기관의 전체 계층 구조에 대한 전체 계층** 을 포함합니다.<br/><br/> 계층 구조를 사용하여 계층 구조의 수준별로 관련 집계를 보고, 각 수준에서 조직 단위를 빠르게 비교하고, 특정 수준에 대한 권한을 할당하고, 조직 수준별로 목표를 설정할 수 있습니다.|
@@ -112,7 +112,9 @@ SDS(학교 데이터 동기화)는 교육용 Office 365와 함께 제공됩니�
 ### <a name="deploy-sds"></a>SDS 배포
 **SDS를 이미 사용하는 경우** [모범 사례](#best-practices)를 따르는 것이 좋습니다. 
 
-현재 프로필을 Insights와 동기화하려면 **프로필 동기화** 로 이동하고, **편집** 을 클릭하고, **SDS에서 조직 데이터 동기화** 를 선택합니다. 초기 동기화를 위해 SIS에서 데이터를 새로 고친 후 보고서를 사용할 수 있을 때까지 24시간을 기다리는 것이 좋습니다.  
+현재 프로필을 Insight와 동기화하려면 **동기화 프로필** 으로 이동하고 **편집** 을 클릭한 다음 **Insights** 동기화를 선택합니다. 초기 동기화를 위해 SIS에서 데이터를 새로 고친 후 보고서를 사용할 수 있을 때까지 24시간을 기다리는 것이 좋습니다.  
+
+:::image type="content" source="media/insights-sds-profile-sync.png" alt-text=" 프로필을 Insight와 동기화 토글":::
 
 **아직 SDS를 사용하지 않는 경우** 지금 [SDS를 배포](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync)해야 합니다.
 
@@ -122,7 +124,7 @@ SDS(학교 데이터 동기화)는 교육용 Office 365와 함께 제공됩니�
 > 현재 한 해의 반이 지났고 이미 수동으로 팀을 만든 경우 SDS를 사용하여 Insights에 데이터만 제공하고 내년에 Teams에서 사용자와 수업을 프로비전하는 데 SDS를 사용하는 것을 고려하세요.
 
 ### <a name="verify-the-sync-process"></a>동기화 프로세스 확인
-조직 데이터 동기화 옆에 새 상태 영역이 나타납니다. 설정 페이지에서 미리 보기입니다.
+설정 페이지의 Sync 조직 데이터(미리 보기) 옆에 새 상태 영역이 나타납니다.
  
 *   상태가 **진행 중** 이면 SDS 프로필을 배포한 후 최대 24시간까지 기다리세요.
 

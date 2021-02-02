@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd60e20d4218c9deaca84974b890280f942fe1be
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986394"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067133"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -174,7 +174,7 @@ Insights에 액세스하려면 사용자에게 Microsoft 365용 A1, A3 또는 A5
 
 Teams의 수업 구조와 권한을 사용하기 때문에 수업 교육자로서 수업 수준 Insights를 볼 필요가 *없습니다*.
 
-자세한 정보는 [SIS(학생 정보 시스템) 데이터와 Education Insights 동기화](education-insights-sis-data-sync.md)를 참조하세요.
+자세한 내용은 [**SIS(학생 정보 시스템) 데이터를 Education Insights와 동기화**](education-insights-sis-data-sync.md)를 읽어보세요.
 
 ## <a name="manage-permissions"></a>사용 권한 관리
 교육 리더, 학군 리더, 교장, 교사 부장, 상담 교사, 학습 분야 책임자, 프로그램 디렉터, 사회복지사, 심리학자에게 사용 권한을 부여해야 합니다. 교육자는 수업 팀을 맡게 되면 자동으로 권한을 부여받습니다.
@@ -208,19 +208,51 @@ Insights 사용에 대해 교육 기관에 알리세요.
 ## <a name="turn-insights-off-or-on"></a>Insights 사용 해제 또는 설정
 기본적으로 Insights 사용이 설정되어 있습니다. 옵트아웃하면 Insights를 위해 *수집된 정보는 삭제됩니다*. Insights를 다시 설정하면 사용 설정된 이후부터 데이터 수집을 시작됩니다.
 
-### <a name="turn-insights-off-using-school-data-sync-sds"></a>SDS(학교 데이터 동기화)를 사용하여 Insights 사용 끄기
+### <a name="turn-off-insights-using-school-data-sync-sds"></a>SDS(학교 데이터 동기화)를 사용하여 Insights 사용 끄기
 SDS(학교 데이터 동기화)는 Teams 내에서 SIS(학생 정보 시스템) 자동으로 데이터를 가져오고 동기화하도록 돕습니다.
 
-Insights를 사용하기 위해서는 SDS를 사용할 *필요가 없습니다*. 하지만 Insights를 언제든지 옵트아웃할 수 있습니다. SDS 관리 센터를 열고 교육 정보 **설정** > **Education Insights 관리** 로 이동하세요. ‘**Insights를 위한 데이터 수집**’을 끄고 Insights 사용을 해제합니다. 
+Insights를 사용하기 위해서는 SDS를 사용할 *필요가 없습니다*. 하지만 Insights를 언제든지 옵트아웃할 수 있습니다. [SDS 관리 센터](https://sds.microsoft.com)를 열고 **설정** > **Education Insights 관리** 로 이동하세요. ‘**Insights를 위한 데이터 수집**’을 끄고 Insights 사용을 해제합니다. 
 
 :::image type="content" source="media/insights-sds-settings.png" alt-text="Insights 사용 켜기 또는 끄기를 위한 스위치":::
 
-### <a name="turn-insights-on"></a>Insights 사용 켜기
-Insights를 끈 경우 다시 빠르게 켤 수 있습니다. SDS 관리 센터를 열고 교육 정보 **설정** > **Education Insights 관리** 로 이동하세요. ‘**Insights를 위한 데이터 수집**’을 켜고 Insights를 사용하도록 설정합니다.
+### <a name="turn-on-insights"></a>Insights 켜기
+Insights를 끈 경우 다시 빠르게 켤 수 있습니다. [SDS 관리 센터](https://sds.microsoft.com)를 열고 **설정** > **Education Insights 관리** 로 이동하세요. ‘**Insights를 위한 데이터 수집**’을 켜고 Insights를 사용하도록 설정합니다.
 
 ### <a name="how-to-delete-your-data"></a>데이터 삭제 방법
-Insights는 수업 팀 컨텍스트에서 수행된 학생과 강사 활동을 저장합니다. 이 데이터는 통합된 데이터 집합으로 간주하므로 조직에서 학생 또는 강사 사용자 계정을 삭제한 후에도 서비스에서 자동으로 삭제되지 않습니다.
+Insights는 수업 팀 컨텍스트에서 수행된 학생과 강사 활동을 저장합니다. 이 데이터는 혼합 데이터 세트로 간주되므로 조직에서 학생 또는 교육자 사용자 계정이 삭제되면 서비스에서 자동으로 삭제되지 않습니다.
 참고: 데이터를 삭제하면 시간이 지남에 따라 수업 팀 참여를 분석하는 Insights의 기능에 부정적인 영향을 미칩니다.
-* [지원 티켓을 엽니다](https://edusupport.microsoft.com/support). 지원 티켓은 GDPR 삭제 DSR 작업 요청을 명확하게 명시해야 하며 삭제할 개체 ID를 포함해야 합니다. 삭제의 데이터 집합 또는 시간 창을 제한할 수 없습니다.
+* [지원 티켓을 엽니다](https://aka.ms/edusupport). 지원 티켓은 GDPR 삭제 DSR 작업 요청을 명확하게 명시해야 하며 삭제할 개체 ID를 포함해야 합니다. 삭제의 데이터 집합 또는 시간 창을 제한할 수 없습니다.
 *   일단 제출되면 지원 티켓은 규정 준수 최소 보존 정책을 위해 일주일 동안 큐에서 대기합니다. 이 기간에는 작업을 취소할 수 있습니다.
 *   일주일 후에는 Education Insights 팀에서 사용자 ID와 관련된 모든 데이터를 서비스에서 삭제하는 조치를 취합니다. Microsoft 지원에서는 티켓을 모니터링하고 삭제 프로세스가 완료되면 28일 이내에 공지합니다.
+
+## <a name="troubleshooting"></a>문제 해결
+### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>왜 우리 기관에는 Insight에서 어떤 데이터도 나타나지 않을까요?
+*새로운* 테넌트가 있고 데이터가 Insights에서 *한 번도* 나타나지 않는 경우 테넌트가 **교육 테넌트(Insights)로 검증** 되어 Insights에 액세스하는지 확인합니다. Microsoft 계정 관리자에게 문의하여 테넌트가 올바르게 구성되었는지 확인하도록 요청합니다.
+
+계정 관리자가 없다면, 티켓을 여세요. [Office 365 관리 센터](https://admin.microsoft.com/AdminPortal/) > **지원** > **새 서비스 요청** 으로 이동합니다.  티켓 제목에 "교육 검증에 도움이 필요합니다"라고 쓰십시오.
+ 
+또한 Insight에 대한 데이터 수집이 활성화되어 있는지 확인합니다. 기본적으로 켜져 있는 동안 IT 관리자는 이 기능을 해제하여 Insight에서 보유한 모든 데이터를 삭제했을 수 있습니다.
+
+이를 확인하려면 [SDS 관리 센터](https://sds.microsoft.com)를 열고 **설정** > **Education Insights 관리** 로 이동하세요. 'Insights용 데이터 수집' 상태를 확인하십시오.
+
+전원이 꺼져 있으면 다시 켭니다.  Insights는 데이터를 수집하기 시작하지만 보고서에서 데이터를 보는 데 최대 24시간이 걸릴 수 있습니다. 
+
+
+### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>전부가 아닌 일부 학생 또는 강의에 대한 데이터가 표시되는 이유는 무엇입니까?
+Microsoft는 *라이선스가 있는* 학생에 대한 데이터만 수집합니다. 따라서 가장 가능성이 높은 이유는 게스트 학생이 수업에 참석하고 데이터가 수집되지 않기 때문입니다. 이름은 표시되지만 데이터는 표시되지 않습니다.
+
+학생의 상태를 확인하여 모든 학생이 학생 라이선스를 갖고 있는지 확인합니다. 
+
+### <a name="why-dont-educators-see-meeting-data"></a>강사가 모임 데이터를 볼 수 없는 이유는 무엇입니까?
+Insights 보고서에서 모임 데이터를 보는 데 최대 24시간이 걸립니다. 충분한 시간이 흘렀는지 확인해보세요.
+
+또한 학생이 [Teams 계정 없이 수업 모임에 참가 *하지* 않았는지](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508) 확인합니다. 이러한 시나리오에서는 학생 활동이 수집되지 않습니다.
+
+> [!TIP]
+> 학생 출석률을 추적하려는 교육자의 경우, 모임 중에 학생에게 회신하도록 요청하는 메시지를 보내는 것이 좋습니다. 이것은 몇 분 안에 그들의 출석을 등록합니다.
+
+> [!NOTE]
+> 질문에 여전히 응답하지 않는 경우 [지원 티켓을 여세요](https://aka.ms/edusupport). 문제와 문제가 발생한 날짜를 나타내는 관련 스크린샷을 포함합니다. 문제를 해결하는 데 도움이 될 수 있는 모든 데이터를 추가하세요.
+
+
+
