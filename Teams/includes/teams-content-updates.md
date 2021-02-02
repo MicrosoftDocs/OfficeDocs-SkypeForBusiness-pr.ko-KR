@@ -3,6 +3,43 @@
 
 
 
+## <a name="week-of-january-25-2021"></a>2021년 1월 25일 주
+
+
+| 게시일 |주제 제목 | 변경 |
+|------|------------|--------|
+| 1/25/2021 | [Microsoft Teams에서 조직 전체 팀 만들기](/MicrosoftTeams/create-an-org-wide-team) | 수정 |
+| 1/25/2021 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
+| 1/25/2021 | [Microsoft Teams에서 긴급 통화 정책 관리](/MicrosoftTeams/manage-emergency-calling-policies) | 수정 |
+| 1/25/2021 | [보안 및 규정 준수 개요](/MicrosoftTeams/security-compliance-overview) | 수정 |
+| 1/25/2021 | [Teams 업그레이드 계획 워크숍](/MicrosoftTeams/upgrade-workshops-landing-page) | 수정 |
+| 1/25/2021 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
+| 1/25/2021 | [Microsoft Teams에서 콘텐츠 검색 사용](/MicrosoftTeams/content-search) | 수정 |
+| 1/25/2021 | [콘텐츠에 대한 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 수정 |
+| 1/25/2021 | [Microsoft Teams 사용자 또는 팀에 법적 보류](/MicrosoftTeams/legal-hold) | 수정 |
+| 1/26/2021 | [SIS(학생 정보 시스템) 데이터와 Education Insights 동기화](/MicrosoftTeams/education-insights-sis-data-sync) | 추가 |
+| 1/26/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정 |
+| 1/26/2021 | [차원 및 측정 - CQD(통화 품질 대시보드)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정 |
+| 1/26/2021 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
+| 1/27/2021 | [Microsoft Teams용 고급 통신 추가 기능](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 수정 |
+| 1/27/2021 | [Microsoft Teams 추가 기능 라이선스](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 수정 |
+| 1/27/2021 | [차원 및 측정 - CQD(통화 품질 대시보드)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정 |
+| 1/27/2021 | [팀을 만들 때 Microsoft 365 그룹에 대한 계획](/MicrosoftTeams/plan-office-365-groups) | 수정 |
+| 1/27/2021 | [Microsoft Teams용 전화 및 장치](/MicrosoftTeams/devices/usb-devices) | 수정 |
+| 1/28/2021 | [Outlook에서 Microsoft Teams 모임 추가 기능 사용](/MicrosoftTeams/teams-add-in-for-outlook) | 수정 |
+| 1/28/2021 | [Teams 관리 센터에서 칭찬 앱 관리](/MicrosoftTeams/manage-praise-app) | 수정 |
+| 1/28/2021 | [Microsoft Teams의 공개 미리 보기](/MicrosoftTeams/public-preview-doc-updates) | 수정 |
+| 1/28/2021 | [Microsoft Teams 회의실 관리 서비스](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 수정 |
+| 1/28/2021 | [Teams 앱 제출 API를 사용하여 사용자 지정 앱 제출 및 승인](/MicrosoftTeams/submit-approve-custom-apps) | 수정 |
+| 1/29/2021 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 수정 |
+| 1/29/2021 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
+| 1/29/2021 | [가상 방문을 위한 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 수정 |
+| 1/29/2021 | [외부 액세스 관리(페더화)](/MicrosoftTeams/manage-external-access) | 수정 |
+| 1/29/2021 | [Microsoft Teams의 외부(페더러리) 사용자를 위한 네이티브 채팅 환경](/MicrosoftTeams/native-chat-for-external-users) | 수정 |
+| 1/29/2021 | [알려진 문제](/MicrosoftTeams/rooms/known-issues) | 수정 |
+| 1/29/2021 | [Teams 및 Skype 상호 연동성](/MicrosoftTeams/teams-skype-interop) | 수정 |
+
+
 ## <a name="week-of-january-18-2021"></a>2021년 1월 18일 주
 
 
@@ -11,7 +48,7 @@
 | 1/21/2021 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정 |
 | 1/21/2021 | [세션 테두리 컨트롤러 구성 - 여러 테넌트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 수정 |
 | 1/21/2021 | [프랑스의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 수정 |
-| 1/21/2021 | [Teams Learning 앱에 대한 권한 설치, 관리 및 할당(비공개 미리 보기)](/MicrosoftTeams/teams-learning-app-overview) | 수정 |
+| 1/21/2021 | [Teams Learning 앱에 대한 사용 권한 설치, 관리 및 할당(비공개 미리 보기)](/MicrosoftTeams/teams-learning-app-overview) | 수정 |
 | 1/21/2021 | [SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 수정 |
 | 1/19/2021 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 수정 |
 | 1/19/2021 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
@@ -44,7 +81,7 @@
 | 1/19/2021 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
 | 1/19/2021 | [의료 조직용 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 수정 |
 | 1/19/2021 | [Teams의 교대 근무](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 수정 |
-| 1/19/2021 | [Teams에서 일선 작업자에 대한 교대 근무 기반 액세스 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | 수정 |
+| 1/19/2021 | [Teams에서 일선 작업자의 교대 근무 기반 액세스 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | 수정 |
 | 1/19/2021 | [조직의 Shifts 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 수정 |
 | 1/19/2021 | [Microsoft StaffHub가 사용 중지](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 수정 |
 | 1/19/2021 | [RealWear 클라이언트용 Microsoft Teams에 대한 IT 관리자 정보(미리보기)](/MicrosoftTeams/flw-realwear) | 수정 |
