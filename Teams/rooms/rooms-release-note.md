@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 Microsoft Teams 회의실의 누적 개선 내용을 나열하는 Microsoft Teams 회의실의 릴리스 노트를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c8efc437b36748768807a11d392bddcd41b0eb12
-ms.sourcegitcommit: 413aa915f74b997358b54f39842b60fe757094f3
+ms.openlocfilehash: 8c88912330fd8bed6beaa4b55c4747785feb7b4e
+ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49670752"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50101326"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -29,6 +29,7 @@ ms.locfileid: "49670752"
 
 |릴리스 |게시자 <br/> Microsoft Store |
 |--- |--- |
+|4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
@@ -70,17 +71,22 @@ ms.locfileid: "49670752"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 회의실 기능 소개 및 문제 해결
 
+### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
+
+이 업데이트에 도입된 사항:
+- 품질 및 안정성 수정
+
 ### <a name="47150-12112020"></a>4.7.15.0 (12/11/2020)
 
 이 업데이트에 도입된 사항:
 
 - Teams 모임에서 모임 참가자와 HDMI 오디오 공유
 - Cortana 음성 기술(미리 보기)
-- Teams Room이 참석자로 참가할 때 오디오 사용 권한에 따라 음소수 변경을 방지합니다. 자세한 내용은 [Teams 모임에서 참석자 오디오 권한 관리를 참조하세요.](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
+- Teams Room이 참석자로 참가할 때 오디오 사용 권한에 따라 음소대를 다가 퇴장하지 않도록 합니다. 자세한 내용은 [Teams 모임에서 참석자 오디오 권한 관리를 참조하세요.](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
 - Teams Room 콘솔에서 다른 사람의 비디오를 스포트라이트하고 방 디스플레이에서 스포트라이트된 비디오 사용
 
 > [!NOTE]
-> Cortana 음성 기술은 미국에 있는 테넌트의 오디오 주변 장치를 선택할 수 있습니다. 향후 추가 국가 또는 지역이 추가될 예정입니다. 자세한 내용은 [Teams의 Cortana 음성 지원을 참조하세요.](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
+> Cortana 음성 기술은 미국에 있는 테넌트의 오디오 주변 장치를 선택할 수 있습니다. 추가 국가 또는 지역은 향후 추가될 예정입니다. 자세한 내용은 [Teams의 Cortana 음성 지원을 참조하세요.](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
@@ -129,7 +135,7 @@ ms.locfileid: "49670752"
 - "4.4.41.0으로 업데이트한 후 애플리케이션이 시작되지 않습니다" 문제 해결
 
 > [!NOTE]
-> 장치가 버전 4.4.63.0으로 자동으로 업데이트되지 않는 경우 Microsoft Teams Rooms 응용 프로그램의 단계에 따라 [4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) 버전으로 업데이트한 후 시작되지 않는 문제를 해결합니다.
+> 장치가 4.4.63.0 버전으로 자동으로 업데이트되지 않는 경우 Microsoft Teams Rooms 응용 프로그램의 단계에 따라 [4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) 버전으로 업데이트한 후 시작되지 않는 문제를 해결합니다.
 
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 
@@ -166,9 +172,9 @@ ms.locfileid: "49670752"
 
 이 업데이트에 도입된 사항:
 
-- 이를 제어하기 위한 근접성 기반 호출 및 관리자 설정 자동 응답
+- 근접성 기반 호출 및 이를 제어하는 관리자 설정 자동 응답
 - 정보 탭에서 디바이스 구성이 추가된 디바이스 관리자 설정 UI 새로 고침
-- 방 컨트롤을 주 화면으로 되돌리기
+- 주 화면으로 다시 방 컨트롤
 - GCC에서 사용할 수 있는 회의실 SKU
 - Surface Pro 기반 시스템에 대한 콘텐츠 카메라 지원(최소 필수 앱 빌드: 4.2.4.0)
 
@@ -176,7 +182,7 @@ ms.locfileid: "49670752"
 
 이 업데이트에 도입된 사항:
 
-- Windows 10 1903 지원. Windows 10 1903 업데이트는 앱 업데이트 후 며칠 후에 제공됩니다.
+- Windows 10 1903이 지원됩니다. Windows 10 1903 업데이트는 앱 업데이트 후 며칠 후에 제공됩니다.
 - 화면에 키보드가 안정적으로 표시되지 않는 문제 해결
 
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
@@ -196,7 +202,7 @@ ms.locfileid: "49670752"
 - Skype 채팅방 시스템 스토어 앱이 "Microsoft Teams Room"으로 브랜드가 다시 브랜드가 됩니다.
 - Microsoft Teams로 재인식된 Microsoft Teams 회의실 콘솔 사용자 인터페이스
 - 테마 업데이트: 콘솔 UI 컨트롤이 색 대비를 충족하도록 본체 배경을 중립 색으로 만드는 동시에 사용자 지정 배경 이미지만 방 디스플레이에 유지
-- Microsoft Teams PC/웹/모바일 클라이언트<sup>1에서</sup> 일관된 환경을 제공하는 Teams 통화/모임에 대한 모임 내 통화 컨트롤을 위한 유니버설 바
+- Microsoft Teams PC/웹/모바일 클라이언트<sup>1에서</sup> 일관된 환경을 제공하기 위해 Teams 통화/모임에 대한 모임 내 통화 컨트롤을 위한 유니버설 바
 - Teams 통화/모임 후 통화 품질 피드백<sup>등급 1</sup>
 - PC/웹/Mobile Teams 클라이언트<sup>1</sup> <sup>2에서</sup> 공유하는 경우 Microsoft Teams 회의실 전면에 Microsoft Whiteboard를 렌더합니다.
 - Microsoft Teams Rooms 클라이언트와의 호환성 문제로 인해 Windows 10 버전 1809 업그레이드에 대한 지원이 제거되었습니다. Windows 10 버전 19H1 지원은 향후 릴리스에 추가될 예정입니다.
@@ -223,9 +229,9 @@ ms.locfileid: "49670752"
 이 업데이트에 도입된 사항:
 
 - Microsoft Teams P2P 모임 및 PSTN 통화를 위한 DTMF 키패드입니다. Microsoft Teams를 기본 통화 클라이언트로 설정하려면 관리자가 IsTeamsDefaultClient를 true로 설정해야 합니다.
-- 원격 참가자의 받는 비디오를 방 디스플레이의 전체 화면에 고정합니다. 본체의 참가자 로스터에서 "고정" 명령 사용
-- 로비 알림이 개선된 공간 알림 추가
-- Microsoft Teams 회의실 장치에서 Bluetooth 경우 회의실 표시 캐스팅 아이콘이 제거됨
+- 원격 참가자의 수신 비디오를 방 디스플레이의 전체 화면에 고정합니다. 본체의 참가자 로스터에서 "고정" 명령 사용
+- 로비 알림이 개선된 공간 알림이 추가된 경우
+- Microsoft Teams 회의실 장치에서 Bluetooth 경우 방 표시 캐스팅 아이콘이 제거됨
 - Teams 모임의 볼륨 제어 문제 해결
 
 ### <a name="40640-12142018"></a>4.0.64.0 (12/14/2018)
@@ -339,7 +345,7 @@ ms.locfileid: "49670752"
 
 - [Polycom MSR 시리즈 Dock](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) 하드웨어에 대한 지원
 - [Logitech Brio에 대한 지원](https://www.logitech.com/product/brio)
-- 방에 활동이 없는 경우 디스플레이(콘솔 및 방 앞)가 절전 모드로 전환되지 못하는 문제를 해결합니다.
+- 방에 활동이 없는 경우 디스플레이(콘솔 및 방 앞)가 절전 모드로 전환하지 못하는 문제를 해결합니다.
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
 
@@ -384,8 +390,8 @@ ms.locfileid: "49670752"
 
 - Skype 모임의 원터치 참가
 - 화면 채우기 HD 비디오 및 HD 와이드 밴드 오디오가 있는 회의실에 최적화된 Skype 모임 환경
-- 모든 참가자는 어디에서나 원하는 장치를 사용하여 Skype 모임에 연결할 수 있습니다.
-- 자신의 참석 가능 여부를 즉시 확인할 수 있는 디렉터리의 사용자 초대 또는 전화 통화를 통해
+- 모든 참가자는 어디서든 원하는 장치를 사용하여 Skype 모임에 연결할 수 있습니다.
+- 해당 참석 가능 여부를 즉시 확인할 수 있는 디렉터리의 사용자 초대 또는 전화 통화를 통해
 - 회의실의 독립 실행형 전화기 교체를 위한 비즈니스용 Skype PSTN 회의 및 PSTN 통화 지원
 
  **회의실 변환**

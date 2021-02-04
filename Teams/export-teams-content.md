@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ea2d747d40c221d9e99b51fc7b15da8e2cdd12
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
+ms.openlocfilehash: 9c99bed1ef9a1862b469dd5214b8d829bde8479b
+ms.sourcegitcommit: 15c45befbee35e69f9ec82493151cb82e61da4fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944603"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50096931"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams 내보내기 API를 통해 콘텐츠 내보내기
 
@@ -50,37 +50,37 @@ Teams 내보내기 API를 사용하면 Microsoft Teams에서 1:1, 그룹 채팅 
 - **예제 1은** 필터 없이 사용자 또는 팀의 모든 메시지를 검색하는 간단한 쿼리입니다.
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages
     ```
 
 - **예제 2는** 날짜 시간 필터 및 상위 50개 메시지를 지정하여 사용자 또는 팀의 모든 메시지를 검색하는 샘플 쿼리입니다.
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
-```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    ```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
->The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
+>API는 여러 결과의 경우 다음 페이지 링크가 있는 응답을 반환합니다. 다음 결과 집합을 얻습니다. @odata.nextlink의 URL에서 GET을 호출하면 됩니다. @odata.nextlink가 존재하지 않는 경우 또는 null이면 모든 메시지가 검색됩니다.
 
-## Prerequisites to access Teams Export APIs 
+## <a name="prerequisites-to-access-teams-export-apis"></a>Teams 내보내기 API에 액세스하기 위한 전제적 요구 
 
-- Teams Export APIs are currently in preview. It will only be available to users and tenants that have the [required licenses](https://aka.ms/teams-changenotification-licenses) for APIs. In the future, Microsoft may require you or your customers to pay additional fees based on the amount of data accessed through the API.
-- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
-- Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
+- Teams 내보내기 API는 현재 미리 보기로 제공됩니다. API에 필요한 라이선스가 있는 사용자 및 [](https://aka.ms/teams-changenotification-licenses) 테넌트만 사용할 수 있습니다. 향후 Microsoft는 사용자 또는 고객이 API를 통해 액세스하는 데이터의 양에 따라 추가 요금을 지불해야 할 수 있습니다.
+- 중요한 데이터에 액세스하는 Microsoft Graph의 Microsoft Teams API는 보호된 API로 간주됩니다. API 내보내기 기능을 사용하려면 사용 권한 및 동의 이외에 추가 유효성 검사가 필요합니다. 이러한 보호된 API에 대한 액세스를 요청하기 위해 요청 양식을 [작성합니다.](https://aka.ms/teamsgraph/requestaccess)
+- 애플리케이션 권한은 로그인한 사용자가 없는 실행 앱에서 사용됩니다. 애플리케이션 권한은 관리자만 동의할 수 있습니다. 다음 권한이 필요합니다.
 
-    - *Chat.Read.All*: enables access to all 1:1 and Group chat messages 
-    - *User.Read.All*: enables access to the list of users for a tenant 
+    - *Chat.Read.All:* 모든 1:1 및 그룹 채팅 메시지에 액세스할 수 있습니다. 
+    - *User.Read.All:* 테넌트에 대한 사용자 목록에 액세스할 수 있습니다. 
 
-## JSON representation
+## <a name="json-representation"></a>JSON 표현
 
-The following example is a JSON representation of the resource:
+다음 예제는 리소스의 JSON 표현입니다.
 
-Namespace: microsoft.graph
+네임스페이스: microsoft.graph
 
 ```JSON
 {
