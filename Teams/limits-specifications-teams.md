@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973072"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110211"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -57,7 +57,7 @@ ms.locfileid: "49973072"
 
 <sup>4</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 수, 반응이 포함되기 때문에 대략적인 한도입니다.
 
-<sup>5</sup> GCC Teams에서는 구성원만 수용할 수 있으며 GCCH/DoD Teams에서는 2,500명의 구성원만 수용할 수 있습니다.
+<sup>5</sup> GCC Teams에서는 5,000명만 수용할 수 있고 GCCH/DoD Teams에서는 2,500명만 수용할 수 있습니다.
 
 ## <a name="messaging"></a>메시징
 

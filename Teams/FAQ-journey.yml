@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
-  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
+  ms.openlocfilehash: 9cefe2a8558b10a6d53a6b6c49c519f9f8aa13f3
+  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 01/13/2021
-  ms.locfileid: "49841479"
+  ms.lasthandoff: 02/05/2021
+  ms.locfileid: "50110341"
 title: FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 summary: ''
 sections:
@@ -46,9 +46,9 @@ sections:
   - question: Microsoft Teams 관리 센터의 공존 모드에 대한 자세한 정보는 어디에 있나요?
     answer: >
       Microsoft Teams 관리 센터에는 조직에서 조직에 적합한 비즈니스용 Skype에서 Teams로의 이동 과정을 관리하도록 해주는 공존 모드에 대한 옵션이 표시됩니다. [공존 및 업그레이드 모드](teams-and-skypeforbusiness-coexistence-and-interoperability.md)에 대해 자세히 알아보세요.
-  - question: 업그레이드를 준비하려면 어떻게 해야 하나요?
+  - question: 업그레이드를 위해 무엇을 준비해야 하나요?
     answer: >
-      성공적인 업그레이드는 사용자의 승인 준비 외에 기술적 준비의 검증도 포함합니다. 조직이 Teams로 업그레이드할 준비가 되지 않은 경우에도 이동 과정을 계획하기 시작할 수 있습니다. 또한 Teams와 함께 비즈니스용 Skype를 사용하도록 설정하여 Teams의 가치 실현을 시작할 수 있습니다. https://aka.ms/skypetoteams-home) 지금 Skype에서 Teams로의 이동 과정을 시작해 보세요.
+      성공적인 업그레이드는 사용자의 승인 준비 외에 기술적 준비의 검증도 포함합니다. 조직이 Teams로 업그레이드할 준비가 되지 않은 경우에도 이동 과정을 계획하기 시작할 수 있습니다. 또한 Teams와 함께 비즈니스용 Skype를 사용하도록 설정하여 Teams의 가치 실현을 시작할 수 있습니다. 지금 [Skype에서 Teams로의 이동 과정](https://aka.ms/skypetoteams-home)을 시작해 보세요.
 
 
       Microsoft는 또한 업그레이드 계획 및 구현을 시작하기 위해 설계된 지침, 모범 사례, 리소스를 공유할 라이브 대화형 워크숍도 제공합니다. [업그레이드 계획 워크숍에 대해 자세히 알아보세요](https://aka.ms/SkypeToTeamsPlanning).
@@ -120,4 +120,4 @@ sections:
     answer: >
       [회의실 장치](https://products.office.com/microsoft-teams/across-devices)는 최신 작업 영역에서 당사의 비전을 위해 매우 중요합니다. [기존 VTC 시스템을 사용하여 Teams 모임을 지원하기 위한 ](https://docs.microsoft.com/microsoftteams/cloud-video-interop)클라우드 비디오 상호 운용성 서비스는 당사의 파트너 Pexip, Polycom 및 Blue Jeans를 통해 사용할 수 있습니다.
   - question: 최신 세대 비즈니스용 Skype 룸 시스템 v2는 Teams에서의 모임을 지원하나요?
-    answer: 당사는 Skype 룸시스템을 Microsoft Teams 모임을 완벽하게 지원하고 장치에서 Teams를 활성화하여 비즈니스용 Skype에서 Teams로 쉽게 마이그레이션할 수 있도록 해주는 Microsoft Teams 룸으로 브랜드를 개정했습니다. 사용자가 근접 검색을 사용하여 근처 Microsoft Teams 룸을 식별하는 기능 외에 Teams 회의는 싱글 클릭, 듀얼 스크린, Microsoft 화이트 보드 기능과 함께 사용할 수 있으며 당사는 지능적 캡쳐 기능을 갖춘 콘텐츠 카메라와 같은 혁신적인 기능을 계속해서 도입합니다.
+    answer: Microsoft는 Microsoft Teams 모임을 완벽하게 지원하고 장치에서 Teams를 사용하도록 설정하여 비즈니스용 Skype에서 Teams로 손쉬워진 마이그레이션 경로를 제공하는 Microsoft Teams 회의실에 Skype 채팅방 시스템을 브랜드를 개조했습니다. 사용자가 근접 검색을 통해 가까운 Microsoft Teams 회의실을 식별하는 기능 외에도, Teams 모임에 한 번의 클릭, 이중 화면 지원, Microsoft Whiteboard를 통해 참가할 수 있으며 지능형 캡처를 사용하여 콘텐츠 카메라와 같은 혁신적인 기능을 계속 제공합니다.

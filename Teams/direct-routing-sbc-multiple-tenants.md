@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자에 대해 여러 테넌트에 서비스를 제공하도록 SBC(세션 테두리 컨트롤러)를 구성하는 방법에 대해 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 343e2d1aedefd34de452df8da6ce9a5ad1a726ba
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: b81709b46774762036ba9465444d066a0adf019c
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923850"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110241"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -47,7 +47,7 @@ Microsoft는 통신업체를 관리하지 않습니다. Microsoft는 PBX(Microso
 2. 통신 사업자 테넌트에 기본 도메인 이름을 등록하고 와일드카드 인증서를 요청합니다.
 3. 기본 도메인의 일부인 모든 고객에 대해 하위 도메인을 등록합니다.
 
-**고객 전역 관리자를 통해 운송업체:**
+**고객 전역 관리자를 통해 통신 사업자:**
 1. 고객 테넌트에 하위omain 이름을 추가합니다.
 2. 하위omain 이름을 활성화합니다.
 3. 통신 사업자에서 고객 테넌트로 트렁크를 구성하고 사용자를 프로비전합니다.
@@ -58,9 +58,9 @@ Microsoft는 통신업체를 관리하지 않습니다. Microsoft는 PBX(Microso
 
 SBC 호스팅 시나리오에 대한 SBC를 배포하고 구성하는 방법에 대한 자세한 단계는 SBC 공급업체의 설명서를 참조하세요.
 
-- **AudioCodes:** [직접](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)라우팅 구성 정보 , "AudioCodes SBC를 Microsoft Teams 직접 라우팅 호스팅 호스팅 모델 구성 참고 사항"에 설명된 SBC 호스팅 시나리오의 구성입니다. 
+- **AudioCodes:** [직접](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)라우팅 구성 정보 , "AudioCodes SBC를 Microsoft Teams 직접 라우팅 호스팅 호스팅 모델 구성 메모"에 설명된 SBC 호스팅 시나리오의 구성입니다. 
 - **Oracle:** [직접 라우팅](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)구성 정보 , SBC 호스팅 시나리오의 구성은 "Microsoft" 섹션에 설명되어 있습니다. 
-- **리본 메뉴 통신:**  리본 메뉴 코어 시리즈 [SB를](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 구성하는 방법에 대한 설명서 및 이 페이지 리본 메뉴 모범 사례 - Microsoft Teams 직접 라우팅 [SBC Edge에](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier) 대한 통신 사업자 구성에 대한 설명서는 리본 통신 SBC Core Microsoft Teams 구성 가이드를 참조하세요.
+- **리본 메뉴 통신:**  리본 코어 시리즈 [SB를](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 구성하는 방법에 대한 설명서 및 이 페이지 리본 메뉴 모범 사례 - Microsoft Teams 직접 라우팅 [SBC Edge에](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier) 대한 통신 사업자 구성에 대한 설명서는 리본 통신 SBC Core Microsoft Teams 구성 가이드를 참조하세요.
 - **TE-Systems(anynode):**  여러 테넌트에 대해 임의 SBC를 구성하는 방법에 대한 설명서 및 예제는 [TE-Systems](https://community.te-systems.de/) 커뮤니티 페이지에 등록하세요.
 - **Metaswitch:**  여러 테넌트에 Perimeta SBC를 사용하도록 설정하는 방법에 대한 설명서는 [Metaswitch](https://manuals.metaswitch.com/MAN39555) 커뮤니티 페이지에 등록하세요.
 
@@ -83,11 +83,11 @@ Microsoft 365 또는 Office 365 직접 라우팅 인터페이스에 호출이 �
 
 *Microsoft  [365 또는 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 조직에서 도메인 이름을 만드는 데 대한 자세한 내용은 Office 365 도메인에 대한 도움말을 검토하세요.*
 
-다음 다이어그램에서는 기본 도메인, 하위 도메인 및 Contact 헤더에 대한 요구 사항을 요약합니다.
+다음 다이어그램에서는 기본 도메인, 하위 도메인 및 연락처 헤더에 대한 요구 사항을 요약합니다.
 
 ![도메인 및 연락처 헤더에 대한 요구 사항을 보여주는 다이어그램](media/direct-routing-1-sbc-requirements.png)
 
-SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅 시나리오의 경우 통신 사업자는 CN 및/또는 SAN .base_domain(예: *\* \* .customers.adatum.biz)를 요청해야 합니다.* 이 인증서를 사용하여 단일 SBC에서 제공된 여러 테넌트에 대한 연결을 인증할 수 있습니다.
+SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅 시나리오의 경우 통신 사업자는 CN 및/또는 SAN을 통해 인증서를 요청해야 *\* .base_domain(예: \* .customers.adatum.biz).* 이 인증서를 사용하여 단일 SBC에서 제공된 여러 테넌트에 대한 연결을 인증할 수 있습니다.
 
 
 다음 표는 하나의 구성의 예입니다.
@@ -95,7 +95,7 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
 
 |새 도메인 이름 |유형|등록  |SBC용 인증서 CN/SAN  |예제의 테넌트 기본 도메인  |사용자에게 전화를 보낼 때 SBC가 연락처 헤더에 있어야 하는 FQDN 이름|
 |---------|---------|---------|---------|---------|---------|
-|customers.adatum.biz|    기본     |     운송업체 테넌트에서  |    \*.customers.adatum.biz  |   adatum.biz      |NA, 서비스 테넌트입니다. 사용자 없음 |
+|customers.adatum.biz|    기본     |     통신 사업자 테넌트  |    \*.customers.adatum.biz  |   adatum.biz      |NA, 서비스 테넌트, 사용자 없음 |
 |sbc1.customers.adatum.biz|    하위omain  |    고객 테넌트에서  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
 |sbc2.customers.adatum.biz  |   하위omain | 고객 테넌트에서   |   \*.customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
 |sbc3.customers.adatum.biz |   하위omain | 고객 테넌트에서 |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
@@ -130,17 +130,17 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
 
     ![확인된 도메인 이름 확인을 보여주는 스크린샷](media/direct-routing-3-sbc-verify-domain.png)
 
-5. 다음을 **클릭하고** **DNS** 설정 업데이트 페이지에서 **DNS** 레코드를 스스로 추가하고 다음을 **클릭합니다.**
+5. **다음을** 클릭하고 **DNS** 설정 업데이트 페이지에서 **DNS** 레코드를 자신을 추가하고 다음을 **클릭합니다.**
 6. 다음 페이지에서 Exchange, SharePoint 또는 Teams/비즈니스용 Skype에 도메인 이름을 사용하지 않는 한 모든 값을 지우고 다음을 클릭한 다음 마침을 **클릭합니다.** 새 도메인이 설치 완료 상태인지 확인
 
     ![설정이 완료된 도메인을 보여주는 스크린샷](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>도메인 이름 활성화
 
-도메인 이름을 등록한 후 하나 이상의 E1, E3 또는 E5 라이선스 사용자를 추가하고 만든 기본 도메인과 일치하는 SIP 주소의 FQDN 부분으로 SIP 주소를 할당하여 활성화해야 합니다. 도메인 활성화 후 라이선스를 해지할 수 있습니다(최대 24시간이 걸릴 수 있습니다).
+도메인 이름을 등록한 후 전화 시스템 라이선스가 있는 사용자를 하나 이상 추가하고 만든 기본 도메인과 일치하는 SIP 주소의 FQDN 부분이 있는 SIP 주소를 할당하여 도메인 이름을 활성화해야 합니다. 도메인 활성화 후 라이선스를 해지할 수 있습니다(최대 24시간이 걸릴 수 있습니다).
 
 > [!NOTE]
-> 통신사 테넌트는 비즈니스용 Skype 구성을 제거하지 않도록 테넌트에 할당된 하나 이상의 E1/E3/E5/M365 Business 라이선스를 유지해야 합니다. 
+> 통신사 테넌트는 비즈니스용 Skype 구성을 제거하지 않도록 테넌트에 할당된 하나 이상의 전화 시스템 라이선스를 유지해야 합니다. 
 
 *Microsoft [365 또는 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 조직에서 사용자 추가에 대한 자세한 내용은 Microsoft 365 또는 Office 365 도메인에 대한 도움말을 검토하세요.*
 
@@ -184,7 +184,7 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
     자세한 내용은 DNS 호스팅 공급자에서 [DNS 레코드 만들기를 참조하세요.](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)
 
 7. 고객의 Microsoft 365 관리 센터로 돌아가서 확인을 **클릭합니다.** 
-8. 다음 페이지에서 DNS  레코드를 자신을 추가하고 다음을 **클릭합니다.**
+8. 다음 페이지에서 **DNS** 레코드를 자신을 추가하고 다음을 **클릭합니다.**
 
     ![DNS 설정 업데이트 페이지의 옵션 스크린샷](media/direct-routing-9-sbc-update-dns.png)
 
@@ -201,7 +201,7 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
     ![설치 완료 상태를 보여주는 페이지의 스크린샷](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
-> 직접 경로 트렁크를 추가할 수 있도록 개별 클라이언트에 대한 기본 URL 및 하위 도마인이 동일한 테넌트에 _있을_ 수 있습니다.
+> 직접 경로 트렁크를 추가할 수 있도록 개별 클라이언트의 기본 URL 및 하위 도마인이 동일한 테넌트에 _있을_ 수 있습니다.
 
 ### <a name="activate-the-subdomain-name"></a>하위omain 이름 활성화
 
@@ -233,13 +233,13 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
 **프로비전 논리 및 예제**
 
 -    운송업체는 다음 명령을 사용하여 단일 트렁크(운송업체 도메인의 운송업체 트렁크)만 설정하고 Set-CSOnlinePSTNGateway 합니다. 위의 예제에서는 다음 adatum.biz.
--    고객 테넌트에서 운송업체는 파생된 트렁크 FQDN을 사용자의 음성 라우팅 정책에 추가하기만 해야 합니다. 트렁크에 대해 New-CSOnlinePSTNGateway 필요가 있습니다.
--    이름에서 알 수 있 있 처럼 파생된 트렁크는 운송업체 트렁크에서 모든 구성 매개 변수를 상속하거나 파생합니다. 예:
+-    고객 테넌트에서 통신 사업자만 사용자의 음성 라우팅 정책에 파생 트렁크 FQDN을 추가하면 됩니다. 트렁크에 대해 New-CSOnlinePSTNGateway 필요가 있습니다.
+-    이름에서 알 수 있 있처럼 파생된 트렁크는 운송업체 트렁크에서 모든 구성 매개 변수를 상속하거나 파생합니다. 예:
 -    Customers.adatum.biz - 운송업체 테넌트에서 만들어야 하는 운송업체 트렁크입니다.
 -    Sbc1.customers.adatum.biz - PowerShell에서 만들 필요가 없는 고객 테넌트의 파생 트렁크입니다.  온라인 음성 라우팅 정책의 고객 테넌트에서 파생 트렁크의 이름을 만들지 않고 간단히 추가할 수 있습니다.
 -   운송업체는 파생 트렁크 FQDN을 운송업체 SBC IP 주소로 확인하여 DNS 레코드를 설정해야 합니다.
 
--    운송업체 트렁크(운송업체 테넌트)에 대한 변경 내용은 파생 트렁크에 자동으로 적용됩니다. 예를 들어 운송업체는 운송업체 트렁크에서 SIP 포트를 변경할 수 있으며, 이 변경은 파생된 모든 트렁크에 적용됩니다. 트렁크를 구성하는 새 논리는 모든 테넌트로 이동하고 모든 트렁크에서 매개 변수를 변경할 필요가 없는 관리를 간소화합니다.
+-    운송업체 트렁크(운송업체 테넌트)에 대한 변경 내용은 파생 트렁크에 자동으로 적용됩니다. 예를 들어 운송업체는 운송업체 트렁크에서 SIP 포트를 변경할 수 있으며, 이 변경은 파생된 모든 트렁크에 적용됩니다. 트렁크를 구성하는 새 논리는 모든 테넌트로 이동하여 모든 트렁크에서 매개 변수를 변경할 필요가 없는 관리를 간소화합니다.
 -    옵션은 운송업체 트렁크 FQDN으로만 전송됩니다. 운송업체 트렁크의 상태는 파생된 모든 트렁크에 적용되고 라우팅 결정에 사용됩니다. 직접 라우팅 [옵션에](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)대해 더 많은 정보를 찾아 보십시오.
 -    운송업체는 운송업체 트렁크를 드레인할 수 있으며 파생된 모든 트렁크도 드레인됩니다. 
  

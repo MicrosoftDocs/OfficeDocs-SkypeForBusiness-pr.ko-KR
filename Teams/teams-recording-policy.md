@@ -21,24 +21,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b37fcadb89c0ae88e48c20ab669aa91aef6d2f02
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: fe1ef675396d5d858dea9430182d182a87f46beb
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757773"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110251"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>모임에서 전화를 걸 수 있는 Teams 정책 기반 & 소개
 
-정책 기반 기록을 사용하면 통화 및 온라인 모임을 관련 회사 또는 규정 정책에 따라 후속 처리 및 보존을 위해 자동으로 기록되고 캡처될 때 관리 정책을 사용하여 통화 및 모임에 Microsoft Teams를 채택할 수 있습니다.
+정책 기반 기록을 사용하면 통화 및 온라인 모임을 관련 회사 또는 규정 정책에 따라 후속 처리 및 보존을 위해 자동으로 기록되고 캡처될 때 관리 정책을 사용하여 통화 및 모임에 대해 Microsoft Teams를 채택할 수 있습니다.
 
-Teams는 Teams 통신을 구성, 관리, 기록, 저장 및 분석하기 위한 종단 간 솔루션을 제공하는 데 필요한 플랫폼 기능, 사용자 환경 및 관리 인터페이스를 포함하여 타사 녹음 솔루션의 통합을 지원하도록 향상되었습니다. 향상된 기능으로는 통신 플랫폼 API 및 기록을 위한 이벤트가 포함됩니다. 이 기능은 다음을 제공합니다.
+Teams는 Teams 통신을 구성, 관리, 기록, 저장 및 분석하기 위한 종단 간 솔루션을 제공하는 데 필요한 플랫폼 기능, 사용자 환경 및 관리 인터페이스를 포함하여 타사 녹음 솔루션의 통합을 지원하도록 향상되었습니다. 향상된 기능으로는 통신 플랫폼 API 및 기록을 위한 이벤트가 포함됩니다. 이 기능은 다음과 같습니다.
 
 - 오디오, 비디오, 화면 공유 및 채팅에 지원되는 모든 엔드포인트와 장치 전반에 걸쳐 원활하고 고품질의 미디어 캡처를 제공합니다.
 
 - Teams 사용자와 지원되는 통화 엔드포인트(Teams, Teams Mobile, 비즈니스용 Skype, PSTN) 간의 상호 작용 캡처 지원
 
-- 기존 Teams 관리 호출 및 모임 도구 및 정책과의 통합을 포함하여 규정 준수 기록을 위한 새로운 관리 정책
+- 기존 Teams 관리 통화 및 모임 도구 및 정책과의 통합을 포함하여 규정 준수 기록을 위한 새로운 관리 정책
 
 Microsoft 365 A3/A5/E3/E5/Business Premium 및 Office 365 A3/A5/E3/E5 사용자에서 규정 준수 기록을 사용하도록 설정될 수 있습니다. 
 
@@ -46,7 +46,7 @@ Microsoft 365 A3/A5/E3/E5/Business Premium 및 Office 365 A3/A5/E3/E5 사용자�
 
 ## <a name="teams-interaction-recording-overview"></a>Teams 상호 작용 기록 개요
 
-상호 작용 기록 사용 사례는 이미지와 같이 편의, 기능, 조직 및 법적인 가로채기 등 기록 기능의 네 가지 주요 범주로 효과적으로 구분할 수 있습니다.
+상호 작용 기록 사용 사례는 이미지와 같이 편의성, 기능, 조직 및 법적인 가로채기 등 기록 기능의 네 가지 주요 범주로 효과적으로 구분할 수 있습니다.
 
 ![무엇을, 그 이유를 기록하는 상호 작용을 보여주는 스크린샷.](media/recording-taxonomy.png "이미지는 기록 범주를 보여줍니다.")
 
@@ -61,7 +61,7 @@ Microsoft 365 A3/A5/E3/E5/Business Premium 및 Office 365 A3/A5/E3/E5 사용자�
 | 액세스 소유자           | 사용자               | 규정 준수      |
 | 보존 정책이 있나요?      | 선택           | 예             |
 
-Teams는 모임 및 [<span class="underline"></span>](https://docs.microsoft.com/microsoftteams/cloud-recording) 라이브 이벤트를 위한 편리하고 기능적인 기록을 위한 다양한 기능을 제공합니다. 조직 기록은 조직에서 관련 회사 또는 규제 정책에 따라 후속 처리 및 보존을 위해 통화 및 온라인 모임을 자동으로 기록하고 캡처해야 하는 경우 관리 정책을 통해 통화 및 모임에 Teams를 도입할 수 있도록 하는 것입니다. 이 정책의 사용자는 Teams와의 디지털 상호 작용이 기록되고 있지만 기록을 사용하지 않도록 설정할 수 있으며 상호 작용이 완료되면 기록에 액세스할 수 없습니다. 기록은 eDiscovery, 법적 보존 및 기타 회사 보존 사용에 대한 규정 준수 및 법률 담당자가 사용할 수 있는 조직 보관의 일부가 됩니다.
+Teams는 모임 및 [<span class="underline"></span>](https://docs.microsoft.com/microsoftteams/cloud-recording) 라이브 이벤트를 위한 편리하고 기능적인 기록을 위한 다양한 기능을 제공합니다. 조직 기록은 조직에서 관리 정책을 통해 통화 및 온라인 모임을 관련 회사 또는 규정 정책에 필요한 후속 처리 및 보존을 위해 자동으로 기록되고 캡처될 때 관리 정책을 통해 Teams를 채택할 수 있도록 하는 것입니다. 이 정책의 사용자는 Teams와의 디지털 상호 작용이 기록되고 있지만 기록을 사용하지 않도록 설정할 수 있으며 상호 작용이 완료되면 기록에 액세스할 수 없습니다. 기록은 eDiscovery, 법적 보존 및 기타 회사 보존 사용에 대한 규정 준수 및 법률 담당자가 사용할 수 있는 조직 보관의 일부가 됩니다.
 
 ## <a name="example-user-needs"></a>예제 사용자 요구
 
@@ -213,6 +213,7 @@ Microsoft는 파트너가 CCaaS 솔루션을 개발하고 Teams와 통합할 수
 |파트너|솔루션 웹 사이트 |
 |:--|:--|
 |AudioCodes |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
+|더버 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 
 
@@ -222,7 +223,6 @@ Microsoft는 파트너가 CCaaS 솔루션을 개발하고 Teams와 통합할 수
 |:--|:--|
 |ASC 기술 |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
-|더버 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
@@ -234,4 +234,4 @@ Microsoft는 파트너가 CCaaS 솔루션을 개발하고 Teams와 통합할 수
 
 ## <a name="next-steps"></a>다음 단계
 
-인증 프로그램에 참여하고자 하는 공급업체인 경우 다음을  <a href= "mailto:Teamscategorypartner@microsoft.com">메일로</a>Teamscategorypartner@microsoft.com.
+인증 프로그램에 참여하기를 원하는 공급업체인 경우 다음을 메일로 <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com.</a>

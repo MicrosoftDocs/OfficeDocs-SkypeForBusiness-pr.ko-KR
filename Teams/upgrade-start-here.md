@@ -30,18 +30,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed91a5bc6df8836e19f602facccce704cad65876
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: abb88c42de7858a80ade93953f08a168feb533e2
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578181"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110321"
 ---
 # <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>비즈니스용 Skype에서 Microsoft Teams로 업그레이드 시작
 
 비즈니스용 Skype에서 Microsoft Teams로 보류 중인 업그레이드를 축하드립니다. Teams를 이제 시작했거나, 비즈니스용 Skype와 함께 이미 Teams를 사용하고 있거나, 혹은 업그레이드할 준비가 되었는지에 관계없이 당사는 귀하가 Teams로의 성공적인 여정을 탐색하는 데 필요한 모든 사항을 갖추고 있는지 확인하고자 합니다.
 
 비즈니스용 Skype Online에서 Teams로 업그레이드를 하든 비즈니스용 Skype 온-프레미스 환경에서 Teams로 업그레이드를 하든지에 관계없이 업그레이드 프레임워크는 비즈니스 시나리오를 기초로 하는 프로세스를 안내해 드립니다.
+
+| 아이콘 | 설명 |
+| --- | --- |
+|![Walkthrough 기호](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **업그레이드 허브:** 비즈니스용 Skype에서 Teams로 업그레이드를 계획하는 데 필요한 모든 지침, 교육 및 리소스에 대한 개요를 찾아 비즈니스용 [Skype에서 Microsoft Teams로](upgrade-skype-teams.yml)업그레이드합니다.|
+
+업그레이드에 대한 질문과 대답은 계속 읽으십시오.
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Microsoft Teams로 업그레이드해야 하는 이유는 무엇인가요?
 

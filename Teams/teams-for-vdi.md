@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
-description: VDI(가상화된 데스크톱 인프라) 환경에서 Microsoft Teams를 실행하는 방법을 배워볼 수 있습니다.
+description: VDI(가상화된 데스크톱 인프라) 환경에서 Microsoft Teams를 실행하는 방법을 배워야 합니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,22 +17,22 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52c3a4fd1f8ce3871874468590662f223520dc07
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+ms.openlocfilehash: 8022e6b1c4d6ebcaeb70ec7cc23e1f4cad5d929a
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868353"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110291"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
-이 문서에서는 가상화된 환경에서 Microsoft Teams를 사용하는 데 필요한 요구 사항 및 제한 사항에 대해 설명하고 있습니다.
+이 문서에서는 가상화된 환경에서 Microsoft Teams를 사용하는 데 필요한 요구 사항 및 제한 사항을 설명하고 있습니다.
 
 ## <a name="what-is-vdi"></a>VDI란?
 
 VDI(Virtual Desktop Infrastructure)는 데이터 센터의 중앙 집중식 서버에 데스크톱 운영 체제 및 애플리케이션을 호스트하는 가상화 기술입니다. 이렇게 하면 완전히 보안이 설정되어 호환되는 중앙 집중식 원본을 사용하여 사용자에게 완전히 개인 설정된 데스크톱 환경을 사용할 수 있습니다.
 
-가상화된 환경의 Microsoft Teams는 채팅 및 공동 작업을 지원 합니다. 또한 Windows Virtual Desktop, Citrix 및 VMware 플랫폼을 사용하여 호출 및 모임 기능도 지원됩니다.
+가상화된 환경의 Microsoft Teams는 채팅 및 공동 작업을 지원합니다. 또한 Windows Virtual Desktop, Citrix 및 VMware 플랫폼을 사용하여 통화 및 모임 기능도 지원됩니다.
 
 가상화된 환경의 Teams는 여러 구성을 지원합니다. 여기에는 VDI, 전용, 공유, 영구 및 비영구 모드가 포함됩니다. 기능은 지속적인 개발에 있으며 정기적으로 추가되고, 기능은 다음 몇 개월 및 몇 년 동안 확장될 것입니다.
 
@@ -56,7 +56,7 @@ VDI(Virtual Desktop Infrastructure)는 데이터 센터의 중앙 집중식 서�
 
 ### <a name="virtualization-provider-requirements"></a>가상화 공급자 요구 사항
 
-Teams 데스크톱 앱은 선도적인 가상화 솔루션 공급자를 통해 유효성을 검사했습니다. 여러 시장 공급자를 사용하는 경우 최소 요구 사항을 충족하는지 확인하도록 가상화 솔루션 공급자에 문의하는 것이 좋습니다.
+Teams 데스크톱 앱은 선두 가상화 솔루션 공급자를 사용하여 유효성을 검사했습니다. 여러 시장 공급자를 사용하는 경우 최소 요구 사항을 충족하는지 확인하도록 가상화 솔루션 공급자에 문의하는 것이 좋습니다.
   
 현재 AV(오디오/비디오) 최적화가 있는 VDI의 Teams는 Windows Virtual Desktop, Citrix 및 VMware에서 인증됩니다. 이 섹션의 정보를 검토하여 적절한 기능에 대한 모든 요구 사항을 충족하는지 확인합니다.
 
@@ -72,7 +72,7 @@ Teams 데스크톱 앱은 선도적인 가상화 솔루션 공급자를 통해 �
 
 ### <a name="windows-virtual-desktop"></a>Windows Virtual Desktop
 
-Windows Virtual Desktop은 VDI의 Teams에 대한 AV 최적화를 제공합니다. 자세한 내용은 Windows Virtual Desktop에서 Teams 사용 및 [설치를 참조하세요.](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)
+Windows Virtual Desktop은 VDI의 Teams에 대한 AV 최적화를 제공합니다. 자세한 사항과 요구 사항 및 설치에 대한 자세한 내용은 [Windows Virtual Desktop에서 Teams 사용을 참조하세요.](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps 및 데스크톱 요구 사항
 
@@ -118,9 +118,9 @@ VDI 환경에서 Teams AV 최적화가 제대로 작동하려면 씬 클라이�
 
 비영구 설정에서 사용자의 로컬 운영 체제 변경 내용은 사용자가 로그오프한 후에 유지되지 않습니다. 이러한 설정은 일반적으로 공유되는 다중 사용자 세션입니다. VM 구성은 사용자 수 및 사용 가능한 물리적 상자 리소스에 따라 다릅니다.
 
-비영구적 설치의 경우 Teams 데스크톱 앱이 골든 이미지에 컴퓨터당 설치되어야 합니다. (자세한 내용은 [VDI에서 Teams](#install-or-update-the-teams-desktop-app-on-vdi) 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.) 이렇게 하면 사용자 세션 중에 Teams 앱을 효율적으로 실행합니다.
+비영구 설치의 경우 Teams 데스크톱 앱은 골든 이미지에 컴퓨터당 설치되어야 합니다. (자세한 내용은 [VDI에서 Teams](#install-or-update-the-teams-desktop-app-on-vdi) 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.) 이렇게 하면 사용자 세션 중에 Teams 앱을 효율적으로 실행합니다.
 
-비영구 설정에서 Teams를 사용하려면 효율적인 Teams 런타임 데이터 동기화를 위해 프로필 캐싱 관리자도 필요합니다. 효율적인 데이터 동기화는 사용자의 세션 중에 적절한 사용자별 정보(예: 사용자의 데이터, 프로필 또는 설정)가 캐시되도록 합니다. 다음 두 폴더의 데이터가 동기화된지 확인합니다.<br>
+비영구적 설정에서 Teams를 사용하려면 효율적인 Teams 런타임 데이터 동기화를 위해 프로필 캐싱 관리자도 필요합니다. 효율적인 데이터 동기화를 통해 사용자 세션 중에 적절한 사용자별 정보(예: 사용자의 데이터, 프로필 또는 설정)가 캐시됩니다. 다음 두 폴더의 데이터가 동기화된지 확인합니다.<br>
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache(%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
 
@@ -131,7 +131,7 @@ VDI 환경에서 Teams AV 최적화가 제대로 작동하려면 씬 클라이�
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>비영구 설정에 대해 Teams 캐시된 콘텐츠 제외 목록
 
-Teams 캐싱 폴더 %appdata%/Microsoft/Teams에서 다음을 제외합니다. 이러한 항목을 제외하면 사용자 캐싱 크기를 줄여 비영구 설정을 추가로 최적화할 수 있습니다.
+Teams 캐싱 폴더인 %appdata%/Microsoft/Teams에서 다음을 제외합니다. 이러한 항목을 제외하면 사용자 캐싱 크기를 줄여 비영구 설정을 더욱 최적화할 수 있습니다.
 
 - .txt 파일
 - 미디어 스택 폴더
@@ -151,7 +151,7 @@ VDI에서 엔터프라이즈용 Microsoft 365 앱으로 Teams를 배포할 때 �
 
 Teams는 엔터프라이즈용 Microsoft 365 앱의 기존 설치에도 추가되고 있습니다. 엔터프라이즈용 Microsoft 365 앱은 사용자당 Teams만 설치하기 때문에 [VDI에서 Teams](#install-or-update-the-teams-desktop-app-on-vdi) 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
 
-#### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>컴퓨터당 설치와 함께 Teams 사용 및 엔터프라이즈용 Microsoft 365 앱 사용
+#### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>컴퓨터당 설치 및 엔터프라이즈용 Microsoft 365 앱과 함께 Teams 사용
 
 엔터프라이즈용 Microsoft 365 앱은 Teams의 컴퓨터당 설치를 지원하지 않습니다. 컴퓨터당 설치를 사용하려면 엔터프라이즈용 Microsoft 365 앱에서 Teams를 제외해야 합니다. [VM에 Teams](#deploy-the-teams-desktop-app-to-the-vm) 데스크톱 앱 배포 및 [엔터프라이즈용 Microsoft 365 앱](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) 섹션을 통해 Teams 배포를 제외하는 방법을 참조하세요.
 
@@ -179,7 +179,7 @@ Teams는 엔터프라이즈용 Microsoft 365 앱의 기존 설치에도 추가�
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
 
-        이 프로세스는 %AppData% 사용자 폴더에 Teams를 설치하는 기본 설치입니다. 이 시점에서 골든 이미지 설정이 완료되었습니다. Teams는 비영구적 설치에서 사용자당 설치로 제대로 작동하지 않습니다.
+        이 프로세스는 %AppData% 사용자 폴더에 Teams를 설치하는 기본 설치입니다. 이 시점에서 골든 이미지 설정이 완료되었습니다. Teams는 비영구적 설치에서 사용자당 설치와 제대로 작동하지 않습니다.
 
     - 컴퓨터당 설치
 
@@ -193,7 +193,7 @@ Teams는 엔터프라이즈용 Microsoft 365 앱의 기존 설치에도 추가�
 
         > [!NOTE]
         > 이러한 예제에서는 **ALLUSERS=1 매개 변수도** 사용합니다. 이 매개 변수를 설정하면 Teams Machine-Wide 설치 관리자가 제어판의 프로그램 및 기능에 나타나고 앱에는 컴퓨터의 모든 & Windows 설정의 기능이 표시됩니다. 그러면 모든 사용자가 관리자 자격 증명이 있는 경우 Teams를 제거합니다.
-        **ALLUSERS=1과 ALLUSER=1의** 차이를 이해하는 **것이 중요합니다.** **ALLUSERS=1** 매개 변수는 VDI가 아닌 환경에서 사용할 수 **있으며, ALLUSER=1** 매개 변수는 VDI 환경에서만 사용하여 컴퓨터당 설치를 지정합니다.
+        **ALLUSERS=1과 ALLUSER=1의** 차이를 이해하는 **것이 중요합니다.** **ALLUSERS=1** 매개 변수는 VDI가 아닌 환경에서 사용할 수 있는 반면 **ALLUSER=1** 매개 변수는 VDI 환경에서만 사용하여 컴퓨터당 설치를 지정합니다.
 
 3. VDI VM에서 MSI를 제거합니다. Teams를 제거하는 방법에는 두 가지가 있습니다.
 
@@ -208,17 +208,17 @@ Teams는 엔터프라이즈용 Microsoft 365 앱의 기존 설치에도 추가�
 
 ## <a name="teams-on-vdi-performance-considerations"></a>VDI 성능 고려 사항의 Teams
 
-다양한 가상화된 설정 구성이 있습니다. 각각 최적화에 대한 다른 포커스가 있습니다. 예를 들어 구성은 사용자 밀도에 집중할 수 있습니다. 계획할 때 조직의 워크로드 요구에 따라 설정을 최적화하는 데 도움이 되는 다음 사항을 고려합니다.
+다양한 가상화된 설정 구성이 있습니다. 각 구성에는 최적화에 대한 다른 포커스가 있습니다. 예를 들어 구성은 사용자 밀도에 집중할 수 있습니다. 계획할 때 조직의 워크로드 요구에 따라 설정을 최적화하는 데 도움이 되는 다음 사항을 고려합니다.
 
 - 최소 요구 사항: 일부 워크로드는 최소 요구 사항을 충족하는 리소스를 사용하여 설정해야 할 수 있습니다. 예를 들어 더 많은 컴퓨팅 리소스를 요구하는 애플리케이션을 사용하는 개발자를 위한 워크로드입니다.
 - 종속성: 여기에는 Teams 데스크톱 앱 외부의 인프라, 워크로드 및 기타 환경 고려 사항의 종속성이 포함됩니다.
-- VDI에서 비활성화된 기능: Teams는 일시적인 CPU 사용률을 향상시키는 데 도움이 될 수 있는 VDI에 GPU 집약적인 기능을 사용하지 않도록 설정됩니다. 다음과 같은 기능을 사용할 수 없습니다.
+- VDI에서 비활성화된 기능: Teams는 일시적인 CPU 사용률을 개선하는 데 도움이 될 수 있는 VDI에 GPU 집약적 기능을 사용하지 않도록 설정합니다. 다음과 같은 기능을 사용할 수 없습니다.
     - Teams CSS 애니메이션
     - Giphy 자동 시작
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>통화 및 모임이 있는 VDI의 Teams
 
-채팅 및 공동 작업 외에도 통화 및 모임이 있는 VDI의 Teams는 지원되는 가상화 공급자 플랫폼에서 사용할 수 있습니다. 지원되는 기능은 WebRTC 미디어 스택 및 가상화 공급자 구현을 기반으로 합니다. 다음 다이어그램은 아키텍처에 대한 개요를 제공합니다.
+채팅 및 공동 작업 외에도, 호출 및 모임이 있는 VDI의 Teams는 지원되는 가상화 공급자 플랫폼에서 사용할 수 있습니다. 지원되는 기능은 WebRTC 미디어 스택 및 가상화 공급자 구현을 기반으로 합니다. 다음 다이어그램은 아키텍처에 대한 개요를 제공합니다.
 
 ![VDI 아키텍처의 Teams를 보여주는 다이어그램](media/teams-on-vdi-architecture.png)
 
@@ -227,7 +227,7 @@ Teams는 엔터프라이즈용 Microsoft 365 앱의 기존 설치에도 추가�
 
 ### <a name="network-requirements"></a>네트워크 요구 사항
 
-전반적인 클라우드 음성 및 비디오 배포에 영향을 줄 수 있는 위험 및 요구 사항을 식별하기 위해 환경을 평가하는 것이 좋습니다. 비즈니스용 [Skype 네트워크 평가 도구를](https://www.microsoft.com/download/details.aspx?id=53885) 사용하여 네트워크가 Teams에 대해 준비되어 있는지 테스트합니다.
+전체 클라우드 음성 및 비디오 배포에 영향을 줄 수 있는 위험 및 요구 사항을 식별하기 위해 환경을 평가하는 것이 좋습니다. 비즈니스용 [Skype 네트워크 평가 도구를](https://www.microsoft.com/download/details.aspx?id=53885) 사용하여 네트워크가 Teams에 대해 준비되어 있는지 테스트합니다.
 
 Teams용 네트워크를 준비하는 방법에 대한 자세한 내용은 Teams에 대한 조직의 네트워크 [준비를 참조합니다.](prepare-network.md)
 
@@ -242,7 +242,7 @@ VDI의 비즈니스용 Skype에서 VDI의 Teams로 마이그레이션하는 경�
 
 ### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Chrome 브라우저의 Teams와 VDI용 Teams 데스크톱 앱
 
-Chrome 브라우저의 Teams는 AV 최적화를 통해 VDI용 Teams 데스크톱 앱을 대체하지 않습니다. 채팅 및 공동 작업 환경은 예상대로 작동합니다. 미디어가 필요한 경우 Chrome 브라우저에서 사용자 기대치를 충족하지 않을 수 있는 몇 가지 환경이 있습니다.
+Chrome 브라우저의 Teams는 AV 최적화가 있는 VDI용 Teams 데스크톱 앱을 대체하지 않습니다. 채팅 및 공동 작업 환경은 예상대로 작동합니다. 미디어가 필요한 경우 Chrome 브라우저에서 사용자 기대를 충족하지 않을 수 있는 몇 가지 환경이 있습니다.
 
 - 오디오 및 비디오 스트리밍 환경이 최적화되지 않을 수 있습니다. 사용자에게 지연 또는 품질 감소가 있을 수 있습니다.
 - 디바이스 설정은 브라우저 설정에서 사용할 수 없습니다.
@@ -251,15 +251,15 @@ Chrome 브라우저의 Teams는 AV 최적화를 통해 VDI용 Teams 데스크톱
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>채팅 및 공동 작업을 통해 VDI의 Teams
 
-조직에서 Teams에서 채팅 및 공동 작업 기능만 사용하려는 경우 사용자 수준 정책을 설정하여 Teams에서 통화 및 모임 기능을 해제할 수 있습니다. 
+조직에서 Teams에서 채팅 및 공동 작업 기능만 사용하려는 경우 Teams에서 통화 및 모임 기능을 해제하도록 사용자 수준 정책을 설정할 수 있습니다. 
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>통화 및 모임 기능을 해제하는 정책 설정
 
-Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 정책을 설정할 수 있습니다. 정책 변경 내용이 전파될 때 몇 시간 정도 걸릴 수 있습니다. 특정 계정에 대한 변경 내용이 즉시 표시되지 않는 경우 몇 시간 후에 다시 시도하세요.
+Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 정책을 설정할 수 있습니다. 정책 변경 내용을 전파하는 데 다소 시간이 걸릴 수 있습니다.(몇 시간) 특정 계정에 대한 변경 내용이 즉시 표시되지 않는 경우 몇 시간 후에 다시 시도하세요.
 
 [**통화 정책:**](teams-calling-policy.md)Teams에는 모든 통화 기능이 꺼져 있는 기본 제공 DisallowCalling 통화 정책이 포함되어 있습니다. 가상화된 환경에서 Teams를 사용하는 조직의 모든 사용자에게 DisallowCalling 정책을 할당합니다.
 
-[**모임 정책:**](meeting-policies-in-teams.md)Teams에는 모든 모임 기능이 꺼져 있는 기본 제공 AllOff 모임 정책이 포함되어 있습니다. 가상화된 환경에서 Teams를 사용하는 조직의 모든 사용자에게 AllOff 정책을 할당합니다.
+[**모임 정책:**](meeting-policies-in-teams.md)Teams에는 모든 모임 기능이 해제된 기본 제공 AllOff 모임 정책이 포함되어 있습니다. 가상화된 환경에서 Teams를 사용하는 조직의 모든 사용자에게 AllOff 정책을 할당합니다.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터를 사용하여 정책 할당
 
@@ -282,10 +282,10 @@ DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에게 할당
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 할당하려는 정책으로 이동하세요. 예를 들면 다음과 같습니다.
     - 음성 **통화** 정책으로 이동한 다음  >   **DisallowCalling을 클릭합니다.**
-    - 모임 모임 **정책으로** 이동한 다음  >   **AllOff를 클릭합니다.**
+    - 모임 모임  >  **정책으로 이동한** 다음 **AllOff를 클릭합니다.**
 2. **사용자 관리** 를 선택합니다.
 3. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가** 를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-4. 사용자 추가를 마쳤을 때 저장을 **클릭합니다.**
+4. 사용자 추가가 완료되면 저장을 **클릭합니다.**
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell을 사용하여 정책 할당
 
@@ -311,7 +311,7 @@ PowerShell을 사용하여 모임 정책을 관리하는 방법을 자세히 알
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>통화 및 모임 기능을 켜는 정책 설정
 
-Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 사용자에게 통화 및 모임 정책을 설정하고 할당할 수 있습니다. 정책 변경 내용을 전파하는 데 다소 시간이 걸릴 수 있습니다(몇 시간). 특정 계정에 대한 변경 내용이 즉시 표시되지 않는 경우 몇 시간 후에 다시 시도하세요.
+Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 사용자에게 통화 및 모임 정책을 설정하고 할당할 수 있습니다. 정책 변경 내용을 전파하는 데 다소 시간이 걸릴 수 있습니다.(몇 시간) 특정 계정에 대한 변경 내용이 즉시 표시되지 않는 경우 몇 시간 후에 다시 시도하세요.
 
 [**통화 정책:**](teams-calling-policy.md)Teams의 통화 정책은 사용자가 사용할 수 있는 통화 기능을 제어합니다. Teams에는 모든 통화 기능이 켜져 있는 기본 제공 AllowCalling 통화 정책이 포함되어 있습니다. 모든 호출 기능을 켜기 위해 AllowCalling 정책을 할당합니다. 또는 원하는 통화 기능을 켜고 사용자에게 할당하는 사용자 지정 통화 정책을 만들 수 있습니다. 
 
@@ -319,7 +319,7 @@ Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 사용자에게 
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터를 사용하여 정책 할당
 
-AllowCalling 호출 정책 및 AllOn 모임 정책을 사용자에게 할당합니다.
+AllowCalling 통화 정책 및 AllOn 모임 정책을 사용자에게 할당합니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 사용자로 **이동하세요.**
 2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집** 을 클릭합니다.
@@ -341,7 +341,7 @@ AllowCalling 호출 정책 및 AllOn 모임 정책을 사용자에게 할당합�
     - 모임 모임 **정책으로** 이동한 다음  >   **AllOn을 클릭합니다.**
 2. **사용자 관리** 를 선택합니다.
 3. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가** 를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
-4. 사용자 추가를 마쳤을 때 저장을 **클릭합니다.**
+4. 사용자 추가가 완료되면 저장을 **클릭합니다.**
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell을 사용하여 정책 할당
 
@@ -363,7 +363,7 @@ PowerShell을 사용하여 모임 정책을 관리하는 방법을 자세히 알
 
 ## <a name="control-fallback-mode-in-teams"></a>Teams에서 폴백 모드 제어
 
-사용자가 지원되지 않는 엔드포인트에서 연결하면 사용자는 AV가 최적화되지 않은 폴백 모드에 있습니다. 다음 레지스트리 DWORD 값 중 하나를 설정하여 fallback 모드를 사용하지 않도록 설정하거나 사용하도록 설정할 수 있습니다.
+사용자가 지원되지 않는 엔드포인트에서 연결하면 사용자는 AV가 최적화되지 않은 폴백 모드에 있습니다. 다음 레지스트리 DWORD 값 중 하나를 설정하여 폴백 모드를 사용하지 않도록 설정하거나 사용하도록 설정할 수 있습니다.
 
 - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
 - HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
@@ -376,22 +376,23 @@ PowerShell을 사용하여 모임 정책을 관리하는 방법을 자세히 알
 
 ### <a name="client-deployment-installation-and-setup"></a>클라이언트 배포, 설치 및 설정
 
-- 컴퓨터당 설치를 통해 VDI의 Teams는 비 VDI Teams 클라이언트가 있는 방식으로 자동으로 업데이트되지 않습니다. [VDI의 Teams](#install-or-update-the-teams-desktop-app-on-vdi) 데스크톱 앱 설치 또는 업데이트 섹션에 설명된 새 MSI를 설치하여 VM 이미지를 업데이트해야 합니다. 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.
-- Teams는 사용자 또는 컴퓨터당 배포해야 합니다. 사용자 및 컴퓨터당 동시 Teams 배포는 지원되지 않습니다. 컴퓨터당 또는 사용자당 이러한 모드 중 하나로 마이그레이션하려면 제거 절차를 수행하고 두 모드 중 하나에 다시 재배포합니다.
+- VDI의 Teams는 컴퓨터당 설치를 통해 비 VDI Teams 클라이언트와 같은 방식으로 자동으로 업데이트되지 않습니다. [VDI의 Teams](#install-or-update-the-teams-desktop-app-on-vdi) 데스크톱 앱 설치 또는 업데이트 섹션에 설명된 새 MSI를 설치하여 VM 이미지를 업데이트해야 합니다. 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.
+- Teams는 사용자 또는 컴퓨터당 배포해야 합니다. 사용자 및 컴퓨터당 동시 팀 배포는 지원되지 않습니다. 컴퓨터당 또는 사용자당 이러한 모드 중 하나에서 마이그레이션하려면 제거 절차에 따라 두 모드 중 하나에 다시 재배포합니다.
 - Windows Virtual Desktop 및 VMware는 현재 MacOS 및 Linux 기반 클라이언트를 지원하지 않습니다.
-- Citrix는 현재 MacOs 클라이언트를 지원하지 않습니다.
+- 현재 Citrix는 MacOs 클라이언트를 지원하지 않습니다.
 - Citrix는 엔드포인트에 정의된 명시적 HTTPX의 사용을 지원하지 않습니다.
 
 ### <a name="calling-and-meetings"></a>통화 및 모임
 
 다음 통화 및 모임 기능은 지원되지 않습니다.
 
+- 새 모임 환경과 같은 다중 창 기능 또는 새 모임 환경과 함께 제공된 모든 기능
 - 향상된 응급 서비스
 - Teams 앱과 장치 간의 HID 단추 및 LED 컨트롤
 - 배경 흐리게 및 효과
 - 브로드캐스트 및 라이브 이벤트 생산자 및 발표자 역할
 - Location-Based 라우팅(LBR)
-- 공원 호출
+- 호출 공원
 - 호출 큐
 - 공유 시스템 오디오/컴퓨터 소리
 - 직접 라우팅을 위한 미디어 바이패스
@@ -401,14 +402,14 @@ PowerShell을 사용하여 모임 정책을 관리하는 방법을 자세히 알
 
 다음은 통화 및 모임에 대한 알려진 문제 및 제한 사항입니다.
 
-- 비즈니스용 Skype와의 상호 연동성은 음성 통화로 제한됩니다. 비디오 부호가 없는 경우
-- 모임 또는 그룹 통화에서는 들어오는 비디오 스트림 하나만 지원됩니다. 여러 사용자가 비디오를 보내면 주된 발표자 비디오만 언제든 표시됩니다.
+- 비즈니스용 Skype와의 상호 연동성은 음성 통화로 제한됩니다. 비디오는 모달이 없는 경우
+- 모임 또는 그룹 통화에서는 들어오는 비디오 스트림 하나만 지원됩니다. 여러 사용자가 비디오를 보내면 주된 발표자 비디오만 주어진 시간에서 표시됩니다.
 - 수신 및 발신 비디오 스트림 해상도는 720p 해상도로 제한됩니다. WebRTC 제한 사항입니다.
 - 들어오는 카메라 또는 화면 공유 스트림에서 하나의 비디오 스트림만 지원됩니다. 들어오는 화면 공유가 있는 경우 주 화자 비디오 대신 화면 공유가 표시됩니다.
 - 장치가 연결이 끊어진 경우 사용자가 선택한 마지막 오디오 장치를 사용하기 위해 Teams가 전환되지 않습니다.
 - 나선 화면 공유:
     - 애플리케이션 공유는 지원되지 않습니다.
-- 제어권 제공 및 제어권 제공:
+- 제어권 제공 및 제어:
     - 화면 공유 또는 응용 프로그램 공유 세션 중에 지원되지 않습니다.
     - PowerPoint 공유 세션 중에 지원됩니다.
 - Citrix 전용 제한 사항

@@ -17,19 +17,19 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams에서 Teams 앱 제출 API를 사용하여 제출된 사용자 지정 앱을 승인하는 방법을 배워야 합니다.
-ms.openlocfilehash: 6b9304cf2af9e45dd9fd2955cda6498ce1dbc3ae
-ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
+ms.openlocfilehash: 146d8aaa7ec49d5a760e6b4fdcb700f161f62376
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50043972"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110231"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시
 
 ## <a name="overview"></a>개요
 
 > [!NOTE]
-> 사용자 지정 Teams 앱을 게시하면 조직의 앱 스토어에 있는 사용자가 사용할 수 있습니다. 사용자 지정 앱을 게시하는 방법에는 두 가지가 있으며 사용하는 방법은 앱을 다운로드하는 방법에 따라 다를 수 있습니다. 이 문서에서는 개발자가 Teams 앱 제출 API를 통해 제출하는 사용자 지정 앱을 승인하고 게시하는 **방법을 중점적으로 다루고 있습니다.** 사용자 지정 앱을 업로드하는 다른 방법은 개발자가 .zip 형식으로 앱 패키지를 보낼 때 사용됩니다. 해당 메서드에 대한 자세한 내용은 앱 패키지를 업로드하여 사용자 지정 앱 <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">게시를 참조하세요.</a>
+> 사용자 지정 Teams 앱을 게시하면 조직의 앱 스토어에 있는 사용자가 사용할 수 있습니다. 사용자 지정 앱을 게시하는 방법에는 두 가지가 있으며 사용하는 방법은 앱을 다운로드하는 방법에 따라 다를 수 있습니다. 이 문서에서는 개발자가 Teams 앱 제출 API를 통해 제출하는 사용자 지정 앱을 승인하고 게시하는 **방법을 중점적으로 다루고 있습니다.** 사용자 지정 앱을 업로드하는 다른 방법은 개발자가 .zip 형식으로 앱 패키지를 보낼 때 사용됩니다. 해당 메서드에 대한 자세한 내용은 앱 패키지를 업로드하여 사용자 지정 앱 <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">게시를 참조하세요.</a> 승인 앱 위젯은 GCC 테넌트에서 사용할 수 없습니다. 
 
 이 문서에서는 Teams 앱을 개발에서 배포로 검색하는 방법에 대한 전체 지침을 제공합니다. Teams가 앱 수명 주기 전반에 걸쳐 제공하는 연결된 환경의 개요를 확인하여 조직의 앱 스토어에서 사용자 지정 앱을 개발, 배포 및 관리하는 방법을 간소화합니다.
 
@@ -47,9 +47,9 @@ Microsoft Teams 개발자 플랫폼을 사용하면 개발자가 자신의 앱�
 
 ### <a name="submit-the-app"></a>앱 제출
 
-앱이 프로덕션에서 사용할 준비가 되면 개발자는 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">Graph API,</a>Visual Studio Code와 같은 통합 개발 환경(IDE) 또는 Power Apps 및 Power Virtual Agent와 같은 플랫폼에서 호출할 수 있는 Teams 앱 제출 API를 사용하여 앱을 제출할 수 있습니다. 이렇게 하면 Microsoft Teams <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> 관리 센터의 앱 관리 페이지에서 앱을 사용할 수 있습니다. 여기서 관리자는 앱을 검토하고 승인할 수 있습니다.
+앱이 프로덕션에서 사용할 준비가 되면 개발자는 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">Graph API,</a>Visual Studio Code와 같은 통합 개발 환경(IDE) 또는 Power Apps 및 Power Virtual Agent와 같은 플랫폼에서 호출할 수 있는 Teams 앱 제출 API를 사용하여 앱을 제출할 수 있습니다. 이렇게 하면 Microsoft Teams <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> 관리 센터의 앱 관리 페이지에서 앱을 사용할 수 있습니다. 여기서 관리자는 앱을 검토하고 승인할 수 있습니다.
 
-<a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph를</a>사용하여 구축된 Teams 앱 제출 API를 사용하면 조직에서 선택한 플랫폼에서 개발하고 Teams에서 사용자 지정 앱에 대한 승인 제출 프로세스를 자동화할 수 있습니다.
+<a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph를</a>사용하여 구축된 Teams 앱 제출 API를 사용하면 조직에서 선택한 플랫폼에서 개발하고 Teams에서 사용자 지정 앱에 대한 승인 제출 프로세스를 자동화할 수 있습니다.
 
 다음은 코드에서 이 앱 제출 단계의 Visual Studio 예입니다.
 
@@ -57,13 +57,13 @@ Microsoft Teams 개발자 플랫폼을 사용하면 개발자가 자신의 앱�
 
 아직 조직의 앱 스토어에 앱을 게시하지 않습니다. 이 단계에서는 조직의 앱 스토어에 게시하기 위해 승인할 수 있는 Microsoft Teams 관리 센터에 앱을 제출합니다.
 
-Graph API를 사용하여 앱을 제출하는 데 대한 자세한 내용은 여기를 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">참조하세요.</a>
+Graph API를 사용하여 앱을 제출하는 데 대한 자세한 내용은 여기를 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">참조하세요.</a>
 
 ## <a name="validate"></a>유효성 검사
 
-Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> Teams 관리 센터의 앱 관리 페이지(왼쪽 탐색에서 **Teams** 앱 관리 앱으로 이동)는 조직의 모든 Teams 앱에  >  대한 보기를 제공합니다. 페이지 **맨 위에** 있는 보류 중인 승인 위젯을 통해 승인을 위해 사용자 지정 앱이 제출될 때를 알 수 있습니다.
+Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> Teams 관리 센터의 앱 관리 페이지(왼쪽 탐색에서 **Teams** 앱 관리 앱으로 이동)를 통해 조직의 모든 Teams 앱을 볼  >  수 있습니다. 페이지 **맨 위에** 있는 보류 중인 승인 위젯을 통해 승인을 위해 사용자 지정 앱이 제출될 때를 알 수 있습니다.
 
-표에서 새로 제출된 앱은 자동으로  제출 상태 및  차단 **상태입니다.**  게시 상태 **열을** 내선 순서대로 정렬하여 앱을 빠르게 찾을 수 있습니다.
+테이블에서 새로 제출된 앱은 자동으로 제출 상태  및  차단된 **상태입니다.**  게시 상태 **열을** 내선 순서대로 정렬하여 앱을 빠르게 찾을 수 있습니다.
 
 ![게시 상태 ](media/custom-app-lifecycle-validate-app.png)
 
@@ -71,13 +71,13 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target
 
 ![제출된 앱에 대한 앱 세부 정보 페이지](media/custom-app-lifecycle-app-details.png)
 
-Graph API를 사용하여 게시 상태를 확인할 수 있는 자세한 내용은 **여기를** <a href="https://docs.microsoft.com/graph/api/appcatalogs-list-teamsapps?view=graph-rest-1.0&tabs=http#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">참조하세요.</a>
+Graph API를 사용하여 게시 상태를 확인할 수 있는 자세한 내용은 **여기를** <a href="https://docs.microsoft.com/graph/api/appcatalogs-list-teamsapps?view=graph-rest-beta&tabs=http#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">참조하세요.</a>
 
 ## <a name="publish"></a>게시
 
 사용자가 앱을 사용할 수 있도록 만들 준비가 됐을 때 앱을 게시합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **Teams 앱 관리**  >  **앱으로 이동하세요.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 Teams 앱 **관리**  >  **앱으로 이동하세요.**
 2. 앱 이름을 클릭하여 앱 세부 정보 페이지로 이동한 다음 게시 상태 **상자에서** 게시를 **선택합니다.**
 
     앱을 게시한 후 게시 **상태가** 게시로 변경되고  상태가 자동으로 허용으로 **변경됩니다.** 
@@ -116,7 +116,7 @@ Graph API를 사용하여 게시 상태를 확인할 수 있는 자세한 내용
 
 앱 업데이트를 검토하고 게시하는 경우:
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **Teams 앱 관리**  >  **앱으로 이동하세요.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 Teams 앱 **관리**  >  **앱으로 이동하세요.**
 2. 앱 이름을 클릭하여 앱 세부 정보 페이지로 이동한 다음 업데이트 세부 정보를 검토할 수 있는 업데이트를 선택합니다. 
 
     ![앱 세부 정보 페이지](media/custom-app-lifecycle-update-app.png)
@@ -129,16 +129,16 @@ Graph API를 사용하여 게시 상태를 확인할 수 있는 자세한 내용
 - 앱이 승인되면 모든 사용자가 앱에 업데이트를 제출할 수 있습니다. 즉, 원래 앱을 제출한 개발자를 포함하여 다른 개발자가 앱에 업데이트를 제출할 수 있습니다.
 - 개발자가 앱을 제출하고 요청이 보류 중인 경우 동일한 개발자만 앱에 업데이트를 제출할 수 있습니다. 다른 개발자는 앱이 승인된 후에만 업데이트를 제출할 수 있습니다.
 
-Graph API를 사용하여 앱을 업데이트하는 데 대한 자세한 내용은 여기를 <a href="https://docs.microsoft.com/graph/api/teamsapp-update?view=graph-rest-1.0#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">참조하세요.</a>
+Graph API를 사용하여 앱을 업데이트하는 데 대한 자세한 내용은 여기를 <a href="https://docs.microsoft.com/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">참조하세요.</a>
 
 ### <a name="update-experience-for-users"></a>사용자 환경 업데이트
 
-대부분의 경우 앱 업데이트를 게시한 후 사용자에 대해 새 버전이 자동으로 나타납니다. 그러나 완료하려면 사용자 동의가 필요한 <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams</a> 매니페스트에 대한 몇 가지 업데이트가 있습니다.
+대부분의 경우 앱 업데이트를 게시하면 사용자에 대해 새 버전이 자동으로 나타납니다. 그러나 완료하려면 사용자 동의가 필요한 <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams</a> 매니페스트에 대한 몇 가지 업데이트가 있습니다.
 
 * 봇이 추가 또는 제거되었습니다.
 * 기존 봇의 "botId" 속성이 변경
 * 기존 봇의 "isNotificationOnly" 속성이 변경
-* 봇의 "supportsFiles" 속성 변경
+* 봇의 "supportsFiles" 속성이 변경
 * 메시징 확장이 추가 또는 제거되었습니다.
 * 새 커넥터가 추가되었습니다.
 * 새 정적 탭이 추가되었습니다.
@@ -156,4 +156,4 @@ Graph API를 사용하여 앱을 업데이트하는 데 대한 자세한 내용�
 - [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)
 - [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
 - [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)
-- <a href="https://docs.microsoft.com/graph/api/resources/teamsapp?view=graph-rest-1.0" target="_blank">Teams 앱용 Microsoft Graph API</a>
+- <a href="https://docs.microsoft.com/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">Teams 앱용 Microsoft Graph API</a>
