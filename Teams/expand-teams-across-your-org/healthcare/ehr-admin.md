@@ -17,16 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Microsoft Teams를 사용하여 가상 방문 시스템 설정
-ms.openlocfilehash: 4c8511939532a448d5229865618aa308494c7a42
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101336"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125781"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams를 통해 가상 방문 - EHR에 통합
 
@@ -96,10 +98,10 @@ Microsoft Teams에서 가상 방문을 시작하려면 EHR 커넥터 구성 포�
 
 ### <a name="approve-or-view-configuration"></a>[구성 승인 또는 보기](#approve-or-view-configuration)
 
-승인자로 추가된 의료 조직의 Epic 고객 분석가는 이제 이전 단계와 동일한 EHR 커넥터 URL을 사용하여 Microsoft 365 자격 증명을 사용하여 로그인해야 합니다. 유효성 검사가 성공적으로 완료된 후 승인자에 해당 Epic 자격 증명을 사용하여 로그인하여 서사시 조직의 유효성을 검사할지 묻는 메시지가 표시될 것입니다.
+승인자로 추가된 의료 조직의 Epic 고객 분석가는 이제 이전 단계와 동일한 EHR 커넥터 URL을 사용하여 Microsoft 365 자격 증명을 사용하여 로그인해야 합니다. 유효성 검사가 성공하면 승인자가 해당 Epic 자격 증명을 사용하여 로그인하여 서사시 조직의 유효성을 검사할지 묻는 메시지가 표시될 것입니다.
 
 > [!Note]
-> 조직의 Microsoft 365 관리자 및 Epic 고객 분석가는 같은 사람일 수 있습니다. 이 경우 사용자 이름을 승인자로 추가합니다. 액세스의 유효성을 검사하려면 여전히 Epic에 로그인해야 합니다. Epic 로그인은 FHIR 기본 URL의 유효성을 검사하는 데만 사용됩니다. Microsoft는 이 로그인을 사용하여 자격 증명을 저장하거나 EHR 데이터에 액세스하지 않습니다.
+> 조직의 Microsoft 365 관리자 및 Epic 고객 분석가는 같은 사람일 수 있습니다. 이 경우 사용자 이름을 승인자로 추가합니다. 액세스의 유효성을 검사하려면 여전히 Epic에 로그인해야 합니다. 서사시 로그인은 FHIR 기본 URL의 유효성을 검사하는 데만 사용됩니다. Microsoft는 이 로그인을 사용하여 자격 증명을 저장하거나 EHR 데이터에 액세스하지 않습니다.
 
   ![자격 증명 구성을 확인하고 승인합니다.](../../media/approve-view-configuration.png)
 
@@ -143,7 +145,7 @@ EHR 커넥터 단계 및 전사적 구성을 완료한 후 조직은 Microsoft T
 
 - 일회성 로그인 후 공급자는 Microsoft Teams의 가상 약속으로 바로 가게 됩니다. (공급자는 Microsoft Teams에 로그인해야 합니다.)
 
-- 공급자는 참가자의 실시간 업데이트가 제공된 약속에 대한 연결 및 연결 끊기를 볼 수 있습니다. 공급자는 환자가 가상 방문에 연결된 경우를 볼 수 있습니다.
+- 공급자는 제공된 약속에 대한 참가자 연결 및 연결 끊기의 실시간 업데이트를 볼 수 있습니다. 공급자는 환자가 가상 방문에 연결된 경우를 볼 수 있습니다.
 
   ![환자가 있는 가상 방문의 공급자 환경](../../media/ehc-provider-experience-6.png)
 
@@ -161,7 +163,7 @@ EHR 커넥터 단계 및 전사적 구성을 완료한 후 조직은 Microsoft T
 
 - 환자는 의료 공급자가 약속에 조인하고 가상 방문에 이를 수임할 때까지 대기실에 배치됩니다.
 
-- 비디오 및 마이크 테스트는 가상 방문에 참가하기 전에 로비에서 사용할 수 있습니다.
+- 가상 방문에 참가하기 전에 로비에서 비디오 및 마이크 테스트를 사용할 수 있습니다.
 
   ![가상 방문의 환자 경험](../../media/ehc-virtual-visit-5.png)
 

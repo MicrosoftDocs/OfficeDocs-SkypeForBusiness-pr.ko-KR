@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams에서 모임 정책 설정을 관리하고 이를 사용하여 사용자가 예약한 모임에 모임 참가자가 사용할 수 있는 기능을 제어하는 방법을 배워야 합니다.
-ms.openlocfilehash: 2eef5969ea054b8c8ca6d702189f05b1eaa46c65
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 67194f02c92bac390083e3ea3e983e7b8518e595
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918914"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125807"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams에서 모임 정책 관리
 
@@ -81,7 +81,7 @@ ms.locfileid: "49918914"
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 모임 모임  >  **정책으로 이동하세요.**
 2. 정책 이름 왼쪽을 클릭하여 정책을 선택한 다음 편집을 **선택합니다.**
-3. 여기에서 원하는 내용을 변경합니다.
+3. 여기서 원하는 내용을 변경합니다.
 4. 저장을 **선택합니다.**
 
 > [!NOTE]
@@ -109,7 +109,7 @@ ms.locfileid: "49918914"
 
 ## <a name="meeting-policy-settings---general"></a>모임 정책 설정 - 일반
 
-- [채널에서 지금 Meet 허용](#allow-meet-now-in-channels)
+- [채널에서 지금 만나기 허용](#allow-meet-now-in-channels)
 - [Outlook 추가 기능 허용](#allow-the-outlook-add-in)
 - [채널 모임 참석 허용](#allow-channel-meeting-scheduling)
 - [비공개 모임을 허용합니다.](#allow-scheduling-private-meetings)
@@ -127,7 +127,7 @@ ms.locfileid: "49918914"
 
 ![새 모임을 예약하는 기능을 보여주는 스크린샷](media/meeting-policies-outlook-add-in.png)
 
-이 기능을 해제하면 사용자가 예약할 수 없습니다. Outlook에서 새 모임을 만들 때 Teams 모임을 합니다. 예를 들어 Windows용 Outlook에서는 새 **Teams** 모임 옵션이 리본에 표시되지 않습니다.
+이 기능을 해제하면 사용자가 예약할 수 없습니다. Outlook에서 새 모임을 만들 때 Teams 모임을 만들 수 있습니다. 예를 들어 Windows용 Outlook에서는 새 **Teams** 모임 옵션이 리본에 표시되지 않습니다.
 
 ### <a name="allow-channel-meeting-scheduling"></a>채널 모임 참석 허용
 
@@ -195,7 +195,7 @@ ms.locfileid: "49918914"
 
 ![모임의 전사 옵션](media/meeting-policies-transcription.png)
 
-### <a name="allow-cloud-recording"></a>클라우드 기록 허용
+### <a name="allow-cloud-recording"></a>클라우드 녹음/녹화 허용
 
 이 정책은 사용자당 정책에서 제어됩니다. 이 설정은 사용자가 기록할 수 있는지 여부를 제어합니다. 특정 정책 설정이 켜져 있으며 이끌이와 동일한 조직의 인증된 사용자인 경우 모임 이끌이 또는 다른 모임 참가자가 기록을 시작할 수 있습니다.
 
@@ -205,10 +205,10 @@ ms.locfileid: "49918914"
 
 다음 예제를 살펴보겠습니다.
 
-|사용자 |모임 정책  |클라우드 기록 허용 |
+|사용자 |모임 정책  |클라우드 녹음/녹화 허용 |
 |---------|---------|---------|
 |Daniela | 전역   | 끄기 |
-|Amanda | Location1MeetingPolicy | On|
+|아만다 | Location1MeetingPolicy | On|
 |John(외부 사용자) | 해당 사항 없음 | 해당 사항 없음|
 
 Daniela는 이끌이인 경우에도 정책이 꺼지기 때문에 기록할 수 없습니다. 정책 설정을 사용하도록 설정한 Amanda는 Daniela가 구성한 모임도 녹화할 수 있습니다. Amanda가 모임을 구성하는 경우 이 모임을 기록할 수 있습니다. 그러나 정책 설정을 사용할 수 없는 Daniela와 외부 사용자인 John은 해당 모임을 기록할 수 없습니다.
@@ -224,13 +224,13 @@ Daniela는 이끌이인 경우에도 정책이 꺼지기 때문에 기록할 수
 |**수신 오디오 및 수신 오디오 사용**    |모임에서 유출 및 수신 오디오가 허용됩니다. 기본 설정입니다. |
 |**사용 안**     |모임에서 걸고 받는 오디오가 꺼져 있습니다.     |
 
-사용자에 대해 **사용** 안 하도록 설정되어 있는 경우 해당 사용자는 여전히 모임을 예약하고 구성할 수 있지만 오디오를 사용할 수 없습니다. 모임에 참가하기 위해 PSTN(공용 전화망)을 통해 전화를 걸거나 모임에 전화를 걸고 전화로 참가해야 합니다. 정책이 할당되지 않은 모임 참가자(예: 익명 참가자)는 이 설정을 기본적으로 수신 및 수신 오디오로 **설정합니다.** Teams 모바일 클라이언트에서 이 설정을 사용하지 않도록 설정한 경우 사용자는 PSTN을 통해 모임에 전화 접속해야 합니다.
+사용자에 대해 **사용** 안 하도록 설정한 경우 해당 사용자는 모임을 예약하고 구성할 수 있지만 오디오를 사용할 수 없습니다. 모임에 참가하기 위해 PSTN(공용 전화망)을 통해 전화를 걸거나 모임에 전화를 걸고 전화로 참가해야 합니다. 정책이 할당되지 않은 모임 참가자(예: 익명 참가자)는 이 설정을 기본적으로 수신 및 수신 오디오로 **설정합니다.** Teams 모바일 클라이언트에서 이 설정을 사용하지 않도록 설정한 경우 사용자는 PSTN을 통해 모임에 전화 접속해야 합니다.
 
 이 설정은 1:1 호출에 적용되지 않습니다. 1:1 통화를 제한하기 위해 [Teams](teams-calling-policy.md) 통화 정책을 구성하고 비공개 통화 설정 기능을 **해제합니다.** 이 설정은 Surface Hub 및 Microsoft Teams Room 장치와 같은 회의실 장치에도 적용되지 않습니다.
 
 이 설정은 Microsoft 365 GCC(Government Community Cloud), GCC High 또는 DoD(국방부) 환경에서는 아직 사용할 수 없습니다.
 
-자세한 내용은 모임 [참가자를 위한 오디오/비디오 관리를 참조합니다.](#manage-audiovideo-for-meeting-participants)
+자세한 내용은 모임 [참가자에 대한 오디오/비디오 관리를 참조합니다.](#manage-audiovideo-for-meeting-participants)
 
 ### <a name="mode-for-ip-video"></a>IP 비디오 모드
 
@@ -239,7 +239,7 @@ Daniela는 이끌이인 경우에도 정책이 꺼지기 때문에 기록할 수
 |값 설정 |동작  |
 |---------|---------|
 |**유출 및 수신 비디오 사용**    | 모임에서 유출 및 수신 비디오가 허용됩니다. 기본 설정입니다. |
-|**사용 안**     | 모임에서 걸고 받는 비디오가 꺼져 있습니다. Teams 모바일 클라이언트에서는 사용자가 모임의 비디오 또는 사진을 공유할 수 없습니다. <br><br>IP 오디오 **모드가 비활성화된** 경우 **IP** 비디오 모드도 비활성화된 상태로 유지됩니다.  |
+|**사용 안**     | 모임에서 유출 및 수신 비디오가 꺼져 있습니다. Teams 모바일 클라이언트에서는 사용자가 모임의 비디오 또는 사진을 공유할 수 없습니다. <br><br>IP 오디오 **모드가 비활성화된** 경우 **IP** 비디오 모드도 비활성화된 상태로 유지됩니다.  |
 
 사용자에 대해 **사용** 안 하도록 설정한 경우 해당 사용자는 비디오를 켜거나 다른 모임 참가자가 공유한 비디오를 볼 수 없습니다. 정책이 할당되지 않은 모임 참가자(예: 익명 참가자)는 이 설정을 기본적으로 수신 및 수신 비디오로 **설정합니다.**
 
@@ -248,15 +248,15 @@ Daniela는 이끌이인 경우에도 정책이 꺼지기 때문에 기록할 수
 이 설정은 Microsoft 365 GCC(Government Community Cloud), GCC High 또는 DoD(국방부) 환경에서는 아직 사용할 수 없습니다.
 
 > [!NOTE]
-> 이 설정은 내보이는 비디오와 들어오는 비디오를 제어하는 반면 **IP** 비디오 허용 설정은 진행하는 비디오를 제어합니다. 자세한 내용은 어떤 IP 비디오 정책 설정이 우선적으로 [적용하나요?](#which-ip-video-policy-setting-takes-precedence) 및 모임 참가자를 위한 [오디오/비디오 관리를 참조하세요.](#manage-audiovideo-for-meeting-participants)
+> 이 설정은 내보이는 비디오와 들어오는 비디오를 제어하는 반면 **IP** 비디오 허용 설정은 진행하는 비디오를 제어합니다. 자세한 내용은 어떤 IP 비디오 정책 설정이 [우선하나요?](#which-ip-video-policy-setting-takes-precedence) 및 모임 참가자를 위한 [오디오/비디오 관리를 참조하세요.](#manage-audiovideo-for-meeting-participants)
 
-자세한 내용은 모임 [참가자를 위한 오디오/비디오 관리를 참조합니다.](#manage-audiovideo-for-meeting-participants)
+자세한 내용은 모임 [참가자에 대한 오디오/비디오 관리를 참조합니다.](#manage-audiovideo-for-meeting-participants)
 
 ### <a name="allow-ip-video"></a>IP 비디오 허용
 
 이끌이 및 사용자당 정책의 조합입니다. 비디오는 모임의 핵심 구성 요소입니다. 일부 조직에서는 관리자가 비디오가 있는 사용자의 모임에 대한 제어를 더 많이 원할 수 있습니다. 이 설정은 사용자가 호스트하는 모임 및 사용자가 시작한 1:1 및 그룹 통화에서 비디오를 설정할 수 있는지 여부를 제어합니다. Teams 모바일 클라이언트에서 이 설정은 사용자가 모임에서 사진과 비디오를 공유할 수 있는지 여부를 제어합니다.
 
-이 정책 설정을 사용하도록 설정한 사용자가 구성한 모임은 모임 참가자가 정책 설정도 사용하도록 설정한 경우 모임 참가자가 모임에서 비디오 공유를 허용합니다. 정책이 할당되지 않은 모임 참가자(예: 익명 및 페더리된 참가자)는 모임 이끌이의 정책을 상속합니다.
+이 정책 설정을 사용하도록 설정한 사용자가 구성한 모임은 모임 참가자가 정책 설정도 사용하도록 설정한 경우 모임 참가자가 모임에서 비디오 공유를 허용합니다. 정책이 할당되지 않은 모임 참가자(예: 익명 및 페더러드 참가자)는 모임 이끌이의 정책을 상속합니다.
 
 > [!NOTE]
 > 이 설정은 나선 비디오를 제어하는 반면 **IP** 비디오 설정 모드는 나선 비디오와 들어오는 비디오를 모두 제어합니다. 자세한 내용은 어떤 IP 비디오 정책 설정이 [우선하나요?](#which-ip-video-policy-setting-takes-precedence) 및 모임 참가자를 위한 [오디오/비디오 관리를 참조하세요.](#manage-audiovideo-for-meeting-participants)
@@ -274,7 +274,7 @@ Daniela는 이끌이인 경우에도 정책이 꺼지기 때문에 기록할 수
 
 Daniela가 주최하는 모임에서는 비디오를 하도록 허용합니다. Daniela는 모임에 참가하고 비디오를 끄는 데 사용할 수 있습니다. Amanda의 정책이 비디오를 허용하지 않는 것으로 설정되어 있기 때문에 Daniela의 모임에서 Amanda는 비디오를 설정할 수 없습니다. Amanda는 모임의 다른 참가자가 공유한 비디오를 볼 수 있습니다.
 
-Amanda가 주최하는 모임에서는 할당된 비디오 정책에 관계없이 아무도 비디오를 끄지 않습니다. 즉, Daniela는 Amanda의 모임에서 비디오를 끄지 못합니다.  
+Amanda가 호스트하는 모임에서는 할당된 비디오 정책에 관계없이 아무도 비디오를 끄지 않습니다. 즉, Daniela는 Amanda의 모임에서 비디오를 끄지 못합니다.  
 
 Daniela가 비디오로 Amanda를 호출하면 Amanda는 오디오로만 통화에 응답할 수 있습니다.  통화가 연결되면 Amanda에서 Daniela의 비디오를 볼 수 있지만 비디오를 켜지 못합니다. Amanda가 Daniela를 호출하면 Daniela는 비디오 및 오디오로 통화에 응답할 수 있습니다. 통화가 연결되면 Daniela는 필요한 경우 자신의 비디오를 설정하거나 해제할 수 있습니다.
 
@@ -289,16 +289,16 @@ Daniela가 비디오로 Amanda를 호출하면 Amanda는 오디오로만 통화�
 |이끌이: <br><br>참가자:  |참가자: **사용 안**        |**IP 비디오 설정에 대한 모드가** 우선합니다. 이 정책이 할당된 참가자는 다른 사람이 공유한 비디오를 켜거나 볼 수 없습니다.|
 |이끌이: <br><br>참가자:  |참가자: **유출 및 수신 비디오 사용**          |이 정책이 할당된 참가자는 다른 사람이 공유한 비디오를 켜거나 볼 수 있습니다.         |
 |이끌이: <br><br>참가자: **끄기** |참가자: **유출 및 수신 비디오 사용**         |IP **비디오 허용 설정이** 우선합니다. 참가자는 들어오는 비디오만 볼 수 있으며 보내는 비디오를 보낼 수 없습니다.         |
-|이끌이: <br><br>참가자: **끄기** |참가자: **사용 안**         |**IP 비디오 설정에 대한 모드가** 우선합니다. 참가자는 수신 또는 유출 비디오를 볼 수 없는 경우|
-|이끌이: **끄기**    |       |IP **비디오** 허용 설정은 이끌이에 대해 꺼져 있기 때문에 우선적으로 적용됩니다. 이 정책이 할당된 사용자가 구성한 모임에서 비디오를 끄는 사용자는 없습니다.         |
+|이끌이: <br><br>참가자: **끄기** |참가자: **사용 안**         |**IP 비디오 설정에 대한 모드가** 우선합니다. 참가자가 수신 또는 유출 비디오를 볼 수 없는 경우|
+|이끌이: **끄기**    |       |IP **비디오** 허용 설정이 이끌이에 대해 꺼져 있기 때문에 우선적으로 적용됩니다. 이 정책이 할당된 사용자가 구성한 모임에서 비디오를 끄는 사용자는 없습니다.         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>모임 참가자를 위한 오디오/비디오 관리
 
 |원하는 경우...  |다음 정책 설정 설정  |
 |---------|---------|
 |모임 참가자의 오디오 및 비디오 사용 안  |IP 오디오 모드: **사용 안**<br> IP 비디오 모드: **사용 안**<br>IP 비디오 허용: N/A       |
-|모임 참가자에 대해 들어오는 비디오 및 오디오만 사용하도록 설정  |IP 오디오 모드: **내보내기** 및 수신 오디오 사용<br> IP 비디오 모드: 유출 및 들어오는 **비디오 사용**<br>IP 비디오 허용: **끄기**       |
-|모임 참가자의 비디오 사용 안 하게 설정(참가자는 오디오만 사용)|  IP 오디오 모드: **내보내고 들어오는** 오디오 사용<br> IP 비디오 모드: **사용 안**<br>IP 비디오 허용: N/A
+|모임 참가자에 대해 들어오는 비디오 및 오디오만 사용하도록 설정  |IP 오디오 모드: **내보내기** 및 수신 오디오 사용<br> IP 비디오 모드: **유출 및** 수신 비디오 사용<br>IP 비디오 허용: **끄기**       |
+|모임 참가자에 대한 비디오 사용 안 하게 설정(참가자는 오디오만 사용)|  IP 오디오 모드: **내보내기 및** 들어오는 오디오 사용<br> IP 비디오 모드: **사용 안**<br>IP 비디오 허용: N/A
 |모임 참가자에 대한 오디오 및 비디오 사용    |IP 오디오 모드: 수신 및 수신 **오디오** 사용(기본값)<br> IP 비디오 모드: 유출 및 들어오는 **비디오 사용(기본값)**<br>IP 비디오  허용: 설정(기본값)    |
 
 모임 이끌이의 정책과 사용자의 정책 간에 가장 제한적인 정책이 적용됩니다. 예를 들어 이끌이에게 비디오를 제한하는 정책이 있으며 사용자의 정책이 비디오를 제한하지 않는 경우 모임 참가자는 모임 이끌이의 정책을 상속받고 모임의 비디오에 액세스할 수 없습니다. 즉, 오디오로만 모임에 참가할 수 있습니다.
@@ -316,7 +316,7 @@ Teams 모바일 클라이언트의 사용자의 경우 모임 중에 사진 및 
 
 모임에 대한 대역폭이 충분하지 않은 경우 참가자에게 네트워크 품질이 나쁨을 나타내는 메시지가 표시됩니다.
 
-최고 품질의 비디오 환경(예: CEO 보드 모임 및 Teams 라이브 이벤트)이 필요한 모임의 경우 대역폭을 10Mbps로 설정하는 것이 좋습니다. 최대 환경을 설정한 경우에도 시나리오에 따라 특정 네트워크 조건이 감지될 때 Teams 미디어 스택이 낮은 대역폭 조건에 맞게 조정됩니다.
+최고 품질의 비디오 환경(예: CEO 보드 모임 및 Teams 라이브 이벤트)이 필요한 모임의 경우 대역폭을 10Mbps로 설정하는 것이 좋습니다. 최대 환경을 설정한 경우에도 Teams 미디어 스택은 시나리오에 따라 특정 네트워크 조건이 감지될 때 낮은 대역폭 조건에 맞게 조정됩니다.
 
 ## <a name="meeting-policy-settings---content-sharing"></a>모임 정책 설정 - 콘텐츠 공유
 
@@ -368,7 +368,7 @@ Daniela가 주최하는 모임을 통해 모임 참가자가 전체 화면 또�
 |사용자 |모임 정책  |참가자가 제어권 제공 또는 요청 허용 |
 |---------|---------|---------|
 |Daniela   | 전역   | On       |
-|Babek    | Location1MeetingPolicy        | 끄기   |
+|바베크어    | Location1MeetingPolicy        | 끄기   |
 
 Daniela는 Babek가 구성한 모임의 다른 참가자에게 공유 데스크톱 또는 창을 제어할 수 있는 반면 Babek는 다른 참가자에게 제어를 줄 수 없습니다.
 
@@ -425,9 +425,9 @@ Amanda는 모임 이끌이인 경우에도 모임에서 화이트보드를 공�
 |사용자 |모임 정책  |공유 노트 허용 |
 |---------|---------|---------|
 |Daniela   | 전역   | On       |
-|Amanda   | Location1MeetingPolicy | 끄기 |
+|아만다   | Location1MeetingPolicy | 끄기 |
 
-Daniela는 Amanda의 모임에서 메모를 기록할 수 있으며, Amanda는 모임에서 메모를 기록할 수 없습니다.
+Daniela는 Amanda의 모임에서 메모를 기록할 수 있으며 Amanda는 모임에서 메모를 기록할 수 없습니다.
 
 ## <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 & 게스트
 
@@ -483,7 +483,7 @@ Daniela는 Amanda의 모임에서 메모를 기록할 수 있으며, Amanda는 �
 |값 설정 |동작  |
 |---------|---------|
 |**사용 안 되지만 사용자가 을(를)**     | 모임 중에 사용자에 대해 라이브 캡션이 자동으로 설정되지 않습니다. 사용자는 오버플로(...) 메뉴에 라이브 캡션켜기 옵션을 표시하여 켜세요.  기본 설정입니다. |
-|**사용 안**     | 모임 중에 사용자가 라이브 캡션을 사용할 수 없습니다. 사용자에게 설정하는 옵션이 없습니다.          |
+|**사용 안**     | 모임 중에 사용자가 라이브 캡션을 사용할 수 없습니다. 사용자에게는 설정하는 옵션이 없습니다.          |
 
 <a name="bkcontentsharing"> </a>
 
@@ -499,7 +499,7 @@ Daniela는 Amanda의 모임에서 메모를 기록할 수 있으며, Amanda는 �
 
 누가 발표할 수 **있나요?** 설정을 사용하면 모임 이끌이가 모임에서 발표자가 될 수 있는 사람 선택이 있습니다. 자세한 내용은 Teams 모임에서 [Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) 모임 및 역할에 대한 참가자 설정 [변경을 참조하세요.](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)
 
-현재는 PowerShell만 사용하여 이 정책 설정을 구성할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
+[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
 
 Teams에서 사용할 수  있는 사용자 설정의 기본값을 지정하기 위해 **DesignatedPresenterRoleMode** 매개 변수를 다음 중 하나로 설정하세요.
 
@@ -507,13 +507,17 @@ Teams에서 사용할 수  있는 사용자 설정의 기본값을 지정하기 
 - **EveryoneInCompanyUserOverride:** 게스트 사용자를 포함하여 조직의 인증된 사용자는 발표자일 수 있습니다. 이 매개 변수는 Teams의 조직 **설정에 있는** 사용자에 해당합니다.
 - **OrganizerOnlyUserOverride:** 모임 이끌이만 발표자가 될 수 있으며 모든 모임 참가자는 참석자로 지정됩니다. 이 매개 변수는 Teams의 **유일한** 설정에 해당합니다.
 
+또한 Teams 관리 센터에서 이 정책을 편집할 수 있습니다. 
+
+![Teams 관리 센터 스크린샷](media/designated-presenter-role.png)
+
 기본값을 설정한 후에도 모임 이끌이는 Teams에서 이 설정을 변경하고 예약하는 모임에 참석할 수 있는 사용자도 선택할 수 있습니다.
 
 ## <a name="meeting-policy-settings---meeting-attendance-report"></a>모임 정책 설정 - 모임 참석자 보고서
 
 사용자당 정책입니다. 이 설정은 모임 이끌이가 모임 참석자 보고서를 [다운로드할 수 있는지 여부를 제어합니다.](teams-analytics-and-reports/meeting-attendance-report.md)
 
-현재 PowerShell을 사용하여 이 정책 설정을 구성할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
+현재는 PowerShell만 사용하여 이 정책 설정을 구성할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
 
 모임 이끌이가 모임 참석자 보고서를 다운로드할 수 있도록 설정하려면 **AllowEngagementReport** 매개 변수를 **사용으로 설정합니다.** 사용하도록 설정하면 보고서를 다운로드하는 옵션이 참가자 **창에** 표시됩니다.
 
@@ -525,7 +529,7 @@ Teams에서 사용할 수  있는 사용자 설정의 기본값을 지정하기 
 
 이 정책은 아일랜드 모드이면서 Teams 모임 정책에서 **AllowOutlookAddIn** 매개 변수가 **True** 로 설정된 사용자에게만 적용할 수 있습니다.
 
-현재 PowerShell을 사용하여 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
+현재는 PowerShell만 사용하여 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새 Teams 모임 정책을 만들고 사용자에게 할당합니다.
 
 사용자가 사용할 수 있는 모임 추가 기능을 지정하려는 경우 다음과 같이 **PreferredMeetingProviderForIslandsMode** 매개 변수를 설정합니다.
 
