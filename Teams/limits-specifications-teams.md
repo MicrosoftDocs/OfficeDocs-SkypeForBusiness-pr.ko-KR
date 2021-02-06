@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 7063fc09ab7ba93a050d6fe1fd0ec9ae74888b27
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110211"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125630"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -36,28 +36,30 @@ ms.locfileid: "50110211"
 |-----------|---------------|
 |사용자가 만들 수 있는 팀의 수 | 250개체 제한 적용&sup1;         |
 |사용자가 구성원이 될 수 있는 그룹 수|1,000&sup2;|
-|팀 구성원 수  | 10,000<sup>5</sup>     |
+|팀 구성원 수  | 10,000<sup>6</sup>     |
 |팀당 소유자 수 | 100   |
 |테넌트에 허용되는 조직 전체 팀 수 | 5     |
 |[조직 전체 팀](create-an-org-wide-team.md)의 구성원 수 | 10,000       |
 |전역 관리자가 만들 수 있는 팀의 수        |  500,000   |
-|Microsoft 365 또는 Office 365 조직이 보유할 수 있는 팀 개수    | 500,000&sup2;     |
-|팀당 채널 수    | 200(삭제된 채널 포함)&sup3;         |
-|팀당 비공개 채널 수    |30| (삭제된 채널 포함)&sup3;
+|Microsoft 365 또는 Office 365 조직이 보유할 수 있는 팀 개수    | 500,000&sup3;     |
+|팀당 채널 수    | 200(삭제된 채널 포함)&sup4;         |
+|팀당 비공개 채널 수    |30| (삭제된 채널 포함)&sup4;
 |비공개 채널 회원수    |250|
 |팀으로 가져올 수 있는 전자 메일 그룹, 보안 그룹 또는 Office 365 그룹의 최대 크기입니다.    |3,500|
-|Office 365 그룹에서 팀으로 전환할 수 있는 최대 구성원 수    |10,000<sup>5</sup>     |
-|채널 대화 게시 크기 | 게시물당 28 KB<sup>4</sup> |
+|Office 365 그룹에서 팀으로 전환할 수 있는 최대 구성원 수    |10,000<sup>6</sup>     |
+|채널 대화 게시 크기 | 게시물당 약 28KB<sup>5</sup> |
 
 <sup>1</sup> Azure Active Directory의 모든 디렉터리 개체는 이 제한에 포함됩니다. 전역 관리자는 [응용 프로그램 사용 권한](https://docs.microsoft.com/graph/permissions-reference)을 사용하여 Microsoft Graph를 호출하는 앱과 마찬가지로 이 제한에서 제외됩니다.
 
-<sup>2</sup> 이 제한에는 보관된 팀이 포함됩니다. Microsoft 365 또는 Office 365 조직에 포함될 수 있는 최대 팀 수를 초과하는 경우, Microsoft 지원에 문의하여 테넌트에서의 Azure Active Directory 개체 수의 추가적 증가를 요청해야 합니다.
+<sup>2</sup> 이 제한에는 보관된 팀이 포함됩니다. 
 
-<sup>3</sup> 삭제된 채널은 30일 이내에 복원할 수 있습니다. 30일 동안에는 삭제된 채널이 계속해서 팀당 200개 채널이나 30개의 개인 채널에 포함됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널은 더 이상 팀당 한도에 포함되지 않습니다.
+<sup>3</sup> Microsoft 지원에 문의하여 테넌트에서의 Azure Active Directory 개체 수의 추가적 증가를 요청해야 합니다. 증가는 실제 프로덕션 시나리오에만 해당합니다.
 
-<sup>4</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 수, 반응이 포함되기 때문에 대략적인 한도입니다.
+<sup>4</sup>삭제된 채널은 30일 이내에 복원될 수 있습니다. 이 30일 동안에는 삭제된 채널이 200채널 혹은 팀 한도 딩 30개의 개인 채널로 계산됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널이 더 이상 팀당 한도에 포함되지 않습니다.
 
-<sup>5</sup> GCC Teams에서는 5,000명만 수용할 수 있고 GCCH/DoD Teams에서는 2,500명만 수용할 수 있습니다.
+<sup>5</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 수, 반응이 포함되기 때문에 대략적인 한도입니다.
+
+<sup>6</sup> GCC Teams에서는 5,000명만 수용할 수 있고 GCCH/DoD Teams에서는 2,500명만 수용할 수 있습니다.
 
 ## <a name="messaging"></a>메시징
 
