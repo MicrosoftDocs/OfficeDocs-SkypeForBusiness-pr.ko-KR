@@ -297,6 +297,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 제조 범주 Teams 서식 파일
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: 서식 파일 정책 만들기 및 관리
+            href: templates-policies.md
       - name: 외부 사용자와 의사 소통
         items:
           - name: 다른 조직의 사용자와 의사 소통
