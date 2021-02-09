@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 관리 센터에서 Teams 서식 파일을 관리하는 방법 배우기
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ef765013541ae740211cc5666da3544f1cd5b528
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125905"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145885"
 ---
 # <a name="create-and-manage-teams-templates-in-the-admin-center"></a>관리 센터에서 Teams 서식 파일 만들기 및 관리
 
@@ -143,4 +143,4 @@ A: 아니요, 지원되지 않습니다.
 
 - [Microsoft Teams에서 사용자에게 정책 할당 - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [TeamsTemplatePermissionPolicy](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [정책에 사용자 일괄 할당](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)

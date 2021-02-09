@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams에서 Teams 앱 제출 API를 사용하여 제출된 사용자 지정 앱을 승인하는 방법을 배워야 합니다.
-ms.openlocfilehash: 146d8aaa7ec49d5a760e6b4fdcb700f161f62376
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 0003bc218b425383ba117296ba847a637d76ac43
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110231"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145805"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시
 
@@ -31,13 +31,16 @@ ms.locfileid: "50110231"
 > [!NOTE]
 > 사용자 지정 Teams 앱을 게시하면 조직의 앱 스토어에 있는 사용자가 사용할 수 있습니다. 사용자 지정 앱을 게시하는 방법에는 두 가지가 있으며 사용하는 방법은 앱을 다운로드하는 방법에 따라 다를 수 있습니다. 이 문서에서는 개발자가 Teams 앱 제출 API를 통해 제출하는 사용자 지정 앱을 승인하고 게시하는 **방법을 중점적으로 다루고 있습니다.** 사용자 지정 앱을 업로드하는 다른 방법은 개발자가 .zip 형식으로 앱 패키지를 보낼 때 사용됩니다. 해당 메서드에 대한 자세한 내용은 앱 패키지를 업로드하여 사용자 지정 앱 <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">게시를 참조하세요.</a> 승인 앱 위젯은 GCC 테넌트에서 사용할 수 없습니다. 
 
+> [!IMPORTANT]
+> 이 메서드는 현재 GCC 환경에서 사용할 수 없습니다. 사용자 지정 앱 메서드 *업로드를 사용해야* 합니다.
+
 이 문서에서는 Teams 앱을 개발에서 배포로 검색하는 방법에 대한 전체 지침을 제공합니다. Teams가 앱 수명 주기 전반에 걸쳐 제공하는 연결된 환경의 개요를 확인하여 조직의 앱 스토어에서 사용자 지정 앱을 개발, 배포 및 관리하는 방법을 간소화합니다.
 
 개발자가 Teams 앱 제출 API를 사용하여 검토 및 승인을 위해 사용자 지정 앱을 Microsoft Teams 관리 센터에 직접 제출하는 방법, 조직의 사용자에 대한 앱을 관리하기 위한 정책을 설정하는 방법 및 사용자가 Teams에서 앱을 검색하는 방법을 포함하여 수명 주기의 각 단계를 다를 것입니다.
 
 ![개발에서 배포까지의 앱 개요](media/custom-app-lifecycle.png)
 
-이 지침은 앱의 Teams 측면을 중점적으로 설명하며 관리자와 IT 팀을 위한 것입니다. Teams 앱 개발에 대한 자세한 내용은 Teams 개발자 <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">설명서를 참조하세요.</a>
+이 지침은 앱의 Teams 측면을 중점적으로 설명하며 관리자와 IT를 위한 것입니다. Teams 앱 개발에 대한 자세한 내용은 Teams 개발자 <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">설명서를 참조하세요.</a>
 
 ## <a name="develop"></a>개발
 
@@ -49,7 +52,7 @@ Microsoft Teams 개발자 플랫폼을 사용하면 개발자가 자신의 앱�
 
 앱이 프로덕션에서 사용할 준비가 되면 개발자는 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">Graph API,</a>Visual Studio Code와 같은 통합 개발 환경(IDE) 또는 Power Apps 및 Power Virtual Agent와 같은 플랫폼에서 호출할 수 있는 Teams 앱 제출 API를 사용하여 앱을 제출할 수 있습니다. 이렇게 하면 Microsoft Teams <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> 관리 센터의 앱 관리 페이지에서 앱을 사용할 수 있습니다. 여기서 관리자는 앱을 검토하고 승인할 수 있습니다.
 
-<a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph를</a>사용하여 구축된 Teams 앱 제출 API를 사용하면 조직에서 선택한 플랫폼에서 개발하고 Teams에서 사용자 지정 앱에 대한 승인 제출 프로세스를 자동화할 수 있습니다.
+<a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph를</a>사용하여 구축된 Teams 앱 제출 API를 사용하면 조직에서 사용자가 선택한 플랫폼에서 개발하고 Teams에서 사용자 지정 앱에 대한 제출-승인 프로세스를 자동화할 수 있습니다.
 
 다음은 코드에서 이 앱 제출 단계의 Visual Studio 예입니다.
 
@@ -61,9 +64,9 @@ Graph API를 사용하여 앱을 제출하는 데 대한 자세한 내용은 여
 
 ## <a name="validate"></a>유효성 검사
 
-Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> Teams 관리 센터의 앱 관리 페이지(왼쪽 탐색에서 **Teams** 앱 관리 앱으로 이동)를 통해 조직의 모든 Teams 앱을 볼  >  수 있습니다. 페이지 **맨 위에** 있는 보류 중인 승인 위젯을 통해 승인을 위해 사용자 지정 앱이 제출될 때를 알 수 있습니다.
+Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> Teams 관리 센터의 앱 관리 페이지(왼쪽 탐색에서 **Teams** 앱 관리 앱으로 이동)는 조직의 모든 Teams 앱에  >  대한 보기를 제공합니다. 페이지 **맨 위에** 있는 보류 중인 승인 위젯을 통해 승인을 위해 사용자 지정 앱이 제출될 때를 알 수 있습니다.
 
-테이블에서 새로 제출된 앱은 자동으로 제출 상태  및  차단된 **상태입니다.**  게시 상태 **열을** 내선 순서대로 정렬하여 앱을 빠르게 찾을 수 있습니다.
+표에서 새로 제출된 앱은 자동으로  제출 상태 및  차단 **상태입니다.**  게시 상태 **열을** 내선 순서대로 정렬하여 앱을 빠르게 찾을 수 있습니다.
 
 ![게시 상태 ](media/custom-app-lifecycle-validate-app.png)
 

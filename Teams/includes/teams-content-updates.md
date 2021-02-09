@@ -3,6 +3,52 @@
 
 
 
+## <a name="week-of-february-01-2021"></a>2021년 2월 1일 주
+
+
+| 게시일 |주제 제목 | 변경 |
+|------|------------|--------|
+| 2/1/2021 | [CQD(통화 품질 대시보드)에서 테넌트 업로드 및 데이터 구축](/MicrosoftTeams/cqd-upload-tenant-building-data) | 수정 |
+| 2/1/2021 | [Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드](/MicrosoftTeams/class-insights) | 수정 |
+| 2/1/2021 | [SIS(학생 정보 시스템) 데이터와 Education Insights 동기화](/MicrosoftTeams/education-insights-sis-data-sync) | 수정 |
+| 2/1/2021 | [Microsoft Teams의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 수정 |
+| 2/1/2021 | [Teams 관리 및 모니터링](/MicrosoftTeams/manage-teams-overview) | 추가 |
+| 2/1/2021 | [Microsoft Teams 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 수정 |
+| 2/2/2021 | [Microsoft 365 및 사용자 지정 커넥터 사용](/MicrosoftTeams/office-365-custom-connectors) | 수정 |
+| 2/2/2021 | [Microsoft Teams에서 정책 패키지 관리](/MicrosoftTeams/manage-policy-packages) | 수정 |
+| 2/2/2021 | [Teams 연락처 센터](/MicrosoftTeams/teams-contact-center) | 수정 |
+| 2/3/2021 | [Microsoft Teams 내보내기 API를 통해 콘텐츠 내보내기](/MicrosoftTeams/export-teams-content) | 수정 |
+| 2/3/2021 | [스위스의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 수정 |
+| 2/3/2021 | [직접 라우팅에 SBC(세션 테두리 컨트롤러) 연결](/MicrosoftTeams/direct-routing-connect-the-sbc) | 수정 |
+| 2/3/2021 | Microsoft Teams \| 환경 준비 \| 도입, 검색 | 제거됨 |
+| 2/3/2021 | [가상 방문을 위한 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 수정 |
+| 2/3/2021 | [릴리스 정보](/MicrosoftTeams/rooms/rooms-release-note) | 수정 |
+| 2/4/2021 | [Teams 연락처 센터](/MicrosoftTeams/teams-contact-center) | 수정 |
+| 2/4/2021 | [CQD(통화 품질 대시보드) FAQ(질문과 대답)](/MicrosoftTeams/cqd-frequently-asked-questions) | 수정 |
+| 2/4/2021 | [비즈니스용 Skype에서 Teams로 업그레이드 FAQ](/MicrosoftTeams/faq-journey) | 수정 |
+| 2/4/2021 | [오디오 회의 일반적인 질문](/MicrosoftTeams/audio-conferencing-common-questions) | 수정 |
+| 2/4/2021 | [차원 및 측정 - CQD(통화 품질 대시보드)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정 |
+| 2/4/2021 | [세션 테두리 컨트롤러 구성 - 여러 테넌트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 수정 |
+| 2/4/2021 | [Microsoft Teams 관리자 설명서 #< 60자](/MicrosoftTeams/index) | 수정 |
+| 2/4/2021 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
+| 2/4/2021 | [Teams 앱 제출 API를 사용하여 사용자 지정 앱 제출 및 승인](/MicrosoftTeams/submit-approve-custom-apps) | 수정 |
+| 2/4/2021 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정 |
+| 2/4/2021 | [통화 및 모임에 대한 Teams 정책 기반 기록 & 소개](/MicrosoftTeams/teams-recording-policy) | 수정 |
+| 2/4/2021 | [CQD(통화 품질 대시보드) 설정](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 수정 |
+| 2/4/2021 | [비즈니스용 Skype를 Teams로 업그레이드 시작](/MicrosoftTeams/upgrade-start-here) | 수정 |
+| 2/5/2021 | [보안 및 규정 준수 개요](/MicrosoftTeams/security-compliance-overview) | 수정 |
+| 2/5/2021 | [Microsoft Teams 사용 현황 보고서](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 수정 |
+| 2/5/2021 | [Microsoft 365 다중 지역 사용 환경의 Teams 환경](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 수정 |
+| 2/5/2021 | [관리 센터에서 Teams 서식 파일 관리](/MicrosoftTeams/templates-policies) | 추가 |
+| 2/5/2021 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정 |
+| 2/5/2021 | [가상 방문을 위한 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 수정 |
+| 2/5/2021 | [의료 조직용 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 수정 |
+| 2/5/2021 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
+| 2/5/2021 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 수정 |
+| 2/5/2021 | [Microsoft Endpoint Configuration Manager를 사용하여 Teams 설치](/MicrosoftTeams/msi-deployment) | 수정 |
+| 2/5/2021 | [Teams 자동 전화 회의 및 통화 큐 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 수정 |
+
+
 ## <a name="week-of-january-25-2021"></a>2021년 1월 25일 주
 
 
@@ -48,7 +94,7 @@
 | 1/21/2021 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정 |
 | 1/21/2021 | [세션 테두리 컨트롤러 구성 - 여러 테넌트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 수정 |
 | 1/21/2021 | [프랑스의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 수정 |
-| 1/21/2021 | [Teams Learning 앱에 대한 사용 권한 설치, 관리 및 할당(비공개 미리 보기)](/MicrosoftTeams/teams-learning-app-overview) | 수정 |
+| 1/21/2021 | [Teams Learning 앱에 대한 권한 설치, 관리 및 할당(비공개 미리 보기)](/MicrosoftTeams/teams-learning-app-overview) | 수정 |
 | 1/21/2021 | [SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 수정 |
 | 1/19/2021 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 수정 |
 | 1/19/2021 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
@@ -81,7 +127,7 @@
 | 1/19/2021 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
 | 1/19/2021 | [의료 조직용 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 수정 |
 | 1/19/2021 | [Teams의 교대 근무](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 수정 |
-| 1/19/2021 | [Teams에서 일선 작업자의 교대 근무 기반 액세스 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | 수정 |
+| 1/19/2021 | [Teams에서 일선 작업자에 대한 교대 근무 기반 액세스 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | 수정 |
 | 1/19/2021 | [조직의 Shifts 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 수정 |
 | 1/19/2021 | [Microsoft StaffHub가 사용 중지](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 수정 |
 | 1/19/2021 | [RealWear 클라이언트용 Microsoft Teams에 대한 IT 관리자 정보(미리보기)](/MicrosoftTeams/flw-realwear) | 수정 |

@@ -22,12 +22,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 8e77ac547d41e10c006c321555db8b850d648983
+  ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110378"
+  ms.lasthandoff: 02/09/2021
+  ms.locfileid: "50150874"
 highlightedContent:
   items:
   - title: 검증된 업그레이드 프레임워크 활용
@@ -36,7 +36,7 @@ highlightedContent:
   - title: 무료 업그레이드 계획 워크샵 등록
     itemType: learn
     url: https://aka.ms/upgradeworkshops
-  - title: 8주 동안 Black & Veatch가 Teams로 전환하는 방법 배우기
+  - title: Black & Veatch가 8주 만에 Teams로 전환하는 방법 배우기
     itemType: video
     url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
 productDirectory:
@@ -66,7 +66,7 @@ productDirectory:
     - url: https://customers.microsoft.com/story/799203-ikea-retailers-teams
       text: IKEA – 비즈니스용 Skype 서버에서 Teams로
     - url: https://customers.microsoft.com/story/782385-williams-energy-teams
-      text: Williams – 비즈니스용 Skype Server에서 Teams로
+      text: Williams – 비즈니스용 Skype 서버에서 Teams로
     - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
       text: Trek – 비즈니스용 Skype Online에서 Teams로
     - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
@@ -90,7 +90,7 @@ productDirectory:
     url: https://docs.microsoft.com/learn/paths/m365-teams-upgrade/
   - title: Microsoft Teams 블로그
     imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
-    summary: Microsoft Teams 뒤에 있는 팀에서 직접 모범 사례, 뉴스 및 추세를 배우기
+    summary: Microsoft Teams 뒤의 팀에서 직접 모범 사례, 뉴스 및 추세를 학습합니다.
     url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog
   - title: Teams의 총 경제적 영향
     imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
@@ -99,7 +99,7 @@ productDirectory:
   - title: 'Ignite 세션: Teams 경로 디자인'
     imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
     summary: Ignite 2020의 이 세션은 비즈니스용 Skype 구현 및 목표에 가장 적합한 방법을 찾는 데 도움이 됩니다.
-    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
   - title: Microsoft Teams 계획 및 가격
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
     summary: 비즈니스에 적합한 Microsoft Teams를 찾아야 합니다.
@@ -115,7 +115,7 @@ additionalContent:
       summary: 2021년 7월 31일 비즈니스용 Skype Online 서비스 사용 중지를 준비하고 Teams로의 성공적인 전환을 계획하는 방법을 배워야 합니다.
       url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
     - title: Teams로 과정 차트
-      summary: Teams 업그레이드 전반에 걸친 각 단계를 매핑하는 이 재미 있는 유용한 인포그래픽을 다운로드합니다.
+      summary: Teams 업그레이드 여정 전체의 각 단계를 매핑하는 이 재미 있는 유용한 인포그래픽을 다운로드합니다.
       url: https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf
     - title: 배포 지원을 위해 FastTrack 참여
       summary: Teams 배포 프로젝트에 더 많은 관련 지원이 필요한 경우 적격 구독이 있는 고객은 FastTrack에 지원을 요청할 수 있습니다.
@@ -124,7 +124,7 @@ additionalContent:
       summary: 추가 지침이 필요하세요? Microsoft 솔루션 공급자는 업그레이드의 기술 및 물류를 관리하는 데 도움을 줄 수 있습니다.
       url: https://www.microsoft.com/solution-providers/home
     - title: Teams 관리자 설명서
-      summary: Teams를 롤아웃 및 관리하고, 새 커뮤니케이션 및 공동 작업 환경을 준비하는 방법을 배워야 합니다.
+      summary: Teams를 롤아웃 및 관리하고, 새 통신 및 공동 작업 환경을 위해 사용자를 준비하는 방법을 배워야 합니다.
       url: https://docs.microsoft.com/MicrosoftTeams/
     - title: 강사가 주도하는 Teams 교육
       summary: Teams를 시작하고 실행하도록 설계된 무료 온라인 교육 수업입니다.
