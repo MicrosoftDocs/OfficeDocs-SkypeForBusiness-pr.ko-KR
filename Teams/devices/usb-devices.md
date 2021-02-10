@@ -15,18 +15,18 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams에서 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 참조합니다.'
-ms.openlocfilehash: 5a5777b0ee32cce1986e6b8a07e6d4940f2dc617
-ms.sourcegitcommit: f3ab9437759db8d3ab67b57111cb7bf47eb9c18e
+ms.openlocfilehash: 21c74ce59830f9cac63200e8e7f4f99cfc54235f
+ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50033339"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173104"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams에 대해 인증된 USB 오디오 및 비디오 장치
 
-주변 장치 인증 프로그램은 USB 주변 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)가 풍부한 오디오 또는 비디오 품질을 제공하도록 보장합니다. 인증된 디바이스는 추가 구성이 필요하지 & 작동하고 Microsoft Teams 및 비즈니스용 Skype에서 통화 제어를 제공합니다. 이 제품은 최종 사용자 및 관리자에게 훌륭한 환경을 제공합니다.
+주변 장치 인증 프로그램은 USB 주변 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)가 풍부한 오디오 또는 비디오 품질을 제공하도록 보장합니다. 인증된 디바이스는 추가 구성이 필요하지 &(플러그 인 플레이)를 작동하고, Microsoft Teams 및 비즈니스용 Skype에서 통화 제어 기능을 제공합니다. 이 제품은 최종 사용자 및 관리자에게 훌륭한 환경을 제공합니다.
 
-Microsoft Teams에 대해 테스트 및 인증된 장치를 탐색하기 위해 Teams 스토어로 [가면 됩니다.](https://products.office.com/microsoft-teams/across-devices/devices)
+Microsoft Teams에 대해 테스트 및 인증된 장치를 탐색하기 위해 Teams 스토어로 [가야 합니다.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 Teams의 통화 제어 지원에 대한 자세한 내용은 Teams에서 헤드셋을 사용한 제어 [통화를 참조하세요.](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
@@ -38,11 +38,11 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams에서 헤드�
 사용자는 비즈니스용 Skype에서 Teams로 업그레이드할 때 이전에 인증된 장치를 교체할 필요가 없습니다.  모든 인증된 장치는 Microsoft Teams 및 비즈니스용 Skype 사용자에 대해 지원됩니다. 단 몇 가지 차이점만 있습니다.  인증은 특정 디바이스 범주에 대한 추가 지정도 제공합니다.
 
 - **Teams 업그레이드로 인증된** 비즈니스용 Skype 이 수준에서 인증된 장치는 처음에 비즈니스용 Skype에서 인증되었습니다. Microsoft는 장치 제조업체와 함께 작업하여 원래 하드웨어를 변경하지 않고도 최상의 Teams 통합 환경을 제공했습니다. *후크스위치* 단추는 통화에 참가하지 않을 때 Teams 단추로 작동하며 시간이 지날수록 더 많은 함수를 포함할 수 있습니다.  이 범주의 장치는 마케팅 자료에 Teams 인증 배지를 전달할 수 있습니다.
-- **Microsoft Teams 인증** 이 수준에서 인증된 디바이스는 손상되지 않은 Teams 환경을 위해 인증된 가장 새로운 장치를 나타냅니다. 이러한 디바이스는 이전 인증의 모든 이점을 제공하며 LED 표시기가 있는 전용 Teams 단추도 포함합니다. 대부분의 폼 팩터가 있는 Teams 단추는 Teams 로고가 있는 쉽게 찾을 수 있는 촉동 단추가 됩니다. Microsoft는 시간이 지날수록 펌웨어 업데이트를 통해 새로운 가치를 제공하기 위해 디바이스 제조업체와 지속적으로 작업하고 있습니다.
+- **Microsoft Teams 인증** 이 수준에서 인증된 디바이스는 손상되지 않은 Teams 환경을 위해 인증된 가장 새로운 장치를 나타냅니다. 이러한 디바이스는 이전 인증의 모든 이점을 제공하며 LED 표시기가 있는 전용 Teams 단추도 포함합니다. 대부분의 폼 팩터가 있는 Teams 단추는 Teams 로고가 있는 쉽게 찾을 수 있는 촉동 단추가 됩니다. Microsoft는 디바이스 제조업체와 지속적으로 작업하여 시간이 지날수록 펌웨어 업데이트를 통해 새로운 가치를 제공합니다.
 
 ### <a name="special-usage-designations"></a>특수 사용 지정
 
-- **Office 열기용 프리미엄 마이크** 모든 헤드셋은 명확한 오디오를 제공하기 위해 테스트되지만 개방형 Office 및 기타 시동 환경은 더 큰 과제입니다. 이 지정이 있는 헤드셋은 헤드셋 사용자의 음성을 선택하지만 주변의 소리를 전송하지 않습니다.
+- **Open Office용 프리미엄 마이크** 모든 헤드셋은 명확한 오디오를 제공하기 위해 테스트되지만 개방형 Office 및 기타 시동 환경은 더 큰 과제입니다. 이 지정이 있는 헤드셋은 헤드셋 사용자의 음성을 선택하지만 주변의 소리를 전송하지 않습니다.
 - **회의실 크기** 스피커폰 및 카메라와 같은 공유 장치에는 지원되는 사용 거리가 있습니다. 권장 거리는 제조업체에 따라 다를 수 있습니다. 고객에게 명확한 지침을 제공하기 위해 모든 공유 디바이스는 잘 정의된 회의실 크기 및 노이즈 환경에 대해 인증 시 테스트됩니다.
 
 [Microsoft Teams에 대해 인증된 장치를 찾아볼 수 있습니다.](https://products.office.com/microsoft-teams/across-devices/devices)
@@ -54,7 +54,7 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams에서 헤드�
 - 전용 Teams 버튼 및 LED 표시등.
 - Teams 클라이언트의 이벤트 및 알림 사용자 알림(예: 모임 시작, 음성 메일 또는 부재 중 통화)
 - Teams 클라이언트를 활성화하거나 단추를 눌러 알림에 응답할 수 있습니다(예: 모임 참가).
-- (펌웨어 업데이트를 통해 제공될 새 디바이스/클라이언트 기능)를 위해 설계된 인증입니다.
+- 내선성을 위해 설계된 인증(펌웨어 업데이트를 통해 새로운 디바이스/클라이언트 기능을 제공)
 
 ### <a name="core-certification-benefits"></a>핵심 인증 이점
 
@@ -78,6 +78,7 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams에서 헤드�
 
 | 제조업체        | 모델                                                     | Qualified      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |스피커폰 40 동기화                                       |1/19/2021       |Microsoft Teams 인증                           |
 |Poly                 |40+ 스피커폰을 Poly BT600 USB 동글과 동기화           |1/19/2021       |Microsoft Teams 인증                           |
 |Yealink              |UH34 이중/모노 헤드셋                                     |12/23/2020      |Microsoft Teams 인증                           |
 |Yealink              |MP50 USB Phone                                             |12/23/2020      |Microsoft Teams 인증                           |
@@ -106,7 +107,7 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams에서 헤드�
 |Jabra                |진화 30 II 헤드셋                                       |8/23/2020       |Microsoft Teams로 업그레이드된 비즈니스용 Skype      |
 |Jabra                |진화 20 헤드셋                                          |8/23/2020       |Microsoft Teams로 업그레이드된 비즈니스용 Skype      |
 |EPOS/Sennheiser      |USB-ED CC 01 MS 커넥터를 사용하여 IMPACT SC 660               |8/20/2020       |Microsoft Teams로 업그레이드된 비즈니스용 Skype      |
-|EPOS/Sennheiser      |USB-ED CC 01 MS 커넥터를 사용하여 IMPACT SC 630               |8/20/2020       |Microsoft Teams로 업그레이드된 비즈니스용 Skype      |
+|EPOS/Sennheiser      |USB-ED CC 01 MS 커넥터를 사용하는 Impact SC 630               |8/20/2020       |Microsoft Teams로 업그레이드된 비즈니스용 Skype      |
 |EPOS/Sennheiser      |USB-ED CC 01 MS 커넥터를 사용하여 IMPACT SC 260               |8/20/2020       |Microsoft Teams로 업그레이드된 비즈니스용 Skype      |
 |Jabra                |진화 75 헤드셋                                          |7/31/2020       |Microsoft Teams로 업그레이드된 비즈니스용 Skype      |
 |Jabra                |진화 65 헤드셋                                          |7/31/2020       |Microsoft Teams로 업그레이드된 비즈니스용 Skype      |

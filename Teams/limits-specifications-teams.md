@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7063fc09ab7ba93a050d6fe1fd0ec9ae74888b27
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 6452d49f1d00558d2103cfe45be0dc848d6f0a26
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125630"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145725"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -110,7 +110,7 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 |유형|예제|
 |---------|---------|
-|문자     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
+|문자     | ~ # % & * { } + / \ : < > ? &#124; ' " , ..        |
 |이러한 범위에 있는 문자    | 0~1F<br>80~9F        |
 |단어     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1~COM9, LPT1~LPT9, desktop.ini,  &#95;vti&#95;|
 

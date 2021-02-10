@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067123"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145825"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>SIS(학생 정보 시스템) 데이터와 Education Insights 동기화
 더 많은 데이터가 [Education Insights](class-insights.md)에 제공될수록 교육자는 학생을 더 잘 지원할 수 있으며 교육 리더는 교육자를 더 잘 지원할 수 있습니다.
@@ -56,7 +56,7 @@ Insights는 [SDS V2 파일 형식](https://docs.microsoft.com/schooldatasync/sds
 > 배포 프로세스 동안 Teams에서 사용자 및 수업을 프로비전하는 데 SDS를 사용할지 아니면 데이터를 Insights에 사용할지 결정할 수 있습니다.
 
 ## <a name="best-practices"></a>모범 사례
-계층 구조 및 계층 구조 내에서 모든 사람이 속한 위치를 정확하게 매핑하면 Insights가 다양한 교육 리더 유형에 대해 정확한 데이터와 더 정확하고 관련 있는 정보를 제공할 수 있습니다.
+계층 구조의 정확한 매핑과 계층 구조 내에서 모든 사람이 속한 위치를 통해 Insights는 다양한 교육 리더 유형에 대해 정확한 데이터와 더 정확하고 관련있는 정보를 제공할 수 있습니다.
 
 여기에 더 자세한 정보를 제공할수록 보고서와 스포트라이트가 더 좋아지고 관련성이 더 높아집니다.
 다음은 사용자가 Insights를 가장 잘 활용할 수 있도록 SDS의 원활한 배포를 보장하는 몇 가지 모범 사례입니다.

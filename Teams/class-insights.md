@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067133"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145905"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -102,6 +102,9 @@ Insights는 수업 팀 내 모든 채널의 활동 데이터를 보여주지만,
 
 :::image type="content" source="media/insights-pin-app.png" alt-text="Insights 앱을 고정합니다":::.
 
+> [!TIP]
+> 다음 링크를 통해 Insights 앱을 찾을 수도 있습니다. [https://aka.ms/addInsights](https://aka.ms/addInsights)
+
 ## <a name="when-is-insights-used"></a>Insights는 언제 사용하나요? 
 Insights는 **학습 주기** 동안 학습 커뮤니티를 지원합니다. Insights는 여러 차원의 실시간 매트릭으로 학교 커뮤니티 구성원 사이에서 일어나는 확인, 숙고, 논의 및 실행의 지속적인 순환을 지원합니다.
 *   학생들이 어떻게 그리고 언제 교육자, 교육 과정 자료 및 다른 학생들과 참여할 것인지, 그리고 어떻게 과제를 수행할 것인지 **확인합니다**. 
@@ -177,10 +180,9 @@ Teams의 수업 구조와 권한을 사용하기 때문에 수업 교육자로�
 자세한 내용은 [**SIS(학생 정보 시스템) 데이터를 Education Insights와 동기화**](education-insights-sis-data-sync.md)를 읽어보세요.
 
 ## <a name="manage-permissions"></a>사용 권한 관리
-교육 리더, 학군 리더, 교장, 교사 부장, 상담 교사, 학습 분야 책임자, 프로그램 디렉터, 사회복지사, 심리학자에게 사용 권한을 부여해야 합니다. 교육자는 수업 팀을 맡게 되면 자동으로 권한을 부여받습니다.
+교육 리더, 학군 리더, 교장, 교사 부장, 상담 교사, 학습 분야 책임자, 프로그램 디렉터, 사회복지사, 심리학자에게 사용 권한을 부여해야 합니다. 교육자는 수업 팀을 맡게 되면 *자동으로* 권한을 부여받습니다.
 
-> [!NOTE]
-> 사용 권한이 필요한 교육 리더와 이들이 책임을 맡고 있는 팀에게만 권한을 부여합니다. 특정 조직에 대한 사용자 권한이 필요한지 여부가 불확실한 경우, 해당 기관의 개인 정보 문제 전문가(법률 또는 HR 직원)에게 문의하세요.
+자세한 내용은 [**Education Insights에 대한 사용자 액세스 관리**](education-insights-manage-access.md)를 참조하세요
 
 ## <a name="manage-the-setup-policy"></a>설정 정책 관리
 IT 관리자로서 앱 설정 정책을 사용하여 Teams를 시작할 때 교육자와 리더용 Insights를 기본으로 설치할 수 있습니다. 이 설정 정책을 사용하면 Teams를 사용자 지정하여 Insights를 강조 표시하고 앱 모음에서 해당 항목을 고정할 수 있습니다.
