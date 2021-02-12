@@ -22,10 +22,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803858"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="43fec-103">정규화 규칙: 정규식 입력</span><span class="sxs-lookup"><span data-stu-id="43fec-103">Normalization Rule: Type a Regular Expression</span></span>
+# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="70dda-103">정규화 규칙: 정규식 입력</span><span class="sxs-lookup"><span data-stu-id="70dda-103">Normalization Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="43fec-104">경로가 적용되는 대상 전화 번호에 대한 일치 패턴을 지정하는 .NET Framework 정규식을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="43fec-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
+<span data-ttu-id="70dda-104">경로가 적용되는 대상 전화 번호에 대한 일치 패턴을 지정하는 .NET Framework 정규식을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="70dda-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
   
-<span data-ttu-id="43fec-105">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="43fec-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="70dda-105">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="70dda-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

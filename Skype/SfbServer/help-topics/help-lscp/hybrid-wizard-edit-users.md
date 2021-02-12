@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804008"
 ---
-# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="99170-104">하이브리드 마법사: 사용자 편집</span><span class="sxs-lookup"><span data-stu-id="99170-104">Hybrid Wizard: Edit Users</span></span>
+# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="1b0b9-104">하이브리드 마법사: 사용자 편집</span><span class="sxs-lookup"><span data-stu-id="1b0b9-104">Hybrid Wizard: Edit Users</span></span>
 
-<span data-ttu-id="99170-105">사용자 편집 마법사를 사용하여 배포의 사용자 계정을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="99170-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="99170-106">자세한 내용은 하이브리드 관리 가능성 [마법사 사용을 참조하세요.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="99170-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="1b0b9-105">사용자 편집 마법사를 사용하여 배포의 사용자 계정을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="1b0b9-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="1b0b9-106">자세한 내용은 하이브리드 관리 가능성 [마법사 사용을 참조하세요.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="1b0b9-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

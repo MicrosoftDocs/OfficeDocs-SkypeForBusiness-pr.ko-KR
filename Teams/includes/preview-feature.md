@@ -1,1 +1,1 @@
-<span data-ttu-id="8378c-101">**미리 보기 또는 초기 릴리스 기능입니다.**</span><span class="sxs-lookup"><span data-stu-id="8378c-101">**This is a preview or early release feature.**</span></span>
+<span data-ttu-id="1e194-101">**미리 보기 또는 초기 릴리스 기능입니다.**</span><span class="sxs-lookup"><span data-stu-id="1e194-101">**This is a preview or early release feature.**</span></span>

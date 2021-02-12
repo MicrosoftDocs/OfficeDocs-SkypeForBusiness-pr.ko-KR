@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
-description: '프랑스의 비즈니스용 Skype Online에 대 한 접근성, 준수 및 규제 요구 사항을 충족 하기 위해 게시 해야 하는 콘텐츠입니다. '
+description: '프랑스의 비즈니스용 Skype Online에 대한 접근성, 규정 준수 및 규정 준수 요구 사항을 충족하기 위해 게시해야 하는 콘텐츠입니다. '
 ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
@@ -27,4 +27,4 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41693103"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="264bf-103">법적 요건 및 규정</span><span class="sxs-lookup"><span data-stu-id="264bf-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="f26d3-103">법적 요건 및 규정</span><span class="sxs-lookup"><span data-stu-id="f26d3-103">Legal and regulatory</span></span>

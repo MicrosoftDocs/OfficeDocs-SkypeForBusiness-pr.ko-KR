@@ -22,13 +22,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803878"
 ---
-# <a name="normalization-rule-create-new-or-edit-existing"></a><span data-ttu-id="24258-104">정규화 규칙: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="24258-104">Normalization Rule: Create New or Edit Existing</span></span>
+# <a name="normalization-rule-create-new-or-edit-existing"></a><span data-ttu-id="6eca5-104">정규화 규칙: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="6eca5-104">Normalization Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="24258-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="24258-105">What do you want to do?</span></span> <span data-ttu-id="24258-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="24258-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="6eca5-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="6eca5-105">What do you want to do?</span></span> <span data-ttu-id="6eca5-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6eca5-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="24258-107">비즈니스용 Skype 2015에서 정규화 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="24258-107">Create or modify a normalization rule in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="6eca5-107">비즈니스용 Skype 2015에서 정규화 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="6eca5-107">Create or modify a normalization rule in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="24258-108">수동으로 정규화 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="24258-108">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="6eca5-108">수동으로 정규화 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="6eca5-108">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
-<span data-ttu-id="24258-109">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="24258-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="6eca5-109">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="6eca5-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
