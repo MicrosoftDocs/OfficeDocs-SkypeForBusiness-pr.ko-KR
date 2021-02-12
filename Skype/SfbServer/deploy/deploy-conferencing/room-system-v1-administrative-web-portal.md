@@ -29,7 +29,7 @@ ms.locfileid: "49804538"
 SRS v1 관리 웹 포털이 서버에 배포된 후 관리자는 자신의 컴퓨터 또는 노트북에서 사이트에 로그온하여 SRS v1 장치를 확인할 수 있습니다.
 
 > [!IMPORTANT]
-> [비즈니스용 Skype 서버용 Microsoft Skype 룸 시스템 v1](https://www.microsoft.com/download/details.aspx?id=46906)관리 웹 포털을 다운로드합니다.
+> [비즈니스용 Skype 서버용 Microsoft Skype 룸 시스템 v1 관리 웹 포털을 다운로드합니다.](https://www.microsoft.com/download/details.aspx?id=46906)
 
 이 항목의 내용:
 
@@ -82,7 +82,7 @@ SRS v1 관리 웹 포털을 사용하려면 다음 선행 구성을 설치하거
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>SRS v1 관리 웹 포털 설치
 <a name="Install_SRS"> </a>
 
-[비즈니스용 Skype 서버용 Microsoft Skype 룸 시스템 v1](https://www.microsoft.com/download/details.aspx?id=46906)관리 웹 포털을 다운로드합니다.
+[비즈니스용 Skype 서버용 Microsoft Skype 룸 시스템 v1 관리 웹 포털을 다운로드합니다.](https://www.microsoft.com/download/details.aspx?id=46906)
 
 SRS v1 관리 웹 포털을 설치하려면 다음 단계를 수행합니다.
 
@@ -98,7 +98,7 @@ SRS v1 관리 웹 포털을 설치하려면 다음 단계를 수행합니다.
 
     %Program Files%\Skype for Business Server 2015\Web Components\Meeting Room Portal\Int\Handler\
 
-4. Web.Config 파일에서 PortalUserName을["SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)관리 웹 포털에 대한 환경 구성" 섹션에서 만든 사용자 이름으로 변경합니다(이 단계에서 권장되는 이름은 LRSApp임).
+4. Web.Config 파일에서["SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)관리 웹 포털에 대한 환경 구성" 섹션 아래에서 2단계에서 만든 사용자 이름으로 PortalUserName을 변경합니다(이 단계에서 권장되는 이름은 LRSApp임).
 
     ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
@@ -161,7 +161,7 @@ SRS v1 관리 웹 포털의 설치를 확인하기 위해 다음을 합니다.
 
 - **SRS 버전, 제조업체, 모델** 이러한 값은 SRS에서 미리 설정됩니다. 제조업체에 따라 이러한 필드는 비워 두어도 됩니다.
 
-- **마지막 새로 고침** 웹 페이지를 마지막으로 새로 고칠 시간을 표시됩니다.
+- **마지막 새로 고침** 웹 페이지를 마지막으로 새로 고쳐진 시간을 표시됩니다.
 
 ![Lync Room System 관리 포털 요약 보기](../../media/LRS_AdminPortal_Summary_view.png)
 
@@ -180,13 +180,13 @@ SRS v1 관리 웹 포털의 설치를 확인하기 위해 다음을 합니다.
 
 #### <a name="details"></a>세부 정보
 
-세부 정보 섹션에서는 마지막 새로 고침 시간 등 SRS 방 설정에 대한 읽기 전용 요약을 제공합니다. 다음 모임 마지막 업데이트, 유지 관리 및 보정; 기본 스피커, 마이크 및 벨소리 설정 버전; SIP URI; 각 화면에 대한 화면 및 세부 정보 수 상태 및 활동.
+세부 정보 섹션에서는 마지막 새로 고침 시간 등 SRS 방의 설정에 대한 읽기 전용 요약을 제공합니다. 다음 모임 마지막 업데이트, 유지 관리 및 보정; 기본 스피커, 마이크 및 벨소리 설정 버전; SIP URI; 각 화면에 대한 화면 및 세부 정보 수 상태 및 활동.
 
 ![Lync Room System 관리 포털 세부 정보 보기](../../media/LRS_AdminPortal_Detail_view.png)
 
 #### <a name="troubleshooting"></a>문제 해결
 
-문제 해결 섹션을 사용하여 로그를 원격으로 수집하고 지정된 위치에 저장할 수 있습니다. SRS 콘솔(SRS 사용자 인터페이스)을 다시 시작하거나 전체 시스템을 다시 시작할 수도 있습니다. 로그를 수집하려면 지정된 형식의 폴더 경로를 제공하고 폴더에 SRS 컴퓨터 계정에 대한 쓰기 권한이 있는지 확인합니다. 로그 크기가 너무 크면 로그 수집을 완료하는 데 최대 5분이 걸릴 수 있습니다. 페이지를 새로 고치면 최신 상태가 표시됩니다.
+문제 해결 섹션을 사용하여 로그를 원격으로 수집하고 지정된 위치에 저장할 수 있습니다. SRS 콘솔(SRS 사용자 인터페이스)을 다시 시작하거나 전체 시스템을 다시 시작할 수도 있습니다. 로그를 수집하려면 지정된 형식의 폴더 경로를 제공하고 폴더에 SRS 컴퓨터 계정에 대한 쓰기 권한이 있는지 확인합니다. 로그 크기가 너무 큰 경우 로그 수집을 완료하는 데 최대 5분이 걸릴 수 있습니다. 페이지를 새로 고치면 최신 상태가 표시됩니다.
 
 #### <a name="health"></a>상태
 
@@ -221,7 +221,7 @@ SRS 방의 대량 관리는 고급 IT 관리자를 위해 디자인된 기능으
 
 - SRS 계정을 만들 때 관리 웹 포털에서 계정을 볼 수 없는 경우 **MeetingPortal** 구성 요소가 선택된 비즈니스용 Skype 서버 로깅 도구를 사용하여 서버 로그를 수집한 다음 SRS 지원 담당자에게 전송합니다.
 
-- SRS 계정을 만들 때 관리 웹 포털에서 계정을 볼 수 없는 경우 Fiddler를 사용하여 클라이언트 로그를 수집한 다음 브라우저 개발 도구에서 콘솔 로그를 복사한 다음 SRS 지원 담당자에게 전송합니다. 자세한 로그를 얻기 위해 Web.config 수준 값을 수정할 수도 있습니다.
+- SRS 계정을 만들 때 관리 웹 포털에서 계정을 볼 수 없는 경우 Fiddler를 사용하여 클라이언트 로그를 수집한 다음 브라우저 개발 도구에서 콘솔 로그를 복사한 다음 SRS 지원 담당자에게 전송합니다. 더 자세한 로그를 얻기 위해 Web.config 수준 값을 수정할 수도 있습니다.
 
   ```xml
   <system.diagnostics>

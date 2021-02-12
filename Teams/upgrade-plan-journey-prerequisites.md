@@ -56,7 +56,7 @@ Teams는 여러 Microsoft 365 및 Office 365 서비스를 결합하므로 이러
 
 - 조직이 교육 기관인 경우 학생 정보 시스템을 사용하는 경우 Microsoft Teams를 배포하기 전에 [Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) 시작을 참조하세요.
 
-- 조직에서 PSTN(Public Switched Telephone Network) 통화 옵션을 고려하는 경우 음성 - 전화 시스템 및 [PSTN](cloud-voice-landing-page.md) [연결,](calling-plan-landing-page.md)적합한 통화 요금제 및 전화 시스템 직접 라우팅을 참조하세요. [Phone System Direct Routing](direct-routing-landing-page.md)
+- 조직에서 PSTN(Public Switched Telephone Network) 통화 옵션을 고려하는 경우 음성 - 전화 시스템 및 [PSTN](cloud-voice-landing-page.md) [연결,](calling-plan-landing-page.md)적합한 통화 요금제 및 전화 시스템 직접 라우팅을 참조하세요. [](direct-routing-landing-page.md)
 
 - Teams를 배포하기 전에 모든 네트워크 요구 사항이 충족되도록 하기 위해 Microsoft Teams에 대한 조직의 네트워크 [준비를 참조하세요.](prepare-network.md)
 

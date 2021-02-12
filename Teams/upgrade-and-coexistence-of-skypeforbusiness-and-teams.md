@@ -43,7 +43,7 @@ ms.locfileid: "49578161"
 > [!IMPORTANT]
 > 비즈니스용 Skype Online은 2021년 7월 31일에 서비스가 종료되며 이후에는 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 혜택 구현을 극대화하고 조직이 업그레이드를 구현할 수 있는 적절한 시간을 확보하려면 지금 Microsoft Teams로의 여정을 시작하는 것이 권장됩니다.
 
-이 문서에서는 사용자가 사용할 수 있는 비즈니스용 Skype 및 Teams에서 어떤 모드를 관리할 수 있는 다양한 모드를 간략하게 설명하고 있습니다. 배포와 달리 조직을 Teams로 [pilot your intended plan](pilot-essentials.md) 업그레이드하기 전에 선택한 사용자 그룹과 함께 의도한 계획을 시험해보는 것이 좋습니다. 새 기술을 도입하는 것이 사용자에게 방해가 될 수 있습니다. 여기에 설명된 모드를 구현하기 전에 사용자 준비 상태를 평가하고 통신 및 교육 계획을 구현하는 데 시간이 걸릴 수 있습니다.
+이 문서에서는 사용자가 사용할 수 있는 비즈니스용 Skype 및 Teams에서 어떤 모드를 관리할 수 있는 다양한 모드를 간략하게 설명하고 있습니다. 배포와 달리 조직을 Teams로 [](pilot-essentials.md) 업그레이드하기 전에 선택한 사용자 그룹과 함께 의도한 계획을 시험해보는 것이 좋습니다. 새 기술을 도입하는 것이 사용자에게 방해가 될 수 있습니다. 여기에 설명된 모드를 구현하기 전에 사용자 준비 상태를 평가하고 통신 및 교육 계획을 구현하는 데 시간이 걸릴 수 있습니다.
 
 > [!TIP]
 > 업그레이드 계획 및 구현을 시작하도록 설계된 지침, 모범 사례 및 리소스를 공유하는 라이브 대화형 워크샵에 참여하세요.
@@ -62,7 +62,7 @@ Teams에 대한 여정을 위해 조직을 공식적으로 준비하려면 조�
 
 Teams로 마이그레이션된 사용자는 비즈니스용 Skype에서 호스트된 모임에 참가하는 것 외에는 더 이상 비즈니스용 Skype 클라이언트를 사용할 수 없습니다. 받는 모든 채팅 및 통화는 보낸 사람이 Teams 또는 비즈니스용 Skype를 사용하는지 여부에 관계없이 사용자의 Teams 클라이언트에 있습니다. 업그레이드된 사용자가 구성한 모든 새 모임은 Teams 모임으로 예약됩니다. 사용자가 비즈니스용 Skype 클라이언트를 사용하려고 시도하면 채팅 및 통화 시작이<sup>차단됩니다.</sup> 그러나 사용자는 여전히 비즈니스용 Skype 클라이언트를 사용하여 초대된 모임에 참가할 수 있으며 반드시 해야 합니다.
 
-관리자는 [TeamsUpgradePolicy의](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) [mode](migration-interop-guidance-for-teams-with-skype.md)속성인 모드 개념을 사용하여 Teams로의 전환을 관리합니다. 위에서 설명한 대로 Teams로 마이그레이션된 사용자는 "TeamsOnly" 모드입니다. Teams로 마이그레이션하는 조직의 경우 궁극적인 목표는 모든 사용자를 TeamsOnly 모드로 이동하는 것입니다.
+관리자는 [TeamsUpgradePolicy의](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) [](migration-interop-guidance-for-teams-with-skype.md)속성인 모드 개념을 사용하여 Teams로의 전환을 관리합니다. 위에서 설명한 대로 Teams로 마이그레이션된 사용자는 "TeamsOnly" 모드입니다. Teams로 마이그레이션하는 조직의 경우 궁극적인 목표는 모든 사용자를 TeamsOnly 모드로 이동하는 것입니다.
 
 비즈니스용 Skype를 사용하여 기존 조직을 Teams로 마이그레이션하는 방법에는 두 가지가 있습니다(온라인 또는 프레미스와 무관).
 
@@ -84,7 +84,7 @@ Teams로 마이그레이션된 사용자는 비즈니스용 Skype에서 호스�
 
 - 동일한 조직의 사용자로부터 Teams 클라이언트로부터 시작된 *통신은* 항상 사용자 A의 Teams 클라이언트에 있습니다.
 
-- 외부 조직의 사용자로부터 Teams *user in an external organization* 클라이언트로부터 시작된 통신은 항상 사용자 A의 비즈니스용 Skype 클라이언트에 있습니다.
+- 외부 조직의 사용자로부터 Teams  클라이언트로부터 시작된 통신은 항상 사용자 A의 비즈니스용 Skype 클라이언트에 있습니다.
 
 사용자에게 Microsoft 365 또는 Office 365 라이선스를 할당한 경우 조직의 기본 업그레이드 환경이 됩니다. Microsoft 365 또는 Office 365 라이선스를 할당하면 기본적으로 Teams 및 비즈니스용 Skype Online 라이선스가 모두 할당됩니다. <sup>2</sup>
 

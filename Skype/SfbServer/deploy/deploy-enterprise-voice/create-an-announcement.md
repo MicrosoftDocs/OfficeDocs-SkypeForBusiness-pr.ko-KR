@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: 비즈니스용 Skype 서버 2016에서 공지사항 응용 프로그램에 대한 공지 사항을 만들거나 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
+description: 비즈니스용 Skype 서버 2016에서 공지사항 응용 프로그램에 대한 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
 ms.openlocfilehash: 9f2b4fcda8e98d4b939b6b443da875dbe153546c
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "49824908"
 
 비즈니스용 Skype 서버 2016에서 공지사항 응용 프로그램에 대한 Enterprise Voice. 이는 미지정 번호에 대한 호출이 처리된 방식에 영향을 미치게 됩니다.
 
-공지 사항을 구성할 때 실제로는 미지정 번호에 대한 통화를 처리할 방법을 구성합니다. 오디오 파일이나 TTS(텍스트 음성 음성) 파일일 수 있는 프롬프트를 재생하거나 프롬프트를 재생하지 않고 통화를 지정된 대상으로 전송할 수 있습니다.
+공지 사항을 구성할 때 실제로는 미지정 번호에 대한 통화를 처리할 방법을 구성합니다. 오디오 파일 또는 TTS(텍스트 음성 전송) 파일일 수 있는 프롬프트를 재생하거나 프롬프트를 재생하지 않고 통화를 지정된 대상으로 전송할 수 있습니다.
 
 미지정 번호 테이블을 정의하기 전에 공지 사항을 만들어야 합니다. 오디오 프롬프트, TTS 프롬프트 또는 프롬프트가 없는 모든 공지에 대해 이 단계를 수행해야 합니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "49824908"
 
 2. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 위임 설치 권한에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 로그온합니다. 
 
-3. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+3. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
 
 4. 오디오 음성 안내의 경우 다음을 실행합니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "49824908"
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. 을 실행합니다.
+5. 실행:
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
@@ -92,7 +92,7 @@ ms.locfileid: "49824908"
 
 1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 위임 설치 권한에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 로그온합니다. 
 
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
 
 3. 조직의 모든 공지 사항을 나열합니다. 명령줄에서 다음을 실행합니다.
 
@@ -106,7 +106,7 @@ ms.locfileid: "49824908"
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
-    예제:
+    예시:
 
    ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"

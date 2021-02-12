@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 및 Office 365 Url 및 IP 주소 범위
+title: Microsoft 365 및 Office 365 URL 및 IP 주소 범위
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -8,7 +8,7 @@ ms.date: 08/21/2018
 ms.topic: article
 audience: admin
 ms.service: msteams
-description: Microsoft 365 또는 Office 365 Url 및 IP 주소 범위를 적절히 구성 하 고 Microsoft 팀 서비스와 연결 하는 데 가능한 한 전달 프록시를 우회 하는 방법에 대해 알아봅니다.
+description: Microsoft Teams 서비스 연결에 가능한 경우 Microsoft 365 또는 Office 365 URL 및 IP 주소 범위를 올바르게 구성하고 전달 프록시를 무시하는 방법을 배워야 합니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -27,13 +27,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48650821"
 ---
-<a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 및 Office 365 Url 및 IP 주소 범위
+<a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 및 Office 365 URL 및 IP 주소 범위
 =======================================================
 
-[Microsoft 365 및 Office 365 url 및 ip 주소 범위로](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 이동 하 여 팀에 맞게 올바르게 구성 해야 하는 URL, IP 주소, 포트 및 프로토콜에 대 한 상세 및 최신 목록을 표시 합니다. Microsoft는 계속해서 Microsoft 365 및 Office 365 서비스를 개선하고 새 기능을 추가하고 있으며 이는 필수 포트, URL, IP 주소가 시간이 지나면서 변경됨을 의미합니다. 이 정보를 업데이트 하거나 변경할 때 알림을 받으려면 [RSS를 통해 구독](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 하는 것이 좋습니다.
+Teams에 대해 올바르게 구성해야 하는 URL, IP 주소, 포트 및 프로토콜의 자세한 최신 목록을 확인하려면 [Microsoft 365 및 Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) URL 및 IP 주소 범위로 이동하세요. Microsoft는 계속해서 Microsoft 365 및 Office 365 서비스를 개선하고 새 기능을 추가하고 있으며 이는 필수 포트, URL, IP 주소가 시간이 지나면서 변경됨을 의미합니다. 이 정보가 업데이트되거나 변경될 때 알림을 수신하기 위해 [RSS를](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 통해 구독하는 것이 좋습니다.
 
-팀 통화 및 모임 환경은 Skype 및 비즈니스용 Skype에서 함께 사용 되는 차세대 클라우드 기반 인프라에 기반을 둔 것입니다. 이러한 기술 투자에는 미디어 처리 및 신호, SILK 및 Opus audio 코덱, 네트워크 탄력성, 원격 분석, 품질 진단 등을 위한 Azure 기반 클라우드 서비스가 포함 됩니다. 따라서 Skype와 비즈니스용 Skype 모두에 연결 될 수 있는 Url과 Ip가 필요 합니다.
+Teams 통화 및 모임 환경은 Skype 및 비즈니스용 Skype에서도 사용되는 차세대 클라우드 기반 인프라를 기반으로 합니다. 이러한 기술 투자에는 미디어 처리 및 신호, H.264 비디오 코덱, SILK 및 Opus 오디오 코덱, 네트워크 탄력성, 원격 분석 및 품질 진단을 위한 Azure 기반 클라우드 서비스가 포함됩니다. 따라서 Skype 및 비즈니스용 Skype 둘 다와 연결될 수 있는 URL 및 IP가 있습니다.
 
-모든 Microsoft 365 및 Office 365 작업 부하의 경우, 가능한 경우 팀 서비스에 대 한 연결 방법이 전방 프록시를 우회 하는 것입니다. 프록시 서버가 클라이언트와 Office 365 데이터 센터 사이에 있으면 UDP 대신 TCP를 통해 미디어를 강제로 사용할 수 있으므로 미디어 품질에 영향을 줄 수 있습니다. [Microsoft 365 및 Office 365 끝점 관리](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints)에서 트래픽 바이패스를 구성 하는 데 사용할 수 있는 샘플 프록시 PAC 파일을 다운로드 합니다.
+모든 Microsoft 365 및 Office 365 워크로드의 경우 Teams 서비스에 권장되는 연결 방법은 가능한 경우 전달 프록시를 무시하는 것입니다. 프록시 서버가 클라이언트와 Office 365 데이터 센터 사이에 있는 경우 미디어가 UDP 대신 TCP를 통해 미디어 품질에 영향을 줄 수 있습니다. [Microsoft 365 및 Office 365](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints)엔드포인트 관리에서 트래픽 우회를 구성하는 데 사용할 수 있는 샘플 프록시 PAC 파일을 다운로드합니다.
 
-네트워킹 및 보안 정책에 따라 프록시 서버를 통해 Microsoft 365 또는 Office 365 트래픽이 진행 되어야 하는 경우 팀을 프로덕션에 배포 하기 전에 위의 요구 사항이 이미 충족 되었는지 확인 합니다. 자세한 내용은 [팀에 대 한 프록시 서버 또는 비즈니스용 Skype Online](proxy-servers-for-skype-for-business-online.md)을 참조 하세요.
+네트워킹 및 보안 정책에 따라 Microsoft 365 또는 Office 365 트래픽이 프록시 서버를 통과해야 하는 경우 Teams를 프로덕션에 배포하기 전에 위의 요구 사항이 이미 충족되어 있는지 확인합니다. 자세한 내용은 Teams 또는 [비즈니스용 Skype Online용 프록시 서버를 읽어보는 것이 좋습니다.](proxy-servers-for-skype-for-business-online.md)

@@ -28,7 +28,7 @@ ms.locfileid: "49803778"
 
 추가 기능은 방 내의 환경을 확장하는 데 사용됩니다. 일반적인 추가 기능으로는 주식 시세 표시가 대화방에 게시될 때 가로채고 주식 기록을 Extensibility(Extensibility) 창에 표시하는 Silverlight 응용 프로그램을 지정하는 URL이 있을 수 있습니다. 또 다른 예로는 OneNote 2013 URL을 채팅방에 추가 기능으로 포함하여 "관심 항목" 또는 "오늘의 항목"과 같은 일부 공유 컨텍스트를 포함하는 경우를 들 수 있습니다.
 
-영구 채팅방에 대한 추가 기능을 만들 경우 비즈니스용 Skype 서버 [2015에서](../../manage/persistent-chat/configure-add-ins.md)영구 채팅방에 대한 추가 기능 구성을 참조하세요. 영구 채팅 관리자인 경우 제어판이나 cmdlet을 사용하여 추가 기능을 Windows PowerShell 있습니다.
+영구 채팅방에 대한 추가 기능을 만들 경우 비즈니스용 Skype 서버 [2015에서](../../manage/persistent-chat/configure-add-ins.md)영구 채팅방에 대한 추가 기능 구성을 참조하세요. 영구 채팅 관리자인 경우 제어판이나 cmdlet을 사용하여 추가 기능을 만들 Windows PowerShell 있습니다.
 
 ## <a name="tasks-that-you-can-perform"></a>수행할 수 있는 작업
 

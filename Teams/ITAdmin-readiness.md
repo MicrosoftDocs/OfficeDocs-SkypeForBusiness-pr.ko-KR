@@ -32,8 +32,8 @@ ms.locfileid: "49908932"
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![손과 위쪽 화살표를 표시하는 아이콘](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [몇 가지 팀과 채널로 빠르게 시작](/MicrosoftTeams/get-started-with-teams-quick-start) | ![두 사용자를 표시하는 아이콘](https://docs.microsoft.com/office/media/icons/users-people.png) | [사용자에 대한 교육을 받을 수 있습니다.](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![확인 표시를 표시하는 아이콘](https://docs.microsoft.com/office/media/icons/success-teams.png) | [YouTube의 클라우드 채널에서 커피에 대한 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![작업 클립보드 기호](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: 인기 있는 Teams 시나리오에 대한 모범 사례 및 실무 지침 배우기](https://aka.ms/TeamsChalkTalks) |
+| ![손과 위쪽 화살표를 표시하는 아이콘](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [몇 가지 팀 및 채널로 빠르게 시작](/MicrosoftTeams/get-started-with-teams-quick-start) | ![두 사용자를 표시하는 아이콘](https://docs.microsoft.com/office/media/icons/users-people.png) | [사용자에 대한 교육을 받을 수 있습니다.](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![확인 표시를 표시하는 아이콘](https://docs.microsoft.com/office/media/icons/success-teams.png) | [YouTube의 클라우드 채널에서 커피에 대한 모범 사례 및 방법 비디오 보기](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![작업 클립보드 기호](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: 인기 있는 Teams 시나리오에 대한 모범 사례 및 실질적인 지침 배우기](https://aka.ms/TeamsChalkTalks) |
 
 <h2>기술 교육</h2>
 
@@ -83,7 +83,7 @@ ms.locfileid: "49908932"
 | 직접 라우팅 구성: SBC 및 음성 라우팅 연결                 | Microsoft Teams 전화 시스템 직접 라우팅을 사용하여 기존 전화 통신 인프라와 통합합니다.                                                                                                              | [직접 라우팅 가이드 구성](https://aka.ms/DirectRoutingInteractiveGuide)          |
 | Microsoft Teams에서 거버넌스 구성                                     | 조직에 대한 Teams 메시징 보존 정책을 만드는 방법 및 개별 Teams를 보관, 삭제 및 복원하는 방법을 배워야 합니다.                                                                                   |  [Microsoft Teams에서 거버넌스 구성 가이드](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Microsoft Teams 모임 구성 및 배포                          | Microsoft Teams에 대한 모임 워크로드를 배포하는 프로세스를 단계적으로 진행합니다.                                                                                                                                       |  [Microsoft Teams 모임 구성 및 배포 가이드](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| Microsoft Teams에 대한 오디오 회의 구성                            | Teams의 오디오 회의 기능을 알아보고 전화 회의 브리지 및 전화 접속 전화 번호를 할당하는 방법을 배워보는 방법을 배워보는 것이 가장 능동적입니다.                                                                                          |  [Microsoft Teams용 오디오 회의 구성 가이드](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| Microsoft Teams에 대한 오디오 회의 구성                            | Teams의 오디오 회의 기능을 알아보고 전화 회의 브리지 및 전화 접속 전화 번호를 할당하는 방법을 배워보는 방법을 배워보는 것이 가장 능동적입니다.                                                                                          |  [Microsoft Teams에 대한 오디오 회의 구성 가이드](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | 일선 작업자를 위한 Microsoft Teams 구성                           | Frontline Workforce에 적합한 Microsoft Teams 환경을 구성하고 배포하는 방법을 배워야 합니다.                                                                                                                  | [일선 작업자를 위한 Microsoft Teams 구성 가이드](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>빠른 시작 가이드</h2>

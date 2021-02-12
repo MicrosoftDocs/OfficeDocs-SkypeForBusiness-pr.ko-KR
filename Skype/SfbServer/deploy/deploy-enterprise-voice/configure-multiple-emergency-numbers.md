@@ -35,7 +35,7 @@ ms.locfileid: "49804108"
 
 여러 긴급 번호를 구성하기 위해 New-CsEmergencyNumber cmdlet을 사용하여 [New-CsLocationPolicy 및 Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet을 사용하여 EmergencyNumbers 매개 변수를 지정합니다. [](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) 필요한 PSTN 사용 및 위치와 같은 모든 위치 정책 매개 변수에 대한 자세한 내용은 [Set-CsLocationPolicy를 참조하세요.](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
 
-다음 명령은 New-CsEmergency cmdlet을 사용하여 전화 문자열 911이 있는 새 긴급 New-CsEmergency 만듭니다.
+다음 명령은 이 cmdlet을 사용하여 전화 문자열 911이 있는 새 긴급 New-CsEmergency 만듭니다.
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911

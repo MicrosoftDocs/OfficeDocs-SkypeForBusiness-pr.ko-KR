@@ -28,14 +28,14 @@ ms.locfileid: "49909162"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>Office 365 Government 계획 - DoD 배포
 
-이 지침은 미국 연방 정부 기관 또는 정부 규정 및 요구 사항이 적용된 데이터를 처리하는 기타 엔터티에서 Office 365 배포를 구동하는 IT 프로를 위한 것입니다. 여기서 Office 365 Government 사용은 이러한 요구 사항을 충족하는 데 적합합니다.
+이 지침은 미국 연방 정부 기관 또는 정부 규정 및 요구 사항이 적용된 데이터를 처리하는 기타 엔터티에서 Office 365 배포를 구동하는 IT 프로를 위한 것입니다. 여기서 Office 365 Government를 사용하는 것이 이러한 요구 사항을 충족하는 데 적합한 경우 DoD입니다.
 
 > [!NOTE]
 > 조직에서 이미 Office 365 Government – DoD 자격 요구 사항을 충족하고 프로그램에 적용되고 프로그램에 수락된 경우 1단계와 2단계를 건너뛰고 3단계로 바로 이동하면 됩니다.
 
 ## <a name="step-1-determine-whether-your-organization-needs-office-365-government---dod-and-meets-eligibility-requirements"></a>1단계. 조직에 Office 365 Government가 필요한지 여부 - DoD 및 자격 요구 사항을 충족하는지 확인합니다. 
 
-Office 365 Government - DoD 환경은 클라우드 서비스에 대한 미국 정부 요구 사항을 준수합니다. 조직은 Office 365의 기능과 기능을 즐기는 것 외에도 Office 365 Government에 고유한 다음과 같은 기능의 이점을 제공합니다. DoD:
+Office 365 Government - DoD 환경은 클라우드 서비스에 대한 미국 정부 요구 사항을 준수합니다. 조직은 Office 365의 기능 및 기능을 즐기는 것 외에도 Office 365 Government에 고유한 다음과 같은 기능의 이점을 제공합니다. DoD:
 
 - 조직의 고객 콘텐츠는 Microsoft의 상용 Office 365 서비스의 고객 콘텐츠에서 논리적으로 나타났습니다.
 - 조직의 고객 콘텐츠는 미국 내에 저장됩니다.
@@ -48,7 +48,7 @@ Office 365 Government - DoD 환경은 클라우드 서비스에 대한 미국 �
 
 
 > [!Tip]
-> 서비스 설명의 정보 테이블을 Excel 통합 문서로 전송하고 두 개의 열을 추가할 수 있습니다. 즉, 조직 **Y/N과** 관련이 있으며 조직 **Y/N의** 요구 사항을 충족합니다. 그런 다음 동료와 함께 이 목록을 검토하여 이 서비스가 조직의 요구 사항을 충족하는지 확인할 수 있습니다.
+> 서비스 설명의 정보 테이블을 Excel 통합 문서로 전송하고 조직 **Y/N과** 관련이 있으며 조직의 요구 사항을 충족하는 두 개의 열을 추가할 수 **있습니다.** 그런 다음 동료와 함께 이 목록을 검토하여 이 서비스가 조직의 요구 사항을 충족하는지 확인할 수 있습니다.
 
 
 |    |     |

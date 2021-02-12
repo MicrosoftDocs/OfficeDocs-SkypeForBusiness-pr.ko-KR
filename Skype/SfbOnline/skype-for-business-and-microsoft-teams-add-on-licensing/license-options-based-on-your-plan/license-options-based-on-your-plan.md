@@ -1,5 +1,5 @@
 ---
-title: 계획을 기반으로 한 라이선스 옵션
+title: 플랜에 따른 라이선스 옵션
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,7 +18,7 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.custom: None
-description: 클라우드 보이스 메일에 대해 알아보세요.
+description: Cloud Voicemail에 대해 자세히 배워야 합니다.
 ms.openlocfilehash: 8c5d5cf27a1cf944c8b837168aceae5da62a5495
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
@@ -26,6 +26,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41692493"
 ---
-# <a name="license-options-based-on-your-plan"></a>계획을 기반으로 한 라이선스 옵션
+# <a name="license-options-based-on-your-plan"></a>플랜에 따른 라이선스 옵션
 
 

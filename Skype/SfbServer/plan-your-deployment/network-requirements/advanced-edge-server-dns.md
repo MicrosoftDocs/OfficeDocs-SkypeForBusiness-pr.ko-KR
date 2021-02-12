@@ -27,7 +27,7 @@ ms.locfileid: "49825328"
  
 **요약:** 비즈니스용 Skype 서버 배포 옵션에 대한 시나리오를 검토합니다. 단일 서버를 사용하려는 경우 또는 DNS 또는 HLB가 있는 서버 풀을 선호하는 경우 이 항목은 도움이 됩니다.
   
-비즈니스용 Skype 서버의 DNS(Domain Name System) 계획에는 결정에 영향을 주게 될 수 있는 많은 요인이 있습니다. 조직의 도메인 구조가 이미 설정되어 있는 경우 진행 방법을 검토할 때 문제가 될 수 있습니다. 아래에서 찾은 항목으로 시작해보겠습니다.
+비즈니스용 Skype 서버의 DNS(Domain Name System) 계획에는 결정에 영향을 주게 될 수 있는 많은 요인이 있습니다. 조직의 도메인 구조가 이미 설정되어 있는 경우 진행 방법을 검토할 때 문제가 될 수 있습니다. 아래에서 설명하는 항목부터 시작해 보겠습니다.
   
 - [서비스를 찾기 위한 비즈니스용 Skype 클라이언트의 Walkthrough](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
     
@@ -50,7 +50,7 @@ ms.locfileid: "49825328"
     
 2. lyncdiscover.\<domain\>
     
-     *외부 웹 서비스의 자동 검색 서비스에 대한 호스트 레코드입니다.* 
+     *이 레코드는 외부 웹 서비스의 자동 검색 서비스에 대한 호스트 레코드입니다.* 
     
 3. _sipinternaltls._tcp.\<domain\>
     
@@ -77,7 +77,7 @@ ms.locfileid: "49825328"
 > [!NOTE]
 > SRV 레코드를 만들 때 DNS SRV 레코드가 만들어지고 있는 동일한 도메인의 DNS A(및 IPv6 주소 지정을 사용하는 경우 AAAA)를 지정해야 합니다. 예를 들어 SRV 레코드가 SRV 레코드에 있는 contoso.com A(및 AAAA) 레코드는 SRV 레코드에 있을 수 fabrikam.com. 
   
-원하는 경우 서비스를 수동으로 검색할 수 있도록 모바일 장치를 설정할 수 있습니다. 이 작업을 수행하려면 각 사용자가 다음과 같이 프로토콜 및 경로를 포함하여 전체 내부 및 외부 자동iscover 서비스 URIS를 사용하여 모바일 장치 설정을 구성해야 합니다.
+원하는 경우 서비스를 수동으로 검색할 수 있도록 모바일 장치를 설정할 수 있습니다. 이 경우 각 사용자는 다음과 같이 프로토콜 및 경로를 포함하여 전체 내부 및 외부 자동iscover 서비스 URIS를 사용하여 모바일 장치 설정을 구성해야 합니다.
   
 - 외부 액세스의 경우: \<ExtPoolFQDN\> https:// /Autodiscover/autodiscoverservice.svc/Root
     
@@ -114,7 +114,7 @@ ms.locfileid: "49825328"
     
 - 경계 네트워크의 모든 비즈니스용 Skype 서버 내부 에지 인터페이스는 쿼리를 확인할 때 이 내부 DNS contoso.com.
     
-- 비즈니스용 Skype 서버를 실행하는 모든 서버 및 회사 네트워크에서 비즈니스용 Skype 서버를 실행하는 클라이언트는 쿼리를 해결하기 위해 내부 DNS 서버를 contoso.com 또는 다음 홉 서버에 대한 호스트 파일 및 목록 A 및 AAAA(IPv6 주소 처리를 사용하는 경우) 레코드(특히 Director 또는 Director 풀 VIP용)를 사용 , 프런트 엔드 풀 VIP 또는 Standard Edition Server)
+- 비즈니스용 Skype 서버를 실행하는 모든 서버 및 회사 네트워크에서 비즈니스용 Skype 서버를 실행하는 클라이언트는 쿼리를 해결하기 위해 내부 DNS 서버를 contoso.com 또는 각 에지 서버의 호스트 파일을 사용하고 다음 홉 서버에 대한 A 및 AAAA(IPv6 주소 처리를 사용하는 경우) 레코드(특히 Director 또는 Director 풀 VIP용)를 사용 , 프런트 엔드 풀 VIP 또는 Standard Edition Server)
     
 ### <a name="external-dns"></a>외부 DNS
 
@@ -149,7 +149,7 @@ ms.locfileid: "49825328"
   
 - _sipinternaltls._tcp.litwareinc.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
     
-     *SIP 도메인(litwareinc.com)tim@litwareinc.com 이 풀(fabrikam.com)의 도메인과 일치하지 않는 경우 사용자 로그인이 자동 구성에 대해 fabrikam.com.* 
+     *SIP tim@litwareinc.com 도메인(litwareinc.com)이 풀(fabrikam.com)의 도메인과 일치하지 않는 경우 사용자 로그인은 자동 구성에 대해 작동하지 fabrikam.com.* 
     
 이제 분할 DNS 없이 비즈니스용 Skype 클라이언트에 대한 자동 요구 사항이 필요한 경우 다음 옵션을 사용할 수 있습니다.
   
@@ -162,7 +162,7 @@ ms.locfileid: "49825328"
   
 - **일치하는 내부 영역**
     
-    내부 DNS에 외부 DNS 영역과 일치하는 영역(예: contoso.com)을 만든 다음 자동 구성에 사용되는 비즈니스용 Skype 서버 풀에 해당하는 DNS A(및 IPv6 주소 주소를 사용하는 경우 AAAA) 레코드를 만들어야 합니다.
+    내부 DNS에서 외부 DNS 영역과 일치하는 영역(예: contoso.com)을 만든 다음 자동 구성에 사용되는 비즈니스용 Skype 서버 풀에 해당하는 DNS A(및 IPv6 주소 주소를 사용하는 경우 AAAA) 레코드를 만들어야 합니다.
     
     예를 들어 사용자가 pool01.contoso.net 있지만 비즈니스용 Skype에 bob@contoso.com 로그인하는 경우 contoso.com라는 내부 DNS 영역이 만들어지고 내부 DNS 영역 내부에 IPv6 주소가 사용 중이면 AAAA를 만들어야 pool01.contoso.com.
     
@@ -198,7 +198,7 @@ ms.locfileid: "49825328"
 > 프런트 엔드 풀 FQDN이 두 번 나타나지만 서로 다른 IP 주소가 두 개 표시됩니다. 이는 DNS 부하 분산이 사용되지 않습니다. HLB를 사용하는 경우 단일 프런트 엔드 풀 항목만 있습니다. 
   
 > [!NOTE]
-> 또한 프런트 엔드 풀 FQDN 값은 contoso.com 및 fabrikam.com 변경되지만 IP 주소는 동일하게 유지됩니다. 이는 두 SIP 도메인 중 하나에서 로그인하는 사용자가 자동 구성에 동일한 프런트 엔드 풀을 사용하게 있기 때문에입니다. 
+> 또한 프런트 엔드 풀 FQDN 값은 contoso.com 및 fabrikam.com 변경되지만 IP 주소는 동일하게 유지됩니다. 이는 두 SIP 도메인에서 로그인하는 사용자가 자동 구성을 위해 동일한 프런트 엔드 풀을 사용하게 있기 때문에입니다. 
   
 ## <a name="dns-disaster-recovery"></a>DNS 재해 복구
 <a name="DNSDR"> </a>
@@ -209,7 +209,7 @@ GeoDNS 공급자에서 웹 서비스의 내부 및 외부 확인을 위해 추�
   
 이 표의 모든 DNS 레코드는 예제입니다.
   
-|**GeoDNS 레코드**|**풀 레코드**|**CNAME 레코드**|**DNS 설정(옵션 하나 선택)**|
+|**GeoDNS 레코드**|**풀 레코드**|**CNAME 레코드**|**DNS 설정(하나의 옵션 선택)**|
 |:-----|:-----|:-----|:-----|
 |Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com 별칭을 Pool1InternalWebFQDN.contoso.com  <br/> Meet.contoso.com 별칭을 Pool2InternalWebFQDN.contoso.com  <br/> |풀 간 라운드 로빈  <br/> **또는** <br/> 기본 사용, 오류가 있는 경우 보조에 연결  <br/> |
 |Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com 별칭을 Pool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.com 별칭을 Pool2ExternalWebFQDN.contoso.com  <br/> |풀 간 라운드 로빈  <br/> **또는** <br/> 기본 사용, 오류가 있는 경우 보조에 연결  <br/> |
@@ -239,7 +239,7 @@ DNS 부하 분산은 일반적으로 응용 프로그램 수준에서 구현됩�
     
 - TCP 연결이 성공하면 클라이언트는 TLS를 협상하여 TLS를 사용하여 TLS의 기본 등록 기관에 pool01.contoso.com.
     
-- 클라이언트가 성공적인 연결 없이 캐시된 항목을 모두 입력하면 사용자는 현재 비즈니스용 Skype 서버를 실행하는 서버를 사용할 수 없음을 알림으로 받게 됩니다.
+- 클라이언트가 성공적으로 연결되지 않은 캐시된 항목을 모두 입력하면 사용자는 현재 비즈니스용 Skype 서버를 실행하는 서버를 사용할 수 없음을 알림으로 받게 됩니다.
     
 > [!NOTE]
 > DNS 기반 부하 분산은 DNS RR(DNS 라운드 로빈)와는 다르며, 일반적으로 DNS를 사용하여 풀의 서버에 대해 서로 다른 IP 주소 순서를 제공하여 부하 분산을 참조합니다. 일반적으로 DNS RR은 부하 분산을 사용하도록 설정하지만 장애 조치(failover)를 사용하도록 설정할 수 없습니다. 예를 들어 DNS A(또는 IPv6 시나리오의 AAAA) 쿼리에서 반환된 IP 주소 하나에 대한 연결이 실패하면 해당 연결이 실패합니다. 이렇게 하면 DNS 기반 부하 분산보다 DNS RR의 안정성이 낮아질 수 있습니다. 필요한 경우 DNS 기반 부하 분산과 함께 DNS RR을 계속 사용할 수 있습니다. 

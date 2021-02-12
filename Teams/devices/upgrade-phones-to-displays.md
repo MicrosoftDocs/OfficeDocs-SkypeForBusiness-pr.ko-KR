@@ -30,7 +30,7 @@ ms.locfileid: "49825358"
 
 이 문서에서는 Microsoft Teams 관리 센터에서 Teams 휴대폰을 Teams 디스플레이 장치로 업그레이드하는 방법에 대한 개요를 제공합니다. 이렇게 하면 장치가 Teams 디스플레이 장치로 사용자에게 풍부한 환경을 제공할 수 있습니다.
 
-Teams 디스플레이는 Cortana가 제공한 앰비언트 터치 스크린과 핸즈 프리 환경이 있는 올인원 전용 Teams 장치의 범주입니다. Teams 디스플레이는 Teams 휴대폰의 진화된 발전입니다. [Teams](phones-for-teams.md#features-supported-by-teams-phones)휴대폰에서 지원하는 기능 외에도 Teams 표시에는 모든 Teams 활동 및 공동 작업 옵션을 항상 사용할 수 있는 항상 표시와 같은 기능이 포함됩니다. Teams 디스플레이에 고유한 기능에 대한 자세한 내용은 [Microsoft Teams 디스플레이를 참조합니다.](teams-displays.md)
+Teams 디스플레이는 Cortana가 제공한 앰비언트 터치 스크린과 핸즈 프리 환경이 있는 올인원 전용 Teams 장치의 범주입니다. Teams 디스플레이는 Teams 휴대폰의 진화된 발전입니다. [Teams](phones-for-teams.md#features-supported-by-teams-phones)휴대폰에서 지원하는 기능 외에도 Teams에는 모든 Teams 활동 및 공동 작업 옵션을 항상 사용할 수 있는 항상 사용 가능한 항상 표시와 같은 기능이 포함됩니다. Teams 디스플레이에 고유한 기능에 대한 자세한 내용은 [Microsoft Teams 디스플레이를 참조합니다.](teams-displays.md)
 
 ## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>Teams로 업그레이드하는 데 대해 알아야 할 것 표시
 
@@ -72,7 +72,7 @@ Teams 휴대폰을 Teams 디스플레이 장치로 업그레이드한 후 작업
 
 ### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>Teams 표시에는 어두운 테마 대신 기본 테마가 있습니다.
 
-Teams 디스플레이의 어두운 테마 지원은 향후 업데이트에서 사용할 수 있습니다. 어두운 테마를 사용하는 Teams 휴대폰은 Teams로 업그레이드한 후 기본 테마를 얻습니다.
+Teams 디스플레이의 어두운 테마 지원은 향후 업데이트에서 사용할 수 있습니다. 어두운 테마를 사용하는 Teams 휴대폰은 Teams로 업그레이드한 후 기본 테마를 얻게 됩니다.
 
 ### <a name="some-apps-are-missing-from-the-home-screen"></a>일부 앱이 홈 화면에서 누락된 경우
 

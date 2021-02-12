@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 사용 가능성, 유선/고정 회선 및 모바일 네트워크 가용성, 제한을 포함 하 여 파나마의 무료 전화 번호를 사용 하는 방법에 대해 알아보세요.
+description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 파나마의 무료 전화 번호에 대해 자세히 배워야 합니다.
 ms.openlocfilehash: 9b9d590d1e1c03d792b2537f335e7466e56d89ed
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43140317"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>파나마의 무료 전화 걸기 제한
 
-[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.
+[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 사항 및 제한에 대해 자세히 알아보거나
 
 
 |**세부 정보**|**설명**|
 |:-----|:-----|
-|무료 전화를 받을 수 있나요?  <br/> |예  <br/> |
+|무료 통화를 사용할 수 있나요?  <br/> |예  <br/> |
 |전화 걸기 형식  <br/> | 00-800-XXX-XXXX <br/> |
 |국가/지역 ISO 코드  <br/> |PA  <br/> |
-|섬/지역 포함  <br/> |해당 사항 없음  <br/> |
-|섬/지역 포함 안 함  <br/> |해당 사항 없음  <br/> |
-|유선/고정 회선 가용성  <br/> |A C&amp;W에 불과합니다.  <br/> |
+|덮여 있는 섬/지역  <br/> |해당 사항 없음  <br/> |
+|섬/지역은 적용되지 않습니다.  <br/> |해당 사항 없음  <br/> |
+|유선/고정 선 가용성  <br/> |C &amp; W에서만.  <br/> |
 |모바일 네트워크 가용성  <br/> |아니요  <br/> |
-|메모, 제한 사항 및 액세스 문제  <br/> |무료 번호 보다 먼저 이진수 011 (국제 장거리 파나마 코드)을 걸어야 합니다.  <br/> |
+|주석, 제한 사항 및 액세스 문제  <br/> |고객은 무료 번호보다 먼저 011(국제 장거리 파나마 코드)으로 전화해야 합니다.  <br/> |
    
 ## <a name="related-topics"></a>관련 항목
 

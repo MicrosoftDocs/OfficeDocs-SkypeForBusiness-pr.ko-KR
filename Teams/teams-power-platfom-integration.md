@@ -28,7 +28,7 @@ ms.locfileid: "49804568"
 
 Microsoft Power Platform을 사용하면 사용자가 Power **BI를** 사용하여 데이터를 분석하고, **Power Apps를** 사용하여 사용자 지정 앱을 빌드하고, **Power Automate를** 사용하여 프로세스를 자동화하고, **Power Virtual Agent를** 사용하여 지능형 봇을 더욱 빠르게 만들 수 있는 낮은 코드 도구를 사용하여 개발을 가속화할 수 있습니다. 원격 및 하이브리드 작업으로 전환하여 Microsoft Teams는 전 세계 사람들이 계속해서 만들고, 공동 작업하고, 커뮤니케이션할 수 있도록 지원했습니다. 매일 7,500만 명 이상의 활성 사용자가 있는 Teams는 사람들이 작업을 완료하는 방식입니다.
 
-:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Teams 및 Microsoft Power Platform을 요약한 이미지":::
+:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Teams 및 Microsoft Power Platform을 요약하는 이미지":::
 
 Microsoft Power Platform은 Teams 작업 영역의 Power **BI** 보고서를, **Power Apps를** 탭 또는 개인 앱으로 사용하여 만든 앱을 에디션하고, 메시지에서 **Power Automate** 흐름을 트리거하거나,  적응형 카드를 사용하여 만든 봇을 Teams에 추가하여 조직의 다른 구성원이 상호 작용할 수 있도록 Teams와 다양한 통합 기능을 제공합니다.
 
@@ -39,7 +39,7 @@ Microsoft Power Platform은 Teams 작업 영역의 Power **BI** 보고서를, **
 - Power Automate를 사용하여 파일을 동기화하고, 알림을 받고, 데이터를 수집하는 등 앱과 서비스 간에 자동화된 **워크플로를 만들 수 있습니다.**
 - **Power Virtual Agents를** 사용하여 안내된 코드 없는 그래픽 인터페이스를 사용하여 봇을 빌드하여 Teams 내에서 디지털 도우미를 쉽게 만들고 동료가 채팅할 수 있도록 합니다.
 
-앱, 봇 및 워크플로를 만드는 새로운 기능은 Teams용 기본 제공 저 코드 데이터 플랫폼, [Teams용](https://go.microsoft.com/fwlink/?linkid=2143541)데이터버스를 통해 지원됩니다. 이 플랫폼은 관계형 데이터 저장소, 풍부한 데이터 형식, 엔터프라이즈급 거버넌스 및 원 클릭 솔루션 배포를 제공합니다. Teams용 데이터버스는 Microsoft [Dataverse를 토대하여 구축됩니다.](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) Teams용 데이터버스를 사용하여 Teams 사용자는 Teams 앱 스토어에서 산업 전반에 걸쳐 일반적인 시나리오를 소개하는 사용자 지정 즉시 사용할 수 있는 솔루션을 찾아 설치할 수 있습니다. 조직의 브랜드 및 요구 사항에 맞게 이러한 사용자 지정 솔루션을 사용자 지정하고 확장할 수 있습니다.
+앱, 봇 및 워크플로를 만드는 새로운 기능은 Teams용 기본 제공 저 코드 데이터 플랫폼, [Teams용](https://go.microsoft.com/fwlink/?linkid=2143541)데이터버스를 통해 지원됩니다. 이 플랫폼은 관계형 데이터 저장소, 다양한 데이터 형식, 엔터프라이즈급 거버넌스 및 원 클릭 솔루션 배포를 제공합니다. Teams용 데이터버스는 Microsoft [Dataverse를 토대하여 구축됩니다.](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) Teams용 데이터버스를 사용하여 Teams 사용자는 Teams 앱 스토어에서 산업 전반에 걸쳐 일반적인 시나리오를 소개하는 사용자 지정 즉시 사용할 수 있는 솔루션을 찾아 설치할 수 있습니다. 조직의 브랜드 및 요구 사항에 맞게 이러한 사용자 지정 솔루션을 사용자 지정하고 확장할 수 있습니다.
 
 ## <a name="licensing"></a>라이선싱
 

@@ -20,7 +20,7 @@
 | 2/3/2021 | [Microsoft Teams 내보내기 API를 통해 콘텐츠 내보내기](/MicrosoftTeams/export-teams-content) | 수정 |
 | 2/3/2021 | [스위스의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 수정 |
 | 2/3/2021 | [직접 라우팅에 SBC(세션 테두리 컨트롤러) 연결](/MicrosoftTeams/direct-routing-connect-the-sbc) | 수정 |
-| 2/3/2021 | Microsoft Teams \| 환경 준비 \| 도입, 검색 | 제거됨 |
+| 2/3/2021 | Microsoft Teams \| 환경 준비 \| 채택, 검색 | 제거됨 |
 | 2/3/2021 | [가상 방문을 위한 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 수정 |
 | 2/3/2021 | [릴리스 정보](/MicrosoftTeams/rooms/rooms-release-note) | 수정 |
 | 2/4/2021 | [Teams 연락처 센터](/MicrosoftTeams/teams-contact-center) | 수정 |
@@ -62,7 +62,7 @@
 | 1/25/2021 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
 | 1/25/2021 | [Microsoft Teams에서 콘텐츠 검색 사용](/MicrosoftTeams/content-search) | 수정 |
 | 1/25/2021 | [콘텐츠에 대한 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 수정 |
-| 1/25/2021 | [Microsoft Teams 사용자 또는 팀에 법적 보류](/MicrosoftTeams/legal-hold) | 수정 |
+| 1/25/2021 | [법적 보류를 위해 Microsoft Teams 사용자 또는 팀에 추가](/MicrosoftTeams/legal-hold) | 수정 |
 | 1/26/2021 | [SIS(학생 정보 시스템) 데이터와 Education Insights 동기화](/MicrosoftTeams/education-insights-sis-data-sync) | 추가 |
 | 1/26/2021 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정 |
 | 1/26/2021 | [차원 및 측정 - CQD(통화 품질 대시보드)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정 |
@@ -94,7 +94,7 @@
 | 1/21/2021 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 수정 |
 | 1/21/2021 | [세션 테두리 컨트롤러 구성 - 여러 테넌트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 수정 |
 | 1/21/2021 | [프랑스의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 수정 |
-| 1/21/2021 | [Teams Learning 앱에 대한 권한 설치, 관리 및 할당(비공개 미리 보기)](/MicrosoftTeams/teams-learning-app-overview) | 수정 |
+| 1/21/2021 | [Teams Learning 앱에 대한 사용 권한 설치, 관리 및 할당(비공개 미리 보기)](/MicrosoftTeams/teams-learning-app-overview) | 수정 |
 | 1/21/2021 | [SharePoint Online 사이트 또는 페이지에서 Teams '인트라넷 포털 앱' 만들기](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 수정 |
 | 1/19/2021 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 수정 |
 | 1/19/2021 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
@@ -127,7 +127,7 @@
 | 1/19/2021 | [직접 라우팅을 위해 인증된 세션 테두리 컨트롤러](/MicrosoftTeams/direct-routing-border-controllers) | 수정 |
 | 1/19/2021 | [의료 조직용 Teams 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 수정 |
 | 1/19/2021 | [Teams의 교대 근무](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 수정 |
-| 1/19/2021 | [Teams에서 일선 작업자에 대한 교대 근무 기반 액세스 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | 수정 |
+| 1/19/2021 | [Teams에서 일선 작업자의 교대 근무 기반 액세스 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | 수정 |
 | 1/19/2021 | [조직의 Shifts 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 수정 |
 | 1/19/2021 | [Microsoft StaffHub가 사용 중지](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 수정 |
 | 1/19/2021 | [RealWear 클라이언트용 Microsoft Teams에 대한 IT 관리자 정보(미리보기)](/MicrosoftTeams/flw-realwear) | 수정 |

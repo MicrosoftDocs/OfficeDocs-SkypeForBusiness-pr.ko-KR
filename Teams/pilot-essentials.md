@@ -52,7 +52,7 @@ ms.locfileid: "49578321"
 
 ## <a name="1-outline-pilot-logistics"></a>1. 파일럿 물류 개요
 
-성공적인 파일럿은 시작 및 종료 [clearly defined goals](upgrade-define-project-scope.md#project-goals) 날짜를 정의하고 성공을 측정하기 위한 목표를 명확하게 정의했습니다. 이러한 목표는 프로젝트 범위를 정의할 때 설명한 광범위한 프로젝트 [defined your project scope](upgrade-define-project-scope.md)범위와 일치해야 합니다. 파일럿이 끝났을 때 경로를 전달하는 데 사용됩니다. 또한 프로젝트 기간 동안 적절한 이해 관계자를 포함해야 합니다. 파일럿을 실행하고 영향을 평가하는 데 충분한 시간을 허용해야 합니다. 최소 30일을 권장합니다.
+성공적인 파일럿은 시작 및 종료 [](upgrade-define-project-scope.md#project-goals) 날짜를 정의하고 성공을 측정하기 위한 목표를 명확하게 정의했습니다. 이러한 목표는 프로젝트 범위를 정의할 때 설명한 광범위한 프로젝트 [](upgrade-define-project-scope.md)범위와 일치해야 합니다. 파일럿이 끝났을 때 경로를 전달하는 데 사용됩니다. 또한 프로젝트 기간 동안 적절한 이해 관계자를 포함해야 합니다. 파일럿을 실행하고 영향을 평가하는 데 충분한 시간을 허용해야 합니다. 최소 30일을 권장합니다.
 
 소규모로 시작하고 워크로드 또는 기능을 추가하거나 추가 사용자를 추가하여 파일럿에 적절하게 추가하여 결과를 평가하고 파일럿을 조정합니다. 로드맵에 따라 새 Teams 기능이 릴리스될 때 후속 파일럿을 실행할 수도 있습니다.
 
@@ -108,7 +108,7 @@ ms.locfileid: "49578321"
 
 - **파일럿** 목표(예: 사용자 만족도 및 네트워크 품질)가 달성되었습니다. 롤아웃의 다음 단계를 진행할 준비가 되어 있습니다. 프로젝트의 목표에 따라 다음 중 하나일 수 있습니다.
   - 파일럿을 추가 참가자로 확장
-  - [조직의 일부 또는 전체에 **Islands** 대해 비즈니스용 Skype(제도 모드)와 함께 Teams를 사용하도록 설정](https://aka.ms/SkypeToTeams-SetCoexistence)
+  - [조직의 일부 또는 전체에 대해 비즈니스용 Skype(제도 모드)와 함께 Teams를 사용하도록 설정](https://aka.ms/SkypeToTeams-SetCoexistence)
   - [조직의 일부 또는 전체에 대해 비즈니스용 Skype에서 **Teams(Teams** 전용 모드)로 사용자 업그레이드](https://aka.ms/SkypeToTeams-SetCoexistence)
 - **파일럿이** 원하는 결과(예: 사용자 만족도 및 네트워크 품질)를 달성하지 못했습니다. 계획을 적절하게 조정하고 파일럿을 다시 조사하는 데 시간이 걸릴 수 있습니다.
 

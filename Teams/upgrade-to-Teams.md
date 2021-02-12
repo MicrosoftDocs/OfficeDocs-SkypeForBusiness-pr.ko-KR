@@ -38,7 +38,7 @@ ms.locfileid: "49578361"
 ## <a name="prerequisite-planning-activities"></a>전제적 계획 활동
 
 > [!IMPORTANT]
-> 업그레이드 구현을 계속하기 전에 업그레이드 계획부터 계획 콘텐츠를 읽은 후 모든 전제적 계획 활성화를 완료해야 합니다. [Plan your upgrade](upgrade-plan-journey.md)
+> 업그레이드 구현을 계속하기 전에 업그레이드 계획부터 계획 콘텐츠를 읽은 후 모든 전제적 계획 활성화를 완료해야 합니다. [](upgrade-plan-journey.md)
 
 
 - [프로젝트 관련자에 참여](upgrade-enlist-stakeholders.md)

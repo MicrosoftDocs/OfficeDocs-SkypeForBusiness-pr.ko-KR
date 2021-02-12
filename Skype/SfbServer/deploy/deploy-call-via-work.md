@@ -24,17 +24,17 @@ ms.locfileid: "49825008"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 직장을 통한 통화 배포
  
-**요약:** 일부 또는 모든 사용자를 위해 비즈니스용 Skype 서버에서 직장에서 전화를 통해 통화를 배포하는 방법을 배워야 합니다.
+**요약:** 일부 또는 모든 사용자를 위해 비즈니스용 Skype 서버에서 직장을 통한 통화를 배포하는 방법을 배워야 합니다.
   
-다음 단계에 따라 사용자를 위해 직장 전화 기능을 배포합니다. 계획 고려 사항은 비즈니스용 Skype 서버의 직장을 통해 [전화하기 계획에 설명됩니다.](../plan-your-deployment/enterprise-voice-solution/call-via-work.md) 이전 버전의 Lync Server 원격 통화 제어는 사용자가 Lync Server를 사용하여 PBX 전화를 제어할 수 있는 기능입니다. 비즈니스용 Skype 서버에서는 이 기능이 직장 전화로 대체됩니다. 
+다음 단계에 따라 사용자를 위해 직장 전화 기능을 배포합니다. 계획 고려 사항은 비즈니스용 Skype 서버의 직장 [전화 계획에서 논의됩니다.](../plan-your-deployment/enterprise-voice-solution/call-via-work.md) 이전 버전의 Lync Server 원격 통화 제어는 사용자가 Lync Server를 사용하여 PBX 전화를 제어할 수 있는 기능입니다. 비즈니스용 Skype 서버에서는 이 기능이 직장 전화로 대체됩니다. 
   
 ## <a name="prerequisites-for-call-via-work"></a>업무를 통한 전화에 대한 선행 작업
 
-UCWA(Unified Communications Web API)를 사용하여 모든 비즈니스용 Skype 서버 프런트 엔드 서버에 자동으로 설치됩니다. 사용자가 직장을 통해 전화를 걸 수 있도록 설정하려면 다음과 같은 선행 사항도 준비되어 있어야 합니다. 
+UCWA(Unified Communications Web API)를 사용하여 모든 비즈니스용 Skype 서버 프런트 엔드 서버에 자동으로 설치됩니다. 사용자가 직장에서 전화를 걸 수 있도록 설정하려면 다음과 같은 선행 사항도 준비되어 있어야 합니다. 
   
 - 중재 서버는 프런트 엔드 서버의 일부로 또는 독립 실행형 역할로 배포해야 합니다. IP-PBX 게이트웨이도 배포해야 합니다.
     
-- 업무를 통해 전화 기능을 사용할 수 있는 모든 사용자는 PBX 전화 시스템에서 DID(Direct Inward Dialing)가 있어야 합니다. 
+- 직장에서 전화 기능을 사용하도록 설정하는 모든 사용자는 PBX 전화 시스템에서 DID(Direct Inward Dialing)가 있어야 합니다. 
     
 - 사용자에 대해 모든 업무용 통화 사용자를 사용하도록 설정해야 Enterprise Voice. 이렇게 하는 경우 각 사용자에 대한 비즈니스용 Skype DID 번호를 해당 PBX 전화 시스템에 대한 해당 DID 번호로 구성해야 합니다. 
     
@@ -50,7 +50,7 @@ UCWA(Unified Communications Web API)를 사용하여 모든 비즈니스용 Skyp
 
 선행 작업을 준비한 후 다음을 합니다.
   
-- 업무번호로 전화 걸기 전화를 걸고 있는 사용자의 PBX 발신자 번호에 비즈니스용 Skype가 표시하는 배포용 전역 전화 번호를 생성합니다. 
+- 비즈니스용 Skype가 업무번호로 전화를 걸고 있는 사용자의 PBX 발신자 번호에 표시하는 배포에 대한 전역 전화 번호를 생성합니다. 
     
 - 하나 이상의 업무로 전화 정책 만들기
     
@@ -100,5 +100,5 @@ UCWA(Unified Communications Web API)를 사용하여 모든 비즈니스용 Skyp
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버에서 직장을 통한 통화 계획](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[비즈니스용 Skype 서버의 직장 전화 계획](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

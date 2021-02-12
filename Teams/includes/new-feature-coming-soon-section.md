@@ -1,1 +1,1 @@
-이 기능은 아직 출시 되지 않았습니다. 발표 되었으며 곧 제공 될 예정입니다.관리자 인 경우 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)의 메시지 센터에서이 기능을 언제 릴리스할 것인지 확인할 수 있습니다.
+이 기능은 아직 릴리스되지 않았습니다. 발표가 됐고 곧 출시될 예정입니다.관리자인 경우 메시지 센터(Microsoft 365 관리 센터)에서 이 기능이 [릴리스될 때를 찾을 수 있습니다.](https://portal.office.com/adminportal/home)

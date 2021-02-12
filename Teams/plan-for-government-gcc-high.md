@@ -42,13 +42,13 @@ Office 365 Government - GCC High 환경은 클라우드 서비스에 대한 미�
 - 조직의 고객 콘텐츠에 대한 액세스는 선고된 Microsoft 담당자로 제한됩니다.
 - Office 365 Government – GCC High는 미국 공공 부문 고객에게 필요한 인증 및 인증을 준수합니다.
 
-자격 요구 사항을 포함하여 Office 365 Government 요금제에서 미국 정부 고객을 위한 [Office 365 Government](https://products.office.com/government/compare-office-365-government-plans)- GCC High 제안에 대한 자세한 정보를 찾을 수 [있습니다.](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
+자격 요구 사항을 포함하여 Office 365 Government 요금제에서 미국 정부 고객을 위한 [Office 365 Government](https://products.office.com/government/compare-office-365-government-plans)– GCC High 제안에 대한 자세한 정보를 찾을 수 [있습니다.](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
 
 [Office 365 미국 정부](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 서비스 설명은 미국 내의 규정 준수 요구 사항을 충족하는 데 중심을 두는 플랫폼의 이점에 대해 설명하고 있습니다.
 
 
 > [!Tip]
-> 서비스 설명의 정보 테이블을 Excel 통합 문서로 전송하고 두 개의 열을 추가할 수 있습니다. 즉, 조직 **Y/N과** 관련이 있으며 조직 **Y/N의** 요구 사항을 충족합니다. 그런 다음 동료와 함께 이 목록을 검토하여 이 서비스가 조직의 요구 사항을 충족하는지 확인할 수 있습니다.
+> 서비스 설명의 정보 테이블을 Excel 통합 문서로 전송하고 조직 **Y/N과** 관련이 있으며 조직의 요구 사항을 충족하는 두 개의 열을 추가할 수 **있습니다.** 그런 다음 동료와 함께 이 목록을 검토하여 이 서비스가 조직의 요구 사항을 충족하는지 확인할 수 있습니다.
 
 
 |    |     |

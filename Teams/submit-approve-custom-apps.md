@@ -40,7 +40,7 @@ ms.locfileid: "50145805"
 
 ![개발에서 배포까지의 앱 개요](media/custom-app-lifecycle.png)
 
-이 지침은 앱의 Teams 측면을 중점적으로 설명하며 관리자와 IT를 위한 것입니다. Teams 앱 개발에 대한 자세한 내용은 Teams 개발자 <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">설명서를 참조하세요.</a>
+이 지침은 앱의 Teams 측면을 중점적으로 설명하며 관리자와 IT 팀을 위한 것입니다. Teams 앱 개발에 대한 자세한 내용은 Teams 개발자 <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">설명서를 참조하세요.</a>
 
 ## <a name="develop"></a>개발
 
@@ -52,7 +52,7 @@ Microsoft Teams 개발자 플랫폼을 사용하면 개발자가 자신의 앱�
 
 앱이 프로덕션에서 사용할 준비가 되면 개발자는 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">Graph API,</a>Visual Studio Code와 같은 통합 개발 환경(IDE) 또는 Power Apps 및 Power Virtual Agent와 같은 플랫폼에서 호출할 수 있는 Teams 앱 제출 API를 사용하여 앱을 제출할 수 있습니다. 이렇게 하면 Microsoft Teams <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> 관리 센터의 앱 관리 페이지에서 앱을 사용할 수 있습니다. 여기서 관리자는 앱을 검토하고 승인할 수 있습니다.
 
-<a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph를</a>사용하여 구축된 Teams 앱 제출 API를 사용하면 조직에서 사용자가 선택한 플랫폼에서 개발하고 Teams에서 사용자 지정 앱에 대한 제출-승인 프로세스를 자동화할 수 있습니다.
+<a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph를</a>사용하여 구축된 Teams 앱 제출 API를 사용하면 조직에서 선택한 플랫폼에서 개발하고 Teams에서 사용자 지정 앱에 대한 승인 제출 프로세스를 자동화할 수 있습니다.
 
 다음은 코드에서 이 앱 제출 단계의 Visual Studio 예입니다.
 
@@ -64,9 +64,9 @@ Graph API를 사용하여 앱을 제출하는 데 대한 자세한 내용은 여
 
 ## <a name="validate"></a>유효성 검사
 
-Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> Teams 관리 센터의 앱 관리 페이지(왼쪽 탐색에서 **Teams** 앱 관리 앱으로 이동)는 조직의 모든 Teams 앱에  >  대한 보기를 제공합니다. 페이지 **맨 위에** 있는 보류 중인 승인 위젯을 통해 승인을 위해 사용자 지정 앱이 제출될 때를 알 수 있습니다.
+Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> Teams 관리 센터의 앱 관리 페이지(왼쪽 탐색에서 **Teams** 앱 관리 앱으로 이동)를 통해 조직의 모든 Teams 앱을 볼  >  수 있습니다. 페이지 **맨 위에** 있는 보류 중인 승인 위젯을 통해 승인을 위해 사용자 지정 앱이 제출될 때를 알 수 있습니다.
 
-표에서 새로 제출된 앱은 자동으로  제출 상태 및  차단 **상태입니다.**  게시 상태 **열을** 내선 순서대로 정렬하여 앱을 빠르게 찾을 수 있습니다.
+테이블에서 새로 제출된 앱은 자동으로 제출 상태  및  차단된 **상태입니다.**  게시 상태 **열을** 내선 순서대로 정렬하여 앱을 빠르게 찾을 수 있습니다.
 
 ![게시 상태 ](media/custom-app-lifecycle-validate-app.png)
 

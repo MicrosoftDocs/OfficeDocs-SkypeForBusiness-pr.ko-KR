@@ -62,7 +62,7 @@ ms.locfileid: "49570907"
 |통화 플랜을 구매할 수 있나요?  <br/> |예  <br/> |
 |통화 요금제에 사용할 수 있는 시간(분)입니다. |월별 4개의 요금제 옵션을 사용할 수 있습니다. <ul><li>국내 통화 요금제 120분 </li><li>240분 국내 통화 요금제</li></li><li>1200분 국내 통화 요금제 </li></li><li>국내 및 국제 통화 요금제: 국내 통화 1200분 -OR- 국제 통화 600분(달력 월에 먼저 도달)</li></li></ul>[IT(Tariff 투명도)](https://www.microsoft.com/download/details.aspx?id=102426)<br>[EN(Tariff 투명도)](https://www.microsoft.com/download/details.aspx?id=102426) |
 |프리미엄 번호로 아웃바운드 전화를 걸 수 있나요?  <br/> | 현재는 지원되지 않습니다. <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> | 이러한 국가를 포함하여 196개 [these](users-can-make-outbound-calls-to-these-countries-and-regions.md)국가에<br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> | 이러한 국가를 포함하여 196개 [](users-can-make-outbound-calls-to-these-countries-and-regions.md)국가에<br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 

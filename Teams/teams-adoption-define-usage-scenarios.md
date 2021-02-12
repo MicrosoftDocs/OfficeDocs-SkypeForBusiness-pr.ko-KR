@@ -30,7 +30,7 @@ ms.locfileid: "49804598"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Microsoft Teams의 사용 시나리오 정의
 
-구현의 이 단계에 대한 범위에 포함될 비즈니스 프로젝트(시나리오)를 이해해야 합니다. Early Adopter 프로그램에 대한 좋은 후보인 예제 시나리오 목록을 살펴보겠습니다. 다음과 같이 쉽게 시작할 수 있습니다.
+구현의 이 단계에 대한 범위에 포함될 비즈니스 프로젝트(시나리오)를 이해해야 합니다. Early Adopter 프로그램에 대한 좋은 후보인 예제 시나리오 목록을 살펴보겠습니다. 다음과 같은 쉬운 이기기부터 시작할 수 있습니다.
 
 - 개인 생산성
 - 최신 프로젝트 관리
@@ -47,7 +47,7 @@ ms.locfileid: "49804598"
 
 ![모든 시나리오에 대한 Teams 사용 사례 그림](media/teams-adoption-use-cases.png)
 
-이 시나리오 현대화 동작은 누적 프로세스로 생각하면 더 기본적인 시나리오를 통해 새로운 작업 방식에 대한 열의, 친숙성 및 신뢰성을 만들 수 있습니다. 그런 다음, 보다 야심차게 영향을 미치는 영역으로 진행합니다. Microsoft Teams에 대한 영향이 비즈니스 동료에게 더 많은 영향을 줄수록 더 많은 참여가 이루어지며 모멘텀이 구축됩니다. 많은 고객의 경우 이 프로세스를 진행하면 비즈니스 이해 관계자가 동료가 Microsoft Teams에서 가치를 얻게 된 방법을 학습한 후 비즈니스 이해 관계자가 접근하는 것을 알 수 있습니다.
+이 시나리오 현대화 동작은 누적 프로세스로 생각하면 더 기본적인 시나리오를 통해 새로운 작업 방식에 대한 열의, 친숙성 및 신뢰성을 만들 수 있습니다. 그런 다음, 보다 야심차게 영향을 미치는 영역으로 진행합니다. Microsoft Teams에 대한 영향이 비즈니스 동료에게 더 많은 영향을 줄수록 더 많은 참여가 이루어지며 모멘텀이 구축됩니다. 많은 고객의 경우 이 프로세스를 진행하면 비즈니스 이해 관계자가 동료가 Microsoft Teams에서 가치를 얻게 됐는 방법을 학습한 후 비즈니스 이해 관계자가 접근하는 것을 알 수 있습니다.
 
 ## <a name="interview-business-stakeholders"></a>비즈니스 관련자 면접
 
@@ -72,4 +72,4 @@ ms.locfileid: "49804598"
 > [!Note]
 > 우리는 고객이 새로운 혁신적인 방법으로 Teams를 사용하는 방법을 알아보기 위해 항상 열의를 다하고 있습니다. 채택 #TeamsStories 포럼에서 [공유하세요.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) 게시물에 해시태그 **#TeamsStories** 포함합니다. 조직에서 Teams를 사용하는 방법에 항상 관심이 있습니다.
 
-![다음 단계를 나타내는 아이콘: ](media/teams-adoption-next-icon.png) Early Adopters 온보드 [및 피드백 수집.](teams-adoption-onboard-early-adopters.md)
+![다음 단계를 나타내는 아이콘: 초기 채택자 ](media/teams-adoption-next-icon.png) 온보드 [및 피드백 수집.](teams-adoption-onboard-early-adopters.md)

@@ -43,7 +43,7 @@ ms.locfileid: "49578251"
 사용자 준비 준비와 동시에 이러한 작업을 완료합니다.
 
 - [성공적인 업그레이드 여정에](upgrade-prepare-IT-pros.md) 필요한 것을 확보할 수 있도록 IT 직원을 준비합니다.
-- 환경이 모든 요구 [prerequisites](upgrade-plan-journey-prerequisites.md)사항을 충족하는지 확인하고 Microsoft 365 또는 Office 365 서비스 및 Teams의 종속성에 대해 이해합니다.
+- 환경이 모든 요구 [](upgrade-plan-journey-prerequisites.md)사항을 충족하는지 확인하고 Microsoft 365 또는 Office 365 서비스 및 Teams의 종속성에 대해 이해합니다.
 - [샘플 설문지로](upgrade-plan-journey-evaluate-environment.md) 환경 검색을 수행하여 Teams로의 성공적인 업그레이드 여정을 수행할 조직의 준비를 확인하여 환경을 평가합니다.
 - [네트워크에서](prepare-network.md) Teams 워크로드를 지원하기 위해 필요한 수정 단계를 계획, 준비 및 수행하여 네트워크를 준비합니다.
 - [온보드](upgrade-prepare-environment-prepare-service.md) 검사 목록을 사용하여 롤아웃할 서비스를 준비하여 Teams 구성이 비즈니스용 Skype에서 Teams로 사용자 마이그레이션을 지원할 준비가 되도록 합니다.

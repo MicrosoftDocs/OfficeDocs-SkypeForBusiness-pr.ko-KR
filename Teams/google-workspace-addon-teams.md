@@ -27,9 +27,9 @@ ms.locfileid: "49880879"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace용 Microsoft Teams 모임 추가 기능 설정
 
-Microsoft Teams 모임 추가 기능을 사용하면 Google 일정 사용자가 Google Workspace에서 직접 Microsoft Teams 모임을 예약하고 참가할 수 있습니다. 사용자는 비디오 및 오디오 회의, 화면 공유, 모임 채팅, 디지털 화이트보드 등을 포함한 Teams 모임 기능에 액세스할 수 있습니다. 업무, 학교 및 생활에서 더 많은 일을 할 수 있도록 연결되고 체계적으로 정리합니다.
+Microsoft Teams 모임 추가 기능을 사용하면 Google 일정 사용자가 Google Workspace에서 직접 Microsoft Teams 모임을 예약하고 참가할 수 있습니다. 사용자는 비디오 및 오디오 회의, 화면 공유, 모임 채팅, 디지털 화이트보드 등을 포함한 Teams 모임 기능에 액세스할 수 있습니다. 업무, 학교 및 생활에서 더 많은 일을 할 수 있도록 연결되고 체계적으로 정리되어 있습니다.
 
-테넌트 사용자가 앱에 액세스하려면 먼저 Teams 관리자가 Google 작업 영역용 Microsoft Teams 모임 추가 기능을 사용하도록 설정해야 합니다.
+테넌트 사용자가 앱에 액세스하려면 먼저 Teams 관리자가 Google Workspace용 Microsoft Teams 모임 추가 기능을 사용하도록 설정해야 합니다.
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Azure Portal에서 Google 작업 영역용 Microsoft Teams 모임 추가 기능 사용 또는 사용 안 하도록 설정
 

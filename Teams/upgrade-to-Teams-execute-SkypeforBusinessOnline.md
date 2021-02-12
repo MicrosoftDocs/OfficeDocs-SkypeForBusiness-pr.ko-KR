@@ -50,7 +50,7 @@ ms.locfileid: "49578261"
 
 Microsoft Teams 관리 센터 또는 비즈니스용 Skype 원격 액세스 세션을 사용하여 수행할 수 있는 TeamsUpgradePolicy의 UpgradeToTeams 인스턴스를 할당하여 사용자를 TeamsOnly 모드로 업그레이드할 Windows PowerShell 있습니다. 사용자별 또는 테넌트 전체를 한 단계로 업그레이드하려는 경우 테넌트 전체에서 이 작업을 할 수 있습니다. 
 
-자세한 내용은 마이그레이션 [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) 및 공존 관리와 같은 공존 및 업그레이드 설정 및 [TeamsUpgradePolicy 설정을 참조하세요.](upgrade-to-teams-on-prem-tools.md)
+자세한 내용은 마이그레이션 [](https://aka.ms/SkypeToTeams-SetCoexistence) 및 공존 관리와 같은 공존 및 업그레이드 설정 및 [TeamsUpgradePolicy 설정을 참조하세요.](upgrade-to-teams-on-prem-tools.md)
 
 ## <a name="upgrade-all-users-to-teams-at-one-time"></a>모든 사용자를 Teams로 한 번 업그레이드
 
@@ -59,12 +59,12 @@ Microsoft Teams 관리 센터 또는 비즈니스용 Skype 원격 액세스 세�
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>1단계: 사용자에게 변경 알림(선택 사항)
 
 1. Microsoft Teams 관리 센터에서 Teams **업그레이드를** 전체  >  **설정으로 선택합니다.**
-2. 공존 모드에서 Teams로 업그레이드할 수 있는 비즈니스용 Skype 사용자에게 **알림 설정으로** **Coexistence mode** **전환합니다.**
+2. 공존 모드에서 Teams로 업그레이드할 수 있는 비즈니스용 Skype 사용자에게 **알림 설정으로**  **전환합니다.**
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>2단계: 조직의 TeamsOnly에 공존 모드 설정
 
 1. Microsoft Teams 관리 센터에서 **전체 설정을 선택합니다.**
-2. 공존 모드 **드롭다운** 목록에서 Teams 전용 모드를 선택합니다. **Coexistence mode**
+2. 공존 모드 **드롭다운** 목록에서 Teams 전용 모드를 선택합니다. 
 
 ## <a name="upgrade-users-in-stages"></a>단계적 사용자 업그레이드
 
@@ -77,7 +77,7 @@ Microsoft Teams 관리 센터 또는 비즈니스용 Skype 원격 액세스 세�
 ### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>2단계: 현재 업그레이드 웨이브의 사용자에 대한 알림 설정(선택 사항)
 
 Microsoft Teams 관리 센터를 사용하는 경우 동시에 최대 20명까지 TeamsUpgradePolicy를 구성할 수 있습니다.
-1. Microsoft Teams 관리 센터에서 **Users** 사용자를 선택하고 업그레이드해야 하는 최대 20명에 대한 확인란을 찾아 다중 선택합니다. 
+1. Microsoft Teams 관리 센터에서 사용자를 선택하고 업그레이드해야 하는 최대 20명에 대한 확인란을 찾아 다중 선택합니다. 
 2. 목록 **보기의** 왼쪽 위 모서리에서 설정 편집을 선택합니다. 
 3. 오른쪽의 설정 **편집 창에서** **Teams** 업그레이드 아래에서 비즈니스용 Skype 사용자 알림 **스위치를** 켜기로 **변경합니다.** 참고: 공존 모드의 값이 "전체 설정 사용"인 경우 이 스위치가 표시되지 않습니다. 따라서 먼저 이러한 사용자에 대한 공존 모드를 구성의 기본값으로 명시적으로 설정해야 합니다.
 
@@ -88,9 +88,9 @@ Microsoft Teams 관리 센터를 사용하는 경우 동시에 최대 20명까�
 현재 웨이브의 사용자를 업그레이드하여 Teams를 유일한 응용 프로그램으로 사용할 준비가 된 경우 사용자의 공존 모드를 Teams로만 설정합니다.
 
 Microsoft Teams 관리 센터를 사용하는 경우 동시에 최대 20명까지 TeamsUpgradePolicy를 구성할 수 있습니다.
-1. Microsoft Teams 관리 센터에서 **Users** 사용자를 선택한 다음 최대 20명까지 확인란을 선택합니다.
+1. Microsoft Teams 관리 센터에서 사용자를 선택한 다음 최대 20명까지 확인란을 선택합니다.
 2. 목록 **보기의** 왼쪽 위 모서리에서 설정 편집을 선택합니다.
-3. 오른쪽의 **Edit settings** 설정 편집 창의 **Teams** 업그레이드 섹션 아래 드롭다운 목록에서만 공존 모드를 **Teams로** 설정하세요.
+3. 오른쪽의  설정 편집 창의 **Teams** 업그레이드 섹션 아래 드롭다운 목록에서만 공존 모드를 **Teams로** 설정하세요.
 
 또는 PowerShell을 사용하여 사용자 그룹을 한 번 더 쉽게 업그레이드할 수 있습니다. 
 

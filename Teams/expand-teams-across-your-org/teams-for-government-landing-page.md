@@ -22,7 +22,7 @@ ms.locfileid: "49825318"
 ---
 # <a name="teams-for-government"></a>정부 기관용 Teams
 
-이러한 리소스를 사용하여 Microsoft 365 Government 환경에서 Teams를 배포하기 위한 특정 고려 사항을 알아보십시오. 준비가 됐을 때 Microsoft Teams를 롤아웃하는 방법에 설명된 Teams에 대해 권장되는 동일한 배포 [경로를 따르는 것이 좋습니다.](../How-to-roll-out-teams.md)
+이러한 리소스를 사용하여 Microsoft 365 Government 환경에서 Teams를 배포하기 위한 특정 고려 사항을 알아보십시오. 준비가 됐을 때 Microsoft Teams를 롤아웃하는 방법에 설명된 Teams에 대해 동일한 권장 배포 [경로를 따르는 것이 좋습니다.](../How-to-roll-out-teams.md)
 
 |               |               |
 | ------------- | ------------- |

@@ -37,7 +37,7 @@ ms.locfileid: "49825068"
     
    - Exchange 저장소와의 통합을 사용하도록 설정하려면 **Microsoft Exchange 통합** 확인란을 선택합니다.
     
-   - Exchange 저장소와의 통합을 사용하지 않도록 설정하기 위해 Microsoft Exchange 통합 **확인란의 선택을** 취소합니다.
+   - Exchange 저장소와의 통합을 사용하지 않도록 설정하기 위해 Microsoft Exchange 통합 확인란의 **선택을** 취소합니다.
     
 5. **커밋** 을 클릭합니다.
     

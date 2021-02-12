@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 사용 가능성, 유선/고정 회선, 모바일 네트워크 가용성, 제한을 포함 하 여, 무료 번호를 멕시코로 전화 거는 방법에 대해 알아봅니다.
+description: 가용성, 유선/고정 선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 멕시코의 무료 전화 번호에 대해 자세히 배워야 합니다.
 ms.openlocfilehash: ab4540cb2c311ca0e869e60f1a638f4d0517c06b
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43140327"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>멕시코의 무료 전화 걸기 제한
 
-[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.
+[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 사항 및 제한에 대해 자세히 알아보거나
 
 
 |**세부 정보**|**설명**|
 |:-----|:-----|
-|무료 전화를 받을 수 있나요?  <br/> |예  <br/> |
+|무료 통화를 사용할 수 있나요?  <br/> |예  <br/> |
 |전화 걸기 형식  <br/> | 001 800 XXX XXXX <br/>  01 800 XXX XXXX <br/> |
-|국가/지역 ISO 코드  <br/> |멕시코  <br/> |
-|섬/지역 포함  <br/> |해당 사항 없음  <br/> |
-|섬/지역 포함 안 함  <br/> |해당 사항 없음  <br/> |
-|유선/고정 회선 가용성  <br/> |Partial. 메모를 참조 하세요.  <br/> |
-|모바일 네트워크 가용성  <br/> |Partial. 메모를 참조 하세요.  <br/> |
-|메모, 제한 사항 및 액세스 문제  <br/> |국가별 roamers 액세스가 보장 되지 않습니다.  <br/> 001-800 숫자 형식: 고정 액세스-통신의 경우. 휴대 전화 액세스의 경우-Telcel 전용. 방송 시간이 부과 됩니다. 지역 및 시외 전화 공급자로 서의 통신을 사용 하는 경우 최종 고객이 추가 요금이 부과 되지 않습니다.  <br/> 01-800 숫자 형식에 대 한 자세한 내용: 휴대 전화 접속 시간이 부과 됩니다.  <br/> |
+|국가/지역 ISO 코드  <br/> |MX  <br/> |
+|덮여 있는 섬/지역  <br/> |해당 사항 없음  <br/> |
+|섬/지역은 적용되지 않습니다.  <br/> |해당 사항 없음  <br/> |
+|유선/고정 선 가용성  <br/> |부분. 설명을 참조합니다.  <br/> |
+|모바일 네트워크 가용성  <br/> |부분. 설명을 참조합니다.  <br/> |
+|주석, 제한 사항 및 액세스 문제  <br/> |국제 로밍에서 액세스가 보장되지는 않습니다.  <br/> 001-800 숫자 형식: 고정 액세스의 경우 - Telmex입니다. 모바일 액세스의 경우 - Telcel만 해당됩니다. Airtime 요금이 청구됩니다. 최종 고객이 로컬 및 장거리 공급자로 Telmex를 사용 중이면 추가 요금이 부과되지 않습니다.  <br/> 01-800 번호 형식: 모바일 액세스 항공 시간 요금이 청구됩니다.  <br/> |
    
 ## <a name="related-topics"></a>관련 항목
 

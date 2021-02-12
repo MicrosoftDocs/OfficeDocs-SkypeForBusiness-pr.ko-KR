@@ -44,9 +44,9 @@ ms.locfileid: "49804118"
 
 ### <a name="to-configure-call-park-settings"></a>통화 파크 설정을 구성하려면
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
 
-2. 을 실행합니다.
+2. 실행:
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
@@ -55,7 +55,7 @@ ms.locfileid: "49804118"
    > [!TIP]
    > **Get-CsSite** cmdlet을 사용하여 사이트를 식별합니다. 자세한 내용은 비즈니스용 Skype 서버 관리 셸 설명서를 참조하십시오.
 
-    예제:
+    예시:
 
    ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
@@ -63,7 +63,7 @@ ms.locfileid: "49804118"
 
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 통화 파킹 음악 사용자 지정 inSkype for Business 2015](customize-call-park-music-on-hold.md)
+[비즈니스용 통화 파킹된 음악 사용자 지정 inSkype for Business 2015](customize-call-park-music-on-hold.md)
 
 [New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 

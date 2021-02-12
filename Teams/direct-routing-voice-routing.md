@@ -1,5 +1,5 @@
 ---
-title: 다이렉트 라우팅에 대 한 음성 라우팅 구성
+title: 직접 라우팅에 대한 음성 라우팅 구성
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Microsoft 전화 시스템 다이렉트 라우팅을 사용 하 여 음성 라우팅을 구성 하는 방법에 대해 알아봅니다.
+description: Microsoft Phone System Direct Routing을 통해 음성 라우팅을 구성하는 방법을 배워야 합니다.
 ms.openlocfilehash: e87d7d04f9b2477d65e08f461ac3ff113b4d0e7c
 ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: MT
@@ -23,149 +23,149 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/02/2020
 ms.locfileid: "49530995"
 ---
-# <a name="configure-voice-routing-for-direct-routing"></a>다이렉트 라우팅에 대 한 음성 라우팅 구성
+# <a name="configure-voice-routing-for-direct-routing"></a>직접 라우팅에 대한 음성 라우팅 구성
 
-이 문서에서는 전화 시스템 다이렉트 라우팅에 대 한 음성 라우팅을 구성 하는 방법을 설명 합니다.  직접 라우팅 구성에 대 한 단계 3 단계는 다음과 같습니다.
+이 문서에서는 전화 시스템 직접 라우팅에 대한 음성 라우팅을 구성하는 방법을 설명하고 있습니다.  직접 라우팅을 구성하기 위한 다음 단계의 3단계입니다.
 
-- 1 단계. [Microsoft 전화 시스템을 사용 하 여 SBC 연결 및 연결 확인](direct-routing-connect-the-sbc.md) 
-- 2 단계. [사용자가 직접 라우팅, 음성, 보이스 메일을 사용할 수 있도록 설정](direct-routing-enable-users.md)
-- **3 단계. 음성 라우팅 구성** (이 문서)
-- 4 단계. [숫자를 대체 형식으로 번역](direct-routing-translate-numbers.md) 
+- 1단계. [Microsoft Phone System에 SBC 연결 및 연결 유효성 검사](direct-routing-connect-the-sbc.md) 
+- 2단계. [사용자가 직접 라우팅, 음성 및 음성을 사용할 수 있도록 설정](direct-routing-enable-users.md)
+- **3단계. 음성 라우팅 구성(이** 문서)
+- 4단계. [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md) 
 
-직접 라우팅을 설정 하는 데 필요한 모든 단계에 대 한 자세한 내용은 [직접 라우팅 구성을](direct-routing-configure.md)참조 하세요.
+직접 라우팅을 설정하는 데 필요한 모든 단계에 대한 자세한 내용은 직접 라우팅 [구성을 참조하세요.](direct-routing-configure.md)
 
 ## <a name="voice-routing-overview"></a>음성 라우팅 개요
 
-Microsoft 휴대폰 시스템에는 다음을 기준으로 특정 SBC (세션 경계 컨트롤러)로 전화를 보낼 수 있는 라우팅 메커니즘이 있습니다. 
+Microsoft Phone System에는 통화를 특정 SBC(세션 테두리 컨트롤러)로 보낼 수 있는 라우팅 메커니즘이 있습니다. 
 
-- 호출 된 번호 패턴 
-- 호출 되는 특정 사용자와 전화 번호 패턴을 함께 사용 합니다.
+- 호출된 숫자 패턴 
+- 호출된 번호 패턴과 통화를 하는 특정 사용자
  
-SBCs는 활성 및 백업으로 지정 될 수 있습니다. 활성으로 구성 된 SBC를 특정 통화 경로에 대해 사용할 수 없는 경우에는 통화가 백업 SBC로 라우팅됩니다.
+SBC는 활성 및 백업으로 지정될 수 있습니다. 활성으로 구성된 SBC를 특정 호출 경로에 사용할 수 없는 경우 호출이 백업 SBC로 라우팅됩니다.
  
-음성 라우팅은 다음 요소로 이루어집니다. 
+음성 라우팅은 다음 요소로 구성됩니다. 
 
-- **음성 라우팅 정책** – 사용자 또는 여러 사용자에 게 할당할 수 있는 PSTN 용도를 위한 컨테이너입니다. 
+- **음성 라우팅 정책** - 사용자 또는 여러 사용자에게 할당할 수 있는 PSTN 사용에 대한 컨테이너입니다. 
 
-- **Pstn** 사용 – 다른 음성 라우팅 정책에서 공유할 수 있는 음성 경로 및 PSTN 용도에 대 한 컨테이너입니다. 
+- **PSTN 사용** – 다양한 음성 라우팅 정책에서 공유할 수 있는 음성 경로 및 PSTN 사용에 대한 컨테이너입니다. 
 
-- **음성 경로** – 호출 번호가 패턴과 일치 하는 호출에 사용할 수 패턴과 온라인 PSTN 게이트웨이 집합을 말합니다.
+- **음성 경로** – 호출 번호가 패턴과 일치하는 호출에 사용할 온라인 PSTN 게이트웨이의 번호 패턴 및 집합입니다.
 
-- **온라인 PSTN 게이트웨이** -호출이 sbc를 통해 호출 될 때 적용 되는 구성을 저장 하는 sbc에 대 한 포인터로, (예: pai (정방향 P-어설션된-Identity) 또는 기본 설정 코덱). 음성 경로에 추가할 수 있습니다.
+- **온라인 PSTN** 게이트웨이 - PAI(Forward P-Asserted-Identity) 또는 기본 코덱과 같이 SBC를 통해 호출이 배치될 때 적용되는 구성도 저장하는 SBC에 대한 포인터입니다. 음성 경로에 추가할 수 있습니다.
 
 ## <a name="voice-routing-policy-considerations"></a>음성 라우팅 정책 고려 사항
 
-사용자에 게 통화 요금제 라이선스가 있는 경우 해당 사용자의 발신 통화가 Microsoft 호출 계획 PSTN 인프라를 통해 자동으로 라우팅됩니다. 온라인 음성 라우팅 정책을 구성 하 고 호출 계획 사용자에 게 할당 하는 경우 해당 사용자의 발신 전화를 확인 하 여 전화를 거는 번호가 온라인 음성 라우팅 정책에 정의 된 번호 패턴과 일치 하는지 여부를 결정 합니다. 일치 하는 항목이 있는 경우에는 통화가 직접 라우팅 트렁크를 통해 라우트됩니다. 일치 하는 항목이 없는 경우 통화 요금제 PSTN 인프라를 통해 통화가 전달 됩니다.
+사용자에게 통화 요금제 라이선스가 있는 경우 해당 사용자의 발신 호출은 Microsoft 통화 계획 PSTN 인프라를 통해 자동으로 라우팅됩니다. 통화 계획 사용자에게 온라인 음성 라우팅 정책을 구성하고 할당하는 경우 해당 사용자의 발신 전화가 전화 걸기 번호가 온라인 음성 라우팅 정책에 정의된 번호 패턴과 일치하는지 여부를 확인하도록 확인됩니다. 일치하는 경우 직접 라우팅 트렁크를 통해 호출이 라우팅됩니다. 일치하는 것이 없는 경우 호출은 호출 계획 PSTN 인프라를 통해 라우팅됩니다.
 
 > [!CAUTION]
-> 전역 (조직 전체 기본값) 온라인 음성 라우팅 정책을 구성 하 고 적용 하는 경우 조직의 모든 음성 사용 사용자가 해당 정책을 상속 하 여, 호출 계획 사용자가 실수로 직접 라우팅 트렁크로 라우팅되는 PSTN 호출이 발생할 수 있습니다. 모든 사용자가 전역 온라인 음성 라우팅 정책을 사용 하지 않도록 하려면 사용자 지정 온라인 음성 라우팅 정책을 구성 하 고 개별 음성 사용 사용자에 게 할당 합니다.
+> 전역(조직 전체 기본) 온라인 음성 라우팅 정책을 구성하고 적용하는 경우 조직의 모든 음성 지원 사용자는 해당 정책을 상속합니다. 이로 인해 통화 계획 사용자의 PSTN 통화가 직접 라우팅 트렁크로 라우팅될 수 있습니다. 모든 사용자가 글로벌 온라인 음성 라우팅 정책을 사용하지 못하게 하려는 경우 사용자 지정 온라인 음성 라우팅 정책을 구성하고 개별 음성 지원 사용자에게 할당합니다.
 
 ## <a name="example-1-voice-routing-with-one-pstn-usage"></a>예제 1: PSTN 사용량이 하나인 음성 라우팅
 
-다음 다이어그램은 통화 흐름에서 음성 라우팅 정책의 두 가지 예를 보여줍니다.
+다음 다이어그램에서는 통화 흐름의 음성 라우팅 정책의 두 가지 예를 보여 주겠습니다.
 
-**통화 흐름 1 (왼쪽):** 사용자가 + 1 425 XXX XX xx 또는 + 1 206 XXX XX XX에 전화를 거는 경우, 통화는 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz로 라우팅됩니다. Sbc1.contoso.biz 나 sbc2.contoso.biz 모두 사용할 수 없는 경우에는 통화가 손실 됩니다. 
+**호출 흐름 1(왼쪽):** 사용자가 +1 425 XXX XXX 또는 +1 206 XXX XXX XX를 호출하는 경우 호출은 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. 둘 다 sbc1.contoso.biz sbc2.contoso.biz 사용할 수 없는 경우 호출이 삭제됩니다. 
 
-**통화 흐름 2 (오른쪽):** 사용자가 + 1 425 XXX XX xx 또는 + 1 206 XXX XX XX에 전화를 거는 경우, 통화는 먼저 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz로 라우팅됩니다. 두 SBC를 모두 사용할 수 없는 경우 우선 순위가 낮은 경로 (sbc3.contoso.biz 및 sbc4.contoso.biz)가 시도 됩니다. 사용할 수 있는 SBCs 장치가 없으면 통화가 끊깁니다. 
+**호출 흐름 2(오른쪽):** 사용자가 +1 425 XXX XXX 또는 +1 206 XXX XXX XX를 호출하는 경우 호출은 먼저 SBC sbc1.contoso.biz 또는 sbc2.contoso.biz. SBC를 사용할 수 없는 경우 우선 순위가 낮은 경로가 시도됩니다(sbc3.contoso.biz sbc4.contoso.biz. 사용할 수 있는 SBC가 없는 경우 호출이 삭제됩니다. 
 
 ![음성 라우팅 정책 예제 표시](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-두 예제에서 음성 경로에 우선 순위를 할당 하는 동안 경로의 SBCs는 임의 순서 대로 시도 됩니다. 두 SBC의 경로가 하나의 경로에 구성 되어 있는 경우 전송에 대 한 새 초대가 경로의 다른 SBC에 전송 될 수 있으므로 두 sbc 또는 media 모두에 대 한 네트워크 트래픽이 전송에 설정 되지 않습니다.
+두 예제에서 음성 경로에 우선 순위가 할당되는 동안 경로의 SBC는 임의 순서로 시도됩니다. 두 SBC가 하나의 경로에 구성된 경우 전송 시 SBC 또는 미디어 간에 네트워크 트래픽을 라우팅할 수 있어야 합니다. 전송에 대한 새 초대가 경로의 다른 SBC로 전송될 수 있을 수 있습니다.
 
   > [!NOTE]
-  > 사용자에 게 Microsoft 통화 계획 라이선스가 없는 경우 예제 구성의 패턴 + 1 425 XXX XX xx 또는 + 1 206 XXX XX XX와 일치 하는 숫자를 제외한 모든 번호로 거는 호출이 삭제 됩니다. 사용자에 게 통화 요금제 라이선스가 있는 경우이 통화는 Microsoft 호출 계획의 정책에 따라 자동으로 라우팅됩니다. Microsoft 통화 요금제는 Microsoft 통화 계획 라이선스를 사용 하 여 모든 사용자의 마지막 경로에 자동으로 적용 되며 추가 통화 라우팅 구성이 필요 하지 않습니다.
+  > 사용자에게 Microsoft 통화 요금제 라이선스가 없는 한, 예제 구성에서 패턴 +1 425 XXX XX 또는 +1 206 XXX XX XX와 일치하는 숫자를 제외한 모든 번호로의 호출이 삭제됩니다. 사용자에게 통화 요금제 라이선스가 있는 경우 Microsoft 통화 계획의 정책에 따라 호출이 자동으로 라우팅됩니다. Microsoft 통화 요금제는 Microsoft 통화 요금제 라이선스가 있는 모든 사용자에게 마지막 경로로 자동으로 적용되며 추가 호출 라우팅 구성이 필요하지 않습니다.
 
-다음 다이어그램에 표시 된 예제에서는 다른 모든 미국 및 캐나다 번호로 전화를 보낼 수 있는 음성 경로가 추가 됩니다 (호출 되는 번호 패턴 + 1 XXX XXX XX XX (으)로 이동 하는 호출).
+다음 다이어그램에 표시된 예제에서는 다른 모든 미국 및 캐나다 번호로 통화를 보내기 위해 음성 경로가 추가됩니다(번호 패턴 +1 XXX XXX XX XX XX로 이동하는 호출).
 
 ![세 번째 경로가 있는 음성 라우팅 정책 표시](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
-다른 모든 통화에 대해 사용자에 게 라이선스 (Microsoft 전화 시스템 및 Microsoft 호출 계획)가 둘 다 있는 경우 자동 경로가 사용 됩니다. 관리자가 만든 온라인 음성 경로의 숫자 패턴과 일치 하는 항목이 없는 경우 통화는 Microsoft 통화 요금제를 통해 라우팅됩니다. 사용자에 게 Microsoft 전화 시스템만 있는 경우에는 일치 하는 규칙을 사용할 수 없기 때문에 통화가 끊깁니다.
+다른 모든 호출의 경우 사용자에게 라이선스(Microsoft 전화 시스템 및 Microsoft 통화 요금제)가 모두 있는 경우 자동 경로가 사용됩니다. 관리자가 만든 온라인 음성 경로의 번호 패턴과 일치하는 것이 없는 경우 통화는 Microsoft 통화 계획을 통해 라우팅됩니다. 사용자에게 Microsoft 전화 시스템만 있는 경우 일치하는 규칙을 사용할 수 없습니다.
 
   > [!NOTE]
-  > 패턴 + 1 XXX XXX XX XX와 일치 하는 경로만 있으므로이 경우 경로 "Other + 1"에 대 한 우선 순위 값은 중요 하지 않습니다. 사용자가 + 1 324 567 89 89를 호출 하 고 sbc5.contoso.biz 및 sbc6.contoso.biz를 모두 사용할 수 없는 경우 통화가 삭제 됩니다.
+  > 이 경우 패턴 +1 XXX XXX XXX XX와 일치하는 경로가 하나뿐이기 때문에 "기타 +1" 경로에 대한 우선 순위 값은 중요하지 않습니다. 사용자가 +1 324 567 89 89를 호출하고 sbc5.contoso.biz 및 sbc6.contoso.biz 모두 사용할 수 없는 경우 통화가 삭제됩니다.
 
-다음 표에는 세 가지 음성 경로를 사용 하는 구성이 요약 되어 있습니다. 이 예제에서는 세 경로가 모두 동일한 PSTN 사용 인 "미국 및 캐나다"의 일부입니다.  모든 경로는 "미국 및 캐나다" PSTN 사용과 연결 되며 PSTN 사용은 "미국 전용" 음성 라우팅 정책에 연결 됩니다.
+다음 표에는 세 개의 음성 경로를 사용하는 구성이 요약되어 있습니다. 이 예제에서 세 개의 경로는 모두 동일한 PSTN 사용량인 "미국 및 캐나다"의 일부입니다.  모든 경로는 "미국 및 캐나다" PSTN 사용량과 연결됩니다. PSTN 사용량은 "US 전용" 음성 라우팅 정책과 연결됩니다.
 
-|**PSTN 사용**|**음성 경로**|**번호 패턴**|**중요도**|**하더라도**|**설명**|
+|**PSTN 사용**|**음성 경로**|**숫자 패턴**|**우선 순위**|**SBC**|**설명**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|미국 및 캐나다|"Redmond 1"|^\\+ 1 (425 \| 206) (\d {7} ) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|호출 되는 번호 + 1 425 XXX XX XX 또는 + 1 206 XXX XX XX의 활성 경로|
-|미국 및 캐나다|"Redmond 2"|^\\+ 1 (425 \| 206) (\d {7} ) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|호출 되는 번호에 대 한 백업 경로 + 1 425 XXX XX XX 또는 + 1 206 XXX XX XX|
-|미국 및 캐나다|"기타 + 1"|^\\+ 1 (\d {10} ) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|호출 되는 번호에 대 한 경로 + 1 XXX XXX XX XX (+ 1 425 XXX xx xx 또는 + 1 206 XXX XX xx 제외)|
+|미국 및 캐나다|"Redmond 1"|^\\+1(425 \| 206)(\d {7} )$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|호출된 숫자 +1 425 XXX XX XX 또는 +1 206 XXX XX XX에 대한 활성 경로|
+|미국 및 캐나다|"Redmond 2"|^\\+1(425 \| 206)(\d {7} )$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|호출된 숫자 +1 425 XXX XX XX 또는 +1 206 XXX XX XX에 대한 백업 경로|
+|미국 및 캐나다|"기타 +1"|^\\+1(\d {10} )$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|호출된 숫자 +1 XXX XXX XX XX에 대한 경로(+1 425 XXX XX XX 또는 +1 206 XXX XX XX 제외)|
 |||||||
 
 ## <a name="example-1-configuration-steps"></a>예제 1: 구성 단계
 
-다음 예제에서는 다음을 수행 하는 방법을 보여 줍니다.
+다음 예제에서는 다음 방법을 보여줍니다.
 
-1. 단일 PSTN 사용량을 만듭니다.
-2. 세 가지 음성 경로를 구성 합니다.
-3. 음성 라우팅 정책을 만듭니다.
-4. Spencer Low 라는 사용자에 게 정책을 할당 합니다.
+1. 단일 PSTN 사용량을 생성합니다.
+2. 세 개의 음성 경로를 구성합니다.
+3. 음성 라우팅 정책을 만들 수 있습니다.
+4. Spencer Low라는 사용자에게 정책을 할당합니다.
 
-[Microsoft 팀 관리 센터](#admincenterexample1) 또는 [PowerShell](#powershellexample1) 을 사용 하 여 다음 단계를 수행할 수 있습니다.
+[Microsoft Teams](#admincenterexample1) 관리 센터 또는 [PowerShell을](#powershellexample1) 사용하여 이러한 단계를 수행할 수 있습니다.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 <a name="admincenterexample1"></a>
 
-#### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>1 단계: "미국 및 캐나다" PSTN 사용을 만듭니다.
+#### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>1단계: "미국 및 캐나다" PSTN 사용량 만들기
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **다이렉트 라우팅으로** 이동한 다음 오른쪽 위 모서리에서 **PSTN 사용 레코드 관리** 를 선택 합니다.
-2. **추가** 를 클릭 하 고 **미국 및 캐나다** 를 입력 한 다음 **적용** 을 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **음성** 직접 라우팅으로 이동한 다음 오른쪽 위 모서리에서  >   **PSTN** 사용 레코드 관리를 선택합니다.
+2. 추가를 **클릭하고** 미국 및 **캐나다를** 입력한 다음 적용을 **클릭합니다.**
 
-#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>2 단계: 세 개의 음성 경로 만들기 (Redmond 1, 레드먼드 2, 기타 + 1)
+#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>2단계: 세 개의 음성 경로 만들기(Redmond 1, Redmond 2 및 기타 +1)
 
-다음 단계에서는 음성 경로를 만드는 방법에 대해 설명 합니다. 이 단계를 사용 하 여 앞의 표에 나와 있는 설정을 사용 하 여이 예제에서 레드먼드 1, 레드먼드 2, 그리고 기타 + 1 이라는 세 개의 음성 경로를 만듭니다.
+다음 단계에서는 음성 경로를 만드는 방법을 설명하고 있습니다. 이전 표에 설명된 설정을 사용하여 이 예제에 대해 Redmond 1, Redmond 2 및 Other +1이라는 3개의 음성 경로를 만들 때 다음 단계를 사용합니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **다이렉트 라우팅으로** 이동한 다음 **음성 경로** 탭을 선택 합니다.
-2. **추가** 를 클릭 한 다음 음성 경로의 이름과 설명을 입력 합니다.
-3. 우선 순위를 설정 하 고 전화 번호 패턴을 지정 합니다.
-4. 음성 경로를 사용 하 여 SBC를 등록 하려면 **sbcs 등록 (선택)** 아래에 **sbcs 추가** 를 클릭 하 고 등록할 Sbcs를 선택한 다음 **적용** 을 클릭 합니다.
-5. PSTN 사용 레코드를 추가 하려면 **pstn 사용 레코드 (선택 사항)** 에서 **pstn 사용량 추가** 를 클릭 하 고 추가 하려는 pstn 레코드를 선택한 다음 **적용** 을 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **음성** 직접 라우팅으로 이동한 다음 음성 경로  >   **탭을** 선택합니다.
+2. **추가를** 클릭한 다음 음성 경로의 이름과 설명을 입력합니다.
+3. 우선 순위를 설정하고 전화 걸기 번호 패턴을 지정합니다.
+4. 음성 경로에 SBC를 등록하려면 **SBC** 등록(선택 사항)에서 **SBC** 추가를 클릭하고 등록할 SBC를 선택한 다음 **적용을 클릭합니다.**
+5. PSTN 사용 레코드를 추가하려면 **PSTN** 사용 레코드(선택 사항)에서 **PSTN** 사용량 추가를 클릭하고 추가할 PSTN 레코드를 선택한 다음 적용을 **클릭합니다.**
 6. **저장** 을 클릭합니다.
 
-#### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>3 단계: "미국 전용" 이라는 음성 라우팅 정책 만들기 및 정책에 "미국 및 캐나다" PSTN 사용 추가
+#### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>3단계: "미국만"이라는 음성 라우팅 정책을 만들고 정책에 "미국 및 캐나다" PSTN 사용량을 추가합니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **음성 라우팅 정책** 으로 이동한 다음 **추가** 를 클릭 합니다.
-2. 이름으로 **만 US** 를 입력 하 고 설명을 추가 합니다.
-3. **Pstn 사용 레코드** 에서 **pstn 사용량 추가** 를 클릭 하 고 "미국 및 캐나다" pstn 사용 레코드를 선택한 다음 **적용** 을 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **음성** 음성 라우팅 정책으로 이동한 다음  >  추가를 **클릭합니다.**
+2. **이름으로 US만** 입력하고 설명을 추가합니다.
+3. **PSTN** 사용 레코드 아래에서 **PSTN** 사용량 추가를 클릭하고 "미국 및 캐나다" PSTN 사용 레코드를 선택한 다음 적용을 **클릭합니다.**
 4. **저장** 을 클릭합니다.
 
-자세히 알아보려면 [음성 라우팅 정책 관리](manage-voice-routing-policies.md)를 참조 하세요.
+자세한 내용은 음성 라우팅 정책 [관리를 참조합니다.](manage-voice-routing-policies.md)
 
-#### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>4 단계: Spencer Low 라는 사용자에 게 음성 라우팅 정책 할당
+#### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>4단계: Spencer Low라는 사용자에게 음성 라우팅 정책 할당
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자** 로 이동한 후 해당 사용자를 클릭합니다.
-2. **정책을** 클릭 한 다음 **할당 된 정책** 옆에 있는 **편집** 을 클릭 합니다.
-3. **음성 라우팅 정책** 에서 "미국 전용" 정책을 선택한 다음 **저장** 을 클릭 합니다.
+2. 정책을 **클릭한** 다음 할당된 정책 옆에 **있는** 편집을 **클릭합니다.**
+3. 음성 **라우팅 정책에서**"미국만" 정책을 선택한 다음 저장을 **클릭합니다.**
 
-자세히 알아보려면 [음성 라우팅 정책 관리](manage-voice-routing-policies.md)를 참조 하세요.
+자세한 내용은 음성 라우팅 정책 [관리를 참조합니다.](manage-voice-routing-policies.md)
 
 ### <a name="using-powershell"></a>PowerShell 사용
 <a name="powershellexample1"></a>
 
 
-#### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>1 단계: "미국 및 캐나다" PSTN 사용을 만듭니다.
+#### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>1단계: "미국 및 캐나다" PSTN 사용량 만들기
 
-비즈니스용 Skype Online의 원격 PowerShell 세션에서 다음을 입력 합니다.
+비즈니스용 Skype Online의 원격 PowerShell 세션에서 다음을 입력합니다.
 
 ```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
-다음을 입력 하 여 사용법을 만들었는지 확인 합니다.
+다음을 입력하여 사용량이 생성됐는지 확인
 
 ```PowerShell
 Get-CSOnlinePSTNUsage
 ``` 
 
-다음은 잘릴 수 있는 이름 목록을 반환 하는 것입니다.
+이 항목은 자일 수 있는 이름 목록을 반환합니다.
 
 ```console
 Identity    : Global
 Usage        : {testusage, US and Canada, International, karlUsage. . .}
 ```
 
-다음 예제에서는 `(Get-CSOnlinePSTNUsage).usage` Powershell 명령을 실행 하 여 전체 이름을 표시 하는 결과를 보여 줍니다 (잘리지 않음).
+다음 예제에서는 Powershell 명령을 실행하여 전체 이름(잘리지 않은)을 표시한 `(Get-CSOnlinePSTNUsage).usage` 결과를 보여줍니다.
 
 <pre>
  testusage
@@ -179,16 +179,16 @@ Usage        : {testusage, US and Canada, International, karlUsage. . .}
  Two trunks
 </pre>
 
-#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>2 단계: 세 개의 음성 경로 만들기 (Redmond 1, 레드먼드 2, 기타 + 1)
+#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>2단계: 세 개의 음성 경로 만들기(Redmond 1, Redmond 2 및 기타 +1)
 
-비즈니스용 Skype Online의 PowerShell 세션에서 "Redmond 1" 경로를 만들려면 다음을 입력 합니다.
+"Redmond 1" 경로를 만들 경우 비즈니스용 Skype Online의 PowerShell 세션에서 다음을 입력합니다.
 
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
-반환 되는 결과:
+반환되는 사항:
 <pre>
 Identity                : Redmond 1
 Priority                : 1
@@ -199,14 +199,14 @@ OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name                    : Redmond 1
 </pre>
 
-Redmond 2 경로를 만들려면 다음을 입력 합니다.
+Redmond 2 경로를 만들 경우 다음을 입력합니다.
 
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc3.contoso.biz, sbc4.contoso.biz -Priority 2 -OnlinePstnUsages "US and Canada"
 ```
 
-다른 + 1 경로를 만들려면 다음을 입력 합니다.
+기타 +1 경로를 만들 경우 다음을 입력합니다.
 
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
@@ -214,22 +214,22 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 ```
 
   > [!CAUTION]
-  > 번호 패턴 특성의 정규식이 유효한 식 인지 확인 합니다. 이 웹 사이트를 사용 하 여 테스트할 수 있습니다. [https://www.regexpal.com](https://www.regexpal.com)
+  > NumberPattern 특성의 정규식이 유효한 식으로 설정해야 합니다. 이 웹 사이트를 사용하여 테스트할 수 있습니다. [https://www.regexpal.com](https://www.regexpal.com)
 
-일부 경우에는 동일한 SBC에 대 한 모든 통화를 라우팅할 필요가 있습니다. -번호 사용 패턴 ". *"
+경우에 따라 모든 호출을 동일한 SBC로 라우팅해야 합니다. use -NumberPattern ".*"
 
-모든 통화를 동일한 SBC에 라우팅합니다.
+모든 호출을 동일한 SBC로 라우팅합니다.
 
 ```PowerShell
 Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
 ```
 
-아래 `Get-CSOnlineVoiceRoute` 와 같이 옵션을 사용 하 여 PowerShell 명령을 실행 하 여 경로를 올바르게 구성 했는지 확인 합니다.
+다음과 같이 옵션을 사용하여 PowerShell 명령을 실행하여 경로를 올바르게 `Get-CSOnlineVoiceRoute` 구성한지 확인합니다.
 
 ```PowerShell
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
-다음을 반환 합니다.
+반환해야 하는 사항:
 <pre>
 Identity            : Redmond 1 
 Priority               : 1
@@ -255,11 +255,11 @@ OnlinePstnGatewayList    : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name             : Other +1
 </pre>
 
-이 예제에서 경로 "Other + 1"에 우선 순위 4가 자동으로 할당 되었습니다. 
+예제에서 경로 "기타 +1"은 자동으로 우선 순위 4가 할당됩니다. 
 
-#### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>3 단계: "미국 전용" 이라는 음성 라우팅 정책 만들기 및 정책에 "미국 및 캐나다" PSTN 사용 추가
+#### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>3단계: "미국만"이라는 음성 라우팅 정책을 만들고 정책에 "미국 및 캐나다" PSTN 사용량을 추가합니다.
 
-비즈니스용 Skype Online의 PowerShell 세션에서 다음을 입력 합니다.
+비즈니스용 Skype Online의 PowerShell 세션에서 다음을 입력합니다.
 
 ```PowerShell
 New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
@@ -274,129 +274,129 @@ Description         :
 RouteType           : BYOT
 </pre>
 
-#### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>4 단계: Spencer Low 라는 사용자에 게 음성 라우팅 정책 할당
+#### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>4단계: Spencer Low라는 사용자에게 음성 라우팅 정책 할당
 
-비즈니스용 Skype Online의 PowerShell 세션에서 다음을 입력 합니다.
+비즈니스용 Skype Online의 PowerShell 세션에서 다음을 입력합니다.
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
 ```
 
-다음 명령을 입력 하 여 정책 할당의 유효성을 검사 합니다.
+다음 명령을 입력하여 정책 할당의 유효성을 검사합니다.
 
 ```PowerShell
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 
-이 명령은 다음을 반환 합니다.
+이 명령은 다음을 반환합니다.
 <pre>
 OnlineVoiceRoutingPolicy
 ---------------------
 US Only
 </pre>
 
-## <a name="example-2-voice-routing-with-multiple-pstn-usages"></a>예제 2: 여러 PSTN 용도를 사용 하는 음성 라우팅
+## <a name="example-2-voice-routing-with-multiple-pstn-usages"></a>예제 2: 여러 PSTN 사용량을 사용하는 음성 라우팅
 
-예 1에서 만든 음성 라우팅 정책은 Microsoft 통화 계획 라이선스가 사용자에 게 할당 되지 않는 이상 미국 및 캐나다의 전화 번호로만 통화 하도록 허용 합니다.
+예제 1에서 만든 음성 라우팅 정책은 Microsoft 통화 요금제 라이선스가 사용자에게 할당되지 않은 한 미국 및 캐나다의 전화 번호로만 통화할 수 있습니다.
 
-다음 예제에서는 "제한 없음" 음성 라우팅 정책을 만들 수 있습니다. 이 정책에서는 예제 1에서 만든 "US 및 캐나다" PSTN 사용 및 새로운 "국제" PSTN 사용을 재사용 합니다. 이 정책은 SBCs sbc2.contoso.biz 및 sbc5.contoso.biz에 대 한 다른 모든 통화를 라우팅합니다.
+다음 예제에서는 "제한 없음" 음성 라우팅 정책을 만들 수 있습니다. 이 정책은 예제 1에서 만든 "미국 및 캐나다" PSTN 사용량과 새로운 "국제" PSTN 사용량을 다시 사용합니다. 이 정책은 다른 모든 호출을 SBC 및 sbc2.contoso.biz sbc5.contoso.biz.
 
-표시 되는 예제에서는 사용자에 대 한 US 전용 정책만, 사용자에 게는 제한 사항 없음 정책, Spencer John 숲에는 다음과 같이 라우팅이 발생 하도록 지정 합니다.
+표시되는 예제에서는 사용자 Spencer Low에 미국 전용 정책을 할당하고, 라우팅이 다음과 같이 수행하도록 사용자 John Woods에게 제한 없음 정책을 할당합니다.
 
-- Spencer 낮음 – 미국 전용 정책.  통화는 미국 및 캐나다 번호로만 허용 됩니다. Redmond 번호 범위로 전화를 거는 경우 특정 SBCs 집합을 사용 해야 합니다. 통화 요금제 라이선스가 사용자에 게 할당 되지 않으면 미국 이외의 번호는 라우팅되지 않습니다.
+- Spencer Low – 미국 전용 정책입니다.  통화는 미국 및 캐나다 번호로만 허용됩니다. Redmond 번호 범위를 호출할 때 특정 SBC 집합을 사용해야 합니다. 통화 요금제 라이선스가 사용자에게 할당되지 않는 한 미국 이 아닌 번호는 라우팅되지 않습니다.
 
-- John 숲 – 국제 정책.  모든 숫자가 통화에 허용 됩니다. Redmond 번호 범위로 전화를 거는 경우 특정 SBCs 집합을 사용 해야 합니다. 미국 이외의 번호는 sbc2.contoso.biz 및 sbc5.contoso.biz를 사용 하 여 라우팅합니다.
+- John Woods – 국제 정책입니다.  통화는 모든 번호로 허용됩니다. Redmond 번호 범위를 호출할 때 특정 SBC 집합을 사용해야 합니다. 미국 이 아닌 번호는 sbc2.contoso.biz 및 sbc5.contoso.biz.
 
-![사용자 Spencer 낮음으로 지정 된 음성 라우팅 정책을 표시 합니다.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
+![사용자 Spencer Low에 할당된 음성 라우팅 정책 표시](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-다른 모든 통화에 대해 사용자에 게 라이선스 (Microsoft 전화 시스템 및 Microsoft 호출 계획)가 둘 다 있는 경우 자동 경로가 사용 됩니다. 관리자가 만든 온라인 음성 경로의 번호 패턴에 일치 하는 항목이 없는 경우에는 Microsoft 통화 요금제를 사용 하 여 통화가 전달 됩니다.  사용자에 게 Microsoft 전화 시스템만 있는 경우에는 일치 하는 규칙이 없기 때문에 통화가 끊깁니다.
+다른 모든 통화의 경우 사용자에게 라이선스(Microsoft 전화 시스템 및 Microsoft 통화 요금제)가 모두 있는 경우 자동 경로가 사용됩니다. 관리자가 만든 온라인 음성 경로의 번호 패턴과 일치하는 것이 없는 경우 Microsoft 통화 계획을 사용하여 통화가 라우팅됩니다.  사용자에게 Microsoft Phone System만 있는 경우 일치하는 규칙을 사용할 수 없습니다.
 
-![사용자에 게 할당 된 음성 라우팅 정책 표시, John 숲](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
+![John Woods 사용자에게 할당된 음성 라우팅 정책 표시](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
-다음 표에서는 라우팅 정책 "제한 없음" 사용 현황 및 음성 경로를 요약 하 여 설명 합니다. 
+다음 표에는 라우팅 정책 "제한 없음" 사용 지정 및 음성 경로가 요약됩니다. 
 
-|**PSTN 사용**|**음성 경로**|**번호 패턴**|**중요도**|**하더라도**|**설명**|
+|**PSTN 사용**|**음성 경로**|**숫자 패턴**|**우선 순위**|**SBC**|**설명**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|미국 및 캐나다|"Redmond 1"|^\\+ 1 (425 \| 206) (\d {7} ) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|호출 수신자 번호 + 1 425 XXX XX XX 또는 + 1 206 XXX XX XX의 활성 경로|
-|미국 및 캐나다|"Redmond 2"|^\\+ 1 (425 \| 206) (\d {7} ) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|호출 수신자 번호 + 1 425 XXX XX XX 또는 + 1 206 XXX XX XX에 대 한 백업 경로|
-|미국 및 캐나다|"기타 + 1"|^\\+ 1 (\d {10} ) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|호출 수신자 번호 + 1 XXX XXX XX XX (+ 1 425 XXX xx xx 또는 + 1 206 XXX XX xx 제외)의 경로|
-|국제화|국제화|\d +|4(tcp/ipv4)|sbc2.contoso.biz<br/>sbc5.contoso.biz|임의의 숫자 패턴에 대 한 라우팅 |
+|미국 및 캐나다|"Redmond 1"|^\\+1(425 \| 206)(\d {7} )$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|발신자 번호 +1 425 XXX XX XX 또는 +1 206 XXX XX XX에 대한 활성 경로|
+|미국 및 캐나다|"Redmond 2"|^\\+1(425 \| 206)(\d {7} )$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|발신자 번호 +1 425 XXX XX XX 또는 +1 206 XXX XX XX에 대한 백업 경로|
+|미국 및 캐나다|"기타 +1"|^\\+1(\d {10} )$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|발신자 번호 +1 XXX XXX XX XX에 대한 경로(+1 425 XXX XX XX 또는 +1 206 XXX XX XX 제외)|
+|국제|국제|\d+|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|숫자 패턴에 대한 경로 |
 
   > [!NOTE]
-  > - 음성 라우팅 정책의 PSTN 사용량 순서는 중요 합니다. 용도는 순서 대로 적용 되며 첫 번째 사용에서 일치 하는 항목을 찾은 경우 다른 용도는 계산 되지 않습니다. "국제" PSTN 사용은 "미국 및 캐나다" PSTN 사용 후에 배치 해야 합니다. PSTN 사용량의 순서를 변경 하려면 `Set-CSOnlineVoiceRoutingPolicy` 명령을 실행 합니다. <br/>예를 들어 "미국 및 캐나다"의 순서와 역순으로 "국제" 초를 순서 대로 변경 하려면 다음을 실행 합니다.<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
- > - "기타 + 1" 및 "국제" 음성 경로에 대 한 우선 순위는 자동으로 지정 됩니다. "Redmond 1" 및 "Redmond 2" 보다 우선 순위가 낮은 경우에는 중요 하지 않습니다.
+  > - 음성 라우팅 정책의 PSTN 사용량 순서는 중요합니다. 사용량은 순서대로 적용되고 첫 번째 사용에서 일치가 발견되는 경우 다른 사용량은 평가되지 않습니다. "국제" PSTN 사용량은 "미국 및 캐나다" PSTN 사용량 이후에 배치해야 합니다. PSTN 사용 순서를 변경하기 위해 명령을 `Set-CSOnlineVoiceRoutingPolicy` 실행합니다. <br/>예를 들어 순서를 "미국 및 캐나다"에서 첫 번째로, "국제"에서 역순으로 변경하는 경우 다음을 실행합니다.<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+ > - "기타 +1" 및 "국제" 음성 경로에 대한 우선 순위는 자동으로 할당됩니다. "Redmond 1" 및 "Redmond 2"보다 우선 순위가 낮은 한 중요하지 않습니다.
 
 ## <a name="example-2-configuration-steps"></a>예제 2: 구성 단계
 
-다음 예제에서는 다음을 수행 하는 방법을 보여 줍니다.
+다음 예제에서는 다음 방법을 보여줍니다.
 
-1. 국제 전화 라는 새로운 PSTN 사용을 만듭니다.
-2. 국제적 이라는 새 음성 경로를 만듭니다.
-3. 음성 라우팅 정책을 만듭니다. 제한 없음이 호출 됩니다.
-4. 사용자 John 숲에 정책을 할당 합니다.
+1. International이라는 새 PSTN 사용량을 생성합니다.
+2. International이라는 새 음성 경로를 만들 수 있습니다.
+3. 제한 없음이라는 음성 라우팅 정책을 만들 수 있습니다.
+4. John Woods 사용자에게 정책을 할당합니다.
 
-[Microsoft 팀 관리 센터](#admincenterexample2) 또는 [PowerShell](#powershellexample2) 을 사용 하 여 다음 단계를 수행할 수 있습니다.
+[Microsoft Teams](#admincenterexample2) 관리 센터 또는 [PowerShell을](#powershellexample2) 사용하여 이러한 단계를 수행할 수 있습니다.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 <a name="admincenterexample2"></a>
 
-#### <a name="step-1-create-the-international-pstn-usage"></a>1 단계: "국제" PSTN 사용 만들기
+#### <a name="step-1-create-the-international-pstn-usage"></a>1단계: "국제" PSTN 사용량 만들기
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **다이렉트 라우팅으로** 이동한 다음 오른쪽 위 모서리에서 **PSTN 사용 레코드 관리** 를 선택 합니다.
-2. **추가** 를 클릭 하 고 **국제 전화** 를 입력 한 다음 **적용** 을 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **음성** 직접 라우팅으로 이동한 다음 오른쪽 위 모서리에서  >   **PSTN** 사용 레코드 관리를 선택합니다.
+2. **[추가]를** 클릭하고 **[국제]을** 입력한 다음 [적용]을 **클릭합니다.**
 
-#### <a name="step-2-create-the-international-voice-route"></a>2 단계: "국제" 음성 경로 만들기
+#### <a name="step-2-create-the-international-voice-route"></a>2단계: "국제" 음성 경로 만들기
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **다이렉트 라우팅으로** 이동한 다음 **음성 경로** 탭을 선택 합니다.
-2. **추가** 를 클릭 하 고 이름으로 "국제"을 입력 한 다음 설명을 추가 합니다.
-3. 우선 순위를 4로 설정한 다음 전화를 걸 번호 패턴을 \d +로 설정 합니다.
-4. **Sbcs 등록 (선택 사항)** 에서 **SBCs 추가** 를 클릭 하 고 sbc2.contoso.biz 및 Sbc5.contoso.biz를 선택한 다음 **적용** 을 클릭 합니다.
-5. **Pstn 사용 레코드 (선택 사항)** 에서 **PSTN 사용량 추가** 를 클릭 하 고 "국제" pstn 사용 레코드를 선택한 다음 **적용** 을 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **음성** 직접 라우팅으로 이동한 다음 음성 경로  >   **탭을** 선택합니다.
+2. 추가를 **클릭하고** 이름으로 "International"을 입력한 다음 설명을 추가합니다.
+3. 우선 순위를 4로 설정한 다음 전화 걸기 번호 패턴을 \d+로 설정합니다.
+4. **SBC** 등록(선택 사항)에서 **SBC** 추가를 클릭하고 sbc2.contoso.biz sbc5.contoso.biz 적용을 **클릭합니다.**
+5. **PSTN** 사용 레코드(선택 사항)에서 **PSTN** 사용량 추가를 클릭하고 "국제" PSTN 사용 레코드를 선택한 다음 적용을 **클릭합니다.**
 6. **저장** 을 클릭합니다.
 
-#### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions-and-add-the-us-and-canada-and-international-pstn-usages-to-the-policy"></a>3 단계: "제한 없음" 이라는 음성 라우팅 정책 만들기 및 "미국 및 캐나다" 및 "국제" PSTN 용도를 정책에 추가
+#### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions-and-add-the-us-and-canada-and-international-pstn-usages-to-the-policy"></a>3단계: "제한 없음"이라는 음성 라우팅 정책을 만들고 정책에 "미국 및 캐나다" 및 "국제" PSTN 사용량을 추가합니다.
 
-PSTN 사용 "미국 및 캐나다"는 로컬 또는 온-프레미스 통화로 "+ 1 425 XXX xx" 및 "+ 1 206 XXX XX XX"로 거는 통화에 대 한 특수 처리를 유지 하기 위해이 음성 라우팅 정책에서 다시 사용할 수 있습니다.
+PSTN 사용 "미국 및 캐나다"는 "+1 425 XXX XX XX" 및 "+1 206 XXX XX XX"를 로컬 또는 프레미스 호출로 호출에 대한 특별 처리를 유지하기 위해 이 음성 라우팅 정책에서 다시 사용합니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성**  >  **음성 라우팅 정책** 으로 이동한 다음 **추가** 를 클릭 합니다.
-2. 이름으로 **제한을** 입력 하 고 설명을 추가 합니다.
-3. **Pstn 사용 레코드** 에서 **pstn 사용량 추가** 를 클릭 하 고 "미국 및 캐나다" pstn 사용 레코드를 선택한 다음 "국제" pstn 사용 레코드를 선택 합니다. **적용** 을 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **음성** 음성 라우팅 정책으로 이동한 다음  >  추가를 **클릭합니다.**
+2. 제한 **없음을** 이름으로 입력하고 설명을 추가합니다.
+3. **PSTN** 사용 레코드 아래에서 **PSTN** 사용량 추가를 클릭하고 "미국 및 캐나다" PSTN 사용 레코드를 선택한 다음 "국제" PSTN 사용 레코드를 선택합니다. 적용을 **클릭합니다.**
 
-    PSTN 사용 순서를 기록해 둡니다.
+    PSTN 사용량의 순서를 메모해 두기:
 
-    - 이 예제에서와 같이 구성 된 사용량으로 "+ 1 425 XXX XX"로 전화를 걸고 나면 통화는 "미국 및 캐나다" 사용에 설정 된 경로를 따르고 특별 한 라우팅 논리가 적용 됩니다. 즉, 통화가 먼저 sbc1.contoso.biz 및 sbc2.contoso.biz를 사용 하 여 라우팅된 다음 백업 경로로 sbc3.contoso.biz 및 sbc4.contoso.biz 됩니다.
+    - 이 예제와 같이 사용량이 구성된 번호 "+1 425 XXX XX XX"로 전화를 걸면 호출은 "미국 및 캐나다" 사용량에 설정된 경로를 따르며 특수 라우팅 논리가 적용됩니다. 즉, 호출은 먼저 sbc1.contoso.biz sbc2.contoso.biz 라우팅된 다음, sbc3.contoso.biz sbc4.contoso.biz 경로로 지정합니다.
 
-    - "국제" PSTN 사용이 "미국 및 캐나다" 보다 앞에 있는 경우 + 1 425 XXX XX XX로 거는 호출은 라우팅 논리의 일부로 sbc2.contoso.biz 및 sbc5.contoso.biz로 라우팅됩니다.
+    - "국제" PSTN 사용량이 "미국 및 캐나다" 이전인 경우 + 1 425 XXX XXX XX에 대한 호출은 라우팅 논리의 일부로 sbc2.contoso.biz sbc5.contoso.biz 라우팅됩니다.
 
 4. **저장** 을 클릭합니다.
 
-자세히 알아보려면 [음성 라우팅 정책 관리](manage-voice-routing-policies.md)를 참조 하세요.
+자세한 내용은 음성 라우팅 정책 [관리를 참조합니다.](manage-voice-routing-policies.md)
 
-#### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-john-woods"></a>4 단계: John 숲 이라는 사용자에 게 음성 라우팅 정책 할당
+#### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-john-woods"></a>4단계: John Woods라는 사용자에게 음성 라우팅 정책 할당
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자** 로 이동한 후 해당 사용자를 클릭합니다.
-2. **정책을** 클릭 한 다음 **할당 된 정책** 옆에 있는 **편집** 을 클릭 합니다.
-3. **음성 라우팅 정책** 에서 "제한 없음" 정책을 선택한 다음 **저장** 을 클릭 합니다.
+2. 정책을 **클릭한** 다음 할당된 정책 옆에 **있는** 편집을 **클릭합니다.**
+3. 음성 **라우팅 정책에서**"제한 없음" 정책을 선택한 다음 저장을 **클릭합니다.**
 
-결과적으로 John 숲의 통화에 적용 되는 음성 정책은 무제한 이며 미국, 캐나다, 국제 통화를 위해 제공 되는 통화 라우팅의 논리를 따릅니다.
+그 결과 John Woods의 통화에 적용되는 음성 정책이 제한되지 않습니다. 미국, 캐나다 및 국제 통화에 사용할 수 있는 통화 라우팅 논리를 따르게 됩니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 <a name="powershellexample2"></a>
 
-#### <a name="step-1-create-the-international-pstn-usage"></a>1 단계: "국제" PSTN 사용 만들기
+#### <a name="step-1-create-the-international-pstn-usage"></a>1단계: "국제" PSTN 사용량 만들기
 
-비즈니스용 Skype Online의 원격 PowerShell 세션에서 다음을 입력 합니다.
+비즈니스용 Skype Online의 원격 PowerShell 세션에서 다음을 입력합니다.
 
 ```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
 ```
 
-#### <a name="step-2--create-a-new-voice-route-named-international"></a>2 단계: "국제" 이라는 새 음성 경로 만들기
+#### <a name="step-2--create-a-new-voice-route-named-international"></a>2단계: "International"이라는 새 음성 경로 만들기
 
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
 ```
-반환 되는 결과:
+반환되는 사항:
 
 <pre>
 Identity                  : International
@@ -408,25 +408,25 @@ OnlinePstnGatewayList     : {sbc2.contoso.biz, sbc5.contoso.biz}
 Name                      : International
 </pre>
 
-#### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions"></a>3 단계: "제한 없음" 이라는 음성 라우팅 정책 만들기
+#### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions"></a>3단계: "제한 없음"이라는 음성 라우팅 정책 만들기
 
-PSTN 사용 "Redmond 1" 및 "Redmond"는 전화 번호 "+ 1 425 XXX xx" 및 "+ 1 206 XXX XX XX"를 로컬 또는 온-프레미스 통화로 하는 특별 한 처리를 유지 하기 위해이 음성 라우팅 정책에 재사용 됩니다.
-
-  ```PowerShell
-  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-  ```
-
-PSTN 사용 순서를 기록해 둡니다.
-
-  - 다음 예제와 같이 구성 된 사용량으로 "+ 1 425 XXX XX"로 전화를 걸고 나면 통화는 "미국 및 캐나다" 사용에 설정 된 경로를 따르고 특별 한 라우팅 논리가 적용 됩니다. 즉, 통화가 먼저 sbc1.contoso.biz 및 sbc2.contoso.biz를 사용 하 여 라우팅된 다음 백업 경로로 sbc3.contoso.biz 및 sbc4.contoso.biz 됩니다.
-
-  - "국제" PSTN 사용이 "미국 및 캐나다" 보다 앞에 있는 경우 + 1 425 XXX XX XX로 거는 호출은 라우팅 논리의 일부로 sbc2.contoso.biz 및 sbc5.contoso.biz로 라우팅됩니다. 명령 입력:
+PSTN 사용 "Redmond 1" 및 "Redmond"는 이 음성 라우팅 정책에서 다시 사용되어 "+1 425 XXX XX XX" 및 "+1 206 XXX XX"를 로컬 또는 프레미스 호출로 호출하는 특수 처리를 보존합니다.
 
   ```PowerShell
   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
   ```
 
-반환 되는 결과:
+PSTN 사용량의 순서를 메모해 두기:
+
+  - 다음 예제와 같이 사용량이 구성된 번호 "+1 425 XXX XX XX"로 전화를 걸면 호출은 "미국 및 캐나다" 사용량에 설정된 경로를 따르며 특수 라우팅 논리가 적용됩니다. 즉, 호출은 먼저 sbc1.contoso.biz sbc2.contoso.biz 라우팅된 다음, sbc3.contoso.biz sbc4.contoso.biz 경로로 지정합니다.
+
+  - "국제" PSTN 사용량이 "미국 및 캐나다" 이전인 경우 + 1 425 XXX XXX XX에 대한 호출은 라우팅 논리의 일부로 sbc2.contoso.biz sbc5.contoso.biz 라우팅됩니다. 다음 명령을 입력합니다.
+
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
+
+반환되는 사항:
 
     <pre>
     Identity              : International 
@@ -435,19 +435,19 @@ PSTN 사용 순서를 기록해 둡니다.
     RouteType               : BYOT
     </pre>
 
-#### <a name="step-4-assign-the-voice-routing-policy-to-the-user-named-john-woods"></a>4 단계: John 숲 이라는 사용자에 게 음성 라우팅 정책 할당
+#### <a name="step-4-assign-the-voice-routing-policy-to-the-user-named-john-woods"></a>4단계: John Woods라는 사용자에게 음성 라우팅 정책 할당
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions"
 ```
 
-그런 다음 명령을 사용 하 여 과제를 확인 합니다. 
+그런 다음, 명령을 사용하여 할당을 확인 합니다. 
 
 ```PowerShell
 Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
 ```
 
-반환 되는 결과:
+반환되는 사항:
 
 <pre>
 OnlineVoiceRoutingPolicy
@@ -455,7 +455,7 @@ OnlineVoiceRoutingPolicy
 No Restrictions
 </pre>
 
-결과적으로 John 숲의 통화에 적용 되는 음성 정책에는 제한이 없으며 미국, 캐나다, 국제 통화를 위해 제공 되는 통화 라우팅의 논리에 따라 진행 됩니다.
+그 결과 John Woods의 통화에 적용되는 음성 정책이 제한되지 않습니다. 미국, 캐나다 및 국제 통화에 사용할 수 있는 통화 라우팅 논리를 따르게 됩니다.
 
 ## <a name="see-also"></a>참고 항목
 
