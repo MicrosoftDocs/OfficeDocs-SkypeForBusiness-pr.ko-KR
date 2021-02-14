@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
-description: 토폴로지 작성기에서는 저장소에 데이터베이스를 설치하는 SQL Server 있습니다. 토폴로지 작성기에서 데이터베이스를 설치할 때 응용 프로그램은 토폴로지의 정보를 읽은 다음 지정된 컴퓨터 또는 SQL Server 클러스터에 SQL Server 설치합니다. 이는 토폴로지 작성기를 사용하여 사용 가능한 유일한 데이터베이스 설치 유형입니다. 특정 컴퓨터에 특정 데이터베이스를 설치해야 하는 경우 또는 함께 사용 가능한 데이터베이스를 설치해야 하는 경우 명령줄 인터페이스와 Windows PowerShell cmdlet을 Install-CsDatabase 합니다.
+description: 토폴로지 작성기에서는 데이터베이스를 저장소에 설치하는 SQL Server 있습니다. 토폴로지 작성기에서 데이터베이스를 설치할 때 응용 프로그램은 토폴로지의 정보를 읽은 다음 지정된 컴퓨터 또는 SQL Server 클러스터에 SQL Server 설치합니다. 이는 토폴로지 작성기를 사용하여 사용 가능한 유일한 데이터베이스 설치 유형입니다. 특정 컴퓨터에 특정 데이터베이스를 설치해야 하는 경우 또는 함께 사용 가능한 데이터베이스를 설치해야 하는 경우 명령줄 인터페이스와 Windows PowerShell cmdlet을 Install-CsDatabase 합니다.
 ms.openlocfilehash: 1092840305d1a455aa094776ae757cf074f7e89a
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49822288"
 ---
 # <a name="create-database"></a>데이터베이스 만들기
  
-토폴로지 작성기에서는 데이터베이스를 저장소에 설치하는 SQL Server 있습니다. 토폴로지 작성기에서 데이터베이스를 설치할 때 응용 프로그램은 토폴로지의 정보를 읽은 다음 지정된 컴퓨터 또는 SQL Server 클러스터에 필요한 SQL Server 설치합니다. 이는 토폴로지 작성기를 사용하여 사용 가능한 유일한 데이터베이스 설치 유형입니다. 특정 컴퓨터에 특정 데이터베이스를 설치해야 하는 경우 또는 함께 사용 가능한 데이터베이스를 설치해야 하는 경우 명령줄 인터페이스와 [Windows PowerShell-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet을 대신 사용해야 합니다.
+토폴로지 작성기에서는 데이터베이스를 저장소에 설치하는 SQL Server 있습니다. 토폴로지 작성기에서 데이터베이스를 설치할 때 응용 프로그램은 토폴로지의 정보를 읽은 다음 지정된 컴퓨터 또는 SQL Server 클러스터에 SQL Server 설치합니다. 이는 토폴로지 작성기를 사용하여 사용 가능한 유일한 데이터베이스 설치 유형입니다. 특정 컴퓨터에 특정 데이터베이스를 설치해야 하는 경우 또는 함께 사용 가능한 데이터베이스를 설치해야 하는 경우 명령줄 인터페이스와 [Windows PowerShell-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet을 대신 사용해야 합니다.
   
 ### <a name="creating-a-database"></a>데이터베이스 만들기
 
@@ -36,7 +36,7 @@ ms.locfileid: "49822288"
     
    - **데이터베이스 파일 위치 자동 지정**. 이 옵션을 선택하는 경우 토폴로지 작성기에서 기본 제공 알고리즘을 사용하여 데이터베이스 로그 및 데이터 파일의 저장 위치를 선택합니다.
     
-   - **SQL Server 인스턴스 기본값 사용**. 이 옵션을 선택하면 기본 제공 알고리즘이 데이터베이스 로그 및 데이터 파일의 저장소 위치를 선택하는 데 사용되지 않습니다. 대신 로그 및 데이터 파일은 SQL Server 경로에 지정된 위치에 저장됩니다(이러한 경로는 SQL Server 관리자가 고급에서 구성해야 합니다). 데이터 파일은 기본 SQL Server 데이터 파일 위치에 저장되고 로그 파일은 기본 로그 파일 위치에 SQL Server 저장됩니다.
+   - **SQL Server 인스턴스 기본값 사용**. 이 옵션을 선택하면 기본 제공 알고리즘을 사용하여 데이터베이스 로그 및 데이터 파일의 저장소 위치를 선택하지 않습니다. 대신 로그 및 데이터 파일은 SQL Server 경로에 지정된 위치에 저장됩니다(이러한 경로는 SQL Server 관리자가 고급에서 구성해야 합니다). 데이터 파일은 기본 SQL Server 데이터 파일 위치에 저장되고 로그 파일은 기본 로그 파일 위치에 SQL Server 저장됩니다.
     
 4. **확인** 을 클릭합니다.
     

@@ -225,7 +225,7 @@ ms.locfileid: "49825688"
 
    **북미 CAC 네트워크 지역의 리노와 앨버커키 간의 사이트 간 링크에 대한 대역폭 용량 및 대역폭 제한**
 
-     ![WAN 대역폭에 의해 제한된 네트워크 사이트 예](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![WAN 대역폭으로 제한된 네트워크 사이트 예제](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **두 네트워크 사이트 간의 사이트 간 링크에 대한 대역폭 정보(대역폭 단위: kbps)**
 

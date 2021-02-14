@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
-description: 모임 구성 설정은 사용자가 만들 수 있는 전화 회의 유형(Meeting이라고도 합니다)을 정의하고 익명 사용자 및 전화 접속 회의 사용자가 이러한 회의에 참가할 수 있는 방법 또는 여부를 제어합니다. 이러한 설정은 예약된 모임에만 적용됩니다. 클라이언트에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc 모임에는 적용되지 않습니다.
+description: 모임 구성 설정은 사용자가 만들 수 있는 전화 회의 유형(Meetings)을 정의하고 익명 사용자 및 전화 접속 회의 사용자가 이러한 회의에 참가할 수 있는 방법 또는 여부를 제어합니다. 이러한 설정은 예약된 모임에만 적용됩니다. 클라이언트에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc 모임에는 적용되지 않습니다.
 ms.openlocfilehash: 260abc13f321111b26c70b4ca8a318c8c9a2d59b
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

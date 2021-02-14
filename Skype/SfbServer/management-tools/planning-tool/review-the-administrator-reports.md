@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 관리자 보고서 검토
+title: 비즈니스용 Skype 서버 2015에서 관리자 보고서 검토
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -21,7 +21,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823348"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 관리자 보고서 검토
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 관리자 보고서 검토
 
 관리자 보고서에는 배포 및 작업에 대한 자세한 정보가 포함됩니다. 보고서는 디자인 사이트에 표시된 선택에 **따라 생성됩니다.** 디자이너는 네트워크 다이어그램을 편집하고 서버, 풀 및 부하 분산 장치에 대해 전체 IP 주소 및 FQDN(정규화된 도메인 이름)을 정의하여 관리자 보고서에 값을 더 추가할 수 있습니다.
 
@@ -72,14 +72,14 @@ ms.locfileid: "49823348"
 
 비즈니스용 Skype 서버 2015에는 복잡한 방화벽 규칙 집합이 있습니다. 계획 도구는 디자이너의 입력 조건에 따라 모든 방화벽 요구 사항을 자세히 정의하는 보고서를 생성하여 이러한 복잡성을 줄입니다. IT 방화벽 관리자는 이 보고서를 사용하여 필요한 규칙을 구성 및 정의할 수 있습니다.
 
-방화벽 관리의 관점에서 보고서를 신중하게 검토하여 방화벽 규칙 종료와 충돌하지 않는지와 위반될 수 있는 정책이나 절차가 없는지 확인해야 합니다.
+방화벽 관리의 관점에서 보고서를 신중하게 검토하여 방화벽 규칙 종료와 충돌하지 않는지와 위반될 수 있는 정책이나 절차가 없는지 검토해야 합니다.
 
 ![방화벽 관리 보고서](../../media/Firewall_Report_Admin_Report.png)
 
 ## <a name="review-the-dns-report"></a>DNS 보고서 검토
 <a name="DNS_Report"> </a>
 
-관리자 보고서의 일부인 DNS 보고서에서는 내부, 경계 및 외부 네트워크의 DNS(Domain Name System)에 대한 권장 항목 및 알려진 모든 항목에 대해 자세히 설명합니다. 디자이너가 네트워크 다이어그램 편집을 완료하고 모든 IP 주소와 FQDNS(정품 도메인 이름)가 프로덕션 값에 정의되어 있는 경우 DNS 보고서는 훌륭한 구성 리소스를 제공합니다. 이 보고서는 작업 문제 해결 문서로도 사용할 수 있습니다.
+관리자 보고서의 일부인 DNS 보고서에서는 내부, 경계 및 외부 네트워크의 DNS(Domain Name System)에 대한 권장 항목 및 알려진 모든 항목에 대해 자세히 설명합니다. 디자이너가 네트워크 다이어그램 편집을 완료하고 모든 IP 주소와 FQDNS(정품 도메인 이름)가 프로덕션 값으로 정의되어 있는 경우 DNS 보고서는 훌륭한 구성 리소스를 제공합니다. 이 보고서는 작업 문제 해결 문서로도 사용할 수 있습니다.
 
 ![DNS 관리자 보고서](../../media/DNS_Report_Admin_Report.png)
 

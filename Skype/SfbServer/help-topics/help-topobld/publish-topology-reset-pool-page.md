@@ -30,4 +30,4 @@ ms.locfileid: "49823678"
   
 ## <a name="see-also"></a>참고 항목
 
-[비즈니스용 Skype 서버 2015에서 새 토폴로지 만들기 및 게시](../../deploy/install/create-and-publish-new-topology.md)
+[비즈니스용 Skype 서버에서 새 토폴로지 만들기 및 게시](../../deploy/install/create-and-publish-new-topology.md)

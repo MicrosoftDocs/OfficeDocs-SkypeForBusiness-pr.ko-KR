@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
-description: Enterprise Edition 배포의 경우 A/V 회의 서비스가 프런트 엔드 풀에 배치됩니다. 중재 서버를 프런트 엔드 풀에 배치하거나 독립 실행형 서버로 배포할 수도 있습니다. 회의를 사용하도록 설정하면 A/V 회의 서비스가 항상 함께 함께 사용됩니다.
+description: Enterprise Edition 배포의 경우 A/V 회의 서비스가 프런트 엔드 풀에 배치됩니다. 중재 서버를 프런트 엔드 풀에 배치하거나 독립 실행형 서버로 배포할 수도 있습니다. 회의를 사용하도록 설정한 경우 A/V 회의 서비스는 항상 함께 함께 사용됩니다.
 ms.openlocfilehash: ee92856e640a8637020ba97b952ae8ec5a50396e
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -29,7 +29,7 @@ Enterprise Edition 배포의 경우 A/V 회의 서비스가 프런트 엔드 풀
 > [!NOTE]
 > **기능 선택** 페이지에서 **회의** 가 선택되어 있으면 A/V 회의 서비스는 필수입니다. Enterprise Edition 프런트 엔드 풀은 함께 있는 A/V 회의 서비스를 사용 합니다. 회의가 선택되어 있지 않으면 A/V 회의 서비스 배치를 사용할 수 없습니다.
 
-Standard Edition 프런트 엔드 서버 또는 Enterprise Edition 프런트 엔드 풀에 중재 서버 역할을 배치할 수 있습니다. 미디어 우회 및 DNS(Domain Name System) 부하 분산을 지원하는 적격 PSTN(Public Switched Telephone Network) 게이트웨이에 직접 SIP 연결을 배포하는 경우 독립 실행형 중재 서버 풀이 필요하지 않습니다. 적격 게이트웨이는 중재 서버 풀로 DNS 부하 분산을 할 수 있으며 풀의 모든 중재 서버에서 트래픽을 수신할 수 있기 때문에 독립 실행형 중재 서버 풀은 필요하지 않습니다. 또한 다음 조건 중 한 가지가 충족되는 한 중재 서버를 프런트 엔드 풀에 배치하거나 IP-PBXs 서버 공급자의 SBC(세션 경계 컨트롤러)에 연결하는 것이 좋습니다.
+Standard Edition 프런트 엔드 서버 또는 Enterprise Edition 프런트 엔드 풀에 중재 서버 역할을 배치할 수 있습니다. 미디어 우회 및 DNS(Domain Name System) 부하 분산을 지원하는 적격 PSTN(Public Switched Telephone Network) 게이트웨이에 직접 SIP 연결을 배포하는 경우 독립 실행형 중재 서버 풀이 필요하지 않습니다. 적격 게이트웨이는 중재 서버 풀로 DNS 부하 분산을 할 수 있으며 풀의 모든 중재 서버에서 트래픽을 수신할 수 있기 때문에 독립 실행형 중재 서버 풀은 필요하지 않습니다. 또한 다음 조건 중 어느 것이든 충족되는 한 중재 서버를 프런트 엔드 풀에 배치하거나 IP-PBXs 서버 공급자의 SBC(세션 경계 컨트롤러)에 연결하는 것이 좋습니다.
 
 - IP-PBX 또는 SBC가 풀의 중재 서버에서 트래픽을 수신하도록 구성되었고 풀의 모든 중재 서버에 트래픽을 단일 방식으로 라우팅할 수 있습니다.
 

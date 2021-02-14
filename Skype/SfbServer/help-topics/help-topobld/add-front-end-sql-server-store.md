@@ -26,7 +26,7 @@ ms.locfileid: "49824078"
 
 Standard Edition 서버 배포는 필요한 Microsoft SQL Server Express 데이터베이스 소프트웨어 및 SQL Server 설치합니다. 따라서 모든 옵션이 미리 채우기 때문에 기본 구성을 변경할 수 없습니다.
 
-Enterprise Edition 서버 배포의 프런트 엔드 풀에는 백 엔드 데이터베이스에 대해 지원되는 SQL Server 데이터베이스 소프트웨어가 필요합니다. 백 엔드 데이터베이스에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)과 새 SQL Server 데이터베이스에 사용할 SQL Server 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다. 또는 지정한 명명된 인스턴스) 또한 SQL Server 저장소에서 미러링을 사용하도록 설정하고 자동 장애 조치(failover)에 대한 미러링 SQL Server 지정할 수 있습니다.
+Enterprise Edition 서버 배포의 프런트 엔드 풀에는 백 엔드 데이터베이스에 대해 지원되는 SQL Server 데이터베이스 소프트웨어가 필요합니다. 백 엔드 데이터베이스에 사용할 이전에 정의한 SQL Server 데이터베이스를 선택하거나 SQL Server 데이터베이스가 상주할 서버의 FQDN(FQDN)과 새 SQL Server 데이터베이스에 사용할 SQL Server 인스턴스를 지정하여 새 SQL Server 데이터베이스를 정의할 수 있습니다. 또는 지정한 명명된 인스턴스) 또한 SQL Server 저장소에서 미러링을 사용하도록 설정하고 자동 장애 조치(failover)에 대해 미러링된 미러링 SQL Server 지정할 수 있습니다.
 
 지원에 대한 SQL Server 내용은 지원 가능성 설명서에서 [데이터베이스](https://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) 소프트웨어 및 클러스터링 지원을 참조하십시오. 백엔드 데이터베이스용 SQL Server를 설정하는 방법에 대한 자세한 내용은 배포 설명서의 [Lync Server 2010용 SQL Server 구성](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)을 참조하십시오.
 

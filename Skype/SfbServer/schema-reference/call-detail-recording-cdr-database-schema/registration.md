@@ -44,7 +44,7 @@ ms.locfileid: "49823118"
 |**ResponseCode** <br/> |int  <br/> ||등록 요청의 응답 코드입니다.  <br/> |
 |**DiagnosticId** <br/> |int  <br/> ||등록 요청의 진단 ID입니다. 이 값은 진단 정보 유형을 표시합니다.  <br/> |
 |**DeviceId** <br/> |int  <br/> |외계인  <br/> |등록 요청이 시작된 장치입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Devices](devices.md) 테이블을 참조하세요. <br/> |
-|**DeRegisterTypeId** <br/> |tinyint  <br/> |외계인  <br/> |등록을 하지 않은 이유(예: 'user initiated', 'registration expired', 'client fail' 등) 자세한 내용은 [비즈니스용 Skype 서버 2015의 DeRegisterType](deregistertype.md) 테이블을 참조하세요. <br/> |
+|**DeRegisterTypeId** <br/> |tinyint  <br/> |외계인  <br/> |등록을 하지 않은 이유(예: 'user initiated', 'registration expired', 'client fail' 등) 자세한 내용은 비즈니스용 [Skype 서버 2015의 DeRegisterType](deregistertype.md) 테이블을 참조하세요. <br/> |
 |**IPAddress** <br/> |nvarchar(256)  <br/> ||사용자가 등록된 끝점의 IP 주소입니다. IPv4 주소 또는 IPv6 주소일 수 있습니다.  <br/> 이 필드는 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> ||모니터링 서비스의 내부 사용 용도  <br/> 이 필드는 비즈니스용 Skype 서버 2015에서 도입했습니다.  <br/> |
    

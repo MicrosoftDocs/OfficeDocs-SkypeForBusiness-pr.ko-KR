@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: 비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 네트워크 사이트 간 정책을 만들 수 있습니다.
+description: 비즈니스용 Skype 서버에서 통화 Enterprise Voice 제어에 사용되는 네트워크 사이트 간 정책을 생성합니다.
 ms.openlocfilehash: 69609da75fdfa87309743920eace59892a440f2b
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -34,7 +34,7 @@ ms.locfileid: "49822478"
   
 북미 지역의 예 토폴로지에는 리노 사이트와 앨버커키 사이트가 직접 연결됩니다. 이러한 두 사이트에는 적절한 대역폭 정책 프로필을 적용하는 사이트 간 정책이 필요합니다. 다음은 사용자 프로필을 20Mb_Link 예제입니다.
   
-### <a name="to-create-a-network-inter-site-policy"></a>네트워크 사이트 간 정책을 만들 경우
+### <a name="to-create-a-network-inter-site-policy"></a>네트워크 사이트 간 정책을 만들 수 있습니다.
 
 1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     

@@ -29,6 +29,6 @@ ms.locfileid: "49824288"
 > [!IMPORTANT]
 > 토폴로지에 디렉터를 추가하면 토폴로지를 게시할 때 파일 저장소를 설정하고 파일 저장소로 사용할 파일 공유에 대한 DACL(임의 액세스 제어 목록)을 구성하기 위한 적절한 권한이 필요합니다. 이렇게 하려면 토폴로지 작성기를 실행하고 새 토폴로지를 게시할 때 파일 공유에 대한 모든 권한(읽기/쓰기/수정)을 가진 계정으로 로그온해야 합니다.
 
-파일 공유에 대한 저장소 지원에 [](https://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx) 대한 자세한 내용은 지원 가능성 설명서의 파일 저장소 지원 및 배포 설명서의 [SQL Server 데이터](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) 및 로그 파일 배치를 참조하십시오. 파일 공유 배치에 대한 자세한 내용은 지원 가능성 설명서의 [지원되는 서버 배치](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx)를 참조하십시오. 디렉터용 토폴로지를 디자인하는 방법에 대한 자세한 내용은 배포 설명서에서 [Define a Single Director in Topology Builder](https://technet.microsoft.com/library/8e9a659d-23b0-401d-b296-59c7df414d49.aspx)를 참조하십시오.
+파일 공유에 대한 저장소 지원에 [](https://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx) 대한 자세한 내용은 지원 가능성 설명서의 파일 저장소 지원 및 배포 설명서의 SQL Server 데이터 및 로그 [파일](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) 배치를 참조하십시오. 파일 공유 배치에 대한 자세한 내용은 지원 가능성 설명서의 [지원되는 서버 배치](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx)를 참조하십시오. 디렉터용 토폴로지를 디자인하는 방법에 대한 자세한 내용은 배포 설명서에서 [Define a Single Director in Topology Builder](https://technet.microsoft.com/library/8e9a659d-23b0-401d-b296-59c7df414d49.aspx)를 참조하십시오.
 
 

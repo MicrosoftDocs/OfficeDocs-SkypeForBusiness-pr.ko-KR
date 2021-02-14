@@ -26,7 +26,7 @@ ms.locfileid: "49824398"
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [비즈니스용 Skype 서버 2015에서 다이얼 플랜 만들기 또는 수정](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 수정](../../deploy/deploy-enterprise-voice/dial-plans.md)
 
 - [다이얼 플랜 수정](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 

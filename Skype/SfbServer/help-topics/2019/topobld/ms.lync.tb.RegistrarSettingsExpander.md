@@ -30,7 +30,7 @@ SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버의 **속성 
   
 - **연결된 사용자 서비스 및 백업 등록자 풀** 드롭다운 목록에서 Survivable Branch Appliance 또는 Survivable Branch Server의 백업 등록자 역할을 할 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 선택합니다.
     
-- **장애 조치(Failover) 및 장애 조치(Failback) 사용** 실패한 등록자 자동 검색 및 기본 등록자가 백업되어 등록자 프로세스를 다시 시작할 준비가 됐다는 자동 확인을 허용하려면 이 설정을 선택합니다.
+- **장애 조치(Failover) 및 장애 조치(Failback) 사용** 실패한 등록자 자동 검색 및 기본 등록자가 백업되어 등록자 프로세스를 다시 시작할 준비가 되어 있는 자동 확인을 허용하려면 이 설정을 선택합니다.
     
 - **오류 검색 간격(초)** 기본 등록자가 실패한 것으로 결정되기 전에 경과해야 하는 시간(초)을 입력합니다. 기본값은 120초입니다. 장애 조치(failover) 및 장애 **조치(Failback) 사용(Failback)을** 선택하는 경우 이 필드가 필요합니다.
     

@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
-description: 비즈니스용 Skype Enterprise Voice 구성 요소에 대한 요약입니다.
+description: 비즈니스용 Skype Enterprise Voice 구성 요소의 요약입니다.
 ms.openlocfilehash: 1a7f13cc171af44ecbd0f48706ec12d882e50b33
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "49825828"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>비즈니스용 Skype Enterprise Voice 구성 요소
  
-비즈니스용 Skype Enterprise Voice 구성 요소에 대한 요약입니다.
+비즈니스용 Skype Enterprise Voice 구성 요소의 요약입니다.
   
 토폴로지에서 Enterprise Voice 구성 요소를 배포하려면 다음 구성 요소가 필요합니다. 
   
@@ -41,6 +41,6 @@ ms.locfileid: "49825828"
     
     A/V 에지 서비스와 함께 A/V 인증 서비스가 배치되어 인증 서비스를 제공합니다. A/V 에지 서비스에 연결하려는 외부 사용자는 A/V 인증 서비스에서 제공한 인증 토큰이 있어야 통화할 수 있습니다.
     
-- 또한 일부 Enterprise Voice 구성 요소는 프런트 엔드 서버에서 실행됩니다. 이러한 구성 요소에 대한 자세한 내용은 비즈니스용 Skype 서버의 프런트 엔드 서버 VoIP 구성 요소를 [참조하세요.](front-end-server-voip.md)
+- 또한 일부 Enterprise Voice 구성 요소는 프런트 엔드 서버에서 실행됩니다. 이러한 구성 요소에 대한 자세한 내용은 비즈니스용 Skype 서버의 프런트 엔드 서버 VoIP 구성 [요소를 참조하세요.](front-end-server-voip.md)
     
 

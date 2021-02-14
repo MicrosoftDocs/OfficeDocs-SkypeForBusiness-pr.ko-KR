@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 오류 분포 보고서
+title: 비즈니스용 Skype 서버의 오류 배포 보고서
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -19,7 +19,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823528"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 오류 분포 보고서
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 오류 배포 보고서
  
 **요약:** 비즈니스용 Skype 서버의 오류 배포 보고서에 대해 자세히 알아보습니다.
   

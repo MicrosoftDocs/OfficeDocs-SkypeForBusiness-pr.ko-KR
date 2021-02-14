@@ -27,11 +27,11 @@ ms.locfileid: "49825758"
 
 중앙 사이트와 분기 사이트 모두에서 비즈니스용 Skype 서버 2016에서 Enterprise Voice 지원하는 방법을 배워야 합니다. 분기 사이트 옵션에는 Survivable Branch Appliance 또는 Survivable Branch Server 배포가 포함됩니다.
 
-음성 복구는 WAN(광역 네트워크) 오류 또는 다른 원인을 통해 비즈니스용 Skype 서버를 호스팅하는 중앙 사이트를 사용할 수 없게 될 경우 사용자가 계속 전화를 걸고 받을 수 있는 기능을 지어보입니다. 중앙 사이트가 실패할 경우에는 Enterprise Voice 서비스에서 백업 사이트에 대해 원활한 장애 조치를 수행하여 중단 없이 작업을 계속 수행하도록 해야 합니다. WAN 실패의 경우 분기 사이트 통화가 로컬 PSTN 게이트웨이로 리디렉션되어야 합니다. 이 섹션에서는 중앙 사이트 또는 WAN 실패 시 음성 복구 기능 계획에 대해 설명합니다.
+음성 복구는 WAN(광역 네트워크) 오류 또는 다른 원인을 통해 비즈니스용 Skype 서버를 호스팅하는 중앙 사이트를 사용할 수 없게 될 경우 사용자가 계속 전화를 걸고 받을 수 있는 기능을 지어보는 기능을 지니는 것입니다. 중앙 사이트가 실패할 경우에는 Enterprise Voice 서비스에서 백업 사이트에 대해 원활한 장애 조치를 수행하여 중단 없이 작업을 계속 수행하도록 해야 합니다. WAN 실패의 경우 분기 사이트 통화가 로컬 PSTN 게이트웨이로 리디렉션되어야 합니다. 이 섹션에서는 중앙 사이트 또는 WAN 실패 시 음성 복구 기능 계획에 대해 설명합니다.
 
 ## <a name="central-site-resiliency"></a>중앙 사이트 탄력성
 
-점점 많은 기업에서 전 세계에 여러 사이트를 확산시키고 있습니다. 응급 서비스, 지원 센터에 대한 액세스 및 중앙 사이트가 부재 중일 때 중요한 비즈니스 작업을 수행할 수 있는 기능을 유지 관리하는 것은 모든 Enterprise Voice 솔루션에 필수적입니다. 중앙 사이트가 사용할 수 없게 된 경우 다음 조건을 충족해야 합니다.
+점점 많은 기업에서 전 세계에 여러 사이트를 확산시키고 있습니다. 응급 서비스, 지원 센터에 대한 액세스 및 중앙 사이트가 부재 중일 때 중요한 비즈니스 작업을 수행하는 기능을 유지 관리하는 것은 모든 Enterprise Voice 솔루션에 필수적입니다. 중앙 사이트가 사용할 수 없게 된 경우 다음 조건을 충족해야 합니다.
 
 - 음성 장애 조치가 제공되어야 합니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "49825758"
 
 비즈니스용 Skype 클라이언트가 프런트 엔드 풀에 연결하면 부하 부하가 풀의 프런트 엔드 서버 중 하나에 연결됩니다. 이 프런트 엔드 서버는 클라이언트를 풀의 기본 설정 등록자로 리디렉션합니다.
 
-사용자에 대해 사용하도록 Enterprise Voice 특정 등록자 풀에 할당됩니다. 이 풀은 사용자의 기본 등록자 풀이 됩니다. 지정된 사이트에서 일반적으로 수백 또는 수천 명의 사용자가 하나의 기본 등록자 풀을 공유합니다. 현재 상태, 회의 또는 장애 조치를 중앙 사이트에 의존하는 분기 사이트 사용자의 중앙 사이트 리소스 사용을 계산하려면 각 분기 사이트 사용자를 중앙 사이트에 등록된 사용자로 간주하는 것이 좋습니다. 현재는 Survivable Branch Appliance에 등록된 사용자를 포함하여 분기 사이트 사용자 수에 제한이 없습니다.
+이 등록자에 대해 Enterprise Voice 각 사용자는 특정 등록자 풀에 할당됩니다. 이 풀은 사용자의 기본 등록자 풀이 됩니다. 지정된 사이트에서 일반적으로 수백 또는 수천 명의 사용자가 하나의 기본 등록자 풀을 공유합니다. 현재 상태, 회의 또는 장애 조치를 중앙 사이트에 의존하는 분기 사이트 사용자의 중앙 사이트 리소스 사용을 계산하려면 각 분기 사이트 사용자를 중앙 사이트에 등록된 사용자로 간주하는 것이 좋습니다. 현재는 Survivable Branch Appliance에 등록된 사용자를 포함하여 분기 사이트 사용자 수에 제한이 없습니다.
 
 중앙 사이트 실패 시 음성 복구를 지원하려면 기본 등록자 풀의 지정된 단일 백업 등록자 풀이 다른 사이트에 있어야 합니다. 토폴로지 작성기 복구 설정을 사용하여 백업을 구성할 수 있습니다. 두 사이트 간에 복구 가능한 WAN 링크가 있는 경우 기본 등록자 풀을 더 이상 사용할 수 없는 사용자는 자동으로 백업 등록자 풀에 연결됩니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "49825758"
 
 - 각 등록자 풀은 DNS 부하 분산, 하드웨어 부하 분산 또는 둘 다를 사용하여 부하 분산되어야 합니다. 부하 분산 구성 계획에 대한 자세한 내용은 비즈니스용 Skype에 대한 부하 분산 요구 [사항을 참조하세요.](../../plan-your-deployment/network-requirements/load-balancing.md)
 
-- 각 사용자는 비즈니스용 Skype 서버 관리 셸 **set-CsUser** cmdlet 또는 비즈니스용 Skype 서버 제어판을 사용하여 기본 등록자 풀에 할당되어야 합니다.
+- 각 사용자는 비즈니스용 Skype 서버 관리 셸 **set-CsUser** cmdlet 또는 비즈니스용 Skype 서버 제어판을 사용하여 기본 등록자 풀에 할당해야 합니다.
 
 - 기본 등록자 풀의 단일 백업 등록자 풀이 다른 중앙 사이트에 있어야 합니다.
 
@@ -213,8 +213,8 @@ ms.locfileid: "49825758"
 |**상황**|**권장 방법**|
 |:-----|:-----|
 |분기 사이트에서 25~1000명의 사용자를 호스팅하려는 경우(ROI(투자 수익률)가 전체 배포를 지원하지 않거나 로컬 관리 지원을 사용할 수 없음)  <br/> |Survivable Branch Appliance  <br/> Survivable Branch Appliance는 비즈니스용 Skype 서버 등록자 및 중재 서버가 Windows Server 2008 R2에서 실행되는 업계 표준 블레이드 서버입니다. SSN(Survivable Branch Appliance)에는 PSTN(Public Switched Telephone Network) 게이트웨이도 포함되어 있습니다. SBA(Survivable Branch Appliance) 자격 검증/인증 프로그램에서 Microsoft 파트너가 개발한 적격 타사 장치는 WAN 오류 시에도 지속적인 PSTN 연결을 제공하지만, 이러한 기능은 중앙 사이트의 프런트 엔드 서버를 기반으로 하기 때문에 이 접근 방식이 탄력적인 현재 상태 및 회의 기능을 제공하지는 못합니다.  <br/> Survivable Branch Appliance에 대한 자세한 내용은 이 항목 부분의 "Survivable Branch Appliance 세부 정보"를 참조하십시오.  <br/> **참고:** SIP 트렁크와 SIP 트렁크를 SIP 어플라이언스와 함께 사용하기로 결정한 경우 SIP 어플라이언스 SIP 공급업체에 문의하여 조직에 가장 적합한 서비스 공급자에 대해 알아보십시오. <br/> |
-|분기 사이트에서 1,000~2,000명 사이의 사용자를 호스트하고, 탄력적인 WAN 연결이 부족하며, 교육된 비즈니스용 Skype 서버 관리자를 사용할 수 있습니다.  <br/> |Survivable Branch Server 또는 2개의 Survivable Branch Appliance  <br/> SSS(Survivable Branch Server)는 비즈니스용 Skype 서버 등록자 및 중재 서버 소프트웨어가 설치되어 있는 지정된 하드웨어 요구 사항을 충족하는 Windows Server입니다. 이 서버는 전화 서비스 공급자에 대한 SIP 트렁크 또는 PSTN 게이트웨이에 연결되어야 합니다.  <br/> Survivable Branch Server에 대한 자세한 내용은 이 항목 부분의 "Survivable Branch Server Details"를 참조하십시오.  <br/> |
-|최대 5,000명을 위한 음성 기능 외에 현재 상태 및 회의 기능이 필요하고 교육된 비즈니스용 Skype 서버 관리자를 사용할 수 있는 경우  <br/> |Standard Edition 서버를 분기 사이트가 아니라 중앙 사이트로 배포합니다.  <br/> 전체 비즈니스용 Skype 서버 배포는 WAN 오류 발생 시 지속적인 PSTN 연결 및 복구된 현재 상태 및 회의를 제공합니다.  <br/> |
+|분기 사이트에서 1,000~2,000명 사이의 사용자를 호스팅하고, 탄력적인 WAN 연결이 부족하며, 교육된 비즈니스용 Skype 서버 관리자를 사용할 수 있습니다.  <br/> |Survivable Branch Server 또는 2개의 Survivable Branch Appliance  <br/> SSS(Survivable Branch Server)는 비즈니스용 Skype 서버 등록자 및 중재 서버 소프트웨어가 설치되어 있는 지정된 하드웨어 요구 사항을 충족하는 Windows Server입니다. 이 서버는 전화 서비스 공급자에 대한 SIP 트렁크 또는 PSTN 게이트웨이에 연결되어야 합니다.  <br/> Survivable Branch Server에 대한 자세한 내용은 이 항목의 부분에 있는 "Survivable Branch Server Details"를 참조하십시오.  <br/> |
+|최대 5,000명을 위한 음성 기능 외에 현재 상태 및 회의 기능이 필요하고 교육된 비즈니스용 Skype 서버 관리자를 사용할 수 있는 경우  <br/> |Standard Edition 서버를 분기 사이트가 아니라 중앙 사이트로 배포합니다.  <br/> 전체 규모의 비즈니스용 Skype 서버 배포는 WAN 오류 발생 시 지속적인 PSTN 연결 및 복구된 현재 상태 및 회의를 제공합니다.  <br/> |
 
 #### <a name="resiliency-topologies"></a>복구 토폴로지
 
@@ -244,13 +244,13 @@ Survivable Branch Appliance에는 PSTN 트렁크, 아날로그 포트 및 이더
 
 #### <a name="survivable-branch-appliance-deployment-overview"></a>SBA(Survivable Branch Appliance) 배포 개요
 
-Survivable Branch Appliance는 Microsoft와 파트너십을 체결한 원래 장비 제조업체가 제작하고 부가 가치 있는 소매점에서 대신 배포합니다. 이 배포는 비즈니스용 Skype 서버가 중앙 사이트에 배포되고 분기 사이트에 대한 WAN 연결이 설정되고 분기 사이트 사용자가 분기 사이트에 대해 사용하도록 설정된 후에만 Enterprise Voice.
+Survivable Branch Appliance는 Microsoft와 파트너십을 체결하여 원래 장비 제조업체가 제작한 제품으로, 부가 가치 있는 소매점에서 대신 배포합니다. 이 배포는 비즈니스용 Skype 서버가 중앙 사이트에 배포되고 분기 사이트에 대한 WAN 연결이 설정되고 분기 사이트 사용자가 분기 사이트에 대해 사용하도록 설정된 후에만 Enterprise Voice.
 
 이러한 단계에 대한 자세한 내용은 배포 설명서의 [Deploying a Survivable Branch Appliance or Server](https://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx)를 참조하십시오.
 
 |**작업 단계**|**단계**|**사용자 권한**|
 |:-----|:-----|:-----|
-|Survivable Branch Appliance에 대해 Active Directory 도메인 서비스 설정  <br/> |**중앙 사이트에서 다음을 수행합니다.** <br/>  분기 사이트에서 Survivable Branch Appliance를 설치 및 활성화할 관리자의 도메인 사용자 계정(또는 엔터프라이즈 ID)을 만드십시오. <br/>  Active Directory 도메인 서비스에서 Survivable Branch Appliance에 대한 컴퓨터 계정(해당 FQDN(FQDN)을 사용하여)을 만드십시오. <br/>  토폴로지 작성기에서 Survivable Branch Appliance를 만들고 게시합니다. <br/> |기술자 사용자 계정은 RTCUniversalSBATechnicians의 구성원이어야 합니다. Survivable Branch Appliance는 RTCSBAUniversalServices 그룹에 속해야 합니다. RTCSBAUniversalServices 그룹은 토폴로지 작성기 사용 시 자동으로 수행됩니다.  <br/> |
+|Survivable Branch Appliance에 대해 Active Directory 도메인 서비스 설정  <br/> |**중앙 사이트에서 다음을 수행합니다.** <br/>  분기 사이트에서 Survivable Branch Appliance를 설치 및 활성화할 관리자의 도메인 사용자 계정(또는 엔터프라이즈 ID)을 만드십시오. <br/>  Active Directory 도메인 서비스에서 Survivable Branch Appliance에 대한 컴퓨터 계정(FQDN(적용 가능한 FQDN))을 만드십시오. <br/>  토폴로지 작성기에서 Survivable Branch Appliance를 만들고 게시합니다. <br/> |기술자 사용자 계정은 RTCUniversalSBATechnicians의 구성원이어야 합니다. Survivable Branch Appliance는 RTCSBAUniversalServices 그룹에 속해야 합니다. RTCSBAUniversalServices 그룹은 토폴로지 작성기 사용 시 자동으로 수행됩니다.  <br/> |
 |Survivable Branch Appliance를 설치하고 활성화합니다.  <br/> |**분기 사이트에서 다음을 수행합니다.** <br/>  Survivable Branch Appliance를 이더넷 포트 및 PSTN 포트에 연결합니다. <br/>  Survivable Branch Appliance를 시작하십시오. <br/>  중앙 사이트에서 Survivable Branch Appliance에 대해 만든 도메인 사용자 계정을 사용하여 Survivable Branch Appliance를 도메인에 가입합니다. FQDN 및 IP 주소를 컴퓨터 계정에 만든 FQDN과 일치하도록 설정합니다. <br/>  OEM 사용자 인터페이스를 사용하여 Survivable Branch Appliance를 구성합니다. <br/>  PSTN 연결을 테스트합니다. <br/> |기술자 사용자 계정은 RTCUniversalSBATechnicians의 구성원이어야 합니다.  <br/> |
 
 #### <a name="survivable-branch-server-details"></a>지속 가능 분기 서버 세부 정보
@@ -267,7 +267,7 @@ Survivable Branch Appliance는 Microsoft와 파트너십을 체결한 원래 장
 
 #### <a name="registrar-assignments-for-branch-users"></a>분기 사용자에 대한 등록자 할당
 
-선택한 분기 사이트 복원력 솔루션에 관계없이 각 사용자에게 기본 등록자를 할당해야 합니다. 분기 사이트 사용자는 등록자가 Survivable Branch Appliance, Survivable Branch Server 또는 독립 실행형 비즈니스용 Skype 서버 Standard 또는 Enterprise Edition 서버에 있는지에 관계없이 항상 분기 사이트의 등록자에 등록해야 합니다. 클라이언트에서 해당 등록자 풀을 검색하려면 DNS(Domain Name System) SRV(서비스 리소스 레코드)가 필요합니다. Survivable Branch Appliance를 사용할 수 없게 되는 경우 분기 사이트 클라이언트가 백업 등록자를 자동으로 검색하는 방식입니다.
+선택하는 분기 사이트 복원 솔루션에 관계없이 각 사용자에게 기본 등록자를 할당해야 합니다. 분기 사이트 사용자는 등록자가 Survivable Branch Appliance, Survivable Branch Server 또는 독립 실행형 비즈니스용 Skype 서버 Standard 또는 Enterprise Edition 서버에 있는지에 관계없이 항상 분기 사이트의 등록자에 등록해야 합니다. 클라이언트에서 해당 등록자 풀을 검색하려면 DNS(Domain Name System) SRV(서비스 리소스 레코드)가 필요합니다. Survivable Branch Appliance를 사용할 수 없게 되는 경우 분기 사이트 클라이언트가 백업 등록자를 자동으로 검색하는 방식입니다.
 
 분기 사이트에 DNS 서버가 없는 경우 다음 두 가지 방법으로 Survivable Branch Appliance 또는 Survivable Branch Server의 검색을 구성할 수 있습니다.
 
@@ -280,9 +280,9 @@ Survivable Branch Appliance는 Microsoft와 파트너십을 체결한 원래 장
 분기 사이트의 사용자를 위한 별도의 사용자 수준 VoIP(Voice over Internet Protocol) 정책을 만드는 것이 좋습니다. 이 정책에는 SSN(Survivable Branch Appliance) 또는 분기 서버 게이트웨이를 사용하는 기본 경로와 중앙 사이트의 PSTN(전화망) 게이트웨이가 있는 트렁크를 사용하는 하나 이상의 백업 경로가 포함되어야 합니다. 기본 경로를 사용할 수 없는 경우 하나 이상의 중앙 사이트 게이트웨이를 사용하는 백업 경로가 대신 사용됩니다. 이렇게 하면 분기 사이트 등록자 또는 중앙 사이트의 백업 등록자 풀에서 사용자가 등록된 위치와 관계없이 사용자의 VoIP 정책이 항상 적용됩니다. 이 방식은 장애 조치(failover) 시나리오에서 중요한 고려 사항입니다. 예를 들어 Survivable Branch Appliance의 이름을 변경하거나 Survivable Branch Appliance를 다시 구성하여 중앙 사이트의 백업 등록자 풀에 연결하려면 분기 사이트 사용자를 중앙 사이트로 이동해야 합니다. Survivable Branch Appliance의 이름을 변경하거나 다시 구성하는 데 대한 자세한 내용은 부록 B: 배포 설명서에서 [Survivable Branch Appliance](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) 관리를 참조하십시오. 이러한 사용자에게 사용자 수준 VoIP 정책 또는 사용자 수준 다이얼 플랜이 없는 경우 사용자가 다른 사이트로 이동될 때 중앙 사이트의 사이트 수준 VoIP 정책 및 사이트 수준 다이얼 플랜은 기본적으로 분기 사이트 사이트 수준 VoIP 정책 및 다이얼 플랜 대신 사용자에게 적용됩니다. 이 시나리오에서는 백업 등록자 풀에서 사용되는 사이트 수준 VoIP 정책 및 사이트 수준 다이얼 플랜이 분기 사이트 사용자에게도 적용될 수 있지 않는 한 해당 통화가 실패합니다. 예를 들어 일본에 있는 분기 사이트의 사용자가 레드몬드의 중앙 사이트로 이동될 경우 모든 7자리 숫자 통화에 +1425를 추가하는 정규화 규칙의 다이얼 플랜은 해당 사용자에 대한 통화를 올바르게 변환하지 않을 수 있습니다.
 
 > [!IMPORTANT]
-> 지점 백업 경로를 만드는 경우 두 개의 PSTN 전화 사용 레코드를 지점 사용자 정책에 추가하고 각 레코드에 별도의 경로를 할당하는 것이 좋습니다. 첫 번째 경로 또는 기본 경로는 SBA(Survivable Branch Appliance) 또는 분기 서버와 연결된 게이트웨이로 통화를 연결합니다. 두 번째 또는 백업 경로는 통화를 중앙 사이트의 게이트웨이로 연결합니다. 통화를 전달할 때 SBA(fea-boa) 또는 분기 서버는 두 번째 사용 레코드를 시도하기 전에 첫 번째 PSTN 사용 레코드에 할당된 모든 경로를 시도합니다.
+> 지점 백업 경로를 만드는 경우 두 개의 PSTN 전화 사용 레코드를 지점 사용자 정책에 추가하고 각 레코드에 별도의 경로를 할당하는 것이 좋습니다. 첫 번째 또는 기본 경로는 SBA(Survivable Branch Appliance) 또는 분기 서버와 연결된 게이트웨이로 통화를 연결합니다. 두 번째 또는 백업 경로는 통화를 중앙 사이트의 게이트웨이로 연결합니다. 통화를 전달할 때 SBA(fea-boa) 또는 분기 서버는 두 번째 사용 레코드를 시도하기 전에 첫 번째 PSTN 사용 레코드에 할당된 모든 경로를 시도합니다.
 
-분기 사이트 사용자에 대한 인바운드 호출이 Survivable Branch Appliance 사이트의 Windows 구성 요소를 사용할 수 없는 경우(예: 유지 관리에 대해 Survivable Branch Appliance 또는 분기 게이트웨이가 다운된 경우) 해당 사용자에게 연결되도록 보장하기 위해 게이트웨이에 장애 조치(failover) 경로를 만들거나 DID(Direct Inward Dialing) 공급자와 함께 중앙 사이트의 백업 등록자 풀로 들어오는 호출을 리디렉션합니다. 여기에서 통화는 WAN 링크를 통해 분기 사용자에게 라우팅됩니다. 경로는 PSTN 게이트웨이 또는 다른 트렁크 피어의 허용 전화 번호 형식을 준수하기 위해 번호를 변환해야 합니다. 장애 조치(failover) 경로를 만드는 방법에 대한 자세한 내용은 [Configuring a Failover Route](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx)을 참조하십시오. 또한 수신 통화를 정규화하도록 분기 사이트의 게이트웨이와 연결된 트렁크에 대한 서비스 수준의 다이얼 플랜을 만듭니다. 분기 사이트에 2개의 Survivable Branch Appliance가 있는 경우 각각에 대해 별도의 서비스 수준 계획이 필요하지 않은 경우 둘 다에 대한 사이트 수준 다이얼 플랜을 만들 수 있습니다.
+분기 사이트 사용자에 대한 인바운드 호출이 Survivable Branch Appliance 사이트의 Windows 구성 요소를 사용할 수 없는 경우(예: 유지 관리에 대해 Survivable Branch Appliance 또는 분기 게이트웨이가 다운된 경우) 게이트웨이에 장애 조치(failover) 경로를 만들거나 DID(Direct Inward Dialing) 공급자와 함께 중앙 사이트의 백업 등록자 풀로 들어오는 호출을 리디렉션합니다. 여기에서 통화는 WAN 링크를 통해 분기 사용자에게 라우팅됩니다. 경로는 PSTN 게이트웨이 또는 다른 트렁크 피어의 허용 전화 번호 형식을 준수하기 위해 번호를 변환해야 합니다. 장애 조치(failover) 경로를 만드는 방법에 대한 자세한 내용은 [Configuring a Failover Route](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx)을 참조하십시오. 또한 수신 통화를 정규화하도록 분기 사이트의 게이트웨이와 연결된 트렁크에 대한 서비스 수준의 다이얼 플랜을 만듭니다. 분기 사이트에 2개의 Survivable Branch Appliance가 있는 경우 각각에 대해 별도의 서비스 수준 계획이 필요하지 않은 경우 둘 다에 대한 사이트 수준 다이얼 플랜을 만들 수 있습니다.
 
 > [!NOTE]
 > 현재 상태, 회의 또는 장애 조치를 중앙 사이트에 의존하는 분기 사이트 사용자의 중앙 사이트 리소스 사용을 계산하려면 각 분기 사이트 사용자를 중앙 사이트에 등록된 사용자로 간주하는 것이 좋습니다. 현재는 Survivable Branch Appliance에 등록된 사용자를 포함하여 분기 사이트 사용자 수에 제한이 없습니다.
@@ -291,7 +291,7 @@ Survivable Branch Appliance는 Microsoft와 파트너십을 체결한 원래 장
 
 #### <a name="routing-extension-numbers"></a>내선 번호 라우팅
 
-분기 사이트 사용자에 대해 다이얼 플랜 및 음성 정책을 준비할 때 분기 사이트 사용자와 중앙 사이트 사용자 간에 사용하도록 설정된 비즈니스용 Skype 통화가 올바르게 라우팅될 수 있도록( 특히 WAN 링크를 사용할 수 없는 경우 PSTN을 통해 통화를 다시 라우팅해야 하는 경우) msRTCSIP-line(또는 Line URI) 특성에 사용되는 문자열 및 번호 형식과 일치하는 정규화 규칙 및 변환 규칙을 포함해야 합니다. 전화 번호만 있는 것이 아니라 내선이 포함된 전화 접속 번호의 경우에는 특별한 추가 고려 사항이 있습니다.
+분기 사이트 사용자에 대해 다이얼 플랜 및 음성 정책을 준비할 때 msRTCSIP-line(또는 Line URI) 특성에 사용되는 문자열 및 번호 형식과 일치하는 정규화 규칙 및 변환 규칙을 포함해야 분기 사이트 사용자와 중앙 사이트 사용자 간에 사용하도록 설정된 비즈니스용 Skype 통화가 올바르게 라우팅됩니다( 특히 WAN 링크를 사용할 수 없는 경우 PSTN을 통해 통화를 다시 라우팅해야 하는 경우). 전화 번호만 있는 것이 아니라 내선이 포함된 전화 접속 번호의 경우에는 특별한 추가 고려 사항이 있습니다.
 
 내선 번호를 포함하는 줄 URI와 일치하는 정규화 규칙 및 변환 규칙은 배타적으로 사용되든 전체 E.164 전화 번호에 추가로 사용되든 간에 추가적인 요구 사항이 있습니다. 이 섹션에서는 내선 번호가 포함된 줄 URI에 대한 통화를 라우팅하는 몇 가지 예제 시나리오에 대해 설명합니다.
 
@@ -303,7 +303,7 @@ Survivable Branch Appliance는 Microsoft와 파트너십을 체결한 원래 장
 |:-----|:-----|:-----|:-----|:-----|
 |5digitExtensions  <br/> |5자리 숫자를 변환하지 않음  <br/> |^(\d {5} )$  <br/> |$1  <br/> |10001이 변환되지 않음  <br/> |
 
-또한 분기 사이트와 중앙 사이트 간의 WAN 링크를 사용할 수 없고 분기 사이트로부터의 통화를 PSTN을 통해 라우팅해야 하는 경우와 같은 특정 시나리오를 위한 내선 번호를 수용할 수 있어야 합니다. WAN이 정전되는 동안 분기 사이트 사용자가 중앙 사이트 사용자의 내선 번호로만 중앙 사이트 사용자에게 전화를 걸 경우 중앙 사이트 사용자의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 사용자의 줄 URI에 조직의 전체 전화 번호와 사용자 고유의 전체 전화 번호 대신 사용자의 고유한 내선 번호가 포함되어 있는 경우 조직의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 예제:
+또한 분기 사이트와 중앙 사이트 간의 WAN 링크를 사용할 수 없고 분기 사이트로부터의 통화를 PSTN을 통해 라우팅해야 하는 경우와 같은 특정 시나리오를 위한 내선 번호를 수용할 수 있어야 합니다. WAN이 정전되는 동안 분기 사이트 사용자가 중앙 사이트 사용자의 내선 번호로만 중앙 사이트 사용자에게 전화를 걸 경우 중앙 사이트 사용자의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 사용자의 줄 URI에 조직의 전체 전화 번호와 사용자 고유의 전체 전화 번호 대신 사용자의 고유한 내선 번호가 포함되어 있는 경우 조직의 전체 전화 번호를 추가하는 아웃바운드 변환 규칙이 있어야 합니다. 예시:
 
 |**설명**|**일치 패턴**|**Translation**|**예**|
 |:-----|:-----|:-----|:-----|
@@ -330,11 +330,11 @@ SB(Survivable Branch Appliance) 및 지속 가능 분기 서버는 WAN을 사용
 
 - 비즈니스용 Skype 서버 관리자는 AA 전화 번호를 사용하여 해당 전화 번호를 Survivable Branch Appliance 또는 분기 서버에 대한 음성 메일 다시 연결 설정의 **Exchange um** 자동 전화 교환 번호로 사용해야 합니다.
 
-- 비즈니스용 Skype 서버 관리자는 Exchange UM 구독자 액세스 전화 번호를  얻게 하여 해당 번호를 Survivable Branch Appliance 또는 Survivable Branch Server의 음성 메일 재라우팅 설정에서 구독자 액세스 번호로 사용해야 합니다.
+- 비즈니스용 Skype 서버 관리자는 Exchange UM 구독자 액세스 전화 번호를  얻었다가 해당 번호를 Survivable Branch Appliance 또는 Survivable Branch Server의 음성 메일 재라우팅 설정에서 구독자 액세스 번호로 사용해야 합니다.
 
 - 비즈니스용 Skype 서버 관리자는 WAN을 사용할 수 있는 동안 음성 메일에 액세스해야 하는 모든 분기 사용자와 하나의 다이얼 플랜만 연결하도록 Exchange UM을 구성해야 합니다.
 
-- WAN 링크를 사용할 수 없는 경우 분기 사이트 사용자에 대한 통화를 사용자의 Exchange UM(통합 메시징) 음성 사서함으로 라우팅할 수 있지만, 통화에 적용된 음성 정책이 고유한 음성 메일 전화 번호를 지정하고 내선 번호를 포함하지 않는 경우만 가능합니다.
+- WAN 링크를 사용할 수 없는 경우 분기 사이트 사용자에 대한 통화를 사용자의 Exchange UM(통합 메시징) 음성 사서함으로 라우팅할 수 있지만, 통화에 적용된 음성 정책이 고유하고 내선 번호를 포함하지 않는 음성 메일 전화 번호를 지정하는 경우만 가능합니다.
 
 #### <a name="hardware-and-software-requirements-for-branch-site-resiliency"></a>분기 사이트 복구를 위한 하드웨어 및 소프트웨어 요구 사항
 
@@ -351,7 +351,7 @@ SB(Survivable Branch Appliance) 및 지속 가능 분기 서버는 WAN을 사용
 
 비즈니스용 Skype 클라이언트는 DHCP 옵션 120(SIP 등록자 옵션)을 사용하여 비즈니스용 Skype 서버를 검색할 수 있습니다. 이 구성은 다음 두 가지 방법 중 하나를 사용하여 구성할 수 있습니다.
 
-- 분기 사이트의 DHCP 서버가 DHCP 120 쿼리에 회신하도록 구성하여 Survivable Branch Appliance 또는 Survivable Branch Server에서 등록자 FQDN을 반환합니다.
+- DHCP 120 쿼리에 회신하도록 분기 사이트의 DHCP 서버를 구성하여 Survivable Branch Appliance 또는 Survivable Branch Server에서 등록자 FQDN을 반환합니다.
 
 - 비즈니스용 Skype 서버 DHCP를 켜습니다. 이 설정이 설정되어 있는 경우 비즈니스용 Skype 서버 등록자는 DHCP 옵션 120 쿼리에 응답합니다. 등록자는 DHCP 옵션 120이 아닌 DHCP 쿼리에 응답하지 않습니다.
 
@@ -363,7 +363,7 @@ SB(Survivable Branch Appliance) 및 지속 가능 분기 서버는 WAN을 사용
 
 Survivable Branch Server의 요구 사항은 프런트 엔드 서버의 요구 사항과 동일합니다. 자세한 내용은 비즈니스용 [Skype 서버 2015에](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)대한 서버 요구 사항을 참조하세요.
 
-#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>비즈니스용 Skype Full-Scale 배포에 대한 Branch-Site 요구 사항
+#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>비즈니스용 Skype Full-Scale 서버 배포에 대한 Branch-Site 요구 사항
 
 자세한 내용은 계획 설명서에서 [비즈니스용 Skype 서버 2015에](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 대한 서버 요구 사항을 참조하십시오.
 

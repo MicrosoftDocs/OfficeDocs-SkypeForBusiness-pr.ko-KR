@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
-description: SIP 트렁크 E9-1-1 서비스 공급자가 있는지 또는 ELIN 게이트웨이가 있는지에 따라 비즈니스용 Skype 서버 Enterprise Voice에서 E9-1-1을 사용하도록 설정하는 데 필요한 단계를 요약하여 제공합니다.
+description: SIP 트렁크 E9-1-1 서비스 공급자가 있는지 또는 ELIN 게이트웨이가 있는지에 따라 비즈니스용 Skype 서버 Enterprise Voice에서 E9-1-1을 사용하도록 설정하는 데 필요한 단계를 요약합니다.
 ms.openlocfilehash: 8efd38657a80bee1ecd979e8730feacfb980053e
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.locfileid: "49825818"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 긴급 통화에 대한 요구 사항 정의
  
-SIP 트렁크 E9-1-1 서비스 공급자가 있는지 또는 ELIN 게이트웨이가 있는지에 따라 비즈니스용 Skype 서버 Enterprise Voice에서 E9-1-1을 사용하도록 설정하는 데 필요한 단계를 요약하여 제공합니다.
+SIP 트렁크 E9-1-1 서비스 공급자가 있는지 또는 ELIN 게이트웨이가 있는지에 따라 비즈니스용 Skype 서버 Enterprise Voice에서 E9-1-1을 사용하도록 설정하는 데 필요한 단계를 요약합니다.
   
-비즈니스용 Skype 서버 E9-1-1 배포를 시작하기 전에 먼저 다음 섹션에 자세히 설명된 질문에 답변할 수 있습니다. 배포할 E9-1-1 솔루션 유형(SIP 트렁크 E9-1-1-1 서비스 공급자 또는 ELIN(Emergency Location Identification Number) 게이트웨이)에 따라 계획해야 합니다. 다음 표에서는 이러한 각 솔루션에 대해 검토해야 하는 이 계획 통합 문서의 섹션을 설명합니다.
+비즈니스용 Skype 서버 E9-1-1 배포를 시작하기 전에 먼저 다음 섹션에 자세히 설명된 질문에 답변할 수 있습니다. 배포할 E9-1-1 솔루션 유형(SIP 트렁크 E9-1-1 서비스 공급자 또는 ELIN(Emergency Location Identification Number) 게이트웨이)에 따라 계획해야 합니다. 다음 표에서는 이러한 각 솔루션에 대해 검토해야 하는 이 계획 통합 문서의 섹션을 설명합니다.
   
 **E9-1-1 솔루션 유형별 계획 단계**
 

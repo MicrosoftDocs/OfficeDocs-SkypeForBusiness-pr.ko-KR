@@ -55,7 +55,7 @@ ms.locfileid: "49822068"
     
 ## <a name="tasks-that-you-can-perform"></a>수행할 수 있는 작업
 
-영구 채팅 구성 페이지에서는  영구 채팅 서버 옵션을 전역적으로 구성하거나 특정 풀에 대해 구성하는 작업을 수행할 수 있습니다.
+영구 채팅 구성 페이지에서는  영구 채팅 서버 옵션을 전역적으로 구성하거나 특정 풀에 대해 구성할 수 있습니다.
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>영구 채팅 옵션을 전역적으로 구성
 

@@ -24,7 +24,7 @@ ms.locfileid: "49823898"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 범위 노드
 
-Office Web Apps 서버를 마우스 **오른쪽 단추로** 클릭하고 **새 Office Web Apps 서버를** 선택하여 마법사를 열 수 있습니다.
+Office Web Apps 서버를 마우스 **오른쪽 단추로** 클릭하고 새 **Office Web Apps 서버를** 선택하여 마법사를 열 수 있습니다.
 
 ![OfficeWebApps 서버 범위 노드](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 

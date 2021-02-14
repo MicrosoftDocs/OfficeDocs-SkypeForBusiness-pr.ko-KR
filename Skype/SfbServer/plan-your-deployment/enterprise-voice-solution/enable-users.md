@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
-description: 비즈니스용 Skype 서버의 E9-1-1 배포에 대한 위치 정책에 Enterprise Voice 사용자 및 로밍 사용자를 지원하는 방법을 포함하여 결정됩니다.
+description: 사용하도록 설정할 사용자 및 로밍 사용자를 지원하는 방법을 포함하여 비즈니스용 Skype 서버 Enterprise Voice E9-1-1 배포의 위치 정책에 필요한 결정
 ms.openlocfilehash: 9a2ced694357b9225555a05c10e93a1006a771b4
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.locfileid: "49825748"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자가 E9-1-1을 사용할 수 있도록 설정
  
-비즈니스용 Skype 서버의 E9-1-1 배포에 대한 위치 정책에 Enterprise Voice 사용자 및 로밍 사용자를 지원하는 방법을 포함하여 결정됩니다.
+사용하도록 설정할 사용자 및 로밍 사용자를 지원하는 방법을 포함하여 비즈니스용 Skype 서버 Enterprise Voice E9-1-1 배포의 위치 정책에 필요한 결정
   
-클라이언트를 등록하는 동안 비즈니스용 Skype 서버는 위치 정책을 사용하여 사용 가능한 사용자에 대해 E9-1-1 Enterprise Voice 구성합니다. 이 정책에는 E9-1-1 구현 방법을 정의하는 설정이 포함됩니다. 예를 들어 위치 정책에는 긴급 전화 문자열과 같은 정보가 포함되고 위치 정보 서비스에서 위치를 자동으로 제공하지 않는 경우 사용자가 위치를 수동으로 입력해야 하는지 여부가 포함되어 있습니다. 위치 정책의 전체 정의는 비즈니스용 Skype 서버의 위치 정책 [계획을 참조하세요.](location-policies.md)
+클라이언트를 등록하는 동안 비즈니스용 Skype 서버는 위치 정책을 사용하여 사용 가능한 사용자에 대해 E9-1-1 Enterprise Voice 구성합니다. 이 정책에는 E9-1-1 구현 방법을 정의하는 설정이 포함됩니다. 예를 들어 위치 정책에는 긴급 전화 문자열과 같은 정보가 포함되고 위치 정보 서비스에서 자동으로 위치를 제공하지 않는 경우 사용자가 위치를 수동으로 입력해야 하는지 여부가 포함되어 있습니다. 위치 정책의 전체 정의는 비즈니스용 Skype 서버의 위치 정책 [계획을 참조하세요.](location-policies.md)
   
 비즈니스용 Skype 서버는 서브넷을 기반으로 클라이언트 또는 전역, 사이트당 또는 사용자 정책에 따라 사용자에게 위치 정책을 할당할 수 있습니다. 사용자를 설정하는 방법을 결정하기 위해서는 먼저 다음과 같은 질문을 확인해야 합니다.
   

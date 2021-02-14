@@ -35,7 +35,7 @@ ms.locfileid: "49825798"
     
 - SBC(On-premises Session Border Controller)를 사용하여 중재 서버와 SIP 트렁크 공급자 서비스 간의 보안 경계 지점을 제공합니다.
     
-두 번째 방법을 사용할 경우 선택한 SBC 작성 및 모델이 인증되었는지 확인하고 PIDF-LO(Presence Information Data Format Location Object) 위치 데이터를 SIP INVITE의 일부로 전달하도록 지원하는지 확인합니다. 그렇지 않으면 해당 위치 정보가 제거된 상태로 통화가 긴급 서비스 제공자에게 도착합니다. 인증된 SB에 대한 자세한 내용은 ["Microsoft Lync에](https://go.microsoft.com/fwlink/p/?LinkId=248425) 대해 자격을 갖춘 인프라" 및 "비즈니스용 Skype의 전화 통신 [인프라"를 참조하세요.](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) 
+두 번째 방법을 사용할 경우 선택한 SBC 작성 및 모델이 인증되었는지 확인하고 PIDF-LO(Presence Information Data Format Location Object) 위치 데이터를 SIP INVITE의 일부로 전달하도록 지원하는지 확인합니다. 그렇지 않으면 해당 위치 정보가 제거된 상태로 통화가 긴급 서비스 제공자에게 도착합니다. 인증된 SBC에 대한 자세한 내용은 ["Microsoft Lync에](https://go.microsoft.com/fwlink/p/?LinkId=248425) 대해 자격을 갖춘 인프라" 및 "비즈니스용 Skype의 전화 통신 [인프라"를 참조하세요.](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) 
   
 E9-1-1 서비스 공급자는 중복을 위해 SC 쌍에 대한 액세스를 제공합니다. 중재 서버 토폴로지 및 통화 라우팅 구성과 관련하여 몇 가지 결정을 내릴 수 있습니다. 두 SBC를 모두 같은 피어로 처리하고 이들 간의 통화에 라운드 로빈 라우팅을 사용합니까? 아니면 SBC 하나를 기본 SBC로 지정하고 다른 SBC를 보조로 지정합니까?
   

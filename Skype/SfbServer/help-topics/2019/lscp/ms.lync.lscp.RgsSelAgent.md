@@ -44,7 +44,7 @@ ms.locfileid: "49824668"
 
 - **전화 통신** 사용자에 대해  정의된 전화 통신 필드의 값을 표시됩니다.
 
-- **사용** 사용자에 대해 정의된 **Lync Server에 대해 사용** 가능 필드의 값을 표시됩니다.
+- **사용** 사용자에 대해 정의된 **Lync Server에 대해 사용하도록 설정** 필드의 값을 표시됩니다.
 
 에이전트 그룹을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)를 참조하십시오.
 

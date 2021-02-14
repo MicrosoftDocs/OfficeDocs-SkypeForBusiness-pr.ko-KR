@@ -31,7 +31,7 @@ ms.locfileid: "49823518"
 
 - [비즈니스용 Skype 서버의 QoE(환경 품질)](quality-of-experience.md)
 
-- [비즈니스용 Skype 서버의 모바일 성능 모니터링](monitor-mobility-performance.md)
+- [비즈니스용 Skype 서버에서 모바일 성능 모니터링](monitor-mobility-performance.md)
 
 - [비즈니스용 Skype 서버에서 모니터링 보고서 사용](monitoring-reports.md)
 

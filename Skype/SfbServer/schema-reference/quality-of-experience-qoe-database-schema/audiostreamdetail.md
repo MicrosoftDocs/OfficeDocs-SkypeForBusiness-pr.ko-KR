@@ -47,7 +47,7 @@ AudioStreamDetail 보기에는 데이터베이스의 각 오디오 스트림에 
 |CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |발신자 사용자 에이전트 범주입니다. 자세한 내용은 [UserAgentDef 테이블(QoE)을](useragentdef-qoe.md) 참조하십시오. <br/> |
 |CallerEndpoint  <br/> |nvarchar(256)  <br/> |발신자 끝점 이름입니다.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar(256)  <br/> |발신자 끝점 이름입니다.  <br/> |
-|CallerOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 OS(운영 체제)입니다.  <br/> |
+|CallerOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 운영 체제(OS)입니다.  <br/> |
 |CalleeOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 운영 체제(OS)입니다.  <br/> |
 |CallerCPUName  <br/> |nvarchar(128)  <br/> |발신자 끝점의 CPU 이름입니다.  <br/> |
 |CalleeCPUName  <br/> |nvarchar(128)  <br/> |발신자 끝점의 CPU 이름입니다.  <br/> |
@@ -132,7 +132,7 @@ AudioStreamDetail 보기에는 데이터베이스의 각 오디오 스트림에 
 |CalleeSendNoiseLevel  <br/> |int  <br/> |수신자가 전송한 오디오의 포스트 아날로그 게인 컨트롤 오디오 소음 수준입니다. 이 메트릭의 단위는 dBmo입니다. 적정 품질을 위해서는 35 dBmo 미만이어야 합니다. 이 메트릭은 A/V 회의 서버 또는 IP 전화에서 보고되지 않습니다.  <br/> |
 |CalleeRecvNoiseLevel  <br/> |int  <br/> |수신자가 수신한 오디오의 포스트 아날로그 게인 컨트롤 오디오 소음 수준입니다. 이 메트릭의 단위는 dBmo입니다. 적정 품질을 위해서는 35 dBmo 미만이어야 합니다. 이 메트릭은 A/V 회의 서버 또는 IP 전화에서 보고되지 않습니다.  <br/> |
 |CalleeEchoReturn  <br/> |int  <br/> |수신자의 에코 반환 손실 향상 메트릭입니다. 이 메트릭의 단위는 dB입니다. 값이 낮으면 에코가 적습니다. 이 메트릭은 A/V 회의 서버 또는 IP 전화에서 보고되지 않습니다.  <br/> |
-|CalleeSpeakerGlitchRate  <br/> |int  <br/> |발신자 스피커 렌더링에 대한 5분당 평균 글리치입니다. 적정 품질을 위해서는 5분당 1 미만이어야 합니다. A/V 회의 서버, 중재 서버 또는 IP 전화에서 보고되지 않습니다.  <br/> |
+|CalleeSpeakerGlitchRate  <br/> |int  <br/> |발신자 스피커 렌더링에 대한 5분당 평균 불투명도입니다. 적정 품질을 위해서는 5분당 1 미만이어야 합니다. A/V 회의 서버, 중재 서버 또는 IP 전화에서 보고되지 않습니다.  <br/> |
 |CalleeMicGlitchRate  <br/> |int  <br/> |발신자 마이크 캡처에 대한 5분당 평균 불투명도입니다. 적정 품질을 위해서는 5분당 1 미만이어야 합니다. A/V 회의 서버, 중재 서버 또는 IP 전화에서 보고되지 않습니다.  <br/> |
 |CalleeTimestampDriftRateMic  <br/> |decimal(9,2)  <br/> |CPU 클럭을 상대로 하는 발신자 마이크 디바이스 클럭 드리프트 비율입니다.  <br/> |
 |CalleeTimestampDriftRateSpk  <br/> |decimal(9,2)  <br/> |CPU 클럭을 상대로 발신자 스피커 디바이스 클럭 드리프트 비율입니다.  <br/> |
