@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808458"
 ---
-# <a name="associate-a-subnet"></a><span data-ttu-id="cd0f9-104">서브넷 연결</span><span class="sxs-lookup"><span data-stu-id="cd0f9-104">Associate a Subnet</span></span>
+# <a name="associate-a-subnet"></a><span data-ttu-id="da05d-104">서브넷 연결</span><span class="sxs-lookup"><span data-stu-id="da05d-104">Associate a Subnet</span></span>
 
-<span data-ttu-id="cd0f9-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="cd0f9-105">What do you want to do?</span></span> <span data-ttu-id="cd0f9-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="cd0f9-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="da05d-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="da05d-105">What do you want to do?</span></span> <span data-ttu-id="da05d-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="da05d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="cd0f9-107">네트워크 서브넷 구성</span><span class="sxs-lookup"><span data-stu-id="cd0f9-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="da05d-107">네트워크 서브넷 구성</span><span class="sxs-lookup"><span data-stu-id="da05d-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
 
 

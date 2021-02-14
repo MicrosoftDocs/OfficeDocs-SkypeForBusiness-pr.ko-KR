@@ -23,8 +23,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810558"
 ---
-# <a name="client-settings-planning-tool"></a><span data-ttu-id="fe214-104">클라이언트 설정(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="fe214-104">Client Settings (Planning Tool)</span></span>
+# <a name="client-settings-planning-tool"></a><span data-ttu-id="1b281-104">클라이언트 설정(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="1b281-104">Client Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="fe214-105">비즈니스용 Skype 서버 2015의 모바일 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="fe214-105">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="fe214-106">자세한 내용은 [이동성 계획 을 참조 합니다.](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)</span><span class="sxs-lookup"><span data-stu-id="fe214-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
+<span data-ttu-id="1b281-105">비즈니스용 Skype 서버 2015의 모바일 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="1b281-105">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="1b281-106">자세한 내용은 [이동성 계획 을 참조 합니다.](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)</span><span class="sxs-lookup"><span data-stu-id="1b281-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
 
 

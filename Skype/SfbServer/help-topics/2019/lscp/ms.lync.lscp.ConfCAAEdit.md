@@ -22,12 +22,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808708"
 ---
-# <a name="dial-in-access-number-create-new-or-edit-existing"></a><span data-ttu-id="d9556-104">전화 접속 액세스 번호: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="d9556-104">Dial-in Access Number: Create New or Edit Existing</span></span>
+# <a name="dial-in-access-number-create-new-or-edit-existing"></a><span data-ttu-id="153ce-104">전화 접속 액세스 번호: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="153ce-104">Dial-in Access Number: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="d9556-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="d9556-105">What do you want to do?</span></span> <span data-ttu-id="d9556-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d9556-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="153ce-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="153ce-105">What do you want to do?</span></span> <span data-ttu-id="153ce-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="153ce-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d9556-107">전화 접속 회의 액세스 번호 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="d9556-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [<span data-ttu-id="153ce-107">전화 접속 회의 액세스 번호 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="153ce-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 
-- [<span data-ttu-id="d9556-108">전화 접속 회의 액세스 번호 삭제</span><span class="sxs-lookup"><span data-stu-id="d9556-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
+- [<span data-ttu-id="153ce-108">전화 접속 회의 액세스 번호 삭제</span><span class="sxs-lookup"><span data-stu-id="153ce-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
 
 

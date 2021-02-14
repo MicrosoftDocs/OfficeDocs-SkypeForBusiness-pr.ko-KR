@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49811128"
 ---
-# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="63ae1-103">비즈니스용 Skype 서버 새 확장기 만들기</span><span class="sxs-lookup"><span data-stu-id="63ae1-103">Skype for Business Server Create New Expander</span></span>
+# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="a542a-103">비즈니스용 Skype 서버 새 확장기 만들기</span><span class="sxs-lookup"><span data-stu-id="a542a-103">Skype for Business Server Create New Expander</span></span>
  
-<span data-ttu-id="63ae1-104">토폴로지 작성기에서 비즈니스용 **Skype** 서버를 마우스 오른쪽 단추로 클릭하고 새로 만들기를 선택한 다음 만들 서버 역할을 선택하여 새 서버 역할을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63ae1-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
+<span data-ttu-id="a542a-104">토폴로지 작성기에서 비즈니스용 **Skype** 서버를 마우스 오른쪽 단추로 클릭하고 새로 만들기를 선택한 다음 만들 서버 역할을 선택하여 새 서버 역할을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a542a-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
   
 

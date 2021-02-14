@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49811498"
 ---
-# <a name="associate-branch-office-appliance-with-front-end"></a><span data-ttu-id="0cf15-104">프런트 엔드와 Branch Office Appliance 연결</span><span class="sxs-lookup"><span data-stu-id="0cf15-104">Associate Branch Office Appliance With Front End</span></span>
+# <a name="associate-branch-office-appliance-with-front-end"></a><span data-ttu-id="3ec2e-104">프런트 엔드와 Branch Office Appliance 연결</span><span class="sxs-lookup"><span data-stu-id="3ec2e-104">Associate Branch Office Appliance With Front End</span></span>
  
-<span data-ttu-id="0cf15-105">Survivable Branch Appliance 또는 Survivable Branch Server를 프런트 엔드 풀 또는 Standard  Edition 서버와 연결하려면 프런트 엔드 풀 선택 페이지에서  프런트 엔드 풀 드롭다운 목록에서 프런트 엔드 풀 또는 Standard Edition 서버를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf15-105">To associate the Survivable Branch Appliance or Survivable Branch Server with a Front End pool or a Standard Edition server, on the **Select the Front End pool** page, select the Front End pool or a Standard Edition server from the **Front End pool** drop-down list.</span></span> <span data-ttu-id="0cf15-106">계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf15-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="3ec2e-105">Survivable Branch Appliance 또는 Survivable Branch Server를 프런트 엔드 풀 또는 Standard  Edition 서버와 연결하려면 프런트 엔드 풀 선택 페이지에서  프런트 엔드 풀 드롭다운 목록에서 프런트 엔드 풀 또는 Standard Edition 서버를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="3ec2e-105">To associate the Survivable Branch Appliance or Survivable Branch Server with a Front End pool or a Standard Edition server, on the **Select the Front End pool** page, select the Front End pool or a Standard Edition server from the **Front End pool** drop-down list.</span></span> <span data-ttu-id="3ec2e-106">계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3ec2e-106">Click **Next** to continue.</span></span>
   
 

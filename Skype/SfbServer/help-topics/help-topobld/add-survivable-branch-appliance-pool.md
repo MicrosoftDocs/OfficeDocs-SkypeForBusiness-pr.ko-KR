@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810338"
 ---
-# <a name="add-survivable-branch-appliance-pool"></a><span data-ttu-id="4b98e-104">SBA(Survivable Branch Appliance) 풀 추가</span><span class="sxs-lookup"><span data-stu-id="4b98e-104">Add Survivable Branch Appliance Pool</span></span>
+# <a name="add-survivable-branch-appliance-pool"></a><span data-ttu-id="b6309-104">SBA(Survivable Branch Appliance) 풀 추가</span><span class="sxs-lookup"><span data-stu-id="b6309-104">Add Survivable Branch Appliance Pool</span></span>
  
-<span data-ttu-id="4b98e-105">**Survivable Branch Appliance FQDN을** 정의하려면 FQDN 텍스트 상자에 Survivable Branch Appliance 또는 Survivable Branch Server의 FQDN(도메인 이름 시스템)에 정의된 **FQDN(FQDN)을** 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4b98e-105">To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box.</span></span> <span data-ttu-id="4b98e-106">**다음** 을 클릭하여 계속합니다.</span><span class="sxs-lookup"><span data-stu-id="4b98e-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="b6309-105">**Survivable Branch Appliance FQDN을** 정의하려면 FQDN 텍스트 상자에 Survivable Branch Appliance 또는 Survivable Branch Server의 FQDN(도메인 이름 시스템)에 정의된 **FQDN(FQDN)을** 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="b6309-105">To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box.</span></span> <span data-ttu-id="b6309-106">**다음** 을 클릭하여 계속합니다.</span><span class="sxs-lookup"><span data-stu-id="b6309-106">Click **Next** to continue.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="4b98e-107">다른 명시가 없는 한 Survivable Branch Appliance 또는 Survivable Branch Server를 정의하는 것은 동일한 절차입니다.</span><span class="sxs-lookup"><span data-stu-id="4b98e-107">Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure.</span></span> 
+> <span data-ttu-id="b6309-107">다른 명시가 없는 한 Survivable Branch Appliance 또는 Survivable Branch Server를 정의하는 것은 동일한 절차입니다.</span><span class="sxs-lookup"><span data-stu-id="b6309-107">Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure.</span></span> 
   
 
