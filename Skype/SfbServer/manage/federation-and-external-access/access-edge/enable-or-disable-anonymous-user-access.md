@@ -29,13 +29,13 @@ ms.locfileid: "49817448"
 나중에 익명 사용자의 액세스를 일시적으로 또는 영구적으로 차단하려는 경우 조직에서 사용하지 않도록 설정할 수 있습니다. 이 섹션의 절차에 따라 조직에 대한 익명 사용자 액세스를 사용하도록 설정하거나 사용하지 않도록 설정할 수 있습니다.
 
 > [!NOTE]  
-> 조직에 대해 익명 사용자 액세스를 사용하도록 설정하면 액세스 에지 서비스를 실행하는 서버가 익명 사용자의 액세스를 지원하도록 지정해야 합니다. 또한 하나 이상의 회의 정책을 구성하고 하나 이상의 사용자 또는 사용자 그룹에 적용할 때까지는 익명 사용자가 조직의 모임에 참가할 수 없습니다. 익명 사용자를 모임에 초대할 수 있는 사용자는 익명 사용자를 지원하도록 구성된 회의 정책이 할당된 사용자뿐입니다. 익명 사용자 선택을 지원하기 위해 회의 정책을 구성하는 데 대한 자세한 내용은 회의 정책 관리를 [참조합니다.](../../conferencing/conferencing-policies.md)
+> 조직에 대해 익명 사용자 액세스를 사용하도록 설정하면 액세스 에지 서비스를 실행하는 서버가 익명 사용자의 액세스를 지원하도록 지정해야 합니다. 또한 하나 이상의 회의 정책을 구성하고 하나 이상의 사용자 또는 사용자 그룹에 적용할 때까지는 익명 사용자가 조직의 모임에 참가할 수 없습니다. 익명 사용자를 모임에 초대할 수 있는 사용자는 익명 사용자를 지원하도록 구성된 회의 정책이 할당된 사용자뿐입니다. 익명 사용자 선택을 지원하기 위해 회의 정책을 구성하는 데 대한 자세한 내용은 회의 정책 [관리를 참조합니다.](../../conferencing/conferencing-policies.md)
 
 ## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>조직에 대해 익명 사용자 액세스를 사용하도록 설정하거나 사용하지 않도록 설정하려면
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
 3.  왼쪽 탐색 모음에서 **외부 사용자 액세스** 를 클릭하고 **액세스 에지 구성** 을 클릭합니다.
 
@@ -45,18 +45,18 @@ ms.locfileid: "49817448"
     
       - 조직에서 익명 사용자 액세스를 사용하도록  설정하려면 익명 사용자와의 통신 사용 확인란을 선택합니다.
     
-      - 조직에 대한 익명 사용자 액세스를 사용하지 않도록 설정하려면 익명 사용자와의 통신 사용 확인란의 **선택을** 취소합니다.
+      - 조직에 대해 익명 사용자 액세스를 사용하지 않도록 설정하려면 익명 사용자와의 통신 사용 확인란의 **선택을** 취소합니다.
 
 6.  **커밋** 을 클릭합니다.
 
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 익명 사용자 액세스 Windows PowerShell 사용 안 하도록 설정
 
-**Set-CsAccessEdgeConfiguration** cmdlet과 Windows PowerShell 익명 사용자 액세스를 관리할 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸의 원격 세션에서 Windows PowerShell. 
+**Set-CsAccessEdgeConfiguration** cmdlet과 Windows PowerShell 익명 사용자 액세스를 관리할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 
 
 ## <a name="to-enable-anonymous-user-access"></a>익명 사용자 액세스를 사용하도록 설정하려면
 
-  - 익명 사용자 액세스를 사용하도록 설정하려면 **AllowAnonymousUsers** 속성 값을 True($True)
+  - 익명 사용자 액세스를 사용하도록 설정하려면 **AllowAnonymousUsers** 속성 값을 True($True).
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 

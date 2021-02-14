@@ -21,7 +21,7 @@ ms.locfileid: "49817658"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보관 구성 만들기
 
-**요약:** 비즈니스용 Skype 서버의 보관 구성을 만드는 방법을 자세히 알아보는 방법을 배워야 합니다.
+**요약:** 비즈니스용 Skype 서버에 대한 보관 구성을 만드는 방법을 자세히 알아보고
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>제어판을 사용하여 보관 옵션 구성
 

@@ -21,7 +21,7 @@ ms.locfileid: "49816638"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 CDR 구성 정보 보기
  
-**요약:** 비즈니스용 Skype 서버에서 CDR(통화 정보 기록)을 사용하는 방법을 배워야 합니다.
+**요약:** 비즈니스용 Skype 서버에서 CDR(통화 정보 기록)을 사용하는 방법에 대해 자세히 알아보습니다.
   
 CDR(통화 정보 기록)을 사용하면 피어 투 피어 인스턴트 메시징 세션, VoIP(Voice over Internet Protocol) 전화 통화, 전화 회의 통화 등의 사용 현황을 추적할 수 있습니다. 이러한 사용 내역 데이터에는 누가 누구에게 전화를 걸었는지, 언제 전화를 걸었는지 및 얼마나 오래 통화했는지에 대한 정보가 포함됩니다.
   
@@ -35,7 +35,7 @@ CDR(통화 정보 기록)을 사용하면 피어 투 피어 인스턴트 메시�
     
 ## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 CDR 구성 Windows PowerShell 보기
 
-CDR 구성 설정은 Windows PowerShell cmdlet을 사용하여 Get-CsCdrConfiguration 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸의 원격 세션에서 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+CDR 구성 설정은 Windows PowerShell cmdlet을 사용하여 Get-CsCdrConfiguration 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
   
 ### <a name="to-view-cdr-configuration-information"></a>CDR 구성 정보를 보려면
 

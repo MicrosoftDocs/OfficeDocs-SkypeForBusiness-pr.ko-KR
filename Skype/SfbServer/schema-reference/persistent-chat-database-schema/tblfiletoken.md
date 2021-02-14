@@ -36,7 +36,7 @@ tblFileToken에는 파일 전송 목적의 임시 토큰이 포함됩니다.
 |fileTokenComplianceThumbnailUrl  <br/> |nvarchar(256)  <br/> |전송된 파일에 대한 축소판 그림의 URL입니다(준수 서비스용).  <br/> |
 |fileTokenComplianceTime  <br/> |datetime2  <br/> |실제 파일 전송 작업의 타임스탬프입니다(준수 서비스용).  <br/> |
 |fileTokenComplianceIsUpload  <br/> |bit  <br/> |업로드인 경우 True, 다운로드인 경우 False입니다(준수 서비스용).  <br/> |
-|fileTokenCompliancePinned  <br/> |bit, null이 아님  <br/> |토큰이 고정된 경우 True입니다. Compliance Service에서 관련 필드를 검색할 수 있는 기회가 제공될 때까지 테이블에 토큰을 유지하는 데 사용됩니다.  <br/> |
+|fileTokenCompliancePinned  <br/> |bit, null이 아님  <br/> |토큰이 고정된 경우 True입니다. Compliance Service에서 관련 필드를 검색할 수 있는 기회가 제공될 때까지 토큰을 테이블에 보관하는 데 사용됩니다.  <br/> |
    
 **키**
 

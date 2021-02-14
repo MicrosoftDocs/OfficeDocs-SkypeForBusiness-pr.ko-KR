@@ -65,7 +65,7 @@ Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
-다음 예제에서는 Bob에 기존 PIN이 있는 경우에도 Bob의 값이 "383042650"인 새 PIN을 강제로 설정한 다음 Marco에서 Bob에게 환영 전자 메일을 전송합니다. Credential 매개 변수가 지정되어 있기 때문에 명령을 실행하는 사용자에게 암호를 입력하라는 메시지가 표시됩니다. 전자 메일은 SSL(Secure Sockets Layer)을 사용하여 전송됩니다.
+다음 예에서는 Bob에 대해 값이 "383042650"인 새 PIN을 강제로 강제로 설정하고, Bob은 기존 PIN이 있는 경우에도 해당 PIN을 강제로 설정한 다음 Marco에서 Bob에게 환영 전자 메일을 전송합니다. Credential 매개 변수가 지정되어 있기 때문에 명령을 실행하는 사용자에게 암호를 입력하라는 메시지가 표시됩니다. 전자 메일은 SSL(Secure Sockets Layer)을 사용하여 전송됩니다.
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"

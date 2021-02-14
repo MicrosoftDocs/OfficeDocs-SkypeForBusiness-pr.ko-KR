@@ -28,7 +28,7 @@ ms.locfileid: "49816308"
  
 **요약:**  Microsoft 365 또는 Office 365를 사용하지 않는 조직에서 호스팅하는 모임에 액세스해야 하는 조직에 대한 정보입니다. 이 문서는 이러한 앱의 사용자를 위한 것이 아니며,
   
-사용자가 비즈니스용 Skype Online에서 호스트되는 모임에 Skype 모임 앱을 사용할 수 있도록 허용하기 위해 Microsoft 365 또는 Office 365를 사용하지 않는 조직의 네트워크 관리자는 아래에 언급된 FQDNS, IP 및 포트를 허용하거나 사용할 수 있도록 해야 합니다.
+사용자가 비즈니스용 Skype Online에서 호스트되는 모임에 Skype 모임 앱을 사용할 수 있도록 허용하기 위해 Microsoft 365 또는 Office 365를 사용하지 않는 조직의 네트워크 관리자는 아래 언급된 FQDNS, IP 및 포트를 허용하거나 사용할 수 있도록 해야 합니다.
 
 ## <a name="requirements-for-skype-meetings-app-connectivity"></a>Skype 모임 앱 연결 요구 사항
 

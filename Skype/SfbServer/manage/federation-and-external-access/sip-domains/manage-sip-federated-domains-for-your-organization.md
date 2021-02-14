@@ -59,7 +59,7 @@ ms.locfileid: "49817218"
 
 페더레이션 사용자 액세스를 허용하려면 조직에서 페더레이션 사용자 액세스를 지원하도록 설정해야 합니다. 자세한 내용은 원격 사용자 액세스 사용 또는 [사용 안 하도록 설정 을 참조 합니다.](../access-edge/enable-or-disable-remote-user-access.md)
 
-또한 페더레이션 사용자와 공동 작업을 수행할 수 있도록 하려는 사용자에 대한 정책을 구성하고 적용해야 합니다. 자세한 내용은 페더타 사용자 액세스를 제어하는 정책 구성을 [참조합니다.](../external-access-policies/configure-policies-to-control-federated-user-access.md)
+또한 페더레이션 사용자와 공동 작업을 수행할 수 있도록 하려는 사용자에 대한 정책을 구성하고 적용해야 합니다. 자세한 내용은 페더타 사용자 액세스를 제어하는 정책 [구성을 참조합니다.](../external-access-policies/configure-policies-to-control-federated-user-access.md)
 
 ## <a name="configure-support-for-blocked-external-domains-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 차단된 외부 도메인에 대한 지원 구성 
 
@@ -70,7 +70,7 @@ ms.locfileid: "49817218"
 
 ### <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a>차단된 도메인 목록에 외부 도메인을 추가하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)인 사용자 계정에서 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 3.  왼쪽 탐색 모음에서 **외부 사용자 액세스** 를 클릭합니다.
 4.  **페더레이션 도메인** 에서 **새로 만들기** 를 클릭한 다음 **차단된 도메인** 을 클릭합니다.

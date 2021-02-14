@@ -21,7 +21,7 @@ ms.locfileid: "49817568"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보관된 데이터 내보내기
 
-**요약:** 비즈니스용 Skype 서버의 보관된 데이터를 내보내는 방법을 자세히 알아보는 방법을 배워야 합니다.
+**요약:** 비즈니스용 Skype 서버의 보관된 데이터를 내보내는 방법을 자세히 알아보고
   
 보관 데이터베이스에 보관된 데이터는 검색 가능하거나 읽을 수 있는 형식으로 검색할 수 없지만 **Export-CsArchivingData** cmdlet을 사용하여 데이터베이스에서 레코드를 추출한 다음 Outlook EML(전자 메일) 파일로 저장할 수 있습니다.
   
@@ -37,7 +37,7 @@ Microsoft Exchange 통합을 사용하도록 설정하면 데이터가 Exchange 
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-다음 명령은 단일 사용자에 대한 보관 데이터를 내보낼 수 kenmyer@contoso.com. 이 수행은 UserUri 매개 변수와 사용자의 SIP 주소를 포함하여 수행됩니다. 예제: 
+다음 명령은 단일 사용자에 대한 보관 데이터를 내보낼 수 kenmyer@contoso.com. 이 수행은 UserUri 매개 변수와 사용자의 SIP 주소를 포함하여 수행됩니다. 예시: 
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"

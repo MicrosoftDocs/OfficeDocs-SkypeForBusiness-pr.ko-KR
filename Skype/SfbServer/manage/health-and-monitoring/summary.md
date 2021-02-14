@@ -47,7 +47,7 @@ ms.locfileid: "49816738"
   
 ## <a name="accessing-the-media-quality-summary-report"></a>미디어 품질 요약 보고서 액세스
 
-미디어 품질 요약 보고서는 모니터링 보고서 홈 페이지에서 액세스됩니다. 다음 메트릭 중 하나를 클릭하여 비즈니스용 [Skype 서버의](call-list-report-0.md) 통화 목록 보고서로 드릴다운할 수 있습니다.
+미디어 품질 요약 보고서는 모니터링 보고서 홈 페이지에서 액세스됩니다. 다음 메트릭 중 하나를 클릭하여 비즈니스용 [Skype 서버에서](call-list-report-0.md) 통화 목록 보고서로 드릴다운할 수 있습니다.
   
 - 통화량
     

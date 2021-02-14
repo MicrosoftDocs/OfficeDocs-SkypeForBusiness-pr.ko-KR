@@ -41,7 +41,7 @@ Microsoft Teams의 리소스별 동의를 통해 팀 소유자는 앱에 동의�
 
 #### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>"사용자가 사용자를 대신하여 회사 데이터에 액세스하는 앱에 동의할 수 있습니다." 설정
 
-이 설정은 조직의 사용자가 대신 앱에 동의할 수 있는지 여부를 제어합니다. 팀 소유자가 동의할 수 있도록 설정하려면 이 설정을 예로 설정해야 **합니다.** 이 설정을 관리하기 위해 다음을 합니다.
+이 설정은 조직의 사용자가 사용자를 대신하여 앱에 동의할 수 있는지 여부를 제어합니다. 팀 소유자가 동의할 수 있도록 설정하려면 이 설정을 예로 설정해야 **합니다.** 이 설정을 관리하기 위해 다음을 합니다.
 
 1. Azure Portal에서 엔터프라이즈 애플리케이션 **사용자**  >  **설정으로 이동합니다.**
 2. 엔터프라이즈 **애플리케이션에서**  사용자를 대신하여 회사 데이터에 액세스하는 앱에 동의할 수 있도록 **설정하여 아니요** 또는 예로 **설정할 수 있습니다.**
@@ -61,7 +61,7 @@ Azure AD의 설정 외에도 [](manage-apps.md#manage-org-wide-app-settings) 앱
 
 #### <a name="the-allow-third-party-apps-setting-in-org-wide-app-settings"></a>전체 앱 설정의 "타사 앱 허용" 설정
 
-이 조직 전체 앱 설정은 조직의 사용자가 타사 앱을 사용할 수 있는지 여부를 제어합니다. 팀 소유자가 동의할 수 있도록 이 설정을 설정해야 합니다. 이 설정을 관리하기 위해 다음을 합니다.
+이 조직 전체 앱 설정은 조직의 사용자가 타사 앱을 사용할 수 있는지 여부를 제어합니다. 팀 소유자가 동의할 수 있도록 이 설정이 설정되어 있어야 합니다. 이 설정을 관리하기 위해 다음을 합니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **Teams** 앱 관리 앱으로 이동한 다음, 전체 앱 설정을  >   **클릭합니다.**
 2. 타사 **앱에서** 타사 앱 허용을 끄거나 **끄면 됩니다.**
@@ -70,11 +70,11 @@ Azure AD의 설정 외에도 [](manage-apps.md#manage-org-wide-app-settings) 앱
 
 변경 내용이 적용되는 데 최대 24시간이 걸릴 수 있습니다.
 
-#### <a name="allow-or-block-the-app-at-the-org-level"></a>Or block the app at the or block the or block the app at the or block the app at
+#### <a name="allow-or-block-the-app-at-the-org-level"></a>Or block the app at the or block the or block the app at the or block the level
 
-앱 관리 페이지에서 앱을 차단하거나 허용하면 해당 앱이 차단되거나 조직의 모든 사용자에게 허용됩니다. [](manage-apps.md#allow-and-block-apps) 팀 소유자는 앱이 허용되는 경우 앱에 동의할 수 있습니다. Or block an app at the or block the or block the app, do the following:
+앱 관리 페이지에서 앱을 차단하거나 허용하면 해당 앱이 차단되거나 조직의 모든 사용자에게 허용됩니다. [](manage-apps.md#allow-and-block-apps) 팀 소유자는 앱이 허용되는 경우 앱에 동의할 수 있습니다. Or block an app at the or block the or block the or block the or do the following:
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **Teams 앱 관리**  >  **앱으로 이동하세요.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 Teams 앱 **관리**  >  **앱으로 이동하세요.**
 2. 앱 관리 페이지에서 앱을 선택한 다음 차단을 클릭하여 차단하거나  허용을 클릭합니다. 
 
     ![전체 설정에서 차단된 앱의 스크린샷](media/resource-specific-consent-allow-block-apps.png)

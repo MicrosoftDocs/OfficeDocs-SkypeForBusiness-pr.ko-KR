@@ -21,7 +21,7 @@ ms.locfileid: "49817678"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 실패를 처리하도록 보관 옵션 구성
 
-**요약:** 보관을 차단할 수 있는 비즈니스용 Skype 서버 오류 발생 시 IM 및 회의 세션을 차단하는 방법을 배워야 합니다.
+**요약:** 보관을 차단하는 비즈니스용 Skype 서버 오류가 발생하면 IM 및 회의 세션을 차단하는 방법을 알아보는 방법을 배워야 합니다.
   
 조직에 보관이 필요한 경우 보관을 차단하는 비즈니스용 Skype 서버 오류가 발생하면 IM 및 회의 세션을 차단할 수 있습니다. 이를 중요 모드라고도 합니다. 예를 들어 저장소 서비스에 문제가 있는 경우 통신이 보관을 사용하도록 설정된 사용자에 대해 IM이 차단됩니다. 오류가 수정된 다음에는 IM 및 회의 모두 자동으로 복구됩니다. 
   
@@ -31,7 +31,7 @@ ms.locfileid: "49817678"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리자 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 구성** 을 클릭합니다.
     
@@ -43,7 +43,7 @@ ms.locfileid: "49817678"
     
 ## <a name="configure-critical-mode-by-using-windows-powershell"></a>사용자 설정을 사용하여 중요 모드 Windows PowerShell
 
-또한 **Set-CsArchivingConfiguration** cmdlet과 BlockOnArchiveFailure 매개 변수를 함께 사용하여 보관을 금지하는 오류가 발생하면 통신 세션을 허용할지 여부를 지정할 수도 있습니다.
+또한 BlockOnArchiveFailure 매개 변수와 함께 **Set-CsArchivingConfiguration** cmdlet을 사용하여 보관을 방지하는 오류가 발생하면 통신 세션을 허용할지 여부를 지정할 수도 있습니다.
   
 예를 들어 다음 명령은 보관 실패 시 통신을 사용하지 않도록 설정합니다.
   

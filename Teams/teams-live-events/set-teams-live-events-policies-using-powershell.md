@@ -27,7 +27,7 @@ ms.locfileid: "49815628"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell을 사용하여 Microsoft Teams에서 라이브 이벤트 정책 설정
 
-다음 Windows PowerShell cmdlet을 사용하여 Teams에서 라이브 이벤트에 대한 정책 설정을 설정하고 할당할 수 있습니다. 
+Teams에서 라이브 이벤트에 Windows PowerShell 정책 설정을 설정하고 할당하려면 다음 cmdlet을 사용할 수 있습니다. 
 - [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -88,7 +88,7 @@ Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-라이브 이벤트의 일정을 허용하지 않는 새 정책을 만들고 다음을 실행합니다.
+라이브 이벤트 일정을 허용하지 않는 새 정책을 만들고 다음을 실행합니다.
 ```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
@@ -100,7 +100,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -A
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
-**많은 수의 사용자에 대해 라이브 이벤트 예약을 사용하지 않도록 설정하고 사용자 집합이 이벤트를 예약하도록 허용하려는 경우**
+**많은 수의 사용자에 대해 라이브 이벤트 예약을 사용하지 않도록 설정하고 사용자 집합이 일정을 예약하도록 허용하려는 경우**
 
 라이브 이벤트 일정을 사용하지 않도록 설정하고 다음을 실행합니다.
 ```PowerShell

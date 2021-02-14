@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: '요약: 비즈니스용 Skype 서버의 사용자 보관 정책을 변경하는 방법을 설명하는 정보를 제공합니다.'
+description: '요약: 비즈니스용 Skype 서버에 대한 사용자 보관 정책을 변경하는 방법을 설명하는 정보를 제공합니다.'
 ms.openlocfilehash: 47c9d5938c22b93db48c96265831cbf24ecc24d7
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -70,7 +70,7 @@ Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
 ```
 
-내부 및 외부 통신 세션 모두의 보관을 사용하도록 설정하려면 ArchiveInternal 및 ArchiveExternal 매개 변수의 값을 True로 설정합니다. 
+내부 및 외부 통신 세션의 보관을 사용하도록 설정하려면 ArchiveInternal 및 ArchiveExternal 매개 변수의 값을 True로 설정합니다. 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True

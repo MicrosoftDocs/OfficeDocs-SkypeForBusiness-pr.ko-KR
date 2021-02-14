@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: 현재 비즈니스용 Skype 서버 배포에 대한 파일 저장소로 사용 중인 파일 서버를 제거해야 하는 경우 또는 현재 파일 저장소를 사용할 수 없게 만드는 다른 변경을 해야 하는 경우 먼저 새 공유를 만들어야 합니다. 그런 다음 다음 단계를 수행해야 합니다.
+description: 현재 비즈니스용 Skype 서버 배포에 대해 파일 저장소로 사용 중인 파일 서버를 제거해야 하는 경우 또는 현재 파일 저장소를 사용할 수 없게 만드는 다른 변경을 해야 하는 경우 먼저 새 공유를 만들어야 합니다. 그런 다음 다음 단계를 수행해야 합니다.
 ms.openlocfilehash: 1ea1f6f038a5d589f9a2c3f480a5c9e589c324f3
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -45,7 +45,7 @@ ms.locfileid: "49816368"
 
 5. 토폴로지 작성기가 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 설치되어 있는 컴퓨터에 로그온합니다.
 
-6. 토폴로지 작성기 **시작:** **시작,** 모든 **프로그램,** 비즈니스용 **Skype 서버,** 비즈니스용 Skype 서버 토폴로지 작성기 클릭
+6. 토폴로지 작성기 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 서버,** 비즈니스용 Skype 서버 토폴로지 **작성기** 클릭
 
 7. 파일 저장소를 사용하는 서버 또는 풀을 선택하고 다음을 실행합니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "49816368"
     ```
 
     > [!TIP]
-    > /S 스위치는 파일, 폴더 및 하위irector를 복사합니다. /XF 스위치는 Meeting.Active라는 모든 파일을 건너뜁습니다. 현재 버전의 robocopy.exe에 /MT 스위치를 사용하면 다중 스레드를 사용하여 복사 속도를 크게 향상시켜 줍니다. /LOG 스위치의 경우 디렉터리 경로 및 로그 파일 이름을 디렉터리 경로 형식의 C:\Logfiles\log.txt. 이 스위치는 명명된 위치에 작업 로그 파일을 만듭니다.
+    > /S 스위치는 파일, 폴더 및 하위irector를 복사합니다. /XF 스위치는 Meeting.Active라는 모든 파일을 건너뜁습니다. 현재 버전의 robocopy.exe에 /MT 스위치를 사용하면 다중 스레드를 사용하여 복사 속도를 크게 향상시켜 줍니다. /LOG 스위치의 경우 디렉터리 경로 및 로그 파일 이름을 파일 형식의 C:\Logfiles\log.txt. 이 스위치는 명명된 위치에 작업 로그 파일을 만듭니다.
 
 12. 데이터 복사본이 완료되면 Lync Server 제어판에서 토폴로지 및 상태를 **클릭합니다.**
 

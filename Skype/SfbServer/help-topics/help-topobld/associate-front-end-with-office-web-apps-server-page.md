@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
-description: Office Web Apps 서버는 발표자에서 모임에 사용할 문서를 업로드하는 서비스와 유사한 서비스를 제공하지만 이전 버전에서는 사용할 수 없는 추가 기능을 사용할 수 있습니다.
+description: Office Web Apps 서버는 발표자는 모임에서 사용할 수 있는 문서를 업로드하는 서비스와 유사한 서비스를 제공하지만 이전 버전에서는 사용할 수 없는 추가 기능을 사용할 수 있습니다.
 ms.openlocfilehash: bb2a6904e6388a06912b12d2786dba751288881c
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49818468"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Office Web Apps Server와 프런트 엔드 연결 페이지
 
-Office Web Apps 서버는 발표자에서 모임에 사용할 문서를 업로드하는 서비스와 유사한 서비스를 제공하지만 이전 버전에서는 사용할 수 없는 추가 기능을 사용할 수 있습니다.
+Office Web Apps 서버는 발표자는 모임에서 사용할 수 있는 문서를 업로드하는 서비스와 유사한 서비스를 제공하지만 이전 버전에서는 사용할 수 없는 추가 기능을 사용할 수 있습니다.
 
 비즈니스용 Skype 서버 2015 구성에 대한 기능 옵션 중 하나로 회의를 선택한 경우 배포에 사용할 Office Web Apps 서버를 선택합니다.
 

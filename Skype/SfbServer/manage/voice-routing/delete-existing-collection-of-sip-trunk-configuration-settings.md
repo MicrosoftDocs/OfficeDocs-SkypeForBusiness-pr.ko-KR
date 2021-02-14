@@ -45,7 +45,7 @@ SIP 트렁크 구성 설정은 중재 서버 및 PSTN(공중 전화망) 게이�
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 트렁크 구성 Windows PowerShell 제거
 
 
-트렁크 구성 설정은 **Remove-CsTrunkConfiguration** cmdlet과 Windows PowerShell 삭제할 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸의 원격 세션에서 Windows PowerShell. 
+트렁크 구성 설정은 **Remove-CsTrunkConfiguration** cmdlet을 Windows PowerShell 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 
 
 **지정한 설정 컬렉션을 제거하려면**
 

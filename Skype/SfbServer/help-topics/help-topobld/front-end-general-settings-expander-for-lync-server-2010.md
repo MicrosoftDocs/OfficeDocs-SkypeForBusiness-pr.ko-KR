@@ -39,11 +39,11 @@ ms.locfileid: "49818398"
 
     **특징 및 기능**
 
-- **회의**: 배포에서 회의 기능을 사용하려면 확인란을 선택합니다. 회의에는 오디오, 비디오, 응용 프로그램 공유, 데스크톱 공유 및 웹 회의가 포함됩니다. 웹 회의용 Office Web Apps 서버를 만들고 연결해야 합니다(이 속성 페이지의 측에서 정의).
+- **회의**: 배포에서 회의 기능을 사용하려면 확인란을 선택합니다. 회의에는 오디오, 비디오, 응용 프로그램 공유, 데스크톱 공유 및 웹 회의가 포함됩니다. 웹 회의용 Office Web Apps 서버를 만들고 연결해야 합니다(이 속성 페이지의 나중에 정의).
 
 - 회의를 선택한 경우 **전화 접속(PSTN) 회의** 를 선택할 수 있습니다. 전화 접속 회의 기능을 사용하도록 설정하려면 확인란을 선택합니다.
 
-- 디자인 및 요구 사항에 따라 Lync Server 2013이 VoIP(Voice over IP) 기술을 사용하여 전화 음성 시스템 역할을 하도록 하려는 경우 중재 **서버,** PSTN 게이트웨이 및 IP-PBX를 조합하거나 단독으로 사용하여 전화망 연결을 배포하는 옵션을 포함하여 Lync Server 2013이 전화 음성 시스템 역할을 하도록 하려는 경우 확인란을 선택합니다. Enterprise Voice 비즈니스용 Skype Enterprise Voice 2015의 Enterprise Voice 및 Enterprise Voice 계획 및 비즈니스용 [Skype를 참조하세요.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) [](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx)
+- 디자인 및 요구 사항에 따라 Lync Server 2013이 VoIP(Voice over IP) 기술을 사용하여 전화 음성 시스템 역할을 하도록 하려는 경우 중재 **서버,** PSTN 게이트웨이 및 IP-PBX를 조합하거나 단독으로 사용하여 전화망 연결을 배포하는 옵션을 포함하여 Lync Server 2013이 전화 음성 시스템 역할을 하도록 하려는 경우 확인란을 선택합니다. Enterprise Voice 비즈니스용 Skype Enterprise Voice 2015의 Enterprise Voice 및 Enterprise Voice 계획을 [참조하세요.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) [](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx)
 
     **연결**
 

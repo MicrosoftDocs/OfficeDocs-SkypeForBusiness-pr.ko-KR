@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
-description: ConfereneUris 테이블은 데이터베이스에 기록된 회의 세션에 참가한 다양한 회의 URI 목록을 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 회의 URI를 나타 내는 것입니다.
+description: ConfereneUris 테이블은 데이터베이스에 기록된 회의 세션에 참가한 다양한 회의 URI 목록을 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 회의 URI를 나타내며,
 ms.openlocfilehash: f439c828460f06067105f8f2da493616c223ed85
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49816138"
 ---
 # <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 ConferenceUris 테이블
  
-ConfereneUris 테이블은 데이터베이스에 기록된 회의 세션에 참가한 다양한 회의 URI 목록을 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 회의 URI를 나타 내는 것입니다.
+ConfereneUris 테이블은 데이터베이스에 기록된 회의 세션에 참가한 다양한 회의 URI 목록을 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 회의 URI를 나타내며,
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|

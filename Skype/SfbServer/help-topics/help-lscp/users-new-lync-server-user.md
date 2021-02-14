@@ -30,7 +30,7 @@ ms.locfileid: "49815328"
 
 - [Lync Server 2010에 대해 사용자 사용 또는 사용 안 하도록 설정](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
-- [사용자의 기본 모임 환경을 수정하도록 회의 정책 할당](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [사용자의 기본 모임 환경을 수정하기 위해 회의 정책 할당](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
 - [사용자가 로그인할 수 있도록 지원되는 클라이언트 버전 지정](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 

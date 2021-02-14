@@ -24,7 +24,7 @@ ms.locfileid: "49815518"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Branch Office Appliance 범위 노드
  
-이 노드는 FQDN(FQDN), 연결된 풀 및 서버 및 이 Survivable Branch Appliance에 대한 탄력성 정보를 보여 주며, 다음 작업을 수행할 수 있습니다.
+이 노드는 FQDN(FQDN), 연결된 풀 및 서버 및 이 Survivable Branch Appliance에 대한 탄력성 정보를 보여줍니다. 다음 작업을 수행할 수 있습니다.
   
 - **속성 편집**. 이 Survivable Branch Appliance의 속성 편집 페이지를 열고 FQDN(토폴로지가 아직 게시되지 않은 경우), 연결 및 탄력성 설정을 변경할 수 있습니다. 
     

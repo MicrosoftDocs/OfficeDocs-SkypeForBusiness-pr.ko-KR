@@ -29,7 +29,7 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 ### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에서 네트워크 지역 링크를 확인하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)인 사용자 계정에서 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
@@ -49,7 +49,7 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 ### <a name="to-view-network-region-link-information"></a>네트워크 지역 링크 정보를 보려면
 
-  - 모든 네트워크 지역 링크에 대한 정보를 보시다시피 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력하고 Enter를 누르고 있습니다.
+  - 모든 네트워크 지역 링크에 대한 정보를 보시다시피 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력하고 Enter를 누르고 있습니다.
     
         Get-CsNetworkRegionLink
     
@@ -94,7 +94,7 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 ### <a name="to-modify-a-network-region-link"></a>네트워크 지역 링크를 수정하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)인 사용자 계정에서 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
@@ -115,7 +115,7 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 ### <a name="to-delete-a-network-region-link"></a>네트워크 지역 링크를 삭제하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원(또는 이와 동등한 사용자 권한)인 사용자 계정에서 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
 2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 

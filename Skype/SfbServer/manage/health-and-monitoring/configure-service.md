@@ -24,7 +24,7 @@ ms.locfileid: "49817038"
 **요약:** 비즈니스용 Skype 서버의 Mobility Service에 대해 자세히 알아보습니다.
   
 > [!IMPORTANT]
-> 이 항목은 Lync Server 2013용 누적 업데이트: 2013년 2월에 제공된 UCWA(Unified Communications Web API)에는 적용되지 않습니다. 
+> 이 항목은 비즈니스용 Skype 서버 Mobility Service(Mcx)에만 적용되고 Lync Server 2013: 2013년 2월 누적 업데이트에 제공된 UCWA(Unified Communications Web API)에는 적용되지 않습니다. 
   
 IIS(인터넷 정보 서비스) 7.5에 Mcx(Mobility Service)를 설치하면 Mobility Service 설치 관리자에서 프런트 엔드 서버에서 일부 성능 설정을 구성합니다. 모바일 기능에는 IIS 7.5를 사용하는 것이 좋습니다. 이러한 설정은 최대 동시 사용자 요청 수 및 Mobility Service에 대해 허용되는 최대 스레드 수에 영향을 줍니다.
   

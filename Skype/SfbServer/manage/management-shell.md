@@ -27,7 +27,7 @@ ms.locfileid: "49816538"
 Windows PowerShell 명령줄에서 Microsoft 응용 프로그램을 관리할 수 있습니다. 여기에는 명령줄 환경, 제품별 명령 및 전체 스크립팅 언어가 포함됩니다. Windows PowerShell 2006년 후반 Windows 운영 체제용 다운로드 가능 릴리스로 처음 도입되어 2007년 2007의 관리 기능을 위한 명령줄 인터페이스로 Microsoft Exchange Server 있습니다. Lync Server 2010부터는 Lync 및 Skype 서버를 포함하여 대부분의 Microsoft Server 제품에 통합됩니다. 비즈니스용 Skype 서버 관리 셸에서 700개가 넘는 Lync 및 Skype 관련 cmdlet을 사용할 수 있습니다.
   
 > [!NOTE]
-> 비즈니스용 Skype cmdlet 참조가 docs.microsoft.com. 아래 링크를 클릭하면 새 웹 페이지로 docs.microsoft.com 있습니다. 이제 콘텐츠가 원본으로 제공된 후 GitHub를 통해 커뮤니티 기여에 사용할 수 있습니다. 참여에 관심이 있나요? 리포지타임에서 README를 확인한 후 다음을 확인할 수 있습니다. [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
+> 비즈니스용 Skype cmdlet 참조가 docs.microsoft.com. 아래 링크를 클릭하면 새 웹 페이지로 docs.microsoft.com 있습니다. 이제 콘텐츠가 원본으로 제공된 후 GitHub를 통해 커뮤니티 기여에 사용할 수 있습니다. 기여에 관심이 있나요? 리포지타임에서 README를 확인한 후 다음을 확인할 수 있습니다. [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
 비즈니스용 Skype 서버는 관리자가 비즈니스용 Skype 서버 관리 셸을 사용하여 비즈니스용 Skype 서버를 관리할 수 있도록 하는 700개가 넘는 cmdlet을 제공합니다. 다음과 같은 명령을 입력하여 명령줄에서 직접 cmdlet에 대한 도움말을 검색할 수 있습니다.
   
@@ -50,7 +50,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
 - 비즈니스용 Skype 서버 cmdlet을 실행하기 위해 비즈니스용 Skype 서버 관리 셸을 열 수 있습니다.
     
     > [!CAUTION]
-    > 비즈니스용 Skype Windows PowerShell 창을 여는 경우 기본적으로 Skype cmdlet을 실행하지 않을 수 있습니다. 비즈니스용 Skype 서버 cmdlet을 Windows PowerShell 먼저 Windows PowerShell 명령 프롬프트에 다음을 입력합니다. >  `Import-Module SkypeforBusiness`
+    > 비즈니스용 Skype Windows PowerShell 창을 여는 경우 기본적으로 Skype cmdlet을 실행하지 않을 수 있습니다. 비즈니스용 Skype 서버 cmdlet을 Windows PowerShell 명령 프롬프트에 Windows PowerShell 입력합니다. >  `Import-Module SkypeforBusiness`
   
 - 비즈니스용 Skype 서버 관리 셸은 모든 비즈니스용 Skype 서버 Enterprise Edition 프런트 엔드 서버 또는 Standard Edition 서버에 자동으로 설치됩니다.
     

@@ -38,10 +38,10 @@ ms.locfileid: "49817238"
 
 비즈니스용 Skype Online 고객과 페더에 연결하려면 조직에서 비즈니스용 Skype 서버의 초기 배포 및 구성을 이미 완료한 것입니다. 여기에는 다음이 포함됩니다.
 
-  - 조직에 Standard Edition 서버 또는 Enterprise Edition 프런트 엔드 풀을 하나 이상 배포합니다. 
+  - 조직에 Standard Edition 서버 하나 또는 Enterprise Edition 프런트 엔드 풀 하나 이상 배포 
   - 비즈니스용 Skype 서버에 대해 내부 사용자 계정을 사용하도록 설정 
   - 외부 사용자 액세스를 지원하는 데 필요한 하나 이상의 에지 서버 및 기타 구성 요소를 배포합니다. 자세한 내용은 비즈니스용 Skype 서버에 대한 외부 액세스 및 [페더링 관리를 참조하세요.](../managing-federation-and-external-access.md)
-  - 조직 내에서 페더레이션 지원을 설정하고 페더레이션된 도메인의 액세스를 제어하기 위해 적합한 방법을 구성합니다. 자세한 내용은 조직에 대한 원격 [사용자](../access-edge/enable-or-disable-remote-user-access.md) 액세스 사용 또는 사용 안 하도록 설정 및 [SIP 페더타이트 공급자 관리를 참조합니다.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+  - 조직 내에서 페더레이션 지원을 설정하고 페더레이션된 도메인의 액세스를 제어하기 위해 적합한 방법을 구성합니다. 자세한 내용은 조직에 [대한](../access-edge/enable-or-disable-remote-user-access.md) 원격 사용자 액세스 사용 또는 사용 안 하도록 설정 및 [SIP 페더타 공급자 관리 를 참조합니다.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
   - 조직의 사용자에 대해 외부 사용자 액세스를 설정합니다. 자세한 내용은 비즈니스용 Skype 사용 가능 사용자에게 외부 사용자 액세스 정책 [할당을 참조하세요.](../external-access-policies/assign-an-external-user-access-policy.md)
 
 
@@ -50,7 +50,7 @@ ms.locfileid: "49817238"
 
 비즈니스용 Skype Online 고객과 페더맹을 사용하려면 다음 단계를 완료해야 합니다.
 
-  - 비즈니스용 Skype Online 2010 고객의 도메인에 대한 지원을 구성합니다(예: contoso.onmicrosoft.com. 비즈니스용 [Skype Online](#prerequisites-for-federating-with-a-skype-for-business-online-customer)고객과의 페더에 대한 전제 요구에 지정된 경우 조직에 대해 페더맹을 이미 사용하도록 설정해야 합니다. 페더레이션을 설정하려면 페더레이션된 도메인에서 액세스를 제어하기 위해 사용할 방법을 지정해야 합니다. 조직에 검색이 사용되도록 구성한 경우 필요에 따라 도메인을 조직의 허용 목록에 추가할 수 있습니다. 도메인 검색을 사용하도록 설정하지 않은 경우 비즈니스용 Skype Online 고객의 도메인 이름을 허용 도메인 목록에 추가해야 합니다. 비즈니스용 Skype 서버 제어판을 사용하여 또는 **New-CSAllowedDomain** cmdlet을 실행하여 도메인 이름을 추가할 수 있습니다. 도메인 검색을 사용하도록 설정하는 등 비즈니스용 Skype 서버 제어판 사용에 대한 자세한 내용은 비즈니스용 Skype 서버에서 조직의 SIP 페더전 공급자 [관리를 참조하세요.](../sip-providers/manage-sip-federated-providers-for-your-organization.md) **New-CSAllowedDomain** cmdlet을 사용하여 도메인을 추가하는 데 대한 자세한 내용은 [New-CsAllowedDomain을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain)
+  - 비즈니스용 Skype Online 2010 고객의 도메인에 대한 지원을 구성합니다(예: contoso.onmicrosoft.com. 비즈니스용 [Skype Online](#prerequisites-for-federating-with-a-skype-for-business-online-customer)고객과의 페더에 대한 전제 요구에 지정된 경우 조직에 대해 페더맹을 이미 사용하도록 설정해야 합니다. 페더레이션을 설정하려면 페더레이션된 도메인에서 액세스를 제어하기 위해 사용할 방법을 지정해야 합니다. 조직에 검색이 사용되도록 구성한 경우 필요에 따라 도메인을 조직의 허용 목록에 추가할 수 있습니다. 도메인 검색을 사용하도록 설정하지 않은 경우 비즈니스용 Skype Online 고객의 도메인 이름을 허용 도메인 목록에 추가해야 합니다. 비즈니스용 Skype 서버 제어판을 사용하여 또는 **New-CSAllowedDomain** cmdlet을 실행하여 도메인 이름을 추가할 수 있습니다. 도메인 검색을 사용하도록 설정하는 등 비즈니스용 Skype 서버 제어판 사용에 대한 자세한 내용은 비즈니스용 Skype 서버의 조직에 대한 SIP 페더링 공급자 [관리(Manage SIP federated providers)를 참조하세요.](../sip-providers/manage-sip-federated-providers-for-your-organization.md) **New-CSAllowedDomain** cmdlet을 사용하여 도메인을 추가하는 데 대한 자세한 내용은 [New-CsAllowedDomain을 참조합니다.](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain)
 
     > [!NOTE]  
     > 비즈니스용 Skype Online 고객은 여러 도메인을 사용할 수 있습니다. 두 개 이상의 도메인과 페더미스를 구성하려면 페더전을 지원할 각 개별 도메인에 대한 지원을 구성해야 하고, 비즈니스용 Skype Online 고객의 관리자는 페더에 대해 각 도메인에 대해 페더전을 사용하도록 설정해야 합니다.
@@ -93,7 +93,7 @@ ms.locfileid: "49817238"
 
 ## <a name="verify-communications-with-a-skype-for-business-online-customer-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 비즈니스용 Skype Online 고객과의 통신 확인
 
-조직의 비즈니스용 Skype 사용자가 비즈니스용 Skype Online 고객 사용자와 통신할 수 있도록 설정하려면 다음 단계를 완료해야 합니다.
+조직의 비즈니스용 Skype 사용자가 비즈니스용 Skype Online 고객의 사용자와 통신할 수 있도록 설정하려면 다음 단계를 완료해야 합니다.
 
   - 모든 필수 구성 요소가 충족되었습니다. 여기에는 내부 및 에지 서버 배포, 조직의 페더레이션 지원 설정 및 사용자 계정 설정이 포함됩니다. 자세한 내용은 비즈니스용 Skype Online 고객과 페더에 대한 사전 요구 [사항을 참조하세요.](#prerequisites-for-federating-with-a-skype-for-business-online-customer)
   - 내부 배포에서 도메인 액세스 지원을 구성했습니다. 여기에는 호스트 공급자 항목을 만들고 비즈니스용 Skype Online 고객의 도메인에서 액세스를 허용하도록 배포를 구성하는 것이 포함됩니다. 자세한 내용은 비즈니스용 Skype Online 도메인에 대한 페더전 지원 [구성을 참조하세요.](#configure-federation-support-for-a-skype-for-business-online-domain)

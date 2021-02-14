@@ -30,7 +30,7 @@ ms.locfileid: "49816448"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
 3.  왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭하고 **대역폭 정책** 을 클릭합니다.
 
@@ -41,12 +41,12 @@ ms.locfileid: "49816448"
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 네트워크 대역폭 정책 프로필 Windows PowerShell 보기
 
-네트워크 대역폭 프로필은 네트워크 Windows PowerShell cmdlet을 사용하여 볼 Get-CsNetworkBandwidthPolicyProfile 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 
+네트워크 대역폭 프로필은 네트워크 대역폭 Windows PowerShell cmdlet을 사용하여 Get-CsNetworkBandwidthPolicyProfile 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>네트워크 대역폭 정책 프로필 정보를 보기 위해
 
-  - 모든 네트워크 대역폭 정책 프로필에 대한 정보를 확인하려면 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력한 후 Enter를 누르고 있습니다.
+  - 모든 네트워크 대역폭 정책 프로필에 대한 정보를 확인하려면 비즈니스용 Skype 서버 관리 셸에 다음 명령을 입력하고 Enter를 누르고 있습니다.
     
         Get-CsNetworkBandwidthPolicyProfile
     
@@ -72,7 +72,7 @@ ms.locfileid: "49816448"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **대역폭 정책을 클릭합니다.**
 
@@ -100,7 +100,7 @@ ms.locfileid: "49816448"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **대역폭 정책을 클릭합니다.**
 
@@ -124,7 +124,7 @@ ms.locfileid: "49816448"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다. 
 
 3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭한** 다음 **대역폭 정책을 클릭합니다.**
 

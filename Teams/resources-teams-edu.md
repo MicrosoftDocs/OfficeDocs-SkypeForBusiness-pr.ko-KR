@@ -33,7 +33,7 @@ ms.locfileid: "49815718"
 
 ## <a name="adoption-content"></a>채택 콘텐츠
 
-지금 무료로 사용할 수 있는 전자 메일, 포스터, 유인인트 및 더 많은 리소스를 사용하여 Microsoft Teams에 대해 학교에 기대하세요. 배너, GIF 및 비디오로 채워진 새로운 디지털 도구 모음을 사용하여 온라인 및 캠퍼스를 통해 학생에게 도달할 수 있습니다. 지금 시작하세요!
+지금 무료로 사용할 수 있는 전자 메일, 포스터, 유인 자료 및 더 많은 리소스를 사용하여 Microsoft Teams에 대해 학교에 기대하세요. 배너, GIF 및 비디오로 채워진 새로운 디지털 도구 모음을 사용하여 온라인 및 캠퍼스를 통해 학생에게 도달할 수 있습니다. 지금 시작하세요!
 
 이러한 자료를 [사용하기 전에](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) 사용 약관을 읽어 주세요.
 
@@ -41,7 +41,7 @@ ms.locfileid: "49815718"
 
 | |  |
 |---------|---------|
-|포스터 - [사용자 지정 가능](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) 및 인쇄 [준비](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![포스터 스크린샷](media/edu-adoption-posters.png)     |[유인구](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![유인구 스크린샷](media/edu-adoption-handouts.png)|
+|포스터 - [사용자 지정 가능](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) 및 인쇄 [준비](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![포스터 스크린샷](media/edu-adoption-posters.png)     |[유인전자](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![유인구 스크린샷](media/edu-adoption-handouts.png)|
 |[전단](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![전단 스크린샷](media/edu-adoption-flyers.png)   |[책 광고](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![책 광고 스크린샷](media/edu-adoption-book-adverts.png)         |
 |[팁과 요령 책자](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![스크린샷](media/edu-adoption-get-started.png)    |
 
@@ -65,9 +65,9 @@ Teams 시작을 [최대화하기 위해 디지털](https://github.com/MicrosoftD
 ## <a name="additional-resources"></a>추가 리소스
 
 - [Teams 로드맵](https://aka.ms/teamsroadmap)
-- 기술 커뮤니티 블로그를 통해 [최신을 유지하세요.](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
+- 기술 커뮤니티 블로그를 통해 [최신으로 유지](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [제안 보내기](https://aka.ms/eduuservoice)
 - [고객 지원에 문의](https://aka.ms/o365portal)
 - [Teams 커뮤니티에 질문하기](https://aka.ms/msteamscommunity)
-- [교육용 더 많은 리소스 찾기](https://education.microsoft.com/)
+- [교육용 추가 리소스 찾기](https://education.microsoft.com/)

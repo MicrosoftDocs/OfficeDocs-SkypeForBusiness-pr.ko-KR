@@ -60,7 +60,7 @@ CDR(통화 정보 기록)을 사용하면 피어 투 피어 메신저 대화 세
     
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 CDR 구성 Windows PowerShell 만들기
 
-CDR 구성 설정은 **Windows PowerShell-CsCdrConfiguration** cmdlet을 사용하여 만들 수도 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸의 원격 세션에서 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+CDR 구성 설정은 **Windows PowerShell-CsCdrConfiguration** cmdlet을 사용하여 만들 수도 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
   
 ### <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>새 CDR 구성 설정 컬렉션을 만들려면
 

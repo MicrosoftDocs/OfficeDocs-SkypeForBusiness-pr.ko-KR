@@ -46,7 +46,7 @@ ms.locfileid: "49817628"
 
 **Remove-CsArchivingConfiguration** cmdlet을 사용하여 보관 구성을 삭제할 수도 있습니다.
   
-예를 들어 다음 명령은 Redmond 사이트에 적용된 보관 구성 설정을 제거합니다. 사이트 범위에서 구성된 정책이 삭제되면 이전에 사이트 정책에 의해 관리된 사용자는 자동으로 전역 보관 정책에 의해 자동으로 관리됩니다.
+예를 들어 다음 명령은 Redmond 사이트에 적용된 보관 구성 설정을 제거합니다. 사이트 범위에서 구성된 정책이 삭제되면 이전에 사이트 정책에 의해 관리된 사용자는 자동으로 전역 보관 정책에 의해 관리됩니다.
   
 ```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"

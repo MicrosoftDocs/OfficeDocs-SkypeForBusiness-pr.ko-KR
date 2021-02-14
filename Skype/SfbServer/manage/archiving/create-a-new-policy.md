@@ -21,7 +21,7 @@ ms.locfileid: "49817648"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 새 보관 정책 만들기
 
-**요약:** 비즈니스용 Skype 서버에 대한 새 보관 정책을 만드는 방법을 자세히 알아보고
+**요약:** 비즈니스용 Skype 서버에 대한 새 보관 정책을 만드는 방법을 배워야 합니다.
   
 제어판을 사용하거나 cmdlet을 사용하여 새 보관 정책을 Windows PowerShell 있습니다.
   
