@@ -50,7 +50,7 @@ ms.locfileid: "49814888"
 
 7. 에이전트 작업 계정 페이지에서 **로컬 시스템을** 선택하고 다음을 **클릭합니다.**
 
-8. Microsoft 업데이트 페이지에서 Microsoft  업데이트를 사용하지 않는 것을 선택하고 다음을 **클릭합니다.**
+8. On the Microsoft Update page, select **I don't** want to use Microsoft Update and click **Next.**
 
 9. 설치 준비 완료 페이지에서 **설치** 를 클릭합니다.
 
@@ -73,7 +73,7 @@ Get-SCOMAgent
 
 2. 검색 **마법사를 클릭하고** 검색할 컴퓨터의 마법사를 완료합니다.
 
-3. 상태 에이전트 서비스를 다시 시작하십시오. 서비스를 다시 시작하면 새 컴퓨터의 검색이 강제로 다시 시작됩니다. 서비스를 다시 시작하지 않는 경우 System Center Operations Manager에서 새 시스템을 검색하는 데 4시간 정도 걸릴 수 있습니다.
+3. 상태 에이전트 서비스를 다시 시작하십시오. 서비스를 다시 시작하면 새 컴퓨터 검색이 강제로 이행됩니다. 서비스를 다시 시작하지 않는 경우 System Center Operations Manager에서 새 시스템을 검색하는 데 4시간 정도 걸릴 수 있습니다.
 
 4. Operations Manager 이벤트 로그에 오류 이벤트가 기록되지 않았다는 점에 유의하세요.
 

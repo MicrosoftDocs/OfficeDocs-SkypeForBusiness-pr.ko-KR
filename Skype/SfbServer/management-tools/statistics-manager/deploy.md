@@ -26,7 +26,7 @@ ms.locfileid: "49814818"
   
  비즈니스용 Skype 서버 통계 관리자는 비즈니스용 Skype 서버 상태 및 성능 데이터를 실시간으로 볼 수 있는 강력한 도구입니다. 몇 초마다 수백 대의 서버로 성능 데이터를 폴링하고 통계 관리자 웹 사이트에서 결과를 즉시 확인할 수 있습니다.
   
-Statistics Manager를 설치하기 전에 소프트웨어, 네트워킹 및 하드웨어 요구 사항에 익숙해야 합니다. 자세한 내용은 비즈니스용 Skype 서버 통계 [관리자 계획(Plan for Statistics Manager)을 참조하세요.](plan.md)
+Statistics Manager를 설치하기 전에 소프트웨어, 네트워킹 및 하드웨어 요구 사항에 익숙해야 합니다. 자세한 내용은 비즈니스용 Skype 서버 통계 관리자 [계획(Plan for Statistics Manager)을 참조하십시오.](plan.md)
   
 > [!NOTE]
 > 이전 버전의 통계 관리자에서 업그레이드하는 경우 비즈니스용 Skype 서버의 업그레이드 통계 관리자를 [참조하세요.](upgrade.md) 
@@ -70,7 +70,7 @@ Statistics Manager를 설치하기 전에 소프트웨어, 네트워킹 및 하�
     
     부호 없는 설치 관리자를 다운로드할 수 있습니다. [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    필요한 경우 인기 있는 패키지 관리자 [Nuget](https://www.nuget.org/packages/Redis-64/) 및 [Choclatey를](https://chocolatey.org/packages/redis-64)통해 서명된 이진을 사용할 수 있습니다.
+    필요한 경우 인기 패키지 관리자 [Nuget](https://www.nuget.org/packages/Redis-64/) 및 [Choclatey를](https://chocolatey.org/packages/redis-64)통해 서명된 이진을 사용할 수 있습니다.
     
    - 제공된 msi를 실행하고 프롬프트를 따르습니다.
     
@@ -78,7 +78,7 @@ Statistics Manager를 설치하기 전에 소프트웨어, 네트워킹 및 하�
     
 2. 수신기 서비스에 인증서가 필요합니다. 신뢰할 수 있는 인증 기관에서 서명한 인증서가 있는 것이 좋습니다. 
     
-    랩에서 자체 서명된 인증서를 사용하려는 경우(예: 자체 서명된 인증서 만들기 [참조).](deploy.md#BKMK_SelfCert)
+    테스트 목적으로 자체 서명된 인증서를 사용하려는 경우(예: 자체 서명된 인증서 [만들기](deploy.md#BKMK_SelfCert)참조).
     
     에이전트는 체인 확인 대신 인증서 지문 확인을 사용합니다. 자체 서명된 인증서를 사용할 수 있기 때문에 전체 인증서 유효성 검사를 하지 않습니다.
     
@@ -106,7 +106,7 @@ Statistics Manager를 설치하기 전에 소프트웨어, 네트워킹 및 하�
 
    - **Dir 설치:** 이 디렉터리는 이진을 설치할 디렉터리입니다. 찾아보기 단추를 사용하여 기본값에서 변경할 **수** 있습니다.
     
-   - **AppData Dir:** Logs 폴더 및 기타 데이터가 저장되는 디렉터리입니다. 기본값에서 변경할 수 있습니다. 제거 시에는 삭제되지 않습니다.
+   - **AppData Dir:** Logs 폴더 및 기타 데이터가 저장되는 디렉터리입니다. 기본값에서 변경할 수 있습니다. 제거 시 삭제되지 않습니다.
     
 3. **설치** 를 클릭합니다.
     
@@ -136,7 +136,7 @@ Statistics Manager를 설치하기 전에 소프트웨어, 네트워킹 및 하�
     
    - **Dir 설치:** 이 디렉터리는 이진을 설치할 디렉터리입니다. 찾아보기 단추를 사용하여 기본값에서 변경할 **수** 있습니다.
     
-   - **AppData Dir:** Logs 폴더 및 기타 데이터가 저장되는 디렉터리입니다. 기본값에서 변경할 수 있습니다. 제거 시에는 삭제되지 않습니다.
+   - **AppData Dir:** Logs 폴더 및 기타 데이터가 저장되는 디렉터리입니다. 기본값에서 변경할 수 있습니다. 제거 시 삭제되지 않습니다.
     
 3. **설치** 를 클릭합니다.
     
@@ -150,7 +150,7 @@ Statistics Manager를 설치하기 전에 소프트웨어, 네트워킹 및 하�
   
 ### <a name="install-the-agents"></a>에이전트 설치
 
-관리자를 실행하고 다음을 지정하여 모니터링할 각 비즈니스용 Skype StatsManPerfAgent.msi 설치합니다.
+다음을 지정하여 모니터링할 각 비즈니스용 Skype 서버에 StatsManPerfAgent.msi 설치합니다.
   
 1. 사용권 계약을 검토하고 동의하는 경우 사용권 계약에 동의한 후 다음을 **클릭합니다.** 
     
@@ -166,11 +166,11 @@ Statistics Manager를 설치하기 전에 소프트웨어, 네트워킹 및 하�
     
    - **Dir 설치:** 이 디렉터리는 이진을 설치할 디렉터리입니다. 찾아보기 단추를 사용하여 기본값에서 변경할 **수** 있습니다.
     
-   - **AppData Dir:** 이 디렉터리는 Logs 폴더 및 암호화된 password.txt 저장할 디렉터리입니다. 기본값에서 변경하면 감사할 수 있습니다. 제거 시에는 삭제되지 않습니다.
+   - **AppData Dir:** 이 디렉터리는 Logs 폴더 및 암호화된 password.txt 저장할 디렉터리입니다. 기본값에서 변경해주신 덕분에 감사할 수 있습니다. 제거 시 삭제되지 않습니다.
     
 3. **설치** 를 클릭합니다.
     
-많은 컴퓨터에 에이전트를 설치하는 경우 무인 모드에서 이 작업을 할 수 있습니다. 예제: 
+많은 컴퓨터에 에이전트를 설치하는 경우 무인 모드에서 이 작업을 할 수 있습니다. 예시: 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
@@ -183,7 +183,7 @@ Statistics Manager를 설치하고 실행한 후 통계 관리자가 각 서버�
   
 비즈니스용 Skype 서버 토폴로지 가져오기에는 다음 단계를 수행합니다.
   
-1. 비즈니스용 Skype 서버 PowerShell cmdlet이 있는 호스트에서 다음을 실행합니다.
+1. 비즈니스용 Skype 서버 PowerShell cmdlet이 있는 호스트:
     
     a. 다음 명령을 실행합니다. 
     

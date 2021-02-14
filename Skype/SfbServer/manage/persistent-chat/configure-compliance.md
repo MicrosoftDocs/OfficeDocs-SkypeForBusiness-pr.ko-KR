@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 준수 서비스를 구성하는 방법을 설명하는 정보를 제공합니다.'
+description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 준수 서비스를 구성하는 방법을 설명하는 문서입니다.'
 ms.openlocfilehash: ee7dbc3ad8e7eedcadcc60850e35b753c5fadb43
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -43,7 +43,7 @@ ms.locfileid: "49815068"
 > [!NOTE]
 > 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. Teams에서 동일한 기능을 사용할 수 있습니다. 자세한 내용은 Microsoft Teams 업그레이드 시작을 [참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용하려면 이 기능이 필요한 사용자를 Teams로 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 
 
-## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>다음을 사용하여 준수 Windows PowerShell
+## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>웹 서비스를 사용하여 준수 Windows PowerShell
 
 토폴로지 작성기를 사용하여 준수 서비스를 사용하도록 설정한 후 **Set-CsPersistenChatComplianceConfiguration** cmdlet을 사용하여 서비스를 구성할 수 있습니다.
 
@@ -69,7 +69,7 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 - IDENTITY - 이 매개 변수를 사용하면 전역, 사이트 및 서비스 수준을 포함하여 특정 컬렉션에 대한 준수 설정의 범위를 지정합니다. 기본값은 전역 수준입니다. 
 
-- RunInterval - 이 매개 변수는 서버에서 다음 준수 출력 파일을 만드는 시간(기본값은 15분)을 지정합니다.
+- RunInterval - 이 매개 변수는 서버에서 다음 준수 출력 파일을 만드는 데 소요되는 시간을 지정합니다(기본값은 15분).
 
 ## <a name="use-a-customized-compliance-adapter"></a>사용자 지정된 준수 어댑터 사용
 

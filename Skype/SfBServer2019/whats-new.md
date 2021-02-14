@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 2019의 새로운 계획 | 기능
+title: 비즈니스용 Skype 서버 2019의 새로운 | 기능
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -31,7 +31,7 @@ ms.locfileid: "49812588"
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>통합 메시징 서비스: Cloud Voicemail
 
-Exchange UM은 비즈니스용 Skype 2019와 Exchange 2013 또는 Exchange 2016을 통합할 때 비즈니스용 Skype 서버에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Cloud Voicemail 및 Cloud 자동 전화 교환 Exchange UM 통합이 강조되지 않습니다.  
+Exchange UM은 비즈니스용 Skype 2019와 Exchange 2013 또는 Exchange 2016을 통합할 때 비즈니스용 Skype 서버에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 클라우드 음성메일 및 클라우드 서비스 자동 전화 교환 강조되지 않습니다.  
 
 Cloud Voicemail을 사용하면 모든 비즈니스용 Skype 2019 사용자가&#x2014;또는 온라인&#x2014;Microsoft 클라우드의 동일한 음성메일 서비스에 액세스할 수 있습니다. Cloud Voicemail은 다음과 같은 이점을 제공합니다.
 

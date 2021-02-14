@@ -22,7 +22,7 @@ ms.locfileid: "49813018"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>영구 채팅 서버 테이블 목록
  
-영구 채팅 데이터베이스 schema는 다음 테이블로 구성됩니다.
+영구 채팅 데이터베이스는 다음 테이블로 구성됩니다.
   
 ## <a name="active-directory-sync"></a>Active Directory 동기화
 
@@ -43,12 +43,12 @@ ms.locfileid: "49813018"
 |[tblPrincipal](tblprincipal.md) <br/> |모든 보안 주체(사용자, 폴더, 그룹 등)가 들어 있습니다. 영구 채팅 서버는 이를 이기종의 플랫 목록으로 처리합니다. 다양한 열은 각 보안 주체의 유형에 따라 다릅니다.  <br/> 이러한 보안 주체는 대부분 Active Directory에 저장된 개체의 캐시된 복사본입니다. 이러한 Active Directory 개체의 보안 주체 테이블에 캐시된 복사본을 만드는 경우를 프로비전이라고 합니다.  <br/> 일부 보안 주체는 다른 사용자보다 적극적으로 만들어지며 일부 Active Directory 개체는 모두 무시됩니다.  <br/> |
 |[tblPrincipalAffiliations](tblprincipalaffiliations.md) <br/> |Active Directory 보안 그룹, Active Directory 컨테이너 등에서 멤버 자격을 설명하는 보안 주체 정보가 들어 있습니다.  <br/> |
 |[tblNode](tblnode.md) <br/> |제어판에서 관리되는 범주 노드를 포함  <br/> |
-|[tblRoleType](tblroletype.md) <br/> |역할 유형 및 관련 사용 권한 집합이 들어 있습니다. 이 lookup 테이블은 정적입니다.  <br/> |
+|[tblRoleType](tblroletype.md) <br/> |역할 유형 및 관련 사용 권한 집합이 들어 있습니다. 이 lookup table is static.  <br/> |
 |[tblScopePrincipal](tblscopeprincipal.md) <br/> |노드에 할당된 범위가 들어 있습니다.  <br/> |
 |[tblPrincipalRole](tblprincipalrole.md) <br/> |노드에 할당된 역할이 들어 있습니다.  <br/> |
 |[tblSiopWhiteList](tblsiopwhitelist.md) <br/> |노드와 연결될 수 있는 등록된 추가 기능을 포함  <br/> |
 |[tblEnumAttribute](tblenumattribute.md) <br/> |tblNode 테이블에 사용되는 하드코딩된 "Visibility" 및 "Behavior" 특성만 들어 있습니다.  <br/> |
-|[tblEnumValue](tblenumvalue.md) <br/> |tblNode 테이블에 사용되는 하드코딩된 "Visibility" 및 "Behavior" 특성의 값을 포함  <br/> |
+|[tblEnumValue](tblenumvalue.md) <br/> |tblNode 테이블에서 사용되는 하드 코드된 "Visibility" 및 "Behavior" 특성의 값을 포함  <br/> |
    
 ## <a name="invites-chats-and-other-client-support"></a>초대, 채팅 및 기타 클라이언트 지원
 
@@ -66,7 +66,7 @@ ms.locfileid: "49813018"
 |**표**|**설명**|
 |:-----|:-----|
 |[tblServerIdentity](tblserveridentity.md) <br/> |영구 채팅 서버 풀의 활성 서버가 들어 있습니다.  <br/> |
-|[tblAdminLock](tbladminlock.md) <br/> |일부 관리자 명령을 실행하기 위해 관리자 잠금이 포함되어 있습니다. tblSystemRevision 테이블의 시스템 개정 항목은 잠금이 릴리스될 때마다 증분됩니다.  <br/> |
+|[tblAdminLock](tbladminlock.md) <br/> |일부 관리자 명령을 실행하기 위해 관리자 잠금이 포함되어 있습니다. tblSystemRevision 테이블의 시스템 개정 항목은 잠금이 해제될 때마다 증분됩니다.  <br/> |
 |[tblSystemRevision](tblsystemrevision.md) <br/> |여러 서버에서 일관성을 유지하기 위해 tblAdminLock 테이블과 함께 사용되는 변경 번호 항목이 들어 있습니다.  <br/> |
 |[tblActivePeers](tblactivepeers.md) <br/> |영구 채팅 서비스 간의 현재 피어 투 피어 연결이 포함되어 있습니다.  <br/> |
 |[tblConfig](tblconfig.md) <br/> |영구 채팅 서버 지원되지 않는 구성이 들어 있습니다.  <br/> |

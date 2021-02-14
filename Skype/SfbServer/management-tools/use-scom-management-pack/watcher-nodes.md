@@ -27,9 +27,9 @@ ms.locfileid: "49812760"
   
 감시자 노드는 주기적으로 비즈니스용 Skype 서버 가상 트랜잭션을 실행하는 컴퓨터입니다. 가상 트랜잭션은 Windows PowerShell 인스턴트 메시지를 교환하는 등의 주요 사용자 시나리오가 예상대로 작동하고 있는지 확인하는 cmdlet입니다. 비즈니스용 Skype 서버 2015의 경우 System Center Operations Manager는 다음 표에 나와 있는 가상 트랜잭션을 실행할 수 있습니다. 여기에는 세 가지 가상 트랜잭션 유형이 포함됩니다.
   
-- **기본값** 감시자 노드가 기본적으로 실행되는 가상 트랜잭션입니다. 새 감시자 노드를 만들 때 해당 노드가 실행될 가상 트랜잭션을 지정할 수 있습니다. 이 매개 변수는 이 cmdlet에서 사용되는 Tests 매개 New-CsWatcherNodeConfiguration 사용됩니다. 감시자 노드를 만들 때 Tests 매개 변수를 사용하지 않는 경우 모든 기본 가상 트랜잭션이 자동으로 실행되고 기본이 아닌 가상 트랜잭션이 실행되지 않습니다. 예를 들어 감시자 노드가 Test-CsAddressBookService 실행하도록 구성되지만 감시자 노드는 Test-CsExumConnectivity 실행하도록 구성되지 않습니다.
+- **기본값** 감시자 노드가 기본적으로 실행되는 가상 트랜잭션입니다. 새 감시자 노드를 만들 때 해당 노드가 실행될 가상 트랜잭션을 지정할 수 있습니다. 이 매개 변수는 이 cmdlet에서 사용되는 Tests 매개 New-CsWatcherNodeConfiguration 사용됩니다. 감시자 노드를 만들 때 Tests 매개 변수를 사용하지 않는 경우 모든 기본 가상 트랜잭션이 자동으로 실행되고 기본이 아닌 가상 트랜잭션이 실행되지 않습니다. 즉, 예를 들어 감시자 노드가 Test-CsAddressBookService 실행하도록 구성되지만 감시자 노드는 Test-CsExumConnectivity 실행하도록 구성되지 않습니다.
     
-- **기본값이 아닌 경우** 감시자 노드가 기본적으로 실행되지 않는 테스트입니다. 자세한 내용은 기본 형식에 대한 설명을 참조하세요. 그러나 감시자 노드를 사용하도록 설정하여 기본이 아닌 가상 트랜잭션을 실행할 수 있습니다. 감시자 노드를 만들 때(New-CsWatcherNodeConfiguration cmdlet을 사용하여) 감시자 노드를 만들 때 또는 감시자 노드가 만들어진 후 이 작업을 할 수 있습니다. 대부분의 비기기 가상 트랜잭션에는 추가 설정 단계가 필요합니다. 이러한 단계에 대한 자세한 내용은 가상 트랜잭션에 대한 특수 [설치 지침을 참조하세요.](test-users-and-settings.md#special_synthetictrans)
+- **기본값이 아닌 경우** 감시자 노드가 기본적으로 실행되지 않는 테스트입니다. 자세한 내용은 기본 형식에 대한 설명을 참조하세요. 그러나 감시자 노드를 사용하도록 설정하여 기본이 아닌 가상 트랜잭션을 실행할 수 있습니다. 감시자 노드를 만들 때(New-CsWatcherNodeConfiguration cmdlet을 사용하여) 감시자 노드를 만들 때 또는 감시자 노드가 만들어진 후 이 작업을 할 수 있습니다. 기본이 아닌 가상 트랜잭션은 대부분 추가 설정 단계가 필요합니다. 이러한 단계에 대한 자세한 내용은 가상 트랜잭션에 대한 특수 [설치 지침을 참조하세요.](test-users-and-settings.md#special_synthetictrans)
     
 - **확장** 기본이 아닌 가상 트랜잭션의 특별한 유형입니다. 다른 가상 트랜잭션과 달리 확장 테스트는 한 번의 테스트 과정 중에 여러 번 실행할 수 있습니다. 이 기능은 풀의 여러 PSTN(Public Switched Telephone Network) 음성 경로와 같은 동작을 확인할 때 유용합니다. 감시자 노드에 확장 테스트의 여러 인스턴스를 추가하여 이 작업을 구성할 수 있습니다.
     
@@ -49,18 +49,18 @@ ms.locfileid: "49812760"
 |Test-CsRegistration(Registration)  <br/> |사용자가 비즈니스용 Skype에 로그인할 수 있도록 합니다.  <br/> |
 |Test-CsPstnPeerToPeerCall(PSTN)  <br/> |사용자가 기업 외부에 있는 사용자와 통화를 걸거나 받을 수 있는지 확인합니다(PSTN 번호).  <br/> |
 |Test-CsASConference(ASConference)  <br/> |사용자가 응용 프로그램 공유 회의를 만들고 참가할 수 있도록 합니다.  <br/> |
-|Test-CsAVEdgeConnectivity(AVEdgeConnectivity)  <br/> |오디오 비디오 에지 서버가 피어 투 피어 통화 및 전화 회의 통화에 대한 연결을 허용할 수 있도록 합니다.  <br/> |
+|Test-CsAVEdgeConnectivity(AVEdgeConnectivity)  <br/> |오디오 비디오 에지 서버가 피어 투 피어 통화 및 전화 회의 통화에 대한 연결을 수락할 수 있도록 합니다.  <br/> |
 |Test-CsDataConference(DataConference)  <br/> |사용자가 데이터 공동 작업 회의(화이트보드 및 설문 조사와 같은 활동을 포함하는 온라인 모임)에 참가할 수 있도록 합니다.  <br/> |
 |Test-CsDialinConferencing(DialinConferencing)  <br/> |사용자가 전화 번호로 전화 회의에 참가할 수 있도록 합니다.  <br/> |
 |Test-CsDialinConferencing(DialinConferencing)  <br/> |사용자가 전화 번호로 전화 회의에 참가할 수 있도록 합니다.  <br/> |
 |Test-CsExumConnectivity(ExumConnectivity)  <br/> |사용자가 Exchange UM(통합 메시징)에 연결할 수 있도록 합니다.  <br/> |
 |Test-CsGroupIM -TestJoinLauncher(JoinLauncher)  <br/> |사용자가 웹 주소 링크를 통해 예약된 모임을 만들고 참가할 수 있도록 합니다.  <br/> |
 |Test-CsMCXP2PIM(MCXP2PIM)  <br/> |모바일 장치 사용자가 등록하고 인스턴트 메시지를 보낼 수 있는지 확인합니다.  <br/> |
-|Test-CsP2PVideoInteropServerSipTrunkAV(P2PVideoInteropServerSipTrunkAV)  <br/> |비디오 SIP 트렁크를 통해 비디오 Interop 서버가 설치 및 들어오는 연결을 처리할 수 있는지 확인합니다.  <br/> **참고:** 레거시 모바일 클라이언트에 대한 MCX 지원은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. |
+|Test-CsP2PVideoInteropServerSipTrunkAV(P2PVideoInteropServerSipTrunkAV)  <br/> |비디오 SIP 트렁크를 통해 비디오 Interop 서버가 설치 및 수신 연결을 처리할 수 있는지 확인합니다.  <br/> **참고:** 레거시 모바일 클라이언트에 대한 MCX 지원은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다. |
 |Test-CsPersistentChatMessage(PersistentChatMessage)  <br/> |사용자가 영구 채팅 서비스를 사용하여 메시지를 교환할 수 있도록 합니다.  <br/> |
 |Test-CsUcwaConference(UcwaConference)  <br/> |사용자가 웹을 통해 전화 회의에 참가할 수 있도록 합니다.  <br/> |
 |Test-CsUnifiedContactStore(UnifiedContactStore)  <br/> |통합 연락처 저장소를 사용해서 사용자의 연락처에 액세스할 수 있는지 확인합니다. 사용자는 통합 연락처 저장소를 통해 비즈니스용 Skype 서버 2015, Outlook 메시징 및 공동 작업 클라이언트 및/또는 Outlook Web Access를 사용하여 액세스할 수 있는 단일 연락처 집합을 유지 관리하는 방법을 제공합니다.  <br/> |
-|Test-CsXmppIM(XmppIM)  <br/> |XMPP(Extensible Messaging and Presence Protocol) 게이트웨이를 통해 인스턴트 메시지를 보낼 수 있도록 합니다.  <br/> XMPP 게이트웨이 및 XMPP 게이트웨이는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다.  |
+|Test-CsXmppIM(XmppIM)  <br/> |인스턴트 메시지를 XMPP(Extensible Messaging and Presence Protocol) 게이트웨이를 통해 보낼 수 있도록 합니다.  <br/> XMPP 게이트웨이 및 XMPP 게이트웨이는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다.  |
 
 System Center Operations Manager를 사용하기 위해 감시자 노드를 설치할 필요가 없습니다. 이러한 노드를 설치하지 않은 경우 문제가 발생할 때마다 비즈니스용 Skype 서버 2015 구성 요소에서 실시간 알림을 받을 수 있습니다. 구성 요소 및 사용자 관리 팩은 감시자 노드를 사용하지 않습니다. 그러나 활성 모니터링 관리 팩을 사용하여 종단 내 시나리오를 모니터링하려면 감시자 노드가 필요합니다.
   
@@ -78,7 +78,7 @@ Lync Server 2013 감시자 노드는 다음을 확인하기 위해 엔터프라�
     
 - 지점 사무소 기기에 대한 연결
     
-- 엔터프라이즈 내부 및 경계 네트워크를 통해 Lync Server 2013에 연결합니다.
+- 엔터프라이즈 내부 및 경계 네트워크를 통해 Lync Server 2013에 연결
     
 관리를 간소화하기 위해 기업 내부 및 외부에서 다양한 인증 옵션을 사용할 수 있습니다. 자세한 내용은 가상 트랜잭션을 [실행하도록 감시자 노드 구성을 참조합니다.](watcher-nodes.md#enable_synthetic_trans)
   
@@ -88,7 +88,7 @@ Lync Server 2013 감시자 노드는 다음을 확인하기 위해 엔터프라�
     
 - 감시자 노드 컴퓨터에 다음 항목을 설치합니다.
     
-  - .NET Framework 4.5의 정식 버전
+  - .NET Framework 4.5 정식 버전
     
   - Windows Identity Foundation
     
@@ -143,7 +143,7 @@ PIN 정책에 대한 정보가 표시되면 핵심 구성 요소가 성공적으
   
 ## <a name="install-the-operation-manager-agent-files-on-a-watcher-node"></a>감시자 노드에 Operation Manager 에이전트 파일 설치
 
-구성 요소 경고를 보고하기 위한 비즈니스용 Skype 서버 설정과 마찬가지로 비즈니스용 Skype 서버 2015 감시자 노드를 사용하려면 System Center Operations Manager 에이전트 파일을 설치해야 합니다. 이렇게 하면 가상 트랜잭션을 실행하고 경고를 System Center Operations Manager 루트 관리 서버에 보고할 수 있습니다.
+구성 요소 경고 보고를 위한 비즈니스용 Skype 서버 설정과 마찬가지로 비즈니스용 Skype 서버 2015 감시자 노드를 사용하려면 System Center Operations Manager 에이전트 파일을 설치해야 합니다. 이렇게 하면 가상 트랜잭션을 실행하고 경고를 System Center Operations Manager 루트 관리 서버에 보고할 수 있습니다.
   
 에이전트 파일을 설치하려면 모니터링할 비즈니스용 Skype 서버 컴퓨터 구성에 나열된 절차를 [수행하십시오.](configure-computers-to-monitor.md)
   
@@ -152,19 +152,19 @@ PIN 정책에 대한 정보가 표시되면 핵심 구성 요소가 성공적으
 
 System Center Operations Manager 에이전트 파일을 설치한 후 감시자 노드 자체를 구성해야 합니다. 이를 위해 수행되는 단계는 감시자 노드 컴퓨터가 경계 네트워크 내부에 있는지 또는 경계 네트워크 외부에 있는지에 따라 달라집니다. 
   
-감시자 노드를 구성할 때 해당 노드에서 사용할 인증 방법 유형도 선택해야 합니다. 비즈니스용 Skype 서버 2015에서는 신뢰할 수 있는 서버 또는 자격 증명 인증의 두 가지 인증 방법 중 하나를 선택할 수 있습니다. 다음 표에서는 이러한 두 방법 간의 차이점을 보여 주었다.
+감시자 노드를 구성할 때 해당 노드에서 사용할 인증 방법 유형도 선택해야 합니다. 비즈니스용 Skype 서버 2015에서는 신뢰할 수 있는 서버 또는 자격 증명 인증의 두 가지 인증 방법 중 하나를 선택할 수 있습니다. 다음 표에서는 이러한 두 방법 간의 차이점을 보여줍니다.
   
 ||**설명**|**지원되는 위치**|
 |:-----|:-----|:-----|
-|TrustedServer  <br/> |인증서를 사용하여 내부 서버를 가장하고 인증 챌린지 무시  <br/> 각 감시자 노드에서 여러 사용자 암호 대신 단일 인증서를 관리하고자 하는 관리자에게 유용합니다.  <br/> |엔터프라이즈 내부.  <br/> 이 방법을 사용하면 감시자 노드가 모니터링되는 풀과 동일한 도메인에 있어야 합니다. 감시자 노드와 풀이 서로 다른 도메인에 있는 경우 자격 증명 인증을 대신 사용합니다.  <br/> |
-|협상  <br/> |각 감시자 노드의 Windows 자격 증명 관리자에 사용자 이름과 암호를 안전하게 저장합니다.  <br/> 이 모드에서는 더 많은 암호 관리가 필요하지만 엔터프라이즈 외부의 감시자 노드에 대한 유일한 옵션입니다. 이러한 감시자 노드는 인증에 대해 신뢰할 수 있는 끝점으로 취급될 수 없습니다.  <br/> |엔터프라이즈 외부.  <br/> 엔터프라이즈 내부.  <br/> |
+|TrustedServer  <br/> |인증서를 사용하여 내부 서버를 가장하고 인증 챌린지 무시  <br/> 각 감시자 노드에서 여러 사용자 암호 대신 단일 인증서를 관리하기를 원하는 관리자에게 유용합니다.  <br/> |엔터프라이즈 내부.  <br/> 이 방법을 사용하면 감시자 노드가 모니터링되는 풀과 동일한 도메인에 있어야 합니다. 감시자 노드와 풀이 서로 다른 도메인에 있는 경우 자격 증명 인증을 대신 사용합니다.  <br/> |
+|협상  <br/> |각 감시자 노드의 Windows 자격 증명 관리자에 사용자 이름과 암호를 안전하게 저장합니다.  <br/> 이 모드에서는 더 많은 암호 관리가 필요하지만 엔터프라이즈 외부의 감시자 노드에 대한 유일한 옵션입니다. 이러한 감시자 노드는 인증을 위해 신뢰할 수 있는 끝점으로 취급될 수 없습니다.  <br/> |기업 외부.  <br/> 엔터프라이즈 내부.  <br/> |
    
 ## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>신뢰할 수 있는 서버 인증을 사용하도록 감시자 노드 구성
 <a name="enable_synthetic_trans"> </a>
 
 감시자 노드 컴퓨터가 경계 네트워크 내부에 있는 경우 신뢰할 수 있는 서버 인증을 사용하는 경우 많은 사용자 계정 암호를 사용하는 대신 단일 인증서를 유지 관리하여 관리 작업을 크게 줄일 수 있습니다.
   
-신뢰할 수 있는 서버 인증을 구성하려면 먼저 감시자 노드 컴퓨터를 호스트할 신뢰할 수 있는 응용 프로그램 풀을 만들어야 합니다. 신뢰할 수 있는 응용 프로그램 풀을 만든 후 해당 감시자 노드에서 가상 트랜잭션을 신뢰할 수 있는 응용 프로그램으로 실행하도록 구성해야 합니다.
+신뢰할 수 있는 서버 인증을 구성하려면 먼저 감시자 노드 컴퓨터를 호스팅할 신뢰할 수 있는 응용 프로그램 풀을 만들어야 합니다. 신뢰할 수 있는 응용 프로그램 풀을 만든 후 해당 감시자 노드에서 가상 트랜잭션을 신뢰할 수 있는 응용 프로그램으로 실행하도록 구성해야 합니다.
   
 > [!NOTE]
 > 신뢰할 수 있는 응용 프로그램은 비즈니스용 Skype 서버 2015의 일부로 실행하기 위한 신뢰할 수 있는 상태가 제공되지만 제품의 기본 제공 부분이 아닌 응용 프로그램입니다. 신뢰 상태란 응용 프로그램이 실행될 때마다 응용 프로그램에 인증을 요청하지 않는 상태를 의미합니다.
@@ -176,7 +176,7 @@ New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar
 ```
 
 > [!NOTE]
-> 위의 명령의 매개 변수에 대한 자세한 내용은 비즈니스용 Skype 서버 관리 셸 프롬프트에 다음을 입력합니다. 
+> 이전 명령의 매개 변수에 대한 자세한 내용은 비즈니스용 Skype 서버 관리 셸 프롬프트에 다음을 입력합니다. 
   
 ```PowerShell
 Get-Help New-CsTrustedApplicationPool -Full | more
@@ -205,7 +205,7 @@ Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:applicati
 ## <a name="configure-a-default-certificate-on-the-watcher-node"></a>감시자 노드에서 기본 인증서 구성
 <a name="enable_synthetic_trans"> </a>
 
-TrustedServer 인증을 사용하는 각 감시자 노드에는 비즈니스용 Skype 서버 배포 마법사를 사용하여 기본 인증서가 할당되어 있어야 합니다. 
+TrustedServer 인증을 사용하는 각 감시자 노드에는 비즈니스용 Skype 서버 배포 마법사를 사용하여 할당된 기본 인증서가 있어야 합니다. 
   
 기본 인증서를 할당합니다.
   
@@ -252,7 +252,7 @@ TrustedServer 모드는 경계 네트워크 내부에 있는 컴퓨터에서만 
 ## <a name="configure-a-watcher-node-to-use-negotiate"></a>협상을 사용하도록 감시자 노드 구성
 <a name="enable_synthetic_trans"> </a>
 
-감시자 노드 컴퓨터가 경계 네트워크 외부에 있는 경우 감시자 노드가 가상 트랜잭션을 실행하도록 구성하려면 약간 다른 절차를 따라야 합니다. 특히 신뢰할 수 있는 응용 프로그램 풀 또는 신뢰할 수 있는 응용 프로그램을 만들면 안 됩니다. 즉, 다음 두 작업을 완료해야 합니다.
+감시자 노드 컴퓨터가 경계 네트워크 외부에 있는 경우 가상 트랜잭션을 실행하도록 감시자 노드를 구성하려면 약간 다른 절차를 따라야 합니다. 특히 신뢰할 수 있는 응용 프로그램 풀 또는 신뢰할 수 있는 응용 프로그램을 만들면 안 됩니다. 즉, 다음 두 작업을 완료해야 합니다.
   
 ### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>RTC Local Read-Only Administrators 그룹의 구성원 업데이트
 

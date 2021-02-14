@@ -32,7 +32,7 @@ ms.locfileid: "49812298"
     
 - [비즈니스용 Skype 서버에서 환경 품질 구성 설정 만들기](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-- [비즈니스용 Skype 서버에서 환경 품질 구성 설정 삭제](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
+- [비즈니스용 Skype 서버에서 경험 품질 구성 설정 삭제](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
  
 

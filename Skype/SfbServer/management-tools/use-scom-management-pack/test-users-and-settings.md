@@ -25,7 +25,7 @@ ms.locfileid: "49814838"
  
 **요약:** 비즈니스용 Skype 서버 가상 트랜잭션에 대한 테스트 사용자 계정 및 감시자 노드 설정을 구성합니다.
   
-감시자 노드로 사용할 컴퓨터를 구성한 후 다음을 실행해야 합니다.
+감시자 노드로 사용할 컴퓨터를 구성한 후 다음을 해야 합니다.
   
 1. [이러한 감시자 노드에서](test-users-and-settings.md#testuser) 사용할 테스트 사용자 계정을 구성합니다. 협상 인증 방법을 사용하는 경우 **Set-CsTestUserCredential** cmdlet을 사용하여 감시자 노드에서 이러한 테스트 계정을 사용하도록 설정해야 합니다.
     
@@ -34,9 +34,9 @@ ms.locfileid: "49814838"
 ## <a name="configure-test-user-accounts"></a>테스트 사용자 계정 구성
 <a name="testuser"> </a>
 
-테스트 계정은 실제 사용자만 나타내는 것은 아니며 유효한 Active Directory 계정이 되어야 합니다. 또한 이러한 계정은 비즈니스용 Skype 서버에 대해 사용하도록 설정해야 합니다. 이러한 계정은 유효한 SIP 주소를 포함해야 합니다. 가상 트랜잭션을 사용하려면 Enterprise Voice 사용하도록 설정해야 Test-CsPstnPeerToPeerCall 합니다. 
+테스트 계정은 실제 사용자만 나타내는 것은 아니며 유효한 Active Directory 계정이 되어야 합니다. 또한 이러한 계정은 비즈니스용 Skype 서버에 대해 사용하도록 설정해야 합니다. 이러한 계정은 유효한 SIP 주소를 포함해야 합니다. Enterprise Voice 가상 트랜잭션을 사용하려면 Test-CsPstnPeerToPeerCall 사용하도록 설정해야 합니다. 
   
-TrustedServer 인증 방법을 사용하는 경우 이러한 계정이 있는지 확인한 후 다음에 따라 구성하기만하면 됩니다. 테스트할 각 풀에 대해 테스트 사용자를 두명 이상 할당해야 합니다. 협상 인증 방법을 사용하는 경우 Set-CsTestUserCredential cmdlet 및 비즈니스용 Skype 서버 관리 셸을 사용하여 이러한 테스트 계정이 가상 트랜잭션에서 작동하도록 설정해야 합니다. 다음 명령을 실행하여 이 작업을 실행합니다(이러한 명령은 두 개의 Active Directory 사용자 계정이 만들어졌다고 가정하고 비즈니스용 Skype 서버에 대해 이러한 계정을 사용하도록 설정되어 있는 것으로 가정).
+TrustedServer 인증 방법을 사용하는 경우 이러한 계정이 있는지 확인한 후 다음에 따라 구성하기만하면 됩니다. 테스트할 각 풀에 대해 테스트 사용자를 두명 이상 할당해야 합니다. 협상 인증 방법을 사용하는 경우 Set-CsTestUserCredential cmdlet 및 비즈니스용 Skype 서버 관리 셸을 사용하여 이러한 테스트 계정이 가상 트랜잭션에서 작동하도록 설정해야 합니다. 이 작업을 실행하기 위해 다음 명령을 실행합니다(이러한 명령은 두 개의 Active Directory 사용자 계정이 만들어졌다고 가정하고 비즈니스용 Skype 서버에 대해 이러한 계정을 사용하도록 설정되어 있는 것으로 가정).
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -151,7 +151,7 @@ Tests 매개 변수를 사용하지 않고 **New-CsWatcherNodeConfiguration** cm
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
-콤보를 사용하여 테스트 이름을 구분하여 여러 테스트를 추가할 수 있습니다. 예제:
+콤보를 사용하여 테스트 이름을 구분하여 여러 테스트를 추가할 수 있습니다. 예시:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
@@ -272,7 +272,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
   
 ### <a name="data-conferencing-synthetic-transaction"></a>데이터 회의 가상 트랜잭션
 
-감시자 노드 컴퓨터가 경계 네트워크 외부에 있는 경우 다음 단계를 완료하여 네트워크 서비스 계정에 대해 Windows Internet Explorer® 인터넷 브라우저 프록시 설정을 사용하지 않도록 설정하지 않는 한 데이터 회의 가상 트랜잭션을 실행할 수 없습니다.
+감시자 노드 컴퓨터가 경계 네트워크 외부에 있는 경우 다음 단계를 완료하여 네트워크 서비스 계정에 대한 Windows Internet Explorer® 인터넷 브라우저 프록시 설정을 먼저 사용하지 않도록 설정하지 않는 한 데이터 회의 가상 트랜잭션을 실행할 수 없습니다.
   
 1. 감시자 노드 컴퓨터에서 시작, 모든 **프로그램,** **보조** 프로그램, 명령 프롬프트를 마우스 오른쪽 단추로 클릭한 다음 관리자 권한으로 실행을 **클릭합니다.** 
     
@@ -349,7 +349,7 @@ Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
-테스트 사용자 연락처 목록이 Exchange로 마이그레이션될 때 다소 시간이 걸릴 수 있습니다. 마이그레이션 진행 상황을 모니터링하려면 -Setup 플래그 없이 동일한 명령줄을 실행할 수 있습니다.
+테스트 사용자 연락처 목록이 Exchange로 마이그레이션될 때 다소 시간이 걸릴 수 있습니다. 마이그레이션 진행률을 모니터링하려면 -Setup 플래그 없이 동일한 명령줄을 실행할 수 있습니다.
   
 ```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
@@ -361,13 +361,13 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 
 XMPP(Extensible Messaging and Presence Protocol) IM 가상 트랜잭션을 사용하려면 하나 이상의 페더럴 도메인으로 XMPP 기능을 구성해야 합니다.
   
-XMPP 가상 트랜잭션을 사용하도록 설정하려면 라우팅 가능한 XMPP 도메인의 사용자 계정으로 XmppTestReceiverMailAddress 매개 변수를 제공해야 합니다. 예제:
+XMPP 가상 트랜잭션을 사용하도록 설정하려면 라우팅 가능한 XMPP 도메인의 사용자 계정으로 XmppTestReceiverMailAddress 매개 변수를 제공해야 합니다. 예시:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-이 예에서 비즈니스용 Skype 서버 규칙은 XMPP 게이트웨이에 litwareinc.com 라우팅해야 합니다.
+이 예에서는 비즈니스용 Skype 서버 규칙이 XMPP 게이트웨이로 litwareinc.com 규칙을 존재해야 합니다.
 
 > [!NOTE]
 > XMPP 게이트웨이 및 XMPP 게이트웨이는 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. 자세한 [내용은 XMPP 페더링 마이그레이션을](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 참조하세요. 
@@ -376,7 +376,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 
 VIS(Video Interop Server) 가상 트랜잭션을 사용하려면 가상 트랜잭션 지원[ 파일(가상 ](https://www.microsoft.com/download/details.aspx?id=46921)트랜잭션 지원 파일)을 다운로드하여 설치해야VISSTSupportPackage.msi. 
   
-이 VISSTSupportPackage.msi msi에 대한 종속성(시스템 요구 사항 아래)이 이미 설치되어 있는지 확인합니다. 간단한 VISSTSupportPackage.msi 실행합니다. .msi는 "%ProgramFiles%\VIS Synthetic Transaction Support Package" 경로에 모든 파일을 설치합니다.
+이 VISSTSupportPackage.msi msi에 대한 종속성(시스템 요구 사항에 따라)이 이미 설치되어 있는지 확인합니다. 간단한 VISSTSupportPackage.msi 실행합니다. .msi는 "%ProgramFiles%\VIS Synthetic Transaction Support Package" 경로에 모든 파일을 설치합니다.
   
 VIS 가상 트랜잭션을 실행하는 방법에 대한 자세한 내용은 [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) cmdlet에 대한 설명서를 참조하십시오.
   
@@ -393,7 +393,7 @@ VIS 가상 트랜잭션을 실행하는 방법에 대한 자세한 내용은 [Te
     
 2. 규칙 섹션에서 이름이 "Main Synthetic Transaction Runner Performance Collection Rule"인 규칙을 찾아보세요.
     
-3. 규칙을 마우스 오른쪽 단추로 클릭하고, 다시 우회를 선택하고, 규칙 다시 규정을 선택한 다음 "클래스의 모든 개체에 대해: 풀 감시자"를 선택합니다.
+3. 규칙을 마우스 오른쪽 단추로 클릭하고, 다시 우회를 선택하고, 규칙 다시 고치기, "클래스의 모든 개체에 대해: 풀 감시자"를 선택합니다.
     
 4. 속성 오버라이드 창에서 매개 변수 이름 "Frequency"를 선택하고 Override 값을 원하는 값으로 설정합니다.
     
@@ -420,7 +420,7 @@ VIS 가상 트랜잭션을 실행하는 방법에 대한 자세한 내용은 [Te
     
 - 활동 실행의 결과입니다.
     
-이 정보는 가상 트랜잭션을 실행할 때마다 자동으로 생성되지만 로그 파일에 자동으로 표시되거나 저장되지는 않습니다. 가상 트랜잭션을 수동으로 실행하는 경우 OutLoggerVariable 매개 변수를 사용하여 정보를 저장할 Windows PowerShell 변수를 지정할 수 있습니다. 이 페이지에서는 두 가지 방법 중 하나를 사용하여 XML 또는 HTML 형식으로 리치 로그에 오류 메시지를 저장 및/또는 볼 수 있습니다. 
+이 정보는 가상 트랜잭션을 실행할 때마다 자동으로 생성되지만 로그 파일에 자동으로 표시되거나 저장되지는 않습니다. 가상 트랜잭션을 수동으로 실행하는 경우 OutLoggerVariable 매개 변수를 사용하여 정보를 저장할 Windows PowerShell 변수를 지정할 수 있습니다. 이 페이지에서는 두 가지 방법 중 하나를 사용하여 XML 또는 HTML 형식으로 서식 있는 로그에 오류 메시지를 저장 및/또는 볼 수 있습니다. 
   
 문제 해결 정보를 검색하기 위해 OutLoggerVariable 매개 변수를 지정하고 그 다음에 선택하는 변수 이름을 지정합니다.
   
@@ -431,11 +431,11 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 > [!NOTE]
 > 변수 이름 앞에 $ 문자를 붙이지 마십시오. RegistrationTest와 같은 변수 이름을 $RegistrationTest. 
   
-이 명령을 실행하면 다음 출력이 표시될 수 있습니다.
+이 명령을 실행하면 출력은 다음과 유사합니다.
   
-대상 Fqdn : atl-cs-001.litwareinc.com 결과 : 오류 대기 시간 : 00:00:00 오류 메시지 : 이 컴퓨터는 할당된 인증서가 없습니다. 진단 :여기에 표시된 오류 메시지보다 이 오류에 대한 훨씬 더 자세한 정보에 액세스할 수 있습니다.
+대상 Fqdn : atl-cs-001.litwareinc.com 결과: 오류 대기 시간 : 00:00:00 오류 메시지: 이 컴퓨터의 인증서가 할당되지 않았습니다. 진단 :여기에 표시된 오류 메시지보다 이 오류에 대한 훨씬 더 자세한 정보에 액세스할 수 있습니다.
 
-HTML 형식으로 이 정보에 액세스하려면 이 명령과 유사한 명령을 사용하여 RegistrationTest 변수에 저장된 정보를 HTML 파일에 저장합니다.
+이 정보에 HTML 형식으로 액세스하려면 이 명령과 유사한 명령을 사용하여 RegistrationTest 변수에 저장된 정보를 HTML 파일에 저장합니다.
   
 ```PowerShell
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html

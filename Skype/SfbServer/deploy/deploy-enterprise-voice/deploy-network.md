@@ -27,7 +27,7 @@ ms.locfileid: "49812438"
 
 비즈니스용 Skype 서버에서 네트워크 지역, 네트워크 사이트를 만들거나 수정하고 네트워크 서브넷을 연결합니다. 미디어 우회, 통화 Enterprise Voice 및 위치 기반 라우팅과 같은 고급 서비스 기능에 모두 사용됩니다.
 
-고급 Enterprise Voice 기능은 [통화](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) [제어,](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)미디어 우회, 위치 기반 [라우팅](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)및 [E9-1-1입니다.](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) 이러한 기능을 사용하려면 네트워크 지역, 네트워크 사이트 및 서브넷을 만들어야 합니다. 예를 들어 이러한 모든 기능을 사용하려면 토폴로지의 각 서브넷을 특정 네트워크 사이트와 연결해야 하며 각 네트워크 사이트는 네트워크 지역과 연결되어야 합니다. 이러한 용어에 대한 자세한 내용은 비즈니스용 Skype 서버의 고급 Enterprise Voice 네트워크 설정을 [참조하세요.](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+고급 Enterprise Voice [기능은](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)통화 [제어,](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)미디어 우회, 위치 기반 [라우팅](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)및 [E9-1-1입니다.](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) 이러한 기능을 사용하려면 네트워크 지역, 네트워크 사이트 및 서브넷을 만들어야 합니다. 예를 들어 이러한 모든 기능을 사용하려면 토폴로지의 각 서브넷을 특정 네트워크 사이트와 연결해야 하며 각 네트워크 사이트는 네트워크 지역과 연결되어야 합니다. 이러한 용어에 대한 자세한 내용은 비즈니스용 Skype 서버의 고급 Enterprise Voice 네트워크 설정을 [참조하세요.](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
 
 통화 허용 제어 및 E9-1-1의 경우 네트워크 사이트에 대한 추가 구성 요구 사항이 있습니다.
 
@@ -97,7 +97,7 @@ ms.locfileid: "49812438"
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
-    이 예제에서는 설명을 변경하여 "NorthAmerica"라는 기존 네트워크 지역(이 항목의 앞부분에 있는 절차를 사용하여 만든)을 수정했습니다. "NorthAmerica" 지역에 대한 설명이 있는 경우 이 명령은 이 값으로 해당 설명을 덮어 들이고, 설명이 설정되지 않은 경우 이 명령은 설명을 설정합니다.
+    이 예제에서는 설명을 변경하여 "NorthAmerica"라는 기존 네트워크 지역(이 항목의 앞부분에 있는 절차를 사용하여 만든)을 수정했습니다. "NorthAmerica" 지역에 대한 설명이 있는 경우 이 명령은 이 값으로 해당 설명을 덮어 덮어 덮어 덮어 들이고, 설명이 설정되지 않은 경우 이 명령은 설명을 설정합니다.
 
 3. 다른 네트워크 지역을 수정하려면 다른 지역에 대한 설정을 사용하여 2단계를 반복합니다.
 
@@ -234,7 +234,7 @@ ms.locfileid: "49812438"
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
-    예제:
+    예시:
 
    ```powershell
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
@@ -301,7 +301,7 @@ ms.locfileid: "49812438"
 
  **수준**: 2
 
- **설명:** 다음 IP 주소의 서브넷이 구성되지 않은 경우 또는 서브넷이 네트워크 사이트에 \<List of IP Addresses\> 연결되지 않습니다.
+ **설명:** 다음 IP 주소에 대한 서브넷이 구성되지 않은 경우 또는 서브넷이 네트워크 사이트에 \<List of IP Addresses\> 연결되지 않습니다.
 
  **원인**: 해당 IP 주소에 대한 서브넷이 네트워크 구성 설정에서 누락되었거나 서브넷이 네트워크 사이트에 연결되지 않았습니다.
 

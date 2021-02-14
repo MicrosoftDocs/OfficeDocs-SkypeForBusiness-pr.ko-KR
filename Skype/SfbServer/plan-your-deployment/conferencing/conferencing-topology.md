@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
-description: '요약: 이 항목을 읽고 비즈니스용 Skype 서버에서 회의 토폴로지 계획에 대해 자세히 알아보습니다.'
+description: '요약: 이 항목을 통해 비즈니스용 Skype 서버에서 회의 토폴로지 계획에 대해 자세히 알아보실 수 있습니다.'
 ms.openlocfilehash: dc7c62d45a2ebd84f38cc67ce996ba0ac72aa794
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -73,7 +73,7 @@ ms.locfileid: "49814098"
   
 - 웹 회의 콘텐츠를 저장하는 데 사용되는 파일 저장소 액세스
     
-- 회의 중에 PowerPoint 파일을 공유하는 데 필요한 Office Web Apps Server/Office Online Server와의 통합
+- 회의 중에 PowerPoint 파일을 공유하는 데 필요한 Office Web Apps 서버/Office Online Server와의 통합
     
 > [!NOTE]
 > Office Web Apps 서버의 최신 이니션은 비즈니스용 Skype 서버에서 지원되는 Office Online Server입니다. 자세한 내용은 [Office Online Server 설명서를 참조하십시오.](https://technet.microsoft.com/library/jj219456%28v=office.16%29.aspx) 
@@ -117,7 +117,7 @@ ms.locfileid: "49814098"
     
 - 대규모 모임에서 PowerPoint 프레젠테이션 기능을 사용하도록 설정하려면 Office Web Apps 서버/Office Online Server가 필요합니다. Office Web Apps 서버/Office Online Server는 대규모 모임 풀 전용으로 사용할 수도 있으며, 전용 풀이 배포된 사이트의 다른 풀에서 사용하는 Office Web Apps 서버/Office Online Server와 동일할 수도 있습니다. 자세한 내용은 비즈니스용 Skype 서버에서 Office Web Apps 서버와의 통합 [구성을 참조하세요.](../../deploy/deploy-conferencing/office-web-app-server.md) 
     
-- 프런트 엔드 서버의 부하 분산에는 HTTP 트래픽(예: 모임 콘텐츠 다운로드)에 대한 하드웨어 부하 분산이 필요합니다. SIP 트래픽에는 DNS 부하 분산이 권장됩니다. 자세한 내용은 [비즈니스용 Skype에 대한 부하 분산 요구 사항을 참조하세요.](../../plan-your-deployment/network-requirements/load-balancing.md) 
+- 프런트 엔드 서버의 부하 분산에는 HTTP 트래픽(예: 모임 콘텐츠 다운로드)에 대한 하드웨어 부하 분산이 필요합니다. SIP 트래픽에는 DNS 부하 분산이 권장됩니다. 자세한 내용은 비즈니스용 Skype에 대한 부하 분산 [요구 사항을 참조하세요.](../../plan-your-deployment/network-requirements/load-balancing.md) 
     
 - 전용 대규모 모임 풀에 모니터링 서버를 사용하려면 비즈니스용 Skype 서버 배포의 모든 프런트 엔드 서버 풀에서 공유되는 모니터링 서버 및 해당 데이터베이스를 사용하는 것이 좋습니다. 자세한 내용은 비즈니스용 [Skype 서버의 모니터링 계획을 참조하세요.](../../plan-your-deployment/monitoring.md)
     

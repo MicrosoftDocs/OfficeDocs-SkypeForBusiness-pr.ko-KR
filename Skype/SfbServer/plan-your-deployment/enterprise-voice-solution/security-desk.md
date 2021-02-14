@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-description: E9-1-1 배포에 조직의 보안 데스크를 포함 하는 방법을 계획 하는 비즈니스용 Skype 서버 Enterprise Voice.
+description: 비즈니스용 Skype 서버의 E9-1-1 배포에 조직의 보안 데스크를 포함하는 방법을 Enterprise Voice.
 ms.openlocfilehash: 756af940eb327bc4744454e9ed9ef7a7fbfd517d
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

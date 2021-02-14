@@ -38,7 +38,7 @@ ms.locfileid: "49813558"
 |msRTCSIP-ConferenceDirectories  <br/> |이 클래스는 전화 회의 디렉터리의 여러 인스턴스에 대한 컨테이너이고 자체적으로 특성을 포함하지는 않습니다.  <br/> |Communications Server 2007 R2의 새로운  <br/> |
 |msRTCSIP-ConferenceDirectory  <br/> |이 클래스는 특정 전화 회의 디렉터리에 대한 설정을 나타내는 특성을 포함하고 있습니다.  <br/> |Communications Server 2007 R2의 새로운  <br/> |
 |msRTCSIP-ConnectionPoint  <br/> |컴퓨터를 비즈니스용 Skype 서버를 실행하는 서버로 지정하는 일반 SCP(서비스 제어 지점)  <br/> |Lync 2010의 새로운  <br/> |
-|msRTCSIP-DefaultCWABank  <br/> |이 보조 클래스는 비즈니스용 Skype Web App 뱅크에 대한 설정을 보유합니다.  <br/> |Communications Server 2007 R2의 새로운  <br/> |
+|msRTCSIP-DefaultCWABank  <br/> |이 보조 클래스에는 비즈니스용 Skype Web App 뱅크에 대한 설정이 있습니다.  <br/> |Communications Server 2007 R2의 새로운  <br/> |
 |msRTCSIP-Domain  <br/> |이 클래스는 SIP 등록자의 구성된 도메인을 정의하는 특성을 포함하고 있습니다.  <br/> |-  <br/> |
 |msRTCSIP-EdgeProxy  <br/> |이 클래스 컨테이너는 단일 액세스 에지 서비스를 나타내며, 액세스 에지 서비스가 경계 네트워크에 배포되는 경우 고객은 일반적으로 경계 네트워크에서 Active Directory 도메인 서비스 액세스를 허용하지 않습니다. 액세스 에지 서비스의 인스턴스는 인트라넷의 Active Directory 네트워크에 가입되지 않습니다. 따라서 액세스 프록시는 자동으로 AD DS에 등록되지 않습니다. 관리자는 AD DS에서 각 액세스 에지 서비스 인스턴스의 존재를 수동으로 구성해야 합니다.  <br/> |-  <br/> |
 |msRTCSIP-EnterpriseMCUSettings  <br/> |msRTCSIP-MCU에 대한 이 보조 클래스는 회의 서버에 대한 설정을 나타내는 특성을 포함하고 있습니다.  <br/> |Microsoft Office Communications Server 2007의 새로운  <br/> |
@@ -66,7 +66,7 @@ ms.locfileid: "49813558"
 |msRTCSIP-PhoneRoute(사용되지 않음)  <br/> |이 클래스는 특정 게이트웨이 또는 게이트웨이 집합에 대한 최소 비용 경로의 인스턴스를 나타내는 컨테이너입니다. 모든 엔터프라이즈 풀 또는 Standard Edition을 실행하는 서버는 가장 비용 효과적인 방법으로 발신 전화를 PSTN(공중 전화망)으로 라우팅하기 위해 이 정보를 사용합니다.  <br/> |Lync Server 2010에서 사용되지 않습니다.  <br/> |
 |msRTCSIP-PhoneRoutes(사용되지 않음)  <br/> |이 클래스는 여러 최소 비용 경로에 대한 컨테이너이고 자체적으로 특성을 포함하지는 않습니다.  <br/> |Lync Server 2010에서 사용되지 않습니다.  <br/> |
 |msRTCSIP-Policies(사용되지 않음)  <br/> |이 클래스는 여러 Lync Server 정책 클래스를 보유하며 자체적으로 특성을 가지고 있지 않습니다.  <br/> |Lync Server 2010에서 사용되지 않습니다.  <br/> |
-|msRTCSIP-Pool  <br/> |이 클래스는 단일 비즈니스용 Skype 서버 풀을 나타내는 클래스입니다.  <br/> |-  <br/> |
+|msRTCSIP-Pool  <br/> |이 클래스는 단일 비즈니스용 Skype 서버 풀을 나타내며,  <br/> |-  <br/> |
 |msRTCSIP-Pools  <br/> |이 클래스는 여러 비즈니스용 Skype 서버 풀을 보유하며 자체적으로 특성을 가지고 있지 않습니다.  <br/> |-  <br/> |
 |msRTCSIP-PoolService  <br/> |이 클래스는 풀의 서비스 제어 지점을 나타냅니다. 풀에서 호스팅되는 사용자는 이 클래스의 인스턴스를 가리키는 msRTCSIP-PrimaryHomeServer 특성을 가지고 있습니다.  <br/> |-  <br/> |
 |msRTCSIP-Presence  <br/> |전역 현재 상태 설정을 저장하는 컨테이너입니다.  <br/> |-  <br/> |

@@ -22,7 +22,7 @@ ms.locfileid: "49813578"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 Schema 변경 사항
  
-비즈니스용 Skype 서버를 배포 및 운영하기 전에 해당 스마마를 확장하여 Active Directory 도메인 서비스를 준비해야 합니다. 이 스마마 확장은 비즈니스용 Skype 서버에 필요한 클래스 및 특성을 추가합니다.
+비즈니스용 Skype 서버를 배포 및 운영하기 전에 해당 스마마를 확장하여 Active Directory 도메인 서비스를 준비해야 합니다. 이 확장은 비즈니스용 Skype 서버에 필요한 클래스 및 특성을 추가합니다.
 
 > [!NOTE]
 > Lync Server 2013에서 비즈니스용 Skype 서버 2015로 업그레이드하는 경우 이러한 변경 내용이 적용되지 않습니다.
@@ -33,7 +33,7 @@ ms.locfileid: "49813578"
     
   - 사용자 개체 확장
     
-  - 지원되는 이전 버전의 Lync Server와 이전 버전과의 호환성을 유지하기 위한 클래스의 확장입니다.
+  - 지원되는 이전 버전 Lync Server와의 호환성을 유지하기 위한 클래스의 확장입니다.
     
 - **데이터(비즈니스용** Skype 서버 확장된 스마마 및 기존 schema 클래스에 저장됨):
     

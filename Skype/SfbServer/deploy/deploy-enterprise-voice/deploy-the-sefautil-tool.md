@@ -30,7 +30,7 @@ ms.locfileid: "49812388"
 그룹 통화 Pickup을 배포하고 관리하려면 SEFAUtil 도구의 비즈니스용 Skype 서버 버전을 사용해야 합니다. 
   
 > [!IMPORTANT]
-> SEFAUtil 도구를 실행하려면 모든 컴퓨터에 Microsoft UCMA(Unified Communications Managed API) 5 런타임이 설치되어 있어야 합니다. 여기에서 다운로드: [Unified Communications Managed API 5.0 런타임.](https://www.microsoft.com/download/details.aspx?id=47344) UCMA 5.0 [SDK(UCMA 5.0 SDK)에서](https://www.microsoft.com/download/details.aspx?id=47345)런타임이 포함된 UCMA 5 SDK를 다운로드할 수도 있습니다.
+> SEFAUtil 도구를 실행하려면 모든 컴퓨터에 Microsoft UCMA(Unified Communications Managed API) 5 런타임이 설치되어 있어야 합니다. 여기에서 다운로드: [Unified Communications Managed API 5.0 런타임.](https://www.microsoft.com/download/details.aspx?id=47344) UCMA [5.0 SDK(UCMA 5.0 SDK)에서](https://www.microsoft.com/download/details.aspx?id=47345)런타임이 포함된 UCMA 5 SDK를 다운로드할 수도 있습니다.
   
 배포의 모든 프런트 엔드 풀에서 SEFAUtil 도구를 실행할 수 있습니다. SEFAUtil 도구를 실행하려면 신뢰할 수 있는 응용 프로그램 컴퓨터의 비즈니스용 Skype 배포 마법사에서 1, 2, 3단계를 실행해야 합니다. SEFAUtil을 사용하려면 인증서뿐만 아니라 로컬 구성 저장소도 존재해야 합니다.
   

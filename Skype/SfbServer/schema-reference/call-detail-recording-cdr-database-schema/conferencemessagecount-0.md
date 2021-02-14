@@ -30,7 +30,7 @@ ConferenceMessageCount 보기에는 사용자가 회의에 전송한 메시지 �
 |**열**|**데이터 형식**|**세부 정보**|
 |:-----|:-----|:-----|
 |**UserUri** <br/> |nvarchar(450)  <br/> |메시지를 보낸 사용자의 URI입니다.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |메시지를 보낸 사용자 URI의 형식입니다. 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하십시오. <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |메시지를 보낸 사용자 URI의 형식입니다. 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하세요. <br/> |
 |**UserTenant** <br/> |uniqueidentifier  <br/> |메시지를 보낸 사용자의 테넌트입니다. 자세한 내용은 [Tenants 테이블을](tenants.md) 참조하세요. <br/> |
 |**UserMessageCount** <br/> |smallint  <br/> |회의 세션 중 사용자가 보낸 메시지 수입니다.  <br/> |
    

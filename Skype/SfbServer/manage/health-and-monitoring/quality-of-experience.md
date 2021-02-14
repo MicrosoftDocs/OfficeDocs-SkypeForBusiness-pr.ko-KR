@@ -33,7 +33,7 @@ QoE(체감 품질)는 통화 및 세션에 포함된 참가자, 장치 이름, �
     
 - [비즈니스용 Skype 서버에서 환경 품질 설정 수정](modify-qoe-settings.md)
     
-- [비즈니스용 Skype 서버에서 환경 품질 구성 설정 삭제](delete-qoe-configuration-settings.md)
+- [비즈니스용 Skype 서버에서 경험 품질 구성 설정 삭제](delete-qoe-configuration-settings.md)
     
 - [비즈니스용 Skype 서버에서 통화 정보 기록 및 경험 품질 데이터베이스를 수동으로 제거](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     

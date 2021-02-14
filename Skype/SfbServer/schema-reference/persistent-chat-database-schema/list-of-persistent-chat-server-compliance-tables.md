@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
-description: 영구 채팅 준수 데이터베이스는 다음 테이블로 구성됩니다.
+description: 영구 채팅 준수 데이터베이스는 다음 표로 구성됩니다.
 ms.openlocfilehash: 8fa9c47c2abd28922716cd42c5ff150ddd975393
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49813058"
 ---
 # <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 영구 채팅 서버 준수 테이블 목록
  
-영구 채팅 준수 데이터베이스는 다음 테이블로 구성됩니다.
+영구 채팅 준수 데이터베이스는 다음 표로 구성됩니다.
   
 ## <a name="list-of-persistent-chat-server-compliance-tables"></a>영구 채팅 서버 준수 테이블 목록
 

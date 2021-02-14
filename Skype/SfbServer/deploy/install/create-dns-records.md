@@ -39,7 +39,7 @@ ms.locfileid: "49812138"
 
 비즈니스용 Skype 서버가 제대로 작동하고 사용자가 액세스할 수 있도록 DNS 레코드가 필요합니다.
   
-이 예에서는 pool.contoso.local이라는 DNS 부하가 있는 FQDN을 사용하고 있습니다. 이 풀은 비즈니스용 Skype 서버 Enterprise Edition을 실행하는 세 개의 서버로 구성됩니다. Standard Edition 프런트 엔드 서버는 단일 서버만 포함할 수 있습니다. Standard Edition을 사용하면 이 예에서와 같은 DNS 부하가 조정된 서버 풀을 만드는 대신 프런트 엔드 역할을 참조할 때 단일 Standard Edition 서버의 FQDN(정규화된 도메인 이름)만 사용할 수 있습니다. 프런트 엔드 역할만 사용하는 이 간단한 예에는 다음 표의 DNS 항목이 포함되어 있습니다. 특정 DNS 요구 사항을 계획하는 경우 비즈니스용 Skype 서버의 DNS 요구 [사항을 참조하세요.](../../plan-your-deployment/network-requirements/dns.md) 
+이 예에서는 pool.contoso.local이라는 DNS 부하가 조정된 FQDN을 사용하고 있습니다. 이 풀은 비즈니스용 Skype 서버 Enterprise Edition을 실행하는 세 개의 서버로 구성됩니다. Standard Edition 프런트 엔드 서버는 단일 서버만 포함할 수 있습니다. Standard Edition을 사용하면 이 예에서와 같은 DNS 부하가 균형 있는 서버 풀을 만드는 대신 프런트 엔드 역할을 참조할 때 단일 Standard Edition 서버의 FQDN(정규화된 도메인 이름)만 사용할 수 있습니다. 프런트 엔드 역할만 사용하는 이 간단한 예에는 다음 표의 DNS 항목이 포함되어 있습니다. 특정 DNS 요구 사항을 계획하는 경우 비즈니스용 Skype 서버의 DNS 요구 [사항을 참조하세요.](../../plan-your-deployment/network-requirements/dns.md) 
   
  
 |**설명**|**Record type(레코드 종류)**|**이름**|**확인 대상**|**부하 분산 유형**|

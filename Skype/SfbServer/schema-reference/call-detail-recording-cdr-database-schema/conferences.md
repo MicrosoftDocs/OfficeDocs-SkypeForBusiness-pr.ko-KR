@@ -38,6 +38,6 @@ ms.locfileid: "49813218"
 |**처리된 경우** <br/> |bit  <br/> ||모니터링 서비스에서 사용하는 내부 필드입니다.  <br/> 이 필드는 Microsoft Lync Server 2013에서 도입했습니다.  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> ||모니터링 서비스의 내부 사용 용도  <br/> 이 필드는 비즈니스용 Skype 서버 2015에서 도입했습니다.  <br/> |
    
-\* 대부분의 세션에서 SessionIdSeq의 값은 1입니다. 두 세션이 정확히 동시에 시작될 경우 한 세션에 대한 SessionIdSeq는 1이 1이 며 다른 세션은 2가 됩니다.
+\* 대부분의 세션에서 SessionIdSeq의 값은 1입니다. 두 세션이 정확히 동시에 시작될 경우 한 세션의 SessionIdSeq는 1이 1이 며, 다른 세션은 2가 됩니다.
   
 

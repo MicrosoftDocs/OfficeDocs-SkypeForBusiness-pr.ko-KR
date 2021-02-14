@@ -38,7 +38,7 @@ ms.locfileid: "49814578"
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>채팅방에 대해 범주를 구성하려면
 
-구성원 **자격의** **거부된** 구성원 섹션에서 방에서 거부되는 구성원과 관련된 사용자 및 기타 Active Directory 사용자를 추가하거나 제거합니다.
+구성원 **자격의** **거부된** 구성원 섹션에서 방에서 거부된 구성원과 관련된 사용자 및 기타 Active Directory 사용자를 추가하거나 제거합니다.
 
 
 영구 채팅 서버 기능에 대한 자세한 내용은 계획 설명서에서 영구 채팅 [서버](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) 개요를 참조하십시오. 영구 채팅 서버 구성을 사용하는 데 대한 [](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) 자세한 내용은 배포 설명서에서 영구 채팅 서버 구성 및 작업 설명서에서 [Lync Server 2013, 영구](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) 채팅 서버 관리를 참조하십시오.

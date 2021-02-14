@@ -87,7 +87,7 @@ ms.locfileid: "49814418"
 6. TPM 관리 콘솔에서 TPM 사양 버전이 1.2 이상인지 확인합니다.
 
     > [!NOTE]
-    > TPM(호환 가능한 신뢰 플랫폼 모듈)을 찾을 수 없다는 대화 상자가 수신되면 컴퓨터에 호환되는 TPM 모듈이 있으며 시스템 BIOS에서 사용하도록 설정되어 있는지 확인합니다.
+    > TPM(호환 트러스트 플랫폼 모듈)을 찾을 수 없다는 대화 상자가 수신되면 컴퓨터에 호환되는 TPM 모듈이 있으며 시스템 BIOS에서 사용하도록 설정되어 있는지 확인합니다.
 
 7. TPM 관리 콘솔 닫기
 
@@ -114,7 +114,7 @@ ms.locfileid: "49814418"
 
 ## <a name="enroll-users-for-smart-card-authentication"></a>스마트 카드 인증에 사용자 등록
 
-일반적으로 스마트 카드 인증을 위해 사용자를 등록하는 방법에는 두 가지가 있습니다. 보다 쉬운 방법은 사용자가 웹 등록을 사용하여 스마트 카드 인증에 직접 등록하도록 하는 반면, 보다 복잡한 방법은 등록 에이전트를 사용하는 것입니다. 이 항목에서는 스마트 카드 인증서에 대한 자체 등록에 대해 중점적으로 다를 수 있습니다.
+일반적으로 스마트 카드 인증을 위해 사용자를 등록하는 방법에는 두 가지가 있습니다. 보다 쉬운 방법은 사용자가 웹 등록을 사용하여 스마트 카드 인증을 직접 등록하도록 하는 반면, 보다 복잡한 방법은 등록 에이전트를 사용하는 것입니다. 이 항목에서는 스마트 카드 인증서에 대한 자체 등록에 대해 중점적으로 다를 수 있습니다.
 
 사용자를 대신하여 등록 에이전트로 등록하는 자세한 내용은 다른 사용자를 대신하여 인증서 등록을 [참조하십시오.](https://go.microsoft.com/fwlink/p/?LinkID=313367)
 
@@ -143,13 +143,13 @@ ms.locfileid: "49814418"
 
     - **CSP의 경우** Microsoft 기본 스마트 카드 **암호화 공급자 선택**
 
-    - 키 **사용법의** 경우 **Exchange를** 선택합니다(사용 가능한 유일한 옵션).
+    - 키 **사용법의 경우** **Exchange를** 선택합니다(사용 가능한 유일한 옵션).
 
     - 키 **크기로** 2048을 입력합니다.
 
-    - 자동 키 **컨테이너 이름이 선택되어 있는지** 확인
+    - 자동 키 **컨테이너 이름이 선택되어** 있는지 확인
 
-    - 다른 상자는 선택되지 않은 그대로 남겨
+    - 다른 상자는 선택하지 않은 그대로 남겨
 
   - 추가 **옵션에서** 다음 값을 확인할 수 있습니다.
 
@@ -159,7 +159,7 @@ ms.locfileid: "49814418"
 
     - 이름의 **경우** EnterSmardcard 인증서를 입력합니다.
 
-8. 실제 스마트 카드 판독기를 사용하는 경우 장치에 스마트 카드를 삽입합니다.
+8. 실제 스마트 카드 판독기를 사용하는 경우 스마트 카드를 장치에 삽입합니다.
 
 9. **제출을** 클릭하여 인증서 요청을 제출합니다.
 
@@ -219,7 +219,7 @@ ms.locfileid: "49814418"
 -IssuanceAuthorizationRules $IssuanceAuthorizationRules
   ```
 
-9. 다음 명령을 실행하여 신뢰할 수 있는 Windows PowerShell 트러스트에 대한 실행 변환 규칙을 만들고 할당합니다.
+9. 다음 명령을 실행하여 신뢰 파티 트러스트에 대한 Windows PowerShell 변환 규칙을 만들고 할당합니다.
 
   ```PowerShell
   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
@@ -307,7 +307,7 @@ AD FS 2.0에서 스마트 카드를 사용한 인증을 지원하도록 구성�
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
-5. 클라이언트의 경우 수동 인증은 Webticket 인증에 대한 최소 선호 인증 방법입니다. 수동 인증을 사용하도록 설정할 모든 Director, Enterprise Pools 및 Standard Edition 서버의 경우 다음 cmdlet을 실행하여 비즈니스용 Skype 웹 서비스에서 다른 모든 인증 유형을 사용하지 않도록 설정해야 합니다.
+5. 클라이언트의 경우 수동 인증은 webticket 인증에 대한 최소 선호 인증 방법입니다. 수동 인증을 사용하도록 설정할 모든 Director, Enterprise Pools 및 Standard Edition 서버의 경우 다음 cmdlet을 실행하여 비즈니스용 Skype 웹 서비스에서 다른 모든 인증 유형을 사용하지 않도록 설정해야 합니다.
 
   ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE

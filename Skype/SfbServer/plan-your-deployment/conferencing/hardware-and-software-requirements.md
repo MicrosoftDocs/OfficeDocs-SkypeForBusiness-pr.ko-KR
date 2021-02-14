@@ -31,7 +31,7 @@ ms.locfileid: "49814018"
 
 ![회의 구성 요소](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
 
- 토폴로지 고려 사항과 관련한 자세한 내용은 비즈니스용 Skype 서버에 대한 회의 토폴로지 [계획(Plan your conferencing topology)을 참조하십시오.](conferencing-topology.md)
+ 토폴로지 고려 사항과 관련한 자세한 내용은 비즈니스용 Skype 서버의 회의 토폴로지 [계획(Plan your conferencing topology)을 참조하십시오.](conferencing-topology.md)
 
 ## <a name="hardware-and-software-requirements-for-front-end-servers"></a>프런트 엔드 서버에 대한 하드웨어 및 소프트웨어 요구 사항
 
@@ -79,7 +79,7 @@ A/V 회의를 계획하려면 조직에서 사용할 회의 미디어 유형에 
 
 회의의 오디오 및 비디오 용량 계획에 대한 자세한 내용은 비즈니스용 Skype에 대한 네트워크 요구 사항 [계획을 참조하세요.](../../plan-your-deployment/network-requirements/network-requirements.md)
 
-CAC(통화 제어)를 사용하여 A/V 회의에 사용되는 네트워크 대역폭을 관리할 수 있습니다. 이것은 중앙 사이트와 분기 사이트 간 제한된 대역폭 링크와 같은 제한적인 네트워크에서 중요합니다. 자세한 내용은 비즈니스용 Skype 서버의 통화 제어 [플랜을 참조하세요.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+CAC(통화 제어)를 사용하여 A/V 회의에 사용되는 네트워크 대역폭을 관리할 수 있습니다. 이것은 중앙 사이트와 분기 사이트 간 제한된 대역폭 링크와 같은 제한적인 네트워크에서 중요합니다. 자세한 내용은 비즈니스용 Skype 서버의 통화 입력 제어 [계획(Plan for call admission control)을 참조하세요.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
 
 오디오 회의를 네트워크에 배포한 경우 사용자는 헤드셋과 같은 오디오 장치가 있어야 오디오 회의에 참가할 수 있습니다. 또한 비디오 회의를 배포한 경우 사용자를 위해 웹캠과 같은 비디오 장치를 배포해야 합니다. 오디오 및 비디오 장치의 경우 장치 배포 및 사용자 교육이 고려해야 하는 중요한 단계입니다. 자세한 내용은 클라이언트 및 [장치 계획을 참조하세요.](../../plan-your-deployment/clients-and-devices/clients-and-devices.md) 최적의 사용자 환경을 보장하려면 모든 장치 유형에 대해 Microsoft에서 인증한 UC(통합 통신) 장치를 사용하는 것이 좋습니다. UC 인증 장치에 대한 자세한 내용은 비즈니스용 Skype의 전화 및 [장치를 참조하세요.](https://go.microsoft.com/fwlink/?LinkId=619916)
 
@@ -91,7 +91,7 @@ CAC(통화 제어)를 사용하여 A/V 회의에 사용되는 네트워크 대�
 
 전화 접속 회의를 구성하려면 먼저 다음 비즈니스용 Skype 서버 구성 요소를 설치해야 합니다.
 
-- UCAS(통합 통신 응용 프로그램 서비스)(응용 프로그램 서비스라고도 합니다.)
+- UCAS(Unified Communications Application Service)(응용 프로그램 서비스라고도 합니다.)
 
 - 회의 길잡이 응용 프로그램
 

@@ -98,7 +98,7 @@ ms.locfileid: "49812378"
 
   - **차단 및 업그레이드** 클라이언트 로그온을 방지하고 클라이언트가 Windows Server Update Service 또는 Microsoft Update에서 업데이트를 받을 수 있도록 허용합니다. 이 작업은 사용자 에이전트 **OC를** 선택한 경우만 사용할 수 있습니다.
 
-  - **URL을 사용하여** 차단하면 클라이언트가 로그온할 수 있으며 다른 클라이언트 버전을 다운로드할 위치와 관련한 메시지가 표시됩니다. URL 필드에 URL을 **지정합니다.**
+  - **URL을 사용하여** 차단하면 클라이언트가 로그온할 수 없습니다. 다른 클라이언트 버전을 다운로드할 위치와 관련한 메시지가 표시됩니다. URL 필드에 URL을 **지정합니다.**
 
 클라이언트와 클라이언트 버전 간 상호 가능성에 대한 자세한 내용은 계획 설명서에서 클라이언트 상호 [실행을](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) 참조하십시오. 클라이언트 버전 구성을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)을 참조하십시오.
 

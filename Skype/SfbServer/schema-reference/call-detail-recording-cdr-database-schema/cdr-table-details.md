@@ -72,7 +72,7 @@ ms.locfileid: "49813378"
     
 - [비즈니스용 Skype 서버의 IMReportSummary 테이블](imreportsummary.md)
     
-- [비즈니스용 Skype 서버의 위치 테이블](locations.md)
+- [비즈니스용 Skype 서버의 Locations 테이블](locations.md)
     
 - [비즈니스용 Skype 서버의 Manufacturers 테이블](manufacturers.md)
     

@@ -13,7 +13,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
-description: 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구는 비 프로덕션 또는 테스트 환경에서 용량 계획 및 성능 조정 중에 사용됩니다.
+description: 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구는 프로덕션 환경이나 테스트 환경이 아닌 환경에서 용량 계획 및 성능 조정 중에 사용됩니다.
 ms.openlocfilehash: 551e4e5f985fc18439a4f277685034e86c7cdfb6
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "49814928"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>비즈니스용 Skype 서버 2015 스트레스 및 성능 도구
  
-비즈니스용 Skype 서버 2015 스트레스 및 성능 도구는 비 프로덕션 또는 테스트 환경에서 용량 계획 및 성능 조정 중에 사용됩니다.
+비즈니스용 Skype 서버 2015 스트레스 및 성능 도구는 프로덕션 환경이나 테스트 환경이 아닌 환경에서 용량 계획 및 성능 조정 중에 사용됩니다.
   
 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구에는 비즈니스용 Skype 서버 2015의 용량 계획을 간소화하는 도구가 포함되어 있습니다. 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구를 사용하면 다음을 할 수 있습니다.
   
@@ -33,7 +33,7 @@ ms.locfileid: "49814928"
     
 - 비즈니스용 Skype 서버 배포의 성능 측정
     
-일반적으로 비즈니스용 [Skype 서버 2015](../../management-tools/planning-tool/planning-tool.md) 계획 도구를 사용하여 토폴로지 디자인하고 비즈니스용 Skype 서버 [2015](../../management-tools/capacity-planning-calculator.md)용량 계획 계산기를 사용하여 토폴로지 구체화한 후에 이 도구를 사용합니다. 
+일반적으로 비즈니스용 [Skype 서버 2015](../../management-tools/planning-tool/planning-tool.md) 계획 도구를 사용하여 토폴로지 디자인 및 비즈니스용 Skype [서버 2015](../../management-tools/capacity-planning-calculator.md)용량 계획 계산기를 사용하여 토폴로지 구체화한 후에 이 도구를 사용합니다. 
 
 > [!NOTE]
 > 이 도구는 비즈니스용 Skype 서버 2019에 대해 업데이트되지 않습니다.
@@ -62,7 +62,7 @@ ms.locfileid: "49814928"
 |UserProfileGenerator.exe  <br/> |시뮬레이션할 사용자 부하의 특성을 구성하는 데 사용됩니다.  <br/> |
 |LyncPerfTool.exe  <br/> |사용자 부하를 시뮬레이트하는 도구입니다.  <br/> |
 |Default.tmx  <br/> |비즈니스용 Skype 서버 2015 로깅 도구를 사용하는 데 필요합니다.  <br/> |
-|프로비저닝 스크립트 예제  <br/> |특정 시나리오에 따라 부하 테스트를 실행하도록 토폴로지 구성에 사용됩니다. 특정 환경과 관련이 있도록 수정해야 할 수 있습니다.  <br/> |
+|프로비전 스크립트 예제  <br/> |특정 시나리오에 따라 부하 테스트를 실행하도록 토폴로지 구성에 사용됩니다. 특정 환경과 관련이 있도록 수정해야 할 수 있습니다.  <br/> |
    
 ## <a name="topics-in-this-section"></a>이 섹션의 항목
 

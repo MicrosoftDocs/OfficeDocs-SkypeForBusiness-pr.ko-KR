@@ -25,7 +25,7 @@ ms.locfileid: "49812098"
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>지정되지 않은 전화 번호: 새로 만들기 또는 기존 항목 편집
 
 > [!NOTE]
-> Exchange UM은 비즈니스용 Skype 2019와 Exchange 2013 또는 Exchange 2016을 통합할 때 비즈니스용 Skype 서버에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Cloud Voicemail 및 Cloud 자동 전화 교환 Exchange UM 통합이 강조되지 않습니다.
+> Exchange UM은 비즈니스용 Skype 2019와 Exchange 2013 또는 Exchange 2016을 통합할 때 비즈니스용 Skype 서버에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 클라우드 음성메일 및 클라우드 서비스 자동 전화 교환 강조되지 않습니다.
 
 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "49812098"
 
 - **알림 서비스** 에 대해 **Exchange UM** 을 선택한 경우 다음 옵션을 지정합니다.
 
-  - **자동 전화 교환 번호** Exchange UM UM의 전화 번호를 자동 전화 교환.
+  - **자동 전화 교환 번호** Exchange UM UM 2016의 전화 자동 전화 교환.
 
 공지 사항 기능에 대한 자세한 내용은 계획 설명서에서 비즈니스용 [Skype의](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) 공지 사항 응용 프로그램 계획을 참조하십시오. 지정되지 않은 번호 범위를 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)을 참조하십시오.
 

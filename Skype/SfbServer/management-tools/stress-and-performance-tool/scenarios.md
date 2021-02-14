@@ -23,12 +23,12 @@ ms.locfileid: "49814708"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>비즈니스용 Skype 서버 2015 스트레스 및 성능 도구에 대한 성능 시나리오
  
-스트레스 및 성능 도구를 사용하여 성능 및 부하 테스트를 수행하도록 비즈니스용 Skype 서버 2015를 구성하는 데 필요한 작업입니다.
+스트레스 및 성능 도구를 사용하여 성능 및 부하 테스트를 수행하도록 비즈니스용 Skype 서버 2015를 구성하는 데 필요한 작업
   
 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구(LyncPerfTool)를 실행하려면 먼저 비즈니스용 Skype 서버 2015 토폴로지가 관련 시나리오에 맞게 구성되어야 합니다. 비즈니스용 Skype 서버 2015가 구성되지 않거나 잘못 구성된 경우 부하 시뮬레이션이 실패할 가능성이 확연합니다. 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구를 사용하여 도구 다운로드의 일부로 예제 비즈니스용 Skype 서버 관리 셸 스크립트 및 기본 리소스 [파일을 제공합니다.](https://www.microsoft.com/download/details.aspx?id=50367) 이러한 구성은 비즈니스용 Skype 서버 배포를 구성하기 위한 시작 지점으로 사용할 수 있습니다. 이 문서에서는 제공된 Windows PowerShell 설명합니다.
   
 > [!NOTE]
-> 이 항목은 일반적으로 비즈니스용 Skype 서버 2015를 구성하는 방법을 설명하는 데 도움이되지 않습니다. 이에 대한 다른 계획 및 배포 항목도 있습니다. 비즈니스용 Skype 서버 2015에서 Windows PowerShell 대한 자세한 내용은 삽입 소개 HERE에서 비즈니스용 Skype 서버 관리 셸 설명서를 참조하십시오. 
+> 이 항목은 일반적으로 비즈니스용 Skype 서버 2015를 구성하는 방법을 설명하는 데 도움이되지 않습니다. 이에 대한 다른 계획 및 배포 항목도 있습니다. 비즈니스용 Skype 서버 2015에서 Windows PowerShell 대한 자세한 내용은 삽입 소개 HERE에서 비즈니스용 Skype 서버 관리 셸 설명서를 참조하세요. 
   
 ## <a name="about-running-skype-for-business-server-management-shell-scripts"></a>비즈니스용 Skype 서버 관리 셸 스크립트 실행
 

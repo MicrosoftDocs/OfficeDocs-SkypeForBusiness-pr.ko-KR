@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Windows가 다른 운영 체제를 사용하는 조직에서 사용되는 디바이스에 대해 QoS를 사용하도록 설정하는 방법을 배워보아야 합니다.
+description: Windows가 다른 운영 체제를 사용하는 조직에서 사용되는 디바이스에 대해 QoS를 사용하도록 설정하는 방법을 학습합니다.
 ms.openlocfilehash: c22f9c98c796ee11d06e3d58a02a36befef4539e
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -60,7 +60,7 @@ EnableQoS 속성이 앞의 출력에서와 같은 False로 설정되면 Windows�
 
     Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
 
-EnableQoS 속성 값을 False로 설정하여 Windows 외의 운영 체제를 사용하는 장치에 대해 QoS를 사용하지 않도록 설정할 수 있습니다. 예제:
+EnableQoS 속성 값을 False로 설정하여 Windows 외의 운영 체제를 사용하는 장치에 대해 QoS를 사용하지 않도록 설정할 수 있습니다. 예시:
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False
 

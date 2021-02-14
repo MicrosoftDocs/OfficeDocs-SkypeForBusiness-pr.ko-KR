@@ -61,5 +61,5 @@ ms.locfileid: "49812398"
 
 - **새로 고침** 클라이언트 버전 정책 목록을 새로 고쳐 모든 클라이언트 버전 정책의 옵션 상태를 확인할 수 있습니다.
 
-클라이언트와 클라이언트 버전 간 상호 가능성에 대한 자세한 내용은 계획 설명서에서 클라이언트 상호 [실행성을](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) 참조하십시오. 클라이언트 버전 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)을 참조하십시오.
+클라이언트와 클라이언트 버전 간 상호 가능성에 대한 자세한 내용은 계획 설명서에서 클라이언트 상호 [실행을](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) 참조하십시오. 클라이언트 버전 정책을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)을 참조하십시오.
 

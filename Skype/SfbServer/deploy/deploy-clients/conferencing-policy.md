@@ -25,7 +25,7 @@ ms.locfileid: "49812728"
   
 ## <a name="conferencing-policy-features"></a>회의 정책 기능
 
-Skype 룸 시스템 계정에 할당된 회의 정책에는 특정 특성이 있어야 합니다. 대부분의 경우 Skype 룸 시스템 클라이언트는 예약된 모임에 참가하므로 모임 이끌이의 회의 정책이 전화 회의에 영향을 미치게 됩니다. 그러나 비즈니스용 Skype 서버에서는 특정 기능이 참가자의 구성에 따라 다릅니다. 예를 들어 참가자의 정책에서 최대 비디오 해상도를 1080p로 허용하는 경우 이끌이의 정책에서 허용하지 않는 경우에도 참가자는 회의에서 이 고해상도 비디오 기능을 경험하게 됩니다. 다음 표에서는 조직에서 Skype 룸 시스템 계정에 대한 회의 정책을 설정할 때 인식해야 하는 몇 가지 이러한 설정에 대해 설명합니다. 
+Skype 채팅방 시스템 계정에 할당된 회의 정책에는 특정 특성이 있어야 합니다. 대부분의 경우 Skype 룸 시스템 클라이언트는 예약된 모임에 참가하므로 모임 이끌이의 회의 정책이 전화 회의에 영향을 미치게 됩니다. 그러나 비즈니스용 Skype 서버에서는 특정 기능이 참가자의 구성에 따라 다릅니다. 예를 들어 참가자의 정책에서 최대 비디오 해상도를 1080p로 허용하는 경우 이끌이의 정책에서 허용하지 않는 경우에도 참가자는 회의에서 이 고해상도 비디오 기능을 경험하게 됩니다. 다음 표에서는 조직에서 Skype 룸 시스템 계정에 대한 회의 정책을 설정할 때 인식해야 하는 몇 가지 이러한 설정에 대해 설명합니다. 
   
 |기능  <br/> |값  <br/> |댓글  <br/> |
 |:-----|:-----|:-----|
@@ -36,21 +36,21 @@ Skype 룸 시스템 계정에 할당된 회의 정책에는 특정 특성이 있
 |AllowAnnotations  <br/> |TRUE  <br/> |Skype 채팅방 시스템의 지금(애드월) 화이트보드 세션에 영향을 미치기  <br/> |
 |DisablePowerPointAnnotations  <br/> |FALSE  <br/> |Skype 채팅방 시스템의 지금(애드월) 화이트보드 세션에 영향을 미치기  <br/> |
 |AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |Skype 채팅방 시스템의 지금(애드월) 화이트보드 세션에 영향을 미치기  <br/> |
-|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |계정이 EV(EV)Enterprise Voice(비즈니스용 Skype에 대한 Skype 채팅방 시스템 계정 사용 섹션 참조)에 따라 결정됩니다.  <br/> |
+|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |계정이 EV(Enterprise Voice)를 사용하도록 설정되어 있는지 여부에 따라 다를 수 있습니다(비즈니스용 Skype에 대한 Skype 채팅방 시스템 계정 사용 섹션 참조).  <br/> |
 |AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |계정이 EV(Enterprise Voice)를 사용할 수 있는지 여부에 따라 결정됩니다.  <br/> |
 |AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Skype 채팅방 시스템의 지금(애드월) 화이트보드 세션에 영향을 미치기  <br/> |
 |AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Skype 채팅방 시스템의 지금(애드월) 화이트보드 세션에 영향을 미치기  <br/> |
 |AllowExternalUserControl  <br/> |FALSE  <br/> |Skype 채팅방 시스템의 지금(애드월) 화이트보드 세션에 영향을 미치기  <br/> |
 |AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |Skype 채팅방 시스템의 지금(애드월) 화이트보드 세션에 영향을 미치기  <br/> |
-|AllowPolls  <br/> |TRUE  <br/> |모임 시작(애드문) 모임의 N/A이지만 Skype 룸 시스템은 회의실 앞의 화면에서 설문에 응답할 수 있습니다.  <br/> |
-|AllowSharedNotes  <br/> |TRUE  <br/> |모임 시작(애드문) 모임의 N/A이지만 Skype 룸 시스템은 회의실 앞의 화면에서 설문에 응답할 수 있습니다.  <br/> |
+|AllowPolls  <br/> |TRUE  <br/> |모임 시작(애드문) 모임의 N/A이지만 Skype 채팅방 시스템은 회의실 앞의 화면에서 설문에 응답할 수 있습니다.  <br/> |
+|AllowSharedNotes  <br/> |TRUE  <br/> |모임 시작(애드문) 모임의 N/A이지만 Skype 채팅방 시스템은 회의실 앞의 화면에서 설문에 응답할 수 있습니다.  <br/> |
 |EnableDialInConferencing  <br/> |TRUE  <br/> |Skype 채팅방 시스템의 지금(애드월) 화이트보드 세션에 영향을 미치기  <br/> |
 |EnableAppDesktopSharing  <br/> |데스크톱  <br/> |Skype 채팅방 시스템의 지금(애드월) 화이트보드 세션에 영향을 미치기  <br/> |
-|AllowConferenceRecording  <br/> |FALSE  <br/> |Skype 룸 시스템용 N/A입니다. TRUE인 경우 원격 사용자가 기록할 수 있습니다.  <br/> |
-|EnableP2PRecording  <br/> |FALSE  <br/> |Skype 룸 시스템용 N/A입니다. TRUE인 경우 원격 사용자가 기록할 수 있습니다.  <br/> |
+|AllowConferenceRecording  <br/> |FALSE  <br/> |Skype 룸 시스템의 경우 N/A입니다. TRUE인 경우 원격 사용자가 기록할 수 있습니다.  <br/> |
+|EnableP2PRecording  <br/> |FALSE  <br/> |Skype 룸 시스템의 경우 N/A입니다. TRUE인 경우 원격 사용자가 기록할 수 있습니다.  <br/> |
 |EnableFileTransfer  <br/> |TRUE  <br/> |해당 없음  <br/> |
 |EnableP2PFileTransfer  <br/> |TRUE  <br/> |해당 없음  <br/> |
-|EnableP2PVideo  <br/> |TRUE  <br/> |Skype 룸 시스템 클라이언트가 피어 투 피어 비디오 세션에 참가할 수 있도록 설정  <br/> |
+|EnableP2PVideo  <br/> |TRUE  <br/> |Skype 채팅방 시스템 클라이언트가 피어 투 피어 비디오 세션에 참가할 수 있도록 설정  <br/> |
 |AllowLargeMeetings  <br/> |FALSE  <br/> |해당 없음  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |Skype 채팅방 시스템의 지금(애드월) 화이트보드 세션에 영향을 미치기  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |비즈니스용 Skype 서버에서 무시, Skype 채팅방 시스템은 HD1080을 사용  <br/> |
@@ -65,7 +65,7 @@ Skype 룸 시스템 계정에 할당된 회의 정책에는 특정 특성이 있
 * 대역폭 계획에 대한 자세한 내용은 미디어 [트래픽에 대한 네트워크 대역폭 요구 사항을 참조하세요.](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic)
   
 > [!NOTE]
-> Skype 룸 시스템 클라이언트가 Lync Server 2010 풀에 있는 사용자가 구성한 예약된 모임에 참가할 경우 모임 이끌이의 회의 정책으로 인해 Skype 룸 시스템 클라이언트가 공동 작업을 수행하지 못하게 할 수 있습니다. 
+> Skype 채팅방 시스템 클라이언트가 Lync Server 2010 풀에 있는 사용자가 구성한 예약된 모임에 참가할 경우 모임 이끌이의 회의 정책으로 인해 Skype 룸 시스템 클라이언트가 공동 작업을 수행하지 못하게 할 수 있습니다. 
   
 ## <a name="meeting-authentication"></a>모임 인증
 

@@ -68,7 +68,7 @@ ms.locfileid: "49814958"
 ## <a name="configuration-requirements"></a>구성 요구 사항
 <a name="ConfigReqs"> </a>
 
-스트레스 및 성능 도구를 성공적으로 실행하려면 이러한 추가 구성이 필요합니다.
+스트레스 및 성능 도구를 성공적으로 실행하려면 다음 추가 구성이 필요합니다.
   
 - 도메인 또는 로컬 관리자 그룹의 구성원으로 서버에 로그인해야 합니다.
     
@@ -83,6 +83,6 @@ ms.locfileid: "49814958"
 
 설치가 더 간단할 수 없습니다. 사용자 트래픽을 시뮬레이트하는 **데** 사용할 각 클라이언트 컴퓨터와 사용자 및 연락처를 만들 각 풀의 프런트 엔드 서버에서 Windows Installer 파일(CapacityPlanningTool.msi)을 실행해야 합니다.
   
-다른 문서에 언급된 예제 스크립트와 함께 .msi를 다운로드하려면 다운로드 센터 링크(비즈니스용 [Skype 서버 2015,](https://www.microsoft.com/download/details.aspx?id=50367)스트레스 및 성능 도구)로 이동하세요.
+다른 문서에 언급된 예제 스크립트와 함께 .msi를 다운로드하려면 다운로드 센터 링크(비즈니스용 [Skype 서버 2015, 스트레스 및 성능 도구)로 이동하세요.](https://www.microsoft.com/download/details.aspx?id=50367)
   
 

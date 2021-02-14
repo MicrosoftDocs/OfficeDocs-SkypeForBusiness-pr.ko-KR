@@ -22,7 +22,7 @@ ms.locfileid: "49815048"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버의 고가용성 및 재해 복구 관리
  
-**요약:** 영구 채팅 서버 고가용성 및 재해 복구를 관리하는 방법을 비즈니스용 Skype 서버 2015에서 자세히 알아보고,
+**요약:** 영구 채팅 서버 고가용성 및 재해 복구를 관리하는 방법을 비즈니스용 Skype 서버 2015에서 자세히 알아보습니다.
   
 이 항목에서는 영구 채팅 서버를 장애 조치(fail back) 및 장애 조치(fail back)하는 방법을 설명합니다. 이 항목을 읽기 전에 비즈니스용 Skype 서버 [2015에서](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) 영구 채팅 서버에 대한 고가용성 및 재해 복구 계획을 읽고 비즈니스용 Skype 서버 [2015에서](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성해야 합니다.
 
@@ -98,7 +98,7 @@ ms.locfileid: "49815048"
   
 다음 절차에서는 기본 데이터 센터가 백업되고 서버를 다시 구축한 후에 일반 작업을 복원합니다. 이 절차에서는 기본 데이터 센터가 총 정전으로부터 복구되고, 토폴로지 작성기에서 mgc 데이터베이스와 mgccomp 데이터베이스를 다시 구축하고 다시 설치했다고 가정합니다.
   
-또한 이 절차에서는 장애 조치 기간 동안 새 미러 및 백업 서버가 배포되지 않은 것으로 가정하고 이전에 영구 채팅 서버 장애 조치(Failover)에 정의된 백업 서버와 해당 미러 서버만 배포된 것으로 가정합니다.
+또한 이 절차에서는 장애 조치(failover) 기간 동안 새 미러 및 백업 서버가 배포되지 않은 것으로 가정하고, 이전에 영구 채팅 서버 장애 조치(Failover)에 정의된 백업 서버와 해당 미러 서버만 배포된 것으로 가정합니다.
   
 이러한 단계는 구성을 재해 이전의 상태로 복구하여 기본 서버를 백업 서버로 장애 조치(failover)하도록 디자인되었습니다.
   
@@ -163,7 +163,7 @@ ms.locfileid: "49815048"
     
    - **확인** 을 클릭하여 복원 프로세스를 시작합니다.
     
-5. 기본 SQL Server 로그 전달을 구성합니다. 비즈니스용 Skype 서버 [2015에서](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) 영구 채팅 서버에 대해 고가용성 및 재해 복구 구성의 절차에 따라 기본 mgc 데이터베이스에 대한 로그 전달을 설정할 수 있습니다.
+5. 기본 SQL Server 로그 전달을 구성합니다. 비즈니스용 Skype 서버 [2015에서](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) 영구 채팅 서버에 대한 고가용성 및 재해 복구 구성 절차에 따라 기본 mgc 데이터베이스에 대한 로그 전달을 설정할 수 있습니다.
     
 6. 영구 채팅 서버 활성 서버를 설정하십시오. 비즈니스용 Skype 서버 관리 셸에서 **Set-CsPersistentChatActiveServer** cmdlet을 사용하여 활성 서버 목록을 설정할 수 있습니다.
     

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
-description: 이 표의 각 레코드는 한 IM 회의에서 한 사용자를 나타내며 해당 사용자가 보낸 메시지 수를 포함합니다. 각 회의는 이 표의 여러 레코드로 표시됩니다. 각 사용자에 대해 하나의 레코드.
+description: 이 표의 각 레코드는 한 IM 회의에서 한 사용자를 나타내며 해당 사용자가 보낸 메시지 수를 포함합니다. 각 회의는 이 표의 여러 레코드로 표시됩니다. 각 사용자에 대한 하나의 레코드.
 ms.openlocfilehash: b931b45915fc12fb01ea36f81bee62f36914e903
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

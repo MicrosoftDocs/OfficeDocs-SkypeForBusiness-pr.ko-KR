@@ -25,7 +25,7 @@ ms.locfileid: "49812088"
 # <a name="select-exchange-um-auto-attendant"></a>Exchange UM 자동 전화 교환 선택
 
 > [!NOTE]
-> Exchange UM은 비즈니스용 Skype 2019와 Exchange 2013 또는 Exchange 2016을 통합할 때 비즈니스용 Skype 서버에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Cloud Voicemail 및 Cloud 자동 전화 교환 Exchange UM 통합이 강조되지 않습니다.  자세한 [내용은 클라우드 음성메일](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) 서비스 계획 및 비즈니스용 Skype Exchange Server [마이그레이션을](../../../../SfBhybrid/hybrid/plan-um-migration.md) 참조하세요.
+> Exchange UM은 비즈니스용 Skype 2019와 Exchange 2013 또는 Exchange 2016을 통합할 때 비즈니스용 Skype 서버에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 클라우드 음성메일 및 클라우드 서비스 자동 전화 교환 강조되지 않습니다.  자세한 [내용은 클라우드 음성메일](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) 서비스 계획 및 비즈니스용 Skype Exchange Server [마이그레이션을](../../../../SfBhybrid/hybrid/plan-um-migration.md) 참조하세요.
  
 Exchange **UM** 자동 전화 교환 선택 대화 상자를 사용하여 지정되지 않은 자동 전화 교환 수신 전화를 처리할 Exchange UM 번호를 선택합니다.
   

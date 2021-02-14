@@ -39,6 +39,6 @@ ConferenceJoinTimeThresholds 테이블에는 분류 값 2초, 5초, 10초가 포
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
 |**ThresholdId** <br/> |int  <br/> |Primary  <br/> |분류의 고유한 식별자입니다.  <br/> |
-|**ThresholdValue** <br/> |int  <br/> || 분류의 상한입니다. 허용되는 값은 다음과 같습니다. <br/>  2  <br/>  5  <br/>  10  <br/> |
+|**ThresholdValue** <br/> |int  <br/> || 분류의 상한입니다. 허용되는 값은 다음과 같습니다. <br/>  2  <br/>  5  <br/>  10   <br/> |
    
 

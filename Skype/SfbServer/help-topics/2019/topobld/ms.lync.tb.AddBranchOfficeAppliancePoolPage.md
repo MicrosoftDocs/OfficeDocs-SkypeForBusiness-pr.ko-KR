@@ -24,7 +24,7 @@ ms.locfileid: "49811958"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>SBA(Survivable Branch Appliance) 풀 추가
  
-**Survivable Branch Appliance FQDN을** 정의하려면 FQDN 텍스트 상자에 Survivable Branch Appliance 또는 Survivable Branch Server의 FQDN(도메인 이름 시스템)에 정의된 **FQDN(도메인** 이름 시스템)을 입력합니다. **다음** 을 클릭하여 계속합니다.
+**Survivable Branch Appliance FQDN을** 정의하려면 FQDN 텍스트 상자에 Survivable Branch Appliance 또는 Survivable Branch Server의 FQDN(도메인 이름 시스템)에 정의된 **FQDN(FQDN)을** 입력합니다. **다음** 을 클릭하여 계속합니다.
   
 > [!NOTE]
 > 다른 명시가 없는 한 Survivable Branch Appliance 또는 Survivable Branch Server를 정의하는 것은 동일한 절차입니다. 

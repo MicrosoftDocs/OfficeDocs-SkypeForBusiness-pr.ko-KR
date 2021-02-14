@@ -25,14 +25,14 @@ ms.locfileid: "49812498"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>비즈니스용 Skype Enterprise Voice 배포
 
-**요약:** 중앙 사이트에서 비즈니스용 Skype Enterprise Voice 배포하는 방법을 자세히 알아보습니다.
+**요약:** 중앙 사이트에서 비즈니스용 Skype Enterprise Voice 배포하는 방법을 자세히 알아보고,
 
 이 항목을 사용하여 중앙 Enterprise Voice 배포할 수 있습니다. 분기 사이트에 Enterprise Voice 배포하기 위해 분기 사이트 [배포로 건너뜁니 다.](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx)
 
 이 섹션에는 중재 서버가 권장되는 각 프런트 엔드 서버 또는 Standard Edition 서버에 배치되는 배포 절차와 독립 실행형 중재 서버 풀이 있는 배포에 대한 절차가 포함되어 있습니다. 배포 마법사가 프런트 엔드 서버 풀 또는 Standard Edition Server용 파일을 설치할 때 중재 서버용 파일이 이미 자동으로 설치되어 있기 때문에 토폴로지 작성기에서 중재 서버를 각 프런트 엔드 서버 또는 Standard Edition 서버에 배치하는 토폴로지 정의 및 게시를 수행한 경우 다음 콘텐츠를 건너뛸 수 있습니다.
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-- [비즈니스용 Skype 서버의 보안 및 Enterprise Voice 구성 선행 요구](enterprise-voice-security.md)
+- [비즈니스용 Skype 서버의 보안 Enterprise Voice 구성 선행 요구](enterprise-voice-security.md)
 
 - [비즈니스용 Skype 서버에서 토폴로지 작성기에서 중재 서버 배포](deploy-a-mediation-server.md)
 
@@ -56,7 +56,7 @@ ms.locfileid: "49812498"
 
 - [사용자가 비즈니스용 Skype Enterprise Voice 사용하도록 설정](enable-users-for-enterprise-voice.md)
 
-- [비즈니스용 Skype Enterprise Voice 고급 관리 기능 배포](deploy-advanced-enterprise-voice-features.md)
+- [비즈니스용 Skype Enterprise Voice 고급 서비스 기능 배포](deploy-advanced-enterprise-voice-features.md)
 
 - [비즈니스용 Skype에서 통화 관리 기능 배포](deploy-call-management-features.md)
 

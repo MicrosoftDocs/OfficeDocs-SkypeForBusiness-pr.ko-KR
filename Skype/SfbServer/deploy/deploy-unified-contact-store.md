@@ -21,7 +21,7 @@ ms.locfileid: "49812558"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통합 연락처 저장소 배포
  
-**요약:** 비즈니스용 Skype 서버에서 통합 연락처 저장소를 사용하도록 설정하십시오.
+**요약:** 비즈니스용 Skype 서버에서 통합 연락처 저장소를 사용하도록 설정
   
 비즈니스용 Skype 서버에서 통합 연락처 저장소를 사용하도록 설정하는 데는 토폴로지 설정이 필요하지 않습니다. 사용자에 대해 통합 연락처 저장소를 사용하도록 설정하려면
   
@@ -56,7 +56,7 @@ ms.locfileid: "49812558"
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
-   예제:
+   예시:
     
    ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
@@ -68,7 +68,7 @@ ms.locfileid: "49812558"
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
-   예제:
+   예시:
     
    ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
@@ -92,11 +92,11 @@ ms.locfileid: "49812558"
    ```
 
     > [!NOTE]
-    > 위의 예제에서 첫 번째 명령은 UcsAllowed 플래그가 True로 설정된 UCS Enabled Users라는 새 사용자당 정책을 만듭니다. 두 번째 명령은 표시 이름이 Ken Myer인 사용자에게 정책을 할당합니다. 즉, Ken Myer가 통합 연락처 저장소를 사용할 수 있습니다.
+    > 위의 예에서 첫 번째 명령은 UcsAllowed 플래그가 True로 설정된 UCS Enabled Users라는 새 사용자당 정책을 만듭니다. 두 번째 명령은 표시 이름이 Ken Myer인 사용자에게 정책을 할당합니다. 즉, Ken Myer가 통합 연락처 저장소를 사용할 수 있습니다.
   
 ## <a name="migrate-users-to-unified-contact-store"></a>통합 연락처 저장소로 사용자 마이그레이션
 
-사용자가 다음을 수행하면 사용자의 연락처가 Exchange 2013 서버로 자동으로 마이그레이션됩니다.
+사용자가 다음을 수행하면 사용자의 연락처가 Exchange 2013 서버로 자동 마이그레이션됩니다.
   
 - UcsAllowed가 True로 설정된 사용자 서비스 정책을 할당한 경우
     
@@ -124,7 +124,7 @@ ms.locfileid: "49812558"
     
 ## <a name="roll-back-migrated-users"></a>마이그레이션된 사용자 롤백
 
-통합 연락처 저장소 기능을 롤백해야 하는 경우 사용자를 Exchange 2010 또는 Lync Server 2010으로 다시 이동하는 경우 연락처만 롤백합니다. 롤백하기 위해 사용자에 대한 정책을 사용하지 않도록 설정한 다음 **Invoke-CsUcsRollback** cmdlet을 실행합니다. **Invoke-CsUcsRollback만** 실행하면 영구 롤백을 보장하기에 충분하지 않습니다. 정책을 사용하지 않도록 설정하지 않은 경우 통합 연락처 저장소 마이그레이션이 다시 시작됩니다. 예를 들어 Exchange 2013이 Exchange 2010으로 롤백되어 사용자가 롤백된 후 사용자의 사서함이 Exchange 2013으로 이동되면 사용자 서비스 정책에서 사용자에 대해 통합 연락처 저장소를 사용하도록 설정한 경우 통합 연락처 저장소 마이그레이션이 롤백 후 7일 후에 다시 시작됩니다.
+통합 연락처 저장소 기능을 롤백해야 하는 경우 사용자를 Exchange 2010 또는 Lync Server 2010으로 다시 이동하는 경우 연락처만 롤백합니다. 롤백하기 위해 사용자에 대한 정책을 사용하지 않도록 설정한 다음 **Invoke-CsUcsRollback** cmdlet을 실행합니다. **Invoke-CsUcsRollback만** 실행하면 영구 롤백을 보장하기에 충분하지 않습니다. 정책을 사용하지 않도록 설정하지 않은 경우 통합 연락처 저장소 마이그레이션이 다시 시작됩니다. 예를 들어 Exchange 2013이 Exchange 2010으로 롤백되어 사용자의 사서함이 Exchange 2013으로 이동되어 사용자가 롤백된 경우 사용자 서비스 정책에서 사용자에 대해 통합 연락처 저장소를 사용하도록 설정한 경우 통합 연락처 저장소 마이그레이션은 롤백 후 7일 후에 다시 시작됩니다.
   
 **Move-CsUser** cmdlet은 다음과 같은 상황에서 사용자의 연락처 저장소를 Exchange 2013에서 비즈니스용 Skype 서버로 자동으로 롤백합니다.
   
@@ -139,7 +139,7 @@ ms.locfileid: "49812558"
 - 사용자를 Exchange 2013으로 마이그레이션한 후 사용자 데이터를 내보낼 경우 마이그레이션을 롤백한 다음 마이그레이션 후 데이터를 가져오면 통합 연락처 저장소 데이터 및 연락처 목록이 손상됩니다.
     
 > [!IMPORTANT]
-> Exchange 사서함을 Exchange 2013에서 Exchange 2010으로 이동하기 전에 Exchange 관리자는 비즈니스용 Skype 서버 관리자가 먼저 비즈니스용 Skype 서버 사용자 연락처를 Exchange 2013에서 비즈니스용 Skype 서버로 롤백하도록 해야 합니다. 통합 연락처 저장소 연락처를 비즈니스용 Skype 서버로 롤백하기 위해 이 섹션의 뒷부분에 있는 "Exchange 2013에서 비즈니스용 Skype 서버로 통합 연락처 저장소 연락처를 롤백하는 절차"를 참조하세요. 
+> Exchange 사서함을 Exchange 2013에서 Exchange 2010으로 이동하기 전에 Exchange 관리자는 비즈니스용 Skype 서버 관리자가 먼저 비즈니스용 Skype 서버 사용자 연락처를 Exchange 2013에서 비즈니스용 Skype 서버로 롤백해야 합니다. 통합 연락처 저장소 연락처를 비즈니스용 Skype 서버로 롤백하기 위해 이 섹션의 뒷부분에 있는 "Exchange 2013에서 비즈니스용 Skype 서버로 통합 연락처 저장소 연락처를 롤백하는 절차"를 참조하세요. 
   
  **사용자 연락처를 롤백하는 방법:** **Move-CsUser** cmdlet을 사용하여 비즈니스용 Skype 서버 2015와 Lync Server 2010 간에 사용자를 이동하는 경우 **Move-CsUser** cmdlet은 사용자를 비즈니스용 Skype 서버 2015에서 Lync Server 2010으로 이동할 때 통합 연락처 저장소를 자동으로 롤백하기 때문에 이러한 단계를 건너뛸 수 있습니다. **Move-CsUser는** 통합 연락처 저장소 정책을 사용하지 않도록 설정하지 않습니다. 따라서 사용자가 비즈니스용 Skype 서버 2015로 다시 이동하면 통합 연락처 저장소로의 마이그레이션이 되돌아가게 됩니다.
   

@@ -16,7 +16,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
-description: '요약: 비즈니스용 Skype 서버를 설치하기 전에 새 토폴로지 만들기, 게시 및 확인하는 방법을 설명하는 정보를 제공합니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 무료 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
+description: '요약: 비즈니스용 Skype 서버를 설치하기 전에 새 토폴로지 만들기, 게시 및 확인하는 방법을 설명하는 문서입니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 무료 평가판을 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 다운로드합니다.'
 ms.openlocfilehash: c18d0340c48a8bf07771d0892bed4d0740c63186
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -26,7 +26,7 @@ ms.locfileid: "49812148"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 새 토폴로지 만들기 및 게시
  
-**요약:** 비즈니스용 Skype 서버를 설치하기 전에 새 토폴로지 만들기, 게시 및 확인하는 방법을 자세히 알아보습니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 무료 평가판을 [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 다운로드합니다.
+**요약:** 비즈니스용 Skype 서버를 설치하기 전에 새 토폴로지 만들기, 게시 및 확인하는 방법을 배워야 합니다. Microsoft 평가판 센터에서 비즈니스용 Skype 서버 무료 평가판을 [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 다운로드합니다.
   
 토폴로지의 각 서버에 비즈니스용 Skype 서버 시스템을 설치하려면 토폴로지와 게시해야 합니다. 토폴로지 게시 시 토폴로지 정보를 중앙 관리 저장소 데이터베이스에 로드합니다. Enterprise Edition 풀인 경우 새 토폴로지가 처음 게시될 때 중앙 관리 저장소 데이터베이스를 만듭니다. Standard Edition인 경우 토폴로지 게시 전에 배포 마법사에서 첫 번째 Standard Edition Server 준비 프로세스를 실행해야 합니다. 이렇게 하는 경우 SQL Server Express Edition 인스턴스를 설치하고 중앙 관리 저장소를 만들어 Standard Edition을 준비할 수 있습니다. 1~5단계는 순서에 따라 할 수 있습니다. 그러나 다이어그램에 설명된대로 1~5단계를 순서대로, 6, 7, 8단계를 순서대로 수행해야 합니다. 새 토폴로지 만들기 및 게시 방법에 대한 설명은 8단계의 6단계에 설명되어 있습니다.
   
@@ -50,9 +50,9 @@ ms.locfileid: "49812148"
 4. 토폴로지 구성 파일의 위치와 파일 이름을 선택합니다.
     
     > [!NOTE]
-    > 토폴로지 구성은 토폴로지 작성기 XML(.tbxml) 파일로 저장됩니다. 토폴로지 게시 시 파일에서 구성 정보를 SQL Server 합니다. 나중에 토폴로지 작성기 열면 기존 구성을 토폴로지 작성기에서 직접 SQL Server 토폴로지 작성기로 다운로드한 다음 다시 토폴로지 작성기 SQL Server 또는 토폴로지 작성기 구성 파일로 저장할 수 있습니다. 
+    > 토폴로지 구성은 토폴로지 작성기 XML(.tbxml) 파일로 저장됩니다. 토폴로지 게시 시 파일의 구성 정보를 파일 데이터베이스로 SQL Server 있습니다. 나중에 토폴로지 작성기 열면 기존 구성을 토폴로지 작성기에서 직접 SQL Server 토폴로지 작성기로 다운로드한 다음 다시 토폴로지 작성기 SQL Server 또는 토폴로지 작성기 구성 파일로 저장할 수 있습니다. 
   
-5. 주 도메인 **정의 화면에서** 기본 **SIP** 도메인을 입력하고 다음을 **클릭합니다.** 이 예제에서는 그림과 같이 **contoso.local을** 사용하고 있습니다.
+5. 주 도메인 **정의 화면에서** 기본 SIP 도메인을 **입력하고** 다음을 **클릭합니다.** 이 예제에서는 그림과 같이 **contoso.local을** 사용하고 있습니다.
     
      ![기본 sip 도메인을 정의합니다.](../../media/353e6b38-485f-4042-8585-aefa6c74b554.png)
   
@@ -92,7 +92,7 @@ ms.locfileid: "49812148"
     
     중재 서버를 Enterprise Edition 프런트 엔드 풀에 함께 설치하려는 경우 확인란이 선택되어 있도록 합니다. 서버 역할은 풀 서버에 배포됩니다. 중재 서버를 독립 실행형 서버로 배포하려는 경우 해당 확인란의 선택을 취소합니다. 프런트 엔드 서버를 완전히 배포한 후 중재 서버를 별도의 배포 단계에서 배포합니다. 병치에 대한 자세한 내용은 비즈니스용 [Skype 서버의 토폴로지 기본 사항을 참조하세요.](../../plan-your-deployment/topology-basics/topology-basics.md)
     
-6. 이 프런트  엔드 풀 페이지에 서버 역할 연결 페이지를 사용하면 서버 역할을 정의하고 프런트 엔드 풀과 연결할 수 있습니다. 사용할 수 있는 역할은 다음과 같습니다.
+6. 이 프런트  엔드 풀 페이지에서 서버 역할 연결 페이지를 사용하여 서버 역할을 정의하고 프런트 엔드 풀과 연결할 수 있습니다. 사용할 수 있는 역할은 다음과 같습니다.
     
     **에지 풀 사용** 단일 에지 서버 또는 에지 서버 풀을 정의하고 연결합니다. 에지 서버는 조직 내부 사용자와 페더레이션 사용자를 포함하여 조직 외부의 사용자 간의 통신 및 공동 작업을 용이하게 합니다.
     
@@ -125,9 +125,9 @@ ms.locfileid: "49812148"
     
      이 예제에서는 SQL Server **FQDN을** 입력하고 관련 고가용성 설정을 구성한 다음 그림과 같이 **확인을** 클릭합니다.
     
-     ![저장소 SQL Server 만들 수 있습니다.](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
+     ![저장소를 SQL Server 만들 수 있습니다.](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
-8. 미러링된 미러링 SQL Server 미러링 SQL Server 사용하도록 설정할지 여부를 결정하고 다음을 **클릭합니다.**
+8. 미러링된 미러링 SQL Server 사용하도록 설정할지 SQL Server 다음을 **클릭합니다.**
     
 9. 사용할 파일 공유를 정의합니다.
     
@@ -135,14 +135,14 @@ ms.locfileid: "49812148"
     
    - 새 파일 공유를 정의하려면 **새 파일 공유 정의** 를 선택하고 **파일 서버 FQDN** 상자에 파일 공유가 있는 기존 파일 서버의 FQDN을 입력한 다음 **파일 공유** 상자에 파일 공유 이름을 입력합니다.
     
-     이 예제에서는 새 파일 저장소 정의를 클릭하고 **파일** 서버 **FQDN** 및 파일 공유를 입력한 후 다음을 **클릭합니다.** 
+     이 예제에서는 새 파일 저장소 정의를 클릭하고 **파일** 서버 **FQDN** 및 파일 공유를 **입력한** 후 다음을 **클릭합니다.**
     
      > [!NOTE]
-     > 비즈니스용 Skype 서버의 파일 공유를 함께 사용할 수 있지만 성능상의 이유로는 권장되지 않습니다. 이 예제에서는 파일 공유가 파일 공유로 사용할 단일 전용 서버에 있습니다. 그러나 R2를 사용하는 DFS와 같은 다른 보다 강력한 파일 공유 Windows Server 2012 사용하는 것이 좋습니다. 지원되는 파일 공유 시스템에 대한 자세한 내용은 비즈니스용 Skype 환경에 대한 [요구 사항을 참조하세요.](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) 파일 공유를 만드는 데 대한 자세한 내용은 비즈니스용 Skype 서버에서 파일 [공유 만들기를 참조하세요.](create-a-file-share.md) 만들어진 파일 공유가 없는 상태에서 파일 공유를 정의할 수 있습니다. 그러려면 토폴로지를 게시하기 전에 정의한 위치에 파일 공유를 만들어야 합니다. 
+     > 비즈니스용 Skype 서버의 파일 공유를 함께 사용할 수 있지만 성능상의 이유로는 권장되지 않습니다. 이 예제에서는 파일 공유가 파일 공유로 사용할 단일 전용 서버에 있습니다. 그러나 R2를 사용하는 DFS와 같은 다른 보다 강력한 파일 공유 Windows Server 2012 사용하는 것이 좋습니다. 지원되는 파일 공유 시스템에 대한 자세한 내용은 비즈니스용 Skype 환경에 대한 [요구 사항을 참조하세요.](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) 파일 공유를 만드는 데 대한 자세한 내용은 비즈니스용 Skype 서버에서 파일 공유 [만들기를 참조하세요.](create-a-file-share.md) 만들어진 파일 공유가 없는 상태에서 파일 공유를 정의할 수 있습니다. 그러려면 토폴로지를 게시하기 전에 정의한 위치에 파일 공유를 만들어야 합니다. 
   
 10. 웹 서비스 URL 지정 페이지에서 내부 웹 서비스 풀 기본 URL을 다시 지정해야 하는지 여부를 결정해야 합니다. 이 재지정의 이유는 부하 분산과 관련이 있습니다. 간단한 DNS 부하 분산을 통해 기본 SIP 트래픽을 부하 분산할 수 있습니다. 그러나 HTTP/S 웹 서비스 네트워크 트래픽은 지원되는 하드웨어 또는 소프트웨어 부하 분산 솔루션을 사용해야 합니다. 지원되는 부하 균형 조정은 비즈니스용 [Skype 인프라를 참조하세요.](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) 이 예에서는 SIP 트래픽 및 지원되는 소프트웨어 부하 분산 솔루션에 DNS 부하 분산을 사용했습니다. 이 방식으로 트래픽을 나분하기 때문에 내부 웹 서비스 풀 FQDN을 다시 정해야 합니다. 또는 최상위 부하 분산이 있으며 SIP 트래픽에 DNS 부하 분산을 사용하는 대신 최상위 부하 분산을 통해 모든 트래픽을 전송한 경우 웹 서비스 URL을 재지정할 필요가 없습니다. 
     
-    이 항목의 DNS 섹션에서 webint.contoso.local에 대한 A 레코드를 만들 수 있습니다. 이 URL은 웹 서비스 HTTP/S 트래픽에 사용하며, 설정한 지원되는 소프트웨어 부하 런저를 통과해야 합니다. 따라서 이 예제에서는 그림과 같이 모든 HTTP/S 트래픽이 pool.contoso.local이 아닌 webint.contoso.local로 이동해야 한다고 비즈니스용 Skype 서버에서 알 수 있는 URL을 다시 지정합니다. 부하 분산에 대한 자세한 내용은 비즈니스용 Skype에 대한 부하 [분산 요구 사항을 참조하세요.](../../plan-your-deployment/network-requirements/load-balancing.md)
+    이 항목의 DNS 섹션에서 webint.contoso.local에 대한 A 레코드를 만들 수 있습니다. 이 URL은 웹 서비스 HTTP/S 트래픽에 사용하며 설정한 지원되는 소프트웨어 부하 런저를 통과해야 합니다. 따라서 이 예제에서는 그림과 같이 모든 HTTP/S 트래픽이 pool.contoso.local이 아닌 webint.contoso.local로 이동해야 한다고 비즈니스용 Skype 서버에서 알 수 있는 URL을 다시 지정합니다. 부하 분산에 대한 자세한 내용은 비즈니스용 Skype에 대한 부하 [분산 요구 사항을 참조하세요.](../../plan-your-deployment/network-requirements/load-balancing.md)
     
     > [!IMPORTANT]
     > 기본 URL은 URL에서 https://를 생략한 웹 서비스 ID입니다. 예를 들어 풀의 웹 서비스에 대한 전체 URL이면 기본 https://webint.contoso.local URL은 webint.contoso.local입니다. 
@@ -182,7 +182,7 @@ ms.locfileid: "49812148"
 
 1. 토폴로지 작성기에서 비즈니스용 **Skype** 서버 노드를 마우스 오른쪽 단추로 클릭한 다음 속성 **편집을 클릭합니다.**
     
-2. 관리 **액세스 URL** 상자에 비즈니스용 Skype 서버 제어판에 대한 관리 액세스에 사용할 단순 URL을 입력하고 확인을 **클릭합니다.**
+2. 관리 액세스 **URL** 상자에 비즈니스용 Skype 서버 제어판에 대한 관리 액세스에 사용할 단순 URL을 입력하고 확인을 **클릭합니다.**
     
     > [!TIP]
     > 관리 URL에는 최대한 간단한 URL을 사용하는 것이 좋습니다. 가장 간단한 옵션은 https://admin . _\<domain\>_ . 관리 URL은 내부 또는 외부 도메인(예: contoso.local 또는 contoso.com DNS에서 확인할 수 있는 레코드)일 수 있습니다. 
@@ -200,11 +200,11 @@ ms.locfileid: "49812148"
     
 4. 배포 요구 사항을 충족하는 올바른 서버 역할이 토폴로지에 정의되어 있는지 확인합니다.
     
-5. 서버가 AD DS(Active Directory 도메인 서비스)에 있는지 확인합니다. 이 문제는 서버를 도메인에 가입할 때 자동으로 수행됩니다.
+5. 서버가 AD DS(Active Directory 도메인 서비스)에 있는지 확인합니다. 이 문제는 서버를 도메인에 가입할 때 자동으로 발생합니다.
     
     토폴로지를 확인한 결과 유효성 검사 오류가 없으면 토폴로지를 게시할 수 있습니다. 유효성 검사 오류가 있는 경우 토폴로지 게시를 위해 먼저 오류를 수정해야 합니다.
     
-6. 비즈니스용 Skype 서버 노드를 마우스 오른쪽 **단추로** 클릭한 다음 토폴로지 **게시를 클릭합니다.**
+6. 비즈니스용 Skype 서버 **노드를** 마우스 오른쪽 단추로 클릭한 다음 토폴로지 **게시를 클릭합니다.**
     
 7. **토폴로지 게시** 페이지에서 **다음** 을 클릭합니다.
     
@@ -220,19 +220,19 @@ ms.locfileid: "49812148"
     > [!NOTE]
     > 데이터베이스를 만들 수 있는 적절한 사용 권한이 없는 경우 해당 데이터베이스 옆에 있는 확인란의 선택을 취소하면 적절한 권한을 가지는 다른 사용자가 나중에 데이터베이스를 만들 수 있습니다. 요구 사항에 대한 자세한 내용은 비즈니스용 Skype 서버의 서버 요구 [사항을 참조하세요.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 
   
-10. 원하는 경우 **고급** 을 클릭합니다. 고급 SQL Server 파일 배치 옵션을 사용하면 다음 옵션 중 선택할 수 있습니다. 
+10. 원하는 경우 **고급** 을 클릭합니다. 고급 데이터 SQL Server 배치 옵션을 사용하면 다음 옵션 중 선택할 수 있습니다. 
     
     - **데이터베이스 파일** 위치 자동 확인 - 이 옵션은 로그 및 데이터 파일을 최상의 위치에 배포하여 SQL Server 기반 서버의 디스크 구성에 따라 최상의 작동 성능을 결정합니다.
     
-    - **SQL Server** 기본값 사용 - 이 옵션은 인스턴스 설정을 사용하여 로그 및 데이터 SQL Server 서버에 저장합니다. 이 옵션은 SQL Server 기반 서버 작동 기능을 사용하여 로그 및 데이터의 최적 위치를 결정하지 않습니다. SQL Server 관리자는 일반적으로 SQL Server 기반 서버 및 조직 관리 절차에 적합한 위치로 로그 및 데이터 파일을 이동합니다.
+    - **SQL Server** 기본값 사용 - 이 옵션은 인스턴스 설정을 사용하여 SQL Server 기반 서버에 로그 및 데이터 파일을 저장합니다. 이 옵션은 SQL Server 기반 서버 작동 기능을 사용하여 로그 및 데이터의 최적 위치를 결정하지 않습니다. SQL Server 관리자는 일반적으로 SQL Server 기반 서버 및 조직 관리 절차에 적합한 위치로 로그 및 데이터 파일을 이동합니다.
     
     **확인** 을 클릭하고 **다음** 을 클릭합니다. 
     
-11. 선택적으로 고급을 **클릭합니다.** 고급 SQL Server 파일 배치 옵션을 사용하면 다음 옵션 중 선택할 수 있습니다. 
+11. 선택적으로 고급을 **클릭합니다.** 고급 데이터 SQL Server 배치 옵션을 사용하면 다음 옵션 중 선택할 수 있습니다. 
     
     - **데이터베이스 파일** 위치 자동 확인 - 이 옵션은 로그 및 데이터 파일을 최상의 위치에 배포하여 SQL Server 기반 서버의 디스크 구성에 따라 최상의 작동 성능을 결정합니다.
     
-    - **SQL Server** 기본값 사용 - 이 옵션은 인스턴스 설정을 사용하여 로그 및 데이터 SQL Server 서버에 저장합니다. 이 옵션은 SQL Server 기반 서버 작동 기능을 사용하여 로그 및 데이터의 최적 위치를 결정하지 않습니다. SQL Server 관리자는 일반적으로 SQL Server 기반 서버 및 조직 관리 절차에 적합한 위치로 로그 및 데이터 파일을 이동합니다.
+    - **SQL Server** 기본값 사용 - 이 옵션은 인스턴스 설정을 사용하여 SQL Server 기반 서버에 로그 및 데이터 파일을 저장합니다. 이 옵션은 SQL Server 기반 서버 작동 기능을 사용하여 로그 및 데이터의 최적 위치를 결정하지 않습니다. SQL Server 관리자는 일반적으로 SQL Server 기반 서버 및 조직 관리 절차에 적합한 위치로 로그 및 데이터 파일을 이동합니다.
     
     **확인** 을 클릭합니다.
     

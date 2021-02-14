@@ -54,14 +54,14 @@ Lync 2013용 2015년 4월 14일 Office 업데이트에는 새로운 비즈니스
   
 ### <a name="lync-client-experience"></a>Lync 클라이언트 환경
 
-Lync 클라이언트 환경은 사용자가 이미 익숙한 Lync 2013 클라이언트 환경과 매우 유사하지만 사용자에게 알려야 할 몇 가지 변경 사항이 있습니다. Lync 클라이언트 환경과 Lync 2013 클라이언트 간의 다른 기능을 보시겠습니까? [Lync를](https://go.microsoft.com/fwlink/p/?LinkId=544712) 사용 중일 때 비즈니스용 Skype가 표시되는 이유는 무엇일까요? 및 이 항목의 나중에 추가 링크를 참조하세요.
+Lync 클라이언트 환경은 사용자가 이미 익숙한 Lync 2013 클라이언트 환경과 매우 유사하지만 사용자에게 알려야 할 몇 가지 변경 사항이 있습니다. Lync 클라이언트 환경과 Lync 2013 클라이언트 간의 다른 기능을 표시하기 위해 [Lync를](https://go.microsoft.com/fwlink/p/?LinkId=544712) 사용 중일 때 비즈니스용 Skype가 표시되는 이유는 무엇일까요? 및 이 항목의 나중에 추가 링크를 참조하세요.
   
 ## <a name="prepare-your-environment-for-the-skype-for-business-client"></a>비즈니스용 Skype 클라이언트를 위한 환경 준비
 <a name="usinglync"> </a>
 
 클라이언트 업데이트에 대한 환경을 준비하기 위해 몇 가지 작업을 해야 합니다. 클라이언트 환경을 구성하기 위해 변경을 시작하기 전에 먼저 클라이언트 정책 설정을 지원하는 비즈니스용 Skype 서버 또는 Lync Server 버전을 사용하고 있는지 확인합니다.
   
-정책 설정을 지원하는 비즈니스용 Skype 서버 또는 Lync Server 버전을 사용하여 클라이언트 환경을 제어하는 것을 확인한 후 환경에서 정책 설정을 구성해야 합니다. 따라야 하는 특정 단계는 사용중인 비즈니스용 Skype 서버 또는 Lync Server의 버전과 사용자가 온-프레미스인지 온라인인지에 따라 결정됩니다. 
+정책 설정을 지원하는 비즈니스용 Skype 서버 또는 Lync Server 버전을 사용하여 클라이언트 환경을 제어하는 것을 확인한 후 환경에서 정책 설정을 구성해야 합니다. 따라야 하는 특정 단계는 사용하는 비즈니스용 Skype 서버 또는 Lync Server의 버전과 사용자가 온-프레미스인지 온라인인지에 따라 결정됩니다. 
   
 비즈니스용 Skype 클라이언트를 처음 시작할 때부터 클라이언트 환경을 제어할 수 있도록 클라이언트 업데이트가 사용자에게 전달되기 전에 이러한 변경을 할 수 있습니다. 다음 표에는 사용자에 대해 원하는 클라이언트 환경을 구성하기 위해 수행해야 하는 단계가 설명됩니다.
   
@@ -82,7 +82,7 @@ On-premises 배포에서 Skype 클라이언트 환경을 구성하려는 경우 
     
 - **Lync Server 2010 - Lync Server 2010** 이상 업데이트용 2015년 2월 누적 업데이트(4.0.7577.710)를 실행해야 합니다. 자세한 내용은 [Lync Server 2010의](https://go.microsoft.com/fwlink/p/?LinkId=532771)업데이트를 참조하십시오.
     
-  **2단계:** 다음으로, 클라이언트 정책을 사용하여 비즈니스용 Skype 클라이언트를 사용하여 Skype 클라이언트 환경을 설정할 수 있습니다. 클라이언트 정책을 **사용하여** 클라이언트 환경을 설정하는 세 가지 옵션이 있습니다.
+  **2단계:** 다음으로, 클라이언트 정책을 사용하여 비즈니스용 Skype 클라이언트를 사용하여 Skype 클라이언트 환경을 설정합니다. 클라이언트 정책을 **사용하여** 클라이언트 환경을 설정하는 세 가지 옵션이 있습니다.
   
   **옵션 1:** 전역 정책을 사용하여 Skype 클라이언트 환경을 설정할 수 있습니다. 전역 정책은 배포의 모든 사용자에게 적용되지만 사용자 및 사이트 수준 정책은 전역 정책보다 우선합니다.
   
@@ -154,7 +154,7 @@ New-CsClientPolicy -Identity UseLyncUI -EnableSkypeUI $False
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
- **3단계:** 선택 사항 - 기본적으로 사용자가 비즈니스용 Skype 클라이언트를 처음 시작할 때 Skype 클라이언트 환경이 사용되고 Lync 클라이언트 환경을 사용하려면 클라이언트를 다시 시작해야 하게 묻는 알림이 표시됩니다. 사용자가 클라이언트를 처음 시작할 때 Lync 클라이언트 환경이 표시되고 클라이언트 컴퓨터에서 시스템 레지스트리를 수정하여 클라이언트 자습서를 해제하도록 환경을 구성할 수 있습니다. 비즈니스용 Skype 클라이언트를 배포하기 전에 수행해야 하는 단계는 비즈니스용 Skype를 통해 클라이언트 환경 [구성을 참조하세요.](../../deploy/deploy-clients/configure-the-client-experience.md)
+ **3단계:** 선택 사항 - 기본적으로 사용자가 비즈니스용 Skype 클라이언트를 처음 시작할 때 Skype 클라이언트 환경이 사용되고 Lync 클라이언트 환경을 얻게 하여 클라이언트를 다시 시작해달는 알림이 사용자에게 표시됩니다. 사용자가 클라이언트를 처음 시작할 때 Lync 클라이언트 환경이 표시되고 클라이언트 컴퓨터에서 시스템 레지스트리를 수정하여 클라이언트 자습서를 해제하도록 환경을 구성할 수 있습니다. 비즈니스용 Skype 클라이언트를 배포하기 전에 수행해야 하는 단계는 비즈니스용 Skype를 통해 클라이언트 환경 [구성을 참조하세요.](../../deploy/deploy-clients/configure-the-client-experience.md)
   
  **4단계:** 클라이언트 정책을 구성한 후 비즈니스용 Skype 클라이언트 빌드 4711.1002(2015년 4월) 이상을 배포합니다.
   
@@ -185,7 +185,7 @@ Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisable
 
 클라이언트 정책을 구성한 후 비즈니스용 Skype 클라이언트 빌드 4711.1002(2015년 4월) 이상을 배포합니다.
   
-첫 실행 환경을 제어하는 방법 및 환경을 구성하는 데 사용할 수 있는 PowerShell 스크립트에 대한 단계를 포함하여 비즈니스용 Skype Online을 사용하여 클라이언트 환경을 구성하는 방법에 대한 자세한 내용은 비즈니스용 [Skype와 Lync](https://aka.ms/SfBOUI)클라이언트 사용자 인터페이스 간 전환을 참조하세요.
+첫 실행 환경을 제어하는 방법 및 환경을 구성하는 데 사용할 수 있는 PowerShell 스크립트에 대한 단계를 포함하여 비즈니스용 Skype Online에서 클라이언트 환경을 구성하는 방법에 대한 자세한 내용은 비즈니스용 [Skype와 Lync](https://aka.ms/SfBOUI)클라이언트 사용자 인터페이스 간 전환을 참조하세요.
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>지원 팀과 최종 사용자가 업데이트를 준비하는 데 도움이 되는 리소스
 <a name="support"> </a>
