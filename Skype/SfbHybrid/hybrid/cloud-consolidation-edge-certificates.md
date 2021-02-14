@@ -1,5 +1,5 @@
 ---
-title: 에 지 인증서 업데이트
+title: 에지 인증서 업데이트
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -20,7 +20,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-description: 이 부록에는 팀 및 비즈니스용 Skype에 대 한 클라우드 통합의 일환으로에 지 인증서를 업데이트 하기 위한 세부 단계가 포함 되어 있습니다.
+description: 이 부록에는 Teams 및 비즈니스용 Skype에 대한 클라우드 통합의 일부로 에지 인증서를 업데이트하는 자세한 단계가 포함되어 있습니다.
 ms.openlocfilehash: 3e6b151e340a0942b561edd2233795fad94c3a9e
 ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
@@ -28,17 +28,17 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/11/2020
 ms.locfileid: "41888607"
 ---
-# <a name="update-the-edge-certificate"></a>에 지 인증서 업데이트
+# <a name="update-the-edge-certificate"></a>에지 인증서 업데이트
 
-에 지 인증서 업데이트는 SipDomain1을 사용 하는 온-프레미스 환경에서 SipDomain2를 사용 하 여 클라우드 환경에 참가 하 고 두 SIP 도메인 간에 공유 주소 공간 환경에 적절 한 라우팅을 보장할 수 있도록 하는 주요 단계입니다. 이 단계를 수행할 수 있는 컨텍스트는 [팀 및 비즈니스용 Skype에 대 한 클라우드 통합](cloud-consolidation.md) 의 14 단계를 참조 하세요. 이 예제에서 SipDomain1는 AcquiredCompany입니다. <span>Com 및 SipDomain2는 originalcompany입니다. <span>com
+에지 인증서를 업데이트하는 것은 SipDomain1이 있는 프레미스 환경이 SipDomain2를 사용하여 클라우드 환경에 가입하고 두 SIP 도메인의 공유 주소 공간 환경에서 적절한 라우팅을 보장하기 위한 핵심 단계입니다. 이 단계를 수행할 수 있는 컨텍스트는 Teams 및 비즈니스용 [Skype에](cloud-consolidation.md) 대한 클라우드 통합의 14단계를 참조하세요. 이 예제에서 SipDomain1은 AcquiredCompany입니다. <span> com 및 SipDomain2는 OriginalCompany입니다. <span> com.
 
-온-프레미스 환경의 모든에 지 서버에 있는 인증서의 SAN (주체 대체 이름)은 onmicrosoft를 제외 하 고 순수한 온라인 테 넌 트에 있는 모든 SIP 도메인을 포함 하도록 업데이트 해야 합니다<span> . com 도메인) ("sip. \<도메인> "입니다.  이 예제에서는 sip입니다. OriginalCompany <span>com 사용자를 클라우드로 마이그레이션하기 전에이 단계를 수행 하는 것이 중요 합니다.
+순수 온라인 테넌트에 있는 모든 SIP 도메인(onmicrosoft 제외)을 포함하려면, 모든 에지 환경의 모든 에지 서버에 있는 인증서의 SAN(주체 대체 이름)을 업데이트해야 합니다. <span> com 도메인)을 지정합니다. "sip" 형식입니다. \< domain>".  이 예제에서는 sip입니다. OriginalCompany. <span> com. 이 단계는 사용자를 클라우드로 마이그레이션하기 전에 먼저 해야 합니다.
 
-**단계**
+**단계:**
 
-1.  모든 기존 항목과 클라우드 환경의 모든 SIP 도메인 (onmicrosoft.com 도메인 제외)에 대 한 SAN의 추가 항목을 포함 하는 Edge에 대 한 새 외부에 지 인증서를 가져옵니다 ("SIP. <DomainName>"입니다.
-2.  각에 지 서버에 로컬로 인증서를 설치 하 고 각에 지 서비스에서 Skype에 지 서비스에 할당 합니다.  자세한 단계는 [비즈니스용 Skype 서버 2015의 배포에 지 서비스](https://technet.microsoft.com/library/dn951368.aspx)의 "외부에 지 인터페이스 인증서" 섹션을 참조 하세요.
-3.  각에 지 서버에서에 지 서비스를 다시 시작 합니다. 다음 PowerShell 명령을 사용 하 여 단일 상자에 대해이 작업을 수행할 수 있습니다.
+1.  모든 기존 항목이 있는 에지용 새 외부 에지 인증서와 클라우드 환경의 모든 SIP 도메인(*.onmicrosoft.com 도메인 제외)에 대한 SAN의 추가 항목을 "sip. "의 형태로 <DomainName> 얻습니다.
+2.  인증서를 각 에지 서버에 로컬로 설치하고 각 에지 서비스의 Skype 에지 서비스에 할당합니다.  자세한 단계는 비즈니스용 Skype 서버 [2015의](https://technet.microsoft.com/library/dn951368.aspx)에지 서비스 배포에서 "외부 에지 인터페이스 인증서" 섹션을 참조하세요.
+3.  각 에지 서버에서 에지 서비스를 다시 시작합니다. 다음 PowerShell 명령을 사용하여 단일 상자에 대해 이 작업을 할 수 있습니다.
 
     ```PowerShell
     Stop-CsWindowsService
@@ -47,4 +47,4 @@ ms.locfileid: "41888607"
 
 ## <a name="see-also"></a>참고 항목
 
-[팀 및 비즈니스용 Skype에 대 한 클라우드 통합](cloud-consolidation.md)
+[Teams 및 비즈니스용 Skype를 위한 클라우드 통합](cloud-consolidation.md)

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
-description: CcLegacyServerCertificate cmdlet은 CcCACertificate 갱신 또는 CcServerCertificate cmdlet 갱신을 실행 한 후 중앙 관리 저장소, 중재 서버 및 Edge 서버에서 레거시 서버 인증서를 제거 합니다.
+description: Remove-CcLegacyServerCertificate cmdlet은 CcServerCertificate cmdlet 또는 Renew CcServerCertificate cmdlet을 실행한 후 중앙 관리 저장소, 중재 서버 및 에지 Renew-CcCACertificate 레거시 서버 인증서를 제거합니다.
 ms.openlocfilehash: f3fe17e8c6c559d1a2c8ab14543807f82c4b6813
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,26 +22,26 @@ ms.locfileid: "41824284"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
-CcLegacyServerCertificate cmdlet은 CcCACertificate 갱신 또는 CcServerCertificate cmdlet 갱신을 실행 한 후 중앙 관리 저장소, 중재 서버 및 Edge 서버에서 레거시 서버 인증서를 제거 합니다.
+Remove-CcLegacyServerCertificate cmdlet은 CcServerCertificate cmdlet 또는 Renew CcServerCertificate cmdlet을 실행한 후 중앙 관리 저장소, 중재 서버 및 에지 Renew-CcCACertificate 레거시 서버 인증서를 제거합니다.
   
 ```powershell
 Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}] 
 ```
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>예제 1
+### <a name="example-1"></a>예 1
 
-다음 예제에서는 인증서를 갱신 한 후 중앙 관리 저장소, 중재 서버 및 Edge 서버에 대해 발급 된 레거시 인증서를 제거 합니다.
+다음 예에서는 인증서를 갱신한 후 중앙 관리 저장소, 중재 서버 및 에지 서버에 대해 발급된 레거시 인증서를 제거합니다.
   
 ```powershell
 Remove-CcLegacyServerCertificate
 ```
 
-### <a name="example-2"></a>예제 2
+### <a name="example-2"></a>예 2
 
-다음 예제에서는 인증서를 갱신 한 후 중재 서버와 Edge 서버에 대해 발급 된 인증서를 제거 합니다. 
+다음 예에서는 인증서를 갱신한 후 중재 서버 및 에지 서버에 대해 발급된 인증서를 제거합니다. 
   
 ```powershell
 Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
@@ -52,12 +52,12 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 
 |**매개 변수**|**필수**|**유형**|**설명**|
 |:-----|:-----|:-----|:-----|
-| 역할 <br/> |선택  <br/> |System. Array  <br/> | 클라우드 커넥터 서버 역할의 배열입니다. <br/> |
+| 역할 <br/> |선택  <br/> |System.Array  <br/> | 클라우드 커넥터 서버 역할의 배열입니다. <br/> |
    
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>
 
-없음. CcLegacyServerCertificate cmdlet은 파이프라인 입력을 허용 하지 않습니다.
+없음 이 Remove-CcLegacyServerCertificate cmdlet은 파이프라인된 입력을 허용하지 않습니다.
   
 ## <a name="return-types"></a>반환 형식
 <a name="ReturnTypes"> </a>

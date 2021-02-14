@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
-description: CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업 하 고 사이트 공유 디렉터리 아래의 CA 폴더에 저장 합니다.
+description: 이 Backup-CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업하고 사이트 공유 디렉터리의 CA 폴더에 저장합니다.
 ms.openlocfilehash: 4e12b2349f5834866fc69442fb2947425416fe23
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41803808"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
-CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업 하 고 사이트 공유 디렉터리 아래의 CA 폴더에 저장 합니다.
+이 Backup-CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업하고 사이트 공유 디렉터리의 CA 폴더에 저장합니다.
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -32,12 +32,12 @@ Backup-CcCertificationAuthority
 
 없음
   
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>예제 1
+### <a name="example-1"></a>예 1
 
-다음 예에서는 인증 기관 서비스를 파일에 백업 하 고 사이트 공유 디렉터리 아래의 CA 폴더에 저장 합니다.
+다음 예에서는 인증 기관 서비스를 파일에 백업하고 사이트 공유 디렉터리의 CA 폴더에 저장합니다.
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -46,12 +46,12 @@ Backup-CcCertificationAuthority
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-재해가 발생 했을 때와 동일한 인증서를 사용 하 여 클라우드 커넥터 기기를 다시 배포 하려는 경우 또는 기기를 새 하드웨어로 이동 하려는 경우 인증 기관 백업이 유용할 수 있습니다. 명령이 AD 서버에서 클라우드 커넥터 인증 기관 서비스의 복사본을 "\<SITEROOTDIRECTORY\>\CA\SfB CCE Root. p12"로 저장 합니다.
+인증 기관 백업은 재해 발생 시 동일한 인증서를 사용하여 Cloud Connector 어플라이언스를 다시 재배포하려는 경우 또는 어플라이언스를 새 하드웨어로 이동하려는 경우에 유용할 수 있습니다. 이 명령은 클라우드 커넥터 인증 기관 서비스의 복사본을 AD Server의 \< "SiteRootDirectory \> \CA\SfB CCE Root.p12"에 저장합니다.
   
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>
 
-없음. CcCertificationAuthority cmdlet은 파이프라인 입력을 허용 하지 않습니다.
+없음 이 Backup-CcCertificationAuthority cmdlet은 파이프라인된 입력을 허용하지 않습니다.
   
 ## <a name="return-types"></a>반환 형식
 <a name="ReturnTypes"> </a>

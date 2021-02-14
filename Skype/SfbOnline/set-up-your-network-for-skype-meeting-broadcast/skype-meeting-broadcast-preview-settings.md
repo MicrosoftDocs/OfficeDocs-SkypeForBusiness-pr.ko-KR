@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
-description: 비즈니스용 Skype 고객 미리 보기 프로그램에서는 새 제품 및 기능에 대 한 초기 액세스를 제공 합니다. 이를 통해 조직에서 제공 되는 내용을 한눈에 살펴보고, 자신의 환경에서 새로운 기능을 테스트 하 고, 제품 빌드를 일반 공개로 릴리스하기 전에 의견을 제공할 수 있습니다. 자세한 정보는 비즈니스용 Skype preview를 참조 하세요.
+description: 비즈니스용 Skype 고객 미리 보기 프로그램은 새 제품 및 기능에 대한 초기 액세스를 제공합니다. 이를 통해 조직은 출시 예정을 잘 알 수 있으며, 사용자 환경에서 새로운 기능을 테스트하고, 제품 빌드를 일반에 공개하기 전에 피드백을 제공하게 됩니다. 자세한 내용은 비즈니스용 Skype 미리 보기를 참조하세요.
 ms.openlocfilehash: 7f3550db7259e1606e4ac4e5e4b766c73f61566a
 ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "41769441"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype 모임 브로드캐스트 미리 보기 설정
 
-비즈니스용 Skype 고객 미리 보기 프로그램에서는 새 제품 및 기능에 대 한 초기 액세스를 제공 합니다. 이를 통해 조직에서 제공 되는 내용을 한눈에 살펴보고, 자신의 환경에서 새로운 기능을 테스트 하 고, 제품 빌드를 일반 공개로 릴리스하기 전에 의견을 제공할 수 있습니다. 자세한 정보는 [비즈니스용 Skype preview](https://www.skypepreview.com/)를 참조 하세요.
+비즈니스용 Skype 고객 미리 보기 프로그램은 새 제품 및 기능에 대한 초기 액세스를 제공합니다. 이를 통해 조직은 출시 예정을 잘 알 수 있으며, 사용자 환경에서 새로운 기능을 테스트하고, 제품 빌드를 일반에 공개하기 전에 피드백을 제공하게 됩니다. 자세한 내용은 비즈니스용 [Skype 미리 보기를 참조하세요.](https://www.skypepreview.com/)
 
 ## <a name="related-topics"></a>관련 항목
 [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)

@@ -1,5 +1,5 @@
 ---
-title: 자동화 된 업그레이드 | Skype 비즈니스에서 팀으로 업그레이드
+title: 자동화된 업그레이드| Skype에서 Teams로 업그레이드
 author: serdarsoysal
 ms.author: billkau
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: billkau
 audience: admin
-description: 비즈니스용 Skype에서 팀으로의 자동화 된 업그레이드 개요
+description: 비즈니스용 Skype에서 Teams로의 자동화된 업그레이드 개요
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -25,47 +25,47 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43780657"
 ---
-# <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>비즈니스용 Skype Online에서 Microsoft 팀으로 자동 업그레이드
+# <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>비즈니스용 Skype Online에서 Microsoft Teams로 자동 업그레이드
 
-Microsoft는 소규모 기업을 지원 하기 위해 팀에 게 자동화 된 업그레이드를 제공 하 여 서비스의 2021 년 7 월 31 일 이전에 비즈니스용 Skype Online에서 성공적으로 전환 하도록 합니다. 자동화 된 업그레이드는 고객에 게 필요한 기술 작업 수를 줄여 주며 조직 준비, 사용자 인식, 팀 교육에 더 많은 중점을 둘 수 있도록 합니다.
+Microsoft는 중소기업이 2021년 7월 31일 서비스 사용 중지 이전에 비즈니스용 Skype Online에서 성공적으로 전환할 수 있도록 Teams에 자동 업그레이드를 제공합니다. 자동화된 업그레이드는 고객의 기술 작업 수를 줄이고 조직 준비, 사용자 인식 및 Teams 교육에 더 집중할 수 있도록 합니다.
 
-비즈니스용 Skype에서 Microsoft 팀으로 성공적으로 업그레이드 하려면 기술 및 사용자 준비에 대 한 계획이 필요 합니다. 시작할 준비가 되 면 Microsoft는 비즈니스용 Skype에서 팀으로 성공적으로 이동 하는 데 도움이 되는 핵심 활동과 관련 리소스를 제공 하는 [업그레이드 작업 계획](upgrade-basic.md) 을 제시 합니다.
+비즈니스용 Skype에서 Microsoft Teams로 성공적으로 업그레이드하려면 기술 및 사용자 준비를 계획해야 합니다. 시작할 준비가 됐을 때 Microsoft는 [](upgrade-basic.md) 비즈니스용 Skype에서 Teams로의 성공적인 이동을 구현하기 위한 핵심 권장 활동 및 관련 리소스를 제공하는 업그레이드 작업 계획을 제공합니다.
 
-## <a name="notifications-for-scheduled-customers"></a>예약 된 고객에 대 한 알림
+## <a name="notifications-for-scheduled-customers"></a>예약된 고객에 대한 알림
 
-팀에 게 자동으로 업그레이드할 수 있는 비즈니스용 Skype Online 고객은 예약 된 업그레이드 날짜 이전 30 일 전에 시작 되는 일련의 업그레이드 알림을 받습니다. 이러한 알림은 관리 메시지 센터의 *변경 게시물에 대 한 계획* 으로 제공 되며, 전자 메일을 전역 관리자에 게 업그레이드 하 고, 앱에서 바로 플래그를 최종 사용자에 게 전달 합니다.
+Teams로 자동 업그레이드할 수 있는 비즈니스용 Skype Online 고객은 예약된 업그레이드 날짜 30일 전에 일련의 업그레이드 알림을 받게 됩니다. 이러한 알림은 관리  메시지 센터에서 변경 게시물에 대한 계획으로 전달되고, 전자 메일을 전역 관리자로 업그레이드하고, 앱 내 플래그를 최종 사용자에게 제공합니다.
 
-이러한 알림은 자동화 된 업그레이드의 예정 된 날짜에 연결 되며, 팀의 채택 및 사용을 가능 하 게 하는 데 도움이 되는 업그레이드 리소스 및 교육에 대 한 옵션을 제공 하 고, 고객은 예약 된 날짜를 기준으로 업그레이드할 준비가 되지 않은 경우 30 일이 지난 경우 추가 된 업그레이드를 연기할 수 있습니다.
+이러한 알림은 자동화된 업그레이드의 예약된 날짜를 전달하고, Teams의 채택 및 사용을 도우기 위해 리소스 및 교육에 연결하며, 고객에게 예정된 날짜까지 업그레이드할 준비가 되지 않은 경우 자동화된 업그레이드를 30일 더 연기할 수 있는 옵션을 제공합니다.
 
-## <a name="the-automated-upgrade-experience"></a>자동화 된 업그레이드 환경
+## <a name="the-automated-upgrade-experience"></a>자동화된 업그레이드 환경
 
-자동 업그레이드는 알림 전자 메일, 메시지 센터, 팀 관리자 포털 등에서 통신 하는 예약 된 업그레이드 날짜에서 실행 됩니다. 업그레이드에는 약 15 분이 소요 되며,이 경우 최종 사용자가 비즈니스용 Skype Online 기능에 계속 액세스할 수 있습니다. 업그레이드가 완료 되 고 사용자가 비즈니스용 Skype Online을 로그 아웃 한 경우 사용자는 메시징, 모임, 통화에 대해서만 팀을 사용할 수 있습니다.
+자동 업그레이드는 알림 전자 메일, 메시지 센터 및 Teams 관리 포털에서 전달되는 예약된 업그레이드 날짜에 실행됩니다. 업그레이드하는 데 약 15분이 소요되는 동안 최종 사용자가 비즈니스용 Skype Online 기능에 계속 액세스할 수 있습니다. 업그레이드가 완료된 후 비즈니스용 Skype Online의 사용자 로그아웃이 완료되면 사용자는 메시징, 모임 및 통화에 Teams만 사용할 수 있습니다.
 
 ## <a name="the-post-upgrade-experience"></a>업그레이드 후 환경
 
-자동화 된 업그레이드가 완료 되 면 **공존 모드** 는 팀에만 설정 되며 Microsoft에서 다른 공존 모드로만 변경할 수 있습니다. 관리자는 업그레이드 하기 전에 [팀 전용 모드 고려 사항을](teams-only-mode-considerations.md) 검토 해야 합니다. 아래 표에는 팀 전용 사용자 환경에 대 한 개략적인 수준의 개요가 나와 있습니다.
+자동화된 업그레이드가 완료되면 공존 모드는 Teams로만 설정되고 Microsoft에서 다른 공존 모드로만 변경할 수 있습니다.  관리자는 업그레이드하기 전에 [Teams 전용 모드 고려](teams-only-mode-considerations.md) 사항을 검토해야 합니다. 아래 표에서는 Teams 전용 사용자 환경의 개략적인 개요를 제공합니다.
 
 
 |  |  |
 |---------|---------|
-|**채팅 및 통화**     | <UL><LI>팀에서 모든 통화 및 채팅을 시작 하 고 받을 수 있습니다.<LI>사용자는 비즈니스용 Skype 사용자와 상호 운용 (채팅/통화) 할 수 있습니다.<LI>사용자가 소비자 용 Skype를 사용 하는 사용자와 통신할 수 없음<LI>비즈니스용 Skype에 로그인 하려고 하면 사용자가 팀으로 리디렉션 됨      </UL>  |
-|**모임**     |  <UL><LI>사용자가 팀에서 모든 새 모임을 예약 (플러그인이 교체 됨)    </UL>   |
-|**마이그레이션된 데이터**     |<UL><LI>페더레이션 (메일 그룹 없음)이 포함 된 비즈니스용 Skype의 기존 연락처<LI>기존 비즈니스용 Skype 모임 (온-프레미스 및 online 모두)이 팀 모임으로 변환 됩니다.</UL>         |
+|**채팅 및 통화**     | <UL><LI>Teams에서 모든 통화 및 채팅이 시작 및 수신됩니다.<LI>사용자는 비즈니스용 Skype 사용자와 상호 연결(채팅/통화)할 수 있습니다.<LI>사용자는 소비자용 Skype를 사용하는 사용자와 통신할 수 없습니다.<LI>사용자가 비즈니스용 Skype에 로그인하려고 할 때 Teams로 리디렉션됩니다.      </UL>  |
+|**모임**     |  <UL><LI>사용자가 Teams에서 모든 새 모임 예약(플러그 인 대체)    </UL>   |
+|**마이그레이션된 데이터**     |<UL><LI>페더러드를 포함한 비즈니스용 Skype의 기존 연락처(메일 목록 없음)<LI>기존 비즈니스용 Skype 모임(프레미스 및 온라인 모두)이 Teams 모임으로 변환됩니다.</UL>         |
 
-## <a name="postponing-your-automated-upgrade"></a>자동화 된 업그레이드 연기
+## <a name="postponing-your-automated-upgrade"></a>자동화된 업그레이드 연기
 
-비즈니스용 Skype Online에서 Microsoft 팀으로 전환 하는 경우 조직에서 팀의 확장 된 기능 및 성능을 활용할 수 있도록 기술 계획과 사용자 준비가 필요 합니다. 그러나 업그레이드를 계획할 때 아직 팀으로 업그레이드할 준비가 되지 않은 조직이 있을 수 있습니다.
+비즈니스용 Skype Online에서 Microsoft Teams로 성공적으로 전환하려면 조직이 Teams의 확장된 기능 및 성능을 활용할 준비가 되도록 기술 계획 및 사용자 준비가 요구됩니다. 그러나 업그레이드를 계획할 때 조직이 아직 Teams로 업그레이드할 준비가 되지 않았을 수 있습니다.
 
-팀에 예정 된 자동 업그레이드에 대 한 알림을 받은 경우 나중에 연기 하려는 경우 전역 관리자가 팀 관리자 포털에 로그인 하 고 *연기* 단추를 클릭할 수 있습니다. 이렇게 하면 자동화 된 업그레이드 날짜 30 일이 없어집니다. 연기 후 팀 관리 포털을 새로 고치면 새 자동화 된 업그레이드 날짜를 포함 하는 알림이 표시 됩니다.
+예약된 자동 Teams 업그레이드에 대한 알림을 받고 나중에 연기하려면 전역 관리자가 Teams 관리 포털에 로그인하여 연기 단추를 클릭할 수 *있습니다.* 이렇게 하면 자동화된 업그레이드 날짜 30일이 푸시됩니다. 연기 후 Teams 관리 포털을 새로 고치면 새 자동화된 업그레이드 날짜가 포함된 알림이 표시됩니다.
 
-## <a name="requests-to-downgrade-to-skype-for-business"></a>비즈니스용 Skype로 다운 그레이드 요청
+## <a name="requests-to-downgrade-to-skype-for-business"></a>비즈니스용 Skype로 다운그레이드 요청
 
-팀에서 SfBO으로 일회성 downgrades을 허용 하 여 테 넌 트가 팀의 업그레이드를 더 준비할 수 있도록 합니다. 다운 그레이드 된 테 넌 트가 다운 그레이드 날짜 로부터 60 일 동안 자동으로 업그레이드 되도록 다시 사용 됩니다.
+테넌트가 Teams로의 업그레이드를 추가로 준비할 수 있도록 Teams에서 SfBO로의 일회성 다운그레드를 허용합니다. 다운그레이드된 테넌트는 다운그레이드 날짜로부터 60일 동안 자동 업그레이드에 다시 참여합니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 
 - [Microsoft Teams 업그레이드 시작하기](upgrade-start-here.md)
 - [비즈니스용 Skype Online 단종](skype-for-business-online-retirement.md)
 - [Get-CsTeamsUpgradeStatus](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradestatus?view=skype-ps)
-- [팀 전용 모드 고려 사항](teams-only-mode-considerations.md)
+- [Teams 전용 모드 고려 사항](teams-only-mode-considerations.md)
 

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
-description: 게시-CcAppliance cmdlet는 온라인 테 넌 트 구성에서 높은 가용성 정보를 가져와 호스트 서버의 비즈니스용 Skype 클라우드 커넥터 에디션 기기에 게시 합니다.
+description: 이 Publish-CcAppliance cmdlet은 온라인 테넌트 구성에서 고가용성 정보를 얻었다가 호스트 서버의 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 게시합니다.
 ms.openlocfilehash: 159247614733261cac4b3381e35d8dd297cf9a23
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824314"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
-게시-CcAppliance cmdlet는 온라인 테 넌 트 구성에서 높은 가용성 정보를 가져와 호스트 서버의 비즈니스용 Skype 클라우드 커넥터 에디션 기기에 게시 합니다. 
+이 Publish-CcAppliance cmdlet은 온라인 테넌트 구성에서 고가용성 정보를 얻었다가 호스트 서버의 비즈니스용 Skype 클라우드 커넥터 버전 어플라이언스에 게시합니다. 
   
 ```powershell
 Publish-CcAppliance
@@ -32,12 +32,12 @@ Publish-CcAppliance
 
 없음
   
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>예제 1
+### <a name="example-1"></a>예 1
 
-다음 예제에서는 온라인 테 넌 트 구성에서 높은 가용성 정보를 가져오고 호스트 서버의 클라우드 커넥터 기기에 게시 합니다.
+다음 예에서는 온라인 테넌트 구성에서 고가용성 정보를 확인하여 호스트 서버의 Cloud Connector 어플라이언스에 게시합니다.
   
 ```powershell
 Publish-CcAppliance
@@ -46,12 +46,12 @@ Publish-CcAppliance
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-고가용성 정보에는 PSTN 사이트의 중재 서버 Fqdn 및 IP 주소가 포함 됩니다. 새 DNS 중재 서버 IP 주소에 대 한 레코드가 광고 서버에 추가 됩니다. 새 토폴로지 항목이 중재 서버 Fqdn과 IP 주소에 대 한 중앙 관리 저장소로 업데이트 됩니다. 
+고가용성 정보에는 PSTN 사이트의 중재 서버 FQDN 및 IP 주소가 포함되어 있습니다. 중재 서버 IP 주소에 대한 AD Server에 새 DNS A 레코드가 추가됩니다. 새 토폴로지 항목이 중재 서버 FQDNS 및 IP 주소의 중앙 관리 저장소로 업데이트됩니다. 
   
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>
 
-없음. 게시-CcAppliance cmdlet은 파이프라인 입력을 허용 하지 않습니다.
+없음 이 Publish-CcAppliance cmdlet은 파이프라인된 입력을 허용하지 않습니다.
   
 ## <a name="return-types"></a>반환 형식
 <a name="ReturnTypes"> </a>

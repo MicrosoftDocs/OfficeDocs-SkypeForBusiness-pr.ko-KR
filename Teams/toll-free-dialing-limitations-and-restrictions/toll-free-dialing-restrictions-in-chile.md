@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 사용 가능성, 유선/고정 회선, 모바일 네트워크 가용성, 제한을 포함 하 여 a p a p e-무료 전화 번호를 사용 하는 방법에 대해 알아보세요.
+description: 가용성, 유선/고정 유선 및 모바일 네트워크 가용성 및 제한 사항을 포함하여 칠레의 무료 전화 번호에 대해 자세히 배워야 합니다.
 ms.openlocfilehash: 00aec8e288ca1424eec9754e1f74f9cec9a5e579
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43140477"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>칠레의 무료 전화 걸기 제한
 
-[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.
+[다른 국가 또는 지역을](../toll-free-dialing-limitations-and-restrictions.md)찾거나 무료 전화 걸기 제한 사항 및 제한에 대해 자세히 알아보거나
 
 
 |**세부 정보**|**설명**|
 |:-----|:-----|
-|무료 전화를 받을 수 있나요?  <br/> |예  <br/> |
+|무료 통화를 사용할 수 있나요?  <br/> |예  <br/> |
 |전화 걸기 형식  <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |
 |국가/지역 ISO 코드  <br/> |CL  <br/> |
-|섬/지역 포함  <br/> |해당 사항 없음  <br/> |
-|섬/지역 포함 안 함  <br/> |부활절 군도를 사용할 권한이 없습니다.  <br/> |
-|유선/고정 회선 가용성  <br/> |Partial. 메모를 참조 하세요.  <br/> |
-|모바일 네트워크 가용성  <br/> |Partial. 메모를 참조 하세요.  <br/> |
-|메모, 제한 사항 및 액세스 문제  <br/> |188 800 XXX XXX 숫자 형식에는 지 하 Efonica 네트워크에서 액세스할 수 있습니다. 123 XXXX XXXX number 형식은 Entel network 에서만 액세스할 수 있습니다. 모바일 액세스에는 두 가지 숫자 형식으로 액세스할 수 있습니다.  <br/> |
+|덮여 있는 섬/지역  <br/> |해당 사항 없음  <br/> |
+|섬/지역은 적용되지 않습니다.  <br/> |Easter Islands에서 액세스할 수 없습니다.  <br/> |
+|유선/고정 선 가용성  <br/> |부분. 설명을 참조합니다.  <br/> |
+|모바일 네트워크 가용성  <br/> |부분. 설명을 참조합니다.  <br/> |
+|주석, 제한 사항 및 액세스 문제  <br/> |188 800 XXX XXX 번호 형식은 Telefonica 네트워크에서 액세스할 수 있습니다. 123 XXXX XXXX 번호 형식은 Entel 네트워크에서만 액세스할 수 있습니다. 두 숫자 형식 모두에 대해 모바일 액세스에 액세스할 수 있습니다.  <br/> |
    
 ## <a name="related-topics"></a>관련 항목
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)

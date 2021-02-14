@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
-description: Export-CcRootCertificate cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버의 루트 CA 인증서를 로컬 파일로 내보냅니다.
+description: 이 Export-CcRootCertificate cmdlet은 루트 CA 인증서를 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버의 로컬 파일로 내보낼 수 있습니다.
 ms.openlocfilehash: 2b252eba4688deb790d85b0c3663b09a9e85e7b9
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,18 +22,18 @@ ms.locfileid: "41800918"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  
-Export-CcRootCertificate cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버의 루트 CA 인증서를 로컬 파일로 내보냅니다. 
+이 Export-CcRootCertificate cmdlet은 루트 CA 인증서를 비즈니스용 Skype 클라우드 커넥터 버전 호스트 서버의 로컬 파일로 내보낼 수 있습니다. 
   
 ```powershell
 Export-CcRootCertificate [[-Path] <string>]
 ```
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>예제 1
+### <a name="example-1"></a>예 1
 
-다음 예제에서는 경로 매개 변수를 디렉터리 경로로 설정 합니다 (파일 경로는 아님). 파일 c:\test\CCERootCertificates.p7b.를 생성 합니다.
+다음은 Path 매개 변수를 파일 경로가 아니라 디렉터리 경로로 설정하는 예제입니다. c:\test\CCERootCertificates.p7b 파일을 생성합니다.
   
 ```powershell
 Export-CcRootCertificate -Path "C:\test" 
@@ -42,19 +42,19 @@ Export-CcRootCertificate -Path "C:\test"
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-Export-CcRootCertificate cmdlet을 사용 하면 루트 및 중개 인증서를 파일 경로에 저장할 수 있습니다. 이는 재해 복구 시나리오의 경우 유용할 수 있습니다. 
+이 Export-CcRootCertificate cmdlet을 사용하면 루트 및 중간 인증서를 파일 경로에 저장할 수 있습니다. 이는 재해 복구 시나리오의 경우 유용할 수 있습니다. 
   
 ## <a name="parameters"></a>매개 변수
 <a name="DetailedDescription"> </a>
 
 |**매개 변수**|**필수**|**유형**|**설명**|
 |:-----|:-----|:-----|:-----|
-|패스가  <br/> |필수  <br/> |System.String  <br/> |인증서가 저장 되는 파일 경로입니다.  <br/> |
+|경로  <br/> |필수  <br/> |System.String  <br/> |인증서를 저장할 파일 경로입니다.  <br/> |
    
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>
 
-없음. Export-CcRootCertificate cmdlet은 파이프라인 입력을 허용 하지 않습니다. 
+없음 이 Export-CcRootCertificate cmdlet은 파이프라인된 입력을 허용하지 않습니다. 
   
 ## <a name="return-types"></a>반환 형식
 <a name="ReturnTypes"> </a>
