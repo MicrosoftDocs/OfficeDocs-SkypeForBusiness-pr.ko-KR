@@ -23,16 +23,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800298"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a><span data-ttu-id="c911b-103">Exchange 통합 메시징(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="c911b-103">Exchange Unified Messaging (Planning Tool)</span></span>
+# <a name="exchange-unified-messaging-planning-tool"></a><span data-ttu-id="2b736-103">Exchange 통합 메시징(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="2b736-103">Exchange Unified Messaging (Planning Tool)</span></span>
 
-<span data-ttu-id="c911b-104">비즈니스용 Skype 서버 2015는 음성 메시징 및 전자 메일 메시징을 단일 메시징 인프라로 결합하기 위해 Exchange UM(통합 메시징)과의 통합을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="c911b-104">Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span>
+<span data-ttu-id="2b736-104">비즈니스용 Skype 서버 2015는 음성 메시징 및 전자 메일 메시징을 단일 메시징 인프라로 결합하기 위해 Exchange UM(통합 메시징)과의 통합을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="2b736-104">Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span>
 
-<span data-ttu-id="c911b-105">자세한 내용은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="c911b-105">For details, see:</span></span>
+<span data-ttu-id="2b736-105">자세한 내용은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="2b736-105">For details, see:</span></span>
 
-- [<span data-ttu-id="c911b-106">Exchange 통합 메시징 통합 계획</span><span class="sxs-lookup"><span data-stu-id="c911b-106">Planning for Exchange Unified Messaging Integration</span></span>](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [<span data-ttu-id="2b736-106">Exchange 통합 메시징 통합 계획</span><span class="sxs-lookup"><span data-stu-id="2b736-106">Planning for Exchange Unified Messaging Integration</span></span>](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
 
-- <span data-ttu-id="c911b-107">"통합 메시징" [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span><span class="sxs-lookup"><span data-stu-id="c911b-107">"Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span></span>
+- <span data-ttu-id="2b736-107">"통합 메시징" [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span><span class="sxs-lookup"><span data-stu-id="2b736-107">"Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span></span>
 
-- <span data-ttu-id="c911b-108">"통합 메시징 계획" [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344)</span><span class="sxs-lookup"><span data-stu-id="c911b-108">"Planning for Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).</span></span>
+- <span data-ttu-id="2b736-108">"통합 메시징 계획" [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344)</span><span class="sxs-lookup"><span data-stu-id="2b736-108">"Planning for Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).</span></span>
 
 
