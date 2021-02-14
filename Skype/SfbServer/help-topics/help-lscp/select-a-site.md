@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-description: 사이트 선택 대화 상자를 사용하여 환경에서 사용할 수 있는 사이트를 찾을 수 있습니다. 기존 사이트를 사용하려면 목록에서 사이트를 클릭한 다음 확인을 클릭합니다.
+description: 사이트 선택 대화 상자를 사용하여 환경에서 사용 가능한 사이트를 찾을 수 있습니다. 기존 사이트를 사용하려면 목록에서 사이트를 클릭한 다음 확인을 클릭합니다.
 ms.openlocfilehash: 90fbb178c550e492148703f070e076b7c1c768e9
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

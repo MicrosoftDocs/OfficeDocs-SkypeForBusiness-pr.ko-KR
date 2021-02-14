@@ -35,7 +35,7 @@ ms.locfileid: "49825928"
     
 - 통화를 대기시키고 처음에 응답한 전화기에서 다른 통화 수신
     
-사용자가 통화를 파기하면 비즈니스용 Skype 서버가 통화를 파기할 때 통화가 재개되거나 통화가 시간 외일 때까지 통화가 보전되는 파기 번호라는 임시 번호로 통화를 전송합니다. 비즈니스용 Skype 서버가 통화를 시작한 사용자에게 파인 통화를 전송합니다. 사용자는 통화 번호로 전화를 걸거나 대화 창에서 파선 링크 또는 단추를 클릭할 수 있습니다. 
+사용자가 통화를 파기하면 비즈니스용 Skype 서버가 통화를 파기할 때 통화가 재개되거나 통화가 시간 외일 때까지 통화가 보전되는 파기 번호라는 임시 번호로 통화를 전송합니다. 비즈니스용 Skype 서버가 통화를 시작한 사용자에게 통화 통화를 전송합니다. 사용자는 통화 번호로 전화를 걸거나 대화 창에서 파선 링크 또는 단추를 클릭할 수 있습니다. 
   
 통화를 대기시킨 사용자는 IM(인스턴트 메시징) 또는 호출 시스템과 같은 외부 메커니즘을 사용하여 파킹된 통화 번호를 전달하는 방식으로 다른 사람에게 통화를 재개하도록 알릴 수 있습니다. 또한 통화를 대기시킨 사용자는 통화가 재개된 경우 알림을 받기 위해 대화 창을 열어 둘 수 있습니다.
   
@@ -56,7 +56,7 @@ ms.locfileid: "49825928"
   
 ### <a name="software-requirements"></a>소프트웨어 요구 사항
 
-통화 파운데이션이 배포된 모든 프런트 엔드 서버 및 Standard Edition Server에는 Windows Server 2008 R2를 실행하는 서버에 대해 Windows Media 형식 런타임이 설치되어 있어야 합니다. 또는 Windows Server 2012 또는 Windows Server 2012 R2를 실행하는 서버에는 Microsoft Media Foundation이 설치되어 있어야 합니다. Windows Server 2008 R2의 경우 Windows Media 형식 런타임은 Windows 데스크톱 환경의 일부로 설치됩니다. 통화 파운데이션이 재생하는 Windows Media 오디오(.wma) 파일에는 Windows Media 형식 런타임 또는 Microsoft Media Foundation이 필요합니다.
+통화 파운데이션이 배포된 모든 프런트 엔드 서버 및 Standard Edition Server에는 Windows Server 2008 R2를 실행하는 서버에 대해 Windows Media 형식 런타임이 설치되어 있어야 합니다. 또는 Microsoft Media Foundation for servers for Windows Server 2012 또는 Windows Server 2012 R2를 실행해야 합니다. Windows Server 2008 R2의 경우 Windows Media 형식 런타임은 Windows 데스크톱 환경의 일부로 설치됩니다. 통화 파운데이션이 재생하는 Windows Media 오디오(.wma) 파일에는 Windows Media 형식 런타임 또는 Microsoft Media Foundation이 필요합니다.
   
 ### <a name="port-requirements"></a>포트 요구 사항
 
@@ -122,7 +122,7 @@ ms.locfileid: "49825928"
     
 ## <a name="call-park-capacity-planning"></a>통화 파크 용량 계획
 
-다음 표에서는 용량 계획 요구 사항의 기준으로 사용할 수 있는 통화 파크 사용자 모델에 대해 설명하고 있습니다.
+다음 표에서는 용량 계획 요구 사항의 기준으로 사용할 수 있는 통화 파크 사용자 모델에 대해 설명합니다.
   
 > [!IMPORTANT]
 > 재해 복구 용량 계획을 위해 페어링된 풀의 각 풀은 두 풀 모두에서 통화 파크 서비스에 대한 작업을 처리할 수 있습니다. 

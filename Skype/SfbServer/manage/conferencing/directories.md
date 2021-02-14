@@ -38,7 +38,7 @@ ms.locfileid: "49828138"
   <conference number (variable number of digits><check digit (1 digit)>
 ```
 
-회의 디렉터리를 만들 경우 **New-CsConferenceDirectory** cmdlet을 사용 합니다. 예를 들어 다음 명령은 ID가 42인 전화 회의 디렉터리를 만듭니다. 이 디렉터리는 풀에서 atl-cs-001.litwareinc.com.
+회의 디렉터리를 만들 경우 **New-CsConferenceDirectory** cmdlet을 사용 합니다. 예를 들어 다음 명령은 ID가 42인 전화 회의 디렉터리를 만들고 풀에서 호스트되는 atl-cs-001.litwareinc.com.
   
 ```PowerShell
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"

@@ -27,7 +27,7 @@ ms.locfileid: "49825968"
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Windows Phone용 비즈니스용 Skype에 대한 시스템 요구 사항
  
  
-Windows Phone용 Microsoft 비즈니스용 Skype는 스마트폰 또는 Windows Professional 모바일 장치에서 연결하는 조직의 사용자를 위해 IM(인스턴트 메시징), 현재 상태 및 전화 통신을 제공합니다. 모바일 장치를 통해 사용자는 비즈니스용 Skype의 도달을 확장할 수 있습니다. 이 항목에서는 필수 구성 요소 및 기술 요구 사항, 필수 구성 요소 및 배포 지침을 식별하는 등 Windows Phone용 비즈니스용 Skype에 대한 계획 고려 사항에 대해 설명합니다.
+Windows Phone용 Microsoft 비즈니스용 Skype는 스마트폰 또는 Windows Professional 모바일 장치에서 연결하는 조직의 사용자를 위해 IM(인스턴트 메시징), 현재 상태 개선 및 전화 통신을 제공합니다. 모바일 장치를 통해 사용자는 비즈니스용 Skype의 도달을 확장할 수 있습니다. 이 항목에서는 필수 구성 요소 및 기술 요구 사항, 필수 구성 요소 및 배포 지침을 식별하는 등 Windows Phone용 비즈니스용 Skype에 대한 계획 고려 사항에 대해 설명합니다.
   
 ## <a name="skype-for-business-for-windows-phone-prerequisites"></a>Windows Phone용 비즈니스용 Skype 사전 준비
 

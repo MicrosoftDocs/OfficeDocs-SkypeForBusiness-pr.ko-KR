@@ -154,7 +154,7 @@ Usage     : Verify
 Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 ```
 
-인증서를 할당하는 것 외에도 Exchange Online 서비스 사용자 및 비즈니스용 Skype 서버 외부 웹 서비스 URL의온-프레미스 버전을 Microsoft 365 또는 Office 365 서비스 사용자로 구성해야 합니다. 이 경우 다음 두 명령을 실행하면 됩니다. 
+인증서를 할당하는 것 외에도 Exchange Online 서비스 사용자 및 비즈니스용 Skype 서버 외부 웹 서비스 URL의온-프레미스 버전을 Microsoft 365 또는 Office 365 서비스 사용자로 구성해야 합니다. 이 명령은 다음 두 명령을 수행하여 수행될 수 있습니다. 
 
 다음 예제에서는 Pool1ExternalWebFQDN.contoso.com 비즈니스용 Skype 서버 풀의 외부 웹 서비스 URL입니다. 이러한 단계를 반복하여 배포의 모든 외부 웹 서비스 URL을 추가해야 합니다.
 

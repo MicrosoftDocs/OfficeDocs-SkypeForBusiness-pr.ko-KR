@@ -38,7 +38,7 @@ ms.locfileid: "49827518"
 
 [Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlet을 사용하여 이전에 정의된 SBC(세션 테두리 컨트롤러) 구성을 수정하거나 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet을 사용하여 **GenerateRingingWhileLocatingUser** 매개 변수와 함께 새 SBC 구성을 만들어 벨소리 봇을 구성합니다.
 
-- 링백 봇을 켜기 위해 **GenerateRingingWhileLocatingUser** 매개 변수를 **$True.** 기본값입니다. 
+- Ringback 봇을 켜기 위해 **GenerateRingingWhileLocatingUser** 매개 변수를 **$True.** 기본값입니다. 
 
 - Ringback 봇을 끄기 위해 **GenerateRingingWhileLocatingUser** 매개 변수를 **$False.** 
 

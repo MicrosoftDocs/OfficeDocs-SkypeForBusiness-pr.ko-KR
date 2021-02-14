@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: 비즈니스용 Skype 서버의 지원되는 통화 관리 기능 개요 Enterprise Voice.
+description: 비즈니스용 Skype 서버 2016의 지원되는 통화 관리 기능 Enterprise Voice.
 ms.openlocfilehash: 506ffa9dca87544be8798f2bf98dc6a24cb2d7c9
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "49825948"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>비즈니스용 Skype의 통화 관리 기능 계획
 
-비즈니스용 Skype 서버의 지원되는 통화 관리 기능 개요 Enterprise Voice.
+비즈니스용 Skype 서버 2016의 지원되는 통화 관리 기능 Enterprise Voice.
 
 Enterprise Voice 통화 관리 기능은 수신 전화를 라우팅하고 받는 방법을 제어합니다. 비즈니스용 Skype 서버는 다음과 같은 통화 관리 기능을 제공합니다.
 

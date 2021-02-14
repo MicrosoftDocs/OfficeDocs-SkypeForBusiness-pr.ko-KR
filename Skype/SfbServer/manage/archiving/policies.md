@@ -33,7 +33,7 @@ ms.locfileid: "49828554"
 보관 정책은 전역, 사이트 또는 사용자 수준에서 설정할 수 있습니다.
   
 > [!NOTE]
-> 배포에 Microsoft Exchange 통합을 사용하도록 설정한 경우 Exchange 정책은 Exchange에 있는 사용자에 대해 보관을 사용할 수 있는지 여부를 제어하고 사서함을 보류로 In-Place 제어합니다. 자세한 내용은 비즈니스용 Skype 서버의 보관 계획 및 비즈니스용 [Skype](../../plan-your-deployment/archiving/archiving.md) 서버용 Exchange 저장소와의 통합 [구성을 참조하세요.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> 배포에 Microsoft Exchange 통합을 사용하도록 설정한 경우 Exchange 정책은 Exchange에 있는 사용자에 대해 보관을 사용할 수 있는지 여부를 제어하고 사서함을 보류로 In-Place 제어합니다. 자세한 내용은 비즈니스용 Skype 서버에서 보관 계획 및 비즈니스용 [Skype](../../plan-your-deployment/archiving/archiving.md) 서버용 Exchange 저장소와의 통합 [구성을 참조하세요.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>제어판을 사용하여 보관 정책 관리
 

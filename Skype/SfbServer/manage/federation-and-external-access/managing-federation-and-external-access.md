@@ -48,7 +48,7 @@ ms.locfileid: "49826608"
 
 **도메인의 내부 및 외부 사용자가 인스턴트 메시징, 웹 회의 및 오디오/비디오를 사용하여 공동 작업을 할 수 있도록 하려는 경우**
 
-원격 사용자 액세스 제어를 위한 [](external-access-policies/configure-policies-to-control-remote-user-access.md)정책 구성 항목에서 자세히 설명한 설정을 구성하고 페더ation 및 공용 IM 연결을 사용 또는 사용하지 않도록 [설정합니다.](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+원격 사용자 액세스 제어를 위한 [](external-access-policies/configure-policies-to-control-remote-user-access.md)정책 구성 항목에서 자세히 설명한 설정을 구성하고 페더ation 및 공용 IM 연결을 사용하도록 설정하거나 사용하지 않도록 [설정합니다.](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
 **배포의 사용자가 호스팅하는 회의에 익명 사용자가 참가하고 초대를 하도록 허용할지 여부**
 
@@ -67,7 +67,7 @@ ms.locfileid: "49826608"
 
 에서 페더링 파트너에게 보관 고지 사항을 보내거나 보내지 않도록 설정 항목에 자세히 설명된 설정을 [구성합니다.](access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
-**사용자가 공용 공급자와 통신할 수 있도록 하는 SIP 페더리트 공급자와 통신하도록 허용할지 여부**
+**사용자가 공용 공급자와 통신할 수 있도록 하는 SIP 페더리트 공급자와 통신할 수 있도록 허용할지 여부**
 
 이 항목에서 자세히 설명하는 [](external-access-policies/configure-policies-to-control-public-user-access.md)설정을 구성하여 공용 사용자 액세스를 제어하고, 페더ation [및 공용 IM](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)연결을 사용 또는 사용하지 않도록 설정하고, 공용 SIP 페더티드 공급자를 만들거나 편집합니다. [](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
 

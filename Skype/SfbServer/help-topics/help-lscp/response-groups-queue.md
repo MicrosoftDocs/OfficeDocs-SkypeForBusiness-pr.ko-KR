@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
-description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다.
+description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성됩니다. 응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보유합니다.
 ms.openlocfilehash: 13d680236f646e7aec3e0b0a39b3b827a34ce46f
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "49829308"
 
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
-응답 그룹 큐 페이지에서 다음 **작업을 수행할**  -  **수** 있습니다.
+응답 그룹 큐 페이지에서는 다음 **작업을 수행할**  -  **수** 있습니다.
 
 - 새 큐 만들기
 
@@ -56,6 +56,6 @@ ms.locfileid: "49829308"
 
 - **설명** 큐에 대한 설명입니다.
 
-응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 비즈니스용 [Skype 서버 2015의](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 응답 그룹 응용 프로그램 계획을 참조하십시오. 응답 그룹 큐 사용에 대한 자세한 내용은 작업 설명서에서 [응답](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) 그룹 큐 관리를 참조하십시오.
+응답 그룹 기능에 대한 자세한 내용은 계획 설명서에서 비즈니스용 [Skype 서버 2015의](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 응답 그룹 응용 프로그램 계획을 참조하십시오. 응답 그룹 큐 사용에 대한 자세한 [](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) 내용은 작업 설명서에서 응답 그룹 큐 관리를 참조하십시오.
 
 

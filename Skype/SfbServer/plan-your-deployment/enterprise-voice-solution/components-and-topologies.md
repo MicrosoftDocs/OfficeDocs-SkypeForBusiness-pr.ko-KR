@@ -29,7 +29,7 @@ MPLS 네트워크, SIP 트렁크 또는 타사 PSTN 게이트웨이 또는 PBX�
 
 이 섹션의 항목에서는 다양한 네트워크 토폴로지 유형으로 CAC(통화 허용 제어)를 배포할 때의 특별 고려 사항에 대한 정보를 제공합니다.
 
-## <a name="call-admission-control-on-an-mpls-network"></a>MPLS 네트워크의 통화 입장 제어
+## <a name="call-admission-control-on-an-mpls-network"></a>MPLS 네트워크의 통화 액세스 제어
 
 MPLS(Multiprotocol Label Switching) 네트워크에서는 모든 사이트가 풀 메쉬로 연결됩니다. 즉, 모든 사이트가 인터넷 서비스 공급자의 MPLS 백본에 직접 연결되며 각 사이트에는 MPLS 클라우드에 대한 WAN 링크에 사용할 대역폭이 프로비전됩니다. IP 라우팅을 제어하는 네트워크 허브 또는 중앙 사이트는 없습니다. 다음 그림에서는 MPLS 기술을 기반으로 하는 간단한 네트워크를 보여 줍니다.
 
@@ -64,7 +64,7 @@ SIP 트렁크에 CAC를 구성하려면 CAC 배포 중에 다음 작업을 수�
 
 3. ITSP에서 SCB(Session Border Controller) 미디어 종료 지점의 IP 주소를 얻습니다. 해당 IP 주소(서브넷 마스크 32 포함)를 ITSP를 나타내는 네트워크 사이트에 추가합니다. 자세한 내용은 [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)을 참조하십시오.
 
-## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>타사 PSTN 게이트웨이 또는 PBX를 사용하여 통화 제어
+## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>타사 PSTN 게이트웨이 또는 PBX를 사용하여 통화 입장 제어
 
 이 항목에서는 중재 서버의 게이트웨이 인터페이스와 타사 PSTN(Public Switched Telephone Network) 게이트웨이 또는 PBX(Private Branch Exchange) 간의 링크에 CAC(통화 제어)를 배포하는 방법의 예를 설명합니다.
 
@@ -101,7 +101,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 ![사례 2: 중재 서버 PBX와 MTP 간의 CAC](../../media/CAC_gateways_2.jpg)
 
-이 예에서 CAC는 중재 서버와 PBX/MTP 간에 적용됩니다. 네트워크 사이트 1의 비즈니스용 Skype 클라이언트 사용자가 네트워크 사이트 2에 있는 PBX/MTP를 통해 PSTN 통화를 걸면 미디어가 WAN 링크를 통과합니다. 따라서 각 PSTN 세션에 대해 두 번의 CAC 확인이 수행됩니다.
+이 예에서 CAC는 중재 서버와 PBX/MTP 간에 적용됩니다. 네트워크 사이트 1의 비즈니스용 Skype 클라이언트 사용자가 네트워크 사이트 2에 있는 PBX/MTP를 통해 PSTN 통화를 걸면 미디어가 WAN 링크를 통해 흐르게 됩니다. 따라서 각 PSTN 세션에 대해 두 번의 CAC 확인이 수행됩니다.
 
 - 비즈니스용 Skype 클라이언트 응용 프로그램과 중재 서버 간
 

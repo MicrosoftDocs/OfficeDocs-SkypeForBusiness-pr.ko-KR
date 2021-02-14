@@ -71,7 +71,7 @@ ms.locfileid: "49827018"
   - 보관 데이터를 내보냈을 때 제거(Microsoft Exchange 통합을 사용하도록 설정한 경우 Exchange에 업로드된 데이터 포함)
     
     > [!NOTE]
-    > Microsoft Exchange 통합을 사용하도록 설정하는 경우 Exchange 2013에 있는 사용자 및 사서함이 In-Place 제거는 Exchange에서 제어합니다. 유일한 예외는 Lync Server 파일 공유에 저장된 회의 파일에 대한 것입니다. 이러한 파일은 보관 데이터를 내보낸 후 데이터를 삭제하는 옵션을 선택하는 경우에는 파일을 내보내 해당 파일이 Exchange에 업로드된 후에, 그리고 최대 보존 기간(일)을 지정하는 경우에는 지정된 최대 기간(일) 후에 파일 공유에서 삭제됩니다. 
+    > Microsoft Exchange 통합을 사용하도록 설정하는 경우 Exchange 2013에 있는 사용자 및 사서함이 In-Place 제거는 Exchange에서 제어합니다. 단, Lync Server 파일 공유에 저장되는 회의 파일의 경우는 예외입니다. 이러한 파일은 보관 데이터를 내보낸 후 데이터를 삭제하는 옵션을 선택하는 경우에는 파일을 내보내 해당 파일이 Exchange에 업로드된 후에, 그리고 최대 보존 기간(일)을 지정하는 경우에는 지정된 최대 기간(일) 후에 파일 공유에서 삭제됩니다. 
   
-Exchange 통합을 비롯한 보관 기능에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015의](../../plan-your-deployment/archiving/archiving.md)보관 계획, 비즈니스용 Skype 서버 [2015용](../../deploy/deploy-archiving/deploy-archiving.md)보관 배포 및 비즈니스용 Skype 서버 [2015의](../../manage/archiving/archiving.md)보관 관리 기능을 참조하세요.
+Exchange 통합을 비롯한 보관 기능에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015의](../../plan-your-deployment/archiving/archiving.md)보관 계획, 비즈니스용 Skype 서버 [2015용](../../deploy/deploy-archiving/deploy-archiving.md)보관 배포 및 비즈니스용 Skype 서버 [2015의](../../manage/archiving/archiving.md)보관 관리를 참조하세요.
 

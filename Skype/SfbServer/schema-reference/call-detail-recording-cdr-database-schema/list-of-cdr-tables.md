@@ -96,7 +96,7 @@ CDR(통화 정보 기록) 데이터베이스 스키마는 다음과 같은 테�
 
 |**표**|**설명**|
 |:-----|:-----|
-|[비즈니스용 Skype 서버의 위치 테이블](locations.md) <br/> |E9-1-1(Enhanced 9-1-1) 통화와 같은 각 긴급 통화에 대해서는 통화에 대한 위치 정보를 저장합니다. 통화 시작/종료 시간 및 응답 코드에 대한 [SessionDetails](sessiondetails.md) 테이블을 참조합니다. <br/> |
+|[비즈니스용 Skype 서버의 Locations 테이블](locations.md) <br/> |E9-1-1(Enhanced 9-1-1) 통화와 같은 각 긴급 통화에 대해서는 통화에 대한 위치 정보를 저장합니다. 통화 시작/종료 시간 및 응답 코드에 대한 [SessionDetails](sessiondetails.md) 테이블을 참조합니다. <br/> |
    
 > [!NOTE]
 > 이 테이블에는 E9-1-1 통화에 대한 위치 BLOB만 포함됩니다. 통화에 대한 다른 세부 정보는 SessionDetails 테이블을 참조하십시오. 

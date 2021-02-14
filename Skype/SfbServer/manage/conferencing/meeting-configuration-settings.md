@@ -23,7 +23,7 @@ ms.locfileid: "49828088"
  
 **요약:** 비즈니스용 Skype 서버에서 모임 구성 설정을 관리하는 방법을 확인합니다.
   
-이 항목에서는 모임 구성 설정을 관리하는 방법에 대해 설명합니다. 회의를 계획 및 배포하는 방법에 대한 자세한 내용은 비즈니스용 [Skype](../../plan-your-deployment/conferencing/conferencing.md) 서버의 회의 계획 및 비즈니스용 Skype 서버에서 회의 배포를 [참조하세요.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+이 항목에서는 모임 구성 설정을 관리하는 방법에 대해 설명합니다. 회의를 계획 및 배포하는 방법에 대한 자세한 내용은 비즈니스용 [Skype](../../plan-your-deployment/conferencing/conferencing.md) 서버에서 회의 계획 및 비즈니스용 Skype 서버에서 회의 배포를 [참조하세요.](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
 모임 구성 설정은 익명 사용자 및 전화 접속 회의 사용자가 이러한 모임에 참가할 수 있는 방법(또는 사용자라도)을 제어하는 것 외에도 사용자가 만들 수 있는 모임 유형을 제어합니다. 이러한 설정은 예약된 모임에만 영향을 미치게 됩니다. 비즈니스용 Skype에서 모임 시작 옵션을 클릭하여 만든 Ad-Hoc 모임에는 영향을 주지 않습니다.
   

@@ -30,10 +30,10 @@ ms.locfileid: "49826018"
   
 비즈니스용 Skype 서버를 구현한 후 조직의 사용자에게는 배포 프로세스의 일부로 비즈니스용 Skype 클라이언트가 설치될 수 있습니다. 
   
-나중에 이러한 사용자는 모임을 만들고 조직 외부에서 사용자를 초대할 수 있으며, 해당 모임 초대에 비즈니스용 Skype 클라이언트 버전이 없는 것일 수 있습니다. 이러한 사용자가 모임 초대 URL을 클릭하면 클라이언트 부족이 감지되고 비즈니스용 Skype 클라이언트가 없는 초대자는 모임에 참가할 수 있도록 경량의 모임 전용 클라이언트를 다운로드하여 설치하도록 요청됩니다.
+나중에 이러한 사용자는 모임을 만들고 조직 외부의 사용자를 초대할 수 있으며, 해당 모임 초대에 비즈니스용 Skype 클라이언트 버전이 없는 것일 수 있습니다. 이러한 사용자가 모임 초대 URL을 클릭하면 클라이언트 부족이 감지되고 비즈니스용 Skype 클라이언트가 없는 초대자는 모임에 참가할 수 있도록 경량의 모임 전용 클라이언트를 다운로드하여 설치하도록 요청됩니다.
   
 > [!NOTE]
-> 비즈니스용 Skype Web App 및 Skype 모임 앱은 비즈니스용 Skype 없이 모임에 로그인하려고 할 때만 사용할 수 있습니다. 이러한 앱에 대한 사용자 도움말은 [https://aka.ms/smahelp](https://aka.ms/smahelp) 다음에 있습니다. 
+> 비즈니스용 Skype Web App 및 Skype 모임 앱은 비즈니스용 Skype 없이 모임에 로그인하려고 할 때만 사용할 수 있습니다. 이러한 앱에 대한 사용자 도움말이 [https://aka.ms/smahelp](https://aka.ms/smahelp) 있습니다. 
   
 > [!NOTE]
 > 비즈니스용 Skype Web App 또는 Skype 모임 앱을 사전 설치할 수 [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) 없지만 [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) 스마트폰 및 태블릿 사용자는 모임에 참석하는 데 사용할 수 있는 저렴한 모바일 클라이언트를 설치할 수 있습니다.
@@ -56,14 +56,14 @@ Skype 모임 앱은 앱을 다운로드 및 설치하고 모임에 참가할 수
 
 | 운영 체제 | Edge | 32비트 및 64비트 Internet Explorer 11 이상 | 32비트 및 64비트 Internet Explorer 10 이상 | 32비트 및 64비트 Internet Explorer 9 이상 | 32비트 및 64비트 버전의 Safari 6.2.8 - 11.X | 32비트 및 64비트 버전의 Chrome 18.X 이상 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
+|Windows 10  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |해당 없음  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음 <br/> |예 &#x2778; <br/> |
 |Windows 8(Intel 기반) &#x2776; <br/> |해당 없음  <br/> |해당 없음  <br/> |예  <br/> |해당 없음 <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
 |Windows 7 SP1 &#x2777; <br/> |해당 없음  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |해당 없음 <br/>|예 &#x2778; <br/> |
 |Windows Server 2008 R2 SP1 &#x2777; <br/> |해당 없음  <br/> |예  <br/> |예  <br/> |예  <br/> |해당 없음 <br/>|예 &#x2778; <br/> |
 |macOS 10.8 이상(Intel 기반) &#x2777; <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예  <br/> |예 <br/> |
    
-&#x2776; Skype 웹앱 브라우저 플러그 인을 사용하려면 컴퓨터 기반 음성, 비디오, 공유 및 지속적인 화면 공유 및 기타 기능을 보기 위해 특정 공유 플러그 인이 필요합니다. 모임 참석자에는 모임에 참가하거나 이러한 기능 중 하나를 시작할 때 공유 플러그 인을 설치할 수 있는 옵션이 제공됩니다. Windows 8 및 Windows 8.1에서 데스크톱용 Internet Explorer 10 또는 Internet Explorer 11을 실행하는 경우 공유 플러그 인을 설치할 수 있습니다. 이러한 기능은 데스크톱이 아닌 10 및 Internet Explorer 사용할 수 없습니다. Firefox 및 Safari 버전 12.0 이상은 더 이상 지원되지 않습니다.
+&#x2776; Skype 웹앱 브라우저 플러그 인을 사용하려면 컴퓨터 기반 음성, 비디오, 공유 및 지속적인 화면 공유 및 기타 기능을 사용하려면 특정 공유 플러그 인이 필요합니다. 모임 참석자에는 모임에 참가하거나 이러한 기능 중 하나를 시작할 때 공유 플러그 인을 설치할 수 있는 옵션이 제공됩니다. Windows 8 및 Windows 8.1에서 데스크톱용 Internet Explorer 10 또는 Internet Explorer 11을 실행하는 경우 공유 플러그 인을 설치할 수 있습니다. 이러한 기능은 데스크톱이 아닌 버전의 Internet Explorer 및 11에서는 사용할 수 없습니다. Firefox 및 Safari 버전 12.0 이상은 더 이상 지원되지 않습니다.
   
 &#x2777; 지원되는 Windows 7, Windows Server 2008 R2 및 Macintosh 운영 체제에서는 컴퓨터 기반 음성, 비디오, 응용 프로그램 보기, 응용 프로그램 공유, 데스크톱 보기 및 데스크톱 공유를 비롯한 모든 기능을 사용할 수 있습니다. 이러한 기능을 사용하려면 메시지가 표시될 때 플러그 인을 설치해야 합니다. Mac OS X 버전 10.7은 더 이상 지원되지 않습니다.  또한 웹 앱은 OS X 10.15 이상에 설치되지 않습니다.  앞으로 익명 가입 시나리오를 지원하는 Mac용 비즈니스용 Skype의 최신 버전을 사용하는 것이 좋습니다.
   
@@ -152,11 +152,11 @@ Mac용 비즈니스용 Skype는 macOS 버전 10.8 이상을 사용하는 컴퓨�
     
 - 일부 사용자는 앱을 설치할 수 있는 권한이 비활성화된 회사에서 관리하는 컴퓨터를 사용할 수 있습니다. 이러한 사용자의 경우 두 앱 모두 [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) 옵션이 아니며, 스마트폰 및 태블릿 사용자는 모임에 참석하는 데 사용할 수 있는 저렴한 모바일 클라이언트를 설치할 수 있습니다. [](https://products.office.com/skype-for-business/download-app?tab=tabs-2)
     
-    기타 설치 문제도 도움말 [항목에서 다를 수 있습니다.](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US) 
+    기타 설치 문제도 도움말 항목에서 [다를 수 있습니다.](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US) 
     
 - 모임 앱을 처음 실행할 때 방화벽 경고가 표시될 수 있습니다. 환경을 최적화하기 위해 포트를 열지 묻는 메시지가 표시될 수 있으며, 이 경우 사용할 수 없는 컴퓨터의 관리자 권한이 필요할 수 있습니다. 앱이 계속 작동해야 합니다. 사용자는 요청된 포트 열기를 안전하게 거부할 수 있습니다. 
     
-- IE가 [ActiveX 브라우저가](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) 아니어도 Internet Explorer 필터링하지 않고 이 기능을 사용하도록 설정해야 합니다. 비즈니스용 Skype Web App에서는 오디오ActiveX 비디오 및 화면 공유를 위해 웹 앱이나 다른 프로그램에 추가 기능을 추가하는 작은 모듈인 앱 컨트롤이 필요합니다.
+- IE가 [ActiveX 브라우저가](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) 아니어도 Internet Explorer 필터링하지 않고 이 기능을 사용하도록 설정해야 합니다. 비즈니스용 Skype Web App에서는 오디오ActiveX 비디오 및 화면 공유를 위해 웹 앱 또는 다른 프로그램에 추가 기능을 추가하는 작은 모듈인 앱 컨트롤이 필요합니다.
     
 - 비즈니스용 Skype Web App의 일부 기능이 제대로 작동하려면 [](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) 브라우저에서 컴퓨터 또는 장치에 쿠키를 저장하도록 허용해야 합니다.
     
@@ -164,7 +164,7 @@ Mac용 비즈니스용 Skype는 macOS 버전 10.8 이상을 사용하는 컴퓨�
     
 ### <a name="aes-support"></a>AES 지원 
 
-비즈니스용 Skype 서버 2015 CU5부터는 ASP.NET 4.6에 대해 AES가 지원되지 않습니다. 이로 인해 Skype 모임 앱이 시작되지 않을 수 있습니다. [ASP .NET 4.5로](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) 인한 암호화 요구 사항에 대한 자세한 정보가 있습니다.
+비즈니스용 Skype 서버 2015 CU5부터는 ASP.NET 4.6에 대해 AES가 지원되지 않습니다. 이로 인해 Skype 모임 앱이 시작되지 않을 수 있습니다. [ASP .NET 4.5로](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) 인한 암호화 요구 사항에는 자세한 정보가 있습니다.
   
 ## <a name="see-also"></a>참고 항목
 <a name="BKMK_Conferencing"> </a>

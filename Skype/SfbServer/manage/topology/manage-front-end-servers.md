@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: '요약: 비즈니스용 Skype 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트하는 방법을 설명하는 정보를 제공합니다.'
+description: '요약: 비즈니스용 Skype 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트하는 방법을 설명하는 문서입니다.'
 ms.openlocfilehash: 16af245b3c49b21309edd3ee2843f2585814ce9e
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -54,7 +54,7 @@ ms.locfileid: "49826328"
     > 토폴로지의 풀에 서버를 추가하거나 제거한 다음 업데이트된 토폴로지 게시하면 풀의 모든 서버가 동시에 다시 시작됩니다. 서버가 풀을 다시 시작하는 동안에는 풀이 오프라인 상태이면 해당 풀에 연결된 사용자의 서비스가 중단됩니다. 사용자에게 서비스가 중단되지 않도록 방지하기 위해 업무 시간 이외 시간에 풀에 새 서버와 함께 토폴로지 게시를 계획합니다. 
   
   > [!NOTE]
-> 또한 풀에 서버를 추가하거나 제거할 때 추가되거나 제거된 각 컴퓨터에서 비즈니스용 Skype 서버 배포 마법사를 실행해야 합니다. 자세한 내용은 토폴로지의 서버에 [비즈니스용 Skype 서버 설치를 참조하세요.](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+> 또한 풀에 서버를 추가하거나 제거할 때 추가되거나 제거된 각 컴퓨터에서 비즈니스용 Skype 서버 배포 마법사를 실행해야 합니다. 자세한 내용은 토폴로지의 서버에 비즈니스용 [Skype 서버 설치를 참조하세요.](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
 4. 다음과 같은 방법으로 프런트 엔드 풀의 서버 수를 변경한 경우 -ResetType FullReset -PoolFqdn과 같은 cmdlet을 입력하여 Reset-CsPoolRegistrarState 풀을 다시 설정하십시오. 
     
@@ -62,7 +62,7 @@ ms.locfileid: "49826328"
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
-     - 2에서 모든
+     - 2 ~ 모든
     
      - 2개까지
     

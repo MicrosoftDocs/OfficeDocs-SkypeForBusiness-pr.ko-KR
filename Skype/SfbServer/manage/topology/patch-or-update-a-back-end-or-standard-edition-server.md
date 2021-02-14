@@ -21,7 +21,7 @@ ms.locfileid: "49826308"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 백 엔드 서버 또는 Standard Edition 서버 패치 또는 업데이트
  
-**요약:** 비즈니스용 Skype 서버에서 백 엔드 서버에 업데이트 또는 패치를 설치하는 방법을 자세히 알아보습니다.
+**요약:** 비즈니스용 Skype 서버에서 백 엔드 서버에 업데이트 또는 패치를 설치하는 방법을 자세히 알아보고,
   
 이 항목에서는 Enterprise Edition 백 엔드 서버 또는 Standard Edition 서버에 업데이트를 설치하는 방법을 설명합니다.
   

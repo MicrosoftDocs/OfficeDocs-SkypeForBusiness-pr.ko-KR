@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: '요약: 비즈니스용 Skype 서버에서 QoE 데이터의 보존을 지정하는 방법을 설명하는 정보를 제공합니다.'
+description: '요약: 비즈니스용 Skype 서버에서 QoE 데이터 보존을 지정하는 방법을 설명하는 방법을 제공합니다.'
 ms.openlocfilehash: 18776e9b8eec9dcff6ced9f654d8153d7fa01777
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -48,7 +48,7 @@ QoE(체감 품질) 데이터는 기본적으로 60일 후에 삭제됩니다. **
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Cmdlet을 사용하여 QoE Windows PowerShell 지정
 
-QoE 보존 설정은 Windows PowerShell **Set-CsQoEConfiguration** cmdlet을 사용하여 만들 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸의 원격 세션에서 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+QoE 보존 설정은 Windows PowerShell **Set-CsQoEConfiguration** cmdlet을 사용하여 만들 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>특정 위치에 대한 QoE 보존을 지정하려면
 

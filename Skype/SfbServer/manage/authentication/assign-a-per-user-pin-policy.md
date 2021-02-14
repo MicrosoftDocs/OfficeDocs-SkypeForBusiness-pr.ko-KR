@@ -92,7 +92,7 @@ ms.locfileid: "49828528"
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>여러 사용자에게 사용자당 PIN 정책을 할당하기 위해
 
-- 다음 명령은 Redmond 시에서 일하는 모든 사용자에게 사용자당 PIN 정책 RedmondUsersPinPolicy를 할당합니다. 이 명령에 사용된 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)
+- 다음 명령은 Redmond 시에서 작업하는 모든 사용자에게 사용자당 PIN 정책 RedmondUsersPinPolicy를 할당합니다. 이 명령에 사용된 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser를 참조합니다.](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)
     
   ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"

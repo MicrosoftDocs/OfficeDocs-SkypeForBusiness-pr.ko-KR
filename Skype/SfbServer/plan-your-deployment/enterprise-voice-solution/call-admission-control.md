@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버의 통화 요금제 계획
+title: 비즈니스용 Skype 서버의 통화 수당 제어 계획
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -24,11 +24,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49825958"
 ---
-# <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 통화 요금제 계획
+# <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 통화 수당 제어 계획
 
 비즈니스용 Skype 서버 2016에서 통화가 미디어 품질이 낮은 경우 통화가 걸러지지 않도록 방지할 수 있는 통화 Enterprise Voice.
 
-전화 통신, 비디오 및 응용 프로그램 공유와 같은 IP 기반 응용 프로그램의 경우 엔터프라이즈 네트워크의 사용 가능한 대역폭은 일반적으로 LAN 환경 내에서 제한 요인으로 간주되지 않습니다. 그러나 사이트를 상호 연결하는 WAN 링크에서는 네트워크 대역폭이 제한될 수 있습니다.
+전화 통신, 비디오 및 응용 프로그램 공유와 같은 IP 기반 응용 프로그램의 경우 엔터프라이즈 네트워크의 사용 가능한 대역폭은 일반적으로 LAN 환경 내에서 제한 요소로 간주되지 않습니다. 그러나 사이트를 상호 연결하는 WAN 링크에서는 네트워크 대역폭이 제한될 수 있습니다.
 
 네트워크 트래픽이 WAN 링크를 과다 구독하는 경우 대기, 버퍼링 및 패킷 삭제와 같은 현재 메커니즘을 사용하여 정체 문제를 해결합니다. 일반적으로 네트워크 정체가 완화되거나 필요한 경우 트래픽이 삭제될 때까지 추가 트래픽이 지연됩니다. 이러한 경우 기존 데이터 트래픽의 경우 수신 클라이언트가 복구할 수 있습니다. 그러나 통합 통신과 같은 실시간 트래픽의 경우 통합 통신 트래픽은 대기 시간과 패킷 손실에 모두 민감하기 때문에 이러한 방식으로 네트워크 정체 문제를 해결할 수 없습니다. WAN의 정체로 인해 사용자의 QoE(환경 품질)가 나쁨을 경험할 수 있습니다. 정체된 조건에서 실시간 트래픽의 경우 품질이 낮은 연결을 제공하는 것보다 실제로 통화를 거부하는 것이 더 좋습니다.
 
@@ -90,7 +90,7 @@ CDR(통화 기록 정보)은 PSTN이나 음성 메일로 다시 라우팅된 통
 
 ### <a name="call-admission-control-of-pstn-connections"></a>PSTN 연결에 대한 통화 허용 제어
 
-통화 전송 제어는 IP/PBX, PSTN 게이트웨이 또는 SIP 트렁크에 연결되어 있는지 여부에 관계없이 중재 서버에서 적용할 수 있습니다. 중재 서버는 B2BUA(백백 사용자 에이전트)이기 때문에 미디어를 종료합니다. 비즈니스용 Skype 서버에 연결된 쪽과 PSTN 게이트웨이, IP/PBX 또는 SIP 트렁크에 연결된 게이트웨이 쪽의 두 가지 연결 쪽이 있습니다. PSTN 연결에 대한 자세한 내용은 비즈니스용 Skype 서버의 [PSTN 연결 계획을 참조하세요.](pstn-connectivity-0.md)
+통화 전송 제어는 IP/PBX, PSTN 게이트웨이 또는 SIP 트렁크에 연결되어 있는지 여부에 관계없이 중재 서버에서 적용할 수 있습니다. 중재 서버는 B2BUA(백백 사용자 에이전트)이기 때문에 미디어를 종료합니다. 비즈니스용 Skype 서버에 연결된 쪽과 PSTN 게이트웨이, IP/PBX 또는 SIP 트렁크에 연결된 게이트웨이 쪽의 두 가지 연결 쪽이 있습니다. PSTN 연결에 대한 자세한 내용은 비즈니스용 Skype 서버의 [PSTN 연결 계획(Plan for PSTN connectivity)을 참조하세요.](pstn-connectivity-0.md)
 
 미디어 우회를 사용하도록 설정하지 않은 경우 중재 서버의 양측에 CAC를 적용할 수 있습니다. 미디어 우회를 사용하도록 설정하면 미디어 트래픽이 중재 서버를 트래버스하지 않고 대신 비즈니스용 Skype 클라이언트와 게이트웨이 간에 직접 전달됩니다. 이 경우 CAC는 필요하지 않습니다. 자세한 내용은 비즈니스용 [Skype의 미디어 우회 계획(Plan for media bypass)을 참조하세요.](media-bypass.md)
 
@@ -100,7 +100,7 @@ CDR(통화 기록 정보)은 PSTN이나 음성 메일로 다시 라우팅된 통
 
 ![음성 CAC 미디어 우회 연결 적용](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-## <a name="defining-your-requirements-for-call-admission-control"></a>통화 요금제에 대한 요구 사항 정의
+## <a name="defining-your-requirements-for-call-admission-control"></a>통화 입장 제어에 대한 요구 사항 정의
 
 CAC(통화 허용 제어) 계획에는 엔터프라이즈 네트워크 토폴로지에 대한 자세한 정보가 필요합니다. 다음 단계에 따라 통화 허용 제어 정책을 보다 쉽게 계획할 수 있습니다.
 

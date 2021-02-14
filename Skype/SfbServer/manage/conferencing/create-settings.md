@@ -83,7 +83,7 @@ New-CsMeetingConfiguration -Identity "site:Redmond"
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-여러 매개 변수를 포함하여 여러 속성 값을 설정할 수 있습니다. 예를 들어 다음 명령은 모든 사용자를 모임에 발표자로 인정하고 PSTN 사용자가 모임에 공식적으로 참석할 때까지 대기실에서 대기하게 합니다.
+여러 매개 변수를 포함하여 여러 속성 값을 설정할 수 있습니다. 예를 들어 다음 명령은 모든 사람을 발표자로 인정하고 PSTN 사용자가 모임에 공식적으로 참석할 때까지 대기실에서 대기하게 합니다.
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True

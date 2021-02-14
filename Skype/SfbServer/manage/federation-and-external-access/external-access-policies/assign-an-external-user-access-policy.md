@@ -68,7 +68,7 @@ ms.locfileid: "49826628"
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
 
-## <a name="to-unassign-a-per-user-external-access-policy"></a>사용자당 외부 액세스 정책의 위임
+## <a name="to-unassign-a-per-user-external-access-policy"></a>사용자당 외부 액세스 정책을 위임하지 않는 경우
 
   - 이 명령은 이전에 Ken Myer에게 지정되었던 사용자별 외부 액세스 정책의 지정을 해제합니다. 사용자별 정책을 지정 해제한 후 Ken Myer는 자동으로 글로벌 정책 또는 로컬 사이트 정책(있는 경우)을 사용해서 관리됩니다. 사이트 정책은 글로벌 정책보다 우선 적용됩니다.
     
