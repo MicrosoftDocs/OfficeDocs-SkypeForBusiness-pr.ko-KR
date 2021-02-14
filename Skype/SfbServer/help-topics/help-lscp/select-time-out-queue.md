@@ -22,12 +22,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803708"
 ---
-# <a name="select-time-out-queue"></a><span data-ttu-id="b6de7-103">시간 초과 큐 선택</span><span class="sxs-lookup"><span data-stu-id="b6de7-103">Select Time-out Queue</span></span>
+# <a name="select-time-out-queue"></a><span data-ttu-id="aedcf-103">시간 초과 큐 선택</span><span class="sxs-lookup"><span data-stu-id="aedcf-103">Select Time-out Queue</span></span>
  
-<span data-ttu-id="b6de7-104">**시간 초과 큐 선택** 대화 상자를 사용하여 시간이 초과되면 통화가 착신 전환되는 큐를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b6de7-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
+<span data-ttu-id="aedcf-104">**시간 초과 큐 선택** 대화 상자를 사용하여 시간이 초과되면 통화가 착신 전환되는 큐를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="aedcf-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
   
-<span data-ttu-id="b6de7-p101">검색 상자에 사용할 큐의 이름을 전체 또는 일부분 입력합니다. 사용 가능한 모든 큐를 반환하려면 검색 상자를 비워 두고 검색 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b6de7-p101">In the search box, type all or part of the name of the queue you want to use. To return all available queues, leave the search box empty and click the search icon.</span></span>
+<span data-ttu-id="aedcf-p101">검색 상자에 사용할 큐의 이름을 전체 또는 일부분 입력합니다. 사용 가능한 모든 큐를 반환하려면 검색 상자를 비워 두고 검색 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="aedcf-p101">In the search box, type all or part of the name of the queue you want to use. To return all available queues, leave the search box empty and click the search icon.</span></span>
   
-<span data-ttu-id="b6de7-107">검색에서 반환된 큐 목록에서 시간이 초과된 통화에 사용할 큐를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b6de7-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
+<span data-ttu-id="aedcf-107">검색에서 반환된 큐 목록에서 시간이 초과된 통화에 사용할 큐를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="aedcf-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
   
 

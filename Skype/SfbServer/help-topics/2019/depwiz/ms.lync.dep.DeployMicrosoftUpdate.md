@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801538"
 ---
-# <a name="deployment-wizard-windows-update"></a><span data-ttu-id="788b6-103">배포 마법사: Windows Update</span><span class="sxs-lookup"><span data-stu-id="788b6-103">Deployment Wizard: Windows Update</span></span>
+# <a name="deployment-wizard-windows-update"></a><span data-ttu-id="57290-103">배포 마법사: Windows Update</span><span class="sxs-lookup"><span data-stu-id="57290-103">Deployment Wizard: Windows Update</span></span>
  
-<span data-ttu-id="788b6-104">배포 마법사를 사용하여 비즈니스용 Skype 서버를 설치하는 데 대한 자세한 내용은 비즈니스용 Skype 서버 [설치를 참조하세요.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="788b6-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="57290-104">배포 마법사를 사용하여 비즈니스용 Skype 서버를 설치하는 데 대한 자세한 내용은 비즈니스용 Skype 서버 [설치를 참조하세요.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="57290-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

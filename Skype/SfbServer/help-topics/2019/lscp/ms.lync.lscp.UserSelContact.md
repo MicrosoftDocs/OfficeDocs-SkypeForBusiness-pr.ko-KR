@@ -22,9 +22,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801358"
 ---
-# <a name="select-contacts-from-active-directory"></a><span data-ttu-id="eeb62-105">Active Directory에서 연락처 선택</span><span class="sxs-lookup"><span data-stu-id="eeb62-105">Select Contacts from Active Directory</span></span>
+# <a name="select-contacts-from-active-directory"></a><span data-ttu-id="9dcb3-105">Active Directory에서 연락처 선택</span><span class="sxs-lookup"><span data-stu-id="9dcb3-105">Select Contacts from Active Directory</span></span>
  
-<span data-ttu-id="eeb62-106">Active **Directory에서 선택** 대화 상자를 사용하여 비즈니스용 Skype를 사용하도록 설정할 연락처를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eeb62-106">Use the **Select from Active Directory** dialog box to find contacts who you want to enable for Skype for Business.</span></span> <span data-ttu-id="eeb62-107">검색 상자에 찾을 연락처의 SIP 주소나 표시 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="eeb62-107">In the search box, type the SIP address or display name of the contact you want to find.</span></span> <span data-ttu-id="eeb62-108">사용 가능한 모든 연락처를 검색하려면 검색 상자에 아무런 내용을 입력하지 마십시오.</span><span class="sxs-lookup"><span data-stu-id="eeb62-108">To retrieve all available contacts, do not type anything in the search box.</span></span>
+<span data-ttu-id="9dcb3-106">Active **Directory에서 선택** 대화 상자를 사용하여 비즈니스용 Skype를 사용하도록 설정할 연락처를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9dcb3-106">Use the **Select from Active Directory** dialog box to find contacts who you want to enable for Skype for Business.</span></span> <span data-ttu-id="9dcb3-107">검색 상자에 찾을 연락처의 SIP 주소나 표시 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9dcb3-107">In the search box, type the SIP address or display name of the contact you want to find.</span></span> <span data-ttu-id="9dcb3-108">사용 가능한 모든 연락처를 검색하려면 검색 상자에 아무런 내용을 입력하지 마십시오.</span><span class="sxs-lookup"><span data-stu-id="9dcb3-108">To retrieve all available contacts, do not type anything in the search box.</span></span>
   
  
   

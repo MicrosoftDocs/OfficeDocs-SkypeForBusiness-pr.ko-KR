@@ -23,8 +23,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801148"
 ---
-# <a name="branch-sites-planning-tool"></a><span data-ttu-id="13f4d-103">분기 사이트(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="13f4d-103">Branch Sites (Planning Tool)</span></span>
+# <a name="branch-sites-planning-tool"></a><span data-ttu-id="7c11c-103">분기 사이트(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="7c11c-103">Branch Sites (Planning Tool)</span></span>
 
-<span data-ttu-id="13f4d-104">분기 사이트 탄력성에 대한 자세한 내용은 음성 Branch-Site [계획을 참조하세요.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)</span><span class="sxs-lookup"><span data-stu-id="13f4d-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
+<span data-ttu-id="7c11c-104">분기 사이트 탄력성에 대한 자세한 내용은 음성 Branch-Site [계획을 참조하세요.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)</span><span class="sxs-lookup"><span data-stu-id="7c11c-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
 
 

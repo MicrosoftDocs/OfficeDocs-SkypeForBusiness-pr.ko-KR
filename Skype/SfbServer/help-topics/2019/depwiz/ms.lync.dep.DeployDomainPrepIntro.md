@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801708"
 ---
-# <a name="prepare-current-domain-intro"></a><span data-ttu-id="4b65a-104">현재 도메인 준비(소개)</span><span class="sxs-lookup"><span data-stu-id="4b65a-104">Prepare Current Domain (Intro)</span></span>
+# <a name="prepare-current-domain-intro"></a><span data-ttu-id="6ddcd-104">현재 도메인 준비(소개)</span><span class="sxs-lookup"><span data-stu-id="6ddcd-104">Prepare Current Domain (Intro)</span></span>
  
-<span data-ttu-id="4b65a-105">도메인 **준비** 페이지에서는 비즈니스용 Skype 서버의 도메인 준비 프로세스를 시작됩니다.</span><span class="sxs-lookup"><span data-stu-id="4b65a-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="4b65a-106">도메인 준비를 시작하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4b65a-106">Click **Next** to begin preparing the domain.</span></span>
+<span data-ttu-id="6ddcd-105">도메인 **준비** 페이지에서는 비즈니스용 Skype 서버의 도메인 준비 프로세스를 시작됩니다.</span><span class="sxs-lookup"><span data-stu-id="6ddcd-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="6ddcd-106">도메인 준비를 시작하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6ddcd-106">Click **Next** to begin preparing the domain.</span></span>
   
 

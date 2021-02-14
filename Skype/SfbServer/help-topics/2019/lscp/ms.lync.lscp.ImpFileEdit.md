@@ -22,13 +22,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801458"
 ---
-# <a name="file-filter-create-new-or-edit-existing"></a><span data-ttu-id="a6625-104">파일 필터: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="a6625-104">File Filter: Create New or Edit Existing</span></span>
+# <a name="file-filter-create-new-or-edit-existing"></a><span data-ttu-id="912cb-104">파일 필터: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="912cb-104">File Filter: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="a6625-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="a6625-105">What do you want to do?</span></span> <span data-ttu-id="a6625-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a6625-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="912cb-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="912cb-105">What do you want to do?</span></span> <span data-ttu-id="912cb-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="912cb-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a6625-107">기본 파일 전송 필터 수정</span><span class="sxs-lookup"><span data-stu-id="a6625-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [<span data-ttu-id="912cb-107">기본 파일 전송 필터 수정</span><span class="sxs-lookup"><span data-stu-id="912cb-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 
-- [<span data-ttu-id="a6625-108">특정 사이트에 대한 새 파일 전송 필터 만들기</span><span class="sxs-lookup"><span data-stu-id="a6625-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [<span data-ttu-id="912cb-108">특정 사이트에 대한 새 파일 전송 필터 만들기</span><span class="sxs-lookup"><span data-stu-id="912cb-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
 
 
 
