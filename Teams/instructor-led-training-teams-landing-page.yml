@@ -16,10 +16,10 @@ metadata:
   ms.locfileid: "48878482"
 highlightedContent:
   items:
-  - title: 팀 지식 검사
+  - title: Teams 기술 검사
     itemType: learn
     url: https://aka.ms/TeamsKnowledgeCheck
-  - title: 주문형 최종 사용자 교육
+  - title: 수요에 따라 최종 사용자 교육
     itemType: video
     url: https://aka.ms/TeamsOnDemand
   - title: Microsoft 365 채택 도구
@@ -29,7 +29,7 @@ productDirectory:
   items:
   - title: Microsoft Teams와 인사하세요.
     imageSrc: https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg
-    summary: 'Microsoft Teams란? 이 30분 오리엔테이션에 참여하여 Teams가 무엇인지 파악하고 Teams의 활용 방법을 확인해 보세요. (대상 그룹: 모두)'
+    summary: 'Microsoft Teams란? 이 30분 오리엔테이션에 참여하여 Teams가 무엇인지 파악하고 Teams의 활용 방법을 확인해 보세요. (대상: 모두)'
     url: https://aka.ms/SayhelloTeams
   - title: Teams 시작하기
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
@@ -53,7 +53,7 @@ productDirectory:
     url: https://aka.ms/GodeeperwithTeams
   - title: 교육용 Teams - 웨비나
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: '고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다. (대상: 직원, 학생, academics, 리서치 교직원, IT 전문가)'
+    summary: '고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다. (대상: 교직원, 학생, 학부, 연구 교직원, IT 전문가)'
     url: https://aka.ms/TeamsEduWebinars
   - title: 집에서 Teams로 작업 중인 마스터
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
@@ -61,5 +61,5 @@ productDirectory:
     url: https://aka.ms/WorkathomewithTeams
   - title: 업그레이드 계획 워크숍
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: '팀으로 성공적으로 업그레이드를 계획 하 고 구현 합니다. (대상: IT 전문가, 채택 변경 관리자)'
+    summary: 'Teams로의 성공적인 업그레이드를 계획하고 구현합니다. (대상: IT 전문가, 채택 변경 관리자)'
     url: /MicrosoftTeams/upgrade-workshops-landing-page

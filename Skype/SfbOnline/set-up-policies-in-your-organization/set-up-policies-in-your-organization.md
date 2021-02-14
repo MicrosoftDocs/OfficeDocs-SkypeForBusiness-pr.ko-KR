@@ -25,13 +25,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/07/2020
 ms.locfileid: "48376561"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="f3e36-102">조직에서 정책 설정</span><span class="sxs-lookup"><span data-stu-id="f3e36-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="3ba7e-102">조직에서 정책 설정</span><span class="sxs-lookup"><span data-stu-id="3ba7e-102">Set up policies in your organization</span></span>
 
-<span data-ttu-id="f3e36-103">정책은 사용자에 게 제공 되는 비즈니스용 Skype Online의 기능을 결정 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f3e36-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="f3e36-104">자세한 정보는 다음 문서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f3e36-104">See the following articles for complete details.</span></span>
+<span data-ttu-id="3ba7e-103">정책은 사용자가 사용할 수 있는 비즈니스용 Skype Online의 기능을 결정하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3ba7e-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="3ba7e-104">자세한 내용은 다음 문서를 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="3ba7e-104">See the following articles for complete details.</span></span>
 
-- [<span data-ttu-id="f3e36-105">점 대 점 파일 전송 차단</span><span class="sxs-lookup"><span data-stu-id="f3e36-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
-- [<span data-ttu-id="f3e36-106">사용자 지정 외부 액세스 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="f3e36-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
-- [<span data-ttu-id="f3e36-107">모임에 첨부된 대용량 파일 유지</span><span class="sxs-lookup"><span data-stu-id="f3e36-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
-- [<span data-ttu-id="f3e36-108">조직의 회의 정책 설정</span><span class="sxs-lookup"><span data-stu-id="f3e36-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
-- [<span data-ttu-id="f3e36-109">조직의 모바일 정책 설정</span><span class="sxs-lookup"><span data-stu-id="f3e36-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
-- [<span data-ttu-id="f3e36-110">조직의 클라이언트 정책 설정</span><span class="sxs-lookup"><span data-stu-id="f3e36-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
+- [<span data-ttu-id="3ba7e-105">지점 및 지점 및 지점 파일 전송 차단</span><span class="sxs-lookup"><span data-stu-id="3ba7e-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="3ba7e-106">사용자 지정 외부 액세스 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="3ba7e-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="3ba7e-107">모임에 첨부된 대용량 파일 유지</span><span class="sxs-lookup"><span data-stu-id="3ba7e-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="3ba7e-108">조직의 회의 정책 설정</span><span class="sxs-lookup"><span data-stu-id="3ba7e-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="3ba7e-109">조직의 모바일 정책 설정</span><span class="sxs-lookup"><span data-stu-id="3ba7e-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="3ba7e-110">조직의 클라이언트 정책 설정</span><span class="sxs-lookup"><span data-stu-id="3ba7e-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
