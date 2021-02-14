@@ -1,5 +1,5 @@
 ---
-title: 8 단계 레거시 풀 서비스 해제
+title: 8단계 레거시 풀 해제
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.custom: httpsfix
-description: 다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 해제 및 레거시 배포에서 서버 및 풀 비활성화 및 제거에 대 한 지침을 제공 합니다. 이 섹션에 나열된 모든 절차가 필수는 아닙니다. 사용할 해제 절차를 확인하려면 설명서를 확인하십시오.
+description: 다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 해제, 레거시 배포에서 서버 및 풀 비활성화 및 제거에 대한 지침을 제공합니다. 이 섹션에 나열된 모든 절차가 필수는 아닙니다. 사용할 해제 절차를 확인하려면 설명서를 확인하십시오.
 ms.openlocfilehash: 2406b25436bc13cafca8b09c92220a96e0635ae3
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -21,12 +21,12 @@ ms.locfileid: "44753696"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>8단계: 레거시 풀 해제
 
-다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 해제 및 레거시 배포에서 서버 및 풀 비활성화 및 제거에 대 한 지침을 제공 합니다. 이 섹션에 나열된 모든 절차가 필수는 아닙니다. 사용할 해제 절차를 확인하려면 설명서를 확인하십시오. 
+다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 해제, 레거시 배포에서 서버 및 풀 비활성화 및 제거에 대한 지침을 제공합니다. 이 섹션에 나열된 모든 절차가 필수는 아닙니다. 사용할 해제 절차를 확인하려면 설명서를 확인하십시오. 
   
-서버 및 서버 역할 제거에 대 한 철저 한 문서와 배포를 해제 하는 단계별 가이드는 [Microsoft Lync Server 제거 및 서버 역할 제거](https://go.microsoft.com/fwlink/p/?linkId=246227)를 다운로드 합니다. 
+서버 및 서버 역할 제거에 대한 날짜가 있지만 전체 문서와 배포를 해제하기 위한 단계별 가이드는 [Microsoft Lync Server](https://go.microsoft.com/fwlink/p/?linkId=246227)제거 및 서버 역할 제거를 다운로드하세요. 
   
 > [!IMPORTANT]
-> 레거시 환경을 해제 하기 전에 Microsoft 통합 커뮤니케이션 관리 API (c) 응용 프로그램을 마이그레이션 및 업그레이드 하는 방법에 대 한 자세한 내용은 c u [m 응용 프로그램: 공존 성, 마이그레이션 및 업그레이드 시나리오](https://go.microsoft.com/fwlink/p/?LinkId=269555)를 참조 하세요.
+> 레거시 환경을 해제하기 전에 Microsoft Unified Communications Managed API(UCMA) 응용 프로그램 마이그레이션 및 업그레이드에 대한 자세한 내용은 [UCMA](https://go.microsoft.com/fwlink/p/?LinkId=269555)응용 프로그램( 동시 사용, 마이그레이션 및 업그레이드 시나리오)을 참조하세요.
   
 ## <a name="in-this-section"></a>이 섹션의 내용
 

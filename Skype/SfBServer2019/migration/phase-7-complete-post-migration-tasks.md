@@ -1,5 +1,5 @@
 ---
-title: 7 단계 마이그레이션 후 작업 완료
+title: 7단계 마이그레이션 후 작업 완료
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 이 섹션의 항목에서는 비즈니스용 Skype 서버 2019 마이그레이션을 완료 한 후에 수행 해야 하는 작업에 대해 설명 합니다.
+description: 이 섹션의 항목에서는 비즈니스용 Skype 서버 2019로의 마이그레이션을 완료한 후 수행해야 하는 작업에 대해 설명합니다.
 ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "44752300"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>7단계: 마이그레이션 후 작업 완료
 
-이 섹션의 항목에서는 비즈니스용 Skype 서버 2019 마이그레이션을 완료 한 후에 수행 해야 하는 작업에 대해 설명 합니다.
+이 섹션의 항목에서는 비즈니스용 Skype 서버 2019로의 마이그레이션을 완료한 후 수행해야 하는 작업에 대해 설명합니다.
   
 ## <a name="in-this-section"></a>이 섹션의 내용
 

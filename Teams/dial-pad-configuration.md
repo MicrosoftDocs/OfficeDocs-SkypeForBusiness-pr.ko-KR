@@ -1,5 +1,5 @@
 ---
-title: 팀 다이얼 패드 구성
+title: Teams 다이얼 패드 구성
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 사용자가 PSTN (공개 전환 전화 네트워크) 기능에 액세스할 수 있도록 팀 클라이언트에서 다이얼 패드를 구성 하는 방법에 대해 알아봅니다.
+description: 사용자가 PSTN(공용 전화망) 기능에 액세스할 수 있도록 Teams 클라이언트에서 다이얼 패드를 구성하는 방법에 대해 자세히 알아보겠습니다.
 ms.openlocfilehash: 44fcbb766cadaa4b31aa065fae80fdcd48c5453f
 ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
@@ -26,27 +26,27 @@ ms.locfileid: "45012423"
 ---
 # <a name="dial-pad-configuration"></a>다이얼 패드 구성
 
-팀 클라이언트에서 다이얼 패드를 통해 사용자는 PSTN (공용 전환 통신 네트워크) 기능에 액세스할 수 있습니다. 전화 걸기 패드는 적절 하 게 구성 된 경우에만 사용 가능 합니다. 다음 조건은 다이얼 패드가 표시 되는 데 필요 합니다.
+Teams 클라이언트에서 다이얼 패드를 사용하면 사용자가 PSTN(공용 전화망) 기능에 액세스할 수 있습니다. 다이얼 패드는 전화 시스템 라이선스가 있는 사용자가 올바르게 구성되면 사용할 수 있습니다. 다이얼 패드가 표시될 때 다음 조건이 모두 필요합니다.
 
-- 사용자가 전화 시스템 ("MCOEV") 라이선스를 사용 하 고 있습니다.
-- 사용자에 게 Microsoft 통화 계획이 있거나 직접 라우팅이 가능 합니다.
-- 사용자가 엔터프라이즈 음성을 사용할 수 있습니다.
-- 사용자가 온라인 상태이 고 온-프레미스 비즈니스용 Skype가 아닙니다.
-- 사용자에 게 팀 호출 정책을 사용 하도록 설정
+- 사용자가 전화 시스템("MCOEV") 라이선스를 사용하도록 설정했습니다.
+- 사용자가 Microsoft 통화 플랜을 사용 중이거나 직접 라우팅을 사용하도록 설정되어 있습니다.
+- 사용자가 활성화된 Enterprise Voice 있습니다.
+- 사용자가 온라인에 있으며 비즈니스용 Skype의 프레미스에 있지 않습니다.
+- 사용자가 Teams 통화 정책을 사용하도록 설정한 경우
 
-다음 섹션에서는 PowerShell을 사용 하 여 조건을 확인 하는 방법을 설명 합니다. 대부분의 경우 CsOnlineUser cmdlet의 출력에서 다양 한 속성을 확인 해야 합니다. 예를 들어 $user 사용자의 UPN 또는 sip 주소 중 하나입니다.
+다음 섹션에서는 PowerShell을 사용하여 조건을 검사하는 방법을 설명합니다. 대부분의 경우 cmdlet의 출력에서 다양한 속성을 Get-CsOnlineUser 합니다. 예를 $user 사용자의 UPN 또는 sip 주소로 가정합니다.
 
-## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>사용자가 전화 시스템 ("MCOEV") 라이선스를 사용 하 고 있습니다.
+## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>사용자가 전화 시스템("MCOEV") 라이선스를 사용하도록 설정했습니다.
 
-사용자에 게 할당 된 요금제가 **사용으로 설정 된 CapabilityStatus 특성** 을 표시 하 고 **기능 계획이 mcoev** (전화 시스템 라이선스)으로 설정 되어 있는지 확인 해야 합니다. MCOEV, MCOEV1 등이 표시 될 수 있습니다. 기능 계획이 MCOEV로 시작 하는 한 모두 허용 됩니다.
+사용자에 대해 할당된 계획에 Enabled로 설정된 **CapabilityStatus** 특성 및 기능 계획이 **MCOEV(전화** 시스템 라이선스)로 설정되어 있어야 합니다. MCOEV, MCOEV1 등도 표시될 수 있습니다. 기능 계획이 MCOEV로 시작하는 한 모두 허용됩니다.
 
-특성이 올바르게 설정 되어 있는지 확인 하려면 다음 명령을 사용 합니다.
+특성이 올바르게 설정되어 있는지 확인하려면 다음 명령을 사용 합니다.
 
 ```
 Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
-출력이 다음과 같이 표시 됩니다. **CapabilityStatus** 및 **기능 계획** 특성만 확인 해야 합니다.
+출력은 다음과 같습니다. **CapabilityStatus** 및 Capability **Plan** 특성만 확인하면 됩니다.
 
 ```
 <Plan SubscribedPlanId="2f9eda01-4630-4a5c-bdb3-cf195f22d240"  
@@ -63,17 +63,17 @@ Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
 
-## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>사용자에 게 Microsoft 통화 계획이 있거나 직접 라우팅이 가능 합니다.
+## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>사용자가 Microsoft 통화 요금제 또는 직접 라우팅을 사용하도록 설정되어 있습니다.
 
-**사용자에 게 Microsoft 통화 계획이 있는 경우** **CapabilityStatus 특성을 사용으로 설정**하 고 **기능 계획이 mcopstn으로 설정**되어 있는지 확인 해야 합니다. MCOPSTN1, MCOPSTN2 등이 표시 될 수 있습니다. 모든 기능 계획이 MCOPSTN으로 시작 하는 한 모든 것이 허용 됩니다.
+**사용자에게 Microsoft 통화** 계획이 있는 경우 **CapabilityStatus** 특성이 Enabled로 설정되어 있으며 기능 계획이 **MCOPSTN으로** 설정되어 있어야 합니다. MCOPSTN1, MCOPSTN2 등도 표시될 수 있습니다. 기능 계획이 MCOPSTN으로 시작하는 한 모두 허용됩니다.
 
-특성을 확인 하려면 다음 명령을 사용 합니다.
+특성을 확인하기 위해 다음 명령을 사용 합니다.
 
 ```
 Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
-출력이 다음과 같이 표시 됩니다. **CapabilityStatus** 및 **기능 계획** 특성만 확인 해야 합니다.
+출력은 다음과 같습니다. **CapabilityStatus** 및 Capability **Plan** 특성만 확인하면 됩니다.
 
 ```  
 <Plan SubscribedPlanId="71d1258e-a4e6-443f-884e-0f3d6f644bb1" 
@@ -89,13 +89,13 @@ xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11">
 </Plan>
   ```
 
-**사용자가 직접 라우팅을 사용할 수 있는 경우**에는 사용자에 게 OnlineVoiceRoutingPolicy에 대해 null이 아닌 값을 할당 해야 합니다. 특성을 확인 하려면 다음 명령을 사용 합니다.
+**사용자가 직접** 라우팅을 사용하도록 설정한 경우 OnlineVoiceRoutingPolicy에 대해 null이 아닌 값이 사용자에게 할당되어야 합니다. 특성을 확인하기 위해 다음 명령을 사용 합니다.
   
 ```
 Get-CsOnlineUser -Identity $user|Select OnlineVoiceRoutingPolicy 
 ```
 
-다음과 같이 출력에 null이 아닌 값이 있어야 합니다.
+출력에는 null이 아닌 값이 있습니다. 예를 들면 다음과 같습니다.
 
 ```
 OnlineVoiceRoutingPolicy
@@ -103,15 +103,15 @@ OnlineVoiceRoutingPolicy
 Test_Policy
 ```
 
-## <a name="user-has-enterprise-voice-enabled"></a>사용자가 엔터프라이즈 음성을 사용할 수 있습니다.
+## <a name="user-has-enterprise-voice-enabled"></a>사용자가 활성화된 Enterprise Voice 있습니다.
 
-사용자가 Enterprise 음성을 사용할 수 있는지 확인 하려면 다음 명령을 사용 합니다.
+사용자가 사용하도록 설정되어 Enterprise Voice 경우 다음 명령을 사용 합니다.
 
 ```
 Get-CsOnlineUser -Identity $user|Select EnterpriseVoiceEnabled
 ```
 
-출력 모양은 다음과 같습니다.
+출력은 다음과 같아야 합니다.
 
 ```
 EnterpriseVoiceEnabled
@@ -120,15 +120,15 @@ EnterpriseVoiceEnabled
 
 ```
  
-## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>사용자가 온라인 상태이 고 온-프레미스 비즈니스용 Skype가 아닙니다.
+## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>사용자가 온라인에 있으며 비즈니스용 Skype의 프레미스에 있지 않습니다.
 
-사용자가 온라인 상태이 고 비즈니스용 Skype를 사용 하 고 있지 않은지 확인 하려면 RegistrarPool는 null이 아니어야 하 고 HostingProvider에 "sipfed. online"으로 시작 하는 값이 포함 되어야 합니다.  값을 확인 하려면 다음 명령을 사용 합니다.
+사용자가 비즈니스용 Skype의 프레미스가 아닌 온라인에 있는지 확인하려면 RegistrarPool이 null이 아니며 HostingProvider에 "sipfed.online"으로 시작하는 값이 포함되어야 합니다.  값을 확인하기 위해 다음 명령을 사용합니다.
 
 ```
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
 ```
 
-출력은 다음과 유사 합니다.
+출력은 다음과 유사해야 합니다.
 
 ```
 RegistrarPool                 HostingProvider
@@ -136,17 +136,17 @@ RegistrarPool                 HostingProvider
 sippoolbn10M02.infra.lync.com sipfed.online.lync.com
 ```
 
-## <a name="user-has-teams-calling-policy-enabled"></a>사용자에 게 팀 호출 정책을 사용 하도록 설정
+## <a name="user-has-teams-calling-policy-enabled"></a>사용자가 Teams 통화 정책을 사용하도록 설정한 경우
 
-사용자의 효과적인 TeamsCallingPolicy에는 AllowPrivateCalling이 true로 설정 되어 있어야 합니다.  기본적으로 사용자는 기본적으로 AllowPrivateCallingPolicy를 true로 설정 하는 전역 정책을 상속 합니다.
+사용자의 효과적인 TeamsCallingPolicy에는 AllowPrivateCalling이 true로 설정되어 있어야 합니다.  기본적으로 사용자는 AllowPrivateCallingPolicy가 true로 설정된 전역 정책을 상속합니다.
 
-사용자에 대 한 TeamsCallingPolicy를 가져오고 AllowPrivateCalling가 true로 설정 되어 있는지 확인 하려면 다음 명령을 사용 합니다.
+사용자의 TeamsCallingPolicy를 구하고 AllowPrivateCalling이 true로 설정되어 있는지 확인하도록 다음 명령을 사용 합니다.
 
 ```
 if (($p=(get-csonlineuser -Identity $user).TeamsCallingPolicy) -eq $null) {Get-CsTeamsCallingPolicy -Identity global} else {get-csteamscallingpolicy -Identity $p}
 ```
 
-출력 모양은 다음과 같습니다.
+출력은 다음과 같아야 합니다.
 
 ```
 Identity                   : Global
@@ -165,16 +165,16 @@ MusicOnHoldEnabledType     : Enabled
 
 ## <a name="additional-notes"></a>추가 참고 사항
 
--   이러한 구성을 변경한 후 팀 클라이언트를 다시 시작 해야 할 수 있습니다.
+-   이러한 구성을 변경한 후 Teams 클라이언트를 다시 시작해야 할 수 있습니다.
 
--   최근에 위의 조건을 업데이트 한 경우에는 클라이언트가 새 설정을 받을 때까지 몇 시간 동안 기다려야 할 수 있습니다.
+-   위 조건을 최근에 업데이트한 경우 클라이언트가 새 설정을 받을 때까지 몇 시간 정도 기다려야 할 수 있습니다.
 
--   여전히 다이얼 패드가 표시 되지 않으면 다음 명령을 사용 하 여 프로비저닝 오류가 있는지 확인 합니다.
+-   다이얼 패드가 계속 표시되지 않는 경우 다음 명령을 사용하여 프로비전 오류가 발생하는지 검사합니다.
 
   ```
   Get-CsOnlineUser -Identity $user|Select McoValidationError
   ```
 
--    24 시간이 지난 후에도 문제가 계속 되 면 고객 지원에 문의 하세요.
+-    24시간이 넘은 동안 문제가 계속 발생하면 고객 지원에 문의합니다.
 
 

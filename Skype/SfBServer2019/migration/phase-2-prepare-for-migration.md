@@ -1,5 +1,5 @@
 ---
-title: 2 단계 마이그레이션 준비
+title: 2단계 마이그레이션 준비
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
-description: 비즈니스용 Skype 서버 2019로 마이그레이션을 시작 하기 전에이 섹션에서 설명 하는 단계를 따르세요.
+description: 비즈니스용 Skype 서버 2019로의 마이그레이션을 시작하기 전에 이 섹션에 설명된 단계를 따르세요.
 ms.openlocfilehash: 74a59bb9f7617fd02f4b1f714e1f1d96dacac603
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "44752360"
 ---
 # <a name="phase-2-prepare-for-migration"></a>2단계: 마이그레이션 준비
 
-비즈니스용 Skype 서버 2019로 마이그레이션을 시작 하기 전에이 섹션에서 설명 하는 단계를 따르세요.
+비즈니스용 Skype 서버 2019로의 마이그레이션을 시작하기 전에 이 섹션에 설명된 단계를 따르세요.
   
 ## <a name="in-this-section"></a>이 섹션의 내용
 

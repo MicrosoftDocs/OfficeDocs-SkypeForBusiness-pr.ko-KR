@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 전화 시스템-가상 사용자 라이선스
+title: Microsoft 365 전화 시스템 - 가상 사용자 라이선스
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -19,7 +19,7 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: 조직의 리소스 계정에 무료 전화 시스템-가상 사용자 라이선스 또는 유료 전화 시스템 사용자 라이선스를 할당 하는 방법에 대해 알아봅니다.
+description: 조직의 리소스 계정에 무료 전화 시스템–가상 사용자 라이선스 또는 유료 전화 시스템 사용자 라이선스를 할당하는 방법에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
 ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
@@ -27,51 +27,51 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/24/2020
 ms.locfileid: "44868655"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템-가상 사용자 라이선스
+# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템 - 가상 사용자 라이선스
 
-전화 시스템 라이선스가 있는 사용자는 무료 Microsoft 365 전화 시스템-가상 사용자 라이선스 또는 유료 전화 시스템 사용자 라이선스를 리소스 계정에 할당할 수 있습니다. 통화 요금제는 필요 하지 않습니다. 모든 자동 전화 교환 또는 통화 대기열에는 연결 된 리소스 계정이 필요 합니다. 전화 번호를 필요로 하는 리소스 계정은 무료 Microsoft 365 전화 시스템 (가상 사용자 라이선스) 또는 유료 전화 시스템 사용자 라이선스가 필요 하며, 그 전에 전화번호를 리소스 계정에 적용할 수 있습니다.
+전화 시스템 라이선스가 있는 조직은 무료 Microsoft 365 전화 시스템 ( 가상 사용자 라이선스 또는 유료 전화 시스템 사용자 라이선스)을 리소스 계정에 할당할 수 있습니다. 통화 요금제는 필요하지 않습니다. 모든 자동 전화 회의 또는 통화 큐에는 연결된 리소스 계정이 필요합니다. 전화 번호가 필요한 리소스 계정에는 무료 Microsoft 365 전화 시스템 ( 가상 사용자 라이선스 또는 유료 전화 시스템 사용자 라이선스)이 필요합니다. 먼저 전화 번호를 리소스 계정에 적용할 수 있습니다.
 
 > [!TIP]
-> 중첩 된 자동 전화 교환 또는 전화 번호가 없는 통화 대기열에 사용 되는 리소스 계정에는 라이선스가 필요 하지 않습니다. 참조는 다음 다이어그램을 참조 하세요. 
+> 전화 번호가 할당되지 않은 중첩된 자동 전화 요청 또는 통화 큐와 함께 사용되는 리소스 계정에는 라이선스가 필요하지 않습니다. 참조를 위해 다음 다이어그램을 참조합니다. 
 
 ![가상 사용자 라이선스](../media/resource-account.png)
 
 ## <a name="virtual-user-license-allocation"></a>가상 사용자 라이선스 할당
 
-조직에는 전체 크기에 따라 Microsoft 365 전화 시스템-가상 사용자 라이선스가 할당 됩니다. 전화 시스템을 포함 하 여 최소 하나의 라이선스 또는 전화 시스템을 추가한 조직의 경우 비용 없이 25 개의 가상 사용자 라이선스를 사용할 수 있습니다. 조직에 10 개의 전화 시스템 사용자 라이선스를 추가 하면 Microsoft 365 전화 시스템 (가상 사용자 라이선스)이 한 개 더 제공 됩니다.
+조직에는 전체 크기에 따라 가상 사용자 라이선스인 Microsoft 365 Phone System이 부여됩니다. 전화 시스템을 포함하여 하나 이상의 라이선스가 있는 조직 또는 전화 시스템이 추가된 모든 조직에는 25개 가상 사용자 라이선스를 무료로 사용할 수 있습니다. 조직에서 10개 Phone System 사용자 라이선스를 추가하면 Microsoft 365 전화 시스템 - 가상 사용자 라이선스를 사용할 수 있습니다.
 
 > [!NOTE]
-> 전화 시스템은 Microsoft 365 및 Office 365 E1 및 E3에서 사용할 수 있는 추가 기능 라이선스입니다. 전화 시스템은 Microsoft 365 E5, Office 365 E5, Microsoft 365 비즈니스 음성 라이선스의 일부로도 포함 됩니다.
+> 전화 시스템은 Microsoft 365 및 Office 365 E1 및 E3에서 사용할 수 있는 추가 기능 라이선스입니다. 전화 시스템은 Microsoft 365 E5, Office 365 E5 및 Microsoft 365 Business Voice 라이선스의 일부로도 포함됩니다.
 
-조직에서 사용 가능한 Microsoft 365 전화 시스템을 사용 하는 경우 자동 전화 교환 또는 통화 대기열 노드를 만드는 데 가상 사용자 라이선스가 남아 있는 경우에도 리소스 계정으로 유료 전화 시스템 라이선스를 사용할 수 있습니다. 대부분의 조직에는 배율 계획을 기반으로 하는 가상 사용자 라이선스가 충분 합니다. 
+조직에서 사용 가능한 무료 Microsoft 365 전화 시스템 - 자동 전화 연결 또는 통화 큐 노드를 만드는 데 가상 사용자 라이선스를 사용하는 경우 리소스 계정으로 유료 전화 시스템 라이선스를 계속 사용할 수 있습니다. 대부분의 조직에는 크기 조정 계획에 따라 충분한 가상 사용자 라이선스가 있습니다. 
 
 ### <a name="license-allocation-example"></a>라이선스 할당 예제
 
-Contoso, Inc.는 전화 시스템을 포함 하는 600 라이선스 (각 직원에 대해 하나씩)을 구매 합니다. Contoso에는 초기 25 plus 60 Microsoft 365 전화 시스템 (가상 사용자 라이선스, 총 85)이 할당 됩니다. 귀하의 조직에는 90 통화 대기열과 전화 번호가 있는 자동 전화 교환이 있습니다. 모든 Microsoft 365 전화 시스템-가상 사용자 라이선스를 할당 하 고 정기적인 일반 전화 시스템 라이선스를 확보 해야 합니다.
+Contoso, Inc.는 전화 시스템을 포함해 600개 라이선스를 구입했습니다(직원당 1명). Contoso는 초기 25개와 60개 Microsoft 365 전화 시스템 ( 가상 사용자 라이선스, 총 85개)이 부여됩니다. 해당 조직에는 전화 번호가 있는 90개 통화 큐와 자동 전화 회의가 있습니다. 모든 Microsoft 365 전화 시스템 ( 가상 사용자 라이선스)을 할당하고 5개의 일반 가격 전화 시스템 라이선스를 획득해야 합니다.
 
-Contoso는 자동 전화 교환 및 통화 대기열 시스템 다시 디자인을 고려해 야 합니다. 전화 번호와 더 적은 수의 중첩 된 노드를 사용 하는 경우에는 전화번호가 필요 하지 않으며, 구현 하 고 비용을 줄여줍니다.
+Contoso는 자동 전화 걸기 및 호출 큐 시스템을 다시 디자인하는 것으로 고려해야 합니다. 전화 번호가 필요하지 않은 더 적은 수의 전화 번호와 더 많은 중첩 노드를 사용하는 경우 구현을 간소화하고 비용을 절감합니다.
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Microsoft 365 전화 시스템을 구입 하는 방법-가상 사용자 라이선스
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Microsoft 365 Phone System을 구입하는 방법 - 가상 사용자 라이선스
 
 1. Microsoft 365 관리 센터에 로그인합니다.
-2. **청구**  >  **구입 서비스**  >  **추가** 기능으로 이동
-3. 끝으로 스크롤하여 **Microsoft 365 전화 시스템-가상 사용자** 라이선스를 찾습니다. **지금 구입**을 선택 합니다.
+2. 청구 **구매**  >  **서비스 추가**  >  **기능으로 이동**
+3. 끝까지 스크롤하여 **Microsoft 365 Phone System – 가상 사용자 라이선스를** 찾을 수 있습니다. 지금 **구입을 선택합니다.**
 
 > [!NOTE]
-> 비용을 0으로 표시 하는 경우에도 라이선스를 **구입** 해야 한다는 점에 유의 하세요.
+> 비용이 0인  경우에도 라이선스를 구입해야 합니다.
 
-## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템을 사용 하도록 기존 리소스 계정 변경-가상 사용자 라이선스
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 전화 시스템 - 가상 사용자 라이선스를 사용하여 기존 리소스 계정 변경
 
-해당 리소스 계정의 라이선스를 전화 시스템 라이선스에서 Microsoft 365 전화 시스템으로 전환 하기로 결정 한 경우-가상 사용자 라이선스:
+리소스 계정의 라이선스를 전화 시스템 라이선스에서 Microsoft 365 전화 시스템 - 가상 사용자 라이선스로 전환하기로 결정한 경우:
 
-1. 새로운 Microsoft 365 전화 시스템-가상 사용자 라이선스를 얻습니다.
-2. Microsoft 365 관리 센터의 연결 된 단계에 따라 [사용자를 다른 구독으로 이동](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)합니다.
+1. 새 Microsoft 365 전화 시스템 - 가상 사용자 라이선스를 다운로드합니다.
+2. Microsoft 365 관리 센터의 연결된 단계에 따라 사용자를 다른 구독으로 [이동하세요.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
-> 항상 전체 전화 시스템 라이선스를 제거 하 고 동일한 라이선스 활동에 Microsoft 365 전화 시스템 (가상 사용자 라이선스)을 할당 합니다. 이전 라이선스를 제거 하 고, 계정 변경 내용을 저장 하 고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장 하면 리소스 계정이 더 이상 예상 대로 작동 하지 않을 수 있습니다. 이 문제가 발생 하는 경우 Microsoft 365 전화 시스템에 대 한 새 리소스 계정 (가상 사용자 라이선스)을 만들고 끊어진 리소스 계정을 제거 하는 것이 좋습니다. 
+> 항상 전체 전화 시스템 라이선스를 제거하고 동일한 라이선스 활동에서 Microsoft 365 Phone System – 가상 사용자 라이선스를 할당합니다. 이전 라이선스를 제거하고, 계정 변경 내용을 저장하고, 새 라이선스를 추가한 다음, 계정 설정을 다시 저장하면 리소스 계정이 더 이상 예상대로 작동하지 않을 수 있습니다. 이 경우 Microsoft 365 Phone System - 가상 사용자 라이선스에 대한 새 리소스 계정을 만들고 손상된 리소스 계정을 제거하는 것이 좋습니다. 
 
 ## <a name="related-information"></a>관련 정보
 
-[자동 전화 교환 및 통화 대기열 서비스 업데이트](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+[자동 전화 교환 및 호출 큐 서비스 업데이트](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
 
 [Microsoft Teams에서 리소스 계정 관리](../manage-resource-accounts.md)

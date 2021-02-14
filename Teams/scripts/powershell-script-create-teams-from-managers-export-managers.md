@@ -1,5 +1,5 @@
 ---
-title: PowerShell 스크립트 샘플-내보내기 관리자 및 해당
+title: PowerShell 스크립트 샘플 - 관리자 및 직접 내보내기
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용 하 여 팀 구성원으로 해당 하는 각 관리자의 팀을 만들기 위한 준비를 통해 조직에 대 한 관리자 목록과 해당 작업을 내보냅니다.
+description: 이 PowerShell 스크립트를 사용하여 팀 구성원으로 직접 각 관리자에 대한 팀을 만들기 위한 준비를 위해 관리자 목록 및 조직의 지시 목록을 내보낼 수 있습니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,16 +23,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583125"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell 스크립트 샘플-내보내기 관리자 및 해당
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell 스크립트 샘플 - 관리자 및 직접 내보내기
 
-이 PowerShell 스크립트를 사용 하 여 팀 구성원으로 자신의 대화를 보내는 각 관리자에 대해 사용자 관리자 팀을 만들기 위한 준비와 조직에 대 한 관리자 목록 및 해당 대화 상대를 내보낼 수 있습니다.
+이 PowerShell 스크립트를 사용하여 팀 구성원으로 직접 각 관리자에 대한 인물 관리자 팀을 만들기 위한 준비를 위해 관리자 및 조직의 지시 목록을 내보낼 수 있습니다.
 
-이 PowerShell 스크립트에 대 한 자세한 내용은 [사용자 관리 팀 만들기](../create-manager-directs-teams.md)를 참조 하세요.
+이 PowerShell 스크립트에 대한 자세한 내용은 사용자 관리자 팀 [만들기를 읽어보아야 합니다.](../create-manager-directs-teams.md)
 
-PowerShell을 처음 사용 하는 경우 시작 하는 데 도움이 필요한 경우 [Azure PowerShell 개요](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)를 참조 하세요.
+PowerShell을 시작하는 데 도움이 필요한 경우 [Azure PowerShell 개요를 참조하세요.](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)
 
 
-## <a name="export-managers-script"></a>내보내기-관리자 스크립트
+## <a name="export-managers-script"></a>Export-Managers 스크립트
 
 ```powershell
 <# 

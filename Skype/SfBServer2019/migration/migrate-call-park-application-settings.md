@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 통화 대기 응용 프로그램의 마이그레이션에는 레거시 설치에서 업로드 된 모든 사용자 지정 음악을 포함 하는 비즈니스용 Skype 서버 2019 풀을 프로 비전 하 고, 서비스 수준 설정을 복원 하 고, 모든 통화 대기 궤도를 비즈니스용 Skype 서버 2019 풀에 연결 하는 기능이 포함 되어 있습니다. 사용자 지정 된 음악 보존 파일을 풀에서 구성한 경우 이러한 파일을 새로운 비즈니스용 Skype 서버 2019 풀로 복사 해야 합니다. 또한 통화 대기를 위해 업로드 된 사용자 지정 된 모든 음악 준비 파일의 별도 백업 복사본을 유지 하기 위해 전화 걸기 사용자 지정 된 모든 음악 파일을 다른 대상으로 백업 하는 것이 좋습니다. 통화 대기 응용 프로그램에 대 한 사용자 지정 된 음악 보존 파일은 해당 풀의 파일 저장소에 저장 됩니다. 풀 파일 저장소의 오디오 파일을 비즈니스용 Skype 서버 2019 파일 저장소에 복사 하려면 다음 매개 변수와 함께 Xcopy 명령을 사용 합니다.
+description: 통화 파킹 응용 프로그램 마이그레이션에는 레거시 설치에 업로드된 사용자 지정 보류 음악 파일을 사용하여 비즈니스용 Skype 서버 2019 풀을 프로비전하고, 서비스 수준 설정을 복원하고, 모든 통화 파킹된 통화 파킹된 통화를 비즈니스용 Skype 서버 2019 풀로 다시 지정하는 것이 포함됩니다. 사용자 지정된 보류 음악 파일이 풀에 구성된 경우 이러한 파일을 새 비즈니스용 Skype 서버 2019 풀에 복사해야 합니다. 또한 통화 파크에 대해 업로드된 사용자 지정된 통화 보류 음악 파일의 별도의 백업 복사본을 보관하기 위해 통화 파크 사용자 지정 통화 보류 음악 파일을 다른 대상으로 백업하는 것이 좋습니다. 통화 파크 응용 프로그램에 대한 사용자 지정된 보류 음악 파일은 풀의 파일 저장소에 저장됩니다. 풀 파일 저장소의 오디오 파일을 비즈니스용 Skype 서버 2019 파일 저장소로 복사하려면 다음 매개 변수와 함께 Xcopy 명령을 사용합니다.
 ms.openlocfilehash: ded38ab600da4b277b1cdc83218833c26df081aa
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "44752820"
 ---
 # <a name="migrate-call-park-application-settings"></a>통화 대기 응용 프로그램 설정 마이그레이션
 
-통화 대기 응용 프로그램의 마이그레이션에는 레거시 설치에서 업로드 된 사용자 지정 음악 보존 파일을 사용 하 여 비즈니스용 Skype 서버 2019 풀을 구축 하 고, 서비스 수준 설정을 복원 하 고, 모든 통화 대기 궤도를 비즈니스용 Skype 서버 2019 풀로 다시 지정 하는 기능이 포함 되어 있습니다. 사용자 지정 된 음악 보존 파일을 풀에서 구성한 경우 이러한 파일을 새로운 비즈니스용 Skype 서버 2019 풀로 복사 해야 합니다. 또한 통화 대기를 위해 업로드 된 사용자 지정 된 모든 음악 준비 파일의 개별 백업 복사본을 유지 하려면 모든 통화 보류 사용자 지정 된 보존 파일을 다른 대상에 백업 하는 것이 좋습니다. 통화 대기 응용 프로그램에 대 한 사용자 지정 된 음악 보존 파일은 해당 풀의 파일 저장소에 저장 됩니다. 풀 파일 저장소의 오디오 파일을 비즈니스용 Skype 서버 2019 파일 저장소에 복사 하려면 다음 매개 변수와 함께 **Xcopy** 명령을 사용 합니다. 
+통화 파킹 응용 프로그램 마이그레이션에는 레거시 설치에 업로드된 사용자 지정 보류 음악 파일을 사용하여 비즈니스용 Skype 서버 2019 풀을 프로비전하고, 서비스 수준 설정을 복원하고, 모든 통화 파킹된 통화를 비즈니스용 Skype 서버 2019 풀로 다시 대상으로 지정하는 것이 포함됩니다. 사용자 지정된 보류 음악 파일이 풀에 구성된 경우 이러한 파일을 새 비즈니스용 Skype 서버 2019 풀에 복사해야 합니다. 또한 통화 파크에 대해 업로드된 사용자 지정된 통화 보류 음악 파일의 별도의 백업 복사본을 보관하기 위해 통화 파크 사용자 지정 통화 보류 음악 파일을 다른 대상에 백업하는 것이 좋습니다. 통화 파크 응용 프로그램에 대한 사용자 지정된 보류 음악 파일은 풀의 파일 저장소에 저장됩니다. 풀 파일 저장소의 오디오 파일을 비즈니스용 Skype 서버 2019 파일 저장소로 복사하려면 다음 매개 변수와 **함께 Xcopy** 명령을 사용합니다. 
 
 ```console
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
@@ -30,40 +30,40 @@ Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business
 Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Skype for Business Server 2019 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 ```
 
-사용자 지정 된 모든 오디오 파일을 비즈니스용 Skype 서버 2019 파일 저장소로 복사한 경우 비즈니스용 Skype 서버 2019 풀의 통화 대기 응용 프로그램 설정을 구성 해야 하며 레거시 풀과 연결 된 통화 대기 번호 범위를 비즈니스용 Skype 서버 2019 풀에 다시 할당 해야 합니다.
+사용자 지정된 모든 오디오 파일을 비즈니스용 Skype 서버 2019 파일 저장소에 복사한 경우 비즈니스용 Skype 서버 2019 풀의 통화 파크 응용 프로그램 설정을 구성해야 합니다. 레거시 풀과 연결된 통화 파크 파선 범위를 비즈니스용 Skype 서버 2019 풀에 다시 지정해야 합니다.
 
-통화 대기 응용 프로그램 설정에는 픽업 시간 제한 임계값, 보류에 대 한 음악 사용/사용 안 함, 최대 통화 픽업 시도 횟수 및 시간 제한 요청이 포함 됩니다. 비즈니스용 Skype 서버 관리 셸을 사용 하 여 **new-cscpsconfiguration** cmdlet을 실행 하 여 통화 대기 응용 프로그램 설정을 관리 해야 합니다. 비즈니스용 Skype 서버 제어판을 사용 하 여 통화 대기 응용 프로그램 설정을 관리할 수는 없습니다. 
+통화 파킹 응용 프로그램 설정에는 Pickup timeout threshold, enabling or disabling music on hold, maximum call pickup attempts, and the timeout request. **Set-CsCpsConfiguration** cmdlet을 실행하려면 비즈니스용 Skype 서버 관리 셸을 사용하여 통화 파킹 응용 프로그램 설정을 관리해야 합니다. 비즈니스용 Skype 서버 제어판을 사용하여 통화 파크 응용 프로그램 설정을 관리할 수 없습니다. 
 
-## <a name="reconfigure-the-call-park-service-settings"></a>통화 대기 서비스 설정 다시 구성
+## <a name="reconfigure-the-call-park-service-settings"></a>통화 파크 서비스 설정 다시 구성
 
-1. 비즈니스용 Skype 서버 2019 프런트 엔드 서버에서 비즈니스용 Skype 서버 관리 셸을 엽니다.
+1. 비즈니스용 Skype 서버 2019 프런트 엔드 서버에서 비즈니스용 Skype 서버 관리 셸을 여는 경우
 
 2. 명령줄에 다음을 입력합니다.
 
     > [!NOTE]
-    > 비즈니스용 Skype 서버 2019 통화 대기 응용 프로그램 설정이 레거시 설정과 동일한 경우이 단계를 건너뛸 수 있습니다. 비즈니스용 Skype 서버 2019 및 레거시 환경에 대해 통화 대기 응용 프로그램 설정이 다르면 아래 cmdlet을 서식 파일로 사용 하 여 해당 변경 내용을 업데이트 합니다. 
+    > 비즈니스용 Skype 서버 2019 통화 파기 응용 프로그램 설정이 레거시 설정과 동일한 경우 이 단계를 건너뛸 수 있습니다. 비즈니스용 Skype 서버 2019 및 레거시 환경에 대해 통화 파킹 응용 프로그램 설정이 다른 경우 아래 cmdlet을 템플릿으로 사용하여 해당 변경 내용을 업데이트합니다. 
 
    ```PowerShell
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
    ```
 
-레거시 풀의 모든 통화 대기 번호 범위를 비즈니스용 Skype 서버 2019 풀로 다시 할당 하려면 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용할 수 있습니다. 
+레거시 풀에서 비즈니스용 Skype 서버 2019 풀로 모든 통화 파크 파운데이트 파크 궤도 범위를 다시 재할당하기 위해 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용할 수 있습니다. 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용 하 여 모든 통화 대기 궤도 범위 다시 할당
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용하여 모든 통화 파크 궤도 범위 재할당
 
-1. 비즈니스용 Skype 서버 제어판을 엽니다.
+1. 비즈니스용 Skype 서버 제어판을 니다.
 
-2. 왼쪽 창에서 **음성 기능**을 선택 합니다.
+2. 왼쪽 창에서 음성 **기능을 선택합니다.**
 
-3. **통화** 대기 탭을 선택 합니다. 
+3. 통화 **파크 탭을** 선택합니다. 
 
-4. 레거시 풀에 할당 된 각 통화 대기 번호 범위에 대해 **대상 서버 설정의 FQDN** 을 편집 하 고 통화 대기 요청을 처리할 비즈니스용 Skype 서버 2019 풀을 선택 합니다. 
+4. 레거시 풀에 할당된 각 통화 파크 파선 범위에 대해 대상 서버 **설정의 FQDN을** 편집하고 통화 파크 요청을 처리하기 위한 비즈니스용 Skype 서버 2019 풀을 선택합니다. 
 
-5. **커밋을** 선택 하 여 변경 내용을 저장 합니다. 
+5. 변경 **내용을** 저장하려면 커밋을 선택합니다. 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용 하 여 모든 통화 대기 궤도 범위 다시 할당
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 모든 통화 파크 파운데이트 범위 다시 전송
 
-1. 비즈니스용 Skype 서버 관리 셸을 엽니다.
+1. 비즈니스용 Skype 서버 관리 셸을 여는 경우
 
 2. 명령줄에 다음을 입력합니다.
 
@@ -71,14 +71,14 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
    Get-CsCallParkOrbit
    ```
 
-    이 cmdlet은 배포의 모든 통화 대기 번호 범위를 나열 합니다. **CallParkServiceId** 및 **CallParkServerFqdn** 매개 변수를 레거시 풀로 설정 하는 모든 통화 대기 궤도를 다시 할당 해야 합니다. 
+    이 cmdlet은 배포의 모든 통화 파킹된 통화 궤도 범위를 나열합니다. **CallParkServiceId** 및 **CallParkServerFqdn** 매개 변수를 레거시 풀로 설정한 모든 통화 파킹된 통화 궤도는 다시 배정해야 합니다. 
 
-    Skype for Business Server 2019 풀에 레거시 통화 대기 번호 범위를 다시 할당 하려면 명령줄에 다음을 입력 합니다.
+    레거시 통화 파크 궤도 범위를 비즈니스용 Skype 서버 2019 풀에 다시 재할당하기 위해 명령줄에 다음을 입력합니다.
 
    ```PowerShell
    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Skype for Business Server 2019 Pool FQDN>"
    ```
 
-모든 통화 대기 번호 범위를 비즈니스용 Skype 서버 2019 풀에 다시 할당 한 후에는 통화 대기 응용 프로그램에 대 한 마이그레이션 프로세스가 완료 되 고 비즈니스용 Skype 서버 2019 풀에서 이후의 모든 통화 대기 요청이 처리 됩니다.
+모든 통화 파킹된 통화선 범위를 비즈니스용 Skype 서버 2019 풀에 다시 다시 위임하고 나면 통화 파킹 응용 프로그램에 대한 마이그레이션 프로세스가 완료됩니다. 비즈니스용 Skype 서버 2019 풀은 이후의 모든 통화 파킹 요청을 처리합니다.
 
 

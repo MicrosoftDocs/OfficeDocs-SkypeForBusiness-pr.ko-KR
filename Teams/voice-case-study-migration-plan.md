@@ -1,5 +1,5 @@
 ---
-title: 팀 음성 Contoso 사례 연구
+title: Teams 음성 Contoso 사례 연구
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 여러 국가의 기업에 대 한 팀 음성 사례 연구
+description: 다국적 기업에 대한 Teams 음성 사례 연구
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d5429b4c45ccea82d1451210438bedd328618604
@@ -23,38 +23,38 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "44786091"
 ---
-# <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso 사례 연구: 팀 업그레이드 계획
+# <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso 사례 연구: Teams 업그레이드 계획
 
-비즈니스용 Skype에서 팀으로 마이그레이션을 할 때 Contoso는 최종 사용자에 게 쉬운 전환 환경을 제공 하고자 했습니다. 동시에 모든 사람을 팀으로 전환 하는 대신 하이브리드 연결을 설정 하 고 겹치는 기능 방법을 사용 하 여 사용자를 팀으로 이동 하기로 결정 했습니다. 이 허용 된 사용자는 팀 및 비즈니스용 Skype 온-프레미스에서 현재 상태를 공유 하 고 통신할 수 있습니다. 사용자가 전화 시스템의 파일럿을 입력 하면 팀 전용 모드로 옮겨졌습니다.
+비즈니스용 Skype에서 Teams로 마이그레이션하기로 결정한 Contoso는 최종 사용자에게 간편한 전환 환경을 제공하기를 원했습니다. 모든 사용자를 Teams로 동시에 전환하는 대신 하이브리드 연결을 설정하고 겹치는 기능 방법을 사용하여 사용자를 Teams로 이동하기로 결정했습니다. 이렇게 하면 Teams 및 비즈니스용 Skype의 사용자가 현재 상태와 통신을 공유할 수 있습니다. 사용자가 전화 시스템 파일럿에 들어가면 Teams 전용 모드로 이동했습니다.
 
-업그레이드, 메서드 및 모드에 대 한 기본 개념을 이해 하기 위해 Contoso는 다음 문서를 읽어 보세요.
+업그레이드, 메서드 및 모드에 대한 기본 개념을 이해하려면 Contoso에서 다음 문서를 읽어 읽습니다.
 
 - [Microsoft Teams 업그레이드 시작하기](upgrade-start-here.md)
 - [비즈니스용 Skype에서 Teams로 업그레이드](upgrade-to-teams-on-prem-overview.md) 
-- [마이그레이션 및 상호 운용성 지침](migration-interop-guidance-for-teams-with-skype.md)
+- [마이그레이션 및 상호 연동성 지침](migration-interop-guidance-for-teams-with-skype.md)
  
-Contoso는 비즈니스용 [Skype에서 팀으로 경로를 디자인](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions)하는 Ignite 2019 세션에도 참가 했습니다. Contoso는 다음 정보를 얻었습니다.
+또한 Contoso는 비즈니스용 Skype에서 Teams로의 경로를 디자인하는 Ignite 2019 [세션에 참석했습니다.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso는 다음에 대해 알아보았다.
 
-- 상호 운용성, 페더레이션, 업그레이드 동작 등의 기본 개념 
+- 상호 운영성, 페더전 및 업그레이드 동작과 같은 기본 개념 
 
-- TeamsUpgradePolicy 기반 공존 모드 및 관리 
+- TeamsUpgradePolicy 기반의 공존 모드 및 관리 
 
-- 최종 사용자 환경: 
+- 다음에 대한 최종 사용자 환경: 
 
   - 채팅 및 통화 
 
-  - 모임 예약 
+  - 모임일정 
 
-  - 팀 클라이언트의 공동 작업 기능 가용성 
+  - Teams 클라이언트의 공동 작업 기능 가용성 
 
-하이브리드 연결을 계획 하 고 구성 하려면 (온-프레미스 환경을 클라우드로 이동 하는 첫 번째 단계), Contoso는 [하이브리드 연결 계획](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) 및 [하이브리드 연결 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 을 참조 하세요. 
+하이브리드 연결을 계획하고 구성하기 위해, Contoso는 클라우드로 자신의 On-프레미스 환경을 [](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 이동하는 첫 번째 단계인 하이브리드 연결을 읽고 하이브리드 연결을 구성하여 다음 방법을 이해합니다. [](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) 
 
-  - Office 365와 페더레이션 하도록 온-프레미스 환경 서비스를 구성 합니다. 
+  - Office 365와 페더해지도록 자신의 On-프레미스 환경 서비스를 구성합니다. 
 
-  - Office 365을 신뢰 하도록 온-프레미스 환경을 구성 하 고 Office 365에서 공유 SIP 주소 공간 사용 
+  - Office 365를 신뢰하고 Office 365에서 공유 SIP 주소 공간을 사용하도록 자신의 On-프레미스 환경 구성 
 
-  - Office 365 테 넌 트에서 공유 SIP 주소 공간을 사용 하도록 설정 합니다.
+  - Office 365 테넌트에서 공유 SIP 주소 공간을 사용하도록 설정
 
-  - 기술 시험 운용 중에 아일랜드 모드를 사용 합니다.
+  - 기술 파일럿 중에 제도 모드를 사용 합니다.
 
-  - 사용자가 전화 시스템을 사용할 수 있게 되 면 사용자를 TeamsOnly 모드로 전환 합니다. 팀 전용 모드는 호출 계획 및 직접 라우팅에 필요 합니다. 
+  - 사용자가 전화 시스템에 사용하도록 설정되면 사용자를 TeamsOnly 모드로 전환합니다. TeamsOnly 모드는 통화 계획 및 직접 라우팅에 필요합니다. 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 또는 Office 365에서 팀 설정
+title: Microsoft 365 또는 Office 365에서 Teams 켜기
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Microsoft 365 또는 Office 365 조 직에 대해 Microsoft 팀을 설정 하 고, 개별 액세스를 제어 하도록 사용자 라이선스를 할당 하 고, 콘텐츠 원본을 허용 하거나 차단 하는 방법을 알아봅니다.
+description: Microsoft 365 또는 Office 365 조직에 대해 Microsoft Teams를 켜고, 사용자 라이선스를 할당하여 개별 액세스를 제어하고, 콘텐츠 원본을 허용하거나 차단하는 방법을 배워야 합니다.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -39,7 +39,7 @@ ms.locfileid: "46581809"
 
 
  
-개별 라이선스 관리에 대 한 자세한 내용을 보려면 [Microsoft 팀 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)참조 하세요. 
+개별 라이선스 관리에 대한 자세한 내용은 Microsoft Teams 서비스 [설명을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>전체 조직에 대해 Teams를 설정 또는 해제 

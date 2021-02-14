@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 이 항목에서 설명 하는 절차는 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 제거 하는 프로세스를 안내 하기 위해 디자인 되었습니다. 비즈니스용 Skype 서버 2019로 마이그레이션한 후에는 레거시 환경을 해제 하는 첫 번째 단계 중 하나입니다.
+description: 이 항목에 설명된 절차는 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 제거하는 프로세스를 안내하기 위해 제공됩니다. 비즈니스용 Skype 서버 2019로 마이그레이션한 후 레거시 환경을 해제하는 첫 번째 단계 중 하나입니다.
 ms.openlocfilehash: 2fbcebec1c873c595b0ad1d40b1d1d3e9b115a32
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "44752130"
 ---
 # <a name="remove-the-front-end-server"></a>프런트 엔드 서버 제거
 
-이 섹션에서 설명 하는 절차는 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 제거 하는 프로세스를 안내 하도록 디자인 되었습니다. 비즈니스용 Skype 서버 2019로 마이그레이션한 후에는 레거시 환경을 해제 하는 첫 번째 단계 중 하나입니다.
+이 섹션에 설명된 절차는 Enterprise Edition 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 제거하는 프로세스를 안내하기 위해 고안된 것입니다. 비즈니스용 Skype 서버 2019로 마이그레이션한 후 레거시 환경을 해제하는 첫 번째 단계 중 하나입니다.
   
 ## <a name="in-this-section"></a>이 섹션의 내용
 

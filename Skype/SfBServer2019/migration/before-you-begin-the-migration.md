@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 시작 하기 전에이 문서와 다음 가이드를 읽어 해당 역할을 배포 하는 과정을 숙지 하는 것이 좋습니다.
+description: 시작하기 전에 이 문서와 다음 가이드를 읽고 해당 역할을 배포하는 방법을 익숙해 두는 것이 좋습니다.
 ms.openlocfilehash: 89249622af6285943de40eed643e2ca7bbed392d
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "44753070"
 ---
 # <a name="before-you-begin-the-migration"></a>마이그레이션을 시작하기 전에
 
-시작 하기 전에 다음 문서를 읽고 해당 역할을 배포 하는 방법을 숙지 하는 것이 좋습니다.
+시작하기 전에 다음 문서를 읽고 해당 역할을 배포하는 방법을 익숙해 두는 것이 좋습니다.
     
 ## <a name="in-this-section"></a>이 섹션의 내용
 

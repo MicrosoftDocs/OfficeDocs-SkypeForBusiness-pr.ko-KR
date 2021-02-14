@@ -1,5 +1,5 @@
 ---
-title: 단계 6 파일럿 배포에서 프로덕션으로 이동
+title: 6단계 파일럿 배포에서 프로덕션으로 이동
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 이 섹션의 항목에서는 파일럿 배포에서 프로덕션 수준의 배포로 비즈니스용 Skype 서버 2019의 배포를 이동 하기 전에 완료 해야 하는 작업에 대해 설명 합니다.
+description: 이 섹션의 항목에서는 비즈니스용 Skype 서버 2019 배포를 파일럿 배포에서 프로덕션 수준 배포로 이동하기 전에 완료해야 하는 작업에 대해 설명합니다.
 ms.openlocfilehash: 2af1d78d866a935a975b3baa520f54fc780b0922
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "44752490"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>6단계: 파일럿 배포에서 프로덕션으로 이동
 
-이 섹션의 항목에서는 파일럿 배포에서 프로덕션 수준의 배포로 비즈니스용 Skype 서버 2019의 배포를 이동 하기 전에 완료 해야 하는 작업에 대해 설명 합니다.
+이 섹션의 항목에서는 파일럿 배포에서 프로덕션 수준 배포로 비즈니스용 Skype 서버 2019 배포를 이동하기 전에 완료해야 하는 작업에 대해 설명합니다.
   
 ## <a name="in-this-section"></a>이 섹션의 내용
 
@@ -30,6 +30,6 @@ ms.locfileid: "44752490"
     
 - [마이그레이션 후 단순 URL 변경](change-simple-urls-after-migration.md)
     
-- [나머지 사용자를 비즈니스용 Skype 서버 2019로 이동](move-remaining-users.md)
+- [비즈니스용 Skype 서버 2019로 남은 사용자 이동](move-remaining-users.md)
     
 

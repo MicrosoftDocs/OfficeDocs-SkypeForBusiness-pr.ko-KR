@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: '비상 서비스 (911)와 기존 전화 서비스의 차이점 및 전화를 거는 방법에 대해 알아봅니다. '
+description: '응급 서비스(911)가 기존의 전화 서비스와 어떻게 다른지, 전화를 걸 수 있는 방법을 알아보겠습니다. '
 ms.openlocfilehash: 70978907e8fffa74a7284b3c0179088287a2b181
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -31,20 +31,20 @@ ms.locfileid: "44691454"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>긴급 통화 사용 약관
 
-## <a name="important-information"></a>중요 한 정보
+## <a name="important-information"></a>중요 정보
 
-비상 서비스 통화는 기존 전화 서비스와 Microsoft 365 또는 Office 365의 통화 요금제와 다르게 작동 합니다. Microsoft 365 또는 Office 365에서 이러한 차이점을 이해 하 고 모든 사용자에 게 통신 하는 것이 중요 합니다. 귀하는 응급 서비스 통화의 차이를 읽고 이해 하 고 있으며 Microsoft 365 또는 Office 365에서 각 사용자에 게 전화 계획을 제공 하는 것을 승인 하 고 동의 합니다.
+응급 서비스 통화는 Microsoft 365 또는 Office 365의 통화 요금제와 기존 전화 서비스와 다르게 작동됩니다. 이러한 차이점을 이해하고 Microsoft 365 또는 Office 365에서 통화 요금제로 모든 사용자에게 전달하는 것이 중요합니다. 귀하는 응급 서비스 통화의 차이점을 읽고 이해한 것을 인정하고 동의하며, Microsoft 365 또는 Office 365의 통화 플랜을 통해 각 사용자에게 이 고지 내용을 제공합니다.
   
-응급 서비스 통화 접근 권한 값에는 다음이 포함 됩니다. (i) 비즈니스용 Skype와 팀은 긴급 서비스 호출을 하는 발신자의 실제 위치를 알지 못할 수 있으며,이로 인해 통화가 잘못 된 비상 서비스 콜 센터로 경로 하 고 있으며, 비상 서비스가 잘못 된 위치로 디스패치되 게 될 수 있습니다. (ii) 사용자의 팀 클라이언트가 오프 라인 상태 이거나 네트워크 중단 또는 정전 등의 이유로 인터넷에 액세스할 수 없는 경우에는 Microsoft 365 또는 Office 365의 전화 시스템을 통한 비상 서비스 호출이 지원 되지 않으며 제대로 작동 하지 않습니다. (iii) Microsoft 365 또는 Office 365의 통화 요금제는 전세계 어디에서 든 인터넷 연결을 사용할 수 있지만, 사용자는 해당 국가/지역의 적절 한 통화 센터로 라우팅되지 않기 때문에 귀하의 가정용 국가/지역 이외의 위치에서 비상 서비스를 호출 해서는 안 됩니다.
+응급 서비스 통화 기능의 차이점은 다음과 같습니다. (i) 비즈니스용 Skype와 Teams는 긴급 서비스 통화를 하는 발신자의 실제 위치를 알 수 없습니다. 이로 인해 잘못된 응급 서비스 콜 센터 및/또는 긴급 서비스가 잘못된 위치로 디스패치될 수 있습니다. (ii) 사용자의 Teams 클라이언트가 오프라인 상태이거나 사용자의 장치가 네트워크 정전 또는 정전과 같은 이유로 인터넷에 액세스할 수 없는 경우, Microsoft 365 또는 Office 365의 전화 시스템을 통한 응급 서비스 통화는 지원되지 않습니다. 작동할 것으로 예상되지 않습니다. (iii) Microsoft 365 또는 Office 365의 통화 요금제는 인터넷 연결을 사용할 수 있는 전 세계 어디에서나 사용할 수 있습니다. 통화가 해당 국가/지역의 적절한 콜 센터로 라우팅되지 않을 가능성이 높기 때문에 사용자는 집 국가/지역 외부 위치에서 응급 서비스 전화를 걸지 말아야 합니다.
   
 ## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](transferring-phone-numbers-common-questions.md)
 
-[통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[통화 요금제에 사용되는 다양한 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[긴급 통화 고지 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
