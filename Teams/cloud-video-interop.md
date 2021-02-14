@@ -53,7 +53,7 @@ Office 365는 타사 응용 프로그램을 SharePoint Online 사이트, 비즈�
 
 
 
-### <a name="partners-certified-for-microsoft-teams"></a>Microsoft Teams에 대해 인증된 파트너
+### <a name="partners-certified-for-microsoft-teams"></a>Microsoft Teams용 파트너 인증
 
 다음 파트너는 Microsoft Teams에 대한 비디오 Interop 솔루션을 제공합니다. 회사에서 기업 내에서 이러한 파트너의 조합으로 작업할 수 있습니다. 
 

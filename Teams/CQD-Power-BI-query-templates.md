@@ -40,12 +40,12 @@ Power BI 보고서에 액세스할 수 있는 [올바른 CQD](turning-on-and-usi
 |CQD 위치 향상된 Report.pbit     | CQD SPD 위치 보고서를 다시 이미징합니다. 작성 또는 사용자에 의해 추가 드릴스루와 함께 통화 품질, WiFi 작성, 안정성 및 평가 내 통화(RMC) 정보를 제공하는 9개 보고서가 포함되어 있습니다.  보고 환경을 최대화하려면 건물 데이터를 업로드해야 합니다.        |
 |CQD 모바일 디바이스 Report.pbit     | 통화 품질, 안정성 및 통화 평가를 포함하여 모바일 장치 사용자에 맞게 특별히 조정된 인사이트를 제공합니다. 모바일 네트워크, WiFi 네트워크 및 모바일 운영 체제 보고서(Android, iOS)를 확인합니다.        |
 |CQD PSTN 직접 라우팅 Report.pbit     |직접 라우팅을 통과하는 PSTN 호출에 대한 인사이트를 제공합니다. 자세한 내용은 CQD PSTN 직접 라우팅 보고서를 [사용하여 읽어보아야 합니다.](CQD-PSTN-report.md)         |
-|CQD 요약 보고서.pbit     |향상된 시각화, 향상된 프레젠테이션, 향상된 정보 밀도 및 롤링 날짜. 이러한 보고서를 통해 더 쉽게 식별할 수 있습니다. 사용하기 쉬운 대화형 지도를 사용하여 위치로 통화 품질을 드릴다운합니다. 9개 새 보고서:</p>- 전체 품질<br>- 안정성 전반<br>- RMC(내 통화 평가) 전체<br>- 컨퍼런스 품질<br>- P2P 품질<br>- 컨퍼런스 안정성<br>- P2P 안정성<br>- 컨퍼런스 RMC<br>- P2P RMC         |
+|CQD 요약 Report.pbit     |향상된 시각화, 향상된 프레젠테이션, 향상된 정보 밀도 및 롤링 날짜 이러한 보고서를 통해 더 쉽게 식별할 수 있습니다. 사용하기 쉬운 대화형 지도를 사용하여 위치로 통화 품질을 드릴다운합니다. 9개 새 보고서:</p>- 전체 품질<br>- 안정성 전반<br>- RMC(내 통화 평가) 전체<br>- 컨퍼런스 품질<br>- P2P 품질<br>- 컨퍼런스 안정성<br>- P2P 안정성<br>- 컨퍼런스 RMC<br>- P2P RMC         |
 |<strong>(New!)</strong> CQD Teams 사용률 보고서.pbit     | 조직의 사용자가 Teams를 사용하는 방법과 얼마나 많은지 보여줍니다. 보고 환경을 최대화하려면 건물 데이터를 업로드해야 합니다. 자세한 내용은 [CQD Power BI 보고서를 사용하여 Microsoft Teams 사용률을 읽습니다.](CQD-teams-utilization-report.md)        |
-|CQD 사용자 피드백(내 통화 평가) Report.pbit     | 조직에 대한 통화를 지원하기 위해 쉽게 사용할 수 있는 방식으로 내 통화 속도 데이터를 보여 줄 수 있습니다. 최종 사용자 교육 기회를 식별하기 위해 대문자를 통해 상호 참조합니다.        |
+|CQD 사용자 피드백(내 통화 평가) Report.pbit     | 조직에 대한 통화를 지원하기 위해 쉽게 사용할 수 있는 방식으로 내 통화 속도 데이터를 보여 줄 수 있습니다. 최종 사용자 교육 기회를 식별하기 위해 간결한 참조를 제공합니다.        |
 
 > [!TIP]
-> CQD 데이터에 대한 Power BI 보고서를 설정한 후 채널에 탭으로 추가합니다. 채널에서 **+** 선택한 후 **Power BI를 선택한** 다음 보고서를 찾습니다. 자세한 내용은 [Teams용 Power BI 탭을 사용하여 Embed 보고서를 읽습니다.](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams) Power BI 라이선스 및 CQD 관리자 자격 증명이 있는 사용자만 이러한 보고서에 액세스할 수 있습니다.
+> CQD 데이터에 대한 Power BI 보고서를 설정한 후 채널에 탭으로 추가합니다. 채널에서 **+** 선택한 후 **Power BI를** 선택한 다음 보고서를 찾습니다. 자세한 내용은 [Teams용 Power BI 탭을 사용하여 Embed 보고서를 읽습니다.](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams) Power BI 라이선스 및 CQD 관리자 자격 증명이 있는 사용자만 이러한 보고서에 액세스할 수 있습니다.
 
 
 ## <a name="related-topics"></a>관련 항목

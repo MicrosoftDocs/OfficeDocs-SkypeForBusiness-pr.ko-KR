@@ -1,1 +1,1 @@
-아직 Microsoft 팀 관리 센터에이 기능이 표시 되지 않나요? 현재 롤아웃 중 이며 아직 조직에서 사용할 수 없을 수도 있습니다. 예정 된 팀 기능을 계속 유지 하려면 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)확인 하세요.
+Microsoft Teams 관리 센터에 이 기능이 아직 없는 경우 현재 롤아웃되고 있으며 조직에서 아직 사용할 수 없습니다. 예정된 Teams 기능을 계속 사용하길 [원하면 Microsoft 365 로드맵을 확인해 보아야 합니다.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)

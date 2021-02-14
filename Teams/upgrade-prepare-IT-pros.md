@@ -42,7 +42,7 @@ Microsoft 365 또는 Office 365 조직 관리자, 기술 책임자 및 지원 �
 IT 직원 구성원과 다음 리소스를 공유하고 Teams로 업그레이드하기 전에 사용자를 지원할 준비가 됐는지 확인
 
 - [Microsoft Teams에 대한 관리자 교육](itadmin-readiness.md)
-- [비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+- [비즈니스용 제품에 대한 고객 지원 센터 문의 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 - [Microsoft Teams 클라이언트의 연결 문제 해결](connectivity-issues.md)
 - [Microsoft Teams 문제 해결에 로그 파일 사용](log-files.md)
 

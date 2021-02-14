@@ -37,7 +37,7 @@ Teams PowerShell에는 모든 플랫폼에서 PowerShell 5.1 이상이 필요합
 > 최상의 환경을 위해 GA(일반 공급) 또는 공개 미리 보기 모듈을 모두 사용하지 않습니다. 함께 작업할 수 없습니다.
 
 
-**PowerShellGet** cmdlet을 사용하여 Teams PowerShell 모듈을 설치합니다. 시스템에 모든 사용자에 대한 모듈을 설치하려면 상승된 권한이 필요합니다. Windows에서 관리자 권한으로 실행을 사용하여 PowerShell 세션을 **시작하거나** macOS 또는 Linux에서 명령을 `sudo` 사용 합니다.
+**PowerShellGet** cmdlet을 사용하여 Teams PowerShell 모듈을 설치합니다. 시스템에 모든 사용자에 대한 모듈을 설치하려면 상승된 권한이 필요합니다. Windows에서 관리자 권한으로  실행을 사용하여 PowerShell 세션을 시작하거나 macOS 또는 Linux에서 명령을 `sudo` 사용 합니다.
 
 ```powershell
 Install-Module MicrosoftTeams
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-설치를 계속 진행하기 **위해 모두에 예** 또는 예로 응답합니다. 
+설치를 계속 진행하기 위해 Yes 또는 **Yes to All에** 응답합니다. 
 
 
 ## <a name="install-teams-powershell-public-preview"></a>Teams PowerShell 공개 미리 보기 설치
@@ -63,7 +63,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 > [!NOTE]
 > 공개 미리 보기 버전의 Teams PowerShell을 사용하는 경우 먼저 비즈니스용 Skype Online Connector를 제거하는 것이 좋습니다.
 
-시스템의 모든 사용자에 대해 Teams PowerShell 공개 미리 보기 모듈을 설치하려면 상승된 권한이 필요합니다. Windows에서 관리자 권한으로 실행을 사용하여 PowerShell 세션을 **시작하거나** macOS 또는 Linux에서 명령을 `sudo` 사용 합니다.
+시스템의 모든 사용자에 대해 Teams PowerShell 공개 미리 보기 모듈을 설치하려면 상승된 권한이 필요합니다. Windows에서 관리자 권한으로  실행을 사용하여 PowerShell 세션을 시작하거나 macOS 또는 Linux에서 명령을 `sudo` 사용 합니다.
 
 PowerShell 5.1을 사용하는 경우 **PowerShellGet** 모듈을 먼저 업데이트해야 합니다. **PowerShellGet을** 업데이트한 후 상승된 PowerShell 세션을 닫았다가 다시 열고 최신 **PowerShellGet이** 로드되도록 합니다.
 
@@ -84,7 +84,7 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 
 > [!NOTE]
 >
-> 비즈니스용 Skype Online 커넥터는 현재 최신 Teams PowerShell 모듈의 일부입니다.
+> 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
 > 최신 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 릴리스를 사용하는 경우 비즈니스용 Skype Online Connector를 설치할 필요가 없습니다.
 
 ```powershell

@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 비즈니스용 Skype Online에서는 기존 회의 정책 설정의 일부로 서 지점간 (P2P) 파일 전송을 제어할 수 있습니다. 그러나이 방법을 사용 하면 사용자가 같은 조직 내에 있거나 다른 조직의 페더레이션 사용자에 게 파일을 전송 하는지 여부에 관계 없이 파일 전송을 허용 하거나 차단할 수 있습니다. 아래 단계에 따라 페더레이션된 조직이 나 파트너와의 P2P 파일 전송을 차단할 수 있습니다.
+description: 비즈니스용 Skype Online에서는 기존 회의 정책 설정의 일부로 P2P(Point to Point) 파일 전송을 제어할 수 있습니다. 그러나 사용자가 동일한 조직 내에 있는 사용자 또는 다른 조직의 페더링된 사용자에게 파일을 전송하는지 여부에 따라 사용자에 대한 파일 전송을 허용하거나 차단합니다. 아래 단계에 따라 페더러드 조직 또는 파트너와의 P2P 파일 전송을 차단할 수 있습니다.
 ms.openlocfilehash: 150fb02daa1dcd7486a5bb495c7fd74f8d4736a1
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -28,53 +28,53 @@ ms.locfileid: "47814637"
 ---
 # <a name="block-point-to-point-file-transfers"></a>점 대 점 파일 전송 차단
 
-비즈니스용 Skype Online에서는 기존 회의 정책 설정의 일부로 서 지점간 (P2P) 파일 전송을 제어할 수 있습니다. 그러나이 방법을 사용 하면 사용자가 같은 조직 내에 있거나 다른 조직의 페더레이션 사용자에 게 파일을 전송 하는지 여부에 관계 없이 파일 전송을 허용 하거나 차단할 수 있습니다. 아래 단계에 따라 페더레이션된 조직이 나 파트너와의 P2P 파일 전송을 차단할 수 있습니다.
+비즈니스용 Skype Online에서는 기존 회의 정책 설정의 일부로 P2P(Point to Point) 파일 전송을 제어할 수 있습니다. 그러나 사용자가 동일한 조직 내에 있는 사용자 또는 다른 조직의 페더링된 사용자에게 파일을 전송하는지 여부에 따라 사용자에 대한 파일 전송을 허용하거나 차단합니다. 아래 단계에 따라 페더러드 조직 또는 파트너와의 P2P 파일 전송을 차단할 수 있습니다.
   
- 일반적으로 내부 사용자는 P2P 파일 전송을 사용할 수 있지만 페더레이션 파트너와 파일 전송을 차단 하는 경우가 있습니다. 이 시나리오에서는 다음을 수행 해야 합니다.
+ 매우 일반적인 시나리오는 내부 사용자가 P2P 파일 전송을 사용하지만 페더러드 파트너와의 파일 전송을 차단하려는 경우입니다. 이 시나리오에서는 다음을 해야 합니다.
   
-- P2P 파일 전송 기능을 사용 하는 회의 정책 (_EnableP2PFileTransfer_ 설정 _)을_조직의 사용자에 게 할당 합니다.
+- 조직의 사용자에게 P2P 파일 전송이 _활성화된(EnableP2PFileTransfer가_ _True로_ 설정) 회의 정책을 할당합니다.
     
-- 전역 외부 사용자 통신 정책 만들기 (_EnableP2PFileTransfer_ 를 _False_로 설정)로 차단 하 고 조직의 사용자에 게 해당 파일을 할당 하도록 설정 합니다. 
+- 외부 P2P 파일 _전송(EnableP2PFileTransfer가_ _False로_ 설정)을 차단하도록 설정된 전역 외부 사용자 통신 정책을 만들고 조직의 사용자에게 할당합니다. 
     
-이러한 설정에 대 한 자세한 내용은 [여기](https://technet.microsoft.com/library/mt228132.aspx)에서 확인할 수 있습니다.
+이러한 설정에 대한 자세한 내용은 여기에서 찾을 수 [있습니다.](https://technet.microsoft.com/library/mt228132.aspx)
   
-조직 외부의 페더레이션 사용자가 정책이 적용 된 사용자에 게 파일을 보내려고 하면 **전송 실패** 오류가 표시 됩니다. 사용자가 파일을 보내려고 하면 **파일 전송이 해제** 오류 메시지가 표시 됩니다.
+조직 외부의 페더러드 사용자가 정책이 적용된 사용자에게 파일을 보내고자 하면 전송 실패 **오류가** 표시됩니다. 사용자가 파일을 보내면 파일 전송이 해제된 **오류가** 표시됩니다.
   
-이 작업을 수행 하려면 사용자가 지원 되는 버전의 2016 간편 실행 비즈니스용 Skype 앱을 사용 해야 합니다. 다음의 최소 버전의 비즈니스용 Skype 2016 간편 실행 클라이언트를 선택 해야 합니다.
+이 작업을 진행하려면 사용자가 지원되는 2016 비즈니스용 Skype 앱의 지원되는 버전을 사용하고 있어야 합니다. 비즈니스용 Skype 2016 Click-to-Run 클라이언트의 최소 버전은 다음과 같습니다.
   
-|**유형**|**릴리스 날짜**|**버전**|**빌드한**|
+|**유형**|**릴리스 날짜**|**버전**|**빌드**|
 |:-----|:-----|:-----|:-----|
-|현재 채널의 첫 번째 릴리스  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |버전 1611 (빌드 7571.2006)  <br/> |
-|현재 채널  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |버전 1611 (빌드 7571.2072)  <br/> |
-|지연 채널  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |버전 1609 (빌드 7369.2118)  <br/> |
+|현재 채널의 첫 번째 릴리스  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |버전 1611(빌드 7571.2006)  <br/> |
+|현재 채널  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |버전 1611(빌드 7571.2072)  <br/> |
+|지연 채널  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |버전 1609(빌드 7369.2118)  <br/> |
    
 > [!CAUTION]
-> 이전 버전의 비즈니스용 Skype Windows 앱 또는 Mac 클라이언트를 사용 하는 사용자는 계속 파일을 전송할 수 있습니다. 
+> 이전 버전의 비즈니스용 Skype Windows 앱 또는 Mac 클라이언트를 사용하는 사용자는 여전히 파일을 전송할 수 있습니다. 
   
-## <a name="verify-and-start-windows-powershell"></a>Windows PowerShell 확인 및 시작
+## <a name="verify-and-start-windows-powershell"></a>확인 및 Windows PowerShell
 
-- **Windows PowerShell 버전 3.0 이상을 실행 하 고 있는지 확인**
+- **버전 3.0 Windows PowerShell 실행 중인지 확인**
     
-    1. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴**에서  >  **Windows PowerShell**을 수행 합니다.
+    1. 버전 3.0 이상을 실행하고 있는지 확인: 시작 메뉴를  >  Windows PowerShell.
         
-    2. **Windows PowerShell** 창에서 _Get-Host_ 를 입력 하 여 버전을 확인 합니다.
+    2. 웹 창에 _Get-Host를_ 입력하여 **Windows PowerShell** 확인
         
-    3. 버전 3.0 이상이 없는 경우 Windows PowerShell 업데이트를 다운로드 하 여 설치 해야 합니다. Windows [Management 프레임 워크 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 를 참조 하 여 windows PowerShell을 버전 4.0로 다운로드 하 고 업데이트 합니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
+    3. 버전 3.0 이상이 없는 경우 업데이트를 다운로드하여 설치해야 Windows PowerShell. 버전 [Windows Management Framework 4.0으로](https://go.microsoft.com/fwlink/?LinkId=716845) Windows PowerShell 다운로드하고 업데이트하려면 4.0을 참조합니다. 메시지가 표시될 때 컴퓨터를 다시 시작합니다.
         
-    4. 비즈니스용 Skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 팀 용 Windows PowerShell 모듈도 설치 해야 합니다. 
+    4. 또한 비즈니스용 Skype Online에 연결하는 원격 Windows PowerShell 세션을 만들 수 있는 Teams용 Windows PowerShell 모듈을 설치해야 합니다. 
     
-    자세한 정보를 알고 싶은 경우에 [는 단일 Windows PowerShell 창에서 모든 Microsoft 365 또는 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
+    자세한 내용은 단일 창에서 모든 [Microsoft 365 또는 Office 365 서비스에 Windows PowerShell 참조합니다.](https://technet.microsoft.com/library/dn568015.aspx)
     
-- **Windows PowerShell 세션 시작**
+- **세션 Windows PowerShell 시작**
     
-    1. **시작 메뉴**에서  >  **Windows PowerShell**을 실행 합니다.
+    1. 시작 **메뉴에서**  >  **Windows PowerShell.**
         
-    2. **Windows PowerShell** 창에서 다음을 실행 하 여 Microsoft 365 또는 Office 365에 연결 합니다.
+    2. 다음 **Windows PowerShell** 실행하여 Microsoft 365 또는 Office 365에 연결합니다.
     
         > [!NOTE]
-        > 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다.
+        > 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
         >
-        > 최신 [팀 PowerShell 공용 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/)를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
+        > 최신 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 릴리스를 사용하는 경우 비즈니스용 Skype Online Connector를 설치할 필요가 없습니다.
 
        ```PowerShell      
         Import-Module -Name MicrosoftTeams
@@ -83,21 +83,21 @@ ms.locfileid: "47814637"
         Import-PSSession $session
        ```
 
-   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Microsoft 365 또는 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
+   Windows PowerShell 시작에 대한 자세한 내용은 단일 Windows PowerShell 창에서 모든 [Microsoft 365 또는 Office 365](https://technet.microsoft.com/library/dn568015.aspx) 서비스에 연결 또는 [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="disable-p2p-file-transfers-for-your-organization"></a>조직에서 P2P 파일 전송을 사용 하지 않도록 설정
+## <a name="disable-p2p-file-transfers-for-your-organization"></a>조직의 P2P 파일 전송 사용 안
 
-기본적으로 _EnableP2PFileTransfer_ 는 조직의 글로벌 정책에 따라 사용 하도록 설정 됩니다. 이 파일을 만든 후에는 사용자에 게 _BposSAllModality_ 정책이 할당 되었습니다.
+기본적으로 _EnableP2PFileTransfer는_ 조직의 전역 정책에서 사용하도록 설정됩니다. 만들 때 사용자에게 _BposSAllModality 정책이 할당되었습니다._
   
-조직 내부에 대 한 P2P 전송을 허용 하지만 다른 조직에 대 한 외부 파일 전송을 차단 하는 경우 전역 수준 에서만 변경 해야 합니다. 이 작업을 수행 하려면 다음을 실행 합니다.
+조직 내부에서 P2P 전송을 허용하지만 다른 조직으로의 외부 파일 전송을 차단하려면 전역 수준에서 변경하면 됩니다. 이를 위해 다음을 실행합니다.
     
   ```PowerShell
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
-## <a name="disable-p2p-file-transfers-for-a-user"></a>사용자에 대해 P2P 파일 전송을 사용 하지 않도록 설정
+## <a name="disable-p2p-file-transfers-for-a-user"></a>사용자에 대한 P2P 파일 전송 사용 안 하도록 설정
 
-새 정책을 만들고 해당 사용자에 게 부여 하 여 사용자에 게 적용할 수 있습니다. 이 작업을 수행 하려면 다음을 실행 합니다. 
+새 정책을 만들고 해당 사용자에게 부여하여 사용자에게 적용할 수 있습니다. 이를 위해 다음을 실행합니다. 
 
 ```powershell
 New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
@@ -107,21 +107,21 @@ New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTr
 Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
 ```
 
-## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
+## <a name="want-to-know-more-about-windows-powershell"></a>자세한 내용은 Windows PowerShell?
 
-- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell 관리는 사용자 및 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 간소화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
     
   - [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Microsoft 365 또는 Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 또는 Office 365 PowerShell을 사용하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
+- Windows PowerShell Microsoft 365 관리 센터를 사용하는 경우와 같이 여러 사용자에 대해 한 번씩 설정을 변경하는 경우와 같이 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 배워야 합니다.
     
-  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-  - [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [비즈니스 Windows PowerShell 사용하여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [비즈니스용 Windows PowerShell Skype Online 관리 작업을 수행하는 데 사용할 수 있습니다.](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>관련 항목
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)

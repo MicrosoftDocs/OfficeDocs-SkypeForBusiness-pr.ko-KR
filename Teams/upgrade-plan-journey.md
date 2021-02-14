@@ -39,7 +39,7 @@ ms.locfileid: "49578441"
 - [비즈니스 요구에 따라 업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [사용자 파일럿 계획](pilot-essentials.md)
 
-여정을 계획한 후 업그레이드를 구현하기 [preparing your environment](upgrade-prepare-environment.md) 전에 환경을 준비하고 조직을 준비하는 데 관한 항목을 [읽습니다.](upgrade-to-teams.md) [preparing your organization](upgrade-prepare-organization.md)  
+여정을 계획한 후 업그레이드를 구현하기 [](upgrade-prepare-environment.md) 전에 환경을 준비하고 조직을 준비하는 데 관한 항목을 [읽습니다.](upgrade-to-teams.md) [](upgrade-prepare-organization.md)  
 
 > [!TIP]
 > 업그레이드 계획 및 구현을 시작하도록 설계된 지침, 모범 사례 및 리소스를 공유하는 라이브 대화형 워크샵에 참여하세요.

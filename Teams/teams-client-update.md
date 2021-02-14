@@ -1,5 +1,5 @@
 ---
-title: 팀 업데이트
+title: Teams 업데이트
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 이 문서에서는 Microsoft 팀 데스크톱 클라이언트를 업데이트 하는 프로세스에 대해 설명 합니다.
+description: 이 문서에서는 Microsoft Teams 데스크톱 클라이언트를 업데이트하는 프로세스에 대해 배웠습니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -24,42 +24,42 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031884"
 ---
-# <a name="teams-update-process"></a>팀 업데이트 프로세스
+# <a name="teams-update-process"></a>Teams 업데이트 프로세스
 
-팀 웹 앱이 매주 업데이트 됩니다.
+Teams 웹앱은 매주 업데이트됩니다.
 
-팀 데스크톱 클라이언트 업데이트는 기술 채택 프로그램을 통해 엄격 하 게 내부 테스트 및 유효성 검사 후 2 주 마다 릴리스됩니다 (탭). 이는 일반적으로 화요일에 발생 합니다. 중요 업데이트가 필요한 경우 팀은이 일정을 무시 하 고 업데이트가 제공 되는 즉시이를 해제 합니다.
+Teams 데스크톱 클라이언트 업데이트는 TAP(기술 채택 프로그램)를 통해 엄격한 내부 테스트 및 유효성 검사 후 2주마다 릴리스됩니다. 이 시간은 일반적으로 화요일에 진행됩니다. 중요한 업데이트가 필요한 경우 Teams는 이 일정을 무시하고 사용 가능한 즉시 업데이트를 릴리스합니다.
 
-데스크톱 클라이언트가 자동으로 업데이트 됩니다. 팀은 백그라운드에서 몇 시간 마다 업데이트를 확인 하 고 다운로드 한 다음 업데이트를 자동으로 설치 하기 전에 컴퓨터가 유휴 상태가 될 때까지 기다립니다.
+데스크톱 클라이언트는 자동으로 업데이트됩니다. Teams는 몇 시간마다 배후에서 업데이트를 확인하고, 다운로드한 다음, 자동으로 업데이트를 설치하기 전에 컴퓨터가 유휴될 때까지 기다릴 수 있습니다.
 
-또한 사용자는 앱 오른쪽 상단의 **프로필** 드롭다운 메뉴에서 **업데이트 확인** 을 클릭 하 여 수동으로 업데이트를 다운로드할 수 있습니다. 업데이트를 사용할 수 있는 경우 컴퓨터가 유휴 상태일 때 다운로드 되 고 자동으로 설치 됩니다.
+또한 사용자는 앱의 오른쪽  위에 있는 프로필  드롭다운 메뉴에서 업데이트 확인을 클릭하여 업데이트를 수동으로 다운로드할 수도 있습니다. 업데이트를 사용할 수 있는 경우 컴퓨터가 유휴일 때 다운로드되어 자동으로 설치됩니다.
 
-사용자에 게 업데이트를 다운로드 하려면 로그인 해야 합니다. 
+업데이트를 다운로드하려면 사용자가 로그인해야 합니다. 
 
-2019 년 7 월 31 일에 팀 클라이언트 업데이트는 업데이트 중 매우 낮은 네트워크 대역폭을 사용 합니다. 이 기능은 기본적으로 설정 되어 있으며 관리자 또는 사용자의 작업이 필요 하지 않습니다.
+2019년 7월 31일을 시작으로 Teams 클라이언트 업데이트는 업데이트 중에 훨씬 낮은 네트워크 대역폭을 사용합니다. 이 설정은 기본적으로 설정되어 있으며 관리자 또는 사용자의 조치가 필요 없습니다.
 
-## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>엔터프라이즈 용 Microsoft 365 앱 업데이트에 대 한 자세한 정보
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱 업데이트는 어떻게 하나요?
 
-Enterprise 용 microsoft [365 앱을 사용 하 여 Microsoft 팀 배포](https://docs.microsoft.com/DeployOffice/teams-install)에 설명 된 대로 Enterprise 용 Microsoft 365 앱을 새로 설치 하 여 팀이 기본적으로 설치 됩니다. 
+Teams는 엔터프라이즈용 Microsoft 365 앱을 사용하여 Microsoft Teams 배포에 설명된 엔터프라이즈용 Microsoft [365 앱의](https://docs.microsoft.com/DeployOffice/teams-install)새로운 설치를 통해 기본적으로 설치됩니다. 
 
-팀은 위에 설명 된 대로 자체 업데이트 프로세스를 수행 하 고 Word 및 Excel과 같은 다른 Office 앱에 대 한 업데이트 프로세스를 수행 하지 않습니다. 자세한 내용은 [엔터프라이즈 용 Microsoft 365 앱 업데이트 채널에 대 한 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) 를 읽어 보세요.
+Teams는 위에서 설명한 대로 자체 업데이트 프로세스를 따르며 Word 및 Excel과 같은 다른 Office 앱에 대한 업데이트 프로세스는 따르지 않습니다. 자세한 내용은 [엔터프라이즈용 Microsoft 365 앱의](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) 업데이트 채널 개요를 참조하세요.
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>VDI에서 팀을 업데이트 하는 방법은 무엇 인가요?
+## <a name="what-about-updates-to-teams-on-vdi"></a>VDI의 Teams 업데이트는 어떻게 하나요?
 
-VDI (가상 데스크톱 인프라)의 팀 클라이언트는 비 VDI 팀 클라이언트의 방식으로 자동 업데이트 되지 않습니다. [VDI에 팀을 설치](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)하는 지침에 설명 된 대로 새 MSI를 설치 하 여 VM 이미지를 업데이트 해야 합니다. 최신 버전으로 업데이트 하려면 현재 버전을 제거 해야 합니다.
+VDI(Virtual Desktop Infrastructure)의 Teams 클라이언트는 비 VDI Teams 클라이언트와 같은 방식으로 자동으로 업데이트되지 않습니다. VDI에 Teams를 설치하는 지침에 설명된 새 MSI를 설치하여 [VM 이미지를 업데이트해야 합니다.](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi) 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.
 
-## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>관리자가 팀 자동 업데이트 대신 업데이트를 배포할 수 있나요?
+## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>관리자가 Teams 자동 업데이트 대신 업데이트를 배포할 수 있나요?
 
-팀은 모든 배달 메커니즘을 통해 관리자에 게 업데이트를 배포 하는 기능을 제공 하지 않습니다.
+Teams는 배달 메커니즘을 통해 업데이트를 배포하는 기능을 관리자에게 제공하지 않습니다.
 
 ## <a name="servicing-agreement"></a>서비스 계약
 
-최신 온라인 서비스인 팀 클라이언트는 2 주 마다 자동으로 업데이트 됩니다. 팀은 최신 수명 주기 정책에 따라 관리 되므로 사용자가 데스크톱 클라이언트의 최신 버전을 그대로 유지 해야 합니다. 이렇게 하면 사용자에 게 최신 기능, 성능 향상, 보안 및 서비스 안정성이 제공 됩니다.
+최신 온라인 서비스인 Teams 클라이언트는 2주마다 자동으로 업데이트됩니다. Teams는 최신 수명 주기 정책이 적용되어 있기 때문에 사용자가 데스크톱 클라이언트의 최신 버전을 유지해야 합니다. 이렇게 하면 사용자가 최신 기능, 성능 향상, 보안 및 서비스 안정성을 사용할 수 있습니다.
 
-데스크톱 클라이언트가 만료 되는 경우를 식별 하는 기능을 지원 하기 위해 사용자의 현재 버전이 1 개월 이상 이전이 고 사용할 수 있는 새 버전이 있으면 앱에서 경고가 표시 됩니다. 이 앱 내 메시지는 사용자가 최신 버전의 팀으로 업데이트 하거나 필요한 경우 IT 관리자에 게 연락 하 여이 작업을 수행할 수 있도록 합니다. 3 개월 이상 지난 팀 데스크톱 클라이언트의 사용자에 게는 지금 업데이트 하는 옵션을 제공 하는 차단 페이지 (IT 관리자에 게 연락 하거나 웹의 팀으로 계속)가 표시 됩니다.
+데스크톱 클라이언트가 오래된 시간 식별을 시작하기 위해 사용자의 현재 버전이 1개월에서 3개월 사이인 경우와 사용 가능한 새 버전이 있는 경우 앱 내 경고가 표시됩니다. 이 앱 내 메시지는 사용자가 최신 버전의 Teams로 업데이트하거나 필요한 경우 IT 관리자에게 문의하여 업데이트하도록 권장합니다. 3개월이 넘은 Teams 데스크톱 클라이언트의 사용자는 지금 업데이트하거나, IT 관리자에게 문의하거나, 웹의 Teams로 계속할 수 있는 옵션을 제공하는 차단 페이지를 볼 수 있습니다.
 
-팀의 첫 번째 설치 및/또는 최초 실행 시 3 개월 이상의 데스크톱 클라이언트 버전이 앞에서 언급 한 서비스 정보를 시작 하기 전에 28 일 유예 기간을 보유 합니다. 이 기간 동안에는 자동 업데이트 프로세스가 팀 클라이언트를 업데이트 합니다. 업데이트 하지 않은 경우 사용자는 앱에서 최신 버전을 수동으로 업데이트 하거나 필요한 경우 IT 관리자에 게 연락 하 여이에 대 한 알림이 표시 됩니다. 여기에는 enterprise 번들 용 Microsoft 365 앱의 일부로 팀 데스크톱 클라이언트를 사용 하는 사용자가 포함 됩니다.
+Teams를 처음 설치 및/또는 처음 실행할 때 3개월 이상 경과된 데스크톱 클라이언트 버전에는 위에서 언급한 서비스 정보가 발생하기 전에 28일의 유예 기간이 있습니다. 이 기간 동안 자동 업데이트 프로세스는 Teams 클라이언트를 업데이트합니다. 업데이트되지 않은 경우 최신 버전의 Teams로 수동으로 업데이트하거나 필요한 경우 IT 관리자에게 문의하여 업데이트할 수 있도록 하는 앱 내 경고가 표시됩니다. 여기에는 Microsoft 365 Apps for Enterprise 번들의 일부로 Teams 데스크톱 클라이언트를 사용하는 사용자가 포함됩니다.
 
-현재 정부 클라우드의 팀 데스크톱 클라이언트는 추가 공지에 도달할 때까지이 서비스 계약에 대 한 예외를 발생 합니다.
+정부 클라우드의 Teams 데스크톱 클라이언트는 현재 추가 공지까지 이 서비스 계약에 대한 예외가 있습니다.
 
-새 버전 릴리스에 대 한 자세한 내용은 [메시지 센터](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) 를 확인 하거나 **Help**  >  클라이언트의 **새로운 기능** 에 대 한 도움말을 참조 하세요.
+새 버전 릴리스에 대한 자세한 내용은 [메시지](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) 센터를 확인하거나 클라이언트의 새로운 도움말로   >   이동하세요.

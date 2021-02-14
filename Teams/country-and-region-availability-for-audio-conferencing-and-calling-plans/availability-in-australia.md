@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 오스트레일리아에서 사용할 수 있는 Microsoft 팀입니다.
+description: 다음은 비즈니스용 Skype 및 오스트레일리아용 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
 ms.openlocfilehash: 8bb5d0cffc5cef59dd6a62f81973e6e96dae9fa9
 ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
@@ -36,14 +36,14 @@ ms.locfileid: "48818768"
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 오스트레일리아에서 사용할 수 있는 Microsoft 팀입니다.
+다음은 비즈니스용 Skype 및 오스트레일리아용 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
 
 ## <a name="audio-conferencing"></a>오디오 회의
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |음성 회의를 구매할 수 있나요?  <br/> |예  <br/> |
-|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |아니요. [저희에 게 문의 하세요](mailto:ptnapac@microsoft.com). <br/> |
+|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |아니요. [문의해 주세요.](mailto:ptnapac@microsoft.com) <br/> |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |사용 가능  <br/> |
 
 ## <a name="phone-system"></a>전화 시스템
@@ -59,36 +59,36 @@ ms.locfileid: "48818768"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|통화 플랜을 구매할 수 있나요?  <br/> |예, [Telstra 통화](https://aka.ms/TelstraVoicePlan)를 참조 하세요.  <br/> |
-|통화 플랜에서 사용 가능한 시간(분)  <br/> |[Telstra 통화](https://aka.ms/TelstraVoicePlan)를 참조 하세요. <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> |[Telstra 통화](https://aka.ms/TelstraVoicePlan)를 참조 하세요. <br/> |
+|통화 플랜을 구매할 수 있나요?  <br/> |예, [Telstra 통화를 참조합니다.](https://aka.ms/TelstraVoicePlan)  <br/> |
+|통화 플랜에서 사용 가능한 시간(분)  <br/> |[Telstra 통화를 참조합니다.](https://aka.ms/TelstraVoicePlan) <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> |[Telstra 통화를 참조합니다.](https://aka.ms/TelstraVoicePlan) <br/> |
 
 > [!IMPORTANT]
-> Telstra에서 제공 하는 오스트레일리아 구독자 번호를 삭제 하려면 Telstra에 직접 문의 하세요.
-> Telstra에서 제공 하는 오스트레일리아 구독자 번호에 대 한 긴급 주소 정보를 업데이트 하려면 Telstra에 직접 문의 하세요.
-> 자세한 내용은 [Telstra 통화](https://aka.ms/TelstraVoicePlan)를 참조 하세요.
+> 오스트레일리아 구독자 번호(Telstra에서 제공)를 삭제하려면 Telstra에 직접 문의합니다.
+> 오스트레일리아 구독자 번호(Telstra에서 제공)에 대한 긴급 주소 정보를 업데이트하기 위해 Telstra에 직접 문의하세요.
+> 자세한 내용은 [Telstra 통화를 참조하세요.](https://aka.ms/TelstraVoicePlan)
 
-### <a name="if-your-tenant-is-located-outside-australia"></a>테 넌 트가 오스트레일리아 외부에 있는 경우
+### <a name="if-your-tenant-is-located-outside-australia"></a>테넌트가 오스트레일리아 외부에 있는 경우
 
-2019 년 9 월 1 일부 터 테 넌 트가 오스트레일리아 외부에 있는 경우에는 오스트레일리아에 거주 하는 사용자에 대 한 통화 요금제를 구매할 수 있습니다. 이 기능은 다음 국가 및 지역에서 사용할 수 있습니다.
+2019년 9월 1일을 시작으로 테넌트가 오스트레일리아 외부에 있는 경우 오스트레일리아에 있는 사용자를 위한 통화 플랜을 구입할 수 있습니다. 다음 국가 및 지역에서 사용할 수 있습니다.
 
 |**기능**|**세부 정보**|
 |---------|---------|
-|아메리카    |미국 소수 외부 제도      |
-|APAC     |방글라데시, 부탄, 브루나이, 캄보디아, 홍콩, 인도네시아, Laos, 마카오, 말레이시아, 몰디브, 미얀마, 네팔, 필리핀, 싱가포르, 스리랑카, 태국, 동티모르-동티모르, 베트남|
-|슈팅    |올란드 군도, 부베이, 오스트리아, 벨기에, 아일랜드, 불가리아, 크로아티아, 키프로스, 체코 공화국, 덴마크, 에스토니아 페로 제도, 핀란드, 프랑스, 독일, 지브롤터, 그리스, 그린란드, Guernsey, 헝가리어, 아이슬란드, 아일랜드, 남자 섬, 이탈리아, 얀마웬, 뉴저지, 라트비아, 리히텐슈타인, 리투아니아, 룩셈부르크, 몰타, 모나코, 네덜란드, 노르웨이, 폴란드, 포르투갈, 루마니아, 산마리노, 슬로바키아, 슬로베니아, 스페인, 스발바르, 스웨덴, 스위스, 영국, 바티칸  |
+|아메리카    |미국, 미국 아웃리즈 제도      |
+|APAC     |방글라데시, 부탄, 브루나이, 캄보디아, 홍콩, 인도네시아, 라오스, 마카오, 말레이시아, 몰디브, 미얀마, 네팔, 필리핀, 싱가포르, 스리랑카, 태국, 동티모르, 베트남|
+|EMEA    |올란드 제도, 안도라, 오스트리아, 벨기에, 부베 섬, 불가리아, 크로아티아, 키프로스, 체코 공화국, 덴마크, 에스토니아, 페로 제도, 핀란드, 프랑스, 독일, 지브할타, 그리스, 그린란드, 과르지, 헝가리, 아이슬란드, 아일랜드, 맨, 이탈리아, Jan Mayen, 저지, 라트비아, 리히텐슈타인, 리투아니아, 룩셈부르크, 몰타, 모나코, 네덜란드, 노르웨이, 폴란드, 포르투갈, 루마니아, 산마리노, 슬로바키아, 슬로베니아, 스페인, 스발바르, 스웨덴, 스위스, 영국, 바티탄 시  |
 
-Telstra 통화는 오스트레일리아에 거주 하는 사용자와 Telstra에서 구축한 후 위에 나열 된 국가 및 지역에만 추가 기능으로 표시 됩니다. 다른 지역에 있는 사용자는 해당 하는 경우 계속 Microsoft 통화 계획 또는 직접 라우팅에 첨부 됩니다. 자세한 내용은 [Telstra 통화](https://aka.ms/TelstraVoicePlan)를 참조 하세요.
+Telstra 통화는 Telstra에서 프로비전된 후 위에 나열된 국가 및 지역에 있는 오스트레일리아에 있는 사용자만 추가 기능으로 표시됩니다. 다른 지리의 사용자의 경우 해당되는 경우 Microsoft 통화 요금제 또는 직접 라우팅을 계속 첨부합니다. 자세한 내용은 [Telstra 통화를 참조하세요.](https://aka.ms/TelstraVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | <ul><li>Adelaide <li>브리즈번 <li>  캔버라 <li>Darwin <li>멜버른 <li>Newcastle <li> Perth <li>지점 <li>Wollongong  |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | <ul><li>Adelaide <li>Brisbane <li>  Canberra <li>Darwin <li>멜버른 <li>Newcastle <li> Perth <li>시드니 <li>Wollongong  |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 
-자동 전화 교환에 대 한 유료 및 무료 전화 번호를 받으려면, 전화를 걸거나, 음성 회의 서비스 번호를 원하시면 [저희에 게 문의 하세요](mailto:ptnapac@microsoft.com).
+자동 전화 번호, 통화 큐 또는 오디오 회의 서비스 번호에 대한 무료 전화 번호를 사용하려는 경우 [문의해 주세요.](mailto:ptnapac@microsoft.com)
 
 ## <a name="communications-credits"></a>통신 크레딧
 

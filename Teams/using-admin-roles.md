@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀 관리자 역할을 사용 하 여 팀 관리
+title: Microsoft Teams 관리자 역할을 사용하여 Teams 관리
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,7 +19,7 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - seo-marvel-apr2020
 ms.reviewer: islubin
-description: 관리 역할을 사용 하 여 팀을 관리 하는 데 다른 수준의 액세스가 필요한 관리자를 지정 하는 방법을 알아봅니다.
+description: 관리 역할을 사용하여 Teams를 관리하기 위해 다양한 수준의 액세스 권한이 필요한 관리자를 지정하는 방법을 배워야 합니다.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 637d6e63b0eabdc9517e8d5cd5986ae7661ad118
@@ -29,56 +29,56 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/05/2020
 ms.locfileid: "48357616"
 ---
-# <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft 팀 관리자 역할을 사용 하 여 팀 관리
+# <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft Teams 관리자 역할을 사용하여 Teams 관리
 
-Azure AD (Active Directory)를 사용 하 여 Microsoft 팀을 관리 하기 위해 다른 수준의 액세스 권한을 필요로 하는 관리자를 지정할 수 있습니다. 관리자는 전체 팀 작업 부하를 관리할 수 있으며, 통화 품질 문제를 해결 하기 위한 권한을 위임 하거나 조직의 전화 통신 요구 사항을 관리할 수 있습니다.
+Azure AD(Azure Active Directory)를 사용하여 Microsoft Teams를 관리하기 위해 다양한 수준의 액세스 권한이 필요한 관리자를 지정할 수 있습니다. 관리자는 전체 Teams 워크로드를 관리하거나 통화 품질 문제를 해결하거나 조직의 전화 통신 요구 사항을 관리하기 위한 위임된 권한을 부여할 수 있습니다.
 
-## <a name="teams-roles-and-capabilities"></a>팀 역할 및 기능
+## <a name="teams-roles-and-capabilities"></a>Teams 역할 및 기능
 
-팀 서비스 관리자, 팀 통신 관리자, 팀 통신 지원 전문가, 팀 의사 소통 지원 엔지니어, 팀 디바이스 관리자의 여러 팀 관리자 역할이 제공 됩니다. 다음 표를 검토 하 여 각 역할이 수행할 수 있는 작업과 Microsoft 팀 관리 센터 및 PowerShell에서 관리자가 사용할 수 있는 도구에 대해 알아봅니다.
+Teams 서비스 관리자, Teams 통신 관리자, Teams 통신 지원 전문가, Teams 통신 지원 엔지니어 및 Teams 장치 관리자와 같은 여러 Teams 관리자 역할을 사용할 수 있습니다. 다음 표를 검토하여 각 역할이 할 수 있는 작업 및 관리자가 Microsoft Teams 관리 센터 및 PowerShell에서 사용할 수 있는 도구를 이해합니다.
 
-팔 로우 하려면 관리자 여야 합니다. 이 문서에서는 사용 권한을 얻기 위한 지침이 나와 있습니다.
+따라가기 위해 관리자 권한이 있어야 합니다. 사용 권한을 부여하기 위한 지침은 이 문서에 있습니다.
 
 <!-- add Global admin role? -->
 
-| 역할                                    | 수행할 수 있는 작업                                                           | 다음 도구에 액세스할 수 있습니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 역할                                    | 이러한 작업을 수행할 수 있습니다.                                                           | 다음 도구에 액세스할 수 있습니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Teams 서비스 관리자             | 팀 서비스를 관리 하 고 Microsoft 365 그룹을 관리 및 만듭니다.        | Microsoft 팀 관리 센터의 모든 내용과 관련 된 PowerShell 컨트롤에는 다음이 포함 됩니다.<ul><li> 모임 정책, 구성, 회의 브리지 등 모임을 관리 합니다. <sup>1, 3</sup></li><li>통화 정책, 전화 번호 목록 및 과제를 포함 하 여 음성 관리 <sup>1</sup></li><li>메시징 정책을 포함 하 여 메시지를 관리 합니다. <sup>1, 3</sup></li><li>페더레이션, 팀 업그레이드, 팀 클라이언트 설정을 비롯 한 모든 조직 차원의 설정을 관리 합니다. <sup>1, 3</sup></li><li>조직에서 팀을 관리 하 고 멤버 자격 (PowerShell을 통해 지원 되는 그룹 관리, 팀 관리 센터의 팀 관리)를 포함 하 여 관련 설정을 관리할 때 <sup>2, 3</sup></li><li>팀 인증 장치를 관리 하 고 구성 정책을 설정 및 할당 합니다. <sup>2</sup></li><li>고급 문제 해결 도구 집합을 사용 하 여 사용자 프로필 페이지를 보고 사용자 통화 품질 문제를 해결 합니다. <sup>3</sup> </li><li>Microsoft 팀 관리 센터의 모든 보고서에 액세스</li><li> 통화 품질 대시보드 (CQD)에 표시 된 데이터를 사용 하 여 테 넌 트의 통화 품질 및 안정성에 액세스 하 고 문제를 해결 하 고 통화 품질이 나쁜 사용자에 게 제공 됩니다. 필요에 따라 통화 품질 보고서를 새로 만들고, 업데이트 하 고, 제거 합니다. CQD 데이터 빌드를 업로드 하 고 업데이트 합니다.</li><li> [Microsoft 팀 관리 센터의 테 넌 트 앱 카탈로그에 앱 게시](manage-apps.md)</li></ul> |
-| Teams 커뮤니케이션 관리자      | 팀 서비스 내에서 통화 및 모임 기능을 관리 합니다.               | 모임 정책, 구성, 회의 브리지 등 모임을 관리 합니다. <sup>1, 3</sup><br><br> 통화 정책, 전화 번호 목록 및 과제를 포함 하 여 음성 관리 <sup>1</sup><br><br> 고급 문제 해결 도구 집합을 사용 하 여 사용자 프로필 페이지를 보고 사용자 통화 품질 문제를 해결 합니다. <sup>3</sup> <br><br> 통화 품질 대시보드 (CQD)에 표시 된 데이터를 사용 하 여 테 넌 트의 통화 품질 및 안정성에 액세스 하 고 문제를 해결 하려면 통화 품질이 떨어지는 사용자에 게 문의 하세요. 필요에 따라 통화 품질 보고서를 새로 만들고, 업데이트 하 고, 제거 합니다. CQD 데이터 빌드를 업로드 하 고 업데이트 합니다.|
-| Teams 커뮤니케이션 지원 엔지니어   | **고급** 도구를 사용 하 여 팀 내의 통신 문제를 해결 합니다. | 고급 문제 해결 도구 집합을 사용 하 여 사용자 프로필 페이지를 보고 사용자 통화 품질 문제를 해결 합니다. <sup>3</sup> <br><br> 통화 품질 대시보드 (CQD)에 표시 된 데이터를 사용 하 여 테 넌 트의 통화 품질 및 안정성에 액세스 하 고 문제를 해결 하려면 통화 품질이 떨어지는 사용자에 게 문의 하세요. |
-| 팀 의사 소통 지원 전문가 | **기본** 도구를 사용 하 여 팀 내의 통신 문제를 해결 합니다.    | 통화 분석에서 전화 문제 해결을 위한 사용자 프로필 페이지 액세스 검색하는 특정 사용자에 대한 사용자 정보만 볼 수 있습니다.<sup>3</sup> <br><br> CQD (통화 품질 대시보드)에서 제공 하는 데이터를 사용 하 여 테 넌 트의 통화 품질 및 안정성에 액세스 하 고 해당 문제를 해결 합니다. |
-| 팀 장치 관리자              | 팀 서비스에 사용 하도록 구성 된 장치를 관리 합니다.                    | 장치 구성 및 업데이트를 관리 하 고, 연결 된 주변 기기의 디바이스 상태 및 상태를 검토 하 고, 구성 프로필을 설정 및 적용 하 고, 장치를 다시 시작 합니다.<p>팀 디바이스 관리자 역할은 통화 품질 데이터 또는 통화 분석에 대 한 액세스를 제공 하지 않습니다. 통화 품질 데이터 또는 통화 분석을 보려면 팀 통신 관리자 역할을 할당 해야 합니다. |
+| Teams 서비스 관리자             | Teams 서비스를 관리하고 Microsoft 365 그룹을 관리하고 만들 수 있습니다.        | 다음을 포함하여 Microsoft Teams 관리 센터 및 관련 PowerShell 컨트롤의 모든 사항:<ul><li> 모임 정책, 구성 및 회의 브리지를 포함하여 모임을 관리합니다. <sup>1,3</sup></li><li>통화 정책, 전화 번호 인벤토리 및 할당을 포함하여 음성을 관리합니다. <sup>1</sup></li><li>메시징 정책을 포함하여 메시징을 관리합니다. <sup>1,3</sup></li><li>페더맹, 팀 업그레이드 및 팀 클라이언트 설정을 포함하여 모든 전체 설정을 관리합니다. <sup>1,3</sup></li><li>구성원 자격(PowerShell을 통해 지원되는 그룹 관리, Teams 관리 센터의 팀 관리)을 포함하여 조직의 팀 및 관련 설정을 관리합니다. <sup>2,3</sup></li><li>Teams 인증 디바이스를 관리하고 구성 정책을 설정하고 할당합니다. <sup>2</sup></li><li>고급 문제 해결 도구 도구를 사용하여 사용자 프로필 페이지를 보고 사용자 통화 품질 문제를 해결합니다. <sup>3</sup> </li><li>Microsoft Teams 관리 센터에서 모든 보고서에 액세스</li><li> CQD(통화 품질 대시보드)에 노출된 데이터를 사용하여 테넌트의 통화 품질 및 안정성에 액세스, 모니터링 및 문제를 해결하여 낮은 통화 품질의 영향을 미치는 사용자에게 제공합니다. 새 통화 품질 보고서를 만들고, 필요한 경우 통화 품질 보고서를 업데이트하고 제거합니다. CQD 건물 데이터를 업로드하고 업데이트합니다.</li><li> [Microsoft Teams 관리 센터에서 테넌트 앱 카탈로그에 앱 게시](manage-apps.md)</li></ul> |
+| Teams 커뮤니케이션 관리자      | Teams 서비스 내에서 통화 및 모임 기능을 관리합니다.               | 모임 정책, 구성 및 회의 브리지를 포함하여 모임을 관리합니다. <sup>1,3</sup><br><br> 통화 정책, 전화 번호 인벤토리 및 할당을 포함하여 음성을 관리합니다. <sup>1</sup><br><br> 고급 문제 해결 도구 도구를 사용하여 사용자 프로필 페이지를 보고 사용자 통화 품질 문제를 해결합니다. <sup>3</sup> <br><br> CQD(통화 품질 대시보드)에 노출된 데이터를 사용하여 테넌트의 통화 품질 및 안정성에 액세스, 모니터링 및 문제를 해결하여 통화 품질이 좋지 않은 사용자에게 제공합니다. 새 통화 품질 보고서를 만들고, 필요한 경우 통화 품질 보고서를 업데이트하고 제거합니다. CQD 건물 데이터를 업로드하고 업데이트합니다.|
+| Teams 커뮤니케이션 지원 엔지니어   | 고급 도구를 사용하여 Teams 내의 통신 문제를 **해결합니다.** | 고급 문제 해결 도구 도구를 사용하여 사용자 프로필 페이지를 보고 사용자 통화 품질 문제를 해결합니다. <sup>3</sup> <br><br> CQD(통화 품질 대시보드)에 노출된 데이터를 사용하여 테넌트의 통화 품질 및 안정성에 액세스, 모니터링 및 문제를 해결하여 통화 품질이 좋지 않은 사용자에게 제공합니다. |
+| Teams Communications 지원 전문가 | 기본 도구를 사용하여 Teams 내의 통신 문제를 **해결합니다.**    | 통화 분석에서 호출 문제 해결을 위한 사용자 프로필 페이지에 액세스합니다. 검색하는 특정 사용자에 대한 사용자 정보만 볼 수 있습니다.<sup>3</sup> <br><br> CQD(통화 품질 대시보드)에 노출된 데이터를 사용하여 테넌트의 통화 품질 및 안정성에 액세스, 모니터링 및 문제 해결 |
+| Teams 장치 관리자              | Teams 서비스에서 사용하도록 구성된 디바이스를 관리합니다.                    | 디바이스 구성 및 업데이트를 관리하고, 연결된 주변 장치의 디바이스 상태 및 상태를 검토하고, 구성 프로필을 설정 및 적용하고, 디바이스를 다시 시작합니다.<p>Teams 장치 관리자 역할은 통화 품질 데이터 또는 통화 분석에 대한 액세스를 제공하지 않습니다. 통화 품질 데이터 또는 통화 분석을 보거나 Teams 통신 관리자 역할을 할당해야 합니다. |
 
-<sup>1</sup> [PowerShell-비즈니스용 Skype 모듈](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
-PowerShell <sup>2 개</sup> [-Microsoft 팀 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3 개의</sup> [Microsoft 팀 관리 센터](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>1</sup> [PowerShell - 비즈니스용 Skype 모듈](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
+<sup>2</sup> [PowerShell - Microsoft Teams 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
+<sup>3</sup> [Microsoft Teams 관리 센터](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 <!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
-Microsoft 팀을 관리 하는 데 사용할 수 있는 관리 도구에 대 한 자세한 내용은 [Microsoft 팀 관리](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)를 참조 하세요.
+Microsoft Teams를 관리하는 데 사용할 수 있는 관리 도구에 대한 자세한 내용은 [Microsoft Teams 관리를 참조하세요.](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 
-팀에 적용 되는 제한, 사양 및 기타 요구 사항에 대 한 자세한 내용은 [Microsoft 팀에 대 한 제한 및 사양을](limits-specifications-teams.md)참조 하세요.
+Teams에 적용되는 제한, 사양 및 기타 요구 사항에 대한 자세한 내용은 Microsoft Teams의 제한 및 [사양을 참조하세요.](limits-specifications-teams.md)
 
 ## <a name="assign-users-to-each-role"></a>각 역할에 사용자 할당
 
-Azure AD에서 이러한 역할에 사용자를 할당할 수 있습니다. Azure AD의 사용자에 게 관리자 역할을 할당 하는 방법에 대 한 자세한 내용은 [Azure Active Directory에서 관리자 역할에 사용자 할당](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)을 참조 하세요.
+Azure AD에서 이러한 역할에 사용자를 할당할 수 있습니다. Azure AD에서 사용자에게 관리 역할을 할당하는 방법에 대한 자세한 내용은 Azure Active Directory에서 관리자 역할에 사용자 [할당을 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
 
-## <a name="cmdlets-available-for-each-role"></a>각 역할에 대해 제공 되는 cmdlet
+## <a name="cmdlets-available-for-each-role"></a>각 역할에 사용할 수 있는 Cmdlet
 
-이러한 관리자 역할에 대 한 대부분의 PowerShell 도구는 비즈니스용 Skype PowerShell 모듈에 살고 있으며, 이러한 관리자 역할이 비즈니스용 Skype Online에도 사용 되는 공유 설정을 제어 하는 데 액세스할 수 있다는 것을 기억해 야 합니다. 비즈니스용 Skype 관리자 역할은 또한 비즈니스용 Skype PowerShell 모듈의 모든 cmdlet에 액세스할 수 있습니다.
+이러한 관리자 역할에 대한 PowerShell 도구는 대부분 비즈니스용 Skype PowerShell 모듈에 있으며, 이러한 관리자 역할이 비즈니스용 Skype Online에도 사용되는 공유 설정을 제어하는 액세스 권한이 있는 일부 cmdlet에 유의해야 합니다. 비즈니스용 Skype 관리자 역할도 비즈니스용 Skype PowerShell 모듈의 모든 cmdlet에 액세스할 수 있습니다.
 
-비즈니스용 Skype PowerShell 모듈에서 주어진 역할에 대해 현재 사용할 수 있는 cmdlet의 전체 목록을 보려면 다음 단계를 수행 합니다.
+비즈니스용 Skype PowerShell 모듈에서 현재 제공된 역할에 사용할 수 있는 cmdlet의 전체 목록을 보기 위해 다음 단계를 수행합니다.
 
-1. 해당 역할을 사용자에 게 할당 하 고 사용자에 게 다른 역할이 없는지 확인 합니다.
-2. 비즈니스용 Skype PowerShell 모듈에 연결:<br>
+1. 사용자에게 해당 역할을 할당합니다(사용자에게 다른 역할이 없는지 확인).
+2. 비즈니스용 Skype PowerShell 모듈에 연결합니다.<br>
    a. $session = new-csonlinesession<br>
-   b. 가져오기-pssession $session<br>
-   c. **Get 모듈** 을 사용 하 여 가져온 세션의 이름 (임의로 생성 되는 이름)을 식별 합니다.<br>
-3. > 위의 **Get-Command-Module**  < *name* 을 사용 하 여 사용 가능한 모든 cmdlet을 식별 합니다.
+   b. Import-pssession $session<br>
+   c. **Get-Module을** 사용하여 가져온 세션의 이름을 식별합니다(임의로 생성된 이름임).<br>
+3. 위의 **Get-Command -Module** 이름을 사용하여>  <  cmdlet을 식별합니다.
 
 ### <a name="related-topics"></a>관련 항목
 
-- [Microsoft 팀 PowerShell 개요](teams-powershell-overview.md)
-- [Microsoft 팀 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-- [Microsoft 팀에서 팀 소유자 및 구성원 지정](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
+- [Microsoft Teams PowerShell 개요](teams-powershell-overview.md)
+- [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+- [Microsoft Teams에서 팀 소유자와 팀 구성원 할당](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
 

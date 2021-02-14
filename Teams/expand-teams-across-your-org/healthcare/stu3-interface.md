@@ -1,5 +1,5 @@
 ---
-title: 환자 App 및 EHR integration STU3 인터페이스
+title: 환자 앱 및 EHR 통합 STU3 인터페이스
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft 팀 환자 앱 및 STU3 인터페이스 사양에 전자 상태 레코드를 통합 하는 방법에 대해 자세히 알아보세요.
+description: Microsoft Teams Patients 앱 및 STU3 인터페이스 사양에 Electronic Health Records를 통합하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 4e20619badb2509d0a90f396563a98796e718e2f
@@ -29,75 +29,75 @@ ms.locfileid: "48803496"
 # <a name="stu3-interface-specification"></a>STU3 인터페이스 사양
 
 > [!NOTE]
-> 2020 년 10 월 30 일에 효력을 환자 앱이 만료 되어 팀의 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 으로 대체 되었습니다. 환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱과 연결 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
+> 2020년 10월 30일부로 환자 앱은 사용 중지되고 Teams의 [목록](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 앱으로 대체됩니다. 환자 앱 데이터는 팀을 백업하는 Office 365 그룹의 그룹 사서함에 저장됩니다. 환자 앱과 연결된 모든 데이터는 이 그룹에 유지되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 사용자는 목록 앱을 사용하여 목록을 다시 [만들 수 있습니다.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
 >
->목록을 사용 하는 경우 의료 기관에서 팀은 팀 모임에서 일반 환자 모니터링과의 interdisciplinary에 이르기까지 시나리오에 대 한 환자 목록을 만들 수 있습니다. 목록에서 환자 서식 파일을 확인 하 여 시작 하세요. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
+>목록을 사용하여 의료 조직의 관리 팀은 라운드 및학 간 팀 모임에서 일반 환자 모니터링에 이르는 시나리오에 대한 환자 목록을 만들 수 있습니다. 시작을 위해 목록에서 환자 서식 파일을 확인해 하세요. 조직에서 목록 앱을 관리하는 방법에 대한 자세한 내용은 목록 앱 [관리를 참조하세요.](../../manage-lists-app.md)
 
-Microsoft 팀 환자 앱을 사용 하도록 FTO r 서버를 설정 또는 재구성 하려면 앱이 액세스 해야 하는 데이터에 대 한 이해가 필요 합니다. FHIR 서버는 다음 리소스에 대해 번들을 사용 하 여 POST 요청을 지원 해야 합니다.
+Microsoft Teams Patients 앱에서 작동하기 위해 FHIR 서버를 설정하거나 다시 구성하려면 앱이 액세스해야 하는 데이터를 이해해야 합니다. FHIR 서버는 다음 리소스에 번들을 사용하여 POST 요청을 지원해야 합니다.
 
-- [환자가](#patient)
-- [탑](#observation)
+- [환자](#patient)
+- [관찰](#observation)
 - [조건](#condition)
-- [문제가](#encounter)
-- [Allergy Intolerance](#allergyintolerance)
-- [통신이](#coverage)
-- [투약 문](#medication-request) (DSTU2 버전의 PatientsApp에서 MedicationOrder를 대체 합니다.)
-- 위치 (이 리소스에서 필요로 하는 정보가 발생할 수 있음)
+- [인게이트](#encounter)
+- [내성성 발화](#allergyintolerance)
+- [적용 범위](#coverage)
+- [2진수](#medication-request) 문(PatientsApp의 DSTU2 버전에서 12진수로 대체)
+- 위치(이 리소스에서 필요한 정보는 Encounter에 포함될 수 있습니다.)
 
 > [!NOTE]
-> 환자 리소스는 유일한 필수 리소스 (앱이 전혀 로드 되지 않는)에만 사용 됩니다. 그러나 Microsoft 팀 환자 앱을 사용 하 여 최상의 최종 사용자 환경을 제공 하기 위해 파트너는 위에서 설명한 모든 사양에 대 한 지원을 구현 하는 것이 좋습니다.
+> 환자 리소스는 유일한 필수 리소스입니다(앱이 로드되지 않는 경우). 그러나 파트너는 Microsoft Teams Patients 앱의 최상의 최종 사용자 환경을 위해 아래 제공된 사양에 따라 위에서 언급한 모든 리소스에 대한 지원을 구현하는 것이 좋습니다.
 
-두 개 이상의 리소스에 대 한 Microsoft 팀 환자 앱의 쿼리는 요청에 대 한 번들 (일괄 처리)을 FTO r 서버의 URL에 게시 해야 합니다. 서버는 각 요청을 처리 하 고 각 요청과 일치 하는 리소스의 번들을 반환 합니다. 자세한 내용 및 예제는를 참조 하세요 [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) .
+두 개 이상의 리소스에 대한 Microsoft Teams Patients 앱의 쿼리는 FHIR 서버의 URL에 요청 번들(BATCH)을 게시해야 합니다. 서버는 각 요청을 처리하고 각 요청과 일치하는 리소스 번들을 반환해야 합니다. 자세한 정보 및 예제는 [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) 다음을 참조하세요.
 
-## <a name="capability-statement"></a>역량 명세서
+## <a name="capability-statement"></a>Capability 문
 
-최소 필수 필드는 다음과 같습니다.
+다음은 최소 필수 필드입니다.
 
- - 받침대
+ - REST
 
     - 모드
-    - 개입
-    - 자원: 종류
-    - 보안: [OAuth uri 용 확장](https://hl7.org/fhir/extension-oauth-uris.html)
+    - 상호 작용
+    - 리소스: 형식
+    - 보안: [OAuth URIS 확장](https://hl7.org/fhir/extension-oauth-uris.html)
     
- - Fto Rversion (코드에는 어떤 버전을 피벗할 것인지 이해 하기 위해 필요 합니다.)
+ - FhirVersion(피벗해야 하는 버전을 이해하려면 이 코드가 필요합니다.)
 
-[https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
+이 [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) 필드 집합에 대한 기타 세부 정보를 참조합니다.
 
-## <a name="patient"></a>환자가
+## <a name="patient"></a>환자
 
-다음은 Argonaut 환자 프로필 필드의 하위 집합인 최소 필수 필드입니다.
+Argonaut 환자 프로필 필드의 하위 집합인 최소 필수 필드는 다음과 같습니다.
 
- - Name. 지정 된
- - 패밀리 이름
- - 성별을
- - 생년월일
- - MRN (Identifier)
+ - Name.Given
+ - Name.Family
+ - Gender
+ - BirthDate
+ - MRN(식별자)
 
-[Argonaut 필드](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)외에도 멋진 사용자 환경을 위해 환자 앱에서는 다음 필드도 읽을 수 있습니다.
+[Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)필드 외에도, 환자 앱이 훌륭한 사용자 환경을 위해 다음 필드를 읽을 수 있습니다.
 
- - 이름을 사용 합니다.
- - Name. 접두사
- - [GeneralPractitioner]-GeneralPractitioner 참조는 환자 리소스 (표시 필드에만 해당)에 포함 되어야 합니다.
+ - Name.Use
+ - Name.Prefix
+ - [GeneralPractitioner] - GeneralPractitioner 참조는 Patient 리소스에 포함되어야 합니다(표시 필드만 해당).
 
-리소스 검색에서는/Patient/_search 및 다음 매개 변수에 POST 메서드를 사용 합니다.
+리소스 검색은 /Patient/_search POST 메서드와 다음 매개 변수를 사용합니다.
 
- - i
- - family = (가족 이름에 값이 포함 되어 있는 모든 환자 검색)
- - 지정 =\<substring>
- - 생년월일 = (정확한 일치)
- - 성별 = (관리자 성별 중 하나에 해당 하는 값)
- - \_count (반환 해야 하는 최대 결과 수) <br> 응답에는 검색 결과에 따라 반환 되는 레코드의 총 개수가 포함 되어야 하며 \_ 반환 되는 레코드 수를 제한 하기 위해 PatientsApp에서 사용 됩니다.
- - identifier =\<mrn>
+ - id
+ - family=(가족 이름에 값이 포함된 모든 환자를 검색)
+ - given=\<substring>
+ - birthdate=(exact match)
+ - gender=(values being one of the administrative-gender)
+ - \_count(반환해야 하는 결과의 최대 수) <br> 응답은 검색 결과로 반환된 총 레코드 수를 포함해야 합니다. 이 개수는 PatientsApp에서 반환되는 레코드 수를 제한하는 데 \_ 사용됩니다.
+ - identifier=\<mrn>
 
-목표는 다음을 수행 하 여 환자를 검색 하 고 필터링 할 수 있다는 것입니다.
+목표는 다음을 통해 환자를 검색하고 필터링할 수 있는 것입니다.
 
-- ID:이는 모든 자원의 모든 리소스에 있는 자원 ID입니다.
-- MRN이는 임상 직원이 알고 있는 환자에 대 한 실제 식별자입니다. 이 MRN는 FA r의 식별자 리소스 내에 있는 식별자 유형을 기반으로 이해 합니다.
+- ID: FHIR의 모든 리소스에 있는 리소스 ID입니다.
+- MRN: 이는 의료진이 알 수 있는 환자에 대한 실제 식별자입니다. 이 MRN은 FHIR의 식별자 리소스 내 식별자 유형을 기반으로 합니다.
 - 이름
 - 생년월일
 
-통화에 대 한 다음 예제를 참조 하세요.
+호출의 다음 예제를 참조합니다.
 
 ```
 Request:
@@ -237,28 +237,28 @@ Response:
 }
 ```
 
-[https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
+이 [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) 필드 집합에 대한 기타 세부 정보를 참조합니다.
 
-## <a name="observation"></a>탑
+## <a name="observation"></a>관찰
 
-[Argonaut Vital-Signs 프로필](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)의 하위 집합인 최소 필수 필드입니다.
+다음은 [Argonaut](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)Vital-Signs 프로필의 하위 집합인 최소 필수 필드입니다.
 
- - 유효 (날짜 시간 또는 기간)
- - 코드. 코딩 코드
- - 값
+ - 유효(날짜 시간 또는 기간)
+ - Code.Coding.Code
+ - ValueQuantity.Value
 
-Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 다음 필드도 읽을 수 있습니다.
+Argonaut 필드 외에도 환자 앱이 훌륭한 사용자 환경을 위해 다음 필드를 읽을 수 있습니다.
 
- - 코드. 표시
- - 단위
+ - Code.Coding.Display
+ - ValueQuantity.Unit
 
-리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
+리소스 검색은 GET 메서드 및 다음 매개 변수를 사용합니다.
 
- - 환자 =\<patient id>
- - _sort =-날짜
- - 범주 ("category = 필수-서명")에서 중요 한 서명 목록을 검색 하는 방법을 쿼리 합니다.
+ - patient=\<patient id>
+ - _sort=-date
+ - 범주("category=vital-signs"를 쿼리하여 중요한 기호 목록을 검색합니다.)
 
-통화에 대 한 다음 예제를 참조 하세요.
+호출의 다음 예제를 참조합니다.
 
 ```
 Request:
@@ -309,25 +309,25 @@ Response:
 }
 ```
 
-[https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
+이 [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) 필드 집합에 대한 기타 세부 정보를 참조합니다.
 
 ## <a name="condition"></a>조건
 
-다음은 [Argonaut condition 프로필](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)의 하위 집합인 필요한 최소 필드입니다.
+Argonaut 조건 프로필의 하위 집합인 최소 필수 [필드는 다음과 같습니다.](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)
 
- - 코드. 코딩 [0]. 표시
+ - Code.Coding[0]. 디스플레이
 
-Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 다음 필드도 읽을 수 있습니다.
+Argonaut 필드 외에도 환자 앱이 훌륭한 사용자 환경을 위해 다음 필드를 읽을 수 있습니다.
 
  - AssertedDate
- - 문제의
+ - 심각도
 
-리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
+리소스 검색은 GET 메서드 및 다음 매개 변수를 사용합니다.
 
- - 환자 =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-이 통화의 다음 예제를 참조 하세요.
+이 호출의 다음 예제를 참조합니다.
 
 ```
 Request:
@@ -372,51 +372,51 @@ Response:
 }
 ```
 
-[https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
+이 [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) 필드 집합에 대한 기타 세부 정보를 참조합니다.
 
-## <a name="encounter"></a>문제가
+## <a name="encounter"></a>인게이트
 
-[미국 핵심 발생 프로필](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) 의 하위 집합인 최소 필수 필드는 "필드에" 필드가 있어야 합니다. "
+다음은 미국 핵심 인재 프로필의 [하위](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) 집합인 최소 필수 필드입니다.
 
  - 상태
- - [0]을 입력 합니다. 코딩 [0]. 표시
+ - [0]을 입력합니다. 코딩[0]. 디스플레이
 
-또한 미국 Core 발생 프로필의 "지원 해야 하는" 필드에는 다음과 같은 필드가 있습니다.
+또한 US Core Encounter 프로필의 "반드시 지원해야 하는" 필드의 다음 필드는 다음과 같습니다.
 
- - 기간. 시작
- - 위치 [0]. 위치. 표시
+ - Period.Start
+ - Location[0]. Location.Display
 
-리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
+리소스 검색은 GET 메서드 및 다음 매개 변수를 사용합니다.
 
- - 환자 =\<patient id>
- - _sort: desc =\<field ex. date>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _sort:desc=\<field ex. date>
+ - _count=\<max results>
 
-목표는 환자 마지막으로 알려진 위치를 검색할 수 있다는 것입니다. 각 발생은 위치 리소스를 참조 합니다. 또한 참조에는 위치의 표시 필드도 포함 됩니다.
+목표는 환자의 마지막으로 알려진 위치를 검색할 수 있는 것입니다. 각 만남은 위치 리소스를 참조합니다. 참조에는 위치의 표시 필드도 포함되어야 합니다.
 
-[https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
+이 [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) 필드 집합에 대한 기타 세부 정보를 참조합니다.
 
-## <a name="allergyintolerance"></a>AllergyIntolerance
+## <a name="allergyintolerance"></a>2010-02-02
 
-다음은 [Argonaut AllergyIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) 프로필의 하위 집합인 최소 필수 필드입니다.
+다음은 [Argonaut일자세한Intolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) 프로필의 하위 집합인 최소 필수 필드입니다.
 
- - 코드. 텍스트
- - 코드. 코딩 [0]. 표시
- - ClinicalStatus/VerificationStatus (두 가지 모두 읽었습니다)
+ - Code.Text
+ - Code.Coding[0]. 디스플레이
+ - ClinicalStatus/VerificationStatus(둘 다 읽음)
 
-Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서 다음 필드도 읽을 수 있습니다.
+Argonaut 필드 외에도 환자 앱이 다음 필드를 읽을 수 있는 훌륭한 사용자 환경을 위해 다음 필드를 읽을 수 있습니다.
 
  - AssertedDate
- - 참고. 텍스트
- - 반응은
-    - 물질 (1 개의 코딩 요소)
-    - Manifestation (1 코딩 요소)
+ - Note.Text
+ - 반응
+    - 실체(하나의 코딩 요소)
+    - 매니페스트(하나의 코딩 요소)
 
-리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
+리소스 검색은 GET 메서드 및 다음 매개 변수를 사용합니다.
 
- - 환자 =  \<patient id>
+ - Patient =  \<patient id>
 
-통화에 대 한 다음 예제를 참조 하세요. 
+호출의 다음 예제를 참조합니다. 
 
 ```
 Request:
@@ -468,41 +468,41 @@ Response:
 }
 ```
 
-[https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
+이 [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) 필드 집합에 대한 기타 세부 정보를 참조합니다.
 
-## <a name="medication-request"></a>투약 요청
+## <a name="medication-request"></a>품사 요청
 
-[미국 Core 투약 요청 프로필](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html)의 하위 집합인 최소 필수 필드는 다음과 같습니다.
+다음은 미국 핵심 이력서 요청 프로필의 하위 집합인 최소 필수 [필드입니다.](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html)
 
- - 투약. 표시 (참조 하는 경우)
- - 투약 (if CodableConcept)
- - 기관 Edon
- - 요청자. 에이전트 디스플레이
+ - 표시할 수 있습니다(참조하는 경우)
+ - 2016년 4월 1일(CodableConcept인 경우)
+ - AuthoredOn
+ - Requester.Agent.Display
 
-멋진 사용자 환경을 위해 미국 Core 필드 외에도 환자 앱에서 다음 필드를 읽을 수 있습니다.
+US Core 필드 외에도 환자 앱이 훌륭한 사용자 환경을 위해 다음 필드를 읽을 수 있습니다.
 
- - DosageInstruction[..]. 본문
- - 본문
+ - 1000000000000000000000000000 텍스트
+ - 텍스트
 
-리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
+리소스 검색은 GET 메서드 및 다음 매개 변수를 사용합니다.
 
- - 환자 =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-[https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
+이 [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) 필드 집합에 대한 기타 세부 정보를 참조합니다.
 
-## <a name="coverage"></a>통신이
+## <a name="coverage"></a>적용 범위
 
-미국 Core 또는 Argonaut 프로필에서 다루지 않는 최소 필수 필드는 다음과 같습니다.
+다음은 미국 코어 또는 Argonaut 프로필에서 다루지 않는 최소 필수 필드입니다.
 
- - 그룹화에서 하나 이상의 요소를 사용 하 여
+ - 그룹화, 하나 이상의 요소
     - GroupDisplay
-    - 계획 표시
- - 안에
+    - PlanDisplay
+ - 기간
  - SubscriberId
 
-리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
+리소스 검색은 GET 메서드 및 다음 매개 변수를 사용합니다.
 
- - 환자 = \<patient id>
+ - Patient = \<patient id>
 
-[https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)이 필드 집합에 대 한 자세한 내용은을 참조 하세요.
+이 [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) 필드 집합에 대한 기타 세부 정보를 참조합니다.

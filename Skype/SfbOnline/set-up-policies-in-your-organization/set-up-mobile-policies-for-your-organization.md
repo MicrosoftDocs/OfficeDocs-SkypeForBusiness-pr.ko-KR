@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 사용자가 휴대 전화 번호 대신 회사 전화 번호를 사용 하 여 휴대폰으로 전화를 걸고 받을 수 있는 기능 등 모바일 장치에서 비즈니스용 skype Online에 연결 하는 방법을 설정할 수 있습니다. 이동성 정책은 전화를 걸거나 받을 때 Wi-fi 연결이 필요한 경우에도 사용할 수 있습니다.
+description: 사용자가 휴대폰 번호 대신 직장 전화 번호를 사용하여 휴대폰으로 전화를 걸고 받을 수 있는 기능 등 모바일 장치에서 비즈니스용 Skype 앱을 사용하여 비즈니스용 Skype Online에 연결하는 방법을 설정할 수 있습니다. 모바일 정책을 사용하여 호출을 걸거나 받을 Wi-Fi 연결을 요구할 수도 있습니다.
 ms.openlocfilehash: 5094a536a636300ea70a7d358e24ee5c0f511379
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -28,39 +28,39 @@ ms.locfileid: "47814747"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>조직의 모바일 정책 설정
 
-사용자가 휴대 전화 번호 대신 회사 전화 번호를 사용 하 여 휴대폰으로 전화를 걸고 받을 수 있는 기능 등 모바일 장치에서 비즈니스용 skype Online에 연결 하는 방법을 설정할 수 있습니다. 이동성 정책은 전화를 걸거나 받을 때 Wi-fi 연결이 필요한 경우에도 사용할 수 있습니다.
+사용자가 휴대폰 번호 대신 직장 전화 번호를 사용하여 휴대폰으로 전화를 걸고 받을 수 있는 기능 등 모바일 장치에서 비즈니스용 Skype 앱을 사용하여 비즈니스용 Skype Online에 연결하는 방법을 설정할 수 있습니다. 모바일 정책을 사용하여 호출을 걸거나 받을 Wi-Fi 연결을 요구할 수도 있습니다.
   
-정책을 만들 때 모바일 정책 설정을 구성 하거나, **Set-CsMobilityPolicy** cmdlet을 사용 하 여 기존 정책의 설정을 수정할 수 있습니다.
+정책을 만들 때 모바일 정책 설정을 구성하거나 **Set-CsMobilityPolicy** cmdlet을 사용하여 기존 정책의 설정을 수정할 수 있습니다.
   
 ## <a name="set-your-mobile-policies"></a>모바일 정책 설정
 
 > [!NOTE]
-> 비즈니스용 Skype Online의 모든 모바일 정책 설정에 대해 Windows PowerShell을 사용 해야 하며 **비즈니스용 skype 관리 센터**를 **사용할 수 없습니다** . 
+> 비즈니스용 Skype Online의 모든 모바일 정책 설정에 대해 Windows PowerShell 비즈니스용 Skype 관리 **센터를** 사용할 **수 없습니다.** 
   
-### <a name="verify-and-start-windows-powershell"></a>Windows PowerShell 확인 및 시작
+### <a name="verify-and-start-windows-powershell"></a>확인 및 Windows PowerShell
 
-- **Windows PowerShell 버전 3.0 이상을 실행 하 고 있는지 확인**
+- **버전 3.0 Windows PowerShell 실행 중인지 확인**
     
-    1. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴**에서  >  **Windows PowerShell**을 수행 합니다.
+    1. 버전 3.0 이상을 실행하고 있는지 확인: 시작 메뉴를  >  Windows PowerShell.
         
-    2. **Windows PowerShell** 창에서 _Get-Host_ 를 입력 하 여 버전을 확인 합니다.
+    2. 웹 창에  _Get-Host를_ 입력하여 **Windows PowerShell** 확인
         
-    3. 버전 3.0 이상이 없는 경우 Windows PowerShell 업데이트를 다운로드 하 여 설치 해야 합니다. Windows [Management 프레임 워크 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 를 참조 하 여 windows PowerShell을 버전 4.0로 다운로드 하 고 업데이트 합니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
+    3. 버전 3.0 이상이 없는 경우 업데이트를 다운로드하여 설치해야 Windows PowerShell. 버전 [Windows Management Framework 4.0으로](https://go.microsoft.com/fwlink/?LinkId=716845) Windows PowerShell 다운로드하고 업데이트하려면 4.0을 참조합니다. 메시지가 표시될 때 컴퓨터를 다시 시작합니다.
         
-    4. 비즈니스용 Skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 팀 용 Windows PowerShell 모듈도 설치 해야 합니다.
+    4. 또한 비즈니스용 Skype Online에 연결하는 원격 Windows PowerShell 세션을 만들 수 있는 Teams용 Windows PowerShell 모듈을 설치해야 합니다.
     
-    자세한 정보를 알고 싶은 경우에 [는 단일 Windows PowerShell 창에서 모든 Microsoft 365 또는 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
+    자세한 내용은 단일 창에서 모든 [Microsoft 365 또는 Office 365 서비스에 Windows PowerShell 참조합니다.](https://technet.microsoft.com/library/dn568015.aspx)
     
-- **Windows PowerShell 세션 시작**
+- **세션 Windows PowerShell 시작**
     
-    1. **시작 메뉴**에서  >  **Windows PowerShell**을 실행 합니다.
+    1. 시작 **메뉴에서**  >  **Windows PowerShell.**
         
-    2. **Windows PowerShell** 창에서 다음을 실행 하 여 Microsoft 365 또는 Office 365에 연결 합니다.
+    2. 다음 **Windows PowerShell** 실행하여 Microsoft 365 또는 Office 365에 연결합니다.
         
        > [!NOTE]
-       > 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다.
+       > 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
        >
-       > 최신 [팀 PowerShell 공용 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/)를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
+       > 최신 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 릴리스를 사용하는 경우 비즈니스용 Skype Online Connector를 설치할 필요가 없습니다.
 
        ```PowerShell      
         Import-Module -Name MicrosoftTeams
@@ -69,82 +69,82 @@ ms.locfileid: "47814747"
         Import-PSSession $session
        ```
 
-   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Microsoft 365 또는 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
+   Windows PowerShell 시작에 대한 자세한 내용은 단일 Windows PowerShell 창에서 모든 [Microsoft 365 또는 Office 365](https://technet.microsoft.com/library/dn568015.aspx) 서비스에 연결 또는 [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-### <a name="require-a-wifi-connection-for-video-for-a-user"></a>사용자의 비디오에 대 한 WiFi 연결 필요
+### <a name="require-a-wifi-connection-for-video-for-a-user"></a>사용자의 비디오에 WiFi 연결 필요
 
-- 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.
+- 이러한 설정에 대한 새 정책을 만들하려면 다음을 실행합니다.
    
    ```powershell
    New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
    ```
-   [새로운 CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+   [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet에 대한 자세한 내용은 다음을 참조합니다.
     
-- 만든 새 정책을 조직의 모든 사용자에 게 부여 하려면 다음을 실행 합니다.
+- 만든 새 정책을 조직의 모든 사용자에게 부여하기 위해 다음을 실행합니다.
    
    ```powershell
    Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
    ```
-   [CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+   [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet에 대한 자세한 내용은 다음을 참조합니다.
     
-  이미 정책을 만든 경우 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음[부여-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet을 사용 하 여 사용자에 게 해당 설정을 적용할 수 있습니다.
+  이미 정책을 만든 경우 [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet을 사용하여 기존 정책을 변경한 다음[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet을 사용하여 사용자에게 설정을 적용할 수 있습니다.
   
-### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>사용자가 비즈니스용 Skype 앱을 사용 하지 못하도록 방지
+### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>사용자가 비즈니스용 Skype 앱을 사용하지 못하도록 방지
 
-- 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.
+- 이러한 설정에 대한 새 정책을 만들하려면 다음을 실행합니다.
   ```PowerShell
   New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
   ```
-  [새로운 CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet에 대한 자세한 내용은 다음을 참조합니다.
     
-- 만든 새 정책을 Amos 대리석에 부여 하려면 다음을 실행 합니다.  
+- Amos Marble에 만든 새 정책을 부여하기 위해 다음을 실행합니다.  
    
    ```powershell
    Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
    ```
-   [CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+   [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet에 대한 자세한 내용은 다음을 참조합니다.
     
-  이미 정책을 만든 경우 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 [부여-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet을 사용 하 여 사용자에 게 해당 설정을 적용할 수 있습니다.
+  이미 정책을 만든 경우 [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet을 사용하여 기존 정책을 변경한 다음 [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet을 사용하여 사용자에게 설정을 적용할 수 있습니다.
   
-### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>사용자가 모바일 장치를 사용 하 여 IP 통화를 할 수 없도록 설정
+### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>사용자가 모바일 장치를 사용하여 IP 통화를 통해 음성을 걸지 못하도록 방지
 
-- 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.
+- 이러한 설정에 대한 새 정책을 만들하려면 다음을 실행합니다.
    
    ```powershell
    New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
    ```
-   [새로운 CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+   [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet에 대한 자세한 내용은 다음을 참조합니다.
     
-- 만든 새 정책을 조직의 모든 사용자에 게 부여 하려면 다음을 실행 합니다.
+- 만든 새 정책을 조직의 모든 사용자에게 부여하기 위해 다음을 실행합니다.
    
    ```powershell
    Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
    ```
 
-  [CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet에 대한 자세한 내용은 다음을 참조합니다.
     
-이미 정책을 만든 경우 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음[부여-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet을 사용 하 여 사용자에 게 해당 설정을 적용할 수 있습니다.
+이미 정책을 만든 경우 [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet을 사용하여 기존 정책을 변경한 다음[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet을 사용하여 사용자에게 설정을 적용할 수 있습니다.
   
-## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
+## <a name="want-to-know-more-about-windows-powershell"></a>자세한 내용은 Windows PowerShell?
 
-- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell 관리는 사용자 및 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 간소화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
     
   - [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 해야 하는 여섯 가지 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 또는 Office 365를 관리하기 위해 Windows PowerShell 사용할 수 있는 6 가지 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
+- Windows PowerShell Microsoft 365 관리 센터를 사용하는 경우와 같이 여러 사용자에 대해 한 번씩 설정을 변경하는 경우와 같이 속도, 단순성 및 생산성에 많은 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 배워야 합니다.
     
-  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-  - [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [비즈니스 Windows PowerShell 사용하여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [비즈니스용 Windows PowerShell Skype Online 관리 작업을 수행하는 데 사용할 수 있습니다.](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>관련 항목
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
-[점 대 점 파일 전송 차단](block-point-to-point-file-transfers.md)
+[지점 및 지점 및 지점 파일 전송 차단](block-point-to-point-file-transfers.md)
 
 [조직의 클라이언트 정책 설정](set-up-client-policies-for-your-organization.md)
 

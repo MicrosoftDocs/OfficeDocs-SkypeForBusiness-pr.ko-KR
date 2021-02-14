@@ -1,5 +1,5 @@
 ---
-title: 건강 보험 조직의 서식 파일
+title: 의료 조직용 템플릿
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -20,7 +20,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Microsoft Graph에서 Microsoft 팀 서식 파일을 사용 하 여 미리 정의 된 서식 파일 (설정, 채널 및 앱)을 제공 하 여 팀을 빠르고 쉽게 만들 수 있습니다.
+description: Microsoft Graph와 함께 Microsoft Teams 서식 파일을 사용하여 설정, 채널 및 앱의 미리 정의된 서식 파일을 제공하여 빠르고 쉽게 팀을 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 4c2e10efbff98150b120d1c026d4d810629333f2
 ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
@@ -29,44 +29,44 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/28/2020
 ms.locfileid: "48790410"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직의 팀 템플릿 시작 하기
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직용 Teams 서식 파일 시작
 
-Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
+Microsoft Teams 서식 파일을 사용하면 설정, 채널 및 미리 설치된 앱의 미리 정의된 서식 파일을 제공하여 빠르고 쉽게 팀을 만들 수 있습니다.
 
-건강 보험 조직의 경우 사용자가 팀을 효과적으로 사용 하는 방법에 대 한 구조를 제공 하는 것 처럼 서식 파일은 특히 강력한 기능을 가질 수 있습니다. 또한 서식 파일을 사용 하면 관리자가 조직 간에 일관 된 팀을 배포할 수 있습니다. 이 문서는 의료 기관에서 여러 팀을 계획, 배포 및 관리 해야 하는 경우에 적합 합니다.
+의료 조직의 경우 템플릿은 사용자가 Teams를 효과적으로 사용하는 방법을 주도할 수 있는 구조를 제공하기에 특히 강력할 수 있습니다. 또한 템플릿을 사용하면 관리자가 조직 전체에 일관된 팀을 배포할 수 있습니다. 이 문서는 의료 조직 전체에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다.
 
-현재 다양 한 상황에 사용할 수 있는 제 2 자 건강 보험 템플릿을 제공 합니다. 팀 서식 파일에 대 한 일반적인 내용은 [팀 서식 파일 시작](../../get-started-with-teams-templates.md)을 참조 하세요.
+현재 다양한 상황에 사용할 수 있는 두 개의 첫 번째 의료 템플릿을 제공합니다. 일반적으로 팀 서식 파일에 대한 자세한 내용은 Teams 서식 [파일 시작을 참조합니다.](../../get-started-with-teams-templates.md)
 
-## <a name="ward-template"></a>서식 파일
+## <a name="ward-template"></a>Ward 서식 파일
 
-통합 서식 파일은 통합, pod 또는 부서 내에서 통신 및 공동 작업을 위해 고안 되었습니다. 이 서식 파일을 사용 하 여 환자 관리를 비롯 하 여 한 가지 작업에 대 한 운영 요구를 활용할 수 있습니다. 예를 들어, *팀* 알림은 *공지 사항* 채널에 게시 될 수 있으며, 교대 근무를 관리할 수 있습니다. 팔 로우 작업을 합리화 하려는 경우이 서식 파일을 사용할 수 있습니다.
+와드 서식 파일은 구, Pod 또는 부서 내에서 통신 및 공동 작업을 위한 것입니다. 이 템플릿은 환자 관리뿐만 아니라 구의 운영 요구를 용이하게 하는 데 사용할 수 있습니다. 예를 들어, 공지사항 채널에 와드  공지 사항을 게시할 수 있으며 교대 근무는 직원 관리에서 관리할 *수 있습니다.* 구 작업을 간소화하고자 하는 경우 이 템플릿을 사용할 수 있습니다.
 
-|기본 서식 파일 형식 |baseTemplateId |기준 서식 파일 채널|
+|기본 템플릿 유형 |baseTemplateId |기준 템플릿 채널|
 |:--- |:---|:---|
-|건강 보험 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 알림에서\* <br> Huddles\* <br> 소수\* <br> 자원\* <br> 교육\* |
+|의료 - Ward | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 공지\* <br> Huddles\* <br> 라운드\* <br> 직원 직원\* <br> 교육\* |
 |     | |         |
 
-\* 자동 즐겨찾기에
+\* 자동 즐겨찾기
 
 ## <a name="hospital-template"></a>병원 서식 파일
 
-병원 서식 파일은 병원의 여러 wards, pods, 부서 간의 통신과 공동 작업을 위한 것입니다. 이 서식 파일에는 *공지 사항* , *Custodial* , *Pharmacy* 를 포함 하 여 여러 가지 작동 채널이 포함 되어 있으며,이를 통해 서식 파일을 다양 한 추가 부서나 특별 중심 채널을 통해 확장 하 여 원하는 대로 추가, 삭제 또는 편집할 수 있는 스크립트를 제공 하기도 합니다. 예를 들어 *Endocrinology* 부서가 있지만 *Ophthalmology* 에 대 한 채널이 필요 하지 않은 경우 *Endocrinology* 채널을 포함 하 여 *Ophthalmology* 채널을 제거 하도록 스크립트를 적용할 수 있습니다. 이러한 특수 또는 즐겨찾기에 모델 채널은 알림 채도를 방지 하기 위해 자동으로 하지 않는 것이 좋습니다. 일반적으로 사용자는 관련 된 채널을 즐겨 찾는 것입니다.
+병원 템플릿은 여러 구, Pod 및 병원 내의 부서 간의 통신 및 공동 작업을 위한 것입니다. 이 템플릿에는 공지, 관리 및  *약국을* 비롯한 여러 운영 채널이 포함되어 있지만, 아래에는 원하는 채널에 추가, 삭제 또는 편집할 수 있는 다양한 부서 또는 특수 중심 채널로 템플릿을 확장하는 스크립트가 제공됩니다. 예를 들어, 내분비학 부서가 있지만 *Ophthalmology에* 대한 채널이 필요하지 않은 경우 스크립트를 조정하여 내분비 채널을 포함하고 *Ophthalmology* 채널을 제거할 수 있습니다.   알림 포화 방지를 위해 이러한 전문 채널 또는 구 모델링 채널을 자동으로 즐겨찾기하지 않는 것이 좋습니다. 사용자는 일반적으로 관련성이 있는 채널을 즐겨찾기합니다.
 
-|기본 서식 파일 형식 |baseTemplateId |기준 서식 파일 채널|
+|기본 템플릿 유형 |baseTemplateId |기준 템플릿 채널|
 |:--- |:---|:---|
-|건강 보험-병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 알림에서\* <br> 규정 준수\* <br> Custodial <br> 인적 자원 <br> Pharmacy |
+|의료 - 병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 공지\* <br> 규정 준수\* <br> Custodial <br> 인적 자원 <br> 약국 |
 | | |  |
 
-\* 자동 즐겨찾기에 
+\* 자동 즐겨찾기 
 
-## <a name="how-to-use-first-party-templates"></a>자사 서식 파일을 사용 하는 방법
+## <a name="how-to-use-first-party-templates"></a>첫 번째 파티 템플릿을 사용하는 방법
 
-이 템플릿을 사용 하려면 요청 본문의 ' template@odata. ' 속성을 ' standard '에서 위의 TemplateIDs로 변경 하면 됩니다.  팀 템플릿을 배포 하는 방법에 대 한 자세한 내용은 [팀을 만드는](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)방법에 대 한 Microsoft Graph 문서를 참조 하세요.
+이러한 템플릿을 사용하기 위해 요청 본문의 'template@odata.bind' 속성을 'standard'에서 위의 TemplateID로 변경하면 됩니다.  Teams 템플릿을 배포하는 방법에 대한 자세한 내용은 팀을 만드는 방법에 대한 Microsoft Graph [문서를 참조하세요.](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)
 
 > [!NOTE]
-> 서식 파일의 채널이 일반 탭 아래에 자동으로 생성 됩니다.
+> 템플릿의 채널은 일반 탭 아래에 자동으로 만들어집니다.
 
-### <a name="example-hospital-template-extension-script"></a>예: 병원 서식 파일 확장명 스크립트
+### <a name="example-hospital-template-extension-script"></a>예: 병원 템플릿 확장 스크립트
 
 ``` Powershell
 { 
@@ -174,4 +174,4 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 [의료 조직을 위한 Teams 시작](teams-in-hc.md)
 
-[관리 콘솔에서 팀 서식 파일 시작](../../get-started-with-teams-templates-in-the-admin-console.md)
+[관리 콘솔에서 Teams 서식 파일 시작](../../get-started-with-teams-templates-in-the-admin-console.md)

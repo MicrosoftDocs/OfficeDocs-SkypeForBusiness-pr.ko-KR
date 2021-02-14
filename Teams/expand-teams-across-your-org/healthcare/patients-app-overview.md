@@ -1,5 +1,5 @@
 ---
-title: '팀 용 환자 앱 관리자 '
+title: 'Teams 관리자를 위한 환자 앱 '
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,7 +16,7 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: 팀 용 환자 앱 관리자에 대 한 자세한 정보
+description: Teams 관리자를 위한 환자 앱에 대해 자세히 알아보기
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
 ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
@@ -28,51 +28,51 @@ ms.locfileid: "48803506"
 # <a name="patients-app-overview"></a>환자 앱 개요
 
 > [!NOTE]
-> 2020 년 10 월 30 일에 효력을 환자 앱이 만료 되어 팀의 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 으로 대체 되었습니다. 환자 앱 데이터는 팀을 백업 하는 Office 365 그룹의 그룹 사서함에 저장 됩니다. 환자 앱과 연결 된 모든 데이터는이 그룹에 보존 되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 사용자는 [목록 앱](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)을 사용 하 여 목록을 다시 만들 수 있습니다.
+> 2020년 10월 30일부로 환자 앱은 사용 중지되고 Teams의 [목록](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 앱으로 대체됩니다. 환자 앱 데이터는 팀을 백업하는 Office 365 그룹의 그룹 사서함에 저장됩니다. 환자 앱과 연결된 모든 데이터는 이 그룹에 유지되지만 사용자 인터페이스를 통해 더 이상 액세스할 수 없습니다. 사용자는 목록 앱을 사용하여 목록을 다시 [만들 수 있습니다.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
 >
->목록을 사용 하는 경우 의료 기관에서 팀은 팀 모임에서 일반 환자 모니터링과의 interdisciplinary에 이르기까지 시나리오에 대 한 환자 목록을 만들 수 있습니다. 목록에서 환자 서식 파일을 확인 하 여 시작 하세요. 조직에서 목록 앱을 관리 하는 방법에 대해 자세히 알아보려면 [목록 앱 관리](../../manage-lists-app.md)를 참조 하세요.
+>목록을 사용하여 의료 조직의 관리 팀은 라운드 및학 간 팀 모임에서 일반 환자 모니터링에 이르는 시나리오에 대한 환자 목록을 만들 수 있습니다. 시작을 위해 목록에서 환자 서식 파일을 확인해 하세요. 조직에서 목록 앱을 관리하는 방법에 대한 자세한 내용은 목록 앱 [관리를 참조하세요.](../../manage-lists-app.md)
 
-환자 응용 프로그램은 모든 팀 사용자가 사용할 수 있는 Microsoft 팀 스토어 앱입니다. 앱은 임상 작업자 (예: Nurses, 의사, 사교 작업자)로 구성 되는 환자 건강 팀이 라운드 및 interdisciplinary 팀 모임에서 일반 환자 모니터링에 이르기까지 시나리오에 대 한 환자 목록을 만들 수 있도록 해 줍니다.
+환자 애플리케이션은 모든 Teams 사용자가 사용할 수 있는 Microsoft Teams 스토어 앱입니다. 이 앱을 사용하면 의료 근로자(예: 간호사, 의사, 사회복지사)로 구성된 환자 의료 팀이 라운드 및 전문 간호사 팀 회의에서 일반 환자 모니터링에 이르는 시나리오에 대한 환자 목록을 큐레이터하고 검토할 수 있습니다.
 
-앱에는 두 가지 모드가 있습니다.
+앱에는 다음 두 가지 모드가 있습니다.
 
-- Emr를 통해 FA r을 통해 연결 하는 EMR 연결 모드입니다. EMR 연결 모드 앱은 비공개 미리 보기에서 유지 되며, 관련 고객 또는 관리자가 microsoft 365 조직에 대 한 정보로 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 에서 microsoft 전자 메일을 삭제 하 여 앱에 대 한 액세스를 요청할 수 있습니다.
-- 상태 팀이 환자 정보를 수동으로 추가/가져올 수 있도록 해 주는 수동 모드입니다. 이 응용 프로그램은 최종 사용자가 비공개 미리 보기에서 다운로드할 수 있는 팀 앱 스토어에서 제공 됩니다. 팀에서 [앱 설치 정책을](../../teams-app-setup-policies.md) 사용 하 여 특정 사용자 섹션으로 앱을 제한할 수 있습니다. 앱에 대 한 액세스 권한을 얻으려면 테 넌 트가 기술 채택 프로그램에 포함 되어 있어야 합니다 (탭). [Teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 에서 전자 메일을 삭제 하 여 액세스 요청 프로세스를 시작 하세요.
+- FHIR을 통해 EMR에 연결하는 EMR 연결 모드입니다. EMR 연결 모드 앱은 비공개 [미리](mailto:teamsforhealthcare@service.microsoft.com) 보기로 유지되고 관심 있는 고객 또는 관리자는 Microsoft 365 조직에 대한 정보가 있는 teamsforhealthcare@service.microsoft.com Microsoft에 전자 메일을 삭제하여 앱에 대한 액세스를 요청할 수 있습니다.
+- 의료 팀이 환자 정보를 수동으로 추가/가져올 수 있는 수동 모드입니다. 이 애플리케이션은 최종 사용자가 비공개 미리 보기로 다운로드할 수 있도록 Teams 앱 스토어에서 사용할 수 있습니다. Teams에서 앱 설정 정책을 사용하여 사용자의 특정 섹션으로 [앱을 제한할](../../teams-app-setup-policies.md) 수 있습니다. 앱에 액세스하려면 테넌트가 TAP(기술 채택 프로그램)에 참여해야 합니다. 액세스 권한을 요청하는 [](mailto:teamsforhealthcare@service.microsoft.com) 프로세스를 teamsforhealthcare@service.microsoft.com 전자 메일을 보내 주세요.
 
-## <a name="usage-example"></a>사용 예제
+## <a name="usage-example"></a>사용 예
 
-의료 wards의 모든 교대 근무에 대 한 세션을 반올림 하는 동안 nursing 스테이션에서 clinicians를 수집 하 여 진행 중인 환자에 대 한 최신 업데이트를 논의 합니다.  중요 한 주요 메트릭 (반드시 의료이 아닌 환자의 의료 기록)을 강조 표시 하 고 해당 진단을 기반으로 방전 시킬 수 있는 적절 한 glide 경로에 환자를 사용 하 고 있는지 확인 합니다. 이러한 환자를 반올림 하기 위해, 무료 nurse는 모든 clinicians이 추가 된 팀에 환자 앱을 설정 하 고 환자 목록에 환자를 추가 합니다. 라운드를 진행 하는 동안 환자에 대 한 nurses 및 기타 주의 givers는 모바일 장치에서 Microsoft 팀 및 환자 앱에 액세스 하 고 장치에서 관련 환자 정보를 업데이트 한 다음 상태 팀의 다른 사용자가 해당 업데이트와 메모를 보고 동기화 상태를 유지할 수 있습니다. 교대 근무의 시작 및 끝 부분에는 여러 disciplinary 팀 모임이 있어 환자 목록을 통해 환자 앱을 사용 하 고, 큰 디스플레이 화면에서 환자 앱을 사용 하 여 각 환자에 대 한 정보를 공유할 수 있습니다. 일부 경우에 따라 일부 clinicians는 이러한 팀 모임에 원격으로 전화를 걸 수 있으며 여전히 토론에 포함 될 수도 있습니다.
+의료 와드의 모든 교대 근무에 대해 반올라 세션을 진행하는 동안 의료진은 간호소에 모인 후 환자와 진행 상황을 논의합니다.  주요 중요한 메트릭(반드시 의료 또는 환자의 의료 기록에 명시적이지 않은 것)을 강조 표시하고 환자가 진단에 따라 퇴원할 올바른 경로에 있도록 합니다. 이러한 환자를 반올려하기 위해 담당 간호사는 모든 의사가 추가되는 팀에서 환자 앱을 설정하고 환자를 환자 목록에 추가합니다. 라운드 중에 간호사 및 환자를 위한 다른 진료 제공자는 모바일 장치에서 Microsoft Teams 및 환자 앱에 액세스하고 해당 장치에서 관련 환자 정보를 업데이트한 다음 의료 팀의 다른 모든 사람이 해당 업데이트와 메모를 보고 동기화된 상태일 수 있습니다. 교대 근무가 시작 및 종료될 때도 매일 두 번 다학제 팀 모임을 통해 환자 목록을 이동하고 환자 앱을 사용하여 환자 앱을 직접 접지하고 큰 디스플레이 화면에서 환자 앱을 사용하여 각 환자에 대한 정보를 공유할 수 있습니다. 종종 특정 의료진이 원격으로 이러한 Teams 모임에 전화를 걸 수도 있으며 여전히 토론에 참여할 수 있습니다.
 
 ## <a name="configure-patients-app"></a>환자 앱 구성
 
-EMR 모드 환자 앱을 사용 하기 위해 환경을 준비 하는 방법에 대 한 자세한 내용은 [Microsoft 팀에 전자 의료 기록 통합](patients-app.md)을 참조 하세요. 또한 조직에 대해 환자 앱을 사용 하도록 설정 하려면 [Microsoft 팀에서 앱 설정 관리 정책도](../../teams-app-setup-policies.md) 참조 해야 합니다.
+EMR 모드 Patients 앱을 사용하기 위해 환경을 준비하는 방법에 대한 자세한 내용은 [Microsoft Teams에 Electronic Healthcare 레코드](patients-app.md)통합을 참조하세요. 또한 조직에 환자 앱을 사용하도록 [설정하려면 Microsoft Teams에서](../../teams-app-setup-policies.md) 앱 설정 정책 관리도 참조해야 합니다.
 
-최종 사용자가 자신이 소유 하거나 관리 하는 팀에 환자 앱에 액세스 하 여 설치 하는 방법에 대 한 자세한 내용은 [Microsoft 팀 시작 환자](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)을 참조 하세요.
+최종 사용자가 환자 앱을 소유하거나 관리하는 팀에 액세스하고 설치하는 방법에 대한 자세한 내용은 Microsoft Teams 환자 시작을 [참조하세요.](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
-## <a name="frequently-asked-questions-faq"></a>자주 묻는 질문 (FAQ)
+## <a name="frequently-asked-questions-faq"></a>FAQ(질문과 대답)
 
-**환자 앱 데이터는 어디에 저장 되나요?**
+**환자 앱 데이터는 어디에 저장하나요?**
 
-최종 사용자가 열/필드 스키마를 포함 하 여 환자 앱에 입력 한 모든 데이터는 목록 및 목록 항목에 입력 한 실제 데이터 (즉, 환자)가 보안 및 준수 Exchange Online 인프라에 저장 됩니다. 모든 데이터는 팀과 연결 된 그룹 사서함에 저장 됩니다. 이 아키텍처는 환자 앱에서 데이터 영주권, 정부 구름 지원 (향후 출시 예정) 및 eDiscovery 지원 등의 기타 규정 준수/정보 보호 기능을 쉽게 처리할 수 있도록 합니다. 환자 앱은 팀 범위에서 작동 합니다. 팀 당 앱의 인스턴스를 설치 해야 합니다.
+열/필드 스마마, 목록 및 목록 항목(예: 환자)에 입력된 실제 데이터를 포함하여 최종 사용자가 환자 앱에 입력한 모든 데이터는 안전하고 호환되는 Exchange Online 인프라에 저장됩니다. 모든 데이터는 팀과 연결된 그룹 사서함에 저장됩니다. 이 아키텍처를 통해 환자 앱은 데이터 레지던시, 정부 클라우드 지원(향후 제공) 및 eDiscovery 지원과 같은 기타 규정 준수/정보 보호 기능을 쉽게 이행할 수 있습니다. 환자 앱은 팀 범위에서 운영됩니다. 팀당 앱의 인스턴스를 설치해야 합니다.
 
 <!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
 
-**환자 앱은 어디에서 받을 수 있나요?**
+**환자 앱을 어디에서 획득할 수 있나요?**
 
-관리자가 조직에 환자 앱을 사용 하도록 설정한 경우, 최종 사용자는 팀 app store로 이동 하 여 환자 앱을 구성원으로 속해 있는 팀에 추가할 수 있습니다. 자세한 내용은 [Microsoft 팀에서 앱 설정 정책 관리](../../teams-app-setup-policies.md)를 참조 하세요.
+관리자가 환자 앱을 사용하도록 설정한 경우 모든 최종 사용자는 Teams 앱 스토어로 이동하여 구성원인 팀에 환자 앱을 추가할 수 있습니다. 자세한 내용은 [Microsoft Teams에서 앱 설정 정책 관리를 참조하세요.](../../teams-app-setup-policies.md)
 
-**팀에서 환자 앱의 여러 인스턴스를 사용할 수 있나요?이는 내 말/단위가 작동 하는 방식입니다.**
+**와드/단위가 작동하는 방식이기 때문에 환자 앱의 여러 인스턴스가 팀에 있을 수 있나요?**
 
-현재는 주어진 팀에 대 한 환자 앱의 인스턴스 중 하나만 설치 하 고 일반 채널에만 설치할 수 있습니다. 그러나 앱 내에서 여러 목록을 만들어 다중 채널 또는 격리/구분 시나리오를 처리할 수 있습니다. 기본적으로 팀의 모든 구성원은 일반 채널의 환자 탭에 액세스할 수 있습니다. 
+현재는 특정 팀에 대해 환자 앱의 인스턴스를 하나만 설치할 수 있으며 일반 채널에만 설치할 수 있습니다. 그러나 앱 내에서 다중 채널 또는 분리/분리 시나리오를 해결하기 위해 여러 목록을 만들 수 있습니다. 기본적으로 팀의 모든 구성원은 일반 채널의 환자 탭에 액세스할 수 있습니다. 
 
-**환자 앱에서 모든 데이터를 내보낼 수 있나요?**
-지금 당장,이 기능은 곧 제공 될 예정입니다. 
+**Patients 앱에서 모든 데이터를 내보낼 수 있나요?**
+지금은 그렇지 않지만 이 기능은 곧 출시될 예정입니다. 
 
-**이 앱은 매우 유용 하 게 사용할 수 있으므로 승인 되지 않은 액세스 또는 규정 준수를 방지 하는 감사가 있나요?**
+**이 앱은 PHI를 수용하기 때문에 무단 액세스 또는 규정 준수를 방지하기 위한 감사가 있나요?**
 
-예. 환자 앱의 Microsoft 팀 사용자가 수행한 모든 단일 UI 동작은 감사 되 고 보안 및 준수 센터에서 사용할 수 있습니다. 세부 정보는 [환자 앱에 대 한 감사 로그](patients-audit.md)에 설명 되어 있습니다.
+예, 있습니다. Patients 앱의 Microsoft Teams 사용자가 수행한 모든 단일 UI 작업은 보안 및 규정 준수 센터에서 감사 및 사용할 수 있습니다. 자세한 내용은 환자 앱의 감사 [로그에 설명됩니다.](patients-audit.md)
 
 ## <a name="related-topics"></a>관련 항목
 

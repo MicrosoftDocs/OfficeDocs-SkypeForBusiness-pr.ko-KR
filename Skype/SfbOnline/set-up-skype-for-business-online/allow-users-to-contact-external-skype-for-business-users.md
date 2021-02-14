@@ -27,7 +27,7 @@ ms.custom:
 - O365P_ExternalCommDesc
 - O365P_ShareLync
 - LIL_Placement
-description: '다른 조직의 사용자에 게 대화를 보내거나 외부 대화 상대와 대화를 나눌 수 있도록 비즈니스용 Skype를 구성 하는 방법에 대해 알아봅니다. '
+description: '사용자가 다른 조직의 사용자와 대화할 수 있도록 비즈니스용 Skype를 구성하거나 외부 대화할 수 있도록 하는 방법을 참조하세요. '
 ms.openlocfilehash: d9b3be381432fa95962df7a5a58ea9d81e223fc4
 ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
@@ -37,114 +37,114 @@ ms.locfileid: "48625054"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용
   
-다음과 같은 경우이 문서에 나와 있는 단계를 사용 합니다.
+다음 경우 이 문서의 단계를 사용하세요.
   
-- 비즈니스의 다른 도메인에 사용자가 있는 경우 예를 Rob@ContosoEast.com 및 Ann@ContosoWest.com.
+- 비즈니스의 다른 도메인에 사용자가 있습니다. 예를 들어 Rob@ContosoEast.com Ann@ContosoWest.com.
 
-- 조직의 사용자가 조직 외부의 특정 비즈니스 사용자에 게 연락할 수 있도록 비즈니스용 Skype를 사용 하려고 합니다.
+- 조직의 사람들이 비즈니스용 Skype를 사용하여 조직 외부의 특정 비즈니스 사용자와 연락할 수 있도록 하려는 경우
 
-- 비즈니스용 Skype를 사용 하는 세계의 다른 사용자가 전자 메일 주소를 사용 하 여 사용자를 찾고 연락할 수 있도록 하려는 경우 사용자가 기본 비즈니스용 Skype 설정을 사용 하는 경우 자동으로 작동 합니다. 그렇지 않은 경우에는 구성에서 사용자의 도메인을 차단 하 고 있지 않은지 확인 해야 합니다.
+- 비즈니스용 Skype를 사용하는 전 세계 다른 사람이 전자 메일 주소를 사용하여 찾고 연락할 수 있도록 하려는 경우 사용자와 해당 사용자가 기본 비즈니스용 Skype 설정을 사용하는 경우 자동으로 작동됩니다. 그렇지 않은 경우 해당 구성이 도메인을 차단하지 않는지 확인해야 합니다.
 
-## <a name="enable-business-to-business-communications-for-your-users"></a>사용자에 대해 b2b 통신 사용
+## <a name="enable-business-to-business-communications-for-your-users"></a>사용자에 대한 기업 간 통신 사용
 
 <a name="bk_preview"> </a>
 
-이 통신을 수행 하려면 두 조직의 Microsoft 365 또는 Office 365에 [대 한 관리자 권한이](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 있어야 합니다.
+이 [통신을](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 위해 두 조직 모두에서 Microsoft 365 또는 Office 365의 관리자 권한이 있어야 합니다.
 
-![](../images/teams-logo-30x30.png) **팀 관리 센터를 사용 하 여** Microsoft 팀 로고를 표시 하는 아이콘
+![Teams 관리 센터를 사용하여 Microsoft ](../images/teams-logo-30x30.png) **Teams 로고를 표시하는 아이콘**
   
-1. Microsoft 365 또는 Office 365 관리자 계정으로 로그인 합니다.
+1. Microsoft 365 또는 Office 365 관리자 계정으로 로그인합니다.
 
-2. 관리 센터에서 **관리 센터**  >  **팀**으로 이동 합니다.
+2. 관리 센터에서 관리 **센터 Teams로**  >  **이동하세요.**
 
-    ![팀 관리자를 선택 합니다.](../images/MS-Teams-Admin.png)
+    ![Teams 관리자를 선택하세요.](../images/MS-Teams-Admin.png)
   
-3. **팀 센터**에서 **Skype** > **레거시 포털**을 선택 하세요 
-  ![ SfB 레거시 포탈을 선택 합니다.](../images/SFBlegacy-size65.png)
+3. Teams **센터에서** **Skype 레거시** > **포털을 선택하고** 
+  ![ SfB 레거시 포털을 선택하세요.](../images/SFBlegacy-size65.png)
 
-4. **비즈니스용 Skype 관리 센터**에서 **조직** > **외부 통신**을 선택합니다.
-5. 드롭다운 상자에서 특정 비즈니스 또는 다른 도메인의 사용자와의 통신을 설정하려면 **허용된 도메인에 대해서만**을 선택합니다.
+4. **비즈니스용 Skype 관리 센터** 에서 **조직** > **외부 통신** 을 선택합니다.
+5. 드롭다운 상자에서 특정 비즈니스 또는 다른 도메인의 사용자와의 통신을 설정하려면 **허용된 도메인에 대해서만** 을 선택합니다.
 
-    또는 비즈니스용 Skype 정책을 연 전세계의 모든 사용자와 통신을 사용 하도록 설정 하려면 **차단 된 도메인을 제외한**를 선택 합니다. 기본 설정입니다.
+    또는 비즈니스용 Skype 정책이 열려 있는 다른 모든 사용자와 통신할 수 있도록 설정하려면 차단된 도메인을 제외하고 **On을 선택하세요.** 기본 설정입니다.
 
-6. **차단 되거나 허용 된 도메인**에서 **+** 허용 하려는 도메인의 이름을 선택 하 여 추가 합니다.
+6. 차단되거나 **허용된** 도메인에서 허용할 도메인의 이름을 선택하고 **+** 추가합니다.
 
-7. 다른 조직의 관리자가 **비즈니스용 Skype 관리 센터**에서 동일한 단계를 수행 하는지 확인 합니다. 예를 들어 허용 된 **도메인** 목록에서 관리자는 자신의 비즈니스에 대 한 도메인을 입력 해야 합니다.
+7. 다른 조직의 관리자가 비즈니스용 Skype 관리 센터에서 동일한 단계를 **수행해야 합니다.** 예를 들어 **허용된** 도메인 목록에서 관리자는 비즈니스에 대한 도메인을 입력해야 합니다.
 
-8. Windows 방화벽을 사용 중인 경우 비즈니스용 Skype는 필요한 포트를 자동으로 엽니다.
+8. Windows 방화벽을 사용하는 경우 비즈니스용 Skype에서 필요한 포트가 자동으로 열립니다.
 
-    조직에서 다른 방화벽 솔루션을 사용 하 여 네트워크의 컴퓨터를 인터넷에 연결 하지 못하도록 제한 하는 경우 클라이언트 컴퓨터에서 다음 [Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)에 액세스할 수 있는지 확인 합니다. 방화벽 또는 프록시 인프라 구성의 아웃 바운드 허용 목록에 fqdn을 추가 해야 할 수 있습니다. ** \* api.skype.com**, \* **users.storage.live.com**및 **graph.skype.com**. 방화벽에서 이러한 포트를 여는 방법에 대 한 자세한 내용은 함께 제공 된 설명서를 확인 하세요.
+    조직에서 다른 방화벽 솔루션을 사용하여 네트워크의 컴퓨터를 인터넷에 연결하지 못하도록 제한하는 경우 클라이언트 컴퓨터가 다음 [Office 365 URL](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)및 IP 주소 범위에 액세스할 수 있도록 합니다. 방화벽 또는 프록시 인프라 구성의 아웃바운드 허용 목록에 FQDNS를 추가해야 할 수 있습니다. **\* .api.skype.com,** \* **.users.storage.live.com** 및 graph.skype.com.  방화벽에서 이러한 포트를 여는 방법에 대한 지침은 함께 제공된 설명서를 참조하세요.
 
-    열어야 할 모든 포트 목록은 [Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)를 참조 하세요.
+    열려는 데 필요한 모든 포트 목록은 [Office 365 URL](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)및 IP 주소 범위를 참조하세요.
 
-9. 조직의 관리자도 다음 단계를 따랐는지 확인 합니다.
+9. 조직의 관리자가 다음 단계를 수행해야 합니다.
 
-10. **테스트 하는 데 최대 24 시간까지 기다립니다**. 외부 통신 설정을 변경 하는 경우 변경 내용이 모든 데이터 센터에 걸친 최대 24 시간이 소요 될 수 있습니다.
+10. **테스트할 때까지 최대 24시간 동안 기다릴 수 있습니다.** 외부 통신 설정을 변경하면 변경 내용이 모든 데이터 센터에 채워지는 데 최대 24시간이 걸릴 수 있습니다.
 
-![Skype ](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) 를 이용 하시면 skype를 사용 하는 모든 사람과 메신저 대화를 사용자에 게 제공 하 여 무료 소비자 앱! 자세히 알아보려면 [비즈니스용 skype 사용자가 skype 연락처를 추가 하도록 허용](let-skype-for-business-users-add-skype-contacts.md)을 참조 하세요.
+![Skype를 사용하면 사용자가 무료 소비자 앱인 Skype를 사용하는 모든 사용자와 함께 검색하고 IM을 ](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) 할 수 있습니다. 자세한 내용은 비즈니스용 Skype 사용자가 Skype 연락처 [추가를 참조하세요.](let-skype-for-business-users-add-skype-contacts.md)
   
 ## <a name="test-and-troubleshoot"></a>테스트 및 문제 해결
 
 <a name="bk_preview"> </a>
 
- **B2b 통신을 설정할 때 발생 하는 가장 일반적인 문제로 인해 [Office 365 url 및 IP 주소 범위가](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) 적절 하 게 표시 됩니다.**
+ **기업 간 통신을 설정할 때 발생하는 가장 일반적인 문제는 [Office 365 URL](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) 및 IP 주소 범위를 올바른 범위로 설정하는 것입니다.**
   
-설정을 테스트 하려면 회사 방화벽 뒤에 있지 않은 비즈니스용 Skype에 대 한 연락처가 필요 합니다.
+설정을 테스트하려면 회사 방화벽 뒤에 있지 않은 비즈니스용 Skype의 연락처가 필요합니다.
   
-1. 외부 통신 설정을 변경한 후에는 **24 시간까지 테스트를 기다립니다**.
+1. 외부 통신 설정을 변경한 후 최대 **24시간 동안 기다렸다가 테스트합니다.**
 
-2. 비즈니스용 Skype에서 비즈니스용 Skype에서 대화 상대를 검색 하 고 채팅 요청을 보냅니다.
+2. 비즈니스용 Skype에서 비즈니스용 Skype에서 연락처를 검색하고 채팅 요청을 보내면 됩니다.
 
-    회사 정책 때문에 보낼 수 없다는 메시지가 표시 되는 경우 [Office 365 url 및 IP 주소 범위를 다시](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)확인 해야 합니다.
+    회사 정책으로 인해 보낼 수 없다는 메시지가 표시될 경우 [Office 365 URL](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)및 IP 주소 범위를 다시 확인해야 합니다.
 
-3. Skype for Business 연락처에 게 채팅 요청을 보내십시오. 요청을 받지 못한 경우 (방화벽 설정이 올바른지 이미 확인했다고 가정한다면) 방화벽 설정에 문제가 있는 것입니다.
+3. 비즈니스용 Skype 연락처에 채팅 요청을 보내달고 요청하세요. 요청을 받지 못한 경우 (방화벽 설정이 올바른지 이미 확인했다고 가정한다면) 방화벽 설정에 문제가 있는 것입니다.
 
-4. 문제가 방화벽에 속하지 않는 것을 테스트 하는 또 다른 방법은 커피숍과 같이 방화벽 뒤에 있지 않은 wifi 위치로 이동 하는 것입니다. 비즈니스용 Skype를 사용 하 여 대화 상대에 게 채팅 요청을 보냅니다. 메시지가 표시 되지만 작업 중에는 그렇지 않은 경우에는 방화벽이 문제가 되는 것을 알 수 있습니다.
+4. 문제가 방화벽인지 테스트하는 또 다른 방법은 커피숍과 같은 방화벽 뒤에 있지 않은 wifi 위치로 이동하는 것입니다. 비즈니스용 Skype를 사용하여 대화할 연락처에 요청을 보낼 수 있습니다. 메시지가 여기에 전달되지만 직장에 있는 경우가 아니라면 방화벽에 문제가 있는 것입니다.
 
-## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>다른 비즈니스에 연결할 때 발견 되는 다른 사용자를 찾는 방법
+## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>다른 비즈니스와 연결할 때 다른 사람을 찾고 찾는 방법
 
 <a name="bk_preview"> </a>
 
-다른 비즈니스용 Skype 사용자와 외부 통신을 사용 하도록 설정한 후 사용자는 로그인 이름을 검색 하 여 페더레이션된 Skype 사용자를 찾을 수 있습니다. 예를 Rob@contoso.com. 그런 다음 연락처 목록에 사용자를 추가 해야 합니다.
+다른 비즈니스용 Skype 사용자와의 외부 통신을 사용하도록 설정하면 사용자는 자신의 로그인 이름을 검색하여 페더링된 비즈니스용 Skype 사용자를 찾을 수 있습니다. 예제는 Rob@contoso.com. 그런 다음 연락처 목록에 해당 사람을 추가해야 합니다.
   
-![페더레이션된 비즈니스에서 사용자를 찾으려면 해당 전자 메일 주소를 검색 해야 합니다 (일반적으로 로그인 이름 이기도 함).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![페더러드 비즈니스에서 사용자를 찾으하려면 해당 전자 메일 주소를 검색해야 합니다(일반적으로 로그인 이름도 해당).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
-## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>페더레이션된 비즈니스와의 통신 설정에 대 한 팁
+## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>페더러드 기업과의 통신 설정에 대한 팁
 
 <a name="bk_preview"> </a>
 
-- 비즈니스용 Skype 2015 및 비즈니스용 Skype Online 간의 페더레이션을 구성 하려면이 문서: [비즈니스용 Skype online을 사용 하 여 페더레이션 구성](https://technet.microsoft.com/library/jj205126.aspx)을 참조 하세요.
+- 비즈니스용 Skype 2015와 비즈니스용 Skype Online 간에 페더맹을 구성하는 경우 이 문서를 [참조하세요. 비즈니스용 Skype Online으로](https://technet.microsoft.com/library/jj205126.aspx)페더맹 구성
 
-- Lync와 비즈니스용 Skype Online 간의 페더레이션을 구성 하려면이 문서에서는 [Lync Online 고객에 대 한 페더레이션 지원 구성을](https://technet.microsoft.com/library/hh202193.aspx)참조 하세요.
+- Lync와 비즈니스용 Skype Online 간에 페더링을 구성하기 위해 이 문서를 [참조하세요. Lync Online](https://technet.microsoft.com/library/hh202193.aspx)고객에 대한 페더링 지원 구성
 
-- Microsoft 365 또는 Office 365에 있는 두 개의 비즈니스용 Skype 사용자 들이 별도의 도메인에서 서로 통신 하는 경우, 두 조직 모두에 설정 된 비즈니스용 Skype 기능 (예: 비디오 대화 또는 데스크톱 공유)만 사용할 수 있습니다.
+- Microsoft 365 또는 Office 365의 두 사용자가 별도의 도메인에서 서로 통신하는 경우 두 조직에서 모두 켜진 비즈니스용 Skype 기능(예: 비디오 대화 또는 데스크톱 공유)만 사용할 수 있습니다.
 
-- 조직의 비즈니스용 Skype 사용자가 In-Place 또는 소송 보존에 저장 되어 있는 경우 해당 사용자와 다른 비즈니스용 Skype 또는 Skype 사용자 간 메신저 대화는 사서함에 **복구 가능한 항목** 으로 저장 됩니다. 이러한 대화는 사서함의 **대화 내용** 폴더에 저장 되지 않습니다.
+- 조직의 비즈니스용 Skype 사용자가 In-Place 또는 소송 보류에 추가된 경우 해당 사용자와 다른 비즈니스용 Skype 또는 Skype 사용자 간의  모든 IM 대화는 사서함의 복구 가능한 항목에 저장됩니다. 이러한 대화는 사서함의 대화 기록 **폴더에** 저장되지 않습니다.
 
-## <a name="turn-off-external-communication-for-specific-individuals"></a>특정 개인에 대 한 외부 통신 끄기
+## <a name="turn-off-external-communication-for-specific-individuals"></a>특정 개인에 대한 외부 통신 끄기
 
 <a name="bk_preview"> </a>
 
-전체 비즈니스에 대해 외부 통신을 사용 하도록 설정한 후에는 특정 개인에 대해서만 해제할 수 있습니다.
+전체 비즈니스에 대한 외부 통신을 사용하도록 설정한 후 특정 개인에 대한 외부 통신을 해제할 수 있습니다.
   
-1. Microsoft 365 또는 Office 365 관리자 계정으로 로그인 합니다.
+1. Microsoft 365 또는 Office 365 관리자 계정으로 로그인합니다.
 
-2. 관리 센터에서 **사용자**  >  **활성 사용자**로 이동 합니다.
+2. 관리 센터에서 사용자 활성  >  **사용자로 이동**
 
-3. 사용자 목록에서 사용자를 선택 하 고 **기타 설정**아래에 있는 **비즈니스용 Skype 속성 편집**을 클릭 합니다.
+3. 사용자 목록에서 사용자를 선택한 다음 추가 설정에서 비즈니스용 Skype 속성 **편집을 클릭합니다.** 
 
     ![비즈니스용 Skype 선택](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
-4. **비즈니스용 Skype 관리 센터**에서 **외부 통신**을 선택 합니다.
+4. 비즈니스용 **Skype 관리 센터에서** 외부 **통신을 선택하세요.**
 
-    **옵션** 페이지에서 모든 선택 항목이 선택 됩니다. 사용 하지 않을 통신을 선택 취소 합니다. 다음 이미지는 Jakob이 다른 신뢰할 수 있는 회사의 사용자와 통신할 수 있지만 다른 Skype 사용자와는 통신 하지 못하는 것을 보여줍니다.
+    옵션 **페이지에서** 모든 선택이 선택됩니다. 사용하지 않도록 설정하려는 통신의 선택을 취소합니다. 다음 이미지에서는 Jakob이 다른 Skype 사용자와는 통신할 수 없지만 신뢰할 수 있는 다른 비즈니스의 사용자와 통신할 수 있습니다.
 
     ![외부 연락처 선택](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
-5. **저장**을 선택 합니다.
+5. 저장을 **선택 합니다.**
 
 > [!NOTE]
-> 변경 내용이 적용 되려면 최대 24 시간 동안 기다려야 할 수 있습니다.
+> 변경 내용이 적용될 때까지 최대 24시간 동안 기다려야 할 수 있습니다.
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 

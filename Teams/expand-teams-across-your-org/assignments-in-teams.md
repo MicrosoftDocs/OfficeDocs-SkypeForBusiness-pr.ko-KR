@@ -39,7 +39,7 @@ ms.locfileid: "49616912"
 
 ## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 과제 통합
 
-Microsoft Teams 관리 센터에서 관리자 설정을 사용하여 조직 및 학생 내의 강사에 대한 기능을 설정하거나 해제할 수 있습니다. 다음은 할당과 관련된 설정입니다.
+Microsoft Teams 관리 센터에서 관리자 설정을 사용하여 조직 및 학생 내의 강사에 대한 기능을 설정하거나 해제할 수 있습니다. 할당과 관련된 설정은 다음과 같습니다.
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>주간 보호자 전자 메일 다이제스트
@@ -67,7 +67,7 @@ Microsoft Teams 관리 센터에서 관리자 설정을 사용하여 조직 및 
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-Microsoft MakeCode는 모든 학생의 컴퓨터 과학에 생명을 불어 드는 블록 기반 코딩 플랫폼입니다. 
+Microsoft MakeCode는 모든 학생에게 컴퓨터 과학을 생생하게 전하는 블록 기반 코딩 플랫폼입니다. 
 
 MakeCode는 Microsoft 사용 약관 및 개인 정보 취급 방침이 적용된 [Microsoft](https://go.microsoft.com/fwlink/?LinkID=206977) [제품입니다.](https://go.microsoft.com/fwlink/?LinkId=521839)
 
@@ -96,7 +96,7 @@ Teams에서 MakeCode 할당을 사용하도록 설정하려면 **Teams** 관리 
 **TurnitinApiUrl은** 관리 콘솔의 호스트 주소입니다.
 예: `https://your-tenant-name.turnitin.com`
 
-관리 콘솔은 통합과 연결된 API 키와 통합을 만들 수 있는 위치입니다.
+관리 콘솔에서는 통합과 연결된 API 키와 통합을 만들 수 있습니다.
 
 측면 **메뉴에서** 통합을 선택한 다음 통합 **추가를** 선택하고 통합에 이름을 지정합니다.
 

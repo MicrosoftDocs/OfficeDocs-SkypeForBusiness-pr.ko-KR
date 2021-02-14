@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀원 관리 센터에서 팀 관리
+title: Microsoft Teams 관리 센터에서 팀 관리
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-description: 조직에서 Microsoft 팀 관리 센터의 공동 작업에 대해 설정한 팀을 확인 하거나 업데이트 하는 방법에 대해 알아봅니다.
+description: Microsoft Teams 관리 센터에서 조직에서 공동 작업을 위해 설정한 팀을 보거나 업데이트하는 방법을 배워야 합니다.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -26,118 +26,118 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 09/15/2020
 ms.locfileid: "47814557"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft 팀원 관리 센터에서 팀 관리
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 팀 관리
 ==========================================
 
 ## <a name="overview"></a>개요
 
-이 문서에서는 Microsoft 팀 관리 센터의 팀을 위한 관리 도구에 대 한 개요를 제공 합니다.
+이 문서에서는 Microsoft Teams 관리 센터의 Teams용 관리 도구에 대한 개요를 제공합니다.
 
-관리자는 조직에서 공동 작업을 위해 설정한 팀을 보거나 업데이트 해야 하거나, 소유 하는 팀이 적은 사용자를 지정 하는 등의 재구성 작업을 수행 해야 할 수 있습니다. Microsoft 팀 PowerShell 모듈 및 Microsoft 팀 관리 센터를 통해 조직에서 사용 되는 팀을 관리할 수 있습니다. 의 관리 센터에 액세스할 수 있습니다 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . 이러한 두 도구 집합을 사용 하는 전체 관리 기능을 보려면 다음 역할 중 하나를 할당 했는지 확인 해야 합니다.
+관리자는 조직에서 공동 작업을 위해 설정한 팀을 보거나 업데이트해야 할 수도 있습니다. 또는 소유자가 없는 팀에 소유자를 할당하는 등의 수정 작업을 수행해야 할 수도 있습니다. Microsoft Teams PowerShell 모듈과 Microsoft Teams 관리 센터를 통해 조직에서 사용되는 팀을 관리할 수 있습니다. .에서 관리 센터에 액세스할 수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 있습니다. 이러한 두 도구 도구를 사용하는 전체 관리 기능의 경우 다음 역할 중 하나를 할당해야 합니다.
 
 - 전역 관리자
 - Teams 서비스 관리자
 
-팀에서 관리자 역할에 대 한 자세한 정보를 확인 하 여 팀을 [관리 하](using-admin-roles.md)고, [microsoft 팀 cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps)에서 팀을 관리 하는 PowerShell cmdlet을 사용 하는 방법에 대해 자세히 알아볼 수 있습니다.
+[Microsoft Teams](using-admin-roles.md)관리자 역할을 사용하여 Teams를 관리하는 Teams의 관리자 역할에 대해 자세히 알아보고, [Microsoft Teams cmdlet](https://docs.microsoft.com/powershell/teams/?view=teams-ps)참조에서 PowerShell cmdlet을 사용하여 팀을 관리하는 방법에 대해 자세히 읽어 볼 수 있습니다.
 
 
 
-## <a name="teams-overview-grid"></a>팀 개요 그리드
+## <a name="teams-overview-grid"></a>Teams 개요 눈금
 
-팀의 관리 도구는 Microsoft 팀 관리 센터의 **팀** 노드 아래에 있습니다. (관리 센터에서 **팀**  >  선택 **팀 관리**. 각 팀은 Microsoft 365 그룹에서 지원 되며,이 노드는 조직에서 Microsoft 팀을 사용 하도록 설정 된 그룹의 보기를 제공 합니다.
+팀을 위한 관리 도구는 Microsoft Teams 관리 **센터의 Teams** 노드 아래에 있습니다. (관리 센터에서 **Teams 선택**  >  **팀 관리.)** 각 팀은 Microsoft 365 그룹에서 지원하며, 이 노드는 조직에서 Microsoft Teams를 사용하도록 설정된 그룹의 보기를 제공합니다.
 
-![팀 개요 그리드 스크린샷](media/manage-teams-in-modern-portal-grid.png)  
+![Teams 개요 눈금 스크린샷](media/manage-teams-in-modern-portal-grid.png)  
 
-눈금에는 다음 속성이 표시 됩니다.
+그리드에 다음 속성이 표시됩니다.
 
 - **팀 이름**
-- **채널** -기본 일반 채널을 포함 하 여 팀에 있는 모든 채널의 수입니다.
-- **팀 구성원** -소유자, 게스트 및 테 넌 트의 구성원을 비롯 한 총 사용자의 수입니다.
-- **소유자** -이 팀의 소유자 수입니다.
-- **게스트** -이 팀의 구성원 인 Azure ACTIVE Directory B2B 게스트 사용자의 수입니다.
-- **개인 정보** -Microsoft 365 백업 그룹의 가시성/AccessType.
-- **상태** -이 팀의 보관 또는 활성 상태입니다. 자세한 내용은 [팀 보관 또는 복원](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)의 팀을 참고 하세요.
-- **Description** -Microsoft 365 백업 그룹에 대 한 설명입니다.
-- **분류** -조직에서 사용 되는 경우 Microsoft 365 백업 그룹에 할당 된 분류입니다. [조직의 Office 그룹에 대 한 만들기 분류의](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)분류에 대해 자세히 알아보세요.
-- **GroupID** -Microsoft 365 백업 그룹의 고유 GroupID입니다.
+- **채널** - 기본 일반 채널을 포함하여 팀의 모든 채널 수입니다.
+- **팀 구성원** - 소유자, 게스트 및 테넌트의 구성원을 포함한 총 사용자 수입니다.
+- **소유자** - 이 팀의 소유자 수입니다.
+- **게스트** - 이 팀의 구성원인 Azure Active Directory B2B 게스트 사용자 수입니다.
+- **개인 정보** 보호 - 지원 Microsoft 365 그룹의 가시성/AccessType입니다.
+- **상태** - 이 팀의 보관 또는 활성 상태입니다. 팀을 보관하거나 팀을 복원하는 [방법을 자세히 배워볼 수 있습니다.](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
+- **설명** - 지원 Microsoft 365 그룹에 대한 설명입니다.
+- **분류** - 백업 Microsoft 365 그룹에 할당된 분류(조직에서 사용되는 경우)입니다. 조직의 Office 그룹에 대한 분류 만들기에서 [분류에 대해 자세히 배워야 합니다.](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)
+- **GroupID** - 지원 Microsoft 365 그룹의 고유한 GroupID입니다.
 
 > [!NOTE]
-> 이러한 속성이 모두 눈금에 표시 되지 않으면 **열 편집** 아이콘을 클릭 합니다. **열 편집** 창에서 토글을 사용 하 여 모눈의 열을 설정 하거나 해제할 수 있습니다. 완료 되 면 **적용**을 클릭 합니다.
+> 눈금에 이러한 속성이 모두 표시되지 않는 경우 열 편집 **아이콘을** 클릭합니다. 열 **편집** 창에서 토글을 사용하여 눈금에서 열을 켜거나 끄면 됩니다. 완료되면 적용을 **클릭합니다.**
 
 ### <a name="add"></a>추가
 
-새 팀을 추가 하려면 **추가**를 클릭 합니다. **새 팀 추가** 창에서 팀에 이름과 설명을 지정 하 고, 비공개 또는 공용 팀으로 만들 것인지, 분류를 설정할지를 설정 합니다.
+새 팀을 추가하려면 추가를 **클릭합니다.** 새 **팀** 추가 창에서 팀에 이름과 설명을 지정하고, 비공개 또는 공개 팀으로 만들지 여부를 설정하고, 분류를 설정할 수 있습니다.
 
 > [!NOTE]
-> Outlook과 같은 다른 클라이언트의 환경과 달리 새로 만든 팀은 팀 관리 센터에서 바로 관리할 수 있습니다.
+> 새로 만든 팀은 Outlook과 같은 다른 클라이언트의 환경과 달리 Teams 관리 센터에서 바로 관리할 수 있습니다.
 
-### <a name="edit"></a>편집한
+### <a name="edit"></a>편집
 
-그룹 및 팀 관련 설정을 편집 하려면 팀 이름 왼쪽에 있는을 클릭 하 여 팀을 선택한 다음 **편집**을 선택 합니다.
+그룹 및 팀별 설정을 편집하려면 팀 이름 왼쪽을 클릭하여 팀을 선택한 다음 편집을 **선택합니다.**
 
-### <a name="archive"></a>보관할
+### <a name="archive"></a>보관
 
-팀을 보관할 수 있습니다. 팀을 보관 하면 팀 내에서 읽기 전용 모드로 전환 됩니다. 관리자는 관리 센터에서 조직을 대신 하 여 팀을 보관 하 고 보관을 취소할 수 있습니다. 
+팀을 보관할 수 있습니다. 팀을 보관하면 팀이 Teams 내에서 읽기 전용 모드로 전환됩니다. 관리자는 관리 센터에서 조직을 대신하여 팀을 보관 및 보관해제할 수 있습니다. 
 
 ### <a name="delete"></a>삭제
 
-팀 삭제는 팀 및 해당 Microsoft 365 그룹의 일시 삭제입니다. 실수로 삭제 된 팀을 복원 하려면 [삭제 된 그룹 복원](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)의 지침을 따릅니다.
+팀 삭제는 팀 및 해당 Microsoft 365 그룹의 소프트 삭제입니다. 실수로 삭제된 팀을 복원하려면 삭제된 그룹 복원의 [지침을 따릅니다.](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
 
-### <a name="search"></a>찾아
+### <a name="search"></a>검색
 
-검색에서는 현재 "시작 문자" 문자열을 지원 하 고 **팀 이름** 필드를 검색 합니다.
+검색은 현재 문자열 "Begins with"를 지원하고 팀 이름 **필드를 검색합니다.**
 
 ## <a name="team-profile"></a>팀 프로필
 
-팀 이름을 클릭 하 여 주 팀 개요 표에서 팀의 팀 프로필 페이지로 이동할 수 있습니다. 팀 프로필 페이지에는 팀 (및 해당 지원 Microsoft 365 그룹)에 속한 구성원, 소유자, 게스트, 팀의 채널 및 설정도 표시 됩니다. 팀 프로필 페이지에서 다음을 수행할 수 있습니다.
+팀 이름을 클릭하여 주 팀 개요 그리드에서 모든 팀의 팀 프로필 페이지로 이동할 수 있습니다. 팀 프로필 페이지에는 팀(및 해당 지원 Microsoft 365 그룹)에 속한 구성원, 소유자 및 게스트와 팀의 채널 및 설정이 표시됩니다. 팀 프로필 페이지에서 다음을 할 수 있습니다.
 
-- 구성원 및 소유자를 추가 하거나 제거 합니다.
-- 채널을 추가 하거나 제거 합니다 (일반 채널을 제거할 수 없음).
-- 팀 및 그룹 설정을 변경 합니다.
+- 구성원 및 소유자를 추가하거나 제거합니다.
+- 채널을 추가하거나 제거합니다(일반 채널은 제거할 수 없습니다).
+- 팀 및 그룹 설정을 변경합니다.
  
 ![팀 프로필 예제 스크린샷](media/manage-teams-in-modern-portal-team-profile-page.png)
 
-## <a name="making-changes-to-teams"></a>팀 변경 하기
+## <a name="making-changes-to-teams"></a>팀 변경
 
-팀 프로필 페이지에서 팀의 다음과 같은 요소를 변경할 수 있습니다.
+팀의 프로필 페이지에서 팀의 다음 요소를 변경할 수 있습니다.
 
-- **구성원** -구성원을 추가 또는 제거 하 고 소유자의 수준을 올리거나 내립니다.
-- **채널** -새 채널을 추가 하 고 기존 채널을 편집 또는 제거 합니다. 기본 일반 채널을 삭제할 수 없다는 점에 유의 하세요.
+- **구성원** - 구성원을 추가 또는 제거하고 소유자를 승격 또는 강도합니다.
+- **채널** - 새 채널을 추가하고 기존 채널을 편집하거나 제거합니다. 기본 일반 채널은 삭제할 수 없습니다.
 - **팀 이름**
 - **설명**
-- **개인 정보** -팀이 공개 인지 또는 전용인 지 설정 합니다.
-- **분류** -Microsoft 365 그룹 분류가 지원 합니다. **기밀**, **기밀**, **일반**중에서 선택 합니다.
-- **대화 설정** -구성원이 보낸 메시지를 편집 하 고 삭제할 수 있는지 여부를 설정 합니다.
-- **채널 설정** -구성원이 새 채널을 만들 수 있는지 여부를 지정 하 고, 탭, 커넥터 및 앱을 추가, 편집 및 제거 합니다.
+- **개인** 정보 보호 - 팀이 공개인지 비공개인지 여부를 설정합니다.
+- **분류** - Microsoft 365 그룹 분류에서 지원됩니다. **기밀,** **매우 기밀 또는** 일반을 선택 **합니다.**
+- **대화 설정** - 구성원이 보낸 메시지를 편집하고 삭제할 수 있는지 여부를 설정합니다.
+- **채널 설정** - 구성원이 새 채널을 만들고 기존 채널을 편집할 수 있는지 여부를 설정하고 탭, 커넥터 및 앱을 추가, 편집 및 제거합니다.
 
-팀에 대해 변경한 내용이 기록 됩니다. 그룹 설정을 수정 하는 경우 (이름, 설명, 사진, 개인 정보, 분류 또는 팀 구성원을 변경 하는 경우), 감사 파이프라인을 통해 변경 내용이 사용자에 게 특성화 됩니다. 팀 특정 설정에 대해 작업을 수행 하는 경우 팀의 일반 채널에서 변경 내용이 추적 되 고 특성이 지정 됩니다.
+팀에 대한 변경 내용이 기록됩니다. 그룹 설정(이름, 설명, 사진, 개인 정보, 분류 또는 팀 구성원 변경)을 수정하는 경우 변경 내용은 감사 파이프라인을 통해 변경됩니다. Teams 관련 설정에 대해 작업을 수행하는 경우 변경 내용이 추적 및 팀의 일반 채널에서 사용자에 대한 특성이 지정됩니다.
 
 ## <a name="troubleshooting"></a>문제 해결
 
-**문제: 팀 개요 표에서 누락 된 팀**
+**문제: 팀 개요 눈금에서 팀이 누락된 경우**
 
-팀 목록에 팀의 일부가 누락 되었습니다.
+일부 팀이 Teams 개요 그리드의 팀 목록에서 누락됩니다.
 
-**원인**:이 문제는 시스템에서 앱을 잘못 (또는 아직) 프로 파일링 했을 때 해당 항목이 인식 될 수 있는 속성 누락으로 이어질 때 발생 합니다.
+**원인:** 이 문제는 시스템에서 팀이 잘못 프로파일링된 경우(또는 아직) 인식할 수 있는 속성이 누락될 수 있는 경우 발생합니다.
 
-**해결: MS Graph를 통해 수동으로 속성을 올바른 값으로 설정 합니다.**
+**해결: 수동으로 MS Graph를 통해 속성을 올바른 값으로 설정**
 
-**"[UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet을 사용 하 여 "**Externaldirectoryobjectid**" 특성으로 Exchange Online powershell을 통해 얻을 수 있는 실제 groupid 인 쿼리의 **{groupid}** 을 (를) 바꿉니다.
+문제의 실제 GroupId에 대한 쿼리에서 **{groupid}를** 바꾸고, Exchange Online powershell을 통해 얻을 수 있습니다. **["Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet을 **"ExternalDirectoryObjectId"** 특성으로 사용합니다.
 
-1. Access [Graph 탐색기](https://developer.microsoft.com/graph/graph-explorer)
+1. Access [Graph Explorer.](https://developer.microsoft.com/graph/graph-explorer)
 
-2. 왼쪽 메뉴에서 Graph 탐색기에 로그인 합니다.
+2. 왼쪽 메뉴에서 Graph Explorer에 로그인합니다.
 
-3. 쿼리 줄을 다음과 같이 변경 합니다. > v 1.0의 패치 > https://graph.microsoft.com/v1.0/groups/{groupid} .
+3. 쿼리 줄을 PATCH > v1.0 https://graph.microsoft.com/v1.0/groups/{groupid} >.
 
-4. 요청 본문에 다음 값을 추가 합니다: {"resourceProvisioningOptions": ["팀"]}.
+4. 요청 본문에 {"resourceProvisioningOptions": ["Team"]}의 값을 추가합니다.
 
-5. 오른쪽 위에서 쿼리를 실행 합니다.
+5. 오른쪽 위에서 쿼리를 실행합니다.
 
-6. 팀이 Microsoft 팀 관리 센터-팀 개요에 올바르게 표시 되는지 확인 합니다.
+6. Microsoft Teams 관리 센터 - 팀 개요에 팀이 올바르게 나타나는지 확인합니다.
 
 ## <a name="learn-more"></a>자세히 알아보기
 
-- [팀 cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
-- [팀 관리자 역할을 사용 하 여 팀 관리](using-admin-roles.md)
+- [Teams cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+- [Teams 관리자 역할을 사용하여 Teams 관리](using-admin-roles.md)
 - [Teams에서 수명 주기 관리 계획](plan-teams-lifecycle.md)

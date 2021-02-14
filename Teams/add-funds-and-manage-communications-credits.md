@@ -29,7 +29,7 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: '비즈니스용 Skype 서비스용 통신 크레딧 (PSTN 소비)을 지불 하는 방법과 사용자에 게 지속적인 전화 시스템 액세스를 유지 하는 계획을 확인 하는 방법에 대해 알아봅니다. '
+description: '비즈니스용 Skype 서비스에 대한 통신 크레딧(PSTN 사용량)을 지불하는 방법을 알아보고 지속적인 전화 시스템 액세스로 사용자를 유지하는 계획을 참조하세요. '
 ms.openlocfilehash: bb2e237e1bc35c2f3173ea216702c707ba02fcc6
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
@@ -39,53 +39,53 @@ ms.locfileid: "49031064"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>자금 추가 및 커뮤니케이션 크레딧 관리
 
-통신 제작진은 Microsoft 365 또는 Office 365에서 전화 시스템 및 통화 요금제에 대해 비용을 지불 하는 편리한 방법입니다. 의사 소통 크레딧을 사용 하면 사용자와 귀하는 다음을 수행할 수 없을 때까지 귀하의 의견을 받지 않게 됩니다.
+통신 크레딧은 Microsoft 365 또는 Office 365에서 전화 시스템 및 통화 요금제에 대한 편리한 결제 방법입니다. 통신 크레딧은 사용자와 사용자가 다음을 할 수 없이 포점되지 않도록 하는 데 도움이 됩니다.
   
-- 무료 전화 접속 전화 번호를 사용 하 여 오디오 회의 모임에 전화를 걸 수 있습니다.
+- 무료 전화 접속 전화 번호를 사용하여 오디오 회의 모임에 전화 접속합니다.
 
-- 오디오 회의 모임에서 전화를 걸어 전세계 어느 곳에도 다른 사람을 추가할 수 있습니다.
+- 오디오 회의 모임에서 전화를 걸면 전 세계 어디에서나 다른 사람을 추가할 수 있습니다.
 
-- 비즈니스용 Skype 또는 Microsoft 팀 앱이 설치 된 휴대 전화로 오디오 회의를 통해 전화를 걸어 보세요.
+- 비즈니스용 Skype 또는 Microsoft Teams 앱이 설치된 오디오 회의 모임에서 휴대폰으로 전화를 걸 수 있습니다.
 
-- **국내 통화 요금제** 를 사용 하 고 있는 경우 국제 전화 번호로 전화를 걸어 보세요.
+- 국내 통화 플랜이 있는 경우 국제 전화 번호로 **전화를 걸 수 있습니다.**
 
-- 월간 통화 시간을 모두 사용 하 여 전화를 걸고 분당 요금을 지불 합니다.
+- 월별 분 배정이 모두 소진된 후 분당 전화 걸기 및 요금을 지불합니다.
 
 > [!NOTE]
-> 얼마나 저렴 하 고 급여가 얼마나 되는지 궁금 하다 면 [통화 요금제](https://go.microsoft.com/fwlink/p/?LinkId=799523) 페이지의 비용 표를 참조 하세요.
+> 요금과 요금에 대해 궁금한 경우 통화 요금 페이지에서 요금 [표를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=799523)
   
-관리자는 수동으로 자금을 추가 하거나 자동 충전을 설정할 수 있습니다 ( **권장** ).
+관리자는 수동으로 자금을 추가하거나 자동 충전을 설정할 수 **있습니다.**
   
-자동 충전은 사용자가 설정한 트리거 금액 미만으로 떨어질 경우 자동으로 잔액을 벗어납니다. 자동 충전을 사용 하는 것이 좋지만 수동으로 자금을 추가 하는 것을 잊지 마십시오. 잔액이 트리거 금액에 도달 하면, 결제는 자동으로 추가 됩니다. 자동 충전을 선택 하지 않은 경우에는 잔액이 0 미만으로 떨어질 위험을 실행 합니다. 이 시점에서 사용자가 무료 통화 나 국제 전화를 걸 수 없습니다.
+자동 충전은 설정한 트리거 양보다 떨어질 때 잔액을 자동으로 상한으로 떨어질 수 있습니다. 자동 충전을 사용하면 수동으로 자금을 추가할 때 기억할 수 없습니다. 잔액이 트리거 금액에 해당하면 자금이 자동으로 추가됩니다. 자동 충전을 선택하지 않는 경우 잔액이 0보다 떨어질 위험이 있습니다. 이 시점에서 사용자와 사용자는 무료 통화 또는 국제 전화를 걸 수 없습니다.
   
-언제 든 지 결제 옵션을 업데이트할 수 있습니다. **구독** 페이지에서 **통신 크레딧을** 선택 하 고 업데이트를 수행 합니다.
+결제 옵션을 업데이트할 수 있습니다. 구독 **페이지에서** 통신 크레딧을 선택하고 **업데이트합니다.**
   
-결제는 서비스를 사용 하는 경우 Microsoft에서 게시 한 요금으로 통신 크레딧에만 적용 됩니다. 12 개월 이내에 사용 되지 않은 자금은 모두 만료 되 고 forfeited 됩니다.
+자금은 서비스를 사용할 때 Microsoft의 게시된 요금으로 통신 크레딧에만 적용됩니다. 구매일 12개월 이내에 사용되지 않은 모든 자금은 만료되고 소진됩니다.
   
 > [!TIP]
-> 자동 충전을 통해 자금을 추가할 때, 자동 충전에 실패 하는 경우 (예: 신용 카드 만료), 잔액이 0 미만으로 떨어질 때 전자 메일 알림을 보냅니다.
+> 잔액이 자동 충전을 통해 추가되고, 자동 재충전에 실패할 때(예: 신용 카드가 만료될 때), 잔액이 0 미만일 때 전자 메일 알림을 보내드립니다.
   
-자세한 내용은 [통신 크레딧을 소개 하는](what-are-communications-credits.md) 항목을 참조 하세요.
+자세한 내용은 통신 [크레딧이란?](what-are-communications-credits.md)
   
-## <a name="want-to-know-about-plans-and-pricing"></a>요금제 및 가격에 대해 알아야 할 내용
+## <a name="want-to-know-about-plans-and-pricing"></a>요금제 및 가격에 대해 알고 싶은 경우
 
-다음 링크 중 하나를 방문 하 여 요금제 및 가격을 확인할 수 있습니다.
+다음 링크 중 하나를 방문하여 요금제 및 가격을 볼 수 있습니다.
   
 - [통화 플랜](https://go.microsoft.com/fwlink/?LinkId=799761 )
 
 - [오디오 회의 계획](https://go.microsoft.com/fwlink/?LinkId=799762 )
 
-- [전화 시스템 요금제](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [전화 시스템 계획](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-Microsoft 365 관리 센터에 로그인 하 여 정보를 볼 수 있으며, **결제** 플랜으로 진행 하 여  >  **Subscriptions**  >  **구독을 추가할** 수도 있습니다.
+Microsoft 365 관리 센터에 로그인하고 청구 구독 추가 구독으로 진행하여 정보를 볼  >    >  **수도 있습니다.**
   
-각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)를 참조 하세요.
+각 기능에 필요한 라이선스 또는 라이선스가 있는 테이블을 표시하려면 Microsoft Teams 추가 기능 [라이선스를 참조합니다.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 - [클라우드 음성 메일 설정 - 관리자 도움말](set-up-phone-system-voicemail.md)
 
-- [Microsoft 365 또는 Office 365에 대 한](calling-plans-for-office-365.md) [통화 계획](set-up-calling-plans.md) 및 통화 계획 설정
+- [](set-up-calling-plans.md) [Microsoft 365 또는 Office 365에](calling-plans-for-office-365.md) 대한 통화 요금제 및 통화 요금제 설정
 

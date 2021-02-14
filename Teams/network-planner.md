@@ -48,11 +48,11 @@ Network Planner를 사용하려면 전역 관리자, Teams 서비스 관리자 �
 
 ## <a name="create-a-custom-persona"></a>사용자 지정 사용자 지정 사용자 만들기
 
-다음 단계에 따라 사용자 지정 Persona를 만들 수 있습니다.
+다음 단계에 따라 사용자 지정 persona를 만들 수 있습니다.
 
 1. Microsoft Teams 관리 센터의 Network Planner로 이동하세요.
 
-2. Personas **탭에서** **+ 사용자 지정 사용자 지정 사용자 지정을 클릭합니다.** 
+2. Personas **탭에서** **+ 사용자 지정을 클릭합니다.** 
 
 3. 새 사용자 **지정 사용자 지정 창에서** 새 사용자에 대한 이름 및 설명을 추가합니다.
 

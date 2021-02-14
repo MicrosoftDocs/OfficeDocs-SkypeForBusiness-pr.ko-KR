@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
-description: 정책 이름에 특수 문자와 문제 해결을 위해 수행할 수 있는 작업에 대해 알아봅니다.
+description: 정책 이름에 특수 문자가 있는 문제와 이를 해결하기 위해 할 수 있는 작업을 참조합니다.
 ms.openlocfilehash: 899cffa45bc5ec7a36339e89e3cb97e35e6e4507
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -29,23 +29,23 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 09/15/2020
 ms.locfileid: "47814717"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>팀 정책의 특수 문자 제한 사항은 무엇 인가요?
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams 정책의 특수 문자 제한은 무엇입니까?
 
-**Microsoft 팀 관리 센터에서 이름에 특수 문자를 포함 하는 정책을 만들거나 편집할 수 없습니다 (메시징, 모임 등)**. 
+Microsoft Teams 관리 센터의 이름에 특수 문자가 있는 정책(메시지, 모임 등)을 만들거나 편집할 **수 없습니다.** 
 
-정책 이름에 특수 문자가 포함 된 경우 Microsoft 팀 관리 센터에서 이러한 정책 관리에 제한을 받습니다. 따라서 **정책 이름에 특수 문자를 포함 하지 않는 것이 좋습니다**. 
+정책 이름에 특수 문자가 포함되어 있는 경우 Microsoft Teams 관리 센터에서 이러한 정책을 관리하는 데 제한이 있습니다. 따라서 정책 이름에 특수 문자를 **포함하지 않는 것이 좋습니다.** 
 
-팀에서 모임 및 메시지에 대해 PowerShell을 사용 하 여 만든 정책 이름은 @, #, $와 같은 특수 문자를 포함할 수 있습니다. 그러나 Microsoft 팀 관리 센터에서 정책을 변경 하려는 경우에는이 작업을 수행할 수 없습니다. 
+Teams에서 모임 및 메시징을 위해 PowerShell을 사용하여 만든 정책 이름은 @,#,$과 같은 특수 문자를 사용할 수 있습니다. 그러나 Microsoft Teams 관리 센터에서 정책을 변경하려는 경우 변경할 수 없습니다. 
 
-특수 문자를 사용 하는 정책이 있는 경우 Windows PowerShell을 사용 하 여 정책 편집 (계속) 하거나 기존 정책과 동일한 설정을 사용 하 여 Microsoft 팀 관리 센터에서 새 정책을 만든 다음 동일한 사용자 그룹에 할당 해야 합니다.
+특수 문자가 있는 정책이 있는 경우 Windows PowerShell(영원히)를 사용하여 정책을 편집하거나 이전 정책과 동일한 설정으로 Microsoft Teams 관리 센터에서 새 정책을 만들고 동일한 사용자 그룹에 할당해야 합니다.
 
-## <a name="to-remove-special-characters"></a>특수 문자를 제거 하려면
+## <a name="to-remove-special-characters"></a>특수 문자를 제거하려면
 
-**1 단계-PowerShell을 사용 하 여 원격 연결을 설정 합니다.**
+**1단계 - PowerShell을 사용하여 원격 연결**
 > [!NOTE]
-> 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈의 일부입니다.
+> 비즈니스용 Skype Online 커넥터는 현재 최신 Teams PowerShell 모듈의 일부입니다.
 >
-> 최신 [팀 PowerShell 공용 릴리스](https://www.powershellgallery.com/packages/MicrosoftTeams/)를 사용 하 고 있는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
+> 최신 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 릴리스를 사용하는 경우 비즈니스용 Skype Online Connector를 설치할 필요가 없습니다.
 
 ```PowerShell
  Import-Module -Name MicrosoftTeams
@@ -55,61 +55,61 @@ ms.locfileid: "47814717"
 ```
 
 
-**2 단계-이전 정책에 대 한 설정을 가져오고 출력을 캡처합니다.**
+**2단계 - 이전 정책에 대한 설정을 구하고 출력을 캡처합니다.**
 
 > [!NOTE]
-> 이 예제는 [메시징](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) 정책에 대 한 것입니다.  단계는 다른 정책 유형의 경우와 동일 하지만 올바른 cmdlet을 사용 해야 합니다. 
+> 이 예제는 메시징 [정책에 대한](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) 것입니다.  단계는 다른 정책 유형에 대해 동일하지만 올바른 cmdlet을 사용해야 합니다. 
 
   ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
 
-**3 단계-새 정책 만들기**
+**3단계 - 새 정책 만들기**
 
-Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 동일한 설정으로 새 정책을 만들 수 있습니다.
+Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 동일한 설정으로 새 정책을 만들 수 있습니다.
 
-이 작업을 실행 하면 새 정책이 만들어지지만, [CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) 를 표시 한 다음 실행 하 여 올바른 설정을 추가 해야 합니다.
+이 기능을 실행하면 새 정책이 생성되지만 [Set-CsTeamsMessagingPolicy를](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) 확인한 다음 실행하여 올바른 설정을 추가해야 합니다.
 
   ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
-**4 단계-정책을 할당 합니다.**
+**4단계 - 정책을 할당합니다.**
  ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-이 cmdlet에 대 한 자세한 내용은 [CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) 을 참조 하세요.
+이 cmdlet에 대한 자세한 내용은 [Grant-CsTeamsMessagingPolicy를](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) 참조하세요.
 
-**5 단계-이전 정책 삭제**
+**5단계 - 이전 정책을 삭제합니다.**
 
-이렇게 하면 특수 문자를 사용 하 여 이전 정책이 삭제 됩니다.
+이렇게 하면 특수 문자가 있는 이전 정책이 삭제됩니다.
   ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-이 cmdlet에 대 한 자세한 내용은 [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) 를 참조 하세요.
+이 cmdlet에 대한 자세한 내용은 [Remove-CsTeamsMessagingPolicy를](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) 참조하세요.
 
-이 명령이 성공 하면 완료 됩니다. 위의 명령에서 오류를 반환 하는 경우 정책에서 할당 된 모든 사용자를 제거 하기 위해 이전 정책이 사용자에 게 할당 되므로이는 실행 되어야 합니다.
+이 명령이 성공하면 완료됩니다. 위의 명령이 오류를 반환하는 경우 이전 정책이 사용자에게 할당되어 정책에서 할당된 모든 사용자를 제거하기 위해 실행해야 했기 때문에 발생합니다.
 
 ```PowerShell
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
-### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell을 사용 하 여 관리 하는 방법을 알고 싶으세요?
+### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>사용자 계정으로 관리하는 방법을 알고 Windows PowerShell?
 
-Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+Windows PowerShell 관리는 사용자 및 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 간소화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
     
-  - [Office 365 PowerShell을 사용 해야 하는 이유는 무엇 인가요?](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell을 사용하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
+- Windows PowerShell Microsoft 365 관리 센터를 사용하는 것 이상으로 속도, 단순성 및 생산성에 많은 이점이 있습니다. 예를 들어 한 번으로 많은 사용자에 대해 설정을 변경할 때도 그렇습니다. 다음 항목에서 이러한 이점에 대해 자세히 배워야 합니다.
     
   - [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-    [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [비즈니스 Windows PowerShell 사용하여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [비즈니스용 Windows PowerShell Skype Online 관리 작업을 수행하는 데 사용할 수 있습니다.](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 사용 하면 비즈니스용 Skype Online 및 Microsoft 팀에 연결 하는 원격 Windows PowerShell 세션을 만들 수 있습니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688) 의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
+    > 비즈니스용 skype Windows PowerShell 모듈을 사용하면 비즈니스용 Skype Online 및 Microsoft Teams에 Windows PowerShell 원격 Windows PowerShell 세션을 만들 수 있습니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 비즈니스용 [Skype Online용](https://go.microsoft.com/fwlink/?LinkId=294688) Windows PowerShell 모듈의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
   
 

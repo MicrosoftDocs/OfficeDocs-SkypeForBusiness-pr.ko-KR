@@ -1,5 +1,5 @@
 ---
-title: 발신 통화 제한-오디오 회의 & PSTN 통화
+title: 아웃바운드 통화 제한 - 오디오 회의 & PSTN 통화
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 관리자는 오디오 회의의 종류와 사용자가 설정할 수 있는 최종 사용자 PSTN 통화를 제어할 수 있습니다.
+description: 관리자는 사용자가 만들 수 있는 오디오 회의 및 최종 사용자 PSTN 호출 유형을 제어할 수 있습니다.
 ms.openlocfilehash: e085f996226a59d88339b20e64dd06f68ef566ce
 ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
@@ -32,42 +32,42 @@ ms.locfileid: "48908657"
 
 관리자는 아웃바운드 호출 제어를 사용하여 조직의 사용자가 만들 수 있는 오디오 회의 및 최종 사용자 PSTN 통화 유형을 제한할 수 있습니다. 
 
-아웃 바운드 통화 컨트롤은 사용자별로 적용할 수 있으며 다음 두 가지 컨트롤을 제공 하 여 각 유형의 아웃 바운드 호출을 독립적으로 제한할 수 있습니다. 기본적으로 두 컨트롤 모두 국제 및 국내 아웃 바운드 통화를 허용 하도록 설정 됩니다. 
+아웃바운드 호출 컨트롤은 사용자별로 적용할 수 있으며 다음 두 컨트롤을 제공하여 각 아웃바운드 호출 유형을 독립적으로 제한할 수 있습니다. 기본적으로 두 컨트롤은 모두 국제 및 국내 아웃바운드 통화를 허용하도록 설정됩니다. 
 
-|Ctrl|설명|제어 옵션|
+|컨트롤|설명|컨트롤 옵션|
 |:-----|:-----|:-----|
-|오디오 회의 PSTN 통화|아웃 바운드 유형을 제한 합니다. </br>내에서 허용 되는 통화 </br>사용자가 구성한 모임|모든 대상 (기본값)</br>이끌이와 동일한 국가 또는 지역 </br> [국가 또는 지역만 영역](audio-conferencing-zones.md) </br>허용 안 함|
-|최종 사용자 PSTN 통화|통화 유형을 제한 합니다. </br>사용자가 설정할 수 있습니다.|국제 및 국내 (기본값)</br>국내</br>없음|
+|오디오 회의 PSTN 통화|아웃바운드 형식을 제한합니다. </br>내부에서 허용되는 호출 </br>사용자가 구성한 모임입니다.|모든 대상(기본값)</br>이끌이와 동일한 국가 또는 지역에서 </br> [영역 A 국가 또는 지역만](audio-conferencing-zones.md) </br>허용 안 하도록|
+|최종 사용자 PSTN 호출|호출 유형을 제한합니다. </br>사용자가 만들 수 있습니다.|국제 및 국내(기본값)</br>국내</br>없음|
 
-영역 A로 간주 되는 국가 및 지역에 [대해 알아보려면 오디오 회의를 위한 국가 및 지역 영역](audio-conferencing-zones.md)을 참조 하세요.
+영역 A로 간주되는 국가 및 지역을 찾으면 오디오 회의에 대한 국가 및 [지역을 참조합니다.](audio-conferencing-zones.md)
 
    > [!NOTE]
-   > 전화를 거는 번호가 모임 이끌이 (오디오 회의의 경우) 또는 최종 사용자 (최종 사용자 PSTN 통화의 경우)에 대해 설정 된 같은 국가에 365 365 거주 하는 경우에는 통화가 국내으로 간주 됩니다. 
+   > 전화 걸기 번호가 모임 이끌이(오디오 회의의 경우) 또는 최종 사용자(최종 사용자 PSTN 통화의 경우)에 대해 설정된 동일한 국가에 있는 경우 국내 통화로 간주됩니다. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="restrict-audio-conferencing-outbound-calls"></a>오디오 회의 발신 전화 제한
+## <a name="restrict-audio-conferencing-outbound-calls"></a>오디오 회의 아웃바운드 호출 제한
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색 창에서 **사용자** 를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자의 표시 이름을 클릭 합니다.
+1. 왼쪽 탐색 모음에서 **[사용자]를** 클릭한 다음 사용 가능한 사용자 목록에서 사용자의 표시 이름을 클릭합니다.
 
-3. **오디오 회의** 옆에 있는 **편집** 을 클릭 합니다.
+3. 오디오 회의 옆에 **있는** 편집을 **클릭합니다.**
 
-4. **모임에서 전화를 걸** 때 원하는 전화 걸기 제한 옵션을 선택 합니다.
+4. 모임의 전화 걸기 **아래에서** 원하는 전화 걸기 제한 옵션을 선택합니다.
 
 5. **저장** 을 클릭합니다. 
 
 ![비즈니스용 skype 로고를 나타내는 아이콘](media/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
 
-1. **비즈니스용 Skype 관리 센터** 의 왼쪽 탐색 창에서 **오디오 회의**  >  **사용자** 로 이동한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
+1. 비즈니스용 **Skype** 관리 센터의 왼쪽 탐색 모음에서 오디오 회의 사용자로 이동한 다음 사용 가능한 사용자 목록에서 사용자를   >  선택합니다.
 
-2. 작업 창에서 **편집** 을 클릭 합니다.
+2. 작업 창에서 편집을 **클릭합니다.**
 
-3.  **이 사용자의 모임에서 전화를 걸 수 있는 제한** 에서 원하는 전화 걸기 제한 옵션을 선택 합니다.
+3.  이 **사용자의** 모임에서 전화 걸기 제한 아래에서 원하는 전화 걸기 제한 옵션을 선택합니다.
 
-      ![전화 걸기 옵션에 대 한 제한 사항](media/restrictions-to-dial-outs.png)
+      ![전화 걸기 옵션에 대한 제한 사항](media/restrictions-to-dial-outs.png)
       
 
 4. **저장** 을 클릭합니다.
@@ -77,23 +77,23 @@ ms.locfileid: "48908657"
 
 **PowerShell 사용**
 
-아웃 바운드 통화 제한은 각에 대 한 제한 특성이 있는 OnlineDialOutPolicy 이라는 단일 정책에 의해 제어 됩니다. 정책은 사용자 지정할 수 없으며, 설정의 각 조합에 대해 미리 정의 된 정책 인스턴스가 있습니다. 
+아웃바운드 호출 제한은 각각에 대한 제한 특성이 있는 OnlineDialOutPolicy라는 단일 정책에 의해 제어됩니다. 정책을 사용자 지정할 수 없습니다. 대신 각 설정 조합에 대해 미리 정의된 정책 인스턴스가 있습니다. 
 
-Get-CSOnlineDialOutPolicy cmdlet을 사용 하 여 아웃 바운드 호출 정책을 보고 Grant-CSDialOutPolicy cmdlet을 사용 하 여 사용자에 게 할당할 수 있습니다. (Get cmdlet을 사용할 때 Grant cmdlet에 "Online" 이라는 단어가 포함 되지 않는다는 점에 유의 하세요.) 
+Get-CSOnlineDialOutPolicy cmdlet을 사용하여 아웃바운드 호출 정책을 보고 Grant-CSDialOutPolicy cmdlet을 사용하여 사용자에게 할당할 수 있습니다. (Grant cmdlet에는 Get cmdlet과 같은 단어 "Online"이 포함되어 있지 않습니다.) 
 
-다음 표에서는 각 정책에 대해 간략하게 설명 합니다.
+다음 표에서는 각 정책에 대한 개요를 제공합니다.
 
 |||
 |:-----|:-----|
-|Id = ' tag: DialoutCPCandPSTNInternational '    |    전화 회의에 참가 한 사용자는 국제 및 국내 번호로 통화할 수 있으며,이 사용자는 국제/국내 번호로 아웃 바운드 통화를 할 수도 있습니다.    |
-|Id = ' tag: DialoutCPCDomesticPSTNInternational '  |    회의 사용자는 국내 번호로만 전화를 걸 수 있으며,이 사용자는 국제 및 국내 번호로 아웃 바운드 통화를 할 수 있습니다.    |
-|    Id = ' tag: DialoutCPCDisabledPSTNInternational '    |    회의 사용자가 전화를 걸 수 없습니다. 이 사용자는 국제 및 국내 번호로 아웃 바운드 통화를 할 수 있습니다.    |
-|    Id = ' tag: DialoutCPCInternationalPSTNDomestic '    |    전화 회의 사용자는 국제 및 국내 번호로 전화를 걸 수 있으며,이 사용자는 국내 PSTN 번호로만 아웃 바운드 통화를 할 수 있습니다.    |
-|    Id = ' tag: DialoutCPCInternationalPSTNDisabled '    |    전화 회의 사용자는 국제 및 국내 번호로 전화를 걸 수 있으며,이 사용자는 비상 번호로 PSTN 번호로의 아웃 바운드 통화를 할 수 없습니다.    |
-|    Id = ' tag: DialoutCPCandPSTNDomestic '    |    회의 사용자는 국내 번호로만 전화를 걸 수 있으며,이 사용자는 국내 PSTN 번호로만 아웃 바운드 통화를 할 수 있습니다.    |
-|    Id = ' tag: DialoutCPCDomesticPSTNDisabled '    |    회의 사용자는 국내 번호로만 전화를 걸 수 있으며,이 사용자는 비상 번호 이외의 PSTN 번호로의 아웃 바운드 통화를 할 수 없습니다.    |
-|    Id = ' tag: DialoutCPCDisabledPSTNDomestic '    |    회의 중인 사용자는 전화를 걸 수 없으며,이 사용자는 국내 PSTN 번호로만 아웃 바운드 통화를 할 수 있습니다.    |
-|    Id = ' tag: DialoutCPCandPSTNDisabled '    |    회의 중 사용자는 전화를 걸 수 없으며,이 사용자는 비상 번호 이외의 PSTN 번호로의 아웃 바운드 통화를 할 수 없습니다.    |
-|    Id = ' tag: DialoutCPCZoneAPSTNInternational '    |    전화 회의 사용자 [는 국가 및 지역 영역](audio-conferencing-zones.md)에만 전화를 걸 수 있으며,이 사용자는 국제 및 국내 번호로 아웃 바운드 통화를 할 수 있습니다.    |
-|    Id = ' tag: DialoutCPCZoneAPSTNDomestic '    |    전화 회의 사용자 [는 국가 및 지역 영역](audio-conferencing-zones.md)에만 전화를 걸 수 있으며,이 사용자는 국내 PSTN 번호로만 아웃 바운드 통화를 할 수 있습니다.    |
-|    Id = ' tag: DialoutCPCZoneAPSTNDisabled '    |    전화 회의 사용자 [는 국가 및 지역 영역](audio-conferencing-zones.md)에만 전화를 걸 수 있으며,이 사용자는 비상 번호 이외의 PSTN 번호로의 아웃 바운드 통화를 할 수 없습니다.    |
+|Identity='tag:DialoutCPCandPSTNInternational'    |    회의의 사용자는 국제 및 국내 번호로 전화를 걸 수 있으며, 이 사용자는 국제 및 국내 번호로 아웃바운드 전화를 걸 수 있습니다.    |
+|Identity='tag:DialoutCPCDomesticPSTNInternational'  |    회의의 사용자는 국내 번호로만 전화를 걸 수 있으며, 이 사용자는 국제 및 국내 번호로 아웃바운드 전화를 걸 수 있습니다.    |
+|    Identity='tag:DialoutCPCDisabledPSTNInternational'    |    회의에 참석한 사용자는 전화를 걸 수 없습니다. 이 사용자는 국제 및 국내 번호로 아웃바운드 전화를 걸 수 있습니다.    |
+|    Identity='tag:DialoutCPCInternationalPSTNDomestic'    |    회의의 사용자는 국제 및 국내 번호로 전화를 걸 수 있으며, 이 사용자는 국내 PSTN 번호로만 아웃바운드 통화를 걸 수 있습니다.    |
+|    Identity='tag:DialoutCPCInternationalPSTNDisabled'    |    회의의 사용자는 국제 및 국내 번호로 전화를 걸 수 있으며, 이 사용자는 긴급 번호 외에 PSTN 번호로 아웃바운드 전화를 걸 수 없습니다.    |
+|    Identity='tag:DialoutCPCandPSTNDomestic'    |    회의의 사용자는 국내 번호로만 전화를 걸 수 있으며, 이 사용자는 국내 PSTN 번호로만 아웃바운드 통화를 걸 수 있습니다.    |
+|    Identity='tag:DialoutCPCDomesticPSTNDisabled'    |    회의의 사용자는 국내 번호로만 전화를 걸 수 있으며, 이 사용자는 긴급 번호 외에 PSTN 번호로 아웃바운드 전화를 걸 수 없습니다.    |
+|    Identity='tag:DialoutCPCDisabledPSTNDomestic'    |    회의의 사용자는 전화를 걸 수 없습니다. 이 사용자는 국내 PSTN 번호로만 아웃바운드 통화를 걸 수 있습니다.    |
+|    Identity='tag:DialoutCPCandPSTNDisabled'    |    회의의 사용자는 전화를 걸 수 없습니다. 이 사용자는 긴급 번호 외에 PSTN 번호로 아웃바운드 전화를 걸 수 없습니다.    |
+|    Identity='tag:DialoutCPCZoneAPSTNInternational'    |    회의의 사용자는 영역 [A](audio-conferencing-zones.md)국가 및 지역으로만 전화를 걸 수 있으며, 이 사용자는 국제 및 국내 번호로 아웃바운드 전화를 걸 수 있습니다.    |
+|    Identity='tag:DialoutCPCZoneAPSTNDomestic'    |    회의의 사용자는 영역 [A](audio-conferencing-zones.md)국가 및 지역으로만 전화를 걸 수 있으며, 이 사용자는 국내 PSTN 번호로만 아웃바운드 통화를 걸 수 있습니다.    |
+|    Identity='tag:DialoutCPCZoneAPSTNDisabled'    |    회의의 사용자는 영역 [A](audio-conferencing-zones.md)국가 및 지역으로만 전화를 걸 수 있으며, 이 사용자는 긴급 번호 외에 PSTN 번호로 아웃바운드 전화를 걸 수 없습니다.    |
