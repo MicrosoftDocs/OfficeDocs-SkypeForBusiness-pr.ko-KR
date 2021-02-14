@@ -24,7 +24,7 @@ ms.locfileid: "49802088"
  
 **요약:** 이 항목을 읽고 비즈니스용 Skype 서버 배포 마법사를 사용하여 비즈니스용 Skype 서버 2015 구성 요소 및 서비스를 설치하는 방법을 설명합니다.
   
-영구 채팅 구성 요소를 설치하기 전에 사전 구성 요소 하드웨어 및 소프트웨어를 이미 설치하고 영구 채팅 서버를 지원하기 위한 적절한 토폴로지가 만들어야 합니다. 계획 및 요구 사항에 대한 자세한 내용은 비즈니스용 [Skype](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) 환경 요구 사항 및 비즈니스용 Skype 서버 [2015의](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)영구 채팅 서버 계획에 대한 요구 사항을 참조하세요. 영구 채팅 서버를 포함하기 위해 토폴로지 업데이트 및 게시 방법에 대한 자세한 내용은 영구 채팅 서버 추가를 비즈니스용 [Skype 서버 2015](add-persistent-chat-server.md)토폴로지에서 참조하세요.
+영구 채팅 구성 요소를 설치하기 전에 사전 구성 요소 하드웨어 및 소프트웨어를 이미 설치하고 영구 채팅 서버를 지원하기 위한 적절한 토폴로지가 만들어야 합니다. 계획 및 요구 사항에 대한 자세한 내용은 비즈니스용 [Skype](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) 환경에 대한 요구 사항 및 비즈니스용 Skype 서버 [2015의](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)영구 채팅 서버 계획에 대한 요구 사항을 참조하세요. 영구 채팅 서버를 포함하기 위해 토폴로지 업데이트 및 게시 방법에 대한 자세한 내용은 영구 채팅 서버 추가를 비즈니스용 [Skype 서버 2015](add-persistent-chat-server.md)토폴로지에서 참조하세요.
   
 > [!NOTE] 
 > 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. Teams에서 동일한 기능을 사용할 수 있습니다. 자세한 내용은 Microsoft Teams 업그레이드 시작을 [참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용하려면 이 기능이 필요한 사용자를 Teams로 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다. 

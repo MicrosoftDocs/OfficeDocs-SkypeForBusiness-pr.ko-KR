@@ -28,7 +28,7 @@ ms.locfileid: "49802578"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams에서 클라우드 음성 기능에 대한 네트워크 토폴로지 관리
 
-조직에서 직접 라우팅 [](location-based-routing-plan.md) 또는 동적 긴급 통화에 대한 [](configure-dynamic-emergency-calling.md)위치 기반 라우팅을 배포하는 경우 Microsoft Teams에서 이러한 클라우드 음성 기능과 함께 사용할 네트워크 설정을 구성해야 합니다. 네트워크 설정은 Teams 클라이언트의 위치를 결정하고 네트워크 지역, 네트워크 사이트, 서브넷 및 신뢰할 수 있는 IP 주소를 포함하기 위해 사용됩니다. 배포하는 클라우드 음성 기능 및 기능에 따라 이러한 설정의 일부 또는 전체를 구성합니다. 이러한 용어에 대한 자세한 내용은 클라우드 음성 기능에 대한 [네트워크 설정을 참조하세요.](cloud-voice-network-settings.md)
+조직에서 직접 라우팅 [](location-based-routing-plan.md) 또는 동적 긴급 통화를 위한 [](configure-dynamic-emergency-calling.md)위치 기반 라우팅을 배포하는 경우 Microsoft Teams에서 이러한 클라우드 음성 기능과 함께 사용할 네트워크 설정을 구성해야 합니다. 네트워크 설정은 Teams 클라이언트의 위치를 결정하고 네트워크 지역, 네트워크 사이트, 서브넷 및 신뢰할 수 있는 IP 주소를 포함하기 위해 사용됩니다. 배포하는 클라우드 음성 기능 및 기능에 따라 이러한 설정의 일부 또는 전체를 구성합니다. 이러한 용어에 대한 자세한 내용은 클라우드 음성 기능에 대한 [네트워크 설정을 참조하세요.](cloud-voice-network-settings.md)
 
 Microsoft Teams 관리  센터의 네트워크 토폴로지 페이지에서 또는 네트워크 설정을 사용하여 Windows PowerShell.
 
@@ -165,7 +165,7 @@ Identity, Mask, SiteID
 
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>외부 서브넷 정의(외부 신뢰할 수 있는 IP 주소)
 
-[New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet을 사용하여 외부 서브넷을 정의하고 테넌트에 할당합니다. 테넌트에 대한 외부 서브넷 수를 제한 없이 정의할 수 있습니다.
+[New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet을 사용하여 외부 서브넷을 정의하고 테넌트에 할당합니다. 테넌트에 대한 외부 서브넷 수를 무제한으로 정의할 수 있습니다.
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
-description: 각 레코드는 하나의 미디어 라인을 나타 내는 것입니다. (하나의 오디오 세션에는 일반적으로 하나의 오디오 미디어 줄이 포함되어 있습니다. A/V(오디오 및 비디오) 세션 하나에는 일반적으로 오디오 미디어 선과 비디오 미디어 선이 하나씩 포함되어 있습니다. 단, 회의 장치를 사용하는 경우 또는 갤러리 보기를 사용하는 경우 세션에 비디오 미디어 선이 두 개 포함될 수 있습니다.
+description: 각 레코드는 하나의 미디어 라인을 나타 내는 것입니다. (하나의 오디오 세션에는 일반적으로 오디오 미디어 줄이 하나씩 포함되어 있습니다. A/V(오디오 및 비디오) 세션 하나에는 일반적으로 오디오 미디어 선과 비디오 미디어 선이 하나씩 포함되어 있습니다. 단, 회의 장치를 사용하는 경우 또는 갤러리 보기를 사용하는 경우 세션에 비디오 미디어 선이 두 개 포함될 수 있습니다.
 ms.openlocfilehash: 99a54fe7a4ee4e91506069873c98d423b9069f06
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49802768"
 ---
 # <a name="medialine-table"></a>MediaLine 테이블
  
-각 레코드는 하나의 미디어 라인을 나타 내는 것입니다. (하나의 오디오 세션에는 일반적으로 오디오 미디어 줄이 하나씩 포함되어 있습니다. A/V(오디오 및 비디오) 세션 하나에는 일반적으로 오디오 미디어 선과 비디오 미디어 라인이 하나씩 포함되어 있습니다. 단, 회의 장치를 사용하는 경우 또는 갤러리 보기를 사용하는 경우 세션에 비디오 미디어 선이 두 개 포함될 수 있습니다.
+각 레코드는 하나의 미디어 라인을 나타 내는 것입니다. (하나의 오디오 세션에는 일반적으로 오디오 미디어 줄이 하나씩 포함되어 있습니다. A/V(오디오 및 비디오) 세션 하나에는 일반적으로 오디오 미디어 선과 비디오 미디어 선이 하나씩 포함되어 있습니다. 단, 회의 장치를 사용하는 경우 또는 갤러리 보기를 사용하는 경우 세션에 비디오 미디어 선이 두 개 포함될 수 있습니다.
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "49802768"
 |**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |0은 기본 오디오, 1은 기본 비디오, 2는 파노라마 비디오, 3은 응용 프로그램/데스크톱 공유, 16은 비디오 기반 화면 공유(VbSS)입니다. 이 레이블은 단일 세션 내에서 고유해야 합니다.  <br/> |
 |**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |이 열은 있지만 Microsoft Lync Server 2013에서는 사용되지 않습니다. 미디어 라인에 사용되는 연결에 대한 정보는 CallerConnectivityICE 및 CalleeConnectivityICE 열에 캡처됩니다.  <br/> |
 |**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |비트 플래그에 설명된 ICE(Interactive Connectivity Establishment) 프로세스에 대한 정보입니다. 자세한 내용은 다운로드할 수 있는 환경 품질 모니터링  *서버 프로토콜 사양을*  참조하세요. <br/> |
-|**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |CallerIceWarningFlags와 동일하지만, 발신자 쪽과 동일합니다. 자세한 내용은 다운로드할 수 있는 환경 품질 모니터링  *서버 프로토콜 사양을*  참조하세요. <br/> |
+|**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |CallerIceWarningFlags와 동일하지만, 발신자 쪽에 있습니다. 자세한 내용은 다운로드할 수 있는 환경 품질 모니터링  *서버 프로토콜 사양을*  참조하세요. <br/> |
 |**보안** <br/> |tinyint  <br/> | <br/> |사용 중 보안 프로필입니다. 0은 NONE, 1은 SRTP, 2는 V1입니다.  <br/> |
 |**전송** <br/> |tinyint  <br/> | <br/> |0은 UDP, 1은 TCP입니다.  <br/> |
 |**CallerIPAddr** <br/> |int  <br/> |외계인  <br/> |발신자 IP 주소입니다. 자세한 내용은 [IPAddress 테이블을](ipaddress.md) 참조하세요. <br/> |
@@ -45,7 +45,7 @@ ms.locfileid: "49802768"
 |**CallerRenderDev** <br/> |int  <br/> |외계인  <br/> |발신자에 의해 사용되는 렌더링 장치입니다. [Device 테이블에서 참조됩니다.](device.md)  <br/> |
 |**CallerCaptureDevDriver** <br/> |int  <br/> |외계인  <br/> |[DeviceDriver](devicedriver.md)테이블에서 참조되는 발신자 캡처 디바이스용 드라이버입니다.  <br/> |
 |**CallerRenderDevDriver** <br/> |int  <br/> |외계인  <br/> |[DeviceDriver](devicedriver.md)테이블에서 참조되는 발신자 렌더링 장치에 대한 드라이버입니다.  <br/> |
-|**CallerNetworkConnectionType** <br/> |tinyint  <br/> |외계인  <br/> |발신자 네트워크 연결 방법을 나타냅니다. 값은 [NetworkConnectionDetail](networkconnectiondetail.md)테이블에서 구합니다. 일반적인 값은 WiFi 연결의 경우 유선 연결의 경우 0입니다. 및 이더넷 연결의 경우 3.  <br/> |
+|**CallerNetworkConnectionType** <br/> |tinyint  <br/> |외계인  <br/> |발신자 네트워크 연결 방법을 나타냅니다. 값은 [NetworkConnectionDetail 테이블에서 구합니다.](networkconnectiondetail.md) 일반적인 값은 WiFi 연결의 경우 유선 연결의 경우 0입니다. 및 이더넷 연결의 경우 3.  <br/> |
 |**CallerBssid** <br/> |int  <br/> |외계인  <br/> |무선을 사용하는 경우 발신자 BSSID입니다. [MacAddress](macaddress.md)테이블에서 참조됩니다.  <br/> |
 |**CallerVPN** <br/> |bit  <br/> ||발신자 링크입니다. 1은 VPN(가상 사설망), 0은 비VPN입니다.  <br/> |
 |**CallerLinkSpeed** <br/> |decimal(18,0)  <br/> ||발신자 끝점의 네트워크 연결 속도(bps)입니다.  <br/> |
@@ -60,7 +60,7 @@ ms.locfileid: "49802768"
 |**CalleeRenderDev** <br/> |int  <br/> |외계인  <br/> |통화 수신자가 사용하는 렌더링 장치입니다. [Device 테이블에서 참조됩니다.](device.md)  <br/> |
 |**CalleeCaptureDevDriver** <br/> |int  <br/> |외계인  <br/> |통화 수신기의 캡처 장치에 대한 드라이버입니다. [DeviceDriver 테이블에서 참조됩니다.](devicedriver.md)  <br/> |
 |**CalleeRenderDevDriver** <br/> |varchar(256)  <br/> |외계인  <br/> |통화 수신기의 렌더링 장치에 대한 드라이버입니다. [DeviceDriver 테이블에서 참조됩니다.](devicedriver.md)  <br/> |
-|**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |외계인  <br/> |발신자 네트워크 연결 방법을 나타냅니다. 값은 [NetworkConnectionDetail](networkconnectiondetail.md)테이블에서 구합니다. 일반적인 값은 WiFi 연결의 경우 유선 연결의 경우 0입니다. 및 이더넷 연결의 경우 3.  <br/> |
+|**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |외계인  <br/> |발신자 네트워크 연결 방법을 나타냅니다. 값은 [NetworkConnectionDetail 테이블에서 구합니다.](networkconnectiondetail.md) 일반적인 값은 WiFi 연결의 경우 유선 연결의 경우 0입니다. 및 이더넷 연결의 경우 3.  <br/> |
 |**CalleeBssid** <br/> |int  <br/> |외계인  <br/> |무선을 사용하는 경우 발신자 BSSID입니다. [MacAddress](macaddress.md)테이블에서 참조됩니다.  <br/> |
 |**CalleeVPN** <br/> |bit  <br/> | <br/> |통화 수신자 링크 1은 VPN(가상 사설망), 0은 비 VPN입니다.  <br/> |
 |**CalleeLinkSpeed** <br/> |decimal(18,0)  <br/> | <br/> |통화 수신기의 끝점에 대한 네트워크 연결 속도(bps)입니다.  <br/> |

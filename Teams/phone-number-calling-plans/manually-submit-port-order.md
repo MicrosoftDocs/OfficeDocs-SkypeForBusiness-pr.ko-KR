@@ -27,7 +27,7 @@ ms.locfileid: "49802528"
 ---
 # <a name="manually-submit-a-port-order"></a>포트 주문 수동 제출
 
-일부 국가 및 지역에서는 전화 번호를 얻거나, 전화 번호를 이전하거나, 전화 번호를 해제하거나, 주소를 변경하기 위해 서비스 요청을 수동으로 제출해야 할 수 있습니다. 각 국가 및 지역에 필요한 내용을 확인하거나 번호 포터링에 대한 자세한 내용은 조직의 전화 번호 [관리를 참조합니다.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+일부 국가 및 지역에서는 전화 번호를 옮기거나, 전화 번호를 이전하거나, 전화 번호를 해제하거나, 주소를 변경하기 위해 서비스 요청을 수동으로 제출해야 할 수 있습니다. 각 국가 및 지역에 필요한 내용을 확인하거나 번호 포터링에 대한 자세한 내용은 조직의 전화 번호 [관리를 참조합니다.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 해당 국가 또는 지역이 Microsoft Teams 관리 센터의 포링 마법사에 나열되지 않은 경우 이 문서의 단계를 사용하여 수동으로 포트 주문을 [제출합니다.](transfer-phone-numbers-to-teams.md)
 

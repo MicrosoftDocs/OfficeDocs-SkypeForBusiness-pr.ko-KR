@@ -21,7 +21,7 @@ ms.locfileid: "49802288"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 정보 기록 및 경험 품질 설정 구성
  
-**요약:** 비즈니스용 Skype 서버에서 CDR 및 QoE를 구성하는 방법을 학습합니다.
+**요약:** 비즈니스용 Skype 서버에서 CDR 및 QoE를 구성하는 방법을 배워야 합니다.
   
 비즈니스용 Skype 서버에 대한 SQL Server Reporting Services 보고서를 사용하여 CDR 및 QoE 모니터링을 구성합니다.
   

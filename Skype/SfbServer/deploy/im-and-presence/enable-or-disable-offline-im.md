@@ -51,7 +51,7 @@ ms.locfileid: "49801948"
 
 ## <a name="offline-im-integration-with-exchange"></a>Exchange와 오프라인 IM 통합
 
-오프라인 메시지를 대화 기록 폴더에 자동 저장하지 않도록 설정하는 클라이언트 정책이 있는 경우 보낸 사람이 오프라인 IM을 사용할 수 없습니다(EnableIMAutoArchiving = $false. 받는 사람이 오프라인 메시지를 받을 수 없는지 확인할 수 있는 메커니즘은 없습니다.
+오프라인 메시지를 대화 기록 폴더에 자동 저장하지 않도록 설정하는 클라이언트 정책이 있는 경우 보낸 사람이 오프라인 IM을 사용할 수 없습니다(EnableIMAutoArchiving = $false). 받는 사람이 오프라인 메시지를 받을 수 없는지 확인할 수 있는 메커니즘은 없습니다.
   
 동일한 조직 내에서 전송된 오프라인 메시지의 경우 메시지 클래스가 IM.Note.MissedConversation인 전자 메일 메시지로 수신되고 Outlook **부재** 중 대화 폴더와 비즈니스용 Skype 클라이언트의 최근 목록/대화 기록 탭에서 선택될 대화 기록에 포함됩니다.
   

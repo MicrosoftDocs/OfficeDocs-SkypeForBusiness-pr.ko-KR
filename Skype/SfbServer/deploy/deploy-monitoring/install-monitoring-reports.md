@@ -34,7 +34,7 @@ ms.locfileid: "49802258"
   
 비즈니스용 Skype 서버 모니터링 보고서에는 회의, 피어 투 피어 IM 세션, 사용자 등록, 응답 그룹 응용 프로그램 등 자세한 정보를 제공하도록 설계된 30개가 넘는 보고서가 포함되어 있습니다. 2013 버전의 경우 비즈니스용 Skype 서버 모니터링 보고서에는 다음과 같은 다양한 기능이 포함되어 있습니다.
   
-- **새 음성 품질 보고서.** 이러한 새 보고서에는 다양한 유형의 통화(예: 유선 통화와 무선 통화 간)를 비교하는 비즈니스용 [Skype](../../manage/health-and-monitoring/comparison.md)서버의 미디어 품질 비교 보고서가 포함되어 있습니다. 및 사용자가 회의에 참가하는 데 필요한 시간 관련 정보를 제공하는 [비즈니스용 Skype](../../manage/health-and-monitoring/join-time-report.md)서버의 전화 회의 참가 시간 보고서 
+- **새 음성 품질 보고서.** 이러한 새 보고서에는 다양한 유형의 통화(예: 유선 통화와 무선 통화 간)를 비교하는 비즈니스용 [Skype](../../manage/health-and-monitoring/comparison.md)서버의 미디어 품질 비교 보고서가 포함되어 있습니다. 및 [사용자가](../../manage/health-and-monitoring/join-time-report.md)회의에 참가하는 데 필요한 시간 관련 정보를 제공하는 비즈니스용 Skype 서버의 전화 회의 참가 시간 보고서 
     
 - **비디오 및 응용 프로그램 공유 세션을 분석하고 문제를 해결하기 위한 향상된 보고서입니다.** 비즈니스용 [Skype](../../manage/health-and-monitoring/summary.md) 서버의 미디어 품질 요약 보고서는 비디오 및 응용 프로그램 공유 통화를 분석하는 방법을 제공하는 반면 비즈니스용 [Skype 서버의](../../manage/health-and-monitoring/server-performance.md) 서버 성능 보고서는 이러한 통화를 생성하는 서버의 성능에 대해 자세히 설명합니다. 비디오 및 응용 프로그램 공유 메트릭은 이제 비즈니스용 [Skype](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) 서버의 피어 투 피어 세션 세부 정보 보고서와 비즈니스용 Skype 서버의 전화 회의 세부 정보 보고서에서도 [보고됩니다.](../../manage/health-and-monitoring/detail-report.md)
     
@@ -53,7 +53,7 @@ ms.locfileid: "49802258"
     
 배포 마법사를 사용하여 모니터링 보고서를 설치하려면 다음 단계를 완료합니다.
   
-1. **시작,** 모든 **프로그램,** 비즈니스용 Skype **서버,** 비즈니스용 Skype 서버 배포 마법사를 **클릭합니다.**
+1. **시작,** 모든 **프로그램,** 비즈니스용 **Skype 서버,** 비즈니스용 Skype 서버 배포 마법사를 **클릭합니다.**
     
 2. 배포 마법사에서  모니터링 보고서 배포를 클릭하여 모니터링 보고서 배포 마법사를 시작할 수 있습니다.
     
@@ -80,7 +80,7 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
 |storedUserName  <br/> |예  <br/> |모니터링 저장소에 액세스하는 데 사용되는 사용자 계정(도메인\사용자 이름 형식) 예를 들어:  <br/> ```-storedUserName "litwareinc\kenmyer"``` 이 계정에는 이전에 지정한 SQL Server SQL Server 또는 스크립트가 실패합니다.  <br/> |
 |storedPassword  <br/> |예  <br/> |모니터링 저장소에 액세스하는 데 사용되는 사용자 계정의 암호입니다.  <br/> |
 |readOnlyGroupName  <br/> |아니요  <br/> |해당 구성원에게 모니터링 보고서에 대한 읽기 전용 액세스 권한이 부여되는 도메인 또는 로컬 보안 그룹입니다. 지정한 그룹이 없는 경우 스크립트가 실패합니다. 나중에 이러한 사용 권한을 해지하기로 결정하거나 다른 사용자 또는 다른 그룹에 액세스 권한을 부여하기로 결정한 경우 SQL Reporting Services 보고서 관리자를 사용하여 취소할 수 있습니다.  <br/> |
-|reportSqlServerInstance  <br/> |아니요  <br/> |SQL Server 서비스를 호스팅하는 인스턴스입니다. Reporting 인스턴스는 보고서 서버의 정식 도메인 이름을 사용하여 지정해야 합니다. 예를 들어:  <br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com``` 이 매개 변수를 포함하지 않는 경우 스크립트는 보고 서비스가 모니터링 데이터베이스를 호스트하는 동일한 SQL Server 인스턴스에서 호스팅되는 것으로 가정합니다.  <br/> |
+|reportSqlServerInstance  <br/> |아니요  <br/> |SQL Server 서비스를 호스팅하는 인스턴스입니다. Reporting 인스턴스는 보고서 서버의 정식 도메인 이름을 사용하여 지정해야 합니다. 예를 들어:  <br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com``` 이 매개 변수를 포함하지 않을 경우 스크립트는 보고 서비스가 모니터링 데이터베이스를 호스트하는 동일한 SQL Server 인스턴스에서 호스팅되는 것으로 가정합니다.  <br/> |
 |monitoringDatabaseId  <br/> |아니요  <br/> |모니터링 데이터베이스의 서비스 ID입니다. 다음 명령을 실행하여 모니터링 데이터베이스의 ID를 반환할 수 있습니다.  <br/> ```Get-CsService -MonitoringDatabase```|
    
 모니터링 보고서를 설치한 후 New-CsReportingConfiguration cmdlet을 사용하여 이러한 보고서에 액세스하는 데 사용되는 URL을 구성해야 합니다. 이 작업은 다음 명령 실행을 통해 비즈니스용 Skype 서버 관리 셸에서 Windows PowerShell 있습니다. 보고 URL을 구성할 때 HTTPS 프로토콜을 사용하는 것이 되지만 필수는 아닙니다.
@@ -93,10 +93,10 @@ New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.l
   
 1. 시작, 모든 프로그램, Microsoft SQL Server 2008 R2, 구성 도구를 클릭한 다음 Reporting Services 구성 관리자를 클릭합니다.
     
-2. Reporting Services 구성 연결 대화 상자에서 Reporting Services 컴퓨터의 이름이 서버 이름 상자에 나타나는지 확인합니다. 보고서 SQL Server 드롭다운 목록에서 인스턴스 인스턴스를 선택하고 연결을 클릭합니다.
+2. Reporting Services 구성 연결 대화 상자에서 Reporting Services 컴퓨터의 이름이 서버 이름 상자에 나타나는지 확인합니다. 보고서 SQL Server 드롭다운 목록에서 SQL Server 인스턴스를 선택한 다음 연결을 클릭합니다.
     
 3. Reporting Services 구성 관리자에서 보고서 관리자 URL을 클릭합니다. 하나 이상의 URL이 보고서 관리자 URL 창에 표시해야 합니다. 이러한 URL은 모두 보고 URL로 사용할 수 있습니다. 그러나 ReportingUrl은 HTTPS 프로토콜을 사용하는 것이 좋습니다.
     
-모니터링 데이터베이스에 대해 미러 데이터베이스를 설정한 경우 모니터링 보고서를 미러 데이터베이스와도 연결해야 합니다. 자세한 내용은 비즈니스용 Skype 서버에서 모니터링 보고서와 미러 데이터베이스 [연결](monitoring-reports-with-a-mirror-database.md) 문서를 참조하세요.
+모니터링 데이터베이스에 대해 미러 데이터베이스를 설정한 경우 모니터링 보고서를 미러 데이터베이스와도 연결해야 합니다. 자세한 내용은 비즈니스용 Skype 서버의 미러 [데이터베이스와 모니터링 보고서 연결](monitoring-reports-with-a-mirror-database.md) 문서를 참조하세요.
   
 

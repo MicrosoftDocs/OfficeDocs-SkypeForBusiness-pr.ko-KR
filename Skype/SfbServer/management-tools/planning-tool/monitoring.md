@@ -23,7 +23,7 @@ ms.locfileid: "49802948"
 ---
 # <a name="monitoring-planning-tool"></a>모니터링(계획 도구)
 
-비즈니스용 Skype 서버 2015에서 모니터링은 사용자가 참여하는 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집하는 데 사용됩니다.
+비즈니스용 Skype 서버 2015에서 모니터링은 사용자가 관련된 통신 세션에 대한 사용 정보 및 QoE(QoE) 데이터를 수집하는 데 사용됩니다.
 
 모니터링 서버 계획에 대한 자세한 내용은 [모니터링 계획(Planning for Monitoring)을 참조합니다.](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 

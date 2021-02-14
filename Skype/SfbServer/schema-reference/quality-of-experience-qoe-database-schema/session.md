@@ -43,7 +43,7 @@ ms.locfileid: "49802678"
 |**CallerUserAgent** <br/> |bit  <br/> |외계인  <br/> |발신자 사용자 에이전트입니다. [UserAgent 테이블에서 참조됩니다.](useragent.md)  <br/> |
 |**CallPriority** <br/> |smallint  <br/> ||이 호출의 우선 순위입니다.  <br/> |
 |**ClassifiedPoorCall** <br/> |bit  <br/> ||이 열은 사용되지 않습니다. 비즈니스용 Skype 서버에서는 사용되지 않습니다. 대신 이 정보는 미디어 라인 기준에 보고됩니다. 자세한 내용은 [MediaLine 테이블을](medialine-0.md) 참조하십시오. <br/> |
-|**CallerPAI** <br/> |int  <br/> |외계인  <br/> |통화를 걸었다는 사용자의 P-Asserted-Identity입니다. PAI(P-Asserted-Identity)는 전화를 걸은 사용자의 실제 ID를 전달하는 데 사용됩니다.  <br/> |
+|**CallerPAI** <br/> |int  <br/> |외계인  <br/> |통화를 걸고 있는 사용자의 P-Asserted-Identity입니다. PAI(P-Asserted-Identity)는 전화를 걸은 사용자의 실제 ID를 전달하는 데 사용됩니다.  <br/> |
 |**CalleeEndpoint** <br/> |int  <br/> |외계인  <br/> |통화를 받은 끝점입니다.  <br/> |
 |**CalleeUserAgent** <br/> |int  <br/> |외계인  <br/> |통화를 받은 사용자가 고용한 사용자 에이전트입니다. 사용자 에이전트는 클라이언트 끝점 장치를 나타났습니다.  <br/> |
 |**CalleeUri** <br/> |int  <br/> |외계인  <br/> |통화를 받은 사용자의 SIP URI입니다.  <br/> |

@@ -24,7 +24,7 @@ ms.locfileid: "49802798"
  
 풀 관리, 쿼럼 손실 및 프런트 엔드 서버가 2대인 풀의 특수 단계를 포함하여 비즈니스용 Skype 서버의 프런트 엔드 풀 관리에 대해 자세히 알아보십시오.
   
-비즈니스용 Skype 서버에서 프런트 엔드 풀의 아키텍처는 분산 시스템 모델을 사용하 고 각 사용자의 데이터는 풀에 있는 3대의 프런트 엔드 서버에 보관됩니다. 모든 Enterprise Edition 프런트 엔드 풀에는 프런트 엔드 서버가 3대 이상 포함되어 있는 것이 좋습니다.
+비즈니스용 Skype 서버에서 프런트 엔드 풀의 아키텍처는 분산 시스템 모델을 사용하 고 각 사용자의 데이터는 풀의 3대까지 프런트 엔드 서버에 보관됩니다. 모든 Enterprise Edition 프런트 엔드 풀에는 프런트 엔드 서버가 3대 이상 포함되어 있는 것이 좋습니다.
 
 > [!NOTE]
 > 비즈니스용 Skype 서버 2019는 프런트 엔드 서버가 두 대인 Enterprise Edition 프런트 엔드 풀을 지원하지 않습니다. 이 시나리오에서는 토폴로지가 게시될 수 없습니다.
@@ -53,21 +53,21 @@ ms.locfileid: "49802798"
 |7   <br/> |5   <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
-|10   <br/> |8   <br/> |
+|10    <br/> |8   <br/> |
 |11   <br/> |9   <br/> |
-|12   <br/> |10   <br/> |
+|12   <br/> |10    <br/> |
 |16 **For Skype for Business Server 2019** <br/> |12   <br/> |
 
 
    
-이후에 풀이 시작될 때마다 서버의 85%가 시작되어야 합니다(앞의 표에 나와 있는 경우). 이 수의 서버를 시작할 수 없는 경우(하지만 풀 수준 쿼럼 손실이 되지 않을 수 있도록 충분한 서버를 시작할 수 있는 경우) 이 cmdlet을 사용하여 풀이 이 라우팅 그룹 수준 쿼럼 손실에서 복구하도록 설정하고 진행을 진행할 수  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` 있습니다. 이 cmdlet을 사용하는 방법에 대한 자세한 내용은 [Reset-CsPoolRegistrarState를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps) 
+이후에 풀이 시작될 때마다 서버의 85%가 시작되어야 합니다(앞의 표에 나와 있는 경우). 이 수의 서버를 시작할 수 없는 경우(하지만 풀 수준 쿼럼 손실이 되지 않을 수 있도록 충분한 서버를 시작할 수 있는 경우) 이 cmdlet을 사용하여 풀이 이 라우팅 그룹 수준 쿼럼 손실로부터 복구하도록 설정하고 진행을 진행할 수  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` 있습니다. 이 cmdlet을 사용하는 방법에 대한 자세한 내용은 [Reset-CsPoolRegistrarState를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps) 
   
 > [!NOTE]
-> 서버 수가 1개인 풀에서 비즈니스용 Skype 서버는 기본 서버 SQL 미러링크로 사용합니다. 이와 같은 풀에서 기본 데이터베이스를 종료하고 미러 복사본으로 전환한 다음 앞의 표에 따라 충분히 실행되지 않는 충분한 프런트 엔드 서버를 종료하면 전체 풀이 다운됩니다. 자세한 내용은 데이터베이스 [미러링 지원(Database Mirroring Witness)을 참조하세요.](https://go.microsoft.com/fwlink/?LinkId=393672) 
+> 서버 수가 1개인 풀에서 비즈니스용 Skype 서버는 기본 서버 SQL 미러링크로 사용합니다. 이와 같은 풀에서 기본 데이터베이스를 종료하고 미러 복사본으로 전환하고 앞의 표에 따라 충분히 실행되지 않을 정도로 충분한 프런트 엔드 서버를 종료하면 전체 풀이 다운됩니다. 자세한 내용은 데이터베이스 [미러링 지원(Database Mirroring Witness)을 참조하세요.](https://go.microsoft.com/fwlink/?LinkId=393672) 
   
 #### <a name="pool-level-quorum-loss"></a>풀 수준 쿼럼 손실
 
-프런트 엔드 풀이 작동하지만 풀 수준 쿼럼 손실에는 사용할 수 없습니다. 실행 중인 서버 수가 다음 표에 나와 있는 기능 수준 미만이면 풀의 나머지 서버가 모든 비즈니스용 Skype 서버 서비스를 중지합니다. 다음 표의 숫자는 풀의 백 엔드 서버가 실행되고 있는 것으로 가정합니다.
+프런트 엔드 풀이 작동하지만 풀 수준 쿼럼 손실에는 사용할 수 없습니다. 실행 중인 서버 수가 다음 표에 나와 있는 기능 수준 미만이면 풀의 나머지 서버는 모든 비즈니스용 Skype 서버 서비스를 중지합니다. 다음 표의 숫자는 풀의 백 엔드 서버가 실행되고 있는 것으로 가정합니다.
   
 |풀에 있는 총 프런트 엔드 서버 수  <br/> |풀 작동을 위해 실행되어야 하는 서버 수  <br/> |
 |:-----|:-----|

@@ -63,7 +63,7 @@ ms.locfileid: "49802748"
 |CalleeWifiDriverDeviceDesc  <br/> |varchar(256)  <br/> |발신자 Wi-Fi 드라이버 설명입니다.  <br/> |
 |CalleeWifiDriverVersion  <br/> |varchar(256)  <br/> |발신자 Wi-Fi 드라이버 버전입니다.  <br/> |
 |CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |발신자 네트워크 연결에 대한 세부 정보입니다. 자세한 내용은 [NetworkConnectionDetail 테이블을](networkconnectiondetail.md) 참조하세요. <br/> |
-|CalleeBssid  <br/> |varchar(256)  <br/> |발신자 WiFi 연결에 사용되는 기본 서비스 집합 식별자입니다.  <br/> |
+|CalleeBssid  <br/> |varchar(256)  <br/> |발신자 Wi-Fi 연결에 사용되는 기본 서비스 집합 식별자입니다.  <br/> |
 |CalleeVPN  <br/> |bit  <br/> |수신자가 가상 사설망을 통해 연결했는지 여부를 나타냅니다. 1은 VPN(가상 사설망), 0은 비 VPN입니다.  <br/> |
 |ConversationalMOS  <br/> |decimal(3,2)  <br/> |오디오 세션의 협대역 대화 MOS입니다(두 오디오 스트림을 모두 기반으로 함).  <br/> |
 |AppliedBandwidthLimit  <br/> |int  <br/> |다양한 정책 설정(TURN, API, SDP, 정책 서버 등)이 제공된 지정된 송신 쪽 스트림에 적용되는 실제 대역폭입니다. 대역폭 예상치에 따라 유효 대역폭은 더 낮을 수 있으므로 이 대역폭을 유효 대역폭과 혼동해서는 안 됩니다. 이 대역폭은 기본적으로 대역폭 예상치로 지정된 한도를 제외하고 송신 스트림이 사용할 수 있는 최대 대역폭입니다.  <br/> |

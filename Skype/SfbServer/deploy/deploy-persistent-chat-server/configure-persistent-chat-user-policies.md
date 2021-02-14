@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 2015에서 영구 채팅 사용자 정책 구성
+title: 비즈니스용 Skype 서버에서 영구 채팅 사용자 정책 구성
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
-description: '요약: 이 항목을 통해 비즈니스용 Skype 서버 2015에서 영구 채팅 서버에 대한 초기 사용자 정책을 만드는 방법을 배울 수 있습니다. 영구 채팅 사용자 정책은 사용자가 채팅방에 액세스할 수 있는지 여부를 결정합니다.'
+description: '요약: 이 항목을 읽고 비즈니스용 Skype 서버 2015에서 영구 채팅 서버에 대한 초기 사용자 정책을 만드는 방법을 배워야 합니다. 영구 채팅 사용자 정책은 사용자가 채팅방에 액세스할 수 있는지 여부를 결정합니다.'
 ms.openlocfilehash: 531146a55b0282db191f503ef39e9be9e4d5f879
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49802118"
 ---
-# <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 사용자 정책 구성
+# <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버에서 영구 채팅 사용자 정책 구성
  
 **요약:** 이 항목을 읽고 비즈니스용 Skype 서버 2015에서 영구 채팅 서버에 대한 초기 사용자 정책을 만드는 방법을 배워야 합니다. 영구 채팅 사용자 정책은 사용자가 채팅방에 액세스할 수 있는지 여부를 결정합니다.
   
@@ -28,7 +28,7 @@ ms.locfileid: "49802118"
   
 이 항목에는 다음 섹션이 포함되어 있습니다.
   
-- 전역 정책 구성
+- 글로벌 정책 구성
     
 - 사이트 정책 만들기
     
@@ -39,7 +39,7 @@ ms.locfileid: "49802118"
 > [!NOTE] 
 > 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. Teams에서 동일한 기능을 사용할 수 있습니다. 자세한 내용은 Microsoft Teams 업그레이드 시작을 [참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용하려면 이 기능이 필요한 사용자를 Teams로 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.
 
-## <a name="configure-the-global-policy"></a>전역 정책 구성
+## <a name="configure-the-global-policy"></a>글로벌 정책 구성
 
 전역 정책을 구성하는 경우:
   
@@ -55,7 +55,7 @@ ms.locfileid: "49802118"
     
    - **이름** 에서 글로벌 정책의 새 이름을 지정합니다(기본값인 "전역"을 사용하지 않으려는 경우).
     
-   - **설명에서** 사용자 정책에 대한 세부 정보(예: _centralSiteName에_ 대한 글로벌 정책)를 제공합니다.
+   - **설명에서** 사용자 정책에 대한 세부 정보(예: _centralSiteName에 대한 글로벌 정책)를 제공합니다._
     
    - 사이트 정책 또는 사용자 정책을 통해 제어되지 않는 모든 사이트 및 사용자에 대한 영구 채팅을 제어하려면 영구 채팅 사용 확인란을 **선택하거나** 선택을 취소합니다.
     
@@ -63,7 +63,7 @@ ms.locfileid: "49802118"
     
 ## <a name="create-a-site-policy"></a>사이트 정책 만들기
 
-배포한 각 사이트에 대해 사이트별 영구 채팅 정책을 만들 수 있습니다. 사이트 정책의 구성은 사이트 정책에 포함되는 특정 사이트에 한해 글로벌 정책을 다시 정의합니다. 사이트 정책을 만들 경우:
+배포한 각 사이트에 대해 사이트별 영구 채팅 정책을 만들 수 있습니다. 사이트 정책의 구성은 사이트 정책에 포함되는 특정 사이트에 한해 글로벌 정책을 다시 정의합니다. 사이트 정책을 만들 수 있는 경우:
   
 1. CsPersistentChatAdministrator, CsAdministrator 또는 CsUserAdministrator role 역할에 지정된 사용자 계정에서 내부 배포의 임의 컴퓨터에 로그온합니다.
     
@@ -119,7 +119,7 @@ ms.locfileid: "49802118"
     
 4. 검색 결과가 나열된 표에서 사용자 계정을 클릭하고 **편집** 을 클릭한 후에 **세부 정보 표시** 를 클릭합니다.
     
-5. 영구 채팅 정책에서 비즈니스용 **Skype 서버** 사용자 편집에서 적용할 영구 채팅 사용자 정책을 선택합니다. 
+5. 영구 채팅 정책에서 비즈니스용 **Skype** 서버 사용자 편집에서 적용할 영구 채팅 사용자 정책을 선택합니다. 
     
     > [!NOTE]
     > 이 **\<Automatic\>** 설정은 기본 유효 정책을 적용합니다. 이러한 설정은 서버에 의해 자동으로 적용됩니다.

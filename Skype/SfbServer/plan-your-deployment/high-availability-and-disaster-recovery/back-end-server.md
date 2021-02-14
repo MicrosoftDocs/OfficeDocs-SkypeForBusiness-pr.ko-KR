@@ -48,7 +48,7 @@ AlwaysOn 가용성 그룹, AlwaysOn 장애 조치(failover) 클러스터 인스�
 
 - SQL Server Enterprise Edition 및 Standard Edition 2017
 
-- SQL Server 2016, Enterprise Edition 및 Standard Edition
+- SQL Server Enterprise Edition 및 Standard Edition 2016
 
 - SQL Server Enterprise Edition 및 Standard Edition 2014
     
@@ -72,13 +72,13 @@ AlwaysOn 가용성 그룹, AlwaysOn 장애 조치(failover) 클러스터 인스�
 
 일반적으로 미러링 모니터 서버가 포함된 두 개의 백 엔드 서버 사이에 SQL 미러링을 설정하려면 다음이 필요합니다.
   
-- 기본 서버의 버전은 SQL Server 미러링을 SQL 합니다.
+- 기본 서버의 서버 버전은 SQL Server 미러링을 SQL 합니다.
     
 - 기본, 미러, 미러링 모니터 서버(배포된 경우)는 모두 SQL Server 버전이 동일해야 합니다. 
     
 - 기본 및 미러는 SQL Server의 에디션이 동일해야 합니다. 미러링 모니터 서버는 에디션이 다를 수 있습니다.
     
-미러링 SQL 지원되는 SQL 모범 사례에 대한 자세한 내용은 MSDN 라이브러리의 "데이터베이스 미러링 미러링  [지원"을](https://go.microsoft.com/fwlink/p/?LinkId=247345) 참조합니다.
+미러링 SQL 지원되는 SQL 모범 사례에 대한 자세한 내용은 MSDN 라이브러리의 "데이터베이스 미러링 지원  [서버"를](https://go.microsoft.com/fwlink/p/?LinkId=247345) 참조합니다.
   
 서버 미러링을 구성하기 전에 먼저 데이터베이스 SQL 올바르게 설정해야 합니다. 자세한 내용은 "데이터베이스 미러링 또는 AlwaysOn 가용성 그룹에 대한 로그인 [계정 설정(SQL Server)"을 참조합니다.](https://go.microsoft.com/fwlink/p/?LinkId=268454)
   
@@ -108,13 +108,13 @@ SQL 미러링을 사용할 경우 데이터베이스 복구 모드는 항상 **�
 
 비즈니스용 Skype 서버는 AlwaysOn 가용성 그룹을 활성/활성이 아닌 활성/수동으로만 지원합니다. 
   
-AlwaysOn 가용성 그룹 또는 AlwaysOn 장애 조치(Failover) 클러스터 인스턴스를 사용하기 위해 먼저 SQL Server 사용하여 고가용성 솔루션을 설정하고 구성합니다. 그런 다음 토폴로지 작성기에서 프런트 엔드 풀에 연결합니다.
+AlwaysOn 가용성 그룹 또는 AlwaysOn 장애 조치(Failover) 클러스터 인스턴스를 사용하기 위해 먼저 SQL Server 사용하여 고가용성 솔루션을 설정하고 구성합니다. 그런 다음 토폴로지 작성기에서 프런트 엔드 풀과 연결합니다.
 
 비즈니스용 Skype 서버는 다음 데이터베이스 소프트웨어를 사용하여 AlwaysOn을 지원합니다.
 
 - SQL Server 2019 Enterprise Edition
 
-- SQL Server 2019 Standard Edition에 제한이 있는 경우 아래 참고 사항을 참조하세요.
+- SQL Server 2019 Standard Edition에 제한이 있는 경우 아래 참고를 참조하세요.
 
 - SQL Server 2017 Enterprise Edition
 
@@ -141,19 +141,19 @@ AlwaysOn 가용성 그룹을 배포하는 단계는 비즈니스용 Skype 서버
   
 ## <a name="sql-server-failover-clustering"></a>SQL Server 장애 조치(failover) 클러스터링
 
-비즈니스용 Skype 서버는 다음 SQL Server 소프트웨어로 장애 조치(failover) 클러스터링을 지원합니다.
+비즈니스용 Skype 서버는 다음 데이터베이스 SQL Server 장애 조치(failover) 클러스터링을 지원합니다.
   
 - SQL Server Enterprise Edition 및 Standard Edition의 2019
 
 - SQL Server Enterprise Edition 및 Standard Edition 2017
 
-- SQL Server 2016, Enterprise Edition 및 Standard Edition
+- SQL Server Enterprise Edition 및 Standard Edition 2016
 
 - SQL Server Enterprise Edition 및 Standard Edition 2014
     
 - SQL Server 2012 SP2 및 CU2, Enterprise Edition 및 Standard Edition
 
-장애 조치(failover) 클러스터링을 SQL 프런트 엔드 풀을 배포하기 전에 먼저 SQL Server 클러스터를 설정하고 구성해야 합니다. 2012년 2012의 장애 조치(failover) 클러스터링에 대한 SQL Server 지침은 [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx) 다음을 참조하세요.
+장애 조치(failover) 클러스터링을 SQL 프런트 엔드 풀을 배포하기 전에 먼저 SQL Server 클러스터를 설정하고 구성해야 합니다. 2012의 장애 조치(failover) 클러스터링에 대한 SQL Server 지침은 [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx) 다음을 참조하세요.
 
 > [!NOTE]
 > SQL Server 2019, 2017 및 SQL Server 2016은 비즈니스용 Skype 서버 2019에서 지원되는 유일한 버전입니다.

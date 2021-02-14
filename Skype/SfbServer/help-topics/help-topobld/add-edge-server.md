@@ -24,7 +24,7 @@ ms.locfileid: "49803598"
 ---
 # <a name="add-edge-server"></a>에지 서버 추가
 
-에지 서버 또는 에지 서버 풀을 토폴로지 디자인에 통합하려면 에지 서버 또는 에지 서버 풀을 배포할 서버의 FQDN(정규화된 도메인 이름)을 지정해야 합니다. 에지 서버 또는 에지 서버 풀이 포함된 토폴로지 게시 및 비즈니스용 Skype 서버를 설치하기 전에 외부 사용자 액세스 배포를 위한 모든 선행 작업을 완료해야 합니다. 이러한 필수 구성 요소에 대한 자세한 내용은 배포 설명서에서 [Preparing for Installation of Servers in the Perimeter Network](https://technet.microsoft.com/library/5e6c457a-f964-4ef7-a709-97abda9c673a.aspx)를 참조하십시오.
+에지 서버 또는 에지 서버 풀을 토폴로지 디자인에 통합하려면 에지 서버 또는 에지 서버 풀을 배포할 서버의 FQDN(정규화된 도메인 이름)을 지정해야 합니다. 에지 서버 또는 에지 서버 풀이 포함된 토폴로지와 비즈니스용 Skype 서버를 설치하기 전에 외부 사용자 액세스 배포를 위한 모든 선행 작업을 완료해야 합니다. 이러한 필수 구성 요소에 대한 자세한 내용은 배포 설명서에서 [Preparing for Installation of Servers in the Perimeter Network](https://technet.microsoft.com/library/5e6c457a-f964-4ef7-a709-97abda9c673a.aspx)를 참조하십시오.
 
 > [!IMPORTANT]
 > 지정하는 이름은 서버에 구성된 컴퓨터 이름과 동일해야 합니다. 기본적으로 도메인에 가입되지 않은 컴퓨터의 컴퓨터 이름은 FQDN이 아닌 짧은 이름입니다. 토폴로지 작성기에서는 짧은 이름이 아닌 FQDN을 사용합니다. 따라서 도메인에 가입되지 않은 에지 서버 또는 에지 서버 풀로 배포할 컴퓨터의 이름에 DNS(Domain Name System) 접미사를 구성해야 합니다.

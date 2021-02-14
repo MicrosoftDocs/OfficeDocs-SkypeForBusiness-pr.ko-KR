@@ -25,7 +25,7 @@ ms.locfileid: "49804908"
 ---
 # <a name="ip-version-planning-tool"></a>IP 버전(계획 도구)
  
-비즈니스용 Skype 서버 2015에서 IP 주소를 구성할 때 세 가지 옵션이 있습니다. IPv4(IP 버전 4), IPv6(IP 버전 6) 또는 두 가지의 조합(이중 스택)만 지원하도록 비즈니스용 Skype 서버 2015를 구성할 수 있습니다.
+비즈니스용 Skype 서버 2015에서 IP 주소를 구성할 때 세 가지 옵션이 있습니다. IPv4(IP 버전 4), IPv6(IP 버전 6) 또는 둘의 조합(이중 스택)만 지원하도록 비즈니스용 Skype 서버 2015를 구성할 수 있습니다.
   
 IP 인프라 선택에 대한 자세한 내용은 비즈니스용 [Skype에서 IPv6 계획(Plan for IPv6)을 참조하세요.](../../plan-your-deployment/network-requirements/ipv6.md)
   
