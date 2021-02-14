@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808078"
 ---
-# <a name="users-view-pin-status"></a><span data-ttu-id="a4626-104">사용자: PIN 상태 보기</span><span class="sxs-lookup"><span data-stu-id="a4626-104">Users: View PIN Status</span></span>
+# <a name="users-view-pin-status"></a><span data-ttu-id="ddeb5-104">사용자: PIN 상태 보기</span><span class="sxs-lookup"><span data-stu-id="ddeb5-104">Users: View PIN Status</span></span>
  
-<span data-ttu-id="a4626-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="a4626-105">What do you want to do?</span></span> <span data-ttu-id="a4626-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a4626-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ddeb5-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="ddeb5-105">What do you want to do?</span></span> <span data-ttu-id="ddeb5-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="ddeb5-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="a4626-107">비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정</span><span class="sxs-lookup"><span data-stu-id="a4626-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="ddeb5-107">비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정</span><span class="sxs-lookup"><span data-stu-id="ddeb5-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

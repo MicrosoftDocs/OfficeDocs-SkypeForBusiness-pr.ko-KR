@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807338"
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="ccbc8-104">네트워크 지역 구성: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="ccbc8-104">Configure a Network Region: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="3e8f9-104">네트워크 지역 구성: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="3e8f9-104">Configure a Network Region: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="ccbc8-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="ccbc8-105">What do you want to do?</span></span> <span data-ttu-id="ccbc8-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="ccbc8-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3e8f9-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="3e8f9-105">What do you want to do?</span></span> <span data-ttu-id="3e8f9-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3e8f9-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="ccbc8-107">네트워크 지역 구성</span><span class="sxs-lookup"><span data-stu-id="ccbc8-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="3e8f9-107">네트워크 지역 구성</span><span class="sxs-lookup"><span data-stu-id="3e8f9-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
-<span data-ttu-id="ccbc8-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="ccbc8-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="3e8f9-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="3e8f9-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

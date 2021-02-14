@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49806678"
 ---
-# <a name="mediation-service-setting-expander"></a><span data-ttu-id="e78af-103">중재 서비스 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="e78af-103">Mediation Service Setting Expander</span></span>
+# <a name="mediation-service-setting-expander"></a><span data-ttu-id="0feaf-103">중재 서비스 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="0feaf-103">Mediation Service Setting Expander</span></span>
  
-<span data-ttu-id="e78af-104">이 페이지에서는 이 중재 서버의 수신 대기 포트를 설정하고 공중 전화망(PSTN) 게이트웨이와의 연결을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e78af-104">Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways.</span></span> 
+<span data-ttu-id="0feaf-104">이 페이지에서는 이 중재 서버의 수신 대기 포트를 설정하고 공중 전화망(PSTN) 게이트웨이와의 연결을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0feaf-104">Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways.</span></span> 
   
 

@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807295"
 ---
-# <a name="hybrid-wizard-move-user"></a><span data-ttu-id="e2f2e-104">하이브리드 마법사: 사용자 이동</span><span class="sxs-lookup"><span data-stu-id="e2f2e-104">Hybrid wizard: Move User</span></span>
+# <a name="hybrid-wizard-move-user"></a><span data-ttu-id="d0a73-104">하이브리드 마법사: 사용자 이동</span><span class="sxs-lookup"><span data-stu-id="d0a73-104">Hybrid wizard: Move User</span></span>
 
-<span data-ttu-id="e2f2e-105">사용자 이동 마법사를 사용하여 비즈니스용 Skype Online에 있는온-프레미스 풀에 있는 사용자 계정을 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e2f2e-105">Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online.</span></span> <span data-ttu-id="e2f2e-106">자세한 내용은 하이브리드 관리 가능성 [마법사 사용을 참조하세요.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="e2f2e-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="d0a73-105">사용자 이동 마법사를 사용하여 비즈니스용 Skype Online에 있는온-프레미스 풀에 있는 사용자 계정을 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d0a73-105">Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online.</span></span> <span data-ttu-id="d0a73-106">자세한 내용은 하이브리드 관리 가능성 [마법사 사용을 참조하세요.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="d0a73-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

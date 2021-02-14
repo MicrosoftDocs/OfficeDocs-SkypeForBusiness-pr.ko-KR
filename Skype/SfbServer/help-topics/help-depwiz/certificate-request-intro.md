@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49805278"
 ---
-# <a name="certificate-request-intro"></a><span data-ttu-id="89ec6-104">인증서 요청(소개)</span><span class="sxs-lookup"><span data-stu-id="89ec6-104">Certificate Request (Intro)</span></span>
+# <a name="certificate-request-intro"></a><span data-ttu-id="e1a86-104">인증서 요청(소개)</span><span class="sxs-lookup"><span data-stu-id="e1a86-104">Certificate Request (Intro)</span></span>
  
-<span data-ttu-id="89ec6-p102">인증서 요청 프로세스를 계속하려면 **다음** 을 클릭합니다. 시스템에 대한 변경 내용 없이 프로세스를 끝내려면 **취소** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="89ec6-p102">To continue with the certificate request process, click **Next**. To exit the process with no changes to the system, click **Cancel**.</span></span>
+<span data-ttu-id="e1a86-p102">인증서 요청 프로세스를 계속하려면 **다음** 을 클릭합니다. 시스템에 대한 변경 내용 없이 프로세스를 끝내려면 **취소** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e1a86-p102">To continue with the certificate request process, click **Next**. To exit the process with no changes to the system, click **Cancel**.</span></span>
   
 

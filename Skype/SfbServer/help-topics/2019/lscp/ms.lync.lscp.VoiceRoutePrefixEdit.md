@@ -22,9 +22,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807878"
 ---
-# <a name="prefix-edit"></a><span data-ttu-id="453d0-104">접두사 편집</span><span class="sxs-lookup"><span data-stu-id="453d0-104">Prefix Edit</span></span>
+# <a name="prefix-edit"></a><span data-ttu-id="ef84d-104">접두사 편집</span><span class="sxs-lookup"><span data-stu-id="ef84d-104">Prefix Edit</span></span>
  
-<span data-ttu-id="453d0-p102">접두사나 시작 숫자를 정의하려면 이 경로에서 처리해야 하는 번호 접두사를 추가합니다(필요한 경우 + 포함). 예를 들어 +123으로 시작하는 모든 번호를 일치시킬 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="453d0-p102">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.</span></span>
+<span data-ttu-id="ef84d-p102">접두사나 시작 숫자를 정의하려면 이 경로에서 처리해야 하는 번호 접두사를 추가합니다(필요한 경우 + 포함). 예를 들어 +123으로 시작하는 모든 번호를 일치시킬 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ef84d-p102">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.</span></span>
   
  
   

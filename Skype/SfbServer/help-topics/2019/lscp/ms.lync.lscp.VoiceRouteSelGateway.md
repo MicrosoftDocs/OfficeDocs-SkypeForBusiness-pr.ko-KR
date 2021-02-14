@@ -22,12 +22,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807858"
 ---
-# <a name="select-trunk"></a><span data-ttu-id="4b1d6-103">트렁크 선택</span><span class="sxs-lookup"><span data-stu-id="4b1d6-103">Select Trunk</span></span>
+# <a name="select-trunk"></a><span data-ttu-id="b8184-103">트렁크 선택</span><span class="sxs-lookup"><span data-stu-id="b8184-103">Select Trunk</span></span>
  
-<span data-ttu-id="4b1d6-104">**트렁크 선택** 대화 상자를 사용하여 사용할 수 있는 기존 트렁크를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="4b1d6-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
+<span data-ttu-id="b8184-104">**트렁크 선택** 대화 상자를 사용하여 사용할 수 있는 기존 트렁크를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="b8184-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="4b1d6-105">사용 가능한 모든 트렁크를 검색하려면 검색 상자에 아무런 내용을 입력하지 않고 검색 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4b1d6-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="b8184-105">사용 가능한 모든 트렁크를 검색하려면 검색 상자에 아무런 내용을 입력하지 않고 검색 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b8184-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   
