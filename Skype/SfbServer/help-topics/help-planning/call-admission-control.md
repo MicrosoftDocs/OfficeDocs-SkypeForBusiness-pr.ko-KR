@@ -1,5 +1,5 @@
 ---
-title: 통화 요금제(계획 도구)
+title: 통화 입장 제어(계획 도구)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

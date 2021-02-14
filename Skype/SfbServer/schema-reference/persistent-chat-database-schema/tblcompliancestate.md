@@ -29,7 +29,7 @@ tblComplianceState에는 풀 전체 준수 상태 정보가 포함되어 있습�
 |**열**|**유형**|**설명**|
 |:-----|:-----|:-----|
 |lastProcessedEntryID  <br/> |bigint, null이 아님  <br/> |처리된 최신 준수 이벤트의 ID입니다.  <br/> |
-|activeServerID  <br/> |int, null이 아님  <br/> |데이터베이스에 대한 배타적 잠금을 보유하는 준수 서버의 ID 또는 없음인 경우 -1입니다.  <br/> |
+|activeServerID  <br/> |int, null이 아님  <br/> |데이터베이스에 대한 단독 잠금을 보유하는 준수 서버의 ID 또는 없음인 경우 -1입니다.  <br/> |
 |lockExpirationTime  <br/> |datetime2, null이 아닌  <br/> |잠금 만료 시간(activeServerID가 -1이 아닌 경우)  <br/> |
    
 

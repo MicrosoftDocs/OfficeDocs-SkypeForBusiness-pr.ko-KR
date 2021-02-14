@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
-description: Servers 테이블은 다양한 서버에 대한 정보를 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 서버를 나타 내는 것입니다.
+description: Servers 테이블은 다양한 서버에 대한 정보를 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 서버를 나타내며,
 ms.openlocfilehash: acbc929c1c47ebf86e1b58f4c008f4351de35496
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

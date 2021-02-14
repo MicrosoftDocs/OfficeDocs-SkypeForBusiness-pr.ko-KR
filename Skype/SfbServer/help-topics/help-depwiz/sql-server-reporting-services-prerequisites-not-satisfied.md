@@ -26,8 +26,8 @@ ms.locfileid: "49811098"
 
 인프라에 배포된 모니터링 서버가 없는 경우 이 페이지가 표시됩니다. 이는 모니터링 서버 보고서 배포에 대한 최소 요구 사항이 충족되지 않았음을 나타냅니다.
 
-이 문제를 해결하려면 모니터링 서버가 도메인에 가입되어 있는지, 해당 서버가 토폴로지 작성기에서 정의되어 있는지, 그리고 토폴로지가 게시되어 있는지 확인하십시오. SQL Server Reporting Services도 사용할 수 있어야 SQL Server 서버 데이터베이스의 모니터링 서버 데이터베이스에 기능으로 설치해야 SQL Server.
+이 문제를 해결하려면 모니터링 서버가 도메인에 가입되어 있는지, 토폴로지 작성기에서 정의되어 있는지, 그리고 토폴로지가 게시되어 있는지 확인하십시오. SQL Server Reporting Services도 사용할 수 있어야 SQL Server 서버 데이터베이스의 모니터링 서버 데이터베이스에 기능으로 설치해야 SQL Server.
 
-자세한 내용은 비즈니스용 Skype 서버 [2015에서](../../deploy/deploy-monitoring/install-monitoring-reports.md) 모니터링 보고서 설치 및 모니터링 [배포를 참조하세요.](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+자세한 내용은 비즈니스용 Skype 서버 [2015](../../deploy/deploy-monitoring/install-monitoring-reports.md) 및 모니터링 배포에서 모니터링 보고서 설치를 [참조하세요.](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 
 

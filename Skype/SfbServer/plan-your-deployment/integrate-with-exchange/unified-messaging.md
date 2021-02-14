@@ -30,7 +30,7 @@ ms.locfileid: "49810118"
 Microsoft Exchange Server 2013 및 2016에서 Exchange UM은 Exchange 사서함 서버에서 서비스로 실행됩니다. 비즈니스용 Skype 서버 Enterprise Voice 배포의 경우 통합 메시징은 음성 메시징과 전자 메일 메시징을 사용자가 전화(Outlook Voice Access) 또는 컴퓨터에서 액세스할 수 있는 단일 저장소에 결합합니다. 통합 메시징 및 비즈니스용 Skype 서버는 함께 작동하여 전화 응답, Outlook Voice Access 및 자동 전화 Enterprise Voice.
 
 > [!NOTE]
-> Exchange UM은 비즈니스용 Skype 2019와 Exchange 2013 또는 Exchange 2016을 통합할 때 비즈니스용 Skype 서버 2019에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Cloud Voicemail 및 Cloud 자동 전화 교환 Exchange UM 통합이 강조되지 않습니다.  자세한 [내용은 클라우드 음성메일](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 서비스 계획 및 비즈니스용 Skype Exchange Server [마이그레이션을](../../../sfbhybrid/hybrid/plan-um-migration.md) 참조하세요.
+> Exchange UM은 비즈니스용 Skype 2019와 Exchange 2013 또는 Exchange 2016을 통합할 때 비즈니스용 Skype 서버에서 계속 사용할 수 있습니다. Exchange 2019의 지원이 변경되어 Exchange UM 통합이 클라우드 음성메일 및 클라우드 서비스 자동 전화 교환 강조되지 않습니다.  자세한 [내용은 클라우드 음성메일](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 서비스 계획 및 비즈니스용 Skype Exchange Server [마이그레이션을](../../../sfbhybrid/hybrid/plan-um-migration.md) 참조하세요.
 
 
 이러한 기능을 On-premises Exchange UM 배포에서 지원하려면 다음 중 하나를 실행해야 합니다.
@@ -52,14 +52,14 @@ Microsoft Exchange Server 2013 및 2016에서 Exchange UM은 Exchange 사서함 
 
 - **Outlook Voice Access** Outlook Voice Access 사용하면 Enterprise Voice 메일 뿐만 아니라 전화 통신 인터페이스에서 전자 메일, 일정 및 연락처를 비롯한 Exchange 받은 편지함에도 액세스할 수 있습니다. 구독자 액세스 번호는 Exchange UM 관리자가 할당합니다.
 
-- **자동 Attendant** 자동 전화 교환은 외부 사용자가 회사 대표에게 연결하기 위해 전화를 걸 수 있는 전화 번호를 구성하는 데 사용할 수 있는 Exchange UM 기능입니다. 특히 이 기능은 외부 발신자가 메뉴 시스템을 탐색하는 데 도움이 되는 일련의 음성 안내 메시지를 제공합니다. 사용 가능한 옵션 목록은 Exchange UM 관리자가 Exchange UM 서버에서 구성합니다.
+- **자동 회의** 자동 전화 교환은 외부 사용자가 회사 대표에게 연결하기 위해 전화를 걸 수 있는 전화 번호를 구성하는 데 사용할 수 있는 Exchange UM 기능입니다. 특히 이 기능은 외부 발신자가 메뉴 시스템을 탐색하는 데 도움이 되는 일련의 음성 안내 메시지를 제공합니다. 사용 가능한 옵션 목록은 Exchange UM 관리자가 Exchange UM 서버에서 구성합니다.
 
 - **팩스 서비스** Exchange UM에는 사용자가 Exchange 사서함에서 수신 팩스를 받을 수 있도록 하는 팩스 기능이 포함되어 있습니다. 자세한 내용은 [통합](https://go.microsoft.com/fwlink/p/?linkId=135652) 메시징 설명서에서 Microsoft Exchange Server 참조하십시오.
 
     > [!NOTE]
     > Exchange UM 서버에서 제공하는 팩스 서비스는 Microsoft Exchange Server 2010, Exchange 2010 및 최신 서비스 팩, Exchange 2013 또는 Exchange 2016과 통합된 비즈니스용 Skype 서버 배포에서는 사용할 수 없습니다.
 
-## <a name="components-and-topologies-for-on-premises-unified-messaging-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 프레미스 통합 메시징에 대한 구성 요소 및 토폴로지
+## <a name="components-and-topologies-for-on-premises-unified-messaging-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 구성 요소 및 토폴로지
 
 ### <a name="exchange-server-components"></a>Exchange Server 구성 요소
 
@@ -98,7 +98,7 @@ Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대한 자세한 
 - 사용자가 Exchange UM을 사용할 수 있도록 설정할 각 Exchange UM(통합 메시징) 포리스트에 Exchange 사서함 서버 역할을 배포합니다. Exchange 서버 역할을 설치하는 데 대한 자세한 내용은 다음 Microsoft Exchange Server 참조하십시오.
 
     > [!IMPORTANT]
-    > Exchange UM(통합 메시징)을 설치하면 자체 서명된 인증서를 사용하도록 구성됩니다. 자체 서명된 인증서를 사용하면 비즈니스용 Skype 서버와 Exchange UM이 서로 신뢰하도록 설정되지 않습니다. 이 때문에 두 서버가 신뢰하는 인증 기관에 별도의 인증서를 요청해야 합니다.
+    > Exchange UM(통합 메시징)이 설치되면 자체 서명된 인증서를 사용하도록 구성됩니다. 자체 서명된 인증서를 사용하면 비즈니스용 Skype 서버와 Exchange UM이 서로 신뢰할 수 없습니다. 이 때문에 두 서버가 신뢰하는 인증 기관에 별도의 인증서를 요청해야 합니다.
 
 - 비즈니스용 Skype 서버 및 Exchange UM이 서로 다른 포리스트에 설치되어 있는 경우 각 Exchange 포리스트가 각 Exchange 포리스트를 신뢰하도록 비즈니스용 Skype 서버 포리스트 및 비즈니스용 Skype 서버 포리스트를 신뢰하도록 구성합니다. 또한 일반적으로 스크립트 또는 ILM(Identity Lifecycle Manager)을 사용하는 크로스 포리스트 도구를 사용하여 비즈니스용 Skype 서버 포리스트의 사용자 개체에 대해 사용자의 Exchange UM 설정을 합니다.
 

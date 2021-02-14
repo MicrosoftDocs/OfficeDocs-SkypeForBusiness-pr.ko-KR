@@ -24,7 +24,7 @@ ms.locfileid: "49811158"
 ---
 # <a name="deployment-settings-expander"></a>배포 설정 확장기
 
-다음 섹션에서 기존 배포의 속성을 편집할 수 있습니다.
+다음 섹션을 사용하여 기존 배포의 속성을 편집할 수 있습니다.
 
 - SIP 도메인
 

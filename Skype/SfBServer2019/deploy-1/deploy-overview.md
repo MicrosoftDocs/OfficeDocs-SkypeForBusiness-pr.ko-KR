@@ -40,11 +40,11 @@ ms.locfileid: "49808738"
 |:-----|:-----|:-----|
 |![문서 아이콘](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[비즈니스용 Skype 서버 2019의 시스템 요구 사항](../plan/system-requirements.md)  <br/> |비즈니스용 Skype 서버의 서버 및 환경 요구 사항에 대해 자세히 알아보습니다.  <br/> |
 |![문서 아이콘](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[비즈니스용 Skype 서버의 토폴로지 기본](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |비즈니스용 Skype 서버의 토폴로지 옵션 및 서버 병치 시나리오에 대해 설명합니다.  <br/> |
-|![숫자 방법 아이콘](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[비즈니스용 Skype 서버 설치](../../SfbServer/deploy/install/install.md)<br/> |실제 환경과 가상 환경에서 다양한 토폴로지로 비즈니스용 Skype 서버를 설치하는 방법을 알아보십시오.  <br/> |
+|![숫자 방법 아이콘](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[비즈니스용 Skype 서버 설치](../../SfbServer/deploy/install/install.md)<br/> |실제 환경과 가상 환경에서 다양한 토폴로지에서 비즈니스용 Skype 서버를 설치하는 방법을 알아보십시오.  <br/> |
 |![숫자 방법 아이콘](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [비즈니스용 Skype 서버 2019로 마이그레이션](../migration/migration-to-skype-for-business-server-2019.md) <br/> |이전 버전의 비즈니스용 Skype 또는 Lync Server에서 마이그레이션하는 방법을 배워야 합니다.  <br/> |
 |![숫자 방법 아이콘](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[비즈니스용 Skype를 통해 클라이언트 환경 구성](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |클라이언트 환경을 구성하는 방법을 배워야 합니다.  <br/> |
-|![숫자 방법 아이콘](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [비즈니스용 Skype 서버와 비즈니스용 Skype Online 간의 하이브리드 연결 구성](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |하이브리드 배포에 대한 선행 구성을 구성한 다음, 비즈니스용 Skype 서버(Skype for Business Server) 및 비즈니스용 Skype Online 간에 사용자를 관리하도록 배포를 구성하는 방법을 설명합니다.  <br/> |
-|![숫자 방법 아이콘](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [비즈니스용 Skype 서버에서 에지 서버 배포](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |조직의 사용자가 내부 네트워크에 로그인되지 않은 외부 사용자와 통신하는 경우 에지 서버를 배포할 수 있습니다.  <br/> |
+|![숫자 방법 아이콘](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [비즈니스용 Skype 서버와 비즈니스용 Skype Online 간의 하이브리드 연결 구성](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |하이브리드 배포를 위한 선행 구성을 구성한 다음, 비즈니스용 Skype 서버(Skype for Business Server) 및 비즈니스용 Skype Online 간에 사용자를 관리하도록 배포를 구성하는 방법을 설명합니다.  <br/> |
+|![숫자 방법 아이콘](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [비즈니스용 Skype 서버에서 에지 서버 배포](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |조직의 사용자가 내부 네트워크에 로그인하지 않은 외부 사용자와 통신하는 경우 에지 서버를 배포할 수 있습니다.  <br/> |
 |![숫자 방법 아이콘](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [비즈니스용 Skype Enterprise Voice 배포](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Outlook 및 Exchange와 풍부한 통합을 제공하는 완전한 VoIP(Voice over IP) Enterprise Voice 솔루션을 배포하는 방법과 응답 그룹, 통화 파킹, 팀 통화, 그룹 통화 Pickup 및 고급 긴급 E9-1-1 지원과 같은 다양한 강력한 기능을 제공합니다.  <br/> |
 | ![숫자 방법 아이콘](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [비즈니스용 Skype 서버에서 비디오 Interop 서버 배포](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |비디오 상호 연동을 지원하려는 경우 VIS(Video Interop Server)를 배포하는 방법을 읽어야 합니다.  <br/> |
    
@@ -56,6 +56,6 @@ ms.locfileid: "49808738"
 |:-----|:-----|:-----|
 |![Docs 아이콘](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[IT전용 비즈니스용 Skype 서버](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |리소스 센터를 방문하여 비디오, 커뮤니티 사이트, 설명서, 다운로드 등에 액세스할 수 있습니다.|
 |![개발자 콘텐츠 아이콘](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Skype 개발자 플랫폼](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |코드 샘플, 교육 및 SDK를 포함하여 비즈니스용 Skype 서버용 개발자 리소스를 찾아 보세요.  <br/> |
-|![뉴스, 블로그 등 아이콘](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[변경 관리 및 채택](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 블로그](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 팀 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |비즈니스용 Skype 서버를 만들고 문서화하는 팀의 소식을 계속 전합니다.  <br/> |
+|![뉴스, 블로그 등 아이콘](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[변경 관리 및 채택](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 블로그](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 팀 블로그](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |비즈니스용 Skype 서버를 만들고 문서화하는 팀의 뉴스를 계속 진행합니다.  <br/> |
    
 

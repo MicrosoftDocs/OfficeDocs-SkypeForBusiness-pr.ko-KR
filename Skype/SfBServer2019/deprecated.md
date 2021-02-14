@@ -31,7 +31,7 @@ ms.locfileid: "49808728"
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 XMPP 게이트웨이
 
-비즈니스용 Skype 서버 2015 및 해당 선행 서버에서는 에지 서버에 XMPP(Extensible Messaging and Presence Protocol) 프록시를 구성하고 프런트 엔드 서버 또는 프런트 엔드 풀의 XMPP 게이트웨이를 구성할 수 있습니다. 이 기능은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다.
+비즈니스용 Skype 서버 2015 및 해당 선행 서버에서는 에지 서버 및 프런트 엔드 서버 또는 프런트 엔드 풀의 XMPP 게이트웨이에 XMPP(Extensible Messaging and Presence Protocol) 프록시를 구성할 수 있습니다. 이 기능은 비즈니스용 Skype 서버 2019에서 더 이상 사용할 수 없습니다.
 
 ### <a name="persistent-chat-for-skype-for-business-server"></a>영구 비즈니스용 Skype 서버 채팅
 
@@ -63,7 +63,7 @@ SQL 미러링은 비즈니스용 Skype 서버 2019와 함께 배포할 수 없�
 - 비즈니스용 Skype 서버 디버깅 도구
 - 비즈니스용 Skype 서버 리소스 키트 도구(일부 도구는 제거됨)
     - Call Parkometer
-    - 사용자 콘솔을 Lookup user console
+    - 사용자 콘솔을 찾아서
     - 미지정 번호 공지 마이그레이션
 
 다음 도구는 비즈니스용 Skype 서버 2019에서 지원되지 않습니다.

@@ -25,7 +25,7 @@ ms.locfileid: "49810218"
   
 이 항목에서는 회의를 관리하는 방법에 대해 설명합니다. 회의를 계획 및 배포하는 방법에 대한 자세한 내용은 비즈니스용 [Skype](../../plan-your-deployment/conferencing/conferencing.md) 서버에서 회의 계획 및 비즈니스용 Skype 서버에서 회의 배포를 [참조하세요.](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
-비즈니스용 Skype 서버에서 다음과 같이 구성 및 정책 설정을 지정하여 회의 세부 정보를 관리합니다. 용어 회의와 모임은 경우에 따라 서로 다른 것으로 사용됩니다. 그러나 일반적으로 모임을 특정 회의 인스턴스로 생각할 수 있습니다.
+비즈니스용 Skype 서버에서 다음과 같이 구성 및 정책 설정을 지정하여 회의 세부 정보를 관리합니다. 용어 회의 및 모임은 경우에 따라 서로 교환하여 사용됩니다. 그러나 일반적으로 모임을 특정 회의 인스턴스로 생각할 수 있습니다.
   
 - **회의 정책** 설정에는 모임에 IP 오디오 및 비디오를 포함할 수 있는지 여부부터 참가할 수 있는 최대 사용자 수에 이르기까지 다양한 이벤트 및 참가 옵션이 포함됩니다. 회의 정책을 사용하여 모임의 보안, 대역폭 및 법적 측면을 관리할 수 있습니다.
     
@@ -33,11 +33,11 @@ ms.locfileid: "49810218"
     
     모임 이끌이 역할에 전용 계정을 사용하는 경우 회의 정책이 해당 계정에 할당된 상태로 유지될 수 있습니다. 모임 이끌이가 일반 비즈니스용 Skype 계정을 사용하는 경우 전화 회의가 완료된 후 정책을 제거해야 합니다.
     
-- **모임 구성** 설정은 익명 사용자 및 전화 접속 회의 사용자가 이러한 모임에 참가할 수 있는 방법(또는 사용자라도)을 제어하는 것 외에도 사용자가 만들 수 있는 모임 유형을 제어합니다. 이러한 설정은 예약된 모임에만 영향을 미치게 됩니다. 모임 구성은 풀, 사이트당 또는 전역으로 적용됩니다.
+- **모임 구성** 설정은 익명 사용자 및 전화 접속 회의 사용자가 이러한 모임에 참가할 수 있는 방법(또는 사용자라도)을 제어하는 것 외에도 사용자가 만들 수 있는 모임 유형을 제어합니다. 이러한 설정은 예약된 모임에만 영향을 미치게 됩니다. 모임 구성은 풀, 사이트 또는 전역으로 적용됩니다.
     
 - **회의 구성** 설정에 따라 모임 콘텐츠 및 유인물에 허용되는 최대 크기 등의 설정이 결정됩니다. 응용 프로그램 공유 회의 서비스의 최대 대역폭 양 저장소 제한 및 만료 기간 지원되는 클라이언트의 내부 및 외부 다운로드 URL 사용자가 회의 도움말 및 리소스를 얻을 수 있는 내부 및 외부 URL에 대한 포인터 및 응용 프로그램 공유, 클라이언트 오디오, 파일 전송 및 미디어 트래픽에 사용되는 포트
     
-    이러한 설정을 사용하면 실제 서버를 직접 관리할 수 있습니다. 이러한 설정은 비즈니스용 Skype 서버 관리 셸을 사용하여만 설정할 수 있습니다. 
+    이러한 설정을 통해 실제 서버를 직접 관리할 수 있습니다. 이러한 설정은 비즈니스용 Skype 서버 관리 셸을 사용하여만 설정할 수 있습니다. 
     
 - **전화 접속 액세스 설정을** 사용하면 사용자가 휴대폰에서 전화를 걸지 여부 및 방법에 대한 정보를 정의할 수 있습니다. 제어판 회의 탭에서 액세스 번호와 같은 전화 접속 액세스 정보 중 일부를 지정하고 제어판 음성 라우팅 탭에서 다이얼 플랜, 음성 정책, 경로 및 PSTN 사용과 같은 일부 전화 접속 정보를 지정합니다.
     
@@ -49,31 +49,31 @@ ms.locfileid: "49810218"
   
 - 회의 정책 설정을 관리하려면
     
-  - 제어판에서 회의 선택 **| 회의 정책.**
+  - 제어판에서 회의 **목록 | 회의 정책.**
     
   - PowerShell에서 **-CsConferencingPolicy** cmdlet을 검색합니다.
     
 - 모임 구성 설정을 관리하려면
     
-  - 제어판에서 회의 선택 **| 모임 구성.**
+  - 제어판에서 회의 **목록 | 모임 구성.**
     
   - 비즈니스용 Skype 서버 관리 셸에서 **-CsMeetingConfiguration** cmdlet을 검색합니다.
     
 - 전화 접속 액세스 번호 설정을 관리하려면
     
-  - 제어판에서 회의 선택 **| 전화 접속 액세스 번호입니다.**
+  - 제어판에서 회의 **목록 | 전화 접속 액세스 번호입니다.**
     
   - 비즈니스용 Skype 서버 관리 셸에서 **-CsDialInConferencing** cmdlet을 검색합니다.
     
 - 다이얼 플랜, 음성 정책, 경로 및 PSTN 사용과 같은 전화 접속 액세스 정보를 관리합니다. 
     
-  - 제어판에서 회의 선택 **| 음성 라우팅.**
+  - 제어판에서 회의 **목록 | 음성 라우팅.**
     
   - 비즈니스용 Skype 서버 관리 셸에서 **-CsDialPlan** 및 **-CsVoice** cmdlet을 검색합니다.
     
 - PIN 정책 설정을 관리하려면
     
-  - 제어판에서 회의 선택 **| PIN 정책**.
+  - 제어판에서 회의 **목록 | PIN 정책**.
     
   - 비즈니스용 Skype 서버 관리 셸에서 **-CsPinPolicy** cmdlet을 검색합니다.
     
@@ -157,7 +157,7 @@ ms.locfileid: "49810218"
 |[Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) <br/> |조직에서 사용되는 회의 고지 조항에 대한 정보를 반환합니다. 회의 고지성은 하이퍼링크를 사용하여 회의에 참가하는 사용자에게 표시되는 메시지입니다(예: Windows Internet Explorer와 같은 브라우저에 회의 링크를 붙여 넣는 사용자).  <br/> |
 |[Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/get-csmeetingroom?view=skype-ps) <br/> |조직에서 사용하도록 구성된 모든 비즈니스용 Skype 서버 회의실에 대한 정보를 반환합니다.  <br/> |
 |[Move-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/move-csmeetingroom?view=skype-ps) <br/> |비즈니스용 Skype 서버 회의실 개체를 한 등록자 풀에서 다른 등록자 풀로 이동합니다.  <br/> |
-|[Remove-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/remove-csconferencedisclaimer?view=skype-ps) <br/> |조직에서 사용되는 전화 회의 고지의 머리글과 본문에서 텍스트를 지우습니다. 회의 고지성은 하이퍼링크를 사용하여 회의에 참가하는 사용자에게 표시되는 메시지입니다(예: Windows Internet Explorer와 같은 브라우저에 회의 링크를 붙여 넣는 사용자).  <br/> |
+|[Remove-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/remove-csconferencedisclaimer?view=skype-ps) <br/> |조직에서 사용되는 전화 회의 고지의 머리글 및 본문에서 텍스트를 지우습니다. 회의 고지성은 하이퍼링크를 사용하여 회의에 참가하는 사용자에게 표시되는 메시지입니다(예: Windows Internet Explorer와 같은 브라우저에 회의 링크를 붙여 넣는 사용자).  <br/> |
 |[Set-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/set-csmeetingroom?view=skype-ps) <br/> |기존 비즈니스용 Skype 서버 회의실의 속성 값을 수정합니다.  <br/> |
    
 **설정 테스트**

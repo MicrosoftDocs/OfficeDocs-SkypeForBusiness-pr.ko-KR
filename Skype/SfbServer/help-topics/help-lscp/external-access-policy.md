@@ -28,7 +28,7 @@ ms.locfileid: "49810908"
 
 - [원격 사용자 액세스 관리](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
 
-- [페더타 사용자 액세스를 제어하도록 정책 구성](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [페더리 사용자 액세스를 제어하도록 정책 구성](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
 - [IM 서비스 공급자의 사용자 액세스를 제어하도록 정책 구성](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
 

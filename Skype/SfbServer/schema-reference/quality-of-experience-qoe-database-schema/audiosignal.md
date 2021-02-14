@@ -47,7 +47,7 @@ ms.locfileid: "49809658"
 |**EchoPercentSend** <br/> |decimal(5,2)  <br/> ||전송된 스트림에서 에코가 감지되는 시간의 백분율입니다. 전송 스트림에서 에코 비율이 높으면 에코 누출을 나타낼 수 있습니다.  <br/> |
 |**RxAGCSignalLevel** <br/> |int  <br/> | <br/> |게이트웨이에서 중재 서버에서 수신된 신호 수준 이는 중재 서버에만 적용됩니다. 이 메트릭의 단위는 dBoV입니다. 양질의 경우 허용되는 범위는 [-30 ~ -18] dBoV입니다.  <br/> |
 |**RxAGCNoiseLevel** <br/> |int  <br/> | <br/> |게이트웨이에서 중재 서버에서 수신된 신호 수준입니다. 중재 서버에만 적용됩니다. 이 메트릭의 단위는 dBoV입니다. 적정 품질을 위해 허용되는 범위는 -50 dBoV 미만입니다.  <br/> |
-|**RxAvgAGCGain** <br/> |int  <br/> | <br/> |중재 서버 쪽의 AGC(자동 게인 제어)입니다.  <br/> |
+|**RxAvgAGCGain** <br/> |int  <br/> | <br/> |중재 서버 쪽의 AGC(자동 게인 컨트롤)입니다.  <br/> |
 |**InitialSignalLevelRMS** <br/> |float  <br/> | <br/> |호출의 처음 30초까지 수신 신호의 RMS(루트 평균 정사각형)입니다.  <br/> |
 |**RecvSignalLevelCh1** <br/> |int  <br/> ||채널 1에서 수신된 신호 수준입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**RecvSignalLevelCh2** <br/> |int  <br/> ||채널 2에서 수신된 신호 수준입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
@@ -58,5 +58,5 @@ ms.locfileid: "49809658"
 |**SendNoiseLevelCh1** <br/> |int  <br/> ||채널 1에서 전송된 노이즈 수준입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**SendNoiseLevelCh2** <br/> |int  <br/> ||채널 2에서 전송된 노이즈 수준입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**RenderLoopbackSignalLevel** <br/> |int  <br/> ||재생을 위해 스피커로 전송되는 신호의 dBFS 수준입니다. 수신된 신호에 대한 게인 조정에 대한 계정입니다. <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |   
-|**RenderNoiseLevel** <br/> |int  <br/> ||재생을 위해 스피커로 전송된 신호의 노이즈 콘텐츠 dBFS 수준 <br/> |
+|**RenderNoiseLevel** <br/> |int  <br/> ||재생을 위해 스피커로 전송되는 신호의 노이즈 콘텐츠 dBFS 수준 <br/> |
 

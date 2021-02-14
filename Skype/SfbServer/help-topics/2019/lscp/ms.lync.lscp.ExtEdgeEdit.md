@@ -32,7 +32,7 @@ ms.locfileid: "49808598"
 
 - [페더ation 파트너 검색 사용 또는 사용 안 하도록 설정](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
 
-- [페더링 파트너에게 보관 고지 조항 보내기 사용 또는 사용 안 하도록 설정](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
+- [페더링 파트너에게 보관 고지서 보내기 사용 또는 사용 안 하도록 설정](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
 
 - [조직에 익명 사용자 액세스 사용 또는 사용 안 하도록 설정](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 

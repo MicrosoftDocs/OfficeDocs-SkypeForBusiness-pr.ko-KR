@@ -26,7 +26,7 @@ ms.locfileid: "49809488"
 ---
 # <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell 스크립트 샘플 - Teams 배포 정리
 
-이 스크립트를 사용하여 Teams를 제거합니다. 이 스크립트는 Teams를 제거하고 사용자의 Teams 폴더를 제거합니다. 컴퓨터에 Teams가 설치된 각 사용자 프로필에 대해 이 스크립트를 실행합니다.
+이 스크립트를 사용하여 Teams를 제거합니다. 이 스크립트는 Teams를 제거하고 사용자의 Teams 폴더를 제거합니다. Teams가 컴퓨터에 설치된 각 사용자 프로필에 대해 이 스크립트를 실행합니다.
 
 
 ## <a name="sample-script"></a>샘플 스크립트

@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 이 문서에서는 조직의 사용자에 대한 긴급 위치의 위치를 할당하거나 변경하는 방법을 배웠습니다.
+description: 이 문서에서는 조직의 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법을 배웠습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 385855c456d3a4e5c2de53fb2605e4d5d30d84a4
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
@@ -41,7 +41,7 @@ Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 사용자�
 
 3. 편집 **창의** 긴급 위치 **아래에서** 다음 중 하나를 합니다.
 
-    - 장소를 할당하려면 위치 또는 위치를 검색한 다음 검색 결과에서 위치를 선택합니다.
+    - 장소를 지정하려면 위치 또는 위치를 검색한 다음 검색 결과에서 위치를 선택합니다.
 
     - 사용자에게 이미 할당된 위치를 변경하려면 **X를** 클릭하여 기존 위치와 위치를 제거하고 검색한 다음 할당할 위치를 선택합니다.
 
