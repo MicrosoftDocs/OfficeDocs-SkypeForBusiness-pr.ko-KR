@@ -28,6 +28,6 @@ Mcus 테이블은 지원 테이블입니다. 각 레코드에는 하나의 회�
 |:-----|:-----|:-----|:-----|
 |**McuId** <br/> |int  <br/> |Primary  <br/> |이 회의 서버를 식별하는 고유 번호입니다.  <br/> |
 |**McuUri** <br/> |nvarchar(450)  <br/> | <br/> | <br/> |
-|**McuTypeId** <br/> |inyint  <br/> | 외계인 <br/> |회의 서버 유형(예: conf:chat(IM용) 또는 conf:audio-video) 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하십시오. <br/> |
+|**McuTypeId** <br/> |inyint  <br/> | 외계인 <br/> |회의 서버 유형(예: conf:chat(IM용) 또는 conf:audio-video) 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하세요. <br/> |
    
 

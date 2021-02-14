@@ -28,7 +28,7 @@ ms.locfileid: "49819238"
   
 - [비즈니스용 Skype 서버 2015에서 환경 품질 사용](../../manage/health-and-monitoring/enable-qoe.md)
     
-- [비즈니스용 Skype 서버 2015에서 경험 품질 설정 수정](../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [비즈니스용 Skype 서버 2015에서 환경 품질 설정 수정](../../manage/health-and-monitoring/modify-qoe-settings.md)
     
 - [비즈니스용 Skype 서버에서 환경 품질 구성 설정 만들기](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     

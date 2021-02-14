@@ -62,7 +62,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 패턴이 추가된 이유를 쉽게 이해할 수 있도록 의미 있는 이름을 제공하는 것이 좋습니다. 스팸 번호를 차단하는 경우 규칙의 이름을 일치되는 숫자 패턴과 동일하게 이름을 정하고 필요한 경우 설명에 추가 정보를 추가합니다.
 
-패턴은 정규식(Regex)을 사용하여 일치합니다. 복제를 테스트하고 유효성을 검사하기 전에 시간을 허용합니다.
+패턴은 정규식(정규식)을 사용하여 일치합니다. 복제를 테스트하고 유효성을 검사하기 전에 시간을 허용합니다.
 
 #### <a name="allow-a-number"></a>숫자 허용
 
@@ -111,7 +111,7 @@ New-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="view-all-number-exceptions"></a>모든 숫자 예외 보기
 
-이 예제에서 -Identity 매개 변수는 선택 사항입니다. 매개 변수를 지정하지 않으면 이 cmdlet은 테넌트에 대해 입력된 모든 숫자 예외 패턴 목록을 ```-Identity``` 반환합니다.
+이 예제에서 -Identity 매개 변수는 선택 사항입니다. 매개 변수를 지정하지 않으면 이 cmdlet은 테넌트에 입력된 모든 숫자 예외 패턴 목록을 ```-Identity``` 반환합니다.
  
 ```powershell
 Get-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -149,7 +149,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 cmdlet을 사용하여 테넌트에서 숫자가 ```Test-CsInboundBlockedNumberPattern``` 차단되는지 여부를 확인할 수 있습니다.
  
-이 예제에서는 매개 ```-Phonenumber``` ```-Tenant``` 변수가 필요합니다. 매개 변수는 + 또는 -와 같은 추가 문자가 없는 숫자 ```-PhoneNumber``` 문자열입니다. TRPS에서는 선택 ```-Tenant parameter``` 사항입니다. 결과 매개 변수는 숫자가 테넌트에서 차단된 경우 True 값을 반환하고 차단되지 않은 경우 False 값을 ```isNumberBlocked``` 반환합니다.
+이 예제에서는 매개 ```-Phonenumber``` 변수가 ```-Tenant``` 필요합니다. 매개 변수는 + 또는 -와 같은 추가 문자가 없는 ```-PhoneNumber``` 숫자 문자열입니다. TRPS에서는 선택 ```-Tenant parameter``` 사항입니다. 결과 매개 변수는 숫자가 테넌트에서 차단된 경우 True 값을 반환하고 차단되지 않은 경우 False 값을 ```isNumberBlocked``` 반환합니다.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>

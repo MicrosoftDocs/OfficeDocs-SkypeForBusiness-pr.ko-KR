@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821518"
 ---
-# <a name="locations-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 위치 테이블
+# <a name="locations-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 Locations 테이블
  
 각 레코드는 E9-1-1 통화와 같은 응급 통화에서 하나의 위치 참조를 나타냅니다.
   

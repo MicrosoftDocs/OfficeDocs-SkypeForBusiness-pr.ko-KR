@@ -22,7 +22,7 @@ ms.locfileid: "49821328"
 ---
 # <a name="videostream-table"></a>VideoStream 테이블
  
-각 레코드는 하나의 비디오 스트림을 표현합니다. 한 비디오 미디어 선에는 일반적으로 두 개의 비디오 스트림이 포함되어 있습니다.
+각 레코드는 하나의 비디오 스트림을 표현합니다. 한 비디오 미디어 줄에는 일반적으로 두 개의 비디오 스트림이 포함되어 있습니다.
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|
@@ -65,7 +65,7 @@ ms.locfileid: "49821328"
 |**BandwidthEstMax** <br/> |int  <br/> ||통화 중에 측정된 최대 대역폭 예상량입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**BandwidthEstStdDev** <br/> |int  <br/> ||통화 중에 측정된 대역폭 예상 표준 편차입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**BandwidthEstAvge** <br/> |int  <br/> ||통화 중에 측정된 평균 대역폭 예상량입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
-|**LowBandwidthForMultiview** <br/> |float  <br/> ||끝점에서 네트워크 연결이 멀티뷰 비디오를 지원하지 못했다고 판단한 통화 비율입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
+|**LowBandwidthForMultiview** <br/> |float  <br/> ||끝점에서 네트워크 연결이 멀티 뷰 비디오를 지원하지 못했다고 판단한 통화 비율입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**RelativeOneWayTotal** <br/> |float  <br/> ||총 단방향 대기 시간입니다. 상대 단방향 대기 시간이 클라이언트와 서버 간의 지연을 측정합니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**RelativeOneWayAverage** <br/> |float  <br/> ||평균 단방향 대기 시간입니다. 상대 단방향 대기 시간이 클라이언트와 서버 간의 지연을 측정합니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**RelativeOneWayMax** <br/> |float  <br/> ||최대 단방향 대기 시간입니다. 상대 단방향 대기 시간이 클라이언트와 서버 간의 지연을 측정합니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
@@ -79,7 +79,7 @@ ms.locfileid: "49821328"
 |**VideoAllocateBWAvg** <br/> |int  <br/> ||비디오에 할당된 평균 대역폭 양입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**SendCodecTypes** <br/> |smallint  <br/> |외계인  <br/> |보낸 사람이 사용하는 비디오 코덱의 유형입니다. 자세한 내용은 [CodecDescription 테이블을](codecdescription.md) 참조하십시오. <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**SendResolutionWidth** <br/> |int  <br/> ||보낸 사람이 사용하는 해상도 너비입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
-|**SendResolutionHeight** <br/> |int  <br/> ||보낸 사람이 사용하는 해상도 높이입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
+|**SendResolutionHeight** <br/> |int  <br/> ||보낸 사람이 사용한 해상도 높이입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**SendFrameRateAverage** <br/> |float  <br/> ||보낸 사람이 사용한 평균 비디오 프레임 속도 전송입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**SendBitRateMaximum** <br/> |int  <br/> ||보낸 사람에 대한 최대 비트 전송률입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**SendBitRateAverage** <br/> |int  <br/> ||보낸 사람에 대한 평균 비트 전송률입니다.  <br/> |
@@ -98,7 +98,7 @@ ms.locfileid: "49821328"
 |**ResolutionMin** <br/> |char(9)  <br/> ||통화 중에 측정된 최소 해상도입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**LowBitRateCallPercent** <br/> |float  <br/> ||낮은 비트 속도 임계값 미만의 호출 비율(초당 70킬로비트)입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**LowFrameRateCallPercent** <br/> |float  <br/> ||낮은 프레임 속도 임계값 미만의 호출 비율(초당 7.5프레임, 인바운드)  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
-|**LowResolutionCallPercent** <br/> |float  <br/> ||가장 낮은 해상도에서 발생한 호출의 백분율입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
+|**LowResolutionCallPercent** <br/> |float  <br/> ||가장 낮은 해상도에서 발생한 통화의 백분율입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**DurationSeconds** <br/> |float  <br/> ||통화 길이(초)입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**IsAggregatedData** <br/> |bit  <br/> ||데이터가 여러 호출에서 집계된지 여부를 나타냅니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
    

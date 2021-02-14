@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: 이 항목을 읽고 Microsoft 365 또는 Office 365에서 Skype 채팅방 시스템 계정을 프로비전하는 방법을 배워 읽습니다.
+description: 이 항목을 읽고 Microsoft 365 또는 Office 365에서 Skype 룸 시스템 계정을 프로비전하는 방법을 배워야 합니다.
 ms.openlocfilehash: 115dd83751e0da837d9d88351d57a769b7e313da
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "49820848"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Microsoft 365 및 Office 365에서 Skype 룸 시스템 계정 프로비전
  
-이 항목을 읽고 Microsoft 365 또는 Office 365에서 Skype 채팅방 시스템 계정을 프로비전하는 방법을 배워 읽습니다.
+이 항목을 읽고 Microsoft 365 또는 Office 365에서 Skype 룸 시스템 계정을 프로비전하는 방법을 배워야 합니다.
   
 다음 섹션에서는 Skype 룸 시스템 계정 프로비전에 대한 설명을 제공합니다.
   
@@ -47,7 +47,7 @@ Skype 룸 계정의 경우 다음 라이선스가 필요합니다.
   
 - Skype 모임을 사용하도록 설정하려면 비즈니스용 Skype Online 계획 2 또는 Office 365 E1 또는 E3 라이선스가 필요합니다.
     
-- 전화 번호로 채팅방을 사용할 수 있도록 Enterprise Voice 기능을 사용하여 방에 권한을 부여하려면 전화 시스템 라이선스가 있는 비즈니스용 Skype Online 계획 2 또는 Office 365 E5가 필요합니다(1).
+- 전화 번호로 채팅방을 사용할 수 있도록 Enterprise Voice 기능을 사용하여 방에 자격을 부여하려면 전화 시스템 라이선스가 있는 비즈니스용 Skype Online 계획 2 또는 Office 365 E5가 필요합니다(1).
     
 - 모임에서 전화 접속 기능이 필요한 경우 오디오 회의 및 전화 시스템 라이선스가 필요합니다.  모임에서 전화 접속 기능이 필요한 경우 국내 또는 국내 및 국제 통화 플랜이 필요합니다. 
     
@@ -61,7 +61,7 @@ Skype 룸 계정의 경우 다음 라이선스가 필요합니다.
   
 ## <a name="identify-a-new-conference-room"></a>새 회의실 식별
 
-Exchange에 이미 예정 기능을 제공하는 리소스 공간 사서함이 있을 수 있습니다. 또는 Skype 룸 시스템 배포를 용이하게 하기 위해 리소스 사서함을 처음으로 만들 수도 있습니다. 어떤 경우든 테넌트에서 사용할 방 계정을 식별해야 합니다. Exchange Online 프로비전 및 비즈니스용 Skype 프로비전 섹션에서는 두 종류의 계정에 대한 지침을 제공합니다. 예를 들어 다음 두 방이 있으며 이 두 방 모두에 대해 Skype 룸 시스템을 배포하고자 하는 경우를 예로 들어 보겠습니다.
+Exchange에 이미 계획 기능을 제공하는 리소스 공간 사서함이 있을 수 있습니다. 또는 Skype 룸 시스템 배포를 용이하게 하기 위해 리소스 사서함을 처음으로 만들 수도 있습니다. 어떤 경우든 테넌트에서 사용할 방 계정을 식별해야 합니다. Exchange Online 프로비전 및 비즈니스용 Skype 프로비전 섹션에서는 두 종류의 계정에 대한 지침을 제공합니다. 예를 들어 다음 두 방이 있으며 이 두 방 모두에 대해 Skype 룸 시스템을 배포하고자 하는 경우를 예로 들어 보겠습니다.
   
 - 기존 리소스 사서함 계정: confrm1@contoso.onmicrosoft.com
     
@@ -99,7 +99,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 ## <a name="skype-for-business-online-provisioning"></a>비즈니스용 Skype Online 프로비전
 
-리소스 공간 사서함 계정을 생성하고 사용하도록 설정한 후 비즈니스용 Skype Online에 대한 계정에 라이선스를 부여한 후 계정이 Exchange Online 포리스트에서 비즈니스용 Skype Online 포리스트로 동기화될 Windows Azure Active Directory 포리스트를 사용하여 동기화합니다. 비즈니스용 Skype Online 풀에서 Skype 룸 시스템 계정을 프로비전하려면 다음 단계가 필요합니다. 이러한 단계는 기존 리소스 사서함 계정 또는 새로 만든 계정(confrm1 또는 confrm2)에 대해 동일합니다. Exchange Online에서 사용하도록 설정하면 두 계정이 동일한 방식으로 비즈니스용 Skype Online과 동기화됩니다.
+리소스 공간 사서함 계정을 생성하고 사용하도록 설정하고 비즈니스용 Skype Online에 대한 계정에 라이선스를 부여한 후 계정이 Exchange Online 포리스트에서 비즈니스용 Skype Online 포리스트로 동기화될 Windows Azure Active Directory 포리스트를 사용하여 동기화합니다. 비즈니스용 Skype Online 풀에서 Skype 룸 시스템 계정을 프로비전하려면 다음 단계가 필요합니다. 이러한 단계는 기존 리소스 사서함 계정 또는 새로 만든 계정(confrm1 또는 confrm2)에 대해 동일합니다. Exchange Online에서 사용하도록 설정하면 두 계정이 동일한 방식으로 비즈니스용 Skype Online과 동기화됩니다.
   
 1. 원격 PowerShell 세션을 만들 수 있습니다. 비즈니스용 Skype Online 커넥터 모듈 및 Microsoft Online Services Sign-In 도우미를 다운로드하고 컴퓨터가 구성되어 있는지 확인합니다. 자세한 내용은 [다음을 위해](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)컴퓨터 Windows PowerShell.
     

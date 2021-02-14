@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
-description: CsPersistentChatAdministrator 역할(영구 채팅 관리자)의 구성원은 채팅방 관리자 권한 및 사용 권한을 다른 사용자와 자신에게 부여할 수 있습니다.
+description: CsPersistentChatAdministrator 역할(영구 채팅 관리자)의 구성원은 채팅방 관리자 권한 및 사용 권한을 다른 사용자 및 사용자에게 부여할 수 있습니다.
 ms.openlocfilehash: 745bec575e4071fcd06e7abfe15a3aa4ed8b194f
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "49818768"
 
 - 영구 채팅 서버에 대한 정책을 사용하도록 설정하거나 사용하지 않도록 설정
 
-- 영구 채팅 서버 풀에서 구성 설정을 설정하고 관리합니다.
+- 영구 채팅 서버 풀의 구성 설정을 설정하고 관리합니다.
 
 자세한 내용은 배포 설명서에서 [Adding a Persistent Chat Administrator](https://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx)를 참조하십시오.
 

@@ -30,13 +30,13 @@ ErrorReport 보기에는 보고된 오류에 대한 정보가 저장됩니다. �
 |**ErrorReportSeq** <br/> |int  <br/> |오류를 식별하기 위한 ID 번호입니다. ErrorTime과 함께 오류를 고유하게 식별하기 위해 사용됩니다.  <br/> |
 |**MsDiagId** <br/> |int  <br/> |오류 보고서의 진단 ID입니다.  <br/> |
 |**FromUri** <br/> |nvarchar(450)  <br/> |오류가 유발된 사용자의 URI입니다.  <br/> |
-|**FromUriType** <br/> |nvarchar(256)  <br/> |오류가 유발된 사용자의 URI 형식입니다. 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하십시오. <br/> |
+|**FromUriType** <br/> |nvarchar(256)  <br/> |오류가 유발된 사용자의 URI 형식입니다. 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하세요. <br/> |
 |**FromTenant** <br/> |nvarchar(256)  <br/> |오류가 유발된 사용자의 테넌트입니다. 자세한 내용은 [Tenants 테이블을](tenants.md) 참조하세요. <br/> |
 |**ToUri** <br/> |nvarchar(450)  <br/> |오류 보고서의 대상인 사용자의 URI입니다.  <br/> |
 |**ToUriType** <br/> |nvarchar(256)  <br/> |오류 보고서의 대상인 사용자의 URI 형식입니다. 자세한 내용은 UriTypes Table을 참조하십시오.  <br/> |
 |**ToTenant** <br/> |nvarchar(256)  <br/> |오류 보고서의 대상인 사용자의 테넌트입니다. 자세한 내용은 [Tenants 테이블을](tenants.md) 참조하세요. <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |오류 보고서의 대상인 회의의 URI입니다.  <br/> |
-|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |오류 보고서의 대상인 회의의 URI 형식입니다. 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하십시오. <br/> |
+|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |오류 보고서의 대상인 회의의 URI 형식입니다. 자세한 내용은 [UriTypes 테이블을](uritypes.md) 참조하세요. <br/> |
 |**SessionIdTime** <br/> |datetime  <br/> |오류 보고서를 시작한 세션 요청의 시간입니다. SessionIdSeq과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하세요. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |오류 보고서를 시작한 세션 요청을 식별하는 ID 번호입니다. SessionIdTime과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하세요. <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |오류가 유발된 세션의 SIP 대화 ID입니다. 형식:  <br/> dialog;from-tag;to-tag  <br/> 이 데이터는 다음 구문을 사용하여 텍스트 형식으로 변환할 수 있습니다.  <br/> cast(cast(ExternalId as varbinary(max)) as varchar(max))  <br/> |

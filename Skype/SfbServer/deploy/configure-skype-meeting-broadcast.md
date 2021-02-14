@@ -26,9 +26,9 @@ ms.locfileid: "49820708"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트에 대한 프레미스 배포 구성
  
-**요약:** 비즈니스용 Skype 서버 하이브리드 배포에 대해 Skype 모임 브로드캐스트를 구성하기 위해 수행하는 단계에 대해 설명합니다.
+**요약:** 비즈니스용 Skype 서버 하이브리드 배포를 위해 Skype 모임 브로드캐스트를 구성하기 위해 수행하는 단계에 대해 설명합니다.
   
-Skype 모임 브로드캐스트는 Office 365의 일부인 온라인 서비스입니다. 비즈니스용 Skype 서버를 실행하고 있으며 사용자 환경에서 Skype 모임 브로드캐스트를 사용하려는 경우 이 항목의 구성 단계를 따라야 합니다. 시작하기 전에 비즈니스용 Skype Online을 통해 하이브리드 환경을 구성해야 합니다. 자세한 내용은 비즈니스용 Skype 서버와 비즈니스용 [Skype Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) 간의 하이브리드 연결 계획과 비즈니스용 Skype 서버와 비즈니스용 Skype Online 간의 하이브리드 연결 [배포를 참조하세요.](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
+Skype 모임 브로드캐스트는 Office 365의 일부인 온라인 서비스입니다. 비즈니스용 Skype 서버를 실행하고 있으며 사용자 환경에서 Skype 모임 브로드캐스트를 사용하려는 경우 이 항목의 구성 단계를 따라야 합니다. 시작하기 전에 비즈니스용 Skype Online을 통해 하이브리드 환경을 구성해야 합니다. 자세한 내용은 비즈니스용 Skype 서버와 비즈니스용 [Skype Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) 간의 하이브리드 연결 계획과 비즈니스용 Skype 서버와 비즈니스용 Skype Online 간에 하이브리드 연결 [배포를 참조하세요.](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트에 대한 하이브리드 환경 구성
 
@@ -69,7 +69,7 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
     
 2. **SIP 페더리트 도메인을 선택하고** 새로 **고치기 를 클릭합니다.**
     
-3. 도메인 **이름(또는 FQDN)에** 대해 다음 각 도메인에 대해 이 절차를 반복하여 도메인을 입력합니다.
+3. 도메인 이름 **또는 FQDN의** 경우 다음 각 도메인에 대해 이 절차를 반복하여 도메인을 입력합니다.
     
    - noammeetings.lync.com
     
@@ -88,6 +88,6 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-이러한 구성 단계를 완료한 후 배포에서 Skype 모임 브로드캐스트 사용을 시작할 수 있습니다. Skype 모임 브로드캐스트에 대한 자세한 내용은 [Skype](https://go.microsoft.com/fwlink/?LinkId=617071) 모임 브로드캐스트란? 및 Skype 모임 [브로드캐스트 관리 가이드를 참조하세요.](https://go.microsoft.com/fwlink/?LinkId=617075)
+이러한 구성 단계를 완료한 후 배포에서 Skype 모임 브로드캐스트 사용을 시작할 수 있습니다. Skype 모임 브로드캐스트에 대한 자세한 내용은 [Skype](https://go.microsoft.com/fwlink/?LinkId=617071) 모임 브로드캐스트란? 및 Skype 모임 [브로드캐스트 관리자 가이드를 참조하세요.](https://go.microsoft.com/fwlink/?LinkId=617075)
   
 

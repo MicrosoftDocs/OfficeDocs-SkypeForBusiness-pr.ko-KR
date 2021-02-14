@@ -38,7 +38,7 @@ FocusJoinsAndLeaves 보기에는 한 회의에 대한 참가 및 나가기 정�
 |**FocusUserInstance** <br/> |int  <br/> ||
 |**IsuserInternal** <br/> |bit  <br/> |사용자가 내부 사용자인지 여부를 나타내는 비트입니다.  <br/> |
 |**DialogSessionIdTime** <br/> |datetime  <br/> |세션 요청 시간입니다. SessionIdSeq와 함께 회의 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Dialogs](dialogs.md) 테이블을 참조하세요. <br/> |
-|**DialogSessionIdSeq** <br/> |int  <br/> |사용자가 여러 컴퓨터 또는 장치에서 동시에 로그온하는 경우 UserInstance를 사용하여 사용자/장치 조합을 고유하게 식별합니다.  <br/> |
+|**DialogSessionIdSeq** <br/> |int  <br/> |사용자가 여러 컴퓨터 또는 장치에서 동시에 로그온되어 있는 경우 UserInstance를 사용하여 사용자/장치 조합을 고유하게 식별합니다.  <br/> |
 |**DialogId** <br/> |varchar(775)  <br/> |세션의 SIP 대화 ID입니다. 형식은 dialog;from-tag;to-tag입니다.  <br/> |
 |**UserJoinTime** <br/> |datetime  <br/> |사용자가 회의에 참가한 시간입니다.  <br/> |
 |**UserLeaveTime** <br/> |datetime  <br/> |사용자가 회의에서 나간 시간입니다.  <br/> |

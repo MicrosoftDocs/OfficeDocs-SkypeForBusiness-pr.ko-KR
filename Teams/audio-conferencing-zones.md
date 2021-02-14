@@ -84,6 +84,6 @@ ms.locfileid: "49821278"
 
 - [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [오디오 회의 무료 전화 접속 기간](complimentary-dial-out-period.md)
-- [오디오 회의 구독 "전화 걸기"/"전화 걸기" 분 혜택](audio-conferencing-subscription-dial-out.md)
+- [오디오 회의 구독 "전화 걸기"/"전화 걸기" 통화 시간(분) 혜택](audio-conferencing-subscription-dial-out.md)
 - [오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책](outbound-calling-restriction-policies.md)
 - [통신 크레딧이란?](what-are-communications-credits.md)

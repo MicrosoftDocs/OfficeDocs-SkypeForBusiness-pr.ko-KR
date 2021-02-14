@@ -27,7 +27,7 @@ ms.locfileid: "49820758"
   
 ## <a name="single-forest-on-premises-deployments"></a>단일 포리스트 온-프레미스 배포
 
-회의 공간에 대한 리소스 사서함 계정이 이미 있는 경우 이 계정을 사용할 수 있습니다. 그렇지 않으면 새 계정을 만들어야 합니다. PowerShell(Exchange 관리 셸)을 사용할 수도 Exchange 관리 콘솔 사서함 계정을 만들 수도 있습니다. Skype 룸 시스템에는 새(이전 사서함 삭제 및 다시 만들기) 리소스 사서함을 사용하는 것이 좋습니다. 사서함 데이터를 삭제하기 전에 백업한 다음 Outlook 클라이언트를 사용하여 다시 만든 사서함으로 다시 내보낼 수 있습니다(자세한 내용은 메시지, 일정, 작업 및 연락처 내보내기 또는 백업 참조). 사서함을 삭제하여 손실된 모임을 복원하려면 삭제된 사서함 연결 또는 [복원을 참조합니다.](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx) 
+회의 공간에 대한 리소스 사서함 계정이 이미 있는 경우 사용할 수 있습니다. 그렇지 않으면 새 계정을 만들어야 합니다. PowerShell(Exchange 관리 셸)을 사용할 수도 Exchange 관리 콘솔 사서함 계정을 만들 수도 있습니다. Skype 룸 시스템에는 새(이전 사서함 삭제 및 다시 만들기) 리소스 사서함을 사용하는 것이 좋습니다. Outlook 클라이언트를 사용하여 사서함 데이터를 삭제하기 전에 백업한 다음 다시 만든 사서함으로 내보낼 수 있습니다(자세한 내용은 메시지, 일정, 작업 및 연락처 내보내기 또는 백업 참조). 사서함을 삭제하여 손실된 모임을 복원하려면 삭제된 사서함 연결 또는 [복원을 참조합니다.](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx) 
   
 기존 리소스 사서함 계정(예: LRS-01)을 사용하려면 다음 단계를 따릅니다.
   
@@ -43,7 +43,7 @@ ms.locfileid: "49820758"
    New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-   위의 예에서는 Active Directory에 사용 가능한 사용자 계정을 만들고, 회의실에 대한 회의실 사서함을 만들 수 있습니다. RoomMailboxPassword 매개 변수는 사용자 계정에 대한 암호를 지정합니다.
+   위의 예에서는 Active Directory에 사용 가능한 사용자 계정과 회의실 사서함을 만들며, 이 예에서는 Exchange 조직에 있는 회의실을 만듭니다. RoomMailboxPassword 매개 변수는 사용자 계정에 대한 암호를 지정합니다.
     
 3. 모임을 수락/거부하여 충돌을 자동으로 해결하도록 계정을 구성합니다. Exchange의 Skype 회의실 시스템이 탑재된 회의실 계정은 개인이 관리할 수 있지만, 개인이 모임을 수락할 때까지 Skype 룸 시스템 홈 화면 일정에 나타나지 않습니다.
     
@@ -73,7 +73,7 @@ ms.locfileid: "49820758"
 
 ## <a name="check-resource-mailbox-account-in-active-directory"></a>Active Directory에서 리소스 사서함 계정 확인
 
-위의 1단계에서 Exchange에서 만든 회의실 사서함 계정은 Active Directory에서 비활성화된 사용자 개체일 수 있습니다. 계정을 Active Directory에서 사용하지 않도록 설정한 경우 Skype 룸 시스템은 Kerberos/NTLM 인증을 사용하여 로그인하거나 인증할 수 없습니다. Skype 채팅방 시스템 클라이언트는 일정 설정을 검색하기 위해 Exchange 웹 서비스에 대해 인증할 수 있어야 하며 화이트보드 콘텐츠가 있는 전자 메일을 보낼 수도 있어야 합니다. 
+위의 1단계에서 Exchange에서 만든 회의실 사서함 계정은 Active Directory에서 비활성화된 사용자 개체일 수 있습니다. 계정을 Active Directory에서 사용하지 않도록 설정한 경우 Skype 채팅방 시스템은 Kerberos/NTLM 인증을 사용하여 로그인하거나 인증할 수 없습니다. Skype 채팅방 시스템 클라이언트는 일정 설정을 검색하기 위해 Exchange 웹 서비스에 대해 인증할 수 있어야 하며 화이트보드 콘텐츠가 있는 전자 메일을 보낼 수도 있어야 합니다. 
   
 따라서 계정을 사용하지 않도록 설정한 경우 다음을 수행하여 Active Directory에서 이 계정을 사용하도록 설정해야 합니다. 
   
@@ -106,7 +106,7 @@ ms.locfileid: "49820758"
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
    ```
 
-2. 선택 사항: 이 계정에서 사용자 계정을 사용하도록 설정하여 PSTN 전화 통화를 걸고 받을 수 Enterprise Voice. Enterprise Voice 채팅방 시스템에는 이 기능이 필요하지 않지만 이 기능을 Enterprise Voice Skype 채팅방 시스템 클라이언트는 PSTN 전화 걸기 기능을 제공할 수 없습니다.
+2. 선택 사항: 이 계정을 사용하여 PSTN 전화 통화를 걸고 받을 수 있도록 Enterprise Voice. Enterprise Voice 채팅방 시스템에는 이 기능이 필요하지 않지만 이 기능을 Enterprise Voice Skype 채팅방 시스템 클라이언트는 PSTN 전화 걸기 기능을 제공할 수 없습니다.
     
    ```powershell
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"

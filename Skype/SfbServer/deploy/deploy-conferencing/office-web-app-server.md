@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
-description: '요약: 이 항목을 통해 Office Web Apps 서버와 비즈니스용 Skype 서버 간의 통합을 구성하여 웹 회의에 PowerPoint 프레젠테이션을 사용하도록 설정하는 방법을 알아보도록 합니다.'
+description: '요약: 웹 회의에 PowerPoint 프레젠테이션을 사용하도록 Office Web Apps 서버와 비즈니스용 Skype 서버 간의 통합을 구성하는 방법을 알아보는 이 항목을 참조하세요.'
 ms.openlocfilehash: 005bd9fe7d7fece7d488935002e7146fc5a9ffe4
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -21,11 +21,11 @@ ms.locfileid: "49820468"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 Office Web Apps 서버와의 통합 구성
  
-**요약:** 이 항목을 통해 Office Web Apps 서버와 비즈니스용 Skype 서버 간의 통합을 구성하여 웹 회의에 PowerPoint 프레젠테이션을 사용하도록 설정하는 방법을 배워 읽습니다.
+**요약:** 웹 회의에 PowerPoint 프레젠테이션을 사용하도록 Office Web Apps 서버와 비즈니스용 Skype 서버 간의 통합을 구성하는 방법을 알아보는 이 항목을 참조하세요.
   
 비즈니스용 Skype 서버는 Office Web Apps 서버를 사용하여 웹 회의에 대한 PowerPoint 프레젠테이션을 처리합니다. 이 방법의 이점에 대한 자세한 내용은 비즈니스용 Skype 서버의 회의 [계획(Plan for conferencing)을 참조하십시오.](../../plan-your-deployment/conferencing/conferencing.md)
   
-Office Web Apps 서버를 사용하도록 비즈니스용 Skype 서버를 구성하려면 먼저 Office Web Apps 서버가 이미 배포 및 구성되어 있는지 확인해야 합니다. Office Web Apps 서버에 대한 자세한 내용은 인프라 배포 [문서인 Office Online Server를 참조하십시오.](https://go.microsoft.com/fwlink/p/?linkid=257525) 
+Office Web Apps 서버를 사용하도록 비즈니스용 Skype 서버를 구성하려면 먼저 Office Web Apps 서버가 이미 배포 및 구성되어 있는지 확인해야 합니다. Office Web Apps 서버에 대한 자세한 내용은 인프라 [배포: Office Online Server 문서를 참조하십시오.](https://go.microsoft.com/fwlink/p/?linkid=257525) 
   
 Office Web Apps 서버를 성공적으로 설치하고 웹 팜을 올바르게 구성한 후 비즈니스용 Skype 서버 토폴로지에서 Office Web Apps 서버 검색 URL을 비즈니스용 Skype 서버 토폴로지에 추가하여 새 서버와 통신하도록 비즈니스용 Skype 서버를 구성해야 합니다. 
   

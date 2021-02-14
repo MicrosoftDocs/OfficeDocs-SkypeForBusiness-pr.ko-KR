@@ -25,6 +25,6 @@ ms.locfileid: "49819648"
 ---
 # <a name="voice-traffic-planning-tool"></a>음성 트래픽(계획 도구)
  
-계획 도구는 사용자 트래픽에 대한 정보를 사용하여 배포에 사용할 포트 수를 파악합니다. 이 수에 따라 필요한 중재 서버 및 게이트웨이의 수가 결정됩니다. 자세한 내용은 비즈니스용 Skype 서버의 음성 사용량 및 [트래픽 예측을 참조하세요.](../../../plan-your-deployment/capacity/estimating-voice-traffic.md)
+계획 도구는 사용자 트래픽에 대한 정보를 사용하여 배포에 사용할 포트 수를 파악합니다. 이 수에 따라 필요한 중재 서버 및 게이트웨이의 수가 결정됩니다. 자세한 내용은 비즈니스용 Skype 서버의 음성 사용량 및 트래픽 [예측을 참조하세요.](../../../plan-your-deployment/capacity/estimating-voice-traffic.md)
   
 

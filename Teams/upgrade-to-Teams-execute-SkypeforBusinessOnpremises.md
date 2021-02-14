@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 비즈니스용 Skype-프레미스 배포에서 조직을 Microsoft Teams로 전환하는 방법을 배워보는 것이 좋습니다.
+description: 비즈니스용 Skype-프레미스 배포에서 조직을 Microsoft Teams로 전환하는 방법을 배워야 합니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -33,9 +33,9 @@ ms.locfileid: "49820948"
 
 이 문서는 업그레이드 여정의 배포 및 구현 단계의 일부입니다. 계속하기 전에 다음 활동을 완료해야 합니다.
 
-- [프로젝트 이해 관계자에 참여](upgrade-enlist-stakeholders.md)
+- [프로젝트 관련자에 참여](upgrade-enlist-stakeholders.md)
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
-- [비즈니스용 Skype 및 Teams의 공존성 및 상호 연동성 이해](https://aka.ms/SkypeToTeams-Coexist)
+- [비즈니스용 Skype 및 Teams의 공존 및 상호 연동성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여정 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [환경 준비](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
@@ -60,11 +60,11 @@ ms.locfileid: "49820948"
 
 - [TeamsUpgradePolicy: 마이그레이션](upgrade-to-teams-on-prem-tools.md)및 공존 관리.
 
-- [사용자를 비즈니스용 Skype Online으로 프레미스에서 이동](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
+- [사용자를 프레미스에서 비즈니스용 Skype Online으로 이동](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 
 ## <a name="phone-system-and-teams-upgrade"></a>전화 시스템 및 Teams 업그레이드
 
-전화 시스템 다이렉트 라우팅("직접 라우팅") 또는 Microsoft에서 제공한 Microsoft 365 또는 Office 365 통화 요금제의 장점을 활용할 수 있습니다.
+전화 시스템 다이렉트 라우팅("직접 라우팅") 또는 Microsoft에서 제공한 Microsoft 365 또는 Office 365 통화 요금제의 이점을 활용할 수 있습니다.
 
 통화 계획을 사용하지 않는 경우 Teams로 업그레이드하는 동안 엔터프라이즈 음성 배포를 전화 시스템 직접 라우팅으로 전환해야 합니다.
 

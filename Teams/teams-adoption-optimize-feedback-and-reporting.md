@@ -54,9 +54,9 @@ Microsoft Teams 사용량을 조정하기 위해 준비할 때 확장하는 각 
 
 ## <a name="service-reporting"></a>서비스 보고
 
-Microsoft Teams를 배포하고 채택할 때 검토해야 하는 보고에는 세 가지 유형이 있습니다.
+Microsoft Teams를 배포하고 채택할 때 검토해야 하는 세 가지 유형의 보고가 있습니다.
 
-- [서비스 상태](https://status.office365.com/) – Microsoft 365, Office 365 및 내부 IT 지원 부서에서
+- [서비스 상태](https://status.office365.com/) – Microsoft 365, Office 365 및 내부 IT 지원 부서의 서비스 상태입니다.
 - [관리 센터의 Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) 보고서 - 관리 센터의 Microsoft 365 또는 Office 365 보기 [Microsoft 365 보고서 - Microsoft Teams](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)사용자 활동. 조직 내의 다른 시스템의 정보를 사용할 수도 있습니다.
 - 서비스 만족도 - 내부 커뮤니티 포럼 및 특정 경험에 대한 설문 조사에서 수집
 

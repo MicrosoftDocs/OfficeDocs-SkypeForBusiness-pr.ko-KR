@@ -26,7 +26,7 @@ ms.locfileid: "49819198"
 
 무슨 작업을 하고 싶으십니까? 수행할 작업에 대한 링크를 클릭합니다.
 
-- [비즈니스용 Skype 서버 2015에서 등록자 구성 설정 관리](../../manage/authentication/registrar-configuration-settings.md)
+- [비즈니스용 Skype 서버에서 등록자 구성 설정 관리](../../manage/authentication/registrar-configuration-settings.md)
 
 - [기존 등록자 수정](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 

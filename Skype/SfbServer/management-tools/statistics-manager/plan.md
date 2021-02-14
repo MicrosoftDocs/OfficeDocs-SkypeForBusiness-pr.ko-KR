@@ -120,7 +120,7 @@ Statistics Manager를 사용하여 지속적인 성능 문제를 식별하고, �
 
 On-premises 배포에서는 단일 서버가 모든 서버 쪽 Statistics Manager 구성 요소를 호스팅합니다.
 
-다음 다이어그램은 Statistics Manager 웹 사이트, 허브, 수신기 및 Redis 캐싱 시스템이 단일 시스템에서 호스팅되는,프레미스 배포를 보여줍니다. 통계 관리자는 3개의 비즈니스용 Skype 서버를 모니터링하고 있습니다. 각 서버는 수신기로 데이터를 전송하는 단일 에이전트가 있습니다. 사용자는 단일 웹 사이트에 연결하여 Statistics Manager로 집계된 모든 데이터를 볼 수 있습니다.
+다음 다이어그램은 Statistics Manager 웹 사이트, 허브, 수신기 및 Redis 캐싱 시스템이 단일 시스템에서 호스팅되는,프레미스 배포를 보여줍니다. 통계 관리자는 3개의 비즈니스용 Skype 서버를 모니터링하고 있습니다. 각 서버는 수신기로 데이터를 전송하는 단일 에이전트가 있습니다. 사용자는 단일 웹 사이트에 연결하여 통계 관리자로 집계된 모든 데이터를 볼 수 있습니다.
 
 ![Stats Manager On-premises 배포](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
@@ -139,7 +139,7 @@ Statistics Manager를 배포하기 전에 다음 소프트웨어, 네트워킹 �
 
 - Statistics Manager 서비스(자동으로 설치)
 
-- PSExec - 원격 에이전트 배포를 위해 필요합니다.
+- PSExec - 원격 에이전트 배포에 필요합니다.
 
 - .NET 4.5(2012 R2에 포함) - 에이전트 및 서버 쪽 구성 요소에 필요
 - 비즈니스용 Skype 서버, Real-Time [통계 관리자(64비트) 다운로드](https://www.microsoft.com/en-in/download/details.aspx?id=57518)

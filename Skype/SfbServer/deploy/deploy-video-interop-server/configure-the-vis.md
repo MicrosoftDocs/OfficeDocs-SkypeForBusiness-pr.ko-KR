@@ -52,7 +52,7 @@ ms.locfileid: "49820698"
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-    특정 비디오 트렁크 구성을 제거하려면 다음 Windows PowerShell cmdlet을 사용(특정 트렁크에 대한 범위가 더 구체적으로 비디오 트렁크 구성이 없는 경우 전역 범위 비디오 트렁크 구성이 적용됨)
+    특정 비디오 트렁크 구성을 제거하려면 다음 Windows PowerShell cmdlet을 사용하십시오(특정 트렁크에 대해 더 구체적으로 범위가 지정한 비디오 트렁크 구성이 없는 경우 전역으로 범위가 지정되는 비디오 트렁크 구성이 적용됨).
     
    ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
@@ -71,14 +71,14 @@ ms.locfileid: "49820698"
 > [!NOTE]
 > [Remove-CsDialPlan을](https://docs.microsoft.com/powershell/module/skype/remove-csdialplan?view=skype-ps) 사용하여 다이얼 플랜을 제거할 수 있습니다.
   
-요청 URI에 E.164 번호가 아닌 번호가 포함된 비디오 게이트웨이의 비디오 SIP 트렁크 통화의 경우 VIS는 연결된 트렁크와 연결된 다이얼 플랜의 이름을 읽고 VIS가 프런트 엔드로 보내는 초대에 요청 URI의 전화 컨텍스트 부분에 다이얼 플랜 이름을 포함합니다. 그러면 프런트 엔드의 번역 응용 프로그램이 다이얼 플랜과 연결된 정규화 규칙을 추출하여 요청 URI에 적용합니다.
+요청 URI에 E.164 번호가 아닌 번호가 포함된 비디오 게이트웨이의 비디오 SIP 트렁크 통화의 경우 VIS는 연결된 트렁크와 연결된 다이얼 플랜의 이름을 읽고 VIS가 프런트 엔드로 보내는 초대에서 요청 URI의 전화 컨텍스트 부분에 다이얼 플랜 이름을 포함합니다. 그러면 프런트 엔드의 번역 응용 프로그램이 다이얼 플랜과 연결된 정규화 규칙을 추출하여 요청 URI에 적용합니다.
 ## <a name="trunk-configuration-options"></a>트렁크 구성 옵션
 
 이전에 Windows PowerShell 트렁크 구성에 대한 Windows PowerShell cmdlet은 비즈니스용 Skype 서버 2015에 새로 추가되었습니다. 비디오 트렁크 구성과 연결된 설정은 간략한 설명이 필요합니다.
   
- **GatewaySendsRtcpForActiveCalls** 이 매개 변수는 활성 통화를 위해 VTC에서 VIS로 RTCP 패킷을 보낼지 여부를 지정합니다. 여기서 활성 통화란 미디어가 하나 이상의 방향으로 흐르도록 허용되는 통화를 의미합니다. GatewaySendsRtcpForActiveCalls를 True로 설정하면 30초를 초과하는 기간 동안 RTCP 패킷을 받지 못하면 VIS에서 호출을 종료할 수 있습니다. 기본값은 **True** 입니다.
+ **GatewaySendsRtcpForActiveCalls** 이 매개 변수는 활성 통화를 위해 RTCP 패킷을 VTC에서 VIS로 보낼지 여부를 지정합니다. 여기서 활성 통화란 미디어가 하나 이상의 방향으로 흐르도록 허용되는 통화를 의미합니다. GatewaySendsRtcpForActiveCalls가 True로 설정된 경우 VIS는 30초를 초과하는 기간 동안 RTCP 패킷을 받지 못하면 통화를 종료할 수 있습니다. 기본값은 **True** 입니다.
   
- **GatewaySendsRtcpForCallsOnHold** 이 매개 변수는 보류된 통화에 대해 RTCP 패킷을 트렁크를 통해 계속 전송할지 여부를 결정하며 미디어 패킷이 어느 방향으로도 흐르지 않습니다. 통화가 보류 중일 때 VTC에서 VIS로 흐르는 RTCP 패킷이 없는 경우 VIS에서 통화를 종료할 수 있습니다. 기본값은 **True** 입니다. SIPTransport 프로토콜이 TCP로 설정된 경우 이 설정은 무시됩니다.
+ **GatewaySendsRtcpForCallsOnHold** 이 매개 변수는 보류된 통화에 대해 RTCP 패킷을 트렁크를 통해 계속 전송할지 여부를 결정하며 어느 방향으로도 흐르지 않은 미디어 패킷이 없는지 여부를 지정합니다. 통화가 보류 중일 때 VTC에서 VIS로 흐르는 RTCP 패킷이 없는 경우 VIS에서 통화를 종료할 수 있습니다. 기본값은 **True** 입니다. SIPTransport 프로토콜이 TCP로 설정된 경우 이 설정은 무시됩니다.
   
  **EnableMediaEncryptionForSipOverTls** 이 매개 변수는 SIPTransport 프로토콜이 TLS로 설정된 경우 미디어에 대해 SRTP를 활성화 또는 비활성화합니다. 기본값은 **True** 입니다. SIPTransport 프로토콜이 TCP로 설정된 경우 이 설정은 무시됩니다.
   

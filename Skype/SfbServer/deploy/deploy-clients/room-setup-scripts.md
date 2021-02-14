@@ -1,5 +1,5 @@
 ---
-title: Skype 룸 시스템 방 설정 스크립트
+title: Skype 룸 시스템 채팅방 설정 스크립트
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -19,11 +19,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820828"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype 룸 시스템 방 설정 스크립트
+# <a name="skype-room-system-room-setup-scripts"></a>Skype 룸 시스템 채팅방 설정 스크립트
  
 이 항목을 읽고 Skype 룸 시스템 계정을 프로비전하기 위한 샘플 스크립트를 찾아 읽습니다.
   
-이 섹션에서는 Skype 채팅방 시스템 계정을 프로비전하는 데 사용할 수 있는 샘플 스크립트를 설명합니다. 이러한 스크립트는 설명적인 용도로만 사용하며 IT 전문가 또는 도메인 관리자와 상의한 후에만 사용해야 합니다.
+이 섹션에서는 Skype 채팅방 시스템 계정을 프로비전하는 데 사용할 수 있는 샘플 스크립트를 설명합니다. 이러한 스크립트는 설명적인 용도로만 사용하며 IT 전문가 또는 도메인 관리자에게 문의한 후에만 사용해야 합니다.
   
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>예제 설치 스크립트: 비즈니스용 Skype 및 Exchange Server(On Premises)
 
@@ -43,13 +43,13 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
 
 스크립트를 실행하기 전에 다음 선행 작업을 검토해야 합니다.
   
-- Microsoft Online Services Sign-In 전문가용 도우미 BETA
+- Microsoft Online Services Sign-In 전문가용 도우미 베타
     
 - Windows Azure(64비트 Windows PowerShell) 또는 (32비트 버전용 Active Directory 모듈)
     
 - Windows PowerShell Online용 모듈
     
-- 필요한 경우 다시부팅
+- 필요한 경우 재부팅
     
 ```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment

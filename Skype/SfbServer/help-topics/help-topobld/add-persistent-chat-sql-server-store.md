@@ -24,11 +24,11 @@ ms.locfileid: "49818658"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>영구 채팅 SQL Server 저장소 추가
  
-영구 채팅 SQL Server 또는 영구 채팅 서버 풀에 대한 데이터베이스를 제공할 데이터베이스 저장소를 구성합니다.
+영구 채팅 SQL Server 영구 채팅 서버 풀에 대한 데이터베이스를 제공할 데이터베이스 저장소를 구성합니다.
   
  **SQL Server 저장소:** 기존 SQL Server 영구 채팅 인스턴스를 선택합니다.
   
-새로 **고치기(새로** 고치기)를 SQL Server 영구 채팅 데이터에 대한 새 인스턴스를 정의합니다.
+새로 **고치려면** 새 SQL Server 영구 채팅 데이터에 대한 새 인스턴스(선택 사항)를 정의합니다.
   
 저장소 **미러링** SQL Server 사용 확인란을 선택하여 SQL Server 데이터베이스 및 영구 채팅 데이터에 대한 미러된 데이터베이스를 제공할 선택적 인스턴스를 구성합니다.
   
@@ -36,7 +36,7 @@ ms.locfileid: "49818658"
   
 새로 **고침을** 클릭하여 새 SQL Server 영구 채팅 서버 미러링에 대한 새 SQL Server 정의합니다.
   
-장애 조치(failover) 시나리오에서 미러링 모니터 서버로 사용할 SQL Server를 **자동 장애 조치(failover)를 사용하려면 SQL Server 미러링 모니터 서버 사용** 목록에서 선택합니다. 미러링된 서버는 영구 채팅 서버에 대한 데이터를 미러링하거나 호스팅하지 않지만 미러된 구성에서 SQL Server 한 번만 활성 SQL Server 합니다.
+장애 조치(failover) 시나리오에서 미러링 모니터 서버로 사용할 SQL Server를 **자동 장애 조치(failover)를 사용하려면 SQL Server 미러링 모니터 서버 사용** 목록에서 선택합니다. 미러링된 서버는 영구 채팅 서버에 대한 데이터를 미러링하거나 호스팅하지 않지만 미러된 SQL Server 서버 하나만 활성 SQL Server 합니다.
   
 새로 **고침을** 클릭하여 미러링 SQL Server 미러링된 영구 채팅 서버의 인스턴스를 선택적으로 SQL Server 정의합니다.
   

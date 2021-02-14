@@ -28,7 +28,7 @@ ms.locfileid: "49820378"
 
 - [외부 사용자 액세스 정책 다시 설정 또는 삭제](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
 
-- [페더타 사용자 액세스를 제어하도록 정책 구성](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [페더리 사용자 액세스를 제어하도록 정책 구성](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
 - [원격 사용자 액세스 관리](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
 

@@ -33,7 +33,7 @@ ms.locfileid: "49821208"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>앤티가 바부다의 가용성
 
-[다른 국가 또는 지역을](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)찾거나 오디오 회의 및 통화 요금제에 대한 국가 및 지역 가용성에 대해 자세히 알아보거나
+[다른 국가 또는 지역을](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)찾거나 오디오 회의 및 통화 요금제의 국가 및 지역 가용성에 대해 자세히 알아보면 됩니다.
 
 다음은 Antigua 및 Barbuda에 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
@@ -73,7 +73,7 @@ ms.locfileid: "49821208"
 |유료 번호를 사용할 수 있나요?  <br/> |아니요 <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
- 오디오 회의, 자동 전화 회의 및 통화 큐에 대한 무료 및 무료 전화 번호를 사용하려는 경우 비즈니스용 Skype 및 Microsoft Teams에 대한 서비스 전화 번호 보기를 [참조하세요.](/microsoftteams/getting-service-phone-numbers)
+ 오디오 회의, 자동 전화 회의 및 통화 큐에 대한 무료 및 무료 전화 번호를 사용하려는 경우 비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 보기를 [참조하세요.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>통신 크레딧
 

@@ -28,7 +28,7 @@ ms.locfileid: "49819288"
 
 - [비즈니스용 Skype 서버에서 새 PIN 정책 만들기](../../manage/authentication/create-a-new-pin-policy.md)
 
-- [Skype for Business Server 2015에서 기존 PIN 정책 수정](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [비즈니스용 Skype 서버 2015에서 기존 PIN 정책 수정](../../manage/authentication/modify-an-existing-pin-policy.md)
 
 - [비즈니스용 Skype 서버에서 PIN 정책 삭제](../../manage/authentication/delete-a-pin-policy.md)
 
