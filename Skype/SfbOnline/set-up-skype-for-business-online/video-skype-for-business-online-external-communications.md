@@ -1,5 +1,5 @@
 ---
-title: 영상 비즈니스용 Skype Online 외부 통신
+title: 비즈니스용 Skype Online 외부 통신 비디오
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: '비즈니스용 Skype Online을 설정 하는 방법에 대 한 자세한 정보 사용자를 위한 외부 통신은 외부 Skype 연락처와 통신할 수 있습니다. '
+description: '사용자가 외부 Skype 연락처와 통신할 수 있도록 비즈니스용 Skype Online 외부 통신을 설정하는 방법을 배워야 합니다. '
 ms.openlocfilehash: 52b43ea21f9f0aa56b923355cfc936f334f1607f
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -26,23 +26,23 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44164487"
 ---
-# <a name="video-skype-for-business-online-external-communications"></a><span data-ttu-id="1e645-103">비디오: 비즈니스용 Skype Online 외부 통신</span><span class="sxs-lookup"><span data-stu-id="1e645-103">Video: Skype for Business Online external communications</span></span>
+# <a name="video-skype-for-business-online-external-communications"></a><span data-ttu-id="eec21-103">비디오: 비즈니스용 Skype Online 외부 통신</span><span class="sxs-lookup"><span data-stu-id="eec21-103">Video: Skype for Business Online external communications</span></span>
 
-<span data-ttu-id="1e645-104">비즈니스용 Skype Online 외부 통신을 설정 하 여 사용자가 외부 비즈니스용 Skype, Lync, Skype 연락처와 통신할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="1e645-104">Set up Skype for Business Online external communications so your users can communicate with external Skype for Business, Lync and Skype contacts.</span></span>
+<span data-ttu-id="eec21-104">사용자가 외부 비즈니스용 Skype, Lync 및 Skype 대화방과 통신할 수 있도록 비즈니스용 Skype Online 외부 통신을 설정하세요.</span><span class="sxs-lookup"><span data-stu-id="eec21-104">Set up Skype for Business Online external communications so your users can communicate with external Skype for Business, Lync and Skype contacts.</span></span>
 
- <span data-ttu-id="1e645-105">**대상:** Microsoft 365 및 Office 365 관리자</span><span class="sxs-lookup"><span data-stu-id="1e645-105">**Audience:** Microsoft 365 and Office 365 admins</span></span>
+ <span data-ttu-id="eec21-105">**대상:** Microsoft 365 및 Office 365 관리자</span><span class="sxs-lookup"><span data-stu-id="eec21-105">**Audience:** Microsoft 365 and Office 365 admins</span></span>
 
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
 
 ***
   
-## <a name="related-topics"></a><span data-ttu-id="1e645-106">관련 항목</span><span class="sxs-lookup"><span data-stu-id="1e645-106">Related topics</span></span>
-<span data-ttu-id="1e645-107">[비즈니스용 Skype Online 외부 통신 설정](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (안내 연습)</span><span class="sxs-lookup"><span data-stu-id="1e645-107">[Set up Skype for Business Online external communications](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (guided walkthrough)</span></span>
+## <a name="related-topics"></a><span data-ttu-id="eec21-106">관련 항목</span><span class="sxs-lookup"><span data-stu-id="eec21-106">Related topics</span></span>
+<span data-ttu-id="eec21-107">[비즈니스용 Skype Online 외부 통신 설정(안내](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) 안내)</span><span class="sxs-lookup"><span data-stu-id="eec21-107">[Set up Skype for Business Online external communications](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (guided walkthrough)</span></span>
 
-[<span data-ttu-id="1e645-108">사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용</span><span class="sxs-lookup"><span data-stu-id="1e645-108">Allow users to contact external Skype for Business users</span></span>](allow-users-to-contact-external-skype-for-business-users.md)
+[<span data-ttu-id="eec21-108">사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용</span><span class="sxs-lookup"><span data-stu-id="eec21-108">Allow users to contact external Skype for Business users</span></span>](allow-users-to-contact-external-skype-for-business-users.md)
 
-[<span data-ttu-id="1e645-109">비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용</span><span class="sxs-lookup"><span data-stu-id="1e645-109">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="eec21-109">비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용</span><span class="sxs-lookup"><span data-stu-id="eec21-109">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

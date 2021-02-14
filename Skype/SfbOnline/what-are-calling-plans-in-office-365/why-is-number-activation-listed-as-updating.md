@@ -1,5 +1,5 @@
 ---
-title: 수 면이 업데이트 된 것으로 표시 되는 이유는 무엇 인가요?
+title: 번호 활성화가 업데이트로 나열되는 이유는 무엇입니까?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateUpdating
-description: 주소 유효성 검사는 통화 계획을 설정 하는 데 중요 한 역할을 합니다. 응급 응답 서비스에서 사용할 수 있는 긴급 전화 주소를 조직의 사용자에 게 제공 합니다.
+description: 주소 유효성 검사는 통화 요금제 설정의 중요한 부분입니다. 조직의 사용자에게 긴급 대응 서비스에서 사용할 수 있는 긴급 통화 주소를 제공합니다.
 ms.openlocfilehash: 2722928d44867547740e4049f9090af683f61824
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -29,83 +29,83 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/13/2020
 ms.locfileid: "44220658"
 ---
-# <a name="why-is-number-activation-listed-as-updating"></a><span data-ttu-id="2c074-104">수 면이 업데이트 된 것으로 표시 되는 이유는 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="2c074-104">Why is number activation listed as updating?</span></span>
+# <a name="why-is-number-activation-listed-as-updating"></a><span data-ttu-id="9b1aa-104">번호 활성화가 업데이트로 나열되는 이유는 무엇입니까?</span><span class="sxs-lookup"><span data-stu-id="9b1aa-104">Why is number activation listed as updating?</span></span>
 
-<span data-ttu-id="2c074-105">주소 유효성 검사는 통화 계획을 설정 하는 데 중요 한 역할을 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-105">Address validation is an important part of setting up Calling Plans.</span></span> <span data-ttu-id="2c074-106">일부 이유로 전화 번호가 활성화 되지 않고 주소 유효성 검사 때문에 **업데이트로** 표시 되는 경우에는 서비스 요청을 만들고 제출 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-106">If for some reason a phone number isn't activated and is listed as **updating** because of address validation, you will need to create and submit a service request.</span></span> <span data-ttu-id="2c074-107">이 작업을 수행 하는 방법은 조직의 규모에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-107">How you do this is based on the size of your organization.</span></span>
+<span data-ttu-id="9b1aa-105">주소 유효성 검사는 통화 요금제 설정의 중요한 부분입니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-105">Address validation is an important part of setting up Calling Plans.</span></span> <span data-ttu-id="9b1aa-106">어떤 이유로 전화 번호가 활성화되지 않은 경우  주소 유효성 검사로 인해 업데이트로 나열된 경우 서비스 요청을 만들고 제출해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-106">If for some reason a phone number isn't activated and is listed as **updating** because of address validation, you will need to create and submit a service request.</span></span> <span data-ttu-id="9b1aa-107">이 작업을 하는 방식은 조직의 크기에 따라 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-107">How you do this is based on the size of your organization.</span></span>
   
-## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="2c074-108">조직 150 이하의 경우이 단계를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="2c074-108">For organizations 150 or less follow these steps</span></span>
-1. <span data-ttu-id="2c074-109">관리 센터에서 **도움이 필요**하세요?를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-109">In the admin center, choose **Need help**?</span></span>
-2. <span data-ttu-id="2c074-110">필요 사항 창에서 도움말을 **확인** 하 고 **도움말 보기**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
-3. <span data-ttu-id="2c074-111">**솔루션 보기** 섹션의 결과가 도움이 되지 않으면 다음 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
-    - <span data-ttu-id="2c074-112">**전화 받기 (권장)**: 연락처 번호를 확인 한 다음, **전화**를 누르세요.</span><span class="sxs-lookup"><span data-stu-id="2c074-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="2c074-113">콜백 하는 데 예상 되는 대기 시간이 ' **필요한** 작업 ' 창에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
-    - <span data-ttu-id="2c074-114">**전자 메일**보내기: 전자 메일 주소를 확인 한 다음 **보내기를**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="2c074-115">통화 응답 시간은 **도움말 필요** 사항 창에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-115">The call response time is indicated in the **Need help?** pane.</span></span>
+## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="9b1aa-108">조직 150명 이하의 경우 다음 단계를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-108">For organizations 150 or less follow these steps</span></span>
+1. <span data-ttu-id="9b1aa-109">관리 센터에서 도움이 **필요하세요?**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-109">In the admin center, choose **Need help**?</span></span>
+2. <span data-ttu-id="9b1aa-110">도움이 **필요하세요?** 창에서 도움이 필요한 것을 말한 다음 도움말을 **선택하세요.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
+3. <span data-ttu-id="9b1aa-111">솔루션 보기 섹션의 결과가 도움이되지 않는 경우 다음 중 하나를 선택하세요. </span><span class="sxs-lookup"><span data-stu-id="9b1aa-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
+    - <span data-ttu-id="9b1aa-112">**전화 걸기(권장)**: 연락처 번호를 확인한 다음 전화 **걸기**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="9b1aa-113">콜백에 대한 예상 대기 시간은 필요한 도움말 **창에** 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
+    - <span data-ttu-id="9b1aa-114">**전자 메일:** 전자 메일 주소를 확인한 다음 **보내기** 선택</span><span class="sxs-lookup"><span data-stu-id="9b1aa-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="9b1aa-115">통화 응답 시간은 필요한 도움말 **창에** 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-115">The call response time is indicated in the **Need help?** pane.</span></span>
 
-## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a><span data-ttu-id="2c074-116">150 사용자가 넘는 조직의 경우 긴급 주소의 유효성을 검사 하는 서비스 요청 만들기</span><span class="sxs-lookup"><span data-stu-id="2c074-116">For organizations with more than 150 users, create a service request to validate an emergency address</span></span>
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a><span data-ttu-id="9b1aa-116">사용자가 150명 이상인 조직의 경우 긴급 주소의 유효성을 검사하는 서비스 요청을 작성합니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-116">For organizations with more than 150 users, create a service request to validate an emergency address</span></span>
 
-1. <span data-ttu-id="2c074-117">회사 또는 학교 계정으로 Microsoft 365 또는 Office 365에 관리자로 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-117">Sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="9b1aa-117">직장 또는 학교 계정으로 Microsoft 365 또는 Office 365에 관리자로 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-117">Sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="2c074-118">관리 센터의 왼쪽 탐색 창에서 **Support**  >  **새 서비스 요청**지원을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-118">In the admin center, in the left navigation, click **Support** > **New service request**.</span></span>
+2. <span data-ttu-id="9b1aa-118">관리 센터의 왼쪽 탐색에서 새 서비스 지원  >  **요청을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-118">In the admin center, in the left navigation, click **Support** > **New service request**.</span></span>
     
-3. <span data-ttu-id="2c074-119">**서비스 요청**에서 **추가**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-119">Under **Service requests**, click **Add**.</span></span>
+3. <span data-ttu-id="9b1aa-119">서비스 **요청에서** 추가를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-119">Under **Service requests**, click **Add**.</span></span>
     
-4. <span data-ttu-id="2c074-120">**서비스 요청 만들기** 페이지에서 **온라인 공동 작업**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
+4. <span data-ttu-id="9b1aa-120">서비스 요청 **만들기 페이지에서** 온라인 공동 **작업을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
     
-5. <span data-ttu-id="2c074-121">**문제 식별** 페이지에서 다음을 선택 하 고 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-121">On the **Identify the issue** page, select and enter in the following:</span></span>
+5. <span data-ttu-id="9b1aa-121">문제 **식별 페이지에서** 다음을 선택하고 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-121">On the **Identify the issue** page, select and enter in the following:</span></span>
     
-   - <span data-ttu-id="2c074-122">**기능:** **국내 통화 요금제** 및/또는 **국내 및 국제 요금제**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
+   - <span data-ttu-id="9b1aa-122">**기능:** 국내 **통화 요금제** 및/또는 국내 및 **국제 요금제 선택**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
     
-   - <span data-ttu-id="2c074-123">**증상:** **비상 전화**를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-123">**Symptom:** Enter **Emergency Calling**.</span></span>
+   - <span data-ttu-id="9b1aa-123">**증상:** 긴급 **통화를 입력합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-123">**Symptom:** Enter **Emergency Calling**.</span></span>
     
-   - <span data-ttu-id="2c074-124">**문제 요약:** **주소 유효성 검사**를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-124">**Issue summary:** Enter **Address validation**.</span></span>
+   - <span data-ttu-id="9b1aa-124">**문제 요약:** 주소 **유효성 검사를 입력합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-124">**Issue summary:** Enter **Address validation**.</span></span>
     
-   - <span data-ttu-id="2c074-125">**문제 세부 정보:** 다음과 같이 유효성을 검사할 주소에 대 한 세부 정보를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
+   - <span data-ttu-id="9b1aa-125">**문제 세부 정보:** 유효성을 검사할 주소에 대한 세부 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
     
-      - <span data-ttu-id="2c074-126">거리 번호</span><span class="sxs-lookup"><span data-stu-id="2c074-126">Street number</span></span>
+      - <span data-ttu-id="9b1aa-126">도로 번호</span><span class="sxs-lookup"><span data-stu-id="9b1aa-126">Street number</span></span>
     
-      - <span data-ttu-id="2c074-127">거리 이름</span><span class="sxs-lookup"><span data-stu-id="2c074-127">Street name</span></span>
+      - <span data-ttu-id="9b1aa-127">도로명</span><span class="sxs-lookup"><span data-stu-id="9b1aa-127">Street name</span></span>
     
-      - <span data-ttu-id="2c074-128">마을 또는 도시</span><span class="sxs-lookup"><span data-stu-id="2c074-128">Town or city</span></span>
+      - <span data-ttu-id="9b1aa-128">시 또는 구</span><span class="sxs-lookup"><span data-stu-id="9b1aa-128">Town or city</span></span>
     
-      - <span data-ttu-id="2c074-129">국가 또는 지역</span><span class="sxs-lookup"><span data-stu-id="2c074-129">Country or region</span></span>
+      - <span data-ttu-id="9b1aa-129">국가 또는 지역</span><span class="sxs-lookup"><span data-stu-id="9b1aa-129">Country or region</span></span>
     
      > [!IMPORTANT]
-     > <span data-ttu-id="2c074-130">**전화 번호를 할당할 때 긴급 주소를 확인 하려는 전화 요금제를 제공 하는 국가/지역을 저장 합니다.**</span><span class="sxs-lookup"><span data-stu-id="2c074-130">**Put the country/region where we offer Calling Plans that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
+     > <span data-ttu-id="9b1aa-130">**전화 번호를 할당할 때 긴급 주소의 유효성을 검사하려는 통화 요금제가 제공된 국가/지역을 입력합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-130">**Put the country/region where we offer Calling Plans that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
   
-      - <span data-ttu-id="2c074-131">우편 번호 또는 우편 번호</span><span class="sxs-lookup"><span data-stu-id="2c074-131">Postal or zip code</span></span>
+      - <span data-ttu-id="9b1aa-131">우편 번호 또는 우편 번호</span><span class="sxs-lookup"><span data-stu-id="9b1aa-131">Postal or zip code</span></span>
     
-6. <span data-ttu-id="2c074-132">**다음** 페이지에서 **예,** 계속을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
+6. <span data-ttu-id="9b1aa-132">다음 **페이지를 클릭하고** **예, 계속합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
     
-7. <span data-ttu-id="2c074-133">**세부 정보 추가** 페이지에서을 선택 하 고 다음을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-133">On the **Add details** page, select and enter the following:</span></span>
+7. <span data-ttu-id="9b1aa-133">세부 **정보 추가 페이지에서** 다음을 선택하고 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-133">On the **Add details** page, select and enter the following:</span></span>
     
-   - <span data-ttu-id="2c074-134">**서비스를 사용할 수 없습니까?**</span><span class="sxs-lookup"><span data-stu-id="2c074-134">**Is your service unavailable?**</span></span> <span data-ttu-id="2c074-135">**아니요**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-135">Select **No**.</span></span>
+   - <span data-ttu-id="9b1aa-134">**서비스를 사용할 수 없는가요?**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-134">**Is your service unavailable?**</span></span> <span data-ttu-id="9b1aa-135">**아니요를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-135">Select **No**.</span></span>
     
-   - <span data-ttu-id="2c074-136">**영향을 받는 사용자 수는 몇 개입니까?**</span><span class="sxs-lookup"><span data-stu-id="2c074-136">**How many users are affected?**</span></span> <span data-ttu-id="2c074-137">**일부 사용자**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-137">Select **Some users**.</span></span>
+   - <span data-ttu-id="9b1aa-136">**영향을 받는 사용자 수**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-136">**How many users are affected?**</span></span> <span data-ttu-id="9b1aa-137">일부 **사용자를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-137">Select **Some users**.</span></span>
     
-   - <span data-ttu-id="2c074-138">**이 문제의 영향을 받는 사용자의 전자 메일 주소를 입력** 하거나 비워 둡니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
+   - <span data-ttu-id="9b1aa-138">**이 문제의 영향을 받는** 사람의 전자 메일 주소를 입력하거나 비워 두십시오.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
     
-   - <span data-ttu-id="2c074-139">**나열할 도메인을 선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="2c074-139">**Select Domain(s) you want to list**</span></span>
+   - <span data-ttu-id="9b1aa-139">**나열할 도메인 선택**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-139">**Select Domain(s) you want to list**</span></span>
     
-   - <span data-ttu-id="2c074-140">확인 해야 할 주소가 여러 개 있는 경우 **파일을 첨부** 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
+   - <span data-ttu-id="9b1aa-140">**유효성 검사가 필요한** 주소가 여러 개 있는 경우 파일을 첨부합니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
     
-   - <span data-ttu-id="2c074-141">**다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-141">Click **Next**.</span></span>
+   - <span data-ttu-id="9b1aa-141">다음을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-141">Click **Next**.</span></span>
     
-   - <span data-ttu-id="2c074-142">연락처 전화 번호를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-142">Enter your contact phone number.</span></span>
+   - <span data-ttu-id="9b1aa-142">연락처 전화 번호를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9b1aa-142">Enter your contact phone number.</span></span>
     
-8. <span data-ttu-id="2c074-143">정보를 검토 한 다음 **요청 제출을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-143">Review the information, and then click **Submit request**.</span></span>
+8. <span data-ttu-id="9b1aa-143">정보를 검토한 다음 요청 **제출을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9b1aa-143">Review the information, and then click **Submit request**.</span></span>
     
 > [!TIP]
-> <span data-ttu-id="2c074-144">참조 번호는 Microsoft 365 관리 센터의 **서비스 요청** 페이지에 나열 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2c074-144">The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.</span></span>
+> <span data-ttu-id="9b1aa-144">참조 번호는 Microsoft 365 관리 센터의 서비스 요청 페이지에 나열됩니다. </span><span class="sxs-lookup"><span data-stu-id="9b1aa-144">The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2c074-145">이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2c074-145">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="9b1aa-145">이 번호보다 많은 전화 번호를 필요로 하는 경우 비즈니스 제품에 대한 지원에 [문의하세요. 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="9b1aa-145">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="2c074-146">관련 항목</span><span class="sxs-lookup"><span data-stu-id="2c074-146">Related topics</span></span>
-[<span data-ttu-id="2c074-147">전화 번호 전송 자주 묻는 질문</span><span class="sxs-lookup"><span data-stu-id="2c074-147">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="9b1aa-146">관련 항목</span><span class="sxs-lookup"><span data-stu-id="9b1aa-146">Related topics</span></span>
+[<span data-ttu-id="9b1aa-147">전화 번호 전송 자주 묻는 질문</span><span class="sxs-lookup"><span data-stu-id="9b1aa-147">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="2c074-148">통화 요금제에 사용 되는 다른 종류의 전화 번호</span><span class="sxs-lookup"><span data-stu-id="2c074-148">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="9b1aa-148">통화 요금제에 사용되는 다양한 종류의 전화 번호</span><span class="sxs-lookup"><span data-stu-id="9b1aa-148">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="2c074-149">긴급 통화 사용 약관</span><span class="sxs-lookup"><span data-stu-id="2c074-149">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="9b1aa-149">긴급 통화 사용 약관</span><span class="sxs-lookup"><span data-stu-id="9b1aa-149">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="2c074-150">[비즈니스용 Skype Online: 비상 전화 부인 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="2c074-150">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="9b1aa-150">[비즈니스용 Skype Online: 긴급 통화 고지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="9b1aa-150">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
   
  
