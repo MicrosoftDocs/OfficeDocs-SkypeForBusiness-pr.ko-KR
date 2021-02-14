@@ -60,7 +60,7 @@ System Center Operations Manager에서 모니터링할 수 있는 항목, 해당
 -  구성 요소 및 사용자 관리 팩(Microsoft.LS.2019.Monitoring.ComponentAndUser.mp)은 이벤트 로그에 기록되거나, 성능 카운터에 등록되거나, CDRS(통화 정보 기록) 또는 QoE(QoE) 데이터베이스에 기록된 비즈니스용 Skype 서버 문제를 추적합니다. 중요한 문제의 경우 전자 메일, 인스턴트 메시지 또는 SMS 메시징을 통해 관리자에게 즉시 알리도록 System Center Operations Manager를 구성할 수 있습니다. SMS(Short Message Service)는 모바일 장치에서 다른 모바일 장치로 문자 메시지를 보내는 데 사용되는 기술입니다.
 
     > [!NOTE]
-    >  Operations Manager 알림 구성에 대한 자세한 내용은 알림 [구성을 참조합니다.](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409)
+    >  Operations Manager 알림 구성에 대한 자세한 내용은 [알림 구성을 참조합니다.](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409)
 
 - **Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp(Active Monitoring Management** Pack)는 시스템에 로그인하거나 인스턴트 메시지를 변경하거나 PSTN(전화망)에 있는 전화로 전화를 걸거나 같은 주요 비즈니스용 Skype 서버 구성 요소를 사전 예방적으로 테스트합니다. 이러한 테스트는 비즈니스용 Skype 서버 가상 트랜잭션 cmdlet을 사용하여 수행됩니다. 예를 들어 **Test-CsIM** cmdlet은 한 쌍의 테스트 사용자 간의 인스턴트 메시징 대화를 시뮬레이션하는 데 사용됩니다. 이 시뮬레이션된 대화가 실패하면 경고가 생성됩니다.
 

@@ -27,7 +27,7 @@ ms.locfileid: "49806478"
   
 ## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책 할당
 
-다음 예제에서는 ID가 "Ken Myer"인 사용자에게 SalesConferencingPolicy 정책이 할당됩니다.
+다음 예제에서는 Id가 "Ken Myer"인 사용자에게 SalesConferencingPolicy 정책이 할당됩니다.
   
 ```PowerShell
 Grant-CsConferencingPolicy -identity "Ken Myer" -PolicyName SalesConferencingPolicy

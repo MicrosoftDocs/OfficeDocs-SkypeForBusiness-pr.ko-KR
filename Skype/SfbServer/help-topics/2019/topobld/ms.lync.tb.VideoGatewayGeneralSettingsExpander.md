@@ -30,7 +30,7 @@ ms.locfileid: "49807518"
   
 웹 서버를 사용하는 새 Video Interop 서버의 구성 Windows PowerShell 비즈니스용 Skype 서버의 Video Interop 서버 구성에서 [온라인에 설명되어 있습니다.](../../../deploy/deploy-video-interop-server/configure-the-vis.md)
   
- VIS와의 상호 연산을 위해 Cisco GUI에서 설정해야 하는 비디오 게이트웨이의 설정은 비즈니스용 Skype 서버와의 상호 연산을 위한 [CUCM](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)구성에서 온라인으로 설명됩니다.
+ VIS와의 상호 연동을 위해 Cisco GUI에서 설정해야 하는 비디오 게이트웨이의 설정은 비즈니스용 Skype 서버와의 상호 연산을 위한 [CUCM](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)구성에서 온라인으로 설명됩니다.
   
  비디오 게이트웨이 및 VIS와의 상호를 위해 Cisco GUI에서 설정해야 하는 VTC의 설정은 비즈니스용 Skype 서버와의 상호 연산을 위한 [VTC](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)구성에서 온라인으로 설명됩니다.
   

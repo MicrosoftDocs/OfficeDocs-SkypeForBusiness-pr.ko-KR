@@ -31,7 +31,7 @@ ms.locfileid: "49806688"
     원하는 경우 **TCP 포트 값을** 정의합니다. 기본적으로 이 값은 TCP 5068입니다.
     
     > [!NOTE]
-    > TCP 포트 값 설정은 **TCP 포트 사용(Enable TCP port)을 선택하여 사용하도록 설정됩니다.** 중재 서비스와 통신하는 데 필요한 포트 설정에 대한 요구 사항은 PSTN(Public Switched Telephone Network) 게이트웨이 또는 IP-PBX(Internet Protocol Private Branch Exchange)에 대한 설명서를 참조해야 합니다. 
+    > TCP 포트 값 설정은 **TCP 포트 사용(Enable TCP port)을 선택하여 사용하도록 설정합니다.** 중재 서비스와 통신하는 데 필요한 포트 설정에 대한 요구 사항은 PSTN(Public Switched Telephone Network) 게이트웨이 또는 IP-PBX(Internet Protocol Private Branch Exchange)에 대한 설명서를 참조해야 합니다. 
   
 - **TCP 포트를** 사용하도록 설정하여 PSTN 게이트웨이 또는 IP-PBX의 TCP 통신에 대한 포트 값을 정의할 수 있습니다.
     

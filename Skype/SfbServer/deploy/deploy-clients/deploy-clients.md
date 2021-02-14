@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
-description: '요약: 비즈니스용 Skype의 엔터프라이즈 클라이언트 설치 방법 개요.'
+description: '요약: 비즈니스용 Skype의 엔터프라이즈 클라이언트 설치 방법에 대한 개요입니다.'
 ms.openlocfilehash: ccaed5620c7f524a5a39fc6a35e6d688cd97a0eb
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "49805698"
 > Outlook 메시징 Microsoft Office 공동 작업 클라이언트 내에서 모임 관리를 지원하는 비즈니스용 Skype 모임 추가 기능을 비즈니스용 Skype 클라이언트와 함께 자동으로 설치합니다. 
   
 > [!NOTE]
-> Microsoft 365 및 Office 365 설치 프로그램은 이전 버전의 Lync를 제거하지 않습니다. 비즈니스용 Skype 클라이언트는 다른 Lync 클라이언트와 함께 나란히 설치됩니다. 
+> Microsoft 365 및 Office 365 설치 프로그램은 이전 버전의 Lync를 제거하지 않습니다. 비즈니스용 Skype 클라이언트는 다른 Lync 클라이언트와 함께 설치됩니다. 
   
 ## <a name="installing-windows-clients"></a>Windows 클라이언트 설치
 

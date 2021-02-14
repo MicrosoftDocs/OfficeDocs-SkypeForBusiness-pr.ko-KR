@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에 대한 온보드 지원
+title: Microsoft Teams 온보드 지원
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -28,9 +28,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49806138"
 ---
-# <a name="onboard-support-for-microsoft-teams"></a>Microsoft Teams에 대한 온보드 지원
+# <a name="onboard-support-for-microsoft-teams"></a>Microsoft Teams 온보드 지원
 
-초기 채택자 및 챔피언 팀이 Teams 사용을 시작할 때 적절한 지원을 받게 되도록 지원 직원과 만나 Teams의 기능을 검토합니다. 지원 조직의 주요 구성원이 Early Adopter 프로그램에 참여할 수 있습니다. 자체 시나리오에서 Teams를 사용하는 것이 좋습니다. 온라인 교육 리소스를 사용하여 제품의 기본 온보더링을 진행합니다.  
+초기 채택자 및 챔피언 팀이 Teams 사용을 시작할 때 적절한 지원을 받게 되도록 지원 직원과 만나 Teams의 기능을 검토합니다. 지원 조직의 주요 구성원이 Early Adopter 프로그램에 참여할 수 있습니다. 자신의 시나리오에서 Teams를 사용하는 것이 좋습니다. 온라인 교육 리소스를 사용하여 제품의 기본 온보더링을 진행합니다.  
 
 - [Foundations - Microsoft Teams의 핵심 구성 요소](https://youtu.be/V6B4KraD-FM)
 - [Teams 문제 해결](https://youtu.be/0KNh9KNpXcA)

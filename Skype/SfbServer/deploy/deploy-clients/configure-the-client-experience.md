@@ -77,13 +77,13 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 ## <a name="first-launch-client-behaviors"></a>첫 번째 시작 클라이언트 동작
 
-기본적으로 사용자가 비즈니스용 Skype 2015를 처음 시작하면 이전에 설명한 바와 같이 EnableSkypeUI 매개 변수의 값을 $False Lync 클라이언트 환경을 선택한 경우에도 항상 비즈니스용 Skype 사용자 인터페이스가 표시됩니다. 몇 분 후 사용자에게 Lync 모드로 전환할지 묻는 요청이 표시됩니다.
+기본적으로 사용자가 비즈니스용 Skype 2015를 처음 시작하면 이전에 설명한 바와 같이 EnableSkypeUI 매개 변수의 값을 $False Lync 클라이언트 환경을 선택한 경우에도 항상 비즈니스용 Skype 사용자 인터페이스가 표시됩니다. 몇 분 후에 사용자에게 Lync 모드로 전환할지 묻는 요청이 표시됩니다.
   
 사용자가 처음으로 비즈니스용 Skype 클라이언트를 시작할 때 Lync 사용자 인터페이스를 표시하려는 경우 클라이언트가 업데이트된 후 처음으로 시작되기 전에 다음 단계를 수행합니다.
   
 1. 값이 앞서 설명한 $False 정책에서 해당 값으로  `EnableSkypeUI` 설정되어 있는지 확인
     
-2. 사용자 컴퓨터에서 시스템 레지스트리를 업데이트합니다. 사용자가 비즈니스용 Skype 클라이언트를 처음 시작하기 전에 이 작업을 한 번만 해야 합니다. 그룹 정책 개체를 만들어 도메인에 가입된 컴퓨터에서 레지스트리를 업데이트하는 방법에 대한 자세한 내용은 항목의 부분에 있는 섹션을 참조하십시오.
+2. 사용자 컴퓨터에서 시스템 레지스트리를 업데이트합니다. 사용자가 비즈니스용 Skype 클라이언트를 처음 시작하기 전에 이 작업을 한 번만 해야 합니다. 그룹 정책 개체를 만들어 도메인에 가입된 컴퓨터에서 레지스트리를 업데이트하는 방법에 대한 자세한 내용은 이 항목의 부분에 있는 섹션을 참조하십시오.
     
     **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]** 키에서 새 **Binary 값을** 생성합니다.
     
@@ -103,7 +103,7 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>시작 화면 자습서의 표시 제어
 
-사용자가 비즈니스용 Skype 클라이언트를 열 때 기본 동작은 대부분의 사용자가  *요청하는 7개* 빠른 팁이 포함된 시작 화면을 표시하는 것입니다. 시작 화면의 표시를 해제할 수 있지만 클라이언트 컴퓨터에서 다음 레지스트리 값을 추가하여 사용자가 자습서에 액세스할 수 있도록 허용할 수 있습니다.
+사용자가 비즈니스용 Skype 클라이언트를 열 때 기본 동작은 대부분의 사용자가 요청하는 7개 빠른 팁이 포함된 시작 *화면을 표시하는 것입니다.* 시작 화면의 표시를 해제할 수 있지만 클라이언트 컴퓨터에서 다음 레지스트리 값을 추가하여 사용자가 자습서에 액세스할 수 있도록 허용할 수 있습니다.
   
 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** 키에 새 **DWORD(32비트) 값을 생성합니다.** 값 **이름은** **IsBasicTutorialSeenByUser** 및 **값** 데이터를 **1로** 설정해야 합니다.
   
@@ -134,10 +134,10 @@ Lync
 |:-----|:-----|:-----|
 |비즈니스용 Skype 서버 |기본  <br/> |비즈니스용 Skype  <br/> |
 |비즈니스용 Skype 서버  |True  <br/> |비즈니스용 Skype  <br/> |
-|비즈니스용 Skype 서버  |False  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다(UI 설정을 Lync 모드로 변경하는 경우 나중에 사용자가 비즈니스용 Skype로 전환할 수 $true)  <br/> |
+|비즈니스용 Skype 서버  |거짓  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다(UI 설정을 Lync 모드로 변경하는 경우 나중에 사용자가 비즈니스용 Skype로 전환할 수 $true)  <br/> |
 |Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |기본  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다(UI 설정을 Lync 모드로 변경하는 경우 나중에 사용자가 비즈니스용 Skype로 전환할 수 $true)  <br/> |
 |Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |True  <br/> |비즈니스용 Skype  <br/> |
-|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |False  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다(UI 설정을 Lync 모드로 변경하는 경우 나중에 사용자가 비즈니스용 Skype로 전환할 수 $true)  <br/> |
+|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |거짓  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다(UI 설정을 Lync 모드로 변경하는 경우 나중에 사용자가 비즈니스용 Skype로 전환할 수 $true)  <br/> |
 |Lync Server 2010 또는 Lync Server 2013(패치가 없는 경우)  <br/> |기본  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다(사용자가 나중에 비즈니스용 Skype로 전환할 수 없습니다).  <br/> |
    
 다음 표에는 관리자가 Skype UI 환경의 초기 설정을 변경할 때의 클라이언트 환경이 표시됩니다.
@@ -146,10 +146,10 @@ Lync
 |**서버 버전**|**EnableSkypeUI 설정**|**클라이언트 UI = Lync**|**클라이언트 UI = 비즈니스용 Skype**|
 |:-----|:-----|:-----|:-----|
 |비즈니스용 Skype 서버 |True  <br/> |사용자에게 비즈니스용 Skype로 전환하도록 요청한 경우  <br/> |비즈니스용 Skype  <br/> |
-|비즈니스용 Skype 서버 |False  <br/> |Lync 모드  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다.  <br/> |
+|비즈니스용 Skype 서버 |거짓  <br/> |Lync 모드  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다.  <br/> |
 |Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |True  <br/> |사용자에게 비즈니스용 Skype로 전환하도록 요청한 경우  <br/> |비즈니스용 Skype  <br/> |
-|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |False  <br/> |Lync 모드  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다.  <br/> |
-|Lync Server 2010 또는 Lync Server 2013(패치가 없는 경우)  <br/> |기본  <br/> |Lync 모드(비즈니스용 Skype로 전환할 수 없습니다.  <br/> |Lync 모드(비즈니스용 Skype로 전환할 수 없습니다)  <br/> |
+|Lync Server 2010 또는 Lync Server 2013(올바른 패치 사용)  <br/> |거짓  <br/> |Lync 모드  <br/> |사용자에게 Lync 모드로 전환하도록 요청했습니다.  <br/> |
+|Lync Server 2010 또는 Lync Server 2013(패치가 없는 경우)  <br/> |기본  <br/> |Lync 모드(비즈니스용 Skype로 전환할 수 없습니다)  <br/> |Lync 모드(비즈니스용 Skype로 전환할 수 없습니다)  <br/> |
    
 비즈니스용 Skype 클라이언트의 구성을 관리하는 데 필요한 패치 버전은
   

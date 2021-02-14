@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
-description: 지연된 요청 또는 오프라인 요청을 만들하려면 지금 요청 준비를 선택하 고 나중에 전송합니다(오프라인 인증서 요청). 온라인 인증 기관(일반적으로 조직의 공개 키 인프라에 있는 내부 시스템)에 대한 즉시 요청을 만들하려면 온라인 인증 기관에 즉시 요청을 보내십시오.
+description: 지연된 요청 또는 오프라인 요청을 만들하려면 지금 요청 준비를 선택하 고 나중에 전송합니다(오프라인 인증서 요청). 온라인 인증 기관(일반적으로 조직의 공개 키 인프라의 내부 시스템)에 대한 즉시 요청을 만들하려면 온라인 인증 기관에 즉시 요청을 보내십시오.
 ms.openlocfilehash: c3108f287a1e3283d73566867e951475825bab34
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

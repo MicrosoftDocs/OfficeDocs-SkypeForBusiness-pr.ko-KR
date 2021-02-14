@@ -24,7 +24,7 @@ ms.locfileid: "49808198"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>응답 그룹 큐: 새로 만들기 또는 기존 항목 편집
 
-응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보류합니다.
+응답 그룹 큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 대한 통화를 보유합니다.
 
 ## <a name="ui-reference"></a>UI 참조
 

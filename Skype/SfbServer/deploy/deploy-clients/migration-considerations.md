@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: 이 항목을 통해 비즈니스용 Skype 서버 및 Lync Server의 여러 버전이 있는 환경에서 Skype 룸 시스템을 배포하는 방법에 대해 자세히 알아보습니다.
+description: 이 항목을 통해 비즈니스용 Skype 서버 및 Lync Server의 여러 버전이 있는 환경에서 Skype 룸 시스템을 배포하는 방법에 대해 자세히 알아보실 수 있습니다.
 ms.openlocfilehash: 30b2a4733ea2e2e42b8a879914a2e0e3c4903c8e
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "49805788"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype 룸 시스템 마이그레이션 고려 사항
  
-이 항목을 통해 비즈니스용 Skype 서버 및 Lync Server의 여러 버전이 있는 환경에서 Skype 룸 시스템을 배포하는 방법에 대해 자세히 알아보습니다.
+이 항목을 통해 비즈니스용 Skype 서버 및 Lync Server의 여러 버전이 있는 환경에서 Skype 룸 시스템을 배포하는 방법에 대해 자세히 알아보실 수 있습니다.
   
 ## <a name="migration-considerations"></a>마이그레이션 고려 사항
 
 이 섹션에서는 서로 다른 버전의 비즈니스용 Skype 서버 또는 Lync Server를 포함하는 다중 풀 환경에서 Skype 룸 시스템을 배포하는 경우 지침을 제공합니다. 
   
-Lync Server의 UR(User Replicator) 구성 요소는 Active Directory에서 사용자 개체를 사용하여 Lync Server 백 엔드 서버 SQL Server 넣습니다. Lync Server 2013의 UR만 Skype 룸 시스템 개체를 인식합니다. 이전 버전의 Lync Server 및 Office Communications Server의 UR는 LRS 개체를 지정하는 Active Directory 특성을 검색하지 못하므로 이를 인식하지 못합니다. 
+Lync Server의 UR(User Replicator) 구성 요소는 Active Directory에서 사용자 개체를 사용하여 Lync Server 백 엔드 서버 SQL Server 저장합니다. Lync Server 2013의 UR만 Skype 룸 시스템 개체를 인식합니다. 이전 버전의 Lync Server 및 Office Communications Server의 UR는 LRS 개체를 지정하는 Active Directory 특성을 검색하지 못하므로 이를 인식하지 못합니다. 
   
-Skype 채팅방 시스템 계정이 Lync에 로그인을 시도하고 SRV 레코드 또는 DNS A 레코드를 기반으로 자동 검색을 수행하는 경우 해당 계정이 이전 버전의 Lync Server 또는 Office Communications Server를 기준으로 하는 경우 LRS는 레거시 풀에서 404 찾을 수 없는 응답을 수신합니다. 레거시 풀은 Skype 룸 시스템을 Lync Server 2013 홈 풀로 리디렉션할 수 없습니다. 
+Skype 채팅방 시스템 계정이 Lync에 로그인을 시도하고 SRV 레코드 또는 DNS A 레코드를 기반으로 자동 검색을 수행하는 경우 해당 계정이 이전 버전의 Lync Server 또는 Office Communications Server를 지날 경우 LRS는 레거시 풀에서 404 찾을 수 없는 응답을 수신합니다. 레거시 풀은 Skype 룸 시스템을 Lync Server 2013 홈 풀로 리디렉션할 수 없습니다. 
   
 다음 옵션으로 이 문제를 해결할 수 있습니다. 
   
@@ -49,7 +49,7 @@ Skype 룸 시스템 클라이언트가 Lync Server 2010에 있는 사용자가 �
     
 - Skype 채팅방 시스템 클라이언트가 발표자인 경우 참가자에 비디오 잠금을 적용할 수 없습니다.
     
-- Skype 채팅방 시스템은 다음 때문에 Lync Server 2013 회의 정책에서 허용하는 경우에도 1080p 비디오 해상도(인바운드 또는 아웃바운드)를 표시하지 않습니다. 
+- Skype 룸 시스템은 다음 때문에 Lync Server 2013 회의 정책에서 허용하는 경우에도 1080p 비디오 해상도(인바운드 또는 아웃바운드)를 표시하지 않습니다. 
     
   - Lync Server 2010은 1080p 해상도를 지원하지 않습니다.
     

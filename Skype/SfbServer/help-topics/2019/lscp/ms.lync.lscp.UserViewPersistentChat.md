@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 ROBOTS: NOINDEX, NOFOLLOW
-description: CsPersistentChatAdministrator 역할(영구 채팅 관리자)의 구성원은 채팅방 관리자 권한 및 사용 권한을 다른 사용자와 자신에게 부여할 수 있습니다.
+description: CsPersistentChatAdministrator 역할(영구 채팅 관리자)의 구성원은 채팅방 관리자 권한 및 사용 권한을 다른 사용자 및 사용자에게 부여할 수 있습니다.
 ms.openlocfilehash: 36bd664f1bba680214eaf6315b2ed164e70ef7a4
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

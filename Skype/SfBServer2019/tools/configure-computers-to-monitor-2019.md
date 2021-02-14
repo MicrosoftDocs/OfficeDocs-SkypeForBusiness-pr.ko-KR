@@ -49,7 +49,7 @@ ms.locfileid: "49806078"
 
 7. 에이전트 작업 계정 페이지에서 **로컬 시스템을** 선택하고 다음을 **클릭합니다.**
 
-8. Microsoft 업데이트 페이지에서 Microsoft  업데이트를 사용하지 않는 것을 선택하고 다음을 **클릭합니다.**
+8. On the Microsoft Update page, select **I don't** want to use Microsoft Update and click **Next.**
 
 9. 설치 준비 완료 페이지에서 **설치** 를 클릭합니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "49806078"
 
 11. **끝내기** 를 클릭합니다.
 
-이 System Center 2012 시작, 모든 프로그램, **System Center Operations Manager 2012를** 클릭한 다음 **Operations 2012** Manager 셸을 클릭하여 에이전트가 만들어졌습니다.   Operations Manager 셸에서 다음 Windows PowerShell 입력하고 Enter를 누르고 있습니다.
+이 System Center 2012 시작, 모든 프로그램, **System Center Operations Manager 2012를** 클릭한 다음 **Operations 2012** 관리자 셸을 클릭하여 에이전트가 만들어졌습니다.   Operations Manager 셸에서 다음 Windows PowerShell 입력하고 Enter를 누르고 있습니다.
 ```PowerShell
 Get-SCOMAgent
 ```

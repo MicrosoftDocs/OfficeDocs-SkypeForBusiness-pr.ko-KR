@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
-description: 로그 캐시의 최대 크기, 최대 로그 파일 크기 또는 로그 파일이 삭제되기 전까지 보관되는 기간을 결정하는 로그 설정 편집 페이지에 장치 로그 구성을 추가할 수 있습니다. 조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다.
+description: 최대 로그 캐시 크기, 최대 로그 파일 크기 또는 로그 파일이 삭제되기 전까지 보관되는 기간을 결정하는 로그 설정 편집 페이지에 장치 로그 구성을 추가할 수 있습니다. 조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다.
 ms.openlocfilehash: 694729b74209715bd87bed0c3bd59d80f31fff59
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "49807318"
   
 ## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
 
-로그 설정 편집 페이지에서는 **다음 작업을 수행할 수** 있습니다.
+로그 설정 편집 페이지에서는 다음 **작업을 수행할 수** 있습니다.
   
 - 장치 로그 구성을 전역적으로 또는 특정 사이트에 추가합니다.
     

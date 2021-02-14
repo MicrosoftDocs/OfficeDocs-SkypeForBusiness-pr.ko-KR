@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 이 문서에서는 Microsoft Teams 채택의 시작 단계에서의 활동에 대해 배워보게 됩니다. Microsoft Teams 설정 및 팀 계획에 대한 모범 사례를 이해합니다.
+description: 이 문서에서는 Microsoft Teams 도입의 시작 단계에 있는 활동에 대해 배워보는 방법을 배워보는 것입니다. Microsoft Teams 설정 및 팀 계획에 대한 모범 사례를 이해합니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -51,11 +51,11 @@ ms.locfileid: "49806128"
 | 역할 | 책임 | 부서 |
 | ---- | ---------------- | ---------- |
 | 경영진<sup>스폰서 1</sup> | 높은 수준의 비전을 전달합니다. 회사의 핵심 임무 및 우선 순위 이니셔티브에 Teams 구현을 연결합니다. | 경영진 |
-| 성공 소유자<sup>1</sup> | Teams 롤아웃에서 비즈니스 목표를 실현해야 합니다. | 모든 부서 |
+| 성공 소유자<sup>1</sup> | Teams 롤아웃에서 비즈니스 목표가 실현되도록 합니다. | 모든 부서 |
 | 프로그램 관리자<sup>1</sup> | 전체 Teams 시작 실행 및 롤아웃 프로세스를 주관합니다. | IT |
-| 챔피언<sup>1</sup> | Teams를 전도하고, 기술 구축을 지원하고, 사용 현황 인사이트를 제공할 수 있습니다. | 여러 부서 |
+| 챔피언<sup>1</sup> | Teams를 전도하고, 기술 구축을 지원하고, 사용 현황 정보를 제공할 수 있습니다. | 여러 부서 |
 | 교육 잠재 고객 | Teams에 대한 교육 콘텐츠를 관리하고 전달합니다. | IT 또는 기타 |
-| 부서 리드(이해 관계자)<sup>2</sup> | 특정 부서에서 Teams를 사용하는 방법을 식별하고 참여를 장려합니다. | 모든 부서(관리) |
+| 부서 리드(이해 관계자)<sup>2</sup> | 특정 부서에서 Teams를 사용하는 방법을 파악하고 참여를 장려합니다. | 모든 부서(관리) |
 | IT 전문가<sup>1</sup> | 통합을 포함하여 구현의 모든 기술적 측면을 관리합니다. | IT |
 | 통신 리드<sup>2</sup> | Teams에 대한 회사 전체의 통신을 과장합니다. | 회사 통신, IT 또는 기타 |
 | Community Manager | 네트워크 활동을 Yammer 관리합니다. 지침 및 모범 사례를 제공합니다. | 여러 부서 |
@@ -63,14 +63,14 @@ ms.locfileid: "49806128"
 <sup>1</sup> 이러한 역할은 프로젝트의 성공에 필수적입니다.</br>
 <sup>2</sup> 이러한 역할은 전체 프로그램 성공에 중요합니다.
 
-대부분의 경우 이 초기 팀은 Teams에 관심이 있으며 구현에 대해 책임이 있는 소수의 생각이 있는 소규모 그룹이 됐습니다. 도입 계획이 추가 단계로 진행될 때 팀에 더 많은 사람이 포함됩니다. 또한 지원에 사용할 수 있는 Microsoft 리소스를 활용하는 것이 권장됩니다. 
+대부분의 경우 이 초기 팀은 Teams에 관심이 있으며 구현에 대해 책임이 있는 소수의 생각이 있는 소규모 그룹이 됐습니다. 도입 계획이 추가 단계로 진행될 때 팀에 더 많은 사람이 포함됩니다. 또한 지원을 위해 사용할 수 있는 Microsoft 리소스를 활용하는 것이 권장됩니다. 
 
 ## <a name="additional-resources"></a>추가 리소스
 
-[Microsoft 기술](https://aka.ms/TechCommunity) 커뮤니티는 여러 Microsoft 365 및 Office 365 제품에 대한 채택 및 기술 문제에 대해 피어 제공 인사이트를 제공합니다. 다음 커뮤니티에 가입하는 것이 권장됩니다.
+[Microsoft 기술 커뮤니티는](https://aka.ms/TechCommunity) 여러 Microsoft 365 및 Office 365 제품에 대한 채택 및 기술 문제에 대해 피어 제공 인사이트를 제공합니다. 다음 커뮤니티에 가입하는 것이 권장됩니다.
 
 - [Microsoft Teams 기술](https://aka.ms/TeamsCommunity) 커뮤니티 - 제품 질문에 답변하고, 다른 Teams 고객으로부터 배우고, 블로그에 따라 Teams의 새로운 기능 및 사용 사례를 최신으로 유지하세요. 
-- [챔피언 프로그램](https://aka.ms/O365Champions) 및 채택 커뮤니티 – Teams, SharePoint, Yammer 및 기타 제품과 같은 Microsoft 365 또는 Office 365 워크로드의 채택을 가장 잘 구동하는 방법에 대해 동료로부터 배워야 합니다. IT Pros, 비즈니스 사용자, "우발적" 개발자 및 클라우드 서비스의 도입을 주도하는 데 관심이 있는 모든 사용자에게 공개합니다.  
+- [챔피언 프로그램](https://aka.ms/O365Champions) 및 채택 커뮤니티 – Teams, SharePoint, Yammer 등의 Microsoft 365 또는 Office 365 워크로드의 채택을 가장 잘 구동하는 방법에 대해 동료로부터 배워야 합니다. IT Pros, 비즈니스 사용자, "우발적" 개발자 및 클라우드 서비스의 도입을 주도하는 데 관심이 있는 모든 사용자에게 공개합니다.  
 
 
 ![다음 단계를 나타내는 ](media/teams-adoption-next-icon.png) 아이콘: [팀](teams-adoption-understand-teams-and-channels.md) 및 채널 이해

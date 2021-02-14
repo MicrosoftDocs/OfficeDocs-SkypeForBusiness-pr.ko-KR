@@ -22,7 +22,7 @@ ms.locfileid: "49806528"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 PIN 정책 정보 보기
  
-**요약:** 비즈니스용 Skype 서버에 대한 사용자의 PIN 정책 정보를 볼 수 있습니다.
+**요약:** 비즈니스용 Skype 서버에 대한 사용자의 PIN 정책 정보를 본다.
   
 **PIN** 정책 탭을 사용하여 IP 전화로 비즈니스용 Skype에 연결하는 사용자의 PIN(개인 식별 번호) 인증을 볼 수 있습니다. PIN 인증을 사용하려면 웹 서비스 설정에서 **PIN 인증 사용** 이 선택되어 있는지 확인합니다.
   
@@ -32,7 +32,7 @@ ms.locfileid: "49806528"
 
 1.  RTCUniversalServerAdmins 그룹의 구성원인 사용자 계정 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 비즈니스용 Skype 서버를 배포한 네트워크에 있는 컴퓨터에 로그온합니다.
     
-2. 브라우저 창을 열고 관리자 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
     
 3. 왼쪽 탐색 모음에서 **보안** 을 클릭하고 **PIN 정책** 을 클릭합니다.
     
@@ -40,7 +40,7 @@ ms.locfileid: "49806528"
     
 ## <a name="viewing-pin-policies-by-using-windows-powershell-cmdlets"></a>cmdlet을 사용하여 PIN Windows PowerShell 보기
 
-또한 PIN 정책과 cmdlet을 사용하여 WINDOWS POWERSHELL 수 Get-CsPinPolicy 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+또한 PIN 정책은 Windows PowerShell cmdlet을 사용하여 Get-CsPinPolicy 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸에서 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
   
 ### <a name="to-view-pin-policies"></a>PIN 정책을 보시다
 

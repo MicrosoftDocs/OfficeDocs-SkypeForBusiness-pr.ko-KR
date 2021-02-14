@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Microsoft Teams 관리 센터에서 조직의 긴급 위치에 대한 장소를 추가, 변경 또는 제거하는 방법을 배워야 합니다.
+description: Microsoft Teams 관리 센터에서 조직의 긴급 위치를 추가, 변경 또는 제거하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: d390113b30558b94fadab695731b8c08b4c01ace
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
@@ -33,7 +33,7 @@ ms.locfileid: "49806278"
 
 Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 조직의 긴급 위치를 관리합니다.
   
-## <a name="add-a-place-to-an-emergency-location"></a>긴급 위치에 장소 추가
+## <a name="add-a-place-to-an-emergency-location"></a>긴급 위치에 위치 추가
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 

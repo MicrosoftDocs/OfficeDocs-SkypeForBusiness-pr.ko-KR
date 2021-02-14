@@ -25,7 +25,7 @@ ms.locfileid: "49805928"
 
 비즈니스용 Skype Web App은 비즈니스용 Skype 서버를 실행하는 서버에 설치되는 IIS(인터넷 정보 서비스) 웹 클라이언트로, 기본적으로 비즈니스용 Skype 클라이언트가 아직 없는 사용자를 충족하기 위해 요청 시 배포됩니다. 이러한 모임 사용자는 네트워크 외부에서 연결하지 않는 것보다 더 자주 있습니다. 사용자가 모임 URL을 클릭하지만 비즈니스용 Skype 클라이언트가 설치되어 있지 않은 경우 최신 버전의 비즈니스용 Skype Web App, Skype 모임 앱 또는 Mac용 비즈니스용 Skype를 사용하여 모임에 참가할 수 있는 옵션이 표시됩니다.
 
-비즈니스용 Skype Web App의 음성, 비디오 및 공유 기능을 사용하려면 ActiveX 브라우저에서 플러그 인으로 사용되는 Microsoft ActiveX 컨트롤이 필요하게 됩니다. ActiveX 컨트롤을 미리 설치하거나 메시지가 표시될 때 설치하도록 허용할 수 있습니다. 이 경우 사용자가 비즈니스용 Skype Web App을 처음 사용할 때 또는 사용자가 ActiveX 컨트롤이 필요한 기능에 처음 액세스할 때 발생합니다.
+비즈니스용 Skype Web App의 음성, 비디오 및 공유 기능을 사용하려면 사용자의 ActiveX 플러그 인으로 사용되는 Microsoft ActiveX 컨트롤이 필요하게 됩니다. ActiveX 컨트롤을 미리 설치하거나 메시지가 표시될 때 설치하도록 허용할 수 있습니다. 이 경우 사용자가 비즈니스용 Skype Web App을 처음 사용할 때 또는 사용자가 ActiveX 컨트롤이 필요한 기능에 처음 액세스할 때 발생합니다.
 
 > [!NOTE]
 > 비즈니스용 Skype 서버 에지 서버 배포에서는 비즈니스용 Skype Web App 클라이언트 액세스에 경계 네트워크의 HTTPS 역방향 프록시가 필요합니다. 단순 URL도 게시해야 합니다. 자세한 내용은 비즈니스용 Skype 서버에서 단순 URL에 대한 역방향 프록시 서버 및 DNS 요구 사항 [설정을 참조하세요.](../../plan-your-deployment/network-requirements/simple-urls.md) [](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx)
@@ -38,7 +38,7 @@ ms.locfileid: "49805928"
 > [!IMPORTANT]
 > 다단계 인증을 위해 AD FS를 구성할 계획인 경우 중요한 고려 사항은 다음과 같습니다.
 
-- 다단계 ADFS 인증은 모임 참가자와 이끌이가 같은 조직에 둘 다 있는 경우 작동하며 AD FS 페더맹 조직에서 모두 인증됩니다. 다단계 ADFS 인증은 Lync 서버 웹 인프라에서 현재 지원하지 않습니다.
+- 다단계 ADFS 인증은 모임 참가자와 이끌이가 같은 조직에 둘 다 있는 경우 또는 AD FS 페더러 조직에 소문이 있는 경우 작동합니다. 다단계 ADFS 인증은 Lync 서버 웹 인프라에서 현재 지원하지 않습니다.
 
 - 하드웨어 부하 균형을 사용하는 경우 비즈니스용 Skype Web App 또는 모임 앱 클라이언트의 모든 요청이 동일한 프런트 엔드 서버에서 처리될 수 있도록 부하 균형 조정기에서 쿠키 지속을 사용하도록 설정하십시오.
 
@@ -50,7 +50,7 @@ ms.locfileid: "49805928"
 
 1. AD FS 페더ation 서버 역할을 설치합니다. 자세한 내용은 Active [Directory Federation Services 2.0 배포 가이드를 참조하십시오.](https://go.microsoft.com/fwlink/p/?linkid=267511)
 
-2. AD FS용 인증서를 만드시다. 자세한 내용은 Single Sign-On 항목에 사용할 AD FS 배포 및 계획의 "페더전 서버 [인증서"](https://go.microsoft.com/fwlink/p/?LinkId=285376) 섹션을 참조하세요.
+2. AD FS용 인증서를 만드시다. 자세한 내용은 Single Sign-On 항목에 사용할 AD FS 계획 및 배포 항목의 "페더전 서버 [인증서"](https://go.microsoft.com/fwlink/p/?LinkId=285376) 섹션을 참조하세요.
 
 3. 명령줄 Windows PowerShell 명령줄 인터페이스에서 다음 명령을 실행합니다.
 
@@ -89,7 +89,7 @@ Test-CsUcwaConference cmdlet을 사용하여 한 쌍의 테스트 사용자가 U
 
 Windows Server 2008 R2를 실행하는 컴퓨터에서 플러그 인을 설치하지 못하는 경우 Internet Explorer 보안 설정 또는 DisableMSI 레지스트리 키 설정을 수정해야 할 수 있습니다.
 
-### <a name="modify-the-security-setting-in-internet-explorer"></a>2016에서 보안 설정을 Internet Explorer
+### <a name="modify-the-security-setting-in-internet-explorer"></a>보안 설정 수정 Internet Explorer
 
 1. Internet Explorer를 엽니다.
 
@@ -129,7 +129,7 @@ Windows Server 2008 R2를 실행하는 컴퓨터에서 플러그 인을 설치�
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
-2. 모임 참가 웹 페이지 또는 Skype 모임 앱의 클라이언트 쪽 로깅 원격 분석이 Microsoft 서버로 전송될 수 있도록 허용합니다(기본적으로 false로 설정).
+2. 모임 참가 웹 페이지 또는 Skype 모임 앱의 클라이언트 쪽 로깅 원격 분석이 Microsoft 서버로 전송될 수 있도록 허용합니다(명령은 기본적으로 false로 설정).
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
@@ -144,7 +144,7 @@ Windows Server 2008 R2를 실행하는 컴퓨터에서 플러그 인을 설치�
    ```
 
 > [!NOTE]
-> 비즈니스용 Skype 서버 2015 누적 업데이트 5에서 MeetingUxUseCdn을 사용할 경우 기본값은 False로 설정됩니다. 이로 인해 비즈니스용 Skype 관리자가 MeetingUxUseCdn을 True로 설정한 경우에도 Mac용 비즈니스용 Skype 클라이언트가 비 페더러이트 파트너의 모임에 게스트로 참가할 수 없는 문제가 발생하게 됩니다. 이렇게 하기 위해 비즈니스용 Skype 서버 2015에는 누적 업데이트 7, 6.0.9319.534 이상이 있어야 합니다. 비즈니스용 Skype 서버 [2015에서](https://support.microsoft.com/kb/4132312)비즈니스용 Skype Web App을 바꾸기 위해 Skype 모임 앱 사용을 참조하세요.
+> 비즈니스용 Skype 서버 2015 누적 업데이트 5에서 MeetingUxUseCdn을 사용할 경우 기본값은 False로 설정됩니다. 이로 인해 비즈니스용 Skype 관리자가 MeetingUxUseCdn을 True로 설정한 경우에도 Mac용 비즈니스용 Skype 클라이언트가 비 페더맹 파트너의 모임에 게스트로 참가할 수 없는 문제가 발생하게 됩니다. 이렇게 하기 위해 비즈니스용 Skype 서버 2015에는 누적 업데이트 7, 6.0.9319.534 이상이 있어야 합니다. 비즈니스용 Skype 서버 [2015에서](https://support.microsoft.com/kb/4132312)비즈니스용 Skype Web App을 바꾸기 위해 Skype 모임 앱 사용을 참조하세요.
 
 
 ## <a name="see-also"></a>참고 항목

@@ -25,7 +25,7 @@ ms.locfileid: "49805558"
 이 항목을 읽고 Skype 채팅방 시스템 계정을 관리하는 방법을 배워 읽습니다. 
 
 > [!NOTE]
-> Microsoft Teams 룸은 종속성 및 배포 절차가 서로 다른 제품입니다. Microsoft Teams 룸에 대한 자세한 내용은 Microsoft Teams 룸 관리 [개요를 참조하세요.](https://docs.microsoft.com/microsoftteams/rooms/rooms-manage)
+> Microsoft Teams 룸은 종속성 및 배포 절차가 다른 다른 제품입니다. Microsoft Teams 룸에 대한 자세한 내용은 Microsoft Teams 룸 관리 [개요를 참조하세요.](https://docs.microsoft.com/microsoftteams/rooms/rooms-manage)
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>풀 간에 Skype 룸 시스템 계정 이동
 

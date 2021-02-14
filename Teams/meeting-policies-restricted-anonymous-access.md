@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords: ''
 ms.custom: ''
-description: 조직의 사용자로부터 RestrictedAnonymousAccess Teams 모임 정책을 제거하는 방법을 배워야 합니다.
+description: 조직의 사용자에서 RestrictedAnonymousAccess Teams 모임 정책을 제거하는 방법을 배워야 합니다.
 ms.openlocfilehash: 55385cdd47f6b6c9882f8d4e8dcadc848f13755d
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "49806258"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>사용자에서 RestrictedAnonymousAccess Teams 모임 정책 제거
 
-Microsoft [Teams의](meeting-policies-in-teams.md) 모임 정책은 조직의 사용자가 예약한 모임에 대해 모임 참가자가 사용할 수 있는 기능을 제어하는 데 사용됩니다. 
+Microsoft [Teams의](meeting-policies-in-teams.md) 모임 정책은 조직의 사용자가 예약한 모임에 모임 참가자가 사용할 수 있는 기능을 제어하는 데 사용됩니다. 
 
 Teams에는 익명 사용자의 모임 시작을 제한하는 미리 정의된 설정이 포함된 RestrictedAnonymousAccess라는 기본 제공 정책이 포함되어 있습니다. (익명 사용자는 인증되지 않은 사용자입니다.) 모임 정책에서 미리 정의한 설정은 관리자가 편집하거나 변경할 수 없습니다.
 
@@ -53,9 +53,9 @@ Count  Name                               Group
 2      RestrictedAnonymousAccess          {@{ObjectId=38b35ebf-cc8b-4b61-a2db-f6e67c3f614b; TeamsMeetingPolicy=RestrictedAnonymousAccess...
 ```
 
-## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>사용자로부터 RestrictedAnonymous 모임 정책의 사용 안 을(를)
+## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>사용자로부터 RestrictedAnonymous 모임 정책의 재할당을 확정합니다.
 
-사용자로부터 RestrictedAnonymous 모임 정책을 제거하려면 적은 수의 사용자(예: 100명 미만)가 있는 경우 [Grant-CSTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet을 사용할 수 있습니다. 많은 수의 사용자(예: 100명 이상)가 있는 경우  [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet을 사용하여 일괄 처리 작업을 제출하는 것이 더 효율적입니다.
+사용자로부터 RestrictedAnonymous 모임 정책을 제거하려면 적은 수의 사용자(예: 100명 미만)가 있는 경우 [Grant-CSTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet을 사용할 수 있습니다. 많은 수의 사용자(예: 100명 이상의 사용자)가 있는 경우  [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet을 사용하여 일괄 처리 작업을 제출하는 것이 더 효율적입니다.
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>Grant-CsTeamsMeeting Policy cmdlet 사용
 
@@ -84,7 +84,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 #### <a name="get-the-status-of-the-batch-assignment"></a>일괄 처리 할당의 상태 확인
 
-각 일괄 처리 할당은 작업 ID를 반환합니다. 작업 ID는 할당의 진행률 및 상태를 추적하고 발생할 수 있는 모든 실패를 식별하는 데 사용할 수 있습니다. 예를 들어 다음을 실행합니다.
+각 일괄 처리 할당은 작업 ID를 반환합니다. 이 ID는 할당의 진행률 및 상태를 추적하고 발생할 수 있는 모든 실패를 식별하는 데 사용할 수 있습니다. 예를 들어 다음을 실행합니다.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454ed6115
