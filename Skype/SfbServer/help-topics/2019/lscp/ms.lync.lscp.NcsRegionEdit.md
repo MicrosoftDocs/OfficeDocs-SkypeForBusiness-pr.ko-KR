@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824718"
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="7c85d-104">네트워크 지역 구성: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="7c85d-104">Configure a Network Region: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="31adb-104">네트워크 지역 구성: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="31adb-104">Configure a Network Region: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="7c85d-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="7c85d-105">What do you want to do?</span></span> <span data-ttu-id="7c85d-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="7c85d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="31adb-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="31adb-105">What do you want to do?</span></span> <span data-ttu-id="31adb-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="31adb-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="7c85d-107">네트워크 지역 구성</span><span class="sxs-lookup"><span data-stu-id="7c85d-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="31adb-107">네트워크 지역 구성</span><span class="sxs-lookup"><span data-stu-id="31adb-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
 
 

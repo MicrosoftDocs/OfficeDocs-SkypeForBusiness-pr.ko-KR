@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824688"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="ae8f9-104">네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="ae8f9-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="5fcae-104">네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="5fcae-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="ae8f9-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="ae8f9-105">What do you want to do?</span></span> <span data-ttu-id="ae8f9-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="ae8f9-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5fcae-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="5fcae-105">What do you want to do?</span></span> <span data-ttu-id="5fcae-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="5fcae-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="ae8f9-107">네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="ae8f9-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="5fcae-107">네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="5fcae-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 

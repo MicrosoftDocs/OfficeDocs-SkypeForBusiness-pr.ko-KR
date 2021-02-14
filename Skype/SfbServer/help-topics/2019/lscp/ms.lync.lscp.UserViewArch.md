@@ -22,13 +22,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824568"
 ---
-# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="c7029-104">사용자: 보관 정책 보기 또는 구성</span><span class="sxs-lookup"><span data-stu-id="c7029-104">Users: View or Configure Archiving Policy</span></span>
+# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="dddac-104">사용자: 보관 정책 보기 또는 구성</span><span class="sxs-lookup"><span data-stu-id="dddac-104">Users: View or Configure Archiving Policy</span></span>
 
-<span data-ttu-id="c7029-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="c7029-105">What do you want to do?</span></span> <span data-ttu-id="c7029-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c7029-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="dddac-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="dddac-105">What do you want to do?</span></span> <span data-ttu-id="dddac-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="dddac-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="c7029-107">사용자별 보관 정책 할당</span><span class="sxs-lookup"><span data-stu-id="c7029-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="dddac-107">사용자별 보관 정책 할당</span><span class="sxs-lookup"><span data-stu-id="dddac-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="c7029-108">사용자 또는 사용자 그룹에 보관 정책 적용</span><span class="sxs-lookup"><span data-stu-id="c7029-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [<span data-ttu-id="dddac-108">사용자 또는 사용자 그룹에 보관 정책 적용</span><span class="sxs-lookup"><span data-stu-id="dddac-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
 
 
 

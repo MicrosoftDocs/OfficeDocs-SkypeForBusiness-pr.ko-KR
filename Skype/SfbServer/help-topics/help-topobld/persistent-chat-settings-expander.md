@@ -21,6 +21,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823798"
 ---
-# <a name="persistent-chat-settings-expander"></a><span data-ttu-id="180da-102">영구 채팅 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="180da-102">Persistent Chat Settings Expander</span></span>
+# <a name="persistent-chat-settings-expander"></a><span data-ttu-id="01d09-102">영구 채팅 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="01d09-102">Persistent Chat Settings Expander</span></span>
  
 

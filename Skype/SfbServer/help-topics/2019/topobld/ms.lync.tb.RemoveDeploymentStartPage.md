@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49822088"
 ---
-# <a name="remove-deployment-introduction"></a><span data-ttu-id="de3a3-105">배포 제거 소개</span><span class="sxs-lookup"><span data-stu-id="de3a3-105">Remove Deployment Introduction</span></span>
+# <a name="remove-deployment-introduction"></a><span data-ttu-id="9cdcd-105">배포 제거 소개</span><span class="sxs-lookup"><span data-stu-id="9cdcd-105">Remove Deployment Introduction</span></span>
  
-<span data-ttu-id="de3a3-p102">전체 배포의 서비스를 해제하려는 경우에만 **배포 제거 마법사** 를 실행합니다. 이 마법사는 단일 프런트 엔드 서버로 구성된 빈 토폴로지를 만듭니다. 이 마법사를 실행하여 빈 토폴로지를 게시한 후에는 원래 토폴로지로 되돌릴 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="de3a3-p102">Run the **Remove Deployment Wizard** only if you want to decommission your entire deployment. This wizard creates an empty topology that consists of a single Front End Server. After you run this wizard and publish the empty topology, you cannot revert to your original topology.</span></span>
+<span data-ttu-id="9cdcd-p102">전체 배포의 서비스를 해제하려는 경우에만 **배포 제거 마법사** 를 실행합니다. 이 마법사는 단일 프런트 엔드 서버로 구성된 빈 토폴로지를 만듭니다. 이 마법사를 실행하여 빈 토폴로지를 게시한 후에는 원래 토폴로지로 되돌릴 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9cdcd-p102">Run the **Remove Deployment Wizard** only if you want to decommission your entire deployment. This wizard creates an empty topology that consists of a single Front End Server. After you run this wizard and publish the empty topology, you cannot revert to your original topology.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="de3a3-109">**다음** 을 클릭하기 전에 마법사의 첫 번째 페이지에 지정된 대로 모든 비활성 컴퓨터를 제거하고 통합 통신의 모든 사용자 및 끝점을 사용하지 않도록 설정하며 모든 전화 회의 디렉터리를 제거해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="de3a3-109">Before you click **Next**, be sure to remove any inactive computers, disable all users and endpoints from unified communications, and remove all conference directories as specified on the first page of the wizard.</span></span> 
+> <span data-ttu-id="9cdcd-109">**다음** 을 클릭하기 전에 마법사의 첫 번째 페이지에 지정된 대로 모든 비활성 컴퓨터를 제거하고 통합 통신의 모든 사용자 및 끝점을 사용하지 않도록 설정하며 모든 전화 회의 디렉터리를 제거해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9cdcd-109">Before you click **Next**, be sure to remove any inactive computers, disable all users and endpoints from unified communications, and remove all conference directories as specified on the first page of the wizard.</span></span> 
   
 

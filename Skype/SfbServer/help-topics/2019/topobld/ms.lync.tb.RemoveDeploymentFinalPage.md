@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49822108"
 ---
-# <a name="remove-deployment"></a><span data-ttu-id="ebd2f-103">배포 제거</span><span class="sxs-lookup"><span data-stu-id="ebd2f-103">Remove Deployment</span></span>
+# <a name="remove-deployment"></a><span data-ttu-id="ca480-103">배포 제거</span><span class="sxs-lookup"><span data-stu-id="ca480-103">Remove Deployment</span></span>
  
-<span data-ttu-id="ebd2f-104">**완료를** 클릭하여 전체 배포를 해제하는 첫 번째 단계로 빈 토폴로지 만들기</span><span class="sxs-lookup"><span data-stu-id="ebd2f-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
+<span data-ttu-id="ca480-104">**완료를** 클릭하여 전체 배포를 해제하는 첫 번째 단계로 빈 토폴로지 만들기</span><span class="sxs-lookup"><span data-stu-id="ca480-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="ebd2f-105">이 단계는 실행 취소할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ebd2f-105">You cannot undo this step.</span></span> 
+> <span data-ttu-id="ca480-105">이 단계는 실행 취소할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ca480-105">You cannot undo this step.</span></span> 
   
 

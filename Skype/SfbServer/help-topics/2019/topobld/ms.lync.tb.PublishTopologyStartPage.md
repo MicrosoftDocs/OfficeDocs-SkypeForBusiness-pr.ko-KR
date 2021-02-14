@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49822168"
 ---
-# <a name="publish-topology"></a><span data-ttu-id="3aa43-106">토폴로지 게시</span><span class="sxs-lookup"><span data-stu-id="3aa43-106">Publish Topology</span></span>
+# <a name="publish-topology"></a><span data-ttu-id="3d933-106">토폴로지 게시</span><span class="sxs-lookup"><span data-stu-id="3d933-106">Publish Topology</span></span>
  
-<span data-ttu-id="3aa43-p102">게시 프로세스 시작 시 **토폴로지 게시** 페이지가 표시됩니다. 계속하기 전에 나열된 작업을 살펴보고 완료되었는지 확인합니다. 계속할 준비가 되면 **다음** 을 클릭합니다. 게시 프로세스를 끝내야 할 경우 **취소** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3aa43-p102">The **Publish the topology** page is displayed when you begin the publish process. Read and confirm that the tasks listed are complete before you proceed. When you are ready to proceed, click **Next**. If you must close out of the publishing process, click **Cancel**.</span></span>
+<span data-ttu-id="3d933-p102">게시 프로세스 시작 시 **토폴로지 게시** 페이지가 표시됩니다. 계속하기 전에 나열된 작업을 살펴보고 완료되었는지 확인합니다. 계속할 준비가 되면 **다음** 을 클릭합니다. 게시 프로세스를 끝내야 할 경우 **취소** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3d933-p102">The **Publish the topology** page is displayed when you begin the publish process. Read and confirm that the tasks listed are complete before you proceed. When you are ready to proceed, click **Next**. If you must close out of the publishing process, click **Cancel**.</span></span>
   
 

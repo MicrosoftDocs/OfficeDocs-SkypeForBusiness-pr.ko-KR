@@ -22,13 +22,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824528"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="16833-104">변환 규칙: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="16833-104">Translation Rule: Create New or Edit Existing</span></span>
+# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="c594c-104">변환 규칙: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="c594c-104">Translation Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="16833-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="16833-105">What do you want to do?</span></span> <span data-ttu-id="16833-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="16833-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c594c-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="c594c-105">What do you want to do?</span></span> <span data-ttu-id="c594c-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c594c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="16833-107">비즈니스용 Skype 서버에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="16833-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="c594c-107">비즈니스용 Skype 서버에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="c594c-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="16833-108">수동으로 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="16833-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="c594c-108">수동으로 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="c594c-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

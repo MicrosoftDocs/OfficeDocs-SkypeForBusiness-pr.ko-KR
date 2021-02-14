@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824778"
 ---
-# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a><span data-ttu-id="bc951-104">대역폭 정책 프로필: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="bc951-104">Bandwidth Policy Profile: Create New or Edit Existing</span></span>
+# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a><span data-ttu-id="c6477-104">대역폭 정책 프로필: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="c6477-104">Bandwidth Policy Profile: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="bc951-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="bc951-105">What do you want to do?</span></span> <span data-ttu-id="bc951-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="bc951-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c6477-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="c6477-105">What do you want to do?</span></span> <span data-ttu-id="c6477-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c6477-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="bc951-107">대역폭 정책 프로필 구성</span><span class="sxs-lookup"><span data-stu-id="bc951-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [<span data-ttu-id="c6477-107">대역폭 정책 프로필 구성</span><span class="sxs-lookup"><span data-stu-id="c6477-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
 
 
 

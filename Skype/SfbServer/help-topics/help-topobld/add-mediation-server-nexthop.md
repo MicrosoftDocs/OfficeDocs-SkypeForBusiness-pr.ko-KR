@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823968"
 ---
-# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="7f980-104">중재 서버 NextHop 추가</span><span class="sxs-lookup"><span data-stu-id="7f980-104">Add Mediation Server NextHop</span></span>
+# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="a0e67-104">중재 서버 NextHop 추가</span><span class="sxs-lookup"><span data-stu-id="a0e67-104">Add Mediation Server NextHop</span></span>
  
-<span data-ttu-id="7f980-105">정의할 중재 서버에 대한 다음 홉을 정의하려면 다음  홉 풀 드롭다운 목록에서 중재 서버의 다음 홉으로 사용할 Enterprise Edition 서버 또는 Standard Edition 서버를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="7f980-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="7f980-106">계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="7f980-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="a0e67-105">정의할 중재 서버에 대한 다음 홉을 정의하려면 다음  홉 풀 드롭다운 목록에서 중재 서버의 다음 홉으로 사용할 Enterprise Edition 서버 또는 Standard Edition 서버를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a0e67-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="a0e67-106">계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a0e67-106">Click **Next** to continue.</span></span>
   
 

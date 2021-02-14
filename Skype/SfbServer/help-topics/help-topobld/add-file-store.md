@@ -22,12 +22,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824268"
 ---
-# <a name="add-file-store"></a><span data-ttu-id="e8d08-103">파일 저장소 추가</span><span class="sxs-lookup"><span data-stu-id="e8d08-103">Add File Store</span></span>
+# <a name="add-file-store"></a><span data-ttu-id="b5d28-103">파일 저장소 추가</span><span class="sxs-lookup"><span data-stu-id="b5d28-103">Add File Store</span></span>
  
-<span data-ttu-id="e8d08-104">새 파일 저장소를 정의하려면 다음을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="e8d08-104">To define a new file store, specify the following:</span></span>
+<span data-ttu-id="b5d28-104">새 파일 저장소를 정의하려면 다음을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="b5d28-104">To define a new file store, specify the following:</span></span>
   
-- <span data-ttu-id="e8d08-105">새 파일 저장소를 호스팅하는 서버의 FQDN(정규화된 도메인 이름).</span><span class="sxs-lookup"><span data-stu-id="e8d08-105">The fully qualified domain name (FQDN) of the server that will host the new file store.</span></span> <span data-ttu-id="e8d08-106">토폴로지 게시 전에 서버의 FQDN이 DNS(Domain Name System)에 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e8d08-106">The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.</span></span>
+- <span data-ttu-id="b5d28-105">새 파일 저장소를 호스팅하는 서버의 FQDN(정규화된 도메인 이름).</span><span class="sxs-lookup"><span data-stu-id="b5d28-105">The fully qualified domain name (FQDN) of the server that will host the new file store.</span></span> <span data-ttu-id="b5d28-106">토폴로지 게시 전에 서버의 FQDN이 DNS(Domain Name System)에 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5d28-106">The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.</span></span>
     
-- <span data-ttu-id="e8d08-p102">호스트 서버에 있는 파일 공유 이름. 파일 공유는 토폴로지를 게시하기 전에 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e8d08-p102">The name of the file share on the host server. The file share must exist before you publish the topology.</span></span> 
+- <span data-ttu-id="b5d28-p102">호스트 서버에 있는 파일 공유 이름. 파일 공유는 토폴로지를 게시하기 전에 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5d28-p102">The name of the file share on the host server. The file share must exist before you publish the topology.</span></span> 
     
 

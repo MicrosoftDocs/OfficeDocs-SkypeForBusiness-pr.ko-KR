@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824488"
 ---
-# <a name="legacy-merge-next-hop"></a><span data-ttu-id="2e5df-104">레거시 병합 다음 홉</span><span class="sxs-lookup"><span data-stu-id="2e5df-104">Legacy Merge Next Hop</span></span>
+# <a name="legacy-merge-next-hop"></a><span data-ttu-id="f5478-104">레거시 병합 다음 홉</span><span class="sxs-lookup"><span data-stu-id="f5478-104">Legacy Merge Next Hop</span></span>
  
-<span data-ttu-id="2e5df-p102">**다음 홉 FQDN** 은 레거시 에지 서버가 내부 트래픽을 라우팅하는 다음 홉 서버를 식별합니다. 이 에지 서버가 내부 트래픽을 라우팅하는 다음 홉 서버의 FQDN(정규화된 도메인 이름)을 입력한 후 다음 홉 서버가 **프런트 엔드 풀** 인지 아니면 **디렉터** 인지를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2e5df-p102">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic. Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
+<span data-ttu-id="f5478-p102">**다음 홉 FQDN** 은 레거시 에지 서버가 내부 트래픽을 라우팅하는 다음 홉 서버를 식별합니다. 이 에지 서버가 내부 트래픽을 라우팅하는 다음 홉 서버의 FQDN(정규화된 도메인 이름)을 입력한 후 다음 홉 서버가 **프런트 엔드 풀** 인지 아니면 **디렉터** 인지를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f5478-p102">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic. Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
   
 
