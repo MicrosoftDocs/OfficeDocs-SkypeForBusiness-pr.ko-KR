@@ -1,5 +1,5 @@
 ---
-title: 푸에르토리코에서의 가용성
+title: 푸에르토리코의 가용성
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 비즈니스용 Skype 및 Microsoft 팀에서 사용할 수 있는 Microsoft 365 및 Office 365 서비스입니다.
+description: 다음은 푸에르토리코에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
 ms.openlocfilehash: e18e6d73f61bd3c3178dff4823bd941c01f31875
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -32,11 +32,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44229286"
 ---
-# <a name="availability-in-puerto-rico"></a>푸에르토리코에서의 가용성
+# <a name="availability-in-puerto-rico"></a>푸에르토리코의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 비즈니스용 Skype 및 Microsoft 팀에서 사용할 수 있는 Microsoft 365 및 Office 365 서비스입니다.
+다음은 푸에르토리코에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -44,15 +44,15 @@ ms.locfileid: "44229286"
 |:-----|:-----|
 |음성 회의를 구매할 수 있나요?  <br/> |예  <br/> |
 |전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |아니요  <br/> |
-|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |대화 가능  <br/> |
+|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |사용 가능  <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |전화 시스템을 구매할 수 있나요?  <br/> |예  <br/> |
-| 자동 전화 교환 <br/> |대화 가능  <br/> |
-|통화 큐  <br/> |대화 가능  <br/> |
+| 자동 전화 교환 <br/> |사용 가능  <br/> |
+|통화 큐  <br/> |사용 가능  <br/> |
 |음성 메일  <br/> |사용 가능  <br/> |
    
 ## <a name="calling-plans"></a>통화 플랜
@@ -60,15 +60,15 @@ ms.locfileid: "44229286"
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |통화 플랜을 구매할 수 있나요?  <br/> |예  <br/> |
-|통화 플랜에서 사용 가능한 시간(분)  <br/> |3000 국내 통화 또는 600 국제 통화 (일정 한 달에 먼저 도달) 미국 국내 통화에는 모든 50 미국 주 및 푸에르토리코 통화가 포함 됩니다. 미국 및/또는 푸에르토리코의 라이선스 사용 위치로 지정 된 사용자는 같은 시간 단위를 공유 합니다.  <br/> |
-|프리미엄 번호로 아웃 바운드 통화를 할 수 있습니까? <br/> | 지금은 지원 되지 않습니다. <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> | [이](users-can-make-outbound-calls-to-these-countries-and-regions.md)를 포함 하 여 196 개국.  <br/> |
+|통화 플랜에서 사용 가능한 시간(분)  <br/> |국내 3000분 또는 국제 600분(월별 첫 번째에 도달) 미국 국내 통화에는 미국 50개 주 및 푸에르토리코에 대한 통화가 모두 포함됩니다. 미국 및/또는 푸에르토리코의 라이선스 사용 위치가 할당된 사용자는 동일한 시간(분) 풀을 공유합니다.  <br/> |
+|프리미엄 번호로 아웃바운드 전화를 걸 수 있나요? <br/> | 현재는 지원되지 않습니다. <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> | 이러한 국가를 포함하여 196개 [](users-can-make-outbound-calls-to-these-countries-and-regions.md)국가에  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |San Juan  <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |산 후안  <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    

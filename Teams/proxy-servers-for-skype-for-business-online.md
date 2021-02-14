@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Optimization
 - seo-marvel-apr2020
-description: 이 문서에서는 Microsoft 팀 또는 비즈니스용 Skype에서 프록시 서버를 사용 하는 방법에 대 한 정보를 제공 합니다.
+description: 이 문서에서는 Microsoft Teams 또는 비즈니스용 Skype에서 프록시 서버를 사용하는 방법을 제공합니다.
 ms.openlocfilehash: 3d8e2e067cce4214f51ee54ec08bafa1f4100770
 ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
@@ -31,19 +31,19 @@ ms.locfileid: "44665960"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 또는 비즈니스용 Skype Online 용 프록시 서버
 
-이 문서에서는 팀 또는 비즈니스용 Skype에서 프록시 서버를 사용 하는 방법에 대 한 지침을 제공 합니다.
+이 문서에서는 Teams 또는 비즈니스용 Skype에서 프록시 서버를 사용하는 방법에 대한 지침을 제공합니다.
   
-## <a name="not-using-a-proxy-server-is-recommended"></a>프록시 서버를 사용 하지 않는 것이 좋습니다.
+## <a name="not-using-a-proxy-server-is-recommended"></a>프록시 서버를 사용하지 않는 것이 좋습니다.
 
-프록시를 통해 팀 또는 비즈니스용 Skype 트래픽을 제공 하는 경우, Microsoft에서 프록시를 우회 하는 것이 좋습니다. 프록시는 트래픽이 이미 암호화 되어 있기 때문에 비즈니스용 Skype를 더 안전 하 게 보호할 수 없습니다.
+Proxies를 통해 Teams 또는 비즈니스용 Skype 트래픽의 경우, Microsoft는 검색을 우회하는 것이 좋습니다. 트래픽이 이미 암호화되어 있기 때문에 Proxies는 Teams 또는 비즈니스용 Skype를 더 안전하게 보호하지 않습니다.
   
-프록시로 인해 문제가 발생할 수 있습니다. 성능 관련 문제는 대기 시간 및 패킷 손실을 통해 환경에 도입 될 수 있습니다. 이러한 문제가 발생 하면 이러한 팀 또는 비즈니스용 Skype 시나리오에서 실시간 스트림이 필수적인 오디오 및 비디오로 인 한 환경이 저하 됩니다.
+또한 프록시가 있는 경우 문제가 발생할 수 있습니다. 성능 관련 문제는 대기 시간 및 패킷 손실을 통해 환경에 도입될 수 있습니다. 이와 같은 문제는 실시간 스트림이 필수인 오디오 및 비디오와 같은 Teams 또는 비즈니스용 Skype 시나리오에서 부정적인 환경이 됩니다.
   
-## <a name="if-you-need-to-use-a-proxy-server"></a>프록시 서버를 사용 해야 하는 경우
+## <a name="if-you-need-to-use-a-proxy-server"></a>프록시 서버를 사용해야 하는 경우
 
-일부 조직에서는 팀 또는 비즈니스용 Skype 트래픽에 대 한 프록시를 우회 하는 옵션을 사용할 수 없습니다. 이러한 경우에는 위에서 설명한 문제를 염두에 두어야 합니다.
+일부 조직에서는 Teams 또는 비즈니스용 Skype 트래픽에 대한 프록시를 무시할 수 있는 옵션이 없습니다. 이 경우 위에서 언급한 문제를 염두에 두어야 합니다.
   
-Microsoft는 또한 다음을 적극 권장 합니다.
+또한 Microsoft는 권장 사항:
   
 - 외부 DNS 확인 사용
     
@@ -51,10 +51,10 @@ Microsoft는 또한 다음을 적극 권장 합니다.
     
 - UDP 트래픽 허용
     
-- 네트워킹 지침의 다른 권장 사항에 따라 [팀에 맞게 조직의 네트워크를 준비](prepare-network.md) 합니다.
+- 네트워킹 지침의 다른 권장 사항: [Teams에](prepare-network.md) 대한 조직의 네트워크 준비
   
     
-이 지침을 팔 로우 하면 잠재적인 문제를 최소화할 수 있습니다.
+이 지침을 따라 잠재적인 문제를 최소화해야 합니다.
   
 ## <a name="related-topics"></a>관련 항목
 

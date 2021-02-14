@@ -1,5 +1,5 @@
 ---
-title: PSTN을 사용한 하이브리드 환경의 사용자 계정
+title: PSTN을 통해 하이브리드 환경의 사용자 계정
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 사용자 만들기와 지원 또는 지원 되지 않는 조합에 대 한 다양 한 조합에 대해 알아봅니다.
+description: 사용자 만들기의 다양한 조합과 지원되거나 지원되지 않는 조합에 대해 자세히 배워야 합니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: a7b41eb474d7574aa23b5fa195219794ed715424
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
@@ -26,48 +26,48 @@ ms.locfileid: "44690874"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
 
-## <a name="about-the-environment"></a>환경에 대 한 정보
+## <a name="about-the-environment"></a>환경 정보를
 
-이 문서는 다음이 모두 있는 환경에 적용 됩니다. 
+이 문서는 다음이 모두 있는 환경에 적용됩니다. 
  
-- 비즈니스용 Skype 서버 또는 Lync Server 2013 
+- 비즈니스용 Skype Server 또는 Lync Server 2013 
 - Microsoft 365 또는 Office 365 조직 
-- 비즈니스용 Skype 서버와 비즈니스용 Skype Online 또는 Microsoft 팀 테 넌 트 간에 하이브리드 연결이 구성 되었습니다. 
-- 클라이언트와의 PSTN (공개 교환 네트워크) 전화를 걸고 받을 수 있는 사용자
+- 비즈니스용 Skype Server와 비즈니스용 Skype Online 또는 Microsoft Teams 테넌트 간에 구성된 하이브리드 연결 
+- 클라이언트와의 PSTN(Public Switched Telephone Network) 통화를 걸고 받을 수 있는 사용자
 
  
-다른 환경 (예: 비즈니스용 Skype 클라우드 커넥터 에디션)이 있는 경우 하이브리드이 구성 되지 않았거나 사용자가 PSTN 호출을 사용할 수 있도록 설정 되지 않은 경우 지원 가능 행렬이 달라 집니다.  
+다른 환경(예: 비즈니스용 Skype Cloud Connector Edition)이 있는 경우 하이브리드가 구성되지 않은 경우 또는 사용자가 PSTN 통화에 대해 사용하도록 설정되지 않은 경우 지원 가능성 매트릭스가 다릅니다.  
 
-## <a name="about-the-combinations-and-the-supportability-statement"></a>조합 및 지원 가능성 문에 대 한 정보  
+## <a name="about-the-combinations-and-the-supportability-statement"></a>조합 및 지원 가능성 설명  
 
-PSTN 연결을 사용 하는 비즈니스용 Skype 하이브리드 환경에서는 사용자 서비스가 제공 되는 위치와 사용자 계정이 어떻게 프로 비전 되 고 관리 되는지에 대 한 유연성을 제공 합니다. 그러나 여러 옵션을 선택 하면 지원 되지 않는 조합이 생성 될 것입니다. 이 섹션에서는 사용자 만들기의 다양 한 조합에 대해 설명 하 고 그 뒤에 지원 문을 사용 합니다.
+PSTN 연결이 있는 비즈니스용 Skype 하이브리드 환경은 사용자 서비스가 제공되는 위치 및 사용자 계정이 프로비전 및 관리되는 방식에 대한 유연성을 제공합니다. 하지만 옵션이 풍부하면 일부 비지원 조합이 생성될 수 있습니다. 이 섹션에서는 사용자 만들기의 다양한 조합과 지원 가능성 설명을 설명합니다.
 
 
-**용어**   
-- **엔터프라이즈 음성:** 온-프레미스 비즈니스용 Skype 사용자 계정을 사용 하는 사용자를 위해 PSTN에 대 한 액세스를 제공 하는 옵션입니다. 온-프레미스 비즈니스용 Skype 중재 서버는 PSTN에 interconnectivity을 제공 합니다.  
-- **하이브리드 음성 연결:** 비즈니스용 Skype Online 계정이 있는 사용자의 PSTN에 대 한 액세스를 제공 하는 옵션입니다. 온-프레미스 비즈니스용 Skype 중재 서버는 PSTN에 interconnectivity을 제공 합니다. 
-- **다이렉트 라우팅:** Microsoft 팀 클라이언트를 사용 하 여 온라인 비즈니스용 Skype 계정, Microsoft 팀 라이선스가 있는 사용자에 게 PSTN에 대 한 액세스를 제공 하는 옵션입니다. SBC는 microsoft의 온-프레미스 소프트웨어를 사용할 필요 없이 Microsoft 365 또는 Office 365의 SIP 프록시에 연결 되어 있습니다.
+**정의:**   
+- **Enterprise Voice:** 비즈니스용 Skype 사용자 계정이 있는 사용자를 위해 PSTN에 대한 액세스를 제공하는 옵션입니다. 비즈니스용 Skype 중재 서버는 PSTN에 대한 상호 연결 기능을 제공합니다.  
+- **하이브리드 음성 연결:** 비즈니스용 Skype Online 계정을 사용하는 사용자를 위해 PSTN에 대한 액세스를 제공하는 옵션입니다. 비즈니스용 Skype 중재 서버는 PSTN에 대한 상호 연결 기능을 제공합니다. 
+- **직접 라우팅:** Microsoft Teams 클라이언트를 사용하여 온라인 비즈니스용 Skype 계정, Microsoft Teams 라이선스가 있는 사용자를 위해 PSTN에 대한 액세스를 제공하는 옵션입니다. SBC는 Microsoft의 모든 On-프레미스 소프트웨어 없이도 Microsoft 365 또는 Office 365의 SIP 프록시에 연결됩니다.
 
   
-**환경에서 지원 되는 조합은 다음과 같습니다.**
-- **시나리오 1:** 비즈니스용 Skype 온-프레미스의 사용자 계정이 며 엔터프라이즈 음성이 포함 된 비즈니스용 Skype 클라이언트 사용
-- **시나리오 2:** 비즈니스용 Skype online의 사용자 계정-하이브리드 음성 연결이 있는 비즈니스용 Skype 클라이언트 사용
-- **시나리오 3:** Microsoft 팀 라이선스를 사용 하 여 비즈니스용 Skype online의 사용자 계정이 팀 클라이언트를 사용할 수 있습니다.
+**환경은 다음 조합을 지원합니다.**
+- **시나리오 1:** 비즈니스용 Skype의 사용자 계정과 비즈니스용 Skype 클라이언트를 Enterprise Voice
+- **시나리오 2:** 비즈니스용 Skype의 사용자 계정으로, 하이브리드 음성 연결과 함께 비즈니스용 Skype 클라이언트를 사용하게 됩니다.
+- **시나리오 3:** Microsoft Teams 라이선스가 있는 비즈니스용 Skype의 사용자 계정 및 Teams 클라이언트 사용
  
-### <a name="supportability-matrix"></a>지원 가능성 행렬
+### <a name="supportability-matrix"></a>지원 가능성 매트릭스
 
 
 |**에서 만든 사용자 개체**  |**사용자의 비즈니스용 Skype 서비스 공급자**|**사용자의 클라이언트**|**음성 옵션**|**지원**|
 | ------------ | --------- | --------- | --------- | -------- |
-|온-프레미스 광고| 온-프레미스 |비즈니스용 Skype   | Enterprise Voice   |예|
-|온-프레미스 광고|온라인| 비즈니스용 Skype  | 하이브리드 음성 연결   |예 |
-|온-프레미스 광고|온라인 |Microsoft Teams |직접 라우팅  |예 |
-|**지원 되지 않는 조합**    | |         |         |      |
-|Azure AD| 온-프레미스/온라인 | 비즈니스용 Skype/Microsoft 팀|엔터프라이즈 음성/하이브리드 음성 연결/직접 라우팅  |아니요, 먼저 온-프레미스 광고에 사용자 개체를 만들어야 합니다. |
-|온-프레미스 광고  |온-프레미스| Microsoft Teams| 엔터프라이즈 음성/하이브리드 음성 연결/직접 라우팅   |아니요, Microsoft 팀 클라이언트는 온-프레미스 비즈니스용 Skype에서 지원 되지 않습니다. |     
-|온-프레미스 광고  |온라인 |비즈니스용 Skype  | 직접 라우팅  |아니요, 비즈니스용 Skype 클라이언트에서는 직접 라우팅이 지원 되지 않습니다.  |
+|프레미스 AD| 프레미스 |비즈니스용 Skype   | Enterprise Voice   |예|
+|프레미스 AD|온라인| 비즈니스용 Skype  | 하이브리드 음성 연결   |예 |
+|프레미스 AD|온라인 |Microsoft Teams |직접 라우팅  |예 |
+|**비지원 조합**    | |         |         |      |
+|Azure AD| On premises/online | 비즈니스용 Skype/Microsoft Teams|Enterprise Voice/하이브리드 음성 연결/직접 라우팅  |아니요, 사용자 개체는 먼저 On-프레미스 AD에서 만들어야 합니다. |
+|프레미스 AD  |프레미스| Microsoft Teams| Enterprise Voice/하이브리드 음성 연결/직접 라우팅   |아니요, Microsoft Teams 클라이언트는 비즈니스용 Skype에서 지원되지 않습니다. |     
+|프레미스 AD  |온라인 |비즈니스용 Skype  | 직접 라우팅  |아니요, 직접 라우팅은 비즈니스용 Skype 클라이언트에서 지원되지 않습니다.  |
 
 
-### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>PSTN이 있는 하이브리드 환경에 대 한 지원 가능성 문
+### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>PSTN을 통해 하이브리드 환경에 대한 지원 가능성 설명
 
-모든 사용자는 온-프레미스 광고에서 사용자 개체를 만들고 Azure AD Connect 도구를 사용 하 여 Azure AD와 동기화 **해야 합니다** . 사용자 개체가 하이브리드 구성의 Azure AD에서 직접 만들어진 경우 팀에서 비즈니스용 Skype를 사용 하도록 설정 하는 **것은 지원 되지 않습니다** . 팀에 게 직접 사용할 수 있는 신규 고용 같은 새 사용자의 경우, 사용자는 온-프레미스 비즈니스용 skype 관리 도구를 사용 하 여 비즈니스용 Skype를 사용 하도록 설정 해야 합니다. Enterprise Voice를 사용 하 여 온-프레미스 풀을 사용 하지 않고 비즈니스용 Skype 또는 팀에서 사용자를 만드는 **것은 지원 되지 않습니다**. 이에 대 한 자세한 내용은 [비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용 하 여 전화 시스템 계획](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)을 참조 하세요.
+모든 사용자의 경우 사용자  개체는 Azure AD Connect 도구를 사용하여 Azure AD에 동기화되어 있어야 합니다. 사용자 개체가 하이브리드 구성에서  Azure AD에서 직접 만들어진 경우 Teams/비즈니스용 Skype 사용자를 사용하도록 설정하는 것은 지원되지 않습니다. Teams에 대해 직접 활성화될 신입 직원과 같은 신규 사용자의 경우 사용자는 비즈니스용 Skype 관리 도구를 사용하여 비즈니스용 Skype를 사용하도록 설정해야 합니다. 온라인 비즈니스용 Skype 또는 Teams에서 사용자를 만들기 위해 먼저 사용자 계정이 있는 Enterprise Voice **지원되지 않습니다.** 이에 대한 자세한 내용은 비즈니스용 Skype Server에서 프레미스 PSTN 연결을 통해 휴대폰 시스템 [계획에 대해 살펴봐야 합니다.](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)

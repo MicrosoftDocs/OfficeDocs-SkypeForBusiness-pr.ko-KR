@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 모든 사용자를 한 번에 전환 하거나 단계별 접근 (권장)을 구현 하 여 Microsoft 팀의 전화 시스템 다이렉트 라우팅으로 미디어 바이패스를 구성 하는 방법에 대해 알아봅니다.
+description: 모든 사용자를 한에 전환하거나 단계적 접근 방식을 구현하여 Microsoft Teams에 대한 전화 시스템 직접 라우팅을 사용하여 미디어 우회를 구성하는 방법을 배워야 합니다(권장).
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
 ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
@@ -26,43 +26,43 @@ ms.locfileid: "44416898"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 구성
 
-직접 라우팅으로 미디어 바이패스를 구성 하기 전에 [다이렉트 라우팅이 미디어 바이패스에 대 한 계획](direct-routing-plan-media-bypass.md)을 확인 해야 합니다.
+직접 라우팅을 통해 미디어 우회를 구성하기 전에 직접 라우팅을 사용하는 미디어 우회에 대한 계획을 [읽어야 합니다.](direct-routing-plan-media-bypass.md)
 
-미디어 바이패스를 설정 하려면 다음 조건을 충족 해야 합니다.
+미디어 우회를 설정하려면 다음 조건을 충족해야 합니다.
 
-1.    선택 사항에 대 한 SBC (세션 경계 컨트롤러) 공급 업체가 미디어 바이패스를 지원 하는지 확인 하 고 SBC에서 bypass를 구성 하는 방법에 대 한 지침을 제공 합니다. 사용 중인 SBCs에 대 한 자세한 내용은 인증 페이지를 참조 하 고 미디어 바이패스에 대 한 지침을 제공 하세요.
+1.    선택한 SBC(세션 테두리 컨트롤러) 공급업체가 미디어 우회를 지원하고 SBC에서 우회를 구성하는 방법에 대한 지침을 제공해야 합니다. SBC에 대해 알아보고 미디어 우회를 지원하는 SBC 및 지침은 인증 페이지를 참조하세요.
 
-2.    **CSOnlinePSTNGateway-id <sbc_FQDN>-MediaBypass $true**를 사용 하 여 트렁크에서 미디어 바이패스를 설정 해야 합니다.
+2.    **Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass**$true.
 
-3.    필요한 포트가 열려 있는지 확인 합니다. 
+3.    필요한 포트가 열립니다. 
 
 
-## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>우회 되지 않은 trunks에서 우회 가능 trunks 마이그레이션
+## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>무시되지 않은 트렁크에서 우회 사용 트렁크로 마이그레이션
 
-모든 사용자를 한 번에 전환 하거나 단계별 접근을 구현할 수 있습니다 (권장).
+모든 사용자를 한에 전환하거나 단계적 접근 방식을 구현할 수 있습니다(권장).
 
-- **모든 사용자를 한 번에 전환 합니다.** 모든 조건이 충족 되는 경우 우회 모드를 켤 수 있습니다. 그러나 모든 프로덕션 사용자가 동시에 전환 됩니다. Trunks 및 포트를 구성할 때 초기에 몇 가지 문제가 발생할 수 있으므로 프로덕션 사용자 환경에 영향을 미칠 수 있습니다. 
+- **모든 사용자를 한 번씩 전환합니다.** 모든 조건이 충족된 경우 우회 모드를 켜면 됩니다. 그러나 모든 프로덕션 사용자는 동시에 전환됩니다. 트렁크 및 포트를 구성할 때 처음에 몇 가지 문제가 있을 수 있기 때문에 프로덕션 사용자 환경이 영향을 받을 수 있습니다. 
 
-- **단계적 접근. (권장)**.  동일한 SBC에 대해 다른 포트를 사용 하 여 새 트렁크를 만들고 테스트 한 다음 사용자가 새 트렁크를 가리키도록 온라인 음성 라우팅 정책을 변경 합니다. 
+- **단계적 접근 방식입니다. (권장)**.  동일한 SBC(다른 포트 사용)에 대한 새 트렁크를 만들고, 테스트하고, 사용자가 새 트렁크를 지점으로 하여 온라인 음성 라우팅 정책을 변경합니다. 
 
-  이 방법을 사용 하는 것이 좋습니다. 전환 및 지속적으로 중단 되는 사용자 환경이 가능 합니다. 이 접근 방법에는 SBC, 새 FQDN 이름, 방화벽 구성 등의 구성이 필요 합니다. 참고 인증서가 두 trunks를 모두 지원 하는지 확인 해야 합니다. SAN에는 두 개의 이름 (**sbc1.contoso.com** 및 **sbc2.contoso.com**)이 있거나 와일드 카드 인증서가 있어야 합니다.
+  이는 더 원활한 전환 및 사용자 환경을 위한 것이기 때문에 권장되는 접근 방식입니다. 이 방법을 사용하려면 SBC 구성, 새 FQDN 이름 및 방화벽 구성이 필요합니다. 인증서가 두 트렁크를 모두 지원하는지 확인해야 합니다. SAN에서 두 개의 이름(sbc1.contoso.com 및 sbc2.contoso.com)이 필요하거나 와일드카드 **인증서가** 필요합니다.
 
-![무시할 수 없는 trunks에서 bypass trunks)로 마이그레이션](media/direct-routing-media-bypass-8.png)
+![무시되지 않은 트렁크에서 우회 사용 트렁크로 마이그레이션)](media/direct-routing-media-bypass-8.png)
 
-Trunks를 구성 하 고 마이그레이션을 수행 하는 방법에 대 한 지침은 SBC 공급 업체의 설명서를 참조 하세요.
+트렁크를 구성하고 마이그레이션을 수행하는 방법에 대한 지침은 SBC 공급업체의 설명서를 참조하세요.
 
-- [오디오 코드 배포 설명서](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [Oracle 배포 문서](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
-- [리본 커뮤니케이션 배포 문서](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [TE-시스템 (anynode) 배포 문서](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [AudioCodes 배포 설명서](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle 배포 설명서](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [리본 메뉴 통신 배포 설명서](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [TE-Systems(anynode) 배포 설명서](https://www.anynode.de/anynode-and-microsoft-teams/)
 
-직접 라우팅으로 인증 된 SBCs (세션 경계 컨트롤러) 목록은 [직접 라우팅에 대해 인증 된 세션 경계선 컨트롤러 목록을](direct-routing-border-controllers.md)참조 하세요.
+직접 라우팅을 위해 인증된 SBC(세션 테두리 컨트롤러) 목록은 직접 라우팅에 대해 인증된 세션 브로더 컨트롤러 [목록을 참조하세요.](direct-routing-border-controllers.md)
 
 
 
 ## <a name="related-topics"></a>관련 항목
 
-[직접 라우팅으로 미디어 바이패스 계획](direct-routing-plan-media-bypass.md)
+[직접 라우팅을 통해 미디어 우회 계획](direct-routing-plan-media-bypass.md)
 
 
 

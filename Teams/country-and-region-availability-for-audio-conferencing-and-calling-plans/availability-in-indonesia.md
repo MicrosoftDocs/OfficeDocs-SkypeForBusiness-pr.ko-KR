@@ -1,5 +1,5 @@
 ---
-title: 인도네시아의 사용 가능 여부
+title: 인도네시아의 가용성
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 비즈니스용 Skype 용 Microsoft 365 및 Office 365 서비스 이며, Microsoft 팀은 인도네시아에 대해 사용할 수 있습니다.
+description: 다음은 인도네시아에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
 ms.openlocfilehash: 632c39d739deed7d4745485b7d005e0c5b564140
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -32,11 +32,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44231137"
 ---
-# <a name="availability-in-indonesia"></a>인도네시아의 사용 가능 여부
+# <a name="availability-in-indonesia"></a>인도네시아의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 비즈니스용 Skype 용 Microsoft 365 및 Office 365 서비스 이며, Microsoft 팀은 인도네시아에 대해 사용할 수 있습니다.
+다음은 인도네시아에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -44,15 +44,15 @@ ms.locfileid: "44231137"
 |:-----|:-----|
 |음성 회의를 구매할 수 있나요?  <br/> |예  <br/> |
 |전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |아니요  <br/> |
-|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |통신 크레딧이 필요 합니다.  <br/> |
+|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |통신 크레딧 필요  <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |전화 시스템을 구매할 수 있나요?  <br/> |예  <br/> |
-| 자동 전화 교환 <br/> |대화 가능  <br/> |
-|통화 큐  <br/> |대화 가능  <br/> |
+| 자동 전화 교환 <br/> |사용 가능  <br/> |
+|통화 큐  <br/> |사용 가능  <br/> |
 |음성 메일  <br/> |사용 가능  <br/> |
    
 ## <a name="calling-plans"></a>통화 플랜
@@ -69,7 +69,7 @@ ms.locfileid: "44231137"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |자카르타 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |자카르타(요청[시)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    

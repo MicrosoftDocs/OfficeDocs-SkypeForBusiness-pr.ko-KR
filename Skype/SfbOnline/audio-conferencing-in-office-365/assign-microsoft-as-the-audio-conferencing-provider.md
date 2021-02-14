@@ -21,7 +21,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 비즈니스용 Skype에 대 한 전화 접속 회의 공급자를 Microsoft에 할당 하는 방법에 대해 알아봅니다.
+description: 비즈니스용 Skype에 전화 접속 회의 공급자를 Microsoft에 할당하는 방법을 배정합니다.
 ms.openlocfilehash: 8ce128c2fa19668ed93c6ad387feecbee2e00a8d
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -31,66 +31,66 @@ ms.locfileid: "44164523"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
-비즈니스용 Skype 및 Microsoft 팀에서 Microsoft 365 또는 Office 365의 오디오 회의를 사용 하려면 조직의 사용자가 오디오 회의 라이선스를 할당 해야 합니다. 라이선스에 대 한 자세한 정보와 비용을 얻으려면 [Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365.md) 을 참조 하세요.
+비즈니스용 Skype 및 Microsoft Teams에서 Microsoft 365 또는 Office 365의 오디오 회의를 사용하려면 조직의 사용자에게 오디오 회의 라이선스가 할당되어 있습니다. 라이선스 및 비용에 대한 자세한 내용은 [Microsoft 365 또는 Office 365에서](try-or-purchase-audio-conferencing-in-office-365.md) 오디오 회의 시도 또는 구매를 참조하세요.
 
-Microsoft 오디오 회의는 모임 참가자가 조직의 모임에 참가할 때 사용할 수 있는 전화 접속 전화 번호, Pin 및 전화 회의 Id를 제공 합니다. 비즈니스용 Skype 또는 Microsoft 팀 모임을 예약 하거나 리드 하는 사용자에 게 Microsoft를 오디오 회의 공급자로 지정 하기만 하면 됩니다.
+Microsoft Audio Conferencing은 모임 참가자가 조직의 모임에 참가하는 데 사용할 수 있는 전화 접속 전화 번호, PI 및 회의 신분을 제공합니다. 비즈니스용 Skype 또는 Microsoft Teams 모임을 예약하거나 진행할 사용자에게만 Microsoft를 오디오 회의 공급자로 할당하면 됩니다.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![비즈니스용 Skype 로고를 표시 하는 아이콘](../images/sfb-logo-30x30.png) 비즈니스용 Skype 관리 센터 사용
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![비즈니스용 Skype 로고를 표시하는 아이콘](../images/sfb-logo-30x30.png) 비즈니스용 Skype 관리 센터 사용
 
-1. **Microsoft 팀 관리 센터** > **레거시 포털로**이동 합니다.
+1. Microsoft Teams 관리 **센터**  >  **레거시 포털로 이동하세요.**
     
-2. **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의**로 이동 합니다.
+2. 비즈니스용 Skype 관리 **센터의** 왼쪽 탐색 모음에서 **오디오 회의로 이동하세요.**
     
-3. **오디오 회의** 라이선스를 할당 했지만 오디오 회의 공급자로 Microsoft가 설정 되지 않았음을 알리는 배너가 표시 되는 경우 **여기를 클릭 하 여 이동**합니다. 배너가 표시 되지 않는 경우 **비즈니스용 Skype 관리 센터** 에서 **사용자**를 클릭 한 다음 **오디오 회의 필터로 이동할 사용자** 를 선택 합니다.
+3. 오디오 회의 라이선스가 할당되어 있지만 Microsoft가  오디오 회의 공급자로 아직 설정하지 않은 사용자가 있는 경우 여기를 클릭하여 이동하세요.  배너가 없는 경우 비즈니스용 **Skype** 관리 센터에서 사용자를 클릭한 다음 오디오 회의 필터로 이동할 준비가 된 사용자를 **선택합니다.**
     
-4. 사용자의 속성 페이지에서 **공급자 이름**아래의 드롭다운 목록에서 **Microsoft** 를 선택 합니다.
+4. 사용자의 속성 페이지의 공급자 **이름** 아래 드롭다운 목록에서 **Microsoft를** 선택합니다.
     
     > [!NOTE]
-    > 오디오 회의 공급자로 Microsoft를 사용 하 고 있으며 여러 개의 전화 번호가 있으므로 **기본 유료 번호** 드롭다운 목록을 사용 하 여 사용자의 기본 오디오 번호를 선택할 수 있습니다.
+    > Microsoft를 오디오 회의 공급자로 사용하고 여러 전화 번호가 있기 때문에 기본  전화 번호 드롭다운 목록을 사용하여 사용자의 기본 오디오 번호를 선택할 수 있습니다.
   
-5. **저장**을 클릭합니다.
+5. **저장** 을 클릭합니다.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
-### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>적은 수의 사용자를 위해 Windows PowerShell 스크립트 사용
+### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>소수의 Windows PowerShell 스크립트 사용
 
-시간을 절약 하거나이를 자동화 하려면 다음 PowerShell 스크립트를 사용 하 여 Microsoft를 적은 수의 사용자에 대 한 오디오 회의 공급자로 설정할 수 있습니다.
+시간을 절약하거나 이 작업을 자동화하기 위해 다음 PowerShell 스크립트를 사용하여 Microsoft를 소수의 사용자에 대한 오디오 회의 공급자로 설정할 수 있습니다.
 
 > [!NOTE]
-> 공급자가 다른 공급자에서 **Microsoft**로 변경 되 면 사용자에 대 한 오디오 회의 정보 (컨퍼런스 ID, 유료 및 무료 번호)가 바뀝니다. 공급자를 변경 하기 전에이 정보를 저장 해야 합니다. 
+> 공급자가 다른 공급자에서 **Microsoft로** 변경된 경우 사용자의 오디오 회의 정보(전화 회의 ID, 무료 번호 및 무료 번호)가 대체됩니다. 공급자를 변경하기 전에 이 정보를 저장해야 합니다. 
 
   
-소수의 사용자에 대해 공급자를 Microsoft로 변경 하려면 [Enable-get-csonlinedialinconferencinguser](https://technet.microsoft.com/library/mt243813.aspx) cmdlet을 사용 하면 됩니다.
+소수의 사용자에 대해 공급자를 Microsoft로 변경하려면  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/library/mt243813.aspx) cmdlet을 사용할 수 있습니다.
   
 
-### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>많은 수의 사용자를 위해 Windows PowerShell 스크립트 사용
-시간을 절약 하거나이를 자동화 하려면 다음 PowerShell 스크립트를 사용 하 여 Microsoft를 다 수의 사용자를 위한 오디오 회의 공급자로 설정할 수 있습니다.
+### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>많은 Windows PowerShell 스크립트 사용
+시간을 절약하거나 이 작업을 자동화하기 위해 다음 PowerShell 스크립트를 사용하여 Microsoft를 많은 수의 사용자에 대한 오디오 회의 공급자로 설정할 수 있습니다.
 
-공급자가 다른 공급자에서 **Microsoft**로 변경 되 면 사용자에 대 한 오디오 회의 정보 (컨퍼런스 ID, 유료 및 무료 번호)가 바뀝니다. 공급자를 변경 하기 전에이 정보를 저장 해야 합니다. 
+공급자가 다른 공급자에서 **Microsoft로** 변경된 경우 사용자의 오디오 회의 정보(전화 회의 ID, 무료 번호 및 무료 번호)가 대체됩니다. 공급자를 변경하기 전에 이 정보를 저장해야 합니다. 
   
-다음 스크립트를 PowerShell 스크립트 파일로 저장 한 다음 해당 입력 매개 변수를 사용 하 여 실행할 수 있습니다.
+다음 스크립트를 PowerShell 스크립트 파일로 저장한 다음 입력 매개 변수를 사용하여 실행할 수 있습니다.
 
-**예제 1:** 업데이트 하려는 사용자의 목록을 제공 하 여이 스크립트를 실행할 수 있습니다.
+**예제 1:** 업데이트하려는 사용자 목록을 제공하여 이 스크립트를 실행할 수 있습니다.
    
   ```PowerShell
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
-**예제 2:** 업데이트 하려는 각 사용자의 전자 메일 주소 (별칭)를 포함 하는 .csv 파일을 제공 하 여이 스크립트를 실행할 수 있습니다.
+**예제 2:** 업데이트하려는 각 사용자의 전자 메일 주소(별칭)를 포함하는 .csv 파일을 제공하여 이 스크립트를 실행할 수 있습니다.
    
   ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**예제 3:** 이 예제에서는 조직의 대규모 사용자에 대해이 스크립트를 사용 하 여 오디오 회의 공급자를 상호 통화 (또는 다른 공급자)에서 **Microsoft** 로 변경할 수 있습니다.
+**예제 3:** 이 예제에서는 이 스크립트를 사용하여 조직의 많은 사용자에 대해 오디오 회의 공급자를 Intercall(또는 다른 공급자)에서 **Microsoft로** 변경할 수 있습니다.
     
   ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
@@ -193,9 +193,9 @@ Script.ps1 -CsvFile <Path of the csv file>
   }
   }
   ```
-Windows PowerShell을 사용 하는 방법에 대 한 자세한 내용은 [Windows powershell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업](https://go.microsoft.com/fwlink/?LinkId=525038)을 참조 하세요.
+비즈니스용 Skype Online Windows PowerShell 대한 자세한 내용은 Windows PowerShell 비즈니스용 Skype Online 관리 작업을 수행하는 방법을 [참조하세요.](https://go.microsoft.com/fwlink/?LinkId=525038)
   
 ## <a name="related-topics"></a>관련 항목
-[Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-[비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md) 또는 Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매
+[Microsoft 365 또는 Office 365에서](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 오디오 회의 시도 또는 구매 
+ [비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: OAuth 프로토콜을 통해 Microsoft 365 또는 Office 365을 사용 하 여 SFB 2019 제어판 인증을 구성 하는 도우미 스크립트입니다.
+description: OAuth 프로토콜을 통해 Microsoft 365 또는 Office 365를 사용하여 SFB 2019 제어판 인증을 구성하는 도우미 스크립트
 ms.openlocfilehash: 92c13da1146698d130439c1f76e3885b561bec1b
 ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "44232599"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>비즈니스용 Skype 서버 2019 제어판 인증 스크립트
 
-이 스크립트는 새 제어판의 설정에 따라 비즈니스용 Skype 서버 2019 누적 업데이트 1을 설치한 후에 실행 해야 합니다. 이 스크립트는 Azure에서 Azure AD 응용 프로그램을 만듭니다. 이렇게 하면 새 제어판에서 OAuth를 사용 하 여 Microsoft 365 또는 Office 365에 로그인 하는 데 도움이 됩니다.
+이 스크립트는 새 제어판에 대한 설정의 일부로 비즈니스용 Skype 서버 2019 누적 업데이트 1을 설치한 후 실행해야 합니다. 이 스크립트는 Azure에 Azure AD 응용 프로그램을 생성합니다. 이렇게 하면 새 제어판에서 OAuth를 사용하여 Microsoft 365 또는 Office 365에 로그인하는 데 도움이 됩니다.
 
 ```powershell
 <#

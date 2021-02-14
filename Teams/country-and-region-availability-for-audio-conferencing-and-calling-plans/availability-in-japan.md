@@ -1,5 +1,5 @@
 ---
-title: 일본의 사용 가능 여부
+title: 일본에서 가용성
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 일본에서 사용할 수 있는 Microsoft 팀입니다.
+description: 다음은 일본에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
 ms.openlocfilehash: e198f4b13ddbeddcd7a20814812148b9016125af
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -32,49 +32,49 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44229233"
 ---
-# <a name="availability-in-japan"></a>일본의 사용 가능 여부
+# <a name="availability-in-japan"></a>일본에서 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 비즈니스용 Skype에 대 한 Microsoft 365 및 Office 365 서비스와 일본에서 사용할 수 있는 Microsoft 팀입니다.
+다음은 일본에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |음성 회의를 구매할 수 있나요?  <br/> |예  <br/> |
-|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> 서울</ul> 전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.  <br/> |
-|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |대화 가능  <br/> |
+|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> 도쿄</ul> 전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.  <br/> |
+|전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |사용 가능  <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |전화 시스템을 구매할 수 있나요?  <br/> |예  <br/> |
-| 자동 전화 교환 <br/> |대화 가능  <br/> |
-|통화 큐  <br/> |대화 가능  <br/> |
+| 자동 전화 교환 <br/> |사용 가능  <br/> |
+|통화 큐  <br/> |사용 가능  <br/> |
 |음성 메일  <br/> |사용 가능  <br/> |
    
 ## <a name="calling-plans"></a>통화 플랜
 > [!IMPORTANT]
-> 일본어 기반 테 넌 트에 대 한 소프트 뱅크만 사용할 수 있습니다. 자세한 내용은 [Office 365에 대 한 소프트 은행 통화](https://aka.ms/SoftBankVoicePlan)를 참조 하세요.
+> 일본어 기반 테넌트에 대해 SoftBank를 통해서만 사용할 수 있습니다. 자세한 내용은 [Office 365용 SoftBank](https://aka.ms/SoftBankVoicePlan)통화를 참조하세요.
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|통화 플랜을 구매할 수 있나요?  <br/> |예, [Office 365에 대 한 소프트 은행 통화](https://aka.ms/SoftBankVoicePlan)를 참조 하세요.  <br/> |
-|통화 플랜에서 사용 가능한 시간(분)  <br/> |[Office 365에 대 한 소프트 은행 통화를](https://aka.ms/SoftBankVoicePlan)참조 하세요. <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> |[Office 365에 대 한 소프트 은행 통화를](https://aka.ms/SoftBankVoicePlan)참조 하세요. <br/> |
+|통화 플랜을 구매할 수 있나요?  <br/> |예, [Office 365에 대한 SoftBank 통화를 참조합니다.](https://aka.ms/SoftBankVoicePlan)  <br/> |
+|통화 플랜에서 사용 가능한 시간(분)  <br/> |[Office 365에 대한 SoftBank 통화를 참조합니다.](https://aka.ms/SoftBankVoicePlan) <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> |[Office 365에 대한 SoftBank 통화를 참조합니다.](https://aka.ms/SoftBankVoicePlan) <br/> |
 
 > [!IMPORTANT]
-> 일본 (소프트 뱅크에서 제공)에서 사용자 (구독자) 번호를 삭제 하려면 소프트 은행에 직접 문의 하세요.
-> 일본 (소프트 뱅크에서 제공)에서 사용자 (구독자) 번호에 대 한 긴급 주소 정보를 업데이트 하려면 소프트 은행에 직접 문의 하세요.
-> 자세한 내용은 [Office 365에 대 한 소프트 은행 통화](https://aka.ms/SoftBankVoicePlan)를 참조 하세요.
+> 일본(SoftBank에서 제공)에서 사용자(구독자) 번호를 삭제하려면 SoftBank에 직접 문의합니다.
+> 일본(SoftBank에서 제공)의 사용자(구독자) 번호에 대한 긴급 주소 정보를 업데이트하기 위해 SoftBank에 직접 문의하세요.
+> 자세한 내용은 [Office 365용 SoftBank 통화를 참조하세요.](https://aka.ms/SoftBankVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |서울  <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |도쿄  <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |예 <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    

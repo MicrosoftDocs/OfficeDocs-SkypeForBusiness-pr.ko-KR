@@ -1,4 +1,4 @@
 > [!IMPORTANT]
-> Microsoft 365 리소스 계정은 팀 자원 계정과 동일 하지 않습니다. 팀 리소스 계정은 통화 대기열과 자동 전화 교환으로 외부 전화 번호의 전화 통화를 수락 하는 데 사용할 수 있습니다. Microsoft 365 리소스 계정은 Exchange Online 사서함에 연결 되며 채팅방, 프로젝터 등의 공유 리소스 예약을 가능 하 게 합니다.
+> Microsoft 365 리소스 계정은 Teams 리소스 계정과 동일하지 않습니다. Teams 리소스 계정은 통화 큐 및 자동 전화 회의와 함께 외부 전화 번호의 전화 통화를 수락하는 데 사용할 수 있습니다. Microsoft 365 리소스 계정은 Exchange Online 사서함에 연계되어 있으며 회의실, 프로젝터 등의 공유 리소스 예약이 가능합니다.
 >
-> 팀 자원 계정에 대해 자세히 알아보려면 [Microsoft 팀에서 자원 계정 관리](../manage-resource-accounts.md)를 참조 하세요.
+> Teams 리소스 계정에 대한 자세한 내용은 Microsoft Teams에서 리소스 계정 관리를 [참조합니다.](../manage-resource-accounts.md)

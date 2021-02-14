@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 모임에서 전화를 걸어 다른 사람이 참가할 수 있습니다.
+title: 다른 사람이 참가할 수 있도록 비즈니스용 Skype 모임에서 전화 걸기
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 필요한 내용과 모임 이끌이가 비즈니스용 Skype를 사용 하 여 다른 사용자에 게 전화를 걸 수 있는 방법을 알아봅니다.
+description: 비즈니스용 Skype를 사용하여 모임 이끌이가 다른 사용자에게 전화를 걸 수 있는 방법과 필요한 내용을 배워야 합니다.
 ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -28,37 +28,37 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44164287"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>비즈니스용 Skype 모임에서 전화를 걸어 다른 사람이 참가할 수 있습니다.
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>다른 사람이 참가할 수 있도록 비즈니스용 Skype 모임에서 전화 걸기
 
 > [!NOTE]
-> 팀 모임에서 전화를 거는 방법에 대 한 정보를 찾고 [있는 경우 다른 사용자가 참가할 수 있도록 팀 모임에서 전화 걸기를](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)참조 하세요.
+> Teams 모임에서 전화 걸기에 대한 정보를 찾고 있는 경우 다른 사용자가 참가할 수 있도록 Teams 모임에서 전화 걸기를 [참조하세요.](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)
 
-모임 이끌이는 비즈니스용 Skype 앱을 사용 하 여 다른 사용자가 휴대폰을 사용 하 여 동일한 모임에 참가할 수 있도록 해 줍니다. 다른 사람에 게 전화를 걸 때는 필요 하지 않지만 국가/지역 코드를 포함 하 여 전체 번호로 전화를 거는 것이 좋습니다. 전화를 걸려면 다음을 수행 하세요.
+모임 이끌이는 비즈니스용 Skype 앱을 사용하여 전화를 걸면 다른 사람들이 자신의 전화기를 사용하여 같은 모임에 참가할 수 있습니다. 필수는 아니지만 다른 사람에게 전화를 걸 때 국가/지역 코드를 포함하여 전체 번호로 전화를 걸는 것이 좋습니다. 전화 접속이 작동하기 위해:
   
-- 비즈니스용 Skype 앱을 사용 하 여 모임에 참가 하는 경우에만 전화를 걸 수 있습니다.
+- 비즈니스용 Skype 앱을 사용하여 모임에 참가하는 경우만 전화를 걸 수 있습니다.
     
-- 모임 이끌이가 오디오 회의를 사용 하도록 설정 되었습니다.
+- 모임 이끌이가 오디오 회의를 사용하도록 설정했습니다.
 
-전화를 사용 하 여 조직의 모임에 다른 참가자를 추가 하려면 전화를 통해 다른 참가자를 추가 하는 것을 허용 하기 위해 이끌이 (조직)와 동일한 조직에서 인증 된 사용자가 한 명 이상 모임에 있어야 합니다. 
+조직의 모임에 전화 접속을 통해 다른 참가자를 추가하려면 전화 걸기를 통해 다른 참가자를 추가할 수 있도록 이끌이(조직)와 동일한 조직에서 인증된 사용자 한 명 이상이 모임에 참석해야 합니다. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
- **1 단계:** 모임 초대에서 **다른 사람 초대** 옵션을 사용 하 여 전화 번호로 전화를 걸지 보세요.
+ **1단계:** 초대 모임에서 다른  사람 초대 옵션을 사용하여 전화 번호로 전화를 걸 수 있습니다.
   
-![비즈니스용 Skype로 전화를 걸어 보세요.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
+![비즈니스용 Skype로 전화 걸기.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- **2 단계:** 상자에 국가/지역 번호를 포함 하 여 전체 전화 번호를 입력 합니다.
+ **2단계:** 상자에 국가/지역 코드를 포함하여 전체 전화 번호를 입력합니다.
   
 ![비즈니스용 Skype의 전화 걸기 전화 번호](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
-## <a name="supported-countries-and-regions"></a>지원 되는 국가 및 지역
+## <a name="supported-countries-and-regions"></a>지원되는 국가 및 지역
 
-전화 걸기는 일부 국가/지역 에서만 사용할 수 있습니다. 전체 목록은 [오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)을 참조 하세요.
+전화 접속은 일부 국가/지역에서만 사용할 수 있습니다. 전체 목록은 오디오 회의 및 통화 계획에 대한 국가 및 지역 [가용성을 참조하세요.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>오디오 회의에 대 한 자세한 내용을 확인 하 고 싶으신가요?
+## <a name="want-to-know-more-about-audio-conferencing"></a>오디오 회의에 대해 더 알고 싶나요?
 
-[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 또는 Office 365에서 오디오 회의 시도 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [비즈니스용 Skype 추가 기능 라이선스](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

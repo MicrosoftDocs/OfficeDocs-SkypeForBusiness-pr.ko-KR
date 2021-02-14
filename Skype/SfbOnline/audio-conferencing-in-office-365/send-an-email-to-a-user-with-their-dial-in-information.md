@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online에서 오디오 회의를 통해 사용자에 게 전자 메일 보내기
+title: 비즈니스용 Skype Online에서 오디오 회의를 통해 사용자에게 전자 메일 보내기
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 비즈니스용 Skype Online의 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일을 보냅니다.
+description: 비즈니스용 Skype Online에서 오디오 회의 정보가 있는 전자 메일을 사용자에게 보낼 수 있습니다.
 ms.openlocfilehash: f2137d05ebe588a316704fabf4c8878910a40bc0
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -28,100 +28,100 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44163905"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의 정보가 있는 전자 메일 보내기
 
 > [!Note]
-> Microsoft 팀의 사용자에 게 오디오 회의 정보를 보내는 방법에 대 한 자세한 내용은 [Microsoft Teasms의 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기를](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)참고 하세요.
+> Microsoft Teams의 사용자에게 오디오 회의 정보를 보내는 자세한 내용은 [Microsoft Teasms의](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)오디오 회의 정보를 통해 사용자에게 전자 메일 보내기를 참조하세요.
 
-비즈니스용 Skype 사용자에 게 오디오 회의 정보를 보내야 할 경우도 있습니다. **비즈니스용 Skype 관리 센터** 를 사용 하 여이 작업을 수행 하 고 사용자의 속성 아래에서 **전자 메일을 통해 회의 정보 보내기를** 클릭할 수 있습니다. 이 전자 메일을 보낼 때 다음을 비롯 한 모든 오디오 회의 정보가 포함 됩니다.
+경우에 따라 비즈니스용 Skype 사용자가 오디오 회의 정보를 보내야 할 수 있습니다. 비즈니스용 **Skype** 관리 센터를 사용하고 사용자의 속성  아래에서 전자 메일을 통해 전화 회의 정보 보내기를 클릭하여 이 작업을 할 수 있습니다. 이 전자 메일을 보내면 다음을 포함한 모든 오디오 회의 정보가 포함되어 있습니다.
   
-- 사용자의 컨퍼런스 전화 또는 전화 접속 전화 번호입니다.
+- 사용자의 전화 회의 전화 또는 전화 접속 전화 번호입니다.
     
-- 사용자의 전화 회의 ID입니다.
+- 사용자의 회의 ID입니다.
     
    
-다음은 전송 되는 전자 메일의 예입니다.
+다음은 전송된 전자 메일의 예입니다.
   
 ![전화 접속 회의 전자 메일](../images/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>사용자에게 오디오 회의 정보가 있는 전자 메일 보내기
 
-1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
+1. 왼쪽 탐색 모음에서 **[사용자]를** 클릭한 다음 사용 가능한 사용자 목록에서 사용자를 선택합니다.
 
-2. 페이지 맨 위에서 **편집**을 클릭 합니다.
+2. 페이지 맨 위에 있는 편집을 **클릭합니다.**
 
-3. **오디오 회의**에서 **전자 메일로 회의 정보 보내기를**클릭 합니다.
+3. 오디오 **회의 아래에서** 전자 **메일로 회의 정보 보내기 클릭**
 
-1. 회사 또는 학교 계정으로 로그인 합니다.
+1. 직장 또는 학교 계정으로 로그인합니다.
     
-2. **비즈니스용 Skype**> 관리 센터로 이동 하 고 왼쪽 탐색 창에서 **오디오 회의**를 클릭 합니다.
+2. 비즈니스용 Skype의 관리 > 왼쪽 탐색 모음에서 오디오 **회의를 클릭합니다.**
     
-3. **사용자**를 클릭 한 다음 사용자를 선택 합니다.
+3. 사용자를 **클릭한** 다음 사용자를 선택합니다.
     
-4. 작업 창에서 **전자 메일을 통해 회의 정보 보내기를**클릭 합니다.
+4. 작업 창에서 전자 메일을 통해 **전화 회의 정보 보내기 를 클릭합니다.**
     
 > [!TIP]
-> 사용자의 속성을 편집 하 고 **오디오 회의** > 를 클릭 하 여 전자 메일을**통해**음성 회의 설정으로 사용자에 게 전자 메일을 보낼 수도 있습니다. 
+> 사용자의 속성을 편집한 다음 전자 메일을 통해 오디오 회의 보내기 회의 정보를 클릭하여 오디오 회의 설정을 사용하여 사용자에게 전자 메일을  >  **보낼 수도 있습니다.** 
 
-## <a name="what-else-should-you-know-about-this-email"></a>이 전자 메일에 대해 알아야 할 기타 사항
+## <a name="what-else-should-you-know-about-this-email"></a>이 전자 메일에 대해 알아야 할 다른 것은 무엇입니까?
 
-- 오디오 회의를 사용 하도록 설정 하면 조직의 사용자에 게 여러 개의 전자 메일이 전송 됩니다.
+- 오디오 회의를 사용하도록 설정한 후 조직의 사용자에게 전송된 여러 전자 메일이 있습니다.
     
-  - **오디오 회의** 라이선스가 할당 된 경우
+  - 오디오 **회의** 라이선스가 할당된 경우
     
-  - 사용자의 오디오 회의 PIN을 수동으로 다시 설정 합니다.
+  - 사용자의 오디오 회의 PIN을 수동으로 다시 설정하는 경우
     
-  - 수동으로 사용자의 전화 회의 ID를 다시 설정 합니다.
+  - 사용자의 회의 ID를 수동으로 재설정하는 경우.
     
-  - **오디오 회의** 라이선스가 제거 된 경우
+  - 오디오 **회의** 라이선스가 제거되면
     
-  - 사용자의 오디오 회의 공급자가 Microsoft에서 다른 공급자 또는 **없음**으로 변경 되는 경우
+  - 사용자의 오디오 회의 공급자가 Microsoft에서 다른 공급자 또는 **없음으로** 변경된 경우
     
-  - 사용자의 오디오 회의 공급자가 Microsoft로 변경 된 경우
+  - 사용자의 오디오 회의 공급자가 Microsoft로 변경된 경우
     
-- 기본적으로 전자 메일을 보낸 사람은 Microsoft 365 또는 Office 365 이지만, Windows PowerShell 및 [사용](https://go.microsoft.com/fwlink/?LinkId=708983) cmdlet을 사용 하 여 전자 메일 주소와 표시 이름을 변경할 수 있습니다. 사용자에 게 전자 메일을 보내는 전자 메일 주소를 변경 하려면 다음을 수행 해야 합니다.
+- 기본적으로 전자 메일의 보낸 사람이 Microsoft 365 또는 Office 365에서 전송되지만, Windows PowerShell [및 Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) cmdlet을 사용하여 전자 메일 주소와 표시 이름을 변경할 수 있습니다. 사용자에게 전자 메일을 보내는 전자 메일 주소를 변경하려면 다음을 해야 합니다.
     
-  - SendEmailFromAddress 매개 변수에 전자 메일 주소를 입력 합니다.
+  - SendEmailFromAddress 매개 변수에 전자 메일 주소를 입력합니다.
     
-  - "=" 매개 변수를 True로 설정 합니다.
+  - SendEmailOverride 매개 변수를 True로 설정합니다.
     
-  - 이 매개 변수에 전자 메일 표시 이름을 입력 합니다.
+  - SendEmailFromDisplayName 매개 변수에 전자 메일 표시 이름을 입력합니다.
     
      `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
     > [!NOTE]
-    > 전자 메일 주소 정보를 변경 하려는 경우 조직의 인바운드 전자 메일 정책에서 설정 된 사용자 지정 전자 메일 주소에서 보낸 전자 메일이 허용 되는지 확인 해야 합니다. 
+    > 전자 메일 주소 정보를 변경하려면 조직의 인바운드 전자 메일 정책에서 설정된 사용자 지정 전자 메일 주소에서 오는 전자 메일을 허용하는지 확인해야 합니다. 
   
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell을 사용 하 여 관리 하는 방법을 알고 싶으세요?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>사용자 계정으로 관리하는 방법을 알고 Windows PowerShell?
 
-- 시간을 절약 하거나이 작업을 자동화 하려면 [Set-get-csonlinedialinconferencinguser](https://go.microsoft.com/fwlink/?LinkId=617688 ) cmdlet을 사용 하면 됩니다.
+- 시간을 절약하거나 이 작업을 자동화하기 위해 [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) cmdlet을 사용할 수 있습니다.
     
-    오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일을 보내려면 다음을 실행 합니다.
+    오디오 회의 정보가 있는 전자 메일을 사용자에게 보내기 위해 다음을 실행합니다.
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- Windows PowerShell을 사용할 때 비즈니스용 Skype Online은 사용자 관리와 사용자가 허용 하거나 허용 하지 않는 작업에 대 한 정보를 제공 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- 비즈니스용 Windows PowerShell Skype Online은 사용자와 사용자가 허용되거나 허용되지 않는 작업을 관리하는 것입니다. 이 Windows PowerShell 여러 작업을 수행할 때 일상적인 작업을 간소화할 수 있는 단일 관리 지점을 사용하여 Microsoft 365 또는 Office 365를 관리할 수 있습니다. 다음 항목을 Windows PowerShell 항목을 참조하세요.
     
-  - [Microsoft 365 또는 Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 또는 Office 365 PowerShell을 사용하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell을 사용 하 여 Microsoft 365 또는 Office 365을 관리 하는 최상의 방법](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 또는 Office 365를 관리하는 가장 좋은 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요. 
+- Windows PowerShell Microsoft 365 관리 센터를 사용하는 것 이상으로 속도, 단순성 및 생산성에 많은 이점이 있습니다. 예를 들어 한 번으로 많은 사용자를 위한 설정을 변경할 때도 있습니다. 다음 항목에서 이러한 이점에 대해 자세히 배워야 합니다. 
     
   - [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-    [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [비즈니스 Windows PowerShell 사용하여 비즈니스용 Skype Online 관리](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [비즈니스용 Windows PowerShell Skype Online 관리 작업을 수행하는 데 사용할 수 있습니다.](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 사용 하면 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만들 수 있습니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688) 의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
+    > 비즈니스 Windows PowerShell용 Skype Online 모듈을 사용하면 비즈니스용 Skype Online에 Windows PowerShell 원격 세션을 만들 수 있습니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 비즈니스용 [Skype Online용](https://go.microsoft.com/fwlink/?LinkId=294688) Windows PowerShell 모듈의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
   
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 또는 Office 365에서 오디오 회의 시도 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
