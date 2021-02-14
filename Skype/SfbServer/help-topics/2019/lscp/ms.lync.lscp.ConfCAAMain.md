@@ -22,12 +22,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820388"
 ---
-# <a name="dial-in-access-number"></a><span data-ttu-id="e4a7f-104">전화 접속 액세스 번호</span><span class="sxs-lookup"><span data-stu-id="e4a7f-104">Dial-in Access Number</span></span>
+# <a name="dial-in-access-number"></a><span data-ttu-id="c28b6-104">전화 접속 액세스 번호</span><span class="sxs-lookup"><span data-stu-id="c28b6-104">Dial-in Access Number</span></span>
 
-<span data-ttu-id="e4a7f-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="e4a7f-105">What do you want to do?</span></span> <span data-ttu-id="e4a7f-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e4a7f-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c28b6-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="c28b6-105">What do you want to do?</span></span> <span data-ttu-id="c28b6-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c28b6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="e4a7f-107">전화 접속 회의 액세스 번호 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="e4a7f-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [<span data-ttu-id="c28b6-107">전화 접속 회의 액세스 번호 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="c28b6-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 
-- [<span data-ttu-id="e4a7f-108">전화 접속 회의 액세스 번호 삭제</span><span class="sxs-lookup"><span data-stu-id="e4a7f-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
+- [<span data-ttu-id="c28b6-108">전화 접속 회의 액세스 번호 삭제</span><span class="sxs-lookup"><span data-stu-id="c28b6-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
 
 

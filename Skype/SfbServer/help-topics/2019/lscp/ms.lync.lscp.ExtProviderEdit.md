@@ -22,10 +22,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820308"
 ---
-# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="8d589-104">SIP 페더레이션 공급자: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="8d589-104">SIP Federated Providers: Create New or Edit Existing</span></span>
+# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="da934-104">SIP 페더레이션 공급자: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="da934-104">SIP Federated Providers: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="8d589-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="8d589-105">What do you want to do?</span></span> <span data-ttu-id="8d589-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8d589-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="da934-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="da934-105">What do you want to do?</span></span> <span data-ttu-id="da934-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="da934-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="8d589-107">조직에 대한 SIP 페더리 공급자 관리</span><span class="sxs-lookup"><span data-stu-id="8d589-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="da934-107">조직에 대한 SIP 페더리 공급자 관리</span><span class="sxs-lookup"><span data-stu-id="da934-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 

@@ -23,22 +23,22 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819898"
 ---
-# <a name="edge-network-planning-tool-in-skype-for-business"></a><span data-ttu-id="1284b-106">비즈니스용 Skype의 에지 네트워크(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="1284b-106">Edge Network (Planning Tool) in Skype for Business</span></span> 
+# <a name="edge-network-planning-tool-in-skype-for-business"></a><span data-ttu-id="4d9a8-106">비즈니스용 Skype의 에지 네트워크(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="4d9a8-106">Edge Network (Planning Tool) in Skype for Business</span></span> 
  
-<span data-ttu-id="1284b-107">대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다.</span><span class="sxs-lookup"><span data-stu-id="1284b-107">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="1284b-108">다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="1284b-108">The following components make up the Edge topology of the perimeter network.</span></span> <span data-ttu-id="1284b-109">설명된 경우를 제외하고 구성 요소는 비즈니스용 [Skype 서버의 에지](../../../plan-your-deployment/edge-server-deployments/scenarios.md) 서버 시나리오에 포함하며 경계 네트워크에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1284b-109">Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network.</span></span> <span data-ttu-id="1284b-110">에지 구성 요소는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="1284b-110">Edge components include the following:</span></span>
+<span data-ttu-id="4d9a8-107">대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다.</span><span class="sxs-lookup"><span data-stu-id="4d9a8-107">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="4d9a8-108">다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="4d9a8-108">The following components make up the Edge topology of the perimeter network.</span></span> <span data-ttu-id="4d9a8-109">설명된 경우를 제외하고 구성 요소는 비즈니스용 [Skype 서버의 에지](../../../plan-your-deployment/edge-server-deployments/scenarios.md) 서버 시나리오에 포함하며 경계 네트워크에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4d9a8-109">Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network.</span></span> <span data-ttu-id="4d9a8-110">에지 구성 요소는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="4d9a8-110">Edge components include the following:</span></span>
   
-- <span data-ttu-id="1284b-111">에지 서버</span><span class="sxs-lookup"><span data-stu-id="1284b-111">Edge Server(s)</span></span>
+- <span data-ttu-id="4d9a8-111">에지 서버</span><span class="sxs-lookup"><span data-stu-id="4d9a8-111">Edge Server(s)</span></span>
     
-- <span data-ttu-id="1284b-112">역방향 프록시</span><span class="sxs-lookup"><span data-stu-id="1284b-112">Reverse proxy</span></span>
+- <span data-ttu-id="4d9a8-112">역방향 프록시</span><span class="sxs-lookup"><span data-stu-id="4d9a8-112">Reverse proxy</span></span>
     
-- <span data-ttu-id="1284b-113">방화벽</span><span class="sxs-lookup"><span data-stu-id="1284b-113">Firewall</span></span>
+- <span data-ttu-id="4d9a8-113">방화벽</span><span class="sxs-lookup"><span data-stu-id="4d9a8-113">Firewall</span></span>
     
-- <span data-ttu-id="1284b-114">Director(선택 사항이며 내부 네트워크에 논리적으로 위치)</span><span class="sxs-lookup"><span data-stu-id="1284b-114">Directors (optional, and logically located on the internal network)</span></span>
+- <span data-ttu-id="4d9a8-114">Director(선택 사항이며 내부 네트워크에 논리적으로 위치)</span><span class="sxs-lookup"><span data-stu-id="4d9a8-114">Directors (optional, and logically located on the internal network)</span></span>
     
-- <span data-ttu-id="1284b-115">확장된 에지 토폴로지에 대한 부하 분산(DNS 부하 분산 또는 하드웨어 부하 분산 장치)</span><span class="sxs-lookup"><span data-stu-id="1284b-115">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
+- <span data-ttu-id="4d9a8-115">확장된 에지 토폴로지에 대한 부하 분산(DNS 부하 분산 또는 하드웨어 부하 분산 장치)</span><span class="sxs-lookup"><span data-stu-id="4d9a8-115">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="1284b-116">참고 항목</span><span class="sxs-lookup"><span data-stu-id="1284b-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4d9a8-116">참고 항목</span><span class="sxs-lookup"><span data-stu-id="4d9a8-116">See also</span></span>
 
-[<span data-ttu-id="1284b-117">비즈니스용 Skype 서버의 에지 서버 배포 계획</span><span class="sxs-lookup"><span data-stu-id="1284b-117">Plan for Edge Server deployments in Skype for Business Server</span></span>](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[<span data-ttu-id="4d9a8-117">비즈니스용 Skype 서버의 에지 서버 배포 계획</span><span class="sxs-lookup"><span data-stu-id="4d9a8-117">Plan for Edge Server deployments in Skype for Business Server</span></span>](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[<span data-ttu-id="1284b-118">비즈니스용 Skype 서버의 에지 서버 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="1284b-118">Edge Server system requirements in Skype for Business Server</span></span>](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[<span data-ttu-id="4d9a8-118">비즈니스용 Skype 서버의 에지 서버 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="4d9a8-118">Edge Server system requirements in Skype for Business Server</span></span>](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)

@@ -22,10 +22,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819708"
 ---
-# <a name="mobility-planning-tool"></a><span data-ttu-id="40849-103">모바일(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="40849-103">Mobility (Planning Tool)</span></span>
+# <a name="mobility-planning-tool"></a><span data-ttu-id="28011-103">모바일(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="28011-103">Mobility (Planning Tool)</span></span>
  
-<span data-ttu-id="40849-104">비즈니스용 Skype 서버의 모바일 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="40849-104">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span>
+<span data-ttu-id="28011-104">비즈니스용 Skype 서버의 모바일 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="28011-104">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span>
   
-<span data-ttu-id="40849-105">모바일 기능은 비즈니스용 Skype 서버에서 Lync Server 2013과 동일합니다.</span><span class="sxs-lookup"><span data-stu-id="40849-105">Mobility functionality is the same in Skype for Business Server as in Lync Server 2013.</span></span> <span data-ttu-id="40849-106">모바일을 위해 환경을 준비하는 데 대한 자세한 내용은 [Lync Server 2013의 모바일 계획(Lync Server 2013)을 참조합니다.](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="40849-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx).</span></span>
+<span data-ttu-id="28011-105">모바일 기능은 비즈니스용 Skype 서버에서 Lync Server 2013과 동일합니다.</span><span class="sxs-lookup"><span data-stu-id="28011-105">Mobility functionality is the same in Skype for Business Server as in Lync Server 2013.</span></span> <span data-ttu-id="28011-106">모바일을 위해 환경을 준비하는 데 대한 자세한 내용은 [Lync Server 2013의 모바일 계획(Lync Server 2013)을 참조합니다.](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="28011-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx).</span></span>
   
 

@@ -22,10 +22,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819088"
 ---
-# <a name="sip-federated-providers"></a><span data-ttu-id="7bb65-104">SIP 페더레이션 공급자</span><span class="sxs-lookup"><span data-stu-id="7bb65-104">SIP Federated Providers</span></span>
+# <a name="sip-federated-providers"></a><span data-ttu-id="17337-104">SIP 페더레이션 공급자</span><span class="sxs-lookup"><span data-stu-id="17337-104">SIP Federated Providers</span></span>
 
-<span data-ttu-id="7bb65-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="7bb65-105">What do you want to do?</span></span> <span data-ttu-id="7bb65-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="7bb65-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="17337-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="17337-105">What do you want to do?</span></span> <span data-ttu-id="17337-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="17337-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="7bb65-107">조직에 대한 SIP 페더리 공급자 관리</span><span class="sxs-lookup"><span data-stu-id="7bb65-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="17337-107">조직에 대한 SIP 페더리 공급자 관리</span><span class="sxs-lookup"><span data-stu-id="17337-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 

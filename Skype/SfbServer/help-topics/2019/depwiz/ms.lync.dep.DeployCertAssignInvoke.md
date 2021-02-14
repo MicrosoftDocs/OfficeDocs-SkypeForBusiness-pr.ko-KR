@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820438"
 ---
-# <a name="certificate-assignment-invoke"></a><span data-ttu-id="d4ead-105">인증서 할당(호출)</span><span class="sxs-lookup"><span data-stu-id="d4ead-105">Certificate Assignment (Invoke)</span></span>
+# <a name="certificate-assignment-invoke"></a><span data-ttu-id="ddbfa-105">인증서 할당(호출)</span><span class="sxs-lookup"><span data-stu-id="ddbfa-105">Certificate Assignment (Invoke)</span></span>
  
-<span data-ttu-id="d4ead-p102">**명령 실행** 페이지에 인증서를 서버에 할당하기 위한 작업에서 수행한 작업이 표시됩니다. 작업이 완료되면 인증서 할당 프로세스를 자세히 설명하는 로그를 볼 수 있습니다. 로그 파일을 보려면 **로그 보기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d4ead-p102">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.</span></span>
+<span data-ttu-id="ddbfa-p102">**명령 실행** 페이지에 인증서를 서버에 할당하기 위한 작업에서 수행한 작업이 표시됩니다. 작업이 완료되면 인증서 할당 프로세스를 자세히 설명하는 로그를 볼 수 있습니다. 로그 파일을 보려면 **로그 보기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="ddbfa-p102">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.</span></span>
   
 

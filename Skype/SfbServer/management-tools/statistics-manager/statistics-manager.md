@@ -21,18 +21,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821798"
 ---
-# <a name="statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="42e7c-103">비즈니스용 Skype 서버 통계 관리자</span><span class="sxs-lookup"><span data-stu-id="42e7c-103">Statistics Manager for Skype for Business Server</span></span>
+# <a name="statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="8a222-103">비즈니스용 Skype 서버 통계 관리자</span><span class="sxs-lookup"><span data-stu-id="8a222-103">Statistics Manager for Skype for Business Server</span></span>
  
-<span data-ttu-id="42e7c-104">**요약:** 이 항목을 통해 비즈니스용 Skype 서버 상태 및 성능 데이터를 실시간으로 볼 수 있는 강력한 도구인 비즈니스용 Skype 서버 통계 관리자에 대해 자세히 알아보고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="42e7c-104">**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span>
+<span data-ttu-id="8a222-104">**요약:** 이 항목을 통해 비즈니스용 Skype 서버 상태 및 성능 데이터를 실시간으로 볼 수 있는 강력한 도구인 비즈니스용 Skype 서버 통계 관리자에 대해 자세히 알아보고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8a222-104">**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span>
   
-<span data-ttu-id="42e7c-105">다루는 항목은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="42e7c-105">This section contains the following topics:</span></span>
+<span data-ttu-id="8a222-105">다루는 항목은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="8a222-105">This section contains the following topics:</span></span>
   
-- [<span data-ttu-id="42e7c-106">비즈니스용 Skype 서버 통계 관리자에 대한 계획</span><span class="sxs-lookup"><span data-stu-id="42e7c-106">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
+- [<span data-ttu-id="8a222-106">비즈니스용 Skype 서버 통계 관리자에 대한 계획</span><span class="sxs-lookup"><span data-stu-id="8a222-106">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
     
-- [<span data-ttu-id="42e7c-107">비즈니스용 Skype 서버 통계 관리자 배포</span><span class="sxs-lookup"><span data-stu-id="42e7c-107">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
+- [<span data-ttu-id="8a222-107">비즈니스용 Skype 서버 통계 관리자 배포</span><span class="sxs-lookup"><span data-stu-id="8a222-107">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
     
-- [<span data-ttu-id="42e7c-108">비즈니스용 Skype 서버 통계 관리자 업그레이드</span><span class="sxs-lookup"><span data-stu-id="42e7c-108">Upgrade Statistics Manager for Skype for Business Server</span></span>](upgrade.md)
+- [<span data-ttu-id="8a222-108">비즈니스용 Skype 서버 통계 관리자 업그레이드</span><span class="sxs-lookup"><span data-stu-id="8a222-108">Upgrade Statistics Manager for Skype for Business Server</span></span>](upgrade.md)
     
-- [<span data-ttu-id="42e7c-109">비즈니스용 Skype 서버 통계 관리자 문제 해결</span><span class="sxs-lookup"><span data-stu-id="42e7c-109">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
+- [<span data-ttu-id="8a222-109">비즈니스용 Skype 서버 통계 관리자 문제 해결</span><span class="sxs-lookup"><span data-stu-id="8a222-109">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
     
 

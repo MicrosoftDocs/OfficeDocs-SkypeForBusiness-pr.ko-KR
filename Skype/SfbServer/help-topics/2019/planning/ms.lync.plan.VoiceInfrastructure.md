@@ -23,8 +23,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819668"
 ---
-# <a name="voice-infrastructure-planning-tool"></a><span data-ttu-id="104e8-104">음성 인프라(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="104e8-104">Voice Infrastructure (Planning Tool)</span></span>
+# <a name="voice-infrastructure-planning-tool"></a><span data-ttu-id="c6ebe-104">음성 인프라(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="c6ebe-104">Voice Infrastructure (Planning Tool)</span></span>
  
-<span data-ttu-id="104e8-105">비즈니스용 Skype 서버는 SIP 트렁크, PSTN 게이트웨이에 대한 직접 SIP 연결 또는 PBX에 대한 직접 SIP 연결을 사용하여 안정적이고 확장 가능한 PSTN 연결을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="104e8-105">Skype for Business Server provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX.</span></span> <span data-ttu-id="104e8-106">자세한 내용은 비즈니스용 Skype 서버의 [PSTN 연결 계획(Plan for PSTN connectivity)을 참조하세요.](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)</span><span class="sxs-lookup"><span data-stu-id="104e8-106">For details, see [Plan for PSTN connectivity in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span></span>
+<span data-ttu-id="c6ebe-105">비즈니스용 Skype 서버는 SIP 트렁크, PSTN 게이트웨이에 대한 직접 SIP 연결 또는 PBX에 대한 직접 SIP 연결을 사용하여 안정적이고 확장 가능한 PSTN 연결을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="c6ebe-105">Skype for Business Server provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX.</span></span> <span data-ttu-id="c6ebe-106">자세한 내용은 비즈니스용 Skype 서버의 [PSTN 연결 계획(Plan for PSTN connectivity)을 참조하세요.](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)</span><span class="sxs-lookup"><span data-stu-id="c6ebe-106">For details, see [Plan for PSTN connectivity in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span></span>
   
 

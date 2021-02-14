@@ -22,9 +22,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819988"
 ---
-# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="24281-104">변환 규칙: 정규식 입력</span><span class="sxs-lookup"><span data-stu-id="24281-104">Translation Rule: Type a Regular Expression</span></span>
+# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="dd170-104">변환 규칙: 정규식 입력</span><span class="sxs-lookup"><span data-stu-id="dd170-104">Translation Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="24281-105">**다음 패턴과 일치시킴** 필드에 변환할 숫자와 일치시키는 데 사용할 패턴을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="24281-105">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="24281-106">**변환 규칙** 필드에 변환된 숫자 형식의 패턴을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="24281-106">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="24281-107">예를 들어 이 패턴 일치 필드에 ^ (\d \d+)$을 입력하고 변환 규칙 필드에 \+ {9} 011$1을 입력하면 규칙은 +441235551010을 011441235551010으로 변환합니다.  </span><span class="sxs-lookup"><span data-stu-id="24281-107">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span> 
+<span data-ttu-id="dd170-105">**다음 패턴과 일치시킴** 필드에 변환할 숫자와 일치시키는 데 사용할 패턴을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="dd170-105">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="dd170-106">**변환 규칙** 필드에 변환된 숫자 형식의 패턴을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="dd170-106">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="dd170-107">예를 들어 이 패턴 일치 필드에 ^ (\d \d+)$을 입력하고 변환 규칙 필드에 \+ {9} 011$1을 입력하면 규칙은 +441235551010을 011441235551010으로 변환합니다.  </span><span class="sxs-lookup"><span data-stu-id="dd170-107">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span> 
   
  
   

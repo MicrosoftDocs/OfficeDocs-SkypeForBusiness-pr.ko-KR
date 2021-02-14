@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820498"
 ---
-# <a name="certificate-assignment-intro"></a><span data-ttu-id="08e68-103">인증서 할당(소개)</span><span class="sxs-lookup"><span data-stu-id="08e68-103">Certificate Assignment (Intro)</span></span>
+# <a name="certificate-assignment-intro"></a><span data-ttu-id="4ae77-103">인증서 할당(소개)</span><span class="sxs-lookup"><span data-stu-id="4ae77-103">Certificate Assignment (Intro)</span></span>
  
-<span data-ttu-id="08e68-104">비즈니스용 Skype 서버에서 사용할 인증서 할당을 시작하려면 다음을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="08e68-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
+<span data-ttu-id="4ae77-104">비즈니스용 Skype 서버에서 사용할 인증서 할당을 시작하려면 다음을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4ae77-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
   
 

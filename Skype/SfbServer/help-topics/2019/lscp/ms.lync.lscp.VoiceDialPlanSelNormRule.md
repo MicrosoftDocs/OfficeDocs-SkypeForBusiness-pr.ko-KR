@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820108"
 ---
-# <a name="select-normalization-rules"></a><span data-ttu-id="9b43c-104">정규화 규칙 선택</span><span class="sxs-lookup"><span data-stu-id="9b43c-104">Select Normalization Rules</span></span>
+# <a name="select-normalization-rules"></a><span data-ttu-id="eb7d9-104">정규화 규칙 선택</span><span class="sxs-lookup"><span data-stu-id="eb7d9-104">Select Normalization Rules</span></span>
  
-<span data-ttu-id="9b43c-105">정규화 규칙은 .NET Framework 정규식을 사용하여 전화 걸기 번호를 E.164 형식으로 변환합니다.</span><span class="sxs-lookup"><span data-stu-id="9b43c-105">Normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format.</span></span> <span data-ttu-id="9b43c-106">각 다이얼 플랜에는 하나 이상의 정규화 규칙을 할당해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b43c-106">Each dial plan must be assigned one or more normalization rules.</span></span>
+<span data-ttu-id="eb7d9-105">정규화 규칙은 .NET Framework 정규식을 사용하여 전화 걸기 번호를 E.164 형식으로 변환합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7d9-105">Normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format.</span></span> <span data-ttu-id="eb7d9-106">각 다이얼 플랜에는 하나 이상의 정규화 규칙을 할당해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7d9-106">Each dial plan must be assigned one or more normalization rules.</span></span>
   
-<span data-ttu-id="9b43c-107">기존 정규화 규칙을 사용하려면 목록에서 규칙을 클릭한 다음 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9b43c-107">To use an existing normalization rule, click a rule in the list and then click **OK**.</span></span>
+<span data-ttu-id="eb7d9-107">기존 정규화 규칙을 사용하려면 목록에서 규칙을 클릭한 다음 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7d9-107">To use an existing normalization rule, click a rule in the list and then click **OK**.</span></span>
   
  
   

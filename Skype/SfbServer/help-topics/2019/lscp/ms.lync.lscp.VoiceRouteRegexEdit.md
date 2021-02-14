@@ -22,9 +22,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819998"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="fc19c-103">정규화 규칙: 정규식 입력</span><span class="sxs-lookup"><span data-stu-id="fc19c-103">Normalization Rule: Type a Regular Expression</span></span>
+# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="8e240-103">정규화 규칙: 정규식 입력</span><span class="sxs-lookup"><span data-stu-id="8e240-103">Normalization Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="fc19c-104">경로가 적용되는 대상 전화 번호에 대한 일치 패턴을 지정하는 .NET Framework 정규식을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="fc19c-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
+<span data-ttu-id="8e240-104">경로가 적용되는 대상 전화 번호에 대한 일치 패턴을 지정하는 .NET Framework 정규식을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="8e240-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
   
  
   

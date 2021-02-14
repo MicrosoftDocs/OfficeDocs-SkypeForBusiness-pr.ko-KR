@@ -20,8 +20,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821598"
 ---
-# <a name="frontend-table-in-skype-for-business-server-2015"></a><span data-ttu-id="e11a0-104">비즈니스용 Skype 서버의 FrontEnd 테이블</span><span class="sxs-lookup"><span data-stu-id="e11a0-104">FrontEnd table in Skype for Business Server 2015</span></span>
+# <a name="frontend-table-in-skype-for-business-server-2015"></a><span data-ttu-id="607b6-104">비즈니스용 Skype 서버의 FrontEnd 테이블</span><span class="sxs-lookup"><span data-stu-id="607b6-104">FrontEnd table in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="e11a0-105">FrontEnd 테이블은 내부 용도로만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="e11a0-105">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="e11a0-106">이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="e11a0-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="607b6-105">FrontEnd 테이블은 내부 용도로만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="607b6-105">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="607b6-106">이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="607b6-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

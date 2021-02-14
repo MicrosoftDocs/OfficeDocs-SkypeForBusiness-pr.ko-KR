@@ -22,9 +22,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820138"
 ---
-# <a name="select-from-active-directory"></a><span data-ttu-id="311c0-105">Active Directory에서 선택</span><span class="sxs-lookup"><span data-stu-id="311c0-105">Select from Active Directory</span></span>
+# <a name="select-from-active-directory"></a><span data-ttu-id="78fea-105">Active Directory에서 선택</span><span class="sxs-lookup"><span data-stu-id="78fea-105">Select from Active Directory</span></span>
  
-<span data-ttu-id="311c0-106">Active **Directory에서 선택** 대화 상자를 사용하여 비즈니스용 Skype 서버에 대해 사용하도록 설정할 사용자를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="311c0-106">Use the **Select from Active Directory** dialog box to find users who you want to enable for Skype for Business Server.</span></span> <span data-ttu-id="311c0-107">검색 상자에 찾을 사용자의 SIP 주소 또는 표시 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="311c0-107">In the search box, type the SIP address or display name of the user you want to find.</span></span> <span data-ttu-id="311c0-108">사용 가능한 모든 사용자를 검색하기 위해 검색 상자에 아무 것도 입력하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="311c0-108">To retrieve all available users, do not type anything in the search box.</span></span>
+<span data-ttu-id="78fea-106">Active **Directory에서 선택** 대화 상자를 사용하여 비즈니스용 Skype 서버에 대해 사용하도록 설정할 사용자를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="78fea-106">Use the **Select from Active Directory** dialog box to find users who you want to enable for Skype for Business Server.</span></span> <span data-ttu-id="78fea-107">검색 상자에 찾을 사용자의 SIP 주소 또는 표시 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="78fea-107">In the search box, type the SIP address or display name of the user you want to find.</span></span> <span data-ttu-id="78fea-108">사용 가능한 모든 사용자를 검색하기 위해 검색 상자에 아무 것도 입력하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="78fea-108">To retrieve all available users, do not type anything in the search box.</span></span>
   
  
   
