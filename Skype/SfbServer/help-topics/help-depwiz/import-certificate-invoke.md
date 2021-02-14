@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827258"
 ---
-# <a name="import-certificate-invoke"></a><span data-ttu-id="e69ac-107">인증서 가져오기(호출)</span><span class="sxs-lookup"><span data-stu-id="e69ac-107">Import Certificate (Invoke)</span></span>
+# <a name="import-certificate-invoke"></a><span data-ttu-id="a772b-107">인증서 가져오기(호출)</span><span class="sxs-lookup"><span data-stu-id="a772b-107">Import Certificate (Invoke)</span></span>
  
-<span data-ttu-id="e69ac-p102">**명령 실행** 페이지에서 가져온 인증서에 대한 요약 정보를 검토합니다. 드롭다운 목록에서 인증서 가져오기 로그 파일을 선택합니다. 드롭다운 목록에 인증서 가져오기 로그 파일이 표시되는지 확인합니다. **로그 보기** 를 클릭하여 인증서 가져오기 정보를 검토합니다. 요약 및 로그 파일 검토를 마쳤으면 **마침** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e69ac-p102">On the **Executing Commands** page, review the summary information for the imported certificate. In the drop-down list, select the Import Certificate log file. Be sure that the Import Certificate log file is visible in the drop-down list. Click **View Log** to review the details of the certificate import. When you are finished reviewing the summary and the log file, click **Finish**.</span></span>
+<span data-ttu-id="a772b-p102">**명령 실행** 페이지에서 가져온 인증서에 대한 요약 정보를 검토합니다. 드롭다운 목록에서 인증서 가져오기 로그 파일을 선택합니다. 드롭다운 목록에 인증서 가져오기 로그 파일이 표시되는지 확인합니다. **로그 보기** 를 클릭하여 인증서 가져오기 정보를 검토합니다. 요약 및 로그 파일 검토를 마쳤으면 **마침** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a772b-p102">On the **Executing Commands** page, review the summary information for the imported certificate. In the drop-down list, select the Import Certificate log file. Be sure that the Import Certificate log file is visible in the drop-down list. Click **View Log** to review the details of the certificate import. When you are finished reviewing the summary and the log file, click **Finish**.</span></span>
   
 

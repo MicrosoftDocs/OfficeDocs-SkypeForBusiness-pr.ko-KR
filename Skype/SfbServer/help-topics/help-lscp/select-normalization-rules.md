@@ -22,12 +22,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829098"
 ---
-# <a name="select-normalization-rules"></a><span data-ttu-id="6958f-104">정규화 규칙 선택</span><span class="sxs-lookup"><span data-stu-id="6958f-104">Select Normalization Rules</span></span>
+# <a name="select-normalization-rules"></a><span data-ttu-id="a9a5d-104">정규화 규칙 선택</span><span class="sxs-lookup"><span data-stu-id="a9a5d-104">Select Normalization Rules</span></span>
  
-<span data-ttu-id="6958f-105">정규화 규칙은 .NET Framework 정규식을 사용하여 전화 걸기 번호를 E.164 형식으로 변환합니다.</span><span class="sxs-lookup"><span data-stu-id="6958f-105">Normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format.</span></span> <span data-ttu-id="6958f-106">각 다이얼 플랜에는 하나 이상의 정규화 규칙을 할당해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6958f-106">Each dial plan must be assigned one or more normalization rules.</span></span>
+<span data-ttu-id="a9a5d-105">정규화 규칙은 .NET Framework 정규식을 사용하여 전화 걸기 번호를 E.164 형식으로 변환합니다.</span><span class="sxs-lookup"><span data-stu-id="a9a5d-105">Normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format.</span></span> <span data-ttu-id="a9a5d-106">각 다이얼 플랜에는 하나 이상의 정규화 규칙을 할당해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9a5d-106">Each dial plan must be assigned one or more normalization rules.</span></span>
   
-<span data-ttu-id="6958f-107">기존 정규화 규칙을 사용하려면 목록에서 규칙을 클릭한 다음 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6958f-107">To use an existing normalization rule, click a rule in the list and then click **OK**.</span></span>
+<span data-ttu-id="a9a5d-107">기존 정규화 규칙을 사용하려면 목록에서 규칙을 클릭한 다음 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a9a5d-107">To use an existing normalization rule, click a rule in the list and then click **OK**.</span></span>
   
-<span data-ttu-id="6958f-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="6958f-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="a9a5d-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="a9a5d-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

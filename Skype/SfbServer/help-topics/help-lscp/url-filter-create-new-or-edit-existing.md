@@ -22,13 +22,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826818"
 ---
-# <a name="url-filter-create-new-or-edit-existing"></a><span data-ttu-id="c28d8-104">URL 필터: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="c28d8-104">URL Filter: Create New or Edit Existing</span></span>
+# <a name="url-filter-create-new-or-edit-existing"></a><span data-ttu-id="dbd50-104">URL 필터: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="dbd50-104">URL Filter: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="c28d8-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="c28d8-105">What do you want to do?</span></span> <span data-ttu-id="c28d8-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c28d8-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="dbd50-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="dbd50-105">What do you want to do?</span></span> <span data-ttu-id="dbd50-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="dbd50-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="c28d8-107">기본 URL 필터 수정</span><span class="sxs-lookup"><span data-stu-id="c28d8-107">Modify the Default URL Filter</span></span>](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [<span data-ttu-id="dbd50-107">기본 URL 필터 수정</span><span class="sxs-lookup"><span data-stu-id="dbd50-107">Modify the Default URL Filter</span></span>](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
 
-- [<span data-ttu-id="c28d8-108">IM 대화에서 하이퍼링크를 처리할 새 URL 필터 만들기</span><span class="sxs-lookup"><span data-stu-id="c28d8-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [<span data-ttu-id="dbd50-108">IM 대화에서 하이퍼링크를 처리할 새 URL 필터 만들기</span><span class="sxs-lookup"><span data-stu-id="dbd50-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
 
-<span data-ttu-id="c28d8-109">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="c28d8-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="dbd50-109">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="dbd50-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

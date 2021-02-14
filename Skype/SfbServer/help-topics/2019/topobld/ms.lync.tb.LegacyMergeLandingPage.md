@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827438"
 ---
-# <a name="legacy-merge-landing"></a><span data-ttu-id="b6bdd-105">레거시 병합 Landing</span><span class="sxs-lookup"><span data-stu-id="b6bdd-105">Legacy Merge Landing</span></span>
+# <a name="legacy-merge-landing"></a><span data-ttu-id="e3c87-105">레거시 병합 Landing</span><span class="sxs-lookup"><span data-stu-id="e3c87-105">Legacy Merge Landing</span></span>
  
-<span data-ttu-id="b6bdd-106">**에지 설정 지정 페이지에서** 레거시 에지 서버 정보를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b6bdd-106">The **Specify Edge Setup** page enables you to configure your legacy Edge Server information.</span></span> <span data-ttu-id="b6bdd-107">Office Communications Server 배포의 레거시 에지 서버 버전을 지정하려면 **추가** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b6bdd-107">Click **Add** to specify the legacy Edge Server version of your Office Communications Server deployment.</span></span> <span data-ttu-id="b6bdd-108">레거시 환경에 에지 서버가 없는 경우 계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b6bdd-108">If you do not have any Edge Servers in your legacy environment, click **Next** to continue.</span></span>
+<span data-ttu-id="e3c87-106">**에지 설정 지정 페이지에서** 레거시 에지 서버 정보를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e3c87-106">The **Specify Edge Setup** page enables you to configure your legacy Edge Server information.</span></span> <span data-ttu-id="e3c87-107">Office Communications Server 배포의 레거시 에지 서버 버전을 지정하려면 **추가** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e3c87-107">Click **Add** to specify the legacy Edge Server version of your Office Communications Server deployment.</span></span> <span data-ttu-id="e3c87-108">레거시 환경에 에지 서버가 없는 경우 계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e3c87-108">If you do not have any Edge Servers in your legacy environment, click **Next** to continue.</span></span>
   
 

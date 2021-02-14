@@ -22,13 +22,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829208"
 ---
-# <a name="select-a-region-link"></a><span data-ttu-id="0484f-104">지역 링크 선택</span><span class="sxs-lookup"><span data-stu-id="0484f-104">Select a Region Link</span></span>
+# <a name="select-a-region-link"></a><span data-ttu-id="1052a-104">지역 링크 선택</span><span class="sxs-lookup"><span data-stu-id="1052a-104">Select a Region Link</span></span>
  
-<span data-ttu-id="0484f-105">지역 링크 **대화** 상자를 사용하여 환경에서 사용 가능한 지역 링크를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0484f-105">Use the **Region Link** dialog box to find region links available in your environment.</span></span> <span data-ttu-id="0484f-106">기존 지역 링크를 사용하려면 목록에서 지역 링크를 클릭한 다음 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0484f-106">To use an existing region link, click a region link in the list and then click **OK**.</span></span>
+<span data-ttu-id="1052a-105">지역 링크 **대화** 상자를 사용하여 환경에서 사용 가능한 지역 링크를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1052a-105">Use the **Region Link** dialog box to find region links available in your environment.</span></span> <span data-ttu-id="1052a-106">기존 지역 링크를 사용하려면 목록에서 지역 링크를 클릭한 다음 **확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="1052a-106">To use an existing region link, click a region link in the list and then click **OK**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="0484f-107">사용 가능한 모든 지역 링크를 검색하려면 검색 상자에 아무런 내용을 입력하지 않고 검색 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0484f-107">To retrieve all available region links, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="1052a-107">사용 가능한 모든 지역 링크를 검색하려면 검색 상자에 아무런 내용을 입력하지 않고 검색 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="1052a-107">To retrieve all available region links, do not type anything in the search box and then click the search icon.</span></span> 
   
-<span data-ttu-id="0484f-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="0484f-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="1052a-108">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="1052a-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

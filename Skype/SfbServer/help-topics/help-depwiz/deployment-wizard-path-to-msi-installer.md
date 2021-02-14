@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827368"
 ---
-# <a name="deployment-wizard-path-to-msi-installer"></a><span data-ttu-id="bd622-103">배포 마법사: MSI 설치 관리자로의 경로</span><span class="sxs-lookup"><span data-stu-id="bd622-103">Deployment Wizard: Path to MSI installer</span></span>
+# <a name="deployment-wizard-path-to-msi-installer"></a><span data-ttu-id="501db-103">배포 마법사: MSI 설치 관리자로의 경로</span><span class="sxs-lookup"><span data-stu-id="501db-103">Deployment Wizard: Path to MSI installer</span></span>
  
-<span data-ttu-id="bd622-104">배포 마법사를 사용하여 비즈니스용 Skype 서버 2015를 설치하는 자세한 내용은 비즈니스용 [Skype 서버 2015 설치를 참조하세요.](../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="bd622-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="501db-104">배포 마법사를 사용하여 비즈니스용 Skype 서버 2015를 설치하는 자세한 내용은 비즈니스용 [Skype 서버 2015 설치를 참조하세요.](../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="501db-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 

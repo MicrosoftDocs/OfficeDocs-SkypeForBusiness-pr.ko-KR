@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826688"
 ---
-# <a name="add-edge-server-external-ipv6"></a><span data-ttu-id="cd1b6-103">에지 서버 외부 IPv6 추가</span><span class="sxs-lookup"><span data-stu-id="cd1b6-103">Add Edge Server External IPv6</span></span>
+# <a name="add-edge-server-external-ipv6"></a><span data-ttu-id="112dd-103">에지 서버 외부 IPv6 추가</span><span class="sxs-lookup"><span data-stu-id="112dd-103">Add Edge Server External IPv6</span></span>
  
-<span data-ttu-id="cd1b6-104">외부 **IPv6 주소에** 액세스 에지 서비스, 웹 회의 에지 서비스 및 A/V 에지 서비스를 지점하는 외부 IP 주소를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="cd1b6-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="112dd-104">외부 **IPv6 주소에** 액세스 에지 서비스, 웹 회의 에지 서비스 및 A/V 에지 서비스를 지점하는 외부 IP 주소를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="112dd-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

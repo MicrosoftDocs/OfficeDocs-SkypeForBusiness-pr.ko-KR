@@ -23,8 +23,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49828758"
 ---
-# <a name="media-bypass-planning-tool"></a><span data-ttu-id="7db1d-104">미디어 우회(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="7db1d-104">Media Bypass (Planning Tool)</span></span>
+# <a name="media-bypass-planning-tool"></a><span data-ttu-id="4ec02-104">미디어 우회(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="4ec02-104">Media Bypass (Planning Tool)</span></span>
  
-<span data-ttu-id="7db1d-105">미디어 바이패스는 신호가 중재 서버를 트래버스하는 통화에 대해 가능할 때마다 미디어 경로에서 중재 서버를 제거하는 것을 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="7db1d-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="7db1d-106">자세한 내용은 비즈니스용 [Skype 2015의](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)미디어 우회 계획을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="7db1d-106">For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
+<span data-ttu-id="4ec02-105">미디어 바이패스는 신호가 중재 서버를 트래버스하는 통화에 대해 가능할 때마다 미디어 경로에서 중재 서버를 제거하는 것을 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="4ec02-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="4ec02-106">자세한 내용은 비즈니스용 [Skype 2015의](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)미디어 우회 계획을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="4ec02-106">For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
   
 

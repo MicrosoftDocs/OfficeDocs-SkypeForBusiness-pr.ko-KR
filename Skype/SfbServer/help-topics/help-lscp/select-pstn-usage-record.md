@@ -22,13 +22,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829088"
 ---
-# <a name="select-pstn-usage-record"></a><span data-ttu-id="3fc27-103">PSTN 사용 레코드 선택</span><span class="sxs-lookup"><span data-stu-id="3fc27-103">Select PSTN Usage Record</span></span>
+# <a name="select-pstn-usage-record"></a><span data-ttu-id="c4725-103">PSTN 사용 레코드 선택</span><span class="sxs-lookup"><span data-stu-id="c4725-103">Select PSTN Usage Record</span></span>
  
-<span data-ttu-id="3fc27-104">**PSTN 사용 레코드 선택** 대화 상자를 사용하여 사용할 수 있는 기존 공중 전화망(PSTN) 사용 레코드를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="3fc27-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
+<span data-ttu-id="c4725-104">**PSTN 사용 레코드 선택** 대화 상자를 사용하여 사용할 수 있는 기존 공중 전화망(PSTN) 사용 레코드를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="c4725-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="3fc27-105">사용 가능한 모든 PSTN 사용 레코드를 검색하려면 검색 상자에 아무런 내용을 입력하지 않고 검색 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3fc27-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="c4725-105">사용 가능한 모든 PSTN 사용 레코드를 검색하려면 검색 상자에 아무런 내용을 입력하지 않고 검색 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c4725-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
   
-<span data-ttu-id="3fc27-106">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="3fc27-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="c4725-106">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="c4725-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
