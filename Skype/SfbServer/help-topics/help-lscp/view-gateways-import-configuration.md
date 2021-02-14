@@ -22,10 +22,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49814528"
 ---
-# <a name="view-gateways-import-configuration"></a><span data-ttu-id="8b7a7-103">게이트웨이 보기(구성 가져오기)</span><span class="sxs-lookup"><span data-stu-id="8b7a7-103">View Gateways (Import Configuration)</span></span>
+# <a name="view-gateways-import-configuration"></a><span data-ttu-id="05d5b-103">게이트웨이 보기(구성 가져오기)</span><span class="sxs-lookup"><span data-stu-id="05d5b-103">View Gateways (Import Configuration)</span></span>
  
-<span data-ttu-id="8b7a7-104">**배포된 게이트웨이** 에서 선택한 음성 구성 파일을 가져올 게이트웨이를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8b7a7-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
+<span data-ttu-id="05d5b-104">**배포된 게이트웨이** 에서 선택한 음성 구성 파일을 가져올 게이트웨이를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="05d5b-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
   
-<span data-ttu-id="8b7a7-105">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="8b7a7-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="05d5b-105">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="05d5b-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

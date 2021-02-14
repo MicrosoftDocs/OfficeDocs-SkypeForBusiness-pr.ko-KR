@@ -22,9 +22,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812158"
 ---
-# <a name="pin-set-successfully"></a><span data-ttu-id="074e6-104">PIN 설정 완료</span><span class="sxs-lookup"><span data-stu-id="074e6-104">PIN Set Successfully</span></span>
+# <a name="pin-set-successfully"></a><span data-ttu-id="9167d-104">PIN 설정 완료</span><span class="sxs-lookup"><span data-stu-id="9167d-104">PIN Set Successfully</span></span>
  
-<span data-ttu-id="074e6-105">전자 메일을 사용하여 사용자에게 PIN을 보내려면 전자 메일 응용 프로그램 열기를 클릭하여 사용자에게 새 **PIN을 전송합니다.**</span><span class="sxs-lookup"><span data-stu-id="074e6-105">To use email to send the PIN to the user, click **Open my email application to send the new PIN to the user**.</span></span> <span data-ttu-id="074e6-106">PIN을 전자 메일 메시지에 복사하려면 **PIN 표시를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="074e6-106">To copy the PIN into the email message, select **Show PIN**.</span></span> 
+<span data-ttu-id="9167d-105">전자 메일을 사용하여 사용자에게 PIN을 보내려면 전자 메일 응용 프로그램 열기를 클릭하여 사용자에게 새 **PIN을 전송합니다.**</span><span class="sxs-lookup"><span data-stu-id="9167d-105">To use email to send the PIN to the user, click **Open my email application to send the new PIN to the user**.</span></span> <span data-ttu-id="9167d-106">PIN을 전자 메일 메시지에 복사하려면 **PIN 표시를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="9167d-106">To copy the PIN into the email message, select **Show PIN**.</span></span> 
   
  
   

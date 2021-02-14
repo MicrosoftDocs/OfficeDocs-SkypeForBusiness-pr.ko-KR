@@ -20,8 +20,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49813118"
 ---
-# <a name="msmqprocessing-table"></a><span data-ttu-id="a0319-104">MSMQProcessing 테이블</span><span class="sxs-lookup"><span data-stu-id="a0319-104">MSMQProcessing table</span></span>
+# <a name="msmqprocessing-table"></a><span data-ttu-id="a5b59-104">MSMQProcessing 테이블</span><span class="sxs-lookup"><span data-stu-id="a5b59-104">MSMQProcessing table</span></span>
  
-<span data-ttu-id="a0319-105">MSMQProcessing 테이블은 내부 전용입니다.</span><span class="sxs-lookup"><span data-stu-id="a0319-105">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="a0319-106">이 표는 비즈니스용 Skype 서버 2015에서 도입된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="a0319-106">This table was introduced in Skype for Business Server 2015.</span></span>
+<span data-ttu-id="a5b59-105">MSMQProcessing 테이블은 내부 전용입니다.</span><span class="sxs-lookup"><span data-stu-id="a5b59-105">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="a5b59-106">이 표는 비즈니스용 Skype 서버 2015에서 도입된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="a5b59-106">This table was introduced in Skype for Business Server 2015.</span></span>
   
 

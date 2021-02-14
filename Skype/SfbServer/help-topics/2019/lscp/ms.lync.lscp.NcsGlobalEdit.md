@@ -22,13 +22,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812188"
 ---
-# <a name="network-configuration-edit-global-setting"></a><span data-ttu-id="541fa-104">네트워크 구성: 전역 설정 편집</span><span class="sxs-lookup"><span data-stu-id="541fa-104">Network Configuration: Edit Global Setting</span></span>
+# <a name="network-configuration-edit-global-setting"></a><span data-ttu-id="525b9-104">네트워크 구성: 전역 설정 편집</span><span class="sxs-lookup"><span data-stu-id="525b9-104">Network Configuration: Edit Global Setting</span></span>
 
-<span data-ttu-id="541fa-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="541fa-105">What do you want to do?</span></span> <span data-ttu-id="541fa-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="541fa-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="525b9-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="525b9-105">What do you want to do?</span></span> <span data-ttu-id="525b9-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="525b9-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="541fa-107">통화 허용 제어 사용</span><span class="sxs-lookup"><span data-stu-id="541fa-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [<span data-ttu-id="525b9-107">통화 허용 제어 사용</span><span class="sxs-lookup"><span data-stu-id="525b9-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
 
-- [<span data-ttu-id="541fa-108">미디어 우회 사용</span><span class="sxs-lookup"><span data-stu-id="541fa-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+- [<span data-ttu-id="525b9-108">미디어 우회 사용</span><span class="sxs-lookup"><span data-stu-id="525b9-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
 
 
 

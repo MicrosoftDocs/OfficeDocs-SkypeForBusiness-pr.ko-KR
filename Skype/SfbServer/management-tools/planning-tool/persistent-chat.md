@@ -21,10 +21,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49814108"
 ---
-# <a name="persistent-chat-planning-tool"></a><span data-ttu-id="9bfc8-103">영구 채팅(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="9bfc8-103">Persistent Chat (Planning Tool)</span></span>
+# <a name="persistent-chat-planning-tool"></a><span data-ttu-id="ef489-103">영구 채팅(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="ef489-103">Persistent Chat (Planning Tool)</span></span>
  
-<span data-ttu-id="9bfc8-104">영구 채팅 서버를 사용하면 시간이 지날 때 지속되는 주제 기반의 여러 대화에 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9bfc8-104">Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.</span></span>
+<span data-ttu-id="ef489-104">영구 채팅 서버를 사용하면 시간이 지날 때 지속되는 주제 기반의 여러 대화에 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ef489-104">Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.</span></span>
   
-<span data-ttu-id="9bfc8-105">영구 채팅 서버를 위한 환경을 준비하는 데 대한 자세한 내용은 비즈니스용 Skype 서버 2015의 영구 채팅 서버 [계획(Plan for Persistent Chat Server)을 참조하세요.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)</span><span class="sxs-lookup"><span data-stu-id="9bfc8-105">For more details about preparing your environment for Persistent Chat Server, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).</span></span>
+<span data-ttu-id="ef489-105">영구 채팅 서버를 위한 환경을 준비하는 데 대한 자세한 내용은 비즈니스용 Skype 서버 2015의 영구 채팅 서버 [계획(Plan for Persistent Chat Server)을 참조하세요.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)</span><span class="sxs-lookup"><span data-stu-id="ef489-105">For more details about preparing your environment for Persistent Chat Server, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).</span></span>
   
 

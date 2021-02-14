@@ -22,10 +22,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49811898"
 ---
-# <a name="add-director-features"></a><span data-ttu-id="9dea6-103">디렉터 기능 추가</span><span class="sxs-lookup"><span data-stu-id="9dea6-103">Add Director Features</span></span>
+# <a name="add-director-features"></a><span data-ttu-id="902f6-103">디렉터 기능 추가</span><span class="sxs-lookup"><span data-stu-id="902f6-103">Add Director Features</span></span>
 
-<span data-ttu-id="9dea6-104">모니터링 서버를 포함하려면 모니터링(CDR 및 **QoE 메트릭)을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="9dea6-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
+<span data-ttu-id="902f6-104">모니터링 서버를 포함하려면 모니터링(CDR 및 **QoE 메트릭)을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="902f6-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
 
-<span data-ttu-id="9dea6-105">Director 풀을 추가하는 데 대한 [](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) 자세한 내용은 Director에 대한 시나리오 및 Director [설정(Setting Up the Director)을 참조합니다.](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)</span><span class="sxs-lookup"><span data-stu-id="9dea6-105">For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span></span>
+<span data-ttu-id="902f6-105">Director 풀을 추가하는 데 대한 [](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) 자세한 내용은 Director에 대한 시나리오 및 Director [설정(Setting Up the Director)을 참조합니다.](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)</span><span class="sxs-lookup"><span data-stu-id="902f6-105">For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span></span>
 
 

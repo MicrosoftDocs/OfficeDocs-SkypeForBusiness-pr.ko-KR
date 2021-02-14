@@ -20,16 +20,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49813448"
 ---
-# <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a><span data-ttu-id="becdf-103">비즈니스용 Skype 서버의 CDR(통화 정보 기록) 데이터베이스 schema</span><span class="sxs-lookup"><span data-stu-id="becdf-103">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>
+# <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a><span data-ttu-id="cf2f1-103">비즈니스용 Skype 서버의 CDR(통화 정보 기록) 데이터베이스 schema</span><span class="sxs-lookup"><span data-stu-id="cf2f1-103">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="becdf-104">이 문서에서는 비즈니스용 Skype 서버 2015의 CDR(통화 정보 기록) 데이터베이스의 스마마를 문서화합니다.</span><span class="sxs-lookup"><span data-stu-id="becdf-104">This documents the schema of the call detail recording (CDR) database in Skype for Business Server 2015 .</span></span>
+<span data-ttu-id="cf2f1-104">이 문서에서는 비즈니스용 Skype 서버 2015의 CDR(통화 정보 기록) 데이터베이스의 스마마를 문서화합니다.</span><span class="sxs-lookup"><span data-stu-id="cf2f1-104">This documents the schema of the call detail recording (CDR) database in Skype for Business Server 2015 .</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="becdf-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="becdf-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cf2f1-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="cf2f1-105">In this section</span></span>
 
-- [<span data-ttu-id="becdf-106">비즈니스용 Skype 서버의 CDR 테이블 목록</span><span class="sxs-lookup"><span data-stu-id="becdf-106">List of CDR tables in Skype for Business Server 2015</span></span>](list-of-cdr-tables.md)
+- [<span data-ttu-id="cf2f1-106">비즈니스용 Skype 서버의 CDR 테이블 목록</span><span class="sxs-lookup"><span data-stu-id="cf2f1-106">List of CDR tables in Skype for Business Server 2015</span></span>](list-of-cdr-tables.md)
     
-- [<span data-ttu-id="becdf-107">비즈니스용 Skype 서버의 CDR 테이블 세부 정보</span><span class="sxs-lookup"><span data-stu-id="becdf-107">CDR table details in Skype for Business Server 2015</span></span>](cdr-table-details.md)
+- [<span data-ttu-id="cf2f1-107">비즈니스용 Skype 서버의 CDR 테이블 세부 정보</span><span class="sxs-lookup"><span data-stu-id="cf2f1-107">CDR table details in Skype for Business Server 2015</span></span>](cdr-table-details.md)
     
-- [<span data-ttu-id="becdf-108">CDR 보기 목록</span><span class="sxs-lookup"><span data-stu-id="becdf-108">List of CDR views</span></span>](list-of-cdr-views.md)
+- [<span data-ttu-id="cf2f1-108">CDR 보기 목록</span><span class="sxs-lookup"><span data-stu-id="cf2f1-108">List of CDR views</span></span>](list-of-cdr-views.md)
     
 
