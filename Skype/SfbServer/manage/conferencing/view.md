@@ -19,37 +19,37 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49817508"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server"></a><span data-ttu-id="721fa-103">비즈니스용 Skype 서버에서 회의 정책 보기</span><span class="sxs-lookup"><span data-stu-id="721fa-103">View conferencing policies in Skype for Business Server</span></span>
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a><span data-ttu-id="40f53-103">비즈니스용 Skype 서버에서 회의 정책 보기</span><span class="sxs-lookup"><span data-stu-id="40f53-103">View conferencing policies in Skype for Business Server</span></span>
  
-<span data-ttu-id="721fa-104">**요약:** 비즈니스용 Skype 서버에서 회의 정책을 보는 방법에 대해 자세히 알아보습니다.</span><span class="sxs-lookup"><span data-stu-id="721fa-104">**Summary:** Learn how to view conferencing policies in Skype for Business Server.</span></span>
+<span data-ttu-id="40f53-104">**요약:** 비즈니스용 Skype 서버에서 회의 정책을 보는 방법에 대해 자세히 알아보습니다.</span><span class="sxs-lookup"><span data-stu-id="40f53-104">**Summary:** Learn how to view conferencing policies in Skype for Business Server.</span></span>
   
-<span data-ttu-id="721fa-105">비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="721fa-105">You can view conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="40f53-105">비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40f53-105">You can view conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
   
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="721fa-106">비즈니스용 Skype 서버 제어판을 사용하여 회의 정책 보기</span><span class="sxs-lookup"><span data-stu-id="721fa-106">View conferencing policies by using Skype for Business Server Control Panel</span></span>
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="40f53-106">비즈니스용 Skype 서버 제어판을 사용하여 회의 정책 보기</span><span class="sxs-lookup"><span data-stu-id="40f53-106">View conferencing policies by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="721fa-107">CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="721fa-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="40f53-107">CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="40f53-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2.  <span data-ttu-id="721fa-108">비즈니스용 Skype 서버 제어판을 니다.</span><span class="sxs-lookup"><span data-stu-id="721fa-108">Open Skype for Business Server Control Panel.</span></span>
+2.  <span data-ttu-id="40f53-108">비즈니스용 Skype 서버 제어판을 니다.</span><span class="sxs-lookup"><span data-stu-id="40f53-108">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="721fa-109">왼쪽 탐색 모음에서 회의를 클릭한 다음 회의 **정책을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="721fa-109">In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.</span></span>
+3. <span data-ttu-id="40f53-109">왼쪽 탐색 모음에서 회의를 클릭한 다음 회의 **정책을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="40f53-109">In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.</span></span>
     
-4. <span data-ttu-id="721fa-110">회의 정책 **페이지에서** 보게 될 회의 정책을 두 번 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="721fa-110">On the **Conferencing Policy** page, double-click the conferencing policy that you would like to view.</span></span>
+4. <span data-ttu-id="40f53-110">회의 정책 **페이지에서** 보 원하는 회의 정책을 두 번 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="40f53-110">On the **Conferencing Policy** page, double-click the conferencing policy that you would like to view.</span></span>
     
-5. <span data-ttu-id="721fa-111">파일 **필터 편집에서** 세부 정보 **표시 확인란을** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="721fa-111">In **Edit File Filter**, select the **Show Details** check box.</span></span>
+5. <span data-ttu-id="40f53-111">파일 **필터 편집에서** 세부 정보 **표시 확인란을** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="40f53-111">In **Edit File Filter**, select the **Show Details** check box.</span></span>
     
-    <span data-ttu-id="721fa-112">**회의 정책 편집 - \<policy\>** 선택한 정책에 대한 설정이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="721fa-112">**Edit Conferencing Policy - \<policy\>** opens displaying the settings for the selected policy.</span></span>
+    <span data-ttu-id="40f53-112">**회의 정책 편집 - \<policy\>** 선택한 정책에 대한 설정이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="40f53-112">**Edit Conferencing Policy - \<policy\>** opens displaying the settings for the selected policy.</span></span>
     
-    <span data-ttu-id="721fa-113">설정을 구성하는 데 대한 자세한 내용은 비즈니스용 Skype 서버에서 회의 정책 [만들기를 참조하세요.](create-policies.md)</span><span class="sxs-lookup"><span data-stu-id="721fa-113">For details about configuring the settings, see [Create conferencing policies in Skype for Business Server](create-policies.md).</span></span>
+    <span data-ttu-id="40f53-113">설정을 구성하는 데 대한 자세한 내용은 비즈니스용 Skype 서버에서 회의 정책 [만들기를 참조하세요.](create-policies.md)</span><span class="sxs-lookup"><span data-stu-id="40f53-113">For details about configuring the settings, see [Create conferencing policies in Skype for Business Server](create-policies.md).</span></span>
     
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="721fa-114">비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책 보기</span><span class="sxs-lookup"><span data-stu-id="721fa-114">View conferencing policies by using Skype for Business Server Management Shell</span></span>
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="40f53-114">비즈니스용 Skype 서버 관리 셸을 사용하여 회의 정책 보기</span><span class="sxs-lookup"><span data-stu-id="40f53-114">View conferencing policies by using Skype for Business Server Management Shell</span></span>
 
-<span data-ttu-id="721fa-115">회의 정책을 보기 위해 **Get-CsConferencingPolicy** cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="721fa-115">To view conferencing policies, use the **Get-CsConferencingPolicy** cmdlet:</span></span>
+<span data-ttu-id="40f53-115">회의 정책을 보기 위해 **Get-CsConferencingPolicy** cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40f53-115">To view conferencing policies, use the **Get-CsConferencingPolicy** cmdlet:</span></span>
   
 ```PowerShell
 Get-CsConferencingPolicy
 ```
 
-<span data-ttu-id="721fa-116">이 cmdlet은 다음과 같은 정보를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="721fa-116">The cmdlet returns information such as the following:</span></span>
+<span data-ttu-id="40f53-116">이 cmdlet은 다음과 같은 정보를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="40f53-116">The cmdlet returns information such as the following:</span></span>
   
 <pre>
 Identity                                  : Global
@@ -88,6 +88,6 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-<span data-ttu-id="721fa-117">전체 구문 설명 및 매개 변수 목록을 비롯한 자세한 내용은 [Get-CsConferencingPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)</span><span class="sxs-lookup"><span data-stu-id="721fa-117">For more information, including a complete syntax description and list of parameters, see [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="40f53-117">전체 구문 설명 및 매개 변수 목록을 비롯한 자세한 내용은 [Get-CsConferencingPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)</span><span class="sxs-lookup"><span data-stu-id="40f53-117">For more information, including a complete syntax description and list of parameters, see [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).</span></span>
   
 

@@ -21,5 +21,5 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49818078"
 ---
-# <a name="topology-builder-lync-node"></a><span data-ttu-id="4ec1b-102">토폴로지 작성기 Lync 노드</span><span class="sxs-lookup"><span data-stu-id="4ec1b-102">Topology Builder Lync Node</span></span>
+# <a name="topology-builder-lync-node"></a><span data-ttu-id="e63f8-102">토폴로지 작성기 Lync 노드</span><span class="sxs-lookup"><span data-stu-id="e63f8-102">Topology Builder Lync Node</span></span>
  

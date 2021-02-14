@@ -22,12 +22,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49815368"
 ---
-# <a name="federated-domains"></a><span data-ttu-id="56622-104">페더레이션 도메인</span><span class="sxs-lookup"><span data-stu-id="56622-104">Federated Domains</span></span>
+# <a name="federated-domains"></a><span data-ttu-id="d55f5-104">페더레이션 도메인</span><span class="sxs-lookup"><span data-stu-id="d55f5-104">Federated Domains</span></span>
 
-<span data-ttu-id="56622-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="56622-105">What do you want to do?</span></span> <span data-ttu-id="56622-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="56622-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="d55f5-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="d55f5-105">What do you want to do?</span></span> <span data-ttu-id="d55f5-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d55f5-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="56622-107">페더타 파트너에 대한 액세스 구성</span><span class="sxs-lookup"><span data-stu-id="56622-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="d55f5-107">페더타 파트너에 대한 액세스 구성</span><span class="sxs-lookup"><span data-stu-id="d55f5-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="56622-108">페더타 파트너 액세스 모니터링 및 제어</span><span class="sxs-lookup"><span data-stu-id="56622-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="d55f5-108">페더타 파트너 액세스 모니터링 및 제어</span><span class="sxs-lookup"><span data-stu-id="d55f5-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 
