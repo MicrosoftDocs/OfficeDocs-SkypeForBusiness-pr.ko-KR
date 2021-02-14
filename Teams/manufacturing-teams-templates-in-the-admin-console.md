@@ -34,7 +34,7 @@ Teams 템플릿에는 제조 요구 사항을 중심으로 설계된 팀 구조�
 
 이 문서에서는 각 Teams 서식 파일을 소개하고 이를 사용하는 방법을 권장합니다.
 
-이 문서는 제조 조직 전체에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다. 조직에 Teams 서비스를 이미 배포했습니다. 아직 Teams를 롤아웃하지 않은 경우 먼저 Microsoft Teams를 롤아웃하는 [방법을 읽어 읽습니다.](How-to-roll-out-teams.md)
+이 문서는 제조 조직 전체에서 여러 팀을 계획, 배포 및 관리할 책임이 있는 경우를 위한 것입니다. 조직에 Teams 서비스를 이미 배포했습니다. 아직 Teams를 출시하지 않은 경우 먼저 Microsoft Teams를 롤아웃하는 [방법을 읽어 읽습니다.](How-to-roll-out-teams.md)
 
 일반적으로 팀 서식 파일에 대한 자세한 내용은 Teams 서식 파일 [시작을 참조합니다.](get-started-with-teams-templates-in-the-admin-console.md)
 

@@ -47,7 +47,7 @@ ms.locfileid: "49662423"
 
 Configuration Manager에서 제공하는 사용하기 쉬운 메서드를 사용하여 운영 체제 및 기타 애플리케이션을 여러 대상 디바이스에 배포할 수 있습니다.
 
-아래 설명된 접근 방식을 사용하여 구성 관리자 구성을 안내하고, 조직에 필요한 경우 이 지침 전체에 제공된 샘플 패키지 및 스크립트를 사용자 지정합니다.
+아래 설명된 방법을 사용하여 구성 관리자 구성을 안내하고, 조직에 필요한 경우 이 지침 전체에 제공된 샘플 패키지 및 스크립트를 사용자 지정합니다.
 
 ![구성 관리자를 사용한 Microsoft Teams Rooms 배포 프로세스](../media/room-systems-scale-image1.png)
 
@@ -60,7 +60,7 @@ Configuration Manager에서 제공하는 사용하기 쉬운 메서드를 사용
 
 ### <a name="microsoft-endpoint-configuration-manager-requirements"></a>Microsoft Endpoint Configuration Manager 요구 사항
 
--   Microsoft Endpoint Configuration Manager 버전은 1706 이상 이상이 되어야 합니다. 1710 이상을 사용하는 것이 좋습니다. Configuration [Manager에서 Windows 10에](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) 대한 지원을 확인하여 Configuration Manager에서 지원하는 Windows 10 버전에 대해 자세히 알아보는 것이 좋습니다.
+-   Microsoft Endpoint Configuration Manager 버전은 1706 이상이 되어야 합니다. 1710 이상을 사용하는 것이 좋습니다. Configuration [Manager에서 Windows 10에](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) 대한 지원을 확인하여 Configuration Manager에서 지원하는 Windows 10 버전에 대해 자세히 알아보는 것이 좋습니다.
 
 -   Windows 10용 지원되는 ADK(Windows 평가 및 배포 키트)를 설치해야 합니다. 다양한 버전의 Configuration Manager에서 사용할 수 있는 [Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) 버전을 참조하고 배포에 올바른 버전이 포함되어야 합니다.
 
@@ -84,13 +84,13 @@ Configuration Manager에서 제공하는 사용하기 쉬운 메서드를 사용
 
 ## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>운영 체제 배포를 위한 Microsoft Endpoint Configuration Manager 구성
 
-이 문서에서는 이미 정상 구성 관리자 배포가 있으며 구성 관리자를 처음부터 배포하고 구성하는 데 필요한 모든 단계를 자세히 설명하지는 않습니다. Microsoft [](https://docs.microsoft.com/configmgr/) Endpoint Configuration Manager에 대한 설명서 및 구성 지침은 훌륭한 리소스입니다. 구성 관리자를 아직 배포하지 않은 경우 이러한 리소스로 시작하는 것이 좋습니다.
+이 문서에서는 이미 정상 구성 관리자 배포가 있으며 구성 관리자를 처음부터 배포하고 구성하는 데 필요한 모든 단계를 자세히 설명하지는 않습니다. Microsoft [](https://docs.microsoft.com/configmgr/) Endpoint Configuration Manager에 대한 설명서 및 구성 지침은 훌륭한 리소스입니다. 아직 Configuration Manager를 배포하지 않은 경우 이러한 리소스로 시작하는 것이 좋습니다.
 
 다음 지침을 사용하여 OSD(운영 체제 배포) 기능이 올바르게 구성되었는지 확인합니다.
 
 ### <a name="validate-and-upgrade-configuration-manager"></a>구성 관리자 유효성 검사 및 업그레이드
 
-1.  구성 관리자 콘솔에서 관리 **업데이트** \> **및 서비스로 이동하세요.**
+1.  구성 관리자 콘솔에서 관리 **업데이트** \> **및 서비스로 이동**
 
 2.  아직 설치되지 않은 설치된 빌드 및 적용 가능한 업데이트를 확인합니다.
 
@@ -109,7 +109,7 @@ Configuration Manager에서 제공하는 사용하기 쉬운 메서드를 사용
     -   이 배포 지점이 들어오는 PXE 요청에 응답하도록 허용
     -   알 수 없는 컴퓨터 지원 사용
 
-4.  *선택 사항:* 멀티캐스트 지원을 사용하려면  멀티캐스트 탭을 선택하고 다음 설정을 사용하도록 설정해야 합니다.
+4.  *선택 사항:* 멀티캐스트 지원을 사용하도록 설정하려면 멀티캐스트 탭을 **선택하고** 다음 설정을 사용하도록 설정해야 합니다.
     -   멀티캐스트를 사용하여 여러 클라이언트에 동시에 데이터 보내기
     -   네트워크 팀의 권장에 따라 UDP 포트 범위 구성
 
@@ -122,7 +122,7 @@ Configuration Manager에서 제공하는 사용하기 쉬운 메서드를 사용
 3.  네트워크 **액세스 계정 탭을** 선택합니다. 하나 이상의 계정을 설정한 다음 확인을 **선택합니다.**
 
 > [!NOTE]
-> 계정에는 배포 지점 서버의 네트워크에서 이 컴퓨터에 **액세스하는** 것을 제외하고 특별한 권한이 필요하지 않습니다. 일반 도메인 사용자 계정이 적절합니다. 자세한 내용은 [Configuration Manager에서 사용되는 계정을 참조하세요.](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)
+> 계정에는 배포 지점 서버의 네트워크에서 **이** 컴퓨터에 액세스하는 것을 제외하고 특별한 권한이 필요하지 않습니다. 일반 도메인 사용자 계정이 적절합니다. 자세한 내용은 [Configuration Manager에서 사용되는 계정을 참조하세요.](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)
 
 ### <a name="configure-a-boot-image"></a>부팅 이미지 구성
 
@@ -144,15 +144,15 @@ Configuration Manager에서 제공하는 사용하기 쉬운 메서드를 사용
 
 6.  요청이 있는 경우 **예를** 선택하고 업데이트된 부팅 이미지를 배포 지점에 배포합니다.
 
-자세한 내용은 Configuration Manager를 사용하여 부팅 [이미지 관리를 참조하세요.](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images)
+자세한 내용은 [Configuration Manager를 사용하여 부팅 이미지 관리를 참조하세요.](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images)
 
 > [!NOTE]
-> 부팅 가능한 USB 미디어를 만들어 PXE 지원이 없는 환경에 대한 Configuration Manager 작업 시퀀스 기반 배포를 시작할 수 있습니다. 부팅 가능한 미디어에는 부팅 이미지, 선택적 사전 시작 명령 및 필요한 파일 및 Windows PE로 부팅하고 배포 프로세스의 나머지를 위해 Configuration Manager에 연결하는 구성 관리자 이진만 포함되어 있습니다. 자세한 내용은 부팅 가능한 미디어 [만들기를 참조하세요.](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)
+> 부팅 가능한 USB 미디어를 만들어 PXE 지원이 없는 환경에 대한 Configuration Manager 작업 시퀀스 기반 배포를 시작할 수 있습니다. 부팅 가능한 미디어에는 부팅 이미지, 선택적 사전 시작 명령 및 필요한 파일 및 Windows PE로 부팅하고 나머지 배포 프로세스에 대한 Configuration Manager에 연결하는 구성 관리자 이진만 포함되어 있습니다. 자세한 내용은 부팅 가능한 미디어 [만들기를 참조하세요.](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)
 
 ## <a name="create-configuration-manager-packages"></a>구성 관리자 패키지 만들기
 
 > [!IMPORTANT]
-> 각 SRS 설치 관리자 버전에 필요한 운영 체제 버전은 모든 MSI 릴리스에 따라 변경됩니다. 주어진 MSI에 가장 적합한 운영 체제 버전을 확인하려면 콘솔 설치 스크립트를 한 번 실행합니다. 자세한 내용은 [Microsoft Endpoint Configuration Manager를 사용하여 Microsoft Teams 회의실 배포를 참조합니다.](rooms-scale.md)
+> 각 SRS 설치 관리자 버전에 필요한 운영 체제 버전은 모든 MSI 릴리스에 따라 변경됩니다. 특정 MSI에 대한 최상의 운영 체제 버전을 확인하려면 콘솔 설치 스크립트를 한 번 실행합니다. 자세한 내용은 [Microsoft Endpoint Configuration Manager를 사용하여 Microsoft Teams 회의실 배포를 참조합니다.](rooms-scale.md)
 
 구성 관리자에는 Microsoft Teams 회의실 단위를 배포하고 구성하기 위해 여러 패키지가 필요합니다.
 
@@ -166,10 +166,10 @@ Configuration Manager에서 제공하는 사용하기 쉬운 메서드를 사용
 | SRS v2 - SRS 설정 구성         | 소프트웨어 패키지       | Microsoft Teams Rooms 앱 배포를 구성하는 패키지                          |
 | SRS v2 - OS 업데이트 패키지          | 소프트웨어 패키지       | 필수 운영 체제 업데이트를 배포하는 패키지                                      |
 | SRS v2 - 루트 인증서 패키지    | 소프트웨어 패키지       | 선택 사항 - 루트 인증서를 배포하는 패키지(도메인에 가입된 단위에는 필요 없음)  |
-| SRS v2 - Microsoft Monitoring Agent 패키지 | 소프트웨어 패키지       | 선택 사항 - Microsoft Operations Management Suite 에이전트 배포 및 구성 패키지|
+| SRS v2 - Microsoft Monitoring Agent 패키지 | 소프트웨어 패키지       | 선택 사항 - Microsoft Operations Management Suite 에이전트를 배포하고 구성하는 패키지|
 | SRS v2 - WinPE 백그라운드 패키지    | 소프트웨어 패키지       | 부팅 이미지와 함께 사용할 사용자 지정 배경 이미지용 패키지                           |
 | Windows 10 Enterprise                | 운영 체제 이미지 | 운영 체제 설치 파일용 패키지(install.wim)                          |
-| Surface Pro                          | 드라이버 패키지         | Microsoft Surface Pro용 디바이스 드라이버 및 펌웨어용 패키지                     |
+| Surface Pro                          | 드라이버 패키지         | Microsoft Surface Pro용 디바이스 드라이버 및 펌웨어 패키지                     |
 | Surface Pro 4                        | 드라이버 패키지         | Microsoft Surface Pro 4용 디바이스 드라이버 및 펌웨어 패키지                   |
 
 자세한 내용은 Configuration Manager의 패키지 [및 프로그램을 참조하세요.](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)
@@ -194,13 +194,13 @@ Microsoft Endpoint Configuration Manager 중앙 관리 사이트 또는 기본 �
     -   Windows 10 Enterprise
 
 > [!TIP]
-> 또한 [패키지의](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) 폴더 구조, 필요한 스크립트 및 가져오는 데 필요한 작업 시퀀스 템플릿을 포함하는 zip 파일을 다운로드하여 사용할 수도 있습니다.
+> 패키지의 [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) 폴더 구조, 사용해야 하는 스크립트 및 가져오는 데 필요한 작업 시퀀스 템플릿을 포함하는 zip 파일을 다운로드하여 사용할 수도 있습니다.
 
 ### <a name="create-the-monitoring-agent-package"></a>모니터링 에이전트 패키지 만들기
 
 1. 에서 모니터링 에이전트를 <https://go.microsoft.com/fwlink/?LinkId=828603> 다운로드합니다.
 
-2. 명령 프롬프트 창을 열고 명령 프롬프트에서MMASetup-AMD64.exe **/C를** 입력하여 **SRS v2 - Microsoft Monitoring Agent 패키지** 폴더에 패키지를 추출합니다.
+2. 명령 프롬프트 창을 열고 명령 프롬프트에서MMASetup-AMD64.exe **/C:를** 입력하여 **SRS v2 - Microsoft Monitoring Agent 패키지** 폴더에 패키지를 추출합니다.
 
 3. 구성 관리자 콘솔에서 **소프트웨어** 라이브러리 애플리케이션 관리 패키지로 이동한 다음 \>  \> 패키지 **만들기를 선택합니다.**
 
@@ -240,7 +240,7 @@ Microsoft Endpoint Configuration Manager 중앙 관리 사이트 또는 기본 �
    ```
 3. 필수 Windows 업데이트 패키지를 동일한 폴더에 다운로드합니다.
    > [!NOTE]
-   > 이 문서가 게시된 [당시에는 KB4056892만](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) 필요했습니다. Microsoft [Teams 회의실 콘솔 구성을](console.md)확인하여 다른 업데이트가 필요한지 확인합니다.
+   > 이 문서가 게시된 [당시에는 KB4056892만](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) 필요했습니다. Microsoft Teams 회의실 콘솔 [구성을](console.md)확인하여 다른 업데이트가 필요한지 확인합니다.
 
 4. 구성 관리자 콘솔에서 **소프트웨어** 라이브러리 애플리케이션 관리 패키지로 이동한 다음 \>  \> 패키지 **만들기를 선택합니다.**
 
@@ -248,7 +248,7 @@ Microsoft Endpoint Configuration Manager 중앙 관리 사이트 또는 기본 �
    -   이름: **SRS v2 – OS 업데이트 패키지**
    -   제조업체: **Microsoft Corporation**
    -   버전: **1.0.0**
-   -   이 **패키지에 원본** 파일이 포함된 확인란을 선택하고 **SRS v2 - OS** 업데이트 패키지 폴더의 경로를 입력한 다음 다음을 **선택합니다.**
+   -   이 **패키지에** 원본 파일 확인란을 선택하고 **SRS v2 - OS** 업데이트 패키지 폴더의 경로를 입력한 다음 다음을 **선택합니다.**
 
 6. 프로그램 **만들기 안 을 선택하고** 다음을 **선택합니다.**
 
@@ -258,9 +258,9 @@ Microsoft Endpoint Configuration Manager 중앙 관리 사이트 또는 기본 �
 
 ### <a name="create-the-root-certificate-package-optional"></a>루트 인증서 패키지 만들기(선택 사항)
 
-이 패키지를 만들어 Active Directory 도메인에 가입되지 않은 디바이스에 대한 루트 인증서를 배포합니다. 다음 조건이 모두 적용되는 경우 이 패키지를 만드기만 합니다.
+이 패키지를 만들어 Active Directory 도메인에 가입되지 않은 디바이스에 대한 루트 인증서를 배포합니다. 다음 조건이 모두 적용되는 경우 이 패키지를 만드기
 -   배포에는 온-프레미스 Lync 또는 비즈니스용 Skype 서버가 포함됩니다.
--   Microsoft Teams 회의실 단위는 도메인 구성원이 아닌 작업에서 작동하도록 구성됩니다.
+-   Microsoft Teams 회의실 단위는 도메인 구성원 대신 작업에서 작동하도록 구성됩니다.
 
 1.  루트 인증서를 **SRS v2 – 루트** 인증서 패키지 폴더에 복사합니다.
 
@@ -270,7 +270,7 @@ Microsoft Endpoint Configuration Manager 중앙 관리 사이트 또는 기본 �
     -   이름: **SRS v2 – 루트 인증서 패키지**
     -   제조업체: *조직의 이름*
     -   버전: **1.0.0**
-    -   원본 파일 **확인란이** 포함된 이 패키지를 선택하고 **SRS v2 –** 루트 인증서 패키지 폴더의 경로를 입력한 다음 다음을 **선택합니다.**
+    -   원본 파일 **확인란을** 포함하는 이 패키지를 선택하고 **SRS v2 –** 루트 인증서 패키지 폴더의 경로를 입력한 다음 다음을 **선택합니다.**
 
 4.  프로그램 **만들기 안 을 선택하고** 다음을 **선택합니다.**
 
@@ -280,7 +280,7 @@ Microsoft Endpoint Configuration Manager 중앙 관리 사이트 또는 기본 �
 
 ### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Microsoft Teams Rooms 배포 키트 패키지 만들기
 
-1.  최신 버전의 Microsoft **Teams Rooms** 배포 키트를 다운로드하여 작업 <https://go.microsoft.com/fwlink/?linkid=851168> 공간에 설치합니다.
+1.  최신 버전의 Microsoft **Teams Rooms** 배포 키트를 다운로드하고, 이를 <https://go.microsoft.com/fwlink/?linkid=851168> Workstation에 설치합니다.
 
 2.  **C: \\ 프로그램 파일(x86) \\ Skype 채팅방** 시스템 배포 키트에서 **SRS v2 - SRS 애플리케이션 패키지** 폴더로 콘텐츠를 복사합니다.
 
@@ -409,7 +409,7 @@ Microsoft Endpoint Configuration Manager 중앙 관리 사이트 또는 기본 �
 
 ### <a name="create-the-sysprep-package"></a>Sysprep 패키지 만들기
 
-1. **SRS v2 – Sysprep 패키지** 폴더에서 새 XML 파일을 **Unattend.xml.**
+1. **SRS v2 – Sysprep 패키지** 폴더에서 새 XML **파일을Unattend.xml.**
 
 2. 다음 텍스트를Unattend.xml **복사합니다.** 또는 여기에서 Unattend.xml 파일을 다운로드할 수 [있습니다.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)
    ```XML
@@ -469,7 +469,7 @@ Microsoft Endpoint Configuration Manager 중앙 관리 사이트 또는 기본 �
    -   이름: **SRS v2 - Sysprep 패키지**
    -   제조업체: **Microsoft Corporation**
    -   버전: **1.0.0**
-   -   원본 파일 **확인란을** 포함하는 이 패키지를 선택하고 **SRS v2 – Sysprep 패키지** 폴더의 경로를 입력한 후 다음을 **선택합니다.**
+   -   원본 파일 **확인란을** 포함하는 이 패키지를 선택하고 **SRS v2 – Sysprep 패키지** 폴더의 경로를 입력한 다음 다음을 **선택합니다.**
 5. 프로그램 **만들기 안 을 선택하고** 다음을 **선택합니다.**
 
 6. 설정 **확인 페이지를 검토하고** 다음을 **선택합니다.**
@@ -478,9 +478,9 @@ Microsoft Endpoint Configuration Manager 중앙 관리 사이트 또는 기본 �
 
 ### <a name="create-the-windows-10-enterprise-package"></a>Windows 10 Enterprise 패키지 만들기
 
-1.  Windows 10 Enterprise x64 미디어를 확보하고 **install.wim** 파일을 운영 체제 **\\ Windows 10 Enterprise** 폴더에 복사합니다.
+1.  Windows 10 Enterprise x64 미디어를 확보하고 **install.wim** 파일을 운영 체제 **\\ Windows 10 Enterprise 폴더에 복사합니다.**
 
-2.  구성 관리자 콘솔에서 **소프트웨어** 라이브러리 운영 체제 운영 체제 이미지로 이동한 다음 운영 체제 이미지 \>  \>  **추가를 선택합니다.**
+2.  구성 관리자 콘솔에서 **소프트웨어 라이브러리** 운영 체제 운영 체제 이미지로 이동한 다음 운영 체제 이미지 \>  \>  **추가를 선택합니다.**
 
 3.  방금 복사한 **install.wim 파일의** 경로를 지정하고 다음을 **선택합니다.**
 
@@ -523,7 +523,7 @@ Microsoft Teams 회의실은 Surface Pro 및 Surface Pro 4 모두에서 지원�
 
 10. 닫기 **선택**
 
-11. 소프트웨어 **라이브러리** \> **운영 체제** \> **드라이버로** **\>** 이동하여 폴더 만들기를 선택하고 방금 드라이버를 가져온 Surface Pro 모델과 일치하는 폴더 이름을 입력합니다.
+11. 소프트웨어 **라이브러리** \> **운영 체제** \> **드라이버로** **\>** 이동하여 폴더 만들기를 선택한 다음, 방금 드라이버를 가져온 Surface Pro 모델과 일치하는 폴더 이름을 입력합니다.
 
 12. 가져온 모든 드라이버를 새로 만든 폴더로 이동하여 쉽게 탐색하고 작업을 할 수 있습니다.
 
@@ -542,7 +542,7 @@ Microsoft Teams 회의실은 Surface Pro 및 Surface Pro 4 모두에서 지원�
 
     -   버전: **1.0.0**
 
-    -   이 **패키지에** 원본 파일 확인란을 선택하고 **SRS v2 - SRS** 설정 폴더 구성에 대한 경로를 입력한 다음 다음을 **선택합니다.**
+    -   원본 파일 **확인란을** 포함하는 이 패키지를 선택하고 **SRS v2 - SRS** 설정 폴더 구성에 대한 경로를 입력한 다음 다음을 **선택합니다.**
 
 3.  프로그램 **만들기 안 을 선택하고** 다음을 **선택합니다.**
 
@@ -564,7 +564,7 @@ Microsoft Teams 회의실은 Surface Pro 및 Surface Pro 4 모두에서 지원�
 
     3.  모든 배포 지점 서버(또는 구성 관리자 계층 구조에 따라 메일 지점 그룹)를 목록에 추가하고 다음을 **선택합니다.**
 
-    4.  **[다음]을** 선택하고 [닫기]를 **선택합니다.**
+    4.  다음을 **선택하고** **닫기 를 선택합니다.**
 
 2.  드라이버 패키지를 배포합니다.
 
@@ -574,7 +574,7 @@ Microsoft Teams 회의실은 Surface Pro 및 Surface Pro 4 모두에서 지원�
 
     3.  모든 배포 지점 서버(또는 구성 관리자 계층 구조에 따라 메일 지점 그룹)를 목록에 추가하고 다음을 **선택합니다.**
 
-    4.  **[다음]을** 선택하고 [닫기]를 **선택합니다.**
+    4.  다음을 **선택하고** **닫기 를 선택합니다.**
 
 3.  운영 체제 패키지를 배포합니다.
 
@@ -584,14 +584,14 @@ Microsoft Teams 회의실은 Surface Pro 및 Surface Pro 4 모두에서 지원�
 
     3.  모든 배포 지점 서버(또는 구성 관리자 계층 구조에 따라 메일 지점 그룹)를 목록에 추가하고 다음을 **선택합니다.**
 
-    4.  **[다음]을** 선택하고 [닫기]를 **선택합니다.**
+    4.  다음을 **선택하고** **닫기 를 선택합니다.**
 
 > [!NOTE]
 > 패키지 배포는 패키지 크기, Configuration Manager 계층 구조, 배포 지점 서버 수 및 네트워크에서 사용할 수 있는 대역폭에 따라 다소 시간이 걸릴 수 있습니다.
 > 
 > Microsoft Teams 회의실 단위 배포를 시작하기 전에 모든 패키지를 배포해야 합니다.
 > 
-> 배포 상태 콘텐츠 상태 모니터링으로 진행하여 구성 관리자  콘솔에서 패키지 배포 상태를 \> **검토할** \> **수 있습니다.**
+> 배포 상태 콘텐츠 상태 모니터링으로 진행하여 구성 관리자  콘솔에서 패키지 배포의 상태를 \>  \> **검토할 수 있습니다.**
 
 ## <a name="configuration-manager-task-sequences"></a>구성 관리자 작업 시퀀스
 
@@ -624,13 +624,13 @@ Microsoft Teams 회의실은 Surface Pro 및 Surface Pro 4 모두에서 지원�
 
    2. **파티션 디스크 0 – UEFI:** 이 단계는 디스크 구성을 지우고 구성된 설정에 따라 파티션을 만듭니다. 이 단계를 변경하지 않는 것이 좋습니다.
 
-   3. **SRS 컴퓨터** 이름 설정: 이 단계에서는 배포하는 동안 Microsoft Teams 회의실 단위의 컴퓨터 이름을 설정하는 UI를 제공하는 HTML 애플리케이션을 포함합니다.
+   3. **SRS 컴퓨터** 이름 설정: 이 단계에서는 배포 중에 Microsoft Teams 회의실 단위의 컴퓨터 이름을 설정하는 UI를 제공하는 HTML 애플리케이션을 포함합니다.
       -  선택적 단계이지만 대체 프로세스를 통해 컴퓨터 이름을 관리하려는 경우 비활성화할 수 있습니다.
       -  **SRS v2 - Set-SRSComputerName 패키지가** 선택되어 있는지 확인 그렇지 않은 경우 패키지를 찾아 선택합니다.
 
    4. **운영 체제** 적용: 이 단계에서는 배포할 운영 체제 이미지와 사용할 무인 Sysprep 응답 파일을 지정합니다.
       -  올바른 Windows 10 Enterprise 운영 체제 이미지 파일이 선택되어 있는지 확인합니다.
-      -  사용자 지정 설치에 무인 또는 **Sysprep 응답** 파일을 사용할 수 있는지 확인하고 **SRS v2 - Sysprep 패키지가** 선택되어 있는지 확인합니다. 또한 **파일** 이름이 다음으로 **설정되어unattend.xml.**
+      -  사용자 지정 설치에 무인 또는 **Sysprep 응답** 파일을 사용할 수 있는지 확인하고 **SRS v2 - Sysprep 패키지가** 선택되어 있는지 확인합니다. 또한 파일 **이름이** 다음으로 **설정되어unattend.xml.**
 
    5. **Windows 설정 적용:** 이 단계에서는 Windows 설치에 대한 정보를 수집합니다.
       -  제품 키, 로컬 관리자 계정 암호 및 표준 시간대를 포함한 라이선스 및 등록 정보를 제공합니다(요구에 따라 다를 수 있습니다).
@@ -653,10 +653,10 @@ Microsoft Teams 회의실은 Surface Pro 및 Surface Pro 4 모두에서 지원�
        -   이 단계를 편집하고 명령줄 매개 변수를 업데이트하여 작업 영역 **ID** 및 작업 영역 키를 **지정합니다.**
        -   Operations Management Suite 작업 영역 ID 및 기본 키를 얻는 데 대한 자세한 내용은 [Azure 모니터링에](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) 대한 테스트 디바이스 구성을 참조하세요.
        -   **SRS v2 – Microsoft Monitoring Agent 패키지** 및 사용 안 **64비트** 파일 시스템 리디렉션이 선택되어 있는지 확인
-       -   Microsoft Teams Rooms 배포의 상태 모니터링에 대한 자세한 내용은 [Azure Monitor를](azure-monitor-plan.md)사용하여 Microsoft Teams 회의실 관리 계획, Azure [Monitor를](azure-monitor-deploy.md) 사용하여 Microsoft Teams Rooms 관리 배포 및 [Azure Monitor를](azure-monitor-manage.md)사용하여 Microsoft Teams Rooms 디바이스 관리에 대한 자세한 정보를 참조하세요.
+       -   Microsoft Teams Rooms 배포의 상태 모니터링에 대한 자세한 내용은 [Azure Monitor를](azure-monitor-plan.md)사용하여 Microsoft Teams 회의실 관리 계획, Azure [Monitor를](azure-monitor-deploy.md) 사용하여 Microsoft Teams Rooms 관리 배포 및 [Azure Monitor를](azure-monitor-manage.md)사용하여 Microsoft Teams Rooms 디바이스 관리를 참조하세요.
 
    11. **SRS v2 구성** 파일 복사: 이 단계에서는 필요한 설정 및 구성 파일을 Microsoft Teams 회의실 배포 키트에서 로컬 하드 드라이브로 복사합니다. 이 단계에서는 사용자 지정이 필요하지 않습니다.
-       -   **SRS v2 – SRS 애플리케이션** 패키지 및 **64비트** 파일 시스템 리디렉션 사용 안 을 선택해야 합니다.
+       -   **SRS v2 – SRS 애플리케이션** 패키지 및 사용 안 **64비트 파일 시스템 리디렉션이 선택되어** 있는지 확인
 
    12. **Install-SRSv2-OS-Updates:** 이 단계에서는 Microsoft Teams Rooms 배포에 필요한 모든 필수 운영 체제 업데이트를 배포합니다. 다음을 수행합니다.
        -   필요한 [업데이트를 확인하려면 Microsoft Teams 회의실](console.md) 콘솔 구성을 확인합니다.
@@ -666,13 +666,13 @@ Microsoft Teams 회의실은 Surface Pro 및 Surface Pro 4 모두에서 지원�
 
    13. **컴퓨터 다시 시작:** 이 단계는 필수 운영 체제 업데이트가 설치된 후 컴퓨터를 다시 시작합니다. 이 단계에서는 사용자 지정이 필요하지 않습니다.
 
-   14. **Windows 구성 요소 구성: 이** 단계에서는 필요한 Windows 기능을 구성합니다. 이 단계에서는 사용자 지정이 필요하지 않습니다.
+   14. **Windows 구성 요소 구성:** 이 단계에서는 필요한 Windows 기능을 구성합니다. 이 단계에서는 사용자 지정이 필요하지 않습니다.
 
    15. **컴퓨터 다시 시작:** 이 단계는 Windows 기능이 구성된 후 컴퓨터를 다시 시작합니다. 이 단계에서는 사용자 지정이 필요하지 않습니다.
 
-   16. **로컬 Skype 사용자** 추가: 이 단계에서는 Windows에 자동으로 로그인하고 Microsoft Teams 회의실 응용 프로그램을 시작하는 데 사용되는 로컬 Skype 계정을 만듭니다. 이 단계에서는 소프트웨어 패키지와 연결된 소프트웨어 패키지가 없습니다. 이에 대한 사용자 지정은 필요하지 않습니다.
+   16. **로컬 Skype 사용자** 추가: 이 단계에서는 Windows에 자동으로 로그인하고 Microsoft Teams 회의실 응용 프로그램을 시작하는 데 사용되는 로컬 Skype 계정을 만듭니다. 이 단계에는 연결된 소프트웨어 패키지가 없습니다. 이에 대한 사용자 지정은 필요하지 않습니다.
 
-   17. **SRS** 애플리케이션 설정 및 구성: 이 단계에서는 운영 체제의 다음 부팅에 대해 Microsoft Teams Rooms 애플리케이션 설치를 구성합니다.
+   17. **SRS 애플리케이션** 설정 및 구성: 이 단계에서는 운영 체제의 다음 부팅에 대해 Microsoft Teams Rooms 애플리케이션 설치를 구성합니다.
        -   **SRS v2 – SRS 설정** 패키지 구성 및 **64비트** 파일 시스템 리디렉션 사용 안 하도록 설정이 선택되어 있는지 확인
 
 > [!IMPORTANT]
@@ -696,7 +696,7 @@ Microsoft Teams 회의실은 Surface Pro 및 Surface Pro 4 모두에서 지원�
    > [!WARNING]
    > 목적이 **사용** 가능으로 설정되어 있는 것이 **매우 중요합니다.** 목적이 **필수로** **설정되어 있지** **않은지 확인** 또한 다음에서 사용할 수 있도록 만들기에서 미디어 및 **PXE만** **선택해야 합니다.**
    >
-   > 이러한 값을 다른 값으로 설정하면 부팅 시 모든 컴퓨터에서 Microsoft Teams Rooms 배포 이미지를 얻을 수 있습니다.
+   > 이러한 값을 다른 값으로 설정하면 부팅 시 모든 컴퓨터에서 Microsoft Teams 회의실 배포 이미지를 얻을 수 있습니다.
 7. 일정을 지정하지 말고 다음을 **선택합니다.**
 
 8. 사용자 환경 섹션 내에서 아무 것도 **변경하지** 말고 다음을 **선택합니다.**
@@ -730,7 +730,7 @@ Microsoft Endpoint Configuration Manager 작업 시퀀스를 완료한 후 테�
 
     6.  다음 중 하나를 수행합니다.
 
-        -   **PXE 부팅을 선택하고** 목록 맨 위로 끌어서 놓습니다. 또는 네트워크 어댑터에서 왼쪽으로 스와이프하여 디바이스에 즉시 부팅할 수 있습니다. 부팅 순서에는 영향을 주지 않습니다.
+        -   **PXE 부팅을 선택하고** 목록 맨 위로 끌어다 놓습니다. 또는 네트워크 어댑터에서 왼쪽으로 스와이프하여 디바이스에 즉시 부팅할 수 있습니다. 부팅 순서에는 영향을 주지 않습니다.
         -   부팅 미디어가 있는 USB 플래시 드라이브를 선택합니다.
 
 3.  **종료를** 선택하고 지금 다시 **시작을 선택합니다.**
@@ -743,7 +743,7 @@ Microsoft Endpoint Configuration Manager 작업 시퀀스를 완료한 후 테�
 
 7.  디스크 구성이 적용된 후 디바이스의 컴퓨터 이름을 지정하라는 메시지가 표시됩니다. 사용자 인터페이스는 Surface Pro 디바이스의 일련 번호를 기반으로 권장되는 컴퓨터 이름을 표시합니다. 제안된 이름을 수락하거나 새 이름을 지정할 수 있습니다. 컴퓨터 이름 할당 화면의 지침을 따릅니다. **수락을 선택하면** 배포가 시작됩니다.
 
-8.  배포 프로세스의 나머지는 자동으로 수행하며 더 이상 사용자 입력을 요청하지 않습니다.
+8.  배포 프로세스의 나머지는 자동이기 때문에 더 이상 사용자 입력을 요청하지 않습니다.
 
 9.  배포 작업 시퀀스가 디바이스 구성을 완료하면 Microsoft Teams Rooms 애플리케이션 설정을 구성하도록 요청하는 다음 구성 화면이 표시됩니다.
 
@@ -764,7 +764,7 @@ SMSTS.log 파일은 빌드 프로세스의 단계에 따라 여러 경로 중 �
 | WinPE, HDD 형식 이전                                                        | X: \\ Windows \\ Temp \\ smstslog \\ smsts.log             |
 | WinPE, HDD 형식 이후                                                         | C: \\ _SMSTaskSequence \\ Logs \\ Smstslog \\ smsts.log    |
 | Configuration Manager 에이전트가 설치되기 전에 배포된 운영 체제 | c: \\ _SMSTaskSequence \\ Logs \\ Smstslog \\ smsts.log    |
-| 운영 체제 및 배포된 Configuration Manager 에이전트                   | %windir% \\ System32 \\ ccm \\ logs \\ Smstslog \\ smsts.log |
+| 운영 체제 및 배포된 구성 관리자 에이전트                   | %windir% \\ System32 \\ ccm \\ logs \\ Smstslog \\ smsts.log |
 | 작업 시퀀스 실행 완료                                                | %windir% \\ System32 \\ ccm \\ logs \\ smsts.log           |
 
 > [!TIP]
@@ -776,4 +776,4 @@ PXE 부팅 문제를 해결하려면 PXE 작업과 관련이 있는 Configuratio
 
 -   MP(Configuration Manager 관리 지점) 로그 디렉터리에 있는 **Smspxe.log**
 
-구성 관리자 설치 문제를 추가로 해결하는 데 사용할 수 있는 로그 파일의 전체 목록은 Microsoft Endpoint Configuration Manager [로그 파일 참조를 참조하세요.](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files)
+구성 관리자 설치 문제를 해결하는 데 사용할 수 있는 로그 파일의 전체 목록은 Microsoft Endpoint Configuration Manager 로그 파일 참조를 [참조하세요.](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files)

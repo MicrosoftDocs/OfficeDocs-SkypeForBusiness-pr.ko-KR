@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
-description: 'Microsoft 365 또는 Office 365용 오디오 회의(PSTN 회의) 라이선스를 시도하거나 구입하여 사람들이 전화를 걸 수 있는 전화 회의를 설정하는 방법을 참조합니다. '
+description: 'Microsoft 365 또는 Office 365용 오디오 회의(PSTN 회의) 라이선스를 구입하거나 구입하여 사람들이 전화를 걸 수 있는 전화 회의를 설정하는 방법을 참조합니다. '
 ms.openlocfilehash: 547e60b828c7baa36b21b8ad63ae08268c33d4dc
 ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "49701206"
 
 경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. Microsoft Teams에는 이 상황에 대한 오디오 회의 기능이 포함되어 있습니다. 모바일 장치나 PC에서 Microsoft Teams 앱을 사용하는 대신 전화를 사용하여 Microsoft Teams 모임에 참가할 수 있습니다.
 
-모임을 예약하거나 진행할 사용자에 대한 오디오 회의만 설정하면됩니다. 모임에 전화하는 모임 참석자들에게 할당된 라이선스는 필요하지 않습니다. 다른 설정은 필요하지 않습니다.
+모임을 예약하거나 진행할 사용자에 대한 오디오 회의만 설정하면됩니다. 모임에 전화하는 모임 참석자들에게 할당된 라이선스는 필요하지 않습니다. 다른 설정이 필요하지 않습니다.
 
 요금 정보는 [오디오 회의 요금](https://products.office.com/skype-for-business/audio-conferencing#Requirements)을 참조하세요.
 
@@ -45,9 +45,9 @@ ms.locfileid: "49701206"
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>사용자 오디오 회의 라이선스 구입 및 할당
 
-1. 국가/지역에서 **오디오 회의를** 사용할 수 있는지 확인 [오디오 회의 및](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)통화 요금제에 대한 국가 및 지역 가용성.
+1. 국가/지역에서 **오디오 회의를** 사용할 수 있는지 확인 오디오 회의 및 통화 요금제에 대한 국가 및 [지역 가용성.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-2. 오디오 **회의** 라이선스를 얻습니다. 원하는 경우:
+2. 오디오 **회의 라이선스를** 얻습니다. 원하는 경우:
 
    - **구입하기** 전에 사용해 볼 수 있습니다. 오디오 회의가 포함된 Office 365 Enterprise E5 무료 평가판에 등록할 수 있습니다. [Office 365 Enterprise E5 평가판을 참조합니다.](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)
 
@@ -61,9 +61,9 @@ ms.locfileid: "49701206"
 
 볼륨 및 라이선스 고객인 경우 분당 유료 오디오 회의 라이선스를 받을 수 있습니다. 분당 유료 오디오 회의 라이선스에 대한 자세한 내용은 분당 오디오 회의 유료를 [참조하세요.](audio-conferencing-pay-per-minute.md)
   
-1. 국가/지역에서 **오디오 회의를** 사용할 수 있는지 확인 [오디오 회의 및](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)통화 요금제에 대한 국가 및 지역 가용성.
+1. 국가/지역에서 **오디오 회의를** 사용할 수 있는지 확인 오디오 회의 및 통화 요금제에 대한 국가 및 [지역 가용성.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-2. 오디오 **회의** 라이선스를 얻습니다. 분당 지불 라이선스를 획득하려면 계정 담당자에게 문의하세요.
+2. 오디오 **회의 라이선스를** 얻습니다. 분당 라이선스를 획득하려면 계정 담당자에게 문의하세요.
 
 3. [조직의 통신 크레딧을](set-up-communications-credits-for-your-organization.md) 설정합니다. 통신 크레딧을 설정하는 경우 통신 [크레딧이란?](what-are-communications-credits.md)
 
@@ -89,7 +89,7 @@ ms.locfileid: "49701206"
 
 2. [초대에 포함된 전화 번호를 설정합니다.](set-the-phone-numbers-included-on-invites-in-teams.md) 사용자가 예약한 모임에 표시될 전화 번호입니다.
 
-3. [오디오 회의](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) 자동 전화 접속자가 오디오 회의 전화 번호에 전화를 걸 때 발신자들에게 인사말을 하는 데 사용하는 오디오 회의에 대한 자동 전화 접속 언어를 설정할 수 있습니다. 이 단계는 Microsoft를 오디오 회의 공급자로 사용하는 경우만 적용됩니다.
+3. [오디오](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) 회의 자동 전화 접속자가 오디오 회의 전화 번호에 전화 접속할 때 발신자들에게 인사말을 하는 데 사용하는 오디오 회의에 대한 자동 전화 접속 언어를 설정할 수 있습니다. 이 단계는 Microsoft를 오디오 회의 공급자로 사용하는 경우만 적용됩니다.
 
 4. [오디오 회의 모임의 PIN](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)길이를 설정합니다.
 

@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: 모든 기능을 활용할 수 있도록 Microsoft Teams 회의실을 배포하기 위한 인프라를 준비하는 방법에 대해 자세히 배워야 합니다.
+description: 모든 기능을 활용할 수 있도록 Microsoft Teams 회의실을 배포하기 위한 인프라를 준비하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: d0c5d5a1b0333a30b7730d6c8b91d06e67e291b4
 ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
@@ -37,7 +37,7 @@ ms.locfileid: "49662433"
    - 네트워크가 프록시를 통해 실행되는 경우 프록시 주소 또는 스크립트 정보도 필요합니다.
     
      > [!IMPORTANT]
-     > Microsoft Teams 회의실은 프록시 인증을 지원하지 않습니다. 이 경우 회의실의 정기적인 운영에 방해가 될 수 있습니다. 프로덕션에 들어가기 전에 Microsoft Teams 회의실이 프록시 인증에서 제외되어야 합니다.
+     > Microsoft Teams 회의실은 프록시 인증을 지원하지 않습니다. 이 경우 회의실의 정기적인 운영에 방해가 될 수 있습니다. 프로덕션으로 들어가기 전에 Microsoft Teams 회의실이 프록시 인증에서 제외되어야 합니다.
   
 3. 환경을 개선하기 위해 Microsoft는 데이터를 수집합니다. Microsoft에서 데이터를 수집할 수 있도록 허용하기 위해 다음 사이트를 허용합니다.
 
@@ -53,9 +53,9 @@ ms.locfileid: "49662433"
 제대로 작동하려면 Microsoft Teams 회의실 디바이스에서 다음 요구 사항을 충족하는 유선 네트워크에 액세스할 수 있어야 합니다.
   
 - Active Directory 또는 Azure AD(Azure Active Directory) 인스턴스뿐만 아니라 Microsoft Exchange 및 비즈니스용 Skype 서버에 액세스할 수 있습니다.
-- DHCP를 사용하여 IP 주소를 제공할 수 있는 서버에 액세스합니다. Microsoft Teams 회의실은 첫 번째 단위 시작 시 고정 IP 주소로 구성할 수 없습니다.
+- DHCP를 사용하여 IP 주소를 제공할 수 있는 서버에 액세스합니다. 첫 번째 단위 시작 시 정적 IP 주소로 Microsoft Teams 회의실을 구성할 수 없습니다.
 - HTTP 포트 80 및 443에 액세스합니다.
-- TCP 및 UDP 포트는 Microsoft [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) Teams 또는 비즈니스용 Skype 온라인 구현을 위한 Microsoft [365 및 Office 365 URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) 및 IP 주소 범위를 위한 포트 및 프로토콜 요구 사항에 설명되어 있습니다.
+- TCP 및 UDP 포트는 Microsoft [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) Teams 또는 비즈니스용 Skype 온라인 구현을 위한 Microsoft [365 및 Office 365 URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) 및 IP 주소 범위에 대한 포트 및 프로토콜 요구 사항에 설명되어 있습니다.
 
 > [!IMPORTANT]
 > 필요한 대역폭을 보장하려면 유선 1Gbps 네트워크 연결을 사용합니다.
@@ -65,7 +65,7 @@ ms.locfileid: "49662433"
   
 ### <a name="certificates"></a>인증서
 
-Microsoft Teams 회의실 디바이스는 Exchange Web Services, Microsoft Teams 또는 비즈니스용 Skype, 네트워크 사용 및 인증에 대한 인증서를 사용합니다. 관련 서버가 공용 인증서(온라인 및 일부 On-Premises 배포의 경우)를 사용하는 경우 관리자의 일부에서 인증서를 설치하기 위해 추가 작업이 필요하지 않습니다. 반면에 인증 기관이 개인 CA(일반적으로 On-프레미스 배포)인 경우 디바이스는 CA + CA 체인 인증서가 디바이스에 설치되어 있는 CA를 신뢰해야 합니다. 도메인에 디바이스를 추가하면 이 작업이 자동으로 수행될 수 있습니다.
+Microsoft Teams 회의실 디바이스는 Exchange Web Services, Microsoft Teams 또는 비즈니스용 Skype, 네트워크 사용량 및 인증에 대한 인증서를 사용합니다. 관련 서버가 공용 인증서(온라인 및 일부 On-Premises 배포의 경우)를 사용하는 경우 관리자의 일부에서 인증서를 설치하는 데 추가 작업이 필요하지 않습니다. 반면에 인증 기관이 개인 CA(On-Premises 배포에 일반적)인 경우 디바이스는 CA + CA 체인 인증서가 디바이스에 설치되어 있는 CA를 신뢰해야 합니다. 도메인에 디바이스를 추가하면 이 작업이 자동으로 수행될 수 있습니다.
   
 다른 Windows 클라이언트와 동일한 방식으로 인증서를 설치합니다. 
   
@@ -78,11 +78,11 @@ Microsoft Teams 회의실은 Windows OS에서 프록시 설정을 상속하도�
   
 1. Microsoft Teams 회의실 UI에서 설정 기어 아이콘을 클릭하면 디바이스에서 로컬 관리자 암호를 묻는 메시지가 표시됩니다(기본 암호는 **sfb임).**
 2. 설정을 **탭한** 다음 **Windows로** 이동 단추를 탭한 다음 관리자 로그인 단추로 이동 단추를  탭한 다음 관리자 단추를  클릭합니다(컴퓨터가 도메인에 가입되어 있는 경우 다른 사용자를 선택한 다음 .\admin을 사용자 이름으로 사용). 
-3. Windows **검색** 상자의 왼쪽 아래에서 regedit를 입력합니다(화면을 길게 누르거나 마우스 오른쪽 단추로 클릭하고 관리자 권한으로 실행 **선택).**
+3. Windows **검색** 상자의 왼쪽 아래에서 regedit(화면을 길게 누르거나 마우스 오른쪽 단추로 클릭하고 관리자 권한으로 실행 선택)를 **입력합니다.**
 4. HKEY_USERS 폴더(컴퓨터 사용자 SID 목록이 표시)를 클릭하여 루트 폴더가 선택되어 HKEY_USERS 확인합니다.
        
 5. 파일을 클릭한 다음 **Hive 로드를 클릭합니다.**
-6. **C:\Users\Skype** 폴더를 찾아 파일 이름 상자 NTUSER.dat에 입력하고 열기 단추를 누릅니다.
+6. **C:\Users\Skype** 폴더로 이동합니다. 파일 이름 상자 NTUSER.dat을 입력하고 열기 단추를 누릅니다.
 
 7. 새로 로드한 Hive에 대한 키 이름을 묻는 메시지가 표시됩니다. Skype를 입력합니다(이제 Skype 사용자의 레지스트리 설정이 표시됩니다).
  
@@ -155,7 +155,7 @@ Microsoft Teams 회의실 기본 암호는 "sfb"로 설정됩니다. 암호는 W
   
 ### <a name="machine-account"></a>컴퓨터 계정
 
-Windows 디바이스와 마찬가지로 PC 이름 변경에 대한 설정을 마우스 오른쪽 단추로 클릭하여 컴퓨터 이름을 변경할 \> \> 수 있습니다.
+Windows 장치와 마찬가지로 PC 이름 변경에 대한 설정을 마우스 오른쪽 단추로 클릭하여 컴퓨터 이름을 변경할 \> \> 수 있습니다.
   
  도메인에 가입한 후 컴퓨터의 이름을 변경하려면 Rename-Computer PowerShell 명령 다음에 컴퓨터의 새 이름을 사용 합니다.
   
@@ -171,4 +171,4 @@ Windows 디바이스와 마찬가지로 PC 이름 변경에 대한 설정을 마
   
 [Microsoft Teams 룸 관리](rooms-manage.md)
 
-[비즈니스 및 교육용 Microsoft Store에 대한 전제적 준비](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
+[비즈니스 및 교육용 Microsoft Store의 전제](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 

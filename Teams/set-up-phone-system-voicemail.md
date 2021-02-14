@@ -34,14 +34,14 @@ ms.locfileid: "49662213"
 이 문서는 비즈니스의 모든 사용자에 대해 Cloud Voicemail [](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 기능을 설정하려는 관리자 역할에 설명된 Microsoft 365 또는 Office 365 관리자용입니다.
 
 > [!NOTE]
-> Cloud Voicemail은 Exchange 사서함에만 음성 메일 메시지 저장을 지원하며 타사 전자 메일 시스템을 지원하지 않습니다. 
+> Cloud Voicemail은 Exchange 사서함에만 음성 메일 메시지를 보관할 수 있으며 타사 전자 메일 시스템을 지원하지 않습니다. 
 
 > [!NOTE]
 > 대리인이 위임자를 대신하여 통화에 응답하면 알림은 Cloud Voicemail에서 사용할 수 없습니다. 사용자는 부재 중 전화에 대한 알림을 받을 수 있습니다.
 
 ## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>클라우드 전용 환경: 온라인 전화 시스템 사용자를 위한 Cloud Voicemail 설정
 
-온라인 전화 시스템 사용자의 경우 사용자에게 전화 시스템 라이선스를 할당하면 Cloud  Voicemail이 자동으로 설정되고 프로비전됩니다. 
+온라인 전화 시스템 사용자의 경우 사용자에게 전화 시스템 라이선스를 할당한 후  클라우드 Voicemail이 자동으로 설정되고 프로비전됩니다. 
 
 > [!NOTE]
 > 온라인 비즈니스용 Skype 전화 시스템 사용자에 대해 제공된 전화 번호가 있는 경우 [Set-CsUser -HostedVoicemail](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)$True. 
@@ -50,42 +50,42 @@ ms.locfileid: "49662213"
 
 다음 정보는 전화 시스템용 온라인이지만 사서함이 있는 사용자와 작업할 수 있도록 Cloud Voicemail을 구성하는 Exchange Server. 
   
-1. 음성 메일 메시지는 Exchange Online Protection을 통해 라우팅되는 SMTP를 통해 사용자의 Exchange 사서함에 배달됩니다. 이러한 메시지를 성공적으로 배달하려면 Exchange Server와 Exchange Online Protection 간에 Exchange 커넥터가 올바르게 구성되어 있는지 확인하세요. [커넥터를 사용하여 메일 흐름을 구성합니다.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
+1. 음성 메일 메시지는 Exchange Online Protection을 통해 라우팅되는 SMTP를 통해 사용자의 Exchange 사서함에 배달됩니다. 이러한 메시지를 성공적으로 배달하려면 Exchange 커넥터가 Exchange 서버와 Exchange Online Protection 간에 올바르게 구성되어 있는지 확인합니다. [커넥터를 사용하여 메일 흐름을 구성합니다.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
 
-2. 비즈니스용 Skype 클라이언트에서 인사말 및 시각적 음성 메일 사용자 지정과 같은 음성 메일 기능을 사용하려면 Microsoft 365 또는 Office 365에서 Exchange Web Services를 통한 Exchange 서버 사서함으로의 연결이 필요합니다. 이 연결을 사용하려면 Exchange와 Exchange Online 조직 간의 OAuth 인증 구성에 설명된 새 Exchange [Oauth](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)인증 프로토콜을 구성하거나 Exchange 2013 CU5 이상에서 Exchange 하이브리드 마법사를 실행해야 합니다. 또한 비즈니스용 Skype Online과 비즈니스용 Skype Online과 비즈니스용 Skype Online 간의 통합 및 OAuth 구성에 설명된 Exchange 서버 간에 통합 및 [Oauth를](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)Exchange Server. 
+2. 비즈니스용 Skype 클라이언트에서 인사말 및 시각적 음성 메일 사용자 지정과 같은 음성 메일 기능을 사용하려면 Microsoft 365 또는 Office 365에서 Exchange Web Services를 통한 Exchange 서버 사서함으로의 연결이 필요합니다. 이 연결을 사용하려면 Exchange와 Exchange Online 조직 간의 OAuth 인증 구성에 설명된 새 Exchange [Oauth](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)인증 프로토콜을 구성하거나 Exchange 2013 CU5 이상에서 Exchange 하이브리드 마법사를 실행해야 합니다. 또한 비즈니스용 Skype Online과 비즈니스용 Skype Online과 비즈니스용 Skype Online 간의 통합 및 OAuth 구성에 설명된 Exchange 서버 간에 통합 및 [Oauth를 Exchange Server.](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>비즈니스용 Skype 서버 사용자를 위한 Cloud Voicemail 설정
 
-Cloud Voicemail에 대한 비즈니스용 Skype 서버 사용자를 구성하는 경우, 클라우드 음성 통화 서비스 계획(On-프레미스 사용자용)을 [참조하세요.](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)
+Cloud Voicemail에 대한 비즈니스용 Skype 서버 사용자를 구성하는 경우, 클라우드 음성 서비스 계획(Cloud [Voicemail Service)을 참조하세요.](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>조직에서 보호된 음성메일 사용
 
-조직 내 사용자에 대한 음성 메일 메시지를 남기면 음성 메일이 사용자의 사서함에 전자 메일 메시지 첨부 파일로 배달됩니다. 메일 흐름 규칙을 사용하여 메시지 암호화를 적용하면 해당 음성 메일 메시지가 다른 받는 사람에게 전달되지 않도록 할 수 있습니다. 보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 사서함에 전화를 걸거나 Outlook, 웹용 Outlook 또는 Android 또는 iOS용 Outlook에서 메시지를 열고 보호된 음성 메일 메시지를 들을 수 있습니다. 보호된 음성 메일 메시지는 비즈니스용 Skype 또는 Microsoft Teams에서 열 수 없습니다.
+조직의 사용자에 대한 음성 메일 메시지를 떠날 때 음성 메일은 사용자의 사서함에 전자 메일 메시지 첨부 파일로 배달됩니다. 메일 흐름 규칙을 사용하여 메시지 암호화를 적용하면 해당 음성 메일 메시지가 다른 받는 사람에게 전달되지 않도록 할 수 있습니다. 보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 사서함에 전화를 걸거나 Outlook, 웹용 Outlook 또는 Android 또는 iOS용 Outlook에서 메시지를 열고 보호된 음성 메일 메시지를 들을 수 있습니다. 보호된 음성 메일 메시지는 비즈니스용 Skype 또는 Microsoft Teams에서 열 수 없습니다.
 
 메시지 암호화에 대한 자세한 내용은 전자 메일 [암호화를 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)
 
 보호된 음성메일을 설정하기 위해 다음을 합니다.
 
 1. 전역 관리자 권한이 있는 계정을 사용하여 이동하여 https://admin.microsoft.com 로그인합니다.
-2. 모두 **표시를** 선택한 다음 관리 센터   >  **Exchange로 이동**
+2. 모두 **표시를 선택한** 다음 관리 센터   >  **Exchange로 이동**
 3. Exchange 관리 센터에서 **메일** 흐름 규칙을  >  **선택합니다.**
 4. 추가를 선택한 다음 **+**  **메시지에 Office 365 메시지 암호화** 및 권한 보호 적용을 선택합니다.
-5. 새 메일 흐름 규칙의 이름을 입력한 다음 이 규칙 적용 아래에서 메시지 속성에 메시지 유형 음성 메일   >    >  **포함을 선택합니다.** 확인을 **선택합니다.**
+5. 새 메일 흐름 규칙의 이름을 입력한 다음 이 규칙 적용 아래에서 메시지 속성에 메시지 유형 음성   >  **메일**  >  **포함을 선택합니다.** 확인을 **선택합니다.**
 6. 다음 **작업을 통해** **메시지에 Office 365** 메시지 암호화 및 권한 보호 적용을 선택한 다음 하나를 **선택합니다.** **RMS 템플릿에서** 전달 **안 을 선택합니다.** **확인을** 선택한 다음 **저장합니다.**
     > [!NOTE]
     > **RMS 템플릿 목록이** 비어 있는 경우 메시지 암호화를 설정해야 합니다. 메시지 암호화 설정에 대한 자세한 내용은 다음 문서를 참조하세요.
     > - [새 메시지 암호화 기능 설정](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [Azure Information Protection에 대한 템플릿 구성 및 관리](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
-    > - [전자 메일에 대해 전달 안 하세요 옵션](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
+    > - [전자 메일에 전달 안 하세요 옵션](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>조직에서 음성메일 정책 설정
 
 > [!WARNING]
 > 비즈니스용 Skype 고객의 경우 Microsoft Teams 통화 정책을 통해 음성메일을 사용하지 않도록 설정하면 비즈니스용 Skype 사용자의 음성메일 서비스를 사용하지 않도록 설정할 수도 있습니다.
 
-음성메일 전사는 기본적으로 사용하도록 설정되어 있으며, 모든 조직 및 사용자에 대해 기본적으로 전사 불경한 언행 마스킹이 비활성화됩니다. 그러나 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 및 [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet을 사용하여 제어할 수 있습니다.
+음성메일 전사는 기본적으로 사용하도록 설정되어 있으며 모든 조직 및 사용자에 대해 기본적으로 전사 불경한 언행 마스킹이 비활성화됩니다. 그러나 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 및 [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet을 사용하여 제어할 수 있습니다.
 
-조직의 사용자가 받은 음성 메일 메시지는 Microsoft 365 또는 Office 365 조직이 호스팅되는 지역에서 기록됩니다. 테넌트가 호스트되는 지역은 음성 메일 메시지를 받는 사용자가 있는 지역과 같지 않을 수 있습니다. 테넌트가 호스트되는 지역을 보려면 조직 [](https://go.microsoft.com/fwlink/p/?linkid=2067339) 프로필 페이지로 이동한 다음 데이터 위치 옆에 있는 세부 정보 **보기를 클릭합니다.** 
+조직의 사용자가 받은 음성 메일 메시지는 Microsoft 365 또는 Office 365 조직이 호스팅되는 지역에서 기록됩니다. 테넌트가 호스트되는 지역은 음성 메일 메시지를 받는 사용자가 있는 지역과 같지 않을 수 있습니다. 테넌트가 호스팅되는 지역을 보려면 조직 [](https://go.microsoft.com/fwlink/p/?linkid=2067339) 프로필 페이지로 이동한 다음 데이터 위치 옆에 있는 세부 정보 **보기를 클릭합니다.** 
 
 > [!IMPORTANT]
 > **New-CsOnlineVoiceMailPolicy** cmdlet을 사용하여 전사 및 전사 불경한 언행 마스킹을 위한 새 정책 인스턴스를 만들 수 없습니다. **Remove-CsOnlineVoiceMailPolicy** cmdlet을 사용하여 기존 정책 인스턴스를 제거할 수 없습니다.
@@ -98,7 +98,7 @@ Cloud Voicemail에 대한 비즈니스용 Skype 서버 사용자를 구성하는
   
 ### <a name="turning-off-transcription-for-your-organization"></a>조직에 대한 전사 해제
 
-조직에 대한 기본 전사 설정이 설정되어 있기 때문에 [Set-CsOnlineVoicemailPolicy를](https://technet.microsoft.com/library/mt798310.aspx)사용하여 사용하지 않도록 설정할 수 있습니다. 이를 위해 다음을 실행합니다.
+전사에 대한 기본 설정이 조직에 설정되어 있기 때문에 [Set-CsOnlineVoicemailPolicy를](https://technet.microsoft.com/library/mt798310.aspx)사용하여 사용하지 않도록 설정할 수 있습니다. 이를 위해 다음을 실행합니다.
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
@@ -143,7 +143,7 @@ Teams의 다른 통화 기능뿐만 아니라 음성메일 설정 관리에 대�
 
 ## <a name="help-your-users-learn-skype-for-business-voicemail-features"></a>사용자가 비즈니스용 Skype 음성메일 기능을 학습할 수 있도록 지원
 
-사용자가 비즈니스용 Skype 음성메일을 성공적으로 사용할 수 있도록 도와주는 교육 정보와 문서가 있습니다. 다음 문서를 설명합니다.
+사용자가 비즈니스용 Skype 음성메일을 성공적으로 사용할 수 있도록 도와주는 교육 정보와 문서가 있습니다. 다음 문서를 설명하는 내용입니다.
 
 - [비즈니스용 Skype](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)음성 메일 및 옵션 확인: 이 문서에서는 비즈니스용 Skype에서 음성 메일을 듣고, 음성 메일 인사말을 변경하고, 음성 메일 설정을 변경하고, 다양한 속도로 음성 메일을 듣는 방법을 설명하고 있습니다.
 

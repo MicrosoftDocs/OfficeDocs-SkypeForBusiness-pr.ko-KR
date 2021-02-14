@@ -64,15 +64,15 @@ ms.locfileid: "49701216"
 
 2. Teams 관리 **센터로 이동**
     
-3. 왼쪽 탐색에서 음성 **전화** 번호로 이동하고 추가를 클릭한 다음  >  프롬프트를 따르습니다. 
+3. 왼쪽 탐색 모음에서 **음성** 전화 번호로 이동하고 추가를 클릭한 다음  >  프롬프트를 따르습니다. 
     
 ### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Teams 관리 센터에서 사용할 수 없는 새 번호 다운로드
   
-경우에 따라(국가/지역에 따라) Teams 관리 센터를 사용하여 새 번호를 얻을 수 없는 경우도 있습니다. 이 경우 양식을 다운로드하여 다시 보내야 합니다. 새 사용자 번호를 요청하는 방법에 대한 자세한 내용은 조직의 전화 번호 [관리를 참조합니다.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)   
+경우에 따라(국가/지역에 따라) Teams 관리 센터를 사용하여 새 번호를 얻을 수 없습니다. 이 경우 양식을 다운로드하여 다시 보내야 합니다. 새 사용자 번호를 요청하는 방법에 대한 자세한 내용은 조직의 전화 번호 [관리를 참조합니다.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)   
   
-### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>서비스 공급자 또는 통신 사업자로부터 전화 번호 포터 또는 전송
+### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>서비스 공급자 또는 통신 사업자로부터 전화 번호 포트 또는 이전
   
-- 사용자에게 999개 이하의 전화 번호가 필요한 경우  Teams 관리 센터에서 새 로컬 번호 포트 주문 마법사를 사용할 수 있습니다. 전화 번호 전송에 있는 단계를 따라 [Teams로](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 전화 번호를 전송합니다.
+- 사용자에게 999개 이하의 전화 번호가 필요한 경우 Teams 관리 센터에서 새 로컬 번호 포트 **주문** 마법사를 사용할 수 있습니다. 전화 번호 전송에 있는 단계를 따라 [Teams로](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 전화 번호를 전송합니다.
     
 - 999개가 넘게 전화 번호를 포식해야 하는 경우 조직의 전화 번호 관리를 참조하여 포트 주문 서비스 요청 또는 주문을 제출합니다. [](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
 
@@ -80,14 +80,14 @@ ms.locfileid: "49701216"
 
 ## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>4단계: 서비스 전화 번호(오디오 회의, 통화 큐, 자동 전화 회의)
 
-Microsoft 365 또는 Office 365에서 사용자의 전화 번호를 확보하는 것 외에도 오디오 회의(전화 회의용), 자동 전화 회의 및 통화 큐와 같은 서비스에 대한 무료 전화 번호를 검색하고 획득할 수 있습니다. 서비스 전화 번호는 사용자 또는 구독자 전화 번호보다 동시 통화 용량이 더 높습니다. 예를 들어 서비스 번호는 수백 개의 호출을 동시에 처리할 수 있는 반면, 사용자의 전화 번호는 동시에 몇 개의 호출만 처리할 수 있습니다.
+Microsoft 365 또는 Office 365에서 사용자의 전화 번호를 확보하는 것 외에도 오디오 회의(전화 회의용), 자동 전화 회의 및 통화 큐와 같은 서비스에 대한 무료 전화 번호를 검색하고 획득할 수 있습니다. 서비스 전화 번호는 사용자 또는 구독자 전화 번호보다 더 높은 동시 통화 용량을 습니다. 예를 들어 서비스 번호는 수백 개의 호출을 동시에 처리할 수 있는 반면, 사용자의 전화 번호는 동시에 몇 개의 호출만 처리할 수 있습니다.
 
 ### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>Teams 관리 센터를 사용하여 새 서비스 번호 얻기
 
 
 1. 직장 또는 학교 계정으로 로그인합니다.
 
-2. Teams 관리 **센터로 이동하세요.**
+2. Teams 관리 **센터로 이동**
 
 3. 왼쪽 탐색 창에서 음성 **전화** 번호 추가 새 번호로 이동한 다음 새 서비스  >    >   **번호를 클릭합니다.**
 
@@ -96,11 +96,11 @@ Microsoft 365 또는 Office 365에서 사용자의 전화 번호를 확보하는
 
 ### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Teams 관리 센터에서 사용할 수 없는 새 번호 다운로드
   
-경우에 따라(국가/지역에 따라) Teams 관리 센터를 사용하여 새 번호를 얻을 수 없는 경우도 있습니다. 이 경우 양식을 다운로드하여 다시 보내야 합니다. 새 번호를 요청하는 방법에 대한 자세한 내용은 조직의 전화 번호 [관리를 참조합니다.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
+경우에 따라(국가/지역에 따라) Teams 관리 센터를 사용하여 새 번호를 얻을 수 없습니다. 이 경우 양식을 다운로드하여 다시 보내야 합니다. 새 번호를 요청하는 방법에 대한 자세한 내용은 조직의 전화 번호 [관리를 참조합니다.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
 
 ### <a name="port-or-transfer-existing-service-numbers"></a>기존 서비스 번호 포트 또는 전송
 
-현재 서비스 공급자 또는 통신 사업자로부터 서비스 번호를 전송하려는 경우 포트 주문을 Microsoft에 수동으로 제출해야 합니다. LOA(승인서)를 사용하여 전송할 각 서비스 번호 유형(무료 및 무료)에 대해 별도의 포트 주문을 제출해야 합니다. LOA(승인 서신)에서 올바른 서비스 번호를 선택해야 합니다. Microsoft 지원에 문의할 때 서비스 번호(사용자또는 구독자 번호가 아닌)를 전송하도록 지정하거나, 동시 호출 용량이 호출 볼륨을 처리하기에 충분하지 않을 수 있습니다. 전화 번호를 이전하거나 전화 번호로 다른 작업을 하려는 경우 조직의 전화 번호 관리를 [참조합니다.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+현재 서비스 공급자 또는 통신 사업자로부터 서비스 번호를 전송하려는 경우 포트 주문을 Microsoft에 수동으로 제출해야 합니다. LOA(승인 서신)를 사용하여 전송할 각 서비스 번호 유형(무료 및 무료)에 대해 별도의 포트 주문을 제출해야 합니다. LOA(승인 서신)에서 올바른 서비스 번호를 선택해야 합니다. Microsoft 지원에 문의할 때 서비스 번호(사용자또는 구독자 번호가 아닌)를 전송하도록 지정하거나, 동시 호출 용량이 호출 볼륨을 처리하기에 충분하지 않을 수 있습니다. 전화 번호를 이전하거나 전화 번호로 다른 작업을 하려는 경우 조직의 전화 번호 관리를 [참조합니다.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 ## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>5단계: 통화 요금제 설정
 
@@ -114,7 +114,7 @@ Microsoft 365 또는 Office 365에서 사용자의 전화 번호를 확보하는
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>7단계: 클라우드 호출 큐를 설정하려는 경우
 
-클라우드 통화 큐에는 누군가가 조직의 전화 번호로 전화를 걸 때 사용되는 인사말, 자동으로 통화를 보류할 수 있는 능력, 통화를 대기 중인 사람이 음악을 듣는 동안 통화를 처리하기 위해 사용 가능한 다음 통화 에이전트를 검색하는 기능을 포함합니다. 조직에 대한 단일 또는 여러 호출 큐를 만들 수 있습니다.
+클라우드 통화 큐에는 누군가 조직의 전화 번호로 전화를 걸 때 사용되는 인사말, 자동으로 통화를 보류할 수 있는 능력, 통화 중인 사람이 대기 중인 동안 통화를 처리하기 위해 사용 가능한 다음 통화 에이전트를 검색하는 기능을 포함합니다. 조직에 대한 단일 또는 여러 호출 큐를 만들 수 있습니다.
 
 호출 큐에 대한 자세한 내용은 클라우드 호출 큐 [만들기를 참조하세요.](create-a-phone-system-call-queue.md)
 
@@ -141,7 +141,7 @@ Microsoft 365 또는 Office 365에서 사용자의 전화 번호를 확보하는
 
 Microsoft Teams에서 무료 번호를 사용하려면 통신 크레딧을 설정해야 합니다. 모든 대상에 전화를 걸 수 있는 능력이 필요한 통화 요금제(국내 또는 국제) 및 오디오 회의 사용자에 대한 통신 크레딧을 설정하는 것이 좋습니다. 많은 국가/지역이 포함되지만 일부 목적지는 통화 요금제 또는 오디오 회의 구독에 포함되지 않을 수 있습니다. 
 
-통신 크레딧 청구를 설정하고 사용자에게 통신 크레딧  라이선스를 할당하지 않은 경우(해당 국가/지역의 통화 요금제 또는 오디오 회의 계획에 따라) 조직에 대해 몇 분이 소요되는 경우 해당 사용자는 오디오 회의 모임에서 전화를 걸거나 전화를 걸 수 없습니다. 권장 금액을 포함한 자세한 내용은 통신 [크레딧이란?](what-are-communications-credits.md) 및 조직에 대한 통신 크레딧을 설정하는 방법을 [참조하세요.](set-up-communications-credits-for-your-organization.md)
+통신 크레딧 청구를 설정하고 사용자에게 통신 크레딧  라이선스를 할당하지 않은 경우 조직에 대해 몇 분이 소요되는 경우(해당 국가/지역의 통화 요금제 또는 오디오 회의 계획에 따라) 해당 사용자는 오디오 회의 모임에서 전화를 걸거나 전화를 걸 수 없습니다. 권장 금액을 포함한 자세한 내용은 통신 [크레딧이란?](what-are-communications-credits.md) 및 조직에 대한 통신 크레딧을 설정하는 방법을 [참조하세요.](set-up-communications-credits-for-your-organization.md)
   
 
 ## <a name="related-topics"></a>관련 항목

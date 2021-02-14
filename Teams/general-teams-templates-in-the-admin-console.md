@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 관리 센터를 사용하여 미리 정의한 설정, 채널 및 미리 설치된 앱을 제공하여 일반 Teams 템플릿을 사용하여 팀 구조를 만드는 방법을 배워보아야 합니다.
+description: 관리 센터를 사용하여 미리 정의한 설정, 채널 및 미리 설치된 앱을 제공하여 일반 Teams 템플릿을 사용하여 팀 구조를 만드는 방법을 배워야 합니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -40,11 +40,11 @@ Teams 템플릿에는 재무 요구 사항을 중심으로 설계된 팀 구조�
 
 ## <a name="global-crisis-or-event"></a>글로벌 위기 또는 이벤트
 
-사업부 전반에 걸쳐 위기 팀에 대한 공동 작업을 중앙 집중화하고 비즈니스 연속성 계획을 만들고, 원격 작업 팁을 공유하고, 고객 통신을 추적하고, 공지와 뉴스를 통해 모든 사람을 계속 진행할 수 있습니다.
+사업부 전반에 걸쳐 위기 팀에 대한 공동 작업을 중앙 집중화하고 비즈니스 연속성 계획을 만들고, 원격 작업 팁을 공유하고, 고객 통신을 추적하고, 공지 및 뉴스를 통해 모든 사람을 계속 진행할 수 있습니다.
 
 | 기본 템플릿 형식 |baseTemplateId| 이 기본 템플릿과 함께 사용할 속성 |
 | ------------------ |--|----------------------------------------------------------|
-| 글로벌 위기 또는 이벤트에 대한 공동 작업 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |채널: <ul><li>일반<li>공지</li><li>세계 뉴스</li><li>비즈니스 연속성</li><li>외부 커미스</li><li>승인 요청</li><li>원격 작업</li><li>내부 COMM</li><li>외부 커미스</li><li>고객 불만</li><li>Kudos</li><li>경영진 업데이트</li></ul>앱: <ul><li>칭찬</li><li>Wiki</li><li>웹 사이트</li><li>Planner</li></ul>|
+| 글로벌 위기 또는 이벤트에 대한 공동 작업 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |채널: <ul><li>일반<li>공지</li><li>세계 뉴스</li><li>비즈니스 연속성</li><li>외부 커미스</li><li>승인 요청</li><li>원격 작업</li><li>내부 COMM</li><li>외부 커미스</li><li>고객 불만</li><li>Kudos</li><li>임원 업데이트</li></ul>앱: <ul><li>칭찬</li><li>Wiki</li><li>웹 사이트</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="adopt-office-365"></a>Office 365 채택
@@ -78,7 +78,7 @@ Teams 템플릿에는 재무 요구 사항을 중심으로 설계된 팀 구조�
 
 ## <a name="onboard-employees"></a>직원 온보드
 
-리소스, 질문 및 재미를 위해 이 중앙 팀과 함께 문화를 개선하고 직원 온보드를 간소화합니다.
+리소스, 질문 및 약간의 재미를 위해 이 중앙 팀과 함께 문화를 개선하고 직원 온보드를 간소화합니다.
 
 | 기본 템플릿 형식 |baseTemplateId| 이 기본 템플릿과 함께 사용할 속성 |
 | ------------------|--|-----------------------------------------------------------|

@@ -52,7 +52,7 @@ Microsoft에는 회의실 장치(예: Microsoft Teams 회의실, Microsoft Surfa
 
 
 > [!NOTE]
-> 현재 오디오 회의 또는 Office 365 전화 시스템 및 통화 요금제가 있는 비즈니스용 Skype 계획 2에서 E1, E3, E4, E5 SKUS를 사용하고 있는 경우 이러한 SK는 계속 작동됩니다. 그러나 현재 라이선스가 만료된 후 위의 표에서 더 간단한 라이선스 모델로 이동하는 것이 고려해야 합니다.
+> 현재 오디오 회의 또는 Office 365 전화 시스템 및 통화 요금제가 있는 비즈니스용 Skype 계획 2에서 E1, E3, E4, E5 SK를 사용하고 있는 경우 이러한 SK는 계속 작동됩니다. 그러나 현재 라이선스가 만료된 후 위의 표에서 더 간단한 라이선스 모델로 이동하는 것이 고려해야 합니다.
 
 > [!IMPORTANT]
 > 비즈니스용 Skype 요금제 2를 사용하는 경우 비즈니스용 Skype 전용 모드에서만 Microsoft Teams 회의실을 사용할 수 있습니다. 즉, 모든 모임이 비즈니스용 Skype 모임이 됩니다. Microsoft Teams 모임에 회의실을 사용하도록 설정하려면 회의실 라이선스를 구입하는 것이 좋습니다. 
@@ -60,15 +60,15 @@ Microsoft에는 회의실 장치(예: Microsoft Teams 회의실, Microsoft Surfa
 다음 표에는 Microsoft Teams 회의실에서 사용할 수 있는 기능과 구입해야 하는 라이선스가 나열됩니다.
   
 > [!NOTE]
-> 설정되는 방은 사용자 개체가 되고 이러한 라이선스가 할당되어 있습니다.
+> 설정되는 공간은 사용자 개체가 되고 이러한 라이선스가 할당되어 있습니다.
 
-|  | Microsoft Teams 또는 비즈니스용 Skype Online이 있는 경우 <br/> 구입해야 할 사항은 다음과 같습니다.   |비즈니스용 Skype Server 2015/2019(온라인 또는 하이브리드)가 있습니다. <br/> 구입해야 할 사항은 다음과 같습니다.|
+|  | Microsoft Teams 또는 비즈니스용 Skype Online이 있습니다. <br/> 구입해야 할 사항은 다음과 같습니다.   |비즈니스용 Skype Server 2015/2019(온라인 또는 하이브리드)가 있습니다. <br/> 구입해야 할 사항은 다음과 같습니다.|
 |:-----|:-----|:-----|
 |예약된 모임 참가  | 회의실 SKU  |비즈니스용 Skype Server Standard CAL  |
 |애드워크 모임 시작 | 회의실 SKU  |비즈니스용 Skype Server Standard CAL  <br/> 비즈니스용 Skype Server Enterprise CAL|
 |모임에서 전화 번호로 전화 걸기 및 애드워크 모임 시작 |  회의실 SKU |비즈니스용 Skype Standard CAL  <br/> 비즈니스용 Skype Server Enterprise CAL|
 |회의실에 전화 번호를 주고 회의실에서 전화를 걸거나 받거나 전화 번호를 사용하여 오디오 회의에 참가  | 직접 라우팅을 통해: 회의실 SKU<br/>직접 라우팅이 없는 경우: 국내 또는 국제 통화 요금제<br/>Microsoft 365 Business Voice  |비즈니스용 Skype Server Standard CAL  <br/> 비즈니스용 Skype Server Plus CAL  |
-|Microsoft Intune을 사용하여 방 장치 관리 |회의실 SKU  |Microsoft Intune 구독과 [On-프레미스 MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
+|Microsoft Intune을 사용하여 방 디바이스 관리 |회의실 SKU  |Microsoft Intune [구독(프레미스 MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) 사용) |
 | |||
 
 > [!NOTE]

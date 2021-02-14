@@ -23,20 +23,20 @@ ms.locfileid: "49799908"
 ---
 # <a name="block-inbound-calls"></a>인바운드 호출 차단
 
-전화 시스템 직접 라우팅 및 통화 요금제는 PSTN(공용 전환 전화 네트워크)의 인바운드 통화 차단을 지원 합니다. 이 기능을 사용하면 테넌트에 들어오는 모든 PSTN 호출의 호출자 ID가 일치하는지 목록에 대해 확인할 수 있도록 테넌트 전역 번호 패턴 목록을 정의할 수 있습니다. 일치하는 경우 들어오는 호출이 거부됩니다.
+전화 시스템 직접 라우팅 및 통화 요금제는 PSTN(공용 전환 전화 네트워크)에서 인바운드 통화를 차단할 수 있습니다. 이 기능을 사용하면 테넌트에 들어오는 모든 PSTN 호출의 호출자 ID가 일치하는지 목록에 대해 확인할 수 있도록 테넌트 전역 번호 패턴 목록을 정의할 수 있습니다. 일치하는 경우 들어오는 호출이 거부됩니다.
 
 이 인바운드 호출 차단 기능은 PSTN에서 시작하여 테넌트 전역 기준으로만 작동하는 인바운드 호출에서만 작동합니다. 사용자 기준으로 사용할 수 없습니다.  
 
 >[!NOTE]
-> 차단된 호출자는 차단된 경우 약간 다른 동작을 경험할 수 있습니다. 동작은 차단된 발신자 통신 사업자에서 호출이 성공적으로 완료되지 못했다는 알림을 처리하는 방법을 기반으로 합니다. 예를 들어 통화를 전화로 완료할 수 없다고 말하는 통신사 메시지 또는 단순히 통화를 떨어뜨리는 메시지가 있을 수 있습니다.
+> 차단된 호출자는 차단된 경우 약간 다른 동작을 경험할 수 있습니다. 동작은 차단된 발신자 통신 사업자에서 호출이 성공적으로 완료되지 못했다는 알림을 처리하는 방법을 기반으로 합니다. 예를 들어 통화를 전화로 완료할 수 없다고 표시하거나 단순히 통화를 떨어뜨리는 통신사 메시지가 있을 수 있습니다.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>통화 차단 관리자 컨트롤 및 정보
 
-숫자 차단에 대한 관리자 컨트롤은 PowerShell만 사용하여 제공됩니다. 숫자 블록 패턴은 정규식 패턴으로 정의됩니다. 식의 순서는 불확실합니다. 목록에서 첫 번째 패턴이 일치하여 호출이 차단됩니다. 차단된 호출자 목록에서 추가 또는 제거된 새 번호 또는 패턴은 패턴이 활성화되는 데 최대 24시간이 걸릴 수 있습니다.
+숫자 차단에 대한 관리자 컨트롤은 PowerShell만 사용하여 제공됩니다. 숫자 블록 패턴은 정규식 패턴으로 정의됩니다. 식의 순서는 불확실합니다. 목록에서 첫 번째 패턴이 일치하여 호출이 차단됩니다. 차단된 호출자 목록에서 추가되거나 제거된 새 번호 또는 패턴은 패턴이 활성화되는 데 최대 24시간이 걸릴 수 있습니다.
 
 ## <a name="call-blocking-powershell-commands"></a>통화 차단 PowerShell 명령
 
-새로 고치기, Get,  **Set,**   - **CsInboundBlockedNumberPattern** cmdlet을 사용하여 숫자 패턴을 관리합니다. 특정 패턴의 활성화를 전환하는 기능을 포함하여 이러한 cmdlet을 사용하여 주어진 패턴을 관리할 수 있습니다.
+새로 고안, **Get,**  **Set,**   - **CsInboundBlockedNumberPattern** cmdlet을 사용하여 숫자 패턴을 관리합니다. 특정 패턴의 활성화를 전환하는 기능을 포함하여 이러한 cmdlet을 사용하여 주어진 패턴을 관리할 수 있습니다.
 
 - [Get-CsInboundBlockedNumberPattern은](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) 각각에 대한 이름, 설명, 사용(True/False) 및 패턴을 포함하여 테넌트 목록에 추가된 모든 차단된 번호 패턴 목록을 반환합니다.
 - [New-CsInboundBlockedNumberPattern은](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern) 차단된 숫자 패턴을 테넌트 목록에 추가합니다.
@@ -62,7 +62,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 패턴이 추가된 이유를 쉽게 이해할 수 있도록 의미 있는 이름을 제공하는 것이 좋습니다. 스팸 번호를 차단하는 경우 규칙의 이름을 일치되는 숫자 패턴과 동일하게 이름을 정하고 필요한 경우 설명에 추가 정보를 추가합니다.
 
-패턴은 정규식(Regex)을 사용하여 일치합니다. 복제를 테스트하고 유효성을 검사하기 전에 시간을 허용합니다.
+패턴은 정규식(정규식)을 사용하여 일치합니다. 복제를 테스트하고 유효성을 검사하기 전에 시간을 허용합니다.
 
 #### <a name="allow-a-number"></a>숫자 허용
 
@@ -99,7 +99,7 @@ New,  **Get,** **Set,** **Remove**  - **CsTenantBlockNumberExceptionPattern** cm
 
 #### <a name="add-a-number-exception"></a>숫자 예외 추가
 
-이 예제에서는 새 숫자 예외 패턴이 만들어지며 기본적으로 패턴을 사용하도록 설정됩니다. Enabled **및** Description 매개 **변수는** 선택 사항입니다.
+이 예제에서는 새 숫자 예외 패턴이 만들어지며 기본적으로 패턴을 사용하도록 설정됩니다. **Enabled 및** Description 매개 **변수는** 선택 사항입니다.
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>
@@ -111,7 +111,7 @@ New-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="view-all-number-exceptions"></a>모든 숫자 예외 보기
 
-이 예제에서 ID 매개 **변수는** 선택 사항입니다. ID **매개** 변수를 지정하지 않으면 이 cmdlet은 테넌트에 대해 입력된 모든 숫자 예외 패턴 목록을 반환합니다.
+이 예제에서 ID 매개 **변수는** 선택 사항입니다. ID **매개** 변수를 지정하지 않으면 이 cmdlet은 테넌트에 대해 입력된 모든 숫자 예외 패턴의 목록을 반환합니다.
  
 ```powershell
 Get-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -149,7 +149,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 **Test-CsInboundBlockedNumberPattern** cmdlet을 사용하여 테넌트에서 숫자가 차단되는지 여부를 확인할 수 있습니다.
  
-이 예제에서는 **PhoneNumber** 및 **테넌트** 매개 변수가 필요합니다. **PhoneNumber** 매개 변수는 + 또는 -와 같은 추가 문자가 없는 숫자 문자열입니다. TRPS에서 **테넌트** 매개 변수는 선택 사항입니다. 결과 **isNumberBlocked** 매개 변수는 테넌트에서 숫자가 차단된 경우 True 값을 반환하고, 차단되지 않은 경우 False를 반환합니다.
+이 예제에서는 **PhoneNumber** 및 **테넌트** 매개 변수가 필요합니다. **PhoneNumber** 매개 변수는 + 또는 -와 같은 추가 문자가 없는 숫자 문자열입니다. TRPS에서 **테넌트 매개 변수는** 선택 사항입니다. 결과 **isNumberBlocked** 매개 변수는 숫자가 테넌트에서 차단된 경우 True 값을 반환하고, 차단되지 않은 경우 False를 반환합니다.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>

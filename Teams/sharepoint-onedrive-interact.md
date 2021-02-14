@@ -59,7 +59,7 @@ SharePoint Online 문서 라이브러리와 비즈니스용 OneDrive에 파일�
 > 2. 기존 **SharePoint** 사이트 페이지의 SharePoint 또는 기존 문서 라이브러리의 **문서** 라이브러리를 선택합니다.
 > 3. 적절한 페이지 또는 문서 라이브러리를 선택합니다.
 
-모든 사용자의 경우 OneDrive 폴더 **Microsoft Teams 채팅** 파일은 다른 사용자(1:1 또는 1:다)와 비공개 채팅 내에서 공유되는 모든 파일을 저장하는 데 사용되며, 의도한 사용자만 액세스를 제한하도록 자동으로 구성됩니다.
+모든 사용자에 대해 OneDrive 폴더 **Microsoft Teams 채팅** 파일은 다른 사용자(1:1 또는 1:다)와 비공개 채팅 내에서 공유되는 모든 파일을 저장하는 데 사용되며, 의도한 사용자만 액세스를 제한하도록 자동으로 구성됩니다.
 
 ![Microsoft Teams 채팅 파일이라는 OneDrive 폴더의 다이어그램](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 

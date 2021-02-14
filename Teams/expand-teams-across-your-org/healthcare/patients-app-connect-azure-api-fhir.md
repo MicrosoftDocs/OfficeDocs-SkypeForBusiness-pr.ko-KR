@@ -32,7 +32,7 @@ ms.locfileid: "49731156"
 >
 >목록을 사용하여 의료 조직의 관리 팀은 라운드 및학 간 팀 모임에서 일반 환자 모니터링에 이르는 시나리오에 대한 환자 목록을 만들 수 있습니다. 시작을 위해 목록에서 환자 서식 파일을 확인해 하세요. 조직에서 목록 앱을 관리하는 방법에 대한 자세한 내용은 목록 앱 [관리를 참조하세요.](../../manage-lists-app.md)
 
-다음 단계에 따라 Microsoft Teams의 환자 앱이 FHIR 인스턴스용 Azure API에 액세스할 수 있도록 허용합니다. 이 문서에서는 [FHIR](https://azure.microsoft.com/services/azure-api-for-fhir/) 인스턴스용 Azure API가 테넌트에 설정 및 구성되어 있는 것으로 가정합니다.  테넌트에서 FHIR용 Azure API 인스턴스를 아직 만들지 않은 경우 빠른 시작: Azure Portal을 사용하여 [FHIR용 Azure API](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart)배포를 참조하세요.
+다음 단계에 따라 Microsoft Teams의 Patients 앱이 FHIR 인스턴스용 Azure API에 액세스할 수 있도록 합니다. 이 문서에서는 [FHIR](https://azure.microsoft.com/services/azure-api-for-fhir/) 인스턴스용 Azure API가 테넌트에 설정 및 구성되어 있는 것으로 가정합니다.  테넌트에서 FHIR용 Azure API 인스턴스를 아직 만들지 않은 경우 빠른 [시작: Azure Portal을 사용하여 FHIR용 Azure API](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart)배포를 참조하세요.
 
 1. 환자 [앱에](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) 대한 관리자 동의를 부여하려면 여기를 클릭하세요. 메시지가 표시될 때 테넌트 관리자 또는 전역 관리자 자격 증명을 사용하여 로그인한 다음 **수락을** 클릭하여 필요한 사용 권한을 부여합니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "49731156"
 
 4. 환자 앱을 연결하려는 FHIR용 Azure API 리소스 인스턴스로 이동한 다음(해당 앱을 검색하거나 리소스를 검색하여) 해당 인스턴스에 대한 설정을 여습니다.
 
-    ![Azure Portal의 FHIR 인스턴스용 Azure API 인스턴스 설정 스크린샷](../../media/patients-app-azure-portal-instance-settings.png)
+    ![Azure Portal의 FHIR 인스턴스 설정에 대한 Azure API의 스크린샷](../../media/patients-app-azure-portal-instance-settings.png)
 
 5. **인증을** 클릭한 다음 3단계에서 복사한 개체 ID를 허용된 개체 ID 상자에 **붙여넣습니다.** 이렇게 하면 환자 앱이 FHIR 서버에 액세스할 수 있습니다. 개체 ID를 붙여넣은 후 Azure Active Directory에서 유효성을 검사하고 옆에 녹색 확인 표시가 나타납니다.
 

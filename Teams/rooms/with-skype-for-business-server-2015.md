@@ -43,7 +43,7 @@ Microsoft Teams 회의실 배포를 시작하기 전에 연결된 cmdlet을 실�
    Import-PSSession $sessLync
    ```
 
-   이 $strExchangeServer Exchange 서버의 FQDN(FQDN)으로, $strLyncFQDN 비즈니스용 Skype 서버 배포의 FQDN입니다.
+   이 $strExchangeServer Exchange 서버의 FQDN(정식 도메인 이름)이고 $strLyncFQDN 비즈니스용 Skype 서버 배포의 FQDN입니다.
 
 2. 세션을 설정한 후 새 사서함을 만들고 RoomMailboxAccount로 사용하도록 설정하거나 기존 방 사서함의 설정을 변경합니다. 이렇게 하면 계정이 Microsoft Teams 회의실에 인증할 수 있습니다.
 
@@ -61,7 +61,7 @@ Microsoft Teams 회의실 배포를 시작하기 전에 연결된 cmdlet을 실�
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. 디바이스 계정에 다양한 Exchange 속성을 설정하여 사용자에 대한 모임 환경을 개선할 수 있습니다. Exchange 속성 섹션에서 설정해야 하는 속성을 볼 수 있습니다.
+3. 사용자에 대한 모임 환경을 개선하기 위해 장치 계정에 다양한 Exchange 속성을 설정할 수 있습니다. Exchange 속성 섹션에서 설정해야 하는 속성을 볼 수 있습니다.
 
    ``` Powershell
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -69,7 +69,7 @@ Microsoft Teams 회의실 배포를 시작하기 전에 연결된 cmdlet을 실�
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. 암호가 만료되지 않는 경우 cmdlet을 사용하여 Windows PowerShell 수 있습니다. 자세한 내용은 암호 관리를 참조하세요.
+4. 암호가 만료되지 않는 경우 cmdlet을 사용하여 Windows PowerShell 있습니다. 자세한 내용은 암호 관리를 참조하세요.
 
    ``` Powershell
    Set-AdUser $acctUpn -PasswordNeverExpires $true
@@ -90,7 +90,7 @@ Microsoft Teams 회의실 배포를 시작하기 전에 연결된 cmdlet을 실�
 
     프로젝트에 대해 SIP(세션 시작 프로토콜) 주소 및 도메인 컨트롤러를 사용해야 합니다.
 
-7. **선택 사항입니다.** 또한 Microsoft Teams 회의실에서 계정에 대해 PSTN(공용 전화망) 전화 통화를 걸고 받을 Enterprise Voice 수 있습니다. Enterprise Voice Microsoft Teams 회의실에 대한 요구 사항은 없지만 Microsoft Teams Rooms 클라이언트에 PSTN 전화 걸기 기능을 사용하려면 다음 방법을 사용하세요.
+7. **선택 사항입니다.** 또한 Microsoft Teams 회의실에서 계정에 대해 PSTN(공용 전화망) 전화 통화를 걸고 받을 Enterprise Voice 수 있습니다. Enterprise Voice Microsoft Teams 회의실에 대한 요구 사항은 없지만 Microsoft Teams Rooms 클라이언트에 대한 PSTN 전화 걸기 기능을 사용하려면 다음 방법을 사용하세요.
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"

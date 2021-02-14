@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Teams 서식 파일을 사용하여 미리 설치한 서식 파일을 사용하여 다양한 주제에 대한 채널이 있는 공동 작업 공간을 만드는 방법에 대해 배워야 합니다.
+description: Teams 서식 파일을 사용하여 미리 설치한 서식 파일을 사용하여 다양한 주제에 대한 채널이 있는 공동 작업 공간을 만드는 방법을 배워보아야 합니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -40,7 +40,7 @@ Teams 템플릿은 비즈니스 필요 또는 프로젝트를 중심으로 설�
 
 ## <a name="teams-template-capabilities"></a>Teams 서식 파일 기능
 
-팀의 대부분의 속성은 템플릿에서 포함 및 지원됩니다. 하지만 현재 지원되지 않는 몇 가지 속성 및 기능이 있습니다. 다음 표에서는 Teams 서식 파일에서 포함된 내용과 포함되지 않은 내용에 대한 빠른 요약을 제공합니다.
+팀의 대부분의 속성은 템플릿에서 포함 및 지원됩니다. 하지만 현재 지원되지 않는 몇 가지 속성과 기능이 있습니다. 다음 표에서는 Teams 서식 파일에서 포함된 내용과 포함되지 않은 내용에 대한 빠른 요약을 제공합니다.
 
 | **Teams 서식 파일에서 지원하는 팀 속성** | **Teams 서식 파일에서 아직 지원되지 않는 팀 속성** |
 | ------------------------------------------------ | -------------------------------------------------------- |
@@ -58,9 +58,9 @@ Teams 템플릿은 비즈니스 필요 또는 프로젝트를 중심으로 설�
 
 ## <a name="what-are-base-template-types"></a>기본 템플릿 형식 정의
 
-기본 템플릿 형식은 Microsoft가 특정 산업에 대해 만든 특수한 템플릿입니다. 이러한 기본 템플릿에는 종종 앱 스토어에서 사용할 수 없는 전용 앱이 포함되어 있습니다.
+기본 템플릿 형식은 Microsoft가 특정 산업에 대해 만든 특수한 템플릿입니다. 이러한 기본 템플릿은 종종 앱 스토어에서 사용할 수 없는 전용 앱을 포함하기도 합니다.
 
-기본 템플릿 형식이 정의되고 나면 지정하고자 하는 추가 속성을 사용하여 이러한 특수 템플릿을 확장하거나 다시 정의할 수 있습니다. 일부 기본 템플릿 형식에는 정의할 수 없는 속성이 포함되어 있습니다.
+기본 템플릿 형식이 정의되고 나면 지정하고자 하는 추가 속성으로 이러한 특수 템플릿을 확장하거나 다시 정의할 수 있습니다. 일부 기본 템플릿 형식에는 정의할 수 없는 속성이 포함되어 있습니다.
 
 > [!NOTE]
 > Microsoft Teams에 제공된 미리 정의된 기본 템플릿은 복제할 수 있지만 편집할 수 없습니다.
@@ -72,11 +72,11 @@ Teams 템플릿은 비즈니스 필요 또는 프로젝트를 중심으로 설�
 | 이벤트 관리|`com.microsoft.teams.template.ManageAnEvent` | 채널: <ul><li>일반</li> <li>공지</li> <li>예산</li> <li>콘텐츠</li><li>물류</li> <li>계획</li> <li> 마케팅 및 PR</li></ul> 앱:<ul><li>Wiki</li><li>웹 사이트</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
 |직원 온보드|`com.microsoft.teams.template.OnboardEmployees` | 채널: <ul><li>일반</li> <li>공지</li> <li>직원 채팅</li> <li>교육</li></ul>앱:<ul><li>Wiki</li><li>커뮤니티</li><li>Planner</li></ul>|
 |지원 센터 구성| `com.microsoft.teams.template.OrganizeHelpDesk`|채널:<ul><li>일반</li><li>공지</li><li>FAQ</li></ul>앱:<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>칭찬</li></ul> |
-| 환자 관리에 대한 공동 작업| `healthcareWard`| 채널:<ul><li>일반</li><li>공지</li><li>Huddles</li><li>반올라</li><li>직원</li><li>교육</li></ul> 앱: <ul><li>Wiki</li><li>목록  </li></ul>|
-| 글로벌 위기 또는 이벤트에 대한 공동 작업 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 채널: <ul><li>일반<li>공지</li><li>세계 뉴스</li><li>비즈니스 연속성</li><li>원격 작업</li><li>내부 COMM</li><li>외부 커미스</li><li>승인 요청</li><li>고객 불만</li><li>Kudos</li><li>경영진 업데이트</li></ul>앱: <ul><li>칭찬</li><li>Wiki</li><li>웹 사이트</li><li>Planner</li></ul>|
+| 환자 관리에 대한 공동 작업| `healthcareWard`| 채널:<ul><li>일반</li><li>공지</li><li>Huddles</li><li>라운드</li><li>직원 직원</li><li>교육</li></ul> 앱: <ul><li>Wiki</li><li>목록  </li></ul>|
+| 글로벌 위기 또는 이벤트에 대한 공동 작업 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 채널: <ul><li>일반<li>공지</li><li>세계 뉴스</li><li>비즈니스 연속성</li><li>원격 작업</li><li>내부 COMM</li><li>외부 커미스</li><li>승인 요청</li><li>고객 불만</li><li>Kudos</li><li>임원 업데이트</li></ul>앱: <ul><li>칭찬</li><li>Wiki</li><li>웹 사이트</li><li>Planner</li></ul>|
 |은행 지점 내에서 공동 작업| `com.microsoft.teams.template.CollaborateWithinABankBranch`|채널: <ul><li>일반<li>공지</li><li>Huddles</li><li>고객 모임</li><li>승인 요청 </li><li>코치</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만</li><li>Kudos</li><li>재미있는 것</li><li>규정 준수</li></ul>앱:<ul><li>칭찬 </li></ul>|
 |인시던트 대응 조정| `com.microsoft.teams.template.CoordinateIncidentResponse`|채널: <ul><li>일반<li>공지</li><li>물류</li><li>계획</li><li>복구</li><li>긴급</li></ul> 앱: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
-|병원| `healthcareHospital` |채널: <ul><li>일반</li><li>공지</li><li>규정 준수</li><li>양도</li><li>인적 자원</li><li>약국</li></ul> 앱: <ul><li>Wiki</li><li>목록  </li></ul>|
+|병원| `healthcareHospital` |채널: <ul><li>일반</li><li>공지</li><li>규정 준수</li><li>Custodial</li><li>인적 자원</li><li>약국</li></ul> 앱: <ul><li>Wiki</li><li>목록  </li></ul>|
 |스토어 구성| `retailStore` |채널: <ul><li>일반<li>Shift Handoff</li><li>학습</li></ul> 앱: <ul><li>Wiki</li><li>Planner</li></ul>|
 |품질 및 안전 |`com.microsoft.teams.template.QualitySafety`|채널: <ul><li>일반<li>공지</li><li>줄 1</li><li>줄 2</li><li>줄 3</li><li>안전</li><li>교육</li><li>유지 관리</li><li>재미있는 것</li></ul> 앱: <ul><li>Wiki</li><li>Planner</li></ul>|
 |소매 - 관리자 공동 작업| `retailManagerCollaboration` |채널: <ul><li>일반<li>운영</li><li>학습</li></ul> 앱: <ul><li>Wiki</li><li>Planner</li></ul>|

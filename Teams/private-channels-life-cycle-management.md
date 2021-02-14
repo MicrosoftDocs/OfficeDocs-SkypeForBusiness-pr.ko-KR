@@ -104,7 +104,7 @@ Graph Explorer를 통해 이러한 명령을 [시도할 수 있습니다.](https
     }
     ```
 
-2. SharePoint URL을 얻게 하려는 각 개인 채널에 대해 다음 요청을 합니다. 여기서 channel_id &lt; &gt; ID입니다.
+2. SharePoint URL을 사용하려는 각 개인 채널에 대해 다음을 요청합니다. 여기서 channel_id &lt; &gt; ID입니다.
 
     **요청**
 
@@ -178,7 +178,7 @@ Graph Explorer를 통해 이러한 명령을 [시도할 수 있습니다.](https
           ]
     }
     ```    
-2. 다음을 사용하여 멤버를 소유자로 승격합니다. 여기서 group_id, channel_id 및 ID가 이전 호출에서 &lt; &gt; &lt; &gt; &lt; &gt; 반환됩니다. 이전 호출에서 반환된 ID 및 userId는 동일하지 않습니다. 서로 교환할 &lt; &gt; 수 &lt; &gt; 없습니다. ID를 &lt; 사용하는지 확인 &gt;
+2. 다음을 사용하여 멤버를 소유자로 승격합니다. 여기서 group_id, channel_id 및 ID가 이전 호출에서 &lt; &gt; &lt; &gt; &lt; &gt; 반환됩니다. 이전 호출에서 반환된 ID와 userId는 동일하지 않습니다. 서로 &lt; &gt; &lt; &gt; 교환할 수 없습니다. ID를 &lt; 사용하는지 확인 &gt;
 
     **요청**
 

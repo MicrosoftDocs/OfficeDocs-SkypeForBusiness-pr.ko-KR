@@ -12,7 +12,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 차세대 Skype 채팅방 시스템인 Microsoft Teams Room의 관리에 대해 자세히 알아보는 이 항목을 읽어보아야 합니다.
+description: 차세대 Skype 채팅방 시스템인 Microsoft Teams Room의 관리에 대해 알아보는 이 항목을 읽어보아야 합니다.
 ms.openlocfilehash: a6ab68200002035632314ac976cd45a2ee4ff714
 ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
@@ -22,11 +22,11 @@ ms.locfileid: "49662463"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms 유지 관리 및 작업 
  
-차세대 Skype 채팅방 시스템인 Microsoft Teams Room의 관리에 대해 자세히 알아보는 이 항목을 읽어보아야 합니다.
+차세대 Skype 채팅방 시스템인 Microsoft Teams Room의 관리에 대해 알아보는 이 항목을 읽어보아야 합니다.
   
-Microsoft Teams 회의실은 회의실을 풍부한 공동 작업 환경으로 변환하도록 설계된 Microsoft의 최신 회의 솔루션입니다. 사용자는 익숙한 Microsoft Teams 또는 비즈니스용 Skype 인터페이스를 즐기며 IT 관리자는 쉽게 배포되고 관리되는 Windows 10 Skype 모임 앱에 감사할 것입니다. Microsoft Teams 회의실은 간편한 설치를 위해 더 쉽게 회의실에 MICROSOFT Teams 또는 비즈니스용 Skype를 가져올 수 있도록 기존의 장비를 활용하도록 디자인되었습니다.
+Microsoft Teams 회의실은 회의실을 풍부한 공동 작업 환경으로 변환하도록 설계된 Microsoft의 최신 회의 솔루션입니다. 사용자는 익숙한 Microsoft Teams 또는 비즈니스용 Skype 인터페이스를 즐길 수 있으며 IT 관리자는 쉽게 배포되고 관리되는 Windows 10 Skype 모임 앱에 감사할 것입니다. Microsoft Teams 회의실은 간편한 설치를 위해 더 쉽게 회의실에 MICROSOFT Teams 또는 비즈니스용 Skype를 가져올 수 있도록 기존의 장비를 활용하도록 디자인되었습니다.
   
-추가 구성을 통해 Azure Monitor를 사용하여 Microsoft Teams 회의실 관리 계획에 설명된 Microsoft Azure [Monitor를](azure-monitor-plan.md)사용하여 원격 관리를 할 수 있습니다. Azure [Monitor를](azure-monitor-deploy.md)사용하여 Microsoft Teams 회의실 관리를 [배포하고, Azure Monitor를](azure-monitor-deploy.md)사용하여 Microsoft Teams 회의실 디바이스를 관리합니다. 사용자 지정 디스플레이 테마 적용을 포함하는 XML 구성 파일을 사용하여 [원격으로 Microsoft Teams 회의실](xml-config-file.md)콘솔 설정을 관리할 수도 있습니다. 
+추가 구성을 통해 Azure Monitor를 사용하여 Microsoft Teams 회의실 관리 계획에 설명된 Microsoft Azure [Monitor를](azure-monitor-plan.md)사용하여 원격 관리가 가능합니다. Azure [Monitor를](azure-monitor-deploy.md)사용하여 Microsoft Teams 회의실 관리 배포, [Azure Monitor를](azure-monitor-deploy.md)사용하여 Microsoft Teams Rooms 디바이스 관리. 사용자 지정 디스플레이 테마 적용을 포함하는 XML 구성 파일을 사용하여 [원격으로 Microsoft Teams 회의실](xml-config-file.md)콘솔 설정을 관리할 수도 있습니다. 
   
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams 회의실에서 로그 수집
 <a name="Logs"> </a>
@@ -47,7 +47,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 > [!NOTE]
 > 원본이 대기 모드에서 해제될 때 현재 비디오 원본(예: MTR 콘솔)으로 자동 전환하려면 특정 조건이 충족되어야 합니다. 이 기능은 선택 사항이지만 기본 하드웨어가 이 기능을 지원하는 Microsoft Teams Rooms 소프트웨어에서 지원됩니다. 전면 디스플레이로 사용되는 소비자 TV는 HDMI의 CEC(Consumer Electronics Control) 기능을 지원해야 합니다.  선택한 도크 또는 콘솔에 따라(CEC를 지원하지 않을 수 있습니다. 제조업체 지원 설명서 참조), Crestron의 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 또는 [Extron의 Extron HD CTL 100과](https://www.extron.com/article/hdctl100ad) 같은 컨트롤러가 필요한 경우 원하는 동작을 사용하도록 설정할 수 있습니다. 
   
-## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams 회의실 재설정(공장 복원)
+## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams 회의실 재설정(팩터리 복원)
 <a name="Reset"> </a>
 
 Microsoft Teams 회의실이 잘 실행되지 않는 경우 공장 재설정을 수행하는 것이 도움이 될 수 있습니다. 이렇게하려면 [Microsoft Teams Room 복구](recovery-tool.md) 도구를 사용하여 공장 복원 지침을 따릅니다.
@@ -84,7 +84,7 @@ Microsoft Teams 회의실이 잘 실행되지 않는 경우 공장 재설정을 
 그룹 정책을 사용하여 파일 전송은 파일 항목 [구성에서 설명됩니다.](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 
 > [!NOTE]
-> Microsoft Teams Rooms 장치가 Windows 10 OS의 다음 버전과 호환되는 경우 디바이스는 Windows 업데이트를 통해 자동으로 다음 버전으로 업데이트됩니다. Microsoft Teams Rooms 장치는 Windows 10의 다음 릴리스로 수동으로 또는 WUFB(Windows Update for Business) 그룹 정책을 사용하도록 설정하여 업그레이드하지 말아야 합니다. "수신하려는 업데이트에 대한 Windows 준비 수준 선택" 및 GPO를 통해 "미리 보기 빌드 및 기능 업데이트 수신 시 선택". 이러한 그룹 정책을 사용하도록 설정된 디바이스는 Microsoft Teams Rooms 앱의 Windows 10 OS 업데이트에 문제가 있는 것으로 알려져 있습니다.
+> Microsoft Teams Rooms 장치가 Windows 10 OS의 다음 버전과 호환되는 경우 디바이스는 Windows 업데이트를 통해 자동으로 다음 버전으로 업데이트됩니다. Microsoft Teams Rooms 디바이스는 Windows 10의 다음 릴리스로 수동으로 또는 WUFB(Windows Update for Business) 그룹 정책을 사용하도록 설정하여 업그레이드하지 말아야 합니다. "수신하려는 업데이트에 대한 Windows 준비 수준 선택" 및 GPO를 통해 "미리 보기 빌드 및 기능 업데이트 수신 시 선택". 이러한 그룹 정책을 사용하도록 설정된 디바이스는 Microsoft Teams Rooms 앱의 Windows 10 OS 업데이트에 문제가 있는 것으로 알려져 있습니다.
 
 ## <a name="remote-management-using-powershell"></a>PowerShell을 사용하여 원격 관리
 <a name="RemotePS"> </a>
@@ -106,15 +106,15 @@ PowerShell을 사용하여 원격으로 다음 관리 작업을 수행할 수 �
 1. Microsoft Teams 회의실 장치에서 관리자로 로그인합니다.
 2. 상승된 PowerShell 명령 프롬프트를 열 수 있습니다.
 3. 다음 명령을 입력합니다. `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. 로컬 보안 정책을 열고  관리자 보안 그룹을 보안 설정 로컬 정책 사용자 권한 할당에 추가하고 네트워크에서 이  >    >    >  **컴퓨터에 액세스합니다.**
+4. 로컬 보안 정책을 열고  네트워크에서 이 컴퓨터에 액세스하는 보안 설정 로컬 정책 사용자 권한 할당에 관리자  >    >    >  **보안 그룹을 추가합니다.**
 
 관리 작업을 수행하기 위해:
   
-1. Microsoft Teams Rooms 장치에서 PowerShell 명령을 실행할 수 있는 권한이 있는 계정 자격 증명으로 PC에 로그인합니다.
+1. Microsoft Teams 회의실 장치에서 PowerShell 명령을 실행할 수 있는 권한이 있는 계정 자격 증명으로 PC에 로그인합니다.
 2. PC에서 일반 PowerShell 명령 프롬프트를 열 수 있습니다.
 3. 아래 표의 명령 텍스트를 복사하여 프롬프트에 붙여넣습니다.
 4. 필드를 환경에 적합한  `<Device fqdn>` FQDN 값으로 바 대체합니다.
-5. 마스터의 파일 이름 및 로컬 경로로 SkypeSettings.xml(또는  *\<path\>*  테마 이미지)
+5. 마스터의 파일 이름 및 로컬 경로로 SkypeSettings.xml 구성  *\<path\>*  파일(또는 테마 이미지)을 입력합니다.
     
 연결된 디바이스를 얻은 경우
   
@@ -165,16 +165,16 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>소프트웨어 업데이트
 <a name="SWupdate"> </a>
 
-기본적으로 Microsoft Teams Rooms는 Windows 스토어에 연결하여 최신 버전의 Microsoft Teams Rooms 소프트웨어를 얻습니다. 따라서 장치에 일반 인터넷 액세스가 필요합니다. 지원 문제를 Microsoft에 문의하기 전에 Microsoft Teams 회의실 장치가 최신 버전의 앱과 함께 로드해야 합니다.
+기본적으로 Microsoft Teams Rooms는 Windows 스토어에 연결하여 최신 버전의 Microsoft Teams Rooms 소프트웨어를 얻습니다. 따라서 장치에 일반 인터넷 액세스가 필요합니다. 지원 문제를 Microsoft에 문의하기 전에 Microsoft Teams 회의실 장치가 최신 버전의 앱과 함께 로드될 수 있는지 확인합니다.
   
 기본적으로 Microsoft Teams Rooms는 Windows Update에 연결하여 운영 체제 및 USB 주변 장치 펌웨어 업데이트를 검색하고 구성된 업무 시간 외부에 설치합니다. 관리자 계정에 로그인하고 설정 앱을 실행하여 업무 시간을 구성할 수 있습니다.
   
-업데이트를 수동으로 관리하려는 경우 비즈니스용 [Microsoft Store에서](https://businessstore.microsoft.com/store) 오프라인 앱을 배포하는 [](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)일반적인 절차를 따르지 못하는 경우 구성 관리자와 함께 [](https://go.microsoft.com/fwlink/?linkid=851168) 사용할 수 있는 배포 키트(Microsoft [Teams 회의실](console.md)콘솔 구성 지침)에서 적절한 APPX 파일 및 종속성 정보를 획득할 수 있습니다. 배포 키트 릴리스는 저장소 릴리스 뒤로 까다로우기 때문에 항상 사용 가능한 최신 빌드와 일치하지 않을 수 있습니다.
+업데이트를 수동으로 관리하고 비즈니스용 [Microsoft Store에서](https://businessstore.microsoft.com/store) 오프라인 앱을 배포하기 위한 [](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)일반적인 절차를 따를 수 없는 경우 구성 관리자와 [](https://go.microsoft.com/fwlink/?linkid=851168) 함께 사용할 수 있는 배포 키트(Microsoft [Teams 회의실](console.md)콘솔 구성에 대한 지침)에서 적절한 APPX 파일 및 종속성 정보를 획득할 수 있습니다. 배포 키트 릴리스는 저장소 릴리스 뒤로 까다로우기 때문에 항상 사용 가능한 최신 빌드와 일치하지 않을 수 있습니다.
   
 ### <a name="to-update-using-powershell"></a>Powershell을 사용하여 업데이트
 
 1. 설치 [MSI에서](https://go.microsoft.com/fwlink/?linkid=851168) 디바이스가 액세스할 수 있는 공유로 패키지를 추출합니다.
-2. Microsoft Teams Rooms 디바이스를 대상으로 하는 다음 스크립트를 실행하여 적절하게 디바이스 \<share\> 공유로 변경합니다.
+2. Microsoft Teams Rooms 디바이스를 대상으로 하는 다음 스크립트를 실행하여 적절하게 장치 \<share\> 공유로 변경합니다.
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -183,7 +183,7 @@ Copy-Item $movefile $targetDevice
 ## <a name="admin-mode-and-device-management"></a>관리 모드 및 디바이스 관리
 <a name="AdminMode"> </a>
 
-개인 CA 인증서를 수동으로 설치하는 등 일부 관리 기능은 Surface Pro 디바이스를 관리 모드로 배치해야 합니다. 
+개인 CA 인증서를 수동으로 설치하는 등 일부 관리 기능은 Surface Pro 디바이스를 관리 모드로 설정해야 합니다. 
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Microsoft Teams 회의실 앱이 실행 중일 때 관리 모드로 전환
 
@@ -193,11 +193,11 @@ Copy-Item $movefile $targetDevice
 4. 관리자 암호를 입력합니다. 설치 화면이 나타납니다.  디바이스가 도메인에 가입되지 않은 경우 로컬 관리 계정(사용자 이름 "관리자")이 기본적으로 사용됩니다. 이 계정의 기본 암호는 'sfb'입니다. 가능한 한 빨리 암호를 변경합니다. 머신이 도메인에 가입된 경우 적절한 권한의 도메인 계정으로 로그인할 수 있습니다. 
 5. 왼쪽 **열에서 Windows** 설정을 선택합니다.
 6. 관리자 **로그인으로 이동을 선택하세요.**
-7. 관리자 암호를 입력합니다. 그러면 앱이 로그오프된 후 Windows 로그인 화면으로 표시됩니다. 
+7. 관리자 암호를 입력합니다. 이렇게 하면 앱을 로그오프하고 Windows 로그인 화면으로 바로 가게 됩니다. 
 8. 관리자 자격 증명을 사용하여 데스크톱에 로그인합니다. 디바이스를 관리하는 데 필요한 권한이 있습니다.
 9. 필요한 관리 작업을 수행합니다.
 10. 관리자 계정에서 로그인합니다.
-11. 화면의 왼쪽에 있는 사용자 계정 아이콘을 선택한 다음 Skype를 선택하여 Microsoft Teams 회의실로 **돌아오면 됩니다.**
+11. 화면의 왼쪽에 있는 사용자 계정 아이콘을 선택한 다음 Skype를 선택하여 Microsoft Teams 회의실으로 **돌아오면 됩니다.**
     
     Skype **사용자가** 목록에 없는 경우 다른 사용자를  선택하고 **.\skype를** 사용자 이름으로 입력하고 로그인해야 할 수 있습니다.
     
@@ -211,9 +211,9 @@ Copy-Item $movefile $targetDevice
 4. 완료되면 컴퓨터를 다시 시작합니다.
 
     > [!NOTE]
-    > 이 방법은 Skype 사용자를 로그오프하거나 앱을 종료하지 않지만 앱이 응답하지 않는 경우 다른 방법을 사용할 수 없는 경우 사용합니다. 
+    > 이 방법은 Skype 사용자를 로그오프하거나 앱을 정식으로 종료하지 않지만 앱이 응답하지 않는 경우 다른 방법을 사용할 수 없는 경우 사용합니다. 
 
-   콘솔이 정상 작동 모드로 다시 시작되고 Microsoft Teams 회의실 앱을 실행합니다. 키보드가 연결되어 있는 경우 이 절차를 수행할 수 있도록 제거할 수 있습니다.
+   콘솔이 정상 작동 모드로 다시 시작되고 Microsoft Teams Rooms 앱을 실행합니다. 키보드가 연결되어 있는 경우 이 절차를 수행할 수 있도록 제거할 수 있습니다.
    ## <a name="troubleshooting-tips"></a>문제 해결 팁
    <a name="TS"> </a>
 

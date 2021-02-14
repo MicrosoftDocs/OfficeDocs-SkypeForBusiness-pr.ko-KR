@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 토폴로지 작성기 내에서 내부 및 외부 웹 서비스에 사용되는 포트 설정을 수정할 수 있습니다. 또한 DNS(Domain Name System) 부하 분산을 배포하는 경우 토폴로지 작성기에서 해당 풀에 있는 모든 서버의 실제 IP 주소로 확인되는 풀의 FQDN(FQDN)을 구성할 수 있습니다.
+description: 토폴로지 작성기 내에서 내부 및 외부 웹 서비스에 사용되는 포트 설정을 수정할 수 있습니다. 또한 DNS(Domain Name System) 부하 분산을 배포하는 경우 토폴로지 작성기에서 해당 풀에 있는 모든 서버의 실제 IP 주소로 확인되는 풀의 FQDN(정식 도메인 이름)을 구성할 수 있습니다.
 ms.openlocfilehash: 99f052ebbfc4199f077744eee444333822075c24
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49800698"
 ---
 # <a name="web-services-settings-expander"></a>웹 서비스 설정 확장기
  
-토폴로지 작성기 내에서 내부 및 외부 웹 서비스에 사용되는 포트 설정을 수정할 수 있습니다. 또한 DNS(Domain Name System) 부하 분산을 배포하는 경우 토폴로지 작성기에서 해당 풀에 있는 모든 서버의 실제 IP 주소로 확인되는 풀의 FQDN(FQDN)을 구성할 수 있습니다.
+토폴로지 작성기 내에서 내부 및 외부 웹 서비스에 사용되는 포트 설정을 수정할 수 있습니다. 또한 DNS(Domain Name System) 부하 분산을 배포하는 경우 토폴로지 작성기에서 해당 풀에 있는 모든 서버의 실제 IP 주소로 확인되는 풀의 FQDN(정식 도메인 이름)을 구성할 수 있습니다.
   
 ### <a name="editing-web-services-settings"></a>웹 서비스 설정 편집
 

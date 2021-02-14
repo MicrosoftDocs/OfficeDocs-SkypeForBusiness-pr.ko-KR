@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 비즈니스용 Skype Online의 사용 중지 계획 및 Microsoft에서 고객이 Teams로 마이그레이션하는 데 어떻게 도움이 됐는가에 대해 자세히 배워야 합니다.
+description: 비즈니스용 Skype Online의 사용 중지 계획 및 Microsoft가 고객이 Teams로 마이그레이션하는 데 어떻게 도움이 됐는가에 대해 자세히 알아보고
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -44,7 +44,7 @@ Teams는 비즈니스용 Skype Online의 업그레이드가 아니라 회사, �
 
 Teams로 완전히 전환하는 데 필요한 시간은 사용자 수, 기술 복잡성 및 변경에 대한 내부 적응성을 포함하여 조직의 고유한 특성에 따라 달라집니다. 따라서 비즈니스용 Skype에서 성공적인 전환을 실행할 수 있는 적절한 시간을 확보할 뿐만 아니라 Teams의 이점을 더 빠르게 실현할 수 있도록 지금 Teams로의 업그레이드를 계획하는 것이 좋습니다.
 
-Teams는 대부분의 Microsoft 365 Business 및 Enterprise 계획에서 사용할 수 있으며 기존 라이선스 투자는 Teams에 전달됩니다. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 예를 들어 오디오 회의 독립 실행형을 구입하거나 비즈니스용 Skype를 통해 E5의 일부로 구입한 경우 Teams에서 오디오 회의가 활성화됩니다.
+Teams는 대부분의 Microsoft 365 Business 및 Enterprise 계획에서 사용할 수 있으며 기존 라이선스 투자가 Teams에 전달됩니다. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 예를 들어 오디오 회의 독립 실행형을 구입하거나 비즈니스용 Skype를 통해 E5의 일부로 구입한 경우 Teams에서 오디오 회의가 활성화됩니다.
 
 Skype 소비자 서비스 및 비즈니스용 Skype Server는 비즈니스용 Skype Online 사용 중지의 영향을 받지 않습니다.
 
@@ -62,11 +62,11 @@ Teams 배포 및 비즈니스용 Skype에서 업그레이드를 계획하는 데
 
 - [Teams Chalk Talks](https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page) – Teams에서 가장 인기 있는 몇 가지 시나리오에 대한 모범 사례를 공유하는 IT 및 의사 결정자에 대한 무료 온라인 워크샵입니다.
 
-- [Teams 업그레이드 계획 워크샵](https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page) - 무료 대화형 업그레이드 계획 워크샵을 통해 Teams로 업그레이드를 계획하고 구현하는 데 도움이 되는 지침, 모범 사례 및 리소스를 받을 수 있습니다.
+- [Teams 업그레이드 계획 워크샵](https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page) - 무료 대화형 업그레이드 계획 워크샵을 통해 Teams로의 업그레이드를 계획하고 구현하는 데 도움이 되는 지침, 모범 사례 및 리소스를 받을 수 있습니다.
 
 - [Microsoft 파트너](https://www.microsoft.com/solution-providers/home) – Microsoft 솔루션 공급자는 Teams를 모두 활용하는 데 도움을 줄 수 있습니다.
 
-- [Microsoft Teams 블로그](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) – 새로운 기능, 채택 및 사용 리소스, Teams 장치 및 다른 비즈니스 생산성 애플리케이션과의 통합에 대한 최신 Teams 뉴스를 얻습니다.
+- [Microsoft Teams 블로그](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) – 새로운 기능, 채택 및 사용 리소스, Teams 장치 및 다른 비즈니스 생산성 애플리케이션과의 통합을 다루는 최신 Teams 뉴스를 얻습니다.
 
 현재 비즈니스용 Skype Online 고객인 경우 지금 Teams로의 마이그레이션 계획을 시작하세요. 강력한 통신 및 공동 작업 기능을 경험하게 하게 되어 기 기다렸다가 그 방법을 지원하기 위해 최선을 다하고 있습니다.
 
@@ -76,7 +76,7 @@ Teams 배포 및 비즈니스용 Skype에서 업그레이드를 계획하는 데
 예. 현재 비즈니스용 Skype Online 고객은 결국 이들 사용자를 Microsoft Teams로 전환해야 한다는 것을 이해하며 새 사용자를 테넌트에 추가할 수 있습니다.
 
 **비즈니스용 Skype 서버는 차후에 어떻게 되나요?**<br>
-우리는 고객이 비즈니스용 Skype Server를 사용하고 있으며 많은 사용자가 요구 사항으로 인해 일부 사용자 또는 지리에 비즈니스용 Skype Server를 계속 사용해야 합니다. 이러한 경우 조직에서 비즈니스용 Skype 서버와 함께 Teams를 채택하여 팀워크 및 공동 작업을 진행할 것을 권장합니다. 최신 버전의 비즈니스용 Skype Server 2019는 2018년 10월에 출시되었습니다. 메인스트림 지원은 2024년 1월 9일까지 계획됩니다.
+고객이 비즈니스용 Skype Server를 사용하고 있으며, 많은 사용자가 요구 사항으로 인해 일부 사용자 또는 지리에 비즈니스용 Skype Server를 계속 사용해야 합니다. 이러한 경우 조직에서 비즈니스용 Skype 서버와 함께 Teams를 채택하여 팀워크 및 공동 작업을 진행할 것을 권장합니다. 최신 버전의 비즈니스용 Skype Server 2019는 2018년 10월에 출시되었습니다. 메인스트림 지원은 2024년 1월 9일까지 계획됩니다.
 
 **Skype 소비자 서비스에 어떤 의미가 있나요?**<br>
 비즈니스용 Skype Online의 사용 중지는 Skype 소비자 서비스에 영향을 주지 않습니다.
@@ -85,7 +85,7 @@ Teams 배포 및 비즈니스용 Skype에서 업그레이드를 계획하는 데
 새로운 음성, 동영상 및 모임의 혁신과 함께 Teams에 비즈니스용 Skype Online의 핵심 세트를 도입했습니다. 모든 Microsoft 365 고객은 현재 조직 내에서 비즈니스용 Skype Online 및/또는 비즈니스용 Skype Server와 독립적으로 또는 나란히 Teams를 사용하는 것이 좋습니다.
 
 **비즈니스용 Skype Online을 개선하는 데 계속해서 투자할 것인가요?**<br>
-2021년 7월 31일까지 비즈니스용 Skype Online 사용 중지 날짜를 지원할 계획입니다. 그러나 비즈니스용 Skype Online을 Microsoft 365의 핵심 통신 솔루션으로 바꾸는 Microsoft Teams를 통해 지속적인 개발 및 혁신에 집중할 것입니다. 최신 기능 및 성능을 원하는 고객은 Microsoft Teams로 업그레이드하는 것이 권장됩니다.
+2021년 7월 31일까지 비즈니스용 Skype Online 사용 중지 날짜를 지원할 계획입니다. 그러나 비즈니스용 Skype Online을 Microsoft 365의 핵심 통신 솔루션으로 대체하는 Microsoft Teams를 통해 지속적인 개발 및 혁신에 중점을 두게 됩니다. 최신 기능 및 성능을 원하는 고객은 Microsoft Teams로 업그레이드하는 것이 권장됩니다.
 
 **Microsoft 365의 비즈니스용 Skype를 배포하거나 배포할 계획 중인 고객에게는 어떤 것이 권장하나요?**<br>
 현재 비즈니스용 Skype Online을 배포하는 고객은 계속해서 사용해도 좋습니다. 모든 신규 Microsoft 365 고객은 비즈니스용 Skype와 독립적 또는 병렬로 Teams 사용을 시작하고 비즈니스 요구를 충족하는 경로(공존 또는 Teams만 해당) 및 타이밍을 결정하는 것이 좋습니다. 비즈니스용 Skype Online의 서비스 만료 기간에 상관없이 고객은 비즈니스용 Skype Online 서비스가 만료되기 전에 Teams로 이동해야 합니다.

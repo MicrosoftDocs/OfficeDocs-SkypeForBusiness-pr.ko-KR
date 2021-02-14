@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Enterprise Voice 배포의 일부로, 중재 서버와 하나 이상의 피어 간에 트렁크를 구성하여 조직의 Enterprise Voice 클라이언트 및 장치에 대한 PSTN(공용 전화망) 연결을 제공할 수 있습니다.
+description: Enterprise Voice 배포의 일부로, 중재 서버와 하나 이상의 피어 간에 트렁크를 구성하여 조직의 Enterprise Voice 클라이언트 및 장치에 대한 PSTN(Public Switched Telephone Network) 연결을 제공할 수 있습니다.
 ms.openlocfilehash: 57b8635d635c0fd0b8c41c95f92af768ff84dfd4
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

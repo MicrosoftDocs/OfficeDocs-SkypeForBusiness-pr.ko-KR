@@ -164,7 +164,7 @@ Teams를 다운로드하는 방법에 대한 자세한 내용은 Microsoft Teams
 
 * * *
 
-인증 프로그램에 참여하고자 하는 공급업체인 경우 [](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 요구 사항 및 사용 가능한 프로그램에 가입하는 방법을 참조하세요.
+인증 프로그램에 참여하기를 원하는 공급업체인 경우 [](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 요구 사항 및 사용 가능한 프로그램에 가입하는 방법을 참조하세요.
 
 ## <a name="additional-resources"></a>추가 리소스
 

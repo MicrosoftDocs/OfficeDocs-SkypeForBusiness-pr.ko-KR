@@ -35,7 +35,7 @@ ms.locfileid: "49662063"
 - [Microsoft Teams Rooms 배포 검사 목록](console.md#Checklist)
 
 > [!NOTE]
-> Microsoft Teams 회의실은 Microsoft Teams 채팅방 배포에 설명된 장치 계정이 올바르게 설정된 올바르게 구성된 Microsoft Teams 또는 비즈니스용 Skype 환경에서만 [작동합니다.](rooms-deploy.md)
+> Microsoft Teams 회의실은 Microsoft Teams 회의실 배포에 설명된 바와 같이 장치 계정이 올바르게 설정된 올바르게 구성된 Microsoft Teams 또는 비즈니스용 Skype 환경에서만 [작동합니다.](rooms-deploy.md)
   
 ## <a name="prepare-the-installation-media"></a>설치 미디어 준비
 <a name="Prep_Media"> </a>
@@ -46,7 +46,7 @@ Microsoft Teams Rooms 콘솔 앱을 설치하려면 용량이 32GB 이상인 USB
 > 이러한 지침에 따라 Microsoft Teams 회의실 설치 미디어를 만들지 못하면 예기치 않은 동작이 발생할 수 있습니다.
 
 > [!NOTE]
-> 아래 프로세스는 새 Microsoft Teams Rooms 장치를 이미지로 만드는 설치 미디어를 만드는 것입니다. 기존 디바이스는 기본적으로 Windows 업데이트 및 Windows 스토어에서 자동으로 업데이트됩니다.
+> 아래 프로세스는 새 Microsoft Teams Rooms 장치를 이미지로 만드는 설치 미디어를 만드는 것입니다. 기본적으로 기존 디바이스는 Windows 업데이트 및 Windows 스토어에서 자동으로 업데이트됩니다.
 
 > [!IMPORTANT]
 > Microsoft Teams 회의실 설치 미디어를 만드는 데 사용되는 Windows 10 컴퓨터는 대상 설치 미디어와 동일하거나 이후 버전의 Windows에 있어야 합니다.
@@ -57,7 +57,7 @@ Microsoft Teams Rooms 콘솔 앱을 설치하려면 용량이 32GB 이상인 USB
 
 
 > [!TIP]
-> 스크립트가 CreateSrsMedia.ps1 시작될 때마다 화면 출력에는 세션에 대한 로그 파일 또는 기록이 포함됩니다. 스크립트 실행에 문제가 있는 경우 지원을 요청할 때 해당 대본의 복사본을 사용할 수 있도록 합니다. 
+> 스크립트가 CreateSrsMedia.ps1 시작될 때마다 화면 출력에는 세션에 대한 로그 파일 또는 기록이 포함됩니다. 스크립트를 실행하는 데 문제가 있는 경우 지원을 요청할 때 해당 대본의 복사본을 사용할 수 있도록 합니다. 
 
 CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 
@@ -90,11 +90,11 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 
     b. 전원 단추를 누르고 니다.
 
-    c. Windows 설치가 부팅된 후 볼륨 다운(-) 단추를 해제합니다.
+    c. Windows 설정이 부팅된 후 볼륨 다운(-) 단추를 해제합니다.
 
 8. 설치가 완료되면 시스템이 종료됩니다.
     
-시스템이 종료된 후 USB 설정 디스크를 제거하는 것이 안전합니다. 이 시점에서 대상 장치를 도크에 두고(도크 기반 제품을 사용하는 경우), 회의실에 필요한 주변 장치를 연결하고, 네트워크에 연결할 수 있습니다. 제조업체 지침을 참조하세요.
+시스템이 종료된 후 USB 설정 디스크를 제거하는 것이 안전합니다. 이때 도크 기반 제품을 사용하는 경우 대상 장치를 도크에 두고 회의실에 필요한 주변 장치를 연결하고 네트워크에 연결할 수 있습니다. 제조업체 지침을 참조하세요.
 
 > [!NOTE]
 > Microsoft Teams 회의실에 대한 소프트웨어 업데이트는 비즈니스용 Microsoft Store에서 자동으로 다운로드됩니다. 비즈니스 및 교육용 [Microsoft Store의](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 전제적 준비를 참조하여 방 콘솔이 스토어에 액세스하고 셀프 업데이트할 수 있는지 확인합니다.  
@@ -104,7 +104,7 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 크리에이터 업데이트에서는 암시적 언어 선택이 사용자에게 원하는 실제 응용 프로그램 언어를 제공하지 않는 시나리오에서 ApplyCurrentRegionAndLanguage.ps1 스크립트를 사용해야 합니다(예: 콘솔 앱이 프랑스어로 제공되지만 영어로 제공될 예정).
   
 > [!NOTE]
-> 다음 지침은 Windows 크리에이터의 업데이트를 사용하여 만든 본체에만 사용할 수 있습니다. 새 프로비전 시스템과 함께 미디어를 사용하여 설정되지 않은 레거시/시장 내 시스템은 이러한 지침을 사용할 수 없지만 이 수동 개입이 필요한 초기 문제도 겪지 말아야 합니다(Anniversary Edition을 사용하면 설정의 일부로 앱 언어를 명시적으로 선택할 수 있습니다).
+> 다음 지침은 Windows 크리에이터의 업데이트를 사용하여 만든 본체에서만 작동됩니다. 새 프로비전 시스템과 함께 미디어를 사용하여 설정되지 않은 레거시/시장 내 시스템은 이러한 지침을 사용할 수 없지만 이 수동 개입이 필요한 초기 문제도 겪지 말아야 합니다(Anniversary Edition을 사용하면 설정의 일부로 앱 언어를 명시적으로 선택할 수 있습니다).
   
 ### <a name="to-apply-your-desired-language"></a>원하는 언어를 적용합니다.
 
@@ -151,11 +151,11 @@ Windows가 설치되면 Microsoft Teams 회의실 콘솔 앱이 다음에 시작
     
 2. 방 계정의 암호를 입력하고 다시 입력하여 확인할 수 있습니다.
     
-3. "도메인 구성"에서 비즈니스용 Skype 서버용 FQDN을 설정하세요. 비즈니스용 Skype SIP 도메인이 사용자의 Exchange 도메인과 다른 경우 이 필드에 Exchange 도메인을 입력합니다.
+3. "도메인 구성" 아래에서 비즈니스용 Skype 서버용 FQDN을 설정하세요. 비즈니스용 Skype SIP 도메인이 사용자의 Exchange 도메인과 다른 경우 이 필드에 Exchange 도메인을 입력합니다.
     
 4. 다음을 **클릭합니다.**
     
-5. 기능 화면에서 표시된 디바이스를 선택하고 다음을 **클릭합니다.** 기본값은 자동 화면 공유를 설정하고 모임 이름을 끄기로 숨기는 것입니다. 선택할 디바이스는 다음입니다.
+5. 기능 화면에서 표시된 디바이스를 선택하고 다음을 **클릭합니다.** 기본값은 자동 화면 공유를 설정하고 모임 이름을 숨기기 해제로 설정하는 것입니다. 선택할 디바이스는 다음입니다.
     
    - 회의용 마이크: 이 회의실의 기본 마이크입니다.
     
@@ -170,10 +170,10 @@ Windows가 설치되면 Microsoft Teams 회의실 콘솔 앱이 다음에 시작
 Microsoft Teams 회의실 콘솔 앱은 위에서 입력한 자격 증명으로 비즈니스용 Skype Server에 즉시 로그인하기 시작해야 합니다. 또한 동일한 자격 증명을 사용하여 Exchange와 일정 동기화를 시작해야 합니다. 콘솔 앱 사용에 대한 자세한 내용은 [Microsoft Teams 회의실 도움말을 참조하세요.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
   
 > [!IMPORTANT]
-> Microsoft Teams 회의실은 인증된 콘솔 하드웨어의 존재에 의존합니다. Microsoft Teams 회의실 콘솔 앱을 포함하는 올바르게 생성된 이미지도 본체 하드웨어가 감지되지 않는 한 초기 설치 절차를 따라 부팅되지 않습니다. Surface Pro 기반 솔루션의 경우 이 검사를 통과하려면 Surface Pro를 함께 제공되는 Dock 하드웨어에 연결해야 합니다.
+> Microsoft Teams 회의실은 인증된 콘솔 하드웨어의 존재에 의존합니다. Microsoft Teams 회의실 콘솔 앱을 포함하는 올바르게 만든 이미지도 본체 하드웨어가 감지되지 않는 한 초기 설치 절차를 따라 부팅되지 않습니다. Surface Pro 기반 솔루션의 경우 이 검사를 통과하려면 Surface Pro를 함께 제공되는 Dock 하드웨어에 연결해야 합니다.
   
 > [!NOTE]
-> 터치 키보드에서 기호가 지원되지 않는 경우 초기 설정 중에 일부 비영어 사용자는 본체에 연결된 물리적 키보드가 필요할 수 있습니다.
+> 일부 비영어 사용자는 터치 키보드에서 기호가 지원되지 않는 경우 초기 설정 중에 본체에 연결된 물리적 키보드가 필요할 수 있습니다.
   
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>콘솔에 개인 CA 인증서 설치
 <a name="Certs"> </a>

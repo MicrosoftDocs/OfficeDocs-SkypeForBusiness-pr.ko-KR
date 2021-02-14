@@ -63,7 +63,7 @@ Teams 보존 정책에 포함 및 제외되는 내용 및 정책 구성에 따�
 
 Teams 채팅 및 채널 메시지에 대한 보존 정책을 만들 경우 Teams 위치에 대한 보존 [정책의 지침을 사용합니다.](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
 
-이 페이지에는 Microsoft 365에서 다른 워크로드에 대한 보존 정책을 만들고 관리하는 추가 정보가 있습니다. 예를 들어 Microsoft 365 그룹에 대한 보존 정책을 만들어 Teams에 액세스하고 OneDrive 또는 SharePoint에 저장된 파일을 보존하고 삭제할 수도 있습니다.  
+이 페이지에는 Microsoft 365의 다른 워크로드에 대한 보존 정책을 만들고 관리하는 추가 정보가 있습니다. 예를 들어 Microsoft 365 그룹에 대한 보존 정책을 만들어 Teams에 액세스하고 OneDrive 또는 SharePoint에 저장된 파일을 보존하고 삭제할 수도 있습니다.  
 
 ## <a name="end-user-experience"></a>최종 사용자 환경
 

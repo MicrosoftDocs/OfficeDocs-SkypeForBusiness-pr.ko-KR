@@ -40,7 +40,7 @@ ms.locfileid: "49662443"
 
 Azure AD B2B 공동 작업을 통해 조직에서는 B2B 사용자에 대한 조건부 액세스 및 MFA(Multi-Factor Authentication) 정책을 적용할 수 있습니다. 조직의 전일제 직원과 구성원에 대해 이러한 정책을 사용하는 것과 같은 방법으로 이러한 정책을 테넌트, 앱 또는 개별 사용자 수준에서 적용할 수 있습니다. 이러한 정책은 리소스 조직에서 적용됩니다. 자세한 내용은 [B2B 공동 작업 사용자에 대한 조건부 액세스](https://go.microsoft.com/fwlink/?linkid=857454)를 참조하세요. 개별 게스트는 차단할 수 없습니다.
 
-Azure AD B2B, Microsoft 365 그룹 또는 SharePoint를 통해 이미 추가한 게스트를 사용할 준비가 완료되었습니다. Microsoft 365 관리자 또는 팀 소유자는 해당 게스트를 해당 팀에 추가할 수 있습니다. 팀과 연결된 Microsoft 365 그룹에 게스트를 직접 추가하면 게스트가 팀에 액세스할 수 있지만 Microsoft 365 그룹은 게스트에게 초대 전자 메일을 생성하지 않습니다. 따라서 팀의 누군가가 게스트에게 알려야 합니다.
+Azure AD B2B, Microsoft 365 그룹 또는 SharePoint를 통해 이미 추가한 게스트를 사용할 준비가 된 것입니다. Microsoft 365 관리자 또는 팀 소유자는 해당 게스트를 해당 팀에 추가할 수 있습니다. 팀과 연결된 Microsoft 365 그룹에 게스트를 직접 추가하면 게스트가 팀에 액세스할 수 있지만 Microsoft 365 그룹은 게스트에게 초대 전자 메일을 생성하지 않습니다. 따라서 팀의 누군가가 게스트에게 알려야 합니다.
 
 > [!NOTE]
 > 게스트는 [Microsoft 365 또는 Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 및 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 서비스 제한에 영향을 받습니다.

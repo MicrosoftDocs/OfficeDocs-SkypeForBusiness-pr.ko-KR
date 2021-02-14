@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 회의실에서 인증
+title: Microsoft Teams 회의실의 인증
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -21,7 +21,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49662583"
 ---
-# <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 회의실에서 인증
+# <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 회의실의 인증
 
 Microsoft Teams Rooms 디바이스에 대한 계정 관리는 애플리케이션 수준에서 처리됩니다. 응용 프로그램은 Microsoft Teams, 비즈니스용 Skype 및 Exchange에 연결하여 회의실 계정에 대한 리소스를 확보하여 통화 및 모임 환경을 활성화합니다. 디바이스는 항상 사용 가능한 기능, 호출 시나리오(호출 계획으로 구성된 디바이스의 경우) 및 이러한 디바이스에 구현된 사용자 지정 잠금 메커니즘을 허용하기 위해 계정과는 무관하게 유지됩니다. 즉, 이러한 디바이스에 대한 인증은 최종 사용자 디바이스와 다른 방식으로 발생합니다.  
 
@@ -37,7 +37,7 @@ Microsoft Teams Rooms 디바이스에서 최신 인증이 작동하는 방식과
 
 ## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>Microsoft Teams 회의실 장치에서 최신 인증 사용
 
-Microsoft Teams Rooms에서 비즈니스용 Skype 및 Exchange에서 최신 인증을 사용하려면 Microsoft Teams Rooms 장치에서 최신 인증을 위한 클라이언트 쪽 설정을 사용하도록 설정하세요. 디바이스 설정 또는 XML 구성 파일에서 이 작업을 할 수 있습니다.
+비즈니스용 Skype 및 Exchange에서 최신 인증을 사용하는 Microsoft Teams 회의실의 경우 Microsoft Teams 회의실 장치에서 최신 인증을 위한 클라이언트 쪽 설정을 사용하도록 설정하세요. 디바이스 설정 또는 XML 구성 파일에서 이 작업을 할 수 있습니다.
 
 > [!NOTE]
 > 최신 인증에 클라이언트 쪽 설정을 사용하도록 설정하기 전에 최신 인증을 사용하도록 환경이 올바르게 설정되어 있는지 확인합니다.
@@ -85,14 +85,14 @@ Teams 회의실 인증 흐름은 인증 구성에 따라 다릅니다. 관리되
 
 하이브리드 토폴로지에서 최신 인증을 사용하도록 설정하기 위한 전제 방법은 하이브리드 최신 인증 개요 및 이 인증을 비즈니스용 Skype 및 Exchange 서버와 함께 사용하기 위한 전제 사항에서 [다루고](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)있습니다. 이 문서에서 설명하는 모든 전제적 준비가 적용됩니다.
 
-그러나 Microsoft Teams Rooms는 최신 인증을 위해 리소스 소유자 암호 자격 증명 권한 부여 및 밑이 있는 REST API를 사용하기 때문에 Microsoft Teams 회의실과 관련이 있는 것을 알고 있어야 하는 중요한 차이점은 다음과 같습니다. [](https://tools.ietf.org/html/rfc6749#section-1.3.3)
+그러나 Microsoft Teams 회의실은 최신 인증을 위해 리소스 소유자 암호 자격 증명 권한 부여 및 밑이 있는 REST API를 사용하기 때문에 Microsoft Teams 회의실과 관련이 있는 점에 유의해야 하는 중요한 차이점은 다음과 같습니다. [](https://tools.ietf.org/html/rfc6749#section-1.3.3)
 
 - 2016 CU8 Exchange Server 또는 2019 CU1 Exchange Server 이상이 있어야 합니다.
 - 비즈니스용 Skype Server 2015 CU5 이상 또는 비즈니스용 Skype Server 2019 이상이 있어야 합니다.
 - MFA는 있는 토폴로지와 관계없이 지원되지 않습니다.
 - Microsoft Teams 회의실은 SIP 및 UPN 불일치가 지원되지 않습니다. 작동하려면 동일한 UPN 및 SIP를 사용하여 Microsoft Teams 회의실 계정을 만들어야 합니다.
 - Azure AD에서 지원하는 타사 인증 공급자를 사용하는 경우 WS-Trust를 통한 활성 인증 흐름을 지원해야 합니다.
-- 애플리케이션으로 구성된 리소스 계정에 디바이스 수준 조건부 액세스 정책을 사용하지 않습니다. 이렇게 하면 로그인 오류가 발생합니다. 대신, Microsoft Intune에서 디바이스를 등록하고 [Intune을](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)사용하여 Teams 회의실 관리에 게시된 지침을 사용하여 규정 준수 정책을 적용합니다.
+- 애플리케이션으로 구성된 리소스 계정에 대해 디바이스 수준 조건부 액세스 정책을 사용하지 않습니다. 이렇게 하면 로그인 오류가 발생합니다. 대신, Microsoft Intune에서 장치를 등록하고 [Intune을](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)사용하여 Teams 회의실 관리에 게시된 지침을 사용하여 규정 준수 정책을 적용합니다.
 
 ### <a name="configure-exchange-server"></a>구성 Exchange Server
 

@@ -14,7 +14,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 이 문서에서는 관리자가 Azure Active Directory 포털에서 게스트 사용자에 대한 정보를 편집하는 방법을 배웠습니다.
+description: 이 문서에서는 관리자가 Azure Active Directory 포털에서 게스트 사용자에 대한 정보를 편집하는 방법에 대해 설명합니다.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
@@ -33,7 +33,7 @@ Microsoft 365 관리 센터 또는 Azure Active Directory 포털에서 게스트
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Microsoft 365 관리자의 게스트 사용자
 
-1. [Microsoft 365](https://admin.microsoft.com)관리 센터에서 게스트 정보를 편집하려면 사용자 게스트  >  **사용자를 선택합니다.**
+1. [Microsoft 365](https://admin.microsoft.com)관리 센터에서 게스트 정보를 편집하려면 **사용자** 게스트  >  **사용자를 선택합니다.**
 
    ![편집할 게스트 사용자 정보](media/access-guest-user.png)
 

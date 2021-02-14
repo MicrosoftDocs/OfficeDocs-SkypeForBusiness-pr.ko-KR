@@ -24,7 +24,7 @@ ms.locfileid: "49731400"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Microsoft Teams 회의실 장치를 수동으로 업데이트
 
-Microsoft Teams 회의실 앱은 Microsoft Store를 통해 배포됩니다. 앱에 대한 업데이트는 야간 유지 관리 중에 Microsoft Store에서 자동으로 설치됩니다. 이 방법은 업데이트를 다운로드하는 데 권장되는 방법입니다. 그러나 Teams 회의실 장치에서 Microsoft Store에서 업데이트를 받을 수 없는 경우도 있습니다. 예를 들어 보안 정책은 디바이스가 인터넷에 연결하도록 허용하지 않을 수 있습니다. 또는 Microsoft Store에서 앱을 다운로드하도록 허용하지 않을 수 있습니다. 또는 Microsoft Store를 사용할 수 없는 설정을 수행하기 전에 디바이스를 업데이트할 수 있습니다.
+Microsoft Teams Rooms 앱은 Microsoft Store를 통해 배포됩니다. 앱에 대한 업데이트는 야간 유지 관리 중에 Microsoft Store에서 자동으로 설치됩니다. 이 방법은 업데이트를 다운로드하는 데 권장되는 방법입니다. 그러나 Teams 회의실 장치에서 Microsoft Store에서 업데이트를 받을 수 없는 경우도 있습니다. 예를 들어 보안 정책은 디바이스가 인터넷에 연결하도록 허용하지 않을 수 있습니다. 또는 Microsoft Store에서 앱을 다운로드하도록 허용하지 않을 수 있습니다. 또는 Microsoft Store를 사용할 수 없는 설정을 수행하기 전에 디바이스를 업데이트할 수 있습니다.
 
 Microsoft Store에서 업데이트를 받을 수 없는 경우 오프라인 앱 업데이트 PowerShell 스크립트를 사용하여 Teams 회의실 장치를 최신 버전의 Teams 회의실 앱으로 수동으로 업데이트할 수 있습니다. 이 문서의 단계에 따라 Teams 회의실 장치를 수동으로 업데이트합니다.
 
@@ -48,13 +48,13 @@ PowerShell을 사용하여 스크립트 차단을 해제하는 경우 차단 [�
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>2단계: 스크립트를 실행하여 Teams 회의실 앱 업데이트
 
-Skype 사용자(앱이 실행되는 사용자)가 여전히 로그인하는 동안 상승된 명령 프롬프트에서 오프라인 앱 업데이트 스크립트를 실행해야 합니다. Skype 사용자가 여전히 로그인하는 동안 관리자 계정에 로그인하여 관리자 권한 명령 프롬프트를 사용하는 방법에 대한 자세한 내용은 [Microsoft Teams](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)회의실 앱이 실행 중일 때 관리자 모드로 전환을 참조하세요.
+Skype 사용자(앱이 실행되는 사용자)가 여전히 로그인하는 동안 상승된 명령 프롬프트에서 오프라인 앱 업데이트 스크립트를 실행해야 합니다. Skype 사용자가 여전히 로그인하는 동안 관리자 계정에 로그인하여 관리자 권한 명령 프롬프트를 사용하는 방법에 대한 자세한 내용은 [Microsoft Teams](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)회의실 앱이 실행 중일 때 관리자 모드로 전환 및 다시 참조하세요.
 
 다음을 실행하여 상승된 명령 프롬프트에서 스크립트를 실행합니다.
 
 1. 관리 모드로 전환
 2. 시작 아이콘을 클릭하고 명령 **프롬프트를** 입력한 다음 관리자 **권한으로 실행을 선택합니다.**
-3. 스크립트의 전체 경로와 스크립트 파일의 이름을 포함하는 다음 `<path to script>` 명령을 실행합니다.
+3. 스크립트의 전체 경로와 스크립트 파일의 이름을 포함하는 다음 명령을 `<path to script>` 실행합니다.
 
     ```console
     PowerShell -ExecutionPolicy Unrestricted "<path to script>"
@@ -68,7 +68,7 @@ PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.
 
 스크립트를 실행할 수 있도록 허용합니다. 완료되면 스크립트가 Teams 회의실 디바이스를 다시부팅합니다.
 
-원격 PowerShell을 사용하여 스크립트를 실행할 수도 있습니다. Teams 회의실 장치에서 원격 PowerShell을 사용하는 자세한 내용은 [PowerShell을](rooms-operations.md#remote-management-using-powershell)사용하여 원격 관리를 참조하세요.
+원격 PowerShell을 사용하여 스크립트를 실행할 수도 있습니다. Teams 회의실 디바이스에서 원격 PowerShell을 사용하는 자세한 내용은 [PowerShell을](rooms-operations.md#remote-management-using-powershell)사용하여 원격 관리를 참조하세요.
 
 ## <a name="step-3-verify-the-app-has-been-updated-successfully"></a>3단계: 앱이 성공적으로 업데이트되어 있는지 확인
 

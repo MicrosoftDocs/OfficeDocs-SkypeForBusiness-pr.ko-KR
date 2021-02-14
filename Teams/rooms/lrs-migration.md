@@ -26,7 +26,7 @@ ms.locfileid: "49662623"
 
 Skype 채팅방 시스템 버전 1(SRS v1) 소프트웨어가 있는 LRS(Lync 채팅방 시스템) 장치는 [2018년 10월 9일](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018)지원이 종료되었습니다. 즉, Skype 룸 시스템 v1 소프트웨어는 더 이상 제품 업데이트나 수정을 지원받지 않습니다. Skype 룸 시스템 v1 소프트웨어를 갖춘 Lync 룸 시스템 장치를 사용하는 고객은 해당 장치를 Microsoft Teams 룸으로 업그레이드할 것을 권장합니다.
 
-Microsoft Teams Rooms 소프트웨어는 비즈니스용 Skype 서버 및 온라인 서비스 외에도 Microsoft Teams 회의실 지원 장치에서 모임 및 통화를 할 수 있습니다.
+Microsoft Teams 회의실 소프트웨어는 비즈니스용 Skype 서버 및 온라인 서비스 외에도 모든 Microsoft Teams 회의실 지원 장치에서 모임 및 통화를 위해 Microsoft Teams와 함께 작동합니다.
 
 Skype Room  System v1 소프트웨어 지원이 종료된 후에도 기존 장치가 계속 작동할 수 있습니다. 그러나 이 소프트웨어가 Microsoft에서 픽스를 릴리스해야 하는 소프트웨어 버그에 해당하면 지원되지 않습니다. SRS v1은 향후 Microsoft에서 사용되지 않는 TLS 1.0/1.1을 사용하게 됩니다. [TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)사용되지 않는 경우 준비하는 방법을 자세히 배울 수 있습니다. 
 
@@ -49,7 +49,7 @@ Crestron은 [Crestron SR](https://www.crestron.com/products/featured-solutions/c
 
 ### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>Crestron RL2를 Microsoft Teams 회의실로 업그레이드
 
-기존 Crestron RL2(Crestron RL200이라고도 하는) 고객은 디바이스당 최소 비용으로 현재 RL2를 RL3으로 업그레이드하는 업그레이드 키트를 획득할 수 있습니다. 여기에서 이 프로그램의 세부 정보를 [참조하세요.](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)
+기존 Crestron RL2(Crestron RL200이라고도 하는) 고객은 디바이스당 최소 비용으로 현재 RL2를 RL3으로 업그레이드하는 업그레이드 키트를 획득할 수 있습니다. 이 프로그램의 세부 정보는 여기를 [참조하세요.](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)
 
 ### <a name="smart-room-systems-upgrade"></a>SMART Room Systems 업그레이드
 
@@ -58,7 +58,7 @@ SMART LRS 고객의 경우 Crestron 하드웨어 거래 프로그램 외에도 S
 
 ## <a name="what-should-you-do"></a>어떻게 해야 하나요?
 
-위에서 언급한 업그레이드 옵션을 사용하여 TLS 1.0/1.1 사용되지 않는 경우 Lync 회의실 시스템 장치를 Microsoft Teams 회의실로 업데이트하는 것이 좋습니다. 또한 기존 장치를 Microsoft Teams 회의실에 대해 인증된 새 장치로 바꾸는 방을 고려할 수도 있습니다. 자세한 [내용은 회의실](https://aka.ms/roomdevices) 장치를 참조하고 Microsoft Teams 회의실 요구 사항을 [살펴보아야 합니다.](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)  
+위에서 언급한 업그레이드 옵션을 사용하여 TLS 1.0/1.1 사용되지 않는 경우 Lync 회의실 시스템 장치를 Microsoft Teams 회의실로 업데이트하는 것이 좋습니다. 또한 기존 장치를 Microsoft Teams 회의실에 대해 인증된 새 장치로 바꾸는 방을 고려할 수도 있습니다. 자세한 [내용은 회의실](https://aka.ms/roomdevices) 장치를 참조하고 Microsoft Teams 회의실 요구 사항도 살펴 [봐야 합니다.](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)  
 
 
 > [!NOTE]

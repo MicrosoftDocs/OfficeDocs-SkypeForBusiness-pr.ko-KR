@@ -44,22 +44,22 @@ https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365
 - 모바일 디바이스 관리
 - 정보 보호
 - Microsoft 365 Enterprise 보안 요약
-- 비밀 프로젝트 팀
+- 최고 비밀 프로젝트를 위한 팀
 - 기밀이 높은 디지털 자산을 위한 SharePoint Online 사이트
 
-업그레이드 계획에 대한 자세한 내용은 Microsoft Teams 업그레이드 시작을 [시작하세요.](upgrade-start-here.md)
+업그레이드 계획에 대한 자세한 내용은 Microsoft Teams 업그레이드 시작을 [시작해야 합니다.](upgrade-start-here.md)
 
 ## <a name="contoso-business-goals-for-teams"></a>Teams에 대한 Contoso 비즈니스 목표
 
-Contoso는 통합 통신, 공동 작업 및 음성을 위해 해당온-프레미스 사용자를 Teams로 마이그레이션하기 위해 다음 비즈니스 목표를 결정했습니다.
+Contoso는 통합 통신, 공동 작업 및 음성을 위해 해당 사용자를 Teams로 마이그레이션하기 위해 다음 비즈니스 목표를 결정했습니다.
 
 - Teams 사용 설정 
 
-  Contoso의 통합 커뮤니케이션 및 공동 작업 팀은 올바른 정책으로 Teams를 사용하여 보안 내부 및 외부 공동 작업을 관리하고 사용하도록 설정했습니다. 
+  Contoso의 통합 커뮤니케이션 및 공동 작업 팀은 안전한 내부 및 외부 공동 작업을 관리하고 사용하도록 설정하기 위한 올바른 정책으로 Teams를 활성화했습니다. 
 
 - 비즈니스용 Skype에서 Teams로의 업그레이드 
 
-  비즈니스용 Skype는 Contoso 내에서 널리 배포됩니다. 레거시 시스템을 벗어날 필요가 있는 Contoso는 비즈니스용 Skype 사용자를 Teams로 업그레이드하기로 결정했습니다. 자세한 내용은 Contoso 사례 연구: Teams 업그레이드 [계획을 참조하세요.](voice-case-study-migration-plan.md)
+  비즈니스용 Skype는 Contoso 내에서 널리 배포됩니다. Contoso는 레거시 시스템으로 이전해야 하여 비즈니스용 Skype 사용자를 Teams로 업그레이드하기로 결정했습니다. 자세한 내용은 Contoso 사례 연구: Teams 업그레이드 [계획을 참조하세요.](voice-case-study-migration-plan.md)
 
 - 전화 시스템  
 
