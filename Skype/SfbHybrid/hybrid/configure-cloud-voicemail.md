@@ -1,5 +1,5 @@
 ---
-title: 온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 구성
+title: On-premises 사용자에 대한 클라우드 음성메일 서비스 구성
 ms.reviewer: ''
 ms.author: dstrome
 author: dstrome
@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: 비즈니스용 Skype 서버에 있는 사용자에 대해 클라우드 기반 음성 메일을 구현 하기 위한 지침입니다.
+description: 비즈니스용 Skype 서버에 있는 사용자에 대해 클라우드 기반 음성메일을 구현하기 위한 지침입니다.
 ms.openlocfilehash: 29faba6bf092647f0c55899f013c6b4bf146304f
 ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
@@ -20,108 +20,108 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/04/2020
 ms.locfileid: "46552584"
 ---
-# <a name="configure-cloud-voicemail-service-for-on-premises-users"></a><span data-ttu-id="8b054-103">온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 구성</span><span class="sxs-lookup"><span data-stu-id="8b054-103">Configure Cloud Voicemail service for on-premises users</span></span>
+# <a name="configure-cloud-voicemail-service-for-on-premises-users"></a><span data-ttu-id="8916a-103">On-premises 사용자에 대한 클라우드 음성메일 서비스 구성</span><span class="sxs-lookup"><span data-stu-id="8916a-103">Configure Cloud Voicemail service for on-premises users</span></span>
 
-## <a name="overview"></a><span data-ttu-id="8b054-104">개요</span><span class="sxs-lookup"><span data-stu-id="8b054-104">Overview</span></span> 
-<span data-ttu-id="8b054-105">이 문서에서는 비즈니스용 Skype 온-프레미스 사용자에 대해 Microsoft 클라우드 음성 메일 서비스를 구성 하는 방법을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-105">This article describes how to configure Microsoft Cloud Voicemail service for your Skype for Business on-premises users.</span></span>  
+## <a name="overview"></a><span data-ttu-id="8916a-104">개요</span><span class="sxs-lookup"><span data-stu-id="8916a-104">Overview</span></span> 
+<span data-ttu-id="8916a-105">이 문서에서는 비즈니스용 Skype의 사용자에 대해 Microsoft Cloud Voicemail 서비스를 구성하는 방법을 설명하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-105">This article describes how to configure Microsoft Cloud Voicemail service for your Skype for Business on-premises users.</span></span>  
 
-<span data-ttu-id="8b054-106">이 문서에서는 이미 지원 되는 토폴로지에서 비즈니스용 Skype 서버를 배포 했으며 하이브리드 연결을 설정 하기 위한 필수 구성 요소를 충족 했다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-106">This article assumes that you already have Skype for Business Server deployed in a supported topology, and that you have met the prerequisites for setting up hybrid connectivity.</span></span>
+<span data-ttu-id="8916a-106">이 문서에서는 지원되는 토폴로지에서 비즈니스용 Skype 서버가 이미 배포되어 있으며 하이브리드 연결 설정에 대한 선행 구성을 충족했다고 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-106">This article assumes that you already have Skype for Business Server deployed in a supported topology, and that you have met the prerequisites for setting up hybrid connectivity.</span></span>
 
-<span data-ttu-id="8b054-107">클라우드 음성 메일을 구현 하기 위한 혜택, 계획 고려 사항 및 요구 사항에 대 한 자세한 내용은 [클라우드 음성 메일 서비스 계획](plan-cloud-voicemail.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="8b054-107">For more information about the benefits, planning considerations, and requirements for implementing Cloud Voicemail, see [Plan Cloud Voicemail service](plan-cloud-voicemail.md).</span></span>
-
-
+<span data-ttu-id="8916a-107">클라우드 음성메일 구현을 위한 이점, 계획 고려 사항 및 요구 사항에 대한 자세한 내용은 [클라우드 음성메일](plan-cloud-voicemail.md)서비스 계획을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="8916a-107">For more information about the benefits, planning considerations, and requirements for implementing Cloud Voicemail, see [Plan Cloud Voicemail service](plan-cloud-voicemail.md).</span></span>
 
 
-<span data-ttu-id="8b054-108">클라우드 음성 메일을 구성 하려면 다음 작업을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-108">Configuring Cloud Voicemail involves the following tasks:</span></span>
-
-1.  <span data-ttu-id="8b054-109">[Plan Cloud 음성 메일 서비스](plan-cloud-voicemail.md)에 설명 된 대로 필수 구성 요소를 충족 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-109">Ensure that you have met the prerequisites as described in [Plan Cloud Voicemail service](plan-cloud-voicemail.md).</span></span>
-
-2.  <span data-ttu-id="8b054-110">[하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [하이브리드 연결 구성](configure-hybrid-connectivity.md)에 설명 된 대로 하이브리드 연결을 설정 했는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-110">Ensure that you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md).</span></span> 
-
-3.  <span data-ttu-id="8b054-111">이 문서에 설명 된 대로 [프런트 엔드 서버의 호스팅 공급자로 클라우드 음성 메일을 구성](#configure-cloud-voicemail-as-the-hosting-provider) 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-111">[Configure Cloud Voicemail as the hosting provider on the Front End Server](#configure-cloud-voicemail-as-the-hosting-provider) as described in this article.</span></span>
-
-4.  <span data-ttu-id="8b054-112">이 문서에 설명 [된 대로 호스팅된 음성 메일 정책을 구성](#configure-a-hosted-voicemail-policy) 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-112">[Configure a hosted voicemail policy](#configure-a-hosted-voicemail-policy) as described in this article.</span></span>
-
-5.  <span data-ttu-id="8b054-113">이 문서에 설명 [된 대로 호스팅된 음성 메일 정책을 할당](#assign-a-hosted-voicemail-policy) 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-113">[Assign a hosted voicemail policy](#assign-a-hosted-voicemail-policy) as described in this article.</span></span>
-
-6.  <span data-ttu-id="8b054-114">이 문서에 설명 된 대로 [클라우드 음성 사서함에 대해 사용자를 사용 하도록 설정](#enable-a-user-for-cloud-voicemail) 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-114">[Enable a user for Cloud Voicemail](#enable-a-user-for-cloud-voicemail) as described in this article.</span></span>
 
 
-## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a><span data-ttu-id="8b054-115">호스팅 공급자로 클라우드 음성 메일 구성</span><span class="sxs-lookup"><span data-stu-id="8b054-115">Configure Cloud Voicemail as the hosting provider</span></span> 
+<span data-ttu-id="8916a-108">클라우드 음성메일 구성에는 다음 작업이 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-108">Configuring Cloud Voicemail involves the following tasks:</span></span>
 
-<span data-ttu-id="8b054-116">다음 매개 변수를 사용 하 여 새-CsHostingProvider cmdlet을 통해 프런트 엔드 서버의 호스팅 공급자로 클라우드 음성 메일을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-116">You configure Cloud Voicemail as the hosting provider on a Front End Server by using the New-CsHostingProvider cmdlet with the following parameters:</span></span>
+1.  <span data-ttu-id="8916a-109">클라우드 음성메일 계획 서비스에 설명된 선행 조문을 [충족해야 합니다.](plan-cloud-voicemail.md)</span><span class="sxs-lookup"><span data-stu-id="8916a-109">Ensure that you have met the prerequisites as described in [Plan Cloud Voicemail service](plan-cloud-voicemail.md).</span></span>
 
-- <span data-ttu-id="8b054-117">**Identity** 는 만들려는 호스팅 공급자에 대 한 고유 문자열 값 식별자를 지정 합니다. 예를 들어 클라우드 음성 메일</span><span class="sxs-lookup"><span data-stu-id="8b054-117">**Identity** specifies a unique string value identifier for the hosting provider that you are creating; for example, Cloud Voicemail.</span></span> 
+2.  <span data-ttu-id="8916a-110">하이브리드 연결 계획 및 하이브리드 연결 [](plan-hybrid-connectivity.md) 구성에 설명된 하이브리드 연결을 [설정해야 합니다.](configure-hybrid-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="8916a-110">Ensure that you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md).</span></span> 
 
-- <span data-ttu-id="8b054-118">**Enabled**는 도메인과 호스팅 공급자 간의 네트워크 연결을 활성화할지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-118">**Enabled** indicates whether the network connection between your domain and the hosting provider is enabled.</span></span> <span data-ttu-id="8b054-119">이 매개 변수는 True로 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-119">This parameter must be set to True.</span></span>
+3.  <span data-ttu-id="8916a-111">이 문서에 설명된 바와 같이 Cloud [Voicemail을](#configure-cloud-voicemail-as-the-hosting-provider) 프런트 엔드 서버에서 호스팅 공급자로 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-111">[Configure Cloud Voicemail as the hosting provider on the Front End Server](#configure-cloud-voicemail-as-the-hosting-provider) as described in this article.</span></span>
 
-- <span data-ttu-id="8b054-120">**EnabledSharedAddressSpace**는 공유 SIP 주소 공간 시나리오에서 호스팅 공급자를 사용할지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-120">**EnabledSharedAddressSpace** indicates whether the hosting provider will be used in a shared SIP address space scenario.</span></span> <span data-ttu-id="8b054-121">이 매개 변수는 True로 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-121">This parameter must be set to True.</span></span>
+4.  <span data-ttu-id="8916a-112">[이 문서에 설명된](#configure-a-hosted-voicemail-policy) 바와 같이 호스팅된 음성메일 정책을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-112">[Configure a hosted voicemail policy](#configure-a-hosted-voicemail-policy) as described in this article.</span></span>
 
-- <span data-ttu-id="8b054-122">**HostsOCSUsers** 은 호스팅 공급자가 비즈니스용 Skype 서버 계정을 호스트 하는 데 사용 되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-122">**HostsOCSUsers** indicates whether the hosting provider is used to host Skype for Business Server accounts.</span></span> <span data-ttu-id="8b054-123">이 매개 변수는 False로 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-123">This parameter must be set to False.</span></span>
+5.  <span data-ttu-id="8916a-113">[이 문서에 설명된](#assign-a-hosted-voicemail-policy) 바와 같이 호스팅된 음성메일 정책을 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-113">[Assign a hosted voicemail policy](#assign-a-hosted-voicemail-policy) as described in this article.</span></span>
 
-- <span data-ttu-id="8b054-124">**Proxyfqdn** 은 호스팅 공급자가 사용 하는 프록시 서버의 FQDN (정규화 된 도메인 이름)을 지정 합니다. 예: proxyserver.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="8b054-124">**ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider; for example, proxyserver.contoso.com.</span></span> <span data-ttu-id="8b054-125">이 정보는 호스팅 공급자에게 문의하십시오.</span><span class="sxs-lookup"><span data-stu-id="8b054-125">Contact your hosting provider for this information.</span></span> <span data-ttu-id="8b054-126">이 값은 수정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-126">This value cannot be modified.</span></span> <span data-ttu-id="8b054-127">호스팅 공급자가 프록시 서버를 변경 하는 경우 해당 공급자에 대 한 항목을 삭제 한 다음 다시 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-127">If the hosting provider changes its proxy server, you will need to delete and then re-create the entry for that provider.</span></span>
+6.  <span data-ttu-id="8916a-114">[이 문서에 설명된](#enable-a-user-for-cloud-voicemail) 바와 같이 사용자가 클라우드 음성메일을 사용할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-114">[Enable a user for Cloud Voicemail](#enable-a-user-for-cloud-voicemail) as described in this article.</span></span>
 
-- <span data-ttu-id="8b054-128">**Islocal** 은 호스팅 공급자가 사용 하는 프록시 서버가 비즈니스용 Skype 서버 토폴로지에 포함 되어 있는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-128">**IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Skype for Business Server topology.</span></span> <span data-ttu-id="8b054-129">이 매개 변수는 False로 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-129">This parameter must be set to False.</span></span>
 
-<span data-ttu-id="8b054-130">예를 들어 비즈니스용 Skype 관리 셸에서 다음 cmdlet은 호스팅 공급자로 클라우드 음성 메일을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-130">For example, in the Skype for Business Management shell, the following cmdlet configures Cloud Voicemail as the hosting provider:</span></span>
+## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a><span data-ttu-id="8916a-115">클라우드 음성메일을 호스팅 공급자로 구성</span><span class="sxs-lookup"><span data-stu-id="8916a-115">Configure Cloud Voicemail as the hosting provider</span></span> 
+
+<span data-ttu-id="8916a-116">다음 매개 변수와 함께 New-CsHostingProvider cmdlet을 사용하여 Cloud Voicemail을 프런트 엔드 서버에서 호스팅 공급자로 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-116">You configure Cloud Voicemail as the hosting provider on a Front End Server by using the New-CsHostingProvider cmdlet with the following parameters:</span></span>
+
+- <span data-ttu-id="8916a-117">**ID는** 만들 호스팅 공급자의 고유 문자열 값 식별자를 지정합니다. 예를 들어 클라우드 음성메일을 예로 들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-117">**Identity** specifies a unique string value identifier for the hosting provider that you are creating; for example, Cloud Voicemail.</span></span> 
+
+- <span data-ttu-id="8916a-118">**Enabled** 는 도메인과 호스팅 공급자 간의 네트워크 연결을 활성화할지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-118">**Enabled** indicates whether the network connection between your domain and the hosting provider is enabled.</span></span> <span data-ttu-id="8916a-119">이 매개 변수는 True로 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-119">This parameter must be set to True.</span></span>
+
+- <span data-ttu-id="8916a-120">**EnabledSharedAddressSpace** 는 공유 SIP 주소 공간 시나리오에서 호스팅 공급자를 사용할지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-120">**EnabledSharedAddressSpace** indicates whether the hosting provider will be used in a shared SIP address space scenario.</span></span> <span data-ttu-id="8916a-121">이 매개 변수는 True로 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-121">This parameter must be set to True.</span></span>
+
+- <span data-ttu-id="8916a-122">**HostsOCSUsers는** 호스팅 공급자가 비즈니스용 Skype 서버 계정을 호스팅하는 데 사용되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-122">**HostsOCSUsers** indicates whether the hosting provider is used to host Skype for Business Server accounts.</span></span> <span data-ttu-id="8916a-123">이 매개 변수는 False로 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-123">This parameter must be set to False.</span></span>
+
+- <span data-ttu-id="8916a-124">**ProxyFQDN은** 호스팅 공급자가 사용하는 프록시 서버에 대한 FQDN(FQDN)을 지정합니다. 예를 들어 proxyserver.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="8916a-124">**ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider; for example, proxyserver.contoso.com.</span></span> <span data-ttu-id="8916a-125">이 정보는 호스팅 공급자에게 문의하십시오.</span><span class="sxs-lookup"><span data-stu-id="8916a-125">Contact your hosting provider for this information.</span></span> <span data-ttu-id="8916a-126">이 값은 수정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-126">This value cannot be modified.</span></span> <span data-ttu-id="8916a-127">호스팅 공급자가 프록시 서버를 변경하는 경우 해당 공급자에 대한 항목을 삭제한 다음 다시 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-127">If the hosting provider changes its proxy server, you will need to delete and then re-create the entry for that provider.</span></span>
+
+- <span data-ttu-id="8916a-128">**IsLocal은** 호스팅 공급자가 사용하는 프록시 서버가 비즈니스용 Skype 서버 토폴로지 내에 포함되어 있는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-128">**IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Skype for Business Server topology.</span></span> <span data-ttu-id="8916a-129">이 매개 변수는 False로 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-129">This parameter must be set to False.</span></span>
+
+<span data-ttu-id="8916a-130">예를 들어 비즈니스용 Skype 관리 셸에서 다음 cmdlet은 Cloud Voicemail을 호스팅 공급자로 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-130">For example, in the Skype for Business Management shell, the following cmdlet configures Cloud Voicemail as the hosting provider:</span></span>
 
 
 ```PowerShell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
-## <a name="configure-a-hosted-voicemail-policy"></a><span data-ttu-id="8b054-131">호스팅된 음성 메일 정책 구성</span><span class="sxs-lookup"><span data-stu-id="8b054-131">Configure a hosted voicemail policy</span></span>
+## <a name="configure-a-hosted-voicemail-policy"></a><span data-ttu-id="8916a-131">호스팅된 음성메일 정책 구성</span><span class="sxs-lookup"><span data-stu-id="8916a-131">Configure a hosted voicemail policy</span></span>
 
-<span data-ttu-id="8b054-132">조직의 음성 메일이 클라우드 음성 메일 서비스로 라우팅되도록 하려면 조직에 대해 호스팅된 음성 메일 정책을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-132">To ensure that voicemail for your organization is routed to the Cloud Voicemail service, you must configure a hosted voicemail policy for your organization.</span></span> <span data-ttu-id="8b054-133">대부분의 경우 호스팅된 음성 메일 정책은 하나만 필요 하며, 모든 요구 사항을 충족 하도록 글로벌 정책을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-133">In many cases, only one hosted voicemail policy is required, and you can modify the global policy to meet all your needs.</span></span> <span data-ttu-id="8b054-134">조직에서 호스팅된 음성 메일 정책이 여러 개 필요한 경우 set-cshostedvoicemailpolicy cmdlet을 사용 하 여 정책을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-134">If your organization requires multiple hosted voicemail policies, you can add policies by using the new-cshostedvoicemailpolicy cmdlet.</span></span>
+<span data-ttu-id="8916a-132">조직의 음성메일이 클라우드 음성메일 서비스로 라우팅되도록 조직에 대해 호스팅된 음성메일 정책을 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-132">To ensure that voicemail for your organization is routed to the Cloud Voicemail service, you must configure a hosted voicemail policy for your organization.</span></span> <span data-ttu-id="8916a-133">대부분의 경우 호스팅된 음성메일 정책은 하나만 필요하며 모든 요구 사항을 충족하도록 글로벌 정책을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-133">In many cases, only one hosted voicemail policy is required, and you can modify the global policy to meet all your needs.</span></span> <span data-ttu-id="8916a-134">조직에 호스팅된 음성메일 정책이 여러 개 필요한 경우 new-cshostedvoicemailpolicy cmdlet을 사용하여 정책을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-134">If your organization requires multiple hosted voicemail policies, you can add policies by using the new-cshostedvoicemailpolicy cmdlet.</span></span>
 
-<span data-ttu-id="8b054-135">전역 정책을 수정 하려면 조직 및 TenantID를 업데이트 한 후 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-135">To modify the global policy, run the following command in the Skype for Business Server management shell after updating your Organization and TenantID:</span></span>
+<span data-ttu-id="8916a-135">글로벌 정책을 수정하려면 조직 및 TenantID를 업데이트한 후 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-135">To modify the global policy, run the following command in the Skype for Business Server management shell after updating your Organization and TenantID:</span></span>
 
 ```PowerShell
 Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com
 ```
 
-- <span data-ttu-id="8b054-136">**대상** 호스트 된 클라우드 음성 메일 서비스의 FQDN (정규화 된 도메인 이름)을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-136">**Destination** specifies the fully qualified domain name (FQDN) of the hosted Cloud Voicemail service.</span></span> <span data-ttu-id="8b054-137">이 값은 **exap.um.outlook.com**로 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-137">This value should be set to **exap.um.outlook.com**.</span></span>
+- <span data-ttu-id="8916a-136">**Destination은** 호스팅된 클라우드 음성메일 서비스의 FQDN(FQDN)을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-136">**Destination** specifies the fully qualified domain name (FQDN) of the hosted Cloud Voicemail service.</span></span> <span data-ttu-id="8916a-137">이 값은 0으로 **설정해야 exap.um.outlook.com.**</span><span class="sxs-lookup"><span data-stu-id="8916a-137">This value should be set to **exap.um.outlook.com**.</span></span>
 
-- <span data-ttu-id="8b054-138">**조직** 은 테 넌 트에 할당 된 기본 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-138">**Organization** is the default domain assigned to your tenant.</span></span> <span data-ttu-id="8b054-139">테 넌 트 관리자 로그인을 통해 office.com에이 정보를 검색할 수 있으며, 관리 센터 앱을 클릭 하 고, 왼쪽의 **설정** 으로 이동한 후 **도메인**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-139">You can retrieve this information by having the tenant admin log in to office.com, click on the Admin Center app, navigate to **Setup** on the left, and click **Domains**.</span></span> <span data-ttu-id="8b054-140">예: mytenant.onmicrosoft.com.</span><span class="sxs-lookup"><span data-stu-id="8b054-140">For example: mytenant.onmicrosoft.com.</span></span>
+- <span data-ttu-id="8916a-138">**조직은** 테넌트에 할당된 기본 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-138">**Organization** is the default domain assigned to your tenant.</span></span> <span data-ttu-id="8916a-139">테넌트 관리자 로그인을 통해 테넌트 관리자에게 office.com 관리 센터 앱을 클릭하고  왼쪽의 설치 프로그램으로 이동한 다음 도메인을 클릭하여 이 정보를 검색할 **수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="8916a-139">You can retrieve this information by having the tenant admin log in to office.com, click on the Admin Center app, navigate to **Setup** on the left, and click **Domains**.</span></span> <span data-ttu-id="8916a-140">예: mytenant.onmicrosoft.com.</span><span class="sxs-lookup"><span data-stu-id="8916a-140">For example: mytenant.onmicrosoft.com.</span></span>
 
-    <span data-ttu-id="8b054-141">조직 이름은 Microsoft 365 또는 Office 365의 기본 도메인 이름 이기도 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-141">The Organization name is also the Default Domain name in Microsoft 365 or Office 365.</span></span>
+    <span data-ttu-id="8916a-141">조직 이름은 Microsoft 365 또는 Office 365의 기본 도메인 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-141">The Organization name is also the Default Domain name in Microsoft 365 or Office 365.</span></span>
 
-<span data-ttu-id="8b054-142">호스팅된 음성 메일 정책이 제대로 만들어졌는지 확인 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-142">To ensure that a hosted voicemail policy was created successfully, run the following command:</span></span>
+<span data-ttu-id="8916a-142">호스팅된 음성메일 정책을 성공적으로 만들 수 있도록 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-142">To ensure that a hosted voicemail policy was created successfully, run the following command:</span></span>
 
 ```PowerShell
 Get-CsHostedVoicemailPolicy
 ```
 
-## <a name="assign-a-hosted-voicemail-policy"></a><span data-ttu-id="8b054-143">호스팅된 음성 메일 정책 할당</span><span class="sxs-lookup"><span data-stu-id="8b054-143">Assign a hosted voicemail policy</span></span>
+## <a name="assign-a-hosted-voicemail-policy"></a><span data-ttu-id="8916a-143">호스팅된 음성메일 정책 할당</span><span class="sxs-lookup"><span data-stu-id="8916a-143">Assign a hosted voicemail policy</span></span>
 
-<span data-ttu-id="8b054-144">기본적으로는 글로벌 호스팅된 음성 메일 정책이 모든 사용자에 게 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-144">By default, the Global hosted voicemail policy is assigned to all users.</span></span> <span data-ttu-id="8b054-145">다른 정책을 사용 하는 경우에는 사용자가 호스팅된 음성 메일을 사용 하도록 설정 하기 전에 먼저 [set-cshostedvoicemailpolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) cmdlet을 사용 하 여 원하는 호스팅된 음성 메일 정책을 사용자에 게 부여 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-145">If you use a different policy, before enabling users for hosted voicemail, you must first grant users the desired hosted voicemail policy by using the [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) cmdlet.</span></span>
+<span data-ttu-id="8916a-144">기본적으로 전역 호스팅된 음성메일 정책은 모든 사용자에게 할당됩니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-144">By default, the Global hosted voicemail policy is assigned to all users.</span></span> <span data-ttu-id="8916a-145">다른 정책을 사용하는 경우 사용자가 호스팅된 음성메일을 사용하도록 설정하기 전에 [먼저 Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) cmdlet을 사용하여 원하는 호스팅된 음성메일 정책을 사용자에게 부여해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-145">If you use a different policy, before enabling users for hosted voicemail, you must first grant users the desired hosted voicemail policy by using the [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) cmdlet.</span></span>
 
-<span data-ttu-id="8b054-146">예를 들어 다음 명령은 비전역로 호스팅된 음성 메일 정책을 사용자에 게 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-146">For example, the following command assigns a non-Global hosted voicemail policy to a user:</span></span>
+<span data-ttu-id="8916a-146">예를 들어 다음 명령은 전역이 아닌 호스트된 음성메일 정책을 사용자에게 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-146">For example, the following command assigns a non-Global hosted voicemail policy to a user:</span></span>
 
 
 ```PowerShell
 Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
-## <a name="enable-a-user-for-cloud-voicemail"></a><span data-ttu-id="8b054-147">사용자가 클라우드 음성 메일을 사용할 수 있도록 설정</span><span class="sxs-lookup"><span data-stu-id="8b054-147">Enable a user for Cloud Voicemail</span></span>
+## <a name="enable-a-user-for-cloud-voicemail"></a><span data-ttu-id="8916a-147">사용자가 클라우드 음성메일을 사용할 수 있도록 설정</span><span class="sxs-lookup"><span data-stu-id="8916a-147">Enable a user for Cloud Voicemail</span></span>
 
-<span data-ttu-id="8b054-148">사용자의 음성 메일 통화를 클라우드 음성 메일로 라우팅되도록 설정 하려면 HostedVoiceMail 매개 변수와 함께 [csuser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-148">To enable a user’s voicemail calls to be routed to Cloud Voicemail, you use the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) cmdlet with the HostedVoiceMail parameter.</span></span> 
+<span data-ttu-id="8916a-148">사용자의 음성메일 통화가 클라우드 음성메일로 라우팅될 수 있도록 설정하려면 HostedVoiceMail 매개 변수와 함께 [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) cmdlet을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-148">To enable a user’s voicemail calls to be routed to Cloud Voicemail, you use the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) cmdlet with the HostedVoiceMail parameter.</span></span> 
 
-<span data-ttu-id="8b054-149">예를 들어 다음 명령은 클라우드 음성 메일에 대해 사용자 계정을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-149">For example, the following command enables a user account for Cloud Voicemail:</span></span> 
+<span data-ttu-id="8916a-149">예를 들어 다음 명령은 클라우드 음성메일에 대해 사용자 계정을 사용할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-149">For example, the following command enables a user account for Cloud Voicemail:</span></span> 
 
 ```powershell
 Set-CsUser -Identity "User1" -HostedVoiceMail $True
 ```
 
-<span data-ttu-id="8b054-150">이 cmdlet은 전역, 사이트 또는 사용자 수준에서 클라우드 음성 메일 정책이이 사용자에 게 적용 되는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-150">The cmdlet verifies that a Cloud Voicemail policy--at the global, site, or user level--applies to this user.</span></span> <span data-ttu-id="8b054-151">정책이 적용 되지 않으면 cmdlet이 실패 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-151">If no policy applies, the cmdlet fails.</span></span>  
+<span data-ttu-id="8916a-150">이 cmdlet은 전역, 사이트 또는 사용자 수준에서 클라우드 음성메일 정책이 이 사용자에게 적용되는지 검증합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-150">The cmdlet verifies that a Cloud Voicemail policy--at the global, site, or user level--applies to this user.</span></span> <span data-ttu-id="8916a-151">정책이 적용되지 않을 경우 cmdlet이 실패합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-151">If no policy applies, the cmdlet fails.</span></span>  
 
-<span data-ttu-id="8b054-152">다음은 클라우드 음성 메일에 대 한 사용자 계정을 사용 하지 않도록 설정 하는 예입니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-152">The next example disables a user account for Cloud Voicemail:</span></span>
+<span data-ttu-id="8916a-152">다음 예에서는 Cloud Voicemail에 대한 사용자 계정을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-152">The next example disables a user account for Cloud Voicemail:</span></span>
 
 ```powershell
 Set-CsUser -Identity "User1" -HostedVoiceMail $False
 ```
 
-<span data-ttu-id="8b054-153">이 cmdlet은 전역, 사이트 또는 사용자 수준에서 호스팅된 음성 메일 정책 (이 사용자에 게 적용 됨)이 없는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-153">The cmdlet verifies that no hosted voicemail policy--at the global, site, or user level--applies to this user.</span></span> <span data-ttu-id="8b054-154">정책이 적용 되 면 cmdlet이 실패 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-154">If a policy does apply, the cmdlet fails.</span></span>
+<span data-ttu-id="8916a-153">이 cmdlet은 전역, 사이트 또는 사용자 수준에서 호스팅된 음성메일 정책이 이 사용자에게 적용되는 음성메일 정책이 없는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-153">The cmdlet verifies that no hosted voicemail policy--at the global, site, or user level--applies to this user.</span></span> <span data-ttu-id="8916a-154">정책이 적용될 경우 cmdlet이 실패합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-154">If a policy does apply, the cmdlet fails.</span></span>
 
 > [!NOTE]
->  <span data-ttu-id="8b054-155">Microsoft 클라우드 음성 메일 서비스를 사용 하려면 사용자가 enterprise voice를 사용 하도록 설정 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8b054-155">Users must be enterprise-voice enabled to use the Microsoft Cloud Voicemail Service.</span></span>
+>  <span data-ttu-id="8916a-155">사용자가 Microsoft Cloud Voicemail 서비스를 사용하려면 엔터프라이즈 음성을 사용할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8916a-155">Users must be enterprise-voice enabled to use the Microsoft Cloud Voicemail Service.</span></span>

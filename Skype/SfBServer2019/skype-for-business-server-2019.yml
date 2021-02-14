@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: 비즈니스용 Skype 서버 2019 설명서
-summary: 비즈니스용 Skype 서버 2019을 구현 하는 방법을 알아봅니다.
+summary: 비즈니스용 Skype 서버 2019를 구현하는 방법을 배워야 합니다.
 metadata:
   title: 비즈니스용 Skype 서버 2019 설명서
-  description: 비즈니스용 Skype 서버 2019을 구현 하는 방법을 알아봅니다.
+  description: 비즈니스용 Skype 서버 2019를 구현하는 방법을 배워야 합니다.
   ms.service: skype-for-business-online
   ms.topic: landing-page
   audience: ITPro
@@ -31,7 +31,7 @@ landingContent:
       url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
   - linkListType: download
     links:
-    - text: 지금 다운로드 하세요!
+    - text: 지금 다운로드하세요!
       url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
 - title: 계획
   linkLists:
@@ -41,7 +41,7 @@ landingContent:
       url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
     - text: 하이브리드 연결 계획
       url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
-    - text: Enterprise Voice 계획
+    - text: 계획 Enterprise Voice
       url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
 - title: 설치 및 관리
   linkLists:
@@ -57,7 +57,7 @@ landingContent:
     links:
     - text: 토폴로지 관리
       url: /skypeforbusiness/manage/topology/topology
-- title: 기타 리소스
+- title: 다른 리소스
   linkLists:
   - linkListType: overview
     links:

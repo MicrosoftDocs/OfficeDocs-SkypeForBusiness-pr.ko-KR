@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: 비즈니스용 Skype 서버 2015 설명서
-summary: 비즈니스용 Skype 서버 2015을 구현 하는 방법을 알아봅니다.
+summary: 비즈니스용 Skype 서버 2015를 구현하는 방법을 배워야 합니다.
 metadata:
   title: 비즈니스용 Skype 서버 2015 설명서
-  description: 비즈니스용 Skype 서버 2015을 구현 하는 방법을 알아봅니다.
+  description: 비즈니스용 Skype 서버 2015를 구현하는 방법을 배워야 합니다.
   ms.service: skype-for-business-online
   audience: ITPro
   ms.topic: landing-page
@@ -32,7 +32,7 @@ landingContent:
       url: /SkypeForBusiness/technical-diagrams
   - linkListType: download
     links:
-    - text: 지금 다운로드 하세요!
+    - text: 지금 다운로드하세요!
       url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
 - title: 계획
   linkLists:
@@ -44,7 +44,7 @@ landingContent:
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
     - text: 클라이언트 및 장치 계획
       url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
-    - text: Enterprise Voice 솔루션 계획
+    - text: 사용자 Enterprise Voice 계획
       url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
 - title: 설치 및 관리
   linkLists:
@@ -58,13 +58,13 @@ landingContent:
       url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
     - text: Enterprise Voice 배포
       url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
-    - text: Skype 모임 브로드캐스트에 대 한 온-프레미스 배포 구성
+    - text: Skype 모임 브로드캐스트에 대한 프레미스 배포 구성
       url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
   - linkListType: how-to-guide
     links:
     - text: 비즈니스용 Skype 서버 관리
       url: /SkypeForBusiness/manage/manage
-- title: 기타 리소스
+- title: 다른 리소스
   linkLists:
   - linkListType: overview
     links:

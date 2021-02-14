@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀 콘텐츠 업데이트
+title: Microsoft Teams 콘텐츠 업데이트
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: 이 항목은 업데이트 된 주제에 대 한 링크를 포함 하 여 최근에 업데이트 된 Microsoft 팀 도움말 항목의 목록입니다.
+description: 이 항목은 업데이트된 항목에 대한 링크를 포함하여 최근에 업데이트된 Microsoft Teams 도움말 항목 목록입니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -25,8 +25,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583807"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="1b817-103">Microsoft 팀 콘텐츠 업데이트</span><span class="sxs-lookup"><span data-stu-id="1b817-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="ab813-103">Microsoft Teams 콘텐츠 업데이트</span><span class="sxs-lookup"><span data-stu-id="ab813-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="1b817-104">이 항목에서는 최근에 변경 된 Microsoft 팀 항목을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="1b817-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="ab813-104">이 항목에서는 최근에 변경된 Microsoft Teams 항목을 나열합니다.</span><span class="sxs-lookup"><span data-stu-id="ab813-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]
