@@ -86,7 +86,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. SBC 설명서에서 찾을 수 있는 정보를 사용하여 SBC에서 최대 호출 제한을 설정하는 것이 좋습니다. 이 제한은 SBC가 용량 수준에 있는 경우 알림을 트리거합니다.
-  > 2. FQDN의 도메인 부분이 테넌트에 등록된 도메인 중 하나와 일치하는 경우 \* .onmicrosoft.com. \*.onmicrosoft.com 도메인 이름은 SBC FQDN 이름에 지원되지 않습니다. 예를 들어 **contoso**.com 및 **contoso**.onmicrosoft.com 도메인 이름이 두 개 있는 경우 SBC 이름에 sbc.contoso.con을 사용할 수 있습니다. sbc.contoso.abc와 같은 이름으로 SBC를 연결하려고 시도하면 도메인이 이 테넌트에서 소유하지 않는 것이기 때문에 시스템에서는 사용자가 사용할 수 없습니다.<br/>
+  > 2. FQDN의 도메인 부분이 .onmicrosoft.com 제외한 테넌트에 등록된 도메인 중 하나와 일치하는 경우 SBC를 \* 연결할 수 onmicrosoft.com. \*.onmicrosoft.com 도메인 이름은 SBC FQDN 이름에 지원되지 않습니다. 예를 들어 **contoso**.com 및 **contoso**.onmicrosoft.com 도메인 이름이 두 개 있는 경우 SBC 이름에 sbc.contoso.con을 사용할 수 있습니다. sbc.contoso.abc와 같은 이름으로 SBC를 연결하려고 시도하면 도메인이 이 테넌트에서 소유하지 않는 것이기 때문에 시스템에서는 사용자가 사용할 수 없습니다.<br/>
   > 테넌트에 등록된 도메인 외에도 해당 도메인 및 할당된 E3 또는 E5 라이선스가 있는 사용자가 있는 것이 중요합니다. 그렇지 않은 경우 다음 오류가 표시됩니다.<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
@@ -122,7 +122,7 @@ Enabled               : True
  
 #### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>SBC가 쌍을 이르는 SBC 목록에 있는지 확인
 
-SBC를 연결한 후 [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) cmdlet을 사용하여 쌍을 이은 SBC 목록에 SBC가 있는지를 확인할 수 있습니다. 원격 PowerShell 세션에서 다음을 입력하고 Enter를 누르기
+SBC를 연결한 후 [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) cmdlet을 사용하여 SBC가 쌍을 이은 SBC 목록에 있는지를 확인할 수 있습니다. 원격 PowerShell 세션에서 다음을 입력한 다음 Enter를 누르기
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -152,7 +152,7 @@ Enabled               : True
 
 직접 라우팅에 들어오는 옵션이 표시되면 들어오는 OPTIONS 메시지의 연락처 헤더 필드에 구성된 SBC FQDN으로 보내는 SIP 옵션 메시지를 보내기 시작하게 됩니다. 
 
-들어오는 SIP 옵션을 사용하여 페어링의 유효성을 검사하기 위해 SBC 관리 인터페이스를 사용하고 SBC가 직접 라우팅에서 들어오는 OPTIONS 메시지에 회신을 보내고 보내는 응답 코드가 200 OK인지 확인할 수 있습니다.
+들어오는 SIP 옵션을 사용하여 페어링의 유효성을 검사하기 위해 SBC 관리 인터페이스를 사용하고 SBC가 직접 라우팅에서 들어오는 OPTIONS 메시지에 회신을 보내고 보내는 응답 코드가 200 OK입니다.
 
 ## <a name="sbc-settings"></a>SBC 설정
 
@@ -167,8 +167,8 @@ Enabled               : True
 |아니요|**통화 기록 전달**|ForwardCallHistory |통화 기록 정보가 트렁크를 통해 전달할지 여부를 나타냅니다. 이 기능을 설정하면 Microsoft 365 또는 Office 365 프록시에서 기록 정보 및 추천 헤더를 전송합니다. |False|True<br/>False|부울|
 |아니요|**PAI(Forward P-Asserted-identity) 헤더**|ForwardPAI|호출과 함께 PAI 헤더를 전달할지 여부를 나타냅니다. PAI 헤더를 사용하면 발신자 번호를 확인할 수 있습니다. 이 설정이 설정되어 있는 경우 Privacy:ID 헤더도 전송됩니다.|False|True<br/>False|부울|
 |아니요|**동시 호출 용량**|MaxConcurrentSessions |값을 설정하면 동시 세션 수가 이 값보다 90% 이상일 때 경고 시스템에서 알릴 수 있습니다. 값을 설정하지 않은 경우 경고가 생성되지 않습니다. 그러나 모니터링 시스템은 24시간마다 동시 세션 수를 보고합니다. |Null|Null<br/>1~ 100,000 ||
-|아니요|**장애 조치(failover) 응답 코드**|FailoverResponseCodes<br>|직접 라우팅이 발신 초대에 대한 응답으로 4xx 또는 6xx SIP 오류 코드를 수신하는 경우 호출은 기본적으로 완료된 것으로 간주됩니다. 발신은 트래픽 흐름이 있는 Teams 클라이언트에서 PSTN으로의 통화를 의미합니다. Teams 클라이언트 -> 직접 라우팅 -> SBC -> 네트워크). 장애 조치(failover) 응답 코드를 지정하면 SBC가 네트워크 또는 기타 문제로 호출할 수 없는 경우 지정한 코드를 수신할 때 직접 라우팅에서 다른 SBC(사용자의 음성 라우팅 정책에 다른 SBC가 있는 경우)를 시도하도록 강제합니다. 자세한 내용은 SBC(세션 테두리 컨트롤러)에서 받은 특정 SIP 코드의 장애 [조치(Failover)를 참조합니다.](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
-|아니요|**장애 조치(failover) 시간(초)**|FailoverTimeSeconds |값을 설정하면 설정한 시간 내에 게이트웨이에서 응답하지 않는 아웃바운드 호출이 사용 가능한 다음 트렁크로 라우팅됩니다. 추가 트렁크가 없는 경우 호출이 자동으로 삭제됩니다. 기본값은 10초입니다. 네트워크 및 게이트웨이 응답이 느린 조직에서는 이로 인해 호출이 불필요하게 삭제될 수 있습니다.|10|숫자|Int|
+|아니요|**장애 조치(failover) 응답 코드**|FailoverResponseCodes<br>|직접 라우팅이 발신 초대에 대한 응답으로 4xx 또는 6xx SIP 오류 코드를 수신하는 경우 호출은 기본적으로 완료된 것으로 간주됩니다. 발신은 트래픽 흐름이 있는 Teams 클라이언트에서 PSTN으로의 통화를 의미합니다. Teams 클라이언트 -> 직접 라우팅 -> SBC -> 전화 통신 네트워크). 장애 조치(failover) 응답 코드를 지정하면 SBC가 네트워크 또는 기타 문제로 호출할 수 없는 경우 지정한 코드를 수신할 때 직접 라우팅에서 다른 SBC(사용자의 음성 라우팅 정책에 다른 SBC가 있는 경우)를 시도하도록 강제합니다. 자세한 내용은 SBC(세션 테두리 컨트롤러)에서 받은 특정 SIP 코드의 장애 [조치(Failover)를 참조합니다.](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
+|아니요|**장애 조치(failover) 시간(초)**|FailoverTimeSeconds |값을 설정하면 설정한 시간 내에 게이트웨이에서 응답하지 않는 아웃바운드 호출이 사용 가능한 다음 트렁크로 라우팅됩니다. 추가 트렁크가 없는 경우 호출이 자동으로 삭제됩니다. 기본값은 10초입니다. 느린 네트워크 및 게이트웨이 응답이 있는 조직에서 이로 인해 호출이 불필요하게 삭제될 수 있습니다.|10|숫자|Int|
 |아니요|**미디어 트래픽에 대한 기본 설정 국가 또는 지역**|MediaRelayRoutingLocationOverride |미디어 트래픽에 대해 선호하는 국가 또는 지역을 수동으로 설정하는 데 사용하세요. 호출 로그가 미디어 경로에 대한 데이터 센터의 기본 할당이 SBC 데이터 센터에 가장 가까운 경로를 사용하지 않는다고 명확하게 나타내는 경우 이를 설정하는 것이 좋습니다. 기본적으로 직접 라우팅은 SBC의 공용 IP 주소를 기반으로 데이터 센터를 할당하고 항상 SBC 데이터 센터에 가장 가까운 경로를 선택합니다. 그러나 경우에 따라 기본 경로가 최적 경로가 아 될 수 있습니다. 이 매개 변수를 사용하면 미디어 트래픽에 대한 기본 지역을 수동으로 설정할 수 있습니다. |없음|ISO 형식의 국가 코드||
 |아니요|**SBC는 긴급 통화에 대해 PIDF/LO를 지원**|PidfloSupported|SBC가 긴급 통화에 대해 PIDF/LO(현재 상태 정보 데이터 형식 위치 개체)를 지원하는지 여부를 지정합니다.||||
 |아니요|**사용자를 찾으려고 하는 동안 전화 벨 울리기**|GenerateRingingWhileLocatingUser|발신자에 오디오 신호가 재생되어 Teams가 통화를 설정하고 있는지를 나타냅니다. 이 설정은 미디어 우회 모드가 아닌 직접 라우팅에만 적용됩니다. 경우에 따라 PSTN에서 Teams 클라이언트로의 인바운드 호출을 설정하는 데 예상보다 오래 걸릴 수 있습니다. 이 경우 발신자가 아무 소리도 들리지 않을 수 있으며 Teams 클라이언트는 벨이 울리지 않습니다. 일부 통신 공급자가 통화를 취소할 수 있습니다. 이 설정은 이러한 시나리오에서 발생할 수 있는 예기치 않은 묵음을 방지하는 데 도움이 됩니다.|True|True<br/>False|부울|

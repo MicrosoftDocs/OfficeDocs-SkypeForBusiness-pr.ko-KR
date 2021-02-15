@@ -51,17 +51,17 @@ ms.locfileid: "49865142"
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>PowerShell을 사용하여 Skype 모임 브로드캐스트 사용
 
-1. 버전 3.0 이상을 실행 중인지 Windows PowerShell.
+1. 버전 3.0 이상을 실행하고 있는지 Windows PowerShell.
     
 2. 버전 3.0 이상을 실행하고 있는지 확인: 시작 메뉴를  >  Windows PowerShell.
     
-3. 웹 창에  _Get-Host를_ 입력하여 **Windows PowerShell** 검사합니다.
+3. 웹 창에  _Get-Host를_ 입력하여 **Windows PowerShell** 확인
     
-4. 버전 3.0 이상이 없는 경우 업데이트를 다운로드하여 설치해야 Windows PowerShell. 버전 [Windows Management Framework 4.0으로](https://go.microsoft.com/fwlink/?LinkId=716845) Windows PowerShell 업데이트하려면 Windows PowerShell 4.0을 참조합니다. 메시지가 표시될 때 컴퓨터를 다시 시작합니다.
+4. 버전 3.0 이상이 없는 경우 업데이트를 다운로드하여 설치해야 Windows PowerShell. 버전 [Windows Management Framework 4.0으로](https://go.microsoft.com/fwlink/?LinkId=716845) Windows PowerShell 다운로드하고 업데이트하려면 4.0을 참조합니다. 메시지가 표시될 때 컴퓨터를 다시 시작합니다.
     
 5. 또한 비즈니스용 Skype Online에 Windows PowerShell 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online용 Windows PowerShell 모듈을 설치해야 합니다. 64비트 컴퓨터에서만 지원되는 이 모듈은 비즈니스용 Skype Online용 Windows PowerShell 모듈의 Microsoft 다운로드 센터에서 다운로드할 [수 있습니다.](https://go.microsoft.com/fwlink/?LinkId=294688) 메시지가 표시될 경우 컴퓨터를 다시 시작합니다.
     
-6. 시작 **메뉴에서** **Windows PowerShell.**
+6. 시작 **메뉴에서** 다음 **Windows PowerShell.**
     
 7. 다음 **Windows PowerShell** 실행하여 Microsoft 365 또는 Office 365에 연결합니다.
     
@@ -77,7 +77,7 @@ ms.locfileid: "49865142"
    Get-CsBroadcastMeetingConfiguration
    ```
 
-    _EnableBroadcastMeeting_ 매개 변수가 .로 설정되어 있는지 `False` 확인
+    _EnableBroadcastMeeting_ 매개 변수가 으로 설정되어 있는지 `False` 확인
     
      ![Skype 모임 브로드캐스트를 사용하면 조직 cmdlet을 사용할 수 있습니다.](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
@@ -98,7 +98,7 @@ ms.locfileid: "49865142"
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>외부 참석자와 모임을 브로드캐스트하도록 네트워크 구성
 
-방화벽이 있는 경우 비즈니스 외부의 사용자(페더러드 비즈니스가 아닌 사용자)와 브로드캐스트를 보류하려는 경우 다음 지침을 사용하여 네트워크를 구성해야 합니다. [Skype](set-up-your-network-for-skype-meeting-broadcast.md)모임 브로드캐스트에 대한 네트워크 설정. 
+방화벽이 있는 경우 비즈니스 외부의 사용자(페더맹 비즈니스가 아닌 사용자)와 브로드캐스트를 보류하려는 경우 다음 지침을 사용하여 네트워크를 구성해야 합니다. [Skype](set-up-your-network-for-skype-meeting-broadcast.md)모임 브로드캐스트에 대한 네트워크 설정. 
   
 방화벽 구성에 경험이 없는 경우 이 단계를 위해 [Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) 파트너를 고용하는 것이 좋습니다.
   

@@ -48,7 +48,7 @@ Microsoft 365 커넥터를 Microsoft Teams와 Microsoft 365 그룹 모두에서 
     > [!div class="mx-imgBorder"]
     > ![사용 가능한 커넥터를 보여주는 커넥터 대화 상자의 스크린샷.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
-3. 선택한 커넥터의 필수 정보를 입력하고 저장을 **클릭합니다.** 각 커넥터가 제대로 작동하려면 다양한 정보 집합이 필요하며, 일부는 커넥터 구성 페이지에 제공된 링크를 사용하여 서비스에 로그인해야 할 수 있습니다.
+3. 선택한 커넥터의 필수 정보를 입력하고 저장을 **클릭합니다.** 각 커넥터는 제대로 작동하기 위해 다양한 정보 집합이 필요하며 일부는 커넥터 구성 페이지에 제공된 링크를 사용하여 서비스에 로그인해야 할 수 있습니다.
 
     > [!div class="mx-imgBorder"]
     > ![RSS 커넥터에 대한 구성 페이지의 스크린샷입니다.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)

@@ -79,7 +79,7 @@ Teams 사용자가 Skype 사용자의 초기 대화 요청을 수락하거나 �
 **서비스:** sipfederationtls<br/>
 **프로토콜:** TCP<br/>
 **우선** 순위: 100<br/>
-**무게:** 1<br/>
+**가중치:** 1<br/>
 **포트:** 5061<br/>
 **대상:** sipfed.online.lync.com
 

@@ -34,7 +34,7 @@ ms.locfileid: "49918884"
 
 ## <a name="skype-for-business-pstn-services"></a>비즈니스용 Skype PSTN 서비스
 
-고객은 비즈니스용 Skype Online PSTN 서비스 사용 약관 및 고객의 볼륨 라이선스 계약에 따라 Microsoft 365 또는 Office 365 통화 요금제 및 Office 365 오디오 회의를 사용할 수 있습니다. PSTN 서비스 사용 약관은 사용 약관 및 설명서에서 찾을 [수 있습니다.](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)
+고객은 비즈니스용 Skype Online PSTN 서비스 사용 약관 및 고객의 볼륨 라이선스 계약에 허용된 경우 Microsoft 365 또는 Office 365 통화 요금제 및 Office 365 오디오 회의를 사용할 수 있습니다. PSTN 서비스 사용 약관은 사용 약관 및 설명서에서 찾을 [수 있습니다.](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)
   
 ### <a name="end-of-complimentary-dial-out-period"></a>무료 전화 걸기 기간 종료
 

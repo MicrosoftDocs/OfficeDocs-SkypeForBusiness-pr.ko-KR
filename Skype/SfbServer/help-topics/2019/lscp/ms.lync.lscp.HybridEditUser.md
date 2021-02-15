@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 ROBOTS: NOINDEX, NOFOLLOW
-description: 사용자 편집 마법사를 사용하여 배포의 사용자 계정을 수정합니다. 자세한 내용은 하이브리드 관리 가능성 마법사 사용을 참조하세요.
+description: 사용자 편집 마법사를 사용하여 배포의 사용자 계정을 수정합니다. 자세한 내용은 하이브리드 관리성 마법사 사용을 참조하세요.
 ms.openlocfilehash: 1dc7c62c5f10032df5b2915972f1ac9a4bfa6c75
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

@@ -28,7 +28,7 @@ ms.locfileid: "49980442"
 =====================================
 
 > [!NOTE]
-> 비공개 채널에서 메시지 및 [](private-channels.md) 파일의 콘텐츠 검색은 표준 채널과 다르게 작동됩니다. 자세한 내용은 비공개 [채널의 콘텐츠 검색을 참조하세요.](#content-search-of-private-channels)
+> 비공개 채널에서 메시지 및 [](private-channels.md) 파일의 콘텐츠 검색은 표준 채널과 다르게 작동됩니다. 자세한 내용은 비공개 채널의 콘텐츠 [검색을 참조하세요.](#content-search-of-private-channels)
 
 콘텐츠 검색은 Exchange, SharePoint Online 및 비즈니스용 OneDrive에 걸쳐 Microsoft Teams 정보를 쿼리하는 방법을 제공합니다.
 
@@ -88,7 +88,7 @@ Teams는 단일 채널의 콘텐츠 검색을 지원하지 않습니다. 따라�
     ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
-3. 팀의 각 개인 채널에 있는 모든 구성원의 사서함을 콘텐츠 검색 쿼리의 일부로 포함합니다.
+3. 콘텐츠 검색 쿼리의 일부로 팀의 각 개인 채널에 있는 모든 구성원의 사서함을 포함합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

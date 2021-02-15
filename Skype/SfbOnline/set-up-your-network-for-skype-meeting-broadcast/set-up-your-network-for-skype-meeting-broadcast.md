@@ -35,7 +35,7 @@ Skype 모임 [브로드캐스트 Skype](enable-skype-meeting-broadcast.md) 모�
 
 방화벽 구성에 경험이 없는 경우 이 단계를 위해 [Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) 파트너를 고용하는 것이 좋습니다.
 
-이 단계를 건너뛰고 다른 비즈니스를 브로드캐스트에 초대할 수 있도록 페더러에 다른 비즈니스를 추가하기 위해 사용자가 외부 비즈니스용 Skype 사용자에게 연락할 수 있도록 허용의 [단계를 따릅니다.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+이 단계를 건너뛰고 다른 비즈니스를 브로드캐스트에 초대할 수 있도록 페더러에 다른 비즈니스를 추가하는 대신 사용자가 외부 비즈니스용 Skype 사용자에게 연락할 수 있도록 허용의 [단계를 따릅니다.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
 ## <a name="step-1-set-up-allowed-domains"></a>1단계: 허용되는 도메인 설정
 

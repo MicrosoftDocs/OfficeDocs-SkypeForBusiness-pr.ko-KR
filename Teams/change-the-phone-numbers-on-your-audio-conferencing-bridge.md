@@ -59,7 +59,7 @@ ms.locfileid: "49918754"
 
 ![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색 창에서 모임 회의  >  **브리지로 이동**
+1. 왼쪽 탐색 창에서 모임 **회의**  >  **브리지로 이동**
 
 2. 기본값으로 구성하려는 서비스 에지 번호를 강조합니다.
 
@@ -100,9 +100,9 @@ ms.locfileid: "49918754"
 ## <a name="steps-when-you-are-unassigning-a-service-phone-number-for-a-conferencing-bridge"></a>회의 브리지에 대한 서비스 전화 번호를 부재 중일 때의 단계
 
 
-회의 브리지에서 전화 번호를 재할당을 해지하면 사용자는 더 이상 해당 전화 번호를 사용하여 모임에 참가할 수 없습니다. 전화 번호가 변경되기 때문에 전화 번호를 기본 번호(있는 경우)로 사용할 수 있는 모든 사용자를 업데이트하고 오디오 회의 브리지에서 전화 번호가 지정되지 않은 경우 기존 모임 초대를 업데이트해야 합니다.
+회의 브리지에서 전화 번호의 재할당을 해지하면 사용자는 더 이상 해당 전화 번호를 사용하여 모임에 참가할 수 없습니다. 전화 번호가 변경되기 때문에 전화 번호를 기본 번호(있는 경우)로 사용할 수 있는 모든 사용자를 업데이트하고 오디오 회의 브리지에서 전화 번호가 지정되지 않은 경우 기존 모임 초대를 업데이트해야 합니다.
 
-사용자 및 해당 모임을 업데이트하지 않고 전화 번호가 제거되면 기존 모임 초대에 모임에 참가할 수 없는 전화 번호가 포함될 수 있습니다.
+사용자와 모임을 업데이트하지 않고 전화 번호가 제거되면 기존 모임 초대에 모임에 참가할 수 없는 전화 번호가 포함될 수 있습니다.
 
 처음 세 단계의 경우 다음 단계를 시작해야 Windows PowerShell. 이 작업을 하는 방법을 보려면 다음을 사용하여 관리 방법을 알고 [Windows PowerShell.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
 
@@ -129,7 +129,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
 Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
-모임 마이그레이션 서비스에 대한 자세한 내용은 [MMS(모임](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)마이그레이션 서비스) 설정을 참조하세요.
+모임 마이그레이션 서비스에 대한 자세한 내용은 [MMS(모임 마이그레이션 서비스) 설정을 참조하세요.](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>3단계 - 오디오 회의 브리지에서 이전 전화 번호의 이전 전화 번호의 재할당을 해지합니다.
 
@@ -142,7 +142,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 3. 전화 번호가 무료 번호인 경우 확인 창에서 **예를** 클릭합니다.
 
    > [!IMPORTANT]
-   > 오디오 회의 브리지에서 전화 번호가 부재 중이면 사용자가 새 모임이나 기존 모임에 참가할 수 없는 전화 번호가 더 이상 제공되지 않습니다.
+   > 오디오 회의 브리지에서 전화 번호가 부재 중이면 사용자가 새 모임이나 기존 모임에 참가할 수 없습니다.
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>사용자 계정으로 관리하는 방법을 알고 Windows PowerShell?
 <a name="bkPowerShell"> </a>
@@ -186,7 +186,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 > [!NOTE]
 > 비즈니스용 Skype Online  모듈을 처음 사용하는 경우 모듈 가져오기 명령을 Windows PowerShell 합니다.
-Windows PowerShell 시작하는 데 대한 자세한 내용은 단일 Windows PowerShell 창에서 모든 [Microsoft 365 또는 Office 365](https://technet.microsoft.com/library/dn568015.aspx) 서비스에 연결하거나 [Windows PowerShell.](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)
+Windows PowerShell 시작에 대한 자세한 내용은 단일 Windows PowerShell 창에서 모든 [Microsoft 365 또는 Office 365](https://technet.microsoft.com/library/dn568015.aspx) 서비스에 연결하거나 [Windows PowerShell.](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)
 
 ### <a name="save-time-and-automate"></a>시간 절약 및 자동화
 
@@ -230,7 +230,7 @@ Windows PowerShell 시작하는 데 대한 자세한 내용은 단일 Windows Po
 
 **선택 안 하여 단추를 사용할 수 없습니다.**
 
-번호의 배정을 해지하고 단추를 사용할 수 없습니다. 단추를 마우스로 이동하는 동안 지원에 "기본 또는 공유 번호는 브리지에서 지정을 해지할 수 _없습니다. 전용 통행료_ 번호를 부과하지 않는 경우 고객 지원에 문의하시기 바랍니다. ".
+번호의 배정을 해지하고 단추를 사용할 수 없습니다. 단추를 마우스로 이동하는 동안 지원에 "기본 또는 공유 번호는 브리지에서 지정을 해지할 수 _없습니다. 전용 통행료_ 번호를 부과하지 않는 경우 고객 지원에 문의합니다. ".
 
 브리지에 대한 자세한 정보를 얻은 다음 Powershell을 실행합니다.
 ```PowerShell

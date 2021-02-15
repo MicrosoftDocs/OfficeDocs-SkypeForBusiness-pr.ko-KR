@@ -126,8 +126,8 @@ ms.locfileid: "50055750"
 
 |**조직이** |**다음과 같이 페더전을 사용하도록 설정**  |
 |:---------|:-----------------------|
-|비즈니스용 Skype가 없는 온라인-프레미스 여기에는 TeamsOnly 사용자 및/또는 비즈니스용 Skype Online 사용자가 있는 조직이 포함됩니다.| Teams 관리 센터를 사용하는 경우: <br>- 사용자가 다른 비즈니스용 Skype와 통신할 수 **있는지, 외부** 액세스에서 Teams 사용자 설정을 사용하도록 설정되어 있는지 확인합니다.<br>- 열려 있는 페더러전을 사용하지 않는 경우(다른 도메인과의 페더 세일을 허용하는) 외부 도메인을 허용 목록에 추가합니다.<br><br>PowerShell을 사용하는 경우:<br>- 테넌트가 페더넌트에 사용하도록 설정되어 있어야 `Get-CsTenantFederationConfiguration` `AllowFederatedUsers=true` 합니다. <br>- 사용자의 유효 값이 다음이 되도록 `CsExternalAccessPolicy` `EnableFederationAccess=true` 합니다.<br>- 열려 있는 페더전을 사용하지 않는 경우 대상 도메인이 에 나열되어 있도록 `AllowedDomains` `CsTenantFederationConfiguration` 합니다. |
-|Pure on-premises | 프레미스 도구에서: <br>- 에서 페더전을 사용하도록 설정되어 있는지 `CsAccessEdgeConfiguration` 확인합니다.<br>- (전역 정책, 사이트 정책 또는 사용자 할당 정책을 통해) 사용자에 대한 페더전을 사용하도록 `ExternalAccessPolicy` 설정해야 합니다. <br> - 열려 있는 페더전을 사용하지 않는 경우 대상 도메인이 에 나열되어 있도록 `AllowedDomains` 합니다. |
+|비즈니스용 Skype가 없는 온라인-프레미스 여기에는 TeamsOnly 사용자 및/또는 비즈니스용 Skype Online 사용자가 있는 조직이 포함됩니다.| Teams 관리 센터를 사용하는 경우: <br>- 사용자가 다른 비즈니스용 Skype와 통신할 수 **있는지, 외부** 액세스에서 Teams 사용자 설정을 사용하도록 설정되어 있는지 확인합니다.<br>- 열려 있는 페더러전을 사용하지 않는 경우(다른 도메인과의 페더맹을 허용하는) 외부 도메인을 허용 목록에 추가합니다.<br><br>PowerShell을 사용하는 경우:<br>- 테넌트가 페더넌트에 사용하도록 설정되어 있어야 `Get-CsTenantFederationConfiguration` `AllowFederatedUsers=true` 합니다. <br>- 사용자의 유효 값이 다음이 되도록 `CsExternalAccessPolicy` `EnableFederationAccess=true` 합니다.<br>- 열려 있는 페더전을 사용하지 않는 경우 대상 도메인이 에 나열되어 있도록 `AllowedDomains` `CsTenantFederationConfiguration` 합니다. |
+|Pure on-premises | 프레미스 도구에서: <br>- .에서 페더전을 사용하도록 설정되어 있는지 `CsAccessEdgeConfiguration` 확인합니다.<br>- (전역 정책, 사이트 정책 또는 사용자 할당 정책을 통해) 사용자에 대한 페더전을 사용하도록 `ExternalAccessPolicy` 설정해야 합니다. <br> - 열려 있는 페더전을 사용하지 않는 경우 대상 도메인이 에 나열되어 있도록 `AllowedDomains` 합니다. |
 |일부 사용자(비즈니스용 Skype 또는 Teams) 및 일부 사용자와 온라인에서 하이브리드를 사용할 수 있습니다. | 온라인 및온-프레미스 조직 모두에 대해 위의 단계를 수행합니다. |
 
 ### <a name="delivery-of-incoming-chats-and-calls"></a>수신 채팅 및 통화 배달 
@@ -147,7 +147,7 @@ ms.locfileid: "50055750"
 |**조직이** |**다음과 같이 소비자 페더전을 사용하도록 설정**  |
 |:---------|:-----------------------|
 | 비즈니스용 Skype가 없는 온라인 온라인  여기에는 TeamsOnly 사용자 및/또는 비즈니스용 Skype Online 사용자가 있는 조직이 포함됩니다. | Teams 관리 센터를 사용하는 경우: <br>-사용자가 외부 **액세스에서 Skype** 사용자와 통신할 수 있는지 확인합니다.<br><br>PowerShell을 사용하는 경우: <br>-테넌트가 페더넌트에 사용하도록 설정되어 있어야 `Get-CsTenantFederationConfiguration` `AllowPublicUsers=true` 합니다. <br> - 사용자의 유효 값이 다음이 되도록 `CsExternalAccessPolicy` `EnablePublicCloudAccess=true` 합니다. |
-| Pure On-Premises | 프레미스 도구에서: <br> - Skype가 페더러드 파트너로 활성화되어 있는지 확인합니다. <br> - 전역 정책, 사이트 정책 또는 사용자 할당 정책을 통해 사용자를 `EnablePublicCloudAccess=true` `ExternalAccessPolicy` 보장합니다.|
+| Pure on-premises | 프레미스 도구에서: <br> - Skype가 페더러드 파트너로 활성화되어 있는지 확인합니다. <br> - 전역 정책, 사이트 정책 또는 사용자 할당 정책을 통해 사용자를 `EnablePublicCloudAccess=true` `ExternalAccessPolicy` 보장합니다.|
 | 일부 사용자(비즈니스용 Skype 또는 Teams) 및 일부 사용자와 온라인에서 하이브리드를 사용할 수 있습니다.| 온라인 및온-프레미스 조직 모두에 대해 위의 단계를 수행합니다.
 
 

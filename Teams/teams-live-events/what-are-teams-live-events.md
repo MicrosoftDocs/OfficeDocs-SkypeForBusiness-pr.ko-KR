@@ -13,7 +13,7 @@ ms.collection:
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: 사용자가 라이브 이벤트를 통해 Teams, 팀 및 스트림에서 대규모 온라인 대상에게 비디오 및 콘텐츠를 브로드캐스트하는 Yammer 방법을 배워야 합니다.
+description: 사용자가 라이브 이벤트를 통해 Teams, 팀 및 스트림에서 대규모 온라인 대상에게 비디오 및 콘텐츠를 Yammer 방법을 배워야 합니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -47,7 +47,7 @@ Teams 라이브 이벤트는 Skype 모임 브로드캐스트의 다음 버전으
 
 ### <a name="event-group-roles"></a>이벤트 그룹 역할
 
-Teams의 라이브 이벤트는 여러 역할(이끌이, 제작자, 발표자 및 참석자)이 성공적으로 브로드캐스트하고 이벤트에 참여할 수 있습니다. 자세한 내용은 이벤트 그룹 [역할을 참조합니다.](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)
+Teams의 라이브 이벤트는 여러 역할(이끌이, 생산자, 발표자 및 참석자)이 성공적으로 브로드캐스트하고 이벤트에 참여할 수 있습니다. 자세한 내용은 이벤트 그룹 [역할을 참조합니다.](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)
 
 ## <a name="key-components"></a>주요 구성 요소
 
@@ -63,7 +63,7 @@ Teams는 이끌이가 적절한 참석자 권한이 있는 이벤트를 만들�
 ![새 라이브 이벤트 화면](../media/teams-live-events-schedule.png "새 라이브 이벤트를 만들고 예약하는 새 라이브 이벤트 화면을 보여주는 스크린샷")
 
 > [!IMPORTANT]
-> Teams는 사용자가 오프라인 상태이거나 대역폭이 제한된 상태로 실행되는 경우 모임 또는 라이브 이벤트를 예약할 수 없습니다.
+> Teams는 사용자가 오프라인 상태이거나 제한된 대역폭으로 실행되는 경우 회의 또는 라이브 이벤트를 예약하지 못하도록 합니다.
 
 ### <a name="production"></a>프로덕션
 
@@ -71,7 +71,7 @@ Teams는 이끌이가 적절한 참석자 권한이 있는 이벤트를 만들�
 
 - **Teams: 이** 프로덕션 방법을 사용하면 사용자가 웹캠을 사용하여 Teams에서 라이브 이벤트를 생성하거나 Teams 방 시스템의 A/V 입력을 사용할 수 있습니다. 이 옵션은 PC에 연결된 오디오 및 비디오 장치를 사용하려는 경우 또는 이벤트에 참여하기 위해 원격 발표자에 참여하는 경우 가장 빠르고 빠른 옵션입니다. 이 옵션을 사용하면 사용자가 웹캠을 쉽게 사용하여 이벤트의 입력으로 화면을 공유할 수 있습니다.
 
-- **외부 앱 또는 디바이스:** 외부 인코더를 사용하면 사용자가 Stream을 사용하여 외부 하드웨어 또는 소프트웨어 기반 인코더에서 직접 라이브 이벤트를 생성하도록 [허용합니다.](https://stream.microsoft.com) 이 옵션은 RTMP(실시간 메시징 프로토콜) 서비스로의 스트리밍을 지원하는 스튜디오 품질 장비(예: 미디어 믹서)가 이미 있는 경우 가장 좋습니다. 이 유형의 프로덕션은 일반적으로 미디어 믹서의 단일 스트림이 청중에게 브로드캐스트되는 경영진 타운 홀과 같은 대규모 이벤트에서 사용됩니다.
+- **외부 앱 또는 디바이스:** 외부 인코더를 사용하면 사용자가 Stream을 사용하여 외부 하드웨어 또는 소프트웨어 기반 인코더에서 직접 라이브 이벤트를 생성하도록 [허용합니다.](https://stream.microsoft.com) 이 옵션은 RTMP(실시간 메시징 프로토콜) 서비스로의 스트리밍을 지원하는 스튜디오 품질 장비(예: 미디어 믹서)가 이미 있는 경우 가장 좋습니다. 이 유형의 프로덕션은 일반적으로 청중에게 미디어 믹서의 단일 스트림이 브로드캐스트되는 경영진 타운 홀과 같은 대규모 이벤트에서 사용됩니다.
 
     ![외부 앱 또는 디바이스를 사용하여 생성되는 라이브 이벤트](../media/teams-live-events-external-encoder.png "외부 앱 또는 디바이스 프로덕션 방법을 사용하여 생성되는 라이브 이벤트를 보여주는 스크린샷")
 
@@ -82,7 +82,7 @@ Teams는 이끌이가 적절한 참석자 권한이 있는 이벤트를 만들�
 
 라이브 이벤트 스트리밍 플랫폼은 다음과 같은 조각으로 만들어 졌다.
 
-- **Azure Media Services:**  [Azure Media Services는](https://docs.microsoft.com/azure/media-services/previous/) 오늘날 가장 인기 있는 모바일 디바이스에서 더 많은 대상에게 도달할 수 있는 브로드캐스트 품질 비디오 스트리밍 서비스를 제공합니다. Media Services는 접근성, 배포 및 확장성을 향상하고, 콘텐츠를 보호하면서 로컬 또는 전 세계 대상에게 콘텐츠를 쉽고 비용 효율적인 스트리밍할 수 있도록 합니다.
+- **Azure Media Services:**  [Azure Media Services는](https://docs.microsoft.com/azure/media-services/previous/) 오늘날 가장 인기 있는 모바일 디바이스에서 더 많은 대상에게 도달할 수 있는 브로드캐스트 품질 비디오 스트리밍 서비스를 제공합니다. Media Services는 접근성, 배포 및 확장성을 향상하며, 콘텐츠를 보호하면서 로컬 또는 전 세계 대상에게 쉽고 비용 효율적인 콘텐츠를 스트리밍할 수 있도록 합니다.
 - **Azure CDN(Content Delivery Network)**: 스트림이 라이브로 전송된 후 [Azure CDN(Content Delivery Network)을 통해 전달됩니다.](https://docs.microsoft.com/azure/cdn/) Azure Media Services는 스트리밍 엔드포인트에 대한 통합 CDN을 제공합니다. 이렇게 하면 버퍼링이 없는 전 세계에 스트림을 볼 수 있습니다.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>eCDN(Enterprise Content Delivery Network)
@@ -102,7 +102,7 @@ eCDN의 목표는 인터넷에서 비디오 콘텐츠를 받아 네트워크 성
 
 ### <a name="live-event-usage-report"></a>라이브 이벤트 사용 현황 보고서
 
-테넌트 관리자는 Microsoft Teams 관리 센터에서 라이브 이벤트에 대한 실시간 사용 현황 분석을 볼 수 있습니다.  라이브 [이벤트 사용 보고서는](../teams-analytics-and-reports/teams-live-event-usage-report.md) 조직에 있는 라이브 이벤트의 활동 개요를 보여 줍니다.  관리자는 이벤트 상태, 시작 시간, 보기 및 프로덕션 유형을 포함하여 이벤트 사용 정보를 볼 수 있습니다.  
+테넌트 관리자는 Microsoft Teams 관리 센터에서 라이브 이벤트에 대한 실시간 사용 현황 분석을 볼 수 있습니다.  라이브 [이벤트 사용 보고서는](../teams-analytics-and-reports/teams-live-event-usage-report.md) 조직에 있는 라이브 이벤트의 활동 개요를 보여 줍니다.  관리자는 이벤트 상태, 시작 시간, 보기 및 프로덕션 유형을 비롯한 이벤트 사용 정보를 볼 수 있습니다.  
 
 ## <a name="next-steps"></a>다음 단계
 

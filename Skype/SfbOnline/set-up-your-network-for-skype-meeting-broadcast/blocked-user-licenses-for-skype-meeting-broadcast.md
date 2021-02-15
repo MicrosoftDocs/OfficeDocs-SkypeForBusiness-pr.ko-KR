@@ -55,7 +55,7 @@ ms.locfileid: "49865152"
     
 - Office 365 Education E3 Fac/Staff Large
     
-- Office 365 Education E3 학생
+- Office 365 Education E3 Student
     
 - Office 365 A1 학생 사용 혜택
     

@@ -43,7 +43,7 @@ ms.locfileid: "49919014"
 
 자동 전화 걸기 또는 통화 큐가 최상위 자동 전화 통신 아래에 중첩된 경우 자동 전화 걸기 및 통화 큐의 구조에 여러 지점을 입력하려는 경우 연결된 리소스 계정에는 전화 번호만 필요합니다.
 
-온라인에 있는 조직의 사용자로 통화를 리디렉션하려면 전화  시스템 라이선스가 있어야 하며 전화 시스템 라이선스가 있어야 Enterprise Voice 또는 Microsoft 365 또는 Office 365 통화 플랜을 사용할 수 있습니다. [Microsoft Teams 라이선스 할당을 참조합니다.](/MicrosoftTeams/assign-teams-licenses) 사용자에 대해 사용하도록 Enterprise Voice 수 있도록 설정하려면 다음을 Windows PowerShell. 예를 들어 다음을 실행합니다.  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+온라인에 있는 조직의 사용자로 통화를 리디렉션하려면 전화  시스템 라이선스가 있어야 합니다. 이 사용자가 전화 시스템 라이선스를 Enterprise Voice 또는 Microsoft 365 또는 Office 365 통화 플랜을 사용할 수 있도록 설정되어 있어야 합니다. [Microsoft Teams 라이선스 할당을 참조합니다.](/MicrosoftTeams/assign-teams-licenses) 사용자에 대해 사용하도록 Enterprise Voice 수 있도록 설정하려면 다음을 Windows PowerShell. 예를 들어 다음을 실행합니다.  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 만들 전화 시스템 자동 전화 연결 또는 통화 큐가 중첩되어 전화 번호가 필요하지 않은 경우 프로세스는 다음입니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "49919014"
 
 1. 무료 또는 무료 서비스 번호를 포트하거나 받을 수 있습니다. 이 번호는 다른 음성 서비스 또는 리소스 계정에 할당할 수 없습니다.
 
-   리소스 계정에 전화 번호를 할당하기 전에 기존 무료 또는 무료 서비스 번호를 얻거나 이식해야 합니다. 무료 또는 무료 서비스 전화 번호를 다운로드한 후 **Microsoft Teams** 관리 센터 음성 전화 번호에 표시하며 나열된 번호 유형이 서비스 - 무료로  >    >   **나열됩니다.**  서비스 번호를 확인하거나 [](/MicrosoftTeams/getting-service-phone-numbers) 기존 서비스 번호를 전송하려는 경우 Teams로 전화 번호 전송을 [참조합니다.](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
+   리소스 계정에 전화 번호를 할당하기 전에 기존 무료 또는 무료 서비스 번호를 얻거나 이식해야 합니다. 무료 또는 무료 서비스 전화 번호를 다운로드하면 **Microsoft Teams** 관리 센터 음성 전화 번호에 표시하며 나열된 번호 유형이 서비스 - 무료로  >    >   **나열됩니다.**  서비스 번호를 확인하거나 [](/MicrosoftTeams/getting-service-phone-numbers) 기존 서비스 번호를 전송하려는 경우 Teams로 전화 번호 전송을 [참조합니다.](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
    미국 이외 국가인 경우 Microsoft Teams 관리 센터를 사용하여 서비스 번호를 받을 수 없습니다. 대신 [조직의](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) 전화 번호 관리로 이동하여 미국 외부에서 전화 번호를 관리하는 방법을 참조하세요.
 
@@ -150,7 +150,7 @@ ms.locfileid: "49919014"
 
 ## <a name="test-the-implementation"></a>구현 테스트
 
-구현을 테스트하는 가장 좋은 방법은 전화 시스템 자동 전화 연결 또는 통화 큐에 대해 구성된 번호를 호출하고 에이전트 또는 메뉴 중 하나에 연결하는 것입니다. 관리 센터 작업 창에서 테스트 단추를 사용하여 신속하게 테스트 호출을 **걸** 수도 있습니다. 전화 시스템 자동 전화 연결 또는 통화 큐를 변경하려면 이 옵션을 선택하고 작업 창에서 편집을 **클릭합니다.** 
+구현을 테스트하는 가장 좋은 방법은 전화 시스템 자동 전화 연결 또는 통화 큐에 대해 구성된 번호를 호출하고 에이전트 또는 메뉴 중 하나에 연결하는 것입니다. 관리 센터 작업 창에서 테스트 단추를 사용하여 테스트 호출을 신속하게 **걸** 수도 있습니다. 전화 시스템 자동 전화 연결 또는 통화 큐를 변경하려면 이 옵션을 선택하고 작업 창에서 편집을 **클릭합니다.** 
 
 > [!TIP]
 > 리소스 계정이 통화 큐 또는 자동 전화 회의에 할당되는 데 어려움이 있는 [](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521) 경우 [Microsoft Teams에](/MicrosoftTeams/Known-issues#phone-system) 대한 알려진 문제와 Microsoft Teams 블로그의 하이브리드 응용 프로그램 인스턴스를 수정하는 방법 섹션을 참조하세요.

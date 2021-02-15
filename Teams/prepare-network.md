@@ -120,7 +120,7 @@ ms.locfileid: "50099579"
 </tr>
 <tr class="even">
 <td>분할 터널 VPN 구성</td>
-<td><p>일반적으로 분할 터널 VPN으로 알려진 VPN(가상 사설망)을 우회하는 Teams 트래픽에 대한 대체 경로를 제공하는 <a href="https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing">것이 좋습니다.</a> 분할 터널링은 Microsoft 365 또는 Office 365에 대한 트래픽이 VPN을 통과하지 않고 대신 Microsoft 365 또는 Office 365로 직접 이동하는 것입니다. VPN을 무시하면 Teams 품질에 긍정적인 영향을 미치고 VPN 디바이스 및 조직의 네트워크에서 부하를 줄입니다. 분할 터널 VPN을 구현하기 위해 VPN 공급업체에 문의하세요.</p>
+<td><p>일반적으로 분할 터널 VPN으로 알려진 VPN(가상 사설망)을 우회하는 Teams 트래픽에 대한 대체 경로를 제공하는 <a href="https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing">것이 좋습니다.</a> 분할 터널링은 Microsoft 365 또는 Office 365에 대한 트래픽이 VPN을 통과하지 않고 대신 Microsoft 365 또는 Office 365로 직접 이동하는 것입니다. VPN을 무시하면 Teams 품질에 긍정적인 영향을 미치고 VPN 디바이스 및 조직의 네트워크의 부하를 줄입니다. 분할 터널 VPN을 구현하기 위해 VPN 공급업체에 문의하세요.</p>
 <p>VPN을 무시하는 것이 좋습니다.
 <ul>
 <li><p>VPN은 일반적으로 실시간 미디어를 지원하도록 설계되거나 구성되지 않습니다.</p></li> 

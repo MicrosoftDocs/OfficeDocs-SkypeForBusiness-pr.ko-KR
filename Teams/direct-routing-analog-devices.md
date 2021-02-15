@@ -25,18 +25,18 @@ ms.locfileid: "49841489"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>전화 시스템 직접 라우팅과 함께 아날로그 디바이스를 사용하는 방법
 
-이 문서에서는 전화 시스템 직접 라우팅과 함께 아날로그 디바이스를 사용하는 방법을 설명하고 있습니다. 아날로그 디바이스를 직접 라우팅에 연결하려면 ATA(아날로그 전화 통신 어댑터)를 사용해야 합니다. 이 어댑터는 SBC(인증된 세션 테두리 컨트롤러) 공급업체에서 지원해야 합니다. 
+이 문서에서는 전화 시스템 직접 라우팅과 함께 아날로그 디바이스를 사용하는 방법을 설명하고 있습니다. 아날로그 디바이스를 직접 라우팅에 연결하려면 ATA(Analog Telephony Adapter)를 사용해야 합니다. 이 어댑터는 SBC(인증된 세션 테두리 컨트롤러) 공급업체에서 지원해야 합니다. 
 
-사용자가 아날로그 디바이스에서 전화를 걸 때 신호 및 미디어는 ATA(Analog Telephony Adapter)를 통해 SBC로 전달됩니다.  SBC는 내부 라우팅 테이블에 따라 Microsoft Teams 엔드포인트 또는 PSTN(공용 전환 전화 네트워크)으로 통화를 전송합니다.  디바이스가 호출을 할 때 사용하는 경로는 디바이스에 대해 만든 라우팅 정책에 따라 달라 졌습니다.
+사용자가 아날로그 디바이스에서 전화를 걸 때 신호 및 미디어는 ATA(Analog Telephony Adapter)를 통해 SBC로 전달됩니다.  SBC는 내부 라우팅 테이블에 따라 Microsoft Teams 엔드포인트 또는 PSTN(공용 전환 전화 네트워크)으로 통화를 전송합니다.  디바이스가 호출을 할 때 사용하는 경로는 디바이스에 대해 만든 라우팅 정책에 따라 달라 습니다.
 
-다음 다이어그램에서 직접 라우팅은 Teams에서 +1425 4XX XX XX와 +1425 5XX 사이의 번호에서 호출하는 모든 팀이 빨간색 경로(점선)를 취해야 하도록 구성됩니다. 그리고 +1425 4XX XX XX와 숫자 범위 +1425 5XX XX XX를 제외한 다른 번호 사이의 모든 PSTN 통화는 파란색 경로(실선)를 취해야 합니다. 
+다음 다이어그램에서 직접 라우팅은 Teams에서 +1425 4XX XX XX와 +1425 5XX XX XX 사이의 번호에서 호출하는 모든 팀이 빨간색 경로(점선)를 취해야 하도록 구성됩니다. 그리고 +1425 4XX XX XX와 숫자 범위 +1425 5XX XX XX를 제외한 다른 번호 사이의 모든 PSTN 통화는 파란색 경로(실선)를 취해야 합니다. 
 
 > [!div class="mx-imgBorder"]
 > ![직접 라우팅 구성을 보여주는 다이어그램](media/direct-routing-analog-device.png)
 
 ## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>예: 직접 라우팅을 사용하여 아날로그 디바이스 사용을 구성하는 방법
 
-직접 라우팅을 사용하여 아날로그 디바이스 사용을 구성하려면 아날로그 Telephony 어댑터를 SBC에 연결하고 직접 라우팅과 작동하도록 SBC를 구성해야 합니다. 
+직접 라우팅을 사용하여 아날로그 디바이스 사용을 구성하려면 Analog Telephony 어댑터를 SBC에 연결하고 직접 라우팅과 작동하도록 SBC를 구성해야 합니다. 
 
 이 예제에서는 다음 단계를 단계로 진행합니다.
 
@@ -85,9 +85,9 @@ PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"}
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
-## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>4단계: PSTN 사용에 음성 경로 할당:
+## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>4단계: 음성 경로를 PSTN 사용량에 할당합니다.
 
-이 명령은 ID "AnalogInteropPolicy"를 사용하여 새 온라인 사용자당 음성 라우팅 정책을 만듭니다. 이 정책에는 단일 온라인 PSTN 사용: "Interop"이 할당됩니다.
+이 명령은 ID "AnalogInteropPolicy"를 사용하여 새 온라인 사용자당 음성 라우팅 정책을 만듭니다. 이 정책에는 단일 온라인 PSTN 사용인 "Interop"이 할당됩니다.
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
@@ -95,7 +95,7 @@ PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "An
 
 ## <a name="step-5-enable-the-online-user"></a>5단계: 온라인 사용자 사용
 
-이 명령은 ID 계정으로 사용자 계정을 exampleuser@contoso.com. 이 경우 계정은 음성 메일을 사용하도록 Enterprise Voice Microsoft 구현인 VoIP를 사용하도록 수정하고 이 사용자에게 +14255000000 번호를 할당합니다.  이 명령은 회사 테넌트의 각 Teams 사용자(ATA 장치 사용자 제외)에 대해 실행해야 합니다.
+이 명령은 ID 계정으로 사용자 계정을 exampleuser@contoso.com. 이 경우 계정은 음성 메일을 사용하도록 Enterprise Voice Microsoft 구현인 VoIP를 사용하도록 수정하고 이 사용자에게 +142550000000 번호를 할당합니다.  이 명령은 회사 테넌트의 각 Teams 사용자(ATA 장치 사용자 제외)에 대해 실행해야 합니다.
 
 ```powershell
 PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $True -HostedVoiceMail $True -OnPremLineUri "tel:+14255000000"
@@ -103,7 +103,7 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 
 ## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>6단계: 사용자에게 음성 경로 정책 할당
 
-이 명령은 ID가 할당된 사용자당 온라인 음성 라우팅 정책 AnalogInteropPolicy를 사용자에게 exampleuser@contoso.com.  이 명령은 회사 테넌트의 각 Teams 사용자(ATA 장치 사용자 제외)에 대해 실행해야 합니다.
+이 명령은 ID가 있는 사용자당 온라인 음성 라우팅 정책 AnalogInteropPolicy를 exampleuser@contoso.com.  이 명령은 회사 테넌트의 각 Teams 사용자(ATA 장치 사용자 제외)에 대해 실행해야 합니다.
 
 ```powershell
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
@@ -111,7 +111,7 @@ PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -Po
 
 ## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>7단계: 아날로그 디바이스에 대한 음성 경로 만들기
 
-이 명령은 번호 범위 +1425 4XX XX XX에 ID가 "analog-interop"인 온라인 음성 경로를 만들고 sbc.contoso.com 온라인 PSTN 사용 "Interop"과 연결합니다.  이 명령은 적절한 전화 번호 패턴을 사용하여 각 아날로그 디바이스에 대해 실행해야 합니다. 또는 이전 단계 중 하나에서 온라인 음성 경로를 구성하는 동안 아날로그 디바이스에 적절한 숫자 패턴을 사용할 수 있습니다.
+이 명령은 번호 범위 +1425 4XX XX XX에 대한 ID가 "analog-interop"인 온라인 음성 경로를 만들고 sbc.contoso.com 온라인 PSTN 사용 "Interop"과 연결합니다.  이 명령은 적절한 전화 번호 패턴을 사용하여 각 아날로그 디바이스에 대해 실행해야 합니다. 또는 이전 단계 중 하나에서 온라인 음성 경로를 구성하는 동안 아날로그 디바이스에 적절한 숫자 패턴을 사용할 수 있습니다.
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6}])$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"

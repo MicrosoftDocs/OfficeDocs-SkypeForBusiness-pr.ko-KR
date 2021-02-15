@@ -31,7 +31,7 @@ ms.locfileid: "49836898"
   
 - [비즈니스용 Skype의 미디어 우회 계획](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [비즈니스용 Skype 서버의 통화 요금제 계획](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [비즈니스용 Skype 서버의 통화 수당 제어 계획](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
 - [비즈니스용 Skype 서버의 응급 서비스 계획](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     

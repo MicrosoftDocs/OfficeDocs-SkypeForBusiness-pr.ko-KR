@@ -1,5 +1,5 @@
 ---
-title: Teams Learning 앱에 대한 권한 설치, 관리 및 할당(비공개 미리 보기)
+title: Teams Learning 앱에 대한 사용 권한 설치, 관리 및 할당(비공개 미리 보기)
 author: ChuckEdmonson
 ms.author: chucked
 manager: pamgreenMSFT
@@ -24,7 +24,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49923840"
 ---
-# <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>Teams Learning 앱에 대한 권한 설치, 관리 및 할당(비공개 미리 보기)
+# <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>Teams Learning 앱에 대한 사용 권한 설치, 관리 및 할당(비공개 미리 보기)
 
 *이 문서에는 비공개 미리 보기 상태인 Teams Learning 앱에 대한 예비 콘텐츠가 포함되어 있습니다.*
 
@@ -57,7 +57,7 @@ Teams 관리자는 앱 스토어에서 Teams 학습 앱(비공개 미리 보기)
 
    ![상태 및 앱 설정 섹션을 표시하는 Teams 관리 센터의 학습 페이지](media/learning-app-teams-learning-page.png)
 
-4. 앱 **설정을 관리한**  후 사용 권한 및 설정 정책으로 이동하여 비공개 미리 보기에 참여하는 조직의 일부로 앱에 액세스할 수 있는 직원에게 권한을 부여합니다.
+4. 앱 **설정을 관리한**  후 사용 권한 및 설정 정책으로 이동하여 개인 미리 보기에 대한 조직의 참여의 일부로 앱에 액세스할 수 있는 직원에게 권한을 부여합니다.
 
 > [!NOTE]
 >  조직이 Teams TAP100 프로그램의 일부로 링 4.0에 있는 경우 링 3.0의 승인된 사용자가 Teams 학습 앱(비공개 미리 보기)에 액세스할 수 있도록 다음을 해야 할 수 있습니다.
@@ -93,7 +93,7 @@ Microsoft 365 관리 센터의 관리자는 Teams 학습 앱(비공개 미리 �
 - Microsoft 365 교육
 
 > [!NOTE]
-> 조직에 LinkedIn Learning 표준 또는 Pro 구독이 있는 경우 조직의 직원에 대한 콘텐츠 리포지토리의 잠금이 해제됩니다. 권한이 있는 직원만 전체 콘텐츠 리포지토리를 사용할 수 있습니다.
+> 조직에 LinkedIn Learning 표준 또는 Pro 구독이 있는 경우 조직의 직원에 대한 콘텐츠 리포지토리가 잠금 해제됩니다. 권한이 있는 직원만 전체 콘텐츠 리포지토리를 사용할 수 있습니다.
 
 다른 원본을 사용하도록 설정하거나 수동으로 구성해야 할 수 있습니다. Microsoft가 아닌 학습 원본은 조직과 타사 간에 별도로 사용이 허가됩니다. 사용자 및 사용자를 위해 학습에 등록한지 확인해야 합니다.
 
@@ -136,7 +136,7 @@ Learning Service는 제공된 폴더 URL을 사용하여 해당 폴더에 저장
  
 5. 학습 앱 **콘텐츠 리포지토리** 페이지에서 학습 콘텐츠 폴더에 대한 URL로 SharePoint 목록을 채우습니다.
 
-   1.   새로 **고치기 선택을** 선택하여 새 항목 **패널을** 볼 수 있습니다. 
+   1.   새로 **보기를** 선택하여 새 항목 **패널을** 볼 수 있습니다. 
 
    ![새 옵션을 표시하는 SharePoint의 앱 콘텐츠 리포지토리 학습 페이지](media/learning-app-content-repository-new.png)
  

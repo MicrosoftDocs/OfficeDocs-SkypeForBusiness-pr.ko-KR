@@ -25,7 +25,7 @@ ms.locfileid: "49918734"
 ---
 # <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso 사례 연구: 자동 전화 회의 및 통화 큐
 
-Contoso는 자동 전화 회의 및 비즈니스용 Skype 배포에서 대기열에 익숙했습니다. 클라우드 자동 전화 회의 및 통화 큐를 설정하는 방법을 이해하기 위해 Teams 자동 전화 회의 및 통화 큐에 대한 계획을 [검토했습니다.](plan-auto-attendant-call-queue.md)
+Contoso는 자동 전화 회의 및 비즈니스용 Skype 배포의 통화 큐에 익숙했습니다. 클라우드 자동 전화 회의 및 통화 큐를 설정하는 방법을 이해하기 위해 Teams 자동 전화 회의 및 통화 큐에 대한 계획을 [검토했습니다.](plan-auto-attendant-call-queue.md)
 
 ## <a name="requirements-depending-on-site-type"></a>사이트 유형에 따라 요구 사항
 
@@ -37,7 +37,7 @@ Contoso는 자동 전화 회의 및 비즈니스용 Skype 배포에서 대기열
 
 - 사이트 유형 B: 비즈니스용 Skype Enterprise Voice 
 
-  사이트 유형 B에는 Teams로 마이그레이션해야 하는 기존 자동 전화 회의 및 통화 큐가 있습니다. Contoso는 자동 전화 번호와 연결된 전화 번호를 유지해야 합니다. Contoso는 이러한 사이트 대부분을 통화 요금제가 있는 전화 시스템으로 이동했습니다. 그러나 통화 계획을 사용할 수 없는 몇 가지 위치에서 Contoso는 이러한 사이트를 직접 라우팅 구성으로 이동했습니다.  
+  사이트 유형 B에는 Teams로 마이그레이션해야 하는 기존 자동 전화 회의 및 통화 큐가 있습니다. Contoso는 자동 전화 번호와 연결된 전화 번호를 유지해야 합니다. Contoso는 대부분의 사이트를 통화 요금제가 있는 전화 시스템으로 이동했습니다. 그러나 통화 계획을 사용할 수 없는 몇 가지 위치에서 Contoso는 이러한 사이트를 직접 라우팅 구성으로 이동했습니다.  
 
 - 사이트 유형 C: 비즈니스용 Skype Enterprise Voice & 레거시 전화 통신 시스템 
 
@@ -66,7 +66,7 @@ Contoso는 자동 전화 회의 및 비즈니스용 Skype 배포에서 대기열
 
 2. 리소스 계정 또는 전화 시스템 라이선스와 함께 사용할 무료 전화 시스템 - 가상 사용자 라이선스 또는 유료 전화 시스템 라이선스를 얻습니다.
 
-3. 리소스 계정을 만들 수 있습니다. 연결된 리소스 계정이 있는 경우 자동 전화 연결 또는 통화 큐가 필요합니다. 
+3. 리소스 계정을 생성합니다. 연결된 리소스 계정이 있는 경우 자동 전화 연결 또는 통화 큐가 필요합니다. 
 
 4. 전화 시스템 또는 전화 시스템 - 가상 사용자 라이선스를 리소스 계정에 할당합니다. 자세한 내용은 [Microsoft 365 Phone System – 가상 사용자 라이선스를 참조하세요.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user)
 
@@ -83,9 +83,9 @@ Contoso는 로컬 통신 사업자에서 제공하는 전화 번호를 Office 36
 
 - Contoso는 직접 라우팅을 통해 사용할 수 있는 전화 번호를 설정하기 위해 리소스 계정 관리에 있는 지침을 [따릅니다.](manage-resource-accounts.md) Office 365는 Office 365에서 프레미스 전화 번호를 인식하지 못하기 때문에 Contoso는 PowerShell을 사용하여 설정을 완료했습니다.   
 
-- Contoso는 클라우드 자동 연결 기능을 구성하기 위해 클라우드 자동 연결 설정에 [설명된 단계를 수행했습니다.](create-a-phone-system-auto-attendant.md) 
+- Contoso는 클라우드 자동 연결 기능을 구성하기 위해 클라우드 자동 연결 설정에 설명된 [단계를 수행했습니다.](create-a-phone-system-auto-attendant.md) 
 
-- Contoso는 클라우드 호출 큐를 설정하기 위해 클라우드 호출 큐 만들기에 [설명된 단계를 수행했습니다.](create-a-phone-system-call-queue.md)  
+- 클라우드 호출 큐를 설정하기 위해 Contoso는 클라우드 호출 큐 만들기에 설명된 [단계를 수행했습니다.](create-a-phone-system-call-queue.md)  
 
 
 ### <a name="sites-with-phone-system-with-calling-plan"></a>통화 요금제가 있는 전화 시스템이 있는 사이트
@@ -94,8 +94,8 @@ Contoso는 Office 365 전화 시스템으로 자동 전화 Enterprise Voice 비�
 
 - Contoso는 전화 번호를 포식하기 위해 [](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) Teams로 전화 번호 이전의 지침을 따르고 조직의 전화 번호 관리에서 추가 지침을 [얻습니다.](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 
-- Contoso는 클라우드 자동 연결 기능을 구성하기 위해 클라우드 자동 연결 설정에 [설명된 단계를 수행했습니다.](create-a-phone-system-auto-attendant.md)
+- Contoso는 클라우드 자동 연결 기능을 구성하기 위해 클라우드 자동 연결 설정에 설명된 [단계를 수행했습니다.](create-a-phone-system-auto-attendant.md)
 
--  Contoso는 클라우드 호출 큐를 설정하기 위해 클라우드 호출 큐 만들기에 [설명된 단계를 수행했습니다.](create-a-phone-system-call-queue.md)  
+-  클라우드 호출 큐를 설정하기 위해 Contoso는 클라우드 호출 큐 만들기에 설명된 [단계를 수행했습니다.](create-a-phone-system-call-queue.md)  
 
  

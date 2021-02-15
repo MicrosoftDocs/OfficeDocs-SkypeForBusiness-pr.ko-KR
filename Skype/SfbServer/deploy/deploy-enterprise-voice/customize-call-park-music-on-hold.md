@@ -30,15 +30,15 @@ ms.locfileid: "49837078"
 비즈니스용 Skype 서버와 함께 제공된 기본 음악 파일 대신 보류된 음악에 사용할 음악 파일을 직접 지정할 수 있습니다. 대기 음악을 사용자 지정하려면 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet을 사용합니다.
   
 > [!NOTE]
-> 보류된 음악을 사용자 지정하고 여러 사이트에 대해 동일한 음악을 사용하려면 통화 파크 응용 프로그램을 실행하는 각 사이트에 대해 음악 파일을 구성해야 합니다. 
+> 보류된 음악을 사용자 지정하고 여러 사이트에 대해 동일한 음악을 사용하려면 통화 파크 응용 프로그램을 실행하고 있는 각 사이트에 대해 음악 파일을 구성해야 합니다. 
   
 ### <a name="to-customize-the-music-file"></a>음악 파일을 사용자 지정하려면
 
 1. 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 위임 설치 권한에 설명된 필요한 사용자 권한으로 설치된 컴퓨터에 로그온합니다. 
     
-2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
-3. 을 실행합니다.
+3. 실행:
     
    ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >

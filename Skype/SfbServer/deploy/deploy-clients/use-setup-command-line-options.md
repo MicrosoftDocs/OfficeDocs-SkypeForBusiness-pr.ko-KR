@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
-description: '요약: Office 설치 Setup.exe 명령줄 작업을 설명하는 방법을 제공합니다.'
+description: '요약: Office 설치 Setup.exe 명령줄 작업을 설명하는 방법을 설명하는 문서입니다.'
 ms.openlocfilehash: 042ba2bdea6228f7c8a726c0bdb2ca5c3233d5f4
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "49837208"
  
 **요약:** Office 설치 Setup.exe 명령줄 작업에 대해 자세히 알아보습니다.
   
-Setup.exe 명령줄이 사용되는 Office 설치 작업은 매우 한정적입니다. 설치 명령줄 옵션을 사용하는 대신 일반적으로 제품 설정 및 기능 사용자 지정에 Office 사용자 지정 도구와 Config.xml 파일을 사용합니다.
+Setup.exe 명령줄이 사용되는 Office 설치 작업은 매우 한정적입니다. 설치 명령줄 옵션을 사용하는 대신 일반적으로 Office 사용자 지정 도구 및 Config.xml 사용자 지정을 위해 office 사용자 지정 도구 및 Config.xml 파일을 사용합니다.
   
 다음 표에는 Office Setup.exe 명령줄에서 인식하는 명령줄 옵션이 나와 있습니다.
   

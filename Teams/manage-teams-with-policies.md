@@ -26,7 +26,7 @@ ms.locfileid: "49848942"
 
 여기에 텍스트를 입력합니다.
 
-## <a name="what-you-use-policies-for"></a>다음에 대해 정책을 사용하는 경우
+## <a name="what-you-use-policies-for"></a>정책을 사용하는 경우
 
 여기에 텍스트를 입력합니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "49848942"
 
 정책 유형 | 설명
 ------------|------------
-[정책 패키지](https://docs.microsoft.com/microsoftteams/manage-policy-packages) | Microsoft Teams의 정책 패키지는 조직에서 비슷한 역할이 있는 사용자에게 할당할 수 있는 미리 정의된 정책 및 설정 모음입니다.
+[정책 패키지](https://docs.microsoft.com/microsoftteams/manage-policy-packages) | Microsoft Teams의 정책 패키지는 조직에서 비슷한 역할이 있는 사용자에게 할당할 수 있는 미리 정의된 정책 및 설정의 컬렉션입니다.
 모임 정책 | 모임 정책은 조직의 사용자가 예약한 모임에 대해 모임 참가자가 사용할 수 있는 기능을 제어하는 데 사용됩니다.
 음성 및 통화 정책 | 여기에 설명
 앱 정책 | 여기에 설명

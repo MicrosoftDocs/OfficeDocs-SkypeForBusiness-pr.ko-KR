@@ -47,11 +47,11 @@ StaffHub는 2020년 6월 30일 모든 사용자에 대한 작업을 중지했습
 
 2019년 1월에 Teams는 이전에 Microsoft StaffHub에서 사용할 수 있는 Shifts를 제공하기 시작했습니다. 이 기능을 사용하면 관리자가 교대 근무 일정을 계획하고 배포할 수 있으며, 팀 구성원은 자신의 일정을 검토하고 모바일 장치에서 일정 변경 요청을 할 수 있습니다. 자세한 내용은 [Teams에서 조직의 Shifts 앱 관리를 참조하세요.](manage-the-shifts-app-for-your-organization-in-teams.md)
 
-우리는 우수한 사용자 환경을 제공하고 StaffHub의 고유한 기능을 Teams에 제공하기 위해 최선을 다하고 있습니다.
+우수한 사용자 환경을 제공하고 StaffHub의 고유한 기능을 Teams에 제공하기 위해 최선을 다하고 있습니다.
 
 #### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>조직의 사용자가 Teams의 Shifts에서 StaffHub 팀에 액세스할 수 없는 이유는 무엇입니까?
 
-Teams의 Shifts에서 StaffHub 팀에 액세스하기 위해 StaffHub 팀이 사용 중지된 2020년 6월 30일 전에 StaffHub 팀을 Teams로 이동해야 합니다.
+Teams의 Shifts에서 StaffHub 팀에 액세스하기 위해 StaffHub가 사용 중지된 2020년 6월 30일 전에 StaffHub 팀을 Teams로 이동해야 합니다.
 
 #### <a name="what-happens-if-i-didnt-move-a-staffhub-team-to-shifts-in-teams"></a>Teams에서 StaffHub 팀을 Shifts로 이동하지 않은 경우 어떻게 하나요?
 
@@ -63,7 +63,7 @@ Teams로 이동하지 않은 Office 365 그룹에 연결된 StaffHub 팀이 있�
 
 #### <a name="what-is-shifts"></a>Shifts란?
 
-Teams의 Shifts 앱은 일선 작업자를 연결하고 동기화하는 일정 관리 도구입니다. 관리자는 팀의 교대 근무 일정을 만들고, 업데이트하고, 관리할 수 있으며, 팀 구성원은 자신의 일정을 보고, 그 날에 예약된 사람, 교대 근무 바꾸기 또는 제안을 요청하고, 모든 모바일 장치에서 근무 시간을 요청할 수 있습니다.  
+Teams의 Shifts 앱은 일선 작업자를 연결하고 동기화하는 일정 관리 도구입니다. 관리자는 팀의 교대 근무 일정을 만들고, 업데이트하고, 관리할 수 있으며, 팀 구성원은 자신의 일정을 보고, 그 날에 예약된 다른 사람, 교대 근무 바꾸기 또는 제안을 요청하고, 모든 모바일 장치에서 근무 시간을 요청할 수 있습니다.  
 
 #### <a name="which-plans-is-shifts-available-in"></a>Shifts를 사용할 수 있는 요금제는 무엇입니까?
 
@@ -79,9 +79,9 @@ Shifts는 Teams 웹 클라이언트, Teams 데스크톱 클라이언트 및 Team
  
 #### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Shifts 데스크톱과 웹앱과 모바일(iOS 및 Android) 앱 간에 차이점이 있나요?
 
-관리자의 경우 데스크톱 및 웹앱은 팀을 만들고, 구성원을 추가하고, 일정을 작성 및 게시하고, 팀과 콘텐츠를 공유하도록 최적화되어 있습니다. 관리자는 일반적으로 모바일 앱을 사용하여 요청을 승인하고, 팀에 빠른 메시지를 보내고, 팀 구성원에게 전화를 걸고, 이동 중 공동 작업을 합니다. 
+관리자의 경우 데스크톱 및 웹앱은 팀을 만들고, 구성원을 추가하고, 일정을 작성 및 게시하고, 팀과 콘텐츠를 공유하도록 최적화됩니다. 관리자는 일반적으로 모바일 앱을 사용하여 요청을 승인하고, 팀에 빠른 메시지를 보내고, 팀 구성원에게 전화를 걸고, 이동 중 공동 작업을 합니다. 
 
-팀 구성원의 경우 모바일 앱은 일정을 보고, 누구와 함께 작업하고 있는지 확인, 출근 시간 설정, 가용성 설정, 작업 시간 요청, 교대 근무 바꾸기 또는 제안, 교대 근무 열기에 최적화되어 있습니다. 데스크톱 및 웹앱과 모바일 앱에서 사용자가 할 수 있는 일에는 차이가 있습니다. 기능 패리티를 위해 작업 중입니다.
+팀 구성원의 경우 모바일 앱은 자신의 일정을 보고, 누구와 함께 일하고 있는지, 출근 및 출근하고, 가용성을 설정하고, 시간을 요청하고, 교대 근무를 바꾸거나 제안하고, 교대 근무를 여는 데 최적화되어 있습니다. 데스크톱 및 웹앱과 모바일 앱에서 사용자가 할 수 있는 일에는 차이가 있습니다. 기능 패리티를 위해 작업 중입니다.
 
 #### <a name="are-there-differences-between-the-shifts-ios-app-and-the-android-app"></a>Shifts iOS 앱과 Android 앱 간에 차이점이 있나요?
 
@@ -89,7 +89,7 @@ Shifts는 Teams 웹 클라이언트, Teams 데스크톱 클라이언트 및 Team
 
 #### <a name="what-browsers-does-shifts-work-on"></a>Shifts는 어떤 브라우저에서 작동하나요?
 
-Shifts는 최신 버전의 Microsoft Edge, Internet Explorer, Google Chrome 및 Mozilla Firefox를 포함하는 Teams에서 지원하는 모든 브라우저에서 작동합니다. 자세한 내용은 [Teams용 클라이언트를 참조하세요.](../../get-clients.md)
+Shifts는 최신 버전의 Microsoft Edge, Internet Explorer, Google Chrome 및 Mozilla Firefox를 포함하는 Teams에서 지원하는 모든 브라우저에서 작동합니다. 자세한 내용은 Teams에 대한 [클라이언트를 참조하세요.](../../get-clients.md)
 
 > [!Note]
 > Microsoft 365 앱 및 서비스는 2021년 8월 17일부터 Internet Explorer 11일을 지원하지 않습니다(Microsoft Teams는 2020년 11월 30일부터 Internet Explorer 11일을 지원하지 않습니다. [자세한 정보](https://aka.ms/AA97tsw)를 확인합니다. Internet Explorer 11은 지원되는 브라우저로 유지됩니다. Internet Explorer 11은 Windows 운영 체제의 구성 [](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) 요소로, 설치된 제품에 대한 수명 주기 정책을 따르고 있습니다. 
@@ -118,7 +118,7 @@ Shifts 데이터는 북아메리카 및 서유럽의 데이터 센터에 Azure�
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>조직에서 Teams를 사용하도록 설정하려면 어떻게 하나요?
 
-기본적으로 Teams는 모든 조직에 대해 활성화됩니다. Teams에 대한 개별 액세스를 제어하기 위해 사용자에게 Teams 라이선스를 할당합니다. 자세한 내용은 조직에서 [Teams를](../../Office-365-set-up.md) 사용하도록 설정하고 Teams에 대한 사용자 [액세스 관리를 참조하세요.](../../user-access.md)
+기본적으로 Teams는 모든 조직에서 사용하도록 설정됩니다. Teams에 대한 개별 액세스를 제어하기 위해 사용자에게 Teams 라이선스를 할당합니다. 자세한 내용은 조직에서 [Teams를](../../Office-365-set-up.md) 사용하도록 설정하고 Teams에 대한 사용자 [액세스 관리를 참조하세요.](../../user-access.md)
 
 #### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>현재 조직에서 비즈니스용 Skype를 사용하도록 설정했지만 Teams는 지원하지 않는 경우 어떻게 하나요?
 
@@ -148,7 +148,7 @@ Shifts 데스크톱 및 웹 앱에서 교대 근무 일정 정보를 Excel 파�
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>조직의 사용자가 Shifts를 사용할 수 있는지 여부를 관리하는 데 사용할 수 있는 관리 컨트롤은 무엇입니까?  
   
-조직의 모든 사용자에 대해 Shifts 조직 전체를 설정하거나 해제할 수 있습니다. Microsoft Teams 관리 센터에서 Frontline Worker 앱 설정 정책을 사용하여 프런트라인 Workforce용 Teams를 사용자 지정할 수도 있습니다. 정책은 활동, Shifts, 채팅 및 호출 앱으로 구성됩니다. 정책을 할당하면 사용자가 쉽고 빠르게 액세스할 수 있도록 Teams의 앱 바에 이러한 앱이 고정됩니다. 
+조직의 모든 사용자에 대해 Shifts 조직 전체를 설정하거나 해제할 수 있습니다. Microsoft Teams 관리 센터에서 Frontline Worker 앱 설정 정책을 사용하여 프런트라인 Workforce에 대한 Teams를 사용자 지정할 수도 있습니다. 정책은 활동, Shifts, 채팅 및 호출 앱으로 구성됩니다. 정책을 할당하면 사용자가 쉽고 빠르게 액세스할 수 있도록 Teams의 앱 바에 이러한 앱이 고정됩니다. 
 
 자세한 내용은 [Teams에서 조직의 Shifts 앱 관리를 참조하세요.](manage-the-shifts-app-for-your-organization-in-teams.md)
 

@@ -79,7 +79,7 @@ Microsoft Phone System 직접 라우팅을 사용하면 지원되는 고객이 �
 |사용자 등록 기관|사용자는 Microsoft 365 또는 Office 365에 있어야 합니다.<br/>회사에 Microsoft 365 또는 Office 365에 하이브리드 연결이 있는 온-프레미스 비즈니스용 Skype 또는 Lync 환경이 있는 경우 온-프레미스에 있는 사용자에 대해 Teams에서 음성을 사용하도록 설정할 수 없습니다.<br/><br/>사용자의 등록 기관을 확인한 후 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용하세요.<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>cmdlet의 출력은 다음을 표시해야 합니다.<br/><code>HostingProvider : sipfed.online.lync.com</code>|
 |도메인|Microsoft 365 또는 Office 365 조직에 하나 이상의 도메인이 추가되었습니다.<br/><br/>테넌트에 대해 자동으로 생성되는 \* 기본 도메인인 .onmicrosoft.com 사용할 수 없습니다.<br/><br/>도메인을 확인하려면 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용할 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Microsoft 365 또는 Office 365 조직에 대한 자세한 내용은 [도메인 FAQ를 참조하세요.](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)|
 |SBC에 대한 공용 IP 주소|SBC에 연결하는 데 사용할 수 있는 공용 IP 주소입니다. SBC 유형에 따라 SBC는 NAT를 사용할 수 있습니다.|
-|SBC에 대한 FQDN(Fully Qualified Domain Name)|SBC용 FQDN입니다. 여기서 FQDN의 도메인 부분은 Microsoft 365 또는 Office 365 조직의 등록된 도메인 중 하나입니다. 자세한 내용은 SBC 도메인 [이름을 참조하세요.](#sbc-domain-names)|
+|SBC에 대한 FQDN(Fully Qualified Domain Name)|SBC용 FQDN입니다. 여기서 FQDN의 도메인 부분은 Microsoft 365 또는 Office 365 조직의 등록된 도메인 중 하나입니다. 자세한 내용은 [SBC 도메인 이름을 참조하세요.](#sbc-domain-names)|
 |SBC에 대한 공용 DNS 항목 |SBC FQDN을 공용 IP 주소에 매핑하는 공용 DNS 항목입니다. |
 |SBC에 대한 공용 신뢰할 수 있는 인증서 |직접 라우팅과의 모든 통신에 사용할 SBC에 대한 인증서입니다. 자세한 내용은 [SBC에 대한 공용 신뢰할 수 있는 인증서를 참조하세요.](#public-trusted-certificate-for-the-sbc)|
 |직접 라우팅에 대한 연결점 |직접 라우팅에 대한 연결점은 다음 세 가지 FQDNS입니다.<br/><br/>`sip.pstnhub.microsoft.com` – 전역 FQDN을 먼저 시도해야 합니다.<br/>`sip2.pstnhub.microsoft.com` – 보조 FQDN은 지리적으로 두 번째 우선 순위 지역에 매핑됩니다.<br/>`sip3.pstnhub.microsoft.com` – 3차 FQDN은 지리적으로 세 번째 우선 순위 지역에 매핑됩니다.<br/><br/>구성 요구 사항에 대한 자세한 내용은 [SIP 신호: FQDNs를 참조하세요.](#sip-signaling-fqdns)|
@@ -94,10 +94,10 @@ Microsoft Teams 미디어에 대한 방화벽 IP 주소 및 포트 |자세한 �
 
 - Microsoft Phone System. 
 - 라이선스에 포함된 경우 Microsoft Teams + 비즈니스용 Skype 계획 2.
-- Microsoft 오디오 회의(라이선스가 필요한 경우의 특정 예제는 아래 참고 사항 및 단락을 읽어 보세요.)
+- Microsoft 오디오 회의(라이선스가 필요한 경우의 특정 예제는 아래 노트 및 단락을 읽어 보세요.)
 
 > [!NOTE]
-> 비즈니스용 Skype 요금제는 포함된 라이선스 계약에서 제거되지 말아야 합니다. 
+> 비즈니스용 Skype 요금제는 포함된 사용권 계약에서 제거되지 말아야 합니다. 
 
 
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ Microsoft Teams 미디어에 대한 방화벽 IP 주소 및 포트 |자세한 �
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>전화 에스컬링 및 오디오 회의 라이선스
 
-Teams 사용자는 일대일 Teams에서 PSTN으로 시작하거나 Teams에서 Teams로 통화를 시작하고 PSTN 참가자를 추가할 수 있습니다. 이 시나리오를 애드워크 회의라고 합니다. 호출이 걸리는 경로는 통화를 에스컬링하는 사용자에게 Microsoft 오디오 회의 라이선스가 할당되어 있는지 여부에 따라 결정됩니다.
+Teams 사용자는 일대일 Teams에서 PSTN으로 또는 Teams에서 Teams로 통화를 시작하고 PSTN 참가자를 추가할 수 있습니다. 이 시나리오를 애드워크 회의라고 합니다. 호출이 걸리는 경로는 통화를 에스컬링하는 사용자에게 Microsoft 오디오 회의 라이선스가 할당되어 있는지 여부에 따라 결정됩니다.
 
 - 통화를 에스컬링하는 Teams 사용자에게 Microsoft 오디오 회의 라이선스가 할당된 경우 에스컬링은 Microsoft 오디오 회의 서비스를 통해 발생합니다. 기존 통화에 초대된 원격 PSTN 참가자는 수신 전화에 대한 알림을 받고 에스컬레이터를 시작한 Teams 사용자에게 할당된 Microsoft 브리지 수를 볼 수 있습니다.
 - 통화를 에스컬링하는 Teams 사용자에게 Microsoft 오디오 회의 라이선스가 할당되지 않은 경우 에스컬링은 직접 라우팅 인터페이스에 연결된 세션 테두리 컨트롤러를 통해 발생합니다. 통화에 초대된 원격 PSTN 참가자는 수신 전화에 대한 알림을 받고 에스컬레이터를 시작한 Teams 사용자의 수를 볼 수 있습니다. 에스컬링에 사용되는 특정 SBC는 사용자의 라우팅 정책에 의해 정의됩니다. 
@@ -131,7 +131,7 @@ Teams 사용자는 일대일 Teams에서 PSTN으로 시작하거나 Teams에서 
 
 - 모든 Teams 클라이언트. 
 - 공용 영역 전화기. Microsoft Teams에 대한 공용 영역 전화 [라이선스 설정을 참조합니다.](https://docs.microsoft.com/microsoftteams/set-up-common-area-phones) 직접 라우팅을 사용하여 공용 영역 전화 설정을 할 때 통화 요금제 라이선스가 필요하지 않습니다.
-- 비즈니스용 Skype 3PIP 휴대폰. Microsoft Teams를 통해 [비즈니스용 Skype 3PIP(전화기) 지원 참조](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+- 비즈니스용 Skype 3PIP 휴대폰. Microsoft Teams를 통해 [비즈니스용 Skype 전화(3PIP) 지원 참조](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
 ## <a name="sbc-domain-names"></a>SBC 도메인 이름
@@ -145,10 +145,10 @@ SBC 도메인 이름은 테넌트의 도메인에 등록된 이름 중 하나에
 contoso.com|예|**유효한 이름:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|아니요|*.onmicrosoft.com 도메인은 SBC 이름에 지원되지 않습니다.
 
-새 도메인 이름을 사용하려는 경우를 가정합니다. 예를 들어 테넌트에 contoso.com 도메인 이름으로 등록되어 있으며 테넌트에 도메인 이름을 sbc1.sip.contoso.com. SBC를 이름과 페어링하려면 sbc1.sip.contoso.com 도메인 이름을 테넌트의 도메인에 sip.contoso.com 등록해야 합니다. 도메인 이름을 등록하기 sbc1.sip.contoso.com SBC와 페어링을 시도하면 "이 테넌트에 대해 구성되지 않은 "sbc1.sip.contoso.com" 도메인을 사용할 수 없습니다."라는 오류가 표시됩니다.
+새 도메인 이름을 사용하려는 경우를 가정합니다. 예를 들어 테넌트에 contoso.com 도메인 이름으로 등록된 도메인 이름으로 지정되어 있으며 테넌트에 sbc1.sip.contoso.com. SBC를 이름과 페어링하려면 sbc1.sip.contoso.com 도메인 이름을 테넌트의 도메인에 sip.contoso.com 등록해야 합니다. 도메인 이름을 등록하기 sbc1.sip.contoso.com SBC와 페어링을 시도하면 "이 테넌트에 대해 구성되지 않은 "sbc1.sip.contoso.com" 도메인을 사용할 수 없습니다."라는 오류가 표시됩니다.
 도메인 이름을 추가한 후에 UPN 계정으로 사용자를 만들고 Teams 라이선스를 user@sip.contoso.com 합니다. 도메인 이름이 테넌트의 도메인에 추가된 후 도메인 이름을 완전히 프로비전하고, 새 이름이 있는 사용자가 만들어지며, 라이선스가 사용자에게 할당된 후 최대 24시간이 걸릴 수 있습니다. 
 
-회사에 하나의 테넌트에 여러 개의 SIP 주소 공간이 있을 수 있습니다. 예를 들어 회사에서 SIP 주소 contoso.com 두 번째 SIP 주소 공간으로 fabrikam.com 수 있습니다. 일부 사용자는 주소 user@contoso.com 일부 사용자는 주소가 user@fabrikam.com. 
+회사에 하나의 테넌트에 여러 개의 SIP 주소 공간이 있을 수 있습니다. 예를 들어 회사에서 SIP 주소 contoso.com 두 번째 SIP 주소 공간으로 fabrikam.com 수 있습니다. 일부 사용자는 주소가 user@contoso.com 주소가 있는 user@fabrikam.com. 
 
 SBC에는 하나의 FQDN만 필요하며 페어링된 테넌트의 주소 공간에서 사용자를 서비스할 수 있습니다. 예를 들어 이름이 sbc1.contoso.com SBC는 동일한 테넌트에 등록된 경우 주소가 user@contoso.com user@fabrikam.com 사용자에 대한 PSTN 트래픽을 수신하고 보낼 수 있습니다.  
 
@@ -222,7 +222,7 @@ GCC, GCC High 및 DoD와 같은 [Office 365](https://docs.microsoft.com/office36
 - 최적의 환경을 제공합니다(로드가 적고 첫 번째 FQDN을 쿼리하여 할당된 SBC 데이터 센터에 가장 가깝습니다).
 - SBC에서 일시적인 문제가 발생하는 데이터 센터에 연결될 때 장애 조치(failover)를 제공합니다. 자세한 내용은 아래 [장애 조치 메커니즘을 참조하세요.](#failover-mechanism-for-sip-signaling)  
 
-FQDNs(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com)는 다음 IP 주소 중 하나에 확인됩니다.
+FQDNs(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.microsoft.com)는 다음 IP 주소 중 하나로 확인됩니다.
 
 - 52.114.148.0
 - 52.114.132.46 
@@ -242,7 +242,7 @@ FQDNs(sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.mic
 
 직접 라우팅에 대한 연결점은 다음과 같은 FQDN입니다.
 
-**sip.pstnhub.dod.teams.microsoft.us** - 글로벌 FQDN입니다. Office 365 DoD 환경은 미국 데이터 센터에만 존재하기에 보조 및 3차 FQDNS는 없습니다.
+**sip.pstnhub.dod.teams.microsoft.us** – 글로벌 FQDN입니다. Office 365 DoD 환경은 미국 데이터 센터에만 존재하기에 보조 및 3차 FQDNS는 없습니다.
 
 FQDN sip.pstnhub.dod.teams.microsoft.us 다음 IP 주소 중 하나로 확인됩니다.
 
@@ -255,7 +255,7 @@ FQDN sip.pstnhub.dod.teams.microsoft.us 다음 IP 주소 중 하나로 확인됩
 
 직접 라우팅에 대한 연결점은 다음과 같은 FQDN입니다.
 
-**sip.pstnhub.gov.teams.microsoft.us** - 글로벌 FQDN입니다. GCC High 환경은 미국 데이터 센터에만 존재하기에 보조 및 3차 FQDNS가 없습니다.
+**sip.pstnhub.gov.teams.microsoft.us** – 글로벌 FQDN입니다. GCC High 환경은 미국 데이터 센터에만 존재하기에 보조 및 3차 FQDNS가 없습니다.
 
 FQDN sip.pstnhub.gov.teams.microsoft.us 다음 IP 주소 중 하나로 확인됩니다.
 
@@ -353,7 +353,7 @@ SIP 프록시 및 미디어 프로세서 구성 요소가 배포된 위치:
 제안에서 바람직하지 않은 코덱을 제외하여 세션 테두리 컨트롤러에서 특정 코덱을 강제로 사용할 수 있습니다.
 
 ### <a name="leg-between-microsoft-teams-client-and-cloud-media-processor"></a>Microsoft Teams 클라이언트와 클라우드 미디어 프로세서 간 레그
-미디어가 아닌 우회 사례에만 적용됩니다. 미디어 우회를 통해 미디어는 Teams 클라이언트와 SBC 간에 직접 흐르게 됩니다.
+비미디어 우회 사례에만 적용됩니다. 미디어 우회를 통해 미디어는 Teams 클라이언트와 SBC 간에 직접 흐르게 됩니다.
 
 클라우드 미디어 프로세서와 Microsoft Teams 클라이언트 사이에 SILK 또는 G.722가 사용됩니다. 이 레그의 코덱 선택은 여러 매개 변수를 고려하는 Microsoft 알고리즘을 기반으로 합니다. 
 

@@ -24,14 +24,14 @@ ms.locfileid: "49909482"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>먼저 Microsoft Teams 출시
 
-Microsoft Teams는 직원들이 서로 연결되고 공동 작업할 수 있도록 지원할 수 있습니다. 특히 전 세계 직원의 원격 작업 현실인 현재 전례 없는 시간에서 더욱 그에 대한 공동 작업을 할 수 있습니다. Teams 내에서 Office 문서에 대해 채팅하고, 비디오 모임을 진행하고, 공동 작업할 수 있는 기능을 통해 회사 생산성을 유지하세요. 중소기업, 비영리 또는 대규모 조직이든, 다른 Office 앱 또는 서비스를 배포하기 전에 Microsoft 365 또는 Office 365 제품군 내에서 첫 번째 워크로드로 Teams를 시작할 수 있습니다.
+Microsoft Teams는 직원들이 서로 연결되고 공동 작업할 수 있도록 지원할 수 있습니다. 특히 원격 업무가 전 세계 직원의 현실인 현재 전례 없는 시간에서 공동 작업할 수 있습니다. Teams 내에서 채팅하고, 비디오 모임을 진행하고, Office 문서에 대해 공동 작업할 수 있게 하여 회사 생산성을 유지하세요. 중소기업, 비영리 또는 대규모 조직이든, 다른 Office 앱 또는 서비스를 배포하기 전에 Microsoft 365 또는 Office 365 제품군 내에서 첫 번째 워크로드로 Teams를 시작할 수 있습니다.
 
 이 문서에서는 "Teams First" 접근 방식을 통해 해야 하는 고려 사항을 자세히 설명하고 있습니다.
 
 > [!IMPORTANT]
 > Teams는 조직의 첫 번째 클라우드 배포 워크로드가 될 수 있는 반면 Teams 배포는 전체 클라우드 배포 전략의 일부가 됐습니다.
 
-다른 Microsoft 365 또는 Office 365 서비스를 이미 롤아웃한 경우 Teams가 다음 워크로드인 경우(첫 번째 대신) Teams를 롤아웃하는 방법을 [시작하세요.](How-to-roll-out-teams.md)
+다른 Microsoft 365 또는 Office 365 서비스를 이미 롤아웃한 경우 Teams가 첫 번째 대신 롤아웃할 다음 워크로드인 경우 Teams를 롤아웃하는 방법을 [시작하세요.](How-to-roll-out-teams.md)
 
 ## <a name="start-here"></a>여기에서 시작
 
@@ -62,7 +62,7 @@ Teams First 배포를 시작하려면 최소한 몇 가지 요구 사항을 충�
 
 **테넌트 Teams 구성:** 테넌트 및 사용자 모드는 받는 사람의 동작을 제어하는 데 사용됩니다. 이러한 설정은 테넌트 수준 또는 조직의 사용자 수준에서 할당할 수 있습니다. 자세한 내용은 비즈니스용 [Skype와의 공존을 읽어보아야 합니다.](coexistence-chat-calls-presence.md)
 
-**Teams의 채팅/외부 통신: 채팅** 서비스는 피어 투 피어 또는 그룹 채팅 대화를 조직 내부 및 조직 내부 또는 외부에서 참조합니다. 외부 통신을 비즈니스용 Skype의 페더러리라고도 합니다.
+**Teams의 채팅/외부 통신: 채팅** 서비스는 피어 투 피어 또는 그룹 채팅 대화를 조직 내부 및 조직 내부 또는 외부에서 참조합니다. 외부 통신을 비즈니스용 Skype에서 페더러리라고도 합니다.
 
 **Teams에서** 모임 만들기 및 보기: 사용자는 항상 Outlook Teams 추가 기능을 통해 온라인 모임을 만들 수 있으며, 사용자가 라이선스가 부여된 후 모든 시나리오에서 PSTN 전화 접속을 사용할 수 있습니다. Teams 및 비즈니스용 Skype는 사용자의 Exchange 사서함에 일정 정보를 저장합니다. Teams 클라이언트가 사용자의 사서함과 상호 작용할 수 있도록 Exchange Server 2016 CU3 이상을 위한 프레미스 Exchange 서버가 있어야 합니다. Exchange 사서함에 액세스하지 않으면 Teams의 일정 아이콘이 나타나지 않고 사용자가 Teams 클라이언트에서 모임을 보거나 만들거나 수정할 수 없습니다.
 
@@ -71,7 +71,7 @@ Teams First 배포를 시작하려면 최소한 몇 가지 요구 사항을 충�
 Teams는 두 가지 유형의 PSTN 연결을 지원합니다. Microsoft 통화 요금제는 Microsoft에서 사용자의 전화 번호를 포함한 전화 통신 인프라 또는 직접 라우팅 구성을 제공하는 경우 고객이 Teams 사용자의 SBC(세션 테두리 컨트롤러)를 통해 전화 통신 연결을 제공합니다.  
 자세한 내용은 어떤 통화 [요금제가 적합한가요?](calling-plan-landing-page.md) 및 전화 시스템 직접 라우팅을 [읽어보세요.](direct-routing-landing-page.md)
 
-**Teams의 팀** 및 채널 공동 작업: Teams에서 팀은 작업, 프로젝트 또는 일반적인 관심사에 대해 함께 모인 사용자 그룹입니다. Teams는 채널로 이어지며, 각 채널은 "팀 이벤트", 부서 이름 또는 재미를 위해 주제를 중심으로 구축됩니다. 채널은 모임을 열고, 대화를 나누고, 파일을 함께 작업하는 위치입니다. 공동 작업 중
+**Teams의 팀** 및 채널 공동 작업: Teams에서 팀은 작업, 프로젝트 또는 일반적인 관심사에 대해 함께 모인 사용자 그룹입니다. 팀은 채널로만 이월됩니다. 각 채널은 "팀 이벤트", 부서 이름 또는 재미를 위해 주제를 중심으로 구축됩니다. 채널은 모임을 열고, 대화를 나누고, 파일을 함께 작업하는 위치입니다. 공동 작업 중
 
 **Teams의 비즈니스용 OneDrive(P2P** 파일 공유) : Teams 및 채널 외부에서 Teams 사용자는 비즈니스용 OneDrive 또는 Citrix Files, DropBox, Box 및 Google Drive와 같은 다른 P2P 공유 파일 프로그램을 사용하여 파일 피어 투 피어를 공유할 수 있습니다. 비즈니스용 OneDrive의 경우 사용자에게 SharePoint Online 라이선스가 할당되어 있어야 합니다.
 
@@ -113,7 +113,7 @@ Teams는 두 가지 유형의 PSTN 연결을 지원합니다. Microsoft 통화 �
 <td><p>Outlook 추가 기능을 통해 내부 및 외부 모임을 만들 수 있습니다.</p>
 <p>오디오 회의 라이선스에서 PSTN 다이얼 인 및 전화 걸기 기능을 사용할 수 있습니다.</p>
 <p>Teams 일정 액세스에는 Exchange 하이브리드를 사용하여 배포된 Exchange 2016 CU3+ On-프레미스가 <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">필요합니다. 하이브리드</a> 구성 마법사를 사용하여 하이브리드 배포 만들기 </p>
-<p>Exchange 하이브리드 구성 외에도 Exchange OAuth 인증을 설정: Exchange 및 Exchange Online 조직 간에 <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> OAuth 인증 구성"을 수립합니다.</p>
+<p>Exchange 하이브리드 구성 외에도 Exchange OAuth 인증을 설정: Exchange와 Exchange Online 조직 간에 <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> OAuth 인증 구성"을 수립합니다.</p>
 
 </p></td>
 </tr>
@@ -130,7 +130,7 @@ Teams의 VoIP/PSTN</td>
 </tr>
 <tr class="even">
 <td>비즈니스용 OneDrive(P2P 파일 공유)</td>
-<td>비즈니스용 OneDrive를 사용하려면 사용자가 SharePoint Online 라이선스를 할당해야 합니다. 이 라이선스가 없는 경우 피어 투 피어 파일 공유가 불가능합니다.</td>
+<td>비즈니스용 OneDrive를 사용하려면 사용자가 SharePoint Online 라이선스를 할당해야 합니다. 이 라이선스가 없는 경우 피어 투 피어 파일 공유는 불가능합니다.</td>
 </tr>
 <tr class="odd">
 <td>애플리케이션 플랫폼</td>
@@ -153,7 +153,7 @@ Teams의 VoIP/PSTN</td>
 
 1.  위의 시작 섹션에 자세히 설명된 전제 요건 충족
 
-2.  테넌트가 Teams 전용 모드로 전환(기존 테넌트에만 해당): 공존 및 업그레이드 설정 [설정.](setting-your-coexistence-and-upgrade-settings.md)
+2.  테넌트가 Teams 전용 모드로 전환(기존 테넌트에만 해당): 공존 및 업그레이드 설정 [설정](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  회사의 비즈니스/회사 정책에 따라 테넌트 구성: [조직의 Microsoft Teams](enable-features-office-365.md)설정 관리
 
@@ -184,7 +184,7 @@ Teams의 VoIP/PSTN</td>
 </tr>
 <tr class="even">
 <td>Teams의 채팅/외부 통신</td>
-<td>자체 테넌트 내에서만 내부적으로 외부 통신(페더맹)은 비즈니스용 Skype 또는 Lync 서버 배포를 통해 진행됩니다.</td>
+<td>자체 테넌트 내에서만 내부적으로 외부 통신(페더십)은 비즈니스용 Skype 또는 Lync 서버 배포를 통해 진행됩니다.</td>
 </tr>
 <tr class="odd">
 <td>Teams에서 모임 만들기 및 보기</td>
@@ -253,7 +253,7 @@ Teams의 VoIP/PSTN</td>
 
 ## <a name="closing-statement"></a>닫기 문
 
-Microsoft Teams는 조직에서 모든 직원, 정보 근로자 및 일선 직원을 단일 플랫폼으로 통합할 수 있도록 지원할 수 있습니다. 지금 시작할 [수](https://products.office.com/microsoft-teams/group-chat-software) 있습니다. 여기에서 최신 공지 및 월별 제품 업데이트를 계속 연락할 수 [있습니다.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)
+Microsoft Teams는 조직에서 모든 직원, 정보 근로자 및 일선 직원을 단일 플랫폼으로 모을 수 있도록 지원할 수 있습니다. 지금 시작할 [수](https://products.office.com/microsoft-teams/group-chat-software) 있습니다. 여기에서 최신 공지 및 월별 제품 업데이트를 계속 연락할 수 [있습니다.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)
 
 또한 전 세계 회사가 현재 COVID-19 상황을 관리하고 있는 동안 Teams를 조직에서 최대의 영향력으로 활용하는 데 도움이 되는 일련의 콘텐츠를 만들 수 있습니다.
 

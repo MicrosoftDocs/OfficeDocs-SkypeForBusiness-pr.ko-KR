@@ -24,6 +24,6 @@ ms.locfileid: "49836558"
 ---
 # <a name="hybrid-manageability-wizard"></a>하이브리드 관리성 마법사
 
-하이브리드 관리 가능성 마법사를 사용하여 비즈니스용 Skype Online을 사용하여 하이브리드 배포를 설정하는 데 필요한 일부 구성 작업을 수행할 수 있습니다. 하이브리드 배포를 구성하는 방법에 대한 자세한 내용은 하이브리드 관리 마법사를 사용하여 환경 [구성을 참조하십시오.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)
+하이브리드 관리 가능성 마법사를 사용하여 비즈니스용 Skype Online을 사용하여 하이브리드 배포를 설정하는 데 필요한 일부 구성 작업을 수행할 수 있습니다. 하이브리드 배포를 구성하는 방법에 대한 자세한 내용은 하이브리드 관리 마법사를 사용하여 환경 [구성을 참조하세요.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)
 
 

@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 물리적 위치 및 연결된 서브넷 목록이 포함된 텍스트 파일을 업로드하여 보고 레이블을 추가하고 업데이트하는 방법을 배워야 합니다.
+description: 물리적 위치 및 연결된 서브넷 목록이 포함된 텍스트 파일을 업로드하여 보고 레이블을 추가하고 업데이트하는 방법에 대해 배워야 합니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -37,11 +37,11 @@ ms.locfileid: "49918644"
 > [!IMPORTANT]
 > 업로드한 보고 레이블은 고객 데이터  또는 개인 데이터로 간주되는 정보를 포함하여 Office 365에 대한 계약에 따라 지원 데이터로 *처리됩니다.*  이 정보는 지원 목적으로 Microsoft 엔지니어에게 표시될 것이기 때문에 Microsoft에 지원 데이터로 제공하지 않을 데이터를 포함하지 않습니다.
 
-사용자가 제공하는 보고서 레이블 및 위치 데이터는 단일 데이터 구조입니다. 현재는 개별 데이터를 편집하는 데 사용할 수 있는 인터페이스가 없습니다.
+사용자가 제공하는 보고서 레이블 및 위치 데이터는 단일 데이터 구조입니다. 현재는 개별 데이터를 편집할 수 있는 인터페이스가 없습니다.
 
 **서브넷 및 위치 테이블을 편집하려면**
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **위치** 보고  >  **레이블을 클릭합니다.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **위치** 보고  >  **레이블을 클릭합니다.**
 2. 위치 **데이터 바꾸기 를 클릭합니다.**
 3. 위치 **데이터 바꾸기** 창에서 파일 선택을 클릭한 다음 **편집한**.csv 또는 .tsv 파일을 찾아 업로드합니다.
 4. 업로드를 **클릭합니다.**
@@ -56,8 +56,8 @@ ms.locfileid: "49918644"
 |네트워크|네트워크 이름|네트워크 범위|건물 이름|소유권 유형|건물 유형|Office 유형 구축|도시|우편번호|국가|상태|지역|Corp 내부|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |10.0.128.0    |SVC-1|32|USCAMTV001|Contoso 임대 RE&F|Office|RE&F|산악 보기|94043|미국|CA|미국|1|1|
-|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|산악 보기|94043|미국|CA|미국|1|1|
-|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|산악 보기|94043|미국|CA|미국|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso 임대 RE&F|Office|RE&F|산악 보기|94043|미국|CA|미국|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso 임대 RE&F|Office|RE&F|산악 보기|94043|미국|CA|미국|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso 임대 RE&F|Office|RE&F|산악 보기|94043|미국|CA|미국|1|1|
 
 데이터 파일 서식 지정에 대한 자세한 내용은 테넌트 데이터 파일 형식 및 데이터 파일 구조 [구축을 참조하세요.](CQD-upload-tenant-building-data.md#upload-building-data-file)

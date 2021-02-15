@@ -34,7 +34,7 @@ Microsoft 365 그룹 사용을 고려하거나 팀을 만들 때 사용할 팀, 
 
 Microsoft 365 그룹 계획과 Microsoft Teams에 미치는 영향에 대해 몇 가지 논의를 하는 두 가지 시나리오가 있습니다.
 
--   첫째, 고객이 그룹에 기존 투자를 할 수 있는 경우 현재 공개 그룹과 개인 그룹을 모두 지원합니다. 현재 지원되는 구성원 수에 대한 제한 및 [사양은 Microsoft Teams에](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)대한 제한 및 사양을 참조합니다. 앞서 언급했듯이 Microsoft 365 관리 센터가 아닌 Teams 클라이언트를 사용하여 팀에 대한 사용자 멤버 자격을 관리하려는 경우 이 시나리오에서 사람들이 Microsoft 365 그룹에서 스레드된 대화에 사용되는 경우 그룹 대화는 기본적으로 전자 메일로, Teams 채널의 채팅 메시지와는 다릅니다. 이러한 차이점에 대해 교육하고 Teams에서 보다 유연한 채팅 메시지 형식을 채택하고 Outlook 또는 OWA를 사용하여 그룹을 전자 메일로 보내야 합니다.
+-   첫째, 고객이 그룹에 기존 투자를 할 수 있는 경우 현재 공개 그룹과 개인 그룹을 모두 지원합니다. 현재 지원되는 구성원 수에 대한 제한 및 [사양은 Microsoft Teams에](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)대한 제한 및 사양을 참조합니다. 앞서 언급했듯이 Microsoft 365 관리 센터가 아닌 Teams 클라이언트를 사용하여 팀에 대한 사용자 멤버 자격을 관리하려는 경우 이 시나리오에서 사람들이 Microsoft 365 그룹에서 스레드된 대화에 사용되는 경우 그룹 대화는 기본적으로 전자 메일이고 Teams 채널의 채팅 메시지와는 다릅니다. 이러한 차이점에 대해 교육하고 Teams에서 보다 유연한 채팅 메시지 형식을 채택하고 Outlook 또는 OWA를 사용하여 그룹을 전자 메일로 보내야 합니다.
 
 -   둘째, Microsoft 365에 정의된 기존 그룹이 없는 고객의 경우 Microsoft 365 관리 센터, Teams 웹 또는 데스크톱 클라이언트를 사용하여 그룹을 만들 수 있습니다. 앞서 언급했듯이 Teams 클라이언트를 사용하여 Microsoft 365 그룹에 대한 모든 향후 멤버 자격을 관리합니다. 팀 구성원도 Microsoft 365 그룹에 대한 멤버 자격을 정의하기 때문에 이 변경을 준비해야 합니다.
 

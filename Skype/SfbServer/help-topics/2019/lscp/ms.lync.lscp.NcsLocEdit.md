@@ -49,7 +49,7 @@ ms.locfileid: "49836528"
 
 - **E9-1-1에만 위치 사용** 위치 정보를 긴급 통화에만 사용하려면 이 확인란을 선택합니다.
 
-- **PSTN 사용** 이 프로필을 사용하는 클라이언트의 긴급 통화를 라우팅하는 데 사용할 음성 경로를 결정하는 데 사용할 PSTN(공용 전화망) 사용을 선택합니다. 이 사용법과 연결된 경로는 긴급 통화 전용 SIP 트렁크 또는 긴급 통화를 가장 가까운 PSAP(Public Safety Answering Point)로 라우팅하는 ELIN(Emergency Location Identification Number) 게이트웨이를 연결해야 합니다. 옵션은 **내부,** **로컬 또는** **장거리입니다.**
+- **PSTN 사용** 이 프로필을 사용하는 클라이언트의 긴급 통화를 라우팅하는 데 사용할 음성 경로를 결정하는 데 사용할 PSTN(공용 전화망) 사용을 선택합니다. 이 사용법과 연결된 경로는 긴급 통화 전용 SIP 트렁크 또는 긴급 통화를 가장 가까운 PSAP(Public Safety Answering Point)로 라우팅하는 ELIN(Emergency Location Identification Number) 게이트웨이를 연결해야 합니다. 옵션은 **내부,** **로컬** 또는 **장거리입니다.**
 
 - **E9-1-1 전화 번호** 응급 서비스에 연결하기 위해 전화를 걸 번호를 지정합니다.
 
