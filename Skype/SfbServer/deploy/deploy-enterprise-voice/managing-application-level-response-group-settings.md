@@ -27,9 +27,9 @@ ms.locfileid: "49830788"
  
 비즈니스용 Skype 서버에서 보류 음악 및 벨백 설정과 같은 응용 프로그램 수준 응답 그룹 설정 Enterprise Voice.
   
-응답 그룹 응용 프로그램에 대한 응용 프로그램 수준 설정에는 기본 보류 음악 구성, 기본 보류 음악 오디오 파일, 에이전트 다시 울림 유예 기간 및 통화 컨텍스트 구성이 포함됩니다. 풀당 응용 프로그램 수준 설정 집합을 한 개만 정의할 수 있습니다. 응용 프로그램 수준 설정을 보기 위해 **Get-CsRgsConfiguration** cmdlet을 사용합니다. 응용 프로그램 수준 설정을 수정하려면 **Set-CsRgsConfiguration** cmdlet을 사용합니다.
+응답 그룹 응용 프로그램에 대한 응용 프로그램 수준 설정에는 기본 보류 음악 구성, 기본 보류 음악 오디오 파일, 에이전트 다시 반전 유예 기간 및 통화 컨텍스트 구성이 포함됩니다. 풀당 응용 프로그램 수준 설정 집합을 한 개만 정의할 수 있습니다. 응용 프로그램 수준 설정을 보기 위해 **Get-CsRgsConfiguration** cmdlet을 사용합니다. 응용 프로그램 수준 설정을 수정하려면 **Set-CsRgsConfiguration** cmdlet을 사용합니다.
   
-사용자 지정 보류 음악이 정의되어 있는 경우 통화가 보류 중일 때만 기본 보류 음악이 재생됩니다. 통화 컨텍스트는 대화형 워크플로에 할당된 큐에만 사용할 수 있습니다. 통화 컨텍스트를 사용하도록 설정하면 에이전트는 발신자 대기 시간 또는 워크플로 질문과 통화 수신 시 답변 등의 정보를 볼 수 있습니다.
+사용자 지정 보류 음악이 정의되어 있는 경우 통화가 보류 중일 때만 기본 보류 음악이 재생됩니다. 통화 컨텍스트는 대화형 워크플로에 할당된 큐에만 사용할 수 있습니다. 통화 컨텍스트를 사용하도록 설정하면 에이전트가 발신자 대기 시간 또는 워크플로 질문과 통화 수신 시 답변 등의 정보를 볼 수 있습니다.
   
 ### <a name="to-modify-response-group-application-level-settings"></a>응답 그룹 응용 프로그램 수준 설정을 수정하려면
 
@@ -49,7 +49,7 @@ ms.locfileid: "49830788"
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -AgentRingbackGracePeriod 30 -DisableCallContext $false
    ```
 
-    기본 보류 음악으로 사용할 오디오 파일을 지정하려면 먼저 오디오 파일을 가져와야 합니다. 예제:
+    기본 보류 음악으로 사용할 오디오 파일을 지정하려면 먼저 오디오 파일을 가져와야 합니다. 예시:
     
    ```powershell
    $x = Import-CsRgsAudioFile -Identity "service:ApplicationServer:redmond.contoso.com" -FileName "MusicWhileYouWait.wav" -Content (Get-Content C:\Media\ MusicWhileYouWait.wav -Encoding byte -ReadCount 0)

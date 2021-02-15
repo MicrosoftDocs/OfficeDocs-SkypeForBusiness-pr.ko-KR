@@ -30,13 +30,13 @@ ms.locfileid: "49831208"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams에서 팀 및 채널 이해
 
-팀과 채널의 개념은 Microsoft Teams의 건전하고 생산적인 구현의 기본입니다. 
+팀 및 채널의 개념은 Microsoft Teams의 건전하고 생산적인 구현의 기본입니다. 
 
 - 팀은 회사에 대한 비즈니스 결과를 생성하기 위해 함께 작업하는 사람, 콘텐츠 및 도구 모음입니다. Teams는 Microsoft 365 그룹을 기반으로 하므로 Microsoft 365 그룹 구성원 변경 사항이 팀에 동기화됩니다.
 
 - 채널은 실제 작업을 완료하는 팀 내의 공동 작업 공간입니다. 
 
-팀 및 채널에 대한 자세한 내용은 Microsoft Teams의 팀 및 채널 개요를 [참조하세요.](teams-channels-overview.md) 포괄적인 Teams 채택 지침은 Teams 채택 [가이드를 참조하세요.](https://aka.ms/teamstoolkit) Teams 및 Microsoft 365 그룹에 대한 자세한 내용은 [Microsoft 365 그룹](office-365-groups.md) 및 Microsoft Teams를 참조하고 Microsoft [365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)그룹에 대한 자세한 내용을 참조합니다.
+팀 및 채널에 대한 자세한 내용은 Microsoft Teams의 팀 및 [채널 개요를 참조하세요.](teams-channels-overview.md) 포괄적인 Teams 채택 지침은 Teams 채택 [가이드를 참조하세요.](https://aka.ms/teamstoolkit) Teams 및 Microsoft 365 그룹에 대한 자세한 내용은 [Microsoft 365 그룹](office-365-groups.md) 및 Microsoft Teams를 참조하고 Microsoft [365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)그룹에 대한 자세한 내용을 참조합니다.
 
 
 |  |  |
@@ -53,7 +53,7 @@ ms.locfileid: "49831208"
 
 ## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Teams를 사용하여 조직 간 공동 작업 추진
 
-팀을 사용하여 조직 간 공동 작업을 개선하는 것이 가장 좋은 모범 사례로, 많은 프로젝트가 이 모델에 직접 활용합니다. 또한 조직 내부의 리더 또는 부서는 자신의 사람에 대한 전담 팀을 원할 수 있습니다. 다음 그림에 표시된 조직 및 프로젝트 모델을 고려합니다.
+팀을 사용하여 조직 간 공동 작업을 개선하는 것이 가장 좋은 모범 사례로, 많은 프로젝트가 이 모델을 활용합니다. 또한 조직 내부의 리더 또는 부서는 자신의 사람에 대한 전담 팀을 원할 수 있습니다. 다음 그림에 표시된 조직 및 프로젝트 모델을 고려합니다.
 
 ![조직 및 프로젝트 모델](media/teams-adoption-organization-project.png)
 

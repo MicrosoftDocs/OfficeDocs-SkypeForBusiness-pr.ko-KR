@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
-description: '요약: 비즈니스용 Skype 서버 관리 셸을 사용하여 SIP 트렁크 구성 설정을 테스트하는 방법을 설명하는 문서입니다.'
+description: '요약: 비즈니스용 Skype 서버 관리 셸을 사용하여 SIP 트렁크 구성 설정을 테스트하는 방법을 확인합니다.'
 ms.openlocfilehash: 8b3a98d54fd0d2dc8bb69e553e0c0a3a7b98b1ca
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

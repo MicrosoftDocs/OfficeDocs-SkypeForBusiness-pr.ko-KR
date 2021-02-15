@@ -31,6 +31,6 @@ Microsoft SQL Server 2008 R2 또는 Microsoft SQL Server 2012 Report Services에
 > [!IMPORTANT]
 > Reporting Services 보고서를 성공적으로 배포하고 배포가 완료된 후 보고서에 액세스하려면 TCP/IP 포트 80(그리고 Reporting Services에 인증서를 할당하는 경우 SSL용 TCP 포트 443)이 보고서의 고급 보안이 있는 Windows 방화벽에 열려 있어야 SQL Server. 자세한 내용은 [Windows](https://go.microsoft.com/fwlink/p/?linkId=218031) 방화벽을 구성하여 SQL Server 2008 R2에 대한 Microsoft SQL Server 참조합니다.
   
-요약을 검토한 후 **마친** 후 Reporting Services에 대한 보고서 설치를 SQL Server 클릭합니다.
+요약을 검토한 후 마친 후 **Reporting** Services에 대한 보고서 설치를 SQL Server 클릭합니다.
   
 

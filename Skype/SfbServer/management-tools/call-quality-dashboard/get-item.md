@@ -66,6 +66,6 @@ Get Item은 리포지토리의 특정 항목을 반환합니다.
   
  *type*  - 콘텐츠의 형식입니다. 이 필드는 응용 프로그램에 의해 설정됩니다.
   
- *subItemIds*  - 하위 항목(있는 경우)의ID입니다. 이는 통화를 저장하기 위한 get Sub-Items 짧은 회로입니다. 또는 응용 프로그램에서 Get Sub-Items 같은 정보를 얻을 수 있습니다.
+ *subItemIds*  - 하위 항목(있는 경우)의ID입니다. 이는 통화를 저장하기 Sub-Items Get Sub-Items 짧은 회로입니다. 응용 프로그램은 Get Sub-Items 같은 정보를 얻을 수 있습니다.
   
 

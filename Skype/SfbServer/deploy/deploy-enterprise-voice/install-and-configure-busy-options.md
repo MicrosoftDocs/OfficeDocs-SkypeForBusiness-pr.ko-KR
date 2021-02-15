@@ -36,7 +36,7 @@ ms.locfileid: "49830808"
 
 통화 중 옵션의 구성 방식에 관계없이 통화 또는 회의의 사용자 또는 통화가 보류된 사용자는 새 통화나 회의를 시작할 수 없습니다.
 
-다른 사용자용 옵션 기능에 대한 자세한 내용은 비즈니스용 Skype 서버의 사용 중 [옵션 계획을 참조하십시오.](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)
+사용 중 옵션 기능에 대한 자세한 내용은 비즈니스용 Skype 서버의 다른 업무용 [옵션 계획을 참조하세요.](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)
 
 ## <a name="install"></a>설치
 
@@ -91,7 +91,7 @@ ms.locfileid: "49830808"
    Update-CsAdminRole
    ```
 
-5. 마지막으로, [Start-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) 명령을 실행하여 다른용 옵션을 설치하고 사용하도록 설정한 모든 풀의 모든 프런트 엔드 서버에서 비즈니스용 Skype 서버 Windows 서비스를 시작합니다.
+5. 마지막으로 [Start-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) 명령을 실행하여 다른용 옵션을 설치하고 사용하도록 설정한 모든 풀의 모든 프런트 엔드 서버에서 비즈니스용 Skype 서버 Windows 서비스를 시작합니다.
 
    ```powershell
    Start-CsWindowsService

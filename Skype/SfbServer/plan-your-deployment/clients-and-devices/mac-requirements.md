@@ -1,5 +1,5 @@
 ---
-title: Mac용 비즈니스용 Skype 클라이언트 요구 사항
+title: Mac의 비즈니스용 Skype 클라이언트 요구 사항
 ms.author: v-cichur
 author: cichur
 ms.reviewer: PhillipGarding
@@ -23,15 +23,15 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49832168"
 ---
-# <a name="skype-for-business-on-mac-client-requirements"></a>Mac용 비즈니스용 Skype 클라이언트 요구 사항
+# <a name="skype-for-business-on-mac-client-requirements"></a>Mac의 비즈니스용 Skype 클라이언트 요구 사항
  
 Mac에서 비즈니스용 Skype를 실행하기 위한 하드웨어, 소프트웨어 및 인프라 요구 사항에 대해 알아보시고 이 항목을 읽어 읽습니다.
   
-Mac [클라이언트의 비즈니스용 Skype 클라이언트는](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac) 다운로드할 수 있습니다.
+Mac [클라이언트의 비즈니스용 Skype 클라이언트를](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac) 다운로드할 수 있습니다.
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac의 비즈니스용 Skype에 대한 하드웨어 및 소프트웨어 요구 사항
 
-Mac의 비즈니스용 Skype 클라이언트에는 Mac OS X El Capitan 이상이 필요하며 최소 100MB의 디스크 공간을 사용하게 됩니다. 모든 기본 제공 오디오 및 비디오 장치를 사용할 수 있습니다. 외부 장치는 비즈니스용 Skype 솔루션 [카탈로그에 있어야 합니다.](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 
+Mac의 비즈니스용 Skype 클라이언트에는 Mac OS X El Capitan 이상이 필요하며 100MB 이상의 디스크 공간을 사용하세요. 모든 기본 제공 오디오 및 비디오 장치를 사용할 수 있습니다. 외부 장치는 비즈니스용 Skype 솔루션 [카탈로그에 있어야 합니다.](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 
   
 > [!NOTE]
 > 이 목록은 초급으로, 일부 장치는 Lync에 대해 자격이 있을 수 있지만 Mac의 비즈니스용 Skype에서는 지원되지 않습니다. 필요한 최소 [하드웨어에](https://products.office.com/office-system-requirements) 대한 시스템 요구 사항을 참조하세요.
@@ -55,7 +55,7 @@ Mac의 비즈니스용 Skype 클라이언트는 UCMP(Unified Communications Mana
   
 ### <a name="authentication"></a>인증
 
-Mac의 비즈니스용 Skype 클라이언트는 배포 및 사용 시 인증서 기반 인증, Microsoft 최신 인증 및 다단계 인증을 지원합니다.
+Mac의 비즈니스용 Skype 클라이언트는 배포 및 활성화된 경우 인증서 기반 인증, Microsoft 최신 인증 및 다단계 인증을 지원합니다.
   
 > [!NOTE]
 > 현재 제한 사항으로 인해 사용자의 Exchange 자격 증명은 비즈니스용 Skype 자격 증명과 동일해야 합니다. 
@@ -74,13 +74,13 @@ Mac 클라이언트에서 비즈니스용 Skype가 제대로 작동하려면 모
     
 - lyncdiscover.\<sipdomain\>
     
-자세한 내용은 [Lync Server 2013에서](https://go.microsoft.com/fwlink/p/?LinkId=798224)Mobility 배포 및 [Microsoft Lync Server 2010 모바일](https://go.microsoft.com/fwlink//p/?LinkId=798226)가이드를 참조하십시오.
+자세한 내용은 [Lync Server 2013에서](https://go.microsoft.com/fwlink/p/?LinkId=798224)모바일 배포 및 [Microsoft Lync Server 2010 모바일](https://go.microsoft.com/fwlink//p/?LinkId=798226)가이드를 참조하십시오.
   
 ## <a name="see-also"></a>참고 항목
 <a name="Infrastructure"> </a>
 
 [비즈니스용 Skype 서버에 대한 DNS 요구 사항](../../plan-your-deployment/network-requirements/dns.md)
 
-[자주하는 질문](https://go.microsoft.com/fwlink/p/?LinkId=798227)
+[질문과 대답](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
 [알려진 문제](https://go.microsoft.com/fwlink/p/?LinkId=798228)

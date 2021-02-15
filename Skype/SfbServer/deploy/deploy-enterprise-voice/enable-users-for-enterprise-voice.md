@@ -27,7 +27,7 @@ ms.locfileid: "49830878"
  
 **요약:** 사용자가 비즈니스용 Skype 서버에서 전화를 걸고 받을 수 있도록 하는 Enterprise Voice 방법을 배워야 합니다.
   
-2016 또는 Enterprise Voice 통화를 배포한 후 다음 절차에 따라 사용자가 다음 절차를 사용하여 다음 절차를 사용하여 전화를 걸 수 Enterprise Voice.
+사용자 Enterprise Voice 또는 직장을 통해 전화 기능을 배포한 후 다음 절차에 따라 사용자가 다음 절차를 사용하여 다음 절차를 사용하여 전화를 걸 수 Enterprise Voice.
   
 > [!NOTE]
 > 다음 절차 중 첫 번째 절차만 비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있습니다. 나머지 절차에서는 비즈니스용 Skype 서버 관리 셸만 사용할 수 있습니다. 

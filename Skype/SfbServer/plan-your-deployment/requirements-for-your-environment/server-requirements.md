@@ -49,7 +49,7 @@ Active Directory, DNS 또는 인증서와 같은 환경 요구 사항을 찾고 
   
 |**하드웨어 구성 요소**|**권장**|
 |:-----|:-----|
-|CPU  <br/> |64비트 듀얼 프로세서, 16진수 코어, 2.26GHz 이상  <br/> Intel Itanium 프로세서는 비즈니스용 Skype 서버 2015 역할에 지원되지 않습니다.  <br/> |
+|CPU  <br/> |64비트 듀얼 프로세서, 16비트 코어, 2.26GHz 이상  <br/> Intel Itanium 프로세서는 비즈니스용 Skype 서버 2015 역할에 지원되지 않습니다.  <br/> |
 |메모리  <br/> |32GB  <br/> |
 |디스크  <br/> |둘 중 하나:  <br/> • 8개 이상의 10000 RPM 하드 디스크 드라이브(최소 72GB의 사용성 있는 디스크 공간(RAID 1을 사용하는 RAID 1 및 6을 사용하는 디스크 2개)  <br/> 또는  <br/> • 8개 10000 RPM 기계 디스크 드라이브와 동일한 사용 공간 및 유사한 성능을 제공할 수 있는 SSD(Solid State Drive)입니다.  <br/> |
 |네트워크  <br/> |이중 포트 네트워크 어댑터 1개, 1Gbps 이상(네트워크 어댑터 2개는 사용할 수 있지만 단일 MAC 주소와 단일 IP 주소로 팀을 구성해야 합니다.  <br/> 이중 또는 다중 홈 구성은 프런트 엔드 서버, 백 엔드 서버, Standard Edition 서버 및 영구 채팅 서버에 대해 지원되지 않습니다.  <br/> 운영 체제에 노출되지 않는 경우 서버 하드웨어를 모니터링하고 관리하는 데 사용되는 경우 DRAC 또는 ILO와 같은 대역 관리 시스템을 사용할 수 있습니다. 이 시나리오는 다중 홈 서버를 구성하지는 않습니다.  <br/> |
@@ -80,7 +80,7 @@ Active Directory, DNS 또는 인증서와 같은 환경 요구 사항을 찾고 
 > Lync Server 2013에서 OS의 현재 현재 업그레이드가 지원되지 않습니다. 별도의 풀을 배포하고 다른 OS를 사용하여 사용자를 새 풀로 마이그레이션해야 합니다. 풀의 모든 서버에 동일한 OS 버전이 있어야 합니다.
   
 > [!NOTE]
-> Windows Server 2008 R2가 이 목록에 없는 경우도 있습니다. SFB에 사용할 모든 새 Windows Server 2012 R2를 사용하는 것이 좋습니다. Lync Server 2013이 이미 설치되어 있는 기존 서버가 있으며 해당 서버의 현재치 업그레이드를 진행하려는 경우 Windows Server 2008 R2만 사용해야 합니다. Windows Server 2008 R2는 2015년 1월 13일, 기본 지원 수명 주기가 종료된 후 2020년 1월 14일 지원 수명 주기가 종료됩니다.
+> Windows Server 2008 R2가 이 목록에 없는 경우도 있습니다. SFB에 사용할 모든 새 Windows Server 2012 R2를 사용하는 것이 좋습니다. Lync Server 2013이 이미 설치되어 있는 기존 서버가 있으며 해당 서버를 현재치 업그레이드하려는 경우 Windows Server 2008 R2만 사용해야 합니다. Windows Server 2008 R2는 2015년 1월 13일, 기본 지원 수명 주기가 종료된 후 2020년 1월 14일 지원 수명 주기가 종료됩니다.
   
 최신 서비스 팩 외에 관련성이 있는 경우 다음 업데이트가 설치되도록 할 수 있습니다.
   
@@ -100,13 +100,13 @@ Active Directory, DNS 또는 인증서와 같은 환경 요구 사항을 찾고 
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 Enterprise(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다. <br/> |Microsoft SQL Server 2017 Enterprise(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다. <br/> |Microsoft SQL Server 2016 Enterprise(64비트 버전) 서비스 팩 1 이상을 사용하며, 비즈니스용 Skype 누적 업데이트 7 이상(비즈니스용[Skype](https://support.microsoft.com/help/3061064)누적 업데이트 다운로드)을 실행해야 합니다.  <br/> |Microsoft SQL Server 2014 Enterprise(64비트 버전)를 설치하고 누적 업데이트 6 이상(누적 업데이트[6 다운로드)을](https://support.microsoft.com/kb/3031047/)실행해야 합니다.  <br/> |Microsoft SQL Server 2012 Enterprise(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다.  <br/> |
+|Microsoft SQL Server 2019 Enterprise(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다. <br/> |Microsoft SQL Server 2017 Enterprise(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다. <br/> |Microsoft SQL Server 2016 Enterprise(64비트 버전) 서비스 팩 1 이상을 사용하며, 비즈니스용 Skype 누적 업데이트 7 이상을 실행해야 합니다(비즈니스용[Skype](https://support.microsoft.com/help/3061064)누적 업데이트 다운로드).  <br/> |Microsoft SQL Server 2014 Enterprise(64비트 버전)를 설치하고 누적 업데이트 6 이상(누적 업데이트[6 다운로드)을](https://support.microsoft.com/kb/3031047/)실행해야 합니다.  <br/> |Microsoft SQL Server 2012 Enterprise(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다.  <br/> |
 |Microsoft SQL Server 2019 Standard(64비트 버전)를 사용하며 최신 서비스 팩을 실행하는 것이 좋습니다. <br/> |Microsoft SQL Server 2017 Standard(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다. <br/> |Microsoft SQL Server 2016 Standard(64비트 버전) 서비스 팩 1 이상을 사용하며, 비즈니스용 Skype 누적 업데이트 7 이상을 실행해야 합니다(비즈니스용[Skype](https://support.microsoft.com/help/3061064)누적 업데이트 다운로드).  <br/> |Microsoft SQL Server 2014 Standard(64비트 버전)를 사용하며, 누적 업데이트 6 이상(누적 업데이트[6 다운로드)을](https://support.microsoft.com/kb/3031047/)실행해야 합니다.  <br/> |Microsoft SQL Server 2012 Standard(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다.  <br/> |
    
 여기에 나열된 SQL Server 버전이 없는 경우 사용할 수 없습니다.
   
-- 또한 모니터링 서버 역할에 대해 SQL Server Reporting Services를 설치해야 합니다.
-- 백 엔드가 SQL 경우 저속 연결을 통해 연결되는 것이 아니라 비즈니스용 Skype 프런트 엔드에 대한 연결이 로컬이 아니야 합니다. 
+- 또한 모니터링 서버 역할에 SQL Server Reporting Services를 설치해야 합니다.
+- 백 엔드가 SQL 연결되면 저속 연결을 통해 연결되는 것이 아니라 비즈니스용 Skype 프런트 엔드에 대한 연결이 로컬이 아니야 합니다. 
 - 둘 SQL 풀 간에 백 엔드 공유는 지원되지 않습니다.
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange 저장소
@@ -159,7 +159,7 @@ Microsoft 메시지 큐는 필요하지 않습니다.
 
 - Microsoft SQL Server 2016 Enterprise(64비트 버전) 서비스 팩 1 이상을 제공합니다. 최신 서비스 팩을 통해 실행하는 것이 좋습니다.
   
-- Microsoft SQL Server 2014 Enterprise(64비트 버전)를 사용하며 최신 서비스 팩을 실행하는 것이 좋습니다.
+- Microsoft SQL Server 2014 Enterprise(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다.
     
 - Microsoft SQL Server 2012 Enterprise(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다.
 
@@ -185,21 +185,21 @@ SQL 미러링에 대해 자세히 읽어야 할 경우 비즈니스용 Skype 서
 |**소프트웨어/역할**|**세부 정보**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |모든 비즈니스용 Skype 서버 서버는 Windows PowerShell 3.0을 설치해야 합니다.  <br/> • R2 또는 Windows Server 2012 R2에 설치를 Windows Server 2012 이미 있기 때문에 설정됩니다.  <br/> • Windows Server 2008 R2에서 업그레이드를 수행하고 있는 경우 Windows Management Framework [3.0을](https://www.microsoft.com/download/details.aspx?id=34595) 다운로드하여 다운로드할 수 있습니다. <br/> **팁:** 올바른 PowerShell이 있는 경우 PowerShell 프롬프트로 가고 입력하여 BuildVersion 6.2.9200.0 이상인지 `$PSVersionTable` 확인합니다. 그러면 필요한 정보가 필요합니다.  <br/> |
-|Microsoft .NET Framework  <br/> |WCF 서비스는  Windows 기능으로 설치되는 기능으로, 서버 관리자에서 다운로드가 필요하지 않습니다. <br/> • 다음과 같이 이 기능을 설치할 때 또는 이 기능이 이미 설치되어 있으며 해당 기능을 체크 인하는 경우 **HTTP** 정품 인증 옵션도 검사하여 설치하는지 확인해야 합니다. <br/> ![.NET Framework 4.5 기능 아래에서 HTTP 정품 인증 옵션을 보여 주는 스크린샷. ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) HTTP 정품 인증을 설치하기 위해 설치해야 하는 다른 것을 설명하는 추가 팝업이 제공될 경우 걱정하지 마세요. 정상입니다. 확인을 클릭하고 진행합니다. 이 팝업을 얻지 못하면 이미 설치된 것으로 가정하고 진행합니다.  <br/> Microsoft .NET Framework는 일반적으로 R2 Windows Server 2012 Windows Server 2016을 설치할 때 설치됩니다. 비즈니스용 Skype 서버는 다음 Microsoft .NET Framework 버전에서 작동합니다.  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1(비즈니스용 Skype 서버 CU 5 이상 릴리스의 경우)  <br/> • .NET 4.7.2(비즈니스용 Skype 서버 CU 6 이상 릴리스의 경우)  <br/>  • .NET 4.8(비즈니스용 Skype 서버 CU 9 이상 릴리스의 경우) <br/>  .NET Framework 3.5는 기본적으로 Windows Server 2008 R2 컴퓨터에 설치될 가능성이 높지만(업그레이드 전에 반드시 확인) 실제로는 Windows Server 2012/Windows Server 2012 R2 서버에 있지는 않습니다(새 설치의 경우). 추가하려면 설치 드라이브 또는 미디어(Windows Server가 설치된 위치 또는 설치 파일이 있는 위치)에 액세스해야 합니다. 그런 다음 서버 관리자의 기능으로 설치한 다음 요청이 표시될 때 설치 미디어(특히 **\sources\sxs** 폴더)를 지점하고 계속 설치합니다. <br/> |
-|미디어 파운데이션  <br/> |Windows Server 2016의 경우 Windows Server 2012 및 Windows Server 2012 R2에서 Windows Media 형식 런타임이 Microsoft 미디어 파운데이션과 함께 설치됩니다.  <br/> 회의에 사용되는 모든 프런트 엔드 서버 및 Standard Edition Server를 사용하려면 통화 파킹, 공지 및 응답 그룹 응용 프로그램에서 공지 및 음악에 대해 재생하는 Windows Media 오디오(.wma) 파일을 실행하려면 Windows Media 형식 런타임이 필요합니다.  <br/> |
-|Windows Identity Foundation  <br/> |비즈니스용 Skype 서버 2015에 대한 서버 대 서버 인증 시나리오를 지원하려면 Windows Identity Foundation 3.5가 필요합니다.  <br/> • R2 Windows Server 2012 Windows Server 2012 경우 아무것도 다운로드할 필요가 없습니다. 서버 **관리자를 열고** 역할 및 기능 추가 **마법사로 이동하십시오.** **Windows Identity Foundation 3.5는** **기능 섹션에 나와** 있습니다. 선택을 하는 경우 좋습니다. 그렇지 않은 경우 해당 단추를 선택하고 다음을 클릭하여 설치 **단추에** 도달합니다. <br/> |
+|Microsoft .NET Framework  <br/> |WCF 서비스는  서버 관리자에서 다운로드가 필요하지 않은 Windows 기능으로 설치되는 기능입니다. <br/> • 다음과 같이 이 기능을 설치할 때 또는 이 기능이 이미 설치되어 있으며 해당 기능을 체크 인하는 경우 **HTTP** 정품 인증 옵션도 확인 및 설치하는지 확인해야 합니다. <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features. ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) HTTP 정품 인증을 설치하기 위해 설치해야 하는 다른 것을 설명하는 추가 팝업이 제공될 경우 걱정하지 마세요. 정상입니다. 확인을 클릭하고 진행합니다. 이 팝업을 얻지 못하면 이미 설치된 것으로 가정하고 진행합니다.  <br/> Microsoft .NET Framework는 일반적으로 R2 Windows Server 2012 Windows Server 2016을 설치할 때 설치됩니다. 비즈니스용 Skype 서버는 다음 Microsoft .NET Framework 버전에서 작동합니다.  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1(비즈니스용 Skype 서버 CU 5 이상 릴리스의 경우)  <br/> • .NET 4.7.2(비즈니스용 Skype 서버 CU 6 이상 릴리스의 경우)  <br/>  • .NET 4.8(비즈니스용 Skype 서버 CU 9 이상 릴리스의 경우) <br/>  .NET Framework 3.5는 기본적으로 Windows Server 2008 R2 컴퓨터에 설치될 가능성이 높지만(업그레이드 전에 반드시 확인) 실제로는 Windows Server 2012/Windows Server 2012 R2 서버에 있지는 않습니다(새 설치의 경우). 추가하려면 설치 드라이브 또는 미디어(Windows Server가 설치된 위치 또는 설치 파일이 있는 위치)에 액세스해야 합니다. 그런 다음 서버 관리자의 기능으로 설치한 다음 요청이 표시될 때 설치 미디어(특히 **\sources\sxs** 폴더)를 지정하고 계속 설치합니다. <br/> |
+|미디어 파운데이션  <br/> |Windows Server 2016의 경우 Windows Server 2012 및 Windows Server 2012 R2에 Windows Media 형식 런타임이 Microsoft Media Foundation과 함께 설치됩니다.  <br/> 회의에 사용되는 모든 프런트 엔드 서버 및 Standard Edition Server를 사용하려면 통화 파킹, 공지 및 응답 그룹 응용 프로그램에서 공지 및 음악에 대해 재생하는 Windows Media 오디오(.wma) 파일을 실행하려면 Windows Media 형식 런타임이 필요합니다.  <br/> |
+|Windows Identity Foundation  <br/> |비즈니스용 Skype 서버 2015에 대한 서버 대 서버 인증 시나리오를 지원하려면 Windows Identity Foundation 3.5가 필요합니다.  <br/> • R2 Windows Server 2012 Windows Server 2012 경우 아무것도 다운로드할 필요가 없습니다. 서버 **관리자를 열고** 역할 및 기능 추가 **마법사로 이동하십시오.** **Windows Identity Foundation 3.5는** **기능 섹션에 나와** 있습니다. 선택을 한 경우 좋습니다. 그렇지 않은 경우 해당 단추를 선택하고 다음을 클릭하여 설치 **단추에** 도달합니다. <br/> |
 |원격 서버 관리 도구  <br/> |역할 관리 도구: AD DS 및 AD LDS 도구  <br/> |
    
  **프런트 엔드 서버 및 Standard Edition 서버도 필요합니다.**
   
 |**소프트웨어/역할**|**세부 정보**|
 |:-----|:-----|
-|IIS(인터넷 정보 서비스)  <br/> |다음 모듈이 선택된 모든 프런트 엔드 서버 및 모든 Standard Edition Server에 IIS가 필요합니다.  <br/> • 일반적인 HTTP 기능: 기본 문서, HTTP 오류, 정적 콘텐츠  <br/> • 상태 및 진단: HTTP 로깅, 로깅 도구, 추적  <br/> • 성능: 정적 콘텐츠 압축, 동적 콘텐츠 압축  <br/> • 보안: 요청 필터링, 클라이언트 인증서 매핑 인증, Windows 인증  <br/> • 응용 프로그램 개발: .NET 확장성 3.5, .NET 확장성 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI 확장, ISAPI 필터  <br/> • 관리 도구: IIS 관리 콘솔, IIS 관리 스크립트 및 도구  <br/> 익명 액세스도 필요하지만 IIS를 설치할 때 해당 액세스 권한을 목록에 선택할 수 있는 장소가 없는지도 주의해야 합니다.  <br/> |
+|IIS(인터넷 정보 서비스)  <br/> |다음 모듈이 선택된 모든 프런트 엔드 서버 및 모든 Standard Edition Server에 IIS가 필요합니다.  <br/> • 일반적인 HTTP 기능: 기본 문서, HTTP 오류, 정적 콘텐츠  <br/> • 상태 및 진단: HTTP 로깅, 로깅 도구, 추적  <br/> • 성능: 정적 콘텐츠 압축, 동적 콘텐츠 압축  <br/> • 보안: 요청 필터링, 클라이언트 인증서 매핑 인증, Windows 인증  <br/> • 응용 프로그램 개발: .NET 확장성 3.5, .NET 확장성 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI 확장, ISAPI 필터  <br/> • 관리 도구: IIS 관리 콘솔, IIS 관리 스크립트 및 도구  <br/> 또한 익명 액세스도 필요하지만 IIS를 설치할 때 해당 액세스 권한을 선택할 수 있는 장소가 목록에 없습니다.  <br/> |
 |Windows Media 형식 런타임  <br/> | Windows Server 2016, Windows Server 2012 및 Windows Server 2012 R2의 경우 서버 관리자에 **Media Foundation** 기능을 **설치해야 합니다.** 이제 실제로 이 설치 없이 비즈니스용 Skype 서버 2015 설치를 시작할 수 있지만 비즈니스용 Skype 서버 2015 설치가 계속되기 전에 설치하라는 메시지가 표시되고 서버를 다시 시작해야 합니다. 미리 작업을 하는 것이 좋습니다. <br/> |
 |Silverlight  <br/> |이 링크에서 최신 버전의 Silverlight를 설치할 [수 있습니다.](https://www.microsoft.com/silverlight/)  <br/> |
    
 > [!NOTE] 
-> 부하를 사용하는 경우 디렉터리 검색을 사용하도록 설정해야 할 수도 있습니다. 그렇지 않으면 부하 부하가 발생하여 오류가 고려될 수 있는 빈 페이지가 로드됩니다. 
+> 부하 런저를 사용하는 경우 디렉터리 검색을 사용하도록 설정해야 할 수도 있습니다. 그렇지 않으면 부하 부하가 발생하여 오류가 고려될 수 있는 빈 페이지가 로드됩니다. 
 
 이를 자동화하기 위해 실행할 수 있는 샘플 PowerShell 스크립트는 다음과 같습니다.
 
@@ -266,10 +266,10 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
  **영구 채팅 서버도 필요합니다.**
   
-MSMQ라고도 하는 메시지 큐입니다. Windows Server 구성 요소로, 서버 관리자의 기능 섹션에 설치할 수 있습니다. 이에 대한 자세한 내용은 설치 및 메시지 큐 [관리를 체크 아웃합니다.](https://technet.microsoft.com/library/cc771474.aspx)
+MSMQ라고도 하는 메시지 큐입니다. Windows Server 구성 요소로, 서버 관리자의 기능 섹션에서 설치할 수 있습니다. 이에 대한 자세한 내용은 설치 및 메시지 큐 [관리를 체크 아웃합니다.](https://technet.microsoft.com/library/cc771474.aspx)
   
  **마지막 생각:**
   
-모든 프런트 엔드 서버 또는 독립 실행형 중재 서버에 Microsoft ISA(인터넷 보안 및 가속) 서버 클라이언트 소프트웨어 또는 기타 Winsock LSP(계층화 서비스 공급자) 소프트웨어(타사 방화벽 또는 바이러스 백신 네트워크 검사 소프트웨어가 여기에 포함됩니다.)를 설치하지 말아야 합니다. 소프트웨어가 설치되면 미디어 트래픽 성능이 나쁨을 보게 됩니다.
+모든 프런트 엔드 서버 또는 독립 실행형 중재 서버에 Microsoft ISA(인터넷 보안 및 가속) 서버 클라이언트 소프트웨어 또는 기타 Winsock LSP(계층화 서비스 공급자) 소프트웨어(타사 방화벽 또는 바이러스 백신 네트워크 검사 소프트웨어가 여기에 포함됩니다.)를 설치하지 말아야 합니다. 소프트웨어가 설치되면 미디어 트래픽 성능이 나아진 것으로 나타되었습니다.
   
 

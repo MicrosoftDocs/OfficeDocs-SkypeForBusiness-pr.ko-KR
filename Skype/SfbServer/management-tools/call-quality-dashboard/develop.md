@@ -12,7 +12,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
-description: '요약: 통화 품질 대시보드용 솔루션을 개발하는 방법을 알아보십시오. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
+description: '요약: 통화 품질 대시보드용 솔루션을 개발하는 방법에 대해 자세히 알아보십시오. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
 ms.openlocfilehash: 246a88654438ce4f4fd6138d17b9c53f9fdedf32
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

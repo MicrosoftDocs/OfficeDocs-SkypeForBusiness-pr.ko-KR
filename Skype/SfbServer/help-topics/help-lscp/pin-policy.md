@@ -29,11 +29,11 @@ ms.locfileid: "49829388"
  **IP 전화에 대한 PIN 정책 사용** 이 PIN(개인 식별 번호) 정책은 IP 전화를 사용하여 비즈니스용 Skype 서버에 연결하는 사용자에 대한 인증을 지원합니다.
 - [비즈니스용 Skype 서버에서 새 PIN 정책 만들기](../../manage/authentication/create-a-new-pin-policy.md)
 
-- [Skype for Business Server 2015에서 기존 PIN 정책 수정](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [비즈니스용 Skype 서버 2015에서 기존 PIN 정책 수정](../../manage/authentication/modify-an-existing-pin-policy.md)
 
 - [비즈니스용 Skype 서버에서 PIN 정책 삭제](../../manage/authentication/delete-a-pin-policy.md)
 
-  **전화 접속 회의에 PIN** 정책 사용 이 PIN 정책을 사용하면 조직에 Active Directory 도메인 서비스 자격 증명이 있는 사용자가 PIN을 입력하여 인증된 사용자로 전화 접속 회의에 참가할 수 있습니다.
+  **전화 접속 회의에 PIN** 정책 사용 이 PIN 정책을 사용하면 조직에서 Active Directory 도메인 서비스 자격 증명이 있는 사용자가 PIN을 입력하여 인증된 사용자로 전화 접속 회의에 참가할 수 있습니다.
 - [사이트 또는 사용자 그룹에 대한 전화 접속 회의 PIN 설정 만들기 또는 수정](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
 - [기본 전화 접속 회의 PIN 설정 수정](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)

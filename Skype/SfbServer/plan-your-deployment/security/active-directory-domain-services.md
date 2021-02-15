@@ -46,9 +46,9 @@ Active Directory의 인프라 요구 사항은 다음과 같습니다.
   
 ## <a name="universal-groups"></a>유니버설 그룹
 
-포리스트를 준비하는 동안 비즈니스용 Skype 서버는 전역 설정 및 서비스에 액세스하고 관리할 수 있는 권한이 있는 Active Directory 도메인 서비스 내에 다양한 유니버설 그룹을 만듭니다. 이러한 유니버설 그룹은 다음과 같습니다.
+포리스트를 준비하는 동안 비즈니스용 Skype 서버는 전역 설정 및 서비스를 액세스하고 관리할 수 있는 권한이 있는 Active Directory 도메인 서비스 내에 다양한 유니버설 그룹을 만듭니다. 이러한 유니버설 그룹은 다음과 같습니다.
   
-- **관리 그룹**. 이러한 그룹은 비즈니스용 Skype 서버 네트워크에 대한 기본 관리자 역할을 정의합니다. 포리스트를 준비하는 동안 이러한 관리자 그룹은 비즈니스용 Skype 서버 인프라 그룹에 추가됩니다.
+- **관리 그룹**. 이러한 그룹은 비즈니스용 Skype 서버 네트워크에 대한 기본 관리자 역할을 정의합니다. 포리스트를 준비하는 동안 이러한 관리자 그룹이 비즈니스용 Skype 서버 인프라 그룹에 추가됩니다.
     
 - **서비스 그룹**. 이러한 그룹은 비즈니스용 Skype 서버에서 제공하는 다양한 서비스에 액세스하는 데 필요한 서비스 계정입니다.
     
@@ -61,7 +61,7 @@ Active Directory의 인프라 요구 사항은 다음과 같습니다.
   
 ## <a name="role-based-access-control"></a>역할 기반 액세스 제어
 
-유니버설 서비스 및 관리 그룹을 만들고 서비스 및 관리 그룹을 적절한 유니버설 그룹에 추가하는 것 외에도 포리스트 준비에서는 RBAC(액세스 제어) Role-Based 만듭니다. 포리스트 준비로 만든 특정 RBAC 그룹에 대한 자세한 내용은 배포 설명서에서 비즈니스용 [Skype 서버의](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 포리스트 준비에서 변경한 내용을 참조하십시오. RBAC 그룹에 대한 자세한 내용은 비즈니스용 Skype 서버의 RBAC(역할 기반 액세스 [제어)를 참조하세요.](role-based-access-control-rbac.md)
+유니버설 서비스 및 관리 그룹을 만들고 서비스 및 관리 그룹을 적절한 유니버설 그룹에 추가하는 것 외에도 포리스트 준비에서는 RBAC(액세스 제어) Role-Based 만듭니다. 포리스트 준비로 만든 특정 RBAC 그룹에 대한 자세한 내용은 배포 설명서에서 비즈니스용 [Skype 서버의](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 포리스트 준비에 의해 변경된 내용을 참조하십시오. RBAC 그룹에 대한 자세한 내용은 비즈니스용 Skype 서버의 RBAC(역할 기반 액세스 [제어)를 참조하세요.](role-based-access-control-rbac.md)
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>ACE(액세스 제어 항목) 및 상속성
 
@@ -69,7 +69,7 @@ Active Directory의 인프라 요구 사항은 다음과 같습니다.
   
 도메인 준비 단계에서는 호스트에 권한을 부여하고 도메인 내의 사용자를 관리하는 유니버설 그룹에 필요한 ACE(액세스 제어 항목)를 추가합니다. 도메인 준비는 도메인 루트와 세 개의 기본 제공 컨테이너인 사용자, 컴퓨터 및 도메인 컨트롤러에 ACE를 만듭니다.
   
-포리스트 준비 및 도메인 준비를 통해 만들어 추가한 공용 AES에 대한 자세한 내용은 비즈니스용 [Skype](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 서버의 포리스트 준비로 변경한 내용 및 비즈니스용 [Skype 서버의](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) 도메인 준비에 의해 변경된 내용을 배포 설명서에서 참조하십시오.
+포리스트 준비 및 도메인 준비를 통해 만들어 추가한 공용 AES에 대한 자세한 내용은 비즈니스용 [Skype 서버에서](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) 포리스트 준비를 통해 변경한 내용 및 비즈니스용 [Skype](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) 서버의 도메인 준비에 의해 변경된 내용을 배포 설명서에서 참조하세요.
   
 조직에서는 보안 위험을 줄이기 위해 AD DS(Active Directory 도메인 서비스)를 잠그는 경우가 자주 있습니다. 그러나 잠긴 Active Directory 환경은 비즈니스용 Skype 서버에 필요한 사용 권한을 제한할 수 있습니다. 여기에는 컨테이너 및 OU에서 ACE 제거, User, Contact, InetOrgPerson 또는 Computer 개체에 대한 권한 상속 비활성화가 포함됩니다. 잠겨 있는 Active Directory 환경에서는 권한이 필요한 컨테이너 및 OU에서 권한을 수동으로 설정해야 합니다.
   

@@ -39,7 +39,7 @@ ms.locfileid: "49831738"
 
 ![세 개의 서버를 배포하는 참조 토폴로지 다이어그램](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
-- **배포된 Standard Edition Server 쌍** 이 조직의 중앙 사이트에는 4,000명이 있습니다. 또한 두 개의 Standard Edition 서버를 배포하고 쌍으로 연결하여 고가용성 및 재해 복구를 가능하게 합니다. 각 서버는 2,000개의 사용자를 홈으로 하지만 모든 사용자에 대한 정보는 두 서버 간에 동기화됩니다. 한 사용자가 다운된 경우 관리자는 최소한 사용자에게 중단을 주어 다른 서버에서 서비스를 제공해야 해당 사용자를 장애 조치(fail over)할 수 있습니다. 비즈니스용 Skype 서버의 고가용성 및 재해 복구 기능에 대한 자세한 내용은 비즈니스용 Skype 서버의 고가용성 및 재해 복구 [계획을 참조하세요.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+- **배포된 Standard Edition Server 쌍** 이 조직의 중앙 사이트에는 4,000명이 있습니다. 또한 두 개의 Standard Edition 서버를 배포하고 쌍으로 연결하여 고가용성 및 재해 복구를 가능하게 합니다. 각 서버는 2,000개의 사용자를 홈으로 하지만 모든 사용자에 대한 정보는 두 서버 간에 동기화됩니다. 한 사용자가 다운된 경우 관리자는 최소한 사용자에게 중단을 주어 다른 서버에서 서비스를 제공하지 못하게 해당 사용자를 장애 조치(fail over)할 수 있습니다. 비즈니스용 Skype 서버의 고가용성 및 재해 복구 기능에 대한 자세한 내용은 비즈니스용 Skype 서버의 고가용성 및 재해 복구 [계획을 참조하세요.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
 
 - **에지 서버 배포 권장.** 내부 IM, 현재 상태 및 회의에는 에지 서버를 배포하지 않아도 되지만 소규모 배포에도 에지 서버를 배포하는 것이 좋습니다. 에지 서버를 배포하여 현재 조직의 방화벽 외부에 있는 사용자에게 서비스를 제공하면 비즈니스용 Skype 서버 투자를 최대화할 수 있습니다. 이점은 다음과 같습니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "49831738"
 
   - 사용자는 일부 공용 IM 서비스의 사용자와 인스턴트 메시지를 교환할 수 있습니다.
 
-- **분기 사이트 지속 가능성.** 이 조직은 비즈니스용 Skype 서버의 Enterprise Voice 파일럿 프로그램을 실행하고 있습니다. 일부 사용자는 비즈니스용 Skype 서버를 단독 음성 솔루션으로 사용하고 있습니다. 이러한 Enterprise Voice 파일럿 사용자는 분기 사이트에 있습니다. 분기 사이트에는 중앙 사이트에 대한 안정적인 WAN(Wide Area Network) 링크가 있으므로 SSS(Survivable Branch Appliance)가 배포됩니다. 이 배포를 통해 WAN 링크가 다운된 경우 분기 사이트의 사용자는 계속 전화를 걸고 받을 수 있습니다(조직 내의 통화와 PSTN 통화 모두), 음성 메일 기능을 사용할 수 있으며 두 사용자간 IM(인스턴트 메시징)과 통신할 수 있습니다. 또한 WAN 링크를 사용할 수 없는 경우에도 사용자가 인증을 받을 수 있습니다. 자세한 내용은 비즈니스용 Skype 서버의 Enterprise Voice 계획을 [참조하세요.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)
+- **분기 사이트 지속 가능성.** 이 조직은 비즈니스용 Skype 서버의 Enterprise Voice 파일럿 프로그램을 실행하고 있습니다. 일부 사용자는 비즈니스용 Skype 서버를 단독 음성 솔루션으로 사용하고 있습니다. 이러한 Enterprise Voice 파일럿 사용자는 분기 사이트에 있습니다. 분기 사이트에는 중앙 사이트에 대한 안정적인 WAN(Wide Area Network) 링크가 있으므로 SSS(Survivable Branch Appliance)가 배포됩니다. 이 배포를 통해 WAN 링크가 다운된 경우 분기 사이트의 사용자는 계속 전화를 걸고 받을 수 있습니다(조직 내의 통화와 PSTN 통화 모두), 음성 메일 기능을 사용할 수 있으며 두 사용자간 IM(인스턴트 메시징)과 통신할 수 있습니다. 또한 WAN 링크를 사용할 수 없는 경우에도 사용자가 인증을 받을 수 있습니다. 자세한 내용은 비즈니스용 Skype 서버의 Enterprise Voice [계획(Plan for Enterprise Voice)을 참조하십시오.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)
 
 - **Exchange UM 배포** 이 참조 토폴로지에는 비즈니스용 Skype 서버가 아니라 Microsoft Exchange Server 실행되는 Exchange UM(통합 메시징) 서버가 포함됩니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "49831738"
 
 - **에지 서버 고가용성** 이 예에서는 사용자가 20,000명인 조직에서는 하나의 에지 서버만 성능에 충분합니다. 그러나 고가용성을 제공하기 위해 배포된 두 개의 에지 서버 풀을 배포했습니다.
 
-- **분기 사이트 배포 옵션** 이 토폴로지의 조직은 Enterprise Voice 솔루션으로 배포됩니다. 분기 사이트 1에는 중앙 사이트에 대한 탄력적인 WAN(Wide Area Network) 링크가 없습니다. 따라서 중앙 사이트에 대한 WAN 링크가 다운될 경우 많은 비즈니스용 Skype 서버 기능을 유지 관리하기 위해 SSI(Survivable Branch Appliance)가 배포되어 있습니다. 그러나 분기 사이트 2에는 탄력적인 WAN 링크가 있으므로 PSTN(Public Switched Telephone Network) 게이트웨이만 필요합니다. 배포된 PSTN 게이트웨이는 미디어 우회를 지원하기 때문에 분기 사이트 2에는 중재 서버가 필요하지 않습니다. 자세한 내용은 비즈니스용 Skype 서버의 Enterprise Voice 계획을 [참조하세요.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)
+- **분기 사이트 배포 옵션** 이 토폴로지의 조직은 Enterprise Voice 솔루션으로 배포됩니다. 분기 사이트 1에는 중앙 사이트에 대한 탄력적인 WAN(Wide Area Network) 링크가 없습니다. 따라서 중앙 사이트에 대한 WAN 링크가 다운될 경우 많은 비즈니스용 Skype 서버 기능을 유지 관리하기 위해 SSI(Survivable Branch Appliance)가 배포되어 있습니다. 그러나 분기 사이트 2에는 탄력적인 WAN 링크가 있으므로 PSTN(Public Switched Telephone Network) 게이트웨이만 필요합니다. 배포된 PSTN 게이트웨이는 미디어 우회를 지원하기 때문에 분기 사이트 2에는 중재 서버가 필요하지 않습니다. 자세한 내용은 비즈니스용 Skype 서버의 Enterprise Voice [계획(Plan for Enterprise Voice)을 참조하십시오.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)
 
 - **DNS 부하 분산**   프런트 엔드 풀, 에지 서버 풀 및 디렉터 풀에는 배포된 SIP 트래픽에 대한 DNS 부하 분산이 적용됩니다. 프런트 엔드 풀 및 에지 서버 풀에는 SIP 트래픽에 대한 DNS 부하 분산이 배포됩니다. 하드웨어 부하 분산 장치는 HTTP 트래픽에만 필요하기 때문입니다. 자세한 내용은 DNS 부하 [분산을 참조하세요.](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)
 
@@ -115,7 +115,7 @@ ms.locfileid: "49831738"
 
 ![토폴로지 3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
 
-- **프런트 엔드 풀이 쌍으로 설정되어 재해 복구를 사용하도록 설정됩니다.** 사이트 A 및 사이트 B의 프런트 엔드 풀은 서로 쌍으로 하여 재해 복구 지원을 제공합니다. 한 사이트의 풀에 오류가 발생하면 관리자는 해당 사이트의 사용자를 다른 사이트의 페어링된 프런트 엔드 풀로 장애 조치(fail over)할 수 있으며, 최소한 사용자의 서비스가 중단됩니다. 이러한 두 프런트 엔드 풀에는 각각 6개의 서버가 있어 장애 조치(failover) 시 두 풀에 있는 40,000명의 사용자 모두를 충분히 지원할 수 있습니다. 자세한 내용은 비즈니스용 Skype 서버에서 고가용성 및 재해 복구 [계획을 참조하세요.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+- **프런트 엔드 풀이 쌍으로 설정되어 재해 복구를 사용하도록 설정됩니다.** 사이트 A 및 사이트 B의 프런트 엔드 풀은 서로 쌍으로 하여 재해 복구 지원을 제공합니다. 한 사이트의 풀에 오류가 발생하면 관리자가 해당 사이트의 사용자를 다른 사이트의 페어링된 프런트 엔드 풀로 장애 조치(fail over)할 수 있으며, 이 경우 최소한 사용자의 서비스가 중단됩니다. 이러한 두 프런트 엔드 풀에는 각각 6개의 서버가 있어 장애 조치(failover) 시 두 풀에 있는 40,000명의 사용자 모두를 충분히 지원할 수 있습니다. 자세한 내용은 비즈니스용 Skype 서버에서 고가용성 및 재해 복구 [계획을 참조하세요.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
 
 - **백 엔드 서버가 미러링됩니다.** 기본 사용자 기능에 대한 고가용성을 제공하기 위해 조직은 각 프런트 엔드 풀에 대해 미러된 백 엔드 서버 쌍을 배포했습니다. 이는 선택적 토폴로지이며 대신 단일 백 엔드 서버를 배포할 수 있습니다. SQL 클러스터링 및 AlwaysOn 가용성 그룹도 지원됩니다. 자세한 내용은 비즈니스용 Skype 서버의 백 엔드 서버 [고가용성을 참조하세요.](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)
 
@@ -131,7 +131,7 @@ ms.locfileid: "49831738"
 
 - **SIP 트렁크와 중재 서버.** 중앙 사이트 B에는 중재 서버가 프런트 엔드 서버와 함께 배치되어 있지 않습니다. 이는 SIP 트렁크를 사용하는 사이트에는 독립 실행형 중재 서버가 권장되기 때문입니다. 그 밖의 경우에는 대부분 중재 서버를 프런트 엔드 서버와 함께 배치하는 것이 좋습니다. 중재 서버 토폴로지에 대한 자세한 내용은 계획 설명서에서 [Components and Topologies for Mediation Server](https://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx)를 참조하십시오.
 
-- **영구 채팅이 배포됩니다.** 이 조직은 영구 채팅을 사용하도록 설정하는 데 필요한 서버를 배포했습니다. 풀의 사용자 수에 대한 부하를 처리하고 고가용성을 제공하기 위해 여러 영구 채팅 프런트 엔드 서버를 배포했습니다. 또한 영구 채팅에 대한 준수를 배포하고 영구 채팅 저장소와 영구 채팅 준수 저장소를 별도의 서버에 배치했습니다. 이러한 저장소는 함께 함께 사용할 수 있으며 백 엔드 서버와 함께 함께 사용할 수도 있지만 이 조직에서는 더 나은 성능을 제공하기 위해 이러한 저장소를 분리하기로 선택했습니다.
+- **영구 채팅이 배포됩니다.** 이 조직은 영구 채팅을 사용하도록 설정하는 데 필요한 서버를 배포했습니다. 풀의 사용자 수에 대한 부하를 처리하고 고가용성을 제공하기 위해 여러 영구 채팅 프런트 엔드 서버를 배포했습니다. 또한 영구 채팅에 대한 준수를 배포하고 영구 채팅 저장소와 영구 채팅 준수 저장소를 별도의 서버에 배치했습니다. 이러한 저장소는 함께 함께 사용할 수 있으며 백 엔드 서버와 함께 함께 사용할 수도 있지만 이 조직에서는 더 나은 성능을 제공하기 위해 저장소를 분리하기로 선택했습니다.
 
     > [!NOTE]
     > 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만 비즈니스용 Skype 서버 2019에서 더 이상 지원되지 않습니다. Teams에서 동일한 기능을 사용할 수 있습니다. 자세한 내용은 Microsoft Teams 업그레이드 시작을 [참조하세요.](/microsoftteams/upgrade-start-here) 영구 채팅을 사용하려면 이 기능이 필요한 사용자를 Teams로 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용할 수 있습니다.

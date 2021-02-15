@@ -36,7 +36,7 @@ ms.locfileid: "49830588"
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>미디어 바이패스에 대한 사이트 및 지역 정보를 구성하려면
 
-1. 브라우저 창을 열고 관리자 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
+1. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판을 니다.  
     
 2. 왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭합니다.
     

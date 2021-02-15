@@ -40,6 +40,6 @@ ms.locfileid: "49832088"
   
 ### <a name="environmental-requirements"></a>환경 요구 사항
 
-[비즈니스용 Skype 서버 2015에](environmental-requirements.md) 대한 환경 요구 사항은 비즈니스용 Skype Server 2015를 배포하기 전에 인프라에 준비해야 하는 광범위한 요구 사항입니다.
+[비즈니스용 Skype 서버 2015에](environmental-requirements.md) 대한 환경 요구 사항은 비즈니스용 Skype Server 2015를 배포하기 전에 인프라에서 준비해야 하는 광범위한 사항입니다.
   
 

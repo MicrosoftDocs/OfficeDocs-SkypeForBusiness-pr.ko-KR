@@ -91,7 +91,7 @@ ms.locfileid: "49832138"
   
 비즈니스용 Skype 서버 2015에서도 도메인 이름 변경을 지원하지 않습니다. If you've really got to do that, you'll need to uninstall Skype for Business Server 2015, do the domain rename, and then reinstall Skype for Business Server 2015.
   
-마지막으로 잠긴 AD DS 환경을 사용하며 도메인을 다 사용할 수 있습니다. 이러한 종류의 환경에 비즈니스용 Skype Server 2015를 배포하는 방법에 대한 자세한 내용은 배포 docs를 참조하십시오.
+마지막으로 잠긴 AD DS 환경을 사용 중일 수 있으며 이는 모두 맞습니다. 이러한 종류의 환경에 비즈니스용 Skype Server 2015를 배포하는 방법에 대한 자세한 내용은 배포 docs를 참조하십시오.
   
 ### <a name="ad-topologies"></a>AD 토폴로지
 
@@ -123,7 +123,7 @@ ms.locfileid: "49832138"
   
 #### <a name="single-forest-with-a-single-tree-and-multiple-domains"></a>트리가 하나이고 도메인이 여러 개인 단일 포리스트
 
-![단일 포리스트, 단일 트리 및 음소거 도메인 다이어그램](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![단일 포리스트, 단일 트리 및 뮤플 도메인 다이어그램](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
 이 다이어그램은 단일 포리스트를 보여 주지만 하나 이상의 하위 도메인도 있습니다(이 특정 예에는 3개가 있습니다). 따라서 사용자가 만든 도메인은 비즈니스용 Skype 서버 2015가 배포되는 도메인과 다를 수 있습니다. 왜 걱정할까요? 비즈니스용 Skype 서버 프런트 엔드 풀을 배포할 때 해당 풀의 모든 서버는 단일 도메인에 배치해야 합니다. 비즈니스용 Skype 서버의 Windows 유니버설 관리자 그룹 지원을 통해 도메인 간 관리가 가능합니다.
   
@@ -143,9 +143,9 @@ ms.locfileid: "49832138"
   
 비즈니스용 Skype 서버 2015는 중앙 포리스트 토폴로지에서 구성된 여러 포리스트를 지원합니다. 이러한 설정이 확실하지 않은 경우 토폴로지의 중앙 포리스트는 해당 토폴로지의 개체를 사용하여 다른 포리스트의 사용자를 나타내고 포리스트의 모든 사용자에 대한 사용자 계정을 호스팅합니다.
   
-이 방식은 어떻게 작동하나요? Forefront Identity Manager 또는 FIM과 같은 디렉터리 동기화 제품은 전체적으로 조직의 사용자 계정을 관리합니다. 계정을 만들거나 포리스트에서 삭제하면 해당 변경 내용은 중앙 포리스트의 해당 연락처와 동기화됩니다.
+이 방식은 어떻게 작동하나요? 또한 디렉터리 동기화 제품(예: Forefront Identity Manager 또는 FIM)은 전체적으로 조직의 사용자 계정을 관리합니다. 계정을 만들거나 포리스트에서 삭제하면 해당 변경 내용은 중앙 포리스트의 해당 연락처와 동기화됩니다.
   
-AD 인프라가 이 토폴로지로 바로 이동하는 것은 쉽지 않을 수 있지만 이미 있는 경우나 포리스트 인프라를 계획하는 경우 이 방법을 사용하면 좋습니다. 단일 포리스트 내에서 비즈니스용 Skype 서버 2015 배포를 중앙 집중화할 수 있으며, 사용자는 모든 포리스트에서 다른 사용자의 현재 상태도 검색, 통신 및 볼 수 있습니다. 모든 사용자 연락처 업데이트는 동기화 소프트웨어를 통해 자동으로 처리됩니다.
+AD 인프라가 이 토폴로지로 바로 이동하는 것은 쉽지 않을 수 있지만 이미 있는 경우나 포리스트 인프라를 계획하는 경우 좋은 선택이 될 수 있습니다. 단일 포리스트 내에서 비즈니스용 Skype 서버 2015 배포를 중앙 집중화할 수 있으며, 사용자는 모든 포리스트에서 다른 사용자의 현재 상태도 검색, 통신 및 볼 수 있습니다. 모든 사용자 연락처 업데이트는 동기화 소프트웨어를 통해 자동으로 처리됩니다.
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>비즈니스용 Skype 리소스 포리스트 토폴로지의 여러 포리스트
 <a name="BKMK_multipleforestopology"> </a>
@@ -170,9 +170,9 @@ AD 인프라가 이 토폴로지로 바로 이동하는 것은 쉽지 않을 수
 
 ![두 개의 AD 포리스트, 1개의 사용자 포리스트 및 하나의 리소스 포리스트를 보여줍니다. 두 포리스트에는 트러스트 관계가 있습니다. Azure AD Connect를 사용하여 Microsoft 365 또는 Office 365와 동기화됩니다. 모든 사용자는 Microsoft 365 또는 Office 365를 통해 비즈니스용 Skype를 사용할 수 있습니다.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-이 시나리오에서는 리소스 포리스트 토폴로지가 있는 여러 포리스트가-프레미스에 있습니다. Active Directory 포리스트 간에는 전체 트러스트 관계가 있습니다. Azure Active Directory Connect 도구는 Microsoft 365 또는 Office 365와의 계정을 동기화하는 데 사용됩니다.
+이 시나리오에서는 리소스 포리스트 토폴로지가 있는 여러 포리스트가 있습니다. Active Directory 포리스트 간에는 전체 트러스트 관계가 있습니다. Azure Active Directory Connect 도구는 Microsoft 365 또는 Office 365와의 계정을 동기화하는 데 사용됩니다.
   
- 또한 조직에는 Microsoft 365 또는 Office 365가 [있으며, Azure Active Directory Connect를](https://go.microsoft.com/fwlink/p/?LinkId=614836) 사용하여 해당 계정을 Microsoft 365 또는 Office 365와 동기화합니다. 비즈니스용 Skype를 사용할 수 있는 사용자는 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 통해 사용할 수 있습니다. 비즈니스용 Skype 서버는 온라인에서 배포되지 않습니다.
+ 또한 조직에는 Microsoft 365 또는 Office 365가 [있으며, Azure Active Directory Connect를](https://go.microsoft.com/fwlink/p/?LinkId=614836) 사용하여 해당 계정을 Microsoft 365 또는 Office 365와 동기화합니다. 비즈니스용 Skype를 사용할 수 있는 사용자는 Microsoft 365 또는 Office 365 및 비즈니스용 Skype Online을 통해 사용할 수 있습니다. 비즈니스용 Skype 서버는 프레미스에서 배포되지 않습니다.
   
 Single Sign-On 인증은 사용자 포리스트에 있는 Active Directory Federation Services 팜에서 제공됩니다.
   
@@ -181,7 +181,7 @@ Single Sign-On 인증은 사용자 포리스트에 있는 Active Directory Feder
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>하이브리드 비즈니스용 Skype를 사용하는 리소스 포리스트 토폴로지의 여러 포리스트
 <a name="BKMK_multipleforestopology"> </a>
 
-이 시나리오에는 하나 이상의온-프레미스 사용자 포리스트가 있으며, 비즈니스용 Skype는 전용 리소스 포리스트에 배포되어 비즈니스용 Skype Online을 통해 하이브리드 모드로 구성됩니다. Exchange Server 동일한 리소스 포리스트 또는 다른 포리스트에 배포할 수 있으며 Exchange Online과의 하이브리드를 위해 구성할 수 있습니다. 또는 Exchange Online에서 전용으로 전자 메일 서비스를 제공한 경우,프레미스 계정에 대해 전자 메일 서비스를 사용할 수 있습니다.
+이 시나리오에는 하나 이상의온-프레미스 사용자 포리스트가 있으며, 비즈니스용 Skype는 전용 리소스 포리스트에 배포되어 비즈니스용 Skype Online을 통해 하이브리드 모드로 구성됩니다. Exchange Server 동일한 리소스 포리스트 또는 다른 포리스트에 배포할 수 있으며 Exchange Online과의 하이브리드를 위해 구성할 수 있습니다. 또는 Exchange Online에서만 전자 메일 서비스를 사용할 수 있습니다.
   
 자세한 내용은 하이브리드 비즈니스용 Skype에 대한 다중 포리스트 환경 [구성을 참조하세요.](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md)
   
@@ -198,7 +198,7 @@ Single Sign-On 인증은 사용자 포리스트에 있는 Active Directory Feder
     
 - DNS를 사용하면 외부 사용자 및 클라이언트 컴퓨터를 IM(인스턴트 메시징) 또는 회의에 대해 에지 서버 또는 HTTP 역방향 프록시에 연결할 수 있습니다.
     
-- 이 기능을 사용하면 로그인되지 않은 UC(통합 통신) 장치가 장치 업데이트 웹 서비스를 실행하는 프런트 엔드 풀 또는 Standard Edition 서버를 검색하여 업데이트를 다운로드하고 로그를 보낼 수 있습니다.
+- 이를 통해 로그인되지 않은 UC(통합 통신) 장치가 장치 업데이트 웹 서비스를 실행하는 프런트 엔드 풀 또는 Standard Edition 서버를 검색하여 업데이트를 다운로드하고 로그를 보낼 수 있습니다.
     
 - DNS를 사용하면 모바일 클라이언트가 사용자가 장치 설정에 URL을 수동으로 입력하지 않고도 웹 서비스 리소스를 자동으로 검색할 수 있습니다.
     
@@ -208,7 +208,7 @@ Single Sign-On 인증은 사용자 포리스트에 있는 Active Directory Feder
   
 또한 DNS의 모든 이름은 비즈니스용 Skype 서버 2015에서 사용하는 모든 서버에 구성된 컴퓨터 이름과 동일하다는 점에 유의해야 합니다. 특히 환경에는 짧은 이름을 사용할 수 없습니다. 토폴로지 작성기용 FQDNS가 있어야 합니다.
   
-이는 이미 도메인에 가입된 모든 컴퓨터에 논리적일 수 있지만 도메인에 가입되지 않은 에지 서버가 있는 경우 기본적으로 도메인 접미사 없이 짧은 이름을 사용할 수 있습니다. DNS 또는 에지 서버 또는 비즈니스용 Skype 서버 2015 서버 또는 풀에서 이러한 문제가 없는지 확인하십시오.
+이는 이미 도메인에 가입된 모든 컴퓨터에 논리적일 수 있지만 도메인에 가입되지 않은 에지 서버가 있는 경우 도메인 접미사 없이 짧은 이름의 기본값을 사용할 수 있습니다. DNS 또는 에지 서버 또는 비즈니스용 Skype 서버 2015 서버 또는 풀에서 이러한 문제가 없는지 확인하십시오.
   
 유니코드 문자나 밑면을 사용하지 않는 것이 까다로우면 안 됩니다. 표준 문자(A-Z, a-z, 0-9 및 하이픈)는 외부 DNS 및 공용 인증 기관에서 지원할 문자입니다(인증서의 SN에 FQDN을 할당해야 합니다. 이를 염두에 두면 많은 고민을 하게 됩니다.
   
@@ -248,7 +248,7 @@ Single Sign-On 인증은 사용자 포리스트에 있는 Active Directory Feder
 - Windows Server 2003 CA로 웹 기반 인증서 요청을 전송할 때는 Windows Server 2003 SP2 또는 Windows XP를 실행하는 컴퓨터에서 요청을 전송해야 합니다.
     
 > [!NOTE]
-> KB922706은 Windows Server 2003 인증서 서비스 웹 등록에 대해 웹 인증서를 등록하는 문제를 해결하기 위해 지원하기는 하지만 Windows Server 2008, Windows Vista 또는 Windows 7을 사용하여 Windows Server 2003 CA에서 인증서를 요청할 수 없습니다. 
+> KB922706은 Windows Server 2003 인증서 서비스 웹 등록에 대해 웹 인증서를 등록할 때 문제를 해결하기 위해 지원하기는 하지만 Windows Server 2008, Windows Vista 또는 Windows 7을 사용하여 Windows Server 2003 CA에서 인증서를 요청할 수 없습니다. 
   
 > [!NOTE]
 > RSASSA-PSS 서명 알고리즘을 사용할 수 없는 경우 로그인 및 전달 문제 중 오류가 발생할 수 있습니다. 
@@ -270,7 +270,7 @@ Single Sign-On 인증은 사용자 포리스트에 있는 Active Directory Feder
   
 비즈니스용 Skype 서버 2015에는 SHA-256 암호화 해시 기능을 사용하여 서명된 인증서(필요 없이)에 대한 지원도 포함되어 있습니다. SHA-256을 사용하여 외부 액세스를 지원하기 위해 SHA-256을 사용하는 공용 CA에서 외부 인증서를 발급해야 합니다.
   
-간단한 방법을 시도하고 유지하기 위해 Standard Edition 서버, 프런트 엔드 풀 및 기타 역할에 대한 인증서 요구 사항을 다음 표에 넣은 다음 표에는 예제에 사용되는 contoso.com 설명이 있습니다(사용자 환경에 다른 것을 사용하게 될 수 있습니다). 이러한 인증서는 모두 표준 웹 서버 인증서로, 내보낼 수 없는 개인 키가 있습니다. 참고할 몇 가지 추가 사항:
+간단한 작업과 계속하기 위해 Standard Edition 서버, 프런트 엔드 풀 및 기타 역할에 대한 인증서 요구 사항을 다음 표에 넣은 다음 표에는 예제에 사용되는 contoso.com 설명이 있습니다(사용자 환경에 다른 것을 사용하게 될 수 있습니다). 이러한 인증서는 모두 표준 웹 서버 인증서로, 내보낼 수 없는 개인 키가 있습니다. 참고할 몇 가지 추가 사항:
   
 - 인증서 마법사를 사용하여 인증서를 요청할 때 서버 EKU(확장된 키 사용)가 자동으로 구성됩니다.
     
@@ -316,7 +316,7 @@ Survivable Branch Appliance용 인증서:
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>영구 채팅 서버에 대한 인증서
 
-영구 채팅 서버를 설치할 때 비즈니스용 Skype 서버 2015 내부 서버에서 사용하는 인증서와 동일한 CA에서 발급한 인증서가 필요합니다. 이 파일은 파일 업로드/다운로드를 위해 영구 채팅 웹 서비스를 실행하는 각 서버에 대해 수행해야 합니다. 영구 채팅 설치를 시작하기 전에 필요한 인증서가 있는 것이 좋습니다. 또한 CA가 외부에 있는 경우 인증서를 훨씬 더 많이 발급하는 것이 좋습니다(발급하는 데 약간의 시간이 걸릴 수 있습니다).
+영구 채팅 서버를 설치할 때 비즈니스용 Skype 서버 2015 내부 서버에서 사용하는 인증서와 동일한 CA에서 발급한 인증서가 필요합니다. 이 파일은 파일 업로드/다운로드를 위해 영구 채팅 웹 서비스를 실행하는 각 서버에 대해 수행해야 합니다. 영구 채팅 설치를 시작하기 전에 필요한 인증서가 있는 것이 좋습니다. 또한 CA가 외부에 있는 경우 인증서가 훨씬 더 많이 있으므로 발급하는 데 시간이 좀 걸릴 수 있습니다.
   
 ### <a name="certificates-for-external-user-access-edge"></a>외부 사용자 액세스용 인증서(Edge)
 
@@ -338,7 +338,7 @@ RP(역방향 프록시)도 공용 인증서를 사용하게 되며, RP에서 클
     
 아래 각 표에서 구체적인 정보를 나열할 것입니다.
   
-이제 약간 미리 계획하는 것이 좋지만 경우에 따라 모바일을 배포하지 않고 비즈니스용 Skype Server 2015를 배포한 경우 해당 환경에 인증서가 이미 있는 경우도 있습니다. 내부 CA를 통해 다시 발급하는 것은 일반적으로 매우 간단하지만 공용 CA의 공용 인증서를 사용할 경우 비용이 약간 더 들 수 있습니다.
+이제 약간 미리 계획하는 것이 좋지만 경우에 따라 모바일을 배포하지 않고 비즈니스용 Skype Server 2015를 배포했기 때문에 환경에 인증서가 이미 있는 경우도 있습니다. 내부 CA를 통해 다시 발급하는 것은 일반적으로 매우 간단하지만 공용 CA의 공용 인증서를 사용할 경우 비용이 약간 더 들 수 있습니다.
   
 이 경우 SIP 도메인이 많을 경우(SANS를 추가하는 데 비용이 많이 드는 경우) HTTPS(기본 구성)를 사용하는 대신 초기 자동 검색 서비스 요청에 HTTP를 사용하도록 역방향 프록시를 구성할 수 있습니다. 모바일 계획 항목에는 이에 대한 자세한 정보가 있습니다.
   
@@ -367,7 +367,7 @@ Director 풀 및 프런트 엔드 풀 인증서 요구 사항:
 
 비즈니스용 Skype 서버 2015는 모든 파일 저장소에 동일한 파일 공유를 사용할 수 있습니다. 다음에 유의해야 합니다.
   
-- 파일 공유는 DAS(직접 연결된 저장소) 또는 SAN(저장소 영역 네트워크)에 포함되어야 하며, 여기에는 DFS(분산 파일 시스템) 및 파일 저장소용 RAID(중복 디스크)의 중복 배열이 포함됩니다. 자세한 내용은 이 DFS Windows Server 2012 [DFS 페이지를 참조하세요.](https://technet.microsoft.com/library/jj127250.aspx)
+- 파일 공유는 DAS(직접 연결된 저장소) 또는 SAN(저장소 영역 네트워크)에 포함되어야 하며, 여기에는 DFS(분산 파일 시스템) 및 파일 저장소용 RAID(중복 디스크)의 중복 배열이 포함됩니다. For further reading on DFS for Windows Server 2012, check out [this DFS page.](https://technet.microsoft.com/library/jj127250.aspx)
     
 - 파일 공유에 대해 공유 클러스터를 권장하는 것이 좋습니다. R2를 사용하는 경우 R2를 Windows Server 2012 Windows Server 2012 합니다. Windows Server 2008 R2도 사용할 수 있습니다. 최신 Windows가 왜 최신인가요? 이전 버전에는 모든 기능을 사용하도록 설정할 수 있는 권한이 없는 경우도 있습니다. 클러스터 관리자를 사용하여 파일 공유를 만들 [](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) 수 있으며, 이 클러스터 문서에서 파일 공유를 만드는 방법을 통해 이러한 세부 정보를 쉽게 알 수 있습니다.
     

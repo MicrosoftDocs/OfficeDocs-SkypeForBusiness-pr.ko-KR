@@ -38,7 +38,7 @@ Microsoft Teams 관리 센터에서 이러한 설정을 쉽게 관리할 수 있
 
 ## <a name="set-up-event-support-url"></a>이벤트 지원 URL 설정
 
-이 URL은 라이브 이벤트 참석자에 표시됩니다. 조직의 지원 URL을 추가하여 라이브 이벤트 중에 참석자 지원에 문의할 수 있는 방법을 제공합니다.
+이 URL은 라이브 이벤트 참석자에 표시됩니다. 조직에 대한 지원 URL을 추가하여 라이브 이벤트 중에 참석자 지원에 문의할 수 있는 방법을 제공합니다.
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams 로고를 보여주는 아이콘](../media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
 

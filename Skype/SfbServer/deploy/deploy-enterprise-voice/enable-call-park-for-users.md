@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: 사용자가 비즈니스용 Skype 서버 2016에서 통화 파크를 사용하도록 Enterprise Voice.
+description: 사용자가 비즈니스용 Skype 서버에서 통화 파크를 사용할 수 있도록 Enterprise Voice.
 ms.openlocfilehash: e9bbc42f5940af0cfc94ab83eae981dd023c9fcd
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "49830958"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>비즈니스용 Skype에서 사용자에 대해 통화 파크 사용
  
-사용자가 비즈니스용 Skype 서버 2016에서 통화 파크를 사용하도록 Enterprise Voice.
+사용자가 비즈니스용 Skype 서버에서 통화 파크를 사용할 수 있도록 Enterprise Voice.
   
 기본적으로 모든 사용자에 대해 통화 파크는 사용하지 않도록 설정됩니다. 사용자는 음성 정책에서 통화 파크를 사용하도록 설정해야 통화를 파기하거나 통화를 검색할 수 있습니다.
   
@@ -53,7 +53,7 @@ ms.locfileid: "49830958"
     
 2. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
-3. 을 실행합니다.
+3. 실행:
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true

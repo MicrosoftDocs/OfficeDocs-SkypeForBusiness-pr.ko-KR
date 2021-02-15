@@ -33,7 +33,7 @@ ms.locfileid: "49831758"
 
 ## <a name="sites"></a>사이트
 
-비즈니스용 Skype 서버에서는 네트워크에서 비즈니스용 Skype 서버 구성 요소가 포함된 사이트를 정의합니다. 사이트는 단일 LAN(Local Area Network)이나 고속 광섬유 네트워크로 연결된 두 개의 네트워크와 같이 고속, 짧은 대기 시간 네트워크로 견고하게 연결된 컴퓨터 집합입니다. 비즈니스용 Skype 서버 사이트는 Active Directory 도메인 서비스 사이트 및 비즈니스용 Skype Microsoft Exchange Server 개념입니다. 비즈니스용 Skype 서버 사이트는 Active Directory 사이트에 해당할 필요가 없습니다.
+비즈니스용 Skype 서버에서는 비즈니스용 Skype 서버 구성 요소가 포함된 사이트를 네트워크에서 정의합니다. 사이트는 단일 LAN(Local Area Network)이나 고속 광섬유 네트워크로 연결된 두 개의 네트워크와 같이 고속, 짧은 대기 시간 네트워크로 견고하게 연결된 컴퓨터 집합입니다. 비즈니스용 Skype 서버 사이트는 Active Directory 도메인 서비스 사이트 및 사이트와는 별개의 Microsoft Exchange Server 있습니다. 비즈니스용 Skype 서버 사이트는 Active Directory 사이트에 해당할 필요가 없습니다.
 
 비즈니스용 Skype 서버는 고가용성 및 위치 요구 사항에 따라 확장할 수 있는 하나 이상의 사이트에 대한온-프레미스 배포를 지원합니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "49831758"
 
 - SSS(Survivable Branch Server)는 비즈니스용 Skype 서버 등록자 및 중재 서버 소프트웨어가 설치된 Windows Server를 실행하는 서버입니다.
 
-- 독립 실행형 PSTN 게이트웨이(Survivable Branch Appliance에 참여하지 않는 게이트웨이).
+- 독립 실행형 PSTN 게이트웨이(Survivable Branch Appliance의 일부가 아닌 경우).
 
 - 독립 실행형 중재 서버 또는 독립 실행형 중재 서버 풀(이 역할을 Survivable Branch Appliance와 함께 사용하려는 경우)
 
@@ -73,7 +73,7 @@ ms.locfileid: "49831758"
 
 - 영구 채팅 서버. 사용자가 시간이 지날 때 주제 기반의 여러 대화에 참여할 수 있도록 하려는 경우 유용합니다. 영구 채팅 서버 계획 항목에는 자세한 정보가 있습니다.
 
-- 모니터링. 배포의 A/V(오디오/비디오) QoE(QoE) 및 CDR(통화 정보 기록)에 대한 데이터 수집을 지원하는 Enterprise Voice 및 A/V 회의에 사용됩니다. 모니터링 계획 항목에서 자세히 논의합니다.
+- 모니터링. 배포에서 A/V(오디오/비디오) QoE(QoE) 및 CDR(통화 정보 기록)에 대한 데이터 수집을 지원하는 Enterprise Voice 및 A/V 회의에 사용됩니다. 모니터링 계획 항목에서 자세히 논의합니다.
 
 - Director 또는 Director 풀. 필수는 아니며, 사용자의 홈 풀로의 비즈니스용 Skype 사용자 요청 리디렉션을 사용하도록 설정하려는 경우 유용합니다. Director를 배포하려는 경우 풀당 최대 10개가 지원됩니다. 필요한 경우 반드시 Director 계획 항목에서 계속 읽어야 합니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "49831758"
 
 이 목록에서 Exchange UM(통합 메시징) 서버는 어디에 있나요? Exchange UM과 통합하려는 경우 비즈니스용 Skype 서버와 확실히 사용할 수 있지만 비즈니스용 Skype 서버 사이트의 구성 요소는 아니기 때문에 여기에서는 언급하지 않습니다.
 
-중앙 사이트가 여러 개인 경우 중앙 사이트에 배포된 경우 다음 서버 및 역할을 공유할 수 있습니다.
+중앙 사이트가 여러 개 있을 계획일 수 있으며, 이 경우 중앙 사이트에 배포된 경우 다음 서버 및 역할을 공유할 수 있습니다.
 
 |||
 |:-----|:-----|
@@ -114,7 +114,7 @@ ms.locfileid: "49831758"
 
 ### <a name="front-end-server-and-back-end-server"></a>프런트 엔드 서버 및 백 엔드 서버
 
-비즈니스용 Skype 서버 Enterprise Edition에서 프런트 엔드 서버는 핵심 서버 역할로, 여러 가지 기본 비즈니스용 Skype 서버 기능을 실행합니다. 프런트 엔드 서버는 백 엔드 서버와 함께 비즈니스용 Skype 서버 Enterprise Edition 배포에 필요한 유일한 서버 역할입니다.
+비즈니스용 Skype 서버 Enterprise Edition에서 프런트 엔드 서버는 핵심 서버 역할로, 여러 가지 기본 비즈니스용 Skype 서버 기능을 실행합니다. 프런트 엔드 서버는 백 엔드 서버와 함께 모든 비즈니스용 Skype 서버 Enterprise Edition 배포에 필요한 유일한 서버 역할입니다.
 
 프런트 엔드 풀은 동일하게 구성된 프런트 엔드 서버 집합으로서, 이러한 서버가 함께 일반 사용자 그룹에 대한 서비스를 제공합니다. 동일 역할을 실행하는 여러 서버로 구성된 풀은 확장성 및 장애 조치(Failover) 기능을 제공합니다.
 
@@ -130,7 +130,7 @@ ms.locfileid: "49831758"
 
 - 웹 회의, PSTN 전화 접속 회의 및 A/V 회의(배포된 경우)
 
-- 비즈니스용 Skype 서버에 포함된 응용 프로그램(예: 회의 전화자 및 응답 그룹 응용 프로그램) 및 타사 응용 프로그램 모두에 대한 응용 프로그램 호스팅
+- 비즈니스용 Skype 서버에 포함된 응용 프로그램(예: 회의 참석자 및 응답 그룹 응용 프로그램) 및 타사 응용 프로그램 모두에 대한 응용 프로그램 호스팅
 
 - CDR(통화 정보 기록) 및 CER(통화 오류 기록)의 형식으로 사용 정보를 수집하는 모니터링(선택 사항). 이 정보는 통화 및 A/V 회의에 대해 네트워크를 트래버스하는 미디어(오디오 Enterprise Voice)의 품질에 대한 메트릭을 제공합니다.
 
@@ -171,7 +171,7 @@ ms.locfileid: "49831758"
 
 중재 서버는 Enterprise Voice, 직장 전화 및 전화 접속 회의를 구현하는 데 필요한 구성 요소입니다. 중재 서버는 내부 비즈니스용 Skype 서버 인프라와 PSTN(Public Switched Telephone Network) 게이트웨이, IP-PBX 또는 SIP(Session Initiation Protocol) 트렁크 간의 신호 및 일부 구성의 미디어를 변환합니다. 중재 서버는 프런트 엔드 서버와 동일한 서버에 함께 배치하여 실행하거나 독립 실행형 중재 서버 풀에 별도로 배치한 상태로 실행할 수 있습니다.
 
-자세한 내용은 비즈니스용 Skype 서버의 중재 서버 구성 요소를 [참조하세요.](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
+자세한 내용은 비즈니스용 [Skype 서버의 중재 서버 구성 요소를 참조하세요.](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
 
 ### <a name="video-interop-server"></a>비디오 Interop 서버
 
@@ -192,7 +192,7 @@ Video Interop Server는 비즈니스용 Skype 서버 2015의 새로운 역할입
 
 비즈니스용 Skype 서버 Standard Edition을 실행하는 서버도 동일한 서버에 함께 있는 영구 채팅을 실행할 수 있습니다. 영구 채팅 프런트 엔드 서버를 Enterprise Edition 프런트 엔드 서버와 함께 함께 사용할 수는 없습니다.
 
-자세한 내용은 비즈니스용 Skype 서버 [2015의 영구 채팅 서버 계획(Plan for Persistent Chat Server)을 참조하세요.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+자세한 내용은 비즈니스용 Skype 서버 2015의 영구 채팅 서버 [계획(Plan for Persistent Chat Server)을 참조하세요.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
 
 ## <a name="high-availability-and-disaster-recovery-support"></a>고가용성 및 재해 복구 지원
 
@@ -218,7 +218,7 @@ Video Interop Server는 비즈니스용 Skype 서버 2015의 새로운 역할입
 
 ### <a name="collocation-of-server-roles"></a>서버 역할의 함께 사용
 
-Standard Edition 서버에는 다음과 같은 역할이 배치되어 있으며(추가 구성은 필요한 경우), Enterprise Edition 프런트 엔드 풀에서는 이 역할을 별도의 서버에 배치하거나 배포할 수 있습니다.
+Standard Edition 서버에는 다음과 같은 역할이 배치되어 있으며(추가 구성은 필요), Enterprise Edition 프런트 엔드 풀에서는 이 역할을 별도의 서버에 배치하거나 배포할 수 있습니다.
 
 - 중재
 
@@ -251,7 +251,7 @@ Standard Edition 서버에는 이러한 서버를 함께 사용할 수 없지만
 
 - Enterprise Edition 프런트 엔드 풀의 모든 백 엔드 데이터베이스
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>엔터프라이즈
 
 다음 데이터베이스는 동일한 백 엔드 에 함께 SQL Server.
 
@@ -291,7 +291,7 @@ Standard Edition 서버에는 이러한 서버를 함께 사용할 수 없지만
 - 영구 채팅 준수 데이터베이스
 
 > [!CAUTION]
-> 이러한 서버에 파일 공유를 함께 사용할 수 있는 경우 권장되지는 않습니다. 파일 공유를 다른 서버 역할과 함께 설치하는 경우 정기적으로 디스크 공간 및 성능 문제를 모니터링하고 있는지 확인하시기 바랍니다.
+> 이러한 서버에 파일 공유를 함께 사용할 수 있는 반면, 권장되지는 않습니다. 파일 공유를 다른 서버 역할과 함께 함께 설치하는 경우 디스크 공간 및 성능 문제를 정기적으로 모니터링하고 있는지 확인하시기 바랍니다.
 
 ### <a name="keep-in-mind"></a>유의할 사항
 

@@ -25,11 +25,11 @@ ms.locfileid: "49830528"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 개별 SIP 트렁크에 대한 정보 보기
  
-**요약:** 비즈니스용 Skype 서버에서 SIP 트렁크에 대한 정보를 보는 방법을 알아보습니다.
+**요약:** 비즈니스용 Skype 서버에서 SIP 트렁크에 대한 정보를 보는 방법에 대해 자세히 알아보습니다.
   
 SIP 트렁크는 비즈니스용 Skype 서버 Voice over IP 전화 네트워크를 PSTN(Public Switched Telephone Network)에 연결하는 데 사용됩니다. 이전 버전의 제품에서는 트렁크가 중재 서버에서 PSTN 게이트웨이로 아웃바운드 통화를 라우팅하는 데 사용되어 각 게이트웨이가 단일 트렁크로 제한되었습니다. 따라서 PSTN 게이트웨이와 SIP 트렁크는 기본적으로 동일합니다. 관리자는 연결된 PSTN 게이트웨이에 대한 정보를 보기만 하여 개별 SIP 트렁크에 대한 정보를 볼 수 있습니다.
   
-그러나 비즈니스용 Skype 서버에서는 이제 단일 PSTN 게이트웨이에 여러 트렁크를 할당할 수 있습니다. 즉, 게이트웨이와 트렁크가 더 이상 같지 않습니다. 따라서 관리자는 새 [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) cmdlet을 사용하여 개별 SIP 트렁크에 대한 정보를 보아야 합니다.
+그러나 비즈니스용 Skype 서버에서는 이제 단일 PSTN 게이트웨이에 여러 트렁크를 할당할 수 있습니다. 즉, 게이트웨이와 트렁크가 더 이상 같지 않습니다. 따라서 관리자는 개별 SIP 트렁크에 대한 정보를 보기 위해 새 [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) cmdlet을 사용해야 합니다.
   
 ### <a name="to-view-information-for-all-your-sip-trunks"></a>모든 SIP 트렁크에 대한 정보를 확인
 

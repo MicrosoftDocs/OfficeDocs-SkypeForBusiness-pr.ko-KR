@@ -61,15 +61,15 @@ ms.locfileid: "49831368"
 |**인바운드** <br/> |bit  <br/> | <br/> |수신기 쪽 스트림 데이터를 수신합니다.  <br/> |
 |**아웃바운드** <br/> |bit  <br/> | <br/> |보낸 사람 쪽 스트림 데이터를 수신합니다.  <br/> |
 |**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1은 스트림 방향이 발신자에서 발신자까지입니다.  <br/> 0은 스트림 방향이 수신자에서 발신자의 방향임을 의미합니다.  <br/> |
-|**JitterInterArrivalsd** <br/> |float  <br/> ||지터 도착 시간의 표준 편차입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
+|**JitterInterArrivalSD** <br/> |float  <br/> ||지터 도착 시간의 표준 편차입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**ConcealRatioMax** <br/> |float  <br/> ||처리기에서 은신한 패킷의 최대 비율입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
-|**ConcealRatioSD** <br/> |float  <br/> ||처리기에서 은신한 패킷의 비율에 대한 표준 편차입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
+|**ConcealRatioSD** <br/> |float  <br/> ||처리기에서 은신한 패킷 비율에 대한 표준 편차입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**HealerPacketDropRatio** <br/> |float  <br/> ||수신된 총 패킷 수와 비교하여 처리기에서 삭제한 패킷 비율입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**HealerFECPacketUsedRatio** <br/> |float  <br/> ||수신된 총 패킷 수와 비교하여 사용된 전방 오류 수정 패킷의 비율입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**MaxCompressedSamples** <br/> |float  <br/> ||Healer에 의해 압축된 최대 오디오 패킷 수입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**LossCongestionPercent** <br/> |float  <br/> ||통화가 정체 상태인 시간의 백분율을 나타냅니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**DelayCongestionPercent** <br/> |float  <br/> ||지연된 네트워크 패킷 도착으로 인해 정체가 발생한 통화 비율을 나타냅니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
-|**ContentionDetectedPercent** <br/> |float  <br/> ||통화가 네트워크 리소스에 대해 경쟁하는 시간의 백분율을 나타냅니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
+|**ContentionDetectedPercent** <br/> |float  <br/> ||통화가 네트워크 리소스를 위해 경쟁하는 시간의 백분율을 나타냅니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**BandwidthEstMin** <br/> |int  <br/> ||통화 중에 측정된 최소 대역폭 예상량입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**BandwidthEstMax** <br/> |int  <br/> ||통화 중에 측정된 최대 대역폭 예상량입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |
 |**BandwidthEstStdDev** <br/> |int  <br/> ||통화 중에 측정된 대역폭 예상 표준 편차입니다.  <br/> 이 열은 Microsoft Lync Server 2013에서 도입된 것입니다.  <br/> |

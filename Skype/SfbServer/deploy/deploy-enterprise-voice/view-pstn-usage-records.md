@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: '요약: 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 PSTN 사용 레코드를 보는 방법을 설명하는 방법을 설명하는 문서입니다.'
+description: '요약: 비즈니스용 Skype 서버 제어판 또는 비즈니스용 Skype 서버 관리 셸을 사용하여 PSTN 사용 레코드를 보는 방법을 설명하는 방법을 제공합니다.'
 ms.openlocfilehash: abf9f3ec9ce1e2801de2c6017d12fd64df0c8954
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

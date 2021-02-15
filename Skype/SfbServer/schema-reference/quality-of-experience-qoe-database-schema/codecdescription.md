@@ -22,7 +22,7 @@ ms.locfileid: "49831348"
 ---
 # <a name="codecdescription-table"></a>CodecDescription 테이블
  
-CodecDescription 테이블은 고유 코덱 식별자를 해당 코덱에 매핑합니다. 코덱은 전송 및 브로드캐스트용으로 디지털 신호를 인코딩한 다음 재생용으로 신호를 디코딩하는 데 사용됩니다. 이 표는 Microsoft Lync Server 2013에서 도입된 표입니다.
+CodecDescription 테이블은 고유 코덱 식별자를 해당 코덱에 매핑합니다. 코덱은 전송 및 브로드캐스트용으로 디지털 신호를 인코딩한 다음 재생용으로 신호를 디코딩하는 데 사용됩니다. 이 표는 Microsoft Lync Server 2013에서 도입
   
 |**열**|**데이터 형식**|**키/인덱스**|**세부 정보**|
 |:-----|:-----|:-----|:-----|

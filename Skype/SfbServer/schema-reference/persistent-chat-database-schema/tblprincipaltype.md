@@ -50,7 +50,7 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류하기 �
 |5   <br/> |사용자  <br/> |일반 사용자입니다.  <br/> |예  <br/> |
 |8   <br/> |DC  <br/> |Active Directory 도메인 서비스 도메인 컨트롤러.  <br/> ||
 |9   <br/> |그룹  <br/> |Active Directory 보안 그룹입니다.  <br/> ||
-|10   <br/> |폴더  <br/> |Active Directory 컨테이너 또는 조직 단위입니다.  <br/> ||
+|10    <br/> |폴더  <br/> |Active Directory 컨테이너 또는 조직 단위입니다.  <br/> ||
    
 ## <a name="see-also"></a>참고 항목
 

@@ -55,7 +55,7 @@ ms.locfileid: "49832388"
     
 - [네트워크 구성 다이어그램 편집](edit-the-topology.md#Edit_Network_diagram)
     
-- [비즈니스용 Skype 서버의 관리자 보고서 검토](review-the-administrator-reports.md)
+- [비즈니스용 Skype 서버 2015에서 관리자 보고서 검토](review-the-administrator-reports.md)
     
 ## <a name="see-also"></a>참고 항목
 

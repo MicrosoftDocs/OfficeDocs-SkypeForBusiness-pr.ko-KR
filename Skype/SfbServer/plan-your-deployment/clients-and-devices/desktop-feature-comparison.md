@@ -16,7 +16,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
-description: '요약: 비즈니스용 Skype 서버 2015 또는 비즈니스용 Skype Online 관리자는 다음 표를 사용하여 어떤 클라이언트에서 지원되는 기능을 이해할 수 있습니다.'
+description: '요약: 비즈니스용 Skype 서버 2015 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용하여 어떤 클라이언트에서 지원되는 기능을 이해할 수 있습니다.'
 ms.openlocfilehash: 5ee4546e62593ca61e9833bbdf1c09efeef4ce13
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "49832188"
   
  비즈니스용 Skype를 배포하거나 업그레이드하기 전에 조직에서 이미 사용 중이던 클라이언트를 확인하세요. 아래 표를 사용하여 해당 클라이언트에 대한 기능 지원 영향을 이해합니다. 이를 통해 사용자에 대한 변경 내용을 전달하고 롤아웃 프로세스의 속도를 향상하며 최신 클라이언트로 업그레이드할 때의 이점을 완전히 이해할 수 있습니다.
   
-비즈니스용 Skype Server 2015에서 사용할 수 있는 일부 기능은 비즈니스용 Skype Online에서 사용할 수 없습니다. 자세한 내용은 [온라인](desktop-feature-comparison.md#Online-Hybrid) 또는 하이브리드 사용자 계정 제한을 참조하세요. 비즈니스용 Skype Online 관리자는 사용할 수 있는 다양한 계획에 대한 정보를 비즈니스용 [Skype Online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) 서비스 설명을 참조할 수 있습니다.
+비즈니스용 Skype Server 2015에서 사용할 수 있는 일부 기능은 비즈니스용 Skype Online에서 사용할 수 없습니다. 자세한 내용은 [온라인](desktop-feature-comparison.md#Online-Hybrid) 또는 하이브리드 사용자 계정 제한을 참조하세요. 비즈니스용 Skype Online 관리자는 비즈니스용 [Skype Online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) 서비스 설명을 참조하여 사용 가능한 여러 계획에 대한 정보를 참조할 수 있습니다.
 
 비즈니스용 Skype 서버 2019에서 클라이언트 지원을 위해 비즈니스용 [Skype 2019에](../../../SfBServer2019/plan/feature-comparison.md) 대한 데스크톱 클라이언트 기능 비교를 참조하세요.
   
@@ -90,7 +90,7 @@ ms.locfileid: "49832188"
 
 <a name="BKMK_IMSupport"> </a>
 
-이 표에서는 IM 지원과 관련된 기능을 다 제공합니다.
+이 표에는 IM 지원과 관련된 기능이 다수 표시됩니다.
 
 |기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -99,7 +99,7 @@ ms.locfileid: "49832188"
 |Outlook에서 메신저 대화 로깅 |&#x2714;|&#x2714;서버 쪽 대화 기록이 켜져 있는 경우  |&#x2714;|&#x2714;|&#x2714;|&#x2714;||Communicator for Mac에 저장됨 |Lync for Mac에 저장됨 |
 |준비된 대화 템플릿 사용 |||||&#x2714;|&#x2714;||||
 |맞춤법 검사 |&#x2714;|&#x2714;||&#x2714;|||||&#x2714;|
-|기술 검색(SharePoint Server 통합 사용)  <br/> (기술 검색에는 비즈니스용 Skype 서버 및 On-premises SharePoint 2013이 필요합니다.) |&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;||||
+|기술 검색(SharePoint Server 통합 사용)  <br/> (기술 검색을 위해서는 비즈니스용 Skype 서버 및 On-premises SharePoint 2013이 필요합니다.) |&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;||||
 |영구 채팅(그룹 채팅) 통합  <br/> (비즈니스용 Skype Online에서는 사용할 수 없습니다.) |&#x2714;||&#x2714;|||||||
 |한 번의 클릭으로 영구 채팅방을 비즈니스용 Skype 모임으로 에스컬레이터  <br/> (비즈니스용 Skype Online에서는 사용할 수 없습니다.) |&#x2714;||&#x2714;|||||||
 |IM 창에서 보낸 사람 및 받는 사람 사진 인라인 |&#x2714;||&#x2714;|&#x2714;||||||
@@ -188,7 +188,7 @@ Skype-Skype 세션에서 비즈니스용 Skype Online 계획 1 사용자는 공�
 |그룹 통화 받기  |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
 |위치 기반 라우팅  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |응답 그룹/팀 통화 그룹 관리 |&#x2714;||&#x2714;|||||||
-|자동 전화 걸기 전화 응답 |&#x2714;||&#x2714;|||||||
+|자동 전화 응답 전화 응답 |&#x2714;||&#x2714;|||||||
 
 &#x2776; 이 기능은 비즈니스용 Skype Online에서 사용할 수 없습니다.
   
@@ -210,7 +210,7 @@ Skype-Skype 세션에서 비즈니스용 Skype Online 계획 1 사용자는 공�
 
 이 표에는 모임 녹음/녹화 지원과 관련된 기능이 설명됩니다.
   
-| 미래/기능** | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
+| 향후/기능** | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |오디오, 비디오, 응용 프로그램 공유, 데스크톱 공유 및 업로드된 콘텐츠의 클라이언트 쪽 녹음 |&#x2714; &#x2776; ||&#x2714; &#x2776; ||&#x2714;|||||
 |파일 전송, 공유 OneNote 페이지 및 PowerPoint 주석의 클라이언트 쪽 기록 |&#x2714; &#x2777; ||&#x2714; &#x2777; ||&#x2714;|||||
@@ -226,7 +226,7 @@ Skype-Skype 세션에서 비즈니스용 Skype Online 계획 1 사용자는 공�
 
 이 표에서는 최신 인증을 지원해야 하는 기능에 대해 다루고 있습니다.
   
-최신 인증을 사용하려면 최신 인증을 통해 지원되는 비즈니스용 Skype 토폴로지에서 [설명하는 토폴로지도 필요합니다.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
+최신 인증을 사용하려면 최신 인증으로 지원되는 비즈니스용 Skype 토폴로지에서 [설명하는 토폴로지도 필요합니다.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
 
 | 기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -268,13 +268,13 @@ Skype-Skype 세션에서 비즈니스용 Skype Online 계획 1 사용자는 공�
 - 통화 대기
 - 인사말 변경
 - 그룹 통화 받기
-- 부재 중 전화 알림 전자 메일은 사용자 상태가 UM을 사용하지 않도록 설정되어 있으며 레거시 Outlook 클라이언트(2013 이전 버전)를 사용하는 경우 생성되지 않습니다.
+- 사용자 상태가 UM을 사용하지 않도록 설정되어 있으며 레거시 Outlook 클라이언트(2013 이전 버전)를 사용하는 경우 부재 중 전화 알림 전자 메일이 생성되지 않습니다.
 
 ### <a name="online-or-hybrid-user-account-limitations"></a>온라인 또는 하이브리드 사용자 계정 제한
 
 <a name="Online-Hybrid"> </a>
 
-사용자 계정은 온라인 또는온-프레미스에 존재할 수 있으며 해당 사용자가 사용할 수 있는 기능에 영향을 미치게 됩니다. 비즈니스용 Skype Online에 계정이 있는 사용자는 전체 클라이언트를 사용하 여도 다음 기능에 액세스할 수 없습니다.
+사용자 계정은 온라인 또는온-프레미스 중 하나일 수 있으며 해당 사용자가 사용할 수 있는 기능에 영향을 미치게 됩니다. 비즈니스용 Skype Online에 계정이 있는 사용자는 전체 클라이언트를 사용하 여도 다음 기능에 액세스할 수 없습니다.
   
 - 향상된 현재 상태: 내 사진에 대한 모든 공용 사이트에서 사진 사용
 - 연락처: 응답 그룹 검색
