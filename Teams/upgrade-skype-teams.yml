@@ -22,15 +22,15 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 8e77ac547d41e10c006c321555db8b850d648983
-  ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
+  ms.openlocfilehash: 74cc8ce21951f3ec6aaca032f92cd1280392e992
+  ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/09/2021
-  ms.locfileid: "50150874"
+  ms.lasthandoff: 02/12/2021
+  ms.locfileid: "50196202"
 highlightedContent:
   items:
-  - title: 검증된 업그레이드 프레임워크 활용
+  - title: 성공적인 업그레이드를 위한 검증된 지침 활용
     itemType: how-to-guide
     url: https://docs.microsoft.com/microsoftteams/upgrade-framework
   - title: 무료 업그레이드 계획 워크샵 등록
@@ -43,21 +43,6 @@ productDirectory:
   title: 성공적인 Teams 업그레이드를 계획하기 위한 리소스
   summary: 건전한 기술 환경, 지속적인 사용자 채택 및 비즈니스 목표의 달성은 모두 적절한 계획에서 시작됩니다.
   items:
-  - title: Teams로의 여정
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    links:
-    - url: https://docs.microsoft.com/microsoftteams/upgrade-enlist-stakeholders
-      text: 1. 프로젝트 관련자 참여
-    - url: https://aka.ms/SkypetoTeams-Scope
-      text: 2. 프로젝트의 범위 정의
-    - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment
-      text: 3. 업그레이드를 위한 환경 준비
-    - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-organization
-      text: 4. 업그레이드할 조직 준비
-    - url: https://docs.microsoft.com/microsoftteams/upgrade-to-teams
-      text: 5. 업그레이드 수행
-    - url: https://docs.microsoft.com/microsoftteams/continue-journey
-      text: 6. 운영, 채택, 최적화
   - title: Teams 업그레이드 스토리
     imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
     links:
@@ -73,21 +58,30 @@ productDirectory:
       text: Dentsu Aegis Network – 비즈니스용 Skype Online에서 Teams로
     - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
       text: Berkshire Healthcare – 비즈니스용 Skype Online에서 Teams로
-  - title: Teams를 가장 많이 얻을 수 있는 온라인 워크샵
+  - title: 'Ignite 세션: Teams 경로 디자인'
+    imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
+    summary: Ignite 2020의 이 세션은 비즈니스용 Skype 구현 및 목표에 가장 적합한 방법을 찾는 데 도움이 됩니다.
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
+  - title: 업그레이드 성공 키트
+    imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
+    summary: 통신 템플릿, 사용자 설문 조사, 샘플 프로젝트 및 파일럿 테스트 계획을 포함한 사용자 준비 자료를 다운로드합니다.
+    url: https://aka.ms/UpgradeSuccessKit
+  - title: Teams 관리자 설명서
+    imageSrc: https://docs.microsoft.com/office/media/icons/document-teams.svg
+    summary: Teams를 롤아웃 및 관리하고, 새 커뮤니케이션 및 공동 작업 환경을 준비하는 방법을 배워야 합니다.
+    url: https://docs.microsoft.com/MicrosoftTeams/
+  - title: 강사가 주도하는 Teams 교육
+    imageSrc: https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg
+    summary: Teams를 시작하고 실행하도록 설계된 무료 온라인 교육 수업입니다.
+    url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
+  - title: Teams 시나리오 확장
     imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
-    links:
-    - url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-      text: 따라서... Teams로 전화를 걸고 싶은 경우
-    - url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-      text: Teams에서 오디오/비디오 품질 담당
-    - url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-      text: Teams의 앱 기본
-    - url: https://aka.ms/ChalkTalkKeyApps
-      text: Teams에서 앱을 사용하여 주요 워크플로 수퍼차지
-  - title: '학습 경로: Microsoft Teams로 업그레이드'
-    imageSrc: media/upgrade-microsoft-teams.svg
-    summary: 비즈니스용 Skype Online 및 비즈니스용 Skype On-프레미스에서 Microsoft Teams로 업그레이드하는 방법을 배워보아야 합니다.
-    url: https://docs.microsoft.com/learn/paths/m365-teams-upgrade/
+    summary: Teams Chalk Talks 온라인 워크샵은 IT 프로가 Teams를 가장 잘 얻을 수 있도록 디자인되었습니다.
+    url: http://aka.ms/TeamsChalkTalks
+  - title: 비즈니스용 Skype Online 단종
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+    summary: 2021년 7월 31일 비즈니스용 Skype Online 서비스 사용 중지를 준비하고 Teams로의 성공적인 전환을 계획하는 방법을 배워야 합니다.
+    url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
   - title: Microsoft Teams 블로그
     imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
     summary: Microsoft Teams 뒤에 있는 팀에서 직접 모범 사례, 뉴스 및 추세를 배우기
@@ -96,36 +90,16 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
     summary: Teams를 도입한 후 직원 및 회사 성과 개선을 수치화하는 Forrester Research 보고서에 대해 조사합니다.
     url: https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf
-  - title: 'Ignite 세션: Teams 경로 디자인'
-    imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
-    summary: Ignite 2020의 이 세션은 비즈니스용 Skype 구현 및 목표에 가장 적합한 방법을 찾는 데 도움이 됩니다.
-    url: https://go.microsoft.com/fwlink/?linkid=2154668
-  - title: Microsoft Teams 계획 및 가격
-    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
-    summary: 비즈니스에 적합한 Microsoft Teams를 찾아야 합니다.
-    url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options
-  - title: 업그레이드 성공 키트
-    imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
-    summary: 통신 템플릿, 사용자 설문 조사, 샘플 프로젝트 및 파일럿 테스트 계획을 포함한 사용자 준비 자료를 다운로드합니다.
-    url: https://aka.ms/UpgradeSuccessKit
 additionalContent:
   sections:
+  - title: 추가 도움이 필요하세요?
   - items:
-    - title: 비즈니스용 Skype Online 단종
-      summary: 2021년 7월 31일 비즈니스용 Skype Online 서비스 사용 중지를 준비하고 Teams로의 성공적인 전환을 계획하는 방법을 배워야 합니다.
-      url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
-    - title: Teams로 과정 차트
-      summary: Teams 업그레이드 전반에 걸친 각 단계를 매핑하는 이 재미 있는 유용한 인포그래픽을 다운로드합니다.
-      url: https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf
     - title: 배포 지원을 위해 FastTrack 참여
       summary: Teams 배포 프로젝트에 더 많은 관련 지원이 필요한 경우 적격 구독이 있는 고객은 FastTrack에 지원을 요청할 수 있습니다.
       url: https://www.microsoft.com/fasttrack
     - title: Microsoft 파트너 찾기
       summary: 추가 지침이 필요하세요? Microsoft 솔루션 공급자는 업그레이드의 기술 및 물류를 관리하는 데 도움을 줄 수 있습니다.
       url: https://www.microsoft.com/solution-providers/home
-    - title: Teams 관리자 설명서
-      summary: Teams를 롤아웃 및 관리하고, 새 커뮤니케이션 및 공동 작업 환경을 준비하는 방법을 배워야 합니다.
-      url: https://docs.microsoft.com/MicrosoftTeams/
-    - title: 강사가 주도하는 Teams 교육
-      summary: Teams를 시작하고 실행하도록 설계된 무료 온라인 교육 수업입니다.
-      url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
+    - title: Microsoft Teams 계획 및 가격
+      summary: 비즈니스에 적합한 Microsoft Teams를 찾아야 합니다.
+      url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options

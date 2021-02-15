@@ -333,6 +333,8 @@ items:
                 href: troubleshoot-guest-access.md
       - name: Teams의 Cortana
         href: cortana-in-teams.md
+      - name: 팀 대상 계층 구조형 설정
+        href: set-up-your-team-hierarchy.md
   - name: 모임 및 회의
     items:
       - name: 빠른 시작 - 모임 및 라이브 이벤트
@@ -1027,50 +1029,54 @@ items:
     items:
       - name: 개요
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Power Platform과 통합
-        href: teams-power-platfom-integration.md
-      - name: Teams용 앱 관리
-        href: manage-apps.md
-      - name: Team에서 앱의 관리 설정
-        href: admin-settings.md
-      - name: 기본 제공 및 사용자 지정 탭 사용
-        href: built-in-custom-tabs.md
-      - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
-        href: Office-365-custom-connectors.md
-      - name: 리소스별 승인
-        href: resource-specific-consent.md
-      - name: 사용자 지정 앱
+      - name: Microsoft 앱
         items:
+          - name: Teams에서 조직의 목록 앱 관리
+            href: manage-lists-app.md
+          - name: 조직에 대한 작업 앱 관리
+            href: manage-tasks-app.md
+          - name: 칭찬 앱 관리
+            href: manage-praise-app.md
+          - name: Teams 승인 앱 관리
+            href: approval-admin.md
+          - name: Teams에서 조직의 교대 근무 앱 관리
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: 타사 앱
+        items:
+          - name: 앱 인증
+            href: 'https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview'
+          - name: Teams용 타사 앱 구입
+            href: purchase-third-party-apps.md
+      - name: Teams용 앱 서식 파일
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: 나만의 앱 빌드 및 사용자 지정 방법
+        items:
+          - name: Power Platform과 통합
+            href: teams-power-platfom-integration.md
+          - name: Microsoft Teams 관리 센터에서 Power Platform 앱 관리
+            href: manage-power-platform-apps.md
           - name: Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시
             href: submit-approve-custom-apps.md
-          - name: Microsoft Teams 관리 센터에서 Power Platform 관리
-            href: manage-power-platform-apps.md
           - name: 앱 패키지를 업로드하여 사용자 지정 앱 게시
             href: upload-custom-apps.md
           - name: 사용자 지정 앱 스토어
             href: customize-your-app-store.md
-      - name: 앱 인증
-        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 부여
-        href: app-permissions-admin-center.md
-      - name: 앱 사용 권한 및 고려 사항
-        href: app-permissions.md
-      - name: Teams 3자 앱 구매 서비스
-        href: purchase-third-party-apps.md
-      - name: Teams용 앱 서식 파일
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: Teams에서 조직의 목록 앱 관리
-        href: manage-lists-app.md
-      - name: 조직에 대한 작업 앱 관리
-        href: manage-tasks-app.md
-      - name: 팀 대상 계층 구조 설정
-        href: set-up-your-team-hierarchy.md
-      - name: Teams 관리 센터에서 칭찬 앱 관리
-        href: manage-praise-app.md
-      - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: Teams 승인 앱 가용성
-        href: approval-admin.md
+      - name: Teams용 앱 관리
+        items:
+          - name: 개요
+            href: manage-apps.md
+          - name: Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 권한 부여
+            href: app-permissions-admin-center.md
+          - name: 리소스별 승인
+            href: resource-specific-consent.md
+          - name: 앱 사용 권한 및 고려 사항
+            href: app-permissions.md
+          - name: Team에서 앱의 관리 설정
+            href: admin-settings.md
+          - name: 기본 제공 및 사용자 지정 탭 사용
+            href: built-in-custom-tabs.md
+          - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
+            href: Office-365-custom-connectors.md
   - name: 도입
     items:
       - name: 개요
