@@ -18,12 +18,12 @@ description: Teams에서 클라우드 음성 기능을 배포하여 Teams 모임
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fb43635d8155d6fe98f02e561ea843ca8c74a4e
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: dba51380f2c82e55c23f9667641ddb0ea9373f06
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055640"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196192"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -32,10 +32,10 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 관련: [Teams 모임 녹음/녹화 최종 사용자 문서](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Microsoft Stream에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](tmr-meeting-recording-change.md)로의 변경은 단계별로 접근합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
+> Microsoft Stream에서 모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint로의 변경은 단계별로 접근합니다. 각 단계에 대한 자세한 내용은 모임 녹음/녹화에 비즈니스용 [OneDrive](tmr-meeting-recording-change.md)및 SharePoint 또는 Stream 사용을 참조하세요.
 
 > [!NOTE]
-> Teams 모임에서 역할을 사용하는 방법과 사용자의 역할을 변경하는 방법에 대한 자세한 내용은 Teams 모임의 역할을 [참조하세요.](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)
+> Teams 모임에서 역할을 사용하는 방법 및 사용자의 역할을 변경하는 방법에 대한 자세한 내용은 Teams 모임의 역할을 [참조하세요.](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화 필수 구성 요소
 
@@ -45,7 +45,7 @@ Teams 사용자의 모임을 기록하려면 테넌트에 대해 Microsoft Strea
 - 관리자가 설정한 경우 사용자는 회사 지침을 동의합니다.
 - 사용자는 Microsoft Stream의 저장 공간이 충분하여 녹음/녹화를 저장할 수 있습니다.
 - 사용자에게 모임 및 그룹 통화를 기록하기 위해 CsTeamsMeetingPolicy -AllowCloudRecording 설정이 true로 설정되어 있습니다.
-- 1:1 호출을 기록하기 위해 사용자에게 CsTeamsCallingPolicy -AllowCloudRecordingForCalls 설정이 true로 설정되어 있습니다.
+- 사용자에게 1:1 호출을 기록하기 위해 CsTeamsCallingPolicy -AllowCloudRecordingForCalls 설정이 true로 설정되어 있습니다.
 - 사용자는 모임에서 익명, 게스트 또는 페더레이션 사용자가 아닙니다.
 - 사용자의 모임 전사가 가능하도록 설정하려면 할당된 Teams 모임 정책에 -AllowTranscription 설정이 true로 설정되어 있어야 합니다.
 
@@ -55,7 +55,7 @@ Teams 사용자의 모임을 기록하려면 테넌트에 대해 Microsoft Strea
 > 사용자가 녹음/녹화 및 녹음/녹화의 다운로드만 하도록 하려면 사용자에게 Microsoft Stream 라이선스를 할당할 필요가 없습니다. 즉, 기록은 Microsoft Stream에 저장되지 않고 삭제되기 21일 제한이 있는 AMS(비동기 Media Services)에 저장됩니다. 이는 이 시점에 관리자가 삭제하는 기능을 포함하여 컨트롤하거나 관리할 수 있는 사항이 아닙니다.
 
 > [!IMPORTANT]
-> 또한 AMS에 있는 기록의 경우 채팅 메시지 자체의 기록 보존에 영향을 미치게 됩니다. 따라서 원래 AMS 기록 채팅 메시지를 지우면 사용자가 기록에 액세스할 수 없습니다. 이에 영향을 줄 수 있는 두 가지 시나리오가 있습니다. 1) 사용자가 채팅 메시지를 수동으로 삭제합니다. 이 시나리오에서는 원본 메시지가 사라지기 때문에 사용자는 더 이상 기록에 액세스할 수 없어 더 이상 다운로드할 수 없습니다. 그러나 기록 자체는 Microsoft의 내부 시스템 내에서 한 시간 동안 보존될 수 있습니다(원래 21일 기간을 초과하지 않습니다). 2) 채팅 보존 정책에 의해 채팅 메시지 기록이 삭제됩니다. AMS 기록은 채팅 보존 정책에 직접적으로 연결됩니다. 따라서 AMS의 기록은 기본적으로 삭제되기 21일 동안 보존됩니다. 채팅 메시지 보존 정책으로 인해 채팅 메시지가 21일 전에 삭제되는 경우 기록도 삭제됩니다. 이 후 기록을 복구할 수 있는 방법은 없습니다.
+> 또한 AMS에 있는 기록의 경우 채팅 메시지 자체의 기록 보존에 영향을 미치게 됩니다. 따라서 원래 AMS 기록 채팅 메시지를 지우면 사용자가 기록에 액세스할 수 없습니다. 이에 영향을 줄 수 있는 두 가지 시나리오가 있습니다. 1) 사용자가 채팅 메시지를 수동으로 삭제합니다. 이 시나리오에서는 원본 메시지가 사라지기 때문에 사용자는 더 이상 기록에 액세스할 수 없어 더 이상 다운로드할 수 없습니다. 그러나 기록 자체는 Microsoft의 내부 시스템 내에서 한 시간 동안 보존될 수 있습니다(원래 21일 기간을 초과하지 않습니다). 2) 채팅 보존 정책에 의해 채팅 메시지 기록이 삭제됩니다. AMS 기록은 채팅 보존 정책에 직접 연결됩니다. 따라서 AMS의 기록은 기본적으로 삭제되기 21일 동안 보존됩니다. 채팅 메시지 보존 정책으로 인해 채팅 메시지가 21일 전에 삭제되는 경우 기록도 삭제됩니다. 이 후 기록을 복구할 수 있는 방법은 없습니다.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>조직의 사용자를 위해 Teams 클라우드 모임 녹음/녹화 설정
 
@@ -108,11 +108,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                    회사의 모든 사용자가 모임을 녹음/녹화할 수 있게 하려고 합니다.                                    |                                                                     <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = True인지 확인<li>모든 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나가 있습니다. </ol>                                                                     |
 | 대부분의 사용자가 모임을 녹음/녹화할 수 있게하고 녹음/녹화를 허용하지 않는 특정 사용자를 선택적으로 해제하려고 합니다. |        <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = True인지 확인<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나가 있습니다.<li>다른 모든 사용자에게 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.</ol>         |
 |                                                   녹음/녹화를 100% 사용하지 않도록 설정하려고 합니다.                                                   |                                                                <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인<li>모든 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.                                                                 |
-|      대부분의 사용자에 대해 녹음/녹화를 해제하고 선택적으로 녹화할 수 있는 특정 사용자를 사용하도록 설정하려는 경우       | <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.<li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <ol> |
+|      대부분의 사용자에 대해 녹음/녹화를 해제하고 선택적으로 녹음할 수 있는 특정 사용자를 사용하도록 설정하려는 경우       | <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.<li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>모임 녹음/녹화가 저장된 위치
 
-모임 녹음/녹화는 Microsoft Stream 클라우드 저장소에 저장됩니다. Microsoft Stream이 데이터가 저장된 국내 데이터 보존 지역에서 제공되지 않는 경우 Teams 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 현재 설정되어 있습니다. Microsoft Stream을 국가 내 데이터 레지던시 지역에서 사용할 수 없는 경우에도 데이터가 국가에 저장되어 있어야 하는 고객에 대해 모임 녹화 기능을 사용할 수 있습니다. Microsoft Stream에 가장 가까운 지리적 지역에 기록을 저장할 수 있도록 하여 이 일을 할 수 있습니다. 
+모임 녹음/녹화는 Microsoft Stream 클라우드 저장소에 저장됩니다. Microsoft Stream이 데이터가 저장된 국내 데이터 보존 지역에서 제공되지 않는 경우 Teams 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 현재 설정되어 있습니다. Microsoft Stream을 국가 내 데이터 레지던시 지역에서 사용할 수 없는 경우에도 데이터가 국가에 저장되어 있어야 하는 고객에 대해 모임 녹화 기능을 사용할 수 있습니다. 녹음/녹화를 Microsoft Stream에 가장 가까운 지리적 지역에 저장할 수 있도록 하여 이 일을 할 수 있습니다. 
 
 Teams 데이터가 국내에 저장되어 있고 모임 녹음/녹화를 국내에 저장하기를 선호하는 경우 기능을 해제하고 Microsoft Stream이 국내 데이터 보존 지역에 배포된 이후 설정하는 것이 좋습니다. 조직의 모든 사용자에 대한 기능을 해제하려면 Microsoft  Teams 관리 센터에 있는 글로벌 Teams 모임 정책에서 클라우드 녹화 허용 설정을 해제합니다. 그러나 여전히 기록을 Microsoft Stream에 가장 가까운 지리적 지역에 저장할 수 있도록 설정하려면 이  변경이  진행되기 전에 클라우드 기록 허용 및 지역 외부 저장소 허용을 모두 설정해야 합니다.
 
@@ -140,7 +140,7 @@ Microsoft 365 또는 Office 365의 서비스에서 데이터가 저장되는 위
 이 설정은 모임 녹화를 재생하는 동안 캡션 및 전사 기능을 사용할 수 있는지 여부를 제어합니다. 이 기능을 해제하면  모임 녹화를 재생하는 동안 검색 및 **CC** 옵션을 사용할 수 없습니다. 기록을 시작한 사람은 기록도 포함하기 위해 이 설정을 켜야 합니다.
 
 > [!NOTE]
-> 기록된 모임에 대한 기록은 현재 Teams의 언어가 영어로 설정된 사용자와 모임에서 영어가 음성으로 설정되어 있는 사용자만 지원됩니다. Microsoft Stream 클라우드 저장소에 모임 녹음/녹화와 함께 저장됩니다.
+> 기록된 모임에 대한 기록은 현재 Teams의 언어가 영어로 설정된 사용자와 모임에서 영어로 말한 사용자만 지원됩니다. Microsoft Stream 클라우드 저장소에 모임 녹음/녹화와 함께 저장됩니다.
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 녹음/녹화 개시자에게 모임 녹음/녹화를 기록할 수 있는 선택권이 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 

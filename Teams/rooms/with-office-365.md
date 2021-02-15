@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Teams 또는 비즈니스용 Skype와 Exchange가 모두 온라인인 Microsoft 365 또는 Office 365에서 Microsoft Teams 회의실을 배포하는 방법에 대한 자세한 내용은 이 항목을 참조하세요.
-ms.openlocfilehash: 4b5bd3967d3a1fcc8859cf4da8b039418819cb4e
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: 4ec54763379e4a13a69eb3e08019924708873faf
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616892"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196212"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365를 통해 Microsoft Teams 회의실 배포
 
@@ -48,7 +48,7 @@ Microsoft 365 또는 Office 365에서 Microsoft Teams 회의실을 배포하기 
 
 1. Exchange Online PowerShell에 연결합니다. 자세한 내용은 [Exchange Online PowerShell에 연결합니다.](https://go.microsoft.com/fwlink/p/?linkid=396554)
 
-2. Exchange Online PowerShell에서 새 방 사서함을 만들거나 기존 방 사서함을 수정합니다. 기본적으로 채팅방 사서함에는 연결된 계정이 없습니다. 따라서 Skype 채팅방 시스템 v2로 인증할 수 있는 채팅방 사서함을 만들거나 수정할 때 계정을 추가해야 합니다.
+2. Exchange Online PowerShell에서 새 방 사서함을 만들거나 기존 방 사서함을 수정합니다. 기본적으로 채팅방 사서함에는 연결된 계정이 없습니다. 따라서 Skype Room Systems v2로 인증할 수 있는 채팅방 사서함을 만들거나 수정할 때 계정을 추가해야 합니다.
 
    - 새 방 사서함을 만들 경우 다음 구문을 사용 합니다.
 
@@ -76,7 +76,7 @@ Microsoft 365 또는 Office 365에서 Microsoft Teams 회의실을 배포하기 
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     이 예제에서는 별칭 값이 Rigel2인 기존 방 사서함의 계정을 설정하고 암호를 9898P@$$W 0rd로 설정합니다. 기존 별칭 값으로 Rigel2@contoso.onmicrosoft.com 계정이 삭제됩니다.
+     이 예제에서는 별칭 값이 Rigel2인 기존 방 사서함의 계정을 사용할 수 있으며 암호를 9898P@$$W 0rd로 설정합니다. 기존 별칭 값으로 Rigel2@contoso.onmicrosoft.com 계정이 삭제됩니다.
 
      ``` PowerShell
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
@@ -146,6 +146,9 @@ Microsoft 365 또는 Office 365에서 Microsoft Teams 회의실을 배포하기 
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
+> [!NOTE]
+> 암호가 만료되지 않는 것으로 설정되지 않은 경우 계정이 만료 기간에 도달하면 계정에 더 이상 로그인하지 않습니다. 그런 다음 계정에 대한 암호를 변경하고 MTR 디바이스에서 로컬로 업데이트해야 합니다.
+
 6. 장치 계정에 유효한 Microsoft 365 또는 Office 365 라이선스가 있어야 합니다. 또는 Exchange 및 Microsoft Teams 또는 비즈니스용 Skype가 작동하지 않습니다. 라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 다음을 사용할 수 있습니다. `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 다음과 같이 Microsoft 365 또는 Office 365 조직에 사용 가능한 SKUS 목록을 검색합니다.
 
    ```Powershell
@@ -183,7 +186,7 @@ Microsoft 365 또는 Office 365에서 Microsoft Teams 회의실을 배포하기 
    다음과 같이 [원격](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) Windows PowerShell 세션을 시작하세요(비즈니스용 [Skype Online PowerShell 구성 요소를 설치해야 합니다).](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)
 
 > [!NOTE]
-> 비즈니스용 Skype Online 커넥터는 현재 최신 Teams PowerShell 모듈의 일부입니다.
+> 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
 >
 > 최신 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)공개 릴리스를 사용하는 경우 비즈니스용 Skype Online Connector를 설치할 필요가 없습니다.
 

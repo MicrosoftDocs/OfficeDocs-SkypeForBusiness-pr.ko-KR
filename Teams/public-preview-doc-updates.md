@@ -18,17 +18,17 @@ description: Microsoft Teams의 공개 미리 보기에 대해 자세히 알아�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 6a8d677b4acd56e6de5681d40a1e1aa69008a1ad
-ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
+ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50043962"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196222"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 공개 미리 보기
 
 > [!NOTE]
-> 미리 보기에 포함된 기능은 완전하지 않을 수 있으며, 일반에 정식으로 공개되기 전에 변경될 수 있습니다. 단지 평가 및 탐색 용도로만 제공됩니다.
+> 미리 보기에 포함된 기능은 완전하지 않을 수 있으며, 일반에 정식으로 공개되기 전에 변경될 수 있습니다. 평가 및 탐색 용도로만 제공됩니다. Office 365 Government GCC(정부 커뮤니티 클라우드)에서는 지원되지 않습니다.
 
 Microsoft Teams의 공개 미리 보기는 Teams에서 릴리스되지 않은 기능에 대한 조기 액세스를 제공합니다. 미리 보기를 사용하여 예정된 기능을 탐색하고 테스트할 수 있습니다. 당사는 또한 공개 미리 보기의 모든 기능에 대한 피드백을 환영합니다. Teams 사용자별로 공개 미리 보기를 사용하도록 설정했으므로 전체 조직에 영향을 미칠 걱정을 할 필요가 없습니다.
 

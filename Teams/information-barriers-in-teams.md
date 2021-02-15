@@ -16,16 +16,16 @@ description: 이 문서에서는 Microsoft Teams의 정보 장벽과 Teams에 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 95c3c2e854a22ff3ff74595a56f84edaaeb1c5f1
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 94e0117e1f0956d8e3e9ae8e6bafc7feabcdf237
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067153"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196462"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams의 정보 장벽
 
-IB(정보 장벽)는 관리자가 개인 또는 그룹이 서로 통신하지 못하도록 구성할 수 있는 정책입니다. 예를 들어 한 부서에서 다른 부서와 공유하지 말아야 하는 정보를 처리하는 경우 IB가 유용합니다. IB는 그룹이 격리되거나 이 그룹 외부의 사용자와 통신하지 못하게 하는 경우 유용합니다.
+IB(정보 장벽)는 관리자가 개인 또는 그룹이 서로 통신하지 못하도록 구성할 수 있는 정책입니다. 예를 들어 한 부서에서 다른 부서와 공유하지 말아야 하는 정보를 처리하는 경우 IB가 유용합니다. B는 그룹이 격리되거나 이 그룹 외부의 사용자와 통신하지 못하게 하는 경우 유용합니다.
 
 > [!NOTE]
 > - IB(정보 장벽) 그룹은 테넌트에서 만들 수 없습니다.
@@ -37,7 +37,7 @@ IB 정책은 또한 검색 및 검색을 방지합니다. 통신하지 말아야
 
 ## <a name="background"></a>배경
 
-BS의 기본 드라이버는 금융 서비스 업계에서 비어 있습니다. [FINRA(금융]( https://www.finra.org)산업 규제 기관)는 구성원 회사 내의 BS 및 관심 충돌을 검토하고 이러한 충돌 관리에 대한 지침을 제공합니다(FINRA 2241, Debt Research 규제 고지 [15-31).](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)
+BS의 기본 드라이버는 금융 서비스 업계에서 비어 있습니다. [FINRA(금융]( https://www.finra.org)산업 규제 기관)는 구성원 회사 내에서 BS 및 관심 충돌을 검토하고 이러한 충돌 관리에 대한 지침을 제공합니다(FINRA 2241, Debt Research 규제 고지 [15-31).](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)
 
 
 그러나 BS가 도입된 이후 다른 많은 영역에서 유용하게 사용할 수 있습니다. 기타 일반적인 시나리오는 다음과 같습니다.
@@ -72,7 +72,7 @@ IB 정책은 PowerShell cmdlet을 사용하여 Microsoft 365 SCC(준수 센터)�
 
 ## <a name="information-barriers-administrator-role"></a>정보 장벽 관리자 역할
 
-IB 규정 준수 관리 역할은 IB 정책을 관리할 책임이 있습니다. 이 역할에 대한 자세한 내용은 [Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)준수 센터의 사용 권한을 참조하세요.
+IB 규정 준수 관리 역할은 IB 정책을 관리하는 역할을 담당합니다. 이 역할에 대한 자세한 내용은 [Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)준수 센터의 사용 권한을 참조하세요.
 
 ## <a name="information-barrier-triggers"></a>정보 장벽 트리거
 
@@ -82,7 +82,7 @@ IB 정책은 다음 Teams 이벤트가 진행될 때 활성화됩니다.
 
     ![팀에 추가할 새 구성원을 검색하고 일치하는 것을 찾을 수 없는 경우의 스크린샷](media/information-barriers-add-members.png)
 
-- **새 채팅이 요청됩니다.** 사용자가 한명 이상의 다른 사용자와 새 채팅을 요청할 때마다 IB 정책을 위반하지 않는지 확인하도록 채팅이 평가됩니다. 대화가 IB 정책을 위반하는 경우 대화가 시작되지 않습니다.
+- **새 채팅이 요청됩니다.** 사용자가 한명 이상의 다른 사용자와 새 채팅을 요청할 때마다 채팅은 IB 정책을 위반하지 않는지 확인하도록 평가됩니다. 대화가 IB 정책을 위반하는 경우 대화가 시작되지 않습니다.
 
     다음은 1:1 채팅의 예입니다.
 
@@ -112,7 +112,7 @@ IB 정책은 다음 Teams 이벤트가 진행될 때 활성화됩니다.
 
 - **사용자가 Teams에서** 전화 통화를 합니다. 사용자가 VOIP를 통해 다른 사용자 또는 사용자 그룹에 음성 통화를 시작할 때마다 통화가 다른 팀 구성원의 IB 정책을 위반하지 않는지 확인하도록 평가됩니다. 위반이 있는 경우 음성 통화가 차단됩니다.
 
-- **Teams의 게스트** - Teams의 게스트에게도 IB 정책이 적용됩니다. 조직의 전체 주소 목록에서 게스트를 검색할 수 있도록 해야 하는 경우 [Microsoft 365 그룹에서](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)게스트 액세스 관리를 참조하세요. 게스트를 검색할 수 있는 경우 [IB 정책을 정의할 수 있습니다.](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- **Teams의 게스트** - IB 정책은 Teams의 게스트에게도 적용됩니다. 조직의 전체 주소 목록에서 게스트를 검색할 수 있도록 해야 하는 경우 [Microsoft 365 그룹에서](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)게스트 액세스 관리를 참조하세요. 게스트를 검색할 수 있는 경우 [IB 정책을 정의할 수 있습니다.](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>정책 변경이 기존 채팅에 미치는 영향
 
@@ -162,13 +162,13 @@ IB 정책 관리자가 정책을 변경하거나 사용자 프로필 변경(예:
     > ![차단된 활동 탭을 보여주는 스크린샷](media/ib-after-activity-tab-policy.png)
 
 
-- **Org 차트** - 사용자가 차단된 사용자가 나타나는 오그라드 차트에 액세스하는 경우 차단된 사용자가 설정 차트에 나타나지 않습니다. 대신 오류 메시지가 표시됩니다.
+- **Org 차트** - 사용자가 차단된 사용자가 나타나는 Org 차트에 액세스하는 경우 차단된 사용자가 설정 차트에 나타나지 않습니다. 대신 오류 메시지가 표시됩니다.
 
-- **인원** 카드 - 사용자가 대화에 참여하고 사용자가 나중에 차단된 경우 차단된 사용자의 이름 위에 마우스를 다가 사용자 카드 대신 다른 사용자에게 오류 메시지가 표시됩니다. 카드에 나열된 작업(예: 통화 및 채팅)은 사용할 수 없습니다.
+- **인원** 카드 - 사용자가 대화에 참여하고 사용자가 나중에 차단된 경우 차단된 사용자의 이름 위에 마우스를 다가 사용자 카드 대신 오류 메시지가 표시됩니다. 카드에 나열된 작업(예: 통화 및 채팅)은 사용할 수 없습니다.
 
 - **추천 연락처** - 차단된 사용자가 제안된 연락처 목록(새 사용자에 대해 나타나는 초기 연락처 목록)에 나타나지 않습니다.
 
-- **채팅 연락처** - 사용자는 채팅 연락처 목록에서 차단된 사용자를 볼 수 있지만 차단된 사용자가 식별됩니다. 사용자가 차단된 사용자에 수행할 수 있는 유일한 작업은 해당 사용자를 삭제하는 것입니다. 또한 사용자는 해당 사용자를 클릭하여 과거 대화를 볼 수 있습니다.
+- **채팅 연락처** - 사용자는 채팅 연락처 목록에서 차단된 사용자를 볼 수 있지만 차단된 사용자가 식별됩니다. 차단된 사용자에서 사용자가 수행할 수 있는 유일한 작업은 해당 사용자를 삭제하는 것입니다. 또한 사용자는 해당 사용자를 클릭하여 과거 대화를 볼 수 있습니다.
 
 - **통화 연락처** - 사용자는 통화 연락처 목록에서 차단된 사용자를 볼 수 있지만 차단된 사용자가 식별됩니다. 사용자가 차단에서 수행할 수 있는 유일한 작업은 해당 사용자를 삭제하는 것입니다.
 
@@ -198,9 +198,9 @@ Sesha 사용자가 Investment Banking 세그먼트에 대한 팀을 만드는 �
 계획 및 가격을 포함한 라이선스 및 사용 권한에 대한 자세한 내용은 보안 및 규정 준수에 대한 [Microsoft 365 라이선스 & 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="known-issues"></a>알려진 문제
-- **사용자가** 모임에 참가할 수 없습니다. IB 정책을 사용하도록 설정한 경우 모임 참석자 수 제한보다 큰 경우 사용자가 모임에 참가할 [수](limits-specifications-teams.md)없습니다. 근본 원인은 IB가 사용자를 모임 채팅 로스터에 추가할 수 있는지 여부에 따라 확인하며, 해당 사용자를 로스터에 추가할 수 있는 경우만 모임에 참가할 수 있도록 허용됩니다. 한 번 모임에 참가하는 사용자가 해당 사용자를 목록에 추가합니다. 따라서 모임이 재개될 경우 로스터를 빠르게 채울 수 있습니다. 채팅 로스터가 모임 [](limits-specifications-teams.md)참석 제한에 도달하면 모임에 추가 사용자를 추가할 수 없습니다. 테넌트에 대해 IB를 사용하도록 설정하고 채팅 로스터가 모임에 대해 가득 차면 새 사용자(아직 로스터에 없는 사용자)는 모임에 참가할 수 없습니다. 하지만 테넌트에 대해 IB를 사용하도록 설정하지 않은 경우 모임 채팅 로스터가 가득 차면 새 사용자(아직 로스터에 없는 사용자)가 모임에 참가할 수 있지만 모임에 채팅 옵션이 표시되지 않습니다. 단기 해결 방법은 모임 채팅 목록에서 비활성 구성원을 제거하여 새 사용자를 위한 공간을 만드는 것입니다. 그러나 나중에 모임 채팅 로스터의 크기를 늘려나가게 됩니다.
+- **사용자가** 모임에 참가할 수 없습니다. IB 정책을 사용하도록 설정한 경우 모임 참석자 수 제한보다 큰 경우 사용자가 모임에 참가할 [수](limits-specifications-teams.md)없습니다. 근본 원인은 IB가 사용자를 모임 채팅 로스터에 추가할 수 있는지 여부에 따라 확인하며, 해당 사용자를 로스터에 추가할 수 있는 경우만 모임에 참가할 수 있도록 허용됩니다. 한 번 모임에 참가하는 사용자가 해당 사용자를 목록에 추가합니다. 따라서 모임이 재개될 경우 로스터를 빠르게 채울 수 있습니다. 채팅 로스터가 모임 [](limits-specifications-teams.md)참석 제한에 도달하면 모임에 추가 사용자를 추가할 수 없습니다. 테넌트에 대해 IB를 사용하도록 설정하고 채팅 로스터가 모임에 대해 가득 차면 새 사용자(아직 로스터에 없는 사용자)는 모임에 참가할 수 없습니다. 하지만 테넌트에 대해 IB를 사용하도록 설정하지 않은 경우 모임 채팅 로스터가 가득 차면 새 사용자(아직 로스터에 없는 사용자)가 모임에 참가할 수 있지만 모임에 채팅 옵션이 표시됩니다. 단기 해결 방법은 모임 채팅 목록에서 비활성 구성원을 제거하여 새 사용자를 위한 공간을 만드는 것입니다. 그러나 나중에 모임 채팅 로스터의 크기를 늘려나가게 됩니다.
 
-- **사용자가 채널** 모임에 참가할 수 없습니다. IB 정책을 사용하도록 설정한 경우 사용자가 팀의 구성원이 아닌 경우 채널 모임에 참가할 수 없습니다. 근본 원인은 IB가 사용자를 모임 채팅명단에 추가할 수 있는지 여부에 따라 확인하며, 해당 사용자를 로스터에 추가할 수 있는 경우만 모임에 참가할 수 있도록 허용됩니다. 채널 모임의 채팅 스레드는 팀/채널 구성원만 사용할 수 있으며, 구성원이 아닌 구성원은 채팅 스레드를 보거나 액세스할 수 없습니다. 테넌트에 대해 IB를 사용하도록 설정하고 팀 구성원이 아닌 구성원이 채널 모임에 참가하려고 하면 해당 사용자가 모임에 참가할 수 없습니다. 그러나 테넌트에  대해 IB를 사용할 수 없는 경우 팀 구성원이 아닌 구성원이 채널 모임에 참가하려고 하면 사용자가 모임에 참가할 수 있지만 모임에 채팅 옵션이 표시되지 않습니다.
+- **사용자가 채널** 모임에 참가할 수 없습니다. IB 정책을 사용하도록 설정한 경우 사용자가 팀의 구성원이 아닌 경우 채널 모임에 참가할 수 없습니다. 근본 원인은 IB가 사용자를 모임 채팅 로스터에 추가할 수 있는지 여부에 따라 확인하며, 해당 사용자를 로스터에 추가할 수 있는 경우만 모임에 참가할 수 있도록 허용됩니다. 채널 모임의 채팅 스레드는 팀/채널 구성원만 사용할 수 있으며, 구성원이 아닌 구성원은 채팅 스레드를 보거나 액세스할 수 없습니다. 테넌트에 대해 IB를 사용하도록 설정하고 팀 구성원이 아닌 구성원이 채널 모임에 참가하려고 하면 해당 사용자가 모임에 참가할 수 없습니다. 그러나 테넌트에  대해 IB를 사용할 수 없는 경우 팀 구성원이 아닌 구성원이 채널 모임에 참가하려고 하면 사용자가 모임에 참가할 수 있지만 모임에 채팅 옵션이 표시 되지 않습니다.
 
 ## <a name="more-information"></a>추가 정보
 
@@ -209,3 +209,7 @@ Sesha 사용자가 Investment Banking 세그먼트에 대한 팀을 만드는 �
 - IB 정책을 설정하는 경우 정보 [장벽에 대한 정책 정의를 참조하세요.](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
 
 - IB 정책을 편집하거나 제거하려면 정보 장벽 정책 [편집(또는 제거)을 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies)
+
+## <a name="availability"></a>가용성
+- 이 기능은 공용 클라우드에서 사용할 수 있습니다. 2021년 1월에 GCC 클라우드에 정보 장벽을 출시했습니다.
+- 이 기능은 GCCH 및 DOD 클라우드에서 아직 사용할 수 없습니다.

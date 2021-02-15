@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df06c03ab37a98c5ea4404d8dbd12703b07ad3ee
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611812"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196472"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 
@@ -60,6 +60,8 @@ Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active 
 
 - 관리되는 Azure AD 도메인 전자 메일 주소를 포함 니다.
 - 유료 구독이 있는 테넌트에 속합니다.
+- 활성 Teams 라이선스가 없습니다.
+- 라이선스 할당 정책을 만든 테넌트에 없습니다.
 
 (Microsoft 365 관리 센터에서) 사용자는 앱과 평가판을 사용할 수 있게 등록하도록 설정을 해야 합니다. 자세한 내용은 이 문서 뒷부분의 [Teams 예비 환경 관리](#manage-the-teams-exploratory-experience)를 참조하십시오.
 
@@ -169,17 +171,13 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면(관리자 
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 환경은 얼마나 오래 지속되나요?
 
-Microsoft Teams Exploratory 체험은 초기 사용자 등록 후 12개월 동안 추가 비용 없이 30일 간의 추가 유예 기간을 제공합니다. 이 경우 Microsoft 예비 환경 라이선스의 최종 사용자는 Teams가 포함된 유료 라이선스로 전환해야 합니다. 동일한 테넌트의 모든 사용자에게 동일한 종료 날짜가 적용되며, 첫 번째 사용자의 구독 날짜부터 12개월 기간이 시작됩니다.
+2021년 초부터 Teams Exploratory는 모든 신규 고객에게 12개월 구독(초기 사용자 등록부터)으로 제공됩니다. 새 Teams Exploratory 구독은 조직의 첫 번째 사용자가 Teams 탐색에 등록할 때 시작되고 12개월 후에 만료됩니다. 동일한 테넌트의 모든 사용자에게 만료 날짜가 적용되며, 첫 번째 사용자의 구독 날짜부터 12개월 기간이 시작됩니다.
 
-### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>최종 사용자가 기념일 또는 갱신 날짜 직전에 Microsoft Teams Exploratory 환경을 시작하는 경우 어떻게 되나요?
+> [!NOTE]
+> 환경의 종료 날짜는 조직 수준에서 구성됩니다. 즉, 동일한 조직의 모든 사용자에게 적용됩니다. 예를 들어 사용자 1은 2021년 1월 1일 구독에 등록합니다. 그러면 2021년 12월 31일의 구독 종료 날짜가 시작됩니다. 다른 사용자인 사용자 2는 2021년 10월 1일에 구독에 등록합니다. 사용자 2는 조직이 사용자 1과 동일한 구독을 사용 중이기 때문에 종료 날짜가 2021년 12월 31일이 되고 두 달 동안 Teams Exploratory를 사용할 수 있습니다.
 
-**계약 기념일** 또는 **갱신** 후 90일 이내에 시작된 Microsoft Teams Exploratory 환경 라이선스는 다음 기념일 또는 갱신 주기까지 유료 라이선스로 전환할 필요가 없습니다.
+### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>12개월 동안의 Teams Exploratory가 끝나면 관리자가 어떤 작업을 해야 하는지
 
-### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>계약서에 주기 혹은 연간 갱신 날짜가 없는 경우 어떻게 하나요(예: 월 단위 계약)
+12개월 구독이 종료되는 경우 관리자는 모든 Teams Exploratory 사용자를 Teams가 포함된 유료 라이선스로 변환해야 합니다. 사용자의 환경 중단을 방지하기 위해 Teams Exploratory 구독이 만료되기 전에 이 작업을 완료하는 것이 중요합니다.
 
-주기 또는 연간 갱신 날짜가 없는 계약서의 경우, 첫 번째 최종 사용자가 Microsoft Teams Exploratory 환경 라이선스를 정품 인증한 다음의 년도가 기념일 또는 갱신 날짜로 간주됩니다. 이 문서에 간략히 설명한 정책에 따라 Microsoft Teams Exploratory 라이선스를 사용하는 사용자는 각 해 해당일까지 유료 라이선스로 전환해야 합니다.
-
-예를 들어, 첫 번째 최종 사용자가 Microsoft Teams Exploratory 라이선스를 2020년 6월 19일에 정품 인증을 하면, 해당 사용자와 고객 테넌트에 있는 다른 모든 적격 사용자는 2021년 6월 19일까지 유료 라이선스로 전환해야 합니다.
-
-> [!Note]
-> 고객은 이전 탐색 평가판 라이선스가 만료된 후 3개월 동안 새로운 탐색 평가판 라이선스를 시작할 수 없으며 사용할 수 없게 됩니다.
+자세한 내용은 이 문서 윗부분의 [Teams Exploratory 라이선스의 사용자 업그레이드](#upgrade-users-from-the-teams-exploratory-license)를 참조하세요.

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 관리 센터에서 Teams 타사 앱에 대한 서비스 구매
+title: Teams용 타사 앱 구매
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -12,18 +12,18 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: ''
-description: Microsoft Teams 관리 센터의 앱 관리 페이지에서 Teams 타사 앱에 대한 서비스를 구입하는 방법을 알아보십시오.
+description: Microsoft Teams 관리 센터에서 Teams용 타사 앱을 구입하는 방법에 대해 자세히 배워 주세요.
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 8ee5b5c56a26ed054cdef559bc623b3cca4baa43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3b90af2e0fecba2d6c421a5b26547e93b18df05d
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834328"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196182"
 ---
-<a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 타사 앱에 대한 서비스 구매
+<a name="purchase-third-party-apps-for-teams"></a>Teams용 타사 앱 구매
 ======================================================
 
 > [!NOTE]
@@ -59,7 +59,7 @@ Teams 앱과 연결된 SaaS 제품을 구입한 후 앱 세부 정보 페이지�
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="앱 세부 정보 페이지의 계획 및 가격 책정 탭 스크린샷":::
 
-라이선스 **관리를** 선택하여 Microsoft 365 관리 센터로 이동하여 구입한 라이선스를 보고 관리하고 사용자의 라이선스 할당을 관리합니다.
+라이선스 **관리를** 선택하여 구입한 라이선스를 보고 관리하고 사용자의 라이선스 할당을 관리하려면 Microsoft 365 관리 센터로 이동하세요.
 
 전역 관리자는 조직의 모든 사용자가 구매한 제품을 볼 수 있는 반면 Teams 서비스 관리자는 직접 구매한 제품만 볼 수 있습니다.  
 
@@ -69,7 +69,7 @@ Teams 앱과 연결된 SaaS 제품을 구입한 후 앱 세부 정보 페이지�
  
 타사 앱 개발자는 [SaaS](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer) 제품 만들기로 이동하여 자세한 정보를 볼 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
 - [SaaS 제품 만들기](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)
