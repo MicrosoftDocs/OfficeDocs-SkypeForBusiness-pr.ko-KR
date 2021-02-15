@@ -20,8 +20,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831798"
 ---
-# <a name="syndicators-table"></a><span data-ttu-id="de382-104">Syndicators 테이블</span><span class="sxs-lookup"><span data-stu-id="de382-104">Syndicators table</span></span>
+# <a name="syndicators-table"></a><span data-ttu-id="122b6-104">Syndicators 테이블</span><span class="sxs-lookup"><span data-stu-id="122b6-104">Syndicators table</span></span>
  
-<span data-ttu-id="de382-105">SyndicatorsTable은 내부 용도로만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="de382-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="de382-106">이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="de382-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="122b6-105">SyndicatorsTable은 내부 용도로만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="122b6-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="122b6-106">이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="122b6-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

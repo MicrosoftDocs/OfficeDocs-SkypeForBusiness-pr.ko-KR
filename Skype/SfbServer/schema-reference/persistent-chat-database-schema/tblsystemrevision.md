@@ -20,14 +20,14 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831418"
 ---
-# <a name="tblsystemrevision"></a><span data-ttu-id="57985-103">tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="57985-103">tblSystemRevision</span></span>
+# <a name="tblsystemrevision"></a><span data-ttu-id="cb5fd-103">tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="cb5fd-103">tblSystemRevision</span></span>
  
-<span data-ttu-id="57985-104">tblSystemRevision에는 여러 관리자 클라이언트 간에 일관성을 유지하기 위해서 tblAdminLock 테이블에서 사용되는 수정 버전 번호가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="57985-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
+<span data-ttu-id="cb5fd-104">tblSystemRevision에는 여러 관리자 클라이언트 간에 일관성을 유지하기 위해서 tblAdminLock 테이블에서 사용되는 수정 버전 번호가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="cb5fd-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
   
-<span data-ttu-id="57985-105">**열**</span><span class="sxs-lookup"><span data-stu-id="57985-105">**Columns**</span></span>
+<span data-ttu-id="cb5fd-105">**열**</span><span class="sxs-lookup"><span data-stu-id="cb5fd-105">**Columns**</span></span>
 
-|<span data-ttu-id="57985-106">**열**</span><span class="sxs-lookup"><span data-stu-id="57985-106">**Column**</span></span>|<span data-ttu-id="57985-107">**유형**</span><span class="sxs-lookup"><span data-stu-id="57985-107">**Type**</span></span>|<span data-ttu-id="57985-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="57985-108">**Description**</span></span>|
+|<span data-ttu-id="cb5fd-106">**열**</span><span class="sxs-lookup"><span data-stu-id="cb5fd-106">**Column**</span></span>|<span data-ttu-id="cb5fd-107">**유형**</span><span class="sxs-lookup"><span data-stu-id="cb5fd-107">**Type**</span></span>|<span data-ttu-id="cb5fd-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="cb5fd-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="57985-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="57985-109">sysRevision</span></span>  <br/> |<span data-ttu-id="57985-110">bigint, null이 아님</span><span class="sxs-lookup"><span data-stu-id="57985-110">bigint, not null</span></span>  <br/> |<span data-ttu-id="57985-111">수정 버전 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="57985-111">Revision number.</span></span>  <br/> |
+|<span data-ttu-id="cb5fd-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="cb5fd-109">sysRevision</span></span>  <br/> |<span data-ttu-id="cb5fd-110">bigint, null이 아님</span><span class="sxs-lookup"><span data-stu-id="cb5fd-110">bigint, not null</span></span>  <br/> |<span data-ttu-id="cb5fd-111">수정 버전 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="cb5fd-111">Revision number.</span></span>  <br/> |
    
 

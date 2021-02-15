@@ -20,8 +20,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831728"
 ---
-# <a name="task-table"></a><span data-ttu-id="c4e6b-104">작업 테이블</span><span class="sxs-lookup"><span data-stu-id="c4e6b-104">Task table</span></span>
+# <a name="task-table"></a><span data-ttu-id="4ddc4-104">작업 테이블</span><span class="sxs-lookup"><span data-stu-id="4ddc4-104">Task table</span></span>
  
-<span data-ttu-id="c4e6b-105">Task Table은 내부 용도로만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="c4e6b-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="c4e6b-106">이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="c4e6b-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="4ddc4-105">Task Table은 내부 용도로만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="4ddc4-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="4ddc4-106">이 표는 Microsoft Lync Server 2013에서 도입된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="4ddc4-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

@@ -22,13 +22,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829528"
 ---
-# <a name="call-detail-recording-create-new-or-edit-existing"></a><span data-ttu-id="17e16-104">통화 정보 기록: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="17e16-104">Call Detail Recording: Create New or Edit Existing</span></span>
+# <a name="call-detail-recording-create-new-or-edit-existing"></a><span data-ttu-id="aae29-104">통화 정보 기록: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="aae29-104">Call Detail Recording: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="17e16-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="17e16-105">What do you want to do?</span></span> <span data-ttu-id="17e16-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="17e16-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="aae29-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="aae29-105">What do you want to do?</span></span> <span data-ttu-id="aae29-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="aae29-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="17e16-107">비즈니스용 Skype 서버에서 통화 정보 기록 사용</span><span class="sxs-lookup"><span data-stu-id="17e16-107">Enable call detail recording in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/enable-cdr.md)
+- [<span data-ttu-id="aae29-107">비즈니스용 Skype 서버에서 통화 정보 기록 사용</span><span class="sxs-lookup"><span data-stu-id="aae29-107">Enable call detail recording in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/enable-cdr.md)
     
-- [<span data-ttu-id="17e16-108">비즈니스용 Skype 서버에서 CDR 데이터 보존 지정</span><span class="sxs-lookup"><span data-stu-id="17e16-108">Specify retention of CDR data in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [<span data-ttu-id="aae29-108">비즈니스용 Skype 서버에서 CDR 데이터 보존 지정</span><span class="sxs-lookup"><span data-stu-id="aae29-108">Specify retention of CDR data in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-<span data-ttu-id="17e16-109">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="17e16-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="aae29-109">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="aae29-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

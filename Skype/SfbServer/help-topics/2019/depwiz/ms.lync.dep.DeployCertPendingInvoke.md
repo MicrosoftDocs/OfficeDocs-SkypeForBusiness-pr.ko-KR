@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49830428"
 ---
-# <a name="pending-certificate-invoke"></a><span data-ttu-id="1bf9e-106">대기 중인 인증서(호출)</span><span class="sxs-lookup"><span data-stu-id="1bf9e-106">Pending Certificate (Invoke)</span></span>
+# <a name="pending-certificate-invoke"></a><span data-ttu-id="4864e-106">대기 중인 인증서(호출)</span><span class="sxs-lookup"><span data-stu-id="4864e-106">Pending Certificate (Invoke)</span></span>
  
-<span data-ttu-id="1bf9e-p102">**명령 실행** 페이지에 대기 중인 인증서를 검색하는 명령 상태가 표시됩니다. 작업이 완료되면 **대기 중인 인증서 검색** 로그 파일을 사용할 수 있습니다. **로그 보기** 를 클릭하여 처리 및 작업 완료 상태를 검토합니다. 계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="1bf9e-p102">The **Executing Commands** page displays the status of the commands that are retrieving the pending certificate. When the task is completed, the **Retrieve Pending Certificates** log file is available. Click **View Log** to review the processing and task completion status. Click **Next** to continue.</span></span>
+<span data-ttu-id="4864e-p102">**명령 실행** 페이지에 대기 중인 인증서를 검색하는 명령 상태가 표시됩니다. 작업이 완료되면 **대기 중인 인증서 검색** 로그 파일을 사용할 수 있습니다. **로그 보기** 를 클릭하여 처리 및 작업 완료 상태를 검토합니다. 계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4864e-p102">The **Executing Commands** page displays the status of the commands that are retrieving the pending certificate. When the task is completed, the **Retrieve Pending Certificates** log file is available. Click **View Log** to review the processing and task completion status. Click **Next** to continue.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="1bf9e-p103">인증 기관 관리자가 아직 인증서를 승인하지 않은 경우 대기 중인 요청 검색 로그 파일에 대기 중인 요청이 있음이 표시됩니다. 인증 기관 관리자가 요청을 거부한 경우 로그 파일에 실패가 표시되고, 요청이 거부되었음과 요청을 거부한 사람의 사용자 이름이 표시된 오류가 보고됩니다.</span><span class="sxs-lookup"><span data-stu-id="1bf9e-p103">If the certificate has not yet been approved by the certification authority administrator, the Retrieve Pending Request log file will indicate that there are pending requests. If the certification authority administrator has denied the request, the log file will indicate a failure and will report the error, indicating that the request was denied and the user name of the person who denied the request.</span></span> 
+> <span data-ttu-id="4864e-p103">인증 기관 관리자가 아직 인증서를 승인하지 않은 경우 대기 중인 요청 검색 로그 파일에 대기 중인 요청이 있음이 표시됩니다. 인증 기관 관리자가 요청을 거부한 경우 로그 파일에 실패가 표시되고, 요청이 거부되었음과 요청을 거부한 사람의 사용자 이름이 표시된 오류가 보고됩니다.</span><span class="sxs-lookup"><span data-stu-id="4864e-p103">If the certificate has not yet been approved by the certification authority administrator, the Retrieve Pending Request log file will indicate that there are pending requests. If the certification authority administrator has denied the request, the log file will indicate a failure and will report the error, indicating that the request was denied and the user name of the person who denied the request.</span></span> 
   
 

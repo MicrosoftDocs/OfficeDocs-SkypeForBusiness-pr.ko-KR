@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829738"
 ---
-# <a name="remove-certificate-intro"></a><span data-ttu-id="5488f-104">인증서 제거(소개)</span><span class="sxs-lookup"><span data-stu-id="5488f-104">Remove Certificate (Intro)</span></span>
+# <a name="remove-certificate-intro"></a><span data-ttu-id="7b784-104">인증서 제거(소개)</span><span class="sxs-lookup"><span data-stu-id="7b784-104">Remove Certificate (Intro)</span></span>
  
-<span data-ttu-id="5488f-p102">**인증서 제거** 소개 페이지에서 인증서 제거의 영향에 대한 정보를 신중하게 읽습니다. 이 정보를 읽은 후 계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="5488f-p102">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.</span></span>
+<span data-ttu-id="7b784-p102">**인증서 제거** 소개 페이지에서 인증서 제거의 영향에 대한 정보를 신중하게 읽습니다. 이 정보를 읽은 후 계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="7b784-p102">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.</span></span>
   
 

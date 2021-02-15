@@ -19,12 +19,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49832278"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="6f255-103">비즈니스용 Skype 서버의 핵심 인프라에 대한 위협 해결</span><span class="sxs-lookup"><span data-stu-id="6f255-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="61ced-103">비즈니스용 Skype 서버의 핵심 인프라에 대한 위협 해결</span><span class="sxs-lookup"><span data-stu-id="61ced-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
  
-<span data-ttu-id="6f255-104">비즈니스용 Skype 서버 배포에 대한 모범 사례를 준수하는 것 외에도 배포의 특정 영역에서 요구 사항을 검토, 이해 및 해결하여 보안을 보장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6f255-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
+<span data-ttu-id="61ced-104">비즈니스용 Skype 서버 배포에 대한 모범 사례를 준수하는 것 외에도 배포의 특정 영역에서 요구 사항을 검토, 이해 및 해결하여 보안을 보장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61ced-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="6f255-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="6f255-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="61ced-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="61ced-105">In this section</span></span>
 
-- [<span data-ttu-id="6f255-106">비즈니스용 Skype 서버의 핵심 인프라에 대한 모범 사례</span><span class="sxs-lookup"><span data-stu-id="6f255-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
+- [<span data-ttu-id="61ced-106">비즈니스용 Skype 서버의 핵심 인프라에 대한 모범 사례</span><span class="sxs-lookup"><span data-stu-id="61ced-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
     
 

@@ -22,10 +22,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829338"
 ---
-# <a name="prefix-edit"></a><span data-ttu-id="4feec-104">접두사 편집</span><span class="sxs-lookup"><span data-stu-id="4feec-104">Prefix Edit</span></span>
+# <a name="prefix-edit"></a><span data-ttu-id="f5eb1-104">접두사 편집</span><span class="sxs-lookup"><span data-stu-id="f5eb1-104">Prefix Edit</span></span>
  
-<span data-ttu-id="4feec-p102">접두사나 시작 숫자를 정의하려면 이 경로에서 처리해야 하는 번호 접두사를 추가합니다(필요한 경우 + 포함). 예를 들어 +123으로 시작하는 모든 번호를 일치시킬 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4feec-p102">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.</span></span>
+<span data-ttu-id="f5eb1-p102">접두사나 시작 숫자를 정의하려면 이 경로에서 처리해야 하는 번호 접두사를 추가합니다(필요한 경우 + 포함). 예를 들어 +123으로 시작하는 모든 번호를 일치시킬 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb1-p102">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.</span></span>
   
-<span data-ttu-id="4feec-107">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="4feec-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="f5eb1-107">비즈니스용 Skype 서버 제어판을 사용하여 수행할 수 있는 다양한 절차에 대한 자세한 내용은 비즈니스용 [Skype 서버 2015를 참조하세요.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="f5eb1-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

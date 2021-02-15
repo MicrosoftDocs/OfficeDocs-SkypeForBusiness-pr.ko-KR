@@ -20,22 +20,22 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831598"
 ---
-# <a name="tblprincipalmembers"></a><span data-ttu-id="ace02-103">tblPrincipalMembers</span><span class="sxs-lookup"><span data-stu-id="ace02-103">tblPrincipalMembers</span></span>
+# <a name="tblprincipalmembers"></a><span data-ttu-id="e4a45-103">tblPrincipalMembers</span><span class="sxs-lookup"><span data-stu-id="e4a45-103">tblPrincipalMembers</span></span>
  
-<span data-ttu-id="ace02-104">tblPrincipalMembers에는 사용자 구성원 자격이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ace02-104">tblPrincipalMembers contains principal memberships.</span></span>
+<span data-ttu-id="e4a45-104">tblPrincipalMembers에는 사용자 구성원 자격이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="e4a45-104">tblPrincipalMembers contains principal memberships.</span></span>
   
-<span data-ttu-id="ace02-105">**열**</span><span class="sxs-lookup"><span data-stu-id="ace02-105">**Columns**</span></span>
+<span data-ttu-id="e4a45-105">**열**</span><span class="sxs-lookup"><span data-stu-id="e4a45-105">**Columns**</span></span>
 
-|<span data-ttu-id="ace02-106">**열**</span><span class="sxs-lookup"><span data-stu-id="ace02-106">**Column**</span></span>|<span data-ttu-id="ace02-107">**유형**</span><span class="sxs-lookup"><span data-stu-id="ace02-107">**Type**</span></span>|<span data-ttu-id="ace02-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="ace02-108">**Description**</span></span>|
+|<span data-ttu-id="e4a45-106">**열**</span><span class="sxs-lookup"><span data-stu-id="e4a45-106">**Column**</span></span>|<span data-ttu-id="e4a45-107">**유형**</span><span class="sxs-lookup"><span data-stu-id="e4a45-107">**Type**</span></span>|<span data-ttu-id="e4a45-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="e4a45-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="ace02-109">prinID</span><span class="sxs-lookup"><span data-stu-id="ace02-109">prinID</span></span>  <br/> |<span data-ttu-id="ace02-110">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="ace02-110">int, not null</span></span>  <br/> |<span data-ttu-id="ace02-111">사용자 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="ace02-111">Principal ID.</span></span>  <br/> |
-|<span data-ttu-id="ace02-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="ace02-112">memberADPath</span></span>  <br/> |<span data-ttu-id="ace02-113">nvarchar(384), null이 아님</span><span class="sxs-lookup"><span data-stu-id="ace02-113">nvarchar (384), not null</span></span>  <br/> |<span data-ttu-id="ace02-p101">구성원의 고유 이름입니다. 구성원은 tblPrincipal 테이블의 사용자일 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ace02-p101">Distinguished name of a member. A member does not have to be a principal (in tblPrincipal table).</span></span>  <br/> |
+|<span data-ttu-id="e4a45-109">prinID</span><span class="sxs-lookup"><span data-stu-id="e4a45-109">prinID</span></span>  <br/> |<span data-ttu-id="e4a45-110">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="e4a45-110">int, not null</span></span>  <br/> |<span data-ttu-id="e4a45-111">사용자 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="e4a45-111">Principal ID.</span></span>  <br/> |
+|<span data-ttu-id="e4a45-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="e4a45-112">memberADPath</span></span>  <br/> |<span data-ttu-id="e4a45-113">nvarchar(384), null이 아님</span><span class="sxs-lookup"><span data-stu-id="e4a45-113">nvarchar (384), not null</span></span>  <br/> |<span data-ttu-id="e4a45-p101">구성원의 고유 이름입니다. 구성원은 tblPrincipal 테이블의 사용자일 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e4a45-p101">Distinguished name of a member. A member does not have to be a principal (in tblPrincipal table).</span></span>  <br/> |
    
-<span data-ttu-id="ace02-116">**키**</span><span class="sxs-lookup"><span data-stu-id="ace02-116">**Keys**</span></span>
+<span data-ttu-id="e4a45-116">**키**</span><span class="sxs-lookup"><span data-stu-id="e4a45-116">**Keys**</span></span>
 
-|<span data-ttu-id="ace02-117">**열**</span><span class="sxs-lookup"><span data-stu-id="ace02-117">**Column**</span></span>|<span data-ttu-id="ace02-118">**설명**</span><span class="sxs-lookup"><span data-stu-id="ace02-118">**Description**</span></span>|
+|<span data-ttu-id="e4a45-117">**열**</span><span class="sxs-lookup"><span data-stu-id="e4a45-117">**Column**</span></span>|<span data-ttu-id="e4a45-118">**설명**</span><span class="sxs-lookup"><span data-stu-id="e4a45-118">**Description**</span></span>|
 |:-----|:-----|
-|\<prinID, memberADPath\>  <br/> |<span data-ttu-id="ace02-119">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="ace02-119">Primary key.</span></span>  <br/> |
-|<span data-ttu-id="ace02-120">prinID</span><span class="sxs-lookup"><span data-stu-id="ace02-120">prinID</span></span>  <br/> |<span data-ttu-id="ace02-121">tblPrincipal.prinID에서 조회 기능이 있는 외래 키입니다.</span><span class="sxs-lookup"><span data-stu-id="ace02-121">Foreign key with lookup in tblPrincipal.prinID.</span></span>  <br/> |
+|\<prinID, memberADPath\>  <br/> |<span data-ttu-id="e4a45-119">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="e4a45-119">Primary key.</span></span>  <br/> |
+|<span data-ttu-id="e4a45-120">prinID</span><span class="sxs-lookup"><span data-stu-id="e4a45-120">prinID</span></span>  <br/> |<span data-ttu-id="e4a45-121">tblPrincipal.prinID에서 조회 기능이 있는 외래 키입니다.</span><span class="sxs-lookup"><span data-stu-id="e4a45-121">Foreign key with lookup in tblPrincipal.prinID.</span></span>  <br/> |
    
 

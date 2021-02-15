@@ -20,22 +20,22 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831488"
 ---
-# <a name="tblsiopwhitelist"></a><span data-ttu-id="914fd-103">tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="914fd-103">tblSiopWhiteList</span></span>
+# <a name="tblsiopwhitelist"></a><span data-ttu-id="5eab2-103">tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="5eab2-103">tblSiopWhiteList</span></span>
  
-<span data-ttu-id="914fd-104">tblSiopWhiteList는 노드와 연결할 수 있는 등록된 추가 기능 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="914fd-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
+<span data-ttu-id="5eab2-104">tblSiopWhiteList는 노드와 연결할 수 있는 등록된 추가 기능 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="5eab2-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
   
-<span data-ttu-id="914fd-105">**열**</span><span class="sxs-lookup"><span data-stu-id="914fd-105">**Columns**</span></span>
+<span data-ttu-id="5eab2-105">**열**</span><span class="sxs-lookup"><span data-stu-id="5eab2-105">**Columns**</span></span>
 
-|<span data-ttu-id="914fd-106">**열**</span><span class="sxs-lookup"><span data-stu-id="914fd-106">**Column**</span></span>|<span data-ttu-id="914fd-107">**유형**</span><span class="sxs-lookup"><span data-stu-id="914fd-107">**Type**</span></span>|<span data-ttu-id="914fd-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="914fd-108">**Description**</span></span>|
+|<span data-ttu-id="5eab2-106">**열**</span><span class="sxs-lookup"><span data-stu-id="5eab2-106">**Column**</span></span>|<span data-ttu-id="5eab2-107">**유형**</span><span class="sxs-lookup"><span data-stu-id="5eab2-107">**Type**</span></span>|<span data-ttu-id="5eab2-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="5eab2-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="914fd-109">siopID</span><span class="sxs-lookup"><span data-stu-id="914fd-109">siopID</span></span>  <br/> |<span data-ttu-id="914fd-110">GUID, null이 아님</span><span class="sxs-lookup"><span data-stu-id="914fd-110">GUID, not null</span></span>  <br/> |<span data-ttu-id="914fd-111">추가 기능의 GUID입니다.</span><span class="sxs-lookup"><span data-stu-id="914fd-111">GUID of the add-in.</span></span>  <br/> |
-|<span data-ttu-id="914fd-112">siopName</span><span class="sxs-lookup"><span data-stu-id="914fd-112">siopName</span></span>  <br/> |<span data-ttu-id="914fd-113">nvarchar(50), null이 아님</span><span class="sxs-lookup"><span data-stu-id="914fd-113">nvarchar (50), not null</span></span>  <br/> |<span data-ttu-id="914fd-114">추가 기능의 표시 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="914fd-114">Display-name of the add-in.</span></span>  <br/> |
-|<span data-ttu-id="914fd-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="914fd-115">siopUrl</span></span>  <br/> |<span data-ttu-id="914fd-116">nvarchar(255), null이 아님</span><span class="sxs-lookup"><span data-stu-id="914fd-116">nvarchar (255), not null</span></span>  <br/> |<span data-ttu-id="914fd-117">추가 기능의 URL입니다.</span><span class="sxs-lookup"><span data-stu-id="914fd-117">URL of the add-in.</span></span>  <br/> |
+|<span data-ttu-id="5eab2-109">siopID</span><span class="sxs-lookup"><span data-stu-id="5eab2-109">siopID</span></span>  <br/> |<span data-ttu-id="5eab2-110">GUID, null이 아님</span><span class="sxs-lookup"><span data-stu-id="5eab2-110">GUID, not null</span></span>  <br/> |<span data-ttu-id="5eab2-111">추가 기능의 GUID입니다.</span><span class="sxs-lookup"><span data-stu-id="5eab2-111">GUID of the add-in.</span></span>  <br/> |
+|<span data-ttu-id="5eab2-112">siopName</span><span class="sxs-lookup"><span data-stu-id="5eab2-112">siopName</span></span>  <br/> |<span data-ttu-id="5eab2-113">nvarchar(50), null이 아님</span><span class="sxs-lookup"><span data-stu-id="5eab2-113">nvarchar (50), not null</span></span>  <br/> |<span data-ttu-id="5eab2-114">추가 기능의 표시 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="5eab2-114">Display-name of the add-in.</span></span>  <br/> |
+|<span data-ttu-id="5eab2-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="5eab2-115">siopUrl</span></span>  <br/> |<span data-ttu-id="5eab2-116">nvarchar(255), null이 아님</span><span class="sxs-lookup"><span data-stu-id="5eab2-116">nvarchar (255), not null</span></span>  <br/> |<span data-ttu-id="5eab2-117">추가 기능의 URL입니다.</span><span class="sxs-lookup"><span data-stu-id="5eab2-117">URL of the add-in.</span></span>  <br/> |
    
-<span data-ttu-id="914fd-118">**키**</span><span class="sxs-lookup"><span data-stu-id="914fd-118">**Key**</span></span>
+<span data-ttu-id="5eab2-118">**키**</span><span class="sxs-lookup"><span data-stu-id="5eab2-118">**Key**</span></span>
 
-|<span data-ttu-id="914fd-119">**열**</span><span class="sxs-lookup"><span data-stu-id="914fd-119">**Column**</span></span>|<span data-ttu-id="914fd-120">**설명**</span><span class="sxs-lookup"><span data-stu-id="914fd-120">**Description**</span></span>|
+|<span data-ttu-id="5eab2-119">**열**</span><span class="sxs-lookup"><span data-stu-id="5eab2-119">**Column**</span></span>|<span data-ttu-id="5eab2-120">**설명**</span><span class="sxs-lookup"><span data-stu-id="5eab2-120">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="914fd-121">siopID</span><span class="sxs-lookup"><span data-stu-id="914fd-121">siopID</span></span>  <br/> |<span data-ttu-id="914fd-122">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="914fd-122">Primary key.</span></span>  <br/> |
+|<span data-ttu-id="5eab2-121">siopID</span><span class="sxs-lookup"><span data-stu-id="5eab2-121">siopID</span></span>  <br/> |<span data-ttu-id="5eab2-122">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="5eab2-122">Primary key.</span></span>  <br/> |
    
 
