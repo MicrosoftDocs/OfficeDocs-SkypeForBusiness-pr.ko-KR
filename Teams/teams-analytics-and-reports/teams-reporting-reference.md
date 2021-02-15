@@ -18,12 +18,12 @@ description: 이 문서에서는 Microsoft Teams 관리 센터에서 사용할 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 902320f1ea2bc9071bbb9fc2be531117dabc8eef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 684afe6e001ecb7b897a8574813eaed42108bb82
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809278"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196832"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 분석 및 보고
 
@@ -42,12 +42,12 @@ Microsoft Teams 관리 센터로 이동하여 왼쪽 탐색 창에서 **Analytic
 
 다음은 Microsoft Teams 관리 센터에서 사용할 수 있는 Teams 보고서 목록과 각 보고서에서 사용할 수 있는 일부 정보의 개요입니다.
 
-Teams 보고 환경을 지속적으로 개선하고 기능 및 기능을 추가하고 있습니다. 시간이 지날 때 보고서에 추가 기능을 구축하고 Microsoft Teams 관리 센터에서 새 보고서를 추가할 것입니다.
+Teams 보고 환경을 지속적으로 개선하고 기능 및 기능을 추가하고 있습니다. 시간이 지날 때 보고서에 추가 기능을 구축하고 Microsoft Teams 관리 센터에 새 보고서를 추가할 것입니다.
 
-|보고서  |어떤 측정을 하나요? |
+|보고서  |무엇을 측정하나요? |
 |---------|---------|
 |[Teams 사용 현황 보고서](teams-usage-report.md)  |  활성 사용자<br/>팀 및 채널의 활성 사용자<br/>활성 채널<br/>메시지<br/>팀의 개인 정보 설정<br/>팀의 게스트   |
-|[Teams 사용자 작업 보고서](user-activity-report.md)  |  1:1 호출에 참여한 사용자<br/>사용자가 팀 채팅에 게시한 메시지<br/>비공개 채팅에 사용자가 게시한 메시지<br/>사용자의 마지막 활동 날짜     |
+|[Teams 사용자 작업 보고서](user-activity-report.md)  | 사용자가 팀 채팅에 게시한 메시지<br/>사용자가 비공개 채팅에 게시한 메시지<br/>  1:1 호출에 참여한 사용자<br/> 구성한 모임 사용자 수 <br/>참가한 모임 사용자 수<br/>모임 오디오, 비디오 및 화면 공유 시간<br/>   사용자의 마지막 활동 날짜     |
 |[Teams 장치 사용 현황 보고서](device-usage-report.md)   |  Windows 사용자<br/>Mac 사용자<br/>iOS 사용자<br/>Android 휴대폰 사용자     |
 |[Teams 라이브 이벤트 사용 현황 보고서](teams-live-event-usage-report.md)   |  총 보기<br>시작 시간<br>이벤트 상태<br>이끌이<br>발표자<br>생산자<br>녹음/녹화 설정<br>프로덕션 유형    |
 |[Teams PSTN 차단된 사용자 보고서](pstn-blocked-users-report.md)   |  표시 이름<br>전화 번호<br>이유<br>작업 유형<br>작업 날짜 및 시간   |

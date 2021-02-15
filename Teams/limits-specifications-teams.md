@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6452d49f1d00558d2103cfe45be0dc848d6f0a26
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145725"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196792"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -131,13 +131,10 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 
 |기능     | 최대 한도 |
 |------------|---------------|
-|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 300 |
-|채팅 탭에서 시작된 비디오 또는 오디오 통화의 사용자 수 | 20 |
+|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 300. **보기 전용** 에서는 주최자가 E3/E5/A3/A5 SKU에 대한 라이선스를 보유한 모임에 최대 10,000명의 청취자만 참가할 수 있습니다.<br>**참고:** 정부 기관용 Teams(GCC, GCC High, DoD)의 경우, 제한은 여전히 250입니다. 정부 클라우드 제한이 250에서 300으로 늘어나고 모임 오버플로를 지원하면 이 문서를 업데이트할 예정입니다. [보기 전용 환경](view-only-meeting-experience.md)에 대해 자세히 알아보세요.|
+|채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
 |최대 PowerPoint 파일 크기 | 2GB|
-|Teams는 Microsoft Stream에 업로드되지 않는 [모임 녹음/녹화](cloud-recording.md)를 보관하여 로컬로 다운로드할 수 있습니다. | 20일 |
-
->[!Note]
-> Microsoft Stream의 사용에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](tmr-meeting-recording-change.md)로의 변경은 단계별 접근 방식을 사용합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우, 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
+|Teams는 Microsoft Stream에 업로드되지 않은 [모임 녹화](cloud-recording.md)를 보관하며 로컬로 다운로드할 수 있습니다. | 20일 |
 
 ### <a name="meeting-expiration"></a>모임 만료
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 Microsoft Teams용 일본에서 전화 번호를 받고 관리하는 방법을 찾을 수 있습니다.
-ms.openlocfilehash: 5cc9168b1ab0b881c2f7737f00369b5a286962b9
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 3c16d05a1160e95777f6ee981ca7332a4555f10a
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322257"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196682"
 ---
 # <a name="phone-number-management-for-japan"></a>일본 전화 번호 관리
 
@@ -46,10 +46,12 @@ ms.locfileid: "48322257"
 |사용자 번호를 서비스 번호로 변경합니다. |SoftBank 통화를 사용하는 경우 현재 지원되지 않습니다.|
 |큐 또는 자동 전화 번호 호출을 위해 디렉터리 서비스 업데이트|통화 큐 또는 자동 전화 번호 추가 또는 변경을 위해 [PSTN 서비스 데스크에 문의합니다.](contact-pstn-service-desk.md) |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 요금제에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization.md)
 
 [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
+
+[긴급 통화 고지 레이블](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

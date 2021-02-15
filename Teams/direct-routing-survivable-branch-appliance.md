@@ -21,20 +21,17 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3204bc58b083f62feca3f878d2189558b69af6bd
-ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
+ms.openlocfilehash: 9fb8812fd025317eb9c6e3c67ce1f5fcea094978
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620733"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196492"
 ---
-# <a name="survivable-branch-appliance-sba-for-direct-routing---public-preview"></a>직접 라우팅에 대한 SBA(남은 분기 어플라이언스) - 공개 미리 보기
+# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>직접 라우팅을 위한 SBA(남은 분기 어플라이언스)
 
 
-> [!NOTE]
-> 공개 미리 보기 릴리스입니다.
-
-경우에 따라 직접 라우팅을 사용하여 Microsoft Phone System에 연결하는 고객 사이트에서 인터넷이 정전될 수 있습니다.
+경우에 따라 직접 라우팅을 사용하여 Microsoft Phone System에 연결하는 고객 사이트에 인터넷 정전이 있을 수 있습니다.
 
 분기라고 하는 고객 사이트는 직접 라우팅을 통해 일시적으로 Microsoft 클라우드에 연결할 수 없다고 가정합니다. 그러나 분기 내 인트라넷은 여전히 완벽하게 작동하며 사용자는 PSTN 연결을 제공하는 SBC(세션 테두리 컨트롤러)에 연결할 수 있습니다.
 
@@ -44,7 +41,7 @@ ms.locfileid: "49620733"
 
 SBA는 SBA가 별도의 VM 또는 하드웨어에서 실행될 수 있도록 펌웨어에 코드를 넣거나 별도로 배포하는 SBC 공급업체에 Microsoft에서 제공하는 배포 가능한 코드입니다. 
 
-포함된 남은 분기 어플라이언스를 사용하여 최신 세션 테두리 컨트롤러 펌웨어를 얻은 다음 SBC 공급업체에 문의합니다. 또한 다음이 필요합니다.
+포함된 남은 분기 어플라이언스를 사용하여 최신 세션 테두리 컨트롤러 펌웨어를 얻습니다. SBC 공급업체에 문의합니다. 또한 다음이 필요합니다.
 
 - 분기 사이트의 Microsoft Teams 클라이언트가 SBC와 직접 미디어가 흐르도록 미디어 우회를 위해 SBC를 구성해야 합니다. 
 
@@ -66,7 +63,7 @@ Microsoft Teams 클라이언트가 오프라인 모드인 경우 다음과 같�
 
 - SBC를 통해 흐르는 미디어를 통해 로컬 SBA/SBC를 통해 PSTN 호출을 합니다.
 
-- SBC를 통해 흐르는 미디어를 통해 로컬 SBA/SBC를 통해 PSTN 호출 수신. 
+- SBC를 통해 흐르는 미디어를 통해 로컬 SBA/SBC를 통해 PSTN 호출 수신 
 
 - PSTN 호출의 보류 및 이력서입니다.
 
@@ -75,7 +72,7 @@ Microsoft Teams 클라이언트가 오프라인 모드인 경우 다음과 같�
 SBA 기능이 작동하기 위해 Teams 클라이언트는 각 분기 사이트에서 사용할 수 있는 SBA와 해당 사이트의 사용자에게 할당된 SBA를 알아야 합니다. 구성 단계는 다음과 같습니다.
 
 1. SB를 생성합니다.
-2. Teams 분기 지속성 정책을 작성합니다.
+2. Teams 분기 지속성 정책을 만들 수 있습니다.
 3. 사용자에게 정책을 할당합니다.
 4. Azure Active Directory에 SBA에 대한 애플리케이션을 등록합니다.
 
@@ -210,7 +207,7 @@ SBC 공급업체의 지원 조직에 문제를 보고합니다. 문제를 보고
 
 - 사용자에게 남은 분기 어플라이언스 정책을 할당할 때 SBA가 Get-CsOnlineUser의 출력에 표시되기까지 다소 시간이 걸릴 수 있습니다. 
 
-- Azure AD 연락처에 대한 역방향 숫자는 수행되지 않습니다. 
+- Azure AD 연락처에 대한 역방향 번호는 수행되지 않습니다. 
 
 - SBA는 통화 전달 설정을 지원하지 않습니다. 
 

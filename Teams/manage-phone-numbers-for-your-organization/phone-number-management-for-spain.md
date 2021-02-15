@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 Microsoft Teams용 스페인에서 전화 번호를 받고 관리하는 방법을 찾을 수 있습니다.
-ms.openlocfilehash: 376588659661ba35bd892e365a5f8ca8ee0b7fe8
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 44ee0a7812cb8c2a9b218960aecabe404c6409c1
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361698"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196652"
 ---
 # <a name="phone-number-management-for-spain"></a>스페인의 전화 번호 관리
 
-이 표를 사용하여 Microsoft Teams용 스페인에서 전화 번호를 받고 관리하는 방법을 찾을 수 있습니다. 
+이 표를 사용하여 Microsoft Teams용 스페인에서 전화 번호를 받고 관리하는 방법을 찾을 수 있습니다.
   
 자세한 내용은 조직의 전화 [번호 관리를 참조하세요.](manage-phone-numbers-for-your-organization.md)
   
@@ -42,7 +42,7 @@ ms.locfileid: "48361698"
 |사용자의 번호를 서비스 번호로 변경합니다.  <br/> |[서비스 번호로](mailto:ptneu@microsoft.com) 변환할 사용자 번호 목록을 보내주시겠어요. <br/> |
 |큐 또는 자동 전화 번호 호출을 위해 디렉터리 서비스 업데이트|통화 큐 또는 자동 전화 번호 추가 또는 변경을 위해 [PSTN 서비스 데스크에 문의합니다.](contact-pstn-service-desk.md) |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 요금제에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
@@ -50,7 +50,4 @@ ms.locfileid: "48361698"
 
 [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
   
-[긴급 통화 고지 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 
-  
- 
+[긴급 통화 고지 레이블](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

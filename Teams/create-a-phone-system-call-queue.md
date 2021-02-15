@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 인사말 메시지를 제공하고, 음악 중지, 통화 리디렉션 및 기타 기능을 제공하는 Microsoft Teams에서 통화 큐에 통화 시스템을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 0253fb15a8672d83e672e3e3e18f8455d292214c
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: cc0995a6355157de1b43a04caf7814e588232c48
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145895"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196752"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -53,11 +53,11 @@ ms.locfileid: "50145895"
 
 ![리소스 계정 및 언어 설정 스크린샷](media/call-queue-name-language.png)
 
-1. 통화 큐의 이름을 입력합니다. 에이전트는 큐에서 들어오는 통화를 받으면 이 이름을 볼 수 있습니다.
+1. 통화 큐의 이름을 입력합니다.
 
-2. **계정 추가** 를 클릭하고 이 통화 큐에 사용할 리소스 계정을 검색하고 **추가** 를 클릭하고 **추가** 를 클릭합니다.
+2. **계정 추가** 를 클릭하고 이 통화 큐에 사용할 리소스 계정을 검색하고 **추가** 를 클릭하고 **추가** 를 클릭합니다. (에이전트는 들어오는 호출을 받으면 리소스 계정 이름을 볼 수 있습니다.)
 
-3. 언어를 선택합니다. 이 언어는 시스템에서 생성된 음성 프롬프트 및 음성 메시지(사용하도록 설정한 경우)에 사용됩니다.
+3. 지원되는 [언어를 선택 합니다.](create-a-phone-system-call-queue-languages.md) 이 언어는 시스템에서 생성된 음성 프롬프트 및 음성 메시지(사용하도록 설정한 경우)에 사용됩니다.
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>대기 중인 인사말 및 음악
 

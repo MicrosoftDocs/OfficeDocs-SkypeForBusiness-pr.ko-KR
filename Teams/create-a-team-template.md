@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e017ac0795d2fdd65d89c0532469e8e269ee0e58
-ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
+ms.openlocfilehash: f22b2c53ab6f3c3c90e1720313c135c2106b1a49
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50173094"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196532"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft Teams에서 사용자 지정 팀 서식 파일 만들기
 
@@ -33,7 +33,7 @@ ms.locfileid: "50173094"
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. 왼쪽 탐색에서 **Teams 팀 서식** 파일을  >  **확장합니다.**
+2. 왼쪽 탐색 모음에서 **Teams 팀 서식** 파일을  >  **확장합니다.**
 
 3. **추가** 를 클릭합니다.
 
@@ -70,9 +70,13 @@ ms.locfileid: "50173094"
 
 **문제:** 추가 사용자 지정 탭이 포함된 사용자 지정 서식 파일에서 팀을 만든 경우 사용자 지정 탭 앱 대신 빈 탭이 표시될 수 있습니다. 기본 탭(예:  **게시물,** 파일 및 **Wiki)이** 예상대로 표시됩니다.
 
-**해결** 방법: 이 문제를 해결하려면 사용자 지정 탭을 제거하고 동일한 앱으로 새 탭을 추가합니다. 현재 2021-02-08을 기점으로 향후 모든 사용자 지정 템플릿에 대한 수정 작업을 진행하고 있습니다.
+**해결** 방법: 추가 사용자 지정 탭이 포함된 사용자 지정 서식 파일에서 팀을 만든 경우 사용자 지정 탭 앱 대신 빈 탭이 표시될 수 있습니다. 기본 탭(예: 게시물, 파일 및 Wiki)이 예상대로 표시됩니다.
 
-## <a name="related-topics"></a>관련 항목
+이 문제를 해결하려면 사용자 지정 탭을 제거하고 동일한 앱으로 새 탭을 추가합니다. 사용자 지정 탭을 제거하고 새 탭을 추가할 수 있는 권한이 없는 경우 팀 소유자에게 문의하여 요청해 주세요.
+
+현재 사용자 지정 서식 파일에서 만든 향후 팀에 대한 수정 작업을 진행하고 있습니다.
+
+## <a name="related-topics"></a>관련 주제
 
 - [관리 센터에서 팀 서식 파일 시작](get-started-with-teams-templates-in-the-admin-console.md)
 - [기존 팀에서 서식 파일 만들기](create-template-from-existing-team.md)

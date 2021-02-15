@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft Teams에서 사용자의 오디오 회의 PIN을 다시 설정하는 방법을 알아보고 PIN에 대한 중요한 사실을 배워볼 수 있습니다.
-ms.openlocfilehash: cf660331bebfe32fe1809067570e316449c12a22
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 3f1055551edb45ac422052476196f01ee4d2765d
+ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918984"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50237468"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의 PIN 다시 설정
 
@@ -58,7 +58,7 @@ Microsoft Teams 앱을 사용하여 인증된 사용자가 참가하거나 이�
 
 ## <a name="what-else-should-you-know-about-pins"></a>PINS에 대해 알아야 할 다른 것은 무엇입니까?
 
-- 보안을 위해 PIN이 다시 설정되면 한 번만 관리자에게 PIN이 표시됩니다. 관리자가 PIN을 다시 설정하면 PIN이 ***********로 표시됩니다.
+- 보안을 위해 PIN은 PIN이 다시 설정되면 관리자에게 한 번만 표시됩니다. 관리자가 PIN을 다시 설정하면 PIN이 ***********로 표시됩니다.
     
 - 사용자에게 자동으로 전자 메일을 보내는 것은 기본적으로 사용하도록 설정되며, 사용자가 오디오 회의를 사용하도록 설정하거나 PIN이 다시 설정되면 해당 PIN이 있는 전자 메일을 받게 됩니다. 하지만 전자 메일 자동 전송을 사용하지 않도록 설정한 경우 사용자에게 PIN 재설정 전자 메일이 전송되지 않고 PIN 정보를 사용자에게 수동으로 보내야 합니다.
     

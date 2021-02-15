@@ -7,7 +7,7 @@ author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 audience: admin
-ms.date: 01/28/2019
+ms.date: 02/10/2021
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -18,24 +18,39 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7ad1c83a09a17fb45adae149272177c8d42d17e
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: d1a6462d0cb1581142eb2f5076e6b2ebad2b9003
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177338"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196522"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams의 앱, 봇 및 커넥터
 
-앱을 사용하여 자주 사용하는 서비스에서 콘텐츠를 찾고 Teams에서 바로 공유할 수 있습니다. 앱을 통해 채널 상단에 있는 서비스를 고정하거나 봇과 채팅하거나 작업을 공유하고 지정하는 등의 작업을 수행 할 수 있습니다. 자세한 내용은 [Teams의 앱 개요](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)를 참조하세요.
+앱을 사용하여 자주 사용하는 서비스에서 콘텐츠를 찾고 Teams에서 공유할 수 있습니다. 앱을 통해 채널 상단에 있는 서비스를 고정하거나 봇과 채팅하거나 작업을 공유하고 지정하는 등의 작업을 수행 할 수 있습니다. 자세한 내용은 [Teams의 앱 개요](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)를 참조하세요. 
 
-초기 Teams 롤아웃을 진행 시 Planner와 같은 추천 앱을 포함하는 것이 좋습니다. Teams의 채택을 주도하면서 다른 앱, 봇 및 커넥터를 추가합니다.
+Microsoft Teams와 함께 제공되는 앱을 사용하거나, 인증된 타사 앱 및 템플릿을 사용하거나 또는 사용자 지정 앱을 만들어 팀 배포에 앱을 추가할 수 있습니다.
 
-자신만의 사용자 지정 앱을 만드는 옵션도 있습니다. 자세한 내용은 [개발자 설명서](/microsoftteams/platform/overview)를 참조하세요.
+## <a name="use-microsoft-provided-apps"></a>Microsoft 제공 앱 사용
+
+Teams는 목록, 작업, 칭찬, 승인 등의 기본 제공 앱 집합을 제공합니다. 초기 Teams 롤아웃을 진행 시 Planner와 같은 Teams 추천 앱을 포함하는 것이 좋습니다. Teams의 채택을 주도하면서 다른 앱, 봇 및 커넥터를 추가합니다.
+
+## <a name="use-third-party-apps"></a>타사 앱 사용
+
+Microsoft에서 제공한 앱 외에도 Microsoft 인증 타사 앱을 사용할 수 있습니다. Microsoft는 Microsoft 365 개발자 파트너와 협력하여 Teams 앱 및 추가 기능을 사용하는 데 필요한 정보를 제공합니다. 자세한 내용은[ Microsoft Teams 앱 보안 및 규정 준수](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps)를 참조하세요.
+
+## <a name="use-teams-templates"></a>Teams 서식 파일 사용
+
+또한 커뮤니티 기반, 오픈 소스 및 GitHub에서 사용할 수 있는 Microsoft Teams용 [Teams 템플릿](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), 프로덕션 지원 앱을 사용할 수 있습니다.
+
+## <a name="create-custom-apps"></a>사용자 지정 앱 만들기
+
+[Microsoft Power Platform](teams-power-platfom-integration.md) 및 Teams 통합을 사용하여 사용자 지정 낮은 코드 솔루션을 빠르게 빌드할 수 있습니다. 비즈니스 요구에 맞게 사용자 지정 앱을 만들 수도 있습니다. 자세한 내용은 [Microsoft Team용 앱 빌드](https://docs.microsoft.com/microsoftteams/platform/overview)를 참조하세요.  
+
 
 ## <a name="apps-deployment-decisions"></a>앱 배포 결정사항
 
-Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경을 제공하고 대부분의 조직에 그 기본 설정이 적합합니다. 이 문서에서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 설정을 변경할지 여부를 결정 하는데 도움을 주고 각 변경 내용에 대해 설명을 합니다. 당사는 사용자가 [변경할 가능성이 큰](#core-deployment-decisions) 변경 내용의 핵심 집합에서 시작하여 설정을 두 그룹으로 나누었습니다. 두 번째 그룹은 조직의 요구 사항에 따라 구성하고자 하는 [추가 설정](#additional-deployment-decisions)을 포함합니다.
+Teams는 조직에 즉시 사용할 수 있는 우수한 협업 환경을 제공하며, 대부분의 조직에서는 기본 설정이 사용된다는 사실을 알게 됩니다. 이 자료에서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 설정을 변경할지 여부를 결정하는 데 도움이 되며, 각 변경 사항을 안내합니다. Microsoft는 설정을 두 그룹으로 나누었고, 첫 번째 그룹은 [사용자가 수행할 가능성이 더 높은 변경사항](#core-deployment-decisions)의 핵심 세트부터 시작합니다. 두 번째 그룹에는 조직의 필요에 따라 구성할 수 있는 [추가 설정](#additional-deployment-decisions)이 포함됩니다.
 
 ## <a name="core-deployment-decisions"></a>핵심 배포 결정사항
 
@@ -111,9 +126,6 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 |||
 
 
-## <a name="next-steps"></a>다음 단계
-- Planner와 같은 추천 앱의 [도입을 주도](adopt-microsoft-teams-landing-page.md)
-- [모임 및 회의 출시](deploy-meetings-microsoft-teams-landing-page.md)
-- [클라우드 음성 출시](cloud-voice-landing-page.md)
+
 
 

@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a1af7f14695d1f933a9c3902b373eb668044e24
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 481e087a6cfe2b641f6b81fcfc893d50f27cbf47
+ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918644"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50237488"
 ---
 <a name="add-and-update-reporting-labels"></a>보고 레이블 추가 및 업데이트
 ============================
@@ -42,8 +42,8 @@ ms.locfileid: "49918644"
 **서브넷 및 위치 테이블을 편집하려면**
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 모음에서 **위치** 보고  >  **레이블을 클릭합니다.**
-2. 위치 **데이터 바꾸기 를 클릭합니다.**
-3. 위치 **데이터 바꾸기** 창에서 파일 선택을 클릭한 다음 **편집한**.csv 또는 .tsv 파일을 찾아 업로드합니다.
+2. 데이터 **업로드를 클릭합니다.**
+3. 데이터 업로드 **창에서** 파일 선택을 클릭한 다음 **편집한**.csv 또는 .tsv 파일을 찾아 업로드합니다.
 4. 업로드를 **클릭합니다.**
 
 여기에서 샘플 템플릿을 다운로드할 수 [있습니다.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
