@@ -23,11 +23,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836108"
 ---
-# <a name="load-balancer-planning-tool"></a><span data-ttu-id="be376-105">부하 균형 조정(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="be376-105">Load Balancer (Planning Tool)</span></span>
+# <a name="load-balancer-planning-tool"></a><span data-ttu-id="8143f-105">부하 균형 조정(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="8143f-105">Load Balancer (Planning Tool)</span></span>
  
-<span data-ttu-id="be376-106">프런트 엔드 풀, Director 풀 또는 에지 서버 풀이 있는 경우 이러한 풀에 대한 부하 분산을 배포해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="be376-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="be376-107">부하 분산은 풀의 서버 간에 트래픽을 분산시킵니다.</span><span class="sxs-lookup"><span data-stu-id="be376-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="be376-108">자세한 내용은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="be376-108">For details, see:</span></span>
+<span data-ttu-id="8143f-106">프런트 엔드 풀, Director 풀 또는 에지 서버 풀이 있는 경우 이러한 풀에 대한 부하 분산을 배포해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8143f-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="8143f-107">부하 분산은 풀의 서버 간에 트래픽을 분산시킵니다.</span><span class="sxs-lookup"><span data-stu-id="8143f-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="8143f-108">자세한 내용은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="8143f-108">For details, see:</span></span>
   
-- [<span data-ttu-id="be376-109">비즈니스용 Skype에 대한 부하 분산 요구 사항</span><span class="sxs-lookup"><span data-stu-id="be376-109">Load balancing requirements for Skype for Business</span></span>](../../../plan-your-deployment/network-requirements/load-balancing.md)
+- [<span data-ttu-id="8143f-109">비즈니스용 Skype에 대한 부하 분산 요구 사항</span><span class="sxs-lookup"><span data-stu-id="8143f-109">Load balancing requirements for Skype for Business</span></span>](../../../plan-your-deployment/network-requirements/load-balancing.md)
     
 
     

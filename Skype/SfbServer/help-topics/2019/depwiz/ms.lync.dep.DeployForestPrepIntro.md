@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836748"
 ---
-# <a name="prepare-current-forrest-intro"></a><span data-ttu-id="08d41-104">현재 포리스트 준비(소개)</span><span class="sxs-lookup"><span data-stu-id="08d41-104">Prepare Current Forrest (Intro)</span></span>
+# <a name="prepare-current-forrest-intro"></a><span data-ttu-id="0f2d7-104">현재 포리스트 준비(소개)</span><span class="sxs-lookup"><span data-stu-id="0f2d7-104">Prepare Current Forrest (Intro)</span></span>
  
-<span data-ttu-id="08d41-105">**포리스트 준비** 작업을 시작하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08d41-105">To begin the **Prepare Forest** task, click **Next**.</span></span> <span data-ttu-id="08d41-106">포리스트 **준비 작업을 실행하면** 전역 설정이 만들어지며 비즈니스용 Skype 서버에서 사용할 유니버설 그룹이 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="08d41-106">Running the **Prepare Forest** task creates global settings and creates universal groups for use by Skype for Business Server.</span></span>
+<span data-ttu-id="0f2d7-105">**포리스트 준비** 작업을 시작하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0f2d7-105">To begin the **Prepare Forest** task, click **Next**.</span></span> <span data-ttu-id="0f2d7-106">포리스트 **준비 작업을 실행하면** 전역 설정이 만들어지며 비즈니스용 Skype 서버에서 사용할 유니버설 그룹이 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="0f2d7-106">Running the **Prepare Forest** task creates global settings and creates universal groups for use by Skype for Business Server.</span></span>
   
 

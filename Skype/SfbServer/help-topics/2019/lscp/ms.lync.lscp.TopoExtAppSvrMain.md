@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836228"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="e159b-104">토폴로지: 신뢰할 수 있는 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="e159b-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="006bb-104">토폴로지: 신뢰할 수 있는 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="006bb-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="e159b-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="e159b-105">What do you want to do?</span></span> <span data-ttu-id="e159b-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e159b-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="006bb-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="006bb-105">What do you want to do?</span></span> <span data-ttu-id="006bb-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="006bb-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="e159b-107">신뢰할 수 있는 응용 프로그램 목록 보기</span><span class="sxs-lookup"><span data-stu-id="e159b-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="006bb-107">신뢰할 수 있는 응용 프로그램 목록 보기</span><span class="sxs-lookup"><span data-stu-id="006bb-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
 
 

@@ -15,7 +15,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 미디어 바이패스는 신호가 중재 서버를 트래버스하는 통화에 대해 가능할 때마다 미디어 경로에서 중재 서버를 제거하는 것을 가리킵니다. 자세한 내용은 비즈니스용 Skype의 미디어 우회 계획(Plan for media bypass)을 참조하세요.
+description: 미디어 바이패스는 신호가 중재 서버를 트래버스하는 통화에 대해 가능할 때마다 미디어 경로에서 중재 서버를 제거하는 것을 가리킵니다. 자세한 내용은 비즈니스용 Skype의 미디어 우회 계획을 참조하세요.
 ms.openlocfilehash: c20a755a150ee4755b0b3805b6999e0386936456
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -23,8 +23,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836078"
 ---
-# <a name="media-bypass-planning-tool"></a><span data-ttu-id="a1933-104">미디어 우회(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="a1933-104">Media Bypass (Planning Tool)</span></span>
+# <a name="media-bypass-planning-tool"></a><span data-ttu-id="b1309-104">미디어 우회(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="b1309-104">Media Bypass (Planning Tool)</span></span>
  
-<span data-ttu-id="a1933-105">미디어 바이패스는 신호가 중재 서버를 트래버스하는 통화에 대해 가능할 때마다 미디어 경로에서 중재 서버를 제거하는 것을 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="a1933-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="a1933-106">자세한 내용은 비즈니스용 [Skype에서 미디어 우회 계획(Plan for media bypass)을 참조하세요.](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)</span><span class="sxs-lookup"><span data-stu-id="a1933-106">For more details, see [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
+<span data-ttu-id="b1309-105">미디어 바이패스는 신호가 중재 서버를 트래버스하는 통화에 대해 가능할 때마다 미디어 경로에서 중재 서버를 제거하는 것을 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="b1309-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="b1309-106">자세한 내용은 비즈니스용 [Skype에서 미디어 우회 계획(Plan for media bypass)을 참조하세요.](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)</span><span class="sxs-lookup"><span data-stu-id="b1309-106">For more details, see [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
   
 

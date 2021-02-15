@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836558"
 ---
-# <a name="hybrid-manageability-wizard"></a><span data-ttu-id="ec9dc-104">하이브리드 관리성 마법사</span><span class="sxs-lookup"><span data-stu-id="ec9dc-104">Hybrid Manageability wizard</span></span>
+# <a name="hybrid-manageability-wizard"></a><span data-ttu-id="65eda-104">하이브리드 관리성 마법사</span><span class="sxs-lookup"><span data-stu-id="65eda-104">Hybrid Manageability wizard</span></span>
 
-<span data-ttu-id="ec9dc-105">하이브리드 관리 가능성 마법사를 사용하여 비즈니스용 Skype Online을 사용하여 하이브리드 배포를 설정하는 데 필요한 일부 구성 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ec9dc-105">You can use the Hybrid Manageability wizard to perform some of the configuration tasks necessary to set up a hybrid deployment with Skype for Business Online.</span></span> <span data-ttu-id="ec9dc-106">하이브리드 배포를 구성하는 방법에 대한 자세한 내용은 하이브리드 관리 마법사를 사용하여 환경 [구성을 참조하십시오.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="ec9dc-106">For more information about how to configure your deployment for hybrid, see [Configure your environment with the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="65eda-105">하이브리드 관리 가능성 마법사를 사용하여 비즈니스용 Skype Online을 사용하여 하이브리드 배포를 설정하는 데 필요한 일부 구성 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="65eda-105">You can use the Hybrid Manageability wizard to perform some of the configuration tasks necessary to set up a hybrid deployment with Skype for Business Online.</span></span> <span data-ttu-id="65eda-106">하이브리드 배포를 구성하는 방법에 대한 자세한 내용은 하이브리드 관리 마법사를 사용하여 환경 [구성을 참조하세요.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="65eda-106">For more information about how to configure your deployment for hybrid, see [Configure your environment with the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49837018"
 ---
-# <a name="import-certificate-summary"></a><span data-ttu-id="9940e-104">인증서 가져오기(요약)</span><span class="sxs-lookup"><span data-stu-id="9940e-104">Import Certificate (Summary)</span></span>
+# <a name="import-certificate-summary"></a><span data-ttu-id="b5b21-104">인증서 가져오기(요약)</span><span class="sxs-lookup"><span data-stu-id="b5b21-104">Import Certificate (Summary)</span></span>
  
-<span data-ttu-id="9940e-p102">**인증서 가져오기 요약** 페이지에 파일 이름, 경로 및 개인 키의 존재 여부에 대한 요약이 표시됩니다. 요약을 검토한 후 계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9940e-p102">On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click **Next** to continue.</span></span>
+<span data-ttu-id="b5b21-p102">**인증서 가져오기 요약** 페이지에 파일 이름, 경로 및 개인 키의 존재 여부에 대한 요약이 표시됩니다. 요약을 검토한 후 계속하려면 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b5b21-p102">On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click **Next** to continue.</span></span>
   
 

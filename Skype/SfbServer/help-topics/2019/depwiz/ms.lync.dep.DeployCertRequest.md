@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836878"
 ---
-# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="86dd7-103">배포 마법사: 인증서 요청</span><span class="sxs-lookup"><span data-stu-id="86dd7-103">Deployment Wizard: Request a Certificate</span></span>
+# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="e7dab-103">배포 마법사: 인증서 요청</span><span class="sxs-lookup"><span data-stu-id="e7dab-103">Deployment Wizard: Request a Certificate</span></span>
  
-<span data-ttu-id="86dd7-104">배포 마법사를 사용하여 비즈니스용 Skype 서버를 설치하는 데 대한 자세한 내용은 비즈니스용 Skype 서버 [설치를 참조하세요.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="86dd7-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="e7dab-104">배포 마법사를 사용하여 비즈니스용 Skype 서버를 설치하는 데 대한 자세한 내용은 비즈니스용 Skype 서버 [설치를 참조하세요.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="e7dab-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

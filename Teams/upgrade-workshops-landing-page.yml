@@ -34,7 +34,7 @@ productDirectory:
   items:
   - title: 업그레이드 계획 (여기에서 시작하세요!)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 비즈니스용 Skype Online의 사용 중지(2021년 7월 31일)를 앞두고 Teams로 업그레이드하거나 비즈니스용 Skype-프레미스 환경에서 Teams로 시나리오를 전환하는 경우 성공적인 전환은 기술 및 사용자 준비를 모두 해결합니다. 비즈니스용 Skype Online, 비즈니스용 Skype Server 또는 하이브리드 환경에서 Teams로의 성공적인 전환을 용이하게 하도록 설계된 입증된 프레임워크, 모범 사례 및 리소스를 검색합니다. 대상 - 모두(비즈니스 스폰서, IT 관리자, 사용자 준비/변경 관리자, 프로젝트 리드)
+    summary: 비즈니스용 Skype Online의 사용 중지(2021년 7월 31일)를 앞두고 Teams로 업그레이드하거나 비즈니스용 Skype-프레미스 환경에서 Teams로 시나리오를 이동하는 경우 성공적인 전환은 기술 및 사용자 준비를 모두 해결합니다. 비즈니스용 Skype Online, 비즈니스용 Skype Server 또는 하이브리드 환경에서 Teams로의 성공적인 전환을 용이하게 하도록 설계된 입증된 프레임워크, 모범 사례 및 리소스를 검색합니다. 대상 - 모두(비즈니스 스폰서, IT 관리자, 사용자 준비/변경 관리자, 프로젝트 리드)
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
   - title: Teams 업그레이드 구현
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
@@ -43,7 +43,7 @@ productDirectory:
 additionalContent:
   sections:
   - items:
-    - title: 이 워크샵을 직접 보기
+    - title: 직접 워크샵 보기
       summary: YouTube에서 Microsoft Teams로 업그레이드를 방문하세요.
       url: https://aka.ms/UpgradeOnDemand
     - title: Teams 시나리오를 확장하고 있나요?
