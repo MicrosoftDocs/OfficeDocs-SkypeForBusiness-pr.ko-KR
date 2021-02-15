@@ -21,12 +21,12 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835038"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="2a885-103">오디오 비디오 회의(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="2a885-103">Audio Video Conferencing (Planning Tool)</span></span>
+# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="07558-103">오디오 비디오 회의(계획 도구)</span><span class="sxs-lookup"><span data-stu-id="07558-103">Audio Video Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="2a885-104">비즈니스용 Skype 서버 2015 A/V(오디오/비디오) 회의를 통해 사용자는 실시간 오디오 또는 비디오 회의에 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a885-104">Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
+<span data-ttu-id="07558-104">비즈니스용 Skype 서버 2015 A/V(오디오/비디오) 회의를 통해 사용자는 실시간 오디오 또는 비디오 회의에 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="07558-104">Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
   
-<span data-ttu-id="2a885-105">조직에서 A/V 회의를 사용하도록 설정하는 방법을 계획하는 자세한 내용은 다음 항목 및 해당 하위 항목을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="2a885-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
+<span data-ttu-id="07558-105">조직에서 A/V 회의를 사용하도록 설정하는 방법을 계획하는 자세한 내용은 다음 항목 및 해당 하위 항목을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="07558-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
   
-- [<span data-ttu-id="2a885-106">비즈니스용 Skype 서버 2015의 회의 계획</span><span class="sxs-lookup"><span data-stu-id="2a885-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="07558-106">비즈니스용 Skype 서버 2015의 회의 계획</span><span class="sxs-lookup"><span data-stu-id="07558-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
     
 

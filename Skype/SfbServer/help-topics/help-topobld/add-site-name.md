@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833318"
 ---
-# <a name="add-site-name"></a><span data-ttu-id="5e0a4-104">사이트 이름 추가</span><span class="sxs-lookup"><span data-stu-id="5e0a4-104">Add Site Name</span></span>
+# <a name="add-site-name"></a><span data-ttu-id="e8415-104">사이트 이름 추가</span><span class="sxs-lookup"><span data-stu-id="e8415-104">Add Site Name</span></span>
  
-<span data-ttu-id="5e0a4-p102">배포에서 첫 번째 사이트를 정의하려면 첫 번째 사이트의 이름을 지정합니다. 선택적으로 첫 번째 사이트에 대한 설명을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e0a4-p102">To define the first site in your deployment, specify the name of the first site. Optionally, you can specify a description for the first site.</span></span>
+<span data-ttu-id="e8415-p102">배포에서 첫 번째 사이트를 정의하려면 첫 번째 사이트의 이름을 지정합니다. 선택적으로 첫 번째 사이트에 대한 설명을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e8415-p102">To define the first site in your deployment, specify the name of the first site. Optionally, you can specify a description for the first site.</span></span>
   
 

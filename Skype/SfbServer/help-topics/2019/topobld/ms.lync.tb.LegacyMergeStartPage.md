@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835648"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="28004-103">레거시 병합 시작</span><span class="sxs-lookup"><span data-stu-id="28004-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="47987-103">레거시 병합 시작</span><span class="sxs-lookup"><span data-stu-id="47987-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="28004-104">레거시 배포와 비즈니스용 Skype 서버의 Merging을 시작하려면 다음을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="28004-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
+<span data-ttu-id="47987-104">레거시 배포와 비즈니스용 Skype 서버의 Merging을 시작하려면 다음을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="47987-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
   
 

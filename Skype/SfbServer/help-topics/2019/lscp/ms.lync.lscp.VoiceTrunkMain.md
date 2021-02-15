@@ -22,17 +22,17 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833558"
 ---
-# <a name="trunk-configuration"></a><span data-ttu-id="f3ed8-104">트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="f3ed8-104">Trunk Configuration</span></span>
+# <a name="trunk-configuration"></a><span data-ttu-id="67307-104">트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="67307-104">Trunk Configuration</span></span>
 
-<span data-ttu-id="f3ed8-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="f3ed8-105">What do you want to do?</span></span> <span data-ttu-id="f3ed8-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="f3ed8-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="67307-105">무슨 작업을 하고 싶으십니까?</span><span class="sxs-lookup"><span data-stu-id="67307-105">What do you want to do?</span></span> <span data-ttu-id="67307-106">수행할 작업에 대한 링크를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="67307-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="f3ed8-107">비즈니스용 Skype 서버에서 미디어 우회를 통해 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="f3ed8-107">Configure a trunk with media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [<span data-ttu-id="67307-107">비즈니스용 Skype 서버에서 미디어 우회를 통해 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="67307-107">Configure a trunk with media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [<span data-ttu-id="f3ed8-108">비즈니스용 Skype 서버에서 미디어 우회 없이 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="f3ed8-108">Configure a trunk without media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [<span data-ttu-id="67307-108">비즈니스용 Skype 서버에서 미디어 우회 없이 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="67307-108">Configure a trunk without media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [<span data-ttu-id="f3ed8-109">비즈니스용 Skype 서버에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="f3ed8-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="67307-109">비즈니스용 Skype 서버에서 호출된 ID 프레젠테이션에 대한 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="67307-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="f3ed8-110">수동으로 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="f3ed8-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="67307-110">수동으로 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="67307-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

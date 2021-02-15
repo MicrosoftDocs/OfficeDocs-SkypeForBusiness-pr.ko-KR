@@ -22,11 +22,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833768"
 ---
-# <a name="start-services"></a><span data-ttu-id="3e748-104">서비스 시작</span><span class="sxs-lookup"><span data-stu-id="3e748-104">Start Services</span></span>
+# <a name="start-services"></a><span data-ttu-id="c821f-104">서비스 시작</span><span class="sxs-lookup"><span data-stu-id="c821f-104">Start Services</span></span>
  
-<span data-ttu-id="3e748-105">배포된 서버 역할에서 서비스를 시작하려면  **4단계: 서비스 시작을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="3e748-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="3e748-106">로컬 Administrators 그룹의 구성원 또는 이에 상응하는 구성원으로 로그온해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e748-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
+<span data-ttu-id="c821f-105">배포된 서버 역할에서 서비스를 시작하려면  **4단계: 서비스 시작을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="c821f-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="c821f-106">로컬 Administrators 그룹의 구성원 또는 이에 상응하는 구성원으로 로그온해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c821f-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="3e748-107">**Start Services가** 실행된 경우 다시 실행을 클릭하여 명령을 다시 **실행할 수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="3e748-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
+> <span data-ttu-id="c821f-107">**Start Services가** 실행된 경우 다시 실행을 클릭하여 명령을 다시 **실행할 수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="c821f-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
   
 

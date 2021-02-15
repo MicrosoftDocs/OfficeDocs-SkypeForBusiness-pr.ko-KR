@@ -22,8 +22,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49832968"
 ---
-# <a name="lync-server-2013-create-new-expander"></a><span data-ttu-id="34905-103">Lync Server 2013 새 확장기 만들기</span><span class="sxs-lookup"><span data-stu-id="34905-103">Lync Server 2013 Create New Expander</span></span>
+# <a name="lync-server-2013-create-new-expander"></a><span data-ttu-id="45832-103">Lync Server 2013 새 확장기 만들기</span><span class="sxs-lookup"><span data-stu-id="45832-103">Lync Server 2013 Create New Expander</span></span>
  
-<span data-ttu-id="34905-104">Lync Server 2013을 마우스 오른쪽 단추로 클릭하고 새로 만들기를 선택한 다음 만들 서버 역할을 선택하여  **Lync Server 2013** 토폴로지 작성기 노드에서 새 서버 역할을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34905-104">You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on **Lync Server 2013**, select **New**, then select the server role to create.</span></span>
+<span data-ttu-id="45832-104">Lync Server 2013을 마우스 오른쪽 단추로 클릭하고 새로 만들기를 선택한 다음 만들 서버 역할을 선택하여  **Lync Server 2013** 토폴로지 작성기 노드에서 새 서버 역할을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45832-104">You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on **Lync Server 2013**, select **New**, then select the server role to create.</span></span>
   
 

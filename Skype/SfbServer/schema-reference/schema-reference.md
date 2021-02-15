@@ -19,17 +19,17 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834318"
 ---
-# <a name="schema-reference-for-skype-for-business-server-2015"></a><span data-ttu-id="bac6a-102">비즈니스용 Skype 서버의 Schema reference for Skype server 2015</span><span class="sxs-lookup"><span data-stu-id="bac6a-102">Schema reference for Skype for Business Server 2015</span></span>
+# <a name="schema-reference-for-skype-for-business-server-2015"></a><span data-ttu-id="6b7a0-102">비즈니스용 Skype 서버의 Schema reference for Skype server 2015</span><span class="sxs-lookup"><span data-stu-id="6b7a0-102">Schema reference for Skype for Business Server 2015</span></span>
  
 
-## <a name="in-this-section"></a><span data-ttu-id="bac6a-103">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="bac6a-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6b7a0-103">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="6b7a0-103">In this section</span></span>
 
-- [<span data-ttu-id="bac6a-104">비즈니스용 Skype 서버의 CDR(통화 정보 기록) 데이터베이스 schema</span><span class="sxs-lookup"><span data-stu-id="bac6a-104">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
+- [<span data-ttu-id="6b7a0-104">비즈니스용 Skype 서버의 CDR(통화 정보 기록) 데이터베이스 schema</span><span class="sxs-lookup"><span data-stu-id="6b7a0-104">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
     
-- [<span data-ttu-id="bac6a-105">체감 품질(QoE) 데이터베이스 스키마</span><span class="sxs-lookup"><span data-stu-id="bac6a-105">Quality of Experience (QoE) database schema</span></span>](quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md)
+- [<span data-ttu-id="6b7a0-105">체감 품질(QoE) 데이터베이스 스키마</span><span class="sxs-lookup"><span data-stu-id="6b7a0-105">Quality of Experience (QoE) database schema</span></span>](quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md)
     
-- [<span data-ttu-id="bac6a-106">영구적 채팅 데이터베이스 스키마</span><span class="sxs-lookup"><span data-stu-id="bac6a-106">Persistent Chat database schema</span></span>](persistent-chat-database-schema/persistent-chat-database-schema.md)
+- [<span data-ttu-id="6b7a0-106">영구적 채팅 데이터베이스 스키마</span><span class="sxs-lookup"><span data-stu-id="6b7a0-106">Persistent Chat database schema</span></span>](persistent-chat-database-schema/persistent-chat-database-schema.md)
     
-- [<span data-ttu-id="bac6a-107">Active Directory 스키마 확장, 클래스 및 속성</span><span class="sxs-lookup"><span data-stu-id="bac6a-107">Active Directory schema extensions, classes, and attributes</span></span>](active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes.md)
+- [<span data-ttu-id="6b7a0-107">Active Directory 스키마 확장, 클래스 및 속성</span><span class="sxs-lookup"><span data-stu-id="6b7a0-107">Active Directory schema extensions, classes, and attributes</span></span>](active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes.md)
     
 
