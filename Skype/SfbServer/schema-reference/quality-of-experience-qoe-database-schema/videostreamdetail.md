@@ -46,7 +46,7 @@ VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대
 |CallerEndpoint  <br/> |nvarchar(256)  <br/> |발신자 끝점 이름입니다.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar(256)  <br/> |발신자 끝점 이름입니다.  <br/> |
 |CallerOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 운영 체제(OS)입니다.  <br/> |
-|CalleeOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 OS(운영 체제)입니다.  <br/> |
+|CalleeOS  <br/> |nvarchar(128)  <br/> |발신자 끝점의 운영 체제(OS)입니다.  <br/> |
 |CallerCPUName  <br/> |nvarchar(128)  <br/> |발신자 끝점의 CPU 이름입니다.  <br/> |
 |CalleeCPUName  <br/> |nvarchar(128)  <br/> |발신자 끝점의 CPU 이름입니다.  <br/> |
 |CallerCPUNumberOfCores  <br/> |smallint  <br/> |발신자 끝점의 CPU 코어 수입니다.  <br/> |
@@ -97,7 +97,7 @@ VideoStreamDetail 보기는 데이터베이스에 각 비디오 스트림에 대
 |PacketLossRateMax  <br/> |decimal(5,4)  <br/> |통화 중 관측된 최대 패킷 손실입니다.  <br/> |
 |PacketUtilization  <br/> |int  <br/> |비디오 스트림에 대한 패킷 수입니다(실시간 전송 프로토콜, RTP).  <br/> |
 |BandwidthEst  <br/> |int  <br/> |오디오 스트림에 대한 대역폭 예상치입니다.  <br/> |
-|PayloadDescription  <br/> |int  <br/> |호출에 사용되는 오디오 코덱으로, [PayloadDescription](payloaddescription.md)테이블에서 참조됩니다.  <br/> |
+|PayloadDescription  <br/> |int  <br/> |호출에 사용되는 오디오 코덱으로, [PayloadDescription 테이블에서 참조됩니다.](payloaddescription.md)  <br/> |
 |VideoResolution  <br/> |char(9)  <br/> |픽셀 너비와 픽셀 높이를 곱한 수치의 비디오 해상도입니다. 문자열로 보고됩니다.  <br/> |
 |VideoBitRateAvg  <br/> |int  <br/> |비디오 스트림의 평균 비트 전송률입니다.  <br/> |
 |InboundVideoFrameRateAvg  <br/> |decimal(9,4)  <br/> |수신된 비디오의 프레임 속도입니다.  <br/> |

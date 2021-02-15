@@ -25,7 +25,7 @@ ms.locfileid: "49833918"
 다음 항목을 읽고 Skype 채팅방 시스템에 대한 Exchange 및 Skype 계정을 프로비전하는 방법을 배워야 합니다. 
 
 > [!NOTE]
-> Microsoft Teams 룸은 종속성 및 배포 절차가 서로 다른 제품입니다. Microsoft Teams 룸에 대한 자세한 내용은 Microsoft Teams 룸 배포 [개요를 참조하세요.](room-systems-v2.md)
+> Microsoft Teams 룸은 종속성 및 배포 절차가 다른 다른 제품입니다. Microsoft Teams 룸에 대한 자세한 내용은 Microsoft Teams 룸 배포 [개요를 참조하세요.](room-systems-v2.md)
   
 > [!NOTE]
 > Skype 룸 시스템 계정 프로비전은 조직에 있는 토폴로지 유형에 따라 다릅니다. Active Directory 토폴로지에 대한 자세한 내용은 [비즈니스용 Skype 서버 2015에](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)대한 환경 요구 사항을 참조하세요. 

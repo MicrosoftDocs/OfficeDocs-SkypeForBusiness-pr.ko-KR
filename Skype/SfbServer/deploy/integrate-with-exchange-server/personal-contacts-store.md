@@ -32,7 +32,7 @@ ms.locfileid: "49833938"
   
 1. 클라이언트 컴퓨터에서 시작을  클릭한 다음 실행을 **클릭합니다.**
 2. **실행** 대화 상자에 regedit를 입력한 다음 Enter 키를 누릅니다.
-3. 레지스트리 편집기에서 **HKEY_LOCAL_MACHINE,** 소프트웨어 **확장,** 정책 **확장,** **Microsoft** 확장 및 **Communicator.**
+3. 레지스트리 편집기에서 HKEY_LOCAL_MACHINE 확장하고, **소프트웨어,** 정책을 확장하고,  **Microsoft를** 확장한 다음, **Communicator.**
 4. 새 **Communicator** 마우스 오른쪽 단추로 클릭한 다음 **DWORD(32비트) 값을 클릭합니다.**
 5. 새 값을 만든 후 PersonalContactStoreOverride를 입력한 다음 Enter를 눌러 값 이름을 다시 입력합니다.
 6. PersonalContactStoreOverride의 값이 0으로 설정되어 있는지 확인한 다음 레지스트리 편집기를 닫습니다.

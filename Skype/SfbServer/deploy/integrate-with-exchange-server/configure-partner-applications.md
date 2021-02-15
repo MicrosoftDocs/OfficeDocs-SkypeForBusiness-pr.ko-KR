@@ -29,11 +29,11 @@ ms.locfileid: "49834048"
   
 그러나 이는 일반적인 규칙입니다. 비즈니스용 Skype 서버, Exchange Server 2016, Exchange Server 2013 및 SharePoint Server 2013에서는 통신할 때 타사 토큰 서버를 사용할 필요가 없습니다. 이는 이러한 서버 제품이 별도의 토큰 서버 없이도 다른 서버에서 수락할 수 있는 보안 토큰을 만들 수 있기 때문에입니다. (이 기능은 비즈니스용 Skype 서버, Exchange Server 2016, Exchange Server 2013 및 SharePoint Server 2013에서만 사용할 수 있습니다. 다른 Microsoft 서버 제품을 비롯한 다른 서버와의 서버 대 서버 인증을 설정해야 하는 경우 타사 토큰 서버를 사용하여 설정해야 합니다.
   
-비즈니스용 Skype 서버와 비즈니스용 Skype 서버 간에 서버 간 인증을 설정하려면 Exchange Server 다음 두 가지 작업을 해야 합니다. 1) 각 서버에 적절한 인증서를 할당해야 합니다. 그리고 2) 각 서버를 다른 서버의 파트너 응용 프로그램으로 구성해야 합니다. 즉, 비즈니스용 Skype 서버를 비즈니스용 Skype 서버의 파트너 응용 프로그램으로 Exchange Server 구성해야 Exchange Server 비즈니스용 Skype 서버의 파트너 응용 프로그램으로 구성해야 합니다.
+비즈니스용 Skype 서버와 서버 간 인증을 설정하려면 Exchange Server 다음 두 가지 작업을 해야 합니다. 1) 각 서버에 적절한 인증서를 할당해야 합니다. 그리고 2) 각 서버를 다른 서버의 파트너 응용 프로그램으로 구성해야 합니다. 즉, 비즈니스용 Skype 서버를 비즈니스용 Skype 서버의 파트너 응용 프로그램으로 Exchange Server 구성해야 Exchange Server 비즈니스용 Skype 서버의 파트너 응용 프로그램으로 구성해야 합니다.
   
-## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>비즈니스용 Skype 서버를 비즈니스용 Skype 서버의 파트너 응용 프로그램으로 Exchange Server
+## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>비즈니스용 Skype 서버를 비즈니스용 파트너 응용 프로그램으로 Exchange Server
 
-비즈니스용 Skype 서버를 Exchange Server 2016 또는 Exchange Server 2013의 파트너 응용 프로그램으로 구성하는 가장 쉬운 방법은 비즈니스용 Skype와 함께 Configure-EnterprisePartnerApplication.ps1 스크립트인 Windows PowerShell 스크립트를 실행하는 Exchange Server. 이 스크립트를 실행하려면 비즈니스용 Skype 서버 인증 메타데이터 문서의 URL을 제공해야 합니다. 이 이름은 일반적으로 비즈니스용 Skype 서버 풀의 정식 도메인 이름 다음에 /metadata/json/1 접미사로 표시됩니다. 예제:
+비즈니스용 Skype 서버를 Exchange Server 2016 또는 Exchange Server 2013의 파트너 응용 프로그램으로 구성하는 가장 쉬운 방법은 비즈니스용 Skype와 함께 Configure-EnterprisePartnerApplication.ps1 스크립트인 Windows PowerShell 스크립트를 실행하는 Exchange Server. 이 스크립트를 실행하려면 비즈니스용 Skype 서버 인증 메타데이터 문서의 URL을 제공해야 합니다. 이 이름은 일반적으로 비즈니스용 Skype 서버 풀의 정식 도메인 이름 다음에 /metadata/json/1 접미사로 표시됩니다. 예시:
   
 ```console
 https://atl-cs-001.litwareinc.com/metadata/json/1
@@ -55,13 +55,13 @@ iisreset atl-exchange-001
   
 ## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>비즈니스용 skype Exchange Server 응용 프로그램으로 구성
 
-비즈니스용 Skype 서버를 Exchange Server 2016 또는 Exchange Server 2013의 파트너 응용 프로그램으로 구성한 후 Exchange Server 비즈니스용 Skype 서버의 파트너 응용 프로그램으로 구성해야 합니다. 비즈니스용 Skype 서버 관리 셸을 사용하고 Exchange에 대한 인증 메타데이터 문서를 지정하면 됩니다. 일반적으로 Exchange 자동 검색 서비스의 URI 다음에 /metadata/json/1 접미사가 입니다. 예제:
+비즈니스용 Skype 서버를 Exchange Server 2016 또는 Exchange Server 2013의 파트너 응용 프로그램으로 구성한 후 Exchange Server 비즈니스용 Skype 서버의 파트너 응용 프로그램으로 구성해야 합니다. 비즈니스용 Skype 서버 관리 셸을 사용하고 Exchange에 대한 인증 메타데이터 문서를 지정하면 됩니다. 일반적으로 Exchange 자동 검색 서비스의 URI 다음에 /metadata/json/1 접미사가 입니다. 예시:
   
 ```console
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-비즈니스용 Skype 서버에서 파트너 응용 프로그램은 [New-CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) cmdlet을 사용하여 구성됩니다. 메타데이터 URI를 지정하는 것 외에도 응용 프로그램 신뢰 수준을 Full로 설정해야 합니다. 이렇게 하면 Exchange에서 해당 사용자와 해당계의 권한이 부여된 사용자를 모두 표현할 수 있습니다. 예제:
+비즈니스용 Skype 서버에서 파트너 응용 프로그램은 [New-CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) cmdlet을 사용하여 구성됩니다. 메타데이터 URI를 지정하는 것 외에도 응용 프로그램 신뢰 수준을 Full로 설정해야 합니다. 이렇게 하면 Exchange에서 해당 사용자와 해당계의 권한이 부여된 사용자를 모두 표현할 수 있습니다. 예시:
   
 ```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -69,7 +69,7 @@ New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -Metadat
 
 또는 비즈니스용 Skype 서버 서버-서버 인증 설명서에 있는 스크립트 코드를 복사하고 수정하여 파트너 응용 프로그램을 만들 수 있습니다. 자세한 내용은 비즈니스용 Skype 서버 문서의 [OAuth(서버](../../manage/authentication/server-to-server-and-partner-applications.md) 대 서버 인증) 및 파트너 응용 프로그램 관리 문서를 참조하세요.
   
-비즈니스용 Skype 서버와 비즈니스용 Skype 서버 둘 다에 대해 파트너 Exchange Server 구성한 경우 두 제품 간에 서버 간 인증도 성공적으로 구성한 것입니다. 비즈니스용 Skype 서버에는 Windows PowerShell cmdlet인 [Test-CsExStorageConnectivity가](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) 포함되어 서버 간 인증이 올바르게 구성되고 비즈니스용 Skype 서버 저장소 서비스가 서버에 연결할 수 있는지 확인할 수 Exchange Server. 이 cmdlet은 Exchange Server 사용자의 사서함에 연결하고 해당 사용자의 대화 기록 폴더에 항목을 쓴 다음 해당 항목을 삭제(선택 사항)하여 이 파일을 삭제합니다.
+비즈니스용 Skype 서버와 비즈니스용 Skype 서버 둘 다에 대해 파트너 Exchange Server 구성한 경우 두 제품 간에 서버 간 인증도 성공적으로 구성한 것입니다. 비즈니스용 Skype 서버에는 Windows PowerShell cmdlet인 [Test-CsExStorageConnectivity가](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) 포함되어 서버 간 인증이 올바르게 구성되고 비즈니스용 Skype 서버 저장소 서비스가 서버에 연결할 수 있는지 확인할 수 Exchange Server. 이 cmdlet은 Exchange Server 사용자의 사서함에 연결하고 해당 사용자의 대화 기록 폴더에 항목을 작성한 다음 해당 항목을 삭제(선택 사항)하여 이 파일을 삭제합니다.
   
 비즈니스용 Skype 서버 및 서버 Exchange Server 테스트하기 위해 비즈니스용 Skype 서버 관리 셸에서 다음과 같은 명령을 실행합니다.
   

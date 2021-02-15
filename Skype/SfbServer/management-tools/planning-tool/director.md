@@ -13,7 +13,7 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: Director는 사용자 요청을 인증할 수 있지만 사용자 계정을 저장하지는 않는 비즈니스용 Skype 서버 2015 통신 소프트웨어를 실행하는 서버입니다.
+description: Director는 사용자 요청을 인증할 수 있지만 사용자 계정을 홈으로 두지 않는 비즈니스용 Skype 서버 2015 통신 소프트웨어를 실행하는 서버입니다.
 ms.openlocfilehash: 76315e9f63e1121119f3823187c379985c4914f0
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "49834938"
 ---
 # <a name="director-planning-tool"></a>Director(계획 도구)
  
-Director는 사용자 요청을 인증할 수 있지만 사용자 계정을 저장하지는 않는 비즈니스용 Skype 서버 2015 통신 소프트웨어를 실행하는 서버입니다. 
+Director는 사용자 요청을 인증할 수 있지만 사용자 계정을 홈으로 두지 않는 비즈니스용 Skype 서버 2015 통신 소프트웨어를 실행하는 서버입니다. 
   
 이 역할은 선택 사항이며 다음 두 시나리오에서 Director를 배포할 수 있습니다.
   

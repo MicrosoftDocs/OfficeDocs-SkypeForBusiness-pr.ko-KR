@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 ROBOTS: NOINDEX, NOFOLLOW
-description: 컴퓨터 FQDN(FQDN)을 입력하여 영구 채팅 서버 풀에 소속될 컴퓨터를 정의합니다. 이 FQDN은 DNS(Domain Name System) 호스트(A 또는 AAAA) 레코드에 정의된 컴퓨터의 이름이어야 합니다.
+description: 컴퓨터 FQDN(FQDN)을 입력하여 영구 채팅 서버 풀에 참여할 컴퓨터를 정의합니다. 이 FQDN은 DNS(Domain Name System) 호스트(A 또는 AAAA) 레코드에 정의된 컴퓨터의 이름이어야 합니다.
 ms.openlocfilehash: a5271eb23f01c99ecea7f53538e096819c57fcc8
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

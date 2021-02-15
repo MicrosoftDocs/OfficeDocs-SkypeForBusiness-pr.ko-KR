@@ -39,7 +39,7 @@ RBAC 역할의 ID(예: CsVoiceAdministrator)는 Active Directory 도메인 서�
 사용자에게 RBAC 역할을 할당하려면 해당 사용자를 적절한 Active Directory 보안 그룹에 추가해야 합니다. 예를 들어 CsLocationAdministrator 역할을 사용자에게 할당하려면 해당 사용자를 CsLocationAdministrator 그룹에 추가해야 합니다. 이 과정은 다음 절차를 수행하여 수행될 수 있습니다.
 
 1. Active Directory 그룹의 구성원 자격을 수정할 수 있는 권한이 있는 계정을 사용하여 Active Directory 사용자 및 컴퓨터가 설치된 컴퓨터에 로그온합니다.
-2. **시작,** 모든 **프로그램,** 관리 도구를 클릭한 다음 Active Directory 사용자 및 컴퓨터를 **클릭합니다.**
+2. 시작, 모든 **프로그램,** **관리** 도구를 클릭한 다음 Active Directory 사용자 및 컴퓨터를 **클릭합니다.** 
 3. Active Directory 사용자 및 컴퓨터에서 도메인 이름을 확장하고 **Users 컨테이너를** 클릭합니다.
 4. 보안 그룹 **CsLocationAdministrator를 마우스 오른쪽 단추로 클릭한** 다음 **속성을 클릭합니다.**
 5. 속성 대화 **상자의** **구성원** 탭에서 추가를 **클릭합니다.**

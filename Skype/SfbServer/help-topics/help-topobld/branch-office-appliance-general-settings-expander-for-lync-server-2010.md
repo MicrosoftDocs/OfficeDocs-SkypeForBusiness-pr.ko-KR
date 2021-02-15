@@ -28,7 +28,7 @@ Survivable Branch Appliance 또는 Survivable Branch Server의 속성을 편집�
   
 - **FQDN:** Survivable Branch Appliance 또는 Survivable Branch Server의 정식 도메인 이름을 입력합니다.
     
-    구성된 모든 **IP 주소는** 모든 용도로 Survivable Branch Appliance 또는 Survivable Branch Server에 구성된 IP 주소를 사용합니다.
+    **구성된 모든 IP 주소는** 모든 용도로 Survivable Branch Appliance 또는 Survivable Branch Server에 구성된 IP 주소를 사용합니다.
     
     **선택한 IP 주소로 서비스 사용 제한**: PSTN에 사용할 IP 주소 및 서버를 정의하는 고유 주소를 구성합니다.
     
@@ -40,13 +40,13 @@ Survivable Branch Appliance 또는 Survivable Branch Server의 속성을 편집�
     
     **보관 서버 연결** Survivable Branch Appliance 또는 Survivable Branch Server와 연결하려는 보관 서버 목록에서 선택합니다.
     
-    이 **Survivable** Branch Appliance 또는 Survivable Branch Server와 연결하려는 보관 서버를 만들지 않은 경우 새로 고치기를 클릭합니다.
+    이 **Survivable** Branch Appliance 또는 Survivable Branch Server와 연결하려는 보관 서버를 만들지 않은 경우 새로 고기 클릭
     
     **모니터링 서버 연결** Survivable Branch Appliance 또는 Survivable Branch Server와 연결하려는 모니터링 서버 목록에서 선택합니다.
     
-    이 **Survivable** Branch Appliance 또는 Survivable Branch Server와 연결하려는 모니터링 서버를 만들지 않은 경우 새로하기를 클릭합니다.
+    이 **Survivable** Branch Appliance 또는 Survivable Branch Server와 연결하려는 모니터링 서버를 만들지 않은 경우 새로 고기 클릭
     
-    **에지 풀 연결(미디어 구성 요소의 경우)** Survivable Branch Appliance 또는 Survivable Branch Server와 연결하려는 에지 서버 또는 에지 풀 목록에서 선택합니다.
+    **에지 풀 연결(미디어 구성 요소)** Survivable Branch Appliance 또는 Survivable Branch Server와 연결하려는 에지 서버 또는 에지 풀 목록에서 선택합니다.
     
   **확인**: 변경 내용을 적용하고 대화 상자로 커밋합니다.
   

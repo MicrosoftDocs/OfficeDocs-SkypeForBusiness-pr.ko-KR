@@ -44,7 +44,7 @@ REST 작업은 다음 표에 포함되어 있습니다.
    
  **데이터 API에 대한 CORS(원본 간 리소스 공유) 지원**
   
-데이터 API는 CORS(Origin Cross-Origin Resource Sharing)를 지원합니다. CORS는 한 도메인에서 실행되는 웹 응용 프로그램이 다른 도메인의 리소스에 액세스할 수 있도록 하는 HTTP 기능입니다. 웹 브라우저는 웹 페이지가 [](https://www.w3.org/Security/wiki/Same_Origin_Policy) 다른 도메인의 API를 호출하지 못하게 하는 동일한 원본 정책과 동일한 원본 정책으로 알려진 보안 제한을 구현합니다. CORS는 한 도메인(원본 도메인)이 다른 도메인의 API를 호출할 수 있도록 안전한 방법을 제공합니다. [CORS에 대한](https://www.w3.org/TR/cors/) 자세한 내용은 CORS 사양을 참조합니다.
+데이터 API는 CORS(출처 간 리소스 공유)를 지원합니다. CORS는 한 도메인에서 실행되는 웹 응용 프로그램이 다른 도메인의 리소스에 액세스할 수 있도록 하는 HTTP 기능입니다. 웹 브라우저는 웹 페이지가 [](https://www.w3.org/Security/wiki/Same_Origin_Policy) 다른 도메인의 API를 호출하지 못하게 하는 동일한 원본 정책과 동일한 원본 정책으로 알려진 보안 제한을 구현합니다. CORS는 한 도메인(원본 도메인)이 다른 도메인의 API를 호출할 수 있도록 안전한 방법을 제공합니다. [CORS에 대한](https://www.w3.org/TR/cors/) 자세한 내용은 CORS 사양을 참조합니다.
   
  **데이터 API에 CORS 사용**
   

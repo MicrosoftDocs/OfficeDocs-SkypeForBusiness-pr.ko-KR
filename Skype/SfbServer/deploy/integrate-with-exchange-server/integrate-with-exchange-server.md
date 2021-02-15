@@ -29,13 +29,13 @@ Exchange Server 2013 이상 및 비즈니스용 Skype 서버는 호환 및 통�
 
 이 설명서에서는 비즈니스용 Skype 서버와 Exchange Server 2016 또는 Exchange Server 2013을 통합하는 데 대한 정보를 제공하지만 이러한 두 제품의 초기 설정 및 구성이 이미 발생했다고 가정합니다. 비즈니스용 Skype 서버 배포에 대한 자세한 내용은 비즈니스용 [Skype 서버 기술 센터를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=246127) 배포에 대한 자세한 Exchange Server Exchange 버전에 대한 배포 설명서를 참조하십시오.
 
-비즈니스용 Skype 서버의 프레미스 설치를 비즈니스용 Skype 서버와 통합하는 Microsoft Exchange Online 비즈니스용 Skype 서버와 비즈니스용 Skype 서버 간의 통합 [구성을](outlook-web-app.md)Outlook Web App.
+비즈니스용 Skype 서버의 프레미스 설치를 비즈니스용 Skype 서버와 통합하는 Microsoft Exchange Online 프레미스 비즈니스용 Skype 서버와 비즈니스용 Skype 서버 간의 통합 [구성을](outlook-web-app.md)Outlook Web App.
 
-비즈니스용 Skype Online과 비즈니스용 Skype online을 Exchange Server 비즈니스용 Skype Online과 Exchange on premises 간에 OAuth 구성을 [참조하세요.](oauth-with-online-and-on-premises.md)
+비즈니스용 Skype Online과 비즈니스용 Skype online을 Exchange Server 비즈니스용 Skype Online과 Exchange온-프레미스 간에 OAuth 구성을 [참조하세요.](oauth-with-online-and-on-premises.md)
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-[비즈니스용 Skype 서버 및 2016에서 파트너 응용 프로그램 Exchange Server](configure-partner-applications.md)
+[비즈니스용 Skype 서버 및 비즈니스용 Skype 서버에서 파트너 Exchange Server](configure-partner-applications.md)
 
 [비즈니스용 Skype 서버가 보관을 사용하도록 Exchange Server 구성](use-exchange-archiving.md)
 

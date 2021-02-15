@@ -24,7 +24,7 @@ ms.locfileid: "49835448"
 ---
 # <a name="associate-vis-with-edge"></a>에지와 VIS 연결
  
-토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 비즈니스용 [Skype 서버 2015에서 VIS](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)풀 만들기에서 온라인으로 설명됩니다.
+토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의하는 데 필요한 단계는 비즈니스용 Skype 서버 [2015에서 VIS](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)풀 만들기에서 온라인으로 설명됩니다.
   
 비디오를 사용하는 서버에 Video Interop 서버 역할을 할당하는 Windows PowerShell 단계는 비즈니스용 Skype 서버 [2015의 VIS](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) 서버 역할 배포에서 온라인으로 설명됩니다.
   

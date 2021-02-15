@@ -35,7 +35,7 @@ KMS가 준비되어 있으며 비즈니스용 Skype 볼륨 라이선스 정품 �
   
 KMS를 설정하는 경우 [Office 2013의 KMS](https://technet.microsoft.com/library/ee624357.aspx) 정품 인증 및 Office 2013의 Active Directory 정품 인증에 대한 [OFFICE 2013 및 GVLK의 KMS](https://technet.microsoft.com/library/dn385360.aspx) 정품 인증을 참조합니다.
   
-Lync용 Office 2013 일반 볼륨 라이선스 키: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R(이 키는 Skype 채팅방 시스템이 네트워크에서 KMS를 검색하게 합니다.)
+Lync용 Office 2013 일반 볼륨 라이선스 키: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R(이 키는 Skype 채팅방 시스템에서 네트워크의 KMS를 검색하게 합니다.)
   
 ## <a name="multiple-activation-keys-mak-from-the-volume-license-service-center-vlsc"></a>VLSC(볼륨 라이선스 서비스 센터)의 MAK(복수 정품 인증 키)
 

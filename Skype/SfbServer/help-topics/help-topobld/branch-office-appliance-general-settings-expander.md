@@ -49,7 +49,7 @@ SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버의 FQDN(정�
     > [!IMPORTANT]
     > 새로 정의된 토폴로지를 게시하려면 지정하는 서버가 존재하고 도메인에 가입되어 있어야 합니다.
 
-- 모니터링 서버를 연결하면 모니터링 서버를 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에서 이미 정의된 모니터링 서버를 선택하거나 새로 고치기(New)를 클릭하여 새 모니터링 서버를 지정할 수 있습니다. 
+- 모니터링 서버를 연결하면 모니터링 서버를 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기로 선택할 수 있습니다. 드롭다운 목록에서 이미 정의된 모니터링 서버에서 서버를 선택하거나 새로 고치기(New)를 클릭하여 새 모니터링 서버를 지정할 수 있습니다. 
 
 - 에지 풀을 연결하면 에지 서버 또는 풀을 Survivable Branch Appliance 또는 Survivable Branch Server와 연결하기 위해 선택할 수 있습니다. 드롭다운 목록에 있는 이미 정의된 에지 서버 또는 풀에서 서버를 선택하거나 **새로 만들기** 를 클릭하여 새 에지 서버 또는 풀을 지정할 수 있습니다.
 

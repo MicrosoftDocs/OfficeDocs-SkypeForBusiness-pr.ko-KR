@@ -13,7 +13,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
-description: '요약: 비즈니스용 Skype 서버와 비즈니스용 Skype Outlook Web App.'
+description: '요약: 비즈니스용 Skype 서버 및 비즈니스용 Skype Outlook Web App.'
 ms.openlocfilehash: 0a6358c93356bd059aeed34033b07916d856bf10
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -56,7 +56,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 ```
 
 > [!NOTE]
-> 중국의 21Vianet에서 운영하는 Microsoft 365 또는 Office 365를 사용하는 경우 이 예의 ProxyFqdn 매개 변수 값("exap.um.outlook.com")을 21Vianet에서 운영하는 서비스의 FQDN인 "exap.um.partner.outlook.cn"로 바랜다. Microsoft 365 또는 Office 365 GCC High를 사용하는 경우 이 예제의 ProxyFqdn 매개 변수 값("exap.um.outlook.com")을 GCC High에 대한 FQDN인 "exap.um.office365.us"로 바랜다.
+> 중국의 21Vianet에서 운영하는 Microsoft 365 또는 Office 365를 사용하는 경우 이 예의 ProxyFqdn 매개 변수 값("exap.um.outlook.com")을 21Vianet에서 운영하는 서비스의 FQDN인 "exap.um.partner.outlook.cn"로 바랜다. Microsoft 365 또는 Office 365 GCC High를 사용하는 경우 이 예제의 ProxyFqdn 매개 변수 값("exap.um.outlook.com")을 GCC High에 대한 FQDN인 "exap.um.office365.us"로 바 관리합니다.
 
 - **ID는** 만들 호스팅 공급자의 고유 문자열 값 식별자(예: "Exchange Online")를 지정합니다. 공백이 포함된 값은 큰따옴표로 묶어야 합니다.
 

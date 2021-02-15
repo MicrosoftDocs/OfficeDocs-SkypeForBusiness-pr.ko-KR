@@ -55,7 +55,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>중앙 로깅 서비스를 사용하여 기본 검색을 실행하기 위해
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. 배포의 전역 범위에서 AlwaysOn 시나리오가 실행 중인지 확인한 후 명령 프롬프트에 다음을 입력합니다.
     
@@ -74,7 +74,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-a-basic-search-on-a-pool-or-computer-by-using-the-centralized-logging-service"></a>중앙 로깅 서비스를 사용하여 풀 또는 컴퓨터에서 기본 검색을 실행하려면
 
-1. 검색을 특정 풀 또는 컴퓨터로 제한하려면 컴퓨터의 정식 이름으로 정의된 컴퓨터와 함께 -Computers 매개 변수를 사용합니다. 인용 부호로 묶고 다음과 같이 COMMA로 구분합니다.
+1. 검색을 특정 풀 또는 컴퓨터로 제한하려면 컴퓨터의 정식 이름으로 정의된 컴퓨터와 함께 -Computers 매개 변수를 사용하며 따따오기 표시로 묶고 다음과 같이 COMMA로 구분합니다.
     
    ```PowerShell
    Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
@@ -94,7 +94,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 3. 단일 컴퓨터 대신 전체 풀을 검색해야 하는 경우 -Computers 매개 변수를 -Pools로 변경하고 컴퓨터 이름을 제거한 다음 0.0으로 구분된 따량 표시의 풀 또는 풀로 바꿔야 합니다.
     
-    예제:
+    예시:
     
    ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -110,18 +110,18 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>시간 매개 변수를 사용하여 검색을 실행하려면
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
-2. 기본적으로 검색의 시간별 매개 변수의 시작 시간은 검색을 시작한 후 5분 전인 25분입니다. 즉, 오후 4:00:00에 검색하는 경우 검색 시작 시간은 오후 3:35:00에서 오후 4:05:00까지로 표시 됩니다. 현재 시간 60분 또는 3시간 전에 검색해야 하는 경우 -StartTime 매개 변수를 사용하여 날짜 및 시간 문자열을 설정하여 검색을 시작할 시간을 나타냅니다. 
+2. 기본적으로 검색의 시간별 매개 변수의 시작 시간은 검색을 시작한 후 5분 전인 25분입니다. 즉, 오후 4:00:00에 검색하는 경우 검색 시작 시간은 오후 3시 35분에서 오후 4시 5분까지로 표시 됩니다. 현재 시간 60분 또는 3시간 전에 검색해야 하는 경우 -StartTime 매개 변수를 사용하여 날짜 및 시간 문자열을 설정하여 검색을 시작할 시간을 나타냅니다. 
     
-    예를 들어 -StartTime 및 -EndTime을 사용하여 시간 및 날짜 범위를 정의하면 풀에서 2012년 11월 20일 오전 8시부터 오전 9시 사이에 검색을 정의할 수 있습니다. 그리고 다음과 같이 결과를 c:\logfile.txt라는 파일에 쓰도록 출력 경로를 설정할 수 있습니다.
+    예를 들어 -StartTime 및 -EndTime을 사용하여 시간 및 날짜 범위를 정의하여 풀에서 2012년 11월 20일 오전 8시에서 9시 사이에 검색을 정의할 수 있습니다. 그리고 다음과 같이 결과를 c:\logfile.txt라는 파일에 쓰도록 출력 경로를 설정할 수 있습니다.
     
    ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 > [!NOTE]
-> 지정하는 시간 및 날짜 문자열은 "날짜 시간" 또는 "시간 날짜"일 수 있습니다. "이 명령은 문자열을 구문 분석하고 날짜 및 시간 및 cmdlet을 실행하는 컴퓨터의 로컬 및 문화권 설정에 적절한 값을 사용합니다. 
+> 지정하는 시간 및 날짜 문자열은 "날짜 시간" 또는 "시간 날짜"일 수 있습니다. "이 명령은 문자열을 구문 분석하고 날짜 및 시간의 적절한 값과 cmdlet을 실행 중인 컴퓨터의 로컬 및 문화권 설정을 사용합니다. 
   
 3. 2012년 11월 20일 오전 11시부터 로그를 검색하려면 -StartTime을 정의합니다. 특정 -EndTime을 정의하지 않는 한 검색의 기본 시간 범위는 30분입니다. 이 경우 수행되는 검색은 정의된 컴퓨터에서 오전 11시에서 11시 30분 사이의 로그를 반환합니다.
     
@@ -141,7 +141,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>다른 조건 및 일치 옵션을 사용하여 고급 검색을 실행하려면
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. 명령을 실행하여 특정 구성 요소의 추적을 수집하려면 다음을 입력합니다.
     
@@ -177,10 +177,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>중앙 로깅 서비스에서 캡처 로그 읽기
 
-검색을 실행하고 보고된 문제를 추적하는 데 사용할 수 있는 파일이 있는 경우 중앙 로깅 서비스의 실제 이점을 실현할 수 있습니다. 파일을 읽을 수 있는 방법은 여러 가지가 있습니다. 출력 파일이 표준 텍스트 형식이면 Notepad.exe 또는 텍스트 파일을 열고 읽을 수 있는 기타 프로그램을 사용할 수 있습니다. 파일 크기가 크고 더 복잡한 문제의 경우 중앙 로깅 서비스에서 로깅 출력을 읽고 구문 분석하도록 디자인된 Snooper.exe 도구와 같은 도구를 사용할 수 있습니다. Snooper는 별도의 다운로드로 사용할 수 있는 디버그 도구에 포함되어 있습니다. 다음에서 디버그 도구를 다운로드할 수 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) 있습니다. 디버그 도구를 설치하면 짧은 잘라 내기 및 메뉴 항목이 만들어지지 않습니다. 디버그 도구를 설치한 후 Windows 탐색기, 명령줄 창 또는 비즈니스용 Skype 서버 관리 셸을 열고 디렉터리(기본 위치) C:\Program Files\Skype for Business Server 2015\디버깅 도구로 이동하십시오. 명령줄이나 Snooper.exe 셸을 사용하려면 Snooper.exe 입력한 다음 Enter를 클릭합니다.
+검색을 실행하고 보고된 문제를 추적하는 데 사용할 수 있는 파일이 있는 경우 중앙 로깅 서비스의 실제 이점을 실현할 수 있습니다. 파일을 읽을 수 있는 방법은 여러 가지가 있습니다. 출력 파일이 표준 텍스트 형식이면 Notepad.exe 또는 텍스트 파일을 열고 읽을 수 있는 기타 프로그램을 사용할 수 있습니다. 파일 크기가 크고 복잡한 문제의 경우 중앙 로깅 서비스에서 로깅 출력을 읽고 구문 분석하도록 설계된 Snooper.exe 도구와 같은 도구를 사용할 수 있습니다. Snooper는 별도의 다운로드로 사용할 수 있는 디버그 도구에 포함되어 있습니다. 다음에서 디버그 도구를 다운로드할 수 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) 있습니다. 디버그 도구를 설치하면 짧은 잘라 내기 및 메뉴 항목이 만들어지지 않습니다. 디버그 도구를 설치한 후 Windows 탐색기, 명령줄 창 또는 비즈니스용 Skype 서버 관리 셸을 열고 디렉터리(기본 위치) C:\Program Files\Skype for Business Server 2015\디버깅 도구로 이동하십시오. 명령줄이나 Snooper.exe 셸을 사용하려면 Snooper.exe 입력한 다음 Enter를 클릭합니다.
   
 > [!IMPORTANT]
-> 이 문서에서는 문제 해결 기술에 대해 자세히 설명하거나 논의하지 않습니다. 문제 해결 및 관련 프로세스는 복잡한 주제입니다. 기본 사항 문제 해결 및 특정 작업 문제 해결에 대한 자세한 내용은 Microsoft Lync Server 2010 Resource Kit book(Microsoft Lync Server 2010 Resource Kit)을 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) 참조합니다. 프로세스 및 절차는 비즈니스용 Skype 서버 2015에도 계속 적용됩니다. 
+> 이 문서에서는 문제 해결 기술에 대해 자세히 설명하거나 논의하지 않습니다. 문제 해결 및 관련 프로세스는 복잡한 주제입니다. 기본 사항 문제 해결 및 특정 작업 문제 해결에 대한 자세한 내용은 Microsoft Lync Server 2010 Resource Kit book(Microsoft Lync Server 2010 Resource Kit)을 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) 참조합니다. 프로세스 및 절차는 비즈니스용 Skype 서버 2015에도 적용됩니다. 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>Snooper에서 로그 파일을 열려면
 

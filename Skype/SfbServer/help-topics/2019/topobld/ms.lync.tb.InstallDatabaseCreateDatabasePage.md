@@ -29,7 +29,7 @@ ms.locfileid: "49835718"
  **만들려는 데이터베이스 선택**: 배포 및 구성하려는 데이터베이스의 확인란을 선택합니다. 배포하려는 임의의 데이터베이스 또는 모든 데이터베이스 확인란을 선택합니다.
 
 > [!CAUTION]
-> 데이터베이스 SQL Server 인스턴스에 대해 이미 구성된 포트(있는 경우)를 열고 데이터베이스를 배포하는 인스턴스를 수용할 수 있도록 방화벽 포트를 열 수 있어야 합니다. 자세한 내용은 구성을 [SQL Server](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
+> 데이터베이스를 SQL Server 인스턴스에 대해 구성한 경우 방화벽 포트를 열고 데이터베이스를 배포하는 인스턴스를 수용해야 합니다. 자세한 내용은 구성을 [SQL Server](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
 
  **Advanced**: click on the SQL Server and click the **Advanced** button to choose options for the database file locations on your SQL Server. 고급 데이터베이스 파일 배치에 대한 자세한 내용은 [Database Installation Using Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)를 참조하십시오.
 

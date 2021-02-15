@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-description: '요약: 이 항목을 통해 비즈니스용 Skype 서버 2015의 영구 채팅 서버에 대한 하드웨어 및 소프트웨어 요구 사항에 대해 자세히 알아보습니다.'
+description: '요약: 이 항목을 통해 비즈니스용 Skype 서버 2015의 영구 채팅 서버에 대한 하드웨어 및 소프트웨어 요구 사항에 대해 자세히 알아보고 있습니다.'
 ms.openlocfilehash: 32ba0d94679e6f326fa1821cbe3401d031854037
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -49,13 +49,13 @@ ms.locfileid: "49834538"
   
 - 영구 채팅 서버를 비즈니스용 Skype 서버 2015 Enterprise Edition과 함께 배포하는 경우 Enterprise Edition 풀의 하나 이상의 독립 실행형 컴퓨터에 영구 채팅 서버 프런트 엔드 서버를 배포할 수 있습니다. 영구 채팅 프런트 엔드 서버를 비즈니스용 Skype 서버 2015 프런트 엔드 서버에 함께 함께 사용할 수는 없습니다. 
     
-    단일 영구 채팅 서버 프런트 엔드 서버는 20,000명 활성 사용자를 지원할 수 있습니다. 최대 4개 활성 프런트 엔드가 있는 영구 채팅 서버 풀을 유지하여 총 80,000명 동시 사용자를 지원할 수 있습니다. 
+    단일 영구 채팅 서버 프런트 엔드 서버는 활성 사용자 20,000명을 지원할 수 있습니다. 최대 4개 활성 프런트 엔드가 있는 영구 채팅 서버 풀을 유지하여 총 80,000명 동시 사용자를 지원할 수 있습니다. 
     
 - 영구 채팅 서버를 비즈니스용 Skype 서버 2015 Standard Edition과 함께 배포하는 경우 영구 채팅을 프런트 엔드 서버와 함께 배치할 수 있습니다. 이 단일 서버 배포는 최대 20,000명까지 지원할 수 있습니다. 
     
 ## <a name="persistent-chat-server-database-requirements"></a>영구 채팅 서버 데이터베이스 요구 사항
 
-영구 채팅 서버에는 SQL Server 콘텐츠, 구성 데이터, 사용자 프로비저닝 데이터 및 기타 관련 메타데이터를 저장하기 위한 데이터베이스 소프트웨어가 필요합니다. 선택적으로 영구 채팅 준수 데이터베이스를 사용하여 준수 데이터를 저장합니다. 영구 채팅 데이터베이스는 백 엔드 데이터베이스와 동일한 SQL Server 또는 동일한 SQL 인스턴스에 함께 함께 사용할 수 있습니다. 
+영구 채팅 서버에는 채팅 SQL Server 콘텐츠, 구성 데이터, 사용자 프로비저닝 데이터 및 기타 관련 메타데이터를 저장하기 위한 데이터베이스 소프트웨어가 필요합니다. 선택적으로 영구 채팅 준수 데이터베이스를 사용하여 준수 데이터를 저장합니다. 영구 채팅 데이터베이스는 백 엔드 데이터베이스와 동일한 SQL Server 또는 동일한 SQL 인스턴스에 함께 함께 사용할 수 있습니다. 
   
 - 비즈니스용 Skype 서버 2015 Enterprise Edition과 함께 영구 채팅 서버를 설치하는 경우 최적의 성능을 보장하려면 영구 채팅 파일 저장소를 설치하는 것이 좋습니다.
     
@@ -71,7 +71,7 @@ ms.locfileid: "49834538"
 
 - Microsoft SQL Server 2016 서비스 팩 1을 설치하고 비즈니스용 Skype 서버 누적 업데이트 7 이상 릴리스를 실행해야 합니다. 최신 서비스 팩을 SQL Server 2016을 실행하는 것이 좋습니다. 2016에서 2016을 설치하는 Microsoft SQL Server 방법에 대한 자세한 내용은 SQL Server [2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)설치를 참조합니다.
 
-- Microsoft SQL Server 2014 및 비즈니스용 Skype 서버 누적 업데이트 6 이상 릴리스를 실행해야 합니다. 최신 서비스 팩을 SQL Server 2014를 실행하는 것이 좋습니다. 2014에서 2014를 설치하는 Microsoft SQL Server 대한 자세한 내용은 설치 SQL Server [2014를 참조합니다.](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)
+- Microsoft SQL Server 2014년을 시작하고 비즈니스용 Skype 서버 누적 업데이트 6 이상 릴리스를 실행해야 합니다. 최신 서비스 팩을 SQL Server 2014를 실행하는 것이 좋습니다. 2014에서 2014를 설치하는 Microsoft SQL Server 대한 자세한 내용은 설치 SQL Server [2014를 참조합니다.](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)
 
 - Microsoft SQL Server 2012(64비트 버전) 최신 서비스 팩을 실행하는 것이 좋습니다. 2012에서 2012를 설치하는 Microsoft SQL Server 방법에 대한 자세한 내용은 SQL Server [2012](https://go.microsoft.com/fwlink/p/?LinkID=248559)설치를 참조합니다.
 

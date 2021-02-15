@@ -52,7 +52,7 @@ QoE 보관함 설치 프로세스에는 QoE 보관 데이터베이스를 만들�
    
 
 
-통화 품질 대시보드 배포에는 인프라 설정 및 소프트웨어 설치가 수반됩니다. 다음 절차에서는 프로세스를 간략하게 설명합니다.
+통화 품질 대시보드 배포에는 인프라 설정 및 소프트웨어 설치가 관련됩니다. 다음 절차에서는 프로세스에 대한 간략한 설명을 제공합니다.
   
 ## <a name="deployment-steps"></a>배포 단계
 
@@ -101,7 +101,7 @@ QoE 보관함 설치 프로세스에는 QoE 보관 데이터베이스를 만들�
     
    - **QoE 보관 SQL Server 인스턴스:** SQL Server 보관 DB가 있는 위치의 인스턴스 이름입니다. 기본 인스턴스를 SQL Server 이 필드는 비워 두십시오. 명명된 SQL Server 지정하기 위해 인스턴스 이름(예: " 다음의 이름)을 \" 입력합니다. 설치를 위해 QoE 보관 구성 요소를 선택한 경우 이 필드는 QoE 보관 구성 페이지에 제공된 값으로 미리 채워지게 됩니다.
     
-   - **큐브 분석 서버:** SQL Server 만들 위치의 Analysis Service 인스턴스 이름을 지정합니다. 이 컴퓨터는 다른 컴퓨터일 수 있지만 설치하는 사용자는 Analysis Service 인스턴스에서 대상 서버 관리자의 SQL Server 합니다.
+   - **큐브 분석 서버:** SQL Server 만들 Analysis Service 인스턴스 이름입니다. 이 컴퓨터는 다른 컴퓨터일 수 있지만 설치하는 사용자는 Analysis Service 인스턴스에서 대상 서버 관리자의 SQL Server 합니다.
     
      > [!NOTE]
      >  Analysis Services 서버 관리자 권한을 구성하는 데 대한 자세한 내용은 서버 관리자 권한 [부여(Analysis Services)를 참조하십시오.](https://msdn.microsoft.com/library/ms174561.aspx)
@@ -129,7 +129,7 @@ QoE 보관함 설치 프로세스에는 QoE 보관 데이터베이스를 만들�
     
 11. 다음을 클릭하면 제공된 자격 증명을 사용하여 SQL Server 인스턴스에 액세스할 수 있으며 컴퓨터의 IIS를 사용할 수 있도록 유효성 검사의 최종 라운드가 수행됩니다. 유효성 검사가 성공적으로 완료된 경우 설치 프로그램이 설치를 진행합니다. 
     
-설치 관리자를 완료하면 QoE SQL Server 큐브 처리의 초기 로드를 수행하여 SQL Server 에이전트 작업이 진행될 것입니다. QoE의 데이터 양에 따라 포털에 아직 데이터를 볼 수 없습니다. 데이터 로드 및 큐브 처리 상태를 확인한 다음  `http://<machinename>/CQD/#/Health` 으로 이동하십시오. 
+설치 관리자를 완료하면 QoE SQL Server 큐브 처리의 초기 로드를 수행하여 SQL Server 에이전트 작업이 진행될 가능성이 습니다. QoE의 데이터 양에 따라 포털에 아직 데이터를 볼 수 없습니다. 데이터 로드 및 큐브 처리 상태를 확인한 다음  `http://<machinename>/CQD/#/Health` 으로 이동하십시오. 
 > [!NOTE]
 > 다운로드 큐브 처리의 상태를 확인할 URL은 대/소문자 구분에 유의해야 합니다. 'health'를 입력하면 URL이 작동하지 않습니다. URL 끝에 대문자 H를 사용하여 '상태'를 입력해야 합니다. 
   
@@ -139,7 +139,7 @@ QoE 보관함 설치 프로세스에는 QoE 보관 데이터베이스를 만들�
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
-기본 포털 페이지는 다음을 통해 액세스할 수  `http://<machinename>/CQD` 있습니다. 
+기본 포털 페이지는 .를 통해 액세스할 수  `http://<machinename>/CQD` 있습니다. 
 ## <a name="managing-user-access-for-the-portal"></a>포털에 대한 사용자 액세스 관리
 
 포털에 대한 사용자 권한 부여를 관리하기 위해 IIS 7.0에 도입된 URL 권한 부여를 사용하는 것이 좋습니다. IIS 보안에 대한 자세한 내용은 [IIS 7.0 URL](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization)권한 부여 이해를 참조하십시오.
@@ -180,7 +180,7 @@ QoE 보관함 설치 프로세스에는 QoE 보관 데이터베이스를 만들�
     
      ![통화 품질 대시보드 배포](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
   
-3. AuthenticatedUserOverride를 **UseWorkerProcessUser로 변경합니다.**
+3. authenticatedUserOverride를 **UseWorkerProcessUser로 변경합니다.**
     
      ![통화 품질 대시보드 배포 - 구성 편집기](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
   
@@ -188,7 +188,7 @@ QoE 보관함 설치 프로세스에는 QoE 보관 데이터베이스를 만들�
     
 ## <a name="known-issues"></a>알려진 문제
 
-### <a name="the-cqd-shows-no-data-after-deployment"></a>배포 후 CQD에 데이터가 표시 안
+### <a name="the-cqd-shows-no-data-after-deployment"></a>CQD는 배포 후 데이터를 표시하지 않습니다.
 
 다음과 같은 오류가 표시될 수 있습니다.
 
@@ -335,7 +335,7 @@ OwnershipTypeId 및 OwnershipTypeDesc 매개 변수가 필요합니다.
 네트워크 유형은 조직 내에서 다양한 유형의 네트워크를 설명하는 데 사용됩니다. 이렇게 하면 특정 네트워크 유형을 필터링하거나 필터링할 수 있습니다.
   
 > [!NOTE]
-> 네트워크 이름을 정의하는 것이 되지만 선택 사항입니다. 네트워크 이름을 정의하지 않을 경우 각 CqdNetwork 항목에 BuildingId가 0이 되도록 합니다. 
+> 네트워크 이름을 정의하는 것이 되지만 선택 사항입니다. 네트워크 이름을 정의하지 않도록 결정한 경우 각 CqdNetwork 항목에 BuildingId가 0이 되도록 합니다. 
   
 예
   
@@ -388,7 +388,7 @@ BuildingKey, BuildingName, BuildingShortName, OwnershipTypeId, BuildingTypeId �
 > [!NOTE]
 > 이 단계는 선택 사항이지만 권장됩니다.
   
-서브넷을 가져와서 마지막 단계에서 가져온 건물에 매핑합니다. NetworkName을 채우지 않도록 결정한 경우 이 표의 각 항목이 NetworkNameID 0을 사용하는지 확인합니다. 통화 품질 대시보드의 SQL 매개 변수에 대한 자세한 내용은 비즈니스용 Skype 서버에 통화 품질 대시보드 사용을 [참조하세요.](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/use)
+서브넷을 가져와서 마지막 단계에서 가져온 건물에 매핑합니다. NetworkName을 채우지 않도록 결정한 경우 이 표의 각 항목이 NetworkNameID 0을 사용하는지 확인합니다. 통화 품질 대시보드의 SQL 매개 변수에 대한 자세한 내용은 비즈니스용 Skype 서버에 통화 품질 대시보드 [사용을 참조하세요.](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/use)
   
  **샘플 SQL 구문**
   
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00(선분된 fformat을 사용해야 합니다.)  <br/> |
 |컨트롤러  <br/> |건물  <br/> |아루바 AP 7  <br/> |
-|장치  <br/> |ess  <br/> |Controller1  <br/> |
+|디바이스  <br/> |ess  <br/> |Controller1  <br/> |
 |라디오  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>가져온 데이터 처리
@@ -441,7 +441,7 @@ VALUES
   
 이 새 데이터로 모든 이전 레코드에 태그를 지정하려면 아래와 같이 CqdUpdateBuilding 저장 프로시저를 실행해야 합니다. 
   
-첫 번째 레코드의 날짜를 제공합니다(SELECT MIN(StartTime) FROM CqdPartitionedStreamView SQL 명령), 내일 끝 날짜, 마지막 두 값에 대한 NULL을 사용합니다.
+첫 번째 레코드의 날짜를 제공합니다(SELECT MIN(StartTime) FROM CqdPartitionedStreamView SQL command), an EndDate of my last two values, then NULL.
   
 데이터가 스트림 데이터와 연결된 후 SSIS 큐브는 모든 레코드를 다시 처리해야 합니다. 이는 BSSID/ISP 데이터를 대량으로 추가할 때도 적용됩니다. "전체 프로세스"가 선택되어 있도록 합니다.
   

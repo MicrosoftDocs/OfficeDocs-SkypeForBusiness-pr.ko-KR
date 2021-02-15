@@ -23,7 +23,7 @@ ms.locfileid: "49834918"
 ---
 # <a name="edge-network-planning-tool"></a>에지 네트워크(계획 도구)
  
-대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고 구성 요소는 비즈니스용 [Skype 서버 2015의 에지](../../plan-your-deployment/edge-server-deployments/scenarios.md) 서버 시나리오의 일부로 경계 네트워크에 있습니다. 에지 구성 요소는 다음과 같습니다.
+대부분의 에지 구성 요소는 경계 네트워크에 배포됩니다. 다음 구성 요소는 경계 네트워크의 에지 토폴로지로 구성됩니다. 설명된 경우를 제외하고 구성 요소는 비즈니스용 [Skype 서버 2015의 에지](../../plan-your-deployment/edge-server-deployments/scenarios.md) 서버 시나리오에 포함하며 경계 네트워크에 있습니다. 에지 구성 요소는 다음과 같습니다.
   
 - 에지 서버
     

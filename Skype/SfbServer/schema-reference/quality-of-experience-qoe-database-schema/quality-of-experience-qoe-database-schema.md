@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
-description: 이 문서에서는 비즈니스용 Skype 서버 2015의 QoE(QoE) 데이터베이스의 계획에 대해 문서화합니다.
+description: 이 문서에서는 비즈니스용 Skype 서버 2015의 QoE(QoE) 데이터베이스의 스마마를 문서화합니다.
 ms.openlocfilehash: 5e12fc8ace32db966334a7008de67157bcb31f3a
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

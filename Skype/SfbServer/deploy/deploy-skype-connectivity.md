@@ -36,11 +36,11 @@ Skype 디렉터리 검색 기능은 비즈니스용 Skype 사용자에게 Skype 
   
 - **표시 이름(예: "John Doe")으로** 검색 - 많은 결과가 반환될 수 있으므로 원하는 결과를 찾지 못하게 될 수 있습니다.
     
-- 표시 이름과 위치(예: **"John Doe in 나비")** - 검색 결과의 범위를 상당히 좁힐 수 있습니다.
+- 표시 이름과 위치(예: **"John Doe in** 표시되지")로 검색 - 검색 결과의 범위를 상당히 좁힐 수 있습니다.
     
-- **전자 메일로 검색(예: "johndoe@outlook.com")** - 대부분의 경우 하나의 결과가 반환됩니다. 지정한 전자 메일과 정확히 일치하는 전자 메일입니다. 그러나 동일한 전자 메일이 두 개 이상의 계정에 연결되어 있는 경우 여러 결과가 반환될 수 있습니다.
+- **전자 메일(예: "johndoe@outlook.com")** - 대부분의 경우 하나의 결과가 반환됩니다. 지정한 전자 메일과 정확히 일치하는 전자 메일입니다. 그러나 동일한 전자 메일이 두 개 이상의 계정에 연결되어 있는 경우 여러 결과가 반환될 수 있습니다.
     
-- **전화 번호(예: "123-123-1234")** - 대부분의 경우 하나의 결과가 반환됩니다. 지정한 전화와 정확히 일치하는 전화기입니다. 전화 번호에는 국가 코드(예: 1-xxx-y-zzzzzz)가 포함되어야 합니다. 동일한 전화 번호가 두 개 이상의 계정에 연결되어 있는 경우 여러 결과가 반환될 수 있습니다.
+- **전화 번호(예: "123-123-1234")** - 대부분의 경우 하나의 결과가 반환됩니다. 지정한 전화와 정확히 일치하는 전화기입니다. 전화 번호에는 국가 코드(예: 1-xxx-yyy-zzzzzz)가 포함되어야 합니다. 동일한 전화 번호가 두 개 이상의 계정에 연결되어 있는 경우 여러 결과가 반환될 수 있습니다.
     
 - **Skype 이름(예: "JohnDoe1456")로** 검색 - 정확한 일치가 발견되는 경우 첫 번째 결과로 반환됩니다. 다른 가능한 "이름" 일치가 반환될 수 있습니다.
     
@@ -93,14 +93,14 @@ Office 365 Small Business Premium: Office 365에 로그인하고 관리 서비�
     
 ## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 Skype 연결 배포
 
-비즈니스용 Skype 서버는 페더전 액세스 아키텍처를 사용하여 Skype와의 연결을 지원합니다. 이 연결을 통해 비즈니스용 Skype 서버 사용자가 Skype를 추가할 수 있습니다. Skype 클라이언트는 비즈니스용 Skype 사용자를 연락처 목록에 추가할 수 있습니다. 비즈니스용 Skype 서버 사용자가 관리적으로 설정한 정책에 따라 인스턴트 메시징을 사용하여 통신하고 서로의 현재 상태 및 오디오 및 비디오 통화를 시작할 수 있습니다. Skype 연결은 비즈니스용 Skype Online의 기능으로, Microsoft 365 관리 센터 내의 비즈니스용 Skype 관리 센터에서 비즈니스용 Skype Online 고객을 위해 사용할 수 있습니다.
+비즈니스용 Skype 서버는 페더전 액세스 아키텍처를 사용하여 Skype와의 연결을 지원합니다. 이 연결을 통해 비즈니스용 Skype 서버 사용자가 Skype를 추가할 수 있습니다. Skype 클라이언트는 비즈니스용 Skype 사용자를 연락처 목록에 추가할 수 있습니다. 비즈니스용 Skype 서버 사용자가 관리적으로 설정한 정책에 따라 인스턴트 메시징을 사용하여 통신하고, 서로의 현재 상태 및 오디오 및 비디오 통화를 시작할 수 있습니다. Skype 연결은 비즈니스용 Skype Online의 기능으로, Microsoft 365 관리 센터 내의 비즈니스용 Skype 관리 센터에서 비즈니스용 Skype Online 고객을 위해 사용할 수 있습니다.
   
 > [!NOTE]
 > 비즈니스용 Skype 서버가 PIC(공용 인스턴트 메시징 연결)를 사용하여 Windows Messenger와 연결하도록 이미 구성되어 있는 경우 배포가 Skype 연결에 대해 이미 구성되어 있습니다. 고려할 수 있는 유일한 변경은 기존 Messenger PIC 항목의 이름을 Skype로 바꾸는 것입니다. 
   
 ### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>비즈니스용 Skype 서버 공용 IM 연결 프로비저닝 사이트를 더 이상 사용할 수 없음
 
-이전의 비즈니스용 Skype-프레미스 배포와 Skype 간의 페더미스를 수동으로 프로비전하는 데 사용된 사이트는 더 이상 필요하지 않습니다. 2019년 8월 15일에는 종료됩니다. Skype와의 페더전은 이제 비즈니스용 Skype Online과의 페더전에 필요한 동일한 메커니즘인 페더전트 파트너 검색을 활용합니다.
+이전의 비즈니스용 Skype-프레미스 배포와 Skype 간의 페더미스를 수동으로 프로비전하는 데 사용된 사이트는 더 이상 필요하지 않습니다. 2019년 8월 15일에는 종료됩니다. Skype와의 페더전은 이제 비즈니스용 Skype Online과의 페더에 필요한 동일한 메커니즘인 페더러드 파트너 검색을 활용합니다.
 
 이제는 기존 공용 IM 인프라를 통해 모든 비즈니스용 Skype 배포와 Skype 사용자 간의 통신을 위해서는 비즈니스용 Skype Online과의 호환이 필요하며, 이 구성은 비즈니스용 Skype Online과 호환해야 합니다.
 
@@ -123,7 +123,7 @@ Office 365 Small Business Premium: Office 365에 로그인하고 관리 서비�
 #### <a name="faqs"></a>FAQ
 
 **프로비저닝 웹 사이트가 종료되는 이유는 무엇입니까?**
-2006에서 배포된 PIC(공용 IM) 프로비전 메커니즘(pic.lync.com)은 더 이상 서비스할 수 없습니다. 2019년 8월 15일에는 종료됩니다. 대신, 공용 IM 페더임은 비즈니스용 Skype Online에서 "파트너 검색"으로 알려진 동일한 페더러세이트 모델을 사용하게 됩니다. 여기서는 페더ation DNS SRV 레코드에 의해 공개적으로 프레미스 배포를 검색할 수 있습니다.
+2006에 배포된 PIC(공용 IM) 프로비전 메커니즘(pic.lync.com)은 더 이상 서비스할 수 없습니다. 2019년 8월 15일에는 종료됩니다. 대신, 공용 IM 페더임은 비즈니스용 Skype Online에서 "파트너 검색"으로 알려진 동일한 페더러세이트 모델을 사용하게 됩니다. 여기서는 페더ation DNS SRV 레코드에 의해 공개적으로 프레미스 배포를 검색할 수 있습니다.
 
 **이 변경은 공용 IM 페더러가 더 이상 사용되지 않는다는 것을 의미합니까?**
 아니요. 공용 IM 페더임은 비즈니스용 Skype의 수명이 종료될 때까지 수년 동안 계속 지원됩니다.
@@ -131,8 +131,8 @@ Office 365 Small Business Premium: Office 365에 로그인하고 관리 서비�
 **회사의 비즈니스용 Skype Online과 하이브리드 관계(공유 주소 공간)가 있는 경우 영향을 받지 않습니다.**
 아니요. 비즈니스용 Skype Online과 이미 페더러인 경우 이 변경은 영향을 주지 않습니다.
  
-**이 변경은 회사에서 비즈니스용 Skype Online과의 페더맹을 사용하도록 설정해야 합니까?**
-아니요. 에지 서버 프록시 설정에서 비즈니스용 Skype Online 호스팅 공급자(sipfed.online.lync.com)와의 페더링을 사용하도록 설정하지 않는 경우 이 변경은 해당 설정에 영향을 주지 않습니다. 그러나 비즈니스용 Skype Online과의 페더에 적용되는 동일한 DNS 및 인증서 요구 사항이 이제 Skype 사용자와의 페더에 적용됩니다.
+**이 변경으로 회사에서 비즈니스용 Skype Online과의 페더맹을 사용하도록 설정해야 하나요?**
+아니요. 에지 서버 프록시 설정에서 비즈니스용 Skype Online 호스팅 공급자(sipfed.online.lync.com)와의 페더링을 사용하도록 설정하지 않는 경우 이 변경은 해당 설정에 영향을 주지 않습니다. 그러나 이제 비즈니스용 Skype Online과의 페더에 적용되는 동일한 DNS 및 인증서 요구 사항이 Skype 사용자와의 페더에 적용됩니다.
  
 **우리 회사는 규모가 크고 규정/규정 준수/등 이유로 에지 구성을 변경할 수 없습니다. 어떻게 해야 하나요?**
 지정된 에지 서버 구성을 변경할 수 없는 모든 프레미스 조직은 가장 빠른 기회에 제품 지원에 도달해야 합니다.
@@ -174,7 +174,7 @@ Skype 사용자가 조직의 비즈니스용 Skype 사용자와 통신할 수 �
 관리자는 비즈니스용 Skype 서버 관리 셸을 사용하여 Skype를 추가 PIC 공급자로 표시하도록 비즈니스용 Skype 클라이언트 정책을 구성해야 합니다. 
   
 > [!NOTE]
-> PIC(공용 인스턴트 메시징 연결) 서비스 공급자의 사용자는 공용 IM 연결을 지원하도록 하나 이상의 정책(이 절차의 2단계)도 구성해야만 조직의 IM 또는 회의에 참가할 수 있습니다. 
+> PIC(공용 인스턴트 메시징 연결) 서비스 공급자의 사용자는 공용 IM 연결을 지원하도록 하나 이상의 정책(이 절차 앞부분에서 2단계)도 구성할 때까지 조직의 IM 또는 회의에 참가할 수 없습니다. 
   
 새 설치의 경우 그림과 같이 비즈니스용 Skype 서버 제어판을 사용하여 Skype 공용 공급자를 사용하도록 설정하여 Skype 연결을 구성할 수 있습니다.
   
@@ -206,13 +206,13 @@ Skype 연결 구성은 PowerShell만 사용하여 구성할 수도 있습니다.
     
    - IconURL: Lync 비즈니스용 Skype 클라이언트에서 Skype 연락처를 시각적으로 식별하는 데 &amp; 사용하는 아이콘
     
-   - NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList: 이를 설정하면 사용자가 "msn.com"를 사용하여 Microsoft가 아닌 다른 도메인을 "데코레이팅"할 필요 없이 Skype 사용자의 MSAS를 입력할 수 있습니다. 이렇게 하면 ExcludedDomainList에 없는 모든 도메인에 대해 "user(contoso.com)@msn.com"를 입력할 필요가 없습니다. SfB 클라이언트는 도메인이 제외된 목록에 없는 경우 MSA의 형식을 자동으로 지정합니다. 가장 일반적인 Microsoft 계정 도메인을 제외 목록에 추가했습니다.
+   - NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList: 이를 설정하면 사용자가 "msn.com"를 사용하여 Microsoft가 아닌 다른 도메인을 "디코딩"할 필요 없이 Skype 사용자의 MSAS를 입력할 수 있습니다. 이렇게 하면 ExcludedDomainList에 없는 모든 도메인에 대해 "user(contoso.com)@msn.com"를 입력할 필요가 없습니다. 도메인이 제외 목록에 없는 경우 SfB 클라이언트는 MSA의 형식을 자동으로 지정합니다. 가장 일반적인 Microsoft 계정 도메인을 제외 목록에 추가했습니다.
     
      > [!NOTE]
      > 공용 공급자를 제거하고 변경하는 경우 새로 추가해야 합니다. 현재 변경이 허용되지 않습니다. 
   
      > [!NOTE]
-     > Office 2013 SP1의 Lync Server 2013 CU5 Lync 데스크톱 클라이언트에 추가된 &amp; NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList는 Lync 사용자가 Skype를 식별하고 Skype로 라우팅하기 위해 Microsoft가 아닌 다른 도메인을 "디코딩"하는 데 필요한 상황을 개선합니다(형식: user(contoso.com)@msn.com). 이러한 새 설정은 NameDecorationExcludedDomainList에 도메인이 포함되어 있지 않은 경우 NameDecorationRoutingDoma msn.com in이 있는 "Skype 연락처 추가" 대화 상자에 입력한 주소 사용자의 자동 서식을 허용합니다(현재는 msn.com, live.com, Hotmail.com, outlook.com를 지원할 수 있습니다). 
+     > Office 2013 SP1의 Lync Server 2013 CU5 Lync 데스크톱 클라이언트에 추가된 &amp; NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList는 Lync 사용자가 Skype를 식별하고 Skype로 라우팅하기 위해 Microsoft가 아닌 다른 도메인을 "디코딩"하는 데 필요한 상황을 개선합니다(형식: user(contoso.com)@msn.com). 이러한 새 설정은 NameDecorationExcludedDomainList의 도메인이 포함되어 있지 않은 경우 NameDecorationRoutingDoma msn.com in이 있는 "Skype 연락처 추가" 대화 상자에 입력한 주소 사용자의 자동 서식을 허용합니다(현재는 msn.com, live.com, Hotmail.com, outlook.com를 지원할 수 있습니다). 
   
 3. 비즈니스용 Skype 클라이언트 사용자는 이제 Skype 사용자를 검색하고 추가할 수 있습니다.
     

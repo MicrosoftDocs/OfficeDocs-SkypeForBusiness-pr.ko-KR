@@ -13,7 +13,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
-description: '요약: SharePoint Server에서 보관된 데이터를 검색하도록 sharePoint Server를 Exchange Server 비즈니스용 Skype 서버가 보관합니다.'
+description: '요약: SharePoint Server가 비즈니스용 Skype 서버에서 Exchange Server 검색하도록 구성합니다.'
 ms.openlocfilehash: 406e0a713c65bc147ce6eb492f251a25ea2a3afc
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -130,7 +130,7 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 5. 새로 만들기: 검색 설정 페이지의 **검색 설정 이름** 상자에 사용자의 전자 메일 별칭을 입력합니다. *_* Filter * 상자에 **eDiscovery \\ Lync_를** 입력한 다음 원본 관리 **&amp; 추가를 클릭합니다.**
     
-6. 원본 관리 추가 페이지에서 사서함의 첫 번째 텍스트 상자에 사용자의 전자 메일 &amp; 별칭을 **입력합니다.** 해당 텍스트 상자 옆의 사서함 확인 아이콘을 클릭하여 SharePoint에서 지정된 사서함에 연결할 수 있는지 확인합니다.
+6. 원본 관리 추가 페이지에서 사서함의 첫 번째 텍스트 상자에 사용자의 전자 메일 &amp; **별칭을 입력합니다.** 해당 텍스트 상자 옆의 사서함 확인 아이콘을 클릭하여 SharePoint에서 지정된 사서함에 연결할 수 있는지 확인합니다.
     
 7. **확인** 을 클릭합니다.
     

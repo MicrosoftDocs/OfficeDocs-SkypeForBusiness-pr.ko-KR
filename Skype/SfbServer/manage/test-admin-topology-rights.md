@@ -24,7 +24,7 @@ ms.locfileid: "49832848"
 |--|--|
 |확인 일정|초기 비즈니스용 Skype 서버 배포 후. 권한 관련 문제가 발생하는 경우 필요한 경우|
 |테스트 도구|Windows PowerShell|
-|필요한 권한|비즈니스용 Skype 서버 관리 셸을 사용하여 로컬로 실행할 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원이 되어야 합니다.<br/><br/>원격 응용 Windows PowerShell 사용하여 실행할 경우 사용자에게 Test-CsSetupPermission cmdlet을 실행할 수 있는 권한이 있는 RBAC 역할을 할당해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 표시하기 위해 다음 명령 프롬프트에서 Windows PowerShell 실행합니다.<br/><br/>Get-CsAdminRole Where-Object \| {$_를 사용합니다. Cmdlets -match "Test-CsSetupPermission"}|
+|필요한 권한|비즈니스용 Skype 서버 관리 셸을 사용하여 로컬로 실행할 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원이 되어야 합니다.<br/><br/>원격 인스턴스를 사용하여 실행되는 Windows PowerShell cmdlet을 실행할 수 있는 권한이 있는 RBAC 역할을 사용자에게 Test-CsSetupPermission 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 표시하기 위해 다음 명령 프롬프트에서 Windows PowerShell 실행합니다.<br/><br/>Get-CsAdminRole Where-Object \| {$_를 사용합니다. Cmdlets -match "Test-CsSetupPermission"}|
 |||
 
 ## <a name="description"></a>설명
@@ -35,7 +35,7 @@ ms.locfileid: "49832848"
 
 ## <a name="running-the-test"></a>테스트 실행
 
-Active Directory 컨테이너에 대한 설치 권한이 할당되어 있는지 확인하려면 Test-CsSetupPermission cmdlet을 호출합니다. 확인할 컨테이너의 고유 이름을 지정합니다. 예를 들어 다음 명령은 컨테이너 ou=CsServers,dc=litwareinc,dc=com에 대한 설치 권한을 검증합니다.
+Active Directory 컨테이너에 대한 설치 권한이 할당되어 있는지 확인하려면 Test-CsSetupPermission 호출합니다. 확인할 컨테이너의 고유 이름을 지정합니다. 예를 들어 다음 명령은 컨테이너 ou=CsServers,dc=litwareinc,dc=com에 대한 설치 권한을 검증합니다.
 
 `Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"`
 
@@ -47,13 +47,13 @@ Active Directory Test-CsSetupPermission 필요한 권한이 이미 설정되어 
 
 True 
 
-권한이 설정되지 않은 경우 Test-CsSetupPermission False 값을 반환합니다. 이 값은 일반적으로 많은 경고 메시지로 묶입니다. 예제:
+권한이 설정되지 않은 경우 Test-CsSetupPermission False 값을 반환합니다. 이 값은 일반적으로 많은 경고 메시지로 묶입니다. 예시:
 
 경고: ACE(액세스 제어 항목) atl-cs-001\RTCUniversalServerAdmins; 허용; ExtendedRight; 없음; 없음; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
 경고: "CN=Computers,DC=litwareinc,DC=com" 개체의 A AC(액세스 제어 항목)가 준비되지 않습니다. 
 
-False 
+거짓 
 
 경고: "Test-CsSetupPermission" 처리가 경고로 완료되었습니다. 이 실행 중에 "2" 경고가 기록됩니다. 
 
@@ -61,7 +61,7 @@ False
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패한 이유
 
-예외는 드물지만 예외가 Test-CsSetupPermission 오류가 발생하면 일반적으로 지정된 Active Directory 컨테이너에 대해 설치 권한이 할당되지 않습니다. 이러한 사용 권한은 이 cmdlet을 사용하여 할당할 Grant-CsSetupPermission 있습니다. 예를 들어 다음 명령은 도메인의 Computers 컨테이너에 설치 권한을 litwareinc.com.
+예외는 드물지만 예외가 Test-CsSetupPermission 오류가 발생하면 일반적으로 지정된 Active Directory 컨테이너에 대해 설치 권한이 할당되지 않습니다. 이러한 사용 권한은 이 cmdlet을 사용하여 할당할 Grant-CsSetupPermission 있습니다. 예를 들어 다음 명령은 다음 도메인의 Computers 컨테이너에 설치 권한을 litwareinc.com.
 
 `Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"`
 

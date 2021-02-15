@@ -36,7 +36,7 @@ ms.locfileid: "49835188"
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-예제:
+예시:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
@@ -48,7 +48,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 - **공급자** OCSLogger에 익숙한 경우 공급자는 추적 엔진이 로그를 수집할 것을 OCSLogger에 알려 주기 위해 선택하는 구성 요소입니다. 공급자는 구성 요소와 같고 대부분의 경우 OCSLogger의 구성 요소와 이름이 같습니다. OCSLogger에 익숙하지 않은 경우 공급자는 중앙 로깅 서비스에서 로그를 수집할 수 있는 서버 역할별 구성 요소입니다. 공급자 구성에 대한 자세한 내용은 비즈니스용 Skype 서버 [2015에서](configure-providers.md)중앙 로깅 서비스에 대한 공급자 구성을 참조하세요.
     
-- **ID** 매개 변수 -Identity는 시나리오의 범위와 이름을 설정합니다. 예를 들어 범위를 "global"으로 설정하고 "LyssServiceScenario"로 시나리오를 식별할 수 있습니다. 이 두 가지를 결합하는 경우 ID를 정의합니다(예: "global/LyssServiceScenario").
+- **ID** 매개 변수 -Identity는 시나리오의 범위와 이름을 설정합니다. 예를 들어 범위를 "global"으로 설정하고 "LyssServiceScenario"로 시나리오를 식별할 수 있습니다. 이 두 가지를 결합할 때 ID를 정의합니다(예: "global/LyssServiceScenario").
     
     원하는 경우 -Name 및 -Parent 매개 변수를 사용할 수 있습니다. 시나리오를 고유하게 식별하기 위해 Name 매개 변수를 정의합니다. Name을 사용하는 경우 Parent를 사용하여 전역 또는 사이트에 시나리오를 추가해야 합니다. 
     
@@ -57,7 +57,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 ### <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>이 cmdlet을 사용하여 새 시나리오를 New-CsClsScenario
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. 로깅 세션에 대한 새 시나리오를 만들 경우 [New-CsClsProvider를](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) 사용하여 시나리오의 이름(즉, 고유하게 식별되는 방법)을 정의합니다. WPP에서 로깅 형식 유형(즉, Windows 소프트웨어 추적 전 처리기 및 기본값), EventLog(즉, Windows 이벤트 로그 형식) 또는 IISLog(IIS 로그 파일 형식을 기반으로 하는 ASCII 형식 파일)를 선택합니다. 그런 다음 Level(이 항목의 로깅 수준 아래에 정의된 수준) 및 플래그(이 항목의 플래그 아래에 정의되어 있습니다)를 정의합니다.
     
@@ -69,7 +69,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
    ```
 
-    예제:
+    예시:
     
    ```PowerShell
    New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
@@ -83,7 +83,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>cmdlet을 사용하여 여러 공급자를 사용하여 새 시나리오를 New-CsClsScenario
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. 범위당 두 개의 시나리오로 제한됩니다. 그러나 설정된 수의 공급자로 제한되지는 않습니다. 이 예제에서는 세 개의 공급자를 만들었다고 가정하고 정의하는 시나리오에 세 가지를 모두 할당하려는 경우를 가정합니다. 공급자 변수 이름은 LyssProvider, ABServerProvider 및 SIPStackProvider입니다. 시나리오에 여러 공급자를 정의하고 할당하기 위해 비즈니스용 Skype 서버 관리 셸 또는 명령 프롬프트에 Windows PowerShell 입력합니다.
     
@@ -96,7 +96,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>cmdlet을 통해 기존 시나리오를 Set-CsClsScenario
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. 범위당 두 개의 시나리오로 제한됩니다. 로깅 캡처 세션이 진행 중인 경우에도 언제라도 실행 중인 시나리오를 변경할 수 있습니다. 실행 중인 시나리오를 다시 디자인하면 현재 로깅 세션에서 제거된 시나리오의 사용을 중지한 다음 새 시나리오 사용을 시작하게 됩니다. 그러나 제거된 시나리오로 캡처된 로깅 정보는 캡처된 로그에 남아 있습니다. 새 시나리오를 정의하기 위해 다음을(즉, "S4Provider"라는 이미 정의된 공급자를 추가한 경우) 다음을 사용합니다.
     
@@ -104,7 +104,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
    ```
 
-    예제:
+    예시:
     
    ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
@@ -130,7 +130,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>이 cmdlet을 사용하여 기존 시나리오를 Remove-CsClsScenario
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. 이전에 정의한 시나리오를 제거하려면 다음을 입력합니다.
     
@@ -147,7 +147,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 **Remove-CsClsScenario** cmdlet은 지정된 시나리오를 제거하지만 캡처된 추적은 로그에서 계속 검색할 수 있습니다.
 ### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>ClsScenarioEdit.psm1 모듈을 Edit-CsClsScenario cmdlet을 로드하고 언로드
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
     > [!IMPORTANT]
     > ClsScenarioEdit.psm1 모듈은 별도의 웹 다운로드로 제공됩니다. 이 모듈은 비즈니스용 Skype 서버 2015 디버깅 도구의 일부입니다. 기본적으로 디버깅 도구는 C:\Program Files\Skype for Business Server 2015\Debugging Tools 디렉터리에 설치됩니다. 
@@ -168,11 +168,11 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
     > [!TIP]
-    > 모듈을 성공적으로 언로드하면 명령 프롬프트가 Windows PowerShell 반환됩니다. 모듈이 언로드되지 않은지 확인을 위해  `Get-Help Edit-CsClsScenario` 를 입력합니다. Windows PowerShell cmdlet에 대한 도움말을 찾으며 실패합니다. 
+    > 모듈을 성공적으로 언로드하면 명령 프롬프트가 Windows PowerShell 반환됩니다. 모듈이 언로드되지 않은지 확인을 위해 다음을  `Get-Help Edit-CsClsScenario` 입력합니다. Windows PowerShell cmdlet에 대한 도움말을 찾으며 실패합니다. 
   
 ### <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>기존 모듈을 사용하여 시나리오에서 기존 공급자를 Edit-ClsController
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. 다음 Windows PowerShell 입력합니다.
     
@@ -195,7 +195,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
    ```
 
-   ScenarioName 및 ProviderName 매개 변수는 위치(즉, 명령줄의 예상 위치에 정의되어야 합니다.) 매개 변수입니다. 시나리오 이름이 위치 2에 있으며 공급자가 위치 3에 있는 경우 위치 1로 cmdlet의 이름을 상대로 매개 변수 이름을 명시적으로 정의할 필요가 없습니다. 이 정보를 사용하여 이전 명령은 다음을 입력합니다.
+   ScenarioName 및 ProviderName 매개 변수는 위치(즉, 명령줄의 예상 위치에 정의되어야 합니다)입니다. 시나리오 이름이 위치 2에 있으며 공급자가 위치 3에 있는 경우 위치 1로 cmdlet의 이름을 상대로 매개 변수 이름을 명시적으로 정의할 필요가 없습니다. 이 정보를 사용하여 이전 명령은 다음을 입력합니다.
     
    ```PowerShell
    Edit-CsClsScenario AlwaysOn ChatServer -Remove
@@ -205,7 +205,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 ### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>사용자 모듈을 사용하여 시나리오에 공급자를 Edit-ClsController
 
-1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** 모든 **프로그램,** 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
+1. 비즈니스용 Skype 서버 관리 셸 시작: **시작,** **모든** 프로그램, 비즈니스용 **Skype 2015,** 비즈니스용 Skype 서버 관리 셸을 **클릭합니다.**
     
 2. AlwaysOn 시나리오에 공급자를 추가하기 위해 다음을 입력합니다.
     

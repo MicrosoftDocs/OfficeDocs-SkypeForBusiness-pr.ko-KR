@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 보관 정책을 사용하여 비즈니스용 Skype 서버에 있는 사용자에 대해 보관을 사용하고 사용하지 않도록 설정할 수 있습니다. 각 보관 정책에서 다음 중 하나 또는 둘 다에 대해 보관을 사용하거나 사용하지 않도록 설정할 수 있습니다.
+description: 보관 정책을 사용하여 비즈니스용 Skype 서버에 있는 사용자에 대해 보관을 사용하도록 설정하고 사용하지 않도록 설정할 수 있습니다. 각 보관 정책에서 다음 중 하나 또는 둘 다에 대해 보관을 사용하거나 사용하지 않도록 설정할 수 있습니다.
 ms.openlocfilehash: 041fc71da18ff38b14e82ce9d2ab14f366326b29
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

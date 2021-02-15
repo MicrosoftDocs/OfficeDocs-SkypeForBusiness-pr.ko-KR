@@ -39,7 +39,7 @@ Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,
 
 예제의 첫 번째 명령에서 VoIPSecurity 매개 변수와 매개 변수 값 "Secured"는 신호 채널이 TLS(전송 계층 보안)를 사용하여 암호화되어 있는 경우를 나타냅니다. URIType "SipName"은 메시지가 SIP 프로토콜을 사용하여 송/수신됨을 나타내고, CountryOrRegionCode 1은 다이얼 플랜이 미국에 적용됨을 나타냅니다.
   
-두 번째 명령에서 ConfiguredInCountryOrRegionGroups 매개 변수로 전달되는 매개 변수 값은 이 다이얼 플랜에 사용할 수 있는 국가 내 그룹을 지정합니다. 매개 변수 값 "Anywhere, \* \* , " \* 는 다음을 설정합니다.
+두 번째 명령에서 ConfiguredInCountryOrRegionGroups 매개 변수로 전달되는 매개 변수 값은 이 다이얼 플랜에 사용할 수 있는 국가 내 그룹을 지정합니다. 매개 변수 값 "Anywhere, \* \* , " \* 는 다음을 지정합니다.
   
 - 그룹 이름("Anywhere")
     
@@ -107,7 +107,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>2013에서 통합 메시징 Microsoft Exchange Server 
 > [!IMPORTANT]
-> Exchange UM(통합 메시징)을 사용하여 Enterprise Voice 사용자에 대해 전화 응답, Outlook Voice Access 또는 자동 전화 교환 서비스를 제공하려는 경우 비즈니스용 [Skype에서 Exchange](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)통합 메시징 통합 계획을 읽은 다음 이 섹션의 지침을 따릅니다. 
+> UM(Exchange 통합 메시징)을 사용하여 Enterprise Voice 사용자에 대해 전화 응답, Outlook Voice Access 또는 자동 전화 교환 서비스를 제공하려는 경우 비즈니스용 [Skype에서 Exchange](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)통합 메시징 통합 계획을 읽은 다음 이 섹션의 지침을 따릅니다. 
 
 Exchange UM(통합 메시징)이 사용되지 Enterprise Voice 구성하려면 다음 작업을 수행해야 합니다.
 
@@ -129,10 +129,10 @@ Exchange UM(통합 메시징)이 사용되지 Enterprise Voice 구성하려면 �
 시작하기 전에 이 섹션의 설명서에서는 클라이언트 액세스 및 사서함과 같은 Exchange 역할을 배포했다고 가정합니다. 이 Microsoft Exchange Server Exchange UM은 이러한 서버에서 서비스로 실행됩니다.
 
 또한 다음에 주의하십시오.
-- Exchange UM이 여러 포리스트에 설치되어 있는 경우 Exchange Server UM 포리스트에 대해 통합 단계를 수행해야 합니다. 또한 비즈니스용 Skype 서버가 배포된 포리스트를 신뢰하도록 각 UM 포리스트를 구성해야 합니다. 또한 각 UM 포리스트를 신뢰하도록 비즈니스용 Skype 서버가 배포된 포리스트를 구성해야 합니다.
+- Exchange UM이 여러 포리스트에 설치된 경우 Exchange Server UM 포리스트에 대해 통합 단계를 수행해야 합니다. 또한 비즈니스용 Skype 서버가 배포된 포리스트를 신뢰하도록 각 UM 포리스트를 구성해야 합니다. 또한 각 UM 포리스트를 신뢰하도록 비즈니스용 Skype 서버가 배포된 포리스트를 구성해야 합니다.
 - 통합 단계는 통합 메시징 서비스가 실행되는 Exchange Server 역할과 비즈니스용 Skype 서버를 실행하는 서버에서 모두 수행됩니다. Lync Server 2013 Exchange Server 전에 통합 메시징 통합 단계를 수행해야 합니다.
   > [!NOTE]
-  > 서버에서 수행되는 통합 단계와 관리자 역할에 대한 자세한 내용은 배포 프로세스 개요를 [참조하십시오.](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md) 
+  > 서버에서 수행되는 통합 단계 및 관리자 역할에 대한 자세한 [](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md)내용은 배포 프로세스 개요를 참조하십시오. 
 
 Exchange UM을 실행하는 각 서버에서 다음 도구를 사용할 수 있어야 합니다.
 - Exchange 관리 셸
@@ -153,13 +153,13 @@ Microsoft 비즈니스용 Skype 서버를 Exchange UM(통합 메시징)에 통�
 > ExchUcUtil.ps1 스크립트는 UM IP 게이트웨이를 하나 이상 만듭니다. 스크립트가 만들어진 한 게이트웨이를 제외한 모든 UM IP 게이트웨이에서 발신 전화를 사용하지 않도록 설정해야 합니다. 또한 스크립트를 실행하기 전에 만들어진 UM IP 게이트웨이에서도 발신 전화를 사용하지 않도록 설정합니다. 
 
 - 각 UM IP 게이트웨이에 대해 UM 헌트 그룹을 만듭니다. 각 헌트 그룹의 파일럿 식별자는 UM IP 게이트웨이와 연결된 비즈니스용 Skype 서버 프런트 엔드 풀 또는 Standard Edition 서버에서 사용하는 UM SIP URI 다이얼 플랜을 지정합니다.
-- 비즈니스용 Skype 서버에 UM 다이얼 플랜, 자동 전화 걸기, UM IP 게이트웨이 및 UM 헌트 그룹과 같은 Active Directory UM 컨테이너 개체를 읽을 수 있는 권한을 부여합니다.
+- UM 다이얼 플랜, 자동 전화 번호, UM IP 게이트웨이 및 UM 헌트 그룹과 같은 Active Directory UM 컨테이너 개체를 읽을 수 있는 권한을 비즈니스용 Skype 서버에 부여합니다.
   > [!IMPORTANT]
-  > 각 UM 포리스트는 비즈니스용 Skype 서버가 배포된 포리스트를 신뢰하도록 구성해야 합니다. 또한 각 UM 포리스트를 신뢰하도록 비즈니스용 Skype 서버 2013이 배포된 포리스트를 구성해야 합니다. Exchange UM이 여러 포리스트에 설치된 경우 Exchange Server UM 포리스트에 대해 통합 단계를 수행하거나 비즈니스용 Skype 서버 도메인을 지정해야 합니다. 예를 들어 ExchUcUtil.ps1 -Forest:<-domain-controller-fqdn을>. 
+  > 각 UM 포리스트는 비즈니스용 Skype 서버가 배포된 포리스트를 신뢰하도록 구성해야 합니다. 또한 각 UM 포리스트를 신뢰하도록 비즈니스용 Skype 서버 2013이 배포된 포리스트를 구성해야 합니다. Exchange UM이 여러 포리스트에 설치된 경우 Exchange Server UM 포리스트에 대해 Exchange Server 통합 단계를 수행하거나 비즈니스용 Skype 서버 도메인을 지정해야 합니다. 예를 들어 ExchUcUtil.ps1 -Forest:<-domain-controller-fqdn을>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>셸을 사용하여 ExchUcUtil.ps1 스크립트 실행
 
-조직의 ExchUcUtil.ps1 비즈니스용 Skype 서버와 동일한 토폴로지에 있는 모든 Exchange 서버에서 ExchUcUtil.ps1 스크립트를 실행합니다. 셸을 사용하여 사서함 서버에서 스크립트를 실행하거나, 클라이언트 액세스 서버에서 원격 Windows PowerShell을 사용하여 스크립트를 실행할 수 있습니다. 조직의 클라이언트 액세스 서버에서 스크립트를 실행하면 클라이언트 액세스 서버가 원격 Windows PowerShell 세션을 조직에 있는 사서함 서버로 프록시합니다.
+비즈니스용 Skype ExchUcUtil.ps1 동일한 토폴로지에 있는 조직의 모든 Exchange 서버에서 ExchUcUtil.ps1 스크립트를 실행합니다. 셸을 사용하여 사서함 서버에서 스크립트를 실행하거나, 클라이언트 액세스 서버에서 원격 Windows PowerShell을 사용하여 스크립트를 실행할 수 있습니다. 조직의 클라이언트 액세스 서버에서 스크립트를 실행하면 클라이언트 액세스 서버가 원격 Windows PowerShell 세션을 조직에 있는 사서함 서버로 프록시합니다.
 > [!IMPORTANT]
 > ExchUcUtil.ps1 스크립트는 UM IP 게이트웨이를 하나 이상 만듭니다. 스크립트가 만들어진 한 게이트웨이를 제외한 모든 UM IP 게이트웨이에서 발신 전화를 사용하지 않도록 설정해야 합니다. 또한 스크립트를 실행하기 전에 만들어진 UM IP 게이트웨이에서도 발신 전화를 사용하지 않도록 설정합니다. UM IP 게이트웨이에서 발신 전화를 사용하지 않도록 설정하려면 UM IP 게이트웨이에서 거는 전화를 사용 하지 않도록 설정을 참조하세요. 
 > [!IMPORTANT]
@@ -204,7 +204,7 @@ ExchUcUtul.ps1 스크립트가 완료되었는지 확인하려면 다음을 수�
 2. **파일** 메뉴에서 **스냅인 추가/제거** 를 클릭한 다음 **추가** 를 클릭합니다.
 3. **독립 실행형 스냅인 추가** 상자에서 **인증서** 를 클릭한 다음 **추가** 를 클릭합니다.
 4. **인증서 스냅인** 대화 상자에서 **컴퓨터 계정** 을 클릭한 다음 **다음** 을 클릭합니다.
-5. 컴퓨터 **선택** 대화 상자에서 로컬 **컴퓨터: (이** 콘솔이 실행되고 있는 컴퓨터) 확인란이 선택되어 있는지 확인한 후 마침을 **클릭합니다.**
+5. 컴퓨터 **선택** 대화 상자에서 로컬 **컴퓨터: (이** 콘솔이 실행되고 있는 컴퓨터) 확인란이 선택되어 있는지 확인하고 마침을 **클릭합니다.**
 6. **닫기** 를 클릭한 다음 **확인** 을 클릭합니다. 
 7. 콘솔 트리에서 **인증서(로컬 컴퓨터)**, **신뢰할 수 있는 루트 인증 기관** 을 차례로 확장한 다음 **인증서** 를 클릭합니다.
 8. **인증서** 를 마우스 오른쪽 단추로 클릭하고 **모든 작업** 을 클릭하고 **가져오기** 를 클릭합니다.

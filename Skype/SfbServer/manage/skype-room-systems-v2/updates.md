@@ -40,7 +40,7 @@ Windows 업데이트는 다음과 같은 몇 가지 방법으로 관리할 수 �
 - 기능 업데이트. 아래 추가 참고를 참조하세요.
 
 ## <a name="wsusconfiguration-manager"></a>[WSUS/Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
-- 비즈니스용 Windows 업데이트와 마찬가지로 각 "링" 또는 전체 배포 내에서 특정 KB를 대상으로 지정하는 추가 옵션도 있습니다. 각 업데이트는 지연에만 사용되지 않고 개별적으로 배포 및 테스트할 수 있습니다. 
+- 비즈니스용 Windows 업데이트와 마찬가지로, 각 "링" 또는 전체 배포 내에서 특정 KB를 대상으로 지정하는 추가 옵션도 있습니다. 각 업데이트는 지연에만 사용되지 않고 개별적으로 배포 및 테스트할 수 있습니다. 
 - 기능 업데이트. 아래 추가 참고를 참조하세요.
 
 
@@ -50,4 +50,4 @@ Windows 업데이트는 다음과 같은 몇 가지 방법으로 관리할 수 �
 
 Microsoft Teams 룸 "첫 실행" 접근 방식을 사용하여 Windows 업데이트로 Windows 업데이트를 설치하거나 장치를 자동으로 다시 시작하지 않습니다. 그러나 시스템에서 업데이트를 다운로드하고 다음에 다시 시작하여 설치할 때까지 기다릴 수 있습니다. 누군가가 수동으로 다시 시작하지 않는 한 자동 야간 재부팅 시 설치가 수행됩니다. Windows 업데이트는 대화방에서 투명해야 합니다. WINDOWS 업데이트에 의해 UI가 중단되지 않습니다.
 
-도메인에 가입하도록 선택한 경우 Microsoft Endpoint Configuration Manager 또는 WSUS를 사용하며, 장치가 업데이트를 설치하거나 업무 시간 동안 다시 시작하도록 할 수 있는 정책 또는 작업에 특히 주의하세요. UI를 통해 Windows 업데이트를 사용하거나 경고하는 동안 배포를 다시부팅하는 시스템이 있는 경우 구성을 살펴보는 것이 좋습니다.
+도메인에 가입하도록 선택한 경우 Microsoft Endpoint Configuration Manager 또는 WSUS를 사용하며, 장치가 업데이트를 설치하거나 업무 시간 동안 다시 시작하도록 할 수 있는 정책 또는 작업에 특히 주의하세요. UI를 통해 Windows 업데이트를 사용하거나 경고하는 동안 배포 재부팅에 시스템이 있는 경우 구성을 살펴보는 것이 좋습니다.

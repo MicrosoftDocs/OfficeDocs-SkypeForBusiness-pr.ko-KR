@@ -111,11 +111,11 @@ cmdlet(특히 [Enable-CsUser)을](https://docs.microsoft.com/powershell/module/s
 
    - 비즈니스용 Skype 서버의 사용자 계정을 일시적으로 사용하지 않도록 설정하려면 **Lync Server에** 대해 일시적으로 사용하지 않도록 설정하십시오.
 
-   - 비즈니스용 Skype 서버의 사용자 계정을 사용하도록 설정하려면 **Lync Server에** 대해 다시 사용하도록 설정을 클릭합니다.
+   - 비즈니스용 Skype 서버에 대해 사용자 계정을 사용하도록 설정하려면 **Lync Server에** 대해 다시 사용하도록 설정을 클릭합니다.
 
 ### <a name="use-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Windows Powershell을 사용하여 사용자 계정을 사용하지 않도록 설정하거나 다시 사용하도록 설정
 
-사용자 계정은 **Set-CsUser** cmdlet을 사용하여 일시적으로 사용하지 않도록 설정한 다음 나중에 다시 사용하도록 설정할 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸 또는 비즈니스용 Skype 서버 관리 셸의 원격 세션에서 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
+사용자 계정은 **Set-CsUser** cmdlet을 사용하여 일시적으로 사용하지 않도록 설정한 다음 나중에 다시 사용하도록 설정할 수 있습니다. 비즈니스용 Skype 서버 관리 셸 또는 원격 세션에서 이 cmdlet을 실행할 수 Windows PowerShell. 원격 서버를 사용하여 비즈니스용 Skype Windows PowerShell 연결하는 데 대한 자세한 내용은 [블로그 문서 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"를](https://go.microsoft.com/fwlink/p/?linkId=255876)참조하세요. 이 프로세스는 비즈니스용 Skype 서버에서 동일합니다.
 
 ### <a name="to-disable-a-user-account"></a>사용자 계정을 사용하지 않도록 설정하려면
 
@@ -157,7 +157,7 @@ cmdlet(특히 [Enable-CsUser)을](https://docs.microsoft.com/powershell/module/s
 7. **Lync Server 사용자 편집** 페이지의 **전화 통신** 아래에서 **Enterprise Voice** 를 제외한 아무 옵션이나 클릭합니다.
 
     > [!NOTE]
-    > 사용자가 Lync를 사용하여 오디오 또는 화상 통화를 하지 않도록 제한하려면 전화 통신에서 오디오/비디오 사용 안 **을 클릭합니다.**
+    > 사용자가 Lync를 사용하여 오디오 또는 화상 통화를 하지 않도록 제한하려면 전화 **통신에서** 오디오/비디오 사용 안 **을 클릭합니다.**
 
 8. **커밋** 을 클릭합니다.
 
@@ -168,7 +168,7 @@ cmdlet(특히 [Enable-CsUser)을](https://docs.microsoft.com/powershell/module/s
 다음 절차에 따라 비즈니스용 Skype 서버에서 이전에 추가한 사용자 계정을 제거할 수 있습니다.
 
 > [!NOTE]
-> 사용자를 제거하면 사용자 계정에 대해 구성한 모든 설정이 손실됩니다. 대신 사용자 계정을 일시적으로 사용하지 않도록 설정하려면 이전에 비즈니스용 Skype 서버에 대해 사용하도록 설정된 사용자 계정 사용 안 하도록 설정 또는 다시 활성화를 [참조하세요.](user-accounts.md#Disable)
+> 사용자를 제거하면 사용자 계정에 대해 구성한 모든 설정이 손실됩니다. 사용자 계정을 일시적으로 사용하지 않도록 설정하려면 이전에 비즈니스용 Skype 서버에 대해 사용하도록 설정된 사용자 계정 사용 안 하도록 설정 또는 다시 활성화를 [참조하세요.](user-accounts.md#Disable)
 
 1. CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
 

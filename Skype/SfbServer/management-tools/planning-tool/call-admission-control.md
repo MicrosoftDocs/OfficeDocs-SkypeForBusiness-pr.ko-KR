@@ -1,5 +1,5 @@
 ---
-title: 통화 요금제(계획 도구)
+title: 통화 입장 제어(계획 도구)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -21,7 +21,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834768"
 ---
-# <a name="call-admission-control-planning-tool"></a>통화 요금제(계획 도구)
+# <a name="call-admission-control-planning-tool"></a>통화 입장 제어(계획 도구)
  
 CAC(통화 허용 제어)는 사용 가능한 네트워크 대역폭에 따라 음성 또는 화상 통화와 같은 실시간 통신 세션을 설정하도록 허용할지 여부를 결정합니다.
   

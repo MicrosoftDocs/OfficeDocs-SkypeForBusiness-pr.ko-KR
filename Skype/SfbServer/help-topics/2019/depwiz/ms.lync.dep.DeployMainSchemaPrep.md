@@ -24,7 +24,7 @@ ms.locfileid: "49833778"
 ---
 # <a name="prepare-schema"></a>스키마 준비
  
-Active Directory 도메인 서비스에 대한 Schema를 준비하려면 비즈니스용 Skype 서버 배포 마법사에서 Schema 준비 단계를 실행합니다. **실행** 을 클릭하여 스키마 준비를 시작합니다. Schema 준비 단계에서 배포 마법사를 실행 중인 시스템의 \Program Files\Skype for Business Server 2019\Deployment\Setup 디렉터리에 제공된 Schema 정의 파일을 읽습니다. 이러한 파일은 \Support\Schema 디렉터리의 설치 미디어에서도 제공됩니다. 스키마 준비 단계에서 스키마를 확장하고 프로세스의 상태를 보고합니다. 또한 프로세스가 완료되면 알려 줍니다. 요약 화면에서 프로세스 로그를 볼 수 있습니다. 로그를 검토하여 준비가 완료 및 성공되었는지 확인합니다.
+Active Directory 도메인 서비스에 대한 Schema를 준비하려면 비즈니스용 Skype 서버 배포 마법사에서 Schema 준비 단계를 실행합니다. **실행** 을 클릭하여 스키마 준비를 시작합니다. Schema 준비 단계에서는 배포 마법사를 실행 중인 시스템의 \Program Files\Skype for Business Server 2019\Deployment\Setup 디렉터리에 제공된 Schema 정의 파일을 읽습니다. 이러한 파일은 \Support\Schema 디렉터리의 설치 미디어에서도 제공됩니다. 스키마 준비 단계에서 스키마를 확장하고 프로세스의 상태를 보고합니다. 또한 프로세스가 완료되면 알려 줍니다. 요약 화면에서 프로세스 로그를 볼 수 있습니다. 로그를 검토하여 준비가 완료 및 성공되었는지 확인합니다.
   
 > [!IMPORTANT]
 > 스키마를 확장하려면 Schema Admins 그룹 및 Enterprise Admins 그룹의 구성원으로 도메인에 로그인해야 합니다. 

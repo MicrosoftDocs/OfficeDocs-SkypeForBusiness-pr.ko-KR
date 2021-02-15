@@ -23,7 +23,7 @@ ms.locfileid: "49835278"
  
 **요약:** 비즈니스용 Skype 서버에서 회의 정책을 관리하는 방법에 대해 자세히 알아보습니다.
   
-이 항목에서는 회의 정책을 관리하는 방법에 대해 설명합니다. 회의를 계획 및 배포하는 방법에 대한 자세한 내용은 비즈니스용 [Skype](../../plan-your-deployment/conferencing/conferencing.md) 서버의 회의 계획 및 비즈니스용 Skype 서버에서 회의 배포를 [참조하세요.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+이 항목에서는 회의 정책을 관리하는 방법에 대해 설명합니다. 회의를 계획 및 배포하는 방법에 대한 자세한 내용은 비즈니스용 [Skype](../../plan-your-deployment/conferencing/conferencing.md) 서버에서 회의 계획 및 비즈니스용 Skype 서버에서 회의 배포를 [참조하세요.](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
 회의 정책을 사용하면 모임에 IP 오디오 및 비디오를 포함할 수 있는지 여부부터 참가할 수 있는 최대 사용자 수에 이르기까지 다양한 예정 및 참가 옵션을 정의할 수 있습니다. 회의 정책을 사용하여 모임의 보안, 대역폭 및 법적 측면을 관리할 수 있습니다.
   

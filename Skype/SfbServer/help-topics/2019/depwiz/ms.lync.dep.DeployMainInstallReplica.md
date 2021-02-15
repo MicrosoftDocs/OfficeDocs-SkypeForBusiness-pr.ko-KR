@@ -24,7 +24,7 @@ ms.locfileid: "49833808"
 ---
 # <a name="install-local-configuration-store"></a>로컬 구성 저장소 설치
 
-새 비즈니스용 Skype 서버 역할 서버의 설치를 시작하려면 먼저 로컬 구성 저장소를 호스팅할 SQL Server 로컬 서버를 설치해야 합니다. 로컬 구성 저장소는 비즈니스용 Skype 서버 CMS(중앙 관리 저장소)의 읽기 전용 복제본 역할을 합니다. 컴퓨터의 로컬 관리자로 **로컬 구성 저장소 설치** 단계를 실행 중인 서버에 로그온하고 RTCUniversalServerAdmins 또는 RTCUniversalGlobalReadOnlyGroup 그룹의 구성원 자격을 가져야 합니다. 에지 서버에서 설치를 수행 중인 경우 RTCUniversalServerAdmins 또는 RTCUniversalGlobalReadOnlyGroup 그룹의 구성원일 필요가 없습니다. 토폴로지 작성기 정의 문서는 중앙 관리 저장소가 아닌 내보낼 정의 문서에서 읽어 들이게 됩니다. 토폴로지 작성기 정의 문서를 내보내고 에지 서버에서 사용할 수 있도록 설정하는 경우 토폴로지 내보내기 및 에지 설치를 위해 외부 미디어에 토폴로지 복사 항목을[참조하세요.](https://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx)
+새 비즈니스용 Skype 서버 역할 서버의 설치를 시작하려면 먼저 로컬 구성 저장소를 호스팅할 SQL Server 로컬 서버를 설치해야 합니다. 로컬 구성 저장소는 비즈니스용 Skype 서버 CMS(중앙 관리 저장소)의 읽기 전용 복제본 역할을 합니다. 컴퓨터의 로컬 관리자로 **로컬 구성 저장소 설치** 단계를 실행 중인 서버에 로그온하고 RTCUniversalServerAdmins 또는 RTCUniversalGlobalReadOnlyGroup 그룹의 구성원 자격을 가져야 합니다. 에지 서버에서 설치를 수행 중인 경우 RTCUniversalServerAdmins 또는 RTCUniversalGlobalReadOnlyGroup 그룹의 구성원일 필요가 없습니다. 토폴로지 작성기 정의 문서는 중앙 관리 저장소가 아닌 내보낼 정의 문서에서 읽어 들이게 됩니다. 토폴로지 작성기 정의 문서를 내보내고 에지 서버에서 사용할 수 있도록 설정하기 위해 토폴로지 내보내기 및 에지 설치를 위해 외부 미디어에 토폴로지 복사 항목을[참조하세요.](https://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx)
 
 설치를 시작하려면
 

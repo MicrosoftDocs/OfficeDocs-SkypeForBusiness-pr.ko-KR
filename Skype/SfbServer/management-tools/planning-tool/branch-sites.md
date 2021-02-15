@@ -23,6 +23,6 @@ ms.locfileid: "49835028"
 ---
 # <a name="branch-sites-planning-tool"></a>분기 사이트(계획 도구)
 
-분기 사이트 탄력성에 대한 자세한 내용은 음성 탄력성 Branch-Site [참조하세요.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)
+분기 사이트 탄력성에 대한 자세한 내용은 음성 Branch-Site [계획을 참조하세요.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)
 
 
