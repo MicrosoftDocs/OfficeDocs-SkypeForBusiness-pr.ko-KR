@@ -3,6 +3,77 @@
 
 
 
+## <a name="week-of-february-08-2021"></a>2021년 2월 8일 주
+
+
+| 게시일 |주제 제목 | 변경 |
+|------|------------|--------|
+| 2/8/2021 | [Education Insights에 대한 사용자 액세스 관리](/MicrosoftTeams/education-insights-manage-access) | 추가 |
+| 2/8/2021 | [Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드](/MicrosoftTeams/class-insights) | 수정 |
+| 2/8/2021 | [다른 조직의 사용자와 통화하고 채팅](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 수정 |
+| 2/8/2021 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정 |
+| 2/8/2021 | [SIS(학생 정보 시스템) 데이터와 Education Insights 동기화](/MicrosoftTeams/education-insights-sis-data-sync) | 수정 |
+| 2/8/2021 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정 |
+| 2/8/2021 | [Microsoft Teams에서 태그 관리](/MicrosoftTeams/manage-tags) | 수정 |
+| 2/8/2021 | [Teams 앱 제출 API를 사용하여 사용자 지정 앱 제출 및 승인](/MicrosoftTeams/submit-approve-custom-apps) | 수정 |
+| 2/8/2021 | [Microsoft Teams에서 앱 설정 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 수정 |
+| 2/8/2021 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 수정 |
+| 2/8/2021 | [관리 센터에서 Teams 서식 파일 관리](/MicrosoftTeams/templates-policies) | 수정 |
+| 2/8/2021 | [벨기에의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 수정 |
+| 2/8/2021 | [릴리스 정보](/MicrosoftTeams/rooms/rooms-release-note) | 수정 |
+| 2/8/2021 | [비즈니스용 Skype에서 Microsoft Teams로 업그레이드 계획](/MicrosoftTeams/upgrade-skype-teams) | 수정 |
+| 2/9/2021 | [Microsoft Teams에서 사용자 지정 팀 서식 파일 만들기](/MicrosoftTeams/create-a-team-template) | 수정 |
+| 2/9/2021 | [Microsoft Teams용 전화 및 장치](/MicrosoftTeams/devices/usb-devices) | 수정 |
+| 2/10/2021 | [Microsoft Teams 자동 Attendant 지원 언어](/MicrosoftTeams/create-a-phone-system-auto-attendant-languages) | 추가 |
+| 2/10/2021 | [Microsoft Teams 통화 큐 지원 언어](/MicrosoftTeams/create-a-phone-system-call-queue-languages) | 추가 |
+| 2/10/2021 | [Microsoft Teams에 대한 자동 참석자 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 수정 |
+| 2/10/2021 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정 |
+| 2/10/2021 | [SIS(학생 정보 시스템) 데이터와 Education Insights 동기화](/MicrosoftTeams/education-insights-sis-data-sync) | 수정 |
+| 2/10/2021 | [Microsoft Teams의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 수정 |
+| 2/10/2021 | [Microsoft 365 또는 Office 365를 통해 Microsoft Teams 회의실 배포](/MicrosoftTeams/rooms/with-office-365) | 수정 |
+| 2/10/2021 | [Microsoft Teams 분석 및 보고](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 수정 |
+| 2/10/2021 | [Microsoft Teams 사용자 활동 보고서](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 수정 |
+| 2/10/2021 | [Teams 연락처 센터](/MicrosoftTeams/teams-contact-center) | 수정 |
+| 2/10/2021 | [통화 및 모임에 대한 Teams 정책 기반 기록 & 소개](/MicrosoftTeams/teams-recording-policy) | 수정 |
+| 2/10/2021 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 수정 |
+| 2/10/2021 | [Microsoft Teams의 앱, & 커넥터](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 수정 |
+| 2/10/2021 | [직접 라우팅 SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | 수정 |
+| 2/10/2021 | [Teams용 타사 앱 구매](/MicrosoftTeams/purchase-third-party-apps) | 수정 |
+| 2/10/2021 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | 수정 |
+| 2/10/2021 | [사용자에게 Teams 추가 기능 라이선스 할당](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 수정 |
+| 2/10/2021 | [비즈니스용 Skype와 Microsoft Teams 간의 상호 연동성](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 수정 |
+| 2/10/2021 | [Microsoft Teams 예비 환경 관리](/MicrosoftTeams/teams-exploratory) | 수정 |
+| 2/11/2021 | [보기 전용 모임 환경](/MicrosoftTeams/view-only-meeting-experience) | 추가 |
+| 2/11/2021 | [Microsoft Teams 사용자 활동 보고서](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 수정 |
+| 2/11/2021 | [Microsoft Teams에서 사용자에게 정책 할당](/MicrosoftTeams/assign-policies) | 수정 |
+| 2/11/2021 | [Microsoft Teams에서 사용자 지정 팀 서식 파일 만들기](/MicrosoftTeams/create-a-team-template) | 수정 |
+| 2/11/2021 | [조직의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 수정 |
+| 2/11/2021 | [오스트레일리아의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 수정 |
+| 2/11/2021 | [오스트리아 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria) | 수정 |
+| 2/11/2021 | [벨기에의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 수정 |
+| 2/11/2021 | [캐나다의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 수정 |
+| 2/11/2021 | [덴마크의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark) | 수정 |
+| 2/11/2021 | [프랑스의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 수정 |
+| 2/11/2021 | [독일의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 수정 |
+| 2/11/2021 | [아일랜드의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 수정 |
+| 2/11/2021 | [이탈리아의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | 수정 |
+| 2/11/2021 | [일본 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | 수정 |
+| 2/11/2021 | [포르투갈 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal) | 수정 |
+| 2/11/2021 | [스페인의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 수정 |
+| 2/11/2021 | [스웨덴의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden) | 수정 |
+| 2/11/2021 | [스위스의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 수정 |
+| 2/11/2021 | [네덜란드의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 수정 |
+| 2/11/2021 | [영국의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 수정 |
+| 2/11/2021 | [미국 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 수정 |
+| 2/11/2021 | [Microsoft Teams의 공개 미리 보기](/MicrosoftTeams/public-preview-doc-updates) | 수정 |
+| 2/11/2021 | [비즈니스용 Skype에서 Microsoft Teams로 업그레이드 계획](/MicrosoftTeams/upgrade-skype-teams) | 수정 |
+| 2/12/2021 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 수정 |
+| 2/12/2021 | [보고 레이블 추가 및 업데이트](/MicrosoftTeams/learn-more-about-site-upload) | 수정 |
+| 2/12/2021 | [벨기에의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 수정 |
+| 2/12/2021 | [Microsoft Teams에서 오디오 회의 PIN 다시 설정](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | 수정 |
+| 2/12/2021 | [보기 전용 모임 환경](/MicrosoftTeams/view-only-meeting-experience) | 수정 |
+
+
 ## <a name="week-of-february-01-2021"></a>2021년 2월 1일 주
 
 
@@ -162,7 +233,7 @@
 | 12/22/2020 | [Microsoft Teams 릴리스 정보](/MicrosoftTeams/release-notes/release-notes) | 수정 |
 | 12/22/2020 | [Teams에서 회의실 사용](/MicrosoftTeams/using-breakout-rooms) | 수정 |
 | 12/23/2020 | [환자 앱을 FHIR용 Azure API에 연결](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 수정 |
-| 12/23/2020 | [조직의 목록 앱 관리](/MicrosoftTeams/manage-lists-app) | 수정 |
+| 12/23/2020 | [조직의 Lists 앱 관리](/MicrosoftTeams/manage-lists-app) | 수정 |
 | 12/23/2020 | [온보드 검사 목록 - 클라우드 음성 워크로드 구성 - Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | 수정 |
 | 12/23/2020 | [Teams 앱 제출 API를 사용하여 사용자 지정 앱 제출 및 승인](/MicrosoftTeams/submit-approve-custom-apps) | 수정 |
 | 12/23/2020 | [Microsoft Teams 추가 기능 라이선스](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 수정 |

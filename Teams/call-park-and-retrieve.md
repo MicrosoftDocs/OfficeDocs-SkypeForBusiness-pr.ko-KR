@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 통화 공원을 사용하여 Microsoft Teams에서 통화를 보류하는 방법을 알아보고 검색합니다.
-ms.openlocfilehash: e64d9dafec0f3a4b65abc532ecfa60583fe6da84
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
+ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424596"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50260330"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams에서 공원 호출 및 검색
 
@@ -38,7 +38,7 @@ ms.locfileid: "48424596"
 - 디바이스 배터리가 전원이 부족하기 때문에 사용자가 모바일 디바이스에 통화를 걸 수 있습니다. 그러면 사용자는 Teams 데스크 전화에서 통화를 검색하는 코드를 입력할 수 있습니다.
 - 지원 담당자는 고객 통화를 저장하고 전문가가 전화를 검색하고 고객을 지원하기 위해 Teams 채널에 공지 사항을 전송합니다. 전문가가 Teams 클라이언트에서 코드를 입력하여 호출을 검색합니다.
 
-통화를 정비하고 검색하려면 사용자는 Enterprise Voice 사용자일 수 있으며 호출 공원 정책에 포함되어야 합니다.
+통화를 정비하고 검색하려면 사용자는 Enterprise Voice 사용자로, 호출 공원 정책에 포함되어야 합니다.
 
 > [!NOTE]
 > 통화 공원 및 검색은 [Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md) 전용 배포 모드에서만 사용할 수 있으며 비즈니스용 Skype IP 전화에서는 지원되지 않습니다.

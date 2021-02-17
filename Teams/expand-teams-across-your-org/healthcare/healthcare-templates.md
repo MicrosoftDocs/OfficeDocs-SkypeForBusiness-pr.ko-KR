@@ -22,12 +22,13 @@ appliesto:
 ms.reviewer: ''
 description: Microsoft Graph와 함께 Microsoft Teams 서식 파일을 사용하여 설정, 채널 및 앱의 미리 정의된 서식 파일을 제공하여 빠르고 쉽게 팀을 만들 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c2e10efbff98150b120d1c026d4d810629333f2
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ROBOTS: NOINDEX
+ms.openlocfilehash: e288bc68c8160fb80d4e56a6477437e0a79fea0a
+ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790410"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50260340"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직용 Teams 서식 파일 시작
 
