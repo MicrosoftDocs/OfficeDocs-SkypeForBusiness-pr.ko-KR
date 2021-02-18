@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC를 구성하고 전화 시스템 직접 라우팅에 연결하는 방법을 배워야 합니다.
-ms.openlocfilehash: e20ab921e8f01d8beea15f0b1dd8a50e229f4e91
-ms.sourcegitcommit: 5c33ca450a3215b9bf3c5da8bb3c9ef1a715a1a2
+ms.openlocfilehash: 4240eb4000e813df51b2678ad2e9c37f6bc0c2ac
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50099448"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278708"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>직접 라우팅에 SBC(세션 테두리 컨트롤러) 연결
 
@@ -30,7 +30,7 @@ ms.locfileid: "50099448"
 - **1단계. 휴대폰 시스템과 SBC 연결 및** 연결 유효성 검사(이 문서)
 - 2단계. [직접 라우팅에 대해 사용자 사용](direct-routing-enable-users.md)
 - 3단계. [호출 라우팅 구성](direct-routing-voice-routing.md)
-- 4단계. [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md) 
+- 4단계. [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md)
 
 직접 라우팅을 설정하는 데 필요한 모든 단계에 대한 자세한 내용은 직접 라우팅 [구성을 참조하세요.](direct-routing-configure.md)
 
@@ -86,7 +86,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. SBC 설명서에서 찾을 수 있는 정보를 사용하여 SBC에서 최대 호출 제한을 설정하는 것이 좋습니다. 이 제한은 SBC가 용량 수준에 있는 경우 알림을 트리거합니다.
-  > 2. FQDN의 도메인 부분이 .onmicrosoft.com 제외한 테넌트에 등록된 도메인 중 하나와 일치하는 경우 SBC를 \* 연결할 수 onmicrosoft.com. \*.onmicrosoft.com 도메인 이름은 SBC FQDN 이름에 지원되지 않습니다. 예를 들어 **contoso**.com 및 **contoso**.onmicrosoft.com 도메인 이름이 두 개 있는 경우 SBC 이름에 sbc.contoso.con을 사용할 수 있습니다. sbc.contoso.abc와 같은 이름으로 SBC를 연결하려고 시도하면 도메인이 이 테넌트에서 소유하지 않는 것이기 때문에 시스템에서는 사용자가 사용할 수 없습니다.<br/>
+  > 2. FQDN의 도메인 부분이 .onmicrosoft.com 제외한 테넌트에 등록된 도메인 중 하나와 일치하는 경우 SBC를 \* 연결할 수 onmicrosoft.com. \*.onmicrosoft.com 도메인 이름은 SBC FQDN 이름에 지원되지 않습니다. 예를 들어 **contoso**.com 및 **contoso**.onmicrosoft.com 두 개의 도메인 이름이 있는 경우 SBC 이름에 sbc.contoso.com 수 있습니다. sbc.contoso.abc와 같은 이름으로 SBC를 연결하려고 시도하면 도메인이 이 테넌트에서 소유하지 않는 것이기 때문에 시스템에서는 사용자가 사용할 수 없습니다.<br/>
   > 테넌트에 등록된 도메인 외에도 해당 도메인 및 할당된 E3 또는 E5 라이선스가 있는 사용자가 있는 것이 중요합니다. 그렇지 않은 경우 다음 오류가 표시됩니다.<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd6959522c756f02a983742fbbc136cd2ef3174a
-ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
+ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50037804"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278558"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -77,7 +77,7 @@ Teams 모임 단추가 최신 Outlook iOS 및 Android 앱 빌드에 표시됩니
 
 ## <a name="authentication-requirements"></a>인증 요구 사항
 
-Teams 모임 추가 기능을 사용하려면 사용자가 최신 인증을 통해 Teams에 로그인해야 합니다. 사용자가 이 방법을 사용하여 로그인하지 않는 경우 Teams 클라이언트를 계속 사용할 수는 있지만 Outlook 추가 기능으로 Teams 온라인 모임을 예약할 수는 없습니다. 다음 중 한 가지를 수행하여 이 문제를 해결할 수 있습니다.
+Teams 모임 추가 기능을 사용하려면 사용자가 최신 인증을 통해 Teams에 로그인해야 합니다. 사용자가 이 방법을 사용하여 로그인하지 않는 경우 Teams 클라이언트를 계속 사용할 수 있지만 Outlook 추가 기능을 사용하여 [Teams 온라인](https://www.microsoft.com/microsoft-teams/online-meetings) 모임을 예약할 수 없습니다. 다음 중 한 가지를 수행하여 이 문제를 해결할 수 있습니다.
 
 - 조직에 최신 인증이 구성되지 않은 경우 최신 인증을 구성해야 합니다.
 - 최신 인증이 구성되어 있지만 대화 상자에서 취소한 경우 사용자가 다단계 인증을 사용하여 다시 로그인하도록 지시해야 합니다.

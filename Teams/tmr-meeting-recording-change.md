@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3172250c1bf6fe914c331712db74a83ebe98a6d
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 4a206570ffd000f80f1f0a865af6e46e511a0ac6
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196352"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278668"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
 
@@ -31,11 +31,11 @@ ms.locfileid: "50196352"
 
 |<div style="width:290px">날짜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |이벤트&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|2020년 10월 5일 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Teams 모임 정책을 사용하여 Microsoft Stream(클래식) 대신 비즈니스용 OneDrive 및 SharePoint에 모임 녹음/녹화를 저장할 수 있습니다.|
-|2021년 1월 7일 출시 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|조직의 Teams 모임 정책을 수정하고 명시적으로 Stream으로 설정하여 변경을 지연하지 않는 한 모든 새 Teams 모임 기록은 비즈니스용 OneDrive 및 SharePoint에 **저장됩니다.** 정책 보고를 스트림으로 보는 것만으로는 충분하지 않습니다. 정책 값을 Stream으로 명시적으로 설정해야 **합니다.**|
-|2021년 1월 11일 출시 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC만 해당**<br> GCC 고객은 10월 5일을 시작으로 옵트아웃할 수 있는 반면, 옵트인할 수 없습니다. 이 기능은 옵트아웃하지 않는 한 2021년 1월 11일을 시작하는 모든 GCC 고객에게 롤아웃됩니다.<br>  <br>2021년 1월 11일부터 조직의 Teams 모임 정책을 수정하고 명시적으로 스트림으로 설정하여 이 변경을 지연하지 않는 한 GCC 고객을 위한 모든 새 Teams 모임 녹음/녹화가 비즈니스용 OneDrive 및 SharePoint에 저장됩니다. <br><br>옵트아웃했지만 이 기능을 설정할 준비가 된 경우 Teams 모임 정책을 비즈니스용 **OneDrive로** 명시적으로 설정하여 설정할 수 있습니다. |
-|2021년 3월 1일 출시 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Enterprise & GCC 고객**<br>**Microsoft Stream(클래식)에** 새 모임 녹음/녹화를 저장할 수 없습니다. Teams 모임 정책을 Stream으로 변경한 경우에도 모든 고객은 자동으로 비즈니스용 OneDrive 및 SharePoint에 모임 녹음/녹화를 저장합니다.<br><br> 고객이 릴리스 타이밍을 제어할 수 있도록 이 날짜 전에 이 기능을 롤아웃하는 것이 좋습니다. |
-|2021년 7월 7일 출시 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**교육 고객**<br>**Microsoft Stream(클래식)에** 새 모임 녹음/녹화를 저장할 수 없습니다. Teams 모임 정책을 Stream으로 변경한 경우에도 모든 고객은 자동으로 비즈니스용 OneDrive 및 SharePoint에 모임 녹음/녹화를 저장합니다.<br><br> 고객이 릴리스 타이밍을 제어할 수 있도록 이 날짜 전에 이 기능을 롤아웃하는 것이 좋습니다. 교육 고객에게 진행 중 학기 완료 기능을 제공하기 위해 이 일정을 업데이트했습니다. |
+|2020년 10월 5일<br> <br>*(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Teams 모임 정책을 사용하면 Microsoft Stream(클래식) 대신 비즈니스용 OneDrive 및 SharePoint에 모임 녹음/녹화를 저장할 수 있습니다.|
+|2021년 1월 7일 출시<br> <br>*(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|조직의 Teams 모임 정책을 수정하고 명시적으로 Stream으로 설정하여 변경을 지연하지 않는 한 모든 새 Teams 모임 기록은 비즈니스용 OneDrive 및 SharePoint에 **저장됩니다.** 정책 보고를 스트림으로 보는 것만으로는 충분하지 않습니다. 정책 값을 Stream으로 명시적으로 설정해야 **합니다.**|
+|2021년 1월 11일 출시<br> <br>*(완료)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC만 해당**<br> GCC 고객은 10월 5일을 시작으로 옵트아웃할 수 있는 반면, 옵트인할 수 없습니다. 이 기능은 옵트아웃하지 않는 한 2021년 1월 11일을 시작하는 모든 GCC 고객에게 롤아웃됩니다.<br>  <br>2021년 1월 11일부터 조직의 Teams 모임 정책을 수정하고 명시적으로 스트림으로 설정하여 이 변경을 지연하지 않는 한 GCC 고객을 위한 모든 새 Teams 모임 녹음/녹화가 비즈니스용 OneDrive 및 SharePoint에 저장됩니다. <br><br>옵트아웃했지만 이 기능을 설정할 준비가 된 경우 Teams 모임 정책을 비즈니스용 **OneDrive로** 명시적으로 설정하여 설정할 수 있습니다. |
+|2021년 3월 1일 출시 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High 및 DoD만 해당**<br> 이제 고객은 Microsoft Teams에서 처음으로 클라우드 모임 녹음/녹화를 사용하도록 설정할 수 있습니다. 이러한 녹음/녹화는 기본적으로 OneDrive 및 SharePoint에 저장되고 재생됩니다. |
+|2021년 7월 7일을 시작으로 증분으로 롤아웃 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(엔터프라이즈, 교육 및 GCC)**<br>**Microsoft Stream(클래식)에** 새 모임 녹음/녹화를 저장할 수 없습니다. Teams 모임 정책을 Stream으로 변경한 경우에도 모든 고객은 자동으로 비즈니스용 OneDrive 및 SharePoint에 모임 녹음/녹화를 저장합니다.<br><br> 고객이 릴리스 타이밍을 제어할 수 있도록 이 날짜 전에 이 기능을 롤아웃하는 것이 좋습니다. |
 
 > [!Note]
 > 엔터프라이즈 및 교육 고객이 조직의 변경을 보다 잘 제어하기 위해 변경이 발생하기를 기다리지 않고 변경에 대해 잘 아는 경우 옵트인하는 것이 좋습니다.
@@ -50,7 +50,6 @@ Microsoft Teams에는 모임 녹음/녹화를 저장하는 새로운 방법이 �
 - 명시적 공유만 사용하여 게스트(외부 사용자)와 기록 공유
 - 액세스 흐름 요청
 - 비즈니스용 OneDrive 및 SharePoint 공유 링크 제공
-- 할당량 증가
 - 모임 녹음/녹화를 더 빠르게 사용할 수 있습니다.
 - **로컬 테넌트** 지원으로 이동
 - 다중 지역 지원 – 기록은 해당 사용자에 특정 지역에 저장됩니다.
@@ -76,15 +75,17 @@ Microsoft Teams에는 모임 녹음/녹화를 저장하는 새로운 방법이 �
 > Teams 모임 정책 변경 내용이 전파하는 데 시간이 걸릴 수 있습니다. 설정한 후 몇 시간 후에 다시 확인한 다음, 로그인하고 다시 로그인합니다.
 
 1. 비즈니스용 Skype Online PowerShell을 설치합니다.
-**참고:** 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용하는 경우 비즈니스용 Skype Online Connector를 설치할 필요가 없습니다. [PowerShell을 사용하여 비즈니스용 Skype Online 관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
 
-    a. 비즈니스용 [Skype Online PowerShell을 다운로드합니다.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
+   > [!NOTE]
+   > 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용하는 경우 비즈니스용 Skype Online Connector를 설치할 필요가 없습니다. [PowerShell을 사용하여 비즈니스용 Skype Online 관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
 
-    b. 프롬프트에 따라 설치합니다.
+    1. 비즈니스용 [Skype Online PowerShell을 다운로드합니다.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
 
-    c. 컴퓨터를 다시 시작합니다.
+    1. 프롬프트에 따라 설치합니다.
 
-2. 관리자로 PowerShell 시작
+    1. 컴퓨터를 다시 시작합니다.
+
+2. 관리자로 PowerShell을 실행합니다.
 
 3. SkypeOnline 커넥터를 가져오고 Teams 관리자로 로그인합니다.
 

@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6d4cb45334edb9307663eb1ffcab5e7c1085b149
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 6dd82c786c30fb4f2ac2ae70f2df6810cfe5d6ad
+ms.sourcegitcommit: 75d710e3858f79ef601cd92e435a4a29dae0aba0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923840"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50285622"
 ---
 # <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>Teams Learning 앱에 대한 사용 권한 설치, 관리 및 할당(비공개 미리 보기)
 
@@ -70,7 +70,10 @@ Teams 관리자는 앱 스토어에서 Teams 학습 앱(비공개 미리 보기)
 
 Microsoft 365 관리 센터의 관리자는 Teams 학습 앱(비공개 미리 보기)과 관련된 설정을 관리할 수 있으며 학습 콘텐츠 원본을 구성할 수 있습니다.
 
-관리자는 앱에서 사용할 수 있는 학습 콘텐츠 원본(예: LinkedIn Learning 또는 SharePoint)을 선택합니다. 그런 다음 관리자는 콘텐츠를 검색 및 검색에 사용할 수 있으며 앱을 사용하는 직원이 검색할 수 있도록 해당 원본을 구성합니다.
+관리자는 앱 사용자가 사용할 수 있는 추가 학습 콘텐츠 원본(예: SharePoint 또는 지원되는 타사 콘텐츠 공급자 원본)을 선택할 수 있습니다. 그런 다음 관리자는 콘텐츠를 검색 및 검색에 사용할 수 있으며 앱을 사용하는 직원이 검색할 수 있도록 해당 원본을 구성합니다.
+
+> [!NOTE]
+>  사용자는 브라우저 또는 포함된 뷰어에서 비 Microsoft 및 LinkedIn Learning Pro 학습에 로그인합니다. 구성된 학습은 학습(미리 보기) 약관이 아닌 조직과 타사 간의 별도의 라이선스, 개인 정보 보호 및 서비스 약관을 준수합니다. 학습(미리 보기)에서 이 학습을 선택하기 전에 조직 및 사용자에 대한 협정이 있는지 확인해야 합니다.
 
 ### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>앱에 대한 학습 콘텐츠 원본에 대한 설정 구성
 

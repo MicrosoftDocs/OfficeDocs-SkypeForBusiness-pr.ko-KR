@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 683ba9a20c51a23fa1468c07407a389c23dba507
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: 66754565737929ec9d34125ca421c7e3eed9fe65
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237505"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278548"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>비표준 사용자에 대한 Microsoft Teams 앱 동작
 
@@ -75,4 +75,4 @@ ms.locfileid: "50237505"
 
 익명 사용자는 모임에서 앱을 직접 사용할 수 없습니다. 익명 사용자가 있는 경우 네이티브 사용자는 모임 앱을 계속 사용할 수 있습니다. 앱에서 채팅에서 적응형 카드를 보내는 경우 익명 사용자는 카드와 상호 작용할 수 있습니다.
 
-익명 사용자는 사용자 수준 전역 기본 사용 권한 정책을 상속합니다. 이 컨트롤을 사용하면 사용자 수준 사용 권한 정책이 앱을 사용하도록 설정한 경우 익명 사용자가 Teams 모임에서 앱과 상호 작용할 수 있습니다. 익명 사용자는 모임에서 이미 사용할 수 있으며 이러한 앱을 획득 및/또는 관리할 수 없는 앱과만 상호 작용할 수 있습니다.
+익명 사용자는 사용자 수준 전역 기본 사용 권한 정책을 상속합니다. 이 컨트롤을 사용하면 익명 사용자가 사용자 수준 사용 권한 정책이 앱을 사용하도록 설정한 경우 Teams 모임에서 앱과 상호 작용할 수 있습니다. 익명 사용자는 모임에서 이미 사용할 수 있으며 이러한 앱을 획득 및/또는 관리할 수 없는 앱과만 상호 작용할 수 있습니다.

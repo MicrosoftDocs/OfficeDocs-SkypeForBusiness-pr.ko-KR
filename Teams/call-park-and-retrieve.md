@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 통화 공원을 사용하여 Microsoft Teams에서 통화를 보류하는 방법을 알아보고 검색합니다.
-ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
+ms.openlocfilehash: d49e6a5a9bc25a0c7a3e25d548e2743b7f4584fb
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260330"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278718"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams에서 공원 호출 및 검색
 
@@ -68,9 +68,9 @@ ms.locfileid: "50260330"
 3. 다른 그룹 할당과 비교하여 순위를 선택 합니다.
 4. 정책 **선택에서** 이 그룹을 할당하려는 정책을 선택합니다.
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![공원 정책 이미지](media/call-park-assign-policy-to-group.png)
 
-5. 적용을 **클릭합니다.**
+5. 적용을 **선택합니다.**
 
 ## <a name="related-topics"></a>관련 항목
 
