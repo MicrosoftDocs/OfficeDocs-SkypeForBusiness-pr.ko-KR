@@ -1418,6 +1418,8 @@ items:
             href: office-365-urls-ip-address-ranges.md
           - name: VDI(Virtualized Desktop Infrastructure)용 Teams
             href: teams-for-vdi.md
+          - name: 원격 데스크톱 환경용 Teams(RDP)
+            href: teams-for-rdp.md
           - name: Surface Hub용 Teams 배포
             href: teams-surface-hub.md
           - name: Teams 클라이언트 업데이트
