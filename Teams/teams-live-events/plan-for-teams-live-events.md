@@ -20,12 +20,12 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: af2915d1e86fbfe1c3dc2bd804511a8e7ca6865a
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: ee370cdeee49212d88368a5cacfb8eabbfa46230
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145915"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278688"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -171,6 +171,7 @@ Teams 라이브 이벤트를 구성, 제작 또는 발표하기 위해 할당해
 
 **이들 국가/지역 및 클라우드는 지원 되지 않습니다**
 
+- 브라질
 - 독일
 - 프랑스
 - 노르웨이
