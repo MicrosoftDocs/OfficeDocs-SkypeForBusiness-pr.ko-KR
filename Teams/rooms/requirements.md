@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 회의실을 지원하기 위한 요구 사항에 대해 자세히 배워야 합니다.
+description: 적절한 디바이스, 마이크, 스피커, 카메라 및 디스플레이를 선택하는 것을 포함하여 Microsoft Teams Rooms를 지원하기 위한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 19369ef2a20b3d0ff2c5f209ba43b3407c2656fc
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: 0bc0c1940f0df48c0fbc54454c4820fe1ec968de
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986404"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347819"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -38,7 +38,7 @@ Microsoft Teams 룸은 다양한 인증 오디오 및 비디오 주변기기를 
 > [!NOTE]
 > Microsoft Teams 룸 로그인은 Microsoft Teams, 비즈니스용 Skype 서버 2019, 비즈니스용 Skype 서버 2015 혹은 비즈니스 온라인용 Skype에서 사용되며 다른 서비스에서 호스트하는 모임에 참가할 수 있습니다. 
 >
-> Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams 회의실은 21Vianet에서 운영하는 Microsoft 365 또는 Office 365 또는 GCC-High 또는 DoD 환경에서 지원되지 않습니다.
+> Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams Rooms는 21Vianet에서 운영하는 Microsoft 365 또는 Office 365 또는 GCC-High 또는 DoD 환경에서 지원되지 않습니다.
 >
 > 온프레미스 Exchange 서버를 사용하는 경우 Microsoft Teams 룸에서 Exchange Server 2013 SP1이나 이후 버전을 사용해야 합니다.
 
@@ -60,13 +60,13 @@ Microsoft Teams 룸은 다양한 인증 오디오 및 비디오 주변기기를 
    [Intel NUC를 통해 Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8GB |128GB|
   |[Intel NUC를 통해 Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8GB|128GB|
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8GB |128GB |
-  |[Dell OptiPlex 7080 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | i7의 & i5 |8GB |128GB|
+  |[Logitech TAP을 사용하여 Dell OptiPlex 7080](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | 코어 i5 & i7 |8GB |128GB|
   |[회의실 G2 용 HP Elite Slice](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8GB |128GB |
   |[ Microsoft Teams 룸과 HP Elite Slice G2 오디오 준비](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB |
-  |[Logitech TAP을 사용하여 HP Slice Partner Ready]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8GB|128GB|
+  |[Logitech TAP을 사용하여 HP 슬라이스 파트너 준비]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8GB|128GB|
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8GB |128GB |
-  |[Lenovo ThinkSmart 허브](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8GB |128GB|
-  |[Intel NUC를 사용하여 Logitech 탭](https://www.logitech.com/product/microsoft-rooms)|Core i5|8GB |128GB |
+  |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8GB |128GB|
+  |[Intel NUC를 사용하여 Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8GB |128GB |
   |[Logitech Tap 및 Lenovo ThinkSmart Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8GB |128GB|
   |[Lenovo ThinkSmart Tiny이 있는 Poly G10-T](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8GB | 128GB|
   |[Intel NUC를 통해 Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8GB |128GB |
@@ -92,7 +92,7 @@ Microsoft Teams 룸은 다양한 인증 오디오 및 비디오 주변기기를 
   |Surface Pro </br>(5G) |Core i5 |8 GB 혹은 4 GB |128GB 이상 |
   |Surface Pro 4 |Core i5 |8 GB 혹은 4 GB |128GB 이상 |
 
-- Surface Pro 장치에는 다음 도킹 스테이션 옵션 중 하나가 필요합니다.
+- Surface Pro 디바이스에는 다음 도킹 스테이션 옵션 중 하나가 필요합니다.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -104,7 +104,7 @@ Microsoft Teams 룸은 다양한 인증 오디오 및 비디오 주변기기를 
 
 |Microsoft Teams 룸 주변기기|인증된 펌웨어 버전 | 카메라는 콘텐츠 카메라 사용을 지원 합니다.|
 |:--- |:--- | :--- |
-|[Aver VC520 Pro 카메라 + 스피커폰](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
+|[Aver VC520 Pro Camera + 스피커폰](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VB342+ 카메라 사운드바](https://www.averusa.com/products/conference-camera/vb342plus) | 사운드바: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
@@ -114,7 +114,7 @@ Microsoft Teams 룸은 다양한 인증 오디오 및 비디오 주변기기를 
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ 카메라](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
-|[Jabra Panacast 카메라](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
+|[Jabra Panacast3 카메라](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
@@ -134,27 +134,27 @@ Microsoft Teams 룸은 다양한 인증 오디오 및 비디오 주변기기를 
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |
 |[EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
-|[EPOS 확장 80T + 2 확장 마이크](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |스피커폰 - 4.6.55 <br/> 확장 마이크 - 0.2.314|
+|[EPOS 확장 80T + 2 확장 마이크](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |스피커폰 - 4.6.55 <br/> 확장 마이크 — 0.2.314|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
-|[Yealink UVC40 올인원 비디오 막대](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
+|[Yealink UVC40 올인원 비디오 표시줄](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 표 배열 마이크 ](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shshmxa 910 Intellimix 천장 배열 마이크](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
-|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [MXA 310 테이블 배열 마이크 Shure ](https://www.shure.com/en-US/products/microphones/mxa310) +</br></br> [MXN5W-C Ceiling 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 테이블 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
-|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Intellimix Ceiling Array Mic를 사용하여 MXA 910 Shure MXA 910](https://www.shure.com/en-US/products/microphones/mxa910) +</br></br> [MXN5W-C Ceiling 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 Ceiling Array 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
+|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 테이블 배열 마이크 ](https://www.shure.com/en-US/products/microphones/mxa310) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 테이블 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
+|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/en-US/products/microphones/mxa910) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 천장 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
 |[Biamp Tesira Fore AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 천장 2 마이크](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
-|[Biamp Tesira FORTÉ AVB VT4 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers)| 오디오 FW 버전: 3.15|
+|[Biamp Tesira FORTÉ AVB VT4 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA 천장 마이크](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 천장 탑재 라우드스피커](https://www.biamp.com/products/tesira-speakers)| 오디오 FW 버전: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(테이블 마이크)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |오디오 FW 버전: 3.15|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 증폭기 +</br> Sennheiser TCC2 천장 마이크 + </br> Bose EdgeMax EM180 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
-|[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink Amplifier + Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
-|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier +</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  | 
-|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier+</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |
-|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 Ceiling Microphone]() +</br> [QSC EnergyStar Power Amplifier SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS 시리즈 네트워크 스위치 NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC 열 Surface 탑재 스피커 AD-S402T](https://www.qsc.com/systems/products/loudspeakers/column-surface-mount-loudspeakers/acousticdesigntm-series-column-surface-mount/ad-s402t/) +</br> [QSC PTZ 20x60 카메라](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |Q-sys Designer: 8.4.0.1 </br> <br> TCC2: 1.5.1 Dante 1.2.0 </br>  <br> 해당 없음 </br>  <br>N1100v6.4.2.8 </br> 해당 없음 </br> <br> 6.3.2.2|
-|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 Ceiling Microphone]() +</br> [QSC EnergyStar Power Amplifier SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS 시리즈 네트워크 스위치 NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC 열 Surface 탑재 스피커 AD-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) +</br> [QSC PTZ 20x60 카메라](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |Q-sys Designer: 8.4.0.1 </br> <br> TCC2: 1.5.1 Dante 1.2.0 </br>  <br> 해당 없음 </br>  <br>N1100v6.4.2.8 </br> 해당 없음 </br> <br> 6.3.2.2|
+|[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink 증폭기 + 젠하이저 TCC2 천장 마이크 + </br> Bose DesignMax DM2C-P 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
+|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 증폭기 +</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP 천장 스피커](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  | 
+|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier+</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 천장 스피커](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |
+|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [젠하이저 TCC2 천장 마이크]() +</br> [QSC EnergyStar Power Amplifier SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS 시리즈 네트워크 스위치 NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC 열 Surface 탑재 스피커 AD-S402T](https://www.qsc.com/systems/products/loudspeakers/column-surface-mount-loudspeakers/acousticdesigntm-series-column-surface-mount/ad-s402t/) +</br> [QSC PTZ 20x60 카메라](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |Q-sys Designer: 8.4.0.1 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> 해당 없음 </br>  <br>N1100v6.4.2.8 </br> 해당 없음 </br> <br> 6.3.2.2|
+|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [젠하이저 TCC2 천장 마이크]() +</br> [QSC EnergyStar Power Amplifier SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS 시리즈 네트워크 스위치 NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC 열 Surface 탑재 스피커 AD-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) +</br> [QSC PTZ 20x60 카메라](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |Q-sys Designer: 8.4.0.1 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> 해당 없음 </br>  <br>N1100v6.4.2.8 </br> 해당 없음 </br> <br> 6.3.2.2|
 
 
 &Dagger; 고객은 번들에서 Biamp/Sennheiser에서 권장하는 Dante 인터페이스 혹은 네트워크 스위치를 선택할 수 있습니다.
