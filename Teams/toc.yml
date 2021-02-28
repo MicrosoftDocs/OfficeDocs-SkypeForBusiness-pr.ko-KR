@@ -1481,6 +1481,10 @@ items:
             href: devices/phones-for-teams.md
           - name: Teams 디스플레이
             href: devices/teams-displays.md
+          - name: Teams 패널
+            href: devices/teams-panels.md
+          - name: Teams 패널 사용
+            href: devices/use-teams-panels.md
           - name: Teams 디스플레이에 Teams 휴대폰 업그레이드
             href: devices/upgrade-phones-to-displays.md
           - name: Intune을 사용하여 Teams 휴대폰 및 Teams 디스플레이 배포
