@@ -1,36 +1,254 @@
 items:
   - name: Teams에 오신 것을 환영합니다
     href: teams-overview.md
-  - name: 아키텍처 및 전화 통신 솔루션 포스터
-    href: teams-architecture-solutions-posters.md
-  - name: 원격 작업자(WFH) 지원
-    href: support-remote-work-with-teams.md
-  - name: 교육
+  - name: 시작하기
     items:
-      - name: 개요
-        href: training-microsoft-teams-landing-page.md
-      - name: Teams에 대한 관리자 교육
-        href: itadmin-readiness.md
-      - name: Ignite 2020의 Teams 세션
-        href: ignite-2020-landing-page.md
-      - name: Teams 라이브 교육
-        href: instructor-led-training-teams-landing-page.yml
-      - name: Teams 온라인 교육
-        href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
-  - name: Teams를 배포하는 방법
-    href: How-to-roll-out-teams.md
-  - name: 시작
+      - name: 배포 개요
+        href: deploy-overview.md
+      - name: 빠른 시작
+        items:
+          - name: 빠른 시작 개요
+            href: get-started-with-teams-quick-start.md
+          - name: '1단계: 첫 번째 팀과 채널 만들기'
+            href: get-started-with-teams-create-your-first-teams-and-channels.md
+          - name: '2단계: 얼리어답터 온보딩'
+            href: get-started-with-teams-onboard-early-adopters.md
+          - name: '3단계: 사용 현황 및 피드백 모니터링'
+            href: get-started-with-teams-monitor-usage-and-feedback.md
+          - name: '4단계: 조직 전체 출시 계획'
+            href: get-started-with-teams-resources-for-org-wide-rollout.md
+          - name: 원격 작업자(WFH) 지원
+            href: support-remote-work-with-teams.md
+      - name: 소규모 기업 설정
+        href: deploy-small-business.md
+      - name: 엔터프라이즈 설정
+        items:
+          - name: 엔터프라이즈 설정 개요
+            href: deploy-enterprise-overview.md
+          - name: 아키텍처 및 전화 통신 솔루션 포스터
+            href: teams-architecture-solutions-posters.md
+          - name: 조직에서 사용할 수 있도록 준비
+            items:
+              - name: Teams에 대한 조직의 네트워크 준비
+                href: prepare-network.md
+              - name: Teams용 관리자를 사용하여 Teams 배포
+                href: use-advisor-teams-roll-out.md
+              - name: Teams에 Network Planner 사용
+                href: network-planner.md
+              - name: Network Planner 연습
+                href: tutorial-network-planner-example.yml
+              - name: Teams 또는 비즈니스용 Skype Online용 프록시 서버
+                href: proxy-servers-for-skype-for-business-online.md
+              - name: Teams에서 팀을 만들 때 Microsoft 365 그룹에 대한 계획
+                href: plan-office-365-groups.md
+              - name: Teams에서 수명 주기 관리 계획
+                href: plan-teams-lifecycle.md
+              - name: Teams에서 거버넌스 계획
+                href: plan-teams-governance.md
+          - name: 조직에서 Teams 설정
+            href: deploy-enterprise-setup.md
+          - name: 도입
+            items:
+              - name: 개요
+                href: adopt-microsoft-teams-landing-page.md
+              - name: 시작
+                href: teams-adoption-get-started.md
+              - name: 1단계 - 시작
+                items:
+                  - name: 시작
+                    href: teams-adoption-phase1.md
+                  - name: 팀과 채널 이해
+                    href: teams-adoption-understand-teams-and-channels.md
+                  - name: 첫 번째 팀 만들기
+                    href: teams-adoption-your-first-teams.md
+                  - name: 조직에서 Teams를 사용하기 위한 준비가 어느 정도인가요?
+                    href: teams-adoption-assess-readiness.md
+              - name: 2단계 - 실험
+                items:
+                  - name: 실험
+                    href: teams-adoption-phase2-experiment.md
+                  - name: 챔피언 프로그램 만들기
+                    href: teams-adoption-create-champions-program.md
+                  - name: 거버넌스 빠른 시작
+                    href: teams-adoption-governance-quick-start.md
+                  - name: 사용 시나리오 정의
+                    href: teams-adoption-define-usage-scenarios.md
+                  - name: 얼리어답터 온보딩 및 피드백 수집
+                    href: teams-adoption-onboard-early-adopters.md
+                  - name: 온보딩 지원
+                    href: teams-adoption-onboard-support.md
+              - name: 3단계 - 배율
+                items:
+                  - name: 확장
+                    href: teams-adoption-phase3-enable.md
+                  - name: 결과 및 성공 정의
+                    href: teams-adoption-define-outcomes.md
+                  - name: 피드백 및 보고 최적화
+                    href: teams-adoption-optimize-feedback-and-reporting.md
+                  - name: 인식 주도 및 교육 구현
+                    href: teams-adoption-drive-awareness.md
+                  - name: 서비스 상태 검토 예약
+                    href: teams-adoption-schedule-service-health-reviews.md
+          - name: Teams 클라이언트 배포
+            items:
+              - name: Teams용 클라이언트 가져오기
+                href: get-clients.md
+              - name: 중국 Android용 Teams 가져오기
+                href: get-teams-android-in-china.md
+              - name: Teams 앱의 하드웨어 요구 사항
+                href: hardware-requirements-for-the-teams-app.md
+              - name: 하드웨어 디코더와 인코더 드라이버 권장 사항
+                href: hardware-decoders-and-encoders.md
+              - name: MSI를 사용하여 Teams 설치
+                href: msi-deployment.md
+              - name: 조직에서 Teams 설정
+                href: Office-365-set-up.md
+              - name: Microsoft Teams에서 메모리를 사용하는 방법
+                href: teams-memory-usage-perf.md
+              - name: Microsoft 365 및 Office 365 URL과 IP 주소 범위
+                href: office-365-urls-ip-address-ranges.md
+              - name: VDI(Virtualized Desktop Infrastructure)용 Teams
+                href: teams-for-vdi.md
+              - name: 원격 데스크톱 환경용 Teams(RDP)
+                href: teams-on-rdp.md
+              - name: Surface Hub용 Teams 배포
+                href: teams-surface-hub.md
+              - name: Teams 클라이언트 업데이트
+                href: teams-client-update.md
+              - name: 설치 및 업데이트 문제 해결
+                href: troubleshoot-installation.md
+          - name: Teams 교육
+            items:
+              - name: 개요
+                href: training-microsoft-teams-landing-page.md
+              - name: Teams에 대한 관리자 교육
+                href: itadmin-readiness.md
+              - name: Ignite 2020의 Teams 세션
+                href: ignite-2020-landing-page.md
+              - name: Teams 라이브 교육
+                href: instructor-led-training-teams-landing-page.yml
+              - name: Teams 온라인 교육
+                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+  - name: 비즈니스용 Skype에서 업그레이드
     items:
-      - name: 개요
-        href: get-started-with-teams-quick-start.md
-      - name: '1단계: 첫 번째 팀과 채널 만들기'
-        href: get-started-with-teams-create-your-first-teams-and-channels.md
-      - name: '2단계: 얼리어답터 온보딩'
-        href: get-started-with-teams-onboard-early-adopters.md
-      - name: '3단계: 사용 현황 및 피드백 모니터링'
-        href: get-started-with-teams-monitor-usage-and-feedback.md
-      - name: '4단계: 조직 전체 출시 계획'
-        href: get-started-with-teams-resources-for-org-wide-rollout.md
+      - name: 시작
+        href: upgrade-start-here.md
+      - name: 업그레이드 프레임워크 정보
+        href: upgrade-framework.md
+      - name: 업그레이드 여정 계획
+        items:
+          - name: 프로젝트 및 요구 사항 계획
+            items:
+              - name: 개요
+                href: upgrade-plan-journey.md
+              - name: 프로젝트 관련자 참여
+                href: upgrade-enlist-stakeholders.md
+              - name: 프로젝트 범위 정의
+                href: upgrade-define-project-scope.md
+              - name: 공존 및 상호 운용성 이해
+                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
+              - name: PSTN 고려 사항
+                href: upgrade-to-teams-on-prem-pstn-considerations.md
+              - name: 업그레이드 여정 선택
+                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
+              - name: 사용자 파일럿 계획
+                href: pilot-essentials.md
+          - name: Teams용 환경 준비
+            items:
+              - name: 기술 준비 개요
+                href: upgrade-prepare-environment.md
+              - name: Teams를 사용하도록 IT 직원 준비
+                href: upgrade-prepare-IT-pros.md
+              - name: 필수 구성 요소
+                href: upgrade-plan-journey-prerequisites.md
+              - name: 환경 평가
+                href: upgrade-plan-journey-evaluate-environment.md
+              - name: 서비스 준비
+                href: upgrade-prepare-environment-prepare-service.md
+          - name: Teams를 사용하도록 조직 준비
+            items:
+              - name: 조직 준비 개요
+                href: upgrade-prepare-organization.md
+              - name: 조직의 변경 준비 상태 평가
+                href: upgrade-org-change-readiness.md
+              - name: 사용자 준비 계획 준비
+                href: upgrade-user-readiness.md
+      - name: 업그레이드 수행
+        items:
+          - name: 개요
+            href: upgrade-to-Teams.md
+          - name: 비즈니스용 Skype Online을 Teams로 업그레이드
+            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
+          - name: 비즈니스용 Skype 온-프레미스를 Teams로 업그레이드
+            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+      - name: '운영, 채택 및 최적화'
+        href: continue-journey.md
+      - name: 비즈니스용 Skype Online 단종
+        href: skype-for-business-online-retirement.md
+      - name: FAQ
+        href: FAQ-journey.yml
+      - name: 기술 라이브러리
+        items:
+          - name: IT 관리자를 위한 지침 업그레이드
+            items:
+              - name: 개요
+                href: upgrade-to-teams-on-prem-overview.md
+              - name: 업그레이드 방법
+                href: upgrade-to-teams-on-prem-upgrade-methods.md
+              - name: 업그레이드 관리 도구
+                href: upgrade-to-teams-on-prem-tools.md
+              - name: 온-프레미스 비즈니스용 Skype를 사용하는 조직에 대한 고려 사항
+                href: upgrade-to-teams-on-prem-considerations.md
+              - name: 업그레이드 수행
+                href: upgrade-to-teams-on-prem-implement.md
+              - name: Teams와 비즈니스용 Skype의 공존
+                href: upgrade-to-teams-on-prem-coexistence.md
+              - name: 공존 모드-참조
+                href: migration-interop-guidance-for-teams-with-skype.md
+              - name: Teams 클라이언트 환경 및 공존 모드 준수
+                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: 공존 및 업그레이드 설정 지정
+            href: setting-your-coexistence-and-upgrade-settings.md
+          - name: 무엇보다도 모임을 우선으로
+            href: meetings-first.md
+  - name: 하이브리드 연결
+    items:
+      - name: 하이브리드 연결 계획
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+      - name: 하이브리드 연결 구성
+        items:
+          - name: 개요
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+          - name: 하이브리드 환경에 맞게 Azure AD Connect 구성하기
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+          - name: 비즈니스용 Skype 하이브리드 구성하기
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+      - name: 온-프레미스와 클라우드 간에 사용자 이동
+        items:
+          - name: 개요
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+          - name: 사용자를 온-프레미스에서 Teams로 이동
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+          - name: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+          - name: 사용자를 클라우드에서 온-프레미스로 이동
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+          - name: 모임 마이그레이션 관리
+            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+      - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+      - name: 리소스 포리스트 토폴로지 배포
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+      - name: Teams 및 비즈니스용 Skype Online을 위한 클라우드 통합
+        items:
+          - name: 개요
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+          - name: 에지 인증서 업데이트
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+          - name: 여러 포리스트를 포함하도록 AAD Connect를 업데이트
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+      - name: Exchange 및 Sharepoint와의 통합
+        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: '보안, 개인 정보 보호, 규정 준수'
     items:
       - name: 개요
@@ -1079,168 +1297,6 @@ items:
             href: Office-365-custom-connectors.md
           - name: 비표준 사용자에 대한 Teams 앱 동작
             href: non-standard-users.md
-  - name: 도입
-    items:
-      - name: 개요
-        href: adopt-microsoft-teams-landing-page.md
-      - name: 시작
-        href: teams-adoption-get-started.md
-      - name: 1단계 - 시작
-        items:
-          - name: 시작
-            href: teams-adoption-phase1.md
-          - name: 팀과 채널 이해
-            href: teams-adoption-understand-teams-and-channels.md
-          - name: 첫 번째 팀 만들기
-            href: teams-adoption-your-first-teams.md
-          - name: 조직에서 Teams를 사용하기 위한 준비가 어느 정도인가요?
-            href: teams-adoption-assess-readiness.md
-      - name: 2단계 - 실험
-        items:
-          - name: 실험
-            href: teams-adoption-phase2-experiment.md
-          - name: 챔피언 프로그램 만들기
-            href: teams-adoption-create-champions-program.md
-          - name: 거버넌스 빠른 시작
-            href: teams-adoption-governance-quick-start.md
-          - name: 사용 시나리오 정의
-            href: teams-adoption-define-usage-scenarios.md
-          - name: 얼리어답터 온보딩 및 피드백 수집
-            href: teams-adoption-onboard-early-adopters.md
-          - name: 온보딩 지원
-            href: teams-adoption-onboard-support.md
-      - name: 3단계 - 배율
-        items:
-          - name: 확장
-            href: teams-adoption-phase3-enable.md
-          - name: 결과 및 성공 정의
-            href: teams-adoption-define-outcomes.md
-          - name: 피드백 및 보고 최적화
-            href: teams-adoption-optimize-feedback-and-reporting.md
-          - name: 인식 주도 및 교육 구현
-            href: teams-adoption-drive-awareness.md
-          - name: 서비스 상태 검토 예약
-            href: teams-adoption-schedule-service-health-reviews.md
-  - name: Teams로 업그레이드
-    items:
-      - name: 시작
-        href: upgrade-start-here.md
-      - name: 업그레이드 프레임워크 정보
-        href: upgrade-framework.md
-      - name: 업그레이드 여정 계획
-        items:
-          - name: 프로젝트 및 요구 사항 계획
-            items:
-              - name: 개요
-                href: upgrade-plan-journey.md
-              - name: 프로젝트 관련자 참여
-                href: upgrade-enlist-stakeholders.md
-              - name: 프로젝트 범위 정의
-                href: upgrade-define-project-scope.md
-              - name: 공존 및 상호 운용성 이해
-                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-              - name: PSTN 고려 사항
-                href: upgrade-to-teams-on-prem-pstn-considerations.md
-              - name: 업그레이드 여정 선택
-                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-              - name: 사용자 파일럿 계획
-                href: pilot-essentials.md
-          - name: Teams용 환경 준비
-            items:
-              - name: 기술 준비 개요
-                href: upgrade-prepare-environment.md
-              - name: Teams를 사용하도록 IT 직원 준비
-                href: upgrade-prepare-IT-pros.md
-              - name: 필수 구성 요소
-                href: upgrade-plan-journey-prerequisites.md
-              - name: 환경 평가
-                href: upgrade-plan-journey-evaluate-environment.md
-              - name: 서비스 준비
-                href: upgrade-prepare-environment-prepare-service.md
-          - name: Teams를 사용하도록 조직 준비
-            items:
-              - name: 조직 준비 개요
-                href: upgrade-prepare-organization.md
-              - name: 조직의 변경 준비 상태 평가
-                href: upgrade-org-change-readiness.md
-              - name: 사용자 준비 계획 준비
-                href: upgrade-user-readiness.md
-      - name: 업그레이드 수행
-        items:
-          - name: 개요
-            href: upgrade-to-Teams.md
-          - name: 비즈니스용 Skype Online을 Teams로 업그레이드
-            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
-          - name: 비즈니스용 Skype 온-프레미스를 Teams로 업그레이드
-            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
-      - name: '운영, 채택 및 최적화'
-        href: continue-journey.md
-      - name: 비즈니스용 Skype Online 단종
-        href: skype-for-business-online-retirement.md
-      - name: FAQ
-        href: FAQ-journey.yml
-      - name: 기술 라이브러리
-        items:
-          - name: IT 관리자를 위한 지침 업그레이드
-            items:
-              - name: 개요
-                href: upgrade-to-teams-on-prem-overview.md
-              - name: 업그레이드 방법
-                href: upgrade-to-teams-on-prem-upgrade-methods.md
-              - name: 업그레이드 관리 도구
-                href: upgrade-to-teams-on-prem-tools.md
-              - name: 온-프레미스 비즈니스용 Skype를 사용하는 조직에 대한 고려 사항
-                href: upgrade-to-teams-on-prem-considerations.md
-              - name: 업그레이드 수행
-                href: upgrade-to-teams-on-prem-implement.md
-              - name: Teams와 비즈니스용 Skype의 공존
-                href: upgrade-to-teams-on-prem-coexistence.md
-              - name: 공존 모드-참조
-                href: migration-interop-guidance-for-teams-with-skype.md
-              - name: Teams 클라이언트 환경 및 공존 모드 준수
-                href: teams-client-experience-and-conformance-to-coexistence-modes.md
-          - name: 공존 및 업그레이드 설정 지정
-            href: setting-your-coexistence-and-upgrade-settings.md
-          - name: 무엇보다도 모임을 우선으로
-            href: meetings-first.md
-  - name: 하이브리드 연결
-    items:
-      - name: 하이브리드 연결 계획
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-      - name: 하이브리드 연결 구성
-        items:
-          - name: 개요
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-          - name: 하이브리드 환경에 맞게 Azure AD Connect 구성하기
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-          - name: 비즈니스용 Skype 하이브리드 구성하기
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-      - name: 온-프레미스와 클라우드 간에 사용자 이동
-        items:
-          - name: 개요
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-          - name: 사용자를 온-프레미스에서 Teams로 이동
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-          - name: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-          - name: 사용자를 클라우드에서 온-프레미스로 이동
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-          - name: 모임 마이그레이션 관리
-            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-      - name: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-      - name: 리소스 포리스트 토폴로지 배포
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-      - name: Teams 및 비즈니스용 Skype Online을 위한 클라우드 통합
-        items:
-          - name: 개요
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-          - name: 에지 인증서 업데이트
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-          - name: 여러 포리스트를 포함하도록 AAD Connect를 업데이트
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-      - name: Exchange 및 Sharepoint와의 통합
-        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: 산업 및 정부 지침
     items:
       - name: 개요
@@ -1380,52 +1436,6 @@ items:
     items:
       - name: Teams의 제한과 사양
         href: limits-specifications-teams.md
-      - name: Teams 배포 준비
-        items:
-          - name: Teams에 대한 조직의 네트워크 준비
-            href: prepare-network.md
-          - name: Teams용 관리자를 사용하여 Teams 배포
-            href: use-advisor-teams-roll-out.md
-          - name: Teams에 Network Planner 사용
-            href: network-planner.md
-          - name: Network Planner 연습
-            href: tutorial-network-planner-example.yml
-          - name: Teams 또는 비즈니스용 Skype Online용 프록시 서버
-            href: proxy-servers-for-skype-for-business-online.md
-          - name: Teams에서 팀을 만들 때 Microsoft 365 그룹에 대한 계획
-            href: plan-office-365-groups.md
-          - name: Teams에서 수명 주기 관리 계획
-            href: plan-teams-lifecycle.md
-          - name: Teams에서 거버넌스 계획
-            href: plan-teams-governance.md
-      - name: Teams 설치
-        items:
-          - name: Teams용 클라이언트 가져오기
-            href: get-clients.md
-          - name: 중국 Android용 Teams 가져오기
-            href: get-teams-android-in-china.md
-          - name: Teams 앱의 하드웨어 요구 사항
-            href: hardware-requirements-for-the-teams-app.md
-          - name: 하드웨어 디코더와 인코더 드라이버 권장 사항
-            href: hardware-decoders-and-encoders.md
-          - name: MSI를 사용하여 Teams 설치
-            href: msi-deployment.md
-          - name: 조직에서 Teams 설정
-            href: Office-365-set-up.md
-          - name: Microsoft Teams에서 메모리를 사용하는 방법
-            href: teams-memory-usage-perf.md
-          - name: Microsoft 365 및 Office 365 URL과 IP 주소 범위
-            href: office-365-urls-ip-address-ranges.md
-          - name: VDI(Virtualized Desktop Infrastructure)용 Teams
-            href: teams-for-vdi.md
-          - name: 원격 데스크톱 환경용 Teams(RDP)
-            href: teams-on-rdp.md
-          - name: Surface Hub용 Teams 배포
-            href: teams-surface-hub.md
-          - name: Teams 클라이언트 업데이트
-            href: teams-client-update.md
-          - name: 설치 및 업데이트 문제 해결
-            href: troubleshoot-installation.md
       - name: 라이선싱
         items:
           - name: Teams에 대한 사용자 액세스 관리

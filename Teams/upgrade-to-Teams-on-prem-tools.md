@@ -17,30 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dc34d56ebb10dc7319d855bbd0d98184f1e54a
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: afe6b57b5b2b430c056d49b29a752e55bd4a0afe
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347849"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397543"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>IT 관리자를 위한 &mdash; Teams로 업그레이드하기 위한 도구
 
-이 문서에서는 Teams로 업그레이드하기 위한 도구를 설명합니다. 이 문서는 IT 관리자에 대한 업그레이드 개념 및 구현을 설명하는 세 번째 문서입니다.  
+이 문서에서는 비즈니스용 Skype에서 Teams로 업그레이드하는 도구를 설명합니다. 
 
-- [개요](upgrade-to-teams-on-prem-overview.md)
-- [업그레이드 방법](upgrade-to-teams-on-prem-upgrade-methods.md)
-- **업그레이드를 관리하는 도구(이**   문서)
-- [비즈니스용 Skype가 있는 조직에 대한 추가 고려 사항](upgrade-to-teams-on-prem-considerations.md)
-- [업그레이드 수행](upgrade-to-teams-on-prem-implement.md)
-- [PSTN(공용 전환 전화 네트워크) 고려 사항](upgrade-to-teams-on-prem-pstn-considerations.md)
-
-또한 다음 문서에서는 중요한 업그레이드 개념 및 공존 동작을 설명합니다.
+업그레이드를 시작하기 전에 Microsoft는 중요한 업그레이드 개념 및 공존 동작을 설명하는 다음 문서를 권장합니다.
 
 - [Teams 및 비즈니스용 Skype의 공존](upgrade-to-teams-on-prem-coexistence.md)
 - [공존 모드 - 참조](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams 클라이언트 환경 및 공존 모드 준수](teams-client-experience-and-conformance-to-coexistence-modes.md)
-
 
 ## <a name="tools-for-managing-the-upgrade"></a>업그레이드를 관리하는 도구
 
@@ -120,7 +112,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 ## <a name="related-links"></a>관련 링크
 
-[비즈니스용 Skype와 함께 Teams를 사용하는 조직에 대한 마이그레이션 및 상호 연동성 지침](migration-interop-guidance-for-teams-with-skype.md) 
+[공존 모드 - 참조](migration-interop-guidance-for-teams-with-skype.md) 
 
 [비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365 간에 하이브리드 연결 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 

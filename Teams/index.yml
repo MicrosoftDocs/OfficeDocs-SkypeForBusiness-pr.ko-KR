@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Teams 관리 문서
-summary: Teams를 배포하고 관리하는 방법과 사용자가 Teams를 사용할 수 있도록 준비시키는 방법에 대해 알아봅니다.
+summary: Microsoft Teams 관리자 및 IT 전문가들을 위한 설명서를 찾고 Teams를 배포하고 관리하는 방법, 그리고 사용자를 Teams에 맞게 준비하는 방법에 대해 알아봅니다.
 brand: teams
 metadata:
-  title: Microsoft Teams 관리 문서
-  description: Teams를 배포하고 관리하는 방법과 사용자가 Teams를 사용할 수 있도록 준비시키는 방법을 비롯하여 Microsoft Teams 관리 문서에 대해 알아봅니다.
+  title: Microsoft Teams 관리자 설명서
+  description: Microsoft Teams 관리자 및 IT 전문가들을 위한 설명서를 찾고 Teams를 배포하고 관리하는 방법, 그리고 사용자를 Teams에 맞게 준비하는 방법에 대해 알아봅니다.
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -13,82 +13,140 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 0be9febe11179da1ffa5b2bd696704e7763da272
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 4063aca5206303a43f66dbf8c8b002cd8ae53d59
+  ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110301"
+  ms.lasthandoff: 03/01/2021
+  ms.locfileid: "50395390"
 highlightedContent:
   items:
-  - title: COVID-19 대응 - Teams를 사용하여 원격 작업자 지원
+  - title: Teams를 사용하여 원격 작업자 지원
     itemType: overview
-    url: /MicrosoftTeams/support-remote-work-with-teams
-  - title: Teams를 배포하는 방법
-    itemType: deploy
-    url: /MicrosoftTeams/how-to-roll-out-teams
-  - title: Teams의 보안 및 규정 준수
-    itemType: overview
-    url: /MicrosoftTeams/security-compliance-overview
-  - title: 관리자 및 사용자를 위한 교육 찾기
-    itemType: learn
-    url: /MicrosoftTeams/training-microsoft-teams-landing-page
+    url: https://docs.microsoft.com/en-us/microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
   - title: 비즈니스용 Skype에서 Teams로 업그레이드
     itemType: how-to-guide
     url: /MicrosoftTeams/upgrade-skype-teams
-  - title: 채택 허브
+  - title: Teams용 어드바이저를 사용하여 Teams 배포
     itemType: get-started
-    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    url: /MicrosoftTeams/use-advisor-teams-roll-out
 productDirectory:
+  title: IT 전문가 – Microsoft Teams로 시작하세요
   items:
-  - title: Microsoft Power Platform과 통합
-    imageSrc: ./media/blocks-teams.svg
-    summary: Microsoft Power Platform으로 비즈니스 프로세스 및 드라이브 가치 구현
-    url: teams-power-platfom-integration.md
-  - title: 'Contoso 사례 연구 - Teams 음성 마이그레이션 '
-    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-teams.svg
-    summary: 가상의 다국적 기업이 조직에 대해 구현한 Teams 음성 솔루션 방법을 확인해보세요.
-    url: voice-case-study-overview.md
-  - title: Microsoft 365의 공동 작업 관리
-    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
-    summary: 조직의 요구 사항을 충족하는 Microsoft 365 공동 작업 서비스에 대 한 관리 전략을 개발합니다.
-    url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+  - title: 파일럿
+    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
+    summary: 원활한 환경이 제공될 수 있도록 배포를 계획하고 솔루션을 파일럿합니다.
+    url: /MicrosoftTeams/get-started-with-teams-quick-start
+  - title: 최종 사용자 채택 준비 
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    summary: 사용자를 보드에 추가하고 성공을 위한 시나리오를 공유합니다.
+    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+  - title: 엔터프라이즈 배포 계획
+    imageSrc: https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
+    summary: 배포할 환경과 인프라를 준비하세요.
+    url: /MicrosoftTeams/deploy-enterprise-overview
+  - title: 배포
+    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
+    summary: 조직 전체에 Microsoft Teams를 배포합니다.
+    url: /MicrosoftTeams/deploy-overview
+  - title: 보안
+    imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
+    summary: 다음 모범 사례에 따라 Microsoft Teams에서 데이터, 파일 및 ID를 보호합니다.
+    url: /MicrosoftTeams/security-compliance-overview
+  - title: 관리
+    imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
+    summary: Microsoft Teams에 대한 일 단위 관리 작업을 수행합니다.
+    url: /MicrosoftTeams/manage-teams-overview
+tools:
+  title: 모든 대상 그룹에 대한 리소스
+  items:
+  - title: IT 전문가 및 관리자을 위한 정보
+    imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
+    url: https://docs.microsoft.com/learn/teams/
+  - title: Microsoft Teams 및 Microsoft 365 개발자 플랫폼
+    imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
+    url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+  - title: 최종 사용자 도움말 및 학습
+    imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
+    url: https://support.office.com/Teams
+  - title: Teams 블로그 및 기술 커뮤니티
+    imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+    url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+  - title: Teams UserVoice(사용자 피드백 포럼)
+    imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
+    url: https://microsoftteams.uservoice.com/
+  - title: Microsoft Teams 다운로드
+    imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
+    url: https://products.office.com/microsoft-teams/group-chat-software
 additionalContent:
   sections:
-  - items:
-    - title: 상위 문서
+  - title: 주요 솔루션
+    items:
+    - title: 채팅, 팀 및 채널
       links:
-      - text: Teams에 맞게 네트워크 준비
-        url: /MicrosoftTeams/prepare-network
-      - text: 원격 학습을 위해 Teams를 사용하는 동안 학생을 안전하게 보호
-        url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
-      - text: Teams용 어드바이저를 사용하여 Teams 배포
-        url: /MicrosoftTeams/use-advisor-teams-roll-out
-      - text: Teams에서 메모리를 사용하는 방법
-        url: /MicrosoftTeams/teams-memory-usage-perf
-      - text: 다른 조직의 사용자와 의사 소통(게스트/외부 액세스)
+      - text: 채팅, 팀, 채널 및 앱
+        url: /Microsoftteams/deploy-chat-teams-channels-microsoft-teams-landing-page
+      - text: 팀 및 채널 개요
+        url: /Microsoftteams/teams-channels-overview
+      - text: 다른 조직의 사용자와 통화 및 채팅(게스트/외부 액세스)
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-      - text: IT 아키텍처 포스터 및 해결 방법
-        url: /MicrosoftTeams/teams-architecture-solutions-posters
-    - title: Teams를 사용한 음성 통화
+      - text: 공동 작업 거버넌스란 무엇인가요?
+        url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+      - text: 세 가지 파일 공유 보안 계층으로 Teams 구성
+        url: https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
+    - title: 모임 및 회의
       links:
-      - text: Microsoft Teams의 클라우드 음성
+      - text: 모임 및 회의 개요
+        url: /Microsoftteams/deploy-meetings-microsoft-teams-landing-page
+      - text: Microsoft Teams 라이브 이벤트란 무엇인가요?
+        url: /Microsoftteams/teams-live-events/what-are-teams-live-events
+      - text: 오디오 회의 배포
+        url: /Microsoftteams/deploy-audio-conferencing-teams-landing-page
+      - text: Microsoft Teams 룸
+        url: /MicrosoftTeams/rooms/
+    - title: 음성 통화
+      links:
+      - text: Teams 음성 솔루션 계획
         url: /MicrosoftTeams/cloud-voice-landing-page
-      - text: Microsoft 365 Business Voice
+      - text: Microsoft 365 Business Voice란 무엇인가요?
         url: /MicrosoftTeams/business-voice/whats-business-voice
-      - text: 전화 시스템 직접 라우팅
-        url: /MicrosoftTeams/direct-routing-landing-page
-      - text: 공통 지역 전화 설정
-        url: /MicrosoftTeams/set-up-common-area-phones
-    - title: Teams 콘텐츠 더 보기
+      - text: 전화 시스템 설정
+        url: /Microsoftteams/setting-up-your-phone-system
+      - text: 'Contoso 사례 연구: Teams 음성 마이그레이션'
+        url: /MicrosoftTeams/voice-case-study-overview
+    - title: Teams 기능성 확장
       links:
-      - text: 최종 사용자를 위한 도움말 콘텐츠
-        url: https://support.office.com/Teams
-      - text: Teams 기술 커뮤니티
-        url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-      - text: Teams 사용자 피드백 포럼
-        url: https://microsoftteams.uservoice.com/
-      - text: Teams 제품 정보
-        url: https://products.office.com/microsoft-teams/group-chat-software
-      - text: Teams 개발자 플랫폼
-        url: https://docs.microsoft.com/microsoftteams/platform/overview
+      - text: Microsoft Teams의 앱, 봇 및 커넥터
+        url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+      - text: Microsoft Teams를 위한 빌드 앱
+        url: /MicrosoftTeams/platform/overview
+      - text: Microsoft Power Platform과 통합
+        url: https://docs.microsoft.com/MicrosoftTeams/teams-power-platfom-integration
+      - text: Microsoft Teams 앱 보안 및 규정 준수
+        url: https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps
+      - text: Microsoft Viva - 직원 환경 및 참여
+        url: https://www.microsoft.com/microsoft-viva/
+    - title: 교육 및 산업
+      links:
+      - text: 원격 학습을 위해 Teams를 사용하는 동안 학생들을 안전하게 보호
+        url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
+      - text: 교육용 Microsoft Teams
+        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
+      - text: 의료
+        url: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
+      - text: 일선 근로자
+        url: /MicrosoftTeams/flw-quickstart
+      - text: 소매
+        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page
+    - title: 정부 기관
+      links:
+      - text: 정부 기관용 Teams
+        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page
+      - text: 정부 기관 - GCC 배포
+        url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc
+      - text: 정부 기관 - GCC 고배포
+        url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high
+      - text: 정부 기관 - DoD 배포
+        url: https://docs.microsoft.com/microsoftteams/plan-for-government-dod
+      - text: 정부 기관용 정책 패키지
+        url: https://docs.microsoft.com/microsoftteams/policy-packages-gov

@@ -1,9 +1,9 @@
 ---
-title: Teams용 휴대폰 및 디바이스
+title: Teams용 디바이스
 ms.author: dstrome
 author: dstrome
 manager: serdars
-ms.reviewer: dvank, kponnus
+ms.reviewer: divank
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
@@ -21,30 +21,28 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams가 최상의 결과를 내기 위해 인증된 데스크 및 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: e93756b1d7aaadb3027e0172d9495393be650e7b
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 7425ec0e637600e600987f43d85c7656e31919a4
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347839"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397533"
 ---
-# <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams에 대해 인증된 IP Phone
+# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증 디바이스
 
-IP Phones 인증 프로그램은 인증된 데스크 전화 및 전화 회의 전화를 사용하는 고객이 고품질의 오디오 통화 및 모임 경험을 경험할 수 있도록 합니다.
+Microsoft Teams 인증 프로그램은 인증된 데스크 전화 및 전화 회의 전화를 사용하는 고객이 고품질의 오디오 통화 및 모임 경험을 경험할 수 있도록 합니다.
 
-## <a name="announcing-certified-for-microsoft-teams"></a>Microsoft Teams 인증 발표
-
-고객에게 비즈니스용 Skype 인증 IP 휴대폰을 제공하는 것 외에도 Teams IP 전화 인증 프로그램의 일부로 Microsoft Teams에 대해 인증될 새 IP 전화 하드웨어의 가용성을 발표합니다. 이 인증 프로그램은 더 높은 성능 목표 및 오디오 품질 메트릭을 사용하여 더 높은 품질 표시줄을 보장합니다. 전화 공급업체는 이 더 높은 기준을 충족하기 위해 적극적으로 작업하고 있으며 올해 새로운 요구 사항에 맞설 자격을 을 수 있습니다. 일부 파트너는 Teams IP 휴대폰과 동일한 하드웨어에서 비즈니스용 Skype 서비스에 대한 지원을 제공하기 위해 작업하고 있습니다. Teams 인증 IP 휴대폰의 이점은 다음과 같습니다.
+Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 품질 메트릭을 사용하여 더 높은 품질 표시줄을 보장합니다. 파트너는 이 더 높은 기준을 충족하기 위해 적극적으로 작업하고 있으며 인증 요구 사항에 대한 디바이스를 적격화하고 있습니다. 일부 파트너는 Teams 휴대폰과 동일한 하드웨어에서 비즈니스용 Skype 서비스에 대한 지원을 제공하기 위해 작업하고 있습니다. Microsoft Teams 인증 디바이스의 이점은 다음과 같습니다.
 
 - 하드웨어 단추 통합 및 LED 알림에 대한 네이티브 Teams 환경
 - 일정 통합 및 원터치 모임 조인
-- Intune 통합을 사용하여 Microsoft 디바이스 관리 솔루션을 통해 배포 및 관리
+- Intune 통합을 통해 Teams 관리 센터를 통해 배포 및 관리
 
-## <a name="currently-certified-ip-phones"></a>현재 인증된 IP Phone
+## <a name="currently-certified-teams-phones"></a>현재 인증된 Teams 휴대폰
 
-다음 휴대폰은 Microsoft Teams에 대한 인증입니다.
+다음 디바이스는 Microsoft Teams 휴대폰 인증 프로그램에 따라 인증됩니다.
 
-| 전화 모델                            | 펌웨어 버전                                                                                                                                                                                                                           | 릴리스 날짜                 |
+|디바이스 모델                         | 펌웨어 버전                                                                                                                                                                                                                           | 릴리스 날짜                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | C450HD에서 지원되는 오디오 코드 확장 모듈 |C450HD_TEAMS_0.225                                        | 2021년 1월                 |
 | 오디오 코드 C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019년 3월                   |
@@ -67,27 +65,38 @@ IP Phones 인증 프로그램은 인증된 데스크 전화 및 전화 회의 �
 | Yealink CP 960| 73.15.0.20 | 2018년 12월|
 | Yealink T58 & T56 시리즈 | 58.15.0.20 | 2018년 12월 |
 
-## <a name="currently-certified-collaboration-bars"></a>현재 인증된 공동 작업 막대
+## <a name="currently-certified-teams-rooms-on-android"></a>Android에서 현재 인증된 Teams Rooms
 
-다음 공동 작업 막대는 Microsoft Teams에 대해 인증됩니다.
+다음 디바이스는 Android 인증 프로그램의 Microsoft Teams Rooms에서 인증됩니다.
 
-| 공동 작업 표시줄 모델 | 펌웨어 버전 | 릴리스 날짜  | 객실 크기(최대)                                         |
+| 디바이스 모델 | 펌웨어 버전 | 릴리스 날짜  | 객실 크기(최대)                                         |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Yealink MeetingBar A30       | 133.15.0.52    | 2021년 3월 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
+| Yealink CTP18 터치 콘솔  | 137.15.0.28    | 2021년 3월 | MeetingBar A20 및 MeetingBar A30과 호환 |
 | Yealink MeetingBar A20  | 133.15.0.19      | 2020년 11월 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
 | Poly Studio X30         | 3.1.1.216109     | 2020년 6월     | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
 | Poly Studio X50         | 3.1.1.216109     | 2020년 6월     | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
 | Yealink VC210           | 118.15.0.14      | 2020년 2월 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
 
-## <a name="currently-certified-teams-display"></a>현재 인증된 Teams 표시
-다음 Teams 표시는 Microsoft Teams에 대한 인증입니다.
+## <a name="currently-certified-teams-displays"></a>현재 인증된 Teams 표시
 
-| Teams 표시 모델 | 펌웨어 버전 | 릴리스 날짜  |                                         
+다음 디바이스는 Microsoft Teams 표시 인증 프로그램에 따라 인증됩니다.
+
+| 디바이스 모델 | 펌웨어 버전 | 릴리스 날짜  |                                         
 |:------------------------|:-----------------|:--------------|
 |Lenovo ThinkSmart 보기|CD-18781Y.201006.099|2020년 10월 |
 
-### <a name="product-release-information-for-teams-phones"></a>Teams Phone에 대한 제품 릴리스 정보
+## <a name="currently-certified-teams-panels"></a>현재 인증된 Teams 패널
+다음 디바이스는 Microsoft Teams 패널 인증 프로그램에 따라 인증됩니다.
 
-다음은 최신 Teams IP 전화 앱 및 펌웨어 버전입니다.
+| 디바이스 모델| 펌웨어 버전 | 릴리스 날짜  |                                         
+|:------------------------|:-----------------|:--------------|
+|Crestron TSS-770 | 1.003.0082 |2021년 2월 |
+|Crestron TSS-1070 | 1.003.0082 |2021년 2월 |
+
+### <a name="product-release-information-for-teams-phones"></a>Teams 휴대폰에 대한 제품 릴리스 정보
+
+다음은 최신 Teams 휴대폰 앱 및 펌웨어 버전입니다.
 
 #### <a name="app-versions"></a>앱 버전
 
@@ -116,9 +125,9 @@ IP Phones 인증 프로그램은 인증된 데스크 전화 및 전화 회의 �
 | Yealink VP59        | 91.15.0.50          | 2020 업데이트 #7           |
 | Yealink CP960       | 73.15.0.111       | 2020 업데이트 #7           |
 
-### <a name="product-release-information-for-collaboration-bars"></a>공동 작업 막대에 대한 제품 릴리스 정보
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android의 Teams Rooms에 대한 제품 릴리스 정보
 
-다음은 최신 Teams Collaboration Bar 앱 및 펌웨어 버전입니다.
+다음은 Android 앱 및 펌웨어 버전의 최신 Teams Rooms입니다.
 
 #### <a name="app-versions"></a>앱 버전
 
@@ -138,7 +147,7 @@ IP Phones 인증 프로그램은 인증된 데스크 전화 및 전화 회의 �
 | Poly Studio X30 | 3.2.3.280012          | 2020, 업데이트 #3    |
 | Poly Studio X50 | 3.2.3.280012          | 2020, 업데이트 #3    |
 
-### <a name="product-release-information-for-teams-display"></a>Teams 디스플레이에 대한 제품 릴리스 정보
+### <a name="product-release-information-for-teams-displays"></a>Teams 디스플레이에 대한 제품 릴리스 정보
 
 다음은 최신 Teams 디스플레이 앱 및 펌웨어 버전입니다.
 
@@ -169,8 +178,6 @@ Teams에 대한 자세한 내용은 Microsoft Teams에 액세스하는 방법을
 인증 프로그램에 참가하기를 원하는 공급업체인 경우 [](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 요구 사항 및 사용 가능한 프로그램에 대한 가입 방법을 참조하세요.
 
 ## <a name="additional-resources"></a>추가 리소스
-
-비즈니스용 Skype 및 Microsoft Teams 인증 [프로그램에 대해 자세히 알아보습니다.](https://docs.microsoft.com/SkypeForBusiness/certification/overview)
 
 [Microsoft Teams 휴대폰 및 인증된 디바이스를 탐색합니다.](https://products.office.com/microsoft-teams/across-devices/devices)
 

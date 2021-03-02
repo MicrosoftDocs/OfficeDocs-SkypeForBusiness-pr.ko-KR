@@ -16,14 +16,14 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 Teams 패널 디바이스를 사용하는 방법에 대한 지침을 제공합니다.
-ms.openlocfilehash: 9ff2b9ec969336ada04ed7a872cf3c5d8ea358ab
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348119"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395330"
 ---
-# <a name="use-microsoft-teams-panels"></a>Microsoft Teams 패널 사용
+# <a name="how-to-use-microsoft-teams-panels"></a>Microsoft Teams 패널을 사용하는 방법
 
 Microsoft Teams 패널은 모임 공간 바로 바깥에 탑재되는 소형 디지털 디스플레이 디바이스로, 일반적으로 입구 옆에 있습니다. 이러한 터치 스크린 패널은 모임 공간 및 예약된 모임에 대한 한눈에 보기를 제공하는 전용 Microsoft Teams 디바이스입니다. 선명한 색으로 코딩된 LED 및 홈 화면 표시기를 사용하여 거리에서 공간을 사용할 수 있는지 또는 예약할지 확인할 수 있습니다. Teams 패널을 사용하여 그 자리에서 애드워즈 모임에 사용할 수 있는 모임 공간을 예약할 수 있습니다.
 
@@ -63,7 +63,7 @@ Teams 패널 디바이스를 사용하여 다음을 합니다.
 **1-현재 시간, 일, 날짜 및 모임 공간 세부 정보** | 현재 시간, 날짜, 날짜 및 모임 공간 이름을 표시됩니다. 모임 공간 이름은 패널에 로그인한 리소스 계정의 이름입니다.
 **2-모임 공간 가용성 및 모임 세부 정보** | 모임 공간 가용성을 나타내고 모임 세부 정보를 표시합니다. 모임 [공간 가용성 및 모임 세부 정보 타일을 참조합니다.](#meeting-space-availability-and-meeting-details-tile)
 **3-예정된 일정** | 현재 시간에서 최대 24시간 동안 모임 공간 일정 및 가용성을 표시합니다. 사용할 수 있는 시간 슬롯과 예약된 시간을 확인하려면 위로 또는 아래로 스크롤합니다.
-**4-설정** | 설정 아이콘을 표시합니다. 탭하여 설정  화면을 열고 문제를 보고하거나 사용 가능한 디바이스 설정을 업데이트합니다.
+**4-설정** | 설정 **아이콘을** 표시됩니다. 문제를 보고하거나 사용 가능한 디바이스 설정을 업데이트하려면 탭합니다.
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>모임 공간 가용성 및 모임 세부 정보 타일
 
