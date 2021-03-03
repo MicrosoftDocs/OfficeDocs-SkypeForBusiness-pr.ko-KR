@@ -2,7 +2,7 @@
 title: 보기 전용 모임 환경
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
 audience: admin
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed7221192fdc3588856755b8be651065fdbf15ab
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397563"
+ms.locfileid: "50401322"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
 > [!Note]
-> 보기 전용 모임 환경은 2021년 3월 초에 제공됩니다. 이 기능은 2021년 3월 1일을 기본 OFF로 사용하도록 설정됩니다. 이 기능을 기본값으로 설정하려면 해당 날짜 이후에 기본 정책을 변경해야 합니다. PowerShell을 사용하여 정책을 사용하도록 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled` 설정합니다.
+> 보기 전용 모임 환경은 2021년 3월 초에 제공됩니다. 이 기능은 2021년 3월 1일을 기본 OFF로 사용하도록 설정됩니다. 이 기능을 기본값으로 설정하려면 해당 날짜 이후에 기본 정책을 변경해야 합니다. PowerShell을 사용하여 정책을 사용하도록 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 설정합니다.
 
 > [!Note]
-> 20,000명 참석자에 대한 보기 전용 환경이 일시적으로 증가했지만 2021년 6월 30일에는 10,000명으로 지원이 되감습니다.
+> 모임 또는 웨비나가 용량에 못미치면 Teams는 10,000명 보기 전용 브로드캐스트 환경을 수용하도록 원활하게 규모를 조정합니다. 또한 원격 작업의 증가가 이 시기에 올해 말까지 더 큰 20,000명 이상의 브로드캐스트를 활용합니다.
 
 Microsoft Teams를 사용하면 최대 10,000명이 Teams 모임에 참가할 수 있습니다. 주 모임의 용량에 도달하면 추가 참석자는 보기 전용 환경과 함께 참가합니다.
 
@@ -91,7 +91,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 Teams 보기 전용 환경을 통해 참석자들은 다음을 할 수 있습니다.
 
 - 주 Teams 모임의 참가자를 들어 듣습니다.
-- 활성 화자에 대한 비디오 피드를 참조하세요(활성 스피커가 비디오를 공유하는 경우).
+- 활성 스피커에 대한 비디오 피드를 참조하세요(활성 스피커가 비디오를 공유하는 경우).
 - 공유 데스크톱 기능을 사용하여 공유되는 콘텐츠를 참조하세요.
 
 보기 전용 참석자들은 모임에서 다음 옵션을 경험할 수 없습니다.

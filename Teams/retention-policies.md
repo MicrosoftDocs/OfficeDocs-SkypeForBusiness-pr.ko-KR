@@ -9,7 +9,7 @@ manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: Microsoft Teams의 보존 정책을 사용하여 내부 정책, 산업 규정 또는 법적 요구 사항을 준수하는 데 필요한 메시지를 보관하고 책임으로 간주되거나 법적 비즈니스 가치가 없는 메시지를 삭제합니다.
+description: Microsoft Teams의 보존 정책을 사용하여 내부 정책, 산업 규정 또는 법적 요구 사항을 준수하고 책임으로 간주되거나 법적 비즈니스 가치가 없는 메시지를 삭제하는 데 필요한 메시지를 보관합니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -19,17 +19,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b0197d9a5cf9ada93ac16ad083f293b573c4eed
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347658"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50401312"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams에 대한 보존 정책 관리
 
 > [!NOTE]
-> 보존 정책에 의해 채팅 및 메시지가 삭제된 메시지를 Teams에서 보는 사용자인 경우 보존 정책에 대한 Teams 메시지를 [참조하세요.](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
+> 보존 정책에 의해 채팅 또는 메시지가 삭제된 메시지가 Teams에 표시되면 보존 정책에 대한 Teams 메시지를 [참조하세요.](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
 > 
 > 이 페이지의 정보는 이러한 보존 정책을 관리하는 IT 관리자를 위한 정보입니다.
 
@@ -45,7 +45,7 @@ Teams에 대한 보존 정책에 대한 최소 라이선스 요구 사항은 Mic
 
 Teams 채팅 메시지는 채팅에 포함된 각 사용자의 사서함에 숨겨진 폴더에 저장되고 Teams 채널 메시지는 팀의 그룹 사서함의 유사한 숨겨진 폴더에 저장됩니다. 보존 정책이 적용된 메시지를 유지 관리하기 위해 콘텐츠의 복사본은 Exchange **복구** 가능한 항목 폴더의 하위 폴더로 기재홀드라는 숨겨진 폴더에 자동으로 **보관됩니다.** 이러한 메시지가 기재 홀드 폴더에서 영구적으로 삭제될 때까지 eDiscovery 도구로 검색할 수 있습니다.
 
-Teams 보존 정책에 포함 및 제외되는 내용 및 정책 구성에 따라 이러한 정책이 작동하는 방법에 대한 자세한 내용은 Microsoft Teams에 대한 보존에 대한 자세한 내용을 [참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
+Teams 보존 정책에 포함 및 제외되는 내용 및 정책 구성에 따라 이러한 정책이 작동하는 방법에 대한 자세한 내용은 Microsoft Teams 보존에 대한 자세한 내용을 [참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 
 > [!NOTE]
 > 이 페이지에서는 보존 정책이 메시지를 삭제하는 경우 지연이 표시될 수 있는 이유를 설명합니다. 예를 들어 보존 정책에서 구성한 만료 기간이 지난 후 최대 7일 후에 메시지가 표시될 수 있습니다.
