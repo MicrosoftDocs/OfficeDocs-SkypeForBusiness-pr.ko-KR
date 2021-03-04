@@ -1,5 +1,5 @@
 ---
-title: 정책으로 팀 관리
+title: 정책으로 Teams 관리
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad39b24ee177e8e8282c6ad948b69fbdf866aa56
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 368e71820100ba8cfccb28eef63864f47cd8ce85
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347686"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421303"
 ---
-# <a name="manage-teams-with-policies"></a>정책으로 팀 관리
+# <a name="manage-teams-with-policies"></a>정책으로 Teams 관리
 
 정책은 Teams 관리의 중요한 부분입니다. 이 문서를 사용하여 정책을 사용하여 조직에 혜택을 주는 방법을 탐색합니다.
 
