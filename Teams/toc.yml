@@ -181,32 +181,22 @@ items:
             href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
           - name: 비즈니스용 Skype 온-프레미스를 Teams로 업그레이드
             href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+          - name: 업그레이드 전략
+            href: upgrade-to-teams-on-prem-implement.md
       - name: '운영, 채택 및 최적화'
         href: continue-journey.md
       - name: 비즈니스용 Skype Online 단종
         href: skype-for-business-online-retirement.md
       - name: FAQ
         href: FAQ-journey.yml
-      - name: 기술 라이브러리
+      - name: 참조
         items:
-          - name: IT 관리자를 위한 지침 업그레이드
-            items:
-              - name: 개요
-                href: upgrade-to-teams-on-prem-overview.md
-              - name: 업그레이드 방법
-                href: upgrade-to-teams-on-prem-upgrade-methods.md
-              - name: 업그레이드 관리 도구
-                href: upgrade-to-teams-on-prem-tools.md
-              - name: 온-프레미스 비즈니스용 Skype를 사용하는 조직에 대한 고려 사항
-                href: upgrade-to-teams-on-prem-considerations.md
-              - name: 업그레이드 수행
-                href: upgrade-to-teams-on-prem-implement.md
-              - name: Teams와 비즈니스용 Skype의 공존
-                href: upgrade-to-teams-on-prem-coexistence.md
-              - name: 공존 모드-참조
-                href: migration-interop-guidance-for-teams-with-skype.md
-              - name: Teams 클라이언트 환경 및 공존 모드 준수
-                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: 업그레이드 관리 도구
+            href: upgrade-to-teams-on-prem-tools.md
+          - name: 공존 모드-참조
+            href: migration-interop-guidance-for-teams-with-skype.md
+          - name: Teams 클라이언트 환경 및 공존 모드 준수
+            href: teams-client-experience-and-conformance-to-coexistence-modes.md
           - name: 공존 및 업그레이드 설정 지정
             href: setting-your-coexistence-and-upgrade-settings.md
           - name: 무엇보다도 모임을 우선으로
