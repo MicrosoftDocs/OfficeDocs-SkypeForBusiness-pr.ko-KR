@@ -24,13 +24,13 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
-description: Microsoft 365 또는 Office 365의 오디오 회의에서 사용자가 전화로 모임에 전화를 걸 수 있는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 542e619d9a0af586df4028c24c731082fa7bf1d0
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: Microsoft 365 또는 Office 365에서 오디오 회의를 통해 사용자가 휴대폰에서 모임에 전화를 걸 수 있는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: e2103a9f1ccac8fc2a5891cc776c3faf84a29ae8
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031204"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460688"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365의 오디오 회의
 Microsoft 365 및 Office 365의 오디오 회의를 사용하면 사용자가 휴대폰에서 모임에 전화를 걸 수 있습니다. 오디오 회의를 통해 최대 250명의 전화 참석자가 참여할 수 있습니다.
@@ -50,7 +50,7 @@ Microsoft 365 및 Office 365의 오디오 회의를 사용하면 사용자가 �
 참석자가 모임에 참석한 후에는 전화를 걸어 다른 발신자를 비즈니스용 Skype 또는 Microsoft Teams 모임에 초대할 수도 있습니다. [다른 사용자가 참가할 수 있도록 Teams 모임에서 전화 걸기](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) 또는 [다른 사용자가 참가할 수 있도록 비즈니스용 Skype 모임에서 전화 걸기](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)를 참조하세요.
 
 ## <a name="what-does-it-cost"></a>비용은 얼마인가요?
-요금 정보는 [오디오 회의 요금](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2)을 참조하세요.
+요금 정보는 [오디오 회의 요금](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)을 참조하세요.
 
 ## <a name="where-is-it-available"></a>어디에서 사용할 수 있나요?
 오디오 회의를 통해 사용자는 유료 및 무료 전화 번호를 사용하여 회의에 전화를 걸 수 있습니다. 유료(서비스) 번호는 오디오 회의를 사용하도록 설정하면 조직에 공유 오디오 회의 번호로 자동 할당됩니다. 추가 도시에서 조직에 전용 유료 및 무료 전화 번호를 할당할 수 있습니다.
@@ -91,7 +91,7 @@ Microsoft 365 및 Office 365의 오디오 회의를 사용하면 사용자가 �
 
 - **비즈니스용 Skype 관리 센터 사용하기** 일부 국가/지역의 경우 비즈니스용 Skype 관리 센터를 사용하여 회의 브리지 번호를 얻을 수 있습니다. [서비스 전화 번호 받기](/microsoftteams/getting-service-phone-numbers)를 참조하세요.
     
-- **기존 서비스 전화 번호 포팅하기** 기존 번호를 현재 서비스 공급자 또는 통신 사업자에서 Microsoft 365 또는 Office 365로 포터하거나 이전할 수 있습니다. 이 작업을 수행하는 데 도움이 되는 자세한 내용은 [Teams로 전화 번호 이전](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.  
+- **기존 서비스 전화 번호 포팅하기** 현재 서비스 공급자 또는 휴대폰 통신사에서 기존 번호를 Microsoft 365 또는 Office 365로 포트 또는 전송할 수 있습니다. 이 작업을 수행하는 데 도움이 되는 자세한 내용은 [Teams로 전화 번호 이전](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.  
   
 - **새 전화 번호를 위한 요청 양식 사용하기** 경우에 따라(국가/지역에 따라) 비즈니스용 Skype 관리 센터를 사용하여 새 전화 번호를 받을 수 없거나 특정 전화 번호 또는 지역 코드가 필요할 수 있습니다. 그럴 경우 양식을 다운로드하여 다시 보내주세요. 자세한 내용은 [조직에서 전화번호 관리하기](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.
 

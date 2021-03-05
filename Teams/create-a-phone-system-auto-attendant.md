@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams에 대한 자동 참석자 설정 및 테스트 방법에 대해 자세히 알아보고 있습니다.
-ms.openlocfilehash: deb9bf013136bb8efd9171e5562de5e2ba1b631f
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 8aabdcdd8e5f58604e8b8d09524b6d096f62f7be
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347869"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460888"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -74,7 +74,7 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 
 자동 참석자가 통화에 응답할 때 인사말을 재생할지 선택해야 합니다.
 
-오디오 파일 재생을 **선택하면** 파일  업로드 단추를 사용하여 오디오로 저장된 녹음된 인사말 메시지를 업로드할 수 있습니다. WAV, . MP3 또는 . WMA 형식입니다. 기록은 5MB보다 클 수 있습니다.
+오디오 파일 **재생을** 선택하면 파일  업로드 단추를 사용하여 오디오로 저장된 녹음된 인사말 메시지를 업로드할 수 있습니다. WAV, . MP3 또는 . WMA 형식입니다. 기록은 5MB보다 클 수 있습니다.
 
 인사말  메시지 입력을 선택하면 자동 참석자가 통화에 응답할 때 입력한 텍스트(최대 1000자)를 읽습니다.
 
@@ -96,7 +96,7 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 
 키 매핑은 연속적일 수 없습니다. 예를 들어 키 0, 1 및 3이 옵션에 매핑된 메뉴를 만들 수 있으며, 두 키는 사용되지 않습니다.
 
-0 키를 구성한 경우 연산자에 매핑하는 것이 좋습니다. 연산자가 키로 설정되지 않은 경우 음성 명령 "Operator"도 사용하지 않도록 설정됩니다.
+0 키를 구성한 경우 연산자에 매핑하는 것이 좋습니다. 연산자가 키로 설정되어 있지 않은 경우 음성 명령 "Operator"도 사용하지 않도록 설정됩니다.
 
 각 메뉴 옵션에 대해 다음 설정을 지정합니다.
 
@@ -212,9 +212,9 @@ Teams 자동 참석자 계획을 읽고 큐를 호출하고 이 [](plan-auto-att
 
 자동 참석자가 외부에서 호출을 전송할 수 있도록 허용하기 위해 전제 구성표를 참조합니다. [](plan-auto-attendant-call-queue.md#prerequisites)  또한:
 
-- 통화 계획 번호가 [](calling-plans-for-office-365.md) 있는 리소스 계정의 경우 외부 전송 전화 번호를 E.164 형식으로 입력해야 합니다(+[국가 코드][지역 코드][전화 번호]).
+- 통화 계획 라이선스가 [](calling-plans-for-office-365.md)있는 리소스 계정의 경우 외부 전송 전화 번호를 E.164 형식으로 입력해야 합니다(+[국가 코드][지역 코드][전화 번호]).
 
-- 직접 라우팅 번호가 있는 리소스 계정의 경우 외부 전송 전화 번호 형식은 [SBC(세션](direct-routing-connect-the-sbc.md) 테두리 컨트롤러) 설정에 따라 달라집니다.
+- 전화 시스템 라이선스 및 직접 라우팅 온라인 음성 라우팅 정책을 사용하는 리소스 계정의 경우 외부 전송 전화 번호 형식은 [SBC(세션](direct-routing-connect-the-sbc.md) 테두리 컨트롤러) 설정에 따라 달라 습니다.
 
 표시되는 아웃바운드 전화 번호는 다음과 같이 결정됩니다.
 

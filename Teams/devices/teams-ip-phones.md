@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams가 최상의 결과를 내기 위해 인증된 데스크 및 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 7425ec0e637600e600987f43d85c7656e31919a4
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: ad0e89d51172f0e8704f805cc3d85875ffcf8728
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397533"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460748"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증 디바이스
 
@@ -44,14 +44,14 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 |디바이스 모델                         | 펌웨어 버전                                                                                                                                                                                                                           | 릴리스 날짜                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| C450HD에서 지원되는 오디오 코드 확장 모듈 |C450HD_TEAMS_0.225                                        | 2021년 1월                 |
-| 오디오 코드 C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019년 3월                   |
-| 오디오 코드 C448HD(CAP 모드만 해당)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019년 3월                   |
+| 오디오 코드 C470HD                      | 1.8.293                                                  | 2021년 1월                 |
+| 오디오 코드 C450HD                      | C450HD_TEAMS_0.225                                       | 2019년 3월                   |
+| 오디오 코드 C448HD(CAP 모드만 해당)      | C450HD_TEAMS_0.225                                       | 2019년 3월                   |
 |Crestron UC-2                           |1.0.1.46                                                  | 2020년 7월                    |
-| Crestron M100                          | 이 제품은 단종됩니다. 자세한 내용은 [Crestron의 웹 사이트에서 Crestron M100을](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 방문하세요. | 2020년 5월 11일로 중단 |
-| Crestron Flex UC-P100-T & UC-P110-T    | 이 제품은 단종됩니다. 자세한 내용은 Crestron의 웹 사이트에서 [UC Phone을](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) 참조하세요.                  | 2020년 5월 11일로 중단 |
+| Crestron M100                          | 이 제품은 단종됩니다. 자세한 내용은 [Crestron의 웹 사이트에서 Crestron M100을](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 방문하세요. | 단종(2020년 5월 11일) |
+| Crestron Flex UC-P100-T & UC-P110-T    | 이 제품은 단종됩니다. 자세한 내용은 Crestron의 웹 사이트에서 [UC Phone을](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) 참조하세요.                  | 단종(2020년 5월 11일) |
 | Lenovo ThinkSmart 보기                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | 2020년 4월                   |
-| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020년 4월                   |
+| Poly Trio C60, Trio C60 NR, Trio C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | 2020년 4월                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020년 1월                 |
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020년 1월                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019년 12월                |
@@ -110,20 +110,21 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치할 때 포함된 제품 릴리스 열에서 제품 릴리스를 찾아 설치된 해당 Microsoft Teams 앱, 회사 포털 및 관리 에이전트 버전을 확인할 **수** 있습니다. 그런 다음 위의 앱 버전 테이블에서 **제품 릴리스를** 찾아 봐야 합니다.
+디바이스에 새 펌웨어 버전을 설치할 때 Microsoft Teams 앱, 회사 포털 및 관리 에이전트의 해당 설치된 버전을 확인할 수 있습니다. 이렇게 하여 제품 릴리스 포함  열에서 제품 릴리스를 찾은 다음 이전 앱 버전 테이블에서 제품 **릴리스를 살펴** 봐야 합니다.
 
 | 디바이스 모델        | 펌웨어 버전     | 연도/포함된 제품 릴리스  |
 |:--------------------|:---------------------|:-------------------------|
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 업데이트 #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 업데이트 #7           |
+| Crestron UC-2       | 1.0.2.53              | 2020 업데이트 #7            |
 | Lenovo ThinkSmart 보기|CD-18781Y.200922.098 | 2020 업데이트 #6           |
-| Poly CCX400         | 6.2.23.0202         | 2020 업데이트 #7           |
+| Poly CCX400         | 6.2.23.0202       | 2020 업데이트 #7           |
 | Poly CCX500/CCX600  | 6.2.23.0202         | 2020 업데이트 #7          |
 | Poly Trio C60       | 6.2.23.0202          | 2020 업데이트 #7          |
-| Yealink T55/T56/T58 | 58.15.0.118         | 2020 업데이트 #7           |
-| Yealink MP56        | 122.15.0.27          | 2020 업데이트 #7           |
-| Yealink VP59        | 91.15.0.50          | 2020 업데이트 #7           |
-| Yealink CP960       | 73.15.0.111       | 2020 업데이트 #7           |
+| Yealink T55/T56/T58 | 58.15.0.122       | 2020 업데이트 #7           |
+| Yealink MP56        | 122.15.0.33         | 2020 업데이트 #7           |
+| Yealink VP59        | 91.15.0.54         | 2020 업데이트 #7           |
+| Yealink CP960       | 73.15.0.115      | 2020 업데이트 #7           |
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android의 Teams Rooms에 대한 제품 릴리스 정보
 
@@ -149,7 +150,7 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 ### <a name="product-release-information-for-teams-displays"></a>Teams 디스플레이에 대한 제품 릴리스 정보
 
-다음은 최신 Teams 디스플레이 앱 및 펌웨어 버전입니다.
+다음은 Microsoft Teams 디스플레이 앱 및 펌웨어에 대한 최신 버전입니다.
 
 #### <a name="app-versions"></a>앱 버전
 
@@ -175,9 +176,9 @@ Teams에 대한 자세한 내용은 Microsoft Teams에 액세스하는 방법을
 
 * * *
 
-인증 프로그램에 참가하기를 원하는 공급업체인 경우 [](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 요구 사항 및 사용 가능한 프로그램에 대한 가입 방법을 참조하세요.
+인증 프로그램에 참가하기를 원하는 공급업체인 경우 [](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 요구 사항 및 사용 가능한 프로그램에 가입하는 방법을 참조하세요.
 
-## <a name="additional-resources"></a>추가 리소스
+## <a name="more-resources"></a>추가 리소스
 
 [Microsoft Teams 휴대폰 및 인증된 디바이스를 탐색합니다.](https://products.office.com/microsoft-teams/across-devices/devices)
 

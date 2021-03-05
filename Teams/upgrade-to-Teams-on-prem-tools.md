@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afe6b57b5b2b430c056d49b29a752e55bd4a0afe
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 8c272cdd6eac98b8847b6f915d59b62444d16c97
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397543"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460438"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>IT 관리자를 위한 &mdash; Teams로 업그레이드하기 위한 도구
 
@@ -30,7 +30,7 @@ ms.locfileid: "50397543"
 
 업그레이드를 시작하기 전에 Microsoft는 중요한 업그레이드 개념 및 공존 동작을 설명하는 다음 문서를 권장합니다.
 
-- [Teams 및 비즈니스용 Skype의 공존](upgrade-to-teams-on-prem-coexistence.md)
+- [Teams 및 비즈니스용 Skype의 공존](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [공존 모드 - 참조](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams 클라이언트 환경 및 공존 모드 준수](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
@@ -43,7 +43,7 @@ ms.locfileid: "50397543"
 
 비즈니스용 Skype 모드를 사용하여 선택 기능 전환을 수행하거나 기본 아일랜드 구성에서 TeamsOnly 모드로 업그레이드하는 경우 TeamsUpgradePolicy는 이미 비즈니스용 Skype Online이 있는 사용자를 위한 기본 도구입니다. Teams의 다른 정책과 마찬가지로 TeamsUpgradePolicy를 사용자에게 직접 할당할 수 있습니다. 정책을 테넌트 전체 기본값으로 설정할 수도 있습니다. 사용자에 대한 할당은 테넌트 기본 설정보다 우선합니다.  Teams 관리 콘솔 및 PowerShell에서 정책을 관리할 수 있습니다.
 
-TeamsOnly 모드를 제외한 TeamsUpgradePolicy의 모든 모드를 비즈니스용 Skype온-프레미스에 있는 사용자에게 할당할 수도 있습니다. **TeamsOnly 모드는** 비즈니스용 Skype Online에 이미 있는 사용자에게만 할당할 수 있습니다. 비즈니스용 Skype 사용자 및 페더전드뿐만 아니라 Microsoft 365 Phone System 기능과 상호 연동할 수 있기 때문에 사용자가 비즈니스용 Skype Online에 있는 경우만 가능합니다. 또한 비즈니스용 Skype 온-프레미스 배포가 있는 경우 **TeamsOnly** 모드를 테넌트 전체 기본값으로 할당할 수 없습니다(Office 365가외의 위치를 지정하는 lyncdiscover DNS 레코드가 있는 경우 감지).
+TeamsOnly 모드를 제외한 TeamsUpgradePolicy의 모든 모드를 비즈니스용 Skype온-프레미스에 있는 사용자에게 할당할 수도 있습니다. **TeamsOnly 모드는** 비즈니스용 Skype Online에 이미 있는 사용자에게만 할당할 수 있습니다. 비즈니스용 Skype 사용자 및 페더전화 및 Microsoft 365 Phone System 기능과 상호 운영할 수 있기 때문에 사용자가 비즈니스용 Skype Online에 있는 경우만 가능합니다. 또한 비즈니스용 Skype 온-프레미스 배포가 있는 경우 **TeamsOnly** 모드를 테넌트 전체 기본값으로 할당할 수 없습니다(Office 365가외의 위치를 지정하는 lyncdiscover DNS 레코드가 있는 경우 감지).
 
 비즈니스용 Skype 계정이 있는 사용자는 [](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 비즈니스용 Skype온-프레미스 도구 Move-CsUser 사용하여 온라인으로 이동해야 합니다. 이러한 사용자는 1 또는 2단계에서 TeamsOnly로 이동할 수 있습니다.
 

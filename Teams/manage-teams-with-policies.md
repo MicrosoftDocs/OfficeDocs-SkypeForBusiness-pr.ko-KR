@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: Teams 정책에 대해 숙지합니다.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 368e71820100ba8cfccb28eef63864f47cd8ce85
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421303"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460498"
 ---
 # <a name="manage-teams-with-policies"></a>정책으로 Teams 관리
 
@@ -72,5 +72,6 @@ Microsoft Teams에서 다음 정책을 관리할 수 있습니다.
 
 * [Microsoft Teams에서 피드백 정책 관리](manage-feedback-policies-in-teams.md)
 * [Microsoft Teams에서 팀 정책 관리](teams-policies.md)
+* [활동 로그에서 정책 할당 보기](activity-log.md)
 * [Microsoft Teams에서 실시간 이벤트 설정](teams-live-events/set-up-for-teams-live-events.md)
 * [교육 정책 및 정책 패키지에 대한 팀](policy-packages-edu.md)

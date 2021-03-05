@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401312"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460658"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams에 대한 보존 정책 관리
 
@@ -41,9 +41,11 @@ Teams는 채팅 및 채널 메시지에 대한 보존 정책을 지원하기 때
 
 Teams에 대한 보존 정책에 대한 최소 라이선스 요구 사항은 Microsoft 365 E3입니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 서비스 설명 을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
-## <a name="how-teams-retention-policies-work"></a>Teams 보존 정책 작동 방식
+## <a name="how-teams-retentiondeletion-policies-work"></a>Teams 보존/삭제 정책 작동 방식
 
-Teams 채팅 메시지는 채팅에 포함된 각 사용자의 사서함에 숨겨진 폴더에 저장되고 Teams 채널 메시지는 팀의 그룹 사서함의 유사한 숨겨진 폴더에 저장됩니다. 보존 정책이 적용된 메시지를 유지 관리하기 위해 콘텐츠의 복사본은 Exchange **복구** 가능한 항목 폴더의 하위 폴더로 기재홀드라는 숨겨진 폴더에 자동으로 **보관됩니다.** 이러한 메시지가 기재 홀드 폴더에서 영구적으로 삭제될 때까지 eDiscovery 도구로 검색할 수 있습니다.
+Teams 채팅 메시지는 두 위치에 저장됩니다. 기본 복사본은 컴파일 정책에 사용되는 보조 복사본인 Azure에 저장되고 채팅에 포함된 각 사용자의 Exchange 온라인 사서함에 숨겨진 폴더에 저장되고 Teams 채널 메시지는 팀의 그룹 사서함의 유사한 숨겨진 폴더에 저장됩니다. 채팅 메시지 삭제 정책이 사용자 또는 팀에 적용되면 보조 복사본이 먼저 삭제되고 기본 복사본이 뒤따라 삭제됩니다. eDiscovery 또는 Teams 검색은 보조 복사본에 저장된 메시지를 기반으로 하여 보조 복사본을 삭제하면 메시지를 검색할 수 없습니다. 
+
+채팅 메시지 보존 포일시가 사용자 또는 팀에 적용되고 메시지가 삭제된 경우(다른 삭제 정책 또는 사용자 자체로 인해) 주 복사본이 삭제되면 Teams 클라이언트가 메시지가 사라지는 것을 볼 수 있지만 보조 복사본은 **Exchange** 복구 가능한 항목 폴더의 하위 폴더인 **기재홀드라는** 숨겨진 폴더로 자동으로 이동됩니다. 이러한 메시지가 기재 홀드 폴더에서 영구적으로 삭제될 때까지 eDiscovery 도구로 검색할 수 있습니다.
 
 Teams 보존 정책에 포함 및 제외되는 내용 및 정책 구성에 따라 이러한 정책이 작동하는 방법에 대한 자세한 내용은 Microsoft Teams 보존에 대한 자세한 내용을 [참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 

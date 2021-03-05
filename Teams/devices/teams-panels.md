@@ -16,18 +16,18 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 이 문서에서는 Microsoft Teams 패널에서 지원하는 기능에 대한 개요를 제공합니다.
-ms.openlocfilehash: 99c1c90734a72f6e98ee1ca9e862316445358d3c
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e22a49d4cba45507649ad5c15bbb626b77fe800a
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395340"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460508"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 
 Microsoft Teams 패널은 모임 공간 바로 바깥에 탑재되는 소형 터치스크린 디바이스로, 일반적으로 입구 옆에 있습니다. 팀 패널은 위치 및 모임 세부 정보를 한눈에 보고 현장에서 사용 가능한 모임 공간을 예약할 수 있는 기능을 제공합니다. 풍부하고 큰 텍스트 및 색으로 코딩된 표시기를 사용하면 멀리서 모임 공간의 가용성을 볼 수 있습니다.
 
-Teams 패널은 Teams 또는 Outlook 365 일정 애플리케이션을 통해 예약된 모임 세부 정보를 표시하는 전용 Microsoft Teams 디바이스입니다. 모임 세부 정보가 두드러진 경우 참석자들은 올바른 모임 공간에 있는지, 올바른 시기에, 올바른 모임에 적합한지 확인할 수 있습니다.
+Teams 패널은 Teams 또는 Outlook 365 일정 애플리케이션을 통해 예약된 모임 세부 정보를 표시하는 전용 Microsoft Teams 디바이스입니다. 모임 세부 정보가 두드러진 경우 참석자들은 올바른 모임 공간에 있는지, 올바른 모임에 적합한지 확인할 수 있습니다.
 
 이 문서에서는 Teams 패널에 대한 개요를 제공하며 조직의 Teams 패널 디바이스를 계획, 배달 및 관리하는 데 도움이 될 수 있습니다.
 
@@ -115,7 +115,9 @@ Teams 패널에 대한 Microsoft 365 리소스 계정을 설정하려면 Microso
 >
 >- 패널을 설치하는 모임 공간에 대해 회의실 리소스 계정이 이미 설정되어 있는 경우 동일한 회의실 리소스 계정을 사용하여 패널 디바이스에 로그인합니다. 그러나 회의실 리소스 계정에 패널 리소스 계정으로 사용하기 위해 할당된 Microsoft Teams Rooms 표준 라이선스가 있는지 확인하세요.
 >
->- Teams 패널을 설치하는 모임 공간에 Microsoft Teams Rooms가 이미 배포된 경우 리소스 [계정에는 Microsoft Teams Rooms](../rooms/rooms-licensing)라이선스가 이미 있습니다. 이러한 경우 패널을 배포하기 위해 별도의 Microsoft Teams Rooms 표준 라이선스를 구입할 필요가 없습니다. 관리자는 동일한 공간에 대해 Microsoft Teams Rooms와 동일한 자격 증명을 가진 패널 디바이스에 로그인합니다.
+>- Teams 패널을 설치하는 모임 공간에 Microsoft Teams Rooms가 이미 배포된 경우 리소스 [계정에는 Microsoft Teams Rooms](../rooms/rooms-licensing.md)라이선스가 이미 있습니다. 이러한 경우 패널을 배포하기 위해 별도의 Microsoft Teams Rooms 표준 라이선스를 구입할 필요가 없습니다. 관리자는 동일한 공간에 대해 Microsoft Teams Rooms와 동일한 자격 증명을 가진 패널 디바이스에 로그인합니다.
+>
+>- 여러 개의 입구가 있는 회의실 또는 회의실과 같은 대규모 모임 공간의 경우 각 입구에 하나의 패널 디바이스를 탑재할 수 있습니다. 단일 모임 공간에 속하는 여러 패널은 동일한 리소스 계정을 공유하고 동일한 자격 증명으로 로그인합니다. 동일한 공간에 대해 각 패널에 대해 별도의 리소스 계정을 만들 필요가 없습니다.
 
 > [!TIP]
 > 실제 Teams 패널 설치에 앞서 리소스 계정을 만드는 것이 좋습니다.

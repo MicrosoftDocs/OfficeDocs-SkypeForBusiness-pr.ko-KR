@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430c64fed77412ca555048adf3cf5e323fa20856
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: adefa7a7ca948363f3d331c4500619e81bbc1ea8
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397593"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460608"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams 및 비즈니스용 Skype 공존 및 상호 연동성 이해
 
@@ -60,7 +60,7 @@ ms.locfileid: "50397593"
 
 기본적으로 사용자는 비즈니스용 Skype와 함께 유사하고 겹치는 기능을 제공하는 두 개의 별도 솔루션으로 Teams를 실행할 수 있습니다. 기능에는 현재 상태, 채팅, 통화 및 모임이 포함됩니다. 또한 Teams 사용자는 팀 및 채널과 같은 새로운 공동 작업 기능, Microsoft 365 또는 Office 365의 파일에 대한 액세스 및 애플리케이션을 활용할 수 있습니다.
 
-이 공존 **모드에서는 Islands라는** 각 클라이언트 애플리케이션이 별도 섬으로 운영됩니다. 비즈니스용 Skype는 비즈니스용 Skype와 대화하고 Teams는 Teams와 대화합니다. 사용자는 두 클라이언트를 모두 실행해야 하고 통신이 시작된 클라이언트에서 기본적으로 통신할 수 있습니다. 따라서 섬 모드에서 상호 연동성이 **필요하지** 않습니다.
+이 공존 **모드에서는 Islands라는** 각 클라이언트 애플리케이션이 별도 섬으로 작동합니다. 비즈니스용 Skype는 비즈니스용 Skype와 대화하고 Teams는 Teams와 대화합니다. 사용자는 두 클라이언트를 모두 실행해야 하고 통신이 시작된 클라이언트에서 기본적으로 통신할 수 있습니다. 따라서 섬 모드에서 상호 연동성이 **필요하지** 않습니다.
 
 비즈니스용 Skype 환경을 혼동하거나 회귀하지 않도록 비즈니스용 Skype는 Teams **Islands** 모드에서 처리되지 않는 다음 통합을 처리합니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "50397593"
 > 제도 **모드에서** 페더리드 사용자(조직 외부 사용자)의 모든 메시지와 통화가 비즈니스용 Skype로 배달됩니다. **Teams Only** 모드로 업그레이드한 후 조직 외부의 모든 메시지와 통화가 Teams로 배달됩니다.
 
 > [!Tip]
-> 비즈니스용 Skype Online 고객이 권장하는 경로는 기본 제도 모드로 시작하고, 조직에서 Teams 채택 포화 상태 를 구동한 다음 **Teams 전용** 모드로 빠르게 이동하는 것입니다.  프레미스 및 하이브리드 고객, 특히 복잡한 고객은  팀 공동 작업 모드가 아닌 시작 지점으로 비즈니스용 Skype 공동  작업 모드를 배포하고, 적절한 경우 팀 공동 작업 및 모임 모드(즉, 모임 우선)를 통해 비즈니스용 Skype로 진행하고 조직에서 Teams를 채택할 준비가 된 경우 **Teams 전용** 모드로 진행할 수 있습니다. 
+> 비즈니스용 Skype Online 고객이 권장하는 경로는 기본 제도 모드로 시작하고, 조직에서 Teams 채택 포화 상태로 이동한 다음 **Teams 전용** 모드로 빠르게 이동하는 것입니다.  프레미스 및 하이브리드 고객, 특히 복잡한 고객은  팀 공동 작업 모드가 아닌 시작 지점으로 비즈니스용 Skype 공동  작업 모드를 배포하고, 적절한 경우 팀 공동 작업 및 모임 모드(즉, 모임 우선)를 통해 비즈니스용 Skype로 진행하고 조직에서 Teams를 채택할 준비가 된 경우 **Teams 전용** 모드로 진행할 수 있습니다. 
 
 ### <a name="teams-only"></a>Teams Only
 
@@ -105,7 +105,7 @@ Teams **전용 모드에서 Teams는** SIP/Tel 프로토콜의 기본 앱입니�
 
 팀 개인 채팅, 통화 및 모임 계획은 기본적으로 이 모드에서 해제됩니다.
 
-비즈니스용 Skype 서버의 시작 지점을 프레미스 또는 하이브리드로 전환하는 조직은 사용자에게 통신에 대한 상호 운영성 및 예측성을 제공하려는 경우 이 모드를 아일랜드 모드의 대안으로 고려해야 합니다( 아일랜드 모드에서 채택  포화에 대한 사용과는 반대로) Teams로의 업그레이드를 예측할 수 있는 타임라인을 갖는 것이 좋습니다. 
+비즈니스용 Skype 서버의 시작 지점을 프레미스 또는 하이브리드로 전환하는 조직은 사용자에게 통신에 대한 상호 운영성과 예측성을 제공하려는 경우 이 모드를 아일랜드 모드의 대안으로 고려해야 합니다( 아일랜드 모드에서 채택 포화에 대한 사용이 아니라 Teams로의 업그레이드를 예측할 수 있는 타임라인을 갖는 경우).  
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>Teams 공동 작업 및 모임이 있는 비즈니스용 Skype(모임 우선)라고도 합니다.
 
@@ -173,7 +173,7 @@ Teams **전용 모드에서 Teams는** SIP/Tel 프로토콜의 기본 앱입니�
 - Markdown, rich text 및 전체 이모티콘 집합은 Teams 또는 비즈니스용 Skype에서 지원되지 않습니다. Teams 채팅의 작성 상자의 다른 네이티브 기능은 지원되지 않습니다.
 - Teams와 비즈니스용 Skype 간에 화면 공유(데스크톱 또는 앱 공유)는 기본적으로 지원되지 않습니다. 그러나 인터프 에스컬레이터를 통해 지원됩니다.
 - Teams의 그룹 채팅(다중 파티 대화)은 Teams를 사용하는 참가자만 포함할 수 있습니다.
-- 비즈니스용 Skype의 여러 파티 IM 대화(그룹 채팅)에는 비즈니스용 Skype를 사용하는 참가자만 포함할 수 있습니다. 그러나 비즈니스용 Skype에서 다중 파티로의 상호프 에스컬레이터를 사용할 수 있습니다.
+- 비즈니스용 Skype의 다중 파티 IM 대화(그룹 채팅)에는 비즈니스용 Skype를 사용하는 참가자만 포함할 수 있습니다. 그러나 비즈니스용 Skype에서 다중 파티로의 상호프 에스컬레이터를 사용할 수 있습니다.
 - Teams 및 Skype for Business 사용자가 모두 관련된 다중 파티 통화로 진행되는 피어 투 피어 음성 또는 화상 통화를 에스컬링하는 것은 지원되지 않습니다.
 - 양자 채팅에 대한 파일 전송 또는 그룹 채팅의 파일 첨부 파일 전송(Teams에서 비즈니스용 Skype로, 그 반대의 경우도 마찬가지)은 지원되지 않습니다.
 - 비즈니스용 Skype 영구 채팅과 상호 연동성은 없습니다.
@@ -186,7 +186,7 @@ Teams **전용 모드에서 Teams는** SIP/Tel 프로토콜의 기본 앱입니�
 
 Interop 에스컬레이터는 관리되는 에스컬레이터를 통해 모임에 대한 네이티브 인터로프 기능을 보완하는 것으로 구성됩니다. 모임은 어떤 클라이언트에 관계 없이 누구나 사용할 수 있는 풍부한 환경을 제공합니다.
 
-Teams 사용자가 인터프 에스컬레이터를 트리거하면 Teams 모임이 만들어집니다. 비즈니스용 Skype 사용자가 트리거하면 비즈니스용 Skype 모임이 만들어집니다. 두 경우 모두 만든 모임은 모임 현재 모임입니다. 이는 사용자의 일정에 반영되지 않습니다. 
+Teams 사용자가 인터프 에스컬레이터를 트리거하면 Teams 모임이 만들어집니다. 비즈니스용 Skype 사용자가 트리거하면 비즈니스용 Skype 모임이 만들어집니다. 두 경우 모두 만든 모임은 모임 현재 모임입니다. 이 모임은 사용자의 일정에 반영되지 않습니다. 
 
 다른 파티는 상호 채팅을 통해 모임 조인 링크를 수신하고 해당 링크를 클릭하여 조인합니다. 비즈니스용 Skype 사용자에게 Teams 계정이 있으며 Teams 사용자가 초대하는 경우 인증된 모임에 참가합니다. 그렇지 않으면 익명 참가자로 참가합니다. 반대로 Teams 사용자는 거의 항상 비즈니스용 Skype 계정과 비즈니스용 Skype 클라이언트를 사용하여 인증된 참가자로 비즈니스용 Skype 모임에 참가할 수 있지만, 예를 들어 Skype 모임 앱을 사용하여 익명 참가자로 참가할 수도 있습니다.
 
@@ -236,12 +236,10 @@ Teams 모임으로의 이 에스컬레이터는 테넌트 내 인터팝 및 테�
 
 - [모임](#meetings)
 - [상호 연동성](#interoperability)
-- [팀 대화 스레드-Interop 및 네이티브 스레드](#teams-conversations---interop-versus-native-threads)
+- [Interop 및 네이티브 대화 스레드](#interop-versus-native-conversation-threads)
 - [현재 상태](#presence)
 - [페더레이션](#federation)
 - [연락처](#contacts)
-
-
 
 ### <a name="meetings"></a>모임
 
@@ -278,7 +276,7 @@ Teams 및 [비즈니스용](#interoperability-of-teams-and-skype-for-business)Sk
 
 - 비즈니스용 Skype 사용자가 2018 이상에서 클라이언트를 사용하고 콘텐츠를 공유하려고 하는 경우 비즈니스용 Skype 모임이 자동으로 생성되고 해당 모임에 대한 초대 링크가 Teams 사용자의 클라이언트로 전송됩니다. 링크를 클릭하면 Teams 사용자가 비즈니스용 Skype 모임에 참가하려고 합니다. Teams 사용자에게 비즈니스용 Skype 클라이언트가 설치되어 있는 경우 해당 클라이언트가 열리며 사용자가 로그인하라는 메시지가 표시됩니다(아직 로그인하지 않은 경우).  Teams 사용자에게 비즈니스용 Skype 클라이언트가 설치되어 있지 않은 경우 웹 버전을 사용하라는 메시지가 표시됩니다. 두 사용자가 모두 로그인하면 비즈니스용 Skype 모임에 있으며 필요한 경우 공유할 수 있습니다.
 
-### <a name="teams-conversation-threads---interop-versus-native-threads"></a>팀 대화 스레드 - Interop 및 네이티브 스레드
+### <a name="interop-versus-native-conversation-threads"></a>Interop 및 네이티브 대화 스레드
 
 상호 운영 통신은 네이티브 Teams 대화의 모든 기능을 지원하지 않습니다. Teams 클라이언트는 Teams-to-Teams 및 Teams-to-Skype 비즈니스 통신에 대해 별도의 대화 스레드를 유지 관리합니다. 이러한 대화는 사용자 인터페이스에서 다르게 렌더링됩니다. Interop 스레드는 다음을 통해 일반 네이티브 Teams 스레드와 차별화할 수 있습니다.
 
@@ -322,7 +320,7 @@ Teams 및 [비즈니스용](#interoperability-of-teams-and-skype-for-business)Sk
 - 받는 사람이 동일한 테넌트에 있는 경우 Teams에서 시작된 채팅 및 통화가 Teams에 있습니다.
 - 비즈니스용 Skype에서 시작된 채팅 및 통화는 항상 비즈니스용 Skype에 있습니다.
 
-페더리된 채팅은 네이티브 스레드 또는 인터프 스레드일 수 있습니다. 팀 [대화 ---interop-vs vs-native-threads 를 참조합니다.](#teams-conversations---interop-versus-native-threads)
+페더리된 채팅은 네이티브 스레드 또는 인터프 스레드일 수 있습니다. 네이티브 대화 스레드와 [Interop을 참조합니다.](#interop-versus-native-conversation-threads)
 
 - 받는 사람 및 보낸 사람이 TeamsOnly 업그레이드 모드인 경우 대화는 모든 풍부한 메시징 및 통화 기능을 포함하는 네이티브 채팅 환경이 됩니다. 자세한 내용은 Teams의 외부(페더리화) 사용자에 대한 네이티브 채팅 환경을 [읽어보아야 합니다.](native-chat-for-external-users.md) 
 
