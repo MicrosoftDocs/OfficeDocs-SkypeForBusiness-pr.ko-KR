@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 외부 액세스(페더레이션) 및 게스트 액세스를 사용하여 Microsoft Teams에서 외부 조직의 사용자와 통화, 채팅, 검색 및 추가하는 방법을 알아봅니다.
-ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421323"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461048"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>게스트 액세스 및 외부 액세스를 사용하여 조직 외부 사용자와 공동 작업
 
@@ -43,6 +43,9 @@ Teams, 비즈니스용 Skype(온라인 또는온-프레미스) 또는 Skype를 �
 ![외부 액세스 설정 스크린샷](media/external-access-federation-settings.png)
 
 외부 액세스를 구성하는 경우 [외부 액세스 관리](manage-external-access.md)를 참조하세요. 
+
+>[!NOTE]
+>Microsoft Teams 무료 라이선스는 외부 액세스를 지원하지 않습니다.
 
 ## <a name="guest-access"></a>게스트 액세스
 
@@ -65,8 +68,8 @@ Teams에서 게스트 액세스를 구성하려면 [팀에서 게스트와 공�
 | 다른 조직의 다른 사용자가 전화 또는 채팅을 할 수 있는지 확인 | 예 | 예<sup>1</sup> |
 | 다른 조직의 사용자 검색 | 예<sup>2</sup> | 아니요 |
 | 파일 공유 | 아니요 | 예 |
-| 부재중 메시지 확인 | 아니요 | 예 |
-| 다른 조직의 다른 사용자 차단 | 아니요 | 예 |
+| 다른 조직의 사용자 부재 중 메시지 보기 | 아니요 | 예 |
+| 다른 조직의 사용자 차단  | 아니요 | 예 |
 | @멘션 사용 | 예<sup>3</sup> | 예 |
 
 ### <a name="things-people-outside-your-organization-can-do"></a>조직 외부 사용자가 할 수 있는 일
