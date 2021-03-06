@@ -315,16 +315,12 @@ items:
         href: enable-features-office-365.md
       - name: 정책 관리
         items:
+          - name: 개요
+            href: manage-teams-with-policies.md
           - name: 사용자에게 정책 할당
             href: assign-policies.md
           - name: 활동 로그에서 정책 과제 보기
             href: activity-log.md
-          - name: Teams에서 앱 사용 권한 정책 관리
-            href: teams-app-permission-policies.md
-          - name: Teams에서 앱 설정 정책 관리
-            href: teams-app-setup-policies.md
-          - name: Teams에서 사용자 지정 앱 정책 및 설정 관리
-            href: teams-custom-app-policies-and-settings.md
           - name: Teams에서 피드백 정책 관리
             href: manage-feedback-policies-in-teams.md
           - name: Teams에서 정책 패키지 관리
@@ -773,6 +769,8 @@ items:
     items:
       - name: Teams 음성 솔루션
         href: cloud-voice-landing-page.md
+      - name: Teams에서 음성 및 통화 정책 관리
+        href: voice-and-calling-policies.md
       - name: 전화 시스템
         items:
           - name: 전화 시스템이란?
@@ -1273,7 +1271,9 @@ items:
         items:
           - name: 개요
             href: manage-apps.md
-          - name: Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 권한 부여
+          - name: Teams에서 앱 정책 관리
+            href: app-policies.md
+          - name: 앱 사용 권한 보기 및 관리자 동의 부여
             href: app-permissions-admin-center.md
           - name: 리소스별 승인
             href: resource-specific-consent.md
@@ -1287,6 +1287,12 @@ items:
             href: Office-365-custom-connectors.md
           - name: 비표준 사용자에 대한 Teams 앱 동작
             href: non-standard-users.md
+          - name: Teams에서 앱 사용 권한 정책 관리
+            href: teams-app-permission-policies.md
+          - name: Teams에서 앱 설정 정책 관리
+            href: teams-app-setup-policies.md
+          - name: Teams에서 사용자 지정 앱 정책 및 설정 관리
+            href: teams-custom-app-policies-and-settings.md
   - name: 산업 및 정부 지침
     items:
       - name: 개요
