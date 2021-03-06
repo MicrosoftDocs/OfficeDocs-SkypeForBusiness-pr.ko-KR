@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: dbab559da8062fa30fb1b42e632baabe2c50fc63
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196792"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460448"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -36,14 +36,14 @@ ms.locfileid: "50196792"
 |-----------|---------------|
 |사용자가 만들 수 있는 팀의 수 | 250개체 제한 적용&sup1;         |
 |사용자가 구성원이 될 수 있는 그룹 수|1,000&sup2;|
-|팀 구성원 수  | 10,000<sup>6</sup>     |
+|팀의 구성원 수 | 25,000<sup>6</sup>     |
 |팀당 소유자 수 | 100   |
 |테넌트에 허용되는 조직 전체 팀 수 | 5     |
 |[조직 전체 팀](create-an-org-wide-team.md)의 구성원 수 | 10,000       |
 |전역 관리자가 만들 수 있는 팀의 수        |  500,000   |
 |Microsoft 365 또는 Office 365 조직이 보유할 수 있는 팀 개수    | 500,000&sup3;     |
-|팀당 채널 수    | 200(삭제된 채널 포함)&sup4;         |
-|팀당 비공개 채널 수    |30| (삭제된 채널 포함)&sup4;
+|팀당 채널 수    | 200(삭제된 채널 포함)<sup>4</sup>        |
+|팀당 비공개 채널 수    |30(삭제된 채널 포함)<sup>4</sup>        |
 |비공개 채널 회원수    |250|
 |팀으로 가져올 수 있는 전자 메일 그룹, 보안 그룹 또는 Office 365 그룹의 최대 크기입니다.    |3,500|
 |Office 365 그룹에서 팀으로 전환할 수 있는 최대 구성원 수    |10,000<sup>6</sup>     |
@@ -59,7 +59,7 @@ ms.locfileid: "50196792"
 
 <sup>5</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 수, 반응이 포함되기 때문에 대략적인 한도입니다.
 
-<sup>6</sup> GCC Teams에서는 5,000명만 수용할 수 있고 GCCH/DoD Teams에서는 2,500명만 수용할 수 있습니다.
+<sup>6</sup> GCC 팀에서는 25,000명을 수용할 수 있지만 GCCH/DoD 팀에서는 2,500명만 수용할 수 있습니다. 또한 팀/채널 멘션은 10,000명이 넘는 구성원이 있는 팀에서 차단됩니다.
 
 ## <a name="messaging"></a>메시징
 
