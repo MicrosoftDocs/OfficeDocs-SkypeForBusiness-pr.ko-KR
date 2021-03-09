@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams가 최상의 결과를 내기 위해 인증된 데스크 및 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: ad0e89d51172f0e8704f805cc3d85875ffcf8728
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 319ddccf45f9930f69d6ff58b3da2347f2f7b9f5
+ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460748"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50558427"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증 디바이스
 
@@ -69,9 +69,9 @@ Microsoft Teams 인증 프로그램은 더 높은 성능 목표 및 오디오 �
 
 다음 디바이스는 Android 인증 프로그램의 Microsoft Teams Rooms에서 인증됩니다.
 
-| 디바이스 모델 | 펌웨어 버전 | 릴리스 날짜  | 객실 크기(최대)                                         |
+| 디바이스 모델 | 펌웨어 버전 | 릴리스 날짜  | 방 크기                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| Yealink MeetingBar A30       | 133.15.0.52    | 2021년 3월 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
+| Yealink MeetingBar A30       | 133.15.0.52    | 2021년 3월 | 중간 크기 방(4.5m x 6m) |
 | Yealink CTP18 터치 콘솔  | 137.15.0.28    | 2021년 3월 | MeetingBar A20 및 MeetingBar A30과 호환 |
 | Yealink MeetingBar A20  | 133.15.0.19      | 2020년 11월 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
 | Poly Studio X30         | 3.1.1.216109     | 2020년 6월     | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) |
