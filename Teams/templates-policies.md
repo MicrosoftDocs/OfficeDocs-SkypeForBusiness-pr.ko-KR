@@ -18,15 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 관리 센터에서 Teams 템플릿을 관리하는 방법 자세히 알아보기
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507971"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569014"
 ---
-# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>관리 센터에서 Teams 템플릿 만들기 및 관리
+# <a name="manage-team-templates-in-the-admin-center"></a>관리 센터에서 팀 템플릿 관리
 
 관리 센터에서 템플릿 정책을 만들어 최종 사용자가 볼 수 있는 Teams 템플릿을 관리합니다. 각 템플릿 정책 내에서 표시되거나 숨겨진 템플릿을 지정할 수 있습니다.
 사용자가 지정된 Teams 템플릿의 하위 집합만 볼 수 있도록 다른 템플릿 정책에 다른 사용자를 할당합니다.

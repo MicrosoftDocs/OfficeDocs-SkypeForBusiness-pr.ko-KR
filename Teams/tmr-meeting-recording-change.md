@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d18f6b5ef5b4668324a68b4456cd3ad5aa4b7364
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: 0431b7ebd385f2ad17d659e238f54b4ebb1ab20a
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507981"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569094"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
 
@@ -74,26 +74,25 @@ Microsoft Teams에는 모임 기록을 저장하는 새로운 방법이 있습�
 > [!Note]
 > 팀 모임 정책 변경 내용이 전파하는 데 시간이 걸릴 수 있습니다. 설정한 후 몇 시간 후에 다시 확인한 다음, 로그인하고 다시 로그인합니다.
 
-1. 비즈니스용 Skype Online PowerShell을 설치합니다.
+1. Teams PowerShell PowerShell을 설치합니다.
 
    > [!NOTE]
    > 비즈니스용 Skype Online 커넥터는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용하는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다. [PowerShell을 사용하여 비즈니스용 Skype Online 관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
 
-    1. 비즈니스용 [Skype Online PowerShell을 다운로드합니다.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
+1. 관리자로 PowerShell을 실행합니다.
 
-    1. 프롬프트에 따라 설치합니다.
+2. [Teams PowerShell 모듈을 설치합니다.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
 
-    1. 컴퓨터를 다시 시작합니다.
+3. MicrosoftTeams 모듈을 가져오고 Teams 관리자로 로그인합니다.
 
-2. 관리자로 PowerShell을 실행합니다.
 
-3. SkypeOnline 커넥터를 가져오고 Teams 관리자로 로그인합니다.
+```powershell
+  # When using Teams PowerShell Module
 
-   ```powershell
    Import-Module MicrosoftTeams
-   $sfbSession = New-CsOnlineSession
-   Import-PSSession $sfbSession
-   ```
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
 4. [Set-CsTeamsMeetingPolicy를](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 사용하여 Stream Storage에서 비즈니스용 OneDrive 및 SharePoint로 전환하는 Teams 모임 정책을 설정합니다.
 
